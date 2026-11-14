@@ -24,11 +24,11 @@
   },
   "uncertain": [
     "His own life is thin in the sources. No source used here gives his family, his birth or his death, and the sources disagree on his orders. What is known comes from his two dedicatory letters and from Sidonius Apollinaris's letters to and about him. Those letters are not among the sources used here and are known only through Wilhelm Levison's summary and quotations.",
-    "Whether he was a cleric. Levison cannot say whether he was a cleric or a layman given to the religious life. The headings of some manuscripts of an interpolated second Life of Germanus call him a priest. W. J. Rees and an unsigned note in Migne's Marius Mercator also call him a priest. Isidore of Seville calls him a bishop, which Levison counts an error. Levison suggests the error may come from the copy Isidore used, since a Spanish manuscript also names him bishop, or from the word sinner after his name, a word bishops of that age often used.",
+    "Whether he was a cleric. Levison cannot say whether he was a cleric or a layman given to the religious life. The headings of some manuscripts of an interpolated second Life of Germanus call him a priest. W. J. Rees and an unsigned dissertation in Migne's Marius Mercator also call him a priest. Isidore of Seville calls him a bishop, which Levison counts an error. Levison suggests the error may come from the copy Isidore used, since a Spanish manuscript also names him bishop, or from the word sinner after his name, a word bishops of that age often used.",
     "His years. The date about 480 or a little later for the Life is Levison's reckoning. It rests on the long time Constantius says had passed since Germanus's death and on Patiens, bishop of Lyon from 449, who died some time before 494. The year about 473 for his peacemaking at Clermont is also Levison's date.",
     "How far the Life can be trusted. Levison says Constantius wrote less as a biographer than as a writer of saints' Lives. Wonders of little weight fill much of the book, as in Sulpicius Severus's Life of Martin of Tours, and more than fifteen years of events are packed into a short span. Levison knows no other witness to the victory over the Saxons and Picts known as the Alleluia victory. Yet with so few witnesses, he holds, the book must not be scorned.",
     "Who sent Germanus to Britain. Prosper of Aquitaine says Pope Celestine sent him. Constantius names no pope and says a synod of Gallic bishops chose him. Levison holds that any account of how the two fit together can only be a guess.",
-    "Whether Gregory of Tours knew the Life. In his introduction to Gregory's Miracles, Bruno Krusch says Gregory copied a whole chapter of his Miracles of Julian almost word for word from a Life of Germanus, which he cites in Duru's edition. In the additions at the end of the same volume he holds the reverse: the writer of that Life, which he calls the Life commonly given to Constantius, drew on Gregory. Wilhelm Levison holds that Gregory did not know Constantius's Life, since Gregory has Germanus die at Rome, where the Life has Ravenna, and he says the text then in print was a much-interpolated second Life."
+    "Whether Gregory of Tours knew the Life. In his introduction to Gregory's Miracles, Bruno Krusch says Gregory copied a whole chapter of his Miracles of Julian almost word for word from a Life of Germanus, which he cites in Duru's edition. In the additions at the end of the same volume he reverses this, and holds that the writer of that Life, which he calls the Life commonly given to Constantius, drew on Gregory. Wilhelm Levison holds that Gregory did not know Constantius's Life, since Gregory has Germanus die at Rome, where the Life has Ravenna. Levison also says the text in common use was a much-interpolated second Life, and Duru's edition reprints that second Life."
   ],
   "sources": {
     "ownWords": [
@@ -59,6 +59,20 @@
         "date": "1885",
         "language": "Latin",
         "file": "cic/texts/gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885.txt"
+      },
+      {
+        "title": "Lives of the Cambro-British Saints, notes",
+        "author": "W. J. Rees",
+        "date": "1853",
+        "language": "English",
+        "file": "cic/texts/rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt"
+      },
+      {
+        "title": "Works of Marius Mercator, appendix 2, Dissertation I (Patrologia Latina 48)",
+        "author": "Unsigned",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/marius-mercator_opera-omnia-lat_migne-pl48.txt"
       }
     ]
   }

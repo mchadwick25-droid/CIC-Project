@@ -683,7 +683,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Guidi's chronicle: among the monks from Izla, 'Màr Babhay filius Nisibenorum' ; Satan stirred quarrels between the two; 'iurgia multa magnasque contentiones excitavit inter duas illas firmissimas religionis turres, duo Babhay, nec conquievit aut desiit usque ad finem agonis , vitae asceticae, eorum'; 'Asseclae, monachi, Mar Babhay magni (maioris) nemini permittebant ul in suum monasterium intraret, quin anathema diceret in exi- mium Maàr Babhay nisibenum quem Babhay parvum (minorem) cognominaverunt'; 'Seripsit autem. Mar. Babhay magnus (mator) libros multos, disputationes atque interpretaliones' (OCR as in the file; the parentheses are Guidi's)",
+    "claim": "Guidi's chronicle: among the monks from Izla, 'Màr Babhay filius Nisibenorum'; of Satan, 'iurgia multa magnasque contentiones excitavit inter duas illas firmissimas religionis turres, duo Babhay, nec conquievit aut desiit usque ad finem agonis , vitae asceticae, eorum'; 'Asseclae, monachi, Mar Babhay magni (maioris) nemini permittebant ul in suum monasterium intraret, quin anathema diceret in exi- mium Maàr Babhay nisibenum quem Babhay parvum (minorem) cognominaverunt'; 'Seripsit autem. Mar. Babhay magnus (mator) libros multos, disputationes atque interpretaliones' (OCR as in the file; the parentheses are Guidi's)",
     "witness": "Anonymous East Syrian chronicle, tr. Guidi (chronica-minora guidi1903 l.2032-2037, 2050-2064, 2069-2070); Labourt (labourt1904 l.13093-13096)",
     "formation_confidence": "Documented"
    }
@@ -925,7 +925,7 @@
     "formation_confidence": "Widely Accepted"
    },
    {
-    "claim": "Sidonius was bishop of Clermont: on the death of Eparchius 'he was succeeded by Sidonius, the ex-prefect' (Dalton's English); Gennadius's bracketed chapter calls him 'bishop of the Arverni' (the brief now says 'bishop of Clermont' without 'later', R1 C-M4)",
+    "claim": "Sidonius was bishop of Clermont: on the death of Eparchius 'he was succeeded by Sidonius, the ex-prefect' (Dalton's English); Gennadius's bracketed chapter calls him 'bishop of the Arverni'",
     "witness": "Gregory of Tours, HF II.23, tr. Dalton (gregory-tours dalton1927 l.2963-2967); Gennadius ch. XCII (npnf203 l.43818-43833, a chapter Richardson says has no place in the text)",
     "formation_confidence": "Documented"
    },
@@ -1000,13 +1000,13 @@
     "formation_confidence": "Dominant Modern Reconstruction"
    },
    {
-    "claim": "Constantius's close: 'Ego duplicem veniam a te, lector, exposco, primum quod soloecismis et abiectione verborum aures tuas vulnero, deinde quod prolixior pagina videtur parare fastidium' (OCR 'Teniam', 'videtor', 'fastidiam'); 'Et tamen Deum testor conscium secretorum, me plura de domni mei Germani factis agnita et probata tacuisse' (OCR, apparatus marks dropped); the brief gives this in Opus's modern English: 'I call God, who knows what is hidden, to witness that I have left out many deeds of my lord Germanus that were known and proved' (R1 C-M1: 'all' dropped, passive 'agnita et probata' kept)",
+    "claim": "Constantius's close: 'Ego duplicem veniam a te, lector, exposco, primum quod soloecismis et abiectione verborum aures tuas vulnero, deinde quod prolixior pagina videtur parare fastidium' (OCR 'Teniam', 'videtor', 'fastidiam'); 'Et tamen Deum testor conscium secretorum, me plura de domni mei Germani factis agnita et probata tacuisse' (OCR, apparatus marks dropped); the brief gives this in Opus's modern English: 'I call God, who knows what is hidden, to witness that I have left out many deeds of my lord Germanus that were known and proved'",
     "witness": "Constantius, epilogue (constantius-lyon levison1920 l.4574-4579)",
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Rees: 'the life of Saint Germanus, written by Constantius, a priest of Lyons'; an unsigned note in Migne's Marius Mercator: 'Constantius presbyter'",
-    "witness": "Rees, Cambro-British Saints (rees_lives-of-the-cambro-british-saints-lat-eng_1853 l.17717-17718); PL 48 (marius-mercator_opera-omnia-lat_migne-pl48 l.20173)",
+    "claim": "Rees: 'the life of Saint Germanus, written by Constantius, a priest of Lyons'; an unsigned dissertation (Dissertation I) in Migne's Marius Mercator: 'Constantius presbyter'",
+    "witness": "Rees, Cambro-British Saints (rees_lives-of-the-cambro-british-saints-lat-eng_1853 l.17717-17718); PL 48, appendix 2, Dissertation I (marius-mercator_opera-omnia-lat_migne-pl48 l.20173-20174; heading l.18470-18472)",
     "formation_confidence": "Contested"
    }
   ],
@@ -1014,8 +1014,8 @@
    {
     "claim": "Whether Gregory of Tours knew the Life of Germanus",
     "sides": [
-     "Bruno Krusch, first: Gregory copied Virt. Iul. 29 almost word for word from the Life (gregory-tours arndt-krusch1885 l.35826-35829; note l.44305-44306, citing Duru's text); Krusch, later in the same volume: 'Iam nullus dubito, quin Vitae scriptor e Gregorio ipso hauserit', of the Life 'quae Constantio vulgo attribuitur' (l.66256-66257, p.883; OCR 'jiuUus', 'nttribuitur')",
-     "Wilhelm Levison: Gregory did not have the Life ('eam compertam non haberet'), so that he believed Germanus died at Rome and not at Ravenna (constantius-lyon levison1920 l.539-541; note l.383-385); the genuine text was printed only by Mombritius, and the vulgate is a much-interpolated second Life, as Krusch too noted at SRM 1, 883 (constantius-lyon levison1920 l.659-660, 702-704)"
+     "Bruno Krusch, first: Gregory copied Virt. Iul. 29 almost word for word from the Life (gregory-tours arndt-krusch1885 l.35826-35829; note l.44307-44310, citing Duru's text); Krusch, later in the same volume: 'Iam nullus dubito, quin Vitae scriptor e Gregorio ipso hauserit', of the Life 'quae Constantio vulgo attribuitur' (l.66256-66258, p.883, page head l.66231; OCR 'jiuUus', 'nttribuitur')",
+     "Wilhelm Levison: Gregory did not have the Life ('eam compertam non haberet'), so that he believed Germanus died at Rome and not at Ravenna (constantius-lyon levison1920 l.539-541; note l.383-385); the genuine text was printed only by Mombritius, and the vulgate is a much-interpolated second Life, as Krusch too noted at SRM 1, 883 (constantius-lyon levison1920 l.659-660, 702-704); Duru reprinted the Bollandist text of the second Life (constantius-lyon levison1920 l.599, 1620-1621)"
     ]
    },
    {
@@ -1176,7 +1176,7 @@
  "faustus-of-riez": {
   "claims": [
    {
-    "claim": "Sidonius to Faustus: 'Legi volumina tua quae Riochatus antistes ac monachus, atque istius mundi bis peregrinus, tuis Britannis pro te reportat'; Riochatus stayed 'apud oppidum nostrum ... donec gentium concitatarum procella defremeret'; Sidonius was left 'tuis libris insalutatus', the books passing the Arvernian territory 'non solum moenia mea verum etiam latera radentibus' (Latin normalized from very rough 1613 OCR with long s: 'qux', 'Antides', 'inlalutatus', 'Aruernum ciim priterirent'; Barralis's header says to quote only after checking the scan, so the brief tells it in modern words); he hid the books during his stay ('sic reliqua dona vestra detexit, ut perurbane quae praestantiora portabat operuerit'); after 'duos aut iis amplius menses' Sidonius rode after him 'pernicibus equis', found the book and read it ('quaesitum volumen invenio, produco, lectito, excerpo') (R1 F-B1)",
+    "claim": "Sidonius to Faustus: 'Legi volumina tua quae Riochatus antistes ac monachus, atque istius mundi bis peregrinus, tuis Britannis pro te reportat'; Riochatus stayed 'apud oppidum nostrum ... donec gentium concitatarum procella defremeret'; Sidonius was left 'tuis libris insalutatus', the books passing the Arvernian territory 'non solum moenia mea verum etiam latera radentibus' (Latin normalized from very rough 1613 OCR with long s: 'qux', 'Antides', 'inlalutatus', 'Aruernum ciim priterirent'; Barralis's header says to quote only after checking the scan, so the brief tells it in modern words); he hid the books during his stay ('sic reliqua dona vestra detexit, ut perurbane quae praestantiora portabat operuerit'); after 'duos aut iis amplius menses' Sidonius rode after him 'pernicibus equis', found the book and read it ('quaesitum volumen invenio, produco, lectito, excerpo')",
     "witness": "Sidonius ep. IX.9, printed twice by Barralis (barralis_chronologia-sanctorum-insulae-lerinensis-lat_1613 l.4712-4772 and l.5528-5548; the two OCR passes agree on these words); Engelbrecht's summary (faustus-riez engelbrecht1891 l.566-572); Hugh Williams, Gildas volume: 'Faustus sent two of his writings to Britain by the hands of a fellow-countryman, Riocatus ... antistes ac monachus' (gildas_de-excidio-britanniae-lorica-penitential-lat-eng_williams1899 l.9659-9663)",
     "formation_confidence": "Documented"
    },
@@ -1534,7 +1534,7 @@
  "ruricius-of-limoges": {
   "claims": [
    {
-    "claim": "Caesarius to Ruricius: 'Dum nimium tribularetur animus meus, quare ad synodum vestram praesentiam non meruimus obtinere, sanctus et domnus meus Verus episcopus mihi dignatus est dicere, quod per suum diaconum mihi Agate vestras litteras destinasset, quas ego nescio quo casu aut qua neglegentia me non retineo suscepisse'; 'dignissimum fuerat, ut personam dirigeretis, quae ad vicem vestram subscriberet' (OCR 'uimium', 'reteiieo'); and Caesarius adds 'Sed quia novi, quam sancto et frequenti ac pio desiderio interesse volueritis, ... nihil pietati vestrae vel potuimus vel debuimus inputare' (brief: 'Yet he held nothing against him', R1 R-M2)",
+    "claim": "Caesarius to Ruricius: 'Dum nimium tribularetur animus meus, quare ad synodum vestram praesentiam non meruimus obtinere, sanctus et domnus meus Verus episcopus mihi dignatus est dicere, quod per suum diaconum mihi Agate vestras litteras destinasset, quas ego nescio quo casu aut qua neglegentia me non retineo suscepisse'; 'dignissimum fuerat, ut personam dirigeretis, quae ad vicem vestram subscriberet' (OCR 'uimium', 'reteiieo'); and Caesarius adds 'Sed quia novi, quam sancto et frequenti ac pio desiderio interesse volueritis, ... nihil pietati vestrae vel potuimus vel debuimus inputare'",
     "witness": "Caesarius, letter to Ruricius (faustus-riez engelbrecht1891 l.24680-24694); l.24713-24716",
     "formation_confidence": "Documented"
    },
@@ -1544,9 +1544,9 @@
     "formation_confidence": "Widely Accepted"
    },
    {
-    "claim": "Agde 506: the acts, 'Conc. Agath. viginti quinque episcoporum habitum era 644 ... Anno vicesimo secundo Alarici regis sub die tertio Idus Septembris', with 'Messala v. c. consule' in other codices (Bruns's note; OCR 'tertiq', 'Septenibris'); Engelbrecht cites the same dating; Ruricius 'neque venit neque procuratorem misit, sed litteras tantum per diaconum Veri episcopi Agathen direxit' (Engelbrecht)",
-    "witness": "Bruns, Canones II (bruns_canones-apostolorum-et-conciliorum-pars-altera-lat_1839 l.10481-10501); Engelbrecht (faustus-riez engelbrecht1891 l.2933-2942)",
-    "formation_confidence": "Documented"
+    "claim": "Agde 506: the acts, 'Conc. Agath. viginti quinque episcoporum habitum era 644 ... Anno vicesimo secundo Alarici regis sub die tertio Idus Septembris', with 'Messala v. c. consule' in other codices (Bruns's note; OCR 'tertiq', 'Septenibris'); Engelbrecht cites the same dating; Ruricius 'neque venit neque procuratorem misit, sed litteras tantum per diaconum Veri episcopi Agathen direxit' (Engelbrecht) (the era figure as printed, 644, gives 606, not 506, and Bruns gives the variants 643 and 543; the year rests on the twenty-second year of Alaric and the consul Messala, which Engelbrecht reckons as 506, l.2933-2934)",
+    "witness": "Bruns, Canones II (bruns_canones-apostolorum-et-conciliorum-pars-altera-lat_1839 l.10498-10500, 13760); Engelbrecht (faustus-riez engelbrecht1891 l.2933-2942)",
+    "formation_confidence": "Dominant Modern Reconstruction"
    },
    {
     "claim": "Ruricius to Caesarius: 'quod vero scribitis, cur ad synodum, sicut conlocutio habuit nostra, non venerim, fecit hoc infirmitas, non voluntas. ipsi etenim recolere potestis, quam fessum me Burdigala videritis et hoc hieme, quando esse soleo fortior solito' (OCR 'nou'); Engelbrecht ties this letter (II.33) to Agde",
@@ -1579,7 +1579,7 @@
     "formation_confidence": "Dominant Modern Reconstruction"
    },
    {
-    "claim": "Ruricius to Faustus: 'Olim te, domine mi venerande ac beatissime sacerdos, fama celeberrima praedicante cognovi' (OCR 'ae' for 'ac'); 'adhaesit, doctor eximie, anima mea post te' (Ps. 62:9); asks for 'non ... delicatos et dulces cibos, sed austeriores et aegritudini meae congruos', 'sicut nunc fecistis adhuc meae infirmitatis ignari'; the food is Faustus's words: 'quoties dignati fueritis ariditatem terrae meae eloquentiae vestrae imbre perfundere', and the sickness is his sins: 'ne vulneribus meis gratior sit foventis dextera quam secantis' (R1 R-B1; brief now 'He asks that Faustus's letters be harsher food, fit for a sinner's sickness')",
+    "claim": "Ruricius to Faustus: 'Olim te, domine mi venerande ac beatissime sacerdos, fama celeberrima praedicante cognovi' (OCR 'ae' for 'ac'); 'adhaesit, doctor eximie, anima mea post te' (Ps. 62:9); asks for 'non ... delicatos et dulces cibos, sed austeriores et aegritudini meae congruos', 'sicut nunc fecistis adhuc meae infirmitatis ignari'; the food is Faustus's words: 'quoties dignati fueritis ariditatem terrae meae eloquentiae vestrae imbre perfundere', and the sickness is his sins: 'ne vulneribus meis gratior sit foventis dextera quam secantis'",
     "witness": "Ruricius, ep. I.1 (faustus-riez engelbrecht1891 l.20027-20044, 20070-20074); l.20070-20072, 20078-20079",
     "formation_confidence": "Documented"
    },
@@ -1645,7 +1645,7 @@
   "absent_details": [
    {
     "detail": "Ruricius in other held witnesses",
-    "note": "Searched whole Library for R\\s*u\\s*r\\s*i\\s*c\\s*i, Roric-, Kuric-, Huric- (OCR): Venantius Fortunatus's epitaph (held); Gregory of Tours names no Ruricius in his own text (Krusch's note at gregory-tours arndt-krusch1885 l.61481 quotes the Life of Junian); Dalton and Brehaut none; Maassen's councils have a Ruricius at Clermont 535 (l.6019) and Orléans 541 (l.8139, 'Lemouice civitatis'), and his archdeacon at Orléans 549 (l.9442), whom Leo's index to Fortunatus names as the grandson (venantius-fortunatus ... leo-krusch1881 l.53125-53130; the first search missed the OCR form 'Huricii' there); Krusch's SRM 3 notes; Avitus's index; PL 67 notes on Caesarius's letter. No Sidonius edition is held, so Sidonius's three letters to him come only through Engelbrecht."
+    "note": "Searched whole Library for R\\s*u\\s*r\\s*i\\s*c\\s*i, Roric-, Kuric-, Huric- (OCR): Venantius Fortunatus's epitaph (held); Gregory of Tours names no Ruricius in his own text (Krusch's note at gregory-tours arndt-krusch1885 l.61481 quotes the Life of Junian); Dalton and Brehaut none; Maassen's councils have a Ruricius at Clermont 535 (l.6019) and Orléans 541 (l.8139, 'Lemouice civitatis'), and his archdeacon at Orléans 549 (l.9442), whom Leo's index to Fortunatus names as the grandson (venantius-fortunatus ... leo-krusch1881 l.53125-53130); Krusch's SRM 3 notes; Avitus's index; PL 67 notes on Caesarius's letter. No Sidonius edition is held, so Sidonius's three letters to him come only through Engelbrecht."
    },
    {
     "detail": "A year of birth",
