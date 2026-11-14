@@ -3096,3 +3096,45 @@ Round 2, a targeted recheck, found 1 blocking and 8 minor points, all fixed. The
 **What is still open.** Open-Gaps 261, "Era 4 Who batch 7" (2026-11-14).
 
 The approved files are in `Who-Profiles/era4/batch7/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-14_who-profiles-era4-batch7/`. No census, record or site change is made, so there is no data release number. Approved to proceed (the batch worker, under the coordinator's brief of 2026-11-14; Mark kept the lengths).
+
+## 2026-11-14 — Cap ruling: one check of seven round 3 fixes, era 4 Who batch 8
+
+**Cap ruling (Mark's standing ruling of 2026-11-14, "Minor round 3 fixes to reader-facing text get one targeted check without asking Mark").** Round 3, the last review round of era 4 Who batch 8, found no blocking point and seven minor points:
+- **Elias of Nisibis, brief and audio.** "In his own preface to those rules, Elias prays for the soul of Elias I", since "his preface" had come to follow Ebedjesu.
+- **al-Baladhuri, brief and audio.** "During the siege of Damascus, al-Baladhuri reports", since "he" had come to follow the caliph 'Umar.
+- **Adam (Jingjing), card.** The "Who set up the stone" item now gives Jazedbuzid by the Syriac and King-tsing by Henri Cordier, and drops a sentence that could be read as a third setter-up; the records give Kircher's "Papa" reading as one of the errors Assemani lists.
+- **Yahya ibn Said of Antioch, card.** A 31-word sentence split.
+- **Abbess Bugga, card.** The dates give Bregwin's 27 December as the burial day "of an abbess Bugga", matching the item that asks whether she is the same woman.
+- **README.** "The card gives all three" death-year positions for Elias.
+
+They were applied as worded, with one targeted Opus check of only those strings, by an agent that had not seen the drafting or the earlier rounds. The check does not count toward the cap: `Build/Ministry/Operations/Audits/2026-11-14_who-profiles-era4-batch8/R4_cap-check.md`. Its verdict was CLEAR, with no blocking or minor point in the changed strings: Elias's preface and prayer are his own (Mai l.7437-7458); Khalid wrote the terms at the bishop's request (Hitti l.7926-7932); Jazedbuzid sets up the stone in Assemani's Latin and Kircher's reading, and King-tsing in Cordier's note; Schlumberger's campaign runs from the winter of 990-991 to early 995 (Macler l.13308-13314); Bregwin's day is vi Kal. Jan., 27 December, with no year. Its two notes outside the changed strings, an "He also gives" in the al-Baladhuri brief that can be heard as Khalid and two spellings of King-Tsing on the Adam card, are logged in Open-Gaps 262 and not changed. The cap ruling is met.
+
+## 2026-11-14 — Who profiles, era 4 batch 8: six profiles, no majors, al-Baladhuri added, era 4's Who list complete for the scans' WHO rows (coordinator, under Mark's ruling of 2026-11-14 that eras 4 to 7 are built in full)
+
+**The batch.** The last era 4 WHO rows: from the supplement scan's era 4 table, Eadburga of Thanet, Abbess Bugga, Yahya ibn Said of Antioch and Elias of Nisibis; from the era 4 scan, Adam (Jingjing), the author of the Xi'an stele, and al-Baladhuri. None is a census person entry or was written before. Mennas, Benjamin I's brother, is a STORY row and is not written. Opus drafted every profile to `Who_Profile_Pattern.md`, per Mark's era 1 batch 1 ruling, "Opus for all".
+
+**Length (Mark, 2026-11-14, relayed by the coordinator).** A first ruling, "Hold to 2:00 from now on (Recommended)", with "hold to two without cutting off", was withdrawn the same afternoon. Mark: "no stop, how much of the story will we loose, i would rather have a 2;15 good story than a 2;00 cramped but flat card". His final rule: singles run up to about 2:15, about 365 words, when the story needs it, and shorter where the sources are thin; pairs that tell two lives may run to 2:30 ("Pairs up to 2:30 (Recommended)"). This batch has no pairs. The six briefs run 350 to 372 words, about 2:10 to 2:18; three were tightened after round 1 without dropping a scene.
+
+**Coordinator and worker calls (not Mark's words; Mark may overrule).**
+- **No majors** (coordinator). Yahya and Elias are recorders and stay at standard length, by the rulings for Palladius, John of Ephesus and Gregory of Tours. al-Baladhuri is a recorder too.
+- **al-Baladhuri added** (coordinator, 2026-11-14). The worker's final sweep found his era 4 row, "WHO (OUTSIDE WITNESS)", in no batch. He is written as an outside witness, as Procopius and Agathias are in era 3; his card's Tradition line reads "Outside the church". His brief tells al-Walid pulling down the church of Saint John at Damascus, Khalid's and the Najran terms, and Philip Hitti on how far he can be trusted, including that the Saint John's story opens only with "It is reported".
+- **Eadburga and Bugga kept apart**, as Edward Kylie keeps them; both are Whos under the women ruling (she led or taught). The Bollandists' report that Eadburga was also called Bugga, with a shared death day of 27 December, is told in both briefs and tagged contested. Bregwin of Canterbury's letter on an abbess Bugga's burial day is told with its identification left open.
+- **Adam** is told as a name on a text: what the stele says of him, the Syriac lines as Assemani, Kircher and Yule read them, Cordier's join of King-tsing to Adam, and nothing more. He agrees with the Alopen profile.
+- **Elias's own words beyond the Chronography** were found: his preface and chapters on inheritance, which Ebedjesu of Soba copied into his canons, in Angelo Mai's Latin. His death year is contested (Assemani: after 1049; Chabot: soon after; Macler: about 1056); the 1046 of the Library header rests on no held line.
+- **Ids and traditions.** `eadburga-of-thanet`, `abbess-bugga`, `yahya-ibn-said-of-antioch`, `elias-of-nisibis`, `adam-jingjing`, `al-baladhuri`. Traditions: Anglo-Saxon Christianity (Eadburga, Bugga); Melkite Arabic Christianity (Yahya); The Church of the East under the Abbasids (Elias); The Church of the East on the Silk Road (Adam); Outside the church (al-Baladhuri). All fit the scans' placings.
+- **American spelling** in the new prose (Decision-Log 77); quotations keep their own spelling.
+
+**Review.** Three rounds by fresh Opus agents that had not seen the drafting, at full effort in every round (Mark, relayed by the coordinator: "dont sacrafice quality, expecially the quality of writing"). Round 1, the full checklist review in three parts, found 8 blocking and 57 minor points. The blocking points:
+- **A false absence.** Eadburga's card said no source gives her death; the Bollandists give a day.
+- **Sources misread.** Boniface's advice to Bugga was made neutral, where he thought going abroad better and agreed to wait; Kylie's letter VIII was cited as VII; "an earlier letter" had no support.
+- **A side told as settled.** Who set up the Xi'an stele.
+- **The wrong frame.** The Nubian slave terms were told as an instance of the church in al-Baladhuri's terms, with nothing to say the Nubians were Christian.
+- **Elias.** The scene placed him at Nisibis in 1006, two years before he was metropolitan there; his held preface and chapters on inheritance were recorded as not held.
+
+Round 2, a targeted recheck that also reread all six tightened briefs in full, found 4 blocking and 9 minor points, all fixed. Three came from round 1 fixes: Kircher's "Papa" reading, which Assemani lists among Kircher's errors, used as a witness for Adam; the inheritance rules called Elias's own, where he gathered them from the catholicos Elias I; and Chabot's "soon after" credited to Assemani, who says only "after". The fourth was one campaign of Basil II told as his whole Bulgarian war. Round 3, the last, found no blocking point and seven minor points, and the cap ruling above settles them. Every quotation was re-checked word for word against its vendored file. No paid calls were made.
+
+**Era 4's Who list.** The final sweep checked every WHO row of the era 4 scan (46 rows) and of the supplement's era 4 table (14 rows) against `Who-Profiles/era4/batch1/` to `batch8/`, with batch 7 read from its branch. With al-Baladhuri written here, every WHO row is written or is in batch 7, and batch 7 merged as PR #1660, so era 4's Who list is complete for the scans' WHO rows. None was skipped for unheld sources, and none merged beyond the scans' own pairs. WANTED rows that the Library's era 4 batch has since filled (among them John of Damascus, Theodore the Studite, and Cyril and Methodius) are being re-scored by a separate worker and are still to come.
+
+**What is still open.** Open-Gaps 262, "Era 4 Who batch 8" (2026-11-14).
+
+The approved files are in `Who-Profiles/era4/batch8/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-14_who-profiles-era4-batch8/`. No census, record or site change is made, so there is no data release number. Approved to proceed (coordinator, 2026-11-14; Mark may overrule).

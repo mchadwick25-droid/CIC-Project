@@ -43,11 +43,11 @@ Lines held only in Latin or French are told in modern words with the source name
 
 ## Era 4's Who list: the final sweep
 
-Every WHO row of the era 4 scan (46 rows) and of the supplement scan's era 4 table (14 rows) was checked against `Who-Profiles/era4/batch1/` to `batch8/`, with batch 7 read from its open branch (`claude/who-profiles-era4-batch7`). Benjamin I of Alexandria, moved from era 3, is in batch 2.
+Every WHO row of the era 4 scan (46 rows) and of the supplement scan's era 4 table (14 rows) was checked against `Who-Profiles/era4/batch1/` to `batch8/`. Batch 7 was read from its branch during drafting and checked again once it merged (PR #1660). Benjamin I of Alexandria, moved from era 3, is in batch 2.
 
 One WHO row was missed by batches 1 to 7: **al-Baladhuri** (era 4 scan, "WHO (OUTSIDE WITNESS)"), whose Origins of the Islamic State is held in Philip Hitti's English. The coordinator added him to this batch, and he is written here.
 
-No WHO row was skipped for unheld sources or merged under a pairing beyond the scans' own pairs (Cedd and Chad; Elipandus and Felix; Pisentius and John the Elder, all in batch 7). Every WHO row of both tables is now written. Era 4's Who list is complete once batch 7 merges.
+No WHO row was skipped for unheld sources or merged under a pairing beyond the scans' own pairs (Cedd and Chad; Elipandus and Felix; Pisentius and John the Elder, all in batch 7). Every WHO row of both tables is now written, so era 4's Who list is complete for the scans' WHO rows. WANTED rows that the Library has since filled are being re-scored by a separate worker.
 
 | File | Holds |
 |---|---|
