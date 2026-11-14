@@ -497,7 +497,7 @@ svg.strip-on #era-labels{display:none}
 <aside id="whoTray" hidden aria-labelledby="trayTitle">
   <div class="tray-head"><button type="button" class="tray-btn tray-grip" aria-expanded="true" aria-label="Make the list smaller">&#9662;</button>
   <div class="tray-title"><h2 id="trayTitle"></h2><p class="tray-sub"></p></div>
-  <button type="button" class="tray-btn tray-close" aria-label="Close the Who list and clear the names">&times;</button></div>
+  <button type="button" class="tray-btn tray-close" aria-label="Close the Who list and clear the names from the map">&times;</button></div>
   <div class="tray-sort" role="group" aria-label="Order of the list"><button type="button" data-sort="date" aria-pressed="true">By date</button><button type="button" data-sort="trad" aria-pressed="false">By tradition</button></div>
   <div class="tray-body"></div>
 </aside>
@@ -112149,7 +112149,7 @@ const tray=document.getElementById('whoTray');
 let traySort='date';
 function syncTrayGrip(){
   const low=tray.classList.contains('is-low'), b=tray.querySelector('.tray-grip');
-  b.textContent=low?'▴':'▾'; b.setAttribute('aria-expanded',String(!low)); b.setAttribute('aria-label',low?'Open the list':'Make the list smaller');
+  b.textContent=low?'▴':'▾'; b.setAttribute('aria-expanded',String(!low)); b.setAttribute('aria-label',low?'Make the list bigger':'Make the list smaller');
 }
 function trayRowHTML(a,withTrad){
   const onMap=whoPick.shown.includes(a), P=a.P;
@@ -112174,7 +112174,7 @@ function renderTray(){
       h+=`<h3><button type="button" data-trad="${esc(m.id)}">${esc(m.shortName||m.name)} · ${list.length}</button></h3><ul>${list.map(a=>trayRowHTML(a,false)).join('')}</ul>`;
     });
     const loose=whoPick.all.filter(a=>a.m.gap);
-    if(loose.length)h+=`<h3 class="tray-loose">Told within no tradition · ${loose.length}</h3><ul>${loose.map(a=>trayRowHTML(a,false)).join('')}</ul>`;
+    if(loose.length)h+=`<h3 class="tray-loose">Told within no single tradition · ${loose.length}</h3><ul>${loose.map(a=>trayRowHTML(a,false)).join('')}</ul>`;
   }
   const body=tray.querySelector('.tray-body'); body.innerHTML=h; body.scrollTop=0;
 }
@@ -112325,7 +112325,7 @@ function render(){
     lbl.addEventListener('click',ev=>{ev.stopPropagation();act();});
     lbl.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();act();}});
     gLabels.appendChild(lbl);
-    const info=el('g',{class:'era-info',tabindex:'0',role:'button','aria-label':`About ${e.title}: opens a note on this era.`});
+    const info=el('g',{class:'era-info',tabindex:'0',role:'button','aria-label':`About ${e.title}. Opens a note on this era.`});
     info.appendChild(el('circle',{class:'era-info-hit',r:22}));
     info.appendChild(el('circle',{class:'era-info-ring',r:9.5}));
     info.appendChild(el('path',{class:'era-info-i',d:'M0,-1.2 V5'}));
@@ -113134,7 +113134,7 @@ function openEraCard(i){
   if(born.length)h+=`<h3>Rivers that begin here</h3><p>${born.map(esc).join(' · ')}</p>`;
   if(majors.length){
     h+=`<h3>Major people</h3><ul class="person-list">${majors.slice(0,12).map(a=>`<li><button type="button" class="panel-link" data-person="${esc(a.P.key)}">${esc(a.P.entry.name)}</button>${a.m.gap?'':` <span class="meta">${esc(a.m.shortName||a.m.name)}</span>`}</li>`).join('')}</ul>`;
-    h+=`<p class="meta">${majors.length>12?`And ${majors.length-12} more major people. `:''}${people.length} ${people.length===1?'person':'people'} in all.</p>`;
+    h+=`<p class="meta">The map has ${people.length} ${people.length===1?'person':'people'} from this era${majors.length<people.length?`, ${majors.length} of them major`:''}.</p>`;
   }
   if(mapStories.length||nTrad){
     h+='<h3>Stories</h3>';
@@ -113157,7 +113157,7 @@ function goIntoEra(i){
   const cx=(window.innerWidth/2-tx)/scale;
   scale=Z_READ; tx=window.innerWidth/2-cx*scale; ty=topInset()+18-eraY0[i]*scale;
   applyTransform(); applyDetail();
-  announce(`${eras[i].title}. Names are showing.`);
+  announce(`${eras[i].title}. Tradition names are showing.`);
 }
 function connButtonHTML(m){
   const n=connectionCount(m.id);
@@ -113235,7 +113235,7 @@ function buildLegend(){
   const KEY_END={grow:'<path d="M20,1 L26,5 L20,9 z" fill="var(--link-grow)"/>',influence:'<path d="M17.5,5 L21.5,1.2 L25.5,5 L21.5,8.8 z" fill="none" stroke="var(--link-influence)" stroke-width="1.5"/>',conflict:'<path d="M24,0 L24,10" stroke="var(--link-conflict)" stroke-width="2.6"/>',contact:'<circle cx="4" cy="5" r="3" fill="var(--link-contact)"/><circle cx="22" cy="5" r="3" fill="var(--link-contact)"/>'};
   const colorKey=(f)=>`<svg class="linekey" viewBox="0 0 26 10" aria-hidden="true"><line x1="${f==='contact'?4:1}" y1="5" x2="${f==='contact'?22:f==='grow'?20:f==='influence'?17.5:24}" y2="5" stroke="var(--link-${f})" stroke-width="2.4"/>${KEY_END[f]}</svg>`;
   const nMajor=gEdges.querySelectorAll('.edge-line[data-major="1"]').length, nAll=gEdges.querySelectorAll('.edge-line').length;
-  let links=`<div class="note">Lines join traditions where the sources record a connection. The color and the mark at the end show the kind of connection. The line's pattern shows how sure the record is. Where a connection has a direction, the mark sits at the end it points to. Where a connection joins two traditions equally, the mark sits at both ends. Hover or click a line to read the connection and its sources.</div>`;
+  let links=`<div class="note">Lines join traditions where the sources record a connection. The color and the mark at the end show the kind of connection. The line's pattern shows how sure the record is. Where a connection has a direction, the mark sits at the end it points to. Where a connection joins two traditions equally, the mark sits at both ends. Click or tap a line to read about the connection and its sources.</div>`;
   links+=`<div class="conn-seg" role="group" aria-label="Which connections to show"><button type="button" data-mode="off">Off</button><button type="button" data-mode="major">Major <span>${nMajor}</span></button><button type="button" data-mode="all">All <span>${nAll}</span></button></div>`;
   links+=`<div class="note">Major connections show one tradition growing out of another, or a recorded break. They also show acts of authority the sources record, such as a council condemning a group. To see all of one tradition's connections, open its card and choose Connections.</div>`;
   links+='<span class="cap">Kind of connection</span>';
@@ -113309,7 +113309,7 @@ function buildLegend(){
     if(k==='people'&&hidden.has(k)&&whoScope)clearWho();
     save(); applyToggles(); queueAutoWho();
     const on=k==='lanes-all'?laneButtons.some(x=>!hidden.has(x.dataset.toggle)):!hidden.has(k);
-    if(k==='lanes-all')announce((on?'All rivers in full. ':'All rivers faint. ')+riverCount());
+    if(k==='lanes-all')announce(on?`All ${laneButtons.length} rivers in full.`:'All rivers faint.');
     else if(k.startsWith('lane:'))announce(`${label(b)} ${on?'in full':'faint'}. ${riverCount()}`);
     else{announce(`${label(b)} ${on?'showing':'hidden'}.`);toast(`${label(b)}: ${on?'on':'off'}`);}
   }));
@@ -113321,7 +113321,7 @@ function buildLegend(){
   wrap.querySelectorAll('[data-kind]').forEach(b=>b.addEventListener('click',ev=>{
     ev.stopPropagation(); const k=b.dataset.kind; if(kindsOff.has(k))kindsOff.delete(k);else kindsOff.add(k); save(); applyToggles();
     const shown=Object.keys(LINK_FAMILY_LABEL).filter(f=>!kindsOff.has(f)).length;
-    announce(`${label(b)} ${kindsOff.has(k)?'hidden':'shown'}. ${shown} of ${Object.keys(LINK_FAMILY_LABEL).length} kinds of connection showing.`);
+    announce(`${label(b)}: ${kindsOff.has(k)?'hidden':'showing'}. ${shown} of ${Object.keys(LINK_FAMILY_LABEL).length} kinds of connection showing.`);
   }));
   applyToggles();
   window.addEventListener('resize',applyToggles);
@@ -113370,7 +113370,7 @@ function showConnections(m){
   applyTransform(); applyDetail(); labelFitRun();
   const n=document.querySelectorAll('.edge-line.conn-lit').length, name=m.shortName||m.name, cn=n===1?'connection':'connections';
   connChip.querySelector('.cc-t').textContent=`Connections: ${name} · ${n}`;
-  connChip.querySelector('.cc-x').setAttribute('aria-label',`${n} ${cn} of ${name} ${n===1?'is':'are'} showing. Clear them.`);
+  connChip.querySelector('.cc-x').setAttribute('aria-label',`Connections: ${name}, ${n}. Clear ${n===1?'it':'them'} from the map.`);
   connChip.hidden=false; announce(`${n} ${cn} of ${name} showing.`);
   connChip.querySelector('.cc-x').focus();
 }
@@ -113412,7 +113412,7 @@ function syncEraStrip(){
   const top=chromeTop()+eraStrip.offsetHeight, i=eraIndexOfY((top+(window.innerHeight-top)*.3-ty)/scale);
   if(i===stripEra)return;
   stripEra=i; const e=eras[i];
-  eraStrip.querySelector('.es-t').textContent=`${e.num} · ${e.title}`;
+  eraStrip.querySelector('.es-t').textContent=`${e.num}. ${e.title}`;
   eraStrip.querySelector('.es-d').textContent=plainDates(e.dates);
   eraStrip.querySelector('button').setAttribute('aria-label',`You are in era ${e.num}, ${e.title}, ${plainDates(e.dates)}. Opens a note on this era.`);
 }
