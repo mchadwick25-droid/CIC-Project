@@ -1,0 +1,1525 @@
+{
+ "agathon-of-alexandria": {
+  "claims": [
+   {
+    "claim": "Scene: Agathon 'used to disguise himself at Alexandria in the days of Heraclius in the garb of a layman, and went about at night, comforting the orthodox who were concealing themselves there ... giving them of the Holy Mysteries'; by day 'he carried on his shoulder a basket containing carpenters' tools, and pretended to be a carpenter'; 'he remained ten years until the time of the appearance of the Muslims'",
+    "witness": "SEV (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt) l.45533-45534, 45701-45710 (History, life of Benjamin I) [OCR 'yarh', 'nij'ht', 'comfortiiuj', 'Hole Mysteries', 'tlm']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Agathon 'a priest in the ... church, and was a native of Marcotis'; Benjamin on return 'adopted Agalhon as his son in the administration of the holy Church'",
+    "witness": "SEV (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt) l.45533-45534, 45701, 45710-45712 [OCR 'Ag atlion', 'Marcotis', 'Agalhon']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Agathon was the son of the patriarch Benjamin in the spirit'; 'the thirty-ninth in the series of the patriarchs'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.344-345 [OCR 'thc', 'serics']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Enthroned 'according to the agreement of his name with his actions; for he was good'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.397-400",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Evetts's heading: 'AGATHON, THE THIRTY-NINTH PATRIARCH. A. D. 661-677'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.336 [OCR 'TIIIRTY', 'GG1-G77']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Sicilian captives: 'with regard to Sicily ... brought the people captives to Egypt ... he bought them and set them free'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.407-411 [OCR 'ravagcd', 'lioly', 'whcn']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ordained bishops 'in every place'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.444-445",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Theodore, 'a chief among a congregation of the Chalcedonians', went to Damascus to 'Yazid, son of Muawiyah' and got a diploma over 'Alexandria and Maryut', for 'he had given Yazid much money'; he exacted 'thirty-six denarii as poll-tax every year, on account of his disciples' and what Agathon spent 'upon the sailors in the fleet'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.449-460 [OCR 'givcn', 'liim', 'wliicli']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'the community of the Chalcedonians would not associate with this man'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.461-462 [OCR 'Clialcedonians', 'wilh']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Stoning order: 'Whoever shall see the pope of the Theodosians going out by night or by day, may stone him to death'; 'the Father Agathon lay hid ... praying for him according to the injunction of the Gospel'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.495-502 [OCR 'oflicial']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Theodosians' is the History's name for Agathon's church: Theodore 'was an opponent of the orthodox Theodosians'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.450-451",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Church of Saint Macarius built in his days; cells near the Marsh",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.503-506",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Vision: 'Send to John the priest, who is of Samannud ... it is he that shall sit after thee upon the throne'; not made bishop of Upper Egypt, 'But God was reserving him'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.605-607, 642-645 [OCR 'tlie']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Simon ordained priest by Agathon",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.1548-1550",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Death: 'after remaining seventeen years upon his throne, and went to his rest on the 16th of Babah. And his body was placed ... with the Father Benjamin'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.701-706 [OCR 'rcmaining', 'scventeen', 'thc']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Agathon's own voice in Benjamin's life, opening 'Abba Agathon says': 'And as for me, the sinner Agathon, I was the son of the Father Benjamin, and knew much of his virtues through my intimacy with him'",
+    "witness": "SEV (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt) l.45959-45965, 46143-46144 (page break between 'as for me,' and 'the sinner'; OCR 'A gal lion', 'I he', 'Agatbon'); cleaner copy in BAS1 (synaxaire-arabe-jacobite_po1-thout-babeh-synaxaire-ethiopien-fra_basset-guidi1907.txt) l.26764-26765",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Renaudot: 'Nihil porro in longa illa sub Agathonis nomine fabula dignum observatione legitur'; canons 'a Coptitis recentioribus inventa'",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.11524-11526, 11546-11563 [long s as f]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Renaudot writes against the Coptic line: 'Patriarchis haereticis'",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.18609",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Renaudot writes as a Catholic: 'nos Catholici a majoribus tradita religiose observamus'",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.986 [long s as f]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Chalcedonians: the History calls the council 'the impure Chalcedonian Council', so Agathon's church refused it",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.346-347",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "By day he passed for a carpenter 'that the heretics might not hinder him'; told as 'his opponents'",
+    "witness": "SEV (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt) l.45705-45707",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Yazid, son of Muawiyah, 'the leader of the Muslims' at Damascus",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.451-453",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The captives: 'he bought them and set them free. But they were followers of the impure and heretical sects, known as the Gaianites ... and as the Barsanuphians'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.411, 441-442",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Some asked him to make John a bishop: 'some of the people prayed him to ordain John bishop over Upper Egypt ... But God was reserving him'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.642-645",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Abu Salih's tree: the governor 'wished to cut it down'; the axe flew back into the woodcutter's face",
+    "witness": "ABU (abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt) l.11311-11335",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Basset's synaxarium, 16 Babah: 'On le prit, on le lia et on le sacra patriarche'; 'dix-sept ans entiers'; bracket '(659-667)'",
+    "witness": "BAS1 (synaxaire-arabe-jacobite_po1-thout-babeh-synaxaire-ethiopien-fra_basset-guidi1907.txt) l.19352-19357, 19411 [OCR 'G59-667']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Budge, 16 Tekemt: 'they took him and bound him'; 'died through overwork, and he held his office for fully nineteen years'",
+    "witness": "BUD1 (ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928.txt) l.13530-13538, 13574-13576",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Abu Salih: 'the patriarch Agatho was standing under the tree, and when the woodcutter struck it with his axe, the axe flew back into his face'; Evetts's note l.11372-11373: 'He occupied the see from A.D. 658 to 677 (?)'",
+    "witness": "ABU (abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt) l.11312-11340, 11372-11373",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The History of the Patriarchs is a later Arabic compilation; from the seventh century its lives are, in B. Evetts's view, contemporary biographies",
+    "witness": "SEV (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt) l.137-166 (Evetts's French notice, signed B. Evetts l.210: 'des le septieme siecle ... une serie de vraies biographies ecrites par des auteurs contemporains, tels que Jean le diacre, au temps du patriarche Michel I, et Georges, archidiacre et syncelle du patriarche Simon') [OCR 'tels (|ue', 'an temps']",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Length of his patriarchate",
+    "sides": [
+     "Seventeen years: the History (PO5 l.702); Basset's synaxarium (BAS1 l.19411)",
+     "Nineteen years: Budge's Ethiopic (BUD1 l.13575); Renaudot's reading of the History, 'secundum Severum annis 19' (REN l.12018-12019)",
+     "Sixteen years: Makrizi, as Renaudot reports (REN l.12021-12022)"
+    ]
+   },
+   {
+    "claim": "Whether the account of the Macarius consecration is Agathon's",
+    "sides": [
+     "The History gives it in his first person, 'I the sinner Agathon' (SEV l.46143)",
+     "Renaudot: a fable under Agathon's name, its canons invented by later Copts (REN l.11524-11526, 11546-11563)"
+    ]
+   },
+   {
+    "claim": "The fleet payment",
+    "sides": [
+     "Seven thousand denarii in all: the History (PO5 l.495)",
+     "Seven thousand dinars a year: Basset (BAS1 l.19362)",
+     "Seven hundred gold dinars a year: Budge (BUD1 l.13547-13548)"
+    ]
+   },
+   {
+    "claim": "The governor's name",
+    "sides": [
+     "Theodore: the History's text (PO5 l.450)",
+     "Theodosius: some manuscripts (Evetts's note PO5 l.464); Basset (BAS1 l.19358); Budge (BUD1 l.13541); Renaudot, who then identifies him with Theodore (REN l.11955, 12050-12051)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Who wrote Agathon's life in the History",
+    "note": "No author is named in PO5 l.336-712. John the deacon's statement on George (PO5 l.4501-4537) gives a span, not this life."
+   },
+   {
+    "detail": "Birth, family, teacher other than Benjamin",
+    "note": "Not found in PO5, SEV, REN, BAS1, BUD1 or ABU."
+   },
+   {
+    "detail": "Place and bishops of his consecration",
+    "note": "The History gives none (PO5 l.397-401)."
+   }
+  ]
+ },
+ "john-iii-of-samannud": {
+  "claims": [
+   {
+    "claim": "Scene: the Amir 'delivered him to certain officers until he should pay a hundred thousand denarii'; held by 'the governor of a castle, who was named Samad', 'on the first day of the Great Week before Easter'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.910-914 [OCR 'oflicers', 'sliould']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "His answer: 'my God has not put in his law a command that I should save anything for myself'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.924-927 [OCR 'lias', 'anvthing']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Samad 'commanded that a brazen vessel full of coals of fire should be brought, and his feet placed in it until he should say that he would pay the money'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.955-957 [OCR 'tliat']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Amir's wife fell sick and sent her eunuch: 'Take heed that thou do no harm to that man of God'; Samad told the Amir at cock-crow 'that he had not put the patriarch to the torture'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.958-969 [OCR 'tliey', 'liim', 'tliat']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Evetts's heading: 'JOHN III, OF SAMANNUD, THE FORTIETH PATRIARCH. A. D. 677-686'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.712 [OCR 'FOItTIETH', 'A. L)']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'And the writer of this history was with him, for he was his spiritual son' (writer unnamed)",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.1229",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "A native of Samannud, 'learned in the two kinds of wisdom, the ecclesiastical and the secular'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.507-509",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Abu Salih: at Sailah, 'the monastery of the Brothers ... In this monastery lived the priest John of Samannud'",
+    "witness": "ABU (abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt) l.10740-10745, 10753",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Theodore died of dropsy, in the History's telling; 'his son was appointed governor instead of him, and became like a son to our father Abba John'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.718-726 [OCR 'Fatlier']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Samad lowered the demand to fifty thousand, and John answered then; then to ten thousand, and John answered again; 'The only things that I can dispose of are my garments which are upon my body'; 'I will not promise what I cannot perform'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.1011-1017 [OCR 'tliings tliat', 'wliat I can- not pcrform']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The secretaries offered 'to divide the debt among the bishops and the secretaries and the divans'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.1017-1022",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Released on Great Thursday; 'blessed the basin of water, and washed the feet of the people'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.1024-1113, esp. 1068-1076 [OCR 'lionour', 'thc', 'tlie']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Rebuilt Saint Mark's 'in three years'; a mill 'to grind wheat into flour for making biscuit'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.1121-1133",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Three-year famine: food twice a week, 'the mill for biscuit did not cease working night or day'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.1181-1186 [OCR 'niffht', 'dav']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Chose Isaac of Saint Macarius as partner",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.1166-1178",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Death: at the great altar of Saint Mark's 'he stood up by the power of the Spirit, and said the whole of the prayer of thanksgiving'; 'nine years'; 'the first day of Kihak'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.1261-1272",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Close: 'My body is in thy hands, but my soul and body are both in the hands of my Lord Jesus Christ'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.928-929 [OCR 'Ghrist']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'a saint ... none could look upon his face'; 'a virgin in soul and body'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.835-864",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Agharwah and the Xoite nome received from the Chalcedonians",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.1134-1163",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Budge, 1 Takhshash: churches built, famine, nine years",
+    "witness": "BUD2 (ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-takhshash-yakatit_budge1928.txt) l.1267-1290",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Abu Salih: a church for 'the patriarch Jonas'; Evetts's note l.8372-8374 'Or John'",
+    "witness": "ABU (abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt) l.8346-8348, 8372-8374",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Theodore governed Alexandria ('Alexandria was governed by a man whose name was Theodore'); the Chalcedonian council 'the impure Chalcedonian Council'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.346-347, 449-450",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "George: 'they agreed that they should promote the deacon George ... without consulting the Amir ... we will tell him that Abba John ... commanded us'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.1318-1323",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Renaudot writes as a Catholic: 'nos Catholici a majoribus tradita religiose observamus'",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.986 [long s as f]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "R. H. Charles: John of Nikiu 'took part in the election of the successor of John of Samnud in 690 A. D.'",
+    "witness": "JN (john-nikiu_chronicle_charles1916.txt) l.180-183 [OCR 'Samntid', 'A. d.']",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Renaudot: demand 'centum aureorum millia'; reply 'ne centum quidem drachmas habere se'; the son 'diversae fidei, nam erat Jacobita'; death AH 67 = 686",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.12072-12074, 12092, 12096-12097, 12198 [OCR 'Semnudarus', 'Apthonis', 'Heg. ^7%']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Michael the Syrian: 'apres Jean, Simeon; et apres Simeon, Isaac'",
+    "witness": "MS2 (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt) l.36649-36651",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "George's nomination: the bishops planned to say 'Abba John, the patriarch, commanded us that this man should sit in his place'; 'the documents bore witness that it was not George of whom Abba John had spoken'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.1321-1322, 1370-1373 [OCR 'liad']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The History of the Patriarchs is a later Arabic compilation; from the seventh century its lives are, in B. Evetts's view, contemporary biographies",
+    "witness": "SEV (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt) l.137-166 (Evetts's French notice, signed B. Evetts l.210: 'des le septieme siecle ... une serie de vraies biographies ecrites par des auteurs contemporains, tels que Jean le diacre, au temps du patriarche Michel I, et Georges, archidiacre et syncelle du patriarche Simon') [OCR 'tels (|ue', 'an temps']",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "What John said he lacked",
+    "sides": [
+     "'I have not out of that sum one hundred thousand drachmae': Evetts's English (PO5 l.924-925)",
+     "'ne centum quidem drachmas habere se', not even a hundred: Renaudot (REN l.12096-12097)"
+    ]
+   },
+   {
+    "claim": "The year his successor was chosen",
+    "sides": [
+     "686: Evetts's heading for Isaac (PO5 l.1278); Renaudot's AH 67 = 686 for John's death (REN l.12177-12178)",
+     "690: R. H. Charles (JN l.180-183)"
+    ]
+   },
+   {
+    "claim": "The order of patriarchs after him",
+    "sides": [
+     "Isaac, then Simon: the History (PO5 l.1278, 1535); Renaudot",
+     "Simon, then Isaac: Michael the Syrian (MS2 l.36649-36651)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "The name of the writer who was his spiritual son",
+    "note": "PO5 l.1229 gives none, and Evetts adds no note."
+   },
+   {
+    "detail": "Family and birth year",
+    "note": "Not found in PO5, REN, BUD2 or ABU."
+   },
+   {
+    "detail": "An Arabic Synaxarium notice",
+    "note": "His day, 1 Kiahk, falls in a fascicle (Hatour to Kiahk, PO 3) that is not held."
+   }
+  ]
+ },
+ "isaac-of-alexandria": {
+  "claims": [
+   {
+    "claim": "Scene (Mina): an archbishop seeks 'un homme sage, pour en faire son syncelle et son secretaire'; Isaac spoils the letter, 'il la manqua volontairement ... car il aimait la solitude'; the second letter 'tout a fait merveilleuse'; allowed back on condition 'qu'il passerait pres de lui un mois chaque annee, pour ecrire le reglement des fetes'. Told in modern words",
+    "witness": "PO11 (synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt) l.22989-22991, 23053-23057, 23118-23119, 23179-23181",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mina is 'eveque ... de la ville ... de Pchati'; Porcher: Mina 'un moine du meme monastere ... lequel devint eveque comme lui, succedant a Jean de Nikiou'",
+    "witness": "PO11 (synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt) l.21324-21328, 21247-21251",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Porcher: 'Il ne faut pas chercher dans cette Vie une oeuvre historique, telle qu'on la concoit de nos jours. Le but de l'auteur est l'edification des lecteurs, ou des auditeurs'",
+    "witness": "PO11 (synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt) l.21226-21228",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Budge's Ethiopic names the archbishop of the letter story: 'Abba JOHN the archbishop was seeking for a learned man to be his disciple and his scribe ... ISAAC made mistakes in his writing wittingly'",
+    "witness": "BUD1 (ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928.txt) l.16502-16512",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mina: Abd al-Aziz is 'le roi' and 'on l'appelait encore l'Emir'; the king sees two men walking with Isaac and fear seizes him",
+    "witness": "PO11 (synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt) l.23915-23916, 25893-25900, 26019-26021",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mina: placed with 'un de leurs parents, nomme Meneson, administrateur (chartularius) au service de Georges, qui etait eparque au pays d'Egypte'",
+    "witness": "PO11 (synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt) l.21560-21564",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Porcher's note: on the manuscript, 'le neuvieme d'Athor; c'est le jour de la fete du patriarche, ou sa Vie fut donnee sous la forme d'un sermon'",
+    "witness": "PO11 (synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt) l.21273-21275",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Evetts's heading: 'ISAAC, THE FORTY-FIRST PATRIARCH. A. D. 686-689'; Porcher's title 'DE 686 A 689'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.1278 [OCR 'FOHTY']; PO11 (synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt) l.21163",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mina: placed with the kinsman Meneson, 'administrateur (chartularius) au service de Georges, qui etait eparque ... afin que le jeune Isaac devint secretaire (notarius)'",
+    "witness": "PO11 (synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt) l.21560-21564",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "History: John 'wrote and summoned that brother', a monk of Saint Macarius, and 'commanded him to become his partner in administering the affairs of the Church'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.1167-1178",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The George affair: bishops agreed to promote 'the deacon George, who was a native of Sakha ... without consulting the Amir Abd al-Aziz'; Mark the archdeacon: 'If you will not come to the church on Sunday, according to the custom prescribed by the canons ... I will not assist'; the Amir 'commanded them to appoint Isaac'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.1313-1324, 1356-1373",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mina: George 'avait contracte mariage; que, de plus, il avait des fils tres mauvais'",
+    "witness": "PO11 (synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt) l.24080-24083",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Letters 'to the king of the Abyssinians and the king of the Nubians, bidding them make peace'; the Amir 'sent his officers to bring him that he might put him to death'; 'the secretaries wrote letters different from the patriarch's letters ... in fear for the patriarch'; the Amir 'found nothing'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.1412-1423, 1451-1455",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mina: 'le roi de Macourie envoya des delegues'; 'le roi de Maurotanie'; Peter and Mark beside him: 'Je suis Cephas ... cet autre est Marc'; the king afraid",
+    "witness": "PO11 (synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt) l.25625-25634, 25831-25850, 25893-26032",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Porcher's note: 'L'Histoire des Patriarches remplace la Maurotanie par la Nubie et la Macourie par l'Abyssinie ... Le scribe a pu songer a la Mauritanie'",
+    "witness": "PO11 (synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt) l.25639-25640",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Close (Mina): Isaac to the king, 'celui qui afflige l'Eglise, afflige Dieu'. Told in modern words",
+    "witness": "PO11 (synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt) l.26030-26031",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "History: 'two years and nine months'; 'According to another copy ... three years'; 'the second day of Hatur'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.1506-1510",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mina: died 'le neuvieme jour d'Athor'",
+    "witness": "PO11 (synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt) l.26142",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Repairs: 'the Great Church of the Holy Mark ... and also renewed the episcopal residence'; church at Hulwan",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.1403-1410",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Abu Salih: monastery at Hulwan 'in the patriarchate of Anba Isaac the monk ... and ... of his successor, Anba Simon'",
+    "witness": "ABU (abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt) l.8303-8308",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Cross decree: Abd al-Aziz 'commanded to destroy all the crosses which were in the land of Egypt, even the crosses of gold and silver'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.1457-1462",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mina: crosses ordered destroyed 'dans les premiers temps de son arrivee en Egypte', stopped by a dream",
+    "witness": "PO11 (synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt) l.23958-23963",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mina: the lamp broke over him; 'le treizieme apotre'",
+    "witness": "PO11 (synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt) l.24125-24130",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Birthplace: History 'a native of Shubra'; Mina 'un bourg appele Picho'; Porcher's note on the Synaxarium's Bourlos; Budge 'BORLES (BORLOS)'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.1363-1364; PO11 (synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt) l.21404-21410; BUD1 (ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928.txt) l.16487",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Nau's note: 'trois ans et demi, P. O., III, 268' (the Arabic Synaxarium, 9 Hatour, per Porcher l.21210-21211); a Sunday consecration from Mina ('infra, p. [57]'); a Tuesday death from Peter ibn Rahib; hence 684 to 687, 'mais les jours de la semaine sont-ils authentiques?'",
+    "witness": "PO11 (synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt) l.21208-21211, 21276-21289",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Budge, 9 Khedar: 'three years and a half'",
+    "witness": "BUD1 (ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928.txt) l.16480, 16542-16543",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Evetts 1895 note calls the set-aside candidate John",
+    "witness": "ABU (abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt) l.8329",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The History of the Patriarchs is a later Arabic compilation; from the seventh century its lives are, in B. Evetts's view, contemporary biographies",
+    "witness": "SEV (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt) l.137-166 (Evetts's French notice, signed B. Evetts l.210: 'des le septieme siecle ... une serie de vraies biographies ecrites par des auteurs contemporains, tels que Jean le diacre, au temps du patriarche Michel I, et Georges, archidiacre et syncelle du patriarche Simon') [OCR 'tels (|ue', 'an temps']",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "The kings Isaac wrote to",
+    "sides": [
+     "Abyssinians and Nubians: the History (PO5 l.1412-1413); Renaudot (REN l.12292-12297)",
+     "Makuria and 'Maurotanie': Mina (PO11 l.25625-25636); Porcher's note thinks the scribe may have meant Mauritania (PO11 l.25639-25640)"
+    ]
+   },
+   {
+    "claim": "How the danger over the letters passed",
+    "sides": [
+     "The secretaries swapped the letters: the History (PO5 l.1418-1421)",
+     "The apostles Peter and Mark walked beside him and the king was afraid: Mina (PO11 l.25831-26032)"
+    ]
+   },
+   {
+    "claim": "His death day",
+    "sides": [
+     "2 Hatur: the History (PO5 l.1508); Renaudot (REN l.12328)",
+     "9 Hatur/Athor: Mina (PO11 l.26142); the manuscript note (PO11 l.21273-21275); Budge's 9 Khedar (BUD1 l.16480)"
+    ]
+   },
+   {
+    "claim": "His birthplace",
+    "sides": [
+     "Shubra: the History (PO5 l.1364)",
+     "Picho: Mina (PO11 l.21404)",
+     "Bourlos: the Arabic Synaxarium, as Porcher reports it (PO11 l.21407-21410); Budge's Borles (BUD1 l.16487)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "When Mina wrote",
+    "note": "Porcher gives no date of composition (PO11 l.21205-21290)."
+   },
+   {
+    "detail": "Whether Mina is the Mennas of Saint Macarius whom the History says replaced John of Nikiu (PO5 l.1874-1876)",
+    "note": "No held source joins the two statements."
+   },
+   {
+    "detail": "An Arabic Synaxarium notice",
+    "note": "Its fascicle for Hatour (PO 3) is not held; Porcher cites it."
+   }
+  ]
+ },
+ "simon-i-of-alexandria": {
+  "claims": [
+   {
+    "claim": "Scene: the Amir saw John, 'a handsome person, beautiful in countenance'; a bishop rose 'like Daniel': 'This man shall not be our patriarch'; 'Simon is worthy of this degree'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.1580-1593 [OCR 'Danicl']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'He is a Syrian of the people of the East'; 'Then can you not appoint one of your own country?'; 'the matter belongs to God, and in the second place to thee'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.1594-1599 [OCR 'coun'ry']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Amir bade them ordain him; enthroned in the Angelion",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.1646-1651",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Evetts's heading: 'SIMON I, THE FORTY-SECOND PATRIARCH. A. D. 689-701'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.1535",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Given by his parents 'as an offering to the Church like Samuel' at John's monastery",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.1537-1542",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "John the deacon, narrator of Michael I's life, says the history from Cyril to the days of Alexander was by 'the archdeacon and companion and secretary of the Father Patriarch Abba Simon ... the monk, Abba George', written 'on the mountain of the holy Macarius in the Wadi Habib', 'down to the time of Sulaiman, son of Abd al-Melik' (Omar's removal of Usamah is named only to place Omar); Renaudot: 'usque ad Solimanum ... quibus ipse autor adjecit quae usque ad Theodori mortem, sub Asama'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.4501-4537 [OCR 'se- cretaryof', 'awa}^']; REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.13766-13772",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'his breakfast was bread and crushed salt with cummin and purslain'; 'he was hated by the people of Alexandria' for seeking solitude",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.1734-1742",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Poison in his cup harmless 'because he had communicated of the Holy Mysteries before he drank'; poisoned 'fair figs out of season' while fasting; 'forty days in great anguish'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.1742-1785",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'four of the priests had given the patriarch poison'; ordered burnt at Pharos; Simon on his face: 'it is not right that I should be patriarch after that'; priests released",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.1787-1799",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "India: 'I cannot ordain a bishop for you without the command of the Amir'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.1981-1988",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Abd al-Malik wrote to Abd al-Aziz that 'the patriarch of the Christians, who lives at Alexandria, has sent information of the affairs of Egypt to India'; 'Now this was at night'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.2027-2031, 2118",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gaianites ordained a man of Maryut bishop and two priests; Abd al-Malik 'cut off their hands and feet' (all three)",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.1990-2035",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Indian priest found 'at sunset on the second day' (l.2179); the Amir spared Theodore and the Indian priest 'for he had learnt that there was no deceit'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.2178-2262",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "John's monastery is Az-Zajaj ('the Monastery of Az-Zajaj, which is called in Greek To Enaton'); the synaxaria place the monastery where Saint Severus lies west of Alexandria (Basset 'au couvent ou se trouve le corps de saint Severe ... a l'ouest d'Alexandrie'; Budge), without naming Az-Zajaj; the History says Saint Severus's body 'lies in a shrine in that monastery' (PO5 l.1541-1542); Budge names him 'Archbishop of the city of Antioch' and his resting place Dabra Zegag (BUDM l.3448-3451); Dabra Zegag is read as the Ethiopic form of Az-Zajaj, from the name and from both lying outside (west of) Alexandria; no held line states the equation",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.1472, 1537-1542; PO17 (john-ephesus_lives-eastern-saints-po17_brooks1923.txt; Basset's Arabic Synaxarium, Baounah to Mesore, bound in) l.58449-58450; BUDM (ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_budge1928.txt) l.42752-42753, 3448-3451",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Renaudot's reading has three poisonings: 'etiamsi iterum & tertio infusum illi eodem modo venenum fuisset'",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.12467-12470",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Renaudot writes as a Catholic: 'nos Catholici a majoribus tradita religiose observamus'",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.986 [long s as f]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Gaianites are called 'the impure and heretical sects' in the History",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.441-442",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Summoned at 'the second hour of the night'; 'if a voice came from heaven, bidding me deviate from the truth, I would say no otherwise'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.2036-2039, 2119-2129",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Synodical letter to Julian of Antioch; answer and gifts",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.1684-1691",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ordinations of Zacharias of Sakha and Ptolemy of Upper Manuf, 'and many others'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.2405-2445",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Close: 'Let us travel to the holy valley, Wadi Habib ... for I shall not see them again after this time in the body'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.2448-2450",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Death: 'nine years and a half'; '24th of Abib ... in the year 416 of Diocletian'; buried at Az-Zajaj where John lay",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.2445-2458",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Renaudot: 'annos septem, menses sex'; 'anno secundum Severum 415 Diocletiani'; 'Ita rem Severus narrat'; 'Memoriam Simonis celebrant Coptitae in suo Kalendario 24 mensis Abib'; the lives 'a Cyrillo usque ad Simonem' written 'a multis, atque praesertim a Georgio', who carried his account 'usque ad Solimanum'",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.12475-12476, 12726-12737, 12778-12780, 13765-13770",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Budge, 24 Hamle: 'he remained sick for four days'; priests driven into exile",
+    "witness": "BUDM (ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_budge1928.txt) l.42748-42822",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Basset, 24 Abib: 'notre pere Simeon (Simaoun), patriarche d'Alexandrie (689-702)'; poison 'une seconde et une troisieme fois'; 'il demeura souffrant quarante jours'; the prince 'ordonna de relacher les pretres et de bruler les magiciens, ce qui fut fait pres du Phare'",
+    "witness": "PO17 (john-ephesus_lives-eastern-saints-po17_brooks1923.txt; Basset's Arabic Synaxarium, Baounah to Mesore, bound in) l.58407, 58430-58500 [OCR 'Simdoun', 'troisicme', 'souflrant']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Elmacinus, per Renaudot: a fourth dose, taken without the Eucharist, killed him",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.12476-12489",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Abu Salih: 'Anba Simon the Syrian'",
+    "witness": "ABU (abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt) l.8306",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Michael the Syrian: Simeon before Isaac",
+    "witness": "MS2 (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt) l.36649-36651",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The History of the Patriarchs is a later Arabic compilation; from the seventh century its lives are, in B. Evetts's view, contemporary biographies",
+    "witness": "SEV (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt) l.137-166 (Evetts's French notice, signed B. Evetts l.210: 'des le septieme siecle ... une serie de vraies biographies ecrites par des auteurs contemporains, tels que Jean le diacre, au temps du patriarche Michel I, et Georges, archidiacre et syncelle du patriarche Simon') [OCR 'tels (|ue', 'an temps']",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Outcome of the poisoning",
+    "sides": [
+     "Forty days and recovery: the History (PO5 l.1782)",
+     "Four days: Budge (BUDM l.42791-42792)",
+     "Death from a fourth dose: Elmacinus, per Renaudot (REN l.12476-12489)"
+    ]
+   },
+   {
+    "claim": "Length of his patriarchate",
+    "sides": [
+     "Nine and a half years: the History (PO5 l.2445-2446)",
+     "Seven years and six months: Renaudot (REN l.12734)"
+    ]
+   },
+   {
+    "claim": "How often his cup was poisoned before the figs",
+    "sides": [
+     "Twice: Evetts's English (PO5 l.1742-1748)",
+     "Three times: Renaudot (REN l.12467-12470); Basset (PO17 l.58462-58463); Budge (BUDM l.42778-42779)"
+    ]
+   },
+   {
+    "claim": "The poisoners' fate",
+    "sides": [
+     "Released at his plea: the History (PO5 l.1797-1798); Basset (PO17 l.58407-58500)",
+     "Exiled: Budge (BUDM l.42820-42822); Renaudot (REN l.12545-12546)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "The writer of Simon's life",
+    "note": "PO5 l.1535-2536 names none; George is named only in Michael I's life."
+   },
+   {
+    "detail": "Which Saint Severus lay in the shrine at John's monastery",
+    "note": "PO5 l.1540-1542 says 'the holy Saint Severus' and no held line here gives his see."
+   },
+   {
+    "detail": "The 27 Hamle translation of 'Abba SIMON' to Saint Macarius in Budge (BUDM l.43673-43680)",
+    "note": "Budge does not say which Simon; the History buries Simon I at Az-Zajaj (PO5 l.2457-2458)."
+   }
+  ]
+ },
+ "alexander-ii-of-alexandria": {
+  "claims": [
+   {
+    "claim": "Scene: Alexander 'travelled to Misr to salute Abd Allah, according to the custom among patriarchs and governors'; 'What is this man?'; 'Humiliate him ... until he shall pay three thousand dinars'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.2817-2824 [OCR 'liim']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "George the deacon of Dimru: 'O our Lord, dost thou desire the life of the patriarch or money?' - 'I wish for the money'; two months in the North",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.2848-2858 [OCR 'wheu']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "A monk of Az-Zajaj; consecrated 'on the festival of the holy Saint Mark, namely the last day of Barmudah, in the year 420 of Diocletian'; the church 'left in solitude three years'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.2593-2595, 2626-2631",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Evetts's heading: 'ALEXANDER II, THE FORTY-THIRD PATRIARCH. A. D. 705-730'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.2536",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "John the deacon, narrator of Michael I's life, says the history from Cyril to the days of Alexander was by 'the archdeacon and companion and secretary of the Father Patriarch Abba Simon ... the monk, Abba George', written 'on the mountain of the holy Macarius in the Wadi Habib', 'down to the time of Sulaiman, son of Abd al-Melik' (Omar's removal of Usamah is named only to place Omar); Renaudot: 'usque ad Solimanum ... quibus ipse autor adjecit quae usque ad Theodori mortem, sub Asama'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.4501-4537 [OCR 'se- cretaryof', 'awa}^']; REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.13766-13772",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Kurrah sent by al-Walid; arrested Alexander; 'Our Law bids us not to lay up treasure'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.2904-2908, 2983-2996",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Alexander asked leave to beg: 'he begged him to let him travel to Upper Egypt ... Then Kurrah released him'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.3003-3008",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "At Easter 'the people and clergy of Alexandria rose against him'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.3141-3143",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Only bishop with him: 'not one of the bishops was with him, except Abba Shamul'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.3909-3910",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "John the deacon wrote the rest of chapter XVII: 'we have added nothing to the facts, having related what took place down to the death of the blessed Father Theodore ... to the end of the seventeenth chapter'; Renaudot: 'quibus ipse autor adjecit quae usque ad Theodori mortem'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.4584-4588; REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.13766-13772",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Renaudot writes as a Catholic: 'nos Catholici a majoribus tradita religiose observamus'",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.986 [long s as f]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Begging in Upper Egypt: 'Since the time of the Father Benjamin we have not seen a patriarch in Upper Egypt until this father'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.3032-3038",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Easter: clergy demanded dues; 'we have been forced to make chalices of glass and patens of wood ... because Kurrah has robbed us of them'; 'he patiently endured'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.3141-3174 [OCR 'peoph>', 'eveu']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Usamah: 'branded each one of them on his left hand, with a branding iron in the form of a ring'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.3469-3474",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Renaudot: monks counted and made to wear an iron ring on the right hand, 'manicam ferream in dextra ferre jussit ut agnoscerentur; inscripto simul nomine Ecclesiae aut Monasterii'",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.13440-13442 [long s as f]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ubaid Allah: people numbered; 'a leaden badge ... on the neck'; 'the mark of a lion put on the hands of the Christians'; Renaudot: 'sigillum plumbeum, in quo leonis figura erat, ex collo pendens'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.3796-3809 [OCR 'pfaced']; REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.13550-13553",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Seized 'in order to brand him, but he refused'; asked 'a delay of three days'; prayed 'not to suffer him to be branded, but to remove him from this world speedily'; 'fell sick on the third day'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.3860-3901 [OCR 'orderto', 'tliee']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Close: 'Prepare the boat at sunset that we may depart, for to-morrow the Lord Jesus Christ will visit me'; only Shamul of Wasim with him; died at Tarnut at morning",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.3907-3912 [OCR 'Pre- pare', 'bv thc', 'Alexandcr', 'thai']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'twenty-four years and a half upon the throne'; no death date given in the History",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.3996-3998 [OCR 'thronc']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Elias of Antioch's synodical letter accepted; al-Walid: 'I will not permit a patriarch to be appointed in my days'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.3286-3369",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Hisham and Athanasius of Antioch: 'We bless the prince Hisham'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.3716-3758",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Onopes, 'a Roman, and a blasphemous Chalcedonian', fled to Alexander and was received",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.3370-3416",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Anastasius was made prince of the Romans, and is still reigning'; the bracketed note on 'still'; Evetts: 'This note is evidently added by the translator'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.2950-2956",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Al-Asbagh's agent 'mutilated all the monks' and laid a poll-tax on them (Evetts's English); Renaudot: 'Monachos omnes censeri jussit'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.2679-2685; REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.13035 [OCR 'Mona-chos', 'cenferi juftit']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Renaudot: chronology 'turbatissimam'; vacancy 'quinquennii ferme'; Makrizi AH 105 = 724; Onopes 'in obscuro est', Eutychius names no Melkite patriarch under Walid",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.13011-13016, 13425-13428, 13642-13646",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Michael I's life: Alexandria's church 'suffered greatly in the time of the late patriarch Alexander, when its marble and glorious woodwork ... were taken away'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.7313-7316",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Synaxaria: 7 Amshir (Basset), 7 Yakatit (Budge); monastery Babaroun / Dabra Bataron; the Melkite Anastasius",
+    "witness": "PO11 (synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt) l.51567, 51628-51763; BUD2 (ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-takhshash-yakatit_budge1928.txt) l.14051-14191",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Evetts's 1895 note: Az-Zajaj 'nine miles to the west of Alexandria'",
+    "witness": "ABU (abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt) l.11707-11710",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The History of the Patriarchs is a later Arabic compilation; from the seventh century its lives are, in B. Evetts's view, contemporary biographies",
+    "witness": "SEV (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt) l.137-166 (Evetts's French notice, signed B. Evetts l.210: 'des le septieme siecle ... une serie de vraies biographies ecrites par des auteurs contemporains, tels que Jean le diacre, au temps du patriarche Michel I, et Georges, archidiacre et syncelle du patriarche Simon') [OCR 'tels (|ue', 'an temps']",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "What Usamah put on the monks' hands",
+    "sides": [
+     "A ring-shaped brand on the left hand: the History (PO5 l.3469-3472)",
+     "An iron ring worn on the right hand, inscribed with church or monastery: Renaudot (REN l.13440-13442)"
+    ]
+   },
+   {
+    "claim": "What al-Asbagh's agent did to the monks",
+    "sides": [
+     "Mutilated: Evetts's English (PO5 l.2680)",
+     "Counted: Renaudot (REN l.13035)"
+    ]
+   },
+   {
+    "claim": "The Chalcedonian who came over to him",
+    "sides": [
+     "Onopes the physician: the History (PO5 l.3370-3416); Renaudot doubts it (REN l.13425-13428)",
+     "A Melkite patriarch named Anastasius: Basset (PO11 l.51749-51761); Budge (BUD2 l.14167-14189)"
+    ]
+   },
+   {
+    "claim": "His monastery",
+    "sides": [
+     "Az-Zajaj: the History (PO5 l.2593)",
+     "Babaroun, 'couvent des Peres': Basset (PO11 l.51629-51630); Dabra Bataron: Budge (BUD2 l.14060-14061)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Date and place of burial",
+    "note": "The History gives none (PO5 l.3860-4218)."
+   },
+   {
+    "detail": "Family and birthplace",
+    "note": "Not found in PO5, REN or the synaxaria."
+   }
+  ]
+ },
+ "michael-i-of-alexandria": {
+  "claims": [
+   {
+    "claim": "Scene: 'art thou the chief of the enemies of our religion?'; 'I am not the chief of wicked men, but of good men'; beard pulled out and cast into the river; 'I saw it with my own eyes floating on the water'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.8458-8471 [OCR 'l am', 'tlic']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Marwan's caliphate: Marwan 'seized the empire'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.5828-5831",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Narrator: 'I, his son John, the poor sinner and deacon'; 'I, John, the sinner'; 'the writer of this history'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.8767-8769, 10512, 6256-6257",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "John the spiritual son of Moses of Wasim and his fellow prisoner",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.5169, 8086, 8766-8769",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'the priest Michael at the church of Saint Macarius' (the History); 'moine a l'eglise de Saint-Macaire' (Basset), 'a monk in the church of Saint Abba macarius' (Budge); council 'in the year 459 of Diocletian'; consecrated on 17 Tut",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.5220-5222, 5500-5501, 5635; PO16 (patrologia-orientalis-tomus16_synaxaire-arabe-jacobite-barmahat-bachons-synaxaire-armenien-tre-fra_graffin-nau1922.txt) l.12449-12450; BUDM (ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_budge1928.txt) l.20799-20800",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Letters 'had been sent to this king from Egypt, and had reached him while the father ... was in prison'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.7070-7072",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Renaudot writes as a Catholic: 'nos Catholici a majoribus tradita religiose observamus'",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.986 [long s as f]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Evetts's heading 'MICHAEL I, THE FORTY-SIXTH PATRIARCH. A. D. 744-768'; volume title 'AGATHO TO MICHAEL I (766)'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.4414, 119-120 [OCR 'MICIIAEL']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Governor 'a son of Musa, son of Nasir'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.5840-5843",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Jailed for 'the taxes on his churches'; 'a great block of wood ... to the patriarch's foot, and a heavy iron collar to his neck'; 'a dark chamber ... hewn in the rock'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.6616-6656 [OCR 'shouhl']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Letters reached king Cyriacus 'while the father, Abba Michael, was in prison with us'; Abd al-Malik 'seized the patriarch, and kept him in custody'; Cyriacus marched with 'a hundred thousand horsemen'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.7070-7075 [OCR 'tlie', 'communicalions', 'Tlicn']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Michael released; wrote 'letters of peace to Cyriacus'; 'the king returned without fighting a battle'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.7127-7137",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Kauzara: 'There is nothing in my church; therefore I give myself instead of the money'; 'drew down his cap over his face ... stretched out his neck'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.7891-7903",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Prison at Giza; Marwan killed; Michael 'set free, and honoured'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.8764-8805, 9206-9243",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Isaac of Harran: 'Sword or fire or casting to lions or exile or captivity, — these are things that trouble me not; but I will not enter into what is not lawful, nor incur my own excommunication, which I subscribed with my own hand ... to the effect that no bishop shall become patriarch'. The sword-and-lions clause told in modern words",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.10415-10419 [OCR 'cxile', 'becomc']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Death on '16th of Barmahat'; 'according to the statement which we found in the library in the Monastery of Saint Macarius, twenty-three years and a half'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.10703-10705 [OCR 'cvangelical', 'inthe']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Masis, bishop of Ousim, 11 Mesore: 'le patriarche Anba Khayil, martyr sans effusion de sang'; footnote 'Mai Mosas'",
+    "witness": "PO17 (john-ephesus_lives-eastern-saints-po17_brooks1923.txt; Basset's Arabic Synaxarium, Baounah to Mesore, bound in) l.60599-60613, 60666-60668 [OCR '&lev&']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Saint Mennas church: Theophilus's and Timothy's names on the pillars; 'Thus we recovered our church once more'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.6500-6518",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Letter 'written down in Coptic and in Arabic'; opening 'Michael, by the grace of God bishop of the city of Alexandria and of the Theodosian people'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.5977, 6014-6015 [OCR 'thc']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Communion only fasting",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.7239-7241 [OCR 'tlie']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Alexandria church restored; churches east and west",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.7313-7318",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Basset, 16 Barmahat: 'le roi d'Abyssinie'; bracket '(743-767)'",
+    "witness": "PO16 (patrologia-orientalis-tomus16_synaxaire-arabe-jacobite-barmahat-bachons-synaxaire-armenien-tre-fra_graffin-nau1922.txt) l.12447-12449, 12591-12594 [OCR 'Abyssinio', '7G7']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Budge, 16 Magabit: 'King of Ethiopia'; 'ten thousand horses'",
+    "witness": "BUDM (ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_budge1928.txt) l.20797-20799, 20895-20903",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Renaudot: Severus 'seems to have followed an ancient contemporary author'; 'Joannes Diaconus autor istius historiae'; miracles beyond measure; the expedition 'fabulae quam historiae propior'; Cyriacus probably Ethiopian; ordination AH 124-125 (741-742); successor Mennas",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.13757-13758, 14163-14167, 14849-14913, 15143-15144, 15350-15356, 15641-15645",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Abu Salih names 'Salah ad-Din Yusuf the Kurd'; Evetts's note: 'an anachronism due to the carelessness of a copyist'",
+    "witness": "ABU (abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt) l.13470-13474",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "John's diocese: 'I have ten villages'; 'He is in the position of a bishop'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.10362-10408",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "The History of the Patriarchs is a later Arabic compilation; from the seventh century its lives are, in B. Evetts's view, contemporary biographies",
+    "witness": "SEV (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt) l.137-166 (Evetts's French notice, signed B. Evetts l.210: 'des le septieme siecle ... une serie de vraies biographies ecrites par des auteurs contemporains, tels que Jean le diacre, au temps du patriarche Michel I, et Georges, archidiacre et syncelle du patriarche Simon') [OCR 'tels (|ue', 'an temps']",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Who marched north for Michael",
+    "sides": [
+     "Cyriacus, king of the Nubians and 'Ethiopian king of al-Mukurrah': the History (PO5 l.7041-7141)",
+     "A king of Abyssinia or Ethiopia: Basset (PO16 l.12591); Budge (BUDM l.20903); Renaudot thinks probably Ethiopian (REN l.14895-14896)"
+    ]
+   },
+   {
+    "claim": "His years in office",
+    "sides": [
+     "744 to 768: Evetts's heading (PO5 l.4414)",
+     "766 as end: Evetts's volume title (PO5 l.119-120)",
+     "743 to 767: Basset's bracket (PO16 l.12449)",
+     "Ordination about 741 or 742: Renaudot (REN l.14163-14167)"
+    ]
+   },
+   {
+    "claim": "Size of the army",
+    "sides": [
+     "100,000 horsemen, horses and camels: the History (PO5 l.7074-7076)",
+     "10,000 horses, 100,000 mules, 100,000 camels: Budge (BUDM l.20895-20897)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Whether John the deacon became a bishop",
+    "note": "No held line says so (PO5 l.10362-10408 is ambiguous)."
+   },
+   {
+    "detail": "His successor's name in the History",
+    "note": "Michael's life does not name him; Renaudot names Mennas (REN l.15641-15645)."
+   },
+   {
+    "detail": "Family, birthplace, age",
+    "note": "Not found in PO5, REN, PO16, BUDM or ABU."
+   },
+   {
+    "detail": "John's separate biography of Michael",
+    "note": "PO5 l.5638-5639 names it; it is not held."
+   }
+  ]
+ },
+ "joseph-i-of-alexandria": {
+  "claims": [
+   {
+    "claim": "Scene: the see vacant 'pendant des annees'; bishops took 'des cadeaux d'un fonctionnaire de l'administration qui etait marie et vivait dans le monde'; the envoys' sign 'que nous trouvions sa porte ouverte'; 'ils le saisirent, le lierent'",
+    "witness": "BAS1 (synaxaire-arabe-jacobite_po1-thout-babeh-synaxaire-ethiopien-fra_basset-guidi1907.txt) l.20286-20348",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Budge: 'they seized him and bound him, saying, \"He is worthy, He is worthy, Abba JOSEPH is worthy of the archiepiscopate.\"'",
+    "witness": "BUD1 (ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928.txt) l.14646-14651",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The official sought the see: Renaudot's Isaac son of Andunah, 'uxoratum'; Budge: 'none but a virgin hath been appointed to sit on the throne of MARK'",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.18004-18030; BUD1 (ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928.txt) l.14614-14628",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Basset: 'issu de grands personnages de Manouf'; orphaned; alms; monk 'aupres d'un saint vieillard'",
+    "witness": "BAS1 (synaxaire-arabe-jacobite_po1-thout-babeh-synaxaire-ethiopien-fra_basset-guidi1907.txt) l.20276-20281",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The History's life of Yusab (PO 10) is not held; Renaudot cites 'Autor vero vitae Yusabi'",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.17999 [OCR 'vitz Yupibi']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Renaudot: ordained 'an. 547 Martyrum, qui ex vero calculo respondet anno J. C. 831'",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.18081-18082 [OCR '547*', '83i'']",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Basset's bracket '(837-849)'",
+    "witness": "BAS1 (synaxaire-arabe-jacobite_po1-thout-babeh-synaxaire-ethiopien-fra_basset-guidi1907.txt) l.20275-20276",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Joseph's letters to the Bashmurites: 'monuisseque eum qui potestati resistit, Dei ordinationi resistere'",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.18128-18132 [OCR 'Brehammyritas']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Al-Ma'mun came 'habebatque in comitatu Dionysium Patriarcham Antiochenum'; sent Joseph 'simul cum Dionysio'; 'cum nihil profecissent'; Afshin 'eos internecione delevit'",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.18144-18166",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bar Hebraeus: the caliph's envoys 'ad Christianos Byamitas, in regione inferiore Aegypti'; 'cum patriarcha Aegypti Josepho'; Apschinus 'pacem noluit', burned villages, shipped captives",
+    "witness": "BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.21805-21818",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Dionysius in Bar Hebraeus: 'populum pudicum, sincerum, humilem'; 'absque ducentis aut trecentis daricis non potest quis pervenire ad summum pontificatum'; 'papa pro apologia nobis respondit se hanc legis violationem exstantem invenisse'",
+    "witness": "BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.21905-21926 [OCR 'pontitica- tura']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Dionysius of Tel Mahre is the Syriac Orthodox patriarch of the approved era 4 batch 2 profile",
+    "witness": "BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.21266 ('Dionysii Telmaharensis patriarchae')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Renaudot: the prefect's father sent 'in Ecclesiam'; Afshin ordered punishment and Joseph 'intercessit & obtinuit, ut illis parceretur'",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.18197-18215",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Budge names the Ethiopian bishop John: 'send unto us as bishop Abba JOHN'",
+    "witness": "BUD1 (ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928.txt) l.14745-14775",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Renaudot writes as a Catholic: 'nos Catholici a majoribus tradita religiose observamus'",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.986 [long s as f]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The sword: Basset 'le sabre donna contre un pilier et se brisa'; 'L'emir envoya son frere'; Renaudot 'in columnam marmoream'; the prefect 'patrem suum ... misit'; Budge 'his sword struck a pillar, and broke'",
+    "witness": "BAS1 (synaxaire-arabe-jacobite_po1-thout-babeh-synaxaire-ethiopien-fra_basset-guidi1907.txt) l.20389-20433; REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.18193-18211; BUD1 (ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928.txt) l.14697-14701",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Budge: Joseph's plea, 'Our Lord Christ in the Holy Gospel commanded us to do good in return for evil ... I therefore beseech thee to have mercy upon them'",
+    "witness": "BUD1 (ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928.txt) l.14725-14731",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Nineteen years: Basset 'dix-neuf ans'; Budge 'nineteen years'; Renaudot 'annos 18. & menses 11'",
+    "witness": "BAS1 (synaxaire-arabe-jacobite_po1-thout-babeh-synaxaire-ethiopien-fra_basset-guidi1907.txt) l.20445-20448; BUD1 (ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928.txt) l.14796-14800; REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.18890-18894 [OCR '1 r']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ages: Basset 'quatre-vingt-deux ans'; Budge 'eight and sixty years'",
+    "witness": "BAS1 (synaxaire-arabe-jacobite_po1-thout-babeh-synaxaire-ethiopien-fra_basset-guidi1907.txt) l.20447-20448; BUD1 (ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928.txt) l.14799-14800",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Close: 'Salutation to Archbishop JOSEPH of the city of MANUF, unto whom was given the knowledge of Letters'",
+    "witness": "BUD1 (ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928.txt) l.14814-14815",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Georgios son of King Zacharias; 'crucem auream, quam unusquisque osculabatur'",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.18238-18286",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ma'mun's diploma; shown to the qadi, 'autoritate Dei, & Principum'",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.18217-18221, 18759-18764",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bishops sent to Africa, Pentapolis, Kairouan, Tripoli, Egypt, Ethiopia and Nubia, 'dicens periculum esse ne greges perirent'",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.18600-18603",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Renaudot calls them 'Patriarchis haereticis'",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.18609",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Basset: 'Dieu Tres-Haut fit apparaitre beaucoup de miracles par son intermediaire'",
+    "witness": "BAS1 (synaxaire-arabe-jacobite_po1-thout-babeh-synaxaire-ethiopien-fra_basset-guidi1907.txt) l.20443-20444",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The life's author shared his prison: 'in quem detrusum se cum eo testatur Autor historiae'",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.18885-18886",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Revolt under Jacob in Elmacinus and another life",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.18122-18128",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ethiopian bishop John; Makrizi calls him Jacob",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.18333-18359, 18594-18597",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Abu Salih: Ibrahim, brother of al-Ma'mun; 'Anba Joseph, the fifty-second patriarch'",
+    "witness": "ABU (abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt) l.13529-13551",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'fifty-second': Renaudot 'PATRIARCHA LII'; Budge 'the fifty-second Archbishop'",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.17993; BUD1 (ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928.txt) l.14596-14597",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "His age at death",
+    "sides": [
+     "Eighty-two: Basset (BAS1 l.20447-20448)",
+     "Sixty-eight: Budge (BUD1 l.14799-14800)"
+    ]
+   },
+   {
+    "claim": "Who sent the swordsman",
+    "sides": [
+     "The emir's brother: Basset (BAS1 l.20397); the king's brother: Budge (BUD1 l.14696)",
+     "The prefect's father, sent by Afshin: Renaudot (REN l.18197)"
+    ]
+   },
+   {
+    "claim": "Under which patriarch the Bashmurite revolt fell",
+    "sides": [
+     "Joseph: the History as Renaudot reads it (REN l.18122-18128)",
+     "Jacob: Elmacinus and another life, as Renaudot reports (REN l.18122-18128)"
+    ]
+   },
+   {
+    "claim": "His dates",
+    "sides": [
+     "831 to 850: Renaudot (REN l.18081-18082, 18890-18894)",
+     "837 to 849: Basset's bracket (BAS1 l.20275-20276)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "The History's own life of Yusab",
+    "note": "Evetts's PO 10 is not held; Michael the Syrian's tome 3 is not held either."
+   },
+   {
+    "detail": "The name of his biographer",
+    "note": "Renaudot says he shared the prison (REN l.18885-18886) but gives no name."
+   },
+   {
+    "detail": "The census's details of the Bashmurite embassy and of Georgios's journey (safe-conducts, the rebels' words, the parasol, 836)",
+    "note": "Not found in any held file; see the batch's Open-Gaps entry."
+   }
+  ]
+ },
+ "severus-ibn-al-muqaffa": {
+  "claims": [
+   {
+    "claim": "Scene: before 'supremum Judicem', asked whether a passing dog was Christian or Muslim: 'Quaere ab eo ... respondebit ipse pro se'; Christians fast and drink a little wine at evening, Muslims do not fast nor drink wine; 'Objicite igitur huic cani carnem & vinum: si carnem vorat, Muslemanus est; si eam refugit, & vinum bibit, Christianus'. Told in modern words; Renaudot reports it as told ('Narrant')",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.23087-23096 [OCR '^/cre ah tOy', 'refpondehit', 'Objtate'; the weekday is OCR-damaged, 'ferta 6^ e(i']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Renaudot: 'Severum Episcopum Aschmonin, virum summa Arabicae linguae peritia celebrem'",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.23072-23074 [OCR 'Afchmonin']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Under al-Muazzus, the Jew Moses asked to dispute with the patriarch; the patriarch chose Severus; Severus said it did not befit the prince's dignity; 'Neque ulterius processit disputatio'",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.23066-23087 [OCR 'ulteriiu proceflit']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The patriarch is Abraham (Ephraem), son of Zara: chapter heading",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.23003",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Budge, 6 Takhshash: 'SEVERUS, the son of MAKFUE, Bishop of the city of ESHMOUNEN. And they disputed with that Jew, and vanquished him'",
+    "witness": "BUD2 (ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-takhshash-yakatit_budge1928.txt) l.2008-2010 [OCR names]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Grébaut: 'Ils disputerent avec ce juif, le vainquirent et le confondirent'",
+    "witness": "PO15 (patrologia-orientalis-tomus15_petit-documents-concile-de-florence-purgatoire-grc-fra_graffin-nau1927.txt) l.61414-61417",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Third preface 'by Severus, bishop of Al-Ushmunain': 'The author of this history, Severus, son of Al-Mukaffa, the compiler, says thus'",
+    "witness": "SEV (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt) l.1997-2003 [OCR 'HY SEVERUS', 'Scverus', 'Al-Mukalfa']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'I requested the help of those Christian brethren ... in translating the histories that we found written in the Coptic and Greek languages into the Arabic tongue ... most of whom are ignorant of the Coptic and the Greek'",
+    "witness": "SEV (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt) l.2133-2138 [OCR 'nto', 'egion', 'ihe', 'hat']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Close: 'In thy mercy be not angry with me for that which I have written, but pardon and forgive the faults therein caused by my negligence'",
+    "witness": "SEV (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt) l.2375-2376",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "First preface (third person): the histories 'collected ... by the care of the celebrated father, Abba Severus, son of Al-Mukaffa, bishop of the city of Al-Ushmunain', from the monasteries of Saint Macarius and Nahya",
+    "witness": "SEV (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt) l.608-613 [OCR 'Scverus', 'Al-Mukalfa']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Evetts: 'il est impossible de savoir jusqu'ou s'etend l'oeuvre de traduction dont parle Severe dans sa preface'; Severus wrote 'pour refuter l'historien rival, Eutychius, patriarche Melchite d'Alexandrie, vivait vers la fin du dixieme siecle'",
+    "witness": "SEV (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt) l.161-166 [OCR '(in']",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Evetts: Severus's see 'dans la Haute-Egypte, entre Minieh et Asiout'",
+    "witness": "SEV (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt) l.139-143",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "From the seventh century the lives are contemporary biographies, 'tels que Jean le diacre ... et Georges'",
+    "witness": "SEV (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt) l.137-166 (Evetts's French notice, signed B. Evetts l.210: 'des le septieme siecle ... une serie de vraies biographies ecrites par des auteurs contemporains, tels que Jean le diacre, au temps du patriarche Michel I, et Georges, archidiacre et syncelle du patriarche Simon') [OCR 'tels (|ue', 'an temps']",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Evetts 1895: 'compiled in the ninth century by Severus, bishop of Al-Ushmunain'",
+    "witness": "ABU (abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt) l.494-497, 3592-3594",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Renaudot on continuers: 'Michael Episcopus Taneos, Mauhoub filius Mansour, Marcus filius Zaraa & anonymi'",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.1034-1037",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Renaudot doubts Severus knew Greek: 'neque enim ullo vel levissimo indicio animadvertitur, illum Graece scivisse'",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.862-876",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Renaudot: Severus lived 'ultra centum annos'; cannot tell where his part ends; few recall his labor on the History",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.20576-20609",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Renaudot keeps Severus apart from the History's author: 'Severus qui Varaho narravit ... Autor historiae Patriarchalis, qui eam suae inseruit'; the History's author praises his learning 'quam multis voluminibus editis testatus est'",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.23570-23575, 23683-23685",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Renaudot cites the History under Severus's name: 'Ita rem Severus narrat' (life of Simon I)",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.12475-12476",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mauhub, 804 of the Martyrs (1088), gathered lives at Saint Macarius; 'veteres vitae a Severo Episcopo Aschmoninensi collectae' held first place",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.25850-25877",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Renaudot's list of works, incl. 'De Paschate & simul de Eucharistia', 'Adversus Said filium Batrik', 'De quatuor primis Conciliis Synopsis Historica'; the Easter and Eucharist tract 'in plerisque Codicibus'",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.23100-23122",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Assemani: 'Severi Mokaffai Episcopi Asmonaeorum in Aegypto, historia quatuor priorum Synodorum, Tractatus adversus errores Armenorum. Arabice.'",
+    "witness": "ASS1 (assemani_bibliotheca-orientalis-tomus1-de-scriptoribus-syris-orthodoxis-lat_1719.txt) l.118017-118020",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Renaudot's source: an earlier patriarch of the family name 'cujus vitam Severus Aschmonin Episcopus scripsit, Ephrem scilicet', in the History's life of Mark son of Zaraa (heading l.32091)",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.32091, 32122-32125",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Friend of Wadih son of Raja: 'magnam cum Severo filio Mocaffa, Episcopo Aschmonin, amicitiam coluit'; a Eucharist miracle 'acceptum a Severo ... Vazah literis consignavit'",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.23570-23573, 23644-23646 [OCR 'Mocfiih']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The man who asked to debate was Moses, a Jew 'qui illi familiarissimus erat', a friend of the caliph's adviser Abu Yacoub ibn Kalas",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.23065-23070",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Abraham's heading: 'EPHRAEM SYRUS, FILIUS ZARAA'",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.23003",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Wadih son of Raja: 'juvenis inter nobiliores urbis Misrae', raised 'in Muhamedana Religione', became a Christian; baptized, 'baptismum petiit & obtinuit' (l.23526-23527); 'Scripsit quoque Vazah filius Reja, libros aliquot lingua Arabica'",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.23439-23442, 23446-23527, 23576-23577",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Renaudot writes as a Catholic: 'nos Catholici a majoribus tradita religiose observamus'",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.986 [long s as f]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Refutation of Eutychius named in PO publisher lists: 'Refutation de Sa'id Ibn Batriq (Eutychius), par Severe Ibn-al-Moqaffa'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.188-190",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "How much of the History of the Patriarchs is Severus's work",
+    "sides": [
+     "His: the third preface in his voice (SEV l.1997-2138); the first preface (SEV l.608-613); Renaudot cites the History as Severus's (REN l.12475-12476); Renaudot's source says Severus wrote the life of the patriarch Abraham (REN l.32122-32125)",
+     "Uncertain or limited: Evetts, the extent cannot be known and later lives are contemporary biographies (SEV l.153-166); Renaudot, later continuers named (REN l.1034-1037, 25850-25877), doubts his Greek (REN l.875-876), keeps him apart from the History's author (REN l.23683-23685)"
+    ]
+   },
+   {
+    "claim": "His century",
+    "sides": [
+     "Ninth: Evetts 1895 (ABU l.494-497, 3592-3594)",
+     "Near the end of the tenth: Evetts 1904 (SEV l.163-164); Renaudot places him under al-Mu'izz (REN l.23066-23077)"
+    ]
+   },
+   {
+    "claim": "The outcome of the debate before al-Mu'izz",
+    "sides": [
+     "No debate held: Renaudot (REN l.23078-23087)",
+     "They debated and won: Budge (BUD2 l.2008-2010); Grébaut (PO15 l.61414-61417)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Birth, consecration as bishop, death, feast day",
+    "note": "Not found in SEV, REN, BUD2, PO15, ASS1, ABU or the held synaxaria."
+   },
+   {
+    "detail": "The texts of his other works",
+    "note": "The Refutation of Eutychius and the History of the Councils are not held. Renaudot's list (REN l.23100-23122), Assemani (ASS1 l.118017-118020) and Evetts (SEV l.163-164) name them."
+   },
+   {
+    "detail": "A held source that calls his authorship of the History 'disputed' in those words",
+    "note": "None found. The census's peopleNote says it; the held lines show a dispute over its extent and over his date; see the batch's Open-Gaps entry."
+   },
+   {
+    "detail": "Whether the chapter opening 'The author says' (SEV l.2933-2937) is Severus",
+    "note": "It names only 'the author'."
+   }
+  ]
+ }
+}
