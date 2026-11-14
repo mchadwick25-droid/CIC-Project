@@ -7,7 +7,7 @@
     "Adamanus"
   ],
   "knownFor": "Abbot of Iona who wrote the Life of Columba, and a book on the holy places from what Arculf, a bishop from Gaul, told him. Bede says he took up the Roman Easter but could not bring the monks of Iona with him.",
-  "dates": "Born in 624 and abbot of Iona from 679, in Wentworth Huyshe's account. Huyshe says he seems to have stayed in Ireland until 704, then returned to Iona and died soon after. Bede says he died before the year came round after he kept the canonical Easter in Ireland. The Annales Cambriae record his falling asleep in a year their editor, John Williams ab Ithel, sets at 704",
+  "dates": "Born in 624 and abbot of Iona from 679, in Wentworth Huyshe's account. Huyshe says he seems to have stayed in Ireland until 704, then returned to Iona and died soon after. Bede says he died before the year came round after he kept the Roman Easter in Ireland and went home. The Annales Cambriae record his falling asleep in a year their editor, John Williams ab Ithel, sets at 704",
   "place": "Donegal in Ireland by birth, in Huyshe's account. Iona, as monk and abbot. Northumbria, as envoy to King Aldfrith. Ireland, which Huyshe says he visited in 692 and 697",
   "tradition": "Medieval Irish Christianity; Insular / Irish Monastic Christianity",
   "role": "Monk and abbot of Iona; writer of the Life of Columba and of a book on the holy places",
@@ -28,10 +28,10 @@
   ],
   "legacy": {
     "traces": [
-      "Bede says Adomnán brought many in Ireland to the canonical Easter, almost all who were not under Iona's rule.",
-      "Bede says Iona's own monks took the Catholic Easter after Adomnán's death, under Abbot Dunchad. They were taught by Egbert, an English priest who had long lived in Ireland. Bede's fifth book puts Egbert's coming in 716, and his third book gives 715.",
+      "Bede says Adomnán brought many in Ireland to the Roman Easter, almost all who were not under Iona's rule.",
+      "Bede says Iona's own monks took the Roman Easter after Adomnán's death, under Abbot Dunchad. They were taught by Egbert, an English priest who had long lived in Ireland. Bede's fifth book puts Egbert's coming in 716, and his third book gives 715.",
       "Bede calls the book on the holy places useful to many readers, and copied passages from it into his History.",
-      "Newport White says Muirchu and Aedh of Sletty signed the acts of the synod Adomnán held at Birr, between 695 and 697.",
+      "Newport White says Muirchu, who wrote a Life of Patrick, and Aedh of Sletty signed the acts of the synod Adomnán held at Birr, between 695 and 697.",
       "A note in the Lebar Brecc, printed by Whitley Stokes, counts Adomnán's rule, not to slay women, among four rules of Ireland. Wentworth Huyshe says Columba, and Adomnán after him, freed women from having to fight beside their husbands and sons."
     ],
     "remembered": [
@@ -44,7 +44,7 @@
   "uncertain": [
     "His years and kin come from Wentworth Huyshe's introduction of 1905, which gives them without naming its source. Huyshe reports the view that the Life of Columba was written between Adomnán's visits to Ireland in 692 and 697. The Life is a saint's Life, and its wonders are Adomnán's report.",
     "The book on the holy places. Bede credits it to Adomnán, and its preface names him as the one Arculf dictated to. L. Cecil Jane, in his notes to Bede, calls it doubtful that Adomnán really wrote the book Bede quotes.",
-    "Adomnán's rule. The Lebar Brecc note calls it cain Adamnan, which Whitley Stokes renders as Adamnan's rule. Its text is not among the sources used here. Newport White ties a synod at Birr to Adomnán, but no source used here says what the synod decreed.",
+    "Adomnán's rule. The Lebar Brecc note calls it cain Adamnan, which Whitley Stokes renders as Adamnan's rule. Wentworth Huyshe calls the Lebar Brecc a fifteenth-century manuscript. The text of the rule is not among the sources used here. Newport White ties a synod at Birr to Adomnán, but no source used here says what the synod decreed.",
     "The canons under his name. F. W. H. Wasserschleben says one manuscript names them Canones Adomnani, and that d'Achery had printed them as chapters of Theodore of Canterbury.",
     "His Easter. Bede, who held to the Roman reckoning, tells his change of mind as a turn to the truth. Bede says God so ordered it that he died before Easter came round again. So this lover of peace did not have to quarrel more seriously with those who would not follow him. Ceolfrid says he would also have changed his tonsure if his authority had reached that far.",
     "The annals from the Book of Leinster, as Whitley Stokes prints them, say Adomnán brought the captives to Ireland. Stokes sets the entry at 693. No source used here says whose captives they were.",
@@ -73,7 +73,7 @@
     ],
     "about": [
       {
-        "title": "Ecclesiastical History of the English People, Books V.15, V.21, with Ceolfrid's letter to King Naitan, and V.22 (English tr. J. A. Giles, rev. L. C. Jane)",
+        "title": "Ecclesiastical History of the English People, Books III.4, IV.25, V.15, V.21, with Ceolfrid's letter to King Naitan, and V.22 (English tr. J. A. Giles, rev. L. C. Jane)",
         "author": "Bede",
         "language": "English translation",
         "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt"
