@@ -9,3 +9,7 @@ The answer to `R2_recheck.md`. The one substantial finding is fixed, and so are 
 | R2-3 | Issaverdens's `record` note now gives Ormanian's words for San Lazzaro, "had to yield to the demands of the Roman Curia" (ormanian l.4491-4495); "for visitors" and the file-header citation are dropped from the entry and the records. |
 | R2-4 | Gregory the Great is added to Constantinople's `people` (WHO, `gregory-the-great`): not present; tried to bring the Istrian bishops back, by Barmby's account (npnf212 l.22455-22462), with a claim in `records.json`. |
 | R2-5 | Brief: "Gregory the Great of Rome said he honoured the fifth council." |
+
+## After round 3
+
+`R3_recheck.md` cleared all three councils with no blocking or substantial point. Its three optional minors were taken as wording, with no brief changed: R3-1, the Dvin date's contested claim now cites Kirakos and Ukhtanes through Brosset; R3-2, the Register XI.52 letter is taken out of Dvin's `record` (it stays in `uncertain` and `sources`, since it bears on the council only if Quiricus is Kyrion); R3-3, Constantinople's Roman-church note reads "the fifth council".
