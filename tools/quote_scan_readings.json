@@ -106,6 +106,104 @@
     "IV. 9.",
     "258 ECCLESIASTICAL HISTORY"
    ]
+  },
+  {
+   "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+   "lines": "220",
+   "scan": "4 BEDE'S ECCLESIASTICAL HISTORY",
+   "drop": true,
+   "kind": "running head",
+   "lines_held": [
+    "4 BEDE'S ECCLESIASTICAL HISTORY"
+   ]
+  },
+  {
+   "file": "cic/texts/boniface_english-correspondence_kylie1911.txt",
+   "lines": "2457-2460",
+   "scan": "so THE ENGLISH CORRESPONDENCE",
+   "drop": true,
+   "kind": "signature mark and running head",
+   "lines_held": [
+    "R",
+    "so THE ENGLISH CORRESPONDENCE"
+   ]
+  },
+  {
+   "file": "cic/texts/rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt",
+   "lines": "13535-13536",
+   "scan": "abomi \nnable",
+   "reads": "abominable",
+   "kind": "word broken across lines without a hyphen"
+  },
+  {
+   "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+   "lines": "46143",
+   "scan": "I he sinner Agatbon",
+   "reads": "I the sinner Agathon",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+   "lines": "2137",
+   "scan": "of ihe Coptic",
+   "reads": "of the Coptic",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+   "lines": "2375",
+   "scan": "which 1 have",
+   "reads": "which I have",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt",
+   "lines": "929",
+   "scan": "Jesus  Ghrist",
+   "reads": "Jesus  Christ",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt",
+   "lines": "1013",
+   "scan": "only  tliings",
+   "reads": "only  things",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt",
+   "lines": "1014",
+   "scan": "tliat  I",
+   "reads": "that  I",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt",
+   "lines": "1016",
+   "scan": "promise  wliat",
+   "reads": "promise  what",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt",
+   "lines": "1017",
+   "scan": "not  pcrform",
+   "reads": "not  perform",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt",
+   "lines": "8463",
+   "scan": "«  l  am",
+   "reads": "«  I  am",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt",
+   "lines": "10419",
+   "scan": "shall  becomc",
+   "reads": "shall  become",
+   "kind": "OCR misread"
   }
  ]
 }
