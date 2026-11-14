@@ -23,7 +23,7 @@
     ]
   },
   "uncertain": [
-    "Most of what is known comes from John of Ephesus, who wrote his Life in 566 by Brooks's year and was made a bishop by him. Brooks calls Jacob John's hero, and notes that in the quarrel of 575 John stood on the other side.",
+    "Most of what is known comes from John of Ephesus, who wrote his Life in 566 by Brooks's year and was made a bishop by him. Brooks calls Jacob John's hero, and places John on the other side in the quarrel of 575. Michael the Syrian says John did not break with Jacob's party but rebuked both sides.",
     "A longer Life of James, printed as John's, is later. Brooks, following Kleyn, holds it spurious; its colophon gives it to Theodosius of Fsiltha in the Seleucid year 1052, which Brooks gives as 741. Its parents and its eighty-seven bishops are not John's.",
     "His birthplace. John says Tella. Michael the Syrian and Bar Hebraeus make him a priest of Fsiltha from the village of Gamoua on Mount Izla.",
     "The years. John gives the sixteenth year of Justinian. Brooks makes it 542; Joseph Assemani, after the chronicle he calls Dionysius's, and Hefele make it 541. The sources give no year of birth. Elias of Nisibis puts his death ten years earlier than Michael and Bar Hebraeus.",
@@ -33,6 +33,13 @@
     "The name Jacobites. Michael the Syrian ties it to the quarrel over Paul, and Brooks thinks so too. The spurious Life gives the cry \"We are of the faith of James\". Bar Hebraeus says it came from the priests he multiplied."
   ],
   "sources": {
+    "ownWords": [
+      {
+        "title": "His reply to the Alexandrians, in Michael the Syrian, Chronique, book X (tr. J.-B. Chabot)",
+        "language": "French translation",
+        "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt"
+      }
+    ],
     "about": [
       {
         "title": "Lives of the Eastern Saints, chapters 49 and 50 (tr. E. W. Brooks)",
@@ -82,13 +89,6 @@
         "date": null,
         "language": "English translation",
         "file": "cic/texts/hefele_history-of-the-councils-v3-431-451_clark1883.txt"
-      }
-    ],
-    "ownWords": [
-      {
-        "title": "His reply to the Alexandrians, in Michael the Syrian, Chronique, book X (tr. J.-B. Chabot)",
-        "language": "French translation",
-        "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt"
       }
     ]
   }

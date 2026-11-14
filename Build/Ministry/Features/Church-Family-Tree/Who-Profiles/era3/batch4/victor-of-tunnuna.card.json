@@ -33,7 +33,7 @@
     "His town. Mommsen says its true name is little known and adopts \"Tonnennensis\" by conjecture. Isidore's editors list other forms. English notes in the Ante-Nicene and Nicene Fathers call him \"Victor of Tunis\".",
     "The order of his prisons. His own entry has Mandracium first and Aegimurus second. Mommsen's summary changes the order and adds the Balearic Islands, which rest on Mommsen's own correction. The manuscripts, and the text Migne prints, read \"Sala et Valericis\".",
     "His years. Every year of our reckoning is Mommsen's, and those for 564 to 567 carry his question marks. Victor dates by consuls and by the emperor's years. Noris, as Andrea Gallandi quotes him, trusts his facts but finds the years in the chronicle full of errors, which he blames on a later copyist.",
-    "His death. Isidore says he died still a prisoner in a monastery of Constantinople, adding that this is what people say. No early source gives a year. Gallandi thinks shortly after 566; Thomas Hodgkin and M.-A. Kugener give about 569."
+    "His death. Isidore says he died still a prisoner in a monastery of Constantinople, adding that this is what people say. No early source gives a year. Gallandi thinks shortly after 566; Thomas Hodgkin gives 569, and M.-A. Kugener about 569."
   ],
   "sources": {
     "ownWords": [
@@ -76,6 +76,20 @@
         "date": null,
         "language": "French",
         "file": "cic/texts/mesnage_afrique-chretienne-eveches-ruines-fra_1912.txt"
+      },
+      {
+        "title": "Index to The Letters of Cassiodorus",
+        "author": "Thomas Hodgkin",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/cassiodorus_variae-letters-hodgkin1886.txt"
+      },
+      {
+        "title": "Notes to the Life of Severus",
+        "author": "M.-A. Kugener",
+        "date": null,
+        "language": "French",
+        "file": "cic/texts/zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903.txt"
       }
     ]
   }

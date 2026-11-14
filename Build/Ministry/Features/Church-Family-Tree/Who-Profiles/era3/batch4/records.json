@@ -1248,7 +1248,7 @@
         "formation_confidence": "Contested"
       },
       {
-        "claim": "Patrick was in Britain, in the Rosina valley, 'xxx. annis antequam S. David nasceretur'; the Bollandists count the thirty years forward to a year (numerals OCR-damaged)",
+        "claim": "Patrick was in Britain, in the Rosina valley, 'xxx. annis antequam S. David nasceretur'; the Bollandists count the thirty years forward to a year (numerals OCR-damaged); the starting year is 414 (l.15519 and margin), the result unsettled",
         "witness": "Bollandists, Acta Sanctorum, 1 March (acta-sanctorum_martii-tomus-1-lat_1735.txt l.15500-15529)",
         "formation_confidence": "Inferential-Thin"
       },
@@ -1271,6 +1271,11 @@
         "claim": "The 'general truth' view is cited by Rees from the Monumenta Historica Britannica",
         "witness": "Rees's preface and note 5 (l.398-406, 420)",
         "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The synod of Brefi was held in 519, as Spelman, Ussher and others say",
+        "witness": "Bollandists (acta-sanctorum_martii-tomus-1-lat_1735.txt l.15583-15584, OCR-damaged)",
+        "formation_confidence": "Inferential-Thin"
       }
     ],
     "contested_claims": [
@@ -1287,10 +1292,6 @@
       {
         "detail": "A contemporary account or a writing of his own",
         "note": "None is held. The 'De libro Davidis' canons carry his name by the manuscript heading; no held editor argues they are his."
-      },
-      {
-        "detail": "A year for the synod of Brefi",
-        "note": "No held source gives one."
       },
       {
         "detail": "The date of the Latin Life",

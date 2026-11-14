@@ -27,9 +27,9 @@
     "Almost all that is told of him comes from Lives written centuries after him, two of them printed by W. J. Rees and one, from a Utrecht manuscript, by the Bollandists, who judge none of his Acts written by men of his time. The Latin Life is signed by Ricemarch; Hugh Williams calls him a writer of the eleventh century and quotes a Welsh chronicle naming him, son of Bishop Sulien, under 1096. Rees says the Welsh Life is an abridgement of the Latin, and cites the view that such Lives were rooted in general truth but written to stir devotion.",
     "His death year. The Welsh annals give the year their editor numbers 601; the Irish annals Williams quotes give 588. W. J. Rees reports Ussher's 554, at the age of 82, and Rice Rees's \"short of 566\". Wasserschleben gives 544. The Bollandists argue for 544 or 550, years when the first of March fell on a Tuesday.",
     "His age. The Latin Life says he lived 147 years. Ussher, as Rees reports him, says 82.",
-    "His birth. A bracketed entry from later manuscripts of the Welsh annals has him born thirty years after Patrick left Menevia, in a year the editor numbers 458. The Bollandists, in the Acta Sanctorum for the first of March, reckon his birth from the same story of Patrick; the scan of their numbers is too damaged to read.",
+    "His birth. A bracketed entry from later manuscripts of the Welsh annals has him born thirty years after Patrick left Menevia, in a year the editor numbers 458. The Bollandists, in the Acta Sanctorum for the first of March, count his birth thirty years after Patrick's stay in the valley of Rosina, which they put in 414.",
     "His teacher. His Lives name Paulinus, whom Rice Rees, as W. J. Rees quotes him, places at the White House on the Tave. The Life of Illtud makes him one of Illtud's four pupils; Williams notes that the Life of David does not know Illtud as his teacher.",
-    "The synod of Brefi. None of these sources gives a year for it. The miracle of the rising ground is told by both Lives."
+    "The synod of Brefi. The Bollandists report that Spelman, Ussher and others put it in 519. The miracle of the rising ground is told by both Lives."
   ],
   "sources": {
     "about": [
@@ -67,6 +67,13 @@
         "date": null,
         "language": "Latin and German",
         "file": "cic/texts/wasserschleben_die-bussordnungen-der-abendlaendischen-kirche-lat-deu_1851.txt"
+      },
+      {
+        "title": "Acta Sanctorum, March, tome 1: commentary and Life of David from a Utrecht manuscript",
+        "author": "The Bollandists",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/acta-sanctorum_martii-tomus-1-lat_1735.txt"
       }
     ]
   }

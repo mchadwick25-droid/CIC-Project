@@ -83,6 +83,20 @@
         "date": null,
         "language": "Latin",
         "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt"
+      },
+      {
+        "title": "Notes to Die Offenbarungen der Adelheid Langmann",
+        "author": "Philipp Strauch",
+        "date": null,
+        "language": "German",
+        "file": "cic/texts/langmann_offenbarungen-gmh_strauch1878.txt"
+      },
+      {
+        "title": "Notes to Gildas",
+        "author": "Hugh Williams",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/gildas_de-excidio-britanniae-lorica-penitential-lat-eng_williams1899.txt"
       }
     ]
   }
