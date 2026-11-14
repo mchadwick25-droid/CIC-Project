@@ -185,3 +185,15 @@ def test_write_eras_replaces_the_eras_array(tmp_path):
     assert atlas_html.read_eras(path) == [{"num": 1, "dates": "1906-c. 2010"}]
     assert atlas_html.write_eras(path, [{"num": 1, "dates": "1906-c. 2010"}]) is False
     assert atlas_html.read_movements(path)[0]["id"] == "movement-a"
+
+
+def test_apply_movement_updates_removes_a_field_in_the_middle_and_at_the_end(tmp_path):
+    path = _write_fixture(tmp_path)
+    atlas_html.apply_movement_updates(path, {"movement-b": {"why": atlas_html.REMOVE}})
+    movements = atlas_html.read_movements(path)
+    assert "why" not in movements[1] and movements[1]["id"] == "movement-b"
+    path = _write_fixture(tmp_path)
+    atlas_html.apply_movement_updates(path, {"movement-a": {"why": atlas_html.REMOVE}})
+    movements = atlas_html.read_movements(path)
+    assert "why" not in movements[0] and movements[0]["sources"][0]["work"] == "Top-level Source"
+    assert movements[1]["why"] == "Movement B's why."

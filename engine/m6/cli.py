@@ -71,7 +71,7 @@ def cmd_atlas_sync(args: argparse.Namespace) -> int:
     new_movements, changes = sync_atlas(census, atlas_movements)
     updates: dict[str, dict] = {}
     for c in changes:
-        updates.setdefault(c["id"], {})[c["field"]] = c["new"]
+        updates.setdefault(c["id"], {})[c["field"]] = atlas_html.REMOVE if c.get("removed") else c["new"]
     if updates:
         atlas_html.apply_movement_updates(ATLAS_PATH, updates)
     eras_changed = atlas_html.write_eras(ATLAS_PATH, census.get("eras", []))
