@@ -56,7 +56,7 @@ The page reads in the tradition page's order: the line with era, dates and place
 | `outcome` | What came of it: who accepted, who refused, what followed, with witnesses. |
 | `record` | Whose account we have: each main witness, its kind (acts, participant, later narrative, modern reconstruction) and its side. |
 | `traditions` | The traditions it touched, in groups that take the place of a tradition's lineage links: Gathered, Condemned, Refused, Affected. Each has the census id and one sourced line. |
-| `people` | The Who click: name, census or profile id, verdict (WHO, STORY, LISTED) and part played. A Who opens their one profile; a listed person shows as a line. |
+| `people` | The Who click: name, verdict (WHO, STORY, LISTED) and part played, with the id only where a Who profile or census entry already has one. A Who opens their one profile; a listed person shows as a line. A person in the record whom no Who scan has scored shows as NOT SCORED, with no id, until a scan scores them; the council profile makes no verdict. |
 | `briefLength` | The spoken length of About This Council. |
 | `uncertain` | Opens with the brief's caveat on the record, then each further doubt naming its witnesses. |
 | `sources` | Three groups: `fromTheCouncil` (acts, canons, creed, synodal letters, subscription lists), `fromThoseThere` (participants' own accounts), `writtenLater` (histories and modern editors). Each entry gives a title, an author where one applies, a language and its file under `cic/texts/`. |

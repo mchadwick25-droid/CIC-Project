@@ -1,0 +1,208 @@
+{
+  "id": "conference-of-carthage-411",
+  "kind": "major-council",
+  "kindLabel": "Major council",
+  "era": 2,
+  "name": "Conference of Carthage",
+  "shortName": "Carthage, 411",
+  "informalName": "The Collatio of 411",
+  "dates": "411",
+  "start": 411,
+  "end": 411,
+  "region": "Carthage, Roman Africa",
+  "placeLabel": "Carthage",
+  "modernCountries": [
+    {
+      "country": "Tunisia",
+      "countryId": "Q948",
+      "place": "Carthage",
+      "placeId": "Q6343",
+      "pleiadesId": "314921"
+    }
+  ],
+  "rivers": [
+    "Africa",
+    "Latin West"
+  ],
+  "teaser": "Carthage, 411. Catholic and Donatist bishops argued their case for three days before the emperor's commissioner, Marcellinus, who ruled against the Donatists.",
+  "knownFor": "The hearing at Carthage in June 411 at which Catholic and Donatist bishops argued before the imperial commissioner Flavius Marcellinus, who found for the Catholics and banned the Donatist assemblies.",
+  "datesNote": "The acts date the three sessions to the Kalends of June (1 June), the third day before the Nones of June (3 June) and the sixth day before the Ides of June (8 June), 411, the year after the consulship of Varanes. Marcellinus's edict on the outcome is dated the sixth day before the Kalends of July (26 June). The emperor's rescript calling it is dated the day before the Ides of October (14 October) 410; Henri Leclercq gives the sessions as 1, 3 and 8 June and the rescript as 14 October; 26 June is the plain reckoning of the Roman date, which no held historian states",
+  "issue": [
+    "For a century Africa had two rival churches. The Donatists held that the church had been lost through bishops who handed over the Scriptures in persecution and all who shared communion with them; at the conference they said the true church is the one that suffers persecution, not the one that inflicts it, and that they belonged to a church without spot or wrinkle (Augustine, The Correction of the Donatists).",
+    "The Catholics held that the church spread through the whole world, holding good and bad together until God's judgement, and that Caecilian had been cleared long before (the Catholic bishops' letter to Marcellinus, in Augustine's Breviculus I.7).",
+    "A Catholic embassy of bishops asked the emperor Honorius to have the Donatist bishops assembled at Carthage. His rescript, given at Ravenna on the day before the Ides of October in Varanes's consulship, granted it, so that clear reason might refute superstition, and gave four months for the hearing (the rescript, read into the acts; Augustine, Breviculus I.1).",
+    "Before it met, the Catholic bishops promised that if the Donatists proved the church was theirs, the Catholics would give up their sees; if not, Donatist bishops would keep their rank, and where a people would not bear two bishops, both would step down for one new one (Breviculus I.5)."
+  ],
+  "calledBy": "The emperor Honorius, at the request of a Catholic embassy, by a rescript that named the tribune and notary Flavius Marcellinus as judge (the rescript in the acts; Possidius, Life of Augustine 13)",
+  "attended": [
+    "266 Catholic bishops had signed the Catholic mandate, by the clerk's count in the acts; twenty more Catholic bishops present said they had not yet signed, making 286 (the acts; Augustine, Breviculus I.14).",
+    "The Donatist subscription held 279 names, including bishops absent from Carthage for whom others signed and one who had died (the acts; Breviculus I.14).",
+    "Each side chose eighteen: seven to argue, seven to advise and four to keep the record (Breviculus I.4). The preface of Papire Masson, who first printed the acts in 1588, names the Catholic seven as Aurelius, Alypius, Augustine, Vincentius, Fortunatus, Fortunatianus and Possidius, and the Donatist seven as Primian, Petilian, Emeritus, Montanus, Gaudentius, Adeodatus and Protasius.",
+    "All the Donatist bishops present asked to attend in person so their numbers could be seen, and the Catholics agreed (Breviculus I.4, I.7). The full name lists are held in the acts."
+  ],
+  "traditions": [
+    {
+      "id": "donatism",
+      "name": "Donatism",
+      "part": "Condemned",
+      "note": "Marcellinus found against the Donatist bishops and banned their assemblies; they appealed and were refused."
+    },
+    {
+      "id": "latin-pastoral-congregational-christianity",
+      "name": "Latin Pastoral-Congregational Christianity",
+      "part": "Gathered",
+      "note": "The Catholic bishops of Africa came to Carthage and chose seven to argue their case."
+    },
+    {
+      "id": "augustine-of-hippo",
+      "name": "Augustine of Hippo",
+      "part": "Gathered",
+      "note": "Augustine was one of the seven Catholic speakers and wrote the summary of the three days."
+    }
+  ],
+  "decided": [
+    "Marcellinus asked both sides to leave, wrote his sentence, and read it to them on their return. Augustine says it declared the Donatists refuted by the Catholics through every document (Breviculus III.25.43).",
+    "His edict, posted at Carthage, ordered Donatist meetings forbidden in all cities and places, and the churches he had lent the Donatists until the day of sentence handed to the Catholics (the Sentence of the cognitor, in the acts).",
+    "Each Donatist bishop was to return home unmolested, either to come back to the one church or to submit to the laws; landowners who kept bands of circumcellions on their estates were to lose those estates (the same edict).",
+    "The edict says the Catholic bishops' offer to receive the Donatists still stood (the same edict)."
+  ],
+  "outcome": [
+    "The Donatists said the judge had been bribed and had given sentence at night (Augustine, To the Donatists after the Conference); Possidius says they claimed they had not been allowed to speak fully, because the judge was a Catholic.",
+    "They appealed, and Possidius says the emperor's rescript condemned them as heretics.",
+    "A law of 30 January 412 laid heavy fines on Donatists of every rank who did not return to the Catholic church (Theodosian Code XVI.5.52).",
+    "After Marcellinus's death, a law of 30 August 414 ordered the proceedings he had held against the Donatists kept in the public records with lasting force (Theodosian Code XVI.5.55).",
+    "Augustine writes that afterwards many Donatists came over, while elsewhere resistance lasted longer (The Correction of the Donatists). Later at Caesarea, Possidius says, Emeritus would only say that the records of Carthage showed whether his side had won or lost."
+  ],
+  "record": [
+    {
+      "witness": "The Gesta collationis Carthaginiensis (acts of the conference)",
+      "kind": "acts",
+      "note": "Taken down by imperial clerks with notaries of both churches; each speaker signed his words. The Donatists' own speeches are here. The acts break off in the third session; Marcellinus's sentence edict is printed after them. Latin only, in heavy OCR."
+    },
+    {
+      "witness": "Augustine of Hippo, Breviculus collationis and To the Donatists after the Conference",
+      "kind": "participant",
+      "note": "By a Catholic speaker, written for the winning side. The Breviculus is the only witness to most of the third day. Augustine says he made it because no one would read such a mass of writing. Its English editor, Chester Hartranft, says it gives a more one-sided idea of the conference than the acts."
+    },
+    {
+      "witness": "Possidius of Calama, Life of Augustine 13 and 14",
+      "kind": "participant",
+      "note": "By another Catholic speaker, written after Augustine's death in 430. Partisan; reports the Donatist complaint of an unfair judge only to answer it."
+    },
+    {
+      "witness": "Augustine, The Correction of the Donatists (Letter 185)",
+      "kind": "participant",
+      "note": "Reports what the Donatists said at the conference about persecution and the spotless church, from their opponent."
+    },
+    {
+      "witness": "Theodosian Code XVI.5.52 and XVI.5.55",
+      "kind": "acts",
+      "note": "Imperial laws of 412 and 414 that enforced the verdict. They are the emperor's acts, not the conference's."
+    },
+    {
+      "witness": "Hefele with Leclercq, Histoire des conciles II.1; Chester Hartranft's introduction to Augustine's anti-Donatist writings",
+      "kind": "modern reconstruction",
+      "note": "Give the modern dates of the summons and sessions (14 October 410; 1, 3 and 8 June 411) and summarise the letters around the conference. Leclercq says it was not, properly speaking, a council."
+    }
+  ],
+  "people": [
+    {
+      "name": "Augustine of Hippo",
+      "id": "augustine-of-hippo",
+      "verdict": "WHO",
+      "part": "One of the seven Catholic speakers; wrote the summary of the conference"
+    },
+    {
+      "name": "Possidius of Calama",
+      "id": "possidius-of-calama",
+      "verdict": "WHO",
+      "part": "One of the seven Catholic speakers; told it in his Life of Augustine"
+    },
+    {
+      "name": "Emeritus of Caesarea",
+      "verdict": "LISTED",
+      "part": "One of the seven Donatist speakers; his speeches are in the acts"
+    },
+    {
+      "name": "Petilian of Constantina",
+      "verdict": "LISTED",
+      "part": "One of the seven Donatist speakers; refused the judge's offer of seats"
+    },
+    {
+      "name": "Flavius Marcellinus",
+      "verdict": "NOT SCORED",
+      "part": "Tribune and notary; the emperor's judge, who presided and gave the sentence"
+    }
+  ],
+  "briefLength": "about 2 minutes 30 seconds",
+  "uncertain": [
+    "The acts survive but break off in the third session. The end, including the sentence hearing, reaches us through Augustine's summary, written by one of the winning speakers.",
+    "The Donatists' own speeches are in the Latin acts. Their complaints afterwards, of a bribed judge and a sentence at night, reach us only through Augustine and Possidius, who answer them.",
+    "The two Catholic counts differ in kind. The clerk's count of signatures was 266; Augustine's 286 adds the twenty bishops present who had not signed.",
+    "The rescript is dated in the acts the day before the Ides of October in the consulship of Varanes, which Henri Leclercq, in his edition of Hefele, gives as 14 October 410.",
+    "Henri Leclercq treats the conference as not properly a council and leaves it out of his history of the councils; the Library's Councils scan counts it as a major council.",
+    "Augustine says the Donatists refused the seats on the second day, citing a psalm against sitting with the wicked, and that the judge then said he would stand too. In the acts of the first day, Petilian refuses because Christ stood before the governor."
+  ],
+  "sources": {
+    "fromTheCouncil": [
+      {
+        "title": "Gesta collationis Carthagine habitae (the acts of the conference), with the Sentence of the cognitor",
+        "author": "The imperial clerks and the notaries of both churches, under Flavius Marcellinus",
+        "language": "Latin",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-4-410-431-lat_welter-facsimile1901.txt"
+      },
+      {
+        "title": "Gesta collationis Carthaginiensis",
+        "author": "The imperial clerks and the notaries of both churches",
+        "language": "Latin",
+        "file": "cic/texts/pl11-zeno-optatus-collatio-carthaginiensis_migne.txt"
+      }
+    ],
+    "fromThoseThere": [
+      {
+        "title": "Breviculus collationis cum Donatistis; Contra partem Donati post gesta",
+        "author": "Augustine of Hippo",
+        "language": "Latin",
+        "file": "cic/texts/augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt"
+      },
+      {
+        "title": "The Correction of the Donatists (Letter 185)",
+        "author": "Augustine of Hippo",
+        "language": "English translation",
+        "file": "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml"
+      },
+      {
+        "title": "Letter 139, to Marcellinus",
+        "author": "Augustine of Hippo",
+        "language": "English translation",
+        "file": "cic/texts/npnf101_augustine-confessions-letters.xml"
+      },
+      {
+        "title": "Life of Augustine, chapters 13 and 14",
+        "author": "Possidius of Calama",
+        "language": "Latin with English translation",
+        "file": "cic/texts/possidius_vita-augustini_weiskotten1919.txt"
+      }
+    ],
+    "writtenLater": [
+      {
+        "title": "Theodosian Code XVI.5.52 and XVI.5.55",
+        "author": "The emperors Honorius and Theodosius II",
+        "language": "Latin",
+        "file": "cic/texts/codex-theodosianus_latinlibrary.txt"
+      },
+      {
+        "title": "Histoire des conciles, tome 2, part 1",
+        "author": "Charles Joseph Hefele, with notes by Henri Leclercq",
+        "language": "French",
+        "file": "cic/texts/hefele-leclercq_histoire-des-conciles-tome2-1-conciles-africains-slice-fra_1908.txt"
+      },
+      {
+        "title": "Introductory essay to the anti-Donatist writings",
+        "author": "Chester D. Hartranft",
+        "language": "English",
+        "file": "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml"
+      }
+    ]
+  }
+}
