@@ -1,0 +1,57 @@
+{
+  "name": "Joshua the Stylite",
+  "otherNames": [
+    "Mar Yêshûa the stylite",
+    "Josue Stylites"
+  ],
+  "knownFor": "Syriac chronicler whose short Chronicle tells the locusts, famine, plague and Persian war that struck Edessa and Amid in the 490s and early 500s.",
+  "dates": "Wrote soon after 28 November 506, the last date in the Chronicle, by William Wright's reckoning; Wright and Theodor Noeldeke place the writing in that winter and the next spring",
+  "place": "Edessa and its district; by a later copyist's note, the convent of Zuknin near Amid",
+  "tradition": "Syriac Orthodox (West Syriac) Christianity",
+  "role": "Chronicler; by a later copyist's note, a priest and stylite",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Chronicle (A History of the Time of Affliction at Orhai and Amid and throughout all Mesopotamia)",
+      "about": "written for Sergius, priest and abbot, as a record of the locusts, famine, plague and the war between the Greeks and the Persians, told as chastisements sent for the people's sins"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Wright: the Chronicle survives because Dionysius of Tell-Mahre, a later patriarch and historian, copied it into his own larger work, held in a single Vatican manuscript.",
+      "Wright: it was long known to historians through Joseph Simon Assemani's shortened Latin translation, before Paulin Martin's first full edition of 1876."
+    ],
+    "remembered": [
+      "Wright: \"it is generally acknowledged to be one of the most valuable authorities for the period with which it deals\"."
+    ]
+  },
+  "uncertain": [
+    "His name and title rest on one note, by the later copyist Elisha of Zuknin, who filled a gap in the manuscript and asked mercy on \"the priest Mar Yêshûa (Joshua) the stylite, from the convent of Züknin\". Wright says we know little more of him than he chose to tell.",
+    "The years are Wright's. Joshua counts in the Greek era, and Wright gives the Christian year beside each one.",
+    "Paulin Martin, the first editor, titled his edition as written about 515. Wright and Noeldeke place it in the winter of 506 to 507, from the last date and the tone of the final chapter.",
+    "Wright judges the first sentence of the last chapter a later addition, probably by Dionysius of Tell-Mahre."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Chronicle of Joshua the Stylite (tr. William Wright)",
+        "language": "English translation",
+        "file": "cic/texts/joshua-the-stylite_chronicle_wright1882.txt"
+      },
+      {
+        "title": "Josue Stylites, in the Bibliotheca Orientalis, volume 1 (shortened Latin tr. Joseph Simon Assemani)",
+        "language": "Latin translation",
+        "file": "cic/texts/assemani_bibliotheca-orientalis-tomus1-de-scriptoribus-syris-orthodoxis-lat_1719.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Preface to the Chronicle, with notes",
+        "author": "William Wright",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/joshua-the-stylite_chronicle_wright1882.txt"
+      }
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Severus of Antioch",
+  "otherNames": [
+    "Severus, patriarch of Antioch",
+    "Mar Sévère"
+  ],
+  "knownFor": "Bishop of Antioch from 512 to his flight in 518, by E. W. Brooks's dates, who condemned the Council of Chalcedon and wrote against Julian of Halicarnassus; his letters survive in Syriac.",
+  "dates": "Born at Sozopolis in Pisidia. Made bishop of Antioch on 6 November 512 and fled on 29 September 518, by Brooks's dates; Evagrius of Epiphania gives the flight as September of the year 567 of the era of Antioch, which Brooks reads as 519. Died in Egypt on 8 February 538, by Brooks's date. No source used here gives his birth year",
+  "place": "Sozopolis in Pisidia; Alexandria and Berytus as a student; Majuma near Gaza as a monk; Constantinople; Antioch as bishop; Egypt in exile",
+  "tradition": "Syriac Orthodox (West Syriac) Christianity",
+  "role": "Bishop of Antioch; monk; theologian and letter writer",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Select Letters, Book 6",
+      "about": "123 letters on church business from before, during and after his time as bishop, in the Syriac version Athanasius of Nisibis made in 669; Brooks reckons the whole collection held at least 3,759"
+    },
+    {
+      "title": "Works against Julian of Halicarnassus",
+      "about": "written in his Egyptian exile, by Brooks's account, against the teaching that Christ's body could not decay; not in the translations used here"
+    },
+    {
+      "title": "Philalethes",
+      "about": "written at Constantinople, by Brooks's account, against those who found Chalcedon's teaching in Cyril of Alexandria; not in the translations used here"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "His letters as bishop condemned the Council of Chalcedon, Evagrius says, and those received at Alexandria came down to Evagrius's own day.",
+      "A Syriac version of the sixth book of his Select Letters was made in 669 by the priest Athanasius of Nisibis, at the request of the bishops Matthew of Berrhoea and Daniel of Edessa, Brooks says."
+    ],
+    "remembered": [
+      "Zachariah Rhetor, his fellow student, wrote a Life of him to answer the charge that he had followed pagan rites; a second Life is by John, head of the monastery of Beth Aphthonia.",
+      "Evagrius of Epiphania, writing for Chalcedon's side, tells his rise and flight and quotes a Palestinian letter against him."
+    ]
+  },
+  "uncertain": [
+    "His early life rests on the Life by Zachariah Rhetor, written by a friend to defend him. Brooks calls its answer to the charge of pagan practice \"a very lame one\", and leaves open whether there was any truth in the charge.",
+    "Evagrius says only that \"some say\" the emperor Justin's order was to cut out his tongue, and he gives a second report that Vitalian, then high in Justin's favour, demanded it.",
+    "The year of his flight: Brooks gives 29 September 518 and says Evagrius seems to place it in 519; Brooks holds that the dated series of his sermons, ending with Lent 518, settles the earlier year.",
+    "Whether his monastery near Gaza was Peter the Iberian's own: Brooks places him in Peter's monastery, and notes that the Syriac chronicle known as Zachariah's calls it the monastery of Theodore, Peter's successor.",
+    "What happened in his years as bishop rests mostly on his letters and on what his enemies said at the synod of 536, Brooks says.",
+    "Why he came to Constantinople in the winter of 534 to 535: Brooks says the court's leaning to his side had grown, \"probably\" under the empress Theodora's influence; Evagrius says she persuaded the emperor Justinian to send for him."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Sixth Book of the Select Letters of Severus, Patriarch of Antioch (tr. E. W. Brooks), part 1",
+        "language": "English translation",
+        "file": "cic/texts/severus-of-antioch_select-letters-book6-part1_brooks1903.txt"
+      },
+      {
+        "title": "The Sixth Book of the Select Letters of Severus, Patriarch of Antioch (tr. E. W. Brooks), part 2",
+        "language": "English translation",
+        "file": "cic/texts/severus-of-antioch_select-letters-book6-part2_brooks1904.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Introduction to the Select Letters",
+        "author": "E. W. Brooks",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/severus-of-antioch_select-letters-book6-part1_brooks1903.txt"
+      },
+      {
+        "title": "Vie de Sévère (ed. and tr. M.-A. Kugener)",
+        "author": "Zachariah Rhetor",
+        "date": null,
+        "language": "French translation",
+        "file": "cic/texts/zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903.txt"
+      },
+      {
+        "title": "Vie de Sévère (ed. and tr. M.-A. Kugener)",
+        "author": "John, head of the monastery of Beth Aphthonia",
+        "date": null,
+        "language": "French translation",
+        "file": "cic/texts/zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903.txt"
+      },
+      {
+        "title": "Ecclesiastical History, Book III, chapters 32 and 33, and Book IV, chapters 4, 10 and 11 (tr. E. Walford)",
+        "author": "Evagrius of Epiphania",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/evagrius-scholasticus_ecclesiastical-history_walford1846.txt"
+      },
+      {
+        "title": "The Syriac Chronicle known as that of Zachariah of Mitylene, Book IX, chapter 19 (tr. F. J. Hamilton and E. W. Brooks)",
+        "author": "The chronicle's later compiler",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt"
+      }
+    ]
+  }
+}

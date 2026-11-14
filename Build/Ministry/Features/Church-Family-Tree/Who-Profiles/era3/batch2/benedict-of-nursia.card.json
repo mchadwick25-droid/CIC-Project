@@ -1,0 +1,68 @@
+{
+  "name": "Benedict of Nursia",
+  "otherNames": [
+    "Benedictus",
+    "Bennet"
+  ],
+  "knownFor": "Founder of the monasteries of Subiaco and Monte Cassino, and author of the Rule for monks that the Benedictines take their name from, known through Gregory the Great's Dialogues.",
+  "dates": "Born about 480 and died, by the tradition of his order, in 543, as Edmund Gardner and Francis Gasquet give it. Gregory the Great gives no years. Gardner dates the founding of Monte Cassino to 528 or 529",
+  "place": "Nursia; Rome; Subiaco; Monte Cassino",
+  "tradition": "Early Benedictine / Italian Monasticism",
+  "role": "Monk and abbot; author of the Rule",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "The Rule of Saint Benedict",
+      "about": "a prologue and seventy-three chapters on the life of a monastery: obedience, the hours of prayer, manual work and holy reading, the abbot, and the reception of guests as Christ; at its end it calls itself a little rule for beginners"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "His Rule, which Gregory the Great calls \"excellent for discretion and also eloquent for the style\", survives in Latin, and Francis Gasquet and Oswald Hunter Blair translate it into English.",
+      "Gregory says he built twelve monasteries near Subiaco, with twelve monks in each, before he founded Monte Cassino."
+    ],
+    "remembered": [
+      "Gregory the Great gave the whole second book of his Dialogues to his miracles and wrote that \"the holy man could not otherwise teach, than himself lived.\"",
+      "Gregory names the four disciples he had his stories from: Constantinus, the next abbot after him; Valentinianus, long in charge of the Lateran monastery; Simplicius, the third head of his order; and Honoratus, abbot of the house where Benedict first began."
+    ]
+  },
+  "uncertain": [
+    "Nearly all that is known of his life comes from one witness, Gregory the Great's Dialogues, a book of miracles written to honour a saint. Gregory says he could not learn all that Benedict did and had his stories from four disciples. At least one story he had at second hand: Honoratus heard it from other monks.",
+    "Gregory gives no years. The birth about 480 and the death in 543 are Edmund Gardner's and Francis Gasquet's; both call 543 the tradition. Gardner says the date he left Rome is disputed and puts it a few years before 500.",
+    "Gasquet thinks Benedict probably conceived the Rule at Subiaco and finished it at Monte Cassino. Gregory says only that he wrote it."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Rule of Saint Benedict (tr. Francis Aidan Gasquet)",
+        "language": "English translation",
+        "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt"
+      },
+      {
+        "title": "The Rule of St. Benedict (ed. and tr. D. Oswald Hunter Blair)",
+        "language": "Latin, with English translation",
+        "file": "cic/texts/benedict_rule-of-st-benedict-lat-eng_hunter-blair1907.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Dialogues, Book II: the Life and Miracles of St. Benedict",
+        "author": "Gregory the Great",
+        "language": "English translation of 1608, ed. Edmund G. Gardner",
+        "file": "cic/texts/gregory-great_dialogues_gardner1911.txt"
+      },
+      {
+        "title": "Introduction and notes to the Dialogues",
+        "author": "Edmund G. Gardner",
+        "language": "English",
+        "file": "cic/texts/gregory-great_dialogues_gardner1911.txt"
+      },
+      {
+        "title": "Introduction to the Rule",
+        "author": "Francis Aidan Gasquet",
+        "language": "English",
+        "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt"
+      }
+    ]
+  }
+}

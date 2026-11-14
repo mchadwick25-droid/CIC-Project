@@ -1,0 +1,45 @@
+{
+  "name": "Julian, missionary to the Nobadae",
+  "otherNames": [
+    "Julianus"
+  ],
+  "knownFor": "Old presbyter among the clergy of Theodosius of Alexandria who, with the empress Theodora's backing, brought the Nobadae beyond the Thebais to baptism and to the side that refused the Council of Chalcedon.",
+  "dates": "Sixth century, under Justinian and Theodora. John of Ephesus gives no year. He says Julian stayed two years among the Nobadae and died a very short time before Theodosius of Alexandria",
+  "place": "Constantinople; the land of the Nobadae, beyond the Thebais",
+  "tradition": "Nubian Christianity",
+  "role": "Presbyter and missionary",
+  "briefLength": "about 2 minutes 30 seconds",
+  "legacy": {
+    "traces": [
+      "John of Ephesus says Julian left the Nobadae in the care of Theodore, an old bishop from the Thebais, whom he later calls bishop of Philae.",
+      "After Julian's death, John says, the priest Longinus was made bishop for the Nobadae, as the empress Theodora had ordered."
+    ],
+    "remembered": [
+      "John of Ephesus calls him \"the blessed Julian their teacher\".",
+      "Michael the Syrian's twelfth-century chronicle retells the mission in short form; its French translator, J.-B. Chabot, notes that the account is shortened from John of Ephesus."
+    ]
+  },
+  "uncertain": [
+    "Every fact rests on one witness, John of Ephesus, who tells the story from Julian's side. John's English translator, Payne Smith, notes that John belonged to the party that refused the Council of Chalcedon. Michael the Syrian's account is shortened from John's and adds no second witness.",
+    "John gives no year for the mission, the two years among the Nobadae, or Julian's death.",
+    "The race between the empress's envoy and the emperor's is told only by John, as an episode of the empress's craft. No held source tells it from the emperor's side.",
+    "John does not say where Julian died. Michael the Syrian says he died in the imperial city after his return.",
+    "Julian's words about the caves come as John reports them: \"he used to say\"."
+  ],
+  "sources": {
+    "about": [
+      {
+        "title": "Ecclesiastical History, Part III, Book IV, chapters 6 to 8 and 49 (tr. R. Payne Smith)",
+        "author": "John of Ephesus",
+        "language": "English translation",
+        "file": "cic/texts/john-of-ephesus_ecclesiastical-history-part3_paynesmith1860.txt"
+      },
+      {
+        "title": "Chronicle, Book IX, chapter 31 (tr. J.-B. Chabot)",
+        "author": "Michael the Syrian",
+        "language": "French translation",
+        "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt"
+      }
+    ]
+  }
+}
