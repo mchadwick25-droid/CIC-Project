@@ -8,6 +8,8 @@ The coordinator confirmed the major marks on 2026-11-14: Boethius, Philoxenus of
 
 John of Beth Aphthonia is the author of the second Life of Severus of Antioch. Whether he is the archimandrite John bar Aphthonia of Kenneshre is disputed: M.-A. Kugener calls that attribution false, and J.-B. Chabot and François Nau take the two as one. The brief and card state the dispute and keep the two men's facts apart.
 
+Card traditions are census movement names. Fulgentius of Ruspe is told within Gothic, Vandal & Lombard Homoian Christianity, the movement of the Vandal kingdom he lived under, as the Victor of Vita card is; the census has no movement for the Catholic church of Vandal Africa, and Latin African Christianity under Byzantium, where Primasius is told, begins in 533. Boethius is told within The Byzantine Imperial Church (Justinianic), the scan's first placing, since his treatises take part in the Chalcedonian quarrel over Eutyches and Nestorius.
+
 | File | Holds |
 |---|---|
 | `<id>.brief.txt` | The brief as text, with no audio tags. Paragraphs are separated by a blank line. |
