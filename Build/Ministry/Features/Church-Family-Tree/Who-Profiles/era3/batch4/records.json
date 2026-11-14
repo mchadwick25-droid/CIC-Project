@@ -1201,12 +1201,37 @@
         "claim": "Latin Life's last words: 'persevere in those things, which ye have learned of me, and have seen with me'",
         "witness": "Latin Life, tr. Rees (l.19806-19808)",
         "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Patrick was in Britain, in the Rosina valley, 'xxx. annis antequam S. David nasceretur'; the Bollandists count the thirty years forward to a year (numerals OCR-damaged)",
+        "witness": "Bollandists, Acta Sanctorum, 1 March (acta-sanctorum_martii-tomus-1-lat_1735.txt l.15500-15529)",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "He died in the intermediate year 544, when the calends of March fell on a Tuesday, or else in 550",
+        "witness": "Bollandists (acta-sanctorum_martii-tomus-1-lat_1735.txt l.15655-15675, OCR-damaged)",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "None of his Acts was composed by contemporaries; the oldest they know is in a Utrecht manuscript, which they print",
+        "witness": "Bollandists (acta-sanctorum_martii-tomus-1-lat_1735.txt l.15297-15302, 15701-15702, OCR-damaged)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Educated in the school of Illtyd and afterwards of Paulinus, in White House on Tave",
+        "witness": "Rice Rees, quoted in W. J. Rees's note (rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt l.17993-18001)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The 'general truth' view is cited by Rees from the Monumenta Historica Britannica",
+        "witness": "Rees's preface and note 5 (l.398-406, 420)",
+        "formation_confidence": "Documented"
       }
     ],
     "contested_claims": [
       {
         "claim": "The year of his death",
-        "sides": "Annales Cambriae, base text: the year the editor numbers 601 (AC l.2562-2566). Annals of Ulster and Book of Leinster: 588 (Williams l.23933-23941). Ussher: 554, aged 82, and Rice Rees: short of 566, both as reported by W. J. Rees (l.18004-18008). Wasserschleben: 544 (wasserschleben l.1340-1341)."
+        "sides": "Annales Cambriae, base text: the year the editor numbers 601 (AC l.2562-2566). Annals of Ulster and Book of Leinster: 588 (Williams l.23933-23941). Ussher: 554, aged 82, and Rice Rees: short of 566, both as reported by W. J. Rees (l.18004-18008). Wasserschleben: 544 (wasserschleben l.1340-1341). The Bollandists: 544, or else 550 (acta-sanctorum_martii-tomus-1-lat_1735.txt l.15655-15675)."
       },
       {
         "claim": "How far the Lives can be trusted",
