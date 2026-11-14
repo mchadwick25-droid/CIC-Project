@@ -57,28 +57,24 @@
       {
         "title": "Introduction and notes to Jerome and Gennadius, Lives of Illustrious Men",
         "author": "Ernest Cushing Richardson",
-        "date": null,
         "language": "English",
         "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
       },
       {
         "title": "Prolegomena to Theodoret",
         "author": "Blomfield Jackson",
-        "date": null,
         "language": "English",
         "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
       },
       {
         "title": "Note to the Book of Church Dogmas (Patrologia Latina 42)",
         "author": "Unsigned",
-        "date": null,
         "language": "Latin",
         "file": "cic/texts/augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt"
       },
       {
         "title": "Letters (Patrologia Latina 100-101)",
         "author": "Alcuin",
-        "date": null,
         "language": "Latin",
         "file": "cic/texts/alcuin_opera-omnia-letters_migne-pl100-101_1863.txt"
       },

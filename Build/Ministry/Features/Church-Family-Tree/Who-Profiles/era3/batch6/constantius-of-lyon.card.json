@@ -49,7 +49,6 @@
       {
         "title": "On Famous Men, 17 (Patrologia Latina 83)",
         "author": "Isidore of Seville",
-        "date": null,
         "language": "Latin",
         "file": "cic/texts/isidore-seville_sententiae-eccl-officiis-historia-gothorum-pl83-lat_migne1860.txt"
       },
@@ -70,7 +69,6 @@
       {
         "title": "Works of Marius Mercator, appendix 2, Dissertation I (Patrologia Latina 48)",
         "author": "Unsigned",
-        "date": null,
         "language": "Latin",
         "file": "cic/texts/marius-mercator_opera-omnia-lat_migne-pl48.txt"
       }

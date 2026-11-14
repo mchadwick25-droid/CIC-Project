@@ -103,21 +103,18 @@
       {
         "title": "Ecclesiastical History of the English People II.4 (tr. J. A. Giles, rev. L. C. Jane)",
         "author": "Bede",
-        "date": null,
         "language": "English translation",
         "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt"
       },
       {
         "title": "The council of Mâcon, with Jonas's account from the Life of Eustasius, in Sacrorum conciliorum collectio 10",
         "author": "Giovanni Domenico Mansi",
-        "date": null,
         "language": "Latin",
         "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt"
       },
       {
         "title": "Notices of Columbanus, reprinted in Patrologia Latina 80",
         "author": "Johann Albert Fabricius; Andrea Gallandi",
-        "date": null,
         "language": "Latin",
         "file": "cic/texts/paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt"
       },

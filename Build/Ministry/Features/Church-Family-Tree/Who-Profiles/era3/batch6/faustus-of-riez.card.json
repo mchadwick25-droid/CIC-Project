@@ -64,35 +64,30 @@
       {
         "title": "Lives of Illustrious Men, 86 (tr. Ernest Cushing Richardson)",
         "author": "Gennadius of Marseilles",
-        "date": null,
         "language": "English translation",
         "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
       },
       {
         "title": "Letter to King Gundobad on sudden penance (ed. Rudolf Peiper)",
         "author": "Avitus of Vienne",
-        "date": null,
         "language": "Latin",
         "file": "cic/texts/avitus-vienne_opera-mgh-aa-6-2-lat_peiper1883.txt"
       },
       {
         "title": "Life of Fulgentius, and the letter of the African bishops exiled in Sardinia (Patrologia Latina 65)",
         "author": "Anonymous",
-        "date": null,
         "language": "Latin",
         "file": "cic/texts/fulgentius-ruspe_opera-contra-arianos-pl65-lat_migne1847.txt"
       },
       {
         "title": "On Famous Men, 27 (Patrologia Latina 83)",
         "author": "Isidore of Seville",
-        "date": null,
         "language": "Latin",
         "file": "cic/texts/isidore-seville_sententiae-eccl-officiis-historia-gothorum-pl83-lat_migne1860.txt"
       },
       {
         "title": "Introduction to Augustin's Anti-Pelagian Writings",
         "author": "Benjamin B. Warfield",
-        "date": null,
         "language": "English",
         "file": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml"
       },
@@ -106,7 +101,6 @@
       {
         "title": "List of apocryphal books, in Regino of Prüm's Two Books on Synodal Cases (ed. Wasserschleben)",
         "author": "Commonly attributed to Pope Gelasius",
-        "date": null,
         "language": "Latin",
         "file": "cic/texts/regino-pruem_libri-duo-de-synodalibus-causis-lat_wasserschleben1840.txt"
       }

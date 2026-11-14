@@ -51,21 +51,18 @@
       {
         "title": "Letters to Ruricius",
         "author": "Faustus of Riez",
-        "date": null,
         "language": "Latin",
         "file": "cic/texts/faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt"
       },
       {
         "title": "Letter to Ruricius on the council at Agde",
         "author": "Caesarius of Arles",
-        "date": null,
         "language": "Latin",
         "file": "cic/texts/faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt"
       },
       {
         "title": "Poems IV.5, epitaph of the bishops Ruricius of Limoges (ed. Friedrich Leo)",
         "author": "Venantius Fortunatus",
-        "date": null,
         "language": "Latin",
         "file": "cic/texts/venantius-fortunatus_opera-mgh-aa-4-lat_leo-krusch1881.txt"
       },
@@ -79,7 +76,6 @@
       {
         "title": "Prolegomenon to the works of Caesarius of Arles (Patrologia Latina 67)",
         "author": "Unsigned",
-        "date": null,
         "language": "Latin",
         "file": "cic/texts/facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt"
       }

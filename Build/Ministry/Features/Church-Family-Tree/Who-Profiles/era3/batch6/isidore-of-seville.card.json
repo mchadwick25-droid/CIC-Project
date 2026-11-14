@@ -87,7 +87,6 @@
       {
         "title": "Letters to Isidore, in Patrologia Latina 80",
         "author": "Braulio of Zaragoza",
-        "date": null,
         "language": "Latin",
         "file": "cic/texts/paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt"
       },
@@ -101,20 +100,17 @@
       {
         "title": "On Famous Men, chapter 9, in Patrologia Latina 96",
         "author": "Ildefonsus of Toledo",
-        "date": null,
         "language": "Latin",
         "file": "cic/texts/ildefonsus-julian-toledo-pl96-lat_migne1862.txt"
       },
       {
         "title": "Rule for Florentina, in Patrologia Latina 72",
         "author": "Leander of Seville",
-        "date": null,
         "language": "Latin",
         "file": "cic/texts/john-biclaro-leander-pl72-lat_migne1878.txt"
       },
       {
         "title": "Acts of the Second Council of Seville and the Fourth Council of Toledo, in Collectio canonum Ecclesiae Hispanae",
-        "date": null,
         "language": "Latin",
         "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt"
       },

@@ -60,7 +60,6 @@
       {
         "title": "On Famous Men, chapter 44, in Patrologia Latina 83",
         "author": "Isidore of Seville",
-        "date": null,
         "language": "Latin",
         "file": "cic/texts/isidore-seville_sententiae-eccl-officiis-historia-gothorum-pl83-lat_migne1860.txt"
       },
@@ -74,26 +73,22 @@
       {
         "title": "Notice of John, reprinted in Patrologia Latina 72",
         "author": "Andrea Gallandi",
-        "date": null,
         "language": "Latin",
         "file": "cic/texts/john-biclaro-leander-pl72-lat_migne1878.txt"
       },
       {
         "title": "On Famous Men, chapter 10, in Patrologia Latina 96",
         "author": "Ildefonsus of Toledo",
-        "date": null,
         "language": "Latin",
         "file": "cic/texts/ildefonsus-julian-toledo-pl96-lat_migne1862.txt"
       },
       {
         "title": "Acts of the Third and Fourth Councils of Toledo, in Collectio canonum Ecclesiae Hispanae",
-        "date": null,
         "language": "Latin",
         "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt"
       },
       {
         "title": "Note on the rule of John of Biclaro, in Benedict of Aniane's Concordia regularum, Patrologia Latina 103",
-        "date": null,
         "language": "Latin",
         "file": "cic/texts/benedict-aniane_concordia-regularum-with-ardo-vita-pl103-lat_migne1851.txt"
       }
