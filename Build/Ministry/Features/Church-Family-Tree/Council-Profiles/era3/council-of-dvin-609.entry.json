@@ -1,0 +1,185 @@
+{
+  "id": "council-of-dvin-609",
+  "kind": "major-council",
+  "kindLabel": "Major council",
+  "era": 3,
+  "name": "Council of Dvin",
+  "shortName": "Dvin, about 609",
+  "informalName": "The council of the Armenian–Georgian break",
+  "dates": "c. 596–609",
+  "start": 596,
+  "end": 609,
+  "region": "Dvin, chief city of Persian Armenia",
+  "placeLabel": "Dvin",
+  "modernCountries": [
+    {
+      "country": "Armenia",
+      "countryId": "Q399",
+      "place": "Dvin"
+    }
+  ],
+  "rivers": [
+    "Caucasus"
+  ],
+  "teaser": "Dvin, about 609. The Armenian catholicos Abraham and his bishops cursed Kyrion, head of the Georgian church, and all who accepted the Council of Chalcedon, and the two churches parted.",
+  "knownFor": "The synod at Dvin, dated 609 by Malachia Ormanian and 596 by Marie-Félicité Brosset, at which the Armenian church cursed the Georgian catholicos Kyrion for accepting Chalcedon, so that the two churches of the Caucasus parted.",
+  "datesNote": "The year is disputed and no ancient witness held gives it. Malachia Ormanian has Abraham elected catholicos on 30 April 607 and presiding at the council against the Georgians in 609. Marie-Félicité Brosset, in a note of 1876 to Samuel of Ani, puts the council in 596. James Issaverdens gives no year for the synod",
+  "issue": [
+    "Kyrion, catholicos of the Iberians, had been consecrated by the Armenian catholicos Movses (Stephen of Taron). James Issaverdens says the Georgians, unable to agree on a successor, asked Movses to choose for them, and he chose Kyrion, a Georgian already a bishop in Armenia.",
+    "Shortly before Movses died, Kyrion came to doubt the orthodox faith, as Stephen puts it, and accepted the Council of Chalcedon. Movses often rebuked him, without success (Stephen of Taron).",
+    "Malachia Ormanian says Kyrion meant to secede from the Armenian see and join that of Constantinople \"in order to win the imperial favour\". Issaverdens says Kyrion had Chalcedon's acts and Leo's Tome brought from Constantinople and translated.",
+    "On one side stood the Armenian church under Vertanes, who ran it after Movses's death, and then Abraham; on the other, Kyrion and the Georgian church. Kyrion's view reaches us only in Issaverdens's report of his reply: \"I am astonished that you are at variance with all other churches of Christ, which declare that the creed of the Council of Chalcedon is precisely the same with that of the three other councils.\""
+  ],
+  "calledBy": "Abraham, catholicos of Armenia, by the account of James Issaverdens; Ormanian says Abraham presided",
+  "attended": [
+    "No held source counts the bishops or names any of them besides Abraham.",
+    "Stephen of Taron says Abraham acted with the assent of all the Armenians."
+  ],
+  "traditions": [
+    {
+      "id": "armenian-christianity-before-the-bagratids",
+      "name": "Armenian Christianity before the Bagratids",
+      "part": "Gathered",
+      "note": "Abraham, catholicos of Armenia, called the synod at Dvin, by Issaverdens's account, and presided, by Ormanian's; Stephen of Taron says he acted with the assent of all the Armenians."
+    },
+    {
+      "id": "georgian-christianity",
+      "name": "Georgian Christianity",
+      "part": "Condemned",
+      "note": "The synod cursed Kyrion and all who accepted Chalcedon (Issaverdens); Ormanian says it ratified the Georgian church's secession, and the census row ends here."
+    },
+    {
+      "id": "byzantine-imperial-church-justinianic",
+      "name": "The Byzantine Imperial Church (Justinianic)",
+      "part": "Affected",
+      "note": "Ormanian says the Georgian church, with Kyrion at its head, became part of the Greek Church; Issaverdens alone says Kyrion appealed to the emperor Maurice."
+    },
+    {
+      "id": "church-of-caucasian-albania",
+      "name": "The Church of Caucasian Albania",
+      "part": "Affected",
+      "note": "Sebeos places the catholicos of Georgia and Albania on Chalcedon's side in a debate before the Persian king; Ormanian says a later Albanian head, Nerses Bakour, was 'tempted by the example of Kurion'."
+    }
+  ],
+  "decided": [
+    "The bishops at Dvin anathematized Kyrion \"and all those who accepted it\", the Council of Chalcedon, and so cut the Armenians off from all who approved it (Issaverdens).",
+    "Abraham drew the spiritual sword and anathematized the Iberians, with the assent of all the Armenians (Stephen of Taron, who names no council and gives no date).",
+    "The synod ratified the Georgian secession from the Armenian church (Ormanian)."
+  ],
+  "outcome": [
+    "Ormanian says the Georgian church, with Kurion at her head, \"definitely accepted the Chalcedonian faith, and became part of the Greek Church\".",
+    "Issaverdens says Kyrion complained to the emperor Maurice, who called Greek and Armenian bishops to Constantinople, where Chalcedon was declared orthodox; Abraham's envoys Vertanes and Gregory refused it. No other held source tells of this meeting.",
+    "Stephen of Taron says the emperor Maurice set up a separate catholicos, Yohan, over the Greek part of Armenia, while Abraham resided at Dvin.",
+    "Sebeos, an Armenian bishop of the 600s, tells of a debate before the Persian king Khosrow in which the catholicos of Georgia and Albania, with many bishops of the Greek region, took Chalcedon's side.",
+    "Ormanian, from the Armenian side, says the event had \"unpleasant consequences for the Georgian Church\" under Russian rule in the nineteenth century, when that church was absorbed by the Russian one.",
+    "Brosset wrote in 1849 that the Georgians parted from the Armenians in religion for ever, dating the turn to the Greeks to about 580."
+  ],
+  "record": [
+    {
+      "witness": "The acts of the council and the letters of Abraham and Kyrion",
+      "kind": "acts",
+      "note": "Not held in any form, in the original or in translation. Brosset knew Abraham's letter to Kyrion from a manuscript of Ukhtanes, which is not held."
+    },
+    {
+      "witness": "Sebeos, History of Heraclius (Macler's French)",
+      "kind": "later narrative",
+      "note": "An Armenian bishop of the 600s, the earliest held writer; he does not name Kyrion or the council, but places the catholicos of Georgia and Albania on Chalcedon's side."
+    },
+    {
+      "witness": "Stephen of Taron (Asoghik), Universal History (Gelzer and Burckhardt's German)",
+      "kind": "later narrative",
+      "note": "An Armenian historian writing around 1000; on the Armenian side. He tells Kyrion's consecration, his turn to Chalcedon and Abraham's anathema, with no council named and no date."
+    },
+    {
+      "witness": "Malachia Ormanian, The Church of Armenia (1912)",
+      "kind": "modern reconstruction",
+      "note": "A former Armenian patriarch of Constantinople; the Armenian church's own account. Gives 607 for Abraham's election and 609 for the council."
+    },
+    {
+      "witness": "James Issaverdens, Armenia and the Armenians, vol. 2 (Venice, 1875)",
+      "kind": "modern reconstruction",
+      "note": "Of the Armenian academy of St Lazarus in Venice. The only held source for the letters, Kyrion's reply and the appeal to Maurice; he names no sources."
+    },
+    {
+      "witness": "Marie-Félicité Brosset, notes to the Georgian chronicle (1849) and to Samuel of Ani (1876)",
+      "kind": "modern reconstruction",
+      "note": "The French historian of Georgia. Puts the council at Dvin in 596 and the Georgian turn to the Greeks about 580; the Georgian chronicle he translates does not name Kyrion."
+    }
+  ],
+  "people": [
+    {
+      "name": "Kyrion I, catholicos of Iberia",
+      "verdict": "LISTED",
+      "part": "Head of the Georgian church; accepted Chalcedon and was anathematized"
+    },
+    {
+      "name": "Abraham of Aghbatank",
+      "verdict": "NOT SCORED",
+      "part": "Catholicos of Armenia; wrote to Kyrion, called the synod and presided"
+    },
+    {
+      "name": "Movses II of Eghivart",
+      "verdict": "NOT SCORED",
+      "part": "Catholicos of Armenia before Abraham; consecrated Kyrion and rebuked him"
+    },
+    {
+      "name": "Vertanes",
+      "verdict": "NOT SCORED",
+      "part": "Ran the Armenian see after Movses's death; by Issaverdens, refused the Constantinople decision"
+    }
+  ],
+  "briefLength": "about 2 minutes 15 seconds",
+  "uncertain": [
+    "No record of the council and no letter between Abraham and Kyrion is held. Every witness is Armenian or a modern historian; the Georgian side reaches us only through its opponents, and the Georgian chronicle in Brosset's French does not name Kyrion.",
+    "The year: 609 for Ormanian, with Abraham elected on 30 April 607; 596 for Brosset in 1876, who calls the chronology of one edition of Samuel of Ani wholly wrong; no year in Issaverdens or Stephen of Taron. Brosset in 1849 dates a letter of Abraham to 595, and Frédéric Macler's notes to Sebeos give Abraham's years in a garbled line.",
+    "Kyrion's reply and the letters come only from Issaverdens, who names no source.",
+    "The appeal to the emperor Maurice and the meeting at Constantinople come only from Issaverdens.",
+    "Whether a letter of Gregory the Great to Quiricus, a bishop in Hiberia, concerns Kyrion: its editors do not say so, and incline to Pontic Iberia."
+  ],
+  "sources": {
+    "writtenLater": [
+      {
+        "title": "Histoire d'Héraclius",
+        "author": "Sebeos, trans. Frédéric Macler",
+        "language": "French translation",
+        "file": "cic/texts/sebeos_histoire-d-heraclius-fra_macler1904.txt"
+      },
+      {
+        "title": "Armenische Geschichte",
+        "author": "Stephen of Taron (Asoghik), trans. Heinrich Gelzer and August Burckhardt",
+        "language": "German translation",
+        "file": "cic/texts/stepanos-taron_armenische-geschichte-deu_gelzer-burckhardt1907.txt"
+      },
+      {
+        "title": "The Church of Armenia",
+        "author": "Malachia Ormanian",
+        "language": "English translation",
+        "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt"
+      },
+      {
+        "title": "Armenia and the Armenians, vol. 2: Ecclesiastical History",
+        "author": "James Issaverdens",
+        "language": "English",
+        "file": "cic/texts/issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt"
+      },
+      {
+        "title": "Histoire de la Géorgie, part 1 (the Georgian chronicle, with notes)",
+        "author": "trans. Marie-Félicité Brosset",
+        "language": "French translation",
+        "file": "cic/texts/kartlis-tskhovreba_histoire-de-la-georgie-pt1-histoire-ancienne-fra_brosset1849.txt"
+      },
+      {
+        "title": "Collection d'historiens arméniens, tome II (Samuel of Ani, Tables chronologiques, with notes)",
+        "author": "trans. Marie-Félicité Brosset",
+        "language": "French translation",
+        "file": "cic/texts/zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt"
+      },
+      {
+        "title": "The Syriac Chronicle known as that of Zachariah of Mitylene",
+        "author": "trans. F. J. Hamilton and E. W. Brooks",
+        "language": "English translation",
+        "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt"
+      }
+    ]
+  }
+}
