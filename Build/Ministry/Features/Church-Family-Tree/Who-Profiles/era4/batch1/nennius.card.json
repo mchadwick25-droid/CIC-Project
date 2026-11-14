@@ -1,10 +1,7 @@
 {
-  "name": "Nennius (attributed)",
-  "otherNames": [
-    "pseudo-Nennius"
-  ],
-  "knownFor": "Named in its own prologue and apology as the writer of the Historia Brittonum, a Latin history of the Britons. It tells of Vortigern, the bishop Germanus, Saint Patrick and Arthur's twelve battles. Its author is disputed.",
-  "dates": "The book's own dates differ. The prologue in J. A. Giles's translation gives 858, the twenty-fourth year of Mervin, king of the Britons. Its list of years reaches 976, the fifth year of Edmund, king of the Angles. Another passage counts the year of writing as 547 years after the Saxons came in 447. John Williams ab Ithel dates a first edition to 674. Louis Duchesne places the pseudo-Nennius in the ninth century. No source used here gives the writer's birth or death",
+  "name": "Nennius",
+  "knownFor": "Named in its own prologue and apology as the writer of the Historia Brittonum, a Latin history of the Britons. It tells of Vortigern, the bishop Germanus of Auxerre, Saint Patrick and Arthur's twelve battles. Its author is disputed.",
+  "dates": "The book's own dates differ. The prologue in J. A. Giles's translation gives 858, the twenty-fourth year of Mervin, king of the Britons. Its list of years reaches 976, the fifth year of Edmund, king of the Angles. Another passage counts the year of writing as 547 years after the Saxons came in 447. John Williams ab Ithel dates a first edition to 674. Louis Duchesne places the pseudo-Nennius in the ninth century. No source used here gives the writer's birth or death.",
   "place": "Among the Britons; W. H. Stevenson calls Nennius a Welsh writer",
   "tradition": "Medieval Welsh Christianity",
   "role": "Compiler and historian of the Britons; by his own account a disciple of Elbotus",
@@ -33,10 +30,9 @@
   "uncertain": [
     "Its author is disputed. The prologue and the apology name Nennius, disciple of Elbotus, and Hugh Williams and W. H. Stevenson write of the book as his. A heading in J. A. Giles's text says it was edited by Mark the anchorite, a holy bishop of the Britons. Louis Duchesne lists a Vatican copy under Mark's name and calls the writer pseudo-Nennius, as James Raine does. Hugh Williams notes that some copies give the book to Gildas.",
     "The book's own dates differ, and so do its copies. Giles notes that hardly two manuscripts give the list of years alike. John Williams ab Ithel reads a line of the Vatican copy as dating a first edition to 674. He thinks a younger man probably compiled the genealogies, which reach as late as 738.",
-    "Elbotus. Giles's note makes him Elvod, bishop of Bangor in 755, who first adopted the new Easter cycle in the Welsh church. The Annales Cambriae put the change of Easter among the Britons in 768, made by Elbodug. They put the death of Elbodg, archbishop of Gwynedd, in 809. One of their manuscripts calls him bishop of Gwynedd.",
-    "Arthur. The brief tells only this book's account. Giles's text gives nine hundred and forty killed by Arthur's hand at Badon. John Williams ab Ithel gives 960, and another version 840. Some manuscripts, Giles notes, add that Arthur went to Jerusalem and made a cross there.",
-    "The order of its parts. Giles notes that some manuscripts place the passage on the growing Saxons and Arthur after the account of Patrick. He takes the tale of Brutus as older than Geoffrey, unless, he adds, it was put into the original work later.",
-    "His name. W. H. Stevenson, who edited Asser, is a different man from Joseph Stevenson, whose edition of Nennius Giles cites."
+    "Elbotus. Giles's note makes him Elvod, bishop of Bangor in 755, who first adopted the new Easter cycle in the Welsh church. The Annales Cambriae put the change of Easter among the Britons in the year their editor reckons as 768, made by Elbodug. They put the death of Elbodg, archbishop of Gwynedd, in 809. One of their manuscripts calls him bishop of Gwynedd.",
+    "Arthur. Giles's text gives nine hundred and forty killed by Arthur's hand at Badon. John Williams ab Ithel gives 960, and another version 840. Some manuscripts, Giles notes, add that Arthur went to Jerusalem and made a cross there.",
+    "The order of its parts. Giles notes that some manuscripts place the passage on the growing Saxons and Arthur after the account of Patrick. He takes the tale of Brutus as older than Geoffrey, unless, he adds, it was put into the original work later."
   ],
   "sources": {
     "ownWords": [
@@ -59,7 +55,7 @@
         "title": "Annales Cambriae, years 768 and 809, with the editor's preface",
         "author": "John Williams ab Ithel",
         "date": "1860",
-        "language": "Latin",
+        "language": "Latin, with an English preface",
         "file": "cic/texts/annales-cambriae-rolls-series-20-lat_williams-ab-ithel1860.txt"
       },
       {
