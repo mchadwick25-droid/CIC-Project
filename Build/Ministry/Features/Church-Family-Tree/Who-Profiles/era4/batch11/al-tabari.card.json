@@ -1,0 +1,111 @@
+{
+  "name": "al-Tabari",
+  "label": "Outside witness",
+  "otherNames": [
+    "Abu Djafar Mohammed ibn Djarir at-Tabari, the form on the title page of the Leiden edition",
+    "Abu Ja'far ibn Jarir, as a later summary printed in that edition names him in Arabic",
+    "Abu Ga'far al Tabari, in the Latin translation of the chronicle of Elias of Nisibis"
+  ],
+  "knownFor": "A Muslim chronicler of Baghdad whose year-by-year annals tell how the Muslim armies met Christians, among them the priests and monks of Hira and the Christians of Merv who buried the last Persian king.",
+  "dates": "Born in the year 224 of the hijra and died in 310, by F. K. Ginzel (1887), who names no source. Philip Hitti (1916) also gives his death in 310. Neither gives the years in the Christian calendar",
+  "place": "Baghdad, where Ginzel calls him a chronicler and Hitti says he died. Hitti, from al-Fihrist and Ibn Khallikan, says he traveled in Egypt, Syria and Iraq to study. No source gives his birthplace",
+  "tradition": "Outside the church",
+  "role": "Chronicler; author of the Annals",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Annals (Annales, in the Latin of the Leiden edition)",
+      "about": "a history arranged year by year. Philip Hitti calls it the first complete series of annals. The Library holds the Arabic only for the years from late 11 to 32 of the hijra, in two volumes of the Leiden edition (1890 and 1893), each with a Latin summary of contents"
+    },
+    {
+      "title": "Commentary on the Quran (Tafsir)",
+      "about": "which Axel Moberg, in 1924, calls his great commentary on the Koran. Most interpreters refer the Quran's verses on the pit to the Najran martyrs. Moberg says the commentary also gives traditions that refer them to an incident among the Parsees, or to \"Daniel and his men\". Not held"
+    },
+    {
+      "title": "A short work on the witnesses of traditions",
+      "about": "which the Leiden edition planned as an appendix (opusculum de testibus traditionum). Not held"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The Christian chronicler Elias of Nisibis names al-Tabari's Annals among his Arabic sources, his editors say, and cites him year by year from 275 to 302 of the hijra.",
+      "The book of the churches and monasteries of Egypt that B. T. A. Evetts edited in 1895, under the name of Abu Salih the Armenian, cites \"the testimony of the history of At-Tabari\". Evetts says its author had studied \"The great history of At-Tabari\".",
+      "Étienne Quatremère, in 1811, tells that the caliph Aziz kept more than twenty copies of the chronicle in his library, one written in the author's own hand.",
+      "Hitti says the lost histories of al-Mada'ini are known only by excerpts through al-Baladhuri, al-Tabari and Yakut."
+    ],
+    "remembered": [
+      "Hitti calls him \"The most illustrious writer on history after al-Baladhuri\". He says al-Tabari's method of writing year by year was followed by Ibn al-Athir and Abu l-Fida, and won more favor than the system of al-Mas'udi.",
+      "Ginzel says he is counted the most reliable of the Muslim annalists, and that he mostly recorded what he lived through or had on good authority."
+    ]
+  },
+  "uncertain": [
+    "He writes as a Muslim, two centuries after the conquests he describes, and passes on reports as they reached him, often in more than one version. His life rests on two short modern notes. Hitti draws on al-Fihrist and Ibn Khallikan, and Ginzel names no source.",
+    "How far to trust him. Ginzel says he is counted the most reliable of the Muslim annalists, for what he lived through or had on good authority. Ginzel tested one of al-Tabari's eclipse reports, which al-Tabari gives as something said, for the year 281. On that date there was only a slight eclipse, not visible at the town named. One in 280, the year Elias of Nisibis gives, fits fully. Hitti says Arab historians did little to analyze, compare or test their reports, and that al-Tabari's preface states the principle.",
+    "His sources for the conquests. The Hira and Najran reports reach him through a chain of tellers, al-Sari from Shu'ayb from Sayf ibn Umar. A later summary printed in the Leiden edition says he had the Jerusalem story from Sayf too.",
+    "Versions side by side. He gives three accounts of how Christians at Merv buried Yazdegerd. In one, the bishop of Merv takes the body from the river. In another, the body catches on a branch, and the bishop takes it and lays it in a vault where he used to sit. In the third, the metropolitan Iliya, a man from al-Ahwaz, has a tomb built. For Hira he gives a tribute of 90,000 dirhams in one report and 190,000 in another.",
+    "The Jerusalem terms. E. Prym, who edited the volume in 1893, filled part of the text from two later writers, Mujir al-Din and al-Suyuti. He notes that M. J. de Goeje, who led the edition, had reason to think some words were not genuine. The terms as printed name no patriarch of Jerusalem.",
+    "His dates. Ginzel gives his life as the years 224 to 310 of the hijra and names no source. Hitti gives his death in 310 and places it in Baghdad. Neither gives a birthplace."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Annales, prima series IV",
+        "author": "al-Tabari; P. de Jong and E. Prym (eds.), under M. J. de Goeje",
+        "date": "1890",
+        "language": "Arabic, with Latin contents",
+        "file": "cic/texts/tabari_annales-prima-series-iv-ara-lat_de-goeje1890.txt"
+      },
+      {
+        "title": "Annales, prima series V",
+        "author": "al-Tabari; E. Prym (ed.), under M. J. de Goeje",
+        "date": "1893",
+        "language": "Arabic, with Latin contents",
+        "file": "cic/texts/tabari_annales-prima-series-v-ara-lat_de-goeje1893.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "The Origins of the Islamic State, volume 1, introduction",
+        "author": "Philip Khuri Hitti",
+        "date": "1916",
+        "language": "English",
+        "file": "cic/texts/baladhuri_origins-of-the-islamic-state-v1_hitti1916.txt"
+      },
+      {
+        "title": "Über einige von persischen und arabischen Schriftstellern erwähnte Sonnen- und Mondfinsternisse (Sitzungsberichte der Berliner Akademie, 1887)",
+        "author": "F. K. Ginzel",
+        "date": "1887",
+        "language": "German",
+        "file": "cic/texts/wattenbach_secte-der-brueder-vom-freien-geiste-sitzungsberichte-berlin-deu_1887.txt"
+      },
+      {
+        "title": "Opus chronologicum",
+        "author": "Elias of Nisibis; E. W. Brooks and J.-B. Chabot (Latin tr.)",
+        "date": "1910",
+        "language": "Latin translation",
+        "file": "cic/texts/elias-of-nisibis_opus-chronologicum-lat_brooks-chabot-csco1910.txt"
+      },
+      {
+        "title": "The Churches and Monasteries of Egypt, attributed to Abu Salih the Armenian",
+        "author": "B. T. A. Evetts (ed. and tr.)",
+        "date": "1895",
+        "language": "English",
+        "file": "cic/texts/abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt"
+      },
+      {
+        "title": "The Book of the Himyarites, introduction",
+        "author": "Axel Moberg (ed. and tr.)",
+        "date": "1924",
+        "language": "Syriac and English",
+        "file": "cic/texts/book-of-the-himyarites-syr-eng_moberg1924.txt"
+      },
+      {
+        "title": "Mémoires géographiques et historiques sur l'Égypte, tome 2",
+        "author": "Étienne Quatremère",
+        "date": "1811",
+        "language": "French",
+        "file": "cic/texts/quatremere_memoires-geographiques-et-historiques-sur-l-egypte-tome2-fra_quatremere1811.txt"
+      }
+    ]
+  }
+}
