@@ -1,0 +1,21 @@
+source_file: luther_werke-kritische-gesamtausgabe-bd-30-abt-3-deu-lat_weimar1910.txt
+assignments:
+- row_id: luther_werke-kritische-gesamtausgabe-bd-30-abt-3-deu-lat_weimar1910--the-marburg-colloquy-the-reports-of-hedio-the-anonymous-collin-osiander-and-brenz-and-the-marburg-articles-with-their-signatures-weimar-edition-30-3
+  work: 'The Marburg Colloquy: the reports of Hedio, the Anonymous, Collin, Osiander and Brenz, and the Marburg Articles with their signatures (Weimar edition 30/3)'
+  author: luther
+  locus: 'about OCR lines 6580-12700; add 12 to OCR line numbers'
+  atlas_ids:
+  - lutheran-wittenberg-and-its-congregations
+  - the-reformed-cities-zurich-and-geneva
+  role: tradition
+  confidence: provisional
+  note: 'Participants'' reports from both sides, and the fifteen articles as signed, in the original Latin and German.'
+- row_id: luther_werke-kritische-gesamtausgabe-bd-30-abt-3-deu-lat_weimar1910--luther-writings-of-1529-1532-weimar-edition-30-3
+  work: 'Luther, writings of 1529-1532 (Weimar edition 30/3)'
+  author: luther
+  locus: 'the whole volume; not mapped'
+  atlas_ids:
+  - lutheran-wittenberg-and-its-congregations
+  role: tradition
+  confidence: provisional
+  note: 'Original-language texts; single writings other than the Marburg part not mapped.'

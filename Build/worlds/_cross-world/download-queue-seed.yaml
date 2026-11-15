@@ -26454,3 +26454,563 @@ queue:
     verified_by: 'Library thread, era 6 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 976,492 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: ockham_de-sacramento-altaris-lat-eng_birch1930.txt
+  - title: 'Beytrage zur Erlauterung der Kirchen-Reformations-Geschichten des Schweitzerlandes, heraus gegeben von Johann Conrad Fusslin; Funfter Theil'
+    author: 'Johann Conrad Fusslin (ed.); Katharina Zell'
+    year: '1753'
+    world: lutheran-wittenberg-and-its-congregations
+    why: 'Wanted Sources, era 7 row 113: Katharina Schutz Zell, her own writings.'
+    url: https://archive.org/details/beytragezurerlau05fuss
+    rights_basis: 'Public Domain (pd-us-by-date: published 1753); the archive.org record carries no rights field, so the imprint date is the basis; the host record dates the series 1741, which is not this volume''s year'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 775,731 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: fuesslin_beytraege-kirchen-reformations-geschichten-schweitzerland-theil-5-deu_1753.txt
+  - title: 'Mittheilungen aus der Geschichte der evangelischen Kirche des Elsasses, von Timotheus Wilhelm Rohrich; Dritter und letzter Band, enthaltend Evangelische Lebensbilder'
+    author: 'Timotheus Wilhelm Rohrich'
+    year: '1855'
+    world: lutheran-wittenberg-and-its-congregations
+    why: 'Wanted Sources, era 7 row 113: Katharina Schutz Zell, a Life with extracts from her writings.'
+    url: https://archive.org/details/mittheilungenaus03rohr
+    rights_basis: 'Public Domain (pd-us-by-date: published 1855); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 849,989 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: roehrich_mittheilungen-geschichte-evangelischen-kirche-des-elsasses-bd-3-deu_1855.txt
+  - title: 'Correspondance des reformateurs dans les pays de langue francaise, recueillie et publiee par A.-L. Herminjard; tome cinquieme (1538 a 1539)'
+    author: 'A.-L. Herminjard (ed.); Marie Dentiere'
+    year: '1878'
+    world: the-reformed-cities-zurich-and-geneva
+    why: 'Wanted Sources, era 7 row 114: Marie Dentiere, Epistre tres utile (1539), abridged by the editor.'
+    url: https://archive.org/details/correspondancede05hermuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1878); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,425,286 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: herminjard_correspondance-des-reformateurs-t5-1538-1539-fra-lat_1878.txt
+  - title: 'Correspondance des reformateurs dans les pays de langue francaise, recueillie et publiee par A.-L. Herminjard; tome deuxieme (1527 a 1532)'
+    author: 'A.-L. Herminjard (ed.)'
+    year: '1868'
+    world: the-reformed-cities-zurich-and-geneva
+    why: 'Open-Gaps 273, not held: Herminjard, for the Synod of Chanforan (1532).'
+    url: https://archive.org/details/correspondancede02hermuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1868); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees; a University of Toronto stamp of 1961 on the title verso is a library stamp'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,435,394 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: herminjard_correspondance-des-reformateurs-t2-1527-1532-fra-lat_1868.txt
+  - title: 'Le levain du calvinisme, ou commencement de l''heresie de Geneve, faict par Reverende Soeur Jeanne de Jussie; reimprime par Jules-Guillaume Fick'
+    author: 'Jeanne de Jussie'
+    year: '1853'
+    world: the-tridentine-church
+    why: 'Wanted Sources, era 7 row 114: Marie Dentiere, as an opponent saw her.'
+    url: https://archive.org/details/lelevainducalvi00jussgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1853); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees; a Harvard stamp of 1966 is a library stamp'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 405,559 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: jussie_le-levain-du-calvinisme-fra_revilliod-fick1853.txt
+  - title: 'Tratado de la redempcion de captivos, en que se cuentan las grandes miserias que padecen los Christianos que estan en poder de infieles, por F. Geronymo Gracian de la Madre de Dios'
+    author: 'Jeronimo Gracian de la Madre de Dios'
+    year: '1609'
+    world: carmelite-reform-and-spanish-mystics
+    why: 'Wanted Sources, era 7 row 115: Jeronimo Gracian, a work of his own.'
+    url: https://archive.org/details/A1090423
+    rights_basis: 'Public Domain (pd-us-by-date: published 1609); the archive.org record carries the Public Domain Mark (licenseurl creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 85,083 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: gracian_tratado-de-la-redempcion-de-captivos-spa_momarte1609.txt
+  - title: 'Briefe und Acten zu der Geschichte des Religionsgespraches zu Marburg 1529 und des Reichstages zu Augsburg 1530, nach der Handschrift des Joh. Aurifaber nebst den Berichten der Gesandten Frankfurts a. M. und den Regesten zur Geschichte dieses Reichstages, herausgegeben und bearbeitet von Friedrich Wilhelm Schirrmacher'
+    author: 'Friedrich Wilhelm Schirrmacher (ed.); Johann Aurifaber'
+    year: '1876'
+    world: lutheran-wittenberg-and-its-congregations
+    why: 'CFT-Wants, Era 7: the Marburg Colloquy (1529), the colloquy''s record (first choice).'
+    url: https://archive.org/details/briefeundactenz00aurigoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1876); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT; it also describes the item as the Amsterdam reprint of 1968 (B. R. Gruner), which this scan is not: the title page reads Gotha 1876 and carries old library stamps, the printer''s line at the end is Perthes''s, and no reprint leaf stands at the front or the back'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,394,967 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: schirrmacher_briefe-und-acten-marburg-1529-augsburg-1530-lat-deu_1876.txt
+  - title: 'D. Martin Luthers Werke, Kritische Gesamtausgabe; 30. Band, Dritte Abteilung'
+    author: 'Martin Luther; Weimar edition'
+    year: '1910'
+    world: lutheran-wittenberg-and-its-congregations
+    why: 'CFT-Wants, Era 7: the Marburg Colloquy (1529), the reports of the sessions and the signed articles.'
+    url: https://archive.org/details/bwb_S0-EHF-734
+    rights_basis: 'Public Domain (pd-us-by-date: published 1910); the archive.org record carries no rights field, so the imprint date is the basis; a Concordia College Library stamp is a library stamp'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,825,816 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: luther_werke-kritische-gesamtausgabe-bd-30-abt-3-deu-lat_weimar1910.txt
+  - title: 'Documents Illustrative of the Continental Reformation, edited by the Rev. B. J. Kidd'
+    author: 'B. J. Kidd (ed.)'
+    year: '1911'
+    world: lutheran-wittenberg-and-its-congregations
+    why: 'CFT-Wants, Era 7: the Diet of Worms (1521), second choice; also Marburg and Augsburg documents.'
+    url: https://archive.org/details/docreform00kidd
+    rights_basis: 'Public Domain (pd-us-by-date: published 1911); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 2,199,707 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: kidd_documents-illustrative-of-the-continental-reformation-lat-deu-fra-eng_1911.txt
+  - title: 'Deutsche Reichstagsakten, jungere Reihe; zweiter Band: Deutsche Reichstagsakten unter Kaiser Karl V., herausgegeben durch die Historische Kommission bei der Koniglichen Akademie der Wissenschaften'
+    author: 'Historische Kommission (ed.); Adolf Wrede'
+    year: '1896'
+    world: lutheran-wittenberg-and-its-congregations
+    why: 'CFT-Wants, Era 7: the Diet of Worms (1521), the Diet''s acts (first choice).'
+    url: https://archive.org/details/deutschereichst07kommgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1896); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees; the host record''s date of 1893 is not what the title page says'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 3,620,551 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: deutsche-reichstagsakten_juengere-reihe-bd-2-reichstag-zu-worms-1521-deu-lat-fra_wrede1896.txt
+  - title: 'Monumenta reformationis Lutheranae ex tabulariis secretioribus S. Sedis, 1521-1525; collegit, ordinavit, illustravit Petrus Balan'
+    author: 'Petrus Balan (ed.); Aleander'
+    year: '1884'
+    world: the-tridentine-church
+    why: 'Open-Gaps 273, not held: Aleander''s dispatches from the Diet of Worms.'
+    url: https://archive.org/details/monumentareform00vatigoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1884); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,593,647 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: balan_monumenta-reformationis-lutheranae-1521-1525-lat-ita_1884.txt
+  - title: 'Corpus Reformatorum, post Carol. Gottl. Bretschneiderum edidit Henricus Ernestus Bindseil; volumen XXVII'
+    author: 'H. E. Bindseil (ed.)'
+    year: '1859'
+    world: the-tridentine-church
+    why: 'Open-Gaps 273, not held: the Confutatio pontificia (Latin).'
+    url: https://archive.org/details/corpusreformato25melagoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1859); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,816,701 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: corpus-reformatorum_v27-confutatio-et-apologia-confessionis-augustanae-lat-deu_bindseil1859.txt
+  - title: 'The Augsburg Confession: A Collection of Sources with an Historical Introduction, by M. Reu'
+    author: 'M. Reu'
+    year: '1930'
+    world: lutheran-wittenberg-and-its-congregations
+    why: 'Open-Gaps 273, not held: the Confutatio pontificia, in English, with other Augsburg sources.'
+    url: https://archive.org/details/augsburgconfessi00reuj
+    rights_basis: 'Public Domain (pd-us-by-date: published 1930); the archive.org record carries no rights field, so the imprint date is the basis; 1930 is the last year the date rule admits, and no copyright notice was found in the OCR'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,915,276 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: reu_augsburg-confession-collection-of-sources_1930.txt
+  - title: 'Urkundenbuch zu der Geschichte des Reichstages zu Augsburg im Jahre 1530, herausgegeben von Karl Eduard Forstemann; Zweiter Band: Von der Uebergabe der Augsburgischen Confession bis zu dem Schlusse des Reichstages'
+    author: 'Karl Eduard Forstemann (ed.)'
+    year: '1835'
+    world: lutheran-wittenberg-and-its-congregations
+    why: 'Open-Gaps 273, not held: the acts of the Diet of Augsburg after the Confession, to the close.'
+    url: https://archive.org/details/bub_gb_mx8TAAAAQAAJ
+    rights_basis: 'Public Domain (pd-us-by-date: published 1835); the archive.org record carries the Public Domain Mark (licenseurl creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees; the host record''s date of 1833 is the first volume''s'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,728,445 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: foerstemann_urkundenbuch-reichstag-zu-augsburg-1530-bd-2-deu-lat_1835.txt
+  - title: 'Monumenta Vaticana historiam ecclesiasticam saeculi XVI illustrantia, edidit Hugo Laemmer'
+    author: 'Hugo Laemmer (ed.); Campeggio'
+    year: '1861'
+    world: the-tridentine-church
+    why: 'Open-Gaps 273, not held: a Campeggio document of 1530.'
+    url: https://archive.org/details/monumentavatica00laemgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1861); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,485,086 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: laemmer_monumenta-vaticana-historiam-ecclesiasticam-saeculi-xvi-lat-ita_1861.txt
+  - title: 'Dr. Martin Luthers Briefe, Sendschreiben und Bedenken, herausgegeben von Dr. Wilhelm Martin Leberecht de Wette; Vierter Theil: Luthers Briefe von seinem Aufenthalt auf der Koburger Veste wahrend des Reichstags zu Augsburg bis zur Schliessung der Wittenberger Concordie'
+    author: 'Martin Luther; W. M. L. de Wette (ed.)'
+    year: '1827'
+    world: lutheran-wittenberg-and-its-congregations
+    why: 'Open-Gaps 273, not held: Luther''s Coburg letters, in the original.'
+    url: https://archive.org/details/bub_gb_fMoFAAAAQAAJ
+    rights_basis: 'Public Domain (pd-us-by-date: published 1827); the archive.org record carries the Public Domain Mark (licenseurl creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,340,784 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: luther_briefe-sendschreiben-und-bedenken-theil-4-lat-deu_de-wette1827.txt
+  - title: 'The Letters of Martin Luther, selected and translated by Margaret A. Currie'
+    author: 'Martin Luther; Margaret A. Currie (tr.)'
+    year: '1908'
+    world: lutheran-wittenberg-and-its-congregations
+    why: 'Open-Gaps 273, not held: Luther''s Coburg letters, in English.'
+    url: https://archive.org/details/lettersofmartinl00luth
+    rights_basis: 'Public Domain (pd-us-by-date: published 1908); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,134,206 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: luther_letters-of-martin-luther_currie1908.txt
+  - title: 'Historia de las Indias, escrita por Fray Bartolome de las Casas, obispo de Chiapa, ahora por primera vez dada a luz por el Marques de la Fuensanta del Valle y D. Jose Sancho Rayon; tomo I'
+    author: 'Bartolome de las Casas'
+    year: '1875'
+    world: new-spain-and-andes-mission-born-christianity
+    why: 'Wanted Sources, era 7 row 119: Bartolome de las Casas, Historia de las Indias, volume 1 of 5.'
+    url: https://archive.org/details/historiadelasind15casa
+    rights_basis: 'Public Domain (pd-us-by-date: published 1875); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,082,662 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: las-casas_historia-de-las-indias-t1-spa_fuensanta-sancho-rayon1875.txt
+  - title: 'Historia de las Indias, escrita por Fray Bartolome de las Casas, obispo de Chiapa, ahora por primera vez dada a luz por el Marques de la Fuensanta del Valle y D. Jose Sancho Rayon; tomo II'
+    author: 'Bartolome de las Casas'
+    year: '1875'
+    world: new-spain-and-andes-mission-born-christianity
+    why: 'Wanted Sources, era 7 row 119: Bartolome de las Casas, Historia de las Indias, volume 2 of 5.'
+    url: https://archive.org/details/historiadelasind15casa_0
+    rights_basis: 'Public Domain (pd-us-by-date: published 1875); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,049,141 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: las-casas_historia-de-las-indias-t2-spa_fuensanta-sancho-rayon1875.txt
+  - title: 'Historia de las Indias, escrita por Fray Bartolome de las Casas, obispo de Chiapa, ahora por primera vez dada a luz por el Marques de la Fuensanta del Valle y D. Jose Sancho Rayon; tomo III'
+    author: 'Bartolome de las Casas'
+    year: '1875'
+    world: new-spain-and-andes-mission-born-christianity
+    why: 'Wanted Sources, era 7 row 119: Bartolome de las Casas, Historia de las Indias, volume 3 of 5.'
+    url: https://archive.org/details/historiadelasind15casa_1
+    rights_basis: 'Public Domain (pd-us-by-date: published 1875); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 976,551 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: las-casas_historia-de-las-indias-t3-spa_fuensanta-sancho-rayon1875.txt
+  - title: 'Historia de las Indias, escrita por Fray Bartolome de las Casas, obispo de Chiapa, ahora por primera vez dada a luz por el Marques de la Fuensanta del Valle y D. Jose Sancho Rayon; tomo IV'
+    author: 'Bartolome de las Casas'
+    year: '1876'
+    world: new-spain-and-andes-mission-born-christianity
+    why: 'Wanted Sources, era 7 row 119: Bartolome de las Casas, Historia de las Indias, volume 4 of 5.'
+    url: https://archive.org/details/historiadelasind15casa_2
+    rights_basis: 'Public Domain (pd-us-by-date: published 1876); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 996,077 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: las-casas_historia-de-las-indias-t4-spa_fuensanta-sancho-rayon1876.txt
+  - title: 'Historia de las Indias, escrita por Fray Bartolome de las Casas, obispo de Chiapa, ahora por primera vez dada a luz por el Marques de la Fuensanta del Valle y D. Jose Sancho Rayon; tomo V'
+    author: 'Bartolome de las Casas'
+    year: '1876'
+    world: new-spain-and-andes-mission-born-christianity
+    why: 'Wanted Sources, era 7 row 119: Bartolome de las Casas, Historia de las Indias, volume 5 of 5.'
+    url: https://archive.org/details/historiadelasind15casa_3
+    rights_basis: 'Public Domain (pd-us-by-date: published 1876); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,066,068 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: las-casas_historia-de-las-indias-t5-spa_fuensanta-sancho-rayon1876.txt
+  - title: 'Brevissima relacion de la destruycion de las Indias, colegida por el obispo Don Fray Bartolome de las Casas, o Casaus, de la orden de Santo Domingo; ano 1552'
+    author: 'Bartolome de las Casas'
+    year: '1821'
+    world: new-spain-and-andes-mission-born-christianity
+    why: 'Wanted Sources, era 7 row 119: Bartolome de las Casas, the Brevissima relacion in Spanish.'
+    url: https://archive.org/details/HFA901243
+    rights_basis: 'Public Domain (pd-us-by-date: published 1821); the archive.org record carries the Public Domain Mark (licenseurl creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 193,731 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: las-casas_brevissima-relacion-de-la-destruycion-de-las-indias-spa_cadiz1821.txt
+  - title: 'Bartholomew de Las Casas: His Life, Apostolate, and Writings, by Francis Augustus MacNutt'
+    author: 'Francis Augustus MacNutt; Bartolome de las Casas'
+    year: '1909'
+    world: new-spain-and-andes-mission-born-christianity
+    why: 'Wanted Sources, era 7 row 119: Bartolome de las Casas, the Brevissima relacion in English, with a Life.'
+    url: https://archive.org/details/bartholomewdelas00macnuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1909); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees; a stamp of 1938 near the front is a library stamp'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 968,535 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: macnutt_bartholomew-de-las-casas-his-life-apostolate-and-writings_1909.txt
+  - title: 'Historia general de las cosas de Nueva Espana, que en doce libros y dos volumenes escribio el R. P. Fr. Bernardino de Sahagun; dala a luz con notas y suplementos Carlos Maria de Bustamante; tomo primero'
+    author: 'Bernardino de Sahagun; Carlos Maria de Bustamante (ed.)'
+    year: '1829'
+    world: new-spain-and-andes-mission-born-christianity
+    why: 'Wanted Sources, era 7 row 120: Bernardino de Sahagun, Historia general, volume 1 of 3.'
+    url: https://archive.org/details/historiagenerald01saha
+    rights_basis: 'Public Domain (pd-us-by-date: published 1829); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 934,408 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: sahagun_historia-general-de-las-cosas-de-nueva-espana-t1-spa_bustamante1829.txt
+  - title: 'Historia general de las cosas de Nueva Espana, que en doce libros y dos volumenes escribio el R. P. Fr. Bernardino de Sahagun; dala a luz con notas y suplementos Carlos Maria de Bustamante; tomo segundo'
+    author: 'Bernardino de Sahagun; Carlos Maria de Bustamante (ed.)'
+    year: '1829'
+    world: new-spain-and-andes-mission-born-christianity
+    why: 'Wanted Sources, era 7 row 120: Bernardino de Sahagun, Historia general, volume 2 of 3.'
+    url: https://archive.org/details/historiagenerald02saha
+    rights_basis: 'Public Domain (pd-us-by-date: published 1829); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,063,678 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: sahagun_historia-general-de-las-cosas-de-nueva-espana-t2-spa_bustamante1829.txt
+  - title: 'Historia general de las cosas de Nueva Espana, que en doce libros y dos volumenes escribio el R. P. Fr. Bernardino de Sahagun; dala a luz con notas y suplementos Carlos Maria de Bustamante; tomo tercero'
+    author: 'Bernardino de Sahagun; Carlos Maria de Bustamante (ed.)'
+    year: '1830'
+    world: new-spain-and-andes-mission-born-christianity
+    why: 'Wanted Sources, era 7 row 120: Bernardino de Sahagun, Historia general, volume 3 of 3.'
+    url: https://archive.org/details/historiagenerald03saha
+    rights_basis: 'Public Domain (pd-us-by-date: published 1830); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 728,831 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: sahagun_historia-general-de-las-cosas-de-nueva-espana-t3-spa_bustamante1830.txt
+  - title: 'Historia de la conquista de Mexico, escrita por el R. P. Fr. Bernardino Sahagun; publicala por separado de sus demas obras Carlos Maria de Bustamante'
+    author: 'Bernardino de Sahagun; Carlos Maria de Bustamante (ed.)'
+    year: '1829'
+    world: new-spain-and-andes-mission-born-christianity
+    why: 'Wanted Sources, era 7 row 120: Bernardino de Sahagun, Book XII of the Historia general.'
+    url: https://archive.org/details/historiadelaconq00sahaiala
+    rights_basis: 'Public Domain (pd-us-by-date: published 1829); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 189,058 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: sahagun_historia-de-la-conquista-de-mexico-libro-12-spa_bustamante1829.txt
+  - title: 'The Chinese Repository, vol. XIX, from January to December, 1850; the number for March 1850 (no. 3)'
+    author: 'Su Kwangki (Xu Guangqi); The Chinese Repository'
+    year: '1850'
+    world: china-mission-born-christianity
+    why: 'Wanted Sources, era 7 row 117: Xu Guangqi, a memorial of his own in English.'
+    url: https://archive.org/details/chineserepositor1931unse
+    rights_basis: 'Public Domain (pd-us-by-date: published 1850); the archive.org record carries no rights field, so the imprint date is the basis; the host record''s date of 1832 is the series'' first year, and its volume field says v.19, no.3 (Mar. 1850)'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 194,910 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: chinese-repository_v19-no3-march-1850-paul-su-apology.txt
+  - title: 'The History of the Maritime Wars of the Turks, translated from the Turkish of Haji Khalifeh by James Mitchell; chapters I to IV'
+    author: 'Haji Khalifeh (Katib Chelebi); James Mitchell (tr.)'
+    year: '1831'
+    world: orthodoxy-under-the-ottomans-parish-millet-and-n
+    why: 'Wanted Sources, outside-witness row 10: Katib Celebi, in English.'
+    url: https://archive.org/details/historymaritime00elgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1831); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 213,541 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: katib-celebi_history-of-the-maritime-wars-of-the-turks-chapters-1-4_mitchell1831.txt
+  - title: 'Narrative of Travels in Europe, Asia, and Africa, in the Seventeenth Century, by Evliya Efendi; translated from the Turkish by the Ritter Joseph von Hammer; volume I, part 1'
+    author: 'Evliya Efendi; Joseph von Hammer (tr.)'
+    year: '1834'
+    world: orthodoxy-under-the-ottomans-parish-millet-and-n
+    why: 'Wanted Sources, outside-witness row 11: Evliya Celebi, in English, volume I, part 1.'
+    url: https://archive.org/details/narrativeoftrave01evli
+    rights_basis: 'Public Domain (pd-us-by-date: published 1834); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 636,908 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: evliya-celebi_narrative-of-travels-v1-pt1_hammer1834.txt
+  - title: 'Narrative of Travels in Europe, Asia, and Africa, in the Seventeenth Century, by Evliya Efendi; translated from the Turkish by the Ritter Joseph von Hammer; volume I, part 2'
+    author: 'Evliya Efendi; Joseph von Hammer (tr.)'
+    year: '1846'
+    world: orthodoxy-under-the-ottomans-parish-millet-and-n
+    why: 'Wanted Sources, outside-witness row 11: Evliya Celebi, in English, volume I, part 2.'
+    url: https://archive.org/details/india.history.resource.37537
+    rights_basis: 'Public Domain (pd-us-by-date: published 1846); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 719,718 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: evliya-celebi_narrative-of-travels-v1-pt2_hammer1846.txt
+  - title: 'Narrative of Travels in Europe, Asia, and Africa, in the Seventeenth Century, by Evliya Efendi; translated from the Turkish by the Ritter Joseph von Hammer; volume II'
+    author: 'Evliya Efendi; Joseph von Hammer (tr.)'
+    year: '1850'
+    world: orthodoxy-under-the-ottomans-parish-millet-and-n
+    why: 'Wanted Sources, outside-witness row 11: Evliya Celebi, in English, volume II.'
+    url: https://archive.org/details/narrativeoftrave02evli
+    rights_basis: 'Public Domain (pd-us-by-date: published 1850); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 849,560 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: evliya-celebi_narrative-of-travels-v2_hammer1850.txt
+  - title: 'The Chronicles of Rabbi Joseph ben Joshua ben Meir, the Sphardi; translated from the Hebrew by C. H. F. Bialloblotzky; volume 1'
+    author: 'Joseph ha-Kohen; C. H. F. Bialloblotzky (tr.)'
+    year: '1835'
+    world: the-tridentine-church
+    why: 'Wanted Sources, outside-witness row 15: Joseph ha-Kohen, his chronicle in English, volume 1.'
+    url: https://archive.org/details/in.ernet.dli.2015.181846
+    rights_basis: 'Public Domain (pd-us-by-date: published 1835); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 620,568 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: joseph-ha-kohen_chronicles-of-rabbi-joseph-ben-joshua-ben-meir-v1_bialloblotzky1835.txt
+  - title: 'The Chronicles of Rabbi Joseph ben Joshua ben Meir, the Sphardi; translated from the Hebrew by C. H. F. Bialloblotzky; volume 2'
+    author: 'Joseph ha-Kohen; C. H. F. Bialloblotzky (tr.)'
+    year: '1836'
+    world: the-tridentine-church
+    why: 'Wanted Sources, outside-witness row 15: Joseph ha-Kohen, his chronicle in English, volume 2.'
+    url: https://archive.org/details/in.ernet.dli.2015.49379
+    rights_basis: 'Public Domain (pd-us-by-date: published 1836); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 722,620 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: joseph-ha-kohen_chronicles-of-rabbi-joseph-ben-joshua-ben-meir-v2_bialloblotzky1836.txt
+  - title: 'La vallee des pleurs: chronique des souffrances d''Israel depuis sa dispersion jusqu''a nos jours, par Maitre Joseph ha-Cohen, medecin d''Avignon, 1575; publie pour la premiere fois en francais avec notes et textes historiques par Julien See'
+    author: 'Joseph ha-Kohen; Julien See (tr.)'
+    year: '1881'
+    world: the-tridentine-church
+    why: 'Wanted Sources, outside-witness row 15: Joseph ha-Kohen, Emek ha-Bakha in French.'
+    url: https://archive.org/details/lavalledespleur01josegoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1881); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 665,298 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: joseph-ha-kohen_la-vallee-des-pleurs-emek-ha-bakha-fra_see1881.txt
+  - title: 'Consolacam as tribulacoens de Israel, por Samuel Usque; com revisao e prefacio de Mendes dos Remedios (Subsidios para o estudo da historia da litteratura portuguesa, VIII)'
+    author: 'Samuel Usque; Mendes dos Remedios (ed.)'
+    year: '1906'
+    world: the-tridentine-church
+    why: 'Wanted Sources, outside-witness row 16: Samuel Usque, Consolacam, in Portuguese.'
+    url: https://archive.org/details/consolaamstr00usquuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1906); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 892,953 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: usque_consolacam-as-tribulacoens-de-israel-por_mendes-dos-remedios1906.txt
+  - title: 'Historia Judaica, res Judaeorum ab eversa aede Hierosolymitana ad haec fere tempora usque complexa; de Hebraeo in Latinum versa a Georgio Gentio'
+    author: 'Solomon ibn Verga; Georgius Gentius (tr.)'
+    year: '1651'
+    world: the-tridentine-church
+    why: 'Wanted Sources, outside-witness row 19: Solomon ibn Verga, Shevet Yehudah, in Latin.'
+    url: https://archive.org/details/bub_gb_3OQCjvtekD0C
+    rights_basis: 'Public Domain (pd-us-by-date: published 1651); the archive.org record carries the Public Domain Mark (licenseurl creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 618,130 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: ibn-verga_historia-judaica-shevet-yehudah-lat_gentius1651.txt
+  - title: 'La storia d''Italia di Francesco Guicciardini, sugli originali manoscritti, a cura di Alessandro Gherardi; volume 1'
+    author: 'Francesco Guicciardini; Alessandro Gherardi (ed.)'
+    year: '1919'
+    world: the-tridentine-church
+    why: 'Wanted Sources, outside-witness row 21: Guicciardini, Storia d''Italia, volume 1 of 4.'
+    url: https://archive.org/details/lastoriaditalias01guic
+    rights_basis: 'Public Domain (pd-us-by-date: published 1919); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,769,571 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: guicciardini_la-storia-d-italia-v1-ita_gherardi1919.txt
+  - title: 'La storia d''Italia di Francesco Guicciardini, sugli originali manoscritti, a cura di Alessandro Gherardi; volume 2'
+    author: 'Francesco Guicciardini; Alessandro Gherardi (ed.)'
+    year: '1919'
+    world: the-tridentine-church
+    why: 'Wanted Sources, outside-witness row 21: Guicciardini, Storia d''Italia, volume 2 of 4.'
+    url: https://archive.org/details/lastoriaditalias02guic
+    rights_basis: 'Public Domain (pd-us-by-date: published 1919); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,514,823 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: guicciardini_la-storia-d-italia-v2-ita_gherardi1919.txt
+  - title: 'La storia d''Italia di Francesco Guicciardini, sugli originali manoscritti, a cura di Alessandro Gherardi; volume 3'
+    author: 'Francesco Guicciardini; Alessandro Gherardi (ed.)'
+    year: '1919'
+    world: the-tridentine-church
+    why: 'Wanted Sources, outside-witness row 21: Guicciardini, Storia d''Italia, volume 3 of 4.'
+    url: https://archive.org/details/lastoriaditalias03guic
+    rights_basis: 'Public Domain (pd-us-by-date: published 1919); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,539,538 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: guicciardini_la-storia-d-italia-v3-ita_gherardi1919.txt
+  - title: 'La storia d''Italia di Francesco Guicciardini, sugli originali manoscritti, a cura di Alessandro Gherardi; volume 4'
+    author: 'Francesco Guicciardini; Alessandro Gherardi (ed.)'
+    year: '1919'
+    world: the-tridentine-church
+    why: 'Wanted Sources, outside-witness row 21: Guicciardini, Storia d''Italia, volume 4 of 4.'
+    url: https://archive.org/details/lastoriaditalias04guic
+    rights_basis: 'Public Domain (pd-us-by-date: published 1919); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,794,695 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: guicciardini_la-storia-d-italia-v4-ita_gherardi1919.txt
+  - title: 'The Historical, Political, and Diplomatic Writings of Niccolo Machiavelli, translated from the Italian by Christian E. Detmold; in four volumes, volume 1'
+    author: 'Niccolo Machiavelli; Christian E. Detmold (tr.)'
+    year: '1882'
+    world: latin-papal-church-avignon-to-lateran-v
+    why: 'Wanted Sources, outside-witness row 22: Machiavelli, in English, volume 1 of 4.'
+    url: https://archive.org/details/diplomaticwritin01machuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1882); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,142,847 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: machiavelli_historical-political-and-diplomatic-writings-v1_detmold1882.txt
+  - title: 'The Historical, Political, and Diplomatic Writings of Niccolo Machiavelli, translated from the Italian by Christian E. Detmold; in four volumes, volume 2'
+    author: 'Niccolo Machiavelli; Christian E. Detmold (tr.)'
+    year: '1882'
+    world: latin-papal-church-avignon-to-lateran-v
+    why: 'Wanted Sources, outside-witness row 22: Machiavelli, in English, volume 2 of 4.'
+    url: https://archive.org/details/diplomaticwritin02machuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1882); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,081,804 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: machiavelli_historical-political-and-diplomatic-writings-v2_detmold1882.txt
+  - title: 'The Historical, Political, and Diplomatic Writings of Niccolo Machiavelli, translated from the Italian by Christian E. Detmold; in four volumes, volume 3'
+    author: 'Niccolo Machiavelli; Christian E. Detmold (tr.)'
+    year: '1882'
+    world: latin-papal-church-avignon-to-lateran-v
+    why: 'Wanted Sources, outside-witness row 22: Machiavelli, in English, volume 3 of 4.'
+    url: https://archive.org/details/diplomaticwritin03machuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1882); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,142,848 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: machiavelli_historical-political-and-diplomatic-writings-v3_detmold1882.txt
+  - title: 'The Historical, Political, and Diplomatic Writings of Niccolo Machiavelli, translated from the Italian by Christian E. Detmold; in four volumes, volume 4'
+    author: 'Niccolo Machiavelli; Christian E. Detmold (tr.)'
+    year: '1882'
+    world: latin-papal-church-avignon-to-lateran-v
+    why: 'Wanted Sources, outside-witness row 22: Machiavelli, in English, volume 4 of 4.'
+    url: https://archive.org/details/diplomaticwritin04machuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1882); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,107,548 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: machiavelli_historical-political-and-diplomatic-writings-v4_detmold1882.txt
+  - title: 'The Six Bookes of a Commonweale, written by I. Bodin, a famous lawyer, and a man of great experience in matters of state; out of the French and Latine copies, done into English, by Richard Knolles'
+    author: 'Jean Bodin; Richard Knolles (tr.)'
+    year: '1606'
+    world: the-huguenots
+    why: 'Wanted Sources, outside-witness row 23: Jean Bodin, the Six Books, in English.'
+    url: https://archive.org/details/sixbookesofcommo00bodi
+    rights_basis: 'Public Domain (pd-us-by-date: published 1606); the archive.org record carries no rights field, so the imprint date is the basis; a John Adams Library bookplate of the Boston Public Library is a library mark'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 4,001,527 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: bodin_six-bookes-of-a-commonweale_knolles1606.txt
+  - title: 'Joannis Bodini Colloquium heptaplomeres de rerum sublimium arcanis abditis; e codicibus manuscriptis bibliothecae academicae Gissensis cum varia lectione aliorum apographorum nunc primum typis describendum curavit Ludovicus Noack'
+    author: 'Jean Bodin; Ludovicus Noack (ed.)'
+    year: '1857'
+    world: the-huguenots
+    why: 'Wanted Sources, outside-witness row 23: Jean Bodin, the Colloquium heptaplomeres, in Latin.'
+    url: https://archive.org/details/bub_gb_bIlaAAAAQAAJ
+    rights_basis: 'Public Domain (pd-us-by-date: published 1857); the archive.org record carries the Public Domain Mark (licenseurl creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,050,913 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: bodin_colloquium-heptaplomeres-lat_noack1857.txt
+  - title: 'The Essays of Montaigne, done into English by John Florio, anno 1603; with an introduction by George Saintsbury; the first book (The Tudor Translations, edited by W. E. Henley)'
+    author: 'Michel de Montaigne; John Florio (tr.)'
+    year: '1892'
+    world: the-huguenots
+    why: 'Wanted Sources, outside-witness row 24: Montaigne, the Essays in Florio''s English, volume 1 of 3.'
+    url: https://archive.org/details/essaysofmontaign01montuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1892); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,045,374 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: montaigne_essays-v1_florio-saintsbury1892.txt
+  - title: 'The Essays of Montaigne, done into English by John Florio, anno 1603; with an introduction by George Saintsbury; the second book (The Tudor Translations, edited by W. E. Henley)'
+    author: 'Michel de Montaigne; John Florio (tr.)'
+    year: '1893'
+    world: the-huguenots
+    why: 'Wanted Sources, outside-witness row 24: Montaigne, the Essays in Florio''s English, volume 2 of 3.'
+    url: https://archive.org/details/essaysofmontaign02montuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1893); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,443,283 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: montaigne_essays-v2_florio-saintsbury1893.txt
+  - title: 'The Essays of Montaigne, done into English by John Florio, anno 1603; with an introduction by George Saintsbury; the third book (The Tudor Translations, edited by W. E. Henley)'
+    author: 'Michel de Montaigne; John Florio (tr.)'
+    year: '1893'
+    world: the-huguenots
+    why: 'Wanted Sources, outside-witness row 24: Montaigne, the Essays in Florio''s English, volume 3 of 3.'
+    url: https://archive.org/details/essaysofmontaign03montuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1893); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,105,993 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: montaigne_essays-v3_florio-saintsbury1893.txt
+  - title: 'The History and Description of Africa and of the notable things therein contained, written by Al-Hassan ibn-Mohammed al-Wezaz al-Fasi, a Moor, baptised as Giovanni Leone, but better known as Leo Africanus; done into English in the year 1600 by John Pory, and now edited by Dr. Robert Brown; in three volumes, volume I (Works issued by the Hakluyt Society, no. XCII)'
+    author: 'Leo Africanus; John Pory (tr.); Robert Brown (ed.)'
+    year: '1896'
+    world: the-coptic-church-under-the-ottomans
+    why: 'Wanted Sources, outside-witness row 26: Leo Africanus, in Pory''s English, volume 1 of 3.'
+    url: https://archive.org/details/historyanddescr03porygoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1896); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 657,229 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: leo-africanus_history-and-description-of-africa-v1_pory-brown1896.txt
+  - title: 'The History and Description of Africa and of the notable things therein contained, written by Al-Hassan ibn-Mohammed al-Wezaz al-Fasi, a Moor, baptised as Giovanni Leone, but better known as Leo Africanus; done into English in the year 1600 by John Pory, and now edited by Dr. Robert Brown; in three volumes, volume II (Works issued by the Hakluyt Society, no. XCIII)'
+    author: 'Leo Africanus; John Pory (tr.); Robert Brown (ed.)'
+    year: '1896'
+    world: the-coptic-church-under-the-ottomans
+    why: 'Wanted Sources, outside-witness row 26: Leo Africanus, in Pory''s English, volume 2 of 3.'
+    url: https://archive.org/details/historydescripti93leoa
+    rights_basis: 'Public Domain (pd-us-by-date: published 1896); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,250,265 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: leo-africanus_history-and-description-of-africa-v2_pory-brown1896.txt
+  - title: 'The History and Description of Africa and of the notable things therein contained, written by Al-Hassan ibn-Mohammed al-Wezaz al-Fasi, a Moor, baptised as Giovanni Leone, but better known as Leo Africanus; done into English in the year 1600 by John Pory, and now edited by Dr. Robert Brown; in three volumes, volume III (Works issued by the Hakluyt Society, no. XCIV)'
+    author: 'Leo Africanus; John Pory (tr.); Robert Brown (ed.)'
+    year: '1896'
+    world: the-coptic-church-under-the-ottomans
+    why: 'Wanted Sources, outside-witness row 26: Leo Africanus, in Pory''s English, volume 3 of 3.'
+    url: https://archive.org/details/historyanddescr01porygoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1896); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,013,053 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: leo-africanus_history-and-description-of-africa-v3_pory-brown1896.txt
+  - title: 'The Life and Letters of Ogier Ghiselin de Busbecq, Seigneur of Bousbecque, Knight, Imperial Ambassador, by Charles Thornton Forster and F. H. Blackburne Daniell; in two volumes, volume 1'
+    author: 'Ogier Ghiselin de Busbecq; C. T. Forster and F. H. B. Daniell (eds.)'
+    year: '1881'
+    world: orthodoxy-under-the-ottomans-parish-millet-and-n
+    why: 'Wanted Sources, outside-witness row 27: Busbecq, the Turkish Letters in English, with a Life.'
+    url: https://archive.org/details/lifelettbusbecq01forsuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1881); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 807,712 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: busbecq_life-and-letters-v1_forster-daniell1881.txt
+  - title: 'The Life and Letters of Ogier Ghiselin de Busbecq, Seigneur of Bousbecque, Knight, Imperial Ambassador, by Charles Thornton Forster and F. H. Blackburne Daniell; in two volumes, volume 2'
+    author: 'Ogier Ghiselin de Busbecq; C. T. Forster and F. H. B. Daniell (eds.)'
+    year: '1881'
+    world: orthodoxy-under-the-ottomans-parish-millet-and-n
+    why: 'Wanted Sources, outside-witness row 27: Busbecq, the letters from France in English.'
+    url: https://archive.org/details/lifelettbusbecq02forsuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1881); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 688,066 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: busbecq_life-and-letters-v2_forster-daniell1881.txt

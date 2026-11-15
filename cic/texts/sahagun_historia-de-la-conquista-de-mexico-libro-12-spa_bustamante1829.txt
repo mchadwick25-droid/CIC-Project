@@ -1,0 +1,3296 @@
+Title: Historia de la conquista de Mexico, escrita por el R. P. Fr. Bernardino Sahagun; publicala por separado de sus demas obras Carlos Maria de Bustamante
+Creator: Bernardino de Sahagun; Carlos Maria de Bustamante (editor)
+Publisher: Mexico: Imprenta de Galvan a cargo de Mariano Arevalo (title page)
+Publication Date: 1829 (title page, OCR line 48)
+Rights: Public Domain (pd-us-by-date: published 1829); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
+Language: spa
+Source: archive.org item historiadelaconq00sahaiala, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (189,058) equals the size archive.org lists for the djvu.txt.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1829, out of US copyright by date. OCR quality: the Spanish is fair to clean. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
+Content note: The twelfth book of the Historia general, on the conquest, printed apart by the editor. 'Capitulo primero' at OCR line 356; 'Fin' at 2796; the editor's notes from 2797 to the end. Chapters were not mapped.
+
+______________________________________________________________________
+
+W*2^M 
+
+
+M 
+
+
+M-.'is 
+
+
+/A 
+
+
+HISTORIA 
+
+DE  LA 
+CONQUISTA  DE  MÉXICO, 
+
+ESCRITA 
+
+POR  EL  R.  P.  Fr.  BERNARDINO  SAHAGUN 
+
+DEL  ORDEH  DE  S.   FRANCISCO,  T  UNO  DE  LOS  PRIMEROS  ENVIADOS 
+A  LA  NUEVA  ESPAÑA  PARA  PROPAGAR  EL  EVANGELIO. 
+
+PUBLÍCALA  POR  SEPARADO  DE  SUS  DEMÁS  OBRAS 
+
+CARLOS  MARÍA  DE  BÜST AMANTE, 
+
+Diputado  de  la  cámara  de  representantes  del  congreso  general  de 
+la  federación  por  el  estado  libre  de  Oaxaea,  quien  lo  dedica  á 
+los  beneméritos  generales  Meólas  Bravo  y  Miguel  Barragan,  y 
+á  aus  dignos  compañeros  en  la   conjinacion  que  hoy  sufren. 
+
+
+Yo  traeré  sobre  vosotros  una  nación  de  lejos: 
+una  nación  robusta  y  antigua:  una  nación  cuya 
+lengua  no  entenderéis...  Talará  vuestras  mieses  y 
+devorará  vuestros   hijos  é  hijas... 
+
+jeremías  oap.  5.°  v.    15  a   17. 
+
+
+MÉXICO. 
+
+Imprenta  de  Galvan  á  cargo  de  Mariano  Arévalo,  calle  d* 
+Cachua  iiúm.  2. 
+
+1829. 
+
+
+ni. 
+
+
+EL  EDITOR. 
+
+
+E 
+
+
+-A%  bien  sabido  el  esmero  con  que  el  rey  de  España  Fernando  VIL, 
+después  de  haber  perdido  la  dominación  de  las  Américas,  ha  manda- 
+do se  soliciten  de  los  archivos  de  Indias,  todos  los  documentos  y  noti- 
+cias importantes  que  tratan  de  su  descubrimiento  y  conquista  des- 
+de que  acometieron  esta  empresa  los  llamados  reyes  católicos.  Pare- 
+ce que  con  esto  se  ha  propuesto  justificar  la  conducta  que  ha  obser- 
+vado el  gobierno  español,  si  no  en  la  conquista,  á  lo  menos  en  la  con- 
+servacion  de  estos  dominios,  y  demostrar  al  mundo  la  sinrazón  con 
+que  este  nuevo  mundo  se  ha  substraído  de  su  obediencia. 
+
+Por  consecuencia  de  estas  disposiciones,  se  ha  impreso  á  espen- 
+sas  de  aquel  monarca  y  en  su  imprenta  real,  una  obra  intitulada... 
+Colección  de  loa  viages  y  descubrimientos  que  hicieron  por  mar  los 
+españoles  desde  fines  del  siglo  XV,  con  varios  documentos  inéditos 
+concernientes  á  la  historia  de  la  marina  castellana,  y  de  los  estable- 
+cimientos españoles  en  Indias,  por  D.   Martin  Fernandez  de  Nuvurrete. 
+
+De  esta  interesante  obra  no  han  llegado  á  México  mas  que  el  pri. 
+mero  y  segundo  tomo  por  la  via  de  Francia,  y  deseamos  ansiosamen- 
+te los  restantes;  ya  por  la  belleza  con  que  están  escritos,  y  ya  por- 
+que se  nos  anuncia  haber  aparecido  las  cartas  inéditas  de  Hernán 
+Cortés  que  dábamos  por  perdidas,  las  cuales  parece  se  insertarán  en 
+el  tomo  4.°  y  darán  mucha  luz  para  la  historia  de  la  conquista,  y  mo- 
+do de  establecer  el  gobierno  español  en  esta  América;  mas  entretan- 
+to llegan  á  mis  manos  no  puedo  menos  de  acelerarme  á  publicar  el 
+-doceno  lU>ro  del  Padre  Fr.  Bernardino  Sahagun,  de  los  frailes  menores, 
+■uno  de  los  primeros,  mas  sabios  y  virtuosos  misioneros  que  llegaron  á 
+México,  que  lo  ilustraron  con  su  predicación  asi  como  con  sus  escri- 
+tos, y  que  como  testigo  casi  presencial  de  los  grandes  y  recientes  acon- 
+tecimientos que  trastornaron  este  imperio,  se  ha  esplicado  con  la  esac- 
+titud  y  crítica  que  ninguno  lo  habia  hecho  y  pocos  lo  imitaron  des- 
+pués. En  este  libro  trata  úuicamente  de  cómo  los  es¡  anotes  conquista- 
+ron á  la  ciudad  de  México',  reservóme  para  lo  sucesivo  la  edic  ion  de 
+los  demás  que  hablan  de   la  historia  universal  de  la  Nueva  España. 
+
+No  faltará  quien  atribuya  á  impolítica  la  impresión  de  esta  obra 
+en  las  actuales  circunstancias  eu  que  nos  hallamos;  pero  )o  le  pro- 
+
+
+rv. 
+
+testo  que  no  llevo  por  objeto  escitar  el  odio  contra  la  nación  castella- 
+na, porque  la  generación  presente  española  no  fue  la  que  despojó  á 
+Mocthecu7oma  de  su  imperio;  nosotros  los  mexicanos,  sí  debemos  con- 
+servar la  memoria  de  aquellos  horrorosos  sucesos  para  evitar  que  se 
+nos  repitan  por  el  gobierno  de  su  actual  monarca  que  se  resiste  te- 
+nazmente á  reconocer  nuestra  independencia,  y  trabaja  cuanto  puede 
+por  reconquistarnos;  desdichados  nosotros  si  tal  sucediera,  pues  tor- 
+nariamos  á  los  año*  de  15.-21  y  siguientes,  y  seriamos  tan  maltratados 
+como  lo  fueron  nuestros  antepasados!  He  aqui  la  mira  con  que  doy  á 
+luz   este  precioso  y  no  publicado  escrito. 
+
+El  lector  de  él  notará  en  el  P.  Sahagun  cierta  especie  de  reca- 
+to y  miramiento  al  tiempo  de  referir  algunos  hechos  atroces  de  la 
+conquista,  y  que  aun  corta  y  trunca  ciertos  capítulos.  La  causa  de 
+un  obrar  tan  estraño,  nos  la  manifiesta  el  historiador  Betancourt  en 
+su  Crónica  de  la  provincia  del  Santo  evangelio  de  México,  pues  for- 
+mando el  catálogo  de  los  varones  ilustres  de  ella,  y  hablando  del  P. 
+Sahagun  dice  (*)  ,,que  el  nono  libro  que  compuso  este  escritor  fue 
+la  Conquista  de  México  hecha  por  Cortés;  que  después  en  el  año  de 
+1585  la  volvió  á  escribir  enmendala...  cuyo  original  (añade)  vide  fir- 
+mado de  su  mano  en  poder  del  sr.  D.Juan  Francisco  de  Monte-ma- 
+yor, presidente  de  la  real  audiencia,  que  lo  llevó  á  España  con  inten- 
+ción de  darlo  á  la  estampa,  y  de  él  tengo  en  mi  poder  un  traslado 
+donde  dice,  que  el  sr.  D.  Martin  de  Villa-Manrique,  virey  de  Méxi- 
+co, le  quitó  los  doce  libros  y  los  remitió  á  S.  M.   para  su   cronista-'* 
+
+En  el  prólogo  del  libro  segundo  de  la  obra  grande  del  P.  Saha- 
+gun consta  su  dedicatoria  al  P.  comisario  general  de  S.  Francisco  de 
+México  Fr.  Rodrigo  de  Sequera,  el  cual  gobernó  según  el  mismo  Be- 
+tancourt, desde  los  años  de  1476  á  1582.  Conque  habiendo  sido  des- 
+pojado el  padre  Sahagun  de  sus  escritos  por  el  virey  Villa  Manri- 
+que, que  gobernó  de  1585  á  1590,  es  claro  que  en  la  segunda  con- 
+quista que  escribió  reformó  la  primera,  habiendo  sufrido  persecucio- 
+nes y  desprecios  por  sus  relaciones  de  que  en  parte  lo  indemnizó 
+dicho  P.  comisario  Sequera,  protegiéndolo,  y  por  cuya  causa  le  dedicó 
+sus  obras.  ¿Y  por  que,  pregunto,  seria  esta  persecución  sino  por  la 
+verdad  con  que  habló  acerca  de  las  atrocidades  de  los  conquistadores? 
+¿Por  qué  fueron  tan  vejados  lo»  que  en  aquella  época  informaban  á 
+
+(*)    lágina  138. 
+
+
+V. 
+la  corte  contra  tos  déspotas  gobernantes?  La  persecución  en  e9ta  par. 
+te  llegó  á  tal  estremo,  que  un  prelado  eclesiástico  de  México,  para 
+que  el  rey  supiera  lo  que  habia  pasado  en  sus  dias,  temeroso  de  la 
+interceptación  de  las  cartas,  se  valió  del  arbitrio  de  mandar  por  obse- 
+quio á  la  corte  un  hermoso  crucifijo  hecho  por  un  indio,  en  cuyo  pe- 
+cho hueco  iba  depositado  un  largo  memorial  de  quejas  para  el  soberano. 
+Resulta  por  lo  dicho,  que  la  presente  obra  que  hoy  publico  es  la 
+que  reformó  el  P.  Sahngun,  y  si  aun  con  la  rebaja  de  muchas  co- 
+sas aparece  tan  dura  la  relación  ¿cuánto  mas  no  estaña  la  primera? 
+Resulta  asimismo,  ó  que  el  P.  Belancourt  se  equivoca  en  decir  que 
+el  nono  libro  de  las  obras  del  P.  Sahagun  es  la  historia  de  la  conquis- 
+ta, ó  que  posteriormente  escribió  otros  dos  mas,  pues  semejante  re- 
+lición  ocupa  el  doceno  y  último  libro  que  trato  después  de  publicar- 
+con  los  restantes.  Este  escrito  va  sin  duda  á  causar  una  revolución 
+en  la  historia  de  la  conquista,  porque  su  autor  con  la  noble  senci- 
+llez de  un  hombre  de  bien  que  habla  la  verdad,  solo  se  ocupa  de  de- 
+cir aquello  que  ha  visto  ó  de  que  está  convencido,  pero  sin  dete- 
+nerse en  impugnar  á  los  que  le  han  precedido  y  dicho  lo  contrario. 
+El  detalla  muy  circunstanciadamente  los  personages  que  intervinie- 
+ron en  las  escenas  de  horror  que  cuenta,  los  mienta  por  sus  nom- 
+bres, designa  sus  cargos,  sus  empleos  y  acciones;  señala  el  ubi  6 
+lugar  de  los  sucesos,  y  algunas  veces  marca  aquellos  lugares,  dicien- 
+do por  ejemplo,.,  tal  batulla  se  dio  en  el  punto  que  hoy  se  conoce 
+con  este  nombre...  y  lo  refiere.  El  real  de  los  mexicanos  estaba  don- 
+de hoy  se  halla  fundado  el  convento  de  la  Concepción,  que  se  llama- 
+ba Amaxác  &c.  &c.  ¿Quién  osará  pues  tachar  de  embustero  é  inesac- 
+to  á  un  hombre  sencillo  que  escribe  de  este  modo,  que  acomoda  el 
+lenguage  de  sus  relaciones  á  los  modismos  mexicanos,  pues  poseía  su 
+idioma  á  maravilla,  habia  formado  un  calepino  para  conservar  su  pu- 
+reza primitiva,  é  instruir  á  los  párrocos  en  sus  usos,  costumbres  é 
+historia,  para  anunciarles  el  evangelio  y  dirigir  con  provecho  sus  con- 
+ciencias? Yo  no  encuentro  quien  pueda  contrahacer  el  modo  sober- 
+bio y  petulante  de  Hernán  Cortés,  á  quien  describe  en  la  primera 
+visita  pública  que  tuvo  acompañado  de  Quauh/emoctzfn  y  de  su  cor- 
+te repantigado  en  una  silla,  y  pidiendo  por  principio  de  cuentas  torio 
+el  oro  que  poseía  Mocthecuzoma...  Allí  se  ve  saltar  por  los  ojos  del 
+conquistador  la  rabiosa  pasión  del  oro,  y  concluir  su  razonamiento 
+cual  pudiera  el  despechado  Orestes  con  estas  palabras...  es  menester 
+
+
+fuego  que  parezca...  He  aquí  un  hombre  decidido  á  cometer  las  ma- 
+yores crueldades  para  encontrar  ese  metal  por  el  que  ha  pasado  los 
+mares,  afrontado  los  peligros  de  toda  clase,  y  sufrido  privaciones  inde- 
+cibles; por  el  que  hizo  atormentar  á  Quauhtemoctzin,  y  morir  á  su 
+ministro  en  la  tortura.  Muchos  rasgos  de  esta  naturaleza  presenta  el 
+padre  Sahagun  que  no  pueden  referirse  esactamente,  y  solo  se  reser- 
+van á  un  lector  curioso  y  profundo:  el  que  tuviere  entendimiento  que 
+entienda,  el  que  tuviere  alma  sensible  que  llore...  ¡Pobre  humanidad 
+ultrajada!!!  Su  idioma  es  el  de  la  sencillez,  anticuado  y  propio  dd 
+quien  no  sabe  esplicar  las  esencias  de  las  cosas  por  sinónimos,  sino 
+con  sus  verdaderos  términos. 
+
+El  P.  Sahagun  ha  llamado  á  juicio  á  nuestros  conquistadores, 
+y  los  ha  llenado  de  rubor  en  el  gran  teatro  del  mundo  filantrópico, 
+donde  solo  aparecen  grandes  y  magnánimos  los  hombres  de  su  tem- 
+ple, los  Casas,  los  Luises  de  Beltran,  los  Motolinias,  y  otros  genios 
+benéficos  cuyos  nombres  nunca  pronunciarán  mis  labios  sin  que  lata 
+mi  corazón  agradecido,  asi  como  jamás  proferirá  el  de  los  Bobadillas, 
+Alvarados  y  Pizarros,  nombres  execrables,  sin  que  les  acompañe  un 
+anatema.  Sin  embargo,  yo  ruego  á  mis  lectores,  distingan  siempre  el 
+gobierno  español  de  sus  subditos,  y  á  la  vez  tiranizados  por  el  mis- 
+mo. -*Qué  idea  no  presenta  hoy  por  hoy  aquella  nación,  sino  la  de 
+un  pueblo  desgraciado  que  ha  luchado  inútilmente  por  ser  libre,  y 
+que  después  de  haber  gozado  del  crepúsculo  alegre  de  una  bella  li- 
+bertad, ha  tornado  segunda  vez  á  la  mas  deplorable  servidumbre?  i  Ojalá 
+españoles,  y  os  vean  mis  ojos  libres  y  felices!  ¡ojalá  reconozca  vues- 
+tro gobierno  obstinado  nuestra  independencia,  para  que  se  rompan  las 
+trabas  que  hoy  nos  impiden  abrazar  mutuamente!  Somos  hermanos 
+por  un  origen,  por  una  religión,  por  unos  mismos  usos,  y  no  debemos 
+estar  divididos:  Dios  nos  dio  el  mundo  hermoso  de  Colon  para  que 
+lo  disfrutemos  en  paz,  y  nuestras  satisfacciones  sean  recíproca?;  lle- 
+gue este  suspirado  dia  de  concordia,  y  descienda  yo  al  sepulcro;  este 
+suelo  dichoso  en  que  boy  habito,  sea  una  nueva  cuna  del  género  hu- 
+jmano,  y  el  asilo  seguro  de  ,1a  libertad  perseguida  por  los  Uranos 
+de  la  Europa. 
+
+
+VIL 
+
+AUTENTICA  DE  ESTA  OBRA. 
+
+Xia  original  historia  general  de  las  antigüedades  de  los 
+indios  de  Nueva  España,  y  parte  del  tiempo  de  la  con- 
+quista, es  bien  sabido  que  fue  el  primer  escritor  el  R.  P. 
+Fr.  Bernardino  de  Sahagun,  uno  de  los  primeros  predicado- 
+res del  santo  evangelio,  y  del  orden  seráfico,  que  á  los 
+principios  de  la  conquista  pasaron  á  aquellos  dilatados  do- 
+minios. Como  esta  original  historia  no  se  dio  á  luz  ni  se 
+imprimió  acaso  por  no  haberse  podido  encontrar  en  el 
+espacio  de  mas  de  dos  siglos,  lamentaron  su  falta  varios 
+escritores  é  historiadores,  que  después  escribieron  las  cosas 
+de  aquella  América:  con  particularidad  nota  la  falta  de  esta 
+obra  el  caballero  Boturiui  en  su  tratado  de  idea  general  &c. 
+
+D.  Juan  Bautista  Muñoz,  oficial  segundo  de  la  secre- 
+taria del  despacho  universal  de  gracia  y  justicia  deludías, 
+cosmógrafo  mayor  de  ellas  nombrado  por  S.  M.  y  sugeto 
+bien  conocido  por  su  literatura  y  erudición,  para  empren- 
+der su  vasta  obra  de  historia  general  de  ludias  de  la  que  ya 
+vemos  el  primer  tomo  que  demuestra  lo  recomendable  de 
+la  obra,  recogió  cuantas  impresas  y  manuscritas  se  habían 
+estendido,  tanto  de  la  América  meridional,  como  de  la  sep- 
+tentrional á  espensas  de  su  activo  zelo  y  conato,  y  de  los 
+reales  auxilios  que  para  ello  se  le  franquearon;  mas  no  en- 
+contrando la  original  historia  de  la  Nueva  España  escrita 
+por  el  R.  P.  Fr.  Bernardino  de  Sahagun,  por  todas  partes 
+la  solicitó,  pasando  á  reconocer  distintos  archivos,  como  el 
+de  Sevilla  donde  sin  duda  debían  encontrarse  buenos  pa- 
+peles, y  obras  de  las  cosas  de   Indias. 
+
+No  encontró  la  que  buscaba  del  P.  Sahagun  ni  tampoco 
+en  el  archivo  de  Simancas;  pero  después  supo  que  el  único  ma- 
+nuscrito que  habia,  obra  del  referido  religioso  misionero,  se 
+hallaba  en  el  convento  de  S.  Francisco  de  Tolosa  de  Navarra, 
+de  donde  efectivamente  la  pudo  estraer,  en  virtud  de  rea- 
+les órdenes  para  que  se  le  entregasen,  y  por  la  amistad  que 
+tengo  con  D.  Juan  Bautista  Muñoz  no  dejando  de  reconocer 
+los  motivos  poderosos  que  tengo  para  pretender  leer,  y  aun 
+
+
+vnr. 
+
+éopiar  la  indicada  obra  del  lJ.  Sahagun,  me  la  ha  facilitado. 
+
+Está  en  dos  volúmenes  gruesos  de  letra  manuscrita, 
+muy  metida,  antigua  y  en  estilo  natural  y  sencillo  del  tiem- 
+po en  que  se  escribió.  Asi  la  he  hecho  copiar  á  la  letra, 
+sin  variar  en  cosa  alguna  de  como  la  escribió  el  autor 
+citado  con  intento  de  que  en  regresándome  á  Nueva  Es- 
+paña tal  vez  podré  conseguir  que  se  dé  á  luz,  y  se  impri- 
+ma en  México,  no  dudando  del  aprecio  que  harán  los  li- 
+teratos y  escritores  de  una  obra  original,  que  hasta  ahora  no 
+se  ha  visto,  por  mas  que  se  ha  solicitado,  y  solo  la  casualidad 
+que  llevo  referida  pudo  facilitarme  esta  obra  tan  apreciable. 
+
+Su  autor  la  escribió  en  doce  libros  divididos  en  dos 
+volúmenes,  que  aun  con  letra  muy  metida  abultaron  mu- 
+cho; y  como  la  copia  en  letra  clara  y  moderna  produci- 
+ría mas  gruesos  los  volúmenes,  la  dispuse  en  tres  que  en- 
+cuadernados tengo  en  mi  poder,  con  la  satisfacción  de  po- 
+seer una  obra  tan  recomendable  y  deseada.  Aun  el  mismo 
+D.  Juan  Bautista  Muño?,  me  advirtió,  que  si  por  casuali- 
+dad se  me  proporcionase  imprimirla  en  México,  procura- 
+se fuese  sin  variar  cosa  alguna  según  la  habia  copiado  de 
+la  original,  porque  así  tendrá  siempre  su  particular  mérito, 
+y  sin  duda  lo  perdería  si  se  variase  la  narración,  y  esti- 
+lo del  principal  autor.  Asi  este  primer  tomo  contiene  cin- 
+co libros  con  sus  apéndices:  el  segundo  tomo  cuatro  libros 
+también  con  apéndices;  y  el  tercer  tomo  tres  libros  lo  mismo. 
+
+La  obra  se  ha  copiado  á  la  letra  y  en  mi  presencia, 
+según  y  como  está  la  original  historia  manuscrita  del  R. 
+P.  Fr.  Bernardino  de  Sahagun,  que  devolví  al  cosmógrafo 
+mayor  de  Indias  D.  Juan  Bautista  Muñoz.  Aunque  me  ha 
+causado  bastante  costo,  dedicación  y  trabajo  por  conseguir 
+esta  copia;  uno  y  otro  lo  he  mirado  con  mucho  agrado  por 
+la  satisfacción  de  poder  llevar  á  Nueva  España  un  ejemplar 
+de  la  historia  tan  deseada  por  los  literatos  y  curiosos,  con 
+el  fin  de  si  allí  se  me  proporciona  imprimirla,  ya  sea  por 
+suscricion,  ó  por  otros  medios;  de  este  modo  consigan  las 
+gentes  tener  esta  obra  que  ha  sido  tan  recomendable  en  es- 
+ta corte  el  hallazgo  de  su  original.  Madrid  2í  de  octubre 
+de  1793.  =zDiego  García  Panes. =: Es  copia  del  original  que 
+cevúñcoz-JSusíamante. 
+
+
+1 
+DOCENO  LIBRO 
+
+QUE    TRATA 
+
+DE  COMO  LOS  ESPAÑOLES  CONQUISTARON  A  LA 
+CIUDAD  DE  MÉXICO. 
+
+Ali  LECTOR, 
+
+*A?ungue  muchos  nan  escrito  en  romance  ux> 
+conguista  ae  esta  t/V ueva  ÓsfiaTuz  Jegun  (a 
+relación  ae  tos  aue  la  conauútaron,  aulseta  yo 
+ejcriuir  en  lengua  meocicanaj  no  tanto  hor  fa* 
+car  atgunas  veraaaej  ae  ta  relación  ae  tos  rnú* 
+mai  indios  atoe  te  ñauaron  en  ta  canauista}  cuan* 
+to  hor  Jwner  ev  tenguaae  ae  ¿as  cosas  ae  ta  guer* 
+ra  u  ae  tas  armas  gue  en  eiia  usan  ios  na<= 
+turaws,  hzra  aue  ae  aili  Je  //incoan  focar  vo^ 
+cautos  u  maneras  ae  aecir,  hrohias  Jtara  na* 
+utar  en  ta  lengua,  7neocicana  acerca  ac  &tta  ?na* 
+teria.    *A/t/égase  tamáien  a  &tto  aue  ios  gue  uie* 
+
+
+a 
+
+ron  conaucjtados  Juhieron  u  dieron  relación  de 
+mucnaá  coáaó  aue  Áataron  entre  evwú  durante 
+wt>  atierra,  ¿aá  cuatei  ¿añoraron  wé  aue  toi  con* 
+auiótaron,  Aor  éaá  cuates  razone*  me  Jiarece  aue 
+no  na  ficto  traftafb  áuherjiuo  et  uauer  ejcrito 
+eáta  notoria,  ta  cual  Je  eóc?<iuió  en  tiemño  aue 
+eran  ihvoó  tos  aue  Je  tíaiuorori  en  la  mioma 
+conauiáta,  u  evíoá  dieron  ejta  relación,  y  herwnaé 
+hrincihaieá  u  de  uuen  Juicio,  u  aue  Je  tiene 
+éwr  cierto  aue  d'Jeron  toda  verdad. 
+
+
+3 
+
+LIBRO  DOCENO. 
+
+DE    LA     CONQUISTA    DE     LA     NUEVA     ESPAÑA    QUE    ES     LA 
+CIUDAD    DE    MÉXICO. 
+
+
+CAPITULO  PRIMERO. 
+
+De  las  señales  y  pronósticos  que  aparecieron  antes  que 
+los  españoles  viniesen  á  esta  tierra,  ni  hubiese  noticia 
+de  ellos,  (a) 
+
+\3\tx  años  antes  que  viniesen  los  españoles  á  esta  tierra 
+pareció  en  el  cielo  una  cosa  maravillosa  y  espantosa,  y  es, 
+que  pareció  una  llama  de  fuego  muy  grande,  y  muy  resplan- 
+deciente: parecía  que  estaba  tendida  en  el  mismo  cielo,  era 
+ancha  de  la  parte  de  abajo,  y  de  la  parte  de  arriba  aguda, 
+como  cuando  el  fuego  arde;  parecía  que  la  punta  de  ella  lle- 
+gaba hasta  el  medio  del  cielo,  levantábase  por  la  parte  del 
+oriente  luego  después  de  la  media  noche,  y  salía  con  tanto 
+resplandor  que  parecía  de  dia;  llegaba  hasta  la  mañana,  en- 
+tonces se  perdía  de  vista:  cuando  salia  el  sol  estaba  la  llama 
+en  el  lugar  que  está  el  sol  á  medio  dia,  esto  duró  por  espa- 
+cio de  un  año  cada  noche;  comenzaba  en  las  doce  casas,  y 
+cuando  aparecía  á  la  media  noche  toda  la  gente  gritaba  y  se 
+espantaba:  todos  sospechaban  que  era  señal  de  algún  gran  mal. 
+La  segunda  señal  que  aconteció  fue,  que  el  chapitel  de 
+un  Cú  (b)de  Vitzilopuchtli,  que  se  llamaba  Tlacoteca,  se  en- 
+cendió  milagrosamente  y  se  quemó:  parecía   que  las  llamas 
+
+(a)  Está  conforme  con  las  relaciones  del  cronista  Herrera  en  el 
+capítulo  octavo  y  noveno  de  sus  decadas  lib.  2.°,  y  solo  falta  aqui  el 
+prodigio  de  la  piedra  habladora  que  mandó  labrar  Moctheeuzoma  para 
+aumentar  los  sacrificios,  que  no  se  dejó  llevar  y  se  hundió  en  la  ace- 
+quia de  san  Antonio  Abad  de  México,  cuyo  hecho  refiere  entre  va- 
+rios D.  Fernando  Alvarado  Tezozomoc.  (Véase  la  vida  de  Moctliecu- 
+zoma oue  publiqué  en  el  Centzontli  escrita  por  mi.) 
+
+(bj     Templo- 
+
+
+4 
+
+de  fuego  salían  de  dentro  de  los  maderos  de  las  columnas,  y 
+muy  de  presto  se  hizo  ceniza:  cuando  ardía  comenzaron  los 
+sátrapas  á  dar  voces  diciendo:  ¡O  mexicanos!  venid  presto  á 
+apagar  el  fuego  con  cántaros  de  agua,  y  venida  el  agua 
+echábanla  sobre  el  fuego  y  no  se  apagaba,  sino  antes  mas  se 
+encendía,  y  así  se  hizo  todo  brasa. 
+
+La  tercera  señal  fue  que  cayó  un  rayo  sobre  el  Cú  de 
+de  Xiuhteoutli,  dios  del  fuego,  el  cual  estaba  techado  con  pa- 
+ja, llamábase  Tzumulco:  espantáronse  de  esto  porque  no  llo- 
+vió sino  agua  menuda,  que  no  suelen  caer  rayos  cuando  asi 
+llueve,  ni  hubo  tronido,  sino  que  no  saben  como  se  encendió. 
+
+La  cuarta  señal,  ó  pronóstico  fue  que  de  día  haciendo 
+sol  cayó  una  cometa,  parecían  tres  estrellas  juntas  que  cor- 
+rían á  la  par  muy  encendidas  y  llevaban  muy  grandes  colas: 
+partieron  de  acia  el  occidente,  y  corrieron  acia  el  erien- 
+te,  iban  echando  centellas  de  sí:  de  que  la  gente  las  vio  co- 
+menzaron á  dar  grita,  y  sonó  grandísimo  ruido  en  toda  la  co- 
+marca. 
+
+La  quinta  señal  fue  que  se  levantó  la  mar,  ó  laguna  de 
+México  con  grandes  olas:  parecía  que  hervía,  sin  hacer  aire 
+ninguno,  la  cual  nunca  se  suele  levantar  sin  gran  viento:  lle- 
+garon las  olas  muy  lejos  y  entraron  entre  las  casas,  sacudían 
+en  los  cimientos  de  las  casas,  algunas  de  estas  cayeron:  fue 
+grande  espanto  de  todos  por  ver  que  sin  aire  se  había  em- 
+bravecido de  tal   manera  el  agua. 
+
+La  sesta  señal,  ó  pronóstico  fue,  que  se  oyó  de  noche 
+en  el  aire  una  voz  de  una  muger  que  decía:  ¡O  hijos  míos,  ya 
+nos  perdemos!  algunas  veces  decia:  ¡O  hijos  mios,  adonde  os 
+llevaré! 
+
+La  séptima  señal  fue  que  los  cazadores  de  las  aves  del 
+agua,  cazaron  una  ave  parda  del  tamaño  de  una  grulla,  y 
+luego  la  fueron  á  mostrar  á  Mocthecuzotna,  que  estaba  en  una 
+sala  que  llamaban  Tiitlancalmecat',  era  después  de  medio  dia: 
+tenia  esta  ave  en  medio  de  la  cabeza  un  espejo  redondo,  don- 
+de se  parecía  el  cielo,  y  las  estrellas,  y  especialmente  los 
+mastelejos  que  andan  cerca  de  las  cabrillas:  como  la  vio  Moc- 
+thecuzoma  espantóse,  y  la  segunda  vez  que  miró  en  el  espe- 
+ja que  tenia  el  ave:  de  ahí  un  poco  vio  muchedumbre  de 
+gente  junta  que  venían  todos  armados  encima  de  caballos,  y 
+
+
+5 
+luego  Moctheeuzoma  mandó  llamar  á  los  agoreros  y  adivinos 
+y  preguntólos,  ¿no  sabéis  que  es  esto  que  he  visto?  que  vie- 
+ne mucha  gente  junta,  y  antes  que  respondiesen  la  adivinos 
+desapareció  el  ave  y  no  respondieron  nada. 
+
+La  octava  señal,  ó  pronóstico  fue,  que  aparecieron  mu- 
+chas veces  monstruos  en  cuerpos  monstruosos,  llevábanlos  á 
+Moctheeuzoma,  y  en  viéndolos  luego  desaparecían. 
+
+CAPITULO  II. 
+
+De  los  primeros  navios  que  aportaron  á  esta  tierra,  que 
+según  dicen  fue  Juan    de  Grijatva. 
+
+La  primera  ve?,  que  parecieron  navios  en  la  costa  de 
+esta  Nueva  España,  los  capitanes  de  Moctheeuzoma  que  se 
+llamaban  Calpixques  que  estaban  cerca  de  la  costa,  luego 
+fueron  á  ver  que  era  aquello  que  venia,  que  nunca  habian 
+visto  navios,  uno  de  los  cuales  fue  el  Calpixque  de  Cuexte- 
+catl  que  se  llamaba  Pinotl:  llevaba  consigo  otros  calpixques 
+uno  que  se  llamaba  Yaot?in,  que  residia  en  el  pueblo  de  Mic- 
+tlanquauhtla,  y  otro  que  se  llamaba  Teo7.inzocatl,  que  resi- 
+dia en  el  pueblo  de  Teociniocan,  y  otro  que  se  llamaba  Cui- 
+tlalpitoc,  este  no  era  calpixque  sino  criado  de  uno  de  estos 
+calpixques,  y  principalejo,  y  otro  principalejo  que  se  llama- 
+ba Tentlil.  Estos  se  fueron  á  ver  que  cosa  era  aquella,  y 
+llevaban  algunas  cosas  para  venderlas,  só  color  de  ver  que 
+cosa  era  aquella:  lleváronlos  algunas  mantas  ricas  que  solo 
+Moctheeuzoma  y  ninguno  otro  las  usaba,  ni  tenia  licencia  para 
+usarlas:  entraron  en  unas  canoas  y  fueron  á  los  navios,  dije- 
+ron entre  sí,  estamos  aquí  en  guarda  de  esta  costa,  convie- 
+ne que  sepamos  de  cierto  que  es  esto,  para  que  llevemos  la 
+nueva  cierta  á  Moctheeuzoma:  entraron  luego  en  las  canoas  y 
+comenzaron  á  remar  hacia  los  navios,  y  como  llegaron  jun- 
+to á  los  navios,  y  vieron  los  Españoles,  besaron  todos  las 
+proas  de  las  naos  en  señal  de  adoración,  pensaron  que  era  el 
+Dios  Quetzalcoatl  que  volvía,  al  cual  estaban  ya  esperando 
+según  parece  en  la  historia  de  este  Dios.  Luego  los  Españo- 
+les los  hablaron,  y  dijeron:  ¿Quien  sois  vosotros?  ¿de  dónde 
+venis?  ¿de  dónde  sois?  Respondieron  los  que  iban  en  las  ca- 
+
+
+noas:  hemos  venido  de  México:  dijéronlos  los  Españoles,  si 
+es  verdad  que  sois  Mexicanos,  decidnos  ¿como  se  llama  e!  se- 
+ñor de  México?  Ellos  respondieron:  señores  nuestros,  llámase 
+Mocthecu/oma,  y  luego  le   presentaron  todo  lo  que  llevaban 
+de  aquellas  mantas  ricas,  al  que  iba  por  general  en  aquellos 
+navios  que  según  dicen  era  Grijalba,  y  los  Españoles   die- 
+ron á  los  Indios  cuentas  de  vidrio,  unas  verdes  y  otras  ama- 
+rillas, y  los  Indios  como  las  vieron  maravilláronse  mucho,  y 
+tuviéronlas  en  mucho,  y  luego  se  despidieron  de  los  Indios 
+diciendo,  ya  nos  volvemos  á  Castilla,  y  presto  volveremos,  y 
+iremos  á  México.  Los  Indios  se   volvieron  á  tierra,  y  luego 
+se  partieron  para  México  donde  llegaron  en  un  dia  y  en  una 
+noche,  á  dar  la  nueva  á  Mocthecuzoma  de  lo  que  habían  visto, 
+y  trajéronle  las  cuentas  que  les  habían  dado  los  Españoles  y 
+dijéronle  de  esta   manera:  señor  nuestro,  dignos  somos   de 
+muerte,  oye  lo  que  hemos  visto,  y  lo  que  hemos  hecho.  Tú  nos 
+pusiste  en   guarda  de  la  orilla  de  la  mar,  hemos  visto   unos 
+dioses  dentro  en  la  mar  y  fuimos  á  recibirlos,  y  dímosles  va- 
+rias mantas  ricas,  y  veis  aqui  estas  cuentas  que  nos  dieron,  y 
+dijéronnos,  si  es  verdad  que  sois  mexicanos,  veis  aqui  estas 
+cuentas  dadlas  á  Mocthecuzoma  para  que  nos  conozca,  y  dijé- 
+ronle todo  le  que  habia  pasado  cuando  estuvieron  con   ellos 
+en  la  mar  en  los  navios.  Respondióles  Mocthecuzoma  y  díjo- 
+les:  venis  cansados  y  fatigados,  idos  á  descansar,  yo  he  reci- 
+bido esto  en  secreto,  y  os  mando  que  no  digáis  nada  de  lo 
+que  ha  pasado. 
+
+CAPITULO  III. 
+
+De  lo  que  Mocthecuzoma  proveyó  después  que  oyó  las  nueva» 
+de  los  que  vieron  los  primeros  navios. 
+
+Como  hubo  oido  Mocthecuzoma  las  nuevas  de  los  que 
+vinieron  de  la  mar,  mandó  luego  llamar  al  mas  principal  de 
+ellos  que  se  llamaba  Cuextecatl,  y  los  demás  que  habían  ve- 
+nido con  la  meusageria,  y  mandólos  que  pusiesen  guardas,  y 
+atalayas  en  todas  las  estancias  de  la  ribera  de  la  mar,  la 
+una  se  llamaba  Naulitlantoztlan,  otra  Mútlanquactla,  para 
+qup  mirasen  cuando  volviesen  aquellos  navios  para  que  lúe- 
+
+
+7 
+go  diesen  relación.  Con  esto  se  partieron  los  Calpixques  y 
+capitanes,  y  mandaron  luego  poner  atalayas  en  las  dichas 
+estancias,  y  Mocthecuzoma  juntó  luego  sus  principales  los 
+nías  privados,  y  los  comunicó  las  nuevas  que  habían  llegado,  y 
+mostrólos  las  cuentas  de  vidrio  que  habían  traído  los  men- 
+sageros  y  díjolos:  pareceme  que  son  piedras  preciosas,  guár- 
+dense mucho  en  la  recámara,  no  se  pierda  ninguna,  y  si  al- 
+guna se  perdiere  pagarla  han  los  que  tienen  cargo  de  guar- 
+dar la  recámara.  Desde  ahí  á  un  afio,  en  el  aflo  de  trece 
+conejos,  (c)  vieron  en  la  mar  navios  los  que  estaban  en  las  ata- 
+layas y  luego  vinieron  á  dar  noticia  á  Mocthecuzoma  con 
+gran  priesa.  Como  oyó  la  nueva  Mocthecuzoma  despachó  gen- 
+te para  el  recibimiento  de  Quctzalcoutl,  porque  pensó  que 
+era  el  que  venia,  porque  cada  dia  le  estaban  esperando,  y 
+como  tenia  relación  que  Quetzalcoatt  había  ido  por  la  mar 
+acia  el  oriente,  y  los  navios  venían  de  acia  el  oriente,  por 
+esto  pensaron  que  era  él:  envió  cinco  principales  á  que  le 
+recibiesen  y  le  presentasen  un  gran  presente  que  le  envió. 
+De  los  que  fueron  el  mas  principal  de  ellos  se  llamaba  Yalliz- 
+ehan;  el  segundo  Tepuzlrcatl,  el  tercero  Tizaoa,  el  cuarto 
+Vevetecatl,  el  quinto   Veicaznecatlhtca, 
+
+CAPITULO  IV. 
+
+De  lo  que  proveyó  Mocthecuzoma  cuando  supo  la  segunda 
+vez  que  los  Españoles  habían  vuelto,  este  fue  D.  Her- 
+nando  Cortés. 
+
+A  los  sobredichos  habló  Mocthecuzoma  y  les  dijo:  mi- 
+rad que  han  dicho  que  ha  llegado  nuestro  señor  Quetzal- 
+coatí,  id,  y  recibirle,  y  oid  lo  que  os  dijere  con  mucha  dili- 
+gencia: mirad  que  no  se  os  olvide  natía  de  lo  que  os  dijere, 
+veis  aquí  estas  joyas  que  le  presentéis  de  mi  parte,  que  son 
+todos  los  atavíos  sacerdotales  que  á  él  convienen:  primera- 
+mente  una  máscara   labrada  de  musaico  de   turquesas,  tenia 
+
+(c)  SeRun  Boturini  fue  el  año  de  onee  Tochlli  ó  conejos,  de  lo 
+que  se  infiere  que  el  cálculo  de  este  está  errado,  y  lo  confirma  el 
+que  Veitia  que  lo  conocía,  vivió  con  el,  y  fue  au  albacea,  dice,  que 
+contaba  fiado  en  su  memoria. 
+
+
+8 
+esta  máscara  labrada  de  las  mismas  piedras  una  culebra  do- 
+blada  y  retorcida  cuyo  doblez  era  el  pico  de  la  nariz,  lue- 
+go se  dividia  la  cola  de  la  cabeza,  y  la  cabeza  con  parte  del 
+cuerpo  iba  por  sobre  el  un  ojo  de  manera  que  hacia  ceja,  y 
+la  cola  con  parte  del  cuerpo  iba  por  sobre  otro  ojo,  y  hacia 
+otra  ceja.  Estaba  esta  máscara  engerida  en  una  corona  al- 
+ta y  grande,  llena  de  plumas  ricas,  largas  y  muy  hermosas, 
+de  manera  que   poniéndose  la  corona   sobre   la   cabeza   se 
+ponia   la  máscara  en  la  cara:  llevaba  p(r  joyel  una  medalla 
+de  oro    redonda  y  ancha:   estaba    asida   con  nueve  sarta- 
+les de  piedras  preciosas,  que    echadas    al  cuello  cnbrian 
+los  hombros  y  todo  el   pecho;  llevaban  también  una  rodela 
+grande   bordada  de   piedras  preciosas  con   unas  bandas  de 
+oro,  que  llegaban  de  arriba  á  abajo  por  toda  ella,  y  otras 
+bandas   de   perlas  atravezadas  sobre  las  de  oro  de  arriba 
+abajo  por  toda  ella,  y  los  espacios  que   hacian  estas   bandas 
+los   cuales  -eran  como  mallas  de  red,  iban  puestos   unos  za- 
+pitos de  oro.  Tenia  esta  rodela   unos  rapaeejos  en  lo  bajo, 
+iba  asida  en   la  misma  rodela  una  bandera  que  salia  desde 
+la   manija  de  la  rodela,  hecha  de  plumas  ricas:  llevaba  tam- 
+bién una  medalla  grande   hecha  de  obra  de   musaico  que 
+la  llevaba  atada  y  ceñida  sobre  los  lomos;  llevaban   también 
+unos  sartales  de   piedras   preciosas   con  unos  cascabeles  de 
+oro  entre  puestos  á  las  piedras  para  atar  á  la  garganta  de 
+los  pies:  llevaban   también   un  cetro  de  obispo  todo   labra- 
+do de  obra  de   musaico  de  turquesas,  y  la  vuelta  de  arri- 
+ba era  una   cabeza  de   una   culebra   revuelta  ó  enroscada. 
+También  llevaban  unas  cotaras  (d)  como  los  grandes  señores  se 
+las  suelen   poner:  2.°  llevaron  también  los  ornamentos  ó  ata- 
+vios  con  que  se  ataviaba    Tezcatlipoca  que  era  una  cabe- 
+llera  hecha  de   pluma    rica,  que  colgaba  por   la   parte  de 
+atrás  hasta   cerca   de  la  cintura  y  estaba   sembrada  toda  de 
+estrellas  de  oro:  llevaban  también  unas  orejeras  de  oro:  lle- 
+vaban  colgados  unos  cascabelitos  de  oro,  y  sartales  de  ca- 
+racolitos  marinos  blancos  y  hermosos.  De  estos  sartales  col- 
+gaba  un   cuero   que  era  corno  peto,  y  llevábale  ceñido  de 
+manera  que  cubria  todo  el  pecho  hasta  la  cintura:  lleva- 
+
+(d)    Especie  de  calzado. 
+
+
+9 
+
+ba  este  peto,  muchos  caracolitos  sembrados  y  colgados  por 
+todo  él:  llevaban  también  uo  coselete  de  tela   blanca   pinta- 
+do, la  orilla  de  abajo  de  este  coselete  iba  bordada  con  plu- 
+mas blancas  en  tres  listas  por  todo  el  rededor:  llevaban  una 
+manta   rica,  la  tela   de  ella  era  un  azul   claro  y  toda   labra- 
+da encima  de  muchas   labores  de   un  azul   muy   fino:  esta 
+manta  se   ponia    por  la  cintura   atada    por    las  esquinas  al 
+cuerpo,    sobre  esta   manta  iba  una  medalla  de  musaico  ata- 
+da al  cuerpo  sobre  los  lomos:  también   llevaban   unos  sar- 
+tales de  cascabeles  de  oro   para  atar  á  las  gargantas  de  los 
+pies,  y   también  unas  cotaras   blancas  como  los  señores  las 
+solian  traer.  Llevaron  también   los  ornamentos  y  atavíos  del 
+dios  que  llamaban  Tlalocantecutli,  que  era  una  máscara  con 
+su  plumage,  y  una  bandera  como  la  que  se  dijo  arriba:  tam- 
+bién unas  orejeras  de  Chalchivitl  anchas  que  tenia  dentro 
+unas  culebras  de  Chalchivites,  y  también  un  coselete  pinta- 
+do  de   labores  verdes  y   unos  sartales  ó  collar  de    piedra» 
+preciosas,  y  también  una  medalla  con  que  se  cenia  los  lo- 
+mos, como   la  que  arriba  se   dijo  con    una    manta  rica  con 
+que  se  cenia  como  también  arriba  se  dijo,  y  cascabeles  de  oro 
+para  ponerá  los  pies,  y  su  bítculo  (1)  como  el  de  arriba.  Otros 
+ornamentos  también  que  llevaban  eran  del  mismo  Quetzalcoatl 
+una  mitra  de  cuero  de    tigre,   y   colgaba   de  la   mitra  una 
+capilla  grande  hecha  de   plumas  de  cuervo:  llevaba  la  mi- 
+tra un   chalchivitl  grande   y   redondo  en   la   punta,  y  tam- 
+bién  unas  orejeras   redondas   de   musaico  de  turquesas  con 
+un  garabato  de  oro  que  llamaban    EcacnzcatU  y  una  man- 
+ta rica  con  que  se  cenia,  y  unos  cascabeles  de   oro  para  los 
+pies,  y   una  rodela  que  tenia   en  el  medio  una  plancha  de 
+oro  redonda,  la  cual  rodela  estaba  bordada  con  plumas  ricas. 
+En   lo  bajo   de   la   rodela  salia   una  banda   de   plumas  ricas 
+en  la  forma  que  se  dijo  arriba:  llevaba    un   báculo  labrado 
+de  musaico   de   turquesas,  y  en    la  vuelta  de   arriba   pues- 
+tas unas  piedras  ricas  ó  perlas  eminentes.  En  lo  alto  de  arri- 
+ba  también    llevaban   unas   cotaras   como   los   señores  solian 
+traer;  todas  estas  cosas   llevaban    los    mensageros  y    las  pre- 
+sentaron  según   dicen  á  D.  Hernando  Cortés.  Otras  muchas 
+cosas  le   presentaron   que  no  se  escriben,  como  fue  una   mi- 
+tra de  oro  hecha  á  manera  de  caracol   marisco  con  unos 
+
+3 
+
+
+10 
+
+rapacejos  de  plumas  ricas  que  colgaban  acia  las  espaldas, 
+y  otra  mitra  llana  también  de  oro  y  otras  joyas  de  oro  que 
+no  se  escriben  (2).  Todas  estas  cosas  metieron  en  sus  petacas 
+y  tomada  la  licencia  de  Mocthecuzoma  díjoles:  „Jd  con  pri* 
+sa  y  no  os  detengáis',  id  y  adorad  en  mi  nombre  al  dios 
+que  viene,  y  decidle,  acá  nos  envía  vuestro  siervo  Mocthe- 
+cuzoma, estas  cosas  que  aqui  traimos  os  envía,  pues  ha* 
+beis  venido  á  vuestra  casa  que  es  México."  Tomaron  luego 
+el  camino  los  mtn>ageros  y  llegaron  á  la  orilla  de  la  mar  y 
+alli  entraron  en  caflas  (3),  y  llegaron  á  un  lugar  que  se  llama 
+JCicahmco:  de  alli  tornaron  otra  vez  á  entrar  en  otras  cañas 
+con  todo  su  hato,  y  llegaron  á  los  navios*  luego  les  pre- 
+guntaron de  los  navios:  ¿Quién  sois  vosotros,  de  donde 
+habéis  venido?  dijeron  los  de  la  canoa:  venimos  de  México, 
+y  dijeron  los  de  la  nao:  ¿Por  ventura  no  sois  de  México, 
+sino  que  decís  con  falsedad  que  sois  de  México,  y  nos  en- 
+gañáis? y  sobre  esto  tomaron  y  dieron,  y  de  que  se  satisfaeie- 
+ron  los  unos  á  los  otros,  juntaron  la  canoa  con  el  navio  y  he- 
+cháronles  una  escalera  con  que  subieron  al  navio  donde 
+estaba  D.  Hernando  Cortés.  (4) 
+
+CAPITULO  V. 
+
+De  lo  que  pasó  cuando  los  mensajeros  de   Mocthecuzoma 
+entraron  en  el  navio  de  D.  Hernando   Cortés, 
+
+Comenzaron  á  subir  al  navio  por  las  escaleras,  y  lleva- 
+ban el  presente  que  Mocthecuzoma  les  mandó  llevar.  Co- 
+mo estuvieron  delante  del  capitán  D.  Hernando  Cortés  be- 
+saron todos  la  tierra  en  su  presencia,  y  habláronle  de  es- 
+ta manera:  ,,Sepa  el  diosa  quien  venimos  á  adoraren  perso» 
+na  de  su  siervo  Mocthecuzoma,  el  cual  le  rige  y  gobierna 
+la  ciudad  de  México,  y  dice  ha  llegado  con  trabajo  el  dios" 
+y  luego  sacaron  los  ornamentos  que  llevaban,  y  se  los  pu- 
+sieron al  capitán  D.  Hernando  Cortés  ataviándoie  con  ellos: 
+pusiéronle  primeramente  la  corona  y  máscara  que  arriba  se 
+dijo,  y  todo  lo  demás:  echáronle  al  cuello  los  collares  de 
+piedras  que  llevaban  con  los  joyeles  de  oro,  y  pusiéronle 
+en  el  hrazo  izquierdo  la  rodela  que  se  dijo  arriba  y  todas 
+
+
+11 
+
+las  demás  cosas  se  las  pusieron  delante  ordenadas  como  sue- 
+len poner  sus  presentes.  El  capitán  dijo:  ;hay  otra  cosa  mas 
+que  esto?  dijéronle,  señor  nuestro,  no  hemos  traido  mas  co*as 
+que  estas  que  aquí  están.  El  capitán  mandólos  luego  atar, 
+(5)  y  mandó  soltar  tiros  de  artillería,  y  los  mensageros  que 
+estaban  atados  de  pies  y  manos  como  oyeron  los  truenos  de 
+las  bombardas  cayeron  en  el  suelo  como  muertes,  y  los  Es- 
+pañoles levantáronlos  del  suelo,  y  dieronlos  á  beber  vino 
+con  que  los  esforzaron  y  tornaron  en  sí.  Después  de  esto 
+el  capitán  D.  Hernando  Cortés  les  dijo  por  su  intérprete: 
+oid  lo  que  os  digo:  hanme  dicho  que  los  mexicanos  son  va- 
+lientes hombres,  que  son  grandes  conquistadores  y  grandes 
+luchadores,  y  son  muy  diestros  en  las  armas;  dícenme  que  un 
+solo  mexicano  es  bastante  para  vencer  á  diez  y  á  veinte 
+de  sus  enemigos,  quiero  probaros  si  es  esto  verdadero,  y  si 
+sois  tan  fuertes  como  me  han  dicho;  luego  les  mandó  dar 
+espadas  y  rodelas  para  que  peleasen  con  otros  tantos  Es- 
+pañoles, para  ver  quien  vencería  á  los  otros,  y  los  Mexi- 
+canos dijeron  luego  al  capitán  Cortés:  óiganos  vuestra  mer- 
+ced nuestra  escusa,  porque  no  podemos  hacer  lo  que  nos 
+manda,  y  es  porque  Moothecuzoma  nuestro  señor  no  nos 
+envió  á  otra  cosa  sino  á  saludaros,  y  daros  este  presente; 
+no  podemos  hacer  otra  cosa,  ni  podemos  hacer  lo  que  nos 
+mandáis,  y  si  lo  hiciésemos  enojarse  ha  nuestro  señor  Moc- 
+thecuzoma,  y  mandarnos  á  matar,  y  el  capitán  respondió- 
+les: hace  de  hacer  en  tolo  caso  lo  que  os  digo,  tengo  de 
+ver  que  hombres  sois,  que  allá  en  nuestra  tierra  hemos 
+oido  que  sois  valientes  hombres,  aparejaos  con  esas  armas, 
+y  disponeos   para   que    mañana    nos   veamos  en  el  campo. 
+
+CAPITULO  VI. 
+
+De  como  los  mensageros  de  Mocthceitzoma  volvieron  á  Mé- 
+xico con   la  relación  de  lo  que  habían   visto. 
+
+Hecho  lo  que  está  dicho,  luego  se  despidieron  del  ca- 
+pitán y  se  bajaron  á  sus  canoas,  y  comenzaron  luego  á  ir- 
+se acia  tierra  rentando  con  gran  prisa,  y  diciendo  los  unos 
+á  los  otros:  ea   valientes  hombres!  esforzaos  á  remar  antes 
+
+
+12 
+
+que  nos  acontezca  algo.  Llegaron  muy  presto  al  pueblo  de 
+Xicalanco  remando,  allí  comieron  y  descansaron  bien  poco, 
+y  luego  entraron  otra  vez  en  las  canoas,  y  remando  con  gran 
+prisa  llegaron  al  pueblo  que  se  llama  Tecpant/ayacacf  y  de 
+alli  comenzaron  á  caminar  por  tierra  corriendo  con  gran 
+prisa,  y  llegaron  al  pueblo  que  se  llama  Cuetlaxtla,  (e)  allí 
+comieron  y  descansaron  poco,  y  los  del  pueblo  les  rogaban 
+que  descansasen  siquiera  un  dia:  ellos  respondieron  que  no 
+podían,  porque  iban  con  gran  prisa  á  hacer  saber  á  Moc- 
+thecuzoma  lo  que  habian  visto,  cosas  muy  nuevas  y  nunca 
+vistas,  ni  oidas,  las  cuales  ninguno  otro  podia  decir;  y  ca- 
+minando con  gran  prisa  de  noche  y  de  dia,  llegaron  á  Mé- 
+xico de  noche.  En  el  tiempo  que  estos  mensageros  fueron 
+y  volvieron  Mocthecuzoma  no  podia  comer  ni  dormir,  ni 
+hacia  de  buena  gana  ninguna  cosa,  sino  que  estaba  muy 
+triste  y  sospiraba  espesas  veces;  estaba  con  gran  congoja, 
+ninguna  cosa  de  pasatiempo  le  daba  placer,  ninguna  cosa 
+le  daba  contento  y  decia:  ¿qué  será  de  nosotros?  ¿quién  ha 
+de  sufrir  estos  trabajos?  ¿cómo  es  capaz?  Llegando  los  men- 
+sageros á  donde  estaba  la  guardia  de  Mocthecuzoma  di- 
+jéronlos:  aunque  duerma  nuestro  señor  Mocthecuzoma  dis- 
+pertadle y  decidle,  que  somos  venidos  de  la  ribera  de  la 
+mar  donde  nos.  envió;,  luego  los  de  la  guardia  le  dijeron 
+aquello,  y  el  respondió»  No  quiero  oir  aquí  las  nuevas  que 
+traen,  allá  quiero  irá  la  sala,  allá  me  hablarán,  vayanse  allá, 
+y  luego  mandó  que  untasen  con  greda  todo  el  cuerpo  á 
+ciertos  capitanes  para  sacrificarlos.  Los  mensageros  friéron- 
+se á  la  sala,  y  también  Mocthecuzoma  se  fue  allá,  y  allí  de- 
+lante los  mensageros  mataron  á  los  cautivos,  y  rociaron  á 
+los  mensageros  con  la  sangre  de  los  cautivos:  hicieron  esta 
+ceremonia  porque  habian  visto  grandes  cosas,  y  habian  vis* 
+tp  á  los  dioses  y  hablado  con  ellos» 
+
+
+(o)     Hoy   se  llama  Cotaxta. 
+
+
+13 
+
+CAPITULO  VIL 
+
+De  la  relación  que  dieron  á  Mocthecuzoma  los  mensageros 
+que   volvieron  de  los  navios. 
+
+Hecho  lo  que  arriba  es  dicho,  dieron  la  relación  á  Moc- 
+thecuzoma de  todo  lo  que  habian  visto  y  oido,  y  dieron 
+la  relación  de  la  comida  que  comían,  y  de  las  armas  que 
+usaban,  y  de  todo  lo  que  les  aconteció  con  los  españoles. 
+Oída  por  Mocthecuzoma  la  relación  que  le  dieron  sus  embaja- 
+dores espantóse  mucho  y  comenzó  á  temer:  maravillóse  de  la 
+comida  de  los  Españoles,  y  de  oir  el  negocio  de  la  artille- 
+ría, especialmente  de  los  truenos  que  quiebran  las  orejas, 
+y  del  hedor  de  la  pólvora  que  parece  cosa  infernal,  y  del 
+iuego  que  echan  por  la  boca,  y  del  golpe  de  la  pelota  que 
+desmenuza  un  árbol  de  golpe;  y  de  la  relación  que  le  die- 
+ron de  las  armas  muy  fuertes  que  usaban  asi  ofensivas  co- 
+mo defensivas,  como  son  coseletes,  cotas,  celadas  &c,  espa- 
+das, ballestas,  arcabuces  y  lanzas  &c,  también  de  la  rela- 
+ción de  los  caballos  y  de  la  grandeza  de  ellos,  y  cómo  su- 
+bían en  ellos  los  Españoles  armados  que  no  se  les  parecía 
+mas  que  la  cara,  y  de  cómo  tenían  las  caras  blancas  y  los 
+ojos  garzos,  y  los  cabellos  rojos  y  las  barbas  largas,  y  de  co- 
+mo venían  algunos  negros  entre  ellos  que  tenían  los  cabe- 
+llos crespos  y  prietos:  también  dieron  relación  de  los  per- 
+ros que  traían  y  de  la  manera  que  eran,  y  de  la  ferocidad 
+que  mostraban,  y  de  la  color  que  tenían.  Oída  esta  rela- 
+ción, Mocthecuzoma  espantosc^y  comenzó  á  temer,  yá  des- 
+mayarse,  y   á  sentir  gran  angustia. 
+
+CAPITULO  VIII. 
+
+De   romo  Mocthecuzoma  envió  sus  encantadores  y  malefi- 
+líos,  pura  que  e?npeciesen  á  tos  espuñoles* 
+
+Después  de  lo  arriba  dicho  luego  Mocthecuzoma  juntó 
+algunos  adivinos  y  agoreros  y  algunos  principa  lejos,  y  los 
+envió  al  puerto   donde  estaban   los  Españoles  para  que  pro- 
+
+
+fté 
+
+curasen  que  no  les  faltase  comida  y  todo  lo  que  demandasen, 
+y  para  que  mirasen  diligentemente  para  que  le  diesen  la 
+relación  de  todo  lo  que  pasase,  y  envió  con  ellos  algunos 
+cautivos  para  que  sacrificasen  delante  del  Dios  que  venia, 
+si  viesen  que  convenia,  y  si  demandasen  sangre  para  beber. 
+Fueron  aquellos  embajadores  y  llegaron  á  donde  estaban  los 
+españoles,  y  ofreciéronles  tortillas  rociadas  con  sangre  hu- 
+mana. Como  vieron  los  españoles  aquella  comida,  tuvieron 
+grande  asco  de  ellas,  y  comentaron  á  escupir  y  abominarla 
+porque  hedía  el  pan  con  la  sangre;  esto  se  hizo  por  manda- 
+do de  Mocthecuzoma,  y  él  lo  mandó  hacer  porque  tenia 
+que  aquellos  eran  Dioses  que  venian  del  cielo,  y  los  negros 
+pensaron  que  eran  Dioses  negros;  todos  ellos  comieron  el 
+pan  blanco  que  llevaban  sin  sangre,  y  los  huevos  y  aves,  y 
+la  fruta  que  los  presentaron,  y  recibieron  también  comida 
+para  los  caballos.  Envió  Mocthecuzoma  aquellos  adivinos, 
+agoreros  y  nigrománticos,  para  que  mirasen  si  podrían  ha- 
+cer contra  ellos  algún  encantamiento  ó  hechicería,  para  con 
+que  enfermasen  ó  muriesen,  ó  se  volviesen,  y  estos  hicie- 
+ron todas  sus  diligencias  como  Mocthecuzoma  les  habia 
+mandado  contra  los  Españoles;  pero  ninguna  cosa  les  apro- 
+vechó ni  tuvo  efecto,  y  asi  se  volvieron  á  dar  las  nuevas  á 
+Mocthecuzoma  de  lo  que  habia  pasado,  y  dijéronle  que 
+aquella  gente  que  habian  visto  era  muy  fuerte,  y  que  ellos 
+no  eran  nadie  para  contra  ellos.  Luego  Mocthecuzoma  en- 
+vió otros  mensageros  y  embajadores  principales  y  calpix- 
+ques, para  que  fueran  donde  estaban  los  Españoles,  y  man- 
+dólos só  pena  de  la  muerte,  que  con  gran  diligencia  procu- 
+rasen todo  lo  que  les  fuese  necesario  á  los  Españoles,  asi 
+para  en  la  mar  como  para  en  la  tierra.  Fueron  estos  mensa- 
+geros con  gran  priesa  é  hicieron  todo  lo  que  Mocthecuzoma 
+les  mandó:  por  todo  el  camino  procuraban  de  proveer  á  los 
+Españoles  de  todo  lo  necesario,  y  servíanlos  con  gran  di- 
+ligencia. 
+
+
+15 
+
+CAPITULO  IX. 
+
+Del  llanto  que  hizo  Moctheruzoma  y  todos  los  mexicanos 
+de  que  supieron  que  los  Españoles  eran  tan  esforzados. 
+
+Oídas  las  cosas  de  arriba  dichas  por  Mocthecuzoma, 
+concibió  en  sí  un  sentimiento  de  que  venían  grandes  males 
+sobre  él  y  sobre  su  reino,  y  comenzó  á  temer  grandemente 
+no  solamente  é!,  pero  todos  aquellos  que  supieron  aquestas 
+nuevas  ya  dichas.  Todos  lloraban  y  se  angustiaban,  y  andaban, 
+tristes  y  cabizbajos,  hacían  corrillos,  y  hablaban  con  espan- 
+to de  las  nuevas  que  habían  venido;  las  madres  llorando  to- 
+maban en  brazos  á  sus  hijos,  y  trayéndoles  la  mano  sobre 
+la  cabeza  decían:  ¡ó  hijo  mió!  ¡en  mal  tiempo  has  nacido, 
+qué  grandes  cosas  haz  de  ver,  en  grandes  trabajos  te  haz 
+de  hallar!  Fue  dicho  á  Mocthecnzoma  como  los  Españoles 
+traían  una  india  mexicana  que  se  llamaba  Maria,  vecina  del 
+pueblo  de  Tetivpac  que  está  á  la  orilla  de  la  mar  del  Nor- 
+te, y  que  traían  esta  por  intérprete,  que  decia  en  la  lengua 
+mexieana  todo  lo  que  el  capitán  D.  Hernando  Cortés  le 
+mandaba.  Luego  Mocthecuzoma  comenzó  á  enviar  mensa- 
+geros  y  principales  á  donde  estaban  los  Españoles  para  que 
+mirasen  lo  que  se  hacia,  y  procurasen  lo  que  fuese  menes* 
+ter  al  servicio  de  los  Españoles.  Cada  dia  iban  unos  y  vol* 
+vían  otros,  no  paraban  mensageros  que  iban  y  volvian,  y  los 
+Españoles  no  cesaban  de  preguntar  por  Mocthecuzoma, 
+queriendo  saber  qué  persona  era,  si  era  viejo,  ó  si  era  mo- 
+zo, ó  si  era  de  media  edad,  ó  si  tenia  canas.  Respondían 
+los  Indios  mexicanos  á  los  Españoles,  hombre  es  de  media 
+edad,  no  es  viejo  ni  es  gordo,  es  delgado  y  enjuto.  Cuando 
+oia  Mocthecuzoma  la  relación  de  los  mensageros,  como  los 
+Españoles  preguntaban  mucho  por  él,  y  que  deseaban  mu- 
+cho de  verle,  angustiábase  en  gran  manera,  pensó  de  huir 
+ó  de  esconderse  para  que  no  le  viesen  los  Españoles  ni  le 
+hallasen:  pensaba  esconderse  en  alguna  cueva,  ó  de  salirse 
+de  este  mundo  y  irse  al  infierno  ó  ni  paraíso  terrenal,  ó 
+á  cualquiera  otra  parte  secreta,  y  esto  trataba  con  sus  ani- 
+gos,  aquellos  de  quien   se  confiaba,  y  ellos  le  decían:   hay3 
+
+
+16 
+
+quien  sepa  el  camino  para  ir  al  infierno  y  también  al  pa- 
+raíso terrenal,  y  á  la  casa  del  sol,  y  á  la  cueva  que  se  fla- 
+ma Cincalco,  que  está  cabe  á  Tlacuyoacan,  detras  de  Cha- 
+pultepec  que  hay  grandes  secretos,  en  uno  de  estos  luga- 
+res se  podrá  V.  M.  remediar:  escoja  V.  M,  el  lugar  que 
+quisiere  que  allí  le  llevaremos,  y  alli  se  consolará  sin  reci- 
+bir ningún  daño.  Mocthecuzoma  se  inclinó  á  irse  á  la  cue- 
+va de  Cincalco,  y  asi  se  publicó  por  toda  la  tierra;  pe- 
+ro no  tuvo  efecto  este  negocio,  ninguna  cosa  de  lo  que  di- 
+jeron los  nigrománticos  se  pudo  verificar,  y  asi  Mocthe- 
+cuzoma  procuró  de  esforzarse,  y  de  esperar  á  todo  lo  que 
+viniese,  y  de  ponerse  á  todo  peligro. 
+
+CAPITULO  X. 
+
+De  como  los  Españoles  comenzaron  a  entrar  la  tierra 
+adentro,  y  de  como  Mocthecuzoma  dejó  la  casa  real  y 
+se  fue  á  su  casa  propia. 
+
+Mocthecuzoma  teniendo  ya  por  averiguado,  asi  por  las 
+cosas  que  habia  oido  de  los  Españoles  como  por  los  pronós- 
+ticos que  habían  pasado,  y  profecías  antiguas  y  modernas 
+que  tenían,  que  los  Españoles  habian  de  reinar  en  esta 
+tierra,  salióse  de  las  casas  reales  y  fuese  á  las  casas  que  él 
+tenia  antes  que  fuese  rey  ó  emperador.  De  que  los  Españo- 
+les partieron  de  la  ribera  de  la  mar  para  entrar  la  tierra 
+adentro,  tomaron  un  indio  principal  que  llamaban  Tlaco- 
+chcalcatl  para  que  los  mostrase  el  camino,  al  cual  indio 
+habian  tomado  de  alli  de  aquella  provincia  los  primeros 
+navios  que  vinieron  á  descubrir  esta  tierra,  el  cual  indio 
+el  capitán  D.  Hernando  Cortés  trajo  consigo,  y  sabia  ya  de 
+la  lengua  española  algo.  Este  juntamente  con  Maria  eran 
+intérpretes  del  capitán.  A  este  tomaron  por  guia  de  su  ca- 
+mino para  venir  á  Méjico,  en  llrgaodo  á  la  provincia  de 
+Tecoac  que  es  tierra  de  Tlaxcala:  alli  estaban  poblados  los 
+Otomies  y  gente  de  guerra  que  guardaba  la  frontera  ó  tér- 
+minos de  los  tlaxcaltecas.  Estos  salieron  de  guerra  contra 
+los  Españoles,  quienes  comenzaron  á  pelear  con  ellos,  y 
+los   de   á  caballo  alancearon  muchos,  y  jos  arcabuceros  y 
+
+
+17 
+
+ballesteros  mataron  también  á  muchos,  de  manera  que  des- 
+barataron á  todo  aquel  ejército  que  venia,  y  huyeron  los 
+que  quedaron.  Los  Españoles  tomaron  el  pueblo  y  robaron 
+la  que  hallarou,  y  asi  -destruyeron  aquellos  pueblos.  Como 
+los  de  Tlaxcala  oyeron  lo  que  había  acontecido  á  sus  sol- 
+dados y  otomies,  espantáronse  y  comenzaron  á  temer:  lue- 
+go se  juntaron  á  consejo,  y  confirieron  todos  sobre  el  ne- 
+gocio para  ver  si  saldrían  de  guerra  contra  los  Españoles 
+6  si  se  darían  de  paz,  y  dijeron:  sabemos  que  los  otomies 
+son  muy  valientes  y  pelean  reciamente  y  todos  son  des- 
+truidos, ninguna  resistencia  hubo  en  ellos,  que  en  un  abrir  y 
+cerrar  de  ojos  los  destruyeron;  ¿qué  podemos  hacer  noso- 
+tros? ¿será  bien  que  los  recibamos  de  paz  y  los  tomemos 
+por  amigos?  esto  es  mejor  que  no  perder  toda  nuestra  gen- 
+te, y  asi  acordaron  los  señores  de  Tlaxcala  de  recibirlos 
+de  paz  y  tomarlos  por  amigos.  Salieron  luego  los  señores  y 
+principales  con  gran  multitud  de  tamemes  cargados  de  co- 
+mida de  todas  maneras.  Llegando  á  ellos  saludaron  de  paz 
+á  D.  Hernando  Cortés,  y  él  los  preguntó  diciendo  ¿de  dón- 
+de sois  vosotros?  ellos  dijeron,  somos  de  la  ciudad  de  Tlax- 
+cala, y  venimos  á  recibiros  porque  nos  holgamos  de  vues- 
+tra venida:  habéis  llegado  á  nuestra  tierra,  seáis  muy  bien 
+venidos,  es  vuestra  casa  y  vuestra  tierra  donde  estáis,  que 
+se  llama  Quauhtexcalla.  La  ciudad  que  ahora  se  llama 
+Tlaxcala,  antes  que  viniesen  los  Españoles  se  llamaba  Tex~ 
+caí  la. 
+
+CAPITULO  XI. 
+
+De  como  los  Españoles  llegaron  á   Tlaxcalla,   que  enton- 
+ces se   llamaba  Texcalla. 
+
+Los  señores  y  principales  de  Tlaxcala  metieron  en  su 
+ciudad  á  los  españoles  recibiéndolos  de  paz:  lleváronlos 
+luego  derechos  á  1as  casas  reales:  alli  los  aposentaron  y  los 
+hicieron  muy  buen  tratamiento  administrándoles  las  cosas 
+necesarias  con  gran  diligencia,  y  también  les  dieron  á  sus 
+hijas  doncellas  muchas,  y  ellos  las  recibieron,  y  usaron  de 
+ellas  como  de  sus  mugeres:  luego  el  capitán  comenzó  á  pre- 
+guntar por  México  diciendo  ¿donde  está  México?  ¿está  le- 
+
+4 
+
+
+18 
+
+jos  de  aqui?  dijéronle,  no  está  lejos,  está  andadura  de  tres 
+días,  es  una  ciudad  muy  populosa,  y  los  habitantes  de  ella 
+son  valientes  y  grandes  conquistadores,  en  todas  partes  ha- 
+cen conquista.  Los  tlaxcaltecas  y  cholultecas  no  eran  ami- 
+gos, tenian  entre  sí  discordia,  y  como  los  querían  mal  di- 
+jeron mal  de  ellos  á  los  Españoles  para  que  los  raalti*ata- 
+sen:  dijéronlos  que  eran  sus  enemigos  y  amigos  de  los  me- 
+xicanos, y  valientes  como  ellos.  Los  Españoles  oídas  estas 
+nuevas  de  Cholulla  propusieron  de  tratarlos  mal  como  lo 
+hicieron;  partieron  de  Tlaxcalla  todos  ellos  y  con  muchos 
+zempoaltecas  y  tlaxcaltecas  que  los  acompañaron  todos  con 
+sus  armas  de  guerra:  llegando  todos  á  Chollula,  los  cholul- 
+tecas no  hicieron  cuenta  de  nada,  ni  los  recibieron  de  guer- 
+ra ni  de  paz,  estuviéronse  quedos  en  sus  casas.  De  esto 
+tomaron  mala  opinión  de  ellos  los  Españoles,  y  conjeturaron 
+alguna  traición,  y  comenzaron  luego  á  dar  voces  á  los 
+principales  y  señores,  y  toda  la  otra  gente  para  que  vinie- 
+sen donde  estaban  los  Españoles,  y  ellos  todos  se  juntaron 
+en  el  patio  del  gran  Cú  de  Quetzatcoatl.  Estando  allí  jun- 
+tos los  Españoles  afrentados  de  la  poca  cuenta  que  habian 
+hecho  de  ellos  entraron  á  caball  >,  habiendo  tomado  todas 
+las  entradas  del  patio,  y  comenzaron  á  lancearlos  y  mata- 
+ron todos  cuantos  pudieron,  y  los  amigos  indios  de  creer 
+es  que  mataron  muchos  mas.  Los  cholultecas  ni  llevaron 
+armas  ofensivas  ni  defensivas,  sino  fuéronse  desarmados  pen- 
+sando que  no  se  haría  lo  que  se  hizo:  de  esta  manera  mu- 
+ri  ron  mala  muerte  (6).  Todas  estas  cosas  que  acontecie- 
+ron, luego  que  ocurrieron  los  me  usa  ge  ros  de  Mocthecu- 
+y.oma  se  las  venían  á  decir:  todo  el  camino  andaba  lleno 
+de  mensageros  de  acá  para  allá,  y  de  allá  para  acá,  y  toda 
+la  gente  acá  en  México  y  donde  venían  los  españoles,  y 
+en  todas  las  comarcas,  andaba  muy  alborotada  y  desaso- 
+segada ,  parecía  que  la  tierra  se  movia,  todos  andaban 
+espantados  y  atónitos ;  y  como  hubieron  hecho  en  Cho- 
+lulla aquel  estrago  los  Españoles  con  todos  los  Indios  sus 
+amigos,  venían  gran  multitud  de  escuadrones  con  gran  rui- 
+do y  con  gran  polvoreda,  y  de  lejas  resplandecían  las  ar- 
+mas, y  causaban  gran  miedo  en  los  que  las  miraban:  asimismo 
+ponían  grande  miedo   los  lebreles  que  traían  consigo,  que 
+
+
+19 
+
+eran  grandes,  traían  las  bocas  abiertas,  las  lenguas  saca- 
+das, y  venían  carleando,  y  asi  ponían  gran  temor  en  todos 
+los  que   lo  veían  (7). 
+
+CAPITULO  XII. 
+
+De  como  Mocthecuzoma  envió  á  uno  muy  principal  suyo 
+con  otros  muchos  principales  que  fueron  á  recibir  á 
+los  Españoles,  y  hicieron  un  gran  presente  al  capitán  en 
+medio   de  la  Sierra  nevada  y  el  volcan. 
+
+Cuando  supo  Mocthecuzoma  que  los  Españoles  habían 
+partido  de  Cholulla  y  que  venían  camino  de  México,  des- 
+pachó luego  á  un  principal  suyo  el  rnas  principal  de  su 
+corte  que  se  llamaba  Tzioarpupuca,  y  con  ellos  otros-  mu 
+chos  principales  y  otra  mucha  gente  para  que  fuesen  á  re- 
+cibir á  los  Españoles,  y  diólos  un  presente  de  oro  que  lle- 
+vasen. Partiéronse  de  México  y  encontráronse  con  los  Es- 
+pañoles en  las  dos  sierras,  que  es  la  Nevada  y  el  volcan; 
+allí  los  recibieron  y  presentaron  el  présenle  de  oro  que  lle- 
+vaban, y  según  que  á  los  Indios  les  pareció  por  las  seña- 
+les esteriores  que  vieron  en  los  Españoles,  holgáronse  y  re- 
+gocijáronse con  el  oro,  mostrando  que  lo  tenian  en  mucho; 
+y  como  vieron  al  principal  Tzioacpupuca  preguntaron  á 
+los  que  con  ellos  venían  tlaxcaltecas  y  zempoaltecas  secre- 
+tamente si  era  aquel  Mocthecuzoma,  y  dijeroules  que  no 
+era  él,  que  era  un  principal  suyo  que  se  llamaba  Tzioarpu- 
+cnpa.  y  después  preguntaron  al  mismo  principal  si  era  él 
+Mocthecuzoma.  y  dijo  que  sí,  que  él  era  Mocthecuzoma,  y 
+dijéronle  vete  de  ahi  que  mientes  que  no  eres  Mocthecuzo- 
+ma, ¿piensas  de  engañarnos?  ¿piensas  que  somos  algunos  ne- 
+cios? no  nos  podrás  engañar,  ni  Mocthecuzoma  se  nos  po- 
+drá esco"der  por  mucho  que  haga,  aunque  sea  ave,  y  aun- 
+que se  meta  debajo  de  tierra  no  se  nos  podrá  esconder:  de 
+verle  habernos,  y  de  oirle  habernos  lo  que  nos  dirá,  y 
+luego  con  afrenta  enviaron  á  aquel  principal  y  á  todos  los 
+que  con  él  habían  venido,  y  ellos  se  volvieron  á  México, 
+y  contaron  á  Mocthecuzoma  lo  que  habia  pasado  con  los 
+españoles.   (8) 
+
+* 
+
+
+2a 
+
+CAPITULO  XIIL 
+
+JBe  como  Mocthecuzoma  envió  otros  hechiceros  con.  los  espa- 
+ñoles, y  de  lo  que  aconteció  en  el  camino. 
+
+Como  supo  Mocthecuzoma  que  ya  veníanlos  Españo- 
+les camino  de  México,  enviólos  al  encuentro  muchos  sátra- 
+pas de  los  ídolos,  agoreros  y  encantadores,,  y  nigrománti- 
+cos, para  que  con  sus  encantamientos  y  hechicerías  los  em- 
+peciesen y  maleficiesen,  y  no  pudieron  hacer  nada,  ni  sus 
+encantamientos  los  pudieron  empecer,  ni  aun  llegaron  á. 
+ellos;,  porque  antes  que  llegasen  á  ellos  toparon  con  un 
+borracho  en  el  camino  y  no  pasaron  adelante:  parecióles  que 
+era  un  indio  de  Chalco^  y  también  parecíales  que  estaba 
+borracho.  Traia  ceñido  á  los  pechos  ocho  cabestros,  ó  sogas 
+hechas  de  heno  como  de  esparto,,  y  venia  de  acia  donde 
+estaban,  los  españoles,  y  llegando  cerca  de  ellos  comenzó 
+con*  grande  enojo  á  reñirlos  y  díjolos:  ¿Para  qué  porfiáis 
+vosotros  otra  vez  de  venir  acá.?  ¿Qué  es  lo.  que  queréis? 
+¿Qué  piensa  Mocthecuzoma.  de  hacer?  ¿Ahora  acuerda  á 
+despertar?  ¿Ahora  comienza  á  temer?  ya  ha  errado,,  ya  no 
+tiene  remedio  porque  ha  hecho  muchas  muertes  injustas, 
+ha  destruido  á  muchos,  ha  hecho  muchos  agravios  y  enga- 
+ños,, y  burlas.  Como  vieron  este  hombre  los  encantadores 
+temieron  mucho,  y  postráronse  delante  de  él,  y  comenza- 
+ron á  rogarle  é  hicieron  un  montón  de  tierra,  como  altar, 
+y  echaron  heno  verde  encima  para  que  se  sentase,  y  él 
+como  hombre  enojado,  no  quiso  sentarse  ni  hacer  lo  que  le 
+rogaban,  ni  aun  mirarlos,  por  demás  hicieron  el  altar  ó 
+asiento;  mas  antes  se  enojó  y  mas  brava  y  mas  reciamen- 
+te los  refiia  con  grandes  voces,,  y  con  gran  denuedo  les  di- 
+jp::  por  demás  habéis  venido,  nunca  mas  haré  cuenta  de 
+México,  para  siempre  os  dejo,  no  tendré  mas  cargo  de  vo- 
+sotros, ni.  os  ampararé,  apartaos  de  mí,,  lo  que  queréis  no  se 
+puede  hacer,  volveos-  y  mirad  acia  México.  Coma  vieron 
+aquello-  los  encantadores  desmayaron  grandemente,. y  na  pu- 
+lüfr.onv  hablar  palabra,  hízoseles-  un<  nudo  en  la  garganta;. 
+«&tth  aconteció  en>  la  cuesta  que  sube  acia  Tlalmanalcoí  he-r 
+
+
+21 
+
+cho  esto  desapareció  aquel  que  les  hablaba,  y  volviendo 
+en  sí  dijeron,  esto  que  hemos  visto  convenia  que  lo  viera 
+Mocthecuzoma  y  no  nosotros  este  que  nos  ha  hablado  no 
+es  persona  humana,  es  el  Dios  Tezcaiiipoca.  Estos  men- 
+sageros  no  curaron  de  ir  mas  adelante^  sino  volvieron  á  dar 
+relación  á  Mocthecuzoma  de  lo  que  habia  pasado.  Venidos 
+los  mensageros  á  la  presencia  de  Mocthecuzoma,  y  oido  lo 
+que  dijeron  entristecióse  mucho,  estaba  cabiz-bajo,  no  ha- 
+blaba, estaba  enmudecido  casi  fuera  de  sí;  á  cabo  de  rato 
+díjoles:  ¿Pues  qué  hemos  de  hacer  varones  nobles!  Ya  es- 
+tamos para  perdemos,  ya  tenemos  tragada  ¿a  muerte,  no 
+hemos  de  subirnos  á  afgana  sierra?  ni  hemos  de  huir,  me- 
+xicanos somos,  ponernos  hemos  á  lo  que  viniese  por  la  hon- 
+ra de  la  generación  mexicana;  pésame  de  los  viejos  y 
+viejas,  y  de  los  niños  y  niñas-  que  no  tienen  posibilidad 
+ni  discreción  para  valerse^  ¿dónde  ¿os  escaparán  sus  pa- 
+dres? ¿Pues  qué  hemos  de  hacer?  JVacidos  somos r  venga 
+lo  que  viniere* 
+
+CAPITULO  XIV. 
+
+De  como  Mocthecuzoma  mandó   cerrar  los   caminos  por- 
+que los  Españoles  no  llegasen  á  México, 
+
+Habiendo  oido  Mocthecuzoma  todas  estas  cosas,  y  vien- 
+do que  venian  los  Españoles  derechos  á  México,  mandó 
+cerrar  los  caminos  por  donde  habían  de  venir,  mandó  plan- 
+tar magueyes  en-  ellos  y  que  los  llevasen  acia  Te/cuco. 
+Los  Españoles  conocieron  el  cerramiento  de  los  caminos 
+y  tornáronlos  ¿abrir,  y  echaron  por  ahí  los  magueyes  con- 
+que estaban  cerrados,  durmieron  en  Jlmaquemecan,  (f)  y  otro 
+dia  partieron  de  allí  y  llegaron-  á  Cuillahuac,  (g)  y  en  el  pue- 
+do de  Cuitluhuae  1).  Hernando-  Cortés  mandó  llamar  ato- 
+dos  los  señores  que  estaban  en  Chinanpan,  Xochimilcn, 
+Mizquic  y  todos  los  pueblos  de  la  Chinan pa,  allí  los  ha- 
+bió diciendolos  la  razón  de  su  venida.  Esta  plática  oyeron 
+los  de  Tlalmanalco  en  Arnaquemecaiij  de  allí  se   partieron 
+
+(f)    Hoy  ¿imecameca*. 
+,     (g)     Hoy    Tlahua, 
+
+
+22 
+para  Itztapalapan ,  pueblo  que  dista  de  México  dos  le- 
+guas. Llegados  allí  D.  Hernando  Cortés  hizo  juntar  á  los 
+principales  que  se  llamaban  JVauhtcrutli  que  son  Itztapa- 
+lapan, Mexicatzineo,  Coyohuacan,  Vitzilopuchcox  (h)  allí 
+los  habló  de  la  manera  que  á  los  otros,  (i)  ellos  se  mostraron 
+de  paz  y  hablaron  como  amigos.  Mocthecuzoma  en  todo  es- 
+to ninguna  cosa  de  guerra  proveyó,  ni  mandó  que  se  hi- 
+ciese enojo  ninguno:  mas  antes  proveyó  que  fuesen  pro- 
+veídos de  todo  lo  necesario  antes  que  llegasen  á  México. 
+Estando  los  Españoles  en  Itztapalapan  ninguno  de  los  me- 
+xicanos fue  á  verlos,  ni  osaban  salir  de  sus  casas  ni  andar 
+los  caminos,  todos  estaban  amedrentados  de  lo  que  habían 
+oído  que  los  Españoles  habían  hecho  por  todo  el  camino: 
+estaban  esperando  la  muerte,  y  de  esto  hablaban  entre  sí 
+diciendo:  ¿Qué  habernos  de  hacer  vaya  por  donde  fuere? 
+Ya  es  venido  el  tiempo  en  que  hemos  de  ser  destruidos, 
+esperemos  aqui  la  muerte. 
+
+CAPITULO   XV. 
+
+De   como  los  Españoles  partieron    de  Itztapalapan  para 
+entrar  en   México. 
+
+Partieron  los  Españoles  de  Itztapalapan  todos  adere- 
+zados á  punto  de  guerra  y  en  su  ordenanza  por  escuadro- 
+nes: fueron  algunos  de  á  caballo  delante  á  descubrir  si  ha- 
+bía alguna  celada;  llevaban  también  dos  lebreles  delante: 
+iba  en  la  retaguardia  D.  Hernando  Cortés  con  otros  mu- 
+chos Españoles  todos  armados  y  en  su  ordenanza,  tras  ellos 
+iba  el  bagage  y  la  artillería  en  sus  carretones;  iban  mu- 
+chos Indios  de  guerra  con  todas  sus  armas,  muchos  tlax- 
+caltecas, y  Huexotzincas:  de  esta  manera  ordenados  entraron 
+en  México.  En  todo  lo  restante  de  este  capítulo  no  se  dice 
+otra  cosa  sino  la  orden  que  llevaban  los  Españoles  y  los 
+Indios  amigos  cuando  entraron  en  México  (9). 
+
+(h)     Hoy  se  llama    Churubusco. 
+
+(i)  En  estos  razonamientos  les  hablaba  de  D.  Garfas  de  Jíusfria 
+y  de  sus  grandezas,  concepto  que  él  mismo  desmentía  mostrándose 
+ávido  del  oro:  el  que  tiene  que  comer  en  su  casa  no  mendiga  en  la 
+agena  ni  la  roba. 
+
+
+23 
+
+CAPITULO  XVI. 
+
+De  como  Moethecuzoma  salió  de  paz  á  recibir  á  los  Es- 
+pañoles á  donde  llaman  Xoluco,  que  es  en  el  acequia 
+que  está  cabe  las  casas  de  Mvarado  un  poco  mas  acá 
+que  llaman  ellos  VitzMan* 
+
+En  llegando  los  Españoles  á  aquel  rio  que  está  cabe 
+(f)  las  casas  de  Alvarado  que  se  llama  Xoluco,  luego  Moe- 
+thecuzoma se  aparejó  para  irlos  á  recibir  con  muchos  se- 
+ñores y  principales,  y  nobles  para  recibir  con  paz  y  con 
+honra  á  D.  Hernando  Cortés,  y  á  los  otros  capitanes;  toma- 
+ron muchas  flores  hermosas  y  olorosas  hechas  sartales,  y  en 
+guirnaldas,  y  compuestas  para  las  manos,  y  pusiéronlas  en 
+platos  muy  pintados  y  muy  grandes  hechos  de  calabazas, 
+y  también  llevaron  collares  de  oro  y  de  piedras.  Llegando 
+Moethecuzoma  á  los  Españoles  al  lugar  que  llaman  Fi7- 
+zillan  que  es  cabe  el  hospital  de  la  Concepción,  luego  allí 
+el  mismo  Moethecuzoma  puso  un  collar  de  oro  y  de  pie- 
+dras al  capitán  D.  Hernando  Cortés,  y  dio  flores  y  guir- 
+naldas á  todos  los  demás  capitanes;  habiendo  dado  el  mis- 
+mo Moethecuzoma  este  presente  como  ellos  lo  usaban  ha- 
+cer, luego  D.  Hernando  Cortés  preguntó  al  mismo  Moe- 
+thecuzoma, y  Moethecuzoma  respondió:  yo  soy  Moethecu- 
+zoma, y  entonces  enhiéstase  delante  del  capitán  haciéndo- 
+le gran  reverencia,  y  enhiéstese  (g)  luego  de  cara  á  cara 
+del  capitán  cerca  de  él,  y  comenzóle  á  nablar  de  esta  ma- 
+nera. ,,¡0  señor  nuestro!  seáis  muy  bien  venido,  habéis  llega- 
+do á  vuestra  tierra  y  á  vuestro  pueblo,  y  á  vuestra  casa 
+México:  habéis  venido  á  sentaros  en  vuestro  trono  y  en 
+vuestra  silla,  el  cual  yo  en  vuestro  nombre  he  poseído 
+algunos  dias.  Otros  señores  (que  ya  son  muertos)  le  tuvieron 
+antes  que  yo,  el  uno  que  se  llama  Itzcoatl,  el  otro  Moethe- 
+cuzoma el  viejo,  y  el  otro  Axayaeatl,  y  el  otro  Tízoc, 
+y  el   otro  Ahuitzotl.  Yo  el  postrero  de  todos  he   venido  á 
+
+(f)  Junto,  ó  cerca  de  las  casan. 
+
+(g)  Ponerse  derecho  y  con  semblante   lleno  de  dignidad. 
+
+
+24 
+
+tener  cargo  y  regir  este  vuestro  pueblo  de  México,  todos 
+hemos  traído  acuestas  á  vuestra  república,  y  á  vuestros  va- 
+saltos,  los  difuntos  ya  no  pueden  ver  ni  saber  lo  que  ahora 
+pasa;  ¡pluguiera  aquel  por  quien  vivimos  que  alguno  de  ellos 
+fuera  vivo,  y  en  su  presencia  aconteciera  lo  que  acontece 
+en  la  mía!  Ellos  están  ausentes  señor  nuestro,  ni  estoy  dor- 
+mido, ni  soñando,  con  mis  ojos  veo  vuestra  cara  y  vuestra 
+persona:  dias  ha  que  yo  esperaba  esto:  dias  ha  que  mi  co- 
+razón estaba  mirando  aquellas  partes  por  donde  habéis  venido; 
+habéis  salido  de  entre  las  nubes,  y  de  entre  las  nieblas, 
+lugar  á  todos  escondido.  Esto  es  por  cierto  lo  que  nos  de- 
+jaron dicho  los  reyes  que  pasaron,  que  habíais  de  volver  á 
+reinar  en  estos  reinos,  y  que  habiades  de  asentaros  en  vues- 
+tro trono,  y  en  vuestra  silla:  ahora  veo  que  es  verdad  lo 
+que  nos  dejaron  dicho.  Seáis  muy  bien  venido,  trabajos  ha- 
+bréis pasado  viniendo  tan  largos  caminos,  descansad  ahora, 
+aquí  está  vuestra  casa  y  vuestros  palacios,  tomadlos  y  des- 
+cansad en  ellos  con  todos  vuestros  capitanes  y  compañe- 
+ros que  han  venido  con  vos."  (10)  Acabó  Mocthecuzoma 
+de  decir  su  plática,  y  Marina  dec'arola  á  D.  Hernando 
+Cortés;  como  este  hubo  entendido  lo  que  habia  dicho  Moc- 
+thecuzoma, dijo  k  Marina: ,, Decidle  á  Mocthecuzoma  que  se 
+consuele  y  huelgue  y  no  haya  temor,  que  yo  le  quiero 
+mucho  y  todos  los  que  conmigo  vienen,  y  de  nadie  recibi- 
+rá daño:  hemos  recibido  gran  contento  en  verle  y  cono- 
+cerle, lo  cual  hemos  deseado  muchos  dias  há  y  se  ha  cum- 
+plido nuestro  deseo:  hemos  venido  á  su  casa  México,  de 
+espacio  nos  veremos,  y  hablaremos."  Luego  D.  Hernando  Cor- 
+tés tomó  por  la  mano  á  Mocthecuzoma^  y  se  fueron  am- 
+bos juntos  á  la  par  para  las  casas  reales.  (11)  Los  señores 
+que  se  hallaron  presentes  con  Mocthecuzoma  fueron  los  si- 
+guientes: el  señor  de  Texcoco,  que  se  llamaba  Cacamatzini 
+el  2.°  el  señor  de  Tlacupan  que  se  llamaba  Tetlepanquet- 
+zatzin:  el  3.°  el  que  gobernaba  en  el  Tlatiluico  que  se  lla- 
+maba Itzquauhtzin:  el  4.°  el  mayordomo  de  Mocthecuzo- 
+ma que  tenia  puesto  en  el  Tlatiluico  que  se  llamaba  To- 
+pan témoctzin.  Estos  fueron  mas  principales,  sin  otros  mu- 
+chos menos  principales  Mexicanos  que  allí  se  hallaron,  el 
+uno  de  los  cuales  se  llamaba  Jltlixcatzintlacateccatl,  el  otro 
+
+
+25 
+
+T'peoatzintlaeochculcatl,  el  otro  Quetzalaztatzinticociaoa- 
+catl,  otro  Totomochtzinhecatempaiittzin,  el  otro  Quappiat- 
+zin;  todos  estos  cuando  fue  preso  Mocthecuzoma  le  des- 
+ampararon y  se  escondieron. 
+
+CAPITULO  XVII. 
+
+De  como  los   Españoles  con  Mocthecuzoma  llegaron  á  las 
+casas  reales  y  de  todo  lo  que   allí  pasó. 
+
+De  que  los  Españoles  llegaron  á  Jas  casas  reales  con 
+Mocthecuzoma,  luego  le  detuvieron  consigo  (12)  nunca  mas 
+le  dejaron  apartar  de  sí,  y  también  detuvieron  consigo  á 
+Itcuauhtzin  gobernador  del  Tlatilulco:  á  estos  dos  detuvie- 
+ron consigo,  y  á  los  demás  dejaron  ir,  y  luego  soltaron 
+todos  los  tiros  de  pólvora  que  traian,  y  con  el  ruido  y 
+humo  de  los  tiros  todos  los  Indios  que  allí  estaban  se  pa- 
+raron como  aturdidos  y  andaban  corno  borrachos;  comen- 
+zaron á  irse  pur  diversas  partes  muy  espantados,  y  así  los 
+presentes  como  los  ausentes  cobraron  un  espanto  mortal. 
+Durmieron  aquella  noche,  y  otro  dia  luego  muy  de  maña- 
+na comenzóse  á  pregonar  de  parte  del  capitán  y  de  par- 
+te de  Mocthecuzoma  que  se  trajesen,  todas  las  cosas  ne- 
+cesarias para  los  Españoles  y  para  los  caballos,  y  Moc- 
+thecuzoma ponia  mucha  diligencia  en  que  trajesen  todas 
+las  cosas  necesarias,  y  los  Piles  y  dchcau/itles,  y  otros 
+oficiales  á  quien  concernía  esta  provisión,  no  querían  obe- 
+decer á  Mocthecuzoma,  ni  llegarse  á  él;  pero  con  todo  es- 
+to proveían  de  todo  lo  necesario.  De  que  se  hubieron  apo- 
+sentado los  Españoles  y  concertado  todo  su  repuesto  y  re- 
+posado, comenzaron  á  preguntar  á  Mocthecuzoma  por  el 
+tesoro  real  para  que  dijese  donde  estaba,  y  el  los  llevó  á 
+una  sala  que  se  llamaba  leuhcalco,  donde  tenían  los  pluma- 
+ges  ricos,  y  otras  muchas  joyas  ricas  de  pluma  y  de  oro 
+y  de  piedras,  y  luego  lo  sacaron  delante  de  ellos.  Comen- 
+zaron los  Españoles  á  quitar  el  oro  de  las  plumas  y  de 
+las  rodelas  y  de  los  otros  atavíos  del  areyto  que  alli  es- 
+taban, y  por  quitar  el  oro  destruyeron  todos  los  plunia- 
+ges  y  joyas  ricas,  y   el   oro  fundiéronlo  é  luciéronlo  barre- 
+
+5 
+
+
+26 
+tas,  y  las  piedras  que  les  parecieron  bien  tomáronlas,  y  las 
+piedras  bajas  y   plurnages,    todo   lo   tomaron    los  Indios   de 
+Tiaxcala,  y   escudriñaron   los  Españoles   tuda  la  casa  real 
+y  tomaron   todo  lo  que   les  pareció  bien  (13). 
+
+CAPITULO  XVIII. 
+
+De  como  ios  Españoles  entraron  en  las  propias  casas  de 
+Moctheeuzoma,  y  de  lo  que  alli  pasó. 
+
+Hecho  todo  lo  de  arriba  dicho,  procuraron  de  saber 
+la  recámara  de  Moctheeuzoma  y  él  los  llevó  á  su  recá- 
+mara que  se  llamaba  Totocalco,  que  quiere  decir,  la  casa 
+de  las  aves,  y  iban  los  Españoles  muy  regocijador  por  pen- 
+sar que  allí  hallarían  mucho  oro,  y  llegando  luego  sacaron 
+toda  la  recámara  del  mismo  Moctheeuzoma,  donde  habia 
+muchas  joyas  de  oro  y  plata,  y  de  piedras  preciosas,  y  to- 
+do lo  tomaron,  y  á  los  plurnages  ricos  quitáronlos  todo  el  oro, 
+y  las  piedras,  y  pusieron  las  plumas  en  medio  del  patio 
+para  que  las  tomasen  sus  amigos,  y  luego  mandó  el  capi- 
+tán D.  Hernando  Cortés  por  medio  de  Marina  que  era  su 
+intérprete,  la  cual  era  una  India  que  sabia  la  lengua  cas- 
+tellana y -mexicana  que  la  tomaron  en  Yucatán:  esta  comen- 
+zó á  llamar  á  voces  á  los  tecutles  y  piles  mexicanos  pa- 
+ra que  viniesen  á  dar  á  los  Españoles  lo  necesario  para 
+comer,  y  nadie  osaba  venir  delante  de  ellos,  ni  llegarse  á 
+ellos,  todos  estaban  atemorizados  y  espantados:  enviábanles 
+lo  necesario  para  comer  y  los  que  lo  llevaban  iban  tem- 
+blando, en  poniendo  la  comida  no  paraban  mas  allí,  y  luego 
+se  iban  casi  huyendo. 
+
+CAPITULO  XIX. 
+
+De  corno  los  Españoles  mandaron  á  los  Indioi  hacer  la 
+fiesta  de  Vitzilopnchtli,  esto  fue  en  ausencia  del  capi- 
+tán cuando  fue  al  puerto  por  la  venida  de  Panfilo  de 
+Narvacz. 
+
+Habiéndose  partido  el  capitán  D.  Hernando  Cortés 
+para  el  puerto  á  recibir  á  Panfilo   de   Narvacz,  dejó   en 
+
+
+27 
+su  lugar  á  D.  Pedro  de  Alvarado  con  los  Españoles  que 
+quedaron  aquí  en  México,  el  cual  en  ausencia  del  capi- 
+tán persuadió  á  Mocthecuzoma  para  hacer  la  fiesta  de  Vit- 
+zilopuchtli  porque  queriau  ver  como  hacían  aquella  so- 
+lemnidad. Mocthecuzoma  mandó  que  se  hiciese  esta  fies- 
+ta para  dar  contento  á  los  Españoles;  aparejáronse  asi  los 
+sátrapas,  ( j)  como  los  principales  para  hacer  la  fiesta.  En  to- 
+da esta  letra  que  se  sigue  no  se  dice  otra  cosa  sino  la 
+manera  como  hacían  la  estatua  de  Vitzilopuchtli  de  masa 
+de  diversas  legumbres  y  como  la  pintaban,  y  como  la  com- 
+ponían, y  como  después  ofrecian  delante  de  ella  muchas 
+cosas;  y  estando  en  esta  solemnidad  haciendo  un  gran  arey- 
+to  muy  ricamente  aderezados  todos  los  principales  en  el 
+patio  grande  del  Cú  de  Vitzilopuchtli  donde  estaba  la  Ima- 
+gen hecha  de  masa  de  bledos,  y  muy  ricamente  ataviada 
+con  muchos  ornamentos  los  cuales  están  en  la  letra  espli- 
+cados,  y  otras  ceremonias  que  se  ponen  en  todo  este  ca- 
+pitulo....(k) 
+
+CAPITULO    XX. 
+
+De  como  los  Espolióles  hicieron  gran  matanza  en  los  In- 
+dios estando  haciendo  la  fiesta  de  Vitzilopuchtli  en  el 
+patio  mismo  de    Vitzilopuchtli, 
+
+Los  Españoles  al  tiempo  que  les  pareció  convenible 
+salieron  de  donde  estaban,  y  tomaron  todas  las  puertas  del 
+patio  para  que  no  saliese  nadie,  y  otns  entraron  con  sus 
+armas  y  comenzaron  á  matar  á  los  que  estaban  en  el  arey- 
+to,  y  á  los  que  tañían  les  cortaban  las  manos  y  las  cabe- 
+zas, y  daban  de  estocadas  y  de  lanzadas  á  todos  cuantos 
+topaban,  y  hicieron  una  matanza  muy  grande,  y  los  que 
+acudían  á  las  puertas  huyendo  de  allí  los  mataban:  algu- 
+nos saltaban  por  las  paredes,  algunos  se  metían  en  las  ca- 
+pillas de  los  Ciíes,  allí  se  echaban  y  se  fingían  muertos, 
+corría  la  sangre  por  el  patio  como  el  agua  cuando  llueve, 
+y    todo  el   patio   estaba   sembrado   de  cabezas  y  brazos,  y 
+
+(j)     Por  sátrapas  entiende  el   autor  sacerdotes  ó   Temacaxtlct, 
+(k)     ••••Se  conoce  que  este  capítulo  está  truncado,  sin  embargo  em 
+el  siguiente  da  idea  de  la  horrible  maldad  cometida  por  los  Españoles. 
+
+
+28 
+tripas,  y  cuerpos  de  hombres  muertos:  por  todos  los  rin- 
+cones buscaban  los  Españoles  á  los  que  estaban  vivos  pa- 
+ra matarlos  Como  salió  la  fama  de  este  hecho  por  la  ciu- 
+dad, comenzaron  á  dar  voces  diciendo  ¡á  la  arma!  ¡á  la 
+ar?naf  y  luego  á  estas  voces  se  juntó  gran  copia  de  gen- 
+te todos  con  sus  armas,  y  comenzaron  á  pelear  contra  los 
+Españoles. 
+
+CAPITULO   XXI. 
+
+De   como  comenzó  la  guerra  entre  los  Mexicanos  y   los 
+Españoles  en    México. 
+
+Como  (i)  comenzó  la  guerra  entre  los  Indios  y  los 
+Españoles,  estos  se  fortalecieron  en  las  casas  reales  con 
+el  mismo  Mocthecuzoma  y  con  Ytzquauhfzin,  el  go- 
+bernador de  Tlatilulco;  los  Indios  los  cercaron  y  los  com- 
+batieron reciamente,  y  los  Españoles  se  defendían  con  los 
+tiros  de  pólvora  y  ballestas  y  escopetas,  y  hacían  gran  da- 
+ño en  los  Indios,  y  luego  echaron  grillos  á  Mocthecuzo- 
+ma, (14)  y  también  los  Indios  comenzaron  á  enterrar  los 
+que  habían  sido  muertos  en  el  patio  por  los  Españoles,  por 
+cuya  muerte  se  hizo  gran  llanto  en  toda  la  ciudad  por- 
+que eran  gente  muy  principal  los  que  habían  muerto.  En- 
+terráronlos en  diversas  partes  según  sus  ritos;  el  mesmo  dia 
+y  á  la  puesta  del  sol  Jtzquauhtzin  gobernador  de  Tlatilulco 
+subióse  sobre  los  tlapancos  de  la  casa  real  y  comenzó  á 
+d  tr  voces  diciendo:  ¡Ah  Mexicanos!  ¡Ah  Tlatilulcos!  mirad 
+que  el  señor  Mocthecuzoma  vuestro  rey  os  ruega  que  ce- 
+seis  de  pelear,  y  dejéis  las  armas  porque  estos  hombres 
+son  muy  fuertes  mas  que  nosotros,  y  si  no  dejais  de  dar- 
+les guerra,  recibirá  gran  daño  todo  el  pueblo  porque  ya 
+han  atado  con  hierro  á  vuestro  rey.  Oídas  estas  voces  por 
+los  Mexicanos  y  Tlatilulcas,  comenzaron  entre  sí  á  bravear, 
+y  maldecir  á  Mocthecuzoma  diciendo  ¿que  dice  el  puto  de 
+Mocthecuzoma  (m)  y  tú  bellaco  con  él?  no  cesaremos  de  la 
+guerra;  luego  comenzaron  á  dar  alaridos  y  á  tirar  saetas 
+
+íl):    Léase,,  luego  que  comenzó. 
+
+(tai)    Hé   aqui  uno  de  los  caracteres  de  verdad  que   no  puede 
+
+
+29 
+y  dardos  acia  donde  estaba  el  que  hablaba  junto  con  Moc- 
+thecuzoma, y  los  Españoles  arrodeláronlos,  y  así  no  recibie- 
+ron dafio.  Tenían  gran  rabia  contra  los  Españoles  porque 
+mataron  á  los  principales  y  valientes  hombres  á  traición, 
+y  por  tanto  tenían  cercadas  las  casas  reales  que  á  nadie 
+dejaban  entrar,  ni  salir,  ni  meter  ningún  bastimento  por- 
+que muriesen  de  hambre,  y  si  alguno  metia  secretamen- 
+te comida  á  alguno  de  los  de  dentro,  los  de  afuera  en  sa- 
+biéndolo luego  los  mataban.  Supieron  los  de  fuera  que  al- 
+gunos Mexicanos  entraban  allá,  y  metían  saetas  secretamen- 
+te, y  luego  pusieron  gran  diligencia  en  guardar  que  na- 
+die entrase  ni  por  tierra,  ni  por  agua,  y  á  los  que  halla- 
+ron culpados  de  haber  metido  algo  matáronlos;  y  luego 
+se  levantó  gran  revuelta  entre  los  Mexicanos,  unos  se  acu- 
+saban á  otros  de  haber  entrado,  y  así  mataron  muchos,  en 
+especial  de  los  serviciales  ó  pages  de  Mocthecuzoma  que 
+traían  bezotes  de  cristal  que  era  particular  librea  ó  se- 
+ñal de  los  de  la  familia  de  Mocthecuzoma,  y  también  á 
+los  que  traían  mantas  delgadas  que  llaman  ayatl  que  era 
+librea  de  los  pages  de  Mocthecuzoma:  á  todos  los  acusa- 
+ban y  decían  que  habían  entrado  á  dar  comida  á  su  señor 
+y  á  decir  lo  que  pasaba  fuera,  y  á  todos  los  mataban,  y  de 
+allí  adelante  hubo  gran  vigilancia  que  nadie  entrase,  y  asi 
+todos  los  de  la  casa  de  Mocthecuzoma  se  huyeron  y  es- 
+condieron porque  no  los  matasen.  Dieron  batería  los  Me- 
+xicanos á  los  Españoles  siete  dias,  y  los  tuvieron  cercados 
+veinte  y  tres  días,  y  en  este  tiempo  ensancharon  y  ahon- 
+daron las  acequias,  y  atajaron  los  caminos  con  paredes,  y 
+hicieron  grandes  baluartes  para  que  no  pudiesen  salir  los 
+Españoles  por  ninguna   parte  (15). 
+
+
+contrahacerse:  el  lenguage  es  indecente,  pero  propio  de  nn  pueblo  en- 
+furecido y  quejogo  de  la  pusilanimidad  de  su  rey  que  los  habia  com- 
+prometido, y  causado  por  ella  iuiinitos  males. 
+
+
+30 
+
+r 
+
+CAPITULO  XXII. 
+
+De  como  llegó  la  nueva  de  que  el  capitán  D.  Hernan- 
+do Cortés  habiendo  vencido  á  Panfilo  de  Narvaez  vol- 
+vía ya  para  México  con  otros  muchos  Españoles  que 
+de   nuevo  habían  venido. 
+
+Estando  las  cosas  como  arriba  se  dijo,  vino  nueva  co- 
+mo el  capitán  i).  Hernando  Cortés  venia  con  muchos  Es- 
+pañoles y  con  muchos  Indios  de  Zempoala  y  de  Tlaxcala, 
+todos  armados  á  punto  de  guerra  con  gran  prisa,  y  los  me- 
+xicanos concertaron  entre  sí  de  esconderse  todos  y  no  los 
+salir  á  recibir  ni  de  guerra  ni  de  paz;  y  los  Españoles  con 
+todos  los  demás  amigos  fuéronse  derechos  acia  las  casas  rea- 
+les donde  estaban  los  Españoles,  y  los  mexicanos  todos  es- 
+taban escondidos  que  no  los  viesen  los  Españoles,  y  esto 
+hacían  por  dar  á  entender  que  ellos  no  habian  comenzado 
+la  guerra;  y  como  entró  el  capitán  con  toda  la  otra  gente 
+en  las  casas  reales,  comenzaron  á  soltar  todos  los  tiros  en 
+alegria  de  los  que  habian  llegado  y  para  atemorizar  á  los 
+contrarios,  y  luego  comenzaron  los  mexicanos  á  mostrarse, 
+y  á  dar  alaridos,  y  á  pelear  contra  los  Españoles  echando 
+saetas  y  dardos  contra  ellos,  y  los  Españoles  asimismo  co- 
+menzaron á  pelear  y  tirar  saetas  y  tiros  de  pólvora;  fue- 
+ron muertos  muchos  de  los  mexicanos,  tiraban  los  Españo- 
+les todos  sus  tiros  muy  certeros  que  nunca  erraban  y  que 
+no  matasen  con  ellos;  y  como  vieron  los  mexicanos  el  daño 
+que  recibían  de  parte  de  los  Españoles  comenzaron  á  cule- 
+brear por  escaparse  de  los  tiros,  y  andar  de  lado:  dieron 
+combate  cuatro  dias  arreo  (m)  á  las  casas  donde  estaban  los 
+Españoles,  y  después  de  estos  cuatro  dias  los  capitanes  me- 
+xicanos escogieron  muchos  soldados  viejos  y  valientes  hom- 
+bres, y  subieron  sobre  un  Cú  el  que  estaba  mas  cerca  de 
+las  casas  reales,  y  subieron  allá  dos  vigas  rollizas  para  des- 
+de alli  echarlas  sobre  las  casas  reales  y  hundirlas  para  po- 
+der entrar.   Visto  esto  los  Españoles,  luego  subieron  al  Cii 
+
+(\n)     Arreo  equivale  á  continuo  y  sin  parar. 
+
+
+31 
+con  mucho  orden,  y  llevaban  sus  escopetas  y  ballestas*  y 
+comenzaron  á  subir  muy  despacio,  y  tiraban  con  las  ba- 
+llestas y  escopetas  á  los  de  arriba:  en  cada  rengle  (ñ) 
+iba  un  escopetero,  y  luego  un  soldado  con  espada  y  rodela, 
+y  luego  un  alabardero:  p*»r  esta  orden  iban  subiendo  al 
+Cú,  y  los  de  arriba  echaban  los  maderos  por  las  gradas  del 
+Cú  abajo,  pero  ningún  daño  hicieron  á  los  Españoles,  y  lle- 
+gando á  lo  alto  del  Cú  comenzaron  á  herir  y  matar  á  los 
+que  estaban  arriba,  y  muchos  de  ellos  se  despeñaban  por 
+el  Cú  abajo:  finalmente,  todos  murieron  los  que  habían  su- 
+bido al  Cú.  Tornáronse  los  Españoles  á  su  fuerte  y  barreá- 
+ronse (o)  muy  bien.  Los  mexicanos  enterraron  á  todos  los 
+que  alli  murieron,  porque  toda  era  gente  principal  y  de 
+mucha  cuenta  en  la  guerra. 
+
+CAPITULO  XXIII. 
+
+De  como  Mocthecuzoma  y  el  gobernador  del  Tlatiluleo 
+fueron  echados  muertos  fuera  de  la  casa  donde  los  Es- 
+pañoles estaban. 
+
+Después  de  lo  arriba  dicho  cuatro  dias  andados  des- 
+pués de  la  matanza  que  se  hizo  en  el  Cú,  hallaron  los  me- 
+xicanos muertos  á  Mocthecuzoma  y  al  gobernador  del  Tla- 
+tiluleo echados  fuera  de  las  casas  reales,  cerca  del  muro 
+donde  estaba  una  piedra  labrada  como  galápago  que  llama- 
+ban Teouioc,  y  después  que  conocieron  los  que  los  hallaron 
+que  eran  ellos,  dieron  mandado  y  alzáronlos  de  alli,  y  lle- 
+váronlos á  un  oratorio  que  llamaban  Calpulco,  y  hiñéron- 
+los alli  las  ceremonias  que  solian  hacer  á  los  difuntos  de 
+gran  valor,  y  después  los  quemaron  como  acostumbraban  ha- 
+cer á  todos  los  señores,  y  hicieron  todas  las  solemnidades 
+que  solian  hacer  en  este  caso;  al  uno  de  ellos  que  era 
+Mocth(  cuzoma  lo  enterraron  en  México  (16)  y  al  otro  en  el 
+Tlatiluleo;  algunos  decian  mal  de  Mocthecuzoma  porque 
+habia  sido  muy  cruel;  los  del  Tlatiluleo  lloraban  mucho  su 
+
+(ñ)     Osea  ringlera  6  fila,    formación  militar. 
+
+(o)    Es  decir  se  fortificaron  con  vigas,  formaron  trincheras. 
+
+
+32 
+
+gobernador  porque  era  muy  bienquisto.  Después  de  algu- 
+nos dias  que  estaban  cercados  los  Españoles  y  que  cada  dia 
+les  daban  guerra,  un  dia  salieron  de  su  fuerte  algunos  de 
+ellos  y  cojieron  de  los  maizales  mazorcas  de  maíz  y  cañas 
+de  maiz,  y  tornáronse  á  su    fuerte,    (p) 
+
+CAPITULO  XXIV. 
+
+De  como  los  Españoles  y  Tlaxcaltecas  salieron  huyendo  de 
+México  de  noche. 
+
+Después  que  los  Españoles  y  los  amigos  que  con  ellos 
+estaban  se  hallaron  muy  apretados,  asi  de  hambre  como  de 
+guerra,  una  noche  salieron  todos  de  su  fuerte,  los  Españo- 
+les delante  y  los  Indios  tlaxcaltecas  detras,  y  llevaban  unas 
+puentes  hechas  con  que  se  pasaban  las  acequias.  Cuando  es- 
+to aconteció  llovia  mansamente,  pasaron  cuatro  acequias,  y 
+antes  que  pasasen  las  demás  salió  una  muger  á  tomar  agua 
+y  viólos  como  se  iban,  y  salió  dando  voces  diciendo:  ¡Ah 
+mexicanos,  ya  vuestros  enemigos  se  van!  esto  dijo  tres  ó 
+cuatro  veces,  luego  uno  de  los  que  velaban  comenzó  á  dar 
+voces  desde  el  Cú  de  Vitzilopiichtli  en  manera  que  todos  le 
+oyeron,  y  dijo:  ¡Ah  valientes  hombres,  ya  han  salido  vues- 
+tros enemigos,  comenzad  á  pelear  que  se  van!  Como  oyeron 
+todos  estas  voces  comenzaron  á  dar  alaridos,  y  luego  co- 
+menzaron á  arremeter  asi  por  tierra  como  por  agua.  Acu- 
+dieron á  un  lugar  que  se  llama  Mictlantoneomacuilcuitla- 
+pilco,  y  alli  atajaron  á  los  Españoles,  los  mexicanos  de  una 
+parte  y  los  del  Tiatilulco  de  otra,  y  alli  comenzaron  á  pe- 
+lear contra  los  Españoles  y  estos  contra  ellos,  y  asi  fue- 
+ron muertos  y  heridos  de  ambas  partes  muchos;  y  lle- 
+gando los  Españoles  á  una  acequia  que  se  llama  Tlanteeayo- 
+can  como  no  pudieron  pasar,  todos  y  les  daban  guerra  por 
+todas  partes,  los  Indios  tlaxcaltecas  cayeron  en  la  acequia 
+y  muchos  de  los  Españoles,  y  las  mugeres  con  ellos,  tan- 
+tos cayeron  que  la  acequia  se  hinchió,  y  los  que  iban  de- 
+tras pudieron  pasar  la  acequia  sobre  los  muertos.    Llegaron 
+
+fpj     Es  decir,  salieron  á  forragear  para  su  caballería. 
+
+
+33 
+á  otra  acequia  que  se  llama  Petlacalco,  y  pasáronla  con  har- 
+ta dificultad:  habiéndola  pasado  allí  se  rehicieron  todos  y 
+se  recogieron,  y  llegaron  á  otro  lugar  que  se  llama  Pupu- 
+tla  (q)  ya  cuando  amanecía,  y  los  mexicanos  seguíanlos 
+con  gran  grita.  Los  Españoles  con  algunos  tlaxcaltecas  iban 
+juntos  por  su  camino  adelante,  y  peleando  los  unos  con  los 
+otros  siguiéronlos  hasta  cerca  de  Tlacupan  hasta  un  lugar 
+que  se  llama  Tilihucan^  y  alli  mataron  al  sr.  de  Tlacu- 
+pan, que  era  hijo  de  Mocthecuzoma:  también  aqui  murió  un 
+principal  que  se  llamaba  Tlaltecutzin,  y  otro  que  se  lla- 
+maba Tepanecatllecutli;  todos  iban  guiando  á  los  Españo- 
+les y  los  enemigos  los  mataron.  Llegaron  los  Españoles  á  un 
+lugar  que  llamaban  Otonitocalco  (r)  alli  se  rocogieron  en 
+el  patio  y  se  refosilaron  porque  los  Indios  mexicanos  ya  se 
+habian  vuelto  á  recoger  al  campo:  alli  los  llegaron  á  re- 
+cibir de  paz  los  otomies  del  pueblo  de  Teucalhuican,  y  los 
+dieron  comida. 
+
+CAPITULO  XXV. 
+
+De  como  los  de  Tecalhuican  (s)  salieron  de  paz  y  con  bas- 
+timentos á  los  Españoles  cuando  iban  huyendo  de  México. 
+
+Estando  los  Españoles  en  este  aposento  arriba  dicho, 
+vinieron  los  otomies  de  Teucalhuican  con  su  principal  que 
+se  llamaba  Otocoatl,  y  trajeron  comida  á  los  Españoles  que 
+estaban  muy  necesitados,  diéronlos  muchas  tortillas  y  ga- 
+llinas asadas  y  cocidas,  y  otras  maneras  de  comida,  y  ha- 
+blaron al  capitán  D.  Hernando  Cortés,  saludándole  de  paz 
+y  rogándole  que  descansasen  y  comiesen.  Entonces  el  ca- 
+pitán los  habló  por  la  lengua  de  Marina  india,  preguntán- 
+dolos de  dónde  eran,  ellos  dijeron  del  pueblo  de  Tacalhuican: 
+luego -informado  el  capitán  de  qué  tan  lejos  estaba  el  pue- 
+blo, díjoles,  mañana  iremos  á  dormir  á  vuestro  pueblo;  ellos 
+hicieron  gracias  porque  quería   ir  á  su  pueblo.    Habiendo 
+
+llegado  el  capitán  con  los  Españoles  y   los  amigos  á   este 
+
+•  ■ 
+
+(<\)     HoyPopotla. 
+
+(v)     Donde   está   el  santuario  de  los  Remedios,  Clavijero  le  llama 
+Otoncalpolco. 
+
+(s)     Parece  que  este  pueblo  se  conoce  hoy  con  el  nombre  de  Jlulx- 
+quilucan.  .    - 
+
+6 
+
+
+34 
+pueblo  ya  dicho,  los  mexicanos  comen7aron  á  sacar  la  gen- 
+te, asi  de  los  Españoles  como  tlaxcaltecas  y  zempoaltecas 
+que  se  habían  ahogado  en  la  acequia  que  se  llamaba  7b/- 
+iecaucalocO)  y  en  la  que  se  llamaba  Petlacalco,  y  en  la 
+que  se  llamaba  Mictlantonco;  sacáronlos,  y  despojáronlos, 
+y  echáronlos  desnudos  por  entre  las  espadañas  y  juncias 
+para  que  allí  los  comiesen  las  aves  y  los  perros:  á  los  Españo- 
+les á  otra  parte  los  echaron  por  sí,  conocíanlos  porque  eran 
+barbados  y  tenían  los  cuerpos  muy  blancos;  también  los 
+caballos  que  se  habían  a  logado  y  todas  las  cargas  que  lle- 
+vaban, todo  lo  desbarataron  y  lo  robaron,  y  todas  las  ar- 
+mas que  hallaron  las  toma-ron;  los  tiros  de  pólvora  tam- 
+bién los  tomaron  y  derramaron  toda  la  pólvora  que  habia. 
+Tomaron  muchas  escopetas,  y  muchas  ballestas,  y  muchas 
+espadas,  y  muchas  alabardas,  y  muchos  capacetes  y  cosele- 
+tes, y  cotas,  y  muchas  adargas  y  ianzas,  y  muchas  rode- 
+las: aqui  también  tomaron  mucho  oro  en  barretas  y  en  va- 
+sijas, y  oro  en  polvo,  y  muchas  joyas  de  oro  y  de  piedras. 
+Comenzaron  luego  á  buscar  por  todas  las  acequias  lo  que  ha- 
+bia caido  de  los  despojos,  asi  de  los  vivos  como  de  los  muer- 
+tos; los  Españoles  que  iban  en  la  vanguardia  solos  se  sal- 
+varon con  los  Indios  que  iban  con  ellosj  y  los  que  iban 
+en  la  retaguardia  todos  murieron,  asi  Indios  como  Indias, 
+y  los  Españoles  y  todo  el  fardage  se  perdió.  Durmieron, 
+los  Españoles  que  se  escaparon  en  un  lugar  que  se  llamaba 
+JÍcueco,  y  de  alli  muy  de  mañana  se  partieron,  y  los  me- 
+xicanos iban  en  su  seguimiento  dándoles  grita  desde  lejos. 
+Llegapon  á  un  lugar  que  se  llama  Calacoayam  que  está  en- 
+cima de  los  cerros,  destruyeron  todo  aquel  pueblo,  y  des- 
+cendieron acia  los  llanos  que  se  llamaban  Tizapan,  y  lue- 
+go comenzaron  á  subir  acia  el    pueblo   de    Teucalhuican* 
+
+
+CAPITULO  XXVI. 
+
+
+He  como  los  Españoles  llegaron  al  pueblo  de    Teuealhui- 
+can>  y  del  buen  tratamiento  que  alli  los  hicieron. 
+
+Llegados  los  Españoles  al  pueblo  de  Teuealhuican  an- 
+tis, de  medio*  dia,.  fueron  muy  bien  recibidos  de  los  oto- 
+mies  cuyo  era  aquel  pueblo,  y  diéronlos  luego  mucha  coini- 
+
+
+35 
+da,  la  cual  tenían  aparejada:  regocijáronlos  y  recreáronlos 
+mucho  asi  á  ellos,  como  á  todos  los  que  con  ellos  iban,  y  tam- 
+bién á  los  caballos  dándolos  cuanto  habían  menester,  y  ellos 
+tenían.  Los  ótomies  de  Tlaxcaltecas  que  se  escaparon  de  la 
+guerra  conociéronse  con  los  de  Teucalhuican  porque  eran 
+todos  parientes,  y  desde  el  pueblo  de  Teucalhuican,  habían 
+ido  á  poblar  á  Tlaxeala,  y  luego  todos  ellos  juntos  se  ha- 
+blaron para  saludar  al  capitán  y  á  los  Españoles.  También  lue- 
+go todos  juntos  fueron  á  hablar'al  capitán,  y  á  los  otros  ca- 
+pitanes diciéndolos,  que  aquella  era  su  casa,  y  su  pueblo, 
+y  ellos  eran  sus  vasallos:  también  se  quejaron  al  capitán 
+del  mal  tramiento  que  les  habia  hecho  Mocthecuzoma  y  los 
+mexicanos,  cargándolos  mucho  tributo  y  muchos  trabajos, 
+y  dijéronlos  que  si  los  dejaba,  que  mas  mal  tratamiento  les 
+habian  de  hacer  porque  eran  crueles  é  inhumanos  los  me- 
+xicanos. Como  Marina  hubo  dicho  al  capitán  lo  que  los 
+Indios  decían,  díjolos  el  capitán:  ,,no  toméis  pena  aunque 
+me  vaya,  que  yo  volveré  presto,  y  haré  que  esta  sea  cabe- 
+cera, y  no  sujeta  á  México,  y  destruiré  á  los  mexicanos. " 
+Como  oyeron  estas  palabras  los  otomies  de  Teucalhuican  con- 
+soláronse mucho,  y  cobraron  presunción  y  orgullo  para  re- 
+belarse contra  los  mexicanos,  y  los  Españoles  durmieron  aque- 
+lla noche  allí,  y  otro  día  antes  que  amaneciese  aparejá- 
+ronse para  partir  y  tornaron  el  camino  de  Teputzotlan. 
+(t)  Los  que  vieron  que  iban  á  su  pueblo  comenzaron  todos  á 
+huir,  y  metiéronse  en  los  montes,  y  escondiéronse  por  las 
+barrancas,  no  quedó  nadie  en  el  pueblo  que  recibiese  á 
+los  Españoles,  ninguna  cosa  llevaron  consigo,  dejaron  to- 
+das sus  haciendas,  solamente  salvaron  sus  personas,  porque 
+tuvieron  gran  miedo  que  los  habian  de  matar,  y  los  Es- 
+pañoles entráronse  en  las  casas  principales  ó  palacios  del 
+señor:  en  aquel  pueblo  durmieron  aquella  noche  todos  jun- 
+tos, y  todos  estaban  con  gran  temor  de  que  viniesen  so- 
+bre ellos  los  enemigos.  Otro  dia  en  amaneciendo  almor- 
+zaron de  lo  que  hallaron  por  las  casas  del  pueblo,  y  des- 
+pués  que   hubieron   almorzado   partiéronse,   y   por   el   ca- 
+
+(t)     Hoy  Tepozotlan,  domle  existe  un  colegio  coirecional  en  que 
+se  enseña  teología  moral    y  mexicano. 
+
+
+36 
+mino  donde  iban,  iban  tras  ellos  los  mexicanos  dándoles 
+grita,  y  si  alguno  se  acercaba  á  los  Españoles,  luego  lo 
+mataban.  Fueron  derechos  al  pueblo  de  Cillaltepec,  y  co- 
+mo vieron  los  de  este  lugar  que  iban  allá  los  Españoles 
+escondiéronse,  y  ningún  recibimiento  les  hicieron:  comieron 
+de  lo  que  hallaron  por  las  casas,  y  durmieron  allí  aque- 
+lla noche,  y  de  mañana  almorzaron,  y  habiendo  almorza- 
+do partiéronse  al  pueblo  que  se  llama  Xoloc:  los  de  aquel 
+pueblo  todos  huyeron,  y  nadie  osó  esperar,  todos  se  su- 
+bieron al  cerro  que  se  llama  Xoloc,  y  allí  se  escondieron, 
+y  tuvieron  gran  temor.  Los  Españoles  durmieron  allí  aque- 
+lla noche,  y  otro  dia  muy  de  mañana  como  hubieron  almor- 
+zado partiéronse  y  iban  por  el  camino  en  dos  rendes  los  de 
+á  caballo,  y  todos  los  de  á  pie,  y  los  que  llevaban  cargas  iban 
+en  medio  de  los  dea  caballo,  y  de  camino  quemaron  todas  las 
+casas  de  los  demonios  que  hallaron  á  mano  porque  eran  paji- 
+nas, y  como  las  casas  ardían  espantáronse  los  que  las  veían. 
+Yendo  por  su  camino  adelántelos  Españoles,  iban  tras  ellos  dán- 
+doles grita  los  Maceoales  de  aquellos  lugares,  pero  no  osaron 
+llegarse:  aquel  dia  llegaron  al  pueblo  que  se  llama  Aztaqueme- 
+can;  este  es  un  monte  alto  poblado:  los  Españoles  subieron  al 
+monte  y  aposentáronse  á  la  falda  del  monte  en  una  población 
+que  se  llama  Zacamolco  que  está  en  un  collado,  hospedáronse 
+en  un  Cú  de  los  otomies,  también  los  habitadores  de  aquel 
+pueblo  se  huyeron   y  dejaron  el  pueblo. 
+
+CAPITULO  XXVII. 
+
+De  como  los  mexicanos  llegaron  á  donde  estaban  los  Es- 
+pañoles siguiendo  el  alcance* 
+
+Estando  los  Españoles  en  este  pueblo,  llegaron  gran 
+número  de  mexicanos  con  propósito  de  acabarlos,  y  asen- 
+táronse cerca  de  una  cuesta  (u)  que  se  llama  Tonan,  que  quie- 
+re decir  nuestra  madre:  enviaron  luego  espías  los  mexi- 
+canos para  que  observasen  á  los  Españoles,  y  viesen 
+cuando  comenzasen  á  caminar,  y  como  comenzaron  a  ca- 
+minar, las   espías  dieron  voces  á   los  mexicanos  diciéndo- 
+
+(u)    Clavijero  le  llama  Toncmco 
+
+
+37 
+los  como  ya  los  Españoles  se  iban.  Oído  esto  luego  los 
+mexicanos  comentaron  á  marchar  tras  ellos.  Los  Españo- 
+les como  los  vieron  ir  tras  sí  con  gran  prisa,  entendie- 
+ron que  querían  pelear,  y  paráronse,  y  pusiéronse  en  or- 
+den de  guerra,  y  los  mexicanos  como  eran  muchos,  toma- 
+ron en  medio  á  los  Españoles,  y  comenzaron  á  combatir- 
+los de  todas  partes;  y  los  Españoles  mataron  muchos  me- 
+xicanos y  tlatilulcanos  por  cuanto  se  arrojaron  mucho  en 
+los  Españoles,  y  asi  murieron  muchos  de  ellos  y  fueron 
+ahuyentados.  Habiendo  vencido  los  Españoles  esta  batalla 
+prosiguieron  su  camino,  y  de  alli  adelante  no  los  siguieron 
+los  mexicanos.  Estuvieron  los  Españoles,  desde  que  entra- 
+ron en  México  hasta  que  salieron  235  dias,  y  estuvieron 
+en  paz  y  amistad  cou  los  Indios  85  (v).  Cuando  los  Españoles 
+hubieron  vencido  la  batalla  arriba  dicha,  luego  tomaron  su 
+camino  para  Tlaxcala,  y  entrando  en  el  término  de  esta  repú- 
+blica los  mexicanos  se  volvieron,  buscaron  entre  los  muer- 
+tos las  personas  señaladas  que  habían  perecido  y  hicié- 
+ronles  sus  exequias,  y  quemaron  sus  cuerpos ,  y  toma- 
+ron las  ceni/as,  y  volviéronse  á.  México  diciendo  que  los  Es- 
+pañoles habían  huido  y  que  nunca  mas  habían  de  volver.  Co- 
+mo los  Españoles  hubieron  entrado  en  los  términos  de  Tlax- 
+cala, según  la  relación  de  los  Españoles  que  allí  se  halla- 
+ron, los  principales  de  Tlaxcala  asi  hombres  como  muge- 
+res,  salieron  á  recibirlos  con  mucha  comida,  y  lleváronlos 
+á  la  ciudad,  cargando  acuestas  los  que  no  podian  andar,  y 
+curando  los  heridos;  y  llegados  á  la  ciudad  de  Tlaxcala  les 
+hicieron  muy  buen  tratamiento,  y  se  compadecieron  y  llo- 
+raron por  el  desastre  que  les  había  sucedido,  y  por  los  mu- 
+chos que  quedaron  muertos  en  México  asi  Españoles  co- 
+mo tlaxcaltecas.  Curáronse  los  Españoles ,  y  esforzáronse 
+en  la  ciudad  de  Tlaxcala  por  mas  de  medio  año,  y  eran 
+muy  pocos  para  tornar  á  dar  guerra  á  los  mexicanos.  En 
+este  medio  tiempo  llegó  á  Tlaxcala  un  Francisco  IJcrnan- 
+dtz9  español,  con  300  soldados  castellanos  y  con  muchos  ca- 
+ballos y  armas,  y  tiros  de  artillería   y    munición.   Con  ts- 
+
+(v)     Si  á  los  seis  dias  de  llegados  arrestaron    á  Mocthecuzonia, 
+es  claro  que  desde  entonces  declararon  la  guerra. 
+
+
+38 
+to  tomó  ánimo  el  capitán  D.  Hernando  Cortés  y  los  qué 
+cotí  él   estaban  que  habían   escapado  de  la  guerra  para  tor- 
+narse ¿aparejar,  y  volverá  conquistar á  México. 
+
+CAPITULO    XXVIII. 
+
+De  la  primera  fiesta  que  hicieron  los  Mexicanos  después 
+que  los  Españoles  salieron  de  noche  de  esta  ciudad. 
+
+Cuando  los  Españoles  salieron  de  México,  y  fueron  á 
+Tlaxcalla  era  el  mes  que  se  llamaba  Tecuilhuitentti  (x)  que 
+comienza  á  dos  de  junio,  y  llegado  el  mes  siguiente  el'os 
+llamaban  Hueytecuilhuitl,  que  comienza  á  veinte  y  dos 
+de  junio.  Como  ya  estaban  algo  descansados  de  la  guerra  pa- 
+sada hicieron  muy  gran  fiesta  á  todos  sus  Dioses,  y  saca- 
+ron todas  las  estatuas  de  ellos,  y  ataviáronlas  con  sus  or- 
+namentos, y  con  muchos  quetzales  de  pluma  rica,  y  pusié- 
+ronlas sus  carátulas  de  turquesas,  hechas  de  mosaico:  esto 
+hicieron  agradeciendo  á  sus  Dioses  porque  los  habían  li- 
+brado de  sus  enemigos.  Luego  se  sigue  el  otro  mes  suyo 
+que  se  llama  Tlaxochimaco  que  comienza  á  doce  de  ju- 
+lio; tras  este  se  sigue  el  mes  que  se  llama  Jocotlvenzi,  q<ie 
+comienza  primero  día  de  agosto;  tras  este  se  sigue  el  mes 
+que  se  llama  Ochpaniztli,  que  es  á  veinte  de  agosto;  tras 
+este  se  sigue  el  mes  que  se  llama  Teutleco,  que  comien- 
+za á  diez  de  setiembre;  tras  este  se  sigue  el  mes  que  se 
+llama  Tepeilhuitl  que  cae  á  treinta  de  setiembre;  tras  es- 
+te se  sigue  el  mes  que  llaman  Quecholli,  que  comienza 
+á  veinte  de  ocubre;  luego  se  sigue  el  mes  que  llaman  Pan- 
+quetzaliztli  que  coaiiena  á  nueve  de  noviembre;  luego  se  si- 
+gue el  que  llaman  Atemuztli  que  comienza  á  veinte  y  nue- 
+ve de  noviembre;  luego  se  sigue  el  mes  que  se  llama  Tititl 
+que  comienza  á  diez  y  nueve  de  diciembre;  tras  este  se  si- 
+gue el  mes  que  llaman  Izralli,  que  comienza  á  ocho  de  ene- 
+ro, y  luego  se  siguen  cinco  dias,  que  ellos  llaman  nemoñ- 
+temí,  que  quiere  decir  días  valdíos  ó  aciagos,  los  cuales  no 
+contaban  con  el  año,  y  luego  comenzaba  otro  año  en  el  mes 
+que  se  llama  Cuabitleva,  que  se  comienza  segundo  dia  de 
+
+(x)    O  sea  mes  de  la  fiesta  pequeña  de  los  seüore9. 
+
+
+39 
+febrero;  luego  se  sigue  el  segundo  mes  que  llaman   Tlaca* 
+xipeoaliztli  que  comienza  á  veinte  y   uno  de  febrero;  lue- 
+go se  sigue  el  tercero  mes  que  se  llama    Tocostontli  que  co- 
+mienza á  quince  (lias  de  marzo;  luego  se  sigue  el  cuarto  mes 
+que   se   llama    Vytocoztli^  que  comienza  á  tres  de  abril,  en 
+este  mes  salieron  los  Españoles  huyendo  de  México   en  el 
+año  pasado,  (y)  En  este  año  volvieron  algunos  de  ellos  por 
+la   via  de  Cuauhtitlan  y  llegaron   hasta    Tlalpa,  y  no  estu- 
+vieron  mas  de   siete   días,  y  luego  se  volvieron,  y  dende  á 
+cuarenta  días  volvieron  otra  vez,  y  destruyeron  algunos  lu- 
+gares, y   mataron   mas  de  cuatrocientos  hombres   que  eran 
+Maceoales  de  Tlatilulco,  y  dende  a  cuarenta  (lias  se  contaron 
+dos  años  de  su  venida:  volvieron  todos  en  el   mes   que  se 
+llamaba   ToxcatL 
+
+CAPITULO   XXIX. 
+
+De  la  pestilencia  que  vino  sobre   los  Indios  de  viruelas^ 
+después  que  los  Españoles  salieron  de  México, 
+
+Antes  que  los  Españoles  que  estaban  en  Tlaxcala  vi- 
+niesen á  conquistar  á  México,  dio  una  grande  pestilencia 
+de  viruelas  (17)  á  todos  los  Indios  en  el  mes  que  llamaban 
+Tepeilhvitl  que  es  al  fin  de  setiembre.  De  esta  pestilen- 
+cia murieron  muy  muchos  Indios:  tenian  todo  el  cuerpo 
+y  toda  la  cara,  y  todos  los  miembros  tan  llenos  y  lastima- 
+dos de  viruelas  que  no  se  podian  bullir  y  menear  de  un 
+lugar,  ni  volverse  de  un  lado  á  otro,  y  si  alguno  los  me- 
+neaba daban  voces.  Esta  pestilencia  mató  gentes  sin  núme- 
+ro, muchas  murieron  de  hambre  porque  no  habia  quien 
+pudiese  hacer  comida:  los  que  escaparon  de  esta  pestilen- 
+cia quedaron  con  las  caras  ahoyadas,  y  algunos  los  ojos  que- 
+brados; duró  la  fuerza  de  esta  pestilencia  sesenta  dias,  y 
+después  que  fue  aflojando  en  México,  fue  hacia  Chalco. 
+En  acabándose  esta  pestilencia  en  México,  vinieron  los 
+Españoles  que  ya   estaban  en    Tezcuco   (18)  y   dejaron   Ja 
+
+(y)     Parece  quiere  decir  que  fueron  á  Zempoala  á  atacar  á  Pan» 
+filo  de  Narvaez. 
+
+
+40 
+laguna,  y  vinieron  por  Cuauhtitlan,  hasta  Tlacupan,  y  allí 
+se  repartieron  en  capitanías,  y  se  pusieron  en  diversas  es- 
+tancias. A  D.  Pedro  Alvarado  le  cupo  el  camino  que  va 
+derecho  de  Tlacupa  al  Tlatilulco.  El  capitán  D.  Hernando 
+Cortés  se  puso  en  Coyoacan,  y  guardaba  el  camino  que  va 
+de  Coyoacan  á  México.  De  acia  la  parte  del  Tlatilulco 
+se  comentó  primero  la  guerra  en  un  lugar  que  se  llama 
+Nextlatilco,  y  llegaron  peleando  hasta  el  lugar  que  se  lla- 
+ma Nonoalco,  donde  está  ahora  una  iglesia  que  se  llama 
+san  Miguel,  y  los  Españoles  se  retrugeron;  no  ganaron  na- 
+da en  esta  escaramuza.  También  el  capitán  D.  Hernando  Cor- 
+tés acometió  por  su  parte  á  los  mexicanos  por  el  cami- 
+no que  se  llama  Acachinanco,  y  los  mexicanos  resistían- 
+los  grandemente. 
+
+CAPITULO  XXX. 
+
+De   como  los  bergantines  que  hicieron  los  Españoles  en 
+Tezcuco  vinieron  sobre  México 
+
+Estando  los  Españoles  en  Tlaxcala  labraron  doce  ber- 
+gantines, y  antes  que  los  armasen  trujéronlos  en  piezas  los 
+Indios  hasta  Tezcuco,  y  alli  los  armaron,  enclavaron  y  ca- 
+renaron, (19)  los  cuales  hechos,  y  puesta  en  ellos  la  arti- 
+llería entraron  en  ellos  los  Españoles  que  para  esto  es- 
+taban asignados,  y  vinieron  por  la  laguna  hasta  un  desem- 
+barcadero que  se  llama  Jlcachinanco  que  es  cerca  de  Mé- 
+xico, en  derecho  de  san  Antón,  iglesia  que  está  cer- 
+ca de  las  casas  de  Alvarado;  y  el  capitán  D.  Hernando  Cor- 
+tés luego  se  metió  en  los  bergantines,  y  comenzaron  á  son- 
+dar el  agua  para  descubrir  el  alto  que  habia  por  donde 
+habían  de  andar  los  bergantines.  Como  hubieron  descubier- 
+to los  caminos  por  donde  podían  andar  los  bergantines,  pu- 
+siéronse á  gesto  de  guerra  en  los  mismos  bergantines  con 
+determinación  de  destruir  á  los  mexicanos,  y  luego  pues- 
+tos en  orden  con  su  bandera  delante,  y  tocando  su  tam- 
+bor y  pífano,  comenzaron  á  pelear  contra  los  mexicanos, 
+y  muchos  de  estos  que  tenían  las  casas  dentro  en  el  agua, 
+como  comenzó    la  guerra   por  el  agua,  comenzaron  á  huir 
+
+
+41 
+
+con  sus  hijos  y  con  sus  mngerés,  algunos  llevaban  acues- 
+tas á  aquellos  y  otros  en  canoas:  todas  sus  haciendas  de- 
+jaban en  sus  casas,  y  los  Indios  que  ayudaban  á  los  Es- 
+pañoles entraban  en  las  que  dejaban,  y  robaban  cuan- 
+to hallaban.  También  los  Indios  de  Tlatilulco  andaban  allí 
+peleando  con  sus  canoas.  Como  llegaron  los  Españoles  á 
+donde  estaba  atajada  una  acequia  con  albarrada  y  pared, 
+desbarataron  la  acequia  los  castellanos  que  iban  en  los  ber- 
+gantines, y  comenzaron  á  pelear  con  los  que  estaban  de- 
+fendiéndola: los  Españoles  que  iban  en  los  bergantines  tor- 
+naban la  artillería  acia  donde  estaban  mas  espesas  las 
+canoas,  y  hacían  gran  daño  en  los  Indios  con  la  arti- 
+llería y  escopetas.  Visto  esto  los  mexicanos  comenzaron 
+á  apartarse  y  á  guardarse  de  la  artillería,  yendo  cule- 
+breando con  las  canoas,  y  también  cuando  veian  algún  ti- 
+ro que  soltaban  agazapábanse  en  las  canoas,  y  comenzaron 
+á  retraerse  acia  las  casas,  y  asi  quedó  desocupado  el  cam- 
+po. Llegaron  los  Españoles  á  un  lugar  que  se  llama  Vitzi- 
+lian  que  es  cerca  de  la  iglesia  de  san  Pablo,  allí  estaba 
+otro  paredón  hecho,  y  á  las  espaldas  de  él  estaban  mu- 
+chas gentes  de  los  mexicanos,  detuviéronse  allí  algo  los 
+bergantines  entre  tanto  que  aderezaban  la  artillería  para 
+destrozar  el    paredón, 
+
+CAPITULO   XXXI. 
+
+De   como  los  de  fas   bergantines    habiendo  ojeado  las  ca- 
+noas  que   les   salieron  por  la   aguaf  llegaron   á    ¿ierra 
+junto   á   las  casas. 
+
+Después  que  los  Españoles  aderezaron  sus  piezas  ti- 
+raron al  paredón  con  ellas,  y  de  los  primeros  tiros  arruiná- 
+ronle todo,  y  de  los  segundos  tiros  dieron  con  él  en  el 
+suelo,  y  los  soldados  Indios  que  estaban  detras  el  paredón 
+.  luego  echaron  á  huir,  y  los  Indios  amigos  luego  segaron 
+la  acequia  para  pasar  adelante  con  piedras  y  adoves  y 
+tierra  y  maderos.  De  que  tuvieron  llana  la  acequia  luego 
+vinieron  los  de  á  caballo  y  entraron  en  la  ciudad  y  alan- 
+cearon  los  que   judicion  de   les  Indios,  y  tornáronse  á  sa- 
+
+7 
+
+
+J  42  . 
+lir,  y  luego  entraron  otros  de  á  caballo  é  hicieron  lo  mis- 
+mo, y  los  Indios  acogíanse  á  las  casas  reales:  también  alan- 
+cearon á  algunos  Indios,  entre  los  cuales  fue  alanceado 
+un  Indio  del  Tlatilulco,  y  este  asió  de  la  lanza  con  que  es- 
+taba atravesado  y  otros  sus  compañeros  asieron  también 
+de  ella,  y  quitáronsela  al  de  á  caballo,  y  con  ella  le  ma- 
+taron y  le  derrocaron  del  caballo,  y  luego  se  juntaron  loe 
+Españoles  y  entraron  dentro  del  un  patio  que  se  llama- 
+ba quauhquiaoac,  y  llevaban  consigo  un  tiro  grueso  y  asen- 
+táronle. En  este  lugar  estaba  una  Águila  (z)  de  piedra  gran- 
+de y  alta  como  un  estado  de  hombre,  y  por  eso  llamaban 
+á  aquel  patio  quauhquiaoac:  de  la  una  parte  del  Águila  es- 
+taba un  tigre  de  piedra,  y  de  la  otra  un  oso  también  de 
+piedra,  y  los  capitanes  de  los  Indios  escondíanse  detras  de 
+ocho  columnas  de  piedra  que  alli  estaban,  y  mucha  otra 
+gente  estaba  encima  de  la  casa  que  estaba  armada  sobre 
+las  columnas;  y  los  Españoles  tiraron  con  el  tiro  grueso 
+que  llevaban  consigo  aquel  edificio  que  estaba  alli,  y  con 
+el  trueno  y  con  el  humo  los  que  estaban  abajo  se  espan- 
+ron  y  echaron  á  huir,  y  los  de  arriba  se  echaron  de  alli 
+abajo  y  todos  huyeron.  Llevaron  el  tiro  mas  adelante  acia 
+el  patio  de  Vitzilopuchtli  donde  estaba  una  grande  pie- 
+dra redonda  como  rueda  de  molino,  y  sobre  el  Cú  de  Vit- 
+zilopuchtli estaban  unos  sátrapas  sentados  tañendo  un  te- 
+ponaztli  y  cantando;  y  aunque  veían  lo  que  pasaba,  no  ce- 
+saban de  tañer  y  cantar,  y  subieron  dos  Españoles,  y  ma- 
+táronlos, y  echáronlos  por  las  gradas  abajo  del  Cú.  Como 
+los  Españoles  entraban  por  la  ciudad,  vinieron  los  Indio 
+diestros  que  andaban  en  las  canoas,  y  saltaron  en  tierra, 
+y  comenzaron  á  llamar  á  otra  gente  para  impedir  la  en- 
+trada á  los  Españoles.  Luego  vieron  estos  á  los  Indios  que 
+venian  sobre  ellos  con  gran  ímpetu  y  que  los  desbarata- 
+ban, recogiéronse  y  comenzaron  k  retraerse,  y  los  Indios 
+peleaban  reciamente:  los  Españoles  se  recogieron  á  su  es- 
+tancia que  llamaban  Jlcachiuanco  y  dejaron  el  tiro  en  el 
+patio  de   Vitzilopuchtli,  y  de  alli  lo  tomaron  los  Indios  y 
+
+(7.)     Entiendo  que  es  la  que  incrustaron  én  la  mera  esquina  de  9an 
+Francisco,  y  después  la  picaron:  hoy  ¡asoma  el  bulto  como  es  de  ve, 
+
+
+43 
+
+lo  -echaron  k  una  agua  profunda  que  llamaban  tetamaculco 
+que  está  cabe  el  monte  que  se  llama  Tepeízinco.  (a)  don- 
+de están   los  baños. 
+
+CAPITULO  XXXII. 
+
+De  como  los  mexicanos  se  rindieron  y  comenzaron  á  sa- 
+lirse de  la  ciudad  por  miedo  de  los  Españoles. 
+
+Después  de  las  cosas  arriba  dichas,  los  ludios  mexica- 
+nos huyeron  para  Tlatilulco  dejando  la  ciudad  de  México 
+en  poder  de  los  Españoles,  y  los  Indios  de  Tiatilulco  acu- 
+dieron á  México  á  hacer  guerra  á  los  Españoles,  y  D.  Pe- 
+dro Alvarado  que  estaba  todos  aquellos  dias  peleando  con- 
+tra los  del  Tlatilulco  en  aquella  estancia  que  llaman  íliacac, 
+cabe  JVonoalco,  no  hizo  ninguna  cosa,  porque  los  del  Tlati- 
+lulco se  defendieron  muy  bien  por  tierra  y  por  el  agua.  Co- 
+mo vio  Alvarado  que  no  aprovechaba  con  ellos  nada,  des- 
+confiado volvióse  á  Tlacuba,  y  dende  á  dos  dias  los  Espa- 
+ñoles vinieron  con  todos  los  bergantines  junto  á  las  casas 
+del  Tlatilulco,  y  dos  de  los  bergantines  fueron  acia  el  bar- 
+rio que  se  llama  JVonoalco:  ojearon  de  por  allí  todas  las  ca- 
+noas de  .guerra  y  saltaron  en  tierra,  y  comenzaron  á  entrar 
+por  entre  las  casas  en  concierto  de  guerra.  Todos  los  In- 
+dios se  apartaron,  ninguno  salió  contra  ellos.  Como  nadie 
+osaba  ir  contra  los  Españoles,  un  vaiiente  hombre  que  se 
+llamaba  Tzilacatzin  salió  contra  los  castellanos  y  á  pedra- 
+das mató  algunos  de  ellos  porque  tenia  gran  fuerza  en  el 
+brazo,  y  salieron  otros  tras  él,  é  hicieron  retraer  á  los  Es- 
+pañoles, y  volvieron  al  agua  acia  donde  tenían  los  bergan- 
+tines; y  aquel  Tzilacatzin  tenia  sus  armas  y  sus  divisas 
+como  Otomitl,  y  con  su  ferocidad  espantaba  no  solamente  á 
+los  Indios  amigos  de  los  Espinóles,  pero  también  á  los  mis- 
+mos Españoles,  y  estos  ponían  gran  diligencia  para  ma- 
+tarle, pero  él  disfrazábase  cada  día  porque  no  le  conocie- 
+sen; á  las  veces  iba   la  cabeza   descubierta  como  otomí,    y 
+
+(a)    Este  es  el  nombre  que  daban  á  la  montármela  llamada  hoy 
+el  Pellón^  y  del  que   tememos  una   esplosion  volcánica. 
+
+
+44 
+
+otras  veces  armábase  con  armas  de  algodón,  y  otras  se  po- 
+nía la  cabellera  de  manera  que  no  le  viesen  ni  le  cono- 
+ciesen. Otro  dia  los  Españoles  hicieron  lo  mismo:  vinie- 
+ron en  los  bergantines  con  machos  amigos  Indios  al  mismo 
+birrio  de  Nonoalco,  y  comenzaron  á  pelear  con  los  del 
+Tlatilulcoy  trabóse  reciamente  la  batalla,  y  pelearon  todo 
+el  dia  hasta  la  noche,  y  murieron  muchos  Indios  de  ambas 
+partes:  señaláronse  alii  entonces  tres  Indios  del  Tlatilul- 
+co  muy  valientes,  el  uno  llamaban  Tzoyectzin,  el  otro  lla- 
+maban Temoctzin,  y  el  tercero  Tzilacatzin,  que  ya  se  dijo. 
+Como  vieron  los  Españoles  que  ya  venia  la  noche  y  no 
+ganaban  nada,  volviéronse  á  su  estancia  coa  los  Indios  sus 
+amigos, 
+
+CAPITULO  XXXIII. 
+
+De  como  los  Chinampanetas,  que  son  los  de  Xuchimilco,  Cui- 
+tlaoac,  Itztapalapan  vinieron  en  ayuda  de  los  mexicanos. 
+
+Estando  Jas  cosas  en  la  disposición  que  arriba  se  dijo, 
+vinieron  á  socorrer  á  los  mexicanos  y  tlatilulcos,  que  to- 
+dos estaban  fortalecidos  en  el  Tiatilulco,  los  chinampanecas, 
+que  son  los  de  Xochimilco,  Cuitlaoae,  Mizquie,  Itztapala» 
+pan,  Mexicatzinco*  &c.  y  venidos  hallaron  al  señor  de  Mé- 
+xico que  se  llamaba  Quauhtemoctzin,  y  á  los  otros  principa- 
+les que  con  él  estaban,  y  los  capitanes  habláronle  diciendo: 
+y, Señor  nuestro,  venimos  á  socorreros  en  esta  ciudad,  y  pa- 
+ra esto  somos  enviados  de  nuestros  mayores  para  pagar  la 
+deuda  que  debemos,  y  para  esto  hemos  traido  y  están  aquí 
+presentes  los  mejores  soldados  que  entre  nosotros  hay,  pa- 
+ra que  ayuden  por  agua  y  por  tierra."  Oido  esto,  el  se- 
+ñor de  México  y  los  demás  dijeron:  ,,En  merced  tenemos 
+lo  que  los  señores  hacen  de  enviaros  para  nuestra  ayuda, 
+aparejaos  para  pelear,"  y  luego  diéronlos  armas  con  que 
+peleasen,  y  diéronlos  mucho  cacao ,  y  luego  los  pusie- 
+ron en  el  lugar  donde  habían  de  pelear,  y  puestos  en 
+sus  lugares  todos  comenzaron  á  pelear,  y  los  de  Xo- 
+chimilc»    comenzaron  á   robar  por   las  casas  donde    esta- 
+
+
+45 
+
+ban;    (b)   solamente   las   mugeres,  niños  y  viejas   dejaban, 
+mataron    algunas    mugeres,   y    niños ,   y   viejas ,    y  á   otros 
+metieron   en   las  canoas   para   llevarlos  como  esclavos.    Al- 
+gunos  soldados  de   los   mexicanos  vieron   lo  que  pasaba   y 
+dieron  aviso  á  los  capitanes,   y  luego  fueron   contra  ellos 
+por   agua    y    por  tierra,    y    comenzaron   á   matar  en   ellos 
+y  á  prenderlos,  á   todos  los  destruyeron  y  mataron,   y  de 
+las  mugeres   y  niños  y   viejas   que  habían  cautivado   y  del 
+robo   no  llevaron  nada.   Los   Españoles  se  recogieron  á   sus 
+estancias  después  de  la   pelea,  y  á  los  de  Xochitnilco  y  Cui- 
+tlaoac  Scc.   que  cautivaron  lleváronlos  delante   del    Quauh- 
+temotiin  que  estaba  en  un  lugar  que  se   llamaba    Yacalul- 
+co,  donde  está  ahora  una  iglesia  de  Santa  -Ana  (c)  en  el 
+Tlatilulco,  y  dijeron  á  Quauhtemotzin  y  Mayeoatzin  la  trai- 
+ción que   hacían  los  de  Xuchimilco   y  Cuitlaoac   &c,  y  el 
+señor  de  Cuitlaoac  reprendió  á  aquellos   que   habían  hecho 
+mala  obra,  y  Quauhtemotzin  dijo  á   Mayeoatzin:  hermano, 
+haz  tu   oficio,  castiga  á  esos  que  han    pecado;   luego  el  Ma- 
+yeoatzin  comenzó  á  matar  en   ellos,  y  el  Cuauhtemotzin  le 
+ayudó:  mataron  cada   uno  de  ellos  cuatro,  y  á  todos  los  de- 
+más que  habian  cautivado  los   mexicanos  mandáronlos   ma- 
+tar en  los  Cues  de  los  ídolos,  y  murieron  todos  en  los  Cues 
+sacrificados.    Por  esta    causa    los  mexicanos    tomaron  gran 
+enojo  contra  los  de  Xochimilco  y  dijeron:   ;estos  de  Xochi- 
+milco  moran   entre  nosotros,  y  espíannos,   y  avisan  á   los   de 
+su   pueblo  de  lo  que  nosotros  hacemos?  mueran;  y  como  hu- 
+bieron determinado  de  matarlos,  todos  comenzaron  á  sacar- 
+los de  sus  casas  hombres  y   mugeres,    viejos  y   viejas,   y  á 
+todos  los  mataron  sin  dejar  á  nadie,  por  odio  de  aquellos  que 
+habían    hecho  la   traición  só  color  de  ayudar.    Dende  dos  á 
+tres  dias  vinieron  los  bergantines  que  estaban  acia  la  parte  del 
+Tlatilulco  que  se  llama  Yhauhtenvo,  y  vinieron  en  ellos  Es- 
+pañoles solos  sin  ningunos  Indios  otros,  y  como  arribaron  lue- 
+go saltaron  en  tierra,  y  luego  comenzaron  á  pelear,  arrojar 
+saetas  y  pelotas,  y  los  soldados  del  Tlatilulco  agazapábanse, 
+y  escondíanse  detras  de  las  piedras  y  paredes  y  de  lasca- 
+
+(b)  Esta  escena  se  repitió  en  México  en  principios  de  diciembre 
+de   1828,   en  la  revuelta  llamada  de  la  Acordada. 
+
+(c)  Hoy  es  parroquia  de  México. 
+
+
+46 
+
+sas,  y  los  capitanes  que  estaban  mirando  cuando  seria  tiem- 
+po, comenzaron  á  dar  grita  para  pelear. 
+
+CAPITULO  XXXIV. 
+
+De  como  los  Indios  mexicanos  prendieron  quince  EspOr 
+ñoles. 
+
+Decían  los  capitanes:    ¡Ea   pues  mexicanos!  ¡ea   mexi- 
+canos!   luego    comenzaron  todos   á   tocar   sus   trompetas   y 
+á  pelear  con  los   Españoles,  y  llevaban  de  vencida  á  los  Es- 
+pañoles,  y   prendieron   quince   de   ellos,   y   los    demás  Es^ 
+pañoles  huyeron  con  los  bergantines  á  lo  alto  de  la  agua,  y 
+á   los  presos  quitaron  las  armas  y  despojáronlos,   y  lleváron- 
+los á  un  Cú  que  se   llama  Tlacoch calco,  alli   les   sacaron  los 
+corazones  delante  del   ídolo  que  se  llamaba   Afacuiltotec,  y 
+los  otros    Españoles   estaban  mirando  desde   los  bergantines 
+como  los  mataban.  Otra  vez  vinieron  dos  bergantines  al  bar- 
+rio  que  se  llama  Xocotitlan,  y  como  llegaron  saltaron  en 
+tierra  por  el  barrio  adelante  peleando;  y  como  vio  aquel  ca- 
+pitán indio  que  se  llamaba   Tzilacatzin  que  estaban  pelean- 
+do, acudió  á  ellos  con  otra  gente  que   le  siguió,   y  pelean- 
+d6  los  echaron  *le  aquel   barrio  y   les   hicieron  acoger  á   los 
+bergantines.  Otra  vez  vinieron  dos  bergantines  al  barrio  que 
+se  llama  Coyonacazco,  y  saltaron  en   tierra  los   Españoles  y 
+comenzaron  á  pelear.  Venia  alli  por  capitán  Rodrigo  de  Cas- 
+tañeda,  y  comenzaron  á  echar  saetas,   y  Castañeda  mató  i 
+uno  con  una  saeta,  y  saltaron  contra  él  ciertos  soldados  Indios 
+y  dieron  con  él  en   el   agua,    y  estuvieron  á   punto   de  ma- 
+tarle sino  que  se  escapó  asido  de   un  bergantín.  Estaba  otro 
+bergantín  de  los  Españoles  en  el  barrio  que  se   llama  Tete- 
+nanteputzco  cerca  de  aquella  iglesia  que  se  llama  Santa  Lu- 
+cra:  otro  bergantin  estaba  en  el  barrio  que  se  llama  Totecco 
+que  es  cabe  la  iglesia  de   la  Concepción:   estos   bergantines 
+estaban  en   la  agua  aguardando  tiempo,    estaban  todo   el  dia 
+y  á  la  noche  se   iban,    y   dende  á  tres  ó  cuatro   dias  deter- 
+minaron los   Españoles  de  darles  guerra  por  alli.    Entraron 
+por  el  camino  que   se  llama    Quavecatitlan   que  va  derecho 
+acia  donde  venden  la  sal;  iban  tantos  Indios  y  Españoles  que 
+
+
+47 
+
+no  cabían  por  el  camino,  porque  por  una  parte  y  por  otra 
+habia  agua,  y  echaron  tierra  y  adoves  y  maderos,  para  po- 
+der mejor  pasar,  y  como  hubieron  ensanchado  el  camino, 
+luego  comenzaron  á  entrar  por  él  en  orden  de  guerra  con 
+su  bandera  delante,  y  tocando  el  tambor  y  pífano,  y  venian 
+tras  ellos  todos  los  Indios  de  Tlaxcala  y  de  otros  pueblos  que 
+eran  amigos.  Entraron  los  españoles  con  mucha  fantasía  que 
+no  teniau  en  nada  á  los  mexicanos,  y  los  tlaxcaltecas  y  otros 
+Indios  amigos  iban  cantando,  y  también  los  mexicanos  can- 
+taban de  la  misma  manera  según  que  solian  hacer  en  las 
+guerras;  y  comO  llegaron  á  un  barrio  que  se  llama  Tlioacan, 
+que  es  ahora  San  Martin,  los  soldados  tlatiluleanos  estaban 
+escondidos  y  agazapados  por  temor  de  la  artillería,  espe- 
+rando la  pelea  y  la  grita  de  sus  capitanes  que  mandasen  pe- 
+lear; y  como  oyeron  el  mandato,  luego  arremetió  á  los  Es- 
+pañoles aquel  capitán  tlatilulcano  que  se  llamaba  Tlapane- 
+catlhecatzin  y  comenzó  á  dar  voces  esforzando  á  los  suyos, 
+y  aferró  con  un  español  y  dio  con  él  en  tierra,  y  tomáron- 
+le los  otros  soldados  que  iban  con  este  Tlapanecatlkecatzin. 
+
+CAPITULO  XXXV. 
+
+De  romo  los  mexicanos  prendieron  otros  Españoles  mas 
+de  cincuenta  y  tres,  y  muchos  tlaxcaltecas,  tezcucanos, 
+chalcas,  xuchimilcus,  y  á  todos  los  mataron  delante  de 
+ios  ídolos. 
+
+Trabóse  una  batalla  muy  recia  en  este  día,  de  manera 
+que  los  mexicanos  como  borrachos  se  arrojaron  contra  los 
+■•  enemigos,  y  cautivaron  muchos  de  los  tlaxcaltecas  y  chai- 
+cas,  y  tezcucanos,  y  mataron  muchos  de  ellos,  y  peleando 
+hicieron  saltar  á  los  Españoles  en  las  acequias  y  á  todos  los. 
+Indios  sus  amigos.  Púsose  con  esto  el  camino  todo  lodoso 
+que  no  podian  andar  por  él:  aqui  prendieron  á  muchos  Es- 
+pañoles, y  lleváronlos  arrastrando.  En  este  lutar  tomaron  á 
+los  Españoles  (d)  una  bandera  donde  está  la   iglesia  de   han 
+
+(d)     Esta  bandera  la  recobró  al  día  siguiente  Ixtülkochitl,  auxiliar 
+de  los  Españoles,  y  eu  ineiuoña  de  esta  luawiiu  Callos  V,  por  cequia 
+
+
+48 
+Martin,  y  los  Españoles  huyeron,  y  siguiéronlos  hasta  el  barrio 
+que  se  llama  Coloacatonco,  allí  se  recogieron  y  los  Indios  vol- 
+vieron á  cojer  el  campo,  y  tomaron  sus  cautivos,  y  pusie- 
+ron en  procesión  todos  maniatados:  pusieron  delante  k  los 
+Españoles,  y  luego  á  los  tlaxcaltecas,  y  luego  á  los  demás 
+Indios  cautivos,  y  lleváronlos  al  Cú  que  llamaban  Mumuzcof 
+alli  los  mataron  uno  á  uno  sacándolos  los  corazones:  prime- 
+ramente mataron  á  los  Españoles  y  después  á  todos  los  In- 
+dios sus  amigos.  Habiéndolos  muerto  pusieron  las  cabezas  en 
+unos  palos  delante  de  ios  ídolos,  todas  espetadas  por  las  sie- 
+nes; las  de  los  Españoles  mas  altas,  las  de  los  otros  Indios 
+mas  bajas,  y  las  de  los  caballos  mas  bajas.  Murieron  en  es- 
+ta batalla  cincuenta  y  tres  Españoles  y  cuatro  caballos.  En 
+todo  esto  no  cesaba  la  guerra  por  el  agua:  matábanse  unos  á 
+otros  por  las  canoas,  y  habia  gran  hambre  entre  los  mexica- 
+nos y  grande  enfermedad,  porque  bebian  del  agua  de  la  la- 
+guna y  comian  sabandijas,  lagartijas  y  ratones,  porque  no 
+les  entraba  ningún  bastimento,  y  poco  á  poco  fueron  acor- 
+ralando á  los  mexicanos  cercándolos  de  todas  partes. 
+
+CAPITULO   XXXVI. 
+
+De  la  primera  vez  que  los  Españoles  entraron  en  el  tian- 
+quiztli del   Tlatilulco  (ó  sea  la  plaza  del  mercado). 
+
+Andando  la  guerra  como  está  dicho,  un  dia  entraron 
+cuatro  de  á  caballo  en  el  tianquiztli  del  Tlatilulco,  y  die- 
+ron una  vuelta  por  todo  el  alrededor  é  iban  alanceando 
+á  cuantos  topaban,  y  mataron  muchos  soldados  mexicanos. 
+Después  que  dieron  una  vuelta  atravezaron  por  enmedio 
+del  tianquiztli,  y  luego  salieron  huyendo,  y  salieron  tras  ellos 
+muchos  soldados  tirándolos.  Esta  entrada  que  hicieron  fue 
+súbita  que  nadie    pensó  que  osaran  entrar,  y  el    mismo  dia 
+
+dada  en  1551,  le  concedió  la  gracia  de  tener  por  armas  en  su  puer- 
+ta un  coyote  con  un  estandarte  en  la  boca* •••  ¡liberalidad  >in  par  en 
+gran  remuneración  por  el  imperio  de  Tezcuco  de  que  lo  habia  des- 
+poseído! ¡Con  razón  se  dijo  que  Carlos  V  fue  el  tipo  del  Quijote  de 
+Cervantes!  Véase  mi  Galería  de  príncipes  mexicanos  que  publiqué 
+en  1821  en  Puebla,  cuaderno  l.°  página  23. 
+
+
+49 
+
+pusieron  fuego  al  Cú  mayor  que  era  de  Vitzilopuchtli,  y 
+todo  se  quemó.  Como  vieron  los  mexicanos  que  se  que- 
+maba el  Cú  comenzaron  á  llorar  amargamente,  porque  to- 
+maron mal  agüero  de  verlo  quemar,  y  luego  se  tra- 
+bó una  batalla  muy  recia .  Duró  esta  casi  un  dia, 
+y  derrocaron  los  Españoles  unos  paredones,  ó  albarradas 
+con  la  artillería  de  donde  les  daban  guerra:  después  de  der- 
+rocados acogiéronse  á  las  casas  de  que  estaba  cercado  el 
+tianquiztli,  y  subieron  los  soldados  mexicanos  sobre  los  so- 
+brados de  estas  casas,  y  de  alli  tiraban  saetas  y  piedras: 
+los  mexicanos  ahugeraron  aquellas  casas,  y  hicieron  de  ellas 
+guaridas  para  defenderse  de  los  caballos.  Otra  vez  entraron  los 
+Españoles,  y  los  Indios  amigos  en  el  tianquiztli,  y  comenzaron 
+á  robar  y  cautivar  Indios:  como  vieron  esto  los  soldados  me- 
+xicanos, salieron  tras  ellos,  y  hiciéronlos  dejar  la  presa,  y 
+aquí  murió  un  capitán  señalado  de  los  mexicanos  que  se  lla- 
+maba jixuqttentzin,  y  luego  se  retrugeron  los  Españoles  que 
+peleaban  de  las  partes  de  san  Martin,  aunque  de  las  otras 
+partes  todavía  peleaban  los  Españoles  y  sus  amigos.  Una 
+capitanía  de  soldados  mexicanos  hicieron  una  celada  pa- 
+ra tomar  á  los  Españoles  y  sus  amigos  descuidados,  y  dar 
+sobre  ellos  á  la  pasada;  y  algunos  soldados  de  Tlaxcala 
+que  ayudaban  á  los  Españoles,  subiéronse  sobre  los  tlapan* 
+eos  y  vieron  la  celada,  y  dieron  voces  á  los  demás  para 
+que  acudiesen  á  pelear  con  los  de  la  celada;  como  vieron 
+los  de  esta  que  los  habían  visto  huyeron,  y  asi  pa- 
+saron aquel  paso  seguros  para  ir  á  su  estancia.  Habiendo 
+peleado  todo  el  dia,  volviéronse  los  Españoles  sin  romper 
+á  sus  enemigos  aquel  dia  porque  los  habían  quitado  las 
+puentes,  de  manera  que  no  pudieron  pasar  á  los  enemigos. 
+
+CAPITULO  XXXVII. 
+
+De  como  de  noche  abrían  los  caminos  del  agua  que  de  dia 
+los  Espartóles  cerraban. 
+
+Los  Españoles  y  sus  amigos  cegaban  de  dia  las  ace- 
+quias para  pasar  adonde  estaban  los  enemigos,  y  todo  lo 
+que  cegaban  de  dia,  los  enemigos    mexicanos  lo  tornaban 
+
+8 
+
+
+50 
+<le  noche  á  abrir:  en    esto  entendieron  algunos  días,  y  por 
+esto  se   dilató    la    victoria     muchos.    Los    Españoles   y    los 
+tlaxcaltecas   combatian   por  tierra,   unos   por    la  parte  que 
+se  dice  /acalco,  y  otros  por  la  parte  que  se  dice  Pliloacan, 
+y  otros  por   la   parte  que  se  dice  Atezcupan\  y  de  la  par- 
+te del  agua  peleaban   los  de   Xuchimileo  y    todos   los  chi- 
+nampanecas,  y  los  tlatilulcanos  del   barrio  de   Atlicevhian: 
+y    los  del    barrio  de  Jiyacac  resistían   por  el  agua,  y  no  des- 
+cansaban en  la  pelea:  eran  tan  espesas  las  saetas  y  los  dar- 
+dos que    todo   el  aire   parecía  amarillo,  y   los  capitanes  de 
+los  mexicanos  que    eran  del  barrio  de  Vacacolco  todos  de- 
+fendían  las   entradas  porque  no   entrasen   donde   estaba  re- 
+cogida la  gente,  mugeres  y  niños,  y  peleando  con  gran  per- 
+severancia   hicieron  retraer  á   los  dichos   capitanes  de    la 
+parte   de  la  otra  acequia  que  se  llama  Ama  rae.  Otra  vez 
+acometieron   los   Españoles,  y   llegaron   á   un   lugar  que  se 
+llama  JÍyacac  donde  estaba  una  casa  grande   que  se  llamaba 
+Telpuchcaili,  pusieron  fuego  á  la   casa,  y  un  bergantín  de 
+los  Españoles  iba  por  el    barrio  que   se  llama  Jltliceuhian* 
+con    muchas  canoas  que  les  siguieron    de  los  amigos,  y  un 
+capitán  que  se   llamaba   Coiovevetzin   mexicano,   que   traia 
+las  armas  vestidas,  la  mitad  de  ellas  era   una   águila  y   la 
+otra   mitad  de  un   tigre,  vino  en  una  canoa  de  acia  la  par- 
+te  que   se   llama  Tolmayecan,  y  seguíanle    muchas   canoas 
+con   gente  armada.  Luego  comenzó   á   dar  voces   á   los  su- 
+yos, que   comenzasen  á  pelear,  y  luego  comenzaron  la   pe-? 
+lea,  y   los   Españoles  se  retrugeron,  y  este   capitán   con  los 
+suyos  los  seguían,  y  retrugéronse  acia  un  lugar  que  se  lla- 
+ma A'tiiceuya:  también  los   bergantines   se  retrugeron   acia 
+la   laguna.  De  este  alcance  murieron  muchos  xoehimilcanos. 
+Otra   vez   tomaron   los  Españoles   á  encerrarse  en    un   Cú 
+que    se   llama   Mamuztli,    y   otra  vez  volvieron    tras  ellos 
+hasta  donde  estaba  el  telpuchcalli  que   llaman  Jltliceuhian: 
+volvieron    otra    vez    los    Españoles    tras    los    Indios    con 
+Coiovevetzin  en   la  acequia:  revolvió   un   capitán    mexica- 
+no   que  se   llamaba  Jtzpapalotzin   otomí,  y  hi/.o  retraer  á 
+los  Españoles  á   los  bergatines:   entonces  cesó  la  batalla  y 
+los  del   pueblo  de    Cuitlaoac   pensando  que  su   señor  que 
+se  llamaba  Maieoatzin  quedaba  muerto  con  los  demás  eno- 
+
+
+51 
+
+járonse  mucho  con  los  mexicanos,  entre  los  cuales  estaba 
+su  señor,  y  dijeron:  ¿Por  qué  habéis  muerto  á  nuestro  se- 
+ñor? y  su  señor  como  estaba  vivo  supo  que  sus  vasallos 
+estaban  enojados,  habló  al  capitán  Coiovevetzin  y  díjole: 
+señor  hermano,  busque  á  uno  de  sus  soldados  que  tenga 
+recia  voz,  y  Coiovevetzin  llamé  á  un  capitán  que  se  lla- 
+maba Tlamaiocatl,  y  el  señor  de  Cuitlaoac  díjole:  vé,  y  di 
+á  mis  vasallos  que  yo  te  envió  para  que  les  digas  que  es- 
+toy vivo,  y  que  miren  acá  y  verme  han.  Como  aquel  capi- 
+tán habló  á  los  de  Cuitlaoac  y  les  dijo  lo  que  le  había  man- 
+dado el  señor  Maieoatzin,  ellos  no  quisieron  creerle,  mas 
+dijeron  que  le  habían  muerto  y  que  no  era  verdad  lo  que 
+les  decía,  y  el  otro  respondió,  no  es  muerto  como  pensáis, 
+mirad  y  verleheis  á  dondp  está  vivo,  que  allí  se  puso  para 
+que  le  veáis,  y  habló  el  señor  de  Cuitlaoac  y  dijo:  mirad 
+que  no  me  perdáis  nada  de  mis  atavios,  y  joyas  y  armas, 
+que  vivo  estoy.  Como  dijo  estas  palabras  el  señor  de  dvi- 
+tlaoac,  luego  los  Indios  amigos  de  los  Españoles,  comenza- 
+ron á  dar  grita,  y  á  pelear  contra  los  mexicanos,  y  me- 
+tiéronlos hasta  dentro  de  tianquiztli  á  donde  se  vende  el 
+copal,  y  allí  pelearon  gran  rato.  Otra  vez  entraron  en  con- 
+sejo nuestros  enemigos  para  acometernos  y  destruirnos,  en 
+especial  los  otomies  de  Tlaxcalla,  y  otros  capitanes  mu- 
+chos, y  determinaron  de  entrar  por  una  calle  que  esta- 
+ba junto  donde  es  ahora  san  Martin,  y  la  calle  iba  dere- 
+cha á  una  casa  de  un  pilli  tlatilulcano  que  se  llamaba  Tla- 
+catzin,  y  luego  los  salieron  al  encuentro  los  del  Tlatílul- 
+co  un  capitán  que  se  llamaba  Tlappomecatl  que  iba  de- 
+lante; pero  los  que  iban  con  él  arrojáronse  sobre  los  ene- 
+migos con  gran  furia,  y  tomáronles  el  capitán  que  lleva- 
+ban preso  que  se  llamaba  Tiappanecall;  pero  escapó  con 
+una  herida  en  una  pierna,  y  cesó  por  entonces    la  guerra. 
+
+CAPITULO  XXXVIII. 
+
+Del  trabuco  que  hicieron  los  Españoles  para  conquistar  á 
+los  del  Tlatilulco. 
+
+Como  los  Indios  mexicanos  todos   estaban  recogidos  en 
+un  barrio  que  se  llama  Amaxac  y  uo  los  podían  entrar,  or- 
+
+
+52 
+denaron  de  hacer  un  trabuco,  y  armáronle  encima  de  un  Cá 
+que  estaba  en  el  tianquiztli  que  llamaban  Mumuztli,  y  como 
+soltaron  la  piedra  no   llego  á  donde  estaba   la   gente,   cayó 
+mucho  mas  atrás  junto  á  la  orilla  del  tianquiztli,  y  como  sa- 
+lió el   tiro  en  vacio  comenzaron  los  Españoles  á  reñir  entre 
+sí.   Como  vieron  que  por  via  del  trabuco  no  pudieron  hacer 
+nada,  determinaron  de  acometer  al  fuerte  donde  estaban  los 
+mexicanos,  y  pusiéronse  todos  en  ordenanza:  dispusieron  ¡os 
+escuadrones  y  comenzaron  á  ir  contra  el  fuerte,  y  los  me- 
+xicanos como  los   vieron  ir  escondíanse  por  miedo  de  la  ar- 
+tillería,   y   los  Españoles    iban  poco  á   poco   llegándose  al 
+fuerte   muy  ordenados  y    muy  juntos.     Y   uno  de  los  me- 
+xicanos del  Tlatilnlco  que  se   llamaba  Chalchiuhtepeoa  pú- 
+sose en  celada   con  otros  soldados  que   llevaba  consigo  con 
+propósito  de  herir  á   los  caballos,  y  como  llegaron   los  Es- 
+pañoles  á  donde  estaba  la   celada,   hirieron  á  un  caballo,   y 
+luego  el  Español   cayó  en  tierra  y  los   mexicanos  le   toma- 
+ron,  y  luego  salieron  todos  porque   salieron   todos  los  mexi- 
+canos valientes  que   estaban  en  el  fuerte,   é  hicieron    gran 
+daño  en  ellos  los  amigos  de  los  Españoles,  y  asi  se  retruje- 
+ron   otra  ve7i  al  tianquiztli  al   lugar  donde   llaman    Copal- 
+namacoyan  á   donde  estaba   un  baluarte.    Después  de  esto, 
+todos  los  Indios  amigos,  y  enemigos  de  los  mexicanos  que  te- 
+nían  cercados   á    estos,    concertaron   de   cegar    una   lagu- 
+na  que   les  hacia    mucho  embarazo   para   entrar   al    fuerte 
+de  los   mexicanos,  que  estaban  cerca  de   donde  está  ahora 
+la  iglesia  de   Santa  Lucia,  y  asi  otro  dia  muy  de  mañana 
+cargáronse  de  piedras,  y  de  tierra,  y  de  adoves,  y  de  la  ma- 
+dera de  las  casas  que  derrocaban,   y  robaban  todas  las  casas 
+que  estaban  por  allí  cerca.    Visto  por  los  mexicanos  lo  que 
+hacian  los  enemigos,  sacaron   escondidamente  cuatro  canoas 
+con  gente  de  guerra  y  cuatro  capitanes  con  ellos,   y  como 
+estuvieron  á  punto  comenzaron  á  remar  reciamente,   yfue- 
+ron  contra  los  que  cegaban  la  laguna    dos  canoas   por  la  una 
+parte,  y  otras  dos  por  la  otra;  luego  comenzaron  á  pelear  y 
+muchos  murieron,   unos  en  la  laguna  y  otros  en  la  tierra: 
+otros  echaban  á  huir  y  caian  entre   los  maderos  que  habían 
+puesto,  y  de  allí  los   sacaban  arrastrando  los  mexicanos  lle- 
+nos de  lodo.  Murieron  muchos  en  este  reencuentro  aquel  dia. 
+
+
+J 
+
+53 
+
+Otro  dia  luego  los  Españoles  acometieron  a?  fuerte  que 
+era  donde  llaman  jjmaxac,  donde  está  la  iglesia  de  la  Con- 
+cepción, y  palearon  gran  rato,  y  finalmente  llegaron  donde 
+estaba  el  bagage  de  los  mexicanos;  y  como  llegaron  á  una 
+casa  grande  que  se  llamaba  Telpuchcalli  á  donde  estaba  mu- 
+cha gente,  subiéronse  á  las  azoteas  de  aquella  casa,  dieron 
+consigo  en  la  agua  por  huir,  y  un  capitán  que  se  llamaba 
+Vitziloatzin  con  muchos  soldados  que  estaban  sobre  los  tla- 
+pancos,  comenzaron  á  resistir  á  los  Españoles  poniéndose  por 
+muro  para  que  no  pasasen  á  donde  estaba  el  bagage,  y  los 
+Españoles  arrojáronse  contra  ellos,  y  comenzaron  Á  matar  en 
+ellos  y  á  destrozarlos,  y  salieron  otros  soldados  en  favor  de 
+aquellos,  de  manera  que  no  pudieron  los  Españoles  pasar 
+á  donde  querian  y  retrujéronse.  A  otro  dia  los  Españoles 
+pegaron  fuego  á  aquella  casa,  en  la  cual  habia  muchas  esta- 
+tuas de  los  ídolos.  Los  Españoles  peleaban  contra  los  mexi- 
+canos ya  dentro  de  su  fuerte,  y  á  las  mugeres  y  niños  no 
+los  hacian  mal,  sino  á  los  hombres  que  peleaban.  Aquel  dia 
+despartió  la  noche  la  pelea,  y  al  otro  los  Españoles  y  to- 
+dos los  amigos  comenzaron  á  caminar  acia  donde  estaban 
+los  mexicanos  en  su  fuerte,  y  los  mexicanos  quisieron  hacer 
+una  celada  para  resistirá  los  Españoles  la  entrada,  y  no  pudie- 
+ron: viéronlos,  y  asi  los  Españoles  comenzaron  á  pelear.  Casi 
+un  dia  duró  la  pelea;  á  la  noche  retrujéronse  á  sus  estancias, 
+y  á  la  mañana  determinaron  romper,  y  cercáronlos  de  todas 
+partes  de  manera  que  por  ninguna  parte  podian  salir,  y  es- 
+tando en  esta  estrechura  murieron  muchos  (ningunas  muge- 
+res)  pisados  y  acoceados,  y  estando  en  esta  pelea  las  muge- 
+res  también  peleaban  cegando  á  los  contrarios  con  el  agua 
+de  las  acequias,  arrojándosela  con  los  remos.  Estando  ya 
+los  mexicanos  acosados  de  todas  partes  de  los  enemigos, 
+acordaron  de  tomar  pronóstico  ó  agüero  si  era  ya  acabada 
+su  ventura,  ó  si  les  quedaba  lugar  de  escapar  de  aquei  gran 
+peligro  en  que  estaban,  y  habló  el  señor  de  Mixioo  que  se 
+llamaba  Cuauhtemoctzin,  y  dijo  á  los  principales  que  con 
+él  estaban:  ,, Hagamos  esperiencia  á  ver  si  podemos  escapar 
+de  este  peligro  en  que  estamos:  veng*  uno  de  los  mas  va- 
+lientes que  hay  entre  nosotros,  y  vístase  las  amas  y  divisas 
+que  eran  de  mi  padre  Avitzolzin"  y  luego  llamaron  á  un 
+
+
+54 
+
+mancebo  valiente  que  se  llamaba  Tlapaltecatlopuchtzin  qwe 
+era  del  barrio  de  Coátlan,  donde  es  ahora  la  parroquia  de 
+Santa  Catalina  en  el  Tlatitulco,  á  aquel  le  habló  el  señor 
+Quauhtemotzin  y  ledijo:  „Veis  aquí  estas  armas  que  se  lla- 
+man Quetzalteculotl  que  eran  armas  de  mi  padre  Avitzot- 
+sin,  vístetelas  y  pelea  con  ellas,  y  matarás  algunos,  vean  es- 
+tas armas  nuestros  enemigos,  podrá  ser  que  se  espanten  en 
+verlas;"  y  como  se  las  vistieron  pareció  una  cosa  espanta- 
+ble, y  mandaron  á  cuatro  capitanes  que  fuesen  delante  de 
+él,  de  cada  parte  dos  de  aquel  que  iba  armado  con  las  ar- 
+mas de  Jlvitzonzin¡)  en  las  cuales  tenian  gran  agüero  que 
+saliendo  luego  los  enemigos  habian  de  huir.  Diéronle  tam- 
+bién el  arco  y  la  saeta  de  Vitzilopuchtli  que  tenian  también 
+guardado  por  reliquias,  y  tenian  fé  en  aquel  arco  y  saeta 
+que  cuando  saliese  no  podian  ser  vencidos,  aquella  saeta  te- 
+nia un  casquillo  de  pedernal.  Estando  estos  cinco  puestos  á 
+punto,  un  principal  mexicano  que  se  llamaba  Cioacoatltlct- 
+totziñ  dio  voces  diciendo  á  los  cinco  que  estaban  á  puntor 
+j^jO  mexicanos,  ó  tlatilulcanos!  el  fundamento  y  fortaleza  de 
+los  mexicanos  en  Vitzilopuchtli  es  puesta,  el  cual  arrojaba 
+entre  los  enemigos  su  saeta  que  se  llamaba  Xiuhcoati y  Ma- 
+maloaztli,  la  misma  saeta  lleváis  ahora  vosotros  que  es  agüe- 
+ro de  todos  nosotros;  mirad  que  la  enderecéis  contra  vues- 
+tros enemigos  para  que  haga  tiro  y  no  se  pierda  en  valde, 
+y  si  por  ventura  con  ella  matáredes  ó  cautiváredes'á  algu- 
+no, tenemos  certidumbre  y  pronóstico  que  no  nos  perdere- 
+mos de  esta  vez,  sino  que  quiere  nuestro  Señor  ayudar- 
+nos:" y  dichas  estas  palabras,  aquel  que  estaba  armado  con 
+los  otros  cuatro  comenzaron  á  ir  contra  los  enemigos.  Como 
+los  vieron  los  Españoles  asi  como  los  Indios,  cayóles  grande 
+espanto,  no  les  pareció  cosa  humana,  y  aquel  que  iba  ar- 
+mado con  Quetzalteculotl  subióse  á  una  azotea,  y  los  ene- 
+migos paráronse  á  mirarle  qué  cosa  era  aquella,  y  como  co- 
+nocieron que  era  hombre  y  no  demonio  ^cometiéronle  pe- 
+leando, y  hiciéronlo  huir.  El  Quetzalteculotl  tornó  tras  ellos 
+con  los  que  con  él  iban,  y  hízolos  huir,  y  subió  otra  vez 
+en  el  tlalpanco  donde  los  tlaxcaltecas  tenian  quetzales  y 
+cosas  de  oro  robadas,  y  tómeselas,  y  volvió  á  saltar  del 
+tlalpanco  abajo,  y  no  se  hizo  mal  ninguno,  ni  le  pudieron 
+
+
+53 
+cautivar  los  enemigos,  mas  antes  los  que  iban  con  él  cau- 
+tivaron tres  de  los   enemigos,  y  por  entonces  cesó  la  pelea: 
+volviéronse  todos  á  sus  ranchos,  y  el   día  siguiente  tam- 
+poco pelearon. 
+
+CAPITULO  XXXIX. 
+
+De  como  los  del  Tlatilulco  cuando  estaban  cercados  vie* 
+ron  venir  fuego  dtl  cielo  sobre  ú  (20)  de  color  de  sangre. 
+
+El  dia  siguiente  cerca  de  media  noche  llovía  menu- 
+do, y  á  deshora  vieron  los  mexicanos  un  fuego  asi  como 
+torbellino  que  echaba  de  sí  brasas  grandes,  y  menores,  y 
+centellas  muchas,  remolineando  y  respendando  y  estillando: 
+anduvo  al  rededor  del  cercado  ó  corral  de  los  mexicanos 
+donde  estaban  todos  cercados  que  se  llamaba  Cownacaz- 
+co.  y  como  hubo  cercado  el  corral  tiró  derecho  acia  eJ 
+medio  de  la  laguna,  y  allí  desapareció,  y  los  mexicanos  no 
+dieron  grita  como  suelen  hacer  en  tales  visiones:  todos  ca- 
+llaron por  miedo  de  los  enemigos.  Otro  dia  después  de  es- 
+to no  pelearon,  todos  estuvieron  en  sus  ranchos,  y  D.  Her- 
+nando Cortés  subióse  encima  de  una  azotea  de  una  casa 
+del  barrio  de  Jlmaxac,  esta  casa  era  de  un  principal  tla- 
+tilulcano  que  se  llamaba  Jlztaoatzin.  Desde  aquel  tlapanco 
+estaba  mirando  acia  el  cercado  de  los  enemigos:  allí  en- 
+cima de  aquel  tlapanco  le  tenian  hecho  un  pabellón  co- 
+lorado, desde  donde  estaba  mirando,  y  muchos  Españoles 
+estaban  al  rededor  de  él  hablando  los  unos  con  los  otros. 
+Es  muy  verosímil  que  D.  Hernando  Cortés  habia  enviado  mu- 
+chos mensageros  al  señor  de  México  Cuauhtemoctzin  pa- 
+ra que  se  rindiesen  antes  que  los  matasen  á  todos,  pues 
+ya  no  tenian  ningún  remedio,  y  en  este  punto  en  que  es- 
+taba ahora  el  negocio  de  la  guerra  es  cosa  muy  cierta  que 
+ya  el  señor  de  México  habia  dado  la  palabra  á  los  men- 
+sageros del  capitán  I).  Hernando  Cortés  que  se  quería  ren- 
+dir, y  á  este  propósito  se  puso  en  el  pabellón  en  el  tla- 
+panco el  capitán  D.  Hernando  Cortés,  esperando  á  que 
+viniese  á  su  presencia  el  señor  de  México  Cuauhtemoct- 
+zin con  todos  los  principales  que  con  él  estaban.  Vinieron* 
+se  á  donde   estaba  el  marqués  en   canoas,  CuauhteaioctzLn 
+
+
+56 
+iba  en  una  canoa  y  iban  dos  pages  con  él  que  llevaban 
+sus  armas,  y  uno  solo  iba  remando  en  la  canoa  que  se  lia- 
+maba  Cenyautl,  y  cuando  llegaron  á  la  presencia  de  D. 
+Hernando  Cortés  comenzaron  á  decir  toda  la  gente  me- 
+xicana que  estaba  en  el  corral ya  va  nuestro  señor  rey 
+
+á  ponerse  en  las  manos  de  los  dioses  Españoles. 
+
+AUTOR. 
+
+De  las  cosas  arriba  dichas,  parece  claramente  cuan- 
+to temporizó  y  disimuló  el  capitán  D.  Hernando  Cortés 
+con  estos  mexicanos  por  no  los  destruir  del  todo  ni  aca- 
+barlos de  matar:  porque  según  lo  de  arr'ba  dicho,  muchas 
+veces  pudieron  acabarlos  de  destruir,  y  no  lo  hizo,  espe- 
+rando siempre  á  que  se  rindiesen,  para  que  no  fuesen  des^ 
+truidos   del  todo. 
+
+CAPITULO  XL. 
+
+í)e  como  los  de  Tlatilulco  se  dieron  á  los  Españoles  con 
+los  mexicanos  y  su  señor  que  con  ellos  estaba» 
+
+De  que  llegaron  á  tierra  el  señor  de  México  Cuauh- 
+temoctzin  con  los  que  con  él  iban,  saltaron  en  tierra  cer- 
+ca de  la  casa  donde  estaba  él  capitán,  y  los  Españoles  que 
+estaban  cerca  del  agua,  tomaron  por  las  manos  á  Cuauh- 
+temoctzin  amigablemente,  y  lleváronle  adonde  estaba  el  ca- 
+pitán D.  Hernando  Cortés  encima  de  la  azotea.  Como  llegó 
+á  donde  estaba  el  capitán,  luego  el  le  abrazó,  y  le  mos- 
+tró muchas  señales  de  amor  al  dicho  Cuauhtemoctzin,  y 
+todos  los  Españoles  le  estaban  mirando  con  grande  alegría, 
+y  luego  soltaron  todos  los  tiros  por  alegría  de  la  conclu- 
+sión de  la  guerra.  Cuando  esto  aconteció  salieron  dos  ca- 
+noas de  México,  y  entraron  en  la  casa  de  un  principal, 
+que  se  llamaba  Coiovevetzin,  donde  estaban  Indios  tlaxcal- 
+tecas, y  revolviéronse  los  unos  con  los  otros,  y  murieron 
+alli  algunos,  y  los  mexicanos  huyeron,  y  escondiéronse:  des- 
+pués de  haber  hecho  esto  luego  mandó  el  capitán  D.  Her- 
+nando Cortés  á   pregonar  que  todos  los  que  estaban  en  el 
+
+
+57 
+corral  saliesen  libremente  y  se  fuesen  á  sus  casas,  y  co- 
+mo comenzaron  á  salir  los  mexicanos  se  llevaban  sus  ar- 
+mas, é  iban  agavillados,  y  donde  quiera  que  topaban  á  al- 
+gunos Indios  de  los  amigos  de  los  Españoles  matábanlos, 
+y  de  esto  se  enojaron  mucho  los  Españoles,  y  á  vueltas  de 
+los  que  se  iban  algunos  de  los  mismos  vecinos  del  Tlati- 
+lulco  dejaron  sus  casas,  y  se  fueron  pensando  que  aun  los 
+matarían,  y  asi  sin  esperar  en  sus  casas  unos  se  fueron 
+acia  Tlacupan,  y  otros  acia  san  Cristóbal,  y  los  que  tenian 
+casa  en  la  agua,  unos  se  salieron  en  canoas,  y  otros  se  fue- 
+ron á  pie  por  el  agua,  y  otros  nadando,  y  llevaban  sus  ha- 
+ciendas y  sus  hijos  acuestas,  salían  muchos  de  noche,  y  otros 
+de  dia.  Los  Españoles  y  sus  amigos  pusiéronse  en  todos 
+los  caminos,  y  robaron  á  los  que  pasaban,  tomándolos  el  oro 
+que  llevaban,  y  escudriñándolos  todos  sus  hatos,  y  todas  sus 
+vestiduras,  y  ninguna  otra  cosa  tomaban  sino  el  oro,  y  las 
+mugeres  mozas  hermosas,  y  algunas  de  las  mugeres  por  esca- 
+parse disfrazábanse  poniendo  lodo  en  la  cara,  y  vistiéndose 
+de  andrajos:  también  tomaban  mancebos  y  hombres  recios 
+para  esclavos,  pusieron  los  nombres  de  tlamacazque^  y  á  mu- 
+chos de  ellos  herraron  en  la  cara.  Rindiéronse  los  mexicanos, 
+y  despartióse  la  guerra  en  la  cuenta  de  los  años  que  se 
+dice  tres  casas,  y  en  la  cuenta  de  los  dias  en  el  signo  que 
+se  llama  Cecoatl.  Al  señor  de  México  Quauhtemoctzin  el 
+mismo  dia  (pie  se  rindió  le  llevaron  al  lugar  que  se  lla- 
+ma Jlcaehinanco,  con  todos  los  principales  adonde  estaba 
+el  aposento  de  D.  Hernando  Cortés,  y  luego  otro  dia  vi- 
+nieron muchos  Españoles  al  Tlatilulco  todos  ordenados  á 
+punto  de  guerra,  y  todos  se  tapaban  las  narices  por  el  he- 
+dor de  los  muertos  que  estaban  por  enterrar,  y  traían  con- 
+sigo al  señor  de  México  Quauhtemoctzin,  y  á  otro  prin- 
+cipal que  se  llamaba  Coanacolzin,  y  á  otro  que  se  lla- 
+maba Tctle/xmquelzaízin;  y  los  demás  principales  que  guar- 
+daban el  tesoro,  y  futron  derechos  al  lugar  donde  estaba 
+el  corra!,  donde  se  habían  hecho  fuertes  los  mexicanos  que 
+se  llamaba  ¿Itactzinunco,  y  entraron  en  la  casa  del  Tlaco- 
+chcafcatl  que  se  llamaba  Coiovevetziu,  y  luego  subieron  á 
+la  azotea,  y  sentáronse  y  pusieron  allí  un  pabellón  al  ca- 
+ditan  D.  Hernando   Cortés  y  sentóse  en  su  silla.  La  ludia 
+
+9 
+
+
+58 
+que  era  intérprete  que  se  llamaba  Marina,  púsose  cerca 
+del  capitán,  y  de  la  otra  parte  el  señor  de  México  Quauh- 
+temoetzin  cuhierto  con  una  manta  rica,  y  estaba  cabe  el 
+señor  de  Tezcuco  que  se  llamaba  Coanacotzin,  y  tenia  cu- 
+bierta su  manta  de  nequen  rica,  y  estaba  también  alli  otro 
+principal  que  se  llamaba  Tetlepanquetzatzin,  el  señor  de 
+Tlacupan  tenia  cubierta  otra  manta,  y  estaban  alli  otros 
+muchos  principales. 
+
+CAPITULO  XLI. 
+
+De  la  plática  que  hizo  D.  Hernando  Cortés  á  los  seño- 
+res de  México,  Ttzcuco  y  Tlacupan^  después  de  la  vic- 
+toria, procurando  por  el  oro  que  se  habia  perdido  cuan- 
+do salieron  huyendo  de  México. 
+
+Como  estuvieron  juntos  los  tres  señores  de  México, 
+Tezcuco  y  Tlacupan  con  sus  principales  delante  de  D.  Her- 
+nando Cortés,  mandó  á  Marina  que  les  dijese  donde  estaba 
+el  oro  que  habia  dejado  en  México;  y  luego  los  mexicanos 
+el  sacaron  todas  las  joyas  que  tenian  escondidas  en  una  ca- 
+noa llena,  y  todo  lo  pusieron  delante  del  capitán  y  de  los 
+Españoles  que  con  él  estaban,  y  como  lo  vio  dijo,  ¿no  hay 
+mas  oro  que  este  en  México?  Sacad  lo  todo  que  es  menes- 
+ter todo,  y  luego  un  principal  que  llaman  Tlacutzin  hab'ó 
+á  Marina  respondiendo:  día  nuestro  señor  capitán  que  cuan- 
+do llegó  á  las  casas  reales  la  primera  vez,  vio  todo  lo  que 
+habia,  y  todas  las  salas  cerramos  con  adoves,  no  sabemos 
+qué  se  hizo  el  oro  que  habia,  tenemos  que  todo  lo  lleva- 
+ron ellos,  y  no  tenemos  mas  de  esto  ahora:  y  el  capitán 
+respondió  diciendo  que  es  verdad  que  todo  lo  tomamos, 
+pero  todo  nos  le  tomaron  en  aquel  paso  de  acequia  que 
+se  llama  Toltecaacaloc.o,  es  menester  que  luego  pare7ca:  y 
+luego  respondió  un  principal  mexicano  que  se  llamaba  Cioa- 
+eoatltlacutzin,  y  dijo  á  Marina:  di  le  al  señor  capitán  que 
+nosotros  los  mexicanos  no  peleamos  por  el  agua  con  ca- 
+noas, ni  sabemos  esta  manera  de  pelea,  que  solo  los  de  Tla- 
+tilulco  que  peleaban  por  el  agua,  atajaron  á  nuestros  seño- 
+res los  Españoles,  y  creemos  que  solos  ellos  lo  tomaron:  y 
+
+
+59 
+luego  respondió  Quautemoctzin,  y  dijo  al  principal  Cioa- 
+coat¡,  ¿que  es  lo  que  dices?  aunque  es  asi  que  los  del  Tla- 
+tilulco  lo  tomaron  fueron  presos  y  todo  lo  tornaron:  en  el 
+lugar  de  Texopan  se  juntó  todo,  y  esto  que  está  aqui  y  no 
+hay  mas.  Dijo  luego  Marina:  el  nuestro  capitán  dice  que  no 
+está  aqui  todo,  y  respondió  el  principal  Cioacoatl:  ¿por 
+ventura  algún  Maceoal  ha  tomado  alguno?  buscarse  ha,  y 
+traerse  ha  á  la  presencia  del  capitán.  Otra  vez  dijo  Mari- 
+na: el  señor  capitán  dice  que  busquéis  200  tejuelos  de  oro, 
+tan  grandes  como  asi.  y  señalóles  con  las  manos  el  gran- 
+dor de  una  patena  de  cáliz.  Otra  vez  habló  el  principal 
+Cioacoatl,  y  dijo:  por  ventura  algunas  de  las  mugeres  lo 
+llevaron  escondido  debajo  de  las  enaguas,  buscarse  ha,  y 
+traerse  ha  á  la  presencia  del  señor  capitán.  Luego  alli  habló 
+otro  principal  que  se  llamaba  Mixcoatlaylotlacaueliloctzin, 
+dile  al  señor  capitán,  que  cuando  vivia  Mocthecuzoma  el 
+estilo  que  se  tenia  en  conquistar,  era  este,  que  iban  los  me- 
+xicanos, y  los  Tezcucanos,  y  los  de  Tlacupan,  y  los  de  las 
+Chinampas,  todos  juntos  iban  sobre  el  pueblo  ó  provincia 
+que  querian  conquistar,  y  después  que  lo  habían  conquis- 
+tado, luego  se  volvían  á  sus  casas,  y  á  sus  pueblos,  y  des- 
+pués venían  los  señores  de  los  pueblos  que  habian  sido 
+conquistados,  y  traían  su  tributo  de  oro  y  de  piedras  pre- 
+ciosas, y  de  plumages  ricos,  y  todo  lo  daban  á  Mocthecu- 
+zoma, y  asi  todo  el  oro  venia  á  su  poder. 
+
+
+FIN. 
+
+
+6t 
+NOTAS  DEL  EDITOR. 
+
+
+Para  mejor  inteligencia  de  algunos  lugares  oscuros  de 
+esta  obra. 
+
+
+(1)  Cetro  ó  sea  báculo  de  obispo.  Muchas  veces  me  aseguró  el  sa- 
+bio P«  D.  Servando  de  Mier  que  ademas  de  este  obsequio  envió  el 
+emperador  de  México  á  Hernán  Cortés  una  capa  de  obispo  griego 
+toda  sembrada  de  cruces,  y  que  era  tradición  constante  que  habia 
+sido  del  apóstol  santo  Tomás  venido  á  estas  regiones  á  predicar  el 
+evangelio,  á  quien  llamaban  Qtietzulcoatl%  y  también  habia  ofrecido 
+á  los  indios»  que  algún  dia  regresaría  á  este  suelo;  parece  les  dio 
+á  entender  que  tornada  al  mismo  á  radicar  la  religión  que  él  les  anun- 
+ciaba; pero  Mocthecuzoma  esperaba  al  mismo  apóstol,  y  según  su  cál- 
+culo ya  era  llegada  la  época  de  su  vuelta 
+
+»  Por  semejante  equivocación  la  Providencia  dispuso  que  no  pu- 
+siese obstáculo  á  la  entrada  de  los  españoles,  habiéndole  sido  muy 
+fácil  cosa  impedirles  su  internación  con  solo  mandar  que  se  les  ne- 
+gasen todos  los  víveres  que  necesitaban.  Esta  orden  habría  sido  lue- 
+go obedecida;  tanto  mas  que  habia  fuertes  guarniciones  en  la  cos- 
+ta de  Veracruz  como  en  Cuetaxtla  (hoy  Cotaxta),  Zempoalan^  Nau- 
+tlan  y  otros  puntos;  pero  el  cielo  quería  castigar  la  idolatría  de  es- 
+ta nación,  por  lo  que  ordenó  que  los  medios  de  que  se  valia  el  em- 
+perador para  alejar  á  los  españoles  sirviesen  para  atraerlos  mas  ahin- 
+cadamente á  México.  Cada  obsequio  que  recibían  ponía  una  nueva 
+espuela  á  sus  deseos  para  venir  á  ocupar  una  región  de  oro  por 
+que  tanto  habia  ansiado  el  mismo  Colon,  y  héchole  emprender  su  des- 
+cubrimiento. 
+
+No  me  parece  inoportuno  referir  aqui  que  los  indios  de  la  edad 
+presente  tenían  igualmente  formados  sus  cálculos  sobre  el  tiempo 
+que  debería  durar  su  servidumbre  al  gobierno  español.  En  mi  histo- 
+ria intitulada  Tezeoco  en  los  últimos  tiempos  de  sus  antiguos  reyes^ 
+que  publiqué  en  México  el  año  de  1826,  inserté  un  cauto  que  en 
+compañía  de  varios  indios  endechaba  D.  Juan  de  Aguilar,  indio  go- 
+bernador dé  Cuatepec  en  la  provincia  de  Tezcoco  cerca  del  pueblo 
+de .  Cuauhtlinchan,  sacado  de  un  libro  que  copié  de  la  secretaria  del 
+vireinato  en  que  se  veían  reunidas  varias  piezas  históricas  antiguas 
+de  orden  del  rey  de  España:  en  dicho  romance  se  predecía  que  ter- 
+minaría la  dominación  castellana. 
+
+En  la  historia  de  la  conquista  de  Chimalpain  que  igualmente 
+publiqué  en  el  mismo  año,  y  en  la  que  inserté  el  cómputo  según 
+el  calendario  Tuiteco  que  formó  Boturini,  observé  que  este  al  lle- 
+gar al  año  de  1821  en  que  se  hizo  la  independencia  mexicana  por 
+el  geueral  lturbide,  puso  al  margen  de  su  letra   Crisius  abreviado; 
+
+
+62 
+«ota  que  en  dicho  libro  vi  existente  en  la  secretaria.  Estas  cir- 
+cunstancias no  pueden  menos  de  llamar  la  atención,  principalmente 
+si  se  reflexiona  que  Boturini  fue  enviado  á  España  bajo  partida  de 
+registro  por  decreto  del  virey  conde  de  Fuenclara  dado  en  7  de  oc- 
+tubre de  1743,  según  consta  en  la  causa  que  le  mandó  formar  á  es- 
+te sabio  viagero  á  fojas  8¿.  Algo  mas:  mas  de  40  años  antes  de  que 
+se  oyese  la  primera  voz  de  independencia  en  el  pueblo  de  Dolo- 
+res ocurrió   en  México  la  anédocta  que  paso  á   referir. 
+
+Los  licenciados  D.  Felipe  de  Lima  y  D.  Nicolás  Quero  habien- 
+do salido  una  tarde  á  pasear,  y  tomado  por  el  barrio  de  la  Cande- 
+laria de  los  patos  al  sur  de  México,  se  vieron  repentinamente  ata- 
+cados por  un  fuerte  chubasco  de  lluvia  y  viento  :  mienttas  pasaba 
+se  entraron  en  el  jacal  de  un  indio  que  estaba  inmediato ,  don- 
+de encontraron  á  este  tendido  en  el  suelo  sobre  de  un  petate  en  el 
+que  tenia  un  gran  mapa  de  pintura  antigua  mexicana,  y  puestos  unos 
+anteojos  lo  reconocía  con  tan  prolija  atención  que  no  habia  sentido 
+la  llegada  de  aquellas  personas:  al  levantar  la  cabeza  los  vio  y  no- 
+tó que  lo  habían  estado  observando;  entonces  todo  sobrecogido  re- 
+cogió el  mapa,  lo  dobló  y  guardó:  preguntándole  que  era  lo  que  leía, 
+y  alentándolo  con  dulzura  á  que  se  los  dijese,  respondió  al  fin-*-» 
+,, Estaba  yo  mirando  que  según  la  cuenta  que  yo  sacaba  de  esta  pin- 
+tura, ya  se  acerca  el  tiempo  de  que  este  reino  vuelva  á  los  descen- 
+dientes de  sus  antiguos  señores."  Penetrados  de  este  concepto  dichos 
+abogados,  y  deseosos  de  imponerse  radicalmente  de  aquel  anuncio, 
+volvieron  á  la  tarde  siguiente  al  mismo  lugar,  y  ya  no  hallaron  al 
+indio  viejo  ni  quien  les  diese  razón  del  lugar  donde  se  habían  mu- 
+dado. Existe  de  oidor  en  la  audiencia  de  Tlalpan  el  Doctor  D.  Agus- 
+tín Pomposo  y  Fernandez  que  oyó  esta  relación  de  la  misma  boca 
+de  los  abogados  Luna  y  Quero.  Sin  necesidad  de  cálculos  ni  pro- 
+fecías, muy  bien  podia  predecirse  la  ruina  del  imperio  español  en 
+América;  ya  sea  porque  era  tiránico  y  de  consiguiente  poco  du  ablej 
+ya  porque  los  mexicanos  habian  conocido  el  secreto  de   sus  fuerzas 
+
+Kara  convertirlos  contra  sus  opresores;  ya  porque  las  luces  del  siglo 
+abian  penetrado  hasta  las  mas  humildes  chozas,  ó  ya  en  fin  porque 
+habiendo  crecido  y  llegado  á  la  pubertad  la  hijastra  de  España,  es- 
+ta necesitaba  tomar  estado  emancipándose  para  hacer  una  familia  apar- 
+te, y  conducirse  por  sí  sola. 
+
+(2)  Las  piezas  que  compusieron  este  primer  obsequio  se  hallan 
+inventariadas  circunstanciadamente  en  el  cap.  27  tom.  1.°  de  la  his-» 
+toria  de  Chimalpain. 
+
+(3)  Parece  qne  era  una  especie  de  amacas  en  que  se  embar- 
+caban las  personas  principales  que  corrian  la  posta,  suplían  por  li- 
+teras, y  eran  trasportadas  en  hombros  de  indios  que  hacían  las  ve- 
+ces de  bestias  de  tiro. 
+
+(4)  En  la  historia  antigua  de  México  estampada,  que  poseía  el 
+brigidier  D.  Diego  García  Panes  de  la  que  parte  se  halla  en  el  mu- 
+ose  de  la  universidad  de  México,  y  de  la  que  un  tomo  desapare- 
+
+
+63 
+
+ció  del  archivo  del  congreso  general  á  quien  se  regaló  por  mano 
+del  ministro  de  hacienda  Bsteva;  he  visto  pintado  este  pasage,  la  re* 
+seña  militar  que  hizo  Cortés  de  sos  tropas  para  que  se  sorpren- 
+diesen los  enviados  del  emperador  mexicano,  y  también  á  estos  en 
+actitud  de  copiar  aquellos  estraños  objetos.  También  se  han  des- 
+aparecido algunas  mantas  muy  anchas  en  que  se  veian  estampados  mu- 
+chos pasajes  de  la  Ivstoria  antigua;  algunos  solamente  están  delinea- 
+dos y  les  falta  el  colorido.  Cuando  el  señor  Panes  trató  de  que  se  gra- 
+basen por  la  academia  de  la  historia  de  Madrid,  le  pidieron  setenta 
+y  cinco  mil  pesot>  fuertes  según  me  aseguró  su  paisano  D.  José  Ma- 
+riano Almanza;  con  los  cinco  mil  se  habria  hecho  la  operación  si 
+entonces  se  hubiera  conocido  el  arte  de  la  litografía  nuevamente  des- 
+cubierto, por  medio  del  cual  han  grabado  los  ingleses  á  paca  costa 
+varios  mapas  y  relaciones,  como  la  peregrinación  de  los  Indios  me- 
+xicanos hasta  llegar  á  situarse  en  el  cerro  de  Chapoltepec,  el  plano 
+antiguo  de  México,  y  parte  de  los  del  Palenque  que  remitió 
+el  general  D.Juan  Pablo  Anaya  de  Chiapas  al  presidente  Victoria,  el  cual 
+los  remitió  qué  sé  yo  por  qué  conducto  á  Londres  de  donde  han  veni- 
+do incompletos.  Primero  los  han  visto  los  mexicanos  venidos  de  Ul- 
+tramar que  en  el  museo  nacional  como  debiera  ser;  hasta  en  esto 
+hemos   sido  desgraciados. 
+
+(5)  Mandar  atar  á  unos  mensageros  que  traian  á  los  Españoles 
+lo  que  mas  amaban  y  ansiaban  que  es  el  oro,  es  la  cosa  mas  in- 
+civil y  bárbara  que  pudiera  hacer  un  hombre  que  de  tal  solo  tuvie- 
+ra la  apariencia;  ningún  escritor  lo  ha  dicho  hasta  ahora  ¿Y  qué  di- 
+remos de  mandar  dispararen  esta  sazón  la  artillera  que  jamás  ha- 
+bían oido  aquellos  Indios,  y  sobre  todo  jque  juzgaremos  de  la  acción 
+de  mandarles  dar  espadas  y  rodelas  para  que  peleasen  cuando  venian 
+de  paz  y  no  podian  aceptar  semejante  desafio?  mas  prudencia  y  po- 
+lítica mostraron  los  ludios  en  rehusarlo,  pues  couocian  el  carácter 
+de   que  venían  investidos, 
+
+(6)  Recomiendo  á  mis  lectores  las  reflexiones  importantes  que  hi- 
+ce al  cap.  57  tom.  I.°  de  Chimalpain,  donde  me  encargo  de  cuan- 
+tas observaciones  pudieran  hacerse  en  pro  y  en  contra  de  es'e  aten- 
+tado, el  *.ual  se^uu  Fray  Bartolomé  de  las  Casas  lo  ejecutaron  los 
+Españoles  por  pasatiempo  y  sin  causa,  sobre  el  cual  después  de  to- 
+mado México  algunos  de  los  primeros  frailes  franciscos  fueron  á  Cho- 
+lula  á  recibir  una  información  de  este  hecho,  y  que  resultó  averi- 
+guado tal  cual  lo  escribí.  Es  de  presumir  que  uno  de  los  pesquisi- 
+dores de  él  fuese  el  P  Sahagun,  pues  de  otro  modo  no  pudiera  re- 
+ferirlo con  el  tono  de  seguridad  que  lo  hace,  y  con  el  que  desmien- 
+te cuanto  se  ha  escrito  para  sincerar  la  conducta  de  Cortes.  Este 
+atentado  semeja  mucho  al  que  después  cometió  Alvarado  en  Méxi- 
+co matando  indefensa  á  la  nobleza  mexicana,  atacándola  sobre  se- 
+guro, y  acaso  fue  el  tipo  de  Alvarado,  y  por  el  que  se  creyó  au- 
+torizado para   cometerlo. 
+
+(7)  Esta  descripción  con   que  venían  los  lebreles  está  propísima: 
+
+
+64 
+
+¿Quién  no  vé  por  ella  que  los  Españoles  venían  como  en  montería? 
+
+(8)  Parece  que  no  merecía  semejante  despedida  un  hombre  que 
+no  se  presentaba  con  las  manos  vacias,  pue3  trajo  á  Cortés  diez  platos  de 
+oro  que  figuraban  unas  jicaras  pulidamente  labradas,  y  mil  y  qui- 
+nientas mantas  de  algodón  labradas  de  muchos  colores  de  pelo  de 
+conejo,  y  gran  cantidad  de  aves  y  víveres  para  los   Españoles. 
+
+(9)  He  aqui  compobrado  lo  que  dije  en  el  prólogo  de  esta  obra, 
+que  el  P.  Sahagun  tuvo  que  rebajar/a.  Luego  que  Mocthecuzoma  su- 
+po lo  ocurrido  en  Cholula  se  retiró  al  palacio  de  Titlancalmecatl  4 
+del  duelo  á  aplacar  á  sus  númenes. 
+
+(10)  Este  razonamiento  elocuentísimo  en  mexicano  confirma  el  er- 
+rado concepto  en  qué  estaba  Mocthecuzoma  de  que  habia  llegado 
+Quetzalcoatl  á  quien  debia  entregar  el  imperio  según  sus  cálculos, 
+y  lo  confirma  el  haber  abandonado  su  palacio  para  cederlo  á  los  Es- 
+pañoles y  que  lo  habitasen. 
+
+(11)  No  están  en  esta  circunstancia  acordes  los  historiadores,  pues 
+dicen  que  Mocthecuzoma  se  apartó  pasándose  á  recibir  á  Cortés  4 
+la  casa  de  alojamiento  que  le  tenia  preparado. 
+
+(12)  Por  luego  pueden  entenderse  pasados  seis  dias  de  haber  lle- 
+gado á  México  como  refiere  Chimalpain  cap.  107  tom,  l.°.  Noca- 
+be  duda  en  que  Cortés  habia  concebido  el  atrevido  proyecto  de  ar- 
+restar al  Emperador  desde  que  desembarcó  de  Veracruz,  y  asi  lo 
+escribió  á  Carlos  V.j  pero  le  faltaba  un  motivo  que  cohonestase  un 
+hecho  tan  infame,  y  lo  halló  en  la  noticia  que  le  daban  los  Espa- 
+ñoles de  la  costa,  de  haber  muerto  en  un  reencuentro  con  los  me- 
+xicanos áJuan  de  Escalante,  En  dichos  seis  primeros  dias,  Cortés  an- 
+duvo observando  la  situación  de  la  ciudad  y  las  medidas  de  defen- 
+sa que  debia  torrar  para  un  caso  desgraciado. 
+
+(\rS)  Tampoco  en  esto  está  acorde  esta  relación  con  la  de  Chi- 
+malpain, pues  dice  que  pasados  algunos  dias  después  que  Mocthecu- 
+zoma dio  la  obediencia  al  emperador  Carlos  V.  pidió  Cortés  que  le 
+diese  algunas  joyas  y  oro  para  mandarle:  que  accediendo  á  este  pe- 
+dimento, mandó  Mocthecuzoma  que  fuesen  algunos  Españoles  con  unos 
+criados  suyos  á  la  casa  de  las  aves  donde  tenia  el  tesoro,  y  espan- 
+tados de  tanta  riqueza  no  quisieron  ó  no  osaron  los  Españoles  to- 
+carla sin  que  primero  lo  viese  Corté»,  y  asi  lo  llamaron  y  fue,  y 
+ton  consentimiento  del  rey  tomólo,  y  llevólo  todo  á  su  aposento. 
+Cap.   116.    pág.  261   tom    l.°. 
+
+I  (14)  Esta  horrible  circunstancia  no  la  refiere  ningún  historiador; 
+están  de  acuerdo  todos  en  que  Cortes  puso  grillos  al  emperador  de  Mé- 
+xico durante  la  ejecución  de  Quauhpopoca,  y  concluido  el  acto  se  los 
+quitó.  Si  tal  sucedió  en  esta  sazón  no  fue  de  orden  de  Cortés,  pues 
+no  se  hallaba  en  México  sino  en  la  espedicion  sobre  Panfilo  de 
+Narvaez.  Alvarado  pudo  repetir  la  escena  de  Cortes,  pues  era  un 
+bárbaro  desapiadado,  y  no  respetaba  los  principios  de  la  moral  y  de- 
+cencia pública. 
+
+(15)     El  P.   Clavijero  indica  que  en  esta  ocasión  se  suscitaron  par- 
+
+
+65 
+
+tidos  entre  lo*  mexicanos,  pues  algunos  por  amor  á  Mocthecuzoma  pro- 
+curaban meter  víveres  para  que  no  muriese  de  hambre,  y  esto  ufendia 
+á  los  sitiadores  pues  no  acababan  de  conseguir  que  se  les  rindiesen: 
+esto  motivó  el  que  se  suscitasen  dos  partidos  y  pereciesen  muchos 
+de  eutrambas  partes.  Es  muy  probable  que  los  Españoles  los  fomen- 
+tasen como  hicieron  en  Zempoala,  logrando  introducirse  á  favor  de 
+esta  división-**  Divide,  y  mandarás^  quiera  Dios  que  no  perdamos  de 
+vista  esta  máxima,  y  tan  fatal  ejemplo,  por  el  que  esta  America  per- 
+dió su   libertad. 
+
+(16)  Hasta  aquí  se  habia  creido  que  Mocthecuzoma  habia  sido  en- 
+terrado en  Chapoltepec.  Según  Clavijero  comenzaron  los  ataques  del 
+cuartel  el  dia  25  de  junio  de  1520.  En  este  dia  perecieron  ocho  Es- 
+pañoles, todos  los  demás  que  salieron  fueron  heridos  incluso  Cortes.  El 
+dia  ¿26  fue  mas  terrible  el  combate,  y  en  él  fueron  heridos  mas  de  5Ü  cas- 
+tellanos. En  el  asalto  del  templo  murieron  combatiendo  de  estos  64, 
+y  tuvieron  muchos  heridos.  La  muerte  del  emperador  mexicano  fue 
+el  30  de  junio.  El  Padre  Clavijero  afirma  que  el  P.  Saliagun  dice 
+que  los  Españoles  lo  mataron,  ya  hemos  presentado  el  testo  de  es- 
+te autor  en  que  solo  lo  da  á  entender,  acaso  lo  diria  mas  espresa- 
+mente  en  su  primera  obra;  mas  parece  que  no  estaba  ni  en  la  conciencia 
+ni  en  la  política  de  los  Españoles  matar  aun  príncipe  de  quien  podían  pro- 
+meterse mucho;  pero  la  natural  soberbia  de  estos  se  habia  aumenta- 
+do estraordinariamente  con  una  serie  no  interrumpida  de  triunfos,  y  so- 
+bre todo  con  el  aumento  de  fuerzas  que  traían  de  Narvaez.  Cortés 
+no  quiso  ver  á  Mocthecuzoma  cuando  llegó  á  México,  y  entiendo  fue 
+porque  venia  informado  de  que  habia  estado  en  correspondencia  con 
+su  enemigo   Panfilo  de  Narvaez  prometiéndose  sacar  partido  de  él. 
+
+Siguiendo  el  hilo  de  la  historia  en  la  derrota  de  los  Españo- 
+les á  su  salida  de  México,  no  vemos  mas  sino  que  los  Indios  les 
+"hostilizaban  en  su  alcance.  El  pais  estaba  todo  en  armas,  y  yo  creo 
+que  no  eran  mas  que  masas  y  pelotones  que  se  presentaban  á  re- 
+taguardia para  hostilizarlos;  por  lo  mismo  presumo  que  el  numerosí- 
+simo ejército  de  doscientos  mil  combatientes  que  Solís  y  otros  supo- 
+nen que  se  presentaron  en  Otumba,  fueron  como  las  manadas  de  car- 
+neros que  vio  I).  Quijote  desde  una  altura,  y  que  tanta  risa  ha  cau- 
+sado á  los  que  en  este  pasage  ven  el  último  esfuerzo  de  una  ima- 
+ginación exaltada,  y  sin  duda  la  de  los  Españoles  lo  estaba  mucho 
+por  lo  ocurrido  en  los  días  anteriores.  A  mi  juicio  no  pasó  de  una 
+gruesa  división  la  que  alli  opusieron  los  mexicanos,  aunque  para  ven- 
+cerla necesitaba  Cortés  hacer  el  último  esfuerzo  de  la  desesperación  y  del 
+valor,  sin  que  se  entienda  que  se  hallaba  en  tan  deplorable  esta- 
+do como  ellos  mismos  se  han  pintado;  pues  los  Otomíes,  enemigos 
+de  los  mexicanos,  le  habían  acudido  con  víveres.  Sea  de  esto  lo  (pie 
+se  quiera,  lo  que  conviene  saber  es,  que  el  general  que  dio  esta  ac- 
+ción se  llamaba  Cihuucutzin:  que  el  estandarte  que  le  sobresalía  por 
+los  hombros  que  en  mexicano  se  llamaba  Hahuixmatlaxopilli  era  una 
+red  de  oro  puesta  en  la  punta  de   una  lanza  que  se  alzaba   cerca 
+
+10 
+
+
+66 
+de  diez  palmos  sobre  su  cabeza:  que  Cortés  le  tiró  de  las  andas  en  qua 
+estaba  sentado  de  un  bote  de  lanza  al  suelo,  y  Juan  de  Salamanca  que 
+le  acompañaba  con  los  de  su  escolta,  quitó  la  vida  al  general  mexicano, 
+le  arrancó  el  penacho  de  la  cabeza,  lo  presentó  á  Cortés,  y  este  después 
+lo  regaló  á  los  magistrados  de  Tlaxcala  cuando  llegó  á  aquella  ciudad  de 
+retirada.  Si  la  batalla  de  Otumba  hubiera  sido  tan  famosa  como  nos 
+la  han  pintado,  seguramente  el  P.  Sahagun  á  pesar  de  su  laconis- 
+mo se  habría  detenido  un  tanto  en  referirlaj  habla  de  ella  coma  de 
+una  escaramuza  tenida  en  retirada  y  como  de  paso. 
+
+(17)  La  peste  de  viruelas  la  comunicó  un  negro  grumete  de  la 
+espedicion  de  Narvaez  llamado  Francisco  Eguia  De  estos  obsequios 
+nos  vienen  en  abundancia  de  Europa;  el  año  pasado  llegó  á  Yucatán 
+la  peste  llamada  Pitiflor  que  en  realidad  es  la  cólera  márbus  de  Levante 
+modificada  por  la  suavidad  del  clima,  lo  que  prueba  la  vigilancia 
+que  debe  tener  el  gobierno  por  medio  de  las  juntas   de  sanidad. 
+
+(18)  La  espedicion  de  Cortés  salió  de  Tlaxcala  el  28  de  diciem- 
+bre de  15£0,  y  marchó  para  Tesmefucan  El  30  se  alojó  en  Coate- 
+pec.  El  dia  31  al  llegar  Cortés  á  Tezcoco  vio  venir  cuatro  perso- 
+nas que  traian  en  una  barretilla  de  oro  que  pesaba  32  onzas  una  ban- 
+dera en  señal  de  paz  :  eran  enviados  del  rey  Coanacotzin  que  le 
+ofrecía  su  corte.  Cortés  reprendió  á  sus  mensageros  la  muerte  de 
+35  Españoles,  cinco  caballos,  y  300  tlaxcaltecas  que  habían  destrui- 
+do que  venían  cargados  de  oro  y  armas  para  los  Españoles  que  es- 
+taban en  México.  En  31  de  diciembre  entró  Cortés  en  Tezcoco,  los 
+Indios  evacuaron  la  ciudad,  y  Coanocatzin  se  escapó  para  México  te- 
+meroso de  caer  en  sus  manos;  no  se  engañó,  pues  Cortés  lo  ahorcó 
+en  1525  juntamente  con  Quauhtimotzin  cuando  hizo  la  espedicion  de 
+las  Hibueras.  La  conducta  de  aquel  monarca  que  justamente  descon- 
+fiaba de  Cortés,  incomodó  á  este  bastante,  por  lo  que  resolvió  des- 
+poseerlo del  trono;  hizo  llamar  á  su  hermano  Ixtlilxovhitl  que  esta- 
+ba en  Tlaxcala,  y  que  se  le  coronase  rey  para  tenerlo  á  su  vo- 
+luntad, y  que  fuese  uno  de  los  mas  poderosos  cooperadores  de  la 
+conquista  de  México  que  meditaba,  y  para  lo  que  era  indispensable 
+Tezcoco,  pues  servia  de  apoyo  á  sus  fuerzas,  de  asilo  á  una  reti- 
+rada, y  formaba  una  cadena  de  puestos  militares  desde  México  á 
+Tlaxcala.  Cortés  hizo  bautizar  á  Ixtlilxochitl,  y  como  le  sirvió  de  pa- 
+drino para  esta  ceremonia  augusta,  le  mandó  también  tomar  el  nombre 
+de   Fernando. 
+
+(19)  Traídos  los  bergantines  en  hombros  de  indios  y  en  piezas  de 
+Tlaxcala,  se  comenzaron  á  armar  y  carenar  sirviendo  de  grasa  en  esta 
+operación  para  mezclarla  con  la  brea,  el  unto  ó  sain  de  los  indios  muer- 
+tos á  falta  de  aceite  ó  manteca  de  puerco:  para  esta  obra  precisa  abrieron 
+una  zanja  profunda.  El  lugar  donde  se  hizo  esta  carena  existe  hoy 
+y  yo  lo  he  visto,  tiene  un  maciso  de  cal  y  canto  como  muelle  dominan. 
+te  á  la  laguna,  la  cual  hoy  dista  de  aquel  punto  mas  de  una  legua 
+pues  el  agua  ha  minorádose,  y  ademas  la  superficie  del  terreno  levanta' 
+do  sobre  su  antiguo  nivel ,   en  términos   de  que  queriendo  el  ac- 
+
+
+67 
+
+*ual  gobernado*  del  estado  dé  México  D.  Lorenzo  Zarala  abrir  un 
+canal  para  facilitar  el  comercio  deTezcoco  por  agua,  se  ha  gastado  in- 
+útilmente la  cantidad  de  ocho  mil  pesos,  y  al  paso  que  caminamos  la  laguna 
+quedará  de  todo  punto  seca.  No  será  inoportuno  decir  aqui  que 
+&  poca  distancia  del  embarcadero  dicho,  ó  muelle  de  los  Españoles,  y 
+«n  términos  de  la  hacienda  de  Chapingo  que  es  hoy  del  ex  marques 
+de  Vivanco,  ha  cuatro  años  que  se  encontró  una  enorme  osamenta 
+que  al  parecer  es  de  Mastodonte,  de  la  que  alguna  pártese  halla  en 
+el  museo  de  la  universidad.  Digo  al  parecer,  porque  no  se  han  podi- 
+do examinar  las  mandíbulas  para  fijaise  en  el  concepto  de  si  es  ó 
+no  de  esta  bestia  ó  de  elefante  según  me  aseguró  el  sabio  D.  An- 
+drés del  Rio$  lo  cierto  es  que  este  animal  allí  pereció;  pero  lo  que 
+mas  ha  de  admirar  á  mis  lectores  es,  que  igual  hallazgo  se  tuvo  en 
+el  desagüe  de  Huehurtoca  á  la  profundidad  de  cuarenta  varas.  ¡Que 
+revoluciones  no  habrá  sufrido  la  tierra  para  que  su  superficie  haya  ele- 
+vádose  á  tal  altura,  y  cuando  pudo  haberse  tapado  este  ani¡nal  con 
+tantas  capas  de  tierra!.  .  .  .Sj«  dudas  que  yo  no  podré  satisfacer. 
+Parte  de  la  osamenta  de  este  cetáceo  se  halla  en  la  librería  del  co- 
+legio de  San  Ildefonso  de  México.  Mientras  tanto  se  aorestabín  los 
+bergantines  de  los  Españoles  Cortés  hizo  varias  escursiones  por  sí  y 
+por  me  lio  de  Sandoval  uno  de  sus  mayores  capitanes,  sobre  los  pue- 
+blos inmediatos  á  la  laguna,  y  no  en  todas  tuvieron  entramaos  buen 
+suceso.  Viérouse  los  Españoles  á  punto  de  perecer  en  Ixtapalapan  y 
+Xochimilco  donde   los  Indios  les  soltaron  1  is    compuertas    del    agua 
+
+3ue  los  iba  á  inundar,  y  habrianlo  conseguido  si  hubieran  ejecuta- 
+o  esta  operación  á  la  media  noche  después  deque  ya  se  creían  allí  se- 
+guros. En  un  peñón  cerca  de  Jlmecamecan  fueron  rechazados  los  cas- 
+tellanos con  ignominia,  y  lo  habrían  sido  con  mayor  á  no  haber  aban- 
+donado los  Indios  otro  inmediato  por  falta  de  a<rua.  Cortés  había  dis- 
+puesto que  Tlacopan  fuese  el  punto  de  reunión  para  distribuir  des- 
+de allí  las  divisiones  de  operación  sobre  México;  mas  los  mexica- 
+canos  estaban  dispuestos  á  repetir  allí  las  escenas  de  horror  de  la 
+noche  triste  del  año  anterior.  Efectivamente,  trabóse  un  combate  en 
+el  que  á  merced  de  una  emboscada  con  oportunidad  puesta  por  los 
+mexicanos  iban  á  perecer  los  castellanos:  con  tal  motivo  Cortés 
+se  retiró  para  Tezcoco,  para  sazonar  el  sitio  de  México  que  le  au- 
+mentaba cada  dia  mayores  dificultades.  En  Tezcoco  se  le  urdió  una 
+conspiración  que  estaba  á  punto  de  estallar  cuando  fue  descubierta:  su 
+autor  era  Antonio  de  Villafañe,  á  quien  hizo  ahorcar,  y  la  motivó 
+el  verlo  decidido  á  acometer  la  empresa  de  México  que  se  tenia  por 
+temeraria.  No  le  causó  menor  desabrimiento  el  saber  que  el  general  Ai- 
+cotencatl  de  Tlaxcala,  herido  en  una  disputa  por  un  español,  *e  ha- 
+bía retirado  á  su  patria  abandonando  la  hueste  auxiliar  que  condu- 
+cía de  ella  para  Tezcoco:  Cortés  logró  prenderlo  y  lo  ahorcó  en  esta 
+ciudad;  tal  fue  el  término  de  este  ilustre  guerrero  que  siempre  de- 
+testó á  los  Españoles,  y  habría  acabado  con  ellos  si  el  amigo  de  estos 
+Maxiscatzin  no  se  hubiera  opuesto  á  que  les  diera  segundo  ataque.  C»r- 
+
+
+68 
+tés  llevó  á  cabo  su  venganza,  pues  le  confiscó  sus  bienes,  entre  los 
+que  habia  gran   cantidad  de  oro  que  tanto  apetecía;  basta  tenerlo  pa- 
+ra ser  reputado  criminal. 
+
+(20)  Este  acontecimiento  parecerá  á  muchos  fabuloso,  pero  se  aca- 
+ba de  repetir  el  dia  8  de  mayo  del  presente  año  de  1829;  oigamos 
+la  relación  que  de  él  se  hace  en  el  periódico  Jlstro  moreliano  de 
+Valladolid  de  14  del  mismo  mes.  artículo  Aoticias  del  estado  donde 
+se  lee  lo  siguiente.  ,,Maravatio  mayo  11.  El  dia  8  del  presente,  po- 
+co antes  de  las  nueve  de  la  noche  pasó  de  este  pueblo  de  norte  á 
+sur,  una  hermosa  exhalación  que  opacó  la  luz  de  la  luna  que  esta- 
+ba á  cielo  raso,  causando  una  grande  sorpresa  á  cuantos  la  vieron. 
+Después  de  unos  ocho  ó  diez  minutos  que  terminó  dividiéndose  en 
+tres  fracciones,  se  oyó  un  sonoro  estadillo  á  manera  del  de  un  ca- 
+ñón de  muy  grueso  calibre,  quedando  un  imponente  retumbido 
+que  duraria  siete  minutos,  el  que  hizo  salir  de  sus  casas  á  porción 
+de  gentes  que  asustadas  pedían  misericordia.  Hemos  sabido  que  en 
+Irimbo  y  Tuxpan  causó  los  mismos  efectos"-«««¿Qué  mucho  que  este 
+metéoro  acabara  de  decidir  á  los  mexicanos  á  entregarse,  mirándose 
+ya  de  todo  punto  destruidos  y  que  los  acabase  de  acobardar?  Hoj 
+porhoy  (27  de  mayo  de  1829)¡  el  pueblo  de  México  se  halla  amedren- 
+tado con  los  varios  empujones  que  ha  sufrido  esta  capital ,  efecto 
+de  las  agitaciones  interiores  del  volcan  de  Popocatepetf,  y  presume 
+que  tiene  sobre  sí  la  cólera  del  cielo,  tendiendo  la  vista  sobre  los  acon- 
+tecimientos de  la  Acordada  del  mes  de  diciembre  próximo  pasado, 
+y  en  que  se  ejecutaron  excesos  que  jamás  se  habían  visto  ¿Con  cuán- 
+ta mayor  razón  no  se  acobardarían  los  mexicanos  rodeados  de  cadáve- 
+res, muertos  de  hambre,  y  temiendo  su  total  ruina  por  la  furia  y  sa- 
+ña de  los  auxiliares  de  los  Españoles  venidos  á  la  husma  del  sa- 
+queo de  esta  rica  capital?  Su  superstición  les  hizo  predecir  el  mal  éxito 
+de  la  guerra  desde  que  vieron  arder  el  templo  mayor  de  Tlalúlol- 
+co ;  ya  lo  habían  creído  con  las  horribles  señales  de  destrucción 
+que  observaron  en  los  años  anteriores,  y  con  cuya  relación  da  prin- 
+cipio esta  historia;  otro  pueblo  menos  valiente  que  el  mexicano  ha- 
+bría sucumbido  por  ellas  á  su  destino  como  lo  hizo  Mocthecuzoma; 
+por  tanto  es  mucho  de  admirar  su  resolución,  constancia  y  valor  en 
+llevar  la  guerra  tan  adelante  y  hasta  este  punto. 
+
+(21)  De  este  modo  fue  conquistada  la  ciudad  de  México  el  día 
+13  de  agosto  de  1521,  ciento  noventa  y  seis  años  después  de  funda- 
+da por  los  Aztecas,  y  ciento  sesenta  y  nueve  después  de  erigida 
+en  monarquía,  cuyo  trono  ocuparon  sucesivamente  once  reyes.  Du- 
+ró el  sitió  de  México,  comparable  con  el  de  Jerusalen,  setenta  y 
+cinco  dias:  murieron  en  él  algunos  millares  de  doscientos  mil  hombies 
+que  se  hallaron  presentes ,  y  mas  de  cien  Españoles  que  la  in- 
+vadieron: se  cree  que  el  número  de  mexicanos  muertos  pasaron  de  cien 
+mil,  sin  contar  los  que  perecieron  de  hambre  acasionada  por  la  ma- 
+la agua  que  bebían,  alimentos  dañosos,  é  infección  del  aire,  que  se- 
+gún Cortés  asegura,  pasaron  de  cincuenta  mil. 
+
+
+69 
+
+Aunque  son  ya  pasados  trescientos  siete  años  de  este  importante 
+acontecimiento,  todavía  conservamos  vestigios  de  el.  Toda  la  llanu- 
+ra del  Santuario  de  nuestra  Señora  de  los  Angeles  y  de  Santiago  Tlal- 
+tilolco  se  ve  sembrada  de  fragmentos  de  lanzas  cortantes,  de  maca- 
+nas, y  flechas  de  piedra  obsidiana  de  que  usaban  los  mexicanos  ó 
+sea  cniuapos,  y  yo  he  recogido  no  pocos  que  conservo  en  mi  po- 
+der. En  los  dias  del  segundo  conde  de  Revilla  Gigedo  al  rebajar 
+la  calle  de  la  Enseñanza  y  Cordovanes  para  nivelar  la  ciudad  se  halla- 
+ron crecidas  sumas  de  macanas  sepultadas  en  ellas  que  remitió  á 
+España;  también  se  encontró  una  pequeña  culebra  perfectamente  hecha 
+y  enroscada  de  piedra  jaspe  muy  verde  que  llamaban  Chalchivitl  ó 
+sea  esmeralda  ordinaria-  El  profesor  de  platería  D.  José  Luis  Alco- 
+nedo  notó  que  en  la  lengua  de  dicha  culebra  habia  un  pequeño  hau- 
+gero;  introdújole  un  alambre,  y  ¡cuánta  fue  su  admiración  viendo  que 
+entraba  mas  y  mas  hasta  salir  por  la  punta  de  la  cola!  cómo  pu- 
+do hacerse  un  taladro  semejante  y  sin  instrumentos  á  propósito,  fue 
+cosa  que  llenó  de  admiración  á  este  artífice  no  menos  que  al  virey, 
+ti  cual  mandó  luego  aquella  curiosidad  á  la  corte  de  Madrid.  Mé- 
+xico está  lleno  de  preciosos  monumentos  que  irán  apareciendo  cuan- 
+do el  gobierno  los  pague  y  sepa  descifrarlos,  entonces  los  solicitará 
+con  encarecimiento,  y  le  darán  muchas  luces  para  esta  operación  los 
+escritos  del    Padre  Sahagun  que  hoy  están  en   la  prensa. 
+
+Tal  suerte  cupo  ó  mexicanos  á  esta  desgraciada  nación  por  su  idola- 
+tría, abominaciones  y  crueldadas;  siguióse  la  dominación  férrea  de  los 
+Españoles,  las  epidemiasy  hambres  que  casi  han  hecho  desaparecer  aque 
+Ha  ilustre  nación,  y  que  hoy  pase  por  paradógica  la  historia  de- 
+su  grandeza.  Igual  desgracia  nos  cabrá  jo  compatriotas!  si  no  sa- 
+bemos hacer  buen  uso  de  la  libertad  que  hemos  recobrado,  si  nos  des- 
+moralizamos, si  abrigamos  en  nuestro  seno  las  facciones  y  partidos 
+de  cualquier  naturaleza  y  con  cualquier  denominación  que  se  nos  pre- 
+senten: si  confundimos  las  ideas  de  libertad  con  las  de  libertinaje, 
+las  de  liberalidad  y  despreocupación  con  las  de  impiftlad,  las  de  re- 
+gularidad con  las  de  fanatismo- •♦  Muchas  veces  os  he  presentado  á 
+la  vista  los  horrores  de  semejantes  estravios;  pero  considerando  que  mis 
+eshortaciones  han  sido  infructuosas,  hoyos  desarrollo  el  verdadero  cua- 
+dro, y  os  presento  el  espejo  en  que  os  debéis  mirar.  Si  por  vue>tros  esce» 
+sos  sois  un  dia  reconquistados  por  los  Españoles,  esperad  sufrir  de  ellos 
+lo  que  sufrieron  nuestros  antepasados* ••  Ah!  antes  que  tal  suceda 
+las  salobres  aguas  de  nuestras  lagunas  se  sorban  esta  capital,  tor- 
+rentes de  laba  de  Popocatepetl  derritan  sus  eternas  nieves,  é  inun- 
+den el  hermoso  valle  de  la  linda  Tenoctitlan-.-Sí  mexicanos,  prefe- 
+rible  es  la  muerte  á  la  esclavitud,  y  esclavitud  española. 
+
+
+ni  ii  i  ii  ni  i"  i"  » "  "  "_;•'  Vo 
+3  3125  00060  7412 
+
+
+«*#. 
+
+

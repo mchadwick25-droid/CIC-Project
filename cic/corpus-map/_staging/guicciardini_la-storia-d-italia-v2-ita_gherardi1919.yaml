@@ -1,0 +1,12 @@
+source_file: guicciardini_la-storia-d-italia-v2-ita_gherardi1919.txt
+assignments:
+- row_id: guicciardini_la-storia-d-italia-v2-ita_gherardi1919--guicciardini-storia-d-italia-volume-2-gherardi
+  work: 'Guicciardini, Storia d''Italia, volume 2 (Gherardi)'
+  author: guicciardini
+  locus: 'the whole volume; not mapped'
+  atlas_ids:
+  - the-tridentine-church
+  - latin-papal-church-avignon-to-lateran-v
+  role: context
+  confidence: needs-ruling
+  note: 'A Florentine statesman''s history of Italy, in his own Italian; an outside witness on the popes of his time. Not read in depth.'

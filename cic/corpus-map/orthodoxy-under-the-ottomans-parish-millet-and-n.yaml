@@ -63,6 +63,15 @@ works:
   note: The patriarchal decrees of 1498 and 1574 and the monk Pachomios's tract of about 1530
     on the Athos community's own life. Within this entry's window (1453-1650).
   source_file: athos-monasteries_haupturkunden-fur-die-geschichte-der-athoskloster-ger-grc_meyer1894.txt
+- row_id: busbecq_life-and-letters-v1_forster-daniell1881--busbecq-turkish-letters-i-iv-with-the-editors-life-forster-and-daniell
+  work: Busbecq, Turkish Letters I-IV, with the editors' Life (Forster and Daniell)
+  author: busbecq
+  locus: about OCR lines 3531-19084; add 12 to OCR line numbers
+  role: context
+  confidence: needs-ruling
+  note: An imperial ambassador's letters from the Ottoman court, in a translators' English;
+    an outside witness on the Christians under the sultan. Not read in depth.
+  source_file: busbecq_life-and-letters-v1_forster-daniell1881.txt
 - row_id: sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838--john-cananus-de-bello-constantinopolitano-greek-with-latin
   work: John Cananus, De bello Constantinopolitano, Greek with Latin
   author: cananus
@@ -190,6 +199,36 @@ works:
 
     '
   source_file: euchologion-to-mega_second-edition-grc_zerbos1862.txt
+- row_id: evliya-celebi_narrative-of-travels-v1-pt1_hammer1834--evliya-efendi-narrative-of-travels-volume-i-part-1-von-hammer
+  work: Evliya Efendi, Narrative of Travels, volume I, part 1 (von Hammer)
+  author: evliya-celebi
+  locus: the whole volume; not mapped
+  role: context
+  confidence: needs-ruling
+  note: An Ottoman traveller of the seventeenth century, in a translator's English; an outside
+    witness who names the Christian and Jewish quarters of the towns he describes. Not read
+    in depth.
+  source_file: evliya-celebi_narrative-of-travels-v1-pt1_hammer1834.txt
+- row_id: evliya-celebi_narrative-of-travels-v1-pt2_hammer1846--evliya-efendi-narrative-of-travels-volume-i-part-2-von-hammer
+  work: Evliya Efendi, Narrative of Travels, volume I, part 2 (von Hammer)
+  author: evliya-celebi
+  locus: the whole volume; not mapped
+  role: context
+  confidence: needs-ruling
+  note: An Ottoman traveller of the seventeenth century, in a translator's English; an outside
+    witness who names the Christian and Jewish quarters of the towns he describes. Not read
+    in depth.
+  source_file: evliya-celebi_narrative-of-travels-v1-pt2_hammer1846.txt
+- row_id: evliya-celebi_narrative-of-travels-v2_hammer1850--evliya-efendi-narrative-of-travels-volume-ii-von-hammer
+  work: Evliya Efendi, Narrative of Travels, volume II (von Hammer)
+  author: evliya-celebi
+  locus: the whole volume; not mapped
+  role: context
+  confidence: needs-ruling
+  note: An Ottoman traveller of the seventeenth century, in a translator's English; an outside
+    witness who names the Christian and Jewish quarters of the towns he describes. Not read
+    in depth.
+  source_file: evliya-celebi_narrative-of-travels-v2_hammer1850.txt
 - row_id: fletcher-giles-elder_russe-common-wealth-with-horsey-travels_bond1856--of-the-russe-common-wealth-giles-fletcher-1591-and-the-2
   work: Of the Russe Common Wealth (Giles Fletcher, 1591) and the Travels of Sir Jerome Horsey,
     in Bond's Hakluyt Society edition (1856)
@@ -355,6 +394,15 @@ works:
 
     '
   source_file: acta-et-scripta-wirtembergensium_jeremias-ii-correspondence-lat_1584.txt
+- row_id: katib-celebi_history-of-the-maritime-wars-of-the-turks-chapters-1-4_mitchell1831--katib-chelebi-history-of-the-maritime-wars-of-the-turks-chapters-i-iv-mitchell
+  work: Katib Chelebi, History of the Maritime Wars of the Turks, chapters I-IV (Mitchell)
+  author: katib-celebi
+  locus: the whole volume; not mapped
+  role: context
+  confidence: needs-ruling
+  note: An Ottoman historian of the seventeenth century, in a translator's English; an outside
+    witness. Not read in depth.
+  source_file: katib-celebi_history-of-the-maritime-wars-of-the-turks-chapters-1-4_mitchell1831.txt
 - row_id: smith-thomas_collectanea-de-cyrillo-lucario-lat_1707--appendix-letters-and-papers-of-cyril-lucaris-with-ottoman-command
   work: 'Appendix: letters and papers of Cyril Lucaris in Latin, with an Italian ''Instruttione''
     and a ''Comandamento'' (an Ottoman command concerning the Patriarch) in Italian'

@@ -1,0 +1,11 @@
+source_file: montaigne_essays-v1_florio-saintsbury1892.txt
+assignments:
+- row_id: montaigne_essays-v1_florio-saintsbury1892--montaigne-essays-volume-1-florio
+  work: 'Montaigne, Essays, volume 1 (Florio)'
+  author: montaigne
+  locus: 'the whole volume; not mapped'
+  atlas_ids:
+  - the-huguenots
+  role: context
+  confidence: needs-ruling
+  note: 'A French gentleman''s essays, written in the wars of religion, in the English of 1603; an outside witness. Not read in depth.'

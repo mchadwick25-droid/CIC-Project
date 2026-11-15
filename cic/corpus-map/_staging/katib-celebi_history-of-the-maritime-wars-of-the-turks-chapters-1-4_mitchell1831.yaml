@@ -1,0 +1,11 @@
+source_file: katib-celebi_history-of-the-maritime-wars-of-the-turks-chapters-1-4_mitchell1831.txt
+assignments:
+- row_id: katib-celebi_history-of-the-maritime-wars-of-the-turks-chapters-1-4_mitchell1831--katib-chelebi-history-of-the-maritime-wars-of-the-turks-chapters-i-iv-mitchell
+  work: 'Katib Chelebi, History of the Maritime Wars of the Turks, chapters I-IV (Mitchell)'
+  author: katib-celebi
+  locus: 'the whole volume; not mapped'
+  atlas_ids:
+  - orthodoxy-under-the-ottomans-parish-millet-and-n
+  role: context
+  confidence: needs-ruling
+  note: 'An Ottoman historian of the seventeenth century, in a translator''s English; an outside witness. Not read in depth.'

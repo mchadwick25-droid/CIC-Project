@@ -1,0 +1,20 @@
+source_file: corpus-reformatorum_v27-confutatio-et-apologia-confessionis-augustanae-lat-deu_bindseil1859.txt
+assignments:
+- row_id: corpus-reformatorum_v27-confutatio-et-apologia-confessionis-augustanae-lat-deu_bindseil1859--confutatio-confessionis-augustanae-1530-latin-corpus-reformatorum-27
+  work: 'Confutatio Confessionis Augustanae (1530), Latin (Corpus Reformatorum 27)'
+  author: corpus-reformatorum
+  locus: 'from about OCR line 3640; the end not pinned; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-tridentine-church
+  role: tradition
+  confidence: provisional
+  note: 'The emperor''s theologians'' answer to the Augsburg Confession, in a Protestant edition.'
+- row_id: corpus-reformatorum_v27-confutatio-et-apologia-confessionis-augustanae-lat-deu_bindseil1859--melanchthon-apologia-confessionis-augustanae-with-the-confutatio-it-answers-corpus-reformatorum-27
+  work: 'Melanchthon, Apologia Confessionis Augustanae, with the Confutatio it answers (Corpus Reformatorum 27)'
+  author: corpus-reformatorum
+  locus: 'the whole volume; not mapped'
+  atlas_ids:
+  - lutheran-wittenberg-and-its-congregations
+  role: tradition
+  confidence: provisional
+  note: 'Latin texts; the Apology''s sections not mapped.'

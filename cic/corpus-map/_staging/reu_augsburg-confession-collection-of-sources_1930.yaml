@@ -1,0 +1,20 @@
+source_file: reu_augsburg-confession-collection-of-sources_1930.txt
+assignments:
+- row_id: reu_augsburg-confession-collection-of-sources_1930--reu-the-augsburg-confession-a-collection-of-sources
+  work: 'Reu, The Augsburg Confession: a collection of sources'
+  author: reu
+  locus: 'the whole volume; not mapped'
+  atlas_ids:
+  - lutheran-wittenberg-and-its-congregations
+  role: tradition
+  confidence: provisional
+  note: 'Lutheran sources of 1530 in a translator''s English of 1930.'
+- row_id: reu_augsburg-confession-collection-of-sources_1930--confutatio-pontificia-1530-in-english-reu
+  work: 'Confutatio pontificia (1530), in English (Reu)'
+  author: reu
+  locus: 'about OCR lines 32564-35372; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-tridentine-church
+  role: context
+  confidence: provisional
+  note: 'The Catholic answer, first draft and final text, in translation.'

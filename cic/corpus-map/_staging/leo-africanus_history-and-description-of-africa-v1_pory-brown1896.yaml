@@ -1,0 +1,11 @@
+source_file: leo-africanus_history-and-description-of-africa-v1_pory-brown1896.txt
+assignments:
+- row_id: leo-africanus_history-and-description-of-africa-v1_pory-brown1896--leo-africanus-history-and-description-of-africa-volume-1-pory-ed-brown
+  work: 'Leo Africanus, History and Description of Africa, volume 1 (Pory, ed. Brown)'
+  author: leo-africanus
+  locus: 'the whole volume; not mapped'
+  atlas_ids:
+  - the-coptic-church-under-the-ottomans
+  role: context
+  confidence: needs-ruling
+  note: 'A Moor of Fez, baptised at Rome by the title page''s account, describing Africa in the 1520s, in the English of 1600; an outside witness. No census entry is North Africa of his day; set on the Coptic entry for his book on Egypt, which was not located. Not read in depth.'

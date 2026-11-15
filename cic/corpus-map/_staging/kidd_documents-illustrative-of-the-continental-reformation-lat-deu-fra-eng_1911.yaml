@@ -1,0 +1,29 @@
+source_file: kidd_documents-illustrative-of-the-continental-reformation-lat-deu-fra-eng_1911.txt
+assignments:
+- row_id: kidd_documents-illustrative-of-the-continental-reformation-lat-deu-fra-eng_1911--kidd-documents-of-the-continental-reformation-worms-marburg-and-augsburg
+  work: 'Kidd, Documents of the Continental Reformation: Worms, Marburg and Augsburg'
+  author: kidd
+  locus: 'about OCR lines 5682-6115, 14477-14900 and 15135-17200; add 12 to OCR line numbers'
+  atlas_ids:
+  - lutheran-wittenberg-and-its-congregations
+  role: tradition
+  confidence: provisional
+  note: 'Luther''s answer at Worms, the fifteenth Marburg article with the signatures, and Augsburg texts, in their own languages.'
+- row_id: kidd_documents-illustrative-of-the-continental-reformation-lat-deu-fra-eng_1911--kidd-documents-of-the-continental-reformation-the-swiss-and-french-documents
+  work: 'Kidd, Documents of the Continental Reformation: the Swiss and French documents'
+  author: kidd
+  locus: 'the whole volume; not mapped'
+  atlas_ids:
+  - the-reformed-cities-zurich-and-geneva
+  role: tradition
+  confidence: provisional
+  note: 'Includes Collin''s report of Marburg at about OCR line 14477; the rest not mapped.'
+- row_id: kidd_documents-illustrative-of-the-continental-reformation-lat-deu-fra-eng_1911--kidd-documents-of-the-continental-reformation-aleander-the-emperor-s-declaration-and-the-edict-of-worms
+  work: 'Kidd, Documents of the Continental Reformation: Aleander, the Emperor''s declaration and the Edict of Worms'
+  author: kidd
+  locus: 'about OCR lines 5682-6115; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-tridentine-church
+  role: context
+  confidence: provisional
+  note: 'Aleander and the emperor in their own words.'

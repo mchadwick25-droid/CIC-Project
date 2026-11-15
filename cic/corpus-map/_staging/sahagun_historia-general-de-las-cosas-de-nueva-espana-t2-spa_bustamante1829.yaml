@@ -1,0 +1,11 @@
+source_file: sahagun_historia-general-de-las-cosas-de-nueva-espana-t2-spa_bustamante1829.txt
+assignments:
+- row_id: sahagun_historia-general-de-las-cosas-de-nueva-espana-t2-spa_bustamante1829--sahagun-historia-general-de-las-cosas-de-nueva-espana-volume-2-bustamante
+  work: 'Sahagun, Historia general de las cosas de Nueva Espana, volume 2 (Bustamante)'
+  author: sahagun
+  locus: 'the whole volume; not mapped'
+  atlas_ids:
+  - new-spain-and-andes-mission-born-christianity
+  role: tradition
+  confidence: provisional
+  note: 'The friar''s Spanish text only; the Nahuatl of his informants is not in this edition.'

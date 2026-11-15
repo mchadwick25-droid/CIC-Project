@@ -1,0 +1,11 @@
+source_file: fuesslin_beytraege-kirchen-reformations-geschichten-schweitzerland-theil-5-deu_1753.txt
+assignments:
+- row_id: fuesslin_beytraege-kirchen-reformations-geschichten-schweitzerland-theil-5-deu_1753--katharina-zell-letter-to-the-citizens-of-strasbourg-with-her-answer-to-ludwig-rabus-printed-1557-in-fusslin-s-beytrage-5
+  work: 'Katharina Zell, letter to the citizens of Strasbourg with her answer to Ludwig Rabus (printed 1557), in Fusslin''s Beytrage 5'
+  author: fuesslin
+  locus: 'about OCR lines 9555-16345; add 12 to OCR line numbers'
+  atlas_ids:
+  - lutheran-wittenberg-and-its-congregations
+  role: tradition
+  confidence: needs-ruling
+  note: 'Her own words, in an eighteenth-century reprint. Strasbourg has no census entry of its own; set on the Lutheran entry as the Who scan sets her.'

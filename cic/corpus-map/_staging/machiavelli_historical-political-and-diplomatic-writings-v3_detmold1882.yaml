@@ -1,0 +1,12 @@
+source_file: machiavelli_historical-political-and-diplomatic-writings-v3_detmold1882.txt
+assignments:
+- row_id: machiavelli_historical-political-and-diplomatic-writings-v3_detmold1882--machiavelli-writings-in-english-volume-3-detmold
+  work: 'Machiavelli, writings in English, volume 3 (Detmold)'
+  author: machiavelli
+  locus: 'the whole volume; not mapped'
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  - the-tridentine-church
+  role: context
+  confidence: needs-ruling
+  note: 'A Florentine secretary''s own writings, in a translator''s English; an outside witness on the papacy and Italy to 1527. Not read in depth.'

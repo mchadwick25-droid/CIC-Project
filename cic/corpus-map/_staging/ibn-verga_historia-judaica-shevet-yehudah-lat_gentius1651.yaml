@@ -1,0 +1,11 @@
+source_file: ibn-verga_historia-judaica-shevet-yehudah-lat_gentius1651.txt
+assignments:
+- row_id: ibn-verga_historia-judaica-shevet-yehudah-lat_gentius1651--shevet-yehudah-in-gentius-s-latin-historia-judaica-1651
+  work: 'Shevet Yehudah, in Gentius''s Latin (Historia Judaica, 1651)'
+  author: ibn-verga
+  locus: 'the whole volume; not mapped'
+  atlas_ids:
+  - the-tridentine-church
+  role: context
+  confidence: needs-ruling
+  note: 'A Jewish book of persecutions and disputations, in a Christian scholar''s Latin of 1651; the held title page does not name its author. No census entry is the Jews of Europe.'

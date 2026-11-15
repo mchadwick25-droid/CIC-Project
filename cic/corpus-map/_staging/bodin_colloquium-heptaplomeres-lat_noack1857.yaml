@@ -1,0 +1,11 @@
+source_file: bodin_colloquium-heptaplomeres-lat_noack1857.txt
+assignments:
+- row_id: bodin_colloquium-heptaplomeres-lat_noack1857--bodin-colloquium-heptaplomeres-noack-1857
+  work: 'Bodin, Colloquium heptaplomeres (Noack 1857)'
+  author: bodin
+  locus: 'the whole volume; not mapped'
+  atlas_ids:
+  - the-huguenots
+  role: context
+  confidence: needs-ruling
+  note: 'A dialogue on the religions, in Latin, by a French writer of the wars of religion; an outside witness. Not read in depth.'

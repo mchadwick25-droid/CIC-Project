@@ -1,0 +1,11 @@
+source_file: las-casas_historia-de-las-indias-t3-spa_fuensanta-sancho-rayon1875.txt
+assignments:
+- row_id: las-casas_historia-de-las-indias-t3-spa_fuensanta-sancho-rayon1875--las-casas-historia-de-las-indias-volume-3
+  work: 'Las Casas, Historia de las Indias, volume 3'
+  author: las-casas
+  locus: 'the whole volume; not mapped'
+  atlas_ids:
+  - new-spain-and-andes-mission-born-christianity
+  role: tradition
+  confidence: provisional
+  note: 'His own history, first printed here; the editors'' foreword in volume I gives its dates of writing. Chapters not mapped.'
