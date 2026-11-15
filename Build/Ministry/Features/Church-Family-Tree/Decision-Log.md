@@ -3550,7 +3550,7 @@ All three files are in `Build/Ministry/Operations/Audits/2026-11-14_map-directio
 
 **Coordinator's calls (2026-11-15; not Mark's words; Mark may overrule).**
 - **The plan.** The re-score's batch 10 had nine entries, and with the two from batch 9 it held eleven. Seven are written here. The worker proposed splitting off the four Georgian entries, to hold the writing quality: Grigol Khandzteli; Giorgi Merchule; John the Iberian and John Tornike; and Euthymius the Athonite. They share one Peeters volume, and they carry the open question of whether Euthymius the Athonite shares a profile with John the Iberian. The coordinator approved the split and will make them their own batch after batch 12.
-- **No majors.** The census on origin/main (release 43) holds no major flag yet; the flags arrive with release 44. None of the seven has a census person row, so the re-score's Major column is used. It marks all seven "no". The river counts in the batch 9 README stand.
+- **No majors.** Data release 44 (PR #1669), now on main, gives the census's Who rows a major flag. None of the seven has a census person row, so the re-score's Major column is used. It marks all seven "no". The river counts in the batch 9 README stand.
 - **Length.** The briefs were drafted at up to 2:15. After round 1 they were tightened to Mark's restated 2:00 (the entry "Who profile length: 2:00 restated, longer only when earned", above), with a README line for any that run longer. The seven run 328 to 333 words, about 2:00 each, so none has that line. Each cut is listed in `Tighten_2-00.md` in the audit folder. The tightening does not count as a review round.
 
 **Worker calls (not Mark's words; Mark may overrule).**

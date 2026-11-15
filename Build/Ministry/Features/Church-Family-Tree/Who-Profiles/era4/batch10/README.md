@@ -6,7 +6,7 @@ This is the re-score's batch 10: `Build/Ministry/Operations/Audits/2026-11-14_wh
 
 ## Majors and lengths
 
-The census on origin/main (release 43) holds no major flag yet; the flags arrive with release 44. None of the seven has a census person row, so the re-score's Major column is used, as the coordinator's brief directs. It marks all seven "no".
+Data release 44 (PR #1669), now on main, gives the census's Who rows a major flag. None of the seven has a census person row, so the re-score's Major column is used, as the coordinator's brief directs. It marks all seven "no".
 
 The briefs were drafted at up to 2:15 and tightened after round 1 to Mark's restated rule (Decision-Log, "Who profile length: 2:00 restated, longer only when earned", 2026-11-15). His pick: "2:00 for all, earn more (Recommended)". Every brief aims at 2:00, about 325 words, and runs longer only where this README names the scene or source a 2:00 version would lose. The seven now run 328 to 333 words, about 2:00 each, so none claims an exception. Each cut is listed in `Tighten_2-00.md` in the batch's audit folder, `Build/Ministry/Operations/Audits/2026-11-15_who-profiles-era4-batch10/`. Peter of Sicily and Ilarion have a thin own life, flagged. Theophanes's life rests on a Life whose author and date are disputed, and his brief says so.
 
