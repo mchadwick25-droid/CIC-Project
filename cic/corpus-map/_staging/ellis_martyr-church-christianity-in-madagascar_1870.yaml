@@ -1,0 +1,20 @@
+source_file: ellis_martyr-church-christianity-in-madagascar_1870.txt
+assignments:
+- work: '[The Martyr Church: a narrative of the] introduction, progress, and triumph of Christianity in Madagascar'
+  author: ellis
+  locus: Ranavalona placed on throne at OCR lines 192, 402, 1810, 11996; the rest not mapped
+  atlas_ids:
+  - malagasy-christianity
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1870
+    end: 1870
+    source: 'the printing''s own title page: line 100 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1870
+    source: line 100 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 rows 316 and 317, Ranavalona I and Ranavalona II: Ellis''s later narrative.'

@@ -28734,3 +28734,93 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 307,911 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: booth-catherine_godliness_1883.txt
+  - title: 'Fifty-Three Years In Syria / By Henry Harris Jessup, D.D. / Introduction by James S. Dennis, D. D. / In Two Volumes / Volume I / New York Chicago Toronto Fleming H. Revell Company London and Edinburgh'
+    author: 'HENRY HARRIS JESSUP, D.D.; Introduction by James S. Dennis, D. D.'
+    year: '1910'
+    world: arab-evangelical-churches
+    why: 'Wanted Sources, era 9 rows 324, 325 and 326, Pliny Fisk, the Arabic Bible translators and Asaad es Shidiak: Jessup''s memoir, vol. 1.'
+    url: https://archive.org/details/fiftythreeyears00unkngoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1910); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the date agrees; the date used is that of the copyright notice at line 146 of this file (''Copyright, 1910, by''); the title page prints no year'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 881,674 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: jessup_fifty-three-years-in-syria-v1_1910.txt
+  - title: 'A History of the Plymouth Brethren / by William Blair Neatby, M.A. / London, Hodder and Stoughton, 27 Paternoster Row, MCMI'
+    author: 'WILLIAM BLAIR NEATBY, M.A.'
+    year: '1901'
+    world: plymouth-brethren-and-dispensational-formation
+    why: 'Wanted Sources, era 9 row 181, John Nelson Darby: a history of the Brethren by another hand.'
+    url: https://archive.org/details/ahistoryoftheply00neatuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1901); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 762,200 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: neatby_history-of-the-plymouth-brethren_1901.txt
+  - title: 'A Retrospect of the First Ten Years of the Protestant Mission to China (now in connection with the Malay, Ultra-Ganges Missions) accompanied with Miscellaneous Remarks on the Literature, History and Mythology of China &c. By William Milne, Malacca: printed at the Anglo-Chinese Press 1820'
+    author: 'WILLIAM MILNE'
+    year: '1820'
+    world: the-missionary-movement-s-native-churches-seramp
+    why: 'Wanted Sources, era 9 row 311, Liang Fa: the missionary''s account of a baptism in 1816.'
+    url: https://archive.org/details/aretrospectfirs00milngoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1820); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 665,398 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: milne_retrospect-of-the-first-ten-years-of-the-protestant-mission-to-china_1820.txt
+  - title: 'The Story of Uganda and the Victoria Nyanza Mission by Sarah Geraldina Stock, with a map and illustrations, London, The Religious Tract Society, 56 Paternoster Row; 65 St Paul''s Churchyard and 164 Piccadilly, 1892'
+    author: 'SARAH GERALDINA STOCK'
+    year: '1892'
+    world: east-african-christianity-uganda-martyrs
+    why: 'Wanted Sources, era 9 row 318, Joseph Mukasa Balikuddembe: a mission history that names him.'
+    url: https://archive.org/details/storyofuganda00stocuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1892); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 419,898 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: stock_story-of-uganda-and-the-victoria-nyanza-mission_1892.txt
+  - title: 'Le Cardinal Lavigerie et ses oeuvres d''Afrique, par l''abbe Felix Klein, professeur a l''Institut catholique de Paris, nouvelle edition completement refondue, Tours, Alfred Mame et fils, editeurs, M DCCC XCVII'
+    author: 'L''ABBE FELIX KLEIN'
+    year: '1897'
+    world: east-african-christianity-uganda-martyrs
+    why: 'Wanted Sources, era 9 row 210, Charles Lwanga: a French account that names him.'
+    url: https://archive.org/details/lecardinallavige00kleiuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1897); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 752,443 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: klein_le-cardinal-lavigerie-et-ses-oeuvres-d-afrique-fra_1897.txt
+  - title: 'Das Bulgarische Exarchat und der Mazedonische Kirchenstreit. Inaugural-Dissertation zur Erlangung der Doktorwuerde bei der juristischen Fakultaet der Universitaet Leipzig, eingereicht von Kurt Scheffler, Dragoman der Kaiserl. Botschaft in Konstantinopel. Borna-Leipzig, Buchdruckerei Robert Noske, 1909'
+    author: 'KURT SCHEFFLER (host record spells Scheeffler)'
+    year: '1909'
+    world: orthodoxy-after-1821-balkan-autocephalies
+    why: 'Wanted Sources, era 9 row 302, Antim I: the firman of 1870 in German, in a dissertation.'
+    url: https://archive.org/details/IA41545812_0035
+    rights_basis: 'Public Domain (pd-us-by-date: published 1909); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 100,997 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: scheffler_das-bulgarische-exarchat-und-der-mazedonische-kirchenstreit-deu_1909.txt
+  - title: 'Raccolta di concordati su materie ecclesiastiche tra la Santa Sede e le autorita civili, Roma, Tipografia Poliglotta Vaticana, 1919'
+    author: 'none on title page (host: Mercati, Angelo; Catholic Church, Treaties)'
+    year: '1919'
+    world: haitian-church-rupture-to-concordat
+    why: 'Wanted Sources, era 9 row 284, Fabre Geffrard: the text of the Concordat of 1860, in a Vatican collection.'
+    url: https://archive.org/details/raccoltadiconcor00cathuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1919); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 4,219,082 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: mercati_raccolta-di-concordati-ita-fra-lat_1919.txt
+  - title: 'A Narrative of Captivity in Abyssinia; with some account of the late Emperor Theodore, his country and people. By Henry Blanc, M.D. ... London: Smith, Elder and Co. 1868'
+    author: 'HENRY BLANC, M.D., M.R.C.S.E., F.A.S.L.'
+    year: '1868'
+    world: ethiopian-christianity-tewodros-to-menelik
+    why: 'Wanted Sources, era 9 rows 306 and 307, Tewodros II and Abuna Salama III: a captive''s account.'
+    url: https://archive.org/details/narrativeofcapti00blan
+    rights_basis: 'Public Domain (pd-us-by-date: published 1868); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 702,073 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: blanc_narrative-of-captivity-in-abyssinia_1868.txt
+  - title: '[The Martyr Church: a narrative of the] introduction, progress, and triumph of Christianity in Madagascar with notices of personal intercourse and travel in that island. By the Rev. William Ellis, author of Polynesian Researches, Three Visits to Madagascar. Third Thousand. London: John Snow and Co., 2 Ivy Lane, Paternoster Row. MDCCCLXX'
+    author: 'Rev. WILLIAM ELLIS'
+    year: '1870'
+    world: malagasy-christianity
+    why: 'Wanted Sources, era 9 rows 316 and 317, Ranavalona I and Ranavalona II: Ellis''s later narrative.'
+    url: https://archive.org/details/martyrchurchnarr00ell
+    rights_basis: 'Public Domain (pd-us-by-date: published 1870); the archive.org record says possible-copyright-status The Library of Congress is unaware of any copyright restrictions for this item., and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 786,878 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: ellis_martyr-church-christianity-in-madagascar_1870.txt

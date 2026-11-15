@@ -1,0 +1,21 @@
+source_file: klein_le-cardinal-lavigerie-et-ses-oeuvres-d-afrique-fra_1897.txt
+assignments:
+- work: Le Cardinal Lavigerie et ses oeuvres d'Afrique, par l'abbe Felix Klein, professeur a l'Institut catholique
+    de
+  author: klein
+  locus: Charles Louanga and the royal pages arrested, tied, burnt at OCR lines 7136-7215; the rest not mapped
+  atlas_ids:
+  - east-african-christianity-uganda-martyrs
+  role: context
+  confidence: provisional
+  language: fra
+  date:
+    start: 1897
+    end: 1897
+    source: 'the printing''s own title page: line 98 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1897
+    source: line 98 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 210, Charles Lwanga: a French account that names him.'

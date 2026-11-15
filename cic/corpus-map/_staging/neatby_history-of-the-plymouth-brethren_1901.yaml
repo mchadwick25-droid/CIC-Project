@@ -1,0 +1,20 @@
+source_file: neatby_history-of-the-plymouth-brethren_1901.txt
+assignments:
+- work: A History of the Plymouth Brethren / by William Blair Neatby, M.A. / London, Hodder and Stoughton, 27
+  author: neatby
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - plymouth-brethren-and-dispensational-formation
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1901
+    end: 1901
+    source: 'the printing''s own title page: line 69 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1901
+    source: line 69 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 181, John Nelson Darby: a history of the Brethren by another hand.'

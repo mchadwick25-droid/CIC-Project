@@ -1,0 +1,21 @@
+source_file: milne_retrospect-of-the-first-ten-years-of-the-protestant-mission-to-china_1820.txt
+assignments:
+- work: A Retrospect of the First Ten Years of the Protestant Mission to China (now in connection with the Malay,
+  author: milne
+  locus: Nov 3 [1816] baptism of Leang-kung-fah, a Chinese printer to the Mission at OCR lines 8235-8262; his weekly
+    reading with Milne at OCR lines 8355-8372; the rest not mapped
+  atlas_ids:
+  - the-missionary-movement-s-native-churches-seramp
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1820
+    end: 1820
+    source: 'the printing''s own title page: line 63 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1820
+    source: line 63 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 311, Liang Fa: the missionary''s account of a baptism in 1816.'

@@ -1,0 +1,20 @@
+source_file: blanc_narrative-of-captivity-in-abyssinia_1868.txt
+assignments:
+- work: A Narrative of Captivity in Abyssinia; with some account of the late Emperor Theodore, his country and
+  author: blanc
+  locus: Death and career of Abouna Salama (spelled Abouna) at OCR lines 10547-11050; the rest not mapped
+  atlas_ids:
+  - ethiopian-christianity-tewodros-to-menelik
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1868
+    end: 1868
+    source: 'the printing''s own title page: line 65 of this file, on the title page, where the OCR reads ''1 868.'''
+    formation_confidence: Documented
+  edition_date:
+    year: 1868
+    source: line 65 of this file, on the title page, where the OCR reads '1 868.'
+    formation_confidence: Documented
+  note: 'Era 9 rows 306 and 307, Tewodros II and Abuna Salama III: a captive''s account.'
