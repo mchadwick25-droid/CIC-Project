@@ -1,0 +1,22 @@
+source_file: smith-emma_collection-of-sacred-hymns_kirtland1835.txt
+assignments:
+- row_id: smith-emma_collection-of-sacred-hymns_kirtland1835--a-collection-of-sacred-hymns-for-the-church-of-the-latter
+  work: A Collection of Sacred Hymns, for the Church of the Latter Day Saints; selected by Emma Smith
+  author: smith-emma
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - latter-day-saints-lds
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1835
+    end: 1835
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n0 (the title page prints 1835;
+      the OCR does not give it)'
+    formation_confidence: Documented
+  edition_date:
+    year: 1835
+    source: read on the scan's page image, leaf n0 (the title page prints 1835; the OCR does not give it)
+    formation_confidence: Documented
+  note: 'Era 9 row 251, Emma Hale Smith: the hymnbook of 1835.'

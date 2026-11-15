@@ -1,0 +1,24 @@
+source_file: cartwright_autobiography-of-peter-cartwright_strickland1856.txt
+assignments:
+- row_id: cartwright_autobiography-of-peter-cartwright_strickland1856--autobiography-of-peter-cartwright-the-backwoods-preacher
+  work: Autobiography of Peter Cartwright, the Backwoods Preacher; edited by W. P. Strickland
+  author: cartwright
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - the-second-great-awakening-and-camp-meeting-worl
+  - nineteenth-century-methodism
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1856
+    end: 1856
+    source: the copyright notice at line 62 ('in the year 1856, by Carlton & Porter'); the archive.org record's
+      date is [1856]
+    formation_confidence: Documented
+  edition_date:
+    year: 1856
+    source: the copyright notice at line 62 ('in the year 1856, by Carlton & Porter'); the archive.org record's
+      date is [1856]
+    formation_confidence: Documented
+  note: 'Era 9 row 229, Peter Cartwright: his Autobiography.'

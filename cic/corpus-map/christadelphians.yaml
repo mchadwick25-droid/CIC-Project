@@ -3,6 +3,44 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: christadelphians
 works:
+- row_id: roberts-robert_christendom-astray_1884--christendom-astray-or-popular-theology-both-in-faith-and
+  work: 'Christendom Astray: or, Popular Theology (both in faith and practice) shewn to be
+    unscriptural; and the true'
+  author: roberts-robert
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1883
+    end: 1884
+    source: the preface, dated 18 December 1883, and the archive.org record's date of 1884
+    formation_confidence: Documented
+  edition_date:
+    year: 1884
+    source: the preface, dated 18 December 1883 (read on the scan's page image, leaf n6; the
+      OCR gives the year garbled), with which the archive.org record's date, 1884, agrees
+    formation_confidence: Documented
+  note: 'Era 9 row 254, Robert Roberts: Christendom Astray.'
+  source_file: roberts-robert_christendom-astray_1884.txt
+- row_id: roberts-robert_ways-of-providence_1881--the-ways-of-providence-authentically-illustrated
+  work: The Ways of Providence, authentically illustrated
+  author: roberts-robert
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1881
+    end: 1881
+    source: 'the printing''s own title page: line 105, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1881
+    source: line 105, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 254, Robert Roberts: The Ways of Providence.'
+  source_file: roberts-robert_ways-of-providence_1881.txt
 - row_id: thomas_elpis-israel_1849--elpis-israel-a-book-for-the-times-being-an-exposition-of-the
   work: 'Elpis Israel; a book for the times: being an exposition of the Kingdom of God, with
     reference to ''the time of'

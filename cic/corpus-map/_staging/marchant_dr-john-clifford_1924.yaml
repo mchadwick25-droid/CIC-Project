@@ -1,0 +1,21 @@
+source_file: marchant_dr-john-clifford_1924.txt
+assignments:
+- row_id: marchant_dr-john-clifford_1924--dr-john-clifford-c-h-life-letters-and-reminiscences
+  work: 'Dr. John Clifford, C.H.: Life, Letters and Reminiscences'
+  author: marchant
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - nineteenth-century-baptists
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1924
+    end: 1924
+    source: 'the printing''s own title page: line 252, under the publisher''s imprint: ''First published 1924'''
+    formation_confidence: Documented
+  edition_date:
+    year: 1924
+    source: 'line 252, under the publisher''s imprint: ''First published 1924'''
+    formation_confidence: Documented
+  note: 'Era 9 row 242, John Clifford: a Life told by another.'

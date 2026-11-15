@@ -842,6 +842,153 @@ are left for the next batches. One want was held already.
 - **Bavinck:** Magnalia Dei is not the Dogmatiek. **Lipscomb:** Queries and Answers (1910) is his own writing,
   not the census letters. **Gurney:** the 1824 title reads "Religious Peculiarities".
 
+## Era 9 (1815-1906), batch 2b (2026-11-15): rows 227-245, 249-262, 267-278, 323 and 327-330
+
+Sixty-one files for 49 person rows of
+`Build/Ministry/Operations/Audits/2026-11-12_wanted-sources-combined/Wanted_Sources.md`, and the date check
+batch 1 left on row 223. The search record is
+`Build/Ministry/Operations/Audits/2026-11-15_library-era9-b2b/Search_Log.md`. Every file has a printed year of
+1930 or earlier: on its title page (six read on the scan's page image), or, for twelve whose title page
+prints none, in a copyright notice, a dated preface the catalogue agrees with, or the title itself; each header
+says which. Google's own preamble was stripped from twelve files at intake, and each header says what went.
+Line numbers in these headers are the file's own lines.
+
+| want | state | file(s), with the year | shelf |
+|---|---|---|---|
+| era 9 row 227, Walter Scott: a Life told by another | filled | `baxter-w_life-of-elder-walter-scott_1874.txt` (1874); 139,679 words; eng | the-stone-campbell-restoration-movement, context |
+| era 9 row 228, 'Raccoon' John Smith: a Life told by another | filled | `williams-j-a_life-of-elder-john-smith_1870.txt` (1870); 184,885 words; eng | the-stone-campbell-restoration-movement, context |
+| era 9 row 229, Peter Cartwright: his Autobiography | filled | `cartwright_autobiography-of-peter-cartwright_strickland1856.txt` (1856); 163,023 words; eng | the-second-great-awakening-and-camp-meeting-worl, nineteenth-century-methodism, tradition |
+| era 9 row 233, Amanda Berry Smith: her Autobiography | filled | `smith-amanda_autobiography-story-of-the-lords-dealings_1893.txt` (1893); 214,885 words; eng | the-holiness-movement, the-black-church-in-america, tradition |
+| era 9 row 234, Hannah Whitall Smith: The Christian's Secret of a Happy Life | filled | `smith-hannah-whitall_christians-secret-of-a-happy-life_rev-ed1888.txt` (1888); 65,664 words; eng | the-holiness-movement, tradition |
+| era 9 row 234, Hannah Whitall Smith: her spiritual autobiography | filled | `smith-hannah-whitall_unselfishness-of-god_1903.txt` (1903); 81,241 words; eng | the-holiness-movement, tradition |
+| era 9 row 235, John S. Inskip: a Life told by others | filled | `mcdonald-searles_life-of-rev-john-s-inskip_1885.txt` (1885); 123,420 words; eng | the-holiness-movement, context |
+| era 9 row 236, Robert P. Wilder: the report of the movement's first convention, with his addresses | filled | `student-volunteer-movement_report-first-international-convention-cleveland_1891.txt` (1891); 99,836 words; eng | the-student-volunteer-movement-and-edinburgh-191, tradition |
+| era 9 row 239, William Taylor: Story of My Life | filled | `taylor-william_story-of-my-life_ridpath1895.txt` (1895); 406,560 words; eng | nineteenth-century-methodism, tradition |
+| era 9 row 329, Charles M. Sheldon: In His Steps | filled | `sheldon_in-his-steps_1897.txt` (1897); 84,862 words; eng | the-social-gospel, tradition |
+| era 9 row 330, George and Sarah Clarke: Sarah Clarke's own account of the mission | filled | `clarke_founding-of-pacific-garden-mission_1914.txt` (1914); 7,438 words; eng | the-rescue-mission-movement, tradition |
+| era 9 row 231, Zilpha Elaw: her Memoirs | filled | `elaw_memoirs-of-mrs-zilpha-elaw_1846.txt` (1846); 46,894 words; eng | the-black-church-in-america, tradition |
+| era 9 row 232, Julia Foote: A Brand Plucked from the Fire | filled | `foote_brand-plucked-from-the-fire_1879.txt` (1879); 25,037 words; eng | the-black-church-in-america, tradition |
+| era 9 row 238, James Varick: Rush's Short Account of the African Methodist Episcopal Church | filled | `rush_short-account-rise-and-progress-african-me-church_1843.txt` (1843); 24,644 words; eng | nineteenth-century-methodism, the-black-church-in-america, tradition |
+| era 9 row 240, James Robinson Graves: Old Landmarkism | filled | `graves_old-landmarkism-what-is-it_1880.txt` (1880); 63,892 words; eng | nineteenth-century-baptists, tradition |
+| era 9 row 241, William Bullein Johnson: The Gospel Developed | filled | `johnson-w-b_gospel-developed_1846.txt` (1846); 45,426 words; eng | nineteenth-century-baptists, tradition |
+| era 9 row 243, John Wilbur: his Journal | filled | `wilbur_journal-of-the-life-of-john-wilbur_1859.txt` (1859); 274,150 words; eng | nineteenth-century-quakerism-separations, tradition |
+| era 9 row 244, Lucretia Mott: a Life with her letters | filled | `hallowell_james-and-lucretia-mott-life-and-letters_1884.txt` (1884); 190,741 words; eng | nineteenth-century-quakerism-separations, context |
+| era 9 row 245, Levi Coffin: his Reminiscences | filled | `coffin_reminiscences-of-levi-coffin_1876.txt` (1876); 205,688 words; eng | nineteenth-century-quakerism-separations, tradition |
+| era 9 row 261, Ralph Waldo Emerson: the Address of 1838 | filled | `emerson_address-before-the-senior-class-in-divinity-college_1838.txt` (1838); 7,788 words; eng | american-unitarianism-universalism-consolidations, tradition |
+| era 9 row 261, Ralph Waldo Emerson: a Life told by another (vol. 1) | filled | `cabot_memoir-of-ralph-waldo-emerson-v1_1887.txt` (1887); 96,694 words; eng | american-unitarianism-universalism-consolidations, context |
+| era 9 row 262, Dorothea Dix: a Life told by another | filled | `tiffany_life-of-dorothea-lynde-dix_1890.txt` (1890); 125,351 words; eng | american-unitarianism-universalism-consolidations, context |
+| era 9 row 249, Hiram Edson: his own discourse of 1849 (his account of the morning after was not found in print) | filled | `edson_time-of-the-end_1849.txt` (1849); 16,050 words; eng | restorationist-apocalyptic-ferment-and-adventism, tradition |
+| era 9 row 250, Joseph Bates: his Autobiography | filled | `bates_autobiography-of-elder-joseph-bates_1868.txt` (1868); 97,858 words; eng | restorationist-apocalyptic-ferment-and-adventism, tradition |
+| era 9 row 251, Emma Hale Smith: the hymnbook of 1835 | filled | `smith-emma_collection-of-sacred-hymns_kirtland1835.txt` (1835); 20,721 words; eng | latter-day-saints-lds, tradition |
+| era 9 row 252, Eliza R. Snow: her poems (vol. 1) | filled | `snow_poems-religious-historical-and-political-v1_1856.txt` (1856); 42,399 words; eng | latter-day-saints-lds, tradition |
+| era 9 row 256, John Bate Cardale: Readings upon the Liturgy | filled | `cardale_readings-upon-the-liturgy_1851.txt` (1851); 235,023 words; eng | catholic-apostolic-church-irvingites, tradition |
+| era 9 row 257, Henry Drummond: Dialogues on Prophecy, vol. 1 (the volume names no author and no place of meeting) | filled | `dialogues-on-prophecy_v1_1828.txt` (1828); 114,815 words; eng | catholic-apostolic-church-irvingites, antecedent |
+| era 9 row 257, Henry Drummond: his speeches in Parliament, with a sketch of his political career (vol. 1) | filled | `drummond-henry_speeches-in-parliament-v1_lovaine1860.txt` (1860); 180,112 words; eng | catholic-apostolic-church-irvingites, tradition |
+| era 9 row 259, Benjamin Wills Newton: his own writing | filled | `newton-b-w_thoughts-on-the-apocalypse_2nd-ed1853.txt` (1853); 136,040 words; eng | plymouth-brethren-and-dispensational-formation, tradition |
+| era 9 row 259, Benjamin Wills Newton: an account of the division by another | filled | `neatby_history-of-the-plymouth-brethren_1901.txt` (1901); 113,539 words; eng | plymouth-brethren-and-dispensational-formation, context |
+| era 9 row 237, Jabez Bunting: a Life told by his son (vol. 1) | filled | `bunting-t-p_life-of-jabez-bunting-v1_1859.txt` (1859); 167,782 words; eng | nineteenth-century-methodism, context |
+| era 9 row 242, John Clifford: a Life told by another | filled | `marchant_dr-john-clifford_1924.txt` (1924); 149,558 words; eng | nineteenth-century-baptists, context |
+| era 9 row 267, Richard Hurrell Froude: his Remains (part 1, vol. 1) | filled | `froude_remains-pt1-v1_1838.txt` (1838); 130,881 words; eng | the-oxford-movement-and-anglo-catholic-revival, tradition |
+| era 9 row 268, Priscilla Lydia Sellon: her bishop's letter to her | filled | `phillpotts_letter-to-miss-sellon_1852.txt` (1852); 6,670 words; eng | the-oxford-movement-and-anglo-catholic-revival, context |
+| era 9 row 268, Priscilla Lydia Sellon: a critic's pamphlet of 1852 | filled | `colles_sisters-of-mercy-sisters-of-misery_1852.txt` (1852); 9,194 words; eng | the-oxford-movement-and-anglo-catholic-revival, context |
+| era 9 row 271, Lord Shaftesbury: a Life told by another (vol. 1) | filled | `hodder_life-and-work-of-seventh-earl-of-shaftesbury-v1_1887.txt` (1887); 196,699 words; eng | victorian-church-of-england, context |
+| era 9 row 272, Samuel Wilberforce: a Life with his diaries and letters (vol. 1) | filled | `ashwell_life-of-samuel-wilberforce-v1_1880.txt` (1880); 201,928 words; eng | victorian-church-of-england, context |
+| era 9 row 273, Frederick Denison Maurice: Theological Essays | filled | `maurice_theological-essays_2nd-ed1853.txt` (1853); 141,158 words; eng | victorian-church-of-england, tradition |
+| era 9 row 273, Frederick Denison Maurice: a Life told in his letters (vol. 1) | filled | `maurice-f_life-of-frederick-denison-maurice-v1_1884.txt` (1884); 210,263 words; eng | victorian-church-of-england, context |
+| era 9 row 274, John William Colenso: The Pentateuch and Book of Joshua, part I | filled | `colenso_pentateuch-and-book-of-joshua-pt1_1862.txt` (1862); 74,466 words; eng | victorian-church-of-england, tradition |
+| era 9 row 274, John William Colenso: Ten Weeks in Natal | filled | `colenso_ten-weeks-in-natal_1855.txt` (1855); 101,641 words; eng | victorian-church-of-england, southern-african-mission-churches, tradition |
+| era 9 row 275, Charles Longley: the documents of the Lambeth Conference of 1867 | filled | `lambeth-conferences_1867-1878-1888_davidson1889.txt` (1889); 118,657 words; eng | victorian-church-of-england, tradition |
+| era 9 row 278, Nicholas Wiseman: Recollections of the Last Four Popes | filled | `wiseman_recollections-of-the-last-four-popes_1858.txt` (1858); 119,694 words; eng | catholic-church-long-nineteenth-century, tradition |
+| era 9 row 278, Nicholas Wiseman: his Appeal of 1850 on the hierarchy | filled | `wiseman_appeal-to-the-english-people-catholic-hierarchy_1850.txt` (1850); 14,721 words; eng | catholic-church-long-nineteenth-century, tradition |
+| era 9 row 278, Nicholas Wiseman: a Life told by another (vol. 1) | filled | `ward-wilfrid_life-and-times-of-cardinal-wiseman-v1_1897.txt` (1897); 193,407 words; eng | catholic-church-long-nineteenth-century, context |
+| era 9 row 328, W. T. Stead: his narrative of the Welsh revival | filled | `stead_welsh-revival-narrative-of-facts_boston1905.txt` (1905); 27,087 words; eng | the-1904-07-revival-family-wales-mukti-india-pyo, context |
+| era 9 row 269, Adolphe Monod: the deathbed addresses, in French | filled | `monod_adieux-a-ses-amis-et-a-l-eglise-fra_1857.txt` (1857); 46,097 words; fra | the-reveil-and-inner-mission-awakening, tradition |
+| era 9 row 269, Adolphe Monod: the deathbed addresses, in English | filled | `monod_parting-words-to-his-friends-and-the-church_1873.txt` (1873); 51,965 words; eng | the-reveil-and-inner-mission-awakening, tradition |
+| era 9 row 270, Guillaume Groen van Prinsterer: Ongeloof en Revolutie, in Dutch | filled | `groen-van-prinsterer_ongeloof-en-revolutie-nld_2e-uitg1868.txt` (1868); 148,185 words; nld | dutch-neo-calvinism-secession-churches, the-reveil-and-inner-mission-awakening, tradition |
+| era 9 row 276, Wilhelm Loehe: Three Books concerning the Church, in English | filled | `loehe_three-books-concerning-the-church_horn1908.txt` (1908); 47,484 words; eng | confessional-lutheran-revival-emigrations, tradition |
+| era 9 row 277, Bernadette Soubirous: Lasserre, Notre-Dame de Lourdes, in French | filled | `lasserre_notre-dame-de-lourdes-fra_28e-ed1870.txt` (1870); 127,531 words; fra | catholic-church-long-nineteenth-century, context |
+| era 9 row 277, Bernadette Soubirous: Lasserre, Our Lady of Lourdes, in English | filled | `lasserre_our-lady-of-lourdes_1870.txt` (1870); 136,577 words; eng | catholic-church-long-nineteenth-century, context |
+| era 9 row 323, J. Taylor Hamilton: his history of the Moravian Church | filled | `hamilton-j-taylor_history-of-the-moravian-church_1900.txt` (1900); 245,775 words; eng | moravian-church-after-1815, tradition |
+| era 9 row 223, Theodor Fliedner: an English account of Kaiserswerth by a lady | filled | `kaiserswerth_kaiserswerth-deaconesses-by-a-lady_1857.txt` (1857); 15,148 words; eng | the-reveil-and-inner-mission-awakening, context |
+| era 9 row 230, Daniel Coker: Payne's history of his church, which tells of Coker (Coker's own Dialogue and Journal were not found in print) | filled | `payne_history-of-the-african-methodist-episcopal-church-v1_1891.txt` (1891); 226,084 words; eng | the-black-church-in-america, nineteenth-century-methodism, tradition |
+| era 9 row 254, Robert Roberts: Christendom Astray | filled | `roberts-robert_christendom-astray_1884.txt` (1884); 214,643 words; eng | christadelphians, tradition |
+| era 9 row 254, Robert Roberts: The Ways of Providence | filled | `roberts-robert_ways-of-providence_1881.txt` (1881); 102,609 words; eng | christadelphians, tradition |
+| era 9 row 255, Mary Campbell and Margaret Macdonald: an outside history that tells of 1830 (vol. 1) | filled | `miller-edward_history-and-doctrines-of-irvingism-v1_1878.txt` (1878); 131,733 words; eng | catholic-apostolic-church-irvingites, context |
+| era 9 row 255, Mary Campbell and Margaret Macdonald: the Life of Mary Campbell's minister | filled | `story_memoir-of-the-life-of-the-rev-robert-story_1862.txt` (1862); 136,333 words; eng | catholic-apostolic-church-irvingites, context |
+| era 9 row 260, J. G. Bellett: one of his own books (his memoir of the early circle was not found) | filled | `bellett_short-meditation-on-the-moral-glory-of-the-lord-jesus-christ_1865.txt` (1865); 24,349 words; eng | plymouth-brethren-and-dispensational-formation, tradition |
+
+### Rows left unfilled or part-filled
+
+| want | state | what was looked for |
+|---|---|---|
+| era 9 row 230, Daniel Coker: his Dialogue (1810) and Journal (1820) | part-filled | No original printing found. Payne's History (above) tells of him. Two typescripts of 1900 are on archive.org (`msam.-282-11`, `msam.-282-12`): cite only. |
+| era 9 row 249, Hiram Edson: his account of the morning after | part-filled | Not found in print before 1931. His discourse of 1849 is held (above). |
+| era 9 row 253, Emmeline B. Wells: the Woman's Exponent and a told life | not-found | No bound volume; partial sets of issues only. No Life found. |
+| era 9 row 258, Tirzah Miller: her diaries | not-found | First printed in 2000. |
+| era 9 row 327, "Awstin": the Western Mail revival pamphlets | not-found | Nineteen queries, nothing. |
+| era 9 row 268, Priscilla Lydia Sellon: her own writing, a Life | part-filled | Nothing of her own found. Two pamphlets of 1852 by others are held (above). |
+| era 9 row 260, J. G. Bellett: his memoir of the early circle | part-filled | Not found. One of his own books is held (above). |
+| era 9 row 255, Mary Campbell and Margaret Macdonald: Norton's Memoirs (1840) | part-filled | Not found. Miller's history and Story's Memoir are held (above). |
+| era 9 row 254, Robert Roberts: his magazine and a Life | part-filled | Not found. Two of his own books are held (above). |
+| era 9 row 241, William Bullein Johnson: the Proceedings of 1845 | part-filled | Not found. His own book of 1846 is held (above). |
+| era 9 row 242, John Clifford: the Baptist Union's record of 1887-88 | part-filled | Not found. Marchant's Life is held (above). |
+| era 9 row 240, J. R. Graves: a Life | part-filled | Hailey (1929) not found. Old Landmarkism is held (above). |
+| era 9 row 236, Robert P. Wilder: his own account | part-filled | His history of 1935 not found. The convention report of 1891, with his addresses, is held (above). |
+| era 9 row 276, Wilhelm Lohe: his writings in German | part-filled | Drei Bucher von der Kirche not found in German; the Neuendettelsau history of 1907 has OCR that cannot be read. The English Three Books is held (above). |
+| era 9 row 277, Bernadette Soubirous: her own depositions | part-filled | Not found. Lasserre in French and English is held (above). |
+| era 9 row 270, Groen van Prinsterer: an English print | not-found | None before 1931. The Dutch is held (above). |
+
+### Shelf notes
+
+- Lives and histories written by others are `context`; a person's or a church's own text is `tradition`, with
+  any doubt in the row's note. Nothing in this batch is left at `needs-ruling`.
+- Dialogues on Prophecy (1828) is `antecedent` on the Catholic Apostolic Church, whose entry opens in 1832. The
+  volume names no author, no speaker and no place.
+- Payne's History (1891), Rush's Short Account (1843) and Hamilton's History (1900) are each a church's history
+  written by one of its own bishops or superintendents inside the entry's window: `tradition`.
+- Cartwright's Autobiography (1856) is `tradition` on the Second Great Awakening, whose window closes in 1840,
+  and on Nineteenth-Century Methodism. Sarah Clarke's account (1914) is `tradition` on the Rescue Mission
+  Movement. Marchant's Life of Clifford (1924) is `context`.
+- Hamilton's History opens the shelf `moravian-church-after-1815`, and the convention report opens
+  `the-student-volunteer-movement-and-edinburgh-191`.
+- No census gap was met: every row has an entry.
+
+### Cautions for profile writers (batch 2b)
+
+- **No year on the title page.** Cartwright, both books of Hannah Whitall Smith, the Life of Inskip, Coffin,
+  Sarah Clarke and Stead are dated from a copyright notice. Tiffany's Dix (the scan has no title page at all),
+  Bates, Christendom Astray and Miller's Irvingism are dated from a preface and the catalogue. The Student
+  Volunteer report is dated from the year in its title. Each header says so.
+- **Author not named, or named by initials.** Readings upon the Liturgy names no author (the host names
+  Cardale). Dialogues on Prophecy names none. Bellett's book is by "J. G. B." The Unselfishness of God is by
+  "H. W. S. (Mrs. Pearsall Smith)". The Kaiserswerth account is "by a Lady". The author's name on Story's Memoir
+  cannot be read in the OCR. Both translations (Monod, Lasserre) name no translator.
+- **Not the person's own words.** Row 230: Payne tells of Coker; nothing of Coker's is held. Row 238: Rush's
+  account is the source for Varick. Row 255: Miller is a hostile outside history, and Story's Memoir does not
+  name Margaret Macdonald (it tells of the M'Donald family and leaves the sister's name blank). Row 268: both
+  pamphlets are by Sellon's critics; the bishop's letter quotes her in part. Row 277: Lasserre, not Bernadette.
+  Row 236: a convention report with many speakers; Wilder's addresses are located in the shelf row.
+- **Later editions.** The Christian's Secret (revised and enlarged, copyright 1888, not the text of 1875);
+  Newton's Thoughts on the Apocalypse (second, 1853); Maurice's Theological Essays (second, 1853); Ongeloof en
+  Revolutie (second, 1868); Lasserre in French (twenty-eighth, 1870); Monod in French (1857; the English of 1873
+  says it follows the fifth Paris edition); Taylor's Story of My Life (title page 1895, with matter of June
+  1896); In His Steps (1897).
+- **Part of a larger work.** Vol. 1 only: Bunting, Hodder's Shaftesbury, Ashwell's Wilberforce, the Life of
+  Maurice, Ward's Wiseman, Cabot's Emerson, Drummond's Speeches, Dialogues on Prophecy, Snow's Poems, Payne,
+  Miller. Froude's Remains is part 1, vol. 1. Colenso's Pentateuch is part I.
+- **Mixed voices.** Hallowell prints the Motts' letters inside her own narrative. The Life of Maurice is told
+  in his letters, edited by his son. Sarah Clarke's book prints converts' own accounts after hers. Colenso's
+  Ten Weeks prints others' letters and subscription lists at the end. The bishop's Letter to Miss Sellon has an
+  appendix of two other clergymen's letters. Stead's pamphlet holds a second piece by G. Campbell Morgan. The
+  Lambeth volume holds three conferences; the 1867 documents are located in the shelf row. Drummond's Speeches
+  open with a sketch of his political career by the editor.
+- **Text faults.** Elaw's Memoirs: rough OCR, and the file breaks off in mid-sentence at its end. Rush: the
+  contents list a sketch of the author's life that the scan does not hold. Coffin: the first contents page is
+  absent. Lasserre in French: the first page of the papal brief is missing from the OCR. Stead: a note and a
+  page are printed twice. Tiffany: no title page. Emma Smith's hymnbook is a microfilm copy with fair OCR.
+- **Dialogues on Prophecy:** its own preface says the printed dialogues use made-up names and differ from the
+  real conversations. It does not name Albury or Drummond.
+
 ## Later — queued
 
 - ME-21 by a browser; Lang 1834 and the Peking mission after 1808; the

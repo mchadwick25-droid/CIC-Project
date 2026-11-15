@@ -1,0 +1,21 @@
+source_file: roberts-robert_ways-of-providence_1881.txt
+assignments:
+- row_id: roberts-robert_ways-of-providence_1881--the-ways-of-providence-authentically-illustrated
+  work: The Ways of Providence, authentically illustrated
+  author: roberts-robert
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - christadelphians
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1881
+    end: 1881
+    source: 'the printing''s own title page: line 105, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1881
+    source: line 105, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 254, Robert Roberts: The Ways of Providence.'
