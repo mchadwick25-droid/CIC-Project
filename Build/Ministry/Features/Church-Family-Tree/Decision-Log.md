@@ -3659,6 +3659,6 @@ The files are in `Council-Profiles/era7/` in this folder, and the reviews are in
   - 0 overlaps in all 29 river-eras with a Who open, on desktop and iPhone 13;
   - keyboard focus-stepping and the zoom-to actions as on main.
 
-**Not tested: Safari.** This container has no WebKit, so none of this is proven on an iPhone. Mark is asked to check on his iPhone before the fixes are called done. Open-Gaps 274, "The map after release 44" (2026-11-15).
+**Not tested: Safari.** This container has no WebKit, so none of this is proven on an iPhone. Mark is asked to check on his iPhone before the fixes are called done. Open-Gaps 275, "The map after release 44" (2026-11-15).
 
 No census or record change, so there is no data release number. No paid calls were made. Approved to proceed (coordinator, 2026-11-15; Mark may overrule).

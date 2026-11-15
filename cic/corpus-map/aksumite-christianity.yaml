@@ -27,6 +27,16 @@ works:
 
     '
   source_file: book-of-the-himyarites-syr-eng_moberg1924.txt
+- row_id: budge_history-of-ethiopia-nubia-and-abyssinia-v1_1928--ezana-inscriptions-english-budge-1928
+  work: Ezana of Aksum, the inscriptions in English, in Budge, History of Ethiopia I (1928)
+  author: budge
+  locus: the inscriptions at about OCR lines 13843-14100; add 11 to OCR line numbers
+  role: antecedent
+  confidence: provisional
+  note: An English version of the king's inscriptions inside a modern history. The inscriptions
+    are an antecedent to this entry; Budge's own narrative is a historian's and is not the
+    tradition's voice.
+  source_file: budge_history-of-ethiopia-nubia-and-abyssinia-v1_1928.txt
 - row_id: cosmas-indicopleustes_christian-topography_mccrindle1897--books-ii-iii-adulis-aksum
   work: Christian Topography, Books II-III (Adulis, the Aksumite king Elesbaan and the Himyarite
     expedition; the churches of Ethiopia, Persia and India)
@@ -51,6 +61,16 @@ works:
 
     '
   source_file: ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_budge1928.txt
+- row_id: ezana_deutsche-aksum-expedition-bd4-inschriften-deu-gez-grc_littmann1913--ezana-inscriptions-german-littmann-1913
+  work: Ezana of Aksum, the inscriptions, with German translation (Littmann 1913)
+  author: ezana
+  locus: Nr. 4 at about OCR line 469; Nr. 11 at 3113; add 12 to OCR line numbers
+  role: antecedent
+  confidence: provisional
+  note: The king's own inscriptions of the fourth century. The earlier ones open with pagan
+    formulas; Nr. 11 is usually read as Christian, which Littmann's addenda record as disputed.
+    Earlier than this entry's window, so placed as an antecedent.
+  source_file: ezana_deutsche-aksum-expedition-bd4-inschriften-deu-gez-grc_littmann1913.txt
 - row_id: gadla-pantalewon-yared_vitae-sanctorum-antiquiorum-lat_conti-rossini1904--acta-yared-pantalewon
   work: Acta Yared et Pantalewon (the Ge'ez Lives of Yared and of Pantalewon, in Latin)
   author: gadla-pantalewon-yared

@@ -9,3 +9,12 @@ assignments:
   role: tradition
   confidence: provisional
   note: 'The bishop''s own writings, inside this window by the era 4 audit''s dating of him (c.795-c.815).'
+- row_id: theodore-abu-qurrah_opuscula-with-andrew-crete-malalas-pg97-grc-lat_migne1860--john-malalas-chronographia-pg-97
+  work: 'John Malalas, Chronographia, Greek and Latin (PG 97)'
+  author: john-malalas
+  locus: 'from about OCR line 6696; book XVIII from about 55000 to 62320; add 12 to OCR line numbers'
+  atlas_ids:
+  - byzantine-imperial-church-justinianic
+  role: context
+  confidence: provisional
+  note: 'An Antiochene chronicler''s world history down to Justinian, written inside this window. The Latin is readable; for the Greek use Dindorf 1831.'
