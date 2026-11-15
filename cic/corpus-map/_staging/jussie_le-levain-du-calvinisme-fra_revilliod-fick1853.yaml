@@ -1,0 +1,20 @@
+source_file: jussie_le-levain-du-calvinisme-fra_revilliod-fick1853.txt
+assignments:
+- row_id: jussie_le-levain-du-calvinisme-fra_revilliod-fick1853--jeanne-de-jussie-le-levain-du-calvinisme
+  work: 'Jeanne de Jussie, Le levain du calvinisme'
+  author: jussie
+  locus: 'the whole volume; not mapped'
+  atlas_ids:
+  - the-tridentine-church
+  role: tradition
+  confidence: provisional
+  note: 'A nun''s own account of Geneva in the 1520s and 1530s, from the old church''s side.'
+- row_id: jussie_le-levain-du-calvinisme-fra_revilliod-fick1853--jeanne-de-jussie-on-marie-dentiere-s-visit-to-the-poor-clares
+  work: 'Jeanne de Jussie on Marie Dentiere''s visit to the Poor Clares'
+  author: jussie
+  locus: 'about OCR lines 7683-7790; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-reformed-cities-zurich-and-geneva
+  role: context
+  confidence: provisional
+  note: 'An opponent''s report of Dentiere preaching to the nuns.'

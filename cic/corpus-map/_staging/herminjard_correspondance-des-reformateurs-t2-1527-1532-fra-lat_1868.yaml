@@ -1,0 +1,20 @@
+source_file: herminjard_correspondance-des-reformateurs-t2-1527-1532-fra-lat_1868.txt
+assignments:
+- row_id: herminjard_correspondance-des-reformateurs-t2-1527-1532-fra-lat_1868--antoine-saunier-to-farel-5-november-1532-with-the-editor-s-notes-on-the-waldensian-assembly-herminjard-2
+  work: 'Antoine Saunier to Farel, 5 November 1532, with the editor''s notes on the Waldensian assembly (Herminjard 2)'
+  author: herminjard
+  locus: 'about OCR lines 22205-22445; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-waldensian-reformed-union
+  role: context
+  confidence: needs-ruling
+  note: 'A letter from the valleys seven weeks after the assembly; the account of the assembly itself is the editor''s note, not a letter.'
+- row_id: herminjard_correspondance-des-reformateurs-t2-1527-1532-fra-lat_1868--letters-of-the-french-speaking-reformers-1527-1532-herminjard-2
+  work: 'Letters of the French-speaking reformers, 1527-1532 (Herminjard 2)'
+  author: herminjard
+  locus: 'the whole volume; not mapped'
+  atlas_ids:
+  - the-reformed-cities-zurich-and-geneva
+  role: tradition
+  confidence: provisional
+  note: 'The reformers'' own letters for 1527 to 1532; single letters not mapped.'

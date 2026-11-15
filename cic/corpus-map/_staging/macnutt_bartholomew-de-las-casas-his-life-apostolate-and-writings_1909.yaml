@@ -1,0 +1,20 @@
+source_file: macnutt_bartholomew-de-las-casas-his-life-apostolate-and-writings_1909.txt
+assignments:
+- row_id: macnutt_bartholomew-de-las-casas-his-life-apostolate-and-writings_1909--las-casas-brevissima-relacion-in-macnutt-s-english-1909
+  work: 'Las Casas, Brevissima relacion, in MacNutt''s English (1909)'
+  author: macnutt
+  locus: 'about OCR lines 13557-18525; add 12 to OCR line numbers'
+  atlas_ids:
+  - new-spain-and-andes-mission-born-christianity
+  role: tradition
+  confidence: provisional
+  note: 'His own tract in a translator''s English.'
+- row_id: macnutt_bartholomew-de-las-casas-his-life-apostolate-and-writings_1909--macnutt-life-of-las-casas-1909
+  work: 'MacNutt, Life of Las Casas (1909)'
+  author: macnutt
+  locus: 'about OCR lines 1-13556; add 12 to OCR line numbers'
+  atlas_ids:
+  - new-spain-and-andes-mission-born-christianity
+  role: context
+  confidence: provisional
+  note: 'A retelling of 1909; not his words.'

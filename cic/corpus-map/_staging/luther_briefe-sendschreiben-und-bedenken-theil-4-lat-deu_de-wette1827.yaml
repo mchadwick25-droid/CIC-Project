@@ -1,0 +1,11 @@
+source_file: luther_briefe-sendschreiben-und-bedenken-theil-4-lat-deu_de-wette1827.txt
+assignments:
+- row_id: luther_briefe-sendschreiben-und-bedenken-theil-4-lat-deu_de-wette1827--luther-letters-from-the-coburg-and-after-de-wette-4
+  work: 'Luther, letters from the Coburg and after (de Wette 4)'
+  author: luther
+  locus: 'the whole volume; not mapped'
+  atlas_ids:
+  - lutheran-wittenberg-and-its-congregations
+  role: tradition
+  confidence: provisional
+  note: 'His own letters in Latin and German, from April 1530.'
