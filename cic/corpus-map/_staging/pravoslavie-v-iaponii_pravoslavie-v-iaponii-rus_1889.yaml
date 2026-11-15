@@ -1,0 +1,23 @@
+source_file: pravoslavie-v-iaponii_pravoslavie-v-iaponii-rus_1889.txt
+assignments:
+- row_id: pravoslavie-v-iaponii_pravoslavie-v-iaponii-rus_1889--work
+  work: ПРАВОСЛАВІЕ ВЪ ЯПОНІИ
+  author: pravoslavie-v-iaponii
+  locus: Bishop Nikolai and the mission's schools and catechists at OCR lines 205-390; add 12 to OCR line numbers;
+    the rest not mapped
+  atlas_ids:
+  - russian-church-synodal-century
+  - japanese-christianity-hidden-emergence-meiji
+  role: context
+  confidence: provisional
+  language: rus
+  date:
+    start: 1889
+    end: 1889
+    source: 'the printing''s own title page: OCR line 16 (''1889.'')'
+    formation_confidence: Documented
+  edition_date:
+    year: 1889
+    source: OCR line 16 ('1889.')
+    formation_confidence: Documented
+  note: 'Era 9 row 198, Nikolai of Japan: a Russian account of the Japan mission.'

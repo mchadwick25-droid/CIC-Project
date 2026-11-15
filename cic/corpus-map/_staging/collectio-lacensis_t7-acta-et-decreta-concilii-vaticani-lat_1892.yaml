@@ -1,0 +1,24 @@
+source_file: collectio-lacensis_t7-acta-et-decreta-concilii-vaticani-lat_1892.txt
+assignments:
+- row_id: collectio-lacensis_t7-acta-et-decreta-concilii-vaticani-lat_1892--acta-et-decreta-sacrosancti-oecumenici-concilii-vaticani-cum
+  work: Acta et decreta sacrosancti oecumenici concilii Vaticani, cum permultis aliis documentis ad concilium ejusque
+  author: collectio-lacensis
+  locus: 'Audo speaks on the discipline schemata (chaldice scriptas, translated into Latin) at OCR lines 63556-63580;
+    Audo, Patriarcha Chaldaeorum, entries in the votes and observations at OCR lines 84320-84335; 86490-86500; Audo
+    among the Eastern fathers, 25 March 1870 at OCR lines 127240-127250; Index entry: Chaldaei, their faith about
+    infallibility (t. VII) at OCR lines 172120-172130; 183480-183485; add 12 to OCR line numbers; the rest not mapped'
+  atlas_ids:
+  - catholic-church-long-nineteenth-century
+  role: tradition
+  confidence: provisional
+  language: lat
+  date:
+    start: 1869
+    end: 1892
+    source: 'the printing''s own title page: OCR line 64 (''MDCCCXCII'')'
+    formation_confidence: Documented
+  edition_date:
+    year: 1892
+    source: OCR line 64 ('MDCCCXCII')
+    formation_confidence: Documented
+  note: 'Era 9 row 200, Joseph Audo: the acts of the Vatican council.'

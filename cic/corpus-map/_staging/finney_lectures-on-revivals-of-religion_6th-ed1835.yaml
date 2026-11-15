@@ -1,0 +1,22 @@
+source_file: finney_lectures-on-revivals-of-religion_6th-ed1835.txt
+assignments:
+- row_id: finney_lectures-on-revivals-of-religion_6th-ed1835--lectures-on-revivals-of-religion-by-charles-g-finney-from
+  work: Lectures on Revivals of Religion, by Charles G. Finney, from notes by the editor of the N.Y. Evangelist,
+  author: finney
+  locus: Lecture III 'Means to be used' and Lecture V, on prayer and new measures at OCR lines 1700-4000; add 12
+    to OCR line numbers; the rest not mapped
+  atlas_ids:
+  - the-second-great-awakening-and-camp-meeting-worl
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1835
+    end: 1835
+    source: 'the printing''s own title page: page image leaf 6 (''1835''); OCR line 86-90 reads ''1 835'''
+    formation_confidence: Documented
+  edition_date:
+    year: 1835
+    source: page image leaf 6 ('1835'); OCR line 86-90 reads '1 835'
+    formation_confidence: Documented
+  note: 'Era 9 row 165, Charles G. Finney: Lectures on Revivals of Religion.'

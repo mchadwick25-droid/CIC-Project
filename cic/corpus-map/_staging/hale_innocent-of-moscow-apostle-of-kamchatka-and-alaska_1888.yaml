@@ -1,0 +1,22 @@
+source_file: hale_innocent-of-moscow-apostle-of-kamchatka-and-alaska_1888.txt
+assignments:
+- row_id: hale_innocent-of-moscow-apostle-of-kamchatka-and-alaska_1888--innocent-of-moscow-the-apostle-of-kamchatka-and-alaska-by
+  work: Innocent of Moscow, the Apostle of Kamchatka and Alaska, by Charles R. Hale, D.D., Dean of Davenport
+  author: hale
+  locus: Veniaminov in Unalaska; the Aleut response to baptism at OCR lines 540-720; 800-810; add 12 to OCR line
+    numbers; the rest not mapped
+  atlas_ids:
+  - alaskan-mission-herman-veniaminov
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1877
+    end: 1888
+    source: 'the printing''s own title page: OCR lines 23-24 (''PRIVATELY PRINTED. 1888,'')'
+    formation_confidence: Documented
+  edition_date:
+    year: 1888
+    source: OCR lines 23-24 ('PRIVATELY PRINTED. 1888,')
+    formation_confidence: Documented
+  note: 'Era 9 row 202, Ioann Veniaminov: an English account before 1931.'

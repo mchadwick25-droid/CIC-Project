@@ -1,0 +1,23 @@
+source_file: coleridge_memoir-of-the-rev-john-keble-v1_2nd-ed1869.txt
+assignments:
+- row_id: coleridge_memoir-of-the-rev-john-keble-v1_2nd-ed1869--a-memoir-of-the-rev-john-keble-m-a-late-vicar-of-hursley-by
+  work: A Memoir of the Rev. John Keble, M.A. late Vicar of Hursley, by the Right Hon. Sir J. T. Coleridge, D.C.L.
+  author: coleridge
+  locus: Assize Sermon 1833 at OCR lines 8240-8500; Tract 90 and proceedings at OCR lines 10035-10120; add 12 to
+    OCR line numbers; the rest not mapped
+  atlas_ids:
+  - the-oxford-movement-and-anglo-catholic-revival
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1869
+    end: 1869
+    source: 'the printing''s own title page: OCR line 22-24 region (''1869'' after ''JAMES PARKER AND CO.'', before
+      ''All Rights reserved'')'
+    formation_confidence: Documented
+  edition_date:
+    year: 1869
+    source: OCR line 22-24 region ('1869' after 'JAMES PARKER AND CO.', before 'All Rights reserved')
+    formation_confidence: Documented
+  note: 'Era 9 row 189, John Keble: a Life (vol. 1).'

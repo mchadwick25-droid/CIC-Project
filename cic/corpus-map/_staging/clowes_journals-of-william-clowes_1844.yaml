@@ -1,0 +1,23 @@
+source_file: clowes_journals-of-william-clowes_1844.txt
+assignments:
+- row_id: clowes_journals-of-william-clowes_1844--the-journals-of-william-clowes-a-primitive-methodist
+  work: The Journals of William Clowes, a Primitive Methodist Preacher, containing chronicles of events relative
+    to
+  author: clowes
+  locus: the journals 1810-1838 including Mow Cop camp meetings at OCR lines 108-14800; add 12 to OCR line numbers;
+    the rest not mapped
+  atlas_ids:
+  - nineteenth-century-methodism
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1844
+    end: 1844
+    source: 'the printing''s own title page: OCR line 103'
+    formation_confidence: Documented
+  edition_date:
+    year: 1844
+    source: OCR line 103
+    formation_confidence: Documented
+  note: 'Era 9 row 222, William Clowes: his Journals.'

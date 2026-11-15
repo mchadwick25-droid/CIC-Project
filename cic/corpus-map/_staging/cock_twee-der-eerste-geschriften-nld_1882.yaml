@@ -1,0 +1,20 @@
+source_file: cock_twee-der-eerste-geschriften-nld_1882.txt
+assignments:
+- row_id: cock_twee-der-eerste-geschriften-nld_1882--twee-der-eerste-geschriften-van-den-eersten-leeraar-der
+  work: Twee der eerste geschriften van den eersten leeraar der Christelijke Gereformeerde Kerk in Nederland [OCR
+  author: cock
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - dutch-neo-calvinism-secession-churches
+  role: tradition
+  confidence: provisional
+  language: nld
+  date:
+    formation_confidence: unknown
+    checked: the title page and front matter of this printing (1882); they do not state when the text was first
+      written
+  edition_date:
+    year: 1882
+    source: OCR lines 150-180
+    formation_confidence: Documented
+  note: 'Era 9 row 224, Hendrik de Cock: two of his first writings.'

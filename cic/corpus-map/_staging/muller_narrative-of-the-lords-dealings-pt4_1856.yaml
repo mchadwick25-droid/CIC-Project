@@ -1,0 +1,21 @@
+source_file: muller_narrative-of-the-lords-dealings-pt4_1856.txt
+assignments:
+- row_id: muller_narrative-of-the-lords-dealings-pt4_1856--narrative-of-some-of-the-lord-s-dealings-with-george-muller
+  work: Narrative of some of the Lord's dealings with George Muller, written by himself. Fourth part
+  author: muller
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - plymouth-brethren-and-dispensational-formation
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1856
+    end: 1856
+    source: 'the printing''s own title page: OCR line 182 (1856, Entered at Stationers'' Hall)'
+    formation_confidence: Documented
+  edition_date:
+    year: 1856
+    source: OCR line 182 (1856, Entered at Stationers' Hall)
+    formation_confidence: Documented
+  note: 'Era 9 row 183, George Muller: his Narrative, fourth part.'

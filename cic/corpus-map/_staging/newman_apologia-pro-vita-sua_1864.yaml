@@ -1,0 +1,23 @@
+source_file: newman_apologia-pro-vita-sua_1864.txt
+assignments:
+- row_id: newman_apologia-pro-vita-sua_1864--apologia-pro-vita-sua-being-a-reply-to-a-pamphlet-entitled
+  work: 'Apologia pro vita sua: being a reply to a pamphlet entitled "What, then, does Dr. Newman mean?" (OCR'
+  author: newman
+  locus: 'Part IV-VI: Tract 90 and its condemnation, 1841 at OCR lines 11900-12040; Part III history to 1833 at
+    OCR lines 4681-8000; add 12 to OCR line numbers; the rest not mapped'
+  atlas_ids:
+  - the-oxford-movement-and-anglo-catholic-revival
+  - catholic-church-long-nineteenth-century
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1864
+    end: 1864
+    source: 'the printing''s own title page: OCR line 2923 (also line 28 on the Kingsley correspondence title)'
+    formation_confidence: Documented
+  edition_date:
+    year: 1864
+    source: OCR line 2923 (also line 28 on the Kingsley correspondence title)
+    formation_confidence: Documented
+  note: 'Era 9 row 188, John Henry Newman: the Apologia.'

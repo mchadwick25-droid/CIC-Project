@@ -1,0 +1,22 @@
+source_file: walther_der-lutheraner-jg1-1844-1845-deu_st-louis1845.txt
+assignments:
+- row_id: walther_der-lutheraner-jg1-1844-1845-deu_st-louis1845--der-lutheraner-ocr-garbled-gottes-wort-und-luthers-lehr
+  work: Der Lutheraner [OCR garbled], 'Gottes Wort und Luthers Lehr' vergehet nun und nimmermehr.' Herausgegeben
+    von
+  author: walther
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - confessional-lutheran-revival-emigrations
+  role: tradition
+  confidence: provisional
+  language: deu
+  date:
+    start: 1844
+    end: 1845
+    source: 'the printing''s own title page: OCR lines 4 and 40 (1844-1845; 1 September 1844)'
+    formation_confidence: Documented
+  edition_date:
+    year: 1844
+    source: OCR lines 4 and 40 (1844-1845; 1 September 1844)
+    formation_confidence: Documented
+  note: 'Era 9 row 196, C. F. W. Walther: Der Lutheraner, the first year.'

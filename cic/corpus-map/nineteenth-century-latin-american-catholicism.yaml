@@ -13,3 +13,23 @@ works:
     bishops of Havana and Puerto Rico. The Cuban church's own voice under Spain. The eras
     8-9 sweep holds Cuba and Puerto Rico (LA8-8) for a line in this entry.
   source_file: claret_apuntes-regimen-de-la-diocesis-santiago-de-cuba-spa_1863.txt
+- row_id: thomson_letters-on-the-moral-and-religious-state-of-south-america_1827--letters-on-the-moral-and-religious-state-of-south-america
+  work: Letters on the moral and religious state of South America, written during a residence
+    of nearly seven years
+  author: thomson
+  locus: the whole volume; not mapped
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1827
+    end: 1827
+    source: 'the printing''s own title page: page image leaf 9 (MDCCCXXVII); OCR of title
+      page garbled'
+    formation_confidence: Documented
+  edition_date:
+    year: 1827
+    source: page image leaf 9 (MDCCCXXVII); OCR of title page garbled
+    formation_confidence: Documented
+  note: 'Era 9 row 220, James Thomson: his Letters.'
+  source_file: thomson_letters-on-the-moral-and-religious-state-of-south-america_1827.txt

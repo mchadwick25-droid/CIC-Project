@@ -1,0 +1,24 @@
+source_file: eddy_retrospection-and-introspection_1892.txt
+assignments:
+- row_id: eddy_retrospection-and-introspection_1892--retrospection-and-introspection-by-mary-baker-g-eddy-author
+  work: '[Retrospection and Introspection] by Mary Baker G. Eddy, author of ''Science and Health.'' Sixth Thousand.'
+  author: eddy
+  locus: Her account of her own life and the discovery of Christian Science at OCR lines 100-3400; add 12 to OCR
+    line numbers; the rest not mapped
+  atlas_ids:
+  - christian-science
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1891
+    end: 1892
+    source: 'the printing''s own title page: OCR lines 12-40 (title page undated; ''Copyright, 1891'' and ''Copyright,
+      1892'') and page image leaf 9 (verso: Copyright 1891, 1892; Library of Congress 1898 stamp)'
+    formation_confidence: Documented
+  edition_date:
+    year: 1892
+    source: 'OCR lines 12-40 (title page undated; ''Copyright, 1891'' and ''Copyright, 1892'') and page image leaf
+      9 (verso: Copyright 1891, 1892; Library of Congress 1898 stamp)'
+    formation_confidence: Documented
+  note: 'Era 9 row 177, Mary Baker Eddy: Retrospection and Introspection.'

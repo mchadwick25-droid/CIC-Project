@@ -1,0 +1,22 @@
+source_file: philadelphia-yearly-meeting_declaration-respecting-those-who-have-separated_1828.txt
+assignments:
+- row_id: philadelphia-yearly-meeting_declaration-respecting-those-who-have-separated_1828--a-declaration-of-the-yearly-meeting-of-friends-held-in
+  work: A Declaration of the Yearly Meeting of Friends, held in Philadelphia, respecting the proceedings of those
+    who
+  author: philadelphia-yearly-meeting
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - nineteenth-century-quakerism-separations
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1828
+    end: 1828
+    source: 'the printing''s own title page: OCR line 80-100 (1828)'
+    formation_confidence: Documented
+  edition_date:
+    year: 1828
+    source: OCR line 80-100 (1828)
+    formation_confidence: Documented
+  note: 'Era 9 row 169, Elias Hicks: the Orthodox side''s account.'

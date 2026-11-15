@@ -1,0 +1,22 @@
+source_file: oliphant_life-of-edward-irving-v2_1862.txt
+assignments:
+- row_id: oliphant_life-of-edward-irving-v2_1862--the-life-of-edward-irving-by-mrs-oliphant-vol-ii
+  work: The Life of Edward Irving ... by Mrs. Oliphant. Vol. II
+  author: oliphant
+  locus: 1830 tongues and Irving's circle, the Gift of Tongues at OCR lines see contents chapter III; add 12 to
+    OCR line numbers; the rest not mapped
+  atlas_ids:
+  - catholic-apostolic-church-irvingites
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1862
+    end: 1862
+    source: 'the printing''s own title page: OCR line ~76 (''] 862''), pencil 1862 at leaf 7'
+    formation_confidence: Documented
+  edition_date:
+    year: 1862
+    source: OCR line ~76 ('] 862'), pencil 1862 at leaf 7
+    formation_confidence: Documented
+  note: 'Era 9 row 179, Edward Irving: a Life (vol. 2).'

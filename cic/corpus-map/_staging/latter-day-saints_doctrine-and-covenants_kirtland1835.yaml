@@ -1,0 +1,23 @@
+source_file: latter-day-saints_doctrine-and-covenants_kirtland1835.txt
+assignments:
+- row_id: latter-day-saints_doctrine-and-covenants_kirtland1835--doctrine-and-covenants-of-the-church-of-the-latter-day
+  work: 'Doctrine and Covenants of the Church of the Latter Day Saints: carefully selected from the revelations
+    of'
+  author: latter-day-saints
+  locus: Preface and plan of the book at OCR lines 40-80; Revelation on Missouri and the city of Zion (sample) at
+    OCR lines 8000-8010; add 12 to OCR line numbers; the rest not mapped
+  atlas_ids:
+  - latter-day-saints-lds
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1835
+    end: 1835
+    source: 'the printing''s own title page: OCR lines 1-30 (title page ''.1835.'')'
+    formation_confidence: Documented
+  edition_date:
+    year: 1835
+    source: OCR lines 1-30 (title page '.1835.')
+    formation_confidence: Documented
+  note: 'Era 9 row 174, Joseph Smith: the Doctrine and Covenants.'

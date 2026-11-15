@@ -1,0 +1,22 @@
+source_file: kuyper_tractaat-van-de-reformatie-der-kerken-nld_1883.txt
+assignments:
+- row_id: kuyper_tractaat-van-de-reformatie-der-kerken-nld_1883--tractaat-van-de-reformatie-der-kerken-aan-de-zonen-der
+  work: Tractaat van de Reformatie der Kerken, aan de zonen der Reformatie hier te lande op Luthers vierde eeuwfeest
+  author: kuyper
+  locus: argument for reformation of the churches (the title theme) at OCR lines 100-1200; add 12 to OCR line numbers;
+    the rest not mapped
+  atlas_ids:
+  - dutch-neo-calvinism-secession-churches
+  role: tradition
+  confidence: provisional
+  language: nld
+  date:
+    start: 1883
+    end: 1883
+    source: 'the printing''s own title page: OCR line 80 (''1883.'' after the Amsterdam imprint)'
+    formation_confidence: Documented
+  edition_date:
+    year: 1883
+    source: OCR line 80 ('1883.' after the Amsterdam imprint)
+    formation_confidence: Documented
+  note: 'Era 9 row 193, Abraham Kuyper: a Dutch work of his own.'

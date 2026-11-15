@@ -1,0 +1,21 @@
+source_file: briggs_defence-before-the-presbytery-of-new-york_1893.txt
+assignments:
+- row_id: briggs_defence-before-the-presbytery-of-new-york_1893--the-defence-of-professor-briggs-before-the-presbytery-of-new
+  work: The Defence of Professor Briggs before the Presbytery of New York, December 13, 14, 15, 19, and 22, 1892
+  author: briggs
+  locus: the Bible, Church and Reason argument at OCR lines 60-9700; add 12 to OCR line numbers; the rest not mapped
+  atlas_ids:
+  - the-mainline-century-liberal-and-neo-orthodox
+  role: tradition
+  confidence: needs-ruling
+  language: eng
+  date:
+    start: 1893
+    end: 1893
+    source: 'the printing''s own title page: OCR line 25 (copyright 1893 line 31)'
+    formation_confidence: Documented
+  edition_date:
+    year: 1893
+    source: OCR line 25 (copyright 1893 line 31)
+    formation_confidence: Documented
+  note: 'Era 9 row 216, Charles A. Briggs: his own defence at the trial.'

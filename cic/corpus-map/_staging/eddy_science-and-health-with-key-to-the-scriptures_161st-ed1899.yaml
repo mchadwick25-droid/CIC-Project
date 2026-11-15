@@ -1,0 +1,20 @@
+source_file: eddy_science-and-health-with-key-to-the-scriptures_161st-ed1899.txt
+assignments:
+- row_id: eddy_science-and-health-with-key-to-the-scriptures_161st-ed1899--science-and-health-with-key-to-the-scriptures-by-mary-baker
+  work: Science and Health with Key to the Scriptures. By Mary Baker G. Eddy, President of Massachusetts Metaphysical
+  author: eddy
+  locus: Preface at OCR lines 151-300; add 12 to OCR line numbers; the rest not mapped
+  atlas_ids:
+  - christian-science
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: the title page and front matter of this printing (1899); they do not state when the text was first
+      written
+  edition_date:
+    year: 1899
+    source: OCR lines 25-55 (title page, '161st edition', '1899.')
+    formation_confidence: Documented
+  note: 'Era 9 row 177, Mary Baker Eddy: Science and Health.'

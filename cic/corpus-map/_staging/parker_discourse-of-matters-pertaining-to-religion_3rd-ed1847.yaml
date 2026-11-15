@@ -1,0 +1,23 @@
+source_file: parker_discourse-of-matters-pertaining-to-religion_3rd-ed1847.txt
+assignments:
+- row_id: parker_discourse-of-matters-pertaining-to-religion_3rd-ed1847--a-discourse-of-matters-pertaining-to-religion-by-theodore
+  work: 'A Discourse of Matters Pertaining to Religion. By Theodore Parker. Third Edition. Boston: Charles C. Little'
+  author: parker
+  locus: Preface, and Book on the transient and permanent in Christianity at OCR lines 189-282; 12151-12200 (running
+    head); add 12 to OCR line numbers; the rest not mapped
+  atlas_ids:
+  - american-unitarianism-universalism-consolidations
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1847
+    end: 1847
+    source: 'the printing''s own title page: OCR lines 150-180 (''M.DCCC.ZLVII.'' Roman numerals, with host date
+      1847)'
+    formation_confidence: Documented
+  edition_date:
+    year: 1847
+    source: OCR lines 150-180 ('M.DCCC.ZLVII.' Roman numerals, with host date 1847)
+    formation_confidence: Documented
+  note: 'Era 9 row 184, Theodore Parker: his own writing.'

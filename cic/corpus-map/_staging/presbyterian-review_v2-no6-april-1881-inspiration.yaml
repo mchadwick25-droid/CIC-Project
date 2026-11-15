@@ -1,0 +1,21 @@
+source_file: presbyterian-review_v2-no6-april-1881-inspiration.txt
+assignments:
+- row_id: presbyterian-review_v2-no6-april-1881-inspiration--the-presbyterian-review-no-6-april-1881-the-first-article-is
+  work: The Presbyterian Review, No. 6, April, 1881 (the first article is 'Inspiration')
+  author: presbyterian-review
+  locus: Inspiration article at OCR lines 19-~1500; add 12 to OCR line numbers; the rest not mapped
+  atlas_ids:
+  - fundamentalism-1910-1970s
+  role: context
+  confidence: needs-ruling
+  language: eng
+  date:
+    start: 1881
+    end: 1881
+    source: 'the printing''s own title page: the number''s own heading at OCR line 13, ''No. 6.-April, 1881'''
+    formation_confidence: Documented
+  edition_date:
+    year: 1881
+    source: the number's own heading at OCR line 13, 'No. 6.-April, 1881'
+    formation_confidence: Documented
+  note: 'Era 9 row 217, A. A. Hodge and B. B. Warfield: Inspiration, Presbyterian Review, April 1881.'

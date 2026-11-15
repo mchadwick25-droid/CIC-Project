@@ -1,0 +1,21 @@
+source_file: phillippo_jamaica-its-past-and-present-state_1843.txt
+assignments:
+- row_id: phillippo_jamaica-its-past-and-present-state_1843--jamaica-its-past-and-present-state-by-james-m-phillippo
+  work: 'Jamaica: its past and present state, by James M. Phillippo, twenty years a Baptist missionary in that island.'
+  author: phillippo
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - caribbean-churches-of-slavery-and-emancipation
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1843
+    end: 1843
+    source: 'the printing''s own title page: OCR lines 8-20 (MDCCCXLIII)'
+    formation_confidence: Documented
+  edition_date:
+    year: 1843
+    source: OCR lines 8-20 (MDCCCXLIII)
+    formation_confidence: Documented
+  note: 'Era 9 row 171, William Knibb: a fellow missionary''s account of Jamaica.'

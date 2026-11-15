@@ -1,0 +1,23 @@
+source_file: noyes_history-of-american-socialisms_1870.txt
+assignments:
+- row_id: noyes_history-of-american-socialisms_1870--history-of-american-socialisms-by-john-humphrey-noyes
+  work: 'History of American Socialisms. By John Humphrey Noyes. Philadelphia: J. B. Lippincott & Co. 1870'
+  author: noyes
+  locus: Chapter XLVI The Oneida Community at OCR lines search from line 520 on 'Oneida Community'; add 12 to OCR
+    line numbers; the rest not mapped
+  atlas_ids:
+  - oneida-community
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1870
+    end: 1870
+    source: 'the printing''s own title page: OCR line 74 (''I 870''); verso on page image leaf 9 reads ''in the
+      year 1869''; host date 1870'
+    formation_confidence: Documented
+  edition_date:
+    year: 1870
+    source: OCR line 74 ('I 870'); verso on page image leaf 9 reads 'in the year 1869'; host date 1870
+    formation_confidence: Documented
+  note: 'Era 9 row 180, John Humphrey Noyes: his own writing.'

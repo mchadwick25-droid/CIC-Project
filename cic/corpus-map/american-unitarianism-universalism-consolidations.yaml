@@ -29,3 +29,85 @@ works:
   note: The opening text of the consolidation era (1819 onward); provisional pending that
     world's own build.
   source_file: channing_sermon-at-the-ordination-of-jared-sparks-baltimore_1819.txt
+- row_id: parker_discourse-of-matters-pertaining-to-religion_3rd-ed1847--a-discourse-of-matters-pertaining-to-religion-by-theodore
+  work: 'A Discourse of Matters Pertaining to Religion. By Theodore Parker. Third Edition.
+    Boston: Charles C. Little'
+  author: parker
+  locus: Preface, and Book on the transient and permanent in Christianity at OCR lines 189-282;
+    12151-12200 (running head); add 12 to OCR line numbers; the rest not mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1847
+    end: 1847
+    source: 'the printing''s own title page: OCR lines 150-180 (''M.DCCC.ZLVII.'' Roman numerals,
+      with host date 1847)'
+    formation_confidence: Documented
+  edition_date:
+    year: 1847
+    source: OCR lines 150-180 ('M.DCCC.ZLVII.' Roman numerals, with host date 1847)
+    formation_confidence: Documented
+  note: 'Era 9 row 184, Theodore Parker: his own writing.'
+  source_file: parker_discourse-of-matters-pertaining-to-religion_3rd-ed1847.txt
+- row_id: parker_ten-sermons-of-religion_2nd-ed1861--ten-sermons-of-religion-by-theodore-parker-minister-of-the
+  work: Ten Sermons of Religion by Theodore Parker, Minister of the Twenty-eighth Congregational
+    Church, in Boston.
+  author: parker
+  locus: Preface and Sermon contents at OCR lines 122-240; add 12 to OCR line numbers; the
+    rest not mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1852
+    end: 1861
+    source: 'the printing''s own title page: OCR lines 62-80 (''M DCCC LXI.''; copyright 1852
+      line 84)'
+    formation_confidence: Documented
+  edition_date:
+    year: 1861
+    source: OCR lines 62-80 ('M DCCC LXI.'; copyright 1852 line 84)
+    formation_confidence: Documented
+  note: 'Era 9 row 184, Theodore Parker: his sermons.'
+  source_file: parker_ten-sermons-of-religion_2nd-ed1861.txt
+- row_id: weiss_life-and-correspondence-of-theodore-parker-v2_1864--life-and-correspondence-of-theodore-parker-by-john-weiss-in
+  work: 'Life and Correspondence of Theodore Parker ... By John Weiss. In two volumes. Vol.
+    II. New York: D. Appleton'
+  author: weiss
+  locus: Final years and illness at OCR lines from line 150 on; add 12 to OCR line numbers;
+    the rest not mapped
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1864
+    end: 1864
+    source: 'the printing''s own title page: OCR lines 58-72'
+    formation_confidence: Documented
+  edition_date:
+    year: 1864
+    source: OCR lines 58-72
+    formation_confidence: Documented
+  note: 'Era 9 row 184, Theodore Parker: a Life with his letters (vol. 2).'
+  source_file: weiss_life-and-correspondence-of-theodore-parker-v2_1864.txt
+- row_id: weiss_life-and-correspondence-of-theodore-parker-v1_1864--life-and-correspondence-of-theodore-parker-minister-of-the
+  work: Life and Correspondence of Theodore Parker, Minister of the Twenty-eighth Congregational
+    Society, Boston. By
+  author: weiss
+  locus: Parker's early life and letters at OCR lines 330-9000; add 12 to OCR line numbers;
+    the rest not mapped
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1864
+    end: 1864
+    source: 'the printing''s own title page: OCR lines 38-58'
+    formation_confidence: Documented
+  edition_date:
+    year: 1864
+    source: OCR lines 38-58
+    formation_confidence: Documented
+  note: 'Era 9 row 184, Theodore Parker: a Life with his letters (vol. 1).'
+  source_file: weiss_life-and-correspondence-of-theodore-parker-v1_1864.txt

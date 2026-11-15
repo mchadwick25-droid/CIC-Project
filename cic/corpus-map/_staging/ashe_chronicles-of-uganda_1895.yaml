@@ -1,0 +1,22 @@
+source_file: ashe_chronicles-of-uganda_1895.txt
+assignments:
+- row_id: ashe_chronicles-of-uganda_1895--chronicles-of-uganda-by-the-rev-r-p-ashe-m-a-f-r-g-s-author
+  work: Chronicles of Uganda. By the Rev. R. P. Ashe, M.A., F.R.G.S., author of Two Kings of Uganda. With portrait
+  author: ashe
+  locus: martyrdoms of the young converts and note referring to the fuller account at OCR lines 2490-2640; add 12
+    to OCR line numbers; the rest not mapped
+  atlas_ids:
+  - east-african-christianity-uganda-martyrs
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1895
+    end: 1895
+    source: 'the printing''s own title page: OCR lines 49-52'
+    formation_confidence: Documented
+  edition_date:
+    year: 1895
+    source: OCR lines 49-52
+    formation_confidence: Documented
+  note: 'Era 9 row 210, Charles Lwanga: a missionary''s account of Uganda (it does not name him).'

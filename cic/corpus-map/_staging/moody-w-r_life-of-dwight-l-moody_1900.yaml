@@ -1,0 +1,22 @@
+source_file: moody-w-r_life-of-dwight-l-moody_1900.txt
+assignments:
+- row_id: moody-w-r_life-of-dwight-l-moody_1900--the-life-of-dwight-l-moody-by-his-son-william-r-moody
+  work: The Life of Dwight L. Moody, by his son William R. Moody; Official Authorised Edition; issued by the
+  author: moody-w-r
+  locus: Moody's own words on his conversion (page-front autobiography) at OCR lines 47-66; add 12 to OCR line numbers;
+    the rest not mapped
+  atlas_ids:
+  - the-sunday-school-and-bible-institute-movement
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1900
+    end: 1900
+    source: 'the printing''s own title page: OCR line 106 (copyright 1900 line 109)'
+    formation_confidence: Documented
+  edition_date:
+    year: 1900
+    source: OCR line 106 (copyright 1900 line 109)
+    formation_confidence: Documented
+  note: 'Era 9 row 167, Dwight L. Moody: the Life by his son.'

@@ -3,6 +3,48 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-second-great-awakening-and-camp-meeting-worl
 works:
+- row_id: finney_lectures-on-revivals-of-religion_6th-ed1835--lectures-on-revivals-of-religion-by-charles-g-finney-from
+  work: Lectures on Revivals of Religion, by Charles G. Finney, from notes by the editor of
+    the N.Y. Evangelist,
+  author: finney
+  locus: Lecture III 'Means to be used' and Lecture V, on prayer and new measures at OCR lines
+    1700-4000; add 12 to OCR line numbers; the rest not mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1835
+    end: 1835
+    source: 'the printing''s own title page: page image leaf 6 (''1835''); OCR line 86-90
+      reads ''1 835'''
+    formation_confidence: Documented
+  edition_date:
+    year: 1835
+    source: page image leaf 6 ('1835'); OCR line 86-90 reads '1 835'
+    formation_confidence: Documented
+  note: 'Era 9 row 165, Charles G. Finney: Lectures on Revivals of Religion.'
+  source_file: finney_lectures-on-revivals-of-religion_6th-ed1835.txt
+- row_id: finney_memoirs-of-rev-charles-g-finney_1876--memoirs-of-rev-charles-g-finney-written-by-himself-new-york
+  work: 'Memoirs of Rev. Charles G. Finney, written by himself. New York: A. S. Barnes & Company,
+    1876'
+  author: finney
+  locus: conversion and early revivals at OCR lines 400-5000 (approx); add 12 to OCR line
+    numbers; the rest not mapped
+  role: tradition
+  confidence: needs-ruling
+  language: eng
+  date:
+    start: 1876
+    end: 1876
+    source: 'the printing''s own title page: OCR line 14 (also copyright 1876 line 21, Oberlin
+      College preface line 76)'
+    formation_confidence: Documented
+  edition_date:
+    year: 1876
+    source: OCR line 14 (also copyright 1876 line 21, Oberlin College preface line 76)
+    formation_confidence: Documented
+  note: 'Era 9 row 165, Charles G. Finney: his Memoirs.'
+  source_file: finney_memoirs-of-rev-charles-g-finney_1876.txt
 - row_id: mcnemar_kentucky-revival-with-the-entrance-of-shakerism_1808--the-kentucky-revival-1808-2
   work: The Kentucky Revival (1808)
   author: mcnemar

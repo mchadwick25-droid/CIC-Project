@@ -1,0 +1,22 @@
+source_file: tullidge_life-of-brigham-young_1876.txt
+assignments:
+- row_id: tullidge_life-of-brigham-young_1876--life-of-brigham-young-or-utah-and-her-founders-by-edward-w
+  work: Life of Brigham Young; or, Utah and her Founders. By Edward W. Tullidge. New York, 1876
+  author: tullidge
+  locus: Young's early life and the Exodus (Chapter II) at OCR lines from contents line 37; add 12 to OCR line numbers;
+    the rest not mapped
+  atlas_ids:
+  - latter-day-saints-lds
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1876
+    end: 1876
+    source: 'the printing''s own title page: OCR lines 10-20'
+    formation_confidence: Documented
+  edition_date:
+    year: 1876
+    source: OCR lines 10-20
+    formation_confidence: Documented
+  note: 'Era 9 row 175, Brigham Young: a life told by another.'

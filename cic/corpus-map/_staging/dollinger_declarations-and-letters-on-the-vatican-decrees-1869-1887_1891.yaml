@@ -1,0 +1,21 @@
+source_file: dollinger_declarations-and-letters-on-the-vatican-decrees-1869-1887_1891.txt
+assignments:
+- row_id: dollinger_declarations-and-letters-on-the-vatican-decrees-1869-1887_1891--declarations-and-letters-on-the-vatican-decrees-1869-1887-by
+  work: Declarations and Letters on the Vatican Decrees, 1869-1887, by Ignaz von Dollinger. Authorised translation
+  author: dollinger
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - old-catholic-churches-union-of-utrecht
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1869
+    end: 1887
+    source: 'the printing''s own title page: page image leaf n8 (''1891.''); the OCR at line 93 reads ''189,'''
+    formation_confidence: Documented
+  edition_date:
+    year: 1891
+    source: page image leaf n8 ('1891.'); the OCR at line 93 reads '189,'
+    formation_confidence: Documented
+  note: 'Era 9 row 195, Ignaz von Dollinger: his declarations and letters on the Vatican decrees, in English.'
