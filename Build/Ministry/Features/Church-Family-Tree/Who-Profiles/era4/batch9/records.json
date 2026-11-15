@@ -1,0 +1,937 @@
+{
+ "john-of-damascus": {
+  "claims": [
+   {
+    "claim": "The council of 754 at Constantinople: \"Anathema to Mansur, who has an evil name and Saracen opinions!\"; \"The Trinity has deposed these three!\"; Mansur glossed as John Damascene",
+    "witness": "NPNF14 (npnf214_seven-ecumenical-councils.xml) l.39205 (heading, A.D. 754), l.39463-39471",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Theophanes: \"Joannes Chrysorrhoas, Mansur filius, doctor egregius, sanctitate vitae ... ac doctrina fulgebat\" (OCR \"tilius\"); \"Chrysorrhoas recte cognominatus\" for the golden radiance of his eloquence; Constantine V cursed him with curses renewed every year",
+    "witness": "THEO (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt) l.73733-73735, l.75284-75292",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mansur the ancestral name: Theophanes \"Mansur aviti nominis\" (Goar), \"quod est avitum nomen ejus\" (Anastasius); Le Quien: \"cognomen Arabicum Mansur, quod ejus progenitoribus ac toti familiae proprium fuit\"",
+    "witness": "THEO l.75289-75291, l.121040; PG94 l.30617-30619",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Life is headed as by John, patriarch of Jerusalem; Fabricius: its author \"post medium saeculi decimi clarus\", drew on an Arabic Life; the Life itself says it reworks a Life in Arabic; Le Quien: its author lived long after John",
+    "witness": "PG94 l.30219-30222, l.618-621, l.30582-30589, l.30255-30259",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "In the Life: the caliph makes John first counselor (\"primi a consiliis dignitate ornavit\"); Leo's forged letter; the right hand cut off on the caliph's order; healed after prayer before the image of the Mother of God; John gives his goods away and goes to the laura of Sabas with Cosmas",
+    "witness": "PG94 l.31877-31880, l.32279-32294, l.32497-32508, l.32740-32746, l.33011-33035",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Fabricius: \"fabulam illam parum credibilem de manu Damasceni ... restituta\"; Allatius faults Volaterranus for omitting the restoration \"quod potissimum erat\"",
+    "witness": "PG94 l.620; l.7181-7183",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Le Quien: Leo began acting against images \"anno 726\"; John wrote \"hoc anno 727, aut subsequenti 728\"; the second oration \"anno Christi 750 [OCR for 730] quo Germanus solio detrusus est\"; Theophanes places Germanus's deposition in A.M. 6221",
+    "witness": "PG94 l.32054-32070, l.32111-32115; THEO l.73562, l.73735-73739",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Oration I: \"Deum olim, ut corporis ac figurae expertem, imago nulla referebat. Nunc vero posteaquam in carne visus est Deus ... Non materiam, sed materiae auctorem adoro; qui propter me materia factus est\"",
+    "witness": "PG94 l.89146-89155",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Oration II: \"Penes imperatores potestas non est, ut Ecclesiae leges sanciant\"",
+    "witness": "PG94 l.93182-93183",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Exposition IV.16 (Salmond): \"we fall down and worship not the material but that which is imaged\", on seeing \"the image of Christ's crucifixion\"",
+    "witness": "NPNF9 (npnf209_hilary-poitiers-john-damascus.xml) l.36278-36282",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Fount of Knowledge: Dialectica, the book on heresies and De orthodoxa fide; the Dialectica \"post a. c. 743\", its letter addressing Cosmas \"Majumae jam episcopum\"",
+    "witness": "PG94 l.936-943 (Fabricius)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Stephen the Deacon wrote the Life of Stephen the Younger in 808 (Fabricius), in the 42nd year after Stephen's death (Benedictines: \"ut auctor ipse testatur\"); in it Stephen the Younger, speaking to the monks (l.92457-92460, l.92546-92549), says John \"quem hic tyrannus Mansur nominabat, nos autem sanctum et deiferum appellamus\" kept writing against the emperor; Allatius reads it the same way (PG94 l.7276-7277)",
+    "witness": "PG100 (nikephoros-cp_opera-with-vita-stephani-iunioris-pg100-grc-lat_migne1860.txt) l.88570-88573, l.88585-88588, l.92531-92537",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Le Quien edited John's works in 1712 (Fabricius's notice of the Paris edition)",
+    "witness": "PG94 l.925-926",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Le Quien on hymns: \"neminem e Graecis superiorem habuit, non parem alterum, ipso fatente Suida\"; Le Quien's prologue in Salmond: \"his authority among theologians was always weighty, not only in the East but even in the West\"",
+    "witness": "PG94 l.4590-4597; NPNF9 l.27483-27485, l.27524-27530",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Roman Martyrology, 6 May: fought for the images \"verbo et scriptis adversus Leonem Isauricum\"; Greek feasts 29 Nov. and 4 Dec. (Fabricius)",
+    "witness": "PG94 l.37214-37218; l.618-619",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The second speech dated \"anno Christi 750\" in the scan, tied to Germanus's deposition, which Theophanes places in A.M. 6221 (729/30): read as 730",
+    "witness": "PG94 l.32111-32115; THEO l.73562, l.73735-73739",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "The cut hand and its healing",
+    "sides": [
+     "The Life (tenth century or later by Fabricius): the caliph had the hand cut off on Leo's forged letter; the Mother of God healed it (PG94 l.32497-32508, l.32740-32746)",
+     "Fabricius: a hardly credible tale (PG94 l.620)",
+     "Allatius: the healing is the main thing in it (PG94 l.7181-7183)",
+     "Roman Martyrology: the hand cut off at Leo's order (PG94 l.37218)"
+    ]
+   },
+   {
+    "claim": "Son or grandson of Mansur; his father's name",
+    "sides": [
+     "Theophanes in Goar's Latin: \"Mansur filius\" (THEO l.73733-73734, l.77082)",
+     "Anastasius the Librarian's Latin: \"nepotem Mansur\" (THEO l.121715-121718)",
+     "Le Quien: the father was Sergius, son of Mansur (PG94 l.30705-30707); Allatius cites Cedrenus making the father Mansur (PG94 l.7298)"
+    ]
+   },
+   {
+    "claim": "Mansur: family name or insult",
+    "sides": [
+     "Theophanes: the ancestral name (THEO l.75289-75291, l.121040); Fabricius reads it as the grandfather's name, the insult being Constantine's twist into Manzeros (PG94 l.552-578); Le Quien: the family's name (PG94 l.30617-30619)",
+     "Stephen the Younger, in his Life (PG100 l.92532-92533), and the council of 787, act 6, as Allatius quotes it (PG94 l.7286-7287): an insult",
+     "Allatius: uncertain (PG94 l.7267)"
+    ]
+   },
+   {
+    "claim": "The year of his death",
+    "sides": [
+     "Hody: about 750 (PG97, theodore-abu-qurrah_opuscula-with-andrew-crete-malalas-pg97-grc-lat_migne1860.txt l.4840-4841)",
+     "Fabricius: it seems, not before 756 (PG94 l.617)",
+     "Le Quien: wholly obscure (PG94 l.31090-31092)",
+     "Dindorf: the middle of the eighth century (PG97 l.496-497)"
+    ]
+   },
+   {
+    "claim": "Where he died",
+    "sides": [
+     "The Bollandists, from the Menologion of Basil: in exile abroad (PG94 l.35140-35158, as Le Quien reports)",
+     "Le Quien: at Mar Saba, on John Phocas's witness to the tomb (PG94 l.35165-35199)",
+     "Roman Martyrology: his feast at Damascus (PG94 l.37215)"
+    ]
+   },
+   {
+    "claim": "When he became a monk",
+    "sides": [
+     "The Life: after the healing, he left the court for Mar Saba (PG94 l.33011-33035)",
+     "Le Quien: already a monk and a cleric of Jerusalem early in Leo's reign (PG94 l.31104-31109, l.32300 ff.)"
+    ]
+   },
+   {
+    "claim": "The third image speech",
+    "sides": [
+     "Hody: possibly not John's (PG97 l.496-499, as Dindorf reports)",
+     "Dindorf: Hody's reasons are slight (PG97 l.496-499)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "His birth year, his mother's name, and the year of his death",
+    "note": "No held source gives them. Le Quien: born before the end of the seventh century, it seems. Searched all cic/texts for Damascen, John of Damascus, Chrysorrho, Mansur and Greek forms."
+   },
+   {
+    "detail": "The acts of the council of Nicaea of 787 on John",
+    "note": "Mansi's volumes 12 and 13 are not held; NPNF14 gives the 754 definition as quoted in the 787 acts, but no 787 acclamation of John."
+   },
+   {
+    "detail": "An English translation of the image speeches",
+    "note": "None is held. NPNF14 l.38289-38291 names one that is not vendored."
+   }
+  ]
+ },
+ "theodore-the-studite": {
+  "claims": [
+   {
+    "claim": "The officer sent to give fifty lashes: \"qui sacrum Theodorum quinquaginta taureis castiget\"; \"Quod tibi, inquit, fili, de me imperatum est, exsequere\"; \"repentino timore correptus ... pronum se abjicit ad sancti viri pedes, benedictionem ab eo consequi petens\"",
+    "witness": "PG99 (theodore-studite_opera-omnia-pg99-grc-lat_migne1860.txt), Life B, l.23848-23861",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Two Lives carry Michael the monk's name; the Sirmond preface: \"Vita a Michaele monacho, qui cum ipso vixit\"; Mai: the Vatican Life is Michael's, the Sirmond Life anonymous or perhaps by a John (Allatius); one codex names Theodore Daphnopates; \"elocutio ... semper ab illa edita Vita differt; sed tamen res narratae vix variant\" (l.18788-18789)",
+    "witness": "PG99 l.8212-8213, l.3725-3727, l.18762-18773, l.8300-8302, l.3318-3325",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Born at Constantinople \"a. C. 759\"; abbot of Sakkoudion \"a. 794\"; exiled to Thessalonica \"a. 796\"; second exile 809, restored 811; Leo V's edict 814; restored 821; died 826, 11 November",
+    "witness": "PG99 l.351-368 (Fabricius); l.5448-5450, l.5713-5726, l.6386-6388 (Sirmond chronology)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Left the world at 22 (\"annos tunc natus viginti duos\"); abbot at 35, unwilling (\"licet reluctanti ... annos quinque ac triginta natus\"); Plato his mother's brother; Sakkoudion",
+    "witness": "PG99 Life B l.19232-19234, l.19330-19335, l.19425-19430; Life A l.8984-8987, l.10140-10149",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Constantine VI put away his lawful wife and married Theodote, a kinswoman; Theodore and Plato broke communion; the pretended journey to the Prusa hot springs (\"Simulans\"); flogged and exiled with ten monks to Thessalonica",
+    "witness": "PG99 Life A l.10261-10267; Life B l.20502-20506, l.20522-20545; THEO (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt) l.85200-85219",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Theophanes: \"monachi ad septingentos usque sub Theodoro militantes\"",
+    "witness": "THEO l.87174-87176",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Testament: \"Non possidebis servum ... hominem qui ad Dei imaginem factus est: hoc enim solis saecularibus concessum est, sicut nuptiae\"; \"nihil cujusquam proprii jure dominii, usque ad acum\"",
+    "witness": "PG99 l.155223-155254",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Second exile 809 over the restored steward-priest Joseph, who had crowned Constantine and Theodote; third exile under Leo V over the images",
+    "witness": "PG99 l.5638-5641, l.5713-5726, Life B l.21926-21932, l.23497-23528; THEO l.87768-87772",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Letter II.2 to all monks: \"cum persecutionem in imagine sua Christus patitur ... sed et discipulus quoque ipse fiduciam sumere, et veritatem intrepida ac libera voce profiteri\"",
+    "witness": "PG99 l.93986-93991",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Death on Sunday the 11th, Menas's day, at the verse \"In aeternum non obliviscar justificationes tuas; quia in ipsis vivificasti me\"; Naukratios present (\"Psalmos incipimus\") and his successor",
+    "witness": "PG99 Life A l.18584-18606; Naukratios l.157428-157438; Life B l.26687-26688",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Translation to Stoudios eighteen years later under Methodios and Theodora, laid with Plato and Joseph",
+    "witness": "PG99 Life A l.18684-18697; Life B l.26958-26990",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Kyiv: \"He obtained their rule from him, copied it out, and established it in his own monastery\" (Theodosius, from the Studite monk Michael); Nestor's Life: sent to Ephraim the eunuch for the Studite rule",
+    "witness": "CROSS (russian-primary-chronicle_cross1930.txt) l.11866-11878; PAT (kievan-caves-paterik_paterik-kievskago-pecherskago-monastyria-chu_abramovich1911.txt) l.2170-2176",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Meyer: Athanasios took the commands to the abbot \"mit geringen Abänderungen\" from Theodore's Testament, canons 1-5 \"fast wörtlich\"",
+    "witness": "MEYER l.1004-1048 (l.1043-1047)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Lenten canons by \"Theodorus et Josephus Studitae\" (Kallistos in Fabricius); the Triodion named for them, \"non quod totus liber Theodori ac Josephi sit\" (Allatius)",
+    "witness": "PG99 l.834-837, l.3594-3604",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Sirmond preface: \"quem sanctitas sacerdotem, peritia doctorem, fides tantum non martyrem consecravit\"; Fabricius: the Greeks call him Confessor; the preface borrows Maximus of Turin's words on Cyprian (l.3738-3746)",
+    "witness": "PG99 l.3745-3752; l.369",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Authorship of the two Lives",
+    "sides": [
+     "Sirmond's preface: the Sirmond Life is by Michael, who lived with him (PG99 l.3725-3727)",
+     "Mai: the Vatican Life is Michael's; the Sirmond Life anonymous or perhaps by a John (PG99 l.18762-18773)",
+     "One codex: Theodore Daphnopates (PG99 l.8300-8302; Fabricius l.376-377)"
+    ]
+   },
+   {
+    "claim": "Theodote's kinship to Theodore",
+    "sides": [
+     "Life A: related by birth, they say (PG99 l.10266-10267)",
+     "Mai's Latin of Life B: his sister's daughter (PG99 l.20517-20518); its Greek reads kinswoman (l.20472)"
+    ]
+   },
+   {
+    "claim": "The year he took over Stoudios",
+    "sides": [
+     "Sirmond chronology: 798 (PG99 l.5579-5586)",
+     "Fabricius: the year after Constantine VI's death, \"anno proximo post Constantini mortem\" (PG99 l.358-359)",
+     "Meyer: 789, citing the same chronology (MEYER l.943-945, l.971-974)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Years in the Lives",
+    "note": "Neither Life gives a year of birth or death; the years are Fabricius's and the Sirmond chronology's. No held editor disputes 759 or 826."
+   },
+   {
+    "detail": "Dates of the Lives",
+    "note": "No held line gives a year of writing for either Life."
+   },
+   {
+    "detail": "English of his own words",
+    "note": "None is held. Searched all cic/texts for Studite, Stoudite, Studion, Stoudios, Studium."
+   }
+  ]
+ },
+ "cyril-and-methodius": {
+  "claims": [
+   {
+    "claim": "Relic finding: \"Quadam autem die, quae in III. Calendarum Januariarum inscribitur\"; with \"Metropolitam, nomine Georgium\"; the island; \"velut clarissimum quoddam sidus ... una de costis Martyris pretiosi resplenduit\"; the head; \"ipsa etiam anchora, cum qua in Pontum est praecipitatus, apparuit\"",
+    "witness": "GIN (ginzel_geschichte-der-slawenapostel-cyrill-und-method-deu-lat_1861.txt), Italian Legend, l.11292-11331",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Constantine of Thessalonica, \"Philosophus\"; Methodius his brother",
+    "witness": "GIN l.11232-11240, l.11408-11410",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ginzel ranks the translatio S. Clementis among the genuine documents and calls it the Italian Legend; the Bollandists make it \"sehr wahrscheinlich\" that it comes from Gauderich of Velletri, a contemporary",
+    "witness": "GIN l.1452-1475, l.1745-1757 (Fraktur OCR)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Rastislav's request; the people had left idols but \"doctorem talem non habent\"; the emperor sends Constantine \"simul cum Methodio germano suo\"; they teach children letters and church offices; \"Manserunt ... per annos quatuor et dimidium\" and left \"scripta ... omnia, quae ad Ecclesiae ministerium videbantur esse necessaria\"",
+    "witness": "GIN l.11395-11431",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Life of Methodius: \"manifestavit Deus philosopho Slovenicas litteras\"",
+    "witness": "GIN l.12217-12218",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Dümmler: the Pannonian Life was written by a pupil soon after Methodius's death; Wattenbach: \"testis haud levis\"; Ginzel: \"das Machwerk eines griechischen Schismatikers\"",
+    "witness": "GIN l.1550-1584, l.1815-1823 (Fraktur OCR)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Hadrian II meets them because they bring Clement; \"consecraverunt ipsum et Methodium in Episcopos\"; \"imposuit sibi nomen Cyrillum\"; \"post quadraginta dies dormitionem accepit ... sexto decimo Kalendas Martias\"",
+    "witness": "GIN l.11434-11446, l.11466-11480",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Their mother's plea; the pope at first agrees; the Roman clergy and bishops press; burial \"in basilica B. Clementis ad dex[teram]\"",
+    "witness": "GIN l.11488-11502, l.11550-11556 (OCR cut)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Salzburg account (873, hostile): \"quidam graecus, methodius nomine, noviter inventis sclavinis litteris ... vilescere fecit cuncto populo ex parte [in part] missas et evangelia\"",
+    "witness": "GIN l.13130-13135, l.13641-13664; date l.1186-1196",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "John VIII, 879: \"missas cantes in barbara, hoc est in sclavina lingua. Unde iam litteris nostris, per Paulum episcopum Anconitanum tibi directis prohibuimus\" (a repeated ban); preaching in Slavonic allowed",
+    "witness": "GIN l.13797-13807",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "John VIII to Svatopluk, June 880: Methodius came to Rome; \"Litteras denique sclaviniscas a Constantino quondam philosopho repertas ... jure laudamus\"; \"qui fecit tres linguas principales, hebream scilicet, grecam et latinam, ipse creavit et alias omnes ad laudem et gloriam suam\"; the Gospel first in Latin",
+    "witness": "GIN l.13877-13884, l.13948-13982",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Methodius dies \"sexta die mensis Aprilis tertia indictione\" (A.M. 6393); funeral \"Latine, Graece, Slovenice\"; Gorazd named as successor",
+    "witness": "GIN l.12514-12545",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Arrest: the Life of Methodius, \"incitavit cor hostis Moravici regis cum omnibus episcopis contra nos ... illum vero miserunt in Suevos et detinebant annos duos et dimidium\"; Lützow: \"The German governors seized the Archbishop Methodius, and delivered him as prisoner to his enemies the German bishops\". Place and length the Life's alone",
+    "witness": "GIN l.12326-12360; LUTZOW (lutzow_bohemia-historical-sketch_1920.txt) l.1420-1423",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "RPC: \"The Slavs rejoiced to hear the greatness of God extolled in their native tongue\"; Moravian writing \"exists also in Rus and among the Danubian Bulgarians\"; Cross: the six-month Bible \"generally regarded as apocryphal\"; Constantine invented the \"Glagolica\"",
+    "witness": "CROSS (russian-primary-chronicle_cross1930.txt) l.7896-7901, l.7866-7872, l.5664-5672",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Disciples named: \"Gorasdus et Clemens et Naum et Angelarius et Sabbas\" (Life of Clement)",
+    "witness": "GIN l.12661",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Olomouc 1380 feast on 9 March (Ginzel's note); Theiner dedicates the volume to Bishop Strossmayer and calls it his keeping of the millennium feast",
+    "witness": "GIN l.1530-1538; THEINER (theiner_vetera-monumenta-slavorum-meridionalium-v1-lat_1863.txt) l.99-104, l.125, l.157-160",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Worth of the Life of Methodius",
+    "sides": [
+     "Dümmler: a pupil, soon after his death, credible; Wattenbach: high value (GIN l.1550-1576, 1815-1823)",
+     "Ginzel, writing against the Greek schism: \"das Machwerk eines griechischen Schismatikers\" (GIN l.1589-1592; his polemic l.1704-1707)"
+    ]
+   },
+   {
+    "claim": "Who made them bishops, and which pope received them",
+    "sides": [
+     "Italian Legend: Hadrian II consecrated both (GIN l.11446, 11470-11471)",
+     "Life of Methodius: Nicholas received them and ordained Methodius priest; bishop later for Kocel (GIN l.12226-12236, 12320-12322)"
+    ]
+   },
+   {
+    "claim": "The year of Cyril's death",
+    "sides": [
+     "Ginzel: 868 (GIN l.3615-3618)",
+     "Dümmler and Cross: 869 (GIN l.3619-3625; CROSS l.5656)"
+    ]
+   },
+   {
+    "claim": "The day of Methodius's death",
+    "sides": [
+     "Life of Methodius: 6 April, A.M. 6393 (GIN l.12536-12541, where the year is damaged in the scan; Ginzel gives 6393 from Šafařík's edition, l.6199-6205); Ginzel works the year out as 885 and defends the date (GIN l.6170-6205)",
+     "Wattenbach, as Ginzel reports: suspicious on a high feast (GIN l.6170-6173)"
+    ]
+   },
+   {
+    "claim": "The date of the Salzburg account",
+    "sides": [
+     "Ginzel and Kopitar: 873 (GIN l.1186-1196)",
+     "Assemani and Wattenbach: 871 (GIN l.1131-1132)"
+    ]
+   },
+   {
+    "claim": "Which alphabet Constantine made",
+    "sides": [
+     "Cross: the Glagolitic, not the Cyrillic (CROSS l.5666-5672)",
+     "Lützow: known as the Cyrillic alphabet (LUTZOW lutzow_bohemia-historical-sketch_1920.txt l.1336-1339)"
+    ]
+   },
+   {
+    "claim": "How long they stayed in Moravia",
+    "sides": [
+     "Italian Legend: four and a half years (GIN l.11422-11424); Ginzel follows it (GIN l.3245-3249)",
+     "Life of Methodius: three years (GIN l.12220-12221)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Own works",
+    "note": "No work by either brother in his own person is held. Searched all cic/texts for Methodi, Cyrill, Kyrill, Konstantin with Philosoph, Proglas and Cyrillic forms."
+   },
+   {
+    "detail": "Births and the mother's name",
+    "note": "No held source gives the brothers' birth years or their mother's name. The Russian Primary Chronicle names their father Leo (CROSS l.7885-7892)."
+   },
+   {
+    "detail": "The Life of Constantine",
+    "note": "Not held in any language."
+   },
+   {
+    "detail": "Methodius's jailer",
+    "note": "No held line names him; searched Hermanric, Ermanric, Ermenric. Lützow says only the German bishops."
+   }
+  ]
+ },
+ "antony-and-theodosius-of-the-kyiv-caves": {
+  "claims": [
+   {
+    "claim": "The youth refused by Kyiv's monasteries for his poor clothes; Antony: \"о чадо, видиши ли печеру сiю: скорбно сущи мѣсто и тѣсно, ты же юнъ еси\"; his answer that Christ brought him; \"И се мѣсто; буди в нѣмь\"",
+    "witness": "PAT (kievan-caves-paterik_paterik-kievskago-pecherskago-monastyria-chu_abramovich1911.txt) l.1648-1672",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Nestor's Life heading: \"Списано Нестеромъ, мнихомъ того-же Печерьскаго монастыря\"; base text the second Cassian redaction of 1462; the Arsenian copy of 1406 in the appendix",
+    "witness": "PAT l.1249-1251, l.107-114, l.164-168, l.15189-15191",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Sylvester: \"I Sylvester, Prior of St Michael's, wrote this Chronicle in the year 6624 (1116)\"",
+    "witness": "CROSS (russian-primary-chronicle_cross1930.txt) l.15108-15110",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Antony: \"a layman from the city of Lyubech\"; Athos; named Antonius; sent back \"that many other monks might spring from his example\"; \"Oh Lord, strengthen me in this place\"",
+    "witness": "CROSS l.11755-11782",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "After Yaroslav's death, under Izyaslav, twelve brothers gather; Antony goes \"alone to yonder hill\"; Barlaam prior; then \"Who among you is more obedient, more modest, and more mild than Theodosius? Let him be your prior\"; a hundred monks; Barlaam leaves for St Demetrius, then the brothers ask for a new prior",
+    "witness": "CROSS l.11787-11805, l.11850-11866",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Theodosius born at Vasilev, 50 poprishcha from Kyiv; grew up in Kursk",
+    "witness": "PAT l.1316-1319, l.1380-1381",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Nestor's Life: Theodosius builds church and cells and moves the brothers \"в лѣто 6570\" (contested by the Chronicle's account of Barlaam's building)",
+    "witness": "PAT l.2162-2164, l.10437",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Studite rule: from the Studite monk Michael (Chronicle); from Ephraim the eunuch in Constantinople (Nestor)",
+    "witness": "CROSS l.11866-11878; PAT l.2170-2176; CROSS l.4641-4644",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Izyaslav \"was angry with Antonius on account of Vseslav, so that Svyatoslav caused Antonius to escape by night to Chernigov ... after digging another crypt, he settled there\" (Svyatoslav helped him escape)",
+    "witness": "CROSS l.12856-12860",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Svyatoslav and Vsevolod drive out Izyaslav (6581/1073; CROSS l.12527-12531); Theodosius refuses \"трапезу Езавелину\"; letter: \"гласъ крове брата твоего вопiеть на тя къ Богу, яко Авелева на Каина\"; \"готовь семь или на заточенiе, или на смерть\"; the two princes send for him to dine (PAT l.3586-3590)",
+    "witness": "PAT l.3588-3635; CROSS l.12525-12538",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "To Stephen: \"Change not the traditions and the institutions of the monastery\"; death \"upon May 3, in the eleventh year of the indiction\", the second Saturday after Easter; Nestor: 6582, 3 May, Saturday",
+    "witness": "CROSS l.12660-12687; PAT l.4004-4005",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "\"Many monasteries have indeed been founded by emperors and nobles and magnates, but they are not such as those founded by tears, fasting, prayer, and vigil\"",
+    "witness": "CROSS l.11843-11846",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Translation of relics 1091 (narrator digs); inscribed in the liturgy 1108",
+    "witness": "CROSS l.13331-13402, l.15045-15058",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Prince Izyaslav's question about the Latins, headed as Theodosius's: mercy to a heretic or a Latin; no shared meals or sacraments with Latins",
+    "witness": "PAT l.9086-9229 (l.9196-9200, l.9223-9228)",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Cross: Nestor \"by his own statement, did not know Theodosius personally\"; the Povest's evidence \"distinctly opposed to the tradition of Nestorian authorship\"; Mouravieff: Nestor \"an eye-witness\"",
+    "witness": "CROSS l.4676-4686, l.4819-4823; MOUR (mouravieff_history-of-the-church-of-russia_blackmore1842.txt) l.1616-1621",
+    "formation_confidence": "Contested"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Source of the Studite rule",
+    "sides": [
+     "Chronicle, and the Paterik's seventh discourse headed as Nestor's: copied from Michael, a Studite monk in Kyiv (CROSS l.11866-11878; PAT l.1038-1039, l.1230-1233)",
+     "Nestor: sent to Ephraim the eunuch in Constantinople (PAT l.2170-2176)"
+    ]
+   },
+   {
+    "claim": "Antony's journeys",
+    "sides": [
+     "Chronicle: one return from Athos, after 1051 (CROSS l.11755-11770)",
+     "1462 Paterik, Slovo 7: a first stay under Vladimir, flight back to Athos at the killing of Boris and Gleb, a return after 6559 (PAT l.1041-1112)"
+    ]
+   },
+   {
+    "claim": "Theodosius's tonsure year",
+    "sides": [
+     "1462 Paterik: 6540 (1032), under Yaroslav (PAT l.1683-1686)",
+     "1406 copy: no year (PAT l.10057-10059); Chronicle: brothers gather after 1054 (CROSS l.11787-11792)"
+    ]
+   },
+   {
+    "claim": "Where Antony ended his life",
+    "sides": [
+     "Chronicle: forty years in the grotto on the hill, where his bones lie (CROSS l.11801-11805)",
+     "Chronicle, Isaac story: fled to Chernigov and dug another crypt there (CROSS l.12856-12860)"
+    ]
+   },
+   {
+    "claim": "Nestor's knowledge of Theodosius",
+    "sides": [
+     "Cross: did not know him personally (CROSS l.4676-4686)",
+     "Mouravieff: an eyewitness, who entered at seventeen (MOUR l.1616-1622); the Paterik's seventh discourse, headed as Nestor's, has its writer received at seventeen (PAT l.1239-1241)"
+    ]
+   },
+   {
+    "claim": "Who built the monastery above ground",
+    "sides": [
+     "Chronicle: the brothers under Barlaam, before Theodosius (CROSS l.11826-11841; PAT l.1166-1173, the seventh discourse)",
+     "Nestor's Life: Theodosius, moving in 6570 (PAT l.2162-2168)",
+     "Cross notes the difference (CROSS l.4635-4640)"
+    ]
+   },
+   {
+    "claim": "Who chose Theodosius as prior",
+    "sides": [
+     "Chronicle: the brothers asked Antony, who named Theodosius (CROSS l.11849-11862)",
+     "Nestor's Life: the brothers chose him and told Antony, who blessed him (PAT l.2091-2097); Cross notes the difference (CROSS l.4635-4637)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Birth years; Antony's death year",
+    "note": "No held source gives them. The Chronicle says only that \"Antonius was already dead\" under Prior Nikon (CROSS l.12916). Searched all cic/texts for Печерск, Pechersk, Crypt Monastery, Theodosius of the Caves, Antony of the Caves."
+   },
+   {
+    "detail": "Antony's own works",
+    "note": "None is held; his only words are speeches in the Chronicle and the Paterik."
+   },
+   {
+    "detail": "English of Nestor's Life",
+    "note": "None is held; it is used here in the Paterik's Slavonic."
+   }
+  ]
+ },
+ "anskar": {
+  "claims": [
+   {
+    "claim": "Hamburg sacked: \"pirates suddenly arrived and surrounded the town of Hamburg\"; \"he with difficulty escaped without even a cloak to cover his body\"; church, monastery and \"The bible which the emperor had given to our father\" burnt; Job's words repeated (OCR \"T'he Lord gave\")",
+    "witness": "ROB (rimbert_anskar-the-apostle-of-the-north_robinson1921.txt) l.2635-2701",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Waitz: the Life of Rimbert and Adam say Rimbert wrote the Life, helped by a fellow disciple; nearly all agree it was written at Hamburg under Louis the German, d. 876",
+    "witness": "WAITZ (rimbert_vita-anskarii-accedit-vita-rimberti-lat_waitz1884.txt) l.163-184",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Old Corbie near Amiens (Robinson; Waitz)",
+    "witness": "ROB l.1166-1172; WAITZ l.903-904",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Harald driven out, received from the font by Louis; Wala names Anskar; \"entirely willing\"; reproaches; RFA 826: \"Herioldus ... Mogontiaci apud sanctum Albanum ... baptizatus est\"",
+    "witness": "ROB l.1726-1743, l.1779-1783, l.1829-1855; RFA (annales-regni-francorum_kurze1895.txt) l.11257-11259, l.11326-11347",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "First Swedish journey: pirates took \"their ships\"; \"plundered ... of nearly forty books\"; on foot, crossing seas by ship where possible, to Birka; Herigar, prefect and king's counsellor, baptized, built a church on his ancestral property",
+    "witness": "ROB l.2135-2180, l.2219-2224",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Annals of St-Bertin 845: \"Nortmannorum rex Oricus sexcentas naves per Albim fluvium ... dirigit\"; beaten by the Saxons, they took \"Sclavorum quandam ... civitatem\"; Waitz's note: \"Hamburgum innuere videtur\"",
+    "witness": "ANNBERT (prudentius-troyes_annales-bertiniani_waitz1883.txt) l.2164, l.2176-2181, l.2203",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Horic: frequent visits, ambassador, friendship; leave to build a church at \"Sliaswic\"",
+    "witness": "ROB l.3804-3854",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Old man at Birka: \"inasmuch as we cannot be sure that our gods will be favourably disposed, it is good for us to have the help of this God who is always, and under all circumstances, able and willing to succour those who cry to Him\"",
+    "witness": "ROB l.4300-4331",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Death: prayed God would forgive whoever had wronged him; ordered a brother to continue the words; the Life of Rimbert: \"Hic ergo, quem vice sua verba orationis pro se frequentare praecepit, Rimbertus fuit\"",
+    "witness": "ROB l.5778-5792; WAITZ l.4832-4834",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "\"Were I worthy of such a favour from my God, I would ask that He would grant to me this one miracle, that by His grace He would make of me a good man\" (Latin \"signum\")",
+    "witness": "ROB l.5555-5562; WAITZ l.4068-4071",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Death 3 Feb 865: Adam \"IIIo non. Februarii. Obiit anno Domini DCCCLXV\"; Corvey Annals per Schmeidler; the Life names no year or day (Waitz)",
+    "witness": "ADAM (adam-bremen_gesta-hammaburgensis-ecclesiae-pontificum-lat_schmeidler1917.txt) l.6151-6155, l.6197-6198; WAITZ l.213-215, l.4200, l.4236-4244",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Born 801 (Robinson, flatly); \"The actual date of his birth is unknown\", 8 September being the translation of his body",
+    "witness": "ROB l.1295-1298, l.5596",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Letter to the bishops: \"Iam enim Deo propitio et apud Danos et apud Sueones fundata est ecclesia Christi\"",
+    "witness": "MANSI14 (mansi_sacrorum-conciliorum-collectio-tomus-14-lat_welter-facsimile1902.txt) l.43691-43725; ADAM l.6136-6142",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Adam: \"foris apostolus, intus monachus\"; buried in St Peter's, Bremen",
+    "witness": "ADAM l.6127, l.6155-6156",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Olavus Petri and Paulus Helie both claim \"Ansgars ... tro\"",
+    "witness": "OP (olavus-petri_samlade-skrifter-v1-swe_hesselman1914.txt) l.872-875, l.17031-17033",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "The year of the sack of Hamburg",
+    "sides": [
+     "Waitz, Schmeidler, Steinberg: 845; Robinson: \"probably correct\" (WAITZ l.2016-2018; ADAM l.5497; STEIN l.3710; ROB l.2665-2667)",
+     "Adam of Bremen, \"ut aiunt\": the last year of Louis the Pious, 839/40 (ADAM l.5454-5457)"
+    ]
+   },
+   {
+    "claim": "The founding of the see of Hamburg",
+    "sides": [
+     "Adam: 832 (ADAM l.5178)",
+     "Dehio, in Waitz's note: October or November 831; the 834 charter certainly interpolated (WAITZ l.1828-1831)"
+    ]
+   },
+   {
+    "claim": "The founding documents",
+    "sides": [
+     "Schmeidler, after Curschmann: the charter of Louis the German and the privilege of Nicholas I are early eleventh-century forgeries (ADAM l.5498-5500, l.5651-5654)"
+    ]
+   },
+   {
+    "claim": "The union of Hamburg and Bremen",
+    "sides": [
+     "Dahlmann: 847 and 857 (WAITZ l.2635-2637)",
+     "Waitz: 848; Dehio: 860 (WAITZ l.2636-2639)",
+     "Mansi's headnotes: not before 849 or 850; papal confirmation 863 or 864 (MANSI14 l.99331-99350; Mansi 15 l.14093-14112, 14429-14440)"
+    ]
+   },
+   {
+    "claim": "Where Harald was baptized",
+    "sides": [
+     "Royal Frankish Annals: Mainz, St Alban's (RFA l.11326-11346)",
+     "Theganus, quoted by Robinson: Ingelheim (ROB l.1789-1792)"
+    ]
+   },
+   {
+    "claim": "The year of the second Swedish journey",
+    "sides": [
+     "Robinson's introduction: 853 (ROB l.585)",
+     "Robinson's note, after Dreves: probably 852 (ROB l.4138)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Contemporary annals naming him",
+    "note": "Searched RFA and the Annals of St-Bertin for Anscar, Ansgar, Anskar, Ansger: none names him."
+   },
+   {
+    "detail": "English of his own letter",
+    "note": "None is held."
+   },
+   {
+    "detail": "Birthday, birthplace, parents",
+    "note": "Robinson says the day and place are unknown (ROB l.1295-1300); no held source names the parents."
+   }
+  ]
+ },
+ "rimbert": {
+  "claims": [
+   {
+    "claim": "Schleswig: \"multitudinem christianorum catenatam trahi captivam\"; a nun kneels and bows; \"elevata altius voce coepit cantare psalmos\"; he prays \"cum lacrimis\"; the chain breaks; they will take no price \"nisi suum eis daret equum\"; \"repente desiluit de equo et cum omni ... paratura\"; freed",
+    "witness": "WAITZ (rimbert_vita-anskarii-accedit-vita-rimberti-lat_waitz1884.txt), Vita Rimberti c.18, l.5240-5273",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Pertz: written \"superstite Adalgario\", not by him, but by \"aut ecclesiae Bremensis clerico aut monacho Corbeiensi\", not present at the death",
+    "witness": "WAITZ l.4385-4394",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "The Life of Anskar \"ab ipso Rimberto alioque condiscipulo eius editus\"; wherever a \"fidissimi discipuli\" is mentioned it is Rimbert, his name suppressed lest he seem to boast",
+    "witness": "WAITZ l.4790-4800",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Turholt: a boy \"inter ceteros pene minimus\" walks soberly, prays, signs himself; his name Rimbert; with his parents' consent tonsured",
+    "witness": "WAITZ l.4521-4555",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Turholt as birthplace: note in Waitz's edition \"locus natalis Rimberti\"; Robinson: \"near the birthplace\"",
+    "witness": "WAITZ l.1832-1833; ROB (rimbert_anskar-the-apostle-of-the-north_robinson1921.txt) l.2398-2400",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "The brother told to continue the dying Anskar's prayers \"Rimbertus fuit\"",
+    "witness": "WAITZ l.4832-4840; ROB l.5786-5792",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Elected \"ipso mox die deposicionis domni Ansgarii\" (margin 865)",
+    "witness": "WAITZ l.4899-4913",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "\"Non tardandum est, ut cunctis pauperibus succurramus, quia, quis sit Christus vel quando ad nos veniat, ignoramus\"",
+    "witness": "WAITZ l.5048-5055",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Altar vessels for captives: \"cum et semper invenire possimus, quod ad usum sacri sufficiat ministerii; inrecuperabile autem sit, si christianus in captivitatis afflictione deficiat\"",
+    "witness": "WAITZ l.5214-5235",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Anskar's promise: \"Iam obtinui a Domino, ut in futuro seculo, sicut petisti, ab invicem non separemur\", after three days' silence",
+    "witness": "WAITZ l.4611-4632",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Anskar: \"dignior est ipse archiepiscopali quam ego subdiaconatus offitio\"",
+    "witness": "WAITZ l.4842-4856",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mildness and firmness; guidance from visions of Anskar",
+    "witness": "WAITZ l.5274-5296",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Death: \"Obiit anno Domini DCCCLXXXVIII ... Cuius depositio est III idus Iunii. Sepultus est extra basilicam sancti Petri ab oriente\"; 23 years; computus from Corbie; Annals of Corvey 888 (Adam: \"Annos eius et obitum decessoris sui repperimus in quodam compoto a Corbeia delato\"; the burial day keyed in the margin to V. Rimb. c. 24, not held)",
+    "witness": "ADAM (adam-bremen_gesta-hammaburgensis-ecclesiae-pontificum-lat_schmeidler1917.txt) l.6779-6785, l.6208-6213, l.6826",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Adam: Elijah and Elisha",
+    "witness": "ADAM l.5396-5403",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Letter to the virgin of Heresi (Nienheerse, Waitz), drawing on Gregory and Augustine",
+    "witness": "WAITZ l.5056-5172, l.5088, l.5140-5141, l.5196-5197",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "The priest Rimbert sent to Sweden (Life of Anskar c.33)",
+    "sides": [
+     "Dahlmann: a different man from the author (WAITZ l.3549)",
+     "Robinson: not clear; Adam makes the author a deacon then, though Adam may have been mistaken (ROB l.4813-4817)"
+    ]
+   },
+   {
+    "claim": "The Frisian battle of 884",
+    "sides": [
+     "Adam, quoting Bovo: won with Rimbert's encouragement; omitted by the Life (ADAM l.6495-6508)",
+     "Schmeidler: Bovo's lost work perhaps held miracle stories more than history (ADAM l.6532-6535)"
+    ]
+   },
+   {
+    "claim": "Whether the priest in the Life of Anskar, chapter 27, is Rimbert",
+    "sides": [
+     "G. H. Klippel, applying the Life of Rimbert's 'most faithful disciple' rule: Rimbert (ROB l.4269-4272; WAITZ l.4790-4800)",
+     "Robinson: more likely Erimbert, since Rimbert was then a deacon (ROB l.4272-4277)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "His death in the Life of Rimbert",
+    "note": "The held scan ends in chapter 23 (WAITZ l.5422); chapter 24 is not held. The year and burial day rest on Adam."
+   },
+   {
+    "detail": "Birth year and parents' names",
+    "note": "No held source gives them; the Life says only \"parentibus eius\"."
+   },
+   {
+    "detail": "English of the Life of Rimbert",
+    "note": "None is held. Searched all cic/texts for rimbert, rembert, rimbertus."
+   }
+  ]
+ },
+ "clement-of-ohrid": {
+  "claims": [
+   {
+    "claim": "Clement and others \"catenis ferreis vinctos, in carceribus condiderunt\"; \"canticis tertiae horae decantatis, psalmorum prosequebantur carmen\"; \"motus factus est magnus ... et catenae ceciderunt\"",
+    "witness": "PG126 (theophylact-ohrid_opera-t4-with-vita-clementis-pg126-grc-lat_migne1864.txt) l.98420-98448",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "The heading names Theophylact; the Monitum reports Miklosich: the author lived with Clement (d. 916), Theophylact died 1107, the author was Bulgarian, the Hungarian raids; \"Sed judicium penes Lectorem sit\"",
+    "witness": "PG126 l.96725-96749, l.96787-96790",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Miklosich: \"Vitam igitur scripsit Bulgarus saeculo decimo\"; Dobrovsky: the author contemporary with neither; Miklosich with Blumberger: one of Clement's disciples; Ginzel: Theophylact shaped tenth-century notes",
+    "witness": "GIN (ginzel_geschichte-der-slawenapostel-cyrill-und-method-deu-lat_1861.txt) l.1679-1700, l.1665-1670",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "The narrator: \"semper eramus cum ipso\"; \"nunquam illum vidimus otiosum ... aliis litterarum characterem monstrans, aliis scripturarum sensum illustrans, aliis ad scribendum manus efformans ... non solum die, sed etiam nocte\"; 3,500 picked pupils; 300 per district; seven full years; ordained \"lectores, subdiaconos, diaconos, et presbyteros\"",
+    "witness": "PG126 l.99244-99276",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "With Methodius \"e teneris annis\"",
+    "witness": "PG126 l.99546-99551",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Svatopluk's oath trial won by the Franks; younger priests and deacons sold to Jews; driven out naked to the Danube; raft \"tribus lignis tiliae corticula colligatis\"; Belgrade's governor Boritakan; Boris receives them and longs to talk with them daily",
+    "witness": "PG126 l.98363-98376, l.98393-98397, l.98667-98690, l.98955-98962, l.98973-99010",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Kutmichevitsa: \"Praeceptor enim Cutmizivitzae Clemens mittebatur\"; three houses at Devol; places of rest at Ohrid and Glavenitsa",
+    "witness": "PG126 l.99096-99120",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Symeon makes him bishop: \"Drembitze sive Veltitze ... Bulgaricae linguae Clemens primus constituitur episcopus\"",
+    "witness": "PG126 l.99302-99308, l.99369-99372",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Sermons \"in omnes festivitates ... simplices, perspicuos ... vel Bulgarorum stupidissimum\" because priests barely understood Greek; monastery at Ohrid and a church that \"postea archiepiscopatus sedes constituta est\"; the monastery built \"adhuc superstite beatissimo Borise, priusquam Velitzae episcopatum suscepisset\"",
+    "witness": "PG126 l.99552-99610",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "His plea: \"da mihi paucos hos dies ut mecum colloquar et cum Deo ... ibi mori concede\"; Symeon refuses",
+    "witness": "PG126 l.99847-99860",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Triodion completed \"a nova Dominica usque ad Pentecosten\"; buried in his monastery 27 July, under Symeon, A.M. 6424; the Monitum: \"anno 916 defuncti\"",
+    "witness": "PG126 l.100238-100242, l.100273-100281, l.96727",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Closing prayer: \"Per te enim omnis Bulgariae regio Deum cognovit\"",
+    "witness": "PG126 l.100498-100502",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ginzel: the flight narrative (c. 11-14) a historical kernel \"mit Wundern ausgeschmückt\"; the author cared nothing for truth or distorted it \"im Geiste des griechischen Schisma\"; expulsion in 886 by his count",
+    "witness": "GIN l.6386-6390, l.1670-1677, l.6337-6338, l.6380-6386 (Fraktur OCR)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Nikodemos: monastery of St Panteleimon; books honored like the tablets of Moses (late)",
+    "witness": "NIK (nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900.txt) l.32802, l.32826-32827, l.32863-32872",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Paisii (1762): the seven teachers",
+    "witness": "PAI (paisii-hilendarski_istoriia-slavianobolgarskaia-bul_ivanov1914.txt) l.6676-6678",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Author and date of the Life",
+    "sides": [
+     "Heading: Theophylact of Ohrid, d. 1107 (PG126 l.96787-96790)",
+     "Miklosich and Blumberger: a tenth-century Bulgarian disciple; Theophylact's name \"additum esse videtur\" (GIN l.1679-1700; PG126 l.96733-96747)",
+     "Dobrovsky, as Miklosich reports: contemporary with neither (GIN l.1695-1697)",
+     "Ginzel: Theophylact reworked tenth-century notes (GIN l.1665-1670)",
+     "Migne, PG 111: anonymous, \"circa medium seculum X\", ascribed to Theophylact \"a nonnullis\" (PG111, nicholas-mystikos_epistolae-with-eutychius-alexandrinus-pg111-grc-lat_migne1863.txt l.243-244, l.36942-36947)",
+     "Migne's editors: the reader judges (PG126 l.96748)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "His own works",
+    "note": "None of Clement's sermons or hymns is held, in Slavonic or in translation. Searched all cic/texts for Климент, Kliment, Clemens with Bulgar/Achrid/Ohrid, Κλήμεντ with Βουλγ, Охрид."
+   },
+   {
+    "detail": "Birth, birthplace and family",
+    "note": "The Life gives none. Nikodemos's Moesia is late."
+   },
+   {
+    "detail": "Other early witnesses",
+    "note": "No papal letter or Frankish source in any held file names him. The Short Life ascribed to Demetrios Chomatenos is not held."
+   },
+   {
+    "detail": "The year of the expulsion",
+    "note": "The Life gives none; 886 is Ginzel's reckoning."
+   }
+  ]
+ }
+}
