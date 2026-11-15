@@ -4,37 +4,65 @@ Approved to proceed (Mark, 2026-11-11). The one pattern every Who profile, story
 
 ## The writing standard this rests on
 
-This pattern adds nothing to how the words are written beyond the newer 2026-11-11 standards listed below. It adopts the standard behind the tradition cards and the eight early-church person briefs, by reference. Mark: "we use the same principles we used to develop the tradition cards, simple modern english with the accessability and no ai tells etc. it is a full design i dont want to repeat, no tails, no statements that have no context or meaning no xy no wise saying etc. find the quality and follow it."
+This pattern adds nothing to how the words are written beyond the newer standards of 2026-11-11 and 2026-11-15 listed below and the readability method. It adopts the standard behind the tradition cards and the eight early-church person briefs, by reference. Mark: "we use the same principles we used to develop the tradition cards, simple modern english with the accessability and no ai tells etc. it is a full design i dont want to repeat, no tails, no statements that have no context or meaning no xy no wise saying etc. find the quality and follow it."
 
 | What | Where |
 |---|---|
 | Reading level, register, plain-language rules | `CLAUDE.md`, "Accessible and rigorous"; `Build/reference/method/Pass2-decisions/VR_1A_NorthStar_Readability_Target_2026-08-09.md` and `VR_1A_Writing_Standard_2026-08-09.md` (same folder) |
 | No invention, quotes checked against the vendored file, the five confidence levels | `CLAUDE.md`, "Trust and source fidelity" |
-| The five review questions, the exemplar, and the named failures (1.3 to 1.12: dash fragments, triads, unearned adjectives, hedge calibration, anachronism, contested claims told as settled, terminology drift, stale cross-references, status-announcement register, questions that must match the source) | `Build/reference/method/CiC_Voice_Style_Guide_and_Scaling_Plan.md`, 1.1 to 1.12 |
+| The five review questions and the named failures (1.3 to 1.12: dash fragments, triads, unearned adjectives, hedge calibration, anachronism, contested claims told as settled, terminology drift, stale cross-references, status-announcement register, questions that must match the source) | `Build/reference/method/CiC_Voice_Style_Guide_and_Scaling_Plan.md`, 1.1 to 1.12 |
 | How a brief reads aloud: story, natural years, named witnesses, flowing sentences | `Decision-Log.md`, "Person briefs: 60 to 120 seconds, personal and theological" (2026-11-11) |
 | Jon v4 voice, settings and audio tags | `Decision-Log.md`, "Person voice: Jon on Eleven v4, replacing David Baker" (2026-11-11) |
 | The per-turn readability score | `engine/m7/turn_readability.py` through `engine.m1.gates.grade_text` |
+| The profile readability check | "The readability method", below |
 
 ## Newer standards the tradition-card standard does not cover
 
-All made on 2026-11-11 and in the Decision-Log. They apply to every participant-facing person text: briefs, cards, stories, tree pages and council Who lists.
+Made on 2026-11-11 and 2026-11-15, and in the Decision-Log. They apply to every participant-facing person text: briefs, cards, stories, tree pages and council Who lists.
 
-- **Common names (Mark, in three steps: "if a name is common we need to clarify from where"; "dont forget the newer ones like name full or place of common names like we did for socratise").** At its first mention in a text, a name that could mean more than one person gets its name with a place, in the form scholars use (Mark: "socrates from constantinopel"): "Socrates of Constantinople", "Eusebius of Caesarea", "Palladius of Helenopolis". A role or a time is added only where the place does not identify the person. The live briefs' "the church historian Socrates" predates this refinement. The brief and the card are separate texts and each has its own first mention. The identifier comes from the vendored sources and adds no claim. It covers the subject's own name too ("Gregory of Nazianzus came to Constantinople") and any name a general listener would not know, since Mark also says "no statements that have no context". Where no vendored source gives a place, the name is left as the sources have it and the gap is logged.
+- **Common names (Mark, in three steps: "if a name is common we need to clarify from where"; "dont forget the newer ones like name full or place of common names like we did for socratise").** At its first mention in a text, a name that could mean more than one person gets its name with a place, in the form scholars use (Mark: "socrates from constantinopel"): "Socrates of Constantinople", "Eusebius of Caesarea", "Palladius of Helenopolis". A role or a time is added only where the place does not identify the person. The corrected texts of the eight carry it. The brief and the card are separate texts and each has its own first mention. The identifier comes from the vendored sources and adds no claim. It covers the subject's own name too ("Gregory of Nazianzus came to Constantinople") and any name a general listener would not know, since Mark also says "no statements that have no context". Where no vendored source gives a place, the name is left as the sources have it and the gap is logged.
 - **Real witnesses named.** "Eusebius says", "Palladius tells", "his own letters say". Never "his editor", "the translator" or "a modern scholar".
 - **Natural dates.** Years are written to be spoken naturally.
 - **Hostile witnesses.** Named, with polemic marked as polemic and its owner named.
 - **Jon audio tags.** In the audio script only.
-- **Story.** Sentences flow and connect. Grade 8 is a floor and not a target.
+- **Craft.** Mark, 2026-11-15: "Craft is also good story telling and flow, no ai tells hanging sentences and everything is relevant to the story." And on 2026-11-11: "i want it a little more story telling, not fact giving ... the sentences flowing together not all short simple sentances for an elementary student." Five tests follow from his words. Each is applied to the whole brief, read beside the eight, and never one sentence at a time (checklist item 10):
+  1. **Good storytelling.** The brief reads as one story with a line through it. It is not a list of facts.
+  2. **Flow.** Each sentence leads into the next, and ideas are joined: where the source gives a reason or a result, it stands in the sentence with the act.
+  3. **No AI tells**, as `CLAUDE.md` defines them: no hedging filler, no assistant cadence, no telltale phrasing, no generic polished voice.
+  4. **No hanging sentences.** No line stands alone, unconnected to what comes before or after it. No closing punchline or quotable tag line is put there for effect.
+  5. **Everything relevant to the story.** Every sentence serves this person's story. Source talk, editors and side facts that do not serve it go to the card.
+- **The floor.** Grade 8 is a floor that fails (Mark, 2026-11-15: "The floor is the biggest concern, this is not a kids book"). It is not a target. A brief below it is rewritten so its sentences carry more of the story. It is never padded with longer words.
 
-The Style Guide says it is not a banned-word list and must not become one. Its test: for each sentence, name the source that makes it true and what the source does not establish. The exemplar for prose is the shipped `post-apostolic-house-church` entry (Style Guide 1.2). The eight early-church briefs are not yet clean enough to serve as the bar (see Open-Gaps, "Pattern findings in the eight live person texts"). The checklist below points to the Style Guide's sections and does not copy them.
+The Style Guide says it is not a banned-word list and must not become one. Its test: for each sentence, name the source that makes it true and what the source does not establish. The checklist below points to the Style Guide's sections and does not copy them.
+
+## The bar: the eight early-church briefs
+
+Mark, 2026-11-15: "Restore the eight, fix their small flaws." The model for a Who brief is the eight early-church briefs, in their corrected texts at `Who-Profiles/bar/`: `origen.brief.txt`, `methodius-of-olympus.brief.txt`, `constantine-the-great.brief.txt`, `athanasius-of-alexandria.brief.txt`, `ephrem-the-syrian.brief.txt`, `gregory-of-nazianzus.brief.txt`, `gregory-of-nyssa.brief.txt` and `john-chrysostom.brief.txt`. A writer reads all eight before drafting. A reviewer reads the brief under review beside them. No one writes or reviews against the latest batch.
+
+The `post-apostolic-house-church` entry remains the Style Guide's exemplar for a tradition card. It is not a model for a Who brief: it scores grade 12.3 and reading ease 46, and would fail this pattern's own readability check.
+
+What the eight do, and what every brief is held to:
+
+- **They tell a story.** Each opens in a moment and follows a life through what happened next. No two are built alike: Methodius opens on a witness's odd story, Gregory of Nazianzus on an arrival, Athanasius on a severed hand. The order under "The brief" says what a brief holds, and each brief finds its own shape within it.
+- **They join ideas.** An act stands in one sentence with its reason or its result: "In his eighteenth year he took charge of teaching the faith in Alexandria, because everyone else had fled." "Ephrem feared the people would absorb them, so he wrote hymns that held the church's doctrine and used the same melodies."
+- **They say why the person mattered, as an idea.** Athanasius: if the Son were only a creature, his becoming man would have changed nothing for us. Gregory of Nazianzus: the orations defend the Trinity against two named errors. Origen: Scripture has body, soul and spirit, and what each does for a reader.
+- **They carry evidence inside the story.** An ancient witness is named, with his leaning in a few words ("who tells it with plain sympathy", "so he is not a neutral witness", "years later and under oath"). A second witness is set against him where one exists, and the telling moves on.
+- **They let length follow the person.** Methodius, with little known, takes about 240 words.
+- **They are written for adults.** The register is BBC News or National Geographic: serious, vivid, clear. Measured, the corrected texts run grade 8.9 to 9.6, 15 to 20 words a sentence, and about one joining word in every hundred.
+
+The live text and audio of the eight change to the corrected texts when they are re-recorded (Open-Gaps, "The eight's corrected briefs are the bar; the live text and audio wait for re-recording", 2026-11-15). Until then the files in `Who-Profiles/bar/` are the bar, and the live text is not.
 
 ## The brief
 
-- **Length.** Mark: "we moved the who to 1 to 2 minutes with streatch for major people". A brief is never cut to fit a number. One that falls short of the standard is rewritten.
+- **Length.** Mark: "we moved the who to 1 to 2 minutes with streatch for major people". A brief aims at about two minutes and has no hard cap (Mark, 2026-11-15). It is shorter where the sources are thin, as Methodius is, and longer only where the story needs it; the batch note then says which scene or source would be lost at two minutes. A brief is never cut to fit a number, and never filled to reach one. One that falls short of the standard is rewritten.
 - **Opening.** Scene first: one sourced moment. The who-line follows within the first few sentences.
 - **Order.** After the scene: who they were, with time and place. Their story and what mattered. The positions they fought for, developed or defended, and why they mattered to their tradition and its opponents, told through events. One line in their own words where the Library holds them, otherwise how later readers remembered them.
 - **Disputes in place.** A contested point is told where it arises, with its witness named. The brief does not save it for the close. Facts the card already shows (dates, place, role, works) are not repeated as a list.
-- **Witnesses.** Named, as in the 2026-11-11 standard: "Eusebius says", never "his editor". A partisan witness is placed once and said to be partisan.
+- **Witnesses and evidence.** The brief names its ancient witnesses: "Eusebius of Caesarea says", never "his editor". A witness gets his leaning in a few words the first time it matters ("who tells it with plain sympathy", "so he is not a neutral witness"). Once a witness is named, the sentences that follow need not name him again, but only while each of them is carried by that witness. A claim from any other source names its own. A partisan witness is placed once and said to be partisan. A modern editor, translator or historian belongs on the card: by name under Sources, and with the doubt he raises under What is uncertain. The records hold the file and lines for every claim. In the brief:
+  - What an ancient witness carries is told with that witness.
+  - What only a modern scholar establishes (a date he reckons, a count, an attribution, a judgment on a manuscript) is either left to the card, or told in the brief with the scholar named once, by name, in a clause. It is never told flat, and never given to an ancient writer.
+  - A dispute that bears on the story is told in the brief where it arises, with each side named, in a sentence or two. Only a dispute over a date or a manuscript reading that bears on nothing else goes to What is uncertain, and the brief then claims only what both sides accept ("in the 590s") (Mark, 2026-11-15).
+  - How a text reached us (editions, manuscripts, printings) is not a paragraph of the brief. Where it bears on trust, one clause says so: "We read that book mostly in the Latin of Rufinus of Aquileia, and Jerome said Rufinus changed it."
 - **Dates.** Round anchors and relative time first; a bare year where the year is the event (a proposal of this spec).
 - **Common names.** An identifier at first mention, in the brief and again in the card (the 2026-11-11 common-name standard). It comes from the vendored sources and adds no claim.
 - **Audio.** `[calmly]` opens the audio script. `[warmly]` goes before the closing line. The tags are never in the census, the card or a page. There is no intro: person audio is the brief only.
@@ -84,7 +112,7 @@ The five `formation_confidence` levels are record tags. They are not said aloud 
 
 Run against any profile, story or listed line. Each item is pass or fail.
 
-1. Each sentence names its source, and the source establishes at least what the sentence says (Style Guide 1.2; the five questions in 1.1).
+1. Every claim has a source the reviewer can name from the records, and the source establishes at least what the sentence says (Style Guide 1.2; the five questions in 1.1). The brief names the witness where a listener needs it: at his first appearance, where witnesses differ, where he is partisan, where a claim would otherwise read as the narrator's own judgment, and wherever the source is a modern scholar or the point is contested (see Confidence). It does not repeat "X says" on every sentence. A claim no witness carries fails, however it is worded.
 2. Every quote matches the vendored file word for word, checked again against the file. A "quotes verified" note is a claim to re-check.
 3. No invented family, feeling, thought, anecdote or speech.
 4. Reading aids from the Style Guide and Mark's words, read as aids and not as a mechanical list. Scope: the narrator's own prose, never a quoted source.
@@ -95,17 +123,55 @@ Run against any profile, story or listed line. Each item is pass or fail.
    - Statements with no context or meaning, floating abstractions, and a paragraph that opens on a thesis (1.1, mechanical shape).
    - Dash fragments and verbless labels (1.2, 1.3), triads and doublets (1.4, 1.5), unearned emotional adjectives (1.5).
    - Hedging filler, loose quantifiers such as "only", "no", "always" (1.1, question 1; 1.6), and honest limits that end on a bare how, why or when (Writing Standard).
-   - Anachronism (1.7), status-announcement register (1.11), undefined technical terms, sentences past about 25 words, and an all-short choppy rhythm (`CLAUDE.md`; Mark's person-brief notes).
+   - Anachronism (1.7), status-announcement register (1.11) and undefined technical terms.
+   - Rhythm, both ways (`CLAUDE.md`; Mark's person-brief notes). A sentence the ear loses is recast: one with a clause nested inside a clause, or one that runs well past `CLAUDE.md`'s guide of about 25 words without reading in one breath. A run of short flat statements is joined where the source gives the link between them. The eight average 15 to 20 words a sentence, and 17 of their 151 sentences run past 25 words. A fix may join sentences as well as split them. No fix splits a sentence only to pass a count, and no fix drops a reason, a contrast or a witness's leaning to make a sentence shorter.
 5. No role standing in for a named witness ("his editor", "a modern scholar").
 6. A partisan or hostile witness is named and marked. A hostile-witness founder has two witnesses for the teaching.
 7. A contested claim shows both sides by name and is never told as settled (1.8).
 8. Common names have their name of place ("Socrates of Constantinople"), with a role or time only where the place does not identify them, at first mention in each separate text: brief, card, story, tree page and council Who list. Check the first mention of every name that could mean more than one person.
 9. One term for one thing across the text (1.9).
-10. The brief reads as a story, opens on a scene, tells disputes in place, and is 1 to 2 minutes, longer only for a major figure.
-11. Readability passes `grade_text`: FK 10 or below, Flesch 60 or above. The score applies to the brief and story; a card field or listed line is under its minimum length and is read by eye.
+10. The close read comes first, and the scores in item 11 only guard it. The reviewer reads the whole brief beside at least two of the eight (Methodius is one of them where the record is thin) and applies Mark's five craft tests. Each answer quotes the brief. A test that fails is a blocking finding, and its fix is a rewrite of the passage, never a patch to one sentence.
+    - **Good storytelling.** Does it open on a sourced moment and run as one story, so that a listener could retell it? Say the line of the story in one sentence. If that cannot be done, it is a list of facts and fails. Model: Ephrem, which opens on the famine and closes on it; Athanasius, from the severed hand to the exiles.
+    - **Flow.** Does each sentence lead into the next, with reasons and results joined to their acts? Quote two joined sentences. Rows of statements with the links left out fail. Model: Gregory of Nyssa, "Macrina had turned him around once before ... But it was his sister who persuaded him"; Origen, "because everyone else had fled".
+    - **No AI tells.** Read the narrator's prose against `CLAUDE.md` and item 4. Model: John Chrysostom's opening paragraph, which carries a scene, two witnesses and a judgment on each with no device at all.
+    - **No hanging sentences.** Mark every sentence that connects to neither neighbor, and the last line. A stand-alone beat fails. So does a close chosen because it is quotable. A close is sound when it finishes the story. Model: Ephrem's close, "a month later, Palladius says, he died there"; John Chrysostom's, the body carried home.
+    - **Everything relevant.** For each sentence about a source, an editor or a side fact, ask what the person's story would lose without it. If nothing, it goes to the card. This test also asks for the sentence or two that say why the person mattered, as an idea; a brief without them has left out the most relevant thing. Model: Athanasius, "If the Son were only a creature ..."; Methodius, which weighs a thin record in a few sentences and moves on.
+
+    Two further checks sit with the close read. Register: it would sit in BBC News or National Geographic, serious, adult, vivid and clear; a children's-book voice fails, and so does a page of footnotes. Length: it follows the person, at about two minutes, shorter where the sources are thin, longer only where the batch note says what the story would lose. The brief also opens on a scene and tells disputes in place.
+11. Readability, as a guard on the close read. Two counts are used, and they are not the same count. Grade, with its floor of 8.0 and its ceiling of 10.0, is counted on the full text, names included. Reading ease, with its floor of 60, is counted with proper names left out of the syllable count. A brief fails below grade 8.0, above grade 10.0, or below reading ease 60, each on its own count ("The readability method", below). Three more figures are reported beside the eight's own and are aids to item 10, not pass or fail: words a sentence (the eight: 15 to 20), joining words per 100 words (the eight: about 1), and the share of sentences of eight words or fewer (the eight: about 1 in 17). No brief is asked to fall inside the eight's ranges; they show the reviewer where to look. A brief below grade 8 is rewritten by joining and explaining. Longer words and added names do not mend it. A brief that passes every number and fails the close read fails. The score applies to the brief and story; a card field or listed line is under its minimum length and is read by eye.
 12. The card is in Mark's order, missing fields are absent, and the brief's caveat appears again in What is uncertain.
 13. Audio tags appear only in the audio script, at the start and before the closing line.
 14. The person keeps their list line. A Who has a body of work or a following; an outside witness is an objective historian and never a polemicist.
+
+## The readability method
+
+Mark, 2026-11-15: "Craft first, numbers as a guard"; proper names are not counted against reading ease.
+
+1. **Words and sentences** are counted as the scorer counts them (`engine/m1/fk.py`): a word is a run of letters and apostrophes, with a curly apostrophe first turned into a straight one; a sentence ends at a full stop, question mark or exclamation mark.
+2. **Opening word.** The first word of the text, of a sentence, of a line, or after an opening quotation mark or bracket.
+3. **Proper name.** A word form is a proper name when all of these hold: it begins with a capital letter; it is not "I"; it appears at least once in the text where it is not an opening word (a final `'s` or `'` is ignored, so "Origen's" and "Origen" are one form); and its lower-case form appears nowhere in the text. Every use of that form then counts as a name, opening words included.
+4. **Grade**, the figure the floor of 8.0 and the ceiling of 10.0 apply to, is the standard Flesch-Kincaid figure on all the words, names included: 0.39 × (words ÷ sentences) + 11.8 × (syllables ÷ words) − 15.59.
+5. **Reading ease, names out**, the figure the floor of 60 applies to, is 206.835 − 1.015 × (all words ÷ sentences) − 84.6 × (syllables in the words that are not names ÷ the count of those words). Names still count toward sentence length. Only their syllables are left out.
+6. A text under 12 words is not scored.
+
+A grade with names left out (the formula of step 4 with the syllable term of step 5) is printed for information only. It is never a pass or fail figure and the floor of 8 does not apply to it: seven of the eight score 6.7 to 7.7 on it, and Gregory of Nyssa 8.3. Its one use is to tell the reviewer when a brief owes its grade to long names and place forms, so the close read looks harder at the prose.
+
+Known limits, both small: a capitalized word that is not a name ("God", "Scripture", "Greek", a month) is counted as one, and a name that appears only at the start of sentences is not.
+
+Joining words are counted as: because, since, though, although, so that, until, yet, even so, and ", so" or ", for" inside a sentence. The count is rough: it takes in "since" used of time and ", for" used as a preposition. A low count does not fail by itself. Constantine's brief scores none and still joins its ideas, with "that", "and that night" and "Only when he knew he was dying". It tells the reviewer to look.
+
+The corrected eight, on these terms:
+
+| Brief | Grade, full text | Reading ease, names out |
+|---|---|---|
+| Origen | 8.9 | 76.1 |
+| Methodius of Olympus | 9.1 | 72.3 |
+| Constantine the Great | 9.1 | 77.4 |
+| Athanasius of Alexandria | 9.1 | 72.7 |
+| Ephrem the Syrian | 9.2 | 76.7 |
+| Gregory of Nazianzus | 9.5 | 72.0 |
+| Gregory of Nyssa | 9.6 | 69.3 |
+| John Chrysostom | 9.1 | 70.0 |
 
 ## Era 2 scan rulings that bear on profiles
 
