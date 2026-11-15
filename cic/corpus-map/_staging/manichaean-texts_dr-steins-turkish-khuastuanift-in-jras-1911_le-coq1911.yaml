@@ -7,5 +7,5 @@ assignments:
   atlas_ids:
   - manichaeism
   role: tradition
-  confidence: needs-ruling
-  note: 'The lay Manichaeans'' own confession of sins, in English. The manuscript is later than this window, so the placing needs a ruling.'
+  confidence: assigned
+  note: "The lay Manichaeans' own confession of sins, in English. The manuscripts are of the 8th-10th centuries."

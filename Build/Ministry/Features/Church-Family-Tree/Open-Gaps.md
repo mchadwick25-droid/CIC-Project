@@ -3662,3 +3662,14 @@ it, never by deleting it.
     - Cannot be filled under the date rule: an English of Eulogius, Paulus Alvarus or Abu Qurrah (none printed by 1930). Owner: the coordinator, to weigh whether those rows stay WANTED.
     - Filled with a caution a profile must carry. Nicaea II in English: the translator wrote against the council, and his notes share the pages of the acts. The Life of Rimbert: its author is not named; the editor places it in the time of Rimbert's successor. Matthew of Edessa, Michael the Syrian and John of Damascus: translations only. Abu Qurrah: only the Latin can be quoted. Stephen the Sabaite: a Latin translation of a Greek Life that lacks its beginning. Owner: the Who workers for these rows.
     - Ruling wanted from Mark. Bacha's French of a second treatise of Abu Qurrah (Tripoli and Rome): the title page carries no year, and 1905 is the date of the preface only; it was not taken, as Mansi XX was not. Shelf rows marked `needs-ruling`: Matthew of Edessa (on `armenian-cilicia` and `bagratid-armenian-christianity`) and John of Damascus's sermons on the Assumption. Owner: Mark, with the other shelf rulings.
+288. **Census gaps the shelf rulings left: candidates for future census entries (2026-11-15).** Mark's shelf rulings of 2026-11-15 (see the Source Library Decision-Log, "Shelf rulings") place each outside witness on the nearest existing entry and make no new census entry. These ten places have no entry of their own, and the works below sit on a neighbor until one exists. Owner: Mark.
+    - The Maronites, 1517-1815. `maronite-christianity-era-6` ends in 1517 and the next Maronite entry starts in 1815. Naironus's Dissertatio (1679) has no shelf for this reason.
+    - The Bulgarian church of Euthymius of Tarnovo's day (the late fourteenth century). His Life of Hilarion of Moglena sits on `serbian-and-bulgarian-medieval-monasticism`.
+    - Mamluk Egypt and Syria. Al-Qalqashandi (2 files) and Ibn Khaldun sit on `coptic-christianity-fatimid-to-mamluk`.
+    - The Maghreb after 1300. Ibn Khaldun's history of the Berbers and his Prolegomena (7 files) sit on the same entry.
+    - Strasbourg. Katharina Schütz Zell (Füsslin 1753; Röhrich 1855) sits on `lutheran-wittenberg-and-its-congregations`.
+    - The Ottoman state. Evliya Çelebi (3 files), Kâtib Çelebi and Busbecq's Turkish Letters sit on `orthodoxy-under-the-ottomans-parish-millet-and-n`.
+    - The Jews of Europe. Joseph ha-Kohen (3 files), Usque and ibn Verga sit on `the-tridentine-church`.
+    - Italy's politics. Guicciardini (4) and Machiavelli (4) sit on `the-tridentine-church` and `latin-papal-church-avignon-to-lateran-v`.
+    - North Africa. Leo Africanus (3 vols) sits on `the-coptic-church-under-the-ottomans`.
+    - Ukrainian Orthodoxy after 1700. The Western Ukraine letters of the 1760s and the Kyiv Academy documents of 1721-1750 sit on `russian-church-nikon-to-holy-synod`, whose window is 1652-1815.

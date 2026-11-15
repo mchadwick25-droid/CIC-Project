@@ -5,8 +5,7 @@ assignments:
   author: underwood
   locus: the whole book; add 11 to OCR line numbers for this file's own
   atlas_ids:
-  - the-missionary-movement-s-native-churches-seramp
+  - korean-protestantism-twentieth-century
   role: tradition
-  confidence: needs-ruling
-  note: The first Presbyterian missionary's own account, written in 1908. Like the Korean Repository it
-    waits on the AP15 ruling for its shelf.
+  confidence: assigned
+  note: "The first Presbyterian missionary's own account, written in 1908."

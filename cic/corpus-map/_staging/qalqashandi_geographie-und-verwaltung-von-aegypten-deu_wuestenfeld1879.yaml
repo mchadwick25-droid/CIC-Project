@@ -7,5 +7,5 @@ assignments:
   atlas_ids:
   - coptic-christianity-fatimid-to-mamluk
   role: context
-  confidence: needs-ruling
-  note: 'No census entry covers Mamluk Egypt and Syria or the Maghreb after 1300; shelved here until a ruling places the outside witnesses of era 6. Not read in depth for its passages on Christians.'
+  confidence: assigned
+  note: "An outside witness. No census entry covers Mamluk Egypt and Syria or the Maghreb after 1300, so the work sits on this entry. Not read in depth for its passages on Christians."

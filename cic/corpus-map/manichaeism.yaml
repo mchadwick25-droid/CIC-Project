@@ -235,9 +235,9 @@ works:
   author: manichaean-texts
   locus: the paper from about OCR line 25315; add 12 to OCR line numbers
   role: tradition
-  confidence: needs-ruling
-  note: A Manichaean teaching text in Chinese, from Dunhuang, given in French. The manuscript
-    is later than this window, so the placing needs a ruling.
+  confidence: assigned
+  note: A Manichaean teaching text in Chinese, from Dunhuang, given in French. The manuscripts
+    are of the 8th-10th centuries.
   source_file: manichaean-texts_traite-manicheen-retrouve-en-chine-pt1-in-journal-asiatique-10-18-fra_chavannes-pelliot1911.txt
 - row_id: manichaean-texts_traite-manicheen-retrouve-en-chine-pt2-in-journal-asiatique-11-1-fra_chavannes-pelliot1913--chinese-manichaean-treatise-part-2-chavannes-pelliot-1913
   work: A Manichaean treatise found in China, French translation, second part (Chavannes and
@@ -245,9 +245,9 @@ works:
   author: manichaean-texts
   locus: the paper from about OCR line 4173; add 12 to OCR line numbers
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: The second part of the same study, with the Chinese sources on the Manichaeans in
-    China. Later than this window, so the placing needs a ruling.
+    China. The manuscripts it studies are of the 8th-10th centuries.
   source_file: manichaean-texts_traite-manicheen-retrouve-en-chine-pt2-in-journal-asiatique-11-1-fra_chavannes-pelliot1913.txt
 - row_id: manichaean-texts_dr-steins-turkish-khuastuanift-in-jras-1911_le-coq1911--khuastuanift-manichaean-confession-english-le-coq-1911
   work: The Khuastuanift, the Manichaean hearers' confession, Turkish with English translation
@@ -255,16 +255,15 @@ works:
   author: manichaean-texts
   locus: the paper from about OCR line 15378; add 11 to OCR line numbers
   role: tradition
-  confidence: needs-ruling
-  note: The lay Manichaeans' own confession of sins, in English. The manuscript is later than
-    this window, so the placing needs a ruling.
+  confidence: assigned
+  note: The lay Manichaeans' own confession of sins, in English. The manuscripts are of the
+    8th-10th centuries.
   source_file: manichaean-texts_dr-steins-turkish-khuastuanift-in-jras-1911_le-coq1911.txt
 - row_id: manichaean-texts_tuerkische-manichaica-aus-chotscho-1-in-abhandlungen-preuss-akademie-1911-deu-oui_le-coq1911--turkish-manichaean-texts-from-chotscho-le-coq-1911
   work: Turkish Manichaean texts from Chotscho, with German translation (Le Coq 1911)
   author: manichaean-texts
   locus: Le Coq's paper from about OCR line 39094; add 12 to OCR line numbers
   role: tradition
-  confidence: needs-ruling
-  note: The Manichaeans' own texts, found at Turfan. The manuscripts are of the eighth to
-    tenth centuries, later than this window, so the placing needs a ruling.
+  confidence: assigned
+  note: The Manichaeans' own texts, found at Turfan. The manuscripts are of the 8th-10th centuries.
   source_file: manichaean-texts_tuerkische-manichaica-aus-chotscho-1-in-abhandlungen-preuss-akademie-1911-deu-oui_le-coq1911.txt

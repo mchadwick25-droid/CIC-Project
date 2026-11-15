@@ -13,12 +13,3 @@ works:
     Protestant mission. Its own voice. The entry now carries the Korea line (AP15, data release
     34), inside its window.
   source_file: korean-repository_v3-1896_seoul1896.txt
-- row_id: underwood_call-of-korea_1908--underwood-the-call-of-korea-1908
-  work: Underwood, The Call of Korea (1908)
-  author: underwood
-  locus: the whole book; add 11 to OCR line numbers for this file's own
-  role: tradition
-  confidence: needs-ruling
-  note: The first Presbyterian missionary's own account, written in 1908. Like the Korean
-    Repository it waits on the AP15 ruling for its shelf.
-  source_file: underwood_call-of-korea_1908.txt

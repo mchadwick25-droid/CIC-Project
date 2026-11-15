@@ -7,5 +7,5 @@ assignments:
   atlas_ids:
   - byzantine-imperial-church-macedonian
   role: tradition
-  confidence: needs-ruling
-  note: 'A Life of Patriarch Euthymios; its date of writing is not given on the title page.'
+  confidence: assigned
+  note: "A Life of Patriarch Euthymios. The volume gives no date of writing."
