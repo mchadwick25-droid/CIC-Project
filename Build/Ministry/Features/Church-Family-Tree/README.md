@@ -4,8 +4,12 @@
 domain, `https://www.churchfamilytree.com`. It stands alone, and it opens a second door into
 Church in Conversation for every world that is open to the public.
 
-**Status:** converged 2026-11-06 ("Converged, auto mode"). Phase 1, the move, is ready to
-start in a fresh build thread. Nothing is built yet.
+**Status (2026-11-15):** live at churchfamilytree.com, which deploys from `main`. Eras 1 to 10
+have their traditions and stories. Eras 1 to 4 have Who profiles, and eras 1 to 3 have major
+councils. The first milestone is eras 1 to 7 complete for public release (Mark, 2026-11-15). The
+work runs in three threads under one coordinator: live fixes, the Library, and writing. The Who
+writing standard is being re-set from Mark's rulings of 2026-11-15 (`Decision-Log.md`). No new
+Who or council text is written until he approves it.
 
 ## What is in this folder
 

@@ -3822,3 +3822,62 @@ All files are in `Build/Ministry/Operations/Audits/2026-11-15_story-relations-cl
 **Review.** One fresh Opus agent, read and grep only, checked the fixes against the findings and the sources, the pattern against every rigor rule, and the whole for anything that would push writing back toward short flat sentences. It found three blocking points, all fixed before Mark saw the pages: the Gregory of Nyssa fix told the editors' reading flat; a pronoun in Methodius pointed at the wrong man; and the first wording of the evidence rule sent every dispute among modern editors to the card.
 
 **What follows.** `Who_Profile_Pattern.md` and `Council_Profile_Pattern.md` carry the change. `Worker_Brief_Template.md` holds the paragraph every Who worker is now given. The card fixes wait for the next data release (Open-Gaps, "Card fixes for the eight, for the next data release", 2026-11-15). The live text and audio of the eight change when they are re-recorded (Open-Gaps, "The eight's corrected briefs are the bar; the live text and audio wait for re-recording", 2026-11-15). The grader change is its own pull request. The 250 briefs since 2026-11-12 are then checked against the eight. No census, record, site or audio file changes here, so there is no data release number. Approved to proceed (Mark, 2026-11-15).
+
+## 2026-11-15 — The map after release 44: Mark's iPhone check passes; the phone zoom floor stays the width fit (Mark, 2026-11-15)
+
+**Decided (Mark, 2026-11-15, to the map-fixes worker).** Mark checked www.churchfamilytree.com in Safari on his iPhone and answered: "yes the iphone looks good". The check was the three steps sent to him: each era "i" just after its title at first load and after pinching; a pinch that zooms only the map, with the header and the bottom bar left in place and the tree never off screen; and a tap that opens the card at once with no box left behind. Asked whether to keep the phone zoom floor at the width fit (0.18 on iPhone 13, every river on screen) or to stop sooner (0.35, the tree wider than the screen), he answered: "keep it as is".
+
+**What follows.** The Safari check and the floor in Open-Gaps "The map after release 44" (2026-11-15) are settled; see Open-Gaps 292. The map's browser tests are still run by hand, not in CI. No code, census or record change, so there is no data release number. Approved to proceed (Mark, 2026-11-15).
+
+## 2026-11-15 — Quotations not in a held file: twelve cards corrected or told plainly (coordinator; data release 46)
+
+**Done (coordinator's instruction to Thread A, under the three-thread plan Mark accepted on 2026-11-15).** The legend-fixes worker's list of quotations not in a held file (branch `claude/cft-legend-fixes`, commit 9f88aa23) was checked again against `main` and the vendored texts. Nothing else from that branch was applied. Each quotation was corrected to the held text where a held file has it, or its quotation marks were taken off and it was said in plain words where none does. Two cards go to Mark unchanged. The verification table is `Build/Ministry/Operations/Audits/2026-11-15_cft-quote-fixes/Verification_Table.md`.
+
+**Corrected to the held text.** Scholastica's Storm, seven quotations, to Gregory's Dialogues as Gardner printed them in 1911 (`gregory-great_dialogues_gardner1911.txt` l.5351-5406). The Gaza charioteer, to Jerome's Life of Hilarion (`npnf206_jerome-principal-works.xml` l.30459-30461). Ælfheah: "greatly excited" for "greatly incensed", and one comma (`anglo-saxon-chronicle_newly-translated_gomme1909.txt` l.7608-7620). The Bequest of the Dying Mother, to Lützow's English (`lutzow_bohemia-historical-sketch_1920.txt` l.16484-16488). Nayler's last words, one comma (`fox_journal-v1_ellwood-text-pickard1901.txt` l.14399-14400). Nayler's "Holy, holy, holy, Lord God of Sabaoth" is held (`ellwood_history-of-the-life_crump1900.txt` l.381-382) and stays as it was.
+
+**Told plainly.** Lucian's "I am a Christian" (text, caveat and a source note), from Chrysostom's held Latin. Toledo IV canon 57, three renderings, from the held Latin (`collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt` l.40202-40231). The Coptic Lament's "they are not compelled to do this". The Boxer card's "to manifest the meekness and gentleness of Christ". The Christian Right, six spans in four fields ("totally political", "I endorse you and what you're doing", the four principles), on the card, the map and its tree page.
+
+**Held for Mark.** Dominic Sells His Books and John of Ephesus's ‘compelling’ (Open-Gaps 296).
+
+**Review.** Round 1, a fresh Opus reviewer: 2 blocking points (Comenius and Nayler were held in English) and one missed quotation (the Christian Right's voices line). All three were fixed. Round 2, a targeted recheck: 0 blocking. Files: `Build/Ministry/Operations/Audits/2026-11-15_cft-quote-fixes/`.
+
+**What is still open.** Open-Gaps 296 (2026-11-15).
+
+## 2026-11-15 — A new coordinator, three working threads, and the clean-up plan (Mark, 2026-11-15)
+
+**Decided (Mark, 2026-11-15, to the new coordinator).** Mark opened a new coordination thread because the two before it "have drifted and found things wrong that were not and told things that were wrong". He asked it to "take over all the work, archive what is finished and put a plan together to organize and streamline the work". The old coordinator (session_01JMNsSADg2CkWvhgudEDKFw) stood down and sent a handover, and the finished sessions were archived. Mark then said "i want to get this down to 3 working threads" and accepted the plan: "yes i accept". The plan has three threads. Thread A does live fixes. Thread B is the Library. Thread C does the writing. The coordinator writes the rulings list and gives each thread its go.
+
+**Found.** From 1 to 15 November, 18 rulings were recorded about renderings. Four rest on Mark's own words, eight on an option he picked with details a thread added, and six were inferred by a thread. One statement of fact, "each of them are vendering all the sources they find into the library", reached five Library threads as an instruction. The outgoing coordinator's handover records Mark's answer as "not a rule" and "i said thay are, not for you to tell to". From now on a ruling is Mark's own words only, and anything passed on second-hand is a remark.
+
+## 2026-11-15 — Fable writes the era 8 to 10 renderings while the free refill lasts: an exception, not a rule change (Mark, 2026-11-15)
+
+**Decided (Mark, 2026-11-15).** Asked what "rendered" meant for the era 8 to 10 Library texts, Mark answered "a but have fable write them this time since its free". Then: "this isnt a change to the rule just an exception so dont change the CLAUDE.md". Then: "keep using fable until the free runs out then we will hold that work until we finish 1-7 and go back to opus". `CLAUDE.md` is unchanged. Opus authors renderings, and this is an exception for the length of the free refill. When the refill runs out, the Fable work stops at a clean point with a handover. It resumes on Opus after eras 1 to 7 are live.
+
+## 2026-11-15 — The tree first, eras 1 to 7 as the first milestone, and the Library through all eras (Mark, 2026-11-15)
+
+**Decided (Mark, 2026-11-15).** "we want to stay focused on church family tree and getting the full system live, we will work on conversation after that". On shared work: "but do things right, so if we are rendering souces that serves both then we do the work for both". On scope: "lets hit the 1 - 7 threshold first, but we are doing the library so we can keep going to all eras". A text the tree uses is done once, to the bar both products need. Work that serves only Church in Conversation waits until the tree is live. The writing aims at eras 1 to 7. The Library keeps collecting for all ten eras.
+
+## 2026-11-15 — What the Library does, what the writing builds, and where a Who that fails goes (Mark, 2026-11-15)
+
+**Decided (Mark, 2026-11-15).** The Library's job: "the library threads should be gathering all the sources identified for their eras to build the traditions, who, stories and counsil and putting it in the library, then render the quotes, stories and lexicons and general references to support the conversations and the writing of who, stories, counsils." The writing: "at this point we have tradition stories, but when we have a who that doenst meat the standard for a who they can be reduced to story (documented) and story (legend - that is later stuff) we are not building new stories or ledends, we are build who and counsil and let the leftovers move to story or not used". Then "or someone mentioned, but not card", and "the who are identified".
+
+**The legend check.** "the legend wasn't about source, it was about it calling legends true who profiles. we dont need to build out more legends we need to make sure the who and counsils are drawing from their own sources not sources writen 1000 years later". Two lists that came from the legend check were dropped and nothing from them was vendored. One was the card-source fetch for eras 1 to 7 (branch `claude/library-cards-eras1-4`, left as it is). The other was the card-text rows in the era 9 and era 10 handovers. The held legend-fixes branch (`claude/cft-legend-fixes`) is not released.
+
+**The Who test, made sharper.** Mark accepted a significance test: "yes, or defended". A Who changed or defended church history or theology beyond their own house or town, and the held sources show it. Recorders stay Whos under the 2026-11-11 ruling ("we need to include people like him as who's"). A Who that fails the source test or the significance test moves to Story (documented), Story (legend), a mention without a card, or out of use.
+
+## 2026-11-15 — The Who brief: what Mark has ruled so far, from the Gregory of Tours and Benedict test (Mark, 2026-11-15)
+
+**Decided (Mark, 2026-11-15).** Mark's read of the earlier three-brief test: "they are ok, but still seem disconected from history, just a story about someone", and "i felt like both were more stories than significant impact on church history and theology". His rulings, in order:
+- The shape stays the 2026-11-11 ruling: "do you remember the shape of the story, personal and then impact". The brief tells the person first, then the impact. It moves from the moment to the thread to what they changed or defended. There are no headings or lists.
+- Impact is the end of the story: "it told what he stood for and who against (trinity), but it doesn't tell the end of that story, what happened because he stood up agains the king".
+- It is told as a consequence: "it read like two seperate stories not a consequence". A causal claim needs a source that makes it.
+- More than one: "it can be more than on thing, if they had several things then they should be told".
+- Length: "target under 2 minutes, can streatch to 2:30 if needed, no hard cap". For councils: "counsils can be a little longer", then "target 2:00 but can streatch to 3".
+- All of it together: "lets not loose the craft, rigor and access to what we talked about, it need all".
+- After hearing the rewritten Gregory of Tours and Benedict of Nursia: "i like them, but two things, do we need to have everything referenced in the story, like who says what, and we can be clearer up front to the time and place and context of the story. dates and location. what do you think about all the references to later scholors". He then said "yes" to three changes:
+  - name a witness only where it changes how far to trust a point;
+  - give the year, the place and region, and what was going on in the first sentences;
+  - leave modern scholars out of the brief and put them on the card.
+- Then "we will also have the references listed below" and "i think we should mention the tradition they are a part of if they are".
+
+**What follows.** Gregory of Tours and Benedict are being revised on these points and re-recorded for Mark to hear. `Who_Profile_Pattern.md` and `Council_Profile_Pattern.md` are not changed yet. They take these rulings as Standard v1 only once Mark has heard the revised pair and approved it. The questions still open (quotation marks on our own English, and how reviews are run) are on the rulings page.

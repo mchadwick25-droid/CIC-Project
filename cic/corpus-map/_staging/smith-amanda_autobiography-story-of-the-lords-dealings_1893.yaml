@@ -1,0 +1,23 @@
+source_file: smith-amanda_autobiography-story-of-the-lords-dealings_1893.txt
+assignments:
+- row_id: smith-amanda_autobiography-story-of-the-lords-dealings_1893--an-autobiography-the-story-of-the-lord-s-dealings-with-mrs
+  work: 'An Autobiography: the story of the Lord''s dealings with Mrs. Amanda Smith, the colored evangelist; with
+    an'
+  author: smith-amanda
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - the-holiness-movement
+  - the-black-church-in-america
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1893
+    end: 1893
+    source: 'the printing''s own title page: line 54, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1893
+    source: line 54, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 233, Amanda Berry Smith: her Autobiography.'

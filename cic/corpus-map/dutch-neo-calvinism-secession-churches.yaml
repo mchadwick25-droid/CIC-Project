@@ -61,6 +61,24 @@ works:
     formation_confidence: Documented
   note: 'Era 9 row 224, Hendrik de Cock: two of his first writings.'
   source_file: cock_twee-der-eerste-geschriften-nld_1882.txt
+- row_id: groen-van-prinsterer_ongeloof-en-revolutie-nld_2e-uitg1868--ongeloof-en-revolutie-eene-reeks-van-historische
+  work: 'Ongeloof en Revolutie: eene reeks van historische voorlezingen; tweede uitgaaf'
+  author: groen-van-prinsterer
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  language: nld
+  date:
+    start: 1868
+    end: 1868
+    source: 'the printing''s own title page: line 42, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1868
+    source: line 42, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 270, Guillaume Groen van Prinsterer: Ongeloof en Revolutie, in Dutch.'
+  source_file: groen-van-prinsterer_ongeloof-en-revolutie-nld_2e-uitg1868.txt
 - row_id: kuyper_tractaat-van-de-reformatie-der-kerken-nld_1883--tractaat-van-de-reformatie-der-kerken-aan-de-zonen-der
   work: Tractaat van de Reformatie der Kerken, aan de zonen der Reformatie hier te lande op
     Luthers vierde eeuwfeest

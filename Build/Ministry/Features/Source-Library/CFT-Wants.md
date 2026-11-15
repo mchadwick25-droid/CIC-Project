@@ -1110,6 +1110,265 @@ are not rewritten.
 - Valentijn (1726): the church of Amboina is the first three books of the first stuk; the fourth and fifth are
   natural history. The second stuk covers other lands, and church matters there were not mapped.
 
+## Era 9 (1815-1906), batch 2b (2026-11-15): rows 227-245, 249-262, 267-278, 323 and 327-330
+
+Sixty-one files for 49 person rows of
+`Build/Ministry/Operations/Audits/2026-11-12_wanted-sources-combined/Wanted_Sources.md`, and the date check
+batch 1 left on row 223. The search record is
+`Build/Ministry/Operations/Audits/2026-11-15_library-era9-b2b/Search_Log.md`. Every file has a printed year of
+1930 or earlier: on its title page (six read on the scan's page image), or, for twelve whose title page
+prints none, in a copyright notice, a dated preface the catalogue agrees with, or the title itself; each header
+says which. Google's own preamble was stripped from twelve files at intake, and each header says what went.
+Line numbers in these headers are the file's own lines.
+
+| want | state | file(s), with the year | shelf |
+|---|---|---|---|
+| era 9 row 227, Walter Scott: a Life told by another | filled | `baxter-w_life-of-elder-walter-scott_1874.txt` (1874); 139,679 words; eng | the-stone-campbell-restoration-movement, context |
+| era 9 row 228, 'Raccoon' John Smith: a Life told by another | filled | `williams-j-a_life-of-elder-john-smith_1870.txt` (1870); 184,885 words; eng | the-stone-campbell-restoration-movement, context |
+| era 9 row 229, Peter Cartwright: his Autobiography | filled | `cartwright_autobiography-of-peter-cartwright_strickland1857.txt` (1857); 162,070 words; eng | the-second-great-awakening-and-camp-meeting-worl, nineteenth-century-methodism, tradition |
+| era 9 row 233, Amanda Berry Smith: her Autobiography | filled | `smith-amanda_autobiography-story-of-the-lords-dealings_1893.txt` (1893); 214,885 words; eng | the-holiness-movement, the-black-church-in-america, tradition |
+| era 9 row 234, Hannah Whitall Smith: The Christian's Secret of a Happy Life | filled | `smith-hannah-whitall_christians-secret-of-a-happy-life_rev-ed1888.txt` (1888); 65,664 words; eng | the-holiness-movement, tradition |
+| era 9 row 234, Hannah Whitall Smith: her spiritual autobiography | filled | `smith-hannah-whitall_unselfishness-of-god_1903.txt` (1903); 81,241 words; eng | the-holiness-movement, tradition |
+| era 9 row 235, John S. Inskip: a Life told by others | filled | `mcdonald-searles_life-of-rev-john-s-inskip_1885.txt` (1885); 123,420 words; eng | the-holiness-movement, context |
+| era 9 row 236, Robert P. Wilder: the report of the movement's first convention, with his addresses | filled | `student-volunteer-movement_report-first-international-convention-cleveland_1891.txt` (1891); 99,836 words; eng | the-student-volunteer-movement-and-edinburgh-191, tradition |
+| era 9 row 239, William Taylor: Story of My Life | filled | `taylor-william_story-of-my-life_ridpath1895.txt` (1895); 406,560 words; eng | nineteenth-century-methodism, tradition |
+| era 9 row 329, Charles M. Sheldon: In His Steps | filled | `sheldon_in-his-steps_1897.txt` (1897); 84,862 words; eng | the-social-gospel, tradition |
+| era 9 row 330, George and Sarah Clarke: Sarah Clarke's own account of the mission | filled | `clarke_founding-of-pacific-garden-mission_1914.txt` (1914); 7,438 words; eng | the-rescue-mission-movement, tradition |
+| era 9 row 231, Zilpha Elaw: her Memoirs | filled | `elaw_memoirs-of-mrs-zilpha-elaw_1846.txt` (1846); 46,894 words; eng | the-black-church-in-america, tradition |
+| era 9 row 232, Julia Foote: A Brand Plucked from the Fire | filled | `foote_brand-plucked-from-the-fire_1879.txt` (1879); 25,037 words; eng | the-black-church-in-america, tradition |
+| era 9 row 238, James Varick: Rush's Short Account of the African Methodist Episcopal Church | filled | `rush_short-account-rise-and-progress-african-me-church_1843.txt` (1843); 24,644 words; eng | nineteenth-century-methodism, the-black-church-in-america, tradition |
+| era 9 row 240, James Robinson Graves: Old Landmarkism | filled | `graves_old-landmarkism-what-is-it_1880.txt` (1880); 63,892 words; eng | nineteenth-century-baptists, tradition |
+| era 9 row 241, William Bullein Johnson: The Gospel Developed | filled | `johnson-w-b_gospel-developed_1846.txt` (1846); 45,426 words; eng | nineteenth-century-baptists, tradition |
+| era 9 row 243, John Wilbur: his Journal | filled | `wilbur_journal-of-the-life-of-john-wilbur_1859.txt` (1859); 274,150 words; eng | nineteenth-century-quakerism-separations, tradition |
+| era 9 row 244, Lucretia Mott: a Life with her letters | filled | `hallowell_james-and-lucretia-mott-life-and-letters_1884.txt` (1884); 190,741 words; eng | nineteenth-century-quakerism-separations, context |
+| era 9 row 245, Levi Coffin: his Reminiscences | filled | `coffin_reminiscences-of-levi-coffin_1876.txt` (1876); 205,688 words; eng | nineteenth-century-quakerism-separations, tradition |
+| era 9 row 261, Ralph Waldo Emerson: the Address of 1838 | filled | `emerson_address-before-the-senior-class-in-divinity-college_1838.txt` (1838); 7,788 words; eng | american-unitarianism-universalism-consolidations, tradition |
+| era 9 row 261, Ralph Waldo Emerson: a Life told by another (vol. 1) | filled | `cabot_memoir-of-ralph-waldo-emerson-v1_1887.txt` (1887); 96,694 words; eng | american-unitarianism-universalism-consolidations, context |
+| era 9 row 262, Dorothea Dix: a Life told by another | filled | `tiffany_life-of-dorothea-lynde-dix_1890.txt` (1890); 125,351 words; eng | american-unitarianism-universalism-consolidations, context |
+| era 9 row 249, Hiram Edson: his own discourse of 1849 (his account of the morning after was not found in print) | filled | `edson_time-of-the-end_1849.txt` (1849); 16,050 words; eng | restorationist-apocalyptic-ferment-and-adventism, tradition |
+| era 9 row 250, Joseph Bates: his Autobiography | filled | `bates_autobiography-of-elder-joseph-bates_1868.txt` (1868); 97,858 words; eng | restorationist-apocalyptic-ferment-and-adventism, tradition |
+| era 9 row 251, Emma Hale Smith: the hymnbook of 1835 | filled | `smith-emma_collection-of-sacred-hymns_kirtland1835.txt` (1835); 20,721 words; eng | latter-day-saints-lds, tradition |
+| era 9 row 252, Eliza R. Snow: her poems (vol. 1) | filled | `snow_poems-religious-historical-and-political-v1_1856.txt` (1856); 42,399 words; eng | latter-day-saints-lds, tradition |
+| era 9 row 256, John Bate Cardale: Readings upon the Liturgy | filled | `cardale_readings-upon-the-liturgy_1851.txt` (1851); 235,023 words; eng | catholic-apostolic-church-irvingites, tradition |
+| era 9 row 257, Henry Drummond: Dialogues on Prophecy, vol. 1 (the volume names no author and no place of meeting) | filled | `dialogues-on-prophecy_v1_1828.txt` (1828); 114,815 words; eng | catholic-apostolic-church-irvingites, antecedent |
+| era 9 row 257, Henry Drummond: his speeches in Parliament, with a sketch of his political career (vol. 1) | filled | `drummond-henry_speeches-in-parliament-v1_lovaine1860.txt` (1860); 180,112 words; eng | catholic-apostolic-church-irvingites, tradition |
+| era 9 row 259, Benjamin Wills Newton: his own writing | filled | `newton-b-w_thoughts-on-the-apocalypse_2nd-ed1853.txt` (1853); 136,040 words; eng | plymouth-brethren-and-dispensational-formation, tradition |
+| era 9 row 259, Benjamin Wills Newton: an account of the division by another | filled | `neatby_history-of-the-plymouth-brethren_1901.txt` (1901); 113,539 words; eng | plymouth-brethren-and-dispensational-formation, context |
+| era 9 row 237, Jabez Bunting: a Life told by his son (vol. 1) | filled | `bunting-t-p_life-of-jabez-bunting-v1_1859.txt` (1859); 167,782 words; eng | nineteenth-century-methodism, context |
+| era 9 row 242, John Clifford: a Life told by another | filled | `marchant_dr-john-clifford_1924.txt` (1924); 149,558 words; eng | nineteenth-century-baptists, context |
+| era 9 row 267, Richard Hurrell Froude: his Remains (part 1, vol. 1) | filled | `froude_remains-pt1-v1_1838.txt` (1838); 130,881 words; eng | the-oxford-movement-and-anglo-catholic-revival, tradition |
+| era 9 row 268, Priscilla Lydia Sellon: her bishop's letter to her | filled | `phillpotts_letter-to-miss-sellon_1852.txt` (1852); 6,670 words; eng | the-oxford-movement-and-anglo-catholic-revival, context |
+| era 9 row 268, Priscilla Lydia Sellon: a critic's pamphlet of 1852 | filled | `colles_sisters-of-mercy-sisters-of-misery_1852.txt` (1852); 9,194 words; eng | the-oxford-movement-and-anglo-catholic-revival, context |
+| era 9 row 271, Lord Shaftesbury: a Life told by another (vol. 1) | filled | `hodder_life-and-work-of-seventh-earl-of-shaftesbury-v1_1887.txt` (1887); 196,699 words; eng | victorian-church-of-england, context |
+| era 9 row 272, Samuel Wilberforce: a Life with his diaries and letters (vol. 1) | filled | `ashwell_life-of-samuel-wilberforce-v1_1880.txt` (1880); 201,928 words; eng | victorian-church-of-england, context |
+| era 9 row 273, Frederick Denison Maurice: Theological Essays | filled | `maurice_theological-essays_2nd-ed1853.txt` (1853); 141,158 words; eng | victorian-church-of-england, tradition |
+| era 9 row 273, Frederick Denison Maurice: a Life told in his letters (vol. 1) | filled | `maurice-f_life-of-frederick-denison-maurice-v1_1884.txt` (1884); 210,263 words; eng | victorian-church-of-england, context |
+| era 9 row 274, John William Colenso: The Pentateuch and Book of Joshua, part I | filled | `colenso_pentateuch-and-book-of-joshua-pt1_1862.txt` (1862); 74,466 words; eng | victorian-church-of-england, tradition |
+| era 9 row 274, John William Colenso: Ten Weeks in Natal | filled | `colenso_ten-weeks-in-natal_1855.txt` (1855); 101,641 words; eng | victorian-church-of-england, southern-african-mission-churches, tradition |
+| era 9 row 275, Charles Longley: the documents of the Lambeth Conference of 1867 | filled | `lambeth-conferences_1867-1878-1888_davidson1889.txt` (1889); 118,657 words; eng | victorian-church-of-england, tradition |
+| era 9 row 278, Nicholas Wiseman: Recollections of the Last Four Popes | filled | `wiseman_recollections-of-the-last-four-popes_1858.txt` (1858); 119,694 words; eng | catholic-church-long-nineteenth-century, tradition |
+| era 9 row 278, Nicholas Wiseman: his Appeal of 1850 on the hierarchy | filled | `wiseman_appeal-to-the-english-people-catholic-hierarchy_1850.txt` (1850); 14,721 words; eng | catholic-church-long-nineteenth-century, tradition |
+| era 9 row 278, Nicholas Wiseman: a Life told by another (vol. 1) | filled | `ward-wilfrid_life-and-times-of-cardinal-wiseman-v1_1897.txt` (1897); 193,407 words; eng | catholic-church-long-nineteenth-century, context |
+| era 9 row 328, W. T. Stead: his narrative of the Welsh revival | filled | `stead_welsh-revival-narrative-of-facts_boston1905.txt` (1905); 27,087 words; eng | the-1904-07-revival-family-wales-mukti-india-pyo, context |
+| era 9 row 269, Adolphe Monod: the deathbed addresses, in French | filled | `monod_adieux-a-ses-amis-et-a-l-eglise-fra_1857.txt` (1857); 46,097 words; fra | the-reveil-and-inner-mission-awakening, tradition |
+| era 9 row 269, Adolphe Monod: the deathbed addresses, in English | filled | `monod_parting-words-to-his-friends-and-the-church_1873.txt` (1873); 51,965 words; eng | the-reveil-and-inner-mission-awakening, tradition |
+| era 9 row 270, Guillaume Groen van Prinsterer: Ongeloof en Revolutie, in Dutch | filled | `groen-van-prinsterer_ongeloof-en-revolutie-nld_2e-uitg1868.txt` (1868); 148,185 words; nld | dutch-neo-calvinism-secession-churches, the-reveil-and-inner-mission-awakening, tradition |
+| era 9 row 276, Wilhelm Loehe: Three Books concerning the Church, in English | filled | `loehe_three-books-concerning-the-church_horn1908.txt` (1908); 47,484 words; eng | confessional-lutheran-revival-emigrations, tradition |
+| era 9 row 277, Bernadette Soubirous: Lasserre, Notre-Dame de Lourdes, in French | filled | `lasserre_notre-dame-de-lourdes-fra_28e-ed1870.txt` (1870); 127,531 words; fra | catholic-church-long-nineteenth-century, context |
+| era 9 row 277, Bernadette Soubirous: Lasserre, Our Lady of Lourdes, in English | filled | `lasserre_our-lady-of-lourdes_1870.txt` (1870); 136,577 words; eng | catholic-church-long-nineteenth-century, context |
+| era 9 row 323, J. Taylor Hamilton: his history of the Moravian Church | filled | `hamilton-j-taylor_history-of-the-moravian-church_1900.txt` (1900); 245,775 words; eng | moravian-church-after-1815, tradition |
+| era 9 row 223, Theodor Fliedner: an English account of Kaiserswerth by a lady | filled | `kaiserswerth_kaiserswerth-deaconesses-by-a-lady_1857.txt` (1857); 15,148 words; eng | the-reveil-and-inner-mission-awakening, context |
+| era 9 row 230, Daniel Coker: Payne's history of his church, which tells of Coker (Coker's own Dialogue and Journal were not found in print) | filled | `payne_history-of-the-african-methodist-episcopal-church-v1_1891.txt` (1891); 226,084 words; eng | the-black-church-in-america, nineteenth-century-methodism, tradition |
+| era 9 row 254, Robert Roberts: Christendom Astray | filled | `roberts-robert_christendom-astray_1883.txt` (1883); 214,643 words; eng | christadelphians, tradition |
+| era 9 row 254, Robert Roberts: The Ways of Providence | filled | `roberts-robert_ways-of-providence_1881.txt` (1881); 102,609 words; eng | christadelphians, tradition |
+| era 9 row 255, Mary Campbell and Margaret Macdonald: an outside history that tells of 1830 (vol. 1) | filled | `miller-edward_history-and-doctrines-of-irvingism-v1_1878.txt` (1878); 131,733 words; eng | catholic-apostolic-church-irvingites, context |
+| era 9 row 255, Mary Campbell and Margaret Macdonald: the Life of Mary Campbell's minister | filled | `story_memoir-of-the-life-of-the-rev-robert-story_1862.txt` (1862); 136,333 words; eng | catholic-apostolic-church-irvingites, context |
+| era 9 row 260, J. G. Bellett: one of his own books (his memoir of the early circle was not found) | filled | `bellett_short-meditation-on-the-moral-glory-of-the-lord-jesus-christ_1865.txt` (1865); 24,349 words; eng | plymouth-brethren-and-dispensational-formation, tradition |
+
+### Rows left unfilled or part-filled
+
+| want | state | what was looked for |
+|---|---|---|
+| era 9 row 230, Daniel Coker: his Dialogue (1810) and Journal (1820) | part-filled | No original printing found. Payne's History (above) tells of him. Two typescripts of 1900 are on archive.org (`msam.-282-11`, `msam.-282-12`): cite only. |
+| era 9 row 249, Hiram Edson: his account of the morning after | part-filled | Not found in print before 1931. His discourse of 1849 is held (above). |
+| era 9 row 253, Emmeline B. Wells: the Woman's Exponent and a told life | not-found | No bound volume; partial sets of issues only. No Life found. |
+| era 9 row 258, Tirzah Miller: her diaries | not-found | First printed in 2000. |
+| era 9 row 327, "Awstin": the Western Mail revival pamphlets | not-found | Nineteen queries, nothing. |
+| era 9 row 268, Priscilla Lydia Sellon: her own writing, a Life | part-filled | Nothing of her own found. Two pamphlets of 1852 by others are held (above). |
+| era 9 row 260, J. G. Bellett: his memoir of the early circle | part-filled | Not found. One of his own books is held (above). |
+| era 9 row 255, Mary Campbell and Margaret Macdonald: Norton's Memoirs (1840) | part-filled | Not found. Miller's history and Story's Memoir are held (above). |
+| era 9 row 254, Robert Roberts: his magazine and a Life | part-filled | Not found. Two of his own books are held (above). |
+| era 9 row 241, William Bullein Johnson: the Proceedings of 1845 | part-filled | Not found. His own book of 1846 is held (above). |
+| era 9 row 242, John Clifford: the Baptist Union's record of 1887-88 | part-filled | Not found. Marchant's Life is held (above). |
+| era 9 row 240, J. R. Graves: a Life | part-filled | Hailey (1929) not found. Old Landmarkism is held (above). |
+| era 9 row 236, Robert P. Wilder: his own account | part-filled | His history of 1935 not found. The convention report of 1891, with his addresses, is held (above). |
+| era 9 row 276, Wilhelm Lohe: his writings in German | part-filled | Drei Bucher von der Kirche not found in German; the Neuendettelsau history of 1907 has OCR that cannot be read. The English Three Books is held (above). |
+| era 9 row 277, Bernadette Soubirous: her own depositions | part-filled | Not found. Lasserre in French and English is held (above). |
+| era 9 row 270, Groen van Prinsterer: an English print | not-found | None before 1931. The Dutch is held (above). |
+
+### Shelf notes
+
+- Lives and histories written by others are `context`; a person's or a church's own text is `tradition`, with
+  any doubt in the row's note. Nothing in this batch is left at `needs-ruling`.
+- Dialogues on Prophecy (1828) is `antecedent` on the Catholic Apostolic Church, whose entry opens in 1832. The
+  volume names no author, no speaker and no place.
+- Payne's History (1891), Rush's Short Account (1843) and Hamilton's History (1900) are each a church's history
+  written by one of its own bishops or superintendents inside the entry's window: `tradition`.
+- Cartwright's Autobiography (1856) is `tradition` on the Second Great Awakening, whose window closes in 1840,
+  and on Nineteenth-Century Methodism. Sarah Clarke's account (1914) is `tradition` on the Rescue Mission
+  Movement. Marchant's Life of Clifford (1924) is `context`.
+- Hamilton's History opens the shelf `moravian-church-after-1815`, and the convention report opens
+  `the-student-volunteer-movement-and-edinburgh-191`.
+- No census gap was met: every row has an entry.
+
+### Cautions for profile writers (batch 2b)
+
+- **No year on the title page.** Both books of Hannah Whitall Smith, the Life of Inskip, Coffin,
+  Sarah Clarke and Stead are dated from a copyright notice. Tiffany's Dix (the scan has no title page at all),
+  Bates, Christendom Astray, Miller's Irvingism and Marchant's Clifford are dated from a preface or a
+  'First published' line, with the catalogue. The Student
+  Volunteer report is dated from the year in its title. Each header says so.
+- **Author not named, or named by initials.** Readings upon the Liturgy names no author (the host names
+  Cardale). Dialogues on Prophecy names none. Bellett's book is by "J. G. B." The Unselfishness of God is by
+  "H. W. S. (Mrs. Pearsall Smith)". The Kaiserswerth account is "by a Lady". The author's name on Story's Memoir
+  cannot be read in the OCR. Both translations (Monod, Lasserre) name no translator.
+- **Not the person's own words.** Row 230: Payne tells of Coker; nothing of Coker's is held. Row 238: Rush's
+  account is the source for Varick. Row 255: Miller is a hostile outside history, and Story's Memoir does not
+  name Margaret Macdonald (it tells of the M'Donald family and leaves the sister's name blank). Row 268: both
+  pamphlets are by Sellon's critics; the bishop's letter quotes her in part. Row 277: Lasserre, not Bernadette.
+  Row 236: a convention report with many speakers; Wilder's addresses are located in the shelf row.
+- **Later editions.** The Christian's Secret (revised and enlarged, copyright 1888, not the text of 1875);
+  Newton's Thoughts on the Apocalypse (second, 1853); Maurice's Theological Essays (second, 1853); Ongeloof en
+  Revolutie (second, 1868); Lasserre in French (twenty-eighth, 1870); Monod in French (1857; the English of 1873
+  says it follows the fifth Paris edition); Taylor's Story of My Life (title page 1895, with matter of June
+  1896); In His Steps (1897); Cartwright (1857, 'eleventh thousand', copyright 1856); Wiseman's Appeal (a
+  later impression under the 1850 title page).
+- **Part of a larger work.** Vol. 1 only: Bunting, Hodder's Shaftesbury, Ashwell's Wilberforce, the Life of
+  Maurice, Ward's Wiseman, Cabot's Emerson, Drummond's Speeches, Dialogues on Prophecy, Snow's Poems, Payne,
+  Miller. Froude's Remains is part 1, vol. 1. Colenso's Pentateuch is part I.
+- **Mixed voices.** Hallowell prints the Motts' letters inside her own narrative. The Life of Maurice is told
+  in his letters, edited by his son. Sarah Clarke's book prints converts' own accounts after hers. Colenso's
+  Ten Weeks prints others' letters and subscription lists at the end. The bishop's Letter to Miss Sellon has an
+  appendix of two other clergymen's letters. Stead's pamphlet holds a second piece by G. Campbell Morgan. The
+  Lambeth volume holds three conferences; the 1867 documents are located in the shelf row. Drummond's Speeches
+  open with a sketch of his political career by the editor.
+- **Text faults.** Elaw's Memoirs: rough OCR, and the file breaks off in mid-sentence at its end. Rush: the
+  contents list a sketch of the author's life that the scan does not hold. Coffin: the first contents page is
+  absent. Lasserre in French: the first page of the papal brief is missing from the OCR. Stead: a note and a
+  page are printed twice. Tiffany: no title page. Emma Smith's hymnbook is a microfilm copy with fair OCR.
+- **Dialogues on Prophecy:** its own preface says the printed dialogues use made-up names and differ from the
+  real conversations. It does not name Albury or Drummond.
+## Era 10 (1906 to about 2010), batch 2, filled (2026-11-15): Africa, Oceania, the Orthodox and Oriental churches in their own languages
+
+Source: the rows batch 1 left open in `Build/Ministry/Operations/Audits/2026-11-12_wanted-sources-combined/Wanted_Sources.md` (era 10
+rows 331-459 and council row 37), worked by region as batch 1's handover proposed. Rights: as batch 1 (R1 to R12). The search
+record, the calls, the shelf rows settled and the cautions for writers are in
+`Build/Ministry/Operations/Audits/2026-11-15_library-era10-b2/Search_Log.md`; the list of items for Mark to fetch by hand is
+`Hand_Fetch_List.md` beside it.
+
+71 files, 4,273,101 words: 32 in English and 39 in other languages. Russian (28: the Paris journal Путь, numbers 1 to 25, and
+three books), French (2), Zulu (2), Malayalam (2), Māori (1), Arabic (1), Armenian (1), German (1) and Greek (1).
+
+Most of what was found for the African and Assyrian rows is an outside witness, and the table says so row by row. No first-hand
+print of William Wadé Harris, Kimbangu, Kivebulaya, Rātana or Surma was found.
+
+| want | state | file | imprint or rights basis | words | language | license |
+|---|---|---|---|---:|---|---|
+| Wanted Sources (2026-11-12), era 10 rows 356 (William Wadé Harris), 358 (Simon Kimbangu) and 398 (Apolo Kivebulaya): an outside account printed in their lifetimes. | filled | `gollock_sons-of-africa_1928.txt` | pd-us-by-date: printed 1928; the title page prints no year; the date used is the copyright notice, "Copyright, 1928" | 50,959 | eng | Public Domain |
+| Wanted Sources (2026-11-12), era 10 row 358 (Simon Kimbangu): an outside witness printed by 1930. | filled | `international-review-of-missions_v11_1922.txt` | pd-us-by-date: printed 1922; the year on the volume title leaf | 252,403 | eng | Public Domain |
+| Wanted Sources (2026-11-12), era 10 row 356 (William Wadé Harris): an outside witness printed by 1930. | filled | `international-review-of-missions_v12_1923.txt` | pd-us-by-date: printed 1923; the year on the volume title leaf | 240,925 | eng | Public Domain |
+| Wanted Sources (2026-11-12), era 10 row 356 (William Wadé Harris): an outside witness printed by 1930. | filled | `international-review-of-missions_v17_1928.txt` | pd-us-by-date: printed 1928; the year on the volume title leaf | 282,488 | eng | Public Domain |
+| Wanted Sources (2026-11-12), era 10 row 356: William Wadé Harris, an outside witness printed by 1930. | filled | `marty_etudes-sur-l-islam-en-cote-d-ivoire-fra_1922.txt` | pd-us-by-date: printed 1922; the title-page year | 143,380 | fra | Public Domain |
+| Wanted Sources (2026-11-12), era 10 row 356 (a passing notice of William Wadé Harris); the conference's own resolutions on Africa. | filled | `smith_christian-mission-in-africa-le-zoute-1926_1926.txt` | pd-us-by-date: printed 1926; the title-page year | 82,173 | eng | Public Domain |
+| Wanted Sources (2026-11-12), era 10 row 398: Apolo Kivebulaya, an outside witness printed in his lifetime. | filled | `tucker_eighteen-years-in-uganda-and-east-africa-v2_1908.txt` | pd-us-by-date: printed 1908; the title-page year | 125,327 | eng | Public Domain |
+| Era 10, Africa: a church's own hymnal in an African language, printed by 1930. | filled | `american-zulu-mission_amagama-okuhlabelela-zul_1911.txt` | pd-us-by-date: printed 1911; the title page prints no year; the date used is the copyright notice, "Copyright 1911", with "Published March 10, 1911" beside it | 117,605 | zul | Public Domain |
+| Era 10, Africa: an African writer's own book from the Lovedale mission press, printed by 1930. | filled | `jabavu_black-problem-2e_1921.txt` | pd-us-by-date: printed 1921; the title page prints no year; the date used is the dated foreword, "12th December 1920", with which the library catalog date (1920) agrees; the author's preface to this second edition is dated January 1921 | 54,706 | eng | Public Domain |
+| Era 10, Africa: a church's own print in an African language, by 1930. | filled | `wanger_imfundiso-yebandhla-elikatolike-zul_1912.txt` | pd-us-by-date: printed 1912; the title-page year; a bishop's leaf dated 29 April 1915 is bound with it | 146,134 | zul | Public Domain |
+| Wanted Sources (2026-11-12), era 10 row 350: T. W. Rātana, an outside witness printed by 1930. | filled | `te-karere_v24-mri_1930.txt` | pd-us-by-date: printed 1930; the masthead dates of the numbers in the file, all of 1930 ("21 o Mei 1930" read on the page image); the host record gives the series date 1907 | 56,695 | mri | Public Domain |
+| Wanted Sources (2026-11-12), era 10, the Sayfo entry: a churchman's own account printed by 1930 (it does not serve row 448: Surma is not named). | filled | `naayem_shall-this-nation-die_1921.txt` | pd-us-by-date: printed 1921; the title page prints no year; the date used is the copyright notice, "Copyright, 1921" | 65,893 | eng | Public Domain |
+| Wanted Sources (2026-11-12), era 10 row 448: Surma Khanim, an outside witness printed in 1920. | filled | `austin_baqubah-refugee-camp_1920.txt` | pd-us-by-date: printed 1920; the title-page year | 28,911 | eng | Public Domain |
+| Wanted Sources (2026-11-12), era 10 row 448 and the Sayfo entry: an outside witness printed in 1920. | filled | `wigram_our-smallest-ally_1920.txt` | pd-us-by-date: printed 1920; the title-page year, read on the page image | 16,060 | eng | Public Domain |
+| Era 10, Egypt: a Coptic press writer's own book printed by 1930, with the Patriarch's encyclical of 1911 in English (the rows for Habib Girgis, 369, stay unfilled). | filled | `mikhail_copts-and-moslems-under-british-control_1911.txt` | pd-us-by-date: printed 1911; the title-page year | 38,028 | eng | Public Domain |
+| Era 10, Egypt: a history of the Coptic Church in Arabic by a writer the host record styles القمص, printed by 1930. | filled | `manassa-yuhanna_tarikh-al-kanisa-al-qibtiyya-ara_1924.txt` | pd-us-by-date: printed 1924; the title-page year, read on the page image ("الطبعة الأولى سنة ١٩٢٤ م"); the OCR misreads the last digit | 214,010 | ara | Public Domain |
+| Era 10, the Armenian church: a catholicos's own works in Armenian, printed by 1930; the rows for Balakian (375) and Khoren I (447) stay unfilled. | filled | `khrimian_amboghjakan-yerker-hye_1929.txt` | pd-us-by-date: printed 1929; the title-page year | 268,990 | hye | Public Domain |
+| Era 10, the Armenian church: the church's own liturgy in an English made by its priests, printed by 1930. | filled | `armenian-church_divine-liturgy_1908.txt` | pd-us-by-date: printed 1908; the title-page year, read on the page image ("MCMVIII"; the verso reads "First Published in 1908") | 19,858 | eng | Public Domain |
+| Wanted Sources (2026-11-12), era 10 row 440 (located by batch 1, now checked): it does not carry the events of 1912. | filled | `panjikaran_syrian-church-in-malabar_1912.txt` | pd-us-by-date: printed 1912; the title-page year | 21,642 | eng | Public Domain |
+| Wanted Sources (2026-11-12), era 10 row 440 and the Mar Thoma entry: a Malayalam church monthly from before the division of 1912. | filled | `malankara-sabha-tharaka_v6-no12-mal_1910.txt` | pd-us-by-date: printed 1910; the year in the imprint on the cover, read on the page image | 10,675 | mal | Public Domain |
+| Wanted Sources (2026-11-12), era 10 row 440 and the Malankara entry: a Malayalam church monthly of the 1920s. | filled | `catholic-sabha_v2-nos5-6-mal_1922.txt` | pd-us-by-date: printed 1922; the year printed on the calendar leaf after the cover, read on the page image ("1922" and the Malayalam-era year "1098") | 14,239 | mal | Public Domain |
+| Wanted Sources (2026-11-12), era 10 rows 371 (Sergei Bulgakov) and 372 (Georges Florovsky): their own articles in the Paris school's journal; the debate on Metropolitan Sergius (row 377). | filled | `put_n01-rus_1925.txt` | pd-us-by-date: printed 1925; the masthead date | 79,630 | rus | Public Domain |
+| Wanted Sources (2026-11-12), era 10 rows 371 (Sergei Bulgakov) and 372 (Georges Florovsky): their own articles in the Paris school's journal; the debate on Metropolitan Sergius (row 377). | filled | `put_n02-rus_1926.txt` | pd-us-by-date: printed 1926; the masthead date ("№ 2. Январь 192[6]": the OCR garbles the last digit; number 1 is dated September 1925 and number 3 is dated 1926) | 64,394 | rus | Public Domain |
+| Wanted Sources (2026-11-12), era 10 rows 371 (Sergei Bulgakov) and 372 (Georges Florovsky): their own articles in the Paris school's journal; the debate on Metropolitan Sergius (row 377). | filled | `put_n03-rus_1926.txt` | pd-us-by-date: printed 1926; the masthead date | 62,694 | rus | Public Domain |
+| Wanted Sources (2026-11-12), era 10 rows 371 (Sergei Bulgakov) and 372 (Georges Florovsky): their own articles in the Paris school's journal; the debate on Metropolitan Sergius (row 377). | filled | `put_n04-rus_1926.txt` | pd-us-by-date: printed 1926; the masthead date | 87,349 | rus | Public Domain |
+| Wanted Sources (2026-11-12), era 10 rows 371 (Sergei Bulgakov) and 372 (Georges Florovsky): their own articles in the Paris school's journal; the debate on Metropolitan Sergius (row 377). | filled | `put_n05-rus_1926.txt` | pd-us-by-date: printed 1926; the masthead date | 49,136 | rus | Public Domain |
+| Wanted Sources (2026-11-12), era 10 rows 371 (Sergei Bulgakov) and 372 (Georges Florovsky): their own articles in the Paris school's journal; the debate on Metropolitan Sergius (row 377). | filled | `put_n06-rus_1927.txt` | pd-us-by-date: printed 1927; the masthead date | 58,452 | rus | Public Domain |
+| Wanted Sources (2026-11-12), era 10 rows 371 (Sergei Bulgakov) and 372 (Georges Florovsky): their own articles in the Paris school's journal; the debate on Metropolitan Sergius (row 377). | filled | `put_n07-rus_1927.txt` | pd-us-by-date: printed 1927; the masthead date | 58,544 | rus | Public Domain |
+| Wanted Sources (2026-11-12), era 10 rows 371 (Sergei Bulgakov) and 372 (Georges Florovsky): their own articles in the Paris school's journal; the debate on Metropolitan Sergius (row 377). | filled | `put_n08-rus_1927.txt` | pd-us-by-date: printed 1927; the masthead date | 75,488 | rus | Public Domain |
+| Wanted Sources (2026-11-12), era 10 rows 371 (Sergei Bulgakov) and 372 (Georges Florovsky): their own articles in the Paris school's journal; the debate on Metropolitan Sergius (row 377). | filled | `put_n09-rus_1928.txt` | pd-us-by-date: printed 1928; the masthead date | 43,565 | rus | Public Domain |
+| Wanted Sources (2026-11-12), era 10 rows 371 (Sergei Bulgakov) and 372 (Georges Florovsky): their own articles in the Paris school's journal; the debate on Metropolitan Sergius (row 377). | filled | `put_n10-rus_1928.txt` | pd-us-by-date: printed 1928; the masthead date | 34,672 | rus | Public Domain |
+| Wanted Sources (2026-11-12), era 10 rows 371 (Sergei Bulgakov) and 372 (Georges Florovsky): their own articles in the Paris school's journal; the debate on Metropolitan Sergius (row 377). | filled | `put_n11-rus_1928.txt` | pd-us-by-date: printed 1928; the masthead date | 37,011 | rus | Public Domain |
+| Wanted Sources (2026-11-12), era 10 rows 371 (Sergei Bulgakov) and 372 (Georges Florovsky): their own articles in the Paris school's journal; the debate on Metropolitan Sergius (row 377). | filled | `put_n12-rus_1928.txt` | pd-us-by-date: printed 1928; the masthead date | 34,731 | rus | Public Domain |
+| Wanted Sources (2026-11-12), era 10 rows 371 (Sergei Bulgakov) and 372 (Georges Florovsky): their own articles in the Paris school's journal; the debate on Metropolitan Sergius (row 377). | filled | `put_n13-rus_1928.txt` | pd-us-by-date: printed 1928; the masthead date | 30,408 | rus | Public Domain |
+| Wanted Sources (2026-11-12), era 10 rows 371 (Sergei Bulgakov) and 372 (Georges Florovsky): their own articles in the Paris school's journal; the debate on Metropolitan Sergius (row 377). | filled | `put_n14-rus_1928.txt` | pd-us-by-date: printed 1928; the masthead date ("№ 14. Декабрь 1928") | 32,732 | rus | Public Domain |
+| Wanted Sources (2026-11-12), era 10 rows 371 (Sergei Bulgakov) and 372 (Georges Florovsky): their own articles in the Paris school's journal; the debate on Metropolitan Sergius (row 377). | filled | `put_n15-rus_1929.txt` | pd-us-by-date: printed 1929; the masthead date | 37,120 | rus | Public Domain |
+| Wanted Sources (2026-11-12), era 10 rows 371 (Sergei Bulgakov) and 372 (Georges Florovsky): their own articles in the Paris school's journal; the debate on Metropolitan Sergius (row 377). | filled | `put_n16-rus_1929.txt` | pd-us-by-date: printed 1929; the masthead date | 28,295 | rus | Public Domain |
+| Wanted Sources (2026-11-12), era 10 rows 371 (Sergei Bulgakov) and 372 (Georges Florovsky): their own articles in the Paris school's journal; the debate on Metropolitan Sergius (row 377). | filled | `put_n17-rus_1929.txt` | pd-us-by-date: printed 1929; the OCR misreads the masthead year as "1939"; numbers 16 and 18 are both dated 1929, and a piece in this number is dated "23. III. 1929" | 30,931 | rus | Public Domain |
+| Wanted Sources (2026-11-12), era 10 rows 371 (Sergei Bulgakov) and 372 (Georges Florovsky): their own articles in the Paris school's journal; the debate on Metropolitan Sergius (row 377). | filled | `put_n18-rus_1929.txt` | pd-us-by-date: printed 1929; the masthead date | 34,339 | rus | Public Domain |
+| Wanted Sources (2026-11-12), era 10 rows 371 (Sergei Bulgakov) and 372 (Georges Florovsky): their own articles in the Paris school's journal; the debate on Metropolitan Sergius (row 377). | filled | `put_n19-rus_1929.txt` | pd-us-by-date: printed 1929; the masthead date | 34,490 | rus | Public Domain |
+| Wanted Sources (2026-11-12), era 10 rows 371 (Sergei Bulgakov) and 372 (Georges Florovsky): their own articles in the Paris school's journal; the debate on Metropolitan Sergius (row 377). | filled | `put_n20-rus_1930.txt` | pd-us-by-date: printed 1930; the masthead date | 34,023 | rus | Public Domain |
+| Wanted Sources (2026-11-12), era 10 rows 371 (Sergei Bulgakov) and 372 (Georges Florovsky): their own articles in the Paris school's journal; the debate on Metropolitan Sergius (row 377). | filled | `put_n21-rus_1930.txt` | pd-us-by-date: printed 1930; the masthead date | 40,253 | rus | Public Domain |
+| Wanted Sources (2026-11-12), era 10 rows 371 (Sergei Bulgakov) and 372 (Georges Florovsky): their own articles in the Paris school's journal; the debate on Metropolitan Sergius (row 377). | filled | `put_n22-rus_1930.txt` | pd-us-by-date: printed 1930; the masthead date | 40,498 | rus | Public Domain |
+| Wanted Sources (2026-11-12), era 10 rows 371 (Sergei Bulgakov) and 372 (Georges Florovsky): their own articles in the Paris school's journal; the debate on Metropolitan Sergius (row 377). | filled | `put_n23-rus_1930.txt` | pd-us-by-date: printed 1930; the masthead date | 36,224 | rus | Public Domain |
+| Wanted Sources (2026-11-12), era 10 rows 371 (Sergei Bulgakov) and 372 (Georges Florovsky): their own articles in the Paris school's journal; the debate on Metropolitan Sergius (row 377). | filled | `put_n24-rus_1930.txt` | pd-us-by-date: printed 1930; the masthead date | 34,112 | rus | Public Domain |
+| Wanted Sources (2026-11-12), era 10 rows 371 (Sergei Bulgakov) and 372 (Georges Florovsky): their own articles in the Paris school's journal; the debate on Metropolitan Sergius (row 377). | filled | `put_n25-rus_1930.txt` | pd-us-by-date: printed 1930; the masthead date | 36,029 | rus | Public Domain |
+| Wanted Sources (2026-11-12), era 10: Orthodox documents of 1920-1930 in a contemporary English print (rows 370, 376, 377, 441 and the Greek Church entry). | filled | `christian-east_v1-no3-september-1920.txt` | pd-us-by-date: printed 1920; the cover date | 28,462 | eng | Public Domain |
+| Wanted Sources (2026-11-12), era 10: Orthodox documents of 1920-1930 in a contemporary English print (rows 370, 376, 377, 441 and the Greek Church entry). | filled | `christian-east_v2-no2-july-1921.txt` | pd-us-by-date: printed 1921; the cover date | 23,829 | eng | Public Domain |
+| Wanted Sources (2026-11-12), era 10: Orthodox documents of 1920-1930 in a contemporary English print (rows 370, 376, 377, 441 and the Greek Church entry). | filled | `christian-east_v3-no2-july-1922.txt` | pd-us-by-date: printed 1922; the cover date | 23,709 | eng | Public Domain |
+| Wanted Sources (2026-11-12), era 10: Orthodox documents of 1920-1930 in a contemporary English print (rows 370, 376, 377, 441 and the Greek Church entry). | filled | `christian-east_v3-no3-october-1922.txt` | pd-us-by-date: printed 1922; the cover date | 25,508 | eng | Public Domain |
+| Wanted Sources (2026-11-12), era 10: Orthodox documents of 1920-1930 in a contemporary English print (rows 370, 376, 377, 441 and the Greek Church entry). | filled | `christian-east_v4-no1-march-1923.txt` | pd-us-by-date: printed 1923; the cover date | 27,274 | eng | Public Domain |
+| Wanted Sources (2026-11-12), era 10: Orthodox documents of 1920-1930 in a contemporary English print (rows 370, 376, 377, 441 and the Greek Church entry). | filled | `christian-east_v4-no2-may-1923.txt` | pd-us-by-date: printed 1923; the cover date | 36,142 | eng | Public Domain |
+| Wanted Sources (2026-11-12), era 10: Orthodox documents of 1920-1930 in a contemporary English print (rows 370, 376, 377, 441 and the Greek Church entry). | filled | `christian-east_v4-no3-august-1923.txt` | pd-us-by-date: printed 1923; the cover date | 28,975 | eng | Public Domain |
+| Wanted Sources (2026-11-12), era 10: Orthodox documents of 1920-1930 in a contemporary English print (rows 370, 376, 377, 441 and the Greek Church entry). | filled | `christian-east_v4-no4-november-1923.txt` | pd-us-by-date: printed 1923; the cover date | 18,970 | eng | Public Domain |
+| Wanted Sources (2026-11-12), era 10: Orthodox documents of 1920-1930 in a contemporary English print (rows 370, 376, 377, 441 and the Greek Church entry). | filled | `christian-east_v8-no4-winter-1927.txt` | pd-us-by-date: printed 1927; the cover date | 22,873 | eng | Public Domain |
+| Wanted Sources (2026-11-12), era 10: Orthodox documents of 1920-1930 in a contemporary English print (rows 370, 376, 377, 441 and the Greek Church entry). | filled | `christian-east_v10-no1-spring-1929.txt` | pd-us-by-date: printed 1929; the cover date | 24,626 | eng | Public Domain |
+| Wanted Sources (2026-11-12), era 10: Orthodox documents of 1920-1930 in a contemporary English print (rows 370, 376, 377, 441 and the Greek Church entry). | filled | `christian-east_v11-no1-spring-1930.txt` | pd-us-by-date: printed 1930; the cover date | 23,275 | eng | Public Domain |
+| Wanted Sources (2026-11-12), era 10: Orthodox documents of 1920-1930 in a contemporary English print (rows 370, 376, 377, 441 and the Greek Church entry). | filled | `christian-east_v11-no2-summer-1930.txt` | pd-us-by-date: printed 1930; the cover date | 22,199 | eng | Public Domain |
+| Wanted Sources (2026-11-12), era 10 row 376: Patriarch Tikhon, his own words in Russian in a print of his lifetime. | filled | `nikolaevskii-sobor_ko-dniu-dvadtsatipiatiletiia-patriarkha-tikhona-rus_1922.txt` | pd-us-by-date: printed 1922; the title-page year | 12,952 | rus | Public Domain |
+| Wanted Sources (2026-11-12), era 10 row 376 and council row 37: Patriarch Tikhon's epistle of January 1918 in Russian, in a print of 1923; the renovationist side. | filled | `vvedensky_tserkov-i-gosudarstvo-rus_1923.txt` | pd-us-by-date: printed 1923; the title-page year, read on the page image | 75,691 | rus | Public Domain |
+| Wanted Sources (2026-11-12), era 10 row 376: Patriarch Tikhon, his epistle of February 1922 in Russian; the New Martyrs entry. | filled | `valentinov_chernaia-kniga-rus_1925.txt` | pd-us-by-date: printed 1925; the title-page year | 94,550 | rus | Public Domain |
+| Era 10, the Balkan Orthodox entry: an Orthodox theologian's own account of his church, printed by 1930 (the rows for Kiril, 445, stay unfilled). | filled | `zankov_eastern-orthodox-church_lowrie1929.txt` | pd-us-by-date: printed 1929; the title-page year, read on the page image; the OCR misreads it as 1939 | 38,678 | eng | Public Domain |
+| Era 10, the Balkan Orthodox entry: an Orthodox theologian's own account of his church in the language he gave it in, printed by 1930. | filled | `zankov_orthodoxe-christentum-des-ostens-deu_1928.txt` | pd-us-by-date: printed 1928; the title-page year | 55,349 | deu | Public Domain |
+| Wanted Sources (2026-11-12), era 10, the Balkan Orthodox entry (row 444, Dimitrije, stays unfilled): a Serbian churchman's own words printed by 1930. | filled | `velimirovic_soul-of-serbia_1916.txt` | pd-us-by-date: printed 1916; the title-page year | 22,969 | eng | Public Domain |
+| Wanted Sources (2026-11-12), era 10, the Balkan Orthodox entry (row 444, Dimitrije, stays unfilled): a Serbian churchman's own words printed by 1930. | filled | `velimirovic_agony-of-the-church_1917.txt` | pd-us-by-date: printed 1917; the title-page year | 19,756 | eng | Public Domain |
+| Wanted Sources (2026-11-12), era 10, the Balkan Orthodox entry (row 444, Dimitrije, stays unfilled): a Serbian churchman's own words printed by 1930. | filled | `velimirovic_religion-and-nationality-in-serbia_1915.txt` | pd-us-by-date: printed 1915; no year is legible on the title page in the OCR; the date used is the dated prefatory note, "June 15, 1915", with which the library catalog date agrees | 5,415 | eng | Public Domain |
+| Wanted Sources (2026-11-12), era 10, the Balkan Orthodox entry (row 444, Dimitrije, stays unfilled): a Serbian churchman's own words printed by 1930. | filled | `velimirovic_serbia-in-light-and-darkness_1916.txt` | pd-us-by-date: printed 1916; the title-page year, read on the page image | 30,156 | eng | Public Domain |
+| Wanted Sources (2026-11-12), era 10, the Balkan Orthodox entry (row 444, Dimitrije, stays unfilled): a Serbian churchman's own words printed by 1930. | filled | `velimirovic_christianity-and-war_1915.txt` | pd-us-by-date: printed 1915; the year on the printed cover, read on the page image; the pamphlet has no separate title page | 9,208 | eng | Public Domain |
+| Era 10, the Greek Church and the Ecumenical Patriarchate entry: the Patriarchate's own print in Greek, 1920 (the encyclical of 1920 in Greek was not found). | filled | `ecumenical-patriarchate_mavri-vivlos-ell_1920.txt` | pd-us-by-date: printed 1920; the title-page year, read on the page image | 37,978 | ell | Public Domain |
+| Wanted Sources (2026-11-12), era 10: the encyclical of the Ecumenical Patriarchate of January 1920 (not found by batch 1), in the English of 1924. | filled | `bell_documents-on-christian-unity-1920-24_1924.txt` | pd-us-by-date: printed 1924; the title-page year | 119,836 | eng | Public Domain |
+| Wanted Sources (2026-11-12), era 10 row 416: Alfred Loisy, L'Évangile et l'Église in French (the first edition of 1902 is still wanted). | filled | `loisy_evangile-et-l-eglise-3e-ed-fra_1904.txt` | pd-us-by-date: printed 1904; the title-page year, read on the page image | 58,500 | fra | Public Domain |
+
+### Era 10, batch 2: wanted rows not filled
+
+| want (row) | result | where it stands |
+|---|---|---|
+| William Wadé Harris, his own teaching (356); Kimbangu, the trial record and his church's prints (358); Kivebulaya's diary (398) | outside witnesses only | Held now: missionary and colonial accounts of 1908-1928 (see the table). Not found: Casely Hayford's William Waddy Harris (1915), Lloyd's Apolo of the Pygmy Forest (1923), Walker's Story of the Ivory Coast (1926), any Belgian print on the trial of 1921. On the hand-fetch list. |
+| Orimolade (357); Babalola (380); Lekganyane (381); Spartas (392); the other African-Initiated Churches and Revival people | not found | Nothing printed by 1930 on archive.org. The hymn book of the National Church of Nigeria and the Cameroons (`hymnsprayersforu00abaniala`) prints no year and was not taken. The Dictionary of African Christian Biography stays cite and link (R3). |
+| T. W. Rātana, Te Whetu Marama (350) | an outside witness only; refused host | Te Karere for 1930 is held (another church's paper). Te Whetu Marama is reported to be on Papers Past, which was not opened: on the hand-fetch list. Two Māori tracts by Wiremu Takana (`hekupuwhakamaram00gard`, `hekupuwhaiwhakaa00kara`) print no year and were not taken. |
+| Māori and Pacific church prints of 1896-1918 (batch 1: located, unchecked) | held for Mark | The Auckland Sunday School Union's Māori hymnal of 1916 (`hehimenemotekara00unse`), a Māori tract of 1897 and a Tongan hymnal of 1912 carry a host field claiming copyright for Intellectual Reserve, Inc. Not taken. Latter-day Saint hymnals in Tahitian (1921) and Hawaiian (1907) are free of that field but serve no wanted row. |
+| The Catholic Worker, more scans of the printed paper (364) | not found | No other issue of the New York paper is on archive.org; the three "Catholic Worker" pamphlets there (two of them of 1947) are the Melbourne paper's. |
+| The Moscow council of 1917-18, its Acts and Definitions (council row 37; 376) | located, reprints only | Every scan on archive.org is a reprint of 1994 or later. The print of 1918 is on the hand-fetch list (rusneb.ru, the Russian State Library). Tikhon's epistle of January 1918 is now held in Russian inside Vvedensky (1923). |
+| Metropolitan Sergius, the declaration of 1927 in Russian (377); Joseph of Petrograd (442) | part filled | The letter of 16/29 July 1927 is now held in the English of The Christian East (winter 1927), printed "in full"; Путь numbers 9, 10 and 11 argue about it from both sides. No Russian print of the text and no full rejection of it was found. |
+| Sergei Bulgakov, Svet nevechernii; the Sophia file (371) | part filled | His articles in Путь to 1930 are held. Свет невечерний and the books of 1927-1929 were not found; the controversy of 1935-37 is after 1930. |
+| Vladimir Lossky (373) | not found | No piece of his is in Путь to 1930; every "Лосскій" there is N. O. Lossky. |
+| Kyrion II (370); Ambrosi Khelaia (441) | part filled | The Christian East prints Ambrose's Genoa memorandum in English (May 1923; the scan lacks its last page) and outside articles on Kyrion II. Nothing of Kyrion's own was found. |
+| The encyclical of January 1920 in Greek; the Pan-Orthodox acts of 1923 in Greek | not found | Both are held in English (Bell 1924; The Christian East, November 1923). Ἐκκλησιαστικὴ Ἀλήθεια was not found. |
+| Cristea (443); Dimitrije (444); Kiril (445); Trifa (374) | not found | Serbian, Bulgarian and Romanian church journals are not on archive.org. Velimirović's English books of 1915-1917 and Zankov's book are held. |
+| Grigoris Balakian, Armenian Golgotha, 1922 (375); Khoren I (447) | not found; located | Not on archive.org. A record at the Deutsche Digitale Bibliothek (a Bavarian State Library copy) is on the hand-fetch list. The journal Էջմիածին for 1918-19 (`1918-12`) prints no Gregorian date and has unusable OCR. |
+| Habib Girgis (369); Kyrillos VI (437) | not found | `AAlexandrina-102649` is a printing of 1970 (its preface is dated April 1970). No other dated book of his and no issue of al-Karma was found. |
+| Surma Khanim, Assyrian Church Customs, 1920 (448) | outside witnesses only | Austin (1920) and Wigram (1920) are held. Her own book was not found; Naayem's book does not name her. Yohannan's Death of a Nation (1917) is on archive.org with a third of its text missing and was not taken. |
+| Abdul Masih II and Baselios Paulose I, 1912 (440) | part filled | Two Malayalam monthlies (1910, 1922) and Panjikaran (1912) are held; none carries the consecration of 1912. Three issues of the Malankara Edavaka Pathrika (volume 20) and one of the Suriyani Sabha print only Malayalam-era numerals and were not taken. Mizo and Khasi church prints of 1912-1930 were located and not opened. |
+| Alfred Loisy, L'Évangile et l'Église, the first edition of 1902 (416) | held for Mark | The third edition (1904) is now held. A search result reports the first on Gallica, which refused a plain fetch: on the hand-fetch list, to be confirmed. |
+| The Apostolic Faith; Fosdick in The Christian Work; Larkin; Bartleman; Penn-Lewis; Blair; Riley; Laws; Bonhoeffer; Barth's Römerbrief; Haywood, Ewart, McAlister; Seymour 1915 | hand-fetch list | `Hand_Fetch_List.md` gives the record and edition for each, or says that none was found. |
+
 ## Later — queued
 
 - ME-21 by a browser; Lang 1834 and the Peking mission after 1808; the

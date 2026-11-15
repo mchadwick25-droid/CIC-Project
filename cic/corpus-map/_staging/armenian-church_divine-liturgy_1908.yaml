@@ -1,0 +1,12 @@
+source_file: armenian-church_divine-liturgy_1908.txt
+assignments:
+- row_id: armenian-church_divine-liturgy_1908--the-divine-liturgy-of-the-holy-apostolic-church-of-armenia
+  work: 'The Divine Liturgy of the Holy Apostolic Church of Armenia (English, 1908)'
+  author: armenian-church
+  locus: 'lines 563-4531'
+  atlas_ids:
+  - armenian-christianity-zartonk
+  - the-armenian-church-after-the-genocide-medz-yegh
+  role: tradition
+  confidence: assigned
+  note: 'The church''s own liturgy in an English of 1908 by two unnamed Armenian priests; the print falls between the two entries'' windows.'

@@ -1,0 +1,11 @@
+source_file: wanger_imfundiso-yebandhla-elikatolike-zul_1912.txt
+assignments:
+- row_id: wanger_imfundiso-yebandhla-elikatolike-zul_1912--wanger-imfundiso-yebandhla-elikatolike-zulu-catechism-1912
+  work: 'Wanger, Imfundiso yeBandhla eliKatolike (Zulu catechism, 1912)'
+  author: wanger
+  locus: 'whole'
+  atlas_ids:
+  - the-catholic-church-in-africa-twentieth-century
+  role: tradition
+  confidence: assigned
+  note: 'A priest''s catechism in Zulu, printed at the Mariannhill mission press. A bishop''s leaf of 1915 reserves its use to missionaries and priests.'

@@ -62,6 +62,32 @@ works:
   confidence: assigned
   note: His own book of 1916.
   source_file: oldham_world-and-the-gospel_1916.txt
+- row_id: student-volunteer-movement_report-first-international-convention-cleveland_1891--report-of-the-first-international-convention-of-the-student
+  work: Report of the first International Convention of the Student Volunteer Movement for
+    Foreign Missions, held at
+  author: student-volunteer-movement
+  locus: Robert P. Wilder's address on disseminating and accumulating information at lines
+    5442-5587; Robert P. Wilder's address 'The Perils and Privileges of the Student Volunteer
+    Movement' at lines 8043-8722; the rest not mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1891
+    end: 1891
+    source: 'the year printed in the title on the title page (lines 33-34: ''February 26,
+      27, 28, and March 1, 1891''); the title page gives a printer and no separate imprint
+      year, and the archive.org record''s date is 1891'
+    formation_confidence: Documented
+  edition_date:
+    year: 1891
+    source: 'the year printed in the title on the title page (lines 33-34: ''February 26,
+      27, 28, and March 1, 1891''); the title page gives a printer and no separate imprint
+      year, and the archive.org record''s date is 1891'
+    formation_confidence: Documented
+  note: 'Era 9 row 236, Robert P. Wilder: the report of the movement''s first convention,
+    with his addresses.'
+  source_file: student-volunteer-movement_report-first-international-convention-cleveland_1891.txt
 - row_id: world-missionary-conference_edinburgh-1910-v8-report-of-commission-8_1910--cheng-ching-yi-speech-at-edinburgh-1910-report-of-commission
   work: Cheng Ching-yi, speech at Edinburgh 1910 (Report of Commission VIII)
   author: world-missionary-conference

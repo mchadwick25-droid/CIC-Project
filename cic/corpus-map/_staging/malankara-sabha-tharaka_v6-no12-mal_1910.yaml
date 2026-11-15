@@ -1,0 +1,11 @@
+source_file: malankara-sabha-tharaka_v6-no12-mal_1910.txt
+assignments:
+- row_id: malankara-sabha-tharaka_v6-no12-mal_1910--malankara-sabha-tharaka-volume-6-number-12-1910
+  work: 'Malankara Sabha Tharaka, volume 6, number 12 (1910)'
+  author: malankara-sabha-tharaka
+  locus: 'whole'
+  atlas_ids:
+  - northeast-india-and-mar-thoma-twentieth-century
+  role: tradition
+  confidence: assigned
+  note: 'A church monthly in Malayalam. The host record names the Mar Thoma Church; the cover does not name a church. Poor OCR.'

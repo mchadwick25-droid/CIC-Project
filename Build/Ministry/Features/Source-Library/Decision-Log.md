@@ -760,3 +760,103 @@ Era 9, batch 2, in a fresh session: the person rows not marked major (226-330), 
 council records, the held eras 8-9 items, and the texts of this batch still owed a date check.
 Era 10, batch 2: a second pass by region for the rows marked not found (Africa, Oceania, the Orthodox churches), more
 original scans of the Catholic Worker paper, and the council leads not yet searched.
+
+## 2026-11-15 — Era 10, batch 2: Africa, Oceania, the Orthodox and Oriental churches
+
+**Done.** 71 files (4,273,101 words) for the era 10 rows batch 1 left open, all public domain by their printed dates.
+The files and the rows not filled are in `CFT-Wants.md` ("Era 10 ... batch 2"). The search record, the calls and the
+cautions are in `Build/Ministry/Operations/Audits/2026-11-15_library-era10-b2/Search_Log.md`; the items Mark can fetch
+by hand are in `Hand_Fetch_List.md` beside it.
+
+**Decided during the batch (this thread, under the rulings already recorded; the coordinator or Mark may overrule).**
+
+- **A digitizing library's page-foot stamp is a host addition.** The 25 numbers of Путь carried the line "Библиотека
+  «Руниверс»" at the foot of each page. It was stripped at intake and counted in each header.
+- **A year printed in both eras on a leaf inside an issue counts as a printed year.** One Malayalam monthly was taken
+  on its calendar leaf ("1922" and the Malayalam-era year "1098"). Issues that print only Malayalam-era numerals, not
+  read with certainty, were not taken.
+- **A host record that claims copyright in a scan of an old print is held for Mark,** as batch 1 of era 9 did with the
+  same claimant. Three Māori and Tongan prints of 1897-1916 were not taken.
+- **A second edition dated by its foreword and its catalog record.** Jabavu's The Black Problem is taken under R12
+  on a foreword of December 1920 and a catalog date of 1920, though the author's preface to the second edition is
+  dated January 1921. The header gives all three.
+- **A tradition's own writer after its entry's window, with no later entry.** Placed as tradition on the entry that
+  closes in 1906, with the date in the note (Tucker, the Zulu hymnal, Kyriakos Mikhail, Jabavu, the Arabic history of
+  the Coptic Church). The shelf principle does not name this case; the missing later entries are logged as gaps.
+- **Batch 1's shelf rows at `needs-ruling`.** All twelve are settled by the principle of the shelf rulings above
+  (antecedent, context or tradition, with the doubt in the row's note). The table is in the Search_Log.
+
+**Not done.** No further scan of the New York Catholic Worker exists on archive.org. No first-hand print of William
+Wadé Harris, Kimbangu, Kivebulaya, Rātana, Surma, Balakian, Kyrion II or Habib Girgis was found; the original prints
+of the Moscow council of 1917-18 are on hosts that refuse automated clients.
+
+### Next action
+
+Mark works the hand-fetch list. Batch 3 (American books of 1931-1963 under R7; the remaining people and council
+leads) goes to a fresh session.
+
+## 2026-11-15 — The coverage feed regenerated, and a CI check added
+
+**Decided (Mark, 2026-11-15: "yes fix the coverage file").** `cic-website/data/corpus-coverage.json` is a live
+public feed, so it must match what `cic/engine/corpus_coverage.py` writes from `main`.
+
+**Cause.** The file last matched its generator on 2026-11-09, at the merge of P2-G2 (`b9ed351d7`). It then went
+stale: about 38 merges after that date changed the census (307 entries to 619, through the Church Family Tree data
+releases 30 to 44), the corpus map and the vendored texts, and none regenerated the file. The generator itself has
+not changed since 2026-09-26. Nothing checked the file: `cic/corpus-map/README.md` lists the command, but no CI
+step or Library finish step required it. The Era 6 rulings and the shelf rulings of today each noted the file
+as behind and left it for another pass.
+
+**Done.** The file is regenerated from `main`: 619 entries (all in census order), 289 with coverage, 330 at zero.
+The diff is explained by the inputs. All 307 earlier entries remain. 312 entries are new. 569 work rows are new.
+13 old rows differ, each from a map change: shelf rulings changed a role or confidence (the Mirror of Perfection,
+the Georgian chronicles), and the Pedalion and the two Synaxaristes left the Ottoman Orthodoxy 1453-1650 shelf
+(`d398ed5c8`). Every entry's works carry a rights line read from the vendored file.
+`.github/workflows/ci.yml` gains a step in `library-validators` that regenerates the file and fails on any
+difference. The `library` path filter now also fires on `world-census.json` and `corpus-coverage.json`, since a
+census change alone had been enough to make the file stale.
+
+The enforced commentary check failed on one rights line the feed copies from a vendored header: the Hadewijch 1875
+edition's header named Mark's ruling. On the coordinator's direction the sentence is reworded on its own line
+(no line numbers moved), the generated `cic/texts/README.md` row is regenerated, and no other header carries the
+cue.
+
+**Not done.** The generator is unchanged.
+
+### Next action
+
+A Library batch runs `python cic/engine/corpus_coverage.py` after its last map or text change, and commits the
+result, before its pull request, then runs `tools/check_live_commentary.py --base origin/main --enforce`.
+## Era 9, batch 2b: rows 227-245, 249-262, 267-278, 323 and 327-330 (2026-11-15)
+
+Sixty-one files for 49 person rows of the wanted list, and the date check left on row 223. Record:
+`Build/Ministry/Operations/Audits/2026-11-15_library-era9-b2b/Search_Log.md`, with `R1_review.md` and
+`R1_changes.md` beside it; the rows and the cautions are in `CFT-Wants.md`, "Era 9 (1815-1906), batch 2b".
+
+**Decided here.**
+- Host additions are stripped at intake for the first time: Google's own preamble, from the twelve files that
+  come from Google scans, and nothing else. Each header's Provenance note gives the lines and bytes removed.
+  Because of this, line numbers in this batch's headers are the vendored file's own lines.
+- Every content note and locus was written from the staged text by fresh checkers. Searchers supplied
+  title-page facts and downloads only.
+- An undated later printing is not taken on the first edition's date. Two picks were replaced by dated scans on
+  this ground: the Life of Elder John Smith (the Cincinnati printing of 1870) and Cartwright's Autobiography
+  (Carlton & Porter, 1857).
+- A "First published" line under the imprint, with a dated introduction and the catalogue's date agreeing, is
+  treated like a dated preface (Marchant's Life of Clifford, 1924). The header says so.
+- Christendom Astray prints no year on its title page, and no library catalogue record stands behind the
+  scan (a reader's upload, which gives 1884). It is dated 1883 from its preface (18 December 1883, read on the
+  page image) and from the text's own closing date (7 December 1883). The header states this, and the point is
+  put to the coordinator.
+- OCR that cannot be read is not taken: Lohe's Neuendettelsau history in German (1907).
+- Shelves follow the principle of 15 November. Nothing is left at `needs-ruling`. Dialogues on Prophecy (1828)
+  is `antecedent` on the Catholic Apostolic Church. A church's history by its own officer inside the entry's
+  window (Payne, Rush, Hamilton) is `tradition`.
+
+**Held for Mark.**
+- `collectionofsacr00smit`, Emma Smith's hymnbook of 1835 in a scan with an Intellectual Reserve copyright
+  line. Not taken; the microfilm copy, which carries no such line, was taken in its place.
+
+### Next action
+
+Batch 3: the era 9 outside witnesses, the council records and the held eras 8-9 items.

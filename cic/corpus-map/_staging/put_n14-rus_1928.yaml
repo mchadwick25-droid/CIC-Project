@@ -1,0 +1,11 @@
+source_file: put_n14-rus_1928.txt
+assignments:
+- row_id: put_n14-rus_1928--put-paris-number-14-1928
+  work: 'Put'' (Paris), number 14 (1928)'
+  author: put
+  locus: 'whole'
+  atlas_ids:
+  - emigre-orthodoxy-and-the-paris-school
+  role: tradition
+  confidence: assigned
+  note: 'The émigré thinkers'' own journal, edited by Berdyaev. Signed pieces here by Bulgakov, Florovsky, Berdyaev.'

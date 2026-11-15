@@ -23,3 +23,22 @@ works:
     formation_confidence: Documented
   note: 'Era 9 row 201, Cyril IV: a church history of Egypt before 1931.'
   source_file: butcher_story-of-the-church-of-egypt-v2_1897.txt
+- row_id: manassa-yuhanna_tarikh-al-kanisa-al-qibtiyya-ara_1924--manassa-tarikh-al-kanisa-al-qibtiyya-history-of-the-coptic
+  work: Manassa, Tarikh al-Kanisa al-Qibtiyya (history of the Coptic Church, 1924)
+  author: manassa-yuhanna
+  locus: whole; Cyril IV and Cyril V at lines 22068-24335
+  role: tradition
+  confidence: assigned
+  note: 'A history of the Coptic Church in Arabic, by a writer the host record styles القمص,
+    printed in 1924, after the entry''s window. Poor OCR: a second witness until checked against
+    the page images.'
+  source_file: manassa-yuhanna_tarikh-al-kanisa-al-qibtiyya-ara_1924.txt
+- row_id: mikhail_copts-and-moslems-under-british-control_1911--kyriakos-mikhail-copts-and-moslems-under-british-control
+  work: Kyriakos Mikhail, Copts and Moslems under British Control (1911)
+  author: mikhail
+  locus: whole; the Congress of Assiout and the Patriarch's encyclical at lines 1156-1475
+  role: tradition
+  confidence: assigned
+  note: An advocacy book of 1911 by a representative of the Coptic press, five years after
+    the entry's window closes. No census entry covers the Coptic church between 1906 and 1940.
+  source_file: mikhail_copts-and-moslems-under-british-control_1911.txt

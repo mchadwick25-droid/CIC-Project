@@ -3,21 +3,30 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: northeast-india-and-mar-thoma-twentieth-century
 works:
+- row_id: malankara-sabha-tharaka_v6-no12-mal_1910--malankara-sabha-tharaka-volume-6-number-12-1910
+  work: Malankara Sabha Tharaka, volume 6, number 12 (1910)
+  author: malankara-sabha-tharaka
+  locus: whole
+  role: tradition
+  confidence: assigned
+  note: A church monthly in Malayalam. The host record names the Mar Thoma Church; the cover
+    does not name a church. Poor OCR.
+  source_file: malankara-sabha-tharaka_v6-no12-mal_1910.txt
 - row_id: sundar-singh_reality-and-religion_1924--sundar-singh-reality-and-religion
   work: Sundar Singh, Reality and Religion
   author: sundar-singh
   locus: whole
-  role: tradition
-  confidence: needs-ruling
-  note: His own book. The entry names him; whether his books belong on this shelf is for a
-    ruling.
+  role: context
+  confidence: assigned
+  note: His own book. He was not of this entry's churches; the entry tells of his visit to
+    the Maramon Convention in 1918.
   source_file: sundar-singh_reality-and-religion_1924.txt
 - row_id: sundar-singh_search-after-reality_1925--sundar-singh-the-search-after-reality
   work: Sundar Singh, The Search after Reality
   author: sundar-singh
   locus: whole
-  role: tradition
-  confidence: needs-ruling
-  note: His own book. The entry names him; whether his books belong on this shelf is for a
-    ruling.
+  role: context
+  confidence: assigned
+  note: His own book. He was not of this entry's churches; the entry tells of his visit to
+    the Maramon Convention in 1918.
   source_file: sundar-singh_search-after-reality_1925.txt

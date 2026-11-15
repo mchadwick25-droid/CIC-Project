@@ -1,0 +1,21 @@
+source_file: baxter-w_life-of-elder-walter-scott_1874.txt
+assignments:
+- row_id: baxter-w_life-of-elder-walter-scott_1874--life-of-elder-walter-scott-with-sketches-of-his-fellow
+  work: Life of Elder Walter Scott, with sketches of his fellow-laborers, William Hayden, Adamson Bentley, John
+  author: baxter-w
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - the-stone-campbell-restoration-movement
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1874
+    end: 1874
+    source: 'the printing''s own title page: line 56, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1874
+    source: line 56, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 227, Walter Scott: a Life told by another.'

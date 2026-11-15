@@ -1,0 +1,21 @@
+source_file: emerson_address-before-the-senior-class-in-divinity-college_1838.txt
+assignments:
+- row_id: emerson_address-before-the-senior-class-in-divinity-college_1838--an-address-delivered-before-the-senior-class-in-divinity
+  work: An Address delivered before the Senior Class in Divinity College, Cambridge, Sunday evening, 15 July, 1838
+  author: emerson
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - american-unitarianism-universalism-consolidations
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1838
+    end: 1838
+    source: 'the printing''s own title page: line 37, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1838
+    source: line 37, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 261, Ralph Waldo Emerson: the Address of 1838.'

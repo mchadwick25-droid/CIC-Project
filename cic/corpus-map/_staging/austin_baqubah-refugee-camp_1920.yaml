@@ -1,0 +1,11 @@
+source_file: austin_baqubah-refugee-camp_1920.txt
+assignments:
+- row_id: austin_baqubah-refugee-camp_1920--austin-the-baqubah-refugee-camp-1920
+  work: 'Austin, The Baqubah Refugee Camp (1920)'
+  author: austin
+  locus: 'whole; Surma Khanum at lines 2428-2523'
+  atlas_ids:
+  - the-sayfo-and-the-syriac-diaspora
+  role: context
+  confidence: assigned
+  note: 'A British officer''s account of the refugee camp; an outside witness.'

@@ -27,7 +27,7 @@ works:
   author: niebuhr
   locus: whole
   role: context
-  confidence: needs-ruling
+  confidence: assigned
   note: A critic's voice, written in 1932, after that entry's window closes in 1918.
   source_file: niebuhr_moral-man-and-immoral-society_1936.txt
 - row_id: rauschenbusch_theology-for-the-social-gospel_1917--rauschenbusch-a-theology-for-the-social-gospel
@@ -54,3 +54,21 @@ works:
   confidence: assigned
   note: His own book, in a 1919 printing of the 1912 text.
   source_file: rauschenbusch_christianizing-the-social-order_1919.txt
+- row_id: sheldon_in-his-steps_1897--in-his-steps-what-would-jesus-do
+  work: 'In His Steps: ''What Would Jesus Do?'''
+  author: sheldon
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1897
+    end: 1897
+    source: 'the printing''s own title page: line 72, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1897
+    source: line 72, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 329, Charles M. Sheldon: In His Steps.'
+  source_file: sheldon_in-his-steps_1897.txt

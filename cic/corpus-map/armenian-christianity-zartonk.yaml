@@ -3,6 +3,15 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: armenian-christianity-zartonk
 works:
+- row_id: armenian-church_divine-liturgy_1908--the-divine-liturgy-of-the-holy-apostolic-church-of-armenia
+  work: The Divine Liturgy of the Holy Apostolic Church of Armenia (English, 1908)
+  author: armenian-church
+  locus: lines 563-4531
+  role: tradition
+  confidence: assigned
+  note: The church's own liturgy in an English of 1908 by two unnamed Armenian priests; the
+    print falls between the two entries' windows.
+  source_file: armenian-church_divine-liturgy_1908.txt
 - row_id: chamich_history-of-armenia-v2_avdall1827--history-of-armenia-part-vii-the-expatriated-state-4
   work: 'History of Armenia (Chamich; Avdall''s English translation, 1827): Avdall''s continuation
     1780-1827'
@@ -43,6 +52,15 @@ works:
     translation is from the 1870s and the explanatory paragraphs carry San Lazzaro's Catholic
     reading.
   source_file: issaverdens_armenian-ritual-parts1-4_1876.txt
+- row_id: khrimian_amboghjakan-yerker-hye_1929--khrimian-hayrik-amboghjakan-erker-collected-works-1929
+  work: Khrimian Hayrik, Amboghjakan erker (collected works, 1929)
+  author: khrimian
+  locus: whole
+  role: tradition
+  confidence: assigned
+  note: His own works in Armenian, in an edition of 1929; the host record gives his years
+    as 1820-1907. Poor OCR in the body.
+  source_file: khrimian_amboghjakan-yerker-hye_1929.txt
 - row_id: nurikhan_servo-di-dio-abate-mechitar-ita_1914--il-servo-di-dio-abate-mechitar-as-a-work-of-the-twentieth
   work: Il Servo di Dio Abate Mechitar, as a work of the twentieth-century congregation
   author: nurikhan

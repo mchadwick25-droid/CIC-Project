@@ -1,0 +1,11 @@
+source_file: velimirovic_christianity-and-war_1915.txt
+assignments:
+- row_id: velimirovic_christianity-and-war_1915--christianity-and-war-letters-of-a-serbian-to-his-english
+  work: 'Christianity and War: Letters of a Serbian to his English Friend (1915)'
+  author: velimirovic
+  locus: 'whole'
+  atlas_ids:
+  - orthodoxy-in-the-communist-balkans
+  role: antecedent
+  confidence: assigned
+  note: 'The print names no author; the library record gives Velimirović. Printed in 1915, before the entry''s window opens in 1920.'

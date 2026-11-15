@@ -1,0 +1,11 @@
+source_file: panjikaran_syrian-church-in-malabar_1912.txt
+assignments:
+- row_id: panjikaran_syrian-church-in-malabar_1912--panjikaran-the-syrian-church-in-malabar-1912
+  work: 'Panjikaran, The Syrian Church in Malabar (1912)'
+  author: panjikaran
+  locus: 'whole'
+  atlas_ids:
+  - the-malankara-churches-orthodox-and-jacobite
+  role: context
+  confidence: assigned
+  note: 'A book arguing the Catholic case against the Jacobite writers of its day, printed at a Jesuit press; it stops at 1599.'

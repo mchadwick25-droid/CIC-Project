@@ -1,0 +1,21 @@
+source_file: colenso_pentateuch-and-book-of-joshua-pt1_1862.txt
+assignments:
+- row_id: colenso_pentateuch-and-book-of-joshua-pt1_1862--the-pentateuch-and-book-of-joshua-critically-examined-the
+  work: The Pentateuch and Book of Joshua Critically Examined (the title page prints no part number; the text is
+  author: colenso
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - victorian-church-of-england
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1862
+    end: 1862
+    source: 'the printing''s own title page: line 111, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1862
+    source: line 111, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 274, John William Colenso: The Pentateuch and Book of Joshua, part I.'
