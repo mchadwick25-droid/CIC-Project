@@ -3,6 +3,26 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-missionary-movement-s-native-churches-seramp
 works:
+- row_id: bulu_joel-bulu-the-autobiography-of-a-native-minister-in-the-south-seas_2nd-ed1884--joel-bulu-the-autobiography-of-a-native-minister-in-the
+  work: 'JOEL BULU: THE AUTOBIOGRAPHY OF A NATIVE MINISTER IN THE SOUTH SEAS. Translated by
+    a Missionary. SECOND'
+  author: bulu
+  locus: letter to the Rev. W. Moore signed by Joel Bulu and others at lines 3526-3702; extracts
+    from Miss Gordon Cumming on his last sickness at lines 3737-3847; the rest not mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1884
+    end: 1884
+    source: 'the printing''s own title page: line 120 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1884
+    source: line 120 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 313, Joeli Bulu: his autobiography, in translation.'
+  source_file: bulu_joel-bulu-the-autobiography-of-a-native-minister-in-the-south-seas_2nd-ed1884.txt
 - row_id: crowther_journal-of-an-expedition-up-the-niger-and-tshadda_1855--journal-of-an-expedition-up-the-niger-and-tshadda-rivers
   work: Journal of an expedition up the Niger and Tshadda rivers, undertaken by Macgregor
     Laird, Esq., in connection
@@ -23,6 +43,26 @@ works:
     formation_confidence: Documented
   note: 'Era 9 row 203, Samuel Ajayi Crowther: his journal of 1854.'
   source_file: crowther_journal-of-an-expedition-up-the-niger-and-tshadda_1855.txt
+- row_id: gill_gems-from-the-coral-islands-western-polynesia_1855--gems-from-the-coral-islands-western-polynesia-comprising-the
+  work: 'GEMS FROM THE CORAL ISLANDS. Western Polynesia: comprising the New Hebrides Group,
+    the Loyalty Group, New'
+  author: gill
+  locus: Taunga's report of a petty chief who burnt his gods at lines 7589-7606; Taunga's
+    account of the attempt to kill the teachers at lines 7653-7683; the rest not mapped
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1855
+    end: 1855
+    source: 'the printing''s own title page: line 45 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1855
+    source: line 45 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 312, Ta''unga: a missionary''s account that quotes his reports.'
+  source_file: gill_gems-from-the-coral-islands-western-polynesia_1855.txt
 - row_id: korean-repository_v3-1896_seoul1896--the-korean-repository-vol-iii-seoul-1896
   work: The Korean Repository, vol. III (Seoul 1896)
   author: korean-repository
@@ -33,6 +73,46 @@ works:
     Protestant mission. Its own voice. The entry now carries the Korea line (AP15, data release
     34), inside its window.
   source_file: korean-repository_v3-1896_seoul1896.txt
+- row_id: milne_retrospect-of-the-first-ten-years-of-the-protestant-mission-to-china_1820--a-retrospect-of-the-first-ten-years-of-the-protestant
+  work: A Retrospect of the First Ten Years of the Protestant Mission to China, (now, in connection
+    with the Malay,
+  author: milne
+  locus: the conversion and baptism of Leang-kung-fah, with the journal extract of Nov. 3,
+    at lines 8198-8347; the rest not mapped
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1820
+    end: 1820
+    source: 'the printing''s own title page: line 63 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1820
+    source: line 63 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 311, Liang Fa: the missionary''s account of a baptism in 1816.'
+  source_file: milne_retrospect-of-the-first-ten-years-of-the-protestant-mission-to-china_1820.txt
+- row_id: morrison_memoirs-of-the-life-and-labours-of-robert-morrison-v2_1839--memoirs-of-the-life-and-labours-of-robert-morrison-d-d-f-r-s
+  work: Memoirs of the Life and Labours of Robert Morrison, D.D., F.R.S., M.R.A.S., Member
+    of the Society Asiatique
+  author: morrison
+  locus: Morrison's 1826 account of Leang-afa and his conversation at lines 15610-15680; the
+    rest not mapped
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1839
+    end: 1839
+    source: 'the printing''s own title page: line 75 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1839
+    source: line 75 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 311, Liang Fa: Morrison''s Memoirs, vol. 2.'
+  source_file: morrison_memoirs-of-the-life-and-labours-of-robert-morrison-v2_1839.txt
 - row_id: page_black-bishop-samuel-adjai-crowther_1908--the-black-bishop-samuel-adjai-crowther-by-jesse-page-f-r-g-s
   work: 'The Black Bishop: Samuel Adjai Crowther. By Jesse Page, F.R.G.S. With preface by
     Eugene Stock, D.C.L'
@@ -40,7 +120,7 @@ works:
   locus: Preface by Eugene Stock at OCR lines 54-136; Author's Foreword at OCR lines 139-222;
     add 12 to OCR line numbers; the rest not mapped
   role: context
-  confidence: needs-ruling
+  confidence: assigned
   language: eng
   date:
     start: 1908
@@ -51,7 +131,8 @@ works:
     year: 1908
     source: OCR line 21, on the title page
     formation_confidence: Documented
-  note: 'Era 9 row 203, Samuel Ajayi Crowther: a Life.'
+  note: 'Era 9 row 203, Samuel Ajayi Crowther: a Life. A Life by another hand, printed in
+    1908, two years after the entry''s window closes.'
   source_file: page_black-bishop-samuel-adjai-crowther_1908.txt
 - row_id: schon-crowther_journals-of-the-niger-expedition-of-1841_1842--journals-of-the-rev-james-frederick-schon-and-mr-samuel
   work: Journals of the Rev. James Frederick Schon and Mr. Samuel Crowther, who, with the
@@ -79,7 +160,7 @@ works:
   author: taylor-howard
   locus: the whole volume; not mapped
   role: context
-  confidence: needs-ruling
+  confidence: assigned
   language: eng
   date:
     start: 1912
@@ -90,7 +171,8 @@ works:
     year: 1912
     source: OCR line 60, on the title page
     formation_confidence: Documented
-  note: 'Era 9 row 204, J. Hudson Taylor: a Life (the early years).'
+  note: 'Era 9 row 204, J. Hudson Taylor: a Life (the early years). A Life by another hand,
+    printed in 1912, after the entry''s window closes.'
   source_file: taylor-howard_hudson-taylor-in-early-years_1912.txt
 - row_id: taylor-howard_one-of-chinas-scholars-pastor-hsi_1909--one-of-china-s-scholars-the-early-life-and-conversion-of
   work: 'One of China''s Scholars: the early life and conversion of Pastor Hsi, by Mrs. Howard
@@ -98,7 +180,7 @@ works:
   author: taylor-howard
   locus: the whole volume; not mapped
   role: context
-  confidence: needs-ruling
+  confidence: assigned
   language: eng
   date:
     start: 1900
@@ -112,5 +194,26 @@ works:
     source: OCR line 105, in the printing history on the back of the title page ('Reprinted
       November 1909'); the title page itself prints no year
     formation_confidence: Documented
-  note: 'Era 9 row 205, Xi Shengmo (Pastor Hsi): a Life (the early life).'
+  note: 'Era 9 row 205, Xi Shengmo (Pastor Hsi): a Life (the early life). A Life by another
+    hand, in a printing of 1909, after the entry''s window closes.'
   source_file: taylor-howard_one-of-chinas-scholars-pastor-hsi_1909.txt
+- row_id: wylie_memorials-of-protestant-missionaries-to-the-chinese_1867--memorials-of-protestant-missionaries-to-the-chinese-giving-a
+  work: 'MEMORIALS OF PROTESTANT MISSIONARIES TO THE CHINESE: giving a list of their publications,
+    and obituary'
+  author: wylie
+  locus: notice of Leang Kung-fa (A-fa) with the list of his seven publications at lines 1544-1788;
+    the rest not mapped
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1867
+    end: 1867
+    source: 'the printing''s own title page: line 59 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1867
+    source: line 59 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 311, Liang Fa: a list of his works.'
+  source_file: wylie_memorials-of-protestant-missionaries-to-the-chinese_1867.txt

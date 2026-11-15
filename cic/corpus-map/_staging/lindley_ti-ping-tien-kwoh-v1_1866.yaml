@@ -7,7 +7,7 @@ assignments:
   atlas_ids:
   - taiping-heavenly-kingdom
   role: context
-  confidence: needs-ruling
+  confidence: assigned
   language: eng
   date:
     start: 1866
@@ -18,4 +18,5 @@ assignments:
     year: 1866
     source: read on the scan's page image, leaf n8; the OCR does not give it cleanly
     formation_confidence: Documented
-  note: 'Era 9 row 185, Hong Xiuquan: an account that quotes the record of his visions.'
+  note: 'Era 9 row 185, Hong Xiuquan: an account that quotes the record of his visions. A witness by another hand,
+    printed in 1866, two years after the entry''s window closes.'

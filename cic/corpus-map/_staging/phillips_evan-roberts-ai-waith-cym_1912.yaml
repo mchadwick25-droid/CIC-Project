@@ -8,7 +8,7 @@ assignments:
   atlas_ids:
   - the-1904-07-revival-family-wales-mukti-india-pyo
   role: context
-  confidence: needs-ruling
+  confidence: assigned
   language: cym
   date:
     start: 1912
@@ -19,4 +19,5 @@ assignments:
     year: 1912
     source: OCR line 284, under the printer's line, which reads 'I 9 I 2 .'
     formation_confidence: Documented
-  note: 'Era 9 row 214, Evan Roberts: a Life, in Welsh.'
+  note: 'Era 9 row 214, Evan Roberts: a Life, in Welsh. A Life by another hand, printed in 1912, two years after
+    the entry''s window closes.'

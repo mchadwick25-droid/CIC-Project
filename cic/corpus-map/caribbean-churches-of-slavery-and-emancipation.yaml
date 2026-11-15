@@ -3,6 +3,27 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: caribbean-churches-of-slavery-and-emancipation
 works:
+- row_id: bleby_death-struggles-of-slavery_3rd-ed1868--death-struggles-of-slavery-a-narrative-of-facts-and
+  work: 'Death Struggles of Slavery: a narrative of facts and incidents, which occurred in
+    a British colony, during'
+  author: bleby
+  locus: Edward Hylton's account of Sam Sharpe's meeting and the oath at lines 5515-5609;
+    Sharpe's execution and the author's last conversation with him at lines 5826-5894; the
+    rest not mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1868
+    end: 1868
+    source: 'the printing''s own title page: line 40 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1868
+    source: line 40 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 rows 246 and 248, Samuel Sharpe and Henry Bleby: Bleby''s narrative.'
+  source_file: bleby_death-struggles-of-slavery_3rd-ed1868.txt
 - row_id: hinton_memoir-of-william-knibb_2nd-ed1849--memoir-of-william-knibb-by-john-howard-hinton-m-a-second
   work: Memoir of William Knibb, by John Howard Hinton, M.A. Second edition
   author: hinton
@@ -21,6 +42,25 @@ works:
     formation_confidence: Documented
   note: 'Era 9 row 171, William Knibb: a Life.'
   source_file: hinton_memoir-of-william-knibb_2nd-ed1849.txt
+- row_id: london-missionary-society_report-of-the-proceedings-against-the-late-rev-j-smith-of-demerara_1824--the-london-missionary-society-s-report-of-the-proceedings
+  work: THE London Missionary Society's REPORT OF THE PROCEEDINGS AGAINST THE LATE Rev. J.
+    SMITH, of Demerara,
+  author: london-missionary-society
+  locus: the whole volume; not mapped
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1824
+    end: 1824
+    source: 'the printing''s own title page: line 75 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1824
+    source: line 75 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 247, John Smith of Demerara: the trial record.'
+  source_file: london-missionary-society_report-of-the-proceedings-against-the-late-rev-j-smith-of-demerara_1824.txt
 - row_id: phillippo_jamaica-its-past-and-present-state_1843--jamaica-its-past-and-present-state-by-james-m-phillippo
   work: 'Jamaica: its past and present state, by James M. Phillippo, twenty years a Baptist
     missionary in that island.'
@@ -40,3 +80,22 @@ works:
     formation_confidence: Documented
   note: 'Era 9 row 171, William Knibb: a fellow missionary''s account of Jamaica.'
   source_file: phillippo_jamaica-its-past-and-present-state_1843.txt
+- row_id: wallbridge_demerara-martyr-memoirs-of-the-rev-john-smith_1848--the-demerara-martyr-memoirs-of-the-rev-john-smith-missionary
+  work: The Demerara Martyr. Memoirs of the Rev. John Smith, Missionary to Demerara; by Edwin
+    Angel Wallbridge, with
+  author: wallbridge
+  locus: the whole volume; not mapped
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1848
+    end: 1848
+    source: 'the printing''s own title page: line 334 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1848
+    source: line 334 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 247, John Smith of Demerara: a Life.'
+  source_file: wallbridge_demerara-martyr-memoirs-of-the-rev-john-smith_1848.txt

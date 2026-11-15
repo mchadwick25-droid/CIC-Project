@@ -3,6 +3,30 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: nineteenth-century-latin-american-catholicism
 works:
+- row_id: berthe_garcia-moreno-president-of-ecuador_herbert1889--garcia-moreno-president-of-ecuador-1821-1875-from-the-french
+  work: GARCIA MORENO, PRESIDENT OF ECUADOR, 1821-1875. From the French of the Rev. P. A.
+    Berthe, of the Congregation
+  author: berthe
+  locus: the consecration of Ecuador to the Sacred Heart in 1873, with the decree of Congress,
+    at lines 10675-10714; the rest not mapped
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1889
+    end: 1889
+    source: 'the printing''s own title page: line 81 of this file, on the title page'
+    formation_confidence: Documented
+  translator:
+    name: Lady Herbert
+    source: the title page
+    formation_confidence: Documented
+  edition_date:
+    year: 1889
+    source: line 81 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 286, Gabriel Garcia Moreno: a Life, in English.'
+  source_file: berthe_garcia-moreno-president-of-ecuador_herbert1889.txt
 - row_id: claret_apuntes-regimen-de-la-diocesis-santiago-de-cuba-spa_1863--claret-apuntes-para-el-regimen-de-la-diocesis-1863
   work: Claret, Apuntes para el regimen de la diocesis (1863)
   author: claret
@@ -13,6 +37,96 @@ works:
     bishops of Havana and Puerto Rico. The Cuban church's own voice under Spain. The eras
     8-9 sweep holds Cuba and Puerto Rico (LA8-8) for a line in this entry.
   source_file: claret_apuntes-regimen-de-la-diocesis-santiago-de-cuba-spa_1863.txt
+- row_id: garcia-moreno_escritos-y-discursos-t1-spa_1887--escritos-y-discursos-de-gabriel-garcia-moreno-recopilados-y
+  work: ESCRITOS Y DISCURSOS DE GABRIEL GARCIA MORENO, RECOPILADOS Y PUBLICADOS POR LA SOCIEDAD
+    DE LA JUVENTUD
+  author: garcia-moreno
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  language: spa
+  date:
+    formation_confidence: unknown
+    checked: the title page and front matter of this printing (1887); they do not state when
+      the text was first written
+  edition_date:
+    year: 1887
+    source: line 71 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 286, Gabriel Garcia Moreno: his writings and speeches, vol. 1. His own
+    writings, collected after his death by a Catholic society of Quito; a lay ruler''s voice
+    inside the tradition.'
+  source_file: garcia-moreno_escritos-y-discursos-t1-spa_1887.txt
+- row_id: garcia-moreno_escritos-y-discursos-t2-spa_1888--escritos-y-discursos-de-gabriel-garcia-moreno-tomo-segundo
+  work: ESCRITOS Y DISCURSOS DE GABRIEL GARCIA MORENO. TOMO SEGUNDO. ESCRITOS OFICIALES
+  author: garcia-moreno
+  locus: messages to the Congresses and the Convention, 1863 to 1875, at lines 10150-13612;
+    the editor's sentence naming the consecration of Ecuador to the Sacred Heart at lines
+    14430-14431; the rest not mapped
+  role: tradition
+  confidence: provisional
+  language: spa
+  date:
+    formation_confidence: unknown
+    checked: the title page and front matter of this printing (1888); they do not state when
+      the text was first written
+  edition_date:
+    year: 1888
+    source: line 164 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 286, Gabriel Garcia Moreno: his official writings, vol. 2. His own official
+    writings, collected after his death by a Catholic society of Quito; a lay ruler''s voice
+    inside the tradition.'
+  source_file: garcia-moreno_escritos-y-discursos-t2-spa_1888.txt
+- row_id: macedo-costa_a-questao-religiosa-do-brazil-perante-a-santa-se-por_1886--a-questao-religiosa-do-brazil-perante-a-santa-se-ou-a-missao
+  work: A Questão Religiosa do Brazil perante a Santa Sé ou a Missão especial a Roma em 1873
+    á luz de documentos
+  author: macedo-costa
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  language: por
+  date:
+    start: 1886
+    end: 1886
+    source: 'the dated prefatory letters, of which the last-dated in 1886 stands at line 171
+      of this file (''Dezembro de 1886.''), and the library catalogue record of the item (MARC
+      260: ''Lisboa : Lallemant Freres, 1886.''); the title page cannot be read in the OCR,
+      and two prefixed letters are dated January 1887, so the front matter was printed after
+      the catalogue''s year'
+    formation_confidence: Documented
+  edition_date:
+    year: 1886
+    source: 'the dated prefatory letters, of which the last-dated in 1886 stands at line 171
+      of this file (''Dezembro de 1886.''), and the library catalogue record of the item (MARC
+      260: ''Lisboa : Lallemant Freres, 1886.''); the title page cannot be read in the OCR,
+      and two prefixed letters are dated January 1887, so the front matter was printed after
+      the catalogue''s year'
+    formation_confidence: Documented
+  note: 'Era 9 row 287, Antonio de Macedo Costa: his own account of the religious question.'
+  source_file: macedo-costa_a-questao-religiosa-do-brazil-perante-a-santa-se-por_1886.txt
+- row_id: mexico_codigo-de-la-reforma-spa_1861--codigo-de-la-reforma-coleccion-de-leyes-decretos-y-supremas
+  work: CÓDIGO DE LA REFORMA. COLECCIÓN DE LEYES, DECRETOS Y SUPREMAS ÓRDENES, EXPEDIDAS DESDE
+    1856 HASTA 1861
+  author: mexico
+  locus: No. 49, the decree of Benito Juárez nationalizing the property of the clergy, at
+    lines 5338-5558; the rest not mapped
+  role: context
+  confidence: provisional
+  language: spa
+  date:
+    start: 1856
+    end: 1861
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n4; the
+      OCR does not give it cleanly'
+    formation_confidence: Documented
+  edition_date:
+    year: 1861
+    source: read on the scan's page image, leaf n4; the OCR does not give it cleanly
+    formation_confidence: Documented
+  note: 'Era 9 row 285, Benito Juarez: the Reform laws, 1856 to 1861. The laws of the state
+    that acted on the church: an outside voice.'
+  source_file: mexico_codigo-de-la-reforma-spa_1861.txt
 - row_id: thomson_letters-on-the-moral-and-religious-state-of-south-america_1827--letters-on-the-moral-and-religious-state-of-south-america
   work: Letters on the moral and religious state of South America, written during a residence
     of nearly seven years
@@ -33,3 +147,23 @@ works:
     formation_confidence: Documented
   note: 'Era 9 row 220, James Thomson: his Letters.'
   source_file: thomson_letters-on-the-moral-and-religious-state-of-south-america_1827.txt
+- row_id: vital_o-bispo-de-olinda-e-os-seus-accusadores-por_1873--o-bispo-de-olinda-e-os-seos-accusadores-no-tribunal-do-bom
+  work: O BISPO DE OLINDA E OS SEOS ACCUSADORES NO TRIBUNAL DO BOM SENSO, ou exame do aviso
+    de 27 de setembro e da
+  author: vital
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  language: por
+  date:
+    start: 1873
+    end: 1873
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n8; the
+      OCR does not give it cleanly'
+    formation_confidence: Documented
+  edition_date:
+    year: 1873
+    source: read on the scan's page image, leaf n8; the OCR does not give it cleanly
+    formation_confidence: Documented
+  note: 'Era 9 row 287, Vital Maria Goncalves de Oliveira: his own defence.'
+  source_file: vital_o-bispo-de-olinda-e-os-seus-accusadores-por_1873.txt

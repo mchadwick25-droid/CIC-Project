@@ -6,8 +6,8 @@ assignments:
   locus: the whole volume; not mapped
   atlas_ids:
   - the-mainline-century-liberal-and-neo-orthodox
-  role: tradition
-  confidence: needs-ruling
+  role: antecedent
+  confidence: assigned
   language: eng
   date:
     start: 1893
@@ -18,4 +18,5 @@ assignments:
     year: 1893
     source: OCR line 25, on the title page
     formation_confidence: Documented
-  note: 'Era 9 row 216, Charles A. Briggs: his own defence at the trial.'
+  note: 'Era 9 row 216, Charles A. Briggs: his own defence at the trial. His own text of 1893, written before the
+    entry''s window opens; the entry grows from this dispute.'

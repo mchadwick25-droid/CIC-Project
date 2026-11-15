@@ -29734,6 +29734,716 @@ queue:
     verified_by: 'Library thread, era 10 batch 2: host record read, title page or masthead read, wanted passages located, text fetched, byte count 420,232 equal to the listed size, the end read'
     status: downloaded
     vendored_as: loisy_evangile-et-l-eglise-3e-ed-fra_1904.txt
+  - title: 'Очеркъ изъ исторіи Американской православной духовной миссіи (Кадьякской миссіи 1794-1837 гг.)'
+    author: 'not named on the title page'
+    year: '1894'
+    world: alaskan-mission-herman-veniaminov
+    why: 'Wanted Sources, era 9 row 226, Herman of Alaska: the Valaam monastery''s account of the Kodiak mission, with his letters.'
+    url: https://archive.org/details/ocherkizistoriiamerikanskojpravoslavnojd22
+    rights_basis: 'Public Domain (pd-us-by-date: published 1894); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 812,229 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: valaam_ocherk-iz-istorii-amerikanskoi-pravoslavnoi-missii-rus_1894.txt
+  - title: 'Полное собраніе сочиненій И. В. Кирѣевскаго въ двухъ томахъ. Томъ I'
+    author: 'И. В. Кирѣевскій; подъ редакціей М. Гершензона'
+    year: '1911'
+    world: the-optina-elders-and-russian-ascetic-renewal
+    why: 'Wanted Sources, era 9 row 294, Ivan Kireevsky: his collected works, vol. 1.'
+    url: https://archive.org/details/polnoesobraniesochinenijivkireevskogo50
+    rights_basis: 'Public Domain (pd-us-by-date: published 1911); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,202,500 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: kireevsky_polnoe-sobranie-sochinenii-t1-rus_gershenzon1911.txt
+  - title: 'Слова къ Тамбовской паствѣ Феофана, Епископа Тамбовскаго и Шацкаго'
+    author: 'Феофана, Епископа Тамбовскаго и Шацкаго'
+    year: '1861'
+    world: the-optina-elders-and-russian-ascetic-renewal
+    why: 'Wanted Sources, era 9 row 295, Theophan the Recluse: his sermons to the Tambov flock.'
+    url: https://archive.org/details/slovaktambovskojpastvefeofanaepiskopata81
+    rights_basis: 'Public Domain (pd-us-by-date: published 1861); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 968,571 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: feofan_slova-k-tambovskoi-pastve-rus_1861.txt
+  - title: 'БОГОУГОДНАЯ ЖИЗНЬ ВООБЩЕ. СЛОВА ЕПИСКОПА ФЕОФАНА. (Изъ словъ къ Тамбовской и Владимірской паствамъ 1859—1866 гг.) ИЗДАНІЕ ВТОРОЕ'
+    author: 'епископа Феофана'
+    year: '1899'
+    world: the-optina-elders-and-russian-ascetic-renewal
+    why: 'Wanted Sources, era 9 row 295, Theophan the Recluse: sermons on the godly life.'
+    url: https://archive.org/details/bogougodnajazhiznvoobsche28
+    rights_basis: 'Public Domain (pd-us-by-date: published 1899); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 311,820 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: feofan_bogougodnaia-zhizn-voobshche-rus_2nd-ed1899.txt
+  - title: 'Матеріалы для біографіи основателя Алтайской миссіи архимандрита Макарія'
+    author: 'Д. Д. Фил-нова'
+    year: '1888'
+    world: russian-church-synodal-century
+    why: 'Wanted Sources, era 9 row 296, Makary (Glukharev): materials for his biography.'
+    url: https://archive.org/details/materialydljabiografiiosnovateljaaltajsk37
+    rights_basis: 'Public Domain (pd-us-by-date: published 1888); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 925,547 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: filimonov_materialy-dlia-biografii-arkhimandrita-makariia-rus_1888.txt
+  - title: 'Моя жизнь во Христе, или минуты духовнаго трезвенія и созерцанія, благоговѣйнаго чувства, душевнаго исправленія и покоя въ Богѣ. Извлеченіе изъ дневника протоіерея [...]. Томъ первый'
+    author: 'the name cannot be read on the title page in the OCR; the archive.org record names Сергиев, Иоанн Ильич'
+    year: '1891'
+    world: russian-church-synodal-century
+    why: 'Wanted Sources, era 9 row 297, John of Kronstadt: extracts from his diary, in Russian, vol. 1.'
+    url: https://archive.org/details/mojazhiznvohristeiliminutyduhovnogotrez7
+    rights_basis: 'Public Domain (pd-us-by-date: published 1891); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 663,031 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: ioann-kronshtadtskii_moia-zhizn-vo-khriste-t1-rus_1891.txt
+  - title: 'MY LIFE IN CHRIST; or Moments of Spiritual Serenity and Contemplation, of Reverent Feeling, of Earnest Self-Amendment, and of Peace in God. EXTRACTS FROM THE DIARY OF THE MOST REVEREND JOHN ILIYTCH SERGIEFF (''FATHER JOHN''), OF ST. ANDREW''S CATHEDRAL, CRONSTADT, RUSSIA. Translated, with the Author''s sanction, from the Fourth and Supplemented Edition'
+    author: 'the Most Reverend John Iliytch Sergieff (''Father John''), of St. Andrew''s Cathedral, Cronstadt, Russia; translated by E. E. Goulaeff, St. Petersburg'
+    year: '1897'
+    world: russian-church-synodal-century
+    why: 'Wanted Sources, era 9 row 297, John of Kronstadt: extracts from his diary, in English.'
+    url: https://archive.org/details/MyLifeInChrist
+    rights_basis: 'Public Domain (pd-us-by-date: published 1897); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,757,662 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: ioann-kronshtadtskii_my-life-in-christ_goulaeff1897.txt
+  - title: 'Историческое описание Козельской Оптиной пустыни и Предтечева скита (Калужской губернии), вновь составленное Е. В'
+    author: 'Е. В.'
+    year: '1902'
+    world: the-optina-elders-and-russian-ascetic-renewal
+    why: 'Wanted Sources, era 9 rows 293 and 197, Macarius and Ambrose of Optina: the monastery''s own history.'
+    url: https://archive.org/details/istoricheskoeopisaniekozelskojoptinojpu0
+    rights_basis: 'Public Domain (pd-us-by-date: published 1902); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 760,404 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: optina_istoricheskoe-opisanie-kozelskoi-optinoi-pustyni-rus_1902.txt
+  - title: 'О ПОКАЯНІЮ. ЛИСТЪ ПАСТИРСКІЙ Высокопреосвященого АНДРЕЯ ШЕПТИЦКОГО, Митрополита Галицкого, Архіепископа Львовского, Епископа Каменця Подольского, до вѣрныхъ своихъ епархій'
+    author: 'Андрея Шептицкого, Митрополита Галицкого'
+    year: '1901'
+    world: ruthenian-greek-catholic-polotsk-to-galicia
+    why: 'Wanted Sources, era 9 row 279, Andrey Sheptytsky: a pastoral letter on repentance.'
+    url: https://archive.org/details/o-pokaianiiu-vii-lyst-pastyrskii
+    rights_basis: 'Public Domain (pd-us-by-date: published 1901); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 122,634 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: sheptytsky_o-pokaianiiu-lyst-pastyrskii-ukr_1901.txt
+  - title: 'Канадийским Русинам. Написав Митрополит Андрей Шептицкий'
+    author: 'Митрополит Андрей Шептицкий'
+    year: '1911'
+    world: ruthenian-greek-catholic-polotsk-to-galicia
+    why: 'Wanted Sources, era 9 row 279, Andrey Sheptytsky: his book for the Ruthenians of Canada.'
+    url: https://archive.org/details/herbarzpolskipow01niesuoft_202605
+    rights_basis: 'Public Domain (pd-us-by-date: published 1911); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 212,638 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: sheptytsky_kanadiiskym-rusynam-ukr_1911.txt
+  - title: 'The Druzes and the Maronites under the Turkish Rule from 1840 to 1860'
+    author: 'Colonel Churchill, author of ''Ten Years'' Residence in Mount Lebanon, 1853'''
+    year: '1862'
+    world: maronite-church-1815-1906
+    why: 'Wanted Sources, era 9 row 290, Peter Paul Massaad: an outside account of the Maronites, 1840 to 1860.'
+    url: https://archive.org/details/druzesmaronitesu00churuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1862); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 392,296 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: churchill_druzes-and-the-maronites-under-the-turkish-rule_1862.txt
+  - title: 'ARMENIA: Travels and Studies. IN TWO VOLUMES, WITH 197 ILLUSTRATIONS, REPRODUCED FROM PHOTOGRAPHS AND SKETCHES BY THE AUTHOR, NUMEROUS MAPS AND PLANS, A BIBLIOGRAPHY And a Map of Armenia and Adjacent Countries. VOL. II, THE TURKISH PROVINCES'
+    author: 'H. F. B. Lynch'
+    year: '1901'
+    world: armenian-christianity-zartonk
+    why: 'Wanted Sources, era 9 row 299, Grigor Odian: the Armenian National Constitution in English, in an appendix.'
+    url: https://archive.org/details/armeniatravelsst02lync_0
+    rights_basis: 'Public Domain (pd-us-by-date: published 1901); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,658,373 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: lynch_armenia-travels-and-studies-v2_1901.txt
+  - title: 'ΟΙΚΟΝΟΜΟΣ Ο ΕΞ ΟΙΚΟΝΟΜΩΝ Η ΠΕΡΙ ΟΡΚΟΥ'
+    author: 'not named on the title page'
+    year: '1849'
+    world: orthodoxy-after-1821-balkan-autocephalies
+    why: 'Wanted Sources, era 9 rows 300 and 301, Theoklitos Pharmakidis: a pamphlet against Konstantinos Oikonomos.'
+    url: https://archive.org/details/oikonomoshoexoi00phargoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1849); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 728,619 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: pharmakidis_oikonomos-ho-ex-oikonomon-ell_1849.txt
+  - title: 'Fifty-Three Years in Syria. In Two Volumes. Volume II'
+    author: 'Henry Harris Jessup, D.D.; introduction by James S. Dennis, D.D.'
+    year: '1910'
+    world: arab-evangelical-churches
+    why: 'Wanted Sources, era 9 row 325, Butrus el Bistany and Nasif el Yazigy: Jessup''s memoir, vol. 2.'
+    url: https://archive.org/details/fiftythreeyearsi02jess
+    rights_basis: 'Public Domain (pd-us-by-date: published 1910); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the date agrees; the date used is that of the copyright notice at line 71 of this file (''Copyright, 1910, by''); the title page prints no year'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,062,896 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: jessup_fifty-three-years-in-syria-v2_1910.txt
+  - title: 'MEMOIR OF THE REV. PLINY FISK, A. M., LATE MISSIONARY TO PALESTINE'
+    author: 'Alvan Bond, Pastor of the Congregational Church in Sturbridge, Ms.'
+    year: '1828'
+    world: arab-evangelical-churches
+    why: 'Wanted Sources, era 9 row 324, Pliny Fisk: a Memoir.'
+    url: https://archive.org/details/memoirofrevpliny00bondrich
+    rights_basis: 'Public Domain (pd-us-by-date: published 1828); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 989,830 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: bond_memoir-of-the-rev-pliny-fisk_1828.txt
+  - title: 'MEMOIR OF ASAAD ESH SHIDIAK'
+    author: 'not named on the title page'
+    year: '1834'
+    world: arab-evangelical-churches
+    why: 'Wanted Sources, era 9 row 326, Asaad es Shidiak: a Memoir.'
+    url: https://archive.org/details/ldpd_16074813_000
+    rights_basis: 'Public Domain (pd-us-by-date: published 1834); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 124,345 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: shidiak-memoir_memoir-of-asaad-esh-shidiak_1834.txt
+  - title: 'The Captive Missionary: being an account of the country and people of Abyssinia. Embracing [...] and his treatment of political and religious missions'
+    author: 'The Rev. Henry A. Stern, author of ''Wanderings among the Falashas'''
+    year: '1868'
+    world: ethiopian-christianity-tewodros-to-menelik
+    why: 'Wanted Sources, era 9 rows 306 and 307, Tewodros II and Abuna Salama III: a captive missionary''s account.'
+    url: https://archive.org/details/captivemissionar00ster_0
+    rights_basis: 'Public Domain (pd-us-by-date: published 1868); the archive.org record carries no rights field, so the date named here is the basis; the date used is that of the dated preface at line 464 of this file (''London, October 26th, 1868.''), with which the library catalogue record of the item agrees (MARC 260: ''London : Cassell, Petter, and Galpin, [1868]''); the title page prints no year'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 668,259 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: stern_captive-missionary_1868.txt
+  - title: 'Chronique du règne de Ménélik II, roi des rois d''Éthiopie. Traduite de l''amharique par Tèsfa Sellassié, publiée et annotée par Maurice de Coppet, ancien ministre de France en Éthiopie. Tome I'
+    author: 'Guèbrè Sellassié, Ministre de la Plume de S. M. l''empereur Ménélik II; traduite de l''amharique par Tèsfa Sellassié; publiée et annotée par Maurice de Coppet'
+    year: '1930'
+    world: ethiopian-christianity-tewodros-to-menelik
+    why: 'Wanted Sources, era 9 rows 308, 309 and 310, Yohannes IV, Menelik II and Taytu: the royal chronicle, in French, tome I.'
+    url: https://archive.org/details/chronique-du-regne-de-menelik-ii-roi-des-rois-dethiopie
+    rights_basis: 'Public Domain (pd-us-by-date: published 1930); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 2,488,278 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: guebre-sellassie_chronique-du-regne-de-menelik-ii-t1-fra_coppet1930.txt
+  - title: 'MODERN ABYSSINIA'
+    author: 'Augustus B. Wylde, late Vice-Consul for Red Sea, author of ''''83 to ''87 in the Soudan'''
+    year: '1901'
+    world: ethiopian-christianity-tewodros-to-menelik
+    why: 'Wanted Sources, era 9 row 308, Yohannes IV: an outside account.'
+    url: https://archive.org/details/modernabyssinia00wyld
+    rights_basis: 'Public Domain (pd-us-by-date: published 1901); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,668,057 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: wylde_modern-abyssinia_1901.txt
+  - title: 'A Narrative of the Persecution of the Christians in Madagascar; with details of the escape of the six Christian refugees now in England. By J. J. Freeman and D. Johns, formerly missionaries in the island. Sixth thousand'
+    author: 'J. J. Freeman and D. Johns, formerly missionaries in the island'
+    year: '1840'
+    world: malagasy-christianity
+    why: 'Wanted Sources, era 9 rows 314, 315 and 316, Rasalama, Rafaravavy and Ranavalona I: the missionaries'' narrative of the persecution.'
+    url: https://archive.org/details/narrativeofperse00fre
+    rights_basis: 'Public Domain (pd-us-by-date: published 1840); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 646,786 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: freeman-johns_narrative-of-the-persecution-of-the-christians-in-madagascar_1840.txt
+  - title: 'JAMES HANNINGTON, D.D., F.L.S., F.R.G.S., First Bishop of Eastern Equatorial Africa: A History of his Life and Work, 1847-1885. Author''s edition, first American from the sixth London edition'
+    author: 'E. C. Dawson, M.A., Oxon., Incumbent of St. Thomas''s Church, Edinburgh'
+    year: '1887'
+    world: east-african-christianity-uganda-martyrs
+    why: 'Wanted Sources, era 9 row 319, James Hannington: a Life.'
+    url: https://archive.org/details/jameshanningto00daws
+    rights_basis: 'Public Domain (pd-us-by-date: published 1887); the archive.org record says possible-copyright-status The Library of Congress is unaware of any copyright restrictions for this item., and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 955,445 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: dawson_james-hannington-a-history-of-his-life-and-work_1887.txt
+  - title: 'THE LAST JOURNALS OF BISHOP HANNINGTON, being Narratives of A Journey through Palestine in 1884 and A Journey through Masai-Land and U-Soga in 1885'
+    author: 'Bishop Hannington; edited by E. C. Dawson, M.A. Oxon., Incumbent of S. Thomas''s Church, Edinburgh'
+    year: '1888'
+    world: east-african-christianity-uganda-martyrs
+    why: 'Wanted Sources, era 9 row 319, James Hannington: his last journals.'
+    url: https://archive.org/details/lastjournalsofbi00hann
+    rights_basis: 'Public Domain (pd-us-by-date: published 1888); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 316,607 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: hannington_last-journals-of-bishop-hannington_dawson1888.txt
+  - title: 'A. M. Mackay, Pioneer Missionary of the Church Missionary Society to Uganda. By his sister. With etched portrait by H. Manesse. Tenth thousand'
+    author: 'by his sister'
+    year: '1891'
+    world: east-african-christianity-uganda-martyrs
+    why: 'Wanted Sources, era 9 row 320, Mwanga II: a missionary''s Life, with his letters.'
+    url: https://archive.org/details/ammackaypioneerm00harr_0
+    rights_basis: 'Public Domain (pd-us-by-date: published 1891); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 802,585 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: mackay_a-m-mackay-pioneer-missionary-to-uganda_by-his-sister1891.txt
+  - title: 'THE BANTU PAST AND PRESENT: An Ethnographical & Historical Study of the Native Races of South Africa'
+    author: 'S. M. Molema'
+    year: '1920'
+    world: southern-african-mission-churches
+    why: 'Wanted Sources, era 9 row 321, Ntsikana: his hymn in English, in a later history.'
+    url: https://archive.org/details/bantupastpresent00moleuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1920); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,085,901 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: molema_bantu-past-and-present_1920.txt
+  - title: 'THE BASUTOS. TWENTY-THREE YEARS IN SOUTH AFRICA'
+    author: 'Rev. E. Casalis, late missionary, Director of the Paris Evangelical Mission-House'
+    year: '1861'
+    world: southern-african-mission-churches
+    why: 'Wanted Sources, era 9 row 322, Moshoeshoe: Casalis, The Basutos.'
+    url: https://archive.org/details/basutosortwentyt00casa
+    rights_basis: 'Public Domain (pd-us-by-date: published 1861); the archive.org record says possible-copyright-status Not in copyright. The Library knows of no copyright restrictions on this item., and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 677,346 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: casalis_basutos_1861.txt
+  - title: 'LES BASSOUTOS: vingt-trois années de séjour et d''observations au sud de l''Afrique'
+    author: 'E. Casalis, ancien missionnaire'
+    year: '1859'
+    world: southern-african-mission-churches
+    why: 'Wanted Sources, era 9 row 322, Moshoeshoe: Casalis, Les Bassoutos, in French.'
+    url: https://archive.org/details/lesbassoutosouvi00casa
+    rights_basis: 'Public Domain (pd-us-by-date: published 1859); the archive.org record says possible-copyright-status Not in copyright. The Library knows of no copyright restrictions on this item., and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 668,570 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: casalis_les-bassoutos-fra_1859.txt
+  - title: 'CENTENNIAL ENCYCLOPAEDIA OF THE African Methodist Episcopal Church, Containing principally the Biographies of the Men and Women, both Ministers and Laymen, whose Labors during a Hundred Years, helped make the A. M. E. Church what it is; also short Historical Sketches of Annual Conferences, Educational Institutions, General Departments, Missionary Societies of the A. M. E. Church, and General Information about African Methodism and the Christian Church in General'
+    author: 'Richard R. Wright Jr., A.M., B.D., Ph.D., Editor-in-Chief; assisted by John R. Hawkins, A.M., LL.B., Associate Editor; introduction by Bishop L. J. Coppin, D.D., LL.D.'
+    year: '1916'
+    world: african-initiated-churches-harrist-aladura-zioni
+    why: 'Wanted Sources, era 9 row 213, Mangena Mokone: an entry in the African Methodist Episcopal Church''s encyclopaedia.'
+    url: https://archive.org/details/centennialencycl00wrig
+    rights_basis: 'Public Domain (pd-us-by-date: published 1916); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 2,062,347 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: wright_centennial-encyclopaedia-of-the-african-methodist-episcopal-church_1916.txt
+  - title: 'THE CHINESE AND THEIR REBELLIONS, VIEWED IN CONNECTION WITH THEIR NATIONAL PHILOSOPHY, ETHICS, LEGISLATION, AND ADMINISTRATION. TO WHICH IS ADDED, AN ESSAY ON CIVILIZATION AND ITS PRESENT STATE IN THE EAST AND WEST'
+    author: 'Thomas Taylor Meadows, Chinese Interpreter in H. M. Civil Service'
+    year: '1856'
+    world: taiping-heavenly-kingdom
+    why: 'Wanted Sources, era 9 rows 263 to 266, the Taiping leaders and Issachar Roberts: an outside account.'
+    url: https://archive.org/details/chinesetheirrebe00mead
+    rights_basis: 'Public Domain (pd-us-by-date: published 1856); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,773,919 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: meadows_chinese-and-their-rebellions_1856.txt
+  - title: 'The Taeping Rebellion in China; a narrative of its rise and progress. Based upon original documents and information obtained in China'
+    author: 'Commander Lindesay Brine, R.N., F.R.G.S., lately employed in Chinese waters'
+    year: '1862'
+    world: taiping-heavenly-kingdom
+    why: 'Wanted Sources, era 9 rows 263 to 266, the Taiping leaders and Issachar Roberts: an outside account.'
+    url: https://archive.org/details/taepingrebellio00bringoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1862); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 815,284 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: brine_taeping-rebellion-in-china_1862.txt
+  - title: 'TI-PING TIEN-KWOH; THE HISTORY OF THE TI-PING REVOLUTION, INCLUDING A NARRATIVE OF THE AUTHOR''S PERSONAL ADVENTURES. VOLUME II'
+    author: 'Lin-Le, formerly honorary officer, Chung-wang''s guards; special agent of the Ti-ping general-in-chief; and late commander of the ''Loyal and Faithful Auxiliary Legion'''
+    year: '1866'
+    world: taiping-heavenly-kingdom
+    why: 'Wanted Sources, era 9 rows 263 to 266, the Taiping leaders: Lindley, vol. 2.'
+    url: https://archive.org/details/tipingtienkwohhi02lind
+    rights_basis: 'Public Domain (pd-us-by-date: published 1866); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,043,142 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: lindley_ti-ping-tien-kwoh-v2_1866.txt
+  - title: 'LIFE AND LETTERS OF JOSEPH HARDY NEESIMA'
+    author: 'Arthur Sherburne Hardy'
+    year: '1891'
+    world: japanese-christianity-hidden-emergence-meiji
+    why: 'Wanted Sources, era 9 row 282, Niijima Jo: a Life with his letters.'
+    url: https://archive.org/details/lifelettersofjos00hardiala
+    rights_basis: 'Public Domain (pd-us-by-date: published 1891); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the date agrees; the date used is that of the copyright notice at line 69 of this file (''Copyright, 1891,''); the title page prints no year'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 706,048 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: hardy_life-and-letters-of-joseph-hardy-neesima_1891.txt
+  - title: 'A SKETCH OF THE LIFE OF REV. JOSEPH HARDY NEESIMA, LL.D., PRESIDENT OF DOSHISHA, KYOTO'
+    author: 'Rev. J. D. Davis, D.D., Professor of Theology in Doshisha'
+    year: '1890'
+    world: japanese-christianity-hidden-emergence-meiji
+    why: 'Wanted Sources, era 9 row 282, Niijima Jo: a sketch of his life by a colleague.'
+    url: https://archive.org/details/sketchoflifeofre00davirich
+    rights_basis: 'Public Domain (pd-us-by-date: published 1890); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 242,765 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: davis_sketch-of-the-life-of-rev-joseph-hardy-neesima_1890.txt
+  - title: 'THE DIARY OF A JAPANESE CONVERT'
+    author: 'Kanzo Uchimura'
+    year: '1895'
+    world: japanese-christianity-hidden-emergence-meiji
+    why: 'Wanted Sources, era 9 row 283, Uchimura Kanzo: his own account.'
+    url: https://archive.org/details/diaryofjapanesec00uchirich
+    rights_basis: 'Public Domain (pd-us-by-date: published 1895); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the date agrees; the date used is that of the copyright notice at line 117 of this file (''Copyright, 1895. by Fleming H. Revell Company.''); the title page prints no year'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 410,010 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: uchimura_diary-of-a-japanese-convert_1895.txt
+  - title: 'La Cochinchine religieuse par L.-E. Louvet, missionnaire apostolique de la Congrégation des Missions Étrangères. Tome second'
+    author: 'L.-E. Louvet, missionnaire apostolique de la Congrégation des Missions Étrangères'
+    year: '1885'
+    world: vietnamese-catholicism-1815-1906
+    why: 'Wanted Sources, era 9 row 289, Minh Mang: the edict of 1833 in a mission history, in French.'
+    url: https://archive.org/details/lacochinchinerel02louv
+    rights_basis: 'Public Domain (pd-us-by-date: published 1885); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,216,908 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: louvet_la-cochinchine-religieuse-v2-fra_1885.txt
+  - title: 'THE PERSECUTIONS OF ANNAM: The History of Christianity in Cochin China and Tonking'
+    author: 'John R. Shortland, M.A., Canon of Plymouth, author of ''The Corean Martyrs'''
+    year: '1875'
+    world: vietnamese-catholicism-1815-1906
+    why: 'Wanted Sources, era 9 row 289, Minh Mang: an English history of the persecutions.'
+    url: https://archive.org/details/persecutionsofan00shoriala
+    rights_basis: 'Public Domain (pd-us-by-date: published 1875); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 797,155 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: shortland_persecutions-of-annam_1875.txt
+  - title: 'A CORNER IN INDIA'
+    author: 'Mary Mead Clark'
+    year: '1907'
+    world: northeast-india-revivals-and-the-mar-thoma-refor
+    why: 'Wanted Sources, era 9 row 304, Edwin W. Clark: his wife''s account of the Naga mission.'
+    url: https://archive.org/details/cornerinindia00clar
+    rights_basis: 'Public Domain (pd-us-by-date: published 1907); the archive.org record says possible-copyright-status The Library of Congress is unaware of any copyright restrictions for this item., and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 271,563 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: clark_corner-in-india_1907.txt
+  - title: 'THE ASSAM MISSION OF THE AMERICAN BAPTIST MISSIONARY UNION. PAPERS AND DISCUSSIONS OF THE JUBILEE CONFERENCE HELD IN NOWGONG, DECEMBER 18-29, 1886'
+    author: 'not named on the title page'
+    year: '1887'
+    world: northeast-india-revivals-and-the-mar-thoma-refor
+    why: 'Wanted Sources, era 9 row 304, Edwin W. Clark: the Assam Mission''s jubilee papers.'
+    url: https://archive.org/details/assammissionofam00amer
+    rights_basis: 'Public Domain (pd-us-by-date: published 1887); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 690,476 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: assam-mission_papers-and-discussions-of-the-jubilee-conference-1886_1887.txt
+  - title: 'Biographical Dictionary of Ministers and Preachers of the Welsh Calvinistic Methodist Body or Presbyterians of Wales'
+    author: 'Rev. Joseph Evans, Denbigh'
+    year: '1907'
+    world: northeast-india-revivals-and-the-mar-thoma-refor
+    why: 'Wanted Sources, era 9 row 303, Thomas Jones: an entry in a Welsh biographical dictionary.'
+    url: https://archive.org/details/biographicaldic00evangoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1907); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 901,080 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: evans_biographical-dictionary-of-ministers-and-preachers-of-the-welsh-calvinistic-methodist-body_1907.txt
+  - title: 'Memoirs of the Life and Labours of Robert Morrison, D.D., F.R.S., M.R.A.S., Member of the Society Asiatique of Paris, &c. &c. Compiled by his widow; with critical notices of his Chinese works, by Samuel Kidd, and an appendix containing original documents. In two volumes. Vol. II'
+    author: 'compiled by his widow; with critical notices of his Chinese works by Samuel Kidd'
+    year: '1839'
+    world: the-missionary-movement-s-native-churches-seramp
+    why: 'Wanted Sources, era 9 row 311, Liang Fa: Morrison''s Memoirs, vol. 2.'
+    url: https://archive.org/details/memoirsoflifelab02morr
+    rights_basis: 'Public Domain (pd-us-by-date: published 1839); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,566,295 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: morrison_memoirs-of-the-life-and-labours-of-robert-morrison-v2_1839.txt
+  - title: 'MEMORIALS OF PROTESTANT MISSIONARIES TO THE CHINESE: giving a list of their publications, and obituary notices of the deceased. With copious indexes'
+    author: 'not named on the title page'
+    year: '1867'
+    world: the-missionary-movement-s-native-churches-seramp
+    why: 'Wanted Sources, era 9 row 311, Liang Fa: a list of his works.'
+    url: https://archive.org/details/memorialsofprote00wyli
+    rights_basis: 'Public Domain (pd-us-by-date: published 1867); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 934,321 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: wylie_memorials-of-protestant-missionaries-to-the-chinese_1867.txt
+  - title: 'SADRACH''S KRING'
+    author: 'L. Adriaanse, Dienaar des Woords te Utrecht, afgezonden tot den Zendingsdienst te Poerworedjo'
+    year: '1899'
+    world: indonesian-christianity
+    why: 'Wanted Sources, era 9 row 207, Kiai Sadrach: a Dutch missionary''s account.'
+    url: https://archive.org/details/MN41568ucmf_0
+    rights_basis: 'Public Domain (pd-us-by-date: published 1899); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,202,837 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: adriaanse_sadrachs-kring-nld_1899.txt
+  - title: 'De Zendingseeuw voor Nederlandsch Oost-Indië'
+    author: 'S. Coolsma, Director van het Zendingshuis der Nederl. Zendingsvereeniging'
+    year: '1901'
+    world: indonesian-christianity
+    why: 'Wanted Sources, era 9 row 207, Kiai Sadrach: a Dutch mission history.'
+    url: https://archive.org/details/dezendingseeuwv00coolgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1901); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 4,415,631 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: coolsma_de-zendingseeuw-voor-nederlandsch-oost-indie-nld_1901.txt
+  - title: 'JOEL BULU: THE AUTOBIOGRAPHY OF A NATIVE MINISTER IN THE SOUTH SEAS. Translated by a Missionary. SECOND EDITION'
+    author: 'Joel Bulu (named in the title only); Translated by a Missionary'
+    year: '1884'
+    world: the-missionary-movement-s-native-churches-seramp
+    why: 'Wanted Sources, era 9 row 313, Joeli Bulu: his autobiography, in translation.'
+    url: https://archive.org/details/joelbuluautobio00mbulgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1884); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 173,073 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: bulu_joel-bulu-the-autobiography-of-a-native-minister-in-the-south-seas_2nd-ed1884.txt
+  - title: 'GEMS FROM THE CORAL ISLANDS. Western Polynesia: comprising the New Hebrides Group, the Loyalty Group, New Caledonia Group'
+    author: 'Rev. William Gill, Rarotonga'
+    year: '1855'
+    world: the-missionary-movement-s-native-churches-seramp
+    why: 'Wanted Sources, era 9 row 312, Ta''unga: a missionary''s account that quotes his reports.'
+    url: https://archive.org/details/gemsfromcoralisl00gilliala
+    rights_basis: 'Public Domain (pd-us-by-date: published 1855); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 459,673 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: gill_gems-from-the-coral-islands-western-polynesia_1855.txt
+  - title: 'LA SENSACIONAL MEMORIA de Isabelo de los Reyes sobre la Revolución Filipina de 1896-97 por la cual fué deportado el autor al Castillo de Montjuich. Ilustrada con retratos de notables revolucionarios'
+    author: 'Isabelo de los Reyes; con un prólogo de D. Miguel Morayta'
+    year: '1899'
+    world: philippine-catholicism-gomburza-to-aglipay
+    why: 'Wanted Sources, era 9 row 280, Isabelo de los Reyes: his memorial on the revolution of 1896-97.'
+    url: https://archive.org/details/lasensacionalme00sagrgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1899); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 289,501 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: reyes_la-sensacional-memoria-spa_1899.txt
+  - title: 'Documentos interesantes de la Iglesia filipina independiente'
+    author: 'Alejandro Remollino'
+    year: '1906'
+    world: philippine-catholicism-gomburza-to-aglipay
+    why: 'Wanted Sources, era 9 row 280, Gregorio Aglipay: documents of the Iglesia Filipina Independiente.'
+    url: https://archive.org/details/ajh3760.0001.001.umich.edu
+    rights_basis: 'Public Domain (pd-us-by-date: published 1906); the archive.org record carries no rights field, so the date named here is the basis; the date used is that of the dated preface at line 183 of this file (''Manila, I. F., Enero 1906.''), with which the library catalogue record of the item agrees (MARC 260: ''Manila, Imp. Fajardo y c.a, 1906.''); the title page cannot be read in the OCR, and the title and publisher in this header are from the catalogue record'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 65,710 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: iglesia-filipina-independiente_documentos-interesantes-spa_1906.txt
+  - title: 'The Philippine Islands 1493-1898: Explorations by Early Navigators, Descriptions of the Islands and their Peoples, their History and Records of the Catholic Missions, as related in contemporaneous Books and Manuscripts [...] Translated from the originals. Volume LII - 1841-1898'
+    author: 'Edited and annotated by Emma Helen Blair and James Alexander Robertson; with historical introduction and additional notes by Edward Gaylord Bourne'
+    year: '1907'
+    world: philippine-catholicism-gomburza-to-aglipay
+    why: 'Wanted Sources, era 9 row 281, Apolinario de la Cruz: a note on the Cofradia de San Jose.'
+    url: https://archive.org/details/philippineisland52blai
+    rights_basis: 'Public Domain (pd-us-by-date: published 1907); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 754,609 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: blair-robertson_philippine-islands-v52_1907.txt
+  - title: 'HAITI, HER HISTORY AND HER DETRACTORS'
+    author: 'J. N. Leger, Envoy Extraordinary and Minister Plenipotentiary of Haiti in the United States'
+    year: '1907'
+    world: haitian-church-rupture-to-concordat
+    why: 'Wanted Sources, era 9 row 284, Fabre Geffrard: a later account of the Concordat of 1860.'
+    url: https://archive.org/details/haitiherhistoryh00lguoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1907); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 862,253 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: leger_haiti-her-history-and-her-detractors_1907.txt
+  - title: 'CÓDIGO DE LA REFORMA. COLECCIÓN DE LEYES, DECRETOS Y SUPREMAS ÓRDENES, EXPEDIDAS DESDE 1856 HASTA 1861'
+    author: 'not named on the title page; ''Propiedad de su editor J. Sebastián Segura'''
+    year: '1861'
+    world: nineteenth-century-latin-american-catholicism
+    why: 'Wanted Sources, era 9 row 285, Benito Juarez: the Reform laws, 1856 to 1861.'
+    url: https://archive.org/details/codigodelareform00mexi
+    rights_basis: 'Public Domain (pd-us-by-date: published 1861); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 939,939 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: mexico_codigo-de-la-reforma-spa_1861.txt
+  - title: 'ESCRITOS Y DISCURSOS DE GABRIEL GARCIA MORENO, RECOPILADOS Y PUBLICADOS POR LA SOCIEDAD DE LA JUVENTUD CATÓLICA DE QUITO, Y ANOTADOS POR SU PRESIDENTE D. MANUEL MARÍA PÓLIT. PRECEDE UN PROLOGO POR D. JUAN LEON MERA. TOMO PRIMERO, ESCRITOS NO OFICIALES'
+    author: 'Gabriel Garcia Moreno; recopilados y publicados por la Sociedad de la Juventud Católica de Quito, y anotados por su presidente D. Manuel María Pólit; prólogo por D. Juan Leon Mera'
+    year: '1887'
+    world: nineteenth-century-latin-american-catholicism
+    why: 'Wanted Sources, era 9 row 286, Gabriel Garcia Moreno: his writings and speeches, vol. 1.'
+    url: https://archive.org/details/escritos-y-discursos-tomo-i-gabriel-garcia-moreno-1887
+    rights_basis: 'Public Domain (pd-us-by-date: published 1887); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 708,740 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: garcia-moreno_escritos-y-discursos-t1-spa_1887.txt
+  - title: 'ESCRITOS Y DISCURSOS DE GABRIEL GARCIA MORENO. TOMO SEGUNDO. ESCRITOS OFICIALES'
+    author: 'Gabriel García Moreno; recopilados y publicados por la Sociedad de la Juventud Católica de Quito, y anotados por su presidente D. Manuel María Pólit; precede un prólogo por D. Juan León Mera'
+    year: '1888'
+    world: nineteenth-century-latin-american-catholicism
+    why: 'Wanted Sources, era 9 row 286, Gabriel Garcia Moreno: his official writings, vol. 2.'
+    url: https://archive.org/details/escritos-y-discursos-tomo-ii-gabriel-garcia-moreno-1888
+    rights_basis: 'Public Domain (pd-us-by-date: published 1888); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 682,907 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: garcia-moreno_escritos-y-discursos-t2-spa_1888.txt
+  - title: 'GARCIA MORENO, PRESIDENT OF ECUADOR, 1821-1875. From the French of the Rev. P. A. Berthe, of the Congregation of the Most Holy Redeemer'
+    author: 'Rev. P. A. Berthe, of the Congregation of the Most Holy Redeemer; by Lady Herbert'
+    year: '1889'
+    world: nineteenth-century-latin-american-catholicism
+    why: 'Wanted Sources, era 9 row 286, Gabriel Garcia Moreno: a Life, in English.'
+    url: https://archive.org/details/garciamorenopres00bertuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1889); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 593,466 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: berthe_garcia-moreno-president-of-ecuador_herbert1889.txt
+  - title: 'O BISPO DE OLINDA E OS SEOS ACCUSADORES NO TRIBUNAL DO BOM SENSO, ou exame do aviso de 27 de setembro e da denuncia de 10 de outubro, e reflexões acerca das relações entre a Igreja e o Estado'
+    author: 'pelo mesmo Bispo'
+    year: '1873'
+    world: nineteenth-century-latin-american-catholicism
+    why: 'Wanted Sources, era 9 row 287, Vital Maria Goncalves de Oliveira: his own defence.'
+    url: https://archive.org/details/obispodeolindae00olivgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1873); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 249,083 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: vital_o-bispo-de-olinda-e-os-seus-accusadores-por_1873.txt
+  - title: 'A Questão Religiosa do Brazil perante a Santa Sé ou a Missão especial a Roma em 1873 á luz de documentos publicados e ineditos, pelo Bispo do Pará. Nova edição mais completa'
+    author: 'pelo Bispo do Pará'
+    year: '1886'
+    world: nineteenth-century-latin-american-catholicism
+    why: 'Wanted Sources, era 9 row 287, Antonio de Macedo Costa: his own account of the religious question.'
+    url: https://archive.org/details/questoreligios00cost
+    rights_basis: 'Public Domain (pd-us-by-date: published 1886); the archive.org record carries no rights field, so the date named here is the basis; the date used is that of the dated prefatory letters, of which the last-dated in 1886 stands at line 171 of this file (''Dezembro de 1886.''), and the library catalogue record of the item (MARC 260: ''Lisboa : Lallemant Freres, 1886.''); the title page cannot be read in the OCR, and two prefixed letters are dated January 1887, so the front matter was printed after the catalogue''s year'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 879,964 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: macedo-costa_a-questao-religiosa-do-brazil-perante-a-santa-se-por_1886.txt
+  - title: 'Death Struggles of Slavery: a narrative of facts and incidents, which occurred in a British colony, during the two years immediately preceding Negro emancipation. By Henry Bleby, a resident in the colony seventeen years. Third edition'
+    author: 'Henry Bleby, a resident in the colony seventeen years'
+    year: '1868'
+    world: caribbean-churches-of-slavery-and-emancipation
+    why: 'Wanted Sources, era 9 rows 246 and 248, Samuel Sharpe and Henry Bleby: Bleby''s narrative.'
+    url: https://archive.org/details/b24870109
+    rights_basis: 'Public Domain (pd-us-by-date: published 1868); the archive.org record''s rights statement reads: This work is available under the Creative Commons, Public Domain Mark'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 799,784 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: bleby_death-struggles-of-slavery_3rd-ed1868.txt
+  - title: 'The Demerara Martyr. Memoirs of the Rev. John Smith, Missionary to Demerara; by Edwin Angel Wallbridge, with a preface by the Rev. W. G. Barrett'
+    author: 'Edwin Angel Wallbridge; with a preface by the Rev. W. G. Barrett'
+    year: '1848'
+    world: caribbean-churches-of-slavery-and-emancipation
+    why: 'Wanted Sources, era 9 row 247, John Smith of Demerara: a Life.'
+    url: https://archive.org/details/demeraramartyrme00wall
+    rights_basis: 'Public Domain (pd-us-by-date: published 1848); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 707,363 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: wallbridge_demerara-martyr-memoirs-of-the-rev-john-smith_1848.txt
+  - title: 'THE London Missionary Society''s REPORT OF THE PROCEEDINGS AGAINST THE LATE Rev. J. SMITH, of Demerara, Minister of the Gospel, who was tried under martial law, and condemned to death, on a charge of aiding and assisting in a rebellion of the negro slaves; from a full and correct copy, transmitted to England by Mr. Smith''s counsel, and including the documentary evidence omitted in the Parliamentary copy; with an appendix'
+    author: 'The London Missionary Society; published under the authority of the Directors of the said Society'
+    year: '1824'
+    world: caribbean-churches-of-slavery-and-emancipation
+    why: 'Wanted Sources, era 9 row 247, John Smith of Demerara: the trial record.'
+    url: https://archive.org/details/reportproceedin00socigoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1824); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 665,028 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: london-missionary-society_report-of-the-proceedings-against-the-late-rev-j-smith-of-demerara_1824.txt
+  - title: 'A GUERRA DE CANUDOS'
+    author: 'Henrique Duque-Estrada de Macedo Soares (Tenente de Infantaria)'
+    year: '1902'
+    world: canudos-belo-monte
+    why: 'Wanted Sources, era 9 row 186, Antonio Conselheiro: an army officer''s account of the war, in Portuguese.'
+    url: https://archive.org/details/guerradecanudos00soar
+    rights_basis: 'Public Domain (pd-us-by-date: published 1902); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 555,992 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: macedo-soares_a-guerra-de-canudos-por_1902.txt
+  - title: 'Seven Lectures on the Second Coming of the Lord. Delivered in Toronto, in 1863, by J. N. Darby. From revised notes'
+    author: 'J. N. Darby'
+    year: '1863'
+    world: plymouth-brethren-and-dispensational-formation
+    why: 'Wanted Sources, era 9 row 181, John Nelson Darby: lectures of his own.'
+    url: https://archive.org/details/cihm_07686
+    rights_basis: 'Public Domain (pd-us-by-date: published 1863); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 334,394 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: darby_seven-lectures-on-the-second-coming-of-the-lord_toronto1863.txt
+  - title: 'STUDIES ON THE BOOK OF DANIEL: A COURSE OF LECTURES BY J. N. DARBY. TRANSLATED FROM THE FRENCH, AND REVISED BY THE AUTHOR. Third Edition'
+    author: 'J. N. Darby; translated from the French, and revised by the author'
+    year: '1864'
+    world: plymouth-brethren-and-dispensational-formation
+    why: 'Wanted Sources, era 9 row 181, John Nelson Darby: lectures of his own, translated from the French.'
+    url: https://archive.org/details/studiesonbookda00darbgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1864); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 223,101 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: darby_studies-on-the-book-of-daniel_3rd-ed1864.txt
+  - title: 'DIALOGUES ON THE ESSAYS AND REVIEWS. Second edition, revised'
+    author: 'By one who values Christianity for its own sake, and believes in it as a revelation from God'
+    year: '1863'
+    world: plymouth-brethren-and-dispensational-formation
+    why: 'Wanted Sources, era 9 row 181, John Nelson Darby: a book of his own, printed without his name.'
+    url: https://archive.org/details/dialoguesonessa00darbgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1863); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,202,000 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: darby_dialogues-on-the-essays-and-reviews_2nd-ed1863.txt
+  - title: 'AGGRESSIVE CHRISTIANITY. PRACTICAL SERMONS BY MRS. CATHERINE BOOTH, WITH AN INTRODUCTION BY DANIEL STEELE, D.D'
+    author: 'Mrs. Catherine Booth; introduction by Daniel Steele, D.D.'
+    year: '1883'
+    world: the-salvation-army
+    why: 'Wanted Sources, era 9 row 191, Catherine Booth: Aggressive Christianity.'
+    url: https://archive.org/details/aggressivechrist00boot_0
+    rights_basis: 'Public Domain (pd-us-by-date: published 1883); the archive.org record says possible-copyright-status The Library of Congress is unaware of any copyright restrictions for this item., and the date agrees; the date used is that of the copyright notice at line 51 of this file (''Entered, according to Act of Congress, in the year 1883,''); the title page prints no year'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 350,057 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: booth-catherine_aggressive-christianity_boston1883.txt
+  - title: 'GODLINESS. Being reports of a series of addresses delivered at James''s Hall, London, W., during 1881'
+    author: 'Mrs. Catherine Booth; introduction by Daniel Steele, D.D.'
+    year: '1883'
+    world: the-salvation-army
+    why: 'Wanted Sources, era 9 row 191, Catherine Booth: Godliness, her addresses of 1881.'
+    url: https://archive.org/details/godlinessbeingre00boot
+    rights_basis: 'Public Domain (pd-us-by-date: published 1883); the archive.org record carries no rights field, so the date named here is the basis; the date used is that of the copyright notice at line 103 of this file (''Entered, according to Act oi Congress, in the year 1883,''); the title page prints no year'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 307,911 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: booth-catherine_godliness_1883.txt
+  - title: 'Fifty-Three Years in Syria. In Two Volumes. Volume I'
+    author: 'Henry Harris Jessup, D.D.; Introduction by James S. Dennis, D.D.'
+    year: '1910'
+    world: arab-evangelical-churches
+    why: 'Wanted Sources, era 9 rows 324, 325 and 326, Pliny Fisk, the Arabic Bible translators and Asaad es Shidiak: Jessup''s memoir, vol. 1.'
+    url: https://archive.org/details/fiftythreeyears00unkngoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1910); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the date agrees; the date used is that of the copyright notice at line 146 of this file (''Copyright, 1910, by''); the title page prints no year'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 881,674 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: jessup_fifty-three-years-in-syria-v1_1910.txt
+  - title: 'A Retrospect of the First Ten Years of the Protestant Mission to China, (now, in connection with the Malay, denominated, the Ultra-Ganges Missions.) Accompanied with Miscellaneous Remarks on the Literature, History, and Mythology of China, &c'
+    author: 'William Milne'
+    year: '1820'
+    world: the-missionary-movement-s-native-churches-seramp
+    why: 'Wanted Sources, era 9 row 311, Liang Fa: the missionary''s account of a baptism in 1816.'
+    url: https://archive.org/details/aretrospectfirs00milngoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1820); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 665,398 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: milne_retrospect-of-the-first-ten-years-of-the-protestant-mission-to-china_1820.txt
+  - title: 'The Story of Uganda and the Victoria Nyanza Mission. With a map and illustrations'
+    author: 'Sarah Geraldina Stock'
+    year: '1892'
+    world: east-african-christianity-uganda-martyrs
+    why: 'Wanted Sources, era 9 row 318, Joseph Mukasa Balikuddembe: a mission history that names him.'
+    url: https://archive.org/details/storyofuganda00stocuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1892); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 419,898 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: stock_story-of-uganda-and-the-victoria-nyanza-mission_1892.txt
+  - title: 'Le Cardinal Lavigerie et ses œuvres d''Afrique. Nouvelle édition complètement refondue'
+    author: 'L''abbé Félix Klein, professeur à l''Institut catholique de Paris'
+    year: '1897'
+    world: east-african-christianity-uganda-martyrs
+    why: 'Wanted Sources, era 9 rows 210 and 318, Charles Lwanga and Joseph Mukasa Balikuddembe: a French account that names both.'
+    url: https://archive.org/details/lecardinallavige00kleiuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1897); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 752,443 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: klein_le-cardinal-lavigerie-et-ses-oeuvres-d-afrique-fra_1897.txt
+  - title: 'Das Bulgarische Exarchat und der Mazedonische Kirchenstreit. Inaugural-Dissertation zur Erlangung der Doktorwürde bei der Juristischen Fakultät der Universität Leipzig'
+    author: 'Kurt Scheffler, Dragoman der Kaiserl. Botschaft in Konstantinopel'
+    year: '1909'
+    world: orthodoxy-after-1821-balkan-autocephalies
+    why: 'Wanted Sources, era 9 row 302, Antim I: the firman of 1870 in German, in a dissertation.'
+    url: https://archive.org/details/IA41545812_0035
+    rights_basis: 'Public Domain (pd-us-by-date: published 1909); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 100,997 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: scheffler_das-bulgarische-exarchat-und-der-mazedonische-kirchenstreit-deu_1909.txt
+  - title: 'Raccolta di concordati su materie ecclesiastiche tra la Santa Sede e le autorità civili'
+    author: 'not named on the title page'
+    year: '1919'
+    world: haitian-church-rupture-to-concordat
+    why: 'Wanted Sources, era 9 row 284, Fabre Geffrard: the text of the Concordat of 1860, in a Vatican collection.'
+    url: https://archive.org/details/raccoltadiconcor00cathuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1919); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 4,219,082 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: mercati_raccolta-di-concordati-ita-fra-lat_1919.txt
+  - title: 'A Narrative of Captivity in Abyssinia; with some account of the late Emperor Theodore, his country and people'
+    author: 'Henry Blanc, M.D., M.R.C.S.E., F.A.S.L., etc., Staff Assistant-Surgeon Her Majesty''s Bombay Army (lately on special duty in Abyssinia)'
+    year: '1868'
+    world: ethiopian-christianity-tewodros-to-menelik
+    why: 'Wanted Sources, era 9 rows 306 and 307, Tewodros II and Abuna Salama III: a captive''s account.'
+    url: https://archive.org/details/narrativeofcapti00blan
+    rights_basis: 'Public Domain (pd-us-by-date: published 1868); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 702,073 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: blanc_narrative-of-captivity-in-abyssinia_1868.txt
+  - title: 'The Martyr Church: a narrative of the introduction, progress, and triumph of Christianity in Madagascar, with notices of personal intercourse and travel in that island. Third thousand'
+    author: 'Rev. William Ellis, author of ''Polynesian Researches,'' ''Three Visits to Madagascar,'' &c., &c.'
+    year: '1870'
+    world: malagasy-christianity
+    why: 'Wanted Sources, era 9 rows 316 and 317, Ranavalona I and Ranavalona II: Ellis''s later narrative.'
+    url: https://archive.org/details/martyrchurchnarr00ell
+    rights_basis: 'Public Domain (pd-us-by-date: published 1870); the archive.org record says possible-copyright-status The Library of Congress is unaware of any copyright restrictions for this item., and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 786,878 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: ellis_martyr-church-christianity-in-madagascar_1870.txt
   - title: 'Histoire de Loango, Kakongo, et autres royaumes d''Afrique; rédigée d''après les mémoires des préfets apostoliques de la mission françoise; enrichie d''une carte utile aux navigateurs'
     author: 'Liévin-Bonaventure Proyart'
     year: '1776'

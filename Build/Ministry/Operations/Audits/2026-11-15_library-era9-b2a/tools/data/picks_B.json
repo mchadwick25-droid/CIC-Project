@@ -1,0 +1,420 @@
+[
+ {
+  "row": 279,
+  "person": "Andrey Sheptytsky",
+  "serves": "his 1901 pastoral letter",
+  "ia_id": "o-pokaianiiu-vii-lyst-pastyrskii",
+  "local": "/tmp/claude-0/-home-user-CIC-Project/39e3938f-160e-5665-9646-ae4332ae3602/scratchpad/gB/dl/o-pokaianiiu-vii-lyst-pastyrskii_djvu.txt",
+  "title_page_words": "О ПОКАЯНІЮ. ЛИСТЬ ПАСТИРСКІЙ Высокопреосвященого АНДРЕЯ ШЕПТИЦКОГО, Митрополита Галицкого ... до вірныхь своихь епархій. ЖОВКВА ПЕЧАТНЯ ОО. ВАСИЛІЯНЬ 1901",
+  "author_as_printed": "АНДРЕЙ ШЕПТИЦКІЙ",
+  "editor_translator_as_printed": null,
+  "place_publisher_as_printed": "Жовква, Печатня ОО. Василіян",
+  "imprint_year": 1901,
+  "imprint_read_at": "OCR lines 64-67",
+  "first_published": "1901",
+  "host_rights": {
+   "possible-copyright-status": "absent",
+   "licenseurl": "absent",
+   "rights": "absent",
+   "access-restricted-item": "absent"
+  },
+  "language": "ukr",
+  "bytes": 122634,
+  "listed": 122634,
+  "match": true,
+  "words": 2642,
+  "ocr_quality": "fair: old orthography, some noise, junk lines 2270-2291",
+  "divisions": "one letter",
+  "text_start_line": 41,
+  "text_end_line": 2268,
+  "editorial_matter": "see divisions",
+  "mixed_voices": "not checked in full",
+  "wanted_passages": [
+   {
+    "what": "whole letter",
+    "ocr_lines": "41-2268"
+   }
+  ],
+  "front_and_back": "see cautions",
+  "undated_basis": null,
+  "cautions": "Host says 7th pastoral letter; numeral garbled in OCR; opensource user upload; only 2642 words OCR'd for 122 KB",
+  "library_stamps_or_reprint_signs": "no reprint notice found at front or back (grep for reprint/microfilm)"
+ },
+ {
+  "row": 279,
+  "person": "Andrey Sheptytsky",
+  "serves": "his book-letter to Ruthenians in Canada",
+  "ia_id": "herbarzpolskipow01niesuoft_202605",
+  "local": "/tmp/claude-0/-home-user-CIC-Project/39e3938f-160e-5665-9646-ae4332ae3602/scratchpad/gB/dl/herbarzpolskipow01niesuoft_202605_djvu.txt",
+  "title_page_words": "КАНАДЯЙСКИМ РУСИНАМ НАПИСАВ Митрополит Андрей Шептицкий. ЖОВКВА Печатня ОО. Василиян 1911.",
+  "author_as_printed": "Митрополит Андрей Шептицкий",
+  "editor_translator_as_printed": null,
+  "place_publisher_as_printed": "Жовква, Печатня ОО. Василіян",
+  "imprint_year": 1911,
+  "imprint_read_at": "OCR lines 1-12",
+  "first_published": "1911",
+  "host_rights": {
+   "possible-copyright-status": "absent",
+   "licenseurl": "absent",
+   "rights": "absent",
+   "access-restricted-item": "absent"
+  },
+  "language": "ukr",
+  "bytes": 212638,
+  "listed": 212638,
+  "match": true,
+  "words": 4417,
+  "ocr_quality": "clean to fair",
+  "divisions": "foreword from line 15; contents near end",
+  "text_start_line": 15,
+  "text_end_line": 3940,
+  "editorial_matter": "see divisions",
+  "mixed_voices": "not checked in full",
+  "wanted_passages": [
+   {
+    "what": "whole text",
+    "ocr_lines": "15-3940"
+   }
+  ],
+  "front_and_back": "see cautions",
+  "undated_basis": null,
+  "cautions": "Archive id is misleading (herbarzpolski...) but content is Sheptytsky's; opensource user upload",
+  "library_stamps_or_reprint_signs": "no reprint notice found at front or back (grep for reprint/microfilm)"
+ },
+ {
+  "row": 290,
+  "person": "Maronite patriarch of 1840-60 (outside account)",
+  "serves": "Churchill, hostile outside witness",
+  "ia_id": "druzesmaronitesu00churuoft",
+  "local": "/tmp/claude-0/-home-user-CIC-Project/39e3938f-160e-5665-9646-ae4332ae3602/scratchpad/gB/dl/druzesmaronitesu00churuoft_djvu.txt",
+  "title_page_words": "THE DRUZES AND THE MARONITES under the Turkish rule FROM 1840 TO 1860 BY COLONEL CHURCHILL LONDON BERNARD QUARITCH 15 PICCADILLY 1862",
+  "author_as_printed": "Colonel Churchill",
+  "editor_translator_as_printed": null,
+  "place_publisher_as_printed": "London, Bernard Quaritch",
+  "imprint_year": 1862,
+  "imprint_read_at": "OCR lines 22-43",
+  "first_published": "1862",
+  "host_rights": {
+   "possible-copyright-status": "NOT_IN_COPYRIGHT",
+   "licenseurl": "absent",
+   "rights": "absent",
+   "access-restricted-item": "absent"
+  },
+  "language": "eng",
+  "bytes": 392296,
+  "listed": 392296,
+  "match": true,
+  "words": 55487,
+  "ocr_quality": "clean",
+  "divisions": "contents line 144",
+  "text_start_line": 64,
+  "text_end_line": 8780,
+  "editorial_matter": "see divisions",
+  "mixed_voices": "not checked in full",
+  "wanted_passages": [
+   {
+    "what": "Maronite patriarch passages",
+    "ocr_lines": "1331-1780, 2504-2800"
+   }
+  ],
+  "front_and_back": "see cautions",
+  "undated_basis": null,
+  "cautions": "Massad/Dolci/Hoyek not named in grep; patriarch unnamed in lines seen",
+  "library_stamps_or_reprint_signs": "no reprint notice found at front or back (grep for reprint/microfilm)"
+ },
+ {
+  "row": 299,
+  "person": "Armenian National Constitution of 1863",
+  "serves": "its full English text",
+  "ia_id": "armeniatravelsst02lync_0",
+  "local": "/tmp/claude-0/-home-user-CIC-Project/39e3938f-160e-5665-9646-ae4332ae3602/scratchpad/gB/dl/armeniatravelsst02lync_0_djvu.txt",
+  "title_page_words": "ARMENIA Travels and Studies H. F. B. LYNCH IN TWO VOLUMES ... VOL. II ... 1901",
+  "author_as_printed": "H. F. B. Lynch",
+  "editor_translator_as_printed": null,
+  "place_publisher_as_printed": "London, Longmans, Green (host record); title page prints 1901",
+  "imprint_year": 1901,
+  "imprint_read_at": "OCR line 77",
+  "first_published": "1901",
+  "host_rights": {
+   "possible-copyright-status": "absent",
+   "licenseurl": "absent",
+   "rights": "absent",
+   "access-restricted-item": "absent"
+  },
+  "language": "eng",
+  "bytes": 1658373,
+  "listed": 1658373,
+  "match": true,
+  "words": 246295,
+  "ocr_quality": "clean",
+  "divisions": "Appendix I contents line 222",
+  "text_start_line": 1,
+  "text_end_line": 33998,
+  "editorial_matter": "see divisions",
+  "mixed_voices": "not checked in full",
+  "wanted_passages": [
+   {
+    "what": "Appendix I National Constitution",
+    "ocr_lines": "24068-25555"
+   }
+  ],
+  "front_and_back": "see cautions",
+  "undated_basis": null,
+  "cautions": "Vol 2 of 2; Odian not seen named; take only Appendix I",
+  "library_stamps_or_reprint_signs": "no reprint notice found at front or back (grep for reprint/microfilm)"
+ },
+ {
+  "row": 299,
+  "person": "Armenian Zartonk (account)",
+  "serves": "Church history with 1863 constitution",
+  "ia_id": "thechurchofarmen00ormauoft",
+  "local": "/tmp/claude-0/-home-user-CIC-Project/39e3938f-160e-5665-9646-ae4332ae3602/scratchpad/gB/dl/thechurchofarmen00ormauoft_djvu.txt",
+  "title_page_words": "THE CHURCH OF ARMENIA her history, doctrine, rule, discipline, liturgy, literature and existing condition MALACHIA ORMANIAN translated from the French by G. Marcar Gregory A. R. Mowbray",
+  "author_as_printed": "Malachia Ormanian",
+  "editor_translator_as_printed": "G. Marcar Gregory",
+  "place_publisher_as_printed": "London, A. R. Mowbray",
+  "imprint_year": 1912,
+  "imprint_read_at": "no year on title page; preface dated OCR line 232",
+  "first_published": "1912",
+  "host_rights": {
+   "possible-copyright-status": "NOT_IN_COPYRIGHT",
+   "licenseurl": "absent",
+   "rights": "absent",
+   "access-restricted-item": "absent"
+  },
+  "language": "eng",
+  "bytes": 566416,
+  "listed": 566416,
+  "match": true,
+  "words": 80981,
+  "ocr_quality": "clean",
+  "divisions": "",
+  "text_start_line": null,
+  "text_end_line": null,
+  "editorial_matter": "see divisions",
+  "mixed_voices": "not checked in full",
+  "wanted_passages": [
+   {
+    "what": "constitution of 1863",
+    "ocr_lines": "6900-6960"
+   }
+  ],
+  "front_and_back": "see cautions",
+  "undated_basis": "(b) preface OCR 232 'March i6th, 1912.' and 492 'March i8th, 1912.'; marc '008: 900510s1912 enk eng e', '260: London : A.R. Mowbray, [pref. 1912]'",
+  "cautions": "Undated title page",
+  "library_stamps_or_reprint_signs": "no reprint notice found at front or back (grep for reprint/microfilm)"
+ },
+ {
+  "row": 300,
+  "person": "Theoklitos Pharmakidis",
+  "serves": "a polemic on the oath, Athens 1849",
+  "ia_id": "oikonomoshoexoi00phargoog",
+  "local": "/tmp/claude-0/-home-user-CIC-Project/39e3938f-160e-5665-9646-ae4332ae3602/scratchpad/gB/dl/oikonomoshoexoi00phargoog_djvu.txt",
+  "title_page_words": "ΟΙΚΟΝΟΜΟΣ Ο ΕΞ ΟΙΚΟΝΟΜΩΝ Η ΠΕΡΙ ΟΡΚΟΥ. ΕΝ ΑΘΗΝΑΙΣ, ΕΚ ΤΗΣ ΤΥΠΟΓΡΑΦΙΑΣ ΝΙΚΟΛΑΟΥ ΑΓΓΕΛΙΔΟΥ ... 1849",
+  "author_as_printed": "not printed on title page (host: Theoklētos Pharmakidēs)",
+  "editor_translator_as_printed": null,
+  "place_publisher_as_printed": "Athens, N. Angelidou",
+  "imprint_year": 1849,
+  "imprint_read_at": "page image leaf 7",
+  "first_published": "1849",
+  "host_rights": {
+   "possible-copyright-status": "NOT_IN_COPYRIGHT",
+   "licenseurl": "absent",
+   "rights": "absent",
+   "access-restricted-item": "absent"
+  },
+  "language": "gre",
+  "bytes": 728619,
+  "listed": 728619,
+  "match": true,
+  "words": 26808,
+  "ocr_quality": "fair: monotonic-era Greek readable but noisy, first ~80 lines Google boilerplate garbled",
+  "divisions": "",
+  "text_start_line": 84,
+  "text_end_line": 8801,
+  "editorial_matter": "see divisions",
+  "mixed_voices": "not checked in full",
+  "wanted_passages": [
+   {
+    "what": "whole text",
+    "ocr_lines": "~100-8700"
+   }
+  ],
+  "front_and_back": "see cautions",
+  "undated_basis": null,
+  "cautions": "Author from host record only; not the Synodikos Tomos or Apologia; subject not checked against row; Google scan",
+  "library_stamps_or_reprint_signs": "no reprint notice found at front or back (grep for reprint/microfilm)"
+ },
+ {
+  "row": 324,
+  "person": "Pliny Fisk",
+  "serves": "Jessup vol 1",
+  "ia_id": "fiftythreeyearsi0000jess",
+  "local": "/tmp/claude-0/-home-user-CIC-Project/39e3938f-160e-5665-9646-ae4332ae3602/scratchpad/gB/dl/fiftythreeyearsi0000jess_djvu.txt",
+  "title_page_words": "FIFTY-THREE YEARS IN SYRIA BY HENRY HARRIS JESSUP, D.D. ... IN TWO VOLUMES VOLUME I Fleming H. Revell Company",
+  "author_as_printed": "Henry Harris Jessup",
+  "editor_translator_as_printed": null,
+  "place_publisher_as_printed": "New York, Fleming H. Revell Company",
+  "imprint_year": 1910,
+  "imprint_read_at": "no year on title page; OCR 77-78 'Copyright, 1910'",
+  "first_published": "1910",
+  "host_rights": {
+   "possible-copyright-status": "absent",
+   "licenseurl": "absent",
+   "rights": "absent",
+   "access-restricted-item": "absent"
+  },
+  "language": "eng",
+  "bytes": 874573,
+  "listed": 874573,
+  "match": true,
+  "words": 150087,
+  "ocr_quality": "clean",
+  "divisions": "",
+  "text_start_line": 59,
+  "text_end_line": 19388,
+  "editorial_matter": "see divisions",
+  "mixed_voices": "not checked in full",
+  "wanted_passages": [
+   {
+    "what": "Fisk",
+    "ocr_lines": "1727-1850"
+   },
+   {
+    "what": "Arabic Bible",
+    "ocr_lines": "3225-3600"
+   }
+  ],
+  "front_and_back": "see cautions",
+  "undated_basis": "(a) copyright OCR 77-78 'Copyright, 1910, by FLEMING H. REVELL COMPANY'",
+  "cautions": "Vol 1 of 2, paged continuously",
+  "library_stamps_or_reprint_signs": "no reprint notice found at front or back (grep for reprint/microfilm)"
+ },
+ {
+  "row": 325,
+  "person": "Butrus el Bistany and Nasif el Yazigy",
+  "serves": "Jessup vol 2",
+  "ia_id": "fiftythreeyearsi02jess",
+  "local": "/tmp/claude-0/-home-user-CIC-Project/39e3938f-160e-5665-9646-ae4332ae3602/scratchpad/gB/dl/fiftythreeyearsi02jess_djvu.txt",
+  "title_page_words": "FIFTY-THREE YEARS IN SYRIA ... IN TWO VOLUMES VOLUME II Fleming H. Revell Company",
+  "author_as_printed": "Henry Harris Jessup",
+  "editor_translator_as_printed": null,
+  "place_publisher_as_printed": "New York, Fleming H. Revell Company",
+  "imprint_year": 1910,
+  "imprint_read_at": "no year on title page; OCR 59-60 'Copyright, 1910'",
+  "first_published": "1910",
+  "host_rights": {
+   "possible-copyright-status": "NOT_IN_COPYRIGHT",
+   "licenseurl": "absent",
+   "rights": "absent",
+   "access-restricted-item": "absent"
+  },
+  "language": "eng",
+  "bytes": 1062896,
+  "listed": 1062896,
+  "match": true,
+  "words": 159322,
+  "ocr_quality": "clean",
+  "divisions": "",
+  "text_start_line": 1,
+  "text_end_line": 23915,
+  "editorial_matter": "see divisions",
+  "mixed_voices": "not checked in full",
+  "wanted_passages": [
+   {
+    "what": "Yazigy",
+    "ocr_lines": "445,473"
+   },
+   {
+    "what": "Bistany",
+    "ocr_lines": "3669-3740"
+   }
+  ],
+  "front_and_back": "see cautions",
+  "undated_basis": "(a) copyright OCR 59-60 'Copyright, 1910, by FLEMING H. REVELL COMPANY'",
+  "cautions": "Vol 2 of 2",
+  "library_stamps_or_reprint_signs": "no reprint notice found at front or back (grep for reprint/microfilm)"
+ },
+ {
+  "row": 324,
+  "person": "Pliny Fisk",
+  "serves": "Bond's memoir",
+  "ia_id": "memoirofrevpliny00bondrich",
+  "local": "/tmp/claude-0/-home-user-CIC-Project/39e3938f-160e-5665-9646-ae4332ae3602/scratchpad/gB/dl/memoirofrevpliny00bondrich_djvu.txt",
+  "title_page_words": "MEMOIR OF THE REV. PLINY FISK, A.M. LATE MISSIONARY TO PALESTINE. BY ALVAN BOND ... CROCKER AND BREWSTER ... 1828",
+  "author_as_printed": "Alvan Bond",
+  "editor_translator_as_printed": null,
+  "place_publisher_as_printed": "Boston, Crocker and Brewster",
+  "imprint_year": 1828,
+  "imprint_read_at": "OCR lines 40-46",
+  "first_published": "1828",
+  "host_rights": {
+   "possible-copyright-status": "NOT_IN_COPYRIGHT",
+   "licenseurl": "absent",
+   "rights": "absent",
+   "access-restricted-item": "absent"
+  },
+  "language": "eng",
+  "bytes": 989830,
+  "listed": 989830,
+  "match": true,
+  "words": 150333,
+  "ocr_quality": "clean to fair",
+  "divisions": "contents line 252",
+  "text_start_line": 47,
+  "text_end_line": 20135,
+  "editorial_matter": "see divisions",
+  "mixed_voices": "not checked in full",
+  "wanted_passages": [
+   {
+    "what": "Fisk journals and letters",
+    "ocr_lines": "throughout"
+   }
+  ],
+  "front_and_back": "see cautions",
+  "undated_basis": null,
+  "cautions": "Bond narrates and prints Fisk's own letters",
+  "library_stamps_or_reprint_signs": "no reprint notice found at front or back (grep for reprint/microfilm)"
+ },
+ {
+  "row": 326,
+  "person": "Asaad es Shidiak",
+  "serves": "Memoir of Asaad Esh Shidiak",
+  "ia_id": "ldpd_16074813_000",
+  "local": "/tmp/claude-0/-home-user-CIC-Project/39e3938f-160e-5665-9646-ae4332ae3602/scratchpad/gB/dl/ldpd_16074813_000_djvu.txt",
+  "title_page_words": "MEMOIR OF ASAAD ESH SHIDIAK. BOSTON: CROCKER & BREWSTER, PRINTERS. 1834.",
+  "author_as_printed": "not on title page (host: Isaac Bird, Asaad Shidyaq)",
+  "editor_translator_as_printed": null,
+  "place_publisher_as_printed": "Boston, Crocker & Brewster",
+  "imprint_year": 1834,
+  "imprint_read_at": "OCR lines 19-28",
+  "first_published": "1834",
+  "host_rights": {
+   "possible-copyright-status": "absent",
+   "licenseurl": "absent",
+   "rights": "absent",
+   "access-restricted-item": "absent"
+  },
+  "language": "eng",
+  "bytes": 124345,
+  "listed": 124345,
+  "match": true,
+  "words": 22312,
+  "ocr_quality": "fair",
+  "divisions": "",
+  "text_start_line": 30,
+  "text_end_line": 3152,
+  "editorial_matter": "see divisions",
+  "mixed_voices": "not checked in full",
+  "wanted_passages": [
+   {
+    "what": "whole memoir",
+    "ocr_lines": "30-3150"
+   }
+  ],
+  "front_and_back": "see cautions",
+  "undated_basis": null,
+  "cautions": "Duplicate scan ldpd_13573866_000 not taken",
+  "library_stamps_or_reprint_signs": "no reprint notice found at front or back (grep for reprint/microfilm)"
+ }
+]

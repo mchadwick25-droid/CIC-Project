@@ -1,0 +1,21 @@
+source_file: darby_seven-lectures-on-the-second-coming-of-the-lord_toronto1863.txt
+assignments:
+- row_id: darby_seven-lectures-on-the-second-coming-of-the-lord_toronto1863--seven-lectures-on-the-second-coming-of-the-lord-delivered-in
+  work: Seven Lectures on the Second Coming of the Lord. Delivered in Toronto, in 1863, by J. N. Darby. From revised
+  author: darby
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - plymouth-brethren-and-dispensational-formation
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1863
+    end: 1863
+    source: 'the printing''s own title page: line 44 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1863
+    source: line 44 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 181, John Nelson Darby: lectures of his own.'

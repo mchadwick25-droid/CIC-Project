@@ -12,3 +12,23 @@ assignments:
   language: fra
   date: {start: 1894, end: 1894, source: "title page: 1894", formation_confidence: Documented}
   note: 'The Society''s history from 1754 to 1836. A later account from the mission''s side.'
+- row_id: launay_histoire-generale-de-la-societe-des-missions-etrangeres-t2-fra_1894--launay-histoire-generale-tome-2-minh-mang-edict-1833
+  work: Histoire générale de la Société des Missions-Étrangères par Adrien Launay, de la même Société. Tome deuxième
+  author: launay
+  locus: Minh-mang's edict dated 6 January 1833 at lines 47316-47419; Chapter XII, 1823-1836, at lines 45869-50743;
+    the rest not mapped
+  atlas_ids:
+  - vietnamese-catholicism-1815-1906
+  role: context
+  confidence: provisional
+  language: fra
+  date:
+    start: 1894
+    end: 1894
+    source: 'the printing''s own title page: line 66 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1894
+    source: line 66 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 289, Minh Mang: the edict of 1833 in the Paris Mission''s history, in French.'

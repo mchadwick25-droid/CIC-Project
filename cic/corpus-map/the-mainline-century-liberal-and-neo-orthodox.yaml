@@ -24,8 +24,8 @@ works:
     15, 19, and 22, 1892
   author: briggs
   locus: the whole volume; not mapped
-  role: tradition
-  confidence: needs-ruling
+  role: antecedent
+  confidence: assigned
   language: eng
   date:
     start: 1893
@@ -36,7 +36,8 @@ works:
     year: 1893
     source: OCR line 25, on the title page
     formation_confidence: Documented
-  note: 'Era 9 row 216, Charles A. Briggs: his own defence at the trial.'
+  note: 'Era 9 row 216, Charles A. Briggs: his own defence at the trial. His own text of 1893,
+    written before the entry''s window opens; the entry grows from this dispute.'
   source_file: briggs_defence-before-the-presbytery-of-new-york_1893.txt
 - row_id: briggs-trial_case-against-professor-briggs-pt1_1892--the-case-against-professor-briggs-i-the-charges-and
   work: The Case against Professor Briggs. I. The Charges and Specifications submitted to
@@ -45,7 +46,7 @@ works:
   locus: Item I, the Charges and Specifications, at OCR lines 243-856; Item II, Response of
     Professor Briggs, at OCR lines 857-2210; add 12 to OCR line numbers; the rest not mapped
   role: context
-  confidence: needs-ruling
+  confidence: assigned
   language: eng
   date:
     start: 1892
@@ -56,7 +57,8 @@ works:
     year: 1892
     source: OCR line 99, on the title page
     formation_confidence: Documented
-  note: 'Era 9 row 216, Charles A. Briggs: the trial record, part I.'
+  note: 'Era 9 row 216, Charles A. Briggs: the trial record, part I. A record of the case
+    made by others, printed in 1892, before the entry''s window opens.'
   source_file: briggs-trial_case-against-professor-briggs-pt1_1892.txt
 - row_id: briggs-trial_case-against-professor-briggs-pt3_1893--the-defence-of-professor-briggs-before-the-general-assembly
   work: 'The Defence of Professor Briggs before the General Assembly: The Case against Professor
@@ -66,7 +68,7 @@ works:
     argument against sustaining the appeal at OCR lines 6045-13317; add 12 to OCR line numbers;
     the rest not mapped
   role: context
-  confidence: needs-ruling
+  confidence: assigned
   language: eng
   date:
     start: 1893
@@ -77,7 +79,8 @@ works:
     year: 1893
     source: OCR line 52, on the title page
     formation_confidence: Documented
-  note: 'Era 9 row 216, Charles A. Briggs: the trial record, part III.'
+  note: 'Era 9 row 216, Charles A. Briggs: the trial record, part III. A record of the case
+    made by others, printed in 1893, before the entry''s window opens.'
   source_file: briggs-trial_case-against-professor-briggs-pt3_1893.txt
 - row_id: bultmann_jesus-deu_1926--bultmann-jesus-1926
   work: Bultmann, Jesus (1926)

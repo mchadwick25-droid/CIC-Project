@@ -1,0 +1,22 @@
+source_file: klein_le-cardinal-lavigerie-et-ses-oeuvres-d-afrique-fra_1897.txt
+assignments:
+- row_id: klein_le-cardinal-lavigerie-et-ses-oeuvres-d-afrique-fra_1897--le-cardinal-lavigerie-et-ses-uvres-d-afrique-nouvelle
+  work: Le Cardinal Lavigerie et ses œuvres d'Afrique. Nouvelle édition complètement refondue
+  author: klein
+  locus: the death of Joseph Mkasa at lines 7022-7045; Charles Louanga and the pages arrested, bound and burned
+    at lines 7154-7220; the rest not mapped
+  atlas_ids:
+  - east-african-christianity-uganda-martyrs
+  role: context
+  confidence: provisional
+  language: fra
+  date:
+    start: 1897
+    end: 1897
+    source: 'the printing''s own title page: line 98 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1897
+    source: line 98 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 rows 210 and 318, Charles Lwanga and Joseph Mukasa Balikuddembe: a French account that names both.'

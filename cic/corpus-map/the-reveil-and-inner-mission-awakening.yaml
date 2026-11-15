@@ -10,7 +10,7 @@ works:
   locus: Table of contents at OCR lines 297-682; add 12 to OCR line numbers; the rest not
     mapped
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   language: deu
   date:
     start: 1886
@@ -21,7 +21,8 @@ works:
     year: 1886
     source: OCR line 201, on the title page
     formation_confidence: Documented
-  note: 'Era 9 row 223, the Fliedners: Kaiserswerth''s own jubilee memoir, in German.'
+  note: 'Era 9 row 223, the Fliedners: Kaiserswerth''s own jubilee memoir, in German. The
+    house''s own memoir, printed in 1886, six years after the entry''s window closes.'
   source_file: disselhoff_jubilate-denkschrift-kaiserswerth-deu_1886.txt
 - row_id: fliedner-life_life-of-pastor-fliedner-of-kaiserswerth_winkworth1867--life-of-pastor-fliedner-of-kaiserswerth-translated-from-the
   work: 'Life of Pastor Fliedner of Kaiserswerth. Translated from the German by Catherine

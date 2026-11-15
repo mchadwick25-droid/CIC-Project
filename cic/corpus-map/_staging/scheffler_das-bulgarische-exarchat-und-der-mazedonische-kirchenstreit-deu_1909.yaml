@@ -1,0 +1,22 @@
+source_file: scheffler_das-bulgarische-exarchat-und-der-mazedonische-kirchenstreit-deu_1909.txt
+assignments:
+- row_id: scheffler_das-bulgarische-exarchat-und-der-mazedonische-kirchenstreit-deu_1909--das-bulgarische-exarchat-und-der-mazedonische-kirchenstreit
+  work: Das Bulgarische Exarchat und der Mazedonische Kirchenstreit. Inaugural-Dissertation zur Erlangung der
+  author: scheffler
+  locus: the firman of 11 March 1870 in German, articles 1-11, at lines 1117-1263; the election of the exarch Anthimos
+    and the events of 1872 at lines 1319-1347; the rest not mapped
+  atlas_ids:
+  - orthodoxy-after-1821-balkan-autocephalies
+  role: context
+  confidence: provisional
+  language: deu
+  date:
+    start: 1909
+    end: 1909
+    source: 'the printing''s own title page: line 46 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1909
+    source: line 46 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 302, Antim I: the firman of 1870 in German, in a dissertation.'

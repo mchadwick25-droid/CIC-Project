@@ -1,0 +1,21 @@
+source_file: stock_story-of-uganda-and-the-victoria-nyanza-mission_1892.txt
+assignments:
+- row_id: stock_story-of-uganda-and-the-victoria-nyanza-mission_1892--the-story-of-uganda-and-the-victoria-nyanza-mission-with-a
+  work: The Story of Uganda and the Victoria Nyanza Mission. With a map and illustrations
+  author: stock
+  locus: the death of Balikudembe Mukasa at lines 4386-4413; the rest not mapped
+  atlas_ids:
+  - east-african-christianity-uganda-martyrs
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1892
+    end: 1892
+    source: 'the printing''s own title page: line 34 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1892
+    source: line 34 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 318, Joseph Mukasa Balikuddembe: a mission history that names him.'

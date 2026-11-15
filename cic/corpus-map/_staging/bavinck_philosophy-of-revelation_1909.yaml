@@ -8,7 +8,7 @@ assignments:
   atlas_ids:
   - dutch-neo-calvinism-secession-churches
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   language: eng
   date:
     start: 1909
@@ -19,4 +19,5 @@ assignments:
     year: 1909
     source: OCR line 98, on the title page
     formation_confidence: Documented
-  note: 'Era 9 row 194, Herman Bavinck: an English print of his own lectures.'
+  note: 'Era 9 row 194, Herman Bavinck: an English print of his own lectures. The tradition''s own text, printed
+    in 1909, three years after the entry''s window closes.'
