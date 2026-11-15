@@ -1,0 +1,174 @@
+{
+ "thechurchofarmen00ormauoft": {
+  "nodate": true,
+  "basis_re": "March i6th, 1912",
+  "basis_tpl": "the dated preface at line {n} of this file ('{t}'), with which the library catalogue record of the item agrees (MARC 260: 'London : A.R. Mowbray, [pref. 1912]'; 008 date 1912); the title page prints no year"
+ },
+ "captivemissionar00ster_0": {
+  "nodate": true,
+  "basis_re": "October 26th, 1868",
+  "basis_tpl": "the dated preface at line {n} of this file ('{t}'), with which the library catalogue record of the item agrees (MARC 260: 'London : Cassell, Petter, and Galpin, [1868]'); the title page prints no year",
+  "final_sub": {
+   "title": [
+    "[words lost in OCR]",
+    "[...]"
+   ]
+  }
+ },
+ "lifelettersofjos00hardiala": {
+  "nodate": true,
+  "basis_re": "Copyright, 1891",
+  "basis_tpl": "the copyright notice at line {n} of this file ('{t}'); the title page prints no year"
+ },
+ "diaryofjapanesec00uchirich": {
+  "nodate": true,
+  "basis_re": "Copyright, 1895",
+  "basis_tpl": "the copyright notice at line {n} of this file ('{t}'); the title page prints no year"
+ },
+ "fiftythreeyearsi02jess": {
+  "nodate": true,
+  "basis_re": "Copyright, 1910",
+  "basis_tpl": "the copyright notice at line {n} of this file ('{t}'); the title page prints no year",
+  "note_add": "A missionary's own memoir, printed in 1910, four years after the entry's window closes."
+ },
+ "ajh3760.0001.001.umich.edu": {
+  "nodate": true,
+  "basis_re": "Enero 1906",
+  "basis_tpl": "the dated preface at line {n} of this file ('{t}'), with which the library catalogue record of the item agrees (MARC 260: 'Manila, Imp. Fajardo y c.a, 1906.'); the title page prints no year"
+ },
+ "ajh3759.0001.001.umich.edu": {
+  "nodate": true,
+  "basis_re": "Mayo de 1912",
+  "basis_max": 3000,
+  "basis_tpl": "the dated prologue at line {n} of this file ('{t}'), with which the library catalogue record of the item agrees (MARC 260: 'Manila, I. de Los Reyes, 1912.'); the title page prints no year",
+  "note_add": "The church's own text in a printing of 1912, six years after the entry's window closes; the first printing is not held."
+ },
+ "questoreligios00cost": {
+  "nodate": true,
+  "basis_re": "Dezembro de 1886",
+  "basis_tpl": "the dated prefatory letters, of which the last-dated in 1886 stands at line {n} of this file ('{t}'), and the library catalogue record of the item (MARC 260: 'Lisboa : Lallemant Freres, 1886.'); the title page cannot be read in the OCR, and one prefixed letter is dated January 1887"
+ },
+ "aggressivechrist00boot_0": {
+  "nodate": true,
+  "basis_re": "in the year 1883",
+  "basis_tpl": "the copyright notice at line {n} of this file ('{t}'); the title page prints no year"
+ },
+ "godlinessbeingre00boot": {
+  "nodate": true,
+  "basis_re": "in the year 1883",
+  "basis_tpl": "the copyright notice at line {n} of this file ('{t}'); the title page prints no year"
+ },
+ "modernabyssinia00wyld": {
+  "basis_re": "^I 90 I",
+  "basis_tpl": "line {n} of this file, on the title page, where the OCR reads '{t}'; the library catalogue record gives 1901"
+ },
+ "guerradecanudos00soar": {
+  "year": 1902,
+  "basis": "read on the scan's page image, leaf n6, which prints '1a edicao' and 'Rio, Typ. Altina, 1902'; an earlier leaf, the cover, reads 1903 in the OCR"
+ },
+ "sketchoflifeofre00davirich": {
+  "year": 1890,
+  "basis": "read on the scan's page image, leaf n8; the OCR reads '1800'"
+ },
+ "chronique-du-regne-de-menelik-ii-roi-des-rois-dethiopie": {
+  "cut_at": 62984,
+  "cut_check": "de rs ut",
+  "cut_what": "tome II of the same work, printed in 1932",
+  "ocr": "fair; the French reads, the Amharic lines do not",
+  "note_add": "The tradition's own text, in a French translation printed in 1930; the volume does not say when the chronicle was written."
+ },
+ "fiftythreeyears00unkngoog": {
+  "nodate": true,
+  "basis_re": "Copyright, 1910",
+  "basis_tpl": "the copyright notice at line {n} of this file ('{t}'); the title page prints no year",
+  "note_add": "A missionary's own memoir, printed in 1910, four years after the entry's window closes."
+ },
+ "narrativeofcapti00blan": {
+  "basis_re": "^1 868\\.",
+  "basis_tpl": "line {n} of this file, on the title page, where the OCR reads '{t}'"
+ },
+ "raccoltadiconcor00cathuoft": {
+  "language": "ita",
+  "note_add": "The concordat is the church's own instrument; the collection that prints it is of 1919 and holds many other concordats."
+ },
+ "oikonomoshoexoi00phargoog": {
+  "pre_upto": 47,
+  "pre_check": "130ο",
+  "pre_what": "Google's preamble about the scan, which the OCR read as Greek letters",
+  "ocr": "fair; polytonic Greek, noisy",
+  "note_add": "The title page names no author; the archive.org record names Theokletos Pharmakides.",
+  "delta": -47
+ },
+ "aretrospectfirs00milngoog": {
+  "ocr": "fair; the long s is read as f"
+ },
+ "cihm_54001": {
+  "ocr": "fair; a microfiche scan, with page fragments interleaved in places"
+ },
+ "o-pokaianiiu-vii-lyst-pastyrskii": {
+  "ocr": "fair, in the old spelling; noisy in places"
+ },
+ "martyrchurchnarr00ell": {
+  "ocr": "fair; a capital R is often read as E in names"
+ },
+ "herbarzpolskipow01niesuoft_202605": {
+  "note_add": "His own text, printed in 1911, five years after the entry's window closes."
+ },
+ "cornerinindia00clar": {
+  "note_add": "A missionary's own account, printed in 1907, one year after the entry's window closes."
+ },
+ "polnoesobraniesochinenijivkireevskogo50": {
+  "note_add": "His own writings in a collected edition of 1911; the volume's front matter does not date each piece."
+ },
+ "escritos-y-discursos-tomo-i-gabriel-garcia-moreno-1887": {
+  "note_add": "His own writings, collected after his death by a Catholic society of Quito; a lay ruler's voice inside the tradition."
+ },
+ "escritos-y-discursos-tomo-ii-gabriel-garcia-moreno-1888": {
+  "note_add": "His own official writings, collected after his death by a Catholic society of Quito; a lay ruler's voice inside the tradition."
+ },
+ "codigodelareform00mexi": {
+  "note_add": "The laws of the state that acted on the church: an outside voice."
+ },
+ "centennialencycl00wrig": {
+  "note_add": "A later compilation by the African Methodist Episcopal Church, which his church joined; not his own voice."
+ },
+ "bantupastpresent00moleuoft": {
+  "note_add": "A later history by another hand, printed in 1920, after the entry's window closes."
+ },
+ "haitiherhistoryh00lguoft": {
+  "note_add": "A later history by another hand, printed in 1907, after the entry's window closes."
+ },
+ "istoricheskoeopisaniekozelskojoptinojpu0": {
+  "note_add": "The monastery's own published history; it tells of the elders in the third person."
+ },
+ "ocherkizistoriiamerikanskojpravoslavnojd22": {
+  "note_add": "A later compilation by the monastery that sent the mission; it prints letters of Herman's."
+ },
+ "lasensacionalme00sagrgoog": {
+  "note_add": "His own text of 1897-99, written before the Iglesia Filipina Independiente was founded."
+ },
+ "mojazhiznvohristeiliminutyduhovnogotrez7": {
+  "final_sub": {
+   "title": [
+    "[name garbled in OCR]",
+    "[...]"
+   ],
+   "creator": [
+    "name garbled in OCR (host: Сергиев Иоанн Ильич)",
+    "the name cannot be read on the title page in the OCR; the archive.org record names Сергиев, Иоанн Ильич"
+   ]
+  }
+ },
+ "dialoguesonessa00darbgoog": {
+  "note_add": "The title page names no author; the archive.org record names Darby."
+ },
+ "MyLifeInChrist": {
+  "delta": -49
+ },
+ "reportproceedin00socigoog": {
+  "delta": -50
+ },
+ "studiesonbookda00darbgoog": {
+  "delta": -48
+ }
+}

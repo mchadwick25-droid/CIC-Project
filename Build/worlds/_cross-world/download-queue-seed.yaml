@@ -28134,8 +28134,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 925,547 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: filimonov_materialy-dlia-biografii-arkhimandrita-makariia-rus_1888.txt
-  - title: 'Моя жизнь во Христе, или минуты духовнаго трезвенія и созерцанія, благоговѣйнаго чувства, душевнаго исправленія и покоя въ Богѣ. Извлеченіе изъ дневника протоіерея [name garbled in OCR]. Томъ первый'
-    author: 'name garbled in OCR (host: Сергиев Иоанн Ильич)'
+  - title: 'Моя жизнь во Христе, или минуты духовнаго трезвенія и созерцанія, благоговѣйнаго чувства, душевнаго исправленія и покоя въ Богѣ. Извлеченіе изъ дневника протоіерея [...]. Томъ первый'
+    author: 'the name cannot be read on the title page in the OCR; the archive.org record names Сергиев, Иоанн Ильич'
     year: '1891'
     world: russian-church-synodal-century
     why: 'Wanted Sources, era 9 row 297, John of Kronstadt: extracts from his diary, in Russian, vol. 1.'
@@ -28244,7 +28244,7 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 124,345 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: shidiak-memoir_memoir-of-asaad-esh-shidiak_1834.txt
-  - title: 'The Captive Missionary: being an account of the country and people of Abyssinia. Embracing [words lost in OCR] and his treatment of political and religious missions'
+  - title: 'The Captive Missionary: being an account of the country and people of Abyssinia. Embracing [...] and his treatment of political and religious missions'
     author: 'The Rev. Henry A. Stern, author of ''Wanderings among the Falashas'''
     year: '1868'
     world: ethiopian-christianity-tewodros-to-menelik

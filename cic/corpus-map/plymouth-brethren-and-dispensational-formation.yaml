@@ -20,7 +20,8 @@ works:
     year: 1863
     source: read on the scan's page image, leaf n5; the OCR does not give it cleanly
     formation_confidence: Documented
-  note: 'Era 9 row 181, John Nelson Darby: a book of his own, printed without his name.'
+  note: 'Era 9 row 181, John Nelson Darby: a book of his own, printed without his name. The
+    title page names no author; the archive.org record names Darby.'
   source_file: darby_dialogues-on-the-essays-and-reviews_2nd-ed1863.txt
 - row_id: darby_studies-on-the-book-of-daniel_3rd-ed1864--studies-on-the-book-of-daniel-a-course-of-lectures-by-j-n
   work: 'STUDIES ON THE BOOK OF DANIEL: A COURSE OF LECTURES BY J. N. DARBY. TRANSLATED FROM
