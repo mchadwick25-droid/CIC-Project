@@ -120685,7 +120685,7 @@ function render(){
     const built = m.status==='Built & Live';
     const f=famOf(m.laneOrder), col=famColor(f);
     const g=el('g',{class:`node${built?' built':''}${isMajorTradition(m)?' major':''}`,'data-id':m.id,'data-lane':m.laneOrder,tabindex:'0',role:'button',
-      'aria-label':`${m.shortName||m.name}, ${plainDates(m.dates)}, ${statusLabel(m)}`});
+      'aria-label':[m.shortName||m.name,plainDates(m.dates),statusLabel(m)].filter(Boolean).join(', ')});
     const halo=el('circle',{class:'halo',cx:m._x,cy:m._y,r:9,fill:col,opacity:0});
     const focusRing=el('circle',{class:'focus-ring',cx:m._x,cy:m._y,r:10,
       fill:'none',stroke:'var(--gold-leaf)','stroke-width':2,'vector-effect':'non-scaling-stroke',opacity:0});
@@ -120828,7 +120828,7 @@ function renderAcross(){
   acrossMovements.forEach(m=>{
     const name=m.shortName||m.name;
     const g=el('g',{class:'across','data-id':m.id,tabindex:'0',role:'button',
-      'aria-label':`${name}, ${plainDates(m.dates)}, ${KIND_LABEL[m.kind].toLowerCase()}, ${statusLabel(m)}`});
+      'aria-label':[name,plainDates(m.dates),KIND_LABEL[m.kind].toLowerCase(),statusLabel(m)].filter(Boolean).join(', ')});
     const d=`M ${m._x.toFixed(1)} ${m._y.toFixed(1)} L ${m._x.toFixed(1)} ${m._y1.toFixed(1)}`;
     g.appendChild(el('path',{d,class:'across-hit',fill:'none',stroke:'transparent'}));
     g.appendChild(el('path',{d,class:'across-line',fill:'none','stroke-width':2,'stroke-linecap':'round','vector-effect':'non-scaling-stroke'}));
@@ -120904,13 +120904,15 @@ function renderCouncils(){
   });
 }
 function esc(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+const BUILD_STATUSES=new Set(['Selected - Not Yet Built','Deferred by Step 0','Possible Future World (on record)','Pre-Survey Candidate']);
 function statusLabel(m){
+  if(BUILD_STATUSES.has(m.status))return '';
   if(m.status==='Built & Live'&&!CONVERSATIONS_LIVE)return 'Conversations coming soon';
   const sm=DATA.statusMeta&&DATA.statusMeta[m.status];return (sm&&sm.shortWord)||m.status;
 }
 function tipFor(m){
   if(m.kind===COUNCIL_KIND)return `<div class="n">${esc(m.shortName||m.name)}</div><div class="m">${esc(plainDates(m.dates))} · ${esc(CFTPlace.formatPlace(m,{today:true})||m.region||'')}</div><div class="m">${esc(KIND_LABEL[m.kind])}</div>`;
-  return `<div class="n">${esc(m.shortName||m.name)}</div><div class="m">${esc(plainDates(m.dates))} · ${esc(CFTPlace.formatPlace(m,{today:true})||m.region||'')}</div>${KIND_LABEL[m.kind]?`<div class="m">${esc(KIND_LABEL[m.kind])}</div>`:''}<div class="s">${esc(statusLabel(m))}</div>`;
+  return `<div class="n">${esc(m.shortName||m.name)}</div><div class="m">${esc(plainDates(m.dates))} · ${esc(CFTPlace.formatPlace(m,{today:true})||m.region||'')}</div>${KIND_LABEL[m.kind]?`<div class="m">${esc(KIND_LABEL[m.kind])}</div>`:''}${statusLabel(m)?`<div class="s">${esc(statusLabel(m))}</div>`:''}`;
 }
 const EDGE_DASH={'Widely Accepted':'6,3','Dominant Modern Reconstruction':'6,3','Contested':'2,3','Inferential-Thin':'1,4'};
 const SYMMETRIC_EDGE_TYPES=new Set(['broke with','in contact with']);
@@ -121315,7 +121317,6 @@ function openPanelRiver(f,members){
   members.forEach(m=>{const a=eraOfYear(m.start), b=Math.max(a,eraOfYear(m.end-1)); for(let i=a;i<=b;i++)eraIdx.add(i);});
   const eraNums=[...eraIdx].map(i=>eras[i].num);
   const eraMin=Math.min(...eraNums), eraMax=Math.max(...eraNums);
-  const built=members.filter(m=>m.status==='Built & Live').length;
   const ids=new Set(members.map(m=>m.id));
   const laneEdges=DATA.edges.filter(e=>ids.has(e.from)||ids.has(e.to));
   const typeCounts={};
@@ -121333,9 +121334,6 @@ function openPanelRiver(f,members){
   const spanText=eraNums.length===10?`Present in every one of the map's ten eras.`
     :eraMin===eraMax?`Found only in Era ${eraMin}.`
     :`Found in ${eraNums.length} of the map's ten eras, from Era ${eraMin} to Era ${eraMax}.`;
-  const builtText=members.length===1?`Its one tradition ${built?'has':'does not yet have'} a Representative.`
-    :built>0?`Of its ${members.length} traditions, ${built} ${built===1?'has':'have'} a Representative.`
-    :`None of its ${members.length} traditions has a Representative yet.`;
   const kinds=andList(topTypes.map(([t])=>`&ldquo;${esc(t)}&rdquo;`)), to=r=>andList(r.map(([l])=>`to ${esc(l)}`));
   const edgeText=laneEdges.length===0?`No connections are recorded for it on this map yet.`
     :laneEdges.length===1?`Its one recorded connection, of the kind ${kinds}, is ${topRivers.length?`with ${esc(topRivers[0][0])}`:'inside the river'}.`
@@ -121344,7 +121342,7 @@ function openPanelRiver(f,members){
         :topRivers.length>1?` Outside the river, it links equally often ${to(topRivers)}.`
         :!restRivers.length?` Outside the river, it links only ${to(topRivers)}.`
         :` Outside the river, it links most often ${to(topRivers)}${nextRivers.length===1?`, then ${to(nextRivers)}`:''}.`);
-  h+=`<h3>What sets this river apart</h3><p>${spanText} ${builtText} ${edgeText}</p>`;
+  h+=`<h3>What sets this river apart</h3><p>${spanText} ${edgeText}</p>`;
   h+=`<h3>Traditions in this river</h3><ul class="voices">${members.map(m=>
     `<li><button type="button" class="panel-link" data-id="${esc(m.id)}">${esc(m.shortName||m.name)}</button> — ${esc(plainDates(m.dates))}</li>`
   ).join('')}</ul>`;
