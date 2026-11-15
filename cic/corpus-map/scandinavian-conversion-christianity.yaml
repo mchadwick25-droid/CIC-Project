@@ -58,7 +58,8 @@ works:
   date:
     formation_confidence: unknown
     checked: the heading and the first lines of the Life (OCR lines 63691-63744); the editor's
-      preface was not read for a date
+      preface says it was written while Adalgar, Rimbert's successor, lived (file line 63706)
+      and gives no year
   note: The Life of Rimbert, archbishop of Hamburg-Bremen, complete in 25 chapters; its author
     is not named.
   source_file: mgh-ss-2_scriptores-tomus-2-with-vita-rimberti-vita-anskarii-lat_pertz1829.txt

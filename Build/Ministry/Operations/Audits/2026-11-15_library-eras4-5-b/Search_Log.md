@@ -42,7 +42,8 @@ Library thread read the scan's page image.
 - John of Damascus on the images, in English: Mary H. Allies (London: Thomas Baker, 1898), the Toronto scan, taken.
   Four more records of the same book (a Gutenberg text, a lending copy, two later uploads) not taken.
 - The acts of Nicaea II in English: John Mendham (London: Painter, 1850) taken. Mendham is a Protestant
-  controversialist; his introduction and notes stand on the pages of the acts.
+  controversialist; his introduction and notes stand on the pages of the acts. The scan opens with Google's own sheet, which
+  says the copyright has expired and asks for non-commercial use of the files; it is a request, not a licence.
 - A complete Life of Rimbert: Pertz, Monumenta Germaniae historica, Scriptores II (Hannover 1829), a Google scan,
   taken. The Life runs to 25 chapters and ends "regnat in aeternum". The only Waitz (1884) scan found is the held
   one, which stops in chapter 23. A Getty scan of the same Pertz volume has cleaner OCR but no year on its OCR title
