@@ -1,9 +1,9 @@
 source_file: macedo-soares_a-guerra-de-canudos-por_1902.txt
 assignments:
-- work: A GUERRA DE CANUDOS por Henrique Duque-Estrada de Macedo Soares (Tenente de Infantaria), 1a edicao, Rio,
-    Typ.
+- row_id: macedo-soares_a-guerra-de-canudos-por_1902--a-guerra-de-canudos
+  work: A GUERRA DE CANUDOS
   author: macedo-soares
-  locus: Conselheiro's predicas (preaching) at OCR lines 975-1060, 9453; the rest not mapped
+  locus: account of António Vicente Mendes Maciel, the Conselheiro, at lines 892-1286; the rest not mapped
   atlas_ids:
   - canudos-belo-monte
   role: context

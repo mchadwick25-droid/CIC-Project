@@ -1,12 +1,12 @@
-Title: THE CHINESE AND THEIR REBELLIONS, viewed in connection with their national philosophy, ethics, legislation, and administration
-Creator: THOMAS TAYLOR MEADOWS, Chinese Interpreter in H. M. Civil Service
-Publisher: LONDON: SMITH, ELDER & CO. 65, CORNHILL. BOMBAY: SMITH, TAYLOR & CO.
+Title: THE CHINESE AND THEIR REBELLIONS, VIEWED IN CONNECTION WITH THEIR NATIONAL PHILOSOPHY, ETHICS, LEGISLATION, AND ADMINISTRATION. TO WHICH IS ADDED, AN ESSAY ON CIVILIZATION AND ITS PRESENT STATE IN THE EAST AND WEST
+Creator: Thomas Taylor Meadows, Chinese Interpreter in H. M. Civil Service
+Publisher: London: Smith, Elder & Co.; Bombay: Smith, Taylor & Co.
 Publication Date: 1856 (line 99 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1856); the archive.org record carries no rights field, so the imprint date is the basis
 Language: eng
 Source: archive.org item chinesetheirrebe00mead, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,773,919) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1856, out of US copyright by date. OCR quality: clean. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: chapters with index (index near line 2181-2305). Editorial matter: not mapped. Mixed voices: narrative with quoted documents. About 263,387 words.
+Content note: An account of China and of the Tae ping rebellion in twenty chapters, with a separate essay on civilization in three chapters. Editorial matter: the author's preface at lines 102-2106, signed T. T. M. Divisions: contents list at lines 2112-2720; chapters I-XX at lines 2721-25284; the essay On Civilization at lines 25287-32078; appendix from line 32081; 'The End' at line 32980. There is no index. Chapter VII (from line 6522) tells of Hung sew tseuen founding his sect and of his stay with 'Mr. Roberts, an American missionary at Canton'; the first name Issachar does not occur. Mixed voices: the author discusses and quotes extracts from Mr. Hamberg's book, which is not itself printed here. About 263,387 words.
 
 ______________________________________________________________________
 

@@ -1,12 +1,12 @@
-Title: [The Martyr Church: a narrative of the] introduction, progress, and triumph of Christianity in Madagascar with notices of personal intercourse and travel in that island. By the Rev. William Ellis, author of Polynesian Researches, Three Visits to Madagascar. Third Thousand. London: John Snow and Co., 2 Ivy Lane, Paternoster Row. MDCCCLXX
-Creator: Rev. WILLIAM ELLIS
+Title: The Martyr Church: a narrative of the introduction, progress, and triumph of Christianity in Madagascar, with notices of personal intercourse and travel in that island. Third thousand
+Creator: Rev. William Ellis, author of 'Polynesian Researches,' 'Three Visits to Madagascar,' &c., &c.
 Publisher: London: John Snow and Co.
 Publication Date: 1870 (line 100 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1870); the archive.org record says possible-copyright-status The Library of Congress is unaware of any copyright restrictions for this item., and the imprint date agrees
 Language: eng
 Source: archive.org item martyrchurchnarr00ell, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (786,878) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1870, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: contents at line 158. Editorial matter: preface. About 115,449 words.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1870, out of US copyright by date. OCR quality: fair; a capital R is often read as E in names. Line numbers cited in this header are this file's own line numbers.
+Content note: A history of Christianity in Madagascar in fourteen chapters, marked 'Third Thousand' on the title page. Editorial matter: the author's Preface at lines 108-167; contents from line 170. The text runs from Chapter I at line 580; chapter XIV ends at line 15178, a Postscript follows at lines 15183-15518, and the publisher's book list begins at line 15523. The first queen is proclaimed at lines 2557-2571 and her character is summed up at lines 8749-8798; between those points the narrative mostly calls her 'the queen'. A second queen takes the name Ranavalona in chapter XIV (lines 13988-15178), which tells of her coronation and baptism. The OCR mostly prints the name as 'Eanavalona'. About 115,449 words.
 
 ______________________________________________________________________
 

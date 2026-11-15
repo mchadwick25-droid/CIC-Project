@@ -1,12 +1,12 @@
-Title: Haiti, her history and her detractors (title as in host record)
-Creator: Jacques Nicolas Leger (host record)
-Publisher: not read from OCR; host/title page 1907 at OCR line 28
+Title: HAITI, HER HISTORY AND HER DETRACTORS
+Creator: J. N. Leger, Envoy Extraordinary and Minister Plenipotentiary of Haiti in the United States
+Publisher: New York and Washington: The Neale Publishing Company
 Publication Date: 1907 (line 40 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1907); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item haitiherhistoryh00lguoft, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (862,253) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1907, out of US copyright by date. OCR quality: clean. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Editorial matter: see divisions. About 124,684 words.
+Content note: A history of Haiti followed by a reply to its critics, in two parts. Editorial matter: the author's foreword at lines 399-544, dated Washington, December 1906, which thanks Miss Louise Bourke for revising the English text. Divisions: contents list from line 56; Part I, History of Haiti, in twenty-four chapters from line 551; Part II, Calumnies and Their Refutation, in six chapters from line 11232; the text ends at line 16611. No index was seen. Chapter XV (lines 9112-9377) covers the presidency of Fabre Geffrard; lines 9125-9140 tell of his negotiations with the Holy See and the Concordat signed at Rome on 28 March 1860. The Concordat's own text is not printed. A footnote at lines 8339-8356 gives the terms of an unratified Concordat of 1842. About 124,684 words.
 
 ______________________________________________________________________
 

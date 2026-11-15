@@ -1,12 +1,12 @@
-Title: CENTENNIAL ENCYCLOPAEDIA OF THE AFRICAN METHODIST EPISCOPAL CHURCH ... BY RICHARD R. WRIGHT JR., EDITOR-IN-CHIEF, ASSISTED BY JOHN R. HAWKINS; INTRODUCTION BY BISHOP L. J. COPPIN ... COPYRIGHTED BY R. R. WRIGHT, JR. 1916; PRINTED BY BOOK CONCERN OF THE A. M. E. CHURCH, 631 PINE STREET, PHILADELPHIA, PA. 1916 (title page assembled from OCR lines 125-170; title line itself not re-read)
-Creator: RICHARD R. WRIGHT JR., Editor-in-Chief, assisted by John R. Hawkins
-Publisher: Philadelphia: Book Concern of the A. M. E. Church
+Title: CENTENNIAL ENCYCLOPAEDIA OF THE African Methodist Episcopal Church, Containing principally the Biographies of the Men and Women, both Ministers and Laymen, whose Labors during a Hundred Years, helped make the A. M. E. Church what it is; also short Historical Sketches of Annual Conferences, Educational Institutions, General Departments, Missionary Societies of the A. M. E. Church, and General Information about African Methodism and the Christian Church in General
+Creator: Richard R. Wright Jr., A.M., B.D., Ph.D., Editor-in-Chief; assisted by John R. Hawkins, A.M., LL.B., Associate Editor; introduction by Bishop L. J. Coppin, D.D., LL.D.
+Publisher: Philadelphia, Pa.: Book Concern of the A. M. E. Church
 Publication Date: 1916 (line 185 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1916); the archive.org record carries no rights field, so the imprint date is the basis
 Language: eng
 Source: archive.org item centennialencycl00wrig, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (2,062,347) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1916, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: encyclopaedia entries; 'Africa, South' entry at line 32428. Editorial matter: preface; biographies. Mixed voices: entries by many hands; one volume of biographies and church history. About 300,374 words.
+Content note: An encyclopaedia of the African Methodist Episcopal Church in two parts. Editorial matter: the editors' preface at lines 192-247; introduction by Bishop L. J. Coppin from line 253. Divisions: biographical sketches with portraits come first; an 'Appendix' of sketches and illustrations of churches, societies, conferences and schools begins at line 30353; the second part, entries on the church's history, laws and doctrines, begins at line 32254; index from line 45857. Mixed voices: entries are by many hands. No entry headed Mokone was found. The entry 'Africa, South' (lines 32439-33062, signed by Rev. F. M. Gow) tells of 'Rev. M. M. Mokone' leaving the Wesleyan church on 1 November 1892; the sketch of J. M. P. Lebala (from line 17755) names 'Rev. Mangena Make Mokone' as founder of the Ethiopian church. About 300,374 words.
 
 ______________________________________________________________________
 

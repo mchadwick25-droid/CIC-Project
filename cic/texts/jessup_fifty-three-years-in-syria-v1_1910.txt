@@ -1,12 +1,12 @@
-Title: Fifty-Three Years In Syria / By Henry Harris Jessup, D.D. / Introduction by James S. Dennis, D. D. / In Two Volumes / Volume I / New York Chicago Toronto Fleming H. Revell Company London and Edinburgh
-Creator: HENRY HARRIS JESSUP, D.D.; Introduction by James S. Dennis, D. D.
-Publisher: New York Chicago Toronto, Fleming H. Revell Company, London and Edinburgh
+Title: Fifty-Three Years in Syria. In Two Volumes. Volume I
+Creator: Henry Harris Jessup, D.D.; Introduction by James S. Dennis, D.D.
+Publisher: New York, Chicago, Toronto: Fleming H. Revell Company; London and Edinburgh
 Publication Date: 1910 (the copyright notice at line 146 of this file ('Copyright, 1910, by'); the title page prints no year)
 Rights: Public Domain (pd-us-by-date: published 1910); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the date agrees; the date used is that of the copyright notice at line 146 of this file ('Copyright, 1910, by'); the title page prints no year
 Language: eng
 Source: archive.org item fiftythreeyears00unkngoog, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (881,674) equals the size archive.org lists for the djvu.txt.
-Provenance note: At intake the host's own additions were removed and nothing else: Google's preamble about the scan (host OCR lines 1-44, 44 lines, from 'This is a digital copy of a book that was preserve' to the last line naming books.google.com); and 8 lines that hold only the scanner's page mark ('Digitized by ...' or 'Hosted by Google'). The edition's own text follows as the host gives it; nothing was normalized or corrected. Rights basis: published 1910, out of US copyright by date. OCR quality: clean to fair (Google scan; occasional digit slips such as '18 19' for 1819). Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: Contents at OCR line 704 (also 761); chapters/sections; Fisk is section II at line 2079. Editorial matter: Introduction by Dennis from about line 343; contents lines 704-800. About 152,788 words.
+Provenance note: At intake the host's own additions were removed and nothing else: Google's preamble about the scan (host OCR lines 1-44, 44 lines, from 'This is a digital copy of a book that was preserve' to the last line naming books.google.com); and 8 lines that hold only the scanner's page mark ('Digitized by ...' or 'Hosted by Google'). The edition's own text follows as the host gives it; nothing was normalized or corrected. Rights basis: published 1910, out of US copyright by date. OCR quality: clean to fair. Line numbers cited in this header are this file's own line numbers.
+Content note: Volume I of two of a missionary's memoir of Syria, chapters I-XVIII. Editorial matter: Introduction signed James S. Dennis at lines 307-475, with a note on the author's death at lines 479-492; contents of both volumes at lines 670-816. The text runs from line 1000 to line 22091; there is no index in this volume. Divisions: in chapter III, 'The Seven Pioneers of Syria Mission Work' (from line 1864), section II (lines 2044-2256) tells of Pliny Fisk. Chapter IV (lines 3904-4576) tells of the Arabic Bible and its translators. Asaad es Shidiak has no section of his own; he is named at lines 1773, 2069, 2133, 2314 and 2373 and later. About 152,788 words.
 
 ______________________________________________________________________
 

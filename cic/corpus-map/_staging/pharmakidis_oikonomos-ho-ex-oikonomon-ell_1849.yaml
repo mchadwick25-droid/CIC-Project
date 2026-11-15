@@ -1,6 +1,7 @@
 source_file: pharmakidis_oikonomos-ho-ex-oikonomon-ell_1849.txt
 assignments:
-- work: ΟΙΚΟΝΟΜΟΣ Ο ΕΞ ΟΙΚΟΝΟΜΩΝ Η ΠΕΡΙ ΟΡΚΟΥ. ΕΝ ΑΘΗΝΑΙΣ, ΕΚ ΤΗΣ ΤΥΠΟΓΡΑΦΙΑΣ ΝΙΚΟΛΑΟΥ ΑΓΓΕΛΙΔΟΥ ... 1849
+- row_id: pharmakidis_oikonomos-ho-ex-oikonomon-ell_1849--work
+  work: ΟΙΚΟΝΟΜΟΣ Ο ΕΞ ΟΙΚΟΝΟΜΩΝ Η ΠΕΡΙ ΟΡΚΟΥ
   author: pharmakidis
   locus: the whole volume; not mapped
   atlas_ids:
@@ -17,4 +18,5 @@ assignments:
     year: 1849
     source: read on the scan's page image, leaf n7; the OCR does not give it cleanly
     formation_confidence: Documented
-  note: 'Era 9 rows 300 and 301, Theoklitos Pharmakidis: a pamphlet against Konstantinos Oikonomos.'
+  note: 'Era 9 rows 300 and 301, Theoklitos Pharmakidis: a pamphlet against Konstantinos Oikonomos. The title page
+    names no author; the archive.org record names Theokletos Pharmakides.'

@@ -1,12 +1,12 @@
-Title: Богоугодная жизнь вообще. Слова епископа Феофана (Из слов к Тамбовской и Владимирской паствам 1859-1866 гг.) Издание второе. Афонского Русского Пантелеимонова монастыря. Москва. 1899
+Title: БОГОУГОДНАЯ ЖИЗНЬ ВООБЩЕ. СЛОВА ЕПИСКОПА ФЕОФАНА. (Изъ словъ къ Тамбовской и Владимірской паствамъ 1859—1866 гг.) ИЗДАНІЕ ВТОРОЕ
 Creator: епископа Феофана
-Publisher: Москва, Афонского Русского Пантелеимонова монастыря, Типо-Литография И. Ефимова
+Publisher: Москва: Аѳонскаго Русскаго Пантелеимонова монастыря; Типо-Литографія И. Ефимова
 Publication Date: 1899 (line 53 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1899); the archive.org record carries no rights field, so the imprint date is the basis
 Language: rus
 Source: archive.org item bogougodnajazhiznvoobsche28, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (311,820) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1899, out of US copyright by date. OCR quality: fair, old spelling. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: numbered words with dates. Editorial matter: preface dated Moscow 26 Oct 1898 line 62. About 26,781 words.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1899, out of US copyright by date. OCR quality: fair, in the old spelling. Line numbers cited in this header are this file's own line numbers.
+Content note: A collection of sermons in Russian by Bishop Feofan, drawn, as the title page says, from his sermons to the flocks of Tambov and Vladimir in 1859-1866; second edition. The title page gives the author only as 'Bishop Feofan'. Editorial matter: the church censor's permission, dated Moscow, 26 October 1898, at lines 73-75; there is no preface. Divisions: each sermon has its own title, and several close with a date and the Sunday on which it was preached (for example lines 1405, 2129 and 4131). The first sermon, on civic life as a field for pleasing God, begins at line 92; the last, urging the keeping of the Nativity fast, ends at line 4317. The contents list runs from line 4327 to the end. About 26,781 words.
 
 ______________________________________________________________________
 

@@ -1,9 +1,11 @@
 source_file: optina_istoricheskoe-opisanie-kozelskoi-optinoi-pustyni-rus_1902.txt
 assignments:
-- work: Историческое описание Козельской Оптиной пустыни и Предтечева скита (Калужской губернии), вновь составленное
+- row_id: optina_istoricheskoe-opisanie-kozelskoi-optinoi-pustyni-rus_1902--work
+  work: Историческое описание Козельской Оптиной пустыни и Предтечева скита (Калужской губернии), вновь составленное
   author: optina
-  locus: 'Makary: collaborator of Leonid, then Старчество о. Макаря at OCR lines 3612-5094; Ambrose: successor,
-    Старчество о. Амвросия, publishing, activity at OCR lines 5094-7300; the rest not mapped'
+  locus: sections on Fr. Makary as fellow worker of the elder Leonid and on his eldership at lines 3624-4074; section
+    on the eldership of Fr. Amvrosy at lines 5604-6424; letters about the publishing of books at lines 8441-10703;
+    the rest not mapped
   atlas_ids:
   - the-optina-elders-and-russian-ascetic-renewal
   role: tradition
@@ -18,4 +20,5 @@ assignments:
     year: 1902
     source: line 75 of this file, on the title page
     formation_confidence: Documented
-  note: 'Era 9 rows 293 and 197, Macarius and Ambrose of Optina: the monastery''s own history.'
+  note: 'Era 9 rows 293 and 197, Macarius and Ambrose of Optina: the monastery''s own history. The monastery''s
+    own published history; it tells of the elders in the third person.'

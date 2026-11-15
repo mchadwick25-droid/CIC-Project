@@ -1,12 +1,12 @@
-Title: Моя жизнь во Христе, или минуты духовного трезвения и созерцания ... Извлечение из дневника протоиерея [name garbled in OCR] Том первый. Издание Марьи Васильевны Черкасовой. В пользу дома трудолюбия в Кронштадте
+Title: Моя жизнь во Христе, или минуты духовнаго трезвенія и созерцанія, благоговѣйнаго чувства, душевнаго исправленія и покоя въ Богѣ. Извлеченіе изъ дневника протоіерея [name garbled in OCR]. Томъ первый
 Creator: name garbled in OCR (host: Сергиев Иоанн Ильич)
-Publisher: Издание М. В. Черкасовой; Типография Э. Лисснера и Ю. Романа
+Publisher: Изданіе Марьи Васильевны Черкасовой; Типографія Э. Лисснера и Ю. Романа
 Publication Date: 1891 (line 65 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1891); the archive.org record carries no rights field, so the imprint date is the basis
 Language: rus
 Source: archive.org item mojazhiznvohristeiliminutyduhovnogotrez7, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (663,031) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1891, out of US copyright by date. OCR quality: fair; first leaves noisy. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: numbered entries. About 57,652 words.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1891, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are this file's own line numbers.
+Content note: The first volume, in Russian in the old spelling, of extracts from the diary of an archpriest, published by Marya Vasilyevna Cherkasova for the benefit of the House of Industry in Kronstadt. The title page is at lines 29-65, with the year 1891; the censor's permission to print follows at lines 79-81. Editorial matter: a short foreword by the author at lines 87-107, saying the book grew from thoughts he wrote down in moments of prayer and self-examination. Divisions: the text runs from line 113 to line 9851 as separate short reflections without numbers or headings. Errata fill lines 9857-10033. The author's name is garbled on the title page (line 48) and in the foreword's signature (line 107); Kronstadt is named at line 58. About 57,652 words.
 
 ______________________________________________________________________
 

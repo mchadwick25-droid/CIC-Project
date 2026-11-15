@@ -3,6 +3,68 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: northeast-india-revivals-and-the-mar-thoma-refor
 works:
+- row_id: assam-mission_papers-and-discussions-of-the-jubilee-conference-1886_1887--the-assam-mission-of-the-american-baptist-missionary-union
+  work: THE ASSAM MISSION OF THE AMERICAN BAPTIST MISSIONARY UNION. PAPERS AND DISCUSSIONS
+    OF THE JUBILEE CONFERENCE
+  author: assam-mission
+  locus: Historical Sketch of the Ao Naga Mission by S. W. Rivenburg at lines 5252-5425; paper
+    Gospel Destitution about Assam by E. W. Clark at lines 10836-11174; register entries for
+    Edward W. Clark and his wife at lines 13501-13514; the rest not mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1886
+    end: 1887
+    source: 'the printing''s own title page: line 27 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1887
+    source: line 27 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 304, Edwin W. Clark: the Assam Mission''s jubilee papers.'
+  source_file: assam-mission_papers-and-discussions-of-the-jubilee-conference-1886_1887.txt
+- row_id: clark_corner-in-india_1907--a-corner-in-india
+  work: A CORNER IN INDIA
+  author: clark
+  locus: chapters II and III, Beginnings Among the Nagas and A Plunge into Barbarism, at lines
+    488-998; closing paragraph quoted from the author's husband at lines 6289-6298; the rest
+    not mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1907
+    end: 1907
+    source: 'the printing''s own title page: line 73 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1907
+    source: line 73 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 304, Edwin W. Clark: his wife''s account of the Naga mission. A missionary''s
+    own account, printed in 1907, one year after the entry''s window closes.'
+  source_file: clark_corner-in-india_1907.txt
+- row_id: evans_biographical-dictionary-of-ministers-and-preachers-of-the-welsh-calvinistic-methodist-body_1907--biographical-dictionary-of-ministers-and-preachers-of-the
+  work: Biographical Dictionary of Ministers and Preachers of the Welsh Calvinistic Methodist
+    Body or Presbyterians
+  author: evans
+  locus: entry for Jones, Rev Thomas, Khassia, at lines 19884-19971; the rest not mapped
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1907
+    end: 1907
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n9; the
+      OCR does not give it cleanly'
+    formation_confidence: Documented
+  edition_date:
+    year: 1907
+    source: read on the scan's page image, leaf n9; the OCR does not give it cleanly
+    formation_confidence: Documented
+  note: 'Era 9 row 303, Thomas Jones: an entry in a Welsh biographical dictionary.'
+  source_file: evans_biographical-dictionary-of-ministers-and-preachers-of-the-welsh-calvinistic-methodist-body_1907.txt
 - row_id: philipos_syrian-christians-of-malabar_howard1869--answers-on-the-belief-and-history-of-the-syrian-christians-3
   work: The Syrian Christians of Malabar (Philipos, 1869)
   author: philipos

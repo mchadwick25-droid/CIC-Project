@@ -1,12 +1,12 @@
-Title: A SKETCH OF THE LIFE OF REV. JOSEPH HARDY NEESIMA, LL.D., President of Doshisha, Kyoto, prepared by Rev. J. D. Davis, D.D
-Creator: Rev. J. D. Davis, D.D.
-Publisher: Tokyo: for sale by Z. P. Maruya & Co., Limited; Yokohama, Shanghai & Singapore, Kelly & Walsh
+Title: A SKETCH OF THE LIFE OF REV. JOSEPH HARDY NEESIMA, LL.D., PRESIDENT OF DOSHISHA, KYOTO
+Creator: Rev. J. D. Davis, D.D., Professor of Theology in Doshisha
+Publisher: Tokyo: for sale by Z. P. Maruya & Co., Limited; Yokohama, Shanghai, & Singapore: Kelly & Walsh, Limited
 Publication Date: 1890 (read on the scan's page image, leaf n8; the OCR reads '1800')
 Rights: Public Domain (pd-us-by-date: published 1890); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item sketchoflifeofre00davirich, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (242,765) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1890, out of US copyright by date. OCR quality: fair; title-page year garbled in OCR, leaf 9 is a blank verso, title page is next leaf (not viewed). Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: chapters. Editorial matter: not mapped. Mixed voices: narrative with quoted documents. About 37,841 words.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1890, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are this file's own line numbers.
+Content note: A short Life of Joseph Hardy Neesima by a colleague who writes that he was closely associated with him for over fourteen years. Title page at lines 65-98; it adds 'Printed at the Seishi-Bunsha'. Editorial matter: the author's preface at lines 104-156, dated Doshisha, Kyoto, February 1890; contents at lines 159-180. Divisions: seven chapters, from 'Chapter First' at line 215 to 'Chapter Seventh' from line 4561; the text ends at line 5539. Mixed voices: the preface says the chapters quote Neesima's diary, his own early account in English, his journal of 1884-5 and his letters. Neesima is the subject of the whole book. About 37,841 words.
 
 ______________________________________________________________________
 

@@ -1,8 +1,10 @@
 source_file: launay_histoire-generale-de-la-societe-des-missions-etrangeres-v2-fra_1894.txt
 assignments:
-- work: HISTOIRE GENERALE DE LA SOCIETE DES MISSIONS-ETRANGERES par Adrien Launay, TOME DEUXIEME
+- row_id: launay_histoire-generale-de-la-societe-des-missions-etrangeres-v2-fra_1894--histoire-generale-de-la-societe-des-missions-etrangeres-par
+  work: Histoire générale de la Société des Missions-Étrangères par Adrien Launay, de la même Société. Tome deuxième
   author: launay
-  locus: edict dated 6 January 1833 at OCR lines 47300-47330; the rest not mapped
+  locus: Minh-mang's edict dated 6 January 1833 at lines 47316-47419; Chapter XII, 1823-1836, at lines 45869-50743;
+    the rest not mapped
   atlas_ids:
   - vietnamese-catholicism-1815-1906
   role: context

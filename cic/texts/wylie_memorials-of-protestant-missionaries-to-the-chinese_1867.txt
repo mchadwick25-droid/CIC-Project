@@ -1,12 +1,12 @@
-Title: MEMORIALS OF PROTESTANT MISSIONARIES TO THE CHINESE
-Creator: A. Wylie
-Publisher: Shanghai (American Presbyterian Mission Press)
+Title: MEMORIALS OF PROTESTANT MISSIONARIES TO THE CHINESE: giving a list of their publications, and obituary notices of the deceased. With copious indexes
+Creator: not named on the title page
+Publisher: Shanghae: American Presbyterian Mission Press
 Publication Date: 1867 (line 59 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1867); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item memorialsofprote00wyli, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (934,321) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1867, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Editorial matter: not mapped. Mixed voices: narrative with quoted documents. About 139,374 words.
+Content note: A register of Protestant missionaries to the Chinese, with notices of their lives and numbered lists of their publications. The author is not named on the title page (lines 28-59). Preface from line 62. Divisions: numbered entries by missionary from line 426 (I. Joshua Marshman; II. Robert Morrison at line 525); Index I, names of missionaries, from line 16172; Index II, titles of publications, from line 16810; Index III, classified arrangement of Chinese publications, from line 18879. The name is printed 'Leang Kung-fa, known generally as A-fa' and 'Leang Afa': his notice stands within the pages headed William Milne, from line 1544, and seven works of his are listed, ending at line 1788. An entry for Alexander Wylie begins at line 10084. About 139,374 words.
 
 ______________________________________________________________________
 

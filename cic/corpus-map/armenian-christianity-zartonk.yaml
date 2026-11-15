@@ -43,6 +43,28 @@ works:
     translation is from the 1870s and the explanatory paragraphs carry San Lazzaro's Catholic
     reading.
   source_file: issaverdens_armenian-ritual-parts1-4_1876.txt
+- row_id: lynch_armenia-travels-and-studies-v2_1901--armenia-travels-and-studies-in-two-volumes-with-197
+  work: 'ARMENIA: Travels and Studies. IN TWO VOLUMES, WITH 197 ILLUSTRATIONS, REPRODUCED
+    FROM PHOTOGRAPHS AND'
+  author: lynch
+  locus: Appendix I, National Constitution of the Armenians in the Turkish Empire, at lines
+    24080-25565; within it the text headed Armenian National Constitution at lines 24352-25560;
+    the rest not mapped
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1901
+    end: 1901
+    source: 'the printing''s own title page: line 89 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1901
+    source: line 89 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 299, Grigor Odian: the Armenian National Constitution in English, in an
+    appendix.'
+  source_file: lynch_armenia-travels-and-studies-v2_1901.txt
 - row_id: nurikhan_servo-di-dio-abate-mechitar-ita_1914--il-servo-di-dio-abate-mechitar-as-a-work-of-the-twentieth
   work: Il Servo di Dio Abate Mechitar, as a work of the twentieth-century congregation
   author: nurikhan

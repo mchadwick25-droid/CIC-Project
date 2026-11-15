@@ -1,10 +1,10 @@
 source_file: jessup_fifty-three-years-in-syria-v1_1910.txt
 assignments:
-- work: Fifty-Three Years In Syria / By Henry Harris Jessup, D.D. / Introduction by James S. Dennis, D. D. / In
-    Two
+- row_id: jessup_fifty-three-years-in-syria-v1_1910--fifty-three-years-in-syria-in-two-volumes-volume-i
+  work: Fifty-Three Years in Syria. In Two Volumes. Volume I
   author: jessup
-  locus: II. Pliny Fisk, the Linguist and Preacher at OCR lines 2079-2292; Fisk named elsewhere (31 lines) at OCR
-    lines 1630-2079; the rest not mapped
+  locus: section 'II. Pliny Fisk, the Linguist and Preacher' at lines 2044-2256; chapter IV on the Arabic Bible
+    and its translators at lines 3904-4576; the rest not mapped
   atlas_ids:
   - arab-evangelical-churches
   role: tradition
@@ -20,4 +20,4 @@ assignments:
     source: the copyright notice at line 146 of this file ('Copyright, 1910, by'); the title page prints no year
     formation_confidence: Documented
   note: 'Era 9 rows 324, 325 and 326, Pliny Fisk, the Arabic Bible translators and Asaad es Shidiak: Jessup''s memoir,
-    vol. 1.'
+    vol. 1. A missionary''s own memoir, printed in 1910, four years after the entry''s window closes.'

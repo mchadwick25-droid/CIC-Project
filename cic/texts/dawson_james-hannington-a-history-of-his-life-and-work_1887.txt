@@ -1,12 +1,12 @@
-Title: JAMES HANNINGTON, D.D., F.L.S., F.R.G.S., FIRST BISHOP OF EASTERN EQUATORIAL AFRICA: A HISTORY OF HIS LIFE AND WORK 1847-1885, E. C. DAWSON, M.A., Oxon., Incumbent of St. Thomas's Church, Edinburgh ... AUTHOR'S EDITION, FIRST AMERICAN FROM THE SIXTH LONDON EDITION, NEW YORK, ANSON D. F. RANDOLPH & COMPANY, 38 West Twenty-third Street, 1887
-Creator: E. C. DAWSON, M.A., Oxon.
+Title: JAMES HANNINGTON, D.D., F.L.S., F.R.G.S., First Bishop of Eastern Equatorial Africa: A History of his Life and Work, 1847-1885. Author's edition, first American from the sixth London edition
+Creator: E. C. Dawson, M.A., Oxon., Incumbent of St. Thomas's Church, Edinburgh
 Publisher: New York: Anson D. F. Randolph & Company
 Publication Date: 1887 (line 183 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1887); the archive.org record says possible-copyright-status The Library of Congress is unaware of any copyright restrictions for this item., and the imprint date agrees
 Language: eng
 Source: archive.org item jameshanningto00daws, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (955,445) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1887, out of US copyright by date. OCR quality: clean-fair (front pages noisy). Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: chapters; contents from line 328. Editorial matter: preface and contents lines 175-471. Mixed voices: Dawson narrates; Hannington's diary and letters quoted at length. About 148,671 words.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1887, out of US copyright by date. OCR quality: clean to fair. Line numbers cited in this header are this file's own line numbers.
+Content note: A life of James Hannington; the whole volume tells of him. Title page at lines 151-181; a dedication to his children follows. Editorial matter: Preface, signed E. C. D., Edinburgh, Nov., 1886, at lines 210-335; contents list from line 337; list of illustrations from line 427. Divisions: Part I from line 478 (chapter I, 'Parentage and Childhood', at line 484); Part II from line 8916; chapter XXII, 'The Last Journey', at line 16464; chapter XXIII, 'How It Came to Pass', at line 18158; 'The End' at line 19585. Mixed voices: Hannington's own words are quoted, for example from line 612; a French passage is quoted at lines 18605-18615. King Mwanga is named from line 16432 to line 19196. About 148,671 words.
 
 ______________________________________________________________________
 

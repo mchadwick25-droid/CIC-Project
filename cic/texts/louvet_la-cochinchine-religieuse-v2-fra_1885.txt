@@ -1,12 +1,12 @@
-Title: LA COCHINCHINE RELIGIEUSE, TOME SECOND
-Creator: L.-E. LOUVET, missionnaire apostolique de la Congregation des Missions Etrangeres
-Publisher: PARIS: ERNEST LEROUX, EDITEUR
+Title: La Cochinchine religieuse par L.-E. Louvet, missionnaire apostolique de la Congrégation des Missions Étrangères. Tome second
+Creator: L.-E. Louvet, missionnaire apostolique de la Congrégation des Missions Étrangères
+Publisher: Paris: Ernest Leroux, éditeur
 Publication Date: 1885 (line 72 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1885); the archive.org record carries no rights field, so the imprint date is the basis
 Language: fra
 Source: archive.org item lacochinchinerel02louv, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,216,908) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1885, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: chapters. Editorial matter: not mapped. Mixed voices: narrative with quoted documents. About 166,328 words.
+Content note: The second volume, in French, of a history of the Church in Cochinchina by a missionary. The title page is at lines 43-72; there is no preface in this volume. Divisions: ten chapters, from Chapter I, 'Trente années de paix (1800-1830)', at line 75, through 'L'ère des martyrs (1830-1840)', headed at line 2092, the persecution under Thieu-tri and the reign of Tu-duc, to the tenth chapter on the present state of the missions (1884); 'Fin' at line 26029 and the table of contents from line 26032. Mixed voices: edicts, mandarins' petitions and missionaries' letters are quoted in full. Minh-mang's 'first edict of general persecution', dated 6 January 1833, is introduced and printed at lines 2581-2646; another mention of an edict of 1833 is at line 4485. About 166,328 words.
 
 ______________________________________________________________________
 

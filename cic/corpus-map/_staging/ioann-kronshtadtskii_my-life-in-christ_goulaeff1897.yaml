@@ -1,9 +1,10 @@
 source_file: ioann-kronshtadtskii_my-life-in-christ_goulaeff1897.txt
 assignments:
-- work: My Life in Christ ... Translated, with the Author's sanction, from the Fourth and Supplemented Edition by
-    E.
+- row_id: ioann-kronshtadtskii_my-life-in-christ_goulaeff1897--my-life-in-christ-or-moments-of-spiritual-serenity-and
+  work: MY LIFE IN CHRIST; or Moments of Spiritual Serenity and Contemplation, of Reverent Feeling, of Earnest
   author: ioann-kronshtadtskii
-  locus: the whole volume; not mapped
+  locus: translator's preface, telling of Father John, at lines 197-427; the author's note at lines 432-448; the
+    rest not mapped
   atlas_ids:
   - russian-church-synodal-century
   role: tradition
@@ -12,7 +13,7 @@ assignments:
   date:
     start: 1897
     end: 1897
-    source: 'the printing''s own title page: line 120 of this file, on the title page'
+    source: 'the printing''s own title page: line 71 of this file, on the title page'
     formation_confidence: Documented
   translator:
     name: E. E. Goulaeff
@@ -20,6 +21,6 @@ assignments:
     formation_confidence: Documented
   edition_date:
     year: 1897
-    source: line 120 of this file, on the title page
+    source: line 71 of this file, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 297, John of Kronstadt: extracts from his diary, in English.'

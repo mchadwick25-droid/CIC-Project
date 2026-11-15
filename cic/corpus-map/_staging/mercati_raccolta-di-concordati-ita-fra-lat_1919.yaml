@@ -1,10 +1,10 @@
 source_file: mercati_raccolta-di-concordati-ita-fra-lat_1919.txt
 assignments:
-- work: Raccolta di concordati su materie ecclesiastiche tra la Santa Sede e le autorita civili, Roma, Tipografia
+- row_id: mercati_raccolta-di-concordati-ita-fra-lat_1919--raccolta-di-concordati-su-materie-ecclesiastiche-tra-la
+  work: Raccolta di concordati su materie ecclesiastiche tra la Santa Sede e le autorità civili
   author: mercati
-  locus: Concordat Pius IX and Haiti, preamble (Geffrard named) at OCR lines 61904-61960; French articles 1-18 at
-    OCR lines 62030-62487; Faubert letter and Antonelli reply, 28 March 1860 at OCR lines 62500-62600; the rest
-    not mapped
+  locus: the concordat with Haiti of 28 March 1860, preamble and articles 1-18 in Italian and French, at lines 61913-62499;
+    the letter of Faubert and the reply of Antonelli, 28 March 1860, at lines 62520-62623; the rest not mapped
   atlas_ids:
   - haitian-church-rupture-to-concordat
   - catholic-church-long-nineteenth-century
@@ -19,4 +19,5 @@ assignments:
     year: 1919
     source: line 39 of this file, on the title page
     formation_confidence: Documented
-  note: 'Era 9 row 284, Fabre Geffrard: the text of the Concordat of 1860, in a Vatican collection.'
+  note: 'Era 9 row 284, Fabre Geffrard: the text of the Concordat of 1860, in a Vatican collection. The concordat
+    is the church''s own instrument; the collection that prints it is of 1919 and holds many other concordats.'

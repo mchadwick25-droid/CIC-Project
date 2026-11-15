@@ -1,6 +1,8 @@
 source_file: booth-catherine_aggressive-christianity_boston1883.txt
 assignments:
-- work: AGGRESSIVE CHRISTIANITY. PRACTICAL SERMONS BY MRS. CATHERINE BOOTH, WITH AN INTRODUCTION BY DANIEL STEELE,
+- row_id: booth-catherine_aggressive-christianity_boston1883--aggressive-christianity-practical-sermons-by-mrs-catherine
+  work: AGGRESSIVE CHRISTIANITY. PRACTICAL SERMONS BY MRS. CATHERINE BOOTH, WITH AN INTRODUCTION BY DANIEL STEELE,
+    D.D
   author: booth-catherine
   locus: the whole volume; not mapped
   atlas_ids:

@@ -6,7 +6,7 @@ Rights: Public Domain (pd-us-by-date: published 1907); the archive.org record sa
 Language: eng
 Source: archive.org item cornerinindia00clar, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (271,563) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1907, out of US copyright by date. OCR quality: clean. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Editorial matter: not mapped. Mixed voices: narrative with quoted documents. About 40,734 words.
+Content note: An account in thirty chapters of mission work among the Naga tribes of Assam, written from the author's own years there. Editorial matter: author's preface at lines 123-143, dated Amenia, N. Y., 1907; introduction by William Ellsworth Witter at lines 164-195, dated Boston, June 1906. Divisions: contents list from line 198, list of illustrations from line 271; the text runs from line 341 to line 6298. The author's husband is called 'Mr. Clark' in the narrative and 'Doctor Clark' in the introduction (line 167); chapters II and III (lines 488-998) tell of his first going up to the Naga hills, and the book closes with a paragraph quoted from him at lines 6289-6298. About 40,734 words.
 
 ______________________________________________________________________
 

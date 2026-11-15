@@ -1,12 +1,12 @@
-Title: A NARRATIVE OF THE PERSECUTION OF THE CHRISTIANS IN MADAGASCAR; WITH DETAILS OF THE ESCAPE OF THE SIX CHRISTIAN REFUGEES NOW IN ENGLAND. BY J. J. FREEMAN AND D. JOHNS, FORMERLY MISSIONARIES IN THE ISLAND. ... LONDON: JOHN SNOW, 35 PATERNOSTER ROW. 1840
-Creator: J. J. FREEMAN AND D. JOHNS
-Publisher: London: John Snow, 35 Paternoster Row
+Title: A Narrative of the Persecution of the Christians in Madagascar; with details of the escape of the six Christian refugees now in England. By J. J. Freeman and D. Johns, formerly missionaries in the island. Sixth thousand
+Creator: J. J. Freeman and D. Johns, formerly missionaries in the island
+Publisher: London: John Snow, 35, Paternoster Row
 Publication Date: 1840 (line 45 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1840); the archive.org record carries no rights field, so the imprint date is the basis
 Language: eng
 Source: archive.org item narrativeofperse00fre, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (646,786) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1840, out of US copyright by date. OCR quality: clean-fair. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: chapters I-XI; contents lines 241-340. Editorial matter: frontispiece explanation lines ~48-80. About 98,021 words.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1840, out of US copyright by date. OCR quality: clean to fair. Line numbers cited in this header are this file's own line numbers.
+Content note: A narrative by two former missionaries of the persecution of Christians in Madagascar. Editorial matter: an explanation of the frontispiece at lines 60-93 and a preface from line 96. Contents from line 250. Divisions: eleven chapters, Chapter I (introductory) from line 352. Mixed voices: the queen's messages and the words of Malagasy Christians are reported inside the narrative. Ranavalona's accession is told at lines 624-725. Chapter VII (lines 6051-7613) runs from the queen's edict of 1 March 1835 to the martyrdom of Rasalama, with Rasalama from line 7045 and her name explained at line 7585. Rafaravavy, one of the six refugees, is named in the frontispiece note (line 71) and often later. About 98,021 words.
 
 ______________________________________________________________________
 

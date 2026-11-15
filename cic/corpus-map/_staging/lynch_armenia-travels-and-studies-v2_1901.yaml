@@ -1,8 +1,10 @@
 source_file: lynch_armenia-travels-and-studies-v2_1901.txt
 assignments:
-- work: ARMENIA Travels and Studies H. F. B. LYNCH IN TWO VOLUMES ... VOL. II ... 1901
+- row_id: lynch_armenia-travels-and-studies-v2_1901--armenia-travels-and-studies-in-two-volumes-with-197
+  work: 'ARMENIA: Travels and Studies. IN TWO VOLUMES, WITH 197 ILLUSTRATIONS, REPRODUCED FROM PHOTOGRAPHS AND'
   author: lynch
-  locus: Appendix I National Constitution at OCR lines 24068-25555; the rest not mapped
+  locus: Appendix I, National Constitution of the Armenians in the Turkish Empire, at lines 24080-25565; within
+    it the text headed Armenian National Constitution at lines 24352-25560; the rest not mapped
   atlas_ids:
   - armenian-christianity-zartonk
   role: context

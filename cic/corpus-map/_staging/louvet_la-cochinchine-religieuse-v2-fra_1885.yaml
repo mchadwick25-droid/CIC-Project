@@ -1,8 +1,9 @@
 source_file: louvet_la-cochinchine-religieuse-v2-fra_1885.txt
 assignments:
-- work: LA COCHINCHINE RELIGIEUSE, TOME SECOND
+- row_id: louvet_la-cochinchine-religieuse-v2-fra_1885--la-cochinchine-religieuse-par-l-e-louvet-missionnaire
+  work: La Cochinchine religieuse par L.-E. Louvet, missionnaire apostolique de la Congrégation des Missions
   author: louvet
-  locus: the whole volume; not mapped
+  locus: Minh-mang's first edict of general persecution, 6 January 1833, at lines 2581-2646; the rest not mapped
   atlas_ids:
   - vietnamese-catholicism-1815-1906
   role: context

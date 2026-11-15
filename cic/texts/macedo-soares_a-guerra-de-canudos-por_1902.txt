@@ -1,12 +1,12 @@
-Title: A GUERRA DE CANUDOS por Henrique Duque-Estrada de Macedo Soares (Tenente de Infantaria), 1a edicao, Rio, Typ. Altina, Assemblea 96
-Creator: Henrique Duque-Estrada de Macedo Soares
-Publisher: Rio, Typ. Altina
+Title: A GUERRA DE CANUDOS
+Creator: Henrique Duque-Estrada de Macedo Soares (Tenente de Infantaria)
+Publisher: Rio: Typ. Altina
 Publication Date: 1902 (read on the scan's page image, leaf n6, which prints '1a edicao' and 'Rio, Typ. Altina, 1902'; an earlier leaf, the cover, reads 1903 in the OCR)
 Rights: Public Domain (pd-us-by-date: published 1902); the archive.org record carries no rights field, so the imprint date is the basis
 Language: por
 Source: archive.org item guerradecanudos00soar, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (555,992) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1902, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Editorial matter: see divisions. About 75,880 words.
+Content note: A Portuguese account of the war of Canudos by an infantry lieutenant; title page at lines 24-46. Divisions: sections headed by Roman numerals, each with a summary of its matter; the first is summarized at lines 66-70 ('A expedição Febronio. Derrota da expedição Moreira César. António Conselheiro. Fundação de Canudos'), section II, on the organization and march of the fourth expedition, begins at line 1289, and the text ends with 'Fim' at line 13926. No contents list or preface was found. António Conselheiro is told of in the first section, from 'Sobre António Vicente Mendes Maciel, o Conselheiro' at line 892 to line 1286: his family, his wandering and preaching in the backlands, and his settlement at Canudos; he is named again up to line 13635. About 75,880 words.
 
 ______________________________________________________________________
 

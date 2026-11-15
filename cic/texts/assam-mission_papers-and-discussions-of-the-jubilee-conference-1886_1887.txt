@@ -1,12 +1,12 @@
-Title: THE ASSAM MISSION OF THE AMERICAN BAPTIST MISSIONARY UNION: papers and discussions of the jubilee conference
-Creator: American Baptist ... Assam Mission
-Publisher: not read
+Title: THE ASSAM MISSION OF THE AMERICAN BAPTIST MISSIONARY UNION. PAPERS AND DISCUSSIONS OF THE JUBILEE CONFERENCE HELD IN NOWGONG, DECEMBER 18-29, 1886
+Creator: not named on the title page
+Publisher: Calcutta: Published by the Assam Mission of the American Baptist Missionary Union; printed by J. W. Thomas, Baptist Mission Press
 Publication Date: 1887 (line 27 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1887); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item assammissionofam00amer, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (690,476) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1887, out of US copyright by date. OCR quality: not sampled. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Editorial matter: not mapped. Mixed voices: narrative with quoted documents. About 103,908 words.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1887, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are this file's own line numbers.
+Content note: Papers read at the conference of the Assam Mission held at Nowgong in December 1886, each followed by a summary of the discussion. Editorial matter: preface at lines 179-200, errata from line 203, list of missionaries present from line 312. Divisions: minutes of the conference from line 373; historical sketches of the fields and papers by named missionaries; a register of the missionaries of the Assam Mission from line 13448; statistics from line 14333; index from line 14817. Mixed voices: the papers are by many hands and the discussions report each speaker in turn. E. W. Clark appears in the Ao Naga sketch at lines 5252-5425, reads his own paper at lines 10836-11174, and has a register entry at lines 13501-13509. About 103,908 words.
 
 ______________________________________________________________________
 

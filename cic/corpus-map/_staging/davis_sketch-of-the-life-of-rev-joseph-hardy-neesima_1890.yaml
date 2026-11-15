@@ -1,7 +1,7 @@
 source_file: davis_sketch-of-the-life-of-rev-joseph-hardy-neesima_1890.txt
 assignments:
-- work: A SKETCH OF THE LIFE OF REV. JOSEPH HARDY NEESIMA, LL.D., President of Doshisha, Kyoto, prepared by Rev.
-    J.
+- row_id: davis_sketch-of-the-life-of-rev-joseph-hardy-neesima_1890--a-sketch-of-the-life-of-rev-joseph-hardy-neesima-ll-d
+  work: A SKETCH OF THE LIFE OF REV. JOSEPH HARDY NEESIMA, LL.D., PRESIDENT OF DOSHISHA, KYOTO
   author: davis
   locus: the whole volume; not mapped
   atlas_ids:

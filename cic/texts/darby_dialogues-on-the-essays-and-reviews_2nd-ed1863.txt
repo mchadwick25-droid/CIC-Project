@@ -1,12 +1,12 @@
-Title: DIALOGUES ON THE ESSAYS AND REVIEWS. BY ONE WHO VALUES CHRISTIANITY FOR ITS OWN SAKE, AND BELIEVES IN IT AS A REVELATION FROM GOD. SECOND EDITION, REVISED. LONDON: W. H. BROOM, 47, ST. PAUL'S CHURCHYARD; HAMILTON, ADAMS, & CO., PATERNOSTER ROW. MDCCCLXIII
-Creator: One who values Christianity for its own sake (a handwritten name beneath, on the page image, is a library inscription, not print)
-Publisher: London: W. H. Broom
+Title: DIALOGUES ON THE ESSAYS AND REVIEWS. Second edition, revised
+Creator: By one who values Christianity for its own sake, and believes in it as a revelation from God
+Publisher: London: W. H. Broom; Hamilton, Adams, & Co.
 Publication Date: 1863 (read on the scan's page image, leaf n5; the OCR does not give it cleanly)
 Rights: Public Domain (pd-us-by-date: published 1863); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item dialoguesonessa00darbgoog, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,202,000) equals the size archive.org lists for the djvu.txt.
-Provenance note: At intake the host's own additions were removed and nothing else: Google's preamble about the scan (host OCR lines 1-48, 48 lines, from 'Google' to the last line naming books.google.com). The edition's own text follows as the host gives it; nothing was normalized or corrected. Rights basis: published 1863, out of US copyright by date. OCR quality: fair: Google scan, double-spaced OCR, sampled lines 12000 and 21225. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: Four dialogues per contents: Christianity and the Education of the World p.3; What has the Bible Taught? and What has Geology Proved? p.115; Modern Philosophy and Modern Theology p.153; Inspiration and Interpretation p.287; Appendix Dr. Colenso and the Pentateuch. Mixed voices: dialogue speakers W. and H. throughout. About 187,982 words.
+Provenance note: At intake the host's own additions were removed and nothing else: Google's preamble about the scan (host OCR lines 1-48, 48 lines, from 'Google' to the last line naming books.google.com). The edition's own text follows as the host gives it; nothing was normalized or corrected. Rights basis: published 1863, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are this file's own line numbers.
+Content note: Dialogues between two speakers, W. and H., on the book 'Essays and Reviews'. The author is not named on the title page (lines 19-70), which lists four dialogues with page numbers. Divisions: 'Christianity and the Education of the World' begins at line 101; a second title page, 'Part II. Modern Philosophy and Modern Theology both compared with Scripture', is at lines 7002-7026; 'End of Dialogue III' at line 13192; 'Inspiration and Interpretation' begins at line 13195. A second work follows with its own title page, 'Dr. Colenso and the Pentateuch', London: W. H. Broom, at line 21190; its text, not in dialogue form, runs from line 21212 to line 22738. About 187,982 words.
 
 ______________________________________________________________________
 

@@ -1,9 +1,9 @@
 source_file: morrison_memoirs-of-the-life-and-labours-of-robert-morrison-v2_1839.txt
 assignments:
-- work: MEMOIRS OF THE LIFE AND LABOURS OF ROBERT MORRISON, D.D. ... compiled by his widow, with critical notices
-    of
+- row_id: morrison_memoirs-of-the-life-and-labours-of-robert-morrison-v2_1839--memoirs-of-the-life-and-labours-of-robert-morrison-d-d-f-r-s
+  work: Memoirs of the Life and Labours of Robert Morrison, D.D., F.R.S., M.R.A.S., Member of the Society Asiatique
   author: morrison
-  locus: the whole volume; not mapped
+  locus: Morrison's 1826 account of Leang-afa and his conversation at lines 15610-15680; the rest not mapped
   atlas_ids:
   - the-missionary-movement-s-native-churches-seramp
   role: context

@@ -1,12 +1,12 @@
-Title: CODIGO DE LA REFORMA o COLECCION DE LEYES, DECRETOS Y SUPREMAS ORDENES, expedidas desde 1856 hasta 1861. Mexico, Imprenta Literaria, C. del Seminario n. 6, 1861
-Creator: no author (Mexico, laws); property of editor J. Sebastian Segura
-Publisher: Mexico, Imprenta Literaria
+Title: CÓDIGO DE LA REFORMA. COLECCIÓN DE LEYES, DECRETOS Y SUPREMAS ÓRDENES, EXPEDIDAS DESDE 1856 HASTA 1861
+Creator: not named on the title page; 'Propiedad de su editor J. Sebastián Segura'
+Publisher: México: Imprenta Literaria, C. del Seminario n. 6
 Publication Date: 1861 (read on the scan's page image, leaf n4; the OCR does not give it cleanly)
 Rights: Public Domain (pd-us-by-date: published 1861); the archive.org record carries no rights field, so the imprint date is the basis
 Language: spa
 Source: archive.org item codigodelareform00mexi, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (939,939) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1861, out of US copyright by date. OCR quality: fair (some noise). Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: Advertencia line 100; Ano de 1856 line 134; Ano de 1859 line 5320. Editorial matter: see divisions. About 133,919 words.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1861, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are this file's own line numbers.
+Content note: A collection in Spanish of the Mexican laws, decrees and supreme orders of the Reform, numbered and set under year headings. Title page at lines 74-110. Editorial matter: the editor's foreword at lines 113-140, which says the collection holds the measures of Comonfort's government, those decreed by Juárez at Veracruz, and those issued in the capital, each headed by a summary and with notes at the foot. Divisions: 'Año de 1856' from line 146; the Constitution of 5 February 1857 from line 2179; 'Año de 1859' from line 5332; 1860 from line 7320; 1861 from line 7831; the text ends at line 15784. A chronological table of the measures runs from line 15790 and an index from line 16654. The first law under 1859, No. 49, is issued in the name of Benito Juárez. About 133,919 words.
 
 ______________________________________________________________________
 

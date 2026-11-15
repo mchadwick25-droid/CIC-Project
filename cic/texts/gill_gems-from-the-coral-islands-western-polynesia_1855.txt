@@ -1,12 +1,12 @@
-Title: GEMS FROM THE CORAL ISLANDS: Western Polynesia, comprising the New Hebrides group, the Loyalty group, New Caledonia group, by the Rev. William Gill, Rarotonga
+Title: GEMS FROM THE CORAL ISLANDS. Western Polynesia: comprising the New Hebrides Group, the Loyalty Group, New Caledonia Group
 Creator: Rev. William Gill, Rarotonga
-Publisher: LONDON: WARD AND CO., 27, Paternoster Row
+Publisher: London: Ward and Co.
 Publication Date: 1855 (line 45 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1855); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item gemsfromcoralisl00gilliala, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (459,673) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1855, out of US copyright by date. OCR quality: fair (doubled spaces, readable). Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: chapters by island; Taunga passages in the New Caledonia chapter. Editorial matter: see divisions. About 69,182 words.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1855, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are this file's own line numbers.
+Content note: A missionary's account of the work of native teachers in Western Polynesia. Title page at lines 20-45; Introduction from line 54; a general contents list by island from line 120. Divisions: a section for each island, each with its own contents list and chapters: Mare (line 255), Fate (2032), Eromanga (3650), Fotuna (5090), Aneiteum (5399), Lifu (6655), Toka (7184), Uea (7292), New Caledonia (7441) and Tana (8056); the text ends at line 8678. Mixed voices: the author quotes the teachers' reports. The name is printed 'Taunga' and appears only in the New Caledonia section, where two of his reports are quoted at lines 7589-7606 and 7653-7683. About 69,182 words.
 
 ______________________________________________________________________
 

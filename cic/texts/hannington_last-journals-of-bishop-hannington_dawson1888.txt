@@ -1,12 +1,12 @@
-Title: THE LAST JOURNALS OF BISHOP HANNINGTON being Narratives of A Journey through Palestine in 1884 and A Journey through Masai-Land and U-Soga in 1885. EDITED BY E. C. DAWSON, M.A. Oxon. ... LONDON SEELEY & CO., 46, 47, & 48 ESSEX STREET, STRAND 1888
-Creator: Bishop Hannington (edited by E. C. Dawson); E. C. DAWSON, M.A. Oxon.
+Title: THE LAST JOURNALS OF BISHOP HANNINGTON, being Narratives of A Journey through Palestine in 1884 and A Journey through Masai-Land and U-Soga in 1885
+Creator: Bishop Hannington; edited by E. C. Dawson, M.A. Oxon., Incumbent of S. Thomas's Church, Edinburgh
 Publisher: London: Seeley & Co.
 Publication Date: 1888 (line 104 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1888); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item lastjournalsofbi00hann, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (316,607) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1888, out of US copyright by date. OCR quality: clean-fair. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: chapters; contents after line 92; first chapter line 518. Editorial matter: editor's preface before line 518. Mixed voices: Hannington's own journal, with Dawson's editorial notes. About 49,043 words.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1888, out of US copyright by date. OCR quality: clean to fair. Line numbers cited in this header are this file's own line numbers.
+Content note: Bishop Hannington's diaries of two journeys, printed with linking passages by the editor, E. C. Dawson. Editorial matter: 'Introductory' by the editor at lines 410-527, which says one diary was recovered from King Mwanga in June 1886. Divisions: contents list from line 107, list of illustrations from line 324; ten chapters. Chapter I, At Home, begins at line 530; chapters II-VI are headed The Palestine Journal; chapters VII-X, from line 4627, are headed The Last Journal, with chapter X, Through U-Soga to the Nile, from line 6887. Mixed voices: the editor's own words stand between the diary entries, and a letter from Bishop Parker with a porter's report closes the book. 'The End' is at line 7727. About 49,043 words.
 
 ______________________________________________________________________
 

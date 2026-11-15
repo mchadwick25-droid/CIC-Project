@@ -1,12 +1,12 @@
-Title: MEMOIR OF THE REV. PLINY FISK, A.M. LATE MISSIONARY TO PALESTINE. BY ALVAN BOND ... CROCKER AND BREWSTER ... 1828
-Creator: Alvan Bond
-Publisher: Boston, Crocker and Brewster
+Title: MEMOIR OF THE REV. PLINY FISK, A. M., LATE MISSIONARY TO PALESTINE
+Creator: Alvan Bond, Pastor of the Congregational Church in Sturbridge, Ms.
+Publisher: Boston: Crocker and Brewster; New-York: Jonathan Leavitt
 Publication Date: 1828 (line 58 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1828); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item memoirofrevpliny00bondrich, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (989,830) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1828, out of US copyright by date. OCR quality: clean to fair. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: contents line 252. Editorial matter: see divisions. About 151,100 words.
+Content note: A life of Pliny Fisk in fourteen chapters, told by Alvan Bond and built largely from Fisk's own letters and journals. Editorial matter: copyright entry at lines 61-86; preface at lines 89-231, dated Sturbridge, December 1827. Divisions: contents list at lines 234-509; the text runs from chapter I at line 514 to 'THE END' at line 20143, with chapter XIV, on his last sickness and death, from line 19083. Mixed voices: Fisk's letters are printed under headings naming the person addressed (for example from line 4415), and the contents list for chapter XIV names remarks and tributes by Mr. Goodell, Mr. Jowett, Mr. Bird and the American Board. Publisher's lists of books run from line 20146 to the end. About 151,100 words.
 
 ______________________________________________________________________
 

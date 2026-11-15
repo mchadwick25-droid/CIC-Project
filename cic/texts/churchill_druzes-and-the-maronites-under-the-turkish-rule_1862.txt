@@ -1,12 +1,12 @@
-Title: THE DRUZES AND THE MARONITES under the Turkish rule FROM 1840 TO 1860 BY COLONEL CHURCHILL LONDON BERNARD QUARITCH 15 PICCADILLY 1862
-Creator: Colonel Churchill
-Publisher: London, Bernard Quaritch
+Title: The Druzes and the Maronites under the Turkish Rule from 1840 to 1860
+Creator: Colonel Churchill, author of 'Ten Years' Residence in Mount Lebanon, 1853'
+Publisher: London: Bernard Quaritch, 15 Piccadilly
 Publication Date: 1862 (line 55 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1862); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item druzesmaronitesu00churuoft, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (392,296) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1862, out of US copyright by date. OCR quality: clean. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: contents line 144. Editorial matter: see divisions. About 55,762 words.
+Content note: An account of the Druzes and the Maronites of the Lebanon from 1840 to the massacres of 1860, by an author who says he lived in the Lebanon through most of that period. Editorial matter: a note on the impression at lines 61-68 and the author's preface at lines 76-153, signed Charles Henry Churchill, Beyrout, Syria. Contents at lines 156-234. Divisions: nine chapters, Chapter I from line 236; the text ends at line 8731. The Maronite patriarch is spoken of many times, for example at lines 1343-1507 and 3871-3883, and in the heading of Chapter IV, but always by office: the file does not name Peter Paul Massaad. An advertisement for the author's 'Mount Lebanon' follows from line 8739. About 55,762 words.
 
 ______________________________________________________________________
 

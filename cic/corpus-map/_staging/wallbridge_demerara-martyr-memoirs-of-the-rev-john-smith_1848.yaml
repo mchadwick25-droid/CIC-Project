@@ -1,7 +1,8 @@
 source_file: wallbridge_demerara-martyr-memoirs-of-the-rev-john-smith_1848.txt
 assignments:
-- work: 'THE DEMERARA MARTYR: memoirs of the Rev. John Smith, missionary to Demerara, by Edwin Angel Wallbridge,
-    with'
+- row_id: wallbridge_demerara-martyr-memoirs-of-the-rev-john-smith_1848--the-demerara-martyr-memoirs-of-the-rev-john-smith-missionary
+  work: The Demerara Martyr. Memoirs of the Rev. John Smith, Missionary to Demerara; by Edwin Angel Wallbridge,
+    with
   author: wallbridge
   locus: the whole volume; not mapped
   atlas_ids:

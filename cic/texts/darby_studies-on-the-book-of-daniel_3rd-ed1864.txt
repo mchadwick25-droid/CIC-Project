@@ -1,62 +1,14 @@
-Title: STUDIES ON THE BOOK OF DANIEL: A COURSE OF LECTURES BY J. N. DARBY. TRANSLATED FROM THE FRENCH, AND REVISED BY THE AUTHOR. Third Edition. LONDON: JOHN B. BATEMAN, 22, PATERNOSTER ROW, E.C. 1864. BOSTON, MASS: F. G. BROWN, 3, TREMONT ROW
-Creator: J. N. DARBY; Translated from the French, and revised by the author
-Publisher: London: John B. Bateman; Boston: F. G. Brown
+Title: STUDIES ON THE BOOK OF DANIEL: A COURSE OF LECTURES BY J. N. DARBY. TRANSLATED FROM THE FRENCH, AND REVISED BY THE AUTHOR. Third Edition
+Creator: J. N. Darby; translated from the French, and revised by the author
+Publisher: London: John B. Bateman; Boston, Mass.: F. G. Brown
 Publication Date: 1864 (read on the scan's page image, leaf n5; the OCR does not give it cleanly)
 Rights: Public Domain (pd-us-by-date: published 1864); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item studiesonbookda00darbgoog, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (223,101) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1864, out of US copyright by date. OCR quality: fair: Google scan, occasional Greek/ink noise. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: Preface from line 133; lectures headed FIRST LECTURE line 186, SECOND LECTURE line 448, on. Editorial matter: Preface To the Christian Reader from line 133. About 40,708 words.
+Provenance note: At intake the host's own additions were removed and nothing else: Google's preamble about the scan (host OCR lines 1-48, 48 lines, from 'This is a digital copy of a book that was preserve' to the last line naming books.google.com). The edition's own text follows as the host gives it; nothing was normalized or corrected. Rights basis: published 1864, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are this file's own line numbers.
+Content note: Nine lectures on the Book of Daniel, in an English translation from the French that the title page says the author revised; the translator is not named. Editorial matter: preface 'To the Christian Reader' at lines 137-186, which says the lectures were given before a small company, taken down in notes, and printed by a third person with the author's consent. Divisions: First Lecture (Daniel I, II) from line 198, Second from line 460, Third from line 1070, Fourth from line 1772, Fifth from line 2366, Sixth from line 2935, Seventh from line 3550, Eighth from line 4136, Ninth from line 4566; the text ends at line 5282. A list of other books from the same publisher runs from line 5290 to the end. About 40,206 words.
 
 ______________________________________________________________________
-
-
-This is a digital copy of a book that was preserved for generations on library shelves before it was carefully scanned by Google as part of a project 
-to make the world's books discoverable online. 
-
-It has survived long enough for the copyright to expire and the book to enter the public domain. A public domain book is one that was never subject 
-to copyright or whose legal copyright term has expired. Whether a book is in the public domain may vary country to country. Public domain books 
-are our gateways to the past, representing a wealth of history, culture and knowledge that's often difficult to discover. 
-
-Marks, notations and other marginalia present in the original volume will appear in this file - a reminder of this book's long journey from the 
-publisher to a library and finally to you. 
-
-Usage guidelines 
-
-Google is proud to partner with libraries to digitize public domain materials and make them widely accessible. Public domain books belong to the 
-public and we are merely their custodians. Nevertheless, this work is expensive, so in order to keep providing this resource, we have taken steps to 
-prevent abuse by commercial parties, including placing technical restrictions on automated querying. 
-
-We also ask that you: 
-
-+ Make non-commercial use of the files We designed Google Book Search for use by individuals, and we request that you use these files for 
-personal, non-commercial purposes. 
-
-+ Refrain from automated querying Do not send automated queries of any sort to Google's system: If you are conducting research on machine 
-translation, optical character recognition or other areas where access to a large amount of text is helpful, please contact us. We encourage the 
-use of public domain materials for these purposes and may be able to help. 
-
-+ Maintain attribution The Google "watermark" you see on each file is essential for informing people about this project and helping them find 
-additional materials through Google Book Search. Please do not remove it. 
-
-+ Keep it legal Whatever your use, remember that you are responsible for ensuring that what you are doing is legal. Do not assume that just 
-because we believe a book is in the public domain for users in the United States, that the work is also in the public domain for users in other 
-countries. Whether a book is still in copyright varies from country to country, and we can't offer guidance on whether any specific use of 
-any specific book is allowed. Please do not assume that a book's appearance in Google Book Search means it can be used in any manner 
-anywhere in the world. Copyright infringement liability can be quite severe. 
-
-About Google Book Search 
-
-Google's mission is to organize the world's information and to make it universally accessible and useful. Google Book Search helps readers 
-discover the world's books while helping authors and publishers reach new audiences. You can search through the full text of this book on the web 
-
-
-
-at jhttp : //books . qooqle . com/ 
-
-
-
-
 
 466.6 
 Darby 

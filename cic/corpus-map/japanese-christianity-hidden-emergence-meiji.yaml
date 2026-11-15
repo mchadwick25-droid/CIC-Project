@@ -3,6 +3,45 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: japanese-christianity-hidden-emergence-meiji
 works:
+- row_id: davis_sketch-of-the-life-of-rev-joseph-hardy-neesima_1890--a-sketch-of-the-life-of-rev-joseph-hardy-neesima-ll-d
+  work: A SKETCH OF THE LIFE OF REV. JOSEPH HARDY NEESIMA, LL.D., PRESIDENT OF DOSHISHA, KYOTO
+  author: davis
+  locus: the whole volume; not mapped
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1890
+    end: 1890
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n8; the
+      OCR reads ''1800'''
+    formation_confidence: Documented
+  edition_date:
+    year: 1890
+    source: read on the scan's page image, leaf n8; the OCR reads '1800'
+    formation_confidence: Documented
+  note: 'Era 9 row 282, Niijima Jo: a sketch of his life by a colleague.'
+  source_file: davis_sketch-of-the-life-of-rev-joseph-hardy-neesima_1890.txt
+- row_id: hardy_life-and-letters-of-joseph-hardy-neesima_1891--life-and-letters-of-joseph-hardy-neesima
+  work: LIFE AND LETTERS OF JOSEPH HARDY NEESIMA
+  author: hardy
+  locus: the whole volume; not mapped
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1891
+    end: 1891
+    source: the copyright notice at line 69 of this file ('Copyright, 1891,'); the title page
+      prints no year
+    formation_confidence: Documented
+  edition_date:
+    year: 1891
+    source: the copyright notice at line 69 of this file ('Copyright, 1891,'); the title page
+      prints no year
+    formation_confidence: Documented
+  note: 'Era 9 row 282, Niijima Jo: a Life with his letters.'
+  source_file: hardy_life-and-letters-of-joseph-hardy-neesima_1891.txt
 - row_id: marnas_religion-de-jesus-ressuscitee-au-japon-t1-fra_1897--la-religion-de-j-sus-ressuscit-e-au-japon-tome-1-marnas-1897-the-re-emergence
   work: 'La Religion de Jésus ressuscitée au Japon, tome 1 (Marnas, 1897): the re-emergence'
   author: marnas
@@ -40,3 +79,23 @@ works:
     formation_confidence: Documented
   note: 'Era 9 row 198, Nikolai of Japan: a Russian account of the Japan mission.'
   source_file: pravoslavie-v-iaponii_pravoslavie-v-iaponii-rus_1889.txt
+- row_id: uchimura_diary-of-a-japanese-convert_1895--the-diary-of-a-japanese-convert
+  work: THE DIARY OF A JAPANESE CONVERT
+  author: uchimura
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1895
+    end: 1895
+    source: the copyright notice at line 117 of this file ('Copyright, 1895. by Fleming H.
+      Revell Company.'); the title page prints no year
+    formation_confidence: Documented
+  edition_date:
+    year: 1895
+    source: the copyright notice at line 117 of this file ('Copyright, 1895. by Fleming H.
+      Revell Company.'); the title page prints no year
+    formation_confidence: Documented
+  note: 'Era 9 row 283, Uchimura Kanzo: his own account.'
+  source_file: uchimura_diary-of-a-japanese-convert_1895.txt

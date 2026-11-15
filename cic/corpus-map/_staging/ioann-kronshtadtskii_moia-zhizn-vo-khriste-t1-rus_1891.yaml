@@ -1,6 +1,7 @@
 source_file: ioann-kronshtadtskii_moia-zhizn-vo-khriste-t1-rus_1891.txt
 assignments:
-- work: Моя жизнь во Христе, или минуты духовного трезвения и созерцания ... Извлечение из дневника протоиерея [name
+- row_id: ioann-kronshtadtskii_moia-zhizn-vo-khriste-t1-rus_1891--work
+  work: Моя жизнь во Христе, или минуты духовнаго трезвенія и созерцанія, благоговѣйнаго чувства, душевнаго
   author: ioann-kronshtadtskii
   locus: the whole volume; not mapped
   atlas_ids:

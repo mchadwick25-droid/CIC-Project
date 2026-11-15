@@ -9,7 +9,7 @@ works:
   author: cunninghame-graham
   locus: the whole volume; not mapped
   role: context
-  confidence: needs-ruling
+  confidence: provisional
   language: eng
   date:
     start: 1920
@@ -20,5 +20,28 @@ works:
     year: 1920
     source: OCR line 112, on the title page
     formation_confidence: Documented
-  note: 'Era 9 row 186, Antonio Conselheiro: a second witness in English.'
+  note: 'Era 9 row 186, Antonio Conselheiro: a second witness in English. A later account
+    by another hand, printed in 1920, after the entry''s window closes.'
   source_file: cunninghame-graham_brazilian-mystic-antonio-conselheiro_1920.txt
+- row_id: macedo-soares_a-guerra-de-canudos-por_1902--a-guerra-de-canudos
+  work: A GUERRA DE CANUDOS
+  author: macedo-soares
+  locus: account of António Vicente Mendes Maciel, the Conselheiro, at lines 892-1286; the
+    rest not mapped
+  role: context
+  confidence: provisional
+  language: por
+  date:
+    start: 1902
+    end: 1902
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n6, which
+      prints ''1a edicao'' and ''Rio, Typ. Altina, 1902''; an earlier leaf, the cover, reads
+      1903 in the OCR'
+    formation_confidence: Documented
+  edition_date:
+    year: 1902
+    source: read on the scan's page image, leaf n6, which prints '1a edicao' and 'Rio, Typ.
+      Altina, 1902'; an earlier leaf, the cover, reads 1903 in the OCR
+    formation_confidence: Documented
+  note: 'Era 9 row 186, Antonio Conselheiro: an army officer''s account of the war, in Portuguese.'
+  source_file: macedo-soares_a-guerra-de-canudos-por_1902.txt

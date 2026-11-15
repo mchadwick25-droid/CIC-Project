@@ -1,10 +1,11 @@
 source_file: wright_centennial-encyclopaedia-of-the-african-methodist-episcopal-church_1916.txt
 assignments:
-- work: CENTENNIAL ENCYCLOPAEDIA OF THE AFRICAN METHODIST EPISCOPAL CHURCH ... BY RICHARD R. WRIGHT JR.,
+- row_id: wright_centennial-encyclopaedia-of-the-african-methodist-episcopal-church_1916--centennial-encyclopaedia-of-the-african-methodist-episcopal
+  work: CENTENNIAL ENCYCLOPAEDIA OF THE African Methodist Episcopal Church, Containing principally the Biographies
+    of
   author: wright
-  locus: '''Africa, South'': Mokone withdraws from the Wesleyan church, 1 Nov 1892; the Ethiopian Chur at OCR lines
-    32428-32540; ''Rev. Mangena Make Mokone'' named as founder in another man''s biography at OCR lines 17745-17755;
-    the rest not mapped'
+  locus: entry Africa, South, by Rev. F. M. Gow, at lines 32439-33062; opening of the sketch of John Metiro Pangone
+    Lebala, naming Mokone as founder of the Ethiopian church, at lines 17755-17764; the rest not mapped
   atlas_ids:
   - african-initiated-churches-harrist-aladura-zioni
   - the-black-church-in-the-twentieth-century
@@ -20,4 +21,5 @@ assignments:
     year: 1916
     source: line 185 of this file, on the title page
     formation_confidence: Documented
-  note: 'Era 9 row 213, Mangena Mokone: an entry in the African Methodist Episcopal Church''s encyclopaedia.'
+  note: 'Era 9 row 213, Mangena Mokone: an entry in the African Methodist Episcopal Church''s encyclopaedia. A later
+    compilation by the African Methodist Episcopal Church, which his church joined; not his own voice.'

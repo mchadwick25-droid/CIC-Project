@@ -660,3 +660,60 @@ Ninety-nine files for the 63 person rows marked major in the wanted list (rows 1
 
 Era 9, batch 2, in a fresh session: the person rows not marked major (226-330), the era 9 outside witnesses and
 council records, the held eras 8-9 items, and the texts of this batch still owed a date check.
+
+## Era 9, batch 2a: Africa, Asia, Oceania, Latin America, the Caribbean and the Eastern churches (2026-11-15)
+
+Seventy-four files for the era 9 person rows outside Britain, Europe and North America, with batch 1's
+not-found rows tried again and its owed date checks done. Record:
+`Build/Ministry/Operations/Audits/2026-11-15_library-era9-b2a/Search_Log.md`; the rows are in `CFT-Wants.md`,
+"Era 9 (1815-1906), batch 2a".
+
+**Ruled by Mark (15 November, given to this thread in the coordinator's brief).**
+- On shelves, verbatim: "follow your recomondations for all shelfs". The principle, as the brief states it: a
+  tradition's own text with a doubt about date or authorship is `tradition`, with the doubt in the row's note.
+  A later reworking, compilation, biography or other witness written by others is `context`. A work written
+  before an entry's window that the entry grows from is `antecedent`. An outside witness with no census entry
+  of its own is `context` on the nearest entry, with the missing entry logged as a census gap.
+- On scope, verbatim: "but add the church family needs and global and any language peices".
+
+**Calls by the coordinator under Mark's rights rulings, applied here.** A printed licence or approbation leaf
+counts like a dated preface. A year printed in the title on the title page counts when the catalogue agrees and
+the publisher and place match the first printing. The Dictionary of African Christian Biography is cite and
+link only (CC BY-NC 4.0, under R3).
+
+**Decided here.**
+- Batch 1's eighteen `needs-ruling` rows are decided by the principle. `tradition`: Finney's Memoirs, Irving's
+  Collected Writings vol. 5, Bavinck's two books of 1909, Disselhoff's jubilee memoir. `antecedent`: Briggs's
+  Defence, the Hodge and Warfield article of 1881, McAuley's Transformed. `context`: the two parts of the case
+  against Briggs, Noyes's Religious Experience (a compilation of 1923), Offord's McAuley, Phillips's Evan
+  Roberts, Lindley vol. 1, Page's Crowther, the two Howard Taylor volumes, Cunninghame Graham. Each row's note
+  says why. None is left at `needs-ruling`.
+- The same principle for this batch. A missionary's own first-hand book is `tradition` on the mission church's
+  entry (Casalis, Jessup, Hannington's journals, Bleby, Mary Mead Clark). A history or Life compiled by
+  another is `context` (Ellis, Freeman and Johns, Louvet, Launay, Dawson, Bond). Captives, consuls and soldiers
+  are `context` (Stern, Blanc, Wylde, Meadows, Brine, Macedo Soares). A text of the tradition printed a few
+  years after its entry's window stays `tradition`, with the year in the note (Sheptytsky 1911, Jessup 1910,
+  Aglipay's Catequesis 1912). No outside witness in this batch lacks a census entry, so no census gap is logged.
+- A copyright notice or a dated preface stands for the date only where the rule's test is met in full. Kuyper's
+  Stone Lectures, A Retrospect, Walsh and the London sermon of Aggressive Christianity fail it and stay out.
+  A censor's leaf without a catalogue record to agree (Makary Glukharev's Mysli, 1894) stays out too.
+- Where the catalogue's two date fields differ by a year, the scan was not taken on a preface; another scan
+  whose title page prints the year was found (Ellis's Martyr Church, MDCCCLXX).
+- One host file holds two volumes with different dates: the Chronicle of Menelik II, tome I (1930) and tome II
+  (1932). Only tome I is held. The file is cut before tome II's title page, and the header says so.
+- At intake the host's own additions are removed by rule, not by hand: Google's preamble and lines that hold
+  only the scanner's page mark. One preamble that the OCR read as Greek letters was removed by its line range.
+  Each header says what was removed. Line numbers in headers and shelf rows are the file's own.
+- dbnl.org is treated as a host that refuses automated clients: its robots file disallows all but two named
+  search engines, and a search request was answered 429. Nothing was fetched from it.
+- A lending-library scan is not taken even where the book is old (Jessup, vol. 1); another scan was found.
+
+**Held for Mark.**
+- Os Sertoes: no printing of 1902 to 1911 other than the 1905 one with the non-commercial notice was found.
+- The hand-fetch list in the search log: eight wants on hosts that need a browser.
+
+### Next action
+
+Era 9, batch 2b, in a fresh session: rows 227-245, 249-262, 267-278, 323 and 327-330 (Britain, Europe, North
+America), and the Kaiserswerth date check. Then batch 3: the outside witnesses, the council records and the
+held eras 8-9 items.

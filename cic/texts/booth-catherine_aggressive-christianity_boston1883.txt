@@ -1,12 +1,12 @@
-Title: AGGRESSIVE CHRISTIANITY. PRACTICAL SERMONS BY MRS. CATHERINE BOOTH, WITH AN INTRODUCTION BY DANIEL STEELE, D.D. Boston: McDonald & Gill, Office of The Christian Witness, 36 Bromfield St. Entered, according to Act of Congress, in the year 1883, By McDonald & Gill, In the Office of the Librarian of Congress at Washington
+Title: AGGRESSIVE CHRISTIANITY. PRACTICAL SERMONS BY MRS. CATHERINE BOOTH, WITH AN INTRODUCTION BY DANIEL STEELE, D.D
 Creator: Mrs. Catherine Booth; introduction by Daniel Steele, D.D.
-Publisher: Boston: McDonald & Gill
+Publisher: Boston: McDonald & Gill, Office of The Christian Witness, 36 Bromfield St.
 Publication Date: 1883 (the copyright notice at line 51 of this file ('Entered, according to Act of Congress, in the year 1883,'); the title page prints no year)
 Rights: Public Domain (pd-us-by-date: published 1883); the archive.org record says possible-copyright-status The Library of Congress is unaware of any copyright restrictions for this item., and the date agrees; the date used is that of the copyright notice at line 51 of this file ('Entered, according to Act of Congress, in the year 1883,'); the title page prints no year
 Language: eng
 Source: archive.org item aggressivechrist00boot_0, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (350,057) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1883, out of US copyright by date. OCR quality: clean to fair, sampled lines 3000. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: Ten sermons (contents line 339ff): I Aggressive Christianity ... X The Holy Ghost. Editorial matter: publishers' preface lines 56-94; Introduction by Daniel Steele lines 95-338. About 56,711 words.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1883, out of US copyright by date. OCR quality: clean to fair. Line numbers cited in this header are this file's own line numbers.
+Content note: Ten sermons by Catherine Booth. Editorial matter: the publishers' preface at lines 58-83; the author's preface at lines 87-103, dated London, December 1880, which says the addresses were delivered at the West End of London in the summer of 1880 and printed from a shorthand writer's notes; the introduction by Daniel Steele at lines 107-348, dated Peabody, March 1, 1883, which says the volume is reprinted in America. Contents at lines 351-387. Divisions: Sermons I to X, from 'Aggressive Christianity' at line 390 to 'The Holy Ghost' from line 6170; the text ends at line 6737, which is nearly the end of the file. About 56,711 words.
 
 ______________________________________________________________________
 

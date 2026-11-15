@@ -1,12 +1,12 @@
-Title: ESCRITOS Y DISCURSOS DE GABRIEL GARCIA MORENO ... TOMO SEGUNDO, ESCRITOS OFICIALES. Quito, Imprenta del Clero, 1888
-Creator: Gabriel Garcia Moreno
-Publisher: Quito, Imprenta del Clero
+Title: ESCRITOS Y DISCURSOS DE GABRIEL GARCIA MORENO. TOMO SEGUNDO. ESCRITOS OFICIALES
+Creator: Gabriel García Moreno; recopilados y publicados por la Sociedad de la Juventud Católica de Quito, y anotados por su presidente D. Manuel María Pólit; precede un prólogo por D. Juan León Mera
+Publisher: Quito: Imprenta del Clero
 Publication Date: 1888 (line 74 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1888); the archive.org record carries no rights field, so the imprint date is the basis
 Language: spa
 Source: archive.org item escritos-y-discursos-tomo-ii-gabriel-garcia-moreno-1888, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (682,907) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1888, out of US copyright by date. OCR quality: clean/fair. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Editorial matter: see divisions. About 110,819 words.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1888, out of US copyright by date. OCR quality: clean to fair. Line numbers cited in this header are this file's own line numbers.
+Content note: The second volume, in Spanish, of García Moreno's writings and speeches: his official writings. Title page at lines 13-74; a half-title at line 104 and the title page again, ending at line 164. Editorial matter: a printed appeal by Manuel María Pólit for copies of García Moreno's letters at lines 77-100; an appendix of twenty editor's notes (Nota I to XX) with documents from line 13613 to 'Fin del segundo tomo' at line 18975. Divisions: 'Proclamas' from line 192, then speeches, replies to diplomats, 'Notas oficiales', and 'Mensajes' to the Congresses of 1863 to 1875 from line 10150. Index from line 18978; errata at line 19378. Mixed voices: the appendix prints letters and speeches of others. García Moreno is the author of the main text. About 110,819 words.
 
 ______________________________________________________________________
 

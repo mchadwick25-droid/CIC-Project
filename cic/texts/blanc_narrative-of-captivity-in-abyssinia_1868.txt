@@ -1,12 +1,12 @@
-Title: A Narrative of Captivity in Abyssinia; with some account of the late Emperor Theodore, his country and people. By Henry Blanc, M.D. ... London: Smith, Elder and Co. 1868
-Creator: HENRY BLANC, M.D., M.R.C.S.E., F.A.S.L.
+Title: A Narrative of Captivity in Abyssinia; with some account of the late Emperor Theodore, his country and people
+Creator: Henry Blanc, M.D., M.R.C.S.E., F.A.S.L., etc., Staff Assistant-Surgeon Her Majesty's Bombay Army (lately on special duty in Abyssinia)
 Publisher: London: Smith, Elder and Co.
 Publication Date: 1868 (line 65 of this file, on the title page, where the OCR reads '1 868.')
 Rights: Public Domain (pd-us-by-date: published 1868); the archive.org record carries no rights field, so the imprint date is the basis
 Language: eng
 Source: archive.org item narrativeofcapti00blan, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (702,073) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1868, out of US copyright by date. OCR quality: clean to fair. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: chapters; contents from line about 230; Ch. I Theodore. Editorial matter: preface lines about 380-415. About 107,104 words.
+Content note: A captive's own account of his imprisonment in Abyssinia, in twenty chapters and a Conclusion. Editorial matter: contents from line 71; the author's Preface, dated London, July 23, 1868, from line 372, which says parts of his report to the Government of Bombay are included. The text runs from line 433 to line 15623; the Conclusion begins at line 15450. Chapter I (lines 433-1279) tells of the Emperor Theodore's rise, rule, character and household. Chapter XV begins at line 10557 with the death of 'Abouna Salama' on the 25th of October and a sketch of his life and his quarrel with Theodore (lines 10569-11132). About 107,104 words.
 
 ______________________________________________________________________
 

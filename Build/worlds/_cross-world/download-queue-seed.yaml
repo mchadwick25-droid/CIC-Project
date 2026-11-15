@@ -28084,8 +28084,8 @@ queue:
     verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,205,945 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: ellis_history-of-madagascar-v2_1838.txt
-  - title: 'Очерк из истории Американской православной духовной миссии (Кадьякской миссии 1794-1837 гг.) с приложением ... Издание Валаамского монастыря. С.-Петербург. Типография М. Меркушева'
-    author: 'none on title page'
+  - title: 'Очеркъ изъ исторіи Американской православной духовной миссіи (Кадьякской миссіи 1794-1837 гг.)'
+    author: 'not named on the title page'
     year: '1894'
     world: alaskan-mission-herman-veniaminov
     why: 'Wanted Sources, era 9 row 226, Herman of Alaska: the Valaam monastery''s account of the Kodiak mission, with his letters.'
@@ -28094,8 +28094,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 812,229 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: valaam_ocherk-iz-istorii-amerikanskoi-pravoslavnoi-missii-rus_1894.txt
-  - title: 'Полное собрание сочинений И. В. Киреевского в двух томах под редакцией М. Гершензона. Томъ 1. Москва. Типография Императорского Московского Университета. 1911'
-    author: 'И. В. Киреевский; под редакцией М. Гершензона'
+  - title: 'Полное собраніе сочиненій И. В. Кирѣевскаго въ двухъ томахъ. Томъ I'
+    author: 'И. В. Кирѣевскій; подъ редакціей М. Гершензона'
     year: '1911'
     world: the-optina-elders-and-russian-ascetic-renewal
     why: 'Wanted Sources, era 9 row 294, Ivan Kireevsky: his collected works, vol. 1.'
@@ -28104,8 +28104,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,202,500 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: kireevsky_polnoe-sobranie-sochinenii-t1-rus_gershenzon1911.txt
-  - title: 'Слова к Тамбовской пастве Феофана, епископа Тамбовского и Шацкого. Санктпетербург, в типографии Штаба военно-учебных заведений. 1861'
-    author: 'Феофана, епископа Тамбовского и Шацкого'
+  - title: 'Слова къ Тамбовской паствѣ Феофана, Епископа Тамбовскаго и Шацкаго'
+    author: 'Феофана, Епископа Тамбовскаго и Шацкаго'
     year: '1861'
     world: the-optina-elders-and-russian-ascetic-renewal
     why: 'Wanted Sources, era 9 row 295, Theophan the Recluse: his sermons to the Tambov flock.'
@@ -28114,7 +28114,7 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 968,571 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: feofan_slova-k-tambovskoi-pastve-rus_1861.txt
-  - title: 'Богоугодная жизнь вообще. Слова епископа Феофана (Из слов к Тамбовской и Владимирской паствам 1859-1866 гг.) Издание второе. Афонского Русского Пантелеимонова монастыря. Москва. 1899'
+  - title: 'БОГОУГОДНАЯ ЖИЗНЬ ВООБЩЕ. СЛОВА ЕПИСКОПА ФЕОФАНА. (Изъ словъ къ Тамбовской и Владимірской паствамъ 1859—1866 гг.) ИЗДАНІЕ ВТОРОЕ'
     author: 'епископа Феофана'
     year: '1899'
     world: the-optina-elders-and-russian-ascetic-renewal
@@ -28124,8 +28124,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 311,820 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: feofan_bogougodnaia-zhizn-voobshche-rus_2nd-ed1899.txt
-  - title: 'Материалы для биографии основателя Алтайской миссии архимандрита Макария. Д. Д. Фил-нова. Москва. Университетская типография, на Страстном бульваре. 1888'
-    author: 'Д. Д. Фил-нова (OCR; host record gives Филимонов)'
+  - title: 'Матеріалы для біографіи основателя Алтайской миссіи архимандрита Макарія'
+    author: 'Д. Д. Фил-нова'
     year: '1888'
     world: russian-church-synodal-century
     why: 'Wanted Sources, era 9 row 296, Makary (Glukharev): materials for his biography.'
@@ -28134,7 +28134,7 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 925,547 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: filimonov_materialy-dlia-biografii-arkhimandrita-makariia-rus_1888.txt
-  - title: 'Моя жизнь во Христе, или минуты духовного трезвения и созерцания ... Извлечение из дневника протоиерея [name garbled in OCR] Том первый. Издание Марьи Васильевны Черкасовой. В пользу дома трудолюбия в Кронштадте'
+  - title: 'Моя жизнь во Христе, или минуты духовнаго трезвенія и созерцанія, благоговѣйнаго чувства, душевнаго исправленія и покоя въ Богѣ. Извлеченіе изъ дневника протоіерея [name garbled in OCR]. Томъ первый'
     author: 'name garbled in OCR (host: Сергиев Иоанн Ильич)'
     year: '1891'
     world: russian-church-synodal-century
@@ -28144,8 +28144,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 663,031 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: ioann-kronshtadtskii_moia-zhizn-vo-khriste-t1-rus_1891.txt
-  - title: 'My Life in Christ ... Translated, with the Author''s sanction, from the Fourth and Supplemented Edition by E. E. Goulaeff, St. Petersburg. Cassell and Company, Limited. London Paris & Melbourne. 1897'
-    author: 'Most Reverend John Iliytch Sergieff (Father John); E. E. Goulaeff'
+  - title: 'MY LIFE IN CHRIST; or Moments of Spiritual Serenity and Contemplation, of Reverent Feeling, of Earnest Self-Amendment, and of Peace in God. EXTRACTS FROM THE DIARY OF THE MOST REVEREND JOHN ILIYTCH SERGIEFF (''FATHER JOHN''), OF ST. ANDREW''S CATHEDRAL, CRONSTADT, RUSSIA. Translated, with the Author''s sanction, from the Fourth and Supplemented Edition'
+    author: 'the Most Reverend John Iliytch Sergieff (''Father John''), of St. Andrew''s Cathedral, Cronstadt, Russia; translated by E. E. Goulaeff, St. Petersburg'
     year: '1897'
     world: russian-church-synodal-century
     why: 'Wanted Sources, era 9 row 297, John of Kronstadt: extracts from his diary, in English.'
@@ -28154,8 +28154,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,757,662 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: ioann-kronshtadtskii_my-life-in-christ_goulaeff1897.txt
-  - title: 'Историческое описание Козельской Оптиной пустыни и Предтечева скита (Калужской губернии), вновь составленное Е. В. Издание Оптиной Пустыни. Свято-Троицкая Сергиева Лавра, собственная типография. 1902'
-    author: 'Е. В. (host: Ераст)'
+  - title: 'Историческое описание Козельской Оптиной пустыни и Предтечева скита (Калужской губернии), вновь составленное Е. В'
+    author: 'Е. В.'
     year: '1902'
     world: the-optina-elders-and-russian-ascetic-renewal
     why: 'Wanted Sources, era 9 rows 293 and 197, Macarius and Ambrose of Optina: the monastery''s own history.'
@@ -28164,8 +28164,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 760,404 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: optina_istoricheskoe-opisanie-kozelskoi-optinoi-pustyni-rus_1902.txt
-  - title: 'О ПОКАЯНІЮ. ЛИСТЬ ПАСТИРСКІЙ Высокопреосвященого АНДРЕЯ ШЕПТИЦКОГО, Митрополита Галицкого ... до вірныхь своихь епархій. ЖОВКВА ПЕЧАТНЯ ОО. ВАСИЛІЯНЬ 1901'
-    author: 'АНДРЕЙ ШЕПТИЦКІЙ'
+  - title: 'О ПОКАЯНІЮ. ЛИСТЪ ПАСТИРСКІЙ Высокопреосвященого АНДРЕЯ ШЕПТИЦКОГО, Митрополита Галицкого, Архіепископа Львовского, Епископа Каменця Подольского, до вѣрныхъ своихъ епархій'
+    author: 'Андрея Шептицкого, Митрополита Галицкого'
     year: '1901'
     world: ruthenian-greek-catholic-polotsk-to-galicia
     why: 'Wanted Sources, era 9 row 279, Andrey Sheptytsky: a pastoral letter on repentance.'
@@ -28174,7 +28174,7 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 122,634 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: sheptytsky_o-pokaianiiu-lyst-pastyrskii-ukr_1901.txt
-  - title: 'КАНАДЯЙСКИМ РУСИНАМ НАПИСАВ Митрополит Андрей Шептицкий. ЖОВКВА Печатня ОО. Василиян 1911'
+  - title: 'Канадийским Русинам. Написав Митрополит Андрей Шептицкий'
     author: 'Митрополит Андрей Шептицкий'
     year: '1911'
     world: ruthenian-greek-catholic-polotsk-to-galicia
@@ -28184,8 +28184,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 212,638 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: sheptytsky_kanadiiskym-rusynam-ukr_1911.txt
-  - title: 'THE DRUZES AND THE MARONITES under the Turkish rule FROM 1840 TO 1860 BY COLONEL CHURCHILL LONDON BERNARD QUARITCH 15 PICCADILLY 1862'
-    author: 'Colonel Churchill'
+  - title: 'The Druzes and the Maronites under the Turkish Rule from 1840 to 1860'
+    author: 'Colonel Churchill, author of ''Ten Years'' Residence in Mount Lebanon, 1853'''
     year: '1862'
     world: maronite-church-1815-1906
     why: 'Wanted Sources, era 9 row 290, Peter Paul Massaad: an outside account of the Maronites, 1840 to 1860.'
@@ -28194,7 +28194,7 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 392,296 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: churchill_druzes-and-the-maronites-under-the-turkish-rule_1862.txt
-  - title: 'ARMENIA Travels and Studies H. F. B. LYNCH IN TWO VOLUMES ... VOL. II ... 1901'
+  - title: 'ARMENIA: Travels and Studies. IN TWO VOLUMES, WITH 197 ILLUSTRATIONS, REPRODUCED FROM PHOTOGRAPHS AND SKETCHES BY THE AUTHOR, NUMEROUS MAPS AND PLANS, A BIBLIOGRAPHY And a Map of Armenia and Adjacent Countries. VOL. II, THE TURKISH PROVINCES'
     author: 'H. F. B. Lynch'
     year: '1901'
     world: armenian-christianity-zartonk
@@ -28204,8 +28204,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,658,373 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: lynch_armenia-travels-and-studies-v2_1901.txt
-  - title: 'ΟΙΚΟΝΟΜΟΣ Ο ΕΞ ΟΙΚΟΝΟΜΩΝ Η ΠΕΡΙ ΟΡΚΟΥ. ΕΝ ΑΘΗΝΑΙΣ, ΕΚ ΤΗΣ ΤΥΠΟΓΡΑΦΙΑΣ ΝΙΚΟΛΑΟΥ ΑΓΓΕΛΙΔΟΥ ... 1849'
-    author: 'not printed on title page (host: Theoklētos Pharmakidēs)'
+  - title: 'ΟΙΚΟΝΟΜΟΣ Ο ΕΞ ΟΙΚΟΝΟΜΩΝ Η ΠΕΡΙ ΟΡΚΟΥ'
+    author: 'not named on the title page'
     year: '1849'
     world: orthodoxy-after-1821-balkan-autocephalies
     why: 'Wanted Sources, era 9 rows 300 and 301, Theoklitos Pharmakidis: a pamphlet against Konstantinos Oikonomos.'
@@ -28214,8 +28214,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 728,619 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: pharmakidis_oikonomos-ho-ex-oikonomon-ell_1849.txt
-  - title: 'FIFTY-THREE YEARS IN SYRIA ... IN TWO VOLUMES VOLUME II Fleming H. Revell Company'
-    author: 'Henry Harris Jessup'
+  - title: 'Fifty-Three Years in Syria. In Two Volumes. Volume II'
+    author: 'Henry Harris Jessup, D.D.; introduction by James S. Dennis, D.D.'
     year: '1910'
     world: arab-evangelical-churches
     why: 'Wanted Sources, era 9 row 325, Butrus el Bistany and Nasif el Yazigy: Jessup''s memoir, vol. 2.'
@@ -28224,8 +28224,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,062,896 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: jessup_fifty-three-years-in-syria-v2_1910.txt
-  - title: 'MEMOIR OF THE REV. PLINY FISK, A.M. LATE MISSIONARY TO PALESTINE. BY ALVAN BOND ... CROCKER AND BREWSTER ... 1828'
-    author: 'Alvan Bond'
+  - title: 'MEMOIR OF THE REV. PLINY FISK, A. M., LATE MISSIONARY TO PALESTINE'
+    author: 'Alvan Bond, Pastor of the Congregational Church in Sturbridge, Ms.'
     year: '1828'
     world: arab-evangelical-churches
     why: 'Wanted Sources, era 9 row 324, Pliny Fisk: a Memoir.'
@@ -28234,8 +28234,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 989,830 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: bond_memoir-of-the-rev-pliny-fisk_1828.txt
-  - title: 'MEMOIR OF ASAAD ESH SHIDIAK. BOSTON: CROCKER & BREWSTER, PRINTERS. 1834'
-    author: 'not on title page (host: Isaac Bird, Asaad Shidyaq)'
+  - title: 'MEMOIR OF ASAAD ESH SHIDIAK'
+    author: 'not named on the title page'
     year: '1834'
     world: arab-evangelical-churches
     why: 'Wanted Sources, era 9 row 326, Asaad es Shidiak: a Memoir.'
@@ -28244,8 +28244,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 124,345 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: shidiak-memoir_memoir-of-asaad-esh-shidiak_1834.txt
-  - title: 'THE CAPTIVE MISSIONARY: BEING AN ACCOUNT OF THE COUNTRY AND PEOPLE OF ABYSSINIA. EMBRACING [a narrative of King Theodore''s life] AND HIS TREATMENT OF POLITICAL AND RELIGIOUS MISSIONS. BY THE REV. HENRY A. STERN, Author of ''Wanderings among the Falashas.'' LONDON: CASSELL, PETTER, AND GALPIN (OCR lines ~40-52; middle of title garbled)'
-    author: 'THE REV. HENRY A. STERN'
+  - title: 'The Captive Missionary: being an account of the country and people of Abyssinia. Embracing [words lost in OCR] and his treatment of political and religious missions'
+    author: 'The Rev. Henry A. Stern, author of ''Wanderings among the Falashas'''
     year: '1868'
     world: ethiopian-christianity-tewodros-to-menelik
     why: 'Wanted Sources, era 9 rows 306 and 307, Tewodros II and Abuna Salama III: a captive missionary''s account.'
@@ -28254,8 +28254,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 668,259 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: stern_captive-missionary_1868.txt
-  - title: 'CHRONIQUE DU RÈGNE DE MÉNÉLIK II ROI DES ROIS D''ÉTHIOPIE, Traduite de l''amharique PAR TESFA SELLASSIÉ, Publiée et annotée PAR MAURICE DE COPPET, ANCIEN MINISTRE DE FRANCE EN ÉTHIOPIE ... TOME I, PARIS, LIBRAIRIE ORIENTALE ET AMÉRICAINE, MAISONNEUVE FRÈRES, ÉDITEURS, 3 RUE DU SABOT, 1930'
-    author: 'GUÈBRE SELLASSIÉ, Ministre de la Plume de S. M. l''empereur Ménélik II; Traduite de l''amharique par Tesfa Sellassié; publiée et annotée par Maurice de Coppet'
+  - title: 'Chronique du règne de Ménélik II, roi des rois d''Éthiopie. Traduite de l''amharique par Tèsfa Sellassié, publiée et annotée par Maurice de Coppet, ancien ministre de France en Éthiopie. Tome I'
+    author: 'Guèbrè Sellassié, Ministre de la Plume de S. M. l''empereur Ménélik II; traduite de l''amharique par Tèsfa Sellassié; publiée et annotée par Maurice de Coppet'
     year: '1930'
     world: ethiopian-christianity-tewodros-to-menelik
     why: 'Wanted Sources, era 9 rows 308, 309 and 310, Yohannes IV, Menelik II and Taytu: the royal chronicle, in French, tome I.'
@@ -28264,8 +28264,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 2,488,278 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: guebre-sellassie_chronique-du-regne-de-menelik-ii-t1-fra_coppet1930.txt
-  - title: 'MODERN ABYSSINIA, AUGUSTUS B. WYLDE, LATE VICE-CONSUL FOR RED SEA, AUTHOR OF ''83 TO ''87 IN THE SOUDAN, WITH FRONTISPIECE AND A MAP, METHUEN & CO., 36 ESSEX STREET W.C., LONDON, 1901 (OCR ''I 90 I'')'
-    author: 'AUGUSTUS B. WYLDE'
+  - title: 'MODERN ABYSSINIA'
+    author: 'Augustus B. Wylde, late Vice-Consul for Red Sea, author of ''''83 to ''87 in the Soudan'''
     year: '1901'
     world: ethiopian-christianity-tewodros-to-menelik
     why: 'Wanted Sources, era 9 row 308, Yohannes IV: an outside account.'
@@ -28274,8 +28274,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,668,057 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: wylde_modern-abyssinia_1901.txt
-  - title: 'A NARRATIVE OF THE PERSECUTION OF THE CHRISTIANS IN MADAGASCAR; WITH DETAILS OF THE ESCAPE OF THE SIX CHRISTIAN REFUGEES NOW IN ENGLAND. BY J. J. FREEMAN AND D. JOHNS, FORMERLY MISSIONARIES IN THE ISLAND. ... LONDON: JOHN SNOW, 35 PATERNOSTER ROW. 1840'
-    author: 'J. J. FREEMAN AND D. JOHNS'
+  - title: 'A Narrative of the Persecution of the Christians in Madagascar; with details of the escape of the six Christian refugees now in England. By J. J. Freeman and D. Johns, formerly missionaries in the island. Sixth thousand'
+    author: 'J. J. Freeman and D. Johns, formerly missionaries in the island'
     year: '1840'
     world: malagasy-christianity
     why: 'Wanted Sources, era 9 rows 314, 315 and 316, Rasalama, Rafaravavy and Ranavalona I: the missionaries'' narrative of the persecution.'
@@ -28284,8 +28284,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 646,786 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: freeman-johns_narrative-of-the-persecution-of-the-christians-in-madagascar_1840.txt
-  - title: 'JAMES HANNINGTON, D.D., F.L.S., F.R.G.S., FIRST BISHOP OF EASTERN EQUATORIAL AFRICA: A HISTORY OF HIS LIFE AND WORK 1847-1885, E. C. DAWSON, M.A., Oxon., Incumbent of St. Thomas''s Church, Edinburgh ... AUTHOR''S EDITION, FIRST AMERICAN FROM THE SIXTH LONDON EDITION, NEW YORK, ANSON D. F. RANDOLPH & COMPANY, 38 West Twenty-third Street, 1887'
-    author: 'E. C. DAWSON, M.A., Oxon.'
+  - title: 'JAMES HANNINGTON, D.D., F.L.S., F.R.G.S., First Bishop of Eastern Equatorial Africa: A History of his Life and Work, 1847-1885. Author''s edition, first American from the sixth London edition'
+    author: 'E. C. Dawson, M.A., Oxon., Incumbent of St. Thomas''s Church, Edinburgh'
     year: '1887'
     world: east-african-christianity-uganda-martyrs
     why: 'Wanted Sources, era 9 row 319, James Hannington: a Life.'
@@ -28294,8 +28294,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 955,445 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: dawson_james-hannington-a-history-of-his-life-and-work_1887.txt
-  - title: 'THE LAST JOURNALS OF BISHOP HANNINGTON being Narratives of A Journey through Palestine in 1884 and A Journey through Masai-Land and U-Soga in 1885. EDITED BY E. C. DAWSON, M.A. Oxon. ... LONDON SEELEY & CO., 46, 47, & 48 ESSEX STREET, STRAND 1888'
-    author: 'Bishop Hannington (edited by E. C. Dawson); E. C. DAWSON, M.A. Oxon.'
+  - title: 'THE LAST JOURNALS OF BISHOP HANNINGTON, being Narratives of A Journey through Palestine in 1884 and A Journey through Masai-Land and U-Soga in 1885'
+    author: 'Bishop Hannington; edited by E. C. Dawson, M.A. Oxon., Incumbent of S. Thomas''s Church, Edinburgh'
     year: '1888'
     world: east-african-christianity-uganda-martyrs
     why: 'Wanted Sources, era 9 row 319, James Hannington: his last journals.'
@@ -28304,8 +28304,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 316,607 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: hannington_last-journals-of-bishop-hannington_dawson1888.txt
-  - title: 'A. M. MACKAY, MISSIONARY OF THE CHURCH MISSIONARY SOCIETY TO UGANDA. BY HIS SISTER. WITH ETCHED PORTRAIT BY H. MANESSE. TENTH THOUSAND. LONDON: HODDER AND STOUGHTON, 27 PATERNOSTER ROW. MDCCCXCI'
-    author: 'BY HIS SISTER (Alexina Mackay Harrison per host)'
+  - title: 'A. M. Mackay, Pioneer Missionary of the Church Missionary Society to Uganda. By his sister. With etched portrait by H. Manesse. Tenth thousand'
+    author: 'by his sister'
     year: '1891'
     world: east-african-christianity-uganda-martyrs
     why: 'Wanted Sources, era 9 row 320, Mwanga II: a missionary''s Life, with his letters.'
@@ -28314,8 +28314,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 802,585 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: mackay_a-m-mackay-pioneer-missionary-to-uganda_by-his-sister1891.txt
-  - title: 'THE BANTU PAST AND PRESENT AN ETHNOGRAPHICAL & HISTORICAL STUDY OF THE NATIVE RACES OF SOUTH AFRICA BY S. M. MOLEMA ... EDINBURGH W. GREEN & SON, LIMITED 1920'
-    author: 'S. M. MOLEMA'
+  - title: 'THE BANTU PAST AND PRESENT: An Ethnographical & Historical Study of the Native Races of South Africa'
+    author: 'S. M. Molema'
     year: '1920'
     world: southern-african-mission-churches
     why: 'Wanted Sources, era 9 row 321, Ntsikana: his hymn in English, in a later history.'
@@ -28324,8 +28324,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,085,901 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: molema_bantu-past-and-present_1920.txt
-  - title: 'THE BASUTOS BY THE REV. E. CASALIS, LATE MISSIONARY, DIRECTOR OF THE PARIS EVANGELICAL MISSION-HOUSE. LONDON: JAMES NISBET & CO., BERNERS STREET. 1861'
-    author: 'THE REV. E. CASALIS'
+  - title: 'THE BASUTOS. TWENTY-THREE YEARS IN SOUTH AFRICA'
+    author: 'Rev. E. Casalis, late missionary, Director of the Paris Evangelical Mission-House'
     year: '1861'
     world: southern-african-mission-churches
     why: 'Wanted Sources, era 9 row 322, Moshoeshoe: Casalis, The Basutos.'
@@ -28334,8 +28334,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 677,346 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: casalis_basutos_1861.txt
-  - title: 'LES BASSOUTOS, VINGT-TROIS ANNÉES DE SÉJOUR ET D''OBSERVATIONS AU SUD DE L''AFRIQUE, PAR E. CASALIS, ANCIEN MISSIONNAIRE. PARIS, LIBRAIRIE DE CH. MEYRUEIS ET Cie, RUE DE RIVOLI, 174, 1859. Tous droits réservés'
-    author: 'E. CASALIS'
+  - title: 'LES BASSOUTOS: vingt-trois années de séjour et d''observations au sud de l''Afrique'
+    author: 'E. Casalis, ancien missionnaire'
     year: '1859'
     world: southern-african-mission-churches
     why: 'Wanted Sources, era 9 row 322, Moshoeshoe: Casalis, Les Bassoutos, in French.'
@@ -28344,8 +28344,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 668,570 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: casalis_les-bassoutos-fra_1859.txt
-  - title: 'CENTENNIAL ENCYCLOPAEDIA OF THE AFRICAN METHODIST EPISCOPAL CHURCH ... BY RICHARD R. WRIGHT JR., EDITOR-IN-CHIEF, ASSISTED BY JOHN R. HAWKINS; INTRODUCTION BY BISHOP L. J. COPPIN ... COPYRIGHTED BY R. R. WRIGHT, JR. 1916; PRINTED BY BOOK CONCERN OF THE A. M. E. CHURCH, 631 PINE STREET, PHILADELPHIA, PA. 1916 (title page assembled from OCR lines 125-170; title line itself not re-read)'
-    author: 'RICHARD R. WRIGHT JR., Editor-in-Chief, assisted by John R. Hawkins'
+  - title: 'CENTENNIAL ENCYCLOPAEDIA OF THE African Methodist Episcopal Church, Containing principally the Biographies of the Men and Women, both Ministers and Laymen, whose Labors during a Hundred Years, helped make the A. M. E. Church what it is; also short Historical Sketches of Annual Conferences, Educational Institutions, General Departments, Missionary Societies of the A. M. E. Church, and General Information about African Methodism and the Christian Church in General'
+    author: 'Richard R. Wright Jr., A.M., B.D., Ph.D., Editor-in-Chief; assisted by John R. Hawkins, A.M., LL.B., Associate Editor; introduction by Bishop L. J. Coppin, D.D., LL.D.'
     year: '1916'
     world: african-initiated-churches-harrist-aladura-zioni
     why: 'Wanted Sources, era 9 row 213, Mangena Mokone: an entry in the African Methodist Episcopal Church''s encyclopaedia.'
@@ -28354,8 +28354,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 2,062,347 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: wright_centennial-encyclopaedia-of-the-african-methodist-episcopal-church_1916.txt
-  - title: 'THE CHINESE AND THEIR REBELLIONS, viewed in connection with their national philosophy, ethics, legislation, and administration'
-    author: 'THOMAS TAYLOR MEADOWS, Chinese Interpreter in H. M. Civil Service'
+  - title: 'THE CHINESE AND THEIR REBELLIONS, VIEWED IN CONNECTION WITH THEIR NATIONAL PHILOSOPHY, ETHICS, LEGISLATION, AND ADMINISTRATION. TO WHICH IS ADDED, AN ESSAY ON CIVILIZATION AND ITS PRESENT STATE IN THE EAST AND WEST'
+    author: 'Thomas Taylor Meadows, Chinese Interpreter in H. M. Civil Service'
     year: '1856'
     world: taiping-heavenly-kingdom
     why: 'Wanted Sources, era 9 rows 263 to 266, the Taiping leaders and Issachar Roberts: an outside account.'
@@ -28364,8 +28364,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,773,919 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: meadows_chinese-and-their-rebellions_1856.txt
-  - title: 'THE TAEPING REBELLION IN CHINA; A NARRATIVE OF ITS RISE AND PROGRESS. BASED UPON ORIGINAL DOCUMENTS'
-    author: 'COMMANDER LINDESAY BRINE, R.N., F.R.G.S.'
+  - title: 'The Taeping Rebellion in China; a narrative of its rise and progress. Based upon original documents and information obtained in China'
+    author: 'Commander Lindesay Brine, R.N., F.R.G.S., lately employed in Chinese waters'
     year: '1862'
     world: taiping-heavenly-kingdom
     why: 'Wanted Sources, era 9 rows 263 to 266, the Taiping leaders and Issachar Roberts: an outside account.'
@@ -28374,8 +28374,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 815,284 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: brine_taeping-rebellion-in-china_1862.txt
-  - title: 'TI-PING TIEN-KWOH; THE HISTORY OF THE TI-PING REVOLUTION, including a narrative of the author''s personal adventures ... VOLUME II'
-    author: 'LIN-LE (Augustus F. Lindley)'
+  - title: 'TI-PING TIEN-KWOH; THE HISTORY OF THE TI-PING REVOLUTION, INCLUDING A NARRATIVE OF THE AUTHOR''S PERSONAL ADVENTURES. VOLUME II'
+    author: 'Lin-Le, formerly honorary officer, Chung-wang''s guards; special agent of the Ti-ping general-in-chief; and late commander of the ''Loyal and Faithful Auxiliary Legion'''
     year: '1866'
     world: taiping-heavenly-kingdom
     why: 'Wanted Sources, era 9 rows 263 to 266, the Taiping leaders: Lindley, vol. 2.'
@@ -28385,7 +28385,7 @@ queue:
     status: downloaded
     vendored_as: lindley_ti-ping-tien-kwoh-v2_1866.txt
   - title: 'LIFE AND LETTERS OF JOSEPH HARDY NEESIMA'
-    author: 'ARTHUR SHERBURNE HARDY'
+    author: 'Arthur Sherburne Hardy'
     year: '1891'
     world: japanese-christianity-hidden-emergence-meiji
     why: 'Wanted Sources, era 9 row 282, Niijima Jo: a Life with his letters.'
@@ -28394,8 +28394,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 706,048 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: hardy_life-and-letters-of-joseph-hardy-neesima_1891.txt
-  - title: 'A SKETCH OF THE LIFE OF REV. JOSEPH HARDY NEESIMA, LL.D., President of Doshisha, Kyoto, prepared by Rev. J. D. Davis, D.D'
-    author: 'Rev. J. D. Davis, D.D.'
+  - title: 'A SKETCH OF THE LIFE OF REV. JOSEPH HARDY NEESIMA, LL.D., PRESIDENT OF DOSHISHA, KYOTO'
+    author: 'Rev. J. D. Davis, D.D., Professor of Theology in Doshisha'
     year: '1890'
     world: japanese-christianity-hidden-emergence-meiji
     why: 'Wanted Sources, era 9 row 282, Niijima Jo: a sketch of his life by a colleague.'
@@ -28404,8 +28404,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 242,765 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: davis_sketch-of-the-life-of-rev-joseph-hardy-neesima_1890.txt
-  - title: 'THE DIARY OF A JAPANESE CONVERT, by Kanzo Uchimura'
-    author: 'KANZO UCHIMURA'
+  - title: 'THE DIARY OF A JAPANESE CONVERT'
+    author: 'Kanzo Uchimura'
     year: '1895'
     world: japanese-christianity-hidden-emergence-meiji
     why: 'Wanted Sources, era 9 row 283, Uchimura Kanzo: his own account.'
@@ -28414,8 +28414,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 410,010 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: uchimura_diary-of-a-japanese-convert_1895.txt
-  - title: 'LA COCHINCHINE RELIGIEUSE, TOME SECOND'
-    author: 'L.-E. LOUVET, missionnaire apostolique de la Congregation des Missions Etrangeres'
+  - title: 'La Cochinchine religieuse par L.-E. Louvet, missionnaire apostolique de la Congrégation des Missions Étrangères. Tome second'
+    author: 'L.-E. Louvet, missionnaire apostolique de la Congrégation des Missions Étrangères'
     year: '1885'
     world: vietnamese-catholicism-1815-1906
     why: 'Wanted Sources, era 9 row 289, Minh Mang: the edict of 1833 in a mission history, in French.'
@@ -28424,8 +28424,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,216,908 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: louvet_la-cochinchine-religieuse-v2-fra_1885.txt
-  - title: 'HISTOIRE GENERALE DE LA SOCIETE DES MISSIONS-ETRANGERES par Adrien Launay, TOME DEUXIEME'
-    author: 'ADRIEN LAUNAY'
+  - title: 'Histoire générale de la Société des Missions-Étrangères par Adrien Launay, de la même Société. Tome deuxième'
+    author: 'Adrien Launay, de la même Société'
     year: '1894'
     world: vietnamese-catholicism-1815-1906
     why: 'Wanted Sources, era 9 row 289, Minh Mang: the edict of 1833 in the Paris Mission''s history, in French.'
@@ -28434,8 +28434,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,314,460 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: launay_histoire-generale-de-la-societe-des-missions-etrangeres-v2-fra_1894.txt
-  - title: '[THE PERSECUTIONS OF ANNAM: a history of Christianity in Cochin China and Tonking]'
-    author: 'JOHN R. SHORTLAND, M.A., Canon of Plymouth'
+  - title: 'THE PERSECUTIONS OF ANNAM: The History of Christianity in Cochin China and Tonking'
+    author: 'John R. Shortland, M.A., Canon of Plymouth, author of ''The Corean Martyrs'''
     year: '1875'
     world: vietnamese-catholicism-1815-1906
     why: 'Wanted Sources, era 9 row 289, Minh Mang: an English history of the persecutions.'
@@ -28454,8 +28454,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 271,563 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: clark_corner-in-india_1907.txt
-  - title: 'THE ASSAM MISSION OF THE AMERICAN BAPTIST MISSIONARY UNION: papers and discussions of the jubilee conference'
-    author: 'American Baptist ... Assam Mission'
+  - title: 'THE ASSAM MISSION OF THE AMERICAN BAPTIST MISSIONARY UNION. PAPERS AND DISCUSSIONS OF THE JUBILEE CONFERENCE HELD IN NOWGONG, DECEMBER 18-29, 1886'
+    author: 'not named on the title page'
     year: '1887'
     world: northeast-india-revivals-and-the-mar-thoma-refor
     why: 'Wanted Sources, era 9 row 304, Edwin W. Clark: the Assam Mission''s jubilee papers.'
@@ -28464,8 +28464,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 690,476 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: assam-mission_papers-and-discussions-of-the-jubilee-conference-1886_1887.txt
-  - title: 'BIOGRAPHICAL DICTIONARY OF MINISTERS AND PREACHERS OF THE WELSH CALVINISTIC METHODIST BODY'
-    author: 'Joseph Evans'
+  - title: 'Biographical Dictionary of Ministers and Preachers of the Welsh Calvinistic Methodist Body or Presbyterians of Wales'
+    author: 'Rev. Joseph Evans, Denbigh'
     year: '1907'
     world: northeast-india-revivals-and-the-mar-thoma-refor
     why: 'Wanted Sources, era 9 row 303, Thomas Jones: an entry in a Welsh biographical dictionary.'
@@ -28474,8 +28474,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 901,080 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: evans_biographical-dictionary-of-ministers-and-preachers-of-the-welsh-calvinistic-methodist-body_1907.txt
-  - title: 'MEMOIRS OF THE LIFE AND LABOURS OF ROBERT MORRISON, D.D. ... compiled by his widow, with critical notices of his Chinese works by Samuel Kidd, VOL. II'
-    author: 'Mrs Morrison (widow)'
+  - title: 'Memoirs of the Life and Labours of Robert Morrison, D.D., F.R.S., M.R.A.S., Member of the Society Asiatique of Paris, &c. &c. Compiled by his widow; with critical notices of his Chinese works, by Samuel Kidd, and an appendix containing original documents. In two volumes. Vol. II'
+    author: 'compiled by his widow; with critical notices of his Chinese works by Samuel Kidd'
     year: '1839'
     world: the-missionary-movement-s-native-churches-seramp
     why: 'Wanted Sources, era 9 row 311, Liang Fa: Morrison''s Memoirs, vol. 2.'
@@ -28484,8 +28484,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,566,295 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: morrison_memoirs-of-the-life-and-labours-of-robert-morrison-v2_1839.txt
-  - title: 'MEMORIALS OF PROTESTANT MISSIONARIES TO THE CHINESE'
-    author: 'A. Wylie'
+  - title: 'MEMORIALS OF PROTESTANT MISSIONARIES TO THE CHINESE: giving a list of their publications, and obituary notices of the deceased. With copious indexes'
+    author: 'not named on the title page'
     year: '1867'
     world: the-missionary-movement-s-native-churches-seramp
     why: 'Wanted Sources, era 9 row 311, Liang Fa: a list of his works.'
@@ -28494,8 +28494,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 934,321 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: wylie_memorials-of-protestant-missionaries-to-the-chinese_1867.txt
-  - title: 'SADRACH''S KRING, door L. Adriaanse, Dienaar des Woords te Utrecht, afgezonden tot den Zendingsdienst te Poerworedjo'
-    author: 'L. ADRIAANSE'
+  - title: 'SADRACH''S KRING'
+    author: 'L. Adriaanse, Dienaar des Woords te Utrecht, afgezonden tot den Zendingsdienst te Poerworedjo'
     year: '1899'
     world: indonesian-christianity
     why: 'Wanted Sources, era 9 row 207, Kiai Sadrach: a Dutch missionary''s account.'
@@ -28504,8 +28504,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,202,837 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: adriaanse_sadrachs-kring-nld_1899.txt
-  - title: 'DE ZENDINGSEEUW VOOR NEEDERLANDSCH OOST-INDIE'
-    author: 'S. Coolsma'
+  - title: 'De Zendingseeuw voor Nederlandsch Oost-Indië'
+    author: 'S. Coolsma, Director van het Zendingshuis der Nederl. Zendingsvereeniging'
     year: '1901'
     world: indonesian-christianity
     why: 'Wanted Sources, era 9 row 207, Kiai Sadrach: a Dutch mission history.'
@@ -28515,7 +28515,7 @@ queue:
     status: downloaded
     vendored_as: coolsma_de-zendingseeuw-voor-nederlandsch-oost-indie-nld_1901.txt
   - title: 'JOEL BULU: THE AUTOBIOGRAPHY OF A NATIVE MINISTER IN THE SOUTH SEAS. Translated by a Missionary. SECOND EDITION'
-    author: 'Joel Bulu (title page; host creator Joeli Mbulu)'
+    author: 'Joel Bulu (named in the title only); Translated by a Missionary'
     year: '1884'
     world: the-missionary-movement-s-native-churches-seramp
     why: 'Wanted Sources, era 9 row 313, Joeli Bulu: his autobiography, in translation.'
@@ -28524,7 +28524,7 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 173,073 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: bulu_joel-bulu-the-autobiography-of-a-native-minister-in-the-south-seas_2nd-ed1884.txt
-  - title: 'GEMS FROM THE CORAL ISLANDS: Western Polynesia, comprising the New Hebrides group, the Loyalty group, New Caledonia group, by the Rev. William Gill, Rarotonga'
+  - title: 'GEMS FROM THE CORAL ISLANDS. Western Polynesia: comprising the New Hebrides Group, the Loyalty Group, New Caledonia Group'
     author: 'Rev. William Gill, Rarotonga'
     year: '1855'
     world: the-missionary-movement-s-native-churches-seramp
@@ -28534,8 +28534,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 459,673 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: gill_gems-from-the-coral-islands-western-polynesia_1855.txt
-  - title: 'LA SENSACIONAL MEMORIA DE Isabelo de los Reyes SOBRE La Revolucion Filipina DE 1896-97 por la cual fue deportado el autor al Castillo de Montjuich. Con un prologo de D. Miguel Morayta. Publicada por la Delegacion Filipina en Europa'
-    author: 'Isabelo de los Reyes; prologue D. Miguel Morayta'
+  - title: 'LA SENSACIONAL MEMORIA de Isabelo de los Reyes sobre la Revolución Filipina de 1896-97 por la cual fué deportado el autor al Castillo de Montjuich. Ilustrada con retratos de notables revolucionarios'
+    author: 'Isabelo de los Reyes; con un prólogo de D. Miguel Morayta'
     year: '1899'
     world: philippine-catholicism-gomburza-to-aglipay
     why: 'Wanted Sources, era 9 row 280, Isabelo de los Reyes: his memorial on the revolution of 1896-97.'
@@ -28544,8 +28544,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 289,501 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: reyes_la-sensacional-memoria-spa_1899.txt
-  - title: 'Documentos interesantes de la Iglesia filipina independiente (cover-title, ''biografia de Mgr. Gregorio Aglipay, Obispo Maximo de la Iglesia Filipina Independiente'')'
-    author: 'Alejandro Remollino (host creator)'
+  - title: 'Documentos interesantes de la Iglesia filipina independiente'
+    author: 'Alejandro Remollino'
     year: '1906'
     world: philippine-catholicism-gomburza-to-aglipay
     why: 'Wanted Sources, era 9 row 280, Gregorio Aglipay: documents of the Iglesia Filipina Independiente.'
@@ -28554,8 +28554,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 65,710 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: iglesia-filipina-independiente_documentos-interesantes-spa_1906.txt
-  - title: 'Catequesis de la Iglesia Filipina Independiente por el Emmo. Sr. Gregorio Aglipay y Labayan, Obispo Maximo de dicha Iglesia, aprobada por el Consejo Supremo de Obispos. Prologo del Pbro. Jose Ferrandiz (OCR lines 1-22)'
-    author: 'Gregorio Aglipay y Labayan'
+  - title: 'Catequesis de la Iglesia Filipina Independiente por el Emmo. Sr. Gregorio Aglipay y Labáyan, Obispo Máximo de dicha Iglesia, aprobada por el Consejo Supremo de Obispos. Prólogo del Pbro. José Ferrándiz'
+    author: 'Gregorio Aglipay y Labáyan; prólogo del Pbro. José Ferrándiz'
     year: '1912'
     world: philippine-catholicism-gomburza-to-aglipay
     why: 'Wanted Sources, era 9 row 280, Gregorio Aglipay: the church''s catechism.'
@@ -28564,8 +28564,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 260,041 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: aglipay_catequesis-de-la-iglesia-filipina-independiente-spa_1912.txt
-  - title: 'THE PHILIPPINE ISLANDS 1493-1898 ... Volume LII - 1841-1898. The Arthur H. Clark Company, Cleveland, Ohio, MCMVII. Copyright 1907'
-    author: 'Edited and annotated by Emma Helen Blair and James Alexander Robertson; introduction Edward Gaylord Bourne'
+  - title: 'The Philippine Islands 1493-1898: Explorations by Early Navigators, Descriptions of the Islands and their Peoples, their History and Records of the Catholic Missions, as related in contemporaneous Books and Manuscripts [...] Translated from the originals. Volume LII - 1841-1898'
+    author: 'Edited and annotated by Emma Helen Blair and James Alexander Robertson; with historical introduction and additional notes by Edward Gaylord Bourne'
     year: '1907'
     world: philippine-catholicism-gomburza-to-aglipay
     why: 'Wanted Sources, era 9 row 281, Apolinario de la Cruz: a note on the Cofradia de San Jose.'
@@ -28574,8 +28574,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 754,609 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: blair-robertson_philippine-islands-v52_1907.txt
-  - title: 'Haiti, her history and her detractors (title as in host record)'
-    author: 'Jacques Nicolas Leger (host record)'
+  - title: 'HAITI, HER HISTORY AND HER DETRACTORS'
+    author: 'J. N. Leger, Envoy Extraordinary and Minister Plenipotentiary of Haiti in the United States'
     year: '1907'
     world: haitian-church-rupture-to-concordat
     why: 'Wanted Sources, era 9 row 284, Fabre Geffrard: a later account of the Concordat of 1860.'
@@ -28584,8 +28584,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 862,253 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: leger_haiti-her-history-and-her-detractors_1907.txt
-  - title: 'CODIGO DE LA REFORMA o COLECCION DE LEYES, DECRETOS Y SUPREMAS ORDENES, expedidas desde 1856 hasta 1861. Mexico, Imprenta Literaria, C. del Seminario n. 6, 1861'
-    author: 'no author (Mexico, laws); property of editor J. Sebastian Segura'
+  - title: 'CÓDIGO DE LA REFORMA. COLECCIÓN DE LEYES, DECRETOS Y SUPREMAS ÓRDENES, EXPEDIDAS DESDE 1856 HASTA 1861'
+    author: 'not named on the title page; ''Propiedad de su editor J. Sebastián Segura'''
     year: '1861'
     world: nineteenth-century-latin-american-catholicism
     why: 'Wanted Sources, era 9 row 285, Benito Juarez: the Reform laws, 1856 to 1861.'
@@ -28594,8 +28594,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 939,939 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: mexico_codigo-de-la-reforma-spa_1861.txt
-  - title: 'ESCRITOS Y DISCURSOS DE GABRIEL GARCIA MORENO, recopilados y publicados por la Sociedad de la Juventud Catolica de Quito, y anotados por su presidente D. Manuel Maria Polit. Precede un prologo por D. Juan Leon Mera. TOMO PRIMERO, ESCRITOS NO OFICIALES. Quito, Imprenta del Clero, 1887'
-    author: 'Gabriel Garcia Moreno (compiled by the Sociedad de la Juventud Catolica de Quito, annotated by Manuel Maria Polit)'
+  - title: 'ESCRITOS Y DISCURSOS DE GABRIEL GARCIA MORENO, RECOPILADOS Y PUBLICADOS POR LA SOCIEDAD DE LA JUVENTUD CATÓLICA DE QUITO, Y ANOTADOS POR SU PRESIDENTE D. MANUEL MARÍA PÓLIT. PRECEDE UN PROLOGO POR D. JUAN LEON MERA. TOMO PRIMERO, ESCRITOS NO OFICIALES'
+    author: 'Gabriel Garcia Moreno; recopilados y publicados por la Sociedad de la Juventud Católica de Quito, y anotados por su presidente D. Manuel María Pólit; prólogo por D. Juan Leon Mera'
     year: '1887'
     world: nineteenth-century-latin-american-catholicism
     why: 'Wanted Sources, era 9 row 286, Gabriel Garcia Moreno: his writings and speeches, vol. 1.'
@@ -28604,8 +28604,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 708,740 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: garcia-moreno_escritos-y-discursos-t1-spa_1887.txt
-  - title: 'ESCRITOS Y DISCURSOS DE GABRIEL GARCIA MORENO ... TOMO SEGUNDO, ESCRITOS OFICIALES. Quito, Imprenta del Clero, 1888'
-    author: 'Gabriel Garcia Moreno'
+  - title: 'ESCRITOS Y DISCURSOS DE GABRIEL GARCIA MORENO. TOMO SEGUNDO. ESCRITOS OFICIALES'
+    author: 'Gabriel García Moreno; recopilados y publicados por la Sociedad de la Juventud Católica de Quito, y anotados por su presidente D. Manuel María Pólit; precede un prólogo por D. Juan León Mera'
     year: '1888'
     world: nineteenth-century-latin-american-catholicism
     why: 'Wanted Sources, era 9 row 286, Gabriel Garcia Moreno: his official writings, vol. 2.'
@@ -28614,8 +28614,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 682,907 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: garcia-moreno_escritos-y-discursos-t2-spa_1888.txt
-  - title: 'GARCIA MORENO, President of Ecuador, 1821-1875, from the French of the Rev. P. A. Berthe, by Lady Herbert. London: Burns and Oates, 1889'
-    author: 'Rev. P. A. Berthe, C.SS.R.; translated by Lady Herbert'
+  - title: 'GARCIA MORENO, PRESIDENT OF ECUADOR, 1821-1875. From the French of the Rev. P. A. Berthe, of the Congregation of the Most Holy Redeemer'
+    author: 'Rev. P. A. Berthe, of the Congregation of the Most Holy Redeemer; by Lady Herbert'
     year: '1889'
     world: nineteenth-century-latin-american-catholicism
     why: 'Wanted Sources, era 9 row 286, Gabriel Garcia Moreno: a Life, in English.'
@@ -28624,8 +28624,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 593,466 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: berthe_garcia-moreno-president-of-ecuador_herbert1889.txt
-  - title: 'O BISPO DE OLINDA E OS SEOS ACCUSADORES NO TRIBUNAL DO BOM SENSO, ou exame do aviso de 27 de setembro e da denuncia de 10 de outubro, e reflexoes acerca das relacoes entre a Igreja e o Estado, pelo mesmo Bispo. Recife, typ. Classica de J.F. dos Santos'
-    author: 'the Bishop of Olinda (Oliveira, Vital Maria Goncalves de per host)'
+  - title: 'O BISPO DE OLINDA E OS SEOS ACCUSADORES NO TRIBUNAL DO BOM SENSO, ou exame do aviso de 27 de setembro e da denuncia de 10 de outubro, e reflexões acerca das relações entre a Igreja e o Estado'
+    author: 'pelo mesmo Bispo'
     year: '1873'
     world: nineteenth-century-latin-american-catholicism
     why: 'Wanted Sources, era 9 row 287, Vital Maria Goncalves de Oliveira: his own defence.'
@@ -28634,18 +28634,18 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 249,083 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: vital_o-bispo-de-olinda-e-os-seus-accusadores-por_1873.txt
-  - title: 'A QUESTAO RELIGIOSA DO BRAZIL PERANTE A SANTA SE ou a Missao especial a Roma em 1873 ... pelo Bispo do Para. Nova edicao (OCR garbled)'
-    author: 'Bispo do Para (Costa, Antonio de Macedo per host)'
+  - title: 'A Questão Religiosa do Brazil perante a Santa Sé ou a Missão especial a Roma em 1873 á luz de documentos publicados e ineditos, pelo Bispo do Pará. Nova edição mais completa'
+    author: 'pelo Bispo do Pará'
     year: '1886'
     world: nineteenth-century-latin-american-catholicism
     why: 'Wanted Sources, era 9 row 287, Antonio de Macedo Costa: his own account of the religious question.'
     url: https://archive.org/details/questoreligios00cost
-    rights_basis: 'Public Domain (pd-us-by-date: published 1886); the archive.org record carries no rights field, so the date named here is the basis; the date used is that of the dated prefatory matter at line 171 of this file (''Dezembro de 1886.''), with which the library catalogue record of the item agrees (MARC 260: ''Lisboa : Lallemant Freres, 1886.''); the title page prints no year'
+    rights_basis: 'Public Domain (pd-us-by-date: published 1886); the archive.org record carries no rights field, so the date named here is the basis; the date used is that of the dated prefatory letters, of which the last-dated in 1886 stands at line 171 of this file (''Dezembro de 1886.''), and the library catalogue record of the item (MARC 260: ''Lisboa : Lallemant Freres, 1886.''); the title page cannot be read in the OCR, and one prefixed letter is dated January 1887'
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 879,964 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: macedo-costa_a-questao-religiosa-do-brazil-perante-a-santa-se-por_1886.txt
-  - title: 'DEATH STRUGGLES OF SLAVERY: a narrative of facts and incidents which occurred in a British colony during the two years immediately preceding Negro emancipation, by Henry Bleby, a resident in the colony seventeen years. THIRD EDITION. London: printed by W. Nichols, 1868'
-    author: 'Henry Bleby'
+  - title: 'Death Struggles of Slavery: a narrative of facts and incidents, which occurred in a British colony, during the two years immediately preceding Negro emancipation. By Henry Bleby, a resident in the colony seventeen years. Third edition'
+    author: 'Henry Bleby, a resident in the colony seventeen years'
     year: '1868'
     world: caribbean-churches-of-slavery-and-emancipation
     why: 'Wanted Sources, era 9 rows 246 and 248, Samuel Sharpe and Henry Bleby: Bleby''s narrative.'
@@ -28654,8 +28654,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 799,784 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: bleby_death-struggles-of-slavery_3rd-ed1868.txt
-  - title: 'THE DEMERARA MARTYR: memoirs of the Rev. John Smith, missionary to Demerara, by Edwin Angel Wallbridge, with a preface by W. G. Barrett. London: Charles Gilpin, 5 Bishopsgate Street Without, 1848'
-    author: 'Edwin Angel Wallbridge'
+  - title: 'The Demerara Martyr. Memoirs of the Rev. John Smith, Missionary to Demerara; by Edwin Angel Wallbridge, with a preface by the Rev. W. G. Barrett'
+    author: 'Edwin Angel Wallbridge; with a preface by the Rev. W. G. Barrett'
     year: '1848'
     world: caribbean-churches-of-slavery-and-emancipation
     why: 'Wanted Sources, era 9 row 247, John Smith of Demerara: a Life.'
@@ -28664,8 +28664,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 707,363 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: wallbridge_demerara-martyr-memoirs-of-the-rev-john-smith_1848.txt
-  - title: 'REPORT OF THE PROCEEDINGS AGAINST THE LATE REV. J. SMITH, OF DEMERARA, MINISTER OF THE GOSPEL ... published under the authority of the Directors of the said Society. London: Published by F. Westley, Ave-Maria-Lane; sold by Hatchard and Son, Piccadilly; and L. B. Seeley, Fleet-Street. 1824'
-    author: 'London Missionary Society'
+  - title: 'THE London Missionary Society''s REPORT OF THE PROCEEDINGS AGAINST THE LATE Rev. J. SMITH, of Demerara, Minister of the Gospel, who was tried under martial law, and condemned to death, on a charge of aiding and assisting in a rebellion of the negro slaves; from a full and correct copy, transmitted to England by Mr. Smith''s counsel, and including the documentary evidence omitted in the Parliamentary copy; with an appendix'
+    author: 'The London Missionary Society; published under the authority of the Directors of the said Society'
     year: '1824'
     world: caribbean-churches-of-slavery-and-emancipation
     why: 'Wanted Sources, era 9 row 247, John Smith of Demerara: the trial record.'
@@ -28674,8 +28674,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 665,028 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: london-missionary-society_report-of-the-proceedings-against-the-late-rev-j-smith-of-demerara_1824.txt
-  - title: 'A GUERRA DE CANUDOS por Henrique Duque-Estrada de Macedo Soares (Tenente de Infantaria), 1a edicao, Rio, Typ. Altina, Assemblea 96'
-    author: 'Henrique Duque-Estrada de Macedo Soares'
+  - title: 'A GUERRA DE CANUDOS'
+    author: 'Henrique Duque-Estrada de Macedo Soares (Tenente de Infantaria)'
     year: '1902'
     world: canudos-belo-monte
     why: 'Wanted Sources, era 9 row 186, Antonio Conselheiro: an army officer''s account of the war, in Portuguese.'
@@ -28684,8 +28684,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 555,992 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: macedo-soares_a-guerra-de-canudos-por_1902.txt
-  - title: 'SEVEN LECTURES ON THE SECOND COMING OF THE LORD. DELIVERED IN TORONTO, IN 1863, BY J. N. DARBY. FROM REVISED NOTES. TORONTO: GOSPEL TRACT DEPOSITORY, 870, Yonge Street, 1863'
-    author: 'J. N. DARBY'
+  - title: 'Seven Lectures on the Second Coming of the Lord. Delivered in Toronto, in 1863, by J. N. Darby. From revised notes'
+    author: 'J. N. Darby'
     year: '1863'
     world: plymouth-brethren-and-dispensational-formation
     why: 'Wanted Sources, era 9 row 181, John Nelson Darby: lectures of his own.'
@@ -28694,8 +28694,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 334,394 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: darby_seven-lectures-on-the-second-coming-of-the-lord_toronto1863.txt
-  - title: 'STUDIES ON THE BOOK OF DANIEL: A COURSE OF LECTURES BY J. N. DARBY. TRANSLATED FROM THE FRENCH, AND REVISED BY THE AUTHOR. Third Edition. LONDON: JOHN B. BATEMAN, 22, PATERNOSTER ROW, E.C. 1864. BOSTON, MASS: F. G. BROWN, 3, TREMONT ROW'
-    author: 'J. N. DARBY; Translated from the French, and revised by the author'
+  - title: 'STUDIES ON THE BOOK OF DANIEL: A COURSE OF LECTURES BY J. N. DARBY. TRANSLATED FROM THE FRENCH, AND REVISED BY THE AUTHOR. Third Edition'
+    author: 'J. N. Darby; translated from the French, and revised by the author'
     year: '1864'
     world: plymouth-brethren-and-dispensational-formation
     why: 'Wanted Sources, era 9 row 181, John Nelson Darby: lectures of his own, translated from the French.'
@@ -28704,8 +28704,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 223,101 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: darby_studies-on-the-book-of-daniel_3rd-ed1864.txt
-  - title: 'DIALOGUES ON THE ESSAYS AND REVIEWS. BY ONE WHO VALUES CHRISTIANITY FOR ITS OWN SAKE, AND BELIEVES IN IT AS A REVELATION FROM GOD. SECOND EDITION, REVISED. LONDON: W. H. BROOM, 47, ST. PAUL''S CHURCHYARD; HAMILTON, ADAMS, & CO., PATERNOSTER ROW. MDCCCLXIII'
-    author: 'One who values Christianity for its own sake (a handwritten name beneath, on the page image, is a library inscription, not print)'
+  - title: 'DIALOGUES ON THE ESSAYS AND REVIEWS. Second edition, revised'
+    author: 'By one who values Christianity for its own sake, and believes in it as a revelation from God'
     year: '1863'
     world: plymouth-brethren-and-dispensational-formation
     why: 'Wanted Sources, era 9 row 181, John Nelson Darby: a book of his own, printed without his name.'
@@ -28714,7 +28714,7 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,202,000 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: darby_dialogues-on-the-essays-and-reviews_2nd-ed1863.txt
-  - title: 'AGGRESSIVE CHRISTIANITY. PRACTICAL SERMONS BY MRS. CATHERINE BOOTH, WITH AN INTRODUCTION BY DANIEL STEELE, D.D. Boston: McDonald & Gill, Office of The Christian Witness, 36 Bromfield St. Entered, according to Act of Congress, in the year 1883, By McDonald & Gill, In the Office of the Librarian of Congress at Washington'
+  - title: 'AGGRESSIVE CHRISTIANITY. PRACTICAL SERMONS BY MRS. CATHERINE BOOTH, WITH AN INTRODUCTION BY DANIEL STEELE, D.D'
     author: 'Mrs. Catherine Booth; introduction by Daniel Steele, D.D.'
     year: '1883'
     world: the-salvation-army
@@ -28724,7 +28724,7 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 350,057 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: booth-catherine_aggressive-christianity_boston1883.txt
-  - title: 'GODLINESS. BEING REPORTS OF A SERIES OF ADDRESSES DELIVERED AT JAMES''S HALL, LONDON, W., During 1881, BY MRS. CATHERINE BOOTH. INTRODUCTION BY DANIEL STEELE, D.D. PHILADELPHIA: NATIONAL PUBLISHING ASSOCIATION FOR THE PROMOTION OF HOLINESS, No. 921 Arch Street. Entered, according to Act of Congress, in the year 1883, By McDonald & Gill'
+  - title: 'GODLINESS. Being reports of a series of addresses delivered at James''s Hall, London, W., during 1881'
     author: 'Mrs. Catherine Booth; introduction by Daniel Steele, D.D.'
     year: '1883'
     world: the-salvation-army
@@ -28734,8 +28734,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 307,911 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: booth-catherine_godliness_1883.txt
-  - title: 'Fifty-Three Years In Syria / By Henry Harris Jessup, D.D. / Introduction by James S. Dennis, D. D. / In Two Volumes / Volume I / New York Chicago Toronto Fleming H. Revell Company London and Edinburgh'
-    author: 'HENRY HARRIS JESSUP, D.D.; Introduction by James S. Dennis, D. D.'
+  - title: 'Fifty-Three Years in Syria. In Two Volumes. Volume I'
+    author: 'Henry Harris Jessup, D.D.; Introduction by James S. Dennis, D.D.'
     year: '1910'
     world: arab-evangelical-churches
     why: 'Wanted Sources, era 9 rows 324, 325 and 326, Pliny Fisk, the Arabic Bible translators and Asaad es Shidiak: Jessup''s memoir, vol. 1.'
@@ -28744,8 +28744,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 881,674 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: jessup_fifty-three-years-in-syria-v1_1910.txt
-  - title: 'A History of the Plymouth Brethren / by William Blair Neatby, M.A. / London, Hodder and Stoughton, 27 Paternoster Row, MCMI'
-    author: 'WILLIAM BLAIR NEATBY, M.A.'
+  - title: 'A History of the Plymouth Brethren'
+    author: 'William Blair Neatby, M.A.'
     year: '1901'
     world: plymouth-brethren-and-dispensational-formation
     why: 'Wanted Sources, era 9 row 181, John Nelson Darby: a history of the Brethren by another hand.'
@@ -28754,8 +28754,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 762,200 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: neatby_history-of-the-plymouth-brethren_1901.txt
-  - title: 'A Retrospect of the First Ten Years of the Protestant Mission to China (now in connection with the Malay, Ultra-Ganges Missions) accompanied with Miscellaneous Remarks on the Literature, History and Mythology of China &c. By William Milne, Malacca: printed at the Anglo-Chinese Press 1820'
-    author: 'WILLIAM MILNE'
+  - title: 'A Retrospect of the First Ten Years of the Protestant Mission to China, (now, in connection with the Malay, denominated, the Ultra-Ganges Missions.) Accompanied with Miscellaneous Remarks on the Literature, History, and Mythology of China, &c'
+    author: 'William Milne'
     year: '1820'
     world: the-missionary-movement-s-native-churches-seramp
     why: 'Wanted Sources, era 9 row 311, Liang Fa: the missionary''s account of a baptism in 1816.'
@@ -28764,8 +28764,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 665,398 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: milne_retrospect-of-the-first-ten-years-of-the-protestant-mission-to-china_1820.txt
-  - title: 'The Story of Uganda and the Victoria Nyanza Mission by Sarah Geraldina Stock, with a map and illustrations, London, The Religious Tract Society, 56 Paternoster Row; 65 St Paul''s Churchyard and 164 Piccadilly, 1892'
-    author: 'SARAH GERALDINA STOCK'
+  - title: 'The Story of Uganda and the Victoria Nyanza Mission. With a map and illustrations'
+    author: 'Sarah Geraldina Stock'
     year: '1892'
     world: east-african-christianity-uganda-martyrs
     why: 'Wanted Sources, era 9 row 318, Joseph Mukasa Balikuddembe: a mission history that names him.'
@@ -28774,8 +28774,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 419,898 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: stock_story-of-uganda-and-the-victoria-nyanza-mission_1892.txt
-  - title: 'Le Cardinal Lavigerie et ses oeuvres d''Afrique, par l''abbe Felix Klein, professeur a l''Institut catholique de Paris, nouvelle edition completement refondue, Tours, Alfred Mame et fils, editeurs, M DCCC XCVII'
-    author: 'L''ABBE FELIX KLEIN'
+  - title: 'Le Cardinal Lavigerie et ses œuvres d''Afrique. Nouvelle édition complètement refondue'
+    author: 'L''abbé Félix Klein, professeur à l''Institut catholique de Paris'
     year: '1897'
     world: east-african-christianity-uganda-martyrs
     why: 'Wanted Sources, era 9 row 210, Charles Lwanga: a French account that names him.'
@@ -28784,8 +28784,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 752,443 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: klein_le-cardinal-lavigerie-et-ses-oeuvres-d-afrique-fra_1897.txt
-  - title: 'Das Bulgarische Exarchat und der Mazedonische Kirchenstreit. Inaugural-Dissertation zur Erlangung der Doktorwuerde bei der juristischen Fakultaet der Universitaet Leipzig, eingereicht von Kurt Scheffler, Dragoman der Kaiserl. Botschaft in Konstantinopel. Borna-Leipzig, Buchdruckerei Robert Noske, 1909'
-    author: 'KURT SCHEFFLER (host record spells Scheeffler)'
+  - title: 'Das Bulgarische Exarchat und der Mazedonische Kirchenstreit. Inaugural-Dissertation zur Erlangung der Doktorwürde bei der Juristischen Fakultät der Universität Leipzig'
+    author: 'Kurt Scheffler, Dragoman der Kaiserl. Botschaft in Konstantinopel'
     year: '1909'
     world: orthodoxy-after-1821-balkan-autocephalies
     why: 'Wanted Sources, era 9 row 302, Antim I: the firman of 1870 in German, in a dissertation.'
@@ -28794,8 +28794,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 100,997 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: scheffler_das-bulgarische-exarchat-und-der-mazedonische-kirchenstreit-deu_1909.txt
-  - title: 'Raccolta di concordati su materie ecclesiastiche tra la Santa Sede e le autorita civili, Roma, Tipografia Poliglotta Vaticana, 1919'
-    author: 'none on title page (host: Mercati, Angelo; Catholic Church, Treaties)'
+  - title: 'Raccolta di concordati su materie ecclesiastiche tra la Santa Sede e le autorità civili'
+    author: 'not named on the title page'
     year: '1919'
     world: haitian-church-rupture-to-concordat
     why: 'Wanted Sources, era 9 row 284, Fabre Geffrard: the text of the Concordat of 1860, in a Vatican collection.'
@@ -28804,8 +28804,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 4,219,082 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: mercati_raccolta-di-concordati-ita-fra-lat_1919.txt
-  - title: 'A Narrative of Captivity in Abyssinia; with some account of the late Emperor Theodore, his country and people. By Henry Blanc, M.D. ... London: Smith, Elder and Co. 1868'
-    author: 'HENRY BLANC, M.D., M.R.C.S.E., F.A.S.L.'
+  - title: 'A Narrative of Captivity in Abyssinia; with some account of the late Emperor Theodore, his country and people'
+    author: 'Henry Blanc, M.D., M.R.C.S.E., F.A.S.L., etc., Staff Assistant-Surgeon Her Majesty''s Bombay Army (lately on special duty in Abyssinia)'
     year: '1868'
     world: ethiopian-christianity-tewodros-to-menelik
     why: 'Wanted Sources, era 9 rows 306 and 307, Tewodros II and Abuna Salama III: a captive''s account.'
@@ -28814,8 +28814,8 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 702,073 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: blanc_narrative-of-captivity-in-abyssinia_1868.txt
-  - title: '[The Martyr Church: a narrative of the] introduction, progress, and triumph of Christianity in Madagascar with notices of personal intercourse and travel in that island. By the Rev. William Ellis, author of Polynesian Researches, Three Visits to Madagascar. Third Thousand. London: John Snow and Co., 2 Ivy Lane, Paternoster Row. MDCCCLXX'
-    author: 'Rev. WILLIAM ELLIS'
+  - title: 'The Martyr Church: a narrative of the introduction, progress, and triumph of Christianity in Madagascar, with notices of personal intercourse and travel in that island. Third thousand'
+    author: 'Rev. William Ellis, author of ''Polynesian Researches,'' ''Three Visits to Madagascar,'' &c., &c.'
     year: '1870'
     world: malagasy-christianity
     why: 'Wanted Sources, era 9 rows 316 and 317, Ranavalona I and Ranavalona II: Ellis''s later narrative.'

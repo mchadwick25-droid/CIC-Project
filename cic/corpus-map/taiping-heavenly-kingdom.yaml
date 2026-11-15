@@ -3,6 +3,26 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: taiping-heavenly-kingdom
 works:
+- row_id: brine_taeping-rebellion-in-china_1862--the-taeping-rebellion-in-china-a-narrative-of-its-rise-and
+  work: The Taeping Rebellion in China; a narrative of its rise and progress. Based upon original
+    documents and
+  author: brine
+  locus: Chapter IV, early life of Hung-siu-tsuen, at lines 3061-4406; Chapter XII, with the
+    letter of Mr. Roberts on leaving Nankin, at lines 11811-12839; the rest not mapped
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1862
+    end: 1862
+    source: 'the printing''s own title page: line 73 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1862
+    source: line 73 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 rows 263 to 266, the Taiping leaders and Issachar Roberts: an outside account.'
+  source_file: brine_taeping-rebellion-in-china_1862.txt
 - row_id: callery-yvan_history-of-the-insurrection-in-china_oxenford1854--history-of-the-insurrection-in-china-with-notices-of-the
   work: History of the insurrection in China; with notices of the Christianity, creed, and
     proclamations of the
@@ -28,13 +48,34 @@ works:
     formation_confidence: Documented
   note: 'Era 9 row 185, Hong Xiuquan: an outside account.'
   source_file: callery-yvan_history-of-the-insurrection-in-china_oxenford1854.txt
+- row_id: lindley_ti-ping-tien-kwoh-v2_1866--ti-ping-tien-kwoh-the-history-of-the-ti-ping-revolution
+  work: TI-PING TIEN-KWOH; THE HISTORY OF THE TI-PING REVOLUTION, INCLUDING A NARRATIVE OF
+    THE AUTHOR'S PERSONAL
+  author: lindley
+  locus: the deposition of Baffey on the Kan-wang, in the closing pages, at lines 18249-18257;
+    the rest not mapped
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1866
+    end: 1866
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n6; the
+      OCR does not give it cleanly'
+    formation_confidence: Documented
+  edition_date:
+    year: 1866
+    source: read on the scan's page image, leaf n6; the OCR does not give it cleanly
+    formation_confidence: Documented
+  note: 'Era 9 rows 263 to 266, the Taiping leaders: Lindley, vol. 2.'
+  source_file: lindley_ti-ping-tien-kwoh-v2_1866.txt
 - row_id: lindley_ti-ping-tien-kwoh-v1_1866--ti-ping-tien-kwoh-the-history-of-the-ti-ping-revolution
   work: Ti-ping Tien-kwoh; the history of the Ti-ping revolution, including a narrative of
     the author's personal
   author: lindley
   locus: Author's preface at OCR lines 266-465; add 12 to OCR line numbers; the rest not mapped
   role: context
-  confidence: needs-ruling
+  confidence: provisional
   language: eng
   date:
     start: 1866
@@ -46,8 +87,30 @@ works:
     year: 1866
     source: read on the scan's page image, leaf n8; the OCR does not give it cleanly
     formation_confidence: Documented
-  note: 'Era 9 row 185, Hong Xiuquan: an account that quotes the record of his visions.'
+  note: 'Era 9 row 185, Hong Xiuquan: an account that quotes the record of his visions. A
+    witness by another hand, printed in 1866, two years after the entry''s window closes.'
   source_file: lindley_ti-ping-tien-kwoh-v1_1866.txt
+- row_id: meadows_chinese-and-their-rebellions_1856--the-chinese-and-their-rebellions-viewed-in-connection-with
+  work: THE CHINESE AND THEIR REBELLIONS, VIEWED IN CONNECTION WITH THEIR NATIONAL PHILOSOPHY,
+    ETHICS, LEGISLATION,
+  author: meadows
+  locus: Hung sew tseuen with Mr. Roberts at Canton at lines 6633-6701; Hung jin's papers
+    given to Mr. Hamberg and Mr. Roberts' summary of them at lines 11452-11508; the rest not
+    mapped
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1856
+    end: 1856
+    source: 'the printing''s own title page: line 99 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1856
+    source: line 99 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 rows 263 to 266, the Taiping leaders and Issachar Roberts: an outside account.'
+  source_file: meadows_chinese-and-their-rebellions_1856.txt
 - row_id: medhurst_pamphlets-issued-by-the-chinese-insurgents-at-nan-king_1853--pamphlets-issued-by-the-chinese-insurgents-at-nan-king-to
   work: Pamphlets issued by the Chinese insurgents at Nan-king; to which is added a History
     of the Kwang-se

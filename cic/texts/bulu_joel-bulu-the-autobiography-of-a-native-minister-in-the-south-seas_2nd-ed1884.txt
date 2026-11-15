@@ -1,12 +1,12 @@
 Title: JOEL BULU: THE AUTOBIOGRAPHY OF A NATIVE MINISTER IN THE SOUTH SEAS. Translated by a Missionary. SECOND EDITION
-Creator: Joel Bulu (title page; host creator Joeli Mbulu)
-Publisher: LONDON: T. WOOLMER, 2, Castle Street, City Road, E.C.; and 66, Paternoster Row, E.C.
+Creator: Joel Bulu (named in the title only); Translated by a Missionary
+Publisher: London: T. Woolmer
 Publication Date: 1884 (line 120 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1884); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item joelbuluautobio00mbulgoog, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (173,073) equals the size archive.org lists for the djvu.txt.
 Provenance note: At intake the host's own additions were removed and nothing else: Google's preamble about the scan (host OCR lines 1-50, 50 lines, from 'Google' to the last line naming books.google.com). The edition's own text follows as the host gives it; nothing was normalized or corrected. Rights basis: published 1884, out of US copyright by date. OCR quality: clean. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: Introduction lines 165-400; autobiography from line 405 to about 3745; 'Last Sickness' extracts from Miss Gordon Cumming, At Home in Fiji, lines 3750-3880. Editorial matter: Introduction (signed G.S., Lonnon May 1884) lines 165-397; publisher's lists from line 3895 to end. Mixed voices: translator-narrated; Gordon Cumming's extracts lines 3750-3880 are a different voice. About 31,438 words.
+Content note: Joel Bulu's account of his own life, taken down from his spoken words and put into English by a translator who is not named; the second edition. Editorial matter: introduction at lines 127-359, dated London, May 1884 and signed with initials; it says Joel Bulu never wrote an account of his life himself. Divisions: the autobiography begins at line 363; from line 3383 the translator speaks in his own person and adds two letters. Mixed voices: a farewell letter from the native missionaries to the Rev. W. Moore, signed by Joel Bulu and others, at lines 3526-3702; extracts from Miss Gordon Cumming's At Home in Fiji on his last sickness at lines 3737-3847. Publisher's lists follow from line 3857. About 31,438 words.
 
 ______________________________________________________________________
 

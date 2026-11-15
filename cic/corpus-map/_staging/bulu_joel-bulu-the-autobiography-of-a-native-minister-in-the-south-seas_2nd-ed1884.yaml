@@ -1,9 +1,10 @@
 source_file: bulu_joel-bulu-the-autobiography-of-a-native-minister-in-the-south-seas_2nd-ed1884.txt
 assignments:
-- work: 'JOEL BULU: THE AUTOBIOGRAPHY OF A NATIVE MINISTER IN THE SOUTH SEAS. Translated by a Missionary. SECOND'
+- row_id: bulu_joel-bulu-the-autobiography-of-a-native-minister-in-the-south-seas_2nd-ed1884--joel-bulu-the-autobiography-of-a-native-minister-in-the
+  work: 'JOEL BULU: THE AUTOBIOGRAPHY OF A NATIVE MINISTER IN THE SOUTH SEAS. Translated by a Missionary. SECOND'
   author: bulu
-  locus: opening of autobiography at OCR lines 405-420; letter signed Joel Bulu and Joseph Ratambua at OCR lines
-    3690-3712; the rest not mapped
+  locus: letter to the Rev. W. Moore signed by Joel Bulu and others at lines 3526-3702; extracts from Miss Gordon
+    Cumming on his last sickness at lines 3737-3847; the rest not mapped
   atlas_ids:
   - the-missionary-movement-s-native-churches-seramp
   role: tradition

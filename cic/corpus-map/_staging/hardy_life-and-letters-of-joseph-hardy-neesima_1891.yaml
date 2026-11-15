@@ -1,6 +1,7 @@
 source_file: hardy_life-and-letters-of-joseph-hardy-neesima_1891.txt
 assignments:
-- work: LIFE AND LETTERS OF JOSEPH HARDY NEESIMA
+- row_id: hardy_life-and-letters-of-joseph-hardy-neesima_1891--life-and-letters-of-joseph-hardy-neesima
+  work: LIFE AND LETTERS OF JOSEPH HARDY NEESIMA
   author: hardy
   locus: the whole volume; not mapped
   atlas_ids:

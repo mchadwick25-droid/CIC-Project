@@ -1,12 +1,12 @@
-Title: THE DIARY OF A JAPANESE CONVERT, by Kanzo Uchimura
-Creator: KANZO UCHIMURA
-Publisher: NEW YORK: FLEMING H. REVELL COMPANY; Tokyo: Keiseisha
+Title: THE DIARY OF A JAPANESE CONVERT
+Creator: Kanzo Uchimura
+Publisher: New York, Chicago, Toronto: Fleming H. Revell Company; Tokyo, Japan: Keiseisha
 Publication Date: 1895 (the copyright notice at line 117 of this file ('Copyright, 1895. by Fleming H. Revell Company.'); the title page prints no year)
 Rights: Public Domain (pd-us-by-date: published 1895); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the date agrees; the date used is that of the copyright notice at line 117 of this file ('Copyright, 1895. by Fleming H. Revell Company.'); the title page prints no year
 Language: eng
 Source: archive.org item diaryofjapanesec00uchirich, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (410,010) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1895, out of US copyright by date. OCR quality: clean. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: chapters from diary; introduction by J. D. Davis dated Oct 1895. Editorial matter: not mapped. Mixed voices: narrative with quoted documents. About 61,745 words.
+Content note: The author's own account, written in English, of how he became a Christian, built on entries from his diary and told in an introduction and ten chapters. Editorial matter: two commendations printed after the title page, by Chas. F. Thwing at lines 64-84 and by J. D. Davis of Doshisha University at lines 93-115; a publisher's note at lines 139-158, which says the work is issued as the author wrote it with few changes; the author's preface at lines 161-210, signed K. U. and dated May 1, 1895. Divisions: contents list from line 213; introduction from line 246; chapter I, Heathenism, from line 286; chapter X from line 7372; 'Finis' at line 8478. Publisher's lists of other books run from line 8481. About 61,745 words.
 
 ______________________________________________________________________
 

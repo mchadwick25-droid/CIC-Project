@@ -1,12 +1,12 @@
-Title: Полное собрание сочинений И. В. Киреевского в двух томах под редакцией М. Гершензона. Томъ 1. Москва. Типография Императорского Московского Университета. 1911
-Creator: И. В. Киреевский; под редакцией М. Гершензона
-Publisher: Москва, Типография Императорского Московского Университета
+Title: Полное собраніе сочиненій И. В. Кирѣевскаго въ двухъ томахъ. Томъ I
+Creator: И. В. Кирѣевскій; подъ редакціей М. Гершензона
+Publisher: Москва: Типографія Императорскаго Московскаго Университета
 Publication Date: 1911 (line 46 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1911); the archive.org record carries no rights field, so the imprint date is the basis
 Language: rus
 Source: archive.org item polnoesobraniesochinenijivkireevskogo50, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,202,500) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1911, out of US copyright by date. OCR quality: fair to clean, old spelling. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: editor's preface, then articles; О характере просвещения Европы begins about line 8756 (running heads). Editorial matter: Gershenzon preface lines ~35-155. About 94,973 words.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1911, out of US copyright by date. OCR quality: clean to fair, in the old spelling. Line numbers cited in this header are this file's own line numbers.
+Content note: Volume 1 of a two-volume Russian edition of the works of I. V. Kireevsky. Title page at lines 15-46. Editorial matter: the editor's preface, dated 16 November 1910, at lines 65-165, says the text follows the first edition of 1861; 'Materials for the biography of I. V. Kireevsky' from line 168; notes from line 13871. Divisions: 'First section' from line 4419, with 'The Nineteenth Century' (line 4422), 'On the character of the enlightenment of Europe and its relation to the enlightenment of Russia', headed as a letter to Count E. E. Komarovsky, 1852 (lines 8732-11061), 'On the necessity and possibility of new principles for philosophy', 1856 (line 11067), and 'Fragments' (line 13064). Contents list at line 14001. About 94,973 words.
 
 ______________________________________________________________________
 

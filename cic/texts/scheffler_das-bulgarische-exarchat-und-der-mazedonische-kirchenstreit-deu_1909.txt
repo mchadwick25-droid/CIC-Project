@@ -1,12 +1,12 @@
-Title: Das Bulgarische Exarchat und der Mazedonische Kirchenstreit. Inaugural-Dissertation zur Erlangung der Doktorwuerde bei der juristischen Fakultaet der Universitaet Leipzig, eingereicht von Kurt Scheffler, Dragoman der Kaiserl. Botschaft in Konstantinopel. Borna-Leipzig, Buchdruckerei Robert Noske, 1909
-Creator: KURT SCHEFFLER (host record spells Scheeffler)
-Publisher: Borna-Leipzig, Buchdruckerei Robert Noske
+Title: Das Bulgarische Exarchat und der Mazedonische Kirchenstreit. Inaugural-Dissertation zur Erlangung der Doktorwürde bei der Juristischen Fakultät der Universität Leipzig
+Creator: Kurt Scheffler, Dragoman der Kaiserl. Botschaft in Konstantinopel
+Publisher: Borna-Leipzig: Buchdruckerei Robert Noske
 Publication Date: 1909 (line 46 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1909); the archive.org record carries no rights field, so the imprint date is the basis
 Language: deu
 Source: archive.org item IA41545812_0035, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (100,997) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1909, out of US copyright by date. OCR quality: clean. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: numbered sections I, II... ; firman is section IV. Editorial matter: dissertation vita at end. About 13,792 words.
+Content note: A German doctoral dissertation in law on the Bulgarian Exarchate and the church dispute in Macedonia. Editorial matter: contents at lines 65-85, a list of sources and literature from line 88, and a foreword (Vorwort) from line 153. Divisions: three main parts, the second on the Bulgarian Exarchate (from line 761) and the third on the Macedonian church dispute (from line 2205); the text ends at line 2493. The firman of 11 March 1870, articles 1-11 with its closing clause, is printed in German, translated by the author from the Turkish text, at lines 1117-1263. The election of 'Anthimos', archbishop of Widdin, as exarch on 23 February 1872, and the break with the Patriarchate, are told at lines 1319-1347. About 13,792 words.
 
 ______________________________________________________________________
 

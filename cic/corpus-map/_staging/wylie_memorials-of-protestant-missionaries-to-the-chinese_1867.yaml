@@ -1,8 +1,10 @@
 source_file: wylie_memorials-of-protestant-missionaries-to-the-chinese_1867.txt
 assignments:
-- work: MEMORIALS OF PROTESTANT MISSIONARIES TO THE CHINESE
+- row_id: wylie_memorials-of-protestant-missionaries-to-the-chinese_1867--memorials-of-protestant-missionaries-to-the-chinese-giving-a
+  work: 'MEMORIALS OF PROTESTANT MISSIONARIES TO THE CHINESE: giving a list of their publications, and obituary'
   author: wylie
-  locus: Afa's works at OCR lines 1019-1023, 1700-1775; the rest not mapped
+  locus: notice of Leang Kung-fa (A-fa) with the list of his seven publications at lines 1544-1788; the rest not
+    mapped
   atlas_ids:
   - the-missionary-movement-s-native-churches-seramp
   role: context

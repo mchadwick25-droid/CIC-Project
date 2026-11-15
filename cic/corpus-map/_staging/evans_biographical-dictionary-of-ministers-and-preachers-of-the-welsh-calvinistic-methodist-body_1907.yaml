@@ -1,8 +1,9 @@
 source_file: evans_biographical-dictionary-of-ministers-and-preachers-of-the-welsh-calvinistic-methodist-body_1907.txt
 assignments:
-- work: BIOGRAPHICAL DICTIONARY OF MINISTERS AND PREACHERS OF THE WELSH CALVINISTIC METHODIST BODY
+- row_id: evans_biographical-dictionary-of-ministers-and-preachers-of-the-welsh-calvinistic-methodist-body_1907--biographical-dictionary-of-ministers-and-preachers-of-the
+  work: Biographical Dictionary of Ministers and Preachers of the Welsh Calvinistic Methodist Body or Presbyterians
   author: evans
-  locus: Jones, Rev Thomas, Khassia at OCR lines 19923-19995; the rest not mapped
+  locus: entry for Jones, Rev Thomas, Khassia, at lines 19884-19971; the rest not mapped
   atlas_ids:
   - northeast-india-revivals-and-the-mar-thoma-refor
   role: context

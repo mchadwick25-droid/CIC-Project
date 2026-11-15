@@ -1,12 +1,12 @@
-Title: A Retrospect of the First Ten Years of the Protestant Mission to China (now in connection with the Malay, Ultra-Ganges Missions) accompanied with Miscellaneous Remarks on the Literature, History and Mythology of China &c. By William Milne, Malacca: printed at the Anglo-Chinese Press 1820
-Creator: WILLIAM MILNE
-Publisher: Malacca: printed at the Anglo-Chinese Press
+Title: A Retrospect of the First Ten Years of the Protestant Mission to China, (now, in connection with the Malay, denominated, the Ultra-Ganges Missions.) Accompanied with Miscellaneous Remarks on the Literature, History, and Mythology of China, &c
+Creator: William Milne
+Publisher: Malacca: Printed at the Anglo-Chinese Press
 Publication Date: 1820 (line 63 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1820); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item aretrospectfirs00milngoog, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (665,398) equals the size archive.org lists for the djvu.txt.
-Provenance note: At intake the host's own additions were removed and nothing else: Google's preamble about the scan (host OCR lines 1-50, 50 lines, from 'Google' to the last line naming books.google.com). The edition's own text follows as the host gives it; nothing was normalized or corrected. Rights basis: published 1820, out of US copyright by date. OCR quality: fair: long-s printed as f/ft ('whofe', 'baptifm'), occasional garbles. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: retrospect by years; no contents checked. Editorial matter: none checked. Mixed voices: Milne quotes his own journal. About 112,281 words.
+Provenance note: At intake the host's own additions were removed and nothing else: Google's preamble about the scan (host OCR lines 1-50, 50 lines, from 'Google' to the last line naming books.google.com). The edition's own text follows as the host gives it; nothing was normalized or corrected. Rights basis: published 1820, out of US copyright by date. OCR quality: fair; the long s is read as f. Line numbers cited in this header are this file's own line numbers.
+Content note: An account of the mission's first ten years by one of its missionaries, who writes of himself as 'Mr. M.' and quotes his own journal. Editorial matter: the author's Preface from line 197, which acknowledges a manuscript by the Rev. R. Morrison; Introduction at line 345. Divisions: numbered sections from Section I (line 604) to Section XVIII (line 14412); an Appendix of numbered pieces at lines 15093-18519, the first an account of the Malay books. No contents list was found. The baptism of 'Leang-kung-fah', a Chinese printer to the mission, on November 3, 1816, with the questions put to him and his weekly reading with the author, is told at lines 8198-8347. About 112,281 words.
 
 ______________________________________________________________________
 

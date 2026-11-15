@@ -1,12 +1,12 @@
-Title: THE BANTU PAST AND PRESENT AN ETHNOGRAPHICAL & HISTORICAL STUDY OF THE NATIVE RACES OF SOUTH AFRICA BY S. M. MOLEMA ... EDINBURGH W. GREEN & SON, LIMITED 1920
-Creator: S. M. MOLEMA
+Title: THE BANTU PAST AND PRESENT: An Ethnographical & Historical Study of the Native Races of South Africa
+Creator: S. M. Molema
 Publisher: Edinburgh: W. Green & Son, Limited
 Publication Date: 1920 (line 81 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1920); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item bantupastpresent00moleuoft, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,085,901) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1920, out of US copyright by date. OCR quality: fair-clean. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: chapters; Ntsikana in the Literature section. Editorial matter: index at ~21500 (Ntsikana, 160 at line 21516). Mixed voices: Molema's study with quoted verse specimens. About 158,701 words.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1920, out of US copyright by date. OCR quality: clean to fair. Line numbers cited in this header are this file's own line numbers.
+Content note: A study of the Bantu peoples of South Africa; title page at lines 60-81, with a dedication to Scotland. Editorial matter: Preface from line 99; Bibliography from line 173; Contents from line 266. Divisions: Part I, 'The Revelation', from line 726; Part II, 'The Past', from line 2438; Part III, 'The Present', from line 10906; Part IV from line 17031; Appendix from line 19294; Index from line 20763. Ntsikana is named in chapter XII, 'The Bantu Language' (from line 8450), where an English hymn is printed as 'a translation of a composition by one of the first Xosa converts to Christianity' at lines 8920-8943, credited to Appleyard at line 8945; the index entry is at line 21528. The file tells nothing more of him. About 158,701 words.
 
 ______________________________________________________________________
 

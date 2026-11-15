@@ -1,12 +1,12 @@
-Title: MEMOIRS OF THE LIFE AND LABOURS OF ROBERT MORRISON, D.D. ... compiled by his widow, with critical notices of his Chinese works by Samuel Kidd, VOL. II
-Creator: Mrs Morrison (widow)
-Publisher: LONDON: LONGMAN, ORME, BROWN, GREEN, AND LONGMANS
+Title: Memoirs of the Life and Labours of Robert Morrison, D.D., F.R.S., M.R.A.S., Member of the Society Asiatique of Paris, &c. &c. Compiled by his widow; with critical notices of his Chinese works, by Samuel Kidd, and an appendix containing original documents. In two volumes. Vol. II
+Creator: compiled by his widow; with critical notices of his Chinese works by Samuel Kidd
+Publisher: London: Longman, Orme, Brown, Green, and Longmans
 Publication Date: 1839 (line 75 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1839); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item memoirsoflifelab02morr, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,566,295) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1839, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Editorial matter: not mapped. Mixed voices: narrative with quoted documents. About 234,648 words.
+Content note: The second of two volumes of a memoir of Robert Morrison compiled by his widow, who is not named on the title page. Contents of the volume at lines 85-365. Divisions: Period IV (1819-1822) from line 366 and Period V from line 11140, each in sections by year; the memoir ends at line 23654. An appendix of documents begins at line 23660 and Samuel Kidd's critical notices of Morrison's Chinese works at line 26589, ending with 'Finis' at line 30868. Mixed voices: Morrison's letters and journals, and letters to him, make up much of the text. Leang-Afa is named from line 2064 on; Morrison's 1826 account of meeting him again and of his notes on Hebrews is at lines 15610-15680. About 234,648 words.
 
 ______________________________________________________________________
 

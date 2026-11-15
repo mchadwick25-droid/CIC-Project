@@ -1,12 +1,12 @@
-Title: ESCRITOS Y DISCURSOS DE GABRIEL GARCIA MORENO, recopilados y publicados por la Sociedad de la Juventud Catolica de Quito, y anotados por su presidente D. Manuel Maria Polit. Precede un prologo por D. Juan Leon Mera. TOMO PRIMERO, ESCRITOS NO OFICIALES. Quito, Imprenta del Clero, 1887
-Creator: Gabriel Garcia Moreno (compiled by the Sociedad de la Juventud Catolica de Quito, annotated by Manuel Maria Polit)
-Publisher: Quito, Imprenta del Clero
+Title: ESCRITOS Y DISCURSOS DE GABRIEL GARCIA MORENO, RECOPILADOS Y PUBLICADOS POR LA SOCIEDAD DE LA JUVENTUD CATÓLICA DE QUITO, Y ANOTADOS POR SU PRESIDENTE D. MANUEL MARÍA PÓLIT. PRECEDE UN PROLOGO POR D. JUAN LEON MERA. TOMO PRIMERO, ESCRITOS NO OFICIALES
+Creator: Gabriel Garcia Moreno; recopilados y publicados por la Sociedad de la Juventud Católica de Quito, y anotados por su presidente D. Manuel María Pólit; prólogo por D. Juan Leon Mera
+Publisher: Quito: Imprenta del Clero
 Publication Date: 1887 (line 71 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1887); the archive.org record carries no rights field, so the imprint date is the basis
 Language: spa
 Source: archive.org item escritos-y-discursos-tomo-i-gabriel-garcia-moreno-1887, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (708,740) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1887, out of US copyright by date. OCR quality: clean/fair. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Editorial matter: see divisions. Mixed voices: editors' notes by Polit throughout. About 116,857 words.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1887, out of US copyright by date. OCR quality: clean to fair. Line numbers cited in this header are this file's own line numbers.
+Content note: The first volume, in Spanish, of a collection of Gabriel Garcia Moreno's writings; the title page calls its contents his unofficial writings. Editorial matter: the editors' 'Advertencia' at lines 93-152; prologue by Juan León Mera at lines 166-824, dated Atocha, June 10, 1887. Divisions, as the index gives them: 'Defensa de los Jesuitas' from line 833; writings from the periodicals 'El Zurriago', 'El Vengador' and 'La Nación'; 'La verdad á mis calumniadores'; scientific studies; obituaries; poems; a university speech of 1846. Mixed voices: an appendix of sixteen numbered editors' notes follows the texts. The volume closes 'Fin del primer tomo' at line 19622; index at lines 19631-19939; errata from line 19940. About 116,857 words.
 
 ______________________________________________________________________
 

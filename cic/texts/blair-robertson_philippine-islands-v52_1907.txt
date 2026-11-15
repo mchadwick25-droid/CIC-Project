@@ -1,12 +1,12 @@
-Title: THE PHILIPPINE ISLANDS 1493-1898 ... Volume LII - 1841-1898. The Arthur H. Clark Company, Cleveland, Ohio, MCMVII. Copyright 1907
-Creator: Edited and annotated by Emma Helen Blair and James Alexander Robertson; introduction Edward Gaylord Bourne
+Title: The Philippine Islands 1493-1898: Explorations by Early Navigators, Descriptions of the Islands and their Peoples, their History and Records of the Catholic Missions, as related in contemporaneous Books and Manuscripts [...] Translated from the originals. Volume LII - 1841-1898
+Creator: Edited and annotated by Emma Helen Blair and James Alexander Robertson; with historical introduction and additional notes by Edward Gaylord Bourne
 Publisher: Cleveland, Ohio: The Arthur H. Clark Company
 Publication Date: 1907 (line 92 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1907); the archive.org record carries no rights field, so the imprint date is the basis
 Language: eng
 Source: archive.org item philippineisland52blai, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (754,609) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1907, out of US copyright by date. OCR quality: fair (doubled spaces). Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Editorial matter: see divisions. About 109,796 words.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1907, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are this file's own line numbers.
+Content note: Volume LII of a series of documents translated into English. Contents list from line 102; Preface from line 180. Divisions: Sinibaldo de Mas on the internal political condition of the Philippines (line 743); Matta's report, 1843 (line 3254); LeRoy, The Philippines, 1860-1898 (line 4093); Events in Filipinas, 1841-1872 (line 8218); Constitution of the Liga Filipina (line 8620); the friar memorial of 1898 (line 9068); bibliographical data (line 11529); an appendix on agriculture (line 11572); errata and addenda to volumes I-LII (line 13008). Apolinario de la Cruz is told of in editors' note 37 to Matta's report, lines 3309-3381; Matta's text names 'the sedition of Apolinario' at lines 3307 and 3673-3702. About 109,796 words.
 
 ______________________________________________________________________
 

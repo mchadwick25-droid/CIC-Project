@@ -1,12 +1,12 @@
-Title: LES BASSOUTOS, VINGT-TROIS ANNÉES DE SÉJOUR ET D'OBSERVATIONS AU SUD DE L'AFRIQUE, PAR E. CASALIS, ANCIEN MISSIONNAIRE. PARIS, LIBRAIRIE DE CH. MEYRUEIS ET Cie, RUE DE RIVOLI, 174, 1859. Tous droits réservés
-Creator: E. CASALIS
+Title: LES BASSOUTOS: vingt-trois années de séjour et d'observations au sud de l'Afrique
+Creator: E. Casalis, ancien missionnaire
 Publisher: Paris: Librairie de Ch. Meyrueis et Cie
 Publication Date: 1859 (line 142 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1859); the archive.org record says possible-copyright-status Not in copyright. The Library knows of no copyright restrictions on this item., and the imprint date agrees
 Language: fra
 Source: archive.org item lesbassoutosouvi00casa, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (668,570) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1859, out of US copyright by date. OCR quality: fair-clean (front noisy). Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: introduction line 135; table at line 14759. Editorial matter: table des matières from line 14759. About 95,204 words.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1859, out of US copyright by date. OCR quality: clean to fair. Line numbers cited in this header are this file's own line numbers.
+Content note: A French account of the Bassoutos by a former missionary, printed under the series heading 'Nouvelle bibliothèque des familles'; title page at lines 113-144. The Introduction begins at line 147. Divisions: 'Première partie, Voyages d'exploration et travaux' (chapters I-VIII) from line 682; 'Seconde partie, Coutumes et moeurs des Bassoutos' (chapters IX-XVIII) from line 5173; the text ends at line 14765. The table of contents is at lines 14771-14819. The chief is named 'Moshesh': a caption for his portrait of 1833 is at line 1237, a description of him and of his early rule begins at line 1246, and he is named again up to line 13842. About 95,204 words.
 
 ______________________________________________________________________
 

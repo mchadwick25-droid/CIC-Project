@@ -1,12 +1,12 @@
-Title: THE CAPTIVE MISSIONARY: BEING AN ACCOUNT OF THE COUNTRY AND PEOPLE OF ABYSSINIA. EMBRACING [a narrative of King Theodore's life] AND HIS TREATMENT OF POLITICAL AND RELIGIOUS MISSIONS. BY THE REV. HENRY A. STERN, Author of 'Wanderings among the Falashas.' LONDON: CASSELL, PETTER, AND GALPIN (OCR lines ~40-52; middle of title garbled)
-Creator: THE REV. HENRY A. STERN
-Publisher: London: Cassell, Petter, and Galpin, Ludgate Hill, E.C.; and 596 Broadway, New York
+Title: The Captive Missionary: being an account of the country and people of Abyssinia. Embracing [words lost in OCR] and his treatment of political and religious missions
+Creator: The Rev. Henry A. Stern, author of 'Wanderings among the Falashas'
+Publisher: London: Cassell, Petter, and Galpin, Ludgate Hill, E.C.; and 596, Broadway, New York
 Publication Date: 1868 (the dated preface at line 464 of this file ('London, October 26th, 1868.'), with which the library catalogue record of the item agrees (MARC 260: 'London : Cassell, Petter, and Galpin, [1868]'); the title page prints no year)
 Rights: Public Domain (pd-us-by-date: published 1868); the archive.org record carries no rights field, so the date named here is the basis; the date used is that of the dated preface at line 464 of this file ('London, October 26th, 1868.'), with which the library catalogue record of the item agrees (MARC 260: 'London : Cassell, Petter, and Galpin, [1868]'); the title page prints no year
 Language: eng
 Source: archive.org item captivemissionar00ster_0, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (668,259) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1868, out of US copyright by date. OCR quality: fair-good; running text readable, title-page lines garbled in places. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: chapters; contents from OCR line 79 (chapter heads in the contents list, lines 79-310). Editorial matter: dedication to Lord Napier of Magdala lines 52-70; preface lines ~430-452. About 97,522 words.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1868, out of US copyright by date. OCR quality: fair to good. Line numbers cited in this header are this file's own line numbers.
+Content note: An account of Abyssinia and of the author's captivity under King Theodore, by a missionary who calls himself in the dedication one of the victims of the king's tyranny. Editorial matter: a dedication to Lord Napier of Magdala at lines 68-88 and the author's preface at lines 399-464, dated London, October 26th, 1868. Contents at lines 91-390. Divisions: eighteen chapters, Chapter I from line 470; the text ends at line 14882. Theodore's birth, parentage and rise open Chapter I (lines 470-1396). 'Aboona Salama', the Metropolitan, is named at lines 1033, 1149, 3038 and 3140 and elsewhere; his death on October 25th and a sketch of him are in Chapter XVI at lines 12311-12340. About 97,522 words.
 
 ______________________________________________________________________
 

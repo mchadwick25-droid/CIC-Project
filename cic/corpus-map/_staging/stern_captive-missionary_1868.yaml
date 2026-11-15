@@ -1,11 +1,11 @@
 source_file: stern_captive-missionary_1868.txt
 assignments:
-- work: 'THE CAPTIVE MISSIONARY: BEING AN ACCOUNT OF THE COUNTRY AND PEOPLE OF ABYSSINIA. EMBRACING [a narrative
-    of'
+- row_id: stern_captive-missionary_1868--the-captive-missionary-being-an-account-of-the-country-and
+  work: 'The Captive Missionary: being an account of the country and people of Abyssinia. Embracing [words lost
+    in'
   author: stern
-  locus: Aboona Salama (Metropolitan) named in contents and text at OCR lines 315, 1021, 1137, 1559, 3026, 3128,
-    8964, 9190; Death of Aboona Salama, 25 Oct (OCR 'October 25tli') at OCR lines 12299-12330; Theodore's life and
-    reign (contents entries) at OCR lines 86-89, 79-310; the rest not mapped
+  locus: the death of Aboona Salama at lines 12311-12330; Chapter I, Theodore's birth, parentage and rise, at lines
+    470-1396; the rest not mapped
   atlas_ids:
   - ethiopian-christianity-tewodros-to-menelik
   role: context

@@ -1,6 +1,7 @@
 source_file: uchimura_diary-of-a-japanese-convert_1895.txt
 assignments:
-- work: THE DIARY OF A JAPANESE CONVERT, by Kanzo Uchimura
+- row_id: uchimura_diary-of-a-japanese-convert_1895--the-diary-of-a-japanese-convert
+  work: THE DIARY OF A JAPANESE CONVERT
   author: uchimura
   locus: the whole volume; not mapped
   atlas_ids:

@@ -1,8 +1,10 @@
 source_file: blanc_narrative-of-captivity-in-abyssinia_1868.txt
 assignments:
-- work: A Narrative of Captivity in Abyssinia; with some account of the late Emperor Theodore, his country and
+- row_id: blanc_narrative-of-captivity-in-abyssinia_1868--a-narrative-of-captivity-in-abyssinia-with-some-account-of
+  work: A Narrative of Captivity in Abyssinia; with some account of the late Emperor Theodore, his country and people
   author: blanc
-  locus: Death and career of Abouna Salama (spelled Abouna) at OCR lines 10547-11050; the rest not mapped
+  locus: chapter I on the Emperor Theodore at lines 433-1279; the death and career of Abouna Salama at lines 10569-11132;
+    the rest not mapped
   atlas_ids:
   - ethiopian-christianity-tewodros-to-menelik
   role: context

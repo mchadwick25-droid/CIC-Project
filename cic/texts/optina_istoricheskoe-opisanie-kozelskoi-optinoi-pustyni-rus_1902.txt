@@ -1,12 +1,12 @@
-Title: Историческое описание Козельской Оптиной пустыни и Предтечева скита (Калужской губернии), вновь составленное Е. В. Издание Оптиной Пустыни. Свято-Троицкая Сергиева Лавра, собственная типография. 1902
-Creator: Е. В. (host: Ераст)
-Publisher: Свято-Троицкая Сергиева Лавра, Издание Оптиной Пустыни
+Title: Историческое описание Козельской Оптиной пустыни и Предтечева скита (Калужской губернии), вновь составленное Е. В
+Creator: Е. В.
+Publisher: Свято-Троицкая Сергіева Лавра: Изданіе Оптиной Пустыни; собственная типографія
 Publication Date: 1902 (line 75 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1902); the archive.org record carries no rights field, so the imprint date is the basis
 Language: rus
 Source: archive.org item istoricheskoeopisaniekozelskojoptinojpu0, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (760,404) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1902, out of US copyright by date. OCR quality: fair, old spelling. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: contents at line 10703. Editorial matter: censor leaf 7 Aug 1902 line 67. Mixed voices: appendix letters from Kireevskaya, Filaret, Golubinsky, Muravev, Kireevsky to the elders (from ~line 10150-10400). About 62,887 words.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1902, out of US copyright by date. OCR quality: fair, in the old spelling. Line numbers cited in this header are this file's own line numbers.
+Content note: A history, in Russian, of the Optina monastery near Kozelsk, by a compiler given only as 'Е. В.' on the title page. Editorial matter: the church censor's permission, dated Moscow, 7 August 1902, at lines 78-80. Divisions: five numbered parts, from the monastery's early history (line 111) to its superiors and elders, with headed sections inside them. Fr. Makary is treated in the sections beginning at line 3624 (as fellow worker of the elder Leonid) and line 4008 (his eldership), then in the section on the monastery's publishing from line 4077; Fr. Amvrosy in the sections from lines 5106 and 5604. Mixed voices: appendices from line 7422 print lists of superiors, the gift book, and letters about the publishing of books (lines 8441-10703). Contents list from line 10715. About 62,887 words.
 
 ______________________________________________________________________
 

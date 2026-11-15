@@ -1,12 +1,12 @@
-Title: DE ZENDINGSEEUW VOOR NEEDERLANDSCH OOST-INDIE
-Creator: S. Coolsma
-Publisher: Utrecht: C.H.E. Breijer
+Title: De Zendingseeuw voor Nederlandsch Oost-Indië
+Creator: S. Coolsma, Director van het Zendingshuis der Nederl. Zendingsvereeniging
+Publisher: Utrecht: C. H. E. Breijer
 Publication Date: 1901 (line 62 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1901); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: nld
 Source: archive.org item dezendingseeuwv00coolgoog, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (4,415,631) equals the size archive.org lists for the djvu.txt.
 Provenance note: At intake the host's own additions were removed and nothing else: Google's preamble about the scan (host OCR lines 1-100, 100 lines, from 'Google' to the last line naming books.google.com). The edition's own text follows as the host gives it; nothing was normalized or corrected. Rights basis: published 1901, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: index line 108286 'Sadrach-Christenen, 196-198'. Editorial matter: not mapped. Mixed voices: narrative with quoted documents. About 621,962 words.
+Content note: A history in Dutch of Protestant mission work in the Dutch East Indies in the nineteenth century, set out island by island and mission field by mission field, as the author explains in his foreword. Title page at lines 43-60. Editorial matter: the author's 'Voorrede' at lines 132-233, dated Rotterdam, 24 August 1901; contents ('Inhoud') from line 236. The introduction ('Inleiding') on Christianity in the Indies before 1800 begins at line 570; the text, printed in two columns, ends at line 106114. The 'Register' (index) runs from line 106117. The file tells of Sadrach in its account of the village Karangdjoso at lines 21497-21642 and again from line 23062; the index entries 'Sadrach' and 'Sadrach-Christenen' are at lines 108193-108198. About 621,962 words.
 
 ______________________________________________________________________
 

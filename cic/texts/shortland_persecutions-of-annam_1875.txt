@@ -1,12 +1,12 @@
-Title: [THE PERSECUTIONS OF ANNAM: a history of Christianity in Cochin China and Tonking]
-Creator: JOHN R. SHORTLAND, M.A., Canon of Plymouth
-Publisher: LONDON: BURNS AND OATES
+Title: THE PERSECUTIONS OF ANNAM: The History of Christianity in Cochin China and Tonking
+Creator: John R. Shortland, M.A., Canon of Plymouth, author of 'The Corean Martyrs'
+Publisher: London: Burns and Oates
 Publication Date: 1875 (line 38 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1875); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item persecutionsofan00shoriala, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (797,155) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1875, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Editorial matter: not mapped. Mixed voices: narrative with quoted documents. About 125,161 words.
+Content note: An English history of the Catholic missions and persecutions in Cochin China and Tonking. Title page at lines 13-38. Editorial matter: a dedication letter to John Henry Newman from line 49; Preface from line 86; Contents (sixteen chapters) from line 231. Divisions: chapter I, 'Introductory', begins at line 280 and 'The End' is at line 15557; publisher's advertisements follow. The king is named 'Minh-Menh': the chapter 'Minh-Menh's Persecution' (chapter IX in the contents list) runs from line 5580 to line 7579, and a decree of 1833 is quoted in his words at lines 5808-5851. Mixed voices: decrees and missionaries' letters are quoted in the narrative. About 125,161 words.
 
 ______________________________________________________________________
 

@@ -1,6 +1,7 @@
 source_file: casalis_les-bassoutos-fra_1859.txt
 assignments:
-- work: LES BASSOUTOS, VINGT-TROIS ANNÉES DE SÉJOUR ET D'OBSERVATIONS AU SUD DE L'AFRIQUE, PAR E. CASALIS, ANCIEN
+- row_id: casalis_les-bassoutos-fra_1859--les-bassoutos-vingt-trois-annees-de-sejour-et-d-observations
+  work: 'LES BASSOUTOS: vingt-trois années de séjour et d''observations au sud de l''Afrique'
   author: casalis
   locus: the whole volume; not mapped
   atlas_ids:

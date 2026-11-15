@@ -42,3 +42,41 @@ works:
   note: Same volume; its nineteenth-century chapters run to 1879. Placed on the contents,
     not on a full reading.
   source_file: pelesz_geschichte-der-union-bd2-deu_1880.txt
+- row_id: sheptytsky_kanadiiskym-rusynam-ukr_1911--work
+  work: Канадийским Русинам. Написав Митрополит Андрей Шептицкий
+  author: sheptytsky
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  language: ukr
+  date:
+    start: 1911
+    end: 1911
+    source: 'the printing''s own title page: line 24 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1911
+    source: line 24 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 279, Andrey Sheptytsky: his book for the Ruthenians of Canada. His own
+    text, printed in 1911, five years after the entry''s window closes.'
+  source_file: sheptytsky_kanadiiskym-rusynam-ukr_1911.txt
+- row_id: sheptytsky_o-pokaianiiu-lyst-pastyrskii-ukr_1901--work
+  work: О ПОКАЯНІЮ. ЛИСТЪ ПАСТИРСКІЙ Высокопреосвященого АНДРЕЯ ШЕПТИЦКОГО, Митрополита Галицкого,
+    Архіепископа
+  author: sheptytsky
+  locus: the whole letter at lines 83-2224; the rest not mapped
+  role: tradition
+  confidence: provisional
+  language: ukr
+  date:
+    start: 1901
+    end: 1901
+    source: 'the printing''s own title page: line 80 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1901
+    source: line 80 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 279, Andrey Sheptytsky: a pastoral letter on repentance.'
+  source_file: sheptytsky_o-pokaianiiu-lyst-pastyrskii-ukr_1901.txt

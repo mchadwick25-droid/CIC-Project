@@ -1,12 +1,12 @@
-Title: A QUESTAO RELIGIOSA DO BRAZIL PERANTE A SANTA SE ou a Missao especial a Roma em 1873 ... pelo Bispo do Para. Nova edicao (OCR garbled)
-Creator: Bispo do Para (Costa, Antonio de Macedo per host)
-Publisher: Lisboa: Lallemant Freres (marc 260)
-Publication Date: 1886 (the dated prefatory matter at line 171 of this file ('Dezembro de 1886.'), with which the library catalogue record of the item agrees (MARC 260: 'Lisboa : Lallemant Freres, 1886.'); the title page prints no year)
-Rights: Public Domain (pd-us-by-date: published 1886); the archive.org record carries no rights field, so the date named here is the basis; the date used is that of the dated prefatory matter at line 171 of this file ('Dezembro de 1886.'), with which the library catalogue record of the item agrees (MARC 260: 'Lisboa : Lallemant Freres, 1886.'); the title page prints no year
+Title: A Questão Religiosa do Brazil perante a Santa Sé ou a Missão especial a Roma em 1873 á luz de documentos publicados e ineditos, pelo Bispo do Pará. Nova edição mais completa
+Creator: pelo Bispo do Pará
+Publisher: Lisboa: Lallemant Frères
+Publication Date: 1886 (the dated prefatory letters, of which the last-dated in 1886 stands at line 171 of this file ('Dezembro de 1886.'), and the library catalogue record of the item (MARC 260: 'Lisboa : Lallemant Freres, 1886.'); the title page cannot be read in the OCR, and one prefixed letter is dated January 1887)
+Rights: Public Domain (pd-us-by-date: published 1886); the archive.org record carries no rights field, so the date named here is the basis; the date used is that of the dated prefatory letters, of which the last-dated in 1886 stands at line 171 of this file ('Dezembro de 1886.'), and the library catalogue record of the item (MARC 260: 'Lisboa : Lallemant Freres, 1886.'); the title page cannot be read in the OCR, and one prefixed letter is dated January 1887
 Language: por
 Source: archive.org item questoreligios00cost, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (879,964) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1886, out of US copyright by date. OCR quality: fair (doubled spaces, title page poor). Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Editorial matter: see divisions. About 123,834 words.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1886, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are this file's own line numbers.
+Content note: A work in Portuguese on the mission sent to Rome in 1873 during the religious question in Brazil; the title page (lines 28-50) names the author only as the Bishop of Pará and calls this a new edition. Editorial matter: letters of cardinals and bishops to the author, some in Italian, at lines 72-627, dated December 1886 and January 1887; a note says they arrived after the reprint was finished. The introduction begins at line 631 and chapter I at line 1201; the index lists fifteen chapters with papal documents among them, an 'Epilogo' (line 14994), 'Notas rectificativas' (line 15264) and an appendix of documents. Corrigenda at line 18051; index from line 18082. The letters address the author as D. António de Macedo Costa, Bishop of Pará (lines 104 and 335). About 123,834 words.
 
 ______________________________________________________________________
 

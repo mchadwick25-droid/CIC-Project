@@ -1,12 +1,12 @@
-Title: MEMOIR OF ASAAD ESH SHIDIAK. BOSTON: CROCKER & BREWSTER, PRINTERS. 1834
-Creator: not on title page (host: Isaac Bird, Asaad Shidyaq)
-Publisher: Boston, Crocker & Brewster
+Title: MEMOIR OF ASAAD ESH SHIDIAK
+Creator: not named on the title page
+Publisher: Boston: Crocker & Brewster, Printers
 Publication Date: 1834 (line 40 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1834); the archive.org record carries no rights field, so the imprint date is the basis
 Language: eng
 Source: archive.org item ldpd_16074813_000, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (124,345) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1834, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Editorial matter: see divisions. About 22,343 words.
+Content note: A short memoir of Asaad Esh Shidiak. Title page at lines 28-40. A second heading at lines 101-122 reads 'Missionary Paper, No. VIII. Missionary Biography', then 'Brief Memoir of Asaad Esh Shidiak; an Arab young man, of the Maronite Roman Catholic Church', and says the sketch was written chiefly by himself and by the Rev. Isaac Bird, missionary to Syria. Divisions: Sections I to VI, each headed by a summary, beginning at lines 125, 461, 937, 1527, 2036 and 2736; the text ends with verses at line 3144. Mixed voices: Asaad's own statement and letters are quoted at length (from line 183), with journals and letters of Mr. Bird and others. Asaad is the subject of the whole. About 22,343 words.
 
 ______________________________________________________________________
 

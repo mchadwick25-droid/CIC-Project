@@ -37,6 +37,104 @@ works:
     church because the spiritual Christians have no census entry yet (ME-6, held for Section
     A body by body). Second witness only.
   source_file: dukhobors_zhivotnaia-kniga-dukhobortsev-rus_bonch-bruevich1909.txt
+- row_id: feofan_bogougodnaia-zhizn-voobshche-rus_2nd-ed1899--18591866
+  work: БОГОУГОДНАЯ ЖИЗНЬ ВООБЩЕ. СЛОВА ЕПИСКОПА ФЕОФАНА. (Изъ словъ къ Тамбовской и Владимірской
+    паствамъ 1859—1866
+  author: feofan
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  language: rus
+  date:
+    start: 1859
+    end: 1866
+    source: 'the printing''s own title page: line 53 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1899
+    source: line 53 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 295, Theophan the Recluse: sermons on the godly life.'
+  source_file: feofan_bogougodnaia-zhizn-voobshche-rus_2nd-ed1899.txt
+- row_id: feofan_slova-k-tambovskoi-pastve-rus_1861--work
+  work: Слова къ Тамбовской паствѣ Феофана, Епископа Тамбовскаго и Шацкаго
+  author: feofan
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  language: rus
+  date:
+    start: 1859
+    end: 1861
+    source: 'the printing''s own title page: line 50 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1861
+    source: line 50 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 295, Theophan the Recluse: his sermons to the Tambov flock.'
+  source_file: feofan_slova-k-tambovskoi-pastve-rus_1861.txt
+- row_id: filimonov_materialy-dlia-biografii-arkhimandrita-makariia-rus_1888--work
+  work: Матеріалы для біографіи основателя Алтайской миссіи архимандрита Макарія
+  author: filimonov
+  locus: the whole volume; not mapped
+  role: context
+  confidence: provisional
+  language: rus
+  date:
+    start: 1888
+    end: 1888
+    source: 'the printing''s own title page: line 51 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1888
+    source: line 51 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 296, Makary (Glukharev): materials for his biography.'
+  source_file: filimonov_materialy-dlia-biografii-arkhimandrita-makariia-rus_1888.txt
+- row_id: ioann-kronshtadtskii_my-life-in-christ_goulaeff1897--my-life-in-christ-or-moments-of-spiritual-serenity-and
+  work: MY LIFE IN CHRIST; or Moments of Spiritual Serenity and Contemplation, of Reverent
+    Feeling, of Earnest
+  author: ioann-kronshtadtskii
+  locus: translator's preface, telling of Father John, at lines 197-427; the author's note
+    at lines 432-448; the rest not mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1897
+    end: 1897
+    source: 'the printing''s own title page: line 71 of this file, on the title page'
+    formation_confidence: Documented
+  translator:
+    name: E. E. Goulaeff
+    source: the title page
+    formation_confidence: Documented
+  edition_date:
+    year: 1897
+    source: line 71 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 297, John of Kronstadt: extracts from his diary, in English.'
+  source_file: ioann-kronshtadtskii_my-life-in-christ_goulaeff1897.txt
+- row_id: ioann-kronshtadtskii_moia-zhizn-vo-khriste-t1-rus_1891--work
+  work: Моя жизнь во Христе, или минуты духовнаго трезвенія и созерцанія, благоговѣйнаго чувства,
+    душевнаго
+  author: ioann-kronshtadtskii
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  language: rus
+  date:
+    start: 1891
+    end: 1891
+    source: 'the printing''s own title page: line 65 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1891
+    source: line 65 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 297, John of Kronstadt: extracts from his diary, in Russian, vol. 1.'
+  source_file: ioann-kronshtadtskii_moia-zhizn-vo-khriste-t1-rus_1891.txt
 - row_id: mouravieff_history-of-the-church-of-russia_blackmore1842--a-history-of-the-church-of-russia-1838-english-1842-2
   work: A History of the Church of Russia (1838; English 1842)
   author: mouravieff

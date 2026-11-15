@@ -1,9 +1,10 @@
 source_file: blair-robertson_philippine-islands-v52_1907.txt
 assignments:
-- work: THE PHILIPPINE ISLANDS 1493-1898 ... Volume LII - 1841-1898. The Arthur H. Clark Company, Cleveland, Ohio,
+- row_id: blair-robertson_philippine-islands-v52_1907--the-philippine-islands-1493-1898-explorations-by-early
+  work: 'The Philippine Islands 1493-1898: Explorations by Early Navigators, Descriptions of the Islands and their'
   author: blair-robertson
-  locus: note 37 on Apolinario and the confraternity of San Jose at OCR lines 3290-3370; further mentions at OCR
-    lines 433, 3661-3690; the rest not mapped
+  locus: editors' note 37 on the confraternity of San Jose and Apolinario de la Cruz at lines 3309-3381; the rest
+    not mapped
   atlas_ids:
   - philippine-catholicism-gomburza-to-aglipay
   role: context

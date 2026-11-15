@@ -1,12 +1,12 @@
-Title: MODERN ABYSSINIA, AUGUSTUS B. WYLDE, LATE VICE-CONSUL FOR RED SEA, AUTHOR OF '83 TO '87 IN THE SOUDAN, WITH FRONTISPIECE AND A MAP, METHUEN & CO., 36 ESSEX STREET W.C., LONDON, 1901 (OCR 'I 90 I')
-Creator: AUGUSTUS B. WYLDE
-Publisher: London: Methuen & Co.
+Title: MODERN ABYSSINIA
+Creator: Augustus B. Wylde, late Vice-Consul for Red Sea, author of ''83 to '87 in the Soudan'
+Publisher: London: Methuen & Co., 36 Essex Street W.C.
 Publication Date: 1901 (line 79 of this file, on the title page, where the OCR reads 'I 90 I'; the library catalogue record gives 1901)
 Rights: Public Domain (pd-us-by-date: published 1901); the archive.org record carries no rights field, so the imprint date is the basis
 Language: eng
 Source: archive.org item modernabyssinia00wyld, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,668,057) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1901, out of US copyright by date. OCR quality: fair-good (UCSB copy). Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: 20+ chapters; contents lines 70-132 ('II. Abyssinian History', 'III. Abyssinian History continued'). Editorial matter: Index lines 25576-26775. About 252,750 words.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1901, out of US copyright by date. OCR quality: fair to good. Line numbers cited in this header are this file's own line numbers.
+Content note: A book on Abyssinia by a former British vice-consul, with history, a chapter on the Italian campaign of 1896 and an account of a journey through the provinces. Title page at lines 62-79, 'with frontispiece and a map'. Contents at lines 82-150. Divisions: chapters I to XXI, from the Introduction at line 154; chapters II and III are 'Abyssinian History' (from lines 781 and 2418); appendices from line 23354; index from line 25588. A catalogue of the publisher's books fills the file from line 26788. The file tells of King Johannes, first called Prince Kassai of Tigre, in chapter II at lines 1107-2415, down to his death and the author's judgment of him, and names him often in later chapters. About 252,750 words.
 
 ______________________________________________________________________
 

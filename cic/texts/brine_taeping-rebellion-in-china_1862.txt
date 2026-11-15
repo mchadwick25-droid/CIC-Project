@@ -1,12 +1,12 @@
-Title: THE TAEPING REBELLION IN CHINA; A NARRATIVE OF ITS RISE AND PROGRESS. BASED UPON ORIGINAL DOCUMENTS
-Creator: COMMANDER LINDESAY BRINE, R.N., F.R.G.S.
-Publisher: LONDON: JOHN MURRAY, ALBEMARLE STREET
+Title: The Taeping Rebellion in China; a narrative of its rise and progress. Based upon original documents and information obtained in China
+Creator: Commander Lindesay Brine, R.N., F.R.G.S., lately employed in Chinese waters
+Publisher: London: John Murray, Albemarle Street
 Publication Date: 1862 (line 73 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1862); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item taepingrebellio00bringoog, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (815,284) equals the size archive.org lists for the djvu.txt.
-Provenance note: At intake the host's own additions were removed and nothing else: Google's preamble about the scan (host OCR lines 1-50, 50 lines, from 'Google' to the last line naming books.google.com). The edition's own text follows as the host gives it; nothing was normalized or corrected. Rights basis: published 1862, out of US copyright by date. OCR quality: fair (some OCR noise). Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: chapters; contents ~ line 514. Editorial matter: not mapped. Mixed voices: narrative with quoted documents. About 135,441 words.
+Provenance note: At intake the host's own additions were removed and nothing else: Google's preamble about the scan (host OCR lines 1-50, 50 lines, from 'Google' to the last line naming books.google.com). The edition's own text follows as the host gives it; nothing was normalized or corrected. Rights basis: published 1862, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are this file's own line numbers.
+Content note: A narrative of the Taeping rebellion, with map and plans. Editorial matter: the author's preface at lines 97-394. Contents at lines 395-522, a list of illustrations at line 523. Divisions: fourteen chapters, Chapter I from line 559; Appendix I (precepts and odes published by Hung-siu-tsuen) from line 15800 and Appendix II (survey of China) from line 17561; 'The End' at line 17683. Mixed voices: proclamations, letters and extracts from other writers are quoted, and Chapter IV rests on Mr. Hamberg's account taken from Hung-jin. Mr. Roberts is told of at lines 8765-8785 and in Chapter XII. A general list of Mr. Murray's works fills lines 17753-21181. About 135,441 words.
 
 ______________________________________________________________________
 

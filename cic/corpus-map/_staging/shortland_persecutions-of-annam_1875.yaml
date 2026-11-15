@@ -1,8 +1,10 @@
 source_file: shortland_persecutions-of-annam_1875.txt
 assignments:
-- work: '[THE PERSECUTIONS OF ANNAM: a history of Christianity in Cochin China and Tonking]'
+- row_id: shortland_persecutions-of-annam_1875--the-persecutions-of-annam-the-history-of-christianity-in
+  work: 'THE PERSECUTIONS OF ANNAM: The History of Christianity in Cochin China and Tonking'
   author: shortland
-  locus: the whole volume; not mapped
+  locus: the chapter 'Minh-Menh's Persecution' at lines 5580-7579; the decree of 1833 quoted at lines 5808-5851;
+    the rest not mapped
   atlas_ids:
   - vietnamese-catholicism-1815-1906
   role: context

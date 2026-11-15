@@ -1,7 +1,7 @@
 source_file: feofan_bogougodnaia-zhizn-voobshche-rus_2nd-ed1899.txt
 assignments:
-- work: Богоугодная жизнь вообще. Слова епископа Феофана (Из слов к Тамбовской и Владимирской паствам 1859-1866
-    гг.)
+- row_id: feofan_bogougodnaia-zhizn-voobshche-rus_2nd-ed1899--18591866
+  work: БОГОУГОДНАЯ ЖИЗНЬ ВООБЩЕ. СЛОВА ЕПИСКОПА ФЕОФАНА. (Изъ словъ къ Тамбовской и Владимірской паствамъ 1859—1866
   author: feofan
   locus: the whole volume; not mapped
   atlas_ids:

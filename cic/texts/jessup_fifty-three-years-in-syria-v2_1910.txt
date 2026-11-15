@@ -1,12 +1,12 @@
-Title: FIFTY-THREE YEARS IN SYRIA ... IN TWO VOLUMES VOLUME II Fleming H. Revell Company
-Creator: Henry Harris Jessup
-Publisher: New York, Fleming H. Revell Company
+Title: Fifty-Three Years in Syria. In Two Volumes. Volume II
+Creator: Henry Harris Jessup, D.D.; introduction by James S. Dennis, D.D.
+Publisher: New York, Chicago, Toronto: Fleming H. Revell Company; London and Edinburgh
 Publication Date: 1910 (the copyright notice at line 71 of this file ('Copyright, 1910, by'); the title page prints no year)
 Rights: Public Domain (pd-us-by-date: published 1910); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the date agrees; the date used is that of the copyright notice at line 71 of this file ('Copyright, 1910, by'); the title page prints no year
 Language: eng
 Source: archive.org item fiftythreeyearsi02jess, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,062,896) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1910, out of US copyright by date. OCR quality: clean. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Editorial matter: see divisions. About 159,805 words.
+Content note: The second of two volumes of a missionary's memoir of Syria. Title page at lines 56-69; contents of the second volume at lines 82-142, a list of illustrations after it. Divisions: chapters XIX to XXX, from 'Notable Visitors and Converts' at line 288 to 'What Shall the Harvest Be?' from line 16831; seven appendices from line 17592 (lists of missionaries, bibliography, schools, an outline history, statistics); index at lines 22068-23920. The file tells of the death and funeral of Sheikh Nasif el Yazigy at lines 484-498 and gives a notice of the life of Butrus el Bistany at lines 3681-3774; both have index entries (lines 22289 and 23900). About 159,805 words.
 
 ______________________________________________________________________
 

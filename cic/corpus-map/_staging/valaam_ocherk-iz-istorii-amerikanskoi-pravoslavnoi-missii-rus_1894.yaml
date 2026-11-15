@@ -1,9 +1,11 @@
 source_file: valaam_ocherk-iz-istorii-amerikanskoi-pravoslavnoi-missii-rus_1894.txt
 assignments:
-- work: Очерк из истории Американской православной духовной миссии (Кадьякской миссии 1794-1837 гг.) с приложением
+- row_id: valaam_ocherk-iz-istorii-amerikanskoi-pravoslavnoi-missii-rus_1894--1794-1837
+  work: Очеркъ изъ исторіи Американской православной духовной миссіи (Кадьякской миссіи 1794-1837 гг.)
   author: valaam
-  locus: Lazarev, account of the life of monk Herman at OCR lines 4842-5117; Letter of Herman to Yanovsky 10 Aug
-    1821 at OCR lines 6347-6427; Kashevarov note on Herman, 7 Sep 1867 at OCR lines 7033-7099; the rest not mapped
+  locus: Lazarev's account of the life of the monk German at lines 4851-5125; German's own letter to Yanovsky of
+    20 June 1820 at lines 5705-5887; a copy of German's letter to Igumen Ionafan of 13 December 1819 at lines 7210-7387;
+    the rest not mapped
   atlas_ids:
   - alaskan-mission-herman-veniaminov
   role: context
@@ -18,4 +20,5 @@ assignments:
     year: 1894
     source: line 19 of this file, on the title page
     formation_confidence: Documented
-  note: 'Era 9 row 226, Herman of Alaska: the Valaam monastery''s account of the Kodiak mission, with his letters.'
+  note: 'Era 9 row 226, Herman of Alaska: the Valaam monastery''s account of the Kodiak mission, with his letters.
+    A later compilation by the monastery that sent the mission; it prints letters of Herman''s.'

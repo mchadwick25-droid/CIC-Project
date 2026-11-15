@@ -1,12 +1,12 @@
-Title: The Story of Uganda and the Victoria Nyanza Mission by Sarah Geraldina Stock, with a map and illustrations, London, The Religious Tract Society, 56 Paternoster Row; 65 St Paul's Churchyard and 164 Piccadilly, 1892
-Creator: SARAH GERALDINA STOCK
-Publisher: London, The Religious Tract Society
+Title: The Story of Uganda and the Victoria Nyanza Mission. With a map and illustrations
+Creator: Sarah Geraldina Stock
+Publisher: London: The Religious Tract Society
 Publication Date: 1892 (line 34 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1892); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item storyofuganda00stocuoft, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (419,898) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1892, out of US copyright by date. OCR quality: clean. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: chapters. Editorial matter: introduction lines 33-104; publisher's lists from about 7715. Mixed voices: extracts from missionary letters. About 63,830 words.
+Content note: A history of the Church Missionary Society's mission in Uganda in fourteen chapters. Editorial matter: an unsigned Introduction at lines 45-214; contents at line 217, followed by a list of illustrations. The text runs from Chapter I at line 316 to line 7707; a catalog of the publisher's books fills lines 7713-9183. Mixed voices: extracts from the missionaries' letters, among them Mackay and Ashe, are printed inside the narrative. Chapter IX, 'The Great Persecution', begins at line 4287, and in it the death of 'Balikudembe Mukasa, the king's head page', sentenced to be burnt alive two days after November 13, 1885, is told at lines 4386-4413. The file calls the Catholic missionaries 'the Romish priests'. About 63,830 words.
 
 ______________________________________________________________________
 

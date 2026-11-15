@@ -1,12 +1,12 @@
 Title: LIFE AND LETTERS OF JOSEPH HARDY NEESIMA
-Creator: ARTHUR SHERBURNE HARDY
-Publisher: BOSTON AND NEW YORK: HOUGHTON, MIFFLIN AND COMPANY
+Creator: Arthur Sherburne Hardy
+Publisher: Boston and New York: Houghton, Mifflin and Company
 Publication Date: 1891 (the copyright notice at line 69 of this file ('Copyright, 1891,'); the title page prints no year)
 Rights: Public Domain (pd-us-by-date: published 1891); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the date agrees; the date used is that of the copyright notice at line 69 of this file ('Copyright, 1891,'); the title page prints no year
 Language: eng
 Source: archive.org item lifelettersofjos00hardiala, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (706,048) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1891, out of US copyright by date. OCR quality: clean. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: chapters I-... 1843-1865 onward, contents line ~114. Editorial matter: not mapped. Mixed voices: narrative with quoted documents. About 109,790 words.
+Content note: A Life of Joseph Hardy Neesima built from his own letters and journals. Title page at lines 49-66, with the copyright notice at lines 69-72. Editorial matter: the author's preface at lines 75-120, signed Hanover, N. H., May 21, 1891; contents at lines 123-183. Divisions: seven chapters headed by years, from Chapter I, 1843-1865, at line 189 to Chapter VII, 1885-1890, from line 11949; the text ends at line 13962. An appendix on the Doshisha School is at lines 13965-14016. Mixed voices: the preface says the volume is 'essentially an autobiography' and that Neesima's letters and journals are left to speak. Neesima is the subject of the whole book. About 109,790 words.
 
 ______________________________________________________________________
 

@@ -1,12 +1,12 @@
-Title: LA SENSACIONAL MEMORIA DE Isabelo de los Reyes SOBRE La Revolucion Filipina DE 1896-97 por la cual fue deportado el autor al Castillo de Montjuich. Con un prologo de D. Miguel Morayta. Publicada por la Delegacion Filipina en Europa
-Creator: Isabelo de los Reyes; prologue D. Miguel Morayta
-Publisher: MADRID, Tip. Lit. de J. Corrales, Monserrat, 10
+Title: LA SENSACIONAL MEMORIA de Isabelo de los Reyes sobre la Revolución Filipina de 1896-97 por la cual fué deportado el autor al Castillo de Montjuich. Ilustrada con retratos de notables revolucionarios
+Creator: Isabelo de los Reyes; con un prólogo de D. Miguel Morayta
+Publisher: Madrid: Tip. Lit. de J. Corrales
 Publication Date: 1899 (read on the scan's page image, leaf n8; the OCR does not give it cleanly)
 Rights: Public Domain (pd-us-by-date: published 1899); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: spa
 Source: archive.org item lasensacionalme00sagrgoog, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (289,501) equals the size archive.org lists for the djvu.txt.
-Provenance note: At intake the host's own additions were removed and nothing else: Google's preamble about the scan (host OCR lines 1-117, 117 lines, from 'Google' to the last line naming books.google.com). The edition's own text follows as the host gives it; nothing was normalized or corrected. Rights basis: published 1899, out of US copyright by date. OCR quality: fair (headings garbled, body readable). Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: sumario on title page; 'Dos palabras' prologue by Morayta. Editorial matter: see divisions. About 45,366 words.
+Provenance note: At intake the host's own additions were removed and nothing else: Google's preamble about the scan (host OCR lines 1-117, 117 lines, from 'Google' to the last line naming books.google.com). The edition's own text follows as the host gives it; nothing was normalized or corrected. Rights basis: published 1899, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are this file's own line numbers.
+Content note: A Spanish memorial on the Philippine revolution, 'publicada por la Delegación Filipina en Europa'; title page with a 'Sumario' at lines 44-76. Editorial matter: a prologue headed 'Dos palabras á propósito de este folleto' from line 101, which speaks of the author in the third person. Divisions: 'La Revolución Filipina, Primera parte' from line 369, in numbered sections (one headed 'Origen y organización del Katipunan' at line 4293), signed Isabelo de los Reyes, Manila, 31 de Mayo de 1897, at lines 6194-6195; 'Aguinaldo hace suyo mi programa' from line 6199; 'Mi papel en la revolución' from line 6287; 'Mis gestiones en España' from line 7014; 'Nuestros grabados' from line 8230. Isabelo de los Reyes writes in the first person. About 45,366 words.
 
 ______________________________________________________________________
 

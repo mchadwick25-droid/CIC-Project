@@ -1,9 +1,9 @@
 source_file: stock_story-of-uganda-and-the-victoria-nyanza-mission_1892.txt
 assignments:
-- work: The Story of Uganda and the Victoria Nyanza Mission by Sarah Geraldina Stock, with a map and illustrations,
+- row_id: stock_story-of-uganda-and-the-victoria-nyanza-mission_1892--the-story-of-uganda-and-the-victoria-nyanza-mission-with-a
+  work: The Story of Uganda and the Victoria Nyanza Mission. With a map and illustrations
   author: stock
-  locus: Balikudembe Mukasa, the king's head page, burnt alive, 15 Nov 1885 at OCR lines 4374-4400; the rest not
-    mapped
+  locus: the death of Balikudembe Mukasa at lines 4386-4413; the rest not mapped
   atlas_ids:
   - east-african-christianity-uganda-martyrs
   role: context

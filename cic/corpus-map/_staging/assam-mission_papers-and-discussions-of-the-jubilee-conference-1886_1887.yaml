@@ -1,8 +1,11 @@
 source_file: assam-mission_papers-and-discussions-of-the-jubilee-conference-1886_1887.txt
 assignments:
-- work: 'THE ASSAM MISSION OF THE AMERICAN BAPTIST MISSIONARY UNION: papers and discussions of the jubilee conference'
+- row_id: assam-mission_papers-and-discussions-of-the-jubilee-conference-1886_1887--the-assam-mission-of-the-american-baptist-missionary-union
+  work: THE ASSAM MISSION OF THE AMERICAN BAPTIST MISSIONARY UNION. PAPERS AND DISCUSSIONS OF THE JUBILEE CONFERENCE
   author: assam-mission
-  locus: Clark named at OCR lines 307,370,412,532,555; the rest not mapped
+  locus: Historical Sketch of the Ao Naga Mission by S. W. Rivenburg at lines 5252-5425; paper Gospel Destitution
+    about Assam by E. W. Clark at lines 10836-11174; register entries for Edward W. Clark and his wife at lines
+    13501-13514; the rest not mapped
   atlas_ids:
   - northeast-india-revivals-and-the-mar-thoma-refor
   role: tradition

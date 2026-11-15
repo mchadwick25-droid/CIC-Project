@@ -1,12 +1,12 @@
-Title: GARCIA MORENO, President of Ecuador, 1821-1875, from the French of the Rev. P. A. Berthe, by Lady Herbert. London: Burns and Oates, 1889
-Creator: Rev. P. A. Berthe, C.SS.R.; translated by Lady Herbert
-Publisher: London, Burns and Oates (OCR: BURNS AND GATES LIMITED)
+Title: GARCIA MORENO, PRESIDENT OF ECUADOR, 1821-1875. From the French of the Rev. P. A. Berthe, of the Congregation of the Most Holy Redeemer
+Creator: Rev. P. A. Berthe, of the Congregation of the Most Holy Redeemer; by Lady Herbert
+Publisher: London: Burns and Oates, Limited
 Publication Date: 1889 (line 81 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1889); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item garciamorenopres00bertuoft, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (593,466) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1889, out of US copyright by date. OCR quality: fair (doubled spaces). Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Editorial matter: see divisions. Mixed voices: hagiographic Life by a Redemptorist. About 88,155 words.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1889, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are this file's own line numbers.
+Content note: A Life of Garcia Moreno, translated from the French; the title page is at lines 62-81 and a series leaf at line 16 reads 'Quarterly Series, Volume Sixty-Nine'. Editorial matter: the translator's preface at lines 94-290, which closes with an extract from Berthe's original preface; contents at lines 294-418. Divisions: First Part, 'The Champion of the Right', from line 421; Second Part from line 2602; Third Part from line 7882; an Epilogue, 'Ecuador after Garcia Moreno', from line 12116 to the end of the text at line 12773. Garcia Moreno is the subject of every part; the decree consecrating Ecuador to the Sacred Heart is quoted in the Third Part. About 88,155 words.
 
 ______________________________________________________________________
 

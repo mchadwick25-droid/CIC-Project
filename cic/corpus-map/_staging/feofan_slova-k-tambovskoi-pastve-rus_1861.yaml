@@ -1,6 +1,7 @@
 source_file: feofan_slova-k-tambovskoi-pastve-rus_1861.txt
 assignments:
-- work: Слова к Тамбовской пастве Феофана, епископа Тамбовского и Шацкого. Санктпетербург, в типографии Штаба
+- row_id: feofan_slova-k-tambovskoi-pastve-rus_1861--work
+  work: Слова къ Тамбовской паствѣ Феофана, Епископа Тамбовскаго и Шацкаго
   author: feofan
   locus: the whole volume; not mapped
   atlas_ids:

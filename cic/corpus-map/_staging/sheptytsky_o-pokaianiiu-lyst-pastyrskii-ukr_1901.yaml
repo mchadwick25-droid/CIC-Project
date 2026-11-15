@@ -1,8 +1,9 @@
 source_file: sheptytsky_o-pokaianiiu-lyst-pastyrskii-ukr_1901.txt
 assignments:
-- work: О ПОКАЯНІЮ. ЛИСТЬ ПАСТИРСКІЙ Высокопреосвященого АНДРЕЯ ШЕПТИЦКОГО, Митрополита Галицкого ... до вірныхь
+- row_id: sheptytsky_o-pokaianiiu-lyst-pastyrskii-ukr_1901--work
+  work: О ПОКАЯНІЮ. ЛИСТЪ ПАСТИРСКІЙ Высокопреосвященого АНДРЕЯ ШЕПТИЦКОГО, Митрополита Галицкого, Архіепископа
   author: sheptytsky
-  locus: whole letter at OCR lines 41-2268; the rest not mapped
+  locus: the whole letter at lines 83-2224; the rest not mapped
   atlas_ids:
   - ruthenian-greek-catholic-polotsk-to-galicia
   role: tradition

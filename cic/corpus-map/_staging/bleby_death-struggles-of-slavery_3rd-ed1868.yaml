@@ -1,10 +1,10 @@
 source_file: bleby_death-struggles-of-slavery_3rd-ed1868.txt
 assignments:
-- work: 'DEATH STRUGGLES OF SLAVERY: a narrative of facts and incidents which occurred in a British colony during
-    the'
+- row_id: bleby_death-struggles-of-slavery_3rd-ed1868--death-struggles-of-slavery-a-narrative-of-facts-and
+  work: 'Death Struggles of Slavery: a narrative of facts and incidents, which occurred in a British colony, during'
   author: bleby
-  locus: 'Sharpe: meeting, oath, passive resistance at OCR lines 5508-5700; Sharpe''s execution and Bleby''s last
-    talks at OCR lines 5779-5830; character of Sharpe at OCR lines 5880-5960; the rest not mapped'
+  locus: Edward Hylton's account of Sam Sharpe's meeting and the oath at lines 5515-5609; Sharpe's execution and
+    the author's last conversation with him at lines 5826-5894; the rest not mapped
   atlas_ids:
   - caribbean-churches-of-slavery-and-emancipation
   role: tradition

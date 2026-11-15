@@ -1,12 +1,12 @@
-Title: Documentos interesantes de la Iglesia filipina independiente (cover-title, 'biografia de Mgr. Gregorio Aglipay, Obispo Maximo de la Iglesia Filipina Independiente')
-Creator: Alejandro Remollino (host creator)
-Publisher: Manila, Imp. Fajardo y c.a (marc 260)
+Title: Documentos interesantes de la Iglesia filipina independiente
+Creator: Alejandro Remollino
+Publisher: Manila: Imp. Fajardo y c.a
 Publication Date: 1906 (the dated preface at line 183 of this file ('Manila, I. F., Enero 1906.'), with which the library catalogue record of the item agrees (MARC 260: 'Manila, Imp. Fajardo y c.a, 1906.'); the title page prints no year)
 Rights: Public Domain (pd-us-by-date: published 1906); the archive.org record carries no rights field, so the date named here is the basis; the date used is that of the dated preface at line 183 of this file ('Manila, I. F., Enero 1906.'), with which the library catalogue record of the item agrees (MARC 260: 'Manila, Imp. Fajardo y c.a, 1906.'); the title page prints no year
 Language: spa
 Source: archive.org item ajh3760.0001.001.umich.edu, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (65,710) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1906, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: biography, then dated documents Manila 1 Oct 1902 (line 248) to 15 Feb 1905 (line 1146). Editorial matter: see divisions. Mixed voices: Remollino's life of Aglipay then documents of several hands. About 10,653 words.
+Content note: A Spanish pamphlet of documents of the Iglesia Filipina Independiente. It opens with a 'biografía de Mgr. Gregorio Aglipay, Obispo Máximo', lines 49-182, signed F. B., Manila, Enero 1906. Editorial matter: an address 'Al Venerable Clero', lines 187-213, signed Alejandro Remollino, Sub Secretario, who says he offers the documents collected with the Obispo Máximo's leave; 'Dos palabras para concluir' at lines 1829-1856; an index at lines 1859-1895. Divisions: decrees, a rule for committees and circular letters dated from 1 October 1902 (line 219) to 30 October 1905, and letters to two old priests (from line 1694), most signed Gregorio Aglípay, Obispo Máximo. Mixed voices: a note signed A. Remollino ends at line 1645. About 10,653 words.
 
 ______________________________________________________________________
 

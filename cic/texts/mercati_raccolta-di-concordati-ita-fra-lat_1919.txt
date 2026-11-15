@@ -1,12 +1,12 @@
-Title: Raccolta di concordati su materie ecclesiastiche tra la Santa Sede e le autorita civili, Roma, Tipografia Poliglotta Vaticana, 1919
-Creator: none on title page (host: Mercati, Angelo; Catholic Church, Treaties)
-Publisher: Roma, Tipografia Poliglotta Vaticana
+Title: Raccolta di concordati su materie ecclesiastiche tra la Santa Sede e le autorità civili
+Creator: not named on the title page
+Publisher: Roma: Tipografia Poliglotta Vaticana
 Publication Date: 1919 (line 39 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1919); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: ita
 Source: archive.org item raccoltadiconcor00cathuoft, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (4,219,082) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1919, out of US copyright by date. OCR quality: clean to fair. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: numbered concordats; Haiti is no. CVIII, pp. 929-934, contents line 909. Editorial matter: Avvertenza near the start; footnotes with variants. Mixed voices: Italian and French parallel columns. About 529,974 words.
+Content note: A collection of concordats between the Holy See and civil powers, numbered I-CXXXIII in order of date, each in its own language (Latin, Italian, French and Spanish among them) with source notes in Italian. Editorial matter: Avvertenza from line 55, signed 'Il compilatore Sac. Angelo Mercati'; list of the concordats from line 179; texts from line 1139; errata and indexes from line 78102. No. CVIII, the concordat of 28 March 1860 with Haiti, runs from line 61913 to line 62630: preamble and articles 1-18 in Italian and French (to line 62499), notes, then a French letter of Pierre Faubert and Cardinal Antonelli's Italian reply (lines 62520-62623). 'Fabre Geffrard' is named in the preamble (lines 61924, 61938, 61952, 61965) and in the source note at line 62626. About 529,974 words.
 
 ______________________________________________________________________
 

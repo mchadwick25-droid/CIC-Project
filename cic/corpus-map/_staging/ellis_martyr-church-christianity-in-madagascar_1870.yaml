@@ -1,8 +1,11 @@
 source_file: ellis_martyr-church-christianity-in-madagascar_1870.txt
 assignments:
-- work: '[The Martyr Church: a narrative of the] introduction, progress, and triumph of Christianity in Madagascar'
+- row_id: ellis_martyr-church-christianity-in-madagascar_1870--the-martyr-church-a-narrative-of-the-introduction-progress
+  work: 'The Martyr Church: a narrative of the introduction, progress, and triumph of Christianity in Madagascar,
+    with'
   author: ellis
-  locus: Ranavalona placed on throne at OCR lines 192, 402, 1810, 11996; the rest not mapped
+  locus: Ranavalona proclaimed queen at lines 2557-2571; the first queen's character at lines 8749-8798; chapter
+    XIV on the second Ranavalona at lines 13988-15178; the rest not mapped
   atlas_ids:
   - malagasy-christianity
   role: context

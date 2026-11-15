@@ -1,12 +1,12 @@
-Title: Le Cardinal Lavigerie et ses oeuvres d'Afrique, par l'abbe Felix Klein, professeur a l'Institut catholique de Paris, nouvelle edition completement refondue, Tours, Alfred Mame et fils, editeurs, M DCCC XCVII
-Creator: L'ABBE FELIX KLEIN
-Publisher: Tours, Alfred Mame et fils
+Title: Le Cardinal Lavigerie et ses œuvres d'Afrique. Nouvelle édition complètement refondue
+Creator: L'abbé Félix Klein, professeur à l'Institut catholique de Paris
+Publisher: Tours: Alfred Mame et fils, éditeurs
 Publication Date: 1897 (line 98 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1897); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: fra
 Source: archive.org item lecardinallavige00kleiuoft, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (752,443) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1897, out of US copyright by date. OCR quality: clean. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: chapters I-XIII; chapter VII L'OUGANDA lines 6695-8152. Editorial matter: Avant-propos about line 90-282. Mixed voices: quotes from Mgr Livinhac's letter. About 105,124 words.
+Content note: A life of Cardinal Lavigerie in French, in thirteen chapters; the title page calls it a new edition, completely recast. Editorial matter: a list of the author's other works at lines 43-68; an Avant-propos at lines 104-283, made up of the author's note dated Paris, 6 January 1897, further matter signed Félix Klein, and from line 247 a letter to the author from Mgr Livinhac dated Rodez, 14 July 1893. The text runs from Chapter I at line 294 to 'FIN' at line 14316; the table of contents is at the end, from line 14360. Chapter VII, 'L'Ouganda', begins at line 6707, and in it the arrest and burning of 'Charles Louanga', head of a group of royal pages, is told at lines 7154-7220. About 105,124 words.
 
 ______________________________________________________________________
 

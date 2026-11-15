@@ -1,12 +1,12 @@
-Title: THE DEMERARA MARTYR: memoirs of the Rev. John Smith, missionary to Demerara, by Edwin Angel Wallbridge, with a preface by W. G. Barrett. London: Charles Gilpin, 5 Bishopsgate Street Without, 1848
-Creator: Edwin Angel Wallbridge
-Publisher: London: Charles Gilpin
+Title: The Demerara Martyr. Memoirs of the Rev. John Smith, Missionary to Demerara; by Edwin Angel Wallbridge, with a preface by the Rev. W. G. Barrett
+Creator: Edwin Angel Wallbridge; with a preface by the Rev. W. G. Barrett
+Publisher: London: Charles Gilpin, 5, Bishopsgate Street Without
 Publication Date: 1848 (line 334 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1848); the archive.org record carries no rights field, so the imprint date is the basis
 Language: eng
 Source: archive.org item demeraramartyrme00wall, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (707,363) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1848, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Editorial matter: see divisions. Mixed voices: Smith's journal and letters inside a biographer's narrative. About 119,293 words.
+Content note: A memoir of the Rev. John Smith, missionary to Demerara. The title page is at lines 291-334, after many lines of scan noise. Editorial matter: the author's dedication to the Rev. John Leifchild, dated Smith Church, Georgetown, Demerara, 1st March 1848 (lines 340-378), and a preface by W. G. Barrett at lines 384-1127, dated London, August 1st, 1848. Contents from line 1133. Divisions: an introduction from line 2249, fifteen chapters from line 2643 (Chapter I, Smith's birth and parentage), and an appendix of six documents from line 13418, among them Lord Brougham's speeches in Smith's case; the text ends at line 17306. Mixed voices: Smith's journal and letters are quoted inside the narrative. Charles Gilpin's list of new works begins at line 17324. About 119,293 words.
 
 ______________________________________________________________________
 

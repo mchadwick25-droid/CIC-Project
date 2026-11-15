@@ -1,8 +1,9 @@
 source_file: neatby_history-of-the-plymouth-brethren_1901.txt
 assignments:
-- work: A History of the Plymouth Brethren / by William Blair Neatby, M.A. / London, Hodder and Stoughton, 27
+- row_id: neatby_history-of-the-plymouth-brethren_1901--a-history-of-the-plymouth-brethren
+  work: A History of the Plymouth Brethren
   author: neatby
-  locus: the whole volume; not mapped
+  locus: chapter IX, 'The Epoch of Exclusivism - The Supremacy of Darby', at lines 7779-8463; the rest not mapped
   atlas_ids:
   - plymouth-brethren-and-dispensational-formation
   role: context

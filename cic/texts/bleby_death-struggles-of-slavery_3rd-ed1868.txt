@@ -1,12 +1,12 @@
-Title: DEATH STRUGGLES OF SLAVERY: a narrative of facts and incidents which occurred in a British colony during the two years immediately preceding Negro emancipation, by Henry Bleby, a resident in the colony seventeen years. THIRD EDITION. London: printed by W. Nichols, 1868
-Creator: Henry Bleby
-Publisher: London: printed by W. Nichols
+Title: Death Struggles of Slavery: a narrative of facts and incidents, which occurred in a British colony, during the two years immediately preceding Negro emancipation. By Henry Bleby, a resident in the colony seventeen years. Third edition
+Creator: Henry Bleby, a resident in the colony seventeen years
+Publisher: London
 Publication Date: 1868 (line 40 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1868); the archive.org record's rights statement reads: This work is available under the Creative Commons, Public Domain Mark
 Language: eng
 Source: archive.org item b24870109, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (799,784) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1868, out of US copyright by date. OCR quality: fair (doubled spaces). Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: CHAP I Symptoms of revolt line 416; II Outbreak 627; III Martial law 1013; IV Blood 1520; V Negro forbearance 2093; VI Justice of slaveholders 2341 ... Editorial matter: see divisions. About 119,414 words.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1868, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are this file's own line numbers.
+Content note: The third edition of Henry Bleby's narrative of the two years before emancipation in a British colony; the text is set in Jamaica. Editorial matter: the author's preface to the third edition at lines 46-278, which mentions November 1868. A contents list at lines 279-338 names twenty-eight chapters. Divisions: Chapter I, 'Symptoms of Revolt', begins at line 353 and the text ends at line 14890. Samuel Sharpe is told of in Chapter X, 'Origin of the Revolt' (lines 5168-5970): Edward Hylton's account of the meeting and the oath, Sharpe's own statements to the author, his execution at Montego Bay on 23 May 1832, and the author's judgment of him. About 119,414 words.
 
 ______________________________________________________________________
 

@@ -1,8 +1,10 @@
 source_file: meadows_chinese-and-their-rebellions_1856.txt
 assignments:
-- work: THE CHINESE AND THEIR REBELLIONS, viewed in connection with their national philosophy, ethics, legislation,
+- row_id: meadows_chinese-and-their-rebellions_1856--the-chinese-and-their-rebellions-viewed-in-connection-with
+  work: THE CHINESE AND THEIR REBELLIONS, VIEWED IN CONNECTION WITH THEIR NATIONAL PHILOSOPHY, ETHICS, LEGISLATION,
   author: meadows
-  locus: the whole volume; not mapped
+  locus: Hung sew tseuen with Mr. Roberts at Canton at lines 6633-6701; Hung jin's papers given to Mr. Hamberg and
+    Mr. Roberts' summary of them at lines 11452-11508; the rest not mapped
   atlas_ids:
   - taiping-heavenly-kingdom
   role: context

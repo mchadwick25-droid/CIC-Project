@@ -1,12 +1,12 @@
-Title: Слова к Тамбовской пастве Феофана, епископа Тамбовского и Шацкого. Санктпетербург, в типографии Штаба военно-учебных заведений. 1861
-Creator: Феофана, епископа Тамбовского и Шацкого
-Publisher: Санктпетербург, Типография Штаба военно-учебных заведений
+Title: Слова къ Тамбовской паствѣ Феофана, Епископа Тамбовскаго и Шацкаго
+Creator: Феофана, Епископа Тамбовскаго и Шацкаго
+Publisher: Санктпетербургъ: Въ типографіи Штаба военно-учебныхъ заведеній
 Publication Date: 1861 (line 50 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1861); the archive.org record carries no rights field, so the imprint date is the basis
 Language: rus
 Source: archive.org item slovaktambovskojpastvefeofanaepiskopata81, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (968,571) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1861, out of US copyright by date. OCR quality: fair, old spelling. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: sermons dated 1859-1860 each with date line. Editorial matter: censor leaf line 57. About 80,406 words.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1861, out of US copyright by date. OCR quality: fair, in the old spelling. Line numbers cited in this header are this file's own line numbers.
+Content note: Sermons in Russian by Feofan, bishop of Tambov and Shatsk, named on the title page (lines 16-55). The censor's permission to print, dated St. Petersburg, 6 February 1861, is at lines 67-72. The text opens at line 89 with his speech on being named bishop of Tambov, dated 29 May 1859 (line 184); the sermons follow, each closed by a date line, with the years 1859 and 1860 printed. The last sermon ends at line 12432 and 'Конецъ' is printed at line 12435. A table of contents runs from line 12438 and a list of misprints from line 12610. The contents list names sermons on feast days, at the consecration of churches and at convents of the diocese. About 80,406 words.
 
 ______________________________________________________________________
 

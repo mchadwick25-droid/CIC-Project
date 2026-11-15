@@ -3,6 +3,75 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: philippine-catholicism-gomburza-to-aglipay
 works:
+- row_id: aglipay_catequesis-de-la-iglesia-filipina-independiente-spa_1912--catequesis-de-la-iglesia-filipina-independiente-por-el-emmo
+  work: Catequesis de la Iglesia Filipina Independiente por el Emmo. Sr. Gregorio Aglipay
+    y Labáyan, Obispo Máximo de
+  author: aglipay
+  locus: regulations for the committees of gentlemen and the commissions of ladies, signed
+    by Aglipay, at lines 5777-6106; the rest not mapped
+  role: tradition
+  confidence: provisional
+  language: spa
+  date:
+    start: 1912
+    end: 1912
+    source: 'the dated prologue at line 1342 of this file (''Madrid, á 25 de Mayo de 1912.''),
+      with which the library catalogue record of the item agrees (MARC 260: ''Manila, I. de
+      Los Reyes, 1912.''); the title page prints no year'
+    formation_confidence: Documented
+  edition_date:
+    year: 1912
+    source: 'the dated prologue at line 1342 of this file (''Madrid, á 25 de Mayo de 1912.''),
+      with which the library catalogue record of the item agrees (MARC 260: ''Manila, I. de
+      Los Reyes, 1912.''); the title page prints no year'
+    formation_confidence: Documented
+  note: 'Era 9 row 280, Gregorio Aglipay: the church''s catechism. The church''s own text
+    in a printing of 1912, six years after the entry''s window closes; the first printing
+    is not held.'
+  source_file: aglipay_catequesis-de-la-iglesia-filipina-independiente-spa_1912.txt
+- row_id: blair-robertson_philippine-islands-v52_1907--the-philippine-islands-1493-1898-explorations-by-early
+  work: 'The Philippine Islands 1493-1898: Explorations by Early Navigators, Descriptions
+    of the Islands and their'
+  author: blair-robertson
+  locus: editors' note 37 on the confraternity of San Jose and Apolinario de la Cruz at lines
+    3309-3381; the rest not mapped
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1907
+    end: 1907
+    source: 'the printing''s own title page: line 92 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1907
+    source: line 92 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 281, Apolinario de la Cruz: a note on the Cofradia de San Jose.'
+  source_file: blair-robertson_philippine-islands-v52_1907.txt
+- row_id: iglesia-filipina-independiente_documentos-interesantes-spa_1906--documentos-interesantes-de-la-iglesia-filipina-independiente
+  work: Documentos interesantes de la Iglesia filipina independiente
+  author: iglesia-filipina-independiente
+  locus: life of Gregorio Aglipay signed F. B. at lines 49-182; documents signed by Aglípay
+    at lines 219-1818; the rest not mapped
+  role: tradition
+  confidence: provisional
+  language: spa
+  date:
+    start: 1906
+    end: 1906
+    source: 'the dated preface at line 183 of this file (''Manila, I. F., Enero 1906.''),
+      with which the library catalogue record of the item agrees (MARC 260: ''Manila, Imp.
+      Fajardo y c.a, 1906.''); the title page prints no year'
+    formation_confidence: Documented
+  edition_date:
+    year: 1906
+    source: 'the dated preface at line 183 of this file (''Manila, I. F., Enero 1906.''),
+      with which the library catalogue record of the item agrees (MARC 260: ''Manila, Imp.
+      Fajardo y c.a, 1906.''); the title page prints no year'
+    formation_confidence: Documented
+  note: 'Era 9 row 280, Gregorio Aglipay: documents of the Iglesia Filipina Independiente.'
+  source_file: iglesia-filipina-independiente_documentos-interesantes-spa_1906.txt
 - row_id: montero-y-vidal_historia-general-de-filipinas-t3-spa_1895--montero-y-vidal-historia-general-de-filipinas-tomo-iii-1895-the-cofrad
   work: 'Montero y Vidal, Historia general de Filipinas, tomo III (1895): the Cofradia de
     San Jose'
@@ -27,3 +96,25 @@ works:
     the Spanish colonial record; placed on that likeness, not read against that entry's own
     sources.
   source_file: morga_sucesos-islas-filipinas-spa_rizal1890.txt
+- row_id: reyes_la-sensacional-memoria-spa_1899--la-sensacional-memoria-de-isabelo-de-los-reyes-sobre-la
+  work: LA SENSACIONAL MEMORIA de Isabelo de los Reyes sobre la Revolución Filipina de 1896-97
+    por la cual fué
+  author: reyes
+  locus: the memorial, from its heading to the author's signature, at lines 369-6195; the
+    rest not mapped
+  role: tradition
+  confidence: provisional
+  language: spa
+  date:
+    start: 1899
+    end: 1899
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n8; the
+      OCR does not give it cleanly'
+    formation_confidence: Documented
+  edition_date:
+    year: 1899
+    source: read on the scan's page image, leaf n8; the OCR does not give it cleanly
+    formation_confidence: Documented
+  note: 'Era 9 row 280, Isabelo de los Reyes: his memorial on the revolution of 1896-97. His
+    own text of 1897-99, written before the Iglesia Filipina Independiente was founded.'
+  source_file: reyes_la-sensacional-memoria-spa_1899.txt

@@ -1,12 +1,12 @@
-Title: BIOGRAPHICAL DICTIONARY OF MINISTERS AND PREACHERS OF THE WELSH CALVINISTIC METHODIST BODY
-Creator: Joseph Evans
-Publisher: D. O'Brien Owen, C. M. Book Agency (preface dated Denbigh, October 1907, OCR line 220)
+Title: Biographical Dictionary of Ministers and Preachers of the Welsh Calvinistic Methodist Body or Presbyterians of Wales
+Creator: Rev. Joseph Evans, Denbigh
+Publisher: Carnarvon: D. O'Brien Owen, C. M. Book Agency
 Publication Date: 1907 (read on the scan's page image, leaf n9; the OCR does not give it cleanly)
 Rights: Public Domain (pd-us-by-date: published 1907); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item biographicaldic00evangoog, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (901,080) equals the size archive.org lists for the djvu.txt.
 Provenance note: At intake the host's own additions were removed and nothing else: Google's preamble about the scan (host OCR lines 1-51, 51 lines, from 'Google' to the last line naming books.google.com). The edition's own text follows as the host gives it; nothing was normalized or corrected. Rights basis: published 1907, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: alphabetical entries. Editorial matter: not mapped. Mixed voices: narrative with quoted documents. About 154,508 words.
+Content note: A dictionary in English of short lives of ministers and preachers of the Welsh Calvinistic Methodists, arranged alphabetically by surname and printed in two columns. Editorial matter: the compiler's preface at lines 97-181, dated Denbigh, October 1907, and a bibliography of his sources, mostly Welsh, at lines 185-393. Divisions: the entries run from line 404 (Abraham, Mr. Rowlant); an appendix of further entries begins at line 35018 and errata at line 35166. The entry 'Jones, Rev Thomas, Khassia, Assam' is at lines 19884-19971: it gives his birth in 1810, his ordination at Bala in 1840, his arrival at Cherrapoonjee in 1841, the end of his connection with the Society in 1847 and his death at Calcutta in 1849, with references. About 154,508 words.
 
 ______________________________________________________________________
 

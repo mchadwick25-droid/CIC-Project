@@ -1,12 +1,12 @@
-Title: SEVEN LECTURES ON THE SECOND COMING OF THE LORD. DELIVERED IN TORONTO, IN 1863, BY J. N. DARBY. FROM REVISED NOTES. TORONTO: GOSPEL TRACT DEPOSITORY, 870, Yonge Street, 1863
-Creator: J. N. DARBY
-Publisher: Toronto: Gospel Tract Depository
+Title: Seven Lectures on the Second Coming of the Lord. Delivered in Toronto, in 1863, by J. N. Darby. From revised notes
+Creator: J. N. Darby
+Publisher: Toronto: Gospel Tract Depository, 370, Yonge Street
 Publication Date: 1863 (line 31 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1863); the archive.org record carries no rights field, so the imprint date is the basis
 Language: eng
 Source: archive.org item cihm_07686, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (334,394) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1863, out of US copyright by date. OCR quality: fair: microfilm scan, some noise, text readable at lines 3900-3910. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: Seven lectures, each headed LECTURE at lines 71, 740, 2381, 3776 and on; contents at line 40ff. About 61,086 words.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1863, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are this file's own line numbers.
+Content note: Seven lectures on the second coming of the Lord, printed from revised notes of lectures given in Toronto in 1863. The title page is at lines 16-44 and the contents list at lines 50-77, from 'The Coming of the Lord the proper hope of the Church' to the government of God on the earth and the judgment of the Gentiles. Divisions: Lecture I at line 83, II at 752, III at 2393, IV at 3788, V at 4537, and Lectures VI and VII together at 5960. Lecture I carries its own tract heading with a price. The text ends at line 7738, followed by the printer's line of Lovell and Gibson, Toronto. About 61,086 words.
 
 ______________________________________________________________________
 

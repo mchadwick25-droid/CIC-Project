@@ -1,12 +1,12 @@
-Title: THE BASUTOS BY THE REV. E. CASALIS, LATE MISSIONARY, DIRECTOR OF THE PARIS EVANGELICAL MISSION-HOUSE. LONDON: JAMES NISBET & CO., BERNERS STREET. 1861
-Creator: THE REV. E. CASALIS
+Title: THE BASUTOS. TWENTY-THREE YEARS IN SOUTH AFRICA
+Creator: Rev. E. Casalis, late missionary, Director of the Paris Evangelical Mission-House
 Publisher: London: James Nisbet & Co., Berners Street
 Publication Date: 1861 (line 48 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1861); the archive.org record says possible-copyright-status Not in copyright. The Library knows of no copyright restrictions on this item., and the imprint date agrees
 Language: eng
 Source: archive.org item basutosortwentyt00casa, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (677,346) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1861, out of US copyright by date. OCR quality: clean-fair. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: introduction line 145; chapters from 696; contents from 45. Editorial matter: Nisbet publisher's list at the end (from ~14850). About 102,140 words.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1861, out of US copyright by date. OCR quality: clean to fair. Line numbers cited in this header are this file's own line numbers.
+Content note: An account of the Basutos by a missionary who says in his introduction that he lived twenty-three years in Africa. Contents at lines 57-95; the author's introduction at lines 157-700. Divisions: Part I, 'Journeys of Exploration - Labours', chapters I to VIII, from line 704; Part II, 'Manners and Customs of the Basutos', chapters IX to XVIII, from line 4907; 'The End' at line 14330. The publisher's list of recent publications fills lines 14339-14918. The file tells of Moshesh in chapter I, where his person and the events before the missionaries came are described at lines 1226-1530, and often afterwards in Part I; a portrait 'Moshesh (in 1833)' is listed at line 100. About 102,140 words.
 
 ______________________________________________________________________
 

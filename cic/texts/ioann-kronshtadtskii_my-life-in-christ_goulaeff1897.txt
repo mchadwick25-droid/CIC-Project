@@ -1,63 +1,14 @@
-Title: My Life in Christ ... Translated, with the Author's sanction, from the Fourth and Supplemented Edition by E. E. Goulaeff, St. Petersburg. Cassell and Company, Limited. London Paris & Melbourne. 1897
-Creator: Most Reverend John Iliytch Sergieff (Father John); E. E. Goulaeff
-Publisher: Cassell and Company, Limited, London
-Publication Date: 1897 (line 120 of this file, on the title page)
+Title: MY LIFE IN CHRIST; or Moments of Spiritual Serenity and Contemplation, of Reverent Feeling, of Earnest Self-Amendment, and of Peace in God. EXTRACTS FROM THE DIARY OF THE MOST REVEREND JOHN ILIYTCH SERGIEFF ('FATHER JOHN'), OF ST. ANDREW'S CATHEDRAL, CRONSTADT, RUSSIA. Translated, with the Author's sanction, from the Fourth and Supplemented Edition
+Creator: the Most Reverend John Iliytch Sergieff ('Father John'), of St. Andrew's Cathedral, Cronstadt, Russia; translated by E. E. Goulaeff, St. Petersburg
+Publisher: London, Paris & Melbourne: Cassell and Company, Limited
+Publication Date: 1897 (line 71 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1897); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees
 Language: eng
 Source: archive.org item MyLifeInChrist, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,757,662) equals the size archive.org lists for the djvu.txt.
-Provenance note: At intake the host's own additions were removed and nothing else: 434 lines that hold only the scanner's page mark ('Digitized by ...' or 'Hosted by Google'). The edition's own text follows as the host gives it; nothing was normalized or corrected. Rights basis: published 1897, out of US copyright by date. OCR quality: clean. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: prefaces then numbered sections. Editorial matter: translator's preface about lines 120-200. Mixed voices: translator's preface quotes the Times. About 273,299 words.
+Provenance note: At intake the host's own additions were removed and nothing else: Google's preamble about the scan (host OCR lines 1-49, 49 lines, from 'Google' to the last line naming books.google.com); and 434 lines that hold only the scanner's page mark ('Digitized by ...' or 'Hosted by Google'). The edition's own text follows as the host gives it; nothing was normalized or corrected. Rights basis: published 1897, out of US copyright by date. OCR quality: clean. Line numbers cited in this header are this file's own line numbers.
+Content note: Extracts from the diary of John Sergieff of Cronstadt, in an English translation from the fourth Russian edition, made with the author's sanction. Editorial matter: the translator's dedication to Queen Victoria at lines 132-192; translator's preface at lines 197-427, which tells of the author and opens by reprinting an account of him from the Times of 13 January 1891; the author's own short note at lines 432-448. Divisions: Part I from line 453 and Part II from line 16466, each a run of short unnumbered reflections and prayers. The text ends at line 33475. A list of the publisher's other books runs from line 33486 to the end. About 272,797 words.
 
 ______________________________________________________________________
-
-Google 
-
-
-This  is  a digital  copy  of  a book  that  was  preserved  for  generations  on  library  shelves  before  it  was  carefully  scanned  by  Google  as  part  of  a project 
-to  make  the  world’s  books  discoverable  online. 
-
-It  has  survived  long  enough  for  the  copyright  to  expire  and  the  book  to  enter  the  public  domain.  A public  domain  book  is  one  that  was  never  subject 
-to  copyright  or  whose  legal  copyright  term  has  expired.  Whether  a book  is  in  the  public  domain  may  vary  country  to  country.  Public  domain  books 
-are  our  gateways  to  the  past,  representing  a wealth  of  history,  culture  and  knowledge  that’s  often  difficult  to  discover. 
-
-Marks,  notations  and  other  marginalia  present  in  the  original  volume  will  appear  in  this  file  - a reminder  of  this  book’s  long  journey  from  the 
-publisher  to  a library  and  finally  to  you. 
-
-
-Usage  guidelines 
-
-Google  is  proud  to  partner  with  libraries  to  digitize  public  domain  materials  and  make  them  widely  accessible.  Public  domain  books  belong  to  the 
-public  and  we  are  merely  their  custodians.  Nevertheless,  this  work  is  expensive,  so  in  order  to  keep  providing  this  resource,  we  have  taken  steps  to 
-prevent  abuse  by  commercial  parties,  including  placing  technical  restrictions  on  automated  querying. 
-
-We  also  ask  that  you: 
-
-+ Make  non-commercial  use  of  the  files  We  designed  Google  Book  Search  for  use  by  individuals,  and  we  request  that  you  use  these  files  for 
-personal,  non-commercial  purposes. 
-
-+ Refrain  from  automated  querying  Do  not  send  automated  queries  of  any  sort  to  Google’s  system:  If  you  are  conducting  research  on  machine 
-translation,  optical  character  recognition  or  other  areas  where  access  to  a large  amount  of  text  is  helpful,  please  contact  us.  We  encourage  the 
-use  of  public  domain  materials  for  these  purposes  and  may  be  able  to  help. 
-
-+ Maintain  attribution  The  Google  “watermark”  you  see  on  each  file  is  essential  for  informing  people  about  this  project  and  helping  them  find 
-additional  materials  through  Google  Book  Search.  Please  do  not  remove  it. 
-
-+ Keep  it  legal  Whatever  your  use,  remember  that  you  are  responsible  for  ensuring  that  what  you  are  doing  is  legal.  Do  not  assume  that  just 
-because  we  believe  a book  is  in  the  public  domain  for  users  in  the  United  States,  that  the  work  is  also  in  the  public  domain  for  users  in  other 
-countries.  Whether  a book  is  still  in  copyright  varies  from  country  to  country,  and  we  can’t  offer  guidance  on  whether  any  specific  use  of 
-any  specific  book  is  allowed.  Please  do  not  assume  that  a book’s  appearance  in  Google  Book  Search  means  it  can  be  used  in  any  manner 
-anywhere  in  the  world.  Copyright  infringement  liability  can  be  quite  severe. 
-
-
-About  Google  Book  Search 
-
-
-Google’s  mission  is  to  organize  the  world’s  information  and  to  make  it  universally  accessible  and  useful.  Google  Book  Search  helps  readers 
-discover  the  world’s  books  while  helping  authors  and  publishers  reach  new  audiences.  You  can  search  through  the  full  text  of  this  book  on  the  web 
-
-
-atjhttp  : //books  . qooqle  . com/ 
-
 
 
 

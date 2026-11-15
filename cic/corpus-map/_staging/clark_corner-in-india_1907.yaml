@@ -1,8 +1,10 @@
 source_file: clark_corner-in-india_1907.txt
 assignments:
-- work: A CORNER IN INDIA
+- row_id: clark_corner-in-india_1907--a-corner-in-india
+  work: A CORNER IN INDIA
   author: clark
-  locus: Naga mission under Dr Clark at OCR lines 155-160, 502; the rest not mapped
+  locus: chapters II and III, Beginnings Among the Nagas and A Plunge into Barbarism, at lines 488-998; closing
+    paragraph quoted from the author's husband at lines 6289-6298; the rest not mapped
   atlas_ids:
   - northeast-india-revivals-and-the-mar-thoma-refor
   role: tradition
@@ -17,4 +19,5 @@ assignments:
     year: 1907
     source: line 73 of this file, on the title page
     formation_confidence: Documented
-  note: 'Era 9 row 304, Edwin W. Clark: his wife''s account of the Naga mission.'
+  note: 'Era 9 row 304, Edwin W. Clark: his wife''s account of the Naga mission. A missionary''s own account, printed
+    in 1907, one year after the entry''s window closes.'

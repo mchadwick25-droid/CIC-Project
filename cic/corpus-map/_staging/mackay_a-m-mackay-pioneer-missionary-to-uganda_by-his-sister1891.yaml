@@ -1,9 +1,9 @@
 source_file: mackay_a-m-mackay-pioneer-missionary-to-uganda_by-his-sister1891.txt
 assignments:
-- work: A. M. MACKAY, MISSIONARY OF THE CHURCH MISSIONARY SOCIETY TO UGANDA. BY HIS SISTER. WITH ETCHED PORTRAIT
-    BY
+- row_id: mackay_a-m-mackay-pioneer-missionary-to-uganda_by-his-sister1891--a-m-mackay-pioneer-missionary-of-the-church-missionary
+  work: A. M. Mackay, Pioneer Missionary of the Church Missionary Society to Uganda. By his sister. With etched
   author: mackay
-  locus: Mwanga's accession and court at OCR lines 9627, 12505, 16420, 18558, 19184; the rest not mapped
+  locus: Chapter IX, 'Fiery Trials', from the accession of Mwanga, at lines 9622-11230; the rest not mapped
   atlas_ids:
   - east-african-christianity-uganda-martyrs
   role: context

@@ -1,12 +1,12 @@
-Title: A. M. MACKAY, MISSIONARY OF THE CHURCH MISSIONARY SOCIETY TO UGANDA. BY HIS SISTER. WITH ETCHED PORTRAIT BY H. MANESSE. TENTH THOUSAND. LONDON: HODDER AND STOUGHTON, 27 PATERNOSTER ROW. MDCCCXCI
-Creator: BY HIS SISTER (Alexina Mackay Harrison per host)
-Publisher: London: Hodder and Stoughton, 27 Paternoster Row
+Title: A. M. Mackay, Pioneer Missionary of the Church Missionary Society to Uganda. By his sister. With etched portrait by H. Manesse. Tenth thousand
+Creator: by his sister
+Publisher: London: Hodder and Stoughton, 27, Paternoster Row
 Publication Date: 1891 (line 43 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1891); the archive.org record carries no rights field, so the imprint date is the basis
 Language: eng
 Source: archive.org item ammackaypioneerm00harr_0, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (802,585) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1891, out of US copyright by date. OCR quality: fair-clean (title lines noisy). Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: chapters from line 248; contents lines 149-248. Editorial matter: dedication and preface lines 32-148. Mixed voices: sister's narrative with Mackay's letters and journals. About 126,026 words.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1891, out of US copyright by date. OCR quality: clean to fair. Line numbers cited in this header are this file's own line numbers.
+Content note: A memoir of A. M. Mackay by his sister, who is not named on the title page. Editorial matter: a dedication to her father, the Reverend Alex. Mackay, LL.D., at lines 52-65 and her preface from line 85, which says the book is drawn mainly from his journals and letters in her possession. Contents at lines 159-250. Divisions: seventeen chapters, Chapter I from line 260 to Chapter XVII, 'Mackay's Last Message', from line 17282; an index runs from line 17863. Mixed voices: Mackay's own letters and journals are quoted at length inside the sister's narrative. Mwanga is first named at line 9639, on the death of Mtesa in October 1884, in Chapter IX, 'Fiery Trials' (lines 9622-11230), and often afterward. About 126,026 words.
 
 ______________________________________________________________________
 

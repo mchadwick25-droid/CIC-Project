@@ -1,8 +1,10 @@
 source_file: churchill_druzes-and-the-maronites-under-the-turkish-rule_1862.txt
 assignments:
-- work: THE DRUZES AND THE MARONITES under the Turkish rule FROM 1840 TO 1860 BY COLONEL CHURCHILL LONDON BERNARD
+- row_id: churchill_druzes-and-the-maronites-under-the-turkish-rule_1862--the-druzes-and-the-maronites-under-the-turkish-rule-from
+  work: The Druzes and the Maronites under the Turkish Rule from 1840 to 1860
   author: churchill
-  locus: Maronite patriarch passages at OCR lines 1331-1780, 2504-2800; the rest not mapped
+  locus: Chapter IV, whose heading names the 'Intolerance of the Maronite Patriarch', at lines 3055-4139; the rest
+    not mapped
   atlas_ids:
   - maronite-church-1815-1906
   role: context

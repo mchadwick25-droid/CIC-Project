@@ -1,12 +1,12 @@
-Title: О ПОКАЯНІЮ. ЛИСТЬ ПАСТИРСКІЙ Высокопреосвященого АНДРЕЯ ШЕПТИЦКОГО, Митрополита Галицкого ... до вірныхь своихь епархій. ЖОВКВА ПЕЧАТНЯ ОО. ВАСИЛІЯНЬ 1901
-Creator: АНДРЕЙ ШЕПТИЦКІЙ
-Publisher: Жовква, Печатня ОО. Василіян
+Title: О ПОКАЯНІЮ. ЛИСТЪ ПАСТИРСКІЙ Высокопреосвященого АНДРЕЯ ШЕПТИЦКОГО, Митрополита Галицкого, Архіепископа Львовского, Епископа Каменця Подольского, до вѣрныхъ своихъ епархій
+Creator: Андрея Шептицкого, Митрополита Галицкого
+Publisher: Жовква: Печатня ОО. Василіянъ
 Publication Date: 1901 (line 80 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1901); the archive.org record carries no rights field, so the imprint date is the basis
 Language: ukr
 Source: archive.org item o-pokaianiiu-vii-lyst-pastyrskii, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (122,634) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1901, out of US copyright by date. OCR quality: fair: old orthography, some noise, junk lines 2270-2291. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: one letter. Editorial matter: see divisions. About 11,631 words.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1901, out of US copyright by date. OCR quality: fair, in the old spelling; noisy in places. Line numbers cited in this header are this file's own line numbers.
+Content note: A single pastoral letter on repentance, in Ukrainian in the old spelling, from Metropolitan Andrey Sheptytsky to the faithful of his eparchies. The scan shows a cover (lines 16-44) and a title page (lines 53-80). The letter opens with the bishop's name and titles at line 83 and the greeting at line 91; in its first paragraphs he says he is writing at the start of the Great Fast, a month after his first pastoral letter. The letter ends at line 2220 and is dated at Lviv, 16 February (3 March) 1901, at lines 2223-2224. A short list of printer's errors follows at lines 2240-2256. There is no preface, contents list or other voice. Lines 2259-2303 are OCR noise. About 11,631 words.
 
 ______________________________________________________________________
 

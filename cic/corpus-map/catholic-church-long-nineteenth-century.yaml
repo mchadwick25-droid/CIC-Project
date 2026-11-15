@@ -44,6 +44,27 @@ works:
   note: The community's own witness to its martyrdom, by its surviving sister; the source
     the census story rests on.
   source_file: marie-de-l-incarnation-compiegne_histoire-des-carmelites-de-compiegne-fra_1836.txt
+- row_id: mercati_raccolta-di-concordati-ita-fra-lat_1919--raccolta-di-concordati-su-materie-ecclesiastiche-tra-la
+  work: Raccolta di concordati su materie ecclesiastiche tra la Santa Sede e le autorità civili
+  author: mercati
+  locus: the concordat with Haiti of 28 March 1860, preamble and articles 1-18 in Italian
+    and French, at lines 61913-62499; the letter of Faubert and the reply of Antonelli, 28
+    March 1860, at lines 62520-62623; the rest not mapped
+  role: tradition
+  confidence: provisional
+  language: ita
+  date:
+    formation_confidence: unknown
+    checked: the title page and front matter of this printing (1919); they do not state when
+      the text was first written
+  edition_date:
+    year: 1919
+    source: line 39 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 284, Fabre Geffrard: the text of the Concordat of 1860, in a Vatican collection.
+    The concordat is the church''s own instrument; the collection that prints it is of 1919
+    and holds many other concordats.'
+  source_file: mercati_raccolta-di-concordati-ita-fra-lat_1919.txt
 - row_id: milner_end-of-religious-controversy-part2_1818--end-of-religious-controversy-part-2-1818
   work: John Milner, The End of Religious Controversy, Part II (London, 1818)
   author: milner

@@ -1,6 +1,7 @@
 source_file: adriaanse_sadrachs-kring-nld_1899.txt
 assignments:
-- work: SADRACH'S KRING, door L. Adriaanse, Dienaar des Woords te Utrecht, afgezonden tot den Zendingsdienst te
+- row_id: adriaanse_sadrachs-kring-nld_1899--sadrach-s-kring
+  work: SADRACH'S KRING
   author: adriaanse
   locus: the whole volume; not mapped
   atlas_ids:

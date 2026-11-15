@@ -1,7 +1,7 @@
 source_file: booth-catherine_godliness_1883.txt
 assignments:
-- work: GODLINESS. BEING REPORTS OF A SERIES OF ADDRESSES DELIVERED AT JAMES'S HALL, LONDON, W., During 1881, BY
-    MRS.
+- row_id: booth-catherine_godliness_1883--godliness-being-reports-of-a-series-of-addresses-delivered
+  work: GODLINESS. Being reports of a series of addresses delivered at James's Hall, London, W., during 1881
   author: booth-catherine
   locus: the whole volume; not mapped
   atlas_ids:

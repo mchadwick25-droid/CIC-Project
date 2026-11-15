@@ -1,7 +1,7 @@
 source_file: bond_memoir-of-the-rev-pliny-fisk_1828.txt
 assignments:
-- work: MEMOIR OF THE REV. PLINY FISK, A.M. LATE MISSIONARY TO PALESTINE. BY ALVAN BOND ... CROCKER AND BREWSTER
-    ...
+- row_id: bond_memoir-of-the-rev-pliny-fisk_1828--memoir-of-the-rev-pliny-fisk-a-m-late-missionary-to
+  work: MEMOIR OF THE REV. PLINY FISK, A. M., LATE MISSIONARY TO PALESTINE
   author: bond
   locus: the whole volume; not mapped
   atlas_ids:

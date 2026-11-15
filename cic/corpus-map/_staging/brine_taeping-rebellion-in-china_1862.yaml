@@ -1,9 +1,10 @@
 source_file: brine_taeping-rebellion-in-china_1862.txt
 assignments:
-- work: THE TAEPING REBELLION IN CHINA; A NARRATIVE OF ITS RISE AND PROGRESS. BASED UPON ORIGINAL DOCUMENTS
+- row_id: brine_taeping-rebellion-in-china_1862--the-taeping-rebellion-in-china-a-narrative-of-its-rise-and
+  work: The Taeping Rebellion in China; a narrative of its rise and progress. Based upon original documents and
   author: brine
-  locus: Hamberg's narrative (Chap IV), Fung-yun-san, Roberts, Yang-siu-tshin at OCR lines 3095-3200, 3505-3600,
-    3641-3740, 3934; the rest not mapped
+  locus: Chapter IV, early life of Hung-siu-tsuen, at lines 3061-4406; Chapter XII, with the letter of Mr. Roberts
+    on leaving Nankin, at lines 11811-12839; the rest not mapped
   atlas_ids:
   - taiping-heavenly-kingdom
   role: context

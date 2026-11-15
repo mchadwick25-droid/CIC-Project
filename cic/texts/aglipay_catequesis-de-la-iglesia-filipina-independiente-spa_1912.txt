@@ -1,12 +1,12 @@
-Title: Catequesis de la Iglesia Filipina Independiente por el Emmo. Sr. Gregorio Aglipay y Labayan, Obispo Maximo de dicha Iglesia, aprobada por el Consejo Supremo de Obispos. Prologo del Pbro. Jose Ferrandiz (OCR lines 1-22)
-Creator: Gregorio Aglipay y Labayan
-Publisher: Manila, I. de los Reyes (marc 260)
+Title: Catequesis de la Iglesia Filipina Independiente por el Emmo. Sr. Gregorio Aglipay y Labáyan, Obispo Máximo de dicha Iglesia, aprobada por el Consejo Supremo de Obispos. Prólogo del Pbro. José Ferrándiz
+Creator: Gregorio Aglipay y Labáyan; prólogo del Pbro. José Ferrándiz
+Publisher: Manila: I. de los Reyes
 Publication Date: 1912 (the dated prologue at line 1342 of this file ('Madrid, á 25 de Mayo de 1912.'), with which the library catalogue record of the item agrees (MARC 260: 'Manila, I. de Los Reyes, 1912.'); the title page prints no year)
 Rights: Public Domain (pd-us-by-date: published 1912); the archive.org record carries no rights field, so the date named here is the basis; the date used is that of the dated prologue at line 1342 of this file ('Madrid, á 25 de Mayo de 1912.'), with which the library catalogue record of the item agrees (MARC 260: 'Manila, I. de Los Reyes, 1912.'); the title page prints no year
 Language: spa
 Source: archive.org item ajh3759.0001.001.umich.edu, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (260,041) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1912, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are this file's own line numbers.
-Content note: Draft; the content note is written after the text is checked. Divisions: prologue; catechism; decrees dated Manila 6-7 Aug 1903 at lines 5823-6089. Editorial matter: see divisions. About 42,606 words.
+Content note: A catechism in Spanish of the Iglesia Filipina Independiente, under the name of Gregorio Aglipay y Labáyan as Obispo Máximo and marked as approved by the Supreme Council of Bishops. The title page (lines 13-37) is garbled; a contents list ('Índice') is at lines 198-320. Editorial matter: a prologue signed José Ferrándiz, Presbítero, ends at line 1342, dated Madrid, 25 May 1912. Divisions: the catechism begins at line 1346 with prayers, then doctrine, sacraments and church rules. Regulations for the parish committees begin at line 5777, signed by Aglipay at Manila, 6 August 1903 (line 5835) and 7 August 1903 (line 6101). Errata close the file at lines 6550-6588. About 42,606 words.
 
 ______________________________________________________________________
 
