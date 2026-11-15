@@ -6,11 +6,14 @@ This is the re-score's batch 10: `Build/Ministry/Operations/Audits/2026-11-14_wh
 
 ## Majors and lengths
 
-The census on origin/main (release 43) holds no major flag yet; the flags arrive with release 44. None of the seven has a census person row, so the re-score's Major column is used, as the coordinator's brief directs. It marks all seven "no". They run as non-majors, up to about 2:15 (365 words), under Mark's final length rule: singles run up to about 2:15, about 365 words, when the story needs it, and shorter where the sources are thin (Decision-Log, "Who profiles, era 4 batch 8", 2026-11-14). In his words, "i would rather have a 2;15 good story than a 2;00 cramped but flat card". The briefs run 363 to 366 words, about 2:15 each. Peter of Sicily and Ilarion have a thin own life, flagged. Theophanes's life rests on a Life whose author and date are open, and his brief says so. All three still run to the limit because the held sources tell enough: Theophanes's own eyewitness note and preface, with the Life; Peter's own History; and Ilarion's sermon and confession.
+The census on origin/main (release 43) holds no major flag yet; the flags arrive with release 44. None of the seven has a census person row, so the re-score's Major column is used, as the coordinator's brief directs. It marks all seven "no".
+
+The briefs were drafted at up to 2:15 and tightened after round 1 to Mark's restated rule (Decision-Log, "Who profile length: 2:00 restated, longer only when earned", 2026-11-15). His pick: "2:00 for all, earn more (Recommended)". Every brief aims at 2:00, about 325 words, and runs longer only where this README names the scene or source a 2:00 version would lose. The seven now run 326 to 330 words, about 2:00 each, so none claims an exception. Each cut is listed in `Tighten_2-00.md` in the batch's audit folder, `Build/Ministry/Operations/Audits/2026-11-15_who-profiles-era4-batch10/`. Peter of Sicily and Ilarion have a thin own life, flagged. Theophanes's life rests on a Life whose author and date are open, and his brief says so.
 
 **The river counts do not change.** This batch adds no majors, so the counts in the batch 9 README stand. By the census's own Who rows, Greek East & Orthodoxy era 4 holds eight majors after batch 9; counted by era 4 card traditions, it holds nine. Which rule counts is for the map build slice (Open-Gaps, "Map Who build slice: caps, major mark, placement", 2026-11-11). The map shows five per river, and which five is Mark's choice (Open-Gaps, "Era 4 Who batch 9", 2026-11-15).
 
 All seven sit on the Greek East & Orthodoxy river. By card tradition, the batch adds three to Iconophile Byzantine Monasticism (Theophanes, Stephen, Nikephoros), three to The Byzantine Imperial Church (Macedonian Era) (Nicholas, Peter, Keroularios) and one to Kievan Rus' Christianity (Ilarion). Keroularios's card lists two traditions, so he also adds one to The Byzantine Church after the Schism, an era 5 entry.
+
 
 ## Live census mentions
 
