@@ -17,7 +17,7 @@ Every replacement was applied by script, each old string matched exactly once in
 - **R3-M11 (Clement, brief).** Taken: "The scholar Franz Miklosich" and "The historian Johann Ginzel". The brief is at 371 words, about 2:17. The Pattern says a brief is never cut to fit a number, and both names now have context at first mention.
 - **R3-M12 (README).** "Their briefs run 405 to 406 words". With R3-M11 taken, the README's Clement count is changed to 371.
 - **R3-M13 (README).** Fixed as worded: "the year of the world 6221 (729/30)".
-- **R3-M14 (Open-Gaps 269, river counts).** Applied through Part 2's R3-M11, which rewrites the same sentence and also says the additions are counted by their cards.
+- **R3-M14 (Open-Gaps 269, river counts).** Applied through Part 2's R3-M11, which rewrites the same sentence.
 - **R3-M16 (Open-Gaps 269).** Fixed as worded: the Methodius jailer correction added.
 - **R3-M17 (Open-Gaps 269's Decision-Log citation).** Fixed by writing the entry, as Part 2's R3-B1.
 
@@ -45,3 +45,17 @@ Every replacement was applied by script, each old string matched exactly once in
 | clement-of-ohrid | 371 | 2:17 | 6.13 | 72.94 |
 
 All seven pass `grade_text`. No quotation in quotation marks was changed in this round.
+
+## After the cap check
+
+`R4_cap-check.md` found no blocking point and 14 minor points (R4-M1 to R4-M14). All 14 were applied as worded, by script, each old string matched exactly once. R4-M7's addition was made in both Open-Gaps 269 and the README, as the check says it fits both. Briefs were rescored and the audio rebuilt. The Clement brief is now 370 words, and the README and Decision-Log say so.
+
+| Brief | Words | Spoken | FK | Flesch |
+|---|---|---|---|---|
+| john-of-damascus | 405 | 2:30 | 7.24 | 68.61 |
+| theodore-the-studite | 405 | 2:30 | 7.20 | 67.92 |
+| cyril-and-methodius | 406 | 2:30 | 7.42 | 67.53 |
+| antony-and-theodosius-of-the-kyiv-caves | 405 | 2:30 | 5.89 | 72.61 |
+| anskar | 405 | 2:30 | 6.12 | 77.62 |
+| rimbert | 365 | 2:15 | 5.97 | 80.32 |
+| clement-of-ohrid | 370 | 2:17 | 6.01 | 73.04 |

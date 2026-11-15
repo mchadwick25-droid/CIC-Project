@@ -33,7 +33,7 @@
    },
    {
     "claim": "Le Quien: Leo began acting against images \"anno 726\"; John wrote \"hoc anno 727, aut subsequenti 728\"; the second oration \"anno Christi 750 [OCR for 730] quo Germanus solio detrusus est\"; Theophanes places Germanus's deposition in A.M. 6221",
-    "witness": "PG94 l.32054-32068, l.32111-32115; THEO l.73562, l.73735-73739",
+    "witness": "PG94 l.32054-32070, l.32111-32115; THEO l.73562, l.73735-73739",
     "formation_confidence": "Dominant Modern Reconstruction"
    },
    {
@@ -381,7 +381,7 @@
    {
     "claim": "The day of Methodius's death",
     "sides": [
-     "Life of Methodius: 6 April, A.M. 6393 (GIN l.12536-12541); Ginzel works the year out as 885 and defends the date (GIN l.6170-6205)",
+     "Life of Methodius: 6 April, A.M. 6393 (GIN l.12536-12541, where the year is damaged in the scan; Ginzel gives 6393 from Šafařík's edition, l.6199-6205); Ginzel works the year out as 885 and defends the date (GIN l.6170-6205)",
      "Wattenbach, as Ginzel reports: suspicious on a high feast (GIN l.6170-6173)"
     ]
    },
