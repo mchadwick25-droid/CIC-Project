@@ -444,6 +444,47 @@ public-domain notice for that title recorded in the search log.
 
 **Not taken.** Every duplicate, garbled or secondary scan is listed in the search log.
 
+## Eras 4-5, third fill (2026-11-15): the wants of the era 4 Who batches 9 and 11
+
+Seven files. The wants are the Library items of Open-Gaps 269 and 279, which the second fill did not take up. The
+search record is `Build/Ministry/Operations/Audits/2026-11-15_library-eras4-5-b/Search_Log.md`. Every file has a
+printed imprint of 1930 or earlier, read on its title page or, for Matthew of Edessa, on the scan's page image.
+Rows in the tables above are not rewritten.
+
+| want | state | file(s), with the imprint year | words | shelf |
+|---|---|---|---:|---|
+| Open-Gaps 269: an English of John of Damascus's speeches on the images | filled | `john-damascus_on-holy-images-with-three-sermons-on-the-assumption_allies1898.txt` (1898) | 44,731 | byzantine-imperial-church-heraclian-iconoclast, iconophile-byzantine-monasticism, melkite-arabic-christianity, tradition; the three sermons needs-ruling |
+| Open-Gaps 269: the acts of Nicaea II | filled in English (Mansi XII-XIII held already) | `mendham_seventh-general-council-second-of-nicaea_1850.txt` (1850) | 307,103 | byzantine-imperial-church-heraclian-iconoclast, iconophile-byzantine-monasticism, tradition |
+| Open-Gaps 269: a complete Life of Rimbert | filled | `mgh-ss-2_scriptores-tomus-2-with-vita-rimberti-vita-anskarii-lat_pertz1829.txt` (1829) | 544,945 | scandinavian-conversion-christianity, tradition |
+| Open-Gaps 269: the Life of Constantine (Cyril) in any language | held already | the Latin of Dümmler and Miklosich (1870), second fill | | |
+| Open-Gaps 269: the Slavonic Life of Methodius | not found | Miklosich (1870) and Dümmler in the Archiv 13 (1854) are not on archive.org | | |
+| Open-Gaps 269: any work of Clement of Ohrid, and the short Life | not found | Tunitskii (1918) found and not taken: it prints the long Life, held already, and its OCR is garbled | | |
+| Open-Gaps 279: an Armenian text or English of Stepanos of Taron | not found | the one Armenian upload has no readable imprint or text; the German and the French part 2 are held | | |
+| Open-Gaps 279: Matthew of Edessa | filled in French | `matthew-of-edessa_chronique-with-gregory-the-priest-fra_dulaurier1858.txt` (1858) | 171,092 | armenian-cilicia, tradition (needs-ruling); bagratid-armenian-christianity, context (needs-ruling) |
+| Open-Gaps 279: an English of Eulogius and Alvarus | none printed by 1930 | the Latin is held (PL 115, PL 121) | | |
+| Open-Gaps 279: the Arabic sources for Cordoba, Ibn Hayyan among them | held as a later witness | al-Maqqari in Gayangos (1840-43), second fill | | |
+| Open-Gaps 279: Abu Qurrah (no English printed by 1930) | filled, his own Arabic with a Latin translation | `theodore-abu-qurrah_de-cultu-imaginum-ara-lat_arendzen1897.txt` (1897) | 31,104 | melkite-arabic-christianity, tradition |
+| Open-Gaps 279: Abu Qurrah, Bacha's French of a second treatise | held for Mark | the title page names Tripoli and Rome and no year; 1905 is the preface date | | |
+| Open-Gaps 279: Michael the Syrian's Book XII | filled | `michael-the-syrian_chronique-tome3-livres-xii-xxi-fra_chabot1905.txt` (1905) | 271,262 | syriac-orthodox-west-syriac-christianity, tradition |
+| Open-Gaps 279: the Greek Passion of the Mar Saba martyrs (Papadopoulos-Kerameus 1907) | not found | not searched again; the second fill records the search | | |
+| Open-Gaps 279: the Life of Stephen the Wonderworker | filled in Latin | `acta-sanctorum_julii-tomus-3-lat-grc_palme1868.txt` (1867 on the title page, 1868 on the engraved title) | 865,324 | melkite-arabic-christianity, tradition |
+
+**Cautions for profile writers.**
+- John of Damascus (Allies 1898): a translation. The Greek is in PG 94, which the OCR cannot give for quotation.
+- Nicaea II (Mendham 1850): the translator wrote against the council. His introduction and his notes, with
+  extracts from the Caroline Books, share the pages of the acts; a quotation must be the council's text, not a
+  note. Sessions V to VIII were not mapped.
+- The Life of Rimbert (Pertz 1829): its author is not named; Pertz's preface says it was written in the time of Rimbert's successor Adalgar, by a cleric of Bremen or a monk of Corvey. The chapter count is 25. The footnote
+  apparatus is garbled; the text reads cleanly with small OCR errors.
+- Matthew of Edessa (Dulaurier 1858): a French translation, with the continuation of Gregory the Priest from
+  about file line 14011 and Dulaurier's notes after the text. The chronicle was written after the Bagratid years
+  it begins with.
+- Abu Qurrah (Arendzen 1897): only Arendzen's Latin can be read; no phrase of the Arabic can be quoted from this
+  file. The first 24 lines of the host text are the uploader's cover sheet.
+- Michael the Syrian (Chabot 1905): a French translation; the Syriac is not held. Footnotes run in with the text.
+- Stephen the Sabaite (Acta Sanctorum 1867-68): Boschius's Latin translation of a Greek Life headed as lacking its
+  beginning; the Greek column cannot be read. The Bollandists' notes stand between the chapters.
+
 ## Era 6 (1300-1517), filled (2026-11-15): the Who scan's wanted sources and the wants the Who and council batches added
 
 Twenty-seven files. The wants are the era 6 rows of

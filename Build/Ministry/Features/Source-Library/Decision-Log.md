@@ -543,6 +543,84 @@ council rows queued in `CFT-Wants.md` (Marburg and Worms) and the Library items 
 
 Era 8 wants in a fresh session, when era 7's Whos begin.
 
+## 2026-11-15 — Era 10 rights rulings: eleven questions answered
+
+**Decided (Mark, 2026-11-15).** Eleven rights questions from the era 10 scoping page, answered
+one at a time. Mark's picked option is in quotes.
+
+- **R1, Vatican texts: "Old print, link the rest".** Hold the Latin from the *Acta* printed by
+  1930 and render it ourselves. Everything later is cite and link only. One letter asks
+  permission for the Vatican II documents.
+- **R2, texts whose owners say they are free: "Take all three".** A new class beside public
+  domain, with the owner's own words copied into each file header: the Dictionary of African
+  Christian Biography (CC BY 4.0; skip entries marked as reprinted "with permission"), the
+  Catholic Worker paper ("not copyrighted"), and the Cape Town Commitment (quoted word for word
+  only, no modern rendering).
+- **R3, "non-commercial use only" permissions: "Don't hold, cite and link".** Hold nothing on a
+  non-commercial permission. Write for permission where a text matters.
+- **R4, church statements with no stated terms: "Cite and link, then write".** Letters to each
+  body, starting with Barmen and Lausanne.
+- **R5, quoting a work we do not hold: "Keep the rule".** Facts and a citation, no quotation.
+- **R6, the date rule: "Keep the one test".** The imprint on the title page. Barth's 1919 book is
+  noted as a known exposure (free in the US, protected in Europe until 2038). The line moves each
+  January.
+- **R7, American books of 1931 to 1963 whose copyright was never renewed: "Allow it generally".**
+  Mark chose this over the case-by-case recommendation. Any such book counts as free, with the
+  renewal search recorded in the file header. Asked whether it applies to the running era 8 and 9
+  Library threads, Mark chose "Yes, all eras now". R7 widens the "imprint of 1930 or earlier"
+  rule for American books of 1931 to 1963, and settles the non-renewal proposal in the 27 October
+  rights audit (`Build/Ministry/Operations/Audits/2026-10-27_post-1930-files_Rights-Audit.md`).
+- **R8, old works whose only scan is locked: "Log them, open HathiTrust later".** Record as
+  "located, not obtainable here". Opening HathiTrust in the network settings stays an open item
+  for Mark.
+- **R9, court and government records: "By imprint, like a book".** A printed record counts by its
+  imprint date. Unprinted archive records are cite only. US federal government works are free.
+- **R10, Martin Luther King Jr.: "Cite and link only".** No quotation, no rendering.
+- **R11, translating from an old original ourselves: "Yes, with a second check".** Holds for era
+  10. Where no old English translation exists, a second independent rendering checks the first,
+  and differences are marked uncertain on the card.
+
+**Changed.** The rights rule in `cic/texts/INTAKE.md` §2 and `Design.md` §9. The letters and the
+HathiTrust item are in the Church Family Tree `Open-Gaps.md`.
+
+**Not done.** No text vendored, no file header edited, no letter sent. The nine Church in
+Conversation design questions (D1 to D9) stay open.
+
+### Next action
+
+Mark sends the letters. Library threads for eras 8 and 9 apply R7 from their next intake.
+
+## Eras 4-5, third fill (2026-11-15)
+
+Seven public-domain files for the Library items of Open-Gaps 269 and 279 (era 4 Who batches 9 and 11). Search
+record: `Build/Ministry/Operations/Audits/2026-11-15_library-eras4-5-b/Search_Log.md`. Wants table and cautions:
+`CFT-Wants.md`, "Eras 4-5, third fill".
+
+**Decided here.**
+- Rights, as in the second fill: a printed imprint of 1930 or earlier read on the title page or its page image.
+  Matthew of Edessa's year was read on the page image because the OCR garbles the numeral.
+- A title page with no year is not taken, even where the preface is dated: Bacha's French of Abu Qurrah (preface
+  1905) is held for Mark, as Mansi XX was.
+- An own-language text whose script the OCR cannot give is taken only where a readable translation stands in the
+  same file (Arendzen's Arabic with Latin). The Armenian uploads of Stepanos and Matthew and Chabot's Syriac
+  tome IV were not taken.
+- From this batch each shelf row states its language and a date field. Where the file itself does not date the
+  writing, the date is `unknown` and says what was read. Each file's word count is in its header and registry
+  note.
+- Shelves. Matthew of Edessa is `needs-ruling` on `armenian-cilicia` (tradition) and on
+  `bagratid-armenian-christianity` (context): Dulaurier's preface calls him an Armenian monk of the twelfth century, a native of Edessa, and no entry is his own.
+  John of Damascus's sermons on the Assumption are `needs-ruling` on `melkite-arabic-christianity`. Mendham's
+  English of Nicaea II sits where Mansi XII-XIII sit, as the council's own acts.
+- The review was done by a Fable reader in place of Opus, on Mark's instruction of 2026-11-15 as relayed by the
+  Church Family Tree coordinator ("use our free fable and stop all opus work except the rewrite process").
+
+**For the tree, not the Library.**
+- Nothing by Clement of Ohrid, no short Life of him and no Life of Methodius beyond the held texts was found.
+- No English of Eulogius, Alvarus or Abu Qurrah was printed by 1930.
+
+### Next action
+
+Era 8 (1650-1815), by region, each batch in its own pull request.
 ## Era 9, batch 1: the major figures (2026-11-15)
 
 Ninety-nine files for the 63 person rows marked major in the wanted list (rows 163-225). Record:
