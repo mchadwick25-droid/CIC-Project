@@ -1,6 +1,6 @@
 # Library era 6: review round 1 (2026-11-15)
 
-The report of a fresh Opus reviewer, briefed to read and grep only: every rights row, eleven files in depth, the
+The report of a fresh Opus reviewer, briefed to read and grep only: every rights row, at least ten files in depth, the
 records and the three "held already" claims. The findings below are the reviewer's, condensed by the Library thread;
 no finding is dropped. Line numbers are file lines (OCR line plus 12) unless marked OCR.
 
@@ -33,8 +33,8 @@ leaves the point to Mark.
 | 17 | CFT-Wants; Search_Log | minor | "Printed before 1934" sits beside "first printed 1936". | Say "by 1930". |
 
 **What checked out.** The 27 files match the 27 registry rows, and each has a row in CFT-Wants with the header's
-imprint year. Title-page line citations are exact in the eighteen files checked. Every other locus read in the
-eleven files checked in depth is what the header says (the Menaion headings at OCR 31080, 33914 and 38101, with no
+imprint year. Title-page line citations are exact in the files checked. Every other locus read in the
+files checked in depth is what the header says (the Menaion headings at OCR 31080, 33914 and 38101, with no
 author named and Savva Chernyi absent; Akty nos. 12, 16, 27, the testament and the letter of Vasilii II; the
 Demonstratio and Mauritius's reply in von der Hardt; the three Capistrano Lives; Bridget's Books VI-VIII, Rule and
 Sermo angelicus; Mansi 29 and 30; Pomerius; Ockham; Annerstedt; Euthymius). The three "held already" claims hold:
