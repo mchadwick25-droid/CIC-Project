@@ -403,8 +403,11 @@ function finishQuotes() {
       else if (!(home.people ?? []).some(p => p.person === m.id)) errs.push(`${m.id}: missing from the people list of ${m.toldWithin}`);
     }
     if (m.people !== undefined) errs.push(`${m.id}: a person entry has no people list`);
+    if (typeof m.major !== "boolean") errs.push(`${m.id}: a person entry needs major, true or false`);
+    if (!Number.isInteger(m.activeYear)) errs.push(`${m.id}: a person entry needs activeYear, one whole year`);
   } else {
     if ("toldWithin" in m) errs.push(`${m.id}: toldWithin is only for a person entry`);
+    if ("major" in m || "activeYear" in m) errs.push(`${m.id}: major and activeYear are only for a person entry`);
     if (!Array.isArray(m.people)) errs.push(`${m.id}: people must be a list (empty when it names no one)`);
     else if (!m.people.length && (typeof m.peopleNote !== "string" || !m.peopleNote.trim())) errs.push(`${m.id}: names no one, so it needs peopleNote, one plain sentence saying why`);
     else if (m.people.length && m.peopleNote !== undefined) errs.push(`${m.id}: peopleNote is only for a movement that names no one`);

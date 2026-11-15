@@ -1,0 +1,1502 @@
+[
+ {
+  "id": "abbess-bugga",
+  "active_year": 721,
+  "kind": "proposed",
+  "basis": "No held line gives a year. Her letter is her one dated act, and the line gives a span, not a year. Proposed 721, the middle of 720 to 722. Line: \"Edward Kylie dates her letter to between 720 and 722\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch8/abbess-bugga.card.json, field dates)."
+ },
+ {
+  "id": "adam-jingjing",
+  "active_year": 781,
+  "kind": "held",
+  "basis": "\"The stele was set up in 781, by A. Wylie's English of its Chinese date\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch8/adam-jingjing.card.json, field dates)."
+ },
+ {
+  "id": "adomnan-of-iona",
+  "active_year": 679,
+  "kind": "held",
+  "basis": "\"abbot of Iona from 679, in Wentworth Huyshe's account\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch1/adomnan-of-iona.card.json, field dates)."
+ },
+ {
+  "id": "aetius-of-antioch",
+  "active_year": 360,
+  "kind": "held",
+  "basis": "\"Deposed from the diaconate at the Council of Constantinople in 360 by his own party\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch1/records.json, claim)."
+ },
+ {
+  "id": "agathias",
+  "active_year": 570,
+  "kind": "proposed",
+  "basis": "No held line gives a year. The card gives a lower and an upper bound for the History, not a year. Proposed 570, inside 565 to 582, as a year soon after Justinian's death when Niebuhr thinks he began. Line: \"Niebuhr thinks he began his history after Justinian died in 565 and died himself before 582\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch4/agathias.card.json, field dates)."
+ },
+ {
+  "id": "agathon-of-alexandria",
+  "active_year": 661,
+  "kind": "held",
+  "basis": "\"B. Evetts heads his life in the History of the Patriarchs 661 to 677\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch6/agathon-of-alexandria.card.json, field dates). The year is B. Evetts's heading for the start of his patriarchate; the Synaxarium brackets 659 to 667 and a note in Evetts's Abu Salih gives 658."
+ },
+ {
+  "id": "aidan-of-lindisfarne",
+  "active_year": 635,
+  "kind": "held",
+  "basis": "\"The Bollandists put the founding of the see of Lindisfarne in 635\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch1/aidan-of-lindisfarne.card.json, field dates)."
+ },
+ {
+  "id": "al-baladhuri",
+  "active_year": 892,
+  "kind": "proposed",
+  "basis": "No held line gives a year. The card gives no dated writing or act, only his death. Proposed 892, the one year the card holds, as a fixed point for his placing. Line: \"Died in 892, the year 279 of the hijra, by Philip Hitti\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch8/al-baladhuri.card.json, field dates)."
+ },
+ {
+  "id": "alcuin-of-york",
+  "active_year": 796,
+  "kind": "held",
+  "basis": "\"his abbacy at Tours to 796\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch1/alcuin-of-york.card.json, field dates). Jean Mabillon's date."
+ },
+ {
+  "id": "alexander-ii-of-alexandria",
+  "active_year": 705,
+  "kind": "held",
+  "basis": "\"B. Evetts heads his life 705 to 730\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch6/alexander-ii-of-alexandria.card.json, field dates). The year is B. Evetts's heading for the start of his patriarchate; the History itself gives only the year 420 of Diocletian."
+ },
+ {
+  "id": "alexander-of-alexandria",
+  "active_year": 312,
+  "kind": "held",
+  "basis": "\"Bishop from 312 to 326 by Blomfield Jackson's note to Theodoret\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch5/alexander-of-alexandria.card.json, field dates)."
+ },
+ {
+  "id": "alopen",
+  "active_year": 635,
+  "kind": "held",
+  "basis": "\"Reached Chang-an in 635, by A. Wylie's English of the stele and by Henry Yule\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch5/alopen.card.json, field dates). Joseph Assemani gives 636."
+ },
+ {
+  "id": "ambrose-of-milan",
+  "active_year": 374,
+  "kind": "held",
+  "basis": "\"on 7 December 374 he was consecrated\" (cic-website/data/world-census.json, movement ambrose-of-milan, field longDescription)."
+ },
+ {
+  "id": "ammianus-marcellinus",
+  "active_year": 390,
+  "kind": "proposed",
+  "basis": "No held line gives a year. The line gives a lower bound for the writing, and says only that he \"lived nearly to the end of the fourth century\". Proposed 390, between 378 and 400. Line: \"His history ends with the death of Valens in 378\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch3/ammianus-marcellinus.card.json, field dates)."
+ },
+ {
+  "id": "anatolius-of-alexandria-and-laodicea",
+  "active_year": 270,
+  "kind": "proposed",
+  "basis": "No held line gives a year. The card's uncertain field says \"Ernest Cushing Richardson, in a note to his translation of Jerome, gives born about 230, bishop 270, died about 283, and names no source\" and that Salmond calls the dates \"conjectural\". Proposed 270, Richardson's year for his bishopric of Laodicea, offered only because the card holds no other number."
+ },
+ {
+  "id": "antony-of-choziba",
+  "active_year": 614,
+  "kind": "proposed",
+  "basis": "No held line gives a year. The card says \"No source used here gives a year for his birth, his arrival at Choziba or his death\". Proposed 614, the end of the census window that Decision-Log (Who profiles, era 4 batch 5) names for the tradition he is placed in (\"though its window ends at 614\"), since he wrote of the Persian invasion."
+ },
+ {
+  "id": "antony-the-great",
+  "active_year": 338,
+  "kind": "held",
+  "basis": "\"Came to Alexandria about 338 to denounce the Arians\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch1/records.json, claim). The year is the Festal Index date given in the claim."
+ },
+ {
+  "id": "apollinaris-of-laodicea",
+  "active_year": 381,
+  "kind": "held",
+  "basis": "\"condemned at Rome in 377, by Lietzmann's date, and at Constantinople in 381\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch2/apollinaris-of-laodicea.card.json, field dates)."
+ },
+ {
+  "id": "arius",
+  "active_year": 325,
+  "kind": "held",
+  "basis": "\"Condemned at Nicaea in 325; exiled, and his books ordered burned\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch1/records.json, claim)."
+ },
+ {
+  "id": "athanasios-the-athonite",
+  "active_year": 963,
+  "kind": "held",
+  "basis": "\"reckons the church of the Lavra begun in 963\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch5/athanasios-the-athonite.card.json, field dates). Philipp Meyer's reckoning."
+ },
+ {
+  "id": "athanasius-of-alexandria",
+  "active_year": 328,
+  "kind": "held",
+  "basis": "\"three years later, at about thirty, he became bishop of Alexandria\" (cic-website/data/world-census.json, movement athanasius-of-alexandria, field longDescription). The same line puts Nicaea in 325, and the entry's dates field reads \"328-373\". The year 328 is therefore read from the dates field and the \"three years later\", not printed beside the act."
+ },
+ {
+  "id": "augustine-of-canterbury",
+  "active_year": 597,
+  "kind": "held",
+  "basis": "\"Sent by Gregory in 596 and landed in Britain in 597, by Bede's own years\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch5/augustine-of-canterbury.card.json, field dates)."
+ },
+ {
+  "id": "augustine-of-hippo",
+  "active_year": 395,
+  "kind": "held",
+  "basis": "\"In 395 he became bishop there.\" (cic-website/data/world-census.json, movement augustine-of-hippo, field longDescription)."
+ },
+ {
+  "id": "auxentius-of-durostorum",
+  "active_year": 384,
+  "kind": "proposed",
+  "basis": "No held line gives a year. No held line gives a year for his own act. His letter on Ulfila can only fall after Ulfila died in 383. Proposed 384, the first year after. Line: \"still living when Maximinus wrote, after Ulfila's death in 383\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch2/auxentius-of-durostorum.card.json, field dates)."
+ },
+ {
+  "id": "avitus-of-vienne",
+  "active_year": 517,
+  "kind": "held",
+  "basis": "\"He signed at the council of Epaone in 517\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch7/avitus-of-vienne.card.json, field dates)."
+ },
+ {
+  "id": "babai-the-great",
+  "active_year": 612,
+  "kind": "held",
+  "basis": "\"In 612 'Mar Babai, qui n'avait pas pu se rendre\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch6/records.json, claim). The year is Scher's note."
+ },
+ {
+  "id": "bardaisan-of-edessa",
+  "active_year": 189,
+  "kind": "proposed",
+  "basis": "No held line gives a year. No held line dates an act. Proposed 189, the middle of about 155 to about 223. Line: \"About 155 to about 223, by later Syriac chronicles\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era1/batch2/bardaisan-of-edessa.card.json, field dates)."
+ },
+ {
+  "id": "barhadbeshabba-arbaya",
+  "active_year": 590,
+  "kind": "held",
+  "basis": "\"a note by the editors of the Patrologia Orientalis about 590\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch8/barhadbeshabba-arbaya.card.json, field dates). The editors of the Patrologia Orientalis date his Cause of the Foundation of the Schools about 590; Scher puts it between 581 and 604 and Connolly a little after 585."
+ },
+ {
+  "id": "barsanuphius-and-john-of-gaza",
+  "active_year": 546,
+  "kind": "proposed",
+  "basis": "No held line gives a year. No held line gives a year. Proposed 546, the middle of Justinian's reign, 527 to 565, as the census gives it for Justinian I. Line: \"Evagrius Scholasticus sets Barsanuphius in Justinian's reign\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch3/barsanuphius-and-john-of-gaza.card.json, field dates)."
+ },
+ {
+  "id": "barsauma-of-nisibis",
+  "active_year": 484,
+  "kind": "held",
+  "basis": "\"the synod of Beth Lapat in April 484\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch1/barsauma-of-nisibis.card.json, field dates). By Chabot's reckoning."
+ },
+ {
+  "id": "basil-of-caesarea",
+  "active_year": 370,
+  "kind": "held",
+  "basis": "\"In 370 Eusebius of Caesarea died, and Basil was made bishop in his place.\" (cic-website/data/world-census.json, movement basil-of-caesarea, field longDescription)."
+ },
+ {
+  "id": "baudonivia",
+  "active_year": 601,
+  "kind": "proposed",
+  "basis": "No held line gives a year. Krusch gives \"soon after 600\", a lower bound, not a year. Proposed 601. Line: \"Bruno Krusch dates her book soon after 600\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch5/baudonivia.card.json, field dates)."
+ },
+ {
+  "id": "bede-of-jarrow",
+  "active_year": 731,
+  "kind": "held",
+  "basis": "\"Bede wrote the close of his History in his fifty-ninth year, he says, and its last annals reach 731\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch1/bede-of-jarrow.card.json, field dates)."
+ },
+ {
+  "id": "benedict-of-nursia",
+  "active_year": 529,
+  "kind": "proposed",
+  "basis": "No held line gives a year. The line gives two years. Proposed 529, the later of the two; either would serve. Line: \"Gardner dates the founding of Monte Cassino to 528 or 529\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch2/benedict-of-nursia.card.json, field dates)."
+ },
+ {
+  "id": "benjamin-i-of-alexandria",
+  "active_year": 622,
+  "kind": "held",
+  "basis": "\"B. Evetts heads his life in the History of the Patriarchs 622 to 661\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch2/benjamin-i-of-alexandria.card.json, field dates). The year is B. Evetts's heading for the start of his patriarchate; Basset's French adds 630 to 648."
+ },
+ {
+  "id": "beuno",
+  "active_year": 616,
+  "kind": "held",
+  "basis": "\"It says he founded Clynog Fawr in 616\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch4/beuno.card.json, field dates). A note in W. J. Rees's edition."
+ },
+ {
+  "id": "boethius",
+  "active_year": 524,
+  "kind": "held",
+  "basis": "\"put to death in 524, in Stewart and Rand's dates\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch7/boethius.card.json, field dates). His execution is the event he is known for; he was consul in 510."
+ },
+ {
+  "id": "bonaventure",
+  "active_year": 1257,
+  "kind": "held",
+  "basis": "\"He was elected minister general of the Franciscans in 1257\" (cic-website/data/world-census.json, movement bonaventure, field why)."
+ },
+ {
+  "id": "boniface-of-mainz",
+  "active_year": 722,
+  "kind": "held",
+  "basis": "\"He dates the consecration as bishop to 722\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch1/boniface-of-mainz.card.json, field dates). Edward Kylie's date."
+ },
+ {
+  "id": "braulio-of-zaragoza",
+  "active_year": 633,
+  "kind": "held",
+  "basis": "\"The acts date the fourth and sixth to the Spanish eras 671 and 676, which are 633 and 638\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch4/braulio-of-zaragoza.card.json, field dates). Fourth Council of Toledo, which he signed."
+ },
+ {
+  "id": "brendan-of-clonfert",
+  "active_year": 559,
+  "kind": "held",
+  "basis": "\"gives born 482, founded Clonfert 559 and died 577, without naming his source\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch8/brendan-of-clonfert.card.json, field dates). The year is Wentworth Huyshe's, who names no source."
+ },
+ {
+  "id": "brigid-of-kildare",
+  "active_year": 487,
+  "kind": "proposed",
+  "basis": "No held line gives a year. No held line dates an act; the lines give birth and death only. Proposed 487, the middle of 454 to 521. Line: \"their editor, John Williams ab Ithel, reckons those 454 and 521\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch2/brigid-of-kildare.card.json, field dates)."
+ },
+ {
+  "id": "caesaria-of-arles-the-elder",
+  "active_year": 512,
+  "kind": "held",
+  "basis": "\"Bruno Krusch, who edited his Life, dates the dedication of the convent to 26 August 512\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch2/caesaria-of-arles-the-elder.card.json, field dates)."
+ },
+ {
+  "id": "caesarius-of-arles",
+  "active_year": 529,
+  "kind": "held",
+  "basis": "\"Friedrich Maassen dates the council of Orange to 529\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch2/caesarius-of-arles.card.json, field dates)."
+ },
+ {
+  "id": "cassiodorus",
+  "active_year": 514,
+  "kind": "held",
+  "basis": "\"Consul in the year Theodor Mommsen numbers 514, by his own chronicle\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch4/cassiodorus.card.json, field dates). He was praetorian prefect from 533 (Hodgkin); neither is the dated act he is best known for, and the card dates no writing."
+ },
+ {
+  "id": "cedd-and-chad",
+  "active_year": 664,
+  "kind": "held",
+  "basis": "\"Cedd was at the synod of Whitby, which Bede dates to 664\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch7/cedd-and-chad.card.json, field dates)."
+ },
+ {
+  "id": "ciaran-of-clonmacnois",
+  "active_year": 544,
+  "kind": "proposed",
+  "basis": "No held line gives a year. No held line dates an act; the lines give his death as 544 or 549. Proposed 544, the Annales Cambriae year, as the only year the card holds. Line: \"which their editor, John Williams ab Ithel, numbers 544; John O'Donovan, in a note to the Annals of the Four Masters, gives 549\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch7/ciaran-of-clonmacnois.card.json, field dates)."
+ },
+ {
+  "id": "clement-of-alexandria",
+  "active_year": 202,
+  "kind": "held",
+  "basis": "\"Left Alexandria in 202 in the persecution under Severus\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era1/batch1/records.json, claim). McGiffert's reading of Eusebius VI.3. The card dates give only \"Writing about 190 to 202\"."
+ },
+ {
+  "id": "cogitosus",
+  "active_year": 591,
+  "kind": "held",
+  "basis": "\"Migne prints him under the year 591\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch3/cogitosus.card.json, field dates). The card calls the date disputed (Basnage thought him much later, White before about 700, Stokes's index 800 to 835); 591 is Migne's placing."
+ },
+ {
+  "id": "columba",
+  "active_year": 563,
+  "kind": "held",
+  "basis": "\"563 in Wentworth Huyshe's reckoning, 565 in Bede's\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch5/columba.card.json, field dates). The year he sailed to Britain; Huyshe 563, Bede 565."
+ },
+ {
+  "id": "columbanus",
+  "active_year": 614,
+  "kind": "proposed",
+  "basis": "No held line gives a year. No held line dates his founding of Bobbio. He died after a single year there, in probably 615, so proposed 614 for the year he came. Line: \"Died at Bobbio on 21 November, after a single year there, Jonas of Bobbio says. Dana Munro gives the year as probably 615\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch6/columbanus.card.json, field dates)."
+ },
+ {
+  "id": "constantine-the-great",
+  "active_year": 325,
+  "kind": "proposed",
+  "basis": "No held line gives a year (census entry constantine-the-great) for an act: it says \"Then he called the bishops to Nicaea and sat among them\" and the dates field reads \"312-337\". Proposed 325, the year of Nicaea, which the Athanasius entry gives (\"He had been a young deacon at Nicaea in 325\")."
+ },
+ {
+  "id": "constantius-of-lyon",
+  "active_year": 480,
+  "kind": "held",
+  "basis": "\"Wilhelm Levison dates the Life of Germanus about 480 or a little later\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch6/constantius-of-lyon.card.json, field dates)."
+ },
+ {
+  "id": "cosmas-indicopleustes",
+  "active_year": 547,
+  "kind": "held",
+  "basis": "\"J. W. McCrindle dates the visit to 525 and the writing to about 547\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch3/cosmas-indicopleustes.card.json, field dates)."
+ },
+ {
+  "id": "cuthbert-of-lindisfarne",
+  "active_year": 685,
+  "kind": "held",
+  "basis": "\"Bede says he was made bishop in the year King Egfrid was killed, which Bede gives as 685\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch3/cuthbert-of-lindisfarne.card.json, field dates)."
+ },
+ {
+  "id": "cyprian-of-carthage",
+  "active_year": 255,
+  "kind": "held",
+  "basis": "\"In 255 he and a council of African bishops told Stephen of Rome that people coming from heresy must be baptized.\" (cic-website/data/world-census.json, movement cyprian-of-carthage, field longDescription)."
+ },
+ {
+  "id": "cyril-of-alexandria",
+  "active_year": 431,
+  "kind": "held",
+  "basis": "\"At Ephesus in 431 his letter to Nestorius was read\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch5/records.json, claim)."
+ },
+ {
+  "id": "cyril-of-jerusalem",
+  "active_year": 348,
+  "kind": "held",
+  "basis": "\"gave the Catechetical Lectures to candidates for baptism in Lent of 348\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch2/records.json, claim). Gifford, following Touttee."
+ },
+ {
+  "id": "cyril-of-scythopolis",
+  "active_year": 557,
+  "kind": "proposed",
+  "basis": "No held line gives a year. No held line dates an act. Proposed 557, the year the card gives as a lower bound for his death. Line: \"Born at Scythopolis in Galilee about 523 and died after 557, in M.-A. Kugener's dates\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch3/cyril-of-scythopolis.card.json, field dates)."
+ },
+ {
+  "id": "damasus-of-rome",
+  "active_year": 366,
+  "kind": "held",
+  "basis": "\"Bishop from 366, by the date of the Ursinian account kept in the Collectio Avellana, or 367, by Jerome of Strido's Chronicle\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch2/damasus-of-rome.card.json, field dates)."
+ },
+ {
+  "id": "david-of-wales",
+  "active_year": 519,
+  "kind": "held",
+  "basis": "\"The synod of Brefi was held in 519, as Spelman, Ussher and others say\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch4/records.json, claim). The claim rests on the Bollandists, in an OCR-damaged passage; the card dates his death 601 (Annales Cambriae) or 588."
+ },
+ {
+  "id": "dhuoda",
+  "active_year": 841,
+  "kind": "held",
+  "basis": "\"Édouard Bondurand reckons from the book's closing note that she began it on 30 November 841\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch1/dhuoda.card.json, field dates). He dates its completion to 2 February 843."
+ },
+ {
+  "id": "didymus-the-blind",
+  "active_year": 353,
+  "kind": "proposed",
+  "basis": "No held line gives a year. The card's uncertain field says \"Ernest Cushing Richardson's note to Jerome gives about 311 to 396\". Proposed 353, the middle of that span."
+ },
+ {
+  "id": "dionysius-exiguus",
+  "active_year": 525,
+  "kind": "proposed",
+  "basis": "No held line gives a year. No held line dates the writing of his Easter tables (Bede says the cycles begin with 532). Proposed 525, the example year of the rules. Line: \"The Easter rules printed with his letters take the consulship of Probus the Younger as their example year and count it as 525\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch8/dionysius-exiguus.card.json, field dates)."
+ },
+ {
+  "id": "dionysius-of-alexandria",
+  "active_year": 247,
+  "kind": "held",
+  "basis": "\"Bishop from about 247\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era1/batch2/dionysius-of-alexandria.card.json, field dates)."
+ },
+ {
+  "id": "dionysius-of-tel-mahre",
+  "active_year": 818,
+  "kind": "held",
+  "basis": "\"Made patriarch on Sunday, the first of August 818, in his own words as Bar Hebraeus quotes them\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch2/dionysius-of-tel-mahre.card.json, field dates)."
+ },
+ {
+  "id": "dioscorus-of-alexandria",
+  "active_year": 449,
+  "kind": "held",
+  "basis": "\"Presided at Ephesus in August 449 by the emperor's order\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch1/records.json, claim)."
+ },
+ {
+  "id": "dorotheus-of-gaza",
+  "active_year": 596,
+  "kind": "proposed",
+  "basis": "No held line gives a year. No held line dates an act. Proposed 596, the year Migne heads his notice with, where the Bollandists say he flourished at the end of the sixth century. Line: \"J.-P. Migne heads Gallandi's notice with the year 596\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch5/dorotheus-of-gaza.card.json, field dates)."
+ },
+ {
+  "id": "eadburga-of-thanet",
+  "active_year": 717,
+  "kind": "proposed",
+  "basis": "No held line gives a year. The dated items are letters to her, not an act of hers. Proposed 717, the first of them. Line: \"Edward Kylie dates the letters to her from about 717 to the 740s\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch8/eadburga-of-thanet.card.json, field dates)."
+ },
+ {
+  "id": "elias-of-nisibis",
+  "active_year": 1019,
+  "kind": "held",
+  "basis": "\"E. W. Brooks dates the Chronography to 1019, and M.-A. Kugener to 1008\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch8/elias-of-nisibis.card.json, field dates). The year is Brooks's; Kugener gives 1008."
+ },
+ {
+  "id": "elipandus-of-toledo-and-felix-of-urgell",
+  "active_year": 792,
+  "kind": "held",
+  "basis": "\"The Frankish annals place Felix's first condemnation in 792\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch7/elipandus-of-toledo-and-felix-of-urgell.card.json, field dates). Elipandus's letter to Fidelis is dated 785 by a note in Migne's volume."
+ },
+ {
+  "id": "elishe",
+  "active_year": 450,
+  "kind": "held",
+  "basis": "\"Charles Neumann places him among the bishops at Artashat in 450\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch1/elishe.card.json, field dates)."
+ },
+ {
+  "id": "ephrem-the-syrian",
+  "active_year": 363,
+  "kind": "held",
+  "basis": "\"In 363 the emperor Jovian gave Nisibis to Persia, its Christians left, and Ephrem settled in a cell on a hill outside Edessa.\" (cic-website/data/world-census.json, movement ephrem-the-syrian, field longDescription)."
+ },
+ {
+  "id": "epiphanius-of-salamis",
+  "active_year": 368,
+  "kind": "proposed",
+  "basis": "No held line gives a year. The line gives two years for his election. Proposed 368, the earlier. Line: \"bishop about 368 or 369\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch3/epiphanius-of-salamis.card.json, field dates)."
+ },
+ {
+  "id": "eugippius",
+  "active_year": 511,
+  "kind": "held",
+  "basis": "\"dates Eugippius's letter sending the Life to the Roman deacon Paschasius to 511\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch7/eugippius.card.json, field dates). G. W. Robinson's date."
+ },
+ {
+  "id": "eunomius-of-cyzicus",
+  "active_year": 383,
+  "kind": "held",
+  "basis": "\"gave his creed to Theodosius in 383\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch2/eunomius-of-cyzicus.card.json, field dates)."
+ },
+ {
+  "id": "eusebius-of-caesarea",
+  "active_year": 325,
+  "kind": "proposed",
+  "basis": "No held line gives a year. His record says he \"Presented his creed at Nicaea; Constantine added One-in-essence\" (era1/batch1 records.json). The year 325 for Nicaea is in the era 2 batch 1 records.json claim on Melitius (\"The Council of Nicaea (325)\"). Proposed 325."
+ },
+ {
+  "id": "eusebius-of-nicomedia",
+  "active_year": 325,
+  "kind": "held",
+  "basis": "\"Exiled within three months of the Council of Nicaea of 325, by Philostorgius\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch5/eusebius-of-nicomedia.card.json, field dates). He was recalled in 328, by A. C. Zenos's note."
+ },
+ {
+  "id": "euthymius-the-great",
+  "active_year": 451,
+  "kind": "proposed",
+  "basis": "No held line gives a year. The card says he \"held to the Council of Chalcedon when most Palestinian monks turned against it\" and that the sources \"give no year in our reckoning\". Proposed 451, the year of Chalcedon, which the Dioscorus card gives (\"deposed on 13 October 451\")."
+ },
+ {
+  "id": "eutyches",
+  "active_year": 448,
+  "kind": "held",
+  "basis": "\"Condemned at a synod under Flavian of Constantinople that S. G. F. Perry and Charles Lett Feltoe date to November 448\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch6/eutyches.card.json, field dates)."
+ },
+ {
+  "id": "evagrius-ponticus",
+  "active_year": 381,
+  "kind": "held",
+  "basis": "\"left with Nectarius at the council of Constantinople in 381 as a skilled debater\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch3/records.json, claim). Clarke's note gives 381."
+ },
+ {
+  "id": "evagrius-scholasticus",
+  "active_year": 594,
+  "kind": "held",
+  "basis": "\"He ends his history in the twelfth year of Maurice, which Walford puts in 594\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch5/evagrius-scholasticus.card.json, field dates). The year is E. Walford's."
+ },
+ {
+  "id": "eznik-of-kolb",
+  "active_year": 450,
+  "kind": "proposed",
+  "basis": "No held line gives a year. No held line gives a year for Eznik. He is listed among the bishops who answered the Persian edict at Artashat; the Elishe card gives Artashat as 450 (\"Charles Neumann places him among the bishops at Artashat in 450\"). Proposed 450. Line: \"neither Elishe nor Lazar of Pharp gives a year\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch6/eznik-of-kolb.card.json, field dates)."
+ },
+ {
+  "id": "fabiola-of-rome",
+  "active_year": 395,
+  "kind": "held",
+  "basis": "\"at Bethlehem in 395, in the same edition's chronology\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch3/fabiola-of-rome.card.json, field dates). The edition is W. H. Fremantle's Jerome; the same line gives her death as 399."
+ },
+ {
+  "id": "faustus-of-riez",
+  "active_year": 473,
+  "kind": "proposed",
+  "basis": "No held line gives a year. The line gives two years for his best-known writing. Proposed 473. Line: \"dates On Grace about 473 to 474\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch6/faustus-of-riez.card.json, field dates)."
+ },
+ {
+  "id": "ferrandus-of-carthage",
+  "active_year": 546,
+  "kind": "proposed",
+  "basis": "No held line gives a year. The line dates a mention, not an act of his. Proposed 546. Line: \"Victor of Tunnuna says he was held in high regard in the year Theodor Mommsen, his editor, gives as 546\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch2/ferrandus-of-carthage.card.json, field dates)."
+ },
+ {
+  "id": "frumentius",
+  "active_year": 328,
+  "kind": "proposed",
+  "basis": "No held line gives a year. The only number is Rufinus's 328, which the card says Robertson and Valesius reject in favour of a later year they do not number; no held line gives the later year. Proposed 328 as the sole anchor, flagged as disputed. Line: \"Consecrated soon after Athanasius became bishop (c.328)\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch1/records.json, claim)."
+ },
+ {
+  "id": "fulgentius-of-ruspe",
+  "active_year": 504,
+  "kind": "held",
+  "basis": "\"Jean Garnier, in dissertations Migne reprints, gives 464 for his birth, 504 for his consecration\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch7/fulgentius-of-ruspe.card.json, field dates). Joseph Mesnage gives his years as bishop as 508 to 533."
+ },
+ {
+  "id": "gennadius-of-marseilles",
+  "active_year": 480,
+  "kind": "held",
+  "basis": "\"Ernest Cushing Richardson dates most of his Lives of Illustrious Men about 480\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch6/gennadius-of-marseilles.card.json, field dates)."
+ },
+ {
+  "id": "germanus-of-auxerre",
+  "active_year": 429,
+  "kind": "held",
+  "basis": "\"Sent to Britain in the year that Theodor Mommsen's edition of Prosper of Aquitaine's chronicle sets in 429\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch6/germanus-of-auxerre.card.json, field dates)."
+ },
+ {
+  "id": "gildas",
+  "active_year": 543,
+  "kind": "proposed",
+  "basis": "No held line gives a year. The book is dated by a span, \"a few years after 540 and before 547\". Proposed 543, Williams's birth about 500 plus forty-three years. Line: \"Born in the year of the siege of Badon Hill, by his own words, and writing some forty-three years later, in Hugh Williams's reading. Williams puts his birth about 500\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch4/gildas.card.json, field dates)."
+ },
+ {
+  "id": "gregory-of-narek",
+  "active_year": 960,
+  "kind": "proposed",
+  "basis": "No held line gives a year. No held line dates an act. Proposed 960, Conybeare's floruit; Macler gives 951 to 1003 and Ormanian death in 1003. Line: \"F. C. Conybeare sets about 960 beside his name\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch2/gregory-of-narek.card.json, field dates)."
+ },
+ {
+  "id": "gregory-of-nazianzus",
+  "active_year": 381,
+  "kind": "held",
+  "basis": "\"the council of 381 made him archbishop of the city\" (cic-website/data/world-census.json, movement gregory-of-nazianzus, field longDescription)."
+ },
+ {
+  "id": "gregory-of-nyssa",
+  "active_year": 381,
+  "kind": "held",
+  "basis": "\"In 381 he brought a treatise against Eunomius to the council at Constantinople\" (cic-website/data/world-census.json, movement gregory-of-nyssa, field longDescription)."
+ },
+ {
+  "id": "gregory-of-tours",
+  "active_year": 573,
+  "kind": "held",
+  "basis": "\"Bishop from 573, which W. Arndt reckons from Gregory's own date\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch5/gregory-of-tours.card.json, field dates)."
+ },
+ {
+  "id": "gregory-the-great",
+  "active_year": 590,
+  "kind": "held",
+  "basis": "\"He was ordained on 3 September 590.\" (cic-website/data/world-census.json, movement gregory-the-great, field longDescription)."
+ },
+ {
+  "id": "gregory-vii",
+  "active_year": 1076,
+  "kind": "held",
+  "basis": "\"In 1076 he cut the German king Henry IV off from the church.\" (cic-website/data/world-census.json, movement gregory-vii, field why)."
+ },
+ {
+  "id": "henana-of-adiabene",
+  "active_year": 572,
+  "kind": "held",
+  "basis": "\"Master of the school from 572 in Addai Scher's reckoning\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch5/henana-of-adiabene.card.json, field dates). Chabot has him teaching about 570."
+ },
+ {
+  "id": "heraclius",
+  "active_year": 638,
+  "kind": "held",
+  "basis": "\"In 638 a synod under Sergius confirmed a statement of faith issued in his name, the Ecthesis.\" (cic-website/data/world-census.json, movement heraclius, field why). The same entry says Sergius crowned him on 6 October 610; the year of the Ecthesis was taken as the act the church tree knows him for."
+ },
+ {
+  "id": "hermas",
+  "active_year": 147,
+  "kind": "proposed",
+  "basis": "No held line gives a year. The card dates give \"between about 100 and 160\" and the record a span. Proposed 147, the middle of 140 to 154. Line: \"Brother of Pius, writing at Rome c. 140-154\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era1/batch1/records.json, claim)."
+ },
+ {
+  "id": "hilarion-of-gaza",
+  "active_year": 331,
+  "kind": "proposed",
+  "basis": "No held line gives a year. No held line dates an act. Proposed 331, the middle of the span. Line: \"About 291 to about 371\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch1/hilarion-of-gaza.card.json, field dates)."
+ },
+ {
+  "id": "hilary-of-arles",
+  "active_year": 429,
+  "kind": "held",
+  "basis": "\"E. C. Richardson, translator of Gennadius of Marseilles, gives born about 401, bishop 429, died 449\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch6/hilary-of-arles.card.json, field dates). The year is Richardson's for his election."
+ },
+ {
+  "id": "hilary-of-poitiers",
+  "active_year": 356,
+  "kind": "held",
+  "basis": "\"Condemned at the Council of Beziers in 356 and banished to Phrygia\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch1/records.json, claim)."
+ },
+ {
+  "id": "hild-of-whitby",
+  "active_year": 664,
+  "kind": "held",
+  "basis": "\"Synod of 664: 'it was agreed, that a synod should be held in the monastery of Streaneshalch\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch1/records.json, claim). The year is from Bede and Plummer's margin \"a. 664\". The card dates give 655 and her death 680."
+ },
+ {
+  "id": "hincmar-of-reims",
+  "active_year": 845,
+  "kind": "held",
+  "basis": "\"Ordained archbishop of Reims in 845, by a table of dates in J. D. Mansi's council collection\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch4/hincmar-of-reims.card.json, field dates)."
+ },
+ {
+  "id": "hippolytus-of-rome",
+  "active_year": 235,
+  "kind": "held",
+  "basis": "\"Exiled 235\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era1/batch2/hippolytus-of-rome.card.json, field dates)."
+ },
+ {
+  "id": "honoratus-of-arles",
+  "active_year": 426,
+  "kind": "held",
+  "basis": "\"Bishop of Arles from 426 and died in January 429, both by Edgar Gibson's dating\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch4/honoratus-of-arles.card.json, field dates)."
+ },
+ {
+  "id": "hugo-grotius",
+  "active_year": 1617,
+  "kind": "held",
+  "basis": "\"In 1617 he published at Leiden a treatise on theology.\" (cic-website/data/world-census.json, movement hugo-grotius, field longDescription)."
+ },
+ {
+  "id": "humbert-of-silva-candida",
+  "active_year": 1054,
+  "kind": "held",
+  "basis": "\"Sent to Constantinople in January 1054, Cornelius Will says\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch4/humbert-of-silva-candida.card.json, field dates)."
+ },
+ {
+  "id": "ignatius-of-antioch",
+  "active_year": 107,
+  "kind": "held",
+  "basis": "\"Death in 107 under Trajan\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era1/batch1/records.json, claim). The claim sets Eusebius's Chronicle against Zahn, Lightfoot and Harnack; the card dates give only \"Died under the emperor Trajan, or later\"."
+ },
+ {
+  "id": "ignatius-of-loyola",
+  "active_year": 1540,
+  "kind": "held",
+  "basis": "\"In 1540 Pope Paul III approved their Society.\" (cic-website/data/world-census.json, movement ignatius-of-loyola, field longDescription)."
+ },
+ {
+  "id": "ildefonsus-of-toledo",
+  "active_year": 659,
+  "kind": "held",
+  "basis": "\"Nicolás Antonio, in his Bibliotheca Hispana vetus, reckons these as 659 and 669\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch4/ildefonsus-of-toledo.card.json, field dates). The year of his election as bishop; 669 is his death."
+ },
+ {
+  "id": "innocent-iii",
+  "active_year": 1215,
+  "kind": "held",
+  "basis": "\"In 1215 he held the Fourth Lateran Council.\" (cic-website/data/world-census.json, movement innocent-iii, field longDescription)."
+ },
+ {
+  "id": "irenaeus-of-lyon",
+  "active_year": 177,
+  "kind": "held",
+  "basis": "\"Around 177 the Christians of Lyon in Gaul were in prison, awaiting death. They wrote to Eleutherius, bishop of Rome, and asked Irenaeus to carry the letter.\" (cic-website/data/world-census.json, movement irenaeus-of-lyon, field longDescription). The year is approximate (\"Around 177\")."
+ },
+ {
+  "id": "isaac-of-alexandria",
+  "active_year": 686,
+  "kind": "held",
+  "basis": "\"B. Evetts heads his life in the History of the Patriarchs 686 to 689\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch6/isaac-of-alexandria.card.json, field dates)."
+ },
+ {
+  "id": "isidore-of-seville",
+  "active_year": 633,
+  "kind": "held",
+  "basis": "\"presided at the second council of Seville in 619, and probably also at the fourth of Toledo in 633\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch6/records.json, claim). Brehaut; \"probably\". Lorenzana's preface also has \"concil. iv Tolet., praeside sancto Isidoro\"."
+ },
+ {
+  "id": "jacob-baradaeus",
+  "active_year": 542,
+  "kind": "held",
+  "basis": "\"Made bishop in the sixteenth year of Justinian, which E. W. Brooks gives as 542\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch4/jacob-baradaeus.card.json, field dates)."
+ },
+ {
+  "id": "jacob-of-edessa",
+  "active_year": 692,
+  "kind": "held",
+  "basis": "\"Wrote his chronicle in the year 1003 of Alexander, Elias of Nisibis says, which E. W. Brooks gives as 692\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch2/jacob-of-edessa.card.json, field dates)."
+ },
+ {
+  "id": "jerome",
+  "active_year": 391,
+  "kind": "held",
+  "basis": "\"There, from 391, he worked on a Latin Old Testament made from the Hebrew.\" (cic-website/data/world-census.json, movement jerome, field longDescription). The same entry has him settling at Bethlehem in 386 and writing against Jovinian in 393."
+ },
+ {
+  "id": "john-calvin",
+  "active_year": 1536,
+  "kind": "held",
+  "basis": "\"There in 1536 he published the first known edition of the Institutes of the Christian Religion.\" (cic-website/data/world-census.json, movement john-calvin, field longDescription)."
+ },
+ {
+  "id": "john-cassian",
+  "active_year": 399,
+  "kind": "proposed",
+  "basis": "No held line gives a year. No held line dates an act of his; the record gives Egypt \"about 380 to 400\" and Gibson dates to 399 the festal letter his Conference X names. Proposed 399. Line: \"Gibson dates the festal letter to 399\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch4/records.json, claim)."
+ },
+ {
+  "id": "john-chrysostom",
+  "active_year": 398,
+  "kind": "held",
+  "basis": "\"In February of 398 John had been made bishop\" (cic-website/data/world-census.json, movement john-chrysostom, field longDescription)."
+ },
+ {
+  "id": "john-climacus",
+  "active_year": 580,
+  "kind": "proposed",
+  "basis": "No held line gives a year. No held line dates an act. Proposed 580, Labbe's floruit, which the Bollandists' death about 580 also touches. Line: \"Philippe Labbe says he lived about 580\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch8/john-climacus.card.json, field dates)."
+ },
+ {
+  "id": "john-iii-of-samannud",
+  "active_year": 677,
+  "kind": "held",
+  "basis": "\"B. Evetts heads his life 677 to 686\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch6/john-iii-of-samannud.card.json, field dates)."
+ },
+ {
+  "id": "john-moschus",
+  "active_year": 600,
+  "kind": "held",
+  "basis": "\"guesses the book was written about 600\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch6/john-moschus.card.json, field dates). Aloysius Lipomanus's guess for the Meadow; he says the time is not known for certain."
+ },
+ {
+  "id": "john-of-beth-aphthonia",
+  "active_year": 538,
+  "kind": "proposed",
+  "basis": "No held line gives a year. No held line dates the writer's own act. Proposed 538, the year E. W. Brooks gives for the entry that sits beside Severus's death; the Life of Severus was written after it. Line: \"The archimandrite John bar Aphthonia died on 4 November\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch7/john-of-beth-aphthonia.card.json, field dates)."
+ },
+ {
+  "id": "john-of-biclaro",
+  "active_year": 576,
+  "kind": "held",
+  "basis": "\"Theodor Mommsen thinks the return likely about 576\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch6/john-of-biclaro.card.json, field dates)."
+ },
+ {
+  "id": "john-of-ephesus",
+  "active_year": 585,
+  "kind": "held",
+  "basis": "\"His history ends in 585\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch4/john-of-ephesus.card.json, field dates)."
+ },
+ {
+  "id": "john-of-nikiu",
+  "active_year": 696,
+  "kind": "held",
+  "basis": "\"Charles gives 690 for that election and 696 for his charge of the monasteries\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch5/john-of-nikiu.card.json, field dates)."
+ },
+ {
+  "id": "john-rufus",
+  "active_year": 513,
+  "kind": "proposed",
+  "basis": "No held line gives a year. The line gives a lower bound for his writing. Proposed 513. Line: \"wrote soon after 512\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch2/john-rufus.card.json, field dates)."
+ },
+ {
+  "id": "john-wesley",
+  "active_year": 1738,
+  "kind": "held",
+  "basis": "\"Back in London, in March 1738, the Moravian Peter Böhler convinced him that he lacked saving faith. On 24 May he went, unwillingly, to a meeting in Aldersgate Street\" (cic-website/data/world-census.json, movement john-wesley, field longDescription). The year 1738 is printed in the first sentence; 24 May is in the same passage. The entry also dates his open-air preaching at Bristol to 2 April 1739."
+ },
+ {
+  "id": "john-wyclif",
+  "active_year": 1382,
+  "kind": "held",
+  "basis": "\"In 1382 Archbishop Courtenay called a synod in London to judge them.\" (cic-website/data/world-census.json, movement john-wyclif, field longDescription)."
+ },
+ {
+  "id": "jonas-of-bobbio",
+  "active_year": 640,
+  "kind": "held",
+  "basis": "\"Wrote the Life of Columbanus about 640, by Bruno Krusch's date\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch4/jonas-of-bobbio.card.json, field dates)."
+ },
+ {
+  "id": "joseph-i-of-alexandria",
+  "active_year": 831,
+  "kind": "held",
+  "basis": "\"Eusèbe Renaudot reckons his ordination to 831\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch6/joseph-i-of-alexandria.card.json, field dates)."
+ },
+ {
+  "id": "josephus",
+  "active_year": 69,
+  "kind": "proposed",
+  "basis": "No held line gives a year. No held line dates an act. Proposed 69, about the middle of his life from 37 to about 100. Line: \"Born 37; died early in the second century\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era1/batch1/josephus.card.json, field dates)."
+ },
+ {
+  "id": "joshua-the-stylite",
+  "active_year": 506,
+  "kind": "proposed",
+  "basis": "No held line gives a year. The line gives a lower bound. Proposed 506; Wright puts the writing that winter and the early part of the next year. Line: \"Wrote soon after 28 November 506, the last date in the Chronicle\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch2/joshua-the-stylite.card.json, field dates)."
+ },
+ {
+  "id": "jovinian",
+  "active_year": 390,
+  "kind": "held",
+  "basis": "\"By the editors' account, synods at Rome and at Milan condemned it about 390.\" (cic-website/data/world-census.json, movement jovinian, field longDescription). The year is approximate (\"about 390\"); the dates field reads \"c. 390\"."
+ },
+ {
+  "id": "julian-missionary-to-the-nobadae",
+  "active_year": 545,
+  "kind": "proposed",
+  "basis": "No held line gives a year. No held line gives a year. He worked under Theodora, whose death the Theodora card gives as 548 (E. W. Brooks), and after Justinian's accession in 527. Proposed 545. Line: \"Sixth century, under Justinian and Theodora\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch2/julian-missionary-to-the-nobadae.card.json, field dates)."
+ },
+ {
+  "id": "julian-of-toledo",
+  "active_year": 680,
+  "kind": "held",
+  "basis": "\"his consecration on 29 January 680\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch4/julian-of-toledo.card.json, field dates). From the notes of Cardinal Lorenzana's Toledo edition."
+ },
+ {
+  "id": "justin-martyr",
+  "active_year": 165,
+  "kind": "held",
+  "basis": "\"Died about 165\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era1/batch1/justin-martyr.card.json, field dates). His martyrdom."
+ },
+ {
+  "id": "justinian-i",
+  "active_year": 553,
+  "kind": "held",
+  "basis": "\"In 553 he called a council to condemn the writings of three theologians long dead.\" (cic-website/data/world-census.json, movement justinian-i, field longDescription)."
+ },
+ {
+  "id": "koriun",
+  "active_year": 432,
+  "kind": "proposed",
+  "basis": "No held line gives a year. No held line gives a year. The Council of Ephesus is dated 431 in the Cyril of Alexandria card, so the return fell after it. Proposed 432. Line: \"before the return that brought home the canons of the Council of Ephesus\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch5/koriun.card.json, field dates)."
+ },
+ {
+  "id": "lactantius",
+  "active_year": 312,
+  "kind": "proposed",
+  "basis": "No held line gives a year (census entry lactantius) for an act: the Divine Institutes are undated and the dates field reads \"c. 303-325\". The entry says the work \"is addressed to Constantine, the first of the Roman princes, Lactantius says, to give up errors and honor the one true God\". Proposed 312, the year the Constantine entry's window begins (\"312-337\"), as the first year that address could stand."
+ },
+ {
+  "id": "lazar-parpetsi",
+  "active_year": 486,
+  "kind": "proposed",
+  "basis": "No held line gives a year. The line dates the end of his History. Proposed 486; Neumann gives 485. Line: \"which a note in the French edition dates to 486 and Charles Neumann, in the preface to his English Elishe, to 485\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch1/lazar-parpetsi.card.json, field dates)."
+ },
+ {
+  "id": "leander-of-seville",
+  "active_year": 589,
+  "kind": "held",
+  "basis": "\"589 is the year James Barmby and Henry Percival give\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch5/records.json, claim). The Third Council of Toledo, in Reccared's fourth year."
+ },
+ {
+  "id": "leo-of-rome",
+  "active_year": 449,
+  "kind": "held",
+  "basis": "\"Answered Flavian in 449 with the Tome\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch5/records.json, claim). Date May to June 449 by Feltoe."
+ },
+ {
+  "id": "leoba",
+  "active_year": 744,
+  "kind": "proposed",
+  "basis": "No held line gives a year. Only her letter, dated \"after 732\", is her act. Proposed 744, the middle of 742 to 746, the dates of the letter to her and her sisters. Line: \"He dates Boniface's letter to her between 723 and 755, and one to her and her sisters between 742 and 746\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch3/leoba.card.json, field dates)."
+ },
+ {
+  "id": "liberatus-of-carthage",
+  "active_year": 561,
+  "kind": "proposed",
+  "basis": "No held line gives a year. The line gives a span. Proposed 561, its middle. Line: \"Theodor Mommsen dates the Breviarium between 555 and 567\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch8/liberatus-of-carthage.card.json, field dates)."
+ },
+ {
+  "id": "liberius-of-rome",
+  "active_year": 352,
+  "kind": "held",
+  "basis": "\"The year 352 for his election is an editors' date, from the Liberian Catalogue as Louise Ropes Loomis reports it\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch6/liberius-of-rome.card.json, field dates)."
+ },
+ {
+  "id": "longinus-bishop-of-the-nobadae",
+  "active_year": 580,
+  "kind": "held",
+  "basis": "\"with the Alodaei in the Seleucid year 891, which R. Payne Smith gives as 580\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch4/longinus-bishop-of-the-nobadae.card.json, field dates)."
+ },
+ {
+  "id": "lucifer-of-cagliari",
+  "active_year": 355,
+  "kind": "held",
+  "basis": "\"was exiled 355-361\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch1/records.json, claim). The claim sets the start of his exile at 355."
+ },
+ {
+  "id": "macrina-the-younger",
+  "active_year": 379,
+  "kind": "proposed",
+  "basis": "No held line gives a year. No held line dates an act; her death is the only year. Proposed 379. Line: \"Died in 379, after the council of Antioch that September, by W. K. Lowther Clarke's dates\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch2/macrina-the-younger.card.json, field dates)."
+ },
+ {
+  "id": "mar-aba-i",
+  "active_year": 540,
+  "kind": "held",
+  "basis": "\"Elected in January 540 and died in 552, in J.-B. Chabot's dates\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch3/mar-aba-i.card.json, field dates). The Latin editors of Bar Hebraeus give 538 to 552."
+ },
+ {
+  "id": "marcella-of-rome",
+  "active_year": 410,
+  "kind": "held",
+  "basis": "\"Died at Rome a few days after the city was taken in 410\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch3/marcella-of-rome.card.json, field dates). The year is from the notes to W. H. Fremantle's English Jerome."
+ },
+ {
+  "id": "marcellinus-comes",
+  "active_year": 534,
+  "kind": "held",
+  "basis": "\"His chronicle ran first to 518 and later to 534, in Theodor Mommsen's years for the consulships his preface names\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch3/marcellinus-comes.card.json, field dates). The year is the end of the later issue."
+ },
+ {
+  "id": "marcellus-of-ancyra",
+  "active_year": 325,
+  "kind": "proposed",
+  "basis": "No held line gives a year. No held line gives the year. Nicaea is 325 in the Arius record (\"Condemned at Nicaea in 325\"). Proposed 325. Line: \"At the Council of Nicaea, by his own letter\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch6/marcellus-of-ancyra.card.json, field dates)."
+ },
+ {
+  "id": "marcion-of-pontus",
+  "active_year": 150,
+  "kind": "proposed",
+  "basis": "No held line gives a year. No held line gives a year. Proposed 150, the middle of the second century. Line: \"Taught at Rome in the middle of the second century\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era1/batch1/marcion-of-pontus.card.json, field dates)."
+ },
+ {
+  "id": "marius-mercator",
+  "active_year": 429,
+  "kind": "held",
+  "basis": "\"Gave his Commonitorium on Caelestius to the church of Constantinople in 429, by the consuls its title names\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch6/marius-mercator.card.json, field dates)."
+ },
+ {
+  "id": "marius-of-avenches",
+  "active_year": 585,
+  "kind": "held",
+  "basis": "\"He signed the acts of the council of Mâcon, held in King Guntram's twenty-fourth year, which Friedrich Maassen gives as 585\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch8/marius-of-avenches.card.json, field dates)."
+ },
+ {
+  "id": "martin-i-of-rome",
+  "active_year": 649,
+  "kind": "held",
+  "basis": "\"Bishop of Rome from 649\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch2/martin-i-of-rome.card.json, field dates)."
+ },
+ {
+  "id": "martin-luther",
+  "active_year": 1517,
+  "kind": "held",
+  "basis": "\"On 31 October 1517 he wrote to the archbishop of Mainz about the indulgences sold under the archbishop's name.\" (cic-website/data/world-census.json, movement martin-luther, field longDescription)."
+ },
+ {
+  "id": "martin-of-braga",
+  "active_year": 572,
+  "kind": "held",
+  "basis": "\"The Second Council of Braga, which he led, is dated in King Miro's second year, Spanish era 610, which the Bollandists give as 572\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch8/martin-of-braga.card.json, field dates)."
+ },
+ {
+  "id": "martin-of-tours",
+  "active_year": 371,
+  "kind": "proposed",
+  "basis": "No held line gives a year. No held line gives the year of his election. He died in 397 in the twenty-sixth year of his episcopate, so he became bishop in 371 or 372. Proposed 371. Line: \"in the eighty-first year of his life and the twenty-sixth of his episcopate, in 397\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch3/records.json, claim)."
+ },
+ {
+  "id": "maximus-the-confessor",
+  "active_year": 655,
+  "kind": "held",
+  "basis": "\"Tried at Constantinople in 655, by Louis Duchesne's dates\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch2/maximus-the-confessor.card.json, field dates). He debated Pyrrhus in Africa in 645, by J. A. Fabricius's date."
+ },
+ {
+  "id": "melania-the-elder",
+  "active_year": 397,
+  "kind": "held",
+  "basis": "\"W. H. Fremantle, in his life of Rufinus of Aquileia, has her reach Italy with Rufinus in the spring of 397\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch3/melania-the-elder.card.json, field dates)."
+ },
+ {
+  "id": "melitius-of-lycopolis",
+  "active_year": 306,
+  "kind": "held",
+  "basis": "\"excommunicated by Peter about 306, by H. Idris Bell's dating\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch1/melitius-of-lycopolis.card.json, field dates)."
+ },
+ {
+  "id": "mesrop-mashtots",
+  "active_year": 401,
+  "kind": "proposed",
+  "basis": "No held line gives a year. No held line dates the Armenian letters; Decision-Log (era 2 batch 5) says no held line gives the scan's \"about 405\". Proposed 401, the middle of 361 to 441. Line: \"Born in 361 and died in 441, at eighty, by a note in Victor Langlois's edition; Koriun gives no years\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch5/mesrop-mashtots.card.json, field dates)."
+ },
+ {
+  "id": "methodius-of-olympus",
+  "active_year": 312,
+  "kind": "held",
+  "basis": "\"he died a martyr at Chalcis at the end of the recent persecution. That was around the year 312.\" (cic-website/data/world-census.json, movement methodius-of-olympus, field longDescription). The only dated event is his martyrdom, approximate (\"around the year 312\"); his writings are undated."
+ },
+ {
+  "id": "michael-i-of-alexandria",
+  "active_year": 744,
+  "kind": "held",
+  "basis": "\"B. Evetts heads the life 744 to 768\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch6/michael-i-of-alexandria.card.json, field dates). The year is B. Evetts's heading for the start of his patriarchate."
+ },
+ {
+  "id": "moses-bar-kepha",
+  "active_year": 903,
+  "kind": "proposed",
+  "basis": "No held line gives a year. No held line dates an act. Proposed 903, his death as Abbeloos and Lamy take it. Line: \"J. B. Abbeloos and T. J. Lamy take 903\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch5/moses-bar-kepha.card.json, field dates)."
+ },
+ {
+  "id": "moses-of-khoren",
+  "active_year": 481,
+  "kind": "proposed",
+  "basis": "No held line gives a year. The year dates an event in his History, not his own act. Proposed 481. Line: \"places his patron's revolt in 481\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch1/moses-of-khoren.card.json, field dates)."
+ },
+ {
+  "id": "moses-the-black",
+  "active_year": 419,
+  "kind": "proposed",
+  "basis": "No held line gives a year. No held line gives a year for Moses. Proposed 419, the earlier year Palladius wrote of him; he had died by then. Line: \"Palladius wrote his history, by W. K. Lowther Clarke's note, in 419 or 420\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch6/moses-the-black.card.json, field dates)."
+ },
+ {
+  "id": "muirchu",
+  "active_year": 698,
+  "kind": "proposed",
+  "basis": "No held line gives a year. The line gives an upper bound. Proposed 698. Line: \"Newport White dates at least the first book before Aedh's death in 699, and Louis Duchesne puts that death in 698\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch3/muirchu.card.json, field dates)."
+ },
+ {
+  "id": "narsai",
+  "active_year": 457,
+  "kind": "held",
+  "basis": "\"Left Edessa in 457 by R. H. Connolly's account\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch1/narsai.card.json, field dates)."
+ },
+ {
+  "id": "nennius",
+  "active_year": 858,
+  "kind": "held",
+  "basis": "\"The prologue in J. A. Giles's translation gives 858, the twenty-fourth year of Mervin, king of the Britons\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch1/nennius.card.json, field dates). The card says the book's own dates differ (its list of years reaches 976) and that Williams ab Ithel dates a first edition to 674."
+ },
+ {
+  "id": "nestorius",
+  "active_year": 431,
+  "kind": "held",
+  "basis": "\"In 431 a council met at Ephesus. Nestorius would not come before it. The council said he was no longer a bishop.\" (cic-website/data/world-census.json, movement nestorius, field longDescription)."
+ },
+ {
+  "id": "niketas-stethatos",
+  "active_year": 1054,
+  "kind": "held",
+  "basis": "\"which Cornelius Will reckons as 24 June 1054\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch7/niketas-stethatos.card.json, field dates)."
+ },
+ {
+  "id": "novatian",
+  "active_year": 251,
+  "kind": "held",
+  "basis": "\"Made a rival bishop at Rome in 251\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era1/batch2/novatian.card.json, field dates)."
+ },
+ {
+  "id": "olympias-of-constantinople",
+  "active_year": 414,
+  "kind": "proposed",
+  "basis": "No held line gives a year. No held line dates an act. Proposed 414, the middle of 408 to 420. Line: \"Born about 368, by W. R. W. Stephens's reckoning; died between 408 and 420, by Philip Schaff's\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch3/olympias-of-constantinople.card.json, field dates)."
+ },
+ {
+  "id": "origen",
+  "active_year": 231,
+  "kind": "held",
+  "basis": "\"In the year 231 Origen left Alexandria for Caesarea.\" (cic-website/data/world-census.json, movement origen, field longDescription)."
+ },
+ {
+  "id": "ossius-of-cordoba",
+  "active_year": 357,
+  "kind": "held",
+  "basis": "\"which Archibald Robertson's notes to Athanasius place in 357\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch5/ossius-of-cordoba.card.json, field dates). The year he was held at Sirmium."
+ },
+ {
+  "id": "pachomius",
+  "active_year": 320,
+  "kind": "proposed",
+  "basis": "No held line gives a year. No held line dates an act. Proposed 320, the middle of 292 to 348. Line: \"Born about 292, died 348\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch1/pachomius.card.json, field dates)."
+ },
+ {
+  "id": "palladius-of-helenopolis",
+  "active_year": 419,
+  "kind": "proposed",
+  "basis": "No held line gives a year. The line gives two years. Proposed 419, the earlier. Line: \"began the Lausiac History in the fifty-sixth year of his life, in 419 or 420 by Clarke's date\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch4/palladius-of-helenopolis.card.json, field dates)."
+ },
+ {
+  "id": "pamphilus-of-caesarea",
+  "active_year": 309,
+  "kind": "held",
+  "basis": "\"Then Firmilianus, the next governor, had him put to death. The usual date is 309.\" (cic-website/data/world-census.json, movement pamphilus-of-caesarea, field longDescription). The entry adds \"The English editor of Eusebius argues for February 310\" and says he was jailed near the end of 307."
+ },
+ {
+  "id": "patrick-of-ireland",
+  "active_year": 432,
+  "kind": "proposed",
+  "basis": "No held line gives a year (census entry patrick-of-ireland): the Confession is told without dates and the dates field reads \"c. 432-461\". Proposed 432, the start of that span, as the start of his work as bishop in Ireland."
+ },
+ {
+  "id": "paul-the-deacon",
+  "active_year": 787,
+  "kind": "held",
+  "basis": "\"back in Benevento in the summer of 787, by Foulke\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch7/paul-the-deacon.card.json, field dates). The card dates no writing; he died in a year unknown."
+ },
+ {
+  "id": "paula-of-rome",
+  "active_year": 386,
+  "kind": "proposed",
+  "basis": "No held line gives a year (census entry paula-of-rome) for an act: it says \"She toured the holy places, then settled at Bethlehem\" and the dates field reads \"c. 386-404\". Proposed 386, the start of that span; the Jerome entry says \"In 386 he settled at Bethlehem\"."
+ },
+ {
+  "id": "paulinus-of-milan",
+  "active_year": 417,
+  "kind": "held",
+  "basis": "\"his petition to Zosimus of Rome is dated 8 November 417 by its editor Otto Günther\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch4/paulinus-of-milan.card.json, field dates)."
+ },
+ {
+  "id": "paulus-emeritanus",
+  "active_year": 610,
+  "kind": "held",
+  "basis": "\"J.-P. Migne's volume places him under the year 610\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch7/paulus-emeritanus.card.json, field dates). Tamayo de Vargas reasons he died about the Fourth Council of Toledo; the card dates no act."
+ },
+ {
+  "id": "pelagius",
+  "active_year": 415,
+  "kind": "held",
+  "basis": "\"cleared by the Synod of Diospolis late in 415\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch4/pelagius.card.json, field dates)."
+ },
+ {
+  "id": "peter-of-alexandria",
+  "active_year": 311,
+  "kind": "held",
+  "basis": "\"beheaded in the ninth year of the persecution, 25 November 311 by Bell's date\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era1/batch3/peter-of-alexandria.card.json, field dates)."
+ },
+ {
+  "id": "peter-the-iberian",
+  "active_year": 445,
+  "kind": "held",
+  "basis": "\"Peter was made a priest in 445.\" (cic-website/data/world-census.json, movement peter-the-iberian, field longDescription). His election as bishop of Maiuma is dated only \"After the council of 451\"."
+ },
+ {
+  "id": "philostorgius",
+  "active_year": 425,
+  "kind": "held",
+  "basis": "\"his history runs down to 425, by Walford's date\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch4/philostorgius.card.json, field dates)."
+ },
+ {
+  "id": "philoxenus-of-mabbug",
+  "active_year": 485,
+  "kind": "held",
+  "basis": "\"Made bishop of Mabbug in 485, by Budge's date\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch7/philoxenus-of-mabbug.card.json, field dates)."
+ },
+ {
+  "id": "photius-of-constantinople",
+  "active_year": 858,
+  "kind": "held",
+  "basis": "\"Patriarch 858 to 867 and again 878 to 886, by J. H. Freese's list of patriarchs\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch2/photius-of-constantinople.card.json, field dates)."
+ },
+ {
+  "id": "pisentius-of-coptos-and-john-the-elder",
+  "active_year": 616,
+  "kind": "held",
+  "basis": "\"which Budge's note dates to 616 by Theophanes\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch7/pisentius-of-coptos-and-john-the-elder.card.json, field dates). The year of Pisentius's flight while the Persians held Egypt."
+ },
+ {
+  "id": "pliny-the-younger",
+  "active_year": 112,
+  "kind": "proposed",
+  "basis": "No held line gives a year. The line gives \"110 or 111\" and \"probably within a year\". The card's uncertain field adds \"Adolf Harnack dates the letter about 111 to 113\". Proposed 112, the middle of that span. Line: \"Governor of Bithynia from 110 or 111; wrote to Trajan probably within a year\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era1/batch3/pliny-the-younger.card.json, field dates)."
+ },
+ {
+  "id": "polycarp-of-smyrna",
+  "active_year": 155,
+  "kind": "proposed",
+  "basis": "No held line gives a year (census entry polycarp-of-smyrna): the proconsul scene is undated and the dates field reads \"c. 110-155\". Proposed 155, the end of that span, the year of his death at Smyrna, his best-known act."
+ },
+ {
+  "id": "polycrates-of-ephesus",
+  "active_year": 198,
+  "kind": "proposed",
+  "basis": "No held line gives a year. The card says \"The date of the synods is commonly given as 198, but McGiffert says there is 'no particular authority for that year'\". Proposed 198, as the only number, flagged."
+ },
+ {
+  "id": "pontius-the-deacon",
+  "active_year": 258,
+  "kind": "proposed",
+  "basis": "No held line gives a year. The year is Cyprian's death, the event his Life narrates; no held line dates Pontius's own act. Proposed 258. Line: \"Shared Cyprian's exile; Cyprian died in 258\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era1/batch2/pontius-the-deacon.card.json, field dates)."
+ },
+ {
+  "id": "possidius-of-calama",
+  "active_year": 411,
+  "kind": "held",
+  "basis": "\"Bishop of Calama by 411, when the Carthage conference lists him\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch4/possidius-of-calama.card.json, field dates)."
+ },
+ {
+  "id": "primasius-of-hadrumetum",
+  "active_year": 553,
+  "kind": "held",
+  "basis": "\"Vigilius's ruling, which he signed, is dated the day before the Ides of May in Justinian's twenty-seventh year, which Otto Günther gives as 14 May 553\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch7/primasius-of-hadrumetum.card.json, field dates)."
+ },
+ {
+  "id": "priscillian",
+  "active_year": 385,
+  "kind": "held",
+  "basis": "\"Ernest Cushing Richardson dates him flourished 379, died 385\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch2/priscillian.card.json, field dates). The year of his execution at Trèves."
+ },
+ {
+  "id": "procopius-of-caesarea",
+  "active_year": 527,
+  "kind": "held",
+  "basis": "\"chosen as Belisarius's adviser in 527, Dewing's year for the event Procopius tells\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch3/procopius-of-caesarea.card.json, field dates)."
+ },
+ {
+  "id": "prosper-of-aquitaine",
+  "active_year": 429,
+  "kind": "held",
+  "basis": "\"Edgar Gibson dates the letter to 429\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch6/prosper-of-aquitaine.card.json, field dates). His letter to Augustine."
+ },
+ {
+  "id": "prudentius-of-troyes",
+  "active_year": 835,
+  "kind": "held",
+  "basis": "\"Kept the annals from 835\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch4/prudentius-of-troyes.card.json, field dates)."
+ },
+ {
+  "id": "radegund",
+  "active_year": 587,
+  "kind": "proposed",
+  "basis": "No held line gives a year. No held line dates an act; her death is the only year. Proposed 587. Line: \"a year the editors give as 587\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch4/radegund.card.json, field dates)."
+ },
+ {
+  "id": "reccared",
+  "active_year": 589,
+  "kind": "held",
+  "basis": "\"in his fourth year, which James Barmby and Henry Percival give as 589\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch5/reccared.card.json, field dates). The council is the Third Council of Toledo, 8 May."
+ },
+ {
+  "id": "romanos-the-melodist",
+  "active_year": 503,
+  "kind": "proposed",
+  "basis": "No held line gives a year. No held line gives a year. Pitra leaves open whether the emperor Anastasius is the first or the second; the era 3 placing favours the first, whose reign Pitra sets beside the earthquakes of 494 and 503. Proposed 503, low confidence. Line: \"earthquakes of 494 and 503, the Persian war of 502-504\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch3/records.json, claim)."
+ },
+ {
+  "id": "rufinus-of-aquileia",
+  "active_year": 400,
+  "kind": "held",
+  "basis": "\"by his own account in a letter Fremantle dates to 400\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch4/rufinus-of-aquileia.card.json, field dates)."
+ },
+ {
+  "id": "ruricius-of-limoges",
+  "active_year": 485,
+  "kind": "held",
+  "basis": "\"Bishop of Limoges from 485, by August Engelbrecht's reckoning\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch6/ruricius-of-limoges.card.json, field dates)."
+ },
+ {
+  "id": "samson-of-dol",
+  "active_year": 521,
+  "kind": "held",
+  "basis": "\"Thomas Taylor reckons from the Life that he was made bishop probably in 521\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch3/samson-of-dol.card.json, field dates). The card calls both years Taylor's inference."
+ },
+ {
+  "id": "sebeos",
+  "active_year": 661,
+  "kind": "held",
+  "basis": "\"his history ends in 661, when the caliph Muawiya came to the throne\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch5/sebeos.card.json, field dates). Frédéric Macler says he wrote in the third quarter of the seventh century."
+ },
+ {
+  "id": "severinus-of-noricum",
+  "active_year": 453,
+  "kind": "held",
+  "basis": "\"Eugippius says he came to Noricum about the time of Attila's death, which Robinson dates to 453\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch6/severinus-of-noricum.card.json, field dates)."
+ },
+ {
+  "id": "severus-ibn-al-muqaffa",
+  "active_year": 990,
+  "kind": "proposed",
+  "basis": "No held line gives a year. No held line gives a year. Proposed 990, near the end of the tenth century, Evetts's 1904 placing. Line: \"B. Evetts placed him in the ninth century in 1895, and near the end of the tenth in 1904\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch6/severus-ibn-al-muqaffa.card.json, field dates)."
+ },
+ {
+  "id": "severus-of-antioch",
+  "active_year": 512,
+  "kind": "held",
+  "basis": "\"Made bishop of Antioch on 6 November 512 and fled on 29 September 518, by Brooks's dates\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch2/severus-of-antioch.card.json, field dates)."
+ },
+ {
+  "id": "simeon-of-beth-arsham",
+  "active_year": 524,
+  "kind": "held",
+  "basis": "\"In 524 his letter spread the news of the martyrs of Najran across the Christian world.\" (cic-website/data/world-census.json, movement simeon-of-beth-arsham, field why)."
+ },
+ {
+  "id": "simon-i-of-alexandria",
+  "active_year": 689,
+  "kind": "held",
+  "basis": "\"B. Evetts heads his life 689 to 701\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch6/simon-i-of-alexandria.card.json, field dates). Basset brackets 689 to 702."
+ },
+ {
+  "id": "socrates-of-constantinople",
+  "active_year": 439,
+  "kind": "held",
+  "basis": "\"his history ends in the emperor Theodosius's seventeenth consulship, 439\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch5/socrates-of-constantinople.card.json, field dates)."
+ },
+ {
+  "id": "sophronius-of-jerusalem",
+  "active_year": 634,
+  "kind": "held",
+  "basis": "\"Daniel Papebroch dates his election to 634\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch5/sophronius-of-jerusalem.card.json, field dates)."
+ },
+ {
+  "id": "sozomen",
+  "active_year": 444,
+  "kind": "proposed",
+  "basis": "No held line gives a year. The line gives a lower bound. Proposed 444. Line: \"wrote some time after June 443, by Hartranft's dating\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch5/sozomen.card.json, field dates)."
+ },
+ {
+  "id": "suetonius",
+  "active_year": 121,
+  "kind": "held",
+  "basis": "\"dismissed by Hadrian about 121\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era1/batch2/suetonius.card.json, field dates)."
+ },
+ {
+  "id": "sulpicius-severus",
+  "active_year": 392,
+  "kind": "held",
+  "basis": "\"Left a career at the bar after his wife's early death, about 392\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch4/records.json, claim). Alexander Roberts, no source named."
+ },
+ {
+  "id": "symeon-the-new-theologian",
+  "active_year": 1000,
+  "kind": "proposed",
+  "basis": "No held line gives a year. No held line dates an act. Proposed 1000, the compilers' floruit. Line: \"About the year 1000, in the reign of Constantine Porphyrogennetos, say the compilers of the Philokalia\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch7/symeon-the-new-theologian.card.json, field dates)."
+ },
+ {
+  "id": "tacitus",
+  "active_year": 100,
+  "kind": "proposed",
+  "basis": "No held line gives a year. The line gives a lower bound. Proposed 100, a round year just after it. Line: \"Wrote after 96, the year his history reached\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era1/batch2/tacitus.card.json, field dates)."
+ },
+ {
+  "id": "tatian",
+  "active_year": 172,
+  "kind": "held",
+  "basis": "\"Broke with the church about 172, by Eusebius's Chronicle\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era1/batch2/tatian.card.json, field dates)."
+ },
+ {
+  "id": "tertullian-s-voice",
+  "active_year": 197,
+  "kind": "proposed",
+  "basis": "No held line gives a year (census entry tertullian-s-voice): the Apology, Against Praxeas and the Prescription are undated and the dates field reads \"c. 197-220\". Proposed 197, the start of that span, as the earliest of his dated works the entry names."
+ },
+ {
+  "id": "theodora-wife-of-justinian",
+  "active_year": 527,
+  "kind": "held",
+  "basis": "\"empress from his accession, in 527 by H. B. Dewing's year\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch3/theodora-wife-of-justinian.card.json, field dates). She died in 548 by E. W. Brooks."
+ },
+ {
+  "id": "theodore-of-tarsus",
+  "active_year": 668,
+  "kind": "held",
+  "basis": "\"he was sixty-six when Pope Vitalian ordained him, on 26 March 668\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch3/theodore-of-tarsus.card.json, field dates)."
+ },
+ {
+  "id": "theodoret-of-cyrrhus",
+  "active_year": 449,
+  "kind": "held",
+  "basis": "\"deposed at Ephesus in 449\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch5/theodoret-of-cyrrhus.card.json, field dates)."
+ },
+ {
+  "id": "theodosius-i-of-alexandria",
+  "active_year": 535,
+  "kind": "held",
+  "basis": "\"Made patriarch on the death of Timothy III, in 535 by B. Evetts's heading and E. W. Brooks's notes\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch4/theodosius-i-of-alexandria.card.json, field dates)."
+ },
+ {
+  "id": "theopistus",
+  "active_year": 454,
+  "kind": "proposed",
+  "basis": "No held line gives a year. No held line dates his writing. The History was written in hiding after Dioscorus died, which Nau puts in 454. Proposed 454, the earliest year it can fall. Line: \"François Nau gives 454 for that death\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch8/theopistus.card.json, field dates)."
+ },
+ {
+  "id": "thomas-a-kempis",
+  "active_year": 1406,
+  "kind": "held",
+  "basis": "\"He was invested as a canon there in 1406, after six years of probation.\" (cic-website/data/world-census.json, movement thomas-a-kempis, field longDescription)."
+ },
+ {
+  "id": "thomas-of-marga",
+  "active_year": 840,
+  "kind": "held",
+  "basis": "\"Budge's title dates the Book of Governors to 840\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch5/thomas-of-marga.card.json, field dates). Jérôme Labourt says between 832 and 850."
+ },
+ {
+  "id": "timothy-aelurus",
+  "active_year": 457,
+  "kind": "held",
+  "basis": "\"Chosen after the emperor Marcian's death, which Charles Lett Feltoe dates to 457\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch1/timothy-aelurus.card.json, field dates)."
+ },
+ {
+  "id": "timothy-i-of-baghdad",
+  "active_year": 780,
+  "kind": "held",
+  "basis": "\"Enthroned on Sunday 7 May 780, by Elias of Nisibis and J.-B. Chabot\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch2/timothy-i-of-baghdad.card.json, field dates)."
+ },
+ {
+  "id": "tirechan",
+  "active_year": 670,
+  "kind": "held",
+  "basis": "\"possibly about 670\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch3/tirechan.card.json, field dates). Newport White dates the work no earlier than 664, possibly about 670."
+ },
+ {
+  "id": "tyconius",
+  "active_year": 380,
+  "kind": "proposed",
+  "basis": "No held line gives a year. The line gives an upper bound. Proposed 380. Line: \"F. C. Burkitt reckons he wrote before 383\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch2/tyconius.card.json, field dates)."
+ },
+ {
+  "id": "ulfila",
+  "active_year": 341,
+  "kind": "held",
+  "basis": "\"Born 311, consecrated 341, crossed 348-349, died June 383 aged 72\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era2/batch2/records.json, claim). Friedrich Kauffmann's reconstruction from Auxentius's numbers."
+ },
+ {
+  "id": "valentinus",
+  "active_year": 150,
+  "kind": "proposed",
+  "basis": "No held line gives a year. The card says Irenaeus places him \"from Hyginus to Anicetus\" and Tertullian \"under Bishop Eleutherus\", and numbers no bishop. Proposed 150, the middle of the second century, as for Marcion's card (\"Taught at Rome in the middle of the second century\")."
+ },
+ {
+  "id": "vardan-mamikonian",
+  "active_year": 451,
+  "kind": "held",
+  "basis": "\"Malachia Ormanian gives the day as 26 May 451\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch1/vardan-mamikonian.card.json, field dates)."
+ },
+ {
+  "id": "venantius-fortunatus",
+  "active_year": 565,
+  "kind": "held",
+  "basis": "\"Bruno Krusch puts his coming to Gaul in 565\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch5/venantius-fortunatus.card.json, field dates). Friedrich Leo's index places it between 561 and 567."
+ },
+ {
+  "id": "victor-of-tunnuna",
+  "active_year": 555,
+  "kind": "held",
+  "basis": "\"Exiled to Alexandria in the year Theodor Mommsen numbers 555, by his own chronicle\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch4/victor-of-tunnuna.card.json, field dates)."
+ },
+ {
+  "id": "victor-of-vita",
+  "active_year": 488,
+  "kind": "held",
+  "basis": "\"Joseph Mesnage dates the History to 488\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch1/victor-of-vita.card.json, field dates). Michael Petschenig puts Huneric's edict in 484."
+ },
+ {
+  "id": "vigilius-of-rome",
+  "active_year": 553,
+  "kind": "held",
+  "basis": "\"The Constitutum is dated 'prid. Iduum Maiarum', in Justinian's 27th year, at Constantinople: 14 May 553\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch3/records.json, claim)."
+ },
+ {
+  "id": "wilfrid-of-ripon",
+  "active_year": 664,
+  "kind": "held",
+  "basis": "\"date \"the year of our Lord's incarnation 664\"\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch3/records.json, claim). Bede's account of Whitby."
+ },
+ {
+  "id": "william-tyndale",
+  "active_year": 1525,
+  "kind": "held",
+  "basis": "\"It was in the press at Cologne in 1525, until an enemy of Luther found out the work.\" (cic-website/data/world-census.json, movement william-tyndale, field longDescription). His New Testament; the entry dates his martyrdom to 1536."
+ },
+ {
+  "id": "willibrord",
+  "active_year": 695,
+  "kind": "held",
+  "basis": "\"His own note, printed by Louis Duchesne, says he crossed the sea to Francia in 690 and was ordained bishop in 695\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch3/willibrord.card.json, field dates). Bede gives 696 for the consecration."
+ },
+ {
+  "id": "yahya-ibn-said-of-antioch",
+  "active_year": 1014,
+  "kind": "proposed",
+  "basis": "No held line gives a year. The line gives two years. Proposed 1014. Line: \"He moved to Antioch in the Arab year 405, which his editors give as 1014 to 1015\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch8/yahya-ibn-said-of-antioch.card.json, field dates)."
+ },
+ {
+  "id": "zachariah-rhetor",
+  "active_year": 491,
+  "kind": "held",
+  "basis": "\"wrote his church history, which ends in 491\" (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch2/zachariah-rhetor.card.json, field dates). E. W. Brooks's account."
+ }
+]
