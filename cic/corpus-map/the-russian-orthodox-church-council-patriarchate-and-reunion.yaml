@@ -15,7 +15,7 @@ works:
 - row_id: christian-east_v4-no2-may-1923--patriarch-tikhon-a-pastoral-1923-in-the-christian-east
   work: Patriarch Tikhon, a pastoral (1923), in The Christian East
   author: christian-east
-  locus: lines 4125-4147
+  locus: lines 4125-4200
   role: tradition
   confidence: assigned
   note: His own words in the journal's English, made from a Belgrade Russian newspaper.
@@ -23,7 +23,7 @@ works:
 - row_id: christian-east_v4-no4-november-1923--patriarch-tikhon-epistle-of-15-july-1923-in-the-christian
   work: Patriarch Tikhon, epistle of 15 July 1923, in The Christian East
   author: christian-east
-  locus: lines 1359-1612
+  locus: lines 1359-1629
   role: tradition
   confidence: assigned
   note: His own words in an English whose maker the print does not name.

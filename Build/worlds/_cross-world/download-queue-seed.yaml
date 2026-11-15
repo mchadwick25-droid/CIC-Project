@@ -29110,7 +29110,7 @@ queue:
     world: southern-african-mission-churches
     why: 'Era 10, Africa: a Fort Hare professor''s own papers from the Lovedale mission press, second edition, 1921.'
     url: https://archive.org/details/blackproblempape00jaba
-    rights_basis: 'Public Domain (pd-us-by-date: printed 1921; the title page prints no year; the date used is the dated foreword, "12th December 1920", with which the library catalogue date (1920) agrees; the author''s preface to this second edition is dated January 1921; the archive.org record carries no rights field)'
+    rights_basis: 'Public Domain (pd-us-by-date: printed 1921; the title page prints no year; the date used is the dated foreword, "12th December 1920", with which the library catalog date (1920) agrees; the author''s preface to this second edition is dated January 1921; the archive.org record carries no rights field)'
     verified_by: 'Library thread, era 10 batch 2: host record read, title page or masthead read, wanted passages located, text fetched, byte count 372,667 equal to the listed size, the end read'
     status: downloaded
     vendored_as: jabavu_black-problem-2e_1921.txt
@@ -29680,7 +29680,7 @@ queue:
     world: orthodoxy-in-the-communist-balkans
     why: 'Era 10, the Balkan Orthodox entry: a Serbian churchman''s own words in English, printed in the war years.'
     url: https://archive.org/details/religionnational00veli
-    rights_basis: 'Public Domain (pd-us-by-date: printed 1915; no year is legible on the title page in the OCR; the date used is the dated prefatory note, "June 15, 1915", with which the library catalogue date agrees; the archive.org record says possible-copyright-status "NOT_IN_COPYRIGHT")'
+    rights_basis: 'Public Domain (pd-us-by-date: printed 1915; no year is legible on the title page in the OCR; the date used is the dated prefatory note, "June 15, 1915", with which the library catalog date agrees; the archive.org record says possible-copyright-status "NOT_IN_COPYRIGHT")'
     verified_by: 'Library thread, era 10 batch 2: host record read, title page or masthead read, wanted passages located, text fetched, byte count 38,010 equal to the listed size, the end read'
     status: downloaded
     vendored_as: velimirovic_religion-and-nationality-in-serbia_1915.txt

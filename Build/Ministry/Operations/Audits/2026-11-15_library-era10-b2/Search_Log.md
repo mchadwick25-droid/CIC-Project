@@ -16,22 +16,23 @@ owner's declaration.
 
 | basis | files |
 |---|---:|
-| the year on the title page, the volume title leaf, the masthead or the cover | 65 |
+| the year on the title page, the volume title leaf, the masthead or the cover (for Путь numbers 2 and 17 the OCR garbles the masthead year, and the date rests on the numbers on either side and on dates inside the number) | 65 |
 | a copyright notice of 1930 or earlier, the title page printing no year (R12) | 3 |
-| a dated preface or foreword with the catalogue date agreeing (R12) | 2 |
+| a dated preface or foreword with the catalog date agreeing (R12) | 2 |
 | the year printed on a calendar leaf inside the issue, in both eras (see the calls) | 1 |
 
 ## Calls made during the batch
 
 | call | by | what |
 |---|---|---|
-| A host's stamp at the foot of each page | this thread, under the coordinator's intake rule | The 25 numbers of Путь come from a pack whose record cites runivers.ru. Each page foot carries the line "Библиотека «Руниверс»". 3,330 such lines were stripped at intake and are counted in each header. The record carries no rights statement. |
+| A host's stamp at the foot of each page | this thread, under the coordinator's intake rule | The 25 numbers of Путь come from a pack whose record cites runivers.ru. Each page foot carries the line "Библиотека «Руниверс»". 3,332 such lines were stripped at intake and are counted in each header. The record carries no rights statement. |
 | A year printed in a church's own era | this thread (the coordinator may overrule) | A Malayalam church monthly prints "1922" and the Malayalam-era year "1098" on its calendar leaf, and no year on the cover. Taken on the printed "1922". Three other Malayalam issues whose covers print only Malayalam-era numerals, which were not read with certainty on the page image, were not taken. |
-| A second edition whose foreword is of 1920 and whose author's note is of January 1921 | this thread, under R12 (the coordinator may overrule) | Jabavu, The Black Problem, second edition, Lovedale: no year on the title page; the foreword is dated 12 December 1920 and the catalogue says 1920; the author's note to the second edition is dated January 1921. Taken; the header gives all three dates. |
+| A second edition whose foreword is of 1920 and whose author's preface is of January 1921 | this thread, under R12 (the coordinator may overrule) | Jabavu, The Black Problem, second edition, Lovedale: no year on the title page; the foreword is dated 12 December 1920 and the catalog says 1920; the author's preface to the second edition is dated January 1921, so the catalog date is the first edition's. Taken; the header gives all three dates. |
 | A leaf of 1915 bound with a title page of 1912 | this thread | Wanger's Zulu catechism prints 1912 on its title page and carries a vicar apostolic's leaf dated 29 April 1915. Taken on the title page; the header names the leaf. |
 | A host record that claims copyright in a scan | this thread, under the base rule | Three Māori and Tongan prints of 1897-1916 on archive.org carry the host field "(c) Copyright by Intellectual Reserve, Inc. All rights reserved." Not taken; held for Mark (`hehimenemotekara00unse`, `kotehahioihukara00ande`, `koegaahihimiosai00unse`; also the composite `ngahimenemongahu01auck`). |
-| An uploader's non-commercial licence on an old print | this thread, under R3 | Three prayer books in African languages (`kitabu1928`, `shekiri1909`, `angas1921`) carry a CC BY-NC-ND licence set by the uploader. Not taken. |
+| An uploader's non-commercial license on an old print | this thread, under R3 | Three prayer books in African languages (`kitabu1928`, `shekiri1909`, `angas1921`) carry a CC BY-NC-ND license set by the uploader. Not taken. |
 | Batch 1's shelf rows at `needs-ruling` | this thread, by the shelf principle of 15 November | All twelve rows are settled; see "The shelf rows" below. |
+| A tradition's own writer after its entry's window, with no later entry | this thread (the coordinator may overrule) | The principle does not name this case. Tucker (1908), the Zulu hymnal (1911), Kyriakos Mikhail (1911), Jabavu (1921) and the Arabic history of the Coptic Church (1924) are placed as tradition on the entry that closes in 1906, each note giving the date; the missing later entries are gaps for the coordinator's list (the mission churches of southern Africa after 1906; the Coptic church from 1906 to 1940; Sundar Singh). |
 
 ## Hosts
 
@@ -64,8 +65,8 @@ Rejected: Samuel Johnson's History of the Yorubas (all three scans print "Reprin
 Casely Hayford's Ethiopia Unbound (`ethiopiaunbounds00hayf`: no year on the title page, no dated preface, no
 copyright line); Plaatje's Native Life in South Africa (two scans, no year); the hymn book of the National Church of
 Nigeria and the Cameroons (`hymnsprayersforu00abaniala`: an African church's own hymnal with no year anywhere; the
-catalogue says "[19--?]"); Cooper's Indigenous Principles in Nigeria (no year; the text names December 1922 against a
-catalogue date of 1920). Marginal and not taken: Tucker of Uganda (1929), the Uganda pageant book of 1927.
+catalog says "[19--?]"); Cooper's Indigenous Principles in Nigeria (no year; the text names December 1922 against a
+catalog date of 1920). Marginal and not taken: Tucker of Uganda (1929), the Uganda pageant book of 1927.
 Not found: Casely Hayford's William Waddy Harris (1915); Lloyd's Apolo of the Pygmy Forest (1923) and More about
 Apolo; Walker's Story of the Ivory Coast (1926); Uganda Notes; the Church Missionary Review; the Journal des missions
 évangéliques; Belgian colonial reviews on Kimbangu; The Negro Churchman; the report on the Nyasaland rising (1916);
@@ -75,10 +76,10 @@ Mofolo in Sesotho; Bokwe's Ntsikana; an Amharic church hymnal. Seen and not take
 
 **Oceania.** Nothing in Rātana's own voice, and no pamphlet, church yearbook or official report on him to 1930, was
 found on archive.org in about twelve differently worded searches. One outside witness was taken: Te Karere, the
-Latter-day Saint mission's Māori paper, for April to June 1930, which prints a letter about Rātana's petition on the
-Treaty. Its volumes for 1926 and 1928 have no such matter; those for 1918-1925, 1927 and 1929 are not on the host.
+Latter-day Saint mission's Māori paper, for April to June 1930, which prints a letter that speaks of Rātana raising the
+Treaty again and of a covenant; its OCR is broken. Its volumes for 1926 and 1928 have no such matter; those for 1918-1925, 1927 and 1929 are not on the host.
 Not taken: two Māori tracts by Wiremu Takana and Te Paranihi Karakama (`hekupuwhakamaram00gard`,
-`hekupuwhaiwhakaa00kara`: no year is printed on any leaf; the catalogue says 1916); Latter-day Saint hymnals and a
+`hekupuwhaiwhakaa00kara`: no year is printed on any leaf; the catalog says 1916); Latter-day Saint hymnals and a
 handbook in Māori, Tahitian and Hawaiian (no census entry is theirs after 1906, and they say nothing of the wanted
 people); the four items named under the calls. Not found for 1896-1930: Te Pipiwharauroa, Te Kopara, Te Toa Takitini;
 Ringatū prints; a Māori prayer book or catechism; Samoan prints; a Fijian Methodist hymnal; a Free Church of Tonga
@@ -103,8 +104,10 @@ and English (1929); five books of Nikolaj Velimirović in English (1915-1917); t
 Not taken: Velimirović's Two Churches in One Nation (no year, no dated preface); other scans of Bell's volumes
 (lending-only, printings of 1948-1955); Путь from number 26 (1931 on); the Orthodox Catholic Review of 1927, Hapgood's
 Service Book (1906), Douglas (1921) and Gavin (1923), found, dated and left as marginal to the wants. Thirty-two more
-issues of The Christian East to 1930 are on the host and were not taken. Located and not examined: Lototsky's
-Церковне право (Prague 1923, `cerkovne-pravo-lotockyj-1923`); Евразийский временник 1923 (`evraziskivremenn53unse`).
+issues of The Christian East to 1930 are on the host; the twelve taken are those the searcher found to carry the
+wanted matter, and the rest are left to the follow-on session, with Lototsky's Церковне право (Prague 1923,
+`cerkovne-pravo-lotockyj-1923`) and Евразийский временник 1923 (`evraziskivremenn53unse`), which were located late and
+not examined.
 Not found: the Собрание определений of 1918; Tikhon's epistles as a separate print; the declaration of 1927 in a
 Russian print; Свет невечерний; Церковные ведомости and Богословский вестник for 1917-18; Kyrion II, Khelaia,
 Tamarati, Durnovo, the Genoa memorandum of 1922; Ἐκκλησιαστικὴ Ἀλήθεια; the acts of the Pan-Orthodox congress of
@@ -127,8 +130,7 @@ Richards's Indian Christians of St. Thomas (1908, `indianchristians0000rich`: an
 an encrypted lending file); the funeral book of Baselios Paulose I (1913, `FuneralBaseliusPauloseICatholicos`:
 unusable OCR); two Mar Thoma prints of 1923 and 1930 with no readable year; a modern edition of القصارى
 (`alqousarafinakab0000anon`); Armenian pamphlets of 1908 with poor OCR; the Niranam church constitution of 1923 (an
-empty text file). Located and not opened: Mizo and Khasi church prints of 1912-1930 (identifiers in the searcher's
-log, kept in the wants table). Not found: Balakian's Հայ Գողգոթան (1922); Surma's book of 1920; al-Karma; Barsoum's
+empty text file). Located and not opened: Mizo and Khasi church prints of 1912-1930 (identifiers in `searcher-logs/oriental_LOG.md`, beside this file). Not found: Balakian's Հայ Գողգոթան (1922); Surma's book of 1920; al-Karma; Barsoum's
 memorandum; al-Hikma; Armalet's print of 1919; Zaven, Teotig, Guleserian; Ormanian's Azgapatum; the Coptic Congress
 of 1911; Heruy; the Ethiopian bishops of 1929; Naum Faiq; E. M. Philip (1908); the Travancore church-case judgments.
 
@@ -206,7 +208,7 @@ None is left at `needs-ruling`.
     Each header lists the articles with line numbers; some first lines are approximate. Number 5 lacks its last
     fifteen pages. In number 9 the OCR runs two columns together at about lines 5236-5330.
 23. **Путь, the dates.** The OCR garbles the masthead year of number 2 ("192©") and misreads that of number 17 as
-    "1939". Both dates rest on the numbers on either side. The pack has no page images to check them on.
+    "1939". Both dates rest on the numbers on either side and on dates inside the number. Neither was read on a page image.
 24. **Lossky.** Every "Лосскій" in Путь to 1930 is Н. Лосскій, the philosopher N. O. Lossky. Nothing of Vladimir
     Lossky is held.
 25. **Sergius's message of 1927.** Held only in English (The Christian East, winter 1927), headed a "Letter", dated

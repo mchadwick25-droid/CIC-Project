@@ -152,8 +152,7 @@ works:
   locus: whole
   role: tradition
   confidence: assigned
-  note: The émigré thinkers' own journal, edited by Berdyaev. Signed pieces here by Florovsky,
-    Berdyaev.
+  note: The émigré thinkers' own journal, edited by Berdyaev. Signed pieces here by Florovsky.
   source_file: put_n22-rus_1930.txt
 - row_id: put_n23-rus_1930--put-paris-number-23-1930
   work: Put' (Paris), number 23 (1930)
@@ -231,8 +230,7 @@ works:
   locus: whole
   role: tradition
   confidence: assigned
-  note: The émigré thinkers' own journal, edited by Berdyaev. Signed pieces here by Bulgakov,
-    Berdyaev.
+  note: The émigré thinkers' own journal, edited by Berdyaev. Signed pieces here by Berdyaev.
   source_file: put_n08-rus_1927.txt
 - row_id: put_n09-rus_1928--put-paris-number-9-1928
   work: Put' (Paris), number 9 (1928)

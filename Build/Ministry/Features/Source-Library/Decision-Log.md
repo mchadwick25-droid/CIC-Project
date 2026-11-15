@@ -777,9 +777,12 @@ by hand are in `Hand_Fetch_List.md` beside it.
   read with certainty, were not taken.
 - **A host record that claims copyright in a scan of an old print is held for Mark,** as batch 1 of era 9 did with the
   same claimant. Three Māori and Tongan prints of 1897-1916 were not taken.
-- **A second edition dated by its foreword and its catalogue record.** Jabavu's The Black Problem is taken under R12
-  on a foreword of December 1920 and a catalogue date of 1920, though the author's preface to the second edition is
+- **A second edition dated by its foreword and its catalog record.** Jabavu's The Black Problem is taken under R12
+  on a foreword of December 1920 and a catalog date of 1920, though the author's preface to the second edition is
   dated January 1921. The header gives all three.
+- **A tradition's own writer after its entry's window, with no later entry.** Placed as tradition on the entry that
+  closes in 1906, with the date in the note (Tucker, the Zulu hymnal, Kyriakos Mikhail, Jabavu, the Arabic history of
+  the Coptic Church). The shelf principle does not name this case; the missing later entries are logged as gaps.
 - **Batch 1's shelf rows at `needs-ruling`.** All twelve are settled by the principle of the shelf rulings above
   (antecedent, context or tradition, with the doubt in the row's note). The table is in the Search_Log.
 
