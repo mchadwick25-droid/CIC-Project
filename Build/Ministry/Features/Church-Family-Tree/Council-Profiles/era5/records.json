@@ -20,8 +20,20 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Urban, seated in a raised pulpit, spoke of the sufferings of 'Christiani nostri fratres' in Jerusalem, Antioch and the other cities of the East",
+        "claim": "Urban, seated in the pulpit ('residens in pulpito'), spoke of the sufferings of 'Christiani nostri fratres' in Jerusalem, Antioch and the other cities of the East",
         "witness": "stephen-harding_charta-caritatis-and-exordium-in-pl166-lat_migne1894.txt l.77477-77486",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "In Baldric's speech Urban calls the knights to go as soldiers of Christ to defend the Eastern church and to fight for 'vestra Jerusalem'",
+        "witness": "stephen-harding_charta-caritatis-and-exordium-in-pl166-lat_migne1894.txt l.77629-77631, 77639-77640",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Baldric gives the speech as these or other such words ('His vel hujuscemodi aliis'), that is, the pope's words or words like them",
+        "witness": "stephen-harding_charta-caritatis-and-exordium-in-pl166-lat_migne1894.txt l.77696-77697",
         "witness_kind": "participant",
         "formation_confidence": "Documented"
       },
@@ -80,7 +92,7 @@
         "formation_confidence": "Widely Accepted"
       },
       {
-        "claim": "The council's acts are not among our sources; Mirbt prints canons 2 and 9, citing Mansi XX 816 and 902, a volume not held",
+        "claim": "The council's acts are not among our sources; Mirbt prints canons 2 and 9, citing Mansi XX 816 and 902, a volume not held, and marks canon 9 as from the Codex of Cencius",
         "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.11220-11233",
         "witness_kind": "modern reconstruction",
         "formation_confidence": "Documented"
@@ -116,6 +128,12 @@
         "formation_confidence": "Documented"
       },
       {
+        "claim": "By Fabricius's notice reprinted by Migne, Albert was custos of the church of Aix ('Aquensis in Gallia') and wrote 'ex fide eorum qui praesentes interfuere'",
+        "witness": "stephen-harding_charta-caritatis-and-exordium-in-pl166-lat_migne1894.txt l.27615-27620",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
         "claim": "William planned a general council first at Vézelay, then at Le Puy, before it met at Clermont",
         "witness": "william-tyre_historia-rerum-in-partibus-transmarinis-gestarum-v1-lat-fra_rhc1844.txt l.6114-6117",
         "witness_kind": "later narrative",
@@ -126,6 +144,18 @@
         "witness": "stephen-harding_charta-caritatis-and-exordium-in-pl166-lat_migne1894.txt l.27895-27897",
         "witness_kind": "later narrative",
         "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Lambert of Saint-Omer's notice of Urban II: in 1096 (indiction 'vi' as printed), on the 14th day before the Kalends of December (18 November), the council sat at Clermont with 310 bishops, the pope presiding",
+        "witness": "liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt l.47693-47697",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Duchesne: Lambert, canon of Saint-Omer, compiled the Liber Floridus about 1120, and the notices from Urban II to Calixtus II are short and by a contemporary hand",
+        "witness": "liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt l.47588-47590, 47681-47682",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
       },
       {
         "claim": "William of Tyre was writing in 1184",
@@ -158,14 +188,44 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Canon 2: whoever goes to free the church of God at Jerusalem 'pro sola devotione, non pro honoris vel pecmiiae adeptione' shall have the journey counted in place of all penance",
+        "claim": "Canon 2: whoever goes to free the church of God at Jerusalem 'pro sola devotione, non pro honoris vel pecuniae adeptione' (printed 'pecmiiae' in the vendored OCR) shall have the journey counted in place of all penance",
         "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.11226-11227",
         "witness_kind": "acts",
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Canon 9 (Codex Cencii): because many regions of Gaul were short of food, the truce to hold continuously for three years for peasants and merchants, for knights from Thursday to Sunday each week, for clerics and monks at all times, and first of all for pilgrims to the holy places",
+        "claim": "Canon 9 (Codex Cencii): because many regions of Gaul were short of food, the truce to hold continuously for three years for peasants and merchants, for knights from Thursday to Sunday each week, for clerics and monks at all times, and above all ('ac primum') for pilgrims to the holy places",
         "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.11229-11233",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Beauvais council of 1114 under the legate Cono is printed with excerpts containing decrees partly made there and partly recited and confirmed",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-21-lat_welter-facsimile1903.txt l.11886-11887, 11936-11938, 11944",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Headed in the Beauvais excerpts 'Ex Concilio Clavomontano' (OCR for Claromontano): kings and princes are forbidden to grant any investiture of church offices",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-21-lat_welter-facsimile1903.txt l.12045-12049",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Headed 'Ex concilio Claromontano ab Urbano II. celebrato. cap. 11': no layman is to seize another's inheritance, and if he does and does not make satisfaction no priest is to admit him to penance meanwhile",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-21-lat_welter-facsimile1903.txt l.12064-12072",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Headed 'Urbanus papa II. in concilio Claromontano ... cap. 12': sons of concubines and of clergy are not to be promoted to orders or other church offices unless they become monks or regulars",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-21-lat_welter-facsimile1903.txt l.12071-12077",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Headed 'Urbanus II. in eodem concilio, cap. 14': no cleric may hold prebends in two cities",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-21-lat_welter-facsimile1903.txt l.12080-12083",
         "witness_kind": "acts",
         "formation_confidence": "Documented"
       },
@@ -218,7 +278,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Robert of Flanders, hearing the decree of the council of Clermont, left wife and children and all he had",
+        "claim": "Robert of Flanders, son of Robert the Frisian, hearing the decree of the council of Clermont, left wife and children and all he had",
         "witness": "stephen-harding_charta-caritatis-and-exordium-in-pl166-lat_migne1894.txt l.65369-65377",
         "witness_kind": "later narrative",
         "formation_confidence": "Documented"
@@ -278,7 +338,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Urban's letter: the Salmorenc quarrel was settled by the council's authority; clergy and laity there forbidden to obey the archbishop of Vienne until the judgment is carried out",
+        "claim": "Urban's letter: the Salmorenc quarrel was settled by the council's authority; clergy and laity there forbidden to obey the archbishop of Vienne until the judgment is carried out or the case is settled before the pope",
         "witness": "le-couteulx_annales-ordinis-cartusiensis-v1-lat_1887.txt l.13303-13316",
         "witness_kind": "participant",
         "formation_confidence": "Documented"
@@ -296,20 +356,20 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Mansi's editors: the indulgence granted at Clermont to the defenders of the Eastern church was later granted for those going to Spain",
-        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-21-lat_welter-facsimile1903.txt l.27410-27414",
+        "claim": "Étienne Baluze, in his notes to the Lateran council of 1123 printed by Mansi: the indulgence granted at Clermont to the defenders of the Eastern church was later granted for those going to Spain",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-21-lat_welter-facsimile1903.txt l.27334, 27397-27414",
         "witness_kind": "modern reconstruction",
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Census edge latin-papal-church-gregorian to latin-church-of-outremer: Latin clergy filled the new sees in the East; the first Latin patriarch of Antioch had been chaplain to Adhémar (Dulaurier)",
-        "witness": "rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt l.15578-15581",
+        "claim": "Census edge latin-papal-church-gregorian to latin-church-of-outremer says Latin clergy filled the new sees in the East; the held cases are two: the crusaders made Bernard of Valence, who had come as Adhémar's chaplain, patriarch of Antioch, and the patriarchate of Jerusalem went to Daimbert (Dulaurier)",
+        "witness": "rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt l.15578-15584",
         "witness_kind": "modern reconstruction",
         "formation_confidence": "Widely Accepted"
       },
       {
         "claim": "Peter, bishop of Pamplona, was at the council, by a Bollandist editor",
-        "witness": "acta-sanctorum_junii-tomus-5-lat_palme1867.txt l.26404-26405",
+        "witness": "acta-sanctorum_junii-tomus-5-lat_palme1867.txt l.26403-26405",
         "witness_kind": "modern reconstruction",
         "formation_confidence": "Inferential-Thin"
       }
@@ -332,32 +392,32 @@
       },
       {
         "claim": "The year",
-        "sides": "1095: William of Tyre (WT l.6066-6067), the act of concord (PL159 l.74964), Urban's letter with Le Couteulx's year (CART l.13240-13241, 13316), Mirbt (MIRBT l.11220), Duchesne (LP2 l.71663-71665). 1096: Migne's heading to the act (PL159 l.74878), the Bollandists (AASS-JUN5 l.148148-148149), and Baldric's printed 'anno subsequente (1096)' after a star-shower of April 1095 (PL166 l.77749-77751, 77773-77774), the bracket likely an editor's.",
+        "sides": "1095: William of Tyre (WT l.6066-6067), the act of concord (PL159 l.74964), Urban's letter with Le Couteulx's year (CART l.13240-13241, 13316), Mirbt (MIRBT l.11220), Duchesne (LP2 l.71663-71665), and one Bollandist note (AASS-JUN5 l.26403-26405, '109S' in the OCR). 1096: Lambert of Saint-Omer, a contemporary hand by Duchesne (LP1 l.47694), Migne's heading to the act (PL159 l.74878), another Bollandist note (AASS-JUN5 l.148148-148149), and Baldric's printed 'anno subsequente (1096)' after a star-shower of April 1095 (PL166 l.77749-77751, 77773-77774), the bracket likely an editor's.",
         "formation_confidence": "Documented"
       },
       {
         "claim": "Whether the council sat at Vézelay and Le Puy",
-        "sides": "Planned or decreed only: William's Latin (WT l.6114-6115) and Albert (PL166 l.27895-27897). Sat there: the Old French Eracles (WT l.6140-6142), a translator's change.",
+        "sides": "Planned or decreed only: William's Latin (WT l.6114-6115) and Albert (PL166 l.27895-27897). Sat at all three: the Old French Eracles (WT l.6140-6142).",
         "formation_confidence": "Widely Accepted"
       },
       {
         "claim": "That Clermont prescribed the Hours of the Virgin for clergy",
-        "sides": "Late writers cited by the editor of Bruno's Acta (Labbe, Petreius, Dorland, Blomevenna), who himself doubts parts (PL152 l.26632-26701). No ancient witness among our sources.",
+        "sides": "Ruinart's Life of Urban II ('Ferunt'), and Labbe tom. X col. 517, cited and accepted by the editor of Bruno's Acta (PL152 l.26613-26636); the editor doubts the apparition and Petreius's order (l.26582-26604, 26645-26654). No witness of the time among our sources.",
         "formation_confidence": "Inferential-Thin"
       }
     ],
     "absent_details": [
       {
         "detail": "The acts and the full list of canons",
-        "note": "Not held: Mansi tomus 20 is not among our sources; two canons reach us only as Mirbt's extracts (MIRBT l.11220-11233)."
+        "note": "Not held: Mansi tomus 20 is not among our sources. Canons reach us in Mirbt's extracts (MIRBT l.11220-11233) and in the Beauvais record of 1114 (M21 l.11936-12122)."
       },
       {
-        "detail": "A count of those present, and a list of names",
-        "note": "No source among ours gives either; searched (dossier section 14)."
+        "detail": "A list of names",
+        "note": "No source among ours gives one; searched (dossier section 14; round 1 review search)."
       },
       {
-        "detail": "The opening day and the day of Urban's speech",
-        "note": "No source among ours gives them; November rests on William of Tyre and the documents of 29 November and 1 December."
+        "detail": "The day of Urban's speech",
+        "note": "No source among ours gives it; Lambert of Saint-Omer gives 18 November for the council's sitting (LP1 l.47694)."
       },
       {
         "detail": "Byzantine envoys at Piacenza",
@@ -914,7 +974,7 @@
         "formation_confidence": "Widely Accepted"
       },
       {
-        "claim": "Thomas was summoned to the council and set out in Lent, a witness at his canonization said, though he did not remember the month or day",
+        "claim": "A witness at Thomas's canonization said that while Gregory X was at Lyon calling the council, Thomas, summoned to it, was on his way there; he did not remember the month or day, but said it was in Lent",
         "witness": "acta-sanctorum_martii-tomus-1-lat_1735.txt l.116095-116100",
         "witness_kind": "later narrative",
         "formation_confidence": "Widely Accepted"
@@ -934,6 +994,12 @@
       {
         "claim": "With the approval of the council, Gregory condemned those who deny that the Spirit proceeds eternally from the Father and the Son, or say he proceeds as from two principles",
         "witness": "denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.14496-14502",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The profession of faith of Michael VIII confesses purgatory and seven sacraments, and says the Roman church makes the eucharist from unleavened bread",
+        "witness": "denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.14506-14612",
         "witness_kind": "acts",
         "formation_confidence": "Documented"
       },
@@ -1004,7 +1070,7 @@
         "formation_confidence": "Inferential-Thin"
       },
       {
-        "claim": "The same chronicle says the clergy would not keep quiet and stirred up the crowd, and that the emperor called it oikonomia, not innovation, and flogged, maimed and exiled many who would not be persuaded",
+        "claim": "The same chronicle says the clergy would not keep quiet and stirred up the crowd, and that the emperor called it oikonomia, not innovation, and flogged, ill-treated and exiled many who would not be persuaded (the Greek ἐκάκωσε; Bekker's Latin, l.1290, narrows it to 'mutilavit')",
         "witness": "sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838.txt l.1255-1260",
         "witness_kind": "later narrative",
         "formation_confidence": "Inferential-Thin"
@@ -1028,15 +1094,27 @@
         "formation_confidence": "Contested"
       },
       {
-        "claim": "The patriarch list in PG 147 says Joseph, abbot of Galesion, was driven out by Michael because of the union with the Latins, and that Bekkos made the union under Michael and was cast down and exiled by Andronikos",
+        "claim": "Nikephoros Kallistos's patriarch list (PG 147) says Joseph, abbot of Galesion, was driven out by Michael because of the union with the Latins, and that Bekkos made the union under Michael and was cast down and exiled by Andronikos",
         "witness": "nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865.txt l.21368-21378",
         "witness_kind": "later narrative",
         "formation_confidence": "Contested"
       },
       {
+        "claim": "Nikephoros Kallistos's patriarch list ends with John XII and the return of Athanasios under Andronikos II, calls Andronikos 'the most pious emperor', and closes its count at the year 6800 (1292 in Migne's bracket); so it was written about 1300",
+        "witness": "nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865.txt l.283-284, 21320-21336, 21339, 21374-21377",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
         "claim": "The Synaxaristes remembers the twenty-six monks of Zographou, Euthymios abbot of Vatopedi and twelve Vatopedi monks as martyrs who rebuked the Latin-minded Michael and Bekkos",
         "witness": "nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900.txt l.10268-10271, 47818-47828",
         "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The Recueil editors say the Greeks, hoping to win the favor and support of the Western princes, came to the council of Lyon in 1274, abjured the schism and recognized the pope's supremacy",
+        "witness": "rhc-armeniens_documents-armeniens-t2-latins-et-francais-fra_academie1906.txt l.54168-54172",
+        "witness_kind": "modern reconstruction",
         "formation_confidence": "Contested"
       },
       {
@@ -1062,6 +1140,36 @@
         "witness": "glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.7272-7275",
         "witness_kind": "later narrative",
         "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Salimbene, in Coulton's English, says Pope Gregory X in full council at Lyon had forbidden the further multiplication of Segarelli's Apostles",
+        "witness": "salimbene_from-st-francis-to-dante_coulton1907.txt l.16092-16094",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Coulton reports that Salimbene held Gregory X divinely inspired in abolishing the Order of the Sack",
+        "witness": "salimbene_from-st-francis-to-dante_coulton1907.txt l.15763-15766",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Salimbene says that in 1274 Gregory held a general council at Lyon, where he appeared truly holy and ordained many good constitutions",
+        "witness": "salimbene_from-st-francis-to-dante_coulton1907.txt l.13617-13619",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Glassberger's editors quote Salimbene's Latin: Gregory X dissolved at the council of Lyon the newly appeared mendicant orders, such as the Sack friars and the Apostles, to fulfill Innocent III's decree against new orders",
+        "witness": "glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.7323-7328",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Eubel's note says the Sack friars were suppressed at the Second Council of Lyon",
+        "witness": "bullarium-franciscanum_v5-lat_eubel1898.txt l.14488-14489",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
       },
       {
         "claim": "Glassberger says the pope decreed with the council that there should be only two mendicant orders, the others dissolved until further order",
@@ -1100,7 +1208,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Clement V in 1309 gave the Oxford Franciscans the house of the Friars of the Penitence of Jesus Christ, left at the apostolic see's disposal under Gregory X's constitution at Lyon",
+        "claim": "Clement V in 1309 gave the Oxford Franciscans the house of the Friars of the Penitence of Jesus Christ (the Sack friars), which was expected soon to be left by them and to fall to the apostolic see under Gregory X's constitution at Lyon",
         "witness": "bullarium-franciscanum_v5-lat_eubel1898.txt l.14393-14410",
         "witness_kind": "acts",
         "formation_confidence": "Documented"
@@ -1127,7 +1235,7 @@
     "contested_claims": [
       {
         "claim": "How Patriarch Joseph I lost his throne",
-        "sides": "Gave it up because he would not accept the union: the Synaxaristes, citing Meletios (nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900.txt l.24169-24173). Driven out by the emperor Michael because of the union: the patriarch list in PG 147 (nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865.txt l.21368-21371; Migne's Latin at l.21296-21297 mistranslates it). Ducange, citing Pachymeres (not held), dates his withdrawal to 11 January 1274 (gregoras_byzantina-historia-v2-grc-lat_schopen1830.txt l.38329-38333).",
+        "sides": "Gave it up because he would not accept the union: the Synaxaristes, citing Meletios (nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900.txt l.24169-24173). Driven out by the emperor Michael because of the union: Nikephoros Kallistos's patriarch list in PG 147 (nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865.txt l.21368-21371; Migne's Latin at l.21296-21297 mistranslates it). Ducange, citing Pachymeres (not held), dates his withdrawal to 11 January 1274 (gregoras_byzantina-historia-v2-grc-lat_schopen1830.txt l.38329-38333).",
         "formation_confidence": "Contested"
       },
       {
@@ -1147,12 +1255,17 @@
       },
       {
         "claim": "Michael VIII's motive",
-        "sides": "To ward off a Western attack or the Latins' revenge: Gennadios (gennadius-scholarius_opera-omnia-pg160-grc-lat_migne1866.txt l.67371-67376), the chronicle under Sphrantzes's name (sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838.txt l.1205-1213), the Directorium in Miélot's French (rhc-armeniens_documents-armeniens-t2-latins-et-francais-fra_academie1906.txt l.54214-54225). The census tradition entry byzantine-church-after-1054 says he needed help from the West; no held witness says so.",
-        "formation_confidence": "Widely Accepted"
+        "sides": "To ward off a Western attack or the Latins' revenge: Gennadios (gennadius-scholarius_opera-omnia-pg160-grc-lat_migne1866.txt l.67371-67376), the chronicle under Sphrantzes's name (sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838.txt l.1205-1213), the Directorium in Miélot's French (rhc-armeniens_documents-armeniens-t2-latins-et-francais-fra_academie1906.txt l.54214-54225). To win the favor and support of the Western princes: the Recueil editors, modern (rhc-armeniens_documents-armeniens-t2-latins-et-francais-fra_academie1906.txt l.54168-54172). The census entry byzantine-church-after-1054 ('needed help from the West') follows this modern view; no held medieval witness says it.",
+        "formation_confidence": "Contested"
       },
       {
         "claim": "The Athonite martyrdoms",
         "sides": "Remembered as martyrs who rebuked Michael and Bekkos: the Synaxaristes (nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900.txt l.10268-10271, 47818-47828). Philipp Meyer, 1894: the story of a punitive invasion is hard to square with Michael's methods and may be confused with a Catalan raid after 1300 (athos-monasteries_haupturkunden-fur-die-geschichte-der-athoskloster-ger-grc_meyer1894.txt l.2931-2939).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "What the mendicant decree did",
+        "sides": "Dissolved all mendicant orders but the Friars Minor and the Preachers, until something else was ordered: Glassberger (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.7301-7305). Forbade new orders such as the Sack friars and the Apostles: Salimbene, in Coulton's English and in Glassberger's editors' Latin (salimbene_from-st-francis-to-dante_coulton1907.txt l.16092-16094; glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.7323-7325). Banned for ever only the mendicant orders founded after the Fourth Lateran Council without the apostolic see's confirmation: Clement XIV, 1773 (mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.23010-23015). Left the Carmelites and Augustinians on sufferance until further order and let confirmed mendicant orders continue: Lea, 1888 (lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt l.1856-1862). The decree's text is not held.",
         "formation_confidence": "Contested"
       },
       {
@@ -1162,12 +1275,12 @@
       },
       {
         "claim": "What Lyon decided, in later Greek memory",
-        "sides": "A union on Latin terms: Gennadios (gennadius-scholarius_opera-omnia-pg160-grc-lat_migne1866.txt l.67359-67368), Doukas (doukas_historia-byzantina-grc-lat_bekker1834.txt l.14310-14312), Kalekas (calecas_opera-omnia-pg152-grc-lat_migne1866.txt l.15006-15010). That it condemned the Latins and the acts were corrupted: an anti-unionist as portrayed by the unionist Joseph of Methone (chalcocondyles_historiarum-libri-x-with-isidore-leonard-plusiadenos-pg159-grc-lat_migne1866.txt l.56894-56912).",
+        "sides": "A union on Latin terms: Gennadios (gennadius-scholarius_opera-omnia-pg160-grc-lat_migne1866.txt l.67359-67368), Kalekas (calecas_opera-omnia-pg152-grc-lat_migne1866.txt l.15006-15010). A union sworn under oaths and anathemas, set beside Florence, with nothing said of its terms: Doukas (doukas_historia-byzantina-grc-lat_bekker1834.txt l.14310-14316). That it condemned the Latins and the acts were corrupted: an anti-unionist as portrayed by the unionist Joseph of Methone (chalcocondyles_historiarum-libri-x-with-isidore-leonard-plusiadenos-pg159-grc-lat_migne1866.txt l.56894-56912).",
         "formation_confidence": "Widely Accepted"
       },
       {
         "claim": "Whether Manuel Kalekas was at Lyon",
-        "sides": "Creyghton and Galesinius put him there (per the dossier, syropoulos_vera-historia-unionis-non-verae-grc-lat_creyghton1660.txt l.2288-2289; calecas_opera-omnia-pg152-grc-lat_migne1866.txt l.17894-17895, not rechecked). Fabricius says he lived later (calecas_opera-omnia-pg152-grc-lat_migne1866.txt l.365-371), and a codex note gives his death in 1410 (l.388).",
+        "sides": "Creyghton and Galesinius put him there (syropoulos_vera-historia-unionis-non-verae-grc-lat_creyghton1660.txt l.2288-2289; calecas_opera-omnia-pg152-grc-lat_migne1866.txt l.17894-17895). Fabricius says he lived later (calecas_opera-omnia-pg152-grc-lat_migne1866.txt l.365-371), and a codex note gives his death in 1410 (l.388).",
         "formation_confidence": "Widely Accepted"
       }
     ],
@@ -1186,7 +1299,7 @@
       },
       {
         "detail": "A Greek account from the time, for or against the union",
-        "note": "None among our sources; Pachymeres, Akropolites and Gregoras's first volume are not held, and the Greek witnesses held date from the 1400s on."
+        "note": "None among our sources; Pachymeres, Akropolites and Gregoras's first volume are not held. The earliest held Greek witness is Nikephoros Kallistos's patriarch list, from about 1300; Kalekas dates from the later 1300s (died 1410); Gennadios, Doukas and the Sphrantzes chronicle are later."
       },
       {
         "detail": "Joseph I's own words",
@@ -1194,7 +1307,7 @@
       },
       {
         "detail": "The text of the decree on the mendicant orders (Religionum diversitatem), the crusade decree Zelus fidei and the usury decree",
-        "note": "Not held; the mendicant decree is known through Glassberger, Clement XIV and Lea, and the usury decree only through later statutes citing it."
+        "note": "Not held; the mendicant decree is known through Salimbene (in Coulton's English and in Glassberger's editors' Latin), Glassberger, Eubel, Clement XIV and Lea, and the usury decree only through later statutes citing it."
       },
       {
         "detail": "Names of the Tatar envoys and of the baptized prince",
