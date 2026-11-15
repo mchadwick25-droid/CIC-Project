@@ -489,8 +489,8 @@
     "formation_confidence": "Widely Accepted"
    },
    {
-    "claim": "Glassberger was an Observant Franciscan writing his chronicles in 1508: 'Occupatus erat in scribendis his Chronicis an. 1508'. The Observance as the stricter branch: GLASS l.21136-21142.",
-    "witness": "GLASS (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt) l.96-110",
+    "claim": "Glassberger was an Observant Franciscan writing his chronicles in 1508: 'Occupatus erat in scribendis his Chronicis an. 1508'. The Observance as the strict branch: GLASS l.95-97 (the editors' note); LEA3 l.8223-8224.",
+    "witness": "GLASS (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt) l.95-110; LEA3 (lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt) l.8223-8224",
     "formation_confidence": "Documented"
    },
    {
@@ -612,7 +612,7 @@
     "sides": [
      "Glassberger: the Dominican Manfred of Vercelli and the Preachers, before Martin V, undated (GLASS l.19760-19794)",
      "Eugenius IV's letter of 7 January 1432: Michael, priest of St Adalbert in Prague, under letters of Martin V granted at Constance; cited 21 November 1431 (BULN l.13132-13169)",
-     "Bernardino himself and Banchi: a Roman hearing on his teaching before June 1427, accusers unnamed (BANCHI1 l.318-322, 5337-5341, 5373-5375)"
+     "Bernardino himself and Banchi: a Roman hearing on his teaching before June 1427, accusers unnamed (BANCHI1 l.318-322, 5337-5341, 5373-5375; the date from Banchi's note on Martin V naming him bishop on 4 June 1427, l.6410-6412)"
     ]
    },
    {
@@ -723,8 +723,8 @@
     "formation_confidence": "Dominant Modern Reconstruction"
    },
    {
-    "claim": "Death: Oliger 'Mortuus est in eremitorio S. Mariae de Aspro, in dioc. Marsico sito, die 1d [OCR for 15] Iunii 1337'; Ehrle 'wo er am 15. Juni 1337 starb'. The Basilicata: Ehrle 'in der Diöcese von Marsico in der Basilicata'. He went there not long before his death: Ehrle 'nicht sehr lange vor seinem Tode begab er sich trotz seines hohen Alters in das Eremitorium'; Oliger 'recessisse videtur in Italiam meridionalem'. No line says he fled.",
-    "witness": "CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1395-1399; EHRLE1 (ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885.txt) l.27770-27774",
+    "claim": "Death: Oliger 'Mortuus est in eremitorio S. Mariae de Aspro, in dioc. Marsico sito, die 1d [OCR for 15] Iunii 1337'; Ehrle 'wo er am 15. Juni 1337 starb'. The Basilicata: Ehrle 'in der Diöcese von Marsico in der Basilicata'. He went there not long before his death: Ehrle 'nicht sehr lange vor seinem Tode begab er sich trotz seines hohen Alters in das Eremitorium'; Oliger 'recessisse videtur in Italiam meridionalem'. Ehrle infers the late move ('Dies glaube ich daraus entnehmen zu können', OCR 'glanbe ... in kennen', from Thomas Anglicus calling him 'peregrinus et ignotus'). No line says he fled.",
+    "witness": "CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1393-1399; EHRLE1 (ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885.txt) l.27770-27774, 27785-27786",
     "formation_confidence": "Widely Accepted"
    },
    {
@@ -813,12 +813,12 @@
     "formation_confidence": "Widely Accepted"
    },
    {
-    "claim": "The 1331 bull against friars 'sub ducatu Angeli de Valle Spoletana': Oliger 'non liquet ... editorque Bullarii Franc. P. Eubel dubitat. Ad eam vero assumendam propensus videtur Raynaldus ... et eam sustinet F. Tocco'. 'Prof. F. Tocco' in Ehrle.",
-    "witness": "CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1417-1424; EHRLE3 (ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd3-deu-lat_1887.txt) l.22702",
+    "claim": "The 1331 bull against friars 'sub ducatu Angeli de Valle Spoletana': Oliger 'non liquet ... editorque Bullarii Franc. P. Eubel dubitat. Ad eam vero assumendam propensus videtur Raynaldus ... et eam sustinet F. Tocco'. 'Prof. F. Tocco' in Ehrle; 'Felice Tocco' in Carlini.",
+    "witness": "CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1417-1424; EHRLE3 (ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd3-deu-lat_1887.txt) l.22702; CARL (carlini_fra-michelino-e-la-sua-eresia-ita-lat_1912.txt) l.1461 (OCR 'FeLIcE')",
     "formation_confidence": "Contested"
    },
    {
-    "claim": "Bollandists on the death: Possevinus 'mortuum putet 1294'; Arturus 'mortuum ait an. 12340' [OCR], 26 April; from the miracles 'coaevus D. Robertus de Mileto ... paullo post sancti viri obitum scripsit', 'obiisse 14 Junii'; Arturus lists him among the Blessed at 15 June. Ehrle: the list names 15 June (EHRLE1 l.27789-27790).",
+    "claim": "Bollandists on the death: Possevinus 'mortuum putet 1294'; Arturus 'mortuum ait an. 12340' [OCR], 26 April; from the miracles 'coaevus D. Robertus de Mileto ... paullo post sancti viri obitum scripsit', 'obiisse 14 Junii'; Arturus lists him among the Blessed at 15 June. Ehrle: the list names 15 June (EHRLE1 l.27789-27790); the list is Robert of Mileto's: 'Infrascripta misit dominus Rubertus [OCR 'Bubertus'] de Mileto Gentili (de Fulgineo) modico tempore post obitum fr. Angeli de Clarino' (EHRLE1 l.28490-28492).",
     "witness": "ASMAR3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt) l.24804-24829",
     "formation_confidence": "Contested"
    }
@@ -869,7 +869,7 @@
    {
     "claim": "Whether the 1331 bull's Angelo of the Spoleto valley is Clareno",
     "sides": [
-     "Raynaldus and Tocco: yes (CLAR l.1420-1424)",
+     "Raynaldus seems inclined to it; Tocco and others hold it (CLAR l.1423-1424)",
      "Eubel doubts; Oliger: not clear (CLAR l.1418-1420)"
     ]
    }
