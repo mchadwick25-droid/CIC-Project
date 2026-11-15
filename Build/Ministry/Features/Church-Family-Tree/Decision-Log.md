@@ -3697,3 +3697,27 @@ Every quotation was re-checked word for word against its vendored file. No paid 
 **What is still open.** Open-Gaps 278, "Major councils, era 7 batch 2" (2026-11-15).
 
 The files are in `Council-Profiles/era7/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-15_council-profiles-era7-batch2/`. No census, record or site change is made, so there is no data release number; councils reach the site through the map build. Approved to proceed (coordinator, 2026-11-15; Mark may overrule).
+
+## 2026-11-15 — The stories' "How it connects" as reader text, and a check that keeps it so (coordinator, under Open-Gaps 270; data release 45)
+
+**Decided (coordinator, 2026-11-15; Mark may overrule).** The 62 map stories' "How it connects" lines (`relationsSummary`) showed visitors builder notes: record slugs in 58, and lines such as "whose record sits at", "that record never names" and "Placed at 3.5". All 62 are rewritten as reader text. They name each tradition or story in words. They keep only connections the old line, the card's links or the census make. They drop placement reasoning and talk about the data, and they keep a real limit only where a visitor needs it ("there was no organizational link").
+
+**Where the defect lived.** The stories are not in the census. Their only source is `DATA.stories` in `cft-website/index.html`; no build step writes them, and the census atlas sync touches movements, links and eras only. The fix is there. The census validator already reads the stories through `--atlas`. It now fails when a story's title, teaser, text, caveat or "How it connects" line shows a census, story or link id. It also fails when a "How it connects" line carries builder phrasing (records, entries, rows, lanes, placement, "the file", "the census"). Its test is `tools/tests/validate_census_story_text.test.mjs`, run in CI with the other census tests.
+
+**Errors found and fixed on the way.** The Pliny line called Third-Century Anatolia "the same province's church", and said no record tells the two women's story, which the Scattered Households do. Four lines said a church had no tradition of its own where the census now holds one (Hungary Protestants, Catholics of Ceylon, Arab Evangelicals, and the Maronites after 1815). The Amish line had the split the wrong way round. Other wrong claims about what a record names, and the misdated "four months apart" for Jägerstätter and Bonhoeffer, are gone. In the Scillitan story's text, a bad replace had turned the Acts' "the empire of this world" into "the empire of this Christian tradition", and the Caesar line was given to Speratus. Both quotations now match the vendored ANF word for word (`cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml`, l.19787-19816), and Donata speaks the Caesar line.
+
+**Method (Mark, 2026-11-15, "A", relayed by the coordinator).** Claims the old builder lines stated, where the card and census say nothing either way, stay for this release. Each is listed by story for a follow-up check against held sources (Open-Gaps 279, "The stories' 'How it connects' cleanup", 2026-11-15).
+
+**Review.** Three rounds by fresh Opus agents at full effort, every line checked against the census and the card: round 1 found 26 blocking points, round 2 found 4 and round 3 found 1, settled by the cap ruling below. Files: `Build/Ministry/Operations/Audits/2026-11-15_story-relations-cleanup/`.
+
+**Other story fields.** No title, teaser, text or caveat shows an id. 137 of the 168 story source notes say how the builder read the source ("consulted via summaries only", "known to me, not consulted"); that is a different fix and is left for Mark (Open-Gaps, below). The list is in the audit folder, `Other_Fields_Findings.md`.
+
+**What is still open.** Open-Gaps 279, "The stories' 'How it connects' cleanup (data release 45)" (2026-11-15). Approved to proceed (coordinator, 2026-11-15; Mark may overrule).
+
+## 2026-11-15 — Cap ruling: the Abercius line and one check, story "How it connects" cleanup (data release 45)
+
+**Ruled (Mark, 2026-11-15, relayed by the coordinator).**
+- After round 3 (`R3_recheck.md`) left one blocking point, the Abercius line's unverifiable quotation 'the same faith': cut the sentence, keeping only what the census supports, apply round 3's six minor points as worded, then one check. Check: `Cap_ruling_check.md`. It found one blocking point: with the quotation cut, "has often been read as an answer to it" had no support in the card or the census.
+- After that check: "A", census facts only. The line now reads "Phrygia was the home of the New Prophecy, which began there around 165. Nisibis, the far end of Abercius's journey, belongs to Syriac Edessa, a tradition that begins around 200, the same time as the epitaph." The check's five minor points are applied as worded, then one targeted check of only those strings by a fresh Opus agent. Check: `Cap_ruling_check2.md`. Its verdict was CLEAR, with no blocking point and two minor points (John the Almsgiver, "his reign" could first be read as John; Nickel Mines, "first adult baptisms" could be read as the first anywhere). Neither is an error, and both are left as shipped, since a change after the last ordered check would need its own check.
+
+Both files are in `Build/Ministry/Operations/Audits/2026-11-15_story-relations-cleanup/`. Neither counts toward the cap.
