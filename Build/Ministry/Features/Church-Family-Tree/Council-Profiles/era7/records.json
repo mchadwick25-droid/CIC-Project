@@ -3473,7 +3473,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Pallavicino says the cardinals approved the confirmation by common consent",
+        "claim": "Pallavicino says that in the consistory the pope asked the cardinals' votes and confirmed by common consent",
         "witness": "pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846.txt l.58030-58038",
         "witness_kind": "later narrative",
         "formation_confidence": "Contested"
@@ -3794,7 +3794,7 @@
         "note": "Not held. ls cic/texts | grep -i -E 'massarel|paleot|servanz|le-plat|leplat|theiner|concilium-tridentinum|goerres|ehses|merkle' found nothing. Paleotto and Servanzio reach us in Waterworth's footnote (W l.11159-11165) and Pallavicino's citations (P2 l.47532-47536)."
       },
       {
-        "detail": "The Württemberg and Saxon confessions handed in at Trent, 1551-52",
+        "detail": "The Württemberg Confession handed in at Trent in 1552, and any Saxon confession",
         "note": "Not held. grep over all cic/texts for 'Confessio (Virt|Wirt)embergica|Wirtembergic|Confessio Saxonica|Repetitio confessionis|Saxon Confession|Wurtemberg Confession' gave no relevant hit; the name Badehorn occurs only in Sarpi, and Pallavicino tells the Saxon speech without it. Pallavicino says the Württemberg envoys handed their Confession to the secretary (P2 l.22388-22390). Their speeches reach us through Sarpi, Pallavicino (P2 l.22383-22660) and Waterworth."
       },
       {
@@ -4486,7 +4486,7 @@
       },
       {
         "claim": "Whether Ferdinand gave way or held firm",
-        "sides": "He would permit nothing against the faith: Salmerón, 1 Sept 1555 (salmeron_epistolae-v2-lat_1906.txt l.8455-8461) | He 'consentì à grauissimi detrimenti della Religion Cattolica' and pleaded necessity: Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27413, 27568-27574) | Cause: Charles's curt answer leaving it to Ferdinand, in Ferdinand's own defence as Pallavicino gives it (pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27419-27423); the debate where 'all inclined' to liberty, Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.38401-38404)",
+        "sides": "He would permit nothing against the faith: Salmerón, 1 Sept 1555 (salmeron_epistolae-v2-lat_1906.txt l.8455-8461) | He 'consentì à grauissimi detrimenti della Religion Cattolica', and Ferdinand felt ('parendogli') the harmful concessions plainly necessary: Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27413, 27568-27574) | Cause: Charles's curt answer leaving it to Ferdinand, in Ferdinand's own defence as Pallavicino gives it (pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27419-27423); the debate where 'all inclined' to liberty, Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.38401-38404)",
         "formation_confidence": "Contested"
       },
       {
@@ -4962,7 +4962,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "After Lorraine's reply, Catherine thought it good that the prelates enter a gracious colloquy with the ministers on their confession (the meetings of 24 and 26 September)",
+        "claim": "After Lorraine's reply, Catherine thought it good that the prelates enter a gracious colloquy with the ministers on their confession (the two meetings fit the sessions of 24 and 26 September, which Polanco dates)",
         "witness": "french-reformed-synods_tous-les-synodes-nationaux-t1-fra_aymon1710.txt l.25539-25548",
         "witness_kind": "participant",
         "formation_confidence": "Documented"
@@ -5047,7 +5047,7 @@
       },
       {
         "claim": "Waterworth: the articles proposed at Poissy were secretly submitted to canonists at Trent in 1562, to be examined",
-        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.9099-9102",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.9099-9102; for \"canonists\", l.7353-7358, 9761-9762, 10501-10502",
         "witness_kind": "modern reconstruction",
         "formation_confidence": "Dominant Modern Reconstruction"
       },
@@ -5228,6 +5228,12 @@
       {
         "claim": "Pallavicino's history sets out to refute a false history published under the name Pietro Soave Polano (Sarpi) (title)",
         "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.1",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sarpi writes against the papal power: the council confirmed the 'exorbitant power' of the See of Rome",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.8820-8836",
         "witness_kind": "later narrative",
         "formation_confidence": "Documented"
       }
