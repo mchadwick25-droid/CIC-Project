@@ -15,9 +15,11 @@
 - The active year: "Best-known dated act (Recommended)". A person's active year is the year of their best-known dated act in the held lines; for an outside witness or recorder, the year of the writing that makes them a Who.
 - The round 1 wording page (https://claude.ai/artifact/DZ2gTEKeL5sXHaEVc1zTsq): "Take all recommended (Recommended)". Five Key lines, three river common names ("Greek and Latin" shows no common name until the Persecuted Church placement is settled; "Mar Thoma and churches of northeast India"; capitals and "other"), and the ten era notes.
 - The round 2 wording points: "Take all (Recommended)". Era notes 1, 3, 4, 5, 9 and 10, the era 10 closing line ("The map runs to about 2010. Traditions that began after that will be added once enough time has passed.", also on the method page, which must say it in the same words), and the Key's "People of a river" line.
+- The three BLOCKING code points left after round 3, at the cap: "Fix + one check (Recommended)". The fixes follow Review_r3-code.md, with one targeted check by a fresh Opus agent of only those changes. The two faults the first worker's final status listed (the switch panels opening under the Who list, and the computer bar wrapping at 901px) were fixed with them, at the coordinator's call.
+- The river notes (RIVER_LORE), round 3's P4: first "Rewrite them now", then, superseding it: "we have era cards that open when hovered that will have a voice story and several sections of information including history. why do we need anything else". The notes, their five sections and the "Background research" line are removed from the map with the code that showed them. The river card keeps only what comes from the data. Two story "How it connects" texts that cited the notes lost those clauses only (scillitan-martyrs, elcho-island-revival).
 - The table of majors and active years (https://claude.ai/artifact/Vi1258rn3iDfoHpTXgdfZk): [MARK'S CONFIRMATION, VERBATIM].
 
-**Coordinator call (not Mark's words; Mark may overrule).** The era information mark opens a card with the era's own notes and data-only lists the map already holds: the era's major councils, the rivers that begin in it, its major people, and its stories, with the stories in its traditions' cards in a closed line. No era history is written. Mark saw these lists in the converged prototype and asked for the tradition-card stories in his own words.
+**Coordinator calls (not Mark's words; Mark may overrule).** On tablets at 641-660px with the Who list open, the Who chip's label can shrink to nothing (only its "×" shows; its spoken name is whole), so the bar stays one row under A20. The era information mark opens a card with the era's own notes and data-only lists the map already holds: the era's major councils, the rivers that begin in it, its major people, and its stories, with the stories in its traditions' cards in a closed line. No era history is written. Mark saw these lists in the converged prototype and asked for the tradition-card stories in his own words.
 
 **What went in.**
 - The map's own functions changed in place (no overlay): label fitting, mark layout, the era warp, the council column, the Who marks, names and list, the switch bar, the Key, the era strip, the connections view, the cards.
@@ -26,7 +28,7 @@
 - C3: the unused light palette is removed. C4: "connection" throughout. C5: no picture switch.
 - The feedback bar sits at the foot of each card. A card for an entry records its feedback under the entry's own page key, `tree/<id>`.
 
-**Measured.** Map height 12,744. Overlaps 0 at zooms 0.2, 0.32, 0.39, 0.47, 0.58, 0.7, 0.9, 1.4, 1.8, 2.6, 4 and 7, and 0 with a Who open in all 25 river-eras on desktop and phone. The prototype's one overlap at 0.47 came from a guessed text height; the build measures the font.
+**Measured.** Map height 12,744. Overlaps 0 at zooms 0.2, 0.32, 0.39, 0.47, 0.58, 0.7, 0.9, 1.4, 1.8, 2.6, 4 and 7, and 0 with a Who open in all 29 river-eras on desktop and phone. The prototype's one overlap at 0.47 came from a guessed text height; the build measures the font.
 
 **Review.** Three rounds by fresh Opus agents at full effort: the code against the decision list, the participant-facing text against the reading bar, and the AI-tells check. [ROUND COUNTS]
 
