@@ -6,6 +6,6 @@ assignments:
   locus: 'the chronicle fragments from about OCR line 91; the Life of Severus by Zacharias from 1249; add 11 to OCR line numbers'
   atlas_ids:
   - maronite-christianity
-  role: tradition
-  confidence: needs-ruling
-  note: 'A Maronite chronicle of the seventh century in fragments, with a debate before Muawiya. Earlier than this window, so the placing needs a ruling. The Life of Severus bound with it is held in Kugener''s edition and is not placed here.'
+  role: antecedent
+  confidence: assigned
+  note: "A Maronite chronicle of the seventh century in fragments, with a debate before Muawiya, written before this entry's window. Its date and John Maron's authorship are disputed. The Life of Severus bound with it is held in Kugener's edition and is not placed here."

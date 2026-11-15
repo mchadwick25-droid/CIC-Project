@@ -7,5 +7,5 @@ assignments:
   atlas_ids:
   - serbian-and-bulgarian-medieval-monasticism
   role: tradition
-  confidence: needs-ruling
-  note: 'The patriarch''s own writing, in Church Slavonic only; no translation is held. No census entry is the Bulgarian church of his day, so the placing needs a ruling.'
+  confidence: assigned
+  note: "The patriarch's own writing, in Church Slavonic only; no translation is held. No census entry is the Bulgarian church of his day."

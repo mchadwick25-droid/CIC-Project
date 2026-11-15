@@ -7,5 +7,5 @@ assignments:
   atlas_ids:
   - the-huguenots
   role: context
-  confidence: needs-ruling
+  confidence: assigned
   note: 'His book on the state in the English of 1606; an outside witness.'

@@ -12,3 +12,11 @@ works:
   note: A missionary monthly. The postcard is Kil's own words in a missionary's English; the
     rest is the missionaries' voice.
   source_file: korea-mission-field_v6-no4-april-1910.txt
+- row_id: underwood_call-of-korea_1908--underwood-the-call-of-korea-1908
+  work: Underwood, The Call of Korea (1908)
+  author: underwood
+  locus: the whole book; add 11 to OCR line numbers for this file's own
+  role: tradition
+  confidence: assigned
+  note: The first Presbyterian missionary's own account, written in 1908.
+  source_file: underwood_call-of-korea_1908.txt

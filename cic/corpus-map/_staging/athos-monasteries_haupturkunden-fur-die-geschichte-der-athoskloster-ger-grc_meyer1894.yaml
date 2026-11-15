@@ -6,9 +6,9 @@ assignments:
   locus: "document XI (contents at about OCR line 185; Meyer's introduction at about 3298); add 12 to OCR line numbers for this file's own"
   atlas_ids:
   - hesychasm-and-the-palamite-synthesis
-  role: tradition
-  confidence: needs-ruling
-  note: "The Holy Mountain's governing rule of 1394. Within this entry's window (1300-1400) and its region; whether a typikon belongs on the hesychast entry is for the tree to rule."
+  role: context
+  confidence: assigned
+  note: "The Holy Mountain's governing rule of 1394, a monastic rule of the right time and place, not a hesychast teaching text."
 - row_id: athos-monasteries_haupturkunden-fur-die-geschichte-der-athoskloster-ger-grc_meyer1894--die-haupturkunden-the-athos-documents-of-1498-to-1574
   work: "Die Haupturkunden: the Athos documents of 1498 to 1574"
   author: athos-monasteries

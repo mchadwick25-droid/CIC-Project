@@ -17,5 +17,5 @@ assignments:
   atlas_ids:
   - iconophile-byzantine-monasticism
   role: tradition
-  confidence: needs-ruling
-  note: 'The hagiographer''s Life of the monk killed in 765 (era 4 audit); its date of writing is not given in its heading.'
+  confidence: assigned
+  note: "The hagiographer's Life of the monk killed in 765 (era 4 audit). The volume gives no date of writing."

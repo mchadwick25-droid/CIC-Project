@@ -7,5 +7,5 @@ assignments:
   atlas_ids:
   - the-franciscan-movement
   role: context
-  confidence: needs-ruling
-  note: The Legend's own heading gives no date. Seton dates its composition 1282-1328 and the copy he prints to the fourteenth century; whether it falls inside this window is for the tree to rule on.
+  confidence: assigned
+  note: "The Legend's own heading gives no date. Seton dates its composition 1282-1328 and the copy he prints to the fourteenth century."

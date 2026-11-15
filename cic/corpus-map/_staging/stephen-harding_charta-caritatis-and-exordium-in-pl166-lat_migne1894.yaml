@@ -7,5 +7,5 @@ assignments:
   atlas_ids:
   - cistercian-monasticism
   role: tradition
-  confidence: needs-ruling
-  note: The founding texts of Citeaux. Their authorship and date are disputed in the census sources note; the volume prints them as the work of the third abbot.
+  confidence: assigned
+  note: "The founding texts of Cîteaux. Authorship and date are disputed; the volume prints them as the work of the third abbot."
