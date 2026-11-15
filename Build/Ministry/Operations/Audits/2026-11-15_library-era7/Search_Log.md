@@ -2,7 +2,7 @@
 
 The search record for the Library thread's fill of the era 7 wants: the era 7 rows of the wanted list (person rows
 113-120, outside-witness rows 10-27, council row 22), the two council rows queued in `CFT-Wants.md` (the Marburg
-Colloquy and the Diet of Worms), and the Library items of Open-Gaps 273. The vendored files, their state and their
+Colloquy and the Diet of Worms), and the Library items of Open-Gaps 273 and, added on main during the batch, 278. The vendored files, their state and their
 shelves are in `Build/Ministry/Features/Source-Library/CFT-Wants.md` ("Era 7, filled"). This file says where the
 batch searched, what it found, what it did not find, and what it did not take.
 
@@ -13,7 +13,7 @@ image; a reprint counts by its own date; no NC or ND licence, no permission noti
 
 | host | state from this sandbox | used |
 |---|---|---|
-| archive.org (advancedsearch, metadata, djvu.txt, page images) | reachable | all 56 files |
+| archive.org (advancedsearch, metadata, djvu.txt, page images) | reachable | all 57 files |
 | dbnl.org | reachable, by the eras 4-5 log | not needed |
 | gallica, HathiTrust, books.google downloads, MDZ, documentacatholicaomnia | blocked or broken, by the era 5 log | not tried again |
 
@@ -154,6 +154,17 @@ The review (`R1_review.md`) then settled several points from the texts; `R1_chan
 - Busbecq: Forster and Daniell's two volumes (London 1881) taken; the second volume's year was read on leaf n12.
   A printing of 1927 was not examined.
 
+**Open-Gaps 278, searched by the Library thread itself.**
+- Pallavicino, book 13: the seventh tome of the Classici Sacri edition (Rome 1846) taken. It reads "l'avesse tenuto
+  lungi da ogni nota" where the held printing of 1664 loses the word. Two other tomes of that edition were fetched
+  and do not hold book 13.
+- Regensburg (1541): Kidd, taken above, prints a history of the meeting and the agreement on justification (nos.
+  136-140). The colloquy book itself was not searched.
+- Calvin's Latin letters of 1541: the eleventh volume of the Opera was not found under four queries; volumes X, XII
+  and XIII are there.
+- Massarelli's diaries: the nine scans of the Concilium Tridentinum volumes are all dated 1964 by the host. None
+  was opened; held for Mark.
+
 ## Imprints read on the page image
 
 Where the OCR title page gave no year or a doubtful one, the Library thread viewed the leaf: Herminjard 2 (leaf
@@ -168,5 +179,6 @@ Bodin's Six Bookes (n4), Leo Africanus 1-3 (n7, n8, n8), Busbecq 2 (n12).
   one memorial; Guaman Poma; the Nahuatl of Sahagún's informants and the Colloquios.
 - Outside witnesses: Peçevi, Mustafa Ali, Selaniki, Gedaliah ibn Yahya, David Gans. De Thou and Vasari are
   located and not taken.
+- Open-Gaps 278: the Regensburg book; Calvin's letters of 1541; Massarelli's diaries.
 - Councils and Open-Gaps 273: the text of the recess of 19 November 1530; Scultetus's second decade in a readable
   scan; the Olivetan preface; the Chanforan manuscript (not searched); Jacobs's second volume in a dated scan.

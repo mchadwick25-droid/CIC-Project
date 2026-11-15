@@ -735,6 +735,23 @@ works:
 
     '
   source_file: pallavicino_istoria-del-concilio-di-trento-parte3-ita_1664.txt
+- row_id: pallavicino_istoria-del-concilio-di-trento-tomo7-libri13-14-ita_classici-sacri1846--pallavicino-istoria-del-concilio-di-trento-book-xiii-classici-sacri-tomo-vii
+  work: Pallavicino, Istoria del Concilio di Trento, Book XIII (Classici Sacri, tomo VII)
+  author: pallavicino
+  locus: about OCR lines 216-8554; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: The same book as in the Parte seconda of 1664, in a printing of 1846 with cleaner
+    OCR.
+  source_file: pallavicino_istoria-del-concilio-di-trento-tomo7-libri13-14-ita_classici-sacri1846.txt
+- row_id: pallavicino_istoria-del-concilio-di-trento-tomo7-libri13-14-ita_classici-sacri1846--pallavicino-istoria-del-concilio-di-trento-book-xiv-classici-sacri-tomo-vii
+  work: Pallavicino, Istoria del Concilio di Trento, Book XIV (Classici Sacri, tomo VII)
+  author: pallavicino
+  locus: about OCR lines 8555-15812; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: The book that follows, to the end of the tome.
+  source_file: pallavicino_istoria-del-concilio-di-trento-tomo7-libri13-14-ita_classici-sacri1846.txt
 - row_id: pena-francisco_relatione-sommaria-vita-canonizatione-s-carlo-borromeo-ita_1610--relatione-tridentine
   work: Relatione sommaria della canonizatione di S. Carlo Borromeo (Pena, 1610)
   author: pena-francisco

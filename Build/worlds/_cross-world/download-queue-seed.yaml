@@ -27014,3 +27014,13 @@ queue:
     verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 688,066 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: busbecq_life-and-letters-v2_forster-daniell1881.txt
+  - title: 'Istoria del Concilio di Trento, scritta dal Cardinale Sforza Pallavicino, con aggiunte inedite e note tratte da varii autori; tomo VII (Opere edite ed inedite del Cardinale Sforza Pallavicino, tomo XIV; Biblioteca classica sagra, ordinata e pubblicata da Ottavio Gigli)'
+    author: 'Sforza Pallavicino'
+    year: '1846'
+    world: the-tridentine-church
+    why: 'Open-Gaps 278, Library items: a clean copy of Pallavicino, book 13.'
+    url: https://archive.org/details/istoriadelconci00pallgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1846); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 559,193 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: pallavicino_istoria-del-concilio-di-trento-tomo7-libri13-14-ita_classici-sacri1846.txt

@@ -496,8 +496,8 @@ Era 7 wants in a fresh session, the same way.
 
 ## Era 7 fill (2026-11-15)
 
-Fifty-six files for the era 7 rows of the wanted list (person rows 113-120, outside-witness rows 10-27), the two
-council rows queued in `CFT-Wants.md` (Marburg and Worms) and the Library items of Open-Gaps 273. Record:
+Fifty-seven files for the era 7 rows of the wanted list (person rows 113-120, outside-witness rows 10-27), the two
+council rows queued in `CFT-Wants.md` (Marburg and Worms) and the Library items of Open-Gaps 273 and 278. Record:
 `Build/Ministry/Operations/Audits/2026-11-15_library-era7/Search_Log.md`; the rows are in `CFT-Wants.md`,
 "Era 7 (1517-1650), filled".
 
@@ -520,6 +520,8 @@ council rows queued in `CFT-Wants.md` (Marburg and Worms) and the Library items 
   four chapters; Gracián's treatise in place of his Peregrinación.
 - One want was held already: the Colloquy of Poissy, in Beza's Histoire ecclésiastique.
 - Long sets were located and not taken: de Thou (seven and sixteen volumes) and Vasari (five and ten).
+- The Library holds no notes: shelf notes and content notes describe the text only (Mark, 2026-11-15). Why a
+  row sits where it does is said here; what was not read is said in the cautions of `CFT-Wants.md`.
 - Reu carries the imprint 1930, the last year the date rule admits; his preface is dated 15 December 1930.
 - Shelves. Rows for Luther's own texts sit on `lutheran-wittenberg-and-its-congregations`; the person entry
   `martin-luther` has no shelf. Katharina Zell is `needs-ruling` on the same entry: Strasbourg has none of its

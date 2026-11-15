@@ -514,10 +514,10 @@ Jakoubek's tract is kept inside his opponent's reply. Tauler is a selection. Veg
 
 ## Era 7 (1517-1650), filled (2026-11-15): the Who scan's wanted sources, the outside witnesses and the council records
 
-Fifty-six files. The wants are the era 7 rows of
+Fifty-seven files. The wants are the era 7 rows of
 `Build/Ministry/Operations/Audits/2026-11-12_wanted-sources-combined/Wanted_Sources.md` (person rows 113-120,
 outside-witness rows 10-27 and council row 22), the two council rows the era 7 council batch queued here (the
-Marburg Colloquy and the Diet of Worms), and the Library items of Open-Gaps 273. The search record is
+Marburg Colloquy and the Diet of Worms), and the Library items of Open-Gaps 273 and 278. The search record is
 `Build/Ministry/Operations/Audits/2026-11-15_library-era7/Search_Log.md`. Every file has a printed imprint of 1930
 or earlier, read on its title page or, for sixteen volumes, on the scan's page image. One want was held already.
 
@@ -595,6 +595,10 @@ or earlier, read on its title page or, for sixteen volumes, on the scan's page i
 | Open-Gaps 273, not held: Scultetus's Annales | located | — | The scan of 1618 holds the first decade only (1516-1525); von der Hardt's reprint (1717) runs to 1535 but its OCR is poor and the 1532 passage was not found. Neither taken. |
 | Open-Gaps 273, not held: the Olivetan Bible with its Apologie du translateur | held for Mark | — | The scan of the 1535 Bible carries the French national library's notice on commercial reuse, and its black letter cannot be read in the OCR. Reuss (1866) describes the preface and does not print it. |
 | Open-Gaps 273, not held: the Chanforan manuscript at Dublin | not searched | — | A manuscript; no printing was looked for beyond Herminjard. |
+| Open-Gaps 278, Library items: a clean copy of Pallavicino, book 13 | filled | `pallavicino_istoria-del-concilio-di-trento-tomo7-libri13-14-ita_classici-sacri1846.txt` (1846) | the-tridentine-church, context Books XIII and XIV. The lost word is 'nota': 'lungi da ogni nota' (about OCR line 5333). |
+| Open-Gaps 278, not held: the colloquy book and agreed articles of Regensburg (1541) | held in part | — | `kidd_documents-illustrative-of-the-continental-reformation-lat-deu-fra-eng_1911.txt`, nos. 136-140 (from about file line 19426): a history of the meeting, the agreement on justification in Latin, and letters. The whole book was not searched. |
+| Open-Gaps 278, not held: Calvin's Latin letters of 1541 | not found | — | Volumes X, XII and XIII of the Opera are on archive.org in the series already used; volume XI was not found under four queries. |
+| Open-Gaps 278, not held: Massarelli's diaries | held for Mark | — | Every scan of the Concilium Tridentinum volumes on archive.org is dated 1964 by the host; none was opened. |
 
 **Cautions the filled texts carry.**
 - Katharina Zell: her own words are in Füsslin's reprint of 1753, in black letter the OCR reads only fairly;
@@ -615,6 +619,7 @@ or earlier, read on its title page or, for sixteen volumes, on the scan's page i
 - Worms: the Edict is in full, in German, in the Reichstagsakten (no. 92); Kidd has Latin extracts, and the
   emperor's declaration in English only. Balan's index dates Aleander's letters nos. 61, 64, 67 and 70 to 5, 16,
   18 and 19 April 1521; no. 68 is the "Acta comparitionis Lutheri".
+- Trent: the clean Pallavicino volume holds Books XIII and XIV only.
 - Augsburg: the recess of 19 November is not held as a text; Förstemann leaves it out as well enough known and
   prints those of 22 September and 13 October. Corpus Reformatorum 27 has the Confutatio in Latin and in German.
   Reu's English uses Jacobs's translations, by his preface; his imprint is 1930 and the preface is dated 15
