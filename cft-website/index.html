@@ -121659,9 +121659,8 @@ function pinEraCaptions(){
     tag.style.fontSize=(pt/scale)+'px'; tag.style.strokeWidth=(3/scale)+'px';
     return y;
   });
-  titles.forEach((t,i)=>{
-    const drawn=t.getBBox();
-    t._drawnW=drawn.width;
+  const boxes=[...titles].map(t=>{const b=t.getBBox();t._drawnW=b.width;return b;});
+  boxes.forEach((drawn,i)=>{
     infos[i].setAttribute('transform',`translate(${(drawn.x+drawn.width+16/scale).toFixed(1)},${(ys[i]-pl*.36/scale).toFixed(1)}) scale(${(1/scale).toFixed(4)})`);
   });
 }
@@ -122058,8 +122057,9 @@ stage.addEventListener('touchstart',(ev)=>{
 },{passive:true});
 function ownPinch(el){
   if(!el)return;
-  el.addEventListener('touchstart',ev=>{if(ev.touches.length>1)ev.preventDefault();},{passive:false});
-  ['gesturestart','gesturechange','gestureend'].forEach(t=>el.addEventListener(t,ev=>ev.preventDefault(),{passive:false}));
+  const own=ev=>!(ev.target.closest&&ev.target.closest('.chip-panel'));
+  el.addEventListener('touchstart',ev=>{if(ev.touches.length>1&&own(ev))ev.preventDefault();},{passive:false});
+  ['gesturestart','gesturechange','gestureend'].forEach(t=>el.addEventListener(t,ev=>{if(own(ev))ev.preventDefault();},{passive:false}));
 }
 [stage,eraStrip,connChip,document.getElementById('zoomCtl'),document.getElementById('zoomHint'),document.querySelector('.topbar'),document.querySelector('.feature-bar')].forEach(ownPinch);
 stage.addEventListener('touchmove',(ev)=>{

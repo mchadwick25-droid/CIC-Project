@@ -35,7 +35,7 @@ after(async () => { await browser?.close(); server?.close(); });
 
 const SCREENS = [['desktop', { viewport: { width: 1440, height: 900 } }], ['iPhone 13', devices['iPhone 13']]];
 
-async function openMap(opts, { holdFonts = false, dropFontEvents = false, shortTextLength = false } = {}) {
+async function openMap(opts, { holdFonts = false, dropFontEvents = false, shortTextLength = false, hiddenBoxEmpty = false } = {}) {
   const ctx = await browser.newContext(opts);
   const page = await ctx.newPage();
   const errors = [];
@@ -55,6 +55,15 @@ async function openMap(opts, { holdFonts = false, dropFontEvents = false, shortT
     await page.addInitScript(() => {
       const real = SVGTextContentElement.prototype.getComputedTextLength;
       SVGTextContentElement.prototype.getComputedTextLength = function () { return real.call(this) * 0.75; };
+    });
+  }
+  if (hiddenBoxEmpty) {
+    await page.addInitScript(() => {
+      const real = SVGGraphicsElement.prototype.getBBox;
+      SVGGraphicsElement.prototype.getBBox = function (...a) {
+        const b = real.apply(this, a);
+        return this.getClientRects().length && this.getBoundingClientRect().width ? b : new DOMRect(b.x, b.y, 0, 0);
+      };
     });
   }
   await page.goto(base, { waitUntil: 'domcontentloaded' });
@@ -262,6 +271,13 @@ test('iPhone 13: a tap leaves no hover tip behind, and a pinch on the map does n
     return ev.defaultPrevented;
   }));
   assert.deepEqual(prevented, [true, true, true], 'Safari gesture events on the map are not cancelled');
+  const keyLeft = await page.evaluate(() => {
+    const panel = document.querySelector('.feature-bar .chip-panel');
+    const ev = new Event('gesturestart', { cancelable: true, bubbles: true });
+    panel.dispatchEvent(ev);
+    return ev.defaultPrevented;
+  });
+  assert.equal(keyLeft, false, 'a pinch on a bar panel (the Key) is left to the page');
   assert.deepEqual(errors, []);
   await ctx.close();
 });
@@ -330,13 +346,19 @@ test('desktop: closing a Who list re-applies the clamp', async () => {
 });
 
 for (const [name, opts] of SCREENS) {
-  test(`${name}: the era mark is right after zooming in past the era strip and back out`, async () => {
-    const { ctx, page, errors } = await openMap(opts);
+  test(`${name}: the era mark is right after zooming in past the era strip and back out, where a hidden title measures empty`, async () => {
+    const { ctx, page, errors } = await openMap(opts, { hiddenBoxEmpty: true });
     await page.evaluate(() => document.fonts.ready);
     await zoomTo(page, 1.2);
     await frames(page);
-    await zoomTo(page, 0.6);
-    assertGaps(await markGaps(page), 'back out of the strip');
+    const gaps = await page.evaluate(() => {
+      zoomAt(innerWidth / 2, innerHeight / 2, 0.6 / scale);
+      return [...document.querySelectorAll('.era-label')].map((t, i) => {
+        const tr = t.getBoundingClientRect(), rr = document.querySelectorAll('.era-info')[i].querySelector('.era-info-ring').getBoundingClientRect();
+        return { era: i, gap: rr.left - tr.right, shown: tr.width > 0 && rr.width > 0 };
+      }).filter(g => g.shown);
+    });
+    assertGaps(gaps, 'back out of the strip, measured in the same frame');
     assert.deepEqual(errors, []);
     await ctx.close();
   });
