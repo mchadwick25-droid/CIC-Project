@@ -18,7 +18,7 @@
    },
    {
     "claim": "Jacques Goar, Dominican (\"Jacobus Goar ord. Prædicatorum\"); fell ill after August 1653 and died; Combefis put his notes through the press (\"Notas itaque quales relicie erant, prelo subjeci\"); preface dated 1655",
-    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt) l.265, l.584-590, l.636",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt) l.265 (\"Jac. Coan [Goar], ord. Fratrum Predic.\"), l.584-590, l.636; the quoted form, Henschen, l.103877-103878",
     "formation_confidence": "Documented"
    },
    {
@@ -58,7 +58,7 @@
    },
    {
     "claim": "Anastasius the Librarian, writing while Ignatius \"adhue superest habenas Congartinopolitane tenens Ecclesiz\", speaks of Theophanes's \"conscripta vita\": estates sold, abbot \"in monasterio Agri\", miracles, \"conſessor obierit\", proclaimed \"per Byzantium et circum quasque regiones\"",
-    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt), Anastasius's preface, l.105675-105682, l.105708-105717",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt), Anastasius's preface, l.105675-105682, l.105708-105712, l.105751-105756",
     "formation_confidence": "Documented"
    },
    {
@@ -162,6 +162,11 @@
     "formation_confidence": "Dominant Modern Reconstruction"
    },
    {
+    "claim": "Bollandists: Theophanes died \"circa annum 720\" (the scan; 820 by the clause \"quo tempore Nicephorus in exsilio superat\")",
+    "witness": "PG100 (nikephoros-cp_opera-with-vita-stephani-iunioris-pg100-grc-lat_migne1860.txt), the Bollandists' commentary on Nikephoros, l.1641-1647",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
     "claim": "Office of 12 March",
     "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt) l.2898",
     "formation_confidence": "Documented"
@@ -178,7 +183,7 @@
    },
    {
     "claim": "The Life's Latin heading \"QUI ET ISAACUS\"; Goar: should read \"Theophanis Isacii F.\"",
-    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt) l.650-656; Goar's Notitia, l.319-323",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt) l.650-661; Goar's Notitia, l.319-323",
     "formation_confidence": "Contested"
    },
    {
@@ -212,13 +217,23 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Henschen: the year tables are not Theophanes's",
-    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt) l.466-505, l.103870-103871",
+    "claim": "Henschen: the year tables are full of errors and not Theophanes's; \"mirum est aut ipsum, aut qui defuncti Goaris lahorem eduxit in lucem Combeſisium, potuisse sibi persuadere, ab auctore Theophane esse\"",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt) l.466-513, l.103870-103871, l.103985-103993",
     "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Goar on the errors of the tables of years: \"si eausam diceret, non aliam, me conjectore, quam variorum auctorum $ententiam, numerosque varios secutum, opusque proprium, urgente persecutionis necessitate, non recensuisse\"",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt), Goar's Notitia, l.538-539 (the scan's running head at l.531 reads \"FR. COMBEFISII PREFATIO\"; the numbered points from l.400 run on to l.539, and Combefis's own preface begins at l.562)",
+    "formation_confidence": "Contested"
    },
    {
     "claim": "The held Life lacks a leaf (\"Dees unum folium\" (Deest)), as in Lipomanus",
     "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt) l.2860-2861",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Fabricius's notice: \"sancti Theophanis Sygriensis abbatis\"; \"Vita sancti Theophanis Sygriensis abbatis\"",
+    "witness": "PG99 (theodore-studite_opera-omnia-pg99-grc-lat_migne1860.txt) l.456, l.8177",
     "formation_confidence": "Documented"
    }
   ],
@@ -247,10 +262,11 @@
     ]
    },
    {
-    "claim": "Death year 818",
+    "claim": "Death year",
     "sides": [
      "Goar, in Leo's fifth year (THEOPH l.344-371)",
-     "Baronius, whose dating Goar rejects and who, Goar says, split him into two men (THEOPH l.312-314, l.372-373)"
+     "Baronius, whose dating Goar rejects and who, Goar says, split him into two men (THEOPH l.312-314, l.372-373)",
+     "Bollandists: about 820, while Nikephoros was in exile (PG100 l.1641-1647; the scan reads 720)"
     ]
    },
    {
@@ -258,6 +274,13 @@
     "sides": [
      "Latin heading: also called Isaac (THEOPH l.654-656)",
      "Goar: son of Isaac (THEOPH l.319-323)"
+    ]
+   },
+   {
+    "claim": "Whether the year tables are Theophanes's",
+    "sides": [
+     "Henschen: not his, and full of errors (THEOPH l.485-513, l.103985-103993)",
+     "Goar and Combefis, as Henschen reports them: his; Goar guesses the errors came from following varied authors and not revising under persecution (THEOPH l.538-539, l.510-513)"
     ]
    }
   ],
@@ -311,7 +334,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Benedictines: Metaphrastes drew his Life from it; the author took phrases and whole sentences from Cyril's Life of Euthymius; the Life tells most of the history of the iconoclasts",
+    "claim": "Benedictines: Metaphrastes drew his Life from it; the author took phrases and whole sentences from Cyril's Life of Euthymius; the Life tells much of the history of the iconoclasts clearly (\"pleraque ad historiam leonoclastarum spectantia\", \"luculenter enarrantur\")",
     "witness": "PG100 l.88589-88605",
     "formation_confidence": "Documented"
    },
@@ -346,13 +369,18 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Eleven months in the Praetorium; at a feast the emperor: \"Non sum ego imperator. Alius vester imperator est ... Stephanus Auxentii\"; a crowd runs to the prison; \"Ego sum, quem quzritis\"; ropes tied between the chains on his feet; dragged into the public street; Philomates kills him with a pole from the fire siphons; body thrown into the pit of pagans and the condemned at Saint Pelagius",
-    "witness": "PG100 l.96041-96043, l.96915-96984, l.97169-97190",
+    "claim": "Eleven months in the Praetorium; the emperor rises at the second hour, rushes out \"in imperatoria vestibula exsiliens\" and meets revellers going to the feast in the empress's honor; he: \"Non sum ego imperator. Alius vester imperator est ... Stephanus Auxentii\"; a crowd runs to the prison; \"Ego sum, quem quzritis\"; ropes tied between the chains on his feet; dragged into the public street; Philomates kills him with a pole from the fire siphons; body thrown into the pit of pagans and the condemned, \"ubi uimirum saneti martyris Pelagii\" \"lemplum olim erat, quod cum lapsum\"; Constantine had made the ruin a tomb of the condemned (\"pulcrum effecit, Pelagiique titulo insignivit\")",
+    "witness": "PG100 l.96041-96043, l.96915-96984, l.97169-97190, l.97176-97190",
     "formation_confidence": "Documented"
    },
    {
     "claim": "Death: \"quinquagesimo tertio su ætatis anno, mense ... die vigesima Octava\"",
     "witness": "PG100 l.97215-97217",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Variant at the death: \"Regius Codex non habet tptrty\" (τρίτῳ, third, garbled; so his fiftieth year)",
+    "witness": "PG100 l.97224",
     "formation_confidence": "Documented"
    },
    {
@@ -362,7 +390,7 @@
    },
    {
     "claim": "Nikephoros's Short History (marked \"An. 766\"): a holy monk shut in a narrow hut at the foot of the mountain of Saint Auxentius, accused of drawing people from homes, kin and palaces to the monastic life; beaten, imprisoned, a rope tied to his feet, dragged from the palace to the Forum of the Ox and torn apart; body thrown to Pelagius's tombs, where pagans' and executed men's bodies went",
-    "witness": "PG100 Breviarium l.81472-81487",
+    "witness": "PG100 Breviarium l.81476-81487",
     "formation_confidence": "Documented"
    },
    {
@@ -391,7 +419,8 @@
     "claim": "Why he was killed",
     "sides": [
      "The Life: for refusing the council's ruling and defending the images (PG100 l.92841-92857, l.95646-95732)",
-     "Theophanes and Nikephoros's Short History: accused of drawing people into the monastic life (THEO l.78713-78715; PG100 l.81475-81481)"
+     "Theophanes: accused of urging many to the monastic life and to despise court honors and riches (THEO l.78713-78715)",
+     "Nikephoros's Short History: accused of drawing people from homes, kin and palaces to the monastic life (PG100 l.81484-81488)"
     ]
    },
    {
@@ -399,7 +428,7 @@
     "sides": [
      "The Life: 28 November, 53rd year, no year (PG100 l.97215-97217)",
      "Theophanes: 20 November, indiction 4, Goar's margin A.C. 757 (THEO l.78706-78707)",
-     "Fabricius: 766 (PG100 l.88570-88571); the year marker in the PG100 Short History: 766 (PG100 l.81472)",
+     "Fabricius: 766 (PG100 l.88570-88571); the year marker in the PG100 Short History: 766 (PG100 l.81476)",
      "Patrologia Graeca editors of Theophanes: 28 November 767 (THEO l.131105-131109)"
     ]
    },
@@ -407,7 +436,8 @@
     "claim": "His years in enclosure",
     "sides": [
      "Theophanes: sixty (THEO l.78726)",
-     "The Life's ages, 31 at enclosure and 53rd year at death; the PG editors of Theophanes reject sixty (PG100 l.90842, l.97215-97217; THEO l.131106-131108)"
+     "The Life's ages, 31 at enclosure and 53rd year at death (PG100 l.90842, l.97215-97217)",
+     "PG editors of Theophanes: died 767 in his 53rd year, not after sixty years in enclosure, citing the Acta Sanctorum (THEO l.131106-131115)"
     ]
    }
   ],
@@ -443,6 +473,16 @@
     "formation_confidence": "Documented"
    },
    {
+    "claim": "Goar: Leo, crowned by Nikephoros (\"Nicephoro diadema capiti imponente\"), seized power \"anno Christi 814, Junii die 42, indictione septima, prout Baronius\" and an anonymous Greek chronicle say, differing from Theophanes (the scan's day 42 cannot stand)",
+    "witness": "THEO (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt), Goar's Notitia, l.350-353",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Goar: exiled when Leo's second year was complete (\"Imperii anno secundo jam completo\"), at the end of Lent 816: \"Ad quadragesimz ſinem anno 816 indict. 9 Nicephoro tendit insidias, et sede abdicat\"",
+    "witness": "THEO (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt), Goar's Notitia, l.346-347, l.365",
+    "formation_confidence": "Contested"
+   },
+   {
     "claim": "Ignatius: Leo put off signing the creed until crowned, then on the second day refused (\"Is se ſacturum fortiter pernegat\")",
     "witness": "PG100 l.4579-4606, l.4661-4668",
     "formation_confidence": "Documented"
@@ -461,6 +501,16 @@
     "claim": "Bollandists: born \"circa annum 758\"; ordained 12 April, Easter, 806; exiled 13 March 815; died in the 14th year of exile, 2 June 828; body brought back 846",
     "witness": "PG100 l.1668-1675",
     "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Bollandists' note to the Life of Methodios: \"Sanctus Nicephornus in exsilium pulsus est\" \"anno 814 die 13 Martii\"",
+    "witness": "PG100 l.102222-102223",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Goar, preface to Nikephoros's short chronology: Baronius has him die \"anno nimirum 806 ad 828, hoc postremo mortuum\" \"scribit, qui tamen sequentis 829 mensem Junium\" (attigit); the preface compares the editions of Camerarius, Contius and Scaliger, which the edition's own preface names as the basis of Goar's text of 1652",
+    "witness": "PG100 l.85132-85139, l.85153-85160, l.82717-82724",
+    "formation_confidence": "Contested"
    },
    {
     "claim": "Ignatius, deacon and keeper of the vessels of the Great Church, later metropolitan of Nicaea (Suidas), wrote the Lives of Tarasius and Nikephoros; calls Nikephoros his father and himself his son; deplores his own lapse into heresy",
@@ -553,6 +603,11 @@
     "formation_confidence": "Dominant Modern Reconstruction"
    },
    {
+    "claim": "Mai: Leo V, whom Nikephoros as patriarch had crowned \"au. 813, coronaverat\"",
+    "witness": "PG100 l.14464-14465",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
     "claim": "Mai's note: Mamonas is Constantine V",
     "witness": "PG100 l.14731-14733",
     "formation_confidence": "Documented"
@@ -560,6 +615,11 @@
    {
     "claim": "Breviarium: from Maurice's death 602 to Leo IV and Irene's marriage, 770; Photius cod. 66 read and praised it",
     "witness": "PG100 Fabricius l.318-321",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Photius, Bibliotheca codex 66: \"Read the Historical Epitome of Nicephorus patriarch of Constantinople.\"; \"he throws into the shade all historians who have preceded him\"",
+    "witness": "FREESE (photius_library-v1_freese1920.txt) l.5383-5384, l.5401-5402",
     "formation_confidence": "Documented"
    },
    {
@@ -594,7 +654,7 @@
    },
    {
     "claim": "Short History tells Stephen the Younger's death",
-    "witness": "PG100 l.81472-81487",
+    "witness": "PG100 l.81476-81487",
     "formation_confidence": "Documented"
    }
   ],
@@ -619,6 +679,29 @@
     "sides": [
      "Ignatius: his monastery of the Good, then his monastery of the martyr Theodore (PG100 l.8849-8864)",
      "Leo the Grammarian, as Goar quotes him: Proconnesus (THEO l.345-348)"
+    ]
+   },
+   {
+    "claim": "Year of the crowning",
+    "sides": [
+     "Bollandists, from Theophanes's 11 July, indiction 6: 813 (PG100 l.4643-4644)",
+     "Mai: 813 (PG100 l.14465)",
+     "Baronius and an anonymous Greek chronicle, as Goar reports them: June 814 (THEO l.350-353)"
+    ]
+   },
+   {
+    "claim": "Year of the exile",
+    "sides": [
+     "815: Fabricius (PG100 l.305); the Bollandists' commentary, 13 March (PG100 l.1672)",
+     "814, 13 March: the Bollandists' note to the Life of Methodios (PG100 l.102222-102223)",
+     "816, end of Lent: Goar (THEO l.346-347, l.365)"
+    ]
+   },
+   {
+    "claim": "Year of the death",
+    "sides": [
+     "828: Fabricius (PG100 l.307); the Bollandists, 2 June (PG100 l.1674); Mai, at seventy (PG100 l.14474)",
+     "June 829: Goar, against Baronius's 828 (PG100 l.85132-85139)"
     ]
    }
   ],
