@@ -120951,13 +120951,19 @@ const DOCSTORY_BOOK_SVG='<svg width="17" height="15" viewBox="-8 -7 16 14" aria-
 
 const tip=document.getElementById('tip');
 let tipW=0, tipH=0;
+let tipInput='mouse';
+document.addEventListener('pointerover',ev=>{tipInput=ev.pointerType;},true);
+document.addEventListener('pointerdown',ev=>{tipInput=ev.pointerType;if(ev.pointerType==='touch')hideTip();},true);
+document.addEventListener('keydown',()=>{tipInput='key';},true);
 function showTip(ev,html){
+  if(tipInput==='touch')return;
   tip.innerHTML=html; tip.style.display='block';
   tipW=tip.offsetWidth; tipH=tip.offsetHeight;
   positionTip(ev);
 }
 function positionTip(ev){positionTipAt(ev.clientX,ev.clientY);}
 function showTipAt(x,y,html){
+  if(tipInput==='touch')return;
   tip.innerHTML=html; tip.style.display='block';
   tipW=tip.offsetWidth; tipH=tip.offsetHeight;
   positionTipAt(x,y);
@@ -121405,6 +121411,7 @@ function connButtonHTML(m){
 }
 let lastFocused=null;
 function showPanel(page){
+  hideTip();
   lastFocused=document.activeElement;
   if(window.PageFeedback)window.PageFeedback.mount(panelBody,page);
   panel.classList.add('open');
@@ -121645,7 +121652,8 @@ function pinEraCaptions(){
     const y=eraY0[i]+16+(pl+34)/scale;
     t.setAttribute('x',x.toFixed(2)); t.setAttribute('y',y.toFixed(1));
     t.style.fontSize=(pl/scale)+'px'; t.style.strokeWidth=(3/scale)+'px';
-    infos[i].setAttribute('transform',`translate(${(x+t.getComputedTextLength()+16/scale).toFixed(1)},${(y-pl*.36/scale).toFixed(1)}) scale(${(1/scale).toFixed(4)})`);
+    const drawn=t.getBBox();
+    infos[i].setAttribute('transform',`translate(${(drawn.x+drawn.width+16/scale).toFixed(1)},${(y-pl*.36/scale).toFixed(1)}) scale(${(1/scale).toFixed(4)})`);
     const tag=tags[i];
     tag.setAttribute('x',x.toFixed(2)); tag.setAttribute('y',(eraY0[i]+16+(pl+41+pt)/scale).toFixed(1));
     tag.style.fontSize=(pt/scale)+'px'; tag.style.strokeWidth=(3/scale)+'px';
@@ -121850,7 +121858,7 @@ function zoomAt(mx,my,factor){
   applyTransform(); applyDetail();
 }
 stage.addEventListener('wheel',(ev)=>{
-  ev.preventDefault();
+  ev.preventDefault(); hideTip();
   if(ev.ctrlKey||ev.metaKey){
     const rect=stage.getBoundingClientRect();
     const dy=Math.max(-30,Math.min(30,ev.deltaY));
@@ -121872,7 +121880,7 @@ stage.addEventListener('pointermove',(ev)=>{
   if(ev.pointerType==='touch'||ev.pointerId!==dragArmedId)return;
   if(!dragging){
     if(Math.hypot(ev.clientX-downX,ev.clientY-downY)<DRAG_THRESHOLD)return;
-    dragging=true; stage.classList.add('grabbing'); stage.setPointerCapture(ev.pointerId);
+    dragging=true; hideTip(); stage.classList.add('grabbing'); stage.setPointerCapture(ev.pointerId);
   }
   tx+=ev.clientX-lastX; ty+=ev.clientY-lastY; lastX=ev.clientX; lastY=ev.clientY; applyTransform();
 });
@@ -121937,7 +121945,7 @@ document.addEventListener('keydown',(ev)=>{
     case '-': case '_': zoomCentre(1/ZOOM_STEP); break;
     default: return;
   }
-  ev.preventDefault();
+  ev.preventDefault(); hideTip();
 });
 const MAP_ITEM='[role="button"][tabindex]';
 let mapActive=null, mapSyncQueued=false;
@@ -122037,9 +122045,11 @@ function flickVelocity(){
   return [vx*k,vy*k];
 }
 stage.addEventListener('touchstart',(ev)=>{
+  if(ev.touches.length>1)ev.preventDefault();
   stopGlide(); flick=[];
   Array.from(ev.touches).forEach(t=>touches[t.identifier]={x:t.clientX,y:t.clientY});
-},{passive:true});
+},{passive:false});
+['gesturestart','gesturechange','gestureend'].forEach(t=>stage.addEventListener(t,ev=>ev.preventDefault(),{passive:false}));
 stage.addEventListener('touchmove',(ev)=>{
   ev.preventDefault();
   const ts=Array.from(ev.touches);

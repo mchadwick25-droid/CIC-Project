@@ -35,7 +35,7 @@ after(async () => { await browser?.close(); server?.close(); });
 
 const SCREENS = [['desktop', { viewport: { width: 1440, height: 900 } }], ['iPhone 13', devices['iPhone 13']]];
 
-async function openMap(opts, { holdFonts = false, dropFontEvents = false } = {}) {
+async function openMap(opts, { holdFonts = false, dropFontEvents = false, shortTextLength = false } = {}) {
   const ctx = await browser.newContext(opts);
   const page = await ctx.newPage();
   const errors = [];
@@ -49,6 +49,12 @@ async function openMap(opts, { holdFonts = false, dropFontEvents = false } = {})
     await page.addInitScript(() => {
       const add = FontFaceSet.prototype.addEventListener;
       FontFaceSet.prototype.addEventListener = function (type, ...rest) { if (type !== 'loadingdone') add.call(this, type, ...rest); };
+    });
+  }
+  if (shortTextLength) {
+    await page.addInitScript(() => {
+      const real = SVGTextContentElement.prototype.getComputedTextLength;
+      SVGTextContentElement.prototype.getComputedTextLength = function () { return real.call(this) * 0.75; };
     });
   }
   await page.goto(base, { waitUntil: 'domcontentloaded' });
@@ -85,6 +91,17 @@ for (const [name, opts] of SCREENS) {
     for (const s of [0.2, 0.3, 0.39, 0.5, 0.6, 0.7, 0.79]) {
       await zoomTo(page, s);
       assertGaps(await markGaps(page), `zoom ${s}`);
+    }
+    assert.deepEqual(errors, []);
+    await ctx.close();
+  });
+
+  test(`${name}: the era mark sits after the drawn title even where the text-length measure runs short`, async () => {
+    const { ctx, page, errors } = await openMap(opts, { shortTextLength: true });
+    await page.evaluate(() => document.fonts.ready);
+    for (const s of [0.39, 0.5, 0.7]) {
+      await zoomTo(page, s);
+      assertGaps(await markGaps(page), `short measure, zoom ${s}`);
     }
     assert.deepEqual(errors, []);
     await ctx.close();
@@ -205,3 +222,78 @@ for (const [name, opts] of SCREENS) {
     await ctx.close();
   });
 }
+
+const tipShown = page => page.evaluate(() => getComputedStyle(document.getElementById('tip')).display !== 'none');
+
+async function onScreenCentre(page, selector) {
+  return page.evaluate(sel => {
+    const top = document.querySelector('.topbar').getBoundingClientRect().bottom + 30, bottom = innerHeight - 90;
+    for (let y = top; y < bottom; y += 12) for (let x = 24; x < innerWidth - 24; x += 12) {
+      if (document.elementFromPoint(x, y)?.closest(sel)) return [x, y];
+    }
+    return null;
+  }, selector);
+}
+
+test('iPhone 13: a tap leaves no hover tip behind, and a pinch on the map does not zoom the page', async () => {
+  const { ctx, page, errors } = await openMap(SCREENS[1][1]);
+  for (const sel of ['.river-group', '.who-pill', '#nodes .node', '.story']) {
+    if (sel === '#nodes .node') await zoomTo(page, 1);
+    const at = await onScreenCentre(page, sel);
+    assert.ok(at, `no ${sel} on screen to tap`);
+    await page.touchscreen.tap(at[0], at[1]);
+    await page.waitForTimeout(400);
+    assert.equal(await tipShown(page), false, `a tap on ${sel} left the hover tip open`);
+    await page.evaluate(() => { if (document.getElementById('panel').classList.contains('open')) closePanel(); });
+  }
+  const cdp = await ctx.newCDPSession(page);
+  await cdpTouch(page, cdp, 'touchStart', [[150, 300], [240, 360]]);
+  for (let k = 1; k <= 10; k++) await cdpTouch(page, cdp, 'touchMove', [[150 - k * 8, 300 - k * 6], [240 + k * 8, 360 + k * 6]]);
+  await cdpTouch(page, cdp, 'touchEnd', []);
+  await page.waitForTimeout(200);
+  assert.equal(await page.evaluate(() => visualViewport.scale), 1, 'the page zoomed');
+  const prevented = await page.evaluate(() => ['gesturestart', 'gesturechange', 'gestureend'].map(t => {
+    const ev = new Event(t, { cancelable: true, bubbles: true });
+    document.getElementById('stage').dispatchEvent(ev);
+    return ev.defaultPrevented;
+  }));
+  assert.deepEqual(prevented, [true, true, true], 'Safari gesture events on the map are not cancelled');
+  assert.deepEqual(errors, []);
+  await ctx.close();
+});
+
+test('desktop: the hover tip shows for a mouse and goes when the map moves or a card opens', async () => {
+  const { ctx, page, errors } = await openMap(SCREENS[0][1]);
+  await zoomTo(page, 1);
+  let at = await onScreenCentre(page, '#nodes .node');
+  await page.mouse.move(at[0], at[1]);
+  await page.waitForTimeout(150);
+  assert.equal(await tipShown(page), true, 'mouse hover shows the tip');
+  const before = await page.evaluate(() => document.getElementById('tip').innerHTML);
+  await page.mouse.wheel(0, 120);
+  await page.waitForTimeout(200);
+  const after = await page.evaluate(([x, y]) => ({
+    shown: getComputedStyle(document.getElementById('tip')).display !== 'none',
+    html: document.getElementById('tip').innerHTML,
+    over: document.elementFromPoint(x, y)?.closest('#nodes .node, .story, .river-group, .who-pill, .council, .edge-hit, .edge-line')?.dataset.id || null,
+  }), at);
+  assert.ok(!after.shown || (after.over && after.html !== before), 'after a wheel pan the old tip stays only if the pointer is over a new item');
+  at = await onScreenCentre(page, '#nodes .node');
+  await page.mouse.move(at[0] + 1, at[1]);
+  await page.mouse.move(at[0], at[1]);
+  await page.waitForTimeout(150);
+  assert.equal(await tipShown(page), true);
+  await page.mouse.down();
+  await page.mouse.move(at[0] + 60, at[1] + 40, { steps: 4 });
+  assert.equal(await tipShown(page), false, 'a drag hides the tip');
+  await page.mouse.up();
+  at = await onScreenCentre(page, '#nodes .node');
+  await page.mouse.move(at[0], at[1]);
+  await page.waitForTimeout(150);
+  await page.mouse.click(at[0], at[1]);
+  await page.waitForTimeout(200);
+  assert.equal(await page.evaluate(() => document.getElementById('panel').classList.contains('open')), true, 'the click opens a card');
+  assert.equal(await tipShown(page), false, 'an open card hides the tip');
+  assert.deepEqual(errors, []);
+  await ctx.close();
+});
