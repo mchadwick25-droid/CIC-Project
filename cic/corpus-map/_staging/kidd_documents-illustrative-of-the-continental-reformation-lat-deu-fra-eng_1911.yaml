@@ -8,7 +8,7 @@ assignments:
   - lutheran-wittenberg-and-its-congregations
   role: tradition
   confidence: provisional
-  note: 'Luther''s answer at Worms, the fifteenth Marburg article with the signatures, and Augsburg texts, in their own languages.'
+  note: 'Luther''s answer at Worms in Latin, the fifteenth Marburg article in a Latin version with nine signatures, and Augsburg texts.'
 - row_id: kidd_documents-illustrative-of-the-continental-reformation-lat-deu-fra-eng_1911--kidd-documents-of-the-continental-reformation-the-swiss-and-french-documents
   work: 'Kidd, Documents of the Continental Reformation: the Swiss and French documents'
   author: kidd
@@ -26,4 +26,4 @@ assignments:
   - the-tridentine-church
   role: context
   confidence: provisional
-  note: 'Aleander and the emperor in their own words.'
+  note: 'Aleander in Latin; the emperor''s declaration in English translation; the Edict in Latin extracts.'

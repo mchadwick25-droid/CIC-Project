@@ -1052,7 +1052,7 @@ works:
   work: 'The Marburg Colloquy: the reports of Hedio, the Anonymous, Collin, Osiander and Brenz,
     and the Marburg Articles with their signatures (Weimar edition 30/3)'
   author: luther
-  locus: about OCR lines 6580-12700; add 12 to OCR line numbers
+  locus: about OCR lines 6580-12729; add 12 to OCR line numbers
   role: tradition
   confidence: provisional
   note: Participants' reports from both sides, and the fifteen articles as signed, in the
@@ -1106,7 +1106,7 @@ works:
   work: Acta colloquii Marpurgensis (1529), from Aurifaber's manuscript (Schirrmacher), as
     the other side's hearing
   author: schirrmacher
-  locus: about OCR lines 1100-2211; add 12 to OCR line numbers
+  locus: about OCR lines 1210-1836; add 12 to OCR line numbers
   role: context
   confidence: provisional
   note: Zwingli's and Oecolampadius's words as a Lutheran collection reports them.

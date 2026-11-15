@@ -6,7 +6,7 @@ Rights: Public Domain (pd-us-by-date: published 1876); the archive.org record ca
 Language: spa
 Source: archive.org item historiadelasind15casa_3, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,066,068) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1876, out of US copyright by date. OCR quality: the Spanish is clean to fair, with accents mostly right. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: The fifth and last volume, Book III continued, with his own part as 'el clerigo Casas' throughout (some thirty-one lines). 'Fin del quinto y ultimo tomo' at OCR line 22969; the contents list from 22978; a library plate closes the file. Chapters were not mapped.
+Content note: The fifth and last volume, Book III continued, with his own actions told as 'el clerigo Casas' (some thirty lines). 'Fin del quinto y ultimo tomo' at OCR line 22969; the contents list from 22978; a library plate closes the file. Chapters were not mapped.
 
 ______________________________________________________________________
 

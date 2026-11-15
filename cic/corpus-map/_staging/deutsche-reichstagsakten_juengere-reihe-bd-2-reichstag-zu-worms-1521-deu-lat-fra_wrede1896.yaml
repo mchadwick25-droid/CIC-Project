@@ -12,7 +12,7 @@ assignments:
 - row_id: deutsche-reichstagsakten_juengere-reihe-bd-2-reichstag-zu-worms-1521-deu-lat-fra_wrede1896--deutsche-reichstagsakten-jungere-reihe-2-charles-v-s-declaration-of-19-april-1521-and-the-edict-of-worms
   work: 'Deutsche Reichstagsakten, jungere Reihe 2: Charles V''s declaration of 19 April 1521 and the Edict of Worms'
   author: deutsche-reichstagsakten
-  locus: 'about OCR lines 39080-39145 and from 41730; add 12 to OCR line numbers'
+  locus: 'about OCR lines 39080-39128 and 41730-42894; add 12 to OCR line numbers'
   atlas_ids:
   - the-tridentine-church
   role: context

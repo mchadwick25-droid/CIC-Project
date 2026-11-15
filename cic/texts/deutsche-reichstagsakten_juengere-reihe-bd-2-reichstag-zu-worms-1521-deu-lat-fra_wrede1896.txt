@@ -1,12 +1,12 @@
 Title: Deutsche Reichstagsakten, jungere Reihe; zweiter Band: Deutsche Reichstagsakten unter Kaiser Karl V., herausgegeben durch die Historische Kommission bei der Koniglichen Akademie der Wissenschaften
-Creator: Historische Kommission (editor); the foreword is signed Adolf Wrede, Gottingen, April 1896 (OCR lines 365-371)
+Creator: Historische Kommission (editor); bearbeitet von Adolf Wrede (second title page, OCR lines 267-269)
 Publisher: Gotha: Friedrich Andreas Perthes (title page)
 Publication Date: 1896 (title page, about OCR lines 225-237)
 Rights: Public Domain (pd-us-by-date: published 1896); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees; the host record's date of 1893 is not what the title page says
 Language: deu; lat; fra
 Source: archive.org item deutschereichst07kommgoog, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (3,620,551) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1896, out of US copyright by date. OCR quality: clean to fair in all three languages. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: The acts of the Diet of Worms of 1521. Luther's hearing: No. 79 at about OCR lines 36057-37380 and No. 80 at about 37507-38650, with a German account from 37811. Charles V's declaration of 19 April in French ('Vous savez que je suis descendu des empereurs tres-crestiens') at about 39080-39145. No. 85 from about 39338. No. 92, the edict of Charles V against Luther, from 41730 (the end and whether in full were not checked). Registers from about 60930. The rest was not mapped.
+Content note: The acts of the Diet of Worms of 1521. Luther's hearing: No. 79 at about OCR lines 36057-37380 and No. 80 at about 37507-38650, with a German account from 37811. No. 82, Charles V's declaration of 19 April in French ('Vous savez que je suis descendu des empereurs tres-crestiens'), at about 39080-39128. No. 85 from about 39338. No. 92, the edict of Charles V against Luther, in full in German with Latin readings in the notes, at 41730-42894; No. 93 follows. Registers from about 60930. The rest was not mapped.
 
 ______________________________________________________________________
 

@@ -6,7 +6,7 @@ Rights: Public Domain (pd-us-by-date: published 1884); the archive.org record sa
 Language: lat; ita
 Source: archive.org item monumentareform00vatigoog, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,593,647) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1884, out of US copyright by date. OCR quality: the Latin is clean to fair; the Italian was not tested; the title page is badly read. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Documents from the papal archives on Luther's cause. Aleander's letters to the Vice-Chancellor ('Aleander Vicecancellario') are printed from OCR line 2438 on, some thirty of them down to about 16076; which fall in the weeks of Luther's hearing was not checked. A chronological index from 31544 and an index of names from 32558. The rest was not mapped.
+Content note: Documents from the papal archives on Luther's cause. Aleander's letters to the Vice-Chancellor ('Aleander Vicecancellario') are printed from OCR line 2438 on, some thirty of them down to about 16076. The chronological index (about 31719-31740) dates Nos. 61, 64, 67 and 70 to 5, 16, 18 and 19 April and names No. 68 'Acta comparitionis Lutheri'. A chronological index from 31544 and an index of names from 32558. The rest was not mapped.
 
 ______________________________________________________________________
 

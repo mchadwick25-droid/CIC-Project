@@ -6,7 +6,7 @@ Rights: Public Domain (pd-us-by-date: published 1831); the archive.org record sa
 Language: eng
 Source: archive.org item historymaritime00elgoog, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (213,541) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1831, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: The first four chapters only; no more is in this translation. The translator's preface at about OCR lines 187-311 (it gives the author's other name, Katib Chelebi); the text from 'Chapter I' at 413 to about 4440. No index. Not read for its passages on Christians.
+Content note: The first four chapters only; no more is in this translation. The translator's preface at about OCR lines 187-311 (it gives the author's other name, Katib Chelebi); the text from 'Chapter I' at 413 to about 4440. No index.
 
 ______________________________________________________________________
 

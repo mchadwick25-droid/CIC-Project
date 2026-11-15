@@ -577,17 +577,17 @@ or earlier, read on its title page or, for sixteen volumes, on the scan's page i
 | outside-witness row 26, Leo Africanus | filled | `leo-africanus_history-and-description-of-africa-v3_pory-brown1896.txt` (1896) | the-coptic-church-under-the-ottomans, context (needs-ruling) |
 | outside-witness row 27, Busbecq: the Turkish Letters and the letters from France | filled | `busbecq_life-and-letters-v1_forster-daniell1881.txt` (1881) | orthodoxy-under-the-ottomans-parish-millet-and-n, context (needs-ruling) |
 | outside-witness row 27, Busbecq: the Turkish Letters and the letters from France | filled | `busbecq_life-and-letters-v2_forster-daniell1881.txt` (1881) | the-huguenots, context (needs-ruling) |
-| council row, Marburg Colloquy (1529): the colloquy's record, first choice (Schirrmacher) | filled | `schirrmacher_briefe-und-acten-marburg-1529-augsburg-1530-lat-deu_1876.txt` (1876) | lutheran-wittenberg-and-its-congregations, tradition; the-reformed-cities-zurich-and-geneva, context Latin acts of the sessions; the host calls the item a reprint of 1968, which the scan is not. |
+| council row, Marburg Colloquy (1529): the colloquy's record, first choice (Schirrmacher) | filled | `schirrmacher_briefe-und-acten-marburg-1529-augsburg-1530-lat-deu_1876.txt` (1876) | lutheran-wittenberg-and-its-congregations, tradition; the-reformed-cities-zurich-and-geneva, context A Latin report of the sessions (OCR lines 1210-1836); the articles are not printed in it. The host calls the item a reprint of 1968, which the scan is not. |
 | council row, Marburg Colloquy (1529): the participants' reports and the signed articles (Weimar edition 30/3) | filled | `luther_werke-kritische-gesamtausgabe-bd-30-abt-3-deu-lat_weimar1910.txt` (1910) | lutheran-wittenberg-and-its-congregations, the-reformed-cities-zurich-and-geneva, tradition; lutheran-wittenberg-and-its-congregations, tradition |
 | council row, Marburg Colloquy (1529): Jacobs's Book of Concord, vol. II | not taken | — | The only scan is an undated upload whose title-page year was not read. Erichson (1880) is a narrative with poor OCR; not taken. |
 | council row, Diet of Worms (1521): the Diet's acts (Reichstagsakten II) | filled | `deutsche-reichstagsakten_juengere-reihe-bd-2-reichstag-zu-worms-1521-deu-lat-fra_wrede1896.txt` (1896) | lutheran-wittenberg-and-its-congregations, tradition; the-tridentine-church, context |
 | council row, Diet of Worms (1521): Kidd's Documents (also Marburg and Augsburg) | filled | `kidd_documents-illustrative-of-the-continental-reformation-lat-deu-fra-eng_1911.txt` (1911) | lutheran-wittenberg-and-its-congregations, tradition; the-reformed-cities-zurich-and-geneva, tradition; the-tridentine-church, context |
 | Wanted Sources council row 22, Colloquy of Poissy (1561) | held already | — | `beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt`, the chapter 'Le Colloque de Poissy' from about file line 26871, with Beza's speech; the councils scan already says so. |
 | Open-Gaps 273, not held: Aleander's dispatches | filled | `balan_monumenta-reformationis-lutheranae-1521-1525-lat-ita_1884.txt` (1884) | the-tridentine-church, tradition; lutheran-wittenberg-and-its-congregations, context |
-| Open-Gaps 273, not held: Luther's Worms speech in its own language; Charles V's French declaration; the Edict | filled | — | In the Reichstagsakten volume and in Kidd, above. Whether either prints the Edict in full was not checked. |
+| Open-Gaps 273, not held: Luther's Worms speech in its own language; Charles V's French declaration; the Edict | filled | — | The Reichstagsakten volume has the hearing, the declaration in French (no. 82) and the Edict in full in German (no. 92). Kidd has the speech in Latin, the declaration in English and the Edict in Latin extracts. |
 | Open-Gaps 273, not held: the Confutatio pontificia, Latin | filled | `corpus-reformatorum_v27-confutatio-et-apologia-confessionis-augustanae-lat-deu_bindseil1859.txt` (1859) | the-tridentine-church, tradition; lutheran-wittenberg-and-its-congregations, tradition |
 | Open-Gaps 273, not held: the Confutatio pontificia, English | filled | `reu_augsburg-confession-collection-of-sources_1930.txt` (1930) | lutheran-wittenberg-and-its-congregations, tradition; the-tridentine-church, context Imprint 1930. |
-| Open-Gaps 273, not held: the full recess of 19 November 1530 | filled in part | `foerstemann_urkundenbuch-reichstag-zu-augsburg-1530-bd-2-deu-lat_1835.txt` (1835) | lutheran-wittenberg-and-its-congregations, tradition The Diet's papers to its close; the recess itself was not found as a text. Kidd and Reu print the draft recess of 22 September. |
+| Open-Gaps 273, not held: the full recess of 19 November 1530 | filled in part | `foerstemann_urkundenbuch-reichstag-zu-augsburg-1530-bd-2-deu-lat_1835.txt` (1835) | lutheran-wittenberg-and-its-congregations, tradition The recesses of 22 September and 13 October are printed; the editor leaves out the text of 19 November as well enough known. Kidd and Reu also print the recess of 22 September. |
 | Open-Gaps 273, not held: a Campeggio document of 1530 | filled | `laemmer_monumenta-vaticana-historiam-ecclesiasticam-saeculi-xvi-lat-ita_1861.txt` (1861) | the-tridentine-church, tradition; lutheran-wittenberg-and-its-congregations, context |
 | Open-Gaps 273, not held: Luther's Coburg letters, in the original | filled | `luther_briefe-sendschreiben-und-bedenken-theil-4-lat-deu_de-wette1827.txt` (1827) | lutheran-wittenberg-and-its-congregations, tradition |
 | Open-Gaps 273, not held: Luther's Coburg letters, in English | filled | `luther_letters-of-martin-luther_currie1908.txt` (1908) | lutheran-wittenberg-and-its-congregations, tradition |
@@ -603,22 +603,27 @@ or earlier, read on its title page or, for sixteen volumes, on the scan's page i
 - Gracián: the treatise speaks of his captivity; it is not his own account of his life.
 - Xu Guangqi: one memorial, in an unnamed translator's English of 1850. The heading dates the charge against the
   Jesuits 1617.
-- Las Casas: he tells his own part in the third person, as "el clérigo Casas", and only in volumes IV and V. The
-  Historia and the Cádiz Brevísima are in Spanish; MacNutt's English of the Brevísima is of 1909.
+- Las Casas: he speaks as an eyewitness in the first person in every volume; from volume IV he tells his own
+  actions in the third person, as "el clérigo Casas". The Historia and the Cádiz Brevísima are in Spanish;
+  MacNutt's English of the Brevísima is of 1909.
 - Sahagún: Bustamante's Spanish only. The Nahuatl of his informants is not held, and the notes and supplements
   are the editor's.
-- Marburg: Schirrmacher's Latin acts come from Aurifaber's collection, the Wittenberg side; his German parts are
-  poorly read, and whether he prints the articles was not established. The Weimar volume holds the reports of
-  Hedio, the Anonymous, Collin, Osiander and Brenz and the articles with their signatures. Kidd prints the
-  fifteenth article only, with the signatures.
-- Worms: whether the Edict stands in full in Kidd or in the Reichstagsakten was not checked. Which of Aleander's
-  letters in Balan fall in the weeks of the hearing was not checked.
-- Augsburg: the recess of 19 November was not found as a text; Kidd and Reu print the draft of 22 September.
-  Reu's imprint is 1930 and his preface is dated 15 December 1930.
+- Marburg: Schirrmacher's Latin report comes from Aurifaber's collection, the Wittenberg side; it does not print
+  the articles, and his German parts are poorly read. The Weimar volume holds the reports of Hedio, the
+  Anonymous, Collin, Osiander and Brenz and the articles with their signatures. Kidd prints the fifteenth
+  article only, in a Latin version, with nine signatures.
+- Worms: the Edict is in full, in German, in the Reichstagsakten (no. 92); Kidd has Latin extracts, and the
+  emperor's declaration in English only. Balan's index dates Aleander's letters nos. 61, 64, 67 and 70 to 5, 16,
+  18 and 19 April 1521; no. 68 is the "Acta comparitionis Lutheri".
+- Augsburg: the recess of 19 November is not held as a text; Förstemann leaves it out as well enough known and
+  prints those of 22 September and 13 October. Corpus Reformatorum 27 has the Confutatio in Latin and in German.
+  Reu's English uses Jacobs's translations, by his preface; his imprint is 1930 and the preface is dated 15
+  December 1930.
 - The outside witnesses are held in their translators' English, French and Latin, except Usque (Portuguese),
-  Guicciardini (Italian) and Bodin's Colloquium (Latin). None was read in depth. The Latin Shevet Yehudah does
-  not name its author on the title page. Kâtib Çelebi is four chapters. The title page of Evliya's second part
-  says "Part I".
+  Guicciardini (Italian) and Bodin's Colloquium (Latin). None was read in depth. The Latin Shevet Yehudah names
+  its author in the translator's preface, not on the title page. Sée's Vallée des pleurs carries the notes and
+  appendix of a later "Correcteur" in the text. The first volume of the Chronicles does not name its translator.
+  Kâtib Çelebi is four chapters. The title page of Evliya's second part says "Part I".
 
 **Not taken.** Every duplicate, reprint, long set and unreadable scan is listed in the search log.
 

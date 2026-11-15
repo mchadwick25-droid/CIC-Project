@@ -6,7 +6,7 @@ Rights: Public Domain (pd-us-by-date: published 1930); the archive.org record ca
 Language: eng
 Source: archive.org item augsburgconfessi00reuj, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,915,276) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1930, out of US copyright by date. OCR quality: clean. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: An introduction, then the sources in English translation. No. 45, 'First draft of the Confutation, July 8' (OCR line 32564); No. 47, three letters of Luther to Augsburg (33475); No. 48, 'Confutatio pontificia, August 3, 1530' (33668-35372); No. 49, five letters of Luther to Augsburg (35373); No. 51, 'The Recess of Augsburg, September 22' (35735). Indexes from 42121. The other sources were not mapped.
+Content note: An introduction, then the sources in English translation. No. 45, 'First draft of the Confutation, July 8' (OCR line 32564); No. 47, three letters of Luther to Augsburg (33475); No. 48, 'Confutatio pontificia, August 3, 1530' (33668-35372); No. 49, five letters of Luther to Augsburg (35373); No. 51, 'The Recess of Augsburg, September 22' (35735). The preface says translations by Jacobs were used. Indexes from 42121. The other sources were not mapped.
 
 ______________________________________________________________________
 

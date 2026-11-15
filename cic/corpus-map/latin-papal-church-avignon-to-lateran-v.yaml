@@ -254,8 +254,7 @@ works:
   locus: the whole volume; not mapped
   role: context
   confidence: needs-ruling
-  note: A Florentine statesman's history of Italy, in his own Italian; an outside witness
-    on the popes of his time. Not read in depth.
+  note: His history of Italy in his own Italian; an outside witness.
   source_file: guicciardini_la-storia-d-italia-v1-ita_gherardi1919.txt
 - row_id: guicciardini_la-storia-d-italia-v2-ita_gherardi1919--guicciardini-storia-d-italia-volume-2-gherardi
   work: Guicciardini, Storia d'Italia, volume 2 (Gherardi)
@@ -263,8 +262,7 @@ works:
   locus: the whole volume; not mapped
   role: context
   confidence: needs-ruling
-  note: A Florentine statesman's history of Italy, in his own Italian; an outside witness
-    on the popes of his time. Not read in depth.
+  note: His history of Italy in his own Italian; an outside witness.
   source_file: guicciardini_la-storia-d-italia-v2-ita_gherardi1919.txt
 - row_id: guicciardini_la-storia-d-italia-v3-ita_gherardi1919--guicciardini-storia-d-italia-volume-3-gherardi
   work: Guicciardini, Storia d'Italia, volume 3 (Gherardi)
@@ -272,8 +270,7 @@ works:
   locus: the whole volume; not mapped
   role: context
   confidence: needs-ruling
-  note: A Florentine statesman's history of Italy, in his own Italian; an outside witness
-    on the popes of his time. Not read in depth.
+  note: His history of Italy in his own Italian; an outside witness.
   source_file: guicciardini_la-storia-d-italia-v3-ita_gherardi1919.txt
 - row_id: guicciardini_la-storia-d-italia-v4-ita_gherardi1919--guicciardini-storia-d-italia-volume-4-gherardi
   work: Guicciardini, Storia d'Italia, volume 4 (Gherardi)
@@ -281,8 +278,7 @@ works:
   locus: the whole volume; not mapped
   role: context
   confidence: needs-ruling
-  note: A Florentine statesman's history of Italy, in his own Italian; an outside witness
-    on the popes of his time. Not read in depth.
+  note: His history of Italy in his own Italian; an outside witness.
   source_file: guicciardini_la-storia-d-italia-v4-ita_gherardi1919.txt
 - row_id: hardt_magnum-oecumenicum-constantiense-concilium-t3-lat_1698--mauritius-of-prague-reply-to-jacobellus-on-the-chalice-von-der-hardt-iii
   work: Mauritius of Prague, reply to Jacobellus on the chalice (von der Hardt III)
@@ -335,8 +331,7 @@ works:
   locus: the whole volume; not mapped
   role: context
   confidence: needs-ruling
-  note: A Florentine secretary's own writings, in a translator's English; an outside witness
-    on the papacy and Italy to 1527. Not read in depth.
+  note: His own writings in a translator's English; an outside witness.
   source_file: machiavelli_historical-political-and-diplomatic-writings-v1_detmold1882.txt
 - row_id: machiavelli_historical-political-and-diplomatic-writings-v2_detmold1882--machiavelli-writings-in-english-volume-2-detmold
   work: Machiavelli, writings in English, volume 2 (Detmold)
@@ -344,8 +339,7 @@ works:
   locus: the whole volume; not mapped
   role: context
   confidence: needs-ruling
-  note: A Florentine secretary's own writings, in a translator's English; an outside witness
-    on the papacy and Italy to 1527. Not read in depth.
+  note: His own writings in a translator's English; an outside witness.
   source_file: machiavelli_historical-political-and-diplomatic-writings-v2_detmold1882.txt
 - row_id: machiavelli_historical-political-and-diplomatic-writings-v3_detmold1882--machiavelli-writings-in-english-volume-3-detmold
   work: Machiavelli, writings in English, volume 3 (Detmold)
@@ -353,8 +347,7 @@ works:
   locus: the whole volume; not mapped
   role: context
   confidence: needs-ruling
-  note: A Florentine secretary's own writings, in a translator's English; an outside witness
-    on the papacy and Italy to 1527. Not read in depth.
+  note: His own writings in a translator's English; an outside witness.
   source_file: machiavelli_historical-political-and-diplomatic-writings-v3_detmold1882.txt
 - row_id: machiavelli_historical-political-and-diplomatic-writings-v4_detmold1882--machiavelli-writings-in-english-volume-4-detmold
   work: Machiavelli, writings in English, volume 4 (Detmold)
@@ -362,8 +355,7 @@ works:
   locus: the whole volume; not mapped
   role: context
   confidence: needs-ruling
-  note: A Florentine secretary's own writings, in a translator's English; an outside witness
-    on the papacy and Italy to 1527. Not read in depth.
+  note: His own writings in a translator's English; an outside witness.
   source_file: machiavelli_historical-political-and-diplomatic-writings-v4_detmold1882.txt
 - row_id: mansi_sacrorum-conciliorum-collectio-tomus-29-1431-1434-lat_welter-facsimile1904--council-of-basel-acts-and-appendices-mansi-29
   work: Council of Basel, acts and appendices (Mansi 29)

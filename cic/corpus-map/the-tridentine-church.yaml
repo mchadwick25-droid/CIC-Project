@@ -310,10 +310,11 @@ works:
 - row_id: corpus-reformatorum_v27-confutatio-et-apologia-confessionis-augustanae-lat-deu_bindseil1859--confutatio-confessionis-augustanae-1530-latin-corpus-reformatorum-27
   work: Confutatio Confessionis Augustanae (1530), Latin (Corpus Reformatorum 27)
   author: corpus-reformatorum
-  locus: from about OCR line 3640; the end not pinned; add 12 to OCR line numbers
+  locus: about OCR lines 3640-12804 (Latin) and from 12871 (German); add 12 to OCR line numbers
   role: tradition
   confidence: provisional
-  note: The emperor's theologians' answer to the Augsburg Confession, in a Protestant edition.
+  note: The answer to the Augsburg Confession read at the Diet on 3 August 1530, in Latin
+    and in German.
   source_file: corpus-reformatorum_v27-confutatio-et-apologia-confessionis-augustanae-lat-deu_bindseil1859.txt
 - row_id: council-of-trent_roman-catechism_mchugh-callan1923--catechism-of-the-council-of-trent-for-parish-priests
   work: Catechism of the Council of Trent for Parish Priests
@@ -357,7 +358,7 @@ works:
   work: 'Deutsche Reichstagsakten, jungere Reihe 2: Charles V''s declaration of 19 April 1521
     and the Edict of Worms'
   author: deutsche-reichstagsakten
-  locus: about OCR lines 39080-39145 and from 41730; add 12 to OCR line numbers
+  locus: about OCR lines 39080-39128 and 41730-42894; add 12 to OCR line numbers
   role: context
   confidence: provisional
   note: The emperor's own words, the declaration in French.
@@ -440,8 +441,7 @@ works:
   locus: the whole volume; not mapped
   role: context
   confidence: needs-ruling
-  note: A Florentine statesman's history of Italy, in his own Italian; an outside witness
-    on the popes of his time. Not read in depth.
+  note: His history of Italy in his own Italian; an outside witness.
   source_file: guicciardini_la-storia-d-italia-v1-ita_gherardi1919.txt
 - row_id: guicciardini_la-storia-d-italia-v2-ita_gherardi1919--guicciardini-storia-d-italia-volume-2-gherardi
   work: Guicciardini, Storia d'Italia, volume 2 (Gherardi)
@@ -449,8 +449,7 @@ works:
   locus: the whole volume; not mapped
   role: context
   confidence: needs-ruling
-  note: A Florentine statesman's history of Italy, in his own Italian; an outside witness
-    on the popes of his time. Not read in depth.
+  note: His history of Italy in his own Italian; an outside witness.
   source_file: guicciardini_la-storia-d-italia-v2-ita_gherardi1919.txt
 - row_id: guicciardini_la-storia-d-italia-v3-ita_gherardi1919--guicciardini-storia-d-italia-volume-3-gherardi
   work: Guicciardini, Storia d'Italia, volume 3 (Gherardi)
@@ -458,8 +457,7 @@ works:
   locus: the whole volume; not mapped
   role: context
   confidence: needs-ruling
-  note: A Florentine statesman's history of Italy, in his own Italian; an outside witness
-    on the popes of his time. Not read in depth.
+  note: His history of Italy in his own Italian; an outside witness.
   source_file: guicciardini_la-storia-d-italia-v3-ita_gherardi1919.txt
 - row_id: guicciardini_la-storia-d-italia-v4-ita_gherardi1919--guicciardini-storia-d-italia-volume-4-gherardi
   work: Guicciardini, Storia d'Italia, volume 4 (Gherardi)
@@ -467,8 +465,7 @@ works:
   locus: the whole volume; not mapped
   role: context
   confidence: needs-ruling
-  note: A Florentine statesman's history of Italy, in his own Italian; an outside witness
-    on the popes of his time. Not read in depth.
+  note: His history of Italy in his own Italian; an outside witness.
   source_file: guicciardini_la-storia-d-italia-v4-ita_gherardi1919.txt
 - row_id: hospitallers_statuti-della-sacra-religione-di-s-giovanni-gierosolimitano-ita_bosio1589--gli-statuti-della-sacra-religione-di-s-giovanni-gierosolimitano-bosio-1589
   work: Gli statuti della sacra religione di S. Giovanni Gierosolimitano (Bosio, 1589)
@@ -485,8 +482,8 @@ works:
   locus: the whole volume; not mapped
   role: context
   confidence: needs-ruling
-  note: A Jewish book of persecutions and disputations, in a Christian scholar's Latin of
-    1651; the held title page does not name its author. No census entry is the Jews of Europe.
+  note: A Jewish history in Gentius's Latin of 1651; the author is named in the translator's
+    preface, not on the title page.
   source_file: ibn-verga_historia-judaica-shevet-yehudah-lat_gentius1651.txt
 - row_id: jewel_apologia-ecclesiae-anglicanae-lat_1838--epistola-ad-virum-nobilem-d-scipionem-patricium-venetum-de-concilio-tr
   work: Epistola ad virum nobilem D. Scipionem, patricium Venetum, de Concilio Tridentino
@@ -523,9 +520,7 @@ works:
   locus: the whole volume; not mapped
   role: context
   confidence: needs-ruling
-  note: A Jewish chronicler of the sixteenth century on the kings of France and the Ottoman
-    rulers, in a translator's English; an outside witness. No census entry is the Jews of
-    Europe. Not read in depth.
+  note: A Jewish chronicler in a translator's English; an outside witness.
   source_file: joseph-ha-kohen_chronicles-of-rabbi-joseph-ben-joshua-ben-meir-v1_bialloblotzky1835.txt
 - row_id: joseph-ha-kohen_chronicles-of-rabbi-joseph-ben-joshua-ben-meir-v2_bialloblotzky1836--joseph-ha-kohen-chronicles-divrei-ha-yamim-volume-2-bialloblotzky
   work: Joseph ha-Kohen, Chronicles (Divrei ha-Yamim), volume 2 (Bialloblotzky)
@@ -533,9 +528,7 @@ works:
   locus: the whole volume; not mapped
   role: context
   confidence: needs-ruling
-  note: A Jewish chronicler of the sixteenth century on the kings of France and the Ottoman
-    rulers, in a translator's English; an outside witness. No census entry is the Jews of
-    Europe. Not read in depth.
+  note: A Jewish chronicler in a translator's English; an outside witness.
   source_file: joseph-ha-kohen_chronicles-of-rabbi-joseph-ben-joshua-ben-meir-v2_bialloblotzky1836.txt
 - row_id: joseph-ha-kohen_la-vallee-des-pleurs-emek-ha-bakha-fra_see1881--joseph-ha-kohen-emek-ha-bakha-in-french-see
   work: Joseph ha-Kohen, Emek ha-Bakha, in French (See)
@@ -543,9 +536,8 @@ works:
   locus: about OCR lines 325-12803; add 12 to OCR line numbers
   role: context
   confidence: needs-ruling
-  note: A Jewish chronicler of the sixteenth century on persecutions and expulsions under
-    Christian rule, in a translator's French; an outside witness. No census entry is the Jews
-    of Europe.
+  note: A Jewish chronicle of the sufferings of Israel, finished in 1575 by the title page,
+    in a translator's French, with a later hand's notes; an outside witness.
   source_file: joseph-ha-kohen_la-vallee-des-pleurs-emek-ha-bakha-fra_see1881.txt
 - row_id: jussie_le-levain-du-calvinisme-fra_revilliod-fick1853--jeanne-de-jussie-le-levain-du-calvinisme
   work: Jeanne de Jussie, Le levain du calvinisme
@@ -562,12 +554,13 @@ works:
   locus: about OCR lines 5682-6115; add 12 to OCR line numbers
   role: context
   confidence: provisional
-  note: Aleander and the emperor in their own words.
+  note: Aleander in Latin; the emperor's declaration in English translation; the Edict in
+    Latin extracts.
   source_file: kidd_documents-illustrative-of-the-continental-reformation-lat-deu-fra-eng_1911.txt
 - row_id: laemmer_monumenta-vaticana-historiam-ecclesiasticam-saeculi-xvi-lat-ita_1861--campeggio-s-letters-from-the-diet-of-augsburg-1530-laemmer
   work: Campeggio's letters from the Diet of Augsburg, 1530 (Laemmer)
   author: laemmer
-  locus: about OCR lines 2615-4320; add 12 to OCR line numbers
+  locus: about OCR lines 2582-4320; add 12 to OCR line numbers
   role: tradition
   confidence: provisional
   note: Campeggio's own reports from the Diet, to Salviati.
@@ -630,8 +623,7 @@ works:
   locus: the whole volume; not mapped
   role: context
   confidence: needs-ruling
-  note: A Florentine secretary's own writings, in a translator's English; an outside witness
-    on the papacy and Italy to 1527. Not read in depth.
+  note: His own writings in a translator's English; an outside witness.
   source_file: machiavelli_historical-political-and-diplomatic-writings-v1_detmold1882.txt
 - row_id: machiavelli_historical-political-and-diplomatic-writings-v2_detmold1882--machiavelli-writings-in-english-volume-2-detmold
   work: Machiavelli, writings in English, volume 2 (Detmold)
@@ -639,8 +631,7 @@ works:
   locus: the whole volume; not mapped
   role: context
   confidence: needs-ruling
-  note: A Florentine secretary's own writings, in a translator's English; an outside witness
-    on the papacy and Italy to 1527. Not read in depth.
+  note: His own writings in a translator's English; an outside witness.
   source_file: machiavelli_historical-political-and-diplomatic-writings-v2_detmold1882.txt
 - row_id: machiavelli_historical-political-and-diplomatic-writings-v3_detmold1882--machiavelli-writings-in-english-volume-3-detmold
   work: Machiavelli, writings in English, volume 3 (Detmold)
@@ -648,8 +639,7 @@ works:
   locus: the whole volume; not mapped
   role: context
   confidence: needs-ruling
-  note: A Florentine secretary's own writings, in a translator's English; an outside witness
-    on the papacy and Italy to 1527. Not read in depth.
+  note: His own writings in a translator's English; an outside witness.
   source_file: machiavelli_historical-political-and-diplomatic-writings-v3_detmold1882.txt
 - row_id: machiavelli_historical-political-and-diplomatic-writings-v4_detmold1882--machiavelli-writings-in-english-volume-4-detmold
   work: Machiavelli, writings in English, volume 4 (Detmold)
@@ -657,8 +647,7 @@ works:
   locus: the whole volume; not mapped
   role: context
   confidence: needs-ruling
-  note: A Florentine secretary's own writings, in a translator's English; an outside witness
-    on the papacy and Italy to 1527. Not read in depth.
+  note: His own writings in a translator's English; an outside witness.
   source_file: machiavelli_historical-political-and-diplomatic-writings-v4_detmold1882.txt
 - row_id: marnix_bijenkorf-der-h-roomsche-kerke-nld_1858--de-bijenkorf-der-h-roomsche-kerke-2
   work: De Bijenkorf der H. Roomsche Kerke (1569)
@@ -1071,8 +1060,7 @@ works:
   locus: about OCR lines 692-20641; add 12 to OCR line numbers
   role: context
   confidence: needs-ruling
-  note: A Portuguese Jew's own book of the sixteenth century, in its own language; an outside
-    witness on the Inquisition and the expulsions. No census entry is the Jews of Europe.
+  note: A Jewish writer's own book in Portuguese; an outside witness.
   source_file: usque_consolacam-as-tribulacoens-de-israel-por_mendes-dos-remedios1906.txt
 - row_id: valier_vita-caroli-borromei-episcopus-cardinalis-lat_1586--vita-tridentine
   work: Vita Caroli Borromei with Episcopus and Cardinalis (Valier, 1586)

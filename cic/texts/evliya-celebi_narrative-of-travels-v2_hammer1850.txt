@@ -6,7 +6,7 @@ Rights: Public Domain (pd-us-by-date: published 1850); the archive.org record sa
 Language: eng
 Source: archive.org item narrativeoftrave02evli, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (849,560) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1850, out of US copyright by date. OCR quality: clean. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Contents at about OCR line 725; the text from about 1285 to about 12240. On the journeys in Anatolia and beyond. No third volume was printed in English. Sections were not mapped.
+Content note: Contents at about OCR line 725; the text from about 1285 to about 12240. Sections were not mapped.
 
 ______________________________________________________________________
 

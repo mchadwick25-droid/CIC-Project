@@ -3,7 +3,7 @@ assignments:
 - row_id: laemmer_monumenta-vaticana-historiam-ecclesiasticam-saeculi-xvi-lat-ita_1861--campeggio-s-letters-from-the-diet-of-augsburg-1530-laemmer
   work: 'Campeggio''s letters from the Diet of Augsburg, 1530 (Laemmer)'
   author: laemmer
-  locus: 'about OCR lines 2615-4320; add 12 to OCR line numbers'
+  locus: 'about OCR lines 2582-4320; add 12 to OCR line numbers'
   atlas_ids:
   - the-tridentine-church
   role: tradition
@@ -12,7 +12,7 @@ assignments:
 - row_id: laemmer_monumenta-vaticana-historiam-ecclesiasticam-saeculi-xvi-lat-ita_1861--campeggio-s-letters-from-the-diet-of-augsburg-1530-laemmer-as-an-opponent-s-report
   work: 'Campeggio''s letters from the Diet of Augsburg, 1530 (Laemmer), as an opponent''s report'
   author: laemmer
-  locus: 'about OCR lines 2615-4320; add 12 to OCR line numbers'
+  locus: 'about OCR lines 2582-4320; add 12 to OCR line numbers'
   atlas_ids:
   - lutheran-wittenberg-and-its-congregations
   role: context

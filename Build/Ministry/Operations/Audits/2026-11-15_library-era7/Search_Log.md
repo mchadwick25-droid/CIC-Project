@@ -50,6 +50,8 @@ passage. Six corrections came out of that check:
 - A sentence of Julien Sée's on Luther was first taken for Joseph ha-Kohen's; it is not cited.
 - Balan's Monumenta, which no searcher opened, was fetched and read for Aleander's letters.
 
+The review (`R1_review.md`) then settled several points from the texts; `R1_changes.md` lists them.
+
 **The Who rows: Strasbourg, Geneva, Carmel.**
 - Katharina Zell: Füsslin's Beyträge, part 5 (Zürich 1753), taken for her letter of 1557 to the citizens of
   Strasbourg and her answer to Rabus; Röhrich's Mittheilungen III (1855) taken for a Life with extracts from her
@@ -83,7 +85,7 @@ passage. Six corrections came out of that check:
   old library stamps and an ink shelf mark; the last text leaf (n622) has the printer's line "Druck von Friedr.
   Andr. Perthes in Gotha"; the binding is old half leather; no reprint leaf stands at the front or the back, and
   the words Amsterdam, Grüner, Nachdruck and 1968 are nowhere in the OCR. Taken on the title page, as the rule
-  reads. The Latin acts of the colloquy are at OCR lines 1100-2211.
+  reads. The Latin report of the sessions is at OCR lines 1210-1836; the articles are not printed in it.
 - The Weimar edition, volume 30, part 3 (1910), taken: the reports of Hedio, the Anonymous, Collin, Osiander and
   Brenz, and the articles with their signatures. A second Weimar volume of 1909 was fetched and not read.
 - Kidd's Documents (Oxford 1911) taken: Worms nos. 39-46, Marburg nos. 109-110, Augsburg nos. 116-123. Seven
@@ -96,8 +98,8 @@ passage. Six corrections came out of that check:
   other Augsburg sources. Reu's preface is dated 15 December 1930; the title page says 1930, the last year the
   rule admits. A reprint of 1966 not taken.
 - Förstemann's Urkundenbuch, volume 2 (Halle 1835), taken; the OCR reads the year as 1839 and the host says 1833.
-  It holds the Diet's papers to the close and a report of the reading of the recess; the recess of 19 November was
-  not found as a text. A duplicate with poorer OCR not taken; the first volume not opened.
+  It prints the recesses of 22 September and 13 October; the editor leaves out the text of 19 November as well
+  enough known. A duplicate with poorer OCR not taken; the first volume not opened.
 - Laemmer's Monumenta Vaticana (1861) taken, for Campeggio's letters from Augsburg. A duplicate not taken.
 - Luther's Coburg letters: de Wette's part 4 (1827) taken for the original, Currie (1908) for the English. Smith
   and Jacobs, volume 2 (1918), ends in April 1530 and was not taken; Enders's volumes 7 and 8 not taken.
@@ -166,5 +168,5 @@ Bodin's Six Bookes (n4), Leo Africanus 1-3 (n7, n8, n8), Busbecq 2 (n12).
   one memorial; Guaman Poma; the Nahuatl of Sahagún's informants and the Colloquios.
 - Outside witnesses: Peçevi, Mustafa Ali, Selaniki, Gedaliah ibn Yahya, David Gans. De Thou and Vasari are
   located and not taken.
-- Councils and Open-Gaps 273: the recess of 19 November 1530 as a text; Scultetus's second decade in a readable
+- Councils and Open-Gaps 273: the text of the recess of 19 November 1530; Scultetus's second decade in a readable
   scan; the Olivetan preface; the Chanforan manuscript (not searched); Jacobs's second volume in a dated scan.

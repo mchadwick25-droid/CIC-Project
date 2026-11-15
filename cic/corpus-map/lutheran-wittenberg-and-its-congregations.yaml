@@ -121,8 +121,7 @@ works:
   locus: about OCR lines 9555-16345; add 12 to OCR line numbers
   role: tradition
   confidence: needs-ruling
-  note: Her own words, in an eighteenth-century reprint. Strasbourg has no census entry of
-    its own; set on the Lutheran entry as the Who scan sets her.
+  note: Her own words, in an eighteenth-century reprint.
   source_file: fuesslin_beytraege-kirchen-reformations-geschichten-schweitzerland-theil-5-deu_1753.txt
 - row_id: gerlach_tage-buch-deu_1674--tage-buch-diary-at-constantinople-1573-1578-german-2
   work: 'Stephan Gerlach''s Tage-Buch: the diary of the court preacher to the imperial embassy
@@ -166,13 +165,13 @@ works:
   locus: about OCR lines 5682-6115, 14477-14900 and 15135-17200; add 12 to OCR line numbers
   role: tradition
   confidence: provisional
-  note: Luther's answer at Worms, the fifteenth Marburg article with the signatures, and Augsburg
-    texts, in their own languages.
+  note: Luther's answer at Worms in Latin, the fifteenth Marburg article in a Latin version
+    with nine signatures, and Augsburg texts.
   source_file: kidd_documents-illustrative-of-the-continental-reformation-lat-deu-fra-eng_1911.txt
 - row_id: laemmer_monumenta-vaticana-historiam-ecclesiasticam-saeculi-xvi-lat-ita_1861--campeggio-s-letters-from-the-diet-of-augsburg-1530-laemmer-as-an-opponent-s-report
   work: Campeggio's letters from the Diet of Augsburg, 1530 (Laemmer), as an opponent's report
   author: laemmer
-  locus: about OCR lines 2615-4320; add 12 to OCR line numbers
+  locus: about OCR lines 2582-4320; add 12 to OCR line numbers
   role: context
   confidence: provisional
   note: The Lutheran estates at Augsburg as Campeggio reported them.
@@ -722,7 +721,7 @@ works:
   work: 'The Marburg Colloquy: the reports of Hedio, the Anonymous, Collin, Osiander and Brenz,
     and the Marburg Articles with their signatures (Weimar edition 30/3)'
   author: luther
-  locus: about OCR lines 6580-12700; add 12 to OCR line numbers
+  locus: about OCR lines 6580-12729; add 12 to OCR line numbers
   role: tradition
   confidence: provisional
   note: Participants' reports from both sides, and the fifteen articles as signed, in the
@@ -901,10 +900,11 @@ works:
 - row_id: schirrmacher_briefe-und-acten-marburg-1529-augsburg-1530-lat-deu_1876--acta-colloquii-marpurgensis-1529-from-aurifaber-s-manuscript-schirrmacher
   work: Acta colloquii Marpurgensis (1529), from Aurifaber's manuscript (Schirrmacher)
   author: schirrmacher
-  locus: about OCR lines 1100-2211; add 12 to OCR line numbers
+  locus: about OCR lines 1210-1836; add 12 to OCR line numbers
   role: tradition
   confidence: provisional
-  note: A Latin report of the sessions from the Wittenberg side's collector, speaker by speaker.
+  note: A Latin report of the sessions from the Wittenberg side's collector, speaker by speaker;
+    the articles are not printed.
   source_file: schirrmacher_briefe-und-acten-marburg-1529-augsburg-1530-lat-deu_1876.txt
 - row_id: schirrmacher_briefe-und-acten-marburg-1529-augsburg-1530-lat-deu_1876--luther-s-letters-of-1530-and-the-acts-of-the-diet-of-augsburg-from-aurifaber-s-manuscript-schirrmacher
   work: Luther's letters of 1530 and the acts of the Diet of Augsburg, from Aurifaber's manuscript

@@ -6,7 +6,7 @@ Rights: Public Domain (pd-us-by-date: published 1881); the archive.org record sa
 Language: fra
 Source: archive.org item lavalledespleur01josegoog, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (665,298) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1881, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: His chronicle of the sufferings of the Jews (Emek ha-Bakha) in French. The translator's preface to OCR line 324; the text from 325 to about 12803; tables from 12804. Not read in depth.
+Content note: His chronicle of the sufferings of the Jews (Emek ha-Bakha) in French. The translator's preface to OCR line 324; it says an unnamed 'Correcteur' added notes and an appendix for 1575 to 1605, and his notes stand in the text. The text from 325 to about 12803; tables from 12804.
 
 ______________________________________________________________________
 

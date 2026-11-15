@@ -3,12 +3,12 @@ assignments:
 - row_id: corpus-reformatorum_v27-confutatio-et-apologia-confessionis-augustanae-lat-deu_bindseil1859--confutatio-confessionis-augustanae-1530-latin-corpus-reformatorum-27
   work: 'Confutatio Confessionis Augustanae (1530), Latin (Corpus Reformatorum 27)'
   author: corpus-reformatorum
-  locus: 'from about OCR line 3640; the end not pinned; add 12 to OCR line numbers'
+  locus: 'about OCR lines 3640-12804 (Latin) and from 12871 (German); add 12 to OCR line numbers'
   atlas_ids:
   - the-tridentine-church
   role: tradition
   confidence: provisional
-  note: 'The emperor''s theologians'' answer to the Augsburg Confession, in a Protestant edition.'
+  note: 'The answer to the Augsburg Confession read at the Diet on 3 August 1530, in Latin and in German.'
 - row_id: corpus-reformatorum_v27-confutatio-et-apologia-confessionis-augustanae-lat-deu_bindseil1859--melanchthon-apologia-confessionis-augustanae-with-the-confutatio-it-answers-corpus-reformatorum-27
   work: 'Melanchthon, Apologia Confessionis Augustanae, with the Confutatio it answers (Corpus Reformatorum 27)'
   author: corpus-reformatorum

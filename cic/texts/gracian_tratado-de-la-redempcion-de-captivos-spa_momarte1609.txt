@@ -1,12 +1,12 @@
 Title: Tratado de la redempcion de captivos, en que se cuentan las grandes miserias que padecen los Christianos que estan en poder de infieles, por F. Geronymo Gracian de la Madre de Dios
 Creator: Jeronimo Gracian de la Madre de Dios
 Publisher: En Brusselas: en casa de Juan Momarte (title page, read on the page image, leaf n0)
-Publication Date: 1609 (title page, OCR line 17)
+Publication Date: 1609 (title page, OCR line 26)
 Rights: Public Domain (pd-us-by-date: published 1609); the archive.org record carries the Public Domain Mark (licenseurl creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees
 Language: spa
 Source: archive.org item A1090423, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (85,083) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1609, out of US copyright by date. OCR quality: the Spanish is fair, in old type with the long s, and some stretches are garbled. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: A short treatise on the ransoming of captives by a Carmelite who, the title page says, 'fue captivo de Mammi Corzo Baxa de Tunez'; the scan is one piece of a bound volume and begins at a page numbered 29. A dedication to Clement VIII follows the title. He speaks of his own captivity at about 1047 and 1219. A papal brief closes the piece, about 2430-2451. Not read through.
+Content note: A short treatise on the ransoming of captives by a Carmelite who, the title page says, 'fue captivo de Mammi Corzo Baxa de Tunez'; the scan is one piece of a bound volume and begins at a page numbered 29. A dedication to Clement VIII follows the title. He speaks of his own captivity at about 1047 and 1219. A papal brief closes the piece, about 2430-2451.
 
 ______________________________________________________________________
 

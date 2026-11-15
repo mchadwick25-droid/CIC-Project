@@ -1,7 +1,7 @@
 Title: The Letters of Martin Luther, selected and translated by Margaret A. Currie
 Creator: Martin Luther; Margaret A. Currie (translator)
 Publisher: London: Macmillan and Co., Limited (title page)
-Publication Date: 1908 (title page, OCR lines 36-45)
+Publication Date: 1908 (title page, OCR line 58)
 Rights: Public Domain (pd-us-by-date: published 1908); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item lettersofmartinl00luth, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,134,206) equals the size archive.org lists for the djvu.txt.

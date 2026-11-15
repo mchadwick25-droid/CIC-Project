@@ -26784,7 +26784,7 @@ queue:
     verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 849,560 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: evliya-celebi_narrative-of-travels-v2_hammer1850.txt
-  - title: 'The Chronicles of Rabbi Joseph ben Joshua ben Meir, the Sphardi; translated from the Hebrew by C. H. F. Bialloblotzky; volume 1'
+  - title: 'The Chronicles of Rabbi Joseph ben Joshua ben Meir, the Sphardi; translated from the Hebrew (the translator, C. H. F. Bialloblotzky, is named on the second volume''s title page); volume 1'
     author: 'Joseph ha-Kohen; C. H. F. Bialloblotzky (tr.)'
     year: '1835'
     world: the-tridentine-church

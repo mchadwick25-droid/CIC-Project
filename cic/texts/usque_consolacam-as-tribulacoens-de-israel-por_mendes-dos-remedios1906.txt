@@ -6,7 +6,7 @@ Rights: Public Domain (pd-us-by-date: published 1906); the archive.org record sa
 Language: por
 Source: archive.org item consolaamstr00usquuoft, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (892,953) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1906, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: The three dialogues in the Portuguese of the first printing. The editor's preface from about OCR line 75 to 690; the text from 692; 'Dialogo segundo' at 6978; 'Dialogo terceiro' at 10923; a table of chapters from about 20642. Not read in depth.
+Content note: The three dialogues in the Portuguese of the first printing. The editor's preface from about OCR line 75 to 690; the text from 692; 'Dialogo segundo' at 6978; 'Dialogo terceiro' at 10923; a table of chapters from about 20642.
 
 ______________________________________________________________________
 

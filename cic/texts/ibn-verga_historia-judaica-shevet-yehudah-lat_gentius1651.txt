@@ -1,12 +1,12 @@
 Title: Historia Judaica, res Judaeorum ab eversa aede Hierosolymitana ad haec fere tempora usque complexa; de Hebraeo in Latinum versa a Georgio Gentio
-Creator: Solomon ibn Verga (Shevet Yehudah; the author is not named on the title page); Georgius Gentius (translator)
+Creator: Solomon ibn Verga (Shevet Yehudah; named 'Salomo filius Virgae' in the translator's preface, about OCR line 473, not on the title page); Georgius Gentius (translator)
 Publisher: Amstelodami: veneunt apud Petrum Niellium (title page)
 Publication Date: 1651 (title page, read on the page image, leaf n4: MDCLI in old numerals)
 Rights: Public Domain (pd-us-by-date: published 1651); the archive.org record carries the Public Domain Mark (licenseurl creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees
 Language: lat
 Source: archive.org item bub_gb_3OQCjvtekD0C, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (618,130) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1651, out of US copyright by date. OCR quality: the Latin is fair, with the long s. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: The Latin of the book the privilege leaf calls 'Schebet Juda, Tribus Judae'. The dedication from about OCR line 30; the text to the end of the file; a disputation at about 9000. Not mapped; not read in depth.
+Content note: The Latin of the book the privilege leaf calls 'Schebet Juda, Tribus Judae'. The dedication from about OCR line 30; the text to the end of the file; a disputation at about 9000. Not mapped.
 
 ______________________________________________________________________
 

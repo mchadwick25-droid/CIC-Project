@@ -6,7 +6,7 @@ Rights: Public Domain (pd-us-by-date: published 1861); the archive.org record sa
 Language: lat; ita
 Source: archive.org item monumentavatica00laemgoog, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,485,086) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1861, out of US copyright by date. OCR quality: clean. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Documents from the Vatican archives. Campeggio's letters to Salviati from Innsbruck and Augsburg in 1530 run from about OCR line 2615 ('Campegius Salviato. Oeniponti XXIX Maii 1530') to about 4315 (Augsburg, 16 November 1530), in Italian; later letters of his follow. A list of the documents at about 25798. The rest was not mapped.
+Content note: Documents from the Vatican archives. Campeggio's letters to Salviati from Innsbruck and Augsburg in 1530 run from about OCR line 2582 (Innsbruck, 13 May 1530) to about 4315 (Augsburg, 16 November 1530), in Italian, with a letter to Clement VII of 13 November at about 4100; later letters of his follow. A list of the documents at about 25798. The rest was not mapped.
 
 ______________________________________________________________________
 

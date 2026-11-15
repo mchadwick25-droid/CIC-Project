@@ -3,16 +3,16 @@ assignments:
 - row_id: schirrmacher_briefe-und-acten-marburg-1529-augsburg-1530-lat-deu_1876--acta-colloquii-marpurgensis-1529-from-aurifaber-s-manuscript-schirrmacher
   work: 'Acta colloquii Marpurgensis (1529), from Aurifaber''s manuscript (Schirrmacher)'
   author: schirrmacher
-  locus: 'about OCR lines 1100-2211; add 12 to OCR line numbers'
+  locus: 'about OCR lines 1210-1836; add 12 to OCR line numbers'
   atlas_ids:
   - lutheran-wittenberg-and-its-congregations
   role: tradition
   confidence: provisional
-  note: 'A Latin report of the sessions from the Wittenberg side''s collector, speaker by speaker.'
+  note: 'A Latin report of the sessions from the Wittenberg side''s collector, speaker by speaker; the articles are not printed.'
 - row_id: schirrmacher_briefe-und-acten-marburg-1529-augsburg-1530-lat-deu_1876--acta-colloquii-marpurgensis-1529-from-aurifaber-s-manuscript-schirrmacher-as-the-other-side-s-hearing
   work: 'Acta colloquii Marpurgensis (1529), from Aurifaber''s manuscript (Schirrmacher), as the other side''s hearing'
   author: schirrmacher
-  locus: 'about OCR lines 1100-2211; add 12 to OCR line numbers'
+  locus: 'about OCR lines 1210-1836; add 12 to OCR line numbers'
   atlas_ids:
   - the-reformed-cities-zurich-and-geneva
   role: context
