@@ -1,0 +1,14 @@
+source_file: vieira_cartas-tomo2-por_1735.txt
+assignments:
+- row_id: vieira_cartas-tomo2-por_1735--vieira-cartas-tomo-2
+  work: 'Vieira, Cartas, tomo 2 (1735)'
+  author: vieira
+  locus: 'the letters at OCR lines 377-16219; add 12 to OCR line numbers'
+  atlas_ids:
+  - colonial-latin-american-devotional-catholicism
+  - society-of-jesus-1650-1814
+  role: tradition
+  confidence: provisional
+  language: por
+  date: {formation_confidence: unknown, checked: "the title page and licences (OCR lines 23-375) date the print to 1734-1735; the dates of the first and last letters were not read"}
+  note: 'Vieira''s own letters to ministers, nobles and fellow Jesuits, first printed in 1735. His voice; the editors'' choice of letters.'
