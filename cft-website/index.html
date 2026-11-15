@@ -120235,10 +120235,23 @@ function syncWhoControls(){
   if(btn){const on=btn.dataset.who===key;btn.querySelector('.who-state').innerHTML=on?'On the map <span aria-hidden="true">×</span>':'Show on the map';}
 }
 
+const WHO_TIP_NAMES=4;
+function whoTipParts(scope){
+  const all=scopePeople(scope).all, names=all.slice(0,WHO_TIP_NAMES).map(a=>a.P.entry?a.P.entry.name:a.P.name);
+  return {names,more:all.length-names.length};
+}
+function whoTipHTML(title,scope){
+  const {names,more}=whoTipParts(scope);
+  return `<div class="n">Who: ${esc(title)}</div>`+names.map(n=>`<div class="m">${esc(n)}</div>`).join('')+(more?`<div class="m">+${more} more</div>`:'');
+}
+function whoAriaLabel(title,scope,n){
+  const {names,more}=whoTipParts(scope);
+  return `Who: ${title}, ${n} ${n===1?'person':'people'}: ${names.join(', ')}${more?`, and ${more} more`:''}`;
+}
 function renderWhoPills(){
   riverWho.forEach((list,key)=>{
     const [k,i]=key.split(':').map(Number), n=list.length, col=famColor(famOf(k)), scope={type:'river',lane:k,era:i};
-    const label=`Who: ${famOf(k).name}, era ${eras[i].num}, ${n} ${n===1?'person':'people'}`;
+    const label=whoAriaLabel(`${famOf(k).name}, era ${eras[i].num}`,scope,n);
     const g=el('g',{class:'who-pill river-pill','data-lane':k,'data-era':i,'data-who':whoScopeKey(scope),tabindex:'0',role:'button','aria-pressed':'false','aria-label':label});
     g.appendChild(el('circle',{class:'who-hit',r:0}));
     g.appendChild(el('rect',{class:'who-cap',stroke:col}));
@@ -120249,7 +120262,7 @@ function renderWhoPills(){
     const go=()=>setWho(scope);
     g.addEventListener('click',ev=>{ev.stopPropagation();go();});
     g.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();ev.stopPropagation();go();}});
-    g.addEventListener('mouseenter',ev=>showTip(ev,`<div class="n">Who: ${esc(famOf(k).name)}, era ${eras[i].num}</div><div class="m">${n} ${n===1?'person':'people'}</div>`));
+    g.addEventListener('mouseenter',ev=>showTip(ev,whoTipHTML(`${famOf(k).name}, era ${eras[i].num}`,scope)));
     g.addEventListener('mousemove',ev=>positionTip(ev));
     g.addEventListener('mouseleave',hideTip);
     gWhoPills.appendChild(g);
@@ -120258,14 +120271,14 @@ function renderWhoPills(){
 function whoFigure(m){
   const n=peopleOf[m.id].length, scope={type:'trad',m};
   const g=el('g',{class:'who-pill prof-pill','data-id':m.id,'data-lane':m.laneOrder,'data-who':whoScopeKey(scope),tabindex:'0',role:'button','aria-pressed':'false',
-    'aria-label':`Who: ${m.shortName||m.name}, ${n} ${n===1?'person':'people'}`});
+    'aria-label':whoAriaLabel(m.shortName||m.name,scope,n)});
   g.appendChild(el('rect',{class:'who-hit'}));
   g.appendChild(el('circle',{class:'who-ring'}));
   const f=el('g',{class:'who-fig','aria-hidden':'true'}); f.appendChild(personGlyph('currentColor',0,0)); g.appendChild(f);
   const go=()=>setWho(scope);
   g.addEventListener('click',ev=>{ev.stopPropagation();go();});
   g.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();ev.stopPropagation();go();}});
-  g.addEventListener('mouseenter',ev=>showTip(ev,`<div class="n">Who: ${esc(m.shortName||m.name)}</div><div class="m">${n} ${n===1?'person':'people'}</div>`));
+  g.addEventListener('mouseenter',ev=>showTip(ev,whoTipHTML(m.shortName||m.name,scope)));
   g.addEventListener('mousemove',ev=>positionTip(ev));
   g.addEventListener('mouseleave',hideTip);
   return g;
@@ -120685,7 +120698,7 @@ function render(){
     const built = m.status==='Built & Live';
     const f=famOf(m.laneOrder), col=famColor(f);
     const g=el('g',{class:`node${built?' built':''}${isMajorTradition(m)?' major':''}`,'data-id':m.id,'data-lane':m.laneOrder,tabindex:'0',role:'button',
-      'aria-label':[m.shortName||m.name,plainDates(m.dates),statusLabel(m)].filter(Boolean).join(', ')});
+      'aria-label':[m.shortName||m.name,plainDates(m.dates),(CFTPlace.formatPlace(m,{today:true})||m.region||'').replace(/ · /g,', ')].filter(Boolean).join(', ')});
     const halo=el('circle',{class:'halo',cx:m._x,cy:m._y,r:9,fill:col,opacity:0});
     const focusRing=el('circle',{class:'focus-ring',cx:m._x,cy:m._y,r:10,
       fill:'none',stroke:'var(--gold-leaf)','stroke-width':2,'vector-effect':'non-scaling-stroke',opacity:0});
@@ -120828,7 +120841,7 @@ function renderAcross(){
   acrossMovements.forEach(m=>{
     const name=m.shortName||m.name;
     const g=el('g',{class:'across','data-id':m.id,tabindex:'0',role:'button',
-      'aria-label':[name,plainDates(m.dates),KIND_LABEL[m.kind].toLowerCase(),statusLabel(m)].filter(Boolean).join(', ')});
+      'aria-label':`${name}, ${plainDates(m.dates)}, ${KIND_LABEL[m.kind].toLowerCase()}`});
     const d=`M ${m._x.toFixed(1)} ${m._y.toFixed(1)} L ${m._x.toFixed(1)} ${m._y1.toFixed(1)}`;
     g.appendChild(el('path',{d,class:'across-hit',fill:'none',stroke:'transparent'}));
     g.appendChild(el('path',{d,class:'across-line',fill:'none','stroke-width':2,'stroke-linecap':'round','vector-effect':'non-scaling-stroke'}));
@@ -120889,7 +120902,7 @@ function renderCouncils(){
     if(c._x===undefined)return;
     const name=c.shortName||c.name;
     const g=el('g',{class:'council','data-id':c.id,tabindex:'0',role:'button',transform:`translate(${c._x.toFixed(1)},${c._y.toFixed(1)})`,
-      'aria-label':`${name}, ${plainDates(c.dates)}, ${KIND_LABEL[c.kind].toLowerCase()}`});
+      'aria-label':`${c.name}, ${plainDates(c.dates)}, ${KIND_LABEL[c.kind].toLowerCase()}`});
     g.appendChild(el('circle',{class:'council-hit',cx:0,cy:0,r:COUNCIL_R+5}));
     councilGlyph(g,COUNCIL_R);
     const lbl=el('text',{class:'council-lbl',x:-(COUNCIL_R+5),y:c._labelY-c._y+3.5,'text-anchor':'end'});
@@ -120904,15 +120917,8 @@ function renderCouncils(){
   });
 }
 function esc(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
-const BUILD_STATUSES=new Set(['Selected - Not Yet Built','Deferred by Step 0','Possible Future World (on record)','Pre-Survey Candidate']);
-function statusLabel(m){
-  if(BUILD_STATUSES.has(m.status))return '';
-  if(m.status==='Built & Live'&&!CONVERSATIONS_LIVE)return 'Conversations coming soon';
-  const sm=DATA.statusMeta&&DATA.statusMeta[m.status];return (sm&&sm.shortWord)||m.status;
-}
 function tipFor(m){
-  if(m.kind===COUNCIL_KIND)return `<div class="n">${esc(m.shortName||m.name)}</div><div class="m">${esc(plainDates(m.dates))} · ${esc(CFTPlace.formatPlace(m,{today:true})||m.region||'')}</div><div class="m">${esc(KIND_LABEL[m.kind])}</div>`;
-  return `<div class="n">${esc(m.shortName||m.name)}</div><div class="m">${esc(plainDates(m.dates))} · ${esc(CFTPlace.formatPlace(m,{today:true})||m.region||'')}</div>${KIND_LABEL[m.kind]?`<div class="m">${esc(KIND_LABEL[m.kind])}</div>`:''}${statusLabel(m)?`<div class="s">${esc(statusLabel(m))}</div>`:''}`;
+  return `<div class="n">${esc(m.kind===COUNCIL_KIND?m.name:(m.shortName||m.name))}</div><div class="m">${esc(plainDates(m.dates))} · ${esc(CFTPlace.formatPlace(m,{today:true})||m.region||'')}</div>${KIND_LABEL[m.kind]?`<div class="m">${esc(KIND_LABEL[m.kind])}</div>`:''}`;
 }
 const EDGE_DASH={'Widely Accepted':'6,3','Dominant Modern Reconstruction':'6,3','Contested':'2,3','Inferential-Thin':'1,4'};
 const SYMMETRIC_EDGE_TYPES=new Set(['broke with','in contact with']);
