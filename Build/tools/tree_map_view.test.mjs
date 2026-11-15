@@ -136,10 +136,12 @@ async function assertOnScreen(page, label) {
     const bottom = narrowScreen() ? document.querySelector('.feature-bar').getBoundingClientRect().top : innerHeight;
     const trayEl = document.getElementById('whoTray');
     const left = !narrowScreen() && !trayEl.hidden ? trayEl.getBoundingClientRect().right : 0;
-    const r = document.getElementById('rivers').getBoundingClientRect();
-    return { top, bottom, left, right: innerWidth, r: { l: r.left, r: r.right, t: r.top, b: r.bottom }, scale };
+    const m = document.getElementById('rivers').getScreenCTM();
+    const at = (x, y) => new DOMPoint(x, y).matrixTransform(m);
+    const a = at(0, eraY0[0]), b = at(CANVAS_W, CANVAS_H);
+    return { top, bottom, left, right: innerWidth, r: { l: a.x, r: b.x, t: a.y, b: b.y }, scale };
   });
-  const w = v.right - v.left, h = v.bottom - v.top, slack = 40;
+  const w = v.right - v.left, h = v.bottom - v.top, slack = 2;
   assert.ok(v.r.l - v.left <= w / 3 + slack, `${label}: left of the tree is ${Math.round(v.r.l - v.left)} px empty of ${Math.round(w)}`);
   assert.ok(v.right - v.r.r <= w / 3 + slack, `${label}: right of the tree is ${Math.round(v.right - v.r.r)} px empty of ${Math.round(w)}`);
   assert.ok(v.r.t - v.top <= h / 3 + slack, `${label}: above the tree is ${Math.round(v.r.t - v.top)} px empty of ${Math.round(h)}`);
@@ -213,7 +215,9 @@ for (const [name, opts] of SCREENS) {
     for (let k = 0; k < 40; k++) await page.evaluate(() => document.getElementById('zoomOutBtn').click());
     const v = await assertOnScreen(page, 'zoomed all the way out');
     assert.ok(v.scale < open, `the floor ${v.scale} should sit below the opening zoom ${open}`);
-    assert.ok(v.scale >= open * 0.4, `the floor ${v.scale} is too far below the opening zoom ${open}`);
+    const treeShare = (v.r.r - v.r.l) / (v.right - v.left);
+    assert.ok(Math.abs(v.scale - open * 0.9) < 0.002 || treeShare > 0.94,
+      `the floor ${v.scale} is neither 0.9 of the opening zoom ${open} nor the zoom where the tree's width fills the screen (${treeShare.toFixed(2)})`);
     assert.ok(v.r.r - v.r.l <= v.right - v.left + 1, 'the whole width of the tree fits at the floor');
     assert.ok(v.r.l >= v.left - 1 && v.r.r <= v.right + 1, 'the tree is fully across the screen at the floor');
     await page.evaluate(() => document.getElementById('zoomResetBtn').click());
@@ -294,6 +298,56 @@ test('desktop: the hover tip shows for a mouse and goes when the map moves or a 
   await page.waitForTimeout(200);
   assert.equal(await page.evaluate(() => document.getElementById('panel').classList.contains('open')), true, 'the click opens a card');
   assert.equal(await tipShown(page), false, 'an open card hides the tip');
+  assert.deepEqual(errors, []);
+  await ctx.close();
+});
+
+test('iPhone 13: turning the phone re-applies the floor, the clamp and the detail level', async () => {
+  const { ctx, page, errors } = await openMap(SCREENS[1][1]);
+  for (let k = 0; k < 20; k++) await page.evaluate(() => document.getElementById('zoomOutBtn').click());
+  await page.setViewportSize({ width: 844, height: 390 });
+  await page.waitForTimeout(300);
+  await assertOnScreen(page, 'landscape');
+  const st = await page.evaluate(() => ({ scale, floor: minScale(), organic: lastOrganic, wantOrganic: scale > DETAIL_THRESHOLD }));
+  assert.ok(st.scale >= st.floor - 1e-9, 'the landscape floor holds');
+  assert.equal(st.organic, st.wantOrganic, 'the detail level follows the new zoom');
+  assert.deepEqual(errors, []);
+  await ctx.close();
+});
+
+test('desktop: closing a Who list re-applies the clamp', async () => {
+  const { ctx, page, errors } = await openMap(SCREENS[0][1]);
+  const key = await page.evaluate(() => riverWho.keys().next().value);
+  await page.evaluate(key => { const [lane, era] = key.split(':').map(Number); setWho({ type: 'river', lane, era }, { on: true }); }, key);
+  await page.waitForTimeout(300);
+  await page.evaluate(() => { tx = 1e6; applyTransform(); });
+  await assertOnScreen(page, 'Who list open, pushed right');
+  await page.evaluate(() => clearWho());
+  await page.waitForTimeout(300);
+  await assertOnScreen(page, 'Who list closed');
+  assert.deepEqual(errors, []);
+  await ctx.close();
+});
+
+for (const [name, opts] of SCREENS) {
+  test(`${name}: the era mark is right after zooming in past the era strip and back out`, async () => {
+    const { ctx, page, errors } = await openMap(opts);
+    await page.evaluate(() => document.fonts.ready);
+    await zoomTo(page, 1.2);
+    await frames(page);
+    await zoomTo(page, 0.6);
+    assertGaps(await markGaps(page), 'back out of the strip');
+    assert.deepEqual(errors, []);
+    await ctx.close();
+  });
+}
+
+test('desktop: keyboard focus on a river still shows its tip', async () => {
+  const { ctx, page, errors } = await openMap(SCREENS[0][1]);
+  await page.keyboard.press('Shift');
+  await page.evaluate(() => document.querySelector('.river-group[tabindex]').focus());
+  await page.waitForTimeout(150);
+  assert.equal(await tipShown(page), true, 'focus shows the tip');
   assert.deepEqual(errors, []);
   await ctx.close();
 });
