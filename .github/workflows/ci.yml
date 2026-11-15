@@ -193,6 +193,8 @@ jobs:
             # is why this budget discipline exists.
             library:
               - 'cic/**'
+              - 'cic-website/data/world-census.json'
+              - 'cic-website/data/corpus-coverage.json'
               - '.github/workflows/**'
             # Everything a world's build gates read: its records, compiled
             # packages, the engine that gates them, and its build documents.
@@ -614,6 +616,13 @@ jobs:
       - run: python cic/engine/works_registry.py --check
       - run: python cic/engine/author_ids.py --check
       - run: python cic/engine/texts_registry.py --check
+      # cic-website/data/corpus-coverage.json is generated from the census, the
+      # corpus map and the vendored texts; it fails when the committed copy
+      # differs from what the generator writes now.
+      - name: Atlas coverage feed matches its generator
+        run: |
+          python cic/engine/corpus_coverage.py
+          git diff --exit-code -- cic-website/data/corpus-coverage.json
       - run: python cic/engine/tests_corpus_index.py --reuse-index
       - run: python cic/engine/tests_corpus_structure.py
       - run: python cic/engine/tests_passage_index.py
