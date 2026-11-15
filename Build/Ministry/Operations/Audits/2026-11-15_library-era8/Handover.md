@@ -14,7 +14,8 @@ an American book printed 1931 to 1963 whose copyright was never renewed counts a
 their date; a printed court or government record counts by its imprint; unprinted archive records are cite only;
 take a non-renewed book only where it is the best source for a want, and log each one in the Search_Log. The rest
 of rule B stands. The first session took nothing under this widening and did not hear it from Mark directly. It
-loosens a rights rule, so the next session should see it confirmed in the Decision-Log or by Mark before the
+loosens a rights rule, so it was checked: it is on main as ruling R7 of "Era 10 rights rulings: eleven questions
+answered" (2026-11-15) in `Build/Ministry/Features/Source-Library/Decision-Log.md`. Read that entry before the
 first file is taken under it.
 
 ## Done
