@@ -19,7 +19,7 @@
     },
     {
       "title": "Commentary on the Quran (Tafsir)",
-      "about": "which Axel Moberg, in 1924, calls his great commentary on the Koran. Most interpreters refer the Quran's verses on the pit to the Najran martyrs. Moberg says the commentary also gives traditions that refer them to an incident among the Parsees, or to \"Daniel and his men\". Not held"
+      "about": "which Axel Moberg, in 1924, calls his great commentary on the Koran. Moberg says most Muslim interpreters refer the Quran's verses on the pit to the Najran martyrs. He says the commentary also gives traditions that refer them to an incident among the Parsees, or to \"Daniel and his men\". Not held"
     },
     {
       "title": "A short work on the witnesses of traditions",
@@ -28,9 +28,9 @@
   ],
   "legacy": {
     "traces": [
-      "The Christian chronicler Elias of Nisibis names al-Tabari's Annals among his Arabic sources, his editors say, and cites him year by year from 275 to 302 of the hijra.",
+      "The Christian chronicler Elias of Nisibis names al-Tabari's Annals among his Arabic sources, his editors say, and cites him in most years from 275 to 302 of the hijra.",
       "The book of the churches and monasteries of Egypt that B. T. A. Evetts edited in 1895, under the name of Abu Salih the Armenian, cites \"the testimony of the history of At-Tabari\". Evetts says its author had studied \"The great history of At-Tabari\".",
-      "Étienne Quatremère, in 1811, tells that the caliph Aziz kept more than twenty copies of the chronicle in his library, one written in the author's own hand.",
+      "The historian al-Maqrizi, in Étienne Quatremère's French of 1811, tells that the caliph Aziz kept more than twenty copies of the chronicle in his library, one written in the author's own hand.",
       "Hitti says the lost histories of al-Mada'ini are known only by excerpts through al-Baladhuri, al-Tabari and Yakut."
     ],
     "remembered": [
@@ -40,9 +40,9 @@
   },
   "uncertain": [
     "He writes as a Muslim, two centuries after the conquests he describes, and passes on reports as they reached him, often in more than one version. His life rests on two short modern notes. Hitti draws on al-Fihrist and Ibn Khallikan, and Ginzel names no source.",
-    "How far to trust him. Ginzel says he is counted the most reliable of the Muslim annalists, for what he lived through or had on good authority. Ginzel tested one of al-Tabari's eclipse reports, which al-Tabari gives as something said, for the year 281. On that date there was only a slight eclipse, not visible at the town named. One in 280, the year Elias of Nisibis gives, fits fully. Hitti says Arab historians did little to analyze, compare or test their reports, and that al-Tabari's preface states the principle.",
-    "His sources for the conquests. The Hira and Najran reports reach him through a chain of tellers, al-Sari from Shu'ayb from Sayf ibn Umar. A later summary printed in the Leiden edition says he had the Jerusalem story from Sayf too.",
-    "Versions side by side. He gives three accounts of how Christians at Merv buried Yazdegerd. In one, the bishop of Merv takes the body from the river. In another, the body catches on a branch, and the bishop takes it and lays it in a vault where he used to sit. In the third, the metropolitan Iliya, a man from al-Ahwaz, has a tomb built. For Hira he gives a tribute of 90,000 dirhams in one report and 190,000 in another.",
+    "How far to trust him. Ginzel says he is counted the most reliable of the Muslim annalists, for what he lived through or had on good authority. Ginzel tested one of al-Tabari's eclipse reports, which al-Tabari gives as something said, for the year 281. On that date there was only a slight eclipse, not visible at the town named. One in 280, the year Elias of Nisibis gives, fits fully. Hitti says Arab historians did little to analyze, compare or test their reports. Their rule, in his words, was \"what has been once well said need not be told again\", and al-Tabari's preface voices it.",
+    "His sources for the conquests. The Hira report of 190,000 and the Najran report reach him through a chain of tellers, al-Sari from Shu'ayb from Sayf ibn Umar. The Hira report of 90,000 comes by another chain, through Salama. The name after Salama is unreadable in the scan, but elsewhere in the volume Salama's chain reaches Ibn Ishaq, the biographer of Muhammad. A later summary printed in the Leiden edition says he had the Jerusalem story from Sayf too.",
+    "Versions side by side. He gives three accounts of how Christians at Merv buried Yazdegerd. In one, the bishop of Merv takes the body from the river. In another, the body catches on a branch, and the bishop takes it and lays it in a vault where he used to sit. On the same page, E. Prym, the volume's editor, notes that the teller has plainly mixed two different accounts. In the third, the metropolitan Iliya, a man from al-Ahwaz, has a tomb built. For Hira he gives a tribute of 90,000 dirhams in one report and 190,000 in another.",
     "The Jerusalem terms. E. Prym, who edited the volume in 1893, filled part of the text from two later writers, Mujir al-Din and al-Suyuti. He notes that M. J. de Goeje, who led the edition, had reason to think some words were not genuine. The terms as printed name no patriarch of Jerusalem.",
     "His dates. Ginzel gives his life as the years 224 to 310 of the hijra and names no source. Hitti gives his death in 310 and places it in Baghdad. Neither gives a birthplace."
   ],
@@ -105,6 +105,13 @@
         "date": "1811",
         "language": "French",
         "file": "cic/texts/quatremere_memoires-geographiques-et-historiques-sur-l-egypte-tome2-fra_quatremere1811.txt"
+      },
+      {
+        "title": "Chronique, tome 2",
+        "author": "Michael the Syrian; J.-B. Chabot (tr.)",
+        "date": "1901",
+        "language": "French translation",
+        "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt"
       }
     ]
   }
