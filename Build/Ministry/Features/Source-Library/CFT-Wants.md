@@ -431,7 +431,7 @@ tables above are not rewritten; where this section changes one, it says so.
 | Wanted Sources era 4 council row 13 (the synod of 843) | not found | — | Uspenskii (1893) is not on archive.org. |
 | Open-Gaps 272: a readable Greek Life of Euthymius; the Kyiv archive volume on Ilarion; Cummian's Easter letter (266) | not taken | — | Every scan found garbles the wanted text. |
 | Open-Gaps 272: an English of Theophanes, Stephen the Younger, Nikephoros, Nicholas Mystikos, Peter of Sicily, Ilarion; Open-Gaps 265: an English of Maximus's trial | none before 1931 | — | No English of these was printed by 1930, so none can be taken under the date rule. |
-| Wanted Sources era 5 row 92 (Teodosije); row 89 (Cosmas the Priest); council row 18 (Nerses of Lambron's speech) | not found | — | Daničić (1860), Popruzhenko (1907), Aucher (1812) and Neumann (1834) are not on archive.org. |
+| Wanted Sources era 5 row 92 (Teodosije); row 89 (Basil the Physician: Cosmas the Priest, as context); council row 18 (Nerses of Lambron's speech) | not found | — | Daničić (1860), Popruzhenko (1907), Aucher (1812) and Neumann (1834) are not on archive.org. |
 | Wanted Sources era 5 rows 62 and 97 (Dominic's process; Humbert's Legenda) | not found | — | Quétif and Échard I (1719) describes the inquiries and does not print them in the scan read. |
 | Wanted Sources era 5 row 61 (Clare): the Testament; the letters in her own Latin | not found | — | Seraphicae legislationis textus originales (1897) is not on archive.org. |
 | Wanted Sources era 5 rows 65 (Valdes's profession), 75 (the French and Latin Mirror), 93 (Cyril III's own record) | none before 1931 | — | Not searched again: each was first printed after 1930. |
