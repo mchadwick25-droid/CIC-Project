@@ -232,14 +232,16 @@ def rights_clears(rights: str | None) -> bool:
     or an accepted transcriber declaration), and an explicit open licence
     (e.g. evagrius_praktikos_dysinger.txt, vendored under CC BY 4.0 rather
     than public domain - lawful to vendor but carrying an attribution
-    obligation the PD files do not).
+    obligation the PD files do not). A third: an owner's own printed statement
+    that the text is free, recorded as "Owner-declared free" with the owner's
+    words (cic/texts/INTAKE.md section 2).
     Anything else - blank, a bare 'copyright', an in-copyright notice - is
     correctly NOT cleared here; this function widens what counts as
     verified, it does not loosen the verification itself."""
     if not rights:
         return False
     r = rights.lower()
-    return "public domain" in r or "cc by" in r
+    return "public domain" in r or "cc by" in r or r.startswith("owner-declared free")
 
 
 def title_declared(header: str) -> str | None:

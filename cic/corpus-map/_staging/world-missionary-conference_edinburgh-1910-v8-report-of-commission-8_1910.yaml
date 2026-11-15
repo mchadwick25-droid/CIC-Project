@@ -1,0 +1,29 @@
+source_file: world-missionary-conference_edinburgh-1910-v8-report-of-commission-8_1910.txt
+assignments:
+- row_id: world-missionary-conference_edinburgh-1910-v8-report-of-commission-8_1910--world-missionary-conference-1910-report-of-commission-viii
+  work: 'World Missionary Conference 1910, Report of Commission VIII'
+  author: world-missionary-conference
+  locus: 'whole'
+  atlas_ids:
+  - the-student-volunteer-movement-and-edinburgh-191
+  role: tradition
+  confidence: assigned
+  note: 'The conference''s own printed report.'
+- row_id: world-missionary-conference_edinburgh-1910-v8-report-of-commission-8_1910--cheng-ching-yi-speech-at-edinburgh-1910-report-of-commission
+  work: 'Cheng Ching-yi, speech at Edinburgh 1910 (Report of Commission VIII)'
+  author: world-missionary-conference
+  locus: 'lines 10565-10664'
+  atlas_ids:
+  - the-student-volunteer-movement-and-edinburgh-191
+  role: tradition
+  confidence: assigned
+  note: 'His own words as the conference reported them, abbreviated; the print spells him "Chang Ching-Yi".'
+- row_id: world-missionary-conference_edinburgh-1910-v8-report-of-commission-8_1910--cheng-ching-yi-speech-at-edinburgh-1910-report-of-commission-2
+  work: 'Cheng Ching-yi, speech at Edinburgh 1910 (Report of Commission VIII), for the Chinese Church shelf'
+  author: world-missionary-conference
+  locus: 'lines 10565-10664'
+  atlas_ids:
+  - the-chinese-church-indigenous-and-suffering
+  role: tradition
+  confidence: needs-ruling
+  note: 'His own words, spoken in 1910, before the entry''s window opens in the 1920s.'

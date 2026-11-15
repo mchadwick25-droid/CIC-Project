@@ -1,0 +1,11 @@
+source_file: rauschenbusch_christianizing-the-social-order_1919.txt
+assignments:
+- row_id: rauschenbusch_christianizing-the-social-order_1919--rauschenbusch-christianizing-the-social-order
+  work: 'Rauschenbusch, Christianizing the Social Order'
+  author: rauschenbusch
+  locus: 'whole'
+  atlas_ids:
+  - the-social-gospel
+  role: tradition
+  confidence: assigned
+  note: 'His own book, in a 1919 printing of the 1912 text.'

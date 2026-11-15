@@ -21,3 +21,11 @@ works:
   note: The Catholic mission's history of the Urakami Christians and the persecution after
     1865, written inside this entry's window (1865-1906).
   source_file: marnas_religion-de-jesus-ressuscitee-au-japon-t2-fra_1897.txt
+- row_id: uchimura_how-i-became-a-christian_1922--uchimura-how-i-became-a-christian
+  work: Uchimura, How I Became a Christian
+  author: uchimura
+  locus: whole
+  role: tradition
+  confidence: assigned
+  note: His own account in his own English, its preface dated 1895.
+  source_file: uchimura_how-i-became-a-christian_1922.txt

@@ -1,0 +1,11 @@
+source_file: dyer_revival-in-india_1907.txt
+assignments:
+- row_id: dyer_revival-in-india_1907--dyer-compiler-revival-in-india
+  work: 'Dyer (compiler), Revival in India'
+  author: dyer
+  locus: 'whole; the Mukti chapters'
+  atlas_ids:
+  - the-1904-07-revival-family-wales-mukti-india-pyo
+  role: tradition
+  confidence: assigned
+  note: 'First-hand accounts from inside the revival, gathered in 1907. Mixed voices.'

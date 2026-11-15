@@ -1,0 +1,11 @@
+source_file: congress-christian-work-south-america_montevideo-1925-v2_1925.txt
+assignments:
+- row_id: congress-christian-work-south-america_montevideo-1925-v2_1925--christian-work-in-south-america-montevideo-congress-1925
+  work: 'Christian Work in South America (Montevideo Congress 1925), volume 2'
+  author: congress-christian-work-south-america
+  locus: 'whole'
+  atlas_ids:
+  - protestantism-in-latin-america
+  role: tradition
+  confidence: assigned
+  note: 'The congress''s own printed report.'

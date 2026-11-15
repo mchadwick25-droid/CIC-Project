@@ -1,0 +1,11 @@
+source_file: braga_pan-americanismo-aspecto-religioso-por_1916.txt
+assignments:
+- row_id: braga_pan-americanismo-aspecto-religioso-por_1916--braga-pan-americanismo-aspecto-religioso-portuguese-1916
+  work: 'Braga, Pan-Americanismo: aspecto religioso (Portuguese, 1916)'
+  author: braga
+  locus: 'whole'
+  atlas_ids:
+  - protestantism-in-latin-america
+  role: tradition
+  confidence: assigned
+  note: 'His own report on the Panama Congress, in Portuguese; the Panama report names him as of the Theological Seminary, Campinas, Brazil.'

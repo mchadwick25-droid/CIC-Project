@@ -1,0 +1,20 @@
+source_file: fosdick_shall-the-fundamentalists-win-in-christian-century-v39-no23_1922.txt
+assignments:
+- row_id: fosdick_shall-the-fundamentalists-win-in-christian-century-v39-no23_1922--fosdick-shall-the-fundamentalists-win-the-christian-century
+  work: 'Fosdick, Shall the Fundamentalists Win? (The Christian Century, June 8, 1922)'
+  author: fosdick
+  locus: 'lines 1322-2106'
+  atlas_ids:
+  - the-mainline-century-liberal-and-neo-orthodox
+  role: tradition
+  confidence: assigned
+  note: 'The sermon as a weekly printed it in June 1922. The rest of the issue is other writers.'
+- row_id: fosdick_shall-the-fundamentalists-win-in-christian-century-v39-no23_1922--fosdick-shall-the-fundamentalists-win-for-the-fundamentalism
+  work: 'Fosdick, Shall the Fundamentalists Win?, for the Fundamentalism shelf'
+  author: fosdick
+  locus: 'lines 1322-2106'
+  atlas_ids:
+  - fundamentalism-1910-1970s
+  role: context
+  confidence: assigned
+  note: 'The opposing side''s voice on this shelf.'

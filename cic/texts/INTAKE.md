@@ -72,6 +72,9 @@ verified-not-asserted case this whole registry rests on.
   date.
 - A transcriber's explicit PD declaration (Pearse's site-wide notice is the
   precedent) → accepted, recorded as such.
+- Where a title page prints no year, a copyright notice dated inside the
+  rule counts; a dated preface counts only when the library catalog's date
+  agrees. The header records the date used and where it was found.
 - An explicit open licence (CC BY 4.0 — Dysinger's Evagrius is the one case
   so far) → `open-licence`, with the attribution string recorded and carried
   into every quote that draws on it.

@@ -1,0 +1,11 @@
+source_file: kagawa_before-the-dawn_fukumoto-satchell1925.txt
+assignments:
+- row_id: kagawa_before-the-dawn_fukumoto-satchell1925--kagawa-before-the-dawn-1925
+  work: 'Kagawa, Before the Dawn (1925)'
+  author: kagawa
+  locus: 'whole'
+  atlas_ids:
+  - japanese-christianity-after-1906
+  role: tradition
+  confidence: assigned
+  note: 'His own novel in an English translation.'

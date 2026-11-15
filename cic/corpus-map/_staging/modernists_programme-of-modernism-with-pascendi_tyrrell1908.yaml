@@ -1,0 +1,11 @@
+source_file: modernists_programme-of-modernism-with-pascendi_tyrrell1908.txt
+assignments:
+- row_id: modernists_programme-of-modernism-with-pascendi_tyrrell1908--the-programme-of-modernism-with-pascendi-in-english-1908
+  work: 'The Programme of Modernism, with Pascendi in English (1908)'
+  author: modernists
+  locus: 'the reply; Pascendi in English, lines 5448-8641'
+  atlas_ids:
+  - the-catholic-church-pius-x-to-the-council
+  role: tradition
+  confidence: assigned
+  note: 'The modernists'' own reply and the encyclical it answers, both in an English of 1908.'

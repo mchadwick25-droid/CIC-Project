@@ -1,0 +1,11 @@
+source_file: faith-and-order_lausanne-1927-proceedings_bate1927.txt
+assignments:
+- row_id: faith-and-order_lausanne-1927-proceedings_bate1927--faith-and-order-proceedings-of-the-world-conference-lausanne
+  work: 'Faith and Order: Proceedings of the World Conference, Lausanne 1927'
+  author: faith-and-order
+  locus: 'whole; the received reports, lines 24589-25471; the Orthodox declaration, lines 20375-20585'
+  atlas_ids:
+  - the-ecumenical-movement-and-the-wcc
+  role: tradition
+  confidence: assigned
+  note: 'The conference''s own printed proceedings; many churches'' voices.'

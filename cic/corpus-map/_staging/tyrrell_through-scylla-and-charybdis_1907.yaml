@@ -1,0 +1,11 @@
+source_file: tyrrell_through-scylla-and-charybdis_1907.txt
+assignments:
+- row_id: tyrrell_through-scylla-and-charybdis_1907--tyrrell-through-scylla-and-charybdis
+  work: 'Tyrrell, Through Scylla and Charybdis'
+  author: tyrrell
+  locus: 'whole'
+  atlas_ids:
+  - the-catholic-church-pius-x-to-the-council
+  role: tradition
+  confidence: assigned
+  note: 'His own book of 1907.'

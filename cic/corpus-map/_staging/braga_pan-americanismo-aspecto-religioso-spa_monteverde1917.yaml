@@ -1,0 +1,11 @@
+source_file: braga_pan-americanismo-aspecto-religioso-spa_monteverde1917.txt
+assignments:
+- row_id: braga_pan-americanismo-aspecto-religioso-spa_monteverde1917--braga-pan-americanismo-aspecto-religioso-spanish-monteverde
+  work: 'Braga, Pan-Americanismo: aspecto religioso (Spanish, Monteverde 1917)'
+  author: braga
+  locus: 'whole'
+  atlas_ids:
+  - protestantism-in-latin-america
+  role: tradition
+  confidence: assigned
+  note: 'The Spanish version by Eduardo Monteverde.'
