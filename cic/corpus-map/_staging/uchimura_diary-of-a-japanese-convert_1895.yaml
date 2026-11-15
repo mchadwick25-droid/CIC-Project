@@ -1,0 +1,23 @@
+source_file: uchimura_diary-of-a-japanese-convert_1895.txt
+assignments:
+- row_id: uchimura_diary-of-a-japanese-convert_1895--the-diary-of-a-japanese-convert
+  work: THE DIARY OF A JAPANESE CONVERT
+  author: uchimura
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - japanese-christianity-hidden-emergence-meiji
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1895
+    end: 1895
+    source: the copyright notice at line 117 of this file ('Copyright, 1895. by Fleming H. Revell Company.'); the
+      title page prints no year
+    formation_confidence: Documented
+  edition_date:
+    year: 1895
+    source: the copyright notice at line 117 of this file ('Copyright, 1895. by Fleming H. Revell Company.'); the
+      title page prints no year
+    formation_confidence: Documented
+  note: 'Era 9 row 283, Uchimura Kanzo: his own account.'

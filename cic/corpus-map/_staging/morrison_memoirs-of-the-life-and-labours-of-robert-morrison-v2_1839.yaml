@@ -1,0 +1,21 @@
+source_file: morrison_memoirs-of-the-life-and-labours-of-robert-morrison-v2_1839.txt
+assignments:
+- row_id: morrison_memoirs-of-the-life-and-labours-of-robert-morrison-v2_1839--memoirs-of-the-life-and-labours-of-robert-morrison-d-d-f-r-s
+  work: Memoirs of the Life and Labours of Robert Morrison, D.D., F.R.S., M.R.A.S., Member of the Society Asiatique
+  author: morrison
+  locus: Morrison's 1826 account of Leang-afa and his conversation at lines 15610-15680; the rest not mapped
+  atlas_ids:
+  - the-missionary-movement-s-native-churches-seramp
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1839
+    end: 1839
+    source: 'the printing''s own title page: line 75 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1839
+    source: line 75 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 311, Liang Fa: Morrison''s Memoirs, vol. 2.'

@@ -71,7 +71,7 @@ works:
   author: irving
   locus: the whole volume; not mapped
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   language: eng
   date:
     formation_confidence: unknown
@@ -81,7 +81,8 @@ works:
     year: 1866
     source: OCR line 38, on the title page
     formation_confidence: Documented
-  note: 'Era 9 row 179, Edward Irving: his collected writings, vol. 5.'
+  note: 'Era 9 row 179, Edward Irving: his collected writings, vol. 5. His own writings; the
+    volume does not say when each piece was first written.'
   source_file: irving_collected-writings-v5_carlyle1866.txt
 - row_id: miller-edward_history-and-doctrines-of-irvingism-v1_1878--the-history-and-doctrines-of-irvingism-or-of-the-so-called
   work: The History and Doctrines of Irvingism, or of the so-called Catholic and Apostolic

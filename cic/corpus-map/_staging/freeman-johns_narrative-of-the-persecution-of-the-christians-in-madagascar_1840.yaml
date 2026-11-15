@@ -1,0 +1,23 @@
+source_file: freeman-johns_narrative-of-the-persecution-of-the-christians-in-madagascar_1840.txt
+assignments:
+- row_id: freeman-johns_narrative-of-the-persecution-of-the-christians-in-madagascar_1840--a-narrative-of-the-persecution-of-the-christians-in
+  work: A Narrative of the Persecution of the Christians in Madagascar; with details of the escape of the six
+  author: freeman-johns
+  locus: the accession of Ranavalona at lines 624-725; Chapter VII, from the queen's edict to the martyrdom of Rasalama,
+    at lines 6051-7613; the rest not mapped
+  atlas_ids:
+  - malagasy-christianity
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1840
+    end: 1840
+    source: 'the printing''s own title page: line 45 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1840
+    source: line 45 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 rows 314, 315 and 316, Rasalama, Rafaravavy and Ranavalona I: the missionaries'' narrative of the
+    persecution.'

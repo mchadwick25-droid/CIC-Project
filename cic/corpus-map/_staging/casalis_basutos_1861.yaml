@@ -1,0 +1,21 @@
+source_file: casalis_basutos_1861.txt
+assignments:
+- row_id: casalis_basutos_1861--the-basutos-twenty-three-years-in-south-africa
+  work: THE BASUTOS. TWENTY-THREE YEARS IN SOUTH AFRICA
+  author: casalis
+  locus: the chief Moshesh and the wars before the missionaries' arrival at lines 1226-1530; the rest not mapped
+  atlas_ids:
+  - southern-african-mission-churches
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1861
+    end: 1861
+    source: 'the printing''s own title page: line 48 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1861
+    source: line 48 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 322, Moshoeshoe: Casalis, The Basutos.'

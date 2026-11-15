@@ -1,0 +1,22 @@
+source_file: reyes_la-sensacional-memoria-spa_1899.txt
+assignments:
+- row_id: reyes_la-sensacional-memoria-spa_1899--la-sensacional-memoria-de-isabelo-de-los-reyes-sobre-la
+  work: LA SENSACIONAL MEMORIA de Isabelo de los Reyes sobre la Revolución Filipina de 1896-97 por la cual fué
+  author: reyes
+  locus: the memorial, from its heading to the author's signature, at lines 369-6195; the rest not mapped
+  atlas_ids:
+  - philippine-catholicism-gomburza-to-aglipay
+  role: tradition
+  confidence: provisional
+  language: spa
+  date:
+    start: 1899
+    end: 1899
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n8; the OCR does not give it cleanly'
+    formation_confidence: Documented
+  edition_date:
+    year: 1899
+    source: read on the scan's page image, leaf n8; the OCR does not give it cleanly
+    formation_confidence: Documented
+  note: 'Era 9 row 280, Isabelo de los Reyes: his memorial on the revolution of 1896-97. His own text of 1897-99,
+    written before the Iglesia Filipina Independiente was founded.'

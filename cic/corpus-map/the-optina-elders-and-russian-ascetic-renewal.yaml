@@ -3,6 +3,84 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-optina-elders-and-russian-ascetic-renewal
 works:
+- row_id: feofan_bogougodnaia-zhizn-voobshche-rus_2nd-ed1899--18591866
+  work: БОГОУГОДНАЯ ЖИЗНЬ ВООБЩЕ. СЛОВА ЕПИСКОПА ФЕОФАНА. (Изъ словъ къ Тамбовской и Владимірской
+    паствамъ 1859—1866
+  author: feofan
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  language: rus
+  date:
+    start: 1859
+    end: 1866
+    source: 'the printing''s own title page: line 53 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1899
+    source: line 53 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 295, Theophan the Recluse: sermons on the godly life.'
+  source_file: feofan_bogougodnaia-zhizn-voobshche-rus_2nd-ed1899.txt
+- row_id: feofan_slova-k-tambovskoi-pastve-rus_1861--work
+  work: Слова къ Тамбовской паствѣ Феофана, Епископа Тамбовскаго и Шацкаго
+  author: feofan
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  language: rus
+  date:
+    start: 1859
+    end: 1861
+    source: 'the printing''s own title page: line 50 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1861
+    source: line 50 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 295, Theophan the Recluse: his sermons to the Tambov flock.'
+  source_file: feofan_slova-k-tambovskoi-pastve-rus_1861.txt
+- row_id: kireevsky_polnoe-sobranie-sochinenii-t1-rus_gershenzon1911--i
+  work: Полное собраніе сочиненій И. В. Кирѣевскаго въ двухъ томахъ. Томъ I
+  author: kireevsky
+  locus: the essay on the character of the enlightenment of Europe and its relation to that
+    of Russia at lines 8732-11061; the rest not mapped
+  role: tradition
+  confidence: provisional
+  language: rus
+  date:
+    formation_confidence: unknown
+    checked: the title page and front matter of this printing (1911); they do not state when
+      the text was first written
+  edition_date:
+    year: 1911
+    source: line 46 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 294, Ivan Kireevsky: his collected works, vol. 1. His own writings in a
+    collected edition of 1911; the volume''s front matter does not date each piece.'
+  source_file: kireevsky_polnoe-sobranie-sochinenii-t1-rus_gershenzon1911.txt
+- row_id: optina_istoricheskoe-opisanie-kozelskoi-optinoi-pustyni-rus_1902--work
+  work: Историческое описание Козельской Оптиной пустыни и Предтечева скита (Калужской губернии),
+    вновь составленное
+  author: optina
+  locus: sections on Fr. Makary as fellow worker of the elder Leonid and on his eldership
+    at lines 3624-4074; section on the eldership of Fr. Amvrosy at lines 5604-6424; letters
+    about the publishing of books at lines 8441-10703; the rest not mapped
+  role: tradition
+  confidence: provisional
+  language: rus
+  date:
+    start: 1902
+    end: 1902
+    source: 'the printing''s own title page: line 75 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1902
+    source: line 75 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 rows 293 and 197, Macarius and Ambrose of Optina: the monastery''s own history.
+    The monastery''s own published history; it tells of the elders in the third person.'
+  source_file: optina_istoricheskoe-opisanie-kozelskoi-optinoi-pustyni-rus_1902.txt
 - row_id: paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847--preface-of-the-russian-publisher-optina-pustyn-1847
   work: Preface of the Russian publisher (Optina Pustyn, 1847)
   author: optina-pustyn

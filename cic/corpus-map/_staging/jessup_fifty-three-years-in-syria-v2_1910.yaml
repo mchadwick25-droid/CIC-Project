@@ -1,0 +1,23 @@
+source_file: jessup_fifty-three-years-in-syria-v2_1910.txt
+assignments:
+- row_id: jessup_fifty-three-years-in-syria-v2_1910--fifty-three-years-in-syria-in-two-volumes-volume-ii
+  work: Fifty-Three Years in Syria. In Two Volumes. Volume II
+  author: jessup
+  locus: the death and funeral of Sheikh Nasif el Yazigy, 1871, at lines 484-498; the death and life of Butrus el
+    Bistany at lines 3681-3774; the rest not mapped
+  atlas_ids:
+  - arab-evangelical-churches
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1910
+    end: 1910
+    source: the copyright notice at line 71 of this file ('Copyright, 1910, by'); the title page prints no year
+    formation_confidence: Documented
+  edition_date:
+    year: 1910
+    source: the copyright notice at line 71 of this file ('Copyright, 1910, by'); the title page prints no year
+    formation_confidence: Documented
+  note: 'Era 9 row 325, Butrus el Bistany and Nasif el Yazigy: Jessup''s memoir, vol. 2. A missionary''s own memoir,
+    printed in 1910, four years after the entry''s window closes.'

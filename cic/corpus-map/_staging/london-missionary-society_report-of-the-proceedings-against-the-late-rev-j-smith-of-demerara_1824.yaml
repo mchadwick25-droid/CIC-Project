@@ -1,0 +1,21 @@
+source_file: london-missionary-society_report-of-the-proceedings-against-the-late-rev-j-smith-of-demerara_1824.txt
+assignments:
+- row_id: london-missionary-society_report-of-the-proceedings-against-the-late-rev-j-smith-of-demerara_1824--the-london-missionary-society-s-report-of-the-proceedings
+  work: THE London Missionary Society's REPORT OF THE PROCEEDINGS AGAINST THE LATE Rev. J. SMITH, of Demerara,
+  author: london-missionary-society
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - caribbean-churches-of-slavery-and-emancipation
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1824
+    end: 1824
+    source: 'the printing''s own title page: line 75 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1824
+    source: line 75 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 247, John Smith of Demerara: the trial record.'

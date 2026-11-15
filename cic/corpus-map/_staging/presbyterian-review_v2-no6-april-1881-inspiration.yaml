@@ -6,8 +6,8 @@ assignments:
   locus: the article 'Inspiration' at OCR lines 19-2418; add 12 to OCR line numbers; the rest not mapped
   atlas_ids:
   - fundamentalism-1910-1970s
-  role: context
-  confidence: needs-ruling
+  role: antecedent
+  confidence: assigned
   language: eng
   date:
     start: 1881
@@ -18,4 +18,5 @@ assignments:
     year: 1881
     source: the number's own heading at OCR line 13, 'No. 6.-April, 1881'
     formation_confidence: Documented
-  note: 'Era 9 row 217, A. A. Hodge and B. B. Warfield: Inspiration, Presbyterian Review, April 1881.'
+  note: 'Era 9 row 217, A. A. Hodge and B. B. Warfield: Inspiration, Presbyterian Review, April 1881. An article
+    of 1881, written before the entry''s window opens; the entry grows from its doctrine of Scripture.'

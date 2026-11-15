@@ -8,7 +8,7 @@ assignments:
   atlas_ids:
   - the-missionary-movement-s-native-churches-seramp
   role: context
-  confidence: needs-ruling
+  confidence: assigned
   language: eng
   date:
     start: 1912
@@ -19,4 +19,5 @@ assignments:
     year: 1912
     source: OCR line 60, on the title page
     formation_confidence: Documented
-  note: 'Era 9 row 204, J. Hudson Taylor: a Life (the early years).'
+  note: 'Era 9 row 204, J. Hudson Taylor: a Life (the early years). A Life by another hand, printed in 1912, after
+    the entry''s window closes.'

@@ -8,8 +8,8 @@
   "scope": "vendored coverage only - see this script's own docstring for why the acquirable/purchasable/no-edition-exists breakdown is not included here",
   "counts": {
     "total_entries": 619,
-    "entries_with_coverage": 296,
-    "entries_zero_coverage": 323
+    "entries_with_coverage": 303,
+    "entries_zero_coverage": 316
   },
   "entries": {
     "post-apostolic-house-church": {
@@ -35546,7 +35546,7 @@
           "work": "Memoirs of Rev. Charles G. Finney, written by himself. New York: A. S. Barnes & Company, 1876",
           "author": "finney",
           "role": "tradition",
-          "confidence": "needs-ruling",
+          "confidence": "assigned",
           "source_file": "finney_memoirs-of-rev-charles-g-finney_1876.txt",
           "rights": "Public Domain (pd-us-by-date: published 1876); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
         },
@@ -35775,6 +35775,22 @@
           "rights": "Public Domain (pd-us-by-date: published 1890); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
         },
         {
+          "work": "AGGRESSIVE CHRISTIANITY. PRACTICAL SERMONS BY MRS. CATHERINE BOOTH, WITH AN INTRODUCTION BY DANIEL STEELE, D.D",
+          "author": "booth-catherine",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "booth-catherine_aggressive-christianity_boston1883.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1883); the archive.org record says possible-copyright-status The Library of Congress is unaware of any copyright restrictions for this item., and the date agrees; the date used is that of the copyright notice at line 51 of this file ('Entered, according to Act of Congress, in the year 1883,'); the title page prints no year"
+        },
+        {
+          "work": "GODLINESS. Being reports of a series of addresses delivered at James's Hall, London, W., during 1881",
+          "author": "booth-catherine",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "booth-catherine_godliness_1883.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1883); the archive.org record carries no rights field, so the date named here is the basis; the date used is that of the copyright notice at line 103 of this file ('Entered, according to Act oi Congress, in the year 1883,'); the title page prints no year"
+        },
+        {
           "work": "The Life of Catherine Booth, the Mother of the Salvation Army, by F. de L. Booth-Tucker, Volume I",
           "author": "booth-tucker",
           "role": "context",
@@ -35789,12 +35805,28 @@
       "status": "Pre-Survey Candidate",
       "works": [
         {
+          "work": "JOEL BULU: THE AUTOBIOGRAPHY OF A NATIVE MINISTER IN THE SOUTH SEAS. Translated by a Missionary. SECOND",
+          "author": "bulu",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "bulu_joel-bulu-the-autobiography-of-a-native-minister-in-the-south-seas_2nd-ed1884.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1884); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
+        },
+        {
           "work": "Journal of an expedition up the Niger and Tshadda rivers, undertaken by Macgregor Laird, Esq., in connection",
           "author": "crowther",
           "role": "tradition",
           "confidence": "provisional",
           "source_file": "crowther_journal-of-an-expedition-up-the-niger-and-tshadda_1855.txt",
           "rights": "Public Domain (pd-us-by-date: published 1855); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "GEMS FROM THE CORAL ISLANDS. Western Polynesia: comprising the New Hebrides Group, the Loyalty Group, New",
+          "author": "gill",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "gill_gems-from-the-coral-islands-western-polynesia_1855.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1855); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
         },
         {
           "work": "The Korean Repository, vol. III (Seoul 1896)",
@@ -35805,10 +35837,26 @@
           "rights": "Public Domain (pd-us-by-date: published 1896); the archive.org record is tagged NOT_IN_COPYRIGHT"
         },
         {
+          "work": "A Retrospect of the First Ten Years of the Protestant Mission to China, (now, in connection with the Malay,",
+          "author": "milne",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "milne_retrospect-of-the-first-ten-years-of-the-protestant-mission-to-china_1820.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1820); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
+        },
+        {
+          "work": "Memoirs of the Life and Labours of Robert Morrison, D.D., F.R.S., M.R.A.S., Member of the Society Asiatique",
+          "author": "morrison",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "morrison_memoirs-of-the-life-and-labours-of-robert-morrison-v2_1839.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1839); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
+        },
+        {
           "work": "The Black Bishop: Samuel Adjai Crowther. By Jesse Page, F.R.G.S. With preface by Eugene Stock, D.C.L",
           "author": "page",
           "role": "context",
-          "confidence": "needs-ruling",
+          "confidence": "assigned",
           "source_file": "page_black-bishop-samuel-adjai-crowther_1908.txt",
           "rights": "Public Domain (pd-us-by-date: published 1908); the archive.org record carries no rights field, so the imprint date is the basis"
         },
@@ -35824,7 +35872,7 @@
           "work": "Hudson Taylor in Early Years: the growth of a soul. By Dr. and Mrs. Howard Taylor. With introduction by Mr.",
           "author": "taylor-howard",
           "role": "context",
-          "confidence": "needs-ruling",
+          "confidence": "assigned",
           "source_file": "taylor-howard_hudson-taylor-in-early-years_1912.txt",
           "rights": "Public Domain (pd-us-by-date: published 1912); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
         },
@@ -35832,9 +35880,17 @@
           "work": "One of China's Scholars: the early life and conversion of Pastor Hsi, by Mrs. Howard Taylor; bound in this",
           "author": "taylor-howard",
           "role": "context",
-          "confidence": "needs-ruling",
+          "confidence": "assigned",
           "source_file": "taylor-howard_one-of-chinas-scholars-pastor-hsi_1909.txt",
           "rights": "Public Domain (pd-us-by-date: published 1909); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
+        },
+        {
+          "work": "MEMORIALS OF PROTESTANT MISSIONARIES TO THE CHINESE: giving a list of their publications, and obituary",
+          "author": "wylie",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "wylie_memorials-of-protestant-missionaries-to-the-chinese_1867.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1867); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
         }
       ]
     },
@@ -35851,7 +35907,7 @@
           "work": "Jubilate! Denkschrift zur Jubelfeier der Erneuerung des apostolischen Diakonissen-Amtes und der",
           "author": "disselhoff",
           "role": "tradition",
-          "confidence": "needs-ruling",
+          "confidence": "assigned",
           "source_file": "disselhoff_jubilate-denkschrift-kaiserswerth-deu_1886.txt",
           "rights": "Public Domain (pd-us-by-date: published 1886); the archive.org record carries no rights field, so the imprint date is the basis"
         },
@@ -35955,6 +36011,38 @@
       "name": "The Optina Elders & Russian Ascetic Renewal",
       "status": "Pre-Survey Candidate",
       "works": [
+        {
+          "work": "БОГОУГОДНАЯ ЖИЗНЬ ВООБЩЕ. СЛОВА ЕПИСКОПА ФЕОФАНА. (Изъ словъ къ Тамбовской и Владимірской паствамъ 1859—1866",
+          "author": "feofan",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "feofan_bogougodnaia-zhizn-voobshche-rus_2nd-ed1899.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1899); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "Слова къ Тамбовской паствѣ Феофана, Епископа Тамбовскаго и Шацкаго",
+          "author": "feofan",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "feofan_slova-k-tambovskoi-pastve-rus_1861.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1861); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "Полное собраніе сочиненій И. В. Кирѣевскаго въ двухъ томахъ. Томъ I",
+          "author": "kireevsky",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "kireevsky_polnoe-sobranie-sochinenii-t1-rus_gershenzon1911.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1911); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "Историческое описание Козельской Оптиной пустыни и Предтечева скита (Калужской губернии), вновь составленное",
+          "author": "optina",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "optina_istoricheskoe-opisanie-kozelskoi-optinoi-pustyni-rus_1902.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1902); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
         {
           "work": "Preface of the Russian publisher (Optina Pustyn, 1847)",
           "author": "optina-pustyn",
@@ -36217,7 +36305,7 @@
           "work": "The Collected Writings of Edward Irving. Edited by his nephew the Rev. G. Carlyle, M.A. In five volumes. Vol.",
           "author": "irving",
           "role": "tradition",
-          "confidence": "needs-ruling",
+          "confidence": "assigned",
           "source_file": "irving_collected-writings-v5_carlyle1866.txt",
           "rights": "Public Domain (pd-us-by-date: published 1866); the archive.org record carries no rights field, so the imprint date is the basis"
         },
@@ -36278,8 +36366,8 @@
         {
           "work": "Religious Experience of John Humphrey Noyes, Founder of the Oneida Community. With seventeen illustrations.",
           "author": "noyes",
-          "role": "tradition",
-          "confidence": "needs-ruling",
+          "role": "context",
+          "confidence": "assigned",
           "source_file": "noyes_religious-experience-of-john-humphrey-noyes_gw-noyes1923.txt",
           "rights": "Public Domain (pd-us-by-date: published 1923); the archive.org record carries no rights field, so the imprint date is the basis"
         }
@@ -36337,6 +36425,30 @@
           "confidence": "provisional",
           "source_file": "bellett_short-meditation-on-the-moral-glory-of-the-lord-jesus-christ_1865.txt",
           "rights": "Public Domain (pd-us-by-date: published 1865); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
+        },
+        {
+          "work": "DIALOGUES ON THE ESSAYS AND REVIEWS. Second edition, revised",
+          "author": "darby",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "darby_dialogues-on-the-essays-and-reviews_2nd-ed1863.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1863); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
+        },
+        {
+          "work": "STUDIES ON THE BOOK OF DANIEL: A COURSE OF LECTURES BY J. N. DARBY. TRANSLATED FROM THE FRENCH, AND REVISED",
+          "author": "darby",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "darby_studies-on-the-book-of-daniel_3rd-ed1864.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1864); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
+        },
+        {
+          "work": "Seven Lectures on the Second Coming of the Lord. Delivered in Toronto, in 1863, by J. N. Darby. From revised",
+          "author": "darby",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "darby_seven-lectures-on-the-second-coming-of-the-lord_toronto1863.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1863); the archive.org record carries no rights field, so the imprint date is the basis"
         },
         {
           "work": "Journal of a residence at Bagdad, during the years 1830 and 1831, by Anthony N. Groves, missionary",
@@ -36571,12 +36683,53 @@
     "indonesian-christianity": {
       "name": "Indonesian Christianity",
       "status": "Pre-Survey Candidate",
-      "works": []
+      "works": [
+        {
+          "work": "SADRACH'S KRING",
+          "author": "adriaanse",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "adriaanse_sadrachs-kring-nld_1899.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1899); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "De Zendingseeuw voor Nederlandsch Oost-Indië",
+          "author": "coolsma",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "coolsma_de-zendingseeuw-voor-nederlandsch-oost-indie-nld_1901.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1901); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
+        }
+      ]
     },
     "northeast-india-revivals-and-the-mar-thoma-refor": {
       "name": "Northeast India Revivals & the Mar Thoma Reform",
       "status": "Pre-Survey Candidate",
       "works": [
+        {
+          "work": "THE ASSAM MISSION OF THE AMERICAN BAPTIST MISSIONARY UNION. PAPERS AND DISCUSSIONS OF THE JUBILEE CONFERENCE",
+          "author": "assam-mission",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "assam-mission_papers-and-discussions-of-the-jubilee-conference-1886_1887.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1887); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
+        },
+        {
+          "work": "A CORNER IN INDIA",
+          "author": "clark",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "clark_corner-in-india_1907.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1907); the archive.org record says possible-copyright-status The Library of Congress is unaware of any copyright restrictions for this item., and the imprint date agrees"
+        },
+        {
+          "work": "Biographical Dictionary of Ministers and Preachers of the Welsh Calvinistic Methodist Body or Presbyterians",
+          "author": "evans",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "evans_biographical-dictionary-of-ministers-and-preachers-of-the-welsh-calvinistic-methodist-body_1907.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1907); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
+        },
         {
           "work": "The Syrian Christians of Malabar (Philipos, 1869)",
           "author": "philipos",
@@ -36614,6 +36767,22 @@
           "confidence": "provisional",
           "source_file": "gedeon_kanonikai-diataxeis-v1-grc_1888.txt",
           "rights": "Public Domain (published 1888, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "ΟΙΚΟΝΟΜΟΣ Ο ΕΞ ΟΙΚΟΝΟΜΩΝ Η ΠΕΡΙ ΟΡΚΟΥ",
+          "author": "pharmakidis",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "pharmakidis_oikonomos-ho-ex-oikonomon-ell_1849.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1849); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
+        },
+        {
+          "work": "Das Bulgarische Exarchat und der Mazedonische Kirchenstreit. Inaugural-Dissertation zur Erlangung der",
+          "author": "scheffler",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "scheffler_das-bulgarische-exarchat-und-der-mazedonische-kirchenstreit-deu_1909.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1909); the archive.org record carries no rights field, so the imprint date is the basis"
         },
         {
           "work": "A Residence at Constantinople, vol. 1 (Walsh, 1836)",
@@ -36676,6 +36845,14 @@
           "confidence": "assigned",
           "source_file": "marie-de-l-incarnation-compiegne_histoire-des-carmelites-de-compiegne-fra_1836.txt",
           "rights": "Public Domain (published 1836, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
+        },
+        {
+          "work": "Raccolta di concordati su materie ecclesiastiche tra la Santa Sede e le autorità civili",
+          "author": "mercati",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "mercati_raccolta-di-concordati-ita-fra-lat_1919.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1919); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
         },
         {
           "work": "John Milner, The End of Religious Controversy, Part II (London, 1818)",
@@ -36842,6 +37019,46 @@
           "rights": "Public Domain (pd-us-by-date: published 1909); the archive.org record carries the Creative Commons Public Domain Mark 1.0 (creativecommons.org/publicdomain/mark/1.0/)"
         },
         {
+          "work": "БОГОУГОДНАЯ ЖИЗНЬ ВООБЩЕ. СЛОВА ЕПИСКОПА ФЕОФАНА. (Изъ словъ къ Тамбовской и Владимірской паствамъ 1859—1866",
+          "author": "feofan",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "feofan_bogougodnaia-zhizn-voobshche-rus_2nd-ed1899.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1899); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "Слова къ Тамбовской паствѣ Феофана, Епископа Тамбовскаго и Шацкаго",
+          "author": "feofan",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "feofan_slova-k-tambovskoi-pastve-rus_1861.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1861); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "Матеріалы для біографіи основателя Алтайской миссіи архимандрита Макарія",
+          "author": "filimonov",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "filimonov_materialy-dlia-biografii-arkhimandrita-makariia-rus_1888.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1888); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "MY LIFE IN CHRIST; or Moments of Spiritual Serenity and Contemplation, of Reverent Feeling, of Earnest",
+          "author": "ioann-kronshtadtskii",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "ioann-kronshtadtskii_my-life-in-christ_goulaeff1897.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1897); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees"
+        },
+        {
+          "work": "Моя жизнь во Христе, или минуты духовнаго трезвенія и созерцанія, благоговѣйнаго чувства, душевнаго",
+          "author": "ioann-kronshtadtskii",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "ioann-kronshtadtskii_moia-zhizn-vo-khriste-t1-rus_1891.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1891); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
           "work": "A History of the Church of Russia (1838; English 1842)",
           "author": "mouravieff",
           "role": "tradition",
@@ -36942,6 +37159,14 @@
           "confidence": "assigned",
           "source_file": "khrimian_amboghjakan-yerker-hye_1929.txt",
           "rights": "Public Domain (pd-us-by-date: printed 1929; the title-page year; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "ARMENIA: Travels and Studies. IN TWO VOLUMES, WITH 197 ILLUSTRATIONS, REPRODUCED FROM PHOTOGRAPHS AND",
+          "author": "lynch",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "lynch_armenia-travels-and-studies-v2_1901.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1901); the archive.org record carries no rights field, so the imprint date is the basis"
         },
         {
           "work": "Il Servo di Dio Abate Mechitar, as a work of the twentieth-century congregation",
@@ -37282,6 +37507,22 @@
           "confidence": "provisional",
           "source_file": "pelesz_geschichte-der-union-bd2-deu_1880.txt",
           "rights": "Public Domain (pre-1930 publication)"
+        },
+        {
+          "work": "Канадийским Русинам. Написав Митрополит Андрей Шептицкий",
+          "author": "sheptytsky",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "sheptytsky_kanadiiskym-rusynam-ukr_1911.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1911); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "О ПОКАЯНІЮ. ЛИСТЪ ПАСТИРСКІЙ Высокопреосвященого АНДРЕЯ ШЕПТИЦКОГО, Митрополита Галицкого, Архіепископа",
+          "author": "sheptytsky",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "sheptytsky_o-pokaianiiu-lyst-pastyrskii-ukr_1901.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1901); the archive.org record carries no rights field, so the imprint date is the basis"
         }
       ]
     },
@@ -37289,6 +37530,22 @@
       "name": "Philippine Catholicism — Gomburza to the Aglipayan Schism",
       "status": "Pre-Survey Candidate",
       "works": [
+        {
+          "work": "The Philippine Islands 1493-1898: Explorations by Early Navigators, Descriptions of the Islands and their",
+          "author": "blair-robertson",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "blair-robertson_philippine-islands-v52_1907.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1907); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "Documentos interesantes de la Iglesia filipina independiente",
+          "author": "iglesia-filipina-independiente",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "iglesia-filipina-independiente_documentos-interesantes-spa_1906.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1906); the archive.org record carries no rights field, so the date named here is the basis; the date used is that of the dated preface at line 183 of this file ('Manila, I. F., Enero 1906.'), with which the library catalogue record of the item agrees (MARC 260: 'Manila, Imp. Fajardo y c.a, 1906.'); the title page cannot be read in the OCR, and the title and publisher in this header are from the catalogue record"
+        },
         {
           "work": "Montero y Vidal, Historia general de Filipinas, tomo III (1895): the Cofradia de San Jose",
           "author": "montero-y-vidal",
@@ -37304,6 +37561,14 @@
           "confidence": "provisional",
           "source_file": "morga_sucesos-islas-filipinas-spa_rizal1890.txt",
           "rights": "Public Domain (published 1890, public domain by date under the project's 95-year rule; the host item carries no rights field and is not access-restricted)"
+        },
+        {
+          "work": "LA SENSACIONAL MEMORIA de Isabelo de los Reyes sobre la Revolución Filipina de 1896-97 por la cual fué",
+          "author": "reyes",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "reyes_la-sensacional-memoria-spa_1899.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1899); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
         }
       ]
     },
@@ -37442,6 +37707,22 @@
           "confidence": "provisional",
           "source_file": "ellis_history-of-madagascar-v1_1838.txt",
           "rights": "Public Domain (pd-us-by-date: published 1838); the archive.org record's rights statement reads: This work is available under the Creative Commons, Public Domain Mark; the date used is that of the preface, dated 'Pentonville, October 10th, 1838' (OCR line 247 of vol. 1), with which the library catalogue's date agrees (Wellcome Library, on the archive.org record: 1838); a plate caption at OCR line 4778 of vol. 1 is also dated 1838; the title pages print no year"
+        },
+        {
+          "work": "The Martyr Church: a narrative of the introduction, progress, and triumph of Christianity in Madagascar, with",
+          "author": "ellis",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "ellis_martyr-church-christianity-in-madagascar_1870.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1870); the archive.org record says possible-copyright-status The Library of Congress is unaware of any copyright restrictions for this item., and the imprint date agrees"
+        },
+        {
+          "work": "A Narrative of the Persecution of the Christians in Madagascar; with details of the escape of the six",
+          "author": "freeman-johns",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "freeman-johns_narrative-of-the-persecution-of-the-christians-in-madagascar_1840.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1840); the archive.org record carries no rights field, so the imprint date is the basis"
         }
       ]
     },
@@ -37458,6 +37739,14 @@
           "rights": "Public Domain (pd-us-by-date: published 1895); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
         },
         {
+          "work": "JAMES HANNINGTON, D.D., F.L.S., F.R.G.S., First Bishop of Eastern Equatorial Africa: A History of his Life",
+          "author": "dawson",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "dawson_james-hannington-a-history-of-his-life-and-work_1887.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1887); the archive.org record says possible-copyright-status The Library of Congress is unaware of any copyright restrictions for this item., and the imprint date agrees"
+        },
+        {
           "work": "Gollock, Sons of Africa: \"Kivubulaya at Work\"",
           "author": "gollock",
           "role": "context",
@@ -37466,12 +37755,44 @@
           "rights": "Public Domain (pd-us-by-date: printed 1928; the title page prints no year; the date used is the copyright notice, \"Copyright, 1928\"; the archive.org record carries no rights field)"
         },
         {
+          "work": "THE LAST JOURNALS OF BISHOP HANNINGTON, being Narratives of A Journey through Palestine in 1884 and A Journey",
+          "author": "hannington",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "hannington_last-journals-of-bishop-hannington_dawson1888.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1888); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
+        },
+        {
+          "work": "Le Cardinal Lavigerie et ses œuvres d'Afrique. Nouvelle édition complètement refondue",
+          "author": "klein",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "klein_le-cardinal-lavigerie-et-ses-oeuvres-d-afrique-fra_1897.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1897); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
+        },
+        {
           "work": "Travels, researches, and missionary labours, during an eighteen years' residence in Eastern Africa; together",
           "author": "krapf",
           "role": "tradition",
           "confidence": "provisional",
           "source_file": "krapf_travels-researches-and-missionary-labours-in-eastern-africa_1860.txt",
           "rights": "Public Domain (pd-us-by-date: published 1860); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "A. M. Mackay, Pioneer Missionary of the Church Missionary Society to Uganda. By his sister. With etched",
+          "author": "mackay",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "mackay_a-m-mackay-pioneer-missionary-to-uganda_by-his-sister1891.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1891); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "The Story of Uganda and the Victoria Nyanza Mission. With a map and illustrations",
+          "author": "stock",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "stock_story-of-uganda-and-the-victoria-nyanza-mission_1892.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1892); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
         },
         {
           "work": "Tucker, Eighteen Years in Uganda and East Africa, volume II",
@@ -37488,6 +37809,14 @@
       "status": "Floor Question (register)",
       "works": [
         {
+          "work": "The Taeping Rebellion in China; a narrative of its rise and progress. Based upon original documents and",
+          "author": "brine",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "brine_taeping-rebellion-in-china_1862.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1862); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
+        },
+        {
           "work": "History of the insurrection in China; with notices of the Christianity, creed, and proclamations of the",
           "author": "callery-yvan",
           "role": "context",
@@ -37496,12 +37825,28 @@
           "rights": "Public Domain (pd-us-by-date: published 1854); the archive.org record carries no rights field, so the imprint date is the basis"
         },
         {
+          "work": "TI-PING TIEN-KWOH; THE HISTORY OF THE TI-PING REVOLUTION, INCLUDING A NARRATIVE OF THE AUTHOR'S PERSONAL",
+          "author": "lindley",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "lindley_ti-ping-tien-kwoh-v2_1866.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1866); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
+        },
+        {
           "work": "Ti-ping Tien-kwoh; the history of the Ti-ping revolution, including a narrative of the author's personal",
           "author": "lindley",
           "role": "context",
-          "confidence": "needs-ruling",
+          "confidence": "assigned",
           "source_file": "lindley_ti-ping-tien-kwoh-v1_1866.txt",
           "rights": "Public Domain (pd-us-by-date: published 1866); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
+        },
+        {
+          "work": "THE CHINESE AND THEIR REBELLIONS, VIEWED IN CONNECTION WITH THEIR NATIONAL PHILOSOPHY, ETHICS, LEGISLATION,",
+          "author": "meadows",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "meadows_chinese-and-their-rebellions_1856.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1856); the archive.org record carries no rights field, so the imprint date is the basis"
         },
         {
           "work": "Pamphlets issued by the Chinese insurgents at Nan-king; to which is added a History of the Kwang-se",
@@ -37517,6 +37862,22 @@
       "name": "Japanese Christianity — the Hidden Christians’ Emergence & the Meiji Church",
       "status": "Pre-Survey Candidate",
       "works": [
+        {
+          "work": "A SKETCH OF THE LIFE OF REV. JOSEPH HARDY NEESIMA, LL.D., PRESIDENT OF DOSHISHA, KYOTO",
+          "author": "davis",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "davis_sketch-of-the-life-of-rev-joseph-hardy-neesima_1890.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1890); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
+        },
+        {
+          "work": "LIFE AND LETTERS OF JOSEPH HARDY NEESIMA",
+          "author": "hardy",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "hardy_life-and-letters-of-joseph-hardy-neesima_1891.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1891); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the date agrees; the date used is that of the copyright notice at line 69 of this file ('Copyright, 1891,'); the title page prints no year"
+        },
         {
           "work": "La Religion de Jésus ressuscitée au Japon, tome 1 (Marnas, 1897): the re-emergence",
           "author": "marnas",
@@ -37542,6 +37903,14 @@
           "rights": "Public Domain (pd-us-by-date: published 1889); the archive.org record carries no rights field, so the imprint date is the basis"
         },
         {
+          "work": "THE DIARY OF A JAPANESE CONVERT",
+          "author": "uchimura",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "uchimura_diary-of-a-japanese-convert_1895.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1895); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the date agrees; the date used is that of the copyright notice at line 117 of this file ('Copyright, 1895. by Fleming H. Revell Company.'); the title page prints no year"
+        },
+        {
           "work": "Uchimura, How I Became a Christian",
           "author": "uchimura",
           "role": "tradition",
@@ -37554,7 +37923,24 @@
     "haitian-church-rupture-to-concordat": {
       "name": "The Haitian Church — Rupture to Concordat",
       "status": "Pre-Survey Candidate",
-      "works": []
+      "works": [
+        {
+          "work": "HAITI, HER HISTORY AND HER DETRACTORS",
+          "author": "leger",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "leger_haiti-her-history-and-her-detractors_1907.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1907); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
+        },
+        {
+          "work": "Raccolta di concordati su materie ecclesiastiche tra la Santa Sede e le autorità civili",
+          "author": "mercati",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "mercati_raccolta-di-concordati-ita-fra-lat_1919.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1919); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
+        }
+      ]
     },
     "alaskan-mission-herman-veniaminov": {
       "name": "The Alaskan Mission — Herman’s Decades & Veniaminov",
@@ -37567,6 +37953,14 @@
           "confidence": "provisional",
           "source_file": "hale_innocent-of-moscow-apostle-of-kamchatka-and-alaska_1888.txt",
           "rights": "Public Domain (pd-us-by-date: published 1888); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "Очеркъ изъ исторіи Американской православной духовной миссіи (Кадьякской миссіи 1794-1837 гг.)",
+          "author": "valaam",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "valaam_ocherk-iz-istorii-amerikanskoi-pravoslavnoi-missii-rus_1894.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1894); the archive.org record carries no rights field, so the imprint date is the basis"
         },
         {
           "work": "ЗАПИСКИ ОБЪ ОСТРОВАХЪ УНАЛАШКИНСКАГО ОТДЪЛА, СОСТАВЛЕННЫЯ И. ВЕНИАМИНОВЫМЪ. ЧАСТЬ ВТОРАЯ. Издано иждивенiемъ",
@@ -37591,6 +37985,14 @@
       "status": "Pre-Survey Candidate",
       "works": [
         {
+          "work": "GARCIA MORENO, PRESIDENT OF ECUADOR, 1821-1875. From the French of the Rev. P. A. Berthe, of the Congregation",
+          "author": "berthe",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "berthe_garcia-moreno-president-of-ecuador_herbert1889.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1889); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
+        },
+        {
           "work": "Claret, Apuntes para el regimen de la diocesis (1863)",
           "author": "claret",
           "role": "tradition",
@@ -37599,19 +38001,92 @@
           "rights": "Public Domain (pd-us-by-date: published 1863); the archive.org record carries the Creative Commons Public Domain Mark 1.0 (creativecommons.org/publicdomain/mark/1.0/)"
         },
         {
+          "work": "ESCRITOS Y DISCURSOS DE GABRIEL GARCIA MORENO, RECOPILADOS Y PUBLICADOS POR LA SOCIEDAD DE LA JUVENTUD",
+          "author": "garcia-moreno",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "garcia-moreno_escritos-y-discursos-t1-spa_1887.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1887); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "ESCRITOS Y DISCURSOS DE GABRIEL GARCIA MORENO. TOMO SEGUNDO. ESCRITOS OFICIALES",
+          "author": "garcia-moreno",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "garcia-moreno_escritos-y-discursos-t2-spa_1888.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1888); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "A Questão Religiosa do Brazil perante a Santa Sé ou a Missão especial a Roma em 1873 á luz de documentos",
+          "author": "macedo-costa",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "macedo-costa_a-questao-religiosa-do-brazil-perante-a-santa-se-por_1886.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1886); the archive.org record carries no rights field, so the date named here is the basis; the date used is that of the dated prefatory letters, of which the last-dated in 1886 stands at line 171 of this file ('Dezembro de 1886.'), and the library catalogue record of the item (MARC 260: 'Lisboa : Lallemant Freres, 1886.'); the title page cannot be read in the OCR, and two prefixed letters are dated January 1887, so the front matter was printed after the catalogue's year"
+        },
+        {
+          "work": "CÓDIGO DE LA REFORMA. COLECCIÓN DE LEYES, DECRETOS Y SUPREMAS ÓRDENES, EXPEDIDAS DESDE 1856 HASTA 1861",
+          "author": "mexico",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "mexico_codigo-de-la-reforma-spa_1861.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1861); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
           "work": "Letters on the moral and religious state of South America, written during a residence of nearly seven years",
           "author": "thomson",
           "role": "context",
           "confidence": "provisional",
           "source_file": "thomson_letters-on-the-moral-and-religious-state-of-south-america_1827.txt",
           "rights": "Public Domain (pd-us-by-date: published 1827); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
+        },
+        {
+          "work": "O BISPO DE OLINDA E OS SEOS ACCUSADORES NO TRIBUNAL DO BOM SENSO, ou exame do aviso de 27 de setembro e da",
+          "author": "vital",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "vital_o-bispo-de-olinda-e-os-seus-accusadores-por_1873.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1873); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
         }
       ]
     },
     "ethiopian-christianity-tewodros-to-menelik": {
       "name": "Ethiopian Christianity — Tewodros to Menelik",
       "status": "Pre-Survey Candidate",
-      "works": []
+      "works": [
+        {
+          "work": "A Narrative of Captivity in Abyssinia; with some account of the late Emperor Theodore, his country and people",
+          "author": "blanc",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "blanc_narrative-of-captivity-in-abyssinia_1868.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1868); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "Chronique du règne de Ménélik II, roi des rois d'Éthiopie. Traduite de l'amharique par Tèsfa Sellassié,",
+          "author": "guebre-sellassie",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "guebre-sellassie_chronique-du-regne-de-menelik-ii-t1-fra_coppet1930.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1930); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "The Captive Missionary: being an account of the country and people of Abyssinia. Embracing [...] and his",
+          "author": "stern",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "stern_captive-missionary_1868.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1868); the archive.org record carries no rights field, so the date named here is the basis; the date used is that of the dated preface at line 464 of this file ('London, October 26th, 1868.'), with which the library catalogue record of the item agrees (MARC 260: 'London : Cassell, Petter, and Galpin, [1868]'); the title page prints no year"
+        },
+        {
+          "work": "MODERN ABYSSINIA",
+          "author": "wylde",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "wylde_modern-abyssinia_1901.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1901); the archive.org record carries no rights field, so the imprint date is the basis"
+        }
+      ]
     },
     "dutch-neo-calvinism-secession-churches": {
       "name": "Dutch Neo-Calvinism & the Secession Churches",
@@ -37621,7 +38096,7 @@
           "work": "Magnalia Dei: Onderwijzing in de Christelijke Religie naar Gereformeerde Belijdenis door Dr. H. Bavinck,",
           "author": "bavinck",
           "role": "tradition",
-          "confidence": "needs-ruling",
+          "confidence": "assigned",
           "source_file": "bavinck_magnalia-dei-nld_1909.txt",
           "rights": "Public Domain (pd-us-by-date: published 1909); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
         },
@@ -37629,7 +38104,7 @@
           "work": "The Philosophy of Revelation; the Stone Lectures for 1908-1909, Princeton Theological Seminary, by Herman",
           "author": "bavinck",
           "role": "tradition",
-          "confidence": "needs-ruling",
+          "confidence": "assigned",
           "source_file": "bavinck_philosophy-of-revelation_1909.txt",
           "rights": "Public Domain (pd-us-by-date: published 1909); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
         },
@@ -37734,7 +38209,7 @@
           "work": "Evan Roberts, y Diwygiwr; Evan Roberts a'i waith, gan y Parch. D. M. Phillips, M.A., Ph.D., Tylorstown (title",
           "author": "phillips",
           "role": "context",
-          "confidence": "needs-ruling",
+          "confidence": "assigned",
           "source_file": "phillips_evan-roberts-ai-waith-cym_1912.txt",
           "rights": "Public Domain (pd-us-by-date: published 1912); the archive.org record carries no rights field, so the imprint date is the basis"
         },
@@ -37820,6 +38295,14 @@
           "confidence": "assigned",
           "source_file": "smith_christian-mission-in-africa-le-zoute-1926_1926.txt",
           "rights": "Public Domain (pd-us-by-date: printed 1926; the title-page year; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "CENTENNIAL ENCYCLOPAEDIA OF THE African Methodist Episcopal Church, Containing principally the Biographies of",
+          "author": "wright",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "wright_centennial-encyclopaedia-of-the-african-methodist-episcopal-church_1916.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1916); the archive.org record carries no rights field, so the imprint date is the basis"
         }
       ]
     },
@@ -38462,8 +38945,8 @@
         {
           "work": "The Presbyterian Review, No. 6, April, 1881 (the first article is 'Inspiration')",
           "author": "presbyterian-review",
-          "role": "context",
-          "confidence": "needs-ruling",
+          "role": "antecedent",
+          "confidence": "assigned",
           "source_file": "presbyterian-review_v2-no6-april-1881-inspiration.txt",
           "rights": "Public Domain (pd-us-by-date: published 1881); the archive.org record carries no rights field, so the imprint date is the basis"
         },
@@ -38570,8 +39053,8 @@
         {
           "work": "The Defence of Professor Briggs before the Presbytery of New York, December 13, 14, 15, 19, and 22, 1892",
           "author": "briggs",
-          "role": "tradition",
-          "confidence": "needs-ruling",
+          "role": "antecedent",
+          "confidence": "assigned",
           "source_file": "briggs_defence-before-the-presbytery-of-new-york_1893.txt",
           "rights": "Public Domain (pd-us-by-date: published 1893); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
         },
@@ -38579,7 +39062,7 @@
           "work": "The Case against Professor Briggs. I. The Charges and Specifications submitted to the Presbytery of New York,",
           "author": "briggs-trial",
           "role": "context",
-          "confidence": "needs-ruling",
+          "confidence": "assigned",
           "source_file": "briggs-trial_case-against-professor-briggs-pt1_1892.txt",
           "rights": "Public Domain (pd-us-by-date: published 1892); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
         },
@@ -38587,7 +39070,7 @@
           "work": "The Defence of Professor Briggs before the General Assembly: The Case against Professor Briggs, Part III",
           "author": "briggs-trial",
           "role": "context",
-          "confidence": "needs-ruling",
+          "confidence": "assigned",
           "source_file": "briggs-trial_case-against-professor-briggs-pt3_1893.txt",
           "rights": "Public Domain (pd-us-by-date: published 1893); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
         },
@@ -38820,7 +39303,16 @@
     "the-black-church-in-the-twentieth-century": {
       "name": "The Black Church in the Twentieth Century",
       "status": "Pre-Survey Candidate",
-      "works": []
+      "works": [
+        {
+          "work": "CENTENNIAL ENCYCLOPAEDIA OF THE African Methodist Episcopal Church, Containing principally the Biographies of",
+          "author": "wright",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "wright_centennial-encyclopaedia-of-the-african-methodist-episcopal-church_1916.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1916); the archive.org record carries no rights field, so the imprint date is the basis"
+        }
+      ]
     },
     "seventh-day-adventist-church-twentieth-century": {
       "name": "The Seventh-day Adventist Church in the 20th Century",
@@ -39270,8 +39762,8 @@
         {
           "work": "Transformed; or, the History of a River Thief, briefly told. Published by himself",
           "author": "mcauley",
-          "role": "tradition",
-          "confidence": "needs-ruling",
+          "role": "antecedent",
+          "confidence": "assigned",
           "source_file": "mcauley_transformed-or-the-history-of-a-river-thief_1876.txt",
           "rights": "Public Domain (pd-us-by-date: published 1876); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the date agrees; the date used is that of the copyright notice at OCR line 27 ('Copyright, 1876, by Jeremiah McAuley'); the title page prints no year"
         },
@@ -39279,7 +39771,7 @@
           "work": "Jerry McAuley: his life and work, with introduction by Rev. S. Irenaeus Prime, D.D., and personal sketches by",
           "author": "offord",
           "role": "context",
-          "confidence": "needs-ruling",
+          "confidence": "assigned",
           "source_file": "offord_jerry-mcauley-his-life-and-work_2nd-ed1885.txt",
           "rights": "Public Domain (pd-us-by-date: published 1885); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the date agrees; the date used is that of the copyright notice at OCR line 40 ('Copyright, 1885'); the title page prints no year (page image, leaf n8)"
         }
@@ -40833,6 +41325,22 @@
           "rights": "Public Domain (pd-us-by-date: printed 1911; the title page prints no year; the date used is the copyright notice, \"Copyright 1911\", with \"Published March 10, 1911\" beside it; the archive.org record carries no rights field)"
         },
         {
+          "work": "LES BASSOUTOS: vingt-trois années de séjour et d'observations au sud de l'Afrique",
+          "author": "casalis",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "casalis_les-bassoutos-fra_1859.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1859); the archive.org record says possible-copyright-status Not in copyright. The Library knows of no copyright restrictions on this item., and the imprint date agrees"
+        },
+        {
+          "work": "THE BASUTOS. TWENTY-THREE YEARS IN SOUTH AFRICA",
+          "author": "casalis",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "casalis_basutos_1861.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1861); the archive.org record says possible-copyright-status Not in copyright. The Library knows of no copyright restrictions on this item., and the imprint date agrees"
+        },
+        {
           "work": "Tiyo Soga: a page of South African mission work. By John A. Chalmers",
           "author": "chalmers",
           "role": "context",
@@ -40855,6 +41363,14 @@
           "confidence": "assigned",
           "source_file": "jabavu_black-problem-2e_1921.txt",
           "rights": "Public Domain (pd-us-by-date: printed 1921; the title page prints no year; the date used is the dated foreword, \"12th December 1920\", with which the library catalog date (1920) agrees; the author's preface to this second edition is dated January 1921; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "THE BANTU PAST AND PRESENT: An Ethnographical & Historical Study of the Native Races of South Africa",
+          "author": "molema",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "molema_bantu-past-and-present_1920.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1920); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
         }
       ]
     },
@@ -40862,6 +41378,14 @@
       "name": "The Caribbean Churches of Slavery and Emancipation",
       "status": "Pre-Survey Candidate",
       "works": [
+        {
+          "work": "Death Struggles of Slavery: a narrative of facts and incidents, which occurred in a British colony, during",
+          "author": "bleby",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "bleby_death-struggles-of-slavery_3rd-ed1868.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1868); the archive.org record's rights statement reads: This work is available under the Creative Commons, Public Domain Mark"
+        },
         {
           "work": "Memoir of William Knibb, by John Howard Hinton, M.A. Second edition",
           "author": "hinton",
@@ -40871,19 +41395,44 @@
           "rights": "Public Domain (pd-us-by-date: published 1849); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
         },
         {
+          "work": "THE London Missionary Society's REPORT OF THE PROCEEDINGS AGAINST THE LATE Rev. J. SMITH, of Demerara,",
+          "author": "london-missionary-society",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "london-missionary-society_report-of-the-proceedings-against-the-late-rev-j-smith-of-demerara_1824.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1824); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
+        },
+        {
           "work": "Jamaica: its past and present state, by James M. Phillippo, twenty years a Baptist missionary in that island.",
           "author": "phillippo",
           "role": "tradition",
           "confidence": "provisional",
           "source_file": "phillippo_jamaica-its-past-and-present-state_1843.txt",
           "rights": "Public Domain (pd-us-by-date: published 1843); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
+        },
+        {
+          "work": "The Demerara Martyr. Memoirs of the Rev. John Smith, Missionary to Demerara; by Edwin Angel Wallbridge, with",
+          "author": "wallbridge",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "wallbridge_demerara-martyr-memoirs-of-the-rev-john-smith_1848.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1848); the archive.org record carries no rights field, so the imprint date is the basis"
         }
       ]
     },
     "maronite-church-1815-1906": {
       "name": "The Maronite Church — Mountain, War and One Governor",
       "status": "Pre-Survey Candidate",
-      "works": []
+      "works": [
+        {
+          "work": "The Druzes and the Maronites under the Turkish Rule from 1840 to 1860",
+          "author": "churchill",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "churchill_druzes-and-the-maronites-under-the-turkish-rule_1862.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1862); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
+        }
+      ]
     },
     "moravian-church-after-1815": {
       "name": "The Moravian Church after 1815",
@@ -40917,12 +41466,70 @@
     "vietnamese-catholicism-1815-1906": {
       "name": "Vietnamese Catholicism — Edicts and French Conquest",
       "status": "Pre-Survey Candidate",
-      "works": []
+      "works": [
+        {
+          "work": "Histoire générale de la Société des Missions-Étrangères par Adrien Launay, de la même Société. Tome deuxième",
+          "author": "launay",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "launay_histoire-generale-de-la-societe-des-missions-etrangeres-t2-fra_1894.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1894); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "La Cochinchine religieuse par L.-E. Louvet, missionnaire apostolique de la Congrégation des Missions",
+          "author": "louvet",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "louvet_la-cochinchine-religieuse-v2-fra_1885.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1885); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "THE PERSECUTIONS OF ANNAM: The History of Christianity in Cochin China and Tonking",
+          "author": "shortland",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "shortland_persecutions-of-annam_1875.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1875); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
+        }
+      ]
     },
     "arab-evangelical-churches": {
       "name": "The Arab Evangelical Churches of Syria, Lebanon and Egypt",
       "status": "Pre-Survey Candidate",
-      "works": []
+      "works": [
+        {
+          "work": "MEMOIR OF THE REV. PLINY FISK, A. M., LATE MISSIONARY TO PALESTINE",
+          "author": "bond",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "bond_memoir-of-the-rev-pliny-fisk_1828.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1828); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
+        },
+        {
+          "work": "Fifty-Three Years in Syria. In Two Volumes. Volume I",
+          "author": "jessup",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "jessup_fifty-three-years-in-syria-v1_1910.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1910); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the date agrees; the date used is that of the copyright notice at line 146 of this file ('Copyright, 1910, by'); the title page prints no year"
+        },
+        {
+          "work": "Fifty-Three Years in Syria. In Two Volumes. Volume II",
+          "author": "jessup",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "jessup_fifty-three-years-in-syria-v2_1910.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1910); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the date agrees; the date used is that of the copyright notice at line 71 of this file ('Copyright, 1910, by'); the title page prints no year"
+        },
+        {
+          "work": "MEMOIR OF ASAAD ESH SHIDIAK",
+          "author": "shidiak-memoir",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "shidiak-memoir_memoir-of-asaad-esh-shidiak_1834.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1834); the archive.org record carries no rights field, so the imprint date is the basis"
+        }
+      ]
     },
     "canudos-belo-monte": {
       "name": "Canudos (Belo Monte)",
@@ -40932,9 +41539,17 @@
           "work": "A Brazilian Mystic, being the life and miracles of Antonio Conselheiro. By R. B. Cunninghame Graham",
           "author": "cunninghame-graham",
           "role": "context",
-          "confidence": "needs-ruling",
+          "confidence": "assigned",
           "source_file": "cunninghame-graham_brazilian-mystic-antonio-conselheiro_1920.txt",
           "rights": "Public Domain (pd-us-by-date: published 1920); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees"
+        },
+        {
+          "work": "A GUERRA DE CANUDOS",
+          "author": "macedo-soares",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "macedo-soares_a-guerra-de-canudos-por_1902.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1902); the archive.org record carries no rights field, so the imprint date is the basis"
         }
       ]
     },

@@ -25,6 +25,25 @@ works:
   note: 'Era 9 row 210, Charles Lwanga: a missionary''s account of Uganda (it does not name
     him).'
   source_file: ashe_chronicles-of-uganda_1895.txt
+- row_id: dawson_james-hannington-a-history-of-his-life-and-work_1887--james-hannington-d-d-f-l-s-f-r-g-s-first-bishop-of-eastern
+  work: 'JAMES HANNINGTON, D.D., F.L.S., F.R.G.S., First Bishop of Eastern Equatorial Africa:
+    A History of his Life'
+  author: dawson
+  locus: the whole volume; not mapped
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1887
+    end: 1887
+    source: 'the printing''s own title page: line 183 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1887
+    source: line 183 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 319, James Hannington: a Life.'
+  source_file: dawson_james-hannington-a-history-of-his-life-and-work_1887.txt
 - row_id: gollock_sons-of-africa_1928--gollock-sons-of-africa-kivubulaya-at-work
   work: 'Gollock, Sons of Africa: "Kivubulaya at Work"'
   author: gollock
@@ -34,6 +53,47 @@ works:
   note: A later outside account of Apolo Kivebulaya, printed in 1928, after the entry's window;
     it names no source.
   source_file: gollock_sons-of-africa_1928.txt
+- row_id: hannington_last-journals-of-bishop-hannington_dawson1888--the-last-journals-of-bishop-hannington-being-narratives-of-a
+  work: THE LAST JOURNALS OF BISHOP HANNINGTON, being Narratives of A Journey through Palestine
+    in 1884 and A Journey
+  author: hannington
+  locus: chapter X, the last journal from October 12th to 29th with the closing letter from
+    Bishop Parker, at lines 6887-7727; editor's Introductory at lines 410-527; the rest not
+    mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1884
+    end: 1888
+    source: 'the printing''s own title page: line 104 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1888
+    source: line 104 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 319, James Hannington: his last journals.'
+  source_file: hannington_last-journals-of-bishop-hannington_dawson1888.txt
+- row_id: klein_le-cardinal-lavigerie-et-ses-oeuvres-d-afrique-fra_1897--le-cardinal-lavigerie-et-ses-uvres-d-afrique-nouvelle
+  work: Le Cardinal Lavigerie et ses œuvres d'Afrique. Nouvelle édition complètement refondue
+  author: klein
+  locus: the death of Joseph Mkasa at lines 7022-7045; Charles Louanga and the pages arrested,
+    bound and burned at lines 7154-7220; the rest not mapped
+  role: context
+  confidence: provisional
+  language: fra
+  date:
+    start: 1897
+    end: 1897
+    source: 'the printing''s own title page: line 98 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1897
+    source: line 98 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 rows 210 and 318, Charles Lwanga and Joseph Mukasa Balikuddembe: a French account
+    that names both.'
+  source_file: klein_le-cardinal-lavigerie-et-ses-oeuvres-d-afrique-fra_1897.txt
 - row_id: krapf_travels-researches-and-missionary-labours-in-eastern-africa_1860--travels-researches-and-missionary-labours-during-an-eighteen
   work: Travels, researches, and missionary labours, during an eighteen years' residence in
     Eastern Africa; together
@@ -53,6 +113,44 @@ works:
     formation_confidence: Documented
   note: 'Era 9 row 209, Johann Ludwig Krapf: his Travels.'
   source_file: krapf_travels-researches-and-missionary-labours-in-eastern-africa_1860.txt
+- row_id: mackay_a-m-mackay-pioneer-missionary-to-uganda_by-his-sister1891--a-m-mackay-pioneer-missionary-of-the-church-missionary
+  work: A. M. Mackay, Pioneer Missionary of the Church Missionary Society to Uganda. By his
+    sister. With etched
+  author: mackay
+  locus: Chapter IX, 'Fiery Trials', from the accession of Mwanga, at lines 9622-11230; the
+    rest not mapped
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1891
+    end: 1891
+    source: 'the printing''s own title page: line 43 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1891
+    source: line 43 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 320, Mwanga II: a missionary''s Life, with his letters.'
+  source_file: mackay_a-m-mackay-pioneer-missionary-to-uganda_by-his-sister1891.txt
+- row_id: stock_story-of-uganda-and-the-victoria-nyanza-mission_1892--the-story-of-uganda-and-the-victoria-nyanza-mission-with-a
+  work: The Story of Uganda and the Victoria Nyanza Mission. With a map and illustrations
+  author: stock
+  locus: the death of Balikudembe Mukasa at lines 4386-4413; the rest not mapped
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1892
+    end: 1892
+    source: 'the printing''s own title page: line 34 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1892
+    source: line 34 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 318, Joseph Mukasa Balikuddembe: a mission history that names him.'
+  source_file: stock_story-of-uganda-and-the-victoria-nyanza-mission_1892.txt
 - row_id: tucker_eighteen-years-in-uganda-and-east-africa-v2_1908--tucker-eighteen-years-in-uganda-and-east-africa-volume-ii
   work: Tucker, Eighteen Years in Uganda and East Africa, volume II
   author: tucker

@@ -8,7 +8,7 @@ assignments:
   atlas_ids:
   - the-missionary-movement-s-native-churches-seramp
   role: context
-  confidence: needs-ruling
+  confidence: assigned
   language: eng
   date:
     start: 1908
@@ -19,4 +19,5 @@ assignments:
     year: 1908
     source: OCR line 21, on the title page
     formation_confidence: Documented
-  note: 'Era 9 row 203, Samuel Ajayi Crowther: a Life.'
+  note: 'Era 9 row 203, Samuel Ajayi Crowther: a Life. A Life by another hand, printed in 1908, two years after
+    the entry''s window closes.'

@@ -1,0 +1,21 @@
+source_file: bond_memoir-of-the-rev-pliny-fisk_1828.txt
+assignments:
+- row_id: bond_memoir-of-the-rev-pliny-fisk_1828--memoir-of-the-rev-pliny-fisk-a-m-late-missionary-to
+  work: MEMOIR OF THE REV. PLINY FISK, A. M., LATE MISSIONARY TO PALESTINE
+  author: bond
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - arab-evangelical-churches
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1828
+    end: 1828
+    source: 'the printing''s own title page: line 58 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1828
+    source: line 58 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 324, Pliny Fisk: a Memoir.'

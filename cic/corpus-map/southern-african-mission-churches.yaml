@@ -12,6 +12,43 @@ works:
   note: The mission church's own hymnal, in an edition of 1911, five years after the entry's
     window closes; by its preface the words were then in their eighth edition.
   source_file: american-zulu-mission_amagama-okuhlabelela-zul_1911.txt
+- row_id: casalis_les-bassoutos-fra_1859--les-bassoutos-vingt-trois-annees-de-sejour-et-d-observations
+  work: 'LES BASSOUTOS: vingt-trois années de séjour et d''observations au sud de l''Afrique'
+  author: casalis
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  language: fra
+  date:
+    start: 1859
+    end: 1859
+    source: 'the printing''s own title page: line 142 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1859
+    source: line 142 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 322, Moshoeshoe: Casalis, Les Bassoutos, in French.'
+  source_file: casalis_les-bassoutos-fra_1859.txt
+- row_id: casalis_basutos_1861--the-basutos-twenty-three-years-in-south-africa
+  work: THE BASUTOS. TWENTY-THREE YEARS IN SOUTH AFRICA
+  author: casalis
+  locus: the chief Moshesh and the wars before the missionaries' arrival at lines 1226-1530;
+    the rest not mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1861
+    end: 1861
+    source: 'the printing''s own title page: line 48 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1861
+    source: line 48 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 322, Moshoeshoe: Casalis, The Basutos.'
+  source_file: casalis_basutos_1861.txt
 - row_id: chalmers_tiyo-soga-a-page-of-south-african-mission-work_1877--tiyo-soga-a-page-of-south-african-mission-work-by-john-a
   work: 'Tiyo Soga: a page of South African mission work. By John A. Chalmers'
   author: chalmers
@@ -61,3 +98,23 @@ works:
     the entry's window closes. No census entry covers the mission churches of southern Africa
     after 1906.
   source_file: jabavu_black-problem-2e_1921.txt
+- row_id: molema_bantu-past-and-present_1920--the-bantu-past-and-present-an-ethnographical-historical
+  work: 'THE BANTU PAST AND PRESENT: An Ethnographical & Historical Study of the Native Races
+    of South Africa'
+  author: molema
+  locus: the hymn of Ntsikana in English at lines 8920-8945; the rest not mapped
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1920
+    end: 1920
+    source: 'the printing''s own title page: line 81 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1920
+    source: line 81 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 321, Ntsikana: his hymn in English, in a later history. A later history
+    by another hand, printed in 1920, after the entry''s window closes.'
+  source_file: molema_bantu-past-and-present_1920.txt

@@ -8,7 +8,7 @@ assignments:
   atlas_ids:
   - the-missionary-movement-s-native-churches-seramp
   role: context
-  confidence: needs-ruling
+  confidence: assigned
   language: eng
   date:
     start: 1900
@@ -21,4 +21,5 @@ assignments:
     source: OCR line 105, in the printing history on the back of the title page ('Reprinted November 1909'); the
       title page itself prints no year
     formation_confidence: Documented
-  note: 'Era 9 row 205, Xi Shengmo (Pastor Hsi): a Life (the early life).'
+  note: 'Era 9 row 205, Xi Shengmo (Pastor Hsi): a Life (the early life). A Life by another hand, in a printing
+    of 1909, after the entry''s window closes.'

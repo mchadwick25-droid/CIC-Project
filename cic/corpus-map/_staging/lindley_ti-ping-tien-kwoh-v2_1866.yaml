@@ -1,0 +1,21 @@
+source_file: lindley_ti-ping-tien-kwoh-v2_1866.txt
+assignments:
+- row_id: lindley_ti-ping-tien-kwoh-v2_1866--ti-ping-tien-kwoh-the-history-of-the-ti-ping-revolution
+  work: TI-PING TIEN-KWOH; THE HISTORY OF THE TI-PING REVOLUTION, INCLUDING A NARRATIVE OF THE AUTHOR'S PERSONAL
+  author: lindley
+  locus: the deposition of Baffey on the Kan-wang, in the closing pages, at lines 18249-18257; the rest not mapped
+  atlas_ids:
+  - taiping-heavenly-kingdom
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1866
+    end: 1866
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n6; the OCR does not give it cleanly'
+    formation_confidence: Documented
+  edition_date:
+    year: 1866
+    source: read on the scan's page image, leaf n6; the OCR does not give it cleanly
+    formation_confidence: Documented
+  note: 'Era 9 rows 263 to 266, the Taiping leaders: Lindley, vol. 2.'
