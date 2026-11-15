@@ -253,7 +253,7 @@
     "claim": "The year he took over Stoudios",
     "sides": [
      "Sirmond chronology: 798 (PG99 l.5579-5586)",
-     "Fabricius: the year after Constantine VI's fall (PG99 l.358-359)",
+     "Fabricius: the year after Constantine VI's death, \"anno proximo post Constantini mortem\" (PG99 l.358-359)",
      "Meyer: 789, citing the same chronology (MEYER l.943-945, l.971-974)"
     ]
    }
@@ -469,12 +469,12 @@
     "formation_confidence": "Contested"
    },
    {
-    "claim": "Izyaslav \"was angry with Antonius on account of Vseslav, so that Svyatoslav caused Antonius to escape by night to Chernigov ... after digging another crypt, he settled there\" (Svyatoslav sent him away)",
+    "claim": "Izyaslav \"was angry with Antonius on account of Vseslav, so that Svyatoslav caused Antonius to escape by night to Chernigov ... after digging another crypt, he settled there\" (Svyatoslav helped him escape)",
     "witness": "CROSS l.12856-12860",
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Svyatoslav drives out Izyaslav (6581/1073); Theodosius refuses \"трапезу Езавелину\"; letter: \"гласъ крове брата твоего вопiеть на тя къ Богу, яко Авелева на Каина\"; \"готовь семь или на заточенiе, или на смерть\"; the two princes send for him to dine (PAT l.3586-3590)",
+    "claim": "Svyatoslav and Vsevolod drive out Izyaslav (6581/1073; CROSS l.12527-12531); Theodosius refuses \"трапезу Езавелину\"; letter: \"гласъ крове брата твоего вопiеть на тя къ Богу, яко Авелева на Каина\"; \"готовь семь или на заточенiе, или на смерть\"; the two princes send for him to dine (PAT l.3586-3590)",
     "witness": "PAT l.3588-3635; CROSS l.12525-12538",
     "formation_confidence": "Documented"
    },
@@ -537,7 +537,7 @@
     "claim": "Nestor's knowledge of Theodosius",
     "sides": [
      "Cross: did not know him personally (CROSS l.4676-4686)",
-     "Mouravieff: an eyewitness (MOUR l.1616-1621), resting on the Paterik's seventh discourse, where the writer named Nestor says Theodosius received him at seventeen (PAT l.1239-1241)"
+     "Mouravieff: an eyewitness, who entered at seventeen (MOUR l.1616-1622); the Paterik's seventh discourse, headed as Nestor's, has its writer received at seventeen (PAT l.1239-1241)"
     ]
    },
    {
@@ -546,6 +546,13 @@
      "Chronicle: the brothers under Barlaam, before Theodosius (CROSS l.11826-11841; PAT l.1166-1173, the seventh discourse)",
      "Nestor's Life: Theodosius, moving in 6570 (PAT l.2162-2168)",
      "Cross notes the difference (CROSS l.4635-4640)"
+    ]
+   },
+   {
+    "claim": "Who chose Theodosius as prior",
+    "sides": [
+     "Chronicle: the brothers asked Antony, who named Theodosius (CROSS l.11849-11862)",
+     "Nestor's Life: the brothers chose him and told Antony, who blessed him (PAT l.2091-2097); Cross notes the difference (CROSS l.4635-4637)"
     ]
    }
   ],
@@ -795,10 +802,10 @@
     ]
    },
    {
-    "claim": "Whether every 'most faithful disciple' in the Life of Anskar is Rimbert",
+    "claim": "Whether the priest in the Life of Anskar, chapter 27, is Rimbert",
     "sides": [
-     "The Life of Rimbert: yes (WAITZ l.4790-4800); Klippel follows it",
-     "Robinson: one, who says Mass, is more likely Erimbert, since Rimbert was then a deacon (ROB l.4266-4277)"
+     "G. H. Klippel, applying the Life of Rimbert's 'most faithful disciple' rule: Rimbert (ROB l.4269-4272; WAITZ l.4790-4800)",
+     "Robinson: more likely Erimbert, since Rimbert was then a deacon (ROB l.4272-4277)"
     ]
    }
   ],
