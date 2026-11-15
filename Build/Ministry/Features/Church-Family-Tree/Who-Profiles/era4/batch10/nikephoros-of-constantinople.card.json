@@ -1,0 +1,91 @@
+{
+  "name": "Nikephoros of Constantinople",
+  "otherNames": [
+    "Patriarch Nikephoros I",
+    "Nicephorus, the form of the Latin sources",
+    "Nikephoros the Confessor; Johann Fabricius says the Greeks call him homologetes, the confessor"
+  ],
+  "knownFor": "Patriarch of Constantinople from 806, chosen while still a layman and an imperial secretary. Leo V deposed and exiled him for defending the holy images, and in exile he wrote books against the iconoclasts. His Short History tells the empire's story from 602. He is a different man from the emperor Nikephoros I, under whom he was chosen.",
+  "dates": "Born about 758, by the Bollandists. Consecrated patriarch on Easter Day, 12 April 806, by Fabricius and the Bollandists. Crowned Leo V on 11 July, in the sixth indiction, by Theophanes the Confessor, which the Bollandists reckon as 813, as does Angelo Mai; Jacques Goar reports Baronius and an anonymous Greek chronicle as giving June 814. Exiled in 815 by Fabricius, on 13 March 815 by the Bollandists; their note to the Life of Methodios gives 13 March 814, and Goar the end of Lent 816. Died in exile on 2 June 828, in the fourteenth year of his exile, by the Bollandists; Fabricius and Mai also give 828, Mai at seventy, and Goar says he lived into June 829. His body was brought back to the city in 846, by the Bollandists; Theophanes the priest says it had lain nineteen years",
+  "place": "Constantinople, his birthplace and see; Nicaea, where his father died in exile and where he spoke at the council of 787; a monastery he built on a barren height across from the Thracian Bosporus, as Ignatius puts it; in exile, his monastery called of the Good, then his farther monastery of the martyr Theodore; the Church of the Holy Apostles in Constantinople, where his body was laid",
+  "tradition": "Iconophile Byzantine Monasticism",
+  "role": "Imperial secretary; patriarch of Constantinople; defender of the holy images; historian",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Antirrhetici, three books against Constantine V",
+      "about": "written in exile, against the dead emperor he calls Mamonas. Angelo Mai, who first printed them, says they quote piece by piece and answer an iconoclast book written in Constantine's name. Mai thinks the attack on the dead emperor was aimed at the living Leo V"
+    },
+    {
+      "title": "Apologeticus, for the holy images",
+      "about": "a larger and a smaller defense of the images. Mai dates the larger to 817, in exile"
+    },
+    {
+      "title": "Short History (Breviarium historicum)",
+      "about": "from the killing of the emperor Maurice in 602 to the marriage of Leo IV and Irene, which Fabricius dates 770. Photius, a later patriarch of Constantinople, read it and says \"he throws into the shade all historians who have preceded him\""
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Theodore the Studite, who had broken communion with him over Joseph, wrote to him in exile and hailed him as the great sun of orthodox teaching. The Bollandists print the letter and call Theodore his friend.",
+      "By the chronology in Jacques Sirmond's edition of Theodore, when the iconoclast Theodotos had been put in his see and the iconoclast synod met, Theodore wrote for the abbots that they were bound to Nikephoros as their head and could not attend without him.",
+      "Mai says the Antirrhetici preserve passages of an iconoclast book written in Constantine V's name, unknown before his edition, which Nikephoros quotes in order to refute them.",
+      "His Short History tells the death of Stephen the Younger, and says he was accused of drawing people into the monastic life."
+    ],
+    "remembered": [
+      "The Roman Martyrology, as the Bollandists quote it, calls him a most zealous defender of the traditions of the fathers, who stood firm against Leo the Armenian and died after fourteen years of exile.",
+      "The Bollandists say the Greeks keep 2 June for his death and 13 March for his exile and the return of his body.",
+      "Mai quotes Anselmo Banduri as saying that he surpassed every bishop of Constantinople since John Chrysostom in learning and piety."
+    ]
+  },
+  "uncertain": [
+    "His life rests mainly on one Life, by Ignatius the Deacon, keeper of the vessels of the Great Church and, the Suda says, later metropolitan of Nicaea. Ignatius calls Nikephoros his father and himself his son and disciple. He confesses that he once took communion with the iconoclasts. François Combefis, who translated the Life, says he wrote it in repentance once Methodios was patriarch. The other account is a sermon by Theophanes, a priest and abbot, on the return of the body. The Bollandists say he is a different man from Theophanes the Confessor, and younger.",
+    "His dates. The Bollandists give 815 for his exile and 828 for his death, but their own note to the Life of Methodios gives 814 for the exile. Jacques Goar, editing Theophanes, puts the exile at the end of Lent 816, after Leo's second year as emperor. He reports Baronius and an anonymous Greek chronicle as putting the crowning in June 814, where the Bollandists reckon 813. In his preface to Nikephoros's short chronology, Goar says Baronius has him die in 828, though Nikephoros lived into June 829.",
+    "Leo V's faith at his crowning. Ignatius says Leo put off signing a written creed until he was crowned, and then refused. Theophanes the Confessor says Leo wrote to Nikephoros before entering the city to assure him of his right faith. The Bollandists say Ignatius corrects Leo the Grammarian, who has Leo crowned after giving a written pledge.",
+    "His election. Theophanes says Theodore the Studite and his uncle Plato opposed a layman's leap to patriarch, and that the emperor Nikephoros I wanted to drive them from the city. Theophanes answers that many laymen had been made bishops before.",
+    "Joseph's restoration. The chronology in Sirmond's edition of Theodore says a synod called by the emperor restored Joseph, and that Nikephoros agreed because he was new to church discipline and feared the emperor. Jacques Goar, in his notes to Theophanes, says Nikephoros restored Joseph to win the emperor's favor.",
+    "Where he spent his exile. Ignatius says he was taken first to his monastery called of the Good, then to his farther monastery of the martyr Theodore. Goar reports Leo the Grammarian as saying he was sent to Proconnesus. Theophanes the priest says he was buried in a monastery he had founded.",
+    "Michael II's offer. Ignatius says Michael is reported to have answered Nikephoros's letter by offering him the see, if he would say nothing more about the images."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Antirrhetici and Apologeticus (ed. Angelo Mai), letter to Pope Leo III and Short History (ed. Denis Petau and Immanuel Bekker), in Patrologia Graeca 100",
+        "author": "Nikephoros of Constantinople",
+        "date": "1860",
+        "language": "Greek and Latin",
+        "file": "cic/texts/nikephoros-cp_opera-with-vita-stephani-iunioris-pg100-grc-lat_migne1860.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Life of Nikephoros (Latin tr. François Combefis), with the Bollandists' commentary, and Theophanes the priest's sermon on his exile and the return of his body",
+        "author": "Ignatius the Deacon; Theophanes the priest",
+        "date": "1860",
+        "language": "Greek and Latin",
+        "file": "cic/texts/nikephoros-cp_opera-with-vita-stephani-iunioris-pg100-grc-lat_migne1860.txt"
+      },
+      {
+        "title": "Chronographia (Latin tr. Jacques Goar), with Goar's notes",
+        "author": "Theophanes the Confessor",
+        "date": "1863",
+        "language": "Greek and Latin",
+        "file": "cic/texts/theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt"
+      },
+      {
+        "title": "Opera omnia (Patrologia Graeca 99): the chronology of Theodore's life printed with Sirmond's edition",
+        "author": "Jacques Sirmond (ed.)",
+        "date": "1860",
+        "language": "Latin",
+        "file": "cic/texts/theodore-studite_opera-omnia-pg99-grc-lat_migne1860.txt"
+      },
+      {
+        "title": "The Library (Bibliotheca), vol. 1, codex 66 (tr. J. H. Freese)",
+        "author": "Photius",
+        "date": "1920",
+        "language": "English",
+        "file": "cic/texts/photius_library-v1_freese1920.txt"
+      }
+    ]
+  }
+}
