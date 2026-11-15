@@ -1,0 +1,21 @@
+source_file: disselhoff_jubilate-denkschrift-kaiserswerth-deu_1886.txt
+assignments:
+- row_id: disselhoff_jubilate-denkschrift-kaiserswerth-deu_1886--jubilate-denkschrift-zur-jubelfeier-der-erneuerung-des
+  work: Jubilate! Denkschrift zur Jubelfeier der Erneuerung des apostolischen Diakonissen-Amtes und der
+  author: disselhoff
+  locus: Table of contents at OCR lines 297-682; add 12 to OCR line numbers; the rest not mapped
+  atlas_ids:
+  - the-reveil-and-inner-mission-awakening
+  role: tradition
+  confidence: needs-ruling
+  language: deu
+  date:
+    start: 1886
+    end: 1886
+    source: 'the printing''s own title page: OCR line 201, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1886
+    source: OCR line 201, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 223, the Fliedners: Kaiserswerth''s own jubilee memoir, in German.'

@@ -1,0 +1,22 @@
+source_file: finney_lectures-on-revivals-of-religion_6th-ed1835.txt
+assignments:
+- row_id: finney_lectures-on-revivals-of-religion_6th-ed1835--lectures-on-revivals-of-religion-by-charles-g-finney-from
+  work: Lectures on Revivals of Religion, by Charles G. Finney, from notes by the editor of the N.Y. Evangelist,
+  author: finney
+  locus: Lecture III, 'How to Promote a Revival', at OCR lines 1700-2377; Lecture V, 'The Prayer of Faith', at OCR
+    lines 3426-4338; add 12 to OCR line numbers; the rest not mapped
+  atlas_ids:
+  - the-second-great-awakening-and-camp-meeting-worl
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1835
+    end: 1835
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n6; the OCR does not give it cleanly'
+    formation_confidence: Documented
+  edition_date:
+    year: 1835
+    source: read on the scan's page image, leaf n6; the OCR does not give it cleanly
+    formation_confidence: Documented
+  note: 'Era 9 row 165, Charles G. Finney: Lectures on Revivals of Religion.'

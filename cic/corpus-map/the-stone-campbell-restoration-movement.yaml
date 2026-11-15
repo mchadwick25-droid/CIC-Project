@@ -3,6 +3,26 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-stone-campbell-restoration-movement
 works:
+- row_id: campbell_christian-baptist-v5_bethany1828--the-christian-baptist-published-monthly-edited-by-alexander
+  work: The Christian Baptist, published monthly. Edited by Alexander Campbell. Vol. V. Bethany,
+    Brooke County, Va.
+  author: campbell
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1827
+    end: 1828
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n9; the
+      OCR does not give it cleanly'
+    formation_confidence: Documented
+  edition_date:
+    year: 1828
+    source: read on the scan's page image, leaf n9; the OCR does not give it cleanly
+    formation_confidence: Documented
+  note: 'Era 9 row 164, Alexander Campbell: one volume of the Christian Baptist.'
+  source_file: campbell_christian-baptist-v5_bethany1828.txt
 - row_id: mcnemar_kentucky-revival-with-the-entrance-of-shakerism_1808--the-kentucky-revival-1808-3
   work: The Kentucky Revival (1808)
   author: mcnemar
@@ -12,3 +32,64 @@ works:
   note: McNemar's account prints the Springfield Presbytery documents, which name him with
     John Dunlavy and Barton W. Stone.
   source_file: mcnemar_kentucky-revival-with-the-entrance-of-shakerism_1808.txt
+- row_id: richardson_memoirs-of-alexander-campbell-v1_1868--memoirs-of-alexander-campbell-embracing-a-view-of-the-origin
+  work: Memoirs of Alexander Campbell, embracing a view of the origin, progress and principles
+    of the religious
+  author: richardson
+  locus: the whole volume; not mapped
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1868
+    end: 1868
+    source: 'the printing''s own title page: OCR line 102, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1868
+    source: OCR line 102, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 164, Alexander Campbell: a Life (Richardson, vol. 1).'
+  source_file: richardson_memoirs-of-alexander-campbell-v1_1868.txt
+- row_id: richardson_memoirs-of-alexander-campbell-v2_1870--memoirs-of-alexander-campbell-embracing-a-view-of-the-origin
+  work: Memoirs of Alexander Campbell, embracing a view of the origin, progress and principles
+    of the religious
+  author: richardson
+  locus: Chapter I, on the discussion with Mr. Walker, at OCR lines 492-1666; List of Mr.
+    Campbell's published works at OCR lines 27847-27876; add 12 to OCR line numbers; the rest
+    not mapped
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1870
+    end: 1870
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n10; the
+      OCR does not give it cleanly'
+    formation_confidence: Documented
+  edition_date:
+    year: 1870
+    source: read on the scan's page image, leaf n10; the OCR does not give it cleanly
+    formation_confidence: Documented
+  note: 'Era 9 row 164, Alexander Campbell: a Life (Richardson, vol. 2).'
+  source_file: richardson_memoirs-of-alexander-campbell-v2_1870.txt
+- row_id: stone_biography-of-elder-barton-warren-stone_rogers1847--biography-of-eld-barton-warren-stone-written-by-himself-with
+  work: 'Biography of Eld. Barton Warren Stone, written by himself: with additions and reflections
+    by Elder John Rogers'
+  author: stone
+  locus: Stone's own narrative of his life, chapters I-X at OCR lines 441-4048; add 12 to
+    OCR line numbers; the rest not mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1847
+    end: 1847
+    source: 'the printing''s own title page: OCR line 91, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1847
+    source: OCR line 91, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 163, Barton W. Stone: his own Biography.'
+  source_file: stone_biography-of-elder-barton-warren-stone_rogers1847.txt

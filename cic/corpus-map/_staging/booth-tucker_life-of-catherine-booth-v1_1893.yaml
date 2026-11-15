@@ -1,0 +1,24 @@
+source_file: booth-tucker_life-of-catherine-booth-v1_1893.txt
+assignments:
+- row_id: booth-tucker_life-of-catherine-booth-v1_1893--the-life-of-catherine-booth-the-mother-of-the-salvation-army
+  work: The Life of Catherine Booth, the Mother of the Salvation Army, by F. de L. Booth-Tucker, Volume I
+  author: booth-tucker
+  locus: chapter XXXIII, Mrs. Booth's first pamphlet, 1859, at OCR lines 18842-19462; add 12 to OCR line numbers;
+    the rest not mapped
+  atlas_ids:
+  - the-salvation-army
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1893
+    end: 1893
+    source: the copyright notice on the title leaf, OCR lines 68-71 ('Entered according to Act of Congress, in the
+      year 1893, by William Booth'); the title page prints no year (page image, leaf n10)
+    formation_confidence: Documented
+  edition_date:
+    year: 1893
+    source: the copyright notice on the title leaf, OCR lines 68-71 ('Entered according to Act of Congress, in the
+      year 1893, by William Booth'); the title page prints no year (page image, leaf n10)
+    formation_confidence: Documented
+  note: 'Era 9 row 191, Catherine Booth: a Life (vol. 1), which tells of her Female Ministry of 1859.'

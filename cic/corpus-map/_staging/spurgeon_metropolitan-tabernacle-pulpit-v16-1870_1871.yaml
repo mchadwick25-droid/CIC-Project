@@ -1,0 +1,21 @@
+source_file: spurgeon_metropolitan-tabernacle-pulpit-v16-1870_1871.txt
+assignments:
+- row_id: spurgeon_metropolitan-tabernacle-pulpit-v16-1870_1871--the-metropolitan-tabernacle-pulpit-sermons-preached-and
+  work: The Metropolitan Tabernacle Pulpit. Sermons preached and revised by C. H. Spurgeon, during the year 1870.
+  author: spurgeon
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - nineteenth-century-baptists
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1870
+    end: 1871
+    source: 'the printing''s own title page: OCR line 130, on the title page, which reads ''187I.'''
+    formation_confidence: Documented
+  edition_date:
+    year: 1871
+    source: OCR line 130, on the title page, which reads '187I.'
+    formation_confidence: Documented
+  note: 'Era 9 row 168, Charles Haddon Spurgeon: one volume of the Metropolitan Tabernacle Pulpit.'

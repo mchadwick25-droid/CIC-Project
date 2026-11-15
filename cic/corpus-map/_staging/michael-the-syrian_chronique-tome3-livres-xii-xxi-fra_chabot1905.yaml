@@ -1,0 +1,13 @@
+source_file: michael-the-syrian_chronique-tome3-livres-xii-xxi-fra_chabot1905.txt
+assignments:
+- row_id: michael-the-syrian_chronique-tome3-livres-xii-xxi-fra_chabot1905--michael-the-syrian-chronicle-books-xii-to-xxi-french
+  work: 'Chronique de Michel le Syrien, tome III: Books XII to XXI, French translation'
+  author: michael-the-syrian
+  locus: 'Books XII-XXI at about OCR lines 69-19900; add 12 to OCR line numbers'
+  atlas_ids:
+  - syriac-orthodox-west-syriac-christianity
+  role: tradition
+  confidence: provisional
+  language: fra
+  date: {formation_confidence: unknown, checked: "the title page gives his patriarchate (1166-1199), not the years of writing; Chabot's introduction is in tome I"}
+  note: 'The Syriac Orthodox patriarch''s chronicle from the year 758 on, in Chabot''s French.'

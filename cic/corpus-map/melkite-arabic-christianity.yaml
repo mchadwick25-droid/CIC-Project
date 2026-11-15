@@ -27,6 +27,32 @@ works:
 
     '
   source_file: npnf209_hilary-poitiers-john-damascus.xml
+- row_id: john-damascus_on-holy-images-with-three-sermons-on-the-assumption_allies1898--john-of-damascus-on-holy-images-english-allies-1898
+  work: John of Damascus, On Holy Images, English (Allies 1898)
+  author: john-damascus
+  locus: Parts I-III at about OCR lines 197-4773; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: the title page and the opening of the translator's preface (OCR lines 17-60)
+      give no year for the treatises
+  note: The three treatises against those who attack the holy images, in English. The Greek
+    is held in PG 94.
+  source_file: john-damascus_on-holy-images-with-three-sermons-on-the-assumption_allies1898.txt
+- row_id: john-damascus_on-holy-images-with-three-sermons-on-the-assumption_allies1898--john-of-damascus-three-sermons-on-the-assumption-english-allies-1898
+  work: John of Damascus, Three Sermons on the Assumption, English (Allies 1898)
+  author: john-damascus
+  locus: about OCR lines 4774-6721; add 12 to OCR line numbers
+  role: tradition
+  confidence: needs-ruling
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: the title page and the sermon headings (OCR lines 4774, 5519, 6403) give no year
+  note: Three sermons on the Dormition, in English.
+  source_file: john-damascus_on-holy-images-with-three-sermons-on-the-assumption_allies1898.txt
 - row_id: john-damascus_opera-omnia-t1-with-vita-pg94-grc-lat_migne1860--john-of-damascus-works-pg-94
   work: John of Damascus, works (PG 94)
   author: john-damascus
@@ -45,6 +71,21 @@ works:
   note: The hagiographer's Life. Its date of writing is not given in this volume's heading,
     so its window is the tree's question.
   source_file: john-damascus_opera-omnia-t1-with-vita-pg94-grc-lat_migne1860.txt
+- row_id: acta-sanctorum_julii-tomus-3-lat-grc_palme1868--leontius-life-of-stephen-the-sabaite-latin
+  work: Leontius, Life of Stephen the Sabaite, Latin of Boschius (Acta Sanctorum, July III)
+  author: leontius-of-mar-saba
+  locus: about OCR lines 105573-119702, the editors' notes between chapters; the commentary
+    from 104243; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: lat
+  date:
+    formation_confidence: unknown
+    checked: the heading of the Life (OCR lines 105573-105584) names Leontius as the saint's
+      disciple and gives no year; the Bollandists' commentary was not read for a date
+  note: The Life of the monk of Mar Saba by his disciple; a Latin translation, headed as lacking
+    its beginning.
+  source_file: acta-sanctorum_julii-tomus-3-lat-grc_palme1868.txt
 - row_id: theodore-abu-qurrah_arabischen-schriften-deu_graf1910--theodore-abu-qurrah-arabic-treatises-in-german-graf-1910
   work: Theodore Abu Qurrah, Arabic treatises in German (Graf 1910)
   author: theodore-abu-qurrah
@@ -62,3 +103,19 @@ works:
   confidence: provisional
   note: The bishop's own writings, inside this window by the era 4 audit's dating of him (c.795-c.815).
   source_file: theodore-abu-qurrah_opuscula-with-andrew-crete-malalas-pg97-grc-lat_migne1860.txt
+- row_id: theodore-abu-qurrah_de-cultu-imaginum-ara-lat_arendzen1897--theodore-abu-qurrah-on-the-veneration-of-images-arabic-and-latin-arendzen-1897
+  work: Theodore Abu Qurrah, On the Veneration of Images, Arabic with Latin translation (Arendzen
+    1897)
+  author: theodore-abu-qurrah
+  locus: the Latin at about OCR lines 1367-3715, the Arabic at about 3779-5340; add 12 to
+    OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: ara-lat
+  date:
+    formation_confidence: unknown
+    checked: the title page (OCR lines 28-76) gives no year for the treatise; Arendzen's preface
+      was not read for a date
+  note: The bishop's Arabic treatise on the images with a Latin translation; only the Latin
+    can be read in this OCR.
+  source_file: theodore-abu-qurrah_de-cultu-imaginum-ara-lat_arendzen1897.txt

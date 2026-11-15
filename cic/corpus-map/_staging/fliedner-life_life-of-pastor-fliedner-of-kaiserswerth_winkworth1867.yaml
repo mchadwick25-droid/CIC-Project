@@ -1,0 +1,25 @@
+source_file: fliedner-life_life-of-pastor-fliedner-of-kaiserswerth_winkworth1867.txt
+assignments:
+- row_id: fliedner-life_life-of-pastor-fliedner-of-kaiserswerth_winkworth1867--life-of-pastor-fliedner-of-kaiserswerth-translated-from-the
+  work: 'Life of Pastor Fliedner of Kaiserswerth. Translated from the German by Catherine Winkworth. London: Longmans,'
+  author: fliedner-life
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - the-reveil-and-inner-mission-awakening
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1867
+    end: 1867
+    source: 'the printing''s own title page: OCR line 138, on the title page'
+    formation_confidence: Documented
+  translator:
+    name: Catherine Winkworth
+    source: the title page
+    formation_confidence: Documented
+  edition_date:
+    year: 1867
+    source: OCR line 138, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 223, Theodor Fliedner: a Life, in English.'

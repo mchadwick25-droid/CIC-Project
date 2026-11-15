@@ -444,6 +444,47 @@ public-domain notice for that title recorded in the search log.
 
 **Not taken.** Every duplicate, garbled or secondary scan is listed in the search log.
 
+## Eras 4-5, third fill (2026-11-15): the wants of the era 4 Who batches 9 and 11
+
+Seven files. The wants are the Library items of Open-Gaps 269 and 279, which the second fill did not take up. The
+search record is `Build/Ministry/Operations/Audits/2026-11-15_library-eras4-5-b/Search_Log.md`. Every file has a
+printed imprint of 1930 or earlier, read on its title page or, for Matthew of Edessa, on the scan's page image.
+Rows in the tables above are not rewritten.
+
+| want | state | file(s), with the imprint year | words | shelf |
+|---|---|---|---:|---|
+| Open-Gaps 269: an English of John of Damascus's speeches on the images | filled | `john-damascus_on-holy-images-with-three-sermons-on-the-assumption_allies1898.txt` (1898) | 44,731 | byzantine-imperial-church-heraclian-iconoclast, iconophile-byzantine-monasticism, melkite-arabic-christianity, tradition; the three sermons needs-ruling |
+| Open-Gaps 269: the acts of Nicaea II | filled in English (Mansi XII-XIII held already) | `mendham_seventh-general-council-second-of-nicaea_1850.txt` (1850) | 307,103 | byzantine-imperial-church-heraclian-iconoclast, iconophile-byzantine-monasticism, tradition |
+| Open-Gaps 269: a complete Life of Rimbert | filled | `mgh-ss-2_scriptores-tomus-2-with-vita-rimberti-vita-anskarii-lat_pertz1829.txt` (1829) | 544,945 | scandinavian-conversion-christianity, tradition |
+| Open-Gaps 269: the Life of Constantine (Cyril) in any language | held already | the Latin of Dümmler and Miklosich (1870), second fill | | |
+| Open-Gaps 269: the Slavonic Life of Methodius | not found | Miklosich (1870) and Dümmler in the Archiv 13 (1854) are not on archive.org | | |
+| Open-Gaps 269: any work of Clement of Ohrid, and the short Life | not found | Tunitskii (1918) found and not taken: it prints the long Life, held already, and its OCR is garbled | | |
+| Open-Gaps 279: an Armenian text or English of Stepanos of Taron | not found | the one Armenian upload has no readable imprint or text; the German and the French part 2 are held | | |
+| Open-Gaps 279: Matthew of Edessa | filled in French | `matthew-of-edessa_chronique-with-gregory-the-priest-fra_dulaurier1858.txt` (1858) | 171,092 | armenian-cilicia, tradition (needs-ruling); bagratid-armenian-christianity, context (needs-ruling) |
+| Open-Gaps 279: an English of Eulogius and Alvarus | none printed by 1930 | the Latin is held (PL 115, PL 121) | | |
+| Open-Gaps 279: the Arabic sources for Cordoba, Ibn Hayyan among them | held as a later witness | al-Maqqari in Gayangos (1840-43), second fill | | |
+| Open-Gaps 279: Abu Qurrah (no English printed by 1930) | filled, his own Arabic with a Latin translation | `theodore-abu-qurrah_de-cultu-imaginum-ara-lat_arendzen1897.txt` (1897) | 31,104 | melkite-arabic-christianity, tradition |
+| Open-Gaps 279: Abu Qurrah, Bacha's French of a second treatise | held for Mark | the title page names Tripoli and Rome and no year; 1905 is the preface date | | |
+| Open-Gaps 279: Michael the Syrian's Book XII | filled | `michael-the-syrian_chronique-tome3-livres-xii-xxi-fra_chabot1905.txt` (1905) | 271,262 | syriac-orthodox-west-syriac-christianity, tradition |
+| Open-Gaps 279: the Greek Passion of the Mar Saba martyrs (Papadopoulos-Kerameus 1907) | not found | not searched again; the second fill records the search | | |
+| Open-Gaps 279: the Life of Stephen the Wonderworker | filled in Latin | `acta-sanctorum_julii-tomus-3-lat-grc_palme1868.txt` (1867 on the title page, 1868 on the engraved title) | 865,324 | melkite-arabic-christianity, tradition |
+
+**Cautions for profile writers.**
+- John of Damascus (Allies 1898): a translation. The Greek is in PG 94, which the OCR cannot give for quotation.
+- Nicaea II (Mendham 1850): the translator wrote against the council. His introduction and his notes, with
+  extracts from the Caroline Books, share the pages of the acts; a quotation must be the council's text, not a
+  note. Sessions V to VIII were not mapped.
+- The Life of Rimbert (Pertz 1829): its author is not named; Pertz's preface says it was written in the time of Rimbert's successor Adalgar, by a cleric of Bremen or a monk of Corvey. The chapter count is 25. The footnote
+  apparatus is garbled; the text reads cleanly with small OCR errors.
+- Matthew of Edessa (Dulaurier 1858): a French translation, with the continuation of Gregory the Priest from
+  about file line 14011 and Dulaurier's notes after the text. The chronicle was written after the Bagratid years
+  it begins with.
+- Abu Qurrah (Arendzen 1897): only Arendzen's Latin can be read; no phrase of the Arabic can be quoted from this
+  file. The first 24 lines of the host text are the uploader's cover sheet.
+- Michael the Syrian (Chabot 1905): a French translation; the Syriac is not held. Footnotes run in with the text.
+- Stephen the Sabaite (Acta Sanctorum 1867-68): Boschius's Latin translation of a Greek Life headed as lacking its
+  beginning; the Greek column cannot be read. The Bollandists' notes stand between the chapters.
+
 ## Era 6 (1300-1517), filled (2026-11-15): the Who scan's wanted sources and the wants the Who and council batches added
 
 Twenty-seven files. The wants are the era 6 rows of
@@ -631,6 +672,175 @@ or earlier, read on its title page or, for sixteen volumes, on the scan's page i
   Kâtib Çelebi is four chapters. The title page of Evliya's second part says "Part I".
 
 **Not taken.** Every duplicate, reprint, long set and unreadable scan is listed in the search log.
+
+## Era 9 (1815-1906), batch 1 (2026-11-15): the major figures of the Who scan's wanted sources
+
+Ninety-nine files for the 63 person rows marked major in
+`Build/Ministry/Operations/Audits/2026-11-12_wanted-sources-combined/Wanted_Sources.md` (rows 163-225). The search
+record is `Build/Ministry/Operations/Audits/2026-11-15_library-era9/Search_Log.md`. Every file has a printed
+imprint year of 1930 or earlier, read on its title page or, for eighteen volumes, on the scan's page image. The
+rows not marked major (226-330), the era 9 outside witnesses, the council records and the held eras 8-9 items
+are left for the next batches. One want was held already.
+
+| want | state | file(s), with the imprint year | shelf |
+|---|---|---|---|
+| era 9 row 163, Barton W. Stone: his own Biography | filled | `stone_biography-of-elder-barton-warren-stone_rogers1847.txt` (1847); 146,459 words; eng | the-stone-campbell-restoration-movement, tradition |
+| era 9 row 164, Alexander Campbell: a Life (Richardson, vol. 1) | filled | `richardson_memoirs-of-alexander-campbell-v1_1868.txt` (1868); 188,994 words; eng | the-stone-campbell-restoration-movement, context |
+| era 9 row 164, Alexander Campbell: a Life (Richardson, vol. 2) | filled | `richardson_memoirs-of-alexander-campbell-v2_1870.txt` (1870); 221,572 words; eng | the-stone-campbell-restoration-movement, context |
+| era 9 row 164, Alexander Campbell: one volume of the Christian Baptist | filled | `campbell_christian-baptist-v5_bethany1828.txt` (1828); 155,862 words; eng | the-stone-campbell-restoration-movement, tradition |
+| era 9 row 165, Charles G. Finney: Lectures on Revivals of Religion | filled | `finney_lectures-on-revivals-of-religion_6th-ed1835.txt` (1835); 207,129 words; eng | the-second-great-awakening-and-camp-meeting-worl, tradition |
+| era 9 row 165, Charles G. Finney: his Memoirs | filled | `finney_memoirs-of-rev-charles-g-finney_1876.txt` (1876); 176,972 words; eng | the-second-great-awakening-and-camp-meeting-worl, tradition (needs-ruling) |
+| era 9 row 166, Phoebe Palmer: The Way of Holiness | filled | `palmer_way-of-holiness_1843.txt` (1843); 50,843 words; eng | the-holiness-movement, tradition |
+| era 9 row 166, Phoebe Palmer: a Life with her letters | filled | `wheatley_life-and-letters-of-mrs-phoebe-palmer_1876.txt` (1876); 235,522 words; eng | the-holiness-movement, context |
+| era 9 row 167, Dwight L. Moody: the Life by his son | filled | `moody-w-r_life-of-dwight-l-moody_1900.txt` (1900); 180,120 words; eng | the-sunday-school-and-bible-institute-movement, context |
+| era 9 row 172, William Miller: his own Views of the Prophecies | filled | `miller_views-of-the-prophecies-and-prophetic-chronology_himes1842.txt` (1842); 90,391 words; eng | restorationist-apocalyptic-ferment-and-adventism, tradition |
+| era 9 row 172, William Miller: a Life told by a disciple | filled | `bliss_memoirs-of-william-miller_1853.txt` (1853); 178,678 words; eng | restorationist-apocalyptic-ferment-and-adventism, context |
+| era 9 row 173, Ellen G. White: Life Sketches | filled | `white_life-sketches-of-ellen-g-white_1915.txt` (1915); 140,745 words; eng | restorationist-apocalyptic-ferment-and-adventism, seventh-day-adventist-church-twentieth-century, tradition |
+| era 9 row 215, Washington Gladden: Applied Christianity | filled | `gladden_applied-christianity_9th-ed1897.txt` (1897); 76,263 words; eng | the-social-gospel, tradition |
+| era 9 row 216, Charles A. Briggs: his own defence at the trial | filled | `briggs_defence-before-the-presbytery-of-new-york_1893.txt` (1893); 87,020 words; eng | the-mainline-century-liberal-and-neo-orthodox, tradition (needs-ruling) |
+| era 9 row 216, Charles A. Briggs: the trial record, part I | filled | `briggs-trial_case-against-professor-briggs-pt1_1892.txt` (1892); 56,636 words; eng | the-mainline-century-liberal-and-neo-orthodox, context (needs-ruling) |
+| era 9 row 216, Charles A. Briggs: the trial record, part III | filled | `briggs-trial_case-against-professor-briggs-pt3_1893.txt` (1893); 107,259 words; eng | the-mainline-century-liberal-and-neo-orthodox, context (needs-ruling) |
+| era 9 row 217, A. A. Hodge and B. B. Warfield: Inspiration, Presbyterian Review, April 1881 | filled | `presbyterian-review_v2-no6-april-1881-inspiration.txt` (1881); 108,871 words; eng | fundamentalism-1910-1970s, context (needs-ruling) |
+| era 9 row 218, David Lipscomb: his own writing (the 1906 census letters were not found) | filled | `lipscomb_queries-and-answers_shepherd1910.txt` (1910); 211,569 words; eng | churches-of-christ-twentieth-century, tradition |
+| era 9 row 174, Joseph Smith: his own History | filled | `smith-joseph_history-of-the-church-v1_roberts1902.txt` (1902); 266,920 words; eng | latter-day-saints-lds, tradition |
+| era 9 row 174, Joseph Smith: the Doctrine and Covenants | filled | `latter-day-saints_doctrine-and-covenants_kirtland1835.txt` (1835); 117,424 words; eng | latter-day-saints-lds, tradition |
+| era 9 row 174, Joseph Smith: a life told by another (his mother) | filled | `smith-lucy_biographical-sketches-of-joseph-smith_1853.txt` (1853); 104,546 words; eng | latter-day-saints-lds, tradition |
+| era 9 row 175, Brigham Young: the Journal of Discourses, vol. 1 | filled | `journal-of-discourses_v1_watt1854.txt` (1854); 256,045 words; eng | latter-day-saints-lds, tradition |
+| era 9 row 175, Brigham Young: a life told by another | filled | `tullidge_life-of-brigham-young_1876.txt` (1876); 150,550 words; eng | latter-day-saints-lds, context |
+| era 9 row 176, Charles Taze Russell: Millennial Dawn, vol. 1 | filled | `russell_millennial-dawn-v1-plan-of-the-ages_1886.txt` (1886); 104,879 words; eng | jehovah-s-witnesses-bible-students, tradition |
+| era 9 row 177, Mary Baker Eddy: Science and Health | filled | `eddy_science-and-health-with-key-to-the-scriptures_161st-ed1899.txt` (1899); 215,874 words; eng | christian-science, tradition |
+| era 9 row 177, Mary Baker Eddy: Retrospection and Introspection | filled | `eddy_retrospection-and-introspection_1892.txt` (1892); 19,189 words; eng | christian-science, tradition |
+| era 9 row 178, John Thomas: Elpis Israel | filled | `thomas_elpis-israel_1849.txt` (1849); 250,733 words; eng | christadelphians, tradition |
+| era 9 row 180, John Humphrey Noyes: his own writing | filled | `noyes_history-of-american-socialisms_1870.txt` (1870); 192,303 words; eng | oneida-community, tradition |
+| era 9 row 180, John Humphrey Noyes: his talks to the community | filled | `noyes_home-talks-v1_barron-miller1875.txt` (1875); 81,372 words; eng | oneida-community, tradition |
+| era 9 row 180, John Humphrey Noyes: his religious experience, compiled from his writings | filled | `noyes_religious-experience-of-john-humphrey-noyes_gw-noyes1923.txt` (1923); 114,933 words; eng | oneida-community, tradition (needs-ruling) |
+| era 9 row 184, Theodore Parker: his own writing | filled | `parker_discourse-of-matters-pertaining-to-religion_3rd-ed1847.txt` (1847); 142,908 words; eng | american-unitarianism-universalism-consolidations, tradition |
+| era 9 row 184, Theodore Parker: his sermons | filled | `parker_ten-sermons-of-religion_2nd-ed1861.txt` (1861); 99,459 words; eng | american-unitarianism-universalism-consolidations, tradition |
+| era 9 row 184, Theodore Parker: a Life with his letters (vol. 1) | filled | `weiss_life-and-correspondence-of-theodore-parker-v1_1864.txt` (1864); 255,131 words; eng | american-unitarianism-universalism-consolidations, context |
+| era 9 row 184, Theodore Parker: a Life with his letters (vol. 2) | filled | `weiss_life-and-correspondence-of-theodore-parker-v2_1864.txt` (1864); 281,575 words; eng | american-unitarianism-universalism-consolidations, context |
+| era 9 row 168, Charles Haddon Spurgeon: the Autobiography, vol. 1 | filled | `spurgeon_autobiography-v1-1834-1854_1897.txt` (1897); 175,855 words; eng | nineteenth-century-baptists, tradition |
+| era 9 row 168, Charles Haddon Spurgeon: one volume of the Metropolitan Tabernacle Pulpit | filled | `spurgeon_metropolitan-tabernacle-pulpit-v16-1870_1871.txt` (1871); 445,705 words; eng | nineteenth-century-baptists, tradition |
+| era 9 row 169, Elias Hicks: his Journal | filled | `hicks_journal-of-the-life-and-religious-labours_1832.txt` (1832); 173,374 words; eng | nineteenth-century-quakerism-separations, tradition |
+| era 9 row 169, Elias Hicks: the Orthodox side's account | filled | `philadelphia-yearly-meeting_declaration-respecting-those-who-have-separated_1828.txt` (1828); 68,865 words; eng | nineteenth-century-quakerism-separations, tradition |
+| era 9 row 170, Joseph John Gurney: his Observations | filled | `gurney_observations-on-the-religious-peculiarities-of-the-society-of-friends_1824.txt` (1824); 113,272 words; eng | nineteenth-century-quakerism-separations, tradition |
+| era 9 row 170, Joseph John Gurney: the Memoirs, vol. 1 | filled | `braithwaite_memoirs-of-joseph-john-gurney-v1_1854.txt` (1854); 189,224 words; eng | nineteenth-century-quakerism-separations, context |
+| era 9 row 170, Joseph John Gurney: the Memoirs, vol. 2 | filled | `braithwaite_memoirs-of-joseph-john-gurney-v2_1854.txt` (1854); 199,909 words; eng | nineteenth-century-quakerism-separations, context |
+| era 9 row 171, William Knibb: a Life | filled | `hinton_memoir-of-william-knibb_2nd-ed1849.txt` (1849); 217,878 words; eng | caribbean-churches-of-slavery-and-emancipation, context |
+| era 9 row 171, William Knibb: a fellow missionary's account of Jamaica | filled | `phillippo_jamaica-its-past-and-present-state_1843.txt` (1843); 137,560 words; eng | caribbean-churches-of-slavery-and-emancipation, tradition |
+| era 9 row 179, Edward Irving: his collected writings, vol. 5 | filled | `irving_collected-writings-v5_carlyle1866.txt` (1866); 240,993 words; eng | catholic-apostolic-church-irvingites, tradition (needs-ruling) |
+| era 9 row 179, Edward Irving: a Life (vol. 1) | filled | `oliphant_life-of-edward-irving-v1_1862.txt` (1862); 136,028 words; eng | catholic-apostolic-church-irvingites, context |
+| era 9 row 179, Edward Irving: a Life (vol. 2) | filled | `oliphant_life-of-edward-irving-v2_1862.txt` (1862); 197,494 words; eng | catholic-apostolic-church-irvingites, context |
+| era 9 row 182, Anthony Norris Groves: the memoir by his widow, from his journals and letters | filled | `groves_memoir-of-anthony-norris-groves_3rd-ed1859.txt` (1859); 266,660 words; eng | plymouth-brethren-and-dispensational-formation, tradition |
+| era 9 row 182, Anthony Norris Groves: his journal | filled | `groves_journal-of-a-residence-at-bagdad-1830-1831_1832.txt` (1832); 88,199 words; eng | plymouth-brethren-and-dispensational-formation, tradition |
+| era 9 row 183, George Muller: his Narrative, fourth part | filled | `muller_narrative-of-the-lords-dealings-pt4_1856.txt` (1856); 171,456 words; eng | plymouth-brethren-and-dispensational-formation, tradition |
+| era 9 row 188, John Henry Newman: the Apologia | filled | `newman_apologia-pro-vita-sua_1864.txt` (1864); 169,395 words; eng | the-oxford-movement-and-anglo-catholic-revival, catholic-church-long-nineteenth-century, tradition |
+| era 9 row 188, John Henry Newman: Tract 90 | filled | `newman_tract-90-remarks-on-certain-passages-in-the-thirty-nine-articles_2nd-ed1841.txt` (1841); 35,662 words; eng | the-oxford-movement-and-anglo-catholic-revival, tradition |
+| era 9 row 189, John Keble: the Assize sermon of 1833 | filled | `keble_national-apostasy-assize-sermon_1833.txt` (1833); 5,642 words; eng | the-oxford-movement-and-anglo-catholic-revival, tradition |
+| era 9 row 189, John Keble: a Life (vol. 1) | filled | `coleridge_memoir-of-the-rev-john-keble-v1_2nd-ed1869.txt` (1869); 81,238 words; eng | the-oxford-movement-and-anglo-catholic-revival, context |
+| era 9 row 190, Edward Bouverie Pusey: Liddon's Life, vol. 1 | filled | `liddon_life-of-edward-bouverie-pusey-v1_1893.txt` (1893); 209,678 words; eng | the-oxford-movement-and-anglo-catholic-revival, context |
+| era 9 row 190, Edward Bouverie Pusey: a sermon of his own | filled | `pusey_do-all-to-the-lord-jesus-sermon_boston1864.txt` (1864); 5,850 words; eng | the-oxford-movement-and-anglo-catholic-revival, tradition |
+| era 9 row 190, Edward Bouverie Pusey: his letters | filled | `pusey_spiritual-letters_johnston-newbolt1898.txt` (1898); 97,696 words; eng | the-oxford-movement-and-anglo-catholic-revival, tradition |
+| era 9 row 191, William Booth: In Darkest England and the Way Out | filled | `booth_in-darkest-england-and-the-way-out_1890.txt` (1890); 129,128 words; eng | the-salvation-army, tradition |
+| era 9 row 214, Evan Roberts: a Life, in Welsh | filled | `phillips_evan-roberts-ai-waith-cym_1912.txt` (1912); 129,838 words; cym | the-1904-07-revival-family-wales-mukti-india-pyo, context (needs-ruling) |
+| era 9 row 222, William Clowes: his Journals | filled | `clowes_journals-of-william-clowes_1844.txt` (1844); 115,023 words; eng | nineteenth-century-methodism, tradition |
+| era 9 row 222, Hugh Bourne: a Life | filled | `antliff_life-of-the-venerable-hugh-bourne_1872.txt` (1872); 167,409 words; eng | nineteenth-century-methodism, context |
+| era 9 row 193, Abraham Kuyper: a Dutch work of his own | filled | `kuyper_tractaat-van-de-reformatie-der-kerken-nld_1883.txt` (1883); 90,480 words; nld | dutch-neo-calvinism-secession-churches, tradition |
+| era 9 row 194, Herman Bavinck: an English print of his own lectures | filled | `bavinck_philosophy-of-revelation_1909.txt` (1909); 110,728 words; eng | dutch-neo-calvinism-secession-churches, tradition (needs-ruling) |
+| era 9 row 194, Herman Bavinck: his own summary of doctrine, in Dutch (not the Dogmatiek) | filled | `bavinck_magnalia-dei-nld_1909.txt` (1909); 276,477 words; nld | dutch-neo-calvinism-secession-churches, tradition (needs-ruling) |
+| era 9 row 196, C. F. W. Walther: Der Lutheraner, the first year | filled | `walther_der-lutheraner-jg1-1844-1845-deu_st-louis1844.txt` (1844); 148,394 words; deu | confessional-lutheran-revival-emigrations, tradition |
+| era 9 row 221, Adolf von Harnack: What Is Christianity?, in English | filled | `harnack_what-is-christianity_saunders1901.txt` (1901); 87,707 words; eng | the-mainline-century-liberal-and-neo-orthodox, tradition |
+| era 9 row 221, Adolf von Harnack: Das Wesen des Christentums | filled | `harnack_das-wesen-des-christentums-deu_1900.txt` (1900); 66,516 words; deu | the-mainline-century-liberal-and-neo-orthodox, tradition |
+| era 9 row 223, Theodor Fliedner: a Life, in English | filled | `fliedner-life_life-of-pastor-fliedner-of-kaiserswerth_winkworth1867.txt` (1867); 54,506 words; eng | the-reveil-and-inner-mission-awakening, context |
+| era 9 row 223, the Fliedners: an English account of Kaiserswerth | filled | `kaiserswerth_institution-of-kaiserswerth-on-the-rhine_1851.txt` (1851); 8,938 words; eng | the-reveil-and-inner-mission-awakening, context |
+| era 9 row 223, the Fliedners: Kaiserswerth's own jubilee memoir, in German | filled | `disselhoff_jubilate-denkschrift-kaiserswerth-deu_1886.txt` (1886); 188,677 words; deu | the-reveil-and-inner-mission-awakening, tradition (needs-ruling) |
+| era 9 row 224, Hendrik de Cock: two of his first writings | filled | `cock_twee-der-eerste-geschriften-nld_1882.txt` (1882); 29,001 words; nld | dutch-neo-calvinism-secession-churches, tradition |
+| era 9 row 225, Paul Petter Waldenstrom: a book of his in English | filled | `waldenstrom_blood-of-jesus_princell1888.txt` (1888); 17,269 words; eng | laestadianism-and-the-nordic-revivals, tradition |
+| era 9 row 195, Ignaz von Dollinger: his declarations and letters on the Vatican decrees, in English | filled | `dollinger_declarations-and-letters-on-the-vatican-decrees-1869-1887_1891.txt` (1891); 42,789 words; eng | old-catholic-churches-union-of-utrecht, tradition |
+| era 9 row 201, Cyril IV: a church history of Egypt before 1931 | filled | `butcher_story-of-the-church-of-egypt-v2_1897.txt` (1897); 144,216 words; eng | coptic-revival-under-cyril-iv, context |
+| era 9 row 200, Joseph Audo: the acts of the Vatican council | filled | `collectio-lacensis_t7-acta-et-decreta-concilii-vaticani-lat_1892.txt` (1892); 1,181,347 words; lat | catholic-church-long-nineteenth-century, tradition |
+| era 9 row 202, Ioann Veniaminov: his Notes on the Unalaska islands, part 1 | filled | `veniaminov_zapiski-ob-ostrovakh-unalashkinskago-otdela-ch1-rus_1840.txt` (1840); 66,278 words; rus | alaskan-mission-herman-veniaminov, tradition |
+| era 9 row 202, Ioann Veniaminov: his Notes on the Unalaska islands, part 2 | filled | `veniaminov_zapiski-ob-ostrovakh-unalashkinskago-otdela-ch2-rus_1840.txt` (1840); 78,182 words; rus | alaskan-mission-herman-veniaminov, tradition |
+| era 9 row 202, Ioann Veniaminov: an English account before 1931 | filled | `hale_innocent-of-moscow-apostle-of-kamchatka-and-alaska_1888.txt` (1888); 8,743 words; eng | alaskan-mission-herman-veniaminov, context |
+| era 9 row 198, Nikolai of Japan: a Russian account of the Japan mission | filled | `pravoslavie-v-iaponii_pravoslavie-v-iaponii-rus_1889.txt` (1889); 3,933 words; rus | russian-church-synodal-century, japanese-christianity-hidden-emergence-meiji, context |
+| era 9 row 185, Hong Xiuquan: the kingdom's own printed books, in translation | filled | `medhurst_pamphlets-issued-by-the-chinese-insurgents-at-nan-king_1853.txt` (1853); 106,466 words; eng | taiping-heavenly-kingdom, tradition |
+| era 9 row 185, Hong Xiuquan: an outside account | filled | `callery-yvan_history-of-the-insurrection-in-china_oxenford1854.txt` (1854); 88,299 words; eng | taiping-heavenly-kingdom, context |
+| era 9 row 185, Hong Xiuquan: an account that quotes the record of his visions | filled | `lindley_ti-ping-tien-kwoh-v1_1866.txt` (1866); 156,700 words; eng | taiping-heavenly-kingdom, context (needs-ruling) |
+| era 9 row 203, Samuel Ajayi Crowther: his journal of 1854 | filled | `crowther_journal-of-an-expedition-up-the-niger-and-tshadda_1855.txt` (1855); 68,238 words; eng | the-missionary-movement-s-native-churches-seramp, tradition |
+| era 9 row 203, Samuel Ajayi Crowther: his journal of 1841 | filled | `schon-crowther_journals-of-the-niger-expedition-of-1841_1842.txt` (1842); 98,364 words; eng | the-missionary-movement-s-native-churches-seramp, tradition |
+| era 9 row 203, Samuel Ajayi Crowther: a Life | filled | `page_black-bishop-samuel-adjai-crowther_1908.txt` (1908); 146,120 words; eng | the-missionary-movement-s-native-churches-seramp, context (needs-ruling) |
+| era 9 row 204, J. Hudson Taylor: a Life (the early years) | filled | `taylor-howard_hudson-taylor-in-early-years_1912.txt` (1912); 206,805 words; eng | the-missionary-movement-s-native-churches-seramp, context (needs-ruling) |
+| era 9 row 205, Xi Shengmo (Pastor Hsi): a Life (the early life) | filled | `taylor-howard_one-of-chinas-scholars-pastor-hsi_1909.txt` (1909); 169,725 words; eng | the-missionary-movement-s-native-churches-seramp, context (needs-ruling) |
+| era 9 row 206, Ludwig Ingwer Nommensen: the obituary by J. Warneck | filled | `allgemeine-missions-zeitschrift_jg45-46-deu_berlin1918-1919.txt` (1918); 281,883 words; deu | indonesian-christianity-the-independent-century, context |
+| era 9 row 209, Johann Ludwig Krapf: his Travels | filled | `krapf_travels-researches-and-missionary-labours-in-eastern-africa_1860.txt` (1860); 169,566 words; eng | east-african-christianity-uganda-martyrs, tradition |
+| era 9 row 210, Charles Lwanga: a missionary's account of Uganda (it does not name him) | filled | `ashe_chronicles-of-uganda_1895.txt` (1895); 116,463 words; eng | east-african-christianity-uganda-martyrs, tradition |
+| era 9 row 211, Tiyo Soga: a Life | filled | `chalmers_tiyo-soga-a-page-of-south-african-mission-work_1877.txt` (1877); 155,925 words; eng | southern-african-mission-churches, context |
+| era 9 row 220, James Thomson: his Letters | filled | `thomson_letters-on-the-moral-and-religious-state-of-south-america_1827.txt` (1827); 76,816 words; eng | nineteenth-century-latin-american-catholicism, context |
+| era 9 row 186, Antonio Conselheiro: a second witness in English | filled | `cunninghame-graham_brazilian-mystic-antonio-conselheiro_1920.txt` (1920); 68,385 words; eng | canudos-belo-monte, context (needs-ruling) |
+| era 9 row 219, Jerry McAuley: his life and his own account | filled | `offord_jerry-mcauley-his-life-and-work_2nd-ed1885.txt` (1885); 72,189 words; eng | the-rescue-mission-movement, context (needs-ruling) |
+| era 9 row 219, Jerry McAuley: his own account | filled | `mcauley_transformed-or-the-history-of-a-river-thief_1876.txt` (1876); 12,743 words; eng | the-rescue-mission-movement, tradition (needs-ruling) |
+| era 9 row 183, George Muller: his Narrative, condensed for American readers | filled | `muller_life-of-trust_wayland1868.txt` (1868); 175,445 words; eng | plymouth-brethren-and-dispensational-formation, tradition |
+| era 9 row 191, Catherine Booth: a Life (vol. 1), which tells of her Female Ministry of 1859 | filled | `booth-tucker_life-of-catherine-booth-v1_1893.txt` (1893); 225,473 words; eng | the-salvation-army, context |
+| era 9 row 214, Evan Roberts: accounts of the revival printed in 1905 | filled | `story-of-the-welsh-revival_told-by-eyewitnesses_3rd-ed1905.txt` (1905); 30,623 words; eng | the-1904-07-revival-family-wales-mukti-india-pyo, context |
+| era 9 row 208, David Jones and David Griffiths: Ellis, History of Madagascar, vol. 1 | filled | `ellis_history-of-madagascar-v1_1838.txt` (1838); 173,516 words; eng | malagasy-christianity, context |
+| era 9 row 208, David Jones and David Griffiths: Ellis, History of Madagascar, vol. 2 | filled | `ellis_history-of-madagascar-v2_1838.txt` (1838); 176,610 words; eng | malagasy-christianity, context |
+| era 9 row 200, Joseph Audo: an English witness | held already | `badger_nestorians-and-their-rituals-v1_1852.txt`, `-v2_1852.txt` | — |
+| era 9 row 181, John Nelson Darby: the Letters and the Collected Writings | not found | — | Only reprints of 1964 and 1974. Four smaller books of his own are located (1863-1900). |
+| era 9 row 197, Ambrose of Optina: his letters and an early Life | not found | — | About twelve queries, in Cyrillic and in transliteration. |
+| era 9 row 199, Mkrtich Khrimian: his writings | located, not vendored | — | Six Armenian printings (1877-1929); the OCR of the four sampled cannot be read. No English account before 1931. |
+| era 9 row 207, Kiai Sadrach: Dutch mission reports | not found | — | archive.org only; dbnl.org not yet searched. |
+| era 9 rows 212 and 213, Nehemiah Tile and Mangena Mokone | not found | — | Neither is named in the Native Affairs Commission report of 1903-05 or in five 1896 numbers of the Voice of Missions. Sundkler (1948) is out by date. |
+| era 9 rows 186 and 187, Os Sertoes (3rd ed., 1905) | held for Mark | — | `004518-completo` on archive.org: clean OCR and a Public Domain Mark, but the Brasiliana USP notice in the file asks for non-commercial use and no republication without leave. |
+| era 9 row 192, Johann Hinrich Wichern: the Denkschrift | located, not vendored | — | Third edition, Hamburg 1889; the black-letter OCR cannot be read. The editions of 1849 were not found. |
+| era 9 row 193, Abraham Kuyper: Calvinism, the Stone Lectures | not taken yet | — | Three scans; none prints a year, and the same check is owed. A Life before 1931 was not found. |
+| era 9 row 194, Herman Bavinck: the Gereformeerde Dogmatiek | not found | — | The one item has no text on the host. |
+| era 9 row 195, Ignaz von Dollinger: Friedrich's Life; the Briefe und Erklarungen in German | located, not vendored | — | Both are black letter with OCR that cannot be read. |
+| era 9 row 196, C. F. W. Walther: the constitution of 1847 | located, not vendored | — | Printed in Der Lutheraner, the fourth year (`DerLutheraner04`); no separate print found. |
+| era 9 row 173, Ellen G. White: Spiritual Gifts | not found before 1931 | — | A facsimile of 1945 and typed transcriptions only. |
+| era 9 row 178, John Thomas: Eureka; a Life | not found | — | About eight queries. |
+| era 9 row 183, George Muller: the Narrative, parts 1 to 3 | not found | — | Wayland's Life of Trust (1868), which condenses the four parts, was taken in their place. |
+| era 9 row 185, Hong Xiuquan: Hamberg, The Visions of Hung-Siu-tshuen (1854) | not found | — | Lindley (1866) quotes Hamberg's narrative at length. |
+| era 9 row 191, Catherine Booth: Female Ministry (1859) | not found before 1931 | — | A reprint of 1975 only. Booth-Tucker's Life, vol. 1, tells of it. |
+| era 9 row 204, Hudson Taylor: A Retrospect | not taken yet | — | No scan prints a year on its title page; a dated preface or copyright notice has still to be checked against the catalogue. |
+| era 9 row 210, Charles Lwanga: a martyr account that names him | not taken yet | — | Walsh's book has a chapter on him but prints no year; the same check is owed. |
+| era 9 row 214, Evan Roberts: his own words; War on the Saints | not found before 1931 | — | Reprints of 1964 to 1994 only. |
+| era 9 row 218, David Lipscomb: the 1906 census letters | not found | — | Religious Bodies 1906, vol. 2, does not name him. |
+| era 9 row 222, Hugh Bourne: History of the Primitive Methodists (1823) | not found | — | Five queries. |
+| era 9 row 224, Hendrik de Cock: the Act of Secession of 1834; a Life | not found | — | Rullmann (1930) is located. |
+| era 9 row 225, Paul Petter Waldenstrom: a book in Swedish | located, not vendored | — | One printing of 1875 has OCR that cannot be read; two others carry NC licenses and are held for Mark. |
+
+**Cautions for profile writers (era 9, batch 1)**
+
+- **Translation only.** Harnack (1901), Waldenstrom (1888), Dollinger's Declarations (1891), the Life of
+  Fliedner (1867), Callery and Yvan (1854) and the Taiping pamphlets (Medhurst 1853) are English translations.
+  Harnack's German is also held. The German of Dollinger and the Swedish of Waldenstrom are not.
+- **Not the person's own words.** Row 167 (Moody) is the Life by his son; no volume of his sermons was taken.
+  Row 198 (Nikolai of Japan) is a short Russian account by another hand. Row 201 (Cyril IV) is an English
+  history that calls him "Cyril the Reformer". Row 206 (Nommensen) is a three-page obituary inside two bound years of a periodical. Row 210 (Lwanga): Ashe's Chronicles of Uganda does not name him. Row 222 (Bourne) is a Life of 1872.
+  Row 223 (the Fliedners): none of the three files is in their own words.
+- **Author not named on the title page.** Millennial Dawn, vol. 1 (the host names Russell); the Institution of
+  Kaiserswerth, 1851 (the host names Florence Nightingale); the Life of Pastor Fliedner; the Russian pamphlet on
+  Japan (the host names Makarov); Spurgeon's Autobiography (compiled by his wife and secretary, unnamed); the
+  Memoir of Groves ("by his widow"); the two "Case against Professor Briggs" parts.
+- **Later editions.** Finney's Lectures (sixth edition, 1835); Parker's Discourse (third, 1847) and Ten Sermons
+  (second, 1861); Gladden (ninth, 1897); Hinton's Knibb (second, 1849); Groves's Memoir (third, 1859); Science
+  and Health (161st, 1899, not the text of 1875); Tract 90 (second, 1841); Millennial Dawn (the title page reads
+  1886; a library stamp reads 1906); One of China's Scholars (the printing of 1909; the same scan holds Pastor Hsi: One of China's Christians, twelfth edition, from OCR line 7854).
+- **Part of a larger work.** Vol. 1 only: Spurgeon's Autobiography, Liddon's Pusey, Coleridge's Keble, the
+  Journal of Discourses, Home-Talks, the History of the Church, Lindley. Muller's Narrative is the
+  fourth part only. Irving's Collected Writings is vol. 5 only. Butcher is vol. 2 only.
+- **Mixed voices.** Stone's Biography: his own narrative is chapters I to X; chapters XI and XII and the
+  additions are Rogers's. The Philadelphia Declaration of 1828 is bound with four later Friends' pamphlets
+  (1838-1852). De Cock's volume: he issued the two pieces; the letters of the second are by others. The Apologia is bound with the Kingsley correspondence. The Journal of Discourses has many
+  speakers. The Niger journals of 1842 give Schon first, then Crowther. The Presbyterian Review number holds
+  other articles after "Inspiration". The Vatican council volume is about 1.17 million words; Audo is spelled
+  "Audu" in it.
+- **OCR.** Der Lutheraner (black letter) is fair at best. Veniaminov's Russian is fair, in the old spelling.
+  Phillips's Welsh Life has a publisher's list before its title page.
+- **No year on the title page.** Offord's McAuley, McAuley's Transformed, Booth-Tucker's Life of Catherine
+  Booth, The Story of the Welsh Revival and Ellis's Madagascar are dated from a copyright notice or a preface,
+  as their headers say. Ellis, vol. 2, prints no date of its own.
+- **Bavinck:** Magnalia Dei is not the Dogmatiek. **Lipscomb:** Queries and Answers (1910) is his own writing,
+  not the census letters. **Gurney:** the 1824 title reads "Religious Peculiarities".
 
 ## Later — queued
 

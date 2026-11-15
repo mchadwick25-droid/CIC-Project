@@ -1,0 +1,19 @@
+source_file: acta-sanctorum_julii-tomus-3-lat-grc_palme1868.txt
+authors_ruled:
+  leontius-of-mar-saba:
+    kind: metadata-omission
+    evidence: >
+      Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author. The Life's
+      own heading names him (file line 105585): 'Auctore Leontio sancti discipulo'. A mechanical index-coverage gap, not an attribution dispute.
+assignments:
+- row_id: acta-sanctorum_julii-tomus-3-lat-grc_palme1868--leontius-life-of-stephen-the-sabaite-latin
+  work: 'Leontius, Life of Stephen the Sabaite, Latin of Boschius (Acta Sanctorum, July III)'
+  author: leontius-of-mar-saba
+  locus: 'about OCR lines 105573-119702, the editors'' notes between chapters; the commentary from 104243; add 12 to OCR line numbers'
+  atlas_ids:
+  - melkite-arabic-christianity
+  role: tradition
+  confidence: provisional
+  language: lat
+  date: {formation_confidence: unknown, checked: "the heading of the Life (OCR lines 105573-105584) names Leontius as the saint's disciple and gives no year; the Bollandists' commentary was not read for a date"}
+  note: 'The Life of the monk of Mar Saba by his disciple; a Latin translation, headed as lacking its beginning.'

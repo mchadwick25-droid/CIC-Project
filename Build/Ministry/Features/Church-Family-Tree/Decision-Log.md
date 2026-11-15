@@ -3761,7 +3761,7 @@ The approved files are in `Who-Profiles/era4/batch11/` in this folder, and the r
 
 **Other story fields.** No title, teaser, text or caveat shows an id. 137 of the 168 story source notes say how the builder read the source ("consulted via summaries only", "known to me, not consulted"); that is a different fix and is left for Mark (Open-Gaps, below). The list is in the audit folder, `Other_Fields_Findings.md`.
 
-**What is still open.** Open-Gaps OGNUM, "The stories' 'How it connects' in the new voice (data release 45)" (2026-11-15). Approved to proceed (Mark, 2026-11-15: "use many for Le Chambon, approved, go ahead").
+**What is still open.** Open-Gaps 289, "The stories' 'How it connects' in the new voice (data release 45)" (2026-11-15). Approved to proceed (Mark, 2026-11-15: "use many for Le Chambon, approved, go ahead").
 
 ## 2026-11-15 — Cap ruling: the Abercius line and one check, story "How it connects" cleanup (data release 45)
 

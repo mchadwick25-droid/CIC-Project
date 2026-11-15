@@ -1,0 +1,22 @@
+source_file: campbell_christian-baptist-v5_bethany1828.txt
+assignments:
+- row_id: campbell_christian-baptist-v5_bethany1828--the-christian-baptist-published-monthly-edited-by-alexander
+  work: The Christian Baptist, published monthly. Edited by Alexander Campbell. Vol. V. Bethany, Brooke County,
+    Va.
+  author: campbell
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - the-stone-campbell-restoration-movement
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1827
+    end: 1828
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n9; the OCR does not give it cleanly'
+    formation_confidence: Documented
+  edition_date:
+    year: 1828
+    source: read on the scan's page image, leaf n9; the OCR does not give it cleanly
+    formation_confidence: Documented
+  note: 'Era 9 row 164, Alexander Campbell: one volume of the Christian Baptist.'
