@@ -3,6 +3,21 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: society-of-jesus-1650-1814
 works:
+- row_id: barros_vida-do-apostolico-padre-antonio-vieyra-por_1746--barros-vida-do-padre-antonio-vieyra
+  work: André de Barros, Vida do apostolico padre Antonio Vieyra (1746)
+  author: barros
+  locus: Livros I-V at OCR lines 1099-32571; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: por
+  date:
+    start: 1745
+    end: 1746
+    source: licences of 21 May 1745 and November 1746 (about OCR lines 166-870); title page
+      'M.D.CC.XLVI.'
+    formation_confidence: Documented
+  note: A Jesuit's Life of Vieira in five books. Its subject is Vieira; its voice is Barros.
+  source_file: barros_vida-do-apostolico-padre-antonio-vieyra-por_1746.txt
 - row_id: jesuit-relations_thwaites-v36-fra-eng_1896-1901--the-jesuit-relations-and-allied-documents-thwaites-vol-36-lower-canada-abenakis-1650-1651
   work: 'The Jesuit Relations and Allied Documents (Thwaites), Vol. 36: Lower Canada, Abenakis:
     1650-1651'
@@ -79,3 +94,66 @@ works:
   note: The Jesuits' own letters from the China mission in the eighteenth century. Within
     the windows of the Jesuit entry (1650-1814) and the Chinese Catholic entry (1650-1906).
   source_file: lettres-edifiantes_memoires-de-la-chine-t22-fra_1781.txt
+- row_id: vieira_cartas-tomo1-por_1735--vieira-cartas-tomo-1
+  work: Vieira, Cartas, tomo 1 (1735)
+  author: vieira
+  locus: Cartas I-CXXXXI at OCR lines 873-16398; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: por
+  date:
+    start: 1647
+    end: 1674
+    source: the first letter is dated September 1647 (OCR line 919) and the last Rome, 3 June
+      1674 (16243)
+    formation_confidence: Documented
+  note: Vieira's own letters to ministers, nobles and fellow Jesuits, first printed in 1735.
+    His voice; the editors' choice of letters.
+  source_file: vieira_cartas-tomo1-por_1735.txt
+- row_id: vieira_cartas-tomo2-por_1735--vieira-cartas-tomo-2
+  work: Vieira, Cartas, tomo 2 (1735)
+  author: vieira
+  locus: the letters at OCR lines 377-16219; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: por
+  date:
+    formation_confidence: unknown
+    checked: the title page and licences (OCR lines 23-375) date the print to 1734-1735; the
+      dates of the first and last letters were not read
+  note: Vieira's own letters to ministers, nobles and fellow Jesuits, first printed in 1735.
+    His voice; the editors' choice of letters.
+  source_file: vieira_cartas-tomo2-por_1735.txt
+- row_id: vieira_maria-rosa-mystica-parte1-por_1686--vieira-maria-rosa-mystica-part-1-sermons-i-xv
+  work: 'Vieira, Maria Rosa Mystica, part 1: sermons I-XV (1686)'
+  author: vieira
+  locus: sermons at OCR lines 311-45951; sermon XIV at 40117; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: por
+  date:
+    start: 1633
+    end: 1686
+    source: 'sermon XIV''s heading: ''Anno de 1633'' (OCR lines 40119-40121); title page ''M.
+      DC. LXXXVI.''; licences of 1685-1686 at 83-232'
+    formation_confidence: Documented
+  note: The preacher's Rosary sermons in his own Portuguese. Sermon XIV is headed as preached
+    to the brotherhood of the Blacks of a sugar mill in Bahia.
+  source_file: vieira_maria-rosa-mystica-parte1-por_1686.txt
+- row_id: vieira_maria-rosa-mystica-parte2-por_1688--vieira-maria-rosa-mystica-part-2-sermons-xvi-xxx
+  work: 'Vieira, Maria Rosa Mystica, part 2: sermons XVI-XXX (1688)'
+  author: vieira
+  locus: sermons at OCR lines 458 to about 43754; sermon XX at 12831, XXVII at 33001; add
+    12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: por
+  date:
+    start: 1688
+    end: 1688
+    source: 'title page: ''Anno M. DC. LXXXVIII''; licences of 1686-1687 at about OCR lines
+      113-330'
+    formation_confidence: Documented
+  note: The second half of the Rosary sermons. Sermons XX and XXVII speak of the Blacks, the
+    enslaved and their brotherhood.
+  source_file: vieira_maria-rosa-mystica-parte2-por_1688.txt

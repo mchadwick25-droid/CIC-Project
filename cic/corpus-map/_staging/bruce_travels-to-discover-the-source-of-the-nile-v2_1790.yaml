@@ -1,0 +1,13 @@
+source_file: bruce_travels-to-discover-the-source-of-the-nile-v2_1790.txt
+assignments:
+- row_id: bruce_travels-to-discover-the-source-of-the-nile-v2_1790--bruce-travels-vol-2
+  work: 'Bruce, Travels to Discover the Source of the Nile, vol. 2 (1790): Books III and IV, the annals of Abyssinia'
+  author: bruce
+  locus: 'Book III from about OCR line 596, Book IV at 18102-31720; David''s reign and the stoning of the missionaries at about 25626-25953; add 12 to OCR line numbers'
+  atlas_ids:
+  - ethiopian-christianity-gondar-to-the-zemene-mesafint
+  role: context
+  confidence: provisional
+  language: eng
+  date: {start: 1790, end: 1790, source: "title page: 'M.DCC.XC.'; the travels are dated 1768-1773 on the title page", formation_confidence: Documented}
+  note: 'A Scottish traveler''s annals of the kings of Abyssinia down to his own visit, with his own judgments. An outsider''s version.'

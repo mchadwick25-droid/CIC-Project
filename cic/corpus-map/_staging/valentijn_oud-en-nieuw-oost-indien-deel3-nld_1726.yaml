@@ -1,0 +1,24 @@
+source_file: valentijn_oud-en-nieuw-oost-indien-deel3-nld_1726.txt
+assignments:
+- row_id: valentijn_oud-en-nieuw-oost-indien-deel3-nld_1726--valentijn-ambonsche-zaaken-van-den-godsdienst
+  work: 'Valentijn, Oud en Nieuw Oost-Indiën, deel 3: the church affairs of Amboina (1726)'
+  author: valentijn
+  locus: 'Eerste to Derde Boek at OCR lines 399-29073; the Malay Bible dispute at about 13377-21829; the ministers'' lists at about 26632-29073; add 12 to OCR line numbers'
+  atlas_ids:
+  - protestant-churches-of-the-voc-world
+  role: tradition
+  confidence: provisional
+  language: nld
+  date: {start: 1726, end: 1726, source: "title page: 'MDCCXXVI'", formation_confidence: Documented}
+  note: 'A Dutch minister''s history of the church of Amboina and its ministers, with the dispute over the Malay Bible translation. The VOC church''s own voice.'
+- row_id: valentijn_oud-en-nieuw-oost-indien-deel3-nld_1726--valentijn-deel-3-other-lands
+  work: 'Valentijn, Oud en Nieuw Oost-Indiën, deel 3: Banda, Timor, Macassar, Borneo, Tonkin, Cambodia, Siam (1726)'
+  author: valentijn
+  locus: 'the second stuk at OCR lines 91531-165214; add 12 to OCR line numbers'
+  atlas_ids:
+  - protestant-churches-of-the-voc-world
+  role: tradition
+  confidence: needs-ruling
+  language: nld
+  date: {start: 1726, end: 1726, source: "title page: 'MDCCXXVI'", formation_confidence: Documented}
+  note: 'The minister''s descriptions of other lands of the Company''s trade. Church matters there were not mapped.'
