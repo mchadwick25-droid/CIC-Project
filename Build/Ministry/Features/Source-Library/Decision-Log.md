@@ -614,8 +614,9 @@ hosts and the cautions for writers are in `Build/Ministry/Operations/Audits/2026
   made without permission from Columbia University Library". Not taken; held for Mark.
 - **R7, first uses.** Niebuhr's Moral Man and Immoral Society (copyright 1932) is held: no renewal in either database.
   Houteff's Shepherd's Rod, volume 2 (1932) is not held: renewed in 1959.
-- **The registry accepts "Owner-declared free".** `cic/engine/texts_registry.py` clears a Rights line that begins
-  with those words, the class `cic/texts/INTAKE.md` section 2 names.
+- **The registry accepts "Owner-declared free" (Mark, through the coordinator, 2026-11-15: "Allow it
+  (Recommended)").** `cic/engine/texts_registry.py` clears a Rights line that begins with those words, the class
+  `cic/texts/INTAKE.md` section 2 names.
 
 **Not done.** The Azusa Street paper, the African-Initiated Churches people, Rātana, the Russian council's own prints
 and most Orthodox patriarchs have no held source: the reasons are row by row in `CFT-Wants.md`. The nine Church in
