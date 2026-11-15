@@ -146,8 +146,8 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Lambert of Saint-Omer's notice of Urban II: in 1096 (indiction 'vi' as printed), on the 14th day before the Kalends of December (18 November), the council sat at Clermont with 310 bishops, the pope presiding",
-        "witness": "liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt l.47693-47697",
+        "claim": "Lambert of Saint-Omer's notice of Urban II: in 1096 (indiction 'vi' as printed), on the 14th day before the Kalends of December (18 November), the council sat at Clermont with 310 bishops, the pope presiding; the same notice has Urban die in 1096 ('Et anno Domini mxcvi obiit')",
+        "witness": "liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt l.47693-47699",
         "witness_kind": "later narrative",
         "formation_confidence": "Documented"
       },
@@ -206,7 +206,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Headed in the Beauvais excerpts 'Ex Concilio Clavomontano' (OCR for Claromontano): kings and princes are forbidden to grant any investiture of church offices",
+        "claim": "Headed in the Beauvais excerpts 'Ex Concilio Clavomontano' (OCR for Claromontano), with no pope named: kings and princes are forbidden to grant any investiture of church offices",
         "witness": "mansi_sacrorum-conciliorum-collectio-tomus-21-lat_welter-facsimile1903.txt l.12045-12049",
         "witness_kind": "acts",
         "formation_confidence": "Documented"
@@ -372,6 +372,24 @@
         "witness": "acta-sanctorum_junii-tomus-5-lat_palme1867.txt l.26403-26405",
         "witness_kind": "modern reconstruction",
         "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "The editor of Bruno's Acta: among the councils held against simoniacs and lay investiture, Hugh of Die, legate of the apostolic see in Gaul, held a council at Clermont, early in 1077 or at the end of 1076",
+        "witness": "bruno-cologne_opera-omnia-with-acta-pl152-lat_migne1879.txt l.4329-4351",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Baluze: Urban II at the council of Clermont ruled that monks were not to place priests in the parish churches they hold without the bishops' consent",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-21-lat_welter-facsimile1903.txt l.27445-27448",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Duchesne heads his life of Urban II 'URBANUS II (1088-1099)'",
+        "witness": "liber-pontificalis_texte-introduction-commentaire-t2-lat-fra_duchesne1892.txt l.71346",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
       }
     ],
     "contested_claims": [
@@ -392,7 +410,7 @@
       },
       {
         "claim": "The year",
-        "sides": "1095: William of Tyre (WT l.6066-6067), the act of concord (PL159 l.74964), Urban's letter with Le Couteulx's year (CART l.13240-13241, 13316), Mirbt (MIRBT l.11220), Duchesne (LP2 l.71663-71665), and one Bollandist note (AASS-JUN5 l.26403-26405, '109S' in the OCR). 1096: Lambert of Saint-Omer, a contemporary hand by Duchesne (LP1 l.47694), Migne's heading to the act (PL159 l.74878), another Bollandist note (AASS-JUN5 l.148148-148149), and Baldric's printed 'anno subsequente (1096)' after a star-shower of April 1095 (PL166 l.77749-77751, 77773-77774), the bracket likely an editor's.",
+        "sides": "1095: William of Tyre (WT l.6066-6067), the act of concord (PL159 l.74964), Urban's letter with Le Couteulx's year (CART l.13240-13241, 13316), Mirbt (MIRBT l.11220), Duchesne (LP2 l.71663-71665), and one Bollandist note (AASS-JUN5 l.26403-26405, '109S' in the OCR). 1096: Lambert of Saint-Omer, a contemporary hand by Duchesne (LP1 l.47694); the same notice puts Urban's death in 1096 (LP1 l.47699), against 1099 in Duchesne (LP2 l.71346), Migne's heading to the act (PL159 l.74878), another Bollandist note (AASS-JUN5 l.148148-148149), and Baldric's printed 'anno subsequente (1096)' after a star-shower of April 1095 (PL166 l.77749-77751, 77773-77774), the bracket likely an editor's.",
         "formation_confidence": "Documented"
       },
       {
@@ -402,14 +420,19 @@
       },
       {
         "claim": "That Clermont prescribed the Hours of the Virgin for clergy",
-        "sides": "Ruinart's Life of Urban II ('Ferunt'), and Labbe tom. X col. 517, cited and accepted by the editor of Bruno's Acta (PL152 l.26613-26636); the editor doubts the apparition and Petreius's order (l.26582-26604, 26645-26654). No witness of the time among our sources.",
+        "sides": "Ruinart's Life of Urban II ('Ferunt'), and Labbe tom. X col. 517, cited and accepted by the editor of Bruno's Acta (PL152 l.26613-26636); the editor questions the apparition, without denying it outright (l.26582-26604), and says Petreius proves by no argument that it came before the council (l.26645-26654). No witness of the time among our sources.",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Which council of Clermont made the ban on lay investiture recited at Beauvais",
+        "sides": "Urban II's council of 1095: inferred from the items around it that name Urban at Clermont (M21 l.12064-12083). The heading names no pope (M21 l.12045). Hugh of Die held a council at Clermont about 1077, amid the councils against lay investiture (PL152 l.4329-4351).",
         "formation_confidence": "Inferential-Thin"
       }
     ],
     "absent_details": [
       {
         "detail": "The acts and the full list of canons",
-        "note": "Not held: Mansi tomus 20 is not among our sources. Canons reach us in Mirbt's extracts (MIRBT l.11220-11233) and in the Beauvais record of 1114 (M21 l.11936-12122)."
+        "note": "Not held: Mansi tomus 20 is not among our sources. Canons reach us in Mirbt's extracts (MIRBT l.11220-11233) and in the Beauvais record of 1114 (M21 l.11936-12122); Baluze describes one more (M21 l.27445-27448)."
       },
       {
         "detail": "A list of names",
@@ -450,7 +473,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Dominic joined Fulk, bishop of Toulouse, so that they might go to the Lateran council together; Jordan tells this a paragraph after the bishops' setting out, so the brief's first sentence joins the two",
+        "claim": "Dominic joined Fulk, bishop of Toulouse, so that they might go to the Lateran council together; Jordan tells this a paragraph after the two men of Toulouse gave themselves to Dominic",
         "witness": "acta-sanctorum_augusti-tomus-1-lat_1750.txt l.93039-93040, 93047-93050",
         "witness_kind": "later narrative",
         "formation_confidence": "Documented"
@@ -906,7 +929,7 @@
       },
       {
         "claim": "Whether the council was general (ecumenical) or local",
-        "sides": "Twelfth ecumenical: Denzinger's heading (denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.13857) and the notice in Mansi (innocent-iii_opera-with-gesta-innocentii-pl214-lat_migne1853.txt l.1036-1037); general council: Vitry (jacques-de-vitry_historia-orientalis-et-occidentalis-lat_1597.txt l.10743-10744), the Assisi catalogue (ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885.txt l.26432), the Four Masters (four-masters_annals-of-the-kingdom-of-ireland-v3-1172-1378-gle-eng_odonovan1856.txt l.16108). Local synod: the Pedalion (nikodemos-hagiorite_pedalion-canons-grc_1886.txt l.7141-7142). A pretended general council: Covel, Anglican, 1722 (covel_some-account-of-the-present-greek-church_1722.txt l.4909).",
+        "sides": "Twelfth ecumenical: the heading in Denzinger's Enchiridion (Bannwart, 1911) (denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.13857) and the notice in Mansi (innocent-iii_opera-with-gesta-innocentii-pl214-lat_migne1853.txt l.1036-1037); general council: Vitry (jacques-de-vitry_historia-orientalis-et-occidentalis-lat_1597.txt l.10743-10744), the Assisi catalogue (ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885.txt l.26432), the Four Masters (four-masters_annals-of-the-kingdom-of-ireland-v3-1172-1378-gle-eng_odonovan1856.txt l.16108). Local synod: the Pedalion (nikodemos-hagiorite_pedalion-canons-grc_1886.txt l.7141-7142). A pretended general council: Covel, Anglican, 1722 (covel_some-account-of-the-present-greek-church_1722.txt l.4909).",
         "formation_confidence": "Contested"
       },
       {
@@ -967,8 +990,8 @@
         "note": "Canon 2 condemns it without stating it, and no Amalrician text is held."
       },
       {
-        "detail": "A Cathar or Waldensian voice on the council",
-        "note": "Neither is held. The Library holds the Interrogatio Iohannis, a dualist apocryphon that Döllinger prints among his documents on the Cathars and notes in a second text from the Carcassonne inquisition records (Döllinger II), and the Waldensian poem the Nobla Leiczon. Neither speaks of the council."
+        "detail": "A Cathar or Waldensian voice of the time on the council",
+        "note": "Neither is held. The Library holds the Interrogatio Iohannis, a dualist apocryphon that Döllinger prints among his documents on the Cathars and notes in a second text from the Carcassonne inquisition records (Döllinger II), and the Waldensian poem the Nobla Leiczon. Neither speaks of the council. A later Waldensian voice is held. Jean Léger, pastor and moderator of the Vaudois churches, wrote in 1669 that transubstantiation became an article of faith under Innocent III at the Lateran council (leger_histoire-generale-eglises-vaudoises-livre1-fra_1669.txt l.17714-17715, 20345-20347)."
       },
       {
         "detail": "A Greek writer of the time on the council",
@@ -1167,8 +1190,8 @@
         "formation_confidence": "Contested"
       },
       {
-        "claim": "Nikephoros Kallistos's patriarch list ends with John XII and the return of Athanasios under Andronikos II, calls Andronikos 'the most pious emperor', and closes its count at the year 6800 (1292 in Migne's bracket); so it was written about 1300",
-        "witness": "nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865.txt l.283-284, 21320-21336, 21339, 21374-21377",
+        "claim": "Nikephoros Kallistos's patriarch list ends with John XII's nine years and the return of Athanasios under Andronikos II, and calls Andronikos 'the most pious emperor'; so it was written in his reign, about 1300; its count closes at the year 6800 (1292 in Migne's bracket), earlier than those last entries",
+        "witness": "nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865.txt l.283-284, 21320-21336, 21339, 21374-21377, 21391-21411",
         "witness_kind": "later narrative",
         "formation_confidence": "Widely Accepted"
       },
@@ -1228,7 +1251,7 @@
       },
       {
         "claim": "Glassberger's editors quote Salimbene's Latin: Gregory X dissolved at the council of Lyon the newly appeared mendicant orders, such as the Sack friars and the Apostles, to fulfill Innocent III's decree against new orders",
-        "witness": "glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.7323-7328",
+        "witness": "glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.7319-7324",
         "witness_kind": "later narrative",
         "formation_confidence": "Widely Accepted"
       },
@@ -1332,7 +1355,7 @@
       },
       {
         "claim": "What the mendicant decree did",
-        "sides": "Dissolved all mendicant orders but the Friars Minor and the Preachers, until something else was ordered: Glassberger (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.7301-7305). Forbade new orders such as the Sack friars and the Apostles: Salimbene, in Coulton's English and in Glassberger's editors' Latin (salimbene_from-st-francis-to-dante_coulton1907.txt l.16092-16094; glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.7323-7325). Banned for ever only the mendicant orders founded after the Fourth Lateran Council without the apostolic see's confirmation: Clement XIV, 1773 (mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.23010-23015). Left the Carmelites and Augustinians on sufferance until further order and let confirmed mendicant orders continue: Lea, 1888 (lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt l.1856-1862). The decree's text is not held.",
+        "sides": "Dissolved all mendicant orders but the Friars Minor and the Preachers, until something else was ordered: Glassberger (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.7301-7305). Dissolved the newly founded mendicant orders, such as the Sack friars and the Apostles: Salimbene's Latin, quoted by Glassberger's editors (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.7319-7321); in Coulton's English, Gregory forbade the Apostles' further multiplication (salimbene_from-st-francis-to-dante_coulton1907.txt l.16092-16094), and Coulton reports that Salimbene thought him inspired in abolishing the Order of the Sack (l.15763-15766). Banned for ever the mendicant orders founded after the Fourth Lateran Council without the apostolic see's confirmation: Clement XIV, 1773 (mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.23010-23015). Left the Carmelites and Augustinians on sufferance until further order, and let mendicant orders confirmed since the Lateran council continue, but admit no new members, acquire no new houses and sell nothing without the Holy See's license: Lea, 1888 (lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt l.1856-1865). The decree's text is not held.",
         "formation_confidence": "Contested"
       },
       {
