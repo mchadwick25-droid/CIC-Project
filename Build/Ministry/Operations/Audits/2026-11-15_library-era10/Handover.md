@@ -5,7 +5,7 @@ The coordinator is session_01JMNsSAmN1HUCBWPQWS4gro (the Church Family Tree coor
 
 ## Where things stand
 
-- Batch 1: 94 files, 10,208,969 words, branch `claude/library-era10-majors`. Records: `CFT-Wants.md` ("Era 10 ...
+- Batch 1: 94 files, 10,208,969 words, branch `claude/library-era10-majors`, pull request #1689. Records: `CFT-Wants.md` ("Era 10 ...
   batch 1"), `Decision-Log.md` (last entry), `Search_Log.md`, `R1_review.md`, `R1_changes.md` and the round 2 recheck
   in this folder.
 - Rights: Mark's rulings R1 to R11 (`Decision-Log.md`, "Era 10 rights rulings") and R12 (the batch 1 entry). Calls made
@@ -68,7 +68,8 @@ Batch 3, proposed: the remaining non-major people, mostly American books of 1931
 
 ## Open with the coordinator
 
-- Bultmann's Jesus (1926) rests on a dated afterword with the catalog date agreeing; R12 names a preface.
+- The change to `cic/engine/texts_registry.py` (it accepts "Owner-declared free") is Mark's call; the coordinator has asked him.
+- Open-Gaps 290 carries what stays unfilled and what is held for Mark.
 - The eleven files taken on the coordinator's call (a year only inside the title): Mark may overrule.
 - Whether the living marks after 2010 (Open-Gaps 162) are the Library's.
 - A second independent rendering (R11) will be needed for the Latin held with no old English: Mortalium animos,

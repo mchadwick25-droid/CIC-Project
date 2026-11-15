@@ -35,6 +35,7 @@ corrected by hand afterward, in the header and the registry note.
 ## Not changed
 
 - Bultmann: the date rests on a dated afterword with the catalog date agreeing. The header says "afterword". R12 names
-  a preface; an afterword dated by the author is the same kind of evidence. Flagged to the coordinator.
+  a preface; an afterword dated by the author is the same kind of evidence. Flagged to the coordinator, who ruled that it
+  counts (Search_Log, the calls table).
 - Page-image claims cannot be checked by a read-only reviewer. Each was read by the thread or a searcher and is named
   as a page-image reading in its header.
