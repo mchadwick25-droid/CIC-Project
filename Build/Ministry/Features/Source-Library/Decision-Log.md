@@ -584,6 +584,42 @@ one at a time. Mark's picked option is in quotes.
 HathiTrust item are in the Church Family Tree `Open-Gaps.md`.
 
 **Not done.** No text vendored, no file header edited, no letter sent. The nine Church in
+## 2026-11-15 — Era 10, batch 1: the major people, the conferences and the Acts to 1930
+
+**Done.** 94 files (10,208,969 words) for the era 10 wants, under the rights rulings of 2026-11-15. The files, their
+rights bases and the rows not filled are in `CFT-Wants.md` ("Era 10 ... batch 1"). The search record, the refused
+hosts and the cautions for writers are in `Build/Ministry/Operations/Audits/2026-11-15_library-era10/Search_Log.md`.
+
+**Decided during the batch.**
+
+- **R12, a title page with no year (Mark, 2026-11-15: "Copyright notice yes, preface with a check").** Where a title
+  page prints no year, a copyright notice dated 1930 or earlier counts. A dated preface counts only when the library
+  catalog's date agrees. The header records the date used and where it was found. The ruling came with the Library
+  threads' briefs and is recorded here and in `cic/texts/INTAKE.md` section 2. Nineteen files of this batch rest on it.
+- **The Dictionary of African Christian Biography is CC BY-NC (Mark, through the coordinator, 2026-11-15).** R2 was
+  made on the site footer's words, "openly licensed via CC BY 4.0". The site's usage page
+  (https://dacb.org/about/usage/) says: "DACB is licensed under a Creative Commons Attribution-NonCommercial 4.0
+  International License ... Posting on websites containing advertising and all other commercial uses require the
+  express written consent of the DACB." R2's line on the dictionary is superseded by R3: cite and link, nothing held.
+- **The Catholic Worker: "Original paper scans only" (Mark, through the coordinator, 2026-11-15).** The owner's
+  sentence, "Content from The Catholic Worker paper is not copyrighted", stands on a page that also puts the site's
+  content under a non-commercial license. Scans of the printed paper are taken on the sentence; the site's own
+  transcriptions are cite and link. Held so far: the issue of June 1969, and Maurin's Catholic Radicalism (1949),
+  whose own title-page verso says its contents are not copyrighted.
+- **A year printed only inside the work's title (coordinator, 2026-11-15; Mark may overrule).** Taken where the
+  publisher and place on the title page are the first printing's, nothing in the scan names a later printing, and the
+  library catalog date agrees. Eleven files: the Edinburgh 1910 report, Lambeth 1930, the Shanghai report of 1922.
+- **A permission notice on a library's film (this thread, under the base rule).** Loisy's L'Évangile et l'Église
+  (1902) exists only as a scan of a Columbia University preservation film whose target reads "Reproductions may not be
+  made without permission from Columbia University Library". Not taken; held for Mark.
+- **R7, first uses.** Niebuhr's Moral Man and Immoral Society (copyright 1932) is held: no renewal in either database.
+  Houteff's Shepherd's Rod, volume 2 (1932) is not held: renewed in 1959.
+- **The registry accepts "Owner-declared free" (Mark, through the coordinator, 2026-11-15: "Allow it
+  (Recommended)").** `cic/engine/texts_registry.py` clears a Rights line that begins with those words, the class
+  `cic/texts/INTAKE.md` section 2 names.
+
+**Not done.** The Azusa Street paper, the African-Initiated Churches people, Rātana, the Russian council's own prints
+and most Orthodox patriarchs have no held source: the reasons are row by row in `CFT-Wants.md`. The nine Church in
 Conversation design questions (D1 to D9) stay open.
 
 ### Next action
@@ -621,6 +657,68 @@ record: `Build/Ministry/Operations/Audits/2026-11-15_library-eras4-5-b/Search_Lo
 ### Next action
 
 Era 8 (1650-1815), by region, each batch in its own pull request.
+
+## 2026-11-15 — Shelf rulings: the 39 `needs-ruling` groups answered
+
+Mark ruled on the `needs-ruling` shelf rows of eras 1-10. He picked items 1 to 4 himself, one by one, then said:
+"follow your recomondations for all shelfs". The coordinator's recommendations are therefore his rulings.
+
+**The principle used.** A tradition's own text with a doubt about date or authorship stays tradition, with the
+doubt stated in the shelf row's note. A later reworking or compilation by others is context. A work written before
+an entry's window that the entry grows from is antecedent. Outside witnesses with no census entry of their own stay
+context on the nearest entry where they now sit, and each missing entry is logged as a census gap (Open-Gaps
+288). No new census entry was made.
+
+**The rulings.** Every row below now carries confidence `assigned`.
+1. Manichaean texts (4 files), `manichaeism`: tradition; the manuscripts are of the 8th-10th centuries.
+2. Agathangelos (Lagarde 1887; Langlois 1867-69), `armenian-christianity-conversion-era`: tradition; the version is usually dated after 451 and its date is not settled.
+3. Nau's Maronite texts (2 files), `maronite-christianity`: antecedent; the date and John Maron's authorship are disputed.
+4. Latin Life of Sabas (Surius 1880), `chalcedonian-monasticism-judean-desert-and-gaza`: context; a possible Metaphrastes reworking, and Cyril is quoted only from Cyril's own edition.
+5. Paul of Samosata fragments (Loofs 1924; Bardy 1923), `antiochene-church-third-century`: tradition; which fragments are his is disputed.
+6. Naironus 1679: no shelf for now; census gap logged.
+7. Life of Tarasius (PG 98), `byzantine-imperial-church-heraclian-iconoclast`: tradition; the volume gives no date of writing.
+8. Life of Robert of Molesme (PL 157; Acta Sanctorum April III), `cistercian-monasticism`: tradition; Molesme's telling, not Cîteaux's, and later than Robert.
+9. Clare's letters in Tanner's Latin (Acta Sanctorum March I), `the-franciscan-movement`: tradition, marked as a translation (a `translator` field), never quoted as Clare's own Latin.
+10. Raymond of Capua, Life of Catherine (Acta Sanctorum April III): tradition on `latin-papal-church-avignon-to-lateran-v`, the entry Catherine of Siena's Who profile (era 6 batch 2) sits on. Nothing moved.
+11. George Metochites, Historia dogmatica (the Mai volume): a new shelf row on `byzantine-church-after-1054`, tradition, as Bekkos is there. The author index had no slug for him, so the staging file carries an `authors_ruled` block (`george-metochites`).
+12. Euthymius of Tarnovo (Kaluzniacki 1901), `serbian-and-bulgarian-medieval-monasticism`: tradition; no entry is the Bulgarian church of his day.
+13-15. Ibn Battuta (4 vols), Ibn Khaldun (7 files), al-Qalqashandi (2 files): context where they sit.
+16. Katharina Schütz Zell (Füsslin 1753 tradition; Röhrich 1855 context), `lutheran-wittenberg-and-its-congregations`: as placed.
+17. Ottoman witnesses and Busbecq vol. 1 (5 files), `orthodoxy-under-the-ottomans-parish-millet-and-n`: context, as placed.
+18. Jewish chroniclers (5 files), `the-tridentine-church`: context, as placed.
+19. Guicciardini (4) and Machiavelli (4), `the-tridentine-church` and `latin-papal-church-avignon-to-lateran-v`: context, as placed.
+20. Bodin, Montaigne, Busbecq vol. 2 (6 files), `the-huguenots`: context, as placed.
+21. Leo Africanus (3 vols), `the-coptic-church-under-the-ottomans`: context, as placed.
+22. Matthew of Edessa (Dulaurier 1858): tradition on `armenian-cilicia`; context on `bagratid-armenian-christianity`.
+23. John of Damascus, sermons on the Assumption (Allies 1898), `melkite-arabic-christianity`: tradition.
+24. John of Jerusalem, Life of John of Damascus (PG 94), `melkite-arabic-christianity`: tradition; no date of writing in the volume.
+25. Michael the Monk, Life of Theodore the Studite (PG 99), `iconophile-byzantine-monasticism`: tradition; same note.
+26. Life of Stephen the Younger (PG 100), `iconophile-byzantine-monasticism`: tradition; same note.
+27. Vita Euthymii (de Boor 1888), `byzantine-imperial-church-macedonian`: tradition; same note.
+28. The Iviron Lives (Peeters 1917-19), `georgian-revival-tao-klarjeti` and `the-georgian-golden-age`: tradition on both; their dates of writing against the two windows are not settled.
+29. Stephen Harding, Charta caritatis and Exordium (PL 166), `cistercian-monasticism`: tradition; authorship and date are disputed.
+30. Norbert of Xanten, Vita B (PL 170), `canons-regular-victorine-school`: tradition; the Premonstratensians are canons regular but a distinct order.
+31. Bruno of Cologne (PL 152), `carthusian-life`: the one row is split in two. The Acta S. Brunonis becomes context (a later compilation); the Commentarium in Psalmos, printed under Bruno's name, stays tradition.
+32. Brother Leo's Scripta (Lemmens 1901) and the Speculum perfectionis (Sabatier 1898; Evans 1899): tradition where placed; date and attribution to Leo are contested.
+33. Agnes of Prague's Legend (Seton 1915), `the-franciscan-movement`: context, as placed; Seton dates it 1282-1328.
+34. Joachim of Fiore, Tractatus (Buonaiuti 1930), `joachimite-current`: antecedent. The Life of Joachim (Acta Sanctorum May VI): context.
+35. The Mirror of Simple Souls (1927 English), `free-spirit-heresy` and `the-beguines`: tradition on both; scholars attribute it to Marguerite Porete and the volume does not name her.
+36. Gregory Pakourianos, Typikon (Mousaios 1890), `the-georgian-golden-age`: tradition; the editor prints a later Greek version, not the original.
+37. Meyer's typikon of 1394, `hesychasm-and-the-palamite-synthesis`: context (a monastic rule of the right time and place, not a hesychast teaching text).
+38. Ukrainian Orthodoxy after 1700 (2 files), `russian-church-nikon-to-holy-synod`: tradition; Kyiv then lay inside that church.
+39. Underwood, The Call of Korea (1908): moved from `the-missionary-movement-s-native-churches-seramp` to `korean-protestantism-twentieth-century` (1907-c. 2010), tradition. AP15 (G89-34 b) is a hold on a gap of 1884-1906 ("hold for sources, then named lines"), not a ruling on this shelf, so it did not block the move.
+
+**Changed.** The staging files in `cic/corpus-map/_staging/` and the buckets the merge regenerates;
+`UNATTRIBUTED.yaml` (the `george-metochites` ruling); `CFT-Wants.md` rows that said `needs-ruling`.
+
+**Not changed.** The older world-build rows in `Build/worlds/_cross-world/NEEDS-RULING.md`, the other `needs-ruling`
+shelf rows not named in the 39, and `cic-website/data/corpus-coverage.json` (its generator already differs from
+the committed copy on `main`, so it is left to the pass that owns it).
+
+### Next action
+
+Mark weighs the census-gap candidates (Open-Gaps 288) for future census entries.
+
 ## Era 9, batch 1: the major figures (2026-11-15)
 
 Ninety-nine files for the 63 person rows marked major in the wanted list (rows 163-225). Record:
@@ -660,6 +758,8 @@ Ninety-nine files for the 63 person rows marked major in the wanted list (rows 1
 
 Era 9, batch 2, in a fresh session: the person rows not marked major (226-330), the era 9 outside witnesses and
 council records, the held eras 8-9 items, and the texts of this batch still owed a date check.
+Era 10, batch 2: a second pass by region for the rows marked not found (Africa, Oceania, the Orthodox churches), more
+original scans of the Catholic Worker paper, and the council leads not yet searched.
 
 ## Era 9, batch 2b: rows 227-245, 249-262, 267-278, 323 and 327-330 (2026-11-15)
 

@@ -7,8 +7,8 @@ assignments:
   atlas_ids:
   - cistercian-monasticism
   role: tradition
-  confidence: needs-ruling
-  note: 'The same Life as in PL 157, in the Bollandists'' printing; that copy reads more cleanly. The placing needs the same ruling.'
+  confidence: assigned
+  note: "The same Life as in PL 157, in the Bollandists' printing; that copy reads more cleanly. It is Molesme's telling, not Cîteaux's, and later than Robert."
 - row_id: acta-sanctorum_aprilis-tomus-3-lat_palme1866--raymond-of-capua-life-of-catherine-of-siena-legenda-maior
   work: 'Raymond of Capua, Life of Catherine of Siena (Legenda maior), Acta Sanctorum April III'
   author: acta-sanctorum
@@ -16,5 +16,5 @@ assignments:
   atlas_ids:
   - latin-papal-church-avignon-to-lateran-v
   role: tradition
-  confidence: needs-ruling
-  note: 'Her confessor''s Life, the Dominican order''s own account of her. Vendored for the era 6 want and not read in depth; which entry holds Catherine needs a ruling.'
+  confidence: assigned
+  note: "Her confessor's Life, the Dominican order's own account of her. Not read in depth. Catherine of Siena's Who profile sits on this entry."

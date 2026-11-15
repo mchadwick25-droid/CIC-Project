@@ -6,6 +6,6 @@ assignments:
   locus: 'the introduction at about OCR lines 190-340; add 12 to OCR line numbers'
   atlas_ids:
   - maronite-christianity
-  role: tradition
-  confidence: needs-ruling
-  note: 'The Maronites'' own old Syriac texts. Their dates and the authorship of John Maron are disputed, and they may be earlier than this window; the placing needs a ruling.'
+  role: antecedent
+  confidence: assigned
+  note: "The Maronites' own old Syriac texts, written before this entry's window. Their date and John Maron's authorship are disputed."

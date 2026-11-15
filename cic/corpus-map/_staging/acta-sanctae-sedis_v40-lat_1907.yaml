@@ -1,0 +1,11 @@
+source_file: acta-sanctae-sedis_v40-lat_1907.txt
+assignments:
+- row_id: acta-sanctae-sedis_v40-lat_1907--acta-sanctae-sedis-volume-40-1907-lamentabili-pascendi
+  work: 'Acta Sanctae Sedis, volume 40 (1907): Lamentabili, Pascendi, Praestantia Scripturae'
+  author: acta-sanctae-sedis
+  locus: 'Lamentabili, lines 19733-20106; Pascendi, lines 24127-25686; Praestantia Scripturae, lines 28396-28503'
+  atlas_ids:
+  - the-catholic-church-pius-x-to-the-council
+  role: tradition
+  confidence: assigned
+  note: 'Rome''s own Latin texts as first printed in 1907.'

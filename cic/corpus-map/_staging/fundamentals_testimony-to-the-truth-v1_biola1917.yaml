@@ -1,0 +1,11 @@
+source_file: fundamentals_testimony-to-the-truth-v1_biola1917.txt
+assignments:
+- row_id: fundamentals_testimony-to-the-truth-v1_biola1917--the-fundamentals-a-testimony-to-the-truth-volume-1-1917
+  work: 'The Fundamentals: A Testimony to the Truth, volume 1 (1917 edition)'
+  author: fundamentals
+  locus: 'whole'
+  atlas_ids:
+  - fundamentalism-1910-1970s
+  role: tradition
+  confidence: assigned
+  note: 'The movement''s own essays, many authors.'

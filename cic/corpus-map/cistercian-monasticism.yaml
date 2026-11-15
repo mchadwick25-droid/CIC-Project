@@ -81,19 +81,19 @@ works:
   author: robert-molesme
   locus: about OCR lines 95370-98310; add 12 to OCR line numbers
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: The Life was written at Molesme, the house Robert left for Cîteaux and went back to,
     in the twelfth century by its own heading. It is Molesme's telling, not Cîteaux's, and
-    later than Robert, so its placing needs a ruling.
+    later than Robert.
   source_file: robert-molesme_vita-et-epistolae-in-pl157-lat_migne1899.txt
 - row_id: acta-sanctorum_aprilis-tomus-3-lat_palme1866--life-of-robert-of-molesme-acta-sanctorum-april-iii
   work: Life of Robert of Molesme, Acta Sanctorum April III
   author: robert-molesme
   locus: about OCR lines 152877-155900; add 12 to OCR line numbers
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: The same Life as in PL 157, in the Bollandists' printing; that copy reads more cleanly.
-    The placing needs the same ruling.
+    It is Molesme's telling, not Cîteaux's, and later than Robert.
   source_file: acta-sanctorum_aprilis-tomus-3-lat_palme1866.txt
 - row_id: stephen-harding_charta-caritatis-and-exordium-in-pl166-lat_migne1894--stephen-harding-charta-caritatis-usus-antiquiores-and-the-exordi
   work: Stephen Harding, Charta caritatis, Usus antiquiores and the Exordium of Citeaux (PL
@@ -102,9 +102,9 @@ works:
   locus: from about OCR line 98988; the earlier part of the volume is other authors; add 12
     to OCR line numbers
   role: tradition
-  confidence: needs-ruling
-  note: The founding texts of Citeaux. Their authorship and date are disputed in the census
-    sources note; the volume prints them as the work of the third abbot.
+  confidence: assigned
+  note: The founding texts of Cîteaux. Authorship and date are disputed; the volume prints
+    them as the work of the third abbot.
   source_file: stephen-harding_charta-caritatis-and-exordium-in-pl166-lat_migne1894.txt
 - row_id: walter-daniel_ailred-of-rievaulx-and-his-biographer-walter-daniel-lat-eng_powicke1922--walter-daniel-letter-to-maurice-and-extracts-from-the-life
   work: Walter Daniel, Letter to Maurice and extracts from the Life of Ailred, Latin (Powicke

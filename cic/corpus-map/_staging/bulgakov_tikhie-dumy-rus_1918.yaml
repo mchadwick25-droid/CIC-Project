@@ -1,0 +1,11 @@
+source_file: bulgakov_tikhie-dumy-rus_1918.txt
+assignments:
+- row_id: bulgakov_tikhie-dumy-rus_1918--bulgakov-tikhie-dumy-quiet-thoughts
+  work: 'Bulgakov, Tikhie dumy (Quiet Thoughts)'
+  author: bulgakov
+  locus: 'whole'
+  atlas_ids:
+  - emigre-orthodoxy-and-the-paris-school
+  role: tradition
+  confidence: needs-ruling
+  note: 'His own articles of 1911-15, printed in Moscow in 1918, before the entry''s window. Poor OCR: a second witness until checked against the page images.'

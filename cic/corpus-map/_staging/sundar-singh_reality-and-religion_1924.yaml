@@ -1,0 +1,11 @@
+source_file: sundar-singh_reality-and-religion_1924.txt
+assignments:
+- row_id: sundar-singh_reality-and-religion_1924--sundar-singh-reality-and-religion
+  work: 'Sundar Singh, Reality and Religion'
+  author: sundar-singh
+  locus: 'whole'
+  atlas_ids:
+  - northeast-india-and-mar-thoma-twentieth-century
+  role: tradition
+  confidence: needs-ruling
+  note: 'His own book. The entry names him; whether his books belong on this shelf is for a ruling.'

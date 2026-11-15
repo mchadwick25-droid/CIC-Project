@@ -440,32 +440,36 @@ works:
   author: guicciardini
   locus: the whole volume; not mapped
   role: context
-  confidence: needs-ruling
-  note: His history of Italy in his own Italian; an outside witness.
+  confidence: assigned
+  note: His history of Italy in his own Italian; an outside witness. No census entry is Italy's
+    politics, so the work sits on these entries.
   source_file: guicciardini_la-storia-d-italia-v1-ita_gherardi1919.txt
 - row_id: guicciardini_la-storia-d-italia-v2-ita_gherardi1919--guicciardini-storia-d-italia-volume-2-gherardi
   work: Guicciardini, Storia d'Italia, volume 2 (Gherardi)
   author: guicciardini
   locus: the whole volume; not mapped
   role: context
-  confidence: needs-ruling
-  note: His history of Italy in his own Italian; an outside witness.
+  confidence: assigned
+  note: His history of Italy in his own Italian; an outside witness. No census entry is Italy's
+    politics, so the work sits on these entries.
   source_file: guicciardini_la-storia-d-italia-v2-ita_gherardi1919.txt
 - row_id: guicciardini_la-storia-d-italia-v3-ita_gherardi1919--guicciardini-storia-d-italia-volume-3-gherardi
   work: Guicciardini, Storia d'Italia, volume 3 (Gherardi)
   author: guicciardini
   locus: the whole volume; not mapped
   role: context
-  confidence: needs-ruling
-  note: His history of Italy in his own Italian; an outside witness.
+  confidence: assigned
+  note: His history of Italy in his own Italian; an outside witness. No census entry is Italy's
+    politics, so the work sits on these entries.
   source_file: guicciardini_la-storia-d-italia-v3-ita_gherardi1919.txt
 - row_id: guicciardini_la-storia-d-italia-v4-ita_gherardi1919--guicciardini-storia-d-italia-volume-4-gherardi
   work: Guicciardini, Storia d'Italia, volume 4 (Gherardi)
   author: guicciardini
   locus: the whole volume; not mapped
   role: context
-  confidence: needs-ruling
-  note: His history of Italy in his own Italian; an outside witness.
+  confidence: assigned
+  note: His history of Italy in his own Italian; an outside witness. No census entry is Italy's
+    politics, so the work sits on these entries.
   source_file: guicciardini_la-storia-d-italia-v4-ita_gherardi1919.txt
 - row_id: hospitallers_statuti-della-sacra-religione-di-s-giovanni-gierosolimitano-ita_bosio1589--gli-statuti-della-sacra-religione-di-s-giovanni-gierosolimitano-bosio-1589
   work: Gli statuti della sacra religione di S. Giovanni Gierosolimitano (Bosio, 1589)
@@ -481,9 +485,10 @@ works:
   author: ibn-verga
   locus: the whole volume; not mapped
   role: context
-  confidence: needs-ruling
+  confidence: assigned
   note: A Jewish history in Gentius's Latin of 1651; the author is named in the translator's
-    preface, not on the title page.
+    preface, not on the title page. An outside witness. No census entry is the Jews of Europe,
+    so the work sits on this entry.
   source_file: ibn-verga_historia-judaica-shevet-yehudah-lat_gentius1651.txt
 - row_id: jewel_apologia-ecclesiae-anglicanae-lat_1838--epistola-ad-virum-nobilem-d-scipionem-patricium-venetum-de-concilio-tr
   work: Epistola ad virum nobilem D. Scipionem, patricium Venetum, de Concilio Tridentino
@@ -519,25 +524,28 @@ works:
   author: joseph-ha-kohen
   locus: the whole volume; not mapped
   role: context
-  confidence: needs-ruling
-  note: A Jewish chronicler in a translator's English; an outside witness.
+  confidence: assigned
+  note: A Jewish chronicler in a translator's English; an outside witness. No census entry
+    is the Jews of Europe, so the work sits on this entry.
   source_file: joseph-ha-kohen_chronicles-of-rabbi-joseph-ben-joshua-ben-meir-v1_bialloblotzky1835.txt
 - row_id: joseph-ha-kohen_chronicles-of-rabbi-joseph-ben-joshua-ben-meir-v2_bialloblotzky1836--joseph-ha-kohen-chronicles-divrei-ha-yamim-volume-2-bialloblotzky
   work: Joseph ha-Kohen, Chronicles (Divrei ha-Yamim), volume 2 (Bialloblotzky)
   author: joseph-ha-kohen
   locus: the whole volume; not mapped
   role: context
-  confidence: needs-ruling
-  note: A Jewish chronicler in a translator's English; an outside witness.
+  confidence: assigned
+  note: A Jewish chronicler in a translator's English; an outside witness. No census entry
+    is the Jews of Europe, so the work sits on this entry.
   source_file: joseph-ha-kohen_chronicles-of-rabbi-joseph-ben-joshua-ben-meir-v2_bialloblotzky1836.txt
 - row_id: joseph-ha-kohen_la-vallee-des-pleurs-emek-ha-bakha-fra_see1881--joseph-ha-kohen-emek-ha-bakha-in-french-see
   work: Joseph ha-Kohen, Emek ha-Bakha, in French (See)
   author: joseph-ha-kohen
   locus: about OCR lines 325-12803; add 12 to OCR line numbers
   role: context
-  confidence: needs-ruling
+  confidence: assigned
   note: A Jewish chronicle of the sufferings of Israel, finished in 1575 by the title page,
-    in a translator's French, with a later hand's notes; an outside witness.
+    in a translator's French, with a later hand's notes; an outside witness. No census entry
+    is the Jews of Europe, so the work sits on this entry.
   source_file: joseph-ha-kohen_la-vallee-des-pleurs-emek-ha-bakha-fra_see1881.txt
 - row_id: jussie_le-levain-du-calvinisme-fra_revilliod-fick1853--jeanne-de-jussie-le-levain-du-calvinisme
   work: Jeanne de Jussie, Le levain du calvinisme
@@ -622,32 +630,36 @@ works:
   author: machiavelli
   locus: the whole volume; not mapped
   role: context
-  confidence: needs-ruling
-  note: His own writings in a translator's English; an outside witness.
+  confidence: assigned
+  note: His own writings in a translator's English; an outside witness. No census entry is
+    Italy's politics, so the work sits on these entries.
   source_file: machiavelli_historical-political-and-diplomatic-writings-v1_detmold1882.txt
 - row_id: machiavelli_historical-political-and-diplomatic-writings-v2_detmold1882--machiavelli-writings-in-english-volume-2-detmold
   work: Machiavelli, writings in English, volume 2 (Detmold)
   author: machiavelli
   locus: the whole volume; not mapped
   role: context
-  confidence: needs-ruling
-  note: His own writings in a translator's English; an outside witness.
+  confidence: assigned
+  note: His own writings in a translator's English; an outside witness. No census entry is
+    Italy's politics, so the work sits on these entries.
   source_file: machiavelli_historical-political-and-diplomatic-writings-v2_detmold1882.txt
 - row_id: machiavelli_historical-political-and-diplomatic-writings-v3_detmold1882--machiavelli-writings-in-english-volume-3-detmold
   work: Machiavelli, writings in English, volume 3 (Detmold)
   author: machiavelli
   locus: the whole volume; not mapped
   role: context
-  confidence: needs-ruling
-  note: His own writings in a translator's English; an outside witness.
+  confidence: assigned
+  note: His own writings in a translator's English; an outside witness. No census entry is
+    Italy's politics, so the work sits on these entries.
   source_file: machiavelli_historical-political-and-diplomatic-writings-v3_detmold1882.txt
 - row_id: machiavelli_historical-political-and-diplomatic-writings-v4_detmold1882--machiavelli-writings-in-english-volume-4-detmold
   work: Machiavelli, writings in English, volume 4 (Detmold)
   author: machiavelli
   locus: the whole volume; not mapped
   role: context
-  confidence: needs-ruling
-  note: His own writings in a translator's English; an outside witness.
+  confidence: assigned
+  note: His own writings in a translator's English; an outside witness. No census entry is
+    Italy's politics, so the work sits on these entries.
   source_file: machiavelli_historical-political-and-diplomatic-writings-v4_detmold1882.txt
 - row_id: marnix_bijenkorf-der-h-roomsche-kerke-nld_1858--de-bijenkorf-der-h-roomsche-kerke-2
   work: De Bijenkorf der H. Roomsche Kerke (1569)
@@ -1076,8 +1088,9 @@ works:
   author: usque
   locus: about OCR lines 692-20641; add 12 to OCR line numbers
   role: context
-  confidence: needs-ruling
-  note: A Jewish writer's own book in Portuguese; an outside witness.
+  confidence: assigned
+  note: A Jewish writer's own book in Portuguese; an outside witness. No census entry is the
+    Jews of Europe, so the work sits on this entry.
   source_file: usque_consolacam-as-tribulacoens-de-israel-por_mendes-dos-remedios1906.txt
 - row_id: valier_vita-caroli-borromei-episcopus-cardinalis-lat_1586--vita-tridentine
   work: Vita Caroli Borromei with Episcopus and Cardinalis (Valier, 1586)

@@ -1,0 +1,2246 @@
+[
+ {
+  "id": "silesian-childrens-prayer-revival",
+  "line": "The revival coincided with the 1707 agreement that gave Teschen one of six Churches of Grace, and it ties to Herrnhut through that town. Teschen pastor Johann Adam Steinmetz's preaching formed many of the refugees Zinzendorf took in, so Silesia's Protestant life helped shape Herrnhut.",
+  "support": [
+   {
+    "claim": "The 1707 agreement coincided with the revival",
+    "source": "card text",
+    "quote": "It coincided with real diplomatic change: the 1707 Convention of Altranstädt, in which Sweden's Charles XII pressed the Habsburg emperor to restore Protestant worship rights in Silesia"
+   },
+   {
+    "claim": "It led to six Churches of Grace, one at Teschen",
+    "source": "card text",
+    "quote": "leading to six new 'Churches of Grace' — among them the Jesus Church at Teschen (Cieszyn)"
+   },
+   {
+    "claim": "The tie to Herrnhut runs through Steinmetz, a Teschen pastor, whose preaching formed many refugees Zinzendorf received",
+    "source": "card sources",
+    "quote": "Names Teschen pastor Johann Adam Steinmetz's preaching as the formation ground for many of the evangelical refugees Zinzendorf received — the specific link this entry draws to Herrnhut."
+   },
+   {
+    "claim": "Zinzendorf took in refugees at Herrnhut",
+    "source": "census the-moravian-church-at-herrnhut longDescription",
+    "quote": "Count Nikolaus von Zinzendorf let them settle on his estate, and they built a village called Herrnhut."
+   },
+   {
+    "claim": "Teschen is in Silesia",
+    "source": "card text",
+    "quote": "restore Protestant worship rights in Silesia, leading to six new 'Churches of Grace' — among them the Jesus Church at Teschen (Cieszyn)"
+   }
+  ],
+  "note": "Round 2: CLEAR, no findings. Line unchanged (45 words). Its 'so' is kept under rule 8: the card source gives the cause (Steinmetz's preaching as the formation ground of the refugees). Earlier notes: R1 findings 1-3 fixed in draft2; Hussites and Czech Last Century left out (ruling 1)."
+ },
+ {
+  "id": "plinys-two-ministrae",
+  "line": "The two enslaved women served among the Scattered Households, and Pliny the Younger had them tortured and recorded what they were called, ministrae. His hostile witness shows women serving the church in Asia Minor, whether or not ministrae named a formal office.",
+  "support": [
+   {
+    "claim": "The two enslaved women served among the Scattered Households",
+    "source": "census post-apostolic-house-church voices",
+    "quote": "Two enslaved women who served among these communities, called ministrae"
+   },
+   {
+    "claim": "Pliny the Younger",
+    "source": "card text",
+    "quote": "Around 112 the governor Pliny the Younger wrote to the emperor Trajan"
+   },
+   {
+    "claim": "He had them tortured and recorded what they were called",
+    "source": "card text",
+    "quote": "Pliny says he judged it necessary to extract the truth by torture from 'two slave women, whom they call ministrae'"
+   },
+   {
+    "claim": "A hostile witness to women serving the church in Asia Minor",
+    "source": "card text",
+    "quote": "They are the first Christian office-holders in Asia Minor whose existence is attested by a hostile eyewitness rather than by the church itself."
+   },
+   {
+    "claim": "Whether ministrae named a formal office is open",
+    "source": "card caveat",
+    "quote": "Open: whether ministrae is a formal office title or Pliny's loose description"
+   }
+  ],
+  "note": "Round 2: CLEAR, no findings. Line unchanged (43 words); no cadence change needed. Earlier notes: R1 findings 1-3 fixed in draft2; Third-Century Anatolia left out (ruling 1), which also removes the Anatolia trap."
+ },
+ {
+  "id": "blandina-and-the-martyrs-of-lyon",
+  "line": "Irenaeus, bishop of Lyon after Pothinus died in prison, wrote against the Gnostic Currents around 180 and was among the earliest to answer Marcion. Answering those rivals helped set what became orthodox teaching, that the one God made matter and the Son took real flesh.",
+  "support": [
+   {
+    "claim": "Irenaeus became bishop of Lyon after Pothinus died in prison",
+    "source": "card text",
+    "quote": "The elderly bishop Pothinus died in prison; his successor was Irenaeus"
+   },
+   {
+    "claim": "He wrote against the Gnostic Currents around 180",
+    "source": "census valentinian-and-other-gnostic-christianities longDescription",
+    "quote": "That is precisely what alarmed bishops like Irenaeus. Around 180 he wrote Against Heresies"
+   },
+   {
+    "claim": "He was among the earliest to answer Marcion",
+    "source": "census marcion-marcionism voices",
+    "quote": "Irenaeus of Lyons — one of the earliest to answer him"
+   },
+   {
+    "claim": "Answering the Gnostic currents helped set what became orthodox teaching on matter and Christ's flesh",
+    "source": "census valentinian-and-other-gnostic-christianities legacy",
+    "quote": "the shape of what became orthodox Christianity was set partly by the labor of answering them. The insistence that the one God made matter and called it good, that the Son took real flesh and rose in a real body"
+   },
+   {
+    "claim": "The same point from the Marcion side",
+    "source": "census marcion-marcionism legacy",
+    "quote": "the confession of one God, maker of heaven and earth, whose Son truly took flesh, was hammered into its sharpest early form in argument against him"
+   }
+  ],
+  "note": "Round 2 finding 1 (minor, no thread back to the martyrs): fixed. S1 now ties Irenaeus to the Lyon martyrdom through Pothinus's death in prison, on the card's own words. The reviewer's 47-word wording was tightened to 45 ('bishop of Lyon after Pothinus died in prison' in place of 'who became bishop of Lyon after Pothinus died in prison'), which also keeps one relative construction in S1. S2 unchanged; no 'so'."
+ },
+ {
+  "id": "perpetua-and-felicity",
+  "line": "Perpetua and Felicity died at Carthage in Tertullian's day, and two centuries later Augustine of Hippo preached on their story to his Latin Pastoral congregation. He warned them not to rank it with Scripture, so a mother's prison diary had become part of their worship.",
+  "support": [
+   {
+    "claim": "They died at Carthage",
+    "source": "card teaser",
+    "quote": "were executed together at Carthage in 203"
+   },
+   {
+    "claim": "Tertullian was writing at Carthage in those years",
+    "source": "census tertullian-s-voice voices",
+    "quote": "writing in Carthage from roughly 197 to 220"
+   },
+   {
+    "claim": "Augustine preached on the text two centuries later and warned his congregation not to rank it with Scripture",
+    "source": "card text",
+    "quote": "Augustine preached on the text two centuries later and had to warn his congregation not to rank it with Scripture."
+   },
+   {
+    "claim": "Augustine's church belongs to Latin Pastoral",
+    "source": "census latin-pastoral-congregational-christianity relationsSummary",
+    "quote": "The churches led by Cyprian at Carthage and Augustine at Hippo."
+   },
+   {
+    "claim": "The text was used in worship",
+    "source": "card sources",
+    "quote": "Evidence of the text's liturgical use at Carthage/Hippo c. 400."
+   },
+   {
+    "claim": "A mother's prison diary",
+    "source": "card teaser",
+    "quote": "the mother's own prison diary survives"
+   }
+  ],
+  "note": "Round 2: CLEAR, no findings. Line unchanged (45 words). The 'so' is kept under rule 8: the reviewer names it as one that joins a reason to the act, since a warning not to rank the text with Scripture presupposes its use in worship (card sources)."
+ },
+ {
+  "id": "abercius-epitaph",
+  "line": "Abercius's epitaph of about 200 tells of a journey to Rome and across the Euphrates to Nisibis, a home of Syriac Edessa. It says he found the same faith everywhere, Nisibis and Rome alike, in the earliest surviving first-person account of such a journey.",
+  "support": [
+   {
+    "claim": "The epitaph dates to about 200",
+    "source": "card teaser",
+    "quote": "A Phrygian bishop composed his own tombstone around 200"
+   },
+   {
+    "claim": "He went to Rome",
+    "source": "card text",
+    "quote": "who sent him to Rome to see 'a queen in golden robe and golden sandals'"
+   },
+   {
+    "claim": "He crossed the Euphrates to Nisibis",
+    "source": "card text",
+    "quote": "that he traveled through Syria and crossed the Euphrates to Nisibis"
+   },
+   {
+    "claim": "Nisibis is a home of Syriac Edessa, whose span begins c. 200",
+    "source": "census syriac-edessa-nisibis region, dates",
+    "quote": "Edessa & Nisibis | 200–410 CE"
+   },
+   {
+    "claim": "The epitaph says he found the same faith everywhere",
+    "source": "card text",
+    "quote": "and that everywhere he found 'the same faith'"
+   },
+   {
+    "claim": "The earliest surviving first-person account of such a journey",
+    "source": "card text",
+    "quote": "the earliest surviving first-person testimony to a Christian traveler checking the churches from Italy to Mesopotamia"
+   }
+  ],
+  "note": "Round 2 finding 1 (minor, date on the journey): fixed. The date now attaches to the epitaph ('epitaph of about 200'), the teaser's own framing and the caveat's compromise date. Finding 2 (craft, circular 'so', 'of its kind', 'sees ... sharing it'): fixed with the reviewer's wording, support checked; the 'so' is gone. 'The same faith' still carries no quotation marks (trap). On the coordinator's question: 'It says' follows the card's own usage for the transmitted text (the fuller text comes through the Vita Abercii, per card sources); worth logging."
+ },
+ {
+  "id": "abitinian-martyrs",
+  "line": "Donatism's story begins here, because the Abitinians reportedly broke communion with a bishop who had handed over the Scriptures. A generation later the Donatists edited the martyrs' Acts, since the refusal fit their conviction that a sacrament rises and falls on the giver's purity.",
+  "support": [
+   {
+    "claim": "The martyrs are the founding story of the schism",
+    "source": "card text",
+    "quote": "making these martyrs the founding story of the African schism"
+   },
+   {
+    "claim": "They reportedly broke communion with the bishop who surrendered the books",
+    "source": "card text",
+    "quote": "because the Abitinians had reportedly cut off communion with the bishop who had surrendered the books"
+   },
+   {
+    "claim": "The bishop had handed over the Scriptures",
+    "source": "card text",
+    "quote": "At Abitinae in Africa the bishop had complied and handed over the books"
+   },
+   {
+    "claim": "A generation later the Donatists edited the Acts, because of the refusal",
+    "source": "card text",
+    "quote": "The Acts as we have them were edited by the Donatist party a generation later, because the Abitinians had reportedly cut off communion with the bishop who had surrendered the books"
+   },
+   {
+    "claim": "The Donatist conviction on the sacrament",
+    "source": "census donatism longDescription",
+    "quote": "A sacrament's validity rises and falls on the giver's own unbroken purity."
+   },
+   {
+    "claim": "That conviction was about bishops who surrendered Scripture, so the refusal fit it",
+    "source": "census donatism why",
+    "quote": "that a bishop who had surrendered Scripture under persecution could no longer give what his office claimed to give"
+   }
+  ],
+  "note": "Round 2: CLEAR on fidelity and form; line unchanged (43 words). PROCESS FLAG STANDS: this line departs from the two-sentence cut Mark approved in the Handover, and must go back to him with the drafter's reasons (the cut's S2 runs 38 words with a nested clause, and 'that refusal grew into the Donatist conviction' is a causal descent no held text states). No reviewer can clear a change to an approved cut."
+ },
+ {
+  "id": "forty-martyrs-of-sebaste",
+  "line": "The Cappadocians Basil of Caesarea and his brother Gregory of Nyssa preached on the Forty, and Gregory buried his parents beside the relics. The earliest witness is Basil's own sermon, preached within two generations, and he told his hearers their parents had seen the martyrdom.",
+  "support": [
+   {
+    "claim": "Basil of Caesarea and his brother Gregory of Nyssa are Cappadocians",
+    "source": "census cappadocian-nicene-pastoral-monastic-tradition why",
+    "quote": "Basil of Caesarea, his sister Macrina, and his brother Gregory of Nyssa argued the fourth century's hardest question"
+   },
+   {
+    "claim": "Basil preached on the Forty",
+    "source": "card text",
+    "quote": "Basil of Caesarea's homily on the Forty, preached in the 370s at their annual feast"
+   },
+   {
+    "claim": "Gregory preached on them and buried his parents beside their relics",
+    "source": "card text",
+    "quote": "Gregory of Nyssa preached three homilies on them and buried his parents beside their relics"
+   },
+   {
+    "claim": "The earliest witness is Basil's sermon",
+    "source": "card text",
+    "quote": "The earliest witness is not a legend but a sermon: Basil of Caesarea's homily on the Forty"
+   },
+   {
+    "claim": "Within two generations",
+    "source": "card caveat",
+    "quote": "it is attested in four independent fourth-century voices (Basil, Gregory of Nyssa, the Ephrem Graecus corpus, an anonymous Passio) within two generations"
+   },
+   {
+    "claim": "Basil said his hearers' parents had seen it",
+    "source": "card teaser",
+    "quote": "was being preached fifty years later by Basil, who said his hearers' parents had seen it"
+   }
+  ],
+  "note": "Round 2 finding 1 (minor, false cause in 'so'): fixed. The 'so' is gone. S2 now states two facts side by side with 'and': the earliest witness is Basil's sermon, within two generations (caveat), and he told his hearers their parents had seen it (teaser). Basil's remark is no longer made the reason the witness is a sermon. The reviewer's 'which puts the earliest witness, a Cappadocian sermon, within living memory' was not used because it nests an apposition inside the relative clause; 'within two generations' is the caveat's own phrase, and the line claims no court record (caveat limit respected). 45 words. | Round 3: replaced as worded in V2_R3_recheck.md (minor, Mark's standing cap ruling of 2026-11-14)"
+ },
+ {
+  "id": "julians-galileans",
+  "line": "Julian, the last pagan emperor, tried to strip away the privileges with which Constantine began Imperial and Juridical Christianity. His order that his priests copy Christian care for the poor shows that care was already a social fact a hostile state could not ignore.",
+  "support": [
+   {
+    "claim": "Julian was the last pagan emperor, and the teaser's verb is 'tried'",
+    "source": "card teaser",
+    "quote": "The last pagan emperor tried to revive the old cults"
+   },
+   {
+    "claim": "He set out to strip the church of the privileges Constantine had given it",
+    "source": "card text",
+    "quote": "he set out to restore the traditional cults and to strip the church of the privileges Constantine had given it"
+   },
+   {
+    "claim": "Imperial and Juridical Christianity begins with Constantine",
+    "source": "census imperial-juridical-christianity why",
+    "quote": "Between Constantine's toleration of the church in 312 and the Council of Chalcedon in 451, bishops went from outlaws to office-holders beside a throne"
+   },
+   {
+    "claim": "The tradition's span starts in 312",
+    "source": "census imperial-juridical-christianity dates",
+    "quote": "c. 312-451"
+   },
+   {
+    "claim": "He ordered his priests to copy Christian care",
+    "source": "card text",
+    "quote": "He instructed the priests to imitate Christian hospitality"
+   },
+   {
+    "claim": "Christians cared for the poor",
+    "source": "card text",
+    "quote": "'the impious Galileans' fed not only their own poor but pagans too"
+   },
+   {
+    "claim": "Christian charity was already a social fact a hostile state could not ignore",
+    "source": "card text",
+    "quote": "organized Christian charity was already a social fact that a hostile state could not ignore"
+   }
+  ],
+  "note": "Round 2 finding 1 (blocking, tradition name heard as the object stripped of privileges): fixed. The tradition is no longer the object of 'strip'; the privileges are, and the tradition stands beside Constantine's act. I used the full name 'Imperial and Juridical Christianity' (rule 4 allows it) because the short name 'Church and Empire' is what a listener mishears as an emperor turning on his own empire; the reviewer's 'turned on Church and Empire' kept that risk to the ear. 'Constantine began' reads the census, whose span and why both open at Constantine's toleration of 312. 'Tried' follows the teaser ('tried to revive the old cults') and fits a program that died with him in 363. S2: 'its' replaced by 'Christian care', so no pronoun has to reach back to a tradition name. 44 words."
+ },
+ {
+  "id": "moses-the-ethiopian",
+  "line": "Moses the Ethiopian belongs to the Desert as a disciple of Macarius among the monks of Scetis. The Sayings of the Desert Fathers and Mothers keep eighteen under his name, so a former slave and gang leader stands among their most-quoted elders.",
+  "support": [
+   {
+    "claim": "Moses the Ethiopian",
+    "source": "card title",
+    "quote": "Moses the Ethiopian"
+   },
+   {
+    "claim": "He came to the monks of Scetis and became a disciple of Macarius",
+    "source": "card text",
+    "quote": "he came to the monks of Scetis, was received by Isidore and became a disciple of Macarius"
+   },
+   {
+    "claim": "Scetis is one of the Desert's settlements",
+    "source": "census desert-monasticism longDescription",
+    "quote": "loose settlements at Nitria, Kellia, and Scetis"
+   },
+   {
+    "claim": "The collection is the Sayings of the Desert Fathers and Mothers, arranged by elder",
+    "source": "census desert-monasticism longDescription",
+    "quote": "those sentences were gathered into what other Christians would call the Sayings of the Desert Fathers and Mothers, arranged by the name of the elder who spoke them"
+   },
+   {
+    "claim": "Eighteen sayings under his name",
+    "source": "card sources",
+    "quote": "Apophthegmata Patrum, alphabetical collection, 'Moses' (18 sayings)"
+   },
+   {
+    "claim": "A former slave and gang leader among the most-quoted",
+    "source": "card teaser",
+    "quote": "A runaway slave and gang leader from south of Egypt became one of the most-quoted of the Desert Fathers"
+   }
+  ],
+  "note": "Round 2: CLEAR, no fidelity findings. Line unchanged (42 words). The 'so' is kept under rule 8: eighteen sayings under his name in a collection arranged by elder is the ground for 'most-quoted', so the join gives a cause the sources carry. With the cadence changes elsewhere, the range now has four 'so' lines in 32 (01, 04, 09, 10). Gap to log: Macarius is left bare because neither card nor census gives his place."
+ },
+ {
+  "id": "fabiolas-hospital",
+  "line": "Fabiola belongs to the Bethlehem Circle through Jerome, though she never lived at Bethlehem. Everything known of her rests on his eulogy, so even her hospital's claim to be the first in the Latin West comes to us as Jerome's.",
+  "support": [
+   {
+    "claim": "Fabiola belongs to the Bethlehem Circle",
+    "source": "census hieronymian-ascetic-literary voices",
+    "quote": "Fabiola was a Roman noblewoman who left a husband whose vices the whole neighborhood knew"
+   },
+   {
+    "claim": "She never lived at Bethlehem; everything known of her, the hospital's 'first' claim included, rests on Jerome's letter",
+    "source": "census hieronymian-ascetic-literary voices",
+    "quote": "She never lived at Bethlehem, and everything known of her — the hospital and its 'first' claim included — rests on the single letter Jerome wrote after her death."
+   },
+   {
+    "claim": "The letter is a eulogy",
+    "source": "card caveat",
+    "quote": "The sole source is Jerome, Epistle 77 (399), a eulogy written by a friend"
+   },
+   {
+    "claim": "The claim is to be first in the Latin West, and it is Jerome's",
+    "source": "card caveat",
+    "quote": "The claim that hers was 'the first' hospital in the Latin West is Jerome's"
+   }
+  ],
+  "note": "Round 2: CLEAR, no findings. Line unchanged (40 words). The 'so' is kept under rule 8: the census gives the cause (everything known of her rests on Jerome's letter), and the reviewer names it as one that earns its place."
+ },
+ {
+  "id": "olympias-the-deaconess",
+  "line": "Olympias of Constantinople, an ordained deaconess, was exiled for standing by the deposed John Chrysostom, the preacher of Antioch. He wrote her seventeen letters from exile, the longest he wrote to anyone, and his last years survive partly in them.",
+  "support": [
+   {
+    "claim": "Olympias of Constantinople",
+    "source": "card region",
+    "quote": "Constantinople, then exile at Nicomedia and Cyzicus"
+   },
+   {
+    "claim": "She was ordained deaconess",
+    "source": "card text",
+    "quote": "was ordained deaconess by Archbishop Nectarius while still in her twenties"
+   },
+   {
+    "claim": "She was exiled for refusing to abandon the deposed Chrysostom",
+    "source": "card teaser",
+    "quote": "was fined, exiled and had her convent dispersed in 404 for refusing to abandon the deposed John Chrysostom"
+   },
+   {
+    "claim": "Chrysostom is the preacher of the Antioch tradition",
+    "source": "census antiochene-exegetical-christianity-chrysostom-ce why",
+    "quote": "John Chrysostom preached that way through the 380s and 390s to Antioch's tradesmen, householders, and slaves"
+   },
+   {
+    "claim": "Seventeen letters, the longest he wrote to anyone",
+    "source": "card text",
+    "quote": "Chrysostom wrote her seventeen letters, the longest he wrote to anyone"
+   },
+   {
+    "claim": "The letters date from his last years",
+    "source": "card sources",
+    "quote": "John Chrysostom, Letters to Olympias (17 letters, 404–407)"
+   },
+   {
+    "claim": "He died in exile in 407",
+    "source": "census antiochene-exegetical-christianity-chrysostom-ce longDescription",
+    "quote": "which is roughly why he died in exile in 407"
+   }
+  ],
+  "note": "Round 2 finding 1 (craft, stiff 'so his last years are told partly in words to her'): fixed with the reviewer's S2 ('and his last years survive partly in them'), support checked; the 'so' is gone. S1 tightened from the reviewer's 46 words: 'standing by the deposed John Chrysostom' follows the teaser's 'the deposed John Chrysostom' and drops the trailing 'after he was deposed'. 'Ordained deaconess' kept (trap). 40 words."
+ },
+ {
+  "id": "simeon-on-the-pillar",
+  "line": "Theodoret of Cyrrhus, a bishop of the Antioch tradition, watched Simeon the Stylite and wrote about him in 444. Simeon wrote in favor of Chalcedon, yet his disciples' Life shows an Aramaic village world, and both the Syriac and Greek communions later claimed him.",
+  "support": [
+   {
+    "claim": "Theodoret, bishop of Cyrrhus, watched him and wrote in 444",
+    "source": "card text",
+    "quote": "Bishop Theodoret of Cyrrhus, who knew him and watched him at work, described in 444 what happened at the base"
+   },
+   {
+    "claim": "Theodoret belongs to the Antioch tradition",
+    "source": "census antiochene-exegetical-christianity-chrysostom-ce voices",
+    "quote": "Theodoret of Cyrrhus — bishop, historian, and commentator, the last great voice of the Antiochene reading"
+   },
+   {
+    "claim": "Simeon the Stylite",
+    "source": "card sources",
+    "quote": "The Lives of Simeon Stylites"
+   },
+   {
+    "claim": "Simeon wrote in favor of Chalcedon, yet the disciples' Life shows the Aramaic village world",
+    "source": "card text",
+    "quote": "He was consulted on Chalcedon and wrote in its favor, though the Syriac Life written by his disciples shows his own world was the village Aramaic countryside rather than the Greek city"
+   },
+   {
+    "claim": "Both later communions, Syriac and Greek, claimed him",
+    "source": "card caveat",
+    "quote": "Whether Simeon should be counted 'Syriac' or 'Greek' in this map's terms is a genuine question — both later communions claimed him"
+   }
+  ],
+  "note": "Round 2: CLEAR, no findings. Line unchanged (43 words); its 'and' join is one the reviewer cites as a model for varying the cadence."
+ },
+ {
+  "id": "genevieve-of-paris",
+  "line": "Geneviève lived to see the baptism of Clovis, the Frankish king of Merovingian Gaul, and he and Clotilde built the church over her grave. The Frankish crown honored a laywoman with no office, and her Life claims to be written at Clotilde's request.",
+  "support": [
+   {
+    "claim": "She lived to see Clovis baptized",
+    "source": "card text",
+    "quote": "and lived to see Clovis baptized"
+   },
+   {
+    "claim": "Clovis is the Frankish king of Merovingian Gaul",
+    "source": "census merovingian-gallic-christianity voices",
+    "quote": "Clovis — the Frankish king whose baptism aligned his kingdom with the Nicene bishops rather than with his Homoian neighbors"
+   },
+   {
+    "claim": "Clovis and Clotilde built the church over her grave (the ground for 'the Frankish crown honored')",
+    "source": "card text",
+    "quote": "Clovis and Clotilde built the church of the Holy Apostles over her grave"
+   },
+   {
+    "claim": "A laywoman with no office",
+    "source": "card teaser",
+    "quote": "A consecrated laywoman with no office and no wealth"
+   },
+   {
+    "claim": "The Life claims to be written at Clotilde's request",
+    "source": "card caveat",
+    "quote": "Its author claims to write eighteen years after her death (c. 520), at Clotilde's request"
+   }
+  ],
+  "note": "Round 2 finding 1 (minor, flat conclusion hung on the hedged fact): fixed with the reviewer's S2, support checked. The conclusion now rests on the solid fact in S1 (the king and queen built the church over her grave), and the Life's claim stands beside it as a second, hedged fact joined by 'and'. The 'so' is gone. 43 words."
+ },
+ {
+  "id": "severinus-of-noricum",
+  "line": "Severinus of Noricum served the Danube's Roman towns as their last garrisons dissolved, two generations after the Latin church of the Danube Provinces. Historians use his disciple Eugippius's account of 511 as a primary source for daily life on the frontier at the empire's end.",
+  "support": [
+   {
+    "claim": "Severinus of Noricum",
+    "source": "card title",
+    "quote": "Severinus and the End of Roman Noricum"
+   },
+   {
+    "claim": "He served the Danube's Roman towns as the last garrisons dissolved",
+    "source": "card text",
+    "quote": "For roughly three decades, as the last Roman garrisons dissolved for want of pay, he moved between Favianis, Batavis (Passau), Lauriacum and the other river towns"
+   },
+   {
+    "claim": "Roman towns",
+    "source": "card teaser",
+    "quote": "for Roman towns the empire had stopped defending"
+   },
+   {
+    "claim": "He arrived around 453",
+    "source": "card teaser",
+    "quote": "appeared on the Danube around 453"
+   },
+   {
+    "claim": "The Latin church of the Danube Provinces spans c. 250-400 and includes Noricum, so he comes two generations later",
+    "source": "census danubian-latin-christianity name, dates, region",
+    "quote": "Latin Christianity in the Danubian Provinces | c. 250-400 | Poetovio and Sirmium in Pannonia; Noricum, Dalmatia, Moesia"
+   },
+   {
+    "claim": "Its last voice whose own words survive was deposed in 381",
+    "source": "census danubian-latin-christianity voices",
+    "quote": "Palladius of Ratiaria - deposed at Aquileia in 381, and the last bishop of these provinces whose own argument survives in his own words"
+   },
+   {
+    "claim": "His disciple Eugippius wrote the account in 511",
+    "source": "card text",
+    "quote": "His disciple Eugippius, by then abbot of a house at Naples, wrote the Commemoratorium of his life in 511."
+   },
+   {
+    "claim": "Historians use it as a primary source for daily life on the frontier at the empire's end",
+    "source": "card caveat",
+    "quote": "historians of the late Roman frontier use it as a primary source for daily life at the empire's end"
+   }
+  ],
+  "note": "Round 2 finding 1 (minor, 'the era of'): fixed with the reviewer's 'the Latin church of the Danube Provinces', which names the people; 'after' claims no more than the census dates (span ends c. 400, last surviving voice deposed 381). Finding 2 (minor, S2 neither states the limit nor ties to the link): fixed differently from the reviewer. Under new rule 7, the reviewer's 'The tie is one of place' is tie-talk and is not used; the limit is carried in S1 as a plain fact of his dates ('two generations after'). S2 now ties to the place link by naming 'the frontier', the caveat's own ground ('historians of the late Roman frontier'), and it no longer opens on a retold fact. 'Historians' is the caveat's plural for a field, not a single scholar's finding, so rule 6 does not call for a name. 45 words."
+ },
+ {
+  "id": "cassiodorus-vivarium",
+  "line": "Cassiodorus founded Vivarium in the Italy of the Benedictines, and his Institutiones is the first surviving treatise to make copying books a religious discipline. Yet Thomas Hodgkin, who translated his letters, finds no mention of Benedict of Nursia anywhere in Cassiodorus's writings.",
+  "support": [
+   {
+    "claim": "He founded Vivarium",
+    "source": "card text",
+    "quote": "founded a monastery there named Vivarium after its fish-ponds"
+   },
+   {
+    "claim": "The Italy of the Benedictines, his contemporaries",
+    "source": "census early-benedictine-italian-monasticism dates, region",
+    "quote": "c. 500-604 | Italy"
+   },
+   {
+    "claim": "His Institutiones is the first surviving treatise to make copying books a religious discipline",
+    "source": "card text",
+    "quote": "the first surviving treatise to make copying books a religious discipline"
+   },
+   {
+    "claim": "Thomas Hodgkin put his letters into English",
+    "source": "census cassiodorus",
+    "quote": "Thomas Hodgkin, who put his letters into English"
+   },
+   {
+    "claim": "Hodgkin finds no mention of Benedict of Nursia in all his writings",
+    "source": "census cassiodorus longDescription",
+    "quote": "Hodgkin finds no mention of Benedict of Nursia in all his writings, and doubts he was ever formally abbot."
+   }
+  ],
+  "note": "Round 2 finding 1 (blocking, named witness swapped for a role): fixed. Thomas Hodgkin is named, with the census's own words for who he is ('who put his letters into English'), per new rule 6. The reviewer's 'his English translator' was not used: Hodgkin translated the letters, not all the writings, and the census phrase says exactly that. The reviewer's closing clause 'so the tie is one of time and country' is dropped under new rule 7 (tie-talk) and rule 8 (fewer 'so' payoffs). The honest limit is now carried as plain fact: S1 places him in the Italy of the Benedictines, and S2, joined by 'Yet', says Benedict is never mentioned in his writings. 'First' is the card's own word ('the first surviving treatise'); the copying claim is restored to the card's fuller wording to hold length. 44 words. | Round 3: replaced as worded in V2_R3_recheck.md (minor, Mark's standing cap ruling of 2026-11-14)"
+ },
+ {
+  "id": "masona-of-merida",
+  "line": "Masona, the Nicene bishop of Mérida, was exiled by a king of the Gothic Homoians and restored when Reccared turned Visigothic Iberia Nicene. Historians of medicine count his hospital, open to slave or free, Christian or Jew, among the earliest documented in the West.",
+  "support": [
+   {
+    "claim": "Masona, Nicene bishop of Mérida",
+    "source": "card text",
+    "quote": "Masona, a Goth by birth but a Nicene Catholic by faith, became bishop of Mérida in the 570s, when the Visigothic kingdom was still officially Homoian ('Arian')"
+   },
+   {
+    "claim": "Exiled by his Arian king",
+    "source": "card text",
+    "quote": "when Masona refused sent him into exile for three years"
+   },
+   {
+    "claim": "The king was Arian",
+    "source": "card teaser",
+    "quote": "and was exiled by his Arian king for it"
+   },
+   {
+    "claim": "The Visigothic kingdom belonged to the Gothic Homoians before 589",
+    "source": "census gothic-and-vandal-homoian-christianity longDescription",
+    "quote": "The Visigothic king Reccared brought his kingdom over at the third council of Toledo in 589"
+   },
+   {
+    "claim": "Reccared's conversion restored him",
+    "source": "card text",
+    "quote": "Reccared's conversion in 587–589 brought him back"
+   },
+   {
+    "claim": "Reccared turned Visigothic Iberia Nicene",
+    "source": "census nicene-visigothic-iberia why",
+    "quote": "at the third council of Toledo in 589 brought his bishops with him into the Nicene church of his subjects"
+   },
+   {
+    "claim": "The hospital took in the sick, slave or free, Christian or Jew",
+    "source": "card text",
+    "quote": "ordered the physicians to walk the whole city looking for the sick, 'whether slave or free, Christian or Jew', and carry them in to be fed and treated"
+   },
+   {
+    "claim": "Historians of medicine count it among the earliest documented Western hospitals",
+    "source": "card caveat",
+    "quote": "historians of medicine treat Masona's foundation as one of the earliest documented Western hospitals"
+   }
+  ],
+  "note": "Round 2: CLEAR, no findings. Line unchanged (44 words). 'Historians of medicine' is the caveat's plural for a field, not one named scholar's finding, so rule 6 does not call for a name. Note for the coordinator, from the reviewer: S2 states the card's own judgment of why the story matters, because no held text joins the hospital to the creed link."
+ },
+ {
+  "id": "john-the-almsgiver",
+  "line": "The emperor Heraclius made John the Chalcedonian patriarch of Alexandria, though most of its Christians followed the rival Coptic patriarch of the Church of Alexandria. His story shows the emperor's side of the city's two lines of bishops, in the decades before the Arab conquest.",
+  "support": [
+   {
+    "claim": "the emperor Heraclius made him Chalcedonian patriarch",
+    "source": "card text",
+    "quote": "was made Chalcedonian patriarch of Alexandria in 610 at the emperor Heraclius' wish"
+   },
+   {
+    "claim": "most Christians followed the rival Coptic patriarch",
+    "source": "card text",
+    "quote": "in a city where most Christians followed the rival Coptic patriarch"
+   },
+   {
+    "claim": "the Church of Alexandria follows the line most Egyptians kept, not the emperors' line",
+    "source": "census cyrilline-miaphysite-egyptian-christianity longDescription",
+    "quote": "From then on Alexandria had two lines of bishops. One was backed by the emperors. This page follows the other, the line most Egyptians kept."
+   },
+   {
+    "claim": "two lines of bishops in the city",
+    "source": "census cyrilline-miaphysite-egyptian-christianity why",
+    "quote": "For two centuries two lines of bishops fought over the city, and both claimed Cyril."
+   },
+   {
+    "claim": "his patriarchate (610 to 619) falls in the decades before the Arab conquest (640 to 642)",
+    "source": "card text",
+    "quote": "When the Persians reached Egypt in 619 he fled to Cyprus and died there."
+   },
+   {
+    "claim": "the Arab conquest",
+    "source": "census cyrilline-miaphysite-egyptian-christianity longDescription",
+    "quote": "Arab armies took Egypt between 640 and 642."
+   }
+  ],
+  "note": "Round 2: CLEAR, no findings. One cadence change under rule 8: 'His story shows' becomes 'His story gives', so no S2 in the range turns on the 'it shows' opening; the claim is the same. 45 words. | Round 3: replaced as worded in V2_R3_recheck.md (minor, Mark's standing cap ruling of 2026-11-14)"
+ },
+ {
+  "id": "caedmons-hymn",
+  "line": "Cædmon was a lay herdsman at Hild's double monastery at Whitby, one of the houses that trained bishops for Anglo-Saxon England. The earliest datable English poem came from an illiterate cowherd, and Bede tells how Hild tested him and took him into that learned house.",
+  "support": [
+   {
+    "claim": "a lay herdsman attached to Hild's double monastery at Whitby",
+    "source": "card text",
+    "quote": "tells of a lay herdsman attached to Hild's double monastery at Whitby"
+   },
+   {
+    "claim": "Whitby under Hild was one of the houses that trained bishops",
+    "source": "census anglo-saxon-christianity longDescription",
+    "quote": "monasteries like Whitby, under the abbess Hild, trained bishops"
+   },
+   {
+    "claim": "a learned house, in a church given to learning",
+    "source": "census anglo-saxon-christianity longDescription",
+    "quote": "What grew out of that settlement was a church with an extraordinary appetite for learning."
+   },
+   {
+    "claim": "an illiterate cowherd",
+    "source": "card teaser",
+    "quote": "An illiterate cowherd at Whitby"
+   },
+   {
+    "claim": "the earliest datable English poem",
+    "source": "card teaser",
+    "quote": "the earliest datable English poem"
+   },
+   {
+    "claim": "Bede tells how Hild tested him and took him in",
+    "source": "card teaser",
+    "quote": "Bede tells how the abbess Hild tested him and took him in"
+   }
+  ],
+  "note": "Round 2 finding 1 (minor fidelity and craft: 'came out of a learned church' credits the church with the poem, and sentence-initial 'So' makes Whitby's training of bishops the cause): fixed with the reviewer's wording, support checked. The poem now comes from the cowherd, Bede's account of Hild taking him in is a second fact joined by 'and', and no line in the range opens 'So'. 'That learned house' rests on Whitby training bishops and the census's church with an appetite for learning. 45 words."
+ },
+ {
+  "id": "hugeburc-of-heidenheim",
+  "line": "Hugeburc came to Germany in the wake of Boniface's mission, sent across the Channel by Anglo-Saxon England. Her two Lives make her the earliest English woman known to have written a full-length work, in a period when a woman's own words rarely reach us.",
+  "support": [
+   {
+    "claim": "came to Germany in the wake of Boniface's mission",
+    "source": "card text",
+    "quote": "an Anglo-Saxon nun who came to Germany in the wake of Boniface's mission"
+   },
+   {
+    "claim": "England sent Boniface's mission across the Channel",
+    "source": "census anglo-saxon-christianity longDescription",
+    "quote": "England was sending missionaries of its own back across the Channel — Willibrord to Frisia, Boniface into Germany"
+   },
+   {
+    "claim": "two Lives",
+    "source": "card text",
+    "quote": "she wrote Lives of Wynnebald and of his brother Willibald"
+   },
+   {
+    "claim": "earliest English woman known to have written a full-length work",
+    "source": "card text",
+    "quote": "making her the earliest English woman known to have written a full-length work"
+   },
+   {
+    "claim": "a woman's own words rarely reach us from the period",
+    "source": "census anglo-saxon-christianity why",
+    "quote": "the abbess Leoba, whose one surviving letter is a rare case of a woman's own words reaching us directly from the period"
+   }
+  ],
+  "note": "Round 2: CLEAR, but the reviewer's pattern note names this S2's 'so ... speak in more than Leoba's one surviving letter' as leaning toward a tag line. Changed under rule 8: the 'so' payoff is gone, and S2 now ends on the census's own point, that a woman's own words rarely reach us from the period ('a rare case of a woman's own words reaching us directly from the period'). Leoba is no longer named; the claim drawn from her letter stays. S1 unchanged. 44 words."
+ },
+ {
+  "id": "kassia-the-hymnographer",
+  "line": "Theodore the Studite's letters thank Kassia for helping imprisoned Iconophile monks, and mention that she was beaten for it. The only woman whose work entered the Byzantine liturgy under her own name came out of the monks' resistance to the emperors' purge of images.",
+  "support": [
+   {
+    "claim": "Theodore's letters thank her for help to imprisoned monks and mention the beating",
+    "source": "card text",
+    "quote": "Three letters from Theodore the Studite, the imprisoned leader of the iconophile resistance, survive addressed to her: he praises her learning, thanks her for help sent to monks in prison, and mentions that she had been beaten with a lash for it"
+   },
+   {
+    "claim": "imprisoned iconophile monks",
+    "source": "card teaser",
+    "quote": "flogged for smuggling help to imprisoned iconophile monks"
+   },
+   {
+    "claim": "Theodore belongs to the Iconophiles",
+    "source": "census iconophile-byzantine-monasticism voices",
+    "quote": "Theodore the Studite — abbot of Stoudios, the movement's organizer and most prolific writer, repeatedly exiled"
+   },
+   {
+    "claim": "the only woman whose work entered the Byzantine liturgy under her own name",
+    "source": "card teaser",
+    "quote": "the only woman whose work made it into the Byzantine liturgy under her own name"
+   },
+   {
+    "claim": "the emperors' purge of images and the monks' resistance",
+    "source": "census iconophile-byzantine-monasticism why",
+    "quote": "Byzantine emperors tried to purge Christian worship of images. Both times monks led the resistance."
+   }
+  ],
+  "note": "Round 2: CLEAR, no findings. Line unchanged (44 words); the reviewer names its plain-statement S2 as a model for the set."
+ },
+ {
+  "id": "hrotsvitha-of-gandersheim",
+  "line": "Hrotsvitha lived in Saxony in the century of the monastic reforms at Cluny and in Late Anglo-Saxon England. Her plays, the first written in the West since antiquity, show tenth-century learning alive in an abbey of noblewomen ruled by members of the Ottonian royal house.",
+  "support": [
+   {
+    "claim": "she lived in Saxony",
+    "source": "card region",
+    "quote": "Gandersheim Abbey, Saxony (Ottonian Germany)"
+   },
+   {
+    "claim": "her century",
+    "source": "card text",
+    "quote": "Hrotsvitha (c. 935–after 973)"
+   },
+   {
+    "claim": "Cluny's reform falls in her century, in Burgundy",
+    "source": "census cluniac-reform-monasticism dates, region",
+    "quote": "909-1109 | Burgundy, then Europe"
+   },
+   {
+    "claim": "Late Anglo-Saxon England's monastic reform in Cluny's century",
+    "source": "census late-anglo-saxon-christianity relationsSummary",
+    "quote": "The bishops Dunstan, Aethelwold and Oswald are known for rebuilding its monasteries on the Rule of Benedict. This was England's own reform, in the same century as Cluny's."
+   },
+   {
+    "claim": "first plays written in the West since antiquity",
+    "source": "card teaser",
+    "quote": "the first plays written in the West since antiquity"
+   },
+   {
+    "claim": "learning in the abbey",
+    "source": "card text",
+    "quote": "where she studied under the abbess Gerberga II, the emperor Otto I's niece"
+   },
+   {
+    "claim": "an abbey of noblewomen ruled by members of the Ottonian royal house",
+    "source": "card text",
+    "quote": "a canoness of Gandersheim, an abbey for noblewomen ruled by members of the Ottonian royal house"
+   }
+  ],
+  "note": "Round 2 finding 1 (minor, 'tied only by time' reads as site talk): fixed under new rule 7. The honest limit is now a plain fact of her place and dates: she lived in Saxony, in the century of the reforms at Cluny (Burgundy) and in England. The reviewer's 'shares only a century with' was not used because it is still talk about ties. 'Of Gandersheim' is not added: no other Hrotsvitha is in play (ruling 3), and Saxony already carries the place. 'Monastic reforms' follows the census (England rebuilt its monasteries on the Rule of Benedict). S2 unchanged. 45 words."
+ },
+ {
+  "id": "peace-of-god",
+  "line": "Abbot Odilo of Cluny backed the Truce of God, the later form of the Peace of God that made knights swear to spare the unarmed. Cluny, whose chief work was its long liturgy, also reached outward into the bishops' effort to limit private warfare.",
+  "support": [
+   {
+    "claim": "Odilo of Cluny backed the Truce of God, the movement's later form",
+    "source": "card text",
+    "quote": "From the 1020s the movement's second form, the Truce of God, tried to forbid all fighting from Wednesday evening to Monday morning and in penitential seasons, and Abbot Odilo of Cluny lent his weight to it."
+   },
+   {
+    "claim": "the Peace made knights swear not to strike the unarmed",
+    "source": "card teaser",
+    "quote": "the bishops of Aquitaine began in 989 to summon knights to open-air assemblies in front of the saints' relics, where — before crowds of peasants — they were made to swear not to rob churches, seize livestock or strike the unarmed"
+   },
+   {
+    "claim": "Cluny's chief work was its long liturgy",
+    "source": "census cluniac-reform-monasticism longDescription",
+    "quote": "the community's chief work was the liturgy, sung at a length no earlier Western monastery had attempted"
+   },
+   {
+    "claim": "Cluny's abbots reached outward, into efforts to limit private warfare",
+    "source": "census cluniac-reform-monasticism longDescription",
+    "quote": "Its abbots reached outward too: Odilo spread the commemoration of all the dead on 2 November and lent his weight to efforts to limit private warfare"
+   },
+   {
+    "claim": "the effort was the bishops'",
+    "source": "card teaser",
+    "quote": "the bishops of Aquitaine began in 989 to summon knights"
+   }
+  ],
+  "note": "Round 2: CLEAR, no findings. One cadence change under rule 8: the sentence-initial 'So' is cut, and S2 now opens on its subject, Cluny, which carries the point. The claim is unchanged; 'also' and 'reached outward' are the census's own framing ('Its abbots reached outward too'). 44 words."
+ },
+ {
+  "id": "christina-of-markyate",
+  "line": "Christina of Markyate was a twelfth-century English recluse, and the English Mystics later wrote for recluses like her. Her Life was written at St Albans from her account while she lived, and it keeps a recluse's own story from two centuries before the Mystics' books.",
+  "support": [
+   {
+    "claim": "a twelfth-century recluse",
+    "source": "card sources",
+    "quote": "The Life of Christina of Markyate: A Twelfth-Century Recluse"
+   },
+   {
+    "claim": "in England",
+    "source": "card region",
+    "quote": "Huntingdon and Markyate, Hertfordshire, England"
+   },
+   {
+    "claim": "the English Mystics are c. 1330-1440, two centuries later",
+    "source": "census the-english-mystics-and-devout dates",
+    "quote": "c. 1330-1440"
+   },
+   {
+    "claim": "they wrote for recluses",
+    "source": "census the-english-mystics-and-devout longDescription",
+    "quote": "All of them wrote for recluses and devout lay people rather than for scholars."
+   },
+   {
+    "claim": "Life written at St Albans in her lifetime from her own account",
+    "source": "card text",
+    "quote": "An anonymous St Albans monk wrote her Life during her lifetime, drawing on her own account"
+   }
+  ],
+  "note": "Round 2 finding 1 (minor, 'their' could reach back to 'a recluse's'): fixed by naming them, 'the Mystics' books'. Rule 8 and the reviewer's pattern note (this S2 leaned toward a tag line on a 'so' payoff): the 'so' is gone. S1 now states the link plainly (the Mystics later wrote for recluses like her), and S2 joins its two facts with 'and', ending on the dated fact rather than a payoff. No claim of being first is made, and 'a recluse's own story' keeps the reviewer-cleared wording for a Life drawn from her own account. 45 words."
+ },
+ {
+  "id": "hildegard-preaches",
+  "line": "Bernard of Clairvaux, the Cistercians' best-known voice, spoke for Hildegard of Bingen at the Synod of Trier. Church writers in the Rhineland had described the Cathars since the 1140s, and she preached against them at Cologne in 1163, decades before the crusade in Languedoc.",
+  "support": [
+   {
+    "claim": "Bernard spoke for her at the Synod of Trier",
+    "source": "card text",
+    "quote": "when part of the resulting Scivias was read to Pope Eugenius III at the Synod of Trier in 1147–48, with Bernard of Clairvaux speaking for her"
+   },
+   {
+    "claim": "Bernard is the Cistercians' best-known voice",
+    "source": "census cistercian-monasticism voices",
+    "quote": "Bernard of Clairvaux — the order's most famous voice"
+   },
+   {
+    "claim": "Hildegard of Bingen",
+    "source": "card region",
+    "quote": "The Rhineland — Mainz, Trier, Cologne, Bingen"
+   },
+   {
+    "claim": "church writers in the Rhineland described the Cathars from the 1140s",
+    "source": "census cathars-albigensians longDescription",
+    "quote": "From the 1140s, church writers in the Rhineland and then in southern France describe communities with their own ministers and their own rite of entry."
+   },
+   {
+    "claim": "she preached against the Cathars at Cologne in 1163",
+    "source": "card text",
+    "quote": "attacking clerical corruption and, at Cologne in 1163, the Cathars"
+   },
+   {
+    "claim": "the crusade in Languedoc came in 1209, decades after 1163",
+    "source": "census cathars-albigensians longDescription",
+    "quote": "In Languedoc they had noble protection and something close to a parallel church. In 1209 the papacy launched a crusade against them."
+   }
+  ],
+  "note": "Round 2 finding 1 (minor, name): fixed, 'Hildegard of Bingen', for consistency with Christina, Juliana and Joan; Bingen is in the card region. Finding 2 (minor, 'so' adds a cause no source gives): fixed. The 'so' is gone, and the Rhineland writers and her sermon stand side by side with 'and'. The reviewer's wording was adjusted: it said she preached at Cologne in S1 and then 'attacked them there' in S2, the same act twice. Here S1 carries only the Cistercian link (Bernard at the Synod of Trier, the card's name for it), and S2 carries the Cathar link once, at Cologne in 1163 (card text). 44 words."
+ },
+ {
+  "id": "great-alleluia-1233",
+  "line": "Dominican and Franciscan friars led the Alleluia, among them John of Vicenza and Gerard of Modena. Within a generation of the two orders' founding, the cities of northern Italy gave a handful of friars power to settle their feuds, though the peace collapsed within months.",
+  "support": [
+   {
+    "claim": "Dominican and Franciscan friars led it, including John of Vicenza and Gerard of Modena",
+    "source": "card text",
+    "quote": "was taken over by a handful of star preachers — the Dominicans John of Vicenza and Jacopino of Reggio, the Franciscans Gerard of Modena and Leo of Perego"
+   },
+   {
+    "claim": "the Alleluia",
+    "source": "card teaser",
+    "quote": "a chronicler who had watched it as a boy remembered people calling it simply 'the Alleluia'"
+   },
+   {
+    "claim": "Franciscans founded 1209",
+    "source": "census the-franciscan-movement dates",
+    "quote": "1209-1300"
+   },
+   {
+    "claim": "Dominicans founded 1216",
+    "source": "census the-dominican-order dates",
+    "quote": "1216-1300"
+   },
+   {
+    "claim": "cities of northern Italy",
+    "source": "card teaser",
+    "quote": "the war-torn cities of northern Italy stopped fighting"
+   },
+   {
+    "claim": "the cities gave a handful of friars power to settle their feuds",
+    "source": "card text",
+    "quote": "were given by the communes the extraordinary power to arbitrate their feuds and rewrite their statutes"
+   },
+   {
+    "claim": "the peace collapsed within months",
+    "source": "card text",
+    "quote": "Within months the peace had collapsed"
+   }
+  ],
+  "note": "Round 2: CLEAR, no findings. Line unchanged (44 words); no cadence change needed (no 'so'). Trap holds: 'cities of northern Italy', not 'towns of Lombardy'."
+ },
+ {
+  "id": "juliana-and-corpus-christi",
+  "line": "Juliana of Cornillon, an Augustinian prioress, confided her vision to the Dominican Hugh of Saint-Cher and to a future pope. That pope took the feast she drew from it to the whole Latin church in 1264, after she had died in poverty and exile.",
+  "support": [
+   {
+    "claim": "Juliana was an Augustinian prioress",
+    "source": "card text",
+    "quote": "brought up by the Augustinian sisters who ran the leprosarium of Mont-Cornillon outside Liège, where she became prioress"
+   },
+   {
+    "claim": "she confided her vision to the Dominican Hugh of Saint-Cher and to Jacques Pantaléon",
+    "source": "card text",
+    "quote": "She confided it, after years, to a recluse named Eve of Saint-Martin and to the Dominican Hugh of Saint-Cher and the archdeacon Jacques Pantaléon"
+   },
+   {
+    "claim": "the feast is what she drew from the vision (her own reading of it)",
+    "source": "card text",
+    "quote": "which she came to understand as the church lacking one feast — a day to honor the Body of Christ in the sacrament"
+   },
+   {
+    "claim": "Pantaléon, as pope, extended the feast to the whole church in 1264",
+    "source": "card text",
+    "quote": "Six years later Pantaléon, now Pope Urban IV, extended the feast to the universal church with the bull Transiturus (1264)"
+   },
+   {
+    "claim": "the whole Latin church, after she had died in poverty and exile",
+    "source": "card teaser",
+    "quote": "which the whole Latin church adopted in 1264, after she had died in poverty and exile"
+   }
+  ],
+  "note": "Round 2 finding 1 (minor, 'began in her vision' drops the card's frame): fixed with the reviewer's 'the feast she drew from it', which keeps the feast as her reading of the vision (card: 'which she came to understand as the church lacking one feast'). Finding 2 (minor, sentence-initial 'So' makes her confiding the cause): fixed; S2 now opens on the pope's own act, and the 'So' is gone. The reviewer's 46 words were trimmed to 44 by dropping 'near Liège' from S1; 'of Cornillon' still carries her place."
+ },
+ {
+  "id": "flagellants-of-1260",
+  "line": "The flagellants marched in 1260, the Joachimites' year for the new age, a current that spread especially among Franciscans. The year came and went, but in Italy the penance settled into lay confraternities whose hymns are among the first religious poetry in Italian.",
+  "support": [
+   {
+    "claim": "the Joachimites fixed on 1260 for the new age",
+    "source": "census joachimite-current longDescription",
+    "quote": "The current then fixed on 1260 as the year the new age would open. The year came and went."
+   },
+   {
+    "claim": "the current spread especially among Franciscans",
+    "source": "census joachimite-current why",
+    "quote": "The current his reading started spread especially among Franciscans"
+   },
+   {
+    "claim": "the flagellant movement of 1260",
+    "source": "card text",
+    "quote": "On 4 May 1260 the commune of Perugia formally endorsed the devotion; men of every class, the chroniclers say, processed two by two through the streets"
+   },
+   {
+    "claim": "it settled into lay confraternities in Italy whose hymns are among the first religious poetry in Italian",
+    "source": "card text",
+    "quote": "In Italy it settled into the permanent lay confraternities of disciplinati whose statutes and hymnbooks survive, and whose laude are among the first religious poetry in Italian."
+   }
+  ],
+  "note": "Round 2: CLEAR, no findings. Line unchanged (43 words); its 'but' join is one the reviewer cites as a model for varying the cadence."
+ },
+ {
+  "id": "ramon-llull",
+  "line": "Ramon Llull, a layman with no order behind him, won royal funds for a school where thirteen Franciscans would learn Arabic. His call for missionaries trained in Arabic reached the Latin Papal Church itself, which decreed language chairs at the Council of Vienne in 1311.",
+  "support": [
+   {
+    "claim": "a layman with no order behind him",
+    "source": "card text",
+    "quote": "As a layman with no order behind him he preached and disputed in Tunis in 1293"
+   },
+   {
+    "claim": "royal funds for a school for thirteen Franciscans to learn Arabic",
+    "source": "card text",
+    "quote": "in 1276 persuaded King James II to fund a school at Miramar on Majorca for thirteen Franciscans to learn the language"
+   },
+   {
+    "claim": "the Franciscans of 1276",
+    "source": "census the-franciscan-movement dates",
+    "quote": "1209-1300"
+   },
+   {
+    "claim": "his call for missionaries trained in Arabic",
+    "source": "card text",
+    "quote": "to found colleges where missionaries would learn Arabic"
+   },
+   {
+    "claim": "Vienne 1311 decreed language chairs, won by him",
+    "source": "card text",
+    "quote": "at the Council of Vienne in 1311 won a decree establishing chairs of Arabic, Hebrew and Chaldean at Paris, Oxford, Bologna, Salamanca and the papal court"
+   },
+   {
+    "claim": "the Latin Papal Church of these years",
+    "source": "census latin-papal-church-avignon-to-lateran-v dates",
+    "quote": "1300-1517"
+   }
+  ],
+  "note": "Round 2: CLEAR, no findings. Line unchanged (44 words); no cadence change needed (no 'so')."
+ },
+ {
+  "id": "bianchi-of-1399",
+  "line": "The Bianchi walked in 1399, while the Great Western Schism left the Latin Papal Church with rival popes. The historian Daniel Bornstein reads the movement as a 'popular orthodoxy', ordinary people rallying to the church's own rites without waiting for it to lead.",
+  "support": [
+   {
+    "claim": "the Bianchi of 1399 while the papacy was split",
+    "source": "card teaser",
+    "quote": "In the summer of 1399, as plague returned and the papacy stayed split"
+   },
+   {
+    "claim": "the Great Western Schism in the Latin Papal Church",
+    "source": "census latin-papal-church-avignon-to-lateran-v relationsSummary",
+    "quote": "The Great Western Schism, 1378 to 1417, ended at Constance with the election of Martin V."
+   },
+   {
+    "claim": "rival popes",
+    "source": "census latin-papal-church-avignon-to-lateran-v why",
+    "quote": "a disputed election left the Latin church with two rival popes. Then it had three."
+   },
+   {
+    "claim": "Daniel Bornstein's 'popular orthodoxy' reading",
+    "source": "card text",
+    "quote": "Daniel Bornstein's study argues it was a 'popular orthodoxy' — ordinary people rallying to the church's own beliefs and rites without waiting for the church to lead."
+   },
+   {
+    "claim": "his study is a full monograph (the ground for 'historian')",
+    "source": "card caveat",
+    "quote": "studied in a full monograph (Bornstein, Cornell 1993)"
+   }
+  ],
+  "note": "Round 2 finding 1 (blocking, named witness swapped for 'One historian'): fixed. Daniel Bornstein is named again, with a few words of who he is, 'the historian', the form new rule 6 gives. The reviewer's 'In his 1993 study' was not used, to hold 43 words; the card caveat carries the monograph. The quotation marks on 'popular orthodoxy' stay: the phrase is quoted on the card, and ruling 4 concerns Library texts. S1 unchanged."
+ },
+ {
+  "id": "joan-of-arc",
+  "line": "Joan of Arc was condemned in 1431 by Paris theologians of the Latin Papal Church, and a second church inquiry annulled the verdict in 1456. Because the court's notaries wrote down her answers in full, the church that burned her also kept her own voice.",
+  "support": [
+   {
+    "claim": "a court of Paris theologians tried her in 1431",
+    "source": "card text",
+    "quote": "she was tried at Rouen in 1431 before Bishop Pierre Cauchon and a court of University of Paris theologians on charges of heresy, witchcraft and wearing men's clothes"
+   },
+   {
+    "claim": "condemned and burned in 1431",
+    "source": "card text",
+    "quote": "was burned as a relapsed heretic on 30 May 1431"
+   },
+   {
+    "claim": "the Latin church of these years",
+    "source": "census latin-papal-church-avignon-to-lateran-v dates",
+    "quote": "1300-1517"
+   },
+   {
+    "claim": "a second church inquiry annulled the verdict",
+    "source": "card text",
+    "quote": "A second church inquiry in 1455–56, hearing over a hundred witnesses including her mother and childhood neighbors, annulled the verdict."
+   },
+   {
+    "claim": "the annulment in 1456",
+    "source": "card caveat",
+    "quote": "the 1456 nullification testimony"
+   },
+   {
+    "claim": "the notaries recorded her answers in full",
+    "source": "card text",
+    "quote": "The notaries recorded her answers in full"
+   },
+   {
+    "claim": "the church court burned her, and its record kept her own voice",
+    "source": "card teaser",
+    "quote": "was burned by a church court at nineteen — and because that court kept a verbatim record, her own voice survives in hundreds of answers"
+   }
+  ],
+  "note": "Round 2: CLEAR, no findings. Line unchanged (45 words); its 'Because' join gives the card's own cause ('because that court kept a verbatim record')."
+ },
+ {
+  "id": "drummer-of-niklashausen",
+  "line": "Hans Böhm, a young herdsman, drew crowds that contemporaries guessed at tens of thousands, in the century of the Observant friars' great preaching. His message of a world without tithes, where lords would work for a wage, survives only as his prosecutors quoted it.",
+  "support": [
+   {
+    "claim": "Hans Böhm, a young herdsman",
+    "source": "card text",
+    "quote": "Hans Böhm (or Behem), a young herdsman from Helmstadt who earned extra money drumming and piping at village festivals"
+   },
+   {
+    "claim": "crowds that contemporaries put at tens of thousands",
+    "source": "card text",
+    "quote": "contemporary estimates run to tens of thousands on some days"
+   },
+   {
+    "claim": "the numbers are guesses",
+    "source": "card caveat",
+    "quote": "The pilgrim numbers are contemporary guesses."
+   },
+   {
+    "claim": "the Observant friars' great preaching",
+    "source": "census observant-reform-and-popular-preaching why",
+    "quote": "Its public face was preaching to great crowds."
+   },
+   {
+    "claim": "the Observants' dates cover 1476",
+    "source": "census observant-reform-and-popular-preaching dates",
+    "quote": "c. 1368-1517"
+   },
+   {
+    "claim": "his message of a world without tithes, where lords would work for a wage",
+    "source": "card text",
+    "quote": "a vision of a world without tolls, tithes, rents, hunting rights or a wealthy clergy, in which 'the day would come when princes and lords would have to work for a daily wage'"
+   },
+   {
+    "claim": "his words survive only as his prosecutors quoted them",
+    "source": "card caveat",
+    "quote": "Böhm's own words survive only as his prosecutors quoted them"
+   }
+  ],
+  "note": "Round 2 finding 1 (minor, 'end lords' goes past the quote): fixed. The message is now the card's own: a world without tithes in which lords would work for a wage. Finding 2 (minor, site-talk 'The tie is one of time alone', and 'Observants'' means nothing to a reader): fixed. 'Observant friars'' says who they were, as the reviewer advised. Under new rule 7, the reviewer's 'The century is all he shares with the friars' was not used, since it is still talk about ties; the honest limit is carried in S1 as a plain fact of date (a young herdsman drawing crowds in the friars' century), and S2 carries the source limit, which is what the link can and cannot show of him. 'Only' is the caveat's own word. 44 words."
+ },
+ {
+  "id": "bruder-klaus-at-stans",
+  "line": "Bruder Klaus was a lay hermit of the Swiss Confederation who died a generation before the Reformed church began at Zurich. He could not read or write, yet rulers and cities sought his counsel, down to the Compact of Stans.",
+  "support": [
+   {
+    "claim": "a layman",
+    "source": "card caveat",
+    "quote": "Well attested for a fifteenth-century layman"
+   },
+   {
+    "claim": "a hermit",
+    "source": "card text",
+    "quote": "in 1467, with his wife Dorothea's consent, left his family to become a hermit"
+   },
+   {
+    "claim": "of the Swiss Confederation",
+    "source": "card region",
+    "quote": "The Ranft gorge near Sachseln, Obwalden, and Stans, Swiss Confederation"
+   },
+   {
+    "claim": "he died in 1487",
+    "source": "card text",
+    "quote": "Niklaus von Flüe (1417–1487)"
+   },
+   {
+    "claim": "the Reformed church began at Zurich in 1519, a generation after his death",
+    "source": "census the-reformed-cities-zurich-and-geneva longDescription",
+    "quote": "Zurich under Huldrych Zwingli from 1519"
+   },
+   {
+    "claim": "he could not read or write",
+    "source": "card text",
+    "quote": "He could not read or write."
+   },
+   {
+    "claim": "rulers and cities sought his counsel",
+    "source": "card text",
+    "quote": "rulers and cities sent for his counsel"
+   },
+   {
+    "claim": "the Compact of Stans followed his message",
+    "source": "card text",
+    "quote": "returned with a message from the hermit whose text was never recorded, and the delegates reached the Compact of Stans on 22 December"
+   }
+  ],
+  "note": "Round 2 finding 1 (minor, 'tied only by place' is site talk): fixed with the reviewer's S1, support checked; it is the very form new rule 7 gives ('died a generation before the Reformed church began at Zurich'), 1487 against 1519. S2 changed under rule 8: 'His story shows' becomes a plain statement on the card's own words ('He could not read or write'; 'rulers and cities sent for his counsel'), joined by 'yet'. Same claims as before. 40 words."
+ },
+ {
+  "id": "montesinos-advent-sermon",
+  "line": "Montesinos and his brethren were Dominicans, an order founded to preach, and they preached in the Mission-Born Christianities of Spanish America, where conquest and mission arrived together. Their sermon turned that preaching on the colonists' cruelty, and it led to the Laws of Burgos.",
+  "support": [
+   {
+    "claim": "Montesinos and his brethren were Dominicans",
+    "source": "card text",
+    "quote": "The first Dominican community in the Americas, fifteen or so friars under Pedro de Córdoba, arrived on Hispaniola in 1510"
+   },
+   {
+    "claim": "the sermon was the brethren's collective act",
+    "source": "card text",
+    "quote": "After deliberating together, they composed a sermon, signed it collectively, and chose their best preacher, Antonio de Montesinos, to deliver it"
+   },
+   {
+    "claim": "the Dominican order was founded to preach",
+    "source": "census the-dominican-order longDescription",
+    "quote": "whose stated reason for existing was preaching"
+   },
+   {
+    "claim": "Mission-Born Christianities include Spanish America, where conquest and mission arrived together",
+    "source": "census mission-born-christianities-kirishitan-japan-kon longDescription",
+    "quote": "And Spanish America, where conquest and mission arrived together"
+   },
+   {
+    "claim": "the sermon turned on the colonists' cruelty",
+    "source": "card text",
+    "quote": "he told them they were in mortal sin for their cruelty to the Indians"
+   },
+   {
+    "claim": "it led to the Laws of Burgos",
+    "source": "card text",
+    "quote": "Complaints went to King Ferdinand, who summoned the friars home, and the resulting hearing produced the Laws of Burgos (1512), the first Spanish legislation on the treatment of Indians."
+   }
+  ],
+  "note": "Round 2: CLEAR, copied unchanged. Checked against rulings 6-9: no modern scholar, no limit talk, the second sentence joins with 'and', 44 words. (Round 1 note: first sentence unstacked; second sentence says what the link shows; 'led to' rests on the card's chain from complaints to hearing to Laws; New Spain and Peru left unnamed under ruling 1.)"
+ },
+ {
+  "id": "anne-askew",
+  "line": "Anne Askew was burned under Henry VIII, early in the English Reformation and before the Puritans arose. John Foxe took her own account into his Book of Martyrs, the book that gave English Protestantism its memory of the Marian burnings, though she died before them.",
+  "support": [
+   {
+    "claim": "burned under Henry VIII",
+    "source": "card teaser",
+    "quote": "was racked in the Tower in 1546 by two of Henry VIII's chief ministers with their own hands"
+   },
+   {
+    "claim": "burned in 1546",
+    "source": "card text",
+    "quote": "she was carried to Smithfield in a chair on 16 July 1546 and burned with three men"
+   },
+   {
+    "claim": "early in the English Reformation",
+    "source": "census the-english-reformation-and-elizabethan-settleme dates",
+    "quote": "1530s-1650"
+   },
+   {
+    "claim": "the English Reformation began with Henry's break and then went to Edward and Mary",
+    "source": "census the-english-reformation-and-elizabethan-settleme longDescription",
+    "quote": "Henry VIII's break with Rome in the 1530s. And only afterwards became a change in what people believe"
+   },
+   {
+    "claim": "Mary came after Henry, so the Marian burnings came after her death",
+    "source": "census the-english-reformation-and-elizabethan-settleme longDescription",
+    "quote": "back to Rome under Mary I"
+   },
+   {
+    "claim": "before the Puritans arose",
+    "source": "census puritanism dates",
+    "quote": "c. 1560-1660"
+   },
+   {
+    "claim": "her own account",
+    "source": "card text",
+    "quote": "she answered with Scripture and evasions and wrote both series of interrogations down herself"
+   },
+   {
+    "claim": "Foxe took it into his Book of Martyrs",
+    "source": "card text",
+    "quote": "and Foxe took them into his Book of Martyrs"
+   },
+   {
+    "claim": "Foxe's book gave English Protestantism its memory of the Marian burnings",
+    "source": "census the-english-reformation-and-elizabethan-settleme voices",
+    "quote": "John Foxe — martyrologist whose Acts and Monuments gave English Protestantism its memory of the Marian burnings"
+   }
+  ],
+  "note": "Round 2: CLEAR, copied unchanged. Checked against rulings 6-9: John Foxe is a historical actor, not a modern scholar; both limits ('before the Puritans arose', 'though she died before them') are plain facts about her dates, as ruling 7 asks; no 'so'. 45 words. (Round 1 note: the causal 'so' that let her read as a Marian martyr was removed; Puritans named only as a time marker she predates.)"
+ },
+ {
+  "id": "walatta-petros",
+  "line": "Walatta Petros belongs to Ethiopia's Ordeal, and her communities sheltered those who refused the Catholic faith the Jesuits brought to Emperor Susenyos. Her disciples wrote the earliest known book-length biography of an African woman by Africans, so the refusal survives in her own community's telling.",
+  "support": [
+   {
+    "claim": "Ethiopia's Ordeal covers the Jesuits converting Susenyos and the revolt against it",
+    "source": "census ethiopian-christianity-gragn-to-fasilides why",
+    "quote": "The Portuguese help that won that battle brought Jesuits who later converted Emperor Susenyos to Catholicism — provoking a revolt so fierce that his son Fasilides expelled the Jesuits, restored the ancient church"
+   },
+   {
+    "claim": "the Jesuits brought the Catholic faith to Susenyos",
+    "source": "card text",
+    "quote": "When the emperor, persuaded by Jesuit missionaries, publicly professed Roman Catholicism in 1622 and ordered his subjects rebaptized"
+   },
+   {
+    "claim": "her communities sheltered those who refused",
+    "source": "card text",
+    "quote": "She founded and led seven successive religious communities in and around Lake Tana, sheltering clergy and lay people who would not convert"
+   },
+   {
+    "claim": "her disciples' book is the earliest known book-length biography of an African woman by Africans",
+    "source": "card text",
+    "quote": "Her gadl (life-struggle) was composed in Ge'ez in 1672 by the monk Galawdewos from the memories of her disciples, especially her lifelong companion Eheta Krestos; it is the earliest known book-length biography of an African woman written by Africans."
+   },
+   {
+    "claim": "it is her own community's account",
+    "source": "card caveat",
+    "quote": "The 1672 gadl is a hagiography written by her own community for her commemoration, thirty years after her death"
+   }
+  ],
+  "note": "Round 2: CLEAR, copied unchanged. Ruling 8: this is one of four lines in the range that turn on 'so' (35, 40, 42, 45), well under a third; here the source gives the cause (the disciples' book is why her community's telling survives). (Round 1 note: the Jesuits are named as the side she refused, not as her tradition; the old line's 'leader of exactly the revolt' is dropped.)"
+ },
+ {
+  "id": "little-gidding",
+  "line": "Little Gidding belongs to the English Reformation, since its household kept the Prayer Book offices and Laud ordained Nicholas Ferrar deacon to lead them. Puritan pamphleteers attacked it as 'The Arminian Nunnery', which shows them turning on a way of prayer inside their own church.",
+  "support": [
+   {
+    "claim": "the household kept the Prayer Book offices",
+    "source": "card text",
+    "quote": "The household kept the Prayer Book offices, read the entire Psalter through daily in relays"
+   },
+   {
+    "claim": "Laud ordained Nicholas Ferrar deacon to lead its worship",
+    "source": "card text",
+    "quote": "was ordained deacon by Laud so that he could lead its worship"
+   },
+   {
+    "claim": "Nicholas Ferrar",
+    "source": "card text",
+    "quote": "Nicholas Ferrar (1593–1637)"
+   },
+   {
+    "claim": "the Prayer Book is the English Reformation's defining book",
+    "source": "census the-english-reformation-and-elizabethan-settleme why",
+    "quote": "What changed English religion was less a confession of faith than a book: the Book of Common Prayer"
+   },
+   {
+    "claim": "Puritan pamphleteers attacked it as 'The Arminian Nunnery'",
+    "source": "card text",
+    "quote": "Puritan pamphleteers attacked the household in 1641 as 'The Arminian Nunnery'"
+   },
+   {
+    "claim": "the Puritans grew inside the same English church",
+    "source": "census puritanism relationsSummary",
+    "quote": "Shaped by Geneva and grown inside the English church, which it thought only half reformed."
+   }
+  ],
+  "note": "Round 2: CLEAR, copied unchanged. Checked against rulings 6-9: no modern scholar, no 'so', 45 words. (Round 1 note: 'Nicholas Ferrar' at first mention since the card has two Ferrars; 'them' removes the repeated 'Puritans'; 'The Arminian Nunnery' keeps its quotation marks as the pamphlet's own title, quoted on the card.)"
+ },
+ {
+  "id": "jakob-boehme-the-shoemaker",
+  "line": "Jakob Böhme, a Lutheran shoemaker in Görlitz, founded nothing, and his books fed later Pietists, whose movement gave rise to the Radical Pietists. Through those books, a craftsman with no schooling beyond the village found readers in movements that rose after his death in 1624.",
+  "support": [
+   {
+    "claim": "a Lutheran shoemaker in Görlitz",
+    "source": "card text",
+    "quote": "Jakob Böhme (1575–1624), a master shoemaker in Görlitz"
+   },
+   {
+    "claim": "Lutheran; no schooling beyond the village",
+    "source": "card teaser",
+    "quote": "A Lutheran cobbler with no schooling beyond the village"
+   },
+   {
+    "claim": "he founded nothing; his books fed later Pietists and other later movements",
+    "source": "card text",
+    "quote": "He founded nothing, but his books, translated into English in the 1640s and 50s, fed the radical sects of the English Revolution, later Pietists, William Law, Blake and Hegel."
+   },
+   {
+    "claim": "the Pietist movement gave rise to the Radical Pietists",
+    "source": "census radical-pietism-and-the-brethren-dunkers-ephrata relationsSummary",
+    "quote": "Radical Pietism grew out of German Pietism, among people who left the state churches."
+   },
+   {
+    "claim": "he died in 1624",
+    "source": "card text",
+    "quote": "He died in Görlitz in November 1624"
+   },
+   {
+    "claim": "the movements rose after his death: English Revolution sects of the 1640s-50s",
+    "source": "card text",
+    "quote": "translated into English in the 1640s and 50s, fed the radical sects of the English Revolution"
+   },
+   {
+    "claim": "German Pietism rose after his death",
+    "source": "census german-pietism-spener-francke-halle dates",
+    "quote": "1675-1750"
+   },
+   {
+    "claim": "Radical Pietism rose after his death",
+    "source": "census radical-pietism-and-the-brethren-dunkers-ephrata dates",
+    "quote": "1690s-1815"
+   }
+  ],
+  "note": "Round 2 finding 1 (minor, the two-step tie collapsed into one): 'his tie to the Radical Pietists runs through his books' is gone; the line now states both steps, his books fed later Pietists (card), whose movement gave rise to the Radical Pietists (census 'grew out of German Pietism'). I did not take the reviewer's appositive 'later Pietists, the movement the Radical Pietists grew out of', because it sets a group of people in apposition to a movement; 'whose movement gave rise to' says the same step plainly. Finding 2 (minor, 'So' opener and 'never joined'): the second sentence no longer opens 'So' and now says 'movements that rose after his death in 1624', per the reviewer. 'They' is the books. 44 words. | Round 3: replaced as worded in V2_R3_recheck.md (minor, Mark's standing cap ruling of 2026-11-14)"
+ },
+ {
+  "id": "hungarian-galley-pastors",
+  "line": "These men belong to Hungary's Protestants, whose Reformed and Lutheran churches lost pastors to the galleys in the Habsburg counter-reformation. Their letters reached Protestants in four countries, and a Dutch fleet bought the survivors free, which shows how far Protestant Europe's ties ran.",
+  "support": [
+   {
+    "claim": "Hungary's Protestants are the Reformed and Lutheran church of Hungary",
+    "source": "census hungarian-and-transylvanian-protestantism-1650-1815 relationsSummary",
+    "quote": "This is the Reformed and Lutheran church of Hungary and its lands, from 1650 to 1815."
+   },
+   {
+    "claim": "the churches lost pastors to the galleys",
+    "source": "census hungarian-and-transylvanian-protestantism-1650-1815 why",
+    "quote": "Catholic kings took many churches. Some pastors went to the galleys."
+   },
+   {
+    "claim": "in the Habsburg counter-reformation",
+    "source": "card text",
+    "quote": "In the Habsburg counter-reformation's 'decade of mourning' (1671–81), more than seven hundred Hungarian Lutheran and Reformed ministers and teachers were summoned"
+   },
+   {
+    "claim": "their letters reached Protestants in four countries",
+    "source": "card text",
+    "quote": "Their letters got out through a Venetian physician, Nicolaus Zaffius, and reached Dutch, Swiss, German and English Protestants"
+   },
+   {
+    "claim": "a Dutch fleet bought the survivors free",
+    "source": "card teaser",
+    "quote": "the twenty-six still alive were bought free by a Dutch admiral's fleet on 11 February 1676"
+   },
+   {
+    "claim": "the Dutch state acted for them",
+    "source": "card text",
+    "quote": "the States General instructed Admiral Michiel de Ruyter, then operating against the French off Sicily, to secure their release"
+   }
+  ],
+  "note": "Round 2: CLEAR, copied unchanged. Checked against rulings 6-9: Graeme Murdock appears only in the caveat and carries no claim in the line; no 'so'; 43 words. The closing 'which shows how far Protestant Europe's ties ran' is a reading of the letters reaching four countries and the States General acting, not an aphorism, so I kept it; I did not recast it as 'the Dutch state answered', which would make the letters the stated cause of the rescue when the card only sets the two facts side by side."
+ },
+ {
+  "id": "candida-xu",
+  "line": "Candida Xu belongs to the Chinese Catholics, the church the Jesuit mission began, and her grandfather Xu Guangqi had been Matteo Ricci's collaborator. Her Jesuit confessor, Philippe Couplet, credits her money with building churches and keeping the exiled missionaries alive after 1665.",
+  "support": [
+   {
+    "claim": "the Chinese Catholics carry on the church the Jesuit mission began",
+    "source": "census chinese-catholicism-1650-1906 relationsSummary",
+    "quote": "This entry carries on the church the Jesuit mission began in Ming China."
+   },
+   {
+    "claim": "her grandfather Xu Guangqi was Ricci's collaborator",
+    "source": "card text",
+    "quote": "Xu Gandida (1607–1680) was a granddaughter of Xu Guangqi, the Ming grand secretary and collaborator of Matteo Ricci."
+   },
+   {
+    "claim": "Philippe Couplet was her confessor and credits her money with building churches",
+    "source": "card text",
+    "quote": "Philippe Couplet, her confessor, credits her with funding thirty-nine churches and chapels in Jiangnan and beyond"
+   },
+   {
+    "claim": "Couplet was a Jesuit",
+    "source": "card sources",
+    "quote": "Couplet, S.J."
+   },
+   {
+    "claim": "and with keeping the exiled missionaries alive after 1665",
+    "source": "card text",
+    "quote": "support for the missionaries exiled to Canton during the anti-Christian case of 1665–71"
+   },
+   {
+    "claim": "kept Jesuits alive through the persecution",
+    "source": "card teaser",
+    "quote": "keeping Jesuits alive through the persecution of 1665"
+   }
+  ],
+  "note": "Round 2 finding 1 (named witness, ruling 6): 'her confessor' is now 'Her Jesuit confessor, Philippe Couplet', named with a few words of who he is ('S.J.' in the card sources). Finding 2 (minor, hedge scope): the blanket 'which is nearly all we have' is dropped, because the caveat says the churches and the 1665 exile are independently documented; the attribution 'credits' keeps the claim his. Reviewer's wording used; support checked against card text, teaser and sources. 42 words."
+ },
+ {
+  "id": "joseph-vaz-in-ceylon",
+  "line": "Joseph Vaz belongs to the Catholics of Ceylon, whose church the Dutch had banned and the Goa Oratory kept alive from the kingdom of Kandy. He organized the coastal Catholics under lay leaders, so the church could live between its priests' secret visits.",
+  "support": [
+   {
+    "claim": "the Dutch banned the church; the Goa Oratory kept it alive from Kandy",
+    "source": "census catholics-of-dutch-ceylon relationsSummary",
+    "quote": "The Dutch banned its priests and its meetings. Priests of the Goa Oratory kept it alive from the neighboring kingdom of Kandy."
+   },
+   {
+    "claim": "Vaz belongs to that church",
+    "source": "census catholics-of-dutch-ceylon voices",
+    "quote": "Joseph Vaz — priest of the Oratory of St Philip Neri at Goa, who came to Ceylon disguised as a beggar and died at Kandy on 17 January 1711"
+   },
+   {
+    "claim": "he organized the coastal Catholics under lay leaders who worked between secret priestly visits",
+    "source": "card text",
+    "quote": "organized the coastal Catholics into a network of lay leaders (muppus) who could baptize, teach and lead prayer between clandestine priestly visits"
+   }
+  ],
+  "note": "Round 2: CLEAR, copied unchanged. Ruling 8: one of four 'so' lines in the range; the card gives the purpose (lay leaders 'who could baptize, teach and lead prayer between clandestine priestly visits'). (Round 1 note: neither linked tradition is his home; the old-line 'same instinct' and 'Padroado' claims are not carried forward.)"
+ },
+ {
+  "id": "salzburg-emigrants",
+  "line": "The Salzburg emigrants were secret Lutherans, heirs of Wittenberg since the 1520s, who kept Luther's catechism and Johann Arndt's devotional books hidden at home. Pietism also drew on Arndt, and from its center at Halle it backed the smaller group that founded Ebenezer in Georgia.",
+  "support": [
+   {
+    "claim": "secret Lutherans since the 1520s who kept Luther's catechism and Arndt's books at home",
+    "source": "card text",
+    "quote": "The mountain valleys south of Salzburg had harbored secret Lutherans since the 1520s, farmers and miners who attended Mass and kept Luther's catechism and Johann Arndt's devotional books at home."
+   },
+   {
+    "claim": "the books were hidden",
+    "source": "card teaser",
+    "quote": "who had kept Lutheran books hidden in their farms for two centuries"
+   },
+   {
+    "claim": "heirs of Wittenberg, which put the catechism into German households",
+    "source": "census lutheran-wittenberg-and-its-congregations longDescription",
+    "quote": "put the Bible, a catechism and a hymnbook into ordinary German households"
+   },
+   {
+    "claim": "Pietism drew on Arndt",
+    "source": "census german-pietism-spener-francke-halle relationsSummary",
+    "quote": "Pietism grew out of Lutheran devotion. Spener's Pia Desideria first came out as a preface to a book of sermons by Johann Arndt."
+   },
+   {
+    "claim": "Pietism's center at Halle",
+    "source": "census german-pietism-spener-francke-halle longDescription",
+    "quote": "its center became Halle"
+   },
+   {
+    "claim": "Halle backed the smaller group that founded Ebenezer in Georgia",
+    "source": "card text",
+    "quote": "a smaller group, recruited by the Augsburg pastor Samuel Urlsperger with Halle's backing, sailed to the new colony of Georgia in 1734 and founded Ebenezer on the Savannah River"
+   }
+  ],
+  "note": "Round 2: CLEAR, copied unchanged. Checked against rulings 6-9: Johann Arndt is a historical author, not a modern scholar; no 'so'; 45 words. (Round 1 note: the shared point is the author, Arndt; Halle named as Pietism's center; the reviewer's 'program' declined as unsupported; the 'what it shows' stays thin, as both reviews accepted.)"
+ },
+ {
+  "id": "cambuslang-wark",
+  "line": "Cambuslang was a Scottish Kirk parish whose prayer societies had read of the New England awakening, and the Methodist George Whitefield preached there. William McCulloch, its minister, wrote down 110 converts' stories as Jonathan Edwards had in New England, so ordinary people's voices survive.",
+  "support": [
+   {
+    "claim": "William McCulloch was the parish's minister",
+    "source": "card text",
+    "quote": "William McCulloch, minister of Cambuslang since 1731"
+   },
+   {
+    "claim": "the Kirk, i.e. the Church of Scotland",
+    "source": "census the-scottish-reformation-and-kirk legacy",
+    "quote": "It became the Church of Scotland"
+   },
+   {
+    "claim": "prayer societies had read of the New England awakening",
+    "source": "card text",
+    "quote": "whose parishioners had begun meeting in prayer societies after reading accounts of the New England awakening"
+   },
+   {
+    "claim": "Whitefield preached there",
+    "source": "card text",
+    "quote": "George Whitefield preached at Cambuslang in July and again at a second communion season in August"
+   },
+   {
+    "claim": "Whitefield was a Methodist",
+    "source": "census the-evangelical-awakening-in-new-england relationsSummary",
+    "quote": "George Whitefield, the English Methodist preacher, made it normal to preach from town to town."
+   },
+   {
+    "claim": "McCulloch wrote down 110 converts' testimonies",
+    "source": "card text",
+    "quote": "McCulloch's response was to take down, over the following two years, the testimonies of 110 converts"
+   },
+   {
+    "claim": "as Jonathan Edwards had in New England",
+    "source": "census the-evangelical-awakening-in-new-england longDescription",
+    "quote": "Then he did something unusual: he wrote down what had happened, case by case."
+   },
+   {
+    "claim": "ordinary people's voices survive",
+    "source": "card text",
+    "quote": "are the largest body of ordinary people's own conversion narratives from any eighteenth-century revival"
+   }
+  ],
+  "note": "Round 2 finding 1 (named witness, ruling 6): 'Its minister' is now 'William McCulloch, its minister', per the reviewer; 'from the revival' dropped to hold length. 44 words. Ruling 8: kept 'so', one of four in the range, because the source gives the cause: his written testimonies are the narratives that survive. Ruling 6 does not reach Jonathan Edwards or Whitefield, who are historical actors, not modern scholars."
+ },
+ {
+  "id": "genadendal-pear-tree",
+  "line": "Georg Schmidt, a Moravian from Herrnhut, began the first Protestant mission in South Africa among the Khoikhoi. Forty-eight years later the returning Moravians found the faith had lasted without them, and his convert Magdalena still had his New Testament read to a small group.",
+  "support": [
+   {
+    "claim": "Schmidt was a Moravian sent from Herrnhut, among the Khoikhoi",
+    "source": "card text",
+    "quote": "Georg Schmidt, a Moravian sent from Herrnhut, reached the Cape in 1737 and settled the next year at Baviaanskloof in the Riviersonderend valley among the Khoikhoi"
+   },
+   {
+    "claim": "the first Protestant mission in South Africa",
+    "source": "census southern-african-mission-churches why",
+    "quote": "The first Protestant mission in South Africa began with Georg Schmidt among the Khoikhoi in 1737."
+   },
+   {
+    "claim": "forty-eight years later the Moravians came back and found the group still meeting",
+    "source": "card teaser",
+    "quote": "forty-eight years later the Moravians came back and found one of his converts, now an old woman, still reading the book to a small congregation under the tree"
+   },
+   {
+    "claim": "the faith had lasted without them: the group still met; Magdalena was his convert and had the New Testament read to it",
+    "source": "card text",
+    "quote": "and Magdalena, now elderly and nearly blind, who kept the Dutch New Testament he had given her wrapped in a skin and had a younger woman read from it to the small group who still met under the tree"
+   },
+   {
+    "claim": "this rests on the missionaries' report",
+    "source": "card caveat",
+    "quote": "Magdalena's survival with the book is in the 1792 accounts rather than later legend"
+   }
+  ],
+  "note": "Round 2 cadence point (rule 8; reviewer's pattern summary names 43's 'so the faith outlasted the missionaries' absence' as a closing tag): the 'so' payoff is gone. The second sentence now opens on the time, as R1 suggested, and the lasting faith is stated plainly as what the Moravians found, joined with 'and' to the evidence. 'Found' is the teaser's own verb. I did not take the reviewer's 'and the faith had lasted through the missionaries' absence' as the closer, since it keeps the tag at the end. 44 words."
+ },
+ {
+  "id": "ntsikanas-great-hymn",
+  "line": "Ntsikana stands with the Southern African Mission Churches, because the followers he sent to the missionaries became the core of the first Xhosa Christian community. His Great Hymn opened the first-stone service at Mgwali in 1861, an African Christian song carried into a mission church.",
+  "support": [
+   {
+    "claim": "Ntsikana stands with the Xhosa Christians of this tradition",
+    "source": "census southern-african-mission-churches why",
+    "quote": "Xhosa Christians such as Ntsikana and Tiyo Soga then took their place beside the missionaries"
+   },
+   {
+    "claim": "the followers he sent to the missionaries became the nucleus of the first Xhosa Christian community",
+    "source": "card text",
+    "quote": "Dying in 1821, he told his followers to go to the missionaries; they became the nucleus of the first Xhosa Christian community"
+   },
+   {
+    "claim": "his great hymn opened the service for the first stone at Mgwali in 1861",
+    "source": "census southern-african-mission-churches longDescription",
+    "quote": "On 23 July 1861 Soga wrote that he opened the service for the first stone of the Mgwali mission church with the great hymn of Ntsikana."
+   },
+   {
+    "claim": "an African Christian song carried into a mission church",
+    "source": "census southern-african-mission-churches legacy",
+    "quote": "Tiyo Soga's hymn of Ntsikana, sung at Mgwali in 1861, shows an African Christian song carried into a mission church."
+   }
+  ],
+  "note": "Round 2 finding 1 (craft, the 'so' clause restated the main clause): the 'so' is gone. I did not take the reviewer's participle 'carrying an African Christian song into a mission church', because its subject is the hymn, which is itself the song, so the restatement survives. The line now closes on an appositive in the census legacy's own words ('an African Christian song carried into a mission church'), naming what the opening of the service was, and adds the census date 1861. 44 words."
+ },
+ {
+  "id": "asad-shidyaq",
+  "line": "The American missionaries in Beirut called As'ad their first convert and first martyr, so the Arab Evangelical churches begin with him. The Maronite church, which held him at Qannubin until he died, remembered the same events as discipline.",
+  "support": [
+   {
+    "claim": "the mission called him first convert and first martyr",
+    "source": "census arab-evangelical-churches voices",
+    "quote": "Asaad es Shidiak — an Arab convert whom Jessup calls the first convert and the proto-martyr of modern Syria"
+   },
+   {
+    "claim": "the Americans published him as a martyr",
+    "source": "card text",
+    "quote": "The Americans published him as a martyr"
+   },
+   {
+    "claim": "the American missionaries were in Beirut",
+    "source": "card teaser",
+    "quote": "went to work as an Arabic teacher for the first American missionaries in Beirut in 1825"
+   },
+   {
+    "claim": "the Arab Evangelical churches grew out of the American missions",
+    "source": "census arab-evangelical-churches relationsSummary",
+    "quote": "These churches grew out of American missions to the Eastern Christians of Syria, Lebanon and Egypt."
+   },
+   {
+    "claim": "the Maronite church held him at Qannubin, where he died",
+    "source": "card text",
+    "quote": "in early 1826 he was taken to Qannubin, the patriarchal monastery in the Qadisha gorge, where he was held in confinement"
+   },
+   {
+    "claim": "he died there",
+    "source": "card text",
+    "quote": "He died there in about 1830"
+   },
+   {
+    "claim": "the Maronite side read the events as discipline",
+    "source": "card caveat",
+    "quote": "the Maronite documents are sparser and read the same events as discipline"
+   }
+  ],
+  "note": "Round 2: CLEAR, copied unchanged (the approved Handover cut, less its closing ', not martyrdom'). Ruling 8: the 'so' in the first sentence is Mark's approved wording and is one of four 'so' lines in the range; left as approved. R1's record-only note on 'so the Arab Evangelical churches begin with him' still stands for Mark's awareness. Ruling 6: Henry Jessup appears only in the support (the mission's own historian, a nineteenth-century missionary), not in the line."
+ },
+ {
+  "id": "sam-sharpe-baptist-war",
+  "line": "Sam Sharpe belongs to the Caribbean Churches of Slavery and Emancipation, as a leader among the Native Baptists of George Liele's line. His strike ran through Baptist class meetings, and the planters' revenge on the chapels helped turn British opinion before the Emancipation Act of 1833.",
+  "support": [
+   {
+    "claim": "Sharpe belongs to the Caribbean churches as a Baptist",
+    "source": "census caribbean-churches-of-slavery-and-emancipation voices",
+    "quote": "Samuel Sharpe — a Baptist of Jamaica, executed at Montego Bay on 23 May 1832 for his part in the rising of Christmas 1831"
+   },
+   {
+    "claim": "a leader among the Native Baptists of George Liele's line",
+    "source": "card text",
+    "quote": "a 'daddy' or leader among the Native Baptists, the independent Black congregations descended from George Liele's work"
+   },
+   {
+    "claim": "his strike ran through Baptist class meetings",
+    "source": "card text",
+    "quote": "through the network of Baptist class meetings he organized a plan"
+   },
+   {
+    "claim": "the planters' revenge on the chapels helped turn British opinion, and the Emancipation Act followed in 1833",
+    "source": "card text",
+    "quote": "The planters' retaliation against the Baptist and Methodist chapels — burned across the island — helped turn British public opinion, and the Emancipation Act followed in 1833."
+   }
+  ],
+  "note": "Round 2: CLEAR, copied unchanged. 46 words, kept for the reason given in round 1 (each phrase carries a claim: the Liele line, the class meetings, the Act). Checked against rulings 6-9: no modern scholar, no 'so', the second sentence joins with 'and'."
+ },
+ {
+  "id": "tarores-gospel",
+  "line": "Tārore's Gospel belongs with the Native Churches, because later memory says the enslaved Ripahau read it aloud in her killer's village. By that account it moved the killer to make peace with her father, and the faith spread through people no mission planned for.",
+  "support": [
+   {
+    "claim": "Ripahau, an enslaved man who could read, read the book aloud in the raiders' village",
+    "source": "card text",
+    "quote": "Some months later, in the Rotorua village, an enslaved man named Ripahau, who had learned to read at the Bay of Islands, read the book aloud"
+   },
+   {
+    "claim": "the chain of the book, including the reconciliation and the Ōtaki step, rests on later recollection",
+    "source": "card caveat",
+    "quote": "the chain of custody of the book — Uita, Ripahau, Ōtaki — rests on later Māori and missionary recollection and has been tidied in retelling"
+   },
+   {
+    "claim": "the killer was moved and made peace with her father",
+    "source": "card text",
+    "quote": "the killer, Uita, was moved, sought out Ngākuku, and the two were reconciled"
+   },
+   {
+    "claim": "the faith spread through people no mission planned for: Ripahau's reading lessons drew in the young chiefs",
+    "source": "card text",
+    "quote": "Ripahau later carried the book south to Ōtaki, where his reading lessons from it drew in the young chiefs"
+   },
+   {
+    "claim": "Native Churches spread through converts the missions had not planned for",
+    "source": "census the-missionary-movement-s-native-churches-seramp why",
+    "quote": "churches planted by foreign missions were run and spread almost immediately by converts the missions had not planned for"
+   },
+   {
+    "claim": "the book was Luke's Gospel, from the CMS station",
+    "source": "card text",
+    "quote": "where Charlotte Brown taught the girl to read from the newly printed Māori Gospel of Luke (1835)"
+   }
+  ],
+  "note": "Round 2 finding 1 (minor, the 'so' made the spread follow from the reconciliation): the 'so' is now 'and', per the reviewer, since on the card the spread is a separate later step (Ripahau's lessons at Ōtaki). 'By that account' still covers that step, which the caveat names in the chain of custody. Support added for the Ōtaki step. 44 words."
+ },
+ {
+  "id": "damien-of-molokai",
+  "line": "Damien of Moloka'i belongs to the Catholic Church of the Long Nineteenth Century, when congregations of sisters and brothers staffed hospitals across the world. His sixteen years at Kalaupapa show how far that church's reach grew after it lost its own state.",
+  "support": [
+   {
+    "claim": "Damien was a member of a Catholic congregation",
+    "source": "card text",
+    "quote": "a Flemish farmer's son who took the name Damien in the Congregation of the Sacred Hearts"
+   },
+   {
+    "claim": "in that century congregations of sisters and brothers staffed hospitals worldwide",
+    "source": "census catholic-church-long-nineteenth-century longDescription",
+    "quote": "new congregations of sisters and brothers staffed schools and hospitals across the world"
+   },
+   {
+    "claim": "sixteen years at Kalaupapa",
+    "source": "card text",
+    "quote": "Over sixteen years he built houses, a water system, an orphanage and churches"
+   },
+   {
+    "claim": "the church's reach grew after it lost its state",
+    "source": "census catholic-church-long-nineteenth-century longDescription",
+    "quote": "Stripped of territory, the papacy grew in reach instead"
+   },
+   {
+    "claim": "the church lost a state",
+    "source": "census catholic-church-long-nineteenth-century longDescription",
+    "quote": "the Catholic Church lost a state and gained a papacy"
+   },
+   {
+    "claim": "Kalaupapa (1873) came after the end of the Papal States (1870)",
+    "source": "card text",
+    "quote": "In 1873, when his bishop asked for volunteers to rotate through the leprosy settlement at Kalaupapa"
+   }
+  ],
+  "note": "Round 2: CLEAR, copied unchanged. Checked against rulings 6-9: no modern scholar named (Hyde stays out); no 'so'; 42 words. The second sentence is one of the 'shows' lines; it does not open 'It shows', and its subject (his sixteen years) carries the point. (Round 1 note: Native Churches left out under ruling 1; 'new' dropped; 'after it lost its own state' is sequence, framed by the census's own 'instead'.)"
+ },
+ {
+  "id": "onesimos-and-aster-ganno",
+  "line": "Onesimos Nesib and Aster Ganno were evangelical pioneers of the Mekane Yesus church, which grew beside Ethiopia's Orthodox church. Their story shows two freed Oromo translating the Bible into their language and printing it in 1899, before any missionary had managed to enter their country.",
+  "support": [
+   {
+    "claim": "they were evangelical pioneers in the origins of the Mekane Yesus church",
+    "source": "card sources",
+    "quote": "Gustav Arén, Evangelical Pioneers in Ethiopia: Origins of the Evangelical Church Mekane Yesus (EFS Förlaget, Stockholm, 1978)"
+   },
+   {
+    "claim": "Mekane Yesus is among the evangelical churches that grew beside the Orthodox church",
+    "source": "census modern-ethiopian-and-eritrean-christianity longDescription",
+    "quote": "Alongside all this a Protestant evangelical movement, the P'ent'ay, grew fast — the Kale Heywet and Mekane Yesus churches among them"
+   },
+   {
+    "claim": "grew beside the Orthodox church",
+    "source": "census modern-ethiopian-and-eritrean-christianity relationsSummary",
+    "quote": "The Tawahedo church lived on through empire, war and the Derg's attacks on it. Beside it grew the P'ent'ay, a fast-growing movement of evangelicals."
+   },
+   {
+    "claim": "the Oromo Bible was their translation",
+    "source": "card sources",
+    "quote": "Macaafa Qulqulluu (the Oromo Bible), trans. Onesimos Nesib and Aster Ganno, printed St Chrischona, 1899"
+   },
+   {
+    "claim": "both were Oromo freed from slavery",
+    "source": "card teaser",
+    "quote": "Two Oromo who had each been kidnapped into slavery as children and freed by chance"
+   },
+   {
+    "claim": "they translated the Bible into their language and printed it in 1899 before any missionary had entered their country",
+    "source": "card teaser",
+    "quote": "translated the whole Bible into their language at a Swedish mission school on the Red Sea and printed it in 1899, before any missionary had managed to enter their country"
+   }
+  ],
+  "note": "Round 2 finding 1 (craft, 'shows the Oromo Bible made by ... themselves'): replaced with the teaser's active verbs, 'two freed Oromo translating the Bible into their language and printing it in 1899', per the reviewer; 'themselves' dropped. Support checked against the teaser. Ruling 6: Gustav Arén's book title supplies 'evangelical pioneers', but the line uses the phrase as plain description and makes no claim on his authority, so he is not named. Ruling 8: 'Their story shows' does not open 'It shows'; kept because its claim is what the story shows. 45 words."
+ },
+ {
+  "id": "le-chambon-sur-lignon",
+  "line": "The plateau's Protestants were Huguenot heirs who kept the memory of the Church of the Desert, their ancestors' secret worship under Louis XIV. Their wartime rescue of refugees, many of them Jewish children, shows that heritage still alive.",
+  "support": [
+   {
+    "claim": "a Huguenot plateau whose ancestors worshipped in secret under Louis XIV",
+    "source": "card teaser",
+    "quote": "A Huguenot farming plateau whose ancestors had worshipped in secret under Louis XIV"
+   },
+   {
+    "claim": "they kept the memory of the Desert",
+    "source": "card text",
+    "quote": "had been Protestant since the Reformation and kept a memory of the persecutions of the 'Desert'"
+   },
+   {
+    "claim": "the Desert was the secret worship after Louis XIV outlawed Protestantism",
+    "source": "census church-of-the-desert-huguenots why",
+    "quote": "When Louis XIV outlawed French Protestantism in 1685, its people met at night in ravines and quarries, calling what they did 'the Desert' after Israel's wilderness."
+   },
+   {
+    "claim": "refugees, many of them Jewish children",
+    "source": "card text",
+    "quote": "children in boarding houses run by the pastors' school; around 3,000–3,500 of them Jews; Daniel Trocmé ran a children's home (phrases from the card text, see V2_R3_capcheck.md)"
+   }
+  ],
+  "note": "Round 2 finding 1 (minor, optional, the time-only Confessing Church trailing the 'what it shows' sentence): taken. The Confessing Church is left out under ruling 1, so the second sentence ends on its point. The reviewer's 34-word version fell under the 35-word floor (ruling 9), so 'Jewish children' became the teaser's own 'several thousand refugees, most of them Jewish children', which keeps the claim exact. 40 words. | Round 3: replaced as worded in V2_R3_recheck.md (blocking point; the fix goes to Mark)"
+ },
+ {
+  "id": "franz-jagerstatter",
+  "line": "Franz Jägerstätter, an Austrian Catholic of the decades before the Second Vatican Council, refused Hitler's army while the Confessing Church resisted Nazi control of Germany's Protestant churches. His church beatified him in 2007, honoring a refusal his own bishop of Linz had advised against.",
+  "support": [
+   {
+    "claim": "an Austrian Catholic farmer and parish sexton",
+    "source": "card teaser",
+    "quote": "An Austrian farmer and parish sexton"
+   },
+   {
+    "claim": "the Catholic Church of 1906 to the eve of the Council",
+    "source": "census the-catholic-church-pius-x-to-the-council name",
+    "quote": "The Catholic Church — Pius X to the Eve of the Council"
+   },
+   {
+    "claim": "tradition dates",
+    "source": "census the-catholic-church-pius-x-to-the-council dates",
+    "quote": "1906-1962"
+   },
+   {
+    "claim": "he refused Hitler's army",
+    "source": "card teaser",
+    "quote": "refused to serve in Hitler's army in 1943"
+   },
+   {
+    "claim": "the Confessing Church resisted the Nazi takeover of the German Protestant churches",
+    "source": "census the-confessing-church why",
+    "quote": "When the Nazi state moved to take over the German Protestant churches in 1933, pastors organized in resistance"
+   },
+   {
+    "claim": "beatified in 2007",
+    "source": "card text",
+    "quote": "he was beatified in Linz in 2007 with Franziska, aged 94, present"
+   },
+   {
+    "claim": "the bishop of Linz advised against refusing",
+    "source": "card text",
+    "quote": "the parish priest and the bishop of Linz, Josef Fliesser, both told him that his duty was to his family and that responsibility lay with the authorities"
+   }
+  ],
+  "note": "Round 2: CLEAR. Cadence change only (ruling 8, reviewer's pattern summary lists 51 among the 'X shows Y' refrain): 'His beatification in 2007 shows his church honoring' is now 'His church beatified him in 2007, honoring', same claims, a plain active statement. The Confessing Church stays joined by time only ('while'), a plain fact about dates (ruling 7). Josef Fliesser is an actor, not a witness, so ruling 6 does not require his name, and adding it would push the line past 45. 44 words."
+ },
+ {
+  "id": "hebrides-revival-1949",
+  "line": "The revival rose in a Church of Scotland parish, heir of the Scottish Kirk, on an island where the Free Church was the majority. It passed by the island's largest church, whose presbytery opposed the Faith Mission preacher Duncan Campbell's teaching.",
+  "support": [
+   {
+    "claim": "Barvas was a Church of Scotland parish on an island where the Free Church was the majority",
+    "source": "card text",
+    "quote": "In 1949 the Church of Scotland parish of Barvas on Lewis, a Gaelic-speaking crofting island where the Free Church was the majority"
+   },
+   {
+    "claim": "the Scottish Kirk became the Church of Scotland",
+    "source": "census the-scottish-reformation-and-kirk legacy",
+    "quote": "It became the Church of Scotland"
+   },
+   {
+    "claim": "Duncan Campbell was a Faith Mission preacher",
+    "source": "card text",
+    "quote": "the Faith Mission preacher Duncan Campbell from the mainland"
+   },
+   {
+    "claim": "the Free Church presbytery opposed Campbell's teaching and the revival passed its congregations by",
+    "source": "card text",
+    "quote": "The Free Church presbytery opposed Campbell's teaching on a second experience of the Spirit and the revival passed its congregations by."
+   }
+  ],
+  "note": "Round 2 finding 1 (minor, 'because' turned the card's 'and' into a cause): the cause is gone. I did not take the reviewer's 'It shows the island's largest church standing apart, its presbytery opposed to ...', because ruling 8 bars a second sentence opening 'It shows'. The sentence now uses the card's own verb, 'passed by' ('the revival passed its congregations by'), and joins the presbytery's opposition with 'whose', which states both facts without claiming one caused the other. 'It' is the revival, the subject of the first sentence. 'Largest' stands for the card's 'majority'. 41 words."
+ },
+ {
+  "id": "ludmila-javorova",
+  "line": "Ludmila Javorová served Czechoslovakia's underground Catholic church, which ordained priests in secret as Ukraine's Greek Catholic underground did. Her ordination shows how far Bishop Felix Davídek went to bring the sacraments to women in prison, though Rome later declared it invalid while acknowledging the circumstances.",
+  "support": [
+   {
+    "claim": "she served the Czechoslovak underground church",
+    "source": "card teaser",
+    "quote": "a clandestine bishop of the Czechoslovak underground church ordained his secretary, Ludmila Javorová, a Roman Catholic priest"
+   },
+   {
+    "claim": "that church ordained priests in secret",
+    "source": "card text",
+    "quote": "married men and others ordained in secret to serve a church whose seminaries were closed and whose bishops were in jail"
+   },
+   {
+    "claim": "Ukraine's Greek Catholic underground ordained priests in secret",
+    "source": "census the-ukrainian-greek-catholic-underground why",
+    "quote": "For the next forty-three years priests were ordained in secret and liturgies held in apartments and forests"
+   },
+   {
+    "claim": "Davídek was a bishop",
+    "source": "card text",
+    "quote": "was secretly consecrated a bishop in 1967"
+   },
+   {
+    "claim": "the ordination was Davídek's own act",
+    "source": "card text",
+    "quote": "after a divided secret synod at Kobeřice in December 1970, Davídek ordained her priest on 28 December 1970"
+   },
+   {
+    "claim": "kept secret even from most of the network",
+    "source": "card text",
+    "quote": "kept the ordination entirely secret — even from most of Koinótés"
+   },
+   {
+    "claim": "the reason: women in prison needed the sacraments",
+    "source": "card teaser",
+    "quote": "reasoning that imprisoned women needed the sacraments from someone who could reach them"
+   },
+   {
+    "claim": "Rome declared it invalid while acknowledging the circumstances",
+    "source": "card text",
+    "quote": "in February 2000 the Congregation for the Doctrine of the Faith declared the women's ordinations invalid while acknowledging the circumstances"
+   }
+  ],
+  "note": "Round 2: CLEAR, copied unchanged. The reviewer's pattern summary keeps 'shows' here because its claim is exactly a 'shows' claim. Checked against rulings 6-9: no modern scholar; no 'so'; 45 words."
+ },
+ {
+  "id": "elcho-island-revival",
+  "line": "The revival shares a pattern with Rātana in New Zealand and the Balokole of East Africa, mission Christianity led by local people. The Yolŋu minister Djiniyini Gondarra later wrote of it as the moment Aboriginal Christianity came of age on its own terms.",
+  "support": [
+   {
+    "claim": "Rātana grew from mission Christianity, led by local people",
+    "source": "census ratana-church-and-pacific-adjustment-movements relationsSummary",
+    "quote": "These movements grew out of Pacific mission Christianity, led by local people."
+   },
+   {
+    "claim": "Rātana in New Zealand",
+    "source": "census ratana-church-and-pacific-adjustment-movements region",
+    "quote": "Aotearoa New Zealand, Pacific"
+   },
+   {
+    "claim": "the Balokole were led by Africans within mission Anglicanism",
+    "source": "census the-east-african-revival-balokole longDescription",
+    "quote": "it was led by Africans inside the mission Anglicanism that had planted the church"
+   },
+   {
+    "claim": "Galiwin'ku was a former mission settlement",
+    "source": "card text",
+    "quote": "Galiwin'ku was a former Methodist mission settlement on Elcho Island"
+   },
+   {
+    "claim": "the revival was led by Aboriginal Christians",
+    "source": "card teaser",
+    "quote": "a revival led entirely by Aboriginal Christians"
+   },
+   {
+    "claim": "Gondarra was a Yolŋu minister",
+    "source": "card teaser",
+    "quote": "after a Yolŋu minister finished a small prayer meeting in his home"
+   },
+   {
+    "claim": "Gondarra's reading of it",
+    "source": "card text",
+    "quote": "Gondarra later wrote of it as the moment Aboriginal Christianity 'came of age' on its own terms."
+   }
+  ],
+  "note": "Round 2: CLEAR, copied unchanged. Checked against rulings 6-9: Gondarra, whose reading carries the second sentence, is named with his role ('The Yolŋu minister'); 'shares a pattern with' is a likeness in kind, not talk about ties; no 'so'; 43 words."
+ },
+ {
+  "id": "scillitan-martyrs",
+  "line": "The Scillitan martyrs died at Carthage in 180, some sixty years before Cyprian's Latin Pastoral church in the same city. Historians trust their court transcript as the earliest specimen of Christian Latin, the language of the churches Cyprian would lead.",
+  "support": [
+   {
+    "claim": "tried and killed at Carthage in 180",
+    "source": "card text",
+    "quote": "On 17 July 180, in the reign of Marcus Aurelius, the proconsul of Africa, Publius Vigellius Saturninus, tried twelve Christians"
+   },
+   {
+    "claim": "at Carthage",
+    "source": "card text",
+    "quote": "brought before him at Carthage from a place the record calls Scillium"
+   },
+   {
+    "claim": "killed the same day",
+    "source": "card text",
+    "quote": "They are killed the same day."
+   },
+   {
+    "claim": "Latin Pastoral begins in the 240s, about sixty years after 180",
+    "source": "census latin-pastoral-congregational-christianity dates",
+    "quote": "c. 240s-430"
+   },
+   {
+    "claim": "Cyprian led the churches at Carthage",
+    "source": "census latin-pastoral-congregational-christianity relationsSummary",
+    "quote": "The churches led by Cyprian at Carthage and Augustine at Hippo."
+   },
+   {
+    "claim": "those churches were Latin-speaking",
+    "source": "census latin-pastoral-congregational-christianity longDescription",
+    "quote": "This is the congregational life of Latin-speaking North Africa"
+   },
+   {
+    "claim": "a court transcript",
+    "source": "card teaser",
+    "quote": "The oldest dated document of the Latin church is a bare court transcript"
+   },
+   {
+    "claim": "historians trust it as the earliest specimen of Christian Latin",
+    "source": "card caveat",
+    "quote": "which is itself the reason historians trust it as the earliest specimen of Christian Latin"
+   }
+  ],
+  "note": "Round 2 finding 1 (minor, 'already written at Carthage' was my inference and a 'which shows' payoff): gone. The second sentence now ends on the census's own claim, that Cyprian's churches were Latin-speaking. I shortened the reviewer's 'the language of the Latin-speaking churches Cyprian would lead' to 'the language of the churches Cyprian would lead', since 'Latin' already stands twice in the line and the appositive names Christian Latin as their language. Ruling 6: 'Historians' is the caveat's plural, and neither caveat nor sources name a scholar for that judgment (Musurillo is cited as editor and translator only), so no one is named. 40 words."
+ },
+ {
+  "id": "wulfstan-bristol-slave-trade",
+  "line": "Wulfstan of Worcester was the only English-born bishop to keep his see through the Norman Conquest, which ends Late Anglo-Saxon Christianity. His Bristol preaching, in his later years, shows a bishop made in that church before 1066 still at work under the Normans.",
+  "support": [
+   {
+    "claim": "the only English-born bishop to keep his see through the Conquest; made bishop in 1062",
+    "source": "card text",
+    "quote": "bishop of Worcester from 1062 and the only English-born bishop to keep his see through the Norman Conquest"
+   },
+   {
+    "claim": "Late Anglo-Saxon Christianity ends at the Conquest",
+    "source": "census late-anglo-saxon-christianity relationsSummary",
+    "quote": "It ends at the Norman Conquest of 1066."
+   },
+   {
+    "claim": "his Bristol preaching came in his later years",
+    "source": "card text",
+    "quote": "took on Bristol's slave trade some time in his later years"
+   },
+   {
+    "claim": "he preached at Bristol",
+    "source": "card text",
+    "quote": "Wulfstan went to Bristol repeatedly over a long stretch of time, staying and preaching against the trade on each visit"
+   }
+  ],
+  "note": "Round 2 finding 1 (minor, 'a bishop of that church' after 1066 leaned back toward continuity): now 'a bishop made in that church before 1066', per the reviewer, resting on the card's 'bishop of Worcester from 1062'. Support checked. I tried a version without 'shows' for cadence (ruling 8), but recasting it as an appositive after 'slave trade' made the trade read as the bishop; the 'shows' form is the clearest. 42 words."
+ },
+ {
+  "id": "montecorvino-at-khanbaliq",
+  "line": "John of Montecorvino carried the Franciscans' mission to the Mongol capital, where the Church of the East had gained new access at court. His letters show Latin Christianity reaching China as one friar, beside an Eastern church whose own head, Yahballaha III, had come from China.",
+  "support": [
+   {
+    "claim": "a Franciscan reached the Mongol capital",
+    "source": "card teaser",
+    "quote": "A Franciscan reached the Mongol capital in the 1290s"
+   },
+   {
+    "claim": "the Church of the East gained new access at the Mongol court",
+    "source": "census church-of-the-east-under-the-mongols relationsSummary",
+    "quote": "The Church of the East gained new access at the Mongol court"
+   },
+   {
+    "claim": "his letters are the source",
+    "source": "card caveat",
+    "quote": "Almost everything rests on Montecorvino's own three surviving letters (1305, 1306, 1328)"
+   },
+   {
+    "claim": "he worked alone as a Latin priest and built China's first Catholic church",
+    "source": "card text",
+    "quote": "He worked without another priest of his own rite for over a decade"
+   },
+   {
+    "claim": "first Catholic church in China",
+    "source": "card teaser",
+    "quote": "built China's first Catholic church"
+   },
+   {
+    "claim": "Yahballaha III headed the Church of the East and came from China",
+    "source": "census church-of-the-east-under-the-mongols why",
+    "quote": "In 1281 a monk who had traveled the whole width of Asia from China was elected catholicos as Yahballaha III"
+   },
+   {
+    "claim": "Yahballaha held office into Montecorvino's years",
+    "source": "census church-of-the-east-under-the-mongols relationsSummary",
+    "quote": "Patriarch Yahballaha III, who held the office from 1281 until his death in 1317"
+   }
+  ],
+  "note": "Round 2: CLEAR, copied unchanged. Checked against rulings 6-9: no modern scholar; no 'so'; the 'show' sentence has his letters as its subject, which is the witness the caveat names. 45 words. (Round 1 note: the old-line 'competed for the same converts' is not carried; 'head' is used for catholicos.)"
+ },
+ {
+  "id": "benjamin-lay-burlington",
+  "line": "Benjamin Lay was a Quaker who shamed slaveholding Friends from within, and four meetings disowned him for protests he refused to stop. He lived to see Philadelphia's Yearly Meeting moving toward barring slaveholders, the change John Woolman's decades of traveling later won among American Friends.",
+  "support": [
+   {
+    "claim": "he protested Quaker slaveholding among Friends",
+    "source": "card text",
+    "quote": "Convinced that Quaker slaveholding was a monstrous hypocrisy, he staged a series of confrontational protests"
+   },
+   {
+    "claim": "four Quaker meetings disowned him for protests he would not stop",
+    "source": "card text",
+    "quote": "was disowned by four separate Quaker meetings over his lifetime for his protests and his refusal to stop"
+   },
+   {
+    "claim": "he saw Philadelphia's Yearly Meeting move toward barring slaveholders",
+    "source": "card text",
+    "quote": "He lived to see, shortly before his death in 1759, the first signs that Philadelphia's Yearly Meeting was moving toward barring slaveholders from membership."
+   },
+   {
+    "claim": "Woolman's decades of traveling won the bar among American Friends",
+    "source": "census the-quakers-religious-society-of-friends longDescription",
+    "quote": "The New Jersey tailor John Woolman spent decades traveling among Friends, pressing them to free the people they held as slaves, until the American yearly meetings made slaveholding a bar to membership."
+   }
+  ],
+  "note": "Round 2: CLEAR, copied unchanged. Mark still needs to be told that the approved Handover cut was replaced, and why: 'Woolman owned and read Lay's book' rests on the old line only (Old_Line_Claims, Set B), and 'Lay is where Quaker opposition to slavery starts' has no card or census support (the card's source list names Ralph Sandiford beside Lay). Checked against rulings 6-9: John Woolman is a historical actor; no 'so'; 45 words."
+ },
+ {
+  "id": "gnadenhutten-massacre",
+  "line": "Gnadenhütten was a Moravian mission village in the Ohio country, part of the mission work Herrnhut began in 1732. Its Lenape and Mohican converts were pacifists caught between both sides of the Revolutionary War, until Pennsylvania militia killed ninety-six of them in 1782.",
+  "support": [
+   {
+    "claim": "Gnadenhütten was a Moravian mission village in the Ohio country",
+    "source": "card text",
+    "quote": "David Zeisberger's Moravian mission villages in the Ohio country — Gnadenhütten ('tents of grace'), Schoenbrunn and Salem"
+   },
+   {
+    "claim": "Herrnhut's missions began in 1732",
+    "source": "census the-moravian-church-at-herrnhut longDescription",
+    "quote": "From 1732 they sent missionaries to the enslaved people of St Thomas, and to Greenland and Suriname."
+   },
+   {
+    "claim": "pacifist Lenape and Mohican converts, suspected by both sides in the Revolutionary War",
+    "source": "card text",
+    "quote": "held Delaware (Lenape) and Mohican converts who had adopted strict pacifism and tried to stay neutral through the Revolutionary War, which made both British-allied Wyandot warriors and American frontier militias suspicious of them"
+   },
+   {
+    "claim": "one side removed them",
+    "source": "card text",
+    "quote": "In 1781 Wyandot forces removed the mission communities to a bleak camp on the Sandusky River"
+   },
+   {
+    "claim": "Pennsylvania militia killed ninety-six of them in 1782",
+    "source": "card teaser",
+    "quote": "Ninety-six pacifist Christian Lenape and Mohican converts of a Moravian mission spent their last night singing hymns and praying after Pennsylvania militia bound them for slaughter in March 1782"
+   }
+  ],
+  "note": "Round 2: CLEAR. Cadence change only (ruling 8 bars a second sentence opening 'It shows'): 'It shows the mission's pacifist Lenape and Mohican converts caught between' is now 'Its Lenape and Mohican converts were pacifists caught between', close to the reviewer's suggested recast. Same claims, same support; 'its' is the village. The revenge motive stays out, as the caveat requires. 43 words."
+ },
+ {
+  "id": "ko-tha-byu-karen-apostle",
+  "line": "Ko Tha Byu, a convert the missionaries barely trusted, spread the faith in Burma as converts spread the Missionary Movement's Native Churches elsewhere. His preaching among his own Karen villages began a Karen Baptist church, now one of Burma's largest Christian communities.",
+  "support": [
+   {
+    "claim": "a convert the missionaries barely trusted",
+    "source": "card teaser",
+    "quote": "bought and baptized by missionaries who barely trusted him"
+   },
+   {
+    "claim": "converts spread the Native Churches in other lands (India, West Africa, the Pacific, the China coast)",
+    "source": "census the-missionary-movement-s-native-churches-seramp why",
+    "quote": "Across India, West Africa, the Pacific, and the China coast, churches planted by foreign missions were run and spread almost immediately by converts the missions had not planned for"
+   },
+   {
+    "claim": "he preached among his own Karen villages",
+    "source": "card text",
+    "quote": "he threw himself into itinerant evangelism among his own Karen villages, walking from settlement to settlement telling what had happened to him"
+   },
+   {
+    "claim": "that began a Karen Baptist church, now one of Burma's largest Christian communities",
+    "source": "card text",
+    "quote": "the beginning of a Karen Baptist church that grew into one of the largest Christian communities in Burma (Myanmar)"
+   },
+   {
+    "claim": "his work is the reason Karen are Baptist",
+    "source": "card teaser",
+    "quote": "became the reason hundreds of thousands of Karen are Baptist Christians today"
+   }
+  ],
+  "note": "Round 2 finding 1 (BLOCKING, 'though Burma lies outside their regions' was site talk): gone. The line now uses the reviewer's likeness, 'spread the faith in Burma as converts spread the Missionary Movement's Native Churches elsewhere', which states the limit as a plain fact about place (ruling 7): the census names the movement's lands as India, West Africa, the Pacific and the China coast, and Burma is not among them. I kept 'elsewhere' over naming the four lands, which would add a list and push past 45 words. 'Barely trusted' is the teaser's. 'Began' stays at the strength R1 accepted, on the teaser's 'became the reason'. Support checked. 42 words."
+ },
+ {
+  "id": "ditt-chuhra-movement",
+  "line": "Ditt's movement belongs with the Missionary Movement's Native Churches, which local Christians soon took into their own hands. It grew from one outcaste man's initiative through Chuhra networks, much as lay scholars began Korea's Catholic church before any priest came.",
+  "support": [
+   {
+    "claim": "local Christians soon ran and spread the Native Churches themselves",
+    "source": "census the-missionary-movement-s-native-churches-seramp longDescription",
+    "quote": "And almost immediately those churches began to be run, staffed and spread by local Christians the societies had not planned for."
+   },
+   {
+    "claim": "the movement grew from one outcaste man's initiative",
+    "source": "card text",
+    "quote": "one that began with a single outcaste man's own initiative rather than a missionary campaign"
+   },
+   {
+    "claim": "it grew through Chuhra networks",
+    "source": "card text",
+    "quote": "It grew through Chuhra social networks rather than missionary recruitment"
+   },
+   {
+    "claim": "lay scholars began Korea's Catholic church before any priest came",
+    "source": "census korean-catholic-origins relationsSummary",
+    "quote": "Korea's Catholic Church was begun by lay scholars before any priest came."
+   }
+  ],
+  "note": "Round 2: CLEAR. Cadence change only (ruling 8 bars a second sentence opening 'It shows'): 'It shows a church grown from' is now 'The church grew from', a plain statement with the same claims and support. I used 'The church' over the reviewer's 'Its church', which reads oddly after 'Ditt's movement'. The 'lay scholars' are eighteenth-century Koreans, not modern scholars, so ruling 6 does not apply. 41 words. | Round 3: replaced as worded in V2_R3_recheck.md (minor, Mark's standing cap ruling of 2026-11-14)"
+ },
+ {
+  "id": "nickel-mines-forgiveness",
+  "line": "The Amish are a branch of the Anabaptist family, and their response shows how deep its teaching runs. The scholar Donald Kraybill and his co-authors trace it to the Lord's Prayer said daily and a memory of martyrdom reaching back to the Radical Reformation.",
+  "support": [
+   {
+    "claim": "the Amish descend from the Anabaptist movement",
+    "source": "census the-anabaptist-movements legacy",
+    "quote": "Mennonites, Amish and Hutterites descend from it"
+   },
+   {
+    "claim": "the response rests on long-taught practice, as traced by the scholars who studied it",
+    "source": "card text",
+    "quote": "Scholars who studied the response trace it to specific, long-taught Amish practice"
+   },
+   {
+    "claim": "the scholars are Donald Kraybill and his co-authors",
+    "source": "card sources",
+    "quote": "Donald B. Kraybill, Steven M. Nolt and David L. Weaver-Zercher, Amish Grace: How Forgiveness Transcended Tragedy (Jossey-Bass, 2007)"
+   },
+   {
+    "claim": "theirs is a scholarly study",
+    "source": "card sources",
+    "quote": "The standard scholarly study, based on the authors' own interviews with the community."
+   },
+   {
+    "claim": "the Lord's Prayer recited daily",
+    "source": "card text",
+    "quote": "the Lord's Prayer's plea to 'forgive us our debts as we forgive our debtors,' recited daily"
+   },
+   {
+    "claim": "a memory of martyrdom reaching back to the Radical Reformation",
+    "source": "card text",
+    "quote": "a communal memory of martyrdom reaching back to the Radical Reformation"
+   }
+  ],
+  "note": "Round 2: CLEAR, but changed for ruling 6, and Mark should see this because it alters the approved Handover cut. The cut's 'Scholars trace it' stands for a finding the card's sources tie to named authors (Kraybill, Nolt and Weaver-Zercher, Amish Grace, 'the standard scholarly study'), and ruling 6 says a modern scholar whose finding carries a claim is named. I named the lead author with a few words of who he is ('The scholar Donald Kraybill and his co-authors'), since three names would run the line to about 50 words. 'Said every day ... and to a memory' trimmed to 'said daily and a memory' to hold length. If Mark prefers his approved wording, the draft2 line can be restored unchanged; it is otherwise sound. 44 words."
+ }
+]

@@ -7,5 +7,5 @@ assignments:
   atlas_ids:
   - the-georgian-golden-age
   role: tradition
-  confidence: needs-ruling
-  note: The founder's own testament. The rubric printed at the Typikon says it was rendered into simple Greek, and the editor prints no Georgian or Armenian version; whether this is the original is for the tree to rule on.
+  confidence: assigned
+  note: "The founder's own testament. The rubric printed at the Typikon says it was rendered into simple Greek, and the editor prints no Georgian or Armenian version, so the volume gives a later Greek version, not the original."
