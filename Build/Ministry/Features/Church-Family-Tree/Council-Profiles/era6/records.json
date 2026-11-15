@@ -967,9 +967,21 @@
         "formation_confidence": "Contested"
       },
       {
-        "claim": "The main acts of Basel's sessions are not among our sources. Basel is held through quotation in Raynaldus, Glassberger, Mirbt and Mansi's appendices",
-        "witness": "raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.14188-14212; glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.20455-20477",
+        "claim": "Basel's session acts (Mansi tomi 29 and 30) are not held. Mansi's tomus 31 prints some of Basel's own documents: its letters, the Compacts with the Bohemians, John of Ragusa's report and bulls of Felix V. The rest is quotation in Raynaldus, Glassberger, Mirbt and Mansi's tomus 32",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.3352-3361; mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.25913-26090; mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.26095-26101; mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.28590-28614; raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.14188-14212; glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.20455-20477; mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.15134-15138; mansi_sacrorum-conciliorum-collectio-tomus-32-1438-1549-lat_welter-facsimile1901.txt l.1611",
         "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Mansi prints the Compacts with the Bohemians, agreed by Basel's legates at Prague and elsewhere in the council's name and then confirmed by the council itself",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.28590-28614",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "John of Ragusa, Basel's envoy for many years among the Greeks at Constantinople, wrote a report to the council. Mansi's note says he read it before the council",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.26095-26101; raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.31578-31584",
+        "witness_kind": "participant",
         "formation_confidence": "Documented"
       },
       {
@@ -986,9 +998,15 @@
       },
       {
         "claim": "Glassberger dates Basel's first session to Friday 7 December 1431",
-        "witness": "glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.20474-20477",
+        "witness": "glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.20474-20475",
         "witness_kind": "later narrative",
-        "formation_confidence": "Widely Accepted"
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Glassberger's Quaracchi editors give 14 December for Basel's first session, after Hergenröther and Brück",
+        "witness": "glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.20494",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Contested"
       },
       {
         "claim": "Glassberger says Martin V sent Cardinal Julian to begin the council at Basel. Eugenius IV confirmed him as legate, above all to root out the heresy of the Hussites",
@@ -1057,9 +1075,15 @@
         "formation_confidence": "Widely Accepted"
       },
       {
-        "claim": "Ferrara's first session was held on Wednesday 8 January 1438 under the legate Nicholas Albergati (the record Raynaldus quotes). Raynaldus counts five archbishops, eighteen bishops, four bishops-elect and many heads of orders",
-        "witness": "raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.35130-35145",
+        "claim": "Ferrara's first session was held on Wednesday 8 January 1438, by the record Raynaldus quotes",
+        "witness": "raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.35133-35139",
         "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Raynaldus says the legate Nicholas (Albergati) presided at Ferrara's first session. He counts five archbishops, eighteen bishops, four bishops-elect and many heads of orders",
+        "witness": "raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.35130-35145; raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.31494",
+        "witness_kind": "later narrative",
         "formation_confidence": "Documented"
       },
       {
@@ -1153,8 +1177,8 @@
         "formation_confidence": "Widely Accepted"
       },
       {
-        "claim": "The chronicle under Sphrantzes's name has Manuel II tell his son the Turks feared a union of Greeks and western Christians",
-        "witness": "sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838.txt l.10236-10242",
+        "claim": "The chronicle under Sphrantzes's name has Manuel II tell his son the Turks feared a union of Greeks and western Christians. He told him to keep the council in mind while the Turks were a danger, but not to hold it, fearing a worse schism. John rose and left without a word",
+        "witness": "sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838.txt l.10236-10254",
         "witness_kind": "later narrative",
         "formation_confidence": "Widely Accepted"
       },
@@ -1231,8 +1255,8 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "The decree teaches that the Spirit proceeds from the Father and the Son as from one principle and one spiration. It reads the Greek 'through the Son' in that sense. It says the Filioque was added lawfully and with good reason",
-        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.14262-14274; denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.16432-16444",
+        "claim": "The decree teaches that the Spirit proceeds from the Father and the Son as from one principle and one spiration. It reads the holy doctors' and fathers' 'through the Son' in that sense. Doukas calls the phrase the Greeks'. It says the Filioque was added lawfully and with good reason",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.14262-14274; denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.16432-16444; doukas_historia-byzantina-grc-lat_bekker1834.txt l.12037-12040",
         "witness_kind": "acts",
         "formation_confidence": "Documented"
       },
@@ -1447,10 +1471,28 @@
         "formation_confidence": "Contested"
       },
       {
+        "claim": "Perruchon, in his own text, speaks of the delegation sent by King Zara Yaqob to the council of Florence",
+        "witness": "zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893.txt l.552-553; zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893.txt l.673-674",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Contested"
+      },
+      {
         "claim": "Perruchon says the Ethiopian chronicles say nothing of the embassy to Florence",
         "witness": "zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893.txt l.668-675",
         "witness_kind": "modern reconstruction",
         "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The oration of the Portuguese patriarch Alphonsus Mendez, printed by Ludolf, says envoys came to Florence from the emperor and the metropolitan. They took Eugenius's letters back to Zara Yaqob, and the emperor David later said he still had them",
+        "witness": "ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt l.57416-57425; ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt l.56873-56877",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Ludolf says nothing of the kind was done at Florence, and that the Jesuit fathers themselves show Zara Yaqob stood apart from the Roman church",
+        "witness": "ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt l.52424-52434",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
       },
       {
         "claim": "Patrizi puts in April 1442 the session at Florence that moved the council to Rome",
@@ -1505,6 +1547,18 @@
         "witness": "doukas_historia-byzantina-grc-lat_bekker1834.txt l.12144-12148",
         "witness_kind": "later narrative",
         "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Boulliau, Doukas's first editor, says Doukas held firmly to communion with the Catholic church. He blamed the Greeks who made the union insincerely, to win western help against the Turks",
+        "witness": "doukas_historia-byzantina-grc-lat_bekker1834.txt l.489-495",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Doukas calls the common people who treated the union as undone the dregs of the Greek nation",
+        "witness": "doukas_historia-byzantina-grc-lat_bekker1834.txt l.14324-14327",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
       },
       {
         "claim": "Mark's letter to the faithful calls the unionists Graeco-Latins, half-beasts like the centaurs, and asks what union this is where no plain sign appears",
@@ -1579,7 +1633,7 @@
         "formation_confidence": "Widely Accepted"
       },
       {
-        "claim": "The Roman editor's history says the Greeks never received this council, which they call the eighth, apart from those who sat in it",
+        "claim": "The Roman history printed before the acts says the Greeks never received this council, which they call the eighth, apart from those who sat in it",
         "witness": "mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.46008-46015",
         "witness_kind": "later narrative",
         "formation_confidence": "Widely Accepted"
@@ -1616,6 +1670,11 @@
       {
         "claim": "Whether Joseph died before or after the union",
         "sides": "After the union: Doukas (doukas_historia-byzantina-grc-lat_bekker1834.txt l.12087-12088). Before the signing: Syropoulos (syropoulos_vera-historia-unionis-non-verae-grc-lat_creyghton1660.txt l.45229-45232) and the notes to Doukas (doukas_historia-byzantina-grc-lat_bekker1834.txt l.32658-32664).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The day of Basel's first session",
+        "sides": "Friday 7 December 1431: Glassberger (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.20474-20475). 14 December: his Quaracchi editors, after Hergenröther and Brück (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.20494).",
         "formation_confidence": "Contested"
       },
       {
@@ -1670,7 +1729,7 @@
       },
       {
         "claim": "Who sent the Ethiopian envoys",
-        "sides": "The emperor, called Constantine: Eugenius's letter (raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.49240-49247). Zara Yaqob: Patrizi, as Mansi reports (raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.49290-49296; raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.51822-51826). Nicodemus, head of the Ethiopian convent in Jerusalem, without the king's knowledge: Dillmann, as Perruchon reports (zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893.txt l.578-582).",
+        "sides": "The emperor, called Constantine: Eugenius's letter (raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.49240-49247). Zara Yaqob: Patrizi, as Mansi reports (raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.49290-49296; raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.51822-51826). Perruchon, in his own text (zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893.txt l.552-553; zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893.txt l.673-674). The emperor and the metropolitan, and the emperor David later still had Eugenius's letters: the oration of Alphonsus Mendez, printed by Ludolf (ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt l.57416-57425). Nicodemus, head of the Ethiopian convent in Jerusalem, without the king's knowledge: Dillmann, as Perruchon reports (zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893.txt l.578-582). Nothing of the kind was done at Florence, and Zara Yaqob stood apart from Rome: Ludolf (ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt l.52424-52434).",
         "formation_confidence": "Contested"
       },
       {
@@ -1680,12 +1739,12 @@
       },
       {
         "claim": "Whether money bought the Greek signatures",
-        "sides": "Some archbishops would not sign until paid: Doukas, hostile (doukas_historia-byzantina-grc-lat_bekker1834.txt l.12144-12148). Mark says they were lured by promises and gifts (john-ephesus_lives-eastern-saints-po17_brooks1923.txt l.38155-38160). No money was asked or promised at the signing: Syropoulos (syropoulos_vera-historia-unionis-non-verae-grc-lat_creyghton1660.txt l.47648-47656).",
+        "sides": "Some archbishops would not sign until paid: Doukas, on the union's side (doukas_historia-byzantina-grc-lat_bekker1834.txt l.12144-12148). Mark says they were lured by promises and gifts (john-ephesus_lives-eastern-saints-po17_brooks1923.txt l.38155-38160). No money was asked or promised at the signing: Syropoulos (syropoulos_vera-historia-unionis-non-verae-grc-lat_creyghton1660.txt l.47648-47656).",
         "formation_confidence": "Contested"
       },
       {
         "claim": "Why the Greeks came: union in exchange for military help",
-        "sides": "A witness's view, not a term of any decree. The city guarded by the Pope's gold: Mark (gennadius-scholarius_opera-omnia-pg160-grc-lat_migne1866.txt l.99660-99666). No help sent afterwards: the Greek chronicle printed by Bekker (historia-politica-et-patriarchica-constantinopoleos_grc-lat_bekker1849.txt l.539-541). No western ruler helped: Mouravieff (mouravieff_history-of-the-church-of-russia_blackmore1842.txt l.3838-3843). Turkish pressure: the Roman history (mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.45847-45852). Manuel II's advice: the chronicle under Sphrantzes's name (sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838.txt l.10236-10242). The decree states no bargain (mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.14262-14300).",
+        "sides": "A witness's view, not a term of any decree. The city guarded by the Pope's gold: Mark (gennadius-scholarius_opera-omnia-pg160-grc-lat_migne1866.txt l.99660-99666). No help sent afterwards: the Greek chronicle printed by Bekker (historia-politica-et-patriarchica-constantinopoleos_grc-lat_bekker1849.txt l.539-541). No western ruler helped: Mouravieff (mouravieff_history-of-the-church-of-russia_blackmore1842.txt l.3838-3843). Turkish pressure: the Roman history (mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.45847-45852). Manuel II's advice: the Turks feared a union, so keep the council in mind, but do not hold it, for fear of a worse schism. The chronicle under Sphrantzes's name (sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838.txt l.10236-10254). The decree states no bargain (mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.14262-14300).",
         "formation_confidence": "Contested"
       },
       {
@@ -1702,7 +1761,7 @@
     "absent_details": [
       {
         "detail": "Basel's session acts (Mansi, tomi 29 and 30)",
-        "note": "Not held. Searched the Library for Mansi tomi (29 and 30 absent) and grepped all texts for Basel council phrases. Basel reaches us only in quotation (Raynaldus, Glassberger, Mirbt's Pragmatic Sanction, Mansi 31 appendices and Mansi 32's Lausanne decrees)."
+        "note": "Not held. Searched the Library for Mansi tomi (29 and 30 absent) and grepped all texts for Basel council phrases. Mansi's tomus 31 prints some of Basel's own documents: letters, the Compacts with the Bohemians, John of Ragusa's report and bulls of Felix V. The rest reaches us in quotation (Raynaldus, Glassberger, Mirbt's Pragmatic Sanction and Mansi 32's Lausanne decrees)."
       },
       {
         "detail": "A roll of Basel's members at any time",
@@ -1726,7 +1785,7 @@
       },
       {
         "detail": "An Ethiopian-side witness",
-        "note": "Perruchon says the chronicles of Zara Yaqob say nothing of Florence (zara-yaqob l.668-675). Ludolf's works mention Florence but were not read in context."
+        "note": "Perruchon says the chronicles of Zara Yaqob say nothing of Florence (zara-yaqob l.668-675). Ludolf (1691) and the Mendez oration he prints were read in context; neither is an Ethiopian text of the time."
       },
       {
         "detail": "An Armenian text of 1439",
