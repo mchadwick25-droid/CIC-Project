@@ -2216,5 +2216,3049 @@
         "note": "None found. The census's voice line for the Waldensian-Reformed Union says so. The held witnesses place Farel among the ministers (gilles 1881 l.2446-2448; muston l.6402-6405) and say the Bible 'originated through the influence of Farel' (muston l.6626). Searched Farel in Gilles, Perrin, Morland, Léger, Muston and Montet."
       }
     ]
+  },
+  "colloquy-of-regensburg-1541": {
+    "claims": [
+      {
+        "claim": "Calvin, 28 March 1541: Contarini is legate 'from the Pope, who has distributed so many crosses for us at his first entrance'. Then: 'for two days afterwards his arm, I think, must have felt the fatigue of it'",
+        "witness": "calvin_letters-vol1_bonnet1858.txt l.10975-10978",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Faber, as the MHSI editors quote his Spanish letter of 12 March 1541 from Ratisbon, says the legate Contarini entered the city that afternoon",
+        "witness": "ignatius-loyola_epistolae-et-instructiones-v22-lat_1903.txt l.7027-7030",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The edition the MHSI editors cite for Faber's 12 March letter (Cartas y otros escritos del B. Padre Pedro Fabro) is not held",
+        "witness": "ignatius-loyola_epistolae-et-instructiones-v22-lat_1903.txt l.7029-7030",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Held English sources call the city Ratisbon: Calvin's letters, Foxe, Sarpi in Brent's English and the 1542 bull in Waterworth's English",
+        "witness": "calvin_letters-vol1_bonnet1858.txt l.10340-10341; foxe_acts-and-monuments-v7_cattley-townsend1837.txt l.48618-48619; sarpi_history-of-the-council-of-trent_brent1676.txt l.15651; council-of-trent_canons-and-decrees_waterworth1848.txt l.11940-11941",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Calvin, writing from Strasbourg on 19 February 1541, had been chosen as a deputy to the Diet of Ratisbon. He served Geneva's church 'as well as that of Strasbourg'",
+        "witness": "calvin_letters-vol1_bonnet1858.txt l.10316; calvin_letters-vol1_bonnet1858.txt l.10340-10344",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Calvin: Contarini 'is desirous of bringing us under the yoke of subjection without bloodshed'",
+        "witness": "calvin_letters-vol1_bonnet1858.txt l.10979-10981",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Calvin: the emperor's mind is 'altogether turned to peace'. He fears an attack from the Turk and, from the king of France, an uncertain peace or open war",
+        "witness": "calvin_letters-vol1_bonnet1858.txt l.11032-11034; calvin_letters-vol1_bonnet1858.txt l.11142-11145",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Calvin: the Protestants expect no lasting peace without 'a settled agreement in religion' and will urge the estates to undertake it",
+        "witness": "calvin_letters-vol1_bonnet1858.txt l.11100-11105",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sarpi: the Diet began in March 1541. The emperor came in person, hoping to end discord and unite religion, and had asked the pope for a legate with ample authority",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.15654-15660",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sarpi: the first business of the Diet began on 5 April",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.15726",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sarpi and Pallavicino: the emperor proposed that a few godly and learned men of each side confer on the controversies. Pallavicino adds 'salua sempre la conclusione e la costituzione d'Augusta'",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.15747-15752; pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27352-27357",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Paul III's bull of 1542: treating of reunion in the diets 'seemed only adapted to excite greater discord'. So the pope reverted to a general council",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.11935-11939",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sarpi: at Worms Eck and Melanchthon spoke three days, then the emperor's letters recalled Granvelle and referred the rest to the Diet in Ratisbon",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.15648-15651",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Calvin: the estates allowed the emperor to choose a few pious and experienced men to seek agreement and submit it to the estates",
+        "witness": "calvin_letters-vol1_bonnet1858.txt l.11614-11618",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pallavicino: the emperor committed the choice to the Diet, which handed it back to him; he named the theologians 'con partecipazion del Legato'",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27448-27457",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The pope sent Contarini as legate at the emperor's request",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.15656-15666; pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.26975-26985",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Sarpi, of the Order of the Servi, served the Venetian Senate as theologian and consultor in its quarrel with Pope Paul V from 1606",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.679-680; sarpi_history-of-the-council-of-trent_brent1676.txt l.3973-3986; sarpi_history-of-the-council-of-trent_brent1676.txt l.3997-4006",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pallavicino was a Jesuit and wrote to refute Sarpi's history, published under the name Pietro Soave Polano",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.26-34",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Calvin, 24 April: on the 20th the emperor appointed for the Catholics Julius Pflug, John Gropper of Cologne and John Eck. For the Protestants Philip Melanchthon, Martin Bucer and John Pistorius",
+        "witness": "calvin_letters-vol1_bonnet1858.txt l.11619-11622",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pallavicino names the same six, with Gropper as archdeacon of Cologne",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27456-27468",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Calvin: the emperor 'gave them his hand on their first meeting, and when they took their leave'. By an interpreter he charged them to aim at 'the glory of God, the public peace'",
+        "witness": "calvin_letters-vol1_bonnet1858.txt l.11628-11636",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pallavicino: two presidents, Granvelle the emperor's minister and Frederick the Palatine, the Elector's brother; six hearers, most of them officials of various princes",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27468-27477",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Calvin: at his request the Protestants asked that a greater number of witnesses be present",
+        "witness": "calvin_letters-vol1_bonnet1858.txt l.11624-11626",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Calvin: the bishop of Modena, son of Jerome Morone, was sent separately as nuncio; 'He of Modena is altogether sanguinary'",
+        "witness": "calvin_letters-vol1_bonnet1858.txt l.10978-10984",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Calvin's 28 March list of arrivals includes 'the two Bavarians', Frederick the Palatine, the Landgrave and the Archbishop of Mentz. The Elector of Saxony excused himself by ambassadors",
+        "witness": "calvin_letters-vol1_bonnet1858.txt l.10908-10921",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Calvin names envoys of Venice, England (the Bishop of Winchester), Portugal and France, and a good many bishops",
+        "witness": "calvin_letters-vol1_bonnet1858.txt l.10986-11008",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Foxe: Henry VIII sent the bishop of Winchester and Sir Henry Knivet as joint ambassadors. The emperor was 'then at a diet or council at Ratisbon'",
+        "witness": "foxe_acts-and-monuments-v7_cattley-townsend1837.txt l.48615-48620",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pallavicino notes Calvin at the Diet, 'tuttoché di picciol nome' until then",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27393-27395",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Faber: in January 1541 he and his companions went to Ratisbon, where the imperial diet was held",
+        "witness": "faber_memoriale-lat_1873.txt l.1055-1056",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Faber at Ratisbon heard confessions of the imperial court and gave the Exercises to Spanish, Italian and German nobles",
+        "witness": "faber_memoriale-lat_1873.txt l.1089-1100",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Faber made his profession at Ratisbon, signed 9 July 1541",
+        "witness": "faber_memoriale-lat_1873.txt l.1133-1140; faber_memoriale-lat_1873.txt l.1177",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Calvin names Brentz, Musculus and Freithus as present; no one fights 'more earnestly against the wafer god than Brentz'",
+        "witness": "calvin_letters-vol1_bonnet1858.txt l.11994-11996; calvin_letters-vol1_bonnet1858.txt l.12007",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pallavicino: the emperor had Granvelle carry a book to the legate, composed, Granvelle affirmed, by pious and learned persons",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27494-27497",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pallavicino: the book was woven largely from Scripture and the Fathers and had twenty-two chapters",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27501-27505",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pallavicino: the legate and the nuncio perceived from various signs that Gropper was the author. Contarini found more than twenty places to correct and Gropper corrected them without contradiction",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27512-27520",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pallavicino: Eck suspected the book was by 'il Vicelio', whom he hated; he first spoke ill of it, then yielded",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27536-27540",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pallavicino: no error being found in the book in the papal theologians' view, it was put to the six by the emperor's command",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27542-27544",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sarpi calls it 'the Book of the Concord'",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.15823",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Calvin, 11 May: agreement on original sin 'without any difficulty'; on free will, drawn from Augustine, they did not depart from the Protestant view",
+        "witness": "calvin_letters-vol1_bonnet1858.txt l.11850-11855",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Calvin: on justification 'the debate in controversy was more keen'; a formula 'on receiving certain corrections, was accepted on both sides'",
+        "witness": "calvin_letters-vol1_bonnet1858.txt l.11855-11858",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Calvin: 'You will be astonished, I am sure, that our opponents have yielded so much'",
+        "witness": "calvin_letters-vol1_bonnet1858.txt l.11858-11859",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Calvin enclosed the formula in his letter; the edition does not print it",
+        "witness": "calvin_letters-vol1_bonnet1858.txt l.11858-11861",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pallavicino: the parties agreed on the articles of justification, faith, works, bishops and baptism; the legate reserved the pope's approval",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27542-27549",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Calvin: on the Church they agreed on the definition but differed on its power, and omitted that article",
+        "witness": "calvin_letters-vol1_bonnet1858.txt l.11872-11876",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Calvin: 'There stood the impassable rock which barred the way to farther progress'; transubstantiation and other forms were 'utterly rejected'",
+        "witness": "calvin_letters-vol1_bonnet1858.txt l.11880-11883",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pallavicino: the first subject of dissent was the Eucharist; the Lutherans began by refusing the word transubstantiation as not used by the ancient Fathers",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27565-27569",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Calvin spoke in Latin at the Protestants' own consultation on the Supper",
+        "witness": "calvin_letters-vol1_bonnet1858.txt l.11889-11899",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Calvin: Melanchthon's written statement, presented to Granvelle, 'was rejected with harsh expressions'",
+        "witness": "calvin_letters-vol1_bonnet1858.txt l.11902-11905",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Calvin, 12 May: Granvelle asked the four remaining theologians, Pistorius being left out, to confer alone. Philip and Bucer drew up 'ambiguous and insincere formulas concerning transubstantiation', which Calvin could not accept",
+        "witness": "calvin_letters-vol1_bonnet1858.txt l.11951; calvin_letters-vol1_bonnet1858.txt l.11962-11975",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Calvin: 'if we could be content with only a half Christ we might easily come to understand one another'",
+        "witness": "calvin_letters-vol1_bonnet1858.txt l.11968-11969",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Calvin reports Eck's apoplexy by 12 May",
+        "witness": "calvin_letters-vol1_bonnet1858.txt l.11962-11963; calvin_letters-vol1_bonnet1858.txt l.12007-12008",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Calvin: on the invocation of saints, the primacy of the Pope and the authority of the Church 'we could come to no agreement'",
+        "witness": "calvin_letters-vol1_bonnet1858.txt l.12405-12408",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sarpi lists five disputed articles: the ninth (power of the Church), fourteenth (penance), eighteenth (hierarchy), nineteenth (articles determined by the Church), twenty-first (single life)",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.15806-15812",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Calvin: the emperor thanked the commissioners and referred the whole to the States, with the book and the articles",
+        "witness": "calvin_letters-vol1_bonnet1858.txt l.12408-12416",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sarpi: on 28 July the emperor made the recess, remitting the colloquy to a general council, a national synod or a diet. Failing a council, a diet would meet within eighteen months",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.16155-16161",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pallavicino: the recess imposed acceptance of the articles until an ecumenical council in Germany, promised (the emperor said) by the legate. A council in Germany was a condition the cardinal had always refused",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.28275-28282",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Calvin, 3 August: 'The Diet concluded'; all referred 'to an Universal Council, or, at least, to a National one'",
+        "witness": "calvin_letters-vol1_bonnet1858.txt l.12676-12680",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Calvin: 'the whole plan of pacification passed off in smoke'; yet 'the adverse party will feel that they have received no slight wound'",
+        "witness": "calvin_letters-vol1_bonnet1858.txt l.12676-12678; calvin_letters-vol1_bonnet1858.txt l.12687-12689",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pallavicino: none of it took effect; the attacks did not cease, no council was held in Germany, and neither party received the articles",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.28300-28302",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pallavicino: Eck, absent from the last sessions with fever, wrote a sharp confutation of the book; his two colleagues answered with an apology",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.28302-28309",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Paul III's bull: by the advice of the diet he was called on to tolerate certain articles until a council. Catholic truth and the Apostolic See's dignity would not let him yield. So he chose that a council 'should be held as soon as possible'",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.11944-11961",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Paul III's bull: he proposed a council 'especially and finally in the diet of Ratisbon'. There Contarini acted as legate 'with very great learning and integrity'",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.11939-11943",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The bull was given at Rome in 1542, on the eleventh of the calends of June",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.12141-12142",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sarpi: the Diet was the principal cause that moved the pope to work for a council. It assured the Protestants they could obtain nothing where the pope's ministers were present",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.15711-15722",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Sarpi: Contarini 'was much Caluminated in the Court of Rome', suspected of leaning to Lutheranism",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.16222-16224",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pallavicino: many in Rome blamed Contarini as cold against the Lutherans, others as yielding in substance; Pole's letter consoled him",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.28336-28348",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pallavicino: the pope received Contarini most warmly at Lucca and gave him the legation of Bologna",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.28402-28407",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Histoire ecclésiastique: citizens of Metz heard of the articles concluded at the imperial diet at Ratisbon that year. They asked for free exercise of religion according to the Diet's resolution. It was not granted",
+        "witness": "beza_histoire-ecclesiastique-t3-fra_baum-cunitz-reuss1889.txt l.31490-31493; beza_histoire-ecclesiastique-t3-fra_baum-cunitz-reuss1889.txt l.31517-31519",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Spanish index of 1559 (Valdés, Valladolid) forbids works written against the imperial diet held at Ratisbon in 1541",
+        "witness": "reusch_indices-librorum-prohibitorum-sechzehnten-jahrhunderts-deu-lat_1886.txt l.13751; reusch_indices-librorum-prohibitorum-sechzehnten-jahrhunderts-deu-lat_1886.txt l.13894-13897; reusch_indices-librorum-prohibitorum-sechzehnten-jahrhunderts-deu-lat_1886.txt l.15423-15425",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Clement VIII's Roman index (1596 in Reusch's heading) lists books written against the imperial diet of Ratisbon, with no year",
+        "witness": "reusch_indices-librorum-prohibitorum-sechzehnten-jahrhunderts-deu-lat_1886.txt l.34946; reusch_indices-librorum-prohibitorum-sechzehnten-jahrhunderts-deu-lat_1886.txt l.37631",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Waterworth: the colloquies 'during the years 1541-42, at Worms and Ratisbon' and other attempts 'ended in nothing but disappointment'",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.3171-3178",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Calvin: 'the Marquis of Brandenbourg' secretly, not without the emperor's knowledge, sent 'one of the princes of Anhalt' on an embassy to Luther. Calvin did not yet know the answer",
+        "witness": "calvin_letters-vol1_bonnet1858.txt l.12363-12369",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pallavicino calls the Protestants heretics in his own voice",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27484",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sarpi: Contarini answered in writing 'not more Perſpicuouſly than the ancient Oracles' (OCR 'Perſpicnoufly than the angient Oracles')",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.15841-15843",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Pallavicino: how clear Contarini's answer was, everyone can feel",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.28083-28084",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The held English Sarpi says that at Lucca Contarini gave account of his legation 'and gave abſolute Satisfaction'",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.16232-16234",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "A second colloquy met at Regensburg in 1546. A letter from the city dated 31 January 1546 says it began on 27 January. Sarpi tells a colloquy in Ratisbon with no good fruit",
+        "witness": "broet_epistolae-broeti-jaji-codurii-rodericii-lat_1903.txt l.6759-6774; sarpi_history-of-the-council-of-trent_brent1676.txt l.19765-19776",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Calvin: the Protestants 'have thus retained also the substance of the true doctrine' in the agreed formula",
+        "witness": "calvin_letters-vol1_bonnet1858.txt l.11861-11864",
+        "witness_kind": "participant",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Pallavicino: in Rome the agreed words on justification did not satisfy because of their ambiguity. The pope told the legate to approve nothing not Catholic in sense and free of ambiguity",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27655-27662",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Pallavicino: the Catholic princes, barons and bishops refused the articles as ambiguous and too generous to the heretics. The deputies of the Catholic cities mostly wished them accepted",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.28140-28156",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Sarpi: the bishops rejected the Book of the Concord absolutely; the other electors and Catholic princes, desirous of peace, did not agree with them",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.15823-15826",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Sarpi: Contarini excused the pope for not giving full power, since authority to decide matters of faith cannot be communicated",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.15678-15705",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Pallavicino: Sarpi 'incespa nel primo passo grauemente'; the instruction's first chapter gave the legate no power to dispense the Church's laws and rites",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27076-27091; pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.52975-52982",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Pallavicino: Sarpi's two claims about the Diet are 'falfe con euidenza'; the pope had sought a council long before",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27370-27382; pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.52983-52992",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Pallavicino charges Sarpi with saying the pope received Contarini badly",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.52993-52997",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Sarpi's list of disputed articles lies beside an OCR gap in the held copy",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.15767-15780; sarpi_history-of-the-council-of-trent_brent1676.txt l.15806-15812",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Pallavicino dates a consistory to the day after the emperor's recess; the day is unreadable in the held OCR",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.28457-28466",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Inferential-Thin"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Whether the justification formula was truly agreed and orthodox",
+        "sides": "Accepted on both sides and keeping 'the substance of the true doctrine': Calvin (calvin_letters-vol1_bonnet1858.txt l.11855-11864). Pallavicino: agreed by the parties, the legate reserving the pope's approval (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27542-27549), but in Rome the words did not satisfy for their ambiguity (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27655-27662). The Catholic princes, barons and bishops called the articles ambiguous (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.28140-28156). The text of the formula is not held.",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Which Catholic estates refused the agreed articles",
+        "sides": "Sarpi: the bishops rejected the Book absolutely and the other electors and Catholic princes did not agree with them (sarpi_history-of-the-council-of-trent_brent1676.txt l.15823-15826). Pallavicino: the princes, barons and bishops refused, the Catholic cities' deputies mostly wished acceptance, and the electors inclined to accept until a council (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.28140-28156; pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.28270-28275).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "What powers Contarini's instruction gave him and how he excused the pope",
+        "sides": "Sarpi: Contarini excused the pope for not delegating authority on matters of faith, while he might agree with the Protestants if they kept the primacy and the Roman sacraments (sarpi_history-of-the-council-of-trent_brent1676.txt l.15678-15705). Pallavicino: Sarpi stumbles at the first step; the instruction gave no power to dispense laws and rites (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27076-27091; pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.52975-52982). The instruction is not held.",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "What the Diet proved, and whether it moved the pope to the council",
+        "sides": "Sarpi: nothing could be obtained where the pope's ministers were present, and the Diet moved the pope to procure a council (sarpi_history-of-the-council-of-trent_brent1676.txt l.15711-15722). Pallavicino: both claims are plainly false; Contarini worked so hard for concord that Rome blamed him, and the pope had long sought a council (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27370-27382; pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.52983-52992). Paul III's bull ties the Diet to his call for a council (council-of-trent_canons-and-decrees_waterworth1848.txt l.11935-11961).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whether Contarini's written answer was clear",
+        "sides": "Sarpi: no clearer than the ancient oracles (sarpi_history-of-the-council-of-trent_brent1676.txt l.15841-15843). Pallavicino: everyone can feel how clear it was, and the emperor bent it to his own reading (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.28083-28087).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "How Rome received Contarini after the Diet",
+        "sides": "Sarpi, held English: much calumniated in the Court of Rome (sarpi_history-of-the-council-of-trent_brent1676.txt l.16222-16224), yet at Lucca he 'gave absolute Satisfaction' (sarpi_history-of-the-council-of-trent_brent1676.txt l.16232-16234). Pallavicino charges Sarpi with saying the pope received him badly, and says the pope welcomed him warmly and made him legate of Bologna (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.52993-52997; pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.28402-28407). Pallavicino's charge does not match the held English text.",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Who wrote the Book",
+        "sides": "Granvelle: pious and learned persons (as Pallavicino reports, pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27494-27497). The legate and nuncio: Gropper, by various signs (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27512-27514). Eck: suspected Witzel (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27536-27537). No other held source names an author.",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whom Calvin's 'who has distributed so many crosses' refers to",
+        "sides": "Grammar allows the pope, the nearest noun (calvin_letters-vol1_bonnet1858.txt l.10974-10976). 'At his first entrance' and the tired arm fit the legate, whose entry Faber reports as the MHSI editors quote him (calvin_letters-vol1_bonnet1858.txt l.10976-10977; ignatius-loyola_epistolae-et-instructiones-v22-lat_1903.txt l.7027-7029). The Latin original is not held. The brief's 'blessings' renders Calvin's 'crosses'.",
+        "formation_confidence": "Contested"
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "The acts of the colloquy: the Regensburg Book, the agreed article on justification, the recess",
+        "note": "Not held. Searched all of cic/texts, case-insensitive: liber ratisbon|regensburger buch|book of ratisbon|libro di ratisbona|interim, and Wormser Buch. Also double-justice patterns (iustitia duplex|duplicem iustitiam|double justi|double righteous|doppelte gerechtigkeit|giustizia doppia) and inhaerens/imputata patterns: no text. Recess: taeuferakten-wuerttemberg (recesses jump 1535 to 1544), mirbt 1911 (nothing for 1541), mansi tomus 32 (Ratisbon hits are 1524) for Ratisb|Ratispon|Regensp|Abschied|Receß|recess. Calvin's enclosure of the formula (calvin_letters-vol1_bonnet1858.txt l.11858-11861) is not printed."
+      },
+      {
+        "detail": "Melanchthon's, Bucer's and Luther's own words on the colloquy",
+        "note": "Not held. Searched luther_*, melanchthon_*, book-of-concord_*, schwenckfeld_* for Ratisb|Regensp|Regensburg|1541|Contarin|Granvel: Luther hits are the 1541 death of the Danish prince (luther_table-talk_bell1886.txt l.1450-1452) and unrelated references; no Bucer file. Their views reach us through Calvin and Pallavicino."
+      },
+      {
+        "detail": "Luther's answer to the envoy from Brandenburg",
+        "note": "Not held. Calvin had not yet learned it (calvin_letters-vol1_bonnet1858.txt l.12367-12368); same searches as above."
+      },
+      {
+        "detail": "The names of the Brandenburg prince and the Anhalt envoy",
+        "note": "Calvin names neither (calvin_letters-vol1_bonnet1858.txt l.12363-12366). Bonnet's notes supply names (l.12389, l.12395); they are an editor's identification, unchecked by any other held source, and are not used."
+      },
+      {
+        "detail": "Contarini's own letters, instruction and written answers",
+        "note": "Not held. Searched contarin|contaren across cic/texts; Pallavicino cites his letters to Farnese in the margins (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27200-27215) but no Contarini file exists."
+      },
+      {
+        "detail": "Eck's confutation of the Book and Pflug and Gropper's apology",
+        "note": "Not held; named only by Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.28302-28309). Searched gropp|pflug|phlug|eccius|eckius|echio."
+      },
+      {
+        "detail": "Faber's Spanish letters in their own edition",
+        "note": "Not held. The 12 March line reaches us only as the MHSI editors quote it (ignatius-loyola_epistolae-et-instructiones-v22-lat_1903.txt l.7027-7030), citing Cartas y otros escritos del B. Padre Pedro Fabro, I, 61."
+      },
+      {
+        "detail": "A count of those present, and a list of names",
+        "note": "None held. Only the six, two presidents and six hearers are counted (calvin_letters-vol1_bonnet1858.txt l.11619-11622; pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.27464-27477). Calvin's lists of arrivals (l.10908-10921, l.10986-11008) are partial."
+      },
+      {
+        "detail": "Calvin's printed account, 'The Proceedings of the Imperial Diet held in the City of Regensbourg' (Geneva, 1541)",
+        "note": "Not held; only its title in Bonnet's note (calvin_letters-vol1_bonnet1858.txt l.9938-9941). Searched calvin_* for Ratisb|Regensp|Regespourg|Actes de la journ."
+      },
+      {
+        "detail": "Any held source calling 1541 the last serious joint attempt at reunion",
+        "note": "None. The claim is the councils scan's, not a held line. A second colloquy met at Regensburg in 1546 (broet_epistolae-broeti-jaji-codurii-rodericii-lat_1903.txt l.6759-6774; sarpi_history-of-the-council-of-trent_brent1676.txt l.19765-19776). Not used."
+      },
+      {
+        "detail": "Any held line saying Trent condemned the Regensburg article",
+        "note": "None. Pallavicino says Seripando named Pflug and Gropper among teachers of two justices (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.49202-49205); Waterworth says Trent condemned more than one formal cause (council-of-trent_canons-and-decrees_waterworth1848.txt l.4975-4980). Neither names Regensburg. Not used."
+      },
+      {
+        "detail": "Gropper's death",
+        "note": "Only Bonnet's note says he was strangled with his cardinal's hat strings, citing Beza's Icones, not held (calvin_letters-vol1_bonnet1858.txt l.11644-11648). Not used."
+      },
+      {
+        "detail": "A Latin text of Paul III's bull of 1542",
+        "note": "Not held; searched 'Initio nostri' across cic/texts. English in Waterworth only."
+      }
+    ]
+  },
+  "council-of-trent": {
+    "claims": [
+      {
+        "claim": "The last session of the council began on 3 December and ended on 4 December 1563",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.21861-21864",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "At the close Morone, first legate, blessed the synod and said 'go in peace'; they answered 'Amen'",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.24019-24024",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The cardinal of Lorraine opened the acclamations, and the fathers answered",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.24031-24037",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The acclamation 'let us confess the faith thereof, let us ever keep the decrees thereof' was answered 'Ever let us confess, ever keep'",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.24081-24083",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "'Anathema to all heretics' was answered 'Anathema, anathema'",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.24103-24104",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Waterworth says Lorraine led and composed the acclamations, after the model of the ancient councils",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.11144-11147",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Servanzio's diary, as Waterworth quotes it, says many shed many tears for great joy as they left",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.11159-11165",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Paleotto, as Waterworth quotes him, says great wonder, applause and joy broke out at the acclamations",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.11159-11161",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Pallavicino says faces all around were wet with tears",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846.txt l.57610-57613",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "The acts are held in English in Waterworth's translation, from the bull of indiction to the bull of confirmation",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.11650-24402",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Waterworth writes as a Catholic: the councils' prelates are 'secured from error, in matters of faith'",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.75-80",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Waterworth calls Sarpi's history 'skilful, but unfair' and Pallavicino's 'laborious and authentic'",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.340-347",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sarpi was a Venetian friar of the Servite order",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.675-678",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sarpi writes against the papal power: the council confirmed the 'exorbitant power' of the See of Rome",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.8820-8836",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pallavicino was a Jesuit, later a cardinal, and wrote to refute a 'false' history issued under the name Pietro Soave Polano",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.25-33",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Paleotto's and Servanzio's diaries are not held; they reach us in Waterworth's footnote and Pallavicino's citations",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.11159-11165",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Paul III's bull of indiction was given at Rome on the eleventh of the calends of June 1542",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.12140-12143",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Waterworth's note gives the bull's date as 22 May",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.12176",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The bull convoked a general council at Trent, to open on the calends of November 1542",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.12022-12026",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The bull says the Germans 'wished for the city of Trent', though the pope thought Cisalpine Italy more convenient",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.11982-11985",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The bull says the council was called 'principally on their account, and at their instance', in the city they desired",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.12077-12079",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The bull says Christian unity was 'rent and well-nigh torn asunder by schisms, dissensions, heresies'; Rhodes lost, Hungary ravaged",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.11693-11699",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The bull lists the council's business: religion, manners, the peace of princes, and repelling barbarians and infidels",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.12096-12102",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The bull says Charles V had promised the dissenters his mediation",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.11898-11903",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The bull says that at the diet of Regensburg the pope was asked to tolerate some dissenting articles until a council decided them",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.11942-11952",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "'Laetare Jerusalem' lifted the suspension and reconvened the council at Trent, dated 19 November 1544 (thirteenth of the calends of December 1544)",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt l.35612-35623, 35912-35917",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "A papal brief set the opening for Gaudete Sunday, the third of Advent",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt l.36733-36738",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Julius III recalled the council; the eleventh session met on 1 May 1551",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.14821-14920",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pius IV reconvened the council by his bull given at St Peter's in 1560",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.17362-17514",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The first session was held on 13 December 1545, with a decree asking whether the council 'do begin, and hath begun'; 'It pleaseth us'",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.12150-12173",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The opening decree names the extirpation of heresies, the peace of the Church, reform of clergy and people, and the enemies of the Christian name",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.12164-12171",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sarpi says the legates came 'with all the Prelates, in number 25' in procession to the cathedral",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.18406-18409",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Pallavicino counts, besides three legates, the cardinal of Trent, four archbishops, twenty bishops, five generals, Pighini and Ferdinand's envoys",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.35131-35135",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Waterworth gives Pallavicino's count and notes Le Plat's list has twenty-two bishops",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.3536-3554",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The council met in three periods: ten sessions under Paul III, six under Julius III, nine under Pius IV",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.24413-24414, 17278-17284, 21861-21864",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sessions IX and X were held at Bologna in 1547, the tenth on 2 June",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.14722, 14779-14783",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Waterworth counts 102 prelates besides the presidents at the first general congregation, 15 January 1562",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.7108-7111",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Sarpi says 112 mitred prelates, besides the cardinals, walked in procession on 18 January 1562",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.43949-43953",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "In a letter Bonnet dates to January 1545, Calvin calls the pope Antichrist and the 'Romish idol'",
+        "witness": "calvin_letters-vol1_bonnet1858.txt l.20036-20043, 20078-20082",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Calvin foresees his side refusing to entrust religion to 'the professed enemies of God': 'they will never permit him to be the judge'",
+        "witness": "calvin_letters-vol1_bonnet1858.txt l.20092-20096",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Bonnet says the 1545 letter has no address and no date",
+        "witness": "calvin_letters-vol1_bonnet1858.txt l.20050-20051",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Waterworth dates the public audience of the Württemberg and Saxon envoys to 24 January 1552",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.6697-6702",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Sarpi says Badehorn spoke for Maurice of Saxony and asked for a safe-conduct like Basel's, citing a decree of Constance",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.36581-36600",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Sarpi gives the Saxon terms: a 'general, free, and Christian Council' deciding controversies 'according to the Holy Scripture'",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.36586-36590",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Sarpi says the Saxons asked that the council 'first repeat, approve, and ratifie the Article of the Superiority of the Council above the Pope'",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.36640-36641",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Waterworth says the envoys demanded that the decrees of Basel and Constance limiting papal authority be approved",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.6704-6723",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Sarpi says the Württemberg envoys asked for judges chosen by both sides, since neither plaintiff nor defendant should judge",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.36658-36665",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Jewel calls it 'a conspiracy and not a council'",
+        "witness": "jewel_apology-of-the-church-of-england_bacon-morley1888.txt l.2919-2920",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Jewel's Apology was first published in 1562; Jewel was bishop of Salisbury",
+        "witness": "jewel_apology-of-the-church-of-england_bacon-morley1888.txt l.1-2, 82",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Jewel: 'we have not tarried for ... the authority or consent of the Tridentine council'; 'not one of our divines could be heard'",
+        "witness": "jewel_apology-of-the-church-of-england_bacon-morley1888.txt l.3589-3593",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Calvin, 10 April 1551, to Bullinger: 'We may accordingly remain at home.'",
+        "witness": "calvin_letters-vol2_bonnet1858.txt l.14421, 14472-14476",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Bonnet says the Reformed cantons refused to send deputies",
+        "witness": "calvin_letters-vol2_bonnet1858.txt l.14490-14495",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Bonnet says Calvin answered the decrees in his Antidote of 1547",
+        "witness": "calvin_letters-vol2_bonnet1858.txt l.7336-7341",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Sarpi's frame: a convocation 'procured and hastened' by some, 'hindered and deferred for the space of 22 years' by others",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.8788-8791",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Session IV, 8 April 1546: truth is in the written books and the unwritten traditions 'transmitted as it were from hand to hand'",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.12392-12419",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Session IV receives Scripture and traditions 'with an equal affection of piety, and reverence'",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.12419-12425",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Session IV declares the old Vulgate 'authentic' and forbids interpreting Scripture against the Church's sense",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.12476-12491",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Session VI, 13 January 1547: faith is 'the beginning of human salvation, the foundation, and the root of all Justification'",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.12954-12957, 13243-13246",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Canon IX condemns justification by faith alone 'in such wise as to mean that nothing else is required to co-operate'",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.13681-13686",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Waterworth says chapter VII is directed mainly against Luther's errors and also aims at Seripando's opinion",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.4968-4975",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Session VIII, 11 March 1547: the disease 'so plainly and notoriously certain' that the council was transferred 'for a time' to Bologna",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.14679-14710",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Session XV, 25 January 1552: the safe-conduct promises not to use any councils, 'especially those of Constance and Sienna', against it",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.17076-17079, 17250-17258",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Session XV notes that the Protestants 'have not as yet come'",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.17093-17099",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Session XVI, 28 April 1552, suspended the council; it 'irritated rather than calmed the minds of many'; German bishops had withdrawn",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.17278-17284, 17316-17328",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Session XVII, 18 January 1562: business to be what 'the Legates and Presidents proposing' seemed fit",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.17527-17531, 17542-17546",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Session XXIII, 15 July 1563: pastors are 'by divine precept' bound to know their sheep; all over churches, even cardinals, must reside",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.19178-19181, 19388-19420",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Waterworth's note: the word 'Assistunt' was long opposed by those who denied residence to be of divine right",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.19413-19414",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Session XXIII, chapter XVIII: cathedral churches to train boys of at least twelve, the poor chosen first, in 'a perpetual seminary of ministers of God'",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.19909-19938",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Session XXV: 'no hope remains' the heretics will come; the earlier decrees were recited; the fathers voted to close and ask confirmation",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.23966-24018",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Session XXV sent the Index, catechism, missal and breviary to the pope for completion",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.19388-19400",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sarpi says Monte 'suborned some to ask the Physicians, whether those Infirmities were not Contagious'",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.28743-28745",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Pallavicino says Sarpi asserts the papal order 'senza veruna prova'",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.4928-4931",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Pallavicino says spotted fever with unusual deaths struck Trent; the bishop of Capaccio died three days after the session",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.4933-4937",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Pallavicino quotes Fracastoro, the council's physician, swearing before the notary he would not stay another month in Trent",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.4990-4992, 5366-5372",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Sarpi says 35 bishops and three generals agreed to the transfer, Pacheco and 17 others opposed",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.28872-28876",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Pallavicino says of 56 present, 38 approved, 14 opposed, two were doubtful and two conditional",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.5570-5575",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Sarpi gives the vote of 20 April 1562 as 68 placet, 33 non placet, 13 and 17 deferring to the pope",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.45880-45900",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Pallavicino says the opponents were 38 or 37 and the middle 34, so most would not define without the pope",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.47497-47532",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Pallavicino quotes the council secretary's tally: 66 affirmative, later 67 with Lérida's vote",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.47547-47555",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Pallavicino cites Paleotto's acts, Servanzio's diary and the Florentine ambassador's letters on the vote",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.47532-47536",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Waterworth says Granada and Orense protested 'the Legates and presidents proposing', and Leon and Almeria agreed conditionally",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.7172-7181",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Sarpi says four prelates contradicted the words, naming Guerrero of Granada, Bianco of Orense, della Questa of Leon and the bishop of Almeria",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.43978-43986",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Sarpi says the fathers answered 'not one by one, but altogether, Placet' (OCR 'now')",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.70106-70110",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Pallavicino says the archbishop of Granada alone would not ask confirmation, and three Spanish bishops asked it 'come necessaria'",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846.txt l.57578-57604",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Waterworth says all voted for both proposals except Granada",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.11124-11133",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The acts count 255 signers: four legates, two cardinals, three patriarchs, 25 archbishops, 168 bishops, seven abbots, 39 proctors, seven generals",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.24105-24116",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The count is certified by Massarelli, secretary, and two notaries",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.24119-24131",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pallavicino gives 255 signers and 168 bishops",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846.txt l.57680-57688",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Waterworth gives 255 signers and 168 bishops",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.11170-11175",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sarpi prints '268 Biſhops' among otherwise matching figures",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.70213-70216",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Waterworth says Luna would not sign without the clause 'provided the Catholic King consent'; the envoys' acceptances were drawn up apart within two days",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.11186-11195",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Pallavicino says Luna would sign only with the king's assent reserved, and the envoys' acceptances were taken apart",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846.txt l.57718-57731",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Sarpi gives the French ambassador's absence and Luna's reservation as the two reasons the ambassadors did not sign",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.70216-70228",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Waterworth prints Le Plat's lists of those present in the first ten sessions and in the nine under Pius IV",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.24409-24416, 25697-25703",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Mansi prints names of the fathers at Bologna and at session XI",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt l.37541, 38062",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sarpi calls Lorraine's leading the acclamations 'a lightness and vanity not beseeming such a Prelate'",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.70194-70199",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Pallavicino says Lorraine composed the acclamations like the ancient councils', and seemed to grant Pius a supremacy the French had disputed",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846.txt l.57627-57640",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "In consistory on 26 January 1564 Pius IV, with the cardinals' 'advice and assent', confirmed all the council's decrees",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.24141-24178",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pius IV's bull of confirmation is dated the seventh of the calends of February 1564 (Waterworth: 26 January)",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.24396-24402",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Mirbt titles the bull 'Benedictus Deus' and dates it 26 January 1564",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.19426-19428",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The bull forbids publishing commentaries on the decrees without papal authority and reserves doubts to the Apostolic See",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.24336-24356",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pallavicino says the cardinals approved the confirmation by common consent",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846.txt l.58030-58038",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Sarpi says most of eight cardinals wanted the decrees moderated before confirmation",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.70324-70327",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Sarpi says Amulio, 'in whose Memorials I have seen this negotiation', urged confirming at once",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.70376-70416",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Sarpi says Monte, the prime legate, sang the Mass of the Holy Ghost at the opening",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.18408-18409",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Sarpi says Monte proposed the transfer in the general congregation",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.28771-28777",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Le Plat's list names Joannes Maria de Monte, later Julius III, and Marcellus Cervinus among the first legates",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.24417-24432",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Le Plat's list names Christophorus Madrucius, cardinal and bishop of Trent",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.24451-24454",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sarpi says Madruzzo would not answer the residence question precisely",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.45907-45909",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Waterworth says Lainez argued ably against the system of intrinsic and extrinsic justice",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.4898-4902",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Sarpi says Lainez spoke more than two hours that jurisdiction was given wholly to the bishop of Rome",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.54300-54305",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Le Plat's list for 1562 names Hercules Gonzaga first among the presidents",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.25705-25711",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sarpi says Mantua said the greater number demanded a declaration, and Simonetta favoured residence de jure positivo",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.45872-45877",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Morone and Simonetta petitioned Pius IV for confirmation in consistory",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.24141-24158",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Giussano names Gabriel Paleotto, auditor of the Rota",
+        "witness": "giussano_life-of-st-charles-borromeo-v1_1884.txt l.4437",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Waterworth names Angelo Massarelli as secretary",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.3546-3548",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Mirbt dates the bull 'Iniunctum nobis' and the Professio fidei Tridentinae to 13 November 1564",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.19494-19498",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Profession swears 'veram obedientiam' to the Roman pontiff and receives what Trent defined",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.19574-19578",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "McHugh and Callan say Pius V, elected 17 January 1566, had the Catechism revised; its first edition was printed at Rome in 1566",
+        "witness": "council-of-trent_roman-catechism_mchugh-callan1923.txt l.1210-1215, 1258-1262",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Giussano says Pius IV gave his nephew Charles the oversight of the council's business",
+        "witness": "giussano_life-of-st-charles-borromeo-v1_1884.txt l.3655-3657",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Giussano says Trent's decrees were 'read and formally accepted' at Milan's first provincial council, 15 October 1565",
+        "witness": "giussano_life-of-st-charles-borromeo-v1_1884.txt l.1334-1336, 4839-4841",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "At the session of 17 September 1562 Amulio's letter on Abdisho, patriarch of Muzal in Assyria, was read",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.51602, 51626-51636",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Pallavicino gives the reading of Abdisho's profession at session XXII",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846.txt l.9548-9619, 9621-9630",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Abdisho's profession is dated Rome, 7 March 1562",
+        "witness": "abdisho-iv_approbatio-et-professio-fidei-concilio-tridentino-lat_1562.txt l.209",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Abdisho swore at Rome before Amulio that he could not come to the synod but would teach what Trent would settle",
+        "witness": "abdisho-iv_approbatio-et-professio-fidei-concilio-tridentino-lat_1562.txt l.214-218, 266-289",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Amulio's letter, Rome, August 1562, says Abdisho came to Rome 'the year before' and stayed months",
+        "witness": "abdisho-iv_approbatio-et-professio-fidei-concilio-tridentino-lat_1562.txt l.105-112, 171-172",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Amulio's letter says Abdisho would have gone to the council had he not hastened home",
+        "witness": "abdisho-iv_approbatio-et-professio-fidei-concilio-tridentino-lat_1562.txt l.119-122",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sarpi dates Abdisho's profession 17 March",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.51655",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Sarpi says the Parliament's counsellors in France opposed the reform articles",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.70723-70726",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Sarpi: 'the Princes of Germany held none esteem of this Council'",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.71101",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "The editors of Ignatius's letters say Laynez and Salmerón came to Trent on 18 May 1546 as the pope's theologians",
+        "witness": "ignatius-loyola_letters-instructions-v1_oleary-goodier1914.txt l.5840-5845",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Ignatius sent instructions for the journey to Trent, Rome, early 1546",
+        "witness": "ignatius-loyola_letters-instructions-v1_oleary-goodier1914.txt l.3953-3957",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Le Plat's list says Pole left before the fifth session",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.24436-24443",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pius IV's bull calls the gathering 'a most numerous assembly of bishops', from all the nations of Christendom",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.24237-24241",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sarpi judged the council made the discords 'irreconcileable'",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.8820-8824",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pallavicino says they saw finished after eighteen years a work thorny with labours, hard with difficulties and rich in fruit",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846.txt l.57617-57620",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The canons on baptism condemn rebaptism without naming the Anabaptists",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.14055-14057, 14242-14246",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Whether the disease at Trent in 1547 was real or a pretext for the move to Bologna",
+        "sides": "Real, 'plainly and notoriously certain': the acts (council-of-trent_canons-and-decrees_waterworth1848.txt l.14686-14688); Pallavicino, citing deaths and Fracastoro's oath (pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.4933-4937, 5366-5372) | Spread on purpose: Sarpi, Monte 'suborned some to ask the Physicians' (sarpi_history-of-the-council-of-trent_brent1676.txt l.28743-28747)",
+        "formation_confidence": "Contested",
+        "note": "Pallavicino says Sarpi asserts the papal order without proof (P2 l.4928-4931)."
+      },
+      {
+        "claim": "The vote on the transfer, 11 March 1547",
+        "sides": "35 bishops and three generals for, Pacheco and 17 others against: Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.28872-28876) | Of 56, 38 for, 14 against, 2 doubtful, 2 conditional: Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.5570-5575)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The vote on residence by divine right, 20 April 1562",
+        "sides": "68 for, 33 against, 13 and 17 deferring to the pope; the greater part approved: Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.45897-45915) | Near seventy for, 38 or 37 against, 34 between; most would not define without the pope; secretary's tally 66, then 67: Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.47484-47555)",
+        "formation_confidence": "Contested",
+        "note": "The decree of 15 July 1563 speaks of a 'divine precept' and does not define divine right (W l.19390-19414)."
+      },
+      {
+        "claim": "Who objected to 'the Legates and Presidents proposing', 1562",
+        "sides": "Granada and Orense protested; Leon and Almeria agreed on a condition: Waterworth (council-of-trent_canons-and-decrees_waterworth1848.txt l.7175-7181) | All four contradicted: Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.43979-43986)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The closing vote, 4 December 1563",
+        "sides": "All answered together, 'Placet': Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.70106-70110) | Votes taken one by one; Granada alone would not ask confirmation; three bishops asked it 'as necessary': Pallavicino (pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846.txt l.57578-57604); Granada alone: Waterworth (council-of-trent_canons-and-decrees_waterworth1848.txt l.11124-11131)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "How the cardinals in Rome received the decrees before confirmation",
+        "sides": "Confirmed with the cardinals' 'advice and assent': the acts (council-of-trent_canons-and-decrees_waterworth1848.txt l.24171-24174); by common consent: Pallavicino (pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846.txt l.58030-58039) | Most of eight cardinals wanted them moderated first; Amulio urged confirming at once: Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.70324-70327, 70376-70416)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Lorraine and the acclamations",
+        "sides": "'A lightness and vanity not beseeming such a Prelate': Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.70194-70199) | Composed in the manner of the ancient councils, seeming to grant the pope a supremacy the French had disputed: Pallavicino (pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846.txt l.57627-57640)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The date of Abdisho's profession",
+        "sides": "7 March 1562: the print (abdisho-iv_approbatio-et-professio-fidei-concilio-tridentino-lat_1562.txt l.209); Pallavicino's note (pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846.txt l.9619) | 17 March: Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.51655)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The number of bishops who signed",
+        "sides": "168: the acts (council-of-trent_canons-and-decrees_waterworth1848.txt l.24111-24116), Pallavicino (pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846.txt l.57682-57688), Waterworth (council-of-trent_canons-and-decrees_waterworth1848.txt l.11172-11174) | 268: Sarpi as printed (sarpi_history-of-the-council-of-trent_brent1676.txt l.70214-70215)",
+        "formation_confidence": "Documented",
+        "note": "Sarpi's other figures match the acts, so 268 is probably a misprint or OCR error for 168; the page image is not checked. Not a real dispute; the acts' count stands."
+      },
+      {
+        "claim": "The opening count, 13 December 1545",
+        "sides": "'with all the Prelates, in number 25': Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.18406-18407) | cardinal of Trent, four archbishops, twenty bishops, five generals, besides three legates: Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.35131-35135) | four archbishops, twenty-two bishops, five generals: Le Plat, as Waterworth reports (council-of-trent_canons-and-decrees_waterworth1848.txt l.3552-3554)",
+        "formation_confidence": "Widely Accepted",
+        "note": "The counts agree in substance. Whether Sarpi's 25 includes the legates is unclear."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "The eyewitness diaries and acts of Massarelli, Paleotto and Servanzio",
+        "note": "Not held. ls cic/texts | grep -i -E 'massarel|paleot|servanz|le-plat|leplat|theiner|concilium-tridentinum|goerres|ehses|merkle' found nothing. Paleotto and Servanzio reach us in Waterworth's footnote (W l.11159-11165) and Pallavicino's citations (P2 l.47532-47536)."
+      },
+      {
+        "detail": "The Württemberg and Saxon confessions handed in at Trent, 1551-52",
+        "note": "Not held. grep over all cic/texts for 'Confessio (Virt|Wirt)embergica|Wirtembergic|Confessio Saxonica|Repetitio confessionis|Saxon Confession|Wurtemberg Confession' gave no relevant hit; 'Badehorn' occurs only in Sarpi. Their speeches reach us through Sarpi and Waterworth."
+      },
+      {
+        "detail": "Calvin's Acta Synodi Tridentini cum Antidoto (1547)",
+        "note": "Not held. Searched calvin_* and rilliet_* for 'antidot', 'Trident', 'Trent': only Bonnet's notes (C2 l.6728-6731, 7336-7341). Calvin's Opera vol. 7 is not vendored."
+      },
+      {
+        "detail": "Chemnitz's Examen Concilii Tridentini",
+        "note": "Not held. ls grep 'chemnitz|kemnitz|examen'; grep 'Examen Concilii|Examinis Concilii|Examination of the Council' over all cic/texts: only a bibliographic mention in an unrelated file."
+      },
+      {
+        "detail": "A list of the 255 signatures",
+        "note": "The acts give the count without the names (W l.24105-24116). Le Plat's lists in Waterworth are of those present at any session of the first and third periods (W l.24409-24416, 25697-25703). Mansi's lists for Bologna and session XI were not counted."
+      },
+      {
+        "detail": "The legates' and leaders' own writings on Trent",
+        "note": "Not held for Del Monte, Cervini, Seripando, Morone, Gonzaga, Simonetta or Lorraine: ls grep 'seripand|cervin|morone|lorrain|guise|monte'. Pole's held oration has no mention of Trent (grep 'trent|trident': 0)."
+      },
+      {
+        "detail": "The year Sarpi and Pallavicino wrote",
+        "note": "No held line gives the year either wrote; P1's title page says only that it is newly revised by the author (P1 l.25-35). Not stated."
+      },
+      {
+        "detail": "The Swiss cantons' reply to the 1551 invitation",
+        "note": "Not held; only Bonnet's note reports it (C2 l.14490-14495)."
+      },
+      {
+        "detail": "A national breakdown of the fathers",
+        "note": "No held source gives one; it would need Le Plat's lists counted, which was not done. Pius IV's bull says only that they came 'from all sides out of the nations of Christendom' (W l.24237-24241)."
+      }
+    ]
+  },
+  "diet-of-augsburg-1555": {
+    "claims": [
+      {
+        "claim": "The legate Morone's party reached Augsburg on the eve of the Annunciation (24 March 1555)",
+        "witness": "polanco_chronicon-v5-lat_1897.txt l.15369-15370",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The King of the Romans, the Cardinal of Augsburg and other bishops and princes received them and came out almost a league to meet the legate",
+        "witness": "polanco_chronicon-v5-lat_1897.txt l.15370-15372",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Word that Julius was dying reached Augsburg on the 27th, and news of his death on the 29th (the file reads 'Julius II', sic)",
+        "witness": "polanco_chronicon-v5-lat_1897.txt l.15372-15374",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Morone left for Rome on the last day of March, with the Cardinal of Augsburg",
+        "witness": "polanco_chronicon-v5-lat_1897.txt l.15374-15376; sarpi_history-of-the-council-of-trent_brent1676.txt l.38150-38151",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Sarpi says Morone received word of Julius's death 'eight days after' arriving",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.38148-38150",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Julius III died on 23 March 1555",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.26393-26395; council-of-trent_canons-and-decrees_waterworth1848.txt l.6883-6884",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Polanco is the secretary of the Society of Jesus, writing its chronicle for 1555",
+        "witness": "polanco_chronicon-v5-lat_1897.txt l.1-4",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Julius III sent Morone only 'con ripugnanza estrema' (OCR 'edrema'), since religion was to be handled in an assembly mixed of churchmen and laymen, Catholics and heretics; 'alla qual mostruosità non pareua conueneuole spettatore vn Legato' (OCR 'moftruofità', 'conue-|neuolc fpettatore')",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.26375-26380",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pallavicino was a Jesuit ('della Compagnia di Gesù'); the held edition is his revised one of 1664, the first having appeared in 1656-1657",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.1-4",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pallavicino's history was written to refute Sarpi's ('un'istoria falsa ... sotto nome di Pietro Soave Polano')",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.1",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sarpi was a Venetian friar ('Father Paul the Venetian, of the Order'; 'Fryer Paul')",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.679; sarpi_history-of-the-council-of-trent_brent1676.txt l.1137",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "No Lutheran participant's own account of the 1555 Diet is held",
+        "witness": "see absent_details",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "This Diet met in 1555, twenty-five years after the Augsburg Confession was read at the Diet of 1530; the recess protects that confession without naming a year or edition",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16247-16248; mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16272-16274; bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31286",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sarpi says the emperor 'had intimated' the Diet 'principally to compose the Controversies of Religion', which was 'the Fountain of all the troubles, and calamities of Germany' (long s normalized)",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.38057-38063",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sarpi says Ferdinand began the Diet in the emperor's name on 5 February",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.38065-38067",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Monumenta editors say the Augsburg assembly of 1555 began on 5 February and closed in September",
+        "witness": "salmeron_epistolae-v2-lat_1906.txt l.8513-8514",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Ferdinand's opening, in Sarpi: a general, free and pious council was once thought the only remedy; why it bore no fruit was known to all; a national council was out of use",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.38084-38096",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Ferdinand, in Sarpi: colloquies did no good because both parties aimed at private gain; yet he counselled trying one once more if the Diet did not propose a better way",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.38097-38104",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The proposal also concerned peace and war with the Turks, and was meant to invite men to the Diet, 'to which very few were come'",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.38106-38109",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The recess says the peace was made 'der spaltigen religion halben' as the high need of the empire required",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16266-16268",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The recess says the peace was granted to save 'diese lobliche nation vor endlichem vorsteendem undergang' (OCR 'lobhche')",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16323-16324",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Julius III's two conditions: great lords in person, not proxies; and nothing settled against the authority of the Church, the Fathers and the councils, above all against Trent's decisions",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.26380-26388",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sarpi says the legate was instructed 'above all, to divert all Colloquies, and Treaties of Religion'",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.38147-38148",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sarpi says Julius cursed the colloquies and their inventors, and complained he would always have 'a Council, a Colloquy, or a Diet' on his back",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.38114-38118",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Polanco reports Canisius: all Catholics thought it would have been far wiser never to have begun the Diet, and feared its end would be a great harm to faith and church jurisdiction",
+        "witness": "polanco_chronicon-v5-lat_1897.txt l.14914-14918",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sarpi says those of the Augsburg Confession claimed it was lawful for all to accept their doctrine, keeping the honors, states and offices they held (OCR has lost part of 'Offices')",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.38426-38429",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pallavicino says the Protestant princes of Saxony, Brandenburg and Hesse met at Naumburg 'quasi in una Contradieta' and wrote to Ferdinand of confirming their hereditary league",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27427-27433",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The 1648 treaty names 'Transactio a. 1552 Passavii inita et hanc a. 1555 secuta pax religionis'",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.21625-21626",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pallavicino's article: seizures of church goods were left to the Concord of Passau and suspended until a future diet",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27462-27465",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Charles V called the Diet; Ferdinand opened it 'in the Emperours name'",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.38057-38067",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Pallavicino says Charles answered 'in secca forma' that sickness and war kept him from German affairs, 'Onde à esso Ferdinando ne rimettea la dispositione'",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27419-27423",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Ferdinand was Charles's brother: Pallavicino has the emperor and 'il Rè suo fratello' (OCR 'lùo'); Sarpi's 'Imperial Authority of his Brother' reads 'of - us Brother' in the OCR",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.9428-9430; sarpi_history-of-the-council-of-trent_brent1676.txt l.38468-38469",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The recess speaks as 'we' beside 'der Röm. Kai. Mt' (OCR 'Köm.'); Mirbt's extract does not name the speaker",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16270-16271; mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16325-16326",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "No list or count of those present is held; Sarpi's 'very few were come' is the only size statement",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.38108-38109",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Polanco places the King of the Romans at Augsburg ('qui tunc Augustae agebat')",
+        "witness": "polanco_chronicon-v5-lat_1897.txt l.13600-13601",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Salmerón had an audience with the King of the Romans at Augsburg, reported in his letter of 1 September 1555",
+        "witness": "salmeron_epistolae-v2-lat_1906.txt l.8431-8461",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Nadal was sent with the legate Morone to the Diet of Augsburg in February 1555, and Lainez joined them at Florence",
+        "witness": "polanco_chronicon-v5-lat_1897.txt l.15312-15313; polanco_chronicon-v5-lat_1897.txt l.15363-15364; lainez_epistolae-et-acta-v1-lat_1912.txt l.386-387",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Lainez left Augsburg on 2 April",
+        "witness": "polanco_chronicon-v5-lat_1897.txt l.15382-15383",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Nadal wrote from Augsburg on 30 March, 6 April and 17 April 1555",
+        "witness": "nadal_epistolae-v1-lat_1898.txt l.16761; nadal_epistolae-v1-lat_1898.txt l.17202; nadal_epistolae-v1-lat_1898.txt l.17228",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Cardinal of Augsburg is Otto Truchsess, by the Monumenta editors' note",
+        "witness": "polanco_chronicon-v5-lat_1897.txt l.1457",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pallavicino: the nuncio Delfino, on Paul IV's election, asked for a successor and was told to commend his business to Luigi Lippomano, bishop of Verona, who was going as nuncio to Poland",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27379-27395",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Lippomano gave Ferdinand 'vna ponderosa scrittura' (OCR 'pende rofa_» fcrittufa') arguing questions of faith have no tribunal but the Apostolic See, then went on to Poland rather than stay a 'spettatore poco onorato'",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27399-27406",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Salmerón reached Augsburg on 20 August 1555 with the nuncio of Verona",
+        "witness": "salmeron_epistolae-v2-lat_1906.txt l.8448-8450",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Monumenta editors say Salmerón's party left Augsburg on 7 September",
+        "witness": "salmeron_epistolae-v2-lat_1906.txt l.8528",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Canisius was at Augsburg most of June (after the 9th) and from the last days of July to 5 August, by the editors' dating after Braunsberger",
+        "witness": "polanco_chronicon-v5-lat_1897.txt l.14815-14817",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Canisius preached twice at Augsburg and blocked a public disputation that seemed full of danger",
+        "witness": "polanco_chronicon-v5-lat_1897.txt l.14856-14860",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Nadal and Lainez met the bishop of Laibach and Pedro de Soto, 'olim Imperatoris Caroli confessario'; Soto left the Diet called by Philip, king of England",
+        "witness": "polanco_chronicon-v5-lat_1897.txt l.15384-15388; polanco_chronicon-v5-lat_1897.txt l.15423-15424",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The 1648 treaty says the 1555 peace was made with the unanimous consent of the emperor, electors, princes and estates of both religions",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.21625-21627",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Ferdinand's defence in Pallavicino: he had only approved what 'Cattolici ed Eretici, Ecclesiastici e Secolari' had agreed together (OCR 'vintamente', 'Ecclefiaftici')",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27440-27442",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "No held line names a Protestant prince or envoy present at Augsburg in 1555",
+        "witness": "see absent_details",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "The recess is dated 25 September 1555",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16247-16248; sarpi_history-of-the-council-of-trent_brent1676.txt l.38443-38444; polanco_chronicon-v5-lat_1897.txt l.2541-2542",
+        "witness_kind": "acts",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Pallavicino says the recess came out 'in sù lo spirar di Settembre'",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27564",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Paul IV's two letters are dated 18 December 1555",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16342; mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16351",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Paul IV was elected on 23 May 1555",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.6890-6891",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "§15: no estate of the empire to be attacked, harmed or forced on account of the Augsburg Confession 'wider sein conscienz, gewissen und willen'",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16271-16279",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "§15: the protection covers the religion and order set up or to be set up 'in iren fürstentumben, lan-|den und herschaften', with goods and lordships",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16277-16284",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "§15: the disputed religion to be brought to agreement only 'durch christliche, freuntlihe [sic OCR], friedliche mittel und wege'",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16284-16286",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "§16: the estates of the Augsburg Confession to leave the estates 'der alten religion anhengig, geistlich oder weltlich' untroubled in their religion",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16286-16290",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "§17: 'Doch sollen alle andere, so obgemelten beden religionen nit anhengig, in diesem frieden nit gemeint sondern genzlich ausgeschlossen sein' (the OCR runs 'bedenreligionennit' together and reads 'ssin'); the clause names no group",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16290-16292",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "§18, headed by Mirbt '(Reservatum ecclesiasticum)': a churchman who leaves 'unser alten religion' gives up his see and its income at once, 'jedoch seinen eren onnachteilig'; the chapter may choose 'eine person der alten religion verwant'",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16292-16301",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "§19, in Mirbt's summary only: church goods seized by the Protestant estates stay with them",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16301-16302",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "§20: church jurisdiction not exercised against the Augsburg Confession's religion, ministries and ceremonies, and to 'ruhen, eingestelt und suspendirt sein' 'bis zu entlicher vergleichung der religion' (OCR 'entlieher')",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16302-16316",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "§24: subjects of either religion may move 'mit iren weib und kindern', sell their goods against a fair release from serfdom and departure tax, 'unverhindert menniklichs', without loss of honor",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16316-16323",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "§25: if agreement through general council, national assembly, colloquies or imperial negotiations fails, the peace still stands, 'ein bestendiger beharrlicher und unbedingter, für und für, ewig werender friet'",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16323-16332",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "§106: the Kammergericht's judge and assessors may be presented 'von beyden der alten Religion und der Augspurgischen Confession'",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16332-16336",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pallavicino's article: the concord holds also among the nobility directly subject to the emperor and in imperial cities where both religions had been in force, so that both live together peaceably",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27483-27486",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sarpi: the Catholics would not let bishops or abbots change religion and keep their posts, nor let the cities that had received the Interim return to the Augsburg Confession",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.38429-38437",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sarpi: 'The Catholicks were content that the Cities should do as they pleased, and the Protestants gave over their pretence concerning the Ecclesiasticks' (long s normalized; 'the;Proteſtants', 'prerence' in OCR)",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.38440-38443",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pallavicino's article on oaths 'per Dio, e per l'Euangelio', so that Protestants are not forced 'à giurar pe' Santi'",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27491-27503",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pallavicino's article: no estate may draw another's lord or subject to its religion, nor protect vassals against their lord",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27452-27455",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pallavicino: Ferdinand declared that the temporal subjects of church princes were not bound, like lay princes' subjects, to keep the prince's religion or change country",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27505-27507",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sarpi tells a declaration by Ferdinand after the recess concerning places subject to church princes; the passage breaks off in the OCR",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.38467-38476",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Pallavicino: Ferdinand judged it best not to decide by which of the four proposed ways concord might be reached, and put it off to a future diet",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27406-27412",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Paul IV to Ferdinand, 18 Dec 1555: the popes had worked that the Augsburg assembly should break up with religion untouched rather than reach a recess 'tam perniciosum' (OCR 'perniciosura'), reached against his will, Ferdinand's and all Catholics'",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16346-16349",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Paul IV to Bishop Wolfgang of Passau, 18 Dec 1555: 'Nam quid alienius ab ea potuit deliberari [OCR 'dehberari'], quam quae in Augustae proximi conventus recessu decretum fuisse accepimus!' ('ea' is the Catholic faith of the sentence before)",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16355-16357",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pallavicino: the pope 'fè perciò asprissime querele' with Ferdinand, set out by the nuncio Delfino, who returned from Rome early in 1556",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27564-27568",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pallavicino: it seemed to Ferdinand that in the concessions harmful to Catholics plain necessity had kept him free of blame, and that where the choice was his he had shown the greatest zeal; he answered 'con maniere più risentite' than his mild nature usually allowed",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27568-27576",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pallavicino: the pope's complaints were taken as reproaches because of his ill will toward the House of Austria",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27576-27582",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pallavicino says Sarpi tells the wars of Paul IV and Philip 'senza dirne i veri principij'",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27583-27590",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sarpi: 'The Fame was' that Cardinal Truchsess of Augsburg, 'displeased with the liberty granted to the Confessionists', moved the pope; what the pope said is partly on lost lines",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.38524-38526",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Pallavicino: Ferdinand's and Bavaria's subjects asked not to be under a harder condition than their neighbors; they were answered that by the recesses vassals must 'seguir la Religion de' Padroni, ò à partirsi'",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27523-27529",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pallavicino's verdict: the recess proved the more harmful in the long run the more helpful it seemed then; the Germans slept on this 'oppio', and it cost Germany in another age 'vn lunghissimo trauaglio, con tante stragi e desolazioni'",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27509-27521",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Duke Christoph of Württemberg's mandate punishes Anabaptists, Schwenckfelders and others in honor, body and goods, 'dann sie auch in jungstem zuo Augspurg ufgeriebtem [sic OCR] religionsfridenstand und Freistellung mit nichten begriffen, sonder darvon usgesohlossen [sic OCR]'",
+        "witness": "taeuferakten-wuerttemberg_quellen-geschichte-wiedertaeufer-1-deu_bossert1930.txt l.9186-9187; taeuferakten-wuerttemberg_quellen-geschichte-wiedertaeufer-1-deu_bossert1930.txt l.9243-9245; taeuferakten-wuerttemberg_quellen-geschichte-wiedertaeufer-1-deu_bossert1930.txt l.9307-9310",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Bossert: the first draft dates from 1556, as the councillors' advice of 11 September 1556 shows; the printed copy carries Duke Christoph's additions; the draft was still debated early in 1557",
+        "witness": "taeuferakten-wuerttemberg_quellen-geschichte-wiedertaeufer-1-deu_bossert1930.txt l.9113; taeuferakten-wuerttemberg_quellen-geschichte-wiedertaeufer-1-deu_bossert1930.txt l.9320-9324",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "'Zwinglischer' was written above the line in Duke Christoph's own hand (Bossert's note a)",
+        "witness": "taeuferakten-wuerttemberg_quellen-geschichte-wiedertaeufer-1-deu_bossert1930.txt l.9244; taeuferakten-wuerttemberg_quellen-geschichte-wiedertaeufer-1-deu_bossert1930.txt l.9280",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Erläuterung says that at Worms in 1557 each Lutheran party wished to be the true kin of the Augsburg Confession and to shut the others out of the Religious Peace; the Catholics answered they must first settle who those were",
+        "witness": "schultz-christopher_erlaeuterung-fuer-caspar-schwenckfeld-deu_benner1830.txt l.12314-12350",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Erläuterung was written by Schwenckfelder emigrants from Silesia; the host catalogue names Christopher Schultz; first printed at Jauer in 1771",
+        "witness": "schultz-christopher_erlaeuterung-fuer-caspar-schwenckfeld-deu_benner1830.txt l.1-3",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Schaff: Frederick III 'was threatened with exclusion from the benefits of the Augsburg Treaty of Peace (concluded in 1555), since Zwinglianism and Calvinism were not yet tolerated on German soil'",
+        "witness": "schaff_second-helvetic-confession-heidelberg-catechism_1919.txt l.1819-1821",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Nadal, Canisius and Ledesma, 1566: reconfirming the peace did not prejudice Trent's dogmas; its conditions held 'nihil ... praeterquam permissionem, dissimulationem ecclesiasticae iurisdictionis, ac iuris etiam imperialis debiti suspensionem', yielding 'ad tempus' to hard necessity",
+        "witness": "nadal_epistolae-v3-lat_1902.txt l.5668-5684",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The 1566 opinion: the Holy See 'ferre quidem dolenter' this, and does not approve all done in the recesses 'nec pacem hanc publice constitutam laudari'",
+        "witness": "nadal_epistolae-v3-lat_1902.txt l.5712-5719",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The subscriptions of Nadal, Canisius and Ledesma on the 1566 opinion are autograph, by the editors' note",
+        "witness": "nadal_epistolae-v3-lat_1902.txt l.5703",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "At Trent in 1563 the archbishop of Prague, for the emperor, said a draft seemed to overturn 'tutti i recessi delle diete alemanne in materie ecclesiastiche, e perciò rimetter le spade in mano alle parti pacificate'",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846.txt l.43384-43395",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Lützow: 'The Peace of Augsburg contained no reference to Bohemia, but it greatly encouraged the Lutheran party in that country'",
+        "witness": "lutzow_bohemia-historical-sketch_1920.txt l.11500-11502",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The 1609 Letter of Majesty, quoted by the Bohemian estates in 1618, leaves them 'při tom pokoji, v svaté říši a náboženství, jenž Religionsfried slově, učiněném'",
+        "witness": "bohemian-estates_apologie-druha-1618-ces_subert1862.txt l.18495-18498",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Westphalia: the 1555 peace 'rata habeatur sancteque et inviolabiliter servetur'",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.21625-21628",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Westphalia extends its rights also to those 'qui inter illos reformati vocantur'",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.21734-21742",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Westphalia: 'Praeter religiones super nominatas nulla alia in sacro imperio Romano recipiatur vel toleretur'",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.21747-21748",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Innocent X protested that 'Haereticis Augustanae, ut vocant, confessionis liberum suae haereseos exercitium' is allowed",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.21813-21815",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Kriebel says the Schwenckfelders 'later were practically outlawed by the Augsburg Confession, by the Truce of Nuremberg, by the Treaty of Augsburg and by the Treaty of Westphalia'",
+        "witness": "kriebel_schwenkfelders-in-pennsylvania_1904.txt l.1088-1090",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Seipt: the Peace of Augsburg (1555) 'granted to every ruling prince the right to enforce his religion upon his subjects, and to banish all who refused to conform'",
+        "witness": "seipt_schwenkfelder-hymnology_1909.txt l.2241-2243",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Schaeffer: 1555 was the year 'the signing of the articles of the Peace of Augsburg secured a temporary external repose for the Lutheran Church'",
+        "witness": "arndt_true-christianity_boehm-schaeffer1868.txt l.533-535",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Pallavicino: Ferdinand consented to grave losses for the Catholic religion 'non però à perpetuo, mà fin' alla concordia finale'",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27413-27415",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Sarpi's summary: 'every one having Power to [estab]lish in his own State what Religion he will, and to forbid the other' (OCR 'liſh')",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.38458-38459",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Sarpi: in the debate 'all inclined to the second proposition', to leave every one to his liberty, and it was resolved to let princes and states follow in their dominions what pleased them best",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.38401-38425",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Salmerón, 1 Sept 1555: Ferdinand would lose his states, life and children rather than favor the heretics, and would permit nothing in the Diet against the faith or the Catholics",
+        "witness": "salmeron_epistolae-v2-lat_1906.txt l.8455-8461; salmeron_epistolae-v2-lat_1906.txt l.8484-8485",
+        "witness_kind": "participant",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Nadal from Augsburg: 'non si fa niente della dieta, se non ch' guadagnano ogni giorno d' grosso li lutherani' (OCR 'deUa', 'U lutherani')",
+        "witness": "nadal_epistolae-v1-lat_1898.txt l.16972-16973",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Canisius to Ignatius, 3 August 1555, quoted from Braunsberger: more harm than good is to be feared from the Diet, 'et nonest qui se opponat murum pro domo. Israél'",
+        "witness": "polanco_chronicon-v5-lat_1897.txt l.14943-14946",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Hutterite chronicle has a count tell arrested Brethren in 1557: 'denn die Konfession zu Augsburg hat es also beschlossen'; it may refer to the 1530 confession, and is not told as about the peace",
+        "witness": "hutterite-brethren_geschicht-buch-deu_wolkan1923.txt l.21383-21385",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "The brief names Ferdinand as the one who met the legate; Polanco has the King of the Romans with the Cardinal of Augsburg and other bishops and princes",
+        "witness": "polanco_chronicon-v5-lat_1897.txt l.15370-15372",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Whether the peace let rulers choose their subjects' religion",
+        "sides": "The recess protects the estates' religion 'in iren fürstentumben, landen und herschaften' and gives subjects of both religions a right to leave: Mirbt's extract (mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16277-16279, 16316-16323) | Power 'to establish in his own State what Religion he will, and to forbid the other': Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.38458-38459) | A duty of vassals to 'seguir la Religion de' Padroni, ò à partirsi': Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27527-27529) | 'the right to enforce his religion upon his subjects, and to banish all who refused': Seipt (seipt_schwenkfelder-hymnology_1909.txt l.2241-2243) | Exceptions held: the imperial cities (Pallavicino pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27483-27486; Sarpi sarpi_history-of-the-council-of-trent_brent1676.txt l.38440-38442), church princes' subjects (Pallavicino pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27505-27507), the churchmen's clause (mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16294-16298)",
+        "formation_confidence": "Contested",
+        "note": "Told as rulers choosing for their lands, with stated exceptions. The phrase 'cuius regio, eius religio' is in no held text."
+      },
+      {
+        "claim": "Whether the peace was permanent or temporary",
+        "sides": "Until final agreement and, failing that, 'ewig werender': the recess (mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16326-16332) | 'non però à perpetuo, mà fin' alla concordia finale': Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27413-27415) | 'a temporary external repose for the Lutheran Church': Schaeffer (arndt_true-christianity_boehm-schaeffer1868.txt l.532-535) | a 'permissionem' yielding 'ad tempus': the 1566 Jesuits (nadal_epistolae-v3-lat_1902.txt l.5676-5681)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whether the peace was the first legal toleration",
+        "sides": "No held text says 'first' or 'toleration'; the recess says 'frieden' and 'fridstand' (mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16291, 16323) | Passau 1552 came before it: Westphalia (mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.21625-21626), Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27462-27464) | Kriebel names 'the Truce of Nuremberg' among earlier acts (kriebel_schwenkfelders-in-pennsylvania_1904.txt l.1089)",
+        "formation_confidence": "Contested",
+        "note": "The councils scan row's 'first legal toleration' is not told in the entry."
+      },
+      {
+        "claim": "Whether the Reformed (Calvinists) were left out by the 1555 recess",
+        "sides": "The recess names no one; it excludes 'alle andere' (mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16290-16292) | Later texts put Zwinglians outside: Duke Christoph's mandate (taeuferakten-wuerttemberg_quellen-geschichte-wiedertaeufer-1-deu_bossert1930.txt l.9244, 9280, 9307-9311); Schaff on Frederick III (schaff_second-helvetic-confession-heidelberg-catechism_1919.txt l.1819-1821); Westphalia's admission of the 'reformati' (mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.21739-21742)",
+        "formation_confidence": "Contested",
+        "note": "Only Schaff names Calvinism; no held 1555 text names Calvinists."
+      },
+      {
+        "claim": "Whether Ferdinand gave way or held firm",
+        "sides": "He would permit nothing against the faith: Salmerón, 1 Sept 1555 (salmeron_epistolae-v2-lat_1906.txt l.8455-8461) | He 'consentì à grauissimi detrimenti della Religion Cattolica' and pleaded necessity: Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27413, 27568-27574) | Cause: Charles's curt answer leaving it to Ferdinand, Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27419-27423); the debate where 'all inclined' to liberty, Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.38401-38404)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Ferdinand's declaration on church princes' subjects: its terms and consent",
+        "sides": "Given without comment as Ferdinand's declaration: Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27505-27507) | Sarpi tells a declaration whose text breaks off in the OCR (sarpi_history-of-the-council-of-trent_brent1676.txt l.38467-38476)",
+        "formation_confidence": "Contested",
+        "note": "Sarpi's damaged phrase on consent is not quoted; no held text gives the declaration's date or form."
+      },
+      {
+        "claim": "Who counted as the Augsburg Confession",
+        "sides": "The recess names no edition (mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16272-16288) | At Worms in 1557 each Lutheran party claimed to be the true 'Augsburgischen Confessions-Verwandten', and the Catholics asked them first to settle who they were: the Erläuterung (schultz-christopher_erlaeuterung-fuer-caspar-schwenckfeld-deu_benner1830.txt l.12324-12350)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "What moved Paul IV",
+        "sides": "'The Fame' that Cardinal Truchsess of Augsburg persuaded him: Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.38524-38526) | His ill will toward the House of Austria colored his complaints: Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27576-27582), who says Sarpi omits the true beginnings (pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27583-27590)",
+        "formation_confidence": "Contested"
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "The full recess",
+        "note": "Mirbt gives only §§15-18, 20, 24, 25 and 106, with §19 summarized (mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16266-16336). The free-cities clause and Ferdinand's declaration reach us only through Pallavicino and Sarpi. Dossier searched all cic/texts for 'Declaratio Ferdinand', 'Ferdinandea', 'Nebenerkl', 'Nebendeklar' (only university names matched) and for 'Religionsfried', 'Religions-Fried', 'fridstand', 'friedstand', 'pax religionis', 'pace della religione', 'reservatum ecclesiast', 'recessu augustano', 'paix d'Augsbourg', 'Treaty/Peace/Pacification of Augsburg'."
+      },
+      {
+        "detail": "A list or count of those present",
+        "note": "No signature or member list found in Mirbt, Sarpi, Pallavicino, Polanco, Nadal or Salmerón (dossier searches for 'Fürsten', 'Stände', 'electors', 'princes' near the Diet). Sarpi's 'very few were come' is the only size statement (sarpi_history-of-the-council-of-trent_brent1676.txt l.38105-38106)."
+      },
+      {
+        "detail": "A Protestant prince or envoy named as present at Augsburg",
+        "note": "No held line names one; Pallavicino puts Saxony, Brandenburg and Hesse at Naumburg (pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27427-27430). Same files searched as for the member list."
+      },
+      {
+        "detail": "A Lutheran participant's own account of the Diet",
+        "note": "The held Melanchthon files are the 1530 confession and the Apology only. The Book of Concord (Jacobs 1911): grep for '1555|religious peace|peace of (religion|augsburg)|Passau|recess' gives only the 1530 Recess at l.11994. The Lutheran estates speak only in the joint recess and, a year on, in Duke Christoph's mandate."
+      },
+      {
+        "detail": "A Reformed voice from 1555",
+        "note": "Calvin's held letters (calvin_letters-vol1/2/4_bonnet1858.txt) skip 1555-1558 by year counts. Beza's Histoire t.1-3 has no 1555 Augsburg hit; its Augsbourg hits concern the confession."
+      },
+      {
+        "detail": "The phrase 'cuius regio, eius religio'",
+        "note": "In no held text. Dossier searched all cic/texts for 'cu[ij]us *-? *regio', 'eius|ejus *religio', 'ubi unus dominus'; the only hits are unrelated Latin (Acta Sanctorum, Aelred, Isidore). Not used in the entry."
+      },
+      {
+        "detail": "Canisius's and Ignatius's own 1555 letters",
+        "note": "Not held; Canisius's 1555 words come only through the Monumenta editors' quotations from Braunsberger (polanco_chronicon-v5-lat_1897.txt l.14943-14946; salmeron_epistolae-v2-lat_1906.txt l.8516-8520). Ignatius's held volumes are tomus 02, 03, 05, 06 and 22; his letter to Ferdinand of 24 July 1555 is only cited (salmeron_epistolae-v2-lat_1906.txt l.8522-8523)."
+      },
+      {
+        "detail": "The end of Sarpi's account of the declaration and the start of Paul IV's reaction",
+        "note": "Lost in the OCR, about sarpi_history-of-the-council-of-trent_brent1676.txt l.38477-38501. Sarpi's damaged phrase on 'consent' is not quoted."
+      },
+      {
+        "detail": "Charles V's own words to Ferdinand",
+        "note": "Only in Pallavicino's paraphrase (pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27419-27423)."
+      },
+      {
+        "detail": "Waterworth, Anderson's French documents, Foxe v4/v7/v8, Morland on the 1555 Diet",
+        "note": "No hit. Waterworth searched for '1555|Ferdinand|Augsburgh|Diet': hits at council-of-trent_canons-and-decrees_waterworth1848.txt l.6866-6930 pass from Passau to the popes of 1555 with no word on the Diet."
+      },
+      {
+        "detail": "An Augsburg place id in the census",
+        "note": "No census row carries an Augsburg (or Bavaria, Swabia) place id; searched the origin/main world-census.json for 'place' values containing Augsburg, Bavaria and Swabia. modernCountries gives Germany only."
+      }
+    ]
+  },
+  "colloquy-of-poissy-1561": {
+    "claims": [
+      {
+        "claim": "The 1580 title page of the Ecclesiastical History names no author",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.110-130",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The History was long credited to Beza; Reuss asks whether he wrote it and finds the tradition's foundations anything but solid",
+        "witness": "beza_histoire-ecclesiastique-t3-fra_baum-cunitz-reuss1889.txt l.785-800",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Reuss thought Beza did not compile the History himself but directed it closely and contributed his memories of the Colloquy of Poissy",
+        "witness": "beza_histoire-ecclesiastique-t3-fra_baum-cunitz-reuss1889.txt l.2002-2010",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Baum and Cunitz show the History's Poissy chapter copying La Place's Commentaires word for word in places",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27739-27740",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The History is a Reformed narrative, polemical in places, e.g. calling most prelates incapable of treating religion",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.26874-26875",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Baum and Cunitz say Beza's speech of 9 September was probably first printed under his own care a few days after the colloquy",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27881-27882",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "On 9 September, about noon, the court gathered in the great refectory of the nuns at Poissy",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27647-27648",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The king sat with Orleans and Navarre on his right, and the queen mother and the Queen of Navarre on his left",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27647-27652",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Three cardinals sat on each side of the hall, and below them thirty-six bishops and archbishops, with clergy and doctors behind",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27652-27680",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Sarpi gives six cardinals on 9 September",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.42787-42788",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Pallavicino gives five cardinals besides the legate and forty bishops who had come for the Estates",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.42003-42007",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The History says twelve ministers came with 22 deputies of the provincial churches, brought in by the Duke of Guise",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27840-27843",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Sarpi says the Protestant ministers were fourteen",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.42731-42733",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The ministers stood bare-headed at the barrier, and Beza, chosen by the others, spoke",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27863-27864",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Beza wished that all might with one voice sing a hymn to the Lord and hold out hands to one another",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.28097-28100",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Beza's printed speech: Christ's body is as far from the bread and wine as the highest heaven from the earth",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.28509-28517",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The History's narrative: Christ's body, though truly offered and given in the Supper, was as far from the bread as heaven from earth",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.28709-28713",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The prelates began to murmur; some said 'Blasphemavit', others rose to leave",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.28713-28718",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Tournon asked the king and queen that Beza be silenced or allowed to withdraw",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.28719-28722",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The History: the king did not stir, and Beza finished his speech",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.28722-28727",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Sarpi: Beza spoke with such heat that he was commanded to conclude",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.42836-42838",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Languet, in a note by Baum and Cunitz, says they let Beza finish",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.28771-28773",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Catherine, on 14 September, says she nearly silenced Beza but held back; known through a note by Baum and Cunitz from Le Laboureur",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.28780-28812",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Beza gave the confession of the Reformed churches to the king",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.28726-28744",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Sarpi says Beza spoke after praying on his knee",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.42820-42822",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "On 10 September the prelates resolved that Lorraine, helped by Despence, would answer on the Church and the Supper only. A counter-confession would follow, with condemnation for refusal",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.28999-29013",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The second session was on 16 September in the same hall",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.29165-29167",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Lorraine told the king he was the Church's son, not its lord; a member, not its head",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.29239-29242",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The prelates' assembly received the Society of Jesus on Monday 15 September as a college, not a new order, on condition it take another title",
+        "witness": "lainez_epistolae-et-acta-v8-lat_1917.txt l.39599-39605",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The royal letters of 1562 call the Poissy meeting the 'assemblée du clergé et concile national'",
+        "witness": "lainez_epistolae-et-acta-v8-lat_1917.txt l.39599-39601",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The legate, Cardinal of Ferrara, came to court on 19 September, by Vermigli's Relatio in a note by Baum and Cunitz",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.30472-30475",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The History says Lainez (called 'Lieva') was in the legate's train; the editors correct the name",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.30495-30503",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Lainez's editors date his arrival at Paris on 17 September and at Saint-Germain on 19 September",
+        "witness": "lainez_epistolae-et-acta-v6-lat_1915.txt l.184-187",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "On 24 September the History gives five cardinals, fifteen or sixteen doctors, some bishops, and twelve ministers only",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.30593-30630",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Polanco dates the third meeting to Wednesday 24 September; his editors' note reads 24 September 1561",
+        "witness": "lainez_epistolae-et-acta-v6-lat_1915.txt l.3607-3632",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Polanco says on Friday 26 September the same five cardinals came, with 25 bishops, and the queen mother despite the rain",
+        "witness": "lainez_epistolae-et-acta-v6-lat_1915.txt l.3653-3662",
+        "witness_kind": "participant",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Polanco says Ferrara and Tournon would not attend these disputations",
+        "witness": "lainez_epistolae-et-acta-v6-lat_1915.txt l.3700-3702",
+        "witness_kind": "participant",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Martyr spoke in Italian on 26 September, at the queen's wish, Polanco says",
+        "witness": "lainez_epistolae-et-acta-v6-lat_1915.txt l.3730-3733",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Lainez spoke in Italian, always turning his speech to the queen, for about three quarters of an hour, Polanco says",
+        "witness": "lainez_epistolae-et-acta-v6-lat_1915.txt l.3745-3749",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Lainez: it is not for the queen, nor for temporal princes, to handle matters of faith; they belong to the pope and the general council",
+        "witness": "lainez_epistolae-et-acta-v8-lat_1917.txt l.37500-37508",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Lainez: with the general council open, such meetings were neither fitting nor lawful",
+        "witness": "lainez_epistolae-et-acta-v8-lat_1917.txt l.37506-37508",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Lainez's copy was begun by Codreto and finished by Polanco, with Lainez's own corrections, the editors say",
+        "witness": "lainez_epistolae-et-acta-v8-lat_1917.txt l.37450-37453",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Coudret says Polanco was present",
+        "witness": "lainez_epistolae-et-acta-v6-lat_1915.txt l.3965",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Polanco's letter is printed from his own drafts, the editors say",
+        "witness": "lainez_epistolae-et-acta-v6-lat_1915.txt l.3619",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The ministers' declaration of 26 September says they speak for a million people in France, Switzerland, Poland, Germany, England and Scotland",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.32498-32501",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Lorraine produced a paper that proved a copy of a Württemberg preachers' confession of 1559",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.32150-32156",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The History says Lorraine sent for Augsburg-confession ministers 'afin de les divifer'",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.29115-29118",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "The History says the third conference, the last, went without order or secretaries",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33009-33013",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "At Catherine's order two bishops (Montluc, Du Val) and three doctors (Despence, Salignac, Boutelier) conferred with five ministers (Martyr, Beza, Des Gallars, Marlorat, L'Espine)",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33193-33203",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The conference met on 29 September; Baum and Cunitz correct the text's date",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33187-33205",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "On 1 October the statement was recast at Despence's urging",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33351-33356",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The statement says Christ in the Supper truly gives the substance of his body and blood",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33383-33395",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The History says Lorraine said he had never believed otherwise; Des Gallars agrees, Beza's letter of 4 October is silent",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33400-33449",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The formula went to Poissy on 4 October and was rejected as captious on 9 October",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33432-33440",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The prelates' conclusion found the statement not only insufficient but captious, with errors",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33690-33694",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Unless Beza and his company at once confessed and signed the Catholic confession, they would not be heard again",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33703-33711",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The conclusion asks that they be barred from the realm under the king's penalty. There had been but one God, one king, one faith and one law",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33711-33720",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Catholic confession says Christ's body and blood are present really and transubstantially under the species of bread and wine",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33722-33729",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The canons' preamble: the king summoned the prelates of the Gallican Church to Poissy, pending the general council",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33925-33930",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The canons submit all decrees to the pope",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33939-33960",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The first canon treats the naming and examination of bishops",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33965-34000",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The last canon tells the faithful to abhor Luther, Zwingli and Calvin as heresiarchs",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.35106-35110",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The canons close 'Acta Poissiaci ... 1561. Pridie Idus Oct.', in Languet's Latin given by Baum and Cunitz",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.35136-35140",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "After 9 October the ministers could never obtain a debate on their confession, the History says",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33740-33743",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The prelates dismissed their doctors on 13 October and went home",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33868-33872",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The German theologians reached Paris on 19 October, Baum and Cunitz say",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33797-33799",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Catherine: the two meetings brought only confusion of disputes upon disputes, more discord than union",
+        "witness": "french-reformed-synods_tous-les-synodes-nationaux-t1-fra_aymon1710.txt l.25542-25548",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Catherine thought it good that the prelates enter a gracious colloquy with the ministers",
+        "witness": "french-reformed-synods_tous-les-synodes-nationaux-t1-fra_aymon1710.txt l.25542-25545",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Catherine's smaller conference of five or six did not please the other prelates",
+        "witness": "french-reformed-synods_tous-les-synodes-nationaux-t1-fra_aymon1710.txt l.25550-25557",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Catherine: nothing in the canons can remedy the troubles",
+        "witness": "french-reformed-synods_tous-les-synodes-nationaux-t1-fra_aymon1710.txt l.25572-25574",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Catherine will await the next general council, not knowing what to expect of it",
+        "witness": "french-reformed-synods_tous-les-synodes-nationaux-t1-fra_aymon1710.txt l.25598-25602",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Catherine's letter is dated at Saint-Germain, October 1561, signed CATERINE; the OCR of the day reads 'iS.'",
+        "witness": "french-reformed-synods_tous-les-synodes-nationaux-t1-fra_aymon1710.txt l.25619-25621",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The heading above Catherine's letter is Aymon's",
+        "witness": "french-reformed-synods_tous-les-synodes-nationaux-t1-fra_aymon1710.txt l.25497-25511",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sarpi: the Pope was very glad the colloquy was dissolved without doing anything",
+        "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.42969-42971",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Pallavicino: neither side surrendered, and each claimed a kind of victory",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.42041-42043",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Pallavicino: French Catholics blamed the colloquy for the Huguenots' freedom to profess their faith openly",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.42066-42070",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Pallavicino: no national council was agreed. Catholics thought it an insult to the general council; the Reformed knew French prelates would not grant them equal judging power",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.41991-41999",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Bonnet: the colloquy everywhere increased the audacity of the Reformed",
+        "witness": "calvin_letters-vol4_bonnet1858.txt l.11032-11033",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "The Edict of January suspended penalties for Reformed meetings by day outside the towns. It did so until the general council decided or the king ordered otherwise",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.37078-37084",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Edict's reason: awaiting God's grace to reunite the subjects in one fold",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.37069-37073",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Edict also forbids preaching inside the towns, by day or night",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.37065-37067",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Waterworth: the articles proposed at Poissy were secretly examined at Trent",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.9099-9103",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Pallavicino reports Lorraine at Trent, 1563: the clergy and Estates gathered at Poissy were held back with great difficulty",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846.txt l.53712-53715",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Melville, 1607, cites the Colloquy of Poissy as a warning against colloquies",
+        "witness": "melville-james_autobiography-and-diary_pitcairn1842.txt l.33964-33969",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Melville's letter is in the 1607 continuation of his diary",
+        "witness": "melville-james_autobiography-and-diary_pitcairn1842.txt l.33905",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Bersier: in 1872 the synod president opened a session with Beza's confession of sins first read at Poissy",
+        "witness": "bersier_histoire-du-synode-general-de-l-eglise-reformee-t1-fra_1872.txt l.3640-3643",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The July assembly resolved again to call the prelates to Poissy. The ministers would have safe-conduct to be heard, to see whether they could be reunited to the Roman Church",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.25995-26000",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Baum and Cunitz say that assembly's deliberations ran from 23 June to 11 July",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.25796-25801",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "The History says the assembly made the Edict of July",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.25830-25834",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Bretagne, speaking for the Third Estate, asked the king to call a free and lawful national council and preside over it",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.26214-26528",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "A further list of requests at the Estates asks for a free and lawful national council, as already promised",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.26768-26792",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "L'Hospital, in the History's summary: the king granted a safe-conduct hoping a friendly conference would profit, so no one could say they were condemned unheard",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27790-27801",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The ministers asked that bishops not be their judges, being the other party, and that all be decided by the word of God alone",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27114-27124",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The king: 'je vous ay fait affembler'",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27684-27686",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Martyr and Beza were sent for by letters of the King of Navarre; Martyr from Zurich, Beza from Geneva",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.25999-26004",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Des Gallars had been pastor of the London church for two years, the editors say",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.26972-26973",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The History names fourteen ministers in all",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.26918-27006",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Baum and Cunitz count La Tour as the twelfth minister and the lay deputies as 22",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27017-27018",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Polanco names the five cardinals of 24 September as Lorraine, Armagnac, Bourbon, Chatillon and Guise",
+        "witness": "lainez_epistolae-et-acta-v8-lat_1917.txt l.37199-37203",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The queen gave the ministers her word that the clergy would not be their judges, with the Admiral present",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27620-27634",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Beza dates 9 September a Tuesday in his printed speech",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27897",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The ministers' first petition is dated 17 August in the History",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27011",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Languet wrote on 1 August that the bishops' assembly had begun three days before. Brulart gives 1 August; De Thou 10 August, which the editors reject",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.26025-26037",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Polanco's 26 September formula reads 'substantialiter'; the History prints a French statement without it",
+        "witness": "lainez_epistolae-et-acta-v8-lat_1917.txt l.37338-37344",
+        "witness_kind": "participant",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Pallavicino is of the Society of Jesus (title)",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.1",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Lainez is called general of the Society of Jesus by Pallavicino",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.42056-42057",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Calvin advised Beza by letter, 10 and 24 September 1561",
+        "witness": "calvin_letters-vol4_bonnet1858.txt l.10166-10250",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Crespin's notice nearly reproduces La Place's narrative, Benoît says",
+        "witness": "crespin_histoire-des-martyrs-t3-fra_benoit-lelievre1889.txt l.27503-27510",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Beza was minister at Geneva then",
+        "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.26003-26004",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Who wrote the Ecclesiastical History",
+        "sides": "Credited to Beza by long tradition and by the Library catalogue (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.2); the 1580 title page names no author (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.110-130) | Reuss: Beza directed it and gave his Poissy memories but did not compile it (beza_histoire-ecclesiastique-t3-fra_baum-cunitz-reuss1889.txt l.2002-2010) | Soldan and Heppe, cited by Reuss, deny Beza wrote it (beza_histoire-ecclesiastique-t3-fra_baum-cunitz-reuss1889.txt l.1629-1648)",
+        "formation_confidence": "Contested",
+        "note": "The entry never calls the History Beza's; it prints his speech as participant words."
+      },
+      {
+        "claim": "How many bishops came",
+        "sides": "36 bishops and archbishops on 9 September: the History (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27678-27679) | 40 bishops: Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.42006) | 25 bishops on 26 September: Polanco (lainez_epistolae-et-acta-v6-lat_1915.txt l.3662)",
+        "formation_confidence": "Contested",
+        "note": "No signed list is held; the counts are for different days."
+      },
+      {
+        "claim": "How many cardinals came",
+        "sides": "Six on 9 September: the History (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27652-27678) and Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.42788) | Five besides the legate: Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.42004-42005) | Five on 24 and 26 September: the History (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.30595) and Polanco (lainez_epistolae-et-acta-v6-lat_1915.txt l.3659-3661)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "How many ministers came",
+        "sides": "Twelve with 22 deputies: the History (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27840-27841) | Fourteen: Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.42733); the History names fourteen (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.26918-27006) | Baum and Cunitz count Martyr and Beza on top of twelve (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27017-27018)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whether Beza was stopped on 9 September",
+        "sides": "He was told to conclude: Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.42836-42838) | The king did not stir and Beza finished: the History (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.28722-28727); Languet, in a note (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.28771-28773); Catherine of 14 September says she nearly silenced him but held back (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.28785-28812) | Brulart, in a note, says he was interrupted and lost his thread (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.28736-28741)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Beza's words on the bread",
+        "sides": "'du pain & du vin ... le plus haut ciel': the printed speech (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.28515-28517) | 'du pain ... le haut des cieux', with the concessive 'combien qu'il nous fust véritablement offert & communiqué': the History's narrative (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.28709-28713)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whether the ministers came in at the start of 9 September",
+        "sides": "After Tournon spoke: the History (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27838-27842) | From the beginning: La Place and De Serres, as Baum and Cunitz cite them (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27845-27850)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "What Beza gave in writing on 26 September",
+        "sides": "A Latin formula with 'substantialiter': Polanco (lainez_epistolae-et-acta-v8-lat_1917.txt l.37338-37344) | A French statement without it; the Latin from a private meeting the ministers would not rely on: the History (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.32566-32572; beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33132-33155)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whether Lorraine approved the formula of 1 October",
+        "sides": "He said he had never believed otherwise: the History (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33400-33405); Des Gallars, in a note (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33445-33449) | Beza's letter of 4 October says nothing of it, Baum and Cunitz note (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33444)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "When the prelates' assembly opened",
+        "sides": "Languet, 1 August: begun three days before, called for 20 July | Brulart: 1 August | De Thou: 10 August, rejected by the editors (all in Baum and Cunitz, beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.26025-26037; beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.26890-26897) | Sarpi: 'In August' (sarpi_history-of-the-council-of-trent_brent1676.txt l.42729)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The date of the ministers' first petition",
+        "sides": "17 August: the History (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27011) | 10 August: Goulart | 12 August: Beza's letter of 22 August (both in Baum and Cunitz, beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27036-27047)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whether the legate was present at the colloquy",
+        "sides": "Ferrara and Tournon would not attend the disputations: Polanco (lainez_epistolae-et-acta-v6-lat_1915.txt l.3700-3702) | Ferrara's own claim that his face gave the Catholic doctors strength: Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.46462-46468)",
+        "formation_confidence": "Contested"
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Joint, signed acts of the colloquy",
+        "note": "None held. The ministers asked for secretaries on each side (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27129-27131); the History says the last conference went without secretaries (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33009-33011). Dossier searched HE1, LAI6, LAI8, Aymon, Pallavicino part 2 and Sarpi for 'secretaire', 'procès-verbal', 'acta colloquii', and all cic/texts for 'Pissiac|Poissiac|Possiac|Pisciac|Pinciac|Poyss|Poisi|Poissi|Poifli|Poifsì'."
+      },
+      {
+        "detail": "A full list or signed count of the prelates",
+        "note": "Not held. Polanco's editors refer to Prat, not held (lainez_epistolae-et-acta-v6-lat_1915.txt l.3695). Searched as above."
+      },
+      {
+        "detail": "Beza's and Vermigli's letters from Poissy, Vermigli's Relatio, Languet's letters, Brulart's journal, La Place, De Thou, Sattler's Sommaire and Catherine's letter of 14 September",
+        "note": "Not held; they reach us only through Baum and Cunitz's, Bonnet's and Benoît's notes. Dossier searched `ls cic/texts` for languet, conde, thou, place, sattler, hottinger, vermigli, espence, castelnau, popeliniere, serres, goulart."
+      },
+      {
+        "detail": "The day of Catherine's October letter",
+        "note": "The OCR reads 'iS.' (french-reformed-synods_tous-les-synodes-nationaux-t1-fra_aymon1710.txt l.25620), perhaps 18; not read with certainty. The entry says October 1561."
+      },
+      {
+        "detail": "Any held statement that the colloquy ended the hope of a common French church",
+        "note": "No held text says it. Dossier searched HE1 for 'eglise nationale|une mesme Eglise' and Bonnet's Calvin letters for 'national church|common church'. The crown's edict still hoped for 'une mefme bergerie' (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.37071-37072). The scan's summary is not used."
+      },
+      {
+        "detail": "A census place id for Poissy",
+        "note": "No census row has Poissy; a full-census search for 'poiss' finds only Époisses. The entry gives France (Q142) only."
+      },
+      {
+        "detail": "Santa Croce's nunciature letters on the September sessions",
+        "note": "Aymon's letters of the nuncio begin on 15 October 1561 (french-reformed-synods_tous-les-synodes-nationaux-t1-fra_aymon1710.txt l.894) and say nothing of the sessions; dossier searched Aymon for 'colloqu|conferen'."
+      }
+    ]
   }
 }
