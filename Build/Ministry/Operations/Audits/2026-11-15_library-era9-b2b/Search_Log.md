@@ -44,6 +44,10 @@ text; searchers' notes were not used.
   imprint "Christian Board of Publication, St. Louis" with no year, and the host dates it 1870 from the preface:
   a later, undated reprint. Replaced by `lifeofelderjohns00williala`, whose title page prints "Cincinnati: R. W.
   Carroll & Co., 1870".
+- **Row 229, Cartwright's Autobiography.** The searcher's pick (`autobiographyofp00cartuoft`) names Hitchcock
+  and Walden on its title page with no year, under Carlton & Porter's copyright notice of 1856: a later printing
+  by another house. The review caught it. Replaced by `autobiographype00cartgoog`, whose title page prints
+  "Carlton & Porter, 1857" and "eleventh thousand".
 - **Row 251, Emma Smith's hymnbook.** `collectionofsacr00smit` carries an Intellectual Reserve copyright line
   and was not taken. The microfilm copy `per_utah-and-the-mormons_a-collection-of-sacred-h_emma-smith_1835`
   carries no modern notice; its title page image prints 1835. Taken.

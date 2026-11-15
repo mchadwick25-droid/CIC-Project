@@ -660,3 +660,36 @@ Ninety-nine files for the 63 person rows marked major in the wanted list (rows 1
 
 Era 9, batch 2, in a fresh session: the person rows not marked major (226-330), the era 9 outside witnesses and
 council records, the held eras 8-9 items, and the texts of this batch still owed a date check.
+
+## Era 9, batch 2b: rows 227-245, 249-262, 267-278, 323 and 327-330 (2026-11-15)
+
+Sixty-one files for 49 person rows of the wanted list, and the date check left on row 223. Record:
+`Build/Ministry/Operations/Audits/2026-11-15_library-era9-b2b/Search_Log.md`, with `R1_review.md` and
+`R1_changes.md` beside it; the rows and the cautions are in `CFT-Wants.md`, "Era 9 (1815-1906), batch 2b".
+
+**Decided here.**
+- Host additions are stripped at intake for the first time: Google's own preamble, from the twelve files that
+  come from Google scans, and nothing else. Each header's Provenance note gives the lines and bytes removed.
+  Because of this, line numbers in this batch's headers are the vendored file's own lines.
+- Every content note and locus was written from the staged text by fresh checkers. Searchers supplied
+  title-page facts and downloads only.
+- An undated later printing is not taken on the first edition's date. Two picks were replaced by dated scans on
+  this ground: the Life of Elder John Smith (the Cincinnati printing of 1870) and Cartwright's Autobiography
+  (Carlton & Porter, 1857).
+- A "First published" line under the imprint, with a dated introduction and the catalogue's date agreeing, is
+  treated like a dated preface (Marchant's Life of Clifford, 1924). The header says so.
+- For Christendom Astray the dated preface (18 December 1883) agrees with the archive.org record's 1884, but
+  that record is a reader's upload and not a library catalogue. The title page names the author as his own publisher, and the
+  text closes with the date 7 December 1883. The header states all of this.
+- OCR that cannot be read is not taken: Lohe's Neuendettelsau history in German (1907).
+- Shelves follow the principle of 15 November. Nothing is left at `needs-ruling`. Dialogues on Prophecy (1828)
+  is `antecedent` on the Catholic Apostolic Church. A church's history by its own officer inside the entry's
+  window (Payne, Rush, Hamilton) is `tradition`.
+
+**Held for Mark.**
+- `collectionofsacr00smit`, Emma Smith's hymnbook of 1835 in a scan with an Intellectual Reserve copyright
+  line. Not taken; the microfilm copy, which carries no such line, was taken in its place.
+
+### Next action
+
+Batch 3: the era 9 outside witnesses, the council records and the held eras 8-9 items.
