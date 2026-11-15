@@ -65,7 +65,11 @@
  },
  "guerradecanudos00soar": {
   "year": 1902,
-  "basis": "read on the scan's page image, leaf n6, which prints 'Rio, Typ. Altina, 1902'; the library catalogue record gives 1902; the OCR of the same title page, at line 46 of this file, misreads the year as 1903"
+  "basis": "read on the scan's page image, leaf n6, which prints 'Rio, Typ. Altina, 1902'; the library catalogue record gives 1902; the OCR of the same title page, at line 46 of this file, misreads the year as 1903",
+  "content_sub": [
+   "title page at lines 24-46",
+   "title page at lines 22-46"
+  ]
  },
  "sketchoflifeofre00davirich": {
   "year": 1890,
@@ -179,9 +183,14 @@
  },
  "MN41568ucmf_0": {
   "basis_re": "LEIDEN\\. - D\\. DONNER\\. - 1899",
-  "basis_tpl": "line {n} of this file, on the title page ('{t}')"
+  "basis_tpl": "line {n} of this file, on the title page ('{t}')",
+  "content_sub": [
+   "(lines 68-76 and 86-99)",
+   "(lines 65-80 and 86-99)"
+  ]
  },
  "lecardinallavige00kleiuoft": {
-  "add": "The same chapter tells of 'Joseph Mkasa', his sentence and death, at lines 7022-7045."
+  "add": "The same chapter tells of 'Joseph Mkasa', his sentence and death, at lines 7022-7045.",
+  "locus": "the death of Joseph Mkasa at lines 7022-7045; Charles Louanga and the pages arrested, bound and burned at lines 7154-7220; the rest not mapped"
  }
 }

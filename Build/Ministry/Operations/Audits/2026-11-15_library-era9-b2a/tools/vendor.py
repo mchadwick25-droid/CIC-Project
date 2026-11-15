@@ -27,7 +27,7 @@ def main():
         elif cut: prov = f"At intake the file was cut and nothing else was changed: {cut}." + tail
         elif stripped: prov = f"At intake the host's own additions were removed and nothing else: {stripped}." + tail
         else: prov = "Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected."
-        if (s.get("left") or 0) >= 5: prov += f" About {s['left']:,} lines still carry the scanner's page mark where the OCR broke it over two lines or misread it; they were left in place."
+        if (s.get("left") or 0) >= 5: prov += " Lines that carry the scanner's page mark where the OCR broke it over two lines or misread it remain; they were left in place."
         rights = f'Public Domain (pd-us-by-date: published {s["year"]}); {s["host_rights"]}'
         if s.get("stamps"): rights += "; " + s["stamps"]
         hdr = [
