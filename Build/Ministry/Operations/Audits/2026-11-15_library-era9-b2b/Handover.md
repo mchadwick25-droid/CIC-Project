@@ -28,6 +28,16 @@ there. Check the region column before trusting it. For each row: confirm the tit
 `cic/texts/REGISTRY.yaml` before downloading, search, rights-check, vendor under the usual rules, and log what
 cannot be found with the card it serves. Many rows will be held already after batches 1, 2a and 2b.
 
+## First in the follow-on batch: everything located goes in (Mark, 15 November)
+
+Mark, through the coordinator: "each of them are vendering all the sources they find into the library". Every
+source found that passes the rights rules is vendored, with its header, registry entry and shelf rows. Only
+texts that fail on rights (logged, with the reason) and the hand-fetch sites stay out. So the items under
+"Located, not yet taken" in this folder's `Search_Log.md` are vendored first: the further volumes and the other
+witnesses. Mott's history of the Student Volunteer Movement prints no year and needs the date check. Later
+printings of a text already held are not taken again. Whether batch 1's "Located, not yet taken" list is this
+thread's or batch 2a's is the coordinator's call: ask before starting on it.
+
 ## What changed in how the batch runs (keep)
 
 - `tools/build2.py` makes the spec and the staged files; `tools/mkov.py` writes `overrides.json` (titles,
