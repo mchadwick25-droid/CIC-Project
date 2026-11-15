@@ -110,9 +110,10 @@ notes (`tools/data/notes_out_*.json`). `build.py` expects them in a scratch fold
 small change it is less work to change `overrides.json` and edit by hand the one file's header line, its
 staging row, its registry entry and its queue row, all four together.
 
-## The follow-on batch (added by Mark through the coordinator, 15 November)
+## The follow-on batch (added through the coordinator, 15 November)
 
-Two additions reached this thread after its context limit. Both are for a fresh session that starts from this
+Two additions reached this thread after its context limit, the first from Mark and the second from the
+coordinator. Both are for a fresh session that starts from this
 handover, on the same branch if the pull request has not merged, or on a new one from main if it has.
 
 1. **The texts the cards rest on.** Mark, verbatim: "the whole point of the library threads was to build the
@@ -123,11 +124,13 @@ handover, on the same branch if the pull request has not merged, or on a new one
    five of them marked borderline. Each title was named from memory on the page, so confirm that it exists
    before counting it, and grep `REGISTRY.yaml` for it before downloading: some are held already, and some
    were taken in this batch. Log what cannot be found, with the card it serves.
-2. **Vendor everything found.** Mark, verbatim: "each of them are vendering all the sources they find into the
-   library". Nothing that passes the rights rules stays "located, not yet taken". This batch's search log
-   lists about thirty such volumes under that heading, each with its archive.org id; batch 1's log lists more
-   for these regions. Take every one that passes. What stays out is only what fails on rights (logged, with
-   the reason) and what sits on the hand-fetch hosts (listed for Mark).
+2. **The volumes located and not yet taken.** The coordinator of the time asked that every source found that
+   passes the rights rules go into `cic/texts/` and that none stay "located, not yet taken". With that it
+   passed on a remark of Mark's, "each of them are vendering all the sources they find into the library". The
+   present coordinator has since said that the remark was a statement of fact, not a rule; so this item is the
+   coordinator's instruction, and is to be confirmed with the present coordinator before it is acted on. This
+   batch's search log lists about thirty such volumes under that heading, each with its archive.org id; batch
+   1's log lists more for these regions.
 
 The way of working is this batch's: searchers hand back picks, the Library thread checks every pick's archive.org
 id against the registry and reads the doubtful imprints, fresh checkers write the headers from the vendored
