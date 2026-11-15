@@ -12,7 +12,7 @@ The live text and the audio still carry the older wording. They change to these 
 |---|---|---|---|
 | Origen | 375 | 8.8 | 76.5 |
 | Methodius of Olympus | 243 | 9.1 | 72.3 |
-| Constantine the Great | 331 | 9.2 | 77.9 |
+| Constantine the Great | 343 | 9.7 | 75.5 |
 | Athanasius of Alexandria | 344 | 9.1 | 72.7 |
 | Ephrem the Syrian | 275 | 9.2 | 76.7 |
 | Gregory of Nazianzus | 324 | 9.5 | 72.0 |

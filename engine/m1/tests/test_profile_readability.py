@@ -11,7 +11,7 @@ BAR = pr.REPO / "Build/Ministry/Features/Church-Family-Tree/Who-Profiles/bar"
 EXPECTED = {
     "origen": (8.8, 76.5),
     "methodius-of-olympus": (9.1, 72.3),
-    "constantine-the-great": (9.2, 77.9),
+    "constantine-the-great": (9.7, 75.5),
     "athanasius-of-alexandria": (9.1, 72.7),
     "ephrem-the-syrian": (9.2, 76.7),
     "gregory-of-nazianzus": (9.5, 72.0),
