@@ -25,6 +25,12 @@ header's rights line fails `check_live_commentary.py`; keep rulings in the Searc
 Before vendoring, list `origin/main`'s `cic/texts/` again: the era 9 Library thread works the same day and took
 Butcher's vol. 2 while batch 1 was in review.
 
+A rule the coordinator announced on 15 November, to start once the coverage fix lands on main: each Library
+batch runs `python cic/engine/corpus_coverage.py` after its last map or text change and commits the result before
+the pull request. Check that the script is on main before relying on it.
+
+Open-Gaps numbers come from the coordinator at go time; batch 1's entry is 291.
+
 Carried into batch 2:
 - Parry, Six Months in a Syrian Monastery (1895): take the Google scan `sixmonthsinasyr00parrgoog` (not fetched
   yet). The Columbia scan was dropped for its "Reproductions may not be made without permission" line. The census
