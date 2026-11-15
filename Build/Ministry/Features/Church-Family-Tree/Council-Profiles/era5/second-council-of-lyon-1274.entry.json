@@ -1,0 +1,385 @@
+{
+  "id": "second-council-of-lyon-1274",
+  "kind": "major-council",
+  "kindLabel": "Major council",
+  "era": 5,
+  "name": "Second Council of Lyon",
+  "shortName": "Lyon 1274",
+  "informalName": "The general council of Lyon",
+  "dates": "1274",
+  "start": 1274,
+  "end": 1274,
+  "region": "Lyon, on the Rhône",
+  "placeLabel": "Lyon",
+  "modernCountries": [
+    {
+      "country": "France",
+      "countryId": "Q142",
+      "place": "Lyon",
+      "placeId": "Q456"
+    }
+  ],
+  "rivers": [
+    "Greek East",
+    "Latin West"
+  ],
+  "teaser": "Lyon, 1274. Pope Gregory X held a general council at which envoys of the emperor Michael VIII professed the Latin faith and Rome's primacy, and which taught that the Spirit proceeds from the Father and the Son as from one source.",
+  "knownFor": "The council at which the Greek envoys accepted union with Rome. Gennadios Scholarios says a great synod overturned it after Michael VIII's death.",
+  "datesNote": "1274. Glassberger says it opened on the feast of the apostles Philip and James, which his Quaracchi editors give as 1 May; Thomas Creyghton, the 1660 editor of Syropoulos, gives 7 May. Glassberger says the Greek envoys came before it ended, and Creyghton says they arrived the next month. Eubel, editor of the Franciscan bullarium, dates Bonaventure's death during the council to 15 July 1274. No held source gives the closing day",
+  "issue": [
+    "Gregory X had sent Jerome of Ascoli and other friars to the Greeks, to bring the Greeks and the Tatars back to the unity of the church (Glassberger). At the opening, Glassberger says, he told of a dream in which Christ promised that the church would win back through him the Holy Land and the Greeks.",
+    "The doctrine at stake was how the Holy Spirit proceeds, and the primacy of the Roman church (the council's constitution and Michael VIII's profession). Thomas Aquinas set out for the council carrying the little book he had written against the Greeks at Pope Urban's order (William of Tocco's Life).",
+    "Michael VIII's motive, as later writers give it: Gennadios Scholarios says he wanted to ward off the Latins' revenge for the city and make his rule safe for himself and his sons; the chronicle printed under Sphrantzes's name says he sent envoys for union if only to block an expedition by Baldwin and Charles of Anjou; the Latin Directorium of 1332, in Jean Miélot's French, says he feared Charles would take his empire and turned to tricks.",
+    "No Greek text from the time against the union is among our sources. Patriarch Joseph I's refusal is held only in later Greek memory (the Synaxaristes, the patriarch list in PG 147)."
+  ],
+  "calledBy": "Pope Gregory X. Glassberger says he began to hold at Lyon the general council he had called, and a witness at the canonization of Thomas Aquinas says Gregory was calling the council when Thomas was summoned to it. The constitution and the conclave decree speak in his name, with the approval of the council. His letter of summons is not among our sources",
+  "attended": [
+    "Manuel Kalekas, a Greek Dominican who wrote for the Latins and died in 1410, gives the pope in person and about 400 bishops, with envoys standing in for the church of Constantinople (Adversus Graecos, in Ambrogio Traversari's Latin). His editor Fabricius says Kalekas did not live at the time of the council. No list of names is among our sources.",
+    "The Greek envoys go unnamed in Glassberger and in Gennadios. Thomas Creyghton, the 1660 editor, names them as Theophanes, metropolitan of Nicaea, and Germanos, not long before patriarch. Guillaume Adam, a Latin hostile to the Greeks writing about 1317, says the emperor sent his patriarch; the editors of the Recueil identify that patriarch as John Bekkos (see uncertain).",
+    "Their interpreter was John of Balastri (Parastron), a Franciscan of Constantinople who knew Greek and Latin, interpreter at Lyon for the emperor and the Greek prelates (Glassberger).",
+    "Glassberger says three Franciscan prelates presided by the pope's order and handled the council's business: Cardinal Bonaventure, Eudes Rigaud, archbishop of Rouen, and the bishop of Tripoli, whom Eubel names as Paul.",
+    "Envoys of the Tatars came in robes woven with gold to make an alliance, and one of them, a king's son, was baptized, with the pope lifting him from the font (Glassberger).",
+    "Thomas Aquinas was summoned and set out in Lent, by a witness at his canonization, and fell ill on the road at Maenza (Tocco's Life; the deposition of Nicholas, abbot of Fossanova)."
+  ],
+  "decided": [
+    "A constitution on the procession of the Holy Spirit. It confesses that the Spirit proceeds eternally from the Father and the Son, as from one principle and by one spiration, and, with the approval of the council, condemns those who deny it or say he proceeds from them as from two principles (the acts, in Denzinger).",
+    "The profession of faith of Michael VIII, offered to Gregory X at the council. It confesses the Spirit proceeding from the Father and the Son, purgatory, seven sacraments, the eucharist made from unleavened bread, and the supreme and full primacy of the Roman church over the whole Catholic church, whose judgment settles questions of faith (the text, in Denzinger). Bannwart, Denzinger's editor, notes that Clement IV had put it to Michael in 1267.",
+    "The conclave decree Ubi periculum. When a pope dies, the cardinals wait ten days for the absent ones, then live together in one room in the palace, closed so that no one can go in or out. If they have not chosen within three days, they get one dish at lunch and supper for the next five; after that, only bread, wine and water, until a pope is chosen (the acts, in Mirbt).",
+    "Glassberger says the pope decreed with the council that there should be only two mendicant orders, the Friars Minor and the Preachers, the others being dissolved until something else was ordered. Clement XIV in 1773 says Gregory renewed the canon of the Fourth Lateran Council against new orders and banned for ever the mendicant orders founded after it without the apostolic see's confirmation. The text of this decree is not among our sources.",
+    "Glassberger says the pope charged the bishops, and above all the Franciscans and Dominicans, to preach the cross in aid of the Holy Land."
+  ],
+  "outcome": [
+    "Glassberger says the Greeks recognized the primacy of the Roman church and afterwards fell back into their old errors.",
+    "The chronicle printed under Sphrantzes's name says the union rested on three heads: the pope named in the hymns, appeal to him, and his first place in all things. The clergy would not keep quiet and stirred up the crowd; the emperor said it was done by oikonomia, as a concession, and flogged, maimed and exiled many who would not be persuaded.",
+    "Gennadios Scholarios says the emperor had told the church the union was a concession, but chose envoys who knew his mind, and they came back bringing open Latinism.",
+    "Patriarch Joseph I would not accept the union and gave up his throne, the Synaxaristes says; the patriarch list in PG 147 says Michael drove him out for it. John Bekkos took his place and made the union with the Latins (the patriarch list; the Synaxaristes).",
+    "The Synaxaristes remembers the twenty-six monks of Zographou and Euthymios, abbot of Vatopedi, with twelve of his monks, as martyrs who rebuked the Latin-minded Michael and Bekkos. Philipp Meyer, the modern editor of the Athos charters, doubts the story of a punitive invasion of Athos.",
+    "The editors of the Recueil say Michael signed the act of union in 1277 and that Martin IV excommunicated him on 18 November 1281.",
+    "After Michael's death, Gennadios says, a great synod overturned the act of Lyon. The patriarch list says Andronikos II cast Bekkos down and sent him into exile. Ismaël Boulliau, Doukas's 17th-century editor, says Andronikos denied his father funeral pomp and the usual honors because he had sided with the Latins.",
+    "In the Latin church the conclave decree was taken up: a council at Ravenna in 1311 ordered the prayers and processions it set for a vacant Roman see to be held for vacant cathedrals of its province. The house of the Sack friars at Oxford was left at the apostolic see's disposal under Gregory's constitution (Clement V, 1309), and Boniface VIII later set the Augustinian Hermits and the Carmelites on a firm footing, as before the council (Glassberger).",
+    "In 1870 the First Vatican Council recalled that, with the approval of the Second Council of Lyon, the Greeks professed the supreme and full primacy of the Roman church (Pastor aeternus, in Mirbt and in Schaff's English)."
+  ],
+  "record": [
+    {
+      "witness": "Constitution on the procession of the Holy Spirit (Denzinger, ed. Bannwart)",
+      "kind": "acts",
+      "note": "The council's own text, in a modern editor's extract from Mansi; speaks for Gregory X with the council's approval."
+    },
+    {
+      "witness": "Profession of faith of Michael VIII (Denzinger, ed. Bannwart)",
+      "kind": "acts",
+      "note": "Offered at the council in the emperor's name; Bannwart says Clement IV first put it to him in 1267."
+    },
+    {
+      "witness": "Conclave decree Ubi periculum (Mirbt, no. 306)",
+      "kind": "acts",
+      "note": "In a modern editor's extract."
+    },
+    {
+      "witness": "Nicholas Glassberger, Chronica",
+      "kind": "later narrative",
+      "note": "A Franciscan chronicler writing in 1508, citing earlier Franciscan chronicles; pro-council, and the main narrative of the scene."
+    },
+    {
+      "witness": "William of Tocco's Life of Thomas Aquinas and the depositions at his canonization (Acta Sanctorum)",
+      "kind": "later narrative",
+      "note": "Dominican; one deponent is the abbot of Fossanova, where Thomas lay ill."
+    },
+    {
+      "witness": "Manuel Kalekas, Adversus Graecos (PG 152, in Traversari's Latin)",
+      "kind": "later narrative",
+      "note": "Greek on the Latin side; died 1410; the only witness for about 400 bishops."
+    },
+    {
+      "witness": "Gennadios Scholarios, on the addition to the Creed (PG 160)",
+      "kind": "later narrative",
+      "note": "Greek, against the union; 15th century."
+    },
+    {
+      "witness": "The chronicle printed under Sphrantzes's name (Bonn 1838)",
+      "kind": "later narrative",
+      "note": "Greek, critical of Michael; names the wrong pope and does not name Lyon."
+    },
+    {
+      "witness": "The patriarch list printed in PG 147",
+      "kind": "later narrative",
+      "note": "Greek, against the union; Migne's Latin mistranslates Joseph's line, so the Greek is followed."
+    },
+    {
+      "witness": "Nikodemos the Hagiorite, Synaxaristes",
+      "kind": "later narrative",
+      "note": "Orthodox liturgical memory of those who refused."
+    },
+    {
+      "witness": "Guillaume Adam (about 1317) and the Directorium of 1332, in the Recueil des historiens des croisades",
+      "kind": "later narrative",
+      "note": "Latin writers hostile to the Greeks and to Michael."
+    },
+    {
+      "witness": "Joseph of Methone's dialogue on Florence (PG 159)",
+      "kind": "later narrative",
+      "note": "A Greek unionist who puts in an opponent's mouth the claim that Lyon condemned the Latins."
+    },
+    {
+      "witness": "Thomas Creyghton, Boulliau, Eubel, Bannwart, Mirbt, the Recueil editors, Philipp Meyer and H. C. Lea",
+      "kind": "modern reconstruction",
+      "note": "Editors and historians who give the envoys' names, dates, the excommunication of 1281 and the details of the mendicant ruling."
+    }
+  ],
+  "traditions": [
+    {
+      "id": "latin-papal-church-gregorian",
+      "name": "The Latin Papal Church (Gregorian Reform to Innocent III)",
+      "part": "Gathered",
+      "note": "Gregory X called and led the council, and its constitution and conclave decree speak in his name with the council's approval."
+    },
+    {
+      "id": "the-franciscan-movement",
+      "name": "The Franciscan Movement",
+      "part": "Gathered",
+      "note": "Bonaventure, Eudes Rigaud and the bishop of Tripoli presided by the pope's order, by Glassberger's Franciscan account; the interpreter for the Greeks was a friar."
+    },
+    {
+      "id": "the-dominican-order",
+      "name": "The Dominican Order",
+      "part": "Gathered",
+      "note": "Thomas Aquinas was summoned with his book against the Greeks and fell ill on the way (Tocco's Life)."
+    },
+    {
+      "id": "byzantine-church-after-1054",
+      "name": "The Byzantine Church after the Schism",
+      "part": "Refused",
+      "note": "Its envoys professed the faith and the primacy at Lyon; Patriarch Joseph would not accept the union, and after Michael's death a great synod overturned it (the Synaxaristes; the patriarch list in PG 147; Gennadios)."
+    },
+    {
+      "id": "athonite-and-comnenian-byzantine-monasticism",
+      "name": "Athonite & Comnenian Byzantine Monasticism",
+      "part": "Refused",
+      "note": "The Synaxaristes remembers the monks of Zographou and Vatopedi as martyrs who rebuked Michael and Bekkos; Philipp Meyer doubts the story of an invasion of Athos."
+    },
+    {
+      "id": "the-carmelites",
+      "name": "The Carmelites",
+      "part": "Affected",
+      "note": "Left to exist on sufferance until further order, by H. C. Lea's account, and later set on a firm footing by Boniface VIII, as before the council (Glassberger)."
+    },
+    {
+      "id": "military-religious-orders-templars-hospitallers",
+      "name": "Military-Religious Orders (Templars, Hospitallers)",
+      "part": "Affected",
+      "note": "Gregory X tried in vain at the council to unite the orders, by H. C. Lea's modern account only."
+    }
+  ],
+  "people": [
+    {
+      "name": "Gregory X",
+      "verdict": "NOT SCORED",
+      "part": "Called and led the council; received the Greek envoys with a kiss and celebrated the Mass at which they sang the Creed (Glassberger)"
+    },
+    {
+      "name": "Bonaventure",
+      "id": "bonaventure",
+      "verdict": "WHO",
+      "part": "Cardinal; presided, by the Franciscan account; preached on the Greeks' coming; died while the council sat"
+    },
+    {
+      "name": "Thomas Aquinas",
+      "verdict": "WHO",
+      "part": "Summoned; set out with his book against the Greeks and fell ill on the road"
+    },
+    {
+      "name": "Michael VIII Palaiologos",
+      "verdict": "STORY",
+      "part": "Emperor; not present; sent envoys and the profession of faith offered in his name"
+    },
+    {
+      "name": "Jerome of Ascoli",
+      "verdict": "NOT SCORED",
+      "part": "Legate to the Greeks; brought their envoys to Lyon; elected Franciscan minister general there while away"
+    },
+    {
+      "name": "Eudes Rigaud",
+      "verdict": "NOT SCORED",
+      "part": "Archbishop of Rouen; presided, by the Franciscan account"
+    },
+    {
+      "name": "Paul of Tripoli",
+      "verdict": "NOT SCORED",
+      "part": "Bishop; presided, by the Franciscan account (named by Eubel)"
+    },
+    {
+      "name": "John of Balastri (Parastron)",
+      "verdict": "NOT SCORED",
+      "part": "Franciscan of Constantinople; interpreter for the emperor and the Greek prelates"
+    },
+    {
+      "name": "Germanos",
+      "verdict": "NOT SCORED",
+      "part": "Former patriarch; envoy, by Creyghton's modern account only"
+    },
+    {
+      "name": "Theophanes of Nicaea",
+      "verdict": "NOT SCORED",
+      "part": "Metropolitan; envoy, by Creyghton's modern account only"
+    },
+    {
+      "name": "Joseph I of Constantinople",
+      "verdict": "NOT SCORED",
+      "part": "Patriarch; not present; refused the union and lost his throne"
+    },
+    {
+      "name": "John Bekkos",
+      "verdict": "NOT SCORED",
+      "part": "Not shown at Lyon by any held line of the time; patriarch after Joseph, he carried the union; exiled under Andronikos II"
+    },
+    {
+      "name": "Euthymios of Vatopedi",
+      "verdict": "NOT SCORED",
+      "part": "Not present; rebuked Michael and Bekkos, by the Synaxaristes"
+    },
+    {
+      "name": "Andronikos II Palaiologos",
+      "verdict": "NOT SCORED",
+      "part": "Not present; cast Bekkos down after Michael's death"
+    },
+    {
+      "name": "Clement IV",
+      "verdict": "NOT SCORED",
+      "part": "Dead; had put the profession to Michael in 1267, by Bannwart's note"
+    },
+    {
+      "name": "Martin IV",
+      "verdict": "NOT SCORED",
+      "part": "Not present; excommunicated Michael in 1281, by the Recueil editors"
+    }
+  ],
+  "briefLength": "about 2 minutes 30 seconds",
+  "uncertain": [
+    "Of the council's acts, only three texts are among our sources, in modern editors' extracts: the constitution on the Spirit, Michael VIII's profession and the conclave decree. The scene comes from Glassberger, a Franciscan writing in 1508. No Greek account from the time is among our sources; the Greek side, both for and against the union, reaches us from writers of the 1400s and later.",
+    "The opening day: 1 May by Glassberger's feast day, as his editors give it; 7 May in Creyghton, the 1660 editor of Syropoulos.",
+    "The count of about 400 bishops rests on Kalekas alone, a late writer giving a round number.",
+    "That the three Franciscans presided rests on Franciscan writers alone, Glassberger and Eubel.",
+    "Who the Greek envoys were: Creyghton names Theophanes of Nicaea and the former patriarch Germanos; Guillaume Adam, hostile, says the emperor sent his patriarch, whom the Recueil editors call Bekkos, though their own note makes Bekkos a resister in 1274 who was won over later.",
+    "How Joseph lost his throne: the Synaxaristes says he gave it up; the patriarch list in PG 147 says Michael drove him out.",
+    "Michael's motive: the later witnesses say he wished to ward off a Western attack; none of them says he sought help from the West.",
+    "The Athonite martyrs are held in liturgical memory; Meyer thinks the story of an invasion may be confused with a Catalan raid after 1300.",
+    "What Lyon decided, in later Greek memory: Gennadios and Doukas remember it as a union on Latin terms; a unionist dialogue has an opponent claim it condemned the Latins and that the acts were forged.",
+    "How Michael was buried: Boulliau says without funeral pomp and the usual honors; Creyghton and Guillaume Adam say he was left unburied."
+  ],
+  "sources": {
+    "fromTheCouncil": [
+      {
+        "title": "Constitution on the procession of the Holy Spirit; profession of faith of Michael VIII",
+        "author": "Second Council of Lyon, in Heinrich Denzinger, Enchiridion symbolorum, ed. Clemens Bannwart",
+        "language": "Latin",
+        "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt"
+      },
+      {
+        "title": "Ubi periculum: the election of the pope in conclave",
+        "author": "Second Council of Lyon, in Carl Mirbt, Quellen zur Geschichte des Papsttums, no. 306",
+        "language": "Latin",
+        "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt"
+      }
+    ],
+    "fromThoseThere": [
+      {
+        "title": "Life of Thomas Aquinas and the canonization depositions",
+        "author": "William of Tocco and the witnesses of 1319, in Acta Sanctorum, Martii tomus 1",
+        "language": "Latin",
+        "file": "cic/texts/acta-sanctorum_martii-tomus-1-lat_1735.txt"
+      }
+    ],
+    "writtenLater": [
+      {
+        "title": "Chronica",
+        "author": "Nicholas Glassberger, in Analecta Franciscana II",
+        "language": "Latin",
+        "file": "cic/texts/glassberger_chronica-analecta-franciscana-v2-lat_1887.txt"
+      },
+      {
+        "title": "Adversus Graecos",
+        "author": "Manuel Kalekas, in Migne, PG 152",
+        "language": "Greek and Latin",
+        "file": "cic/texts/calecas_opera-omnia-pg152-grc-lat_migne1866.txt"
+      },
+      {
+        "title": "On the addition to the Creed",
+        "author": "Gennadios Scholarios, in Migne, PG 160",
+        "language": "Greek and Latin",
+        "file": "cic/texts/gennadius-scholarius_opera-omnia-pg160-grc-lat_migne1866.txt"
+      },
+      {
+        "title": "The chronicle printed under Sphrantzes's name",
+        "author": "ed. Immanuel Bekker",
+        "language": "Greek and Latin",
+        "file": "cic/texts/sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838.txt"
+      },
+      {
+        "title": "The patriarchs of Constantinople",
+        "author": "printed with Nikephoros Kallistos, in Migne, PG 147",
+        "language": "Greek and Latin",
+        "file": "cic/texts/nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865.txt"
+      },
+      {
+        "title": "Synaxaristes, volume 1",
+        "author": "Nikodemos the Hagiorite",
+        "language": "Greek",
+        "file": "cic/texts/nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900.txt"
+      },
+      {
+        "title": "Guillaume Adam, De modo Sarracenos extirpandi; the Directorium ad passagium faciendum, with Jean Miélot's French",
+        "author": "Recueil des historiens des croisades, Documents arméniens II",
+        "language": "Latin and French",
+        "file": "cic/texts/rhc-armeniens_documents-armeniens-t2-latins-et-francais-fra_academie1906.txt"
+      },
+      {
+        "title": "Dialogue on the Council of Florence",
+        "author": "Joseph of Methone, in Migne, PG 159",
+        "language": "Greek and Latin",
+        "file": "cic/texts/chalcocondyles_historiarum-libri-x-with-isidore-leonard-plusiadenos-pg159-grc-lat_migne1866.txt"
+      },
+      {
+        "title": "Historia Byzantina, with Ismaël Boulliau's notes",
+        "author": "Doukas",
+        "language": "Greek and Latin",
+        "file": "cic/texts/doukas_historia-byzantina-grc-lat_bekker1834.txt"
+      },
+      {
+        "title": "Vera historia unionis non verae: Thomas Creyghton's preface",
+        "author": "Sylvester Syropoulos, ed. Thomas Creyghton",
+        "language": "Latin",
+        "file": "cic/texts/syropoulos_vera-historia-unionis-non-verae-grc-lat_creyghton1660.txt"
+      },
+      {
+        "title": "Bullarium Franciscanum V, with Konrad Eubel's notes",
+        "author": "ed. Konrad Eubel",
+        "language": "Latin",
+        "file": "cic/texts/bullarium-franciscanum_v5-lat_eubel1898.txt"
+      },
+      {
+        "title": "Sacrorum conciliorum collectio, tomus 25: the council of Ravenna, 1311",
+        "author": "Giovanni Domenico Mansi",
+        "language": "Latin",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-25-1300-1344-lat_welter-facsimile1903.txt"
+      },
+      {
+        "title": "Die Haupturkunden für die Geschichte der Athosklöster",
+        "author": "Philipp Meyer",
+        "language": "German and Greek",
+        "file": "cic/texts/athos-monasteries_haupturkunden-fur-die-geschichte-der-athoskloster-ger-grc_meyer1894.txt"
+      },
+      {
+        "title": "A History of the Inquisition of the Middle Ages, volume 3",
+        "author": "H. C. Lea",
+        "language": "English",
+        "file": "cic/texts/lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt"
+      },
+      {
+        "title": "The Creeds of Christendom II: the First Vatican Council, Pastor aeternus",
+        "author": "ed. Philip Schaff",
+        "language": "Latin and English",
+        "file": "cic/texts/schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt"
+      }
+    ]
+  }
+}

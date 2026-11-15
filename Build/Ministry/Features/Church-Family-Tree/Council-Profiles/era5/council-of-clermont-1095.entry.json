@@ -1,0 +1,347 @@
+{
+  "id": "council-of-clermont-1095",
+  "kind": "major-council",
+  "kindLabel": "Major council",
+  "era": 5,
+  "name": "Council of Clermont",
+  "shortName": "Clermont 1095",
+  "dates": "1095",
+  "start": 1095,
+  "end": 1095,
+  "region": "Clermont, city of Auvergne, in the kingdom of the Franks",
+  "placeLabel": "Clermont",
+  "modernCountries": [
+    {
+      "country": "France",
+      "countryId": "Q142"
+    }
+  ],
+  "rivers": [
+    "Latin West"
+  ],
+  "teaser": "Clermont, 1095. Pope Urban II and many bishops and abbots of Gaul decreed that the journey to free the church of Jerusalem, made for devotion alone, would count in place of all penance, and set a truce; nobles sewed the cross onto their clothes.",
+  "knownFor": "The council at which Urban II called the armed journey to Jerusalem, and Adhémar of Le Puy knelt to ask leave to go, by the account of Baldric, who watched.",
+  "datesNote": "November 1095, the month William of Tyre gives. The council was still sitting at the end of the month: a letter of Urban II for the church of Grenoble is dated at Clermont on 29 November, and the act of concord between Cluny and La Chaise-Dieu on 1 December 1095. No source among ours gives the opening day or the day of Urban's speech",
+  "issue": [
+    "In Baldric's telling, Urban spoke of the troubles of \"Christiani nostri fratres\" in Jerusalem, Antioch and the other cities of the East, beaten, oppressed and wronged. Baldric wrote the speech up in his own Latin.",
+    "William of Tyre says Urban held a council at Piacenza and then, fleeing the anger of the emperor Henry IV, left Italy and crossed the Alps into the kingdom of the Franks. There he saw faith perished and the rule of the prince of darkness spread far and wide.",
+    "William and Albert of Aachen say Peter the Hermit had brought Urban letters from the patriarch of Jerusalem about the sufferings of the Christians there. In William's telling the patriarch told Peter there was no hope from the Greeks, who had lost more than half their empire.",
+    "The Book of the Popes says Urban had heard that his predecessor Gregory VII had preached the journey to Jerusalem for the defense of the Christian faith, and could not carry it out because King Henry persecuted him.",
+    "The Eastern writers explain the Franks' coming without the council. Anna Komnene says Peter, back from a failed pilgrimage and ill-treated by Turks and Saracens, proclaimed in all the Latin lands that a divine voice bade him call the counts of Frankia to free Jerusalem. Ibn al-Athir says a Frankish prince offered Roger of Sicily help against Africa and Roger pointed them to Jerusalem instead; others, he says, hold that the caliphs of Egypt invited them. Matthew of Edessa sees the prophecy of Saint Nerses fulfilled.",
+    "The other side in the West, the emperor Henry IV and his party, has no voice on Clermont in any line among our sources.",
+    "Other business came before the council. Hugh, bishop of Grenoble, brought his long quarrel with the archbishop of Vienne over the district of Salmorenc (Hugh's own account)."
+  ],
+  "calledBy": "Pope Urban II. His own letter to Grenoble speaks of the council \"quod apud Clarummontem civitatem Arverniz celebravimus\", which we held at Clermont, city of Auvergne. William of Tyre says Urban first planned a general council at Vézelay, then at Le Puy, before it met at Clermont; Albert of Aachen says he decreed it at Le Puy and then went on to Clermont. The Old French translation of William has it sit at all three places, a change made by the translator",
+  "attended": [
+    "Baldric, who was there, gives many bishops and abbots of Gaul, and powerful and honored men without number from many regions. William of Tyre gives bishops and abbots from all the provinces beyond the Alps, with some princes; Albert gives the bishops of all France, dukes, counts and great princes.",
+    "No count and no list of names is among our sources.",
+    "Named as present: Adhémar, bishop of Le Puy (Baldric, William); William, bishop of Orange (William); Hugh, bishop of Grenoble (his own account); Hugh, abbot of Cluny, and Pontius, abbot of La Chaise-Dieu, with Hugh, archbishop of Lyon, and Aldebert, archbishop of Bourges (the act of 1 December); and Baldric himself, then abbot of Bourgueil, who writes \"nobis videntibus\", while we watched.",
+    "Peter the Hermit is present only in William's telling, where Urban calls him \"qui praesens est\". Baldric does not name him at the council."
+  ],
+  "decided": [
+    "The acts are not among our sources. Two canons reach us as extracts printed by Carl Mirbt.",
+    "Canon 2: whoever sets out to free the church of God at Jerusalem, \"pro sola devotione, non pro honoris vel pecmiiae adeptione\", for devotion alone and not to gain honor or money, shall have that journey counted in place of all penance.",
+    "Canon 9, from the Codex of Cencius: because many regions of Gaul were short of food, the truce was to hold without a break for three years for peasants and merchants; for knights from Thursday to Sunday every week; for clerics and monks at all times; and first of all for pilgrims going to the holy places.",
+    "The cross: in Baldric's telling, Urban told those who would go to fit the cross to their clothes, so that they might go more safely and be an example to those who saw them. William says it was laid on them by the pope's command to wear it on their shoulders.",
+    "Adhémar: Baldric says he won leave and a blessing to go, and an order from the pope that all should obey him.",
+    "In William's version of the speech, Urban relaxes the penances laid on those who take up arms for the pilgrimage, takes their persons and goods under the church's protection, and has anyone who harms them excommunicated by the local bishop until he restores what he took. Bishops and priests who do not resist such men are suspended. This is William's speech, not the acts.",
+    "The bishops were told to preach the journey in their own churches (Baldric, William). William adds canons for the reform of morals, and canons of peace made at Peter the Hermit's prompting.",
+    "The Grenoble case: Urban's letter, dated at Clermont on 29 November, says the quarrel over Salmorenc was settled by the council's authority in Hugh's favor. Clergy and laity there were forbidden to obey the archbishop of Vienne until the judgment was carried out.",
+    "Cluny and La Chaise-Dieu: a concord between Abbot Hugh and Abbot Pontius over their churches and monks was made at the council by the pope's hand, enacted publicly at Clermont and confirmed by Urban on 1 December 1095."
+  ],
+  "outcome": [
+    "While the council sat, Baldric says, envoys of Raymond, count of Toulouse, arrived without warning and bore witness that he had already taken the cross. Those who had been faint-hearted the day before took courage.",
+    "The council was dissolved, Baldric writes, and \"nos unusquisque properantes redivimus ad propria\", each of us hurried home. The bishops preached, lay people shouted it, and every day the number bound for Jerusalem grew.",
+    "William of Tyre says the bishops went home and worked, by the synod's statutes, to keep the truce unbroken. He lists princes who took the cross, among them Hugh the Great, Robert of Flanders, Robert of Normandy, Stephen of Blois, Raymond of Toulouse and Godfrey of Lorraine.",
+    "In Flanders, Walter of Thérouanne writes, Count Robert heard the decree of the council of Clermont and left his wife and children for the journey.",
+    "The Book of the Popes says the crowds wanted Urban to go with them, and the whole church would not let him. With his blessing and the absolution of their sins they fought under him and blessed Peter.",
+    "In Constantinople, Anna Komnene, the emperor's daughter, says her father heard of countless Frankish armies coming and feared their greed and their broken agreements. She tells of an unarmed crowd with crosses on their shoulders, women and children among them, \"like rivers flowing together from everywhere\". She names no pope and no council.",
+    "Ibn al-Athir says the emperor refused the Franks passage at Constantinople unless they swore to hand Antioch over to him, and they agreed. Matthew of Edessa, an Armenian, says the peoples of Italy and Spain and the farthest nations of the Franks came to free Jerusalem. Neither names the pope or the council.",
+    "Mansi's editors, notes to the Lateran council of 1123, say the same remission of sins was later granted to those going to fight in Spain as had been granted at Clermont to the defenders of the Eastern church."
+  ],
+  "record": [
+    {
+      "witness": "Canons 2 and 9, extracts in Carl Mirbt, Quellen zur Geschichte des Papsttums (1911), no. 256",
+      "kind": "acts",
+      "note": "Papal; Mirbt prints canon 2 from Mansi's volume 20, which is not among our sources, and canon 9 from the Codex of Cencius."
+    },
+    {
+      "witness": "The act of concord between Cluny and La Chaise-Dieu, made at Clermont and dated 1 December 1095 (Migne, PL 159)",
+      "kind": "acts",
+      "note": "A document of the council's business, confirmed by Urban; Migne's heading dates it 1096 against its own dating line."
+    },
+    {
+      "witness": "Urban II, letter to Count Guigo and the clergy and people of Grenoble, dated at Clermont on 29 November",
+      "kind": "participant",
+      "note": "The pope who called the council; partisan."
+    },
+    {
+      "witness": "Hugh of Grenoble, his own account of the Salmorenc case, printed by Le Couteulx",
+      "kind": "participant",
+      "note": "The winning party in the case; the archbishop of Vienne's side reaches us only through Hugh and Urban."
+    },
+    {
+      "witness": "Baldric, abbot of Bourgueil and later archbishop of Dol, History of Jerusalem, book I (Migne, PL 166)",
+      "kind": "participant",
+      "note": "Present at the council, by his own words; for the call. He was not on the crusade, reworked an anonymous history, and wrote Urban's speech in his own Latin."
+    },
+    {
+      "witness": "William of Tyre, History of the deeds done beyond the sea, book I, with the Old French translation",
+      "kind": "later narrative",
+      "note": "Latin East, writing in 1184; gives a different speech, and Peter the Hermit at the council."
+    },
+    {
+      "witness": "Albert of Aachen, History of Jerusalem, book I (Migne, PL 166)",
+      "kind": "later narrative",
+      "note": "Lotharingian; by Migne's notice he wrote from the reports of those who were there."
+    },
+    {
+      "witness": "The Book of the Popes, life of Urban II (Duchesne's Latin)",
+      "kind": "later narrative",
+      "note": "Roman curia; ties the journey to Gregory VII's plan."
+    },
+    {
+      "witness": "Walter of Thérouanne, Life of Charles the Good (Migne, PL 166)",
+      "kind": "later narrative",
+      "note": "Flemish; names the decree of the council of Clermont."
+    },
+    {
+      "witness": "Anna Komnene, Alexiad, book X",
+      "kind": "later narrative",
+      "note": "Byzantine court, hostile to the Franks; names no pope or council."
+    },
+    {
+      "witness": "Matthew of Edessa, Chronicle, year 545 of the Armenian era, in Dulaurier's French",
+      "kind": "later narrative",
+      "note": "Armenian, welcoming the Franks; names no pope or council."
+    },
+    {
+      "witness": "Ibn al-Athir, al-Kamil, year 490, in French translation",
+      "kind": "later narrative",
+      "note": "Muslim; names no pope or council."
+    },
+    {
+      "witness": "Carl Mirbt, Louis Duchesne, Migne's headings, the Bollandists and Mansi's editors",
+      "kind": "modern reconstruction",
+      "note": "Headings and dates (1095 in Mirbt and Duchesne, 1096 in Migne's heading and the Bollandists); the later use of Clermont's indulgence."
+    }
+  ],
+  "traditions": [
+    {
+      "id": "latin-papal-church-gregorian",
+      "name": "The Latin Papal Church (Gregorian Reform to Innocent III)",
+      "part": "Gathered",
+      "note": "Urban II held the council with many bishops and abbots of Gaul (Baldric), from all the provinces beyond the Alps (William of Tyre)."
+    },
+    {
+      "id": "cluniac-reform-monasticism",
+      "name": "Cluniac Reform Monasticism",
+      "part": "Gathered",
+      "note": "Abbot Hugh of Cluny made a concord with La Chaise-Dieu at the council, by the pope's hand, confirmed on 1 December 1095."
+    },
+    {
+      "id": "latin-church-of-outremer",
+      "name": "The Latin Church of Outremer",
+      "part": "Affected",
+      "note": "Princes who took the cross after the council went on to Jerusalem (William of Tyre); Latin clergy later filled the new sees in the East."
+    },
+    {
+      "id": "byzantine-church-after-1054",
+      "name": "The Byzantine Church after the Schism",
+      "part": "Affected",
+      "note": "Alexios received the Frankish armies and made them swear to hand over Antioch (Ibn al-Athir); Anna Komnene says he feared them."
+    }
+  ],
+  "people": [
+    {
+      "name": "Urban II",
+      "verdict": "NOT SCORED",
+      "part": "Pope; called and led the council, spoke, and wrote the letter for Grenoble"
+    },
+    {
+      "name": "Adhémar of Le Puy",
+      "verdict": "NOT SCORED",
+      "part": "Bishop; knelt to ask leave to go, and was made leader of the army, by Baldric's account"
+    },
+    {
+      "name": "William of Orange",
+      "verdict": "NOT SCORED",
+      "part": "Bishop; took the vow at the council, by William of Tyre's account"
+    },
+    {
+      "name": "Raymond of Toulouse",
+      "verdict": "NOT SCORED",
+      "part": "Count; not present; his envoys told the council he had taken the cross"
+    },
+    {
+      "name": "Peter the Hermit",
+      "verdict": "NOT SCORED",
+      "part": "Brought the patriarch's letter and was present, in William of Tyre's telling; Baldric does not name him; Anna Komnene makes him the cause of the whole movement"
+    },
+    {
+      "name": "Hugh of Grenoble",
+      "verdict": "NOT SCORED",
+      "part": "Bishop; laid his case against the archbishop of Vienne before the council and won it"
+    },
+    {
+      "name": "Guy of Vienne",
+      "verdict": "NOT SCORED",
+      "part": "Archbishop; lost the Salmorenc case"
+    },
+    {
+      "name": "Hugh of Cluny",
+      "verdict": "LISTED",
+      "part": "Abbot; party to the concord with La Chaise-Dieu"
+    },
+    {
+      "name": "Pontius of La Chaise-Dieu",
+      "verdict": "NOT SCORED",
+      "part": "Abbot; party to the concord with Cluny"
+    },
+    {
+      "name": "Hugh of Lyon",
+      "verdict": "NOT SCORED",
+      "part": "Archbishop; mediated the concord"
+    },
+    {
+      "name": "Aldebert of Bourges",
+      "verdict": "NOT SCORED",
+      "part": "Archbishop; mediated the concord"
+    },
+    {
+      "name": "Baldric of Bourgueil",
+      "verdict": "NOT SCORED",
+      "part": "Abbot; present, and wrote the fullest account from inside the council"
+    },
+    {
+      "name": "Peter of Pamplona",
+      "verdict": "NOT SCORED",
+      "part": "Bishop; present by a Bollandist editor's statement only"
+    },
+    {
+      "name": "Robert of Flanders",
+      "verdict": "NOT SCORED",
+      "part": "Count; not present; took the cross on hearing the council's decree"
+    },
+    {
+      "name": "Alexios I Komnenos",
+      "verdict": "LISTED",
+      "part": "Emperor; not present; received the armies and required an oath on Antioch"
+    },
+    {
+      "name": "Henry IV",
+      "verdict": "WHO",
+      "part": "Emperor; not present; Urban crossed the Alps fleeing his anger, by William of Tyre's account"
+    },
+    {
+      "name": "Gregory VII",
+      "id": "gregory-vii",
+      "verdict": "WHO",
+      "part": "Dead; had preached the journey to Jerusalem and could not carry it out, by the Book of the Popes"
+    }
+  ],
+  "briefLength": "about 2 minutes 30 seconds",
+  "uncertain": [
+    "The acts are not among our sources; two canons reach us as extracts in Mirbt's sourcebook. The fullest account from inside the council is Baldric's, a partisan of the call, who wrote Urban's speech in his own Latin.",
+    "The speech: Baldric, who was there, and William of Tyre, writing about ninety years later, give different speeches. Neither is a record of Urban's words.",
+    "The count: no source among ours gives a number of bishops or abbots, and no list of names is held.",
+    "The day: November comes from William of Tyre, and documents are dated at Clermont on 29 November and 1 December. No source among ours gives the opening day or the day of the speech.",
+    "The year: the act of concord dates itself 1095, and William gives 1095; Migne's heading to the act and the Bollandists give 1096. Baldric's printed text says the synod was held the year after a star-shower of April 1095, with \"1096\" set in brackets, likely an editor's addition.",
+    "Who started it: Peter the Hermit and the patriarch's letter (William, Albert); Gregory VII's earlier plan (the Book of the Popes); Peter alone (Anna Komnene); a Frankish prince and Roger of Sicily, or the caliphs of Egypt (Ibn al-Athir); prophecy (Matthew of Edessa).",
+    "Whether Peter the Hermit was at the council: William of Tyre says so; Baldric, who was there, does not name him.",
+    "Whether Alexios asked the West for help before Clermont, at Piacenza: no line among our sources tells it.",
+    "Peter, bishop of Pamplona, is placed at the council only by a Bollandist editor. A later tradition that Clermont prescribed the Hours of the Virgin for clergy rests on late writers, and its own editor doubts parts of it."
+  ],
+  "sources": {
+    "fromTheCouncil": [
+      {
+        "title": "Quellen zur Geschichte des Papsttums, no. 256: Council of Clermont, canons 2 and 9",
+        "author": "ed. Carl Mirbt",
+        "language": "Latin",
+        "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt"
+      },
+      {
+        "title": "Act of concord between Cluny and La Chaise-Dieu, made at Clermont, 1 December 1095",
+        "author": "in Migne, PL 159",
+        "language": "Latin",
+        "file": "cic/texts/anselm-canterbury_opera-with-eadmer-historia-novorum-pl159-lat_migne1903.txt"
+      }
+    ],
+    "fromThoseThere": [
+      {
+        "title": "Letter to Count Guigo and the clergy and people of Grenoble, dated at Clermont, 29 November",
+        "author": "Urban II, in Le Couteulx, Annales Ordinis Cartusiensis I",
+        "language": "Latin",
+        "file": "cic/texts/le-couteulx_annales-ordinis-cartusiensis-v1-lat_1887.txt"
+      },
+      {
+        "title": "Account of the Salmorenc case",
+        "author": "Hugh of Grenoble, in Le Couteulx, Annales Ordinis Cartusiensis I",
+        "language": "Latin",
+        "file": "cic/texts/le-couteulx_annales-ordinis-cartusiensis-v1-lat_1887.txt"
+      },
+      {
+        "title": "Historia Hierosolymitana, book I",
+        "author": "Baldric of Bourgueil, in Migne, PL 166",
+        "language": "Latin",
+        "file": "cic/texts/stephen-harding_charta-caritatis-and-exordium-in-pl166-lat_migne1894.txt"
+      }
+    ],
+    "writtenLater": [
+      {
+        "title": "Historia rerum in partibus transmarinis gestarum, book I, with the Old French Estoire d'Eracles",
+        "author": "William of Tyre",
+        "language": "Latin and Old French",
+        "file": "cic/texts/william-tyre_historia-rerum-in-partibus-transmarinis-gestarum-v1-lat-fra_rhc1844.txt"
+      },
+      {
+        "title": "Historia Hierosolymitana, book I",
+        "author": "Albert of Aachen, in Migne, PL 166",
+        "language": "Latin",
+        "file": "cic/texts/stephen-harding_charta-caritatis-and-exordium-in-pl166-lat_migne1894.txt"
+      },
+      {
+        "title": "Life of Charles the Good",
+        "author": "Walter of Thérouanne, in Migne, PL 166",
+        "language": "Latin",
+        "file": "cic/texts/stephen-harding_charta-caritatis-and-exordium-in-pl166-lat_migne1894.txt"
+      },
+      {
+        "title": "Le Liber Pontificalis, tome 2: life of Urban II, with commentary",
+        "author": "ed. Louis Duchesne",
+        "language": "Latin and French",
+        "file": "cic/texts/liber-pontificalis_texte-introduction-commentaire-t2-lat-fra_duchesne1892.txt"
+      },
+      {
+        "title": "Alexiad, book X",
+        "author": "Anna Komnene, ed. August Reifferscheid",
+        "language": "Greek",
+        "file": "cic/texts/anna-komnene_alexias-grc_reifferscheid1884.txt"
+      },
+      {
+        "title": "Chronicle, year 545",
+        "author": "Matthew of Edessa, trans. Édouard Dulaurier",
+        "language": "French translation",
+        "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt"
+      },
+      {
+        "title": "al-Kamil, year 490",
+        "author": "Ibn al-Athir",
+        "language": "French translation",
+        "file": "cic/texts/rhc-historiens-orientaux_t1-fra_academie1872.txt"
+      },
+      {
+        "title": "Sacrorum conciliorum collectio, tomus 21: notes to the Lateran council of 1123",
+        "author": "Giovanni Domenico Mansi",
+        "language": "Latin",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-21-lat_welter-facsimile1903.txt"
+      },
+      {
+        "title": "Acta Sanctorum, Junii tomus 5",
+        "author": "the Bollandists",
+        "language": "Latin",
+        "file": "cic/texts/acta-sanctorum_junii-tomus-5-lat_palme1867.txt"
+      }
+    ]
+  }
+}
