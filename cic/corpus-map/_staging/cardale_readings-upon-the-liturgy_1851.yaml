@@ -1,6 +1,7 @@
 source_file: cardale_readings-upon-the-liturgy_1851.txt
 assignments:
-- work: 'Readings upon the Liturgy and Other Divine Offices of the Church: on the Eucharist, and daily offices'
+- row_id: cardale_readings-upon-the-liturgy_1851--readings-upon-the-liturgy-and-other-divine-offices-of-the
+  work: 'Readings upon the Liturgy and Other Divine Offices of the Church: on the Eucharist, and daily offices'
   author: cardale
   locus: the whole volume; not mapped
   atlas_ids:

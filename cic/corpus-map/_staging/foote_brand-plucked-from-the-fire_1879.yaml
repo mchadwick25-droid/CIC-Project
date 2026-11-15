@@ -1,6 +1,7 @@
 source_file: foote_brand-plucked-from-the-fire_1879.txt
 assignments:
-- work: 'A Brand Plucked from the Fire: an autobiographical sketch'
+- row_id: foote_brand-plucked-from-the-fire_1879--a-brand-plucked-from-the-fire-an-autobiographical-sketch
+  work: 'A Brand Plucked from the Fire: an autobiographical sketch'
   author: foote
   locus: the whole volume; not mapped
   atlas_ids:

@@ -225,19 +225,22 @@ works:
   author: speculum-perfectionis
   locus: the Latin text from about OCR line 12409; add 12 to OCR line numbers
   role: tradition
-  confidence: assigned
-  note: The Latin of the Speculum perfectionis. Its date of writing and its attribution to
-    Leo are contested.
+  confidence: needs-ruling
+  note: 'The Latin of the Speculum perfectionis, placed as the held English of Evans 1899
+    is: its date of writing and its attribution to Leo are contested, and it sits between
+    the Franciscan Movement entry (to 1300) and the Spirituals entries.'
   source_file: speculum-perfectionis_speculum-perfectionis-lat_sabatier1898.txt
 - row_id: speculum-perfectionis_mirror-of-perfection_evans1899--the-mirror-of-perfection-speculum-perfectionis-english-by
   work: The Mirror of Perfection (Speculum perfectionis), English by Sebastian Evans (1899)
   author: speculum-perfectionis
   locus: Whole file
   role: tradition
-  confidence: assigned
-  note: The English of Sabatier's 1898 Latin edition. Sabatier's attribution to Leo and his
-    early date are contested; the text is read as a Spiritual-circle witness to Francis's
-    poverty. Clean OCR. Sabatier's Latin is held separately.
+  confidence: needs-ruling
+  note: Placed needs-ruling because the text is contested in date or attribution and sits
+    between the Franciscan Movement world (to 1300) and the Spirituals worlds. The English
+    of Sabatier's 1898 Latin edition. Sabatier's attribution to Leo and his early date are
+    contested; the text is read as a Spiritual-circle witness to Francis's poverty. Clean
+    OCR. Sabatier's Latin is not vendored (garbled OCR).
   source_file: speculum-perfectionis_mirror-of-perfection_evans1899.txt
 - row_id: underhill_jacopone-da-todi-poet-and-mystic_beck1919--jacopone-da-todi-poet-and-mystic-underhill-1919-with-a
   work: Jacopone da Todi, Poet and Mystic (Underhill, 1919), with a selection of the laude

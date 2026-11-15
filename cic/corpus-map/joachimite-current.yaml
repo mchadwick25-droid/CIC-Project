@@ -9,8 +9,9 @@ works:
   locus: Joachim from about OCR line 78452, Luke at about 78868; the rest of the volume is
     other saints; add 12 to OCR line numbers
   role: context
-  confidence: assigned
-  note: The Life of Joachim and the archbishop's testimony, printed with their editors' notes.
+  confidence: needs-ruling
+  note: The Life and the archbishop's testimony are printed with their editors' notes; their
+    dates of writing are for the tree to rule on.
   source_file: acta-sanctorum_maii-tomus-6-lat_1739.txt
 - row_id: ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885--archiv-fur-literatur-und-kirchengeschichte-des-mittelalters-2
   work: 'Archiv für Literatur- und Kirchengeschichte des Mittelalters, Bd 1 (1885): Denifle
@@ -44,11 +45,11 @@ works:
   work: Joachim of Fiore, Tractatus super quatuor Evangelia (Buonaiuti 1930)
   author: joachim-fiore
   locus: the whole volume
-  role: antecedent
-  confidence: assigned
-  note: One of Joachim's own works, written before this entry's start; the current grows from
-    him. The volume's series page files it under writers of the twelfth century. Published
-    in 1930, the last year the Library's date rule clears.
+  role: tradition
+  confidence: needs-ruling
+  note: One of Joachim's own works. The volume's series page files it under writers of the
+    twelfth century, before this entry's start; its date of writing is for the tree to rule
+    on. Published in 1930, the last year the Library's date rule clears.
   source_file: joachim-fiore_tractatus-super-quatuor-evangelia-lat_buonaiuti1930.txt
 - row_id: lea_history-of-the-inquisition-of-the-middle-ages-v3_1888--a-history-of-the-inquisition-of-the-middle-ages-vol-iii-lea-3
   work: 'A History of the Inquisition of the Middle Ages, vol. III (Lea, 1888): Joachim and

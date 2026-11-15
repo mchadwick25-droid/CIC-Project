@@ -1,6 +1,7 @@
 source_file: marchant_dr-john-clifford_1924.txt
 assignments:
-- work: 'Dr. John Clifford, C.H.: Life, Letters and Reminiscences'
+- row_id: marchant_dr-john-clifford_1924--dr-john-clifford-c-h-life-letters-and-reminiscences
+  work: 'Dr. John Clifford, C.H.: Life, Letters and Reminiscences'
   author: marchant
   locus: the whole volume; not mapped
   atlas_ids:

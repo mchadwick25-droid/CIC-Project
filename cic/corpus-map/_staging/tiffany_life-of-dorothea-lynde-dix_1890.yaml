@@ -1,6 +1,7 @@
 source_file: tiffany_life-of-dorothea-lynde-dix_1890.txt
 assignments:
-- work: Life of Dorothea Lynde Dix (the title, author and publisher are from the archive.org record)
+- row_id: tiffany_life-of-dorothea-lynde-dix_1890--life-of-dorothea-lynde-dix-the-title-author-and-publisher
+  work: Life of Dorothea Lynde Dix (the title, author and publisher are from the archive.org record)
   author: tiffany
   locus: the whole volume; not mapped
   atlas_ids:

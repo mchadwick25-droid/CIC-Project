@@ -9,9 +9,9 @@ works:
   author: acta-sanctorum
   locus: from about OCR line 193213; add 12 to OCR line numbers
   role: tradition
-  confidence: assigned
-  note: Her confessor's Life, the Dominican order's own account of her. Not read in depth.
-    Catherine of Siena's Who profile sits on this entry.
+  confidence: needs-ruling
+  note: Her confessor's Life, the Dominican order's own account of her. Vendored for the era
+    6 want and not read in depth; which entry holds Catherine needs a ruling.
   source_file: acta-sanctorum_aprilis-tomus-3-lat_palme1866.txt
 - row_id: baluze_vitae-paparum-avenionensium-v1-lat_mollat1921--vitae-paparum-avenionensium-baluze-mollat-s-new-edition-the
   work: Vitae paparum Avenionensium (Baluze; Mollat's new edition), the Latin Lives
@@ -253,36 +253,32 @@ works:
   author: guicciardini
   locus: the whole volume; not mapped
   role: context
-  confidence: assigned
-  note: His history of Italy in his own Italian; an outside witness. No census entry is Italy's
-    politics, so the work sits on these entries.
+  confidence: needs-ruling
+  note: His history of Italy in his own Italian; an outside witness.
   source_file: guicciardini_la-storia-d-italia-v1-ita_gherardi1919.txt
 - row_id: guicciardini_la-storia-d-italia-v2-ita_gherardi1919--guicciardini-storia-d-italia-volume-2-gherardi
   work: Guicciardini, Storia d'Italia, volume 2 (Gherardi)
   author: guicciardini
   locus: the whole volume; not mapped
   role: context
-  confidence: assigned
-  note: His history of Italy in his own Italian; an outside witness. No census entry is Italy's
-    politics, so the work sits on these entries.
+  confidence: needs-ruling
+  note: His history of Italy in his own Italian; an outside witness.
   source_file: guicciardini_la-storia-d-italia-v2-ita_gherardi1919.txt
 - row_id: guicciardini_la-storia-d-italia-v3-ita_gherardi1919--guicciardini-storia-d-italia-volume-3-gherardi
   work: Guicciardini, Storia d'Italia, volume 3 (Gherardi)
   author: guicciardini
   locus: the whole volume; not mapped
   role: context
-  confidence: assigned
-  note: His history of Italy in his own Italian; an outside witness. No census entry is Italy's
-    politics, so the work sits on these entries.
+  confidence: needs-ruling
+  note: His history of Italy in his own Italian; an outside witness.
   source_file: guicciardini_la-storia-d-italia-v3-ita_gherardi1919.txt
 - row_id: guicciardini_la-storia-d-italia-v4-ita_gherardi1919--guicciardini-storia-d-italia-volume-4-gherardi
   work: Guicciardini, Storia d'Italia, volume 4 (Gherardi)
   author: guicciardini
   locus: the whole volume; not mapped
   role: context
-  confidence: assigned
-  note: His history of Italy in his own Italian; an outside witness. No census entry is Italy's
-    politics, so the work sits on these entries.
+  confidence: needs-ruling
+  note: His history of Italy in his own Italian; an outside witness.
   source_file: guicciardini_la-storia-d-italia-v4-ita_gherardi1919.txt
 - row_id: hardt_magnum-oecumenicum-constantiense-concilium-t3-lat_1698--mauritius-of-prague-reply-to-jacobellus-on-the-chalice-von-der-hardt-iii
   work: Mauritius of Prague, reply to Jacobellus on the chalice (von der Hardt III)
@@ -334,36 +330,32 @@ works:
   author: machiavelli
   locus: the whole volume; not mapped
   role: context
-  confidence: assigned
-  note: His own writings in a translator's English; an outside witness. No census entry is
-    Italy's politics, so the work sits on these entries.
+  confidence: needs-ruling
+  note: His own writings in a translator's English; an outside witness.
   source_file: machiavelli_historical-political-and-diplomatic-writings-v1_detmold1882.txt
 - row_id: machiavelli_historical-political-and-diplomatic-writings-v2_detmold1882--machiavelli-writings-in-english-volume-2-detmold
   work: Machiavelli, writings in English, volume 2 (Detmold)
   author: machiavelli
   locus: the whole volume; not mapped
   role: context
-  confidence: assigned
-  note: His own writings in a translator's English; an outside witness. No census entry is
-    Italy's politics, so the work sits on these entries.
+  confidence: needs-ruling
+  note: His own writings in a translator's English; an outside witness.
   source_file: machiavelli_historical-political-and-diplomatic-writings-v2_detmold1882.txt
 - row_id: machiavelli_historical-political-and-diplomatic-writings-v3_detmold1882--machiavelli-writings-in-english-volume-3-detmold
   work: Machiavelli, writings in English, volume 3 (Detmold)
   author: machiavelli
   locus: the whole volume; not mapped
   role: context
-  confidence: assigned
-  note: His own writings in a translator's English; an outside witness. No census entry is
-    Italy's politics, so the work sits on these entries.
+  confidence: needs-ruling
+  note: His own writings in a translator's English; an outside witness.
   source_file: machiavelli_historical-political-and-diplomatic-writings-v3_detmold1882.txt
 - row_id: machiavelli_historical-political-and-diplomatic-writings-v4_detmold1882--machiavelli-writings-in-english-volume-4-detmold
   work: Machiavelli, writings in English, volume 4 (Detmold)
   author: machiavelli
   locus: the whole volume; not mapped
   role: context
-  confidence: assigned
-  note: His own writings in a translator's English; an outside witness. No census entry is
-    Italy's politics, so the work sits on these entries.
+  confidence: needs-ruling
+  note: His own writings in a translator's English; an outside witness.
   source_file: machiavelli_historical-political-and-diplomatic-writings-v4_detmold1882.txt
 - row_id: mansi_sacrorum-conciliorum-collectio-tomus-29-1431-1434-lat_welter-facsimile1904--council-of-basel-acts-and-appendices-mansi-29
   work: Council of Basel, acts and appendices (Mansi 29)

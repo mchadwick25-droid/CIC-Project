@@ -161,7 +161,7 @@ works:
   author: paul-samosata
   locus: the fragments from about OCR line 15640; add 12 to OCR line numbers
   role: tradition
-  confidence: assigned
+  confidence: needs-ruling
   note: The fragments with a French commentary, printed a year before Loofs. Which fragments
     are Paul's own is disputed.
   source_file: paul-samosata_paul-de-samosate-etude-historique-fra-grc_bardy1923.txt
@@ -170,7 +170,7 @@ works:
   author: paul-samosata
   locus: the texts from about OCR line 16747; add 12 to OCR line numbers
   role: tradition
-  confidence: assigned
+  confidence: needs-ruling
   note: The bishop's own words as his opponents quoted them, with the letter the bishops sent
     him. Which fragments are his is disputed; Loofs argues each case. The Greek OCR is garbled,
     so quote only after checking the page.

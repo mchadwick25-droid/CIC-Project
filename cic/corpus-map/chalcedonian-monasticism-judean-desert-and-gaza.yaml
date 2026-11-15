@@ -71,10 +71,11 @@ works:
   work: Life of Sabas, Latin, after Cyril of Scythopolis, in Surius (1880)
   author: cyril-scythopolis
   locus: the Life at about OCR lines 6460-8758; add 12 to OCR line numbers
-  role: context
-  confidence: assigned
+  role: tradition
+  confidence: needs-ruling
   note: A full Life of Sabas in Latin. The volume itself says it may be Metaphrastes's tenth-century
-    reworking of Cyril's Life of about 557. Cyril is quoted only from Cyril's own edition.
+    reworking of Cyril's Life of about 557, so the wording may not be Cyril's; the placing
+    needs a ruling.
   source_file: cyril-scythopolis_vita-sabae-in-surius-vitae-sanctorum-v12-december-lat_1880.txt
 - row_id: cyril-scythopolis_vita-euthymii-cotelier-monumenta-v2-grc-lat_1681--vita-euthymii
   work: Vita Euthymii

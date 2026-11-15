@@ -26,6 +26,7 @@ works:
   author: peeters
   locus: from about OCR line 402; add 12 to OCR line numbers
   role: tradition
-  confidence: assigned
-  note: The Iviron Lives. Their dates of writing against the two windows are not settled.
+  confidence: needs-ruling
+  note: The Iviron Lives; their dates of writing against these two windows are the tree's
+    question.
   source_file: peeters_histoires-monastiques-georgiennes-in-analecta-bollandiana-36-37-lat-fra_1917-1919.txt

@@ -1,6 +1,7 @@
 source_file: emerson_address-before-the-senior-class-in-divinity-college_1838.txt
 assignments:
-- work: An Address delivered before the Senior Class in Divinity College, Cambridge, Sunday evening, 15 July, 1838
+- row_id: emerson_address-before-the-senior-class-in-divinity-college_1838--an-address-delivered-before-the-senior-class-in-divinity
+  work: An Address delivered before the Senior Class in Divinity College, Cambridge, Sunday evening, 15 July, 1838
   author: emerson
   locus: the whole volume; not mapped
   atlas_ids:

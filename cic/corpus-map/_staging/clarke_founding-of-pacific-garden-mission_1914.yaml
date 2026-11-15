@@ -1,6 +1,7 @@
 source_file: clarke_founding-of-pacific-garden-mission_1914.txt
 assignments:
-- work: 'The Founding of Pacific Garden Mission: over thirty-five years contributed to the Master''s service'
+- row_id: clarke_founding-of-pacific-garden-mission_1914--the-founding-of-pacific-garden-mission-over-thirty-five
+  work: 'The Founding of Pacific Garden Mission: over thirty-five years contributed to the Master''s service'
   author: clarke
   locus: Sarah Clarke on her birth and conversion at lines 122-137; her account of the opening of the rescue mission
     in 1877 at lines 305-317; the rest not mapped

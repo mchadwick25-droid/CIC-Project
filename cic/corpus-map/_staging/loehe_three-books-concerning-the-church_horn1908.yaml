@@ -1,6 +1,7 @@
 source_file: loehe_three-books-concerning-the-church_horn1908.txt
 assignments:
-- work: Three Books concerning the Church, offered to friends of the Lutheran Church, for consideration and
+- row_id: loehe_three-books-concerning-the-church_horn1908--three-books-concerning-the-church-offered-to-friends-of-the
+  work: Three Books concerning the Church, offered to friends of the Lutheran Church, for consideration and
   author: loehe
   locus: the whole volume; not mapped
   atlas_ids:

@@ -1,6 +1,7 @@
 source_file: williams-j-a_life-of-elder-john-smith_1870.txt
 assignments:
-- work: Life of Elder John Smith, with some account of the rise and progress of the current reformation
+- row_id: williams-j-a_life-of-elder-john-smith_1870--life-of-elder-john-smith-with-some-account-of-the-rise-and
+  work: Life of Elder John Smith, with some account of the rise and progress of the current reformation
   author: williams-j-a
   locus: the whole volume; not mapped
   atlas_ids:

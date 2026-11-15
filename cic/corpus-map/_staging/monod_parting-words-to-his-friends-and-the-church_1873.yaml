@@ -1,6 +1,7 @@
 source_file: monod_parting-words-to-his-friends-and-the-church_1873.txt
 assignments:
-- work: 'Les Adieux d''Adolphe Monod: The Parting Words of Adolphe Monod to his Friends and the Church, October,
+- row_id: monod_parting-words-to-his-friends-and-the-church_1873--les-adieux-d-adolphe-monod-the-parting-words-of-adolphe
+  work: 'Les Adieux d''Adolphe Monod: The Parting Words of Adolphe Monod to his Friends and the Church, October,
     1855,'
   author: monod
   locus: the whole volume; not mapped

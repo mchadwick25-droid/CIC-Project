@@ -1,6 +1,7 @@
 source_file: payne_history-of-the-african-methodist-episcopal-church-v1_1891.txt
 assignments:
-- work: History of the African Methodist Episcopal Church; edited by Rev. C. S. Smith (vol. I)
+- row_id: payne_history-of-the-african-methodist-episcopal-church-v1_1891--history-of-the-african-methodist-episcopal-church-edited-by
+  work: History of the African Methodist Episcopal Church; edited by Rev. C. S. Smith (vol. I)
   author: payne
   locus: the outline of Daniel Coker's life and character at lines 5500-5700; the rest not mapped
   atlas_ids:

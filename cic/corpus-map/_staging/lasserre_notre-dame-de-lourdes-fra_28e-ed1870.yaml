@@ -1,6 +1,7 @@
 source_file: lasserre_notre-dame-de-lourdes-fra_28e-ed1870.txt
 assignments:
-- work: Notre-Dame de Lourdes; vingt-huitième édition
+- row_id: lasserre_notre-dame-de-lourdes-fra_28e-ed1870--notre-dame-de-lourdes-vingt-huitieme-edition
+  work: Notre-Dame de Lourdes; vingt-huitième édition
   author: lasserre
   locus: Bernadette is described and named, and the first apparition at the rocks of Massabielle is told, at lines
     1247-1606; the rest not mapped

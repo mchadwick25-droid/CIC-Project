@@ -1,6 +1,7 @@
 source_file: snow_poems-religious-historical-and-political-v1_1856.txt
 assignments:
-- work: Poems, Religious, Historical, and Political, by Eliza R. Snow (vol. I; the volume number is on the library
+- row_id: snow_poems-religious-historical-and-political-v1_1856--poems-religious-historical-and-political-by-eliza-r-snow-vol
+  work: Poems, Religious, Historical, and Political, by Eliza R. Snow (vol. I; the volume number is on the library
   author: snow
   locus: the whole volume; not mapped
   atlas_ids:

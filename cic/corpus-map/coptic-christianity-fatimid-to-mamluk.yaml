@@ -20,63 +20,70 @@ works:
   author: ibn-khaldun
   locus: the whole volume; not mapped
   role: context
-  confidence: assigned
-  note: An outside witness. No census entry covers Mamluk Egypt and Syria or the Maghreb after
-    1300, so the work sits on this entry. Not read in depth for its passages on Christians.
+  confidence: needs-ruling
+  note: No census entry covers Mamluk Egypt and Syria or the Maghreb after 1300; shelved here
+    until a ruling places the outside witnesses of era 6. Not read in depth for its passages
+    on Christians.
   source_file: ibn-khaldun_histoire-des-berberes-v1-fra_de-slane1852.txt
 - row_id: ibn-khaldun_histoire-des-berberes-v2-fra_de-slane1854--ibn-khaldun-histoire-des-berberes-vol-2-de-slane
   work: Ibn Khaldun, Histoire des Berberes, vol. 2 (de Slane)
   author: ibn-khaldun
   locus: the whole volume; not mapped
   role: context
-  confidence: assigned
-  note: An outside witness. No census entry covers Mamluk Egypt and Syria or the Maghreb after
-    1300, so the work sits on this entry. Not read in depth for its passages on Christians.
+  confidence: needs-ruling
+  note: No census entry covers Mamluk Egypt and Syria or the Maghreb after 1300; shelved here
+    until a ruling places the outside witnesses of era 6. Not read in depth for its passages
+    on Christians.
   source_file: ibn-khaldun_histoire-des-berberes-v2-fra_de-slane1854.txt
 - row_id: ibn-khaldun_histoire-des-berberes-v3-fra_de-slane1856--ibn-khaldun-histoire-des-berberes-vol-3-de-slane
   work: Ibn Khaldun, Histoire des Berberes, vol. 3 (de Slane)
   author: ibn-khaldun
   locus: the whole volume; not mapped
   role: context
-  confidence: assigned
-  note: An outside witness. No census entry covers Mamluk Egypt and Syria or the Maghreb after
-    1300, so the work sits on this entry. Not read in depth for its passages on Christians.
+  confidence: needs-ruling
+  note: No census entry covers Mamluk Egypt and Syria or the Maghreb after 1300; shelved here
+    until a ruling places the outside witnesses of era 6. Not read in depth for its passages
+    on Christians.
   source_file: ibn-khaldun_histoire-des-berberes-v3-fra_de-slane1856.txt
 - row_id: ibn-khaldun_histoire-des-berberes-v4-fra_de-slane1856--ibn-khaldun-histoire-des-berberes-vol-4-de-slane
   work: Ibn Khaldun, Histoire des Berberes, vol. 4 (de Slane)
   author: ibn-khaldun
   locus: the whole volume; not mapped
   role: context
-  confidence: assigned
-  note: An outside witness. No census entry covers Mamluk Egypt and Syria or the Maghreb after
-    1300, so the work sits on this entry. Not read in depth for its passages on Christians.
+  confidence: needs-ruling
+  note: No census entry covers Mamluk Egypt and Syria or the Maghreb after 1300; shelved here
+    until a ruling places the outside witnesses of era 6. Not read in depth for its passages
+    on Christians.
   source_file: ibn-khaldun_histoire-des-berberes-v4-fra_de-slane1856.txt
 - row_id: ibn-khaldun_prolegomenes-pt1-fra_de-slane1863--ibn-khaldun-prolegomenes-part-1-de-slane
   work: Ibn Khaldun, Prolegomenes, part 1 (de Slane)
   author: ibn-khaldun
   locus: the whole volume; not mapped
   role: context
-  confidence: assigned
-  note: An outside witness. No census entry covers Mamluk Egypt and Syria or the Maghreb after
-    1300, so the work sits on this entry. Not read in depth for its passages on Christians.
+  confidence: needs-ruling
+  note: No census entry covers Mamluk Egypt and Syria or the Maghreb after 1300; shelved here
+    until a ruling places the outside witnesses of era 6. Not read in depth for its passages
+    on Christians.
   source_file: ibn-khaldun_prolegomenes-pt1-fra_de-slane1863.txt
 - row_id: ibn-khaldun_prolegomenes-pt2-fra_de-slane1865--ibn-khaldun-prolegomenes-part-2-de-slane
   work: Ibn Khaldun, Prolegomenes, part 2 (de Slane)
   author: ibn-khaldun
   locus: the whole volume; not mapped
   role: context
-  confidence: assigned
-  note: An outside witness. No census entry covers Mamluk Egypt and Syria or the Maghreb after
-    1300, so the work sits on this entry. Not read in depth for its passages on Christians.
+  confidence: needs-ruling
+  note: No census entry covers Mamluk Egypt and Syria or the Maghreb after 1300; shelved here
+    until a ruling places the outside witnesses of era 6. Not read in depth for its passages
+    on Christians.
   source_file: ibn-khaldun_prolegomenes-pt2-fra_de-slane1865.txt
 - row_id: ibn-khaldun_prolegomenes-pt3-fra_de-slane1868--ibn-khaldun-prolegomenes-part-3-de-slane
   work: Ibn Khaldun, Prolegomenes, part 3 (de Slane)
   author: ibn-khaldun
   locus: the whole volume; not mapped
   role: context
-  confidence: assigned
-  note: An outside witness. No census entry covers Mamluk Egypt and Syria or the Maghreb after
-    1300, so the work sits on this entry. Not read in depth for its passages on Christians.
+  confidence: needs-ruling
+  note: No census entry covers Mamluk Egypt and Syria or the Maghreb after 1300; shelved here
+    until a ruling places the outside witnesses of era 6. Not read in depth for its passages
+    on Christians.
   source_file: ibn-khaldun_prolegomenes-pt3-fra_de-slane1868.txt
 - row_id: john-ephesus_lives-eastern-saints-po17_brooks1923--synaxaire-arabe-jacobite-v-basset--voice
   work: 'Le Synaxaire arabe jacobite, V (months Baounah to Mesore), ed. and tr. R. Basset
@@ -94,18 +101,20 @@ works:
   author: qalqashandi
   locus: the whole volume; not mapped
   role: context
-  confidence: assigned
-  note: An outside witness. No census entry covers Mamluk Egypt and Syria or the Maghreb after
-    1300, so the work sits on this entry. Not read in depth for its passages on Christians.
+  confidence: needs-ruling
+  note: No census entry covers Mamluk Egypt and Syria or the Maghreb after 1300; shelved here
+    until a ruling places the outside witnesses of era 6. Not read in depth for its passages
+    on Christians.
   source_file: qalqashandi_la-syrie-a-l-epoque-des-mamelouks-fra_gaudefroy-demombynes1923.txt
 - row_id: qalqashandi_geographie-und-verwaltung-von-aegypten-deu_wuestenfeld1879--al-qalqashandi-on-the-geography-and-government-of-egypt-wustenfeld-1879
   work: al-Qalqashandi, on the geography and government of Egypt (Wustenfeld 1879)
   author: qalqashandi
   locus: the whole volume; not mapped
   role: context
-  confidence: assigned
-  note: An outside witness. No census entry covers Mamluk Egypt and Syria or the Maghreb after
-    1300, so the work sits on this entry. Not read in depth for its passages on Christians.
+  confidence: needs-ruling
+  note: No census entry covers Mamluk Egypt and Syria or the Maghreb after 1300; shelved here
+    until a ruling places the outside witnesses of era 6. Not read in depth for its passages
+    on Christians.
   source_file: qalqashandi_geographie-und-verwaltung-von-aegypten-deu_wuestenfeld1879.txt
 - row_id: renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713--renaudot-historia-patriarcharum-alexandrinorum-jacobitarum-the-s
   work: Renaudot, Historia patriarcharum Alexandrinorum Jacobitarum; the section on Cyril

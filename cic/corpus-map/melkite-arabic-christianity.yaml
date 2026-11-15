@@ -46,7 +46,7 @@ works:
   author: john-damascus
   locus: about OCR lines 4774-6721; add 12 to OCR line numbers
   role: tradition
-  confidence: assigned
+  confidence: needs-ruling
   language: eng
   date:
     formation_confidence: unknown
@@ -67,8 +67,9 @@ works:
   author: john-damascus
   locus: from about OCR line 30172; add 12 to OCR line numbers
   role: tradition
-  confidence: assigned
-  note: The hagiographer's Life. The volume gives no date of writing.
+  confidence: needs-ruling
+  note: The hagiographer's Life. Its date of writing is not given in this volume's heading,
+    so its window is the tree's question.
   source_file: john-damascus_opera-omnia-t1-with-vita-pg94-grc-lat_migne1860.txt
 - row_id: acta-sanctorum_julii-tomus-3-lat-grc_palme1868--leontius-life-of-stephen-the-sabaite-latin
   work: Leontius, Life of Stephen the Sabaite, Latin of Boschius (Acta Sanctorum, July III)

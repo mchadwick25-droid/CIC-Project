@@ -90,17 +90,17 @@ works:
   author: nikephoros-cp
   locus: from about OCR line 88621; add 12 to OCR line numbers
   role: tradition
-  confidence: assigned
-  note: The hagiographer's Life of the monk killed in 765 (era 4 audit). The volume gives
-    no date of writing.
+  confidence: needs-ruling
+  note: The hagiographer's Life of the monk killed in 765 (era 4 audit); its date of writing
+    is not given in its heading.
   source_file: nikephoros-cp_opera-with-vita-stephani-iunioris-pg100-grc-lat_migne1860.txt
 - row_id: theodore-studite_opera-omnia-pg99-grc-lat_migne1860--michael-the-monk-life-of-theodore-the-studite-pg-99-col-233
   work: Michael the Monk, Life of Theodore the Studite (PG 99, col. 233)
   author: theodore-studite
   locus: from about OCR line 18804; add 12 to OCR line numbers
   role: tradition
-  confidence: assigned
-  note: The hagiographer's Life. The volume gives no date of writing.
+  confidence: needs-ruling
+  note: The hagiographer's Life; its date of writing is not given in its heading.
   source_file: theodore-studite_opera-omnia-pg99-grc-lat_migne1860.txt
 - row_id: theodore-studite_opera-omnia-pg99-grc-lat_migne1860--theodore-the-studite-antirrhetici-letters-and-other-works-pg
   work: Theodore the Studite, Antirrhetici, Letters and other works (PG 99)

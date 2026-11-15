@@ -1,6 +1,7 @@
 source_file: cartwright_autobiography-of-peter-cartwright_strickland1857.txt
 assignments:
-- work: Autobiography of Peter Cartwright, the Backwoods Preacher; edited by W. P. Strickland
+- row_id: cartwright_autobiography-of-peter-cartwright_strickland1857--autobiography-of-peter-cartwright-the-backwoods-preacher
+  work: Autobiography of Peter Cartwright, the Backwoods Preacher; edited by W. P. Strickland
   author: cartwright
   locus: Cartwright's preface at lines 79-263; the rest not mapped
   atlas_ids:

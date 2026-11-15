@@ -1,6 +1,7 @@
 source_file: baxter-w_life-of-elder-walter-scott_1874.txt
 assignments:
-- work: Life of Elder Walter Scott, with sketches of his fellow-laborers, William Hayden, Adamson Bentley, John
+- row_id: baxter-w_life-of-elder-walter-scott_1874--life-of-elder-walter-scott-with-sketches-of-his-fellow
+  work: Life of Elder Walter Scott, with sketches of his fellow-laborers, William Hayden, Adamson Bentley, John
   author: baxter-w
   locus: the whole volume; not mapped
   atlas_ids:

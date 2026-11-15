@@ -1,6 +1,7 @@
 source_file: wilbur_journal-of-the-life-of-john-wilbur_1859.txt
 assignments:
-- work: Journal of the Life of John Wilbur, a Minister of the Gospel in the Society of Friends; with selections
+- row_id: wilbur_journal-of-the-life-of-john-wilbur_1859--journal-of-the-life-of-john-wilbur-a-minister-of-the-gospel
+  work: Journal of the Life of John Wilbur, a Minister of the Gospel in the Society of Friends; with selections
     from
   author: wilbur
   locus: Appendix of John Wilbur's letters to George Crosfield, 1832, at lines 27072-28607; the rest not mapped

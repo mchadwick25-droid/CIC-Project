@@ -1595,15 +1595,6 @@ authors:
 
       '
     from_file: rippon_baptist-annual-register-1790-1793_1793.txt
-  george-metochites:
-    kind: metadata-omission
-    evidence: 'The author index has no slug for him. The volume''s title page names "Georgii
-      Metochitae diaconi Historiae dogmaticae liber I et II" (title page and part II heading,
-      file lines about 1 and 100), and the file header lists George Metochites as a creator.
-      A mechanical index-coverage gap, not an attribution dispute.
-
-      '
-    from_file: theodore-studite_epistolae-et-fragmenta-in-nova-patrum-bibliotheca-t8-lat_cozza1871.txt
   georgian-life-of-nino:
     kind: anonymous
     evidence: 'The Georgian Life of Nino exists in several anonymous medieval redactions;

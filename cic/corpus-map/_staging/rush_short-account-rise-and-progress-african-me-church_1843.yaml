@@ -1,6 +1,7 @@
 source_file: rush_short-account-rise-and-progress-african-me-church_1843.txt
 assignments:
-- work: A Short Account of the Rise and Progress of the African Methodist Episcopal Church in America; written by
+- row_id: rush_short-account-rise-and-progress-african-me-church_1843--a-short-account-of-the-rise-and-progress-of-the-african
+  work: A Short Account of the Rise and Progress of the African Methodist Episcopal Church in America; written by
   author: rush
   locus: the election of Abraham Thompson and James Varick as Elders on October 1st, 1820, at lines 1754-1778; the
     rest not mapped

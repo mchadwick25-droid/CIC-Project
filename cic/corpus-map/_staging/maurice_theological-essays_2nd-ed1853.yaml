@@ -1,6 +1,7 @@
 source_file: maurice_theological-essays_2nd-ed1853.txt
 assignments:
-- work: Theological Essays; with a new preface, and other additions (second edition)
+- row_id: maurice_theological-essays_2nd-ed1853--theological-essays-with-a-new-preface-and-other-additions
+  work: Theological Essays; with a new preface, and other additions (second edition)
   author: maurice
   locus: the whole volume; not mapped
   atlas_ids:

@@ -1,6 +1,7 @@
 source_file: smith-amanda_autobiography-story-of-the-lords-dealings_1893.txt
 assignments:
-- work: 'An Autobiography: the story of the Lord''s dealings with Mrs. Amanda Smith, the colored evangelist; with
+- row_id: smith-amanda_autobiography-story-of-the-lords-dealings_1893--an-autobiography-the-story-of-the-lord-s-dealings-with-mrs
+  work: 'An Autobiography: the story of the Lord''s dealings with Mrs. Amanda Smith, the colored evangelist; with
     an'
   author: smith-amanda
   locus: the whole volume; not mapped
