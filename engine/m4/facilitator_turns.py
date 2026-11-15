@@ -249,7 +249,7 @@ def session_cap_turn(representative_name: str, limit_text: str | None = None) ->
 
 
 # The one redirect sentence the fixed Facilitator lines share (the monthly-limit line and the
-# unread-message line). It names no organisation or number; Mark's approved wording.
+# unread-message line). It names no organisation or number; the wording is approved and fixed.
 REDIRECT_TO_REAL_PEOPLE = (
     "If you are in distress or in danger, please reach out to someone real now - a person you trust, a crisis line, "
     "or emergency services where you are."

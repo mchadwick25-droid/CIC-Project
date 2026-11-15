@@ -4,14 +4,10 @@ billed Bedrock calls under explicit authorization, never CI (the
 deterministic halves of everything probed here are already CI:
 test_table_isolation, test_table_governance, test_table_api).
 
-RESHAPED (closing the STALE flag this replaces):
-the original six probes ran one session of five real rounds against
-TABLE_SESSION_ROUND_CAP=5; the cap was resized to 3 the same day this
-battery was last touched, and L4/L5 would now run past it - round.py's
-own cap check refuses any round once rounds_completed >= 3, before
-either probe ever spent a call. Dropping L4/L5 to fit one 3-round
-session would have quietly lost coverage nobody authorized losing, so
-the battery now runs TWO sessions of three rounds each, keeping every
+SHAPE: TABLE_SESSION_ROUND_CAP is 3, and round.py's own cap check
+refuses any round once rounds_completed >= 3, so six probes cannot share
+one session. Dropping L4/L5 to fit one 3-round session would lose
+coverage, so the battery runs TWO sessions of three rounds each, keeping every
 original probe's exact message and pass condition unchanged:
 
   Session A - L1, L2, L5, then the round-cap close. L5 has to share

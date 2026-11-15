@@ -585,8 +585,8 @@ def _proper_nouns(sentence: str, *, include_sentence_initial: bool = False) -> s
         if tail_words:
             clause_starts.add(len(tail_words))
     # "I'd", "I'll", "I've", "I'm" are the word "I" plus a contraction, not
-    # a name - excluding bare "I" alone (the earlier version of this check)
-    # missed every contracted form, since the regex keeps the apostrophe as
+    # a name - excluding bare "I" alone would
+    # miss every contracted form, since the regex keeps the apostrophe as
     # part of the token.
     return {
         w.lower() for i, w in enumerate(words)

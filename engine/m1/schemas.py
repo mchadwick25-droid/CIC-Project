@@ -449,16 +449,10 @@ TYPE_PROPERTIES: dict[str, dict] = {
         # (Constitution Article 29) - spoken in the same first-person
         # register as horizon/formation_logic/thinness/cautions above, and
         # compiled into build_prompt() the same way (see that function's own
-        # comment). Root-caused and added per Open_Gaps_Tracking.md OG-45/
-        # OG-48: witt's own world_core record authored this content honestly
-        # in its body, disclosing at authoring time that no such field
-        # existed yet ("pending a future schema change-order... the same way
-        # thin_topics was added structurally after thinness/cautions already
-        # existed in prose") - so the M2 compiler had no code path to read
-        # it, and a project-lead-confirmed Article 29 determination never
-        # reached the deployed prompt. Left unset, a world_core record has
-        # nothing to say here (most do not yet have a confirmed Article 29
-        # determination at all). Not yet in COMPLETION_REQUIRED - existing
+        # comment). A field, not body prose, so the M2 compiler can read it
+        # into the deployed prompt. Left unset, a world_core record has
+        # nothing to say here (a world without a confirmed Article 29
+        # determination leaves it unset). Not in COMPLETION_REQUIRED - existing
         # world_core records validate unchanged without it.
         "living_traditions": {"type": "string"},
         # Optional, additive: a structured index
@@ -886,9 +880,8 @@ TYPE_PROPERTIES: dict[str, dict] = {
                 "questions": {"type": "array", "items": _QUESTION_ENTRY},
                 # mode 2, each: bare quote/term record ids, rendered from
                 # quote.modern_rendering / term.plain_meaning-or-quick_
-                # meaning at compile time - never `quote.text` (Mark's
-                # standing quote ruling; see gates.py's quotation-mark
-                # fidelity gate).
+                # meaning at compile time - never `quote.text` (see
+                # gates.py's quotation-mark fidelity gate).
                 "pull_quotes": {"type": "array", "items": {"type": "string"}},
                 "glossary": {"type": "array", "items": {"type": "string"}},
             },

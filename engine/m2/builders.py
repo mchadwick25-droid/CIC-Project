@@ -402,8 +402,7 @@ def build_prompt(records: dict, registry_entry: dict) -> bytes:
         # Five sections, one record - they are all fields of world_core, and
         # saying so is what stops "Formation logic" becoming a namespace.
         # Living traditions is the fifth and newest (engine/m1/schemas.py's
-        # world_core.living_traditions, added per Open_Gaps_Tracking.md
-        # OG-45/OG-48): present only for a world with a CONFIRMED Article 29
+        # world_core.living_traditions): present only for a world with a CONFIRMED Article 29
         # determination and something to say, so most worlds emit four
         # sections here, not five - `emit()` already no-ops on an unset
         # field, the same way it does for any other optional world_core

@@ -118,7 +118,7 @@ _PARTICIPANT_PRIOR = re.compile(
 )
 
 # The voice DECLINING a premise about the conversation. Deliberately about
-# saying and naming, never about the record: an earlier version matched "we
+# saying and naming, never about the record: it must not match "we
 # did not leave behind an account of how we sat with the dying", which is
 # an honest limit about what survives, not a correction of the participant.
 _PREMISE_CORRECTION = re.compile(

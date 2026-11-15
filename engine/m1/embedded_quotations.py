@@ -1,4 +1,4 @@
-"""OG-10 (Build/worlds/pahc/Open_Gaps_Tracking.md): does a non-quote record's own
+"""Does a non-quote record's own
 spoken text carry an embedded old-translation quotation - 8 or more words
 inside quotation marks - with no modern-English rendering of that wording?
 The rule that spoken form must be modern English (`Build/reference/method/
