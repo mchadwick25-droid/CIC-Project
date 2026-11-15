@@ -1,0 +1,1860 @@
+{
+  "council-of-constance-1414": {
+    "claims": [
+      {
+        "claim": "On the way to Constance John XXIII's wagon overturned on the Arlberg and he lay in the snow under it; asked if anything ailed him, he said 'I lie here in the devil's name'",
+        "witness": "richental_chronik-des-constanzer-concils-gmh_buck1882.txt l.1503-1519",
+        "witness_kind": "participant",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Seeing Bludenz and the land below, John XXIII said 'Sic capiuntur vulpes', 'thus are foxes caught'",
+        "witness": "richental_chronik-des-constanzer-concils-gmh_buck1882.txt l.1519-1522",
+        "witness_kind": "participant",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Lützow calls Richental a 'very entertaining, though very mendacious chronicler of the council'",
+        "witness": "lutzow_life-and-times-of-hus_1909.txt l.9291-9293",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Buck judges the Aulendorf codex of Richental a copy made about the mid-1400s from an exemplar ('vorlage') of the 1420s, behind which lay a fuller Latin diary",
+        "witness": "richental_chronik-des-constanzer-concils-gmh_buck1882.txt l.406-429",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Finke holds that Fillastre is the author of the Gesta, citing Segovia and a note in the Escorial manuscript",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.257-268",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Mladoňovice says he wrote from what he saw and heard",
+        "witness": "palacky_documenta-mag-joannis-hus-lat-ces_1869.txt l.17430-17434",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Fillastre says the schism had lasted thirty years when the cardinals of both obediences called the Council of Pisa",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.801-825",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "At Pisa Benedict and Gregory were deposed and Alexander V chosen, by Fillastre's account",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.824-829",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Mansi's acts of Pisa date the council to 1409",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902.txt l.13330",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Despite the deposition, Spain except Portugal obeyed Benedict, and Naples, Carlo Malatesta, the dukes of Bavaria and the archbishop of Trier obeyed Gregory",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.829-833",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Alexander V died within a year of his election and John XXIII was chosen",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.839-842",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sigismund asked the pope for the power to call a general council and choose its place and time; the cardinals pressed the pope",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.852-858",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Cardinals Challant and Zabarella chose Constance and 1 November 1414 with the king's consent; at Lodi the pope called the council by bull with the king present",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.866-877",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Fillastre's closing judgment says John XXIII fled from the council and called it 'quasi coactus'",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.8620-8626",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Laurence of Březová says John XXIII called the council at Sigismund's wish and that it began on All Saints' day 1414",
+        "witness": "laurentius-de-brezova_historia-hussitica-lat-ces_goll1893.txt l.35704-35715",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Prague in 1420 calls Sigismund the 'autor, patronus et rector' of the Council of Constance",
+        "witness": "palacky_urkundliche-beitraege-hussitenkrieg-v1-deu-lat_1873.txt l.2291-2293",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "On 4 July 1415 Gregory XII's cardinal Giovanni Dominici convoked and authorized the council by his master's authority",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.2412-2440",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The council's aims were the peace and perfect union of the church and its reform",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.946-947",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "While the Italian proposal to open by confirming Pisa lay silent, after d'Ailly's counter-schedule, the council acted against Hus and the errors of Wyclif",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.966-977",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Fillastre: the pope entered Constance on Sunday 28 October 1414",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.900-902",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The procession set for 3 November was halted when the pope fell ill; on Monday 5 November the procession and Mass were held 'et ita inceptum est concilium'",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.913-927",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Cerretanus heads his register with the council begun on 1 November 1414 and says the pope's illness on 3 November came from indigestion and the opening was put off to 5 November",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.8689-8693, 9307-9324",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Fillastre puts the first session on Friday 16 November 1414",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.928-929",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Richental's opening day reads 'the sixth day in the third autumn month, that was the Sunday before Martinmas'",
+        "witness": "richental_chronik-des-constanzer-concils-gmh_buck1882.txt l.1721-1722",
+        "witness_kind": "participant",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The last session, XLV, met on Friday 22 April 1418, Martin V presiding. After the Mass the cardinal deacon of St Vitus in Macello said 'Domini, ite in pace', at the command of the pope and the whole council. The Polish request on Falkenberg, Martin V's answer, a sermon by the bishop of Catania and the reading of the dissolution decree followed",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902.txt l.129215-129246, 129280-129370",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Martin V's decree at the last session dissolved the council and gave all present leave to go home",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902.txt l.129362-129370",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Fillastre gives the council's length as three years, five months and twenty-two days",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.8636-8637",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Fillastre left Constance on 2 April 1418 as legate to France; a manuscript note says the last decrees are missing because the writer left",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.8597-8611",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Richental counts 5 patriarchs, 33 cardinals, 47 archbishops, 145 bishops, 93 assistant bishops, 132 abbots and 155 provosts, the abbots and provosts written with their names",
+        "witness": "richental_chronik-des-constanzer-concils-gmh_buck1882.txt l.11631-11665",
+        "witness_kind": "participant",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Richental counts 37 universities, envoys of over 83 kings, and over 700 open prostitutes 'not counting the secret ones'",
+        "witness": "richental_chronik-des-constanzer-concils-gmh_buck1882.txt l.11640-11683",
+        "witness_kind": "participant",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "The total of 72,460 persons is marked by Buck as a later hand",
+        "witness": "richental_chronik-des-constanzer-concils-gmh_buck1882.txt l.11686",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Richental names two dukes from Greece as envoys of the emperor of Constantinople",
+        "witness": "richental_chronik-des-constanzer-concils-gmh_buck1882.txt l.2722-2724",
+        "witness_kind": "participant",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Richental names envoys of Witold of Lithuania, the Serbian despot, Wallachia, two Turkish kings and the duke of White Rus'",
+        "witness": "richental_chronik-des-constanzer-concils-gmh_buck1882.txt l.2726-2732",
+        "witness_kind": "participant",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "The acts give two hundred fathers at session IV, a manuscript adding 'or about'",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902.txt l.60333-60341",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Fillastre says the French nation had four hundred persons of standing",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.1333-1336",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Walsingham names the English delegation, among them the bishops of Salisbury, Bath and Hereford, the abbot of Westminster and the earl of Warwick",
+        "witness": "walsingham_historia-anglicana-v2-lat_riley1863.txt l.26581-26586",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "On 25 February 1418 Gregory, a Ruthenian archbishop of the order of St Basil, said to be metropolitan of all Rus', came before Martin V with six priests",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.8387-8398",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Gregory said the emperor of Constantinople and the patriarch wanted union, by way of a council",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.8478-8494",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Fillastre: fifty-three electors, with three cells kept for absent men",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.7814-7819",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Glassberger: 23 cardinals and 30 men of the nations, six from each, making 53, and lists them by name",
+        "witness": "glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.18874-18880",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Richental: all fifty-three were in the chapel of the warehouse when the cry 'We have a pope: Oddone Colonna' went up",
+        "witness": "richental_chronik-des-constanzer-concils-gmh_buck1882.txt l.6690-6699",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Haec sancta: the council has power immediately from Christ, which everyone, even the papal, must obey in what concerns the faith, the ending of the schism and reform in head and members",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.13920-13930",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Mansi's session IV text prints the reform clause of Haec sancta in brackets, and a manuscript note says the article was imperfect and supplied in the next session",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902.txt l.60405-60416, 60518-60524",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "On 30 March Zabarella read the decrees but left out the article on the council's power in reform, holding it not true in law; on 6 April the elect of Poznań read them in full because Zabarella would not",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.1530-1572",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Mansi names Andrew, elect of Poznań, as reading the constitutions in session V",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902.txt l.60746-60750",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sentence of 4 May 1415 (session VIII): Wyclif a notorious heretic who died in heresy; his body and bones, if they can be told from other faithful bodies, to be dug up and cast out; no one appeared to defend him",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902.txt l.64789, 65536-65566",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Fillastre says the 4 May sentence was read, he objected, and it did not pass into a judgment; 266 further articles from the English",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.1861-1871",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "On 6 July the council condemned 45 articles of Wyclif and 260 others, approved the Roman council's sentence, and condemned his memory",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.2567-2575",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Session XIII: communion of the laity under the bread alone stands, and those who stubbornly call it unlawful are to be shut out as heretics",
+        "witness": "denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.15956-16006",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Hus's thirty articles condemned in session XV, the first 'Unica est sancta universalis Ecclesia, quae est praedestinatorum universitas'",
+        "witness": "denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.16011-16018",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Hus in De Ecclesia: the church is the totality of the predestinate",
+        "witness": "hus_de-ecclesia-the-church_schaff1915.txt l.2648-2650",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The sentence of 6 July names six bishops to degrade Hus (Milan, Feltre, Asti, Alessandria, Bangor, Lavaur) and leaves him to secular judgment",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902.txt l.78650-78666",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Fillastre: Hus was condemned, degraded and handed to the secular court, and burned outside the city the same day",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.2575-2583",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The acts name Jean de Brogny, cardinal of Ostia, presiding at session XV, with the king present in regalia",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902.txt l.77804-77816",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Mladoňovice says the session of 6 July was held with the king of the Romans presiding",
+        "witness": "palacky_documenta-mag-joannis-hus-lat-ces_1869.txt l.17086-17091",
+        "witness_kind": "participant",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Mladoňovice says seven bishops attended the degradation",
+        "witness": "palacky_documenta-mag-joannis-hus-lat-ces_1869.txt l.17245-17247",
+        "witness_kind": "participant",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Mladoňovice: 'Committimus animam tuam diabolo'; Hus answered, 'Et ego eam committo piissimo domino Jesu Christo'; the paper crown had three devils and 'Hic est haeresiarcha'",
+        "witness": "palacky_documenta-mag-joannis-hus-lat-ces_1869.txt l.17288-17304",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Hus said on 6 July that he had come freely under the king's safe-conduct, wishing to show his innocence",
+        "witness": "palacky_documenta-mag-joannis-hus-lat-ces_1869.txt l.17200-17204",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Hus would not recant because he would have to give up many truths and become a perjurer and a stumbling-block (letter of mid-June 1415)",
+        "witness": "hus_letters_workman-pope1904.txt l.11690-11699",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Hus calls the council proud and avaricious, condemning his Czech books unseen (letter of 26 June 1415)",
+        "witness": "hus_letters_workman-pope1904.txt l.12589-12601",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Hus reached Constance on Saturday 3 November 1414",
+        "witness": "palacky_documenta-mag-joannis-hus-lat-ces_1869.txt l.13497-13498",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Hus was arrested on the Wednesday after St Catherine's day, which Palacký glosses as 28 November",
+        "witness": "palacky_documenta-mag-joannis-hus-lat-ces_1869.txt l.13620-13624",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Stephen Páleč and Michael de Causis instigated the cardinals to arrest Hus",
+        "witness": "palacky_documenta-mag-joannis-hus-lat-ces_1869.txt l.13620-13623",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Hus wrote on 4 November that he had come without a safe-conduct; Novotný says it reached him on 5 November",
+        "witness": "hus_korespondence-a-dokumenty-lat-ces_novotny1920.txt l.14826-14828, 14871-14873",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The safe-conduct is dated Speyer, 18 October 1414",
+        "witness": "palacky_documenta-mag-joannis-hus-lat-ces_1869.txt l.13104-13106",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "John of Chlum told the pope he had brought Hus under the safe-conduct of the king of the Romans",
+        "witness": "palacky_documenta-mag-joannis-hus-lat-ces_1869.txt l.13785-13790",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Richental says Hus hid in a hay wagon to flee and was caught",
+        "witness": "richental_chronik-des-constanzer-concils-gmh_buck1882.txt l.3261-3283",
+        "witness_kind": "participant",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Mladoňovice says the story that Hus escaped in hay was false",
+        "witness": "palacky_documenta-mag-joannis-hus-lat-ces_1869.txt l.13603-13619",
+        "witness_kind": "participant",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Lützow rejects Richental's hay-wagon tale and reports the guess that he confused Hus with Jerome",
+        "witness": "lutzow_life-and-times-of-hus_1909.txt l.9435-9450",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Session XIX (23 September 1415): no safe-conduct to heretics bars a church judge, even if they came trusting it",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.13959-13978",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "A decree declares that Sigismund, notwithstanding the safe-conduct, did 'quod licuit et quod decuit' towards Hus (Mirbt from von der Hardt IV 521)",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.13981-13999",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Fillastre: John XXIII fled after midnight on the night of Wednesday to Thursday, 21 March 1415, by water, with Frederick of Austria, to Schaffhausen",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.1385-1398",
+        "witness_kind": "participant",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Richental: John fled on 20 March 1415 an hour after noon, on a small horse in a grey cloak and hood, with a crossbow, while Frederick jousted",
+        "witness": "richental_chronik-des-constanzer-concils-gmh_buck1882.txt l.3437-3460",
+        "witness_kind": "participant",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Walsingham: John pretended illness and left suddenly by night",
+        "witness": "walsingham_historia-anglicana-v2-lat_riley1863.txt l.26600-26601",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "John XXIII said he left for fear of the king of the Romans",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.1398-1400",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "John XXIII was deposed on Wednesday 29 May 1415 and accepted the sentence",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.2159-2168",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Gregory XII resigned through Carlo Malatesta on 4 July 1415",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.2412-2418",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Fillastre's closing judgment: two who acted as popes were deposed, the third resigned",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.8626-8629",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Benedict XIII was deposed on 26 July 1417; Fillastre composed and read the sentence",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.6645-6681",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Benedict's written reply denied this could be a general council, having no cardinals or bishops; all there were schismatics and excommunicate",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.4826-4834",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Benedict XIII replied in writing to the council's citation, served at Peñíscola on 21 January 1417: those gathered at Constance are not a general synod and do not represent the universal church, being excommunicate",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902.txt l.110726-110760, 111237-111246, 111387-111391",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Benedict XIII's cardinals answered King Alfonso from Peñíscola on 3 May 1416 that they could not and must not go to the gathering at Constance",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd3-lat_finke1926.txt l.29733-29740, 29988-29989",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Benedict XIII, Peñíscola, Maundy Thursday (8 April) 1417, excommunicated all those gathered at Constance and the coming election, 'que melius damnata intrusio dici debet'",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd3-lat_finke1926.txt l.31527-31553",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Richental has all three popes deposed on Corpus Christi eve 1415",
+        "witness": "richental_chronik-des-constanzer-concils-gmh_buck1882.txt l.3975-3983",
+        "witness_kind": "participant",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Frequens (session XXXIX, 9 October 1417): councils five years after this one, then seven, then every ten years for ever",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.13940-13951",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Jerome recanted on 23 September 1415, revoked it in May 1416, calling Hus a good man and saying he had abjured for fear of the fire",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.3226-3251",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "On Saturday 30 May 1416 Jerome was condemned, taken by the secular court and burned",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.3256-3297",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Poggio dates his letter on Jerome to 30 May 1416, the day he died, and says he saw it",
+        "witness": "palacky_documenta-mag-joannis-hus-lat-ces_1869.txt l.32737-32752",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Poggio: Jerome stood fearless, 'ut alterum Catonem dixisses'",
+        "witness": "palacky_documenta-mag-joannis-hus-lat-ces_1869.txt l.32704-32709",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Richental tells Jerome's burning in his 1415 pages and again in his May 1416 pages",
+        "witness": "richental_chronik-des-constanzer-concils-gmh_buck1882.txt l.4720-4757, 5194-5195",
+        "witness_kind": "participant",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Session XIX (23 September 1415): a vicar general for the Observants of France, Burgundy and Touraine, Nicholas Rudolphi, by agreement with the Conventuals",
+        "witness": "glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.18441-18556",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Cerretanus: the electors chose Oddone Colonna on Thursday 11 November 1417, St Martin's day, and he took the name Martin V",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.17337-17345",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Richental names the archbishop Jerg, 'Kyfionensis', of the Greek faith, arriving on 19 February 1418 with five bishops",
+        "witness": "richental_chronik-des-constanzer-concils-gmh_buck1882.txt l.7167-7171",
+        "witness_kind": "participant",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Harasiewicz (1862) says the Kiev metropolitan Gregorius Semivlach is reported ('perhibetur') to have set out for the Council of Constance in 1418 to renew the union",
+        "witness": "harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt l.4820-4823",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The acts date session IV to Saturday 30 March 1415, the second-last day of the month; Fillastre calls it the Saturday of the Easter vigil",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902.txt l.60288",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Fillastre names a Spanish nation, with Italian, French, German and English nations, in the election debate of October 1417",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.7583-7589",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Michael de Causis posted the processes against Hus in the church the day after he arrived",
+        "witness": "hus_korespondence-a-dokumenty-lat-ces_novotny1920.txt l.14828-14830",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Ludwig, son of Clem of Bavaria, held the golden orb and led Hus to execution at the king's word",
+        "witness": "palacky_documenta-mag-joannis-hus-lat-ces_1869.txt l.17304-17309",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The bishop of Lodi preached on heresy at Hus's sentence",
+        "witness": "palacky_documenta-mag-joannis-hus-lat-ces_1869.txt l.17097-17101",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Fillastre: at session I the cardinal of Florence read a schedule and the bull of convocation",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.935-939",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Fillastre: the name Martin was chosen in honor of St Martin",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.8138",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Fillastre: 'Laudetur et benedicatur altissimus, qui dedit hec in pace fieri et ecclesiam sub uno capite constitui'",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.8162-8163",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Fillastre: as the accessions were made, children in surplices sang Veni creator outside and many electors wept",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.8126-8131",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Fillastre: the cardinal of Pisa went over first; Fillastre and the cardinal of Foix were among the last",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.8097-8121",
+        "witness_kind": "participant",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Walsingham: Richard, bishop of London, first acceded to Colonna and all agreed at once",
+        "witness": "walsingham_historia-anglicana-v2-lat_riley1863.txt l.28073-28078",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Martin V was consecrated on Sunday 21 November 1417 by the cardinal of Ostia (Fillastre)",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.8166-8168",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "At the last session the Polish envoys asked for the condemnation of John Falkenberg's book; Martin V said he would keep what was decreed in matters of faith 'conciliariter ... et non aliter'",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902.txt l.129288-129315",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Hefele reads Martin V's approval as limited to decrees made 'in materiis fidei conciliariter', which leaves out the decrees on the council's superiority, as not concerning the faith and made 'tumultuariter' rather than 'conciliariter'",
+        "witness": "hefele_history-of-the-councils-v1-to-nicaea_clark1872.txt l.3333-3400, 3938-3941",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Gerson, in a tract his editor Du Pin dates to 1418, at the end of the council, on the Polish envoys' appeal over Falkenberg's book, says Martin said several times in public that he would keep inviolably what was done 'conciliariter' at Constance",
+        "witness": "gerson_opera-omnia-tomus-2-pars-1-tractatus-ad-schisma-lat_dupin1706.txt l.26985-27015, 27283-27294",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Paulus Wladimiri, canon of Kraków, was among the Polish envoys at the last session",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902.txt l.129357-129366",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Mansi names Pavia as the place of the next council",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902.txt l.129203-129212",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Richental: learned men of Sweden, Denmark and Norway asked the council in a session on Candlemas eve 1415 to canonize Bridget, and she was canonized",
+        "witness": "richental_chronik-des-constanzer-concils-gmh_buck1882.txt l.3027-3058",
+        "witness_kind": "participant",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Finke's calendar lists a Swedish envoy's sermon on St Bridget on 1 February 1415",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.19718-19721",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Gerson's sermon of 23 March 1415: the church or a general council is a rule which anyone, even a pope, must hear and obey",
+        "witness": "gerson_opera-omnia-tomus-2-pars-1-tractatus-ad-schisma-lat_dupin1706.txt l.18262-18265",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Finke's calendar dates Gerson's 'Ambulate' sermon to 23 March 1415",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.20420-20427",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Jean Petit's proposition justifying the murder of the duke of Orléans was condemned on 6 July 1415",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.2203-2209, 2597-2603",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The prior of Windesheim returned from Constance and told of Sigismund's Latin speech on unity and his visit to the cell of the author of the Horologium",
+        "witness": "busch_chronicon-windeshemense-lat_grube1886.txt l.20480-20500",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Bohemian barons wrote on 12 May 1415, 250 of them by Palacký's heading, asking for Hus's release",
+        "witness": "palacky_documenta-mag-joannis-hus-lat-ces_1869.txt l.28588-28598",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The nobles' letter of 2 September 1415 calls Hus 'vir utique bonus, justus et catholicus' and vows to defend the preachers of God's law 'usque effusionem sanguinis'",
+        "witness": "palacky_documenta-mag-joannis-hus-lat-ces_1869.txt l.30152-30156, 30252-30262",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Palacký's heading gives 452 seals, and his note counts them across eight letters",
+        "witness": "palacky_documenta-mag-joannis-hus-lat-ces_1869.txt l.30062-30065, 30270-30273",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Hus defended the communion of the cup from prison against the council",
+        "witness": "hus_letters_workman-pope1904.txt l.11866-11882",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Laurence of Březová says Jakoubek of Stříbro began giving communion under both kinds in Prague in 1414",
+        "witness": "laurentius-de-brezova_historia-hussitica-lat-ces_goll1893.txt l.35605-35614",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Prague, 10 July 1420: Sigismund had his legate raise 'illam impiam crucem Antichristi' and had Hus, 'sub suo salvo aut potius calvo conductu', and Jerome condemned and burned ('jussit condemnari et exuri')",
+        "witness": "palacky_urkundliche-beitraege-hussitenkrieg-v1-deu-lat_1873.txt l.2255-2333",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Inter cunctas (22 February 1418) condemns the articles again and asks suspects whether Constance represents the universal church",
+        "witness": "denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.16193-16198",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Bannwart: Rome never confirmed all of Constance's decrees; Eugene IV in 1439 rejected Haec sancta as impious and scandalous and in 1446 received Constance without prejudice to the Apostolic See",
+        "witness": "denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.16207-16222",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Gallican Articles say the decrees of sessions IV and V stand unmoved and are not to be restricted to the time of schism",
+        "witness": "denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.23505-23516",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Bannwart notes Innocent XI rejected the Articles on 11 April 1682 and they were condemned in Inter multiplices, 4 August 1690",
+        "witness": "denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.23464-23484",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Luther, 1520: Hus and Jerome were burned at Constance in violation of the safe-conduct; 'I have not yet found any errors in his writings'",
+        "witness": "luther_works-v2-selected_jacobs-spaeth1916.txt l.4306-4323",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The 1916 editors say Luther was wrong to give Jerome a safe-conduct",
+        "witness": "luther_works-v2-selected_jacobs-spaeth1916.txt l.6102-6106",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Exsurge Domine condemns the claim that some of Hus's articles condemned at Constance are 'christianissimi, verissimi et evangelici'",
+        "witness": "denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.17662-17665",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Luther, 1521, on the bull's thirtieth article: 'all the articles of John Hus condemned at Constance are altogether Christian', and the pope acted 'like a very Antichrist'; the editors trace the article to the Leipzig Disputation of 1519",
+        "witness": "luther_works-v3-selected_various1930.txt l.5221-5237, 5245-5248",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Piccolomini: both bore death with a steady mind and hurried to the fire as if invited to a feast",
+        "witness": "piccolomini_historia-bohemica-lat_1592.txt l.4055-4057",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Foxe heads the decree on Wyclif's bones 'A.D. 1425' and says they were burned and the ashes drowned",
+        "witness": "foxe_acts-and-monuments-v3_cattley-townsend1837.txt l.7919-7922, 8040-8044",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Martin V to the bishop of Lincoln, Rome, 9 December (V id. Dec.) of his eleventh year: the council's definitive sentence ordered Wyclif's body and bones dug up; he had confirmed it by other letters, and orders them dug up, publicly burned and the ashes disposed of so no trace remains",
+        "witness": "raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.7977-8019",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Raynaldus files Martin V's letter on Wyclif's bones under 1427 and says Martin also asked the English king's council to support the bishop",
+        "witness": "raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.7559, 7971-7976, 8019-8025",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "The opening day of the council",
+        "sides": "1 November 1414, the day set: Fillastre (council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.870), Cerretanus's heading (council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.8689-8693), Březová (laurentius-de-brezova_historia-hussitica-lat-ces_goll1893.txt l.35704-35708). 5 November, the procession and Mass: Fillastre (council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.923-927), Cerretanus (council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.9317-9324), Mansi's index (mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902.txt l.530). 16 November, the first session: Fillastre (council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.928-929). Richental's 'sixth day ... Sunday before Martinmas' (richental_chronik-des-constanzer-concils-gmh_buck1882.txt l.1721-1722).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The day and manner of John XXIII's flight",
+        "sides": "After midnight on the night to 21 March, by water: Fillastre (council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.1385-1398). 20 March, an hour after noon, on horseback in disguise: Richental (richental_chronik-des-constanzer-concils-gmh_buck1882.txt l.3437-3460). By night, feigning illness: Walsingham (walsingham_historia-anglicana-v2-lat_riley1863.txt l.26600-26601).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "In which session Haec sancta was made, and what was read",
+        "sides": "Read on 30 March (session IV) without the reform article, in full on 6 April (session V): Fillastre (council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.1530-1572). Mansi prints the clause in brackets in session IV with a note that it was supplied in the next session (mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902.txt l.60405-60416, 60518-60524). Session V: Mirbt (mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.13920). Sessions IV and V: Bannwart (denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.16212-16213) and the Gallican Articles (denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.23513).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The binding force of Haec sancta",
+        "sides": "Never confirmed in full by Rome, rejected by Eugene IV in 1439, received with Rome's rights reserved in 1446: Bannwart (denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.16207-16222). Approved by the Apostolic See and not limited to the time of schism: the Gallican Articles (denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.23505-23516). Martin V's 'conciliariter ... et non aliter' (mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902.txt l.129310-129315) is read by Hefele as excluding the decrees on the council's power over the pope (hefele_history-of-the-councils-v1-to-nicaea_clark1872.txt l.3393-3400, 3938-3941). Gerson says Martin publicly promised to keep what was done conciliariter (gerson_opera-omnia-tomus-2-pars-1-tractatus-ad-schisma-lat_dupin1706.txt l.27289-27293).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "When Wyclif was condemned, and how many further articles",
+        "sides": "4 May 1415, session VIII: the acts (mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902.txt l.64789, 65536-65566; denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.15776-15778); Martin V's letter says the council's definitive sentence ordered the exhumation and that he confirmed it, without dating it (raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.7988-8001). The 4 May sentence did not stand; condemnation on 6 July: Fillastre (council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.1861-1871, 2567-2575). 266 further articles (council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.1864) against 260 (council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.2573).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whether Hus tried to escape",
+        "sides": "Hid in a hay wagon and was caught: Richental (richental_chronik-des-constanzer-concils-gmh_buck1882.txt l.3261-3283). A false rumour: Mladoňovice (palacky_documenta-mag-joannis-hus-lat-ces_1869.txt l.13603-13619). Lützow, modern, rejects Richental's tale (lutzow_life-and-times-of-hus_1909.txt l.9435-9450).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Who presided at Hus's sentence, and how many bishops degraded him",
+        "sides": "Jean de Brogny, cardinal of Ostia, with the king present; six bishops named: the acts (mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902.txt l.77804-77816, 78650-78661). The king of the Romans presiding; seven bishops: Mladoňovice (palacky_documenta-mag-joannis-hus-lat-ces_1869.txt l.17086-17091, 17245-17247).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "How the three popes were removed",
+        "sides": "John deposed 29 May 1415, Gregory resigned 4 July 1415, Benedict deposed 26 July 1417: Fillastre (council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.2159-2168, 2412-2418, 6645-6681, 8626-8629). All three deposed on Corpus Christi eve 1415: Richental (richental_chronik-des-constanzer-concils-gmh_buck1882.txt l.3975-3983). Gregory renounced first: Walsingham (walsingham_historia-anglicana-v2-lat_riley1863.txt l.26587-26589).",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "When Jerome was burned",
+        "sides": "30 May 1416: Fillastre (council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.3256-3297), Poggio (palacky_documenta-mag-joannis-hus-lat-ces_1869.txt l.32737-32752). Told among Richental's 1415 events and again in May 1416 (richental_chronik-des-constanzer-concils-gmh_buck1882.txt l.4720-4757, 5194-5195).",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Who first went over to Colonna in the conclave",
+        "sides": "The cardinal of Pisa: Fillastre (council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.8097-8121). Richard, bishop of London: Walsingham (walsingham_historia-anglicana-v2-lat_riley1863.txt l.28073-28078).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The safe-conduct",
+        "sides": "Hus came under the king's safe-conduct: Hus on 6 July, by Mladoňovice (palacky_documenta-mag-joannis-hus-lat-ces_1869.txt l.17200-17204); John of Chlum (palacky_documenta-mag-joannis-hus-lat-ces_1869.txt l.13785-13790). He came without it, and it reached him on 5 November: Hus's letter and Novotný (hus_korespondence-a-dokumenty-lat-ces_novotny1920.txt l.14826-14828, 14871-14873). It did not bind against a heretic: the council (mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.13959-13999). Broken: Prague in 1420 (palacky_urkundliche-beitraege-hussitenkrieg-v1-deu-lat_1873.txt l.2329-2333) and Luther (luther_works-v2-selected_jacobs-spaeth1916.txt l.4306-4309).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whether the council canonized Bridget of Sweden",
+        "sides": "Canonized at a session on Candlemas eve 1415: Richental (richental_chronik-des-constanzer-concils-gmh_buck1882.txt l.3027-3058). Canonized by Boniface IX in 1391 and confirmed by John XXIII in 1414 and Martin V in 1419: Cumming, on her Who card (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era6/batch2/bridget-of-sweden.card.json l.46-48).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The arrival of Gregory, the Ruthenian archbishop",
+        "sides": "A Friday before 25 February 1418: Fillastre (council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.8387-8390). 19 February 1418 with five bishops, naming him Jerg, archbishop 'Kyfionensis', of the Greek faith: Richental (richental_chronik-des-constanzer-concils-gmh_buck1882.txt l.7167-7171). 21 January with eight bishops, year not stated in the lines read: Richental (richental_chronik-des-constanzer-concils-gmh_buck1882.txt l.2734-2738).",
+        "formation_confidence": "Contested"
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "A signed list of those who voted Haec sancta or the main decrees",
+        "note": "Not found. The held lists are Richental's narrative lists, Glassberger's electors and Mansi's swearers of the Narbonne articles (index only); searched MANSI27, FIN2 and RICH for subscription lists."
+      },
+      {
+        "detail": "A total head-count by Richental himself",
+        "note": "The 72,460 at the end of his recapitulation is marked by Buck as a later hand (richental l.11686)."
+      },
+      {
+        "detail": "The burning of Wyclif's bones as carried out",
+        "note": "The council ordered them dug up in 1415 (Mansi), and Martin V's letter of his eleventh year orders them burned (raynaldus l.7977-8019). That the burning was done is held only in later writers. Among them are Foxe, under the heading A.D. 1425 (foxe l.7920-7922, 8042); Crespin's martyrology, which says he was dug up 'par le commandement du Pape' and his bones burned (crespin t1 l.19221-19225, 19965-19968); the 1916 editors of Luther's works, who date it 1427 (luther_works-v2 l.1761-1763); and van Braght's Martyrs Mirror, quoting Mehrning, 'forty-one years after his death' (van-braght l.45484-45486). No witness of the time is held."
+      },
+      {
+        "detail": "Wyclif's own words matched to the forty-five articles",
+        "note": "His works are held (wyclif_* files) but were not checked against the articles; the entry gives the condemned teaching as the acts state it."
+      },
+      {
+        "detail": "Luther's words at Leipzig in 1519, printed in full",
+        "note": "Not held. The 1930 volume gives the article as he put it there (editors' note, luther_works-v3 l.5245-5248) and his own 1521 defense of it (l.5221-5237); Exsurge Domine, article 30, gives the condemned form."
+      },
+      {
+        "detail": "The First Vatican Council naming Constance",
+        "note": "The held text of Pastor aeternus (Denzinger) does not name Constance; searched every CONSTANTI hit in Denzinger."
+      },
+      {
+        "detail": "The year of Richental's second entry on the Ruthenian archbishop (21 January)",
+        "note": "Not stated in the lines read (richental l.2734-2738)."
+      }
+    ]
+  },
+  "council-of-basel-ferrara-florence-1431": {
+    "claims": [
+      {
+        "claim": "The Greeks reached the port of Ferrara on 7 March 1438 and spent the night aboard. The patriarch entered next morning",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.46705-46718",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Bishops sent by the pope told Joseph II he must kiss the pope's foot. He asked which synod or canon granted the custom and whether the other apostles knelt to kiss Peter's feet",
+        "witness": "syropoulos_vera-historia-unionis-non-verae-grc-lat_creyghton1660.txt l.17860-17876",
+        "witness_kind": "participant",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Joseph offered to embrace the pope as brothers do. Unless the kiss was remitted, he said, he would never step from the boat on to land",
+        "witness": "syropoulos_vera-historia-unionis-non-verae-grc-lat_creyghton1660.txt l.17883-17905",
+        "witness_kind": "participant",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The pope gave way and received the patriarch in his chamber with only the cardinals present",
+        "witness": "syropoulos_vera-historia-unionis-non-verae-grc-lat_creyghton1660.txt l.17960-17975",
+        "witness_kind": "participant",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "In the Greek acts the patriarch kissed the cheek of the pope, who stood, and the others kissed his right hand and cheek. No quarrel is told",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.46748-46758",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Petit dates the emperor's entry to Ferrara to 4 March and the patriarch's to 8 March 1438",
+        "witness": "patrologia-orientalis-tomus15_petit-documents-concile-de-florence-purgatoire-grc-fra_graffin-nau1927.txt l.293-301",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Syropoulos was great ecclesiarch, a member of the Greek delegation, and signed the decree of union",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.97326-97327; syropoulos_vera-historia-unionis-non-verae-grc-lat_creyghton1660.txt l.47655-47656",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Syropoulos's memoir is hostile to the union (its 1660 title: the true history of the untrue union)",
+        "witness": "syropoulos_vera-historia-unionis-non-verae-grc-lat_creyghton1660.txt l.1-3",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Greek acts are a first-person record of the delegation. Mansi does not name the writer. Petit gives him in brackets as Dorotheos of Mitylene",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.46705-46718; patrologia-orientalis-tomus15_petit-documents-concile-de-florence-purgatoire-grc-fra_graffin-nau1927.txt l.325-327",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Basel's session acts (Mansi tomi 29 and 30) are not held. Mansi's tomus 31 prints some of Basel's own documents: its letters, the Compacts with the Bohemians, John of Ragusa's report and bulls of Felix V. The rest is quotation in Raynaldus, Glassberger, Mirbt and Mansi's tomus 32",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.3352-3361; mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.25913-26090; mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.26095-26101; mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.28590-28614; raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.14188-14212; glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.20455-20477; mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.15134-15138; mansi_sacrorum-conciliorum-collectio-tomus-32-1438-1549-lat_welter-facsimile1901.txt l.1611",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Compacts with the Bohemians, as Mansi prints them, were agreed between the legates of the council of Basel and the general assembly of Bohemia and Moravia at Prague",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.28617-28623",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Mansi's note says the Compacts were agreed by the council's legates in its name, at Prague and elsewhere, and then confirmed by the council itself",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.28594-28599",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "John of Ragusa, Basel's envoy for many years among the Greeks at Constantinople, wrote a report to the council. Mansi's note says he read it before the council",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.26095-26101; raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.31578-31584",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Basel's acts, as Raynaldus quotes them, say John Palomar and John of Ragusa arrived on 19 July 1431. They opened the council on 23 July, by authority Martin V and Eugenius gave Cesarini",
+        "witness": "raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.14188-14211",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Mansi's note says that at Basel's opening no bishops were present, only a few abbots",
+        "witness": "raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.14457-14460",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Glassberger dates Basel's first session to Friday 7 December 1431",
+        "witness": "glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.20474-20476",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Glassberger's Quaracchi editors give 14 December for Basel's first session, after Hergenröther and Brück",
+        "witness": "glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.20494",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Glassberger says Martin V sent Cardinal Julian to begin the council at Basel. Eugenius IV confirmed him as legate, above all to root out the heresy of the Hussites",
+        "witness": "glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.20455-20473",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The Taborite chronicle says Basel invited the Bohemians to a free hearing. In 1433 their envoys set out the Four Articles before the whole council",
+        "witness": "hofler_geschichtschreiber-husitischen-bewegung-v2-lat_1865.txt l.35972-35990; hofler_geschichtschreiber-husitischen-bewegung-v2-lat_1865.txt l.36058-36068",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Glassberger says the Basel fathers held, by the decrees of Constance renewed at Basel, that a lawful general council had power directly from Christ. It stood above the pope, and he could not move or dissolve it without its consent",
+        "witness": "glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.20990-20994",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Bannwart notes that Eugenius IV rejected the Constance teaching on 4 September 1439 as impious and scandalous",
+        "witness": "denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.16210-16216",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Bannwart notes that in 1446 Eugenius received Basel from its beginning up to the transfer he made",
+        "witness": "denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.16216-16221",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Bissipatus, the Greek envoy, told Basel in 1437 that the place must suit the Greeks and the pope, whose presence was needed above all",
+        "witness": "raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.31548-31557; raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.31944",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "At session XXV on 7 May 1437 Basel's majority chose Basel, Avignon or a town of Savoy, Raynaldus says",
+        "witness": "raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.31300-31310",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Mansi's note says two opposed decrees were read on the same day in the same session. The majority, with the Cardinal of Arles, gave the Greeks Basel, Avignon or Savoy. The party with the papal legates gave Florence, Udine or another place",
+        "witness": "raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.31498-31510",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Raynaldus says Eugenius called the ecumenical synod with the Greeks at Ferrara by letters dated 18 September 1437 (XIV kal. Octobris)",
+        "witness": "raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.33176-33184",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Mansi argues the bull of transfer is dated 18 September 1437 and that the date 1 October in Justiniani's printed acts is a mistake",
+        "witness": "raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.31586-31596",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Glassberger says Eugenius moved the Basel council to Ferrara in consistory at Bologna, saying the Greeks had chosen that place",
+        "witness": "glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.20987-20990",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Ferrara's first session was held on Wednesday 8 January 1438, by the record Raynaldus quotes",
+        "witness": "raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.35133-35139",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Raynaldus says the legate Nicholas (Albergati) presided at Ferrara's first session. He counts five archbishops, eighteen bishops, four bishops-elect and many heads of orders",
+        "witness": "raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.35130-35145; raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.382",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Ferrara decreed that those staying at Basel under the name of a council, better called a conventicle, had incurred the penalties of the transfer",
+        "witness": "raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.35524-35538",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Eugenius's decree of 9 April 1438 declared, with the emperor and patriarch consenting, the holy ecumenical synod to be at Ferrara. Both sides answered 'We receive and approve'",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.47548-47558; mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.47684-47702",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Greek acts say the synod was proclaimed by common consent for 9 April, Wednesday of Holy Week",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.46849-46860",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Petit calls the opening day Tuesday of Holy Week, 9 April",
+        "witness": "patrologia-orientalis-tomus15_petit-documents-concile-de-florence-purgatoire-grc-fra_graffin-nau1927.txt l.304",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The Greek acts report Eugenius saying, 'Where I am with the emperor and the patriarch, there is the whole synod of Christians'",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.48662-48667",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Petit says purgatory was taken first, at private meetings from 13 April 1438, with Mark and Bessarion answering for the Greeks",
+        "witness": "patrologia-orientalis-tomus15_petit-documents-concile-de-florence-purgatoire-grc-fra_graffin-nau1927.txt l.306-314; patrologia-orientalis-tomus15_petit-documents-concile-de-florence-purgatoire-grc-fra_graffin-nau1927.txt l.356-363",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Mark of Ephesus says the first public debate was on the addition to the Creed, then the doctrine at Florence",
+        "witness": "john-ephesus_lives-eastern-saints-po17_brooks1923.txt l.37434-37441; john-ephesus_lives-eastern-saints-po17_brooks1923.txt l.37753-37767",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Roman history before the acts lists the procession and Filioque, azymes, purgatory, the saints' vision and the primacy as the main questions",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.45892-45911",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Eugenius's decree moved the council from Ferrara to Florence in session XVI, dated 1438 by the Incarnation (IV id. Januarii), that is 10 January 1439, with the emperor and patriarch consenting and the council approving",
+        "witness": "raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.38405-38445",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Raynaldus says the council was moved because the plague had not left Ferrara",
+        "witness": "raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.38405-38415",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Syropoulos lists the bishops of twenty sees, from Ephesus to Anchialus, and Isidore of Russia with one bishop",
+        "witness": "syropoulos_vera-historia-unionis-non-verae-grc-lat_creyghton1660.txt l.11448-11460",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Roman history says envoys of the churches of Alexandria, Antioch and Jerusalem were present",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.45892-45896",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Syropoulos says the emperor's man brought two bishops and an envoy from Georgia. Later he speaks of one Georgian bishop and one lay prince",
+        "witness": "syropoulos_vera-historia-unionis-non-verae-grc-lat_creyghton1660.txt l.9398-9404; syropoulos_vera-historia-unionis-non-verae-grc-lat_creyghton1660.txt l.43930-43938",
+        "witness_kind": "participant",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Doukas names Mark of Ephesus, Bessarion, Isidore, Balsamon, Gemistos of Lacedaemon, George Scholarios and Argyropoulos among the Greeks. He says Mark led for the Greeks and Cardinal Julian for the Latins",
+        "witness": "doukas_historia-byzantina-grc-lat_bekker1834.txt l.11975-11995; doukas_historia-byzantina-grc-lat_bekker1834.txt l.12028-12031",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The Turks pressed the eastern empire harder every day, the Roman history says",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.45847-45852",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The chronicle under Sphrantzes's name has Manuel II tell his son the Turks feared a union of Greeks and western Christians. He told him to keep the council in mind while the Turks were a danger, but not to hold it, fearing a worse schism. John rose and left without a word",
+        "witness": "sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838.txt l.10236-10254",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Chalkokondyles says the pope at Ferrara asked the emperor to help him in his quarrel with the Germans",
+        "witness": "chalcocondyles_historiarum-libri-x-with-isidore-leonard-plusiadenos-pg159-grc-lat_migne1866.txt l.18127-18131",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The Greek acts say the patriarch died suddenly after supper, having written in his room. They print his statement found afterwards",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.94415-94440",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The statement says: everything the catholic and apostolic church of our Lord Jesus Christ of elder Rome holds and teaches, I too hold",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.94448-94461",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Greek acts date the patriarch's death at Florence to 9 June",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.94680-94684; mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.94631",
+        "witness_kind": "acts",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Syropoulos dates the death to 10 June and says he died before the signing",
+        "witness": "syropoulos_vera-historia-unionis-non-verae-grc-lat_creyghton1660.txt l.45224-45240",
+        "witness_kind": "participant",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Doukas says the patriarch died after the union. The notes to Doukas correct him, giving 10 June and the Greek signing on 5 July",
+        "witness": "doukas_historia-byzantina-grc-lat_bekker1834.txt l.12087-12088; doukas_historia-byzantina-grc-lat_bekker1834.txt l.32658-32664",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Mark of Ephesus says the patriarch had long since been corrupted and followed the unionists",
+        "witness": "john-ephesus_lives-eastern-saints-po17_brooks1923.txt l.38162-38164",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Syropoulos says the definition was signed on the Sunday, written half in Latin and half in Greek on one parchment",
+        "witness": "syropoulos_vera-historia-unionis-non-verae-grc-lat_creyghton1660.txt l.47626-47637",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Syropoulos says 'with tears and sighs most of us signed', and that no money was asked for or promised at the signing",
+        "witness": "syropoulos_vera-historia-unionis-non-verae-grc-lat_creyghton1660.txt l.47648-47656",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Syropoulos says Eugenius looked over the Greek signatures and signed standing. He asked whether Mark had signed, and on hearing he had not said, 'Then we have achieved nothing'",
+        "witness": "syropoulos_vera-historia-unionis-non-verae-grc-lat_creyghton1660.txt l.47957-47970",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Greek acts say the definition was read on Monday 6 July 1439 after Mass, in Latin by Cardinal Julian and in Greek by Bessarion",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.96260-96275",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The decree opens: 'Let the heavens rejoice and the earth be glad.' Then: 'the wall that divided the western and the eastern church has been taken away'",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.96336-96345",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The decree teaches that the Spirit proceeds from the Father and the Son as from one principle and one spiration. It reads the holy doctors' and fathers' 'through the Son' in that sense. It says the Filioque was added lawfully and with good reason",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.14262-14274; denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.16432-16444",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Doukas calls 'from the Father through the Son' the phrase the Greeks use",
+        "witness": "doukas_historia-byzantina-grc-lat_bekker1834.txt l.12004-12007; doukas_historia-byzantina-grc-lat_bekker1834.txt l.12037-12040",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The decree allows the eucharist in unleavened or leavened wheat bread, each priest following his own church's custom. It teaches purgatory and the vision of God",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.14276-14292",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The decree gives the apostolic see and the Roman pontiff primacy over the whole world. It calls the pope true vicar of Christ and head of the whole church",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.14293-14300",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Greek acts say the clause saving the patriarchs' privileges and rights was added, and the Latins tried to drop 'all'",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.96254-96259",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The signed list opens with Eugenius and the cardinals. The emperor signs first on the Greek side",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.96875-96880; mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.96984-96990",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Our count of the printed list gives more than a hundred Latin signatures and about thirty Greek. The OCR breaks lines, so the count is approximate",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.96877-97420",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Isidore signed as metropolitan of Kiev and holding the place of the patriarch of Antioch",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.97002-97008",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The general of the Camaldolese (Ambrose) and the general of the Friars Minor signed",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.97190-97197",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Roman editor says many fathers left after the last session before the signing",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.97258-97267",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Syropoulos says Mark kept silent at the signing and Isaias of Stauropolis slipped away from Florence when the signing began",
+        "witness": "syropoulos_vera-historia-unionis-non-verae-grc-lat_creyghton1660.txt l.47668-47681",
+        "witness_kind": "participant",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Syropoulos says neither Georgian envoy gave his vote to the union. Both had slipped away",
+        "witness": "syropoulos_vera-historia-unionis-non-verae-grc-lat_creyghton1660.txt l.44060-44072",
+        "witness_kind": "participant",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Doukas says all agreed except Mark",
+        "witness": "doukas_historia-byzantina-grc-lat_bekker1834.txt l.12033-12036",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Mark says he kept his written statement back, stood apart from the others and held to his Fathers",
+        "witness": "john-ephesus_lives-eastern-saints-po17_brooks1923.txt l.38167-38192",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Mark says the others were lured by promises and gifts",
+        "witness": "john-ephesus_lives-eastern-saints-po17_brooks1923.txt l.38155-38160",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Syropoulos says the emperor would not let the pope judge Mark: as Mark was their bishop, judgment belonged to the Greeks",
+        "witness": "syropoulos_vera-historia-unionis-non-verae-grc-lat_creyghton1660.txt l.48705-48714",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Basel's session XXXIII issued three propositions on 16 or 17 May 1439, which Raynaldus calls false",
+        "witness": "raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.42112-42118; raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.42619-42621",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Basel's session XXXIV, on 25 June 1439 (VII kal. Julii), tried to depose Eugenius",
+        "witness": "raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.42619-42622; glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.21160-21162",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Raynaldus says only seven bishops took part in the deposition. Aeneas Silvius, as he quotes him, says no Aragonese or Spanish prelate came, and from Italy only the bishop of Grosseto and an abbot",
+        "witness": "raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.42626-42628; raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.42118-42131",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "On 4 September 1439 at Florence the decree Moyses condemned Basel's teaching and the attempt to depose the pope",
+        "witness": "raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.42615-42635",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Glassberger says Basel defined the Immaculate Conception. His editors say the definition never bound the faith, since it was not the act of a lawful council",
+        "witness": "glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.21183-21185; glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.21233-21238",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Glassberger says Basel's electors chose Amadeus, duke of Savoy, as Felix V on 17 November 1439, and the schism lasted to 1448",
+        "witness": "glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.21186-21193",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Mansi's note says the Basel party moved to Lausanne and held its first session there on 24 July 1448. Felix gave up his title on 7 April 1449",
+        "witness": "raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.71134-71142",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "The Lausanne synod's decree is dated 16 April 1449. It says the synod, while lawfully gathered at Basel, had not consented when Eugenius set up a meeting at Ferrara under a council's name",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-32-1438-1549-lat_welter-facsimile1901.txt l.6988-6996; mansi_sacrorum-conciliorum-collectio-tomus-32-1438-1549-lat_welter-facsimile1901.txt l.7100-7110",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The French envoys' instrument dated at Lausanne on 4 April 1449 speaks of Pope Nicholas's wish for peace and union",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-32-1438-1549-lat_welter-facsimile1901.txt l.6855-6862; mansi_sacrorum-conciliorum-collectio-tomus-32-1438-1549-lat_welter-facsimile1901.txt l.6917",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "In 1516 the Fifth Lateran Council called Basel after the transfer a little council, or rather a gathering, no longer deserving the name of council",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.15132-15140",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Armenian decree Exultate Deo is dated in a public session at Florence on 22 November 1439 (X kal. Decembris)",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.99090-99098; raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.52410-52416",
+        "witness_kind": "acts",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Raynaldus's narrative puts the Armenians' acceptance of the formula in a public session of 10 December (IV id. Decembris)",
+        "witness": "raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.39768-39771",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The Armenian envoys accepted in their own name, their patriarch's and all Armenians'",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.99049-99062",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The catholicos's mandate in Raynaldus names Sargis and Joachim as envoys",
+        "witness": "raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.39748-39756",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Issaverdens says the catholicos Constantine sent four vardapets who accepted and signed the union",
+        "witness": "issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt l.7338-7353",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Andrew, abbot of Saint Antony's, envoy of the Coptic patriarch John, was heard on 31 August 1441 (Andrea da Santa Croce in Raynaldus). The friar Albert had carried the pope's letters",
+        "witness": "raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.49118-49150",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Cantate Domino rejoices that before three years had passed three great nations had been joined, and Andrew accepted it for Patriarch John and his people",
+        "witness": "raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.51855-51872; raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.51918-51936",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Mansi dates Cantate Domino to 4 February 1442, the year 1441 in Florentine reckoning",
+        "witness": "raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.49305-49311",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Denzinger and Mirbt print Cantate Domino as of 4 February 1441",
+        "witness": "denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.16804; mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.14485",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Eugenius's letter calls Andrew and Peter the deacon envoys of Constantine, emperor of the Ethiopians, or Prester John",
+        "witness": "raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.49240-49247",
+        "witness_kind": "acts",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Dillmann, as Perruchon reports, says the monks were sent by Nicodemus, head of the Ethiopian convent in Jerusalem, without the king's or patriarch's knowledge",
+        "witness": "zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893.txt l.578-582",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Perruchon, in his own text, speaks of the delegation sent by King Zara Yaqob to the council of Florence",
+        "witness": "zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893.txt l.552-553; zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893.txt l.673-674",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Perruchon says the Ethiopian chronicles say nothing of the embassy to Florence",
+        "witness": "zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893.txt l.668-675",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The oration of the patriarch Alphonsus Mendez (1626) says envoys came to Florence from the emperor and the patriarch, in Almeida's Portuguese; Ludolf's Latin has the metropolitan. They took Eugenius's letters back to Zara Yaqob, and the emperor David later said he still had them",
+        "witness": "ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt l.57416-57425; ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt l.56873-56877; almeida_historia-aethiopiae-liber-5-8-por_beccari1907.txt l.28117-28125; almeida_historia-aethiopiae-liber-5-8-por_beccari1907.txt l.28184; almeida_historia-aethiopiae-liber-5-8-por_beccari1907.txt l.28464-28468",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Ludolf's Commentarius denies that Zara Yaqob joined Rome at the council of Florence. The Jesuit fathers themselves, he says, show the king stood apart from the Roman church",
+        "witness": "ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt l.52403-52413; ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt l.52431-52444",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Ludolf's History, in its English of 1682, says no doubt is made of the embassy Zara Yaqob sent to Eugenius IV in 1439, toward the end of the council. The Ethiopian Gregory, it says, knew of it only from a painting at Rome",
+        "witness": "ludolf_new-history-of-ethiopia_jp1682.txt l.19489-19496",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Tellez's Jesuit history, in English, says Zara Yaqob wished to bring his empire to the Catholic faith and sent some of his Abyssinians to Eugenius IV",
+        "witness": "telles_travels-of-the-jesuits-in-ethiopia_1710.txt l.6272-6295",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Pope Innocent X's brief of 30 October 1645, as Beccari prints it, says King Zerah of Ethiopia sent envoys to Eugenius IV at the council of Florence, then held at Ferrara, to join the Ethiopian church to the Roman",
+        "witness": "mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt l.1414-1420; mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt l.1432-1440; mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt l.1450-1451",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Mendez's history says Portugal's kings learned of Prester John from Marco Polo's travels and from the report of monks who came to the Florentine synod",
+        "witness": "mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt l.6748-6750",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Almeida says, after Baronius and other authors, that some Ethiopians came with the Armenians at the end of the council, professed the Catholic faith and took back the letters of union. He says Eugenius's bulls reached Ethiopia in Zara Yaqob's time, but neither Zara Yaqob nor his successors changed or came out of the schism",
+        "witness": "almeida_historia-aethiopiae-liber-5-8-por_beccari1907.txt l.7658-7697",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Beccari, the modern editor of Mendez and Almeida, says historians know Zara Yaqob's obedience at Florence to be a fiction",
+        "witness": "mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt l.1420; mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt l.1456-1465",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Patrizi puts in April 1442 the session at Florence that moved the council to Rome",
+        "witness": "raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.51816-51840",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Mansi argues that session belongs to 1441",
+        "witness": "raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.49284-49302",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "In a Lateran session on 30 September 1444 Abdallah, archbishop of Edessa, accepted the faith for Ignatius, patriarch of the Syrians. The decree says he had read the Florentine decrees in Arabic",
+        "witness": "raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.59092-59112; raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.59288-59316",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Timothy, metropolitan of the Chaldeans of Cyprus, and Isaac for Elias, bishop of the Maronites, were received in a Lateran session. The bull Benedictus sit Deus, dated at St Peter's on 7 August 1445, gave them the rights of other Catholics",
+        "witness": "raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.62412-62437; raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.62665-62671",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Denzinger's heading dates the council of Florence 1438-1445",
+        "witness": "denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.1020-1025; denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.16425-16426",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Mansi's tomus 35 heading dates it 1438-1446, begun at Ferrara, continued at Florence and ended at Rome",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt l.185-187",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Chalkokondyles says the pope made Bessarion and Isidore cardinals",
+        "witness": "chalcocondyles_historiarum-libri-x-with-isidore-leonard-plusiadenos-pg159-grc-lat_migne1866.txt l.18226-18236",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Doukas says people asked the returning bishops 'Did we win?' and they answered 'We have sold our faith, we have traded piety for impiety'. Antony of Heraclea and others who signed spoke so",
+        "witness": "doukas_historia-byzantina-grc-lat_bekker1834.txt l.12134-12139",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Doukas says some bishops would not sign until paid",
+        "witness": "doukas_historia-byzantina-grc-lat_bekker1834.txt l.12144-12148",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Boulliau, Doukas's first editor, says Doukas held firmly to communion with the Catholic church. He blamed the Greeks who made the union insincerely, to win western help against the Turks",
+        "witness": "doukas_historia-byzantina-grc-lat_bekker1834.txt l.489-495",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Doukas calls the common people who treated the union as undone the dregs of the Greek nation",
+        "witness": "doukas_historia-byzantina-grc-lat_bekker1834.txt l.14324-14327",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Mark's letter to the faithful calls the unionists Graeco-Latins, half-beasts like the centaurs, and asks what union this is where no plain sign appears",
+        "witness": "john-ephesus_lives-eastern-saints-po17_brooks1923.txt l.38515-38523; john-ephesus_lives-eastern-saints-po17_brooks1923.txt l.38777-38782",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Mark wrote to Scholarios that church affairs were never put right by middle ways: between truth and falsehood there is nothing in between",
+        "witness": "gennadius-scholarius_opera-omnia-pg160-grc-lat_migne1866.txt l.99428-99434",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Mark wrote that the city was guarded in vain 'by the Pope's gold' and called the council the falsely named synod",
+        "witness": "gennadius-scholarius_opera-omnia-pg160-grc-lat_migne1866.txt l.99640-99666",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Petit says the new patriarch Metrophanes proclaimed the union in the islands in June and July 1440",
+        "witness": "john-ephesus_lives-eastern-saints-po17_brooks1923.txt l.17897-17904",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Mansi prints a 1443 decree of the patriarchs of Alexandria, Antioch and Jerusalem against Metrophanes and Florence. He thinks it a forgery by a Greek partisan",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt l.6060-6082",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Mouravieff says the other patriarchs met at Constantinople and condemned the acts of Florence",
+        "witness": "mouravieff_history-of-the-church-of-russia_blackmore1842.txt l.3834-3838",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Mouravieff says Mark alone did not sign, and that the emperor came home without help from any western ruler",
+        "witness": "mouravieff_history-of-the-church-of-russia_blackmore1842.txt l.3834-3843",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Mouravieff says Isidore had the acts proclaimed in the Dormition cathedral at Moscow, and Basil called him a traitor. The bishops rejected the pope as Vicar of Christ and the Filioque. Isidore escaped from the Chudov monastery",
+        "witness": "mouravieff_history-of-the-church-of-russia_blackmore1842.txt l.3843-3866",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Harasiewicz says Grand Prince Basil opposed the union in Moscow and Isidore went to Rome",
+        "witness": "harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt l.5206-5212",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Mouravieff says the Russian church was without a metropolitan for eight years after Isidore, until Jonah",
+        "witness": "mouravieff_history-of-the-church-of-russia_blackmore1842.txt l.3888-3897",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Leonard of Chios says the union was celebrated in Constantinople on 12 December 1452, if it was not feigned",
+        "witness": "chalcocondyles_historiarum-libri-x-with-isidore-leonard-plusiadenos-pg159-grc-lat_migne1866.txt l.54512-54518",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Doukas says Gennadios, once George Scholarios, posted a warning on his cell door, and that after the union people shunned Hagia Sophia like a synagogue",
+        "witness": "doukas_historia-byzantina-grc-lat_bekker1834.txt l.14222-14236; doukas_historia-byzantina-grc-lat_bekker1834.txt l.14728-14731",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The Roman history printed before the acts says the Greeks never received this council, which they call the eighth, apart from those who sat in it",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.46008-46015",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The Greek chronicle printed by Bekker calls Florence the eighth synod. It came to no good end because the bishop of Ephesus refused to sign and many quarreled again at home. For that reason no help was sent",
+        "witness": "historia-politica-et-patriarchica-constantinopoleos_grc-lat_bekker1849.txt l.530-541",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The chronicle printed by Bekker is the Historia politica of Constantinople, 1391 to 1578, printed with the patriarchal history",
+        "witness": "historia-politica-et-patriarchica-constantinopoleos_grc-lat_bekker1849.txt l.1-9; historia-politica-et-patriarchica-constantinopoleos_grc-lat_bekker1849.txt l.186-190",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "How Joseph II greeted the pope at Ferrara",
+        "sides": "He refused the foot-kiss and was received in the pope's chamber before the cardinals alone: Syropoulos (syropoulos_vera-historia-unionis-non-verae-grc-lat_creyghton1660.txt l.17860-17975). He kissed the standing pope's cheek, with no quarrel told: the Greek acts (mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.46748-46758).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Who among the Greeks refused or avoided signing",
+        "sides": "Mark alone: Doukas (doukas_historia-byzantina-grc-lat_bekker1834.txt l.12033-12036). Mouravieff, 1838 (mouravieff_history-of-the-church-of-russia_blackmore1842.txt l.3834). Mark refused, Isaias of Stauropolis slipped away, and neither Georgian envoy signed: Syropoulos (syropoulos_vera-historia-unionis-non-verae-grc-lat_creyghton1660.txt l.47668-47681; syropoulos_vera-historia-unionis-non-verae-grc-lat_creyghton1660.txt l.44060-44072). The printed list has no signature for Stauropolis (mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.96984-97420).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The day Patriarch Joseph II died",
+        "sides": "9 June 1439: the Greek acts (mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.94680-94684). 10 June: Syropoulos (syropoulos_vera-historia-unionis-non-verae-grc-lat_creyghton1660.txt l.45238-45240) and the notes to Doukas (doukas_historia-byzantina-grc-lat_bekker1834.txt l.32658-32662).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whether Joseph died before or after the union",
+        "sides": "After the union: Doukas (doukas_historia-byzantina-grc-lat_bekker1834.txt l.12087-12088). Before the signing: Syropoulos (syropoulos_vera-historia-unionis-non-verae-grc-lat_creyghton1660.txt l.45229-45232) and the notes to Doukas (doukas_historia-byzantina-grc-lat_bekker1834.txt l.32658-32664).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The day of Basel's first session",
+        "sides": "Friday 7 December 1431: Glassberger (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.20474-20476). 14 December: his Quaracchi editors, after Hergenröther and Brück (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.20494).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The date of the bull moving the council to Ferrara",
+        "sides": "18 September 1437 (XIV kal. Octobris): Raynaldus (raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.33182-33184) and Mansi (raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.31586-31596). 1 October (kal. Octobris): the acts printed by Justiniani, as Mansi reports them (raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.31589-31592).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The weekday of the solemn opening with the Greeks, 9 April 1438",
+        "sides": "Wednesday of Holy Week: the Greek acts (mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.46856-46860). Tuesday of Holy Week: Petit (patrologia-orientalis-tomus15_petit-documents-concile-de-florence-purgatoire-grc-fra_graffin-nau1927.txt l.304).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Who wrote the Greek acts",
+        "sides": "Dorotheos of Mitylene, in Petit's brackets (patrologia-orientalis-tomus15_petit-documents-concile-de-florence-purgatoire-grc-fra_graffin-nau1927.txt l.325-327). Mansi and the file give no author (mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.46705-46718).",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "The count at Basel's deposition session",
+        "sides": "Seven bishops only: Raynaldus (raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.42626-42628). Aeneas Silvius, as Raynaldus quotes him: no Spanish or Aragonese prelate, and from Italy only the bishop of Grosseto and an abbot. Twenty were borrowed from two other nations (raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.42118-42131). Both come through the papal side. No count from Basel is held.",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The year the council moved to Rome",
+        "sides": "April 1442: Patrizi, quoted by Raynaldus (raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.51816-51840). 1441: Mansi (raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.49284-49302).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "When the council ended",
+        "sides": "1445: Denzinger's heading (denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.16425-16426). 1446: Mansi's tomus 35 heading (mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt l.185-187). No held act names a closing session.",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The date of the Armenian decree",
+        "sides": "22 November 1439: the decree's own dating clause (mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.99090-99098; raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.52410-52416). 10 December: Raynaldus's narrative of the session (raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.39768-39771).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The year of the Coptic decree Cantate Domino",
+        "sides": "4 February 1441: Denzinger and Mirbt, by the Florentine year (denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.16804; mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.14485). 4 February 1442: Mansi, by modern reckoning (raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.49305-49311). The day agrees. Only the year-count differs.",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "How many Armenian envoys came",
+        "sides": "Four vardapets: Issaverdens (issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt l.7338-7353). Two named in the catholicos's mandate, Sargis and Joachim: Raynaldus (raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.39748-39756). A mandate and a party need not match.",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The Georgian party",
+        "sides": "Two bishops and an envoy: Syropoulos (syropoulos_vera-historia-unionis-non-verae-grc-lat_creyghton1660.txt l.9398-9404). One bishop and one lay prince: Syropoulos later (syropoulos_vera-historia-unionis-non-verae-grc-lat_creyghton1660.txt l.43930-43938).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Who sent the Ethiopian envoys",
+        "sides": "The emperor, called Constantine: Eugenius's letter (raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.49240-49247). Zara Yaqob: Patrizi, as Mansi reports (raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.49290-49296; raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.51822-51826). Perruchon, in his own text (zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893.txt l.552-553; zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893.txt l.673-674). Zara Yaqob, in 1439, toward the council's end, beyond doubt: Ludolf's History, English of 1682 (ludolf_new-history-of-ethiopia_jp1682.txt l.19489-19496). Zara Yaqob: Tellez, in English (telles_travels-of-the-jesuits-in-ethiopia_1710.txt l.6272-6295). King Zerah: Innocent X's brief of 1645 (mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt l.1432-1440; mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt l.1450-1451). The emperor and the patriarch (Almeida's Portuguese, almeida_historia-aethiopiae-liber-5-8-por_beccari1907.txt l.28464-28468), or the metropolitan (Ludolf's Latin, ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt l.57416-57425), and the emperor David later still had Eugenius's letters: the oration of Alphonsus Mendez. Nicodemus, head of the Ethiopian convent in Jerusalem, without the king's knowledge: Dillmann, as Perruchon reports (zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893.txt l.578-582). Consistent with it, monks who came to the synod: Mendez's history (mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt l.6748-6750). Some Ethiopians came with the Armenians at the council's end, no sender named: Almeida (almeida_historia-aethiopiae-liber-5-8-por_beccari1907.txt l.7658-7697). Zara Yaqob did not join Rome at the council and stood apart from it: Ludolf's Commentarius (ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt l.52403-52413; ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt l.52431-52444). Zara Yaqob's obedience at Florence is a fiction: Beccari (mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt l.1420; mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt l.1456-1465).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The 1443 synod of the eastern patriarchs against Florence",
+        "sides": "Printed by Mansi, who thinks it forged by a Greek partisan, since Sphrantzes and others do not mention it (mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt l.6060-6082). Told as fact by Mouravieff, 1838 (mouravieff_history-of-the-church-of-russia_blackmore1842.txt l.3834-3838).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whether money bought the Greek signatures",
+        "sides": "Some archbishops would not sign until paid: Doukas, on the union's side (doukas_historia-byzantina-grc-lat_bekker1834.txt l.12144-12148). Mark says they were lured by promises and gifts (john-ephesus_lives-eastern-saints-po17_brooks1923.txt l.38155-38160). No money was asked or promised at the signing: Syropoulos (syropoulos_vera-historia-unionis-non-verae-grc-lat_creyghton1660.txt l.47648-47656).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Why the Greeks came: union in exchange for military help",
+        "sides": "A witness's view, not a term of any decree. The city guarded by the Pope's gold: Mark (gennadius-scholarius_opera-omnia-pg160-grc-lat_migne1866.txt l.99660-99666). No help sent afterwards: the Greek chronicle printed by Bekker (historia-politica-et-patriarchica-constantinopoleos_grc-lat_bekker1849.txt l.539-541). No western ruler helped: Mouravieff (mouravieff_history-of-the-church-of-russia_blackmore1842.txt l.3838-3843). Turkish pressure: the Roman history (mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.45847-45852). Manuel II's advice: the Turks feared a union, so keep the council in mind, but do not hold it, for fear of a worse schism. The chronicle under Sphrantzes's name (sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838.txt l.10236-10254). The decree states no bargain (mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.14262-14300).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whether Basel remained a council after the transfer",
+        "sides": "No: Glassberger's editors (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.21233-21238). The Fifth Lateran Council (mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.15132-15140). Ferrara's decree (raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.35524-35538). Yes: the Lausanne synod's decree (mansi_sacrorum-conciliorum-collectio-tomus-32-1438-1549-lat_welter-facsimile1901.txt l.6988-6996). Eugenius in 1446 received Basel up to the transfer (denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.16216-16221).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The force of Basel's Immaculate Conception definition",
+        "sides": "Defined by Basel in session (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.21183-21185). Never binding, since not the act of a lawful council: Glassberger's Quaracchi editors (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.21233-21238).",
+        "formation_confidence": "Contested"
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Basel's session acts (Mansi, tomi 29 and 30)",
+        "note": "Not held. Searched the Library for Mansi tomi (29 and 30 absent) and grepped all texts for Basel council phrases. Mansi's tomus 31 prints some of Basel's own documents: letters, the Compacts with the Bohemians, John of Ragusa's report and bulls of Felix V. The rest reaches us in quotation (Raynaldus, Glassberger, Mirbt's Pragmatic Sanction and Mansi 32's Lausanne decrees)."
+      },
+      {
+        "detail": "A roll of Basel's members at any time",
+        "note": "Not held. The only counts are Mansi's note on the opening and Raynaldus's and Aeneas's on the deposition session."
+      },
+      {
+        "detail": "Syropoulos on the patriarch's note being written for him",
+        "note": "No held line. The dossier searched Syropoulos's Latin around l.44000-48500 for terms for a note, will or writing, and read the death passage l.45180-45252. Nothing found. The Greek is garbled and was not searched."
+      },
+      {
+        "detail": "The day of Basel's suspension of Eugenius (session XXXI)",
+        "note": "Not in a held line. Glassberger names the session without a day (glassberger l.21065-21068)."
+      },
+      {
+        "detail": "Felix V's election day from a second witness",
+        "note": "Only Glassberger gives 17 November 1439. Searched Raynaldus 1439-1440 for Novemb/Octob, Mansi 31 l.1-45700 for Amedeus, Savoy and Novembr, and Mansi 32 l.5800-7200. None gives the day."
+      },
+      {
+        "detail": "A Coptic-side witness to the union of 1442",
+        "note": "Renaudot's history of the Coptic patriarchs was searched for Eugenius, Florence, Andrew the abbot and the years 1439-1442. Nothing on Florence. Only Roman texts hold it."
+      },
+      {
+        "detail": "An Ethiopian-side witness",
+        "note": "Perruchon says the chronicles of Zara Yaqob say nothing of Florence (zara-yaqob l.668-675). Ludolf's Commentarius (1691) and his History in English (1682) were read in context. So were Tellez, Almeida and Mendez, with Beccari's introduction and Innocent X's brief. None is an Ethiopian text of the time."
+      },
+      {
+        "detail": "An Armenian text of 1439",
+        "note": "Not held. The Armenian envoys' address is held only in Latin (Mansi 35). Chamich has one line and Issaverdens a short account."
+      },
+      {
+        "detail": "A Russian text of the time on the rejection",
+        "note": "Not held. The rejection rests on Mouravieff (1838, English 1842) and Harasiewicz (1862)."
+      },
+      {
+        "detail": "The Armenian envoys' names in the decree",
+        "note": "Searched Mansi 31 for Armen. The decree does not name them. Raynaldus names two from the catholicos's mandate."
+      },
+      {
+        "detail": "Bernardino of Siena or John of Capistrano at the council",
+        "note": "No held line puts either at Ferrara or Florence (searched Glassberger l.20985-21250). Raynaldus quotes Capistrano's tract against the deposition, but his attendance is not shown."
+      },
+      {
+        "detail": "The day the Greeks reached Constantinople on their return",
+        "note": "The notes to Doukas give 1 February, but the year digits are garbled in our copy (doukas l.32665-32667). Not given in the entry."
+      }
+    ]
+  }
+}
