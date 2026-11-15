@@ -1868,13 +1868,6 @@ ACCEPTED_OPEN: tuple[Waiver, ...] = (
         "their wording waits on Mark.",
     ),
     Waiver(
-        "relations-summary-release-45",
-        ("cft-website/index.html",),
-        re.compile(r'^\s*"relationsSummary":'),
-        "Release 45 (PR #1679, claude/cft-story-relations-cleanup) rewrites every relationsSummary; "
-        "this waiver comes off when it merges.",
-    ),
-    Waiver(
         "census-builder-wording",
         ("cft-website/index.html", "cic-website/data/world-census.json", "cft-website/tree/*.html"),
         re.compile(

@@ -1,0 +1,11 @@
+source_file: lambeth-conference_1930-encyclical-letter-resolutions-and-reports_spck1930.txt
+assignments:
+- row_id: lambeth-conference_1930-encyclical-letter-resolutions-and-reports_spck1930--lambeth-conference-1930-encyclical-letter-resolutions-and
+  work: 'Lambeth Conference 1930: Encyclical Letter, Resolutions and Reports'
+  author: lambeth-conference
+  locus: 'the Encyclical Letter, lines 1760-2703; the Resolutions, lines 2737-4089; Resolution 15, lines 3010-3030'
+  atlas_ids:
+  - the-anglican-communion-twentieth-century
+  role: tradition
+  confidence: assigned
+  note: 'The conference''s own printed acts.'

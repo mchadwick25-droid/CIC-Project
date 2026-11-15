@@ -1,0 +1,12 @@
+source_file: congress-christian-work-latin-america_panama-1916-v2_1917.txt
+assignments:
+- row_id: congress-christian-work-latin-america_panama-1916-v2_1917--christian-work-in-latin-america-panama-congress-1916-volume
+  work: 'Christian Work in Latin America (Panama Congress 1916), volume 2'
+  author: congress-christian-work-latin-america
+  locus: 'whole'
+  atlas_ids:
+  - protestantism-in-latin-america
+  - the-student-volunteer-movement-and-edinburgh-191
+  role: tradition
+  confidence: assigned
+  note: 'The congress''s own printed report; mostly the mission boards'' voice, with Latin American speakers in volume 3.'

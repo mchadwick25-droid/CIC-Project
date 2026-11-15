@@ -22,3 +22,35 @@ works:
     formation_confidence: Documented
   note: 'Era 9 row 215, Washington Gladden: Applied Christianity.'
   source_file: gladden_applied-christianity_9th-ed1897.txt
+- row_id: niebuhr_moral-man-and-immoral-society_1936--niebuhr-moral-man-and-immoral-society-for-the-social-gospel
+  work: Niebuhr, Moral Man and Immoral Society, for the Social Gospel shelf
+  author: niebuhr
+  locus: whole
+  role: context
+  confidence: needs-ruling
+  note: A critic's voice, written in 1932, after that entry's window closes in 1918.
+  source_file: niebuhr_moral-man-and-immoral-society_1936.txt
+- row_id: rauschenbusch_theology-for-the-social-gospel_1917--rauschenbusch-a-theology-for-the-social-gospel
+  work: Rauschenbusch, A Theology for the Social Gospel
+  author: rauschenbusch
+  locus: whole
+  role: tradition
+  confidence: assigned
+  note: His own book, first printing.
+  source_file: rauschenbusch_theology-for-the-social-gospel_1917.txt
+- row_id: rauschenbusch_christianity-and-the-social-crisis_1911--rauschenbusch-christianity-and-the-social-crisis
+  work: Rauschenbusch, Christianity and the Social Crisis
+  author: rauschenbusch
+  locus: whole
+  role: tradition
+  confidence: assigned
+  note: His own book, in a 1911 printing of the 1907 text.
+  source_file: rauschenbusch_christianity-and-the-social-crisis_1911.txt
+- row_id: rauschenbusch_christianizing-the-social-order_1919--rauschenbusch-christianizing-the-social-order
+  work: Rauschenbusch, Christianizing the Social Order
+  author: rauschenbusch
+  locus: whole
+  role: tradition
+  confidence: assigned
+  note: His own book, in a 1919 printing of the 1912 text.
+  source_file: rauschenbusch_christianizing-the-social-order_1919.txt

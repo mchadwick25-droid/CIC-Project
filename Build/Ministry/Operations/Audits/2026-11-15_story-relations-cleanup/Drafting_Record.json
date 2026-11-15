@@ -1,0 +1,436 @@
+[
+ {
+  "id": "silesian-childrens-prayer-revival",
+  "new": "The revival links to Herrnhut through Teschen. Many of the evangelical refugees Zinzendorf received from 1722 had been awakened by Pastor Johann Adam Steinmetz at Teschen's Jesus Church, the congregation this revival helped bring into being. No one has shown that a child of 1707-08 reached Herrnhut. The line runs through Teschen's evangelical life in the years after, not through a handoff between two named groups.",
+  "kept": "Herrnhut -> Teschen/Steinmetz line; hedge that no individual link is established (kept as hedge).",
+  "dropped": "'(VIII.4)' lane label; 'real and nameable, not just a shared milieu' (process framing); 'isn't established here' reworded to 'No one has shown'.",
+  "checks": "Herrnhut longDescription confirms 1722 arrival of refugees. Steinmetz/Teschen not in census; claim is the old text's own and is unverified against the census."
+ },
+ {
+  "id": "plinys-two-ministrae",
+  "new": "The Scattered Households tell this story in their own account: Pliny questioned two enslaved women who held office among the believers. Third-Century Anatolia, centered on Neocaesarea in Pontus and Olympus in Lycia, is the church of nearby Asia Minor about 130 years later.",
+  "kept": "post-apostolic-house-church -> narrates the story; anatolian-church-third-century -> later church of the region (c. 240-312).",
+  "dropped": "'The same province's church' (wrong: Pontus and Lycia, not Bithynia); 'its record does not mention Pliny' (record claim); 'No movement record narrates the two women' (false).",
+  "checks": "jq on post-apostolic-house-church longDescription: names Pliny the Younger, c. 112, 'two enslaved women who held office among them - titled ministrae, deacons'. anatolian-church-third-century region field: 'Neocaesarea in Pontus, Olympus in Lycia'; description does not mention Pliny. 'Nearby Asia Minor' is deliberately loose."
+ },
+ {
+  "id": "blandina-and-the-martyrs-of-lyon",
+  "new": "The Lyon church's letter also carried the confessors' opinion on the New Prophecy to Bishop Eleutherus of Rome (Eusebius, Church History 5.3.4). That is a documentary link to Montanism. Irenaeus, who succeeded Pothinus as bishop, later wrote against the Gnostic teachers and Marcion.",
+  "kept": "Montanism via the letter to Eleutherus; Irenaeus as successor to Pothinus and opponent of Gnostic Currents and Marcion.",
+  "dropped": "'Placed at 3.5' lane reasoning (Greek in language, Latin province, later Greek-Catholic seam); claim that the Marcion, Valentinian and Montanist records all cite Irenaeus as main hostile source (record claim, not supported).",
+  "checks": "jq grep: Irenaeus appears only in the Valentinian/Gnostic record ('alarmed bishops like Irenaeus'), not in Marcion or Montanism records. So the old 'all three cite him' was wrong; I rest the sentence on Irenaeus's own history, not on our records. Not verified in census."
+ },
+ {
+  "id": "perpetua-and-felicity",
+  "new": "Tertullian cites Perpetua's vision in On the Soul (55) within a few years of her death, a direct textual link. The Passio opens by defending new visions and prophecies, so some scholars read it beside Montanism. The Latin Pastoral tradition begins in the 240s, a generation later, in the same city.",
+  "kept": "Tertullian (direct textual link), Montanism (scholarly reading, hedged as 'some scholars'), Latin Pastoral (same city, a generation later).",
+  "dropped": "'whose record sits at tertullian-s-voice (c. 197-220)'; 'neither record narrates her'; 'De Anima' Latin title swapped for English.",
+  "checks": ""
+ },
+ {
+  "id": "abercius-epitaph",
+  "new": "Phrygia was the home of the New Prophecy. The epitaph's insistence on 'the same faith everywhere' has often been read as a mainstream Phrygian bishop's answer to it, though that link is plausible and unproven. Nisibis, the far end of his journey, belongs to Syriac Edessa, a tradition that begins around the same date.",
+  "kept": "Montanism (hedge kept: plausible but unproven); Syriac Edessa via Nisibis. Third-Century Anatolia is linked on the card but the old text did not connect it, so no sentence added.",
+  "dropped": "Slugs and 'whose record begins'.",
+  "checks": ""
+ },
+ {
+  "id": "abitinian-martyrs",
+  "new": "This is the documented seed of Donatism. The Abitinians refused communion with a bishop who had handed over the scriptures under persecution, and that is the issue the Donatist dispute turned on. Latin Pastoral is the same North African congregational world, under Cyprian and Augustine.",
+  "kept": "Donatism as the seed; the communion-with-a-traditor-bishop issue; Latin Pastoral as the same world.",
+  "dropped": "'that record never names Abitinae or Saturninus' (record claim); 'traditor' glossed in plain words; 'exact issue' softened.",
+  "checks": ""
+ },
+ {
+  "id": "forty-martyrs-of-sebaste",
+  "new": "Basil and Gregory of Nyssa, whose homilies are the earliest sources, are central figures of the Cappadocians (c. 325-394). Sebaste lay in Lesser Armenia, so Armenia is the neighboring national church. The Forty were Roman soldiers, not Armenian converts.",
+  "kept": "Cappadocians via Basil and Gregory; Armenia as neighbor; limit about Roman soldiers kept.",
+  "dropped": "'that record mentions their own martyr Eupsychius but not the Forty' (record claim).",
+  "checks": "jq: Cappadocian description does mention Eupsychius (martyred under Julian, 362) - dropped anyway."
+ },
+ {
+  "id": "julians-galileans",
+  "new": "This is the Christian church as seen by its last imperial opponent, and it falls inside the years of Church & Empire (c. 312-451). The Cappadocians mention Julian as the emperor under whom their martyr Eupsychius was put to death.",
+  "kept": "Church & Empire window; Cappadocians via Julian and Eupsychius.",
+  "dropped": "'squarely', 'which the map places at 3.5', 'does not mention Julian's charity order' and all lane placement reasoning ('rather than with either later lane').",
+  "checks": "jq: cappadocian description says 'Eupsychius of Caesarea, who was put to death under the emperor Julian in 362' - confirmed."
+ },
+ {
+  "id": "moses-the-ethiopian",
+  "new": "Moses belongs to the world of the Desert: Scetis, Macarius and the Sayings. A formerly enslaved African who became an abba widens the picture of who lived in that world.",
+  "kept": "Desert via Scetis, Macarius and the Sayings. Church of Alexandria is linked on the card but the old text did not connect it, so no sentence added.",
+  "dropped": "'that record's description of the Sayings genre fits him exactly, but it does not name him'; 'he is included here because'; 'precisely the kind of figure that record's summary passes over' (all process / record claims).",
+  "checks": ""
+ },
+ {
+  "id": "fabiolas-hospital",
+  "new": "Fabiola belongs to the circle around Jerome: Paula, Marcella, Eustochium and Pammachius. The giving away of senatorial fortunes is her story too. Basil's hospital complex outside Caesarea, built after the famine of 368, is the eastern precedent against which Jerome's 'first' hospital has to be measured.",
+  "kept": "Bethlehem Circle membership; Cappadocians via Basil's hospital complex as precedent.",
+  "dropped": "'does not name her or the hospital' (record claim); 'Basiliad' (internal-sounding term) replaced by description.",
+  "checks": "jq: Cappadocian description: 'After the famine of 368, he built a complex outside Caesarea with a hospital, a hostel, and a workhouse.' The word Basiliad is not in the census; old text's wording was not data-backed. Bethlehem record 'senatorial fortunes' not re-checked."
+ },
+ {
+  "id": "olympias-the-deaconess",
+  "new": "Olympias was the closest lay collaborator of John Chrysostom, the central figure of Antioch (c. 350-430), and his Constantinople years and exile frame her story. Her monastery beside the Great Church makes her a precursor of the urban women's communities of the Iconophiles, four centuries later. That is a lineage of place, not of documented influence.",
+  "kept": "Chrysostom collaboration; Iconophile lineage with its limit.",
+  "dropped": "'but it does not name her'.",
+  "checks": ""
+ },
+ {
+  "id": "simeon-on-the-pillar",
+  "new": "His biographer Theodoret was a man of Antioch, so the nearest tradition is Antioch under Chrysostom's heirs (c. 350-430). After 451 both the Syriac Orthodox and the Chalcedonian church of Antioch claimed Simeon. His language, origin and disciples were Syriac, yet his own church was Antioch's and he backed Chalcedon.",
+  "kept": "Antioch via Theodoret; dispute between Syriac Orthodox and Chalcedonians; the case for each side.",
+  "dropped": "'He's placed here on the Syriac side of the map', 'placing him on the... side would be equally defensible' (lane placement process). Judean Desert is linked but old text did not connect it; no sentence added.",
+  "checks": ""
+ },
+ {
+  "id": "genevieve-of-paris",
+  "new": "Geneviève stands at the opening of Merovingian Gaul (c. 480-620), whose cast is Clovis, Clotilde and the Gallo-Roman bishops. The Germanus who blessed her is Germanus of Auxerre, whose mission to Britain belongs to the British Church.",
+  "kept": "Merovingian Gaul; British Church via Germanus.",
+  "dropped": "'but that record does not mention her'; 'names Radegund as the era's queen-founder' (record claim, tangential).",
+  "checks": ""
+ },
+ {
+  "id": "severinus-of-noricum",
+  "new": "Severinus lived in the Danubian world whose one earlier Christian voice is Victorinus of Poetovio (c. 250-400, The Danube Provinces). That tradition ends before Severinus, and he shows what became of the province's church after it. The Rugian kings he dealt with were Homoian Christians, the world of the Gothic Homoians.",
+  "kept": "Danube Provinces (Victorinus, ends before Severinus); Gothic Homoians via the Rugian kings. Benedictines linked on the card, not connected in the old text.",
+  "dropped": "'explicitly', 'whose only earlier voice the map records' recast as plain fact.",
+  "checks": "jq: danubian-latin-christianity dates c. 250-400 and describes Victorinus; consistent."
+ },
+ {
+  "id": "cassiodorus-vivarium",
+  "new": "Cassiodorus was a contemporary of Benedict of Nursia and lived in the Italy of the Benedictines (c. 500-604). The two projects, Benedict's rule for living and Cassiodorus's rule for reading, are usually told together. The Nisibis school he had wanted to imitate belongs to Syriac Edessa.",
+  "kept": "Benedictines as contemporaries; Syriac Edessa via Nisibis.",
+  "dropped": "'exact', 'that record names only Benedict and Gregory' (record claim).",
+  "checks": ""
+ },
+ {
+  "id": "masona-of-merida",
+  "new": "Masona's story is the immediate prehistory of Visigothic Iberia (c. 560-711). That tradition opens with King Reccared's conversion at Toledo III in 589, the event that ended Masona's exile. The Arian king who exiled him belongs to the world of the Gothic Homoians.",
+  "kept": "Visigothic Iberia as prehistory; Reccared/Toledo III; Gothic Homoians via the Arian king.",
+  "dropped": "'names Isidore, Leander and Braulio but not Masona' (record claim).",
+  "checks": "jq: Visigothic record includes 'King Reccared announced his own conversion'. That Toledo III in 589 ended Masona's exile is the old text's claim, not checked in census."
+ },
+ {
+  "id": "john-the-almsgiver",
+  "new": "John was the Chalcedonian ('Melkite') patriarch of a city whose church this map otherwise follows through its Coptic majority: the Church of Alexandria to 642, then Coptic Egypt. He stands for the minority church there just before the Arab conquest. The Jerusalem he relieved belongs to the Jerusalem pilgrimage tradition. The emperor who appointed him was Heraclius, of the Byzantine imperial church of 622-843.",
+  "kept": "Both Egyptian traditions; Jerusalem; Heraclius/Byzantine church.",
+  "dropped": "'None of those records names him'; internal label 'Byzantine Church II' replaced by description with dates.",
+  "checks": ""
+ },
+ {
+  "id": "caedmons-hymn",
+  "new": "Cædmon belongs inside Anglo-Saxon England (597-793). Hild and Whitby are among that tradition's voices, and Bede is its named source. The Whitby double house had Irish roots, since Hild was formed under Aidan, which ties it to Ireland & Iona.",
+  "kept": "Anglo-Saxon England; Ireland & Iona via Hild/Aidan.",
+  "dropped": "'the record uses Whitby for the synod of 664... never mentions Caedmon' (record claim).",
+  "checks": ""
+ },
+ {
+  "id": "hugeburc-of-heidenheim",
+  "new": "Hugeburc belongs to the Anglo-Saxon mission in Germany, whose best-known figures are Boniface and Leoba. Few women of that mission left writing: Leoba's single letter survives, and Hugeburc wrote two full Lives. Willibald's stay at Monte Cassino links her text to the Benedictines.",
+  "kept": "Anglo-Saxon England via the mission; Benedictines via Monte Cassino; contrast Leoba/Hugeburc.",
+  "dropped": "'specifically notes Leoba's single surviving letter... in her own name' and 'the exception that record does not know about' (record claims). Note: Hugeburc hid her name in a cipher, so 'in her own name' was dropped as it would mislead.",
+  "checks": ""
+ },
+ {
+  "id": "kassia-the-hymnographer",
+  "new": "Kassia corresponded with Theodore the Studite, the central figure of the Iconophiles (726-843), and her flogging belongs to the resistance that tradition describes. Her convent's foundation after 843 opens the period of Macedonian Byzantium (843-1054).",
+  "kept": "Theodore the Studite; Iconophile resistance; Macedonian Byzantium.",
+  "dropped": "'exactly'; 'names Theodore and Stephen the Younger but no woman' (record claim).",
+  "checks": ""
+ },
+ {
+  "id": "hrotsvitha-of-gandersheim",
+  "new": "The map has no Ottonian German tradition, so the links here are neighbors only. The Benedictine Reform of Late Anglo-Saxon England (c. 793-1066) was a contemporary of the learning at Gandersheim, and so was Cluny (909-1109). Gandersheim itself was a house of secular canonesses, not a reformed Benedictine convent.",
+  "kept": "Late Anglo-Saxon; Cluny; limit on Gandersheim.",
+  "dropped": "'No record names her'; 'exact contemporary'.",
+  "checks": ""
+ },
+ {
+  "id": "peace-of-god",
+  "new": "Odilo, abbot of Cluny, 'lent his weight to efforts to limit private warfare.' That effort is the Truce of God. The knightly ethic the Peace of God tried to create fed into the Military Orders a century later.",
+  "kept": "Cluny via Odilo; Military Orders a century later. The Papal Church is linked but not connected in the old text.",
+  "dropped": "'the only trace of this movement anywhere in the file; the Peace itself... is not narrated' (record claim).",
+  "checks": "jq: Cluny description: 'Odilo spread the commemoration of all the dead on 2 November and lent his weight to efforts to limit private warfare' - quote confirmed verbatim, it is the connection."
+ },
+ {
+  "id": "christina-of-markyate",
+  "new": "Christina is the earliest well-documented English anchoress. She is a direct ancestor of the English Mystics (c. 1330-1440): Julian of Norwich's cell is the same institution two centuries later. The bishop who persecuted her and the abbey that protected her are the ordinary machinery of the Papal Church (c. 1049-1300).",
+  "kept": "English Mystics lineage; Papal Church machinery.",
+  "dropped": "'that record begins with Rolle and does not reach back to her'.",
+  "checks": ""
+ },
+ {
+  "id": "hildegard-preaches",
+  "new": "Bernard of Clairvaux's support at Trier in 1147 is a documented link to the Cistercians. Her Cologne sermons against the Cathars put her beside them as a contemporary opponent. She founded houses but no order. The Rhineland Mystics begin about a century and a half after her.",
+  "kept": "Cistercians via Bernard; Cathars; Rhineland Mystics timing.",
+  "dropped": "'this map otherwise has no Hildegard at all' (map-coverage process).",
+  "checks": "jq: Cistercian record names Bernard of Clairvaux (arrived 1113). Hildegard facts are the old text's own."
+ },
+ {
+  "id": "great-alleluia-1233",
+  "new": "The preachers were friars of the first generation after their founders, a direct link to the Franciscans (1209-1300) and the Dominicans (1216-1300). The revival's successor was the flagellant outbreak of 1260. Both belong to northern Italy's lay confraternity culture, the world of the Humiliati.",
+  "kept": "Franciscans, Dominicans, successor flagellants, lay-piety world of Humiliati.",
+  "dropped": "'neither of whose records mentions the revival'; 'drafted separately below'. Changed 'produced the-humiliati's lay-piety world' (Humiliati date from c. 1170, before 1233, so 'produced' cannot be right).",
+  "checks": "jq: Humiliati dates c. 1170-1300 in the card data. Old causal claim was wrong; softened to belonging to the same lay world."
+ },
+ {
+  "id": "juliana-and-corpus-christi",
+  "new": "Liège in the 1240s was the heartland of the Beguines. Marie d'Oignies came from the same diocese, and Juliana and her companion Eve belonged to the same semi-religious women's world. The friars who carried her cause were Dominicans.",
+  "kept": "Beguines; Dominicans.",
+  "dropped": "'whose record names Marie d'Oignies... without naming either' (record claims).",
+  "checks": "jq: Beguines record has no mention of Oignies or Liège-specific names; old 'record names Marie d'Oignies' was wrong. Kept Marie as history only; unverified in census."
+ },
+ {
+  "id": "flagellants-of-1260",
+  "new": "The Joachimites had fixed on 1260 as the year the new age would open. The flagellants were the popular response of that year. Their immediate precursor was the Great Alleluia of 1233, and the lay confraternities they created are the Disciplinati world of late-medieval Italian piety.",
+  "kept": "Joachimites; Great Alleluia precursor; Disciplinati confraternities. Franciscans linked, not connected in old text.",
+  "dropped": "''1260 came and went' but does not mention...' (record claim); 'drafted above'.",
+  "checks": "jq: Joachimite record: 'The current then fixed on 1260 as the year the new age would open.' Confirmed."
+ },
+ {
+  "id": "ramon-llull",
+  "new": "Miramar was a Franciscan house, and Llull's mission theory shaped the order's later approach. So the Franciscan Order of 1300-1517 and the Franciscan movement of 1209-1300 are his nearest neighbors. The Vienne decree of 1311 belongs to the Papal Church of 1300-1517. He was a lay missionary with no institution of his own.",
+  "kept": "Franciscan neighbors; Vienne decree; limit that he founded nothing.",
+  "dropped": "'Franciscans II', 'The Papal Church II' labels; 'though neither names him directly' and 'which is why he appears here as a story rather than as his own entry' (process).",
+  "checks": ""
+ },
+ {
+  "id": "bianchi-of-1399",
+  "new": "The Bianchi belong to the lay world of Parish Piety (c. 1400-1517), though that tradition is English and built from churchwardens' accounts. They came a generation before the friars' great sermon cycles of the Observants (c. 1368-1517). The split papacy behind them is the Papal Church of 1300-1517.",
+  "kept": "Parish Piety with its English limit; Observants timing; split papacy.",
+  "dropped": "'neither names the Bianchi'; 'The Papal Church II' label.",
+  "checks": ""
+ },
+ {
+  "id": "joan-of-arc",
+  "new": "Her judges were Paris theologians of the Papal Church of 1300-1517. Her 1430 letter threatening to come and fight the Hussites is an odd but documented point of contact with them. She founded nothing and joined nothing.",
+  "kept": "Papal Church judges; Hussite letter (hedge 'odd but documented' kept); no-institution limit.",
+  "dropped": "'neither record mentions her'; 'which is exactly why she is a story marker'.",
+  "checks": ""
+ },
+ {
+  "id": "drummer-of-niklashausen",
+  "new": "He was the lay, illiterate, unauthorized shadow of the Observant friars, whose sermon cycles are recorded under the Observants. His program anticipated the Bundschuh risings and the Peasants' War, which the Anabaptists and Wittenberg inherited fifty years later.",
+  "kept": "Observants; Anabaptists and Wittenberg via the Peasants' War. Parish Piety linked, not connected in old text.",
+  "dropped": "'which records the friars' sermon cycles but not this counter-movement'; 'No record names him'.",
+  "checks": ""
+ },
+ {
+  "id": "bruder-klaus-at-stans",
+  "new": "Bruder Klaus was a layman of the same generation and region as the Observant preachers and the Parish Piety world. The Confederation he held together produced the Reformed cities of Zurich and Geneva fifty years later, and Zwingli and the Catholic cantons both later claimed him.",
+  "kept": "Observants and Parish Piety by generation; Zurich & Geneva; rival claims.",
+  "dropped": "'in neither of which he appears'.",
+  "checks": "Geneva was not in the Swiss Confederation in 1530; old text's 'Confederation... produced Zurich & Geneva' is loose for Geneva. Flagged in report."
+ },
+ {
+  "id": "montesinos-advent-sermon",
+  "new": "This is the documented beginning of the argument over conquest and mission. It runs under the Spanish-American part of Mission-Born Christianities, where conquest and mission arrived together, and under the Catholicism of New Spain and Peru. Montesinos preached as a Dominican, in the line of the order's founding purpose: a community that preached.",
+  "kept": "Mission-Born; New Spain & Peru; Dominicans.",
+  "dropped": "'neither of which names Montesinos, Las Casas or Burgos' (record claim).",
+  "checks": "Not rechecked that Mission-Born says 'conquest and mission arrived together'; kept as the old text's reading."
+ },
+ {
+  "id": "anne-askew",
+  "new": "Anne Askew died in 1546, the last year of Henry VIII, before England's turn toward Protestantism. Her circle around Catherine Parr and her sacramentarian views make her a forerunner of the Marian martyrs and of the world the Puritans later drew on.",
+  "kept": "English Reformation window; Marian martyrs; Puritans.",
+  "dropped": "'whose record describes the swing toward Protestantism only after 1547 and does not name her' (record claim).",
+  "checks": ""
+ },
+ {
+  "id": "walatta-petros",
+  "new": "Walatta Petros was a leader of the revolt that Ethiopia's Ordeal describes as 'so fierce that he abdicated': Emperor Susenyos gave up the throne in 1632. The Jesuit side of the story belongs to the Jesuits.",
+  "kept": "Ethiopia's Ordeal via the revolt; Jesuits.",
+  "dropped": "'exactly'; 'names Susenyos, the Jesuits and Fasilides but no Ethiopian resister by name, and no woman'.",
+  "checks": "jq: record says 'a revolt so fierce that he abdicated in 1632'. Quote and 1632 verified. "
+ },
+ {
+  "id": "little-gidding",
+  "new": "Little Gidding lived the Laudian, Prayer-Book world of the English Reformation at household scale. The 'Arminian Nunnery' attack on it is recorded in the Puritans' own tradition. George Herbert's link ties it to the same Anglican devotional stream. Despite its quasi-monastic shape, it saw itself as Church of England and Protestant.",
+  "kept": "English Reformation; Puritans via the attack; Herbert link; self-understanding limit.",
+  "dropped": "'neither record names Ferrar'; 'Placed at 6... a case could be made for 5.5' (lane).",
+  "checks": "Herbert is not in the teaser or census links; old text's own claim."
+ },
+ {
+  "id": "jakob-boehme-the-shoemaker",
+  "new": "Böhme is the outstanding lay figure of the spiritualist current of the generation before him, recorded under the Family of Love and the Schwenckfelders. Franck and Schwenckfeld were among his indirect sources. His reception among the Pietists and the Ephrata circle puts the Radical Pietists downstream of him.",
+  "kept": "Family of Love and Schwenckfelders upstream; Radical Pietists downstream.",
+  "dropped": "'none of the three names him'; 'The English Behmenists and Philadelphians never became a lasting body, which is why he is a story rather than a row' (process).",
+  "checks": ""
+ },
+ {
+  "id": "hungarian-galley-pastors",
+  "new": "Hungarian Protestants have no tradition of their own on this map. Hungary appears on the map only through Transylvania, inside the Anti-Trinitarians. The closest parallel is the French Protestant galley convicts of the same generation, in the Church of the Desert and the Huguenots. The Dutch who bought the survivors free belong to the Dutch Reformation.",
+  "kept": "Anti-Trinitarians (Transylvania); Church of the Desert and Huguenots as parallel; Dutch rescuers.",
+  "dropped": "'the Bosnian record', 'a wholly unmapped church' (coverage narration, shortened to one sentence).",
+  "checks": "Teaser confirms a Dutch admiral's fleet bought the twenty-six survivors free; 'Dutch who bought' follows it."
+ },
+ {
+  "id": "candida-xu",
+  "new": "Her grandfather Xu Guangqi was one of the Chinese converts who argued out a Confucian Christian idiom, the China chapter of Mission-Born Christianities (1491-1650). Candida carries that household's Christianity into the generation after that tradition's window closes. The Jesuits she supported are the Society of Jesus.",
+  "kept": "Mission-Born via Xu Guangqi; Jesuits.",
+  "dropped": "'is named in' (record does not name him); 'no record names her'.",
+  "checks": "jq: Mission-Born record describes 'Jesuits and Chinese converts argued out how the Christian God could be spoken of in a Confucian idiom' but never names Xu Guangqi. Old 'is named in' was wrong; reworded."
+ },
+ {
+  "id": "joseph-vaz-in-ceylon",
+  "new": "Sri Lankan Christianity has no tradition of its own on this map. Vaz came out of the Goan world of Portuguese church patronage that the St. Thomas Christians under Portuguese pressure (1599-1665) describes from the Malabar side. It is the same Portuguese church at its most sympathetic: an Indian priest going where the Portuguese no longer could. The lay catechist network he built reflects the same instinct as the Korean Catholics, later in Korea.",
+  "kept": "St. Thomas Christians; Korean Catholics; no-tradition limit.",
+  "dropped": "'Padroado' (unexplained term), 'an unmapped church' wording.",
+  "checks": ""
+ },
+ {
+  "id": "salzburg-emigrants",
+  "new": "Halle's Francke Foundations organized relief and publicity, and the Georgia settlement was a Halle project through Urlsperger, a direct link to Pietism (1675-1750). The Lutheran church that received them is the world of Wittenberg two centuries on. Zinzendorf's Herrnhut watched the emigration closely. The Silesian Children's Prayer Revival is the nearest story in kind: a hidden Protestant population under a Catholic prince, twenty-five years earlier and one border east.",
+  "kept": "Pietism; Wittenberg; Herrnhut; Silesian story.",
+  "dropped": "'a real link'; 'whose record does not mention the Salzburgers' (record claim); 'The Kinderbeten story on this map' replaced by the story's title.",
+  "checks": ""
+ },
+ {
+  "id": "cambuslang-wark",
+  "new": "Whitefield's presence ties it to the Methodists. McCulloch's correspondence with Jonathan Edwards, whose Faithful Narrative had circulated in the parish, ties it to the New England awakening. It happened inside the Scottish Kirk, whose discipline registers survive in great numbers. Edwards wrote down converts 'case by case', and McCulloch did the same on a larger scale.",
+  "kept": "Methodists; New England; Scottish Kirk; case-by-case method.",
+  "dropped": "'None of the three records mentions Cambuslang'; 'registers' tidied.",
+  "checks": "jq: New England record 'he wrote down what had happened, case by case' verified. Scottish Kirk record notes surviving session registers 'in extraordinary quantity'."
+ },
+ {
+  "id": "genadendal-pear-tree",
+  "new": "George Schmidt was sent by the Moravian community of Herrnhut (1722-1815). Magdalena is the earliest named indigenous Christian leader in southern Africa, well before the African-Initiated churches of the 1880s on. The clergy who stopped Schmidt were the Cape's Dutch Reformed church, the colonial arm of the Dutch Reformation.",
+  "kept": "Herrnhut sent him; African-Initiated timing; Dutch Reformation.",
+  "dropped": "'its own text lists the missions to St Thomas, Greenland, Suriname and Pennsylvania but not the Cape' - FALSE. 'a century before' loosened to 'well before'.",
+  "checks": "jq: Herrnhut record has a whole paragraph on the Cape: 'George Schmidt landed there on 9 July 1737... The Brethren had to leave in 1745.' (card says 1744; census says 1745 - flagged)."
+ },
+ {
+  "id": "ntsikanas-great-hymn",
+  "new": "Ntsikana was a Christian prophet outside the mission, about sixty years before the African-Initiated Churches begin. The missionary movement's native churches (1793-1906) are the missions he never joined. His followers' descendants, the Sogas and the Bokwes, staffed the first Presbyterian missions of the Eastern Cape.",
+  "kept": "African-Initiated timing; mission world he stayed outside; descendants.",
+  "dropped": "'neither record mentions him or the Xhosa'; 'Placed at 4... rather than at 6' (lane).",
+  "checks": ""
+ },
+ {
+  "id": "asad-shidyaq",
+  "new": "As'ad's life was an ancient Syriac-family church meeting nineteenth-century Anglo-American Protestantism. The Maronite church that confined him appears on this map only to 1517, in Maronite Christianity (1300-1517), and the patriarchate where he died sat in the Qadisha valley. The mission he joined is the American Board's wing of the missionary movement's native churches. Arab Protestants have no tradition of their own on this map.",
+  "kept": "Maronites; American Board; no-tradition limit. Kerala & NE India linked, not connected in old text.",
+  "dropped": "'This map exists for exactly this kind of seam'; 'Maronites II' and 'Native Churches' labels.",
+  "checks": "jq: Maronite record: 'Their patriarch was based in the Qadisha valley' verified."
+ },
+ {
+  "id": "sam-sharpe-baptist-war",
+  "new": "The Native Baptist network Sharpe led descended directly from George Liele's Jamaican mission. The mission church he also belonged to was the Baptist Missionary Society, which the Baptists (1609-1815) trace to William Carey. The Black Church records the parallel world of Black congregations under slavery in the United States.",
+  "kept": "Baptists via Liele and Carey; Black Church parallel. Baptists 19th c. linked, not connected in old text.",
+  "dropped": "'None of the three... mentions Sharpe or the Baptist War'.",
+  "checks": "jq: Baptists record has Carey ('shoemaker named William Carey... mission society') but no Liele. Liele appears only in the Caribbean record, which is not on this card. Claim about Liele is history, not a Baptists-record claim."
+ },
+ {
+  "id": "tarores-gospel",
+  "new": "Tarore's story belongs to the CMS mission in New Zealand. It shows a conversion carried by Maori rather than by missionaries, the pattern at the heart of the missionary movement's native churches (1793-1906). The only other Maori Christianity on this map is Ratana, about ninety years later.",
+  "kept": "Native-churches thesis; Ratana.",
+  "dropped": "'does not include among its four wings' (record claim); Rauparaha clause (documented but 'not this story').",
+  "checks": "Old text said Ratana 'eighty years later'; census dates it 1925, so about ninety. Flagged."
+ },
+ {
+  "id": "damien-of-molokai",
+  "new": "Damien belongs to the missionary congregations that the Catholic Church of the long nineteenth century (1815-1906) describes as 'new congregations of sisters and brothers' staffing hospitals across the world. The Hawaiian field he worked in is the Pacific wing of the missionary movement's native churches (1793-1906). That tradition's Protestant counterpart, Hyde's own church, is where the attack on him began. There is no Pacific Catholic tradition on this map.",
+  "kept": "Catholic 19th c.; Pacific wing; Hyde. Limit about no Pacific Catholic entry.",
+  "dropped": "'records generically as... without naming him'.",
+  "checks": "jq: Catholic 19th c. 'new congregations of sisters and brothers staffed schools and hospitals across the world' verified."
+ },
+ {
+  "id": "onesimos-and-aster-ganno",
+  "new": "Ethiopia 19th c. describes the empire they were kept out of, and the Orthodox clergy who tried Onesimos in 1906 belong to it. The church their work founded became the Mekane Yesus church, part of the story told in Ethiopia & Eritrea (1900 on). They worked inside a Swedish Lutheran mission, though their later church became Ethiopian.",
+  "kept": "Ethiopia 19th c.; Ethiopia & Eritrea; mission setting. Laestadians linked, not connected in old text.",
+  "dropped": "'does not name the translators'; 'Placed at 6... 4 would fit'.",
+  "checks": ""
+ },
+ {
+  "id": "le-chambon-sur-lignon",
+  "new": "The plateau's Protestants are the direct heirs of the Church of the Desert and the Huguenots. The villagers themselves point to the memory of the Desert as the reason for their reflex to hide people. This is the twentieth-century sequel to traditions that stop in 1787. The Confessing Church is the German Protestant parallel of the same years; there was no organizational link.",
+  "kept": "Church of the Desert and Huguenots; Confessing Church with its no-link limit.",
+  "dropped": "'both books' (process).",
+  "checks": ""
+ },
+ {
+  "id": "franz-jagerstatter",
+  "new": "He was a layman of the Catholic Church of 1906-1962. His case, a conscience set against his own bishops' counsel, bears on that tradition's remark that Pius XII's wartime record 'was argued about for decades.' Dietrich Bonhoeffer of the Confessing Church is the Protestant parallel.",
+  "kept": "Catholic Church Pius X to Council; Confessing Church / Bonhoeffer.",
+  "dropped": "'executed four months apart from him' - FALSE (Jagerstatter Aug 1943, Bonhoeffer Apr 1945); 'it does not mention him'.",
+  "checks": "jq: 'argued about for decades afterward' verified in the record; quote adjusted to match."
+ },
+ {
+  "id": "hebrides-revival-1949",
+  "new": "The island's churches descend from the Scottish Reformation (1560-1650), and the revival's Free Church opposition is that tradition's later history. Duncan Campbell put the revival in the line of the Welsh revival of 1904 and the older Highland awakenings. It produced no institution: its converts stayed in their parishes.",
+  "kept": "Scottish Kirk; 1904 Revivals; no-institution limit. Welsh Revivals linked, not connected in old text.",
+  "dropped": "'neither record names Lewis'.",
+  "checks": "Campbell is not named in the teaser; old text's own claim."
+ },
+ {
+  "id": "ludmila-javorova",
+  "new": "The Czechoslovak underground church was a separate structure from the Lviv Underground, but the two worlds look alike: secret ordinations, night liturgies, bishops consecrated in secret. The Persecuted Church covers the Protestant and Orthodox undergrounds of the same decades.",
+  "kept": "Lviv Underground (similar world, separate structure); Persecuted Church.",
+  "dropped": "'Koinotes' (internal label); 'sometimes regularised by Rome only later' quote and the claim of regularised married priests moving into the Greek Catholic church (unsupported by census); 'where regularization was refused'.",
+  "checks": "jq: Ukrainian record has 'priests ordained in secret, liturgies in apartments and forests' but no 'regularised' quote. Persecuted Church: Initsiativniki Baptists, Romania's Lord's Army (a Romanian Orthodox priest's movement). Dropped unsupported institutional-link claim."
+ },
+ {
+  "id": "elcho-island-revival",
+  "new": "This is an indigenous-led revival of the kind the map groups with Ratana and the Balokole, though it produced no separate church. Charismatic Renewal in white Australian churches in the same decade was a parallel, not a cause. The map has no tradition of Aboriginal Australian Christianity.",
+  "kept": "Ratana & Pacific; Balokole; Charismatic Renewal as parallel; no-tradition limit.",
+  "dropped": "'lane 7'; 'Global South' jargon.",
+  "checks": ""
+ },
+ {
+  "id": "scillitan-martyrs",
+  "new": "Latin Pastoral, this map's tradition of Christian Carthage, begins with Cyprian in the 240s, about sixty years after the trial.",
+  "kept": "Latin Pastoral timing. Scattered Households linked, not connected in old text.",
+  "dropped": "'No movement record narrates the martyrs themselves' (record claim).",
+  "checks": "jq across all movements for 'Scillit|Speratus|Scilli' in longDescription: no hits. The claim is true but is about our data, so dropped."
+ },
+ {
+  "id": "wulfstan-bristol-slave-trade",
+  "new": "This is a different Wulfstan from the one Late Anglo-Saxon England already names. That Wulfstan, archbishop of York (died 1023), preached the 1014 'Sermon of the Wolf to the English' two generations earlier and never went near Bristol. The Wulfstan of Worcester outlived the Conquest, where that tradition ends.",
+  "kept": "Two Wulfstans distinguished.",
+  "dropped": "'is not otherwise on the map'.",
+  "checks": "jq: Late Anglo-Saxon record: 'Archbishop Wulfstan preached in 1014 as the Danish invasions closed in.' verified. 'never went near Bristol' is the old text's own historical claim."
+ },
+ {
+  "id": "montecorvino-at-khanbaliq",
+  "new": "He worked at the same Mongol court as the Church of the East under the Mongols, from the opposite side of the Christian world. Yahballaha III and Rabban Bar Sauma were his contemporaries, and the two traditions at times competed for the same converts. His mission grew out of the Franciscans' missionary reach a century after Francis.",
+  "kept": "Church of the East; Franciscans.",
+  "dropped": "'though that record makes no mention of him'.",
+  "checks": "jq: Church of the East record names Rabban Bar Sauma. Yahballaha III not re-checked."
+ },
+ {
+  "id": "benjamin-lay-burlington",
+  "new": "Lay was a far more radical forerunner of the reform the Quakers credit to John Woolman a full generation later. Woolman is known to have owned and read a copy of Lay's book.",
+  "kept": "Quakers via Woolman.",
+  "dropped": "'that record does not mention Lay at all'.",
+  "checks": "jq: Quaker record: 'John Woolman... pressing them to free the people they held as slaves' verified. Woolman owning Lay's book is outside the census."
+ },
+ {
+  "id": "gnadenhutten-massacre",
+  "new": "Zeisberger's mission grew directly out of Herrnhut's eighteenth-century missionary expansion, which also sent missionaries to St Thomas, Greenland, Suriname and the Native congregations of Pennsylvania and New York.",
+  "kept": "Herrnhut link; the missions listed (verified).",
+  "dropped": "'that record's own list... doesn't reach this specific Ohio field or its end' (record claim).",
+  "checks": "jq: Herrnhut: 'From 1732 they sent missionaries to the enslaved people of St Thomas, and to Greenland and Suriname. Others went to the Native congregations of Pennsylvania and New York.' verified."
+ },
+ {
+  "id": "ko-tha-byu-karen-apostle",
+  "new": "Ko Tha Byu follows a pattern found across the missionary movement's native churches: a convert who becomes the real evangelist, more than the mission itself. That tradition shows it in India, West Africa, China and the Pacific.",
+  "kept": "Native-churches pattern.",
+  "dropped": "'but that record names none of it for Burma... a real gap' (coverage narration); 'exactly'.",
+  "checks": ""
+ },
+ {
+  "id": "ditt-chuhra-movement",
+  "new": "Ditt follows the same pattern as Liang Fa in China, in the missionary movement's native churches (1793-1906): an early convert who becomes the real evangelist.",
+  "kept": "Native-churches pattern via Liang Fa (verified). Korean Catholics linked, not connected in old text.",
+  "dropped": "'Krishna Pal in India' (not in census); 'says nothing about Punjab or the Chuhra, a real and sizable gap' (coverage).",
+  "checks": "jq: Native Churches record names Liang Fa (1832 tract). Krishna Pal not in census; dropped."
+ },
+ {
+  "id": "nickel-mines-forgiveness",
+  "new": "The Amish are a branch of the Anabaptist family that split off in the 1690s, long after the Anabaptist movements of 1525-1650.",
+  "kept": "Anabaptists as the parent family; 1690s split.",
+  "dropped": "'that record's window closes... doesn't follow the family's later branches at all' (record claim).",
+  "checks": ""
+ }
+]

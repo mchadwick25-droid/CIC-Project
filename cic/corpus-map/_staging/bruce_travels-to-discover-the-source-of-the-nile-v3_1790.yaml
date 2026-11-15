@@ -1,0 +1,13 @@
+source_file: bruce_travels-to-discover-the-source-of-the-nile-v3_1790.txt
+assignments:
+- row_id: bruce_travels-to-discover-the-source-of-the-nile-v3_1790--bruce-travels-vol-3
+  work: 'Bruce, Travels to Discover the Source of the Nile, vol. 3 (1790): Books V and VI, the journey to Gondar and the stay there'
+  author: bruce
+  locus: 'Book V at OCR lines 415-15772, the chapter on religion at 13781-15739; Book VI from 15773; add 12 to OCR line numbers'
+  atlas_ids:
+  - ethiopian-christianity-gondar-to-the-zemene-mesafint
+  role: context
+  confidence: provisional
+  language: eng
+  date: {start: 1790, end: 1790, source: "title page: 'M.DCC.XC.'; the travels are dated 1768-1773 on the title page", formation_confidence: Documented}
+  note: 'A Scottish traveler''s account of his journey to Gondar, his stay there and the church as he saw it. An outside witness.'

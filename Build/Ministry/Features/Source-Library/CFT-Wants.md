@@ -842,6 +842,273 @@ are left for the next batches. One want was held already.
   as their headers say. Ellis, vol. 2, prints no date of its own.
 - **Bavinck:** Magnalia Dei is not the Dogmatiek. **Lipscomb:** Queries and Answers (1910) is his own writing,
   not the census letters. **Gurney:** the 1824 title reads "Religious Peculiarities".
+## Era 10 (1906 to about 2010), batch 1, filled (2026-11-15): the major people, the conferences, and the Vatican's Acts to 1930
+
+Source: `Build/Ministry/Operations/Audits/2026-11-12_wanted-sources-combined/Wanted_Sources.md`, era 10 rows 331-459 and
+council rows 31-46, and the council leads on the era 10 scoping page. Rights: Mark's rulings of 2026-11-15 (R1 to R11 in
+`Decision-Log.md`, "Era 10 rights rulings"; R12 in the entry for this batch). The search record, the hosts refused and the
+cautions for writers are in `Build/Ministry/Operations/Audits/2026-11-15_library-era10/Search_Log.md`.
+
+94 files, 10,208,969 words. Languages held beside English: Latin (the Acts of the Holy See, 1907, 1910, 1926, 1928), French
+(Loisy, Beauduin), German (Barth, Tillich, Bultmann), Russian (Bulgakov), Romanian (the church law of 1925), Spanish (Aglipay,
+Braga, the Padilla pamphlet) and Portuguese (Braga).
+
+| want | state | file | imprint or rights basis | words | language | license |
+|---|---|---|---|---:|---|---|
+| era 10 row 331: Walter Rauschenbusch, Christianity and the Social Crisis. | filled | `rauschenbusch_christianity-and-the-social-crisis_1911.txt` | pd-us-by-date: printed 1911; the title-page year | 136,828 | eng | Public Domain |
+| era 10 row 331: Walter Rauschenbusch, Christianizing the Social Order. | filled | `rauschenbusch_christianizing-the-social-order_1919.txt` | pd-us-by-date: printed 1919; the title-page year | 168,872 | eng | Public Domain |
+| era 10 row 331: Walter Rauschenbusch, A Theology for the Social Gospel. | filled | `rauschenbusch_theology-for-the-social-gospel_1917.txt` | pd-us-by-date: printed 1917; the title-page year | 80,181 | eng | Public Domain |
+| era 10 row 332: J. Gresham Machen, Christianity and Liberalism. | filled | `machen_christianity-and-liberalism_1923.txt` | pd-us-by-date: printed 1923; the title-page year | 62,704 | eng | Public Domain |
+| era 10 row 335: Harry Emerson Fosdick, "Shall the Fundamentalists Win?" (1922). | filled | `fosdick_shall-the-fundamentalists-win-in-christian-century-v39-no23_1922.txt` | pd-us-by-date: printed 1922; the masthead date of the issue | 31,387 | eng | Public Domain |
+| era 10 row 336: Cyrus Ingerson Scofield, The Scofield Reference Bible (1909; 1917). | filled | `scofield_scofield-reference-bible-new-and-improved-edition_1917.txt` | pd-us-by-date: printed 1917; the title page prints no year, so the date used is the copyright notice of 1917 on its verso | 1,095,114 | eng | Public Domain |
+| era 10 row 336: a life of Scofield. | filled | `trumbull_life-story-of-c-i-scofield_1920.txt` | pd-us-by-date: printed 1920; the title page prints no year, so the date used is the copyright notice of 1920 | 30,043 | eng | Public Domain |
+| council row 38: World's Christian Fundamentals Conference, Philadelphia 1919; and era 10 row 338: W. B. Riley. | filled | `world-conference-christian-fundamentals_god-hath-spoken-philadelphia_1919.txt` | pd-us-by-date: printed 1919; the title page prints no year, so the date used is the copyright notice of 1919 | 133,800 | eng | Public Domain |
+| era 10 row 338: W. B. Riley, his sermons. | filled | `riley_christ-the-incomparable_1924.txt` | pd-us-by-date: printed 1924; the title page prints no year, so the date used is the copyright notice of 1924 | 54,513 | eng | Public Domain |
+| era 10 row 406: William Jennings Bryan, the 1925 stenographic transcript. | filled | `scopes-trial_worlds-most-famous-court-trial-tennessee-evolution-case-3e_1925.txt` | pd-us-by-date: printed 1925; the title page prints no year, so the date used is the copyright notice of 1925 | 217,645 | eng | Public Domain |
+| era 10 row 334: Reinhold Niebuhr (an early witness). | filled | `niebuhr_does-civilization-need-religion_1927.txt` | pd-us-by-date: printed 1927; the title-page year, read on the page image | 44,921 | eng | Public Domain |
+| era 10 row 334: Reinhold Niebuhr, Moral Man and Immoral Society (1932). | filled | `niebuhr_moral-man-and-immoral-society_1936.txt` | US copyright not renewed: an American book copyrighted 1932, in a 1936 printing | 86,550 | eng | Public Domain (not renewed) |
+| era 10: Fundamentalism (the census sources); serves rows 332, 336 and 338. | filled | `fundamentals_testimony-to-the-truth-v1_biola1917.txt` | pd-us-by-date: printed 1917; the title page prints no year, so the date used is the copyright notice "Copyrighted by Bible Institute of Los Angeles 1917", in the OCR | 124,021 | eng | Public Domain |
+| era 10: Fundamentalism (the census sources); serves rows 332, 336 and 338. | filled | `fundamentals_testimony-to-the-truth-v2_biola1917.txt` | pd-us-by-date: printed 1917; the title page prints no year, so the date used is the copyright notice "Copyrighted by Bible Institute of Los Angeles 1917", in the OCR | 133,501 | eng | Public Domain |
+| era 10: Fundamentalism (the census sources); serves rows 332, 336 and 338. | filled | `fundamentals_testimony-to-the-truth-v3_biola1917.txt` | pd-us-by-date: printed 1917; the title page prints no year, so the date used is the copyright notice "Copyrighted by Bible Institute of Los Angeles 1917", read on the page image, leaf 5; the OCR does not carry it | 125,656 | eng | Public Domain |
+| era 10: Fundamentalism (the census sources); serves rows 332, 336 and 338. | filled | `fundamentals_testimony-to-the-truth-v4_biola1917.txt` | pd-us-by-date: printed 1917; the title page prints no year, so the date used is the copyright notice "Copyrighted by Bible Institute of Los Angeles 1917", read on the page image, leaf 5; the OCR does not carry it | 120,157 | eng | Public Domain |
+| era 10 row 352: Pandita Ramabai, her own books. | filled | `ramabai_high-caste-hindu-woman_1888.txt` | pd-us-by-date: printed 1888; the title-page year | 29,988 | eng | Public Domain |
+| era 10 row 352: Pandita Ramabai and the Mukti revival. | filled | `dyer_revival-in-india_1907.txt` | pd-us-by-date: printed 1907; the title-page year | 44,687 | eng | Public Domain |
+| era 10 row 352: Pandita Ramabai, a life. | filled | `macnicol_pandita-ramabai-builders-of-modern-india_1926.txt` | pd-us-by-date: printed 1926; the title-page year | 47,853 | eng | Public Domain |
+| Era 10, Azusa Street & Early Pentecostalism: an early Pentecostal's own book from outside North America (Mark, for the Library threads: global and any-language pieces). | filled | `barratt_in-the-days-of-the-latter-rain_1909.txt` | pd-us-by-date: printed 1909; the title-page year | 61,776 | eng | Public Domain |
+| era 10 row 353: Kil Sŏn-ju, his own words. | filled | `korea-mission-field_v6-no4-april-1910.txt` | pd-us-by-date: printed 1910; the masthead date, read on the page image | 12,335 | eng | Public Domain |
+| era 10 row 371: Sergei Bulgakov, his corpus (an early witness). | filled | `bulgakov_dva-grada-tom-2-rus_1911.txt` | pd-us-by-date: printed 1911; the title-page year, read on the page image | 86,006 | rus | Public Domain |
+| era 10 row 371: Sergei Bulgakov, his corpus (an early witness). | filled | `bulgakov_tikhie-dumy-rus_1918.txt` | pd-us-by-date: printed 1918; the title-page year | 51,386 | rus | Public Domain |
+| era 10 rows 376 and 377: Patriarch Tikhon; Metropolitan Sergius. | filled | `fedotoff_russian-church-since-the-revolution_1928.txt` | pd-us-by-date: printed 1928; "First published 1928", read on the page image | 24,347 | eng | Public Domain |
+| era 10 row 376: Patriarch Tikhon, the 1918 anathema. | filled | `spinka_church-and-the-russian-revolution_1927.txt` | pd-us-by-date: printed 1927; the title-page year | 95,285 | eng | Public Domain |
+| era 10 rows 376, 377 and 442: Patriarch Tikhon; Metropolitan Sergius, the Declaration of 1927 and the answers to it; Joseph of Petrograd. | filled | `emhardt_religion-in-soviet-russia-anarchy_1929.txt` | pd-us-by-date: printed 1929; the title page prints no year, so the date used is the copyright notice of 1929 | 141,541 | eng | Public Domain |
+| era 10 row 443: Miron Cristea and the Romanian patriarchate (1925). | filled | `romanian-orthodox-church_legea-si-statutul-pentru-organizarea-ron_1925.txt` | pd-us-by-date: printed 1925; the title-page year | 20,839 | ron | Public Domain |
+| era 10 row 414: George Tyrrell, his published works that drew the 1907 condemnations. | filled | `tyrrell_through-scylla-and-charybdis_1907.txt` | pd-us-by-date: printed 1907; the title-page year | 112,255 | eng | Public Domain |
+| era 10 row 414: George Tyrrell, his published works that drew the 1907 condemnations. | filled | `tyrrell_much-abused-letter_1907.txt` | pd-us-by-date: printed 1907; the title-page year | 28,312 | eng | Public Domain |
+| era 10 row 414: George Tyrrell, his published works that drew the 1907 condemnations. | filled | `tyrrell_medievalism-reply-to-cardinal-mercier_1908.txt` | pd-us-by-date: printed 1908; the title-page year | 53,784 | eng | Public Domain |
+| era 10 row 414: George Tyrrell, his published works that drew the 1907 condemnations. | filled | `tyrrell_christianity-at-the-cross-roads_1909.txt` | pd-us-by-date: printed 1909; the title-page year | 67,156 | eng | Public Domain |
+| era 10 row 416: Alfred Loisy, his published work condemned in 1907. | filled | `loisy_autour-d-un-petit-livre-2e-ed-fra_1903.txt` | pd-us-by-date: printed 1903; the title-page year | 61,566 | fra | Public Domain |
+| era 10 row 416: Alfred Loisy, his published work condemned in 1907. | filled | `loisy_simples-reflexions-fra_1908.txt` | pd-us-by-date: printed 1908; the title-page year | 53,000 | fra | Public Domain |
+| era 10 row 416: Alfred Loisy, his published work condemned in 1907. | filled | `loisy_gospel-and-the-church_home1903.txt` | pd-us-by-date: printed 1903; the title-page year | 58,979 | eng | Public Domain |
+| era 10 rows 414 and 416: Lamentabili and Pascendi (1907) as the Roman side. | filled | `acta-sanctae-sedis_v40-lat_1907.txt` | pd-us-by-date: printed 1907; the title-page year | 180,580 | lat | Public Domain |
+| era 10: The Catholic Church, Pius X to the Eve of the Council (the Roman side of the modernist crisis). | filled | `acta-apostolicae-sedis_v2-lat_1910.txt` | pd-us-by-date: printed 1910; the title-page year | 344,867 | lat | Public Domain |
+| era 10 row 426: Pius XI, his address to the newly consecrated Chinese bishops (28 October 1926). | filled | `acta-apostolicae-sedis_v18-lat_1926.txt` | pd-us-by-date: printed 1926; the title-page year | 180,878 | lat | Public Domain |
+| era 10 row 426: Pius XI, the encyclical Mortalium animos (1928). | filled | `acta-apostolicae-sedis_v20-lat_1928.txt` | pd-us-by-date: printed 1928; the title-page year | 140,985 | lat | Public Domain |
+| era 10 rows 414 and 416: the modernist side, and Pascendi in an English of the time. | filled | `modernists_programme-of-modernism-with-pascendi_tyrrell1908.txt` | pd-us-by-date: printed 1908; the title-page year | 65,362 | eng | Public Domain |
+| era 10 row 333: Karl Barth (Der Römerbrief was not found; this is his own book of addresses). | filled | `barth_wort-gottes-und-die-theologie-deu_1924.txt` | pd-us-by-date: printed 1924; the title-page year | 81,129 | deu | Public Domain |
+| era 10 row 333: Karl Barth, in an English of the time. | filled | `barth_word-of-god-and-the-word-of-man_horton1928.txt` | pd-us-by-date: printed 1928; the title page prints no year, so the date used is the copyright notice of 1928 | 92,516 | eng | Public Domain |
+| era 10 rows 366 and 342: Dom Lambert Beauduin; Virgil Michel. | filled | `beauduin_liturgy-the-life-of-the-church_michel1926.txt` | pd-us-by-date: printed 1926; the title-page year, confirmed on the page image | 31,045 | eng | Public Domain |
+| era 10 row 366: Dom Lambert Beauduin, his own words in French. | filled | `beauduin_notre-piete-pendant-l-avent-fra_1919.txt` | pd-us-by-date: printed 1919; the title-page date | 32,274 | fra | Public Domain |
+| era 10 row 399: Paul Tillich (an early witness; his Systematic Theology is in copyright). | filled | `tillich_religioese-lage-der-gegenwart-deu_1926.txt` | pd-us-by-date: printed 1926; the title page prints no year, so the date used is the copyright notice of 1926 | 35,934 | deu | Public Domain |
+| era 10 row 400: Rudolf Bultmann (an early witness; his essay of 1941 is in copyright). | filled | `bultmann_jesus-deu_1926.txt` | pd-us-by-date: printed 1926; the title page prints no year; the date used is the dated afterword, "Marburg, März 1926", with which the library catalog date agrees | 54,133 | deu | Public Domain |
+| era 10 row 424: the martyrs of the Cristero years (a print of the time, in Spanish). | filled | `padilla_esbozo-de-una-biografia-del-martir-luis-padilla-spa_1929.txt` | pd-us-by-date: printed 1929; the title-page year, read on the page image | 20,620 | spa | Public Domain |
+| era 10 row 342: Virgil Michel, Orate Fratres from November 1926. | filled | `orate-fratres_v1-1926-1927.txt` | pd-us-by-date: printed 1926-1927; the dates on the volume title page and on the issues | 167,374 | eng | Public Domain |
+| era 10 row 342: Virgil Michel, Orate Fratres from November 1926. | filled | `orate-fratres_v2-1927-1928.txt` | pd-us-by-date: printed 1927-1928; the dates on the volume title page and on the issues | 156,939 | eng | Public Domain |
+| era 10 row 342: Virgil Michel, Orate Fratres from November 1926. | filled | `orate-fratres_v3-1928-1929.txt` | pd-us-by-date: printed 1928-1929; the dates on the volume title page and on the issues | 166,233 | eng | Public Domain |
+| era 10 row 342: Virgil Michel, Orate Fratres from November 1926. | filled | `orate-fratres_v4-1929-1930.txt` | pd-us-by-date: printed 1929-1930; the dates on the volume title page and on the issues | 225,835 | eng | Public Domain |
+| era 10 row 340: Peter Maurin, Easy Essays; and row 364: Dorothy Day. | filled | `maurin_catholic-radicalism-phrased-essays_1949.txt` | the book's own notice, on the verso of the title page: "The contents of this book are not copyrighted. The text may be reproduced by anyone in any desired form. May it be done for the greater honor and glory of God and the... | 60,456 | eng | Owner-declared free |
+| era 10 row 364: Dorothy Day, The Catholic Worker paper. | filled | `catholic-worker_v37-no2-june-1969.txt` | the owner's statement, read 2026-11-15 at https://catholicworker.org/about/terms-of-use-and-privacy-policy/: "Content from The Catholic Worker paper is not copyrighted." The issue itself prints no copyright notice. Mark's... | 19,930 | eng | Owner-declared free |
+| council row 46: the Third Lausanne Congress (Cape Town Commitment), 2010. | filled | `lausanne-movement_cape-town-commitment_2011.txt` | the document's own notice: "© 2011 The Lausanne Movement. This document may be reproduced in whole or in part without permission. The text should remain unchanged and an acknowledgement to The Lausanne Movement should be... | 22,544 | eng | Owner-declared free |
+| council row 31: World Missionary Conference, Edinburgh 1910, the conference reports. | filled | `world-missionary-conference_edinburgh-1910-v1-report-of-commission-1_1910.txt` | pd-us-by-date: printed 1910; the title page prints the year only in the work's own title ("World Missionary Conference, 1910") and carries no separate imprint year, copyright notice or dated preface; the publishers on the... | 153,968 | eng | Public Domain |
+| council row 31: World Missionary Conference, Edinburgh 1910, the conference reports. | filled | `world-missionary-conference_edinburgh-1910-v2-report-of-commission-2_1910.txt` | pd-us-by-date: printed 1910; the title page prints the year only in the work's own title ("World Missionary Conference, 1910") and carries no separate imprint year, copyright notice or dated preface; the publishers on the... | 142,690 | eng | Public Domain |
+| council row 31: World Missionary Conference, Edinburgh 1910, the conference reports. | filled | `world-missionary-conference_edinburgh-1910-v3-report-of-commission-3_1910.txt` | pd-us-by-date: printed 1910; the title page prints the year only in the work's own title ("World Missionary Conference, 1910") and carries no separate imprint year, copyright notice or dated preface; the publishers on the... | 170,240 | eng | Public Domain |
+| council row 31: World Missionary Conference, Edinburgh 1910, the conference reports. | filled | `world-missionary-conference_edinburgh-1910-v4-report-of-commission-4_1910.txt` | pd-us-by-date: printed 1910; the title page prints the year only in the work's own title ("World Missionary Conference, 1910") and carries no separate imprint year, copyright notice or dated preface; the publishers on the... | 128,765 | eng | Public Domain |
+| council row 31: World Missionary Conference, Edinburgh 1910, the conference reports. | filled | `world-missionary-conference_edinburgh-1910-v5-report-of-commission-5_1910.txt` | pd-us-by-date: printed 1910; the title page prints the year only in the work's own title ("World Missionary Conference, 1910") and carries no separate imprint year, copyright notice or dated preface; the publishers on the... | 119,993 | eng | Public Domain |
+| council row 31: World Missionary Conference, Edinburgh 1910, the conference reports. | filled | `world-missionary-conference_edinburgh-1910-v6-report-of-commission-6_1910.txt` | pd-us-by-date: printed 1910; the title page prints the year only in the work's own title ("World Missionary Conference, 1910") and carries no separate imprint year, copyright notice or dated preface; the publishers on the... | 189,948 | eng | Public Domain |
+| council row 31: World Missionary Conference, Edinburgh 1910, the conference reports. | filled | `world-missionary-conference_edinburgh-1910-v7-report-of-commission-7_1910.txt` | pd-us-by-date: printed 1910; the title page prints the year only in the work's own title ("World Missionary Conference, 1910") and carries no separate imprint year, copyright notice or dated preface; the publishers on the... | 71,285 | eng | Public Domain |
+| council row 31: World Missionary Conference, Edinburgh 1910, the conference reports. Also row 451: Cheng Jingyi. | filled | `world-missionary-conference_edinburgh-1910-v8-report-of-commission-8_1910.txt` | pd-us-by-date: printed 1910; the title page prints the year only in the work's own title ("World Missionary Conference, 1910") and carries no separate imprint year, copyright notice or dated preface; the publishers on the... | 87,513 | eng | Public Domain |
+| council row 31: World Missionary Conference, Edinburgh 1910, the conference reports. Also row 450: V. S. Azariah. | filled | `world-missionary-conference_edinburgh-1910-v9-history-and-records_1910.txt` | pd-us-by-date: printed 1910; the title page prints the year only in the work's own title ("World Missionary Conference, 1910") and carries no separate imprint year, copyright notice or dated preface; the publishers on the... | 121,360 | eng | Public Domain |
+| era 10 row 347: John R. Mott, his writings. | filled | `mott_evangelization-of-the-world-in-this-generation_1900.txt` | pd-us-by-date: printed 1900; the title-page year | 54,009 | eng | Public Domain |
+| era 10 row 347: John R. Mott, his writings. | filled | `mott_decisive-hour-of-christian-missions_1910.txt` | pd-us-by-date: printed 1910; the title-page year | 62,157 | eng | Public Domain |
+| era 10 row 347: John R. Mott, his writings. | filled | `mott_present-world-situation_1915.txt` | pd-us-by-date: printed 1915; the title-page year | 44,375 | eng | Public Domain |
+| era 10 row 346: J. H. Oldham, his writings. | filled | `oldham_world-and-the-gospel_1916.txt` | pd-us-by-date: printed 1916; the title-page year | 62,810 | eng | Public Domain |
+| era 10 row 346: J. H. Oldham, his writings. | filled | `oldham_christianity-and-the-race-problem_1924.txt` | pd-us-by-date: printed 1924; the title-page year | 103,539 | eng | Public Domain |
+| Council leads (Wanted Sources and the era 10 scoping page): the Lambeth Conference of 1908. | filled | `lambeth-conference_1908-encyclical-letter-resolutions-and-reports_spck1908.txt` | pd-us-by-date: printed 1908; the title-page year | 66,812 | eng | Public Domain |
+| Council leads (Wanted Sources and the era 10 scoping page): the Lambeth Conference of 1920. | filled | `lambeth-conference_1920-encyclical-letter-resolutions-and-reports_spck1920.txt` | pd-us-by-date: printed 1920; the title-page year | 73,817 | eng | Public Domain |
+| Council leads (Wanted Sources and the era 10 scoping page): the Lambeth Conference of 1930. | filled | `lambeth-conference_1930-encyclical-letter-resolutions-and-reports_spck1930.txt` | pd-us-by-date: printed 1930; the title page prints the year only in the work's own title and carries no separate imprint year or copyright notice; the publishers on the title page are the Society for Promoting Christian... | 83,316 | eng | Public Domain |
+| Council leads (the era 10 scoping page): Faith and Order, Lausanne 1927. | filled | `faith-and-order_lausanne-1927-proceedings_bate1927.txt` | pd-us-by-date: printed 1927; the title-page year | 203,883 | eng | Public Domain |
+| Council leads (the era 10 scoping page): Life and Work, Stockholm 1925. | filled | `life-and-work_stockholm-conference-1925-official-report_bell1926.txt` | pd-us-by-date: printed 1926; the title-page year | 246,905 | eng | Public Domain |
+| Council leads (the era 10 scoping page): the Jerusalem meeting of the International Missionary Council, 1928. | filled | `international-missionary-council_jerusalem-meeting-1928-v1_1928.txt` | pd-us-by-date: printed 1928; the title-page year | 152,992 | eng | Public Domain |
+| Council leads (the era 10 scoping page): the Jerusalem meeting of the International Missionary Council, 1928. | filled | `international-missionary-council_jerusalem-meeting-1928-v2_1928.txt` | pd-us-by-date: printed 1928; the title-page year | 71,546 | eng | Public Domain |
+| Council leads (the era 10 scoping page): the Jerusalem meeting of the International Missionary Council, 1928. | filled | `international-missionary-council_jerusalem-meeting-1928-v3_1928.txt` | pd-us-by-date: printed 1928; the title-page year | 115,375 | eng | Public Domain |
+| Council leads (the era 10 scoping page): the Jerusalem meeting of the International Missionary Council, 1928. | filled | `international-missionary-council_jerusalem-meeting-1928-v4_1928.txt` | pd-us-by-date: printed 1928; the title-page year | 68,142 | eng | Public Domain |
+| Council leads (the era 10 scoping page): the Jerusalem meeting of the International Missionary Council, 1928. | filled | `international-missionary-council_jerusalem-meeting-1928-v5_1928.txt` | pd-us-by-date: printed 1928; the title-page year | 55,783 | eng | Public Domain |
+| Council leads (the era 10 scoping page): the Jerusalem meeting of the International Missionary Council, 1928. | filled | `international-missionary-council_jerusalem-meeting-1928-v6_1928.txt` | pd-us-by-date: printed 1928; the title-page year | 89,482 | eng | Public Domain |
+| Council leads (the era 10 scoping page): the Jerusalem meeting of the International Missionary Council, 1928. | filled | `international-missionary-council_jerusalem-meeting-1928-v7_1928.txt` | pd-us-by-date: printed 1928; the title-page year | 40,725 | eng | Public Domain |
+| Council leads (the era 10 scoping page): the Jerusalem meeting of the International Missionary Council, 1928. Also row 451: Cheng Jingyi. | filled | `international-missionary-council_jerusalem-meeting-1928-v8_1928.txt` | pd-us-by-date: printed 1928; the title-page year | 63,051 | eng | Public Domain |
+| Council leads (the era 10 scoping page): the Panama Congress of 1916. | filled | `congress-christian-work-latin-america_panama-1916-v1_1917.txt` | pd-us-by-date: printed 1917; the title page prints no imprint year, so the date used is the copyright notice of 1917 | 200,575 | eng | Public Domain |
+| Council leads (the era 10 scoping page): the Panama Congress of 1916. | filled | `congress-christian-work-latin-america_panama-1916-v2_1917.txt` | pd-us-by-date: printed 1917; the title page prints no imprint year, so the date used is the copyright notice of 1917 | 148,294 | eng | Public Domain |
+| Council leads (the era 10 scoping page): the Panama Congress of 1916. | filled | `congress-christian-work-latin-america_panama-1916-v3_1917.txt` | pd-us-by-date: printed 1917; the title page prints no imprint year, so the date used is the copyright notice of 1917 | 199,060 | eng | Public Domain |
+| Council leads (the era 10 scoping page): Protestantism in Latin America, the Montevideo Congress of 1925. | filled | `congress-christian-work-south-america_montevideo-1925-v1_1925.txt` | pd-us-by-date: printed 1925; the date used is the copyright notice of 1925 | 169,500 | eng | Public Domain |
+| Council leads (the era 10 scoping page): Protestantism in Latin America, the Montevideo Congress of 1925. | filled | `congress-christian-work-south-america_montevideo-1925-v2_1925.txt` | pd-us-by-date: printed 1925; the date used is the copyright notice of 1925 | 159,300 | eng | Public Domain |
+| era 10 row 451: Cheng Jingyi, his writings; and the Chinese Church entry. | filled | `national-christian-conference_chinese-church-as-revealed-shanghai-1922_1922.txt` | pd-us-by-date: printed 1922; the title page prints the year only in the work's own title and carries no separate imprint year, copyright notice or dated preface; the publisher on the title page is The Oriental Press, Shanghai,... | 312,338 | eng | Public Domain |
+| era 10 row 450: V. S. Azariah, his own writing. | filled | `azariah_christ-in-the-indian-villages_1930.txt` | pd-us-by-date: printed 1930; "First published 3 June 1930" on the verso of the title page | 27,987 | eng | Public Domain |
+| Era 10, Japanese Christianity after 1906 (the census names Uchimura): a Japanese Christian's own book in his own English. | filled | `uchimura_how-i-became-a-christian_1922.txt` | pd-us-by-date: printed 1922; the title-page year | 58,849 | eng | Public Domain |
+| Era 10, Japanese Christianity after 1906: a Japanese Christian's own book. | filled | `kagawa_before-the-dawn_fukumoto-satchell1925.txt` | pd-us-by-date: printed 1925; the title-page year | 142,780 | eng | Public Domain |
+| Era 10, Northeast India & the Mar Thoma Church (the census names Sundar Singh): an Indian Christian's own book. | filled | `sundar-singh_reality-and-religion_1924.txt` | pd-us-by-date: printed 1924; the title-page year | 13,563 | eng | Public Domain |
+| Era 10, Northeast India & the Mar Thoma Church (the census names Sundar Singh): an Indian Christian's own book. | filled | `sundar-singh_search-after-reality_1925.txt` | pd-us-by-date: printed 1925; the title-page year | 19,743 | eng | Public Domain |
+| Era 10, Protestantism in Latin America: Erasmo Braga's own account of the Panama Congress, in Portuguese. | filled | `braga_pan-americanismo-aspecto-religioso-por_1916.txt` | pd-us-by-date: printed 1916-1917; the title-page year of 1916 and the copyright notice of 1917 | 45,157 | por | Public Domain |
+| Era 10, Protestantism in Latin America: Braga's account of the Panama Congress, in Spanish. | filled | `braga_pan-americanismo-aspecto-religioso-spa_monteverde1917.txt` | pd-us-by-date: printed 1917; the title-page year | 48,114 | spa | Public Domain |
+| Era 10, The Philippine Independent Church in the Twentieth Century: the church's own catechism, in Spanish. | filled | `aglipay_catequesis-de-la-iglesia-filipina-independiente-spa_1912.txt` | pd-us-by-date: printed 1912; no year is legible on the title page; the date used is the dated prologue, "Madrid, á 25 de Mayo de 1912", with which the library catalog date agrees | 42,606 | spa | Public Domain |
+
+### Era 10, batch 1: wanted rows not filled
+
+| want (row) | result | where it stands |
+|---|---|---|
+| Alfred Loisy, L'Évangile et l'Église in French, 1902 (416) | held for Mark | The only scan (`lvangileetlglise00lois`) is of a Columbia University preservation film whose target reads "Reproductions may not be made without permission from Columbia University Library". The title page prints 1902. Not taken. The English of 1903 and two later French books are held. |
+| Karl Barth, Der Römerbrief (333) | not found | archive.org has only printings after 1930. His addresses are held instead (German 1924, English 1928). The Barmen Declaration is cite and link (R4). |
+| Fosdick's autobiography (335) | not searched | Printed after 1930. The sermon is held in its printing of June 8, 1922. |
+| A life of Scofield that sets out the dispute (336) | not found | Trumbull's life of 1920 is held; it was printed in Scofield's lifetime. |
+| Martin Luther King Jr. (337); the four girls of Sixteenth Street (407) | cite and link | Mark's ruling R10. Nothing searched. |
+| W. B. Riley, The Menace of Modernism, 1917 (338) | not found | Two searches. His sermons of 1924 and the 1919 conference report are held. |
+| Óscar Romero (339); Rutilio Grande (423) | not held | In copyright; by the era 10 scoping page, Romero's diary is online on a non-commercial permission (R3). Cite and link. |
+| Stefan Wyszyński (341); Kominek (421); Klepacz (430); Blachnicki (422) | not searched | Church statements of 1956 and 1965 with no stated terms (R4): cite and link. |
+| Virgil Michel, his own books to 1930 (342) | located | Only his 1918 thesis (`criticalprincipl0000unse`) is listed; not taken. Orate Fratres volumes 1 to 4 are held. |
+| Watchman Nee, The Spiritual Man, 1928 (343) | not found | Searched in Chinese (屬靈人, 倪柝聲) and in English: only printings after 1960. |
+| Dietrich Bonhoeffer (344) | not found | Sanctorum Communio (1930): only reprints of 1954 and later. His other books are in copyright. |
+| Martin Niemöller (345) | not searched | The named sermons were printed after 1930. |
+| Wei Enbo, the True Jesus Church (348) | not found | Searched in Chinese (真耶穌教會, 魏恩波) and English: nothing printed by 1930. |
+| William J. Seymour: The Apostolic Faith, 1906-1908; Doctrines and Discipline, 1915 (349) | not found; located, not obtainable here | archive.org has no scan of the paper. The 1915 book exists only in a reissue of 2000, lending-only. The Flower Pentecostal Heritage Center's scans are on pentecostalarchives.org and its terms say "Photocopied materials and PDF files are for personal research only": held for Mark. |
+| T. W. Rātana, Te Whetu Marama (350); M. J. Savage (396) | refused host | Papers Past answers with a bot check. Nothing on archive.org to 1930. |
+| Janani Luwum (351); Festo Kivengere (355); William Nagenda (354); Joe Church (387) | not held | The Dictionary of African Christian Biography is CC BY-NC (R3): cite and link. Their own books are in copyright. |
+| Pandita Ramabai, A Testimony; the Mukti Prayer-Bell (352) | not found | Her 1888 book, Dyer's Revival in India (1907) and Macnicol's life (1926, quoting A Testimony) are held. Dyer's life of 1900 was found, but the scan is cut off in chapter XII and was not taken. |
+| William N. Blair, The Korea Pentecost (390, 353) | no date | The only scan (`koreapentecost00blai`) prints no year, no copyright notice and no dated preface. Not taken. |
+| William Wadé Harris (356); Orimolade (357); Kimbangu (358); Babalola (380); Lekganyane (381); Lenshina (388); Spartas (392); Masowe (393); Matswa (394); Kivebulaya (398); Kiwanuka (417); Malula (418); Kagame (427); Abiodun (458); Ositelu (459) | not held | Casely Hayford's William Waddy Harris (1915), Lloyd's Apolo of the Pygmy Forest (1923) and any print of 1921-1930 on Kimbangu were not found on archive.org. The Dictionary of African Christian Biography has entries for most of them, but its licence is CC BY-NC 4.0 (R3) and many entries are reprinted with permission: cite and link. The searcher found no entry there for Lekganyane or Matswa. |
+| R. E. McAlister (359); Frank Ewart and Glenn Cook (360) | not found; located, not obtainable here | Nothing printed by 1930. Ewart's Phenomenon of Pentecost exists only in a 1979 printing, lending-only. |
+| G. T. Haywood (361) | no date | Three scans of his booklets print no year (`g.t._haywood_-_victim_of_the_flaming_sword`, `apostolicbiblere00hayw`, `teachingsofapost00hayw`). Not taken. |
+| Victor Houteff, The Shepherd's Rod (362) | renewal found; wrong edition | Volume 2 (1932) was renewed in 1959 (R244963), so it is not held under R7. The scan offered as volume 1 (1930) is a revision of 1945 or later. |
+| Felix Manalo, Pasugo (363) | not searched | The wanted list dates the paper from February 1939. |
+| Dorothy Day, her books (364) | not held | In copyright. The paper is held in one scanned issue (June 1969); more original scans of the paper are wanted. |
+| Josyf Slipyj (365); Havryil Kostelnyk (415) | not found | Nothing of theirs printed by 1930 was found. |
+| Dom Lambert Beauduin, the Malines address of 1909 (366) | not found | The congress report and La piété de l'Église (1914) are not on archive.org. Michel's English of the book (1926) and a French work of 1919 are held. |
+| Gabriel Hebert (367); Mother Maria Skobtsova (368); Florovsky (372); Lossky (373); Schmemann (436) | not held | Their named works were printed after 1930; no print of theirs to 1930 was found (Florovsky, Lossky) or searched (Hebert, Skobtsova, Schmemann). |
+| Habib Girgis (369); Kyrillos VI (437) | no date | One Arabic book of Girgis (`AAlexandrina-102649`) prints no year. The journal al-Karma was not found. |
+| Kyrion II (370); Ambrosi Khelaia (441); Ilia II (457) | not found | Searched in Russian, Georgian and English. |
+| Sergei Bulgakov, Svet nevechernii; the Sophia controversy file (371) | not found | Two early books are held in Russian (1911, 1918), with poor OCR. |
+| Iosif Trifa (374); Traian Dorz (438); Sandu Tudor (446) | not found | Only modern re-typeset files of Trifa were found. |
+| Grigoris Balakian, Armenian Golgotha, 1922 (375); Khoren I (447) | not found | Only the 2009 English translation. The journal Etchmiadzin for 1918-1919 was located (`1918-12`), unchecked. |
+| Patriarch Tikhon, a life; the council's acts (376); council row 37 | part filled; located | The anathema of 1918 is held in English (Spinka 1927). The council's Acts are on archive.org only inside a 1994 reprint (a reprint counts by its own date). The 1918 Definitions were not found; the Russian state libraries refuse the connection. |
+| Metropolitan Sergius, both sides (377); Joseph of Petrograd (442) | part filled | The declaration is held in English (Emhardt 1929). The Solovki bishops' answer is quoted there in parts only; no full text of a rejection was found. |
+| Brother Roger (378); Wierwille (379); Sun Myung Moon (385); Eusebio Joaquín (389); the Rodens (395); Tillich's and Bultmann's later works (399, 400); Keeble (403); Andreasen (404); Dodd (405); Jim Jones (408); Barnhouse (409); Froom (410); Martin (411); Goodpasture (412); Cogdill (413); Tempels (419); Tian (420); Proaño (429); Bugnini (431); Tewophilos (433); Mar Shimun XXIII (434); Basilios (439); Antonios (455); John Sung (449); Peters (452); Ju Gi-cheol (453); Desmond Ford (454); Gatu (456) | not held | In copyright, unprinted, or with no stated terms. Keeble's Biography and Sermons (1931), the Cogdill-Woods Debate (1958) and Andreasen's Letters (1959) were searched as non-renewal candidates: no scan of the first two; the only Andreasen scan is a 1981 reprint. |
+| Paul VI (382); Athenagoras I (383); Lefebvre (384); Pius XII (425); John XXIII (432); the Cristero canonization homily (424); Alexy I (435) | cite and link | Vatican texts after 1930 (R1) and church statements with no stated terms (R4). |
+| Frank Bartleman, How Pentecost Came to Los Angeles, 1925 (386) | not found; no date | Not on archive.org. His Two Years Mission Work in Europe (`twoyearsmissionw0000fran`) prints no year. |
+| Jessie Penn-Lewis (391) | no date; not found | The only scan of War on the Saints (`dli.ernet.238131`, fourth edition) prints no year. The Awakening in Wales was not found in an early printing. |
+| Clarence Larkin, Dispensational Truth (401) | located, later printings only | Four scans, all later printings: one "Twenty-eighth printing", three with a ZIP code in the publisher's address. Their only dates are the copyright lines of 1918 and 1920. Not taken. |
+| Curtis Lee Laws, the Watchman-Examiner, 1 July 1920 (402) | not found | The only scans of the paper are a 1913 volume and lending-only volumes of 1966-67. The Annual of the Northern Baptist Convention 1920 (`annualofnorthern0000amer_t8j4`) was located; it has the resolutions of the Fundamentals conference and not the word "fundamentalists". Not taken. |
+| Surma Khanim, Assyrian Church Customs, 1920 (448) | not found | Three searches. |
+| Abdul Masih II and Baselios Paulose I, 1912 (440) | located | Malayalam church monthlies of 1900-1911 (`1911_Malankara_Edavaka_Pathrika_Volume_20_Issue_01-03` and others) and Panjikaran's Syrian Church in Malabar (1912, `cu31924029361338`) were located and not checked. No issue of 1912 was found. |
+| Miron Cristea, his own works (443); Dimitrije (444); Kiril (445) | part filled | The Romanian law and statute of 1925 are held. Serbian and Bulgarian prints were not found. |
+| Cheng Jingyi, in Chinese (451) | not found | His speeches of 1910, 1922 and 1928 are held in English. |
+| Council rows 32 Barmen; 33 Amsterdam 1948; 34 Vatican II; 35 Lausanne 1974; 36 Chicago 1978; 39 Rio 1955; 40 New Delhi 1961; 41 Medellín 1968; 42 Chicago 1973; 43 Taizé 1974; 44 Manila 1989; 45 Moscow 2000 | cite and link | R1, R3 and R4. Nothing held. |
+
+**Held already, found by this batch.** Mirbt's Quellen (1911) and Denzinger (1911) both carry the decree Lamentabili and
+the encyclical Pascendi of 1907 in Latin: `mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt` from about
+line 29196, and `denzinger_enchiridion-symbolorum-lat_bannwart1911.txt` from about line 32457 (extracts).
+## Era 8 (1650-1815), batch 1 (2026-11-15): the global files (Africa, Egypt, Ethiopia, the Syriac churches, Latin America, Asia)
+
+Thirty files. The wants are the era 8 rows of the Who scan's wanted list (`Wanted_Sources.md`, rows 121-162),
+the era 8 Open-Gaps items (175-182, 225) and the earlier batches' open rows, for the regions outside Europe and
+North America; the rest of era 8 follows in later batches. The master list and the search record are in
+`Build/Ministry/Operations/Audits/2026-11-15_library-era8/` (`ERA8_WANTS_MASTER.md`, `Search_Log.md`). Every file
+has a printed imprint of 1930 or earlier, read on its title page or the scan's page image; Rhodes's Cathechismus
+prints no year on its title page and is dated by the printed licence on the next leaf. Rows in the tables above
+are not rewritten.
+
+| want | state | file(s), with the imprint year | words | language | shelf |
+|---|---|---|---:|---|---|
+| Wanted row 122, 153, 154 (major): Kimpa Vita, Bernardo da Gallo, Pedro IV: the Capuchin relations of da Gallo and da Lucca | not found | no print by 1930 on archive.org; Zucchelli's Italian not found (the German of 1715 is held) | | | |
+| Open-Gaps 175 (AF-3): Kongo after 1650, Proyart | filled in French (the English is held in Pinkerton XVI) | `proyart_histoire-de-loango-kakongo-et-autres-royaumes-d-afrique-fra_1776.txt` (1776) | 74,936 | fra | kongo-christianity-after-1650, context (part 1 needs-ruling) |
+| Batch 2 (AF-8), Open-Gaps 175: Philip Quaque and the S.P.G. in West Africa | filled, a digest of the Society's records | `pascoe_two-hundred-years-of-the-spg-v1_1901.txt` (1901) | 424,914 | eng | restoration-georgian-church-of-england, context |
+| Batch 2 (AF-8): Capitein; Thompson's own account | not found | Capitein only in a modern translation; Thompson (1758) is an image-only scan | | | |
+| Open-Gaps 175 (AF-4): the Dutch Reformed Church at the Cape, McCarter | filled | `mccarter_dutch-reformed-church-in-south-africa_1869.txt` (1869) | 29,343 | eng | the-dutch-reformed-church-at-the-cape, tradition |
+| Open-Gaps 175 (AF-4): the Acta Synodi of 1857 in Dutch | not searched | era 9 | | | |
+| Open-Gaps 175 (AF-5): Ntsikana's hymn in Xhosa | not found | no print by 1930 found | | | |
+| Wanted row 152: Ibrahim al-Jawhari: al-Jabarti's obituary | filled in French | `jabarti_merveilles-biographiques-et-historiques-t5-fra_1890.txt` (1890) | 74,540 | fra | the-coptic-church-under-the-ottomans, context |
+| Wanted row 152: Butcher, vol. 2 | held already (the era 9 batch vendored it); an era 8 shelf row added | `butcher_story-of-the-church-of-egypt-v2_1897.txt` (1897) | 144,216 | eng | the-coptic-church-under-the-ottomans, context |
+| Open-Gaps 175: Vansleb, Histoire de l'Église d'Alexandrie | filled | `vansleb_histoire-de-l-eglise-d-alexandrie-fra_1677.txt` (1677) | 75,236 | fra | the-coptic-church-under-the-ottomans, context |
+| Open-Gaps 175: Vansleb on the Copts, his journal | filled in French and in English | `vansleb_nouvelle-relation-d-un-voyage-fait-en-egypte-fra_1677.txt` (1677); `vansleb_present-state-of-egypt_1678.txt` (1678) | 92,156; 74,629 | fra; eng | the-coptic-church-under-the-ottomans, context |
+| Open-Gaps 175: the Arabic History of the Patriarchs for the Ottoman patriarchs; the archons' letters and waqf deeds | not found | not on archive.org in a print by 1930 | | | |
+| Wanted row 151: Bruce, Travels, vols 2 and 3 | filled | `bruce_travels-to-discover-the-source-of-the-nile-v2_1790.txt`; `bruce_travels-to-discover-the-source-of-the-nile-v3_1790.txt` (1790) | 212,558; 229,966 | eng | ethiopian-christianity-gondar-to-the-zemene-mesafint, context |
+| Open-Gaps 175 (AF-1): Guidi, Annales | filled: the Ge'ez text and a French translation | `annales-regum-iyasu-ii-et-iyoas_textus-gez_guidi1910.txt` (1910); `annales-regum-iyasu-ii-et-iyoas_versio-fra_guidi1912.txt` (1912) | 129,417; 113,770 | gez; fra | ethiopian-christianity-gondar-to-the-zemene-mesafint, tradition |
+| Open-Gaps 175 (AF-1): Weld Blundell, The Royal Chronicle of Abyssinia (1922) | located, not taken | the one scan has no dated title page, preface or copyright notice | | | |
+| Census VII.38, VII.34: Gobat, Journal (London, 1834) | filled | `gobat_journal-of-a-three-years-residence-in-abyssinia_1834.txt` (1834) | 112,098 | eng | ethiopian-christianity-gondar-to-the-zemene-mesafint, context |
+| Batch 2 (ME-7), Open-Gaps 179: the Syriac Orthodox patriarchate, Parry (1895) | located, not taken in this batch | the Columbia microfilm scan (sixmonthsinsyria00parr) carries the library's line 'Reproductions may not be made without permission from Columbia University Library'; a Google scan of the same edition (sixmonthsinasyr00parrgoog) is left for the next batch | | | |
+| Open-Gaps 179 (ME-2): the Synod of Mount Lebanon, 1736 | not found | Collectio Lacensis, vol. 2, and Mansi 38 are not on archive.org | | | |
+| Melkite split of 1724: Charon, tome I | not found | tome I was never printed | | | |
+| Open-Gaps 177: the Varthamanappusthakam; Malayalam originals; Ittoop; E. M. Philip | not found | no print by 1930 found | | | |
+| Wanted row 123 (major): Vieira, Maria Rosa Mystica | filled | `vieira_maria-rosa-mystica-parte1-por_1686.txt` (1686); `vieira_maria-rosa-mystica-parte2-por_1688.txt` (1688) | 216,909; 192,435 | por | colonial-latin-american-devotional-catholicism, society-of-jesus-1650-1814, tradition |
+| Wanted row 123 (major): a Life of Vieira, Barros | filled | `barros_vida-do-apostolico-padre-antonio-vieyra-por_1746.txt` (1746) | 190,875 | por | the same two, tradition |
+| Wanted row 123 (major): Vieira's Cartas | filled, tomos 1 and 2 | `vieira_cartas-tomo1-por_1735.txt`; `vieira_cartas-tomo2-por_1735.txt` (1735) | 88,664; 89,293 | por | the same two, tradition |
+| Open-Gaps 176 (LA8-4): Antonil | filled | `antonil_cultura-e-opulencia-do-brasil-por_1711.txt` (1711) | 62,040 | por | colonial-latin-american-devotional-catholicism, tradition |
+| Open-Gaps 176 (LA8-6): the Code noir (1685) | filled, in a collection of 1767 | `code-noir_recueil-des-reglemens-colonies-francoises-fra_prault1767.txt` (1767) | 68,904 | fra | colonial-latin-american-devotional-catholicism, context (needs-ruling) |
+| Wanted row 155: Úrsula de Jesús | not found | no print by 1930; the 2004 edition is in copyright | | | |
+| Open-Gaps 176 (LA8-10): Ximénez for Cancuc | held for Mark | vols 1 (1929) and 2 are CC BY-NC-ND 3.0 uploads; vol. 3, with Cancuc, is dated 1931 | | | |
+| Open-Gaps 176 (LA8-5): Hernández y Dávalos; Morelos | not found | not on archive.org | | | |
+| Wanted row 124 (major): Maigrot's Mandate of 1693 in a printing of the time | filled in Latin | `historia-cultus-sinensium_varia-scripta-de-cultibus-sinarum-lat_1700.txt` (1700) | 155,815 | lat | chinese-catholicism-1650-1906, tradition; Charmot's notes in the same volume, tradition (needs-ruling) |
+| Wanted rows 124, 125 (major): Launay, Histoire générale, vol. 1 | filled, tomes 1 and 2 (to 1836) | `launay_histoire-generale-de-la-societe-des-missions-etrangeres-t1-fra_1894.txt`; `launay_histoire-generale-de-la-societe-des-missions-etrangeres-t2-fra_1894.txt` (1894) | 212,971; 208,847 | fra | vietnamese-catholicism-to-1815, chinese-catholicism-1650-1906, context |
+| Wanted row 125 (major): Pallu's own Relation | filled | `pallu_relation-abregee-des-missions-et-des-voyages-des-evesques-francois-fra_1682.txt` (1682) | 18,786 | fra | vietnamese-catholicism-to-1815, chinese-catholicism-1650-1906, tradition |
+| Wanted row 125 (major): Lambert de la Motte's own writings; the Monita; Launay's Lettres de Mgr Pallu | not found | Launay tome 1 summarizes the Monita | | | |
+| Wanted row 126 (major): Rhodes, Divers voyages | filled, the printing of 1682 | `rhodes_divers-voyages-de-la-chine-et-autres-royaumes-de-l-orient-fra_1682.txt` (1682) | 87,428 | fra | vietnamese-catholicism-to-1815, tradition (needs-ruling: the missions it tells come before the window) |
+| Wanted row 126 (major), Open-Gaps 178: Rhodes, the Cathechismus | filled; only the Latin can be read | `rhodes_cathechismus-in-octo-dies-divisus-lat-vie_1651.txt` (1651, by the printed licence) | 117,211 | lat, vie | vietnamese-catholicism-to-1815, tradition (needs-ruling) |
+| Wanted row 126 (major): Rhodes's history of Tonkin | filled in Latin | `rhodes_tunchinensis-historiae-libri-duo-lat_1652.txt` (1652) | 61,508 | lat | vietnamese-catholicism-to-1815, tradition (needs-ruling) |
+| Wanted row 126: Rhodes's catechism in modern Vietnamese | held for Mark | the one upload is CC BY-NC-ND 4.0 | | | |
+| Wanted row 127 (major), Open-Gaps 178: the Sketch of the Catholic Church in Ceylon | filled | `ceylon-catholic-church_sketch-of-the-rise-and-progress_1848.txt` (1848) | 8,154 | eng | catholics-of-dutch-ceylon, context (needs-ruling) |
+| Wanted row 127 (major): Rego's Life of Joseph Vaz; any English Life | not found | no print by 1930 on archive.org | | | |
+| Wanted row 156, Open-Gaps 178: Baldaeus | filled in Dutch and in English | `baldaeus_naauwkeurige-beschryvinge-van-malabar-en-choromandel-en-ceylon-nld_1672.txt` (1672); `baldaeus_true-and-exact-description-of-malabar-and-coromandel-and-ceylon_churchill1703.txt` (1703) | 431,810; 265,623 | nld; eng | protestant-churches-of-the-voc-world, tradition; catholics-of-dutch-ceylon, context |
+| Open-Gaps 178: Valentijn, the church of Amboina | filled, the third deel | `valentijn_oud-en-nieuw-oost-indien-deel3-nld_1726.txt` (1726) | 820,153 | nld | protestant-churches-of-the-voc-world, tradition |
+| Open-Gaps 178: the Leijdecker Bible of 1733; Ambon church records | not searched | Valentijn's third deel tells the Bible dispute | | | |
+| Batch 5, Open-Gaps 177: a Chinese Catholic's own text (Huang Bolu; André Ly; the Sichuan synod) | not found | no scan found | | | |
+| Batch 5, Open-Gaps 177: Japan's hidden Christians (Tenchi hajimari no koto; Urakawa) | not found | no print by 1930 found | | | |
+| Open-Gaps 279 (era 4), looked at again: Abu Qurrah, Bacha's French of a second treatise | rights now clear, not taken for its OCR | the preface is dated 'Paris, 20 septembre 1905' and the archive.org record's date is 1905; in the one scan (untraitdesesuvr00kurrgoog) about half the pages have the ends of their lines cut off, and the Arabic is not in the OCR | | | |
+| Open-Gaps 225: an outside witness of 1650-1815 from the Muslim majority | filled in part | al-Jabarti, tome V, above | | | |
+
+**Cautions for profile writers.**
+- Line numbers in every header and row are lines of the host OCR; add 12 for the file's own lines.
+- Proyart (1776): the French mission to Loango and Kakongo, not the kingdom of Kongo and not the Antonian
+  movement. Letters of the prefects are quoted inside part 2.
+- Pascoe (1901): a digest written by the Society's assistant secretary. Philip Quaque's words appear only where the digest
+  quotes his letters; quote them as Pascoe prints them. The file is the first bound volume and stops inside the
+  chapters on India.
+- McCarter (1869): the appendix prints the Church Ordinance, which is not his voice. His preface speaks of
+  "several years' pastoral labour among the South African Dutch colonists".
+- Bruce (1790): the long s is read as f throughout and vol. 2's OCR is noisy, so check every quotation against
+  the page image. The stoning of the missionaries is under King David's reign in vol. 2 (file lines about
+  25638-25965); the chapter on religion is in vol. 3.
+- Butcher (1897): a secondary account. Ibrahim al-Jawhari is in one footnote, spelled "Ibrahim-el Johari"; the
+  name "Johar" elsewhere in the volume is the Fatimid general.
+- Al-Jabarti (1890): a French translation by four named translators. The Coptic official is "Moallem Ibrahim el
+  Djohari" under the year 1209; the other "El Djohari" passages are other men and a book title.
+- Vansleb (1677, 1678): a Dominican's account. His catalog of the patriarchs is drawn from Arabic authors he
+  names. The English is signed only "M. D., B. D."; the host's name for the translator is not in the print.
+- Gobat (1834): three voices in one volume (the Society's preface, Professor Lee's history, Gobat's journal).
+  The OCR is poor; check quotations against the page image.
+- Guidi's Annales: the translation is French, not Latin. The Ge'ez text came through in Ethiopic letters but has
+  not been checked against the print; treat it as a second witness. The title pages name no author.
+- Vieira, Maria Rosa Mystica: sermon XIV (part 1) is headed as preached to the brotherhood of the Blacks of a
+  sugar mill in Bahia in 1633; sermons XX and XXVII (part 2) speak of the Blacks and the enslaved in the body of
+  the text, not in their headings. Sermon XV's heading was not found. Two columns are run together in places.
+- Vieira, Cartas (1735): tomo 2 starts its numbering again at I, so cite the tomo with the letter number.
+- Barros (1746): a Life; its subject is Vieira and its voice is Barros.
+- The Code noir (1767): a collection of royal acts from 1675 to 1762. The Edict of March 1685 is file lines
+  1284-2405; the Louisiana edict of 1724 is a different text.
+- Launay (1894): written two centuries after the founders. The first synod of Tonkin (14 February 1670) is told
+  in a few lines, not printed; the page appears twice, and the first copy's OCR reads the year as 1679. Maigrot's
+  Mandate is quoted in French; the OCR reads its date as "26 mars 1698" where the Latin print has 26 March.
+- Historia cultus Sinensium (1700): several authors in one volume. Maigrot's Mandate is file lines 15635-15933;
+  the OCR garbles the year in its date line. A second title page follows it. The long first piece is Nicolas
+  Charmot's notes, not a narrative history. The Jesuit pieces are in the appendix; cite each piece by its own
+  author.
+- Pallu (1682): the privileges and approbations at the head name Bourges's Relation and are dated 1665-1666;
+  the dedication is dated April 1668; the title page is 1682.
+- Rhodes: the Divers voyages is the printing of 1682. In the Cathechismus only the Latin can be quoted; the
+  Vietnamese column is garbled and its headings for days 2 to 7 were not found. The title page of the Divers
+  voyages names no author; the attribution is the host's. The missions all three describe come before the
+  entry's window, which opens in 1650; the prints are of 1651, 1652 and 1682.
+- The Sketch of Ceylon (1848): written after the entry's window; no author is named in the print. A regulation of 1806 and a minute of 1819 are
+  printed inside the text.
+- Baldaeus (1672, 1703): the English is a translation with no translator named; the OCR of its letterpress title
+  reads the Dutch year as 1572. Use the Dutch for wording.
+- Valentijn (1726): the church of Amboina is the first three books of the first stuk; the fourth and fifth are
+  natural history. The second stuk covers other lands, and church matters there were not mapped.
 
 ## Later — queued
 

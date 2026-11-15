@@ -1,0 +1,11 @@
+source_file: beauduin_liturgy-the-life-of-the-church_michel1926.txt
+assignments:
+- row_id: beauduin_liturgy-the-life-of-the-church_michel1926--beauduin-liturgy-the-life-of-the-church-michel-1926
+  work: 'Beauduin, Liturgy the Life of the Church (Michel 1926)'
+  author: beauduin
+  locus: 'whole'
+  atlas_ids:
+  - the-liturgical-movement
+  role: tradition
+  confidence: assigned
+  note: 'Beauduin''s own book in the English of Virgil Michel, the first number of the movement''s American series.'

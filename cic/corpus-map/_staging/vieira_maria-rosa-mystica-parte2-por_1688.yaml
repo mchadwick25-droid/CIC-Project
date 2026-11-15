@@ -1,0 +1,14 @@
+source_file: vieira_maria-rosa-mystica-parte2-por_1688.txt
+assignments:
+- row_id: vieira_maria-rosa-mystica-parte2-por_1688--vieira-maria-rosa-mystica-part-2-sermons-xvi-xxx
+  work: 'Vieira, Maria Rosa Mystica, part 2: sermons XVI-XXX (1688)'
+  author: vieira
+  locus: 'sermons at OCR lines 458 to about 43754; sermon XX at 12831, XXVII at 33001; add 12 to OCR line numbers'
+  atlas_ids:
+  - colonial-latin-american-devotional-catholicism
+  - society-of-jesus-1650-1814
+  role: tradition
+  confidence: provisional
+  language: por
+  date: {start: 1688, end: 1688, source: "title page: 'Anno M. DC. LXXXVIII'; licences of 1686-1687 at about OCR lines 113-330", formation_confidence: Documented}
+  note: 'The second half of the Rosary sermons. Sermons XX and XXVII speak of the Blacks, the enslaved and their brotherhood.'

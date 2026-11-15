@@ -1,0 +1,21 @@
+source_file: acta-apostolicae-sedis_v18-lat_1926.txt
+assignments:
+- row_id: acta-apostolicae-sedis_v18-lat_1926--acta-apostolicae-sedis-volume-18-1926-pius-xi-to-the-chinese
+  work: 'Acta Apostolicae Sedis, volume 18 (1926): Pius XI to the Chinese bishops; Rerum Ecclesiae; Ab ipsis'
+  author: acta-apostolicae-sedis
+  locus: 'the homily, lines 24414-24474; Ab ipsis, lines 16909-17098; Rerum Ecclesiae, lines 3549-4371'
+  atlas_ids:
+  - chinese-catholicism-twentieth-century
+  - the-catholic-church-pius-x-to-the-council
+  role: tradition
+  confidence: assigned
+  note: 'Rome''s own Latin texts as first printed in 1926.'
+- row_id: acta-apostolicae-sedis_v18-lat_1926--acta-apostolicae-sedis-volume-18-1926-iniquis-afflictisque
+  work: 'Acta Apostolicae Sedis, volume 18 (1926): Iniquis afflictisque'
+  author: acta-apostolicae-sedis
+  locus: 'lines 26261-26811'
+  atlas_ids:
+  - latin-american-catholicism-twentieth-century
+  role: tradition
+  confidence: assigned
+  note: 'The pope''s encyclical on Mexico, in Latin, as first printed in 1926.'

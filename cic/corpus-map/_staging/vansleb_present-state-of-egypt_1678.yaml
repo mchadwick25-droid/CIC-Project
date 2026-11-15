@@ -1,0 +1,13 @@
+source_file: vansleb_present-state-of-egypt_1678.txt
+assignments:
+- row_id: vansleb_present-state-of-egypt_1678--vansleb-present-state-of-egypt-english-1678
+  work: 'Vansleb, The Present State of Egypt, English (1678)'
+  author: vansleb
+  locus: 'the journal at OCR lines 139-11188; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-coptic-church-under-the-ottomans
+  role: context
+  confidence: provisional
+  language: eng
+  date: {start: 1671, end: 1678, source: "the journal opens 'In the Year 1671' (OCR line 151); title page 1678", formation_confidence: Documented}
+  note: 'The English translation of the travel journal, printed a year after the French. An outside witness; the translator signs only with initials.'
