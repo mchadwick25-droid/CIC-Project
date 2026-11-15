@@ -1,0 +1,84 @@
+{
+  "name": "Stephen of Mar Saba",
+  "otherNames": [
+    "Stephen the Sabaite; Stephanus Monachus Sabaita, the Bollandists' Latin heading for him",
+    "Stephen the Poet, the title by which the Jerusalem Typikon, the Bollandists report, tells him apart from Stephen the Wonderworker"
+  ],
+  "knownFor": "A monk of Mar Saba, near Jerusalem, who saw raiders attack the monastery in the late 700s. At the order of his abbot, Basil, he wrote the account of the twenty monks who died, most of them in a cave filled with smoke.",
+  "dates": "The raid came in the year of the world 6288, AD 788, in the fifth indiction, by his own account. The Bollandists, the seventeenth-century editors of the Acta Sanctorum, make it 797, the year the fifth indiction marks. One figure in the scan of their commentary reads 796. Georg Graf, in 1910, gives March 796 or 797. The Bollandists think Stephen wrote straight after the raiders left, and their margin puts that just after Easter of 797. No source gives his birth or death",
+  "place": "The laura of Saint Sabas, called Mar Saba, near Jerusalem, where he lived and saw the raid. A laura is a monastery of separate cells around a church. No source gives his birthplace",
+  "tradition": "Melkite Arabic Christianity",
+  "role": "Monk of Mar Saba; eyewitness and recorder of the raid on the monastery; writer of hymns for its martyrs",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Passion of the Twenty Martyrs of Mar Saba",
+      "about": "his eyewitness account, from the civil war among the Arab tribes that laid Palestine waste to the deaths of the twenty and the care of the wounded. The Greek title calls the killers barbarians, that is, Saracens. The Bollandists copied the Greek in 1662 from one manuscript, more than six hundred years old, lent by Pierre Séguier, chancellor of France. They printed it with their own Latin translation. Leaves are missing in places"
+    },
+    {
+      "title": "Canon for the twenty martyrs",
+      "about": "a hymn for the church's office of the twenty, from the Greek Menaia, the monthly service books of the Greek church. The Bollandists give it in Latin and say it is by the same Stephen. Its acrostic, a line spelled by the first letters of its verses, says the writer praises the martyrs in hymns, and carries no name. Stephen himself, near the end of his account, speaks of singing hymns to the martyrs"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The Bollandists printed the Greek and their Latin in the Acta Sanctorum for 20 March. They knew no second manuscript to fill the gaps in Séguier's.",
+      "The office for 20 March in the printed Menaia is given over wholly to the twenty, the Bollandists say. They credit its canons to Stephen."
+    ],
+    "remembered": [
+      "The Life of Stephen the Wonderworker, as the Bollandists report it, calls him the glory and ornament of the whole laura.",
+      "The Jerusalem Typikon, the Bollandists say, keeps his feast on 27 October under the title Poet.",
+      "Nikodemos the Hagiorite (1748/9 to 1809), in his Greek Synaxaristes, a book of saints' days, tells the twenty fathers' story for 20 March without naming Stephen. He blames Ethiopians called Moors."
+    ]
+  },
+  "uncertain": [
+    "His name. His account, in Greek and in Latin, never names its author. The name Stephen rests on the Bollandists' heading and commentary, which take it from a Life of Stephen the Wonderworker that the Library does not hold. For the writer's own life, his account is the main witness. It says he was a monk of Mar Saba who saw the raid and wrote at Abbot Basil's order. Near its end, he speaks of singing hymns to the martyrs. He calls himself a sinner and unlearned.",
+    "Which Stephen. The Bollandists keep him apart from Stephen the Wonderworker, the nephew of John of Damascus, who they say died before the raid. Their index lists the two as separate men. No source makes the writer a relative of John of Damascus. Nikodemos the Hagiorite keeps a Stephen the Sabaite on 28 October, the day after the Poet's feast in the Typikon. This Stephen was a monk of the laura who flourished in 790 and later became a bishop. Nikodemos does not tie him to the account.",
+    "The year. His account gives the year of the world 6288, AD 788, in the fifth indiction, when Elias was patriarch of Jerusalem and Basil was abbot. The Bollandists make it 797, the year the fifth indiction marks. They do so in their essay on the chronicle of Theophanes the Confessor and in the volume's index of dates. They say Stephen counted by the Alexandrian era, which runs eight years behind theirs, and left out one year. One figure in the scan of their commentary reads 796. That passage goes on to add the missing year, to reach the fifth indiction. Their margin has him writing soon after the raid, just after Easter of 797. Their note on the martyr Christopher, a convert from Persia whom Stephen names, puts Christopher's death in 789 (the scan reads 189), seven years before the twenty. Georg Graf, in his 1910 German edition of the Arabic writings of Theodore Abu Qurrah, puts the massacre in March 796 or 797.",
+    "The day. The Bollandists place the deaths on 20 March, the Thursday of Holy Week, the day the feast is kept.",
+    "When he wrote. The Bollandists think he wrote straight after the raiders left, when Abbot Basil, who had been away, came back. Their margin puts it after Easter of 797.",
+    "Who the raiders were. Stephen sets the raid in a civil war among the Arab tribes of Palestine. The Menologion printed by Canisius and the Typikon, the Bollandists report, blame Ethiopians or Moors. The Bollandists answer that these were only some of the killers, acting under Arab masters. Nikodemos the Hagiorite names Ethiopians called Moors. Georg Graf calls them Bedouin.",
+    "What he did not see. Stephen marks his hearsay. Sergius of Damascus's last words came from a brother caught with him, and one miracle from a priest he calls most worthy of trust."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Acta Martyrii SS. XX Patrum Laurae S. Sabae, Latin translation with the Greek text, and the canon in Latin (Acta Sanctorum, Martii tomus III)",
+        "author": "Stephen of Mar Saba; the Bollandists (ed. and tr.)",
+        "date": "1865",
+        "language": "Greek and Latin",
+        "file": "cic/texts/acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Commentary on the twenty monk martyrs of the laura of Saint Sabas (Acta Sanctorum, Martii tomus III)",
+        "author": "The Bollandists (Joannes Bollandus, G. Henschenius and D. Papebrochius); Joannes Carnandet (ed.)",
+        "date": "1865",
+        "language": "Latin",
+        "file": "cic/texts/acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt"
+      },
+      {
+        "title": "Die arabischen Schriften des Theodor Abû Qurra, introduction",
+        "author": "Georg Graf",
+        "date": "1910",
+        "language": "German",
+        "file": "cic/texts/theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt"
+      },
+      {
+        "title": "Synaxaristes, volume 2 (March to August), 20 March",
+        "author": "Nikodemos the Hagiorite",
+        "date": "1900",
+        "language": "Greek",
+        "file": "cic/texts/nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900.txt"
+      },
+      {
+        "title": "Synaxaristes, volume 1 (September to February), 28 October",
+        "author": "Nikodemos the Hagiorite",
+        "date": "1900",
+        "language": "Greek",
+        "file": "cic/texts/nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900.txt"
+      }
+    ]
+  }
+}
