@@ -799,7 +799,7 @@ queue:
       journey (380s) runs the Sinai road and the Judean desert by name -
       the census's own I.34 `region` field, verbatim - and she describes
       monks and hermits she met along it directly, inside this candidate's
-      own c. 330-450 window. Not yet vendored anywhere in this corpus.
+      own c. 330-450 window. Not vendored in this corpus.
     url: "https://archive.org/details/pilgrimageofethe00mccliala"
     rights_basis: pd-us-by-date
     verified_by: "direct WebFetch against the archive.org details page, September 2026 - page states NOT_IN_COPYRIGHT; corroborated by a separate archive.org item, a 2018 LibriVox recording of the same 1919 McClure/Feltoe translation, independently carrying a Public Domain Mark 1.0 license"
@@ -1122,7 +1122,7 @@ queue:
     translator: "—"
     year: "1909"
     world: lpc
-    why: "lpc's field-bibliography sweep. The article the Registry named as not yet vendored beside von Soden's Prosopographie."
+    why: "lpc's field-bibliography sweep. The article the Registry names as not vendored beside von Soden's Prosopographie."
     url: "https://archive.org/details/quellenundforsch12deutuoft"
     rights_basis: "pd-us-by-date"
     verified_by: "archive.org /metadata and the vendored OCR read directly: Band XII, Rome, Loescher, 1909 (the host date field says 1898, a catalogue error); the file is the article sliced from the full serial volume, September 2026"
