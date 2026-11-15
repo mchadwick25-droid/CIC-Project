@@ -1,11 +1,11 @@
 Title: Acta Sanctorum quotquot toto orbe coluntur, vel a catholicis scriptoribus celebrantur; Julii tomus tertius (editio novissima, curante Joanne Carnandet)
 Creator: The Bollandists; Joannes Carnandet (editor of the reprint); the Life of Stephen the Sabaite by Leontius, in Petrus Boschius's Latin
 Publisher: Parisiis et Romae: apud Victorem Palmé (title page)
-Publication Date: 1868 (title page: 'm.dccc.lxviii'); the archive.org record's date field reads 1863
-Rights: Public Domain (pd-us-by-date: published 1868); the archive.org record carries no rights field, so the imprint date is the basis
+Publication Date: 1867 and 1868 (the letterpress title page reads '1867'; the engraved title before it reads 'm.dccc.lxviii'); the archive.org record's date field reads 1863
+Rights: Public Domain (pd-us-by-date: published 1867-1868); the archive.org record carries no rights field, so the imprint date is the basis
 Language: lat-grc
 Source: archive.org item actasanctorumquo29boll, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (6,613,445) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1868, out of US copyright by date. OCR quality: the Latin is readable; the Greek is read as Latin letters and cannot be used. Word count of the host text: 865,324. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1867-1868, out of US copyright by date. OCR quality: the Latin is readable; the Greek is read as Latin letters and cannot be used. Word count of the host text: 865,324. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
 Content note: The saints of 10 to 14 July; only one entry was placed. De S. Stephano Sabaita thaumaturgo (13 July): the Bollandists' commentary from about OCR line 104243; the Life by Leontius, a disciple, in Boschius's Latin, 'Vita acephala, auctore Leontio' at 105573, Caput I at 105582, Caput XV at 118609, with the editors' notes between chapters to about 119702. The next entry begins at 119723.
 
 ______________________________________________________________________

@@ -40,7 +40,7 @@ Library thread read the scan's page image.
 
 **Open-Gaps 269 (John of Damascus, Nicaea II, Cyril and Methodius, Clement of Ohrid, Rimbert).**
 - John of Damascus on the images, in English: Mary H. Allies (London: Thomas Baker, 1898), the Toronto scan, taken.
-  Five more records of the same book (a Gutenberg text, a lending copy, two later uploads) not taken.
+  Four more records of the same book (a Gutenberg text, a lending copy, two later uploads) not taken.
 - The acts of Nicaea II in English: John Mendham (London: Painter, 1850) taken. Mendham is a Protestant
   controversialist; his introduction and notes stand on the pages of the acts.
 - A complete Life of Rimbert: Pertz, Monumenta Germaniae historica, Scriptores II (Hannover 1829), a Google scan,
@@ -72,8 +72,9 @@ Library thread read the scan's page image.
 - Michael the Syrian, tome III (Paris: Leroux, 1905), the French of Books XII to XXI, taken from the record's
   French-only file. Tome IV, the Syriac (1910): found, the OCR is noise, not taken. A second record of tome IV is
   a photographic reprint of 1963, out by date.
-- The Life of Stephen the Sabaite by Leontius: Acta Sanctorum, July III, in Palmé's reprint (Paris and Rome 1868),
-  taken, for Boschius's Latin. The host's date field reads 1863; the title page reads 1868. Four Google scans of
+- The Life of Stephen the Sabaite by Leontius: Acta Sanctorum, July III, in Palmé's reprint (Paris and Rome),
+  taken, for Boschius's Latin. The host's date field reads 1863; the letterpress title page reads 1867 and the
+  engraved title before it reads 1868. Four Google scans of
   the Venice reprint are other July volumes, and two Palmé records numbered 30 are July IV.
 - Eulogius and Alvarus in English: none printed by 1930 was found, as expected.
 

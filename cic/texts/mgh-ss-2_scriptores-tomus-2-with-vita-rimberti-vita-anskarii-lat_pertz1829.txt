@@ -6,7 +6,7 @@ Rights: Public Domain (pd-us-by-date: published 1829); the archive.org record ca
 Language: lat
 Source: archive.org item bub_gb_WW-NO0RSd4AC, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (4,185,000) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1829, out of US copyright by date. OCR quality: the Latin is readable with small errors; the footnote apparatus is garbled. Word count of the host text: 544,945. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: A volume of many works; only two were placed. Vita S. Anskarii from about OCR line 57710. Vita S. Rimberti: heading at 63691, the editor's preface at 63692-63741, the text from 'Scripturi vitam' at 63742 to 'regnat in aeternum' at 64582, complete in 25 chapters. The other works in the volume were not mapped.
+Content note: A volume of many works; only two were placed. Vita S. Anskarii: heading at about OCR line 57625, text from about 58024. Vita S. Rimberti: heading at 63691, the editor's preface at 63692-63741, the text from 'Scripturi vitam' at 63742 to 'regnat in aeternum' at 64582, complete in 25 chapters. The other works in the volume were not mapped.
 
 ______________________________________________________________________
 

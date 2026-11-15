@@ -5,8 +5,8 @@ Publication Date: 1897 (title page: 'MDCCCXCVII')
 Rights: Public Domain (pd-us-by-date: published 1897); the archive.org record carries a CC0 public-domain dedication
 Language: ara-lat
 Source: archive.org item TreatiseAboutTheIconsAbuQurrahArabicText, full text from the item's own djvu.txt (AbuQurrahIconesArabeLatin_djvu.txt). Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (194,898) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1897, out of US copyright by date. OCR quality: the Latin is readable; the Arabic cannot be read. OCR lines 1-11 are a cover sheet added by the uploader, not part of the print, and a scanner's footer repeats on each page. Word count of the host text: 31,104. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Arendzen's preface from OCR line 220. His Latin translation from Caput I at 1367 to about 3715. Addenda at about 3715-3740. The Arabic text at about 3740-5340. The disputation theses at 5343 and Arendzen's Vita at 5413.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1897, out of US copyright by date. OCR quality: the Latin is readable; the Arabic cannot be read. OCR lines 1-24 are a cover sheet added by the uploader, not part of the print, and a scanner's footer repeats on each page. Word count of the host text: 31,104. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
+Content note: Arendzen's preface from OCR line 220. His Latin translation from Caput I at 1367 to about 3715. Addenda at about 3715-3773. The Arabic text at about 3779-5340. The disputation theses at 5343 and Arendzen's Vita at 5413.
 
 ______________________________________________________________________
 

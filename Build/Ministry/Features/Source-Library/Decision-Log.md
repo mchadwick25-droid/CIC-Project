@@ -561,7 +561,7 @@ record: `Build/Ministry/Operations/Audits/2026-11-15_library-eras4-5-b/Search_Lo
   writing, the date is `unknown` and says what was read. Each file's word count is in its header and registry
   note.
 - Shelves. Matthew of Edessa is `needs-ruling` on `armenian-cilicia` (tradition) and on
-  `bagratid-armenian-christianity` (context): he wrote in Edessa in the twelfth century and no entry is his own.
+  `bagratid-armenian-christianity` (context): Dulaurier's preface calls him an Armenian monk of the twelfth century, a native of Edessa, and no entry is his own.
   John of Damascus's sermons on the Assumption are `needs-ruling` on `melkite-arabic-christianity`. Mendham's
   English of Nicaea II sits where Mansi XII-XIII sit, as the council's own acts.
 - The review was done by a Fable reader in place of Opus, on Mark's instruction of 2026-11-15 as relayed by the

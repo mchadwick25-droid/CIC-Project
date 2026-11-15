@@ -49,7 +49,7 @@ works:
   source_file: rimbert_vita-anskarii-accedit-vita-rimberti-lat_waitz1884.txt
 - row_id: mgh-ss-2_scriptores-tomus-2-with-vita-rimberti-vita-anskarii-lat_pertz1829--vita-rimberti-pertz-1829
   work: Vita Rimberti (MGH Scriptores II, Pertz 1829)
-  author: rimbert
+  author: vita-rimberti-anonymous
   locus: about OCR lines 63742-64582; the editor's preface at 63692-63741; add 12 to OCR line
     numbers
   role: tradition
@@ -60,5 +60,5 @@ works:
     checked: the heading and the first lines of the Life (OCR lines 63691-63744); the editor's
       preface was not read for a date
   note: The Life of Rimbert, archbishop of Hamburg-Bremen, complete in 25 chapters; its author
-    is not named in the heading.
+    is not named.
   source_file: mgh-ss-2_scriptores-tomus-2-with-vita-rimberti-vita-anskarii-lat_pertz1829.txt

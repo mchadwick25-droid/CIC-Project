@@ -467,22 +467,22 @@ Rows in the tables above are not rewritten.
 | Open-Gaps 279: Abu Qurrah, Bacha's French of a second treatise | held for Mark | the title page names Tripoli and Rome and no year; 1905 is the preface date | | |
 | Open-Gaps 279: Michael the Syrian's Book XII | filled | `michael-the-syrian_chronique-tome3-livres-xii-xxi-fra_chabot1905.txt` (1905) | 271,262 | syriac-orthodox-west-syriac-christianity, tradition |
 | Open-Gaps 279: the Greek Passion of the Mar Saba martyrs (Papadopoulos-Kerameus 1907) | not found | not searched again; the second fill records the search | | |
-| Open-Gaps 279: the Life of Stephen the Wonderworker | filled in Latin | `acta-sanctorum_julii-tomus-3-lat-grc_palme1868.txt` (1868) | 865,324 | melkite-arabic-christianity, tradition |
+| Open-Gaps 279: the Life of Stephen the Wonderworker | filled in Latin | `acta-sanctorum_julii-tomus-3-lat-grc_palme1868.txt` (1867 on the title page, 1868 on the engraved title) | 865,324 | melkite-arabic-christianity, tradition |
 
 **Cautions for profile writers.**
 - John of Damascus (Allies 1898): a translation. The Greek is in PG 94, which the OCR cannot give for quotation.
 - Nicaea II (Mendham 1850): the translator wrote against the council. His introduction and his notes, with
   extracts from the Caroline Books, share the pages of the acts; a quotation must be the council's text, not a
   note. Sessions V to VIII were not mapped.
-- The Life of Rimbert (Pertz 1829): the heading does not name its author. The chapter count is 25. The footnote
+- The Life of Rimbert (Pertz 1829): its author is not named; Pertz's preface says it was written in the time of Rimbert's successor Adalgar, by a cleric of Bremen or a monk of Corvey. The chapter count is 25. The footnote
   apparatus is garbled; the text reads cleanly with small OCR errors.
 - Matthew of Edessa (Dulaurier 1858): a French translation, with the continuation of Gregory the Priest from
   about file line 14011 and Dulaurier's notes after the text. The chronicle was written after the Bagratid years
   it begins with.
 - Abu Qurrah (Arendzen 1897): only Arendzen's Latin can be read; no phrase of the Arabic can be quoted from this
-  file. The first eleven lines of the host text are the uploader's cover sheet.
+  file. The first 24 lines of the host text are the uploader's cover sheet.
 - Michael the Syrian (Chabot 1905): a French translation; the Syriac is not held. Footnotes run in with the text.
-- Stephen the Sabaite (Acta Sanctorum 1868): Boschius's Latin translation of a Greek Life headed as lacking its
+- Stephen the Sabaite (Acta Sanctorum 1867-68): Boschius's Latin translation of a Greek Life headed as lacking its
   beginning; the Greek column cannot be read. The Bollandists' notes stand between the chapters.
 
 ## Era 6 (1300-1517), filled (2026-11-15): the Who scan's wanted sources and the wants the Who and council batches added
