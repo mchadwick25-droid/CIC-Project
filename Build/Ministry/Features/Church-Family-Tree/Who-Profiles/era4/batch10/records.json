@@ -639,7 +639,7 @@
    },
    {
     "claim": "Theophanes the priest is another and younger man than Theophanes the Confessor (Bollandists)",
-    "witness": "PG100 l.1629-1648",
+    "witness": "PG100 l.1629-1648, l.1656 (the scan carries the clause into the next column)",
     "formation_confidence": "Documented"
    },
    {
@@ -1446,6 +1446,11 @@
     "claim": "The Paterik's founding account: before Ilarion's cave, Antony came to Kyiv and to Berestovoye and settled in a cave the Varangians had dug (\"ископали варязи\"); after Vladimir's death, seeing Sviatopolk's bloodshed (\"нача избивали братёо свою\"), he \"пакы бЪжа въ святую гору\" (quoted as the scan reads)",
     "witness": "PAT (kievan-caves-paterik_paterik-kievskago-pecherskago-monastyria-chu_abramovich1911.txt) l.1088-1092, l.1094-1097",
     "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Harasiewicz: \"Kijoviae, cui initia dedit Hilarion, electus anno 1031 in Metropolitam\"; his series: \"4. Hilarion (1031). 5. Georgius I (1063).\" (quoted as the scan reads)",
+    "witness": "HARAS (harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt) l.1672-1673, l.1748-1749",
+    "formation_confidence": "Contested"
    }
   ],
   "contested_claims": [
@@ -1483,6 +1488,14 @@
      "Shakhmatov, as Cross reports: Nikon of the Caves, first under 1062 (CROSS l.5185-5195)",
      "Cross: the internal evidence is opposed to Nestor's authorship (CROSS l.4819-4822)"
     ]
+   },
+   {
+    "claim": "The year he was made metropolitan",
+    "sides": [
+     "Russian Primary Chronicle: 6559 (1051) (CROSS l.11741-11742; PSRL1 l.6896-6897)",
+     "His confession: 6559 (1051) (GORSKII l.181, l.3995)",
+     "Harasiewicz (1862): 1031, as the scan reads twice (HARAS l.1672, l.1749)"
+    ]
    }
   ],
   "absent_details": [
@@ -1492,7 +1505,7 @@
    },
    {
     "detail": "Year of his death or end of office",
-    "note": "No held source gives it. The foreword: the chronicler does not say; George named by 1079 (GORSKII l.824-827). Mouravieff reports only a conjecture (Ephraim). Searched all cic/texts for Hilarion, Ilarion, Иларион, Ларион, Ларіон and OCR variants. Cross l.5189-5193 reports Shakhmatov's view that the passage was moved to 1051 'to connect it with the death of the metropolitan Hilarion'; no year is stated, and no other held line ties his death to 1051. The Chronicle names Metropolitan George in 1072 (CROSS l.12488-12491)."
+    "note": "No held source gives it. The foreword: the chronicler does not say; George named by 1079 (GORSKII l.824-827). Mouravieff reports only a conjecture (Ephraim). Searched all cic/texts for Hilarion, Ilarion, Иларион, Ларион, Ларіон and OCR variants. Harasiewicz (1862) gives no end for him and lists George I under 1063 (HARAS l.1749). Cross l.5189-5193 reports Shakhmatov's view that the passage was moved to 1051 'to connect it with the death of the metropolitan Hilarion'; no year is stated, and no other held line ties his death to 1051. The Chronicle names Metropolitan George in 1072 (CROSS l.12488-12491)."
    },
    {
     "detail": "English of the Sermon and the Confession",
@@ -1505,6 +1518,10 @@
    {
     "detail": "'First native-born metropolitan'",
     "note": "No held line says 'first'. The Laurentian calls him a Rusin (PSRL1 l.6897); the foreword says he was Russian by birth (GORSKII l.761); Mouravieff calls Hilarion and Clement of Smolensk the native Russian metropolitans (MOUR l.2076-2078). He is also chosen from the Rus presbyters (GORSKII l.154-157)."
+   },
+   {
+    "detail": "A Polish pamphlet on the consecration",
+    "note": "Arkhiv Iugo-Zapadnoi Rossii I.7 (1887), p. 384, gives the war with the Greeks as the reason, citing the Caves Paterik and Zonaras; its scan prints the Polish in Cyrillic letters (l.16547-16552), so it is not used. The index points to it (l.32507-32511)."
    }
   ]
  },
