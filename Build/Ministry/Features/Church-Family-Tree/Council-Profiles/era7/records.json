@@ -362,7 +362,7 @@
         "formation_confidence": "Widely Accepted"
       },
       {
-        "claim": "Charles read a paper in his own hand, a full sheet long, later read in consistory at Rome. He would hear Luther no more and would proceed against him 'come notorio eretico'",
+        "claim": "Charles brought before the electors and princes a paper in his own hand, a full sheet long, later read in consistory at Rome. The held OCR ('£ « legger') leaves unclear whether he read it himself or had it read. He would hear Luther no more and would proceed against him 'come notorio eretico'",
         "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.10137-10177",
         "witness_kind": "later narrative",
         "formation_confidence": "Widely Accepted"
@@ -645,7 +645,7 @@
       },
       {
         "claim": "How soon after his arrival the first hearing came",
-        "sides": "The day after: Pallavicino, 17 April (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.10012-10014); Sarpi, 17 April (sarpi_history-of-the-council-of-trent_brent1676.txt l.9617); Waterworth, arrived 16 April and appeared on the 17th (council-of-trent_canons-and-decrees_waterworth1848.txt l.1724-1727); Herrnschmid, 'April 16. The next day' (arminian-magazine_vol-1_1778.txt l.9150-9151). The fourth day after: Foxe (foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.21734), who gives no calendar date for either hearing.",
+        "sides": "The day after: Pallavicino, 17 April (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.10012-10014); Waterworth, arrived 16 April and appeared on the 17th (council-of-trent_canons-and-decrees_waterworth1848.txt l.1724-1727); Herrnschmid, 'April 16. The next day' (arminian-magazine_vol-1_1778.txt l.9150-9151). Sarpi gives 17 April for the hearing but no date for the arrival (sarpi_history-of-the-council-of-trent_brent1676.txt l.9617). The fourth day after: Foxe (foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.21734), who gives no calendar date for either hearing.",
         "formation_confidence": "Contested"
       },
       {
@@ -699,7 +699,7 @@
       },
       {
         "detail": "Aleander's own dispatches from Worms",
-        "note": "Not held. Searched all texts for 'aleand' and 'aleandro': hits are Pallavicino, Waterworth, Sarpi, Foxe, Buchheim and Beza's editors, with Brieger's 1884 edition only cited (haupt ZKG 7 l.17946). Aleander reaches us through Pallavicino, who used his letters. Luther's 1930 editors (luther_works-v3 l.293-294) report one 1520 letter from Aix, not from Worms."
+        "note": "Not held. Searched all texts for 'aleand' and 'aleandro': hits are Pallavicino, Waterworth, Sarpi, Foxe, Buchheim and Beza's editors, with Brieger's 1884 edition only cited (haupt ZKG 7 l.17946). The Loyola letters' editors annotate him (ignatius-loyola_epistolae-et-instructiones-v22-lat_1903.txt l.9858, 11088-11090). Mirbt cites Kalkoff's edition of the dispatches, not held (mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.15592). Aleander reaches us through Pallavicino, who used his letters. Luther's 1930 editors (luther_works-v3 l.293-294) report one 1520 letter from Aix, not from Worms."
       },
       {
         "detail": "Luther's Worms speech in its original Latin or German",
@@ -1368,7 +1368,7 @@
         "formation_confidence": "Inferential-Thin"
       },
       {
-        "claim": "The printed German text differs considerably from the one read at Augsburg; the Latin is mainly unchanged; the German in the Book of Concord rests on a Mainz copy of doubtful accuracy",
+        "claim": "Bensow judges that the printed German text surely differs considerably from the one read at Augsburg; the Latin is mainly unchanged; the German in the Book of Concord rests on a Mainz copy of doubtful accuracy",
         "witness": "bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31330-31348",
         "witness_kind": "modern reconstruction",
         "formation_confidence": "Dominant Modern Reconstruction"
@@ -1473,7 +1473,7 @@
       },
       {
         "claim": "When the commission of seven a side sat",
-        "sides": "Before the 13 July draft of the reply: Waterworth (council-of-trent_canons-and-decrees_waterworth1848.txt l.2441-2446) | After the reply was read, in August: Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.12918-12920), Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17449), Buchheim (luther_first-principles-reformation_wace-buchheim1885.txt l.3443), Melanchthon (book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.3388)",
+        "sides": "Told before the 13 July draft of the reply, with no date given: Waterworth (council-of-trent_canons-and-decrees_waterworth1848.txt l.2440-2446) | After the reply was read, in August: Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.12918-12920), Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17449), Buchheim (luther_first-principles-reformation_wace-buchheim1885.txt l.3443), Melanchthon (book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.3388)",
         "formation_confidence": "Contested"
       }
     ],
@@ -1500,7 +1500,7 @@
       },
       {
         "detail": "Luther's letters from Coburg about the Diet",
-        "note": "Not held. C. M. Jacobs quotes Luther's letter to Melanchthon of 5 July (luther_works-v4-selected_various1931.txt l.6245-6247); LW4 also holds the Sermon on Keeping Children in School, written at Coburg during the Diet, with its dedication to Lazarus Spengler (l.6234-6239, 6300 on), which does not mention the Diet. Melanchthon's 1530 letters reach us through Waterworth's quotations (council-of-trent_canons-and-decrees_waterworth1848.txt l.2356-2433, 2461-2467, 2509-2524) and through Pallavicino, who quotes his letter to the legate (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17457-17461)."
+        "note": "Not held. LW4 holds his Exhortation to the Clergy Assembled at the Diet, written at Coburg (luther_works-v4-selected_various1931.txt l.15631 on, 15664-15669), and C. M. Jacobs reports his letter to Melanchthon of 29 April about it (l.15668-15670). Jacobs quotes his letter to Melanchthon of 5 July (l.6245-6247); LW4 also holds the Sermon on Keeping Children in School, written at Coburg during the Diet, with its dedication to Lazarus Spengler (l.6234-6239, 6300 on), which does not mention the Diet. Melanchthon's 1530 letters reach us through Waterworth's quotations (council-of-trent_canons-and-decrees_waterworth1848.txt l.2356-2433, 2461-2467, 2509-2524) and through Pallavicino, who quotes his letter to the legate (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17457-17461)."
       },
       {
         "detail": "The first name of the chancellor Beyer",
@@ -2065,8 +2065,8 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Léger: 'Je ne trouve point qu'ils y ayent changé la moindre chose', except on bearing arms",
-        "witness": "leger_histoire-generale-eglises-vaudoises-livre1-fra_1669.txt l.23071-23076",
+        "claim": "Léger, on the Waldensians' talks with the reformers: 'Je ne trouve point qu'ils y ayent changé la moindre chose'. The exception is their near-Anabaptist view that only magistrates should wield the sword, which they still held in 1560, in Emanuel Philibert's war, and acted otherwise only later, after the Maccabees' example",
+        "witness": "leger_histoire-generale-eglises-vaudoises-livre1-fra_1669.txt l.23072-23086",
         "witness_kind": "later narrative",
         "formation_confidence": "Contested"
       },
@@ -2089,7 +2089,7 @@
         "formation_confidence": "Contested"
       },
       {
-        "claim": "Zezschwitz says Morel, 'noch 1532', voiced his churches' surprise at Luther's teaching on the bound will; the held letters date Morel's mission to 1530 (perrin_histoire-des-vaudois-fra_1619.txt l.14134-14143; morland_history-evangelical-churches-piemont_1658.txt l.21825-21826). The 1532 decrees, he says, breathe the firmest predestinarian teaching",
+        "claim": "Zezschwitz says Morel, 'noch 1532', voiced his churches' surprise at Luther's teaching on the bound will; the held letters date Morel's mission to 1530 (perrin_histoire-des-vaudois-fra_1619.txt l.14262-14271; morland_history-evangelical-churches-piemont_1658.txt l.21825-21826). The 1532 decrees, he says, breathe the firmest predestinarian teaching",
         "witness": "zezschwitz_katechismen-der-waldenser-und-boehmischen-brueder-deu_1863.txt l.6303-6311",
         "witness_kind": "modern reconstruction",
         "formation_confidence": "Contested"
@@ -2149,7 +2149,7 @@
       },
       {
         "claim": "That the Waldensians joined the Reformation in 1532, and what the meeting changed",
-        "sides": "About 1530: Gilles's preface (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.238-241). Nothing changed but the view on bearing arms: Léger (leger_histoire-generale-eglises-vaudoises-livre1-fra_1669.txt l.23071-23076). Protestant teaching a novelty, its full triumph in 1571: Montet (montet_histoire-litteraire-des-vaudois-du-piemont-fra_1885.txt l.9213-9219; montet_histoire-litteraire-des-vaudois-du-piemont-fra_1885.txt l.9165-9170). The 1532 decrees firmly predestinarian, against Morel's earlier unease: Zezschwitz (zezschwitz_katechismen-der-waldenser-und-boehmischen-brueder-deu_1863.txt l.6303-6311). Gilles says the reformers found 'quelques défauts' to remedy (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.1886-1888).",
+        "sides": "About 1530: Gilles's preface (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.238-241). Nothing changed in their dealings with the reformers; their near-Anabaptist view that only magistrates bear the sword held until at least 1560, in Emanuel Philibert's war, and only later, after the Maccabees' example, did they act otherwise: Léger (leger_histoire-generale-eglises-vaudoises-livre1-fra_1669.txt l.23072-23086). Protestant teaching a novelty, its full triumph in 1571: Montet (montet_histoire-litteraire-des-vaudois-du-piemont-fra_1885.txt l.9213-9219; montet_histoire-litteraire-des-vaudois-du-piemont-fra_1885.txt l.9165-9170). The 1532 decrees firmly predestinarian, against Morel's earlier unease: Zezschwitz (zezschwitz_katechismen-der-waldenser-und-boehmischen-brueder-deu_1863.txt l.6303-6311). Gilles says the reformers found 'quelques défauts' to remedy (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.1886-1888).",
         "formation_confidence": "Contested"
       },
       {

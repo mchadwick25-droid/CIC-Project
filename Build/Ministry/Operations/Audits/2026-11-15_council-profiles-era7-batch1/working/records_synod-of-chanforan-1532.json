@@ -547,8 +547,8 @@
       "formation_confidence": "Documented"
     },
     {
-      "claim": "Léger: 'Je ne trouve point qu'ils y ayent changé la moindre chose', except on bearing arms",
-      "witness": "leger_histoire-generale-eglises-vaudoises-livre1-fra_1669.txt l.23071-23076",
+      "claim": "Léger, on the Waldensians' talks with the reformers: 'Je ne trouve point qu'ils y ayent changé la moindre chose'. The exception is their near-Anabaptist view that only magistrates should wield the sword, which they still held in 1560, in Emanuel Philibert's war, and acted otherwise only later, after the Maccabees' example",
+      "witness": "leger_histoire-generale-eglises-vaudoises-livre1-fra_1669.txt l.23072-23086",
       "witness_kind": "later narrative",
       "formation_confidence": "Contested"
     },
@@ -571,7 +571,7 @@
       "formation_confidence": "Contested"
     },
     {
-      "claim": "Zezschwitz says Morel, 'noch 1532', voiced his churches' surprise at Luther's teaching on the bound will; the held letters date Morel's mission to 1530 (perrin_histoire-des-vaudois-fra_1619.txt l.14134-14143; morland_history-evangelical-churches-piemont_1658.txt l.21825-21826). The 1532 decrees, he says, breathe the firmest predestinarian teaching",
+      "claim": "Zezschwitz says Morel, 'noch 1532', voiced his churches' surprise at Luther's teaching on the bound will; the held letters date Morel's mission to 1530 (perrin_histoire-des-vaudois-fra_1619.txt l.14262-14271; morland_history-evangelical-churches-piemont_1658.txt l.21825-21826). The 1532 decrees, he says, breathe the firmest predestinarian teaching",
       "witness": "zezschwitz_katechismen-der-waldenser-und-boehmischen-brueder-deu_1863.txt l.6303-6311",
       "witness_kind": "modern reconstruction",
       "formation_confidence": "Contested"
@@ -631,7 +631,7 @@
     },
     {
       "claim": "That the Waldensians joined the Reformation in 1532, and what the meeting changed",
-      "sides": "About 1530: Gilles's preface (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.238-241). Nothing changed but the view on bearing arms: Léger (leger_histoire-generale-eglises-vaudoises-livre1-fra_1669.txt l.23071-23076). Protestant teaching a novelty, its full triumph in 1571: Montet (montet_histoire-litteraire-des-vaudois-du-piemont-fra_1885.txt l.9213-9219; montet_histoire-litteraire-des-vaudois-du-piemont-fra_1885.txt l.9165-9170). The 1532 decrees firmly predestinarian, against Morel's earlier unease: Zezschwitz (zezschwitz_katechismen-der-waldenser-und-boehmischen-brueder-deu_1863.txt l.6303-6311). Gilles says the reformers found 'quelques défauts' to remedy (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.1886-1888).",
+      "sides": "About 1530: Gilles's preface (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.238-241). Nothing changed in their dealings with the reformers; their near-Anabaptist view that only magistrates bear the sword held until at least 1560, in Emanuel Philibert's war, and only later, after the Maccabees' example, did they act otherwise: Léger (leger_histoire-generale-eglises-vaudoises-livre1-fra_1669.txt l.23072-23086). Protestant teaching a novelty, its full triumph in 1571: Montet (montet_histoire-litteraire-des-vaudois-du-piemont-fra_1885.txt l.9213-9219; montet_histoire-litteraire-des-vaudois-du-piemont-fra_1885.txt l.9165-9170). The 1532 decrees firmly predestinarian, against Morel's earlier unease: Zezschwitz (zezschwitz_katechismen-der-waldenser-und-boehmischen-brueder-deu_1863.txt l.6303-6311). Gilles says the reformers found 'quelques défauts' to remedy (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.1886-1888).",
       "formation_confidence": "Contested"
     },
     {

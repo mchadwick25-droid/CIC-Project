@@ -643,7 +643,7 @@
       "formation_confidence": "Inferential-Thin"
     },
     {
-      "claim": "The printed German text differs considerably from the one read at Augsburg; the Latin is mainly unchanged; the German in the Book of Concord rests on a Mainz copy of doubtful accuracy",
+      "claim": "Bensow judges that the printed German text surely differs considerably from the one read at Augsburg; the Latin is mainly unchanged; the German in the Book of Concord rests on a Mainz copy of doubtful accuracy",
       "witness": "bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31330-31348",
       "witness_kind": "modern reconstruction",
       "formation_confidence": "Dominant Modern Reconstruction"
@@ -748,7 +748,7 @@
     },
     {
       "claim": "When the commission of seven a side sat",
-      "sides": "Before the 13 July draft of the reply: Waterworth (council-of-trent_canons-and-decrees_waterworth1848.txt l.2441-2446) | After the reply was read, in August: Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.12918-12920), Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17449), Buchheim (luther_first-principles-reformation_wace-buchheim1885.txt l.3443), Melanchthon (book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.3388)",
+      "sides": "Told before the 13 July draft of the reply, with no date given: Waterworth (council-of-trent_canons-and-decrees_waterworth1848.txt l.2440-2446) | After the reply was read, in August: Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.12918-12920), Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17449), Buchheim (luther_first-principles-reformation_wace-buchheim1885.txt l.3443), Melanchthon (book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.3388)",
       "formation_confidence": "Contested"
     }
   ],
@@ -775,7 +775,7 @@
     },
     {
       "detail": "Luther's letters from Coburg about the Diet",
-      "note": "Not held. C. M. Jacobs quotes Luther's letter to Melanchthon of 5 July (luther_works-v4-selected_various1931.txt l.6245-6247); LW4 also holds the Sermon on Keeping Children in School, written at Coburg during the Diet, with its dedication to Lazarus Spengler (l.6234-6239, 6300 on), which does not mention the Diet. Melanchthon's 1530 letters reach us through Waterworth's quotations (council-of-trent_canons-and-decrees_waterworth1848.txt l.2356-2433, 2461-2467, 2509-2524) and through Pallavicino, who quotes his letter to the legate (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17457-17461)."
+      "note": "Not held. LW4 holds his Exhortation to the Clergy Assembled at the Diet, written at Coburg (luther_works-v4-selected_various1931.txt l.15631 on, 15664-15669), and C. M. Jacobs reports his letter to Melanchthon of 29 April about it (l.15668-15670). Jacobs quotes his letter to Melanchthon of 5 July (l.6245-6247); LW4 also holds the Sermon on Keeping Children in School, written at Coburg during the Diet, with its dedication to Lazarus Spengler (l.6234-6239, 6300 on), which does not mention the Diet. Melanchthon's 1530 letters reach us through Waterworth's quotations (council-of-trent_canons-and-decrees_waterworth1848.txt l.2356-2433, 2461-2467, 2509-2524) and through Pallavicino, who quotes his letter to the legate (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17457-17461)."
     },
     {
       "detail": "The first name of the chancellor Beyer",
