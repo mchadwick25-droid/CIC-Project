@@ -435,8 +435,8 @@
  "bernardino-of-siena": {
   "claims": [
    {
-    "claim": "The would-be hermit, his own story in Robins's English: 'this befell before I was a friar. There came to me the will to live like an angel'; 'The thought came to me that I would live on water and grass, and I bethought me that I would go live in a wood'; 'I determined also to buy a Bible ... and a cover to keep over it. And I bought the Bible, and I went to buy a piece of leather, of chamois skin, that water might not soak in'; 'I determined to go to look about me, near Massa ... not arriving at any decision, I returned to Siena'; 'I went out there beyond the Porta' (Porta a Follonica in the Italian, BANCHI2); 'Chew, and chew, it would not go down!'; 'With one mouthful of sow-thistle I rid myself of all temptation'.",
-    "witness": "ORL (bernardino-of-siena_sermons_orlandi-robins1920.txt) l.6823-6868; BANCHI2 (bernardino-of-siena_prediche-volgari-1427-v2-ita_banchi1884.txt) l.16120-16207",
+    "claim": "The would-be hermit, his own story in Robins's English: 'this befell before I was a friar. There came to me the will to live like an angel'; 'The thought came to me that I would live on water and grass, and I bethought me that I would go live in a wood'; 'I determined also to buy a Bible ... and a cover to keep over it. And I bought the Bible, and I went to buy a piece of leather, of chamois skin, that water might not soak in'; 'I determined to go to look about me, near Massa ... not arriving at any decision, I returned to Siena'; 'I went out there beyond the Porta' (Porta a Follonica in the Italian, BANCHI2); 'Chew, and chew, it would not go down!'; 'With one mouthful of sow-thistle I rid myself of all temptation'. He bought the Bible and went to buy the leather: 'E comparai la Bibbia, e andai per comparare uno quoio di camoza'. Massa is Massa Marittima by Banchi's note ('che fu patria del Santo') and his introduction.",
+    "witness": "ORL (bernardino-of-siena_sermons_orlandi-robins1920.txt) l.6823-6868; BANCHI2 (bernardino-of-siena_prediche-volgari-1427-v2-ita_banchi1884.txt) l.16120-16207; BANCHI1 (bernardino-of-siena_prediche-volgari-1427-v1-ita_banchi1880.txt) l.158-159",
     "formation_confidence": "Documented"
    },
    {
@@ -455,7 +455,7 @@
     "formation_confidence": "Widely Accepted"
    },
    {
-    "claim": "Orlandi: 'For about-forty-four years Albizzeschi preached almost unceasingly in cities and villages, more often in the piazzas than in the churches.' Orlandi selected and edited, Robins translated (title page in header). The year 1920 is the host date only.",
+    "claim": "Orlandi: 'For about-forty-four years Albizzeschi preached almost unceasingly in cities and villages, more often in the piazzas than in the churches.' Orlandi selected and edited, Robins translated (title page in header). The year 1920 is the host date only and is not told in the brief.",
     "witness": "ORL (bernardino-of-siena_sermons_orlandi-robins1920.txt) l.1-6, 238-242",
     "formation_confidence": "Widely Accepted"
    },
@@ -470,12 +470,12 @@
     "formation_confidence": "Widely Accepted"
    },
    {
-    "claim": "Glassberger was an Observant Franciscan writing his chronicles in 1508: 'Occupatus erat in scribendis his Chronicis an. 1508'.",
+    "claim": "Glassberger was an Observant Franciscan writing his chronicles in 1508: 'Occupatus erat in scribendis his Chronicis an. 1508'. The Observance as the stricter branch: GLASS l.21136-21142.",
     "witness": "GLASS (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt) l.96-110",
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Accusation before Martin V: 'Praedicatores autem cum praedicto Manfredo magnam accusationem fecerunt domino Martino Papae contra sanctum Bernardinum, eo quod magnifice praedicabat et nomen Iesus [OCR 'lesus'] in populo exclamabat; mentientes, eum inducere homines ad ritum, qui idololatriae assimilatur. Dominus autem Papa, audito beato Bernardino, nihil iniuste actum seu indiscretum praedicatum asserebat ... licentiam ei praedicandi universaliter concessit.' Undated, 'Circa haec tempora'. One late, partisan witness.",
+    "claim": "Accusation before Martin V: 'Praedicatores autem cum praedicto Manfredo magnam accusationem fecerunt domino Martino Papae contra sanctum Bernardinum, eo quod magnifice praedicabat et nomen Iesus [OCR 'lesus'] in populo exclamabat; mentientes, eum inducere homines ad ritum, qui idololatriae assimilatur. Dominus autem Papa, audito beato Bernardino, nihil iniuste actum seu indiscretum praedicatum asserebat ... licentiam ei praedicandi universaliter concessit.' Undated, 'Circa haec tempora'. Glassberger alone names the accusers and the outcome; Bernardino's own words (BANCHI1 l.5337-5341) and Banchi (l.318-322, 5373-5375, 6410-6412) witness a Roman hearing on his teaching before June 1427.",
     "witness": "GLASS (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt) l.19760-19794",
     "formation_confidence": "Inferential-Thin"
    },
@@ -550,18 +550,33 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Card uncertain: the Prologue's 'continui XLvj anni perseverò, ne' quali 42 anni pochissimi tempi fu che Egli non predicasse'; Vespasiano 'anni quarantadua' and 'anni quarantaquattro'; Glassberger 'XL annis praedicando'.",
-    "witness": "BANCHI1 (bernardino-of-siena_prediche-volgari-1427-v1-ita_banchi1880.txt) l.1242-1244, 938, 1124-1125; GLASS (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt) l.21740-21741",
-    "formation_confidence": "Contested"
-   },
-   {
-    "claim": "Card uncertain: Mansi's note in Raynaldus on Condulmer's legation, begun 'superiori anno mcdxxiii, die xvi Augusti' (note signed Mansi, l.2444).",
-    "witness": "RAYN (raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt) l.2430-2444",
+    "claim": "Card uncertain: the Prologue's 'continui XLvj anni perseverò, ne' quali 42 anni pochissimi tempi fu che Egli non predicasse'; Vespasiano 'anni quarantadua' and 'anni quarantaquattro'; Glassberger 'XL annis praedicando'. Surius in Raynaldus: 'Vixit in terris annis sex et sexaginta ... quadraginta ... praedicavit'.",
+    "witness": "BANCHI1 (bernardino-of-siena_prediche-volgari-1427-v1-ita_banchi1880.txt) l.1242-1244, 938, 1124-1125; GLASS (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt) l.21740-21741; RAYN (raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt) l.60109-60111",
     "formation_confidence": "Contested"
    },
    {
     "claim": "Latin sermons named by Vespasiano, 'il Vangelo eterno' and 'il libro de' Sermoni'; not held.",
     "witness": "BANCHI1 (bernardino-of-siena_prediche-volgari-1427-v1-ita_banchi1880.txt) l.1104-1116",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Rome hearing, his own words in the 1427 cycle: 'Di quello che s'è fatto a Roma non dico nulla; che quando io v'andai, chi mi voleva fritto e chi arostito'; Banchi: 'San Bernardino s'era recato a Roma non molto prima, costrettovi dalle male lingue, che ne accusavano di poca ortodossia le dottrine e gl'insegnamenti'; introduction: 'era stato chiamato a difendere dall'accusa di poca ortodossia i suoi insegnamenti'.",
+    "witness": "BANCHI1 (bernardino-of-siena_prediche-volgari-1427-v1-ita_banchi1880.txt) l.318-322, 5337-5341, 5373-5375, 6410-6412",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "The Campo: 'in su la Piazza di Siena, detta il Campo'.",
+    "witness": "BANCHI1 (bernardino-of-siena_prediche-volgari-1427-v1-ita_banchi1880.txt) l.1257",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Vespasiano: 'Santo Bernardino nacque a Massa'; Orlandi: 'Massa Marittima was his birthplace'; ORL 'Friar Bernardine Al-bizzeschi'.",
+    "witness": "BANCHI1 (bernardino-of-siena_prediche-volgari-1427-v1-ita_banchi1880.txt) l.819; ORL (bernardino-of-siena_sermons_orlandi-robins1920.txt) l.186-187, 2955",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Basel: the minister general sought at Basel to break the Constance decree; 'Unde hoc attendens beatus Bernardinus arguebat fratrem Iohannem'.",
+    "witness": "GLASS (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt) l.20690-20708",
     "formation_confidence": "Documented"
    }
   ],
@@ -577,14 +592,8 @@
     "claim": "Who accused him over the name of Jesus, and whether the hearings were one case",
     "sides": [
      "Glassberger: the Dominican Manfred of Vercelli and the Preachers, before Martin V, undated (GLASS l.19760-19794)",
-     "Eugenius IV's letter of 7 January 1432: Michael, priest of St Adalbert in Prague, under letters of Martin V granted at Constance; cited 21 November 1431 (BULN l.13132-13169)"
-    ]
-   },
-   {
-    "claim": "Year of the Bologna story",
-    "sides": [
-     "Raynaldus, after Sigonius: 1424 (RAYN l.2386-2426)",
-     "Mansi's note: the annalist misdates the legate's term, which began 16 August 1423 (RAYN l.2430-2444)"
+     "Eugenius IV's letter of 7 January 1432: Michael, priest of St Adalbert in Prague, under letters of Martin V granted at Constance; cited 21 November 1431 (BULN l.13132-13169)",
+     "Bernardino himself and Banchi: a Roman hearing on his teaching before June 1427, accusers unnamed (BANCHI1 l.318-322, 5337-5341, 5373-5375)"
     ]
    },
    {
@@ -598,14 +607,14 @@
     "claim": "How many years he preached",
     "sides": [
      "Prologue: 42 years of near-constant preaching within 46 (BANCHI1 l.1242-1244); Vespasiano: 42 and 44 (BANCHI1 l.938, 1124-1125)",
-     "Orlandi: about 44 (ORL l.240-241); Glassberger: 40 (GLASS l.21740-21741)"
+     "Orlandi: about 44 (ORL l.240-241); Glassberger: 40 (GLASS l.21740-21741); Surius in Raynaldus: 40 (RAYN l.60109-60111)"
     ]
    }
   ],
   "absent_details": [
    {
     "detail": "His Latin works",
-    "note": "No held file holds De evangelio aeterno or his Latin sermons; searched the cic/texts file list for bernardin, opera, vegio. Robinson cites an Opera Omnia that is not held."
+    "note": "No held file holds De evangelio aeterno or his Latin sermons; searched the cic/texts file list for bernardin, opera, vegio. Robinson cites an Opera Omnia that is not held. A content search of all cic/texts for 'Vangelo eterno', 'De evangelio aeterno' and 'Sermones' near his name found nothing more."
    },
    {
     "detail": "Maffeo Vegio's Latin Life",
@@ -620,7 +629,7 @@
  "angelo-clareno": {
   "claims": [
    {
-    "claim": "The hearing, from the Historia: 'interrogavit eum, an ipse esset frater minor; cui ille respondit, quod sic. Et dixit ad eum summus pontifex: \"Quare recessisti ab eis\"? Respondit fr. Angelus: \"Pater sancte ego non recessi ab eis; sed interrogate eos, quare repulerunt me\". Et siluit summus pontifex'. Told in modern words. 'Public hearing' renders Oliger's 'in publico Consistorio'; 'about 1317' is Oliger's 'c. a. 1317'.",
+    "claim": "The hearing, from the Historia: 'interrogavit eum, an ipse esset frater minor; cui ille respondit, quod sic. Et dixit ad eum summus pontifex: \"Quare recessisti ab eis\"? Respondit fr. Angelus: \"Pater sancte ego non recessi ab eis; sed interrogate eos, quare repulerunt me\". Et siluit summus pontifex'. Told in modern words. 'Public hearing' renders Oliger's 'in publico Consistorio'; 'about 1317' is Oliger's 'c. a. 1317'. Told without the first person: 'He had not left them, the friar answered; they should be asked why they threw him out.' 'A chronicle of the Spirituals' renders the work's subject.",
     "witness": "EHRLE2 (ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd2-deu-lat_1886.txt) l.7693-7697; CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1306-1310",
     "formation_confidence": "Widely Accepted"
    },
@@ -640,18 +649,18 @@
     "formation_confidence": "Contested"
    },
    {
-    "claim": "The prisons, in his own letter (Ehrle dates it summer 1317): 'variis persecutionibus oppressus in carceribus plurimis Ancone, Forani, Rome, Viterbii, Asisii' (OCR 'persecationibns ... caroeribas plniimis').",
-    "witness": "EHRLE1 (ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885.txt) l.29190-29197",
+    "claim": "The prisons, in his own letter (Ehrle dates it summer 1317): 'variis persecutionibus oppressus in carceribus plurimis Ancone, Forani, Rome, Viterbii, Asisii' (OCR 'persecationibns ... caroeribas plniimis'). The list runs on: 'in omnibus locis fratrum, que sunt a Roma usque ad Anconam', and further prisons follow (l.29221-29224); Oliger: 'longa serie carcerum'. Ehrle's dating: 'Geschrieben im Sommer 1317'.",
+    "witness": "EHRLE1 (ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885.txt) l.29190-29197; CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1218; EHRLE1 l.29200, 29221-29224",
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Freed c. 1289-90 by the minister general Gaufridus; missionary 'in Armeniam' (Cilicia); back 'circa initium a. 1294'.",
+    "claim": "Freed c. 1289-90 by the minister general Gaufridus; missionary 'in Armeniam' (Cilicia); back 'circa initium a. 1294'. 'Hoc vero nomine non intelligenda est antiqua Armenia, sed regnum Armeniae in Cilicia'.",
     "witness": "CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1184-1214",
     "formation_confidence": "Widely Accepted"
    },
    {
-    "claim": "1294, with Liberatus to Celestine V at Aquila: separation and the name 'Pauperum Eremitarum Coelestini'.",
-    "witness": "CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1207-1240",
+    "claim": "1294, with Liberatus to Celestine V at Aquila: separation and the name 'Pauperum Eremitarum Coelestini'. 'Fr. Liberatus a Macerata'.",
+    "witness": "CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1207-1240, 1288",
     "formation_confidence": "Widely Accepted"
    },
    {
@@ -660,7 +669,7 @@
     "formation_confidence": "Widely Accepted"
    },
    {
-    "claim": "Leader after Liberatus died in 1307: 'Ei successit in regimine fratrum Spiritualium Angelus noster'.",
+    "claim": "Leader after Liberatus died in 1307: 'Ei successit in regimine fratrum Spiritualium Angelus noster'. Told as his band of Spirituals: Ubertino and the Provençal Spirituals stood apart (EHRLE2 l.7670-7690).",
     "witness": "CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1292-1297",
     "formation_confidence": "Widely Accepted"
    },
@@ -681,32 +690,32 @@
    },
    {
     "claim": "Lea: 'though Angelo da Clarino was for a while imprisoned on the strength of an old condemnation by Boniface VIII., he was soon released and permitted to adopt the Celestin habit and Rule.'",
-    "witness": "LEA3 (lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt) l.3629-3632",
+    "witness": "LEA3 (lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt) l.3629-3632; LEA3 l.54 (title page, 1888)",
     "formation_confidence": "Widely Accepted"
    },
    {
-    "claim": "After Colonna died on 14 August 1318 he returned to Italy, 'suosque rexit in regione Urbis, morans ut plurimum Sublaci'.",
+    "claim": "After Colonna died on 14 August 1318 he returned to Italy, 'suosque rexit in regione Urbis, morans ut plurimum Sublaci'. Subiaco 'in regione Urbis'.",
     "witness": "CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1343-1346",
     "formation_confidence": "Widely Accepted"
    },
    {
-    "claim": "The 1334 bull, John XXII, 21 February 1334: capture of 'ille nequam haereticus, qui se damnatae sectae Fraticellorum maiorem seu ministrum generalem nominat'. The bull names no one; '(Angelum de Clarino)' is Eubel's bracket. Eubel edited Bullarium Franciscanum V, 1898.",
-    "witness": "BUL5 (bullarium-franciscanum_v5-lat_eubel1898.txt) l.84546-84560",
-    "formation_confidence": "Contested"
-   },
-   {
-    "claim": "Death: Oliger 'Mortuus est in eremitorio S. Mariae de Aspro, in dioc. Marsico sito, die 1d [OCR for 15] Iunii 1337'; Ehrle 'wo er am 15. Juni 1337 starb'. The Basilicata: Ehrle 'in der Diöcese von Marsico in der Basilicata'.",
-    "witness": "CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1396-1399; EHRLE1 (ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885.txt) l.27772-27774",
-    "formation_confidence": "Widely Accepted"
-   },
-   {
-    "claim": "Ehrle's reckoning of the year: the note 'feria VI infra octavam pentecostes scil. festo s. Antonii'; that weekday on 13 June only in 1317, 1337 and 1348; Oliger: 'Quod hoc anno Angelus mortuus sit, clarissime demonstravit P. Ehrle'. Older writers 1348.",
-    "witness": "EHRLE1 (ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885.txt) l.27786-27798, 28565-28567; CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1406-1407",
+    "claim": "The 1334 bull, John XXII, 21 February 1334: capture of 'ille nequam haereticus, qui se damnatae sectae Fraticellorum maiorem seu ministrum generalem nominat'. The bull names no one; '(Angelum de Clarino)' is Eubel's bracket. Eubel edited Bullarium Franciscanum V, 1898. A week later (28 February 1334), before the inquisitor Simon of Spoleto, a friar said their general 'est frater Angelus Clarani de Fossabruno, qui alias fuit vocatus frater Petrus de Fossabruno'; Oliger: 'Iohannes XXII edidit bullam contra Angelum'.",
+    "witness": "BUL5 (bullarium-franciscanum_v5-lat_eubel1898.txt) l.84546-84560; EHRLE4 (ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd4-deu-lat_1888.txt) l.594, 648-650; BUL5 l.84605, 84637-84639; CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1394",
     "formation_confidence": "Dominant Modern Reconstruction"
    },
    {
-    "claim": "Simon Fidati of Cascia studied under him as a boy: the 1833 cult decree, quoted by Oliger, 'a teneris annis prima studiorum rudimenta a P. Angelo Clareni ... accepit'.",
-    "witness": "CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1434-1437",
+    "claim": "Death: Oliger 'Mortuus est in eremitorio S. Mariae de Aspro, in dioc. Marsico sito, die 1d [OCR for 15] Iunii 1337'; Ehrle 'wo er am 15. Juni 1337 starb'. The Basilicata: Ehrle 'in der Diöcese von Marsico in der Basilicata'. He went there not long before his death: Ehrle 'nicht sehr lange vor seinem Tode begab er sich trotz seines hohen Alters in das Eremitorium'; Oliger 'recessisse videtur in Italiam meridionalem'. No line says he fled.",
+    "witness": "CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1395-1399; EHRLE1 (ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885.txt) l.27770-27774",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Ehrle's reckoning of the year: the note 'feria VI infra octavam pentecostes scil. festo s. Antonii'; 'wie schon Papebroch berechnete', in the first half of the fourteenth century that weekday fell on 13 June only in 1317, 1337 and 1348; 1348 ruled out because Simon Fidati died 2 February 1348; 'dass Angelo am 15. Juni 1337, nicht erst 1348 starb'. Oliger: 'Quod hoc anno Angelus mortuus sit, clarissime demonstravit P. Ehrle'.",
+    "witness": "EHRLE1 (ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885.txt) l.27540, 27601, 27786-27798, 28565-28567; CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1406-1407",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Simon Fidati of Cascia, O.S.A., taught by Angelo: 'Predicabam catheticatus ab ipso'; 'doctor discipulo'; Oliger 'quem patrem spiritualem et magistrum coluerat'. The 1833 cult decree's 'a teneris annis' is not told.",
+    "witness": "CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1404-1405, 1434-1437, 1485-1490, 1507",
     "formation_confidence": "Widely Accepted"
    },
    {
@@ -730,8 +739,8 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Rader: 'Primus omnium interpres Climaci, quod sciam, fuit Angelus de Cingulo'; 'Latine primum reddita fuisse dicitur an. 1295, ab Angelo de Cingulo O. M. qui Clarenus cognominatus est'; Ambrose of Camaldoli 'Negat Clarenum hunc aperte et plane transtulisse, sed obscure potius et intricate, dum verbum verbo redderet'.",
-    "witness": "PG88 (dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt) l.41444-41447, 43283-43284, 43305-43306",
+    "claim": "Rader: 'Primus omnium interpres Climaci, quod sciam [as far as I know], fuit Angelus de Cingulo'; 'Latine primum reddita fuisse dicitur an. 1295, ab Angelo de Cingulo O. M. qui Clarenus cognominatus est'; Ambrose of Camaldoli 'Negat Clarenum hunc aperte et plane transtulisse, sed obscure potius et intricate, dum verbum verbo redderet'. Ambrose 'Angeli nomen non exprimat'. Rader a Jesuit: 'Matthaei Raderi Soc. Jesu presbyteri Isagoge' (l.41442).",
+    "witness": "PG88 (dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt) l.41444-41447, 43283-43284, 43305-43307",
     "formation_confidence": "Documented"
    },
    {
@@ -745,8 +754,8 @@
     "formation_confidence": "Contested"
    },
    {
-    "claim": "Bartholomew of Pisa: 'praedicator insignis'; Wadding: 'sanctissime vixit in religione' (OCR garbled).",
-    "witness": "CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1790-1792, 1553-1554",
+    "claim": "Bartholomew of Pisa: 'praedicator insignis'; Wadding: 'sanctissime vixit in religione' (OCR garbled). Wadding (1625) 'der als der erste die historia ausgiebig für seine Annalen verwerthete'.",
+    "witness": "CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1790-1792, 1553-1554; EHRLE2 (ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd2-deu-lat_1886.txt) l.5716-5717",
     "formation_confidence": "Documented"
    },
    {
@@ -761,7 +770,7 @@
    },
    {
     "claim": "Lea: 'a man of the firmest and gentlest spirit, of the most saintly aspirations'.",
-    "witness": "LEA3 (lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt) l.3336-3338",
+    "witness": "LEA3 (lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt) l.3336-3338; LEA3 l.54 (title page, 1888)",
     "formation_confidence": "Documented"
    },
    {
@@ -772,6 +781,26 @@
    {
     "claim": "Dating of the Epistola: Ehrle, summer 1317, against Annibali da Latera after Wadding, late 1318 or early 1319; Eubel: summoned 'anno 1316 ad finem vergente aut anno 1317 ineunte'.",
     "witness": "EHRLE1 (ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885.txt) l.27824-27845; BUL5 (bullarium-franciscanum_v5-lat_eubel1898.txt) l.23184-23186",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Sabatier's apparatus: '2° Angelo Clareno da Cingoli (circa 1245-1337)'; 'prit l'habit franciscain peu après 1260'. One witness for the birth year.",
+    "witness": "SABAT (speculum-perfectionis_speculum-perfectionis-lat_sabatier1898.txt) l.46, 3828, 4586",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Fled to Greece: 'ut Italiam relinquere et in Graeciam confugere statuerint zelantes'. The island: 'in parva quadam insula, cuius nomen et situs ignorantur, a P. Ehrle vero argumentis non spernendis ut Trixonia ... determinatur'.",
+    "witness": "CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1245-1251",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "The 1331 bull against friars 'sub ducatu Angeli de Valle Spoletana': Oliger 'non liquet ... editorque Bullarii Franc. P. Eubel dubitat. Ad eam vero assumendam propensus videtur Raynaldus ... et eam sustinet F. Tocco'. 'Prof. F. Tocco' in Ehrle.",
+    "witness": "CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1417-1424; EHRLE3 (ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd3-deu-lat_1887.txt) l.22702",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Bollandists on the death: Possevinus 'mortuum putet 1294'; Arturus 'mortuum ait an. 12340' [OCR], 26 April; from the miracles 'coaevus D. Robertus de Mileto ... paullo post sancti viri obitum scripsit', 'obiisse 14 Junii'; Arturus lists him among the Blessed at 15 June. Ehrle: the list names 15 June (EHRLE1 l.27789-27790).",
+    "witness": "ASMAR3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt) l.24804-24829",
     "formation_confidence": "Contested"
    }
   ],
@@ -801,7 +830,7 @@
     "claim": "Year of death",
     "sides": [
      "1337, by Ehrle's weekday reckoning (EHRLE1 l.27786-27798), followed by Oliger (CLAR l.1406-1407) and Lea (LEA3 l.3335-3336)",
-     "1348, older writers (EHRLE1 l.28565-28567)"
+     "Possevinus 1294; Arturus a Monasterio, as the Bollandists report him (ASMAR3 l.24804-24816)"
     ]
    },
    {
@@ -810,13 +839,23 @@
      "Ehrle: summer 1317 (EHRLE1 l.27824-27845)",
      "Annibali da Latera after Wadding: late 1318 or early 1319 (EHRLE1 l.27824-27845)"
     ]
+   },
+   {
+    "claim": "Day of death",
+    "sides": [
+     "15 June: Ehrle from the list of miracles (EHRLE1 l.27789-27790); Oliger (CLAR l.1398-1399)",
+     "14 June: the Bollandists from Robert of Mileto's miracles (ASMAR3 l.24815-24817)"
+    ]
+   },
+   {
+    "claim": "Whether the 1331 bull's Angelo of the Spoleto valley is Clareno",
+    "sides": [
+     "Raynaldus and Tocco: yes (CLAR l.1420-1424)",
+     "Eubel doubts; Oliger: not clear (CLAR l.1418-1420)"
+    ]
    }
   ],
   "absent_details": [
-   {
-    "detail": "Birth year",
-    "note": "Searched CLAR, EHRLE1-3 and all cic/texts for his name forms with natus/nato/geboren/born. No held witness gives a year; 'c. 1255' is the Library file header only (CLAR l.2)."
-   },
    {
     "detail": "A full text of the History of the Seven Tribulations",
     "note": "Held only in parts (EHRLE2; DOELL no. 43). Oliger: 'Nondum habetur editio integra' (CLAR l.1645)."
