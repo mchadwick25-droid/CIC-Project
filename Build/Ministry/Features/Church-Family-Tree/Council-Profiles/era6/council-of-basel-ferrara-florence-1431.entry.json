@@ -179,9 +179,9 @@
       "note": "Modern writers on the Armenian and Ethiopian sides."
     },
     {
-      "witness": "Hiob Ludolf, Commentarius ad Historiam Aethiopicam (1691), with a Latin version of the oration of the Portuguese patriarch Alphonsus Mendez",
+      "witness": "Hiob Ludolf, Commentarius ad Historiam Aethiopicam (1691) and his History in English (1682), with a Latin version of the oration of the Portuguese patriarch Alphonsus Mendez",
       "kind": "later narrative",
-      "note": "Ludolf says Zara Yaqob stood apart from the Roman church. The oration, in his Latin, says the emperor and the metropolitan sent the envoys."
+      "note": "Ludolf takes the embassy of 1439 as Zara Yaqob's, but says the king stood apart from the Roman church. The oration, in his Latin, says the emperor and the metropolitan sent the envoys."
     },
     {
       "witness": "Manuel de Almeida, Historia Aethiopiae, books V-VIII (ed. Beccari), with Mendez's oration of 1626 in Portuguese",
@@ -453,7 +453,7 @@
     "Felix V's election day, 17 November 1439, rests on Glassberger alone.",
     "The Armenian decree is dated 22 November 1439 in its own dating clause. Raynaldus's narrative puts the Armenians' acceptance in a session of 10 December.",
     "The Coptic decree is dated 4 February 1441 in Denzinger and Mirbt, counting the Florentine year. Mansi gives it as 1442 by our reckoning.",
-    "Who sent the Ethiopians: Eugenius's letter, Patrizi and Perruchon name the emperor, Zara Yaqob. Pope Innocent X's brief of 1645, printed by Beccari, also names the king, as Zerah. Alphonsus Mendez, the Catholic patriarch sent to Ethiopia, gave an oration there in 1626. In Almeida's Portuguese of it, the emperor and the patriarch sent them. Ludolf's Latin of the same oration has \"your metropolitan\" instead. The oration adds that the emperor David later said he still had Eugenius's letter. Dillmann, as Perruchon reports, says Nicodemus of the Ethiopian convent in Jerusalem sent them, without the king's knowledge. Mendez's own history speaks of monks who came to the Florentine synod. Almeida's history says only that some Ethiopians came with the Armenians as the council ended. Catholic writers, Ludolf says, hold that the king's envoys came to Eugenius at Florence. Ludolf answers that nothing of the kind was done at the council. The Jesuits themselves, he says, show that Zara Yaqob stood apart from the Roman church. Beccari, the modern editor of Mendez and Almeida, says historians know Zara Yaqob's obedience at Florence to be a fiction.",
+    "Who sent the Ethiopians: Eugenius's letter, Patrizi and Perruchon name the emperor, Zara Yaqob. Pope Innocent X's brief of 1645, printed by Beccari, also names the king, as Zerah. Alphonsus Mendez, the Catholic patriarch sent to Ethiopia, gave an oration there in 1626. In Almeida's Portuguese of it, the emperor and the patriarch of that day sent them. Ludolf's Latin of the same oration has \"your metropolitan\" instead. The oration adds that the emperor David later said he still had Eugenius's letter. Dillmann, as Perruchon reports, says Nicodemus of the Ethiopian convent in Jerusalem sent them, without the king's knowledge. Mendez's own history speaks of monks who came to the Florentine synod. Almeida's history names no sender: some Ethiopians, it says, came with the Armenians as the council ended. Ludolf's History, in its English of 1682, says no doubt is made of the embassy Zara Yaqob sent in 1439. The Jesuit history of Tellez, in English, also says Zara Yaqob sent Ethiopians to Eugenius. In his Commentarius of 1691, Ludolf denies that Zara Yaqob joined Rome at the council. The Jesuits themselves, he says, show the king stood apart from the Roman church. Beccari, the modern editor of Mendez and Almeida, says historians know Zara Yaqob's obedience at Florence to be a fiction.",
     "The synod of 1443 in which the eastern patriarchs condemn the union: Mansi prints it and thinks it forged; Mouravieff tells it as fact.",
     "Why the Greeks came: that they sought military help is a witness's view. Mark speaks of the city guarded \"by the Pope's gold.\" The Greek chronicle printed by Bekker says no help came, and Mouravieff says no western ruler helped. No decree states a bargain.",
     "How many were at Basel's deposition session: Raynaldus says seven bishops; Aeneas Silvius, as he quotes him, describes how few came. Both reach us through the papal side.",
@@ -612,6 +612,18 @@
         "author": "Alphonsus Mendez, ed. Camillo Beccari",
         "language": "Latin",
         "file": "cic/texts/mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt"
+      },
+      {
+        "title": "A New History of Ethiopia",
+        "author": "Hiob Ludolf, made English by J. P.",
+        "language": "English",
+        "file": "cic/texts/ludolf_new-history-of-ethiopia_jp1682.txt"
+      },
+      {
+        "title": "The Travels of the Jesuits in Ethiopia",
+        "author": "Balthazar Tellez (the title page's attribution; the work is credited to Manuel de Almeida), English translation anonymous",
+        "language": "English",
+        "file": "cic/texts/telles_travels-of-the-jesuits-in-ethiopia_1710.txt"
       }
     ]
   }

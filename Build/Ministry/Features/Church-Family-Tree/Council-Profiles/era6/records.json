@@ -1501,15 +1501,27 @@
         "formation_confidence": "Contested"
       },
       {
-        "claim": "Ludolf answers the Catholic writers who say the Ethiopian king's envoys came to Eugenius at Florence: nothing of the kind was done at the council, he says. The Jesuit fathers themselves, he says, show Zara Yaqob stood apart from the Roman church",
-        "witness": "ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt l.52403-52408; ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt l.52431-52442",
+        "claim": "Ludolf's Commentarius denies that Zara Yaqob joined Rome at the council of Florence. The Jesuit fathers themselves, he says, show the king stood apart from the Roman church",
+        "witness": "ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt l.52403-52413; ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt l.52431-52444",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Ludolf's History, in its English of 1682, says no doubt is made of the embassy Zara Yaqob sent to Eugenius IV in 1439, toward the end of the council. The Ethiopian Gregory, it says, knew of it only from a painting at Rome",
+        "witness": "ludolf_new-history-of-ethiopia_jp1682.txt l.19489-19496",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Tellez's Jesuit history, in English, says Zara Yaqob wished to bring his empire to the Catholic faith and sent some of his Abyssinians to Eugenius IV",
+        "witness": "telles_travels-of-the-jesuits-in-ethiopia_1710.txt l.6272-6295",
         "witness_kind": "later narrative",
         "formation_confidence": "Contested"
       },
       {
         "claim": "Pope Innocent X's brief of 30 October 1645, as Beccari prints it, says King Zerah of Ethiopia sent envoys to Eugenius IV at the council of Florence, then held at Ferrara, to join the Ethiopian church to the Roman",
         "witness": "mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt l.1414-1420; mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt l.1432-1440; mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt l.1450-1451",
-        "witness_kind": "acts",
+        "witness_kind": "later narrative",
         "formation_confidence": "Contested"
       },
       {
@@ -1765,7 +1777,7 @@
       },
       {
         "claim": "Who sent the Ethiopian envoys",
-        "sides": "The emperor, called Constantine: Eugenius's letter (raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.49240-49247). Zara Yaqob: Patrizi, as Mansi reports (raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.49290-49296; raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.51822-51826). Perruchon, in his own text (zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893.txt l.552-553; zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893.txt l.673-674). King Zerah: Innocent X's brief of 1645 (mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt l.1432-1440; mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt l.1450-1451). The emperor and the patriarch (Almeida's Portuguese, almeida_historia-aethiopiae-liber-5-8-por_beccari1907.txt l.28464-28468), or the metropolitan (Ludolf's Latin, ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt l.57416-57425), and the emperor David later still had Eugenius's letters: the oration of Alphonsus Mendez. Nicodemus, head of the Ethiopian convent in Jerusalem, without the king's knowledge: Dillmann, as Perruchon reports (zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893.txt l.578-582). Consistent with it, monks who came to the synod: Mendez's history (mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt l.6748-6750). Some Ethiopians came with the Armenians at the council's end, no sender named: Almeida (almeida_historia-aethiopiae-liber-5-8-por_beccari1907.txt l.7658-7697). Nothing of the kind was done at Florence, and Zara Yaqob stood apart from Rome: Ludolf (ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt l.52403-52408; ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt l.52431-52442). Zara Yaqob's obedience at Florence is a fiction: Beccari (mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt l.1420; mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt l.1456-1465).",
+        "sides": "The emperor, called Constantine: Eugenius's letter (raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.49240-49247). Zara Yaqob: Patrizi, as Mansi reports (raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.49290-49296; raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.51822-51826). Perruchon, in his own text (zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893.txt l.552-553; zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893.txt l.673-674). Zara Yaqob, in 1439, toward the council's end, beyond doubt: Ludolf's History, English of 1682 (ludolf_new-history-of-ethiopia_jp1682.txt l.19489-19496). Zara Yaqob: Tellez, in English (telles_travels-of-the-jesuits-in-ethiopia_1710.txt l.6272-6295). King Zerah: Innocent X's brief of 1645 (mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt l.1432-1440; mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt l.1450-1451). The emperor and the patriarch (Almeida's Portuguese, almeida_historia-aethiopiae-liber-5-8-por_beccari1907.txt l.28464-28468), or the metropolitan (Ludolf's Latin, ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt l.57416-57425), and the emperor David later still had Eugenius's letters: the oration of Alphonsus Mendez. Nicodemus, head of the Ethiopian convent in Jerusalem, without the king's knowledge: Dillmann, as Perruchon reports (zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893.txt l.578-582). Consistent with it, monks who came to the synod: Mendez's history (mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt l.6748-6750). Some Ethiopians came with the Armenians at the council's end, no sender named: Almeida (almeida_historia-aethiopiae-liber-5-8-por_beccari1907.txt l.7658-7697). Zara Yaqob did not join Rome at the council and stood apart from it: Ludolf's Commentarius (ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt l.52403-52413; ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt l.52431-52444). Zara Yaqob's obedience at Florence is a fiction: Beccari (mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt l.1420; mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt l.1456-1465).",
         "formation_confidence": "Contested"
       },
       {
@@ -1821,7 +1833,7 @@
       },
       {
         "detail": "An Ethiopian-side witness",
-        "note": "Perruchon says the chronicles of Zara Yaqob say nothing of Florence (zara-yaqob l.668-675). Ludolf (1691), Almeida and Mendez, with Beccari's introduction and Innocent X's brief, were read in context; none is an Ethiopian text of the time."
+        "note": "Perruchon says the chronicles of Zara Yaqob say nothing of Florence (zara-yaqob l.668-675). Ludolf's Commentarius (1691) and his History in English (1682) were read in context. So were Tellez, Almeida and Mendez, with Beccari's introduction and Innocent X's brief. None is an Ethiopian text of the time."
       },
       {
         "detail": "An Armenian text of 1439",
