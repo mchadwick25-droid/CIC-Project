@@ -10,11 +10,11 @@ The live text and the audio still carry the older wording. They change to these 
 
 | Brief | Words | Grade, full text | Reading ease, names out |
 |---|---|---|---|
-| Origen | 361 | 9.2 | 74.6 |
+| Origen | 375 | 8.8 | 76.5 |
 | Methodius of Olympus | 243 | 9.1 | 72.3 |
-| Constantine the Great | 334 | 8.9 | 78.8 |
+| Constantine the Great | 331 | 9.2 | 77.9 |
 | Athanasius of Alexandria | 344 | 9.1 | 72.7 |
 | Ephrem the Syrian | 275 | 9.2 | 76.7 |
 | Gregory of Nazianzus | 324 | 9.5 | 72.0 |
-| Gregory of Nyssa | 356 | 10.0 | 68.6 |
-| John Chrysostom | 368 | 8.8 | 72.1 |
+| Gregory of Nyssa | 372 | 9.8 | 69.0 |
+| John Chrysostom | 368 | 8.8 | 72.0 |
