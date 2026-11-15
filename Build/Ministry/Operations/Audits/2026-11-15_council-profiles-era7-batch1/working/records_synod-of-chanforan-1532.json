@@ -55,7 +55,7 @@
       "formation_confidence": "Inferential-Thin"
     },
     {
-      "claim": "A prisoner in Bersour's inquiry said the barbes' synod had lasted six days; Gilles adds that the Latin trial record calls it 'Capitulum'",
+      "claim": "A prisoner in Bersour's inquiry said the barbes had then ('alors') held their synod, which lasted six days; Gilles adds that the Latin trial record calls it 'Capitulum'",
       "witness": "gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2454-2467",
       "witness_kind": "participant",
       "formation_confidence": "Documented"
@@ -205,13 +205,13 @@
       "formation_confidence": "Inferential-Thin"
     },
     {
-      "claim": "Jeanet Peiret of Angrogna, a guard Bersour caught, testified on 22 September. He said they kept guard for the ministers 'assemblez en la bourgade des Chanforans au milieu d'Angrogne'",
+      "claim": "Jeanet Peiret of Angrogna, a guard Bersour caught, testified on 22 September. He said they kept guard for the ministers 'assemblez en la bourgade des Chanforans au milieu d'Angrogne' (Gilles places the watch in 1535: Peiret was one of those Bersour caught keeping guard)",
       "witness": "gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2441-2445; gilles_histoire-ecclesiastique-eglises-reformees-vallees-de-piemont-fra_1644.txt l.3084-3086",
       "witness_kind": "participant",
       "formation_confidence": "Documented"
     },
     {
-      "claim": "Peiret said that among them was 'M. Farel, qui avoit la barbe rouge, et un beau cheval blanc', with two companions (the 1881 OCR reads 'Farel.'; the 1644 print has the comma)",
+      "claim": "Peiret said that among them was 'M. Farel, qui avoit la barbe rouge, et un beau cheval blanc', with two companions (the 1881 OCR reads 'Farel.'; the 1644 print has the comma) (Gilles places the watch in 1535)",
       "witness": "gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2446-2450; gilles_histoire-ecclesiastique-eglises-reformees-vallees-de-piemont-fra_1644.txt l.3088-3091",
       "witness_kind": "participant",
       "formation_confidence": "Documented"
@@ -571,7 +571,7 @@
       "formation_confidence": "Contested"
     },
     {
-      "claim": "Zezschwitz says Morel voiced his churches' surprise at Luther's teaching on the bound will, dating it by slip to 1532. The 1532 decrees, he says, breathe the firmest predestinarian teaching",
+      "claim": "Zezschwitz says Morel, 'noch 1532', voiced his churches' surprise at Luther's teaching on the bound will; the held letters date Morel's mission to 1530 (perrin_histoire-des-vaudois-fra_1619.txt l.14134-14143; morland_history-evangelical-churches-piemont_1658.txt l.21825-21826). The 1532 decrees, he says, breathe the firmest predestinarian teaching",
       "witness": "zezschwitz_katechismen-der-waldenser-und-boehmischen-brueder-deu_1863.txt l.6303-6311",
       "witness_kind": "modern reconstruction",
       "formation_confidence": "Contested"
@@ -593,6 +593,24 @@
       "witness": "muston_israel-of-the-alps-v1_montgomery1866.txt l.6545-6547",
       "witness_kind": "modern reconstruction",
       "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Gilles says some barbes did not consent to all the conclusions, and names Daniel de Valence and Jean de Molines as two of the leading objectors ('deux des principaux contredisans')",
+      "witness": "gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2030-2049",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Blahoslav: the envoys said they were sent by the Waldensian community ('missos esse a coetu Waldensium'), to see whether the Unity had changed and its ministers married",
+      "witness": "goll_quellen-bohmische-bruder-v1-deu_1878.txt l.7176-7179",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Crespin's editors (Benoît and Lelièvre, 1885), after Merle d'Aubigné and Herminjard: Martin Gonin came with another barbe to invite Farel and Saunier, then at Grandson, to the synod of Angrogne held on 12 September (the OCR year reads 1552; Gonin left Geneva in April 1536 and was then taken prisoner, l.49944-49962)",
+      "witness": "crespin_histoire-des-martyrs-t1-fra_benoit-lelievre1885.txt l.49905-49911",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Contested"
     }
   ],
   "contested_claims": [
@@ -603,12 +621,12 @@
     },
     {
       "claim": "Whether the name Chanforans and Farel's presence belong to the 1532 meeting",
-      "sides": "The only witness of the time is Peiret's deposition, which Gilles places in Bersour's inquiry of 1535 (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2328-2330; gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2441-2451). Gilles names no visitor at the 1532 assembly (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.1911-1918) and says the Swiss pastors 'continuoyent de venir' (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2450-2451). Tied to 1532: Muston (muston_israel-of-the-alps-v1_montgomery1866.txt l.6382-6384; muston_israel-of-the-alps-v1_montgomery1866.txt l.6402-6410; muston_israel-of-the-alps-v1_montgomery1866.txt l.7484-7485), Baum and Cunitz from Herminjard (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.2433-2435), Zezschwitz for the name (zezschwitz_katechismen-der-waldenser-und-boehmischen-brueder-deu_1863.txt l.11544-11546).",
+      "sides": "The only witness of the time is Peiret's deposition, which Gilles places in Bersour's inquiry of 1535 (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2328-2330; gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2441-2451). Gilles has Peiret caught on watch, for ministers then gathered (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2441-2445), and the prisoner's synod 'alors' (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2464-2466). Gilles names no visitor at the 1532 assembly (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.1911-1918) and says the Swiss pastors 'continuoyent de venir' (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2450-2451). Tied to 1532: Muston (muston_israel-of-the-alps-v1_montgomery1866.txt l.6382-6384; muston_israel-of-the-alps-v1_montgomery1866.txt l.6402-6410; muston_israel-of-the-alps-v1_montgomery1866.txt l.7484-7485), Baum and Cunitz from Herminjard (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.2433-2435), Crespin's editors, after Merle d'Aubigné and Herminjard: Gonin and another barbe invited Farel and Saunier from Grandson to the synod of 12 September (crespin_histoire-des-martyrs-t1-fra_benoit-lelievre1885.txt l.49905-49911), Zezschwitz for the name (zezschwitz_katechismen-der-waldenser-und-boehmischen-brueder-deu_1863.txt l.11544-11546).",
       "formation_confidence": "Contested"
     },
     {
       "claim": "What the two dissenting barbes did and how they parted",
-      "sides": "Walked out of the assembly in protest and took their complaint to Bohemia: Gilles (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2047-2058). Sent by the barbes to Bohemia and betrayed its churches: Perrin (perrin_histoire-des-vaudois-fra_1619.txt l.6538-6550; perrin_histoire-des-vaudois-fra_1619.txt l.14672-14680). So also Morland (morland_history-evangelical-churches-piemont_1658.txt l.21810-21820), Léger, by 'trop grande imprudence' (leger_histoire-generale-eglises-vaudoises-livre1-fra_1669.txt l.22897-22900). Stayed six months, praised all and went home: Blahoslav (goll_quellen-bohmische-bruder-v1-deu_1878.txt l.7159-7185), with Goll's identification (goll_quellen-bohmische-bruder-v1-deu_1878.txt l.7223-7224); Comenius (comenius_historia-fratrum-bohemorum-lat_1702.txt l.2805-2810). Gilles says the Bohemian letter blames them for nothing (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2145-2148).",
+      "sides": "Walked out of the assembly in protest and took their complaint to Bohemia: Gilles (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2047-2058). Sent by the barbes to Bohemia and betrayed its churches: Perrin (perrin_histoire-des-vaudois-fra_1619.txt l.6538-6550; perrin_histoire-des-vaudois-fra_1619.txt l.14672-14680). So also Morland (morland_history-evangelical-churches-piemont_1658.txt l.21810-21820), Léger, by 'trop grande imprudence' (leger_histoire-generale-eglises-vaudoises-livre1-fra_1669.txt l.22897-22900). Came as envoys sent by the Waldensians, told of discord at home, stayed six months and left on good terms: Blahoslav (goll_quellen-bohmische-bruder-v1-deu_1878.txt l.7159-7183), with Goll's identification (goll_quellen-bohmische-bruder-v1-deu_1878.txt l.7223-7224); Comenius (comenius_historia-fratrum-bohemorum-lat_1702.txt l.2805-2816). The Bohemian letter, as Gilles gives it, has them say they were sent (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2066-2067). Gilles says the Bohemian letter blames them for nothing (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2145-2148).",
       "formation_confidence": "Contested"
     },
     {
@@ -623,7 +641,7 @@
     },
     {
       "claim": "Whether all present signed",
-      "sides": "All present signed and swore: Perrin (perrin_histoire-des-vaudois-fra_1619.txt l.12007-12012), Morland (morland_history-evangelical-churches-piemont_1658.txt l.7944-7946). The greater part signed and two refused: Muston, citing Gilles (muston_israel-of-the-alps-v1_montgomery1866.txt l.6538-6542). Gilles says the two left without leave and does not speak of signing (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2047-2052).",
+      "sides": "All present signed and swore: Perrin (perrin_histoire-des-vaudois-fra_1619.txt l.12007-12012), Morland (morland_history-evangelical-churches-piemont_1658.txt l.7944-7946). The greater part signed and two refused: Muston, citing Gilles (muston_israel-of-the-alps-v1_montgomery1866.txt l.6538-6542). Gilles says the two left without leave and does not speak of signing (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2047-2052). Gilles says some barbes did not consent to all the conclusions (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2030-2031); Montet: 'une faible minorité' (montet_histoire-litteraire-des-vaudois-du-piemont-fra_1885.txt l.9152); Zezschwitz: two leaders of the minority left (zezschwitz_katechismen-der-waldenser-und-boehmischen-brueder-deu_1863.txt l.11554-11555).",
       "formation_confidence": "Contested"
     },
     {
@@ -665,7 +683,7 @@
     },
     {
       "detail": "A witness of the time placing Saunier or Olivetan at the 1532 meeting",
-      "note": "None held. Muston (l.6404-6405, 6411-6412) and the Baum and Cunitz note from Herminjard (beza t1 l.2433-2435) say so; Herminjard is not held. A 1539 letter of Libertet to Farel says Olivetan went to the Waldensians with Farel, without a date (calvin opera vol10 l.48140-48141)."
+      "note": "None held. Muston (l.6404-6405, 6411-6412), the Baum and Cunitz note from Herminjard (beza t1 l.2433-2435) and Crespin's editors (crespin t1 l.49905-49911) say so; Herminjard and Merle d'Aubigné are not held. A 1539 letter of Libertet to Farel says Olivetan went to the Waldensians with Farel, without a date (calvin opera vol10 l.48140-48141)."
     },
     {
       "detail": "The Olivetan Bible itself and its 'Apologie du translateur'",
