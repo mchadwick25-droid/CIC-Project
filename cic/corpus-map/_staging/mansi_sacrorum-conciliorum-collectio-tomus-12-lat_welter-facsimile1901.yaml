@@ -1,0 +1,12 @@
+source_file: mansi_sacrorum-conciliorum-collectio-tomus-12-lat_welter-facsimile1901.txt
+assignments:
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-12-lat_welter-facsimile1901--mansi-xii-the-second-council-of-nicaea-787-sessions-i-iii
+  work: 'Mansi XII, the Second Council of Nicaea (787), sessions I-III'
+  author: council-of-nicaea-787
+  locus: 'about OCR line 99123 to the end of the volume; add 12 to OCR line numbers'
+  atlas_ids:
+  - byzantine-imperial-church-heraclian-iconoclast
+  - iconophile-byzantine-monasticism
+  role: tradition
+  confidence: provisional
+  note: 'The council''s acts in the old Latin version with the Greek beside it. Only the Latin can be read in this OCR. The rest of the volume (councils of 687-787) is not placed.'

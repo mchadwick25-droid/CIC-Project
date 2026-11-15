@@ -1,0 +1,11 @@
+source_file: tauler_ausgewaehlte-predigten-gmh_naumann1914.txt
+assignments:
+- row_id: tauler_ausgewaehlte-predigten-gmh_naumann1914--johannes-tauler-selected-sermons-in-the-original-german-naumann-1914
+  work: 'Johannes Tauler, selected sermons in the original German (Naumann 1914)'
+  author: tauler
+  locus: 'about OCR lines 300-3968; add 12 to OCR line numbers'
+  atlas_ids:
+  - rhineland-mysticism-and-the-friends-of-god
+  role: tradition
+  confidence: provisional
+  note: 'Tauler''s sermons as the manuscripts give them; a selection only. No sermon here was matched to Winkworth''s English.'

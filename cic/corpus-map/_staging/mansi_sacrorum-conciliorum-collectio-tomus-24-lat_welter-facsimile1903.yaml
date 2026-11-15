@@ -1,0 +1,20 @@
+source_file: mansi_sacrorum-conciliorum-collectio-tomus-24-lat_welter-facsimile1903.txt
+assignments:
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-24-lat_welter-facsimile1903--mansi-xxiv-the-second-council-of-lyon-1274
+  work: 'Mansi XXIV, the Second Council of Lyon (1274)'
+  author: mansi
+  locus: 'about OCR lines 3718-12500; add 12 to OCR line numbers'
+  atlas_ids:
+  - latin-papal-church-gregorian
+  role: tradition
+  confidence: provisional
+  note: 'The Latin record of the council: the account of its sessions, its constitutions and the letters printed with them.'
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-24-lat_welter-facsimile1903--mansi-xxiv-the-second-council-of-lyon-1274-as-the-latin
+  work: 'Mansi XXIV, the Second Council of Lyon (1274), as the Latin record of the union'
+  author: mansi
+  locus: 'about OCR lines 3718-12500; add 12 to OCR line numbers'
+  atlas_ids:
+  - byzantine-church-after-1054
+  role: context
+  confidence: provisional
+  note: 'The Latin side''s record of the union with the Greeks. For the Byzantine church it is an outside witness.'

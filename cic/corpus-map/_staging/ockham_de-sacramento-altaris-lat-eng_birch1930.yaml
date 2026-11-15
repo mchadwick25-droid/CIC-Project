@@ -1,0 +1,11 @@
+source_file: ockham_de-sacramento-altaris-lat-eng_birch1930.txt
+assignments:
+- row_id: ockham_de-sacramento-altaris-lat-eng_birch1930--william-of-ockham-de-sacramento-altaris-birch-1930
+  work: 'William of Ockham, De sacramento altaris (Birch 1930)'
+  author: ockham
+  locus: 'OCR lines 2395-25721; add 12 to OCR line numbers'
+  atlas_ids:
+  - franciscan-order-era-6
+  role: tradition
+  confidence: provisional
+  note: 'One of his philosophical and theological treatises, with a modern English beside it.'

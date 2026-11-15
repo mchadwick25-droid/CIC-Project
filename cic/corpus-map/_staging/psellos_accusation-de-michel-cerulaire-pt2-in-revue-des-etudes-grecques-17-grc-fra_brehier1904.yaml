@@ -1,0 +1,11 @@
+source_file: psellos_accusation-de-michel-cerulaire-pt2-in-revue-des-etudes-grecques-17-grc-fra_brehier1904.txt
+assignments:
+- row_id: psellos_accusation-de-michel-cerulaire-pt2-in-revue-des-etudes-grecques-17-grc-fra_brehier1904--psellos-accusation-of-michael-keroularios-before-the-synod
+  work: 'Psellos, Accusation of Michael Keroularios before the synod, part 2 (Bréhier, REG 17, 1904)'
+  author: psellos
+  locus: 'about OCR lines 6460-8420; add 12 to OCR line numbers'
+  atlas_ids:
+  - byzantine-imperial-church-macedonian
+  role: context
+  confidence: provisional
+  note: 'The continuation of the prosecutor''s speech; a hostile witness.'

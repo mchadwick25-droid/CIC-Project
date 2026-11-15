@@ -1,0 +1,12 @@
+source_file: innocent-iii_opera-t4-sermones-de-contemptu-mundi-pl217-lat_migne1890.txt
+assignments:
+- row_id: innocent-iii_opera-t4-sermones-de-contemptu-mundi-pl217-lat_migne1890--innocent-iii-sermons-and-de-miseria-conditionis-humanae-pl
+  work: 'Innocent III, sermons and De miseria conditionis humanae (PL 217)'
+  author: innocent-iii
+  locus: 'the council sermons at about OCR lines 50793 and 50961; De miseria from about 52480; add 12 to OCR line numbers'
+  atlas_ids:
+  - innocent-iii
+  - latin-papal-church-gregorian
+  role: tradition
+  confidence: provisional
+  note: 'His own writing: the treatise on human misery, written before he was pope, and his sermons, with the two preached at the council of 1215.'

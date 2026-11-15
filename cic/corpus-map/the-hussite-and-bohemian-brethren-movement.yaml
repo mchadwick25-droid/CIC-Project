@@ -166,6 +166,16 @@ works:
     against the page image; the earlier Cologne printing of 1535 is a separate item on Internet
     Archive (dlibra.kul.pl.P.XVI.804) and was not vendored.'
   source_file: gratius_fasciculus-rerum-expetendarum-v1-lat_brown1690.txt
+- row_id: hardt_magnum-oecumenicum-constantiense-concilium-t3-lat_1698--jakoubek-of-stribro-jacobellus-de-misa-demonstratio-for-the-lay-chalice-1415-von-der-hardt-iii
+  work: Jakoubek of Stribro (Jacobellus de Misa), Demonstratio for the lay chalice, 1415 (von
+    der Hardt III)
+  author: hardt
+  locus: OCR lines 50822-52254; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: Jakoubek's own tract, kept inside his opponent's reply, as von der Hardt printed it
+    in 1698.
+  source_file: hardt_magnum-oecumenicum-constantiense-concilium-t3-lat_1698.txt
 - row_id: hofler_geschichtschreiber-husitischen-bewegung-v2-lat_1865--chronicon-taboritarum-john-of-lukavec-and-nicholas-of-2
   work: Chronicon Taboritarum (John of Lukavec and Nicholas of Pelhřimov), Höfler II
   author: hofler
@@ -426,6 +436,22 @@ works:
 
     '
   source_file: lutzow_life-and-times-of-hus_1909.txt
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-29-1431-1434-lat_welter-facsimile1904--council-of-basel-acts-and-appendices-mansi-29-for-the-bohemian-negotiations
+  work: Council of Basel, acts and appendices (Mansi 29), for the Bohemian negotiations
+  author: mansi
+  locus: not mapped; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: The council's side of its dealings with the Bohemians; the passages were not located.
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-29-1431-1434-lat_welter-facsimile1904.txt
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-30-1431-1439-lat_welter-facsimile1904--council-of-basel-documents-mansi-30-for-the-bohemian-negotiations
+  work: Council of Basel, documents (Mansi 30), for the Bohemian negotiations
+  author: mansi
+  locus: not mapped; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: The council's side of its dealings with the Bohemians; the passages were not located.
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-30-1431-1439-lat_welter-facsimile1904.txt
 - row_id: mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902--mansi-sacrorum-conciliorum-collectio-tomus-27-pisa-1409-and-2
   work: 'Mansi, Sacrorum conciliorum collectio, tomus 27: Pisa 1409 and Constance 1414-1418'
   author: mansi

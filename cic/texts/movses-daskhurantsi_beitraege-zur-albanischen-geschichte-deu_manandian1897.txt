@@ -1,0 +1,2933 @@
+Title: Beiträge zur albanischen Geschichte, von Agop Manandian (Inaugural-Dissertation, Jena)
+Creator: Agop Manandian; translates chapters of Movses Daskhurantsi (Kalankatuatsi), History of the Albanians (title page)
+Publisher: Leipzig: Druck von Breitkopf und Härtel (title page)
+Publication Date: 1897 (title page)
+Rights: Public Domain (pd-us-by-date: published 1897); the archive.org record carries no rights field, so the imprint date is the basis
+Language: deu
+Source: archive.org item BeitrageZurAlbanischenGeschichte, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (114,631) equals the size archive.org lists for the djvu.txt.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1897, out of US copyright by date. OCR quality: the German is fair. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
+Content note: Book I chapter 26, the canons King Vachagan set at the assembly of Aghuen ('Kanonische Verordnungen'), in German from about OCR line 2553. The dissertation translates selected chapters only; the whole History is not here.
+
+______________________________________________________________________
+
+
+This is a digital copy of a book that was preserved for generations on library shelves before it was carefully scanned by Google as part of a project 
+to make the world's books discoverable online. 
+
+It has survived long enough for the copyright to expire and the book to enter the public domain. A public domain book is one that was never subject 
+to copyright or whose legal copyright term has expired. Whether a book is in the public domain may vary country to country. Public domain books 
+are our gateways to the past, representing a wealth of history, culture and knowledge that's often difficult to discover. 
+
+Marks, notations and other marginalia present in the original volume will appear in this file - a reminder of this book's long journey from the 
+publisher to a library and finally to you. 
+
+Usage guidelines 
+
+Google is proud to partner with libraries to digitize public domain materials and make them widely accessible. Public domain books belong to the 
+public and we are merely their custodians. Nevertheless, this work is expensive, so in order to keep providing this resource, we have taken steps to 
+prevent abuse by commercial parties, including placing technical restrictions on automated querying. 
+
+We also ask that you: 
+
++ Make non-commercial use of the files We designed Google Book Search for use by individuals, and we request that you use these files for 
+personal, non-commercial purposes. 
+
++ Refrain from automated querying Do not send automated queries of any sort to Google's system: If you are conducting research on machine 
+translation, optical character recognition or other areas where access to a large amount of text is helpful, please contact us. We encourage the 
+use of public domain materials for these purposes and may be able to help. 
+
++ Maintain attribution The Google "watermark" you see on each file is essential for informing people about this project and helping them find 
+additional materials through Google Book Search. Please do not remove it. 
+
++ Keep it legal Whatever your use, remember that you are responsible for ensuring that what you are doing is legal. Do not assume that just 
+because we believe a book is in the public domain for users in the United States, that the work is also in the public domain for users in other 
+countries. Whether a book is still in copyright varies from country to country, and we can't offer guidance on whether any specific use of 
+any specific book is allowed. Please do not assume that a book's appearance in Google Book Search means it can be used in any manner 
+anywhere in the world. Copyright infringement liability can be quite severe. 
+
+About Google Book Search 
+
+Google's mission is to organize the world's information and to make it universally accessible and useful. Google Book Search helps readers 
+discover the world's books while helping authors and publishers reach new audiences. You can search through the full text of this book on the web 
+
+at http : //books . google . com/| 
+
+
+
+HN XPbK 
+
+
+
+■* .^ 
+
+
+
+
+
+
+Ott 
+3^05 , 
+
+Beitrage 
+
+"iir zur 
+
+albanischen Geschichte. 
+
+
+
+Inaugural - Dissertation 
+
+
+
+ZOT 
+
+
+
+Erlangung der philosophischen Doctorwurde 
+
+bel der 
+
+Hohen philosophischen Facultat der Universitat Jena 
+
+eingereicht von 
+
+Agap McO-nandian 
+
+(aus Achalzich). 
+
+
+
+Leipzig 
+
+Druck von Breitkopf & Hartel 
+
+1897, 
+
+
+
+OtT '6D~oS 
+
+
+
+
+HARVARD 
+
+COLLEGE 
+LIBRARY 
+
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+Beitrage 
+
+
+
+zur 
+
+
+
+albanischen G-eschiclite. 
+
+
+
+Inaugural^Dissertation 
+
+
+
+zur 
+
+
+
+Erlangung der philosophischen Doctorwurde 
+
+bei der 
+
+Hohen philosophischen Facultat der Universitat Jena 
+
+eingereicht von 
+
+Agop ^anandian 
+
+(aus Achalzich). 
+
+
+
+Leipzig 
+
+Druck von Breitkopf & Hartel 
+
+1897. 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+
+
+
+Sept. 23 lH;*vi . 
+
+
+
+Genehmigt von der philosophischen Facultiit der 
+Universitat Jena auf Antrag 
+
+der Herren 
+Professoren Dr. Delbruck und Dr. Gelzer. 
+
+JENA, den 28. Juli 1897. 
+
+Professor Dr. Eucken 
+d. Z. Dekan. 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+Untersuchungen Uber Moses den Utier 
+
+(KaJankatuaci). 
+
+
+
+Die zahlreichen armenischen Historiker und Chronisten sind 
+bisher wenig von den abendlSindischen Gelehrten behandelt wor- 
+den; es giebt noch eine ganze Reihe von wichtigen Werken, 
+wie Sebeos^), Moses Katankatuaci und andere, die nur ins Rus- 
+si3che, aber in keine der westeuropaischen Sprachen tlbertra- 
+gen worden sind. 
+
+Obschon die armenischen Gescbicbtswerke in ihrer ttber- 
+wiegenden Mehrheit einheimische Geschicbte behandein, giebt 
+es doch unter ihnen auch solche, die fttr die Geschicbte der um- 
+liegenden barbarischen VOlker von grdsster Wichtigkeit sind. 
+Zu diesen gehdrt in erster Reihe die » Geschicbte der Albanier 
+(A}uank*)« von Moses Kalankatuaci. 
+
+Die Yernachl^ssigung dieser in mancher Beziehung werlh- 
+vollen Schrift ist daraus zu erklSren, dass sie erst im Jahre 1860 
+herausgegeben worden ist. Aus den armenischen Chronisten 
+des XIII. Jahrhunderts wusste man, dass Moses KaJankatuaci 
+eine albanische Geschicbte geschrieben hatte, und man war 
+bemttht, Handschriften davon aufzufinden. P. ^amcean^), P. 
+Sukias SomaP) und K. F. Neumann 4) erwahnen Moses Kalanka- 
+tuaci, ohne naher auf ihn eingehen zu kOnnen, weil die Hand- 
+schriften damals noch unbekannt waren. Die alteste stammt 
+
+
+
+i) Der Schluss von Sebeos (Kap. 30 — 38) ist ins Deutsche iibersetzt 
+worden von H. HUbschmann, >Zur Geschicbte Armeniens und der ersten 
+Kriege der Araber aus d. Armen. des Sebeos*. 
+
+2) >Geschichte Armeniens*, 1784 — 86, Bd. II, p. 1046 (armen.). 
+
+3) >Quadro della storia letteraria di Armenia*, Venezia, 1829, p. 44. 
+
+4) »Versuch einer Geschicbte der armenischen Litteratur*, Leipzig, 
+4 836, p. 103—104. 
+
+1* 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+aus dem Jahre 1 289 und ist in der Bibliothek von Ejmiacin ent- 
+deckt worden. Nachdem der Bibliothekar von Ejmiacin, der 
+gelehrte Bischof J. Sahchat'unian, ftlr den franzOsischen Gelehr- 
+ten Eugene Bor6, welchem wShrend seiner armenischen Beise 
+die Handschrift zu Gesichte gekommen war, eine Abschrift be- 
+sorgt hatte, wurde Moses Kal^ankatuaci auch den europSischen 
+Gelehrten zug^nglich gemacht. Seitdem sind noch verschiedene 
+andere Handschriften aufgefunden worden; doeh sind dieselben 
+jtLngeren Datums. 
+
+Im Jahre 1847 erschien im Journal Plnstitut^) (Sc. hist. 
+N. 136, avril, 1847) ein Aufsatz tiber Moses Kah von Eugene 
+Bor6 unter dem Titel: >Histoire des Aghovans par Mo^se Gal- 
+kantouni, extraite et traduite du manuscrit arm^nien, par M. 
+Eugene Bor6.< Dieser Aufsatz wurde in den »Nouvelles Annales 
+des voyages* (r6d. par M. Vivien de Saint-Martin. T. II, Paris, 
+1848, p. 53 — 93) abgedruckt und mit einigen Anmerkungen von 
+M. Vivien de Saint-Martin versehen. E. Bor6 tadelt in seinem 
+Aufsatze Moses von Choren wegen seiner willktlrlichen Ableitung 
+des Namens Ahiank*^ aus dem armenischen Worte aiu »stlss, an- 
+genehm«, und giebt selbst in einer ausftlhrlichen Auseinander- 
+setzung eine ebenso schlechte Etymologie des Wortes, indem er 
+es auf die Wurzel ari zurtickftihrt. 2) Er giebt uns dann eine 
+kurzgefasste tFbersicht und einige Ausztlge aus der »Geschichte 
+der Albanier« und ftlgt mit Becht hinzu, dass Moses Kah kein 
+Historiker, sondern nur ein Chronist oder besser gesagt ein Kom- 
+pilator sei: »accorder ^ MoYse Galkantouni le nom d' historien 
+serait lui faire trop d'honneur; ce n'est h proprement parler 
+qu'un chroniqueur, encore tr^s-imparfait, ou mieux un compi- 
+lateur* (Nouv. Annales, T. II, p. 60). Sehr ungltlckiich ist er 
+aber bei der Zeitbestimmung des Moses gewesen ; denn er setzt 
+ihn ins VIII. Jahrhundert, ohne seine Ansicht irgend wie zu be- 
+grtlnden (T. II, p. 61). Wie wir aber im Folgenden nachweisen 
+woUen, widerspricht Bor6's Annahme vollstMndig den That- 
+sachen. 
+
+
+
+4) Derselbe Aufsatz scheint auch in der Zeitschrift »Universit6 ca- 
+tholiquec ver&ffentlicht zu sein. (Vgl. >BeitrSge zur armen. Litteratur« von 
+K. F. Neumann, Munchen, i849, p. 4). 
+
+2) M. J. Saint-Martin Mit das armenische Aluank' fUr eine Umschrei- 
+bung von Albania der alten griechischen und lateinischen Autoren. M6- 
+moires histor. et g^ogr. sur TArm^nie, T. I, Paris, 1818, p. 215. 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+Nichts weiter ais eine Wiedergabe des Aufsatzes von Bor6 
+ist der Artikel von K. F. Neumann in seinen »Beitrdgen zur ar- 
+menischen Literatur<, Mtlnchen, 1849, p. 1—16 (> Moses Kalkan- 
+tuni. Padmuthiun Achuaniz«). 
+
+Einige neue Ausztlge aus Moses mit Anmerkungen versehen 
+verOflFentlichte dann im Jahre 1851 M. Brosset in den Additions 
+et 6claircissements h Thistoire de la G6orgie«, St.-Petersb., 1851, 
+p. 468 — 494 unter dem Titel »£xtraits de V Histoire des Agho- 
+vans, en arm6nien, par Mos6 Caghancantovatsi.« M. Brosset 
+setzt unseren Autor ins X. Jahrhundert aus dem Grunde, weil 
+das letzte geschichtliche £reigniss, welches im dritten Buche der 
+albanischen Geschichte erw^hnt wird, n^mlich die Einnahme 
+der Hauptstadt Partav durch die Ruziken (Russen), ins X. Jahr- 
+hundert fallt, und weil die Liste der albanischen Patriarcheo, 
+die er nicht, wie E. Bor6 ftlr eine spatere Interpolation i) halten 
+will, ungefahr bis zum Ende des X. Jahrhunderts reicht (»Ad. 
+et eel. p. 468 und 488). 
+
+Der Text der albanischen Geschichte wurde, wie wir oben 
+erwShnt haben, im Jahre 1860 herausgegeben: erst in Moskau 
+von M. Emin^), dann auch noch in demselben Jahre in Paris von 
+K. Sahnazarian. ^) 
+
+In der Einleitung zu seiner Ausgabe bespricht K. Sahna- 
+zarian die Zeit des Moses und meint ihn mit Sicherheit in die erste 
+Halfte des VII. Jahrh. setzen zu kdnnen. ^) Das dritte Buch soil 
+nach ihm eine spStere Interpolation sein. Als einzigen Grund 
+ftlr seine Zeitbestimmung ftlhrt er den Umstand an, das Moses 
+Kalankatuaci an einigen Stellen seiner Geschichte als Zeitgenosse 
+und Augenzeuge von geschichtlichen Ereignissen des YII. Jahr- 
+
+
+
+i) Vgl. E. Bor6, Nouv. Annales, T. II, p. 93: >cette liste qui s'6tend 
+au dela de T^poque ou Moise Galkantouni termina son histoire, a 6t6 
+augment^e par quelque copistec 
+
+S] J^nifubru/i l^iuqiuUl^iuutnLiuaLnj ^tuutJiiLpiiiit l^qitLu/uhg 
+m2juuip^li ^ \^nu^iftu f 4 860. 
+
+3) l^nijutu l^iuquiiul^iujutnLuiglt u^uiiaJf^ la^tfiulblig ^ I — II, 
+^luppit 4 860, (2 Bde.) 
+
+4) Auch Pat. S. Somal war derselben Meinung: »Visse al deciinare 
+del presente (VII) secolo, come pretendono molti, lo storico Mos6 Cal- 
+caatuense, il quale scrisse la storia degli Albanr, popoli confinanti coll' Ar- 
+menia*. (»Quadro della storia letteraria di Armenia*. Venezia, 4 829, p. 44). 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+6 
+
+hunderts erscheine. Wie wenig stichhaltig aber dieser Grund 
+ist, werden wir im Folgenden zeigen. 
+
+Ferner ist noch die russische Uebersetzung der »Geschichte 
+der Albanier« von K. Patkanian (Petersb. 1861) zu erwahnen. 
+In einerkurzen Einleitung setzt er zwar die Grtlnde auseinander, 
+wonach Moses dem VII. Jahrh. angehQren kann^ aber trotzdem 
+theilt er ihn dem X. Jahrb. zu , well die armenischen Chronisten 
+des XIIL Jahrh. alle drei Btlcher der albanischen Geschichte 
+kennen. »Wir wSren einverstanden,« sagt er, »den Autor ftlr 
+einen Schriftsteller des VII. Jahrh. zu halten , wenn nur irgend 
+jemand von den armenischen Schriftstellern die )» Geschichte der 
+Albanier« in zwei Bttchern erwHhnt hatte ; denn das drilte Buch 
+ist ohne Zweifel ein Werk des X. Jahrhunderts« (Russ. Ueber- 
+setzung, Einl. p. VIII— IX.). 1) 
+
+Auf den Standpunkt von Sahnazarian stellt sich K. Zarba- 
+nalian (» Altarmenische Litteraturgeschichte vom IV.— XIIL Jahr- 
+hundert. Venedig, 1889, p. 422—435, neuarm.). Auch er 
+rechnet Moses unter die Historiker des VII. Jahrhunderts und 
+halt das dritte Buch ifQr eine spatere Fortsetzung. Bei der Tren- 
+nung des dritten Buches von den zwei andern ist fttr ihn der 
+sprachliche Unterschied Ausschlag gebend. Das ist aber von 
+vornherein abzuweisen; denn bei einem Kompilator, welcher 
+sein Geschichtswerk aus verschiedenen Quellen zusammen- 
+schreibt, ist die Verschiedenheit des Styls wohl begreiflich. 
+
+Vor Kurzem erschien noch ein Aufsatz von »Ch. V.« tlber 
+die Ejmiaciner Handschriften des Moses Kalankatuaci in der ar- 
+menischen Monatsschrift »Ararat« (1895 — Juli, September, Ok- 
+tober, November; 1896 — Januar, Februar, Marz, April; 1897 
+— Februar). Dieser Artikel ist fttr uns insofern von Interesse, 
+weil nach ihm in der erwahnten altesten Handschrift vom 
+Jahre 1289, welche die Grundlage unserer gedruckten Texte 
+ist, einige Stellen gef^lscht sein sollen. 
+
+
+
+4) In seinen spSiteren Werken setzt Patkanian unsern Autor bald ins 
+VII., bald ins X. Jahrh. (Vgl. »Geographie des Moses von Chorenc, 4 877, 
+p. XIV. »Bibliogr. Umriss*, 4 879, p. 36—37). 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+II. 
+
+Die »Gesehichte der Albanier« ist in drei Bttcher einge- 
+theilt; indessen vermisst man eine planvoUe Anordnung und 
+Eintheilung des Stoffes ganz und gar. 
+
+Der Verfasser des Buches, allem Anschein nach ein albani- 
+schier Geistlicher ^) aus der Provinz Uti 2), nimmt sich vor, nach 
+den ihm zugSnglichen Geschichtswerken. Briefen und anderen 
+Schriftstticken die Geschichte seines Landes darzustellen, und 
+dabei legt er selbstverstSlndlieh , seiner Zeit entsprechend, das 
+Sehwergewicht auf kirchengeschichtliche Ereignisse. Was er 
+uns in seinem ersten Buche tlber die alteste Geschichte seines 
+Landes zu erzSihlen weiss, hat er aus den uns bekannten arme- 
+nischen Schriftstellern excerpiert, dagegen das zweite Buch. 
+welches u. a. werth voile, anderswo nicht tlberlieferte Berichte 
+tlber Ghazaren, Hunnen, dann auch tlber die Ztlge des Herakleios 
+und das albanische Herrscberhaus Mihrakan enthSilt, ist far den 
+Historiker von besonderem Interesse. 
+
+Der Verfasser bietet uns nur den rohen StolSf dar, welcher 
+oft mit der eigentlichen Geschichte des albanischen Landes nur 
+in einem losen Zusammenhange steht. £r wiederholt lediglich, 
+was er in seinen Quellen vorfindet, ohne dieses Material mit 
+ordnendem oder gar mit kritischem Geiste zu durchdringen. 
+Dass wir es hier mit einem Werke desselben kompilatorischen 
+Charakters zu thun haben, wie etwa bei der Schrift des ebenfalls 
+dem X. Jahrhundert angehOrenden Bischofs Ucht^'anes, unterliegt 
+keinem Zweifel. Denn wir kdnnen bei einem erheblichen Theile 
+des Buches die noch vorhandenen Quellen nachweisen. 3) Aber 
+
+
+
+4) In einer der Handschriften lautet der Titel der » Geschichte der 
+Albanier« folgendermassen: »Das Buch der Geschichte des Albanierlandes« 
+in drei Theile getheilt und vom gelehrten Vardapet (Monch) Moses Kalan- 
+katuaci verfasst« (E jmiaciner Handschr. Nr. 632, vgl. »Ararat«, September, 
+4895, p. 333). 
+
+2) Vgl. Kalank., Buch m^, p. 4 07. 
+
+3) Viele der Quellen unseres Autors hat K. Patkanian zusammenge- 
+stellt. (Russ. Uebersetz. Einleit. p. X—XII). Nach ihm sind von Moses 
+Kalankatuaci folgende Quellen benutzt worden : I, 4 entnommen aus Mo- 
+ses von Choren; I, 6 und 7 — ^'lypg "PF"ff^ {» Leben der Heiligen«], 
+Th. XII, p. U5 ; I, 8 und 9 — Moses von Choren und »Yaysmavurk*«, Th. I 
+Sept. 24 ; I, 40 — Elise (Elisaus); I, 4 2 und 4 3 — Moses von Choren; I, 46 
+bis 48 — »Leben der Heiligen* und »Yaysmavurk'«, Th. Vll, p. 5—24, Th.I 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+8 
+
+auch bei solchen Partien des Werkes, deren Quellen uns unbe- 
+kannt sind, wSre es vorschnell gleich zu schliessen, hier liege 
+Onginalarbeit des Moses vor. Vielmehr wenn wir den koonpila- 
+torischen Charakter seines Baches bertlcksichtigen ^ liegt die 
+Mdglichkeit, ja die Wahrscheinlichkeit nahe, dass auch diese 
+Sttlcke aus fremden Quellen entlehnt sind. Es ist daher ein 
+Fehler von Bor6, §ahnazarian und anderen, dass sie solche 
+Stellen ohne weiteres auf Moses Kalankatuapi selbst zurtlck- 
+ftlbren. Wie verhangnissvoll eine solche Annahme ftlr die Zeit- 
+bestimmung des Autors geworden ist, werden wir spSter sehen. 
+Moses J der nach Exzerptorenarl die ausftthrlichen Berichte 
+seiner Quellen vielfach kttrzt, dehnt dieses Yerfahren auch auf 
+die Briefe aus. Man vergleiche, urn sich davon zu (Iberzeugen, 
+II, 49 (»Die Antwort der Armenier auf den Brief des Bischofs 
+MechitW von Amaras«. Mosk. Ausg., p. 219) mil dem uns in 
+ausftlhrlicherer Form tlberlieferten Brief, welcher in >Ararat« 
+abgedruckt ist (1896). Wie es scheint, hat Moses auch bei an- 
+deren Briefen, welche er uns allein tlberliefert, dasselbe Yer- 
+fahren eingeschlagen. 
+
+III. 
+
+Aus dem bisherigen erhellt, dass alle Kritiker, welche nach 
+M. Brosset die >Geschichte der Albanier« behandelten, die Ab- 
+fassung der zwei ersten Bttcher ins Yll. Jahrhundert setzen und 
+das dritte Buch ftlr eine spdtere Fortsetzung halten , und dass 
+nur K. Patkanian das Werk zweifelnd dem X. Jahrhundert zu- 
+schreibt, ohne jedoch die ftlr das YII. Jahrhundert sprechenden 
+Grttnde zu widerlegen. Zur Begrtlndung ihrer Ansicht machen 
+Sahnazarian und nach ihm auch die anderen darauf aufmerk- 
+sam, dass im II. Buche der albanischen Geschichte Stellen vor- 
+kommen, aus denen man ersehen kOnne, dass der Erz^hler jene 
+Ereignisse mit eigenen Augen gesehen und auch selbst dabei 
+
+
+
+Sept. 5. Collection des canons de I'^glise d'Arm^nie (ms. Arm. no. 84)^ 
+fol. 227 verso — 230 verso. Vgl. M6m. sur rArm^nie, 1. 1, p. 24 7. >Yays- 
+mavurk'*, Th. II, MSrz 4 6; 1, 4 9 bis 23 — »Leben der Heiligen«, Th. V, 
+p. 376, Th. VII, p. 5—24; I, 28 — »Leben der Heiligenc, Th. Ill, p. 424, 
+Th. V, p. 284 ; II, 4 — Pelros von Siunik*; II, 2 — Elise; II, 3 — Moses von 
+Choren; II, 4 5 — Viroy, Katholikos von Albanien; II, 50 — »Leben der 
+Heiligenc 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+mitgewirkt habe. Die Gesandtschaft des albanischen Katholikos 
+Viroy zn dem ChazarenhSiuptliDg Sat*^, die Hungersnoth^ welche 
+damals in Albanien ausgebrochen war, die Macht und die Gr^sse 
+des Albanierftlrsten JivanSir, die Bltlthe des Landes unter seiner 
+Herrschaft und noch manche andere Ztige sind mit grosser Aus- 
+ftthrlichkeit und offenbar von Augenzeugen beschrieben, worauf 
+schon Sahrazarian hinge wiesen hat^): 
+
+Der Chazarenftirst Sat*, Sohn von Jebu Chakan , macht im 
+Jahre 628 einen Einfall in Albanien, verwtlstet das Land und 
+pltlndert es aus, so dass die Albanier mit ihrem Katholikos Viroy 
+sich gen(5thigt sehen, von den Persern abzufallen und sich der 
+Macht des Kdnigssohns §at* zu unterwerfen. Der Katholikos Viroy 
+begiebt sich darauf mit reichen Gaben an der Spitze einer Ge- 
+sandtschaft zu Sat*, um ihm die Unterwerfung seines Volkes an- 
+zuzeigen und ihnnebst seinenFeldherrn und RM then durch reiche 
+Geschenke zu besanftigen. Die Gesandten kommen in das Lager 
+zu Sat* und werden von ihm gnSdig empfangen. An dieser 
+Stelle wird die Chazarenhorde geschildert und beschrieben, wie 
+die Gesandtschaft dem KOnigssohn Sat* vorgestellt wurde, was 
+alles ohne Zweifel von einem Mitgesandten aufgezeichnet worden 
+ist. Der Verfasser sagt ausdrtlcklich: »!]>#/. utkuutg ^juuqJhgu 
+
+iinatu fi ^tiL^u p t^puti Sitq^uty ftuin IbJiuhnLpbrtuh ifituntuhuiug 
+S-iuitpiupbrnit nLquinug • jtLpuiptub^t^ 4"^ *% LS^'^'L '^"'f 
+juiiUunLpp. uilUuiuiUng , puin ^JJilb II. ul^utb/^o , inpnuiT puihuiipii 
+jttLtnbr^ pLpbruihg jiuqiufitLp | II apuatfiul^u L. antTuilnhu 
+tupS-iupbrni^^u Diuiin.iuunAu jnuuh ^luJiii/tb-uttu qnpu pbrpbrutt 
+i/ili jtuLiupf/b ^iftfubriug • [^1^ ^i^it II q^pi/pnffu brq^ftLpbrqf^'Uu 
+II ajynpntruiklLu ifiuyinbrqf^lUu inrS-iuJIrS-u y "/""/ t/iupaiuhiuLit 
+tuiipf^ph • II itni^lb u^utptuputiu^iuh uuinnjg tuhtntjui lunmhtj^^ 
+jtupluntA jiuisqj^uyuy jt i^l/ putt^uilftr brp^nL brpLnL Liu J* 
+
+
+
+4) Ein Irrthum ist es freilich, wenn Sahnazarian als Beweis dafiir, 
+dass Moses im VII. Jahrh. lebte, die Wendung aus dem Bericht iiber die 
+Irrlehre der Fingerbeschneidung anfiihrt (Einl. S. 83): >Wir — viele — 
+haben gesehen* (I, 4 8, p. U4). Diese Worte sagt nicht der Schriftsteller, 
+sondern der Knabe, welcher die Fingerbeschneidung beschreibt. Jene Irr- 
+lehre failt unter Vacakan den Frommen {V. Jahrh.); also miisste Sahna- 
+zarian danach Moses gar in das Y. Jahrh. setzen. Ygl. Patkanian, Russ. 
+Uebers. p. VJI, VIII. 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+10 
+
+L. ^hna juiiiiiuu npnihujbu fiLpbriuha pppli- p utftl^u nLiLiiLjp^u 
+stuifif^ph <••••• \fL pp^p^ iTnLS-plb qiinuui p lubrppu puin dp 
+ijLniituu^iu^u Jplb^lL gbrpl^pnpij^ L. ^plbS-uyu nq^J^i^Mplu piupXiriUf^ 
+p piuqLuia tHrpna njfrp ^luPnLqp^nuplb | luu^ut phptuffiuh ffUi^ 
+utntuf %npui L. ^puiJiUjbrgp'u uiJbriilrgnLb 'pfp'trg^ nutU nutU k. 
+
+lrp^pu^iuqMi%lri^ Irppgu uA^iuiP u. s. w. [»Wir sahen sie mit un- 
+tergeschlagenen Beinen, auf den Enieen sitzend, den Schaa- 
+ren schwer beladener Kameele ahnlich. Jeder (hatte vor sich) 
+ein Becken gefttllt mit dem Fleische unreiner Thiere , ebenso 
+Schtlsseln mit Salzwasser, in die sie beim Essen (das Fleisch) 
+eintauchten; (wir sahen) auch silberne, ciselierte, in Gold 
+eingefasste Becher und Trinkschalen, die sie mit der Beute 
+aus Tiflis gebracht batten ; ebenso Trinkschalen aus Horn und 
+auch grosse hOlzerne, mit welcben sie Fleischbrtlhe schlOrf- 
+ten. Mit demselben fetten ungewaschenen Schmutz gossen aus 
+einem und demselben Becher je zwei oder drei von ihnen den 
+ungemischten Wein oder die Milch der Kameele und der Pferde 
+in ihre unersattlichen Bauche wie in geschwollene Schlauche 
+
+hinein.« >Nachdem sie sie (die Gesandten) von den 
+
+einen Thtlrhtltern zu den andern hingefQhrt batten, nahmen sie 
+die Geschenke der Begrtlssung aus unserer Hand hinter dem 
+Katholikos , gingen dann vor ihn und gaben alien den Befehl, 
+leise zu gehen und sich dreimal zu verbeugen u. s. w.« II, 44 
+p. 425—426]. Die angeftthrten Stellen zeigen deutlich, dass die 
+Beschreibung von einem Augenzeugen und Mitgesandten des 
+Katholikos Viroy herrtlhrt: denn von Viroy selbst, dem das fol- 
+gende Kapitel mit Recht zugeschrieben wird, kann die Schil- 
+derung nicht stammen, wie dies Patkanian vermuthete (Einlt. 
+p. XII), erstens, weil dieses Kapitel vor Allem seine Vorztlge 
+und seine vSterliche Ftlrsorge fttr sein Volk rtthmt, und wir ihm 
+gewiss nicht zutrauen kdnnen, dass er eine solche Selbsver- 
+herrlichung in der dritten Person verfasst babe, und zweitens, 
+
+weil die Worte *L n^pU&uiju nq^^mitplb puip^hui^ *p piuaLuMg 
+
+tHrpng tjfbp ^utpnLqp^nuplb < (»sie uahmeu die Geschenke der 
+Begrttssung aus unserer Hand hinter dem Katholikos «) ofifen- 
+bar nicht dem Viroy selbst, sondern einem seiner Mitgesandten 
+angehdren. Sahnazarian und Zarbanalian sehen in dem Reden- 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+— 11 — 
+
+den den Moses und machen ihn darum zum Zeitgenossen des 
+Viroy. 
+
+Eine andere Stelle, wo die Person des Erzahlers , welchen 
+die Eritiker wiederum mit Ka^ankatuaci selbst identificieren, 
+zum Vorschein kommt, haben wir im 28. Kap. desselben Buches 
+(II, 28, p. 158 — 159). Der grosse tapfere Fttrst Jfivansir aus dem 
+Geschlechl Mihrakan^), dessen Heldenthaten in unserem Werke 
+ausftlhrlich berichtet werden, beruft eine allgemeine Versamm- 
+lung, an welcher auch der, Erzahler tbeilgenommen zu haben 
+scheint, Der kdnigliche Vogel und der Elephant haben dabei 
+auf die Phantasie unseres naiven Erzahlers einen besonders 
+starken Eindruck gemacht. Wir lassen hier ein Sttlck seines 
+Berichtes folgen: T^jtufudiuiT J/iikp '"'"i^ ^utJiu^fuutp^ut^uA 
+
+tfnqnil^y itLp inbruuthi^uta qlbiu ffi Jjiuajii unihipuil^uM% stuifintff 
+luji lunuMLhrt Ilu atuqJiuuiiuutp^ uippiujuiLuiU 2J*"'L uiSibhnui 
+iHlrph-lrutbruii* utbrutuli^uip Lm ^luppuyiu/fiuiAi ^uil^ "PI/ '"^uwlfu 
+au/Jul^uaih f^p , ^r^ H^t i^^iuq.iyh ijitrutnLpuU '^"Mp P^} 
+^uihiusnLppi^ ^tuJtuffutp JuuaiLUbruii luputiuou ^n^tp • * U. S. W. 
+
+[»Damals fand eine allgemeine Versammlung statt, wo wir ihn 
+(d. Jivansir) nicht bloss in gewdhnlicher Grosse, sondern mit 
+noch grdsserem kSniglichem Glanze umgeben und geschmtlckt 
+sahen. Wir sahen auch den kSniglichen Vogel, dessen Aussehen 
+lieblich war, denn durch die gelblichen Federn schimmerte das 
+beigemischte Grttn hindurch . . u. s. w.] Auch hier gewinnen 
+wir die Ueberzeugung, dass nicht bloss die Berichte tlber Viroy, 
+sondern auch die tlber den Ftlrsten Jivansir von einem Zeit- 
+genossen stammen. 
+
+Wenn aber Sahnazarian und Zarbanalian behaupten , dass 
+nach den angeftlhrten Stellen »unzweifelhaft« anzunehmen sei, 
+Moses Kalankatuaci habe zur Zeit des Katholikos Viroy und unter 
+dem Fttrsten Jlivansir gelebt, so begehen sie einen methodischen 
+Fehler, da sie ohne Berechtigung Moses selbst als den direkten 
+Verfasser jener werthvoUen Beschreibungen voraussetzen und 
+die MiJglichkeit der Entlehnung gar nicht beachten. Wir haben 
+auch sonst Belege daftlr, dass unser Autor, well er seine Quellen 
+nicht umzuarbeiten pflegt, die persdnlichen Bemerkungen seiner 
+
+
+
+4) Mihr soil ein Yerwandter des Sasanidenkdnigs Chosrau II (Parvez) 
+gewesen sein (590—628). Mos. KaJ, II, 4 7, p. 4 35. 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+12 
+
+Gewdhrsm£liiner direkt in sein Werk aufgenommen hat^), und 
+wenn also im zweiten Buche hie und da Stellen yorkommeQ, 
+welche auf den ersten Blick unsern Autor sprechend einzu- 
+ftthren scheinen, so bilden sie kein. sicheres Argument fttr die 
+Zeitbestimmung des Kompilators selbst. Auch darf man nicht 
+ohne weiteres annehmen, dass der Mitgesandte des Katholikos 
+Viroy und der Theilnehmer an der von jfivansir benifenen Ver- 
+sammlung eine und dieselbe Person seien; denn die betreffen- 
+den Eapitel kOnnen mOglicherweise von unserem Autor aus 
+zwei verschiedenen Quellen excerpiert sein. 
+
+Wir werden nun zu beweisen versuchen, dass eine ein- 
+gehende Untersuchung zu dem zwingenden Ergebniss gelangen 
+muss, Moses habe die oben besprochenen Augenzeugen-Beriehte 
+aus anderen Schriften entnommen; denn einige Partieen des 
+zweiten Buches, welche wir nicht berechtigt sind fttr Interpola- 
+tionen zu halten, verrathen deutlich den spSiteren Kompilator 
+als Verfasser. Das Kapitel ^^ (B. II) >Ueber die Herkunft des 
+Hauses Mihrakan aus dem Geschlecht des Sasaniden Chosrov 
+und die Herrschaft (jenes Hauses) tther das Volk der Albanier« 
+ftthrt Kalankatuaci mit folgenden Worten ein: »|i umnjii. L jt 
+
+tiniii u^tuuiJiuq^ptug lujuu^iru S-um'H^iup , Irfi^t P^9-'[/ ^ ll iffirxxri/* 
+Irnntunja^ ""Ul'Hlb^'R ^'"P"l'ff Piutf.utLnpp'h , jiuplruiii ji ijlrpuij 
+f\pJ^fiLp tuppuyp 4op Jpnupni^L L. uu^u/b/ih ^lu,* [>aUS Wah- 
+
+ren und wirklichen Geschichtsschreibern haben wir (es) so 
+erfahren, dass die Brttder Bndoy (Bindo^) und Vstam (Bi- 
+stam), Verwandte des persischen Kdnigs, sich gegen den 
+K5nig Ormizd (Hormizd), den Vater des Chosrov, erhoben und 
+ihn tOdteten.« II, 17, p. 134]. Die Mdrder flttchten sich mit 
+ihrem NeflFen Chosrov Parvez zu dem griechischen Kaiser Mau- 
+
+
+
+4) Vgl. II, 6, p. 92 — ^^QuiiLut^nLtP uii^ ^uijpuiU£lrutnLpiruiU 
+l^auiuuij inb-up Iru uibtupJ-uiUu i\Jt^^I^ ji uilrutjriub quyp Jfi 
+
+utUuiuiuiutuil^uiU • • u. s. w. « (»Im ersten Jahre des Patriarchats des 
+Abas sab ich, der unwiirdige Yebik, in einer Vision einen Einsiedler . . 
+U. S. W.«). II, 45, p. 4 30 — ^t" AJry* \kv""^l'ff ^ \jt'^'"3 ^ 
+^nnuij Luip-nLnhliauy p^nnuLtP ututri l'"!/" uiJtrliUijIi tu^utul^u 
+
+ij^uiipui£jiu . . € (»Ich Viroy, Katholikos von Albanien, Lp'nik' und ^ol 
+ubergebe alle die Ubrigen Scbandiicbkeiten*). 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+13 
+
+rikios (582 — 602). Chosrov wird mil dessen Hilfe als K5hig ein- 
+gesetzt. Nach einigen Jahren will er den Tod seines Yaters 
+rUchen und ISisst alle gefahrlichen Leute, welche seinen Yater 
+ermordet haben, hinrichten. In Folge davon begiebt sich sein 
+Yerwandter Mihran nach Albanien und kommt in die grosse 
+Stadt Partav. Chosrov versdhnt sich dann mil ihm und setzt 
+ihn zum Herrscher jenes Landes ein. Moses giebt uns welter 
+die Genealogie des Hauses Mihrakan (II, 17, p. 135 — 6): ^l^l^^ 
+
+unpiu npi^ lJ»/"^"f/^^ > "P S-lbiUL ^ll of^f^ , ll ii#^/^ S-%uiL ^^"'^ 
+iluinn.tuh , np ^t^^^'S 'LF^PI^ ^UipiLtTuiUuij qlrp/iu tudu • • • • 
+y^npiu ll^^l^ "P'tt ^\j"P'h ^Kj^P't ^^"'^'l' qyiuipiuqiPiuh f ^J^hl^ 
+2pll inpLph L. qllwputq ^pp^npf qtun.iu9p'it ji2juutiiU W^nnLUtitpa^ 
+np J^utn. aJ^puinLppiii p Hkhpnjt ^^^^"""^bs ^'"P''Lqp^auirt 
+\\tnputq ^phqnph tnhpii "P'tr-R iJ'P-R "diutpiuu ^trpntf^ 
+
+S^LUihipP , Qb-q^nLui Jpnupntl^ L Hjupuiqt/u/b t « [»Dieser (Mih- 
+ran) hatte einen Sohn Armayel, welcher den Yard zeugte. 
+Yard zeugte den tapferen Yardan, der in drei Jahren die 
+Festung Gardman baute .... Dieser (Yardan) hatte einen 
+Sohn Yard. Yard zeugte den Yarazman , die Gebieterin Susik 
+und den Yaraz Grigor, den ersten albanischen Ftirsten, welcher 
+dieTaufe von dem albanischenKatholikosYiroy empfangen hat. 
+Yaraz Grigor hatte 4 SOhne: Yaraz P^ero2, Jivansir, Jezout 
+Chosrov und Yarazman. «] Es ist nun hOchst merkwtlrdig, dass 
+unser Autor, welcher angeblich Mitgesandter des Yiroy (628) 
+und Zeitgenosse von Jfivansir ist, seiche seiner Zeit so nahe lie- 
+genden Ereignisse erst aus »wahren und wirklichen Geschichts- 
+schreibern« erfahrt. Noch seltsamer, ja historisch unmQglich ist 
+es, dass er die 6 Geschlechter seit Mihran, dem Yerwandten 
+von Chosrov Parvez (590—628), bis zum Fttrsten JfivanSir (re- 
+gierte nach unserem Autor seit 637) ^) in ein paar Jahrzehnten 
+regieren lasst.^) Wie will man dies mit der Annahme, dass 
+
+
+
+i) Vgl. II, 49, p. 142 — fy\}L ft ^uuihlrpnpi^ uii^ QuiqJ^irpuip 
+(632/3 — 654/2) ^wdop^lu p p'"^ piuniiiiujp jt Jp^nj ui^pnLppMt 
+^lupujig* L. uijb bpbunA II JJi lutT Irp inpirqirpuii/utpuinLpirtuh 
+fiuqiupiuffLna L. uibiuiLU pJnj Spt-w'^^PpP uiiuuh L. 4p^^ wiPt * * 
+
+2) Ygl. M. Brosset Additions et 6claircissements k Thistoire de la 
+G6orgie. St. P6ters. 1854, p. 475. 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+14 
+
+Moses ira Anfang des VII. Jahrhunderts lebte, in Einklang 
+bringen? UnmOglich kann der Mann, welcher uns lebensvolle 
+Schilderungen von der Gesandtsehaft zu den Chazaren giebt, 
+zugleich solche ganz legendarischen Berichte liber das alba- 
+nische Ftlrstenbaus vorbringen. Wohl aber sind dieselben einem 
+Kompllator des X. Jahrhunderts zuzutrauen. 
+
+Dieses Kapitel, welches einem zeitgenOssischen Historiker 
+nicht angehOren kann, steht nicht vereinzelt da. In den Eapiteln 
+29 und 33 des zweiten Buches haben wir zwei Erzahlungen tiber 
+den Fund des heiligen Kreuzes durch den heiligen Mann Israyel. 
+Dieser muss im YII. Jahrhundert gelebt haben, da er als Zeit- 
+genosse des armenischen Katholikos Sahak III (677 — 70C) und 
+des Ftirsten Grigor des Mamikoniers erwahnt wird (II, 38, 45). 
+Er soil also zur Zeit des Moses Kalankatuaci gelebt haben. Falls 
+aber Moses wirklich bereits im Jahre 628 als Gesandter, also als 
+ein reifer Mann , zu dem Chazarenftihrer §at* geschickt worden 
+war, so muss er alter gewesen sein, als Israyel. 1st es dann nicht 
+auffallend, dass er tlber Israyel, seinen jtlngeren Zeitgenossen, 
+eine legendarisch gef^rbte Erzahlung anftthrt und zugleich die 
+Bemerkung macht, dass die wahren Ueberlieferungen tlber diese 
+Dinge sehr kurz seien, und er darum nicht im Stande sei liber 
+den Anfang des Einsiedlerlebens des heiligen Mannes Israyel 
+nahere Auskunft zu geben? (Vgl. II, 29, p. 460). Im Kapitel 33, 
+B. II ist die Rede von der Entdeckung der heiligen Reliquien und 
+eines Theiles des erltJsenden Kreuzes im Dorfe Gis der Provinz 
+Uti zur Zeit des albanischen Katholikos Eliazar. Dagegen im 
+29. Kapitel (B. II) handelt es sich um den Fund des heiligen 
+Kreuzes durch den erwahnten Israyel in der Provinz Etostak 
+von Meckolmank* in dem Thale fitachean in der kleinen Ebene 
+Aparisakan am Ufer des Flusses Trtuakan unter dem albanischen 
+Katholikos Ucht'anes, dem Vorganger des Eliazar. Man ver- 
+muthete, dass der heilige Mesrop selbst jene heiligen Reliquien 
+in frtiherer Zeit nach Albanien gebracht habe. Dass der Bericht 
+tiber den Fund einen geschichtlichen Hintergrund habe, ist nicht 
+zu bezweifeln; denn es ist zugleich der Brief mitgetheilt, welchen 
+die BischOfe David und Jovel wegen jener Gottesgnade an den 
+Katholikos Ucht'anes und den Ftirsten jfivansir schickten, und 
+auch die Antwort, die sie darauf erhielten. Aus den Titeln jener 
+beiden Kapitel sieht man, dass unser Autor die beiden Funde 
+ftlr identisch halt. Wenn wir wirklich in jenen Kapiteln zwei- 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+15 
+
+von einander abweichende UeberlieferuDgen eines und desselben 
+Ereignisses vor uns haben, so muss offenbar einer von den bei- 
+den Berichten falsch sein und hat erst in einer sp^ieren Epoche 
+entstehen kOnnen. Dann kann aber ein Autor des YII. Jahrhun- 
+derts nicht die alte Slchte und zugleich die sp^tere Umgestaltung 
+der Ueberlieferung benutzt haben. Wenn es sich aber hier um 
+zwei verschiedene Funde handelt, was uns auch wahrschein- 
+licher erseheint, dann ist es auffallend, dass Kabnkatuaci in den 
+Kapiteltlberschriften solche Ereignisse, welche in seine Zeit ge- 
+hOren soUen, durcheinander wirft. Man mtlsste denn annehmen, 
+die Kapiteltlberschriften seien sammtlich erst spater zugesetzt 
+worden. Auch hier, wie bei der Erzahlung ttber die Herkunft 
+des Hauses Mihrakan, ist noch die Thatsache zu beachten, dass 
+unser Autor ausdrllcklich bezeugt, er babe diese Berichte aus 
+anderen Schriften entnommen i), obwohl er doch selbst der da- 
+maligen Zeit angehOren soil. Die Worte, dass er nur kurze Be- 
+richte vorgefunden habe, sind nicht bei einem Zeitgenossen, wohl 
+aber bei einem Kompilator des X. Jahrhunderts verstandlich. 
+
+Ein ganz evidenter Widerspruch zu der Annahme, dass 
+Moses im YII. Jahrhundert gelebt habe, liegt uns im B. 11, K. 48, 
+p. 219 vor. Es wird namlich in jenem Kapitel der armenische 
+Katholikos Etia genannt, dessen Katholikat in den Anfang des 
+VIII. Jahrhunderts fallt^). Wie soil nun ein Zeitgenosse der Be- 
+gebenheiten am Anfang des YII. Jahrhunderts noch die Yorgange 
+des YIII. Jahrhunderts schiFdern kOnnen? Man wird uns viel- 
+leicht entgegnen, dass Moses seine Geschichte im hohen Alter 
+geschrieben habe; aber dem gegentlber lasst sich erwidern, dass 
+
+
+
+4) Vgl. II, 29, p. i60 — ff^^2_^Jutpiniufiiou iLpnLutq.u p-aJh/iff uuiI^iul 
+fiu^ %nMju^ q^tnp^^. (»Die wahren Ueberlieferungen uber dieAngelegen- 
+heit fand ich etwas kurz«). 
+
+2) Vgl. II, 48, p. 219 ~ f)lL<^«' iluiuh iniruitilb Xsipuyp t""^ 
+^iuq.npS-nLpiru/b jljPpffl/ '[uibu , jnptfiuiP jl^qnLiuUu trpPuyp* 
+uuil^u UMjUp n^ t^pir^fih fi S-wnuyir f uipq.lrih^ L. lunpiu ifjini^np 
+uttp^*^t Die parallele Stelle bei Stph. Orbelian (Mosk. Ausg. 4 861, p. 76 
+
+— 77) lautet: ^^pjuj^ i^iuub Xi'JpuMjIi l^uMpnnhl^nuli Juuibutq-npS-nLptnuVb 
+jlSppffl/ tf^iub (?) i^ir^ qbtujp fi 4^uiqu/Un.b-t ij^Jj^qnLUihu* n^ 
+qptrgf/ii ungtu fi S-uinmjt ii~ 'bnput* q^uqlLnp ui^^p^x^* 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+16 
+
+die SchilderuDgen des Ghazareneinfalls und der Regierungszeit 
+des mSichtigen Ftlrsten Jivansir, die reich an ausfQhrlichem Detail 
+sind, frischeAufzeichnangen eines Zeitgenossen zu sein scheinen: 
+auch sagt uns an einer Stelle der Verfasser selbst, dass der 
+Schrecken und die Furcht wegen jener schrecklichen Einfalle 
+der Barbaren ihn noch immer ganz erflillten (vgl. II, 9, p. 99). 
+Dies deutet auf eine Aufzeichnung bald nach den Ereignissen 
+bin. Wenn aber derselbe Moses, welcher im ersten Drittel des 
+YIL Jahrhunderts tiber den Chazareneinfall als Augenzeuge be- 
+richtet, im Beginn des YIII. Elia^s Reis^ nach Albanien als 
+Zeitgenosse gesehildert haben will, dann mUssen wir ihm, wie 
+dem Moses von Choren, ein ganz legendarisches Alter von tlber 
+hundert Jahren beilegen. Diese Erdrterungen zeigen uns deut- 
+lich, dass die bisherige fast allgemein herrschende Ansicht, wo- 
+nach Moses Ealankatuaci als ein Historiker des YII. Jahrhunderts 
+gilt, sich als unhaltbar erweist. 
+
+Indessen kdnnte man einwerfen, die falschenlegendarischen 
+und chronologisch unzulSissigen Berichte, die sich bei Moses 
+finden, seien von anderer Hand hinein interpoliert. Allein zu 
+der methodisch immer bedenklichen Annabme von Interpola- 
+tionen dtlrfen wir uns erst dann verstehen, wenn wir uns auf 
+keine andere wahrscheinliche Weise die bestehenden Wider- 
+sprtiche im jetzigen Texte erklaren kdnnen. Auch ist es durch- 
+aus nicht nothwendig, das dritte Buch, welches »die Geschichte 
+der Albanier« bis zum X. Jahrhundert fortftthrt, fttr das Werk 
+eines spSteren Fortsetzers zu erklaren. Es ist zwar vollkommen 
+richtig, dass sowohl Form als historisches Interesse in diesem 
+Theile stark hinter dem zweiten Buche zurtickstehen. Allein dies 
+hindert nicht, trotzdem beide Bticher demselben Verfasser zuzu- 
+schreiben. Die Ursache wird eben darin liegen, dass unser 
+Kompilator ftLr die Geschichte seines Landes in der Zeit nach 
+dem VII. Jahrhundert nur dtlrftige und mangelhafte Quellen vor- 
+fand: eine Annahme, welche durchaus ^en gesohichtlichen Ver- 
+haltnissen der damaligen Zeit entspricht. 
+
+Die Zusammengehdrigkeit aller drei Bttcher wird noch durch 
+eine Stelle in dem vorletzten Kapitel des dritten Buches gesichert. 
+In den Anfangszeilen der kurzgefassten tabellarischen Darstel- 
+lung der albanischen Herrscher des Hauses Mihrakan sagt der 
+Verfasser ausdrtlcklich: ^^^u§uaLUibu iuppuyp^'it i^pui^njh iptrguip^ 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+17 
+
+Namen der KOnige vom tapferen Vacakan bis zum frommen 
+Vacakan haben wir oben (= im ersten Buche) geschrieben. « III, 
+23, p. 274], Daraus folgt, dass der Verfasser des dritten Buches 
+sich auch ausdrticklich als Autor der vorangehenden bezeichnet. 
+Man mttsste also annehmen, dass der angebliche Fortsetzer nicht 
+allein das Werk des Moses weitergeftihrt, sondern daneben 
+auch absiebtlich den falschen Schein zu erwecken gesucht habe, 
+als sei er Verfasser der beiden ersten Btlcher; er ware geradezu 
+ein Falscher, eine Annahme, die keineswegs wahrscheinlich ist. 
+
+Ruhrt nun aber das dritte Buch, welches mit der Einnahme 
+der Hauptstadt Partav durch die Ruziken abschliesst (944), von 
+Moses Ka?. seibst her, dann mttssen wir nalttrlich annehmen, 
+dass der Verfasser die Schilderungen von Viroy's Mitgesandten 
+und die Berichte des Mannes, der an der von jfivansir berufenen 
+Versammlung theilnahm, aus den schriftlichen Aufzeichnungen 
+frtlherer Autoren entnommen und sie in derselben Weise, wie 
+die aus Moses von Choren, Petros von Siunik*^, Viroy und aus 
+zahlreichen anderen Schriften entliehenen Berichte in seine 
+Kompilation hineingearbeitet habe. 
+
+Far diese unsere Auffassung spricht nun aber besonders 
+ein Zeugniss des Historikers seibst, das man bisher merkwtir- 
+digerweise v5llig ausser Acht gelassen hat. Das zweite Buch 
+hat die Ueberschrift: ^ ^uimiTnLpinii p i^i^tq qpngu<^^] (»die 
+Geschichte nach meinen Schriften «) ; das heisst nach unserer 
+Erklarung: »die Geschichte nach denunter meinerHand befind- 
+lichen Schriften*. Ftir die Richtigkeit einer solchen Auffassung 
+des Titels btlrgen uns die darauf folgenden Anfangsworte des 
+zweiten Buches, die wir hier folgen lassen: f^^inaJhlih i^pn/^^ 
+
+MMinlutrthn IjnnJuiUny "PM "> ^^ luhhIruMi It ibp" ^iUutajip 
+aM£UiuiJuiq^piug^ i^npu muMui^uiSi i^uip^uip t/tu^utq^piri p uiiuilu 
+
+gnnqui^uMiftnLpbrutb i&pnLiTtii [»Es gicbt ErzShlungen der dst- 
+lichen Gegenden, welche in die Werke der aiten Historiker 
+nicht eingeflochten worden sind, und diese hielten wir ftlr an- 
+gebracht in der Schrift unserer Zeilenmessung(?) zu verzeichnen«. 
+
+
+
+4) Dieser Titel bezieht sich, wie die Ausgabe von Sahnazarian zeigt, 
+auf das ganze zweite Buch. Die Uebersetzung von Patkanian — >die In- 
+haltsauslegung (!) des Buches « — ist offenbar falsch (Patk. Russ. Uebers. 
+p. 79.) 
+
+
+
+y 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+18 
+
+II, 1, p. 81.] Diese Worte sind ein deutliches Eingestandniss 
+des Verfassers, dass er das zweite Buch aus einer Reihe schrift- 
+licher Quellen zusammengearbeitet hat und sttttzen daher unsre 
+bisherigen Betrachtungen aufs beste. 
+
+Ftir unsere Zeitbestimmuug des KaJankatuaci kommen ausser 
+den vorgebrachten inneren Grtinden noch die Zeugnisse der 
+armeoischen Chronisten in Betracht. Mchit'ar von Ayrivank*^, ein 
+armenischer Chronist des XIII. Jahrhunderts, setzt in seiner 
+Historikerliste »Moses den Albanier« zwiscben Sebeos (VII. Jhd.) 
+und Levond den Priester (VIII. Jhd.)^). P. Sahnazarian und P. 
+Zarbanalian erblicken in der erwahnten Notiz ein Beweismoment 
+ftir ihre Annahme, dass Moses im VII. Jahrhundert gelebt babe. 
+Indessen in jener Tabelle bei Mchit^^ar von Ayrivank* sind die 
+Namen der Historiker nicht strong chronologisch angeordnet. In 
+derselben Tabelle ist Thomas Vardapet (X. Jhd.) vor Moses von 
+Choren, Lazar von P'^arp und EHse gesetzt; Sebeos (VII. Jhd.) 
+und Levond der Priester (VIII. Jhd.) folgen erst nach Sapuh dem 
+Bagratunier (IX. Jhd.) etc. Weit wichtiger als jene Notiz ist eine 
+andere Stelle bei demselben Autor in seinen chronologischen 
+Geschichtstabellen, in welchen die BItithezeit »des albanischen 
+Geschichtsschreibers Moses KaJankatuapi und des Geschichts- 
+schreibers Ucht*^anes« um 980 — 1000 angesetzt vv^ird^). Diese 
+pracise Angabe wird man schwerlich ftir erfunden erklSren 
+kdnnen; sie geht vielmehr zweifellos auf altere Quellen zurttck. 
+Auch ein anderer Historiker des XIII. Jahrhunderts Kirakos von 
+Gandzak, der die armenischen Historiker in chronologischer Ord- 
+nung anfUhrt, nennt den Kompilator Moses Kalankatuaci erst 
+nach Johannes Katholikos (Anfang des X. Jhd.) und vor dem 
+Bischof Ucht*^anes (Ende des X. Jhd.) 3). Mit vollem Rechte kOnnen 
+wir also behaupten, dass die spatere historische Ueberlieferung 
+mit unserm Standpunkt, wonach Moses ein Kompilator des 
+X. Jahrhunderts ist, vollkommen tibereinstimmt. 
+
+WoUen wir nun die Zeit der Abfassung der albanischen 
+Geschichte genau bestimmen, so mtissen wir zunachst den Schluss 
+
+
+
+1) Vgl. Mchit'ar d'Ayrivank', trad, par M. Brosset (M6m. de TAcad. 
+Imp. VII, 13 no. 5), St.-P6tersb. 1869, p. 25. 
+
+2) Vgl. Mchit'ar d'Ayrivank' u. s. w. (Brosset), p. 88. 
+
+3) Vgl. Kirakos von Gandzak, » Geschichte der Armenier*. Moskau 
+1858, p. ^ J 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+19 
+
+des letzten Buches betrachten. Das letzte Ereigniss, welches uns 
+Moses in seinem Buche berichtet, ist die Einnahme der Stadt 
+Partav durch die Ruziken. Diese Thatsache fallt nach den ara- 
+bisehen Quellen in das Jabr 944 ^). Es folgen dann be! Moses 
+zwei Tabellen der Herrscher und Katholici von Albanien, welche 
+bis gegen Ende des X. Jahrhunderts reichen (987). Als letzter 
+in der Herrscherliste ist der Sohn von Sevaday Johannes-Sene- 
+k*^erim genannt, der Zeitgenosse des Magistros David (zweiteHtllfte 
+des X. Jahrhunderts). In der Tabelle der Katholici erwahnen 
+alle Handschriften nach dem Katholikos Ter-David (958—963), 
+welcher seine Weihe vom armenischen Katholikos Anania em- 
+pfing, noch zwei Katholici Ter-Petros^) (18 Jahre) und Ter-Moses 
+(6 Jahre). Danach scheint es, dass MchitW von Ayrivank*^, wel- 
+cher » Moses den Albanier« in das Ende des X. Jahrhunderts 
+(980 — 1000) setzt, die Zeit unseres Kompilators der Hauptsache 
+nach richtig getroflPen hat. 
+
+Gegen diese unsere Annahme wird man allerdings einwen- 
+den, dass bereits der armenische Katholikos Anania (943 — 964) 
+in seinem Schreiben tlber die aibanische Kirche den Moses be- 
+nutzt habe^). Indessen diese Ansicht ist oflFenbar falsch, wie wir 
+spUter sehen werden. Die Veranlassung zu der Entstehung von 
+Anania's Schrift gaben die Streitigkeiten mit der albanischen 
+Kirche. Von Alters her war es Branch , dass die albanischen 
+Katholici ihre Weihe von denNachfolgernGregors desErleuchters 
+empfingen. Aber nach dem Abfall der iberischen Kirche von 
+der armenischen (Ende des VI. Jahrhunderts) suchten auch die 
+Albanier ihre Kirche unabhSngig zu machen, und in den Perioden 
+der politischen Schwache Armeniens und der Zerfahrenheit 
+seiner Kirche gelang es der albanischen Geistlichkeit oft, die 
+ersehnte Selbstandigkeit zu verwirklichen. Wenn aber Ar- 
+
+
+
+4) Den Raubzug der Russen nach Partav setzt Brosset in das Jahr 
+94 4. Indessen davon, dass die Russen im Jahre 9K die Stadt Partav er- 
+obert hatten, wissen wir so gut wie nichts. Dagegen ist es uns aus arabi- 
+schen Historikern bekannt, dass dies Ereigniss 944 stattfand. Der Bericht 
+des Moses stimmt ja auch in der Hauptsache mit dem des Ibn el Athir 
+uberein. Vgl. Dorn. Ueber die Einfalle der alten Russen in Tabaristan, 
+p. 296. M6m. de I'Acad. VII, 23, 4877, St.-P6t. 
+
+2) In der altesten Handschrift steht statt Ter-Pelros Ter-Pentas. Vgl. 
+» Ararat*, April, 4 896, p. 4 78. 
+
+3) Vgl. »Ararat«, 4 896, Januar, Februar, Marz, April. 
+
+2* 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+- — 20 
+
+menien wieder einen hdheren Grad politischer Macht erreichte, 
+verstand es auch die armenische Geistlichkeit, die kirchliche Un- 
+abhangigkeit Albanians entweder auf friedlicbem Wage oder gar 
+mil Gewalt zu unterdrtlcken : so zur Zeit des armeniscben Katho- 
+likos EHas am Anfang des VIII. Jabrbunderts. Die Unterdrtlckung 
+der albaniscben SelbstSndigkeit fiel den Armeniern nicbt schwer, 
+weil die albaniscbe Kirebe kulturell viel enger als die iberiscbe 
+mit der armeniscben verwaebsen war. Im Jabre 949 kam Anania 
+nacb Albanien, um den albaniscben Katbolikos Ter-Gagik seines 
+Amies zu entsetzen, da er seine Weibe nicbt vom armeniscben 
+Katbolikos empfangen batte. Aber bie und da, wie uns Anania 
+in seinem Schreiben selbst bericbtet (»Ararat«, 1896, Januar, 
+p. 24), wollten die Albanier die Oberbobeit und die Autoritat der 
+armeniscben Kirebe bestreiten, indem sie bebaupteten, die al- 
+baniscbe Kirebe sei alter als die armeniscbe. Da verlangte Anania 
+von ibnen, wie er sicb ausdrtickt, die Gescbicbte der Albanier, 
+um die Anfange ibrer Erleucbtung zu studiren. »Und nicbt ge- 
+statteten sie uns«, sagt Anania, »sie zu seben; denn sie zeigte 
+das Haus der Albanier als Erzbiscbof und das Haus der Ar- 
+menier als Patriarcben; und da sie die niedrigere Stellung 
+(wortl.: den Antbeil der Demtltbigung) auf ibrer Seite wussten, 
+bielten sie die Gescbicbte der Albanier gebeim« (vgl. » Ararat «, 
+1896, Januar, p. 24). Scbliesslicb aber legte man ibm die ver- 
+langte Scbrift vor, und diese, bericbtet Anania, »gefiel uns und 
+lautete so« (m^"/' "ppt^Wf "p nuul^n Quyu XL. onj/uiuli^^ p-f^ • • •y]. 
+Die Worte »lautete so« lassen uns vermutben, dass Anania's 
+Auszilge wOrtlicb aus ibrer Quelle entnommen sind. Indessen 
+sie weicben nicbt nur nacb ibrer Form , sondern oft aucb nacb 
+ibrem Inbalt von den Parallelstellen des Moses ganzlicb ab. Nacb 
+Anania's Scbrift soil der Kaiser Maurikios ftir das romiscbe Ar- 
+menien einen eignen Katbolikos Jobannes eingesetzt baben im 
+neunzebnten Jabre des inDuin residierenden Katbolikos Abrabam 
+(»Ararat«, 1896, Februar, p. 69); dagegen wird dasselbe Ereig- 
+niss von Jtfoses Kalankatuaci in die Zeit des Katbolikos Moses 
+
+
+
+\) »Ararat«, i896, Januar, p. 25. Vgl. auch Stph. Orbelian (Moskau, 
+1861, p. 203): »dann nach hOherer Fursorge legt ihm der Kirchendiener 
+von Ganjasar wShrend des Nachtgottesdienstes ein Buch vor, angeblich 
+von Johannes Ghrysostomos; und sie bitten den Katbolikos (es) zu lesen : 
+und indem er es offnete, fand er (darin), was erverlangle; denn es war die 
+Geschichte der Albanier*. 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+21 
+
+gesetzt (II, 48, p. 217). Die von der armenischen Kirche abge- 
+fallene albanische wurde nachAnania mit dieser durch den arme- 
+nischen KatholikosKomitas wiedervereinigt (» Ararat*, 1 896, Milrz, 
+p. 126); Moses dagegen lasst die Vereinigung durch den Katho- 
+likos Abraham erfolgen (II, 48, p. 21 7). Der Kathoh'kos Komitas 
+wird bei Moses gar nicht erwShnt. Ferner werden die ttbrigen 
+Berichte bei Anania ganz anders, als bei Moses, erzahlt, so dass 
+die Behauptung des Ghacik Vardapet in »Ararat« (1 896), Anania 
+habe das Werk des Moses benutzt, unbegrtindet ist. Unter 
+»der Geschichte der AIbanier« in der Schrift des Anania darf 
+also die des Moses nicht verstanden werden. Demnach steht 
+unserm Ergebniss, dass die Geschichte des Katankatuaci am Ende 
+des X. Jahrhunderts verfasst worden sei, das Schreiben des 
+Anania nicht entgegen. 
+
+Nach dem X. Jahrhundert darf man die Zeit des Moses nicht 
+ansetzen, weil wir ganz bestimmt nachweisen kdnnen, dass 
+der Bischof Ucht^^anes, der Zeitgenosse des armenischen 
+Katholikos Ghacik (972 — 991), die » Geschichte der Albanier* be- 
+nutzt hat^). Zum Beweis daftlr ftihren wir eine Stelle an, in 
+welcher Ucht'anes die albanischen Geschichtsschreiber als seine 
+Quelle nennt und dabei das Werk des Moses fast wortgetreu 
+abschreibt. 
+
+Vgl. Ucht'anes, B. IF, »Die Geschichte Vgl. Moses KaJ. Mosk. Ausg. i86i, 
+
+des Abfalls der Iberier von den Ar- I — 6, p. 8 — 9. 
+meniern«, Vaiarsapat, 1874, II — 65, 
+p. -122 — 4 24: ^Aub^jtil^ t^juju t&^ 
+
+(pj i^WUlJiuqpiuifh W^qnLiulbpQ 
+
+a lunnjun L. a an A L. quinui9h1b 
+
+^lULUMinuiilu uM2juuin^h1u jtLnlruibg 
+
+^WLiUuinp Jlru u£iuinJlruii* a ft 
+
+tMtutnt/iiLpfiLJU a^ifiunfitn if- • 
+
+L. lunuiLbri J^"'^ nJunUiup^lr^ yy^iuutdni^ftiii ^^j/«f^i^iii umil^ 
+
+aJ^tLUi^UiJ p i\iuquip2UiliUMj ""-^l^ -M"'^ qlbuifuiui^UM^Itf^ 
+
+uiUitiU \^qnLu/iiliffy uij£^ ftb^ \n£\ Wjniu%iuj ft ULutqtup^^^^uy utiubu 
+
+nutiug luulr u£WinJhLpfibij* JJilb^L. \\^qnLiuh[ig "{JL t'^L "L f"^"'-§i 
+
+3-E>"'^ ll ««yii#^a#l#, np Jftuib^ i^lu^L. ff^w^ ULiui^ui^iulb ^ np 
+
+
+
+4) Vgl. M. Brosset. Deux historiens arm^niens. Kiracos de Gantzac, 
+Oukhtan^s d'Ourha. Sec. livr.1874. 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+22 
+
+q^uti/uyit uiftplruig Ijaqduiibglb JJiui^i^UiJuijb uijtftbruia linnt/tuhau 
+
+W^qnLUibliff J << U. s. w. — das ganzc W^qtiLiubfig X U. s. w. [»(Ueber) die 
+Kapitel. [>Dies liaben wir aus den wahre Geschichte haben wir ausser 
+albanischen Historikern kennen ge- der Einsetzung des Aran zum Herr- 
+lernt, (welche) uns den rechten, scher des albanischen Landes durch 
+wirklichen understenGlaubenihres Vatarsak etwas anderes bis zum 
+Landes erzShlt (haben): denn die tapferenVacakan,welchersichgaDz- 
+Geschichte ist wahr. Ausser der lich zum Herrn des albanischen 
+UnterwerfungArans(desHerrschers) Landes machte, nicht gefunden«.] 
+des albanischen Landes durch Ya- 
+iarsak haben wir, sagt die Ge- 
+schichte, etwas anderes bis zum 
+tapferen Va j agan, welcher sich ganz- 
+lich zum Herrn des albanesischen 
+Landes machte, nicht gefunden.] 
+
+Was schliesslich die Person des Autors anbelangt, so sind 
+wir nur auf eine kleine Notiz in seinem VVerke angewiesen, 
+welche folgendermassen lautet^): ^^\^p|tii- fipui^quid^ hqfru 
+
+P^^uiJh^ IrnlrinuU u/UiLlrqiuU q^lrut Jiui^uut^pa L. ^tuubuii 
+p Jiuuh phi^ lunifui uttL uinnpninnij^ gjipfttilb np 4 JiuitOpJiuii 
+tgirq^ i&S^fi \\iuqu/ht^iumnLiut^f np jt luJJili j^i.tnp i^uMLUinft* 
+
+jnptTI, L A^i# . . . << [»Als die Feinde das Geschehene gewahr- 
+ten, verfolgten sie die Fliichtlinge und holten einen Theil von 
+ihnen am Fusse des Berges ein, w elcher gegentlber dem grossen 
+Dorfe Kalankaytuk*^, und in derselben Provinz Uti liegt, aus 
+welcher auch ich (stamme)*]. Bel der Interpretation dieser 
+Stelle ist es viel natttrlicher ^^japiPl L iru** nicht mit ^^^Irqpt 
+
+t&S^fi \\iuqtuii^iuuinuuj^^i SOUdem mit ,,^ %t^% jf\LUi[i tj^uiLUMnfi^^ 
+
+zu verbinden. In diesem Falle wtirde die Annahme, dass Mpses 
+aus dem Dorfe Kalankaytuk*^ gebttrtig sei, unrichtig erscheinen. 
+Da aber Moses schon bei den alten Chronisten, Kirakos von 
+Gandzak und Mchit*^ar von Ayrivank* »KaJankatuaci« (d. h. »aus 
+Kalankaytuk* gebtirtig«) genannt wird, so mtlssen wir, falls die 
+obige Interpretation, Moses stamme aus Uti, richtig ist, anneh- 
+men, dass diese Chronisten lediglich auf eine ungenaue Ausle- 
+gung der angeftihrten Stelle bin seine Heimath bestimmten. 
+
+\) Vgl. II 41, p. 107. 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+23 
+
+Die albauische Kirche. 
+
+Die VerbreituDg des Ghrislenthums in Albanien hat die 
+spatere legendarische Ueberlieferung bereits in die apostolische 
+Zeit verlegt. In der Provinz Artaz wurde der Sage nach der 
+heilige Thaddaus auf Befehl des armenischen K5nigs Sanatruk 
+ermordet. Sein Schtiler, der heilige Elisay (Elisa, Elise), kehrt 
+darauf nach Jerusalem zurtick, wo er Bericht ttber den Martyrer- 
+tod seines Lehrers erstattet. Dort soil er vom Bruder des Hei- 
+lands Jacobus, dem erstenPatriarchen von Jerusalem, seine Weihe 
+empfangen haben. Er begiebt sich dann, den Armeniern aus- 
+weichend, ttber Persien in das Land der Massageten ') (^ IT*"^^ 
+^««.pii). Seine Predigt beginnt er in Col und kommt von da 
+mit drei Schttlern nach der Provinz Uti, in die Stadt Srharn. 
+Nachdem aber die Gottlosen einen von seinen Schttlern getddtet 
+haben, verlassen die anderen beiden ihren Lehrer und folgen 
+den MOrdern. Der heilige EHse selbst kommt darauf nach Gis 
+und baut dort eine Kirche. In der kleinen Ebene Jerguni, an 
+dem Platze der heidnischen Opferstatte, empfangt er die Mar- 
+tyrerkrone. Die Reliquien des heiligen Mannes wirft man in eine 
+'Grube der Verbrecher' in Homenk*, und dort bleiben sie liegen, 
+bis sie spater durch Vision und Wunder den Frommen ofFenbart 
+und im Dorfe Urekan niedergelegt werden. Von dort ttberftthrte 
+man sie nach dem heiligen Kloster Nersmerhay, spater jfrvstik 
+genannt. Ueber der Grube, am Orte des Martyrertodes, soil der 
+fromme Vacakan (Ende des V. Jahrh.) eine Saule aufgerichtet 
+haben, auf welcher nach der Ueberlieferung sein Kammerer als 
+Einsiedler gestorben ist. 
+
+Wie Gregor der Erleuchter des armenischen Landes ist, so 
+macht Moses Kalankatuaci den heiligen EHse der Sage, den 
+Schttler des Thaddaus, in analoger Weise zum Erleuchter des 
+albanischen Landes (UpLlri^b^uij^u fjiLuuiLnpft^, Es ist schon 
+nachgewiesen worden (A. Carri^re, La l^gende d' Abgar dans 
+I'histoire d'Armenie de Mol'se de Khoren. Paris 1895), dass der 
+historische Worth der Thaddaus-Legende gleich null ist. Die 
+Ueberlieferung ttber seinen Schttler Elise ist unzweifelhaft das 
+
+
+
+4 ) Die Massageten der armenischen Historiker waren an der VSTest- 
+seite des kaspischen Meeres wohnhaft. Auch Dio (69, 15, 1) und Ammian 
+(XXIII, 5, 16) erwahnen kaukasische Massageten. 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+24 
+
+&zeugniss einer noch jilngeren legendarischen Thatigkeit, da in 
+derselben der albanische Kdnig Vacakan der Fromme (Ende des 
+V. Jahrb.) erwSihnt wird. Dennoch hat diese Legende eine grosse 
+historische Bedeutung. Dadurch wurde der quasiapostolische 
+Ursprung der albanisehen Kirche verbilrgt, ein machtiges Hilfs- 
+mittel ftir die ehrgeizigen Pralaten, welche sich von der Unter- 
+ordnung unter den armenischen Katholikat frei machen wollten. 
+Das alteste historische Zeugniss tlber die albanische Kirche 
+liegt uns vor in einem Briefe *) des armenischen Bischofs Glut 
+an den albanisehen KOnig Vace, den NefFen des persischen Kdnigs 
+Per5z (457—484). Es wird uns in demselben berichtet, dass der 
+albanische Ktinig Urnayr zu Tiridates dem Grossen und Gregor 
+dem Erleuchter (Ende des III. und Anfang des IV. Jahrh.) nach 
+Armenien gekommen sei und sich dort mit seinen Grossen und 
+Truppen habe taufen lassen. Damals sollen die Armenier mit 
+dem Kdnig einen rdmischen Bischof, welcher mit Tiridates ge- 
+kommen war, nach Albanien geschickt haben. Der Bericht ver- 
+steht darunter nicht etwa einen Griechen aus einer benachbarten 
+kleinasiatischen Provinz, sondern sagt ausdrticklich: „ii^^ Jfi 
+
+Irpu/hiriji Xlrp%tuq^lrtu£^ jlru^fiu^nu^nunLppA p tihtiij^P oiuqiup^^^ 
+
+(»ein seliger Mann, zum Bisthum geweiht in der Stadt Rom«). 
+Die Bekehrung erfolgte dann in Albanien ebenso wie in Armenien 
+von oben herab. Indessen die Barbarei der Bewohner, welche 
+erst nach langer Zeit verschwand, und der politische Einfluss 
+der persischen Kdnige sind hier jahrhundertelang die grdssten 
+Hindernisse fttr die Verbreitung des Christenthums gewesen. 
+Die Tradition sagt uns, dass die frommen albanisehen Kdnige und 
+die Sendboten der Armenier bis zur zweiten Halfte des Y. Jahr- 
+hunderts die heidnischen Elemente des albanisehen Volkes be- 
+kampfen mussten. 
+
+Am Anfang des vierten Jahrhunderts wurde Grigoris, der 
+alteste Sohn von Vrt^anes, zum Bischof der Iberier und Albanier 
+eingesetzt. Der Bericht des Moses Kah tlber seine Thatigkeit 
+deckt sich in den wichtigsten Punkten mit dem des Faustus von 
+Byzanz, dessen historische Zuverlassigkeit ausser Zw^eifel steht. 
+Zu seiner Zeit soil der Kampf des jungen Christenthums mit dem 
+noch machtigen Qeidenthum in Albanien jenseits des Kur ein 
+sehr heftiger gewesen sein. Moses erzahlt dartiber folgendes: 
+
+
+
+\) Mos. KaLI i1, p. 14—^2. 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+25 
+
+Die mazdayasnischen Bewohner der Stadt Cri, in welcher Grigoris 
+eine Kirche gebaut haben soil, empdren sich offen gegen den 
+albanischen Kdnig und tddten den Priester, den Schtiler des 
+Grigoris, welchen dieser in ihrer Stadt zurtlckgelassen hatte. Die 
+Rebellen erhalten Hilfe von den Persern und die Argesier 
+{\kp'i^""'fft's) besetzen die Stadt. Das Ereigniss soil sich zur 
+Zeit des albanischen Kdnigs Vace des Tapfereni) zugetragen 
+haben. Das Schicksal des jungen Grigoris war ein sehr tragisches. 
+Er dehnte seine Missionsthatigkeit bis zu den aussersten Grenz- 
+landern des albanischen Landes aus, kam zu dem Kdnig der 
+Massageten Sanatruk (Sanesan bei Faustus) , welcher angeblich 
+aus dem Geschlecht der Arsaciden war, und predigte ihm und 
+seinem Heere das Evangelium. Als er sie aber wegen ihrer 
+Raubgeltiste tadelte und ihnen die friedliche Arbeit anempfahl, 
+sagten sie ihm: »das ist eine heuchlerische List des armenischen 
+Kdnigs , um uns von der Plttnderung des armenischen Landes 
+abzuhalten. Woven sollen wir denn leben, wenn wir nicht 
+plttndern ? « Darauf wurde Grigoris an den Schweif eines Pferdes 
+gebunden und zu Tode geschleift. Die Leiche des Heiligen brach- 
+ten seine Gefahrten in das Dorf Amaras der Provinz Haband und 
+legten sie dort in der von seinem Grossvater gebauten Kirche 
+nieder. Dieser ganze Bericht des Moses ist direkt oder indirekt 
+aus Faustus entlehnt. 
+
+Bei dem Mangel an Quellen ist uns die Kirchengeschichte 
+Albaniens in der zweiten Halfte des IV. Jahrhunderts vollig un- 
+bekannt. Am Ende desselben begegnen wir bei Faustus einem 
+albanischen Kdnig Ufnayr (IL ?), welcher zur Zeit des arme- 
+nischen Kdnigs Pap (367 — 374) im Bunde mit Sapuh II. gegen 
+die Armenier kSmpft. Sollte nicht in Albanien zu seiner Zeit mit 
+dem politischen Einfluss Persiens auch der religidse die Ober- 
+hand gewonnen haben? 
+
+Eine neue Epoche in der albanischen Kirche beginnt der 
+Schdpfer der armenischen, iberischen und albanischen Alphabete 
+Mesrop der Grosse (f 439), einer der genialsten Priester Ar- 
+nieniens. Durch die Erfindung des albanischen Alphabets hat 
+er wie kein zweiter die geistige Entwickelung jenes Landes 
+
+
+
+4) Die Liste der Kdnige bei Moses I, 4 5 ist so ungenau, dass es ge- 
+wagt ware, Vace mit einem der dort genannten gleichnamigen FUrsten zu 
+identifizieren. 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+26 
+
+gefOrdert. Der Landeskdnig ArsvaJen (Arsval, ArsvaJe, Esvalen) 
+und der heilige Bischof Jeremia gaben den Befehl, Jtlnglinge zu 
+sammeln und sie in der Kunst des Lesens und Schreibens zu 
+unterweisen. Nach dem zuverlassigen Zeugniss des Koriun wur- 
+den bald nach der Erfindung des Alphabets die heiligen Schriften 
+insAlbanischettbersetzt, — »wodurch«, sagt Koriun, »dierohen, 
+mttssigen und thierischen Bewohner von Albanien mit den Pro- 
+pheten bekannt, mit den Aposteln vertraut und Erben des Evan- 
+geliums wurden, und keineswegs unkundig aller gOttlichen 
+Traditionen«. Zu derselben Zeit wird >dem teuflischen, den 
+Ddmonen ergebenen Volke « (,, uuitnuAiujiu^lip L i^pLuiJhi^ 
+luq^^libii) vom gottesfllrchtigen Arsvalen der strengste Befehl 
+ertheilt, sich dem sanften Joche Ghristi zu fttgen (vgl. Koriun. 
+Vened. 1894, p. 31). Durch Grttndung von Schulen mit einhei- 
+mischer Unterrichtssprache und durch Uebersetzungsthatigkeit 
+hatte nun das Christenthum in Albanien zu einer dauernden 
+Bltithe und inneren Kraftigung gelangen kdnnen, wenn seine 
+Erfolge nicht durch religiose Unduldsamkeit des persischen 
+Kdnigs Jazdegerd II. (438 — 457) verhindert worden w^aren. Schon 
+unter seinem Vorgclnger Bahram V. war das Konigthum in Ar- 
+menien abgeschafift und das Land in eine persische Provinz ver- 
+wandelt worden (429), wie es die Romer mit ihrem Theile Ar- 
+meniens schon langst gemacht hatten. Auch Albanien , dessen 
+KSnige mit den persischen verwandt waren, stand unter per- 
+sischer Oberhoheit. Die politische Schwache dieser beiden 
+Nachbarlander ermdglichte es dem Kdnig Jazdegerd II., mit Ent- 
+schiedenheit gegen das Christenthum aufzutreten. Es wurde 
+beiden Landern befohlen, den Mazdaismus zur herrschenden 
+Staatsreligion zu erheben. Die persischen Truppen, welche kurz 
+vorher im Hunnenlande Krieg geftihrt hatten, rtlckten nun mit 
+Magierscharen nach Albanien. Nach dem aus Elise^) entnom- 
+menen Bericht des Moses Kah (II — 2t) schicken die Albanier eine 
+Gesandtschaft an die Armenier, um deren Hilfe zu erbitten. 
+»Das persische Heer« — sagen die Boten — »welches in den 
+Gegenden des Hunnenlandes war, ist wieder zurilckgekehrt 
+und in unser Land eingertickt, dazu zahlreiche andere Reiterei, 
+welche vom Hofe gekommen ist. Und ausser diesen beiden haben 
+
+
+
+^) »Ueber Vardan und den Krieg der Armenier.w 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+27 
+
+sie noch 300 Lehrer mit sich gebracht. Das Land haben sie 
+entzweit und einige auf ihre Seite gezogen. Sie wollen ihre 
+Hand an die Kirchen legen, und nach dem Befehl des K5nigs 
+zwingen sie alle und sagen: »Wenn ihr willig unsere Religion 
+annehmet, werdet ihr Geschenke und Wtlrden von ihm (vom 
+KtJnig) erlangen und die koniglichen Steuern werden euch er- 
+lassen. Thut ihr aber dies nicht freiwillig, so haben wir den 
+Befehl in euren Ddrfern Feuertempel zu bauen und Vtam's Feuer 
+hineinzulegen, auch Priester und Oberpriester als Gesetzgeber 
+des Landes einzusetzen. Und falls jemand sich empttrt, wird er 
+mit dem Tode bestraft; die Frau und die Kinder eines solchen 
+werden aus dem Lande vertrieben.« Die Armenier schickten 
+den Albaniern einen Theil ihrer Truppen unter Vardan dem 
+Mamikonier zu Hilfe. Nach Elise und Moses soUen sie vor der 
+Stadt Chalchal einen glSinzenden Sieg tlber die persische Ueber- 
+macht erfochten haben (450/451). Das persische Heer wurde 
+von ihnen zurttckgedrangt, die Magier wurden ermordet und 
+ihre Tempel zerstdrt. Die Erfolge der Christen waren aber nur 
+vortlbergehend. Der hingebende Heldenmuth, mit welchem sie 
+fttr ihre Religion kSimpften, war zu schwach, um auf die Dauer 
+den Persern Widerstand zu leisten. 451 wurde der armenische 
+Aufstand niedergeworfen. Wahrend des Zwistes, welcher nach 
+dem Tode Jazdegerd's II. (457) unter seinen S5hnen Hormizd III. 
+und Peroz ausbrach, erhob sich der mit Gewalt zum Mazdaismus 
+bekehrte albanische Kdnig Va£e, mtltterlicherseits NeflFe der 
+beiden genannten persischen Fttrsten, gegen die Perser, erhielt 
+Hilfe von den Massageten und anderen kaukasischen BergvOlkern 
+und trat wieder zum Christenthum tlber. Schliesslich aber 
+scheint auch dieser Aufstand, welcher nach Elise bis zum ftlnften 
+Jahre des Peroz dauerte (463), von den Persern erfolgreich be- 
+kSlmpft worden zu sein. Der Kdnig Vace verzichtete auf den 
+Thron und brachte den Rest seines Lebens als Einsiedler zu. 
+Von Vace bis zu seinem NeflFen Va^akan dem Frommen ^), welcher 
+vom persischen KOnig Balas (484 — ^488/9) auf den albanischen 
+Thron gesetzt wurde ^ blieb Albanien ohne KOnig.^) In dieser 
+Zwischenzeit scheint das Land von persischen Marzpanen (Grenz- 
+
+
+
+1) Vacakan der Fromme war der Sohn des Yazakert (Jazdegerd), des 
+Bruders von Vace (Moses 1, 4 7). 
+
+2) Nach Moses soil das Interregnum in Albanien ^ = 30 Jahre 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+28 
+
+gouverneuren) verwaltet worden zu sein. DerMazdaismus konnte 
+nun im Lande festen Fuss fassen (vgl. Moses, I, 16). Indessen 
+nach der furchtbaren Niederlage des Kdnigs Peroz durch die 
+Hephthaliten (484) wurde Persien so ohnmachtig, dass es bei dem 
+Regierungsantritt des Balas seinen chrisllichen Landern vOlligen 
+Ausschluss der persischen Staatsreligion aus ihrem Gebiet zu- 
+gestehen musste. Die Albanier erlangten ausserdem ihre poli- 
+tische Freiheit wieder und erhielten aus dem einheimischen 
+Herrschergeschlecht den oben genannten Vacakan den Frommen, 
+einen sehr eifrigen Christen, zum KOnig. Von diesem berichtet 
+Moses, dass er bestrebt gewesen sei das vom Christenthum abge- 
+fallene Volk wieder zu bekehren und das Christenthum zur allge- 
+meinen Landesreligion zu erheben. Er verfolgte mit Strenge alle 
+heidnischen Elemente im Volke, grtlndete Schulen fttr die Kinder 
+der ehemaligen heidnischen Priester und liess sie in derRechtglau- 
+bigkeit unterrichten. 488 wurde unter seinem Vorsitz in Aluen 
+(Uti) ein Konzil abgehalten, das die gegenseitigen Beziehungen 
+der Stande regeln sollte. An dem Ronzil nahmen die Geistlichen 
+und die Freien Theil. In derSchrift tiber die Verordnungen des 
+Konzils (Mos. Kah I 26) ist als Hauptgeistlicher Sup'^alisoy 
+(Sup*^a}isay , Sup^'alisu) erwahnt, welch er den Titel »Archie- 
+piskopos von Partav« ftthrte. Der albanische Katholikat datiert 
+erst aus dem VI. Jahrhundert und existierte damals noch nicht. 
+Die Bestimmungen jener Versammlung sind kulturhistorisch sehr 
+interessant und gestatten uns einen tiefen Einblick in die damals 
+in Albanien herrschenden Sitten. 
+
+Eine epochemachende Bedeutung hat fttr die albanische 
+Kirche das vom armenischen Katholikos Babken 491 in Valar- 
+sapat versammelte Konzil, in welehem die Armenier, die Al- 
+banier und die Iberier das Konzil von Chalkedon und den Brief 
+Leos verdammten (Mos. Kah, II — 47, p. 214). Die drei Kirchen 
+schlossen sich dadurch dem Monophysitismus an, welcher in 
+jener Zeit auch im rdmischen Reiche die Oberhand zu gewinnen 
+
+
+
+gedauert haben. Diese Angabe ist oflfenbar falsch, denn seii Va ce's Rucktritl 
+vom Throne (gegen 463) bis zur Thronbesteigung Vacakan des Frommen 
+(gegen 484) soUen ungefahr 20 Jahre verstrichen sein. Die Buchstabeti 
+
+^ = 30 und ^ = 20 werden oft von den Schreibern mit einander verwech- 
+selt. Vielleicht ist das/^ = 30 in ^ = 20 zu korrigieren. 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+29 
+
+schien, da die Kaiser Zenon (474 — 491 ) und Anastasios (491 — 51 8) 
+eifrige Gegner des Chalcedonense waren. 
+
+Ueber die Entwickelung der albanischen Kirche in den 
+folgenden Jahrhunderten liegen uns bei Moses nur dtlrftige Nach- 
+richten vor. 
+
+Wahrend im V. Jahrhundert die an der Spitze der albani- 
+schen Kirche stehenden Geistlichen den Titel Episkopos oder 
+Archiepiskopos ftlhrten, werden sie seit dem VI. Jahrhundert 
+»Katholici von Albanien« genannt. Den hohen Titel des »Katho- 
+likos von Albanien, Lp^nik*^ und 6oJ« soUen die Armenier 
+nach Moses zuerst dem albanischen Hauptgeistlichen Ter-Abas 
+(VI. Jahrhundert) beigelegt haben (Mos. KaL III, 24, p. 275). 
+In einem Briefe des armenischen Katholikos Johannes I. an Ter- 
+Abas wird dieser auch thatsSichlich » Katholikos von Albanien « 
+genannt (M. K. II, 7). Das Schreiben warnt den albanischen 
+Klerus vor den Nestorianern, »den raubgierigen Wdlfen im 
+Schafskleide«, welche aus dem Kloster des Petros nach Al- 
+banien gekommen v^^aren , um das h'6se Unkraut des Nestorios 
+in die Seelen der Unschuldigen zu saen, und enthalt ausser- 
+dem das Glaubensbekenntniss der armenischen Kirche und 
+das Trishagion mit der vom Konzil zu Duin (zur Zeit des ar- 
+menischen Katholikos Nerses) beigeftlgten Worten: >Du bist 
+fttr uns gekreuzigt worden.« Ter-Abas soil, nachdem er den 
+Brief erhalten hatte, die von der Rechtglaubigkeit abgefal- 
+lenen MiJnche Thomas, Elias, Bnot und Ibas aus dem Lande 
+verbannt haben. Der Stuhl der Patriarchen von Albanien wurde 
+am Anfang der armenischen Zeitrechnung (552) wegen des Ein- 
+falls der Chazaren aus Col nach Partav verlegt. 
+
+Bei dem Mangel zeitgeniJssischer Quellen und in Folge der 
+von einander abweichenden Berichte der spateren armenischen 
+Historiker und Chronisten ist es sehr schwer, ein klares Bild 
+von der albanischen Kirche in der zweiten Halfte des VI. und 
+am Anfang des VII. Jahrhunderts zu entwerfen. Wahrend zur 
+Zeit des armenischen Katholikos Moses im rSmischen Armenien 
+ein eigner Katholikos Johannes eingesetzt wurde, trennte sich 
+nach Moses Kal. die albanische Kirche von der armenischen und 
+die Katholici von Albanien, anstatt ihre Weihe von den Nach- 
+folgern Gregors des Erleuchters zu empfangen, wurden von ein- 
+heimischen Bischofen geweiht. Die beiden getrennten Kirchen 
+sollen zur Zeit des armenischen Katholikos Abraham von neuem 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+30 
+
+vereinigt worden sein (M. K. II, 48, p. 217). Indessen der Bericht 
+des Anania weicht von dem des Moses ganzlich ab (vgl. » Ararat «, 
+1897, Marz, p. 137). Seinem Bericht zufolge hatte der Kaiser 
+Maurikios im neunzehnten Jahre des Abraham, also nach dem 
+Abfall der iberisehen Kirche von der armenischen, ftlr das t'6- 
+mische Armenien einen eignen Katholikos Johannes aus Go- 
+gayovit eingesetzt. Darauf soil sich die albanische Kirche aus 
+Eifersucht gegen Kiuron (Kyrion), welcher die iberische Kirche 
+unabhangig gemacht hatte, von der armenischen getrennt haben. 
+Dann aber im dritten Jahre des armenischen Katholikos Komitas, 
+des Nachfolgers Abrahams, haben die Albanier die Oberhoheit 
+des armenischen Katholikats wiederum anerkannt. Mit Moses 
+Kah Bericht stimmt der bei Combefis abgedruckte griechische 
+tlber die Geschichte der armenischen Kirche insofem tlberein, 
+als er die Einsetzung des Sonderpatriarchen Johannes durch 
+Maurikios ebenfalls in die Zeit des Katholikos Moses setzt und 
+Abraham die armenische Kirche wieder vereinigen lUsst. In 
+Anania's Bericht ist jedenfalls die Angabe unhaltbar, dass Mau- 
+rikios im neunzehnten Jahr Abrahams den Johannes eingesetzt 
+habe ; denn damals regierte Maurikios iHngst nicht mehr. Beide 
+Berichte stimmen aber in dem Punkte tlberein, dass die Theilung 
+des armenischen Kathob'kats einen Bruch mit Albanien herbei- 
+gefahrt habe; denn die albanische Geistlichkeit konnte ja nicht 
+mehr wissen, welchen von den beiden Katholici sie als den 
+wahren Nachfolger Gregors des Erleuchters anerkennen soUte. 
+Gegen Ende des VII. Jahrhunderts, zur Zeit des armenischen 
+Katholikos Sahak III. (677 — 703) , wurden die Hunnen von dem 
+albanischen Bischof Israel zum Ghristenthum bekehrt. Der aus- 
+fnhrliche Bericht des Moses tlber dieses wichtige Ereigniss ist 
+werthvoU ftlr den Geographen wie ftlr den Historiker (vgl. II, 
+39 — 45, p. 188 — 211). Der Zweck der Bekehrung war zunSchst 
+ein politischer*. Die albanischen Machthaber suchten durch reli- 
+giose Bande das unruhige Volk, welches bestandig Einf^lle in 
+ihr Land machte , zu zShmen und zu ruhigen und friedlichen 
+Bundesgenossen zu machen. Die albanische Missionsgesandt- 
+schaft, an deren Spitze der Bischof Israel stand, erreichte nach 
+einer grossen Reise tlber Lp'^nik'^ (Lupenii) und Gilbk*^ (Silvi?) ^) 
+
+i) »raisus ab Albaniae confinio tota montium fronte gentes Silvorum 
+ferae, et infra Lupeniorum, mox Diduri et Sodi< . Plinius, N. H., VI, 29, 
+Detlefsen. 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+— 31 
+
+VaracaD, die Hauptstadt des Hunnenlandes , und wurde dort 
+vom FUrsten Ilut'^uer (Alut*^uer) gnadig ernpfangen. Die Hunnen, 
+welehe damals iioch Heiden wareD, verehrten nach Moses Feuer 
+und Wasser, Sonne und Mond und seiche GesehOpfe, welehe 
+ihnen wunderbar erschienen. Sie beteten ferner die Gottheiten 
+der Wege an und einen Riesen, welchen sie Thangri-Chan 
+nannten i^^p^uiUanh juu/u utumnLutS- ^ Rj^p ^"'P^bk-R y^u*H'*^'t^'*'"' 
+l^n^lrb^^^ II, 40, p. 191). Dieser scheint ihr Hauptgott gewesen zu 
+sein. Vor den Eichbaumen, welehe ihm geweiht waren, brach- 
+ten ihm die Priester der Hunnen Pferde als Opfer dar : bei der 
+Opferhandlung gossen sie das Blut des Opferthiers unter dem 
+Eichbaum aus und hingen die Haut und den Kopf an den Zwei- 
+gen des Baumes auf. Der Bischof Israel predigte mit grossem 
+Erfolg vor dem Ftlrsten und seinem Heere die Grundsatze der 
+christlichen ReUgion und gewann sie fttr die Rechtglaubigkeit. 
+Er zersttJrte die heidnischen Tempel , hieb die heiligen Baume 
+um und liess die widerspenstigen Priester verbrennen. Darauf 
+wurde Israel nach dem Wunsche des Ftlrsten Ilut'^uer zum Bischof 
+des Hunnenlandes eingesetzt. 
+
+
+
+Anhang. 
+
+Aus dem Armenisehen des Moses (Kalankatuaci). 
+
+Kapitel I (B. II) i). 
+
+Die Geschichte nach meinen Schriften. 
+
+Gleichwie der Himmel durch Sterne und die Erde durch 
+Pflanzen glanzend ist, so ist es der Eifer des weltbescbreiben- 
+den Erzahlers in anderen Stoffen des Schmuckes. 
+
+Es giebt Erzahlungen der Ostlichen Gegenden, welehe in 
+die Werke der alten Geschichtschreiber nicht eingeflochten 
+worden sind ; wir hielten es ftir angebracht, sie in der Schrift 
+
+
+
+\) Dieses ganze Kapitel liegt uns noch bei Stph. Orbelian vor (» Ge- 
+schichte des Landes Sisakan«, Moskau, i86<, K. IX, X, p. 20 — 30). Der 
+eigentliche Verfasser dieser ErzShlung ist nach dem Zeugniss des Stph. Or- 
+belian der Bischof Petros von Siunik', so dass aiich Moses letzteren direkt 
+Oder indirekt benutzt haben muss. 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+32 
+
+unserer Zeilenmessung (?) zu verzeichnen. Hier woUen wir den 
+persischen K(5nig Sapuh, den Sohn des Ormizd, erwahnen, 
+welcher, wShrend seiner Herrschaft allzu stolz geworden, eine 
+Prtlfung darttber anstellen wollte, welches Volk und welche 
+Sprache Kissen und Ehre haben sollen. *) Und indem er feiedich 
+ein Festmahl ftlr alle Grossen aus den neunjahrigen (?) Ge- 
+schlechtern der persischen Nachararen von vornehmer Herkunft 
+veranstaltete und (sie) bei sich je nach der Wtlrde mit Becher 
+und Zweig beehrte, zeichnete er jeden aus. Aber dem Ober- 
+mobed brachte der kSnigliche Tisch grosse Ehren entgegen. 
+Indem er (der Kcinig) sich mit seinen Grossen unterhielt, sagte 
+er : >Die Rangordnungen der Perser und Farther (der wirklichen 
+Pahlavier) und der adeligen Manner kenne ich wohl, aber die 
+edlen Geschlechter des Armen und ihre Vorzugsehren konnten 
+wir nicht erfahren weder von unseren kOniglichen Vatern noch 
+aus den Schriftstellern. Und nun liegt eins von beiden Euch, 
+den armenischen Nachararen, ob: eine alte Schrift tlber Rang 
+und Ehre jedes Hauses vorzuzeigen und von Neuem unsere 
+grossen glanzvollen Ehrenbezeugungen zu empfangen, oder 
+aber, wenn Ihr nicht im Stande seid, der arischen Heerschaar 
+eure frtlheren Ehrenplatze ganz deutlich zu zeigen, dann werden 
+wir eure Auszeichnungen und Hauser, Boden und Wasser und 
+alle eure Einktlnfte den freien Mannern der Arier schenken. 
+Sofort beriethen sich die grossen armenischen Ftirsten und leg- 
+ten dem KOnig die anmuthige Geschichte von Agathangelos vor. 
+Und er befahl (sie) zu lesen und in die persische Schrift und 
+Sprache zu tlbersetzen. Als er erfuhr, dass sie mit seinem Vor- 
+fahren Artasir beginne, freute er sich noch mehr, lobte die 
+Schrift und legte sie gertlhrt auf seine Augen. Und da er in ihr 
+die Erwahnung von siebzehn Ehrenplatzen vorfand, begann er 
+danach jedem seinen Platz am koniglichen Tische anzuordnen. 
+Das vierzehnte Kissen fiel dem Herrscher von Siunik*" Andok zu; 
+deshalb ass er aus Hochmuth gar nichts. Aber der Konig, davon 
+unterrichtet, ktlmmerte sich gar nicht darum. 
+
+Damals kam die Nachricht an den kOniglichen Hof, dass die 
+Chazaren in grossen Heerschaaren durch das Thor von Col in 
+
+
+
+1) Am koniglichen Tisch hatten die Adeligen je nach ihrem Rang 
+einen bestimmten Plalz mit einem Kissen zum Anlehnen: daher der Aus- 
+druck ^f^iupX L u^uttnfiL nLiihf^^ = »Kissen und Ehre haben*. 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+33 — - 
+
+unser Land gekommen wSren. Nachdem Sapuh zahllose Trup- 
+pensammlungen in Syrien, Chorasan, Chorazm, insbesondere 
+aber unter den tapferen Persern der Provinz Atrpatakan, den 
+Armeniern, Iberiern, Albaniern und den barbarischen V5lker- 
+schaften der zw6lf Sprachen des Barges Kovkaz veranstaltet 
+hatte, brach er mit unzJiWigen Truppen auf, um auf sie loszu- 
+schlagen. Indem aber Andok gegen ihn und sein Land 65ses 
+ersann, grub er dem kdniglichen Hause eine Grube^), und, in- 
+dem er sich mit seinen Truppen, siebzehnhundert Mann, gegen 
+ihn auflehnte, kam er auf schnellen munteren Rossen in der 
+Stadt Tizbon (Ktesiphon) an, verbarg das Heer ausserhalb der 
+Stadt, und mit wenigen Soldaten in die Stadt eingetreten, sagte 
+er, sich unschuldig stellend: >Ich bin zu Sapuh gekommen. ^c 
+Die Stadter erwiesen ihm grosse Ehren. Bei der MorgendSim- 
+merung aber sttlrzten sich die Truppen hinein und nahmen un- 
+geheure Schatze von Gold und Silber, Edelsteine und theure 
+Perlen, alles was sie aus dem kOniglichen Hause rauben konnten. 
+Nachdem sie auch die HSiuser der Grossen vollstSindig gepltln- 
+dert batten, sammelte er alles in der Festung von Balk*^ und 
+befahl, in alien seinen Bezirken das Futter ftlr das Vieh zu ver- 
+brennen. Was aber dem Menschen zur Nahrung dient, sammelte 
+er in die Festung: dazu noch die WaflFen, das Pferdegeschirr und 
+die Ausrtlstungen der Reiter. Darauf gab Andok alien Siuniem 
+den Befehl die Hauser und die Vorrathe zu verbrennen und zu 
+flQchten. Diese sammelten was im Lande zur Zierde der Kirche 
+diente, brachten alles in die Kirche von Salat und hauften es 
+dort zusammen. Sie kttssten alle weinend die Reliquien der 
+Heiligen und, nachdem sie acht Tage Nachtgottesdienst gehalten 
+batten, errichteten sie tlber der Kirche einen Erdhtlgel und zer- 
+streuten sich selbst in alle Lander und niemand wagte den 
+Namen Siunier auszusprechen. Ftlnfundzwanzig Jahre blieb das 
+Land unbewohnt. Als dann der KQnig Sapuh nach der Beendi- 
+gung des Krieges zurtlckkehrte, sab er das Ungltlck und im 
+heftigen Zorne gab er alien Truppen den Befehl, nach Siunik*^ zu 
+marschieren und (dort) Menschen und Vieh gefangen zu nehmen. 
+Sie kamen bin, konnten aber nichts finden. Wahrend des Herum- 
+ziehens gelangten sie zu dem Kirchenhtlgel von Salat und als 
+sie ihn bestiegen, entstand ein grosses Erdbeben; erschreckt 
+
+
+
+1) Statt yypipuiu ^luutiuu^p^^ ist ZU lesen yyjuptutP ^lumu/iitp^^* 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+34 
+
+gingen die persischen Tfuppen mit ihrem Feldherrn At*^aschoday 
+weg. Nachdem sie sich von da entfernt hattcD, belagerten sie 
+die Festung; aber von dort walzte man Steine hinunter, und sie 
+wurden meistens getOdtet. Zum zweiten und drilten Male lie- 
+ferten sie noch heftigere Scblachten, konnten aber nicbts machen, 
+und viele wurden erschlagen. Erztlrnt wollte der KSnig den 
+Kampf nocb beftiger gestalten. Da aber warfen sicb alle 
+Grossen vor ibm nieder und baten ihn keine Sehlacht mehr zu 
+liefern, sondern die Umgebung der Festung zu verwtlsten. Da- 
+mals fand Andok eine gtlnstige Gelegenheit, verliess die Festung 
+und ging mit grosser Beute ins rdmiscbe Gebiet tlber, und tlber- 
+hauft mit grossen Ehren starb er dort. Da sein Sobn Babik 
+sich nacb seinem v^terlichen Lande sehnt, begiebt er sich an 
+den Hof des persischen KOnigs Sapuh, und als er dort eineni von 
+den Soldaten begegnet, wird er (von ihm) untergebracht und 
+zeigt viel Muth wHhrend der persischen olympischen Spiele, 
+ohne dass man ihn kennt. Damals rtlckte ein Hon (Hunne), 
+namens Honagur, aus dem Hunnenlande aus, schickte einen 
+Boten zu Sapuh und sagte: »Wozu das Blutvergiessen ? Komm, 
+lass mich mit dir kampfen!« Der Hunne selbst war bewaflfnet 
+mit einem Panzer aus ftlnfzig Stoffen ; (er war) von hohem und 
+breitem Wuchs und hatte den ungeheuren Kopf mit einem Helm 
+bedeckt, (welcher) mit festen Nageln (beschlageu war), und 
+die drei Daumen breite Stirn mit einer Kupferplatte (belegt); er 
+hatte eine riesige Lanze aus einem Cederbaum und ein flammen- 
+des Schwert: in Schrecken setzte er die Zuschauer. Von nun 
+an wird der Name Babik dem K9nig bekannt (und) dass durch 
+ihn dieses Werk beendigt werden kdnne. Der Kcinig der Konige 
+lasst den Babik zu sich rufen, tlbergiebt ihm die k(5nigliche Ent- 
+scheidung gesiegelt mit dem Ebersiegel- Binge i) und sagt zu 
+ihm: »Wenn du meiner Sache Genugthuung schaffst, wirst du 
+die grcissten Versprechungen erlangen.« Er (Babik) nahm es 
+auf sich, seine Bitte zu erftlllen, und , sich zu gleicher Zeit auf 
+die b(5here Hilfe verlassend, sagte er: »Kirchen der Siunier, 
+helfet mir!« Dann nahm er die WaflFen seiner Macht(!): mit 
+strahlendem, perlenbesetztem , koniglichem Panzer schmttckte 
+er den anmuthigen Leib und mit tigerartigem Helm den schdnen 
+Kopf; nachdem er das Schwert um die Htlften (gegtlrtet) und 
+
+
+
+1) Mit einem Ringe, der das Zeichen eines Ebers trug. 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+35 
+
+den Schild mit goldenen Baadern auf die linke Schulter ge- 
+worfen und die kraftige Lanze in die rechte Hand genommen 
+hatte, stieg er auf sein schwarzes Pferd und stttrzte sich dem 
+Feinde entgegen. Sie griffen einander an: die Lanzenhiebe bei- 
+derseits erschollen wie Donnerschlage von Morgen bis neun Uhr 
+(Abends?). Der unbSndige Riese wiirde tlberwaltigt, und der 
+tapfere Babik wurde Sieger; er ergriff eilig das einschneidige 
+Schwert, mit welchem er sofort das mcJrderische Thier erschlug. 
+Sapuh, mit grosser Freude erftlllt, liess Babik zu sich rufen, 
+um ihm seine Versprechen zu erfilllen und jener, seine Bitte 
+vortragend, sagte: >>Lass das kupferne Becken aus deinem Hofe 
+entfernen!* Das Becken aber war voll von Asche aus dem 
+Ofen, und alle, welche an jenen Ort kamen, pflegten daran 
+zu schlagen und zu sagen: >Das Reich der Siunier soil unter- 
+gehen, wie diese Asche (?), ebenso auch ihr Leben und ihre 
+Plane. « Der KOnig befahl mit grossem Erstaunen, das Becken 
+von jenem Orte zu entfernen. Dann bat Babik, ihm sein ange- 
+stammtes Land zurtlckzugeben. Als es ihm der Kdnig bewilligt 
+hat, schickt er ihn mit grosser Ehre in sein Land und gewahrt 
+ihm die Ehre, an Wtlrde den Bagratuniern und Mamikoniern 
+gleichgestellt zu sein. Als er (in sein Land) kam, ging er tlber 
+den Fluss Erasch (Araxes) und baute ein Dorf , namens Nakorz, 
+das heisst: »Das zuerst im Vaterlande eingenommene.« Im ersten 
+Jahre seiner Regierung ging er auf die Jagd, reiste umher, 
+schaute und beweinte sein Land. Indem er nach Salat gelangt, 
+besteigt er einen Htigel, und von da entflieht ein Hirsch und 
+lauft auf den Kirchenhttgel hinauf. Und wahrend Babik ihn ver- 
+folgte, verschwand der Hirsch in dem Htlgel. Inzwischen ver- 
+sanken die Ftlsse des Pferdes im Htlgel; vom Pferde herabge- 
+stiegen, zog er mit grosser Mtlhe das Pferd heraus. Alle ergriff 
+Schrecken. Sie gruben die Erde vom Httgel hinweg und fanden 
+die schOngebaute Kirche erftlllt vom gdttlichen Schatz und an- 
+genehmen Duft ausstrOmend. Und jener Tag fiel in den Monat 
+Hori, und zwar auf den ersten (desselben). Jenen Tag feierten 
+sie grossartig und, indem eine Versammlung stattfand, vollzogen 
+sich viele Heilungen derjenigen, die in jener Stunde zufallig 
+dorthin gekommen waren. Als die Unglaubigen dies sahen, 
+glaubten sie und liessen sich taufen: (namentlich) ^) Gor und 
+
+
+
+4) Vgl. Stph. Orbelian. Mosk. Ausg. 1861, K. 8, p. 29. 
+
+2* 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+36 
+
+Gazan, zwei Brttder vornehmer Herkunft, welche mit einem 
+grossen Heer Babik begleitet batten. Nachdem Babik ftlr sie das 
+Loos geworfen hatte , wurde dem Gor das Dorf Cbotay zu Tbeil 
+und dem jllngeren (firuder) Gazan fiel das anmutbige Dorf Salat 
+zu. Dies geschah 20 Jahre vor der Regierung des bOsen Jazkert, 
+welcher die christliche Religion aufheben wollte und uns zwang, 
+uns der Gehenna zu unterwerfen, so dass auch die heiligen 
+Vardanier, 1066 auserwahlte Manner, von demselben Jazkert 
+den Matyrertod erlitten. Und von da bis zur armenisehen Zeit- 
+rechnung waren 128 Jahre. So sollst du die Sachen auffassen. 
+
+Kapitel X (B. II). 
+Als in den Tagen des christusHebenden Kaisers Flavos He- 
+rakli (Herakleios) die Zeit der Gefangenschaft von Jerusalem er- 
+fttllt war, wie ehemals die siebzigjahrige zur Zeit desPersers Kyros, 
+geruhte Gott dem hochfahrenden persischen Kdnig Chosrov dem 
+Grossen Widerstand zu leisten, welcher seit langer Zeit das erha- 
+bene kaiserliche Haus nebst seinem grossen Land Rom und der 
+berQhmten Stadt Palastina(!j besiegt und in die Flucht geschlagen 
+hatte. Als er nun sah, dass ihm die Kriegsztlge gegltlckt waren, 
+welche er gegen den griechischen Kaiser durch seinen Feldherrn 
+zu unternehmen begann, den er tlber die gegen den Westen aus- 
+gerttsteten Truppen eingesetzt hatte und dessen wirklicher Name 
+Choriean hiess, gab er ihm mit persischem Scharfsinn wegen 
+Ftihrung und Organisierung der Feldschlachten und Erkampfung 
+der Siege verschiedene prunkvoUe Namen: bald Kozmiozan (np. 
+razmioz »kriegerisch«), bald Sahvaraz (»Landes-Eber«). Dieser 
+nahm und setzte in Flammen die grosse Stadt Jerusalem und 
+schleppte in die Gefangenschaft den Baum des Lebens, das licht- 
+spendende Kreuz der Welt, durch welches die Hdlle gefangen 
+genommen war; ebenso das Gerath aller HeiligthUmer jener 
+Gegenden von Gold, Silber und Edelstein, theure, purpurne, mit 
+Perlen besetzte Gewander, sogar das Hausgerathe der wunder- 
+baren, herrlichen Hauptstadte, marmorne Saulen und Saulen- 
+knOpfe und auch sehr grosse Vierfttssler und Vdgel, deren Namen 
+selbst in den Gegenden des Orients gar nicht bekannt waren. 
+Aber ich werde die Erzahlung nicht in die Lange ziehen; denn 
+es tlberschreitet das Maass und den Plan dieser Betrachtung, 
+(tlber) die That, welche er vollbracht, und die Haufen von 
+Schatzen, welche er geplttndert und in den Hof des persischen 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+37 
+
+KOnigs hat bringen lassen (ausftlhrlich zu berichten). Allein von 
+den zahllosen Gerathschaften und den verschiedenen Gesang- 
+ktlnstlern fUr Schmause, den zarten Madcben und Knaben, war 
+er weder gesattigt noch befriedigt, sondern er wtlthete nocb 
+mebr zu Wasser und zu Lande und Hess nach seinen Wttnschen 
+die schOngebauten rdmischen Stadte mit ihren Einwohnern in 
+das persische Land schleppen (!). Ebenso Hess er die Architekten 
+nach dem Muster des Vorbildes (anderer Stadte) bauen und 
+nannte eine (von ihnen) » grosser als die Stadt Antiok*" (Antio- 
+ehia)«: auch bei den anderen ftlgte er zu ihren Namen noch 
+>gr5sser« hinzu. Nachdem er nun durch den Sieg nach Wunsch 
+seinen Willen aUen V5lkern und Reichen auferlegt hatte^ bis er, 
+tlber alle Massen machtig und stolz geworden, dachte, dass er 
+diirch eigene Tapferkeit sein Reich schreckHch und wunderbar 
+gemacht habe — er dachte nicht daran, dass Gott es ist, der das 
+menschHche (irdische) Reich erhalt und es giebt, wem er wiU — 
+begann er darauf, nach und nach dem griechischen Kaiser gegen- 
+ttber schwach und kraftlos zu werden, und erhob seinen Kopf 
+nicht mehr, wie bei der frtlheren Macht. Denn der Kaiser theilte 
+pldtzUch aUen seinen Truppen und Heerftlhrern mit, dass Gott 
+ihm zum Erfolge verhelfen v^^tlrde , und befahl ihnen , sich eiHg 
+mit den Truppen welche ihnen untergeben waren, an einem 
+Orte zu versammeln: der Sammelpunkt fttr jenes Heer vnirde 
+alien bekannt gegeben. Kein Mensch kam mit seinem Freunde 
+an, sondern sie schmiedeten sofort ohne ZOgern ihre Pflugscharen 
+in Schwerter und ihre Sensen in Lanzen um (I). Die Schwachen 
+und die Ruhigen ermuthigten sich (mit den Worten) : >wir sind 
+machtig und kriegerisch«. Der Kaiser erhob sich mit aller seiner 
+Macht und wurde selbst Feldherr ufnd Leiter fttr seine Truppen. 
+Den kOnigUchen Hof ttberliess er seinem Sohne, und, nachdem 
+er ihn gekr(5nt hatte, setzte er ihn an seiner Stelle auf den Thron 
+des Reiches. Er rllckte nicht gegen die persischen Truppen aus, 
+welche seine Lander und Stadte umzingelt und eingeschlossen 
+batten und sie in Gehorsam hielten. Er zog nicht an ihnen vor- 
+bei und reizte sie nicht zum Kampfe , sondern er Hess sie dort 
+in seinem Lande, und, indem er den Weg tlber das Meer nahm, 
+kam er in das Land der Egerier^), gelangte nach Armenien, 
+
+
+
+i) Egerien ('Exqt^tixi^, Egrissi) im Norden der Act^oi^ in Kolchis. Ki^^ 
+pert. L. d. a, G. 1878, p. 87. 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+38 
+
+ging tlber den Fluss Erasch und dachte, den grossen Kdnig Chos- 
+rov ohne Vorbereitung anzutreflfen ^). Als dies dem Chosrov ge- 
+meldet wurde, erstaunte er in seinen Gedanken und sagte: >Ist 
+das nicht jener, welcher aus Furcht vor mir in die Abgrtlnde 
+getrleben wurde (der sich aus Furcht vor mir verkroch)? Und 
+jetzt, was ist denn das?« Er floh vor ihm aus den Sommerresi- 
+denzen von Medien weg und begab sich von dort in das assyrische 
+Land. Sofort schickt er Schnellaufer und schreibt an seinen 
+
+V 
+
+grossen Feldherrn Sahvaraz grosse Schwtlre(!) und Drohungen: 
+»Dadurch«, sagt er, » wird meine grosse Schmach und mein Zorn 
+gestlhnt, wenn du dich beeilest zeitig anzukommen und vom 
+Menschen bis zum Vieh niemand von denen (am Leben) lassest, 
+die sich erktthnt haben gegen mich (zuFelde zu ziehen)«. Nach- 
+dem der Feldherr den Befehl erhalten und die schreckliche Nach- 
+richt gelesen hatte, hielt er sofort tlber alle persischen Truppen 
+eine Heerschau ab, und, indem er die Stadte der ROmer und die 
+von Palastina, welche in dienstlicher Abhangigkeit standen, den 
+Besatzungen tlbergab, gebot er ihnen sie mit Vorsicht zu be- 
+handeln, bis er von dem geschehenen Ereigniss zurtLckkehre. 
+Er selbst setzte die Truppen mit ausgezeichneter Ausrttstung 
+und mit schnellen Rossen in Bewegung und beeilte sich, dem 
+koniglichen Befehle rechtzeitig nachzukommen. Als aber der 
+grosse Kaiser Herakleios sah, dass der persische K(5nig ihm ent- 
+wich, herte er auf, ihn zu verfolgen. Er machte tlberall Einfalle 
+in das Land Atrpatakan bis zu einem Orte namens Gaysavan 
+(Gaysanchoy), dem Platze der Sommerschldsser, welcher von den 
+persischen Kdnigen ftlr (ihre) Gesundheit zur Sommerfrische (?) 
+erwahlt worden war und im Lande Medien lag. Er (Herakleios) 
+verheerte, zerst5rte und nahm gefangen das ganze Land. Von 
+da kehrte er zurttck und wollte in den Gegenden von Albanien, 
+Iberien und Armenien tlberwintern. Darum schrieb er an die 
+Fttrsten und die Vorgesetzten jener Lander, dass sie ihm frei- 
+willig entgegenkommen, ihn mit seinen Truppen empfangen 
+und wahrend des Winters bedienen sollten: wenn nicht, dann 
+wtlrden sie vor ihm ftir Heiden gelten und seine Truppen wtlr- 
+den ihre Festungen besetzen und ihre Lander einnehmen. Als 
+alle Oberhaupter und Fttrsten des albanischen Landes das ver- 
+
+
+
+i) Dazu slimmt der Bericht von Nikephoros (De Boor, p. 15) und 
+Georg. Mod. (Muralt, p. 567). 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+39 
+
+nahmen, verlfessen sie nach dem Befehl des Chosrov die grosse 
+Stadt Partav und setzten sich in verschiedenen Orten fest. Aber 
+\iele Christen und Heiden von den Ilandwerkern der Sladt, 
+welche wegen ihrer Schwache nicht im Stande waren, zu ent- 
+fliehen und sich vor ihm zu erretten, blieben dort in der Stadt. 
+Ein gewisser Priester namens Zak'aria, ein untadeliger, ruhiger 
+und sanftmtlthiger Mann, welcher in der Kirche von Partav 
+Klostervorstand war, nahm sich ihrer an. Durch Schwur und 
+verschiedene Mittel rettete er mit Hilfe seiner Gebete viele von 
+den Christen ; auch fUr Juden und Heiden stand er ein. Deswegen 
+wurde spSter seine That gelobt, und, da sie von alien anerkannt 
+wurde, setzte man ihn auf den bischoflichen Stuhl von Albanien. 
+Als die r5mischen Truppen in zahlloser Menge dort ankamen, 
+liessen sie sich im District Uti vor einem Strome nieder, welcher 
+in der Umgebung des Dorfes Kalankaytuk' (fliesst). Sie betraten 
+und vernichteten die schOnen Frttchte der Garten und der Ddrfer, 
+durch welche sie zogen. Von dort rtlckten sie weiter aus und 
+liessen sich bei dem Strome Trtu, nicht weit von dem Dorfe 
+Diutakan, nieder. Darauf wurden sie von den persischen Trup- 
+pen eingeholt, welche man >neues Heer« nannte. Sahraplakan 
+war ihr Oberbefehlshaber. Einer von den treuen Nachararen 
+des KOnigs namens Granik Salar, Yorgesetzter und Befehlshaber 
+unter ihnen, lagerte sich ihm gegentlber, ebenso ein anderer 
+persischer Anftlhrer, der aus Rom kam. Sie schlugen die Trup- 
+pen des Herakleios zurtlck und trieben sie in das Land Siunik^. 
+Obwohl die persischen Truppen grosse Niederlagen erlitien, 
+warfen sie dennoch Herakleios in sein Land zurtlck und nahmen 
+dort die Stadte ein, die sie mit Gewalt von ihm losrissen. 
+
+Kapitel XI. (B. II). 
+
+Ueber die Rampfe des Chosrov gegen den griechischen 
+Kaiser und die Besiegung des Kaisers im rdmischen Lande wah- 
+rend vieler Jahre durch Schwert und Gefangennahme. 
+
+In grossen Mengen erhoben sich die Chazaren auf Befehl 
+des Herakleios, um einen Einfall in unser Land zu machen. 
+Durch seine Boten liess sie der persische Kdnig Chosrov fragen : 
+»Auf wessen Befehl seid Ihr in mein Land gekommen? Doch 
+nicht etwa (auf) dessen, der sich aus Furcht vor mir auf die 
+Insel des westlichen Meeres flUchtete ? Wenn ihr von ihm Gold, 
+Silber, Edelsteine oder goldgestickte, mit Perlen besetzte, pur- 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+40 
+
+purne und aus feinem Flaohs gemachte Kleider n5thig hattet, so 
+konnte ich viel besser als er eure Wtlnsche befriedigen. Des- 
+wegen sage ich dir^), handle nicht nach seiner armseligen Bitte! 
+Uebrigens, thue, wie du willst! Ich aber sage dir im voraus, was 
+ich nachstens zu thun gedenke. Damit du, wie ich es verlange, 
+ihn verlassest (?!), werde ich den grossen siegreichen Heer- 
+ftlhrer Sahvaraz mit meinen zwei tapferen Feldherrn Sahen 
+(^drjv) und KVtakarin (KaqdaqLyag) und auch Tausende und 
+Myriaden meiner ausgezeichneten schwerbewaflFneten Truppen, 
+die ich gegen den Westen ausgertlstet habe, aus seinem Lande 
+zurtlckberufen. Nun siehe ich werde sie (wdrtlich ihre Ztlgel?) 
+gegen Osten wenden und mich mit all meiner Macht gegen dich 
+erheben. Ich werde von dir nicht loslassen und werde dir keine 
+Ruhe geben, bis ich dich in die aussersten Enden der Welt ver- 
+jagt habe. Dann wirst du wohl die Sinnlosigkeit und die Wider- 
+wartigkeit dessen , was du verlangst, erkennen und begreifen. 
+Denn wo soil ich meine Truppen unterbringen, wenn ich jene 
+ungeheure Menge von da wegftthre? Welches ist das Land, wel- 
+ches sie aushalten wtlrde (!), wenn ich nicht nach meinem Worte 
+thate?« Wegen solcher drohenden Botschaft verhielten sich die 
+Ghazaren in jenem Jahre ruhig und kehrten wieder durch das- 
+selbe Thor zurttck. Als aber der FUrst, ihr Herrscher, all jenen 
+durch Gefangennahme und Plttnderung erworbenen Reichthum, 
+welcher aus Mensch und Vieh, goldenen GefSssen und ausge- 
+zeichneten Kleidern bestand, sah, gedachte er selber hintlber 
+zu Ziehen. Darauf meldete er alien, die ihm untergeben waren 
+— verschiedenen Geschlechtem und Vdlkern , Berg- und Thal- 
+bewohnern, unter Dach und freiem Himmel wohnenden, Bewoh- 
+nern der See und der trockenen Erde, geschorenen und lang- 
+haarigen — , dass sie auf seinen Wink ausgerttstet und bereit 
+sein soUten. 
+
+Dann aber im acht und dreissigsten Jahre (der Regierungs- 
+zeit des Chosrov), im unruhigen, ungltlcklichen Jahre der Er- 
+mordung des Chosrov, kam derjenige, den wir oben erwahnt 
+haben ; dieser war jfebu Chak*^an , der auch seinen Sohn bei sich 
+hatte. Die Zahl seiner Truppen konnte niemand berechnen. 
+Als die schreckliche traurige Nachricht nach Albanien gelangte, 
+wollte man unsere Landsleute in der Hauptstadt Partavaberd in 
+
+
+
+\) Wabrscbeinlich ist der Fiihrer der Chazaren gemeint. 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+41 
+
+Sicherheit bringen. Dies kam zur Ausftihrung auf Befehl eines 
+Mannes, namens Gaysak*", welcher von Chosrov zum Chef und 
+Herrscher des Landes gesandt war. Dieser schloss die Menge 
+der Einwohner der umliegenden Distrikte in der Hauptstadt ein 
+und wollte zusammen mit den Grossen des Landes und den Ein- 
+wohnern der Stadt, nachdem er sich durch Eintracht (mit ihnen) 
+stark gemacht hatte, den Chazaren Widerstand leisten. Er wollte 
+sehen , was mit den Wachtern der grossen Stadt &! und den 
+Truppen ihrer wunderbaren Mauern geschehen werde. For sie 
+(die Mauern) batten die persischen Kdnige durch viele Ausgaben 
+ihr Land erschiJpft, indem die Baumeister sammelten und ver- 
+schiedene StoflFe ftlr den Bau des wunderbaren Werkes ermit- 
+telten , womit sie (den Weg) zwischen dem Berg Kovkaz und 
+dem Meer des Ostens sperrten. Nun aber bei dem Herannahen 
+des Weltzorns, der uns alien bevorstand , schlugen zuerst die 
+Wellen des Meeres sich ausbreitend darauf (auf die Mauern) und 
+zerstOrten sie von Grund aus. Da man den Schreeken zuneh- 
+men und die hassliche Menge mit frechen und breiten Gesich- 
+tern, ohne Augenwimpern, mit herabhangenden iangen Haaren 
+den Weibern gleich, losbrechen sah, bemSchtigte sich aller ein 
+Schreeken vor ihnen; besonders als man sah die straff ziehen- 
+den und geschickten Bogenschtltzen, w elche sie (die Einwohner) 
+wie mit heftigem Hagel tlberschtltteten und sich schamlos wie 
+fleischfressende W(5lfe auf sie sttlrzten und sie schonungslos auf 
+den Strassen und Durchgangen der Stadt tSdteten. Ond nicht 
+schonte ihr Auge die schOn aussehenden, wunderhilbschen ju- 
+gendlichen (Leute) mannlichen oder weiblichen Geschlechtes, 
+und weder die unbrauchbaren (!) noch die nutzlosen (d. h. die 
+Schwachen) ; nicht liessen sie (am Leben) die versttlmmelten oder 
+die alten; nicht ftthlten sie Mitleid und nicht rtlhrte sie die Zart- 
+lichkeit der Kinder, welche ihre erschlagenen Miltter umarmten 
+und das Blut ihrer Brust wie Milch sogen: sondern wie im Rohr 
+entfachtes Feuer (!) traten sie durch die eine Thtlr hinein und 
+durch die andere hinaus, nachdem sie drinnen Thaten wie die 
+wilden Thiers und VOgel ausgeftthrt hatten. Dann nach und 
+nach bewegten sich die Wogen (der Chazaren) gegen uns. 
+
+Als der Chef und Herrscher, welcher die Stadt Partav inne 
+hatte und beherrschte, dies alles vemahm, wollte er sich mit 
+der verschanzten Menge, welche wegen zunehmender Gefahr in 
+der Festung versammelt war, besprechen, was zu machen sei. 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+42 
+
+Er that seinen Mund auf, aber vor grosser Furcht konnte er dort 
+nicht reden ; er erbrach sich und zitterte vom Scheitel bis zur 
+Zehe und seine Eniee schlugen an einander. 
+
+Als die Menge eine so grosse Feigherzigkeit des Mannes be- 
+merkte, erhob sie ein Geschrei und sagte: »Warum hat er uns 
+bis zu dieser Stunde zurtlckgehalten, um uns mit unseren Kin- 
+dern den blutgierigen wilden Thieren preiszugeben? Wie kdnnen 
+wir nun, eine so grosse gemischte Menge dieser Stadt, hinaus- 
+gehen und vor ihnen fliehen? Denn siehe der mOrderischeFeind 
+hat uns schon ereilt bis auf drei Meilen (d. h. ist nur noch drei 
+Meilen von uns entfernt)«. Darauf sprechen sie zu einander: 
+»Was ziJgern wir und machen die Stadt zu unserem Grabe? 
+Lassen wir unser Hab und Gut im Stich und gehen wir weg ! 
+Vielleicht werden wir uns retten k5nnen ! « Und indem sie sich 
+alle zusammen gegen die vier Thore der Stadt sttirzten, beeilten 
+sie sich in die Gebirgsgegend der Provinz Arcach zu entflieheh. 
+
+Als die Feinde das Geschehene gewahrten, verfolgten sie 
+die Fltichtlinge und holten einen Theil von ihnen am Fusse des 
+Berges ein, welcher gegentlber dem grossen Dorfe Ealankaytuk^ 
+und in derselben Provinz Uti liegt, aus welcher auch ich (stamme). 
+Wegen der einbrechenden Dunkelheit hatten sie keine Zeit, 
+grossen Schaden (zu thun), jedoch von den wenigen, welche in 
+ihre Hand gefallen waren, ledteten sie einige, andere trieben 
+sie wieder mit GepSck, Wagen und Zugthieren in ihr Lager zu- 
+rtlck. Und in jenerNacht gingen alle (die Albanier), wie ehemals 
+die Hebraer tlber das rothe Meer, hintlber und sttirzten sich in 
+die festen Gebiete von Arcach. Ebenso rettete sich auch jener 
+Herrscher des Landes, namens Gaysak^, mit seinem ganzen 
+Hause, entkam in das persische Land und konnte seine alte 
+Herrschaft nicht wieder antreten. 
+
+Nach alle dem sttirzte sich der aus seinen Ufern getretene 
+Strom und der reissende Fluss (der Chazaren) gegen das Land 
+der Iberier, und sie umschlossen und belagerten die tlppige, 
+reiche, bertihmte, grosse Handelsstadt Tiflis. Der grosse Kaiser 
+Herakleios wurde da von in Kenntniss gesetzt und , nachdem er 
+alle Truppen seines Heeres gesammelt hatte, kam er rasch zu 
+seinem verbtlndeten Heifer. Beim Darbringen der koniglichen 
+Gabon und Geschenke nahmen sie (dieselben) in Empfang und 
+freuten sich sehr einander zu sehen. Dann aber konnte man 
+dort das Elend derjenigen sehen, welche in die Festung einge- 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+— - 43 
+
+schlossen waren; denn es traf sie ein Ungltlck nach dem an- 
+dereD. Da aber die Zeit, welche (ihnen) bevorstand, noch nicht 
+herangertlckt war, geschah es, dass Chosrov — da er wusste, 
+dass sieh die beiden grossen KcJnige vor der Belagerung bei der 
+Stadt treflFen woUten — ihnen (den Iberiern) eiligst Truppen zu 
+Htllfe sendete und zum Schutz der Stadt seinen Armeechef 
+Sarhapal, einen bereitwilligen und tapferen Krieger, und mit 
+ihm gegen 1000 Mann seiner vorztlglichen berittenen LeibwSieh- 
+ter und Palasthtlter. Als die Einwohner der Stadt die entsen- 
+dete Htllfsmacht aus stSimmigen, getlbten Kampfgenossen sahen, 
+ermunterten sie sieh sehr und fingen an, die beiden Konige zu 
+bespOtteln. Sie sahen zwar die unzSihlige Menge der ncirdlichen 
+und westlichen Truppen wie Berge um die Stadt herum aufge- 
+stellt, mit denselben auch Maschinen, Vierrader und verschie- 
+dene andere von rOmischen Baumeistern konstruierte Erfindun- 
+gen, mit welchen sie ohne zu fehlen grosseSteine zum Zerstbren 
+der Mauern schleuderten; (sie sahen) auch grosse aufgeblasene 
+mit Steinen angeftillte SchlUuche, mit denen sie den grossen 
+Fluss Kur, welcher um eine Seite der Stadt herumfliesst, an- 
+schwellen und gegen die Mauer strUmen liessen : aber sie wur- 
+den nicht im geringsten entmuthigt, (sondern) feuerten sieh 
+an und das von ihnen (von den Feinden) ZerstOrte bauten und 
+richteten sie wieder auf. Da aber die Truppen der beiden K(5- 
+nige ermattet , ermtldet und erschOpft waren und die Zahl der 
+im Fusskampfe Gefallenen Dicht gering war, beriethen sieh die 
+Konige unter einander und sagten: »Wozu dieser Verlust un- 
+serer Truppen? Werden wir denn nicht, wenn wir den Mach- 
+tigen (d. Chosrov) binden wtlrden, sein Land nach unserem Be- 
+lieben auspltindern ? « Alsdann befahl und ordnete der grosse, 
+eifrige Kaiser Herakleios an, was man thun soUte, und sagte dem 
+Mann, welcher ihm zu Htllfe gekommen war: »Kehre zurtick! 
+Ziebe ftlr dieses Jahr mit deinen Truppen friedlich in dein Land 
+zurtick! Denn wir sehen, dass Ihr in der frischen Luft aufge- 
+wachsen seid, und siehe Ihr kSnntet (die Hitze) nicht aushalten, 
+wenn wir das sommerliche heisse Land Assyrien erreichten, 
+w^o *) sieh am grossen Flusse Tigris die persische Residenz be- 
+findet. Mit dem Eintritt des folgenden Jahres, nach Ablauf der 
+heissen Monate, beeile dich wieder zu kommen, damit wir unser 
+
+
+
+i) Statt np lesen wir nLp, 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+44 
+
+Vorhaben ausftthren. Indessen werde ich nicht aufhOren, mit 
+dem persischen KQnig Krieg zu ftihren, und werde seine Lander 
+und seine Unterthanen gef^hrden und bedrSingen, und so lange 
+werde ich mit List Mittel ersinnen , bis er durch seine eigenen 
+Leute urns Leben kommt.« Als die Bewohner der Stadt von 
+ihrer Entmuthigung und £rsch(5pfung hdrten, wurden sie inner- 
+lich noch stolzer und fingen an das Spiel zu spielen , (welches) 
+die Ursache ihres Unterganges (wurde). Sie brachten einen 
+grossen Ktlrbiss und malten darauf das Bild des Kdnigs der Hun- 
+nen (?!) eine EUe lang und eine EUe breit; als Augenwimpern 
+zeichneten sie einen Zweig von der Weinrebe (?) , welchen man 
+nicht merken konnte (?); die Stelle des Bartes (stellten sie dar) 
+kahl *) ; an Stelle der NasenlOcher (zeichneten sie) eine Hand 
+breit Schnurrbarthaare (?), welche kaum jemand erkennen 
+konnte (?) 2). Indem sie (ihn) brachten und ihnen gegentlber 
+auf die Mauer setzten, schrieen sie zu den Truppen und spra- 
+chen: >Hier ist der Kaiser, euer EOnig! Kehrt zurttck und betet 
+ihn an: das ist Jebu Chak^an!« Und indem sie die Lanze in die 
+Hand nahmen, durchstachen sie vor ihren Augen den Ktlrbiss, 
+welcher seinem (des Kdnigs) Bild Shnlich gemacht war. Sie 
+verlachten, verspotteten und verhOhnten auch den anderen 
+Kdnig und nannten ihn garstig und KnabenschSinder. Als die 
+KSnige dies sahen und hOrten, grollten sie, bldhten sich auf, 
+sammelten in ihren Herzen Bachgeltlste , schtlttelten den Kopf 
+und betheuerten unter grossen Fltichen bei ihrer eigenen Person, 
+dass nicht eine Seele von alien am Leben bleiben soUte, welche 
+unter ihrer Herrschaft seien, wenn sie nicht (wOrtl. bis sie) 
+Bache genommen hatten fttr jene Beleidigungen , dass sie von 
+ihnen verlacht seien. Darauf wandten sie ihr Antlitz weg und 
+zogen unter jenen Drohungen fort. 
+
+Kapitel 26 (B. I.) 
+
+Kanonische Verordnungen, (welche) vom albanischen Kdnig 
+Vacakan in der Versammlung, die in Aluen stattfand, festgesetzt 
+(wurden). 
+
+Wahrend der Begierung des albanischen K5nigs Vapakan 
+
+
+
+\) Im Texte sleht [Jrp^u t^u^fip^u (?). 
+
+2) Die Stelle ist dunkel und unverst^ndlich. Unsere Uebcrsetzung 
+ist sehr frei. 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+45 ^ 
+
+entstanden viele Eonflikte zwischen Laien und BischOfen, Chor- 
+bischdfen und Priestern, Freien und niederem Volke. Da be- 
+stimmte der Kdnig im Monat Mareri , am dreizehnten Tage des- 
+selben, in Aluen ein grosses Gericht zu versammeln. 
+
+Ich Vacakan, KOnig von Albanien, und Sup*^haH§oy, Archi- 
+episkopos von Partav; Manase, Bischof von Kapal; Yunan, Bi- 
+schofvonHasu; Anania undSahak, ChorbischOfe von Uti^); Yov- 
+sep*^, Priester von Kalankaytuk*^; Mat'^e, Priester von Partav; 
+Thomay, Priester des kOniglichen Hofes; Paulos, Priester von 
+Gegac; Smavon, Ghorbiscbof von Ciri; Mat'^e, Priester von Da- 
+rahoi; Abikaz, Priester von Bet^; Urbat*^, Priester von Ayrma- 
+nusk*^; Jovel, Parp, Mik'^e und Yakob, Priester; freie Manner und 
+Nahapetk*^ von Arcacb; Bakur, Nahapet von Kalankaytuk*^; und 
+viele andere, welche allgesammt zu mir in die Versammlung an 
+meinemSommeraufentbaltsorteAluen kamen; wir haben folgen- 
+des verordnet: 
+
+1 . Die Priester, welche in den D5rfern sind, sollen zweimal 
+im Jahre vor dem Bischof die Erde ktlssen (d. h. ihn besuchen) 
+und von ihm nach den heiligen Schriften die geistlichen Ord- 
+nungen lernen; und wie es Branch ist, sollen sie dem Bischof 
+jahrlich ein Geschenk bringen. 
+
+2. Wenn man einen Priester oder Diakonus weiht, soil man 
+ftlr den Priester 4 Drachmen und ftlr den Diakonus 2t Drachmen 
+zahlen (!). 
+
+3. Ein freier Mann oder einer kdniglichen Geschlechtes soil 
+bei seinen Lebzeiten das, was zum Besten seiner Seele dient, 
+mit eigener Hand geben; ein Pferd mit Sattel und ZUgel, und 
+w^as er vermag, soil er geben. Falls er es bei Lebzeiten nicht 
+gegeben hat, soil es seine Familie nach seinem Tode geben. 
+
+4. (Ftlr) die vom Volke (zu erhebende) Priestersteuer soil 
+folgende Anordnung gelten: pnutubfilib (jahrlich?) — vierSchef- 
+fel Weizen, sechs ScheflFel Gerste und 1 6 Krtlge Most (sollen ent- 
+richtet werden). Wer arm ist, soil die Halfte des Brodes geben 
+und soviel Wein, als er nur kann. Indessen wer keinen Acker 
+und Weinberg besitzt, von dem soil man nichts nehmen. Die- 
+jenigen aber, welche um (ihrer) Seele willen mehr als dies 
+geben, machen (es) gut, — wie Paulus sagt: »Wer reichlich 
+sUet, wird reichlich ern ten «. Wo es Schafe im Hause giebt, (soil 
+
+4) Im Texle: y^iuultui L. Wui^tul^ L. ([cumj onpiru^pu^nu^nuo^ 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+46 
+
+man) ein Schaf, drei Btlndel WoUe und einen KSse (geben). Wer 
+Pferde im Hause hat, einen Hengst, und wer Ktthe, ein Kalb. 
+
+5. Weder der Freie, noch der Bauer oder ein anderer Laie 
+darf die jahrliche Messe — namlich die Geddchtnissfeier ftir 
+Verstorbene — unterlassen, (und er soil sie verrichten), wie er 
+nur kann. Auch soil niemand den Verslorbenen einen Theil 
+seines Erwerbes entziehen. Und fttr die verstorbene Person soil 
+man, wenn es (das Opfer) ein Pferd ist, ein Pferd, welches man 
+will, und wenn es ein Schaf ist, ein Schaf, welches man will, 
+der Kirche geben. 
+
+6. Falls ein Klosterabt oder ein MOnch einen Ehebruch 
+(wOrtl. eine Verleitung) im Kloster begeht und auf der Stella 
+ertappt wird, so soil man ihn beschimpfen und aus dem Orte 
+hinaustreiben ; das Kind aber soil man in die Kirche auf- 
+nehmen. 
+
+7. Sind die Priester in Kldstern viel und das Volk wenig, 
+und in anderen KltJstern das Volk viel und die Priester wenig, 
+so soil man (einen Theil) vom vielen Volke nehmen und dem 
+(Kloster) geben, dessen Priester zahlreich sind. 
+
+8. Einen Christen, welcher zankt und Blut vergiesst, soil 
+man vor den Bischof ftlhren und nach den Gesetzen bestrafen. 
+
+9. Ein Priester, welcher ein grosses Dorf seelsorgerisch 
+verwaltet, soil kein anderes Dorf verwalten. Sind zwei Ddrfer 
+nahe bei einander, so sollen sie einen Priester halten, und der 
+Priester soil nur so viele verwalten, als er zu leiten im 
+Stande ist. 
+
+iO. Man darf nicht eine Frau des dritten Verwandtschafts- 
+grades heirathen und nicht die Frau des Bruders. 
+
+1 1 . Wer seine Frau ohne Ursache verlasst, wer ausser der 
+Ehe eine Frau nimmt und wer goltlos und meuchelmOrderisch 
+ist oder die Zauberer befragt, den soil man gebunden in den 
+koniglichen Hof ftlhren und (ihm dort) bitteren Tod auferlegen. 
+
+12. Bei denjenigen, welche (ihre Todten) beweinen, soil 
+man den Hausherrn und die Klageleute binden, in den konig- 
+lichen Hof ftlhren und bestrafen. Die Familie darf nicht hinter- 
+her weinen i). 
+
+13. Wer Aas isst, wer in den grossen Fasten Fleisch isst. 
+
+
+
+4) Vpl. Strabo XI, 503 C: yyTed-rrjxotwy &e ov^ oaiov (pqovil^eiv 
+ov^i fAB/Ltyrjad-ai*. 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+47 
+
+wer am Sonntag irgend welche Arbeit verrichtet und nicht in 
+die Kirche geht, (den) soUen der Priester und das Volk be- 
+strafen. 
+
+i4. Wer am Mittwoch oder am Freitag Fleisch isst, soil eine 
+Woche vor den grossen Fasten fasten, und wenn jemand zu dem 
+Priester kommt und ein Zeugniss von dem Mann ablegt, dass er 
+die Strafe nicht abgebUsst hat (wdrtl. dass es nicht so ist), so 
+soil der Dorfalteste von dem Mann einen Ochsen nehmen und 
+dem Priester geben. 
+
+15. Wenn ein Laie den Priester oder den Diakonus beschul- 
+digt, und diese gestehen, dass es so ist (d. h. dass die Beschul- 
+digung Grund hat) , so soil der Bischof ihnen Busse auferlegen, 
+und sie soUen in der Wttste Busse thun. Wenn sie aber nicht 
+wahrheitsgemass gestehen, und, was die anderen sagen, sich als 
+richtig herausstellt, so soil man ihnen, wie in den Kanones ge- 
+schrieben steht. Strafe auferlegen und (sie) aus dem Dorfe ver- 
+weisen. Falls aber ihre Schuld nicht aufgedeckt wird, so soil 
+man dem Priester befehlen, eine Messe zu lesen, und dies soli 
+(gleichsam) sein Bid sein. 
+
+1 6. Wenn den Priester seine Amtsgenossen und seine Schtl- 
+ler beschuldigen, und sie glaubwtlrdig sind, so soil der Priester 
+vor dem Altar stehen und die AnklSlger vor dem Volk, (darauf) 
+soil man (den Priester) von der Empore (herunterstossen) und 
+aus dem Dorfe verweisen. Wenn aber seine Amtsgenossen und 
+seine Kollegen rachstlchtig sind, und das Volk weiss, dass sie 
+frtlher in Streit waren, dann soil der Priester eine Messe lesen, 
+und das Volk soil sie (die Anklttger) mit Fltlchen vertreiben. 
+Falls sie aber gestehen, dass sie falsch ausgesagt haben, so soil 
+man ihnen Busse auferlegen, und aus dem Eloster soil man sie 
+nicht verweisen. Werden sie aber darauf irgend welchen Scha- 
+den anrichten, so soil man tlber sie nach den Kanones richten. 
+
+1 7. Die Bischt^fe und die Priester beklagten sich vor dem 
+K5nig tlber die Freien, dass sie im Dorfe zwei oder drei Kirchen 
+zu KlOstern machten und die Freien schlossen vor dem Kdnig 
+einen Vertrag ab. Der KOnig, die Bisch^fe und die Freien kamen 
+dahin tlberein, dass man die (zu Kldstern) gemachten Kirchen 
+unangetastet lassen und die Kirchensteuer (wOrtl. >die Frucht 
+und den Ertrag der Kirche «) in die Hauptkirche geben soUte. 
+
+\ 8. Und wenn die Freien den Zehnten geben, soUen sie die 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+48 — 
+
+eine H^lfte in die Hauptkirche und die andere H^ilfte in ihre 
+Kirche geben. 
+
+i 9. Am Sonntag sollen Herr und Diener in die Hauptkirche 
+zum Beten gehen und Andenken (Geschenke) in die Kirche 
+bringen, und ein Auslander soil Seelengabe in die Kirche geben. 
+
+20. Die Freien dUrfen innerhalb ihres Besitzthums einen 
+Priester ohne Zustimmung des Bischofs nicht entlassen, auch der 
+Bischof darf (einen Priester) ohne ihre Zustimmung weder ent- 
+lassen noch weihen. Und falls dem Priester von einem Freien 
+Oder dem Volke Gefahr droht, so darf er ohne Erlaubniss des 
+Bischofs sich nicht entfernen. 
+
+21 . Wenn ein Freier in seiner Kirche einen Altar errichtet, 
+und wenn er Reliquien [bringt] oder Opfer darbringt, so soli er 
+dies nach der Anordnung des Bischofs thun, so gut er es ver- 
+mag. Und wer diese Befehle thut und erftillt, soil gesegnet wer- 
+den; wer sie aber nicht erftillt, soil aus der Kirche ausgeschlos- 
+sen werden, dann aber soil er nach seinem Vermdgen dem 
+Bischof Strafen zahlen. Und wenn jener Mann mehr Strafe 
+leistet (wdrtl. wie viel Strafen tlberdies . . .) als in den Kanones 
+vorgeschrieben ist, so soil er daftlr Segen empfangen. 
+
+Diesen Vertrag schlossen ab die BischOfe, die Priester und 
+die Freien vor dem KOnig. Gesegnet sei von unseren Bisch5fen, 
+Priestern und unserer Kirche der KOnig mit der KQnigin und 
+ihrem Kinde; gesegnet seien sie von dem ganzen Land, welches 
+hier versammelt ist. Diesen Befehl besiegelten Mucik, der kGnig- 
+liche Befehlshaber, Mirhavrik, der Chiliarch, die Azgapetk*^: Ma- 
+rut"^, Tirazg, Asprakos, Samay, Bakur, Aratan, Arses, Vardan der 
+Tapfere, der Herr von Gardman, Churs, Germanosan, Ghosgean, 
+der Nahapet P*^irog und alle Freien von Albanien. Zur grdsseren 
+(Bekraftigung) des Schreibens wurde der Ring des albanischen 
+Kdnigs Vacakan darauf gesetzt. 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+Lebensabriss. 
+
+Geboren bin ich Agop Manandian am 4 0./22. November 4 873 in 
+Achalzich (Caucasus). Ich besuchte das Gymnasium in Tiflis von Herbst 
+4883 bis Sommer 4 893. Nach Erlangung des Reifezeugnisses studierte 
+ich auf den Universitaien Jena, Leipzig, Strassburg 8 Semester verglei- 
+chende Sprachwissenschaft und Geschichte. Wahrend dieser Studienzeit 
+hOrte ich Vorlesungen bei den Herren Professoren Cappeller, Cloetta, 
+Delbriick, F ranken, Gelzer, GOtz, Hirzel, Schrader, Wil- 
+helm in Jena, — Brugmann, Fricke, Leskien, Lindner, Schrei- 
+ber, Sievers, Striimpell, Wachsmuth, Windisch, Wundt, 
+Zimmern in Leipzig, — Henning, HUbschmann, Knapp, Leu- 
+mann, Ziegler in Strassburg, denen alien ich ftir die mannigfachen 
+Anregungen und Forderungen mich aufs Tiefste verpflichtet fiihle. Be- 
+sonders danke ich Herrn Prof. Dr. H. Gelzer, der mich bei dieser 
+Arbeit mit seinem Rathe bereitwilligst unterstiitzt hat. 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+This book should be returned to 
+the Library on or before the last date 
+stamped below. 
+
+A fine is incurred by retaining it 
+beyond the specified time. 
+
+Please return promptly. 
+
+
+
+
+
+Digitized by 
+
+
+
+Googk 
+
+
+
+?• ■■<?- 
+
+
+
+
+
+
+:-;^- 
+
+
+
+
+
+
+
+
+
+'>2. 
+
+
+
+IS^ 
+
+
+
+V t^^ J 
+
+
+

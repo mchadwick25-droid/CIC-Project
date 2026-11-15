@@ -1,0 +1,11 @@
+source_file: roger-wendover_flores-historiarum-v2-rolls-series-84-lat_hewlett1887.txt
+assignments:
+- row_id: roger-wendover_flores-historiarum-v2-rolls-series-84-lat_hewlett1887--roger-of-wendover-flores-historiarum-vol-ii-hewlett-1887
+  work: 'Roger of Wendover, Flores historiarum, vol. II (Hewlett 1887)'
+  author: roger-wendover
+  locus: 'the council of 1215 at about OCR lines 7790-7830; add 12 to OCR line numbers'
+  atlas_ids:
+  - latin-papal-church-gregorian
+  role: context
+  confidence: provisional
+  note: 'A monk''s chronicle of his own times, written in England; an outside report of the council of 1215.'

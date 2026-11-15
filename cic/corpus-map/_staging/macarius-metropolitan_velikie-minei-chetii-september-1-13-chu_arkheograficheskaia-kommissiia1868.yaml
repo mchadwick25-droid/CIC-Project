@@ -1,0 +1,20 @@
+source_file: macarius-metropolitan_velikie-minei-chetii-september-1-13-chu_arkheograficheskaia-kommissiia1868.txt
+assignments:
+- row_id: macarius-metropolitan_velikie-minei-chetii-september-1-13-chu_arkheograficheskaia-kommissiia1868--life-of-joseph-of-volokolamsk-in-the-great-menaion-reader-september-9
+  work: 'Life of Joseph of Volokolamsk, in the Great Menaion Reader (September 9)'
+  author: macarius-metropolitan
+  locus: 'about OCR lines 31080-33911; add 12 to OCR line numbers'
+  atlas_ids:
+  - muscovite-monastic-christianity
+  role: tradition
+  confidence: provisional
+  note: 'An early Life of Joseph kept in Metropolitan Macarius''s Menaion. The heading names no author in the OCR.'
+- row_id: macarius-metropolitan_velikie-minei-chetii-september-1-13-chu_arkheograficheskaia-kommissiia1868--joseph-of-volokolamsk-dukhovnaia-gramota-monastic-rule-in-the-great-menaion-reader-september-9
+  work: 'Joseph of Volokolamsk, Dukhovnaia gramota (monastic rule), in the Great Menaion Reader (September 9)'
+  author: macarius-metropolitan
+  locus: 'about OCR lines 33914-41289; add 12 to OCR line numbers'
+  atlas_ids:
+  - muscovite-monastic-christianity
+  role: tradition
+  confidence: provisional
+  note: 'Joseph''s own rule for his monastery, in Church Slavonic; no translation is held.'

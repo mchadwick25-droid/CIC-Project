@@ -1,0 +1,12 @@
+source_file: pomerius_de-origine-monasterii-viridisvallis-in-analecta-bollandiana-4-lat_1885.txt
+assignments:
+- row_id: pomerius_de-origine-monasterii-viridisvallis-in-analecta-bollandiana-4-lat_1885--henry-pomerius-de-origine-monasterii-viridisvallis-with-the-life-of-ruusbroec-analecta-bollandiana-4
+  work: 'Henry Pomerius, De origine monasterii Viridisvallis, with the Life of Ruusbroec (Analecta Bollandiana 4)'
+  author: pomerius
+  locus: 'about OCR lines 15148-19290; add 12 to OCR line numbers'
+  atlas_ids:
+  - devotio-moderna-brethren-of-the-common-life
+  - rhineland-mysticism-and-the-friends-of-god
+  role: tradition
+  confidence: provisional
+  note: 'A canon of Groenendael writing his own house''s history and its first prior''s Life, a generation after Ruusbroec.'

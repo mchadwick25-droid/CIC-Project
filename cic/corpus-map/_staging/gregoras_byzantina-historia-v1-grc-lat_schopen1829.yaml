@@ -1,0 +1,11 @@
+source_file: gregoras_byzantina-historia-v1-grc-lat_schopen1829.txt
+assignments:
+- row_id: gregoras_byzantina-historia-v1-grc-lat_schopen1829--nikephoros-gregoras-historia-byzantina-volume-1-greek-and
+  work: 'Nikephoros Gregoras, Historia Byzantina, volume 1, Greek and Latin (Schopen 1829)'
+  author: gregoras
+  locus: 'whole volume; add 12 to OCR line numbers'
+  atlas_ids:
+  - byzantine-church-after-1054
+  role: context
+  confidence: provisional
+  note: 'A fourteenth-century scholar''s history, so a later witness for the thirteenth century; the second volume, on his own times, is held.'

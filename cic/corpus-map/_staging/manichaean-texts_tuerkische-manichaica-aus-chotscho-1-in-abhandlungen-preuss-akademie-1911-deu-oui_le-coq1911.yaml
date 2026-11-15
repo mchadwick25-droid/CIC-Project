@@ -1,0 +1,11 @@
+source_file: manichaean-texts_tuerkische-manichaica-aus-chotscho-1-in-abhandlungen-preuss-akademie-1911-deu-oui_le-coq1911.txt
+assignments:
+- row_id: manichaean-texts_tuerkische-manichaica-aus-chotscho-1-in-abhandlungen-preuss-akademie-1911-deu-oui_le-coq1911--turkish-manichaean-texts-from-chotscho-le-coq-1911
+  work: 'Turkish Manichaean texts from Chotscho, with German translation (Le Coq 1911)'
+  author: manichaean-texts
+  locus: 'Le Coq''s paper from about OCR line 39094; add 12 to OCR line numbers'
+  atlas_ids:
+  - manichaeism
+  role: tradition
+  confidence: needs-ruling
+  note: 'The Manichaeans'' own texts, found at Turfan. The manuscripts are of the eighth to tenth centuries, later than this window, so the placing needs a ruling.'

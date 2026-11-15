@@ -1,0 +1,793 @@
+{
+  "claims": [
+    {
+      "claim": "The reading took place on Saturday 25 June 1530 at 3 p.m.",
+      "witness": "bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31286",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Dominant Modern Reconstruction"
+    },
+    {
+      "claim": "The confession was presented on 25 June 1530",
+      "witness": "luther_first-principles-reformation_wace-buchheim1885.txt l.3402-3403; zwingli_latin-works-correspondence-vol2_hinke1922.txt l.1966-1968; luther_works-v4-selected_various1931.txt l.15658-15659",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "The reading was in the chapter hall of the bishop's palace, where the emperor lodged",
+      "witness": "bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31286-31288",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "The two Saxon chancellors Brück and Beyer stepped into the middle of the room, one with the German and one with the Latin copy",
+      "witness": "bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31288-31290",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Dominant Modern Reconstruction"
+    },
+    {
+      "claim": "German was chosen after the elector of Saxony recalled that they were on German soil",
+      "witness": "bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31290-31293",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Dominant Modern Reconstruction"
+    },
+    {
+      "claim": "Beyer read the German text",
+      "witness": "bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31293-31298",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Dominant Modern Reconstruction"
+    },
+    {
+      "claim": "The reading took two hours, and it is said that everyone in the palace courtyard understood every word",
+      "witness": "bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31298-31300",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Sarpi says the princes were before the emperor in a hall holding about 200, and the confession was read with a loud voice",
+      "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.12716-12719",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Dominant Modern Reconstruction"
+    },
+    {
+      "claim": "The legate was absent on the day the confession was read",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17741-17744; sarpi_history-of-the-council-of-trent_brent1676.txt l.12714-12715",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Both copies were signed before the reading",
+      "witness": "bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31282-31284",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Dominant Modern Reconstruction"
+    },
+    {
+      "claim": "Charles kept the Latin copy, gave the German to the elector of Mainz for the imperial archive, and forbade publication",
+      "witness": "bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31306-31309",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Dominant Modern Reconstruction"
+    },
+    {
+      "claim": "The princes were asked whether they dissented in anything more and answered that the document contained all they dissented from",
+      "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.2263-2268; pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17303-17306",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "The confession's preface, conclusion and signers are held in English and Swedish",
+      "witness": "melanchthon_augsburg-confession_anon-pg275.txt l.44-161; melanchthon_augsburg-confession_anon-pg275.txt l.1555-1567; book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.3253-3263; bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.2470-2491",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "The Catholic reply's content reaches us through Melanchthon, who says he worked from notes taken during the reading",
+      "witness": "book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.3402-3406; bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31424-31427",
+      "witness_kind": "participant",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Bensow edited the Swedish church's confessional books, with the Uppsala decisions of 1593, in 1912",
+      "witness": "bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.1-4",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Charles summoned the Diet on the Turk and on dissensions in religion. The parties' opinions were to be heard in each other's presence",
+      "witness": "melanchthon_augsburg-confession_anon-pg275.txt l.48-55",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "The Tetrapolitan's preface says Charles sought to settle the grave and harmful religious split that had troubled Germany for some years",
+      "witness": "niemeyer_collectio-confessionum-lat_niemeyer1840.txt l.46394-46402",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "At Speyer in 1529 Charles had promised Clement VII to restore unity in the church",
+      "witness": "bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31193-31196",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Dominant Modern Reconstruction"
+    },
+    {
+      "claim": "Charles's first plan was a general council, which the pope firmly opposed",
+      "witness": "bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31198-31202",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Dominant Modern Reconstruction"
+    },
+    {
+      "claim": "Needing help against the Turks, Charles invited the estates in very conciliatory words",
+      "witness": "bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31211-31217",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Dominant Modern Reconstruction"
+    },
+    {
+      "claim": "At Bologna Charles resolved to enforce the Edict of Worms and reduce the Lutherans to the unity of the Church",
+      "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.2196-2201",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Dominant Modern Reconstruction"
+    },
+    {
+      "claim": "Charles left Bologna resolved that the separated princes should return to the obedience of the Church of Rome",
+      "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.12541-12544",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Dominant Modern Reconstruction"
+    },
+    {
+      "claim": "Buchheim quotes the writ's aim 'to settle the prevailing discord' and holds that eradicating German 'heresy' was a principal motive",
+      "witness": "luther_first-principles-reformation_wace-buchheim1885.txt l.3326-3337",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Clement VII instructed Vergerius to work that there should be no disputation in the Diet nor a council called in Germany",
+      "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.12549-12553",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "The Lutheran princes had appealed to a general, free Christian council and still adhered to the appeal",
+      "witness": "melanchthon_augsburg-confession_anon-pg275.txt l.144-161",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "The confession asks only that the bishops allow the Gospel to be purely taught and relax some few observances",
+      "witness": "melanchthon_augsburg-confession_anon-pg275.txt l.1520-1523",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Hinke says neither Catholics nor Lutherans would have anything to do with the Reformed, quoting Bucer to Zwingli of 23 June",
+      "witness": "zwingli_latin-works-correspondence-vol2_hinke1922.txt l.1969-1972",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Dominant Modern Reconstruction"
+    },
+    {
+      "claim": "Charles V summoned the Diet at Augsburg",
+      "witness": "melanchthon_augsburg-confession_anon-pg275.txt l.48-49",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "The Diet was summoned for 8 April 1530",
+      "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.12538-12539; bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31216-31218",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "The elector of Saxony arrived in Augsburg on 2 May and waited over six weeks for the emperor",
+      "witness": "bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31234-31236",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Dominant Modern Reconstruction"
+    },
+    {
+      "claim": "The confession's princes say they came promptly and were among the first at Augsburg",
+      "witness": "melanchthon_augsburg-confession_anon-pg275.txt l.66-70",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "The emperor arrived on 15 June, the eve of Corpus Christi",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17051-17052; council-of-trent_canons-and-decrees_waterworth1848.txt l.2205-2206; bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31277",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Waterworth alone says the Diet opened on 20 June with the emperor's speech",
+      "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.2242-2244",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "The Confutation was read on 3 August",
+      "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.2448-2450; bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31393-31394",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "The final decree is dated 19 November 1530",
+      "witness": "taeuferakten-wuerttemberg_quellen-geschichte-wiedertaeufer-1-deu_bossert1930.txt l.1012; council-of-trent_canons-and-decrees_waterworth1848.txt l.2544-2545; luther_first-principles-reformation_wace-buchheim1885.txt l.3489; book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.11994",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Waterworth says the decree was published on 22 November",
+      "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.2546-2547",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Pallavicino says the Diet met with an unusual attendance of princes, church and lay",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17036-17037",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "The emperor came with the legate Campeggio and a large retinue of princes, ambassadors and electors",
+      "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.2203-2205",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Dominant Modern Reconstruction"
+    },
+    {
+      "claim": "The confession is signed by seven princes and the senates of Nuremberg and Reutlingen",
+      "witness": "melanchthon_augsburg-confession_anon-pg275.txt l.1555-1567; book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.3253-3263; bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.2475-2491",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "The decree names the elector of Saxony, five princes and six cities",
+      "witness": "taeuferakten-wuerttemberg_quellen-geschichte-wiedertaeufer-1-deu_bossert1930.txt l.1013-1014",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Bossert's note lists the decree's princes and the cities Nuremberg, Reutlingen, Kempten, Heilbronn, Windsheim and Weissenburg",
+      "witness": "taeuferakten-wuerttemberg_quellen-geschichte-wiedertaeufer-1-deu_bossert1930.txt l.1026-1030",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "The elector brought Luther, Melanchthon, Spalatin, Justus Jonas and Agricola",
+      "witness": "luther_works-v4-selected_various1931.txt l.15652-15654",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Dominant Modern Reconstruction"
+    },
+    {
+      "claim": "Bensow names Jonas, Agricola, Spalatin, Schnepf and Brenz as the theologians at Augsburg, with Brück",
+      "witness": "bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31263-31266; bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31273-31275",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Dominant Modern Reconstruction"
+    },
+    {
+      "claim": "Waterworth names Faber, Eck and Cochlaeus as the most distinguished of the reply's writers",
+      "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.2349-2351",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Bucer and Capito drew up the Tetrapolitan",
+      "witness": "zwingli_latin-works-correspondence-vol2_hinke1922.txt l.1975-1976; niemeyer_collectio-confessionum-lat_niemeyer1840.txt l.3956-3959 (with Hedio)",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Waterworth says Bucer and Capito presented it; its title says the four cities' envoys did",
+      "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.2488-2490; niemeyer_collectio-confessionum-lat_niemeyer1840.txt l.46380-46384",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Jacob Sturm sent Zwingli a copy of the Augsburg Confession on 31 May",
+      "witness": "zwingli_latin-works-correspondence-vol2_hinke1922.txt l.1977-1978",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Dominant Modern Reconstruction"
+    },
+    {
+      "claim": "Vadian was at Augsburg during the Diet and corresponded with Zwingli",
+      "witness": "zwingli_latin-works-correspondence-vol2_hinke1922.txt l.5703-5705",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Dominant Modern Reconstruction"
+    },
+    {
+      "claim": "Pallavicino names seven a side for the talks. His Catholics are the bishop of Augsburg, a duke of Brunswick later replaced by Duke George of Saxony, two chancellors, Eck, Wimpina and a third",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17436-17443",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Pallavicino names for the Lutherans John Frederick, George of Brandenburg, Gregor Brück, 'D. Heller', Melanchthon, Brenz and Schnepf",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17443-17448",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "The day after the reading the Catholic members, with the legate and many theologians, resolved to have a refutation drawn up",
+      "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.2344-2349",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Dominant Modern Reconstruction"
+    },
+    {
+      "claim": "The Catholic estates gave the task to Campeggio, who gave it to about twenty theologians",
+      "witness": "bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31364-31370",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Waterworth says the reply was completed on 13 July and required to be made shorter and less violent",
+      "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.2445-2448",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Bensow dates the first draft to 12 July and says the emperor was angered by it",
+      "witness": "bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31381-31388",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Alexander Schweiss read the reply on 3 August in the same room as the confession",
+      "witness": "bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31392-31395",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Dominant Modern Reconstruction"
+    },
+    {
+      "claim": "The reply was accepted by the emperor as his own",
+      "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.2448-2450; bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31405-31407",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "The Lutherans called the Catholic reply the confutatio",
+      "witness": "bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31441-31443",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Melanchthon says the emperor demanded the princes assent to the confutation and they could get a copy only on perilous conditions",
+      "witness": "book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.3371-3386",
+      "witness_kind": "participant",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "The terms of 5 August: a copy if they made no reply, showed it to no one and did not print it",
+      "witness": "bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31416-31421",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Dominant Modern Reconstruction"
+    },
+    {
+      "claim": "Pallavicino gives the imperial reason for withholding the copy: the preachers had mocked the Edict of Worms",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17388-17398",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Melanchthon: 'how could they assent to a writing into which they had not looked?'",
+      "witness": "book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.3394-3398",
+      "witness_kind": "participant",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "A commission of seven a side was formed, later three a side",
+      "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.2442-2445; sarpi_history-of-the-council-of-trent_brent1676.txt l.12918-12921",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Sarpi says some few small points were agreed but no concord",
+      "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.12921-12926",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Pallavicino says agreement was on the most important articles",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17453-17457",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Zwingli's Account of the Faith was handed to the emperor on 8 July",
+      "witness": "zwingli_latin-works-correspondence-vol2_hinke1922.txt l.1989-1995",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Dominant Modern Reconstruction"
+    },
+    {
+      "claim": "The Tetrapolitan was handed to the emperor on 11 July",
+      "witness": "zwingli_latin-works-correspondence-vol2_hinke1922.txt l.1975-1977",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Dominant Modern Reconstruction"
+    },
+    {
+      "claim": "Zwingli signed his Account at Zurich on 3 July",
+      "witness": "niemeyer_collectio-confessionum-lat_niemeyer1840.txt l.5978; zwingli_latin-works-correspondence-vol2_hinke1922.txt l.1909-1920",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "The emperor had the cities' writing answered and refused them a copy",
+      "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.12880-12884; sarpi_history-of-the-council-of-trent_brent1676.txt l.12925-12936",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Eck's refutation of Zwingli is dated Augsburg, 17 July 1530",
+      "witness": "zwingli_latin-works-correspondence-vol2_hinke1922.txt l.3381-3382; zwingli_latin-works-correspondence-vol2_hinke1922.txt l.3405",
+      "witness_kind": "participant",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Hinke judges the emperor probably never read a line of Zwingli's confession",
+      "witness": "zwingli_latin-works-correspondence-vol2_hinke1922.txt l.1997-1998",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Melanchthon says the Apology was offered and the emperor did not receive it",
+      "witness": "book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.3412-3416",
+      "witness_kind": "participant",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Brück handed over the Apology on 22 September; it is told that Ferdinand whispered to the emperor, who then refused it",
+      "witness": "bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31430-31439",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Section 4 says the elector, five princes and six cities should join the emperor and the other estates against those who do not hold the sacrament and the Anabaptists",
+      "witness": "taeuferakten-wuerttemberg_quellen-geschichte-wiedertaeufer-1-deu_bossert1930.txt l.1012-1020",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Section 40 keeps the law against the Anabaptists and orders children baptized with chrism",
+      "witness": "taeuferakten-wuerttemberg_quellen-geschichte-wiedertaeufer-1-deu_bossert1930.txt l.1022-1044",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Waterworth gives the 22 September draft with a term to 15 April 1531, at least until a general council",
+      "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.2497-2505",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Buchheim says the decree of 19 November carried the 15 April 1531 term",
+      "witness": "luther_first-principles-reformation_wace-buchheim1885.txt l.3487-3492",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "A council was to be called within six months and held within a year",
+      "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.2528-2532; sarpi_history-of-the-council-of-trent_brent1676.txt l.12986-12988; pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17593-17596",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Waterworth says the final form proscribed the Zwinglians, degraded married priests, rebuilt monasteries and promised a council",
+      "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.2544-2556",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Dominant Modern Reconstruction"
+    },
+    {
+      "claim": "The Protestant princes opposed the September draft edict except the clauses against the Anabaptists and Zwinglians, and refused aid against the Turk",
+      "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.2541-2544",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Dominant Modern Reconstruction"
+    },
+    {
+      "claim": "In the Apology Melanchthon writes that 'a horrible decree' has been prepared against them; H. E. Jacobs's note identifies it as the recess of 19 November",
+      "witness": "book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.11949-11952 (Melanchthon); book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.11994 (the identification, H. E. Jacobs's note, modern reconstruction)",
+      "witness_kind": "participant",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "The princes met at Smalcald on 22 December and signed a treaty for mutual defense. Its form was drawn up on 31 December and signed on 4 January 1531",
+      "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.2599-2601; council-of-trent_canons-and-decrees_waterworth1848.txt l.2606-2607",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Dominant Modern Reconstruction"
+    },
+    {
+      "claim": "The Smalcald League was formed in December 1530 and even Luther approved",
+      "witness": "luther_first-principles-reformation_wace-buchheim1885.txt l.3522-3524",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Dominant Modern Reconstruction"
+    },
+    {
+      "claim": "Clement VII was grieved that the emperor received confessions and held talks, and above all by the promised council",
+      "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.12994-13012",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Waterworth says the events at Augsburg confirmed the emperor's hope in a general council",
+      "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.2586-2590",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "The estates endorsed the Apology at Schweinfurt in 1532, and all the theologians at Smalcald signed it in 1537",
+      "witness": "bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31456-31462",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Dominant Modern Reconstruction"
+    },
+    {
+      "claim": "The 1580 preface roots the Book of Concord in the confession offered at the Diet of Augsburg in 1530",
+      "witness": "book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.466-474",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "The Formula of Concord says the Zwinglian teachers separated when the confession was presented",
+      "witness": "book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.26603-26606",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Pallavicino says the decree rejected the confession of the four Zwinglian cities",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17586-17590",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "The Uppsala council of 1593 bound Sweden to the unaltered Augsburg Confession handed to Charles V at the diet of 1530",
+      "witness": "bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31032-31037; bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.30934-30938",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "The Danish royal law of 1665 binds the kings to the faith of the Augsburg Confession of 1530",
+      "witness": "helweg_den-danske-kirkes-historie-efter-reformationen-v1-dan_1851.txt l.18849; helweg_den-danske-kirkes-historie-efter-reformationen-v1-dan_1851.txt l.18866-18873",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "The two copies handed to the emperor have not been found; Bensow says Philip II may have destroyed them",
+      "witness": "bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31317-31319",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Luther, under the imperial ban, was left at Coburg",
+      "witness": "luther_works-v4-selected_various1931.txt l.15661-15664; bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31231-31234",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Luther took up residence at the Coburg fortress on 23 April and stayed there while the Diet sat",
+      "witness": "luther_works-v4-selected_various1931.txt l.15663-15665",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Dominant Modern Reconstruction"
+    },
+    {
+      "claim": "Luther: 'It is not fitting, dear sirs, that I should appear in person at this diet'",
+      "witness": "luther_works-v4-selected_various1931.txt l.15752-15753",
+      "witness_kind": "participant",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Luther approved the draft without remarks",
+      "witness": "bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31263-31268",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Dominant Modern Reconstruction"
+    },
+    {
+      "claim": "Melanchthon drafted the confession with the theologians at Augsburg",
+      "witness": "bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31263-31266; zwingli_latin-works-correspondence-vol2_hinke1922.txt l.1966-1967; luther_first-principles-reformation_wace-buchheim1885.txt l.3404",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Brück wrote most of the preface and conclusion",
+      "witness": "bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31272-31275",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Dominant Modern Reconstruction"
+    },
+    {
+      "claim": "Melanchthon wrote to Campeggio on 6 July",
+      "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.2383-2385",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Dominant Modern Reconstruction"
+    },
+    {
+      "claim": "Campeggio said at Augsburg he would be torn to pieces before relinquishing the Mass",
+      "witness": "book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.16110-16112",
+      "witness_kind": "participant",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Lang of Salzburg said a poor monk should not reform all",
+      "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.12870-12874",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Philip of Hesse left Augsburg early",
+      "witness": "luther_first-principles-reformation_wace-buchheim1885.txt l.3458-3462; council-of-trent_canons-and-decrees_waterworth1848.txt l.2593-2595; foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.26239-26240",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Bugenhagen helped draft the Torgau articles",
+      "witness": "bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31228-31230; council-of-trent_canons-and-decrees_waterworth1848.txt l.2209-2211",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Dominant Modern Reconstruction"
+    },
+    {
+      "claim": "Hedio helped draft the Tetrapolitan with Bucer and Capito",
+      "witness": "niemeyer_collectio-confessionum-lat_niemeyer1840.txt l.3950-3955",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Dominant Modern Reconstruction"
+    },
+    {
+      "claim": "Camerarius took notes while the reply was read",
+      "witness": "bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31424-31427",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Dominant Modern Reconstruction"
+    },
+    {
+      "claim": "Cochlaeus was present, by Pallavicino's account",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17042-17043",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "The confession condemns the Anabaptists",
+      "witness": "melanchthon_augsburg-confession_anon-pg275.txt l.314-315; melanchthon_augsburg-confession_anon-pg275.txt l.418-419",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Buchheim says George of Brandenburg offered his head rather than renounce the word of God",
+      "witness": "luther_first-principles-reformation_wace-buchheim1885.txt l.3366-3371",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Bensow judges that the printed German text surely differs considerably from the one read at Augsburg; the Latin is mainly unchanged; the German in the Book of Concord rests on a Mainz copy of doubtful accuracy",
+      "witness": "bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31330-31348",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Dominant Modern Reconstruction"
+    },
+    {
+      "claim": "Pallavicino quotes Melanchthon's letter to the legate, 'we hold no dogma different from the Roman Church', as evidence that the talks agreed on major articles",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17453-17461",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Pallavicino says the principal Protestants rejected the conditions of the first recess, before a second edict",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17600-17601",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Pallavicino summarizes a letter of Campeggio's to Aleander complaining that at Augsburg, on the eve of the planned concord, Faber and Eck published books that inflamed the other side",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17759-17766",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Pallavicino says the legate would not have the Confutation given in his name",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17743-17745",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    }
+  ],
+  "contested_claims": [
+    {
+      "claim": "Where the reading took place",
+      "sides": "The chapter hall of the bishop's palace, where the emperor lodged: Bensow (bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31286-31288) | 'a chamber of the Palatinate palace': Waterworth (council-of-trent_canons-and-decrees_waterworth1848.txt l.2256-2258) | 'an Hall, capable to receive about 200': Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.12716-12718)",
+      "formation_confidence": "Contested",
+      "note": "No held line says these are the same building; no held source says 'chapel'."
+    },
+    {
+      "claim": "The day the emperor arrived at Augsburg",
+      "sides": "15 June, the eve of Corpus Christi: Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17051-17052), Waterworth (council-of-trent_canons-and-decrees_waterworth1848.txt l.2205-2206), Bensow (bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31277) | 'the thirteenth of June, the Eve of Corpus Christi': Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.12561-12562)",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Who wrote the Catholic reply, and how many",
+      "sides": "Faber, Eck and Cochlaeus as the most distinguished: Waterworth (council-of-trent_canons-and-decrees_waterworth1848.txt l.2349-2351) | Cochlaeus, Faber and Eck: Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17313-17314) | About twenty, among them Eck, Fabri, Cochlaeus, Dietenberger and Wimpina, with Eck the harshest hand: Bensow (bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31368-31387) | Eck 'with seventy other theologians': Hinke (zwingli_latin-works-correspondence-vol2_hinke1922.txt l.3303-3304) | Faber 'the chief composer': H. E. Jacobs (book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.12852-12853) | 'certain theologians and monks', unnamed: Melanchthon (book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.3371-3372)",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "When the Catholic side resolved to write a reply",
+      "sides": "The day after the reading: Waterworth (council-of-trent_canons-and-decrees_waterworth1848.txt l.2344-2346) | 'a couple of days' after: Bensow (bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31364-31366)",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "The date of the first draft of the Catholic reply",
+      "sides": "12 July: Bensow (bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31383) | 13 July: Waterworth (council-of-trent_canons-and-decrees_waterworth1848.txt l.2445-2446)",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "How close the talks came to agreement",
+      "sides": "Only 'some few small points' and 'no concord at all': Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.12921-12926) | Agreement 'in principalissimi articoli': Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17453-17457) | Near agreement, frustrated by Campeggio: Buchheim (luther_first-principles-reformation_wace-buchheim1885.txt l.3440-3454)",
+      "formation_confidence": "Contested",
+      "note": "Each writes for a side."
+    },
+    {
+      "claim": "Whether Luther was at Augsburg",
+      "sides": "'At the Imperial Assembly at Augsburg, in the year 1530, the Bishop of Salzburg said unto me': Table Talk (luther_table-talk_bell1886.txt l.1114-1119; also TT 2206-2208) | At Coburg for the whole Diet: C. M. Jacobs (luther_works-v4-selected_various1931.txt l.15661-15665), Bensow (bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31231-31234)",
+      "formation_confidence": "Contested",
+      "note": "The Table Talk lines are late compiled recollections; the profile does not use them as evidence that Luther was at Augsburg."
+    },
+    {
+      "claim": "The Torgau meeting and Luther's departure from Wittenberg",
+      "sides": "Melanchthon at Torgau on 27 March; Luther left Wittenberg on 3 April: Bensow (bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31226-31231) | Torgau conference on 20 March: C. M. Jacobs (luther_works-v4-selected_various1931.txt l.15714); Luther left Wittenberg on 13 April: C. M. Jacobs (luther_works-v4-selected_various1931.txt l.13688-13689)",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "How and when Philip of Hesse left the Diet",
+      "sides": "'suddenly left Augsburg at the beginning of August', the gates then watched: Buchheim (luther_first-principles-reformation_wace-buchheim1885.txt l.3458-3462) | 'under the plea of his wife's illness': Waterworth (council-of-trent_canons-and-decrees_waterworth1848.txt l.2593-2595) | 'privily by night slipped out of the city': Foxe (foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.26239-26240)",
+      "formation_confidence": "Contested",
+      "note": "No held source gives the day."
+    },
+    {
+      "claim": "The count of the Lutheran estates",
+      "sides": "Seven princes and two cities sign the confession (melanchthon_augsburg-confession_anon-pg275.txt l.1555-1567; book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.3253-3263; bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.2475-2491) | The elector, five princes and six cities in the decree (taeuferakten-wuerttemberg_quellen-geschichte-wiedertaeufer-1-deu_bossert1930.txt l.1013-1014; Bossert's note, taeuferakten-wuerttemberg_quellen-geschichte-wiedertaeufer-1-deu_bossert1930.txt l.1026-1030)",
+      "formation_confidence": "Contested",
+      "note": "Different documents of different dates; the profile keeps them apart and settles neither."
+    },
+    {
+      "claim": "Which document set the term of 15 April 1531",
+      "sides": "The draft read on 22 September: Waterworth (council-of-trent_canons-and-decrees_waterworth1848.txt l.2497-2505) | The decree issued on 19 November: Buchheim (luther_first-principles-reformation_wace-buchheim1885.txt l.3487-3492) | The first recess, refused by the principal Protestants, before a second edict: Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17567-17569, 17580-17582, 17600-17601; the day of April unclear in the OCR)",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "The date of Eck's reply to Zwingli",
+      "sides": "17 July 1530, Eck's own dating (zwingli_latin-works-correspondence-vol2_hinke1922.txt l.3405) | 'Eck's answer of the 16th of August': Hinke (zwingli_latin-works-correspondence-vol2_hinke1922.txt l.5704-5705)",
+      "formation_confidence": "Contested",
+      "note": "Perhaps the printed copy; unresolved."
+    },
+    {
+      "claim": "Whether the confession was refuted",
+      "sides": "The adversaries 'were constrained to confess that our Confession was upright and true': Luther, Table Talk (luther_table-talk_bell1886.txt l.3640-3642) | The adversaries 'boast that they have refuted our Confession from the Scriptures': Melanchthon reporting the decree (book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.3417-3418); the draft decree said so: Bensow (bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31431-31434)",
+      "formation_confidence": "Contested",
+      "note": "Polemic on both sides; the profile states neither as fact."
+    },
+    {
+      "claim": "When the commission of seven a side sat",
+      "sides": "Told before the 13 July draft of the reply, with no date given: Waterworth (council-of-trent_canons-and-decrees_waterworth1848.txt l.2440-2446) | After the reply was read, in August: Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.12918-12920), Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17449), Buchheim (luther_first-principles-reformation_wace-buchheim1885.txt l.3443), Melanchthon (book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.3388)",
+      "formation_confidence": "Contested"
+    }
+  ],
+  "absent_details": [
+    {
+      "detail": "The Catholic reply (the Confutation) itself",
+      "note": "Not among our sources; it survives elsewhere. Searched all cic/texts/*.txt, case-insensitive, for 'confut[a-z]*.{0,60}(augu[sf]t|augsb|ausb|lutheran|luteran|protestant|princes)' and the reverse order, and for 'confutatio pontificia|responsio (catholica|pontificia)|Catholica responsio'. Hits outside the Book of Concord and the Apology are unrelated. H. E. Jacobs lists it for his second volume, which is not held (book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.378-384). Its content reaches us through the Apology's quotations and the historians' summaries."
+    },
+    {
+      "detail": "The full imperial decree of 19 November 1530",
+      "note": "Only sections 4 and 40 are held (taeuferakten-wuerttemberg_quellen-geschichte-wiedertaeufer-1-deu_bossert1930.txt l.1012-1047). Searched 'recess(us|u)?.{0,60}(augsb|augu|1530)', 'reichs(tags)?abschied.{0,40}augsburg' and 'abschied.{0,30}1530' across all texts. Mirbt has no 1530 item (its contents run from the 1529 Speyer recess, no. 345, to the 1555 Peace, no. 351)."
+    },
+    {
+      "detail": "A list of all those present, or a total count",
+      "note": "None held. The acts collections Pallavicino used (Coelestinus) and Förstemann's Urkundenbuch, cited by C. M. Jacobs (luther_works-v4-selected_various1931.txt l.15684-15685), are not held. Pallavicino speaks only of an unusual attendance of princes (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17036-17037), and Sarpi of a hall holding about 200 (sarpi_history-of-the-council-of-trent_brent1676.txt l.12718)."
+    },
+    {
+      "detail": "A document of Campeggio's from 1530",
+      "note": "None held. Searched 'campeg|campegg|campeius|campegius|campeggi' across all cic/texts/*.txt; Mansi 32 holds only his 1524 Regensburg constitution, and the only Campeggio document found is a letter of 1532 from Regensburg (theiner_vetera-monumenta-slavorum-meridionalium-v1-lat_1863.txt l.46768-46800). His view of the talks reaches us through Pallavicino's summary of a letter to Aleander (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17759-17766). Pallavicino says the legate would not have the Confutation given in his name (l.17743-17745)."
+    },
+    {
+      "detail": "The emperor's writ of summons of 1530",
+      "note": "Not held as a text. Buchheim quotes a phrase from it without a source (luther_first-principles-reformation_wace-buchheim1885.txt l.3335-3337)."
+    },
+    {
+      "detail": "Luther's letters from Coburg about the Diet",
+      "note": "Not held. LW4 holds his Exhortation to the Clergy Assembled at the Diet, written at Coburg (luther_works-v4-selected_various1931.txt l.15631 on, 15664-15669), and C. M. Jacobs reports his letter to Melanchthon of 29 April about it (l.15668-15670). Jacobs quotes his letter to Melanchthon of 5 July (l.6245-6247); LW4 also holds the Sermon on Keeping Children in School, written at Coburg during the Diet, with its dedication to Lazarus Spengler (l.6234-6239, 6300 on), which does not mention the Diet. Melanchthon's 1530 letters reach us through Waterworth's quotations (council-of-trent_canons-and-decrees_waterworth1848.txt l.2356-2433, 2461-2467, 2509-2524) and through Pallavicino, who quotes his letter to the legate (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17457-17461)."
+    },
+    {
+      "detail": "The first name of the chancellor Beyer",
+      "note": "Bensow gives only 'D:r Beyer' (bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31293-31298). Searched all texts for 'Beyer', 'Bayer' and 'Baier' with 'Christian': no held line gives his first name."
+    },
+    {
+      "detail": "The day Philip of Hesse left Augsburg",
+      "note": "Buchheim says 'at the beginning of August'; Waterworth and Foxe give no day. Searched FPR, WAT, Foxe IV, Bensow and Sarpi."
+    },
+    {
+      "detail": "The two signed copies handed to the emperor",
+      "note": "Lost (bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31317-31319); the held texts are printed editions (book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.1466-1468)."
+    }
+  ]
+}

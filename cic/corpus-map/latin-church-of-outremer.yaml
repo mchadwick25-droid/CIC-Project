@@ -44,6 +44,45 @@ works:
     later instalments, with the letters of 1220-1221, are in other volumes. The rest of this
     volume is other articles.
   source_file: jacques-de-vitry_briefe-in-zeitschrift-fuer-kirchengeschichte-14-lat-deu_rohricht1894.txt
+- row_id: krey_first-crusade-accounts-of-eye-witnesses-and-participants_1921--krey-the-first-crusade-the-eyewitness-accounts-in-english
+  work: 'Krey, The First Crusade: the eyewitness accounts in English (1921)'
+  author: krey
+  locus: whole volume; Clermont at about OCR lines 1295-2254; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: English translations of the Latin accounts, cut and arranged by a modern editor. The
+    Latin of Fulcher, Robert and Guibert is held beside it.
+  source_file: krey_first-crusade-accounts-of-eye-witnesses-and-participants_1921.txt
+- row_id: rhc-historiens-occidentaux_t3-fulcher-robert-raymond-gesta-francorum-lat_academie1866--fulcher-of-chartres-historia-hierosolymitana-latin-rhc
+  work: Fulcher of Chartres, Historia Hierosolymitana, Latin (RHC Occidentaux III)
+  author: rhc-historiens-occidentaux
+  locus: from about OCR line 24291; Clermont at about 24772-24919; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: A chaplain who went on the crusade and stayed in Jerusalem. His is one of the four
+    main reports of Urban II's speech at Clermont; the reports differ, and all were written
+    after the crusade.
+  source_file: rhc-historiens-occidentaux_t3-fulcher-robert-raymond-gesta-francorum-lat_academie1866.txt
+- row_id: rhc-historiens-occidentaux_t4-baldric-guibert-albert-lat_academie1879--guibert-of-nogent-gesta-dei-per-francos-latin-rhc
+  work: Guibert of Nogent, Gesta Dei per Francos, Latin (RHC Occidentaux IV)
+  author: rhc-historiens-occidentaux
+  locus: from about OCR line 9928; Clermont at about 11092-11360; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: An abbot's history of the crusade, with one of the four main reports of Urban II's
+    speech at Clermont. He did not go on the crusade. Baldric and Albert, in the same volume,
+    are also held in PL 166.
+  source_file: rhc-historiens-occidentaux_t4-baldric-guibert-albert-lat_academie1879.txt
+- row_id: rhc-historiens-occidentaux_t3-fulcher-robert-raymond-gesta-francorum-lat_academie1866--robert-the-monk-raymond-of-aguilers-tudebode-and-the-gesta
+  work: Robert the Monk, Raymond of Aguilers, Tudebode and the Gesta Francorum, Latin (RHC
+    Occidentaux III)
+  author: rhc-historiens-occidentaux
+  locus: whole volume; Robert on Clermont from about OCR line 52360; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: Latin histories of the First Crusade by clergy who went or wrote soon after. Robert
+    the Monk gives another of the reports of Urban's speech.
+  source_file: rhc-historiens-occidentaux_t3-fulcher-robert-raymond-gesta-francorum-lat_academie1866.txt
 - row_id: rhc-historiens-orientaux_t2-pt1-fra_academie1887--ibn-al-athir-al-kamil-585-628-ah-in-french-rhc-historiens-orient
   work: Ibn al-Athir, al-Kamil, 585-628 AH, in French (RHC Historiens orientaux II, part 1)
   author: rhc-historiens-orientaux

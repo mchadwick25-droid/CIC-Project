@@ -1,0 +1,11 @@
+source_file: al-maqqari_history-of-the-mohammedan-dynasties-in-spain-v1_gayangos1840.txt
+assignments:
+- row_id: al-maqqari_history-of-the-mohammedan-dynasties-in-spain-v1_gayangos1840--al-maqqari-history-of-the-mohammedan-dynasties-in-spain-vol
+  work: 'al-Maqqari, History of the Mohammedan Dynasties in Spain, vol. I (Gayangos 1840)'
+  author: al-maqqari
+  locus: 'whole volume; Ibn Hayyan named at about OCR line 13669 and elsewhere; add 12 to OCR line numbers'
+  atlas_ids:
+  - mozarabic-christianity
+  role: context
+  confidence: provisional
+  note: 'A later Muslim historian who quotes Ibn Hayyan of Cordoba by name. Every line of Ibn Hayyan here is a quotation by a later writer, in Gayangos''s English extracts (''extracted from the Nafhu-t-tíb'', title page), not his own book.'

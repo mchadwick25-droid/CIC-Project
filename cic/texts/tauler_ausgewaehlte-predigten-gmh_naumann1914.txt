@@ -1,0 +1,4503 @@
+Title: Ausgewahlte Predigten Johann Taulers, herausgegeben von Leopold Naumann (in the series edited by Hans Lietzmann)
+Creator: Johannes Tauler; edited by Leopold Naumann (title page)
+Publisher: Bonn: A. Marcus und E. Weber's Verlag (title page)
+Publication Date: 1914 (title page, OCR line 60)
+Rights: Public Domain (pd-us-by-date: published 1914); the archive.org record carries no rights field, so the imprint date is the basis
+Language: gmh
+Source: archive.org item ausgewhltepredig0000taul, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (170,169) equals the size archive.org lists for the djvu.txt.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1914, out of US copyright by date. OCR quality: the medieval German of the sermons is fair; the publisher's notice in black letter at the front cannot be read. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
+Content note: A selection of Tauler's sermons in the medieval German of the manuscripts, which Naumann takes from Vetter's edition of 1910 (his note at about OCR lines 210-268). The sermons run from about OCR line 300 to about 3968, and a contents list and the publisher's list follow; single sermons were not mapped. A selection, not the whole of Vetter.
+
+______________________________________________________________________
+
+
+
+
+
+
+
+The Ebiary 
+
+
+SCHOOL OF THEOLOGY 
+AT CLAREMONT- 
+
+
+WEST FOOTHILL AT COLLEGE AVENUE 
+CLAREMONT, CALIFORNIA a 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HERAUSGEGEBEN VON HANS LIETZMANN 
+
+
+
+
+
+BER CH r ee: TEN Se 
+
+
+
+
+
+| AUSGEWÄH LTE | 
+PREDIGTEN JOHANN TAULERS 
+
+
+HERAUSGEGEBEN 
+
+
+LEOPOLD NAUMANN 
+
+
+
+
+
+BONN 
+A. MARCUS UND E. WEBER’S VERLAG 
+1914 
+
+
+| 7 a. Marcus ui €. Webers a 
+
+
+in Bonn a Rhein 
+
+
+guthers Berfe 
+
+
+in Auswahl 
+
+
+Unter Mitwirkung von Albert eribriann- 
+herausgegeben von 
+
+
+Dtto Clemen 
+| "Dier Bände 
+Preis in Leinen gebunden je .— M. 
+
+
+Die Ausgabe it auf + Bände zu je 5 Marf berechnet; 
+Band IV wird zu Weihnachten 1913. erjcheinen. , 
+
+
+Diefe neue Ausgabe will den jungen und alten Studenten, _ 
+
+
+
+
+
+
+
+
+
+
+
+
+. den Theologen, Germaniften und NHiftorifern die wichtigften 
+
+
+Schriften Luthers in einer den wiffenfhaftliden An: 
+forderungen entfpredhenden Tertform in die Hand 
+geben. Diefen Zwed fönnen die Braunjchmeig- Berliner Außs 
+gabe „für das chriftlihe Haus” und die von I. Böhmer 
+ beforgte ‚für das deutfche Volk“ mit ihren InsberhiR erten 
+u deutfchen und. überfeßten Iateinifchen Texten naturgemäß nicht 
+
+
+erfüllen, die Erlanger und die bisher einzig wiffenfchaftlich braudy= 
+
+
+bare Weimarer Ausgabe find aber für die meisten unerfchwinglich. 
+
+ Unfere Ausgabe bietet die deutfchen Terte nach den Driginal- 
+‚drucen. Die germaniftifche Revifton und Befeitigung der Vers 
+fehen. der alten Druder hat Prof. A.Leismann beforgt. Die 
+- alte Interpunftion ift nur da geändert worden, wo fig ge 
+eignet war,. ein Mißverftändnis zu erzeugen, Uber alle. Ande: 
+rungen gibt der Eritifche Apparat Nechenfchaft. Sin: den latei- 
+nifchen Te vn ift durch maßvolle Modernifierung der Interpunftion 
+"dad Berftändnis erleichtert worden. Uber weiterhin begegnende 
+
+Scwierigfeiten helfen die Anmerkungen hinweg. Die Ein- 
+Teitungen zu den einzelnen Schriften find möglichft kurz gehalten. 
+
+Sie geben PVeranlaffung und Zeit der Abfaffung-und des 
+Drudes der Schriften an, zeigen unter Hinweis auf beachten 
+werte moderne Kiteratur Gefi ichtöpunfte an, unter denen fie zu- 
+‚Iefen find, greifen aber der Lektüre in- feiner Weife vor und 
+überlaffen dem Lefer die Bildung des Urteile... Zur bequemen. 
+ Auffindung von Zitaten find die Seiten der Weimarer und 
+- Erlanger (1. und 2.) Ausgabe am Rande angegeben. 
+
+
+
+
+
+Ben 
+
+
+
+
+
+Mu AUSGEWÄHLTE Be: 
+
+
+“PREDIGTEN JOHANN TAULERS x 
+
+
+
+
+
+} 
+HERAUSGEGEBEN 
+z voN 5 
+LEOPOLD NAUMANN 
+! 
+\ 
+
+i BONN i 
+A, MARCUS UND E. WEBER’S VERLAG ann 
+
+| 1914 3 
+
+Y 
+
+
+
+
+
+Theology |_ibrary 
+
+
+SCHOOL OF THEOLOCY 
+ATCLAREMONT 
+California 
+
+
+Seitdem durch H. S. Denifle überzeugend nachgewiesen wurde, 
+dass die historia Thauleri, die als die geschichte von der bekehrung eines 
+meisters der heiligen schrift durch einen erleuchteten laien in dem Leipziger 
+druck von 1498 aufgenommen war, nichts mit Tauler zu tun hatte 
+(Strassburger Quellen und Forschungen XXXVI, Taulers Bekehrung), 
+besteht das auf uns überkommene werk Taulers hauptsächlich in seinen 
+predigten. Diese sind uns in einem grundstock überliefert, den die 
+mehrzahl der handschriften und alle alten drucke gleichmässig enthalten, 
+so dass es um das gut Taulers nicht so schlecht bestellt ist wie mit 
+Meister Eckharts deutschen predigten und traktaten, ja wie überhaupt 
+mit der gesamten mystischen überlieferung. Allerdings haben sich auch 
+gegen A. Spamers (Braunes Beiträge 34, 307 ff.) und O. Behaghels (ebenda 
+34, 530ff.) pessimistische auffassung stimmen geltend gemacht, die für 
+Eckhart eintreten, so M. Pahncke (Kleine Beiträge zur Eckhartphilologie, 
+Jahresbericht des Gymnasiums zu Neuhaldensleben 1909) und E. Diederichs 
+(Meister Eckharts Reden der Unterscheidung, Hall. Diss. 1912) und be- 
+sonders Philipp Strauch in seiner zusammenfassenden beleuchtung der 
+Meister Eckhartfrage, die für das ganze gebiet der mystik von bedeutung 
+ist, in seiner rektoratsrede Meister Eckhart-Probleme (Halle 1912). Im 
+gegensatz zu Eckhart, dessen schriften ja in den handschriften und 
+drucken neben denen Taulers hergehen und oft diesem zugesprochen 
+sind, darf aber doch immerhin für Tauler das vorhandene material als 
+ziemlich gesichert gelten. 
+
+Schon 1498 war durch den ersten druck Taulerscher predigten 
+eine sammlung geschaffen, von der aus die späteren drucke ihren aus- 
+gang genommen haben, die nun allerdings immer mehr anschwollen und 
+sich von der alten zahl der predigten immer weiter entfernten. Daher 
+war es mit grosser freude zu begrüssen, dass Ferdinand Vetter einen 
+neudruck der Taulerschen predigten auf grund der ältesten überlieferung 
+veranstaltete, der jetzt als grundlage der Taulerforschung zu gelten hat 
+(Die Predigten Taulers aus der Engelberger und der Freiburger Hand- 
+schrift sowie aus Schmidts Abschriften der ehemaligen Strassburger 
+Handschriften herausgegeben von Ferdinand Vetter = Deutsche Texte 
+des Mittelalters Band XI, Berlin 1910). Die darin enthaltenen predigten, 
+die mit wenigen ausnahmen auch im Leipziger druck enthalten sind, 
+haben als das werk Taulers zu gelten, wenn auch vielleicht nicht alles 
+darin der forschung standhalten wird, wie wohl schon die erste weihnachts- 
+predigt, die wahrscheinlich Tauler abzusprechen ist (vgl. Philipp Strauch 
+A02.0. 8. 13 0.33, anm., 30)8 
+
+Da der Vettersche neudruck die ältesten handschriften wiedergibt, 
+wurde für die vorliegende ausgabe eine reihe von predigten ausgewählt, 
+die von alter überlieferung bis zum Leipziger druck von 1498 führen, 
+um dadurch in möglichst manigfaltiger schattierung der überlieferung 
+die entwicklung zu zeigen, die die predigten durchgemacht haben, um 
+für spätere generationen leicht lesbar zu sein. Ausgegangen wurde von 
+
+
+4 EINLEITUNG 
+
+
+der Wiener handschrift 2739, auf die Hoffmann von Fallersleben (Alt- 
+deutsche Handschriften s. 301£.) hingewiesen und auf die Vetter (a.a.o. 
+s. VI) erneut aufmerksam macht, die aber nach einer ersten durchsicht 
+nicht so viel Taulerisches gut zu enthalten scheint wie die von Vetter 
+zugrunde gelegten handschriften; eine inhaltsgabe der Wiener hand- 
+schriften 2739 und 2744 gederke ich an anderem ort zu geben. Die 
+niederdeutsche überlieferung ist in zwei zusammenhängenden predigten 
+der Hildesheimer handschrift 724b der Beverinschen bibliothek ver- 
+treten, die Philipp Strauch der Taulerforschung bekannt gemacht 
+hat (Zeitschrift für deutsche Philologie 41, ı8ff.). Aus den mystiker- 
+handschriften der Königl. Bibliothek zu Berlin sind vier predigten so 
+ausgewählt worden, dass sie hinüberleiten zur letzten predigt, die dem 
+Leipziger druck entnommen ist, um die fassung der alten drucke zu 
+zeigen, in deren gestalt ja die predigten ihre weite verbreitung gefunden 
+haben und in die auch die Eckharts als anhang der Taulerschen zuerst 
+aufgenommen worden sind (vgl. Ph. Strauch, Eckhart-Probleme s. 12 u. 
+33, anm. 29). 
+
+Genauer bezeichnet sind die einzelnen handschriften am kopf der 
+predigten, hier sei darauf hingewiesen, dass die in ihnen enthaltenen 
+abkürzungen, an denen namentlich die Hildesheimer handschrift reich 
+ist, aufgelöst sind; die interpunktion ist möglichst unter berücksichtigung 
+der gegebenen unserm empfinden angepasst worden. Der text gibt, so- 
+weit das möglich ist, ein getreues abbild der überlieferung, was ja 
+auch der absicht der ‘Kleinen Texte’ entspricht. Vetters ausgabe (V) 
+wurde für die lesarten ausgiebig benutzt und bei allen zweifelhaften 
+stellen herangezogen, öfter auch der Leipziger druck (L 1498). Einen 
+vollständigen Variantenapparat nach Vetter zu geben, wurde nicht be- 
+absichtigt, bei den letzten beiden predigten verbot sich das von selbst, 
+da sie sich ja nicht nur mundartlich von der frühesten überlieferung 
+unterscheiden, sondern auch das bestreben einsetzt, schwer verständliche 
+stellen namentlich durch zusätze klarer zu machen und einfaches durch 
+häufung von beiwörtern zu erweitern, wodurch allerdings selbst oft wieder 
+missverständnisse entstehen, an denen die alten drucke reich sind. Doch 
+auch hier ist der Vettersche neudruck an allen in betracht kommenden 
+stellen für die lesarten verwertet worden, um dadurch ein mittel für das 
+verständnis und zum vergleich an die hand zu geben. 
+
+Erwähnt möge noch werden, dass W. Lehmann die Vettersche 
+ausgabe wortgetreu ins hochdeutsche übersetzt und mit einer all- 
+gemein einführenden einleitung versehen hat, die auch über die ergebnisse 
+der Taulerforschung (I, XXXIVff.) unterrichtet. (Johannes Tauler. 
+Predigten. Uebertragen und eingeleitet von Walter Lehmann. 2 bde. 
+Jena 1913.) 
+
+Für die benutzung der handschriften, aus denen das vorliegende 
+bändchen zusammengestellt wurde, bin ich der Königl. Bibliothek zu 
+Berlin, der k. k. Hofbibliothek zu Wien und der Beverinischen Biblio- 
+thek zu Hildesheim zu dank verpflichtet. 
+
+
+Berlin-Wilmersdorf 
+Leopold Naumann 
+
+
+Is 
+
+
+Accipe puerum et matrem eius et vade in terram Israhel 
+Matth. 2, 20 
+
+Die predigt ist abgedruckt nach Bibl. Pal. Vind. Cod. 2739, blatt 
+58a, auf den Hoffmann von Fallersleben, Altdeutsche Handschriften der 
+k.k. Hofbibliothek zuWienL. 1841s. 301 f. hinweist, und auf den auch Vetter 
+gemeinsam mit Cod. 2744 wieder aufmerksam macht (a.a.0.s. VI). Die 
+handschrift stammt aus dem besitz des Johann Michael ä Loen und ist 
+nach Hoffmann dem 14. jahrhundert zuzuweisen. 
+
+Bei Vetter 2 s. 12. 17 geht die inhaltsangabe voran: ‘Die bredie 
+usser sancte Matheus ewangelio, des zwölften obends, von Josephus vorhte 
+und von Archelaus tot, leret uns fürsihtekliche warnemmen des endes in dem 
+anefange eines iegclichen werkes, und warnet uns vor drien, vieden die 
+unser sele süchent.” Im inhaltsverzeichnis Vetter s. IX findet sich der 
+zusatz: “Disse bredige lisset man der heiligen dry künüg oben’. Lehmann I, 
+7 gibt ihr die überschrift: Hindernisse und Irrungen. 
+
+
+E- Accipe puerum et matrem eius et vade israhel. daz man 
+‚1498 die heilige wonecliche schrift in dem heiligen ewangelium 
+#.8a Ausent werbe vberlese vnd predige vnd vberdechte, so vunde 
+man ein nuwe warheit die nie vunden (58 b) wart van dem 
+
+s menschen. ‘nim dat kint vnd die müder vnd var wider in 
+dat lant van israhel, wan si sint dot die die sele des 
+kindes svchten. iz sint etzliche lüde alzvhant as in in vf 
+steit eine güde begervnge eins nuwen wesens vnd eins güden 
+dinges, so sint si alse kYne vnd vallent in der inicheit der 
+
+3 10 gebvrt altzY hant bit eime swinden! erniste daz zy dvn, 
+vnd wizzint noch insiehent niet obe ire nature daz virmoge 
+obe ire genade alse groz si daz si zv dem ende des werkes 
+genüg si. der mensche solde daz ende des werkes ansiehen 
+
+ee he sich vf einich wise kerte, vnd sulde vliehen in der 
+ısinncheit des vfstanis altzyhancz in god vnd vf got legen. 
+so willent si inwech (58c) loufen vnd vil nuwer wisen be- 
+ginen, vnd in diser gedorsticheit virdirft manich mensche 
+
+
+
+
+
+I rote initiale | ist” 3 hinter vberdechte si von jüngerer hand 
+4 zwischen man u. ein VJieme 7.asV ] ale 9 so /] alzühant so 
+10 bit Y stets] mit ı1 obe F] oder 14 ee he Y] e denne er. | 
+einich 7] keine | in der 7) und die 15 vfstanis 7] ufstandes 
+
+
+6 PREDIGTEN [1 
+
+
+dat si vf ir eigen macht bvwent. do iosep waz gevluen bit 
+dem kinde vnd der müder, und ime der engil sade in dem 
+slafe daz herodes dot were, do horte iosep sagen daz arche- 
+laus sin svn in den landen richde, vnd vor[ch]te sich vil 
+sere daz dat kint niet gedot inwerde. herodes der daz kint 
+viriagit hatte vnd doden wolde, daz iz die werilt die an 
+allen zwifel daz kint dodit, die man van noit vliehen mvz 
+vnd vliehen sal, obe man iz behalden wil. alse man nü die 
+werilt vzwendich gevlogen hait, iz si in closen oder in closter, 
+so steit vf archelaus vnd richit dan noch. eyne gantze werilt 
+steit dan noch in dir die dv numer (58d) vber windes, iz 
+in si daz dY grozen vlis vnd vbvnge dar zy habes vnd gotz 
+helve dar zY krme, wan dY haiz dri starke grimige viende 
+zY vberwinden in dir, die kYme vmmer vberwinden werdent. 
+die werilt vichtit dich ane bit geistelicher hofart, dat dv 
+wilt gesihen sin, gewist sin, geachtit sin, gehorit sin vnd wilt 
+be vallen den lIvden an clederen, an wandelungen, an hohen 
+worten, an gelaze, an wisheit, an vrunden, an magen, an 
+güde, an eren, an alsvs gedanen dingen. der ander vient 
+daz iz din eigen vlesch, daz vichtit dich ane bit geistlicher 
+vnkvscheit, alse wie alle die sint in der svnden die da ge- 
+bruchent Ivst, ire sinlicheit, in welcher wisen daz si. des 
+neme ein ecliche bit vlizze war wa in der gebreche röre 
+(59a) in allen sinen sinen vnd sinlichen dingen, da mide he 
+virvnkvzchet wirt, ouch bit minen der kreaturen, si sin 
+welchir kvnne si sin, vnd in dem herzin bit willen hat dach 
+vnd nacht. vnd also dat die lipliche nature inwech dreit 
+des lichamis materige in ire vnkvscheit, also dreit dit die 
+inreliche kvscheit inwech des geistis in der warheit. vnd als 
+vil alse der geist edilre iz wan dat vlesch, also vil iz dise 
+scheidelicher wan die ander. der dritte vient der richtit dich 
+ane bit archkeit, bit biterin gedenken, bit archwane, bit vrdeil, 
+bit hazze vnd nide. so hait man dat gedan vnd gesprochen 
+vnd dat bewiset vnd hait dar vmbe swere antlicze vnd swere 
+geberde vnd swere wort vnd wil daz an den vir ant- (59b) 
+
+
+
+
+
+ı macht Y] gemach 35 niet ferlt 7 9 geflohen ist Y_ ı2dar 
+zv h. fehlt V 13 drist.gr. V] vil starker grimmiger 16 gewists. fehlt v| 
+gehorit Y] gehöhet 16/17 wilt—clederen 7] wol gevallen an kleidern 
+19 dingen V] geverte 22 ire 7] in 23 ecliche P] iegliches | räre Y 
+25 virvnkvzcheit 27 dat /erlt V_ 28 des lichames 7] die lipliche | 
+dret 29 hinter warheit von jüngerer hand dit : 30/31 es schedelicher 7 
+31 hinter vient U] daz ist der vigeut 32 arghertzikit V 33 nide 
+V] roche 34 vnd daz vil [az rande] an den von vir antwerden 
+35f. Y] unde wilt daz an den virentwurten mit worten und werken 
+
+
+30 
+
+
+3> 
+
+
+1] JOHANN TAULERS 7 
+
+
+14 werden, vnd dit iz alliz! des viendes same vnd sin werk ‘an 
+allen zwifel. wiltü vmmer düre werden, so mfstü diseme 
+altzy male intflein, want dit iz rechte der archelaus der ärge. 
+vorchte vnd sich vor dich, in der warheit diz wil dir daz 
+
+skint doden. der iosep der vorschte vil vlizlich obe iman 
+were der daz kint doden wolde. alse in der warheit dit 
+vber wunden iz, so wizze dat noch sint dusent stricke die 
+dY durch brechin müst, die nieman bekennit dan der zü ime 
+selvir in sich selvir iz gekerit. der iosep dat iz ein vlizich 
+ıo wasdvme in dem gotlichen leben vnd ein vnmezich zY nemen. 
+intruwen daz hYdit daz kint gar wol vnd ovch die müder. 
+diser iosep wart van dem engil gemanit (59c) vnd wider 
+geladen in dat lant israhel. israhel sprichit as vil alse ein 
+lant der schauwunge. hie virdribet man keinen menschen 
+ıs daz si sich ee wollent brechen vz disen mangveldigen stucken 
+ee dan si got vz lose vnd e si van dem engil werden vz 
+gevürt oder gemanit, vnd dan vallent sie in groze irrunge. 
+si willint sich vz losen ee si got lose van ire virnunftiger be- 
+hendicheit, vnd mit hoen worten die si virstent vnd van 
+zo hohen dingen van der driveldicheit kvnnen schauwen vnd 
+sprechen. welch iamer vnd irrvnge dan abe gewazen ist vnd 
+noch alle dage dit, daz iz iamer zY wizzen, want si willent 
+der stricke des gevenknizze diz dvsternise niet liden van 
+egipten, daz alse vil sprichet als ein dvsternise. (59.d) vnd 
+
+25 wizzint doch, alle kreaturen die got ie geschüf, daz si dich 
+niet hin vz in kvnnent gelosen noch dir gehelven dan got 
+alleine. nü loufe, nü svche, nü iage alle die werilt vz, dY 
+invindes dise helve an nimanne dan an gode alleine. wil 
+vnse herre ein stur dar zY han, daz mach he dvin, iz si ein 
+
+3° engil oder ein mensche dvrch den he daz wirke, aber he 
+müz id ee dvn vnd nieman anders. vn dar vmbe suche iz 
+van in binnen in deme grunde vnd laze din vzbrechen vnd 
+din vzloufen sin vnd lit dich vnd laze dich vnd blip da in 
+dem egipten lande in dem dvsternisse biz daz dv van dem 
+
+35 engil vz geladen wirdis. iosep ward gemanit in dem slafe, 
+
+
+
+
+
+3 arghertzige V 4 Förchte dich 7 5 iosep der 7] Joseph | 
+iman 7] ieman me 10 wasdvme 7] vaste stan | ein vnmezich Y] in 
+eime einzigen II des kindes Y| der m. V_ ız Joseph der V 13 von 
+Israhel 7 14 verdirbet manig ewig m. V 15 stucken Y] stricken 
+17 groze V] gruwelicee I8e denne V 19 die si v. fehlt V_  zı abe 
+7] danvon 23 die stricke des gevengnisses dis vinsternisses 7 _ 24 be- 
+tätet 7 _ 25 daz si... Y] die mögent dich nit hinuzgelossen 29 stur 
+am wortende rasur V | instrumente 31 ee fehlt V 32 in binnen 7] 
+innan | vzbrechen Y] uzsüchen 34 daz fehlt V 
+
+
+8 PREDIGTEN 1 
+
+
+der da slefit, der in sundgit niet, obe ime ovch ein (60a) 
+altzY bose ding inqueme, iz in were dan daz der mensch 
+zü vürens vrsache dazY gegeben hait. also sal der mensche 
+in eime waren slafe sin vz wendich zY alle den lidvngen oder be- 
+korvngen die vf in vallen mVgent, vnd sal sich dan in einer 
+gelazinre lidvnge demvdclichen drucken vnd bouge sich dar 
+vnden vnd lide sich in einre slafendir wisen vnd inkere sich 
+niet dar abe, da lıt dich vnd laze! dich obe d* iz niet baz 
+inkanz ledich werden, vnd blif svnder svnde, in dem slafen 
+wirdistü vzgeladen, alleine in dem waren lazen vnd liden, 
+alse iosep geschag. diser iosep daz svYlden sin die prelaten 
+der heiliger kirchen, Babest vnd Büschof vnd epte vnd prior 
+vnd priorsen vnd ovch ein ikliche bichter, die svlden alle 
+dise hüden die wile der mensche iung is, (6ob) einen ik- 
+lichen iren vnderdanen menschen na alle deme daz ime noit 
+were. nü han wir vil hvder, vil vber meister. ich han einen 
+prior, sopprior, einen provincial, einen meister, einen babist, 
+einen buschof, die alle vber mir sint, vnd wolden die vbil 
+bit mir, daz si alle zY wolfen worden vnd wolden mich 
+bizen, dar vnden solde ich in ware gelazinheit vnd vnder- 
+denicheit mich legen vnd iz liden. wulden si mir gutliche 
+dvin vnd gut sin, dat svlde ich nemen, aber wülden si mich 
+bizen, obe ir hvndertdvsent werbe als vil weren, daz svldich 
+liden vnd mich dran lazen. nü vorchte sich iosep noch 
+dan daz ime der engil sade si weren dot die des kindes 
+sele suchten. he vorschte vil nauwe wer da regnierte in dem 
+lande. daran irrint svlche lüde vnd willent (60c) alliz vorchte 
+virlisen, vnd dv salt nvmmer vber vorchte komen die wile 
+dY vmmer lebis in etriche. timor sanctus permanet in secu- 
+lum seculi. die vorchte die sal bliben bis an dat ende der 
+werilde. noch dan daz dir id der engil saget, nochtan saltü 
+dich vorchten vnd salt vlizliche vorschen waz in dir regniere, 
+obe archelaüz da riche. diser iosep nam dit kint vnd die 
+müder. «bi dem kinde sal man nemen eine puere lutericheit. 
+der mensche sal zy male lüter sin vnvirmenget bit allen 
+
+
+1/2 ovch—ding F] joch zü mole ein böse sin 2daz V] das ime 
+4 alle den 7] allen. 6 drucken vnd ferlt V | underböigen 7 8 dar 
+abe YV] daran 8/9 dich obe—ledich 7] lide es tz, nüt baz kanstu sin 
+lidig ı1 Diser hüter der J. 7 12 Babest 7] pfaffen 12/13 priole und 
+priolin V_ 13/14 aller diser h. Y_ 17 soppor, fehlt V zo wolte 7] 
+21 iz fehlt V 22 aber V] oder 23 suldich 24/25 noch dan Y7] untz 
+
+
+26 nauwe Y] flissecliche | regnirte 29 scs pmanet 1 scl’m scl’i 31 id 
+
+
+fehlt V_ 32 regnire 33 Nu diser 7 34 nemen Y] mercken | puere, 
+das e am ende von jüngerer hand 
+
+
+L} 
+
+
+5 
+
+
+[1 
+
+
+Io 
+
+
+15 
+
+
+20 
+
+
+25 
+
+
+30 
+
+
+1] JOHANN TAULERS 9 
+
+
+dingen, he sal ovch kleine sin in einre vnderworfenre de- 
+mvVdicheit. bi der müder nimet man smakende ware minne 
+zy gode, wan die minne iz eine müder der lüter demfdicheit, 
+vnd virkleinvnge des menschen selvir in eime vnder würfe 
+vnder (60d) godes willen in gelazenere demYdicheit. noch iz 
+der mensche iunk vnd insal noch nit vrilichen vairen in daz 
+lant der beschauwngen, he mach wol sinen applaz da holen 
+vnd wider in varen in egipten. trutz daz he noch dablibe 
+die wile he noch iung iz vnd niet zY eime vollen komen 
+manne worden is. vnse herre ihesus cristus der hait vns 
+alle dink in sime leben wol gelerit; alse wir daz gotz wort 
+niet haben mogen, so vinden wir in sime leben alle ding. 
+he quam zY iherusalem do he zwelf iar alt waz, he inblef 
+da nit, he vloch aber in wech, he inwaz do noch niet vollen 
+wazen, he vloch in wech biz he ein vollenkomen man waz 
+worden. do he XXX iar alt waz vnd nvmme ein kint in- 
+waz vnd zv wazen in hatte do he vollenkommen waz worden, 
+do quam he (61a) irlichen zY iherusalem vnd schalt vnd 
+strafte dü vnd sate den iüden die warheit vil herlichen, vnd 
+predigete vnd lerte do vnd wante in dem lande vnd waz 
+da vrilichen vnd herlichen wa he wolde, zY galilee vnd zY 
+kapharnvm vnd zY nazereth vnd vber al in dem lande van 
+iudea alse ein here, vnd deit do zeichen vnd wunder. rechte 
+also sal der mensche dvin, he sal in den edelin landen in 
+daz edil doin sich niet legen zY wanen, he mach drin loufen 
+vnd wider vliehen die wile he niet vollen wazen iz vnd vn- 
+vollenkomen iz. aber so wan he volenkomen iz vnd ein 
+man iz, so sal he dan komen in dat lant van iudea. iuda 
+sprichet alse vil alse eine beievnge godes. zv iherusalem in 
+dem waren vreden da mak he leren vnd strafen vnd mak 
+dan varen zv gali(61b)lee, daz ein vber vart meinit, hie 
+sint dan alle ding vber komen vn iz vbergevaren, vnd kvnt 
+
+
+
+
+
+I einre fehlt V 5 gelazenre demvdicheit V] grosser luterkeit 
+
+
+6 valen 8 noch fehlt V 9 al die w. 7 | vnd niet 7] und noch nüt 
+ıo is—der Y7] is durch unsers herren Ihesus Cristus woffen, der | ihs 
+
+
+zpe 13ihrlm 14 aber ferlt V | do noch V] dennoch 135 gewahssen V 
+16 h’ | waz V] waz worden 16/17 vnd nvmme—waz worden fehlt V 18 ir- 
+lichen 7] tegelich | Iherusalem in Y| schalt do 7_ 19 dü von jüngerer 
+hand eingefügt | hinter iüden freier raum mit rasur, an dieser stelle V 
+iren bresten und 20 predigete do 7 | wonte do V 22 van 7] zü 
+25 edeltüm 7 26 wahssen 7 | vnd Y] und noch jung und u. 
+27 wan fehlt V |iz V] würt 30 machtu 7 31 meinit VJist 32 kvnt 
+V] denne so kummet man 
+
+
+to PREDIGTEN 1 
+
+
+hie z$ nazareth in die ware blüde, da springint die blümen 
+des ewigen lebens, da iz der ware, sicher, vürgesmag des 
+ewigen lebens, da iz ganze sicherheit, da iz vnsprechliche 
+vrede vnd vreude vnd raste, dar zY koment die alleine die 
+sich lazent vnd lident vnd vnder druckent biz si got vz vürt 
+vnd sich selver niet vz inbrechent, die koment in disen vreden 
+vnd in dise blüt zv nazereth vnd vindint hie des si ewelichen 
+gebrvchen svllent. daz vns daz allen werde, des helve vns der 
+mincliche got. amen. bidit vor den schriber dvrch got. 
+
+
+Caro mea vere est cibus et sanguis meus vere est potus 
+Joh. 6, 55 
+
+
+Die beiden folgenden predigten sind wiedergegeben aus der hand- 
+schrift 724b der Beverinschen Bibliothek zu Hildesheim, in der sie die 
+nummern 35 (blatt 154a) und 36 (blatt 157b) führen. Vgl. Borchling, 
+Mittelniederdeutsche Handschriften in Wolfenbüttel und einigen benach- 
+barten bibliotheken, Nachrichten von der Königl. Gesellschaft der Wissen- 
+schaften zu Göttingen, phil.-hist. klasse 1902, beiheft s. zııf., und 
+Ph. Strauch, Zur Gottesfreundfrage, Zeitschrift für deutsche Philologie 
+41, Iöff,, wo der inhalt der in der handschrift enthaltenen predigten 
+Taulers angegeben und auf die entsprechenden nummern des Leipziger 
+druckes von 1498 und der Basler Taulerausgabe von 1521 hingewiesen 
+wird. 
+
+Vor den Taulerschen predigten findet sich der eintrag: “Düsse 
+nachvolgende sermoen hefft gemaket Meyster Johan Tauleri van der prediker 
+orden vnd synt dat rechte war fundament eynes geystliken leuendes vnd 
+synt ok vnstrafflik wente se werden bevestiget vt den hilgen euangelio’ 
+(folgt ein zusatz über Taulers bekehrung). Beide predigten sind ohne 
+absätze geschrieben, die einzelnen sätze werden durch rot durchstrichene 
+majuskeln gekennzeichnet. Für die lesarten ist neben V der nieder- 
+deutsche Halberstädter Taulerdruck vom jahre 1523 benutzt worden (Ha). 
+
+
+Bei Vetter finden sich folgende inhaltsangaben: Hildesheim 35 
+(154a) V 32, s. 118, Ir: ‘Die dirte uzlegunge von dem sacramente seit 
+von der würdikeit, von dem nutze und von der bereitschaft, mit vil 
+hoher überswenckiger sinne, die alleine eime luteren, einfaltigen, lebe- 
+lichen gelouben zügehörent’ und Hildesheim 36 (I57b) V 33. s. ı25, 2: 
+‘Die vierde usselegunge von dem sacramente seit von den stonden und 
+fliessenden hindernissen die den menschen tünt verbliben, das er die 
+fruht nüt enpfohet, und nennet ir vil underscheidenliche weles tegeliche 
+sünden sint eine grosser danne die andere’. Lehmann, I, 125 und 132 
+gibt ihnen die überschriften: Vom inneren Geniessen des Abendmahls 
+und der Vorbereitung darauf, und: Von fruchtbarem und unfruchtbarem 
+Genuss des Abendmahls. 
+
+
+
+
+
+2 sicher 7] sicher, gewisse 4 zv, die feAlt V7_ 7 hie 7] do 
+
+
+8 werde, de von jüngerer hand angefügt 
+
+
+2] JOHANN TAULERS II 
+
+
+2a 
+Potter Van deme hilgen sacrament. 
+118, 9 $ . 
+Er Caro mea vere est cibus et sanguls meus 
+
+
+36.f. H ® 2 
+1048) vere est potus. Myn vleisch is vorwaer eyn spise, vnd 
+myn bloet is vorwar eyn dranc, wo de mensche meer gauen 
+5 vntfenget, wo he sic to meer danckberlic hebben sal, vnd wo 
+he gode meer loues, eres, vnd denstes schuldich is. Alle 
+ofeningen, vnd alle gauen vnd gnaden syn eyn wech vnd 
+bereidinge, to gode mede to comen. Sunder dusse gaue is 
+dat ende dat (154b) loen, vnd is god suluen sunder alle 
+ro middel vnd vnderscheit, vnd god gift deme menschen hir sic 
+suluen, sunder middel vnd sunder reuige gelijkenisse, vnd 
+vereniget sic hir mit d& menschen altomael eynmodelick vnd 
+lutterlic. hir is et eyn ouerleiflicke vnd ouerweselike gaue vnd 
+hochtijt, de alle dinc bouen geit. Op deme hilgen gronen of 
+ıs witten donredage, do en mochten wi dusse hoechtijt nicht 
+werdelic genoch begaen, want de anderen ouergroten hoech- 
+tiiden quemen or so na, dat wi vermiddest vnser cranckheit 
+de to samen nicht konden begaen. Und dar vmme heft de 
+hilge kerke dusse hoechtijt hir gesat op dat wi nü mit aller 
+(9 zo craft vnd leue vns hir inne ! ofenen vnd ansen mit danckberen 
+louen vnd leue dat onbegripelike wonderlike leiflike teiken 
+dat vnse leue her ons hir in bewesen heft, vnd al is et sake 
+dat wi al doen dat wi vermogen nochtan geit et ongemete- 
+like vern dar bouen, ‘“Myn vleisch is vorwar eyn spise, vnd 
+2; myn bloet is vorwar eyn dranck.” De dit anseen mit den 
+vtwendigen synnen alleyn, als spise vnd dranck broet vnd 
+wijn, de en smaken noch en weten nicht van dusser edeler 
+vrucht, noch van der onsprekeliker soticheit de hir in ver- 
+borgen is. Ander spise de de menschen beseet, de is in sic 
+3° suluen doet vnd snode, vnd vntfanget dat leyuen in deme 
+mensche, vnd wert in ome gedeilet. Sunder dusse edele 
+spise de leyuet, vnd is suluen dat leyuen, vnd is dat wesen 
+des leyuendes. Vnd alle de van dusser spisen gelauet werden, 
+de leyuen eweliken, als vnse her sprac: ‘De van dussen brode 
+3s etet de sal ewelike leuen, dat broet dat ic geue dat is myn 
+
+
+
+
+
+
+
+
+ı überschrift rot 2 Scriptum est in Johanne: V | rote intiale | 
+rot unterstrichen 4 gauen Y7] genoden 6 loües am rande laudis 
+7 ofeningen Y7] äbungen ıı reuige V, Ha] alle 16/17 hoechtijden 
+Ha] dat osterlicke fest, so auch V, L 20 hir inne ofenen V herin 
+geräffet sint in daz wunderliche werg 31 gedeilet 7] geedelt, 7a 
+geadelt 
+
+
+12 PREDIGTEN [2 
+
+
+vleisch’ — Do ihesus dit sprac, do gingen vele van synen 
+diseipulen achterwert van ome, vnd en verstonden syne worde 
+
+
+nicht, vnd spreken: ‘we mach dusse worde horen ?’ Sie ver- 
+
+
+stonden se mit den synnen, vnd dar vmme gingen se van 
+ome. Dusse gaue is vern bouen de synnen, se is de spise 
+vnd oec de spiser. Van dusser werdiger hoechtijt syn dri 
+punten to seggen: dat eyn is van der ouerwerdicheit dusser 
+spisen, dat ander is van der onbegripeliker nutticheit de se 
+mit sic brenget, al den geuen de se werdeliken vntfangen, dat 
+derde is welck de bereidinge si de men hir to hebben sal. 
+Nu wolde ic gerne hir of spreken so vern als god my syne 
+gnade hir to gift. Sunder van dussen hogen, wonderliken, 
+verborgen, durbaren dingen, en can ic nicht gedencken noch 
+versynnen mit wilkerhande worden men spreken sulde, want 
+et so onsprekelik, vnd so vern bouen alle verstant vnd ver- 
+nuft der engelen der menschen vnd alre creaturen in hemel 
+vnd in erde Och kinder, hedden wi nu eynen gerechten 
+gewarigen lutteren inwendigen menschen, de mochte hir (155) 
+wat van weten vnd geuolen in smakender vnd oec in wese- 
+liker wisen, sunder nochtan en conde he des nicht to worden 
+brengen, noch nemande dar van seggen, noch he en kondes 
+nicht synnen, vnd mit der vernuft nicht begripen. Sunder 
+leider nu vynt men vele lude in geistlik& schyne, de alle ore 
+leuedage van orer ioge[n]t an want to oren older alle tijt vt 
+sic suluen lopen in sinliker wesen, vnd in mannichuoldiger 
+werckinge, nu vt dem eyne, dan vt dem ander, nu hir nu 
+daer. Dusse en mogen van dussen rijcdom nicht weten, noch 
+
+
+si en mogen des edelen durbaren scattes nicht geuolen noch. 
+
+
+gewar werden, want si en bekennen nicht dan in synliker 
+wisen al dat si ofenen. Sunder de des onsprekeliken vnd 
+onbegripeliken adel gewar sullen werden in der warheit, de 
+moten sic holden afgeschedeliken, leidichliken, eynvoldichliken 
+vnd vurichliken. Sunder dit en is nicht to verstaen als vele 
+lude meynen, dat men dit nicht moge hebben, men en moet 
+alle dinck begeuen, vnd ledich syn, vnd eyne sunderlinge 
+wise hir to hebben, vnd en mach dit nicht gescheen, so keren ! 
+se sic hir af, vnd getrostens sic. Meyn leue kinder nicht 
+also, en getroest dick nicht so lichteliken des alre besten 
+
+
+
+
+
+1 siner fründe 7 6 w’dig’ 9 den die sü enpfohent 7 13 türen 
+15 verstant 7] gedang 24 ioget. 4a] kintheit, so auch %, Z 26 wür- 
+kunge V_ 28 geuolen 7] gesmacken 29/30 want—ofenen 7] wanne 
+
+
+si kunnent nüt danne also sü in sinnelicher wisen enphohen 37 Meyn 
+V] Nein 
+
+
+35 
+
+
+2] JOHANN TAULERS 13 
+
+
+luttersten gudes, als eynes dinges, dat nicht wesen en mach. 
+want woltu vlijt dar to hebben, so mogestu god verkrigen, 
+vnd dat lutter edel gud, oec in allen wisen vnd wesen, dar 
+du inne bist. Sunder du salst eyn vlijtich varnemen hebben 
+s dynes sulues, vnd eyn anseen, vnd ein inseen to dynen tegen- 
+wordigen gode, in alre mannichuoldicheit in wisen in werken 
+bi allen menschen, in doen in laten, vnd in vtwendigen 
+ofeningen sal dat alre meiste deil ingekeert syn vnd inwerts 
+iagen. Vnd des gelikes als men ledich vnd mode is, dan sal 
+ıo men mit allen vlijte to mael mit allen crachten vnd synnen 
+bynnen versammet wesen, vnd also vereniget in d& gronde 
+versoncken. Kinder, van dussen vnsprekeliken adele en is 
+vns nicht mogelic to vollen spreken, noch wi en mogent oec 
+nicht verstaen, want de ons eynen mensche hir settede, de 
+ısin synen naturliken adele stunde, vnd in der lutterheit als 
+adam stont in der naturen in deme paradise, de mensche 
+weer also claer also lutter vnd also vreedsam vnd also vol 
+genoechten, dat neyn menschlike verstant mit vernufte be- 
+gripen en mochte. — Wo sulde dan ienich vernufte dit 
+20 ouerweselike afgront begripen, dar dusse leiflike leuende spise 
+de mensche so wonderlic sic vereniget, vnd to mael in sic 
+trecket vnd verwandelt, want dusse verenige is meer dann 
+alle verenige vnd verwandelinge de menschlike verstant be- 
+gripen mach. Ja veel meer dan of eyn cleyn drope waters 
+2s mit eyn& grot& meyrs wijnes sic verenigede, of dan der sonnen 
+schiin in dem glase, of dan de sele deme licham vereniget 
+mach werden, de nochtan eynen menschen vnd eyn wesen 
+maken. In dusser verenygen wert de geist getogen bouen 
+(155b) alle syne cranckheit, naturlicheit vnd ongelijcheit vnd 
+30 wert dar geluttert vnd verclart vnd verheuen bouen alle syne 
+crachten, bouen sic suluen vnd bouen alle syne wisen, vnd 
+alle werken vnd syn wesen, vnd wert mit gode dorgangen, 
+vnd wert in eynre godliker wisen gewesent vnd gevort, vnd 
+dar wert de geburte in der warheit geboren. Vnd dar ver- 
+35 lust de geist alle gelijcheit in godliker enynge, geliker wijs 
+als dat fuer werket in deme holte vnd maket sic dat holt 
+allentelen geliick, vnd benemet ome de vuchticheit der 
+groenicheit vnd der grofheit, vnd maket et allentel warmer 
+vnd heiter vnd geliker. Als dan dat holt so langer so meer 
+
+
+
+
+
+8 inwerts 7a] vortan 7] fürbas 9 mode Za] mötich Y7] 
+müssig 14 settede 7] satte 18 genoechten Za, V] gnaden 25 meyre? 
+undeutlich Ha] foder 26 in dem glase 7] irme glaste, Z] iren glantz 
+27 nochtan fehlt V, Ha 31 crachten Ha] kreffte 32 dorchgangen 7a 
+
+
+14 PREDIGTEN [2 
+
+
+der gelijckheit neger komt, vnd de ongelijckheit meer vnd 
+meer vluet, ten lesten so trecket da|t] fur de materie des 
+holtes of des stroes in sic, vnd et wert oec fur, vnd et ver- 
+lust also beide de materie vnd ongelijcheit, vnd is dan fur 
+geworden, vnd en is oec dan nicht meer d& holte gelijck, 
+
+
+5 
+
+
+sunder et is eyn mit dem fure geworden. In! enicheit ver-ızı 
+
+
+lust men gelijckheit. Recht aldus trecket dusse leiflike spise 
+den geist vt alre ongelijcheit in gelijckheit, vnd dan vt ge- 
+gelijckheit in godlike enicheit. Vnd dit geschuet dö ver- 
+lutterden vnd verclarden geiste, want de verlust ongelijckheit 
+vnd gelijckheit vnd de godlike hitte, vnd der leuen fur heft 
+or alle vuchticheit vnd groenicheit vnd ongelijckheit afgetogen, 
+vnd verlust sic in godliker enygen in dusser spisen. Als 
+vnse her oec sprac to sunte augustinus: ‘Ic byn eyn spise 
+groter luden, wasse vnd du salst mi eten, vnd du en salst 
+mi nicht verwandelen in di, sunder du salst verwandelt werden 
+in my.’ — Och kinder, eer dit geschuet in dusser wisen, dar 
+moet de natur mennigen doet vmme steruen, hir to hort 
+mannige wilde woeste vnbecande wech, dar god den menschen 
+dorleidet, vnd trecket on, vnd leert on steruen. Och kinder, 
+wat edelre vrucht, vnd wonderlic vnd wonnentlick leuen wert 
+geboren in steruen! Och kunnen steruen, wat grondeloser 
+edel lutter gud bistu! Nu seet gi doch wal leue kinder dat 
+de lijflike spise de wi eten, et si broet of wijn, vnd al dat 
+wi nuttigen, dat moet an sic suluen steruen, vnd to mael 
+verderuen, eer dat et an vnse natur getogen werde vnd ver- 
+eniget, vnd et moet so grondeliken verderuen vnd verweerden 
+in sic suluen. Irst in der magen, vnd dar echter van nyes 
+verderuen, eer et to d& hertte komet, vnd to der leuer, vnd 
+in dat houet, vnd eyn werde mit den synnen, vnd dan noch 
+vernuftich werde. Dan is de spise also ongelijck sick suluen 
+geworden, dat nye oge so claer en wert noch (I56a) so 
+subtijl noch oec neyn synne, de dat begripen mochte, dat ye 
+spise wart so cleynlick, dat neyn vernuft can vinden, wo vnd 
+waer dusse subtijlheit ligget, vnd werket, men machs wal ge- 
+louen sunder mit den synnen nicht begripen. Veel myn is 
+et nochtan to begripen vnd na to seggen wo de geist vor- 
+werdet in godliker enicheit, dar he sic suluen also verlust, 
+dat neyn vernuft dar bi en can comen of dar nye of nye 
+
+
+
+
+
+13 in godliker enygen 77a] in der godheit 26/27 hinter vereniget 
+V] do gehöret manig tot zä 28 echter fehlt V_ 36 myn Y] minre 
+Ha] weniger 37 nochtan fehlt V 
+
+
+„ 
+
+
+o 
+
+
+30 
+
+
+2] JOHANN TAULERS 15 
+
+
+creatur wert to comen. Dit nemen dwase lude valschliken 
+in vnd seggen, si sullen in godliker naturen verwandelt werden 
+vnd in syn wesen. Ho, ho ouer alle ho, et geit to mael in 
+eyn godlick afgront, dat nummer van creatur afgelanget en 
+
+s wert. na deme dat neyn vernuft so scarp en is, dat de wonder- 
+like wege ‘der spisen begripen mach of oec den adel der 
+naturen den de mensche in sic heuet, of dat leuen in der 
+hant, in den voten, vnd in d&ö houede, we sulde dan dussen 
+verborgen afgronde bi vnd na comen vnd dat begripen, dat 
+ıo dusse edele spise wercket ongelijke inwendiger in deme ge- 
+lutterden geiste de verclaert is, nochtant dat de arme vt- 
+wendige mensche traech, slaperich vnd ongeneiget is to allen 
+dingen. Dit is eyn grondeloes dinc, dar om laet iu clappen, 
+iu legen, vnd iu disputeren hir af. Dusse verclarde geist is 
+2 ısinwendich in dem gronde verborgen in !gode. Als nu som- 
+mige lude sic des dages dry af veer werue vergaderen vnd 
+edele gude gedachte hebben, vnd si or gebed don, vnd als 
+et on wal geit vnd si troest vnd soticheit hebben, so duncket 
+on et is al wal gemaket, vnd si syn seer wal daran. Neyn 
+2oin truwen kint, et is noch ongemetelick vern, wi syn to mael 
+to groteren dingen gescapen vnd geropen. Vnd de getruwe 
+god nemt et seer swarlic van ons, dat wi ons mit so cleynen 
+dingen genogen laten. Want he en is neynes dinges also 
+milde vnd also bereit to geuen als sic suluen, vnd dat in der 
+25 alre hogester vnd edelster wisen synes sulues. Vnd hir vmme 
+sulden wi in eynre iuweliker gauen recht opgedunt vnd ge- 
+spannen werden mit allen vnsen synnen vnd crachten, mit 
+hertteliken ynnigen begertten vnd quellen alleyn na gode 
+suluen. Vnd wi sulden vns na al vnsen vermogen mit sele 
+3o vnd mit liue op richten vnd op dienen, dat ons mit nicht 
+mynres en genogede, vnd dat nicht in synliker beeldeliker 
+wisen, sunder in eynre ouernaturliker wisen, altijt gapende na 
+den godliken afgronde. Want men en mach nummer so depe 
+to deme gronde comen, noch so hoge, men en mach ontellike 
+35; veel hoger vnd deper vnd hoger komen. Och kinder, wo 
+onmeteliken groten schaden doen sic vele lude, den dit al 
+in den nedersten crachten is, vnd nemen dit al in beuoliker 
+
+
+
+
+
+ı dwase 7] tumbe affehte 42] de vnuornufftigen menschen 
+13 clappen 7] klaffen 14 legen 7] uzlegen 15/16 sommige 7] et- 
+liche 16 to dre edder tho veer malen Za | vergaderen Ha] vorsammelen 
+26 opgedünt 7a] vp gedenet | am rande intumesci 26/27 gespannen 
+am rande extendi 28 quelunge Y, Ha] vp dryngen 30 op dienen 7] 
+dennen 32 gapende am rande anhelare 37 genochliker Ha, gefüglicher F’ 
+
+
+16 PREDIGTEN [2 
+
+
+wisen, vnd verbliuen also to mael vnd dar en wert (I56b) 
+nicht vt. Want bleue de lijflike spise in der magen vnd 
+deilde sick nicht vorder in dat houet, in dat hertte vnd in 
+anderen leden, so moeste de natur de menschen verderuen. 
+Aldus doen alle menschen de alleyn god nemen in de[n] 
+nedersten crachten, in den synnen in den gedachte, vnd nicht 
+vorder. Nummer en komt der iemant to dem lutteren gude, 
+dar ons god to geropen heuet vnd geladen mit dusser hogen 
+edele spise, of dat gemöde moet mit allen ouersten vnd 
+nedersten crachten gode to mael to geuoget werden, vnd ome 
+mit allen craften geoffert vnd geboden werden vern bouen 
+alle vermogen mit deme lutteren eynvoldigen geloue de 
+leyendich sy, nicht mit schynende geloue de in den werken 
+nicht en luchtet. So wan neer dan de gudheit godes süet, 
+dat de mensche nicht vorder en mach, so komt he vnd 
+werket verborgentlike, dar de natur nicht af en weit, vnd 
+vort den menschen vern bouen de natur vnd bouen natur- 
+liken wisen. — Dusse hulpe is deme mensche in dusser wisen 
+alre gereideste vnd alre eigenste vnd saligeste vnd oec alre 
+bevindelicste in deme edele werdigen hilgen sacramente, dar 
+sic god to mael wesentlike persoenlike, eigentlike vnd war- 
+like in gift. Hir vmme sullen alle menschen, de leue vnd 
+begertten hebben to der negester warheit to comen, sic also 
+holden, dat si to dusser leuendiger spisen ducke vnd tijtlike 
+mogen gaen, vnd dat si sic also vinden, ! dat si eynen vort- 
+ganc vnd eyne vermeringe orer leuen dar ynne vinden, vnd 
+dat neyne onachtsamheit in on en valle, noch neyn ver- 
+<leynen. Vnd wo sy dat dan vaker doen, wo et on nutter 
+vnd better is. Dit sprac openbarlick sunte augustinus: ‘Oec 
+
+
+25 1 
+
+
+(de dit tonemen in sic vindet vnd synen vortganck vnd de 3 
+
+
+ynnige begerte dar to heuet, de is to sommigen tiden wer- 
+dich vnd to sommigen tiden onwerdich. Van wanne komt 
+‚ome dan de weerdicheit?’ want de werdicheit en komt nummer 
+van menschliken werken of verdenste, sunder van purer gnaden 
+vnd verdenste vnses hern ihesu cristi, vnd vlut to mäl van 
+gode. Vnd of dit eyns mach gescheen des iaers, of des 
+maendes, of der weken, war vmme en geschuet de gnade 
+nicht alle dage als de edele mensche dat begerde vnd he 
+dat syn dar to dede, dat he vermochte? Und wete dat ic 
+allen begerliken menschen, de gerne dat besten deden, neynen 
+
+
+
+
+
+4 leden 7a] ledematen 7] glidern 19 gereitest 7, gerechtest 47a 
+‚28 vaker 7] dicker 35 ihu xpi 37 weken Y)] wuchen 
+
+
+35 
+
+
+40 
+
+
+2] JOHANN TAULERS 17 
+
+
+sekeren vnd reider vnd lutterer vnd nutter wech en weit, 
+dan dat hilge sacrament. Vnd ic dart oec allen mynen 
+vrunden sekerlick raden als se in sic vinden vnd des gewar 
+werden, dat de eerwerdige reuerencie nicht en vermynnert 
+vnd ore leue vnd andacht dar to wasset vnd tonemet. Nicht 
+en bereidet de materie dat et fur werde, als dat et na bi 
+dat fur (157a) gelacht werde vnd der hitten meer vnd meer 
+genaeket. Vnd also en mach nummer ienige materie deme 
+fure genaken, si syn steyne of hart, of nat, bliuet si dar bi, 
+ıosi en werde deme fure gelijck, of et trecket se to mael in 
+sic vnd et wert fur, so vern als de materie ontfanclick is. 
+Aldus so en is oec neyn mensche so verkeert noch so hart, 
+noch so nat vnd geneiget to sunden of gebreken, et si to 
+der werlt of to den creaturen, wil he sic dussen godliken 
+ıs fure vaken mit guder andacht vnd lutter meyningen verenigen 
+vnd doen dat he vermach, vnd dan eyn bibliuen heuet bi 
+dussen fure, al synt et durre stalen steynen hertte, si moten 
+warm, weick, furich vnd godlic werden. Et en is neyn merer 
+noch neger bereidinge to gode, dan god suluen is. Weer et 
+20 morgen eyne grote hoechtijt vnd wolde ic mi suluen dar to 
+bereiden, so weer mi de negeste vnd de hogeste bereidinge, 
+dat ic mit alre andacht huden den werdigen god neme in 
+deme hilgen sacramente. want wolde ic my bet bereiten tegen 
+morgen, on ynnichliker, heilichliker vnd godlicker to ont- 
+2s fangen, dan dat he suluen to my queme? War mede woltu 
+oec dynen grouen onvolmakeden, vnd dynen ongeistliken ver- 
+olden menschen, vnd natur vnd seden vnd wisen meer ver- 
+nyen vnd anderwerf geboren werden, dan in deme waren 
+godes sone, des hilge licham du entfengest, eyn reynmakende 
+3° hillich bloet vnd hilge sele vnd hilge geist, syn leiflike hertte 
+vnd ewige godheit, vnd al dat he heft vnd vermach? Vnd 
+24 wo ! mach men iemande dat mynste weigeren, den men van 
+d& meiste versekert heft? Welke gaue weer ome to groet to 
+geuen, de sic suluen altomael vnd gensclick heft gegeuen ? 
+3s Vnd godes genochte en is dar nicht in gelegen dat he buten 
+sta, sunder dar in dat he mit den kinderen der menschen si, 
+als he suluen spreket: “Myne weilde syn to wesen mit den 
+
+
+ın 
+
+
+
+
+
+ı reider vnd lutterer 7] reissenden, kürzen 7 gelacht 7a] tho 
+geuoget 8 genaeket V] enpfohet Za] entfenget 15 vaken V’ ] dicke 
+20 ein groth fest vnde solennitete 7a 27 seden V] sitten 28 ge- 
+boren werden 7] geberen 32 so men öme des grotesten vorsekert hefft ? Ha 
+35 genochten 7] wille 35/36 dat he buten sta W] das er in der 
+blosheit stet 37 weilde 7] wille 
+
+
+Naumann, Ausgewählte Predigten Johann Taulers. 2 
+
+
+ER. PREDIGTEN [2 
+
+
+kinderen der menschen, dat is mit den leifhebbenden hertten 
+vnd selen” De ome dat verbedet vnd benemet, de verbedet 
+vnd benemet ome syne weilde vnde wonynge. — Kinder, 
+dit heb ic alto mael gesproken van der gnaden godes oec 
+wat das is. Vnd want de meisters hir veel afspreken, so heb 
+ic dat beste vtgelesen. Sunte thomas secht: ‘Alle de gnade 
+de vnse her ihesus cristus alle der werlt brachte vnd dar 
+mede gaf, dat he mensch wart, de brenget he eynen iuwelken 
+menschen mit synen hilgen werden lichame. Vnd alle de 
+vrucht synes dodes, syner opverstantenisse, synes hemelvarts, 
+vnd de verclaringe vnd (157b) salicheit synes hilgen lichames 
+vnd synre selen vnd synre godheit, de. brenget he eynen iu- 
+welken menschen.” Hir inne vntfanget men allet dat men 
+gedencken mach. Nu nemet eyne groue gelikenisse, want 
+wertlike menschen en verstaen neyn dinck dan in synliker 
+wisen. Weer dar eyn groet weldich keiser, des alle schat, 
+heerscop, rijecdom, schoenheit, gewolt, vreude, konst vnd alle 
+genoechte alre menschen vnd alre creaturen syn weren, na 
+allen wonsche vnd wise dat ienich hertte bedencken mochte, 
+vnd neme de sulue keiser dan des alre vtsetstiger of ma- 
+laetscher menschen bladeren vnd stinckende bloet, lamheit vnd 
+doefheit in sic, vnd verenigede sic alto mael mit de suluen 
+menschen, dat de verenige also eyn worde, dat he syn hertte, 
+syn houet, syne voete, vnd al dat he weer inwendich vnd 
+vtwendich let alto mael vleten in des armen menschen licham, 
+so dat alle syne lide des keisers weren, dat weer eyne alto 
+grote wonderlike leue: Noch dusent werf vnd sunder alle be- 
+grijp is dusse verenige merer sunder alle mate. Van der 
+vrucht des hilgen sacramentes weer noch veel to seggen, vnd 
+dar en is bi gelijck nicht gesacht als et wesen sulde. Laet 
+vns nu vnsen leuen hern bidden dat wi vollenbrengen, dat 
+in vns gebreket, biddet dan gode dat he vns behode in allen 
+vnsen werken. Amen. 
+
+
+
+
+
+2 De ome— wonynge fehlt 7’ 7 ihe xpc Io opverstantenisse 
+F]] urstende 16 weldich 7] geweltiger 17 heerscop 7] herschaft 
+18 genoechte 7] genäge 21 den— menschen mit blotern 7 | bloet — in 
+sic 7] blint und am 28 mate 7] mosse 30 wesen 7] sin 
+
+
+“ 
+
+
+o 
+
+
+[277 
+° 
+
+
+3] ? JOHANN TAULERS 19 
+
+
+3 . f 
+ter Van deme hilgen sacramente 
+5,1 r ° . 
+408. Caro mea vere est cibus. ‘Myn vleisch is eyne 
+
+
+‘). ware spise vnd myn bloet is eyn war dranck.’ Gisteren seide 
+ic, dat ic ichteswat spreken wolde, van dusser groten wer- 
+s dicheit vnd hoechtijt, dat nemant gedoen en- can, vnd oec 
+van der bereidinge vnd nutticheit hir to to gaende, want 
+dat beste stuck bleif do achter. Sunder nochtan werden wi 
+des eyn deil, do wi spraken dat sunte thomas secht, dat 
+alle de verclaringe gnade vnd salicheit, de vnse leue her al 
+ıo der werlt gebracht heft, in synre menschheit leuen, liden, in 
+synre opverstantnisse vnd hemelvart, dat he de altomael - 
+eynen iuweliken menschen brenget mit seyneme hilgen lichame, 
+vnd men en mach neyne gnade dencken, de dar nicht ynne 
+besloten en is. Nu dencke so depe, so hoge, vnd so ynnent- 
+ıs like als du wolt, alle de ofeninge de de mensche van synre 
+eigenre cracht ofenen mach, de en syn nicht to geliken bi 
+de godlike mogentheit vnd dit is god sulue. Vnd hir wert 
+de verclarde mensche in god verwandelt, als he suluen sprac 
+to sunte augustino: ‘Ic en sal nicht verwandelt werden in 
+20 di, sunder du in my.’ Alto mael wat du wilst af begeren 
+mogest, als gebreke to verwynnen, gnade vnd dogede to 
+verkrigen (158a) vnd troest to gewynnen, dat vindestu alhir, 
+weer et dattu rechte kondest soken, vnd ofstu des soken 
+woldes. Hed eyn mensche geleuet hundert iaer, vnd hedde 
+25 alle dage hundert af dusent doetsunden gedaen, vnd geue 
+om god eynen gansen vnd waren afkeer van den sunden 
+vnd inkeer to gode, vnd ginge dar mede to deme hilgen 
+sacramente, so weer et vnsen hern eyn alto cleyne dinck 
+alle de sunden in dusser hogen edeler gauen in eyn& ogen- 
+3o blick to vergeuen, lichter dan et di were eyn stof vt dynre 
+hant to blasen. Vnd de keer mocht so groet syn, vnd so 
+craftich, dat alle pine vnd alle bote mede af ginge, vnd he 
+mocht eyn groet hillich werden. — Et is eyn gude gewoente 
+to collen, dat men dar gerne godes licham vntfenget, sunder 
+3s et wert seer vngelijck vntfangen. De eyne nompt dat sacra- 
+mentlick vnd nicht geistlick noch salichlick, dat is de dat 
+
+
+
+
+
+ı überschrift rot 2 rote initiale 11 urstende und uffart 7 
+15 ofeninge V] übunge 16 ofenen 7] geüben 17 wente alle ouinge 
+mogen godlich syn, auer dässe is god suluen 4a 22 verkrigen V] ge- 
+winnen 30 eyn stof 7] ein stäppe, Za] stubbe 32 bote V] büsse 
+34 to collen Y] zü Kölle 
+
+
+2* 
+
+
+20 PREDIGTEN [3 
+
+
+nemet mit doet sunden, vnd de nemt es als! iudas nam. 
+De ander nempt et sacramentlic vnd oec geistlick, sunder si 
+ontfangen doch wenich gnaden vnd luttel vruchtes vnd troestes 
+dar af, dat syn de et vntfangen in velen dagelikes sunden, 
+vnd onbereit vnd sunder inwendige andacht. De derden 
+vntfangen dat mit groter hilger vrucht, vnd ongemetene 
+nutticheit. De veerde nement dat sacrament geistlick, vnd 
+nicht sacramentlic, dat syn gude reyne hertten, de des sacra- 
+mentes begeren, vnd on to der tijt also nicht werden en 
+mach, de vntfangen licht de gaue des sacramentes vele meer, 
+dan de dat sacramentlick vntfaen dar na dat ore meyninge 
+vnd ore begertte groet were. Dit mach eyn iuwelick gud 
+mensche des dages hundert werf vntfaen, he si war he si, 
+he si kranc of gesont, al en vntfaet he et nicht sacramentlick. 
+Sunder neyn mensche sal et meer dan eyns des dages vnt- 
+faen sacramentlic, sunder aldus geistlick mach men dat vaken 
+vntfaen mit vngemetener gnade vnd vrucht, mit hilger begerten 
+vnd andacht. Mennich mensche vntfanct dit sacrament alleyn 
+wal, in der selen vnd in deme ewigen leuen sal he des wal 
+bruken, so vern als om god gan dat he buten doet sunden 
+geuonden wert; sunder nochtant en vercriget he nummer 
+den vtvloet vntelliker gnaden de hir gegeuen wert, want he 
+bliuet op der vtwendiger bereidinge, vnd en komet nicht in 
+den inwendigen gront, vnd geit dar to mit velen dagelichschen 
+sunden, vnd lauweliken vnd sunder gnaden vnd blijf ydel, 
+rokelos vnd colt vermiddest dussen hindernissen. — Welck 
+syn nu dusse hindernissen, de d& menschen dussen vnspreke- 
+liken scaden doen, dat on de durbar schat, de hemel vnd 
+erde (158b) vervullet, nicht rijick maken en kan, vnd dat 
+he so idel bliuet, als gi wal seet an mennigen menschen ? 
+Dusse hindernissen dat syn dagelichsche sunden, de dat fur 
+der leuen colt maken, vnd de dat hertte vnd andacht to 
+schoren, vnd benemen ome den hilgen ernste, vnd verdriuen 
+god, vnd maken on vremet vnd onheymelick. Vnd al is et, 
+dat si de gnaden nicht al en benemen vnd doden in deme 
+wesen, si doen nochtant; dussen schade, dat si groten inval 
+vnd neigelicheit maken de gnade to verlesen vnd in doet 
+sunden to vallen, al synt se suluen dagelichsche sunden. 
+
+
+
+
+
+25 lauweliken 7] leweclichen | ydel F]itel 26 rokelos 7] werkelos, 
+so auch Ha | colt 7] kalt 28 scaden 7] schaden 29 vervullet 7] 
+erfullet 32/33 to schoren Y] zerströwent 33 ernste 7] trost 35 al 
+e. b.v.doden V’] gerwe tötent 36 nochtant 7] doch 36/37 inval vnd 
+neigelicheit 7] gefüg und nehe und neigunge 37 verlesen 7] verlierende 
+
+
+[3 JOHANN TAULERS 21 
+
+
+Dusse dagelichsche sunden syn twierhande De eyne syn 
+staende gebreken, de ander syn vletende gebreken. Dusse 
+beide hinderen den saligen invloet der gnaden van dussen 
+hilgen sacramente. Dit vnderscheit verstaet aldus. De staende 
+5gebreken de aldus anxtlick behinderen, dat is dat de mensche 
+mit weten vnd mit willen beseten is mit den creaturen, 
+27 vnd! van on geuangen is vermiddest genoechten, oec welker 
+kunne si syn, leuendich of doet, dar god de rechte sake 
+nicht en is. Kinder, alle dingen dar de menschen synlike 
+ro genoechten in saken, dat is al dagelichsge sunde. Vnd der 
+is sommige also groet, dat men dar teyn iare vmme in dem 
+vegefure barnen sulde, bleuen se ongebetert. Dusse gebreken 
+bliuen vnd staen bi deme mensche. Want he dusse ge- 
+breken, noch de creaturen noch oec dusse genoechten om 
+ıs god nicht laten en wil, vnd dusse creaturen besitten de stat 
+godes al so vaste, dat god dar nicht bliuen, wonen, noch 
+werken en mach. De mensche sol ernstelick seen, war to 
+dat syne meyninge alre meist gekeert is, want de mensche 
+meynt lichtes to seer sic suluen, of syne vrunden of syne 
+20 magen, af syn gud, of licht anderswat, dar he sic to seer 
+mede bekummert, vnd dat on van gode trecket, vnd dat 
+licht benymmet, dat de godlike gnade in ome gescapen heeft, 
+so dat et to mael verdustert wert, vnd in on neyn licht en 
+schynet. Och kinder, dit gebreck is nu also gemeyn! Eyn 
+2s iuwelic penset vnd mercket, wo dat he veel wynnen mach 
+vnd groet gud vergaderen, dit doen leider geistlike lude vnde 
+wertlike papen vnd knapen, ridders vnd alle gemeyne lude. 
+Nemant en genoget, eyn iuwelick dincket wo he wat ver- 
+gaderen vnd versamen moge. Dan tymmeren se grote huse 
+3ovnd de vertzyren se bynnen vnd buten na oren synnen 
+luste, so hebben se silueren drinckvaten vnd andere cleynode, 
+vele cledere vnd wes sy begeren. Alle dinck willen si hebben, 
+vnd hir vmme ge(159.a)acht vn geseen wesen. Vnd to al 
+sulken cleynoden vnd tzyrheiden vestigen si oren syn vnd 
+35 begerten also vaste, dat se kume iummer of selden ernstliken 
+op god dencken. Vnd dusse dagelichsche sunde vestigen se 
+
+
+
+
+
+2 vletende Y] fliessende 4 aldus ferlt V 5 anztlick 77] grös- 
+lichen 7 v.genoechten 7a] mit leue vnd mit luste 11 sommige 7] 
+etteliche 12 barnen 7] bürnen 17ff. De mensche—in on neyn licht: 
+en schynet Y 127, 8—ı0] Dis müs der mensche prüfen was do in ime 
+si, er mag es ouch selber sin in eigener unordenunge uf sine moge oder 
+uf sine spuntzieren 28 en genoget V] engenüget 29 tymmeren V] 
+buwent 31 silberin trinckevas 7 
+
+
+22 PREDIGTEN [3 
+
+
+mit synliken vorseen vmme dingen to vergaderen. Vnd et 
+is on. leit, dat si des nicht meer vergaderen mogen, vnd si 
+soken vruntscap vnd tijtcorttinge in lichtuerdicheit, dar si 
+gode nicht in en meynen noch in en vinden. Och kinder, 
+wo heymelic syn dusse gebreken den doetliken sunden in- 
+wendich vnd vtwendich, eer man des gewar wert, so is men 
+in mannigen gesoncken! Dit syn de staende gebreken, dar 
+de eyne mit den anderen mede to deme hilgen sacramente 
+gaen. Vnd eyn iuwelick wil syne wise holden in dussen 
+dingen, vnd en wil der neyn laten. Si willen god vntfangen, 
+vnd altohant weder an ore olde gewoenten tasten. Aldus 
+vnderbliuen vele lude in geistliken schyne, sommige vertich 
+of veftich iar, vnd sommige al or leuen. Vnd et is grote 
+sorge of si iummer beholden sullen bliuen, want or gront is 
+dor gewont, vnd weselic bestricket mit den creaturen. Sunder 
+leider als et an de noet geit, vnd et al ondecket is, war is 
+dan god? Nu vinden si grote glosen, vnd de on dat be- 
+nemen wolde de dede on onrecht. Aldus vestigen si de 
+gebreken in sic, vnd werden on also weselic, dat si ten lesten 
+neyn consciencie, noch acht dar van en maken. Dusse ge- 
+breken syn recht als starcke vormuren, de dat inwercken 
+godes benemen, so dat si des nummer gewar en werden, 
+si doen wat si doen. Want so vele als de creaturen dat 
+hertte vervullen, also veel moet god dar vt vntbliuen mit 
+synre gnaden.! — De ander hindernisse dat syn vletende 
+gebreken, dat is dat de mensche vnbeseten vnd ongeuangen 
+is van den creaturen, vnd dat he sic altijt bereit vynt alle 
+creaturen to laten, vnd al dat he weselic woste dat god 
+nicht hebben en wolde, et weer oec wat et weer, he suluen 
+of syne vrunde, syn gud of ienich dinc, nochtan dat he 
+nicht so vorsenich en is als he solde, vnd wert licht som- 
+wijls verwonnen van synre naturen, of naturliken gebreken, 
+welkerleye wijs se syn, et si torn, houerdicheit, traecheit of 
+lichtuerdicheit in worden. Vnd als he dan komt bi de orsake 
+dusser ienigen gebreken, dar he to geneiget is, so entgeit he 
+sic lichtliken, et si an to veel to spreken, of to eten, of to 
+drincken, of genoechten to nemen, of in velen bekummer- 
+nissen. Vnd al en syn dusse sunden in sic suluen nicht 
+swaer, vnd nicht also groet als de anderen staende gebreken, 
+want si vermiddest cranckheit vnd onverseens gescheen, vnd 
+
+
+
+
+
+17 hinter glosen V] ‘ich müs dis haben, dis schat nüt, das schat 
+nut’ 31 vorsenich 7] bewarsam a] hötsam 32 verwonnen 7] ist über- 
+windelich 36 to spreken 7] klaffende 37 genoechten 7] gemüätikeit 
+
+
+„m 
+
+
+o 
+
+
+30 
+
+
+3] ‘JOHANN TAULERS 23 
+
+
+dar vmme vngelijce myn hinderen vnd vermiddelen si, want 
+de gront dar geluttert is, nochtan syn se quaet. Want wolde 
+de mensche morgen of huden to deme hilgen sacramente 
+gaen, vnd sic vor dusse toualle nicht bewarde, dat hinderde 
+ome alto seer an der leifliker verenigen, vnd et ververnde 
+vnd vercleynde dat betruwen, vnd et to schorde dat gemode, 
+vnd he en worde des leifliken invlotes nicht to recht ont- 
+fancklick vnd des verclarden (159 b) lichtes in sic. Sunder weert 
+et, dat dusse gebreken tegen synen willen in vnd to velen, vnd 
+ıohe se mit hertten leide an sege, so en hinderden se doch 
+also seer nicht, als of se huden gescheen weren. Want de 
+bitterheit vnd dat gedrange dat in deme hertte is van deme 
+invalle der onvolkomenheit, dat schuret den rost der ge- 
+breken eyn groet deil af. Sunder wolde de mensche huden 
+onbehoet syn van hinderliken invalle dar he mede verstroyet 
+worde, et weer in veel clappen of bekummernissen, so hin- 
+derde dat eyn gebreck seer op dat ander. Sunder nochtan 
+en darf men vm al sulke dingen al heel nicht laten. Want 
+geit men dar mede ten hilgen sacramente, men en sundich 
+nicht dar an, so vern als et d&ö mensche leit sy, men mach 
+des weder halen des anderen dages. De natur hindert oec, 
+als dat de mensche ongeschicket is, of dat he to luttek of 
+to veel geslapen of gegeten heft. Den mensche en sulde 
+kume eyn beteke eten, he ensulde beseen of de nature dar 
+2s mede to rechte conde comen. Kinder, et moet to mael 
+
+lutter syn, dar god syne onsprekelike heymlicheit instortten 
+
+vnd ingeten sal. Kinder, dit syn de gebreken vnd hinder- 
+
+nissen des leifliken invloetes, vnd dat de edele schat ver- 
+
+borgen bliuet. — Oec syn sommige lude, de van naturen 
+30 tegen oren wil slaperich syn, vnd veel slapens behouen, vnd 
+
+de en sullent dar nicht om laten. Oec syn sommige hinder- 
+
+nisse, dat sommige lude altijt dat or soken, als troest vnd 
+29 geuolen vnd wal to vrede syn. Vnd! en vunden sie des nicht, 
+
+so en gingen si dar nicht to. Dusse lude meynen al ist 
+35 verloren, sic suluen meer dan god. Dusse lude wiset god 
+
+vaken op sic suluen, mit groten hamerslegen van buten, de 
+
+he op se let vallen, vnd oec van bynnen, so dat si gedrongen 
+
+werden, als of se helsche pyne geuölden. Vnd en geschuet 
+
+
+on 
+
+
+[m 
+an 
+
+
+2 
+
+
+° 
+
+
+
+
+
+
+
+
+2 nochtan syn se quaet 7a] vnd allene de tho val boße is, so 
+auch V 6 to schorde Ha] vorstrouwet 13 schuret 47a] reyniget 
+16 clappen Ha] swatzen | Arnter clappen V] mit zit verlierende 2ı des 
+weder halen 7] sich wol erkobern 36 vaken 7] dicke 38 geuölden 
+Ha] beuynden 
+
+
+24 PREDIGTEN [3 
+
+
+on neyn van dussen, so syn se grotes vegefures gewisse. 
+Dusse lude de vnderbliuen alle iare, vnd dar en wert nicht 
+vt. — Oec syn sommige lutter menschen, also vol blinder 
+vorchten, dat si nicht en geuolen de wise vnd becoringe 
+eynes viandes, vnd eines groten werkes. Want al is et dat 
+si neyn mercklick hindernis in sic en weten, nochtan en 
+dorren si dar nicht to gaen, vnd dusse verbliuen oec. — 
+Sunder de lude de vntfangen des edelen vruchtes alre meist, 
+den or gront vnd meyninge lutter is, vnd dan op to gode 
+gaen, he geue of he neme, vnd de nicht af en laten to be- 
+truwen vnd to gelouen in ome, in hebben vnd in ontberen. 
+Dusse werden in gode geboren vnd god in on. Vnd valt et 
+dat si ienieh hindernis geuolen, als et menschlick is, dar 
+keren si sic af snelliken, vnd en bliuen dar nicht an cleuen. 
+Si en hebben nicht leif dan god. Si en meynen nicht dan 
+god, vnd dar ynne vndersoken si sick. (1602) In dussen luden 
+wercket dat hilge sacrament wonderliken manniger hande 
+verclaringe. Dit is de nutteste, de negeste, vnd de cortste 
+wech. De mensche mocht mit al sulken ernste dar to gaen, 
+weer he nu in deme grade, dat he comen mochte in den 
+nedersten coer der engelen, he verkrege mit deme eynen 
+togange to deme hilgen sacramente, dat he geordinert worde 
+in den anderen, of in den derden chore.. He mochte wal 
+so vaken mit sulk& vlijt togaen, dat he vermiddest der gnaden 
+des sacramentes verheuen worde in den ouersten choer, ia 
+bouen cherubin vnd seraphin, vnd bouen alle engelsche 
+nature. Sunder de mensche en sal dit nicht meynen, sunder 
+alleyn den leifsten willen godes vnd syne eere. Dat wonder, 
+dat dit edel sacrament werket in eyne lutteren gronde, dat 
+is bouen engelen vnd menschen verstaende, als wo de lutter 
+mensch alto mael mit dussen bouen sic suluen verheuen 
+wert vnd bouen alle menschlike wise vnd in got getogen 
+wert vnd mit om in deme gronde vereniget. Vnd is et, dat 
+edelen gelutterden menschen dusse gaue sacramentlick nicht 
+werden en mach, so geue he sic dar to, dat he dat geistlick 
+neme, vnd dat sal he to mynsten eyns des dages doen, he 
+hore misse of nicht, he ligge cranck of war he si. — Och 
+kinder, wat wonder vermochten wi mit gode, weer et dat 
+
+
+4 vrochten 4/5 vnd becoringe eynes viandes 47a] eynes brandes 
+der leue, so auch V 6/7 en dorren 7] endurrent 9 op god to gode 
+ıı ontberen 7] darbende 18 is Y] in den ist 22 geordinert P, Ha] 
+geordent 23 hinter derden V] oder in den vierden 37 misse V7] 
+messe 
+
+
+[977 
+
+
+5 
+
+
+3] JOHANN TAULERS 25 
+
+
+wi ons to ons suluen kerden, vnd dar bi bleuen, vnd nemen 
+der gnaden in vns gewar, want so vermochten wi alle dinck, 
+vnd vonden dat hemelrijck in vns! Leider, leider, des en 
+doen wi nicht, sunder des leiden vtlopens hebben wi so vele, 
+
+» sia et is sunder alle mate, so ist dit, so ist dat. Nu! komt 
+gi vnd lopet hir to mit vlite vnd hort hir dat wort godes, 
+sunder eer men sick vmme keert, so en wetet gi nicht meer 
+hir af. Vnd dan lopet gi na eyn& anderen, vnd gi en weten 
+noch dit noch dat, wapen des leidens gerommels is so veel, 
+ıo wi syn recht van wijfliker naturen, ic mit iu, vud gi mit mi. 
+Ic hebbe in sommigen lande gewest, dar de lude also men- 
+lick syn, vnd doen also gewaren stercken kere to gode, eyn 
+bibliuen, vnd dar dat woert godes meer vrucht in brenget 
+in eyn& iare, dan hir in tween iaren. Men sach dar wonder 
+ıs vnd grote genoechte an d& wonnentlike volke. Sunder in 
+sommigen landen geberen de lude also wijfliken, wo ment 
+mit on begynt, dar en wert nochtant nicht vt. Gi en hort 
+nicht gerne, dat ic iu hir mede meyne, sunder dede ic dat, 
+mislick wat ic dan spreke. Kinder, wi moten mennen werden, 
+20 vnd doen eynen (160b) crechtigen kere, of dar en wert nicht vt. 
+Eyneme mensche mochte syn hertte verdorren in syneme 
+liue, dar vmme dat de groten gauen godes so iamerliken 
+van ons verrokeloset werden. Vnd et is nu leider in man- 
+nigen vergaderingen, dat men al gerne nye mere secht als 
+2; wat de vnd de doen, vnd so vort an van allen dwasen beel- 
+den. Vnd de gerne van gode horen vnd spreken, de en 
+mach men nergens wal liden, vnd de verstoet men. Kinder, 
+dusse stede vnde dusse lude vleet koenliken op myne wort, 
+vnd gaet vor iu beddeke sitten, vnd vntfluyt iu suluen, vnd 
+30 bewart iuwen god vnd synen willen vnd volget deme. Vnd 
+is et dat gi den willen godes nicht en weten, so nemet eynen 
+guden raet van mi, wo gi doen sult. Als gi twe wercken of 
+twe wisen vor hebbet, vnd nicht en wetet wat dat et beste 
+si, so nempt altijt alre irst iu sulues gewar, vnd dat is dat 
+35 sekerste. Dat der natur meist tegen is vnd dar si mynst to 
+geneiget is, dar in sijt gi dat sekerste; want wo gi der naturen 
+vnd orer lust myn leuet, wo gi gode meer leuet vnd synen 
+
+
+
+
+
+
+
+
+9 wapen YV] und | leidens gerommels 77a] leydigen murmurens 
+10 wijfliker 7] wispelechter | kznter mi V] unstete, wanckelsam 14 tho 
+Koln Ha 19 mennen F] man 20 crechtigen V] kreftigen 23 ver- 
+rokeloset 7] verwarloset, so auch Ha 25 dat syn alle dorhafftige 
+bylde 4a 27 vd de v’stoet me 7] das urteilent sü, so auch Z 1498, 
+Ha 35 tegen Ha] aller wedderst 
+
+
+26 PREDIGTEN [4 
+
+
+willen, vnd wo gi deme geiste meer wilt leuen, wo gi der 
+naturen meer moet steruen, — Dit is dan gesproken van 
+dussen hilgen sacramente, sunder et en is dat hunderste deil 
+nicht, dat men hir af wal spreken sulde, als welke nutticheit, 
+wat vrome, wo grote eere godes vnd alre saligen vreude, 
+vnd alre menschen beteringe, wo grote bekeringe der doet- 
+liken sunderen, vnd wo groet verlosinge der selen vt deme 
+vegefure hir inne gelegen si. Men lest dat eyn geist eyneme 
+vrunde godes sic openbarde als in eynre lichten vlammen 
+to mael seer vlackerende, vnd seggede dat et dar vmme 
+weer alleyn, dat he versumich gewest was in to ontfangen 
+dat werde sacrament des lichames vnses heren, vnd dat he 
+dar vmme lede onsprekelike pyne, dat et nemant gelouen 
+en mochte. Vnd he seide vort to deme guden menschen: 
+“Woldestu eyns! vor my dat werde licham vntfangen, dat 
+sulde mi helpen’” De mensche dede dat, vnd de geist quam 
+des negesten dages weder. to deme menschen blenckende 
+meer dan de sonne, vnd was vermiddest d& eyn& vntfangen 
+van al synen pynen verlost, vnd vor to hantes in dat ewige 
+leuent, des gunne vns allen de vader, de soen, vnd de hilge 
+geist. Amen. 
+
+
+4. 
+Repleti sunt omnes spiritu sancto 
+Apostelgesch. 2, 4 \ 
+
+
+Die predigt ist genommen aus dem Man. germ. quart 166, blatt 
+39b der Königl. Bibliothek zu Berlin aus dem besitze Sudermans. 
+Neben predigten Taulers enthält die handschrift predigten ‘von vnder- 
+scheidlichen leerern. Versamblet zu Basel anno 1434’. Am schluss des 
+registers befindet sich der eintrag: “Item dis büch ist der swesteren zü 
+ste [rasur] vnd wart geschriben in dem XXXV. ior (1435). Taulerus 
+ist ein prediger jm kloster zu S. Gertruten zii Cöllen gewesen. Ist 
+nachmals gehn Straßburg gezogen, auch alda gestorben.” Lehmann II, 
+RR Von der entleerenden und erfüllenden Tätigkeit des göttlichen 
+
+eistes. 
+
+
+Item die eine vsszlegunge von den pfinsten seit: welle 
+
+
+5 
+
+
+m 
+
+
+Vet 
+s 
+
+
+. .1* . 2 S o 
+menschen erfüllet werden süllent mit dem heiligen geiste, die. 
+müssent vor jre herczen lidigen von eigener minnen vnd $°; 
+
+
+
+
+
+5 vrome 7] frummen 6 beteringe 7] besserunge 7 verlosinge 
+V erlösunge 19 verlost 7] quit worden, 4a] entleddiget 
+
+
+4] JOHANN TAULERS j 27 
+
+
+eigener meinungen vnd von eigenem willen vnd gelossen sin 
+in swerheit vnd in vngeschicketheit. 
+Repleti sunt omnes spiritu sancto. 
+‘Su sint alle erfüllet mit dem heiligen geiste vnd be- 
+5 gundent zü sprechende die grossen ding gottes.’ Lieben kinder, 
+der minnenkliche dag ist hüte das der edele türe schacz ist 
+wider gegeben, der so schedelichen was verloren in dem 
+paradis mit den sünden vnd allermeist mit vngehorsamkeit, 
+das alles menschliche künne was vervallen in den ewigen dot, 
+ıo vnd was der heilige geist der ein tröster ist zü mol verloren 
+mit allen sinen goben vnd troste, vnd woren alle menschen 
+gevallen in den zorn gottes vnd in die hant des ewigen todes. 
+Dis bant brach vnser lieber herre Ihesus an dem heiligen 
+karfritage, do er sich liess vahen vnd binden vnd starb an 
+ıs dem crücze. Do machte er einen ganczen sün zwischen dem 
+menschen vnd dem himelschen vatter. Also hüte vff disen 
+dag so ist die süne bestetiget vnd ist der edele türe schacz 
+wider gegeben, der zü mole verloren was: das ist der heilige 
+geist, von des richeit vnd minne vnd der völle die in ime ist, 
+20 do zü kundent alle herczen vnd verstentnüsse nüt kumen. 
+Diser heilige geist der kam in die jungeren vnd in alle die 
+sin entpfenglich woren mit also grosser richeit vnd vber- 
+flässikeit vnd vber goss sy innewendig glicher wise also ob 
+der rin sinen schucz hette vnd das mittel vnd das hinder- 
+2s nüsse abe were; wie er denne mit vollem flisse vnd vber 
+güsse solte kumen ruschende, also ob er alles das (40a) er- 
+trencken vnd versencken wolte, vnd fulte alle telre vnd grüben 
+05 die vor ime werent. Also det der! heilige geist den jungeren 
+vnd allen den die sin enpfenglich woren; vnd also tüt er 
+;onoch alle stunde vnd on vnderloss. So füllet er vnd vber- 
+güsset alle die gründe vnd die herczen vnd selen wo er stat 
+vindet, die füllet er mit aller der richen gnoden vnd minen vnd 
+goben von den nüt zü sprechende ist; vnd er füllet die telre, 
+die tieffe die ime für gehalten sint. Were es nu als es was 
+3;by Helyas ziten, do es was drü jor vnd sehs monat vn- 
+geregenet vnd man weder segen noch eren möchte, vnd ob 
+
+
+
+
+
+3 überschrift rot | spiritu sancto fehlt V 4 rote 
+initiale 9 künne Z 1498] geschlechte 12 ewigen zorn V | hant 
+Y) bant 13 ihe, rot unterstrichn 15 sine V 19 ine 20 zü 
+
+
+komen YV 2ı Diser minneklicher V 22 richeit und volheit V 24 Rin V 
+25 flisse V] flusse 27 grüben V] die gründe 29 die er sin enphenglich 
+vant V_ 31alle dieh. V | die selen V_ 34 vor Were V] ‘Repleti sunt 
+omnes’ 35 by V] in 35/36 vngeregenet VW] das es nüt enregente 
+36 seien noch ernen V 
+
+
+28 PREDIGTEN fa 
+
+
+den ein süsser voller regen keme, das aller ertrich erkicker 
+wurde, blibe denne eins menschen acker vß gescheiden trucken 
+vnd dürre, das solte dem vnd allen sinen fründen ruwen vnd 
+ein schrigen machen. 
+
+‘Sy sint alle erfüllet mit dem heiligen geiste’ Wie mag 
+denne dem zü müte sin des hercze vnd sele vnd grunt, sin 
+vs wendig vnd innewendig mensche, zü mole dürre vnd 
+scharpf vnd grundeloss vnd mineloss ist bliben dis vber- 
+treffelichen trostes! 
+
+Nun söllen wir mercken was vns zü tünde sy, das wir 
+disen heiligen geist mögent enpfohen. Die nehste vnd aller 
+höhste bereitunge in zü enpfohende die müs er selber be- 
+reiten vnd würcken in dem menschen. Er müs die statt 
+selber bereiten zü ime selber vnd müs sich selber öch en- 
+pfohen in dem menschen. Der heilige geist het zwei werck 
+in dem menschen. Das eine ist er leret, das ander ist er 
+füllet (40 b) das er lere gemacht het. Die lerheit die ist die erste 
+vnd die gröste bereitunge den heiligen geist zü enpfohende. 
+Wan also vil der mensche me geleret ist, so vil me ist er 
+enpfenglicher. Sol man ein vas füllen, so müs drus das drine 
+was. Sol win drin, so müs das wasser vß, wan zwei vn- 
+materliche ding mögent nüt in einer stat gesin, wan sy sint 
+widerwertig. Sol got in, so müs die creatur vs. Es müs von 
+not alles dannan das in dir ist vnd an genumen ist. Nun 
+müs die tierliche viheliche sel in aller wise dannan, sol die 
+vernünftige sel in | den menschen geoffenet werden. Also sol 
+sich der mensche lossen vohen vnd iteln vnd bereiten vnd 
+lossen vnd des selben lossendes also gar vnd zü mol vs gon 
+vnd dannan ab von allem dem nüt enhalten denne vallen 
+in sin luter nüt; anders sicher er veriaget den heiligen geist 
+in jme zü würckende in der höhsten wisen. an disen weg wil 
+nieman. vnd wenne dise bereitunge in dem menschen ge- 
+schiht, so würcket zü hant der heilige geist das ander werck 
+in dem bereiten menschen, [er] füllet alzü mole die en- 
+
+
+
+
+
+
+
+
+ı erfüllet und erkicket V, erquickt Z 1498 5 ‘“Repleti sunt omnes, 
+sü V 8 grundeloss 7] gnadelos 11 über wirdigen heil. V_ 13 dem 
+Y] den 15 vor Der heilige geist ka? V] Was ist nu sin werk mit 
+
+
+dem das er den menschen bereitet sich selber ze enphahende? | zw°i 
+
+
+16 leret 7] itelt 17 das er lere gemacht het V] das ital als verre und 
+
+
+als vil als er ital vindet | lerheit Y] italkeit 2ı zwi 22 hinter gesin P] 
+Sol das für in, so müs das wasser von not us, wan s.s. w. 24 hinter 
+dannan V] es sin in weller wise das si, es müs alles dannan 26 müs 7 
+33 zwischen geist und das sinntrennindes abschnitlszeichen, ich folge 
+Vu. L 1498 
+
+
+25 
+3% 
+
+
+30 
+
+
+in 
+
+
+I 
+
+
+30 
+
+
+35 
+
+
+4] JOHANN TAULERS 29 
+
+
+pfenglicheit; jo ob du wol in der worheit gelert bist, so en- 
+pfohest du öch vil: also vil dis minre ist, also vil gens mere: 
+eigener minne, eigener meinung vnd eigens willen, jo des 
+solt du also gar sin vs gangen. stinde das himelrich vor dir 
+offen, du soltest nüt drin gon, du soltest zü dem ersten war 
+nemen ob. es got haben wolte also von dir. Dis ist allein 
+die stat in der das der heilige geist würt ge(41a)geben vnd 
+also zu mol erfüllet, 
+
+
+Och kinder, das der mensche sich vindet vngeschicket 
+vnd in swerheit vnd trockheit siner naturen wider sinen friden, 
+vnd er dem nüt getün kan, jn dem selben sol er sich selbes 
+itelen, das er sich gott do inne losse vnd lide sich in dem 
+selben one bekorungen: das vnd alles das vff den menschen 
+gevallen mag. Dis sint die_waren armen des geistes, die er- 
+füllet der heilige geist vnd ruschet in den menschen vnd 
+vbergüsset in mit allem sinen richtüm vnd mit allem sinen 
+schacze, sinen innewendigen vnd vs wendigen menschen, sine 
+krefte die obersten vnd die nidersten, innewendig vnd vsB- 
+wendig. Vnd des menschen tün ist, das er sich losse be- 
+reiten vnd ime stat gebe, das er sins werckes möge bekumen 
+in ime. das tüt wenig ieman, noch die in geischlichem schine 
+sint, die doch got hie zü erwelt het. Wan der verleitunge 
+vnd des an klebendes ist also vil nun hie nu do, vnd sint 
+alles angenomenheit vnd die vss würckunge vnd die vff secze 
+vnd güt duncklicheit, vnd nieman wil sich dem heiligen geiste 
+lossen vnd schaffet meglich sin ding. Dis ist aller lüte tün 
+in disen sörglichen ziten. Alsus vil ist dins tündes har zü, 
+das du in sins werckes lossest in dir bekumen vngehindert, 
+so erfüllet ! er dich zü mole. so du dich also gewerlich vnd 
+also götlichen haltest in dinem vsseren menschen, öch also 
+es dem geiste gottes gezimet, an worten, an wercken, an 
+wandelunge in aller ordenunge, ab gescheidelich (41 b) vnd stillec- 
+liche, denne so würcket der heilige geist so grosse ding in 
+dem innewendigen vnd in gekerten menschen, noch dem das 
+der mensche zü mole nüt do von weis: Recht also die sel 
+verbörgenlichen würcket das leben in dem lichnam, das der 
+lichnam nüt do von bevindet noch weis: Also würcket der 
+heilige geist in dem grunde des menschen vnwissenlich. Sol 
+
+
+
+
+
+7 das fehlt V, L 1498 10 tragheit V 15/16 vnd v'bergüsset V] 
+das ist: er begüsset ı9 ist 7] ist her zu 2o stat gebe und gerum V 
+2ı geistichem V 26 meglich 7] mengelich Z] menniglich | dig. 28 be- 
+komen lossest und in ungehindert lossest 7 34 dem V, Z] denne 
+
+
+30 PREDIGTEN [4 
+
+
+aber dis der mensche werden gewar, das müs geschehen mit 
+wider geböigten krefften wider in den grunt, do der heilige 
+geist sin wonunge vnd sin werck jnne het. 
+
+Also nun der dorechte mensche dis in ime bevindet, so 
+vellet er zü hant dor uff mit an nemelicheit, als ob es sin 5 
+sy, vnd verderbet es all zü mole; vnd tüt der mensche als 
+ein grosser meister der eins werckes beginnet vnd er das in 
+der hant hette, vnd denne einer keme der es nüt kunde vnd 
+verderbte das werk zü mol das es niergent zü nücze were. 
+Recht also tüt der mensche wen er sich Vt an nimet der :o 
+werck gottes; vnd geschicht dem menschen dicke von vn- 
+messigem luste vnd fröiden die man in disem tünde bevindet, 
+wan die ist verre vber alle fröide der welte; vnd in disem 
+zü schlahende mit an nemlicheit würt das werck des hei- 
+ligen geistes zü mole verderbet. Doch alle die wile der :s 
+mensche in dot sünde nüt vellet, so würt es nüt als zü 
+mole von ime veriaget, aber er stot verre von diseme. Das 
+der mensche sin selbes nüt geleret ist, so wenet der besessen 
+mensche dicke das es alles got sy das in ime würcket: so 
+ist er es alles selbes vnd ist sin eigen werck vnd sin an ge- 0 
+nomen(42 a)heit vnd güt duncklicheit; vnd wer es wol das dem 
+selben menschen grosse verborgene ding vnd offenborunge 
+vnd grosse goben gegeben wurdent, es ist noch den in grossem 
+zwifel wie es dem menschen an dem ende ergon sülle, vnd 
+mag noch den wol ewigklichen verloren werden; das möchte zs 
+ime wol geschehen von siner an nemelicheit. 
+
+Kinder, es got nüt als ir wenent; es müs gar luter sin 
+vnd der mensche müs sin selber vs gegangen sin, do der 
+heilige geist eigenliche würcken sol noch sime adel vnd noch 
+siner vnmosßen, vnd solt mit diner an nemelicheit nüt ein 30 
+hindernüsse sin ime sins werckes. Aber ob du dich in 
+disem vindest, so solt du hie mitte nüt zü hant zü dem 
+bichter löffen, sunder löff in dich selber vnd do mitte zü 
+gotte vnd gib dich ime schuldig von grunde. Zü hant leit 
+er sin götliche hant vff din höbt. vnd machet dich gesunt, so 35 
+du dich ime | vnderwürffest in aller demätikeit vnd dich ime 308 
+schuldig gist. 
+
+
+Von disen zeichen sprach ich gesteren, von den vnser 
+herre sprach, sy söllent den siechen die hende vff das höbt 
+
+
+
+
+
+
+
+
+
+
+
+ı werder 14 züslahende 7 16 es 7} er 20 selber W, L 
+25 noch den 7] denne noch 25/26 das möchte—an nemelicheit ferle 7’ 
+33 sunder fehlt V 36. vnderwrffest 
+
+
+4] JOHANN TAULERS 31 
+
+
+legen vnd sy söllent gesunt werden. Das ander zeichen, sy 
+söllent die vigende vertriben, öch die loge vnd das nohe war- 
+nemen die der vigent dem menschen ane leit, vnd wie ma- 
+nigen valschen fürwürff er ime fürbringet, do er mite be- 
+strogen würt: Allen disen stricken enginge der mensche in 
+rechter gelossenheit. Sy söllen öch die schlangen vff heben, 
+das (42b)sint die schlangehten menschen, die kument dich an mit 
+jren gruwelichen geberden vnd ruschenden worten, vnd nement 
+sich meisterschafft an die in nüt bevolen ist. St wundent 
+ıo vnd stechent dich wol in den nidersten kreften; so es in die 
+öbersten krefte nüt enkumet, so würt es güt rott: Swig ynd 
+büge dich; vnd vergifft söllent sy trincken vnd das sol in 
+nüt schaden. Sint das nüt vergifftige menschen, in den alles 
+das vergifft würt das in sy kumet? wo vt an in ist, das 
+ıs kerent sy zü dem bösten vnd ergerent alle ding. Sy sint 
+rechte der spinnen natur; vnd ob du bist in eime gar güten 
+tünde, das dich der heilige geist alzü mole solte erfüllen, vnd 
+keme denne swester rusche vber dich mit iren scharppfen 
+worten, kundest du dich dar inne gelossen in gottes willen 
+zo vnd nemest es, so wissest, es ist des heiligen geistes werck. 
+Das solte dich sere wol bereiten so du eht swigest vnd dich 
+lidest, vnd berüret es wol dinen vsseren menschen, es sol 
+dir nüt schaden. 
+Kinder, wellent ir iemer türe werden vnd zü vwem 
+
+25 besten kumen, so behaltent dise zwei puintelin. Das eine 
+das ir vch itelent vnd lidig machent aller geschaffener dinge 
+vnd vwer selbes, vnd halten vweren vsswendigen vnd inne- 
+wendigen menschen in ordenunge, also das der heilige geist 
+sins werckes von vch vngehindert blibe. 
+
+30 Das ander ist das ir vff velle, wo sy her kument, es sy 
+innewendig oder vss wendig, was das sy, das von gotte sunder 
+mitel nement vnd nüt anders, wan das dich got do mitte 
+bereiten wil zü ime selber vnd zü sinen grossen gaben, die 
+vber natürlich vnd (43a) wunderlich sint, zü den du niemer 
+
+35 kundest kumen denne mit liden vnd anevehtunge vsswendig von 
+dem vigende oder von dem ruschenden menschen. Denne süllent 
+sy mit nuwen zungen sprechen, das ist der mensche der do 
+sol die alten natürliche zunge zemmen. 
+
+Kinder, ob allen künsten so lerent die kunst das ir 
+4° vwere zungen hütent, vnd sehent für vch was ir sprechent, 
+
+
+
+
+
+
+
+
+2 loge V] lage, Z] das lugen 2/3 warnene 4 fürwrff 11 rott 
+
+
+WV]rat 18 Rusche Y 25 zwi 35 anevehtunge 7] an wurkende 
+
+
+37 do fehlt V 
+
+
+#2 PREDIGTEN [ 4 
+
+
+oder vsser vch würt niemer nüt. Sehent ob vwer wort sint 
+zü den eren gottes vnd vwers nechsten besserunge vnd vwer 
+selbes fride. Ir süllent nüt gotte on vnderloss sprechen. 
+Bernardus: ‘Also ich vermaledige vnd verwurffe gar vil 
+redendes vswendig mit gotte, der mag nüt zü vil ! sin’ Denne 
+mit nuwen zungen, das ist got gröslich loben vnd ime dancken; 
+vnd hettest du nüt got me zü danckende denne das er lidet 
+dich vnd dir vertreit vnd dich spart vnd din beitet vnd zü 
+aller diner vnordenunge also gröslich swiget, vnd er sins göt- 
+lichen werckes niergent in dir bekumen mag, noch denne 
+hetest du ime vil zü danckende. Mit nuwen zungen, das ist 
+wenne ir zü ein ander kumen, so söllent ir reden von gotte 
+vnd von tugenlichem lebende vnd nüt disputieren von der 
+gotheit in ander wise noch der vernunft; das got vch nüt an, 
+noch mit behenden worten noch subtilen worten, sunderlich 
+vsß dem grunde der tügende. Ir mögent vch also halten 
+vnd reden in vernünftiger wise, ir verdümen vch do mite vnd 
+öch die den jr es in (43 b) tragent. Vnd öch solt du dich vor 
+subtilen menschen dich hüten, das die schlangen, do wir vor ab 
+sprochen alse die in vss wendiger wise vs getriben sint, das 
+du die in geischlicher wise mit in ziehest, wan der vigent 
+loget dir on vnderloss wie er dich erschliche noch den be- 
+henden wisen dor noch er dich geneiget vinde. 
+
+Also ist öch dis werck des heiligen geistes, das schickete 
+sich gern noch dem also er die natur geschicket vindet, wan 
+got wil mit sinen goben wocheren vnd wil geist vnd natur 
+zü ime ziehen. Do er denne vindet ein güt gevölgige na- 
+ture, dar noch richtet er sin werg; wan so der slege regen 
+nider vellet vnd nüt itel wider enkumet, also wil er nüt das 
+sine goben vnfruhtberlich wider kument, sü bringent denne 
+natur vnd den geist wider in vermügen. vnd alsus so würket 
+der heilige geist ob er dich in worer armüt vindet des geistes 
+vnd alles das dise stat gefüllen mag in allen wisen, in allen 
+besiczungen, was du in dich gezogen hest oder geziehen 
+macht, vnd alle hertikeit vnd argwan vnd vrteile vnd alle die 
+ding die der heilige geist in dich nüt gewürket en het. Aber 
+hie soltu prüfen alle in velle die in dich vallent oder dir zü 
+vallent wider dinen willen, die dir doch nüt geschaden mögent. 
+
+
+
+
+
+3 nüt 9, Z] mit 4 Bn’ | verwurfft 5 hinter vswendig V] 
+also lobe ich vil redendes indewendig 13 mit disp. 15 sunder 717 ver- 
+täment V, vordampt Z 19/20 do wir—vsswendiger wise fehlt V 
+21 vingen 22 loget W] laget 22/23 er dich—dor noch fehlt U 
+28 slegeregen V, schlage regen Z, hs reden 29 mit itel, 9] niht, Z] 
+nicht 31geist 7] geist mit in 35 argwan undeutlich V] ark, Z) arkwone 
+
+
+[£} 
+an 
+
+
+35 
+
+
+5] JOHANN TAULERS 33 
+
+
+Och söllent ir nut gedencken ob ir des heiligen geistes alsus 
+warten söllent, das vch denne vwer vss wendigen güten werg 
+des heiligen geistes söllent hinderen, also werg der'gehorsam- 
+keit, singen (44a) vnd lesen vnd dienst den swesteren vnd 
+
+5 mine werg. Nein liebes kint, nüt also, das man alle ding 
+müsse begeben vnd sin warten also. 
+
+Ein mensche der got gerne minte vnd meinde, der sol 
+alle ding von minnen tün gote zü lobe vnd zü rechter orde- 
+nunge, die vff dich vallent, wie es got jme füget in minnen 
+
+ vnd in senftmütiger gätlicheit vnd in fridelicher gelossenheit, 
+dir vnd dime nehsten in friden zü blibende. Die werg 
+hinderent dich nüt, sunder din vnordenunge in den wercken 
+die hinderent dich; lege ab vnd meine got lüterlichen in 
+
+(o allen dinen wercken ! vnd anders nüt. 
+
+15 Zü dem anderen mole nim din selbes dicke war vnd 
+hüte dins gemütes vnd lo do zü kein vnordenunge kumen 
+vnd hüte diner worten vnd diner wandelungen von vssen, 
+so blibest du in friden in allen dinen wercken, vnd der hei- 
+lige geist sol zü dir kumen vnd dich erfüllen vnd in dir 
+
+2° wonen vnd wunder in dir würcken, ob du sin lere behaltest. 
+Das vns dis allen beschehe, des helff vns gott. Amen. 
+
+
+5. 
+Ascendit Ihesus in naviculam que erat Symonis 
+Luc. 5, I—3 
+
+
+Die sehr schön geschriebene, mit roten und blauen initialen ver- 
+sehene handschrift aus dem ı5. jahrhundert Ms. germ. oct. 68 der 
+Königl. Bibliothek zu Berlin stammt aus dem besitz des Schwenk- 
+feldianers Daniel Suderman (vgl. Ph. Strauch, Meister Eckhart-Probleme, 
+der s. 31, anm. 4 auf Zentralbl. f. Bibliothekswesen 21, 281 und auf 
+L. Keller, Zur Erinnerung an Daniel Sudermann in den Monatsheften 
+der Comeniusgesellschaft 5, 222 hinweist) und enthält auf blatt 7a—ı3b 
+unsere predigt. Die handschrift enthält die zweite hälfte einer zwei- 
+bändigen sammlung: ‘Dis ist das ander büchelin des Tauwelers bredigen 
+mit einre vorgonden -tofeln, in der die meynvnge vnd der syn einer 
+iegelichen bredigen kurtzlich alle vor genennet sint vnd mit der zale 
+gezeichent. Die selbe zale dar nach an alle bletter einer ieglichen bredigen 
+sunderlichen geschriben stot.” Die inhaltsangabe unserer predigt findet 
+sich unmittelbar hinter obigen worten. 
+
+
+
+
+
+5 minne V 7 minnete V ı6 la V 18 in friden V] züfrieden 
+2ı Amen 702 unterstrichen 
+
+
+Naumann, Ausgewählte Predigten Johann Taulers. 3 
+
+
+34 PREDIGTEN [ 5 
+
+
+Auf dem hinteren deckel ist von Sudermans hand folgender ein- 
+trag gemacht: “Memorial. ob schon diese predige fast alle getrückt 
+worden /so sind doch die erst geschriebene bücher, hoch in Ehren zü 
+halten / von vrsach wegen, daß jn den getrückten, vil gute püncten, vmb 
+deß vngelerten gemeinen volcks willen / gerne aüßgelassen worden, dan 
+sie hettens nit alles begreiffen oder verstehen kündten / vnd wer also 
+eines mit dem andern ettwa gantz vnd gar verworffen blieben.’ 
+
+
+Lehmann I, 179 gibt der predigt die überschrift: Fahre auf die 
+Höhe. 
+
+
+Item die bredige vsser sant Lucas ewangelien des vor-&s 
+
+
+genanten fünften svnnendages von dem schiffelin, ist eineL: 
+warnunge von künftigen plogen vnd leret vns vnser gemüte ;; 
+vferhaben von allen creaturen vnd verclerte got förmige 
+
+menschen werden. 5 
+
+(7a) Ascendit ihesus in nauicula. 
+
+In disem ewangelien von dirre wochen vnd von der zit 
+liset man vnder andern worten das vnser herre ihesus cristus 
+ging in ein klein schiffelin das was Symones, vnd bat in 
+das er das schif ein wenig vf in die höhe von dem staden :o 
+fürte.e Vnd sasz vnd lerte das volg vs dem schiffe vnd 
+sprach zü symone: “füre dis schif an die höhi vnd werffent vwer 
+netze vs zü vohende’, vnd symon sprach: ‘gebieter, wir hant 
+alle dise naht gearbeitet vnd hant nit gevangen, aber in 
+dinen worten so wurffe ich daz netze vs’ Vnd do sü das ıs 
+gedotent, do beslussent si als vil vische daz das netze 
+zerbrach. 
+
+Noch vil andern worten so fülletent si das schif also 
+vol das sü woltent versyncken. Do viel sant peter für vnsern 
+herren vnd sprach: ‘gang vus von mir wan ich bin ein zo 
+sunder’” Von disem schiffe wellent wir sagen. 
+
+Dis schif das vnser herre in die höhin hies vf füren 
+das ist anders nit wan das gemüte dez menschen ynnewendig, 
+vnd sine meinunge. Dis schif daz vert in disem sörglichen 
+wütenden mere diser engestlichen welte, die allewegent in 2s 
+eime vbende vnd wütende ist: Nv liep nv leit, nv sus nv 
+so. Wie sörglichen es vmbe (7b) die stot der hertze in diser 
+wüstenunge stot mit mynnen oder mit meinvngen, vnd do 
+an noch hanget, der das bekante, sin hertze möhte ime 
+dorren von leide. Wie es har nach gan sol, dar an ge- » 
+denckent ir nit vnd gont mit blintheit vnd mit affenheit 
+vmbe, wie ir tch gekleident vnd gezierent, vnd vergessent 
+
+
+
+
+
+‚I rote initiale 6 rot 7 rote inıtae 8 xps 9 Symonis 7 
+17 reis V_ 22 hinter füren 7] — ‘duc in altum’ — 28 wästenunge 
+Y) wätunge % 
+
+
+5] JOHANN TAULERS 35 
+
+
+vwer selbes vnd des engestlichen vrteiles des ir sin werdent 
+vnd wartende sint, jr enwissent hüte oder morne. Wustent 
+ir in welen engesten vnd sorgen es wurt stonde mit der 
+welte vnd mit allen den die got mit irem grunde nit luter- 
+slichen ane hangent! Alle die zäm minsten nit an ime hangent, 
+die es in der wohrheit sint, den wurt es vbel ergonde, also 
+es kurtzlichen den woren fründen gottes geoffenboret ist; 
+vnd der das wuste, sine naturlichen synne möhtent das 
+niemer erliden, und wie der gloube wurt vnder gonde; die 
+0 das gelebent, die mügent es gedencken das es in geseit ist! 
+Nu denne mit vnser materien: füre daz schif in die höhen’. 
+Dis ist der erste weg, der von not sin müs vor allen 
+dingen, das dis gemüte sol vnd müs vf gefürt sin in die 
+höhe, das si mynne (8a) oder meinunge vnd gunst von allem 
+s dem das got nit ist. Wer in disem gruwelichem mer nit 
+wil verderben oder ertrincken, des gemüte müs von not vf 
+erhaben sin von allen creaturen, stı sint oder heissent wie 
+man welle. 
+Nu sprach sant peter: ‘herre gebieter, wir hant alle dise 
+o naht gearbeitet vnd enhant nit gefangen.’ In der worheit, 
+das was wol gesprochen. 
+Alle die mit disen vssewendigen dingen vmbe gont, die 
+erbeitent wol in der naht vnd envohent nützint. 
+Do sprach vnser herre: ‘nv werffent aber vs das garn, 
+s vnd ir süllent vohen.” Vnd si vingent also vil vische das 
+dis netze zerreis. Dis was vor vnsers herren vrstende. Aber 
+do noch do süı aber vischetent, do zerbrach das netze nit, 
+sprach das ewangelien. 
+Kynder, was ist dis netze daz vnser herre hies werffen ? 
+o Das ist der gedang vnd die gehügnisse des menschen das 
+sol der mensche zü dem ersten vs werffen in heiliger be- 
+trachtungen vnd sol mit gantzem flisse für sich nemen alle 
+materien, die in zü heiliger andaht reissen oder neigen (8b) 
+mügent, das hoch würdige leben vnd liden vnd die heiligen 
+s mynnenclichen wandelungen vnd werg vnsers herren, vnd 
+sol sich dar in also tieffe verbilden das ime die mynne vnd 
+die liebe durch gange alle sine krefte vnd sine synne mit 
+
+
+
+
+
+1/2 sin werdent vnd fehlt V 3 erhs.;V]J es 5anime 7] an in 
+10 in VJ üch ır: ‘duc in altum, füre V_ 15 hinter das got nit ist 
+VW] und creatur ist | Wer 7] So wer 23 nützint V] nütznüt 29 us 
+werfen, do si als vil mit viengen? Dis netz das man us sol werfen, 
+das ist der gedank: dis gehügnisse 7 36 verbilden 7] erbilden 
+
+
+3 
+
+
+36 PREDIGTEN [5 
+
+
+also grosser fröude vnd mynne, das er die fröude nit ver- 
+bergen müge, st breche vs mit eime jubilieren. 
+Nu füre vf das schif in die höhe’, wan das was noch 
+der nyderste grat. Dis müs vf höher gefürt werden. Sol der 
+mensche werden vssewendig vnd ynnewendig ein gelossen 
+mensche vnd gelütert, vnd ynnewendig ein verclerter mensche, 
+den sant Dyonisius nennet ein verclert gotförmig mensche, 
+so müs sin schif verre me in der höhe gefüret werden, das 
+ist, der mensche kummet dar zü, das ime alles daz enpfellet 
+das die nydersten krefte begriffent: Alle die heiligen gedencke 
+vnd die mynnenclichen bilde vnd die fröude vnd jubele vnd 
+was ime von gotte ie gesckenchet wart, das duncket in nu 
+alles ein grop ding vnd wurt dannan vs zü mole getriben, 
+also das ime das nit smacket noch enmag do bi nit bliben, 
+
+
+in 
+
+
+vnd dis enmag er nit, vnd des in lust, des enhat er nit, :: 
+
+
+vnd also ist (9a) er zwischent zwein wenden vnd ist in grossem 
+we vnd getrenge. 
+
+Dis schiffelin ist in der höhe gefürt, vnd dar zü das 
+der mensche in diser not stot vnd verlossenheite, so stot in 
+ime vf alles getrenge vnd alle! bekorunge vnd alle die bilde 2 
+vnd alle die vnselikeit die der mensche lange vber wunden 
+hat, die stritent nu wider in, mit aller kraft kvmment sü 
+vnd stossent ime vf das schif in grosseme sturmwetter. So 
+slahent die wellen vf das schif. 
+
+Liebes kint, enförhte dich nit! se ehte din schif vaste 
+gemeret ist vnd geenckert si, so mügent ime die vigende 
+oder die wellen nit geschaden, so wurt dis vbel güt. Job 
+der sprach: ‘noch der vinsternisse hoffe ich liehtes’. Blibe 
+alleine bi dir selber vnd louffe nit vs vnd lide dich vs vnd 
+nit süche ein anders. So louffent etteliche menschen also 3 
+sü in disem armüte stont, vnd so süchent sü iemer vt anders, 
+daz slı des getrenges do mitte engont; das ist gar schede- 
+lichen. Oder süı gont clagen oder lerer frogen vnd werdent 
+me verirret. Blibe bi disen allen one zwifel, noch der 
+vinsternisse kvmmet der liehte dag, der schin der svnnen; 
+hüte dich als dines libes das du vf nit anders enslahest, 
+wan warte. (9b) In der worheit, blibest du do bi, die ge- 
+burt ist nahe vnd sol in dir geborn werden. Vnd wissest 
+vf mich das niemer kein getrenge in dem menschen vf ge- 
+
+
+[77] 
+
+
+
+
+
+3 ‘duc in altum, füre7” 16 wenden 7] enden ı9 vnd 7] von 
+24 wellen 7] unden 26/27 die vigende oder fehlt V 28 der sprach 
+Fehlt V, das vor dem zitat anführt] post tenebras spero lucem 31 in- 
+wendigen armüte 7 
+
+
+u\} 
+
+
+5] JOHANN TAULERS 37 
+
+
+stot, Got welle noch denne ein nuwe geburt in ime ernuwen. 
+Vnd wissest, welle sache dir das getrenge oder trug benymet 
+vnd gestillet oder entlöset, das sich das gebirt in dich vnd 
+dez ist die geburt, das si was das si, got oder creature. 
+
+5 Nu prüfe, benymet dir das eine creature, sl heisse wie 
+su heisse, die verberbet dir gottes geburt al zü mole. Vnd 
+prüfe welen schaden du dir do mitte düst. Were din schif, 
+din gemüte, herte geenckert an den herten stein von dem 
+der edele paulus sprach, so enmöhte dich weder dot noch 
+
+to lebende noch pryncipatus noch potestates dannan abe ge- 
+wencken. Hettent alle tüfele vnd alle menschen gesworn : 
+Je widerer si dir werent, ie me furbasser stı dich in trengetent 
+in din schiffelin vnd ie höher es vf ginge in die höhin. 
+
+Kynder, in disem neme der mensche me zü vnd ginge 
+
+ıs me vf denne in allen den vssewendigen vbungen die alle 
+die welt mittenander tün mag, das er sich hie ynne lidet 
+vnd losset oder die qwetschun(roa)ge in weler künne sü in 
+
+‚, smyrtzet oder trucket, vnd süche ! kein behelffen sus noch 
+so; es kumme ouch wenne es kumme, von vssen vnd von 
+
+zo ynnan: losse es vs sweren vnd ensüche keinen trost, so 
+löset dich got sicherlich, vnd des selben stant lidig vnd lo 
+es ime gantz, 
+
+Kynder, dis ist der aller kürtzeste weg vnd der nehste 
+der göttelichen woren geburt, die lühtet in dis one alles 
+
+2; mittele; vnd es kummet dicke eime vsserlichen menschen 
+ein vsserliches liden zü, das ime lihte wurt gesprochen oder 
+ettewaz geton, das in duncket das ime vnrecht geschehe, 
+so wurt ime denne so enge rehte als ime die welt zü enge 
+si. Kinder, der mensche der das selbe in ime möhte ver- 
+
+3o trucken vnd liesse das in ime vs sweren den wunden gottes 
+zü liebe vnd claget noch andet es nit: jme soltent die wunden 
+einen wunnenclichen friden bringen. Was sol danne eime ynne- 
+wendigen menschen friden bringen vnd fröude machen? 
+Das das sich al zü male gotte lat. Dem menschen enwaurt 
+
+3; nit minre danne got selber. 
+
+Kynder, wellent ir üch selber werlichen bekennen wie 
+ir sint an gantzen woren zeichen, so besehent was das sie 
+
+
+
+
+
+ı nach dem 7 2 welle 7] so wel ı3 es fehlt V 16/17 lide 
+und losse Y ı8in süchte V_ 24 zü der götlichen V 27 ettewaz fehlt 7’ 
+z1f. siehe Vetter, lesarten zu 173, 1of. ııf. | das das sich Z 1498] das es 
+sich 32f. V 173, ırf.] Was sol denne eime inwendigen menschen friden 
+und fröiden antwürten der sich alzemole lies Gotte? Dem menschen 
+dem antwürt.. 
+
+
+38 PREDIGTEN 15 
+
+
+das üch aller meist (I0ob) bewegen mag zü liebe oder zü 
+leide oder zü fröuden oder zü iomer; es si was das si, got 
+oder die creature. Aber bistu besessen mit gotte, so mügent 
+dir dine schiffelin, din gemüte, alle creaturen nit getriben 
+noch entsetzen. Dem menschen git der aller gütest got ein 
+sollich kleinnöter, das ist solliche fröude, das der mensche 
+in swerer ynnewendikeit smacket alsollichen woren göttelichen 
+friden vnd vesten friden, von dem das nieman verston mag 
+wan der es hat. Es kummet wol sturmwetter vf sin schiffelin 
+etwie dicke von vssen vnd slahent also sü in ietzen besöuffen 
+wellent: Das mag so vngestümeclichen in nit an slahen, er 
+sülle vor in güten friden bliben. Aber sin schiffelin wurt 
+wol von vssen gewencket vnd beweget, aber doch blibet sin 
+jnnewendig güt wore fride 
+
+Ir erbern lüte, nit erschreckent, obe ir dis nit ensmackent; 
+man vindet also wol arme vischere also riche. Mer doch 
+süllent ir ein ding wissen, das kein mensche enist von also 
+kleiner vbunge, mynnet er es vnd meinet es von grvnde vnd 
+begert ein grosser hoch mynner gottes zü sinde vnd blibet 
+do bi! vnd minnet es in allen den die do sint, vnd obe er 
+sich denne einvalteclichen haltet one (Ira) mittelliche hvnder- 
+nisse vnd got meinet in allem sime tünde: Sint des sicher, 
+es wurt irne, vnd were es ioch an der zit sins todes. 
+
+Nu diser fride den die woren gottes fründe habent, die 
+hant ouch einer künne vnfriden, das ist ein vs denen dis 
+netzes, das er got nit so vil kan gesin also er gerne were, 
+vnd das ime ouch got nit also vil enist das in vollekomen- 
+lichen genüge. 
+
+Also liset man von eime, der ging in dem walde viertzig 
+ior vf henden vnd vf füssen, vnd stot von ime das er nie 
+götteliches trostes befünde: Do ist enkein zwifel, er hette me 
+götteliches trostes denne tussent ander. Aber in genügete 
+nit, er hette me denne in der aller höhester wisen do man es 
+mı’ge haben, vnd in der höhesten wisen do ist der wesen- 
+licheste fride von dem geschriben stot: ‘süch den friden vnd 
+er volget dir.’ Diser fride der volget dem wesenlichen kere, 
+der fride der alle synne vber triffett. Wenne sich das vn- 
+genante, das namme lose das in der selen ist, zü got zü 
+mole gekert, so volget vnd kert sich do mit alles das nammen 
+hat in dem menschen, vnd dem ker antwurtet alle zit das 
+
+
+
+
+
+9 sturmwetter 7] die unden in sturm wetter ı2 Aber Y] Oder 
+
+
+14 jnnewig 29 der ferlt 7 35/36 quere pacem et persequere eam, si 
+süchent den friden, und der volget in 7 
+
+
+" 
+
+
+o 
+
+
+an 
+
+
+2] 
+° 
+
+
+2 
+
+
+3 
+
+
+3 
+
+
+4 
+
+
+© 
+
+
+© 
+
+
+5 
+
+
+° 
+
+
+5] JOHANN TAULERS 
+
+
+39 
+
+
+nammelos ist in got, das vngenante, vnd alles das in got 
+nammen hat, das entwurtet al(ıı b)les dem kere. 
+
+In disem so sprichet got sinen woren friden, vnd denne 
+so mag der mensche wol sprechen: ‘Ich wil hören was der 
+herre in mich spreche’, wan er sprichet: “n sin volg fride 
+vnd in die, die zü irem hertzen sint gekert.’ 
+
+Dise sint die menschen die sant Dyonisius meinet got- 
+förmige menschen. Dise lüte möhte sant paulus nemen, do 
+er sprach: ‘Ir süllent sin gefundiert in der mynne, das ir 
+mügent begriffen mit allen heiligen weles si die höhe, die 
+tieffe, die breite vnd die lenge gottes.’ 
+
+Kynder, die höhe vnd die tieffe die sich endecket in 
+disem menschen, das kan kein vernunft oder sin begriffen; 
+es get vber alle synne in ein abgründe. Dis güt das wurt 
+den lüten alleine endecket die do sint vssewendige gelüterte 
+menschen vnd ynnewendig sint verclerte menschen vnd in 
+wonende menschen. 
+
+Disen lüten den ist himel vnd erde vnd alle creaturen 
+also ein luter niht, wan süı sint selber ein himel gottes, wan 
+got der hat raste in in; |! vnser herre der saß in dem schiffe 
+vnd lerte das volg; got rastet vnd berihtet alle die welt vnd 
+alle creaturen in disen lüten. Kynder, kunt der mensche in 
+disen grunt (12a) vnd in dis wesen, sint sicher, so müs dis 
+netz von not rissen. Nit wenent das ich mich dis vt an neme 
+das ich iht har zü komen si, wan enkein lerer nit sülle leren 
+das er selber von lebende nit enhabe. Doch ist es zü nöten 
+gnüg, das er es mynne vnd meine vnd nit do wider entü. 
+Doch wissent das es nit anders sin mag. 
+
+Do der fysche also vil gevangen wart, do reiß das netze. 
+Also wenne der mensche zü disem vohende komet, das er 
+dis ervolget, so müs die nature, die har zü zü krang ist, von 
+not rissen, also das der mensche niemer gesvnden dag ge- 
+winne. Vnd das lit gar wol, also sant hiltegart schribet: 
+‘Gottes wonunge ist nit in eime starcken gesvnden libe zü 
+synde’, also sant paulus sprichet: ‘Die tugent wurt vollebroht 
+in der krangheit.” Aber dise krangheit kvmmet nit von vsse- 
+wendiger Vbunge, sunder von der vber flüssikeit des vber 
+
+. . [4 
+gusses der gotheit, der disen menschen also vber gossen het, 
+daz das der arme yrdensche lichame nit erliden mag. Wan 
+got hat disen menschen also gar in sich gezogen, daz er 
+
+
+
+
+
+
+
+
+4/5 audiam quid loquatur YV 5 mich 7] mir 8 möhtent gf. Zph. 3,18 
+15 gelüteterte 22 kunt V] kumet 33 lit Z 1498] laut 
+
+
+40 PREDIGTEN [5 
+
+
+wurt also gotuar. Alles das in ime ist, das wurt von einer 
+vber wesenlicher wise durch gossen vnd (12 b) vberformet, 
+das got dis menschen werg würcket. Vnd dis heisset wol 
+ein gotförmig mensche, wan wer den menschen reht sehe, der 
+sehe in also got, nit denne von gnoden, wan got lebet vnd 5 
+weset vnd würcket in ime alle sine werck vnd gebruchet 
+sin selbes in ime; got hat ir ere. Stu hant wol ir schif in 
+die höhe gefürt vnd sü hant ir netz wol vs geworffen, wan 
+st hant vil gefangen. 
+
+Also dis schif alsus kummet in die höhe vnd tieffe, so ıo 
+versincket das schif mit dem netze vnd zerbrichet allessament. 
+Das ist wol reht das sin eigenheit zerbrochen vnd zerrissen 
+werde, wan sol ein iegelich ding werden des es nit enist, so 
+müs es des entwerden, das es do ist. 
+
+Hie gat in ettelicher wisen vnder lip vnd sele in disem :; 
+tieffen mere, vnd verlierent ire naturlichen werg vnd Vbunge 
+noch iren eigenen kreften in naturlicher wise vnd hant in 
+dem versinckenden grundelosen mere weder wort noch wise. 
+Denne düt er reht also sant peter det: alhie viel er al zü 
+mole do nyder für vnsern herren vnd sprach ein vnsynnig zo 
+wort: ‘Herre, gang vs von mir, wan ich bin ein sünder.’ 
+Dem men(I3a)schen sint enpfallen wort vnd wise. Das ist 
+eine sache, das der mensche in diseme also vellet in sin 
+grundelos niht. Vnd wurt zü mole kleine ! wider in got, des 176 
+ouch alles ist, als er es nye gewinne, vnd wurt mit allem >; 
+dem nit also blos also das nit enist vnd nie nit gewan, vnd 
+also do versincket daz geschaffen nit in das vngeschaffen 
+nit: das ist nit waz man verston oder geworten mag. 
+
+Hie wurt das wort wor, das in dem salter stot vnd der 
+prophete sprichet: ‘das abgründe das in geleitet das ab- » 
+gründe”. Das abgründe das geschaffen ist, das in leitet in 
+sich das vngeschaffen abgründe, vnd werdent die zwei ab- 
+gründe ein einig ein, ein luter götteliches wesen, vnd do het 
+sich der geist verlorn in gottes geist. In dem grvndelosen 
+mer ist er ertruncken. Kynder, hie stot es also verre baß 
+denne ieman verston oder begriffen müge. Her noch so 
+wurt der mensche also wesenlich vnd gemeine vnd tugent- 
+
+
+[#77 
+in 
+
+
+
+
+
+
+
+
+17/18 in dem versinckenden grundelosen 7] in dem versinkende in 
+disem grundelosem mere 24 hinter kleine ber Vetter (175, 35—176, 2)] 
+und also gar nüt (176) das er allem dem enpfelt das er von Gotte 
+ie oder ie enpfieng, und wirft das al ze mole luterlichen wider in got | 
+des V] des es 27/28 das nit 7]dasnüt 30 abyssus abyssum invocat 7 
+37 alles hs; 7] also 
+
+
+6] JOHANN TAULERS "29 
+
+
+lichen vnd gütlichen, von mynnesamer wandelungen mit allen 
+menschen gemeine vnd gesellig, doch das man keinen ge- 
+bresten von ime kan gesehen noch vinden. Dise menschen 
+sint allen menschen glöubig vnd erbarmhertzig (13b). Sü 
+
+ssint nit strenge noch hertmätig, denne vil gnedig; vnd das 
+ist nit zü gloubende, das dise lüte iemer mügent von gotte 
+gescheiden werden. Das vns dis allen geschehe, das helffe 
+vns got. Amen. 
+
+
+6. 
+Ain predig von drye mirren 
+Matth. 2, 1ff. 
+
+Abgedruckt nach der handschrift der Königl. Bibliothek zu Berlin 
+Ms. germ. quart. 1131 (acc. 1890. 277) mit der Provenienz Karthause 
+zu Buxheim. Die sammelhandschrift aus dem 15. jahrhundert mit der 
+bezeichnung Theologica enthält auf blatt 145b unsere predigt, daneben, 
+noch auf blatt 147a ‘ain predig von dem prütgote Cristo vnd uon ge- 
+sponsen menschlicher natur’. Hinter ihnen steht der zusatz: ‘dis vor- 
+geschriben predig haut geton brüder johanes tauweler. jm jar uon cristi 
+geburt mccexlvj.’ 
+
+Bei Vetter, wo sie die überschrift: ‘In epyphania. An dem zwolften 
+tage’ führt, wird der inhalt bezeichnet V 3, s. 16, 21: ‘Die bredie 
+usser sancte Matheus ewangelio des zwölften tages in den winahten, 
+von drien mirren, seit wie Got usser grosser truwen fürsehen und ge- 
+ordent het alle liden zü ewigeme nutze eines ieglichen menschen, in 
+weler wise es ime begegnet kleine oder gros.’ Lehmann I, ıı nennt 
+sie: Vom Nutzen des Leidens. 
+
+
+r Ain predig von drye mirren. 
+
+8. Die künge opfferten mirre, wyroch vnd gold. Nun niem 
+)zu dem ersten mirre, die ist bitter vnd maynet die bitter- 
+kait, der der mensch bedarff, da mit er got finde, wenn so 
+
+s der mensch zu dem ersten sich kert uon der weldt zü got, 
+ee er denn alle die lüste vnd genügde uss getrybe. wann das 
+
+' uon ! nott dar zu gehört, das alles das uss müss, das der 
+mensch mit lust besessen haut. das ist zum ersten gar bitter 
+vnd schwär zuthünd, wann alle ding müssend dir als bitter 
+
+o werden als dir der lust was, das müss ye sin. Da gehört 
+ain grosser sin vnd behender flys zü, vnd dar nauch der lust 
+gros was, dar nauch wirt auch die mirre bitter vn ain bittre 
+
+
+
+
+
+6. 4 der der mensch bedarff 7] die darzü gehöret | das der 
+mensche Got vinde 7 | wenn so Y]Jalso 7 müs von not sin Y” 9 zuthünd, 
+wann fehlt V | Alle die ding 7 11 Darnoch 
+
+
+42 PREDIGTEN [6 
+
+
+bitterkait. Nun möcht man sprechen: wie mag der mensch 
+on gnügde sin, die wyl er jn diser zit ist? mich hungert, jch 
+ysse; mich dürstet, jch trink; mich schlauffert, ich schlauff; 
+mich frürt, jch werme mich. Entreuwen, dis kan nit ge- 
+schechen one lust noch on gnügde der natur, das es mir 
+bitter gesin mög, das enkan ich nymmer gemachen also ferre 
+nature natur ist. Aber dise gnügde sol nit jngon noch kain 
+stat jn der jnnekait haben. Sy sol sin jn aim jnfliessen mit 
+den werken vnd kain beliben mit nütt da haben. Sy en sol 
+nit luste dar setzen sunder hinfliessen vnd nit jn aigner be- 
+sitzung, das man ytt dar uff raste mit gnügde oder mit lust, 
+aber laus hinfliessen alle die gnügde, die du jn dir findest 
+zu der welt vnd zu den creaturen. da müst du natur mit 
+natur tötten vnd jberwinden, ja die gnügde, die du findest 
+mit den gottes fründen vnd güten menschen, das vnd alles 
+das da du dich zu naiget findest. das müst du alles zu maul 
+jberkommen, alle die wyle das herades vnd alles sin gesinde, 
+die des kindes sel süchten, jn dir zu maul gewärlich vnd 
+sicherlich nit tod en sind. dar vmb nit betrüg dich selber, 
+besich vil eben wie es mit dir stand vnd nit ensyest zu frye. 
+
+Noch jst ain andro myır die, die verr jbertrifft die ersten. 
+Das ist die mirre, die got gyt, welcherlay liden das sy, in- 
+wendig oder usswendig. Owe, der die myrre jn der mynne 
+vnd uss dem grund näme, das sy gott uss gybt, wie wurd 
+denn so ain wunneklich wyse geborn jn dem menschen, vnd 
+was grosse fryd vnd fröd, wie gar ain edel ding das wer! 
+ja das mynst vnd das maist liden, das got ymmer laut uff 
+dich fallen, das gaut uss deme grunde siner vnuspsrechen- 
+licher mynne vnd uss als grosser mynne als die höchst vnd 
+best gaub, die er (146a) dir ye gegab oder gegeben möcht, 
+kündest du sy recht uff nieman vnd wär dir och als nütz; 
+ja das aller mynst haur das uon dinem hopt ye gefiel des 
+[du] nit enachtest, als vnser herr sprach: ‘Ain haur sol nit 
+vngezelt bliben’ Ja es mag nymmer so klain liden uff dich 
+geuallen, got hab es öwenklich angesechen vnd es gemynnet 
+vnd gemainet. Gefelt ioch uff dich so vil, das dir din finger 
+swer oder din hopt we tw, dich frür an die füss, dich hunger 
+
+
+
+
+
+12 laus 7] losse 16 geneiget V 20 fri V_ 21 jbertrifft 7] 
+überget 22 git V_ 28 gaut V] get hie 29 uss fehlt V 30 gab F 
+31 recht 7] echt | vnd Y] sü 32 ja V] ja alles daz liden, daz aller 
+minste har 33 sprach unser herre 7_ 36 Gefelt ioch uff dich 7] und 
+also gevellet daz uf dich 36/37 so vil, das dir din finger sver— we 
+tw 7] Also vil din vinger, als dir tü din houbt we 
+
+
+we 
+
+
+rt 
+
+
+3 
+
+
+20 
+
+
+2 
+
+
+3 
+
+
+5 
+
+
+° 
+
+
+6) JOHANN TAULERS 43 
+
+
+oder dürste, man betrüb dich mit worten oder mit werken, 
+oder was dir ymmer geschechen oder wyderfarn mag, das 
+du vngern haust, das beraitt ! dich alles vnd dienet dir alles 
+zu deme edlen wunneklichen wesen. Es ist alles uon got 
+also geordnet, das dir das also werden sol. Es ist gemessen, 
+gewegen vnd gezelt vnd mag nit mynder noch anders gesin. 
+Das mir min oug staut in minem hopt, das ist öwenklich 
+uon got deme himelschlichen uatter also angesechen. Nun 
+das far oder fall uss vnd werd blind, das haut der himelsch 
+uatter Öwenklich angesechen, das es also kommen solt vnd 
+öwigen raut dar vmb öwenklich gehaben vnd haut es öwenklich 
+jan yme uerlorn. Ensol ich denn nit min ynnerlichen ogen 
+uff thün oder oren vnd danken des minem got, das sin öwiger 
+raut an mir uolbracht ist? solt mir das layd sin? Es solt 
+mir wunderlich danknäme sin. Dis ist on uerlust der fründe 
+oder des gütes oder der eren oder des trostes oder was daz 
+sy, das dir got gyt, dis beraitt dich alles vnd dienet dir zu 
+waurem fried, kanst du es allaine genemen. So sprechent 
+sy: ‘herre, es gaut mir also jbel vnd ich Iyd swaurlich’, so 
+sprich ich jm sy vil recht also. So sprechend sy: ‘Nayn, 
+herr, ich hon es uerschult, ich hon ain bös bild in mich ge- 
+zogen. Enrüch dich, liebes kind! Es sy uerdient oder on- 
+uerdient, so acht das daz liden uon got sy, so danck got, 
+Iyde dich vnd laus dich. Alle dirre mirre die got git, die 
+sind jn rechter ordnung, das es den menschen zu grossen 
+dingen will ziechen durch lidens willen; so haut er alle ding 
+geseit in widerwertikait wider den menschen; also wol vnd 
+als lichteklich hett god das brot laussen wachsen als das korn, 
+denn das der mensch müs jn allen dingen gewbt werden, 
+vnd ain yettlichs hett er jn der öwigen ordnung also ge- 
+ordnet vnd fürsechen, das der mauler nymmer so fürsicht jn 
+sinem synne wie er ainen yettlichen strich an strich an dem 
+bilde, wie kurz vnd wie lang vnd wie brait das müs sin vnd 
+nit anders, sol das bild ain maisterlich form gewynnen vnd 
+
+
+35 die röte vnd die blauwe farbe gelege: got sy tusent maul me 
+
+
+geflyssen wie er den menschen mit mengem striche des 
+lidens vnd mengerlay farben (146b) zu der forme bringe, 
+
+
+
+
+
+2 geschechen oder wijderfarn 7] gewerden 3 vngern V] nöte 
+9 far oder fall 7] var mir | blind 7] blint oder töp II einen 
+ewigen rat V 23 so acht das daz liden 7] und eht daz liden | so 7] 
+und 27 geseit V] gesat 32 an strich 7] gestriche 33/34 daz nüt 
+anders enmag sin 7 36 beflissen Y | mengem 7] manigem 37 mengerlay 
+V}] maniger 
+
+
+44 PREDIGTEN [6 
+
+
+das er yme geuällig werde uff das höchst, der diser gaube 
+vnd mirre recht tett. Aber ettlich lüt benügt nit an der 
+mirren die jn got gyt, sy wellent ir ouch mer uff sich laden 
+vnd machent jn selber böse höpter vnd krank fantasyen vnd 
+hond vil vnd lang gelitten vnt tünd den dingen nit recht, 
+vnd wirt wenig gnaden dar uss vnd belibent recht styll stond, 
+wann sy buwent uff ir aygen uffsäcz, es sy jn penitencien 
+oder abstinencien oder es sy gebet oder betrachtung, ymmer ! 
+müs got ir maussen naysswan bayten, bis das sy das ir ge- 
+
+
+tünd, da enwirt nit uss. Got haut sich des beraten, das er “ 
+
+
+nüt lonet noch lonen wil denn sinen aignen werken, jn deme 
+himelrich enkrönet er nütz wanne sine werk, nitt die dinen; 
+was er nit jn dir würkt, da halt er nüt von. 
+
+Nun ist och gar ain bitter myrre die got gyt, das ist 
+jnwendig gedreng vnd jnwendig finsternus; der des wol war 
+niemet vnd sich dar jn laut, das uerzert flaisch vnd plüt vnd 
+die natur vnd uerwandelt die farbe vil me das jnwendig werk 
+wann gross wbung von ussnan, wann got kommet mit grü- 
+lichen bekorungen vnd jn wunderlichen sunderlichen wysen, 
+die nieman bekennet denn der jr befindet. Es hond ettlich 
+lyt als wunderlich Iyden vnd als sunderlich myrren, das komme 
+yeman sich dar uss gerichten kan.. Aber got waist wol war 
+er mit jn wil. Ouch das man dis nit war niemet, das ist als 
+gar wunderlich schedlich, das den schaden nieman volklagen 
+mag, wann uss söllicher mynne als got die mynne git; vnd 
+laut man das hin gon jn ainer schlauffheit vnd jn vnacht- 
+samkeit, so en wirt nlt dar uss vnd uerderbet on alle frucht, 
+so komment öch ettlich vnd sprechent: ‘herr, ich bin so dürre 
+vnd so finster uon ynnan. Vil liebes kind, deme wart uss, 
+so bist du vil bas dar ane, dann ob du jn grossen befunden 
+werest. Dise mirre wirt angetastet jn zwayerlai wys, mit denen 
+synnen vnd mit der uernunft. Die usser mirre wirt ange- 
+tastet mit dem synne, also das ettlich lütt wellent als wys sin 
+vnd wenent es mit ir wysshait bewaren vnd gebent dis uss- 
+wendig gefelle dem glück vnd vngelück, vnd maynent als sy 
+sölten die liden bas fürkommen vnd bewaret hon. Hettin 
+
+
+
+
+
+2 Sunder 7 6 verblibent 7 | stijll stond fehl? 7 8 betrachtung 
+7] andaht 9 maussen 7] müsse | naijsswan /eAlt V | baijten 7] 
+
+
+beiten 14 das ist fehlt 7 20 solicke 7’ 21 .vndı A] 
+under in, | kume 7 22 dar uss 7) darabe 25 wann—git 7] 
+in welicher minnen die mirre Got git 26 laut 7] lot 27 vnd uer- 
+
+
+derbet on alle frucht fert 7 33 solicke V_ 36 fürkommen vnd 
+fehlt V 
+
+
+19 
+
+
+17 
+
+
+(6) 
+
+
+[977 
+o° 
+
+
+ws 
+“a 
+
+
+6] JOHANN TAUELRS as 
+
+
+sy als sus oder also dar zu getan, so wer es jn wol kommen 
+daz jn söllichu liden nit weren zu liden gegangen. Sy wellent 
+got zu wyse sin vnd wellent ja leren vnd maystren vnd 
+kündent die ding nit uon jm geniemen; vnd disselben hond 
+5ouch gar gros liden vnd wirt jn jr mirre ser bitter. Die 
+andern tastent die jn wendig (147a) mirre an mit ir nattür- 
+lichen behendikait vnd brechent sich uss disem gedrenge mit 
+uernüfftigen bilden, vnd ainfeltige lütt werdent dick schnellek- 
+licher gezogen vnd e jber natürlich berärt wenn die mit der 
+ıo vernünftigen grossen synnerichen subtylen dingen, wann die 
+ainfeltigen volgent got ainfelteklich, wann sy anders nit en-- 
+wissend. Aber doch volgeten die vernünftigen och vnd 
+liessen sich, sy kämen vil adenlicher vnd wunneklicher jn, 
+wann jr uernunft diente jn zu allen dingen mynneklich. Es 
+ıswar ouch kain plütes tropffe so klain, er diente den selben 
+ouch sunderlich, die sy acht also jn disen liessen. Hie uon 
+wachset ain edel röchlin vnd ain zwylin des edlen wyrochs ! 
+20 körnlis. Der wyroch haut gütten roch; also wenn das für 
+das körnlin begrift, so spürt es nauch vnd sücht den roch 
+2°jn dem korne vnd löset den gefangen der in dem kernli 
+lag, das ist, der roch gaut denn vngefangen ledeklichen uff, 
+daz ain güt roch dar uss wirt. Dis für en ist anders nit 
+wann brynnende mynne zu got, die in deme gebete Iyt; daz 
+ist der wyroch, der da uss laut den rechten roch der hailgen 
+2s andaucht, wann es staut also geschriben, das daz gebet nit 
+anders ist wann ein uffgang des gemütz in got. Recht als 
+das stro ist nit nütze denn vmb des korns willen vnd nit 
+mer, man well denn ouch ain bette dar uss machen dar uff 
+man rüwet oder ainen myst. Also ist ouch usswendig ge- 
+3o bet nit me nütze denn als verre als es zu diser edlen an- 
+daucht den menschen raysset, vnd dannen ussbrichet der 
+edle rouch; wenn och der heruss kommet, so laus das gebet 
+des mundes künlich farn. Hie schlusse ich die uss, die uon 
+den gebotten der hailgen kirchen zu gebet uerbunden sind. 
+3; Das wir nun also dise dryerlai mirren des lidens jnwendig 
+
+
+
+
+
+ı Wer es alsus und also geton YV_ 2 daz jn— gegangen V] und 
+das liden wer wol yewart 7 daz enist mit V  8/g werdent dick ge- 
+zogen V] engont dicke zü 9 vnd e jber natürlich berürt ferlt V 
+ı2 doch 7] entruwen 13 sich ime alleine 7 | adenlicher Y] edeler 
+ı4/ı5 Es war ouch V] Öch die ehte sich liessent dieseme, so emver 
+15 er Yes ı6 die sy acht also jn disen liessen ferlt V 25 ge- 
+schribn 26 Rocht 27 nit nütze denn fehlt V 35 der schluss 
+von Das wir nun ab fehlt V, ebenso Amen 
+
+
+46 PREDIGTEN [7 
+
+
+vnd usswendig dankberlich uon got entpfauchen vnd frucht- 
+barlich uss liden also, das er dar uon gelobt werd, wir 
+öwenklich begnadet, des helff vns der newgeborn küng vnser 
+lieber herr Jesus Cristus. Amen. 
+
+
+Me 
+In illo tempore erat homo ex phariseis 
+Ioh. 3, Iı 
+
+
+Diese predigt stammt aus einer noch nicht katalogisierten hand- 
+schrift der Königl. Bibliothek zu Berlin, die früher der jetzt aufgehobenen 
+Königl. Bibliothek zu Erfurt gehörte als Libr. manu script. 52 aus dem 
+besitze des Erfurter Karthäuserklosters, auf die der zusatz hinweist: 
+‘Diß buche ist der Karthuser vor Erffurdt’. Sie stammt aus der zweiten 
+hälfte des 15. jahrhunderts (ein eintrag von späterer hand anno quinqua- 
+gesimo quarto) und bringt auf 263 blättern die predigten Taulers. Blatt 
+92b beginnt unsere predigt. 
+
+Zusätze geringfügiger art und blosse erweiterungen, worin der 
+text von Vetter abweicht, sind, wie auch bei der letzten predigt, nicht 
+mit in die lesarten aufgenommen worden. Die in der handschrift rot 
+unterstrichenen stellen sind gesperrt gedruckt. ü, ü, ö, ö verschwimmen 
+in der handschrift in übergangsformen. 
+
+Bei Vetter 28, s. 114, 14: ‘Die erste uslegunge von der trivaltikeit 
+seit das ein iegelich mensche müs haben zwene gezügen, glich und un- 
+glich, sol er zü dem edelen ende kummen, und dozü gehörent vil töde, 
+das men neme in leide liep und in sure süsse.” Lehmann I, 120: Gleich 
+und Ungleich. 
+
+
+Erat homo ex phariseisNycodemus nomine Ye 
+
+
+Lieben kinder, ditz ist der mynniklich tag das mandL :« 
+begeet das heilig hoch wunicklich hochtzeit der heiling dry-”"* 
+feltikeit; wann wisset, alle hochzeit die pis her ditzs jars ge- 
+wesen sein vnd alle nach jr grösse gen disem hohen heiligen ; 
+hochtzeit tzu schetzen als die plumen gen der edlen fruht 
+des paumß zu schetzen sein, wann diß heilig hochtzeit ist 
+der lon vnd ein uolkommen ent aller erbeit vnd darumb 
+so kan ich nit gedencken mit was wortten wir das aus- 
+sprechen süllen, wann es vber alle wort vnd weyse vnd ge- » 
+denck des menschen ist. Wann als des obresten Seraphyns 
+
+
+
+
+
+1 überschrift rot | Nycodemus noie fehlt V 2 rote initiale | 
+Lieben kinder ferlt V 3 das V7] die | heiling ferlt V, Z 1498] 
+heiligen 4 wan wisset fehlt V 6 tzu schetzen 7] daz sint alle 
+sament gewesen 7 des p.— sein Y] und hant alle zü diseme ge- 
+dienet ıo/ı1 gedenck d. m. ist 7] übertriffet unsprechenlichen über 
+alle verstentnisse engele und menschen 
+
+
+7] JOHANN TAULERS a7 
+
+
+verstenttnuß vber trifft einß esels verstenttnuß noch zu tausent 
+malen, so vbertrifft ditz heilig hoch (92c) czeit all mensch- 
+lich vnd englißch vernufft vnd verstenttnuß vnd darumb so 
+sprach der lieb heilig herr santus dyonisius: ‘Alles das, 
+das man hie von gesprechen mag das hat nit warheit in jm 
+selbs, sunder es ist gleicher mer gelogen denn die wahrheit.’ 
+Lieben kinder, nw kommen vnwissende menschen vnd 
+geparen zugleicher weyse als sam sie es recht durch sehen 
+15 haben, vnd sagen also hyrttiklichen dauon ! das doch in der 
+warheit alle creatur nit auß gesprechen mugen; vnd darumb, 
+kinder, vnterwindet euch diser hohen weisheit nichts auß- 
+tzusprechen noch dauon uil zu reden, als santus Paulus 
+spricht, vnd laßt die grossen pfaffen dar nach studirn vnd 
+disputiren, vnd in der vnkunst müssent sie dennoch wol mit 
+ıs vrlaub stammeln vmb der heiligen kirchen willen, ob das 
+wer das sie in kein not kömen von ketzerey wegen, das sie 
+sich außsprechen könd; aber dasselbe sey euch verpoten. 
+
+Nw hat cristus Jhesus jn dem heutigen ewangelio ge- 
+
+spro(92 d)chen: ‘Das wir wissen das sagen wir, vnd das wir 
+2o sehen das betzeugen wir.’ 
+
+Lieben kinder, diß enweiß nymant noch enhat es nye 
+nymant gesehen denn allein cristus Jhesus nach seiner got- 
+lichen natur, vnd darumb so mugen wir hie dartzu nit 
+kommen denn durch das getzeügnuß vnsers herren jhesu 
+
+25 cristi. 
+
+Er ist gewesen ein tzeug in tzwen weg, das ist gleich 
+vnd vngleich, das ist mit seinen obrißten vnd nydrißten 
+crefften vnd wem diser getzeug einer gepreßt, der enmag 
+zu disem hohen edlen bekantnuß nit kommen. Ditz twen 
+
+z3o getzeugen sein recht zugleicher weyse als tzwu sweßter vnd 
+lauffen on vnterlos zusammen in eynem menschen, nit das 
+der ein einen weg furgeng vnd der ander dar nach, sunder 
+sie stillen mit enander sein, das ist, das man sich in dem 
+geleichen bereyt finde gegen dem vngeleichen vnd das man 
+
+3; sich in dem vngleichen gleich halten kunde. Das ist, das 
+der (93a) mensch nem in leid lieb vnd in frid leid und in 
+smacheit ere vnd in trost vntrost. 
+
+
+an 
+
+
+H 
+°© 
+
+
+
+
+
+2so V] unsprechenlichen vil me 4 der lieb heilig herr ferlt V 
+7 Lk 38 zugleicher weyse V szets] rechte 9 herlichen 7 1o mugen 
+V] kunnent II eya lieben kinder V ı1/12 nichts — zu 
+reden fehlt V 16 mit ketzern V 16/17 das—könd fehlt V 21/22 es 
+nye nymant fehlt V 28 bristet V_ 29 bekantnuß 7] ende 32 ein 
+undeutlich, rasur VW] er, Z 1498] ein | der ander V] den andern 
+36/37 in leide liep und in sur süsse 7 
+
+
+r 
+
+
+4 8 PREDIGTEN 17 
+
+
+Lieben kinder, diß gleicheit mag nit sein in dem 
+aussern menschen noch in der armen natur, aber der mensch 
+mag wol werden von gnaden wesenlich gleich mit vngleich: 
+
+Aber wisset, kinder, es muß mancher pitter tot auff die 
+natur fallen, do durch sie peinlich sterben muß in jr selber, 5; 
+außwendig vnd in wendig, sol sie gleich sten jn lieb vnd in 
+leid wesenlich. Ach, wie sey[n] wir dem ewigen got so 
+manchen tot schuldig, dem do yeglichen antwurt ein myn- 
+niklich adelich gotlich leben, ob wir es anders in vns selbs 
+wol war nemen wolten. 10 
+
+Kinder, disem leben vnd disen toden allen, der vns do 
+geprißt zu einem waren volkommen leben, das möchten wir 
+wol erfolgen mit warem, jnnigem, andechtigem gepette des 
+geistes vnd das denn der verklert geist gleich stund jn lieb vnd 
+in leid, so nem er denn warlich gleich in vngleichait vnd wurd ı5 
+im denn vngleicheit ain lauter gleicheit vnd stund denn (93 b) also 
+gleich in lieb vnd in leid, das der mensch nit beträbt noch bewegt 
+würd, ob er gehaßt oder gemynnet würd, dem menschen 
+würd denn gleich einß als das ander. Man findt aber gar 
+uil menschen werntlich vnd auch geistlich die do gern nach- zo 
+folger cristi wern, so es in eynem [geleichen] stund, das 
+wer, das sie nit widerwertikeit heten. Aber wenn das ist, 
+das vngleicheit komt, es sey in geist oder jn natur oder von 
+den menschen, so fallen die menschen widerumb vnd keren 
+denn ab von got, vnd wer doch dem menschen vil pesser 25 
+vnd nutzer vnd fruchtparer vngleicheit denn gleicheit, wann 
+vngleicheit pringt das wesen der warheit; vnd das gleich ist 
+der plüm, vnd das vngleich ist die war wesenlich frucht; 
+diß gleich ist ein dinstperkeit dem vngleichen vnd get jm 
+vor, es hilfft vnd sterckt den menschen zu der pürden des 3 
+vngleichen. Aber in der vngleicheit wirt der mensch in der 
+warheit geporn in got verporgenlichen, das ist, das der mensch 
+stet (93 c) gleich in lieb vnd ‘in leid. Es wil leyder nymant 
+‚mer hier ynn got mynnen noch nachfolgen, sunder der ewig 
+got wirt hier ynn von manchen menschen gehaßt vnd ge- 35 
+lassen. Dise menschen sein nit war tzeugen vnsers herren 
+ihesu cristi, wann er ist der war slang den do moyses auf 
+
+
+3 werden gleich Y 5 do durch—selber fehlt V, von da ab bis zum 
+Dunkt ussewendig in diseme ungelicheme 14 Aznter der verklert geist 
+fährt V fort] der minnet und meinet gelich und ungelich in eime ge- 
+lichme gemüte 21 geleichen: yeglichen, verderdtt 21-24 das wer— 
+widerumb vnd 7] mere also es in das ungeliche fellet, so 26/27 wann 
+vngleicheit 7] dis 27 die wesenden worheit 7 32/33 in got—in leid 
+V] Dis bringet die fruht müt, dis geliche, alsovil also esherzü dienet. 34 nach- 
+folgen 7] meinen 35/36 vnd gelassen /erlt V_ 36 Daz enist nüt das gezüge 77 
+
+1 SL, 
+
+
+
+
+
+
+
+
+7] JOHANN TAULERS 49 
+
+
+hieng in der wüsten, den do alle menschen musten an sehen, 
+die do gesunt solten werden. Disen slangen sullen wir alle- 
+tzeit ansehen vnd an vns nemen sein getzeugnuß vnd jm 
+denn warlich nachuolgen in warer armut vnsers geistes vnd 
+5 mit gruntloser gelassenheit vnd mit prinnedem ernst, vnd 
+ı6 dartzu frölich vnd williklich leiden ! bekorung auswendig vnd 
+jawendig, das ist getreng in dem geist vnd außwendig leiden 
+an der natur, von den menschen vnd dartzu swerlich leyden 
+vnsers eygen fleysch vnd die anfechtung des posen geistes. 
+.ıo Wißt kinder, jn der warheit, weren die bekorungen hinwegk 
+vnd verswunden vnd vberwunden, man solt sie mit fleiß 
+vnd ernst herwiderum laden (93d), vnd flehen vnd piten 
+das sie herwiderum kömen, vnd das sie abfegeten den rost 
+den sie vormals gemacht heten in den posen tagen, das sie 
+ıs denselben rost der sunden dannen trügen, den sie vormals 
+dar getragen heten. Wan es ist wol müglich so ein edel 
+verclerter mensch sein sund ye mer an siht, so er sie ye 
+pas bekennet vnd so sie sich in jm ye mer leuterlich er- 
+pilden in beweglicher weyse in fleysch vnd in plut der 
+zo natur, wann ein grober grosser sunder der do enmitten in 
+den sunden ist vnd ligt; mit disen sunden stet der vol- 
+kommen mensch in grosser lauterkeit vnd hie mit disem 
+leyden so get er in das ewig leben. Aber der sunder get 
+damit in den ewigen tot vnd ist ein pöser vngerechter mensch 
+2s vnd weiß dopey von der manigfaltigen bekorung nichts, die 
+do alle tzeit der gerecht mensch in jm selbs swerlich er- 
+leyden muß. 
+Kinder, nw forßch ich euch welhes die sach sey, das 
+also grosser vnterscheid tzwißchen den (94 a) tzweyen menschen 
+z3oist, die do payd alletzeit mit der sundt verpildet sein. Aber 
+die weyse ist yn peyden vngleich; wann der güt andechtig 
+mensch leidet sich darynn durch goteswillen, vnd das ist 
+lewterlich sein grunt vnd sein meynung, vnd nymmt von 
+vngeleichen gleich vnd leßt sich hierynn tzu grunt in gotes- 
+3 willen. Aber der pös mensch meynt got nit vnd fellt in die 
+sunde on alle bekorung; vnd wie der ewig got mit disem 
+
+
+
+
+
+3 jm 7] deme 5 mit prinnedem ernst 97] mit bürnender 
+minnen, Z 1498] brennendem 8/9 von den menschen vnd — geistes v] 
+von den lüten und von dem fleische, von dem vigende 17 sein—siht 
+
+
+V] daz in die sinden me ansehent 23 Aber der sunder V] und der 
+ander 25—27 die dd—muß fehlt V 28 Weles ist die sache 9 
+32 goteswillen 7] got 33/34 von deme gelich und ungelich V 
+34/35 inne Gotte V 
+
+
+Naumann, Ausgewählt- Predigten Johann Taulers 4 
+
+
+50 PREDIGTEN [7 
+
+
+tut, so solt es alletzeit ein anders sein; möht er nw vil dings . 
+
+
+gehaben on kost vnd on erbeit, die wer sein leben; es ist aber 
+sein tot zuletzst in der warheit. Vnd darumb, lieben kinder, 
+wenn das ist, das jr got lauterlichen suchet, mynnent vnd 
+meynent in allem ewrm leben, in thun vnd in lassen, so mag 
+euch nichts geschaden in der warheit, ob euch alle die tewfel 
+die in der helle sein mitenander mit aller jr poßheit vnd 
+schalkheit vnd vnreynikeit fliessent wern durch ewer sele vnd 
+(94 b) leip vnd durch fleisch vnd durch plut, ya in der war- 
+heit vnd dar tzu die werlt mit enander mit alle jr poßheit vnd 
+sünden vnd vnreynikeit, vnd denn das selbe alles wider deinen 
+freyen willen ist, das du ee frolichen woltest durch got sterben 
+ee du in diser sunden keinen woltest fallen wider gotes willen, 
+so schatt es euch ein einiges har nit gen got, vnd werete es 
+halt ouch in einem menschen x jar kurtzer oder lenger, ya 
+es were on tzweyfel den selben bereytten zu vnmessigem 
+vbertrefflichen lon vnd zu vnmessigem gut zu dem ewigen 
+leben, vnd hie in disem tzeit das der ewig got wunder durch 
+disen menschen volbracht, wer das sie hierynn werlich bestunden 
+vnd nit außprechen weder mit wortten noch mit wercken. Vnd 
+darumb so spricht der ewig gotes sun in dem ewangelio: ‘Es 
+sey denn das jr anders geporn werdet in dem geist vnd in 
+dem wasser, so mügt ir nit eingen in das reich der himel’. Pey 
+dem geist (94c) nympt man das gleich vnd pey dem wasser 
+das vngleich. 
+
+Nach disen außwendigen groben vngleichen so ist ein edel 
+inwendig vngleich, vnd das vngleich wirt geporn auß dem 
+ersten vngleichen. Wisset kinder, wer sich in disem warlich 
+konde gehalten, den selben mensch wurd warlich vnd leuterlich 
+endeckt vnd geoffenbart ein lautre bekanttnuß des vnsprechen- 
+
+
+20 
+
+
+25 
+
+
+3° 
+
+
+lichen vngleichen!, das do all creatur nit folgen mugen mitrı 
+
+
+keiner weise; denn allein ein lawter geist in dem außwendigen 
+vngleichen der allein nymmet gleich jn lieb vnd in leid, vnd 
+
+
+
+
+
+2 die wer sein l. 7] und ime nüt sur enwurde, daz neme er wol 
+2/3 es ist aber— darumb fehlt V 3 O kinder, waz möhte ch ge- 
+werden obe ir got luterlichen Y 7/8 vnd schalkheit vnd vn- 
+reynikeit ferlt V 9 fleisch 7] marg 9/ıo ja in der warheit— tzu 
+fehlt V 12 das—gotes willen ferlt V  14—20 gen got— noch mit 
+wercken V 176, 24—26] es bereitet üch zü grossem güte, so ir luter- 
+lichen und blöslichen Got meindent und anders nüt des uwern in keinre 
+wisen, und sinen willen nement in gelich und ungelich; Z 1498 hat den 
+text der hs. 29 den selben mensch 7] in dem 30 bekanttnuß P} 
+erkentnisse 33 nymmet V] minnet und meinet 33—1 s.51 gleich 
+jn lieb—in dem vngleichen Y] me das ungeliche und smacket ime bas 
+und vöilet und bevindet me do inne 
+
+
+7 ] JOHANN TAULERS 51 
+
+
+der selbe mensch befindet mer lawter warheit in dem vn- 
+gleichen denn in allem dem gleichen do man zukommen mag in 
+disem tzeit; vnd ye mer diß vngeleich clerlicher vnd plöslicher 
+vnd offenberlicher bekant wirt, ye neher vnd jnnerlicher diß 
+
+5 geleicheit darynn geporn vnd erfolget wirt. Diß ungeleich sach 
+nit warlich an lucifer das er sich wolt in das gleich (94.d) setzen 
+vnd do durch kam er in ein vnaussprechenlich vngleich vnd 
+verlos do tzumal alle gleich nymmer mer widerumb zu kommen. 
+Aber die mynniklichen edlen lawtren engel die kerten vnd 
+
+ıosahen an ir groß vngleich, vnd hiemit suncken sie zumal in 
+vnsprechenlich gleicheit gotes. 
+
+Ach kinder, wie ein vnsprechenliche frucht wirt geporn 
+auß disem grunt, do [der] verclert geist mit disem vngleichen 
+mit gotlicher mynne alletzeit einsencken wer in dem götlichen 
+
+ısgrunt vnd do werlich versmiltz in einer waren bekantnuß 
+seinß vngleichen, vnd do denn tet der geist einen vberslag 
+vber sein vermugen in das götlich abgrunt. 
+
+Welcher mensch sich hierynn vor wol gevbet hat vnd sich 
+denn warlich vnd leuterlich geleutert vnd gereiniget hat in 
+
+20 geist vnd in natur nach seinem vermugen, do wirt denn ein 
+mynniklich versincken, vnd wenn denn die natur das jr getut 
+vnd sie denn nit (95a) furpas kommen mag, das ist denn so 
+sie auf jr höchstes kommet, so kommet denn das war gotlich 
+abgrunt vnd leßt do sein götlich funcken stieben in den 
+
+25 lautern geist, vnd denn von der selben crafft der vbernatur- 
+lichen hilff gotes so wirt denn der verclert geist gotes auß 
+jm selbs getzogen vnd auffgefurt in ein sunderlich vnaus- 
+sprechenlich lawter got meynen; das ist denn den menschen 
+bereyten hie auff disem ertrich uber alle maß, wann diß ist 
+
+30 gotlich crafft, vnd diser kere ist denn uber alle verstenttnuß 
+vnd ob allen synnen vnwortlich vnd vnbegriffenlich; vnd wie 
+das sey das diser ker ferrer sey vber die andern all, so haben 
+sie doch dar tzu gedint vnd gefürdret den menschen nach 
+jrem vermugen, das ist ein yeglicher guter will vnd meynung 
+
+3s vnd begerung, wortt vnd werck, vnd ein yeglich leyden das 
+der mensch gätlich durch (95 b) goteswillen geliden hat; diß 
+alles hat den andechtigen menschen zu diesem ker der war- 
+heit gefurdert vnd bereitt. 
+
+
+
+
+
+6 das 7] do 8 gleich V] gelicheit und 28/29 das ist —auff 
+disem 7] Die meinunge die ist obe dem 29 uber alle mass V] ja one 
+alle masse 31 vnwortlich vnd vnbegriffenlich Y] und wunderlich und 
+ungedenglich 35 leyden 7] liden und swerheit 35—38 das der 
+mensch — bereitt fehlt V 
+
+
+4* 
+
+
+52 PREDIGTEN [7 
+
+
+Wissen kinder, disen ker konden noch enmohten dem 
+
+
+menschen all engel vnd all heiligen nit gegeben, noch alles 
+das das do in dem ertrich beslossen ist, sunder allein das 
+götlich ewig abgrunt in aller seiner vnmaß muß das thun vnd 
+volbringen. 
+
+Wann in disem so versincket der gelewtert geist in die 
+götlich finsternuß vnd in ein stilles sweygen vnd jn ein vn- 
+sprechenlich gotlich vereynigung, jn disem lautern versincken 
+so wirt verlorn alles gleich vnd vngleich, wann in disem ab- 
+grunt verleust der lauter geist sich selber vnd enweyß do 
+weder von got noch von jm selber noch von gleich noch 
+von vngleich, wann der geist ist do warlich versuncken in 
+gotes einigkeit vnd do hat er verlorn alle vnterscheid. Wißt 
+kinder in der ewigen warheit, (95c) welcher mensch dis 
+warlich befinden wil!, der muß sin selbs vnd von allen crea- 
+turen sterben jn lieb vnd in leid, jn geist vnd in natur, jn 
+plut vnd in fleisch, vnd muß auch leuterlich vnd ploß allein 
+got leben vnd haben einen emssigen einker sich gütlich zu 
+leiden jnwendig vnd außwendig, vnd gleich sten in lieb vn in 
+leid, vnd das also heimlich vnd tugentlich tragen in einem 
+steten ynnbeleiben on alle clag vnd außlaufen; das ist, das 
+man nit lauff hin noch her, noch clag hie noch dort, wann 
+das thun allein die die wenig güts in ym haben vnd dartzu 
+wenig gotes in jr inwendikeit jr sele empfunden haben. Dise 
+menschen fliehen alle manigfelltikeit außwendig vnd alle 
+hindernuß vnd leben allein got lewterlich vnd plos in allen 
+dingen vnd tragen alle dingk widerumb in got, vnd also 
+komment sie denn zu der wunniklichen heiligen hochwirdigen 
+gelobten dryfel(g5 d)tikeit, von der ich mich zu kranck vnd 
+tzu snod bekenn tzu sprechen. Das vns das allen widerfar, 
+des helff vns der ewig got. Amen. 
+
+
+
+
+
+3 in himmelrich und e. P | beslossen ist 7 ] ist,nüt gemachen, noch alle 
+ding 4 muß das t.v.v. V] wanne dis ist verre über alle creatürliche wise 
+in einre göttelicher kraft verre über alle masse in eine götteliche un- 
+masse 12 hinter vngleich V] noch von nüte nüt 15 sin selbs V7] 
+ime selber, Z 7498] ym selbs | von allen V] allen 16/17 jn lieb— muß 
+auch ferlt V_ 18—2ı vnd haben—on alle clag Y] und nüt in den 
+sinnen enmüs er leben 21—25 vnd außlauffen—außwendig vnd alle 7] 
+und nüt uzlouffen nu har nu dar, nu sus nu so, in manigvaltige manig- 
+valtikeit und ussewendikeit; alleine es güte werg schinent, so ist es 
+diseme ein gross 26 vnd lebenY] danne leben 27 kinter dingen P] 
+und Got in allen dingen nemen | got Y7] ime 
+
+
+1 
+
+
+3 
+
+
+8] JOHANN TAULERS 53 
+
+
+8. 
+
+
+Si quis sitit, veniat et bibat 
+Joh. 7, 37 
+
+Abdruck der 15. predigt fol. 45c aus dem ältesten Taulerdruck:: 
+‘Sermon des großgelarten in gnaden erlauchten doctoris Johannis Thauleri 
+predigerr ordens, weisende auff den nehesten waren wegk, yn geiste czu 
+wandern durch vberschwebenden syn, vnuoracht von geistes ynnigen 
+vorwandelt in deutsch manchem menschen zu selikeit.” Die Be- 
+zeichnung ‘vorwandelt in deutsch’, die zuerst die annahme lateinischen 
+urtextes gab, hat schon F. A. Pichon, Ueber Johann Tauler, Germania 
+I (1836), s. 278f. richtig gedeutet: in übliches neueres Deutsch. 
+(Die gleiche bezeichnung findet sich übrigens im Man. germ. fol. 986 
+der Kgl. Bibliothek Berlin vom Jahre 1448: ‘Des Taulers bredyen. Ze 
+tutsch gemachet von bruder Marquarten von Lindow 1389.) Am schluss 
+der predigten ist der druckort angegeben: ‘Gedruckt in der furstlichen 
+stat Leyptzk durch Cunradum Kachelouen vnd vorendet Am tag Gerdrudis 
+ym acht vnd neuntzigisten iar (1498).’ 
+
+
+tter Qui sitit, veniat et bibat. 
+
+e Item die predig auß sant Johannis euangelio des montags 
+vor dem palmen tag, von vnsers herren leyden, saget von 
+dem minniglichen durste nach got vnd von dem geiaget, wie 
+
+s der mensch geiaget wirt mit den hunden mancherlei bekerung. 
+Si quis sitit, veniat. In diesen letzsten tagen eins 
+grossen hochtzeites do rieff vnser herre iesus mit einer lauten 
+stimme vnd sprach also: “Wen durstet, der kum tzu mir vnd 
+trinck das lebende wasser’. 
+
+6 10 Was ist nu der dursie, den vnser lieber herre ihesus 
+gemeynet hat? Nicht anders dan wan der heilig geist kompt 
+in die sele, so ent(46a)pfehet sie ein feuer der lieb vnd 
+einen koln der lieb, von dem wirt ein brant der liebe in der 
+sele. Die selbe hitze wurfft dan auß die funcken der liebe, 
+
+ıs die dan ein durst geberen nach got vnd ein innerlichs be- 
+geren nach got; vnd weiß etwan der mensch nicht was im 
+gebricht, dan das der mensch findet ein iamer yn ym vnd 
+ein vordrissen in allen creaturen. Dise begerunge ist in 
+dreyerley menschen vnd ist doch vil vngleich. Wan die erste 
+
+2ist in anhebenden menschen, die ander in tzu- 
+nemenden menschen, die drytte yn volkommenden 
+menschen, als hie muglich ist in disem leben. 
+
+
+
+
+
+4 gejegetze V_ 6etbibat 7 9 das lebende wasser felE V 10V 
+gibt 50, 30—51, 6 eine einführung in Daz minnecliche liden unsers 
+herren daz wir nu vorhant ıı/ı2 den—hat? fehlt V 15 gebirt V 
+ı9 ist doch V] sint 22 kein absatz 
+
+
+54 PREDIGTEN [8 
+
+
+Der heilig dauid in dem psalter sprach also: ‘Herre tzu 
+gleicher weiß als den hirß durstet tzu den bornen der wasser, 
+also, herre, durstet mein sele tzu dir waren lebendigen borne 
+gotes’ Als nun der hirß wurt geiaget von den hunden 
+stercklich durch die welde vnd durch die berge, von der 5 
+selben grossen hitz wirt in ym ein grosser lechender durst 
+vnd begerung tzu dem wasser vil mer dan ander tier; als 
+nu der hirß wurt geiaget von den hunden, also tzu 
+gleicher weiß wirt der anhebende mensch geiaget von den 
+schweren bekerungen, so er aber erst sich hat ab gekeret von 
+der werlt vnd sunder von seinen starcken grossen groben 
+gebrechen (46b) also wirt der mensch stercklich geiaget. Das 
+sint die sieben heuptsunde, die iagen dem menschen nach mit 
+grossen schwinden bekerungen villeicht mer dan do man yn der 
+werlt was, wann do vor kam die bekerunge, aber nu wurt man yn ı5 
+der yresiagens geware. Als Salomon sprach: Mein liebster sun, 
+wan du eintretst got tzu dienen, als bald tzu hant bereite 
+dich vnd deine hertze tzu der bekerunge.’ So du diß geiage 
+aller sterckst entpfinden bist, so sal deine durst aller grost 
+sein tzu got, vnd deine hitze vngleicher mer soldt sein vnd 20 
+deine begerung tzu got. Nu geschiet vnder weilenn das die, 
+hunde den hirßen er eylen vnd fallen ym dann an den bauch, 
+vnd so dan der hirß siehet das er der hunde nicht ledig 
+magk werden, ßo schleiffet er den huntt nach ym biß an 
+einen bawme vnd schlehet yn dan wol harte wider den baume 5 
+vnd bricht ym dan do mit sein heupt vnd wurt dan do mit 
+seine alßo loß vnnd ledig. Alßo tzu gleicher weiß sal der 
+andechtig mensch auch thun; wan er seine hunde seiner 
+bekerunge nicht magk vberwinden noch quitledig von yn 
+werdenn, ßo sal er lauffen mit grossem eylen ann den bawm 3 
+des creutzes vnd des leidens vunßers lieben (46c) herren iesu 
+cristi, do allein schlehet er den hunden seiner bekerunge das 
+heupt entzwey, das ist, er vberwindet do alle seine bekerunge 
+vnd wirt dan do tzu mal ledig vnd quitloß. 
+
+Als nun der hirß sich der grossen ! hunde erweret hat, 35 : 
+so komen dan die kleinen huntlein vnd die selben lauffen 
+vnder den hirßen vnd tzwicken yn das er dar durch vorseret 
+
+
+[2] 
+
+
+o 
+
+
+
+
+
+6 wirt 7] wurt erweget 8/9 tzu gleicher weiß VW] rehte, so 
+immer 10 alrerst 7 14 vielleicht fehlt 7 14/15 dan do —be- 
+kerunge, aber fehlt V 16 sun min 7 18 jagen starker und ge- 
+swinder ist V_ 22 mit den zenen in den buch V 28/29 sin bekorunge V 
+34 kein absatz 
+
+
+5 
+
+
+Io 
+
+
+8] JOHANN TAULERS Ei 
+
+
+wirt vnnd do vor hutet sich der hirß ßo recht vast nicht, er 
+muß aber doch dise vorserung fulen. Alßo tzu gleicher weiß 
+geschitt dem menschen auch. Wan als er sich der sundenn 
+erweret hat vnd vberwunden, so komen dann die kleinen 
+hunde, vor den er sich nicht gedenckt tzu huten, das sein 
+dan die gespilen ader geselschafft ader die kleynet ader die 
+kurtzweile der menschen vnd der menschen gutigkeit, vnd die 
+reyssen yn dan hie vnd dort vnd ertzerren ym seine hertze 
+vnd seyne inwendigkeit, das er von not fulen muß yn allem 
+gotlichenn leben vnd yn einem gotlichenn ernst vnd ent- 
+pfindung gotes vnd gnaden vnd andacht, vnd ist dem 
+menschenn digke diße kleyn bekerunge vil schedlicher wan 
+die grossen bekerunge, wan vor den huttet sich der mensch 
+mit fleiß vnd hat die selben vor (46d) vnrecht. Aber disen 
+
+
+ıs kleynen gebrechenn wil der mensch nicht achten noch sie 
+
+
+20 
+
+
+35 
+
+
+vor vnrecht haben. Wan tzu gleicher weiß als alle dingk vil 
+schedlicher sein dy mann nicht bekennet, dann die sein die 
+man bekennet, alßo diß gefert do mann nicht vill auff heldet 
+vnd achtet, als die gespilschafft, geselschafft ader cleinet. 
+Als nun der hyrß vonn eynem iglichen geiage erhitziget 
+wurt vnd sein durst ye mer do durch tzunemende ist, alßo 
+in der warheit solde der mensch von eyner iglichen bekerunge 
+mer erhytziget werden nach gotlicher liebe tzu unßerm herrenn. 
+
+Nun ßo thun etwan die ieger so der hirß tzu mude ist 
+vond tzu durre, ßo essen sie die hunde ein wenigk vnd 
+werden dan alßo auff gehalden, also sie des hirßen sicher 
+sein in dem thiergarttenn, Bo lassen sie sich dan den hirßenn 
+erspatziren ein wenigk das er etwas do durch ersterckt wirt, 
+so mag er dan das iagen des do bas erleiden. Also tzu 
+gleicher weiße thut vnser lieber herre dem menschen auch; 
+wan er siehet das dem menschen das geiage tzu vil wil 
+werdenn vnd die bekerunge tzu groß, so heldet er sie ein 
+weniges auff, vnd dan ßo wirt dem menschen ein tropff yn 
+seynen (47a) mund seines hertzen, das ist ein susser ge- 
+schmack vonn sussikeit gotlicher dinge, die stercken in dan also 
+sere das im alle dingk bitter vnd widertzeme schmecken die 
+
+
+
+
+
+
+
+
+ı/2 und doch entrennent sü in also das der hirtz dovon fulen müs 7 
+6 kleinöter 7 ıI andacht nicht, was keinen sinn gibt 14 hinter 
+vnrecht 7] und daz achtet er nüt 14—16 Aber—haben fehlt V 
+19 gesellschaft 7] oder die tüchere, die kleider | ader V] die zo un- 
+gelich eme wurt erhitzet V_ 23 nach gottlicher—herrenn ferlt V, wofür 
+52, 7—20 cintritt 25 essen V] etzent 27 in erkülen eine kleine 
+stunde 7 _ 29 erleiden V] erliden anderwerbe 
+
+
+56 PREDIGTEN [8 
+
+
+got nit sein, vnd dan so duncket yn recht er habe alle seine 
+not gantz vnd gar vberwunden. Diß ist dan nicht anders 
+
+
+dan ein ersterckunge tzu einem newen geiage vnd bekorunge, 
+
+
+vnd so yr der mensch aller minst gedenckt, so sein sie ym 
+auff dem halß vnd liegen ym dan vil mer ann dann vor. 
+Aber der mensch ist nu etwas gesterckt vnd vor mag auch 
+vngleichers mer dan vormals. Aber, kinder, diß thut got von 
+wunderlichen trewen vnd von grosser vnmessiger liebe wegenn, 
+das er diß geiage lesset kommen vber den menschen, wan 
+von der bekerunge wurt der mensch billich tzu got! geiaget 
+mit begirlichen durste vnd lechtzenden hertzen, tzu dem, do 
+alle wunnne vnd freude vnd fride in der warheit ist, vnd 
+darumb das dem [menschen] der tranck, der do ghet nach 
+dem durste, des do susser vnd lustiger vnd dester wunnig- 
+licher werde hie in diser tzeit vnd darnach in dem ewigen 
+leben, do man den allersusten born trincken sal mit vollem 
+lust, mit vollem munde auß seinem eigen vrsprunge das ist 
+auß seinem veterlichen hertzen. Do (47b) entpfet solchen 
+trost der mensch, das ym alle dingk klein werden durch got 
+frolichen tzu leiden. 
+
+Vnd als nu der mensch die hunde seyner bekerung 
+vberwunden hat vnd dan mit einem vesten getrawen mit 
+disem durste kommet tzu got, was sal dann der mensch 
+anders thunn? er trincke do mit vollem munde das er tzu 
+mal truncken werde vnd do so wirt dan der mensch gotes 
+als vol das er dan in wunne vnd in freude sein selbs vorgist 
+vnd dan den menschen dunckt wie das er groß wunder vor- 
+moge. Ja den menschen dunckt dan er solde wol vnd frolichen 
+ghenn durch feur vnd wasser, ja auch durch tausent schwerte, 
+er forchtet weder lebendigk noch todt, noch lieb noch leid. 
+Kinder, das ist des schuldt das dise menschen sint gotes liebe 
+truncken worden, diße freude heisset Jubiliren, vnder weilen 
+schreien sie, vnder weilen lachen sie, dan so singen sie. 
+Das kunden die vornufftigen nicht begreiffen die hie von 
+nichts nicht wissen, was der heilig geist wunders vnd wirckens 
+hat mit seinen außerwelten, wan sie haben vnd wissen nicht 
+
+
+
+
+
+
+
+
+9 gejegede V 1o bekerunge 7] gejegede; mensch V] hirtz 
+15 ewikeit V_ 17 das ist V] und 21 kein absatz | es fehlt hier der 
+erste teil des vergleichs V 53, 7—9] wane so der hirtz dise hunde alle 
+überwunden hat und zü wasser kummet, so lat er sich mit völleclichem 
+munde in daz wasser und trincket mit gantzer genügede, wie er mag; 
+also tüt der mensche.. 26 freude Y7] volle 29 Ainter schwerte V] 
+ja durch die spitze des swertes 33 Das—begreiffen 7] Denne kumment 
+die vernünftigen 
+
+
+H 
+
+
+o 
+
+
+20 
+
+
+25 
+
+
+30 
+
+
+8] JOHANN TAULERS 57 
+
+
+anders dan das die natur gibt. Die selben menschen 
+sprechen dan auß mit einem wunder: ‘“luget, was sal aber 
+noch dise wunderlich weiß?’ vnnd fallenn (47c) dan als bald 
+mit vrteil auff die außerwelten gotes. Darnach so komen sie 
+‘ synn ein vnsprechliche freude das in alle dingk ein wunne 
+vnd ein freud ist, was man yn thut, es ghehe in vbel ader 
+wol, do mit sein sie ledig vnd frey vnd unbekummert, wann 
+dise freude gotes leyt in yrem hertzen vnd gluet vnnd do 
+durch haben sie einen lechenden durst nach got on vnderlaß. 
+10 Die dritten die sterben, den selbenn menschenn brechen 
+recht yr hertzen enttzwey nach vnserm herren. Kinder, das 
+sein die grossen werck gotes, das diße menschen die grossen 
+werck gottes nicht erleiden mugen, das die in ßo groß vnd 
+so vberschwencklich sein. Wisset das do vonn manig mensch 
+ı5s gestorben ist, das sie sich disem wunderlichen werck alßo 
+sere vnd vast ergaben, das es die arme kranck natur nit 
+mer erleiden mochte vnnd dann do durch storbenn. 
+Kinder, als nu vnser lieber herre diß siehet das also 
+die menschen diß dings tzu vil wollen machen vnd sich also 
+20 wollen ertrencken, ßo thut er tzu gleicher weiße als ein er- 
+samer haußwirt der vil edlen guten wein bey ym steen hat 
+vnd ghet hin wegk vnd legt sich tzu schlaffen, so gheen 
+dan seine kinder dar vnd trincken dan des edlen (47d) 
+guten weynes ßo vil das sie tzu mal truncken werden. So 
+2; nun der gut haußwirt aufsteet vnd des gewar wirt, so gheet 
+er dar vnd macht ein gute ruten vnd durch schlehet die 
+kinder recht wol, das sie dan also traurig werden, als frolich 
+54 sie vormals geweßet sint, vnd gibt in dan wassers als vil! 
+tzu trincken das sie do durch wyder nuchtern werden. Alßo 
+3° tzu gleicher weiße, kinder, thut der ewig got seinen auß- 
+erwelten kindern auch. Er gebart tzu gleicher weise als sam 
+er entschlaffen sey vnd lest recht seine außerwelten kinder 
+von seinem sussen wein trincken mit vollem munde vnd mit 
+gantzem lust wie vil sie sein begeren. Aber wan er sihet, 
+3: das es yn nit nutz wil werden vnd in tzu vil wil sein, so 
+
+
+
+
+
+2-4 dan auß—außerwelten gotes 7] ‘Got segen, wie sint ir aber 
+also ungesast und also ungestüme?’ Er tüt in das st also truncken 
+sint, danvon enwissent dise nüt 7 ledig vnd frey vnd unbekummert V] 
+in worem friden und fröiden 8 dise f.g. 7] der minnenkole 8/9 yrem 
+hertzem — vnderlaß 7] in und glimet und glüget und löschet als wasser 
+daz do ist in in, das für tüt st wallen in wunnen und in fröiden 
+17 und derunder brach Y7_ 20/21 güt biderbe husman V 28 also st 
+ie truncken wurdent V zack nuchtern werden 
+
+
+58 PREDIGTEN [8 
+
+
+enttzeucht er yn seine susse entpfinden vnd den trost vnd 
+den guten wein vnd macht sie dan tzu gleicher weiße als 
+traurig als ob sie nye frolich weren worden, vnd als nüchtern 
+als sie ye vormals truncken worden weren. So nun in diser 
+trost vnnd diß susse entpfinden begynnet frömde werden, so 
+durstet sie sere nach vnserm herren. 
+
+Aber hie mit lockt er yn vnd loßet sie hie mit auß in 
+selber vnd auß aller gefengkniß der creaturen. Aber nu ist 
+yr tzu vil worden vnd do mit wil er sie (48a) tzu yn selber 
+brengen vnd wil sie do mit nuchtern machenn; dodurch 
+werden sie dan so wol getemperirt vnnd auff sich selber ge- 
+lassen das sy dan do sehen wer sie sein vnd was sie vor- 
+mugen von yrem eygen vormugen. Wan hie vor wolden sie 
+mer durch gott leiden wan yn ymandt mocht gesaget haben 
+vnd michels mer dar vber,. aber nun konnen sie nicht ein 
+kleyn werck thun onn groß sunder schwerheit vnnd ein klein 
+wortlein das mugen sie dan kawm durch got geleidenn noch 
+vortragen. In disem vndertzug ßo sehen sie dan gruntlich 
+in der warheit was gutes sie vormugen mit yr eigen kost 
+vnd yr selbs macht, wan got der herre sein gnad tzu ym 
+tzeuchet von disen, so werden sie dan also demutig vnd ge- 
+lassen vnd also gutglaubig ghein allen menschen vnd werden 
+dan also stille mit iren außeren wercken als in dan wol ge- 
+tzymet, wan siedan wol von dem herren getzuchtiget sein worden. 
+
+Kinder diß ist noch alles in den nydersten crefften ge- 
+weßen, diß gesturme vnd dise werck, vnd yn den will gott 
+keinn weille nicht wonen, noch seine edel stat ist do nicht, 
+es ist ym do tzuenge vnd tzu klein tzu wonen, er kan seines 
+werckes do volkomlich (48b) nicht bekommen. Er wil vnd 
+muß wonen in den obersten crefften der sele vnd do selbst 
+wircken gotlichen, vnd do selbst ist allein seyne stat, do 
+findet er sein eigen bilde vnd sein eigen gleichniß, vnd 
+darumb wer gote eigenlichen finden wolle der such in do 
+vnd nindert anders. 
+
+Nu welcher mensch dar tzu kommen kunde der funde 
+kurtzlich vnd warlich was er lang vnd vil vmbwege ge- 
+sucht hette in der warheit. Do wurde dan der geist ge- 
+tzogen vber alle die creft yn ein wuste wiltniß, do vonn 
+
+
+
+
+
+3 weren worden V] wurdent, edenso 4 4 vgl. V54,7—9 II ge- 
+tempert V_ 13 von yrem eigen vormugen V] dieweile si zü in selber 
+kummen sint 13—15 Wan—dar vber sieke V 54, 14—16 22/25 mit 
+iren außeren— Kinder ferlt 7 25 diß 7] Und daz 28 tzu wonen 
+Y] er kan sich do nüt bekeren 
+
+
+H 
+
+
+© 
+
+
+8] JOHANN TAULERS 59 
+
+
+aber nymandt kan gesprechenn, das ist in dem vorborgen 
+weiselos vinsterniß des weiselosen gutes; do wirt der geyst 
+also nahe ein gefurt in die einikeit gotes das er do tzu mal 
+vorleust allen vnderscheit, wan in der lautern einikeit vorleust 
+s man alle vnderscheit, vnd die einikeit die einiget do alle 
+manigfeldikeit. Kinder, wan diße menschen tzu yn selber 
+komen, ßo haben sie entpfangenn von got schone wunnig- 
+liche vnderscheit mer dan nymant sust mag haben in diser 
+tzeit, das wirt vnd ist allein do geboren yn der einfeldigenn 
+zo einigkeit, clar war vnderscheidt von allen artickeln des 
+lauteren heiligen glaubenn, wie der vater vnd der sune vnd 
+55 der heylig geyst! ein warer gott (48c) ist, ye vnd ye vnd 
+ymmer ewiglich. Das vorstet nymandt baß, waren gotlichen 
+vnderscheit, dan die, die do geraten in die enikeit, diß heist 
+:5s vnnd ist ein vnsprechliche vinsterniß vnd ist doch das war 
+wesentlich liecht gotes, vnd ist vnd heist ein vnbegreiflich 
+wildt wusten, do nymandt inne findet noch weg noch steg 
+noch weise, wan es ist vber al weiße. 
+Kinder, diß vinsterniß sal man alßo vorsteen, es ist ein 
+2° liecht do kein geschaffen vorstentniß tzu gelangen noch vor- 
+steen mag von natur, vnd ist darumb wildt, wan es keinen 
+tzu gangk hat. In disem so wirt der geist gefurt vber sich 
+selber, vber alle seine begreiffenn vnd vorsteen. Do wirt 
+dan der borne volkommenlichen getruncken auß seinem 
+25 eygen grundt,: auß der waren wesentlichen quellen gotes. 
+Ach kinder, do ist der gotlich borne so vber suß vnd so 
+frisch vnd so lauter, als tzu gleicher weiße alle borne aller 
+sust sein an iren vrsprungen. Ach kinder, wie ein lauter 
+wunniglich borne wirt hie geschenckt auß der waren quellen 
+30 gotes! Dar inne vorsincken sie tzu mal vnd wollen hie 
+gerne mit vollem munde trincken, aber diß mag yn hie nit 
+widerfaren noch ann yn gescheen, die weil sie hie in diser 
+tzeit der gnaden sein. Aber sie (48d) sincken vnd ent- 
+sincken yn dem waren grunde gotes, recht tzu gleicher weiß 
+35 als ein wasser das auff dem ertreich gestunde vnd einsinckt 
+in das ertreich. 
+
+
+
+
+
+3 gotes 7] in der simpelen wiselosen einikeit 5 hinter vnder- 
+scheit V] sunder fürwürflichen und bevintlichen | vnderscheit Y] manig- 
+veltekeit 8&nymant Y]ieman 12/13 ye vnd ye vnd ymmer ewiglich V] 
+fürbaz von aller worheit 13 nymandts 26 der gotlich borne 
+V]er 28 an iren vrsprungen Y] in irme ursprunge luter und frisch, 
+mer in den flüssen sint sü warm und sur 30 Ainter tzu mal V] mitten- 
+ander mit allem dem daz sü ist und vermag 32/33 die weil— sein 
+gehlt V 
+
+
+60 PREDIGTEN [8 
+
+
+Lieben kinder, woldenu der mensch als er dar ein- 
+kommen ist dann nach den nydersten crefften mussig ligen 
+vnd nicht thun dan lassenn die nidersten creffte schlaffen, 
+ßo wurt nichts nit dar auß; die nydersten crefft sal man 
+halden nach yrer weiße, ader der heilig geist gingk tzu mal 
+hinweg, vnd do wurde do geboren geistliche hoffart vnd vn- 
+geordente freyheit. Sundern mit grosser demutigkeit sal man 
+sich legen vnder den gotlichen willen, vnd das heyst dan in 
+dem menschen groß abscheidenheit, vnd innerlichen vnd 
+außerligen sal er schweigen yu tieffer demutikeit vnd alle 
+tugendt sal er vben in den nidersten creften, vnd do so 
+wurt dann der mensch got heimlich vnd wirt dan tzu mal 
+ein gotlicher mensch. Kinder, nu sehet wie wunderliche 
+wege er sie gefuret hat vnd hat hie sein spil an yn beweißet; 
+tzu dem ersten do sie des seinen in sich namenn in yr in- 
+wendig creffte, wie er yn entwuchß, vnd des seinen kunden 
+sie in yn nicht enthalden, sie worden entsetzt vnd entordnet 
+vnd vortruncken. Aber nun furet er sie (49a) tzu mal hie 
+vnd hat sie eingeholet vber sich selber vnd gibt in hie tzu 
+mal sich selber vngleich dem ersten, vnd hie werden sie 
+wunderlich geordnet. Diß ist recht gleicher weiße als die 
+geliebte sele spricht in der liebe buch: ‘Introduxit me rex 
+in cellarium’. Der konigk hat mich gefurt in seinenn wein 
+keller! vnd do hat er seine liebe ynn mich geordnet. Sich[er] 
+er hat sie hie tzu mal wol geordnet vnd hat sie durch 
+wunderliche wilde wege eingefurt vnd vber gefurt yn das 
+tieff abgrunt in sich selber, vnd was sie do finden das ist 
+vber al sinne vnd vornuft des menschen, wan es mag nymand 
+vorsteen noch begreiffen mit den außerlichen sinnen, wan 
+es ist ein warer vorgeschmack des ewigen lebens. Kinder, 
+nu sehet wie die tzarte minnigliche gute gotes mit seinen 
+
+
+
+
+
+6 vnnnd! 7 hinter freyheit Y] und vellet in die vernünftige 
+bevellikeit und enwurde nüt drus und verblibe alzümole 8 das heyst Y] 
+der heischet 9 hinter abscheidenheit V7] dan ie, aber ie in einer ede- 
+licher wisen vil edellich dan ie oder ie, und merre luterkeit, blosheit, 
+unverbildete friheit und einikeit 13 nu sehet 7] Sehent ir nu, wie und 
+waz? hant ir üt geprüfet 14 und sin spil hie gewiset ist? 7_ ısff. 
+der text meint unter ‚sie‘ die menschen, während V ‚sü‘ hat, also: st 
+nam, es ir entwaste, entkunde sü in ir, sü enwurde, git ir hie 
+wurt st wunnenklich geordent, worunter die ‚sele‘ zu verstehen ist. 
+Lehmann I, 56 fügt in seiner überselzung von V das wort sele ein: 
+„Habt ihr nun gemerkt, welch wunderliche wege er die seele geführt 
+hat und wie sein spiel hier gezeigt worden ist?“ 18 vertrungen V 
+22 geliebte sele | brut 23 cellari rc 24 Sich 
+
+
+„m 
+
+
+° 
+
+
+20 
+
+
+30 
+
+
+8] JOHANN TAULERS 61 
+
+
+außerweltenn freunden kan so vorborgenlichen wircken die 
+werck der volkommenheit, das es alle menschen mocht wunder 
+nemen an vnserm herren. Das thut er alles darumb das 
+er vns tzu ym getzihen muge in ein heiligs seiligs leben. 
+5s Darumb das uns durste nach seiner ewygen freude vnd liebe, 
+darumb so rufft er mit lauter grosser stymme: ‘Ist ymandt 
+den durste, der kum tzu mir vnd trincke das lebendig 
+waßer!’ (49b) Noch dannoch durstet in darnach, das er 
+in vns einen waren durst finden moge vnd das wir vns 
+ıonach im mit begirden dursten wollen lassen, so wolde er 
+vns also herlichen vnd sußiglichen trencken, das von des 
+leibes tranck solden lebendig wasser fliessen, die do solden 
+springen in das ewige leben. 
+Nun mercke: was ist das von des leibes gleichniß ? Als 
+ıs der leichnam geneust die leiplichen speiße, so entpfehet sie 
+der mage vnd dan do von ßo wirt die speiße vmbgeteilt in 
+ein iglich glide des menschen, vnd wirt dan also do durch 
+gesterckt. Also tzu gleicher weiß entpfeet der geist die 
+edlen gotlichen speiße in disem trincken vnd wirt dan von 
+zo der waren gotlichen hitzigen liebe vmb geteilt in alle gelider, 
+in alles des menschen leben vnd weßen, also das alle sein 
+werck baß geordnet mochten werden vnd allen menschenn 
+besserlich. Auch so wirt von der inwendigen ordenung der 
+außer mensch wol geordnent vnd wurt bluende vnd starck vnd 
+25 groß tzu allem dem dar tzu yn der ewigk got haben wil, 
+vnd springet recht frolich vnd wol gemutlich ynn das ewig 
+leben. Das vnß das allen widerfare, des helff vns Got. 
+Amen. 
+
+
+
+
+
+ı—5 kan so—darumb Y] spilen kan 7/8 das lebendig waßer 
+Fehlt V 8 Ime waz so not in turste darnoch Y ıı herlichen V] 
+rilichen ı1/1ı2 daz von des libe die des tranckes also trinken 
+soltent lebende wasser V 14 des leibes gleichniß? Y] von des libe? 
+27/28 Got. Amen, Zex? rc 
+
+
+62 VERZEICHNISSE 
+
+
+Verzeichnis der Handschriften 
+
+
+
+
+
+
+
+
+
+
+
+Predigt unserer 
+
+
+Seite 
+ausgabe 
+
+
+Aufbewahrungsort Provenienz Zeit 
+
+
+
+
+
+Berlin, Kgl. Bibliothek 
+Ms. germ. quart. 166 Jaus dem besitz Daniel| 1435 |4. Repleti sunt| 26 
+
+
+
+
+
+Sudermans omnes 
+
+Ms. germ. quart. 1131/Karthause zu Bux-| 1473 |6. Von drye mir-| 41 
+
+(acc. 1890, 277) heim, vorher Kar- ren 
+
+thäuser zu Güterstein 
+bei Urach | 
+
+Ms. germ. oct. 68 aus dem besitz Daniel!15. jh.|5. Ascendit Ihe-) 33 
+Sudermans susinnaviculam 
+
+Ms. germ. fol. (ohne nr.) Karthäuser zu Erfurt,|15. jh. 7. Inillo tempore| 46 
+dann Kgl. Bibliothek erat homo ex 
+Erfurt phariseis 
+
+Incun. 1240 Carmeliter zu Din-| 1498 |8. Si quis sitit,| 53 
+ckelspiel veniat est bibat 
+
+
+
+
+
+Hildesheim, Beverinschelaus dem besitz deri15. jh.|2. 3. Caro mealıo, ıg 
+
+Bibliothek 724 b Priester in dem vere et cibus 
+Lichthofe zu unserer 
+liebeng se rausseın 
+
+
+
+
+
+Hildesheim 
+Wien, k. k. Hofbiblio-Peter von Wün-14. jh.|ı.Accipepuerum| 5 
+thek cod. 2739 nyngen; Die schwe- h 
+
+
+stern ‘zü kampe in 
+der klüsen und zü 
+sente Martyne inder ! 
+klüsen’ ; Johann 
+Michael & Loen 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Inhaltsverzeichnis- 
+. Seite 
+1. Accipe puerum et matrem eius et vadein terram Israel. Matth.2,20 5 
+2. 3. Caro mea vere est cibus et sanguis meus vere est potus. Ioh. 6, 55 10.19 
+
+
+4. Repleti sunt omnes spiritu sancto. Apostelgesch. 2, 4 26 
+5. Ascendit Iesus in naviculam quae erat Simonis. Luc. 5, 1ff. 33 
+6. Magi obtulerunt Domino aurum thus et myrrham. Matth. 1, 1-12 41 
+7. In illo tempore erat homo ex phariseis. Ioh. 3, Iı 46 
+8. Si quis sitit, veniat et bibat. Ioh. 7, 37 53 
+
+
+Frommannsche Hofbuchdruckerei (Hermann Pohle) in Jena — 4383 
+
+
+THEOLOGY LIBRARY 
+CLAREMONT, CALIF. 
+
+
+A MARCUS UND E. WEBER’S VERLAG IN BONN 
+
+
+KLEINE TEXTE FÜR VORLESUNGEN UND ÜBUNGEN 
+
+
+HERAUSGEGEBEN VON HANS LIETZMANN 
+
+
+ı DAS MURATORISCHE FRAGMENT und die monarchianischen prologe zu 
+den evangelien, hrsg. v. H. Lietzmann. 2. Aufl. 168. 0.30M. 
+2 DIE DREI ÄLTESTEN MARTYROLOGIEN, hrsg. v. H. Lietzmann. 
+2. Aufl. ı8S. 0.40 M. 
+“ 3 APOCRYPHA I: Reste d. Petrusevangeliums, d. Petrusapocalypse u. d. 
+Kerygma Petri, hrsg. v. E.Klostermann. 2.Aufl. 168. 0.30 M. 
+4 AUSGEWÄHLTE PREDIGTEN 1: Origenes homilie X zum Jeremias, ho- 
+milie VII zum Lukas, homilie XXI zum Josua hrsg. v. E. Kloster- 
+mann. 2. Aufl. 25 S. 0,70 M. 
+5 LITURGISCHE TEXTE I: Zur gesch. d. orientalischen taufe u. messe im 
+2. u. 4. jahrh., ausgew. v.H. Lietzmann. 2. Aufl. I6S. 0.30M. 
+6 DIE DIDACHE hrsg. v. H. Lietzmann. 3. Aufl. 16 S. 0.30 M. 
+7 BABYLONISCH-ASSYRISCHE TEXTE, übers. v. C. Bezold. I. Schöpfung 
+und Sintflut. 2. Aufl. 24 S. 0.40 M. [21 S. 0.40 M. 
+= 8 APOCRYPHA II: Evangelien, hrsg. v. E. Klostermann. 2. Aufl. 
+9 PTOLEMAEUS BRIEF AN DIE FLORA hrsg. v. A. Harnack. 2. Aufl. 
+ıo S 0.30 M. 
+ı0o DIE HIMMELFAHRT DES MoSsE, hrsg. v. C.Clemen. ı6S. 0.30M. 
+ı1 APOCRYPHA III: Agrapha, slavische Josephusstücke, Oxyrhynchusfr. 
+ıgıı hrsg. v. E. Klostermann. 2. Aufl. 26 S. 0.50 M. 
+12 APOCRYPHA IV: Die apokryphen briefe des Paulus an die Laodicener 
+und Korinther, hrsg. v. A. Harnack. 2. Aufl. 0.60 M. 
+13 AUSGEWÄHLTE PREDIGTEN I: Fünf festpredigten Augustins in ge- 
+reimter prosa, hrsg. v. H. Lietzmann. 16 S. 0.30 M. 
+14 GRIECHISCHE PAPYRI hrsg. v.H.Lietzmann 2. Aufl. 32S. 0.80 M. 
+15/16 DER PROPHET Amos, Hebräisch und Griechisch, hrsg. v. J. Mein- 
+hold und H. Lietzmann. 32 S. 1.00 M. [0.80 M. 
+17/18 SYMBOLE DER ALTEN KIRCHE, ausgew. v. H. Lietzmann. 32S. 
+19 LITURGISCHE TEXTE II: Ordo missae secundum missale romanum, 
+hrsg. v. H. Lietzmann. 2. Aufl, 32 S. 0.40 M. 
+20 ANTIKE FLUCHTAFELN hrsg. v. R. Wünsch. 2. Aufl 31S. 0.7oM. 
+21 DIE WITTENBERGER U. LEISNIGER KASTENORDNUNG 1522, 1523, 
+hrsg. v. H. Lietzmann. 24 S. 0.60 M. 
+22/23 JÜDISCH-ARAMÄISCHE PAPYRI AUS ELEPHANTINE sprachlich und 
+sachlich erklärt v. W. Staerk. 2. Aufl. 38 S. 1.30 M. 
+24/25 LUTHERS geistliche Lieder, hrsg. v. A. Leitzmann, 31 S. 0.60 M. 
+26/28 LATEINISCHE CHRISTLICHE INSCHRIFTEN mit einem anhang jüdischer 
+inschriften, ausgew. u. erkl. v.E. Diehl. 2 Aufl. 868. 2.2oM. 
+29/30 RES GESTAE DIVI AvGVSTI, hrsg. u.erkl. v. E. Diehl. 2. Aufl. 
+ao S. 1.20 M. [15 S. 0.40 M. 
+31 ZWEI NEUE EVANGELIENFRAGMENTE hrsg. u. erkl, v. H. B. Swete, 
+32 ARAMÄISCHE URKUNDEN z. gesch. d. Judentums im VI u. V jahrh. 
+vor Chr. sprachl. u. sachl. erkl. v. W. Staerk. 1ı6S. 0.60 M. 
+33/34 SUPPLEMENTUM LyRICUM (Archilochus Alcaeus Sappho Corinna 
+Pindar) hrsg. v. E. Diehl 2. Aufl. 44 S. 1.20 M. 
+35 LITURGISCHE TEXTE I: Die konstantinopolitanische messliturgie vor 
+dem IX. jahrhundert v. A. Baumstark. 16S. 0.40 M. 
+
+
+. 
+
+
+A. MARCUS UND E. WEBER’ VERLAG IN BONN 
+
+
+36 LITURGISCHE TEXTE IV: Martin Luthers Von ordnung gottesdiensts, 
+Taufbüchlein, Formula missae et communionis 1523 hrsg. v. H. 
+Lietzmann. 24 S. 0.60 M. 
+
+37 LITURGISCHE TEXTE V: Martin Luthers Deutsche Messe 1526 hrsg. 
+v. H. Lietzmann. ı6S. 0.40 M. 
+
+38/40 ALTLATEINISCHE INSCHRIFTEN hrsg. v. E. Diehl. 2. Aufl. 92 S. 
+2.40 M., gbd. 2.80 M. 
+
+41/43 FASTI CONSULARES IMPERII ROMANI (30 v. Chr.—565 n. Chr.) 
+mit Kaiserliste bearb. v. W.Liebenam. 128S. 3 M., gbd. 3.40 M. 
+
+44/46 MENANDRI reliquiae nuper repertae hrsg. v. S. Sudhaus. 65 S. 
+1.80 M., gbd. 2.20 M. [mann. 64 S. 150 M. 
+
+47/49 LATEINISCHE ALTKIRCHLICHE POESIE ausgewählt v. H. Lietz- 
+
+
+. 5o/5I URKUNDEN ZUR GESCHICHTE DES BAUERNKRIEGES UND DER 
+
+
+WIEDERTÄUFER hrsg. v. H. Böhmer. 36 S. 0.80 M. 
+52/53 FRÜHBYZANTINISCHE KIRCHENPOESIE I: Anonyme hymnen des 
+V.— VI, jahrhunderts ediert v. Dr. Paul Maas. 32 S. 0.80 M. 
+54 KLEINERE GEISTLICHE GEDICHTE DES XII JAHRHUNDERTS hrsg, v. 
+A. Leitzmann. 30 S. 0.80 M. 
+
+
+55 MEISTER ECKHARTS BUCH D. GÖTTLICHEN TRÖSTUNG U. VON DEM. 
+
+
+EDLEN MENSCHEN hrsg. v. Ph. Strauch. 51 S. 1.20 M. 
+56 POMPEIANISCHE WANDINSCHRIFTEN hrsg. v. E.Diehl. 60S 1.80oM. 
+
+
+57 ALTITALISCHE INSCHRIFTEN hrsg. v. H. Jacobsohn. 32S. 0.80oM. 
+58 ALTJÜDISCHE LITURG. GEBETE hrsg. v. W.Staerk. 32S. 1.00M. 
+
+
+59 DER MISNATRAKTAT BERAKHOTH IN VOKALISIERTEM TEXT herausg. 
+v. W. Staerk. 16 S. 0.60 M. 
+
+60 EDWARD YOUNGS GEDANKEN ÜBER DIE ORIGINALWERKE übersetzt 
+von H. E. v. Teubern hrsg. v. K. Jahn. 46 S. 1.20 M. 
+
+61 LITURGISCHE TEXTE VI: Die Klement. liturgie a. d. Const. apost. vII 
+mit anhängen hrsg. v. H. Lietzmann. 32 S. 0.80 M. 
+
+62 VULGÄRLATEIN. INSCHRIFTEN hrsg. v. E. Diehl. 180S. 4.50M, 
+gbd. 5 M. 
+
+63 GOETHES ERSTE WEIMARER GEDICHTSAMMLUNG mit varianten hrsg. 
+v. A. Leitzmann. 35 S. 0.380 M., gbd. 1.20 M. 
+
+64 DIE ODEN SALOMoS aus dem syrischen übersetzt mit anmerkungen 
+von A. Ungnad und W. Staerk. 40 S. 0.80 M. 
+
+65 AUS DER ANTIKEN SCHULE. Griechische texte auf papyrus holztafeln 
+ostraka ausgew. u. erklärt v. E. Ziebarth. 33S. 2. Aufl. 0.80 M. 
+
+66 ARISTOPHANES Frösche mit ausgewählten antiken scholien herausgeg. 
+v. W. Süss. 90 S. 2 M., geb. 2.40 M. [56 S. 1.20 M. 
+
+
+- 67 DIETRICH SCHERNBERGS Spiel von Frau Jutten hrsg. v. E. Schröder. 
+
+
+68 LATEINISCHE SACRALINSCHRIFTEN ausg.v.F. Richter. 45 S. 0.90M. 
+
+69 POETARVM VETERVM ROMANORVM reliquiae selegit E. Diehl. 
+165 S. 2.50 M., geb. 3.— M. 
+
+70 LITURGISCHE TEXTE vII: Die Preussische Agende im auszug hrsgeg. 
+v. H. Lietzmann. 42 S. 0.80 M., geb. 1.— M. 
+
+71 CICERO PRO MILONE mit dem commentar des AsconIvs und den 
+SCHOLIA BOBIENSIA hrsg. v. P. Wessner. 1.60 M., geb. 2.— M. 
+
+72 DIE VITAE VERGILIANAE hrsg. v. E. Diehl. 60 S. 1.50 M. 
+
+73 DIE QUELLEN VON SCHILLERS UND GOETHEs BALLADEN zusammen- 
+gestellt v. A. Leitzmann. 5ı S. 3 Abb. 1.20 M., geb. 1.50 M. 
+
+
+D-S740 -SB 
+ae 
+
+
+
+
+
+ITURGISCHE TEXTE VII: ‚Die Sächsische Agende im ‚auszug hrsg, 
+H. Lietzm » 36 S. 0.80 M., geb. .— M. i 
+6A a AUS ABRAHAM A. De CLARA hrsg. v.K, Bertsche. 4% S. 
+
+
+
+
+
+
+SER Hippocrarıs de aere aquis locis mit der alten lateinischen übersetzung 
+
+hrsg. v. G. Gundermann. 5oS. rL2oM. 
+78. RABBINISCHE WUNDERGESCHICHTEN des neutestamentlichen zeitalters 
+in vokal. text- mit anmerkungen v. P, Fiebig. 288. 1.— M. 
+
+
+—- 79 ANTIKE WUNDERGESCHICHTEN zum studium der wunder des Neuen 
+Testaments zusammengestellt. v. P. Fiebig. 27S.0.80M. se 
+
+
+80 VERGIL AENEIS II mit demi commentar des Servius herausgeg. von 
+=, Diehl 131 S. 2.— M., geb. 2.50. M.. -[geb. 1.80 M. 
+"81 ANTI-XENIEN-in auswahl. hrsg. v. W. Stammler. 68 S.. 1.40 M. 
+82 APoLLoNIUs Dvscorus De pronomiribüs ‚pars generalis. edidit D 
+: Paulus Maas. 448. 1 M. 
+=7T 283 ORIGENES, EUSTATHIUS v. ANTIOCHIEN, GREGOR V. Nyssa. über die 
+. Hexe von Endor hrsg. v. Erich Klostermann. 70S,-1.60M. 
+34 Aus EINEM GRIECHISCHEN ZAUBERPAPYRUS Beratung“ en erklärt 
+52 © yon-Richard Wünsch. 31 S. 070 M. re 
+
+- 85 DIE GELTENDEN PAPSTWAHLGESETZE hrsg. v. F.Giese. 56 S.: 
+
+
+- 86 ALTE EINBLÄTTDRUCKE hrsg. v. Otto-Clemen. 77.5. 
+87 UNTERRICHT DER VISITATOREN an die pfarrherrn. im kurfürstennum 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-zu Sachsen herausgeg. von Hans’ Lietzmann. 485. 1.—M. 
+88 BUGENHAGENS BRAUNSCHWEIGER KIRCHENORDNUNG. v.H. 
+Lietzmann..152S. 2:40M. 722: [2.60.M., geb. 3.—M. 
+
+
+‚89 EURIPIDES MEDEA mit scholien heraüsg. von Ernst Dieh. 116S, 
+
+
+- _ 90 DIE QUELLEN VON SCHILLERS WILHELM TELL zusammengestellt v. 
+“0 Albert Leitzmann. 478. 1.20 M., geb. 1.50 M. 3 
+
+“ . 91 SCHOLASTISCHE TEXTE I: Zum Gottesbeweis d. Thomas v. Aquin 
+2 zusammengestellt v. E. Krebs. 64 S.- 1,50 M. 
+
+-— 92 MITTELHOCHDEUTSCHE NOVELLEN I: Die heidin hrsg. v.L. Pfann- 
+: müller. 518. 1.20M. [7rS. 1.50 M., geb. 1.80 M, 
+
+93 SCHILLERS ANTHOLOGIE-GEDICHTE kritisch ‘hrsg. v. W. Stammler, 
+
+
+.94 ALTE UND NEUE- en Papyrı übersetzt und erklärt von 
+
+
+W. Staerk. 73 S:. .2— M. i 
+95 MITTELHOCHDEUTSCHE NOrEEN II: Rittertreue, Schlegel hrsg. v. 
+-L. Pfannmüller. 638. 1.50.M, [64 S. 1.60 M.. 
+
+
+96 DER ‘FRANCKFORTER („eyn. deutsch theologia“) hrsg. v. W. Uhl, 
+Br Diopors- RÖMISCHE "ANNALEN. bis 302 a. Chr. samt dem Ineditum 
+Vaticanum hrsg. v. A. B. Drachmann. 72°S. 1.80 M. SHARE 
+-98 MUsA1os, HEROU. LEANDROS m. ausgew. varianten u, scholien brag. ve 
+ES Ludwich. 54 $S. 1.50 M; 5 
+9 AUTHENTISCHE BERICHTE.über Luthers letzte lebensstunden heraus- 
+. gegeben von Dr. J. Strieder.. 42 S. 1.20 M. 
+100 GoETHES RÖMISCHE ELEGIEN nach der ältesten. teinschrift er up tte 
+A Leitzmann.. E2 Sr Brosch. 1.30 M., EB. I. 22 M. ER 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+103 DIE KIRCHENGEMEINDE- UND SEnGDATORBADE 
+Her Preußen, Brandenburg, Pommern, Posen, Schlesien u. Sachsen hrsg. 
+" w.A: Uckeley. -36 S. 0.90 M. [ Be 1.50 M, 
+‘104 DIE RHEINISCH-WESTFÄL. KIRCHENORDNUNG hrsg. v.A. Uckeley. 
+5 MYSTISCHE ‚TEXTE AUS DEM’ IsLAm.. Drei gedichte des Arabi 1240, 
+"> Aus d. Arab. übers. u. erläutert v. M. Horten. ı8S. 0.50 M.. 
+106. DAS NIEDERDEUTSCHE NEUE- TESTAMENT nach Emsers übersetzung, 
+Rostock 1530 hrsg. v. E. Weissbrodt. 32 .S. 0180-M. 2. 
+107 HERDERS SHAKESPEARE-AUFSATZ in .dreifacher gestalt mit anm. 
+hrsg. v. F. Zinkernagel. 4 S. 2 M. 
+108 KONSTANTINS KREUZESVISION in ausgew. texten Yorgelegt v v. 3: Be 
+> Aufhauser. 268. 060M, _ 
+> 109: LUTHERS KLEINER KATECHISMUS, der deutsche text in seiner ge 
+‘ schichtlichen entwicklung v. J. Meyer. 32 S. 0.80 M. 
+-I 10 HISTORISCHE ATTISCHE INSCHRIFTEN ‚ausgewählt u. erklärt von: E 
+#, -Nachmanson, ' 82 S. 2.20 Mi 3er 
+"111 AUSGEWÄHLTE ILIASSCHOLIEN hrsg. v.W; Deecke. 88 S. 2.40 M. 
+. 112 'SUPPLEMENTUM. EURIPIDEUM hrsg. v. H. v.. Arnim, (die neuen 
+We "Euripidesfunde) 808. 2.—M. > 
+"113 SVPPLEMENTVM SOPHOCLEVM hrsg. v. E. Diehl. (Indagatores. 
+-  Eurypylus), 33 S.; 0,90 M. 
+; 114 DIE VERFASSUNG DES DEUTSCHEN REICHES vom Jahre’ 1849 hrsg. 
+Seysb.Bergsträsser. 104.8 2,20:M. ” 
+El 5 GRIECHISCHE INSCHRIFTEN 'ZUR GRIECHISCHEN STAATENKUNDE, 
+Br - ausgewählt v. F. Bleckmann. 798. 2 M. 
+‘116 DIE QUELLEN ZU HEINRICH VoN KLEIsTs. MICHAEL Konınaas. 
+>> Hrsg. von Rudolf Schlösser, 148. 035M. 
+‘117 MEISTER ECKHART: Reden der Unterscheidung, hrsg. von E- 
+-"uDiederichs. 45-8. .1.— M. 
+8 ORATORUM ET RHETORUM GRAECORUM nova fragmenta ed.K. Jande 
+‘ 42°S: 1.—M. 
+119 TEXTE ZU DEM STREITE ZWISCHEN GLAUBEN UND WISSEN IM Isram, = 
+dargestellt von M. Horten. 43 S. 1.20.M. j 
+‚121 HISTORISCHE GRIECHISCHE INSCHRIFTEN bis:auf Alexander d, Grossen 
+"ausgewählt n. erklärt v. E. Nachmanson. ‘60 $.21:75.M: 
+‘122 URKUNDEN ZUR ENTSTEHUNGSGESCHICHTE DES. DONATISMUS hrag. 
+- 00, Hans von Soden. 56 :S.. 1.40.M. i 
+123, Huco’ VON ST. VICTOR - SOLILOQUIUM. DE ARRHA ANIMAE UND. 
+ö - DE. VANITATE MUNDI hrsg. v. K..Müller. sıS. ı ‚30. M. 
+124 DEUTSCHE LYRIK DES SIEBZEHNTEN JAHRHUNDERTS in Auswahl: 
+‚hrsg. v. P. Merker. 53,8. 1.40. M. 
+“125 LITURGISCHE TEXTE IX: Die Hannoversche Agende im De hrsg. 
+NET HMENET,T 30.8. 0,78.M. 
+126 ANTIKE Jesus-ZEvenIssE vorgelegt v. J. B: Aufäcus er. x 
+-127 AUSGEWÄHLTE PREDIGTEN JOHANN Tayrızs nern, v. Ls ‚Nau- 
+mann. 62 °S; 180. M, 
+
+
+
+
+
+
+
+
+& 
+
+
+
+
+
+Frommannsche Buchdruckerei (Hermann Pohle) in Jena. — 4383 x S 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tauler, Johannes, 1300 (ca. )-1361. 
+5080 Ausgewählte Predigten Johann Taulers. 
+T2 Hrsg. von Leopold Naumann. Bonn, A. Marc 
+
+
+1914 und E. Weber, 1911. 
+62p. 2lcm. (Kleine Texte für Vorlesun 
+
+
+und Übungen, 127) 
+
+
+l. Sermons, Medieval. I. Naumann, Leop 
+1884- ed. II. Series. 
+
+
+u CCSC/mmd 
+
+
+neh 
+
+
+A237 
+
+
+ri 
+
+
+a A | RT d 1a ae ü 
+
+in Er Ne Kari KR DIL ERUR DARIN 1 HN I R 
+
+URL ERNAR NIE NE iR 
+Fa [ h 2 % Pi x Ai Fl 
+
+KEIL LS EICHE IE PESTRHR 000, ea TREUE FRDH 
+
+MN UBER HAMA 1 h BAkn.) 1. k um F 
+ne 1 er an UNSERE EN Pe 
+fl Me EB NRIINI MATTE Neal ALM ANE BItH DATE HJ T1 Mae F% 
+
+
+FA 
+R 
+
+SE 
+j 
+
+
+' », „ ) Y Y ] 
+SHNBER GERN TR INNERE OBEN h ek 
+a 
+
+Ener EEE RENT De Eu are ae on EHE 
+Pa PARSE II ERTEID I  ERIERNERTE) N 
+’ Hi Y u } 5 leur la Teimrai 
+Kyle hi N DERERN , Als NK, ion d 
+jr BR Ni AR OU RE 
+
+} DR NETTER IA if r ih 
+
+
+£ 
+
+
+DNA ru DH 
+
+
+ie 
+f I u 
+Er 
+
+
+AR E 
+
+
+4 
+N 
+
+
+N 
+“ 
+IM r 
+
+
+ü Y 
+ib ‘ 
+An 
+
+5 \ 
+
+
+N SE BSR: 
+i irn 
+
+
+ld“ a eN de ie 
+ne K; La. Morde Nr kirt: 
+ee a al, 
+HR N Sl a N 
+AUERSN: iD]. 19 HMI) eu sTH Fre 
+SE SS u ee 
+De Er I ESTER ITER 
+Bader vI% : Ar: Sr % 
+"N 
+
+
+R 
+1 
+
+{N 
+
+h 
+
+M 
+= 
+ar 
+Ma 
+
+
+17% ie & Hi 4 & 5“ I N SRH a A e " BES \ be a Ihe 
+i SEINE an Ben Set DES BR US ABISSS BE IE 
+Sehe Se KERERRRH EUR REN EL SORT EEE \ a3 SHRlnR NRE HR p 
+z : | bis dene a alt Ihr Hrn Hirt h8 er RE. Hr UNE 
+nn. no 
+BEN Er j* R Ay N 5 yilkt het ir 1170 1% ’ ® h Se 
+
+
+a Ei » 
+Bin 
+h & 
+el, 
+® air Sl oa 
+
+
+NE 
+a 
+; En ur ö a ERIR 
+
+
+
+
+

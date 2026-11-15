@@ -15,6 +15,16 @@ works:
     was written about 690, so its text is older than any copy. Placed on the early window;
     no single entry fits all the copies.'
   source_file: rituale-armenorum-lectionary_conybeare1905.txt
+- row_id: brosset_deux-historiens-armeniens-kiracos-oukhtanes-fra_1870--ukhtanes-separation-of-the-georgians-french-brosset-1870
+  work: 'Ukhtanes, History, part 2: the separation of the Georgians from the Armenians, French
+    (Brosset 1870)'
+  author: brosset
+  locus: Ukhtanes part 2 from about OCR line 28822; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: An Armenian bishop of the tenth century tells the break of 607-609 and copies letters
+    of the time. He writes three centuries later and from the Armenian side.
+  source_file: brosset_deux-historiens-armeniens-kiracos-oukhtanes-fra_1870.txt
 - row_id: john-odzun_opera-arm-lat_aucher1834--john-of-odzun-oratio-synodalis-and-canons-aucher-1834
   work: John of Odzun, Oratio synodalis and canons (Aucher 1834)
   author: john-odzun
@@ -24,3 +34,13 @@ works:
   note: The catholicos's own synodal discourse and canons of 719 (Aucher's preface), inside
     this window.
   source_file: john-odzun_opera-arm-lat_aucher1834.txt
+- row_id: ter-minassiantz_armenische-kirche-in-ihren-beziehungen-zu-den-syrischen-kirchen-tu26-deu_1904--armenian-synodal-letters-german-ter-minassiantz-1904
+  work: Letters of the Armenian church with the Syrians, sixth century, from the Book of Letters,
+    German (Ter-Minassiantz 1904)
+  author: ter-minassiantz
+  locus: the Heft from about OCR line 28372; the letters from 36564; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: The Armenian bishops' own letters around the councils of Dvin of 506 and 554, in German.
+    The letters are of these windows; the study around them is a modern scholar's.
+  source_file: ter-minassiantz_armenische-kirche-in-ihren-beziehungen-zu-den-syrischen-kirchen-tu26-deu_1904.txt
