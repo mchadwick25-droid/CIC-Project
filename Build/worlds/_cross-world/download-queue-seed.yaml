@@ -25674,7 +25674,7 @@ queue:
     verified_by: 'Library thread, eras 1-3 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 281,649 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: nau_opuscules-maronites-pt2-syr-fra_1900.txt
-  - title: 'Dissertatio de origine, nomine, ac religione Maronitarum, auctore Fausto Nairono Banesio Maronita'
+  - title: 'Dissertatio de origine, nomine, ac religione Maronitarum, by Faustus Naironus, Maronite'
     author: 'Faustus Naironus'
     year: '1679'
     world: maronite-christianity

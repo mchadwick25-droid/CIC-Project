@@ -6,7 +6,7 @@ Rights: Public Domain (pd-us-by-date: published 1867); the archive.org record ca
 Language: fra
 Source: archive.org item chama-01-02-langlois-etal-1867-1869, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (4,159,688) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1867, out of US copyright by date. OCR quality: the French is clean. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Tome I title page at about OCR line 170; Agathangelos from 13550 (the translators' preface) and 14175; tome II title page at 54320. Tome II is also held alone as langlois_collection-historiens-armenie-tome2-fra_1869.txt.
+Content note: Tome I title page at about OCR line 170; Agathangelos from 13550, with Langlois's introduction at about 13574 and the text from 14175; tome II title page at 54320. Tome II is also held alone as langlois_collection-historiens-armenie-tome2-fra_1869.txt.
 
 ______________________________________________________________________
 

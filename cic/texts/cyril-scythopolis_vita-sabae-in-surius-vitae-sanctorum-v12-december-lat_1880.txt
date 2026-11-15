@@ -1,7 +1,7 @@
 Title: Historiae seu vitae sanctorum juxta optimam Coloniensem editionem, a Laurentio Surio; volumen XII, December (the whole volume); contains the Vita S. Sabae abbatis
 Creator: Cyril of Scythopolis (the Life of Sabas, in a Latin version that the volume's own heading says may be Metaphrastes's paraphrase); collected by Laurentius Surius (title page)
 Publisher: Turin: ex typographia Pontificia et Archiepiscopali eq. Petri Marietti (title page)
-Publication Date: 1880 (title page: MDCCCLXXX; the host record's 1875 is the set's first year)
+Publication Date: 1880 (title page: MDCCCLXXX; the host record gives 1875)
 Rights: Public Domain (pd-us-by-date: published 1880); the archive.org record carries no rights field, so the imprint date is the basis
 Language: lat
 Source: archive.org item historiaeseuvita0012suri, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (2,327,781) equals the size archive.org lists for the djvu.txt.

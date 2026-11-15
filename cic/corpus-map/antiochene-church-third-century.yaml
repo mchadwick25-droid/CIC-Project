@@ -162,8 +162,8 @@ works:
   locus: the fragments from about OCR line 15640; add 12 to OCR line numbers
   role: tradition
   confidence: needs-ruling
-  note: The same fragments as Loofs prints, judged by a second scholar who disagrees with
-    him on several. Which fragments are Paul's own is disputed.
+  note: The fragments with a French commentary, printed a year before Loofs. Which fragments
+    are Paul's own is disputed.
   source_file: paul-samosata_paul-de-samosate-etude-historique-fra-grc_bardy1923.txt
 - row_id: paul-samosata_paulus-von-samosata-fragmente-tu44-5-deu-grc_loofs1924--paul-of-samosata-fragments-loofs-1924
   work: Paul of Samosata, the fragments, with the letter of Hymenaeus (Loofs 1924)

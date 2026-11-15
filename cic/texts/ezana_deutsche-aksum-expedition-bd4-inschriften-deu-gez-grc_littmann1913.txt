@@ -6,7 +6,7 @@ Rights: Public Domain (pd-us-by-date: published 1913); the archive.org record ca
 Language: deu, gez, grc
 Source: archive.org item SabaischeGriechischeUndAltabessinischeInschriften, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (521,475) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1913, out of US copyright by date. OCR quality: the German is clean; the Ge'ez is garbled. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Ezana's inscriptions with German translations: Nr. 4 at about OCR line 469, Nr. 6/7 at 874, Nr. 9 at 2326, Nr. 10 at 2704, Nr. 11 (the campaign against the Noba, with the Christian formula) at 3113.
+Content note: Ezana's inscriptions with German translations: Nr. 4 at about OCR line 469, Nr. 6/7 at 874, Nr. 9 at 2326, Nr. 10 at 2704, Nr. 11 (the campaign against the Noba) at 3113; its opening is usually read as Christian, and Littmann's addenda (about 10017) record a reading of it as largely pagan.
 
 ______________________________________________________________________
 

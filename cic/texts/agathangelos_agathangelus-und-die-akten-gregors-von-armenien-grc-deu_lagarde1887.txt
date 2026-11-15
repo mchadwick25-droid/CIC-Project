@@ -5,7 +5,7 @@ Publication Date: 1887 (title page)
 Rights: Public Domain (pd-us-by-date: published 1887); the archive.org record carries no rights field, so the imprint date is the basis
 Language: grc, deu
 Source: archive.org item agathangelusundd00agat, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (499,402) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1887, out of US copyright by date. OCR quality: the German is clean; the Greek is fair to garbled. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1887, out of US copyright by date. OCR quality: the German is clean; the Greek is garbled throughout (read as Latin letters). Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
 Content note: the Greek text from about OCR line 195.
 
 ______________________________________________________________________

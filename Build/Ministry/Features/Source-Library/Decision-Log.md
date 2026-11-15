@@ -414,6 +414,11 @@ fresh session per batch. File by file: `CFT-Wants.md`, eras 1-3. The search reco
 - Naironus (1679) is vendored with no shelf: no Maronite entry covers its date.
 - Unreadable originals were not taken: the Armenian Book of Letters (1901) and the Armenian Shushanik (1853).
 
+**Corrected after review.** All 25 rights rows passed. The reviewer found eleven points, all fixed: Genesius in
+the Simocatta volume is Lachmann's edition; three OCR notes were too generous (the Greek in Lagarde and Bardy, the
+Latin in PG 82); the acts of 536 in Mansi VIII end before the volume does; the Christian reading of Ezana's last
+inscription is disputed in Littmann's own addenda; four smaller wordings. The list is `R1_changes.md`.
+
 **For the tree, not the Library.**
 - Melito's Peri Pascha cannot be filled from the public domain: it was first printed in 1940.
 - The Life of Sabas is held only in a Latin version that may not be Cyril's wording. A profile should say so.

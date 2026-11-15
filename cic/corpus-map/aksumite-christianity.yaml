@@ -67,8 +67,9 @@ works:
   locus: Nr. 4 at about OCR line 469; Nr. 11 at 3113; add 12 to OCR line numbers
   role: antecedent
   confidence: provisional
-  note: The king's own inscriptions of the fourth century, pagan and then Christian in their
-    opening words. Earlier than this entry's window, so placed as an antecedent.
+  note: The king's own inscriptions of the fourth century. The earlier ones open with pagan
+    formulas; Nr. 11 is usually read as Christian, which Littmann's addenda record as disputed.
+    Earlier than this entry's window, so placed as an antecedent.
   source_file: ezana_deutsche-aksum-expedition-bd4-inschriften-deu-gez-grc_littmann1913.txt
 - row_id: gadla-pantalewon-yared_vitae-sanctorum-antiquiorum-lat_conti-rossini1904--acta-yared-pantalewon
   work: Acta Yared et Pantalewon (the Ge'ez Lives of Yared and of Pantalewon, in Latin)

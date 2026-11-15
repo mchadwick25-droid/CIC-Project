@@ -96,7 +96,7 @@ Arabic, English).**
   scans, not taken: the OCR turns the Latin title page into Greek letters, so the year could not be read from the
   text. Two more Bekker scans and one garbled scan not taken.
 - Constantinople 536 (council 6): Mansi VIII in the Welter facsimile (1901) taken; the acts run from about OCR
-  line 90500 to the end of the volume.
+  line 90500 to about 116790.
 - Beth Lapat 484 (council 3): nothing beyond the held Chabot and Braun. The acts were annulled and are lost. The
   Chronicle of Seert (Patrologia Orientalis 7) summarises a letter of Barsauma; grepped only, not taken.
 

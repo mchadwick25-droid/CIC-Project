@@ -207,7 +207,8 @@ person rows 1-13, council rows 1-8, and Library-label correction 19. The search 
 `Build/Ministry/Operations/Audits/2026-11-15_library-eras1-3/Search_Log.md`. Every file has a printed imprint of 1930
 or earlier, read on its title page. Every modern edition the audits named (Koenen and Römer, Perler, Thomson, Lang,
 Dowsett, Schwartz) is in copyright or after 1930, and was replaced by an older public-domain edition or witness, or
-reported not found. An Opus reviewer checked every rights row and a sample of the files.
+reported not found. An Opus reviewer checked every rights row and twelve of the files in depth; its corrections
+are in `R1_changes.md` beside the search log.
 
 | want (Wanted Sources row) | state | file(s) | shelf |
 |---|---|---|---|

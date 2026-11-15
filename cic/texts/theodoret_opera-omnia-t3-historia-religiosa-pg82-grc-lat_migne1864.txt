@@ -1,11 +1,11 @@
 Title: Patrologiae cursus completus, series Graeca, tomus LXXXII: Theodoreti Cyrensis episcopi opera omnia, tomus tertius (with the Historia ecclesiastica and the Historia religiosa)
-Creator: Theodoret of Cyrrhus; edited by J.-P. Migne after Schulze (title page)
+Creator: Theodoret of Cyrrhus; edited by J.-P. Migne (title page)
 Publisher: Paris: J.-P. Migne (title page, read from the page image)
 Publication Date: 1864 (title page, read from the page image; the OCR of the title page is poor)
 Rights: Public Domain (pd-us-by-date: published 1864); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees
 Language: grc, lat
 Source: archive.org item patrologiae_cursus_completus_gr_vol_082, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (8,475,812) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1864, out of US copyright by date. OCR quality: the Greek is clean to fair; the Latin column is poor near the chapter on Maron. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1864, out of US copyright by date. OCR quality: the Greek is clean to fair; the Latin column is unreadable throughout (read as Greek letters). Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
 Content note: the Historia religiosa (Philotheos) from about OCR line 99629; chapter 16, Maron ('ιστ΄. ΜΑΡΩΝ'), at 109550.
 
 ______________________________________________________________________
