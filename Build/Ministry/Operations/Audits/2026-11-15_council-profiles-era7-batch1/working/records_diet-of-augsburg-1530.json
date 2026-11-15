@@ -79,18 +79,6 @@
       "formation_confidence": "Documented"
     },
     {
-      "claim": "The Gutenberg English text names no translator",
-      "witness": "melanchthon_augsburg-confession_anon-pg275.txt l.8-14",
-      "witness_kind": "acts",
-      "formation_confidence": "Documented"
-    },
-    {
-      "claim": "Only sections 4 and 40 of the final decree are held",
-      "witness": "taeuferakten-wuerttemberg_quellen-geschichte-wiedertaeufer-1-deu_bossert1930.txt l.1012-1047",
-      "witness_kind": "acts",
-      "formation_confidence": "Documented"
-    },
-    {
       "claim": "The Catholic reply's content reaches us through Melanchthon, who says he worked from notes taken during the reading",
       "witness": "book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.3402-3406; bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31424-31427",
       "witness_kind": "participant",
@@ -229,12 +217,6 @@
       "formation_confidence": "Inferential-Thin"
     },
     {
-      "claim": "No list of all estates present and no total count is held",
-      "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17036-17037; sarpi_history-of-the-council-of-trent_brent1676.txt l.12718",
-      "witness_kind": "later narrative",
-      "formation_confidence": "Documented"
-    },
-    {
       "claim": "Pallavicino says the Diet met with an unusual attendance of princes, church and lay",
       "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17036-17037",
       "witness_kind": "later narrative",
@@ -283,10 +265,16 @@
       "formation_confidence": "Contested"
     },
     {
-      "claim": "Bucer and Capito presented the Tetrapolitan",
-      "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.2488-2490; zwingli_latin-works-correspondence-vol2_hinke1922.txt l.1975-1976",
+      "claim": "Bucer and Capito drew up the Tetrapolitan",
+      "witness": "zwingli_latin-works-correspondence-vol2_hinke1922.txt l.1975-1976; niemeyer_collectio-confessionum-lat_niemeyer1840.txt l.3956-3959 (with Hedio)",
       "witness_kind": "modern reconstruction",
       "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Waterworth says Bucer and Capito presented it; its title says the four cities' envoys did",
+      "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.2488-2490; niemeyer_collectio-confessionum-lat_niemeyer1840.txt l.46380-46384",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Contested"
     },
     {
       "claim": "Jacob Sturm sent Zwingli a copy of the Augsburg Confession on 31 May",
@@ -445,7 +433,7 @@
       "formation_confidence": "Inferential-Thin"
     },
     {
-      "claim": "Section 4 of the decree binds the elector, five princes and six cities against those who do not hold the sacrament and the Anabaptists",
+      "claim": "Section 4 says the elector, five princes and six cities should join the emperor and the other estates against those who do not hold the sacrament and the Anabaptists",
       "witness": "taeuferakten-wuerttemberg_quellen-geschichte-wiedertaeufer-1-deu_bossert1930.txt l.1012-1020",
       "witness_kind": "acts",
       "formation_confidence": "Documented"
@@ -481,14 +469,14 @@
       "formation_confidence": "Dominant Modern Reconstruction"
     },
     {
-      "claim": "The Protestant princes opposed the edict except the clauses against the Anabaptists and Zwinglians, and refused aid against the Turk",
+      "claim": "The Protestant princes opposed the September draft edict except the clauses against the Anabaptists and Zwinglians, and refused aid against the Turk",
       "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.2541-2544",
       "witness_kind": "modern reconstruction",
       "formation_confidence": "Dominant Modern Reconstruction"
     },
     {
-      "claim": "Melanchthon called the recess a horrible decree",
-      "witness": "book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.11949-11952; book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.11994",
+      "claim": "In the Apology Melanchthon writes that 'a horrible decree' has been prepared against them; H. E. Jacobs's note identifies it as the recess of 19 November",
+      "witness": "book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.11949-11952 (Melanchthon); book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.11994 (the identification, H. E. Jacobs's note, modern reconstruction)",
       "witness_kind": "participant",
       "formation_confidence": "Documented"
     },
@@ -653,6 +641,36 @@
       "witness": "luther_first-principles-reformation_wace-buchheim1885.txt l.3366-3371",
       "witness_kind": "modern reconstruction",
       "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "The printed German text differs considerably from the one read at Augsburg; the Latin is mainly unchanged; the German in the Book of Concord rests on a Mainz copy of doubtful accuracy",
+      "witness": "bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31330-31348",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Dominant Modern Reconstruction"
+    },
+    {
+      "claim": "Pallavicino quotes Melanchthon's letter to the legate, 'we hold no dogma different from the Roman Church', as evidence that the talks agreed on major articles",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17453-17461",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Pallavicino says the principal Protestants rejected the conditions of the first recess, before a second edict",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17600-17601",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Pallavicino summarizes a letter of Campeggio's to Aleander complaining that at Augsburg, on the eve of the planned concord, Faber and Eck published books that inflamed the other side",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17759-17766",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Pallavicino says the legate would not have the Confutation given in his name",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17743-17745",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
     }
   ],
   "contested_claims": [
@@ -713,7 +731,7 @@
     },
     {
       "claim": "Which document set the term of 15 April 1531",
-      "sides": "The draft read on 22 September: Waterworth (council-of-trent_canons-and-decrees_waterworth1848.txt l.2497-2505) | The decree issued on 19 November: Buchheim (luther_first-principles-reformation_wace-buchheim1885.txt l.3487-3492)",
+      "sides": "The draft read on 22 September: Waterworth (council-of-trent_canons-and-decrees_waterworth1848.txt l.2497-2505) | The decree issued on 19 November: Buchheim (luther_first-principles-reformation_wace-buchheim1885.txt l.3487-3492) | The first recess, refused by the principal Protestants, before a second edict: Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17567-17569, 17580-17582, 17600-17601; the day of April unclear in the OCR)",
       "formation_confidence": "Contested"
     },
     {
@@ -727,6 +745,11 @@
       "sides": "The adversaries 'were constrained to confess that our Confession was upright and true': Luther, Table Talk (luther_table-talk_bell1886.txt l.3640-3642) | The adversaries 'boast that they have refuted our Confession from the Scriptures': Melanchthon reporting the decree (book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.3417-3418); the draft decree said so: Bensow (bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31431-31434)",
       "formation_confidence": "Contested",
       "note": "Polemic on both sides; the profile states neither as fact."
+    },
+    {
+      "claim": "When the commission of seven a side sat",
+      "sides": "Before the 13 July draft of the reply: Waterworth (council-of-trent_canons-and-decrees_waterworth1848.txt l.2441-2446) | After the reply was read, in August: Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.12918-12920), Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17449), Buchheim (luther_first-principles-reformation_wace-buchheim1885.txt l.3443), Melanchthon (book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.3388)",
+      "formation_confidence": "Contested"
     }
   ],
   "absent_details": [
@@ -740,19 +763,19 @@
     },
     {
       "detail": "A list of all those present, or a total count",
-      "note": "None held. The acts collections Pallavicino used (Coelestinus) and Förstemann's Urkundenbuch, cited by C. M. Jacobs (luther_works-v4-selected_various1931.txt l.15684-15685), are not held."
+      "note": "None held. The acts collections Pallavicino used (Coelestinus) and Förstemann's Urkundenbuch, cited by C. M. Jacobs (luther_works-v4-selected_various1931.txt l.15684-15685), are not held. Pallavicino speaks only of an unusual attendance of princes (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17036-17037), and Sarpi of a hall holding about 200 (sarpi_history-of-the-council-of-trent_brent1676.txt l.12718)."
     },
     {
       "detail": "A document of Campeggio's from 1530",
-      "note": "None held. Searched 'campeg' in Mirbt, Mansi 32, the Book of Concord and the Apology; Mansi 32 holds only his 1524 Regensburg constitution."
+      "note": "None held. Searched 'campeg|campegg|campeius|campegius|campeggi' across all cic/texts/*.txt; Mansi 32 holds only his 1524 Regensburg constitution, and the only Campeggio document found is a letter of 1532 from Regensburg (theiner_vetera-monumenta-slavorum-meridionalium-v1-lat_1863.txt l.46768-46800). His view of the talks reaches us through Pallavicino's summary of a letter to Aleander (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17759-17766). Pallavicino says the legate would not have the Confutation given in his name (l.17743-17745)."
     },
     {
       "detail": "The emperor's writ of summons of 1530",
       "note": "Not held as a text. Buchheim quotes a phrase from it without a source (luther_first-principles-reformation_wace-buchheim1885.txt l.3335-3337)."
     },
     {
-      "detail": "Luther's letters from Coburg",
-      "note": "Not held. Searched 'coburg|koburg' across all texts: hits are editors' introductions and later works. Melanchthon's letters of 1530 reach us only through Waterworth's quotations."
+      "detail": "Luther's letters from Coburg about the Diet",
+      "note": "Not held. C. M. Jacobs quotes Luther's letter to Melanchthon of 5 July (luther_works-v4-selected_various1931.txt l.6245-6247); LW4 also holds the Sermon on Keeping Children in School, written at Coburg during the Diet, with its dedication to Lazarus Spengler (l.6234-6239, 6300 on), which does not mention the Diet. Melanchthon's 1530 letters reach us through Waterworth's quotations (council-of-trent_canons-and-decrees_waterworth1848.txt l.2356-2433, 2461-2467, 2509-2524) and through Pallavicino, who quotes his letter to the legate (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17457-17461)."
     },
     {
       "detail": "The first name of the chancellor Beyer",
@@ -761,6 +784,10 @@
     {
       "detail": "The day Philip of Hesse left Augsburg",
       "note": "Buchheim says 'at the beginning of August'; Waterworth and Foxe give no day. Searched FPR, WAT, Foxe IV, Bensow and Sarpi."
+    },
+    {
+      "detail": "The two signed copies handed to the emperor",
+      "note": "Lost (bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31317-31319); the held texts are printed editions (book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.1466-1468)."
     }
   ]
 }

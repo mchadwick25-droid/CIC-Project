@@ -86,9 +86,9 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Exsurge threatened Luther with penalties unless he recanted within 60 days of publication",
+        "claim": "Mirbt summarizes the bull's sentence: penalties for Luther and his followers unless they recanted within 60 days of its publication",
         "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.15508-15512",
-        "witness_kind": "acts",
+        "witness_kind": "modern reconstruction",
         "formation_confidence": "Documented"
       },
       {
@@ -200,7 +200,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Present at the talks: the archbishop of Trier, Joachim of Brandenburg, George of Saxony, the bishops of Augsburg and Brandenburg, Bock of Strasbourg, Peutinger and Vehus",
+        "claim": "Present at the talks: the archbishop of Trier, Joachim of Brandenburg, George of Saxony, the bishops of Augsburg and Brandenburg, Bock of Strasbourg, Peutinger and Dr. Voeus",
         "witness": "foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.22192-22197",
         "witness_kind": "later narrative",
         "formation_confidence": "Inferential-Thin"
@@ -302,7 +302,7 @@
         "formation_confidence": "Widely Accepted"
       },
       {
-        "claim": "Herrnschmid: 'He came thither, April 16'",
+        "claim": "Herrnschmid: 'He came thither, April 16' (the held OCR gives his name as 'John Daniel Hernnfehmid', arminian-magazine_vol-1_1778.txt l.3492)",
         "witness": "arminian-magazine_vol-1_1778.txt l.9150",
         "witness_kind": "later narrative",
         "formation_confidence": "Widely Accepted"
@@ -392,7 +392,13 @@
         "formation_confidence": "Widely Accepted"
       },
       {
-        "claim": "Vehus said Luther 'was not called to be conferred with, or to disputation'",
+        "claim": "Pallavicino names the archbishop of Trier who undertook to persuade Luther as Richard Greiffenklau (held OCR 'Riccardo Grieffeclau'), a close friend of Frederick but a good Catholic",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.10212-10214",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Dr. Voeus said Luther 'was not called to be conferred with, or to disputation'",
         "witness": "foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.22192-22200",
         "witness_kind": "later narrative",
         "formation_confidence": "Inferential-Thin"
@@ -584,7 +590,7 @@
         "formation_confidence": "Inferential-Thin"
       },
       {
-        "claim": "Herrnschmid: Luther 'added these German words, Hier stehe ich: ich kan nicht anders: Gott helfe mir! Amen.'",
+        "claim": "Herrnschmid: Luther 'added these German words, Hier stehe ich: ich kan nicht anders: Gott helfe mir! Amen.' (held OCR 'Hier flehe ich'; his name, l.3492, as 'Hernnfehmid')",
         "witness": "arminian-magazine_vol-1_1778.txt l.9300-9311",
         "witness_kind": "later narrative",
         "formation_confidence": "Contested"
@@ -629,7 +635,7 @@
     "contested_claims": [
       {
         "claim": "Whether Luther said 'Here I stand', and in what words",
-        "sides": "Held tellings that have it: Foxe's English, 'Hereupon I stand and rest' (foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.22078-22079); Herrnschmid, giving the German as words Luther added (arminian-magazine_vol-1_1778.txt l.9300-9311); Carlyle, quoted by Bacon (luther_hymns_bacon-allen.txt l.603-652); Zinzendorf (zinzendorf_sammlung-oeffentlicher-reden-pennsylvania-deu_buedingen1746.txt l.30869-30872). Held tellings without it: Luther's own Table Talk account (luther_table-talk_bell1886.txt l.3551-3618), Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.10076-10135), Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.9625-9680), Waterworth (council-of-trent_canons-and-decrees_waterworth1848.txt l.1726-1808) and Buchheim (luther_first-principles-reformation_wace-buchheim1885.txt l.2460-2475). No held editor discusses whether he said it.",
+        "sides": "Held tellings that have it: Foxe's English, 'Hereupon I stand and rest' (foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.22078-22079); Herrnschmid, giving the German as words Luther added (arminian-magazine_vol-1_1778.txt l.9300-9311); Carlyle, quoted by Bacon (luther_hymns_bacon-allen.txt l.603-652); Zinzendorf (zinzendorf_sammlung-oeffentlicher-reden-pennsylvania-deu_buedingen1746.txt l.30869-30872). Held tellings without it: Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.10076-10135), Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.9625-9680), Waterworth (council-of-trent_canons-and-decrees_waterworth1848.txt l.1726-1808) and Buchheim (luther_first-principles-reformation_wace-buchheim1885.txt l.2460-2475). Luther's Table Talk tells no speech of the second hearing; its 'next day' is the talks with 'the Bishops and others' (luther_table-talk_bell1886.txt l.3563-3565). No held editor discusses whether he said it.",
         "formation_confidence": "Contested"
       },
       {
@@ -638,8 +644,8 @@
         "formation_confidence": "Contested"
       },
       {
-        "claim": "The day of the first hearing",
-        "sides": "17 April, the day after arrival: Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.10012-10014), Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.9617), Waterworth (council-of-trent_canons-and-decrees_waterworth1848.txt l.1726-1729). 'The fourth day after his repair': Foxe (foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.21734).",
+        "claim": "How soon after his arrival the first hearing came",
+        "sides": "The day after: Pallavicino, 17 April (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.10012-10014); Sarpi, 17 April (sarpi_history-of-the-council-of-trent_brent1676.txt l.9617); Waterworth, arrived 16 April and appeared on the 17th (council-of-trent_canons-and-decrees_waterworth1848.txt l.1724-1727); Herrnschmid, 'April 16. The next day' (arminian-magazine_vol-1_1778.txt l.9150-9151). The fourth day after: Foxe (foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.21734), who gives no calendar date for either hearing.",
         "formation_confidence": "Contested"
       },
       {
@@ -693,7 +699,7 @@
       },
       {
         "detail": "Aleander's own dispatches from Worms",
-        "note": "Not held. Searched all texts for 'aleand' and 'aleandro': hits are Pallavicino, Waterworth, Sarpi, Foxe, Buchheim and Beza's editors, with Brieger's 1884 edition only cited (haupt ZKG 7 l.17946). Aleander reaches us through Pallavicino, who used his letters."
+        "note": "Not held. Searched all texts for 'aleand' and 'aleandro': hits are Pallavicino, Waterworth, Sarpi, Foxe, Buchheim and Beza's editors, with Brieger's 1884 edition only cited (haupt ZKG 7 l.17946). Aleander reaches us through Pallavicino, who used his letters. Luther's 1930 editors (luther_works-v3 l.293-294) report one 1520 letter from Aix, not from Worms."
       },
       {
         "detail": "Luther's Worms speech in its original Latin or German",
@@ -794,18 +800,6 @@
       {
         "claim": "The confession's preface, conclusion and signers are held in English and Swedish",
         "witness": "melanchthon_augsburg-confession_anon-pg275.txt l.44-161; melanchthon_augsburg-confession_anon-pg275.txt l.1555-1567; book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.3253-3263; bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.2470-2491",
-        "witness_kind": "acts",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "The Gutenberg English text names no translator",
-        "witness": "melanchthon_augsburg-confession_anon-pg275.txt l.8-14",
-        "witness_kind": "acts",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Only sections 4 and 40 of the final decree are held",
-        "witness": "taeuferakten-wuerttemberg_quellen-geschichte-wiedertaeufer-1-deu_bossert1930.txt l.1012-1047",
         "witness_kind": "acts",
         "formation_confidence": "Documented"
       },
@@ -948,12 +942,6 @@
         "formation_confidence": "Inferential-Thin"
       },
       {
-        "claim": "No list of all estates present and no total count is held",
-        "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17036-17037; sarpi_history-of-the-council-of-trent_brent1676.txt l.12718",
-        "witness_kind": "later narrative",
-        "formation_confidence": "Documented"
-      },
-      {
         "claim": "Pallavicino says the Diet met with an unusual attendance of princes, church and lay",
         "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17036-17037",
         "witness_kind": "later narrative",
@@ -1002,10 +990,16 @@
         "formation_confidence": "Contested"
       },
       {
-        "claim": "Bucer and Capito presented the Tetrapolitan",
-        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.2488-2490; zwingli_latin-works-correspondence-vol2_hinke1922.txt l.1975-1976",
+        "claim": "Bucer and Capito drew up the Tetrapolitan",
+        "witness": "zwingli_latin-works-correspondence-vol2_hinke1922.txt l.1975-1976; niemeyer_collectio-confessionum-lat_niemeyer1840.txt l.3956-3959 (with Hedio)",
         "witness_kind": "modern reconstruction",
         "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Waterworth says Bucer and Capito presented it; its title says the four cities' envoys did",
+        "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.2488-2490; niemeyer_collectio-confessionum-lat_niemeyer1840.txt l.46380-46384",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Contested"
       },
       {
         "claim": "Jacob Sturm sent Zwingli a copy of the Augsburg Confession on 31 May",
@@ -1164,7 +1158,7 @@
         "formation_confidence": "Inferential-Thin"
       },
       {
-        "claim": "Section 4 of the decree binds the elector, five princes and six cities against those who do not hold the sacrament and the Anabaptists",
+        "claim": "Section 4 says the elector, five princes and six cities should join the emperor and the other estates against those who do not hold the sacrament and the Anabaptists",
         "witness": "taeuferakten-wuerttemberg_quellen-geschichte-wiedertaeufer-1-deu_bossert1930.txt l.1012-1020",
         "witness_kind": "acts",
         "formation_confidence": "Documented"
@@ -1200,14 +1194,14 @@
         "formation_confidence": "Dominant Modern Reconstruction"
       },
       {
-        "claim": "The Protestant princes opposed the edict except the clauses against the Anabaptists and Zwinglians, and refused aid against the Turk",
+        "claim": "The Protestant princes opposed the September draft edict except the clauses against the Anabaptists and Zwinglians, and refused aid against the Turk",
         "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.2541-2544",
         "witness_kind": "modern reconstruction",
         "formation_confidence": "Dominant Modern Reconstruction"
       },
       {
-        "claim": "Melanchthon called the recess a horrible decree",
-        "witness": "book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.11949-11952; book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.11994",
+        "claim": "In the Apology Melanchthon writes that 'a horrible decree' has been prepared against them; H. E. Jacobs's note identifies it as the recess of 19 November",
+        "witness": "book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.11949-11952 (Melanchthon); book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.11994 (the identification, H. E. Jacobs's note, modern reconstruction)",
         "witness_kind": "participant",
         "formation_confidence": "Documented"
       },
@@ -1372,6 +1366,36 @@
         "witness": "luther_first-principles-reformation_wace-buchheim1885.txt l.3366-3371",
         "witness_kind": "modern reconstruction",
         "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "The printed German text differs considerably from the one read at Augsburg; the Latin is mainly unchanged; the German in the Book of Concord rests on a Mainz copy of doubtful accuracy",
+        "witness": "bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31330-31348",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Pallavicino quotes Melanchthon's letter to the legate, 'we hold no dogma different from the Roman Church', as evidence that the talks agreed on major articles",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17453-17461",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Pallavicino says the principal Protestants rejected the conditions of the first recess, before a second edict",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17600-17601",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Pallavicino summarizes a letter of Campeggio's to Aleander complaining that at Augsburg, on the eve of the planned concord, Faber and Eck published books that inflamed the other side",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17759-17766",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Pallavicino says the legate would not have the Confutation given in his name",
+        "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17743-17745",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Inferential-Thin"
       }
     ],
     "contested_claims": [
@@ -1432,7 +1456,7 @@
       },
       {
         "claim": "Which document set the term of 15 April 1531",
-        "sides": "The draft read on 22 September: Waterworth (council-of-trent_canons-and-decrees_waterworth1848.txt l.2497-2505) | The decree issued on 19 November: Buchheim (luther_first-principles-reformation_wace-buchheim1885.txt l.3487-3492)",
+        "sides": "The draft read on 22 September: Waterworth (council-of-trent_canons-and-decrees_waterworth1848.txt l.2497-2505) | The decree issued on 19 November: Buchheim (luther_first-principles-reformation_wace-buchheim1885.txt l.3487-3492) | The first recess, refused by the principal Protestants, before a second edict: Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17567-17569, 17580-17582, 17600-17601; the day of April unclear in the OCR)",
         "formation_confidence": "Contested"
       },
       {
@@ -1446,6 +1470,11 @@
         "sides": "The adversaries 'were constrained to confess that our Confession was upright and true': Luther, Table Talk (luther_table-talk_bell1886.txt l.3640-3642) | The adversaries 'boast that they have refuted our Confession from the Scriptures': Melanchthon reporting the decree (book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.3417-3418); the draft decree said so: Bensow (bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31431-31434)",
         "formation_confidence": "Contested",
         "note": "Polemic on both sides; the profile states neither as fact."
+      },
+      {
+        "claim": "When the commission of seven a side sat",
+        "sides": "Before the 13 July draft of the reply: Waterworth (council-of-trent_canons-and-decrees_waterworth1848.txt l.2441-2446) | After the reply was read, in August: Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.12918-12920), Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17449), Buchheim (luther_first-principles-reformation_wace-buchheim1885.txt l.3443), Melanchthon (book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.3388)",
+        "formation_confidence": "Contested"
       }
     ],
     "absent_details": [
@@ -1459,19 +1488,19 @@
       },
       {
         "detail": "A list of all those present, or a total count",
-        "note": "None held. The acts collections Pallavicino used (Coelestinus) and Förstemann's Urkundenbuch, cited by C. M. Jacobs (luther_works-v4-selected_various1931.txt l.15684-15685), are not held."
+        "note": "None held. The acts collections Pallavicino used (Coelestinus) and Förstemann's Urkundenbuch, cited by C. M. Jacobs (luther_works-v4-selected_various1931.txt l.15684-15685), are not held. Pallavicino speaks only of an unusual attendance of princes (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17036-17037), and Sarpi of a hall holding about 200 (sarpi_history-of-the-council-of-trent_brent1676.txt l.12718)."
       },
       {
         "detail": "A document of Campeggio's from 1530",
-        "note": "None held. Searched 'campeg' in Mirbt, Mansi 32, the Book of Concord and the Apology; Mansi 32 holds only his 1524 Regensburg constitution."
+        "note": "None held. Searched 'campeg|campegg|campeius|campegius|campeggi' across all cic/texts/*.txt; Mansi 32 holds only his 1524 Regensburg constitution, and the only Campeggio document found is a letter of 1532 from Regensburg (theiner_vetera-monumenta-slavorum-meridionalium-v1-lat_1863.txt l.46768-46800). His view of the talks reaches us through Pallavicino's summary of a letter to Aleander (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17759-17766). Pallavicino says the legate would not have the Confutation given in his name (l.17743-17745)."
       },
       {
         "detail": "The emperor's writ of summons of 1530",
         "note": "Not held as a text. Buchheim quotes a phrase from it without a source (luther_first-principles-reformation_wace-buchheim1885.txt l.3335-3337)."
       },
       {
-        "detail": "Luther's letters from Coburg",
-        "note": "Not held. Searched 'coburg|koburg' across all texts: hits are editors' introductions and later works. Melanchthon's letters of 1530 reach us only through Waterworth's quotations."
+        "detail": "Luther's letters from Coburg about the Diet",
+        "note": "Not held. C. M. Jacobs quotes Luther's letter to Melanchthon of 5 July (luther_works-v4-selected_various1931.txt l.6245-6247); LW4 also holds the Sermon on Keeping Children in School, written at Coburg during the Diet, with its dedication to Lazarus Spengler (l.6234-6239, 6300 on), which does not mention the Diet. Melanchthon's 1530 letters reach us through Waterworth's quotations (council-of-trent_canons-and-decrees_waterworth1848.txt l.2356-2433, 2461-2467, 2509-2524) and through Pallavicino, who quotes his letter to the legate (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.17457-17461)."
       },
       {
         "detail": "The first name of the chancellor Beyer",
@@ -1480,6 +1509,10 @@
       {
         "detail": "The day Philip of Hesse left Augsburg",
         "note": "Buchheim says 'at the beginning of August'; Waterworth and Foxe give no day. Searched FPR, WAT, Foxe IV, Bensow and Sarpi."
+      },
+      {
+        "detail": "The two signed copies handed to the emperor",
+        "note": "Lost (bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31317-31319); the held texts are printed editions (book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.1466-1468)."
       }
     ]
   },
@@ -1540,7 +1573,7 @@
         "formation_confidence": "Inferential-Thin"
       },
       {
-        "claim": "A prisoner in Bersour's inquiry said the barbes' synod had lasted six days; Gilles adds that the Latin trial record calls it 'Capitulum'",
+        "claim": "A prisoner in Bersour's inquiry said the barbes had then ('alors') held their synod, which lasted six days; Gilles adds that the Latin trial record calls it 'Capitulum'",
         "witness": "gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2454-2467",
         "witness_kind": "participant",
         "formation_confidence": "Documented"
@@ -1690,13 +1723,13 @@
         "formation_confidence": "Inferential-Thin"
       },
       {
-        "claim": "Jeanet Peiret of Angrogna, a guard Bersour caught, testified on 22 September. He said they kept guard for the ministers 'assemblez en la bourgade des Chanforans au milieu d'Angrogne'",
+        "claim": "Jeanet Peiret of Angrogna, a guard Bersour caught, testified on 22 September. He said they kept guard for the ministers 'assemblez en la bourgade des Chanforans au milieu d'Angrogne' (Gilles places the watch in 1535: Peiret was one of those Bersour caught keeping guard)",
         "witness": "gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2441-2445; gilles_histoire-ecclesiastique-eglises-reformees-vallees-de-piemont-fra_1644.txt l.3084-3086",
         "witness_kind": "participant",
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Peiret said that among them was 'M. Farel, qui avoit la barbe rouge, et un beau cheval blanc', with two companions (the 1881 OCR reads 'Farel.'; the 1644 print has the comma)",
+        "claim": "Peiret said that among them was 'M. Farel, qui avoit la barbe rouge, et un beau cheval blanc', with two companions (the 1881 OCR reads 'Farel.'; the 1644 print has the comma) (Gilles places the watch in 1535)",
         "witness": "gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2446-2450; gilles_histoire-ecclesiastique-eglises-reformees-vallees-de-piemont-fra_1644.txt l.3088-3091",
         "witness_kind": "participant",
         "formation_confidence": "Documented"
@@ -2056,7 +2089,7 @@
         "formation_confidence": "Contested"
       },
       {
-        "claim": "Zezschwitz says Morel voiced his churches' surprise at Luther's teaching on the bound will, dating it by slip to 1532. The 1532 decrees, he says, breathe the firmest predestinarian teaching",
+        "claim": "Zezschwitz says Morel, 'noch 1532', voiced his churches' surprise at Luther's teaching on the bound will; the held letters date Morel's mission to 1530 (perrin_histoire-des-vaudois-fra_1619.txt l.14134-14143; morland_history-evangelical-churches-piemont_1658.txt l.21825-21826). The 1532 decrees, he says, breathe the firmest predestinarian teaching",
         "witness": "zezschwitz_katechismen-der-waldenser-und-boehmischen-brueder-deu_1863.txt l.6303-6311",
         "witness_kind": "modern reconstruction",
         "formation_confidence": "Contested"
@@ -2078,6 +2111,24 @@
         "witness": "muston_israel-of-the-alps-v1_montgomery1866.txt l.6545-6547",
         "witness_kind": "modern reconstruction",
         "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Gilles says some barbes did not consent to all the conclusions, and names Daniel de Valence and Jean de Molines as two of the leading objectors ('deux des principaux contredisans')",
+        "witness": "gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2030-2049",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Blahoslav: the envoys said they were sent by the Waldensian community ('missos esse a coetu Waldensium'), to see whether the Unity had changed and its ministers married",
+        "witness": "goll_quellen-bohmische-bruder-v1-deu_1878.txt l.7176-7179",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Crespin's editors (Benoît and Lelièvre, 1885), after Merle d'Aubigné and Herminjard: Martin Gonin came with another barbe to invite Farel and Saunier, then at Grandson, to the synod of Angrogne held on 12 September (the OCR year reads 1552; Gonin left Geneva in April 1536 and was then taken prisoner, l.49944-49962)",
+        "witness": "crespin_histoire-des-martyrs-t1-fra_benoit-lelievre1885.txt l.49905-49911",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Contested"
       }
     ],
     "contested_claims": [
@@ -2088,12 +2139,12 @@
       },
       {
         "claim": "Whether the name Chanforans and Farel's presence belong to the 1532 meeting",
-        "sides": "The only witness of the time is Peiret's deposition, which Gilles places in Bersour's inquiry of 1535 (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2328-2330; gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2441-2451). Gilles names no visitor at the 1532 assembly (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.1911-1918) and says the Swiss pastors 'continuoyent de venir' (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2450-2451). Tied to 1532: Muston (muston_israel-of-the-alps-v1_montgomery1866.txt l.6382-6384; muston_israel-of-the-alps-v1_montgomery1866.txt l.6402-6410; muston_israel-of-the-alps-v1_montgomery1866.txt l.7484-7485), Baum and Cunitz from Herminjard (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.2433-2435), Zezschwitz for the name (zezschwitz_katechismen-der-waldenser-und-boehmischen-brueder-deu_1863.txt l.11544-11546).",
+        "sides": "The only witness of the time is Peiret's deposition, which Gilles places in Bersour's inquiry of 1535 (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2328-2330; gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2441-2451). Gilles has Peiret caught on watch, for ministers then gathered (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2441-2445), and the prisoner's synod 'alors' (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2464-2466). Gilles names no visitor at the 1532 assembly (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.1911-1918) and says the Swiss pastors 'continuoyent de venir' (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2450-2451). Tied to 1532: Muston (muston_israel-of-the-alps-v1_montgomery1866.txt l.6382-6384; muston_israel-of-the-alps-v1_montgomery1866.txt l.6402-6410; muston_israel-of-the-alps-v1_montgomery1866.txt l.7484-7485), Baum and Cunitz from Herminjard (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.2433-2435), Crespin's editors, after Merle d'Aubigné and Herminjard: Gonin and another barbe invited Farel and Saunier from Grandson to the synod of 12 September (crespin_histoire-des-martyrs-t1-fra_benoit-lelievre1885.txt l.49905-49911), Zezschwitz for the name (zezschwitz_katechismen-der-waldenser-und-boehmischen-brueder-deu_1863.txt l.11544-11546).",
         "formation_confidence": "Contested"
       },
       {
         "claim": "What the two dissenting barbes did and how they parted",
-        "sides": "Walked out of the assembly in protest and took their complaint to Bohemia: Gilles (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2047-2058). Sent by the barbes to Bohemia and betrayed its churches: Perrin (perrin_histoire-des-vaudois-fra_1619.txt l.6538-6550; perrin_histoire-des-vaudois-fra_1619.txt l.14672-14680). So also Morland (morland_history-evangelical-churches-piemont_1658.txt l.21810-21820), Léger, by 'trop grande imprudence' (leger_histoire-generale-eglises-vaudoises-livre1-fra_1669.txt l.22897-22900). Stayed six months, praised all and went home: Blahoslav (goll_quellen-bohmische-bruder-v1-deu_1878.txt l.7159-7185), with Goll's identification (goll_quellen-bohmische-bruder-v1-deu_1878.txt l.7223-7224); Comenius (comenius_historia-fratrum-bohemorum-lat_1702.txt l.2805-2810). Gilles says the Bohemian letter blames them for nothing (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2145-2148).",
+        "sides": "Walked out of the assembly in protest and took their complaint to Bohemia: Gilles (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2047-2058). Sent by the barbes to Bohemia and betrayed its churches: Perrin (perrin_histoire-des-vaudois-fra_1619.txt l.6538-6550; perrin_histoire-des-vaudois-fra_1619.txt l.14672-14680). So also Morland (morland_history-evangelical-churches-piemont_1658.txt l.21810-21820), Léger, by 'trop grande imprudence' (leger_histoire-generale-eglises-vaudoises-livre1-fra_1669.txt l.22897-22900). Came as envoys sent by the Waldensians, told of discord at home, stayed six months and left on good terms: Blahoslav (goll_quellen-bohmische-bruder-v1-deu_1878.txt l.7159-7183), with Goll's identification (goll_quellen-bohmische-bruder-v1-deu_1878.txt l.7223-7224); Comenius (comenius_historia-fratrum-bohemorum-lat_1702.txt l.2805-2816). The Bohemian letter, as Gilles gives it, has them say they were sent (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2066-2067). Gilles says the Bohemian letter blames them for nothing (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2145-2148).",
         "formation_confidence": "Contested"
       },
       {
@@ -2108,7 +2159,7 @@
       },
       {
         "claim": "Whether all present signed",
-        "sides": "All present signed and swore: Perrin (perrin_histoire-des-vaudois-fra_1619.txt l.12007-12012), Morland (morland_history-evangelical-churches-piemont_1658.txt l.7944-7946). The greater part signed and two refused: Muston, citing Gilles (muston_israel-of-the-alps-v1_montgomery1866.txt l.6538-6542). Gilles says the two left without leave and does not speak of signing (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2047-2052).",
+        "sides": "All present signed and swore: Perrin (perrin_histoire-des-vaudois-fra_1619.txt l.12007-12012), Morland (morland_history-evangelical-churches-piemont_1658.txt l.7944-7946). The greater part signed and two refused: Muston, citing Gilles (muston_israel-of-the-alps-v1_montgomery1866.txt l.6538-6542). Gilles says the two left without leave and does not speak of signing (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2047-2052). Gilles says some barbes did not consent to all the conclusions (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2030-2031); Montet: 'une faible minorité' (montet_histoire-litteraire-des-vaudois-du-piemont-fra_1885.txt l.9152); Zezschwitz: two leaders of the minority left (zezschwitz_katechismen-der-waldenser-und-boehmischen-brueder-deu_1863.txt l.11554-11555).",
         "formation_confidence": "Contested"
       },
       {
@@ -2150,7 +2201,7 @@
       },
       {
         "detail": "A witness of the time placing Saunier or Olivetan at the 1532 meeting",
-        "note": "None held. Muston (l.6404-6405, 6411-6412) and the Baum and Cunitz note from Herminjard (beza t1 l.2433-2435) say so; Herminjard is not held. A 1539 letter of Libertet to Farel says Olivetan went to the Waldensians with Farel, without a date (calvin opera vol10 l.48140-48141)."
+        "note": "None held. Muston (l.6404-6405, 6411-6412), the Baum and Cunitz note from Herminjard (beza t1 l.2433-2435) and Crespin's editors (crespin t1 l.49905-49911) say so; Herminjard and Merle d'Aubigné are not held. A 1539 letter of Libertet to Farel says Olivetan went to the Waldensians with Farel, without a date (calvin opera vol10 l.48140-48141)."
       },
       {
         "detail": "The Olivetan Bible itself and its 'Apologie du translateur'",
