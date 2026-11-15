@@ -1,0 +1,14 @@
+source_file: vieira_sermoens-parte3-por_1683.txt
+assignments:
+- row_id: vieira_sermoens-parte3-por_1683--vieira-sermoens-parte-3
+  work: 'Vieira, Sermoens, terceira parte (Lisbon, 1683)'
+  author: vieira
+  locus: 'the sermons at OCR lines 610-40190; add 12 to OCR line numbers'
+  atlas_ids:
+  - colonial-latin-american-devotional-catholicism
+  - society-of-jesus-1650-1814
+  role: tradition
+  confidence: provisional
+  language: por
+  date: {start: 1683, end: 1683, source: "title page: 1683; the sermon headings give the years they were preached", formation_confidence: Documented}
+  note: 'The Jesuit preacher''s sermons in the Lisbon edition printed in his lifetime; the Society''s licences in the front matter are dated from Bahia. A printed text may differ from what was preached.'

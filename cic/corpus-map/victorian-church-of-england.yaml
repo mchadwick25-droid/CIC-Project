@@ -153,6 +153,38 @@ works:
     formation_confidence: Documented
   note: 'Era 9 row 273, Frederick Denison Maurice: a Life told in his letters (vol. 1).'
   source_file: maurice-f_life-of-frederick-denison-maurice-v1_1884.txt
+- row_id: pascoe_two-hundred-years-of-the-spg-v2_1901--pascoe-spg-v2-asia-and-europe
+  work: 'Pascoe, Two Hundred Years of the S.P.G., vol. II: the Asian and European fields'
+  author: pascoe
+  locus: chapters LXXVI-XCIII at OCR lines 97-22501; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1901
+    end: 1901
+    source: 'title page: 1901'
+    formation_confidence: Documented
+  note: The Society's own digest of its records, field by field. Nearly all of it is the nineteenth
+    century; the opening of the Madras chapter looks back to Tranquebar and Schwartz. A summary
+    written in 1901 by the Society's assistant secretary.
+  source_file: pascoe_two-hundred-years-of-the-spg-v2_1901.txt
+- row_id: pascoe_two-hundred-years-of-the-spg-v2_1901--pascoe-spg-v2-home-work-and-roll
+  work: 'Pascoe, Two Hundred Years of the S.P.G., vol. II: the episcopate, education, translations,
+    funds and the roll of missionaries'
+  author: pascoe
+  locus: OCR lines 22505-61667; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1901
+    end: 1901
+    source: 'title page: 1901'
+    formation_confidence: Documented
+  note: Reference chapters and the roll of every missionary from 1701 to 1900, with places
+    and years. Useful for checking a name or a date.
+  source_file: pascoe_two-hundred-years-of-the-spg-v2_1901.txt
 - row_id: wilberforce_practical-view-of-the-prevailing-religious-system_dublin1797--a-practical-view-of-the-prevailing-religious-system-of-2
   work: A Practical View of the Prevailing Religious System of Professed Christians (1797)
   author: wilberforce

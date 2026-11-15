@@ -75,6 +75,42 @@ works:
   confidence: assigned
   note: The founding text of the Baptist missionary movement, by its first missionary.
   source_file: carey-william_enquiry-into-the-obligations-of-christians_1792.txt
+- row_id: dutton-anne_brief-account-of-the-gracious-dealings-of-god_1750--dutton-brief-account-three-parts
+  work: Dutton, A Brief Account of the Gracious Dealings of God, Parts I-III with the Appendix
+    (1750)
+  author: dutton-anne
+  locus: Part I from OCR line 242; Part II from 4159; Part III from 13871; the Appendix at
+    19469 to about 23440; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1743
+    end: 1750
+    source: Part II's own imprint reads 1743 (OCR line 4218); the general title page reads
+      1750 (line 77)
+    formation_confidence: Documented
+  note: Her own account of God's dealings with her and of the tracts she wrote. Provisional
+    only because the title page gives initials, 'A. D.', and the name is the record's.
+  source_file: dutton-anne_brief-account-of-the-gracious-dealings-of-god_1750.txt
+- row_id: dutton-anne_brief-account-of-the-gracious-dealings-of-god_1750--dutton-letter-on-printing-by-a-woman
+  work: Dutton, a letter on the lawfulness of printing any thing written by a woman (1750
+    printing)
+  author: dutton-anne
+  locus: the letter at OCR lines 23554-24020, its title at 23481-23547; add 12 to OCR line
+    numbers
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1743
+    end: 1750
+    source: printed with the 1750 Brief Account; Part III's title page says it is prefixed,
+      and it stands at the end
+    formation_confidence: Documented
+  note: Her defense of writing for print as a woman, addressed to ministers who objected.
+    Signed 'A. D.'
+  source_file: dutton-anne_brief-account-of-the-gracious-dealings-of-god_1750.txt
 - row_id: dutton-anne_letters-on-spiritual-subjects-v1_1740--letters-on-spiritual-subjects-and-divers-occasions-vol-1
   work: Letters on Spiritual Subjects, and Divers Occasions, vol. 1 (1740)
   author: dutton-anne

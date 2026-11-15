@@ -1,0 +1,24 @@
+source_file: du-fosse_memoires-pour-servir-a-l-histoire-de-port-royal-fra_1739.txt
+assignments:
+- row_id: du-fosse_memoires-pour-servir-a-l-histoire-de-port-royal-fra_1739--du-fosse-memoires
+  work: 'Du Fossé, Mémoires pour servir à l''histoire de Port-Royal (1739)'
+  author: du-fosse
+  locus: 'books I-IV at OCR lines 1557-24421; add 12 to OCR line numbers'
+  atlas_ids:
+  - port-royal-jansenism
+  role: tradition
+  confidence: provisional
+  language: fra
+  date: {start: 1697, end: 1739, source: "the editors' Life says he began the memoirs at the end of 1697 and died in 1698 (OCR lines 1202 and 1300); title page: 1739", formation_confidence: Documented}
+  note: 'Du Fossé''s own memories of Port-Royal, written at the end of his life. Printed forty years after his death by editors who are not named.'
+- row_id: du-fosse_memoires-pour-servir-a-l-histoire-de-port-royal-fra_1739--du-fosse-memoires-editors-life
+  work: 'Mémoires de du Fossé (1739): the editors'' avertissement and Life of du Fossé'
+  author: du-fosse
+  locus: 'the avertissement at OCR lines 175-510; the Life at 514-1540; add 12 to OCR line numbers'
+  atlas_ids:
+  - port-royal-jansenism
+  role: context
+  confidence: provisional
+  language: fra
+  date: {start: 1739, end: 1739, source: "title page: 1739", formation_confidence: Documented}
+  note: 'The editors of 1739 on the author. Unsigned; later than the entry''s window.'

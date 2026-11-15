@@ -31,6 +31,25 @@ works:
   note: A priest's own account with depositions he gathered, published by Chaldean Rescue.
     The print does not say who made the English.
   source_file: naayem_shall-this-nation-die_1921.txt
+- row_id: parry_six-months-in-a-syrian-monastery_1895--parry-six-months-in-a-syrian-monastery
+  work: Parry, Six Months in a Syrian Monastery (1895)
+  author: parry
+  locus: the travel chapters at OCR lines 635-13399; 'The Old Syrian Church' at 13400-17282;
+    add 12 to OCR line numbers
+  role: context
+  confidence: needs-ruling
+  language: eng
+  date:
+    start: 1895
+    end: 1895
+    source: 'title page: 1895 (page image); the prefatory note is dated 8 December 1894; the
+      visit was in 1892'
+    formation_confidence: Documented
+  note: An English visitor sent by a society that aided the patriarch's schools describes
+    the Syriac Orthodox of Mardin and Tur Abdin twenty years before the Sayfo. An outsider's
+    friendly account. The census has no entry for this church between 1650 and 1906, so the
+    shelf is the nearest one and needs a ruling.
+  source_file: parry_six-months-in-a-syrian-monastery_1895.txt
 - row_id: wigram_assyrians-and-their-neighbours_1929--chapter-vii-schism-of-the-sixteenth-century-4
   work: The Assyrians and their Neighbours (1929), chapter X, The Great War and After
   author: wigram

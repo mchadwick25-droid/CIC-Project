@@ -1,0 +1,17 @@
+source_file: fontaine-nicolas_memoires-pour-servir-a-l-histoire-de-port-royal-t2-fra_1738.txt
+assignments:
+- row_id: fontaine-nicolas_memoires-pour-servir-a-l-histoire-de-port-royal-t2-fra_1738--fontaine-memoires-t2-parts-3-4
+  work: 'Fontaine, Mémoires pour servir à l''histoire de Port-Royal, tome 2: parts 3 and 4 (1738)'
+  author: fontaine-nicolas
+  locus: 'part 3 at OCR lines 145-13020; part 4 at 13021-26483; add 12 to OCR line numbers'
+  atlas_ids:
+  - port-royal-jansenism
+  role: tradition
+  confidence: provisional
+  language: fra
+  date: {start: 1738, end: 1738, source: "title page: 1738; when Fontaine wrote was not read in the volume", formation_confidence: Documented}
+  note: 'The second half of his memoirs, to the scattering of Port-Royal. See the note on tome 1.'
+authors_ruled:
+  fontaine-nicolas:
+    kind: metadata-omission
+    evidence: "The title page reads 'Par M. Fontaine' and gives no first name; the archive.org record names Nicolas Fontaine."

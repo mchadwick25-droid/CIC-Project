@@ -752,6 +752,12 @@ authors:
 
       '
     from_file: camisards_manifesto-of-the-cevennois_1703.txt
+  campbell-thomas:
+    kind: metadata-omission
+    evidence: The Centennial title page (file lines 16-26) names Thomas Campbell. The 1809
+      title page reprinted inside (file lines 137-164) names the Christian Association of
+      Washington and no author.
+    from_file: campbell-thomas_declaration-and-address-centennial-edition_1906.txt
   cananus:
     kind: metadata-omission
     evidence: 'The title page names ''Ioannes Cananus'' among the chroniclers in this volume;
@@ -807,6 +813,12 @@ authors:
       file as Chaterina Bolognese (Caterina Vigri of Bologna). A mechanical index-coverage
       gap, not an attribution dispute.
     from_file: caterina-vigri_libro-della-beata-chaterina-bolognese-ita_1536.txt
+  cattaneo-gaetano:
+    kind: metadata-omission
+    evidence: The title page names only Muratori. The three letters are headed as letters
+      of Father Gaetano Cattaneo of the Society of Jesus to his brother (file lines 7798,
+      9500 and 9996).
+    from_file: muratori_il-cristianesimo-felice-nelle-missioni-del-paraguai-ita_1743.txt
   celtic-penitentials:
     kind: anonymous
     evidence: 'A collection of penitentials by Vinnian, Columbanus, Cummean, Gildas and unnamed
@@ -849,9 +861,9 @@ authors:
     from_file: jones-thomas_cofiant-thomas-charles-cym_1816.txt
   charmot:
     kind: metadata-omission
-    evidence: The notes on the Jesuits' observations on the Mandate are headed 'a Nicolao
-      Charmot' (heading at file lines 138-169, his name at 158); the title pages name no author.
-    from_file: historia-cultus-sinensium_varia-scripta-de-cultibus-sinarum-lat_1700.txt
+    evidence: The title page (file lines 29-59) names no author. The first piece is headed
+      'Vindiciae scriptorum Nicolai Charmot' (file lines 135-139).
+    from_file: historia-cultus-sinensium_continuatio-lat_1700.txt
   chirino:
     kind: metadata-omission
     evidence: The volume's own contents list reads 'Relacion de las Islas Filipinas (to be
@@ -970,6 +982,11 @@ authors:
       396), the replies of the provincial synods of 457-458 to the emperor Leo; a collection
       of many hands, no single author.
     from_file: mansi_sacrorum-conciliorum-collectio-tomus-7-451-492-lat_welter-facsimile1901.txt
+  cole-nathan:
+    kind: metadata-omission
+    evidence: Walker introduces the extract at file lines 3168-3181 as the narrative of Nathan
+      Cole; the title page names only Walker.
+    from_file: walker-george-leon_some-aspects-of-the-religious-life-of-new-england_1897.txt
   collatio-carthaginiensis:
     kind: anonymous
     evidence: 'The official notarial acts of the 411 conference, recorded by the proceeding''s
@@ -1500,6 +1517,11 @@ authors:
       beati Francisci. The title page names no author; the English introduction attributes
       the Latin source to Ugolino of Monte Giorgio. The ruling here is anonymous.
     from_file: fioretti_little-flowers-of-st-francis_heywood1906.txt
+  fontaine-nicolas:
+    kind: metadata-omission
+    evidence: The title page reads 'Par M. Fontaine' and gives no first name; the archive.org
+      record names Nicolas Fontaine.
+    from_file: fontaine-nicolas_memoires-pour-servir-a-l-histoire-de-port-royal-t1-fra_1738.txt
   fowler_brothers:
     kind: metadata-omission
     evidence: 'The file is plain text and carries no markup to hold a creator, so the extractor
@@ -1777,6 +1799,12 @@ authors:
 
       '
     from_file: zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt
+  haynes-lemuel:
+    kind: metadata-omission
+    evidence: The title page (file lines 32-83) names Cooley as author and Haynes as the subject.
+      Haynes's own sermons and letters are headed as his inside the chapters and in the appendix,
+      which his son W. B. Haynes says he appended (file lines 16048-16056).
+    from_file: cooley_sketches-of-the-life-and-character-of-lemuel-haynes_1837.txt
   hegesippus:
     kind: metadata-omission
     evidence: div2 10.6 'Hegesippus' names the author.
@@ -2720,6 +2748,12 @@ authors:
 
       '
     from_file: murray-john_records-of-the-life-written-by-himself_1816.txt
+  murray-judith-sargent:
+    kind: pseudonymous
+    evidence: The title page reads 'By Constantia'. The archive.org record names Judith Sargent
+      Murray; in the conclusion of vol. III, 'The Gleaner Unmasked', the author drops the
+      mask (vol. III file lines 16048-16236).
+    from_file: murray-judith-sargent_the-gleaner-v1_1798.txt
   mush-john:
     kind: metadata-omission
     evidence: 'The volume''s table of contents (file line about 438) and the paper heading
@@ -3158,6 +3192,11 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  quesnel:
+    kind: metadata-omission
+    evidence: The title page (file lines 36-75) names no author; it says the work is printed
+      by order of the bishop of Châlons. The archive.org record credits Pasquier Quesnel.
+    from_file: quesnel_nouveau-testament-avec-des-reflexions-morales-t1-fra_1693.txt
   regula-magistri:
     kind: anonymous
     evidence: 'The Rule of the Master is anonymous; PL 88 prints it as ''Regula ad monachos
@@ -3579,6 +3618,12 @@ authors:
       of Love"; no surname is given; the host catalogue repeats "Tobias, fellow elder with
       H. Niclas". The slug names the signature, not a known person.
     from_file: tobias-familist_mirabilia-opera-dei_1650.txt
+  todd-henry-john:
+    kind: metadata-omission
+    evidence: The title page (file lines 131-202) names no author or editor. The introduction
+      is signed 'Henry J. Todd' and dated 25 January 1808 (file lines 510-512). The Life itself
+      is unsigned; Todd says it is supposed to be by Samuel Smith (file lines about 287-307).
+    from_file: todd-henry-john_publick-spirit-life-and-designs-of-thomas-bray_2nd-ed1808.txt
   toulouse-inquisition:
     kind: anonymous
     evidence: A register of sentences of the Toulouse inquisition (Bernard Gui named in the
@@ -3786,6 +3831,11 @@ authors:
 
       '
     from_file: wigram_assyrians-and-their-neighbours_1929.txt
+  wilberforce-robert-and-samuel:
+    kind: metadata-omission
+    evidence: The title page (file lines 112-162) reads 'by his sons, Robert Isaac Wilberforce,
+      M.A. ... and Samuel Wilberforce, M.A.'. Two authors, so the slug is not a single name.
+    from_file: wilberforce-robert-and-samuel_life-of-william-wilberforce-v1_1838.txt
   winchester-elhanan:
     kind: metadata-omission
     evidence: 'The title page names Elhanan Winchester. Plain-text vendored file, so cic/texts/AUTHORS.md

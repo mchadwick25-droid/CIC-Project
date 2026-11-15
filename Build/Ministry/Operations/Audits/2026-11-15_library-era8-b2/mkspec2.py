@@ -240,8 +240,7 @@ add(I, "love-william-deloss_samson-occom-and-the-christian-indians-of-new-englan
      row("occom-narrative-1768-extract-in-love", "Samson Occom, autobiographical narrative of 17 September 1768: the opening, as Love prints it", "occom",
          "the extract at OCR lines 1328-1355; Love's source note at 1338", [NENG], "tradition", "provisional", "eng",
          doc((1768, 1768), "Love's footnote: 'Wheelock Papers, Dartmouth College, MS., Sept. 17, 1768' (OCR line 1338)"),
-         "Occom's own account of his upbringing and conversion, in about twenty-five lines. Love prints only this part; his text was not compared with the manuscript.",
-         voice_of="occom")],
+         "Occom's own account of his upbringing and conversion, in about twenty-five lines. Love prints only this part; his text was not compared with the manuscript.")],
     rights="Public Domain (pd-us-by-date: published 1899; the title page prints no year, and the date is the copyright notice on its verso, 'Copyright, 1899', OCR lines 70-71, with which the preface date and the archive.org record's date agree); " + NIC,
     rights_short="published 1899 by its copyright notice, out of US copyright by date")
 
@@ -263,8 +262,7 @@ add(I, "walker-george-leon_some-aspects-of-the-religious-life-of-new-england_189
      row("cole-nathan-spiritual-travels-extract-in-walker", "Nathan Cole, 'Spiritual Travels', on hearing Whitefield: the extract Walker prints", "cole-nathan",
          "the extract at OCR lines 3170-3274; Walker's introduction at 3156-3169", [NENG], "tradition", "provisional", "eng",
          doc((1897, 1897), "first printed here, in 1897; Walker calls it a 'hitherto unpublished narrative' and does not say when Cole wrote it"),
-         "A Connecticut farmer's own words on going to hear Whitefield and the distress that followed. Walker says Cole was a farmer of Kensington parish who became a Separatist (OCR lines 3156-3169). An extract chosen by Walker from a manuscript; the OCR misreads some letters.",
-         voice_of="cole-nathan")],
+         "A Connecticut farmer's own words on going to hear Whitefield and the distress that followed. Walker says Cole was a farmer of Kensington parish who became a Separatist (OCR lines 3156-3169). An extract chosen by Walker from a manuscript; the OCR misreads some letters.")],
     ruled={"cole-nathan": ("metadata-omission", "Walker introduces the extract at file lines 3168-3181 as the narrative of Nathan Cole; the title page names only Walker.")})
 
 I = "sketchesoflifech00cool"
@@ -285,8 +283,7 @@ add(I, "cooley_sketches-of-the-life-and-character-of-lemuel-haynes_1837.txt",
      row("haynes-sermons-and-letters-in-cooley", "Lemuel Haynes, sermons and letters as printed in Cooley's Sketches (1837)", "haynes-lemuel",
          "letters at OCR lines 3284-3539; the Rutland sermon on Genesis iii. 4 at 4132-4465; the letter to Hosea Ballou at 4470-5315; the appendix of sermons at 14854-16044", [NENG, "the-black-church-in-america"], "tradition", "provisional", "eng",
          doc((1805, 1837), "the Rutland sermon is headed 30 December 1805 (about OCR line 4132); printed in 1837"),
-         "Haynes in his own words: the sermon that answered Ballou, his letters, and sermons his son added. Printed by Cooley and by W. B. Haynes; the texts were not compared with the first printings.",
-         voice_of="haynes-lemuel")],
+         "Haynes in his own words: the sermon that answered Ballou, his letters, and sermons his son added. Printed by Cooley and by W. B. Haynes; the texts were not compared with the first printings.")],
     ruled={"haynes-lemuel": ("metadata-omission", "The title page (file lines 32-83) names Cooley as author and Haynes as the subject. Haynes's own sermons and letters are headed as his inside the chapters and in the appendix, which his son W. B. Haynes says he appended (file lines 16048-16056).")})
 
 I = "sermonsonimporta179401davi"
@@ -417,8 +414,7 @@ add(I, "muratori_il-cristianesimo-felice-nelle-missioni-del-paraguai-ita_1743.tx
      row("cattaneo-letters-from-paraguay-in-muratori", "Gaetano Cattaneo, S.J., three letters from Buenos Aires and the Paraguay reductions (1729-1730), in Muratori's Cristianesimo felice", "cattaneo-gaetano",
          "the three letters at OCR lines 7786-10978", [SJ], "tradition", "provisional", "ita",
          doc((1729, 1730), "the third letter is dated from the Reduction of Santa Maria, 25 April 1730 (OCR line 9984 onward)"),
-         "A Jesuit missionary writes home to his brother about the voyage and the reductions. Printed by Muratori thirteen years later; his editing was not checked.",
-         voice_of="cattaneo-gaetano")],
+         "A Jesuit missionary writes home to his brother about the voyage and the reductions. Printed by Muratori thirteen years later; his editing was not checked.")],
     ruled={"cattaneo-gaetano": ("metadata-omission", "The title page names only Muratori. The three letters are headed as letters of Father Gaetano Cattaneo of the Society of Jesus to his brother (file lines 7798, 9500 and 9996).")})
 
 I = "bim_eighteenth-century_a-relation-of-the-missio_muratori-lodovico-anton_1759"
@@ -450,7 +446,7 @@ for t, ident, tl, cont, rows in [
        "The second half of the Life, to Rancé's death. See the note on tome 1.", None),
       ("rance-pensees-in-marsollier-t2", "Rancé, Pensées sur divers sujets de piété, tirées de ses lettres spirituelles (in Marsollier's Vie, tome 2, 1758)", "rance",
        "the Pensées at OCR lines 17913-20952; the avertissement before them at 17860", "tradition", (1758, 1758), "printed in 1758; the extracts are from Rancé's letters and are not dated",
-       "Rancé's own sentences on the spiritual life, cut from his letters by an editor. The letters they come from are not named line by line.", "rance")])]:
+       "Rancé's own sentences on the spiritual life, cut from his letters by an editor. The letters they come from are not named line by line.", None)])]:
     chk(ident, tl, r"LVII", 1)
     chk(ident, 17362 if t == 1 else 17855, r"Fin|FIN", 2)
     if t == 2:

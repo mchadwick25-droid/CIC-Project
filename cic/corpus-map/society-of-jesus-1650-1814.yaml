@@ -18,6 +18,91 @@ works:
     formation_confidence: Documented
   note: A Jesuit's Life of Vieira in five books. Its subject is Vieira; its voice is Barros.
   source_file: barros_vida-do-apostolico-padre-antonio-vieyra-por_1746.txt
+- row_id: muratori_il-cristianesimo-felice-nelle-missioni-del-paraguai-ita_1743--cattaneo-letters-from-paraguay-in-muratori
+  work: Gaetano Cattaneo, S.J., three letters from Buenos Aires and the Paraguay reductions
+    (1729-1730), in Muratori's Cristianesimo felice
+  author: cattaneo-gaetano
+  locus: the three letters at OCR lines 7786-10978; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: ita
+  date:
+    start: 1729
+    end: 1730
+    source: the third letter is dated from the Reduction of Santa Maria, 25 April 1730 (OCR
+      line 9984 onward)
+    formation_confidence: Documented
+  note: A Jesuit missionary writes home to his brother about the voyage and the reductions.
+    Printed by Muratori thirteen years later; his editing was not checked.
+  source_file: muratori_il-cristianesimo-felice-nelle-missioni-del-paraguai-ita_1743.txt
+- row_id: dobrizhoffer_account-of-the-abipones-v1_1822--dobrizhoffer-account-of-the-abipones-v1
+  work: 'Dobrizhoffer, An Account of the Abipones, vol. I: the Prefatory Book on the state
+    of Paraguay (English, 1822)'
+  author: dobrizhoffer
+  locus: OCR lines 476-15316; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1784
+    end: 1822
+    source: the Latin was printed at Vienna in 1784; this English title page reads 1822
+    formation_confidence: Documented
+  note: A Jesuit missionary's own account of eighteen years in Paraguay, written in exile
+    after the Society's suppression. An English translation whose preface says it leaves passages
+    out (vol. I, OCR lines 236-272); check the Latin before leaning on a sentence.
+  source_file: dobrizhoffer_account-of-the-abipones-v1_1822.txt
+- row_id: dobrizhoffer_account-of-the-abipones-v2_1822--dobrizhoffer-account-of-the-abipones-v2
+  work: 'Dobrizhoffer, An Account of the Abipones, vol. II: Part II, chapters I-XLIII: the
+    Abipones'' land, customs and beliefs (English, 1822)'
+  author: dobrizhoffer
+  locus: OCR lines 249-15692; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1784
+    end: 1822
+    source: the Latin was printed at Vienna in 1784; this English title page reads 1822
+    formation_confidence: Documented
+  note: A Jesuit missionary's own account of eighteen years in Paraguay, written in exile
+    after the Society's suppression. An English translation whose preface says it leaves passages
+    out (vol. I, OCR lines 236-272); check the Latin before leaning on a sentence.
+  source_file: dobrizhoffer_account-of-the-abipones-v2_1822.txt
+- row_id: dobrizhoffer_account-of-the-abipones-v3_1822--dobrizhoffer-account-of-the-abipones-v3
+  work: 'Dobrizhoffer, An Account of the Abipones, vol. III: Part III, chapters I-XLVI: the
+    wars and the Jesuit colonies (English, 1822)'
+  author: dobrizhoffer
+  locus: OCR lines 295-14333; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1784
+    end: 1822
+    source: the Latin was printed at Vienna in 1784; this English title page reads 1822
+    formation_confidence: Documented
+  note: A Jesuit missionary's own account of eighteen years in Paraguay, written in exile
+    after the Society's suppression. An English translation whose preface says it leaves passages
+    out (vol. I, OCR lines 236-272); check the Latin before leaning on a sentence.
+  source_file: dobrizhoffer_account-of-the-abipones-v3_1822.txt
+- row_id: dobrizhoffer_historia-de-abiponibus-pars1-lat_1784--dobrizhoffer-historia-de-abiponibus-pars-1
+  work: 'Dobrizhoffer, Historia de Abiponibus, pars I: Liber prodromus de Paraquariae habitu
+    (Vienna, 1784)'
+  author: dobrizhoffer
+  locus: the preface at OCR lines 75-430; the Liber prodromus at 697-21249; add 12 to OCR
+    line numbers
+  role: tradition
+  confidence: provisional
+  language: lat
+  date:
+    start: 1784
+    end: 1784
+    source: 'title page: ''Anno 1784'''
+    formation_confidence: Documented
+  note: The missionary's own Latin, the text the English of 1822 shortens. Part 1 describes
+    Paraguay and its missions; the Abipones come in the parts not held.
+  source_file: dobrizhoffer_historia-de-abiponibus-pars1-lat_1784.txt
 - row_id: jesuit-relations_thwaites-v36-fra-eng_1896-1901--the-jesuit-relations-and-allied-documents-thwaites-vol-36-lower-canada-abenakis-1650-1651
   work: 'The Jesuit Relations and Allied Documents (Thwaites), Vol. 36: Lower Canada, Abenakis:
     1650-1651'
@@ -94,6 +179,39 @@ works:
   note: The Jesuits' own letters from the China mission in the eighteenth century. Within
     the windows of the Jesuit entry (1650-1814) and the Chinese Catholic entry (1650-1906).
   source_file: lettres-edifiantes_memoires-de-la-chine-t22-fra_1781.txt
+- row_id: muratori_relation-of-the-missions-of-paraguay_1759--muratori-relation-of-the-missions-of-paraguay-english
+  work: Muratori, A Relation of the Missions of Paraguay (English from the French, 1759)
+  author: muratori
+  locus: the chapters at OCR lines 833-10202; Cattaneo's letters at 10217-13618; the extract
+    from Florentin de Bourges at 13619-14274; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1759
+    end: 1759
+    source: 'title page: ''M.DCC.LIX.'''
+    formation_confidence: Documented
+  note: 'A translation of a translation: the French translator says he cut and reordered Muratori,
+    and the English follows the French. Use the Italian of 1743 to quote Muratori or Cattaneo;
+    use this to read them in English.'
+  source_file: muratori_relation-of-the-missions-of-paraguay_1759.txt
+- row_id: muratori_il-cristianesimo-felice-nelle-missioni-del-paraguai-ita_1743--muratori-cristianesimo-felice-chapters
+  work: 'Muratori, Il cristianesimo felice nelle missioni del Paraguai, part 1: chapters I-XXIII
+    (1743)'
+  author: muratori
+  locus: chapters I-XXIII at OCR lines 958-7785; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: ita
+  date:
+    start: 1743
+    end: 1743
+    source: 'title page: ''MDCCXLIII''; the licence is dated 31 December 1742 (OCR line 465)'
+    formation_confidence: Documented
+  note: The Duke of Modena's librarian describes the Paraguay reductions from the missionaries'
+    letters and reports. An admirer's account from outside the Society, not its own voice.
+  source_file: muratori_il-cristianesimo-felice-nelle-missioni-del-paraguai-ita_1743.txt
 - row_id: vieira_cartas-tomo1-por_1735--vieira-cartas-tomo-1
   work: Vieira, Cartas, tomo 1 (1735)
   author: vieira
@@ -157,3 +275,51 @@ works:
   note: The second half of the Rosary sermons. Sermons XX and XXVII speak of the Blacks, the
     enslaved and their brotherhood.
   source_file: vieira_maria-rosa-mystica-parte2-por_1688.txt
+- row_id: vieira_sermoens-parte12-por_1699--vieira-sermoens-parte-12
+  work: Vieira, Sermoens, parte duodécima (Lisbon, 1699)
+  author: vieira
+  locus: the sermons at OCR lines 563-32594; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: por
+  date:
+    start: 1699
+    end: 1699
+    source: 'title page: 1699; the sermon headings give the years they were preached'
+    formation_confidence: Documented
+  note: The Jesuit preacher's sermons in the Lisbon edition printed in his lifetime; the Society's
+    licences in the front matter are dated from Bahia. A printed text may differ from what
+    was preached.
+  source_file: vieira_sermoens-parte12-por_1699.txt
+- row_id: vieira_sermoens-parte5-por_1689--vieira-sermoens-parte-5
+  work: Vieira, Sermoens, quinta parte (Lisbon, 1689)
+  author: vieira
+  locus: the sermons at OCR lines 521-46831; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: por
+  date:
+    start: 1689
+    end: 1689
+    source: 'title page: 1689; the sermon headings give the years they were preached'
+    formation_confidence: Documented
+  note: The Jesuit preacher's sermons in the Lisbon edition printed in his lifetime; the Society's
+    licences in the front matter are dated from Bahia. A printed text may differ from what
+    was preached.
+  source_file: vieira_sermoens-parte5-por_1689.txt
+- row_id: vieira_sermoens-parte3-por_1683--vieira-sermoens-parte-3
+  work: Vieira, Sermoens, terceira parte (Lisbon, 1683)
+  author: vieira
+  locus: the sermons at OCR lines 610-40190; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: por
+  date:
+    start: 1683
+    end: 1683
+    source: 'title page: 1683; the sermon headings give the years they were preached'
+    formation_confidence: Documented
+  note: The Jesuit preacher's sermons in the Lisbon edition printed in his lifetime; the Society's
+    licences in the front matter are dated from Bahia. A printed text may differ from what
+    was preached.
+  source_file: vieira_sermoens-parte3-por_1683.txt

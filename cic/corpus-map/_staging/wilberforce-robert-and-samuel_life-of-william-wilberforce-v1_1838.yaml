@@ -1,0 +1,17 @@
+source_file: wilberforce-robert-and-samuel_life-of-william-wilberforce-v1_1838.txt
+assignments:
+- row_id: wilberforce-robert-and-samuel_life-of-william-wilberforce-v1_1838--wilberforce-sons-life-v1
+  work: 'R. I. and S. Wilberforce, The Life of William Wilberforce, vol. I: 1759-1792 (1838)'
+  author: wilberforce-robert-and-samuel
+  locus: 'chapters I-IX at OCR lines 407-14841; appendix at 14842-15584, where the scan stops; add 12 to OCR line numbers'
+  atlas_ids:
+  - restoration-georgian-church-of-england
+  role: context
+  confidence: provisional
+  language: eng
+  date: {start: 1838, end: 1838, source: "title page: 'MDCCCXXXVIII'", formation_confidence: Documented}
+  note: 'His sons'' Life. His diary and letters are first-hand for the years to 1792; the sons chose and cut them, and the narrative is theirs.'
+authors_ruled:
+  wilberforce-robert-and-samuel:
+    kind: metadata-omission
+    evidence: "The title page (file lines 112-162) reads 'by his sons, Robert Isaac Wilberforce, M.A. ... and Samuel Wilberforce, M.A.'. Two authors, so the slug is not a single name."

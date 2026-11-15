@@ -1,0 +1,17 @@
+source_file: historia-cultus-sinensium_continuatio-lat_1700.txt
+assignments:
+- row_id: historia-cultus-sinensium_continuatio-lat_1700--charmot-vindiciae-1699
+  work: 'Charmot, Vindiciae scriptorum and Secundae vindiciae against the Jesuits'' Dilucidationes (1699), in the Continuatio Historiae cultus Sinensium (1700)'
+  author: charmot
+  locus: 'the first Vindiciae at OCR lines 123-3210; the second at 3224-7017; the Paris Seminary''s letter at 7031-7185; add 12 to OCR line numbers'
+  atlas_ids:
+  - chinese-catholicism-1650-1906
+  role: tradition
+  confidence: needs-ruling
+  language: lat
+  date: {start: 1699, end: 1700, source: "the pieces were offered to the Holy Office on 2 September and 14 November 1699 (OCR lines 123-127, 3222-3250); title page 'M. DCC.'", formation_confidence: Documented}
+  note: 'The agent of Maigrot and the French vicars apostolic argues at Rome against the Jesuits'' defense of the Chinese rites. One party''s brief in a quarrel among missionaries; the Jesuit writings appear only as he quotes them. The shelf ruling follows the main volume''s row for Charmot.'
+authors_ruled:
+  charmot:
+    kind: metadata-omission
+    evidence: "The title page (file lines 29-59) names no author. The first piece is headed 'Vindiciae scriptorum Nicolai Charmot' (file lines 135-139)."

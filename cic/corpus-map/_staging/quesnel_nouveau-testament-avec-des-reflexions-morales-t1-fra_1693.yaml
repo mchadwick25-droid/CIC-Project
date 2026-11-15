@@ -1,0 +1,28 @@
+source_file: quesnel_nouveau-testament-avec-des-reflexions-morales-t1-fra_1693.txt
+assignments:
+- row_id: quesnel_nouveau-testament-avec-des-reflexions-morales-t1-fra_1693--quesnel-reflexions-morales-matthew-mark
+  work: 'Quesnel, Le Nouveau Testament en françois avec des réflexions morales, tome 1: Matthew and Mark (1693)'
+  author: quesnel
+  locus: 'Matthew at OCR lines 5621-37303; Mark at 37306-56513; the preface at 278-1280; add 12 to OCR line numbers'
+  atlas_ids:
+  - port-royal-jansenism
+  role: tradition
+  confidence: provisional
+  language: fra
+  date: {start: 1693, end: 1693, source: "title page: 'M. DC. XCIII.'", formation_confidence: Documented}
+  note: 'Verse-by-verse reflections on the Gospels, in the enlarged edition printed by order of the bishop of Châlons. The title page does not name Quesnel; the attribution is the record''s.'
+- row_id: quesnel_nouveau-testament-avec-des-reflexions-morales-t1-fra_1693--quesnel-reflexions-morales-as-condemned-text
+  work: 'Quesnel, Réflexions morales, tome 1 (1693), as the book condemned by Unigenitus'
+  author: quesnel
+  locus: 'Matthew at OCR lines 5621-37303; Mark at 37306-56513; add 12 to OCR line numbers'
+  atlas_ids:
+  - catholic-church-ancien-regime
+  role: context
+  confidence: needs-ruling
+  language: fra
+  date: {start: 1693, end: 1693, source: "title page: 'M. DC. XCIII.'", formation_confidence: Documented}
+  note: 'The bull Unigenitus (1713) drew 101 propositions from this work. Which edition the bull''s wording follows was not checked against this volume.'
+authors_ruled:
+  quesnel:
+    kind: metadata-omission
+    evidence: "The title page (file lines 36-75) names no author; it says the work is printed by order of the bishop of Châlons. The archive.org record credits Pasquier Quesnel."

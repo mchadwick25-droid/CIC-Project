@@ -1,0 +1,24 @@
+source_file: soli-muratori_vita-del-proposto-lodovico-antonio-muratori-ita_napoli1758.txt
+assignments:
+- row_id: soli-muratori_vita-del-proposto-lodovico-antonio-muratori-ita_napoli1758--soli-muratori-vita-del-muratori
+  work: 'Soli Muratori, Vita del proposto Lodovico Antonio Muratori (Naples, 1758): the Life'
+  author: soli-muratori
+  locus: 'the Vita at OCR lines 649-11145; the catalogue of works at 11146; add 12 to OCR line numbers'
+  atlas_ids:
+  - catholic-church-ancien-regime
+  role: tradition
+  confidence: provisional
+  language: ita
+  date: {start: 1756, end: 1758, source: "this edition's title page reads 1758 and calls itself the Naples edition; the funeral oration it prints is for 23 January 1751", formation_confidence: Documented}
+  note: 'Muratori''s nephew writes the Life soon after his death. A family voice from inside the Italian church of the day.'
+- row_id: soli-muratori_vita-del-proposto-lodovico-antonio-muratori-ita_napoli1758--soli-muratori-vita-appendix-of-letters
+  work: 'Soli Muratori, Vita del proposto Lodovico Antonio Muratori (Naples, 1758): the appendices of documents and letters'
+  author: soli-muratori
+  locus: 'the appendix of documents at OCR lines 11532-16255; the second appendix at 16256; the funeral oration at 16613-17811; add 12 to OCR line numbers'
+  atlas_ids:
+  - catholic-church-ancien-regime
+  role: context
+  confidence: provisional
+  language: ita
+  date: {start: 1705, end: 1758, source: "the letters run from about 1705 to the 1730s; printed in 1758", formation_confidence: Documented}
+  note: 'Letters to and from Muratori and pieces by other hands. Each has its own writer, named at its head; none is Soli''s.'

@@ -1,0 +1,13 @@
+source_file: dobrizhoffer_historia-de-abiponibus-pars1-lat_1784.txt
+assignments:
+- row_id: dobrizhoffer_historia-de-abiponibus-pars1-lat_1784--dobrizhoffer-historia-de-abiponibus-pars-1
+  work: 'Dobrizhoffer, Historia de Abiponibus, pars I: Liber prodromus de Paraquariae habitu (Vienna, 1784)'
+  author: dobrizhoffer
+  locus: 'the preface at OCR lines 75-430; the Liber prodromus at 697-21249; add 12 to OCR line numbers'
+  atlas_ids:
+  - society-of-jesus-1650-1814
+  role: tradition
+  confidence: provisional
+  language: lat
+  date: {start: 1784, end: 1784, source: "title page: 'Anno 1784'", formation_confidence: Documented}
+  note: 'The missionary''s own Latin, the text the English of 1822 shortens. Part 1 describes Paraguay and its missions; the Abipones come in the parts not held.'

@@ -1,0 +1,24 @@
+source_file: marsollier_vie-de-dom-armand-jean-le-bouthillier-de-rance-t2-fra_1758.txt
+assignments:
+- row_id: marsollier_vie-de-dom-armand-jean-le-bouthillier-de-rance-t2-fra_1758--marsollier-vie-de-rance-t2
+  work: 'Marsollier, La vie de dom Armand-Jean Le Bouthillier de Rancé, tome 2: books IV-VI (new edition, 1758)'
+  author: marsollier
+  locus: 'books IV-VI at OCR lines 518-17855; add 12 to OCR line numbers'
+  atlas_ids:
+  - catholic-church-ancien-regime
+  role: tradition
+  confidence: provisional
+  language: fra
+  date: {start: 1758, end: 1758, source: "this edition's title page reads 1758; approbation of 27 May 1758 (OCR line 388)", formation_confidence: Documented}
+  note: 'The second half of the Life, to Rancé''s death. See the note on tome 1.'
+- row_id: marsollier_vie-de-dom-armand-jean-le-bouthillier-de-rance-t2-fra_1758--rance-pensees-in-marsollier-t2
+  work: 'Rancé, Pensées sur divers sujets de piété, tirées de ses lettres spirituelles (in Marsollier''s Vie, tome 2, 1758)'
+  author: rance
+  locus: 'the Pensées at OCR lines 17913-20952; the avertissement before them at 17860; add 12 to OCR line numbers'
+  atlas_ids:
+  - catholic-church-ancien-regime
+  role: tradition
+  confidence: provisional
+  language: fra
+  date: {start: 1758, end: 1758, source: "printed in 1758; the extracts are from Rancé's letters and are not dated", formation_confidence: Documented}
+  note: 'Rancé''s own sentences on the spiritual life, cut from his letters by an editor. The letters they come from are not named line by line.'
