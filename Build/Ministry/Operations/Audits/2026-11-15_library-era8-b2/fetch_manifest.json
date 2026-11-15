@@ -1,0 +1,950 @@
+{
+ "twohundredyearso02pasc": {
+  "title": "Two hundred years of the S.P.G.: an historical account of the Society for the propagation of the gospel in foreign parts, 1701-1900 (Based on a digest of the Society's records.",
+  "creator": "Pascoe, C. F. (Charles Frederick), b. 1854",
+  "date": "1901",
+  "publisher": "London : Pub. at the Society's Office",
+  "language": "eng",
+  "rights": null,
+  "licenseurl": null,
+  "pcs": null,
+  "collection": [
+   "africanaspecialcollectionsduplessis",
+   "universityofpretorialibraryservices",
+   "africanlibraries"
+  ],
+  "access": null,
+  "djvu": [
+   [
+    "twohundredyearso02pasc_djvu.txt",
+    "3435390"
+   ]
+  ],
+  "bytes": 3435390,
+  "match": true
+ },
+ "cihm_54002": {
+  "title": "Histoire g\u00e9n\u00e9rale de la Soci\u00e9t\u00e9 des missions-\u00e9trang\u00e8res [microforme]",
+  "creator": [
+   "Launay, Adrien, 1853-1927",
+   "Soci\u00e9t\u00e9 des missions-\u00e9trang\u00e8res"
+  ],
+  "date": "1894",
+  "publisher": "Paris : T\u00e9qui",
+  "language": "fre",
+  "rights": null,
+  "licenseurl": null,
+  "pcs": null,
+  "collection": [
+   "university_of_alberta_libraries_microfilm",
+   "university_of_alberta_libraries",
+   "toronto",
+   "microfilm"
+  ],
+  "access": null,
+  "djvu": [
+   [
+    "cihm_54002_djvu.txt",
+    "1426790"
+   ]
+  ],
+  "bytes": 1426790,
+  "match": true
+ },
+ "oudennieuwoostin02vale": {
+  "title": "Oud en nieuw Oost-Indi\u00ebn, vervattende een naaukeurige en uitvoerige verhandelinge van Nederlands mogentheyd in die gewesten, benevens eene wydluftige beschryvige der Moluccos ... en alle de eylanden onder dezelve landbestieringen behoorende; het Nederlands comptoir op Suratte, en de levens der Groote Mogols ..",
+  "creator": "Valentijn, Fran\u00e7ois, 1666-1727",
+  "date": "1724",
+  "publisher": "Dordrecht : J. van Braam; [etc., etc.]",
+  "language": "dut",
+  "rights": null,
+  "licenseurl": null,
+  "pcs": "NOT_IN_COPYRIGHT",
+  "collection": [
+   "cdl",
+   "gross",
+   "americana",
+   "university_of_california_libraries"
+  ],
+  "access": null,
+  "djvu": [
+   [
+    "oudennieuwoostin02vale_djvu.txt",
+    "3921097"
+   ]
+  ],
+  "bytes": 3921097,
+  "match": true
+ },
+ "bub_gb_rG8lStorjTwC": {
+  "title": "Historia cultus Sinensium, seu varia scripta de cultibus Sinarum, inter vicarios apostolicos Gallos aliosque missionarios, & patres Societatis Jesu controversis, oblata Innocentio 12. pontifici maximo et Sacrae Congregationi eminentissimorum cardinalium dirimendae huic causae praepositorum adjuncta appendice scriptorum patrum So",
+  "creator": null,
+  "date": "1700",
+  "publisher": null,
+  "language": "Latin",
+  "rights": null,
+  "licenseurl": "http://creativecommons.org/publicdomain/mark/1.0/",
+  "pcs": null,
+  "collection": "europeanlibraries",
+  "access": null,
+  "djvu": [
+   [
+    "bub_gb_rG8lStorjTwC_djvu.txt",
+    "226538"
+   ]
+  ],
+  "bytes": 226538,
+  "match": true
+ },
+ "codenoirourecuei00fran": {
+  "title": "Code noir, ou Recueil d'edits, declarations et arrets concernant les esclaves n\u00e9gres de l'Am\u00e9rique, : avec un recueil de r\u00e9glemens, concernant la police des isles fran\u00e7oises de l'Am\u00e9rique & les engag\u00e9s",
+  "creator": "France",
+  "date": "1743",
+  "publisher": "A Paris, : Chez les libraires associez.",
+  "language": "fre",
+  "rights": null,
+  "licenseurl": null,
+  "pcs": null,
+  "collection": [
+   "jcbfrench",
+   "JohnCarterBrownLibrary",
+   "americana"
+  ],
+  "access": null,
+  "djvu": [
+   [
+    "codenoirourecuei00fran_djvu.txt",
+    "316268"
+   ]
+  ],
+  "bytes": 316268,
+  "match": true
+ },
+ "journalthreeyea01bairgoog": {
+  "title": "Journal of a three years' residence in Abyssinia : in furtherance of the objects of the Church Missionary Society",
+  "creator": "Gobat, Samuel, 1799-1879",
+  "date": "1834",
+  "publisher": "London : Hatchard",
+  "language": "eng",
+  "rights": null,
+  "licenseurl": null,
+  "pcs": "NOT_IN_COPYRIGHT",
+  "collection": "americana",
+  "access": null,
+  "djvu": [
+   [
+    "journalthreeyea01bairgoog_djvu.txt",
+    "1004357"
+   ]
+  ],
+  "bytes": 1004357,
+  "match": true
+ },
+ "sixmonthsinasyr00parrgoog": {
+  "title": "Six months in a Syrian monastery; being the record of a visit to the head quarters of the Syrian church in Mesopotamia, with some account of the Yazidis or devil worshippers of Mosul and El Jilwah, their sacred book",
+  "creator": "Parry, O. H. (Oswald Hutton), b. 1868",
+  "date": "1895",
+  "publisher": "London : H. Cox",
+  "language": "eng",
+  "rights": null,
+  "licenseurl": null,
+  "pcs": "NOT_IN_COPYRIGHT",
+  "collection": "americana",
+  "access": null,
+  "djvu": [
+   [
+    "sixmonthsinasyr00parrgoog_djvu.txt",
+    "852089"
+   ]
+  ],
+  "bytes": 852089,
+  "match": true
+ },
+ "sermoensdopanton01viei": {
+  "title": "Sermoens do P. Antonio Vieira, da Companhia de Iesu, Pr\u00e9gador de Sua Magestade. Terceira parte",
+  "creator": [
+   "Vieira, Ant\u00f3nio, 1608-1697",
+   "Lima, Louren\u00e7o de. fmo RPJCB"
+  ],
+  "date": "1683",
+  "publisher": "Em Lisboa. : Na Officina de Miguel Deslandes. A custa de Antonio Leyte Pereyra, mercador de livros.",
+  "language": "por",
+  "rights": null,
+  "licenseurl": null,
+  "pcs": null,
+  "collection": [
+   "jcbportugalbrazil",
+   "JohnCarterBrownLibrary",
+   "americana"
+  ],
+  "access": null,
+  "djvu": [
+   [
+    "sermoensdopanton01viei_djvu.txt",
+    "1316874"
+   ]
+  ],
+  "bytes": 1316874,
+  "match": true
+ },
+ "sermoensdopanton07viei": {
+  "title": "Sermoens do P. Antonio Vieira, da Companhia de Jesu, visitador da Provincia do Brasil, Pr\u00e8gador de Sua Magestade. Quinta parte",
+  "creator": [
+   "Vieira, Ant\u00f3nio, 1608-1697",
+   "Oliveira, David de. fmo RPJCB"
+  ],
+  "date": "1689",
+  "publisher": "Lisboa, : Na Officina de Miguel Deslandes, impressor de Sua Magestade. A custa de Antonio Leyte Pereyra, mercador de livros.",
+  "language": "por",
+  "rights": null,
+  "licenseurl": null,
+  "pcs": null,
+  "collection": [
+   "jcbportugalbrazil",
+   "JohnCarterBrownLibrary",
+   "americana"
+  ],
+  "access": null,
+  "djvu": [
+   [
+    "sermoensdopanton07viei_djvu.txt",
+    "1374122"
+   ]
+  ],
+  "bytes": 1374122,
+  "match": true
+ },
+ "sermoensdopanton00viei": {
+  "title": "Sermoens do P. Antonio Vieyra da Companhia de Jesu, pr\u00e8gador de Sua Magestade. Parte duodecima",
+  "creator": "Vieira, Ant\u00f3nio, 1608-1697",
+  "date": "1699",
+  "publisher": "Lisboa, : Na Officina de Miguel Deslandes, Impressor de Sua Magestade. Anno de 1699. \u00c1 custa de Antonio Leyte Pereyra.",
+  "language": "por",
+  "rights": null,
+  "licenseurl": null,
+  "pcs": null,
+  "collection": [
+   "jcbportugalbrazil",
+   "JohnCarterBrownLibrary",
+   "americana"
+  ],
+  "access": null,
+  "djvu": [
+   [
+    "sermoensdopanton00viei_djvu.txt",
+    "970217"
+   ]
+  ],
+  "bytes": 970217,
+  "match": true
+ },
+ "accountofabipone18221dobr": {
+  "title": "An account of the Abipones, an equestrian people of Paraguay",
+  "creator": [
+   "Dobrizhoffer, Martin, 1717-1791",
+   "Coleridge, Sara Coleridge, 1802-1852",
+   "Bartlett, John Russell, 1805-1886 fmo sgn RPB",
+   "Brown, John Carter, 1797-1874 ins RPB"
+  ],
+  "date": "1822",
+  "publisher": "London, J. Murray",
+  "language": "eng",
+  "rights": null,
+  "licenseurl": null,
+  "pcs": "NOT_IN_COPYRIGHT",
+  "collection": [
+   "brownuniversity",
+   "blc",
+   "americana"
+  ],
+  "access": null,
+  "djvu": [
+   [
+    "accountofabipone18221dobr_djvu.txt",
+    "683206"
+   ]
+  ],
+  "bytes": 683206,
+  "match": true
+ },
+ "cu31924104090935": {
+  "title": "An account of the Abipones : an equestrian people of Paraguay",
+  "creator": "Dobrizhoffer, Martin, 1717-1791",
+  "date": "1822",
+  "publisher": "London : John Murray",
+  "language": "eng",
+  "rights": null,
+  "licenseurl": null,
+  "pcs": null,
+  "collection": [
+   "cornell",
+   "americana"
+  ],
+  "access": null,
+  "djvu": [
+   [
+    "cu31924104090935_djvu.txt",
+    "578723"
+   ]
+  ],
+  "bytes": 578723,
+  "match": true
+ },
+ "cu31924104095033": {
+  "title": "An account of the Abipones : an equestrian people of Paraguay",
+  "creator": "Dobrizhoffer, Martin, 1717-1791",
+  "date": "1822",
+  "publisher": "London : John Murray",
+  "language": "eng",
+  "rights": null,
+  "licenseurl": null,
+  "pcs": null,
+  "collection": [
+   "cornell",
+   "americana"
+  ],
+  "access": null,
+  "djvu": [
+   [
+    "cu31924104095033_djvu.txt",
+    "538709"
+   ]
+  ],
+  "bytes": 538709,
+  "match": true
+ },
+ "historiadeabipon00dobr": {
+  "title": "Historia de Abiponibus equestri bellicosaque Paraquariae natione : locupletata copiosis barbararum gentium, urbium, fluminum, ferarum, amphibiorum, insectorum, serpentium praecipuorum, piscium, avium, arborum, plantarum, aliarumque eiusdem provinciae, proprietatum observationibus,",
+  "creator": "Dobrizhoffer, Martin, 1717-1791",
+  "date": "1784",
+  "publisher": "Viennae : Typis Josephi Nob. de Kurzbek caes. reg. aul. tipog. et bibliop",
+  "language": [
+   "lat",
+   "mul"
+  ],
+  "rights": null,
+  "licenseurl": null,
+  "pcs": null,
+  "collection": [
+   "jcbindigenous",
+   "JohnCarterBrownLibrary",
+   "americana"
+  ],
+  "access": null,
+  "djvu": [
+   [
+    "historiadeabipon00dobr_djvu.txt",
+    "980381"
+   ]
+  ],
+  "bytes": 980381,
+  "match": true
+ },
+ "bim_eighteenth-century_a-brief-account-of-the-g_dutton-anne_1750": {
+  "title": "A brief account of the gracious dealings of God, with a poor, sinful, unworthy creature, in three parts. ... With an appendix. And a letter prefixed, on the lawfulness of a woman's appearing in print. By A.D.  1750",
+  "creator": "Dutton, Anne",
+  "date": "1750",
+  "publisher": null,
+  "language": "English",
+  "rights": null,
+  "licenseurl": null,
+  "pcs": null,
+  "collection": [
+   "pub_eighteenth-century",
+   "bim_microfilm",
+   "microfilm"
+  ],
+  "access": null,
+  "djvu": [
+   [
+    "bim_eighteenth-century_a-brief-account-of-the-g_dutton-anne_1750_djvu.txt",
+    "728933"
+   ]
+  ],
+  "bytes": 728933,
+  "match": true
+ },
+ "memoirsofrevisaa00gibb": {
+  "title": "Memoirs of the Rev. Isaac Watts, D.D.",
+  "creator": "Gibbons, Thomas, 1720-1785",
+  "date": "1780",
+  "publisher": "London : Printed for James Buckland and Thomas Gibbons",
+  "language": "eng",
+  "rights": null,
+  "licenseurl": null,
+  "pcs": "NOT_IN_COPYRIGHT",
+  "collection": [
+   "Princeton",
+   "americana"
+  ],
+  "access": null,
+  "djvu": [
+   [
+    "memoirsofrevisaa00gibb_djvu.txt",
+    "825029"
+   ]
+  ],
+  "bytes": 825029,
+  "match": true
+ },
+ "memoirsoflifecha00orto": {
+  "title": "Memoirs of the life, character, and writings of the late Rev. Philip Doddridge, D.D. of Northampton",
+  "creator": "Orton, Job, 1717-1783",
+  "date": "1825",
+  "publisher": "Edinburgh : [s.l.]",
+  "language": "eng",
+  "rights": null,
+  "licenseurl": null,
+  "pcs": null,
+  "collection": [
+   "robarts",
+   "toronto",
+   "university_of_toronto"
+  ],
+  "access": null,
+  "djvu": [
+   [
+    "memoirsoflifecha00orto_djvu.txt",
+    "655313"
+   ]
+  ],
+  "bytes": 655313,
+  "match": true
+ },
+ "memoirslifeandc00moregoog": {
+  "title": "Memoirs of the life and correspondence of Mrs. Hannah More:",
+  "creator": "Roberts, William, 1767-1849",
+  "date": "1834",
+  "publisher": "London, R.B. Seeley [etc.]",
+  "language": "eng",
+  "rights": null,
+  "licenseurl": null,
+  "pcs": "NOT_IN_COPYRIGHT",
+  "collection": "europeanlibraries",
+  "access": null,
+  "djvu": [
+   [
+    "memoirslifeandc00moregoog_djvu.txt",
+    "881906"
+   ]
+  ],
+  "bytes": 881906,
+  "match": true
+ },
+ "publickspiritil00toddgoog": {
+  "title": "Publick Spirit Illustrated in the Life and Designs of the Reverend Thomas Bray: ... To which are ...",
+  "creator": "Samuel Smith,  Henry John Todd",
+  "date": "1808",
+  "publisher": "Printed for F. C. and J . Rivington ... by T. C . Hansard ...",
+  "language": "English",
+  "rights": null,
+  "licenseurl": null,
+  "pcs": "NOT_IN_COPYRIGHT",
+  "collection": "americana",
+  "access": null,
+  "djvu": [
+   [
+    "publickspiritil00toddgoog_djvu.txt",
+    "186491"
+   ]
+  ],
+  "bytes": 186491,
+  "match": true
+ },
+ "lifewilliamwilb04wilbgoog": {
+  "title": "The Life of William Wilberforce",
+  "creator": "Robert Isaac Wilberforce,  Samuel Wilberforce",
+  "date": "1838",
+  "publisher": "John Murray",
+  "language": "English",
+  "rights": null,
+  "licenseurl": null,
+  "pcs": "NOT_IN_COPYRIGHT",
+  "collection": "americana",
+  "access": null,
+  "djvu": [
+   [
+    "lifewilliamwilb04wilbgoog_djvu.txt",
+    "622077"
+   ]
+  ],
+  "bytes": 622077,
+  "match": true
+ },
+ "robertraikesjou00alfrgoog": {
+  "title": "Robert Raikes: Journalist and Philanthropist: A History of the Origin of Sunday Schools",
+  "creator": "Gregory,  Alfred",
+  "date": "1877",
+  "publisher": "Hodder and Stoughton",
+  "language": "English",
+  "rights": null,
+  "licenseurl": null,
+  "pcs": "NOT_IN_COPYRIGHT",
+  "collection": "americana",
+  "access": null,
+  "djvu": [
+   [
+    "robertraikesjou00alfrgoog_djvu.txt",
+    "288199"
+   ]
+  ],
+  "bytes": 288199,
+  "match": true
+ },
+ "taft-biographical-sketches-of-the-lives-and-public-ministry-of-various-holy-women": {
+  "title": "Taft, Biographical Sketches Of The Lives And Public Ministry Of Various Holy Women",
+  "creator": null,
+  "date": null,
+  "publisher": null,
+  "language": null,
+  "rights": null,
+  "licenseurl": null,
+  "pcs": null,
+  "collection": "opensource",
+  "access": null,
+  "djvu": [
+   [
+    "Taft, Biographical Sketches of the Lives and Public Ministry of Various Holy Women_djvu.txt",
+    "1276329"
+   ]
+  ],
+  "bytes": 1276329,
+  "match": true
+ },
+ "samsonoccomchris00love": {
+  "title": "Samson Occom and the Christian Indians of New England",
+  "creator": "Love, William DeLoss, 1851-1918",
+  "date": "c1899",
+  "publisher": "Boston : The Pilgrim Press",
+  "language": "eng",
+  "rights": null,
+  "licenseurl": null,
+  "pcs": "NOT_IN_COPYRIGHT",
+  "collection": [
+   "Princeton",
+   "americana"
+  ],
+  "access": null,
+  "djvu": [
+   [
+    "samsonoccomchris00love_djvu.txt",
+    "976196"
+   ]
+  ],
+  "bytes": 976196,
+  "match": true
+ },
+ "someaspectsofrel00walk": {
+  "title": "Some aspects of the religious life of New England, with special reference to Congregationalists",
+  "creator": "Walker, George Leon",
+  "date": "1897",
+  "publisher": "New York, Silver, Burdett",
+  "language": "eng",
+  "rights": null,
+  "licenseurl": null,
+  "pcs": "NOT_IN_COPYRIGHT",
+  "collection": [
+   "Princeton",
+   "americana"
+  ],
+  "access": null,
+  "djvu": [
+   [
+    "someaspectsofrel00walk_djvu.txt",
+    "365693"
+   ]
+  ],
+  "bytes": 365693,
+  "match": true
+ },
+ "sketchesoflifech00cool": {
+  "title": "Sketches of the life and character of the Rev. Lemuel Haynes, A. M., for many years pastor of a church in Rutland, Vt., and late in Granville, New-York",
+  "creator": "Cooley, Timothy Mather, 1772-1859",
+  "date": "1837",
+  "publisher": "New York, Harper",
+  "language": "eng",
+  "rights": null,
+  "licenseurl": null,
+  "pcs": null,
+  "collection": [
+   "Princeton",
+   "americana"
+  ],
+  "access": null,
+  "djvu": [
+   [
+    "sketchesoflifech00cool_djvu.txt",
+    "718426"
+   ]
+  ],
+  "bytes": 718426,
+  "match": true
+ },
+ "sermonsonimporta179401davi": {
+  "title": "Sermons on important subjects, by the late Reverend and pious Samuel Davies, A.M., sometime President of the College in New-Jersey ... to which are now added, three occasional sermons ... memoirs and character of the author, and two sermons on occasion of his death, by the Rev. Drs. Gibbons and Finley",
+  "creator": "Davies, Samuel, 1723-1761",
+  "date": "1794",
+  "publisher": "Philadelphia : Printed for Robert Campbell",
+  "language": "eng",
+  "rights": null,
+  "licenseurl": null,
+  "pcs": "NOT_IN_COPYRIGHT",
+  "collection": [
+   "Princeton",
+   "americana"
+  ],
+  "access": null,
+  "djvu": [
+   [
+    "sermonsonimporta179401davi_djvu.txt",
+    "1453441"
+   ]
+  ],
+  "bytes": 1453441,
+  "match": true
+ },
+ "gleanermiscellan01murr": {
+  "title": "The gleaner : a miscellaneous production : in three volumes",
+  "creator": [
+   "Murray, Judith Sargent, 1751-1820",
+   "Thayer, Caroline Coddington, former owner",
+   "Prentiss, Charlotte Thayer, 1781-1808, former owner"
+  ],
+  "date": "1798",
+  "publisher": "Printed at Boston : By I. Thomas and E.T. Andrews ...",
+  "language": "eng",
+  "rights": null,
+  "licenseurl": null,
+  "pcs": null,
+  "collection": [
+   "bostonpubliclibrary",
+   "americana"
+  ],
+  "access": null,
+  "djvu": [
+   [
+    "gleanermiscellan01murr_djvu.txt",
+    "834909"
+   ]
+  ],
+  "bytes": 834909,
+  "match": true
+ },
+ "bim_eighteenth-century_the-gleaner-a-miscellan_murray-judith-sargent_1798_2": {
+  "title": "The Gleaner. A miscellaneous production.  1798: Vol 2",
+  "creator": "Murray, judith Sargent.",
+  "date": "1798",
+  "publisher": null,
+  "language": "English",
+  "rights": null,
+  "licenseurl": null,
+  "pcs": null,
+  "collection": [
+   "pub_eighteenth-century",
+   "bim_microfilm",
+   "microfilm"
+  ],
+  "access": null,
+  "djvu": [
+   [
+    "bim_eighteenth-century_the-gleaner-a-miscellan_murray-judith-sargent_1798_2_djvu.txt",
+    "706793"
+   ]
+  ],
+  "bytes": 706793,
+  "match": true
+ },
+ "gleanermiscellan03murr": {
+  "title": "The gleaner : a miscellaneous production : in three volumes",
+  "creator": [
+   "Murray, Judith Sargent, 1751-1820",
+   "Thayer, Caroline Coddington, former owner",
+   "Prentiss, Charlotte Thayer, 1781-1808, former owner"
+  ],
+  "date": "1798",
+  "publisher": "Printed at Boston : By I. Thomas and E.T. Andrews ...",
+  "language": "eng",
+  "rights": null,
+  "licenseurl": null,
+  "pcs": null,
+  "collection": [
+   "bostonpubliclibrary",
+   "americana"
+  ],
+  "access": null,
+  "djvu": [
+   [
+    "gleanermiscellan03murr_djvu.txt",
+    "760440"
+   ]
+  ],
+  "bytes": 760440,
+  "match": true
+ },
+ "posthumousworkso00mcgr": {
+  "title": "The Posthumous works of the Reverend and pious James M'Gready, late minister of the gospel in Henderson, Ky. ...",
+  "creator": "McGready, James, 1763-1817",
+  "date": "1837",
+  "publisher": "Nashville, Tenn. : Printed and Published at J. Smith's Steam Press",
+  "language": "eng",
+  "rights": null,
+  "licenseurl": null,
+  "pcs": "NOT_IN_COPYRIGHT",
+  "collection": [
+   "Princeton",
+   "americana"
+  ],
+  "access": null,
+  "djvu": [
+   [
+    "posthumousworkso00mcgr_djvu.txt",
+    "1606886"
+   ]
+  ],
+  "bytes": 1606886,
+  "match": true
+ },
+ "declarationaddre00campiala": {
+  "title": "Declaration and address of the Christian association of Washington",
+  "creator": [
+   "Campbell, Thomas, 1763-1854",
+   "Christian association of Washington, Washington, Pa",
+   "Acheson, Thomas"
+  ],
+  "date": "1908]",
+  "publisher": "[Pittsburgh",
+  "language": "eng",
+  "rights": null,
+  "licenseurl": null,
+  "pcs": "NOT_IN_COPYRIGHT",
+  "collection": [
+   "cdl",
+   "americana"
+  ],
+  "access": null,
+  "djvu": [
+   [
+    "declarationaddre00campiala_djvu.txt",
+    "208745"
+   ]
+  ],
+  "bytes": 208745,
+  "match": true
+ },
+ "memoirsalexande00unkngoog": {
+  "title": "Memoirs of Alexander Campbell : embracing a view of the origin, progress and principles of the religious reformation which he advocated",
+  "creator": "Richardson, Robert",
+  "date": "1868",
+  "publisher": "St. Louis : J. Burns",
+  "language": "eng",
+  "rights": null,
+  "licenseurl": null,
+  "pcs": "NOT_IN_COPYRIGHT",
+  "collection": "americana",
+  "access": null,
+  "djvu": [
+   [
+    "memoirsalexande00unkngoog_djvu.txt",
+    "1291079"
+   ]
+  ],
+  "bytes": 1291079,
+  "match": true
+ },
+ "bub_gb_S09fcFzVIu4C": {
+  "title": "Vita del proposto Lodovico Antonio Muratori, gi\u00e0 bibliotecario del serenissimo signor duca di Modena, descritta dal proposto GianFrancesco SoliMuratori suo nipote ",
+  "creator": "Gian Francesco Soli Muratori",
+  "date": "1758",
+  "publisher": "presso Giuseppe Ponzelli",
+  "language": "Italian",
+  "rights": null,
+  "licenseurl": "http://creativecommons.org/publicdomain/mark/1.0/",
+  "pcs": null,
+  "collection": "europeanlibraries",
+  "access": null,
+  "djvu": [
+   [
+    "bub_gb_S09fcFzVIu4C_djvu.txt",
+    "973061"
+   ]
+  ],
+  "bytes": 973061,
+  "match": true
+ },
+ "A118051": {
+  "title": "Il cristianesimo felice nelle missioni de' padri della Compagnia di Ges\u00f9 nel Paraguai",
+  "creator": [
+   "Muratori, Ludovico Antonio, 1672-1750",
+   "Pasquali, Giovanni Battista, 1702-1784"
+  ],
+  "date": "1743",
+  "publisher": "In Venezia : presso Giambatista Pasquali",
+  "language": "ita",
+  "rights": null,
+  "licenseurl": "http://creativecommons.org/publicdomain/mark/1.0/",
+  "pcs": null,
+  "collection": [
+   "bibliotecauniversitariadesevilla",
+   "patron-library-collection"
+  ],
+  "access": null,
+  "djvu": [
+   [
+    "A118051_djvu.txt",
+    "596416"
+   ]
+  ],
+  "bytes": 596416,
+  "match": true
+ },
+ "bim_eighteenth-century_a-relation-of-the-missio_muratori-lodovico-anton_1759": {
+  "title": "A relation of the missions of Paraguay. Wrote originally in Italian, by Mr. Muratori, and now done into English from the French translation.  1759",
+  "creator": "Muratori, Lodovico Antonio",
+  "date": "1759",
+  "publisher": null,
+  "language": "English",
+  "rights": null,
+  "licenseurl": null,
+  "pcs": null,
+  "collection": [
+   "pub_eighteenth-century",
+   "bim_microfilm",
+   "microfilm"
+  ],
+  "access": null,
+  "djvu": [
+   [
+    "bim_eighteenth-century_a-relation-of-the-missio_muratori-lodovico-anton_1759_djvu.txt",
+    "468998"
+   ]
+  ],
+  "bytes": 468998,
+  "match": true
+ },
+ "laviededomarmand01mars": {
+  "title": "La vie de Dom Armand-Jean le Bouthillier de Ranc\u00e9 : abb\u00e9 r\u00e9gulier et r\u00e9formateur",
+  "creator": "Marsollier, Jacques, 1647-1724",
+  "date": "1758",
+  "publisher": "Paris : Savoie",
+  "language": "fre",
+  "rights": null,
+  "licenseurl": null,
+  "pcs": null,
+  "collection": [
+   "universityofottawa",
+   "toronto"
+  ],
+  "access": null,
+  "djvu": [
+   [
+    "laviededomarmand01mars_djvu.txt",
+    "688718"
+   ]
+  ],
+  "bytes": 688718,
+  "match": true
+ },
+ "laviededomarmand02mars": {
+  "title": "La vie de Dom Armand-Jean le Bouthillier de Ranc\u00e9 : abb\u00e9 r\u00e9gulier et r\u00e9formateur",
+  "creator": "Marsollier, Jacques, 1647-1724",
+  "date": "1758",
+  "publisher": "Paris : Savoie",
+  "language": "fre",
+  "rights": null,
+  "licenseurl": null,
+  "pcs": null,
+  "collection": [
+   "universityofottawa",
+   "toronto"
+  ],
+  "access": null,
+  "djvu": [
+   [
+    "laviededomarmand02mars_djvu.txt",
+    "816956"
+   ]
+  ],
+  "bytes": 816956,
+  "match": true
+ },
+ "memoirespourser01fontgoog": {
+  "title": "Memoires pour servir a\u0300 l'histoire de Port-Royal",
+  "creator": "Du Fosse\u0301, Pierre Thomas, sieur, 1634-1698",
+  "date": "1739",
+  "publisher": "Utrecht : Aux de\u0301pens de la Compagnie",
+  "language": "fre",
+  "rights": null,
+  "licenseurl": null,
+  "pcs": "NOT_IN_COPYRIGHT",
+  "collection": "europeanlibraries",
+  "access": null,
+  "djvu": [
+   [
+    "memoirespourser01fontgoog_djvu.txt",
+    "1177647"
+   ]
+  ],
+  "bytes": 1177647,
+  "match": true
+ },
+ "memoirespourser00fontgoog": {
+  "title": "Memoires pour servir a\u0300 l'histoire de Port-Royal",
+  "creator": "Du Fosse\u0301, Pierre Thomas, sieur, 1634-1698",
+  "date": "1739",
+  "publisher": "Utrecht : Aux de\u0301pens de la Compagnie",
+  "language": "fre",
+  "rights": null,
+  "licenseurl": null,
+  "pcs": "NOT_IN_COPYRIGHT",
+  "collection": "europeanlibraries",
+  "access": null,
+  "djvu": [
+   [
+    "memoirespourser00fontgoog_djvu.txt",
+    "1323152"
+   ]
+  ],
+  "bytes": 1323152,
+  "match": true
+ },
+ "memoirespourser00fossgoog": {
+  "title": "Memoires pour servir a\u0300 l'histoire de Port-Royal",
+  "creator": "Du Fosse\u0301, Pierre Thomas, sieur, 1634-1698",
+  "date": "1739",
+  "publisher": "Utrecht : Aux de\u0301pens de la Compagnie",
+  "language": "fre",
+  "rights": null,
+  "licenseurl": null,
+  "pcs": "NOT_IN_COPYRIGHT",
+  "collection": "europeanlibraries",
+  "access": null,
+  "djvu": [
+   [
+    "memoirespourser00fossgoog_djvu.txt",
+    "974681"
+   ]
+  ],
+  "bytes": 974681,
+  "match": true
+ },
+ "bub_gb_GmCin_UcwIcC": {
+  "title": "Le Nouveau Testament en fran\u00e7ois, avec des reflexions morales sur chaque verset, pour en rendre la lecture plus utile, & la meditation plus ais\u00e9e",
+  "creator": null,
+  "date": "1693",
+  "publisher": null,
+  "language": "French",
+  "rights": null,
+  "licenseurl": "http://creativecommons.org/publicdomain/mark/1.0/",
+  "pcs": null,
+  "collection": "europeanlibraries",
+  "access": null,
+  "djvu": [
+   [
+    "bub_gb_GmCin_UcwIcC_djvu.txt",
+    "1681350"
+   ]
+  ],
+  "bytes": 1681350,
+  "match": true
+ }
+}
