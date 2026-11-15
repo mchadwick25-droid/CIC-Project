@@ -1,0 +1,90 @@
+{
+  "name": "Ibn Ishaq",
+  "label": "Outside witness",
+  "otherNames": [
+    "Muhammad ibn Ishaq, and Mohammed Ibn Ishak, the form in Gustav Weil's German",
+    "al-Muttalibi, the name he bears in Ibn Hisham's chain of transmission, as Weil gives it (Almuttalabij). His grandfather Yasar was a freedman of Qays ibn Makhrama ibn al-Muttalib, by al-Baladhuri, a Muslim historian who died in 892"
+  ],
+  "knownFor": "A Muslim collector of traditions whose life of Muhammad is known only through Ibn Hisham's reworking. The book tells of Christians who met Muhammad and his first followers: the Negus of Abyssinia, the Christians of Najran, and Waraqa ibn Naufal of Mecca.",
+  "dates": "Lived in the first half of the second century of Islam, Gustav Weil says. Died in the year 151 of the hijra, which Philip Hitti gives as 767 and a note by B. T. A. Evetts as 768 (the scan reads the year as i5i). No source gives his birth",
+  "place": "No source gives where he was born, lived or died. Philip Hitti counts him, with al-Waqidi, as representing the tradition of Medina",
+  "tradition": "Outside the church",
+  "role": "Collector of traditions; author of the life of Muhammad",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Life of the Messenger of God (Sirat Rasul Allah)",
+      "about": "the life of Muhammad, built from chains of named reporters, with the history of Arabia before him. Hitti says Ibn Ishaq wrote it for the caliph al-Mansur. It survives only in Ibn Hisham's reworking. It is held in Gustav Weil's German (1864) and, for the first part only, in Ferdinand Wüstenfeld's Arabic text (1858)"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Ibn Hisham, who died in the year 213 of the hijra, reworked the book. His version is the only one that survives, Weil and Hitti both say.",
+      "Weil calls it the oldest full life of Muhammad by a Muslim that has come down to us, and put it into German in 1864 for readers who are not specialists.",
+      "Axel Moberg, in 1924, says Ibn Ishaq's account of the Najran persecution was preserved by Ibn Hisham and Tabari.",
+      "Hitti counts eleven quotations of him in the Futuh al-Buldan of al-Baladhuri, a Muslim historian who died in 892. From the longer chains of reporters, Hitti conjectures that al-Baladhuri had them through later reporters."
+    ],
+    "remembered": [
+      "Weil says his contemporaries and later scholars held him an excellent and reliable collector, though envy and sectarian hatred tried to cast suspicion on him.",
+      "Hitti calls the tradition of Medina, which he and al-Waqidi represent, more reliable than that of Iraq.",
+      "Moberg finds the Arabic story vivid and often fantastic, and says it gives the names of most of its characters with confidence."
+    ]
+  },
+  "uncertain": [
+    "How far he can be trusted. Weil says Ibn Ishaq's contemporaries and later scholars held him reliable. Weil himself calls him the faithful voice of the traditions of his day. Some of what he reports as fact, Weil says, belongs to legend, which Weil does not hold against him. Ibn Ishaq himself marks some reports as what people believe, and after giving two accounts of how Christianity came to Najran he says God knows which is right.",
+    "His family. Al-Baladhuri, in Hitti's English, names his grandfather Yasar among the captives that the commander Khalid ibn al-Walid took from a church at 'Ain at-Tamr. Al-Baladhuri says Yasar was a freedman of Qays ibn Makhrama ibn al-Muttalib.",
+    "The Najran and Abyssinia stories. Axel Moberg, who edited the Syriac Book of the Himyarites in 1924, finds nothing in the Arabic accounts of the persecution that suggests an independent tradition of historical value. He traces their facts to the older Christian Acts of the martyrs, apart from the Jewish king's death in the sea, which points to the Book of the Himyarites.",
+    "What Ibn Hisham changed. Weil says the reworking kept the wording as well as the substance, and that Ibn Hisham marks what he adds. Ibn Hisham himself says he left out what does not touch on Muhammad, poems unknown to experts, things ugly to tell or hurtful to some, and what al-Bakka'i, his source for the text, did not confirm. In one poem he says he changed two of Ibn Ishaq's words.",
+    "The year of his death. Hitti gives the year 151 of the hijra as 767, and Evetts's note gives it as 768.",
+    "That he wrote for the caliph al-Mansur rests on one sentence of Hitti's, who names no early source for it.",
+    "The Negus scene comes from Umm Salama, one of the exiles and a wife of Muhammad, through a chain of reporters that Ibn Ishaq names. In another report, Ibn Ishaq tells that the Abyssinians rose against the Negus, saying he had left their faith. He wrote on a paper that there is no god but God, and that Muhammad is God's servant and messenger. The paper added that Jesus is God's servant and messenger, his spirit and his word. The Negus hid it in his robe and went out to meet the Abyssinians. They said he had called Jesus a servant, and that they held Jesus to be God's son. Laying his hand on his breast, the Negus said that Jesus, son of Mary, was nothing other than this. The report explains that he meant what was written on the paper. The Abyssinians were satisfied and dispersed."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Das Leben Mohammed's nach Mohammed Ibn Ishak, bearbeitet von Abd el-Malik Ibn Hischam",
+        "author": "Ibn Ishaq, in Ibn Hisham's reworking; Gustav Weil (tr.)",
+        "date": "1864",
+        "language": "German",
+        "file": "cic/texts/ibn-ishaq_leben-mohammeds-nach-ibn-hischam-deu_weil1864.txt"
+      },
+      {
+        "title": "Das Leben Muhammed's nach Muhammed Ibn Ishâk, Arabic text, part 1",
+        "author": "Ibn Ishaq and Ibn Hisham; Ferdinand Wüstenfeld (ed.)",
+        "date": "1858",
+        "language": "Arabic",
+        "file": "cic/texts/ibn-ishaq_sirat-rasul-allah-ibn-hisham-text-pt1-ara_wuestenfeld1858.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Preface to Das Leben Mohammed's",
+        "author": "Gustav Weil",
+        "date": "1864",
+        "language": "German",
+        "file": "cic/texts/ibn-ishaq_leben-mohammeds-nach-ibn-hischam-deu_weil1864.txt"
+      },
+      {
+        "title": "The Origins of the Islamic State, volume 1, introduction and text",
+        "author": "Philip Khuri Hitti; al-Baladhuri",
+        "date": "1916",
+        "language": "English",
+        "file": "cic/texts/baladhuri_origins-of-the-islamic-state-v1_hitti1916.txt"
+      },
+      {
+        "title": "The Book of the Himyarites, introduction",
+        "author": "Axel Moberg (ed. and tr.)",
+        "date": "1924",
+        "language": "Syriac and English",
+        "file": "cic/texts/book-of-the-himyarites-syr-eng_moberg1924.txt"
+      },
+      {
+        "title": "The Churches and Monasteries of Egypt, attributed to Abu Salih the Armenian, notes",
+        "author": "B. T. A. Evetts (ed. and tr.)",
+        "date": "1895",
+        "language": "English",
+        "file": "cic/texts/abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt"
+      }
+    ]
+  }
+}
