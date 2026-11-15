@@ -722,3 +722,31 @@ Ninety-nine files for the 63 person rows marked major in the wanted list (rows 1
 
 Era 9, batch 2, in a fresh session: the person rows not marked major (226-330), the era 9 outside witnesses and
 council records, the held eras 8-9 items, and the texts of this batch still owed a date check.
+
+## 2026-11-15 — The coverage feed regenerated, and a CI check added
+
+**Decided (Mark, 2026-11-15: "yes fix the coverage file").** `cic-website/data/corpus-coverage.json` is a live
+public feed, so it must match what `cic/engine/corpus_coverage.py` writes from `main`.
+
+**Cause.** The file last matched its generator on 2026-11-09, at the merge of P2-G2 (`b9ed351d7`). It then went
+stale: about 38 merges after that date changed the census (307 entries to 619, through the Church Family Tree data
+releases 30 to 44), the corpus map and the vendored texts, and none regenerated the file. The generator itself has
+not changed since 2026-09-26. Nothing checked the file: `cic/corpus-map/README.md` lists the command, but no CI
+step or Library finish step required it. The Era 6 rulings and the shelf rulings of today each noted the file
+as behind and left it for another pass.
+
+**Done.** The file is regenerated from `main`: 619 entries (all in census order), 264 with coverage, 355 at zero.
+The diff is explained by the inputs. All 307 earlier entries remain. 312 entries are new. 569 work rows are new.
+13 old rows differ, each from a map change: shelf rulings changed a role or confidence (the Mirror of Perfection,
+the Georgian chronicles), and the Pedalion and the two Synaxaristes left the Ottoman Orthodoxy 1453-1650 shelf
+(`d398ed5c8`). Every entry's works carry a rights line read from the vendored file.
+`.github/workflows/ci.yml` gains a step in `library-validators` that regenerates the file and fails on any
+difference. The `library` path filter now also fires on `world-census.json` and `corpus-coverage.json`, since a
+census change alone had been enough to make the file stale.
+
+**Not done.** The generator is unchanged.
+
+### Next action
+
+A Library batch runs `python cic/engine/corpus_coverage.py` after its last map or text change, and commits the
+result, before its pull request.
