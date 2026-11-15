@@ -1537,6 +1537,52 @@ November; the table of batch 1 above shows the roles as they now stand. No row o
 - **OCR.** The Russian and Ukrainian files are fair, in the old spelling. The Greek of Pharmakidis is noisy.
   Launay is a microfiche scan with page fragments inside the edict passage. Milne reads the long s as f.
 
+## Era 8 (1650-1815), batch 2 (2026-11-15): the British Isles and the Methodists, North America, Catholic Europe and the Jesuits
+
+Thirty-seven files, 5,346,333 words. The wants are the era 8 rows of the Who scan's wanted list for Britain,
+North America and Catholic Europe, Open-Gaps items 181 and 225, and the volumes batch 1 found and left. No new
+search was run: the candidates are the era 8 handover's two unspent tables and its list of volumes found and not
+vendored. The record is in `Build/Ministry/Operations/Audits/2026-11-15_library-era8-b2/` (`Search_Log.md`, with
+the page-image reads, three judgement calls and the cautions for writers). Every file has a printed imprint of
+1930 or earlier, read on its title page or on the scan's page image; Love's Samson Occom prints no year on its
+title page and is dated by the copyright notice of 1899 on the verso. Rows in the tables above are not rewritten.
+
+| want | state | file(s), with the imprint year | words | language | shelf |
+|---|---|---|---:|---|---|
+| Wanted row A135: Anne Dutton, her own account | filled, the printing of 1750 in three parts, with her letter on printing by a woman | `dutton-anne_brief-account-of-the-gracious-dealings-of-god_1750.txt` (1750) | 139,335 | eng | the-baptists, tradition |
+| Wanted row A136: Gibbons, Memoirs of Isaac Watts | filled | `gibbons-thomas_memoirs-of-isaac-watts_1780.txt` (1780) | 126,632 | eng | english-old-dissent, tradition (the letters to Watts: context) |
+| Wanted row A137: Orton, Memoirs of Doddridge | filled, in the Edinburgh reprint of 1825 with Russell's essay | `orton_memoirs-of-philip-doddridge_russell1825.txt` (1825) | 99,840 | eng | english-old-dissent, tradition (Russell's essay: context) |
+| Wanted row A139: Roberts, Memoirs of Hannah More | filled in part, vol. 1 (to 1785), third edition; vols. 2-4 not taken | `roberts-william_memoirs-of-hannah-more-v1_3rd-ed1835.txt` (1835) | 137,635 | eng | restoration-georgian-church-of-england, context |
+| Wanted row A140: the Life of Thomas Bray (1746) | filled, in Todd's second edition with the Associates' proceedings for 1807 | `todd-henry-john_publick-spirit-life-and-designs-of-thomas-bray_2nd-ed1808.txt` (1808) | 30,773 | eng | restoration-georgian-church-of-england, tradition |
+| Wanted row A141: the Life of William Wilberforce by his sons | filled in part, vol. 1 (to 1792); the scan stops inside the appendix; vols. 2-5 not taken | `wilberforce-robert-and-samuel_life-of-william-wilberforce-v1_1838.txt` (1838) | 109,172 | eng | restoration-georgian-church-of-england, context |
+| Wanted row A159: Robert Raikes | filled, a Life of 1877 that prints his letters of 1783 and 1785 as extracts | `gregory-alfred_robert-raikes-journalist-and-philanthropist_1877.txt` (1877) | 42,296 | eng | the-sunday-school-and-bible-institute-movement and restoration-georgian-church-of-england, context |
+| Wanted row A133: Sarah Crosby and the Methodist women preachers | filled, Taft's two volumes in one file | `taft_biographical-sketches-of-holy-women-v1-v2_1825-1828.txt` (1825, 1828) | 228,227 | eng | the-methodist-revival, context |
+| Wanted row A128: Samson Occom | filled in part: Love's history, with the opening of Occom's narrative of 1768 only | `love-william-deloss_samson-occom-and-the-christian-indians-of-new-england_1899.txt` (1899, by its copyright notice) | 147,651 | eng | the-evangelical-awakening-in-new-england, context (Occom's extract: tradition) |
+| Wanted row A131: Nathan Cole | filled in part: the extract Walker printed | `walker-george-leon_some-aspects-of-the-religious-life-of-new-england_1897.txt` (1897) | 52,955 | eng | the-evangelical-awakening-in-new-england, context (Cole's extract: tradition) |
+| Wanted row A132: Lemuel Haynes | filled, Cooley's Life with Haynes's sermons and letters | `cooley_sketches-of-the-life-and-character-of-lemuel-haynes_1837.txt` (1837) | 111,138 | eng | the-evangelical-awakening-in-new-england and the-black-church-in-america, context (Haynes's own pieces: tradition) |
+| Wanted row A134: Samuel Davies, with the memoirs of him | filled, vol. 1 of the Philadelphia edition (vol. 3 of another edition is held) | `davies_sermons-on-important-subjects-v1_campbell1794.txt` (1794) | 224,732 | eng | the-evangelical-awakening-in-new-england, tradition (the memoirs: context) |
+| Wanted row A138: Judith Sargent Murray | filled, The Gleaner in three volumes | `murray-judith-sargent_the-gleaner-v1_1798.txt`, `-v2_1798.txt`, `-v3_1798.txt` (1798) | 124,740; 117,586; 112,173 | eng | early-american-unitarians-universalists, tradition |
+| Wanted row A157: James McGready | filled, with his narrative of the revival (1801) | `mcgready_posthumous-works_smith1837.txt` (1837) | 245,663 | eng | the-second-great-awakening-and-camp-meeting-worl, tradition |
+| Wanted row A158: Thomas Campbell, Declaration and Address | filled, in the line-for-line reprint of 1906 | `campbell-thomas_declaration-and-address-centennial-edition_1906.txt` (1906) | 31,251 | eng | the-stone-campbell-restoration-movement, tradition |
+| Wanted row A158: Richardson, Memoirs of Alexander Campbell, vol. 1 | held already | `richardson_memoirs-of-alexander-campbell-v1_1868.txt` | | | |
+| Wanted row A146: Muratori, the Life by his nephew | filled | `soli-muratori_vita-del-proposto-lodovico-antonio-muratori-ita_napoli1758.txt` (1758) | 170,531 | ita | catholic-church-ancien-regime, tradition (the appendices: context) |
+| Wanted row A146: Muratori on the Paraguay missions | filled in Italian (part 1) and in the English of 1759 | `muratori_il-cristianesimo-felice-nelle-missioni-del-paraguai-ita_1743.txt` (1743); `muratori_relation-of-the-missions-of-paraguay_1759.txt` (1759) | 104,940; 80,663 | ita; eng | society-of-jesus-1650-1814, context (Cattaneo's letters in the Italian: tradition) |
+| Wanted row A147: Rancé, Marsollier's Life | filled, two volumes, with Rancé's Pensées in tome 2 | `marsollier_vie-de-dom-armand-jean-le-bouthillier-de-rance-t1-fra_1758.txt`, `-t2-fra_1758.txt` (1758) | 105,028; 126,574 | fra | catholic-church-ancien-regime, tradition |
+| Wanted row A148: Fontaine, Mémoires | filled, two volumes | `fontaine-nicolas_memoires-pour-servir-a-l-histoire-de-port-royal-t1-fra_1738.txt`, `-t2-fra_1738.txt` (1738) | 174,150; 194,316 | fra | port-royal-jansenism, tradition (the editors' pieces in tome 1: context) |
+| Wanted row A148: du Fossé, Mémoires | filled | `du-fosse_memoires-pour-servir-a-l-histoire-de-port-royal-fra_1739.txt` (1739) | 140,822 | fra | port-royal-jansenism, tradition (the editors' Life: context) |
+| Open-Gaps 225: Quesnel, Réflexions morales | filled in part, tome 1 (Matthew and Mark); the later tomes not located | `quesnel_nouveau-testament-avec-des-reflexions-morales-t1-fra_1693.txt` (1693) | 267,423 | fra | port-royal-jansenism, tradition; catholic-church-ancien-regime, context, needs-ruling |
+| Open-Gaps 181: Dobrizhoffer, in English | filled, three volumes | `dobrizhoffer_account-of-the-abipones-v1_1822.txt`, `-v2_1822.txt`, `-v3_1822.txt` (1822) | 102,833; 100,086; 91,380 | eng | society-of-jesus-1650-1814, tradition |
+| Open-Gaps 181: Dobrizhoffer, in Latin | filled in part, pars I; parts 2 and 3 not located | `dobrizhoffer_historia-de-abiponibus-pars1-lat_1784.txt` (1784) | 125,048 | lat | society-of-jesus-1650-1814, tradition |
+| Wanted row A123: Vieira's Sermões | filled in part, three of the parts | `vieira_sermoens-parte3-por_1683.txt` (1683); `vieira_sermoens-parte5-por_1689.txt` (1689); `vieira_sermoens-parte12-por_1699.txt` (1699) | 194,892; 200,485; 153,744 | por | colonial-latin-american-devotional-catholicism and society-of-jesus-1650-1814, tradition |
+| Batch 1's list: Pascoe, vol. 2 | filled | `pascoe_two-hundred-years-of-the-spg-v2_1901.txt` (1901) | 522,673 | eng | victorian-church-of-england and restoration-georgian-church-of-england, context |
+| Batch 1's list: Launay, tome 3 | filled | `launay_histoire-generale-de-la-societe-des-missions-etrangeres-t3-fra_1894.txt` (1894) | 224,891 | fra | chinese-catholicism-1650-1906, context |
+| Batch 1's list: the Continuatio of the Historia cultus Sinensium | filled | `historia-cultus-sinensium_continuatio-lat_1700.txt` (1700) | 34,768 | lat | chinese-catholicism-1650-1906, tradition, needs-ruling |
+| Batch 2 (ME-7): Parry, Six Months in a Syrian Monastery | filled, the Google scan | `parry_six-months-in-a-syrian-monastery_1895.txt` (1895) | 149,287 | eng | the-sayfo-and-the-syriac-diaspora, context, needs-ruling |
+| Batch 1's list: Valentijn, deel 2 | not taken | no church section was found in it; deel 3, held, has Amboina's church | | | |
+| Batch 1's list: Code noir, the collection of 1743 | not taken | the acts that touch the church are in the held collection of 1767 | | | |
+| Batch 1's list: Gobat, New York 1850 | not taken | a later printing of the held London print of 1834 | | | |
+| Not found by the first era 8 search | not found | Hindmarsh (1861); Ann Griffiths in Welsh; Kirk's Biographies (1909); Davenport's Confession; Herman of Alaska; the Methodist gaps (Wesley's Letters and later Sermons, Charles Wesley's Journal vol. 2, Whitefield's later Journals, Fletcher's Checks, the Arminian Magazine) | | | |
+
 ## Later — queued
 
 - ME-21 by a browser; Lang 1834 and the Peking mission after 1808; the
