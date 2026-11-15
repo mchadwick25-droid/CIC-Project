@@ -554,7 +554,7 @@
     "formation_confidence": "Inferential-Thin"
    },
    {
-    "claim": "Brother confusion: Tamayo confused \"hunc nostrum ... cum Alvaro, Eulogii ſratre, qui una cum altero utriusque fratre Isidoro in Germania peregrinati sunt\"; Antonio: friendship \"non utique consangui nitatis\"; Eulogius: \"fratres meos Alvarum et Isidorum\" ... \"apud (5) Hludovicum regem Bajoariz\" (scan)",
+    "claim": "Brother confusion: Tamayo confused \"hunc nostrum ... cum Alvaro, Eulogii ſratre, qui una cum altero utriusque fratre Isidoro in Germania peregrinati sunt\"; Antonio: friendship \"non utique consangui nitatis\"; Eulogius: \"fratres meos Alvarum et Isidorum\" ... \"apud (5) Hludovicum regem Bajoariz\" ; Tamayo: \"non carnis nexu, sed contubernii vinculo\"; Antonio: \"fratrem vere germanum Eulogii alterum Alvarum\" (scan)",
     "witness": "ALV (paulus-alvarus_confessio-epistolae-indiculus-luminosus-pl121-lat_migne1852.txt), l.31685-31716; EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), l.68016-68020",
     "formation_confidence": "Contested"
    }
@@ -1253,8 +1253,8 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Title page: \"BISHOP OF MARGA A. D. 840\"; \"Mar Isho'-yahbh of our convent\"; \"it came down by tradition, and was handed on to us by those men who were before us in this monastery\"; \"according to* what I have learned from others by the tradition which hath come down\" (scan)",
-    "witness": "TOM (thomas-of-marga_book-of-governors-v2-english_budge1893.txt), l.94; TOM (thomas-of-marga_book-of-governors-v2-english_budge1893.txt), l.5733-5752; TOM (thomas-of-marga_book-of-governors-v2-english_budge1893.txt), l.5688-5690; TOM (thomas-of-marga_book-of-governors-v2-english_budge1893.txt), l.5750-5751",
+    "claim": "Title page: \"BISHOP OF MARGA A. D. 840\"; \"Mar Isho'-yahbh of our convent\"; \"it came down by tradition, and was handed on to us by those men who were before us in this monastery\"; \"according to* what I have learned from others by the tradition which hath come down\" (scan); Labourt: Thomas \"écrit entre 832 et 850\"",
+    "witness": "TOM (thomas-of-marga_book-of-governors-v2-english_budge1893.txt), l.94; TOM (thomas-of-marga_book-of-governors-v2-english_budge1893.txt), l.5733-5752; TOM (thomas-of-marga_book-of-governors-v2-english_budge1893.txt), l.5688-5690; TOM (thomas-of-marga_book-of-governors-v2-english_budge1893.txt), l.5750-5751; LABOURT (labourt_le-christianisme-dans-l-empire-perse-sassanide-fra_1904.txt), l.17234-17235",
     "formation_confidence": "Documented"
    },
    {
