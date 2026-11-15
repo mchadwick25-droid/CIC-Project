@@ -33,7 +33,7 @@
    },
    {
     "claim": "Le Quien: Leo began acting against images \"anno 726\"; John wrote \"hoc anno 727, aut subsequenti 728\"; the second oration \"anno Christi 750 [OCR for 730] quo Germanus solio detrusus est\"; Theophanes places Germanus's deposition in A.M. 6221",
-    "witness": "PG94 l.32054-32064, l.32106-32111; THEO l.73562, l.73735-73739",
+    "witness": "PG94 l.32054-32068, l.32111-32115; THEO l.73562, l.73735-73739",
     "formation_confidence": "Dominant Modern Reconstruction"
    },
    {
@@ -78,7 +78,7 @@
    },
    {
     "claim": "The second speech dated \"anno Christi 750\" in the scan, tied to Germanus's deposition, which Theophanes places in A.M. 6221 (729/30): read as 730",
-    "witness": "PG94 l.32109-32113; THEO l.73562, l.73735-73739",
+    "witness": "PG94 l.32111-32115; THEO l.73562, l.73735-73739",
     "formation_confidence": "Dominant Modern Reconstruction"
    }
   ],
@@ -103,7 +103,7 @@
    {
     "claim": "Mansur: family name or insult",
     "sides": [
-     "Theophanes: the ancestral name (THEO l.75289-75291, l.121040); Fabricius agrees, the insult being Constantine's twist into Manzeros (PG94 l.552-578); Le Quien: the family's name (PG94 l.30617-30619)",
+     "Theophanes: the ancestral name (THEO l.75289-75291, l.121040); Fabricius reads it as the grandfather's name, the insult being Constantine's twist into Manzeros (PG94 l.552-578); Le Quien: the family's name (PG94 l.30617-30619)",
      "Stephen the Younger, in his Life (PG100 l.92532-92533), and the council of 787, act 6, as Allatius quotes it (PG94 l.7286-7287): an insult",
      "Allatius: uncertain (PG94 l.7267)"
     ]
@@ -381,7 +381,7 @@
    {
     "claim": "The day of Methodius's death",
     "sides": [
-     "Life of Methodius and Ginzel: 6 April 885 (GIN l.12536-12541, 6170-6205)",
+     "Life of Methodius: 6 April, A.M. 6393 (GIN l.12536-12541); Ginzel works the year out as 885 and defends the date (GIN l.6170-6205)",
      "Wattenbach, as Ginzel reports: suspicious on a high feast (GIN l.6170-6173)"
     ]
    },
