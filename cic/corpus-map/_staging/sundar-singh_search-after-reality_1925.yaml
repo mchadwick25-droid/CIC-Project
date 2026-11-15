@@ -6,6 +6,6 @@ assignments:
   locus: 'whole'
   atlas_ids:
   - northeast-india-and-mar-thoma-twentieth-century
-  role: tradition
-  confidence: needs-ruling
-  note: 'His own book. The entry names him; whether his books belong on this shelf is for a ruling.'
+  role: context
+  confidence: assigned
+  note: 'His own book. He was not of this entry''s churches; the entry tells of his visit to the Maramon Convention in 1918.'

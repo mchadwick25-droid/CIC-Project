@@ -15,6 +15,6 @@ assignments:
   locus: 'whole'
   atlas_ids:
   - japanese-christianity-after-1906
-  role: tradition
-  confidence: needs-ruling
-  note: 'Written before this entry''s window; this printing is of 1922.'
+  role: antecedent
+  confidence: assigned
+  note: 'Written before this entry''s window, its preface dated 1895; this printing is of 1922.'

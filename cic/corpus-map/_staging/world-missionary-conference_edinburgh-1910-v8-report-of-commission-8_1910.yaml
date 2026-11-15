@@ -24,6 +24,6 @@ assignments:
   locus: 'lines 10565-10664'
   atlas_ids:
   - the-chinese-church-indigenous-and-suffering
-  role: tradition
-  confidence: needs-ruling
-  note: 'His own words, spoken in 1910, before the entry''s window opens in the 1920s.'
+  role: antecedent
+  confidence: assigned
+  note: 'His own words, spoken in 1910, before the entry''s window opens in the 1920s; abbreviated by the conference''s editors.'
