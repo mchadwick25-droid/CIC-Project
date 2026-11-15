@@ -23,9 +23,10 @@ also to the "Answering from Sources" thread, `session_01JMNsSD4wzPQYRHkAq6uKE3`.
    record the renewal search in the rights line; take one only where it is the best source for a want, and log
    each in the search log. United States government works are free whatever their date. A printed court or
    government record counts by its imprint. Unprinted archive records are cite only. Owner-stated free texts
-   are taken with the owner's words in the header: the Dictionary of African Christian Biography (CC BY 4.0;
-   skip entries reprinted "with permission"), the Catholic Worker paper, the Cape Town Commitment (verbatim
-   only). Non-commercial-only permissions are not taken.
+   are taken with the owner's words in the header: the Catholic Worker paper, the Cape Town Commitment (verbatim
+   only). Non-commercial-only permissions are not taken. The Dictionary of African Christian Biography is NOT a
+   route: its usage page is CC BY-NC 4.0, so it is cite and link only, and nothing from it is vendored
+   (coordinator's correction, from the era 10 thread's reading).
 3. **Host additions:** at intake only, the host's own additions (Google's preamble, archive.org notices, OCR
    debris) may be stripped, with exactly what was stripped recorded in the Provenance note. Batch 1 did not
    strip anything; its headers say the text is the host's, whole.
@@ -63,8 +64,8 @@ What went wrong, and the fix to keep:
 1. The texts of batch 1 still owed a date check under rule 1: Kuyper's Stone Lectures (three scans), Hudson
    Taylor's A Retrospect, Walsh on the Uganda martyrs (a chapter on Charles Lwanga), Catherine Booth's
    Aggressive Christianity, the Kaiserswerth account "by a lady".
-2. Batch 1's not-found rows by the new routes: Tile, Mokone and Sadrach in the Dictionary of African Christian
-   Biography; Sadrach and de Cock on dbnl.org; Darby's four smaller books (located); Der Lutheraner, the
+2. Batch 1's not-found rows by the new routes: Sadrach and de Cock on dbnl.org; Tile and Mokone in print before 1931 (the Dictionary
+   of African Christian Biography can be cited and linked for them, not vendored); Darby's four smaller books (located); Der Lutheraner, the
    fourth year, for the 1847 constitution; the further volumes listed under "Located, not yet taken".
 3. The person rows not marked major, 226-330 (the Who scan's era 9 rows), again by region, with Africa, Asia,
    Oceania, Latin America and the Eastern churches searched on purpose.
