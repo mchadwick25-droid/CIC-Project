@@ -1003,15 +1003,121 @@ Braga, the Padilla pamphlet) and Portuguese (Braga).
 **Held already, found by this batch.** Mirbt's Quellen (1911) and Denzinger (1911) both carry the decree Lamentabili and
 the encyclical Pascendi of 1907 in Latin: `mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt` from about
 line 29196, and `denzinger_enchiridion-symbolorum-lat_bannwart1911.txt` from about line 32457 (extracts).
+## Era 8 (1650-1815), batch 1 (2026-11-15): the global files (Africa, Egypt, Ethiopia, the Syriac churches, Latin America, Asia)
+
+Thirty files. The wants are the era 8 rows of the Who scan's wanted list (`Wanted_Sources.md`, rows 121-162),
+the era 8 Open-Gaps items (175-182, 225) and the earlier batches' open rows, for the regions outside Europe and
+North America; the rest of era 8 follows in later batches. The master list and the search record are in
+`Build/Ministry/Operations/Audits/2026-11-15_library-era8/` (`ERA8_WANTS_MASTER.md`, `Search_Log.md`). Every file
+has a printed imprint of 1930 or earlier, read on its title page or the scan's page image; Rhodes's Cathechismus
+prints no year on its title page and is dated by the printed licence on the next leaf. Rows in the tables above
+are not rewritten.
+
+| want | state | file(s), with the imprint year | words | language | shelf |
+|---|---|---|---:|---|---|
+| Wanted row 122, 153, 154 (major): Kimpa Vita, Bernardo da Gallo, Pedro IV: the Capuchin relations of da Gallo and da Lucca | not found | no print by 1930 on archive.org; Zucchelli's Italian not found (the German of 1715 is held) | | | |
+| Open-Gaps 175 (AF-3): Kongo after 1650, Proyart | filled in French (the English is held in Pinkerton XVI) | `proyart_histoire-de-loango-kakongo-et-autres-royaumes-d-afrique-fra_1776.txt` (1776) | 74,936 | fra | kongo-christianity-after-1650, context (part 1 needs-ruling) |
+| Batch 2 (AF-8), Open-Gaps 175: Philip Quaque and the S.P.G. in West Africa | filled, a digest of the Society's records | `pascoe_two-hundred-years-of-the-spg-v1_1901.txt` (1901) | 424,914 | eng | restoration-georgian-church-of-england, context |
+| Batch 2 (AF-8): Capitein; Thompson's own account | not found | Capitein only in a modern translation; Thompson (1758) is an image-only scan | | | |
+| Open-Gaps 175 (AF-4): the Dutch Reformed Church at the Cape, McCarter | filled | `mccarter_dutch-reformed-church-in-south-africa_1869.txt` (1869) | 29,343 | eng | the-dutch-reformed-church-at-the-cape, tradition |
+| Open-Gaps 175 (AF-4): the Acta Synodi of 1857 in Dutch | not searched | era 9 | | | |
+| Open-Gaps 175 (AF-5): Ntsikana's hymn in Xhosa | not found | no print by 1930 found | | | |
+| Wanted row 152: Ibrahim al-Jawhari: al-Jabarti's obituary | filled in French | `jabarti_merveilles-biographiques-et-historiques-t5-fra_1890.txt` (1890) | 74,540 | fra | the-coptic-church-under-the-ottomans, context |
+| Wanted row 152: Butcher, vol. 2 | held already (the era 9 batch vendored it); an era 8 shelf row added | `butcher_story-of-the-church-of-egypt-v2_1897.txt` (1897) | 144,216 | eng | the-coptic-church-under-the-ottomans, context |
+| Open-Gaps 175: Vansleb, Histoire de l'Église d'Alexandrie | filled | `vansleb_histoire-de-l-eglise-d-alexandrie-fra_1677.txt` (1677) | 75,236 | fra | the-coptic-church-under-the-ottomans, context |
+| Open-Gaps 175: Vansleb on the Copts, his journal | filled in French and in English | `vansleb_nouvelle-relation-d-un-voyage-fait-en-egypte-fra_1677.txt` (1677); `vansleb_present-state-of-egypt_1678.txt` (1678) | 92,156; 74,629 | fra; eng | the-coptic-church-under-the-ottomans, context |
+| Open-Gaps 175: the Arabic History of the Patriarchs for the Ottoman patriarchs; the archons' letters and waqf deeds | not found | not on archive.org in a print by 1930 | | | |
+| Wanted row 151: Bruce, Travels, vols 2 and 3 | filled | `bruce_travels-to-discover-the-source-of-the-nile-v2_1790.txt`; `bruce_travels-to-discover-the-source-of-the-nile-v3_1790.txt` (1790) | 212,558; 229,966 | eng | ethiopian-christianity-gondar-to-the-zemene-mesafint, context |
+| Open-Gaps 175 (AF-1): Guidi, Annales | filled: the Ge'ez text and a French translation | `annales-regum-iyasu-ii-et-iyoas_textus-gez_guidi1910.txt` (1910); `annales-regum-iyasu-ii-et-iyoas_versio-fra_guidi1912.txt` (1912) | 129,417; 113,770 | gez; fra | ethiopian-christianity-gondar-to-the-zemene-mesafint, tradition |
+| Open-Gaps 175 (AF-1): Weld Blundell, The Royal Chronicle of Abyssinia (1922) | located, not taken | the one scan has no dated title page, preface or copyright notice | | | |
+| Census VII.38, VII.34: Gobat, Journal (London, 1834) | filled | `gobat_journal-of-a-three-years-residence-in-abyssinia_1834.txt` (1834) | 112,098 | eng | ethiopian-christianity-gondar-to-the-zemene-mesafint, context |
+| Batch 2 (ME-7), Open-Gaps 179: the Syriac Orthodox patriarchate, Parry (1895) | located, not taken in this batch | the Columbia microfilm scan (sixmonthsinsyria00parr) carries the library's line 'Reproductions may not be made without permission from Columbia University Library'; a Google scan of the same edition (sixmonthsinasyr00parrgoog) is left for the next batch | | | |
+| Open-Gaps 179 (ME-2): the Synod of Mount Lebanon, 1736 | not found | Collectio Lacensis, vol. 2, and Mansi 38 are not on archive.org | | | |
+| Melkite split of 1724: Charon, tome I | not found | tome I was never printed | | | |
+| Open-Gaps 177: the Varthamanappusthakam; Malayalam originals; Ittoop; E. M. Philip | not found | no print by 1930 found | | | |
+| Wanted row 123 (major): Vieira, Maria Rosa Mystica | filled | `vieira_maria-rosa-mystica-parte1-por_1686.txt` (1686); `vieira_maria-rosa-mystica-parte2-por_1688.txt` (1688) | 216,909; 192,435 | por | colonial-latin-american-devotional-catholicism, society-of-jesus-1650-1814, tradition |
+| Wanted row 123 (major): a Life of Vieira, Barros | filled | `barros_vida-do-apostolico-padre-antonio-vieyra-por_1746.txt` (1746) | 190,875 | por | the same two, tradition |
+| Wanted row 123 (major): Vieira's Cartas | filled, tomos 1 and 2 | `vieira_cartas-tomo1-por_1735.txt`; `vieira_cartas-tomo2-por_1735.txt` (1735) | 88,664; 89,293 | por | the same two, tradition |
+| Open-Gaps 176 (LA8-4): Antonil | filled | `antonil_cultura-e-opulencia-do-brasil-por_1711.txt` (1711) | 62,040 | por | colonial-latin-american-devotional-catholicism, tradition |
+| Open-Gaps 176 (LA8-6): the Code noir (1685) | filled, in a collection of 1767 | `code-noir_recueil-des-reglemens-colonies-francoises-fra_prault1767.txt` (1767) | 68,904 | fra | colonial-latin-american-devotional-catholicism, context (needs-ruling) |
+| Wanted row 155: Úrsula de Jesús | not found | no print by 1930; the 2004 edition is in copyright | | | |
+| Open-Gaps 176 (LA8-10): Ximénez for Cancuc | held for Mark | vols 1 (1929) and 2 are CC BY-NC-ND 3.0 uploads; vol. 3, with Cancuc, is dated 1931 | | | |
+| Open-Gaps 176 (LA8-5): Hernández y Dávalos; Morelos | not found | not on archive.org | | | |
+| Wanted row 124 (major): Maigrot's Mandate of 1693 in a printing of the time | filled in Latin | `historia-cultus-sinensium_varia-scripta-de-cultibus-sinarum-lat_1700.txt` (1700) | 155,815 | lat | chinese-catholicism-1650-1906, tradition; Charmot's notes in the same volume, tradition (needs-ruling) |
+| Wanted rows 124, 125 (major): Launay, Histoire générale, vol. 1 | filled, tomes 1 and 2 (to 1836) | `launay_histoire-generale-de-la-societe-des-missions-etrangeres-t1-fra_1894.txt`; `launay_histoire-generale-de-la-societe-des-missions-etrangeres-t2-fra_1894.txt` (1894) | 212,971; 208,847 | fra | vietnamese-catholicism-to-1815, chinese-catholicism-1650-1906, context |
+| Wanted row 125 (major): Pallu's own Relation | filled | `pallu_relation-abregee-des-missions-et-des-voyages-des-evesques-francois-fra_1682.txt` (1682) | 18,786 | fra | vietnamese-catholicism-to-1815, chinese-catholicism-1650-1906, tradition |
+| Wanted row 125 (major): Lambert de la Motte's own writings; the Monita; Launay's Lettres de Mgr Pallu | not found | Launay tome 1 summarizes the Monita | | | |
+| Wanted row 126 (major): Rhodes, Divers voyages | filled, the printing of 1682 | `rhodes_divers-voyages-de-la-chine-et-autres-royaumes-de-l-orient-fra_1682.txt` (1682) | 87,428 | fra | vietnamese-catholicism-to-1815, tradition (needs-ruling: the missions it tells come before the window) |
+| Wanted row 126 (major), Open-Gaps 178: Rhodes, the Cathechismus | filled; only the Latin can be read | `rhodes_cathechismus-in-octo-dies-divisus-lat-vie_1651.txt` (1651, by the printed licence) | 117,211 | lat, vie | vietnamese-catholicism-to-1815, tradition (needs-ruling) |
+| Wanted row 126 (major): Rhodes's history of Tonkin | filled in Latin | `rhodes_tunchinensis-historiae-libri-duo-lat_1652.txt` (1652) | 61,508 | lat | vietnamese-catholicism-to-1815, tradition (needs-ruling) |
+| Wanted row 126: Rhodes's catechism in modern Vietnamese | held for Mark | the one upload is CC BY-NC-ND 4.0 | | | |
+| Wanted row 127 (major), Open-Gaps 178: the Sketch of the Catholic Church in Ceylon | filled | `ceylon-catholic-church_sketch-of-the-rise-and-progress_1848.txt` (1848) | 8,154 | eng | catholics-of-dutch-ceylon, context (needs-ruling) |
+| Wanted row 127 (major): Rego's Life of Joseph Vaz; any English Life | not found | no print by 1930 on archive.org | | | |
+| Wanted row 156, Open-Gaps 178: Baldaeus | filled in Dutch and in English | `baldaeus_naauwkeurige-beschryvinge-van-malabar-en-choromandel-en-ceylon-nld_1672.txt` (1672); `baldaeus_true-and-exact-description-of-malabar-and-coromandel-and-ceylon_churchill1703.txt` (1703) | 431,810; 265,623 | nld; eng | protestant-churches-of-the-voc-world, tradition; catholics-of-dutch-ceylon, context |
+| Open-Gaps 178: Valentijn, the church of Amboina | filled, the third deel | `valentijn_oud-en-nieuw-oost-indien-deel3-nld_1726.txt` (1726) | 820,153 | nld | protestant-churches-of-the-voc-world, tradition |
+| Open-Gaps 178: the Leijdecker Bible of 1733; Ambon church records | not searched | Valentijn's third deel tells the Bible dispute | | | |
+| Batch 5, Open-Gaps 177: a Chinese Catholic's own text (Huang Bolu; André Ly; the Sichuan synod) | not found | no scan found | | | |
+| Batch 5, Open-Gaps 177: Japan's hidden Christians (Tenchi hajimari no koto; Urakawa) | not found | no print by 1930 found | | | |
+| Open-Gaps 279 (era 4), looked at again: Abu Qurrah, Bacha's French of a second treatise | rights now clear, not taken for its OCR | the preface is dated 'Paris, 20 septembre 1905' and the archive.org record's date is 1905; in the one scan (untraitdesesuvr00kurrgoog) about half the pages have the ends of their lines cut off, and the Arabic is not in the OCR | | | |
+| Open-Gaps 225: an outside witness of 1650-1815 from the Muslim majority | filled in part | al-Jabarti, tome V, above | | | |
+
+**Cautions for profile writers.**
+- Line numbers in every header and row are lines of the host OCR; add 12 for the file's own lines.
+- Proyart (1776): the French mission to Loango and Kakongo, not the kingdom of Kongo and not the Antonian
+  movement. Letters of the prefects are quoted inside part 2.
+- Pascoe (1901): a digest written by the Society's assistant secretary. Philip Quaque's words appear only where the digest
+  quotes his letters; quote them as Pascoe prints them. The file is the first bound volume and stops inside the
+  chapters on India.
+- McCarter (1869): the appendix prints the Church Ordinance, which is not his voice. His preface speaks of
+  "several years' pastoral labour among the South African Dutch colonists".
+- Bruce (1790): the long s is read as f throughout and vol. 2's OCR is noisy, so check every quotation against
+  the page image. The stoning of the missionaries is under King David's reign in vol. 2 (file lines about
+  25638-25965); the chapter on religion is in vol. 3.
+- Butcher (1897): a secondary account. Ibrahim al-Jawhari is in one footnote, spelled "Ibrahim-el Johari"; the
+  name "Johar" elsewhere in the volume is the Fatimid general.
+- Al-Jabarti (1890): a French translation by four named translators. The Coptic official is "Moallem Ibrahim el
+  Djohari" under the year 1209; the other "El Djohari" passages are other men and a book title.
+- Vansleb (1677, 1678): a Dominican's account. His catalog of the patriarchs is drawn from Arabic authors he
+  names. The English is signed only "M. D., B. D."; the host's name for the translator is not in the print.
+- Gobat (1834): three voices in one volume (the Society's preface, Professor Lee's history, Gobat's journal).
+  The OCR is poor; check quotations against the page image.
+- Guidi's Annales: the translation is French, not Latin. The Ge'ez text came through in Ethiopic letters but has
+  not been checked against the print; treat it as a second witness. The title pages name no author.
+- Vieira, Maria Rosa Mystica: sermon XIV (part 1) is headed as preached to the brotherhood of the Blacks of a
+  sugar mill in Bahia in 1633; sermons XX and XXVII (part 2) speak of the Blacks and the enslaved in the body of
+  the text, not in their headings. Sermon XV's heading was not found. Two columns are run together in places.
+- Vieira, Cartas (1735): tomo 2 starts its numbering again at I, so cite the tomo with the letter number.
+- Barros (1746): a Life; its subject is Vieira and its voice is Barros.
+- The Code noir (1767): a collection of royal acts from 1675 to 1762. The Edict of March 1685 is file lines
+  1284-2405; the Louisiana edict of 1724 is a different text.
+- Launay (1894): written two centuries after the founders. The first synod of Tonkin (14 February 1670) is told
+  in a few lines, not printed; the page appears twice, and the first copy's OCR reads the year as 1679. Maigrot's
+  Mandate is quoted in French; the OCR reads its date as "26 mars 1698" where the Latin print has 26 March.
+- Historia cultus Sinensium (1700): several authors in one volume. Maigrot's Mandate is file lines 15635-15933;
+  the OCR garbles the year in its date line. A second title page follows it. The long first piece is Nicolas
+  Charmot's notes, not a narrative history. The Jesuit pieces are in the appendix; cite each piece by its own
+  author.
+- Pallu (1682): the privileges and approbations at the head name Bourges's Relation and are dated 1665-1666;
+  the dedication is dated April 1668; the title page is 1682.
+- Rhodes: the Divers voyages is the printing of 1682. In the Cathechismus only the Latin can be quoted; the
+  Vietnamese column is garbled and its headings for days 2 to 7 were not found. The title page of the Divers
+  voyages names no author; the attribution is the host's. The missions all three describe come before the
+  entry's window, which opens in 1650; the prints are of 1651, 1652 and 1682.
+- The Sketch of Ceylon (1848): written after the entry's window; no author is named in the print. A regulation of 1806 and a minute of 1819 are
+  printed inside the text.
+- Baldaeus (1672, 1703): the English is a translation with no translator named; the OCR of its letterpress title
+  reads the Dutch year as 1572. Use the Dutch for wording.
+- Valentijn (1726): the church of Amboina is the first three books of the first stuk; the fourth and fifth are
+  natural history. The second stuk covers other lands, and church matters there were not mapped.
 
 ## Era 9 (1815-1906), batch 2a (2026-11-15): Africa, Asia, Oceania, Latin America, the Caribbean and the Eastern churches
 
-Seventy-three files for the era 9 person rows of
+Seventy-two files for the era 9 person rows of
 `Build/Ministry/Operations/Audits/2026-11-12_wanted-sources-combined/Wanted_Sources.md` that lie outside
 Britain, Europe and North America (rows 226, 246-248, 263-266, 279-322 and 324-326), with batch 1's not-found
 rows tried by new routes and the date checks batch 1 left owing. The search record is
-`Build/Ministry/Operations/Audits/2026-11-15_library-era9-b2a/Search_Log.md`. Twenty-seven files are in the
-tradition's own language: Russian (7), Spanish (5), French (5), Portuguese (3), Ukrainian (2), Dutch (2),
+`Build/Ministry/Operations/Audits/2026-11-15_library-era9-b2a/Search_Log.md`. Twenty-six files are in the
+tradition's own language: Russian (7), Spanish (5), French (4), Portuguese (3), Ukrainian (2), Dutch (2),
 Greek, German and Italian (1 each). Every file rests on a printed year of 1930 or earlier; the header of each
 names where the year stands. At intake Google's preamble and the lines that hold only the scanner's page mark
 were removed, and each header says what was removed. In three Google scans (Jessup vol. 1, My Life in Christ,
@@ -1059,7 +1165,7 @@ November; the table of batch 1 above shows the roles as they now stand. No row o
 | era 9 row 287, Vital Maria Goncalves de Oliveira: his own defence | filled | `vital_o-bispo-de-olinda-e-os-seus-accusadores-por_1873.txt` (1873); 40,202 words; por | nineteenth-century-latin-american-catholicism, tradition |
 | era 9 row 287, Antonio de Macedo Costa: his own account of the religious question | filled | `macedo-costa_a-questao-religiosa-do-brazil-perante-a-santa-se-por_1886.txt` (1886); 123,834 words; por | nineteenth-century-latin-american-catholicism, tradition |
 | era 9 row 289, Minh Mang: the edict of 1833 in a mission history, in French | filled | `louvet_la-cochinchine-religieuse-v2-fra_1885.txt` (1885); 166,328 words; fra | vietnamese-catholicism-1815-1906, context |
-| era 9 row 289, Minh Mang: the edict of 1833 in the Paris Mission's history, in French | filled | `launay_histoire-generale-de-la-societe-des-missions-etrangeres-v2-fra_1894.txt` (1894); 208,847 words; fra | vietnamese-catholicism-1815-1906, context |
+| era 9 row 289, Minh Mang: the edict of 1833 in the Paris Mission's history, in French | held already | `launay_histoire-generale-de-la-societe-des-missions-etrangeres-t2-fra_1894.txt` (vendored by the era 8 batch); the edict of 6 January 1833 is at lines 47316-47419 | vietnamese-catholicism-1815-1906, context (a second map row on that file) |
 | era 9 row 289, Minh Mang: an English history of the persecutions | filled | `shortland_persecutions-of-annam_1875.txt` (1875); 125,161 words; eng | vietnamese-catholicism-1815-1906, context |
 | era 9 row 290, Peter Paul Massaad: an outside account of the Maronites, 1840 to 1860 | filled | `churchill_druzes-and-the-maronites-under-the-turkish-rule_1862.txt` (1862); 55,762 words; eng | maronite-church-1815-1906, context |
 | era 9 rows 293 and 197, Macarius and Ambrose of Optina: the monastery's own history | filled | `optina_istoricheskoe-opisanie-kozelskoi-optinoi-pustyni-rus_1902.txt` (1902); 62,887 words; rus | the-optina-elders-and-russian-ascetic-renewal, tradition |

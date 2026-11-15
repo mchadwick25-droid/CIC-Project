@@ -19,7 +19,7 @@ the Dictionary of African Christian Biography.
 
 | host | state from this sandbox | used |
 |---|---|---|
-| archive.org (advancedsearch, metadata, MARC record, djvu.txt, page images) | reachable | all 73 files |
+| archive.org (advancedsearch, metadata, MARC record, djvu.txt, page images) | reachable | all 72 files |
 | dbnl.org | its robots file disallows every automated client except two named search engines, and a search request was answered 429 | not used; see the hand-fetch list |
 | HathiTrust, Papers Past, prlib.ru | refuse automated clients | not tried; see the hand-fetch list |
 | gallica, books.google downloads, MDZ, documentacatholicaomnia | blocked or broken, by the earlier logs | not tried again |
@@ -98,6 +98,10 @@ Not taken, because neither test is met:
 - `brazilianmystic00cunn` (Cunninghame Graham): held already, from batch 1.
 - `ajh3759.0001.001.umich.edu` (Aglipay, Catequesis, the printing of 1912): vendored and reviewed here, then
   dropped at the merge with main, where the era 10 batch had vendored the same item under the same name.
+- `cihm_54001` (Launay, Histoire générale, tome 2): vendored and reviewed here, then dropped at the last merge
+  with main, where the era 8 batch had vendored the same scan as
+  `launay_histoire-generale-de-la-societe-des-missions-etrangeres-t2-fra_1894.txt`. The map row for the edict of
+  1833 now stands on that file.
 - The Chronicle of Menelik II: the host file holds tome I (Paris 1930) and tome II (Paris 1932). Only tome I
   was taken; the file is cut before tome II's title page, and its header says so.
 

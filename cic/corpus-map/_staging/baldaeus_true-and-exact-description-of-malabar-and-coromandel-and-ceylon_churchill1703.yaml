@@ -1,0 +1,24 @@
+source_file: baldaeus_true-and-exact-description-of-malabar-and-coromandel-and-ceylon_churchill1703.txt
+assignments:
+- row_id: baldaeus_true-and-exact-description-of-malabar-and-coromandel-and-ceylon_churchill1703--baldaeus-description-of-ceylon-english-1703
+  work: 'Baldaeus, A True and Exact Description: Ceylon, English (Churchill 1703)'
+  author: baldaeus
+  locus: 'Ceylon at OCR lines 21284-47929; the Jaffna churches at about 43514-45522; add 12 to OCR line numbers'
+  atlas_ids:
+  - protestant-churches-of-the-voc-world
+  role: tradition
+  confidence: provisional
+  language: eng
+  date: {start: 1672, end: 1703, source: "letterpress title: 'Translated from the High-Dutch printed at Amsterdam, 1672'; engraved title 1703", formation_confidence: Documented}
+  note: 'The English of the Reformed minister''s account of Ceylon and its parishes. A translation; the Dutch is held.'
+- row_id: baldaeus_true-and-exact-description-of-malabar-and-coromandel-and-ceylon_churchill1703--baldaeus-description-english-as-witness-to-ceylon-catholics
+  work: 'Baldaeus, A True and Exact Description: Ceylon, as a witness to its Catholics, English (Churchill 1703)'
+  author: baldaeus
+  locus: 'Ceylon at OCR lines 21284-47929; add 12 to OCR line numbers'
+  atlas_ids:
+  - catholics-of-dutch-ceylon
+  role: context
+  confidence: provisional
+  language: eng
+  date: {start: 1672, end: 1703, source: "letterpress title names the Dutch print of 1672; engraved title 1703", formation_confidence: Documented}
+  note: 'The same account, read for the Catholics the Dutch found in Jaffna and Manaar. An opponent''s view.'

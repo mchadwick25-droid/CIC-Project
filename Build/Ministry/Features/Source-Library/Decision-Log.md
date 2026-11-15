@@ -763,8 +763,11 @@ original scans of the Catholic Worker paper, and the council leads not yet searc
 
 ## Era 9, batch 2a: Africa, Asia, Oceania, Latin America, the Caribbean and the Eastern churches (2026-11-15)
 
-Seventy-three files for the era 9 person rows outside Britain, Europe and North America, with batch 1's
-not-found rows tried again and its owed date checks done. Record:
+Seventy-two files for the era 9 person rows outside Britain, Europe and North America, with batch 1's
+not-found rows tried again and its owed date checks done. Two files vendored here were dropped before the
+merge because another batch had put the same scan on main first: Aglipay's Catequesis (era 10 batch 1) and
+Launay's Histoire générale, tome 2 (era 8 batch 1). The Launay map row for Minh Mang's edict now stands on
+main's file. Record:
 `Build/Ministry/Operations/Audits/2026-11-15_library-era9-b2a/Search_Log.md`; the rows are in `CFT-Wants.md`,
 "Era 9 (1815-1906), batch 2a".
 

@@ -1,0 +1,35 @@
+source_file: baldaeus_naauwkeurige-beschryvinge-van-malabar-en-choromandel-en-ceylon-nld_1672.txt
+assignments:
+- row_id: baldaeus_naauwkeurige-beschryvinge-van-malabar-en-choromandel-en-ceylon-nld_1672--baldaeus-beschryvinge-ceylon-and-the-jaffna-churches
+  work: 'Baldaeus, Naauwkeurige beschryvinge: Ceylon, with the churches of Jaffnapatnam (1672)'
+  author: baldaeus
+  locus: 'part 2 at OCR lines 30628-62794; the Jaffna churches at about 54380-55692; add 12 to OCR line numbers'
+  atlas_ids:
+  - protestant-churches-of-the-voc-world
+  role: tradition
+  confidence: provisional
+  language: nld
+  date: {start: 1671, end: 1672, source: "dedication dated 'Geervliet den 15 Aug. 1671' (OCR line 275); title page 'Anno 1672'", formation_confidence: Documented}
+  note: 'A Dutch minister in Ceylon describes the island and the churches and schools of Jaffnapatnam. The VOC church''s own voice.'
+- row_id: baldaeus_naauwkeurige-beschryvinge-van-malabar-en-choromandel-en-ceylon-nld_1672--baldaeus-beschryvinge-as-witness-to-ceylon-catholics
+  work: 'Baldaeus, Naauwkeurige beschryvinge: Ceylon, as a witness to its Catholics (1672)'
+  author: baldaeus
+  locus: 'part 2 at OCR lines 30628-62794; add 12 to OCR line numbers'
+  atlas_ids:
+  - catholics-of-dutch-ceylon
+  role: context
+  confidence: provisional
+  language: nld
+  date: {start: 1671, end: 1672, source: "dedication dated 15 August 1671 (OCR line 275); title page 'Anno 1672'", formation_confidence: Documented}
+  note: 'The Reformed minister''s account, read for the Catholics of Jaffna and Manaar. An opponent''s view.'
+- row_id: baldaeus_naauwkeurige-beschryvinge-van-malabar-en-choromandel-en-ceylon-nld_1672--baldaeus-beschryvinge-malabar-choromandel-and-afgoderye
+  work: 'Baldaeus, Naauwkeurige beschryvinge: Malabar and Choromandel, and the Afgoderye (1672)'
+  author: baldaeus
+  locus: 'part 1 from OCR line 587 to about 30627; part 3 at 62797-87039; add 12 to OCR line numbers'
+  atlas_ids:
+  - protestant-churches-of-the-voc-world
+  role: tradition
+  confidence: needs-ruling
+  language: nld
+  date: {start: 1671, end: 1672, source: "title pages 'Anno 1672'", formation_confidence: Documented}
+  note: 'The minister''s description of the Indian coasts and of Hindu religion as he understood it.'

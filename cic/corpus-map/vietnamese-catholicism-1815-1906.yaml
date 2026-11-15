@@ -3,7 +3,7 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: vietnamese-catholicism-1815-1906
 works:
-- row_id: launay_histoire-generale-de-la-societe-des-missions-etrangeres-v2-fra_1894--histoire-generale-de-la-societe-des-missions-etrangeres-par
+- row_id: launay_histoire-generale-de-la-societe-des-missions-etrangeres-t2-fra_1894--launay-histoire-generale-tome-2-minh-mang-edict-1833
   work: Histoire générale de la Société des Missions-Étrangères par Adrien Launay, de la même
     Société. Tome deuxième
   author: launay
@@ -22,7 +22,7 @@ works:
     source: line 66 of this file, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 289, Minh Mang: the edict of 1833 in the Paris Mission''s history, in French.'
-  source_file: launay_histoire-generale-de-la-societe-des-missions-etrangeres-v2-fra_1894.txt
+  source_file: launay_histoire-generale-de-la-societe-des-missions-etrangeres-t2-fra_1894.txt
 - row_id: louvet_la-cochinchine-religieuse-v2-fra_1885--la-cochinchine-religieuse-par-l-e-louvet-missionnaire
   work: La Cochinchine religieuse par L.-E. Louvet, missionnaire apostolique de la Congrégation
     des Missions

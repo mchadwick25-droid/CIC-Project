@@ -1,0 +1,14 @@
+source_file: vieira_maria-rosa-mystica-parte1-por_1686.txt
+assignments:
+- row_id: vieira_maria-rosa-mystica-parte1-por_1686--vieira-maria-rosa-mystica-part-1-sermons-i-xv
+  work: 'Vieira, Maria Rosa Mystica, part 1: sermons I-XV (1686)'
+  author: vieira
+  locus: 'sermons at OCR lines 311-45951; sermon XIV at 40117; add 12 to OCR line numbers'
+  atlas_ids:
+  - colonial-latin-american-devotional-catholicism
+  - society-of-jesus-1650-1814
+  role: tradition
+  confidence: provisional
+  language: por
+  date: {start: 1633, end: 1686, source: "sermon XIV's heading: 'Anno de 1633' (OCR lines 40119-40121); title page 'M. DC. LXXXVI.'; licences of 1685-1686 at 83-232", formation_confidence: Documented}
+  note: 'The preacher''s Rosary sermons in his own Portuguese. Sermon XIV is headed as preached to the brotherhood of the Blacks of a sugar mill in Bahia.'

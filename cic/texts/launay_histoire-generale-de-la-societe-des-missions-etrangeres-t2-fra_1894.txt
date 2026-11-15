@@ -1,12 +1,12 @@
-Title: Histoire générale de la Société des Missions-Étrangères par Adrien Launay, de la même Société. Tome deuxième
-Creator: Adrien Launay, de la même Société
-Publisher: Paris: Téqui, libraire-éditeur
-Publication Date: 1894 (line 66 of this file, on the title page)
+Title: Histoire générale de la Société des Missions-Étrangères; tome deuxième
+Creator: Adrien Launay, of the same Society (title page)
+Publisher: Paris: Téqui, libraire-éditeur (title page)
+Publication Date: 1894 (title page)
 Rights: Public Domain (pd-us-by-date: published 1894); the archive.org record carries no rights field, so the imprint date is the basis
 Language: fra
 Source: archive.org item cihm_54001, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,314,460) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1894, out of US copyright by date. OCR quality: fair; a microfiche scan, with page fragments interleaved in places. Line numbers cited in this header are this file's own line numbers.
-Content note: The second volume, in French, of a history of the Société des Missions-Étrangères by one of its members. There is no preface in this volume. Divisions: twelve chapters, each headed with its years and a summary; Chapter I (1754-1760) begins at line 80 and Chapter XII (1823-1836) at line 45869; 'Fin du tome' at line 50743; the table of contents begins at line 50793. Mixed voices: letters, edicts and other documents are quoted inside the narrative. Minh-mang is told of in Chapter XII (lines 45869-50743), headed 'L'Ère des martyrs s'ouvre en Cochinchine'; his edict dated 6 January 1833 is summarized and quoted at lines 47316-47419, and a secret article against the missionaries follows from line 47422. About 208,847 words.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1894, out of US copyright by date. OCR quality: mostly clean French; some chapter headings are garbled. Word count of the host text: 208,847. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
+Content note: The years 1754 to 1836. Chapter I at OCR line 68 (1754-1760); II at 3621; III at 8372; IV at 12937; V at 18559 (1780-1789); VI at 23070; VII at 27365; VIII at 30673 (1799-1805); IX at 36323 (1805-1815); X at 39801, the missionaries' voyages; XI at 42904 (1815-1823); XII at 45857 (1823-1836). 'Fin du tome' at 50731; table from 50781. Letters are quoted throughout.
 
 ______________________________________________________________________
 
