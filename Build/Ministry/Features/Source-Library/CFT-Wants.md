@@ -687,6 +687,7 @@ are not rewritten.
 | Open-Gaps 178: the Leijdecker Bible of 1733; Ambon church records | not searched | Valentijn's third deel tells the Bible dispute | | | |
 | Batch 5, Open-Gaps 177: a Chinese Catholic's own text (Huang Bolu; André Ly; the Sichuan synod) | not found | no scan found | | | |
 | Batch 5, Open-Gaps 177: Japan's hidden Christians (Tenchi hajimari no koto; Urakawa) | not found | no print by 1930 found | | | |
+| Open-Gaps 279 (era 4), looked at again: Abu Qurrah, Bacha's French of a second treatise | rights now clear, not taken for its OCR | the preface is dated 'Paris, 20 septembre 1905' and the archive.org record's date is 1905; in the one scan (untraitdesesuvr00kurrgoog) about half the pages have the ends of their lines cut off, and the Arabic is not in the OCR | | | |
 | Open-Gaps 225: an outside witness of 1650-1815 from the Muslim majority | filled in part | al-Jabarti, tome V, above | | | |
 
 **Cautions for profile writers.**

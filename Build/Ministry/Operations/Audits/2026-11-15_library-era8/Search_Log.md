@@ -13,7 +13,7 @@ A printed imprint of 1930 or earlier, read on the title page in the OCR or on th
 counts by its own date; no NC or ND licence, no permission notice, no access-restricted item. Nothing was taken
 under the rule for American books of 1931-1963.
 
-Three coordinator calls of 15 November under Mark's ruling of that day on title pages that print no year
+Four coordinator calls of 15 November under Mark's ruling of that day on title pages that print no year
 ("Copyright notice yes, preface with a check": a copyright notice dated 1930 or earlier counts; a dated preface
 counts when the library catalog's date agrees). The coordinator's call, which Mark may overrule, is that a printed
 licence or approbation leaf is the same kind of evidence as a dated preface.
@@ -28,6 +28,14 @@ licence or approbation leaf is the same kind of evidence as a dated preface.
 3. **Merolla, A Voyage to Congo, in English (voyagetocongosev00mero): not taken.** A part of Churchill's
    Collection with no imprint of its own; the scan does not hold the volume's title page. The Italian original
    (1692) and the English of Pinkerton XVI are held already.
+
+4. **Bacha's French of Abu Qurrah's treatise (untraitdesesuvr00kurrgoog), an era 4 item held by the eras 4-5
+   third fill: rights clear, not taken.** The coordinator asked this batch to look again. The title page names
+   Tripoli and Rome and no year; the preface ends "Paris, 20 septembre 1905" (host line 859) and the archive.org
+   record's date is 1905, so the date stands under the ruling. The byte count equals the host's (112,600). But
+   the scan is cropped: on about half the pages every line loses its last words (for example host lines 906-913,
+   1300-1307, 1700-1707), and the Arabic text is not in the OCR. A quotation could not be trusted, so it was
+   not vendored. A better scan would be taken.
 
 ## Hosts
 
