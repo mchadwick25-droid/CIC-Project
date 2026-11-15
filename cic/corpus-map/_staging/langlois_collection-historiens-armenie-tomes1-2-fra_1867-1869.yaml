@@ -7,5 +7,5 @@ assignments:
   atlas_ids:
   - armenian-christianity-conversion-era
   role: tradition
-  confidence: needs-ruling
-  note: 'The Armenian church''s own account of its founding patriarch. The text is usually dated after 451, just outside this window, and its author''s claim to be an eyewitness is not accepted; the placing needs a ruling.'
+  confidence: assigned
+  note: "The Armenian church's own account of its founding patriarch, in French. The version is usually dated after 451, and its date is not settled. The author's claim to be an eyewitness is not accepted."

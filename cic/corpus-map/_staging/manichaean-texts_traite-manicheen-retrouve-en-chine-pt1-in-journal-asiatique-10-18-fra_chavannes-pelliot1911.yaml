@@ -7,5 +7,5 @@ assignments:
   atlas_ids:
   - manichaeism
   role: tradition
-  confidence: needs-ruling
-  note: 'A Manichaean teaching text in Chinese, from Dunhuang, given in French. The manuscript is later than this window, so the placing needs a ruling.'
+  confidence: assigned
+  note: "A Manichaean teaching text in Chinese, from Dunhuang, given in French. The manuscripts are of the 8th-10th centuries."

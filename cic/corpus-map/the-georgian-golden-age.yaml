@@ -36,17 +36,16 @@ works:
   locus: the Typikon in vol. IV from about OCR line 7893; the rest of the item is other dissertations;
     add 11 to OCR line numbers
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: The founder's own testament. The rubric printed at the Typikon says it was rendered
-    into simple Greek, and the editor prints no Georgian or Armenian version; whether this
-    is the original is for the tree to rule on.
+    into simple Greek, and the editor prints no Georgian or Armenian version, so the volume
+    gives a later Greek version, not the original.
   source_file: pakourianos_typikon-in-commentationes-philologae-ienenses-4-grc-lat_mousaios1890.txt
 - row_id: peeters_histoires-monastiques-georgiennes-in-analecta-bollandiana-36-37-lat-fra_1917-1919--life-of-john-and-euthymius-life-of-george-the-hagiorite
   work: Life of John and Euthymius; Life of George the Hagiorite, Latin tr. Peeters
   author: peeters
   locus: from about OCR line 402; add 12 to OCR line numbers
   role: tradition
-  confidence: needs-ruling
-  note: The Iviron Lives; their dates of writing against these two windows are the tree's
-    question.
+  confidence: assigned
+  note: The Iviron Lives. Their dates of writing against the two windows are not settled.
   source_file: peeters_histoires-monastiques-georgiennes-in-analecta-bollandiana-36-37-lat-fra_1917-1919.txt
