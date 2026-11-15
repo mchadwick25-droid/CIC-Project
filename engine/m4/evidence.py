@@ -770,7 +770,7 @@ def _diverse_take(
     """Breadth-first by source family, best-first within: drawing from
     other sources is meant to be a system function, not something forced
     for one question. The measured failure
-    this replaces: a divinity question's quote slots both filled from
+    this prevents: a divinity question's quote slots both filled from
     Ignatius because his material out-scores everything, while Pliny's
     and Justin's witness sat in the same cell unseen - the voice can only
     draw breadth it is shown. Same slot count, same floors, same

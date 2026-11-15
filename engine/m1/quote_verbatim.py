@@ -107,8 +107,7 @@ ALLOWED_DIFFERENCE_CLASSES: dict[str, str] = {
 # quotation) - is NOT. That stays a failure and gets fixed in the record,
 # not accommodated here.
 
-# Two of the three patterns a #403 triage flagged (not the stray-backslash
-# one, left for the record-fix session) fold into the whitespace/ellipsis
+# Two of the three source-side patterns (not the stray backslash) fold into the whitespace/ellipsis
 # handling above rather than becoming new classes - each is a source-
 # side typesetting/notation quirk, not a difference in what's actually
 # said. The third (stray backslash) is a record-authoring bug, out of
@@ -127,7 +126,7 @@ ALLOWED_DIFFERENCE_CLASSES: dict[str, str] = {
 # same file, and no safe, narrow rule for telling the two apart has been
 # found yet. See the fleet report for the six records this still blocks
 # (five apparatus-only, one - `cappadocian.quote.basil-on-work-and-
-# prayer` - already nested-mark-fixed by #413 but blocked here too).
+# prayer` - whose nested marks are already fixed, but blocked here too).
 
 # The rule: fleet-wide principles, since a hundred worlds cannot each be
 # told individually what to say for every quote - never a per-record

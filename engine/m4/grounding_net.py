@@ -1,7 +1,7 @@
 """Live-turn grounding for CITATION-TAGGED output (Live-Generation Design
 §6 - see engine/m4/LIVE-GENERATION-DESIGN.md §9.5, all four forks signed
 off). Promoted from the design's own companion prototype
-(grounding_experimental.py, claude/cic-design-assignment-ecoxh2), which
+(grounding_experimental.py), which
 proved this exact logic against the real alx package (§6.2's run log) -
 ported unchanged except this docstring; the calibration history below is
 that prototype's own postmortem, kept because it is why the module is
@@ -1511,7 +1511,7 @@ def check_turn(
 
 # Blank-line blocks - the exact regex
 # engine.m4.live_uncited_claims_battery's own _PARAGRAPH_SPLIT already
-# proved live across two battery runs (#419, #420). A paragraph is a
+# proved live across two battery runs. A paragraph is a
 # sequence of the same sentences parse_tagged already produces, grouped by
 # which blank-line block they fell in - nothing about how a sentence
 # itself is found or tagged changes.

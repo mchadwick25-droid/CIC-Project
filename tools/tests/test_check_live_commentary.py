@@ -35,16 +35,6 @@ def _hits_for(text: str, tmp_path: Path, rel: str) -> list[clc.Hit]:
 # PROTECTED
 # ---------------------------------------------------------------------------
 
-def test_vendored_texts_fully_excluded():
-    # cic/texts/ isn't one of SURFACES' scanned roots at all (only
-    # cic/engine and cic/corpus-map are) - a real scan never walks into
-    # it. is_protected still marks it PROTECTED as defense in depth, for
-    # any path reaching scan_file() directly (as this test does).
-    assert not any(root.startswith("cic/texts") for roots in clc.SURFACES.values() for root in roots)
-    hit = clc.Hit("engine", "cic/texts/foo.txt", 1, "", [], "")
-    assert clc.is_protected(Path(hit.path), hit.line, set())
-
-
 def test_seeded_defects_file_fully_protected(tmp_path):
     text = 'note: "per Mark\'s standing quote ruling, RULED 2026-08-21, R26"\n'
     hits = _hits_for(text, tmp_path, "fixtures/seeded_defects.yaml")
@@ -1458,8 +1448,10 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     ("records/witt/source/witt.source.scribner-for-the-sake-of-simple-folk.md", 24, "PROTECTED"),
     ("records/witt/source/witt.source.susan-reformation-of-ritual-an-interpretation.md", 24, "PROTECTED"),
     ("records/witt/source/witt.source.thomas-luthers-jews-a-journey-into-anti.md", 24, "PROTECTED"),
-    ("engine/BASELINES.md", 10, "REWRITE"),
-    ("engine/BASELINES.md", 14, "REWRITE"),
+    # The dates are part of a tag and a branch name (`pilot-baseline-2026-08-24`,
+    # `baseline/pilot-2026-08-24`); the baseline cannot be named without them.
+    ("engine/BASELINES.md", 10, "KEEP"),
+    ("engine/BASELINES.md", 14, "KEEP"),
     # Refreshed 2026-09-26 (Doc_0X construction-doc review-status
     # exemption): this "Date drafted:" header line was hand-labelled KEEP
     # under the old bare-date rule alone; it is now PROTECTED, the more

@@ -861,7 +861,7 @@ def _advance_open_round(
     # re-derived per turn within a round (out_of_scope_class, above, is
     # the round's own opening classification, read back unchanged on
     # every continue; see _continue_table_round_unlocked). The evidence
-    # lookup is #440's own fix, scoped to THIS SEAT'S world (not a single
+    # lookup is scoped to THIS SEAT'S world (not a single
     # fixed world the way interview's one-voice session is): does this
     # seat's own package already name the tradition asked about, from the
     # participant's own raw text. The Table's own seat-to-seat clause
