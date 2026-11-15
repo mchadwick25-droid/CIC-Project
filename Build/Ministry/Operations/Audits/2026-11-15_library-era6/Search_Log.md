@@ -41,8 +41,8 @@ Held already, and missed before:
   print by 1930.
 - **Abu'l-Fida (outside-witness row 8).** The held `rhc-historiens-orientaux_t1-fra_academie1872.txt` prints a
   "Résumé de l'histoire des croisades tiré des Annales d'Abou'l-Fedâ" in French, from about file line 6059 to about
-  23098, and his autobiography from about 23101 to about 24592. The header of that file names only Ibn
-  al-Athir.
+  23098, and his autobiography from about 23101 to about 24592. The header of that file named only Ibn
+  al-Athir; it now names both.
 
 Held and not enough: Mouravieff for the Russian founders (a later retelling); the Latin Revelations of Bridget, which
 end at Book V ("Explicit Quintus Liber", file line 108685); the Philokalia, which holds Gregory of Sinai's works and

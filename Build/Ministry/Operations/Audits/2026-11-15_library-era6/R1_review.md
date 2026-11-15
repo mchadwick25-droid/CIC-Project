@@ -4,8 +4,8 @@ The report of a fresh Opus reviewer, briefed to read and grep only: every rights
 records and the three "held already" claims. The findings below are the reviewer's, condensed by the Library thread;
 no finding is dropped. Line numbers are file lines (OCR line plus 12) unless marked OCR.
 
-**Rights: all 27 pass.** Nineteen pass on the OCR title page; eight are read on the page image and the OCR
-contradicts none (von der Hardt, whose colophon reads "A. M. DC. XCIIX." at file line 58635; Mansi 29, garbled at
+**Rights: all 27 pass.** Nineteen pass on the OCR title page; eight, by the reviewer's count, are read on the page image (the
+headers name ten, with October X and Euthymius) and the OCR contradicts none (von der Hardt, whose colophon reads "A. M. DC. XCIIX." at file line 58635; Mansi 29, garbled at
 165; Ibn Battuta 1 and 4; Berbères 1; Gaudefroy-Demombynes, where the OCR's "1993" is a known 2-for-9 misreading;
 Bridget II; Scriptores rerum Suecicarum III). No file shows a reprint line, an ISBN or a licence notice. Library
 stamps with later years stand on or near four title leaves (Ockham, "JAN 23 199"; Wüstenfeld, "8 JUL 1962";
