@@ -31,16 +31,22 @@ the pull request. Check that the script is on main before relying on it.
 
 Open-Gaps numbers come from the coordinator at go time; batch 1's entry is 291.
 
-### Two standing rules from Mark, relayed by the coordinator on 15 November
+### Two instructions from the coordinator, with remarks of Mark's it passed on (15 November)
 
-1. "Each of them are vendoring all the sources they find into the library." Every source found that passes the
-   rights rules goes into `cic/texts/` in the same batch. Nothing waits as "located, not yet taken". The only
-   exceptions are rights failures and sites that need a hand fetch.
-2. "The whole point of the library threads was to build the library so we can do our writing." Batch 2 also takes
-   the era 8 rows of the section "Texts to fetch, by era" on https://claude.ai/artifact/DAZgxvjPbCyAjzYadhREMW
-   (read it with the Artifact tool). Those are texts the story, tradition and council cards rest on that the
-   shelf does not hold. Each title there was named from memory, so confirm that each one exists, and grep the
-   shelf for it, before downloading.
+Neither is a ruling. A ruling is only Mark's own words given as a decision; both of these reached the Library
+threads through a coordinator.
+
+1. Mark's remark, as passed on: "each of them are vendering all the sources they find into the library". It was a
+   statement of fact about the Library threads, not a rule. The coordinator's instruction built on it: every source
+   found that passes the rights rules goes into `cic/texts/` in the same batch, and nothing waits as "located, not
+   yet taken", except rights failures and sites that need a hand fetch. Confirm it with the present coordinator
+   before acting on it.
+2. Mark's remark, as passed on: "the whole point of the library threads was to build the library so we can do our
+   writing". The coordinator of the time added the era 8 rows of the section "Texts to fetch, by era" on
+   https://claude.ai/artifact/DAZgxvjPbCyAjzYadhREMW. The present coordinator has since dropped that list for the
+   other eras: it came from the legend check, and Mark's direction of 2026-11-15, as passed on, is "we dont need to
+   build out more legends we need to make sure the who and counsils are drawing from their own sources not sources
+   writen 1000 years later". Do not take the era 8 rows unless the coordinator says so.
 
 ### Found by batch 1 and not vendored: batch 2 vendors these first
 
