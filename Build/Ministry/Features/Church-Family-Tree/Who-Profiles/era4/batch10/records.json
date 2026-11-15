@@ -1,0 +1,1607 @@
+{
+ "theophanes-the-confessor": {
+  "claims": [
+   {
+    "claim": "The great frost: from October a great cold; the sea froze \"ad centum millia\" out from the northern coasts of the Pontus; in February of the second indiction the ice broke \"in multa ac varia ſrusta ... speciem referentia disrupta est\", was driven by the winds through the mouth of the Pontus to the city; \"eujus de visu tesles exstitimus\"; \"unum quippe illius ſragmentum quasi triginta ... ejusdem juvenes ludibundi a>cendimus\" (scan: \"a>cendimus\")",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt), Chronographia A.M. 6255, Goar's Latin, l.78270-78272, l.78350-78351, l.78306-78327 (the scan runs the Latin column out of order)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The year: A.M. 6255, printed A.C. 755",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt) l.78213, l.78219",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Goar: born \"ut ipse numerat, 744, ut melius alii 751 vel alii 752\"; the ice in 755 by his own figures, 763 by better ones; about twelve then (\"de seipso scribit\")",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt), Goar's Notitia, l.332-337",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Jacques Goar, Dominican (\"Jacobus Goar ord. Prædicatorum\"); fell ill after August 1653 and died; Combefis put his notes through the press (\"Notas itaque quales relicie erant, prelo subjeci\"); preface dated 1655",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt) l.265, l.584-590, l.636",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Title: Chronographia of Theophanes, abbot of Agros and confessor, from Diocletian's first year to the second year of Michael and Theophylact his son, A.M. 5777 to 6305 (Alexandrian)",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt) l.3700-3719",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Year by year: \"historiam exhibet per annos digestam\"; the preface: \"Singulorum acta per annos et tempora propriis quibusque loeis\"",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt) l.496; l.4189-4191",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Scope: Anastasius says it ran to Leo; Baronius ends it at the capture of Adrianople, ad annum 813",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt), Goar's note, l.3826-3842; Anastasius, l.105675-105681",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Life's authorship: \"Vite Theophanis a Metaphraste, vel ex Baronii judicio a Theodoro Studita conscriptæ versione Latina\"",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt), Goar's Notitia, l.318-319",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Fabricius: \"nonnulli viri docti tribuunt etiam vitam Theophanis conſessoris\" to Theodore",
+    "witness": "PG99 (theodore-studite_opera-omnia-pg99-grc-lat_migne1860.txt), Fabricius's notice, l.841-844",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Symeon Metaphrastes's Lives, which Surius translated",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt) l.43207-43208",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Combefis: the Greek of the Eulogy found in a codex of Saint Mark's library (Venice) through Cardinal Francesco Barberini; the Latin of Lipomanus pointed to \"monumentum egregium indicabat, quo et Anastasius delectalus esset\"",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt) l.596-623",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Anastasius the Librarian, writing while Ignatius \"adhue superest habenas Congartinopolitane tenens Ecclesiz\", speaks of Theophanes's \"conscripta vita\": estates sold, abbot \"in monasterio Agri\", miracles, \"conſessor obierit\", proclaimed \"per Byzantium et circum quasque regiones\"",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt), Anastasius's preface, l.105675-105682, l.105708-105717",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Henschen calls Anastasius \"Theophanis antiquissi mum interpretem ac pene coævum\"",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt), Henschen's dissertation, l.103884-103886",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "The Life names no author; its writer took up the praise \"adhortatione adductus\", with \"multorum\" displaced by the scan to l.802",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt), Life, l.765-766, l.802",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Father Isaac (Isaacius) and mother Theodota, rich; father died \"cum jam puer ... irimulus esset\" (trimulus; the scan sets a column letter between); a gap follows (\"Mater autem. . .\")",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt), Life, l.924-955",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Home city: \"illa patria, quz imperii dignitate decorata\", unnamed",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt), Life, l.797-800",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Wedding night: he spoke to his bride of the shortness of life; she agreed; they lived the monastic life within the world",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt), Life, l.958-1130",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Father-in-law angered the emperor; \"Leo hic ſuit Copronymi filius\"; threatened \"oculos effossurum\"; sent to Cyzicus; met Gregory at Sigriane",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt), Life, l.1245-1262",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Leo IV: \"Leone quarto Constantini F.\"",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt), Goar's Notitia, l.339",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "\"Nondum anni tres przterierant\" when father-in-law and emperor died; Irene ruled with her son",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt), Life, l.1342-1350",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Wealth given to the poor; she in the monastery \"in insula Principe\"; he to Strategios at Sigriane, monastery Polychronius, tonsured",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt), Life, l.1385-1413",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Monastery built on the paternal estate on Calonymus; copied sacred books (\"Divinorum librorum seriptioni assidue incumbebat\")",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt), Life, l.1559-1580",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Sigriane mountain: bought from a farmer a plot \"jam agri nomen erm\" (erat); others took him as guide (\"eorumque. præſectum agebat\")",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt), Life, l.1614-1625, l.1670-1680",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Nicaea: \"Cum enim Nicææ synodus secundo coacta esset\" he went \"solito cilicino saeco indutus, 3C asine insidens\" (sacco, ac asinæ); \"strenue propugnata veriiate\"",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt), Life, l.1705-1711, l.1816, l.1899-1902",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The council at Nicaea met in 787",
+    "witness": "NPNF14 (npnf214_seven-ecumenical-councils.xml) l.37859, l.37957",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Leo \"scelestissimum hominem\", of Armenian and Assyrian descent; drove out \"Ecclesize solem ejicit\" and nearly all bishops; attacked the images of Christ, his Mother and the saints",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt), Life, l.2077-2099",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Genesios: Leo condemned \"summum sacerdotem Nicephorum\" to exile; Theophanes on a shore with candles and incense; \"Ad sanctum, inquit , Patrem atque confessorem Theophanem monasterii Agriensis\"",
+    "witness": "TC (theophanes-continuatus_historiae-byzantinae-scriptores-post-theophanem-pg109-grc-lat_migne1863.txt), Joseph Genesios, Regum lib. I, l.84396-84425",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The chronicle that continues Theophanes tells the same farewell, \"quando etiam ferunt\"",
+    "witness": "TC (theophanes-continuatus_historiae-byzantinae-scriptores-post-theophanem-pg109-grc-lat_migne1863.txt) l.2886-2906",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Summoned under pretext of prayers before war; ill \"renum et urine\" difficulty; offered rewards, threatened; replied that what he had refused young he would not take old; \"Ego qui in terra gradi non valeo ... in rogum promptus insiliam\"",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt), Life, l.2264-2354",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Debate: Life unnamed man versed in sorcery; notice names \"Joanni ariolo\"; notice: threatened with the gallows",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt), Life, l.2356-2375; notice, l.3400-3419",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Held in the Eleutherius palace; \"Duos igitur annos acerbissimo defunctus carcere\"; to Samothrace; died after \"tres supre viginti une dies\" (supra ... unde)",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt), Life, l.2383-2392, l.2607-2614",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "818, Leo's fifth year, against Baronius; prison from 816",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt), Goar's Notitia, l.344-371",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Office of 12 March",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt) l.2898",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Notice: father prefect of the Aegean; married at twelve, eight years; Leo and father-in-law died in his twenty-first year; wife \"Megalus nomine\" renamed Irene at Principe; six years copying books on Calonymus; illness in his fiftieth year",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt), notice, l.3293-3392",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Goar: marriage at twelve \"ſalso, ut videtur\"; twenty-first year \"Erronce\" (Erronee)",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt), Goar's Notitia, l.337-340",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "The Life's Latin heading \"QUI ET ISAACUS\"; Goar: should read \"Theophanis Isacii F.\"",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt) l.650-656; Goar's Notitia, l.319-323",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Goar: Baronius split Theophanes into two",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt), Goar's Notitia, l.312-314",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Sigriane in Asia near Cyzicus, Goar after Allatius; \"Megalagrites\"",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt), Goar's Notitia, l.377-389",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Preface: George, once syncellus of the patriarch Tarasius, wrote a chronology from Adam to Diocletian; died; left it to \"nobis velut sincerioribus amicis\"; urged; Theophanes declined at first; searched many volumes; \"ex proprio penu nil depromentes\"; \"si quid deesse comperiat, imperitiz et abjecti nostri ingenii larditati ascribat, et ex Domini charitate condonet\"",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt), preface, l.3730-3731, l.3954-3967, l.4141-4211",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Combefis: later Greek and Latin breviaries mostly reproduced Theophanes",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt), Combefis's preface, l.571-577",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Continuation begins with Leo the Armenian, where Theophanes ends; written by order of Constantine Porphyrogenitus",
+    "witness": "TC (theophanes-continuatus_historiae-byzantinae-scriptores-post-theophanem-pg109-grc-lat_migne1863.txt) l.246-247, l.254, l.279, l.548",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Catalogue of Theodore the Studite's letters (titles and opening words, Coislin 94): letter 411 to Theophanes \"prxposito\" of Agros (Greek garbled), letter 476 \"Theophani præposito et conſessori\"",
+    "witness": "PG99 (theodore-studite_opera-omnia-pg99-grc-lat_migne1860.txt) l.141764-141767, l.142335, l.142454",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Henschen: the year tables are not Theophanes's",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt) l.466-505, l.103870-103871",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "The held Life lacks a leaf (\"Dees unum folium\" (Deest)), as in Lipomanus",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt) l.2860-2861",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Author and date of the Life and Eulogy",
+    "sides": [
+     "Goar: Metaphrastes, or in Baronius's judgment Theodore the Studite (THEOPH l.318-319)",
+     "Fabricius: some learned men give it to Theodore (PG99 l.841-844)",
+     "Combefis: the Latin pointed to a work Anastasius had enjoyed (THEOPH l.609)",
+     "Anastasius knew a written Life while Ignatius held the see (THEOPH l.105681, l.105712)"
+    ]
+   },
+   {
+    "claim": "Birth year",
+    "sides": [
+     "By Theophanes's own figures, about 744 (Goar, THEOPH l.333)",
+     "Better, 751 or 752 (Goar, after others, THEOPH l.333-337)"
+    ]
+   },
+   {
+    "claim": "Marriage at twelve and the deaths in his twenty-first year",
+    "sides": [
+     "The notice in his Office (THEOPH l.3306, l.3352)",
+     "Goar: false and an error (THEOPH l.337-340)"
+    ]
+   },
+   {
+    "claim": "Death year 818",
+    "sides": [
+     "Goar, in Leo's fifth year (THEOPH l.344-371)",
+     "Baronius, whose dating Goar rejects and who, Goar says, split him into two men (THEOPH l.312-314, l.372-373)"
+    ]
+   },
+   {
+    "claim": "The name Isaac",
+    "sides": [
+     "Latin heading: also called Isaac (THEOPH l.654-656)",
+     "Goar: son of Isaac (THEOPH l.319-323)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Birth year in any primary source",
+    "note": "None gives it; 751/752 and 744 are Goar's reckonings from the ice."
+   },
+   {
+    "detail": "Day of death",
+    "note": "No held source gives it; 12 March is the day of his Office (l.2898)."
+   },
+   {
+    "detail": "Author's name in the Life",
+    "note": "The Life names no author; attributions are Goar's, Baronius's (through Goar) and Fabricius's."
+   },
+   {
+    "detail": "English translation of the Chronographia or the Life",
+    "note": "None held; searched cic/texts for theophanes, Theophanes the Confessor, Sigriane, Agros."
+   },
+   {
+    "detail": "Text of Theodore the Studite's letters to Theophanes",
+    "note": "Only titles and opening words are held (PG99 l.142335, l.142454)."
+   },
+   {
+    "detail": "Acts of the council of 787 naming Theophanes",
+    "note": "Mansi volumes 12-13 are not held; NPNF14 lists no Theophanes among the 787 signatories searched."
+   }
+  ]
+ },
+ "stephen-the-younger": {
+  "claims": [
+   {
+    "claim": "The coin: on his way in he asked a devout man for a coin, \"a pio aliquo viro nummum petiit ei accepit, quem quidem intra cucullam geslabat\"; held it up: \"Cujus est, o imperator, imago hec et auperscriptio?\"; Constantine: \"Imperatorum\"; if thrown down and trodden, punished? those standing by: \"Omnino\"; then what of one who tramples Christ and his mother in an image; \"nummum projecit et calcavit\"",
+    "witness": "PG100 Vita Stephani l.95528-95537 (Phiale, Pharos, the coin), l.95695-95732",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "A monk of Mount Auxentius, across from Constantinople (\"Nicomediæ sinum, e regione Bythinarum partium\"; Theophanes: near Mount Damatrys; the mount named for Auxentius); the Life calls him Stephen of Auxentius",
+    "witness": "PG100 l.90082-90084, l.90097-90108, l.96600-96601, l.96951; THEO (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt) l.78710-78711; east of the city: PG100 l.97245-97247",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Constantine V's campaign against the images; the Life calls the iconoclasts Iconocaustae",
+    "witness": "PG100 l.88668-88670, l.91627, l.92565-92589",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Life by Stephen the Deacon of the church of Constantinople; Fabricius: written 808; Stephen killed 766; Benedictines: written in the 42nd year after the death \"ut auctor ipse teslatur\"; the author: 42 years have passed, gathered from \"viris veridicis ejusque discipulis\"",
+    "witness": "PG100 l.88570-88573, l.88585-88588, l.88776-88785",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Benedictines: Metaphrastes drew his Life from it; the author took phrases and whole sentences from Cyril's Life of Euthymius; the Life tells most of the history of the iconoclasts",
+    "witness": "PG100 l.88589-88605",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ages: tonsured \"ætatis annum decimum sextum agentem\" under John on Auxentius; enclosed \"2tatis anno tricesimo primo\"; to the summit at 42",
+    "witness": "PG100 l.90233-90275, l.90836-90843, l.91201-91206",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Born in Constantinople; parents' story set in the first year of Artemius-Anastasius, year of the world 6202 in Loppin's Latin, bracket \"[Christi anno 713]\"; mother Anna prayed at the Blachernae icon; conceived when Germanus became patriarch; baptized by Germanus",
+    "witness": "PG100 l.88973-89012, l.89050-89093, l.89170-89176, l.89454-89481",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The council of 754 against the images (Percival/Hefele: Hieria, then Blachernae); in the Life the council held in the Blachernae church, then all sign",
+    "witness": "NPNF14 (npnf214_seven-ecumenical-councils.xml) l.39205-39208, l.39499-39523; PG100 l.92583-92589, l.92804-92805",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Callistus the patrician sent up the mountain to have him sign \"synodi deſinitioni\"; Stephen: \"ego Stephanus neque subseribo\"; cupped hand: \"Etiamsi tantulum vitalis sanguinis mihi esset, pro Christi imagine effundatur\"; sends back the food",
+    "witness": "PG100 l.92804-92857",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Carried down by two men, unable to stand from fasting; bishops (Theodosius of Ephesus, Constantine of Nicomedia, Constantine of Nakoleia and others) at the Chrysopolis monastery; Callistus: \"Vieti sumus, imperator, victi sumus\"; exiled to Proconnesus",
+    "witness": "PG100 l.92862-92884, l.94200-94214, l.94700-94734",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Back from Proconnesus to the Phiale prison, then after the coin to the Praetorium; there 342 monks (\"ad trecentos quadraginla duos\"), noses cut off, eyes dug out, hands cut off, for refusing to sign against the images",
+    "witness": "PG100 l.95463-95465, l.95529-95531, l.95738-95769",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Eleven months in the Praetorium; at a feast the emperor: \"Non sum ego imperator. Alius vester imperator est ... Stephanus Auxentii\"; a crowd runs to the prison; \"Ego sum, quem quzritis\"; ropes tied between the chains on his feet; dragged into the public street; Philomates kills him with a pole from the fire siphons; body thrown into the pit of pagans and the condemned at Saint Pelagius",
+    "witness": "PG100 l.96041-96043, l.96915-96984, l.97169-97190",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Death: \"quinquagesimo tertio su ætatis anno, mense ... die vigesima Octava\"",
+    "witness": "PG100 l.97215-97217",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Theophanes: 20 November, indiction 4 (Goar's margin A.C. 757); \"Stephanum juniorem protomartyrem inclusum ad sanctum Auxentium\"; accused \"quod plerosque ad monasticam vitam esset hortatus, et aulæ dignitates divitiasque contemnere suasisset\"; one foot tied with a rope; dragged by scholarii and soldiers from the Praetorium to Pelagius and torn apart; \"annos sexaginta in clausura exegil\"; officials and soldiers punished for images",
+    "witness": "THEO (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt) l.78706-78729",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Nikephoros's Short History (marked \"An. 766\"): a holy monk shut in a narrow hut at the foot of the mountain of Saint Auxentius, accused of drawing people from homes, kin and palaces to the monastic life; beaten, imprisoned, a rope tied to his feet, dragged from the palace to the Forum of the Ox and torn apart; body thrown to Pelagius's tombs, where pagans' and executed men's bodies went",
+    "witness": "PG100 Breviarium l.81472-81487",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Patrologia Graeca editors of Theophanes: Theophanes runs together events of several years; dragged from his hut 763, Proconnesus 766, martyred 767 on 28 November, not after sixty years in enclosure",
+    "witness": "THEO l.131024 (heading), l.131095-131109",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "In the Life Stephen the Younger tells the monks John of Damascus \"quem hic tyrannus Mansur nominabat, nos autem sanctum et deiferum appellamus\" kept writing against the emperor (agrees with batch 9's John of Damascus record)",
+    "witness": "PG100 l.92459-92460, l.92531-92537, l.92547-92549",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Theodore gathers the broken skull pieces; the abbot of Dios lays them in a box within the altar; Theodore exiled to Sicily with wife and children",
+    "witness": "PG100 l.97142-97147, l.97263-97293",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Fiery cloud over the mountain he came from, hail on the city, while he was dragged",
+    "witness": "PG100 l.97243-97253",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Why he was killed",
+    "sides": [
+     "The Life: for refusing the council's ruling and defending the images (PG100 l.92841-92857, l.95646-95732)",
+     "Theophanes and Nikephoros's Short History: accused of drawing people into the monastic life (THEO l.78713-78715; PG100 l.81475-81481)"
+    ]
+   },
+   {
+    "claim": "The date of his death",
+    "sides": [
+     "The Life: 28 November, 53rd year, no year (PG100 l.97215-97217)",
+     "Theophanes: 20 November, indiction 4, Goar's margin A.C. 757 (THEO l.78706-78707)",
+     "Fabricius: 766 (PG100 l.88570-88571); the year marker in the PG100 Short History: 766 (PG100 l.81472)",
+     "Patrologia Graeca editors of Theophanes: 28 November 767 (THEO l.131105-131109)"
+    ]
+   },
+   {
+    "claim": "His years in enclosure",
+    "sides": [
+     "Theophanes: sixty (THEO l.78726)",
+     "The Life's ages, 31 at enclosure and 53rd year at death; the PG editors of Theophanes reject sixty (PG100 l.90842, l.97215-97217; THEO l.131106-131108)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "An own work",
+    "note": "No work of Stephen's is held; his words are the Life's reports. Searched all cic/texts for Stephanus junior/iunior, Stephen the Younger and Auxentius."
+   },
+   {
+    "detail": "His year of birth",
+    "note": "The Life gives ages and sets his parents' story in Anastasius II's first year; the 713 is the edition's bracket. No held source states his birth year."
+   },
+   {
+    "detail": "The year 765",
+    "note": "No held line states it. Theophanes gives a day and an indiction under Goar's A.C. 757; Fabricius and the Short History's marker give 766; the PG editors 767."
+   },
+   {
+    "detail": "English translation of the Life",
+    "note": "None is held; only Loppin's Latin and the Greek in PG100."
+   }
+  ]
+ },
+ "nikephoros-of-constantinople": {
+  "claims": [
+   {
+    "claim": "Crowning: as he set the crown on Leo's head, \"quasi in spinas et iribulos mannin injicere\"; \"palam proſitebatur ingenti se doloris sensu affectuin esse\"; in the church \"quod a Sapientia nomen habet\"",
+    "witness": "PG100 (nikephoros-cp_opera-with-vita-stephani-iunioris-pg100-grc-lat_migne1860.txt) Vita Nicephori c.V l.4607-4659",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Theophanes: Leo crowned \"in Magnæ ecclesiz ambone a Nicephoro patriarcha\" on 11 July, indiction 6; the Bollandists: \"ergo anno 813\"",
+    "witness": "THEO (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt) l.90786-90790; PG100 l.4643-4644",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ignatius: Leo put off signing the creed until crowned, then on the second day refused (\"Is se ſacturum fortiter pernegat\")",
+    "witness": "PG100 l.4579-4606, l.4661-4668",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Theophanes: before entering the city Leo wrote to Nikephoros, \"quem de reela sua in Deum fide certiorem fecit\"",
+    "witness": "THEO l.90754-90775",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Fabricius: patriarch in place of Tarasius 806, 12 April, Easter; deposed 815 for the images; \"homologeta, sive eonſessor, Græeis dictus\"; died in a monastery 828; Life by Ignatius, deacon of Constantinople",
+    "witness": "PG100 Fabricius's Notitia l.302-308",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bollandists: born \"circa annum 758\"; ordained 12 April, Easter, 806; exiled 13 March 815; died in the 14th year of exile, 2 June 828; body brought back 846",
+    "witness": "PG100 l.1668-1675",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Ignatius, deacon and keeper of the vessels of the Great Church, later metropolitan of Nicaea (Suidas), wrote the Lives of Tarasius and Nikephoros; calls Nikephoros his father and himself his son; deplores his own lapse into heresy",
+    "witness": "PG100 l.1609-1622, l.1646-1652",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ignatius's own confession in the Life: he was polluted by the accursed communion and asks help to expiate the heresy",
+    "witness": "PG100 l.10741-10770",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Combefis: Ignatius \"aliquando vim passum et hereticis imaginum effractoribus communicasse\"; wrote \"pœnitudine ductus\" when Methodius was installed; Combefis translated the Greek (\"Græca Ignatii ... reddidi\")",
+    "witness": "PG100 l.1755-1782",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Father Theodore, an imperial secretary under Constantine V, flogged, stripped of rank, exiled to Pemolina, recalled, tortured again, exiled to Nicaea and died there; mother Eudocia followed him in exiles",
+    "witness": "PG100 c.I l.2143-2270",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Nikephoros chosen scribe \"a secretis\" to the emperors",
+    "witness": "PG100 l.2371-2376",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "At the council of 787 under Tarasius, among the officials, he proclaimed the veneration of images, a confessor \"etiam ante sacras infulas\"; Mai: he attended and spoke, as Ignatius and the acts say",
+    "witness": "PG100 l.2571, l.2685-2692; l.14468-14470",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Left the court for a cave \"e regione Bosphori Thracii\" on a barren height and built a monastery; later curator of the great poorhouse",
+    "witness": "PG100 c.II l.2774-2847, l.3206-3208",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Chosen as layman by the emperor's urging; became a monk at his own request; consecrated at the Easter feast",
+    "witness": "PG100 c.III l.3476-3531, l.3733-3757, l.3792-3800",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Theophanes: elected 12 April, Easter, by people, priests and emperors; \"Plato autem et Theodorus, Studii monasterii superior, Nicephori ordinationi non assenserunt\", since a layman should not leap to the top; the emperor Nikephoros wished to drive them from the city; Theophanes: not new, many laymen made bishops",
+    "witness": "THEO l.87157-87182",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Sirmond chronology: a synod called by the emperor Nikephoros restored the steward Joseph \"utennque consentiente novo patriarcha\", inexperienced and fearing the emperor; Plato, Theodore and Joseph of Thessalonica abstained from Nikephoros's communion over Joseph; peace under Michael I in 811",
+    "witness": "PG99 (theodore-studite_opera-omnia-pg99-grc-lat_migne1860.txt) l.5626-5660, l.5801-5816",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Theophanes: Theodore, his brother Joseph of Thessalonica and Plato separated from Nikephoros's communion over Joseph the steward, who had crowned Constantine and Theodote illegally; the emperor's synod exiled them in January",
+    "witness": "THEO l.87768-87810",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Goar: Nikephoros restored Joseph \"ut imperatoris gratiam iniret\"",
+    "witness": "THEO Goar's note 22 l.87278-87282",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Leo orders a debate with the iconoclasts; Nikephoros answers: Alexandria, Antioch, Jerusalem do not agree, no Roman priest, no catholic synod; \"optimus sit imperator, qui ex bello pacem componere possit\" and you have brought war on a settled church",
+    "witness": "PG100 c.VII l.5317-5374, l.5377-5539",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Night exile: a patrician with soldiers sent \"media nocte Dominice lucis\"; ill, he rises with a servant's help, censes, lights two candles in the catechumenium where he often prayed all night, lies prone, prays, then is carried on a litter; boat to the monastery \"Boni nomine\", then to the farther monastery of the martyr Theodore, both his foundations",
+    "witness": "PG100 c.XI l.8500-8531, l.8849-8864",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Theophanes the priest: fourteen years in exile; buried in the monastery he founded",
+    "witness": "PG100 Oratio l.11362-11366",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Michael II \"fertur respondisse\": let Tarasius's synod and those under Constantine and Leo be set aside; he may come and preside if he says nothing about the images; Nikephoros holds to his confession",
+    "witness": "PG100 c.XIII l.9990-10023",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Antirrheticus I: \"omni ævo auditum est corpus incircumscriptum ?\"; to say a body is not circumscribed is to say it is not in a place, and what is not in a place is not a body",
+    "witness": "PG100 Antirrheticus I, Mai's Latin, l.17809-17816",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mai: Antirrhetici written in exile after the larger Apologeticus of 817; died 828 \"septuageuarius\"; aimed at Constantine by name and at Leo V; they recite segments of a \"libri bactenus incogniti Iconomachorum, Copronymi regio nomine et auctoritate 8cripti\"; Banduri: surpassed the bishops of Constantinople since Chrysostom",
+    "witness": "PG100 l.14442-14444, l.14472-14483",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Mai's note: Mamonas is Constantine V",
+    "witness": "PG100 l.14731-14733",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Breviarium: from Maurice's death 602 to Leo IV and Irene's marriage, 770; Photius cod. 66 read and praised it",
+    "witness": "PG100 Fabricius l.318-321",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Death: last words \"Benedictus Deus, qui non dedit nos in captionem dentibus eorum\"",
+    "witness": "PG100 c.XIV l.10629-10643",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Translation: Methodius opened the tomb; body \"undeviginti annorum spatio integrum\"; laid in the Holy Apostles \"tertio Idus Martii\", the day of his exile",
+    "witness": "PG100 Oratio c.II l.11733-11775",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Theophanes the priest is another and younger man than Theophanes the Confessor (Bollandists)",
+    "witness": "PG100 l.1629-1648",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Theodore the Studite's letter to him in exile: \"Salve, magne sol doctrine orthodoxæ\"; the Bollandists call Theodore \"Familiaris\"",
+    "witness": "PG100 l.1682-1735",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Sirmond chronology: after Theodotos was intruded, Theodore wrote for the abbots that, bound to Nikephoros as head, they could not attend the synod without him",
+    "witness": "PG99 l.5866-5876",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Roman Martyrology: \"paternarum traditionum propugnator acerrimus\", fourteen years of exile; feasts 13 March and 2 June",
+    "witness": "PG100 l.1582-1603",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Short History tells Stephen the Younger's death",
+    "witness": "PG100 l.81472-81487",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Leo V's written faith before his crowning",
+    "sides": [
+     "Ignatius: he deferred signing until crowned, then refused (PG100 l.4579-4606, l.4661-4668)",
+     "Theophanes: he wrote to Nikephoros assuring him of his right faith (THEO l.90754-90775)",
+     "Bollandists: Ignatius corrects Leo the Grammarian, who has a written pledge before the crowning (PG100 l.4635-4642)"
+    ]
+   },
+   {
+    "claim": "Why Nikephoros accepted Joseph",
+    "sides": [
+     "Sirmond chronology: inexperienced and fearing the emperor (PG99 l.5638-5645)",
+     "Goar: to win the emperor's favor (THEO l.87278-87282)"
+    ]
+   },
+   {
+    "claim": "The place of exile",
+    "sides": [
+     "Ignatius: his monastery of the Good, then his monastery of the martyr Theodore (PG100 l.8849-8864)",
+     "Leo the Grammarian, as Goar quotes him: Proconnesus (THEO l.345-348)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "English translation",
+    "note": "No English of the Life, the Antirrhetici or the Short History is held. Searched npnf214 and all cic/texts for Nicephorus/Nikephoros; NPNF14 cites him only in Hefele's notes."
+   },
+   {
+    "detail": "His mother's later life",
+    "note": "Ignatius says only that after his father's death she lived some years with her son and then entered a convent; left out of the brief."
+   },
+   {
+    "detail": "The exact birth year",
+    "note": "About 758 is the Bollandists' reckoning; Ignatius gives none."
+   }
+  ]
+ },
+ "nicholas-mystikos": {
+  "claims": [
+   {
+    "claim": "Arrest at the Tryphon banquet: \"Invitat igitur nos ut in regia cum ipso, more consueio, celebremus ſestum convivio : erat nimi- rum inagui martyris Tryphonis solemuitas. Mediis aulem in epulis, uti habebamus, in navem nos impo-\"; no garment, bedding, book or comforter allowed, \"ea ceptis duobus homuncionibus iilite ratis\"; \"Hiemis rigorem\"; \"Enses enim et arcus ei clypei\"; \"super palea, omni stragula destitutus\"",
+    "witness": "PG111 (nicholas-mystikos_epistolae-with-eutychius-alexandrinus-pg111-grc-lat_migne1863.txt), Letter 32, l.14390-14408",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The banquet yearly: \"quotannis in beati Tryphonis fefto moris\" (the Latin version printed in Mansi)",
+    "witness": "MANSI (mansi_sacrorum-conciliorum-collectio-tomus-17-18-lat_welter-facsimile1902.txt) l.94056-94059",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "1 February; by boat from the Boukoleon to Hieria; on foot to Galakrenai in deep snow: \"Vocalo itaque Nicolas patriarcha prima Februarii\"; \"lintri imponentes in Hieriam\"; \"agre pedes ad Galacrenos usque pre nivium nimia copia venit\"",
+    "witness": "PG109 (theophanes-continuatus_historiae-byzantinae-scriptores-post-theophanem-pg109-grc-lat_migne1863.txt) l.33542-33547; PG108 (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt), Leo the Grammarian, l.99405-99444",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Year of the exile 907: \"so ergiebt sich als Datum des Exils des Nicolaus der 1. Febr. 907\"; against 908 \"wie Krug und Muralt nach Symeon Magister annehmen\"",
+    "witness": "DEBOOR (vita-euthymii-patriarchae_anecdoton-zur-geschichte-leos-des-weisen-grc-deu_de-boor1888.txt) l.5362-5364, l.5795-5802",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Mystikos: \"officium mystici gesserat (quod ei cognominis instar\"; Henschen: \"Constantinopolitani mysticus fuerat S. Nicolaus\", of the emperor's secret council",
+    "witness": "PG111, Mai's Monitum l.668-669; Henschen's Notitia l.326-328",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Nicolaus Priscus, the first of the name: \"idem Nicolaus Priscus, seu cjus nominis primus\"",
+    "witness": "PG111, Henschen l.640-641",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Three wives dead, fourth on the pretext of the infant: \"cum per trium uxorum mortem\"; \"quartam uxorem ducere in animum induxit\"; \"præ- textu sane infantis quem ex illo pepererat\"",
+    "witness": "PG111, Letter 32, l.13777-13797",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Constantine born in 905: \"Da Constantin sicher a. 905 geboren ist\"",
+    "witness": "DEBOOR l.6128",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "The Eastern church forbids fourth marriages: \"universa ſere Orien- talis Eeelesia quartis nuptiis interdieit\"",
+    "witness": "PG111, Mai l.872-873; Letter 32 l.13791-13794 (\"de divinorum cano- num prohibitione\")",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bishops refuse baptism unless Leo promises to dismiss the woman; he swears; within three days she is received with a wife's honors: \"Placuerat enim archiepiscopis et sacerdoti - bus denegare baptismum infantis\"; \"jurejurando interposito allirmat, se repudiasse uxorem\"; \"Nondum 4ertio elapso die a baptismo\"",
+    "witness": "PG111, Letter 32, l.13991-14006",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Nicholas: Leo crowned her himself: \"enim conjugi coronam imposuit, neque nobis, neque ullo de sacerdotibus\"; \"tanquam sponsus et sacerdos\"",
+    "witness": "PG111, Letter 32, l.14009-14018 (a column mark 'C' at l.14014)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Chronicles: blessing by the priest Thomas, deposed for it; Zoe proclaimed Augusta; Leo barred from church, entering by the right side: \"Benedictionem $2cro nuptiarum ritu cum Zoe uxore consecutus Leo a Thoma presbytero\"; \"benedictionem nuptialem a Thoma presbytero\"; \"qui eam pb rem officio depositus est\"; \"clesiæ ingressu Leoni interdixit\"",
+    "witness": "PG109 l.33529-33538; PG108 l.99398-99404",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Baptism at Epiphany by Nicholas, Alexander and Samonas sponsors; comet at the birth: \"Inſantem baptizavit\"; \"susceptoribus ex saero ſonte Alexaudro\"",
+    "witness": "PG109 l.33515-33526",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Nicholas falls at Leo's feet; the unwritten-law plea: \"ad genua, imo ad pedes provolutus\"; \"dicitur esse lex non scripta, haud ut legem violet\"; \"debet legi scripte\"",
+    "witness": "PG111, Letter 32, l.14028-14029, l.14093-14097",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "His proposal and Leo's refusal: \"O rex et fili\"; \"Conjux privatim degat neque cum tua majeslate commoretur\"; \"veteris Romz aliarumque pontiſicalium sedium præsules\"; \"sed ne unum quidem diem ab illa velle separari\"",
+    "witness": "PG111, Letter 32, l.14170-14186, l.14269-14271",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Letter 32 written in 912 to win the pope over: \"Dieser Brief, geschrieben a. 912 bald nach der Wiederein- setzung des Nicolaus\"",
+    "witness": "DEBOOR l.8328-8333",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "The Life speaks for the opposing party: \"während hier ein Vertreter der Gegen- partei zu Worte kommt\"; \"wir es mit einer Parteischrift zu thun haben\"",
+    "witness": "DEBOOR l.4438-4442, l.8704-8706",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Author a monk of Euthymius's Psamathia monastery, a contemporary; written no earlier than 921: \"zu den Mönchen des von Euthymius gegründeten und regierten Psamathias-Klosters\"; \"als frühester Termin lässt sich vielmehr das Jahr 921 festsetzen\"",
+    "witness": "DEBOOR l.4488-4492, l.4619-4621, l.4673-4678",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "The Life's treason charge: a letter in Nicholas's hand to Andronicus Dux; then the baptism against his metropolitans: \"eigenhändiges Schreiben des Patriarchen Nicolaus hochverräthe- rischen Inhalts\"; \"trotz des Widerspruchs seiner Metropoliten\"",
+    "witness": "DEBOOR l.6041-6058",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "De Boor's judgment: \"Ein absolut zwingender Beweis für die Schuld des Nico- laus ist nun allerdings nicht zu erbringen\"; \"dass die Anklage unseres Autors gegen Nicolaus berechtigt ist\"; \"dem Sinne nach, einen wirklichen Brief\"",
+    "witness": "DEBOOR l.8776-8780, l.9277-9281; he sets the question of genuine or forged aside at l.6060-6062",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Offers to readmit the banned emperor (1 May, 6 August 906) and refusals (25 December 906, 6 January 907), by the Life's feasts as de Boor dates them: \"Nicolaus bietet dem gebannten Kaiser\"; \"Der Patriarch verweigert dein Kaiser den\"; \"Weihnachten, Epiphanias) fallen unzweifelhaft in die unmittelbar vorhergehende Zeit a. 906—907\"",
+    "witness": "DEBOOR l.6033-6035, l.6611-6616 (the table's years read 000 in the scan), l.9246-9248",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Legates of Rome and of the eastern patriarchs allow the marriage: Eutychius \"Scripsit ergo Leo imperator ad patriarcham\", \"matrimo- nium ipsi licitum pronuntiarunt\"; de Boor on the Life \"dass alle Patri- archen willig seien, dem Kaiser den Dispens für seine Ehe zu ertheilen\"; the Romans \"exsilio nostro ealculum ad- jecerunt\"",
+    "witness": "PG111, Eutychius l.88285-88349; DEBOOR l.9395-9398, l.9453-9456; PG111, Letter 32, l.14452-14455",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Restoration after Leo's death; Euthymius deposed: \"miss0que ad Nicolaun ad Galacrenas nuntio, Euthymium patriarcham deposuit, et Nicolaum secundo restitnit\"; \"mittens Alexander Nicolaum ex Galacrenis tulit\"",
+    "witness": "PG111, Henschen quoting Leo the Grammarian, l.456-460; PG109 l.65965-65980",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Recalled by Leo (his own letters) or by Alexander (the chroniclers): \"ob be- reits durch Leo, wie er selbst in seinen Briefen berichtet oder\"; \"durch Alexander, wie die Chronisten angehen\"",
+    "witness": "DEBOOR l.6479-6498",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Guardian for Constantine: Alexander dying named Nicholas, Stephen the magister and others \"procuratoribus institutis\"; \"Nicolaus patriar- cha rebus communibus providebat\"; Mai: \"Nicolaus pracipuus regii pueri tutor\"",
+    "witness": "PG111, Henschen quoting Leo the Grammarian, l.471-530; Mai l.806-808",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Letter 10 to Symeon: \"fili mi, si tamen filium nominare oportet, qui patrem injuria allicit; pater tamen tibi\"; \"est, velis nolis, episcopus, quanquam minimus, qui\"; \"in Deum pietatem non negavit\"",
+    "witness": "PG111, Letter 10, l.5112-5118, l.5131, l.5169",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Symeon at war at the walls; 26 letters; Nicholas himself as envoy: \"prolizæ ad Simeonem principem Bulgarorum epistolæ viginti sex\"; \"Cum ergo mœnia ipsa Constantinopoleos Bulgarorum arma\"; \"ipse postremo legatus accedens (epist. 27, 50)\"",
+    "witness": "PG111, Mai l.794, l.815-821",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Born 852; 73 years at death; died 15 May 925: \"(geb. a. 852)\"; \"wurde er 73 Jahre\"",
+    "witness": "DEBOOR l.5322, l.5343-5344",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Patriarch in 895 (Henschen, Mai) or 1 March 901 (de Boor): \"provectus est anno 895\"; \"Nicolaus nosler sub Leone Sapiente imp. ad patriarchalem sedem evertus Fuit anno 895\"; \"statt, welcher im Jahre 901 auf den 1. März fiel\"",
+    "witness": "PG111 l.366, l.662; DEBOOR l.5362-5373, l.5803-5806",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Death 15 May 925 (Henschen) or 924 (Mai); buried in his monastery at Galakrenai; 13 or 14 years in the second term: \"Mortuus ergo est $anetus Nicolaus 15\"; \"donec anno 924\"; \"annos tredecim : ejusque corpus in Gala- crenarum monasterio ab co condito\"; \"potitus annos quatuordeeim\"",
+    "witness": "PG111 l.635-636, l.665, l.580-582; PG109 l.68087-68091",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Leo's death and the return in 911 (Henschen, Mai) or 912 (de Boor): \"Annus is erat nongentesimus undect- mus\"; \"quam nonnisi anno 911 sub Alexandro\"; \"Restitutus autem in sede ab Alexan- dro imperatore, anno 911, aut initio sequentis\"; \"am 12. Mai 912 erfolgten Tode des Kaisers Leo\"",
+    "witness": "PG111 l.455-456, l.665, l.636-637; DEBOOR l.5220-5221",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "The Tomus of Union: Constantine convokes Nicholas and the bishops; pardon for Leo after death; fourth marriages banned; year 6428, indiction 8: \"Nicolao patriarcha, cum univerfo pontificum cce-\"; \"que {uo etiam poft mortem communi decreto de-\"; \"indi@ionis octave, quartas nuptias ullus contra-\"; \"anno Mundano VIM. CDXXVIII. Indi@ione VIII\"",
+    "witness": "MANSI l.103092, l.103276-103290, l.103464-103467",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The account before the Tomus says Leo expelled him as a liar who swore and changed his mind: \"expellit, ut mendacem, & qui multoties quidem\"; \"bus animum mutaffet remque data opera extra-\"",
+    "witness": "MANSI l.103225-103238",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Concord of the church in July, under Romanus: \"lotius Eeclesiæ a Romano inita est concordia\"; \"qui a Nicolai et En- thymii partibus divisis steterant animis\"",
+    "witness": "PG111, Henschen quoting Leo the Grammarian, l.544-548",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Union dated 921 by de Boor: \"auf die a. 921 erfolgte Verstän- digung, die ihren Ausdruck in dem sogenannten Tomus Unionis\"",
+    "witness": "DEBOOR l.4693-4694",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "163 letters found in a Vatican codex, in seven classes: \"Has invenimus centum et sexaginta tres in codice Vaticano\"",
+    "witness": "PG111, Mai l.728, l.753-757",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Letter 32's pope: \"vel sub Landone pontifice, ut putat Baronius, vel sub Anastasio lertio, ut censet Pagius\"",
+    "witness": "PG111, Mai l.862-865",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Homily on Thessalonica, 904, the ninth year of his patriarchate; fragment only: \"anno Christi 904 contigit (qui erat pontiſicatus Nicolai annus nonus)\"; \"tenuem tantummodo particulam hic reeitabo\"",
+    "witness": "PG111, Mai l.1076-1089",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ephraim (via Mai): monk, pious, wise; of Italian birth; eloquent: \"gente ltalus, et a natura comparatus ad eloquentiam\"; Mai on his holiness: \"pastoralis insuper ejusdem zelus, constantia ct eximia charitas\"",
+    "witness": "PG111, Mai l.666-670, l.677-679",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Henschen: feast 15 May in an old synaxary of Constantinople; 14 and 16 May elsewhere: \"pervetusto Synaxario\"; \"ad diem sequentem 16 Maii\"; \"14 Maii\"",
+    "witness": "PG111, Henschen l.330-345",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Henschen on Leo the Grammarian \"auctor coxvus\"; the codex's closing note dates the chronicle to the year of the world 6521: \"anno a mundo condilo sexmillesimo sexcente- simo vicesimo primo\"",
+    "witness": "PG111 l.585-586; PG108, Combefis's note, l.93202-93214",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Continuator depends on the Vatican recension of the Logothete: \"der von ihr abhängige Continnator des Theophancs\"",
+    "witness": "DEBOOR l.5981-5984",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "De Boor: Nicholas confused the wedding blessing and the crowning; crowning by the emperor after the patriarch blesses the diadem: \"zwei verschiedene Handlungen verwirrt hat\"; \"Die Krönung pflegte stets vom Kaiser selbst vollzogen zu werden\"; the Life confirms the priest: \"und diese wird durch unsere Biographie bestätigt\"",
+    "witness": "DEBOOR l.8363-8371, l.8411-8417",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Legates' arrival: Nicholas eight or nine months after the wedding (\"Octavo vel nono mense post initas illas nuptias\"); the Life not yet arrived at the exile (\"die Legaten als noch nicht eingetroffen\"); de Boor sides with the Life (\"diese sprechen für unseren Autor\")",
+    "witness": "PG111, Letter 32, l.14277-14279; DEBOOR l.8546-8561, l.8599-8602",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Eastern legates attested by Eutychius, Arethas and Leo Choerosphactes's letters: \"der Anwesenheit orientalischer Legaten in Byzauz\"",
+    "witness": "DEBOOR l.8640-8684",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Abdication: \"Nicolaus eine Abdankungsurkunde ausstellte\" (Arethas: \"sacri sui honoris repudii libellurn\")",
+    "witness": "DEBOOR l.8837-8851, l.6427-6431",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Modern writers built on the letter and praise him: \"auch von gegnerischer Seite, gepriesen als das Muster eines Hirten\"",
+    "witness": "DEBOOR l.8333-8349",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Eutychius of Alexandria: Nicholas forbade another wife to Leo as a consecrated reader (\"siquſdem ana- gnostes es et precibus sacerdotum consecratus\"); legates and bishops pronounced it lawful; the son born after; Nicholas's successor named Anthimus",
+    "witness": "PG111, Eutychius's Annals l.88275-88355",
+    "formation_confidence": "Inferential-Thin"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Who blessed and crowned at the marriage",
+    "sides": [
+     "Nicholas: Leo crowned Zoe himself, as bridegroom and priest, with no priest present (PG111 l.14009-14018)",
+     "Leo the Grammarian and Theophanes Continuatus: the priest Thomas gave the nuptial blessing and was deposed (PG108 l.99398-99400; PG109 l.33529-33531); de Boor says the Life confirms the priest",
+     "De Boor: Nicholas confused the blessing with Zoe's crowning, which the emperor performed (DEBOOR l.8411-8423)"
+    ]
+   },
+   {
+    "claim": "The treason charge (a letter to Andronicus Dux)",
+    "sides": [
+     "The Life of Euthymius, a partisan work: true, and it explains Nicholas's conduct (DEBOOR l.6041-6058); the account before the Tomus of Union: expelled as a liar who often swore and changed his mind (MANSI l.103225-103238)",
+     "De Boor: true in substance with the greatest probability, though no compelling proof (DEBOOR l.8776-8780, l.9277-9281); at l.6060-6062 he sets aside whether the letter was genuine or forged by enemies",
+     "Nicholas's own Letter 32 never mentions it and blames Leo's desire and bribery of the bishops (PG111 l.14385-14389)"
+    ]
+   },
+   {
+    "claim": "When the legates arrived",
+    "sides": [
+     "Nicholas: eight or nine months after the wedding, before his arrest (PG111 l.14277-14279)",
+     "The Life, as de Boor reads it: not yet arrived on the day of his exile; de Boor prefers the Life (DEBOOR l.8546-8561, l.8599-8611)"
+    ]
+   },
+   {
+    "claim": "How he left office",
+    "sides": [
+     "The Life and Arethas of Caesarea: he signed a written abdication (DEBOOR l.8837-8851, l.6427-6431)",
+     "Nicholas: seized and exiled (PG111 l.14390-14402)"
+    ]
+   },
+   {
+    "claim": "Who recalled him",
+    "sides": [
+     "His own letters, as de Boor reports: Leo (DEBOOR l.6479-6480)",
+     "The chronicles: Alexander (DEBOOR l.6498; PG109 l.65965; PG111 l.456-460)"
+    ]
+   },
+   {
+    "claim": "Year of his election",
+    "sides": [
+     "895: Henschen (PG111 l.366) and Mai (PG111 l.662)",
+     "1 March 901: de Boor, from Fischer's patriarch lists and the Life (DEBOOR l.5362-5373, l.5803-5806)"
+    ]
+   },
+   {
+    "claim": "Year of Leo's death and Nicholas's return",
+    "sides": [
+     "911: Henschen, \"anno 911, aut initio sequentis\" (PG111 l.455-456, l.636-637); Mai (PG111 l.665)",
+     "912: de Boor (DEBOOR l.5220-5221)"
+    ]
+   },
+   {
+    "claim": "Year of his death",
+    "sides": [
+     "15 May 925: Henschen (PG111 l.635-636); de Boor, from Fischer's lists (DEBOOR l.5343-5344)",
+     "924: Mai (PG111 l.665)"
+    ]
+   },
+   {
+    "claim": "The pope Letter 32 addresses",
+    "sides": [
+     "Lando: Baronius, as Mai reports (PG111 l.863)",
+     "Anastasius III: Pagi, as Mai reports (PG111 l.863)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "The Life of Euthymius in readable Greek",
+    "note": "The held scan's Greek is Latin-letter garble (file header). Everything the Life says is told through Carl de Boor's German study in the same file."
+   },
+   {
+    "detail": "Parents, family and place of birth",
+    "note": "No held line gives them. Mai reports only Ephraim the chronicler's 'gente ltalus' (the scan's reading, PG111 l.670)."
+   },
+   {
+    "detail": "The Christmas scene at a door of Hagia Sophia",
+    "note": "No held line read gives a procession or an imperial door. De Boor's dates give refusals at Christmas 906 and Epiphany 907 (DEBOOR l.6611-6616) and 'Zurückweisun- gen des Kaisers an der Pforte der Kirche' (l.9246-9248)."
+   },
+   {
+    "detail": "An English translation of the letters",
+    "note": "None is held. Searched all cic/texts for tetragam, quartas nuptias, Galacren, Carbonops, fourth marriage, Nicolaus mysticus."
+   }
+  ]
+ },
+ "peter-of-sicily": {
+  "claims": [
+   {
+    "claim": "At Tephrike, on the embassy, Peter often talked with the Paulicians (\"saepe et cum illis colloquerer\"), learned more from \"multis orthodoxis ibi degentibus\", and heard them \"garrientes\" that they would send some of their own \"in loca Bulgariae\" to turn people from the right faith, since preaching there had only begun (\"divina praedicatio ibi initium modo ceperit\"), and that they could sow their \"lolium\" on the \"latenti adhue vero tritico\" (scan)",
+    "witness": "PETER (peter-of-sicily_historia-manichaeorum-seu-paulicianorum-grc-lat_gieseler1846.txt), dedication, l.795-798, l.835-839 (Greek l.772-776)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Tephrike a Paulician city on the eastern frontier: Karbeas \"conderet Tibricam\", wishing to be near \"ab Armeniis et a Romania\"; Rader: \"Tibricam Armeniae civitatem\"; the Paulicians a sect condemned and hunted by the empire (Theodora's commissioners), and an Armenian sect to John of Odzun",
+    "witness": "PETER (peter-of-sicily_historia-manichaeorum-seu-paulicianorum-grc-lat_gieseler1846.txt), l.3757-3764; Rader l.601; TC (theophanes-continuatus_historiae-byzantinae-scriptores-post-theophanem-pg109-grc-lat_migne1863.txt) l.14936-14947; ODZUN (john-odzun_opera-arm-lat_aucher1834.txt) l.3913-3915, l.3826-3830",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Sent \"Imperatoris jussu ... ipso exordio imperii Basilii\" for \"captivorum permutatio\"; again at the end: sent to exchange \"duces captivos\" (Greek ἄρχοντας αἰχμαλώτους), done \"secundo anno imperii Basilii, et Constantini, et Leonis\"; stayed \"novem menses\"",
+    "witness": "PETER (peter-of-sicily_historia-manichaeorum-seu-paulicianorum-grc-lat_gieseler1846.txt), dedication l.787-795; close l.3826-3829 (Greek l.3800-3803)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gieseler: Basil took power 24 September 867; the embassy \"incidit in annum 868\"; the History written at the emperor's order, before Chrysocheir's defeat and death \"quae i» annum 871 incidit\" (scan): \"inter annes 868 et 871\" (scan)",
+    "witness": "PETER (peter-of-sicily_historia-manichaeorum-seu-paulicianorum-grc-lat_gieseler1846.txt), Gieseler's preface, l.148-164",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Gieseler: \"Haec omnia sunt, quae de scriptore hujus libelli certo scimus\"; Sicily \"Petri nostri patria\"; the flight from the Saracens, the language and lay status are conjectures (\"conjicio autem, eum ad clerum non perfinuisse\" (scan)), partly because a cleric would have given his rank at the letter's end",
+    "witness": "PETER (peter-of-sicily_historia-manichaeorum-seu-paulicianorum-grc-lat_gieseler1846.txt), Gieseler's preface, l.182-202",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Gieseler: Peter belonged to the imperial court (\"in aula Imperatoris, ad quam Petrus pertinuit\"); found at Constantinople (\"Petrum Siculum hoc tempore Constantinopoli invenimus\")",
+    "witness": "PETER (peter-of-sicily_historia-manichaeorum-seu-paulicianorum-grc-lat_gieseler1846.txt), Gieseler's note l.687-690; preface l.188",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Done at the emperor's order: \"divino mandato ipsorum sanctorum et orthodoxorum magnorum Imperato ... rum nostrorum ... obsecutus\" (the word crosses a page break and footnote)",
+    "witness": "PETER (peter-of-sicily_historia-manichaeorum-seu-paulicianorum-grc-lat_gieseler1846.txt), close, l.3831-3856",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Dedicated \"Archiepiscopo Bulgariae\", the archbishop unnamed; signed \"Antistiti Bulgariae Petrus\"; Rader: \"Archiepiscopo Bulgarorum nuper ad Christianam religionem traductorum\"; Peter writes \"incolumitatis multorum causa\" and calls himself \"in dicendo rudis\"",
+    "witness": "PETER (peter-of-sicily_historia-manichaeorum-seu-paulicianorum-grc-lat_gieseler1846.txt), title l.731-733; dedication l.742, l.840-848; Rader's observations l.620-621",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Title: \"de vana et futili haeresi Manichaeorum, qui Pauliciani etiam dicuntur\"; Peter: \"iidem sunt Pauliciani et Manichaei\"",
+    "witness": "PETER (peter-of-sicily_historia-manichaeorum-seu-paulicianorum-grc-lat_gieseler1846.txt), title l.728-733; dedication l.781-785",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Peter's six marks: two principles, a bad God and a good, one maker and lord of this world, the other of the world to come; Mary scorned, Christ's body brought from heaven; the bread and wine of the sacrament refused; the cross insulted; the Old Testament and prophets rejected, with Peter's letters; \"Presbyteros ab Ecclesia rejiciunt\"",
+    "witness": "PETER (peter-of-sicily_historia-manichaeorum-seu-paulicianorum-grc-lat_gieseler1846.txt), the six heads, l.1318-1325, l.1365-1382, l.1383-1421, l.1439-1446, l.1514-1517",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Simple believers should not answer them but flee them \"velut ab serpente\"",
+    "witness": "PETER (peter-of-sicily_historia-manichaeorum-seu-paulicianorum-grc-lat_gieseler1846.txt), prooemium, l.905-910",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Peter reports the Paulicians condemn \"Manem et asseclas ejus ... praeterea Paulum. etiam Samosatenum promtissime dammant\" (scan), and claim to have no part in the Manichaeans' \"impuritatibus\", though he says they keep their errors (\"sunt tamen errorum illorum pertinaces custodes\")",
+    "witness": "PETER (peter-of-sicily_historia-manichaeorum-seu-paulicianorum-grc-lat_gieseler1846.txt), dedication l.785-787; prooemium l.959-961",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gieseler: \"Petrum falli, qui Paulicianos cum Manichaeis re vera eosdem esse contendat\"",
+    "witness": "PETER (peter-of-sicily_historia-manichaeorum-seu-paulicianorum-grc-lat_gieseler1846.txt), Corrigenda et Addenda, l.3878-3881",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Gieseler: Photius's first book written while patriarch, before his first exile by Basil (the scan reads \"067\" for 867); Peter after 868; Peter used it \"tecte\", \"Photii Imperatori invisi neque nomen neque libros laudare licuit\", \"idem saepe aliis verbis exprimeret\"; Engelhardt \"recte judicasse vidétur\" (scan)",
+    "witness": "PETER (peter-of-sicily_historia-manichaeorum-seu-paulicianorum-grc-lat_gieseler1846.txt), Gieseler's preface, l.260-275, l.303-327",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Peter on Mani copied Cyril of Jerusalem \"prope syllabatim\" (Rader); Gieseler marks the passage from Cyril's sixth Catechesis",
+    "witness": "PETER (peter-of-sicily_historia-manichaeorum-seu-paulicianorum-grc-lat_gieseler1846.txt), Rader's observations l.680-684; Gieseler's note l.1552-1554",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Peter's informants per Rader: \"partim a Manichaeis, quibuscum disputando congressus erat, partim a Catholicis\"",
+    "witness": "PETER (peter-of-sicily_historia-manichaeorum-seu-paulicianorum-grc-lat_gieseler1846.txt), Rader's observations l.668-674",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The History tells the line of teachers down to Sergius (Tychicus), and Karbeas, Chrysocheir (\"consobrinus ipsius et gener\")",
+    "witness": "PETER (peter-of-sicily_historia-manichaeorum-seu-paulicianorum-grc-lat_gieseler1846.txt), l.668-671 (Rader), l.3015, l.3298, l.3743-3761, l.3825",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Promised sequel: \"de quibusdam autem ἀρυὰ cos perfectiorum haeresibus in sequentibus vobis exponetur, si Deus nobis vilibus coneesserit\" (scan); Sirmond found in the Vatican \"duorum tantum capitum refutationem ... ex nudis prope divinarum literarum testimoniis contextam\"",
+    "witness": "PETER (peter-of-sicily_historia-manichaeorum-seu-paulicianorum-grc-lat_gieseler1846.txt), close l.3857-3858; Gieseler l.376-379; Rader l.660-662",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "One Vatican manuscript; fragments first in Baronius's Annals in Sirmond's Latin; Baronius's tome IX calls him \"Lucas Siculus\"; Rader's edition Ingolstadt 1604",
+    "witness": "PETER (peter-of-sicily_historia-manichaeorum-seu-paulicianorum-grc-lat_gieseler1846.txt), Gieseler l.469-476; l.168-171",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Rader: \"A ureolum hunc libellum\" (scan); Rader's dedication set \"Manichaeos et Peulicianos cum Lutheranis, Calvinianis, Iconoclastis\" (scan: Peulicianos), omitted by Gieseler as hardly any scholar would miss it",
+    "witness": "PETER (peter-of-sicily_historia-manichaeorum-seu-paulicianorum-grc-lat_gieseler1846.txt), Rader's preface l.558; Gieseler l.540-544",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Rader: Peter lived \"praeter propter DCCCLXX\"; the embassy \"uno dumtaxat anno ?) ante VIII Synodum\" (scan, with a footnote mark); Rader asks if he is the \"Siculum Magistrum\" of Skylitzes: \"Suspicor omnino eundem\"",
+    "witness": "PETER (peter-of-sicily_historia-manichaeorum-seu-paulicianorum-grc-lat_gieseler1846.txt), Rader's observations l.599-603, l.609-611, l.629-630",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Peter of Argos: the identification rests on Blanditius's Latin title of the funeral oration for Athanasius of Methone; the Greek names the bishop of Argos; Blanditius inserted \"Siculi\"; the Life of Peter of Argos makes him born at Constantinople. The scan lacks the page where this argument begins",
+    "witness": "PETER (peter-of-sicily_historia-manichaeorum-seu-paulicianorum-grc-lat_gieseler1846.txt), Gieseler's preface l.242-258",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "The unnamed archbishop: Rader, the case still pending after Formosus was refused; Gieseler: \"Haec omnia nihili esse\", and his conjecture that no archbishop was yet chosen when Greek priests were sent after the council of 869",
+    "witness": "PETER (peter-of-sicily_historia-manichaeorum-seu-paulicianorum-grc-lat_gieseler1846.txt), Rader l.620-652; Gieseler l.687-690, l.204-218",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "John of Odzun, Armenian catholicos (Aucher: raised to the patriarchal see, synodal oration \"anno 719\" at Dvin); his sermon against the Paulicians: they went from attacking images to attacking the cross; they call the orthodox idolaters for honoring the sign of the cross, and blame the painted image of the incarnate Word; canon 32 forbids dealing with \"Pauliciani\". No founder is named",
+    "witness": "ODZUN (john-odzun_opera-arm-lat_aucher1834.txt), Aucher's preface l.196, l.247-249; canon 32 l.3826-3830; sermon l.3900-3918, l.3978-3989; searched for constantin, sergi, silvan, tychic: none",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Theophanes the Confessor: \"Manichæos, qui nune Pauliciani\" (scan) (under Michael I)",
+    "witness": "THEO (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt) l.89626",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Theophanes Continuatus tells the persecution under Theodora, Karbeas's flight, the founding of Tephrike, Basil's campaign and Chrysocheir's death; no Paulician teaching and no mention of Peter's embassy",
+    "witness": "TC (theophanes-continuatus_historiae-byzantinae-scriptores-post-theophanem-pg109-grc-lat_migne1863.txt) l.14936-14968, l.15150-15152, l.24540-24600, l.25200-25317; searched permutat, commutat, captivorum",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Rački: Peter as Basil's envoy at Tephrike \"god. 868\" heard of the plan for Bulgaria; \"Neznamo, u koliko su tibrički Pavlićani bili izveli pomenutu osnovu glede Bugarske\"; their teaching reached Bulgaria all the same; Photius wrote a few years before Peter",
+    "witness": "RACKI (racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt) header l.1-3 (Zagreb, 1869); l.812-822, l.857-866",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Gifford: \"Petrus Siculus (circ. a.d. 870) who quotes the passage in his History of the Manichees, boldly conjectures\"",
+    "witness": "NPNF7 (npnf207_cyril-jerusalem-gregory-nazianzen.xml) l.9961-9963; Gifford named l.477",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Whether the Paulicians are Manichaeans",
+    "sides": [
+     "Peter: \"iidem sunt Pauliciani et Manichaei\" (PETER l.783-785); Theophanes the Confessor already uses the name (THEO l.89626); Rački places them in one dualist line with Bogomils and Cathars (RACKI l.975-990)",
+     "Gieseler: Peter is mistaken (PETER l.3880-3881); Peter's own report that they condemn Mani (PETER l.959-961)"
+    ]
+   },
+   {
+    "claim": "Who borrowed from whom, Peter or Photius",
+    "sides": [
+     "Gieseler, siding with Engelhardt: Peter followed Photius, throughout (PETER l.260-275, l.303-327); Rački: Photius wrote a few years before Peter (RACKI l.862-863)",
+     "Montfaucon: most of Photius's book taken from Peter; Wolf: Peter followed Photius only on the old Manichaeans (PETER l.265-271)"
+    ]
+   },
+   {
+    "claim": "Whether Peter of Sicily is Peter, bishop of Argos",
+    "sides": [
+     "The Latin title by Blanditius (PETER l.250-252)",
+     "Gieseler: Blanditius inserted \"Siculus\"; the Greek and the Life of Peter of Argos (PETER l.252-258)"
+    ]
+   },
+   {
+    "claim": "Why the archbishop is not named",
+    "sides": [
+     "Rader: the archbishop's case still pending (PETER l.620-652)",
+     "Gieseler: no archbishop chosen yet after 869 (PETER l.204-218, l.687-690)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Birth, death, family, office",
+    "note": "No held source gives them. Gieseler: all known for certain is the embassy, its date and the book (PETER l.182). His lay status is Gieseler's conjecture."
+   },
+   {
+    "detail": "English of the History",
+    "note": "None is held. The census cites Hamilton & Hamilton (1998), not in cic/texts. Searched all cic/texts for Petrus Siculus, Peter of Sicily, Petri Siculi, Paulician."
+   },
+   {
+    "detail": "Photius's books against the Manichaeans",
+    "note": "Not held; the borrowing rests on Gieseler's comparison only. photius_library-v1_freese1920.txt is the Bibliotheca."
+   },
+   {
+    "detail": "The embassy in any other source",
+    "note": "Theophanes Continuatus (PG109) does not mention it; searched permutat, commutat, captivorum, Tephric."
+   },
+   {
+    "detail": "The second book",
+    "note": "Only the promise (PETER l.3857-3858) and Sirmond's report of two refuted chapters; not held."
+   }
+  ]
+ },
+ "ilarion-of-kyiv": {
+  "claims": [
+   {
+    "claim": "Yaroslav \"was fond of Berestovoye and the Church of ... the Holy Apostles there situated. He gathered a large company of priests, among whom was a presbyter named Hilarion, a virtuous man, learned and ascetic\"; he walked \"from Berestovoye toward the Dnieper to a certain hill, where the old Crypt Monastery now is\"; \"He dug a little crypt two yards deep, and often went thither from Berestovoye to chant the hours and offer his prayer to God in secret\"; \"the crypt remained as it was\"",
+    "witness": "CROSS (russian-primary-chronicle_cross1930.txt), the Caves passage under 6559 (1051), l.11744-11753",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The hill was wooded: \"бѣ бо ту лѣсъ великъ\"; the Laurentian names him \"Лариѵѵнъ\"",
+    "witness": "PSRL1 (russian-primary-chronicle_psrl-t1-lavrentevskaia-letopis-orv_1926.txt), l.6904-6908; GORSKII l.749-751",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "\"6559 (1051). Yaroslav, after assembling the bishops, appointed Hilarion Metropolitan of Rus in St Sophia\"; the Laurentian: \"Поетави Мрославъ Лариіѵна митрополитомъ . Русина . въ стѣи СоѲъи . собравъ еп®пъі\" (a Rusin, a man of Rus)",
+    "witness": "CROSS (russian-primary-chronicle_cross1930.txt) l.11741-11742; PSRL1 (russian-primary-chronicle_psrl-t1-lavrentevskaia-letopis-orv_1926.txt) l.6896-6897",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "A layman of Lyubech becomes a monk on Athos, is named Antony, is sent home, and \"came to the hill where Hilarion had dug the crypt\" and settled there",
+    "witness": "CROSS (russian-primary-chronicle_cross1930.txt) l.11755-11782 (l.11774-11776)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Foreword: \"мы имфемъ очень мало\"; it quotes the two Chronicle passages (giving them as Nestor's) and says \"Вотъ все, чтб известно 0бъ Шлар!онз\"",
+    "witness": "GORSKII (ilarion-kiev_slovo-o-zakone-i-blagodati-chu-rus_gorskii1844.txt), foreword, l.741-759",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Foreword: the chronicler does not say how long he led the church; \"въ 1079 году’ упоминается уже другой Митрополитъ, Георгий\"",
+    "witness": "GORSKII (ilarion-kiev_slovo-o-zakone-i-blagodati-chu-rus_gorskii1844.txt) l.824-827",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Foreword: \"Лфтописецъ не говоритъ, по какому побуждевю Ярославъ не отправилъ его въ Константинополь для рукоположенля, но, конечно, не съ тфмъ, чтобы прервать зависимость Церкви Кевской отъ Константинопольской\"; consecrated by a council of Rus bishops",
+    "witness": "GORSKII (ilarion-kiev_slovo-o-zakone-i-blagodati-chu-rus_gorskii1844.txt) l.796-803, l.824",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Mouravieff: Yaroslav's \"resentment ... against the Emperor Constantine Monomachus for having put out the eyes of the Russian prisoners\"; Hilarion chosen by the synod \"without taking any notice of the patriarch\"; the breach \"speedily made good by a benedictory letter which Hilarion sought and obtained from the Patriarch ... Michael Cerularius\"; the book dated St Petersburg 1838 (header); its author a Russian official (header)",
+    "witness": "MOUR (mouravieff_history-of-the-church-of-russia_blackmore1842.txt) l.1489-1504, l.1-2",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Cross: the Greeks \"blinded many of the captive Russes\" in the war of 6551 (1043)",
+    "witness": "CROSS (russian-primary-chronicle_cross1930.txt) l.11689-11708",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Blackmore's note: Hilarion \"elected by the Russian synod without any reference to the patriarch; and Karamzin praises the wisdom shewed by Yaroslaff\", who \"suspected that the emperors might use the ecclesiastical dependence of the Russian Church for political purposes\"",
+    "witness": "MOUR (mouravieff_history-of-the-church-of-russia_blackmore1842.txt) notes, l.16322-16327",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Confession signed: \"Азъ, милостио челов$колюбивааго Бога, мнихъ и прозвитеръ Шлар!онъ, изволешемъ Его, отъ богочестивыихъ Епископъ священъ быхъ и настолованъ въ велицфмв и богох ранимзмъ град Кыевф, яко быти ми въ немъ Митрополиту, пастуху же и учителю ... Владычествующу благовёрному Кагану Ярославу, сыну Владимирю\"; translation gives 6559 (1051); foreword: no doubt it is Ilarion's; the Nicene-Constantinopolitan Creed precedes it as its basis (quoted as the scan reads)",
+    "witness": "GORSKII (ilarion-kiev_slovo-o-zakone-i-blagodati-chu-rus_gorskii1844.txt) l.2605-2611, l.3981-3988, l.165-188",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Edition note 1: Vladimir named Kagan \"по примзру Козарскихъ владътелей, которые прежде господствовали надъ Южною Русью\"",
+    "witness": "GORSKII (ilarion-kiev_slovo-o-zakone-i-blagodati-chu-rus_gorskii1844.txt) l.4003-4005",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Foreword: in the Synodal manuscript the Sermon, the Creed and the confession signed by Ilarion are written \"одною рукою, и такъ, какъ-бы составляли одну статью\"; the confession chosen \"въ 105Тг., при В. Князъ ЯрославЪ, изъ ‘пресвитеровъ Русскихъ\"",
+    "witness": "GORSKII (ilarion-kiev_slovo-o-zakone-i-blagodati-chu-rus_gorskii1844.txt) l.146-157",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Foreword's arguments for the Sermon: the 1555 order to Archbishop Gurii, sent to Kazan, to read the prayer \"твореше Митрополита Шларона Русскаго за Царя и за все Православе\", taken to be the Sermon's prayer; \"Если справедлива с1я догадка, то и самое слово должно принадлежать Илар!ову Митрополиту\"; the Kagan title in the confession and the Sermon; likeness of expressions",
+    "witness": "GORSKII (ilarion-kiev_slovo-o-zakone-i-blagodati-chu-rus_gorskii1844.txt) l.686-716",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Foreword: the Sermon prays for Yaroslav and Irina as living; Irina \"скончалась 1050 г.\"; the Annunciation church at the Golden Gate under 1037 in Nestor; edition's note 16: \"около 1050 г.\"",
+    "witness": "GORSKII (ilarion-kiev_slovo-o-zakone-i-blagodati-chu-rus_gorskii1844.txt) l.192-212, l.224-230, l.4202",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Irina's death: Cross \"6556-6558 (1048-1050). The princess, wife of Yaroslav, died on February 10\"; the Laurentian under 6558 (1050)",
+    "witness": "CROSS (russian-primary-chronicle_cross1930.txt) l.11738-11739; PSRL1 (russian-primary-chronicle_psrl-t1-lavrentevskaia-letopis-orv_1926.txt) l.6895",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Three of four copies seen lack the long conclusion addressing Vladimir",
+    "witness": "GORSKII (ilarion-kiev_slovo-o-zakone-i-blagodati-chu-rus_gorskii1844.txt) l.113-131",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Sermon: law and grace as \"Агаръ и Сарра, работнаа Агаръ и свободнаа Сарра\"; \"Отъиде бо свфтъ луны, солнцу въславшу, тако и законъ; благодати явльшейся\"",
+    "witness": "GORSKII (ilarion-kiev_slovo-o-zakone-i-blagodati-chu-rus_gorskii1844.txt) l.1225-1230, l.1335-1337",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Sermon: Rome praises Peter and Paul ... \"Похвалимъ же ий мы ... нашего учителя и наставника, великаго Кагана нашеа земля\"; his forebears ruled \"Не въ худ бо и не въ невЪфдоми земли владычьствовашя, но въ Русской\"",
+    "witness": "GORSKII (ilarion-kiev_slovo-o-zakone-i-blagodati-chu-rus_gorskii1844.txt) l.1854-1869",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Sermon: \"Встани, о честнаа главо, отъ гроба твоего, встани, отряси сонъ!\"; \"виждь чадо свое Георга\"; \"Виждь же и градъ величьствомъ стающь, виждь церкви цвфтущи, виждь Христ!анство растуще\"; George is Yaroslav (foreword: \"Георгя или Ярослава\", the scan breaking the line after \"или\")",
+    "witness": "GORSKII (ilarion-kiev_slovo-o-zakone-i-blagodati-chu-rus_gorskii1844.txt) l.2239-2262, l.134-135",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Cross: the Discourse on the Law of Moses and Grace through Christ, \"attributed to the metropolitan Hilarion\"; the Biblical quotations of the Greek missionary \"borrowed bodily from the Slovo (Sreznevski, pp. 45 ff.)\"",
+    "witness": "CROSS (russian-primary-chronicle_cross1930.txt) l.5795-5813",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Foreword: the Volhynian chronicler, at the end of the 13th century (the scan reads 'ХМ' at l.232 and 'ХШ' at l.602), reused the praise of Vladimir for Vladimir Vasilkovich",
+    "witness": "GORSKII (ilarion-kiev_slovo-o-zakone-i-blagodati-chu-rus_gorskii1844.txt) l.232-240, l.600-605",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Foreword: in some lists of Rus saints his name stands among the holy men of Rus, \"хота по историческимъ памятникам и неизв$стно, чтобы с1е признано было всею Церковю Русскою\"",
+    "witness": "GORSKII (ilarion-kiev_slovo-o-zakone-i-blagodati-chu-rus_gorskii1844.txt) l.827-836",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Foreword: \"Итакъ Иларлонъ былъ родомъ Русский\"",
+    "witness": "GORSKII (ilarion-kiev_slovo-o-zakone-i-blagodati-chu-rus_gorskii1844.txt) l.761",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Foreword: Berestovo a village \"близъ нынфшней Лавры\", with the grand prince's palace",
+    "witness": "GORSKII (ilarion-kiev_slovo-o-zakone-i-blagodati-chu-rus_gorskii1844.txt) l.781-782",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mouravieff: he dug \"a dark cave or Pesch, the germ of ... the future Lavra, and of all the religious houses of Russia\"",
+    "witness": "MOUR (mouravieff_history-of-the-church-of-russia_blackmore1842.txt) l.1541-1552",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Simon of Vladimir and Suzdal to Polycarp: \"Илариона же митрополита и самь челъ еси в жит; святаго Антона, яко оть того постриженъ бысть, тако ° священства сподобленъ\"",
+    "witness": "PAT (kievan-caves-paterik_paterik-kievskago-pecherskago-monastyria-chu_abramovich1911.txt) l.5226-5227 (heading), l.5437-5438",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Mouravieff: \"several writers have even ventured to conjecture that Hilarion took the name of Ephraim, together with the Schema ... or Great Angelic Habit, and bore it at the time of his death\"",
+    "witness": "MOUR (mouravieff_history-of-the-church-of-russia_blackmore1842.txt) l.1785-1791",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Cross: Shakhmatov attributes the 1051 Caves article to Nikon, \"a member of the Crypt community\", and thinks it first stood under 1062, later \"shifted back to 1051\"; Sylvester's colophon of 6624 (1116)",
+    "witness": "CROSS (russian-primary-chronicle_cross1930.txt) l.5185-5195; l.15108-15110",
+    "formation_confidence": "Contested"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Authorship of the Sermon on Law and Grace",
+    "sides": [
+     "1844 foreword: Ilarion's, by argument from the shared manuscript, the Kagan title, likeness to the confession, and the 1555 prayer, 'if this guess is right' (GORSKII l.146-157, l.686-716)",
+     "Cross: 'attributed to the metropolitan Hilarion' (CROSS l.5800)"
+    ]
+   },
+   {
+    "claim": "Why he was consecrated in Kyiv by Rus bishops",
+    "sides": [
+     "Chronicle: silent (CROSS l.11741-11742; GORSKII l.796-798)",
+     "1844 foreword: not meant to break the tie with Constantinople (GORSKII l.798-803)",
+     "Mouravieff: resentment over the blinded prisoners; the breach made good by a blessing from Michael Cerularius (MOUR l.1489-1504)",
+     "Karamzin, as Blackmore's note reports: Yaroslav's wise caution about the emperors' political use of the dependence (MOUR l.16322-16327)"
+    ]
+   },
+   {
+    "claim": "Who made him a monk",
+    "sides": [
+     "Simon of Vladimir: Antony tonsured him, as Polycarp read in a Life of Antony (PAT l.5437-5438)",
+     "Chronicle: Ilarion dug the cave before Antony came (CROSS l.11744-11776); his confession calls him a monk by 1051 and names no one (GORSKII l.2605-2606)"
+    ]
+   },
+   {
+    "claim": "Who wrote the Chronicle's Caves passage",
+    "sides": [
+     "1844 foreword: Nestor (GORSKII l.742-744)",
+     "Sylvester's colophon of 1116 for the Chronicle (CROSS l.15108-15110)",
+     "Shakhmatov, as Cross reports: Nikon of the Caves, first under 1062 (CROSS l.5185-5195)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Birth, birthplace, family and age",
+    "note": "No held source gives them. The foreword's guesses about his schooling (GORSKII l.761-765) are marked by it as 'конечно' and are not used."
+   },
+   {
+    "detail": "Year of his death or end of office",
+    "note": "No held source gives it. The foreword: the chronicler does not say; George named by 1079 (GORSKII l.824-827). Mouravieff reports only a conjecture (Ephraim). Searched all cic/texts for Hilarion, Ilarion, Иларион, Ларион, Ларіон and OCR variants."
+   },
+   {
+    "detail": "English of the Sermon and the Confession",
+    "note": "None is held. The census cites Simon Franklin's translation (1991), which is not in cic/texts. Used here in Church Slavonic with the 1844 Russian translation."
+   },
+   {
+    "detail": "The Life of Saint Antony that Simon cites",
+    "note": "Not held."
+   },
+   {
+    "detail": "'First native-born metropolitan'",
+    "note": "No held line says 'first'. The held lines say only that he was a Rusin (PSRL1 l.6897) and chosen from the Rus presbyters (GORSKII l.154-157)."
+   }
+  ]
+ },
+ "michael-keroularios": {
+  "claims": [
+   {
+    "claim": "Arrest scene: \"Εἶδον ἐγὼ την:καῦτα τὸν ἄνδρα, καὶ ἰδὼν ἐδάκρυσα\"; \"ἀτίμως ἀγόμενος καὶ τῷ βουλομένῳ περισυρόμενος\"; \"εἰς γέλωτα καὶ ὕθριν ἐκκείνενος\"; \"οὐκ ἐπιτιμήσας τοῖς ἄγειν χεχελευσμένοις\"; \"οὐχ ἐδυσφόρει πρὸς τοὺς ἀπάγοντας\" ... \"οὐδὲ πρὸς την ὕθριν ἀπεδυσπέτει\" [OCR forms kept]",
+    "witness": "PSELL (psellos_chronographia-and-orations-in-mesaionike-bibliotheke-v4-grc_sathas1874.txt), funeral speech, l.23636-23663",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Heading: \"ἐγκωμιαστικὸς εἰς τὸν μακαριώ- τατον πατριάρχην χῦρ Μιχαὴλ τὸν Κηρουλλάριον\"; Sathas calls it Ἐπιτάφιος and ἐγκώμιον, delivered after Isaac's death, probably at Constantine Doukas's urging",
+    "witness": "PSELL (psellos_chronographia-and-orations-in-mesaionike-bibliotheke-v4-grc_sathas1874.txt) l.20514-20515; Sathas prologue l.4058-4064",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Patriarch \"(1043—1059)\" (Will); Alexis \"died in 1043. His successor was Michael Cerularius, who sat till 1058\" (Blackmore's note); raised \"(25 Μαρτίου 1945)\" by the scan (Sathas)",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.4052-4053; MOUR (mouravieff_history-of-the-church-of-russia_blackmore1842.txt) l.16005-16006; PSELL (psellos_chronographia-and-orations-in-mesaionike-bibliotheke-v4-grc_sathas1874.txt) l.3936-3942",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Excommunicated by Rome's envoys in July 1054: the Commemoratio's altar scene and the sentence's curse ending \"nisi forte resipuerint\"; Humbert named first",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.14779-14783, l.14872-14880, l.15036-15046 (as checked in era 4 batch 4)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Psellos served Isaac: Isaac named him \"μέλος τῆς συγκλήτου βουλῆς\" (31 August 1057); Sathas: Psellos blamed Isaac \"διὰ τὴν κατὰ τοῦ πα- τριάρχου βιαιοπραγίαν\"; Psellos \"εἰς τὴν βίαν ἐνδοὺς συνέταξε μακρότατον κατηγορητήριον\"",
+    "witness": "PSELL (psellos_chronographia-and-orations-in-mesaionike-bibliotheke-v4-grc_sathas1874.txt), Sathas prologue l.3797-3801, l.3906-3908, l.4002-4004",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Born in Constantinople: \"Βυζάντιος τὴν πατρίδα\" (card only)",
+    "witness": "PSELL (psellos_chronographia-and-orations-in-mesaionike-bibliotheke-v4-grc_sathas1874.txt), Sathas prologue l.3909-3910",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Under Michael IV (after Romanos Argyros), plotters chose him as emperor without his knowledge (\"οὐδὲν εἰδὼς ὧν ἐκεῖνοι\"); all called him innocent, yet he was punished most (\"μᾶλλον κολάζει τῶν ἄλλων\")",
+    "witness": "PSELL (psellos_chronographia-and-orations-in-mesaionike-bibliotheke-v4-grc_sathas1874.txt), funeral speech, l.20973-20974, l.21030, l.21052-21053, l.21085-21093",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Exiled with his brother (\"σείει μὲν αὐτῷ καὶ τῷ ἀδελφῷ\"), separated, and made a monk on the emperor's order (\"μεταρρυθμίζειν αὐτῷ τὴν ἰδέαν πειρᾶται τοῦ βίου\"); Sathas: plot of 1040, he \"ἐθιάσθη νὰ περιθληθῇ τὸ μοναχικὸν σχῆμα\" [OCR]",
+    "witness": "PSELL (psellos_chronographia-and-orations-in-mesaionike-bibliotheke-v4-grc_sathas1874.txt), funeral speech, l.21156-21192; Sathas prologue l.3918-3924",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "His brother could not bear the separation (\"ἀφόρητον Ἡν τὸ χεχωρίσθαι τοῦ ἀδελφοῦ\"), and the pain went from his heart to his head; \"νεκρὸς αὐτίκα ἐγεγόνει\"",
+    "witness": "PSELL (psellos_chronographia-and-orations-in-mesaionike-bibliotheke-v4-grc_sathas1874.txt), funeral speech, l.21283-21317",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Monomachos (\"Κωνσταντῖνος Ἣν οὗτος ὁ Μονομάχος\") made him patriarch on Alexios's death; \"πείθεται μὴ βουλόμενος\" (card and brief: Monomachos only)",
+    "witness": "PSELL (psellos_chronographia-and-orations-in-mesaionike-bibliotheke-v4-grc_sathas1874.txt), funeral speech, l.21474, l.21597-21598, l.21625-21656; Sathas prologue l.3936-3941",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The quarrel: \"Στασιάζει πρὸς τὴν νεωτέραν Ῥώμην ἡ πρεσθυτέρχ.\" ... \"τῆς περὶ την ἁγίαν τριάδα θεολογίας\"; the Latins set the Spirit \"τρόπον τινὰ ὑφιστῶσιν ἐκ τοῦ υἱοῦ\"; he labored \"νουθετῶν, ἐπιστέλλων, παρα- καλῶν\"; then \"τοῦ θείου τε ἀφορίζει\" [OCR]",
+    "witness": "PSELL (psellos_chronographia-and-orations-in-mesaionike-bibliotheke-v4-grc_sathas1874.txt), funeral speech, l.22667-22687, l.22706-22729",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Letter I: the envoys \"cum cruce et baculis\" entered the palace; \"penitus nos salutatione impertiti nec susti- nentes vel minimum capita sua inclinare\"; would not sit \"post metropolitanos\"; \"epistolam obsignatam tra- diderunt nobis statimque recesserunt\"; the seal \"ipsummet invenit adulteratum\"",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt), letter I, l.17213-17240 (Greek l.17190-17212)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Letter I: Argyrus, \"magistrum et ducem Italiae\", opened Michael's letter (\"mearum Sigillum abstulisset\") and composed letters as from the pope (card)",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt), letter I, l.17003-17020, l.17067-17092",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Letter II: \"colloquium congressionemque detrectavimus, tam quod certi eramus illos ab impietate dimoveri non posse, quam quia sine beati- tudine tu& caeterisque sanctissimis patriarchis\" ... \"indignum esse\"",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt), letter II, l.18076-18085",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Letter II: the writing anathematized \"jussu imperatoris subdidimus\" in the great secretum (card)",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt), letter II, l.18196-18213",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The edict: the envoys came \"consilis Argyri\" ... \"nulo modo ἃ papa missi\" [OCR]; the writing and its makers anathematized on 20 July",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.15640-15657, l.16279-16287",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Chronographia: the patriarch \"παρρησιασάμενον καὶ θρασυτέρα χρησάμενον\"; Isaac held his anger, then \"ἐξάγει τε τῆς πόλεως καὶ ὅροις κολάζει περιγραπτοῖς, ἐφ᾽ οἷς δὴ καὶ ἀπέθετο τὴν ζωήν\"; blame \"τὸν μὲν τῆς ἀρχῆς καταιτιάσαιτο\"; on the news Isaac \"ἀνωλόλυξεν\" and repented",
+    "witness": "PSELL (psellos_chronographia-and-orations-in-mesaionike-bibliotheke-v4-grc_sathas1874.txt), Chronographia, Isaac Komnenos, l.18041-18060",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Isaac made emperor by the revolt of 1057 (Sathas: \"31 Αὐγούστου 1057\"; the speech's account of the revolt)",
+    "witness": "PSELL (psellos_chronographia-and-orations-in-mesaionike-bibliotheke-v4-grc_sathas1874.txt), Sathas prologue l.3763-3801; funeral speech l.23372-23520",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Imbros: \"ἡ περίκλυστος τοῖς κύμασιν Ἴμθρος, οὗ κατακέκλειστο\" [OCR]; court \"Ἔξω τειχῶν ἐφ᾽ ἑνός του τῶν\" ... \"ἐπὶ Θράκης χωρίων\"; moved from sea to mainland; ship at Madytos",
+    "witness": "PSELL (psellos_chronographia-and-orations-in-mesaionike-bibliotheke-v4-grc_sathas1874.txt), funeral speech, l.23818-23870",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Dream at Madytos: Euthymios says \"μηκέτι σοι λόγος δικαστηρίων\"; at dawn \"ὅτι µε θεὸς ἤδη\" ... \"ἑαυτὸν μεταπέμπεται\" (card)",
+    "witness": "PSELL (psellos_chronographia-and-orations-in-mesaionike-bibliotheke-v4-grc_sathas1874.txt), funeral speech, l.23872-23963",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Death before the trial: \"ὁ πρὸς κρίσιν ἀγόμενος εἰς οὐρανοὺς ἀνάγεται\"; the crossing, illness, death foretold; amnesty to the emperor and \"τοῖς ἐπὶ τῶν δικαστικῶν θρόνων\"; releases those under his excommunications (\"ἀπολύει τοὺς δεδεμένους\"); prays; \"ἀποθύει ψυχήν\"",
+    "witness": "PSELL (psellos_chronographia-and-orations-in-mesaionike-bibliotheke-v4-grc_sathas1874.txt), funeral speech, l.23990-24003, l.24056-24130",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Sathas: heard the charge \"Ἔν ἄκρα σιγῇ\", forgave judges and emperor, \"ἔπεσε νεχρός\" [OCR]; the emperor \"ἐρρίφθη ἐπὶ τοῦ πτώματος\"",
+    "witness": "PSELL (psellos_chronographia-and-orations-in-mesaionike-bibliotheke-v4-grc_sathas1874.txt), Sathas prologue l.4012-4036",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Close, letter I: \"dicunt enim se. ad haec loca non accessisse, ut docerentur aut di- sceptarent, sed potius ut docerent :ac. nobis persuaderent, ut teneremus ipsorum do- gmata\" [OCR punctuation]",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt), letter I, l.17811-17816 (Greek l.17797-17803)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: letter I written \"paulo post S. Leonem\" (19 April 1054), Will's note; the Latin customs: azymes, strangled meat (\"focata comedunt et barbas suas radünt\"), \"Sabhata servant\", monks eating meat and lard, the Saturday fast, the addition to the creed (\"In sancto symbolo tale\")",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.16747-16749; l.17503-17512, l.17555-17570",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: Will: \"binas literas ad Petrum Antiochenum dedit\" ... \"crimina priora Romanae ecclesiae facta repetit tum alia nova addit\"",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.4155-4157",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: Peter of Antioch: \"propendeamus semper ad pacem et fra- trum amorem. Illi quippe fratres nostri sunt,\" ... \"quamvis ex rusticitate vel imperitia contingat,\" ... \"ut saepe ab eo, quod decet, excidant\" [two-column OCR]",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.19123-19130",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: his niece prepared for the throne (\"τὴν ἀδελφιδὴν κόσμον βασίλειον\")and her marriage arranged; Sathas: Eudokia, daughter of John Makrembolites, wife of Constantine Doukas",
+    "witness": "PSELL (psellos_chronographia-and-orations-in-mesaionike-bibliotheke-v4-grc_sathas1874.txt), funeral speech, l.24243-24249; Sathas prologue l.4123-4136",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: the successor \"χωρεῖ σοι τοῦ πρωτείου καὶ τελευτήσαντι, καὶ ἐτησίοις τιμᾶ\"; Sathas: Leichoudes, with an \"ἐτήσιον ἐκκλησιαστικὴν πανήγυριν\"",
+    "witness": "PSELL (psellos_chronographia-and-orations-in-mesaionike-bibliotheke-v4-grc_sathas1874.txt), funeral speech, l.24262-24268; Sathas prologue l.4036-4041",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: Cotelier's note: \"Graecorum schisma- ticorum caput et eeclesiae Latinae hostis capitalis\" [OCR], the note marked COT.",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.16775-16776, l.16857",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: Baronius, quoted in Will's note 37: \"Quae cuncta vel omnino falsa vel levia nec observatione digna\"",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.17786-17788",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: Sathas's portrait: \"αὐστηρὸς τηρητὴς τῶν ὀρθοδόξων δογ- μάτων\" ... \"ὀξὺς χαὶ ὀργίλος\" ... \"ἐπικίνδυνος δημεγέρτης\"; broke the ties with Rome \"διὰ παντὸς διέκοψεν\"",
+    "witness": "PSELL (psellos_chronographia-and-orations-in-mesaionike-bibliotheke-v4-grc_sathas1874.txt), Sathas prologue l.3909-3916, l.3944-3950",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Card: the emperor's letter to the synod sent by Stephen the oikonomos, John the magistros and \"Κώνσταντος βεστάρχου\"; Sathas identifies Constas with Psellos (\"Κώνστας καὶ οὐχὶ\") and dates the synod \"(94 ἰουλίου\" 1054, the scan's reading of 24 July",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.16127-16137; PSELL (psellos_chronographia-and-orations-in-mesaionike-bibliotheke-v4-grc_sathas1874.txt), Sathas prologue l.2681-2711",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Card: Sathas on the charge: two monks of Chios (\"δύο Χίους\") with an oracle-giving woman, alchemy (\"ἀλχημικῆν\"), and stirring the revolt against Michael VI (Stratiotikos)",
+    "witness": "PSELL (psellos_chronographia-and-orations-in-mesaionike-bibliotheke-v4-grc_sathas1874.txt), Sathas prologue l.4002-4010",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: Sathas: \"τὰ ἐρυθροθαφῇ πέδιλα\" and the oven saying (\"φοῦρνε\"); his note cites Psellos's history and speech, the charge, Skylitzes and Attaleiates",
+    "witness": "PSELL (psellos_chronographia-and-orations-in-mesaionike-bibliotheke-v4-grc_sathas1874.txt), Sathas prologue l.3976-3991, l.4058-4060",
+    "formation_confidence": "Inferential-Thin"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "How and where he died",
+    "sides": [
+     "Psellos's funeral speech: on the way to the court in Thrace, after the dream at Madytos, before the trial (PSELL l.23990-24003, l.24056-24130)",
+     "Sathas: before the court, after hearing the charge in silence (PSELL l.4012-4031)",
+     "Psellos's Chronographia: in the bounds of exile, the news brought to Isaac from far off (PSELL l.18044-18053), against Sathas's emperor at the body (l.4033-4036)"
+    ]
+   },
+   {
+    "claim": "Where he was held",
+    "sides": [
+     "Psellos's speech and Sathas: Imbros (PSELL l.23818-23822; l.3994-3995)",
+     "Skylitzes, as Sathas reports: Prokonnesos (PSELL l.4019); Skylitzes not held"
+    ]
+   },
+   {
+    "claim": "The end of his patriarchate",
+    "sides": [
+     "Will: 1043-1059 (WILL l.4053)",
+     "Blackmore's note to Mouravieff: 'sat till 1058' (MOUR l.16005-16006)"
+    ]
+   },
+   {
+    "claim": "His part in the revolt of 1057",
+    "sides": [
+     "Psellos's speech: he calmed the crowds and sheltered Michael VI (PSELL l.23420-23515)",
+     "Sathas: he armed the crowds and clergy, declared the emperor deposed, then sheltered him (PSELL l.3763-3786, l.3953-3966)"
+    ]
+   },
+   {
+    "claim": "Why he and the envoys never met",
+    "sides": [
+     "The envoys' Commemoratio: he avoided them (WILL l.14823-14824)",
+     "Letter I: their discourtesy (WILL l.17213-17227)",
+     "Letter II: he declined to talk with them (WILL l.18076-18085)"
+    ]
+   },
+   {
+    "claim": "The day the synod cursed the envoys",
+    "sides": [
+     "The edict as Will prints it, and Will's note 80: 20 July (WILL l.16279-16296)",
+     "Copies reported by Will, and Sathas: the 24th (WILL l.16290; PSELL l.2690-2691)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Birth year, parents' names, and the date of his death",
+    "note": "No held source gives them. The passage of Psellos's speech read here praises his father and mother without naming them (PSELL l.20690-20720)."
+   },
+   {
+    "detail": "Skylitzes, Attaleiates, Kedrenos and Zonaras",
+    "note": "Not held. Searched cic/texts file names and contents for scylitz/skylitz/attal/cedren/kedren/zonar forms; hits are later citations only. Sathas cites them in his prologue."
+   },
+   {
+    "detail": "Psellos's charge against him before the synod",
+    "note": "Not held; Sathas cites a Paris manuscript (PSELL l.3808-3809, l.4059-4060)."
+   },
+   {
+    "detail": "English of his letters or of Psellos's speech",
+    "note": "None held. The only held English lines on him are Blackmore's note to Mouravieff and Walsh's Residence at Constantinople (WALSH l.17260-17266), neither a source for his life."
+   }
+  ]
+ }
+}

@@ -1,0 +1,98 @@
+{
+  "name": "Peter of Sicily",
+  "otherNames": [
+    "Petrus Siculus, the Latin form of the editions of Matthaeus Rader and J. C. L. Gieseler",
+    "Lucas Siculus, a slip in one volume of Baronius's Annals, Gieseler notes"
+  ],
+  "knownFor": "An envoy of the emperor Basil I, who spent nine months among the Paulicians at Tephrike to exchange prisoners. At the emperor's order he then wrote a hostile History of them for the archbishop of the newly converted Bulgarians.",
+  "dates": "Sent to Tephrike at the start of Basil I's reign, the exchange made in Basil's second year, by his own History. J. C. L. Gieseler dates the embassy to 868, counting from Basil's accession on 24 September 867, and the writing to between 868 and 871. Matthaeus Rader says he lived about 870. No source used here gives his birth or death",
+  "place": "Sicily, by his name; Constantinople, where Gieseler places him at the emperor's court; Tephrike, the Paulician city on the eastern frontier, where he stayed nine months",
+  "tradition": "The Byzantine Imperial Church (Macedonian Era)",
+  "role": "Envoy of Basil I to Tephrike; writer of a hostile History of the Paulicians",
+  "briefLength": "about 2 minutes 15 seconds",
+  "keyWorks": [
+    {
+      "title": "History of the Manichaeans, also called Paulicians",
+      "about": "addressed to the archbishop of Bulgaria, whom it does not name. It tells of Mani, copying Cyril of Jerusalem almost word for word, Rader says, and of the Paulician teachers down to Sergius-Tychicus and the war leaders Karbeas and Chrysocheir. Gieseler argues that it follows the first book of Photius, patriarch of Constantinople, against the Manichaeans. It is used here in Gieseler's Greek and Latin"
+    },
+    {
+      "title": "Refutation of the Paulicians' teaching, begun",
+      "about": "promised at the History's end. Jacques Sirmond found in the Vatican library a refutation of only two chapters, built almost wholly of Scripture texts, Rader and Gieseler report. It is not among the sources used here"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Gieseler knows of the History in one Vatican manuscript only. Cardinal Baronius first printed parts of it in his Annals, in Jacques Sirmond's Latin, and Rader printed it whole in 1604.",
+      "Franjo Rački, writing in Zagreb in 1869, used Peter's report of the plan for Bulgaria in tracing how the Paulicians' teaching reached Bulgaria.",
+      "Edwin Hamilton Gifford, in his English Cyril of Jerusalem, notes that Peter, quoting Cyril, \"boldly conjectures\" a reading of the Greek."
+    ],
+    "remembered": [
+      "Rader, who first printed it, calls the book a little golden book.",
+      "Rader's dedication set the Manichaeans and Paulicians beside the Lutherans, Calvinists and Iconoclasts. Gieseler left it out of his edition, saying hardly any scholar of his day would miss it."
+    ]
+  },
+  "uncertain": [
+    "His History is hostile polemic, written at the emperor's order to warn the church in Bulgaria. Peter says he learned what he tells from Paulicians he argued with and from orthodox Christians at Tephrike. He also reports that the Paulicians curse Mani and Paul of Samosata, and say they have no part in Manichaean vice, though he holds that they keep the Manichaean errors all the same. Gieseler says Peter is mistaken that the Paulicians are really Manichaeans. Theophanes the Confessor, writing before Peter, already speaks of Manichaeans who are now called Paulicians.",
+    "Whether Peter followed Photius. Gieseler argues that Photius wrote his first book against the Manichaeans before Basil exiled him in 867, and that Peter used it after 868, often in other words. Peter never names him, Gieseler says, because the emperor hated Photius. He sides with Engelhardt, who wrote on it in a theological journal. Montfaucon, who first printed Photius's book, thought most of it was taken from Peter. Wolf, who printed Photius's whole work, thought Peter followed Photius on the old Manichaeans and his own findings on the recent ones; Gieseler answers that the likeness runs through both. Photius's book is not among the sources used here.",
+    "Other witnesses to the teaching. John of Odzun, who led the Armenian church in the early 700s and was also hostile, says the Paulicians called honoring the cross and images idolatry. He names neither of the founders whose lives Peter tells. Theophanes Continuatus tells of the Paulician wars and gives no account of their teaching.",
+    "His life. Gieseler says that all that is known for certain is his embassy, its date and his book. That Sicily was his homeland rests on his name. That he fled Sicily under its Arab rulers, may have known their language, and was a layman are Gieseler's guesses. Rader asks whether he is the Siculus the Magister whom the historian Skylitzes names, and suspects so.",
+    "Peter of Argos. Some took him for Peter, bishop of Argos, from the Latin title of a funeral speech for Athanasius of Methone. Gieseler says the translator Blanditius added the word Siculus himself, that the Greek title names the bishop of Argos, and that the Life of Peter of Argos says he was born at Constantinople. The scan lacks the start of this argument.",
+    "The unnamed archbishop. Rader thought Peter left out the name because the choice of archbishop was still pending between Rome and Bulgaria's king. Gieseler calls this worthless, and suggests that no archbishop had yet been chosen when Greek priests were sent into Bulgaria after the council of 869.",
+    "The date. Gieseler puts the writing between 868 and 871, because Peter does not tell of Chrysocheir's defeat and death, which Gieseler puts in 871. Rader puts the embassy one year before the eighth ecumenical council, the fourth held at Constantinople. Gifford's notes to Cyril place Peter about 870."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Historia Manichaeorum seu Paulicianorum",
+        "author": "Peter of Sicily; J. C. L. Gieseler (ed.)",
+        "date": "1846",
+        "language": "Greek and Latin",
+        "file": "cic/texts/peter-of-sicily_historia-manichaeorum-seu-paulicianorum-grc-lat_gieseler1846.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Preface, with Matthaeus Rader's preface and observations",
+        "author": "J. C. L. Gieseler; Matthaeus Rader",
+        "date": "1846",
+        "language": "Latin",
+        "file": "cic/texts/peter-of-sicily_historia-manichaeorum-seu-paulicianorum-grc-lat_gieseler1846.txt"
+      },
+      {
+        "title": "Sermon against the Paulicians, and the canons (Opera)",
+        "author": "John of Odzun; J. B. Aucher (tr.)",
+        "date": "1834",
+        "language": "Armenian and Latin",
+        "file": "cic/texts/john-odzun_opera-arm-lat_aucher1834.txt"
+      },
+      {
+        "title": "Bogomili i Patareni",
+        "author": "Franjo Rački",
+        "date": "1869",
+        "language": "Croatian",
+        "file": "cic/texts/racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt"
+      },
+      {
+        "title": "Historiae Byzantinae scriptores post Theophanem (Patrologia Graeca 109)",
+        "author": "Theophanes Continuatus and others; J.-P. Migne (ed.)",
+        "date": "1863",
+        "language": "Greek and Latin",
+        "file": "cic/texts/theophanes-continuatus_historiae-byzantinae-scriptores-post-theophanem-pg109-grc-lat_migne1863.txt"
+      },
+      {
+        "title": "Chronographia (Patrologia Graeca 108)",
+        "author": "Theophanes the Confessor",
+        "date": "1863",
+        "language": "Greek and Latin",
+        "file": "cic/texts/theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt"
+      },
+      {
+        "title": "Catechetical Lectures, notes (Nicene and Post-Nicene Fathers, second series, 7)",
+        "author": "Cyril of Jerusalem; Edwin Hamilton Gifford (tr.)",
+        "date": "1893 (preface)",
+        "language": "English",
+        "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml"
+      }
+    ]
+  }
+}
