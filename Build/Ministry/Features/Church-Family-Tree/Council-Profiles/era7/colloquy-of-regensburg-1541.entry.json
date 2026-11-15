@@ -22,13 +22,13 @@
     "Latin West",
     "Protestant"
   ],
-  "teaser": "Regensburg, 1541. Inside the emperor's Diet, three Catholic and three Protestant theologians sought agreement. They agreed a formula on justification but split on the Lord's Supper, and the Diet referred everything to a council.",
-  "knownFor": "The talks at the imperial Diet of 1541 where Catholic and Protestant theologians agreed a formula on justification, then broke down over the Lord's Supper.",
+  "teaser": "Regensburg, 1541. Inside the emperor's Diet, three Catholic and three Protestant theologians sought agreement. They reached a formula on justification but split on the Lord's Supper, and the Diet referred everything to a council.",
+  "knownFor": "The talks at the imperial Diet of 1541 where Catholic and Protestant theologians reached a formula on justification, then broke down over the Lord's Supper.",
   "issue": [
     "The emperor's hope. Sarpi says Charles V came to the Diet in person, hoping to end all discord and unite religion. He had asked the pope for a legate with ample authority.",
     "The emperor's pressures. Calvin, writing from the city, says his mind was 'altogether turned to peace'. He feared the Turk, and an uncertain peace or open war with the king of France.",
     "The Protestant aim. Calvin says they expected no lasting peace without 'a settled agreement in religion'. They would urge the estates to take the work in hand.",
-    "The plan. Sarpi and Pallavicino say the emperor proposed that a few godly and learned men from each side confer on the disputes. Pallavicino adds that it was always to save the decision and constitution of Augsburg.",
+    "The plan. Sarpi and Pallavicino say the emperor proposed that a few godly and learned men from each side confer on the disputes. Pallavicino adds the emperor's proviso, 'always saving' the decision and constitution of Augsburg.",
     "Rome's view, in Paul III's bull of 1542. Treating reunion in the diets 'seemed only adapted to excite greater discord'. So the pope turned back to a general council.",
     "What came before. Sarpi says talks at Worms were broken off after Eck and Melanchthon had spoken for three days. The emperor referred the rest to the Diet in Ratisbon."
   ],
@@ -168,7 +168,7 @@
     {
       "name": "Granvelle",
       "verdict": "NOT SCORED",
-      "part": "The emperor's minister; brought the Book to the legate and presided (Pallavicino); rejected Melanchthon's statement (Calvin)"
+      "part": "The emperor's minister; brought the Book to the legate and presided (Pallavicino). Melanchthon's statement 'was rejected with harsh expressions' when presented to him; his reply 'cut off all hope' (Calvin)"
     },
     {
       "name": "Frederick the Palatine",
@@ -183,7 +183,7 @@
     {
       "name": "John Gropper",
       "verdict": "NOT SCORED",
-      "part": "Catholic speaker, archdeacon of Cologne; judged the Book's author by the legate and nuncio (Pallavicino)"
+      "part": "Catholic speaker, archdeacon of Cologne; the legate and nuncio saw he wrote the Book (Pallavicino)"
     },
     {
       "name": "John Eck",
@@ -248,14 +248,14 @@
     "None of the colloquy's own papers is held: not the Book, not the agreed article on justification, not the recess. Calvin's letters from the city stand in for them, with the rival histories of Sarpi and Pallavicino.",
     "Melanchthon's and Bucer's own words on the talks are not held. They reach us through Calvin, on their side, and through Pallavicino, who calls the Protestants heretics. Luther's answer to the envoy is not held.",
     "The crosses. Calvin calls Contarini legate 'from the Pope, who has distributed so many crosses for us at his first entrance'. The grammar lets 'who' be the pope.",
-    "But 'his first entrance' and the tired arm fit the legate, whose entry into the city Faber reports. Calvin's own word is 'crosses'.",
+    "But 'his first entrance' and the tired arm fit the legate, whose entry into the city Faber reports. The English is the 1858 translation; Calvin's Latin is not held.",
     "The legate's entry on 12 March rests on Faber's Spanish letter as the MHSI editors quote it. The edition they cite is not held.",
     "The legate's powers. Sarpi says Contarini excused the pope for not giving full power, since deciding matters of faith cannot be delegated. Pallavicino says Sarpi stumbles badly at the first step.",
     "Pallavicino says the instruction's first chapter gave the legate no power to dispense the Church's laws and rites. Neither the instruction nor Contarini's letters are held.",
-    "Was justification truly agreed? Calvin says the formula kept 'the substance of the true doctrine'. Pallavicino says Rome found its words ambiguous. The pope told the legate to approve nothing not plainly Catholic.",
+    "Whether justification was truly agreed. Calvin says the formula kept 'the substance of the true doctrine'. Pallavicino says Rome found its words ambiguous. The pope told the legate to approve nothing not plainly Catholic. The Jesuit Faber, writing from the city on 12 May, does not name the talks. He says the business of the faith went forward 'valde ambigue', very doubtfully, leaving them to trust in God alone.",
     "Who rejected the articles. Pallavicino says the Catholic princes, barons and bishops refused them as ambiguous, while most deputies of the Catholic cities wanted them accepted.",
     "Sarpi says the bishops rejected the Book outright, and the other electors and Catholic princes did not side with them. The two agree on the bishops and differ on the princes.",
-    "Who wrote the Book. Only Pallavicino tells it. The legate and nuncio judged Gropper the author; Eck suspected Witzel, whom he hated.",
+    "Who wrote the Book. Only Pallavicino tells it. The legate and nuncio saw from various signs that Gropper was the author. Eck suspected 'il Vicelio', a man he hated.",
     "What the Diet proved. Sarpi says it showed the Protestants they could win nothing where the pope's ministers had a part. Pallavicino calls this plainly false.",
     "Sarpi also says the Diet moved the pope to work for a council. Pallavicino denies it, saying the pope had long sought one. The 1542 bull links the Diet to the council.",
     "Contarini's written answer. Sarpi says it was no clearer than the ancient oracles. Pallavicino says everyone can feel how clear it was.",
@@ -266,14 +266,6 @@
     "A second colloquy met at Regensburg in 1546 (Sarpi; a letter from the city of 31 January 1546, in the MHSI edition). It is a separate event."
   ],
   "sources": {
-    "fromTheCouncil": [
-      {
-        "title": "The bull of indiction of the Council of Trent, 1542",
-        "author": "Paul III, tr. J. Waterworth",
-        "language": "English",
-        "file": "cic/texts/council-of-trent_canons-and-decrees_waterworth1848.txt"
-      }
-    ],
     "fromThoseThere": [
       {
         "title": "Letters of John Calvin, volume 1",
@@ -295,6 +287,12 @@
       }
     ],
     "writtenLater": [
+      {
+        "title": "The bull of indiction of the Council of Trent, 1542",
+        "author": "Paul III, tr. J. Waterworth",
+        "language": "English",
+        "file": "cic/texts/council-of-trent_canons-and-decrees_waterworth1848.txt"
+      },
       {
         "title": "The History of the Council of Trent",
         "author": "Paolo Sarpi, tr. Nathanael Brent",
