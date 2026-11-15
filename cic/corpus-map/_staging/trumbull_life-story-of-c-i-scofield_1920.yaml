@@ -1,0 +1,11 @@
+source_file: trumbull_life-story-of-c-i-scofield_1920.txt
+assignments:
+- row_id: trumbull_life-story-of-c-i-scofield_1920--trumbull-the-life-story-of-c-i-scofield
+  work: 'Trumbull, The Life Story of C. I. Scofield'
+  author: trumbull
+  locus: 'whole'
+  atlas_ids:
+  - dispensational-prophecy-culture
+  role: tradition
+  confidence: assigned
+  note: 'A life printed in 1920 by the editor of The Sunday School Times (title page).'

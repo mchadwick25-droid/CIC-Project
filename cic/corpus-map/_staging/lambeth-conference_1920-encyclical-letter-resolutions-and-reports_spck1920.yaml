@@ -1,0 +1,20 @@
+source_file: lambeth-conference_1920-encyclical-letter-resolutions-and-reports_spck1920.txt
+assignments:
+- row_id: lambeth-conference_1920-encyclical-letter-resolutions-and-reports_spck1920--lambeth-conference-1920-encyclical-letter-resolutions-and
+  work: 'Lambeth Conference 1920: Encyclical Letter, Resolutions and Reports'
+  author: lambeth-conference
+  locus: 'the Appeal to All Christian People, lines 2477-2658; the Resolutions, lines 2410-3599'
+  atlas_ids:
+  - the-anglican-communion-twentieth-century
+  role: tradition
+  confidence: assigned
+  note: 'The conference''s own printed acts.'
+- row_id: lambeth-conference_1920-encyclical-letter-resolutions-and-reports_spck1920--lambeth-conference-1920-an-appeal-to-all-christian-people
+  work: 'Lambeth Conference 1920: An Appeal to All Christian People'
+  author: lambeth-conference
+  locus: 'lines 2477-2658'
+  atlas_ids:
+  - the-ecumenical-movement-and-the-wcc
+  role: context
+  confidence: assigned
+  note: 'The bishops'' appeal for reunion, written the year before the entry''s window opens.'

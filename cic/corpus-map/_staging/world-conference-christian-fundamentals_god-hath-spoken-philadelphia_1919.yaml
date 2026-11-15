@@ -1,0 +1,11 @@
+source_file: world-conference-christian-fundamentals_god-hath-spoken-philadelphia_1919.txt
+assignments:
+- row_id: world-conference-christian-fundamentals_god-hath-spoken-philadelphia_1919--god-hath-spoken-the-world-conference-on-christian
+  work: 'God Hath Spoken: the World Conference on Christian Fundamentals, Philadelphia 1919'
+  author: world-conference-christian-fundamentals
+  locus: 'whole'
+  atlas_ids:
+  - fundamentalism-1910-1970s
+  role: tradition
+  confidence: assigned
+  note: 'The conference''s own printed report, with W. B. Riley''s addresses among the twenty-five.'

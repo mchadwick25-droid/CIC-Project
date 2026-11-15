@@ -1,0 +1,11 @@
+source_file: loisy_autour-d-un-petit-livre-2e-ed-fra_1903.txt
+assignments:
+- row_id: loisy_autour-d-un-petit-livre-2e-ed-fra_1903--loisy-autour-d-un-petit-livre-1903
+  work: 'Loisy, Autour d''un petit livre (1903)'
+  author: loisy
+  locus: 'whole'
+  atlas_ids:
+  - the-catholic-church-pius-x-to-the-council
+  role: tradition
+  confidence: needs-ruling
+  note: 'His own book in French, printed in 1903, before the entry''s window opens in 1906.'

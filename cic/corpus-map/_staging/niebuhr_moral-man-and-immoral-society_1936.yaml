@@ -1,0 +1,20 @@
+source_file: niebuhr_moral-man-and-immoral-society_1936.txt
+assignments:
+- row_id: niebuhr_moral-man-and-immoral-society_1936--niebuhr-moral-man-and-immoral-society
+  work: 'Niebuhr, Moral Man and Immoral Society'
+  author: niebuhr
+  locus: 'whole'
+  atlas_ids:
+  - the-mainline-century-liberal-and-neo-orthodox
+  role: tradition
+  confidence: assigned
+  note: 'His own book.'
+- row_id: niebuhr_moral-man-and-immoral-society_1936--niebuhr-moral-man-and-immoral-society-for-the-social-gospel
+  work: 'Niebuhr, Moral Man and Immoral Society, for the Social Gospel shelf'
+  author: niebuhr
+  locus: 'whole'
+  atlas_ids:
+  - the-social-gospel
+  role: context
+  confidence: needs-ruling
+  note: 'A critic''s voice, written in 1932, after that entry''s window closes in 1918.'

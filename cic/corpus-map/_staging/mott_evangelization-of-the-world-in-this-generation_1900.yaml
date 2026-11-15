@@ -1,0 +1,11 @@
+source_file: mott_evangelization-of-the-world-in-this-generation_1900.txt
+assignments:
+- row_id: mott_evangelization-of-the-world-in-this-generation_1900--mott-the-evangelization-of-the-world-in-this-generation
+  work: 'Mott, The Evangelization of the World in This Generation'
+  author: mott
+  locus: 'whole'
+  atlas_ids:
+  - the-student-volunteer-movement-and-edinburgh-191
+  role: tradition
+  confidence: assigned
+  note: 'His own book of 1900.'

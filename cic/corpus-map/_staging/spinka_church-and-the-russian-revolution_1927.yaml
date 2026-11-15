@@ -1,0 +1,22 @@
+source_file: spinka_church-and-the-russian-revolution_1927.txt
+assignments:
+- row_id: spinka_church-and-the-russian-revolution_1927--patriarch-tikhon-epistle-of-january-19-1918-english-in
+  work: 'Patriarch Tikhon, epistle of January 19, 1918 (English, in Spinka 1927)'
+  author: spinka
+  locus: 'lines 5288-5437'
+  atlas_ids:
+  - the-russian-new-martyrs-and-the-catacomb-church
+  - the-russian-orthodox-church-council-patriarchate-and-reunion
+  role: tradition
+  confidence: assigned
+  note: 'The patriarch''s own letter in an English translation of 1927, with one omission marked by dots.'
+- row_id: spinka_church-and-the-russian-revolution_1927--spinka-the-church-and-the-russian-revolution
+  work: 'Spinka, The Church and the Russian Revolution'
+  author: spinka
+  locus: 'whole'
+  atlas_ids:
+  - the-russian-new-martyrs-and-the-catacomb-church
+  - the-russian-orthodox-church-council-patriarchate-and-reunion
+  role: context
+  confidence: assigned
+  note: 'A historian''s account, printed in 1927.'

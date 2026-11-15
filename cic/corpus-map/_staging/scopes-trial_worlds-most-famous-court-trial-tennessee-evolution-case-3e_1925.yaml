@@ -1,0 +1,11 @@
+source_file: scopes-trial_worlds-most-famous-court-trial-tennessee-evolution-case-3e_1925.txt
+assignments:
+- row_id: scopes-trial_worlds-most-famous-court-trial-tennessee-evolution-case-3e_1925--the-world-s-most-famous-court-trial-tennessee-evolution-case
+  work: 'The World''s Most Famous Court Trial: Tennessee Evolution Case (1925 transcript)'
+  author: scopes-trial
+  locus: 'Bryan on the stand, lines 41482-44874; his last speech, lines 47016-49486'
+  atlas_ids:
+  - fundamentalism-1910-1970s
+  role: tradition
+  confidence: assigned
+  note: 'A printed court record with many voices: Bryan''s are his own words; Darrow and the defense are the other side.'

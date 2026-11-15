@@ -1,0 +1,11 @@
+source_file: romanian-orthodox-church_legea-si-statutul-pentru-organizarea-ron_1925.txt
+assignments:
+- row_id: romanian-orthodox-church_legea-si-statutul-pentru-organizarea-ron_1925--legea-si-statutul-pentru-organizarea-bisericii-ortodoxe
+  work: 'Legea si Statutul pentru organizarea Bisericii Ortodoxe Romane (1925)'
+  author: romanian-orthodox-church
+  locus: 'whole'
+  atlas_ids:
+  - orthodoxy-in-the-communist-balkans
+  role: tradition
+  confidence: assigned
+  note: 'Official texts of state and church, printed at a monastery press in 1925.'

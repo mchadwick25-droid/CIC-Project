@@ -1,0 +1,20 @@
+source_file: acta-apostolicae-sedis_v20-lat_1928.txt
+assignments:
+- row_id: acta-apostolicae-sedis_v20-lat_1928--acta-apostolicae-sedis-volume-20-1928-mortalium-animos
+  work: 'Acta Apostolicae Sedis, volume 20 (1928): Mortalium animos'
+  author: acta-apostolicae-sedis
+  locus: 'lines 59-592'
+  atlas_ids:
+  - the-catholic-church-pius-x-to-the-council
+  role: tradition
+  confidence: assigned
+  note: 'Rome''s own Latin text as first printed in 1928.'
+- row_id: acta-apostolicae-sedis_v20-lat_1928--acta-apostolicae-sedis-volume-20-1928-mortalium-animos-on
+  work: 'Acta Apostolicae Sedis, volume 20 (1928): Mortalium animos (on the ecumenical movement)'
+  author: acta-apostolicae-sedis
+  locus: 'lines 59-592'
+  atlas_ids:
+  - the-ecumenical-movement-and-the-wcc
+  role: context
+  confidence: assigned
+  note: 'Rome''s ruling on the movement, from outside it.'

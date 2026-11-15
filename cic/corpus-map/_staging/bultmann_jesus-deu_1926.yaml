@@ -1,0 +1,11 @@
+source_file: bultmann_jesus-deu_1926.txt
+assignments:
+- row_id: bultmann_jesus-deu_1926--bultmann-jesus-1926
+  work: 'Bultmann, Jesus (1926)'
+  author: bultmann
+  locus: 'whole'
+  atlas_ids:
+  - the-mainline-century-liberal-and-neo-orthodox
+  role: tradition
+  confidence: assigned
+  note: 'His own book in German.'
