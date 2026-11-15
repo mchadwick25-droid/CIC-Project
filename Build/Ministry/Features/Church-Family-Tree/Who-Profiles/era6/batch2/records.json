@@ -272,8 +272,8 @@
     "formation_confidence": "Widely Accepted"
    },
    {
-    "claim": "Montefiascone, 1370: heading 'Haec est revelatio, quam habuit Sponsa Christi in Roma de eodem Papa Urbano antequam rediret Avenionem. Anno Domini MCCCLXX. quam ipsa praesentauit ei in Monteflascone'; 'Si contigerit ipsum redire ad terras, vbi fuit electus Papa, ipse habebit in breui tempore vnam percussionem, siue vnam alapam'. Duranti's note, after Platina: she foretold that if he returned home he would die very soon, which happened. Cumming: 'This revelation was delivered to him by Alphonso' (against the heading's 'ipsa praesentauit').",
-    "witness": "BIRGL (birgitta_revelationes-lat_duranti1628.txt) l.98413-98419, 98553-98559, 98600-98609; BIRGE (birgitta_revelations-enm_cumming1929.txt) l.993, 1022",
+    "claim": "Montefiascone, 1370: heading 'Haec est revelatio, quam habuit Sponsa Christi in Roma de eodem Papa Urbano antequam rediret Avenionem. Anno Domini MCCCLXX. quam ipsa praesentauit ei in Monteflascone'; 'Si contigerit ipsum redire ad terras, vbi fuit electus Papa, ipse habebit in breui tempore vnam percussionem, siue vnam alapam'. Duranti's note, after Platina: she foretold that if he returned home he would die very soon, which happened, on the way to France or, as others say, at Avignon ('dum enim proficiscebatur in Galliam ... mortuus est, vel ut alij volunt, Auenione vitam finiuit' [OCR 'mortuus esHyuel', 'dueniano'], BIRGL l.98604-98609). Cumming: 'This revelation was delivered to him by Alphonso' (against the heading's 'ipsa praesentauit'); he 'died the same year, in less than a month after returning to Avignon' (BIRGE l.1022-1024).",
+    "witness": "BIRGL (birgitta_revelationes-lat_duranti1628.txt) l.98413-98419, 98553-98559, 98600-98609; BIRGE (birgitta_revelations-enm_cumming1929.txt) l.993, 1022-1024",
     "formation_confidence": "Documented"
    },
    {
@@ -382,9 +382,9 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Rome from 1348 or 1349 by reckoning; the Bollandists 'ab anno 1348'; her death 'Anno 1373 die 23 Julii'.",
-    "witness": "BIRGE (birgitta_revelations-enm_cumming1929.txt) l.928-929, 967; ASMAR3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt) l.133269",
-    "formation_confidence": "Inferential-Thin"
+    "claim": "Rome: Cumming dates only the start of the journey, two or three years after the revelation of 1346 (BIRGE l.928-929, 967). He quotes the Extravagantes, fifteen years in Rome before Urban V came, and notes the chronological discrepancy (BIRGE l.955-961, 996-998). The Bollandists' note to her daughter's 'viginti quinque annis' in Rome with her mother: 'Ergo ab anno 1348' (ASMAR3 l.132892-132893, 133269). Her death: 'Anno 1373 die 23 Julii' (ASMAR3 l.133269).",
+    "witness": "BIRGE (birgitta_revelations-enm_cumming1929.txt) l.928-929, 955-961, 967, 996-998; ASMAR3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt) l.132892-132893, 133269",
+    "formation_confidence": "Contested"
    }
   ],
   "contested_claims": [
@@ -447,7 +447,7 @@
    },
    {
     "detail": "A primary witness for her birth year",
-    "note": "Only Cumming's line (BIRGE l.857); the Library file headers' 'about 1303' is not a witness."
+    "note": "Searched all cic/texts for 1300 to 1309 and MCCCI- within 250 characters of Birgit-/Brigitt-/Bridget/Brigid, and for age words near her name. Only Cumming's line gives a year (BIRGE l.857). The Extravagantes give her age at her coming to Rome without a year (BIRGE l.959-960). The Library file headers' 'about 1303' is not a witness."
    }
   ]
  },

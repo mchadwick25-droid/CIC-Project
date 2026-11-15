@@ -52,7 +52,7 @@ Card traditions are the census's names. All eight fit the scan's placings:
 - Ockham reads "The Franciscan Order — Spirituals Crisis to the Great Division" (1300 to 1517), where he is a voice. The scan's "also Fraticelli" is not used: that entry names him in its text among the friars who fled the papal court, but not among its voices.
 - Palamas, Gregory of Sinai and Cabasilas read "Hesychasm & the Palamite Synthesis" (c. 1300 to 1400). All three are among its voices. Palamas is also a voice of the Byzantine Church, Palaiologan Era.
 
-Lines held only in Latin, Greek, Italian, German, Croatian or Church Slavonic are told in modern words with the source named. Quotation marks are kept only for lines held in English: Scudder's and Thorold's Catherine, Cumming's Middle English Bridget, Robins's Bernardino, Lea's and Shirley's English, and the 1931 English Luther. Quotations keep their own spelling, including "sleer of soules" and "doth". Where an OCR slip falls inside a quoted line, the quotation is given as the editor printed it ("Holy Chureh" in the Robins file is read as "Holy Church").
+Lines held only in Latin, Greek, Italian, German, Croatian or Church Slavonic are told in modern words with the source named. Quotation marks are kept only for lines held in English: Scudder's and Thorold's Catherine, Cumming's Middle English Bridget, Robins's Bernardino, Lea's and Shirley's English, the Stanbrook English of Rodrigo Alvarez's note, and the 1931 English Luther. Quotations keep their own spelling, including "sleer of soules" and "doth". Where an OCR slip falls inside a quoted line, the quotation is given as the editor printed it ("Holy Chureh" in the Robins file is read as "Holy Church").
 
 | File | Holds |
 |---|---|
