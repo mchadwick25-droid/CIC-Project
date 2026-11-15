@@ -1,0 +1,356 @@
+{
+  "id": "diet-of-worms-1521",
+  "kind": "major-council",
+  "kindLabel": "Major council",
+  "era": 7,
+  "name": "Diet of Worms",
+  "shortName": "Worms 1521",
+  "dates": "1521",
+  "start": 1521,
+  "end": 1521,
+  "region": "Worms, on the Rhine",
+  "placeLabel": "Worms",
+  "modernCountries": [
+    {
+      "country": "Germany",
+      "countryId": "Q183"
+    }
+  ],
+  "rivers": [
+    "Latin West",
+    "Protestant"
+  ],
+  "teaser": "Worms, 1521. The imperial diet of Charles V heard Martin Luther, who would not take back his books. The Edict of Worms then declared him an open heretic and outlaw.",
+  "knownFor": "The imperial diet of Charles V, an assembly of the empire's princes and estates, where Luther refused to recant in April 1521 and was outlawed.",
+  "datesNote": "1521. Foxe says the Diet opened on 6 January and the emperor cited Luther on 6 March; Buchheim, an 1885 editor, also gives 6 March. Waterworth and Herrnschmid date Luther's arrival to 16 April. Pallavicino, Sarpi and Waterworth put the first hearing on 17 April. Pallavicino and Waterworth call it the day after his arrival; Foxe says 'the fourth day after his repair'. Foxe gives no calendar date for either hearing. Foxe and the others place the second hearing on the next day. Buchheim, and Köstlin as cited by Luther's 1930 editors, call it 18 April. Foxe gives the emperor's letter 'upon the Friday following', and Buchheim the morning of 19 April. Foxe, Sarpi and Waterworth say Luther left Worms on 26 April. Steimle, a 1916 editor, says he entered the Wartburg on 4 May. Mirbt says the Edict is dated 8 May and was signed on 26 May.",
+  "issue": [
+    "The Diet was the empire's own assembly. Foxe calls it 'a sitting or assembly of the states of all the empire'. The Edict names those there as the electors, princes and estates 'now assembled here' (Mirbt).",
+    "Sarpi gives the Edict as saying the emperor sent a herald to fetch Luther. The aim was 'not to know and judge the things that concern Faith, which belongeth to the Pope alone'. It was rather to bring him back by persuasion.",
+    "The pope's sentence. Leo X's bull Exsurge Domine, dated 15 June 1520, condemned Luther's teaching (Mirbt). It gave him sixty days to recant. Foxe says Luther burned the bull at Wittenberg on 10 December 1520.",
+    "A second bull, Decet Romanum pontificem, declared the ban. Mirbt dates it 2 January 1521; Waterworth and Luther's 1930 editors give 3 January.",
+    "The papal side. Pallavicino, a Jesuit writing from the envoy Aleander's letters, says Aleander pressed one point. A notorious heretic the pope had already sentenced 'ought not to be heard'. Nor, he said, was a safe-conduct owed. Waterworth says Aleander 'was indeed averse to this summons'.",
+    "The estates. Buchheim says they warned that violent measures would 'call forth the greatest commotion'. They asked for Luther to be summoned 'merely for a summary interrogatory', without learned debate.",
+    "The estates also brought their own grievances against Rome. Their draft, in Mirbt's excerpt, holds it necessary 'that there be an amendment and a general reformation' (Mirbt's German; our English).",
+    "Frederick of Saxony. Foxe says the elector asked the pope's legates that Luther's error 'might first be known, before he were made a heretic'. Waterworth says Frederick doubted that the cited works were really Luther's.",
+    "Luther's side. He would not recant unless convinced 'by testimonies of the Scriptures, and by probable reasons' (Foxe). His Table Talk gives Scripture alone."
+  ],
+  "calledBy": "Charles V. Foxe says the emperor ordered an assembly of the estates at Worms for 6 January 1521. Foxe says he cited Luther 'through the instigation of duke Frederic'. Buchheim says Frederick declined to summon Luther himself. So the citation of 6 March 1521 came in the name of the emperor and the estates, with a safe-conduct.",
+  "attended": [
+    "No list of those present is among our sources. The Edict names 'our and the Holy Empire's electors, princes and estates now assembled here' (Mirbt's German; our English).",
+    "Named as present: Charles V, and the electors of Mainz, Trier and Cologne (Luther's Table Talk; Pallavicino for Mainz). Also Joachim of Brandenburg (Table Talk; Foxe) and Frederick of Saxony (Table Talk).",
+    "Also named: Lewis, the elector Palatine (Sarpi); Philip of Hesse (Table Talk); George, duke of Saxony (Foxe; Buchheim); the papal envoys Aleander and Caracciolo (Pallavicino).",
+    "With Luther came Hieronymus Schurff, a Wittenberg lawyer (Foxe; Table Talk). The herald Caspar Sturm brought him from Wittenberg (Foxe).",
+    "Pallavicino says Luther came with 'perhaps a hundred horse' but entered Worms with only eight. Waterworth gives the same numbers after him.",
+    "Pallavicino says about twenty-five of Luther's books lay on show. Luther's Table Talk says only that 'the books lay on a table'."
+  ],
+  "decided": [
+    "The first hearing. Foxe gives the two questions put by Johann Eck, the Trier official, 'or like in effect'. Were these books his? Would he 'recant and revoke them'? Pallavicino and the Table Talk agree that Luther owned the books and asked for time.",
+    "The second hearing. Foxe gives Luther's answer at length. His plain answer ends: 'I will not, nor may not revoke any manner of thing'. 'Hereupon I stand and rest: I have not what else to say. God have mercy upon me!'",
+    "The emperor's resolve. Buchheim quotes in English a French paper in Charles's own hand, read on 19 April. Charles would 'maintain everything which had been adopted by his ancestors, more especially at the Council of Constance'. He would not hear Luther again.",
+    "Pallavicino paraphrases the same paper. Charles would hear Luther no more, and would proceed against him 'as a notorious heretic'. Foxe gives it 'in effect': 'we will not violate our faith, which we have promised him'.",
+    "Pallavicino says the whole Diet agreed with the emperor's sentence. Sarpi says some urged that faith need not be kept with a heretic. Lewis, the elector Palatine, opposed them, by Sarpi's account.",
+    "The talks at Trier's lodging. Foxe says the archbishop of Trier met Luther on the day after St George's day, with other princes. Their spokesman, Dr. Voeus, the marquis of Baden's chaplain, said Luther was not called 'to disputation'. The talks failed.",
+    "Leave to go. Foxe and Sarpi say Luther was given twenty-one days to reach home, without preaching on the way. Pallavicino and the Edict give twenty days.",
+    "The Edict of Worms (Mirbt's excerpt of the German text). It carries out 'the decree, sentence and condemnation of the bull'. It declares Luther 'a limb cut off from God's church, an obstinate schismatic and open heretic' (Mirbt's German; our English).",
+    "After twenty days ending on 14 May, no one may 'house, harbor, feed or give drink to' him (the Edict, in Mirbt). He is to be seized and sent to the emperor. His followers' goods are to be taken.",
+    "Sarpi and Waterworth add that the Edict banned his books. They say it ordered that no work on the faith be printed without the bishop's approval. That part is not in Mirbt's excerpt.",
+    "Pallavicino says Aleander drew up the Edict, which the emperor's councils then revised. Herrnschmid seems to say Aleander drew it up, but the print is damaged. No held witness names another drafter."
+  ],
+  "outcome": [
+    "Luther hidden. Pallavicino says five of Frederick's nobles in disguise stopped his carriage and took him 'with a show of force'. They brought him by night to the Wartburg. Frederick, he says, did not know which castle held him, so he could swear to it truly.",
+    "Waterworth tells it the same way, after Pallavicino. Foxe says only that Frederick 'conveyed Luther a little out of sight secretly'. Steimle, a 1916 editor, dates his arrival at the Wartburg to 4 May 1521.",
+    "The Edict little enforced. Buchheim says it 'found, in general, no responsive reception' in Germany. Waterworth, a Catholic, says Charles's absence and the elector's authority 'rendered the Ban ineffectual'.",
+    "Luther wrote in 1530 that the decree was so horrible 'it had to be changed at the diet at Nuremberg'. His Table Talk says the tyrants 'were constrained to recall the same again'.",
+    "Used where it could be. Luther wrote in 1525 of the preacher Friar Henry. The archbishop's synod at Buxtehude, he says, had Leo's bull and the edict posted up. Luther's 1930 editors say the Council of Regency demanded it be carried out on 20 January 1522.",
+    "Anjou, a historian of Sweden, says Ferdinand announced at Speyer in 1526 that the emperor would carry out the edict. Buchheim says the decree of Augsburg in 1530 still vowed 'to carry out unconditionally the Edict of Worms'.",
+    "Emperor and pope bound together. Buchheim says the Edict's date of 8 May matches an alliance of emperor and pope. The two were 'to have the same friends and without exception the same enemies'. Foxe says the emperor 'procured no small thanks with the pope' by it.",
+    "Buchheim says the Peasants' Twelve Articles of 1525 echo Luther's words at Worms. Their demands would not stand if refuted by Scripture.",
+    "At the Wartburg, Buchheim writes, Luther worked at 'the great work of his life, the translation of the Bible from the original text'."
+  ],
+  "record": [
+    {
+      "witness": "The Edict of Worms and the draft grievances of the German nation (Mirbt, nos. 340 and 341)",
+      "kind": "acts",
+      "note": "Excerpts of the German texts in a 1911 source book, taken from the Deutsche Reichstagsakten, which are not among our sources. Imperial side; the Edict is the act itself."
+    },
+    {
+      "witness": "The bulls Exsurge Domine and Decet Romanum pontificem (Mirbt, no. 339)",
+      "kind": "acts",
+      "note": "Papal acts that the Edict carries out; Mirbt prints Exsurge and dates both."
+    },
+    {
+      "witness": "Martin Luther, Table Talk, 'Of Luther's Journey and Proceedings at the Imperial Diet at Worms' (Bell's English, 1646)",
+      "kind": "participant",
+      "note": "Luther's own memory, at second hand through those who wrote down his talk. Luther's side."
+    },
+    {
+      "witness": "Martin Luther, sermon of March 1522 and Exhortation to the Clergy at Augsburg, 1530",
+      "kind": "participant",
+      "note": "The condemned man looking back years later. Luther's side."
+    },
+    {
+      "witness": "John Foxe, Acts and Monuments, 'The Acts and Doings of Martin Luther before the Emperor'",
+      "kind": "later narrative",
+      "note": "The fullest held telling and Luther's speech in English, drawn, Foxe notes, from Melanchthon, Sleidan and others. Protestant and partisan."
+    },
+    {
+      "witness": "Sforza Pallavicino SJ, Istoria del Concilio di Trento (1664)",
+      "kind": "later narrative",
+      "note": "Written from Aleander's letters, against Sarpi. Catholic and for the papal court. The fullest held telling of the papal side."
+    },
+    {
+      "witness": "J. Waterworth, introduction to the Canons and Decrees of the Council of Trent (1848)",
+      "kind": "later narrative",
+      "note": "Catholic; follows Pallavicino and cites him."
+    },
+    {
+      "witness": "Paolo Sarpi, History of the Council of Trent (Brent's English, 1676)",
+      "kind": "later narrative",
+      "note": "A Venetian critic of the papal court."
+    },
+    {
+      "witness": "J. D. Herrnschmid, Life of Martin Luther, in John Wesley's Arminian Magazine (1778)",
+      "kind": "later narrative",
+      "note": "Protestant. The one held telling that gives the German 'Hier stehe ich'."
+    },
+    {
+      "witness": "C. A. Buchheim, historical introduction to Luther's First Principles (1885)",
+      "kind": "modern reconstruction",
+      "note": "Writes for Luther's side, in a Lutheran Publication Society volume for Luther's fourth centenary. Openly hostile to Charles ('a bigoted Roman Catholic at heart'). Quotes Charles's declaration in English and says the Edict was put out on 25 May."
+    },
+    {
+      "witness": "Carl Mirbt; A. Steimle and the 1916 and 1930 editors of Luther's works; L. W. Bacon, quoting Thomas Carlyle",
+      "kind": "modern reconstruction",
+      "note": "Editors who give the Edict's dating, the Wartburg date, the date of Decet and the 18 April date after Köstlin. Bacon quotes Carlyle's 'Here I stand'."
+    }
+  ],
+  "traditions": [
+    {
+      "id": "lutheran-wittenberg-and-its-congregations",
+      "name": "Lutheran Wittenberg & Its Congregations",
+      "part": "Condemned",
+      "note": "The Edict outlaws Luther and orders action against his 'associates, adherents, harborers, supporters, patrons and followers' (Mirbt's German; our English). Luther refused to revoke 'any manner of thing' (Foxe)."
+    },
+    {
+      "id": "the-tridentine-church",
+      "name": "The Tridentine Church",
+      "part": "Affected",
+      "note": "The Edict carries out the papal bull (Mirbt), and Buchheim ties its date to an alliance of emperor and pope. Waterworth tells Worms as part of the road to Trent."
+    }
+  ],
+  "people": [
+    {
+      "name": "Martin Luther",
+      "id": "martin-luther",
+      "verdict": "WHO",
+      "part": "Summoned under safe-conduct; owned his books, refused to recant on 18 April, and was outlawed by the Edict"
+    },
+    {
+      "name": "Charles V",
+      "verdict": "NOT SCORED",
+      "part": "Emperor; called the Diet, cited Luther, declared against him on 19 April, and signed the Edict"
+    },
+    {
+      "name": "Girolamo Aleandro (Aleander)",
+      "verdict": "NOT SCORED",
+      "part": "Papal envoy; argued Luther should not be heard, and drew up the Edict by Pallavicino's account"
+    },
+    {
+      "name": "Johann Eck, official of the archbishop of Trier",
+      "verdict": "NOT SCORED",
+      "part": "Put the emperor's questions to Luther at both hearings; Foxe and Pallavicino disagree on who he was"
+    },
+    {
+      "name": "Frederick, elector of Saxony",
+      "verdict": "NOT SCORED",
+      "part": "Luther's prince; pressed for a hearing and had him hidden at the Wartburg"
+    },
+    {
+      "name": "Richard Greiffenklau (Pallavicino's 'Riccardo Grieffeclau'), archbishop of Trier",
+      "verdict": "NOT SCORED",
+      "part": "Led the talks with Luther after the hearings (Foxe; Pallavicino)"
+    },
+    {
+      "name": "Joachim, elector of Brandenburg",
+      "verdict": "NOT SCORED",
+      "part": "Questioned Luther in the talks; answered for the electors that the ban pleased them all, by Pallavicino's account"
+    },
+    {
+      "name": "Albrecht, archbishop of Mainz",
+      "verdict": "NOT SCORED",
+      "part": "Head of the Diet; signed the ban before the emperor, by Pallavicino's account"
+    },
+    {
+      "name": "Lewis, elector Palatine",
+      "verdict": "NOT SCORED",
+      "part": "Opposed breaking Luther's safe-conduct, by Sarpi's account"
+    },
+    {
+      "name": "Philip, landgrave of Hesse",
+      "verdict": "NOT SCORED",
+      "part": "A young prince who wished Luther well if his cause was just, by Luther's Table Talk"
+    },
+    {
+      "name": "George, duke of Saxony",
+      "verdict": "NOT SCORED",
+      "part": "Luther's opponent; at the talks (Foxe), and approved the estates' grievances (Buchheim)"
+    },
+    {
+      "name": "Hieronymus Schurff",
+      "verdict": "NOT SCORED",
+      "part": "Luther's lawyer; asked for the titles of the books to be read"
+    },
+    {
+      "name": "Dr. Voeus, chaplain of the marquis of Baden",
+      "verdict": "NOT SCORED",
+      "part": "Spoke for the princes at the talks (Foxe); 'a Doctor ... belonging to the Marquis of Baden' in Luther's Table Talk"
+    },
+    {
+      "name": "Konrad Peutinger",
+      "verdict": "NOT SCORED",
+      "part": "Named by Foxe among those at the talks"
+    },
+    {
+      "name": "Johann Cochlaeus",
+      "verdict": "NOT SCORED",
+      "part": "Offered to dispute with Luther if he gave up his safe-conduct (Table Talk; Pallavicino)"
+    },
+    {
+      "name": "Jean Glapion",
+      "verdict": "NOT SCORED",
+      "part": "The emperor's confessor; tried through Bucer to keep Luther from Worms, by Luther's account"
+    },
+    {
+      "name": "Martin Bucer",
+      "verdict": "NOT SCORED",
+      "part": "Met Luther at Oppenheim and urged him not to enter Worms, by Luther's account"
+    },
+    {
+      "name": "Caspar Sturm",
+      "verdict": "NOT SCORED",
+      "part": "Imperial herald; brought Luther to Worms and saw him on his way home"
+    },
+    {
+      "name": "Matthäus Schiner, cardinal of Sion",
+      "verdict": "NOT SCORED",
+      "part": "Present when the emperor signed the ban, by Pallavicino's account"
+    },
+    {
+      "name": "Marino Caracciolo",
+      "verdict": "NOT SCORED",
+      "part": "Papal envoy with Aleander; at the signing of the ban, by Pallavicino's account"
+    },
+    {
+      "name": "Justus Jonas",
+      "verdict": "NOT SCORED",
+      "part": "Went with Luther to Worms, by the note of Crespin's 1885 editors"
+    },
+    {
+      "name": "Leo X",
+      "verdict": "NOT SCORED",
+      "part": "Not present; his bulls condemned Luther, and the Edict carries them out"
+    }
+  ],
+  "briefLength": "about 2 minutes 30 seconds",
+  "uncertain": [
+    "The Diet's own record is not among our sources. Mirbt's collection prints part of its Edict, in German. Foxe, a Protestant, gives Luther's speech in English. The Catholic side reaches us through Pallavicino, a Jesuit whose history of 1656-1657, revised in 1664, draws on Aleander's letters.",
+    "'Here I stand.' Foxe gives 'Hereupon I stand and rest'. Herrnschmid, in Wesley's magazine of 1778, says Luther added in German, 'Hier stehe ich: ich kan nicht anders: Gott helfe mir! Amen.' Carlyle, quoted by Bacon, gives 'Here I stand'.",
+    "The words are absent from Pallavicino, Sarpi, Waterworth and Buchheim. Luther's Table Talk tells only the first hearing, where he asked for time. Its 'next day' is the talks with 'the Bishops and others'. No held editor discusses whether he said them.",
+    "Who Eck was. Foxe makes him the 'John Eckius above mentioned', the Leipzig opponent, now Trier's official. Pallavicino says he was 'another Johann Eck', vicar of the archbishop of Trier. The Table Talk calls him 'the Bishop of Trier's fiscal'.",
+    "How soon the first hearing came. Pallavicino and Waterworth put it on 17 April, the day after Luther arrived. Sarpi also gives 17 April, but no arrival date. Foxe puts it 'the fourth day after his repair', and gives no calendar date for it.",
+    "Twenty or twenty-one days. Foxe and Sarpi give twenty-one, and Waterworth says Sleidan does too. Pallavicino gives twenty, and the Edict counts twenty days ending on 14 May.",
+    "The Edict's date. Mirbt says it is dated 8 May and was signed on 26 May. Pallavicino agrees: signed on Trinity Sunday, 26 May, and dated back to the eighth. Buchheim says it was put out on 25 May. Sarpi's English has '8. of April'.",
+    "Whether the Diet consented. The Edict claims the electors', princes' and estates' 'unanimous counsel and will' (Mirbt). Pallavicino says Joachim of Brandenburg answered for all that it pleased them. Waterworth says it had 'the consent of the Germanic Diet'.",
+    "Buchheim says it went out 'without the formal sanction of the Diet', after Frederick and the Palatine elector had left. He says it was dated back to give it 'the appearance of legality'.",
+    "Decet Romanum pontificem. Mirbt dates it 2 January 1521; Waterworth and Luther's 1930 editors give 3 January.",
+    "Who drafted the Edict. Pallavicino says Aleander drew it up and the emperor's councils revised it. Herrnschmid seems to say the same, but the print is damaged. No held source names another drafter.",
+    "Where Luther stood. The Table Talk says 'the Senate House'; Foxe says 'the earl palatine's palace'.",
+    "How many grievances. In the Table Talk Luther speaks of 'four hundred articles'. In 1530 he wrote of 'some hundred and four statements'. Mirbt prints only an excerpt, so no count can be made from it."
+  ],
+  "sources": {
+    "fromTheCouncil": [
+      {
+        "title": "Quellen zur Geschichte des Papsttums: the Edict of Worms, the draft grievances of the German nation, and the bulls against Luther",
+        "author": "Diet of Worms and Leo X, in Carl Mirbt, nos. 339 to 341",
+        "language": "German and Latin",
+        "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt"
+      }
+    ],
+    "fromThoseThere": [
+      {
+        "title": "The Table Talk",
+        "author": "Martin Luther, tr. Henry Bell",
+        "language": "English",
+        "file": "cic/texts/luther_table-talk_bell1886.txt"
+      },
+      {
+        "title": "Works of Martin Luther, vol. 2: the Wittenberg sermons of March 1522",
+        "author": "Martin Luther, eds. Jacobs and Spaeth",
+        "language": "English",
+        "file": "cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt"
+      },
+      {
+        "title": "Works of Martin Luther, vol. 4: Exhortation to the Clergy Assembled at Augsburg; The Burning of Friar Henry",
+        "author": "Martin Luther",
+        "language": "English",
+        "file": "cic/texts/luther_works-v4-selected_various1931.txt"
+      }
+    ],
+    "writtenLater": [
+      {
+        "title": "Acts and Monuments, vol. 4",
+        "author": "John Foxe, ed. Cattley",
+        "language": "English",
+        "file": "cic/texts/foxe_acts-and-monuments-v4_cattley-townsend1837.txt"
+      },
+      {
+        "title": "Istoria del Concilio di Trento, parte prima",
+        "author": "Sforza Pallavicino",
+        "language": "Italian",
+        "file": "cic/texts/pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt"
+      },
+      {
+        "title": "The History of the Council of Trent",
+        "author": "Paolo Sarpi, tr. Nathanael Brent",
+        "language": "English",
+        "file": "cic/texts/sarpi_history-of-the-council-of-trent_brent1676.txt"
+      },
+      {
+        "title": "The Canons and Decrees of the Council of Trent, introduction",
+        "author": "J. Waterworth",
+        "language": "English",
+        "file": "cic/texts/council-of-trent_canons-and-decrees_waterworth1848.txt"
+      },
+      {
+        "title": "The Life of Martin Luther, in The Arminian Magazine, vol. 1",
+        "author": "J. D. Herrnschmid, ed. John Wesley",
+        "language": "English",
+        "file": "cic/texts/arminian-magazine_vol-1_1778.txt"
+      },
+      {
+        "title": "First Principles of the Reformation, historical introduction",
+        "author": "C. A. Buchheim",
+        "language": "English",
+        "file": "cic/texts/luther_first-principles-reformation_wace-buchheim1885.txt"
+      },
+      {
+        "title": "Works of Martin Luther, vol. 3: introductions",
+        "author": "various editors",
+        "language": "English",
+        "file": "cic/texts/luther_works-v3-selected_various1930.txt"
+      },
+      {
+        "title": "The Hymns of Martin Luther, preface",
+        "author": "L. W. Bacon, quoting Thomas Carlyle",
+        "language": "English",
+        "file": "cic/texts/luther_hymns_bacon-allen.txt"
+      },
+      {
+        "title": "History of the Reformation in Sweden",
+        "author": "L. A. Anjou, tr. H. M. Mason",
+        "language": "English",
+        "file": "cic/texts/anjou_history-of-the-reformation-in-sweden_mason1859.txt"
+      }
+    ]
+  }
+}
