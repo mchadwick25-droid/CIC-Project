@@ -1,0 +1,21 @@
+source_file: krapf_travels-researches-and-missionary-labours-in-eastern-africa_1860.txt
+assignments:
+- row_id: krapf_travels-researches-and-missionary-labours-in-eastern-africa_1860--travels-researches-and-missionary-labours-during-an-eighteen
+  work: Travels, researches, and missionary labours, during an eighteen years' residence in Eastern Africa; together
+  author: krapf
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - east-african-christianity-uganda-martyrs
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1860
+    end: 1860
+    source: 'the printing''s own title page: OCR line 79, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1860
+    source: OCR line 79, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 209, Johann Ludwig Krapf: his Travels.'

@@ -1,0 +1,22 @@
+source_file: eddy_retrospection-and-introspection_1892.txt
+assignments:
+- row_id: eddy_retrospection-and-introspection_1892--retrospection-and-introspection-by-mary-baker-g-eddy-author
+  work: '[Retrospection and Introspection] by Mary Baker G. Eddy, author of ''Science and Health.'' Sixth Thousand.'
+  author: eddy
+  locus: Eddy's text from 'Voices Not Our Own' to 'Way Marks' at OCR lines 139-3347; add 12 to OCR line numbers;
+    the rest not mapped
+  atlas_ids:
+  - christian-science
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1891
+    end: 1892
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n8; the OCR does not give it cleanly'
+    formation_confidence: Documented
+  edition_date:
+    year: 1892
+    source: read on the scan's page image, leaf n8; the OCR does not give it cleanly
+    formation_confidence: Documented
+  note: 'Era 9 row 177, Mary Baker Eddy: Retrospection and Introspection.'

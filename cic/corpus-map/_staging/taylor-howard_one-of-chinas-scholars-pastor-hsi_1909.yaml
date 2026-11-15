@@ -1,0 +1,24 @@
+source_file: taylor-howard_one-of-chinas-scholars-pastor-hsi_1909.txt
+assignments:
+- row_id: taylor-howard_one-of-chinas-scholars-pastor-hsi_1909--one-of-china-s-scholars-the-early-life-and-conversion-of
+  work: 'One of China''s Scholars: the early life and conversion of Pastor Hsi, by Mrs. Howard Taylor; bound in
+    this'
+  author: taylor-howard
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - the-missionary-movement-s-native-churches-seramp
+  role: context
+  confidence: needs-ruling
+  language: eng
+  date:
+    start: 1900
+    end: 1909
+    source: 'the printing''s own title page: OCR line 105, in the printing history on the back of the title page
+      (''Reprinted November 1909''); the title page itself prints no year'
+    formation_confidence: Documented
+  edition_date:
+    year: 1909
+    source: OCR line 105, in the printing history on the back of the title page ('Reprinted November 1909'); the
+      title page itself prints no year
+    formation_confidence: Documented
+  note: 'Era 9 row 205, Xi Shengmo (Pastor Hsi): a Life (the early life).'

@@ -1,0 +1,21 @@
+source_file: noyes_history-of-american-socialisms_1870.txt
+assignments:
+- row_id: noyes_history-of-american-socialisms_1870--history-of-american-socialisms-by-john-humphrey-noyes
+  work: 'History of American Socialisms. By John Humphrey Noyes. Philadelphia: J. B. Lippincott & Co. 1870'
+  author: noyes
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - oneida-community
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1870
+    end: 1870
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n8; the OCR does not give it cleanly'
+    formation_confidence: Documented
+  edition_date:
+    year: 1870
+    source: read on the scan's page image, leaf n8; the OCR does not give it cleanly
+    formation_confidence: Documented
+  note: 'Era 9 row 180, John Humphrey Noyes: his own writing.'

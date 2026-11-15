@@ -1,0 +1,26 @@
+source_file: callery-yvan_history-of-the-insurrection-in-china_oxenford1854.txt
+assignments:
+- row_id: callery-yvan_history-of-the-insurrection-in-china_oxenford1854--history-of-the-insurrection-in-china-with-notices-of-the
+  work: History of the insurrection in China; with notices of the Christianity, creed, and proclamations of the
+  author: callery-yvan
+  locus: chapters I-XVII by Callery and Yvan at OCR lines 425-10922; Oxenford's supplementary chapter and postscript
+    at OCR lines 10923-12865; add 12 to OCR line numbers; the rest not mapped
+  atlas_ids:
+  - taiping-heavenly-kingdom
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1854
+    end: 1854
+    source: 'the printing''s own title page: OCR line 105, on the title page'
+    formation_confidence: Documented
+  translator:
+    name: John Oxenford
+    source: the title page
+    formation_confidence: Documented
+  edition_date:
+    year: 1854
+    source: OCR line 105, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 185, Hong Xiuquan: an outside account.'

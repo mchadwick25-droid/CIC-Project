@@ -1,0 +1,21 @@
+source_file: bliss_memoirs-of-william-miller_1853.txt
+assignments:
+- row_id: bliss_memoirs-of-william-miller_1853--memoirs-of-william-miller-generally-known-as-a-lecturer-on
+  work: Memoirs of William Miller, generally known as a lecturer on the prophecies, and the second coming of Christ,
+  author: bliss
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - restorationist-apocalyptic-ferment-and-adventism
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1853
+    end: 1853
+    source: 'the printing''s own title page: OCR line 43, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1853
+    source: OCR line 43, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 172, William Miller: a Life told by a disciple.'

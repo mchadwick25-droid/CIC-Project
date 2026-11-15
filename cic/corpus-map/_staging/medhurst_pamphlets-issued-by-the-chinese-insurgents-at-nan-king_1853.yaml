@@ -1,0 +1,23 @@
+source_file: medhurst_pamphlets-issued-by-the-chinese-insurgents-at-nan-king_1853.txt
+assignments:
+- row_id: medhurst_pamphlets-issued-by-the-chinese-insurgents-at-nan-king_1853--pamphlets-issued-by-the-chinese-insurgents-at-nan-king-to
+  work: Pamphlets issued by the Chinese insurgents at Nan-king; to which is added a History of the Kwang-se
+  author: medhurst
+  locus: The Book of Religious Precepts at OCR lines 54-837; The Trimetrical Classic at OCR lines 843-1868; The
+    Book of Celestial Decrees and Declarations of the Imperial Will at OCR lines 1871-2719; add 12 to OCR line numbers;
+    the rest not mapped
+  atlas_ids:
+  - taiping-heavenly-kingdom
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1853
+    end: 1853
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n2; the OCR does not give it cleanly'
+    formation_confidence: Documented
+  edition_date:
+    year: 1853
+    source: read on the scan's page image, leaf n2; the OCR does not give it cleanly
+    formation_confidence: Documented
+  note: 'Era 9 row 185, Hong Xiuquan: the kingdom''s own printed books, in translation.'

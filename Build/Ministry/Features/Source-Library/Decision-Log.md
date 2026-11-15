@@ -682,3 +682,43 @@ the committed copy on `main`, so it is left to the pass that owns it).
 ### Next action
 
 Mark weighs the census-gap candidates (Open-Gaps 288) for future census entries.
+
+## Era 9, batch 1: the major figures (2026-11-15)
+
+Ninety-nine files for the 63 person rows marked major in the wanted list (rows 163-225). Record:
+`Build/Ministry/Operations/Audits/2026-11-15_library-era9/Search_Log.md`; the rows are in `CFT-Wants.md`,
+"Era 9 (1815-1906), batch 1".
+
+**Ruled by Mark during the batch (15 November, through the coordinator).**
+- On title pages that print no year, verbatim: "Copyright notice yes, preface with a check". A copyright notice
+  dated 1930 or earlier counts as the date. A dated preface counts only when the library catalogue's date
+  agrees. The header's rights line names the date used and where it stands. The rule is now in
+  `cic/texts/INTAKE.md`, section 2. Six files came in under it.
+- The wider rights rule of the same day (American books of 1931 to 1963 never renewed; United States
+  government works; owner-stated free texts) and the leave to strip the host's own additions at intake were
+  received during the batch and not used in it. They apply from the next batch.
+
+**Decided here.**
+- Every imprint was checked again by the Library thread after the searchers. Eighteen years were read on the
+  scan's page image; the leaf is named in each header.
+- Content notes say only what the file shows. The first review found details from outside the files in the
+  searchers' notes, so every note and locus of the batch was checked against its text by fresh checkers and
+  written again. Search narration stays in the search log.
+- Lives told by another are shelved as `context`; the person's own writings as `tradition`. A text written
+  outside its entry's window is `needs-ruling` on the nearest entry.
+- OCR that cannot be read is not taken, even where the imprint is good: Wichern's Denkschrift (1889),
+  Friedrich's Life of Dollinger, Dollinger's Briefe und Erklarungen, Khrimian's Armenian works, Waldenstrom in
+  Swedish. They are listed as located.
+- Ellis's History of Madagascar, vol. 2, prints no date of its own. It was taken on vol. 1's preface and the
+  catalogue's date, and its header says so.
+
+**Held for Mark.**
+- Os Sertoes, third edition (1905): the host record carries the Public Domain Mark, but the Brasiliana USP
+  notice inside the file asks for non-commercial use and no republication without leave.
+- The Doctrine and Covenants of 1852 (an Intellectual Reserve copyright line) and two Swedish printings of
+  Waldenstrom under NC licenses were not taken.
+
+### Next action
+
+Era 9, batch 2, in a fresh session: the person rows not marked major (226-330), the era 9 outside witnesses and
+council records, the held eras 8-9 items, and the texts of this batch still owed a date check.
