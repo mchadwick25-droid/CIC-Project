@@ -7,7 +7,7 @@ assignments:
   atlas_ids:
   - the-reveil-and-inner-mission-awakening
   role: tradition
-  confidence: needs-ruling
+  confidence: provisional
   language: deu
   date:
     start: 1886
@@ -18,4 +18,5 @@ assignments:
     year: 1886
     source: OCR line 201, on the title page
     formation_confidence: Documented
-  note: 'Era 9 row 223, the Fliedners: Kaiserswerth''s own jubilee memoir, in German.'
+  note: 'Era 9 row 223, the Fliedners: Kaiserswerth''s own jubilee memoir, in German. The house''s own memoir, printed
+    in 1886, six years after the entry''s window closes.'
