@@ -1,0 +1,13 @@
+source_file: rhodes_tunchinensis-historiae-libri-duo-lat_1652.txt
+assignments:
+- row_id: rhodes_tunchinensis-historiae-libri-duo-lat_1652--rhodes-tunchinensis-historiae-libri-duo
+  work: 'Rhodes, Tunchinensis historiae libri duo (Lyon 1652)'
+  author: rhodes
+  locus: 'Liber I at OCR lines 657-4425; Liber II at 4449-12679; add 12 to OCR line numbers'
+  atlas_ids:
+  - vietnamese-catholicism-to-1815
+  role: tradition
+  confidence: needs-ruling
+  language: lat
+  date: {start: 1651, end: 1652, source: "privilege dated Avignon, 1 May 1651 (about OCR line 636); title page 'M. DC. LII.'", formation_confidence: Documented}
+  note: 'The missionary''s Latin history of Tonkin and of its mission from 1627 to 1646. Before this entry''s window, so the shelf needs a ruling.'

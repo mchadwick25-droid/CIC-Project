@@ -1,0 +1,13 @@
+source_file: butcher_story-of-the-church-of-egypt-v2_1897.txt
+assignments:
+- row_id: butcher_story-of-the-church-of-egypt-v2_1897--butcher-story-of-the-church-of-egypt-vol-2-ottoman-years
+  work: 'Butcher, The Story of the Church of Egypt, vol. II: the Ottoman years, 1517-1854'
+  author: butcher
+  locus: 'chapters XXXII-XL at OCR lines 9081-15241; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-coptic-church-under-the-ottomans
+  role: context
+  confidence: provisional
+  language: eng
+  date: {start: 1897, end: 1897, source: "title page: 1897", formation_confidence: Documented}
+  note: 'An English writer''s history of the Copts down to 1897. A secondary account by an outsider.'

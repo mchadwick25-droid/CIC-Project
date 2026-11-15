@@ -1,0 +1,13 @@
+source_file: vansleb_nouvelle-relation-d-un-voyage-fait-en-egypte-fra_1677.txt
+assignments:
+- row_id: vansleb_nouvelle-relation-d-un-voyage-fait-en-egypte-fra_1677--vansleb-nouvelle-relation-voyage-en-egypte
+  work: 'Vansleb, Nouvelle relation d''un voyage fait en Égypte (1677)'
+  author: vansleb
+  locus: 'the journal at OCR lines 379-17991; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-coptic-church-under-the-ottomans
+  role: context
+  confidence: provisional
+  language: fra
+  date: {start: 1671, end: 1677, source: "the journal opens 'le 8 de May 1671' (OCR line 389-390); title page 'M. DC. LXXVII.'", formation_confidence: Documented}
+  note: 'The Dominican''s travel journal of 1672-1673, with visits to Coptic churches and desert monasteries. An outside witness.'

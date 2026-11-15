@@ -174,6 +174,38 @@ works:
     it held, printed with the sermon; the author slug follows the file, the abstract is the
     Society's.
   source_file: moss_sermon-before-the-spg-1772_1772.txt
+- row_id: pascoe_two-hundred-years-of-the-spg-v1_1901--pascoe-spg-west-africa-thompson-and-quaque
+  work: 'Pascoe, Two Hundred Years of the S.P.G., vol. I: West Africa (Thompson and Philip
+    Quaque)'
+  author: pascoe
+  locus: chapter XXXV at OCR lines 25566-26626; Quaque at about 25620-25860; add 12 to OCR
+    line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1901
+    end: 1901
+    source: 'title page: 1901'
+    formation_confidence: Documented
+  note: The Society's own digest of its records on the West African mission from 1751. Written
+    in 1901; Quaque's words appear only as the digest quotes them.
+  source_file: pascoe_two-hundred-years-of-the-spg-v1_1901.txt
+- row_id: pascoe_two-hundred-years-of-the-spg-v1_1901--pascoe-spg-north-american-colonies
+  work: 'Pascoe, Two Hundred Years of the S.P.G., vol. I: the older North American colonies'
+  author: pascoe
+  locus: chapters II-XII at OCR lines 5444-10688; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1901
+    end: 1901
+    source: 'title page: 1901'
+    formation_confidence: Documented
+  note: The Society's digest of its colonial missions, colony by colony. A later summary by
+    the Society's secretary.
+  source_file: pascoe_two-hundred-years-of-the-spg-v1_1901.txt
 - row_id: rimius_candid-narrative-of-the-herrnhuters_1753--a-candid-narrative-of-the-rise-and-progress-of-the-2
   work: A Candid Narrative of the Rise and Progress of the Herrnhuters (1753)
   author: rimius

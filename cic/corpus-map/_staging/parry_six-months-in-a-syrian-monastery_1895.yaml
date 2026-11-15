@@ -1,0 +1,13 @@
+source_file: parry_six-months-in-a-syrian-monastery_1895.txt
+assignments:
+- row_id: parry_six-months-in-a-syrian-monastery_1895--parry-six-months-in-a-syrian-monastery
+  work: 'Parry, Six Months in a Syrian Monastery (1895)'
+  author: parry
+  locus: 'Part II, The Old Syrian Church, at OCR lines 15713-20020; Part I at 1177-15712; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-sayfo-and-the-syriac-diaspora
+  role: context
+  confidence: needs-ruling
+  language: eng
+  date: {start: 1895, end: 1895, source: "title page 1895; the prefatory note is dated December 1894 (OCR lines 419-702); the year of the visit was not read in the text", formation_confidence: Documented}
+  note: 'An English visitor''s account of the Syriac Orthodox patriarchate at Deir el-Za''faran, with a sketch of its modern history. The census has no entry for this church between 1650 and 1906, so the shelf is the nearest later one and needs a ruling.'

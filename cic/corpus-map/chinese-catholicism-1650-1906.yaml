@@ -3,6 +3,25 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: chinese-catholicism-1650-1906
 works:
+- row_id: historia-cultus-sinensium_varia-scripta-de-cultibus-sinarum-lat_1700--historia-cultus-sinensium-the-collection
+  work: 'Historia cultus Sinensium: the vicars apostolic''s case against the Chinese rites
+    (Cologne 1700)'
+  author: charmot
+  locus: the Historia at OCR lines 254-7940; Charmot's Notationes at 8194-13133; the Jesuit
+    observations at 27431-32074; add 12 to OCR line numbers
+  role: tradition
+  confidence: needs-ruling
+  language: lat
+  date:
+    start: 1698
+    end: 1700
+    source: Charmot's notes are dated 29 July 1698 and 7 October 1698 (OCR lines 120-170,
+      8194); title page 'M. DCC.'
+    formation_confidence: Documented
+  note: The case of the French vicars apostolic against the Jesuits on the Chinese rites,
+    as laid before Innocent XII, with Jesuit writings in an appendix. Several voices; each
+    piece must be cited by its own author.
+  source_file: historia-cultus-sinensium_varia-scripta-de-cultibus-sinarum-lat_1700.txt
 - row_id: launay_histoire-des-missions-de-chine-kouy-tcheou-t1-fra_1907--histoire-des-missions-de-chine-kouy-tcheou-tome-i-launay-1907
   work: 'Histoire des missions de Chine: Kouy-tcheou, tome I (Launay, 1907)'
   author: launay
@@ -12,6 +31,37 @@ works:
   note: A missionary society's history of a Chinese mission, naming its Chinese priests; an
     outsider's account written in 1907, just after this entry's window.
   source_file: launay_histoire-des-missions-de-chine-kouy-tcheou-t1-fra_1907.txt
+- row_id: launay_histoire-generale-de-la-societe-des-missions-etrangeres-t1-fra_1894--launay-histoire-generale-missions-etrangeres-tome-1-1658-1754
+  work: 'Launay, Histoire générale de la Société des Missions-Étrangères, tome I: 1658-1754'
+  author: launay
+  locus: chapters at OCR lines 619-49946; the synod of Tonkin at 12409-12420; Maigrot's Mandate
+    at 34849-35382; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: fra
+  date:
+    start: 1894
+    end: 1894
+    source: 'title page: 1894'
+    formation_confidence: Documented
+  note: A member of the Society tells its history from 1658 to 1754. Written in 1894; the
+    founders speak only in the letters he quotes.
+  source_file: launay_histoire-generale-de-la-societe-des-missions-etrangeres-t1-fra_1894.txt
+- row_id: launay_histoire-generale-de-la-societe-des-missions-etrangeres-t2-fra_1894--launay-histoire-generale-missions-etrangeres-tome-2-1754-1836
+  work: 'Launay, Histoire générale de la Société des Missions-Étrangères, tome II: 1754-1836'
+  author: launay
+  locus: chapters I-IX (1754-1815) at OCR lines 68-39800; chapters X-XII at 39801-50731; add
+    12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: fra
+  date:
+    start: 1894
+    end: 1894
+    source: 'title page: 1894'
+    formation_confidence: Documented
+  note: The Society's history from 1754 to 1836. A later account from the mission's side.
+  source_file: launay_histoire-generale-de-la-societe-des-missions-etrangeres-t2-fra_1894.txt
 - row_id: lettres-edifiantes_memoires-de-la-chine-t19-fra_1781--lettres-edifiantes-et-curieuses-memoires-de-la-chine-tome-19
   work: 'Lettres edifiantes et curieuses: Memoires de la Chine, tome 19'
   author: lettres-edifiantes
@@ -39,6 +89,41 @@ works:
   note: The Jesuits' own letters from the China mission in the eighteenth century. Within
     the windows of the Jesuit entry (1650-1814) and the Chinese Catholic entry (1650-1906).
   source_file: lettres-edifiantes_memoires-de-la-chine-t22-fra_1781.txt
+- row_id: historia-cultus-sinensium_varia-scripta-de-cultibus-sinarum-lat_1700--maigrot-mandatum-provisionale-1693
+  work: Charles Maigrot, Declaratio seu Mandatum provisionale (26 March 1693), Latin (Cologne
+    1700)
+  author: maigrot
+  locus: OCR lines 15623-15921; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: lat
+  date:
+    start: 1693
+    end: 1693
+    source: the Mandate's date line, 'die vigesima sexta mensis Martii anni Domini' (about
+      OCR lines 15914-15918); the year is garbled there and is read 1693 from the later piece
+      in the same volume dated 'decima Novembris 1693' (18817) and from Launay
+    formation_confidence: Documented
+  note: The vicar apostolic of Fujian's provisional ruling for the priests of his vicariate
+    on the disputed Chinese rites. His own text, printed in 1700.
+  source_file: historia-cultus-sinensium_varia-scripta-de-cultibus-sinarum-lat_1700.txt
+- row_id: pallu_relation-abregee-des-missions-et-des-voyages-des-evesques-francois-fra_1682--pallu-relation-abregee-des-missions
+  work: Pallu, Relation abrégée des missions et des voyages des évesques françois (Paris 1682)
+  author: pallu
+  locus: the Relation at OCR lines 197-2429; the dedication at 74-157; add 12 to OCR line
+    numbers
+  role: tradition
+  confidence: provisional
+  language: fra
+  date:
+    start: 1668
+    end: 1682
+    source: the dedication is dated 'ce mois d'Avril 1668' (OCR line 156); title page 'M.
+      DC. LXXXII.'
+    formation_confidence: Documented
+  note: The bishop of Heliopolis reports to the clergy of France on the missions and journeys
+    of the French bishops sent to China, Cochinchina, Tonkin and Siam. His own voice.
+  source_file: pallu_relation-abregee-des-missions-et-des-voyages-des-evesques-francois-fra_1682.txt
 - row_id: propaganda-fide_collectanea-decreta-instructiones-rescripta-v1-lat_1907--chinese-catholicism-1650-1906-context
   work: Collectanea S. Congregationis de Propaganda Fide, vol. I (1907)
   author: propaganda-fide

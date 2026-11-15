@@ -1,0 +1,28 @@
+source_file: gobat_journal-of-a-three-years-residence-in-abyssinia_1834.txt
+assignments:
+- row_id: gobat_journal-of-a-three-years-residence-in-abyssinia_1834--gobat-journal-of-a-three-years-residence-in-abyssinia
+  work: 'Gobat, Journal of a Three Years'' Residence in Abyssinia (1834)'
+  author: gobat
+  locus: 'the journal at OCR lines 2823-13762, the general remarks at 13763-15178; add 12 to OCR line numbers'
+  atlas_ids:
+  - ethiopian-christianity-gondar-to-the-zemene-mesafint
+  role: context
+  confidence: provisional
+  language: eng
+  date: {start: 1830, end: 1834, source: "the journal opens 'Feb. 25, 1830' (about OCR line 2830); title page 1834", formation_confidence: Documented}
+  note: 'A missionary of the Church Missionary Society keeps a journal of his stay in Abyssinia from 1830. An outside witness.'
+- row_id: gobat_journal-of-a-three-years-residence-in-abyssinia_1834--lee-brief-history-of-the-church-of-abyssinia
+  work: 'Samuel Lee, A Brief History of the Church of Abyssinia (in Gobat 1834)'
+  author: lee-samuel
+  locus: 'OCR lines 663-2822; add 12 to OCR line numbers'
+  atlas_ids:
+  - ethiopian-christianity-gondar-to-the-zemene-mesafint
+  role: context
+  confidence: needs-ruling
+  language: eng
+  date: {start: 1834, end: 1834, source: "title page: 1834", formation_confidence: Documented}
+  note: 'Professor Lee''s short history, which quotes older authorities. Secondary, and not Gobat''s voice.'
+authors_ruled:
+  lee-samuel:
+    kind: metadata-omission
+    evidence: "The title page (file lines 60-112) reads 'to which is prefixed, A Brief History of the Church of Abyssinia, by the Rev. Professor Lee, D.D.'; the history stands at file lines 675-2834."

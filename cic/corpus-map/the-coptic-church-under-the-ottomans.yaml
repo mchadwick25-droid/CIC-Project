@@ -3,6 +3,35 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-coptic-church-under-the-ottomans
 works:
+- row_id: butcher_story-of-the-church-of-egypt-v2_1897--butcher-story-of-the-church-of-egypt-vol-2-ottoman-years
+  work: 'Butcher, The Story of the Church of Egypt, vol. II: the Ottoman years, 1517-1854'
+  author: butcher
+  locus: chapters XXXII-XL at OCR lines 9081-15241; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1897
+    end: 1897
+    source: 'title page: 1897'
+    formation_confidence: Documented
+  note: An English writer's history of the Copts down to 1897. A secondary account by an outsider.
+  source_file: butcher_story-of-the-church-of-egypt-v2_1897.txt
+- row_id: jabarti_merveilles-biographiques-et-historiques-t5-fra_1890--jabarti-chronicle-1202-1212-french-with-obituary-of-ibrahim-al-jawhari
+  work: al-Jabarti, Aja'ib al-athar, the years 1202-1212 AH, French (Cairo 1890), with the
+    obituary of Ibrahim al-Jawhari
+  author: jabarti
+  locus: the volume at OCR lines 92-10498; the obituary at 9397-9428; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: fra
+  date:
+    formation_confidence: unknown
+    checked: the title page (OCR lines 22-61) and the year headings give the years narrated
+      (1202-1212 AH), not a year of writing; the volume has no preface
+  note: A Muslim scholar of Cairo gives the obituary of the leading Coptic official of his
+    day. An outside witness from the Muslim majority, in French translation.
+  source_file: jabarti_merveilles-biographiques-et-historiques-t5-fra_1890.txt
 - row_id: leo-africanus_history-and-description-of-africa-v1_pory-brown1896--leo-africanus-history-and-description-of-africa-volume-1-pory-ed-brown
   work: Leo Africanus, History and Description of Africa, volume 1 (Pory, ed. Brown)
   author: leo-africanus
@@ -30,3 +59,50 @@ works:
   note: A Moor baptised as Giovanni Leone, by the title page, describing Africa, in the English
     of 1600; an outside witness.
   source_file: leo-africanus_history-and-description-of-africa-v3_pory-brown1896.txt
+- row_id: vansleb_histoire-de-l-eglise-d-alexandrie-fra_1677--vansleb-histoire-de-l-eglise-d-alexandrie
+  work: Vansleb, Histoire de l'Église d'Alexandrie (1677)
+  author: vansleb
+  locus: parts I-VII at OCR lines 1202-16316; the catalog of patriarchs at 14095-15435; add
+    12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: fra
+  date:
+    start: 1672
+    end: 1677
+    source: 'title page: ''Écrite au Caire même, en 1672 et 1673'' and ''M. DC. LXXVII.'''
+    formation_confidence: Documented
+  note: A Dominican who lived in Cairo in 1672-1673 describes the Coptic church from its own
+    Arabic books and from what he saw. A Catholic outsider's digest; the Arabic sources are
+    his to report.
+  source_file: vansleb_histoire-de-l-eglise-d-alexandrie-fra_1677.txt
+- row_id: vansleb_nouvelle-relation-d-un-voyage-fait-en-egypte-fra_1677--vansleb-nouvelle-relation-voyage-en-egypte
+  work: Vansleb, Nouvelle relation d'un voyage fait en Égypte (1677)
+  author: vansleb
+  locus: the journal at OCR lines 379-17991; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: fra
+  date:
+    start: 1671
+    end: 1677
+    source: the journal opens 'le 8 de May 1671' (OCR line 389-390); title page 'M. DC. LXXVII.'
+    formation_confidence: Documented
+  note: The Dominican's travel journal of 1672-1673, with visits to Coptic churches and desert
+    monasteries. An outside witness.
+  source_file: vansleb_nouvelle-relation-d-un-voyage-fait-en-egypte-fra_1677.txt
+- row_id: vansleb_present-state-of-egypt_1678--vansleb-present-state-of-egypt-english-1678
+  work: Vansleb, The Present State of Egypt, English (1678)
+  author: vansleb
+  locus: the journal at OCR lines 139-11188; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1671
+    end: 1678
+    source: the journal opens 'In the Year 1671' (OCR line 151); title page 1678
+    formation_confidence: Documented
+  note: The English translation of the travel journal, printed a year after the French. An
+    outside witness; the translator signs only with initials.
+  source_file: vansleb_present-state-of-egypt_1678.txt

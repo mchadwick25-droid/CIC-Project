@@ -1,0 +1,24 @@
+source_file: proyart_histoire-de-loango-kakongo-et-autres-royaumes-d-afrique-fra_1776.txt
+assignments:
+- row_id: proyart_histoire-de-loango-kakongo-et-autres-royaumes-d-afrique-fra_1776--proyart-histoire-de-loango-part-2-the-french-mission
+  work: 'Proyart, Histoire de Loango, Kakongo: part 2, the French mission (1776)'
+  author: proyart
+  locus: 'part 2 at OCR lines 7242-13287; add 12 to OCR line numbers'
+  atlas_ids:
+  - kongo-christianity-after-1650
+  role: context
+  confidence: provisional
+  language: fra
+  date: {start: 1776, end: 1776, source: "title page: 'M. DCC. LXXVI.'; approbation of 26 May 1770 at OCR line 13573", formation_confidence: Documented}
+  note: 'A French priest''s history of the French mission to Loango and Kakongo, drawn up from the prefects'' memoirs. A mission''s view, not a Kongolese voice.'
+- row_id: proyart_histoire-de-loango-kakongo-et-autres-royaumes-d-afrique-fra_1776--proyart-histoire-de-loango-part-1-the-country
+  work: 'Proyart, Histoire de Loango, Kakongo: part 1, the country and people (1776)'
+  author: proyart
+  locus: 'part 1 at OCR lines 134-7224; add 12 to OCR line numbers'
+  atlas_ids:
+  - kongo-christianity-after-1650
+  role: context
+  confidence: needs-ruling
+  language: fra
+  date: {start: 1776, end: 1776, source: "title page: 'M. DCC. LXXVI.'", formation_confidence: Documented}
+  note: 'The description of the kingdoms and their people, as the missionaries reported them.'

@@ -847,6 +847,11 @@ authors:
 
       '
     from_file: jones-thomas_cofiant-thomas-charles-cym_1816.txt
+  charmot:
+    kind: metadata-omission
+    evidence: The notes on the Jesuits' observations on the Mandate are headed 'a Nicolao
+      Charmot' (file lines 134-145); the title page names no author.
+    from_file: historia-cultus-sinensium_varia-scripta-de-cultibus-sinarum-lat_1700.txt
   chirino:
     kind: metadata-omission
     evidence: The volume's own contents list reads 'Relacion de las Islas Filipinas (to be
@@ -1369,6 +1374,11 @@ authors:
 
       '
     from_file: epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt
+  ethiopian-royal-chronicles:
+    kind: anonymous
+    evidence: The title page (file lines 133-177) names the kings whose annals these are and
+      Ignazio Guidi as editor; it names no author.
+    from_file: annales-regum-iyasu-ii-et-iyoas_textus-gez_guidi1910.txt
   ethiopian-synaxarium:
     kind: anonymous
     evidence: 'The Ethiopic Synaxarium (Mashafa Senkesar) is an anonymous liturgical compilation,
@@ -2134,6 +2144,12 @@ authors:
 
       '
     from_file: john-biclaro-leander-pl72-lat_migne1878.txt
+  lee-samuel:
+    kind: metadata-omission
+    evidence: The title page (file lines 60-112) reads 'to which is prefixed, A Brief History
+      of the Church of Abyssinia, by the Rev. Professor Lee, D.D.'; the history stands at
+      file lines 675-2834.
+    from_file: gobat_journal-of-a-three-years-residence-in-abyssinia_1834.txt
   leonard-of-chios:
     kind: metadata-omission
     evidence: The title page of tomus CLIX names 'Leonardi Chiensis Mitylenaei archiepiscopi';
@@ -2314,6 +2330,12 @@ authors:
 
       '
     from_file: maclean-browne_catholicos-of-the-east-and-his-people_1892.txt
+  maigrot:
+    kind: metadata-omission
+    evidence: The Mandate is headed with his name (file lines 15645-15657, 'Carolus Maigrot
+      Sacerdos Vicarius Apostolicus Fokiensis') and signed 'Carolus Maigrot' at file line
+      15932.
+    from_file: historia-cultus-sinensium_varia-scripta-de-cultibus-sinarum-lat_1700.txt
   makraios:
     kind: metadata-omission
     evidence: 'The title page names ''Sergios Makraios''; the section heading ''SERGIOU MAKRAIOU
