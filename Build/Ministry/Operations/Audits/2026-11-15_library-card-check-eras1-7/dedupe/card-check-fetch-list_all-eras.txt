@@ -1,0 +1,1505 @@
+Texts to fetch, by era
+For the Library threads. Grouped by era, then by tradition and region. 897 texts are named. Each one was searched for in the held files first, and 82 were dropped because a held file already matches. Every title here was named from memory by a worker unless the Status column says it was confirmed on the web, so check that a text exists before you hunt for it. Where a card needs several texts, each is listed with the cards that rely on it.
+Era 0: Era 0 5
+Council of Basel–Ferrara–Florence · 
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Russian chronicle account of Isidore's return to Moscow, 1441 (Sophia First Chronicle or Moscow chronicle compilation, 15th c.) | Council of Basel–Ferrara–Florence | Named from memory, not confirmed | 
+Diet of Worms · 
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Luther, Wartburg letters May 1521 (unheld) | Diet of Worms | Named from memory, not confirmed | 
+Synod of Chanforan · 
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Morel manuscript of the Chanforan propositions, Dublin, c.1532 | Synod of Chanforan | Named from memory, not confirmed | 
+Olivetan Bible (Neuchatel, 1535) preface and apology | Synod of Chanforan | Named from memory, not confirmed | 
+Olivetan Bible 1535 front matter | Synod of Chanforan | Named from memory, not confirmed | 
+Era 1: The Early Church Era 11
+The Church of Roman Palestine before Constantine · Caesarea Maritima, Jerusalem, Emmaus
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Sources Chretiennes 302) | Africanus Tells Origen the Susanna Story Is Not Genuine | Named from memory, not confirmed | 
+Bardaisan and the Bardaisanites · Edessa and Osrhoene
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Cureton, Spicilegium Syriacum (1855) / Drijvers 1965 | Bardaisan and the Bardaisanites | Named from memory, not confirmed | 
+Ephrem, Hymns against Heresies (Beck ed.) | Bardaisan and the Bardaisanites | Named from memory, not confirmed | 
+Manichaeism · Persia to the Mediterranean
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Cologne Mani Codex | Manichaeism | Named from memory, not confirmed | 
+Cologne Mani Codex (Henrichs-Koenen ed.) | Manichaeism | Named from memory, not confirmed | 
+Coptic Manichaean Homilies (Polotsky 1934) | Manichaeism | Named from memory, not confirmed | 
+Kephalaia (Coptic, 4th c.) | Manichaeism | Named from memory, not confirmed | 
+Latin Christianity in the Danubian Provinces · Poetovio and Sirmium in Pannonia; Noricum, Dalmatia, Moesia
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Gesta Concilii Aquileiensis, 381, Latin (CSEL 82/3) | Palladius Asks Where the Other Bishops Are | Named from memory, not confirmed | 
+Palladius's Apologia, c.382, Latin | Palladius Asks Where the Other Bishops Are | Named from memory, not confirmed | 
+Victorinus, Commentarius in Apocalypsin, CSEL 49 (Haussleiter 1916) with Jerome's recension and prologue | Latin Christianity in the Danubian Provinces | Named from memory, not confirmed | 
+The Roman Church in the Third Century · Rome
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Chronograph of 354 (Liberian Catalogue and Depositio martyrum), 354, Latin | Callistus, as His Enemy Told It | Named from memory, not confirmed | 
+Era 2: The Imperial Church Era 8
+Aksumite Christianity (conversion era) · Aksum (Ethiopia/Eritrea)
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Ezana inscription RIE 271 (c.350) and Munro-Hay coin catalogue | Aksumite Christianity (conversion era) | Named from memory, not confirmed | 
+Antiochene Exegetical Christianity (Chrysostom-centered) · Antioch
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Harkins tr. FC 68) | The Eight Sermons Against the Judaisers | Named from memory, not confirmed | 
+same text | The Eight Sermons Against the Judaisers | Named from memory, not confirmed | 
+Anomoean (Eunomian) Christianity · Antioch, Cyzicus, Constantinople, Cappadocia
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Philostorgius HE, ed. Bidez (GCS 21), c.430 | Aetius the Goldsmith, in Two Biographies | Named from memory, not confirmed | 
+The Church of Aquileia · Aquileia and Concordia, at the head of the Adriatic
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Jerome, In Hiezechielem III prol. (PL 25 / CCSL 75), c.411 | Rufinus Translates Origen While Reggio Burns Across the Strait | Named from memory, not confirmed | 
+Jerome, Letter 3 (c.374) | Aquileian Christianity | Named from memory, not confirmed | 
+Desert Monasticism · Nile Valley & Desert, Egypt
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Vita prima Graeca / Bohairic Life of Pachomius, c.390-400 | Desert Monasticism | Named from memory, not confirmed | 
+Hieronymian Ascetic-Literary Christianity · Rome & Bethlehem
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Innocent I to John of Jerusalem (417), Jerome Ep. 136 appendix | Hieronymian Ascetic-Literary | Named from memory, not confirmed | 
+Era 3: The Age of Monks and Empires 15
+Armenian Christianity after Avarayr · Armenia
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Girk' T'lt'oc' / Garsoian CSCO 574 excerpts, c.554-607 (unheld) | Armenian Christianity after Avarayr | Named from memory, not confirmed | 
+Lazar P'arpec'i, History of the Armenians (c.500), tr. Thomson 1991 | The Priests Who Were Marched East | Named from memory, not confirmed | 
+Latin African Christianity under Byzantium · Carthage and Byzantine North Africa
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Chronicle of 741 / Baladhuri Ifriqiya chapter (unheld or not located) | Latin African Christianity under Byzantium | Named from memory, not confirmed | 
+Georgian Christianity · Caucasus
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Girk' T'lt'oc' (Book of Letters), Kyrion-Abraham letters | Kyrion Answers the Armenians | Named from memory, not confirmed | 
+Girk' T'lt'oc' / Garsoian CSCO 574 (unheld) | Georgian Christianity | Named from memory, not confirmed | 
+Iakob Tsurtaveli, Martyrdom of Shushanik (Georgian, 5th c. | The Chaplain Watches the Queen Beaten | Named from memory, not confirmed | 
+Iakob Tsurtaveli, Martyrdom of Shushanik (c.476-484), English trans. in Lang, Lives and Legends of the Georgian Saints (1956) or Rayfield | Georgian Christianity | Named from memory, not confirmed | 
+Rapp tr.) | The Chaplain Watches the Queen Beaten | Named from memory, not confirmed | 
+Tarchnishvili, Le Grand Lectionnaire de l'Eglise de Jerusalem (CSCO 1959-60) | Georgian Christianity | Named from memory, not confirmed | 
+The Byzantine Imperial Church (Justinianic) · Constantinople, Anatolia, the imperial Mediterranean
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Vigilius, Encyclica ad universam ecclesiam (552), Mansi IX | The Pope Clings to the Altar Columns | Named from memory, not confirmed | 
+Council of Dvin · Dvin, chief city of Persian Armenia
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Book of Letters (Girk' T'ghtots', Armenian, letters of the catholicoi incl. Abraham and Kyrion, c.607; compiled 7th-8th c.) | Council of Dvin | Named from memory, not confirmed | 
+Nicene Visigothic Iberia · Iberia (Toledo, Seville)
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Chronicle of 754 (Continuatio Hispana), c.754 | Nicene Visigothic Iberia | Named from memory, not confirmed | 
+Nubian Christianity · Nile Sudan (Makuria, Nobadia)
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Ibn Abd al-Hakam, Futuh Misr (c.870) Nubia chapter (unheld) | Nubian Christianity | Named from memory, not confirmed | 
+Chalcedonian Monasticism - Judean Desert & Gaza · Palestine, Sinai
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Barsanuphius and John, Letters (Greek | 'I Carry Half Your Burden' | Named from memory, not confirmed | 
+Chryssavgis tr. FOC 113) | 'I Carry Half Your Burden' | Named from memory, not confirmed | 
+Era 4: The Early Medieval Era 22
+Bogomils · Bulgaria, Balkans
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Cosmas the Priest, Sermon against the Heretics, English translation (c.972) | Bogomils | Named from memory, not confirmed | 
+Cluniac Reform Monasticism · Burgundy, then Europe
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Customary of Ulrich of Zell (c.1080) | Cluniac Reform Monasticism | Named from memory, not confirmed | 
+The Byzantine Imperial Church (Heraclian & Iconoclast Eras) · Constantinople, Anatolia, the Greek East
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Chronicon Paschale, English trans. Whitby | Byzantine Imperial Church (Heraclian-Iconoclast) | Named from memory, not confirmed | 
+Martin I, Letters (Latin, PL 87) c.655, and the Commemoratio of the trial (Mansi 10) | Pope Martin Writes from the Crimea | Named from memory, not confirmed | 
+Scandinavian Conversion Christianity · Denmark, Norway, Sweden, Iceland
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Bull of Paschal II, 1103/1104 | Scandinavian Conversion Christianity | Named from memory, not confirmed | 
+Jelling stone inscription, edition (DR 42) | Scandinavian Conversion Christianity | Named from memory, not confirmed | 
+Coptic Christianity under Early Islam · Egypt
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Apocalypse of Pseudo-Samuel of Qalamun, Arabic with French tr., Ziadeh, Revue de l'Orient chretien 20 (1915-17); text c.8th-10th c. | The Lament Over the Lost Language | Named from memory, not confirmed | 
+Yahya of Antioch, Continuation of Eutychius | Coptic Christianity under Early Islam | Named from memory, not confirmed | 
+Late Anglo-Saxon Christianity · England
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Sermo Lupi, ed. Whitelock | Late Anglo-Saxon Christianity | Named from memory, not confirmed | 
+Post-Aksumite Ethiopian Christianity · Ethiopian highlands
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Aksumite coin sequence | Post-Aksumite Ethiopian Christianity | Named from memory, not confirmed | 
+History of the Patriarchs | Post-Aksumite Ethiopian Christianity | Named from memory, not confirmed | 
+Carolingian Reform Christianity · Francia
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Admonitio generalis, MGH Capitularia 1 (789) | Carolingian Reform Christianity | Named from memory, not confirmed | 
+Syriac Orthodox Christianity under Islam · Jazira, Syria, Tagrit; Deir al-Surian (Egypt)
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Chronicle of 1234, trans. Palmer/Hoyland | Syriac Orthodox under Islam | Named from memory, not confirmed | 
+Deir al-Surian manuscripts | Syriac Orthodox under Islam | Named from memory, not confirmed | 
+Makurian Nubian Christianity · Makuria (Dongola, Faras, Qasr Ibrim)
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Faras excavation report | Makurian Nubian Christianity | Named from memory, not confirmed | 
+St. Thomas Christians of India · Malabar Coast
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Kerala Pahlavi cross inscriptions, edition | St Thomas Christians of India | Named from memory, not confirmed | 
+Kollam (Tharisappalli) copper plates, Old Malayalam, c.849 CE; e.g. Gundert (Madras Journal 1844) / Burnell (Indian Antiquary 1874) / Narayanan | Who Signed the Kollam Plates | Named from memory, not confirmed | 
+Kollam copper plates, text and translation (c.849) | St Thomas Christians of India | Named from memory, not confirmed | 
+Cyrillo-Methodian Slavic Christianity · Moravia, Bulgaria, Ohrid
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Hrabar, On the Letters (c.900), English translation | Cyrillo-Methodian Slavic Christianity | Named from memory, not confirmed | 
+The Church of the East on the Silk Road · Persia, Central Asia, Tang China
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Dunhuang Jingjiao texts translation (Nicolini-Zani 2022) | The Church of the East on the Silk Road | Named from memory, not confirmed | 
+Jiu Tang shu (c.945) / Wuzong edict, 845 | The Church of the East on the Silk Road | Named from memory, not confirmed | 
+Xi'an Stele text/translation (781) - Saeki 1937 (archive.org) or Nicolini-Zani 2022 | The Church of the East on the Silk Road | Named from memory, not confirmed | 
+Era 5: The High Medieval Era 50
+Athonite & Comnenian Byzantine Monasticism · Athos, Constantinople
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Niketas Stethatos, Life of Symeon the New Theologian (Hausherr, Orientalia Christiana 12, 1928) | Symeon Is Sent Across the Bosporus for Loving His Teacher Too Much | Named from memory, not confirmed | 
+Niketas Stethatos, Vita of Symeon the New Theologian (c.1054) | Athonite & Comnenian Byzantine Monasticism | Named from memory, not confirmed | 
+Vita of Athanasios the Athonite (Vita A, c.1000) and Typikon of Athanasios (c.973) | Athonite & Comnenian Byzantine Monasticism | Named from memory, not confirmed | 
+Serbian & Bulgarian Medieval Monasticism · Balkans (Hilandar, Studenica, Tarnovo, Rila)
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Popruzhenko, Synodik Tsaria Borila, 1928 | Tsar Boril Convenes a Synod Against the Bogomils | Named from memory, not confirmed | 
+Sava, Zhitije Svetoga Simeona (Stefan Nemanja), c.1208 | Sava Lays His Father on a Mat | Named from memory, not confirmed | 
+Cistercian Monasticism · Burgundy, then Europe
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Canivez, Statuta Capitulorum Generalium O.Cist. vol. 1 (original statutes from 1134) | The Lay Brothers of Schönau Refuse to Work | Named from memory, not confirmed | 
+Eberbach Exordium magnum (unheld) | The Lay Brothers of Schönau Refuse to Work | Named from memory, not confirmed | 
+Ephraim of Bonn, Book of Memory (c.1196) | Bernard Rides to the Rhineland to Stop Radulf | Named from memory, not confirmed | 
+Otto of Freising Gesta Friderici (MGH SRG 46, c.1157) | Bernard Rides to the Rhineland to Stop Radulf | Named from memory, not confirmed | 
+Statuta Cap. Gen. 1206, 1261 | The Lay Brothers of Schönau Refuse to Work | Named from memory, not confirmed | 
+Carthusian Life · Chartreuse, then Europe
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Chronica Cartusiae (12th c.) | Carthusian Life | Named from memory, not confirmed | 
+Guigo I, Consuetudines Cartusiae, PL 153 (c.1127) | Carthusian Life | Named from memory, not confirmed | 
+Guigo I, Vita S. Hugonis Gratianopolitani (c.1135) | Carthusian Life | Named from memory, not confirmed | 
+Armenian Christianity in Cilicia · Cilicia (Sis, Hromkla)
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Kirakos of Gandzak, History (c.1260) | Armenian Christianity in Cilicia | Named from memory, not confirmed | 
+Nerses Shnorhali, Letters (Venice 1865 | Nerses Tells the Emperor What Armenians Will Not Do | Named from memory, not confirmed | 
+Nerses Shnorhali, Letters on church union (c.1166) | Armenian Christianity in Cilicia | Named from memory, not confirmed | 
+Rapp translations) | Nerses Tells the Emperor What Armenians Will Not Do | Named from memory, not confirmed | 
+Smbat Sparapet, Chronicle (c.1270) | Armenian Christianity in Cilicia | Named from memory, not confirmed | 
+Balkan Bogomilism, 1054-1300 · Constantinople, Thrace, Macedonia, Bulgaria
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Synodikon of Tsar Boril (1211) | Balkan Bogomilism, 1054-1300 | Named from memory, not confirmed | 
+The Byzantine Church after the Schism · Constantinople; Nicaea (1204-1261)
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Choniates, Historia (van Dieten CFHB 11, 1975), De rebus a Constantinopoli gestis | Niketas Choniates Watches the Latins in Hagia Sophia | Named from memory, not confirmed | 
+Niketas Choniates, Historia (c.1215) | The Byzantine Church after the Schism | Named from memory, not confirmed | 
+Coptic Christianity, Fatimid to Mamluk · Egypt
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Al-Safi ibn al-Assal, Majmu al-qawanin (c.1239) | Coptic Christianity, Fatimid to Mamluk | Named from memory, not confirmed | 
+History of the Patriarchs of Alexandria, Cyril III section | Coptic Christianity, Fatimid to Mamluk | Named from memory, not confirmed | 
+The Georgian Golden Age · Georgia
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Ibn al-Azraq al-Fariqi (Minorsky/ Amedroz extracts) | David the Builder and the Muslims of Tbilisi | Named from memory, not confirmed | 
+The Syriac Renaissance · Jazira, Melitene, Mor Barsauma
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Bar Hebraeus, Book of Laughable Stories (c.1280) | The Syriac Renaissance | Named from memory, not confirmed | 
+The Latin Church of Outremer · Jerusalem, Antioch, Acre, Cyprus
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Albert of Aachen, Historia Ierosolimitana (c.1130) | The Latin Church of Outremer | Named from memory, not confirmed | 
+Continuation of William of Tyre, Eracles (c.1230) | The Latin Church of Outremer | Named from memory, not confirmed | 
+Kievan Rus' Christianity, 1054-1240 · Kyiv, Novgorod, Vladimir-Suzdal
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Hypatian Chronicle, entry 6748 (1240) | Kievan Rus' Christianity, 1054-1240 | Named from memory, not confirmed | 
+Cathars / Albigensians · Languedoc
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Duvernoy (ed.) Le registre d'inquisition de Jacques Fournier, 3 vols, 1965 | Pierre Maury Explains Himself to the Bishop | Named from memory, not confirmed | 
+Innocent III Register / PL 216 col. 139 (Arnaud Amaury letter) | Béziers: 'Kill Them All' | Named from memory, not confirmed | 
+Registre d'inquisition de Jacques Fournier (Duvernoy ed.) | Cathars / Albigensians | Named from memory, not confirmed | 
+Song of the Cathar Wars | Béziers: 'Kill Them All' | Named from memory, not confirmed | 
+William of Puylaurens, Chronica (c.1272) | Cathars / Albigensians | Named from memory, not confirmed | 
+Military-Religious Orders (Templars, Hospitallers) · Latin East, Iberia
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Chronique latine de Guillaume de Nangis et ses continuateurs (Geraud 1843) | Jacques de Molay Takes Back His Confession | Named from memory, not confirmed | 
+Delaville Le Roulx, Cartulaire general de l'Hopital, vol. 1 (no. 627) | White Bread for Our Lords the Sick | Named from memory, not confirmed | 
+Procès des Templiers, ed. Michelet 1841 | Military-Religious Orders (Templars, Hospitallers) | Named from memory, not confirmed | 
+Statutes of the Hospital of St John (1181) | Military-Religious Orders (Templars, Hospitallers) | Named from memory, not confirmed | 
+Vox in excelso (22 March 1312) | Military-Religious Orders (Templars, Hospitallers) | Named from memory, not confirmed | 
+The Humiliati · Lombardy
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Anonymous of Laon, Chronicon (c.1220) | The Humiliati | Named from memory, not confirmed | 
+Innocent III letters to the Humiliati (1201) | The Humiliati | Named from memory, not confirmed | 
+The Waldensians · Lyon, Alpine valleys
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Waldensian-Reformer correspondence 1530-32 (Herminjard ed.) | The Waldensians | Named from memory, not confirmed | 
+Walter Map, De nugis curialium (James/Brooke/Mynors, 1983) | Walter Map Makes Fun of the Poor Men of Lyon | Named from memory, not confirmed | 
+The Carmelites · Mount Carmel, then Europe
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Albert of Jerusalem, Formula of Life (c.1210) | The Carmelites | Named from memory, not confirmed | 
+Innocent IV, Quae honorem conditoris (1 Oct 1247) | The Carmelites | Named from memory, not confirmed | 
+Maronite Christianity · Mount Lebanon
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Pressutti Regesta) | What Rome Asked of the Maronites | Named from memory, not confirmed | 
+Canons Regular / Victorine School · Paris and beyond
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Hugh of St Victor, Didascalicon (PL 176, c.1127) | Canons Regular / Victorine School | Named from memory, not confirmed | 
+Richard of St Victor, Benjamin minor and Benjamin major (PL 196, c.1160s) | Canons Regular / Victorine School | Named from memory, not confirmed | 
+Thomas Gallus, Commentaries on Isaiah and Song of Songs (c.1230s) | Canons Regular / Victorine School | Named from memory, not confirmed | 
+'Free Spirit' Heresy · Rhineland, Low Countries
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Clementinae 5.3.3 Ad nostrum (1312/1317) | 'Free Spirit' Heresy | Named from memory, not confirmed | 
+The Latin Papal Church (Gregorian Reform to Innocent III) · Rome, Latin Christendom
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Caspar, Das Register Gregors VII (MGH Epp. sel. 2), IV.12 | Gregory VII Explains Canossa to the German Princes | Named from memory, not confirmed | 
+Era 6: The Late Medieval Era 38
+Hesychasm & the Palamite Synthesis · Athos, Thessalonica
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Palamas, Epistle to his church (1355), ed. Philippides/Georgiou; unheld in the form needed | Palamas Among the Turks | Named from memory, not confirmed | 
+The Latin Papal Church (Avignon to Fifth Lateran) · Avignon, Rome, Latin Christendom
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Paris de Grassis, Diarium, unheld | Julius II Rides Into Bologna | Named from memory, not confirmed | 
+Platina, Liber de vita Christi ac omnium pontificum (1479) | Latin Papal Church, Avignon to Lateran V | Named from memory, not confirmed | 
+Taborite Radicalism · Bohemia
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Old Czech Annals | Taborite Radicalism | Named from memory, not confirmed | 
+Piccolomini | Taborite Radicalism | Named from memory, not confirmed | 
+Piccolomini 1458 | Taborite Radicalism | Named from memory, not confirmed | 
+The Hussite & Bohemian Brethren Movement · Bohemia
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Compactata of Jihlava/Basel (1436), Palacky or Hofler ed. | Hussites and Bohemian Brethren | Named from memory, not confirmed | 
+Letters of Brother Gregory / early Unity documents (Goll, Quellen v1-2, held) | Hussites and Bohemian Brethren | Named from memory, not confirmed | 
+Luther letter to Spalatin 14 Feb 1520 (WA Br 1) | Hussites and Bohemian Brethren | Named from memory, not confirmed | 
+Armenian Christianity after the Kingdom (Sis to Etchmiadzin) · Cilicia (Sis), then Etchmiadzin
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Hakobyan, Colophons of Armenian MSS 15th c. | Armenian Cilicia After the Kingdom | Named from memory, not confirmed | 
+Tovma Metsobetsi, History, last part | Tovma Metsopetsi Brings the Catholicosate Home | Named from memory, not confirmed | 
+The Waldensians in the Alps · Cottian Alps (Piedmont/Dauphine), Provence, Apulia, Germany
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Bull Id nostri cordis (1487) | Waldensians in the Alps | Named from memory, not confirmed | 
+Grenoble restitution inquiry 1501-09, unheld | The Cave of the Val Louise | Named from memory, not confirmed | 
+Inquisition records of Albert de' Capitanei | Waldensians in the Alps | Named from memory, not confirmed | 
+Morel/Masson letters to Oecolampadius (1530) | Waldensians in the Alps | Named from memory, not confirmed | 
+Terminal Christian Nubia (Late Makuria and Dotawo) · Dongola, Qasr Ibrim, Gebel Adda
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Dongola throne-hall inscription, 1317 | Terminal Christian Nubia | Named from memory, not confirmed | 
+Qasr Ibrim Old Nubian document dated 1484 | Terminal Christian Nubia | Named from memory, not confirmed | 
+Lollardy · England
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Alnwick’s court-book, ed. Tanner, Heresy Trials in the Diocese of Norwich 1428-31 (Camden 4th ser. 20, 1977); unheld | What Hawisia Moone Was Made to Say | Named from memory, not confirmed | 
+The English Mystics and Devout · England
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Book of Margery Kempe (c.1436-38); modern editions in copyright, so check for a public-domain 1936/1940 text | The English Mystics and Devout | Named from memory, not confirmed | 
+Book of Margery Kempe, ed. Meech and Allen (EETS 212, 1940), c.1436-38 | Margery Kempe Before the Archbishop of York | Named from memory, not confirmed | 
+Hope Emily Allen announcements 1934-36 | The English Mystics and Devout | Named from memory, not confirmed | 
+The Franciscan Order — Spirituals Crisis to the Great Division · Italy, France, Spain, empire-wide
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Michael of Cesena's 1328 appeals | Franciscan Order, Era 6 | Named from memory, not confirmed | 
+Michael’s Appeal (1328); unheld | The Night the Minister General Left Avignon | Named from memory, not confirmed | 
+Ockham, Epistola ad fratres minores (1334) | The Night the Minister General Left Avignon | Named from memory, not confirmed | 
+Fraticelli (Spiritual Franciscan rigorists) · Italy, Provence
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Carcassonne record of 1325, unheld | Na Prous Boneta Tells the Inquisitor Who She Is | Named from memory, not confirmed | 
+Infessura, Diario della citta di Roma (c.1494) | Fraticelli and Spiritual Franciscans | Named from memory, not confirmed | 
+Observant Reform & Popular Preaching · Italy, Spain
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Breslau trial record and Capistrano letters (1453), ed. Hofer; unheld | Capistrano at Breslau | Named from memory, not confirmed | 
+Dlugosz Annales Book 12 (Latin, c.1480) | Observant Reform and Popular Preaching | Named from memory, not confirmed | 
+Monte di Pieta statutes (Perugia 1462) | Observant Reform and Popular Preaching | Named from memory, not confirmed | 
+Devotio Moderna / Brethren of the Common Life · Low Countries
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Grote’s deed of 1374 (Deventer archive), unheld | Geert Grote Gives His House Away | Named from memory, not confirmed | 
+St Thomas Christians, 1300-1517 · Malabar coast (Cranganore, Quilon)
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Letter of the Malabar bishops to Eliya V, 1504 (Syriac MS, Vatican), unheld | Four Bishops Write Home from Malabar | Named from memory, not confirmed | 
+The Church of the East — Timur's Catastrophe and the Northern Remnant · Mesopotamia, then the Upper Tigris and the Hakkari-Van-Urmia triangle
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Sharaf al-Din Yazdi, Zafarnama (1424) | Church of the East, Timur to Hakkari | Named from memory, not confirmed | 
+Maronite Christianity — the Union Formalized · Mount Lebanon, Cyprus
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Ibn Kathir, al-Bidaya wa-l-Nihaya (Arabic) | Maronite Christianity, Era 6 | Named from memory, not confirmed | 
+Rhineland Mysticism & the Friends of God · Rhineland, Switzerland
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Bull In agro dominico (Latin, 1329 | Rhineland Mysticism and the Friends of God | Named from memory, not confirmed | 
+Denzinger/Pelster edition) | Rhineland Mysticism and the Friends of God | Named from memory, not confirmed | 
+Muscovite Monastic Christianity · Russian north
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Council acts of Dec 1448 (Russian chronicles) | Muscovite Monastic Christianity | Named from memory, not confirmed | 
+Epiphanius the Wise, Zhitie Sergiya (1418-19) | Muscovite Monastic Christianity | Named from memory, not confirmed | 
+Epiphanius the Wise, Zhitie Stefana Permskogo (c.1396-98), unheld | Stephen of Perm and the Shaman’s Ordeal | Named from memory, not confirmed | 
+Era 7: The Reformation Era 45
+Orthodoxy under the Ottomans - Parish, Millet & Neomartyrs · Anatolia, Balkans, Greek islands
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Haga's report to the States General (1638) | Cyril Lucaris Is Strangled on a Boat | Named from memory, not confirmed | 
+Armenian Christianity — Etchmiadzin and New Julfa · Armenia, Isfahan (New Julfa)
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Arakel Davrizhetsi, Book of History | Armenian Christianity - Etchmiadzin and New Julfa | Named from memory, not confirmed | 
+Arakel of Tabriz (Brosset 1874) | The Stones of the Altar Carried to Isfahan | Named from memory, not confirmed | 
+Arakel of Tabriz, Livre d'histoires (Brosset 1874 French) | Type Cut by Hand in New Julfa | Named from memory, not confirmed | 
+The Czech Churches' Last Century (Utraquists and Unitas) · Bohemia, Moravia
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Kšaft umirajici matky Jednoty bratrske, 1650 (English: Testament of the Dying Mother, public domain translations exist) | The Bequest of the Dying Mother | Named from memory, not confirmed | 
+The Scandinavian Reformation Kingdoms · Denmark-Norway (incl. Iceland), Sweden-Finland
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+En Visitatsbog (Copenhagen 1867 ed.) | The Bishop's Speech to the Parish | Named from memory, not confirmed | 
+Icelandic annals / Diplomatarium Islandicum vol 11, 1550 | Skalholt, 7 November 1550 | Named from memory, not confirmed | 
+Icelandic annals on Jon Arason, 1550 | The Scandinavian Reformation Kingdoms | Named from memory, not confirmed | 
+Olaus Petri's own chronicle | The King Condemns His Reformers | Named from memory, not confirmed | 
+Svenska riksdagsakter vol 1 (1887) | The King Condemns His Reformers | Named from memory, not confirmed | 
+Puritanism · England, New England
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Wallington, Sloane MS 922 / Seaver extracts | Nehemiah Wallington Tries to Die | Named from memory, not confirmed | 
+Ethiopian Christianity — Gragn to Fasilides · Ethiopian highlands
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Chronica de Susenyos, ed. Pereira (Lisbon 1892-1900) | We Restore to You the Faith of Your Forefathers | Named from memory, not confirmed | 
+Chronique de Galawdewos (Conzelman 1895) | The Emperor's Confession of Faith | Named from memory, not confirmed | 
+Chronique de Galawdewos, ed. Conzelman (Paris 1895) | The Emperor's Confession of Faith | Named from memory, not confirmed | 
+Mission-Born Christianities (Kirishitan Japan; Kongo; China; New Spain/Andes) · Japan, Kongo, China, Americas
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Fróis, account of the 26 martyrs (Feb-Mar 1597) | The Twenty-Six at Nagasaki | Named from memory, not confirmed | 
+Guaman Poma, Nueva corónica y buen gobierno (c.1615), Copenhagen MS facsimile | Guaman Poma Draws the Priests | Named from memory, not confirmed | 
+Pedro Gómez/Jesuit letters | The Twenty-Six at Nagasaki | Named from memory, not confirmed | 
+The Kyiv-Mohyla Orthodox Revival · Kyiv
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Teraturgema, 1638 (Kyiv, Caves press); reprints exist | Digging Up the Church of the Tithes | Named from memory, not confirmed | 
+Trebnyk 1646 | The Kyiv-Mohyla Orthodox Revival | Named from memory, not confirmed | 
+St. Thomas Christians under Portuguese Pressure - Diamper & the Coonan Cross · Malabar Coast
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Jesuit/Carmelite letters on Coonan Cross, 1653 | St. Thomas Christians under Portuguese Pressure | Named from memory, not confirmed | 
+The Church of the East — the Schism of 1552 · Mesopotamia, Hakkari; Rome
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Beltrami, La Chiesa Caldea nel secolo dell'Unione (1933) | Sulaqa Goes to Rome | Named from memory, not confirmed | 
+Julius III bull and Sulaqa's profession of faith (1553) | The Church of the East - the Schism of 1552 | Named from memory, not confirmed | 
+The Russian Church, Stoglav to the Eve of Nikon · Muscovy
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Arsenios of Elasson | The Guest Who Could Not Leave | Named from memory, not confirmed | 
+Charter of the Moscow Patriarchate, 1589 | The Guest Who Could Not Leave | Named from memory, not confirmed | 
+Fletcher (1591) or Muscovite acts of 1589 | The Russian Church, Stoglav to the Eve of Nikon | Named from memory, not confirmed | 
+Hierotheos of Monemvasia | The Guest Who Could Not Leave | Named from memory, not confirmed | 
+Dutch Further Reformation & Refuge Culture · Netherlands
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Schurman, Eukleria (1673) or Utrecht university records | Anna Maria van Schurman Asks Whether a Christian Woman Should Study | Named from memory, not confirmed | 
+Anti-Trinitarian Currents (Servetus; Polish Brethren/Socinians; Transylvanian Unitarians) · Poland, Transylvania
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Calvin, Defensio (1554) | Servetus at Champel, and Castellio's Answer | Named from memory, not confirmed | 
+Castellio, De haereticis (1554) | Servetus at Champel, and Castellio's Answer | Named from memory, not confirmed | 
+Erdélyi országgyűlési emlékek vol. 3 (1576-1596), 1579 diet | Ferenc Dávid Is Imprisoned by the Unitarians | Named from memory, not confirmed | 
+Family of Love & Spiritualists (Franck, Niclaes) · Rhineland, Low Countries, England
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Acts of the Privy Council (1580) | Familists in the Yeomen of the Guard | Named from memory, not confirmed | 
+Tudor Royal Proclamations | Familists in the Yeomen of the Guard | Named from memory, not confirmed | 
+The Tridentine Church · Rome, Latin Christendom
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Bull Regimini universalis (1544), Paul III | Twenty-Eight Names in a Book at Brescia | Named from memory, not confirmed | 
+Concilium Tridentinum, Massarelli diaries, 1563 (Gorres ed., 1901) | The Last Day at Trent | Named from memory, not confirmed | 
+Ledochowska 1968 | Twenty-Eight Names in a Book at Brescia | Named from memory, not confirmed | 
+Merici's Regola/Ricordi/Testamento 1536-1540 | Twenty-Eight Names in a Book at Brescia | Named from memory, not confirmed | 
+Tellechea, Documentos historicos (modern edition of process) | The Primate of Spain in the Inquisition's Prison | Named from memory, not confirmed | 
+The Union of Brest & Ruthenian Greek Catholic Christianity · Ruthenia (today's Ukraine & Belarus)
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Acts of the 1628 Kyiv council | The Lament, and the Man Who Wrote It | Named from memory, not confirmed | 
+Smotryc'kyj's own Protestatia (1628) | The Lament, and the Man Who Wrote It | Named from memory, not confirmed | 
+Lutheran Wittenberg & Its Congregations · Saxony, then N. Europe
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Melanchthon/Luther, Unterricht der Visitatoren (1528), with Saxon visitation protocols in Sehling vol. 1 | Lutheran Wittenberg & Its Congregations | Named from memory, not confirmed | 
+The Anabaptist Movements · Swiss lands, Moravia, Netherlands
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Gresbeck Bericht (c.1536) | The Kingdom at Münster | Named from memory, not confirmed | 
+Gresbeck, Bericht von der Wiedertaufe in Münster (c.1536) | The Kingdom at Münster | Named from memory, not confirmed | 
+Kerssenbrock (c.1573) | The Kingdom at Münster | Named from memory, not confirmed | 
+The Reformed Cities - Zurich & Geneva · Swiss lands, then Europe
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Myconius, Vita Huldrichi Zuinglii (1536) or Bullinger, Reformationsgeschichte (c.1574) | The Reformed Cities - Zurich & Geneva | Named from memory, not confirmed | 
+Registres du Consistoire de Geneve au temps de Calvin | The Reformed Cities - Zurich & Geneva | Named from memory, not confirmed | 
+Era 8: The Enlightenment & Awakening Era 84
+Orthodoxy under the Ottomans — the Second Act · Anatolia, Balkans, Greek islands
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Pouqueville 1824 or 1821 consular dispatches | Orthodoxy under the Ottomans — the Second Act | Named from memory, not confirmed | 
+The Hesychast Revival - Paisius & the Philokalia · Athos, Moldavia, Russia
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Synodal acts 1772/1776, Ecumenical Patriarchate | The Kollyvades Driven from the Mountain | Named from memory, not confirmed | 
+The Methodist Revival · Britain, then America
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Whitefield Works vol 2 (1771) letters; 'Letter to the Inhabitants of Maryland, Virginia...' 1740 (Works v4) | Whitefield Asks for Slaves | Named from memory, not confirmed | 
+Camisard Prophetism · Cevennes
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Bulkeley, An Answer to Several Treatises (1708) | Bunhill Fields, 25 May 1708 | Named from memory, not confirmed | 
+Hillel Schwartz sources | Bunhill Fields, 25 May 1708 | Named from memory, not confirmed | 
+Armenian Christianity — the Mekhitarists and the Catholic Patriarchate · Constantinople, Venice, Mount Lebanon
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Archives Jesuit Constantinople reports 1707 | The Priest Gomidas at Parmakkapı | Named from memory, not confirmed | 
+Archives of San Lazzaro / Senate decree 1717 | The Leper Island | Named from memory, not confirmed | 
+Armenian Grammar, Venice 1817 | Armenian Christianity - the Mekhitarists and the Catholic Patriarchate | Named from memory, not confirmed | 
+Byron, Letters (1816-17) | Armenian Christianity - the Mekhitarists and the Catholic Patriarchate | Named from memory, not confirmed | 
+The Coptic Church under the Ottomans: the Patriarchate and the Archons · Egypt
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Lane, Manners and Customs of the Modern Egyptians | The Coptic Church under the Ottomans | Named from memory, not confirmed | 
+al-Jabarti, Aja'ib al-athar (c.1820) | The Coptic Church under the Ottomans | Named from memory, not confirmed | 
+Swedenborgian New Church · England, America
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Privy Council Report on the Slave Trade (1789), Wadstrom evidence | Seventy-Seven Signatures at Great East Cheap | Named from memory, not confirmed | 
+Tafel, Documents concerning the Life and Character of Emanuel Swedenborg (1875-77), consistory acts, 1768-70 | The Gothenburg Heresy Trial | Named from memory, not confirmed | 
+The Quakers (Religious Society of Friends) · England, Atlantic world
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Journals of the House of Commons vol. 7, Dec 1656 | James Nayler Rides into Bristol | Named from memory, not confirmed | 
+English Old Dissent — Presbyterians and Congregationalists · England, Wales
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Farewell Sermons preached by Calamy, Watson... (London 1662) | The Farewell Sermons | Named from memory, not confirmed | 
+The Restoration and Georgian Church of England · England, Wales, Ireland; the colonies
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Bennett, Bondmen and Bishops (1958) cites | SOCIETY, Branded on the Chest | Named from memory, not confirmed | 
+Cobbett/Howell, State Trials vol 12 (the Seven Bishops) | The Seven Bishops, Acquitted and Then Deprived | Named from memory, not confirmed | 
+Lambeth Palace SPG MSS | SOCIETY, Branded on the Chest | Named from memory, not confirmed | 
+Lathbury, History of the Nonjurors (1845) / Statutes of the Realm 1689 | The Seven Bishops, Acquitted and Then Deprived | Named from memory, not confirmed | 
+The Baptists · England, then America
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Helwys, A Short Declaration of the Mystery of Iniquity (1612 | ‘The King Is a Mortal Man, and Not God’ | Named from memory, not confirmed | 
+Mercer facsimile 1998) | ‘The King Is a Mortal Man, and Not God’ | Named from memory, not confirmed | 
+as above | ‘The King Is a Mortal Man, and Not God’ | Named from memory, not confirmed | 
+Armenian Apostolic Church — Etchmiadzin and Constantinople · Etchmiadzin, Constantinople, Isfahan (New Julfa)
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Abraham of Crete, Patmut'iwn (c.1736-40) | Armenian Apostolic Church - Etchmiadzin and Constantinople | Named from memory, not confirmed | 
+Armenian Etchmiadzin press imprints 1771- | Armenian Apostolic Church - Etchmiadzin and Constantinople | Named from memory, not confirmed | 
+Chamich continuation | Armenian Apostolic Church - Etchmiadzin and Constantinople | Named from memory, not confirmed | 
+Contemporary Catholic/Mekhitarist accounts of 1707 (e.g. Clement Galanus line | Armenian Apostolic Church - Etchmiadzin and Constantinople | Named from memory, not confirmed | 
+Russian/Armenian chronicles of 1810 (unheld) | Armenian Apostolic Church - Etchmiadzin and Constantinople | Named from memory, not confirmed | 
+Serpos 1786 is held but silent) | Armenian Apostolic Church - Etchmiadzin and Constantinople | Named from memory, not confirmed | 
+Ethiopian Christianity — Gondar to the Zemene Mesafint · Ethiopia, Eritrea
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Bruce, Travels to Discover the Source of the Nile vol. 2 and 3 (1790) | Ethiopian Christianity - Gondar to the Zemene Mesafint | Named from memory, not confirmed | 
+Gobat, Journal (1834) | Ethiopian Christianity - Gondar to the Zemene Mesafint | Named from memory, not confirmed | 
+Port-Royal Jansenism · France
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Gilberte Périer, Vie de Pascal (c.1663) | The Paper Sewn into Pascal’s Coat | Named from memory, not confirmed | 
+Pascal, Mémorial (1654, copy) | The Paper Sewn into Pascal’s Coat | Named from memory, not confirmed | 
+The Georgian Church — Between Persia, the Ottomans and Russia · Georgia, Tbilisi, Mtskheta
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Georgian chronicle of Vakhushti | The Georgian Church - Between Persia, the Ottomans and Russia | Named from memory, not confirmed | 
+Ioselian, Short History (1866) | The Georgian Church - Between Persia, the Ottomans and Russia | Named from memory, not confirmed | 
+Russian imperial manifesto of 1811 (Polnoe Sobranie Zakonov) | The Georgian Church - Between Persia, the Ottomans and Russia | Named from memory, not confirmed | 
+German Pietism - Spener, Francke, Halle · Germany
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Der Königl. Dänischen Missionarien Berichte (Halle, 1710 ff.), the 1708-09 reports | The Missionary in the Commandant’s Prison | Named from memory, not confirmed | 
+Hallesche Berichte / Neue Hallesche Berichte for 1733-34 (published 1730s-40s) | German Pietism - Spener, Francke, Halle | Named from memory, not confirmed | 
+Radical Pietism & the Brethren (Dunkers, Ephrata) · Germany, then Pennsylvania
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Continental Army hospital records and Washington Papers, Ephrata 1777-78 | Ephrata Nurses the Army | Named from memory, not confirmed | 
+Mack, Grundforschende Fragen (1715) or Gruber's eyewitness-era account | Radical Pietism & the Brethren (Dunkers, Ephrata) | Named from memory, not confirmed | 
+Pennsylvania Archives | Ephrata Nurses the Army | Named from memory, not confirmed | 
+Sauer Bible, Germantown 1743 | Radical Pietism & the Brethren (Dunkers, Ephrata) | Named from memory, not confirmed | 
+Sauer's memorial to the Assembly and Pennsylvania Archives confiscation lists (1778-84) | The Printer Marched to Valley Forge | Named from memory, not confirmed | 
+Sauer's petition to the Assembly, c.1779-84 | The Printer Marched to Valley Forge | Named from memory, not confirmed | 
+Hungarian and Transylvanian Protestantism, 1650 to 1815 · Hungary, Transylvania
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Articles of the Diet of 1681 | Hungarian and Transylvanian Protestantism, 1650 to 1815 | Named from memory, not confirmed | 
+Gerard Brandt, Leven en bedryf van Michiel de Ruiter (1687) | Hungarian and Transylvanian Protestantism, 1650 to 1815 | Named from memory, not confirmed | 
+Hungarian Protestant martyrology | Hungarian and Transylvanian Protestantism, 1650 to 1815 | Named from memory, not confirmed | 
+Resolutio Carolina text, 1731 | Hungarian and Transylvanian Protestantism, 1650 to 1815 | Named from memory, not confirmed | 
+Szatmar treaty text | Hungarian and Transylvanian Protestantism, 1650 to 1815 | Named from memory, not confirmed | 
+Toleranzpatent of 1781 itself (imperial edict) | Hungarian and Transylvanian Protestantism, 1650 to 1815 | Named from memory, not confirmed | 
+Catholics of Dutch Ceylon · Jaffna, Puttalam, Kandy, Goa
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Baldeus, Naauwkeurige beschryvinge van Malabar en Choromandel, ook Ceylon (1672) | Catholics of Dutch Ceylon | Named from memory, not confirmed | 
+Dutch plakkaten | Catholics of Dutch Ceylon | Named from memory, not confirmed | 
+Sebastiao do Rego, Vida do Padre Jose Vaz (1743) and Oratorian letters | Catholics of Dutch Ceylon | Named from memory, not confirmed | 
+Van Imhoff's Memorie (1740), Dutch records | Catholics of Dutch Ceylon | Named from memory, not confirmed | 
+The Antonian Movement in Kongo · Kongo
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Bernardo da Gallo, Relation (1710) | The Last Week of Dona Beatriz | Named from memory, not confirmed | 
+Bernardo da Gallo, Relazione, 1710 | The Antonian Movement in Kongo | Named from memory, not confirmed | 
+Gallo 1710 | The Antonian Movement in Kongo | Named from memory, not confirmed | 
+Lorenzo da Lucca letters 1706-08 | The Last Week of Dona Beatriz | Named from memory, not confirmed | 
+The Church of the Desert · Languedoc, Cévennes, the French refuge
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Pastor Rabaut correspondence 1761-62 (Dardier 1892) | The Last Pastor Hanged, and the Three Brothers | Named from memory, not confirmed | 
+The St Thomas Christians — Two Obediences · Malabar Coast
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Contemporary Portuguese/Carmelite letters 1653-65 | The St Thomas Christians - Two Obediences | Named from memory, not confirmed | 
+The Mennonites and the Amish · Netherlands, Pennsylvania, Indiana
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Russian state decrees 1786-1804 | The Mennonites and the Amish | Named from memory, not confirmed | 
+Wiebe 1900 | The Mennonites and the Amish | Named from memory, not confirmed | 
+Colonial Latin American Devotional Catholicism · New Spain, Peru, Brazil
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Arriaga, Extirpacion de la idolatria del Piru (Lima 1621) | The Extirpators and the Book They Left | Named from memory, not confirmed | 
+Duviols (ed.) Cultura andina y represion (1971) | The Extirpators and the Book They Left | Named from memory, not confirmed | 
+Salomon & Urioste, The Huarochiri Manuscript (1991) | The Extirpators and the Book They Left | Named from memory, not confirmed | 
+van Deusen 2004 documents | Úrsula de Jesús Falls Down a Well | Named from memory, not confirmed | 
+van Deusen, Souls of Purgatory (2004), translation of the diary | Úrsula de Jesús Falls Down a Well | Named from memory, not confirmed | 
+The Catholic Church of the Ancien Régime · Rome, Catholic Europe
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Ricci, Protestation of 19 Nov 1775 (printed 1775-?) in Theiner 1853 | The Last General in Castel Sant’Angelo | Named from memory, not confirmed | 
+The Society of Jesus, 1650 to 1814 · Rome, Paraguay, then the world
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Muratori, Il cristianesimo felice nelle missioni (Venice 1743) | The Society of Jesus, 1650 to 1814 | Named from memory, not confirmed | 
+The Ruthenian Uniate Church — Zamość to the Partitions · Ruthenia (Ukraine & Belarus), Austrian Galicia
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Bohohlasnyk, Pochaiv 1790 (digital copy) | The Bohohlasnyk at Pochaiv | Named from memory, not confirmed | 
+Kostomarov, Koliivshchyna (1884, modern) | Uman, June 1768 | Named from memory, not confirmed | 
+Nilles, Symbolae ad illustrandam historiam ecclesiae orientalis (Innsbruck 1885), vol. 1 - 1652 petition | The Ruthenian Uniate Church - Zamosc to the Partitions | Named from memory, not confirmed | 
+PSZ no. 17,0xx (1794 ukase) | The Ukase of 1794 | Named from memory, not confirmed | 
+Polish contemporary accounts of Uman | Uman, June 1768 | Named from memory, not confirmed | 
+The Dutch Reformed Church at the Cape · South Africa
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Cape Council of Policy 1688 | The Dutch Reformed Church at the Cape | Named from memory, not confirmed | 
+Church registers of Cape Town (Doop-register) | The Dutch Reformed Church at the Cape | Named from memory, not confirmed | 
+Quietist Controversy (Molinos, Guyon) · Spain, France
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Wesley, Journal vols III-VIII / Works vol. on Guyon preface (1776) | Quietist Controversy (Molinos, Guyon) | Named from memory, not confirmed | 
+Vietnamese Catholicism — Vicars Apostolic and Catechists · Tonkin, Cochinchina
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Binh's own Vietnamese writings (1790s) | Vietnamese Catholicism - Vicars Apostolic and Catechists | Named from memory, not confirmed | 
+The Romanian Greek Catholic Church, 1698 to 1815 · Transylvania, Alba Iulia and Blaj
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Bunea, Episcopul Ioan Inocentiu Klein (1900) | The Romanian Greek Catholic Church, 1698 to 1815 | Named from memory, not confirmed | 
+Klein's act of resignation 1751 | The Romanian Greek Catholic Church, 1698 to 1815 | Named from memory, not confirmed | 
+Nilles, Symbolae vol. 1-2 (1885-86) | The Romanian Greek Catholic Church, 1698 to 1815 | Named from memory, not confirmed | 
+The Transylvanian Unitarian Church, 1660 to 1906 · Transylvania, Hungary
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Torda diet acts (unheld) | The Transylvanian Unitarian Church, 1660 to 1906 | Named from memory, not confirmed | 
+Unitarian consistory records | The Transylvanian Unitarian Church, 1660 to 1906 | Named from memory, not confirmed | 
+The Welsh Revival Tradition · Wales
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+J. Owen, History of the BFBS (1816) | Mary Jones Walks to Bala | Named from memory, not confirmed | 
+Robert Jones, Mary Jones (1867) | Mary Jones Walks to Bala | Named from memory, not confirmed | 
+Era 9: The Missionary Era 211
+The Alaskan Mission — Herman’s Decades & Veniaminov · Alaska, Aleutians
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Journals of Iakov Netsvetov (unheld) | Netsvetov on the Yukon | Named from memory, not confirmed | 
+Sitka consistory record (unheld) | Netsvetov on the Yukon | Named from memory, not confirmed | 
+The Stone-Campbell Restoration Movement · American frontier
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Daniel Sommer, Address and Declaration (1889) | The Sand Creek Address and Declaration | Named from memory, not confirmed | 
+Lipscomb to S. N. D. Martin (1906), in Gospel Advocate | The Sand Creek Address and Declaration | Named from memory, not confirmed | 
+US Census, Religious Bodies 1906 (pub. 1910) | The Stone-Campbell Restoration Movement | Named from memory, not confirmed | 
+Williams, Life of Elder John Smith 1870 (about 38 years after) | New Year's Day at Hill Street | Named from memory, not confirmed | 
+The Kollyvades & Greek Renewal · Athos, Greek islands
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Nicodemus, Neon Martyrologion (1799); later Constantine service | Constantine of Hydra Prepares to Die | Named from memory, not confirmed | 
+Scupoli, Combattimento spirituale (1589) | Unseen Warfare, and Where It Came From | Named from memory, not confirmed | 
+Canudos (Belo Monte) · Bahia, Brazil
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Euclides da Cunha, Os Sertoes (1902) (unheld) | Canudos / Belo Monte | Named from memory, not confirmed | 
+The Ruthenian Greek Catholic Church — Polotsk to Galicia · Belarus, Ukraine, Galicia
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Acts of the Synod of Polotsk 1839 | Ruthenian Greek Catholics | Named from memory, not confirmed | 
+Police inventory, Lviv | The Almanac the Church Banned | Named from memory, not confirmed | 
+Rusalka Dnistrovaia (1837) | The Almanac the Church Banned | Named from memory, not confirmed | 
+Semashko memoirs (unheld) | Ruthenian Greek Catholics | Named from memory, not confirmed | 
+Catholic Apostolic Church (Irvingites) · Britain
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Catholic Apostolic Church, Liturgy and Other Divine Offices (1842) | Catholic Apostolic Church (Irvingites) | Named from memory, not confirmed | 
+Christadelphians · Britain, N. America
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Roberts, Dr Thomas: His Life and Work, 1873 (9 years after) | A Name for the Draft Board | Named from memory, not confirmed | 
+The Christadelphian 1885 volume | The Inspiration Division | Named from memory, not confirmed | 
+The Christadelphian, vol. 1 (1864) | Christadelphians | Named from memory, not confirmed | 
+Nineteenth-Century Baptists · Britain, N. America
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Board of Domestic Missions minutes (1844) | The Test Case, and the Answer from Boston | Named from memory, not confirmed | 
+Reply to the Alabama resolutions (1844) | The Test Case, and the Answer from Boston | Named from memory, not confirmed | 
+SBC Proceedings (1845) | The Test Case, and the Answer from Boston | Named from memory, not confirmed | 
+SBC Proceedings 1845 (unheld) | Nineteenth-Century Baptists | Named from memory, not confirmed | 
+Sword and Trowel 1887 'Down-Grade' articles (unheld) | Nineteenth-Century Baptists | Named from memory, not confirmed | 
+The Sunday School & Bible-Institute Movement · Britain, N. America
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Emma Dryer letters, Moody Bible Institute archive (1880s) | Emma Dryer Builds the School and Leaves It | Named from memory, not confirmed | 
+Gloucester Journal, 3 Nov 1783 (Raikes's account), and Raikes letter to Rev. Stock, 1784 (unheld) | The Sunday School & Bible-Institute Movement | Named from memory, not confirmed | 
+Raikes, Gentleman's Magazine 1784 | Sooty Alley | Named from memory, not confirmed | 
+Nineteenth-Century Methodism · Britain, N. America, mission fields
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Louisville Convention proceedings (1845) | The Case of Bishop Andrew | Named from memory, not confirmed | 
+Loveless, Victims of Whiggery (1837) | The Tolpuddle Preachers | Named from memory, not confirmed | 
+The Taiping Heavenly Kingdom · China
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Roberts letter 1862 (unheld) | Roberts Leaves Nanjing | Named from memory, not confirmed | 
+Taiping Tianqing records (unheld) | The Tianjing Incident | Named from memory, not confirmed | 
+Teng and Fairbank, China's Response (docs) / Taiping decrees 1856 (unheld) | The Tianjing Incident | Named from memory, not confirmed | 
+Armenian Christianity — the Zartonk Century · Constantinople, Anatolia, Caucasus
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+ABCFM Missionary Herald 1846 (1846) | The Anathema of 1846 | Named from memory, not confirmed | 
+Blue Books on Armenia 1895-96 (unheld) | Armenian Christianity - the Zartonk Century | Named from memory, not confirmed | 
+Evangelical Church covenant (1846) | The Anathema of 1846 | Named from memory, not confirmed | 
+Treaty of Berlin text (1878) | The Paper Ladle | Named from memory, not confirmed | 
+Plymouth Brethren & Dispensational Formation · Dublin, England, then global
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Bethesda circulars, 1848 | The Bethesda Circular, and Ten Minutes at the Orphan House | Named from memory, not confirmed | 
+East African Christianity & the Uganda Martyrs · East Africa, Buganda
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+CMS Intelligencer / Apolo diary (unheld) | Apolo at Mboga | Named from memory, not confirmed | 
+CMS records (unheld) | Apolo at Mboga | Named from memory, not confirmed | 
+The Salvation Army · East London, then world
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Hansard 1885 | The Purchase of Eliza Armstrong | Named from memory, not confirmed | 
+Home Office return 1882 | The Skeleton Army at Hastings | Named from memory, not confirmed | 
+Old Bailey Proceedings | The Purchase of Eliza Armstrong | Named from memory, not confirmed | 
+Old Bailey Proceedings Oct-Nov 1885 | The Purchase of Eliza Armstrong | Named from memory, not confirmed | 
+Pall Mall Gazette July 1885 | The Purchase of Eliza Armstrong | Named from memory, not confirmed | 
+The War Cry | The Skeleton Army at Hastings | Named from memory, not confirmed | 
+The War Cry 1882 | The Skeleton Army at Hastings | Named from memory, not confirmed | 
+The Coptic Revival — Cyril IV and After · Egypt
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Coptic biographies | The Press Received Like a Patriarch | Named from memory, not confirmed | 
+Coptic patriarchate and CMS / American mission reports 1854-61 | The Coptic Revival — Cyril IV and After | Named from memory, not confirmed | 
+European visitors' accounts 1860s | The Burned Icons and the Sudden Death | Named from memory, not confirmed | 
+Lane/Whitaker contemporary visitors | The Press Received Like a Patriarch | Named from memory, not confirmed | 
+Mission and traveller reports 1855-61 | The Coptic Revival — Cyril IV and After | Named from memory, not confirmed | 
+al-Watan newspaper / majlis milli records | The Coptic Revival — Cyril IV and After | Named from memory, not confirmed | 
+The Oxford Movement & Anglo-Catholic Revival · England
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Barberi's own letter 1845 | The Passionist Comes to Littlemore in the Rain | Named from memory, not confirmed | 
+Hansard 1881-82 | Twenty Months in Lancaster Castle | Named from memory, not confirmed | 
+Law Reports | Twenty Months in Lancaster Castle | Named from memory, not confirmed | 
+Maria Trench, Charles Lowder: A Biography (1882) | Father Lowder in the Cholera | Named from memory, not confirmed | 
+Newman Letters and Diaries | The Passionist Comes to Littlemore in the Rain | Named from memory, not confirmed | 
+Newman, Letters and Diaries vol. XI | The Passionist Comes to Littlemore in the Rain | Named from memory, not confirmed | 
+Public Worship Regulation Act 1874 and ritual-case reports | The Oxford Movement & Anglo-Catholic Revival | Named from memory, not confirmed | 
+The Victorian Church of England · England, the empire
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Butler, Reminiscences (1896) | Josephine Butler Against the Acts | Named from memory, not confirmed | 
+Colenso, Pentateuch pt 1 (1862) | William Ngidi’s Question | Named from memory, not confirmed | 
+Daily News, 1 Jan 1870 | Josephine Butler Against the Acts | Named from memory, not confirmed | 
+Privy Council judgment in re Bishop of Natal (1865) | William Ngidi’s Question | Named from memory, not confirmed | 
+Text of the Acts (1864-69) | Josephine Butler Against the Acts | Named from memory, not confirmed | 
+Ethiopian Christianity — Tewodros to Menelik · Ethiopia
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+British parliamentary papers 1868 | The Missionaries Who Cast the Emperor's Mortar | Named from memory, not confirmed | 
+Chronicle of Yohannes IV (unheld) | The Baptism of Wollo | Named from memory, not confirmed | 
+Rassam (unheld) | The Missionaries Who Cast the Emperor's Mortar | Named from memory, not confirmed | 
+Rassam 1869 (unheld) | The Missionaries Who Cast the Emperor's Mortar | Named from memory, not confirmed | 
+Rassam, Narrative of the British Mission (1869) (unheld) | Ethiopian Christianity | Named from memory, not confirmed | 
+Same chronicle (unheld) | The Baptism of Wollo | Named from memory, not confirmed | 
+Orthodoxy after 1821 — the National Churches · Greece, Balkans, Constantinople
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Acts of the 1872 Council with the phyletism definition (1872) | The Epiphany Liturgy of 1872 | Named from memory, not confirmed | 
+Acts of the Council of Constantinople 1872 | Orthodoxy after 1821 - the National Churches | Named from memory, not confirmed | 
+Contemporary press accounts of 6 Jan 1872 (1872) | The Epiphany Liturgy of 1872 | Named from memory, not confirmed | 
+Exarchal proclamation (1872) | The Epiphany Liturgy of 1872 | Named from memory, not confirmed | 
+Firman of 1870 (unheld) | Orthodoxy after 1821 - the National Churches | Named from memory, not confirmed | 
+Maurer 1835 | The Regency Closes the Monasteries | Named from memory, not confirmed | 
+Maurer, Das griechische Volk, 1835 (2 years after) | The Regency Closes the Monasteries | Named from memory, not confirmed | 
+The Haitian Church — Rupture to Concordat · Haiti
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Concordat 1860 text (unheld) | Haitian Church: Rupture to Concordat | Named from memory, not confirmed | 
+d'Alaux 1856 (unheld) | The Coronation of Faustin I | Named from memory, not confirmed | 
+The Missionary Movement's Native Churches (Serampore India; Sierra Leone & the Niger; Pacific Islands; China Coast & CIM) · India, W. Africa, Pacific, China
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Ajayi 1965 | Onitsha, August 1890 | Named from memory, not confirmed | 
+Baptist Missionary Society, Periodical Accounts vol. 2 (1800-01) | Krishna Pal Goes into the Hooghly | Named from memory, not confirmed | 
+Broomhall, Martyred Missionaries of the CIM (1901) | The Boxer Summer, and a Mission That Refused Its Damages | Named from memory, not confirmed | 
+CMS archive | Onitsha, August 1890 | Named from memory, not confirmed | 
+China's Millions 1901 | The Boxer Summer, and a Mission That Refused Its Damages | Named from memory, not confirmed | 
+J. B. Taylor, Biography of Elder Lott Cary (1837) | The Missionary Movement's Native Churches (Serampore India; Sierra Leone & the Niger; Pacific Islands; China Coast & CIM) | Named from memory, not confirmed | 
+J.F.A. Ajayi 1965 | Onitsha, August 1890 | Named from memory, not confirmed | 
+Marshman, Life and Times of Carey, Marshman and Ward (1859) | Krishna Pal Goes into the Hooghly | Named from memory, not confirmed | 
+Taiyuan massacre accounts 1900-01 | The Boxer Summer, and a Mission That Refused Its Damages | Named from memory, not confirmed | 
+The Moravian Church after 1815 · Jamaica, Cape Colony, Suriname, Labrador, Nyasa, Germany
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Hamilton, History of the Missions of the Moravian Church (1901) | The Moravian Church after 1815 | Named from memory, not confirmed | 
+The Caribbean Churches of Slavery and Emancipation · Jamaica, Demerara
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Bleby, Death Struggles of Slavery (1868) (unheld) | Caribbean Churches of Slavery and Emancipation | Named from memory, not confirmed | 
+Japanese Christianity — the Hidden Christians’ Emergence & the Meiji Church · Japan
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Nikolai's Diaries (unheld) | Nikolai Tells His Church to Pray for Japan | Named from memory, not confirmed | 
+Nikolai's diary | Nikolai Tells His Church to Pray for Japan | Named from memory, not confirmed | 
+Orthodox mission records (unheld) | Nikolai Tells His Church to Pray for Japan | Named from memory, not confirmed | 
+Survivor accounts, Catholic Mission records (unheld) | The Fourth Fall of Urakami | Named from memory, not confirmed | 
+Tsuwano domain records | The Fourth Fall of Urakami | Named from memory, not confirmed | 
+Northeast India Revivals & the Mar Thoma Reform · Kerala; Khasi, Mizo & Naga hills
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Royal Court of Appeal judgment 1889 (Seminary case) (unheld) | Northeast India Revivals & the Mar Thoma Reform | Named from memory, not confirmed | 
+Seminary Case judgment, 1889 | The Reformers Send to Mardin | Named from memory, not confirmed | 
+Welsh Presbyterian Foreign Mission reports 1905-06 | Mairang, 1905 | Named from memory, not confirmed | 
+Welsh Presbyterian Mission reports 1906 (unheld) | Northeast India Revivals & the Mar Thoma Reform | Named from memory, not confirmed | 
+Korean Catholic Origins · Korea
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Franco-Korean Treaty of 1886 | Korean Catholic Origins | Named from memory, not confirmed | 
+Laestadianism & the Nordic Revivals · Lapland, Finland, Norway, Sweden
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Hvoslef account of the Kautokeino rising (c.1850s) | Kautokeino, 8 November 1852 | Named from memory, not confirmed | 
+Laestadius, Dårhushjonet (1852) | Laestadianism & the Nordic Revivals | Named from memory, not confirmed | 
+The Arab Evangelical Churches of Syria, Lebanon and Egypt · Lebanon, Syria, Egypt
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Jessup, Fifty-three Years in Syria (1910) | Arab Evangelical Churches | Named from memory, not confirmed | 
+Missionary Herald (unheld) | Arab Evangelical Churches | Named from memory, not confirmed | 
+Malagasy Christianity — the Self-Carried Church · Madagascar
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Ellis 1858 (unheld) | The Eighteen of March 1849 | Named from memory, not confirmed | 
+Ellis 1870 / Sibree 1870 (unheld) | The Kingdom Made to Pray | Named from memory, not confirmed | 
+Ellis, The Martyr Church (1870) (unheld) | Malagasy Christianity | Named from memory, not confirmed | 
+LMS report 1850 (unheld) | The Eighteen of March 1849 | Named from memory, not confirmed | 
+Sibree 1880 (unheld) | The Kingdom Made to Pray | Named from memory, not confirmed | 
+The Maronite Church — Mountain, War and One Governor · Mount Lebanon, Beirut, Damascus
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Churchill, Druzes and Maronites (1862) (unheld) | Maronite Church 1815-1906 | Named from memory, not confirmed | 
+Christian Science · N. America
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Christian Science Journal 1888 | The Death of Lottie Corner | Named from memory, not confirmed | 
+Christian Science Journal vol. 6 (1888) | The Death of Lottie Corner | Named from memory, not confirmed | 
+Lynn Reporter, Feb 1866 (days after) | The Fall on the Ice at Lynn | Named from memory, not confirmed | 
+Manual of The Mother Church (1895) | Christian Science | Named from memory, not confirmed | 
+Jehovah's Witnesses (Bible Students) · N. America
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Watch Tower 1931 resolution (Columbus convention) | Jehovah's Witnesses (Bible Students) | Named from memory, not confirmed | 
+Zion's Watch Tower 1879-1906 volumes | Jehovah's Witnesses (Bible Students) | Named from memory, not confirmed | 
+Zion's Watch Tower 1881 | The Colporteurs and the Date | Named from memory, not confirmed | 
+Zion's Watch Tower 1906 volume | Mrs Russell Leaves the Watch Tower | Named from memory, not confirmed | 
+Latter-day Saints (LDS) · N. America
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Affidavits on Haun's Mill, 1839 (1 year after) | Haun's Mill | Named from memory, not confirmed | 
+Amanda Smith's account, c.1839 | Haun's Mill | Named from memory, not confirmed | 
+Boggs Executive Order, 1838 (same year) | Haun's Mill | Named from memory, not confirmed | 
+Carleton report to Congress, 1859 (2 years after) | Mountain Meadows | Named from memory, not confirmed | 
+History of the Church vol. 6-7 (Roberts, 1902-12) | Latter-day Saints (LDS) | Named from memory, not confirmed | 
+Lee, Mormonism Unveiled (1877) | Mountain Meadows | Named from memory, not confirmed | 
+Roberts ed. History of the Church vol. 4 (1902; draws on 1842 minutes) | The Upper Room of the Red Brick Store | Named from memory, not confirmed | 
+Restorationist-Apocalyptic Ferment & Adventism · N. America
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+James White, A Word to the 'Little Flock' (1847) | The Shut Door | Named from memory, not confirmed | 
+Review and Herald 1850-52 | The Shut Door | Named from memory, not confirmed | 
+Seventh-day Adventist Yearbook 1931 | Restorationist-Apocalyptic Ferment & Adventism | Named from memory, not confirmed | 
+Nineteenth-Century Quakerism — the Separations · N. America, Britain
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Proceedings (1841) | Behind the Bar at Freemasons’ Hall | Named from memory, not confirmed | 
+Proceedings, World's Anti-Slavery Convention (1841) | Behind the Bar at Freemasons’ Hall | Named from memory, not confirmed | 
+Spiritualism / New Thought · N. America, Britain
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+E. E. Lewis, Report of the Mysterious Noises ... Hydesville (1848) | Spiritualism / New Thought | Named from memory, not confirmed | 
+New York World, 21 Oct 1888 report | Spiritualism / New Thought | Named from memory, not confirmed | 
+Seybert Commission Preliminary Report (1887) | Spiritualism / New Thought | Named from memory, not confirmed | 
+The Holiness Movement · N. America, Britain
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Account of the Union Convention at Brighton (1875) | Brighton, and the Fall of Robert Pearsall Smith | Named from memory, not confirmed | 
+Amanda Berry Smith, An Autobiography (1893) | The Holiness Movement | Named from memory, not confirmed | 
+Keswick 1875 reports | Brighton, and the Fall of Robert Pearsall Smith | Named from memory, not confirmed | 
+Lanphier / Fulton St accounts, S. I. Prime, Power of Prayer (1859) | Hamilton, October 1857 | Named from memory, not confirmed | 
+The Student Volunteer Movement & Edinburgh 1910 · N. America, Britain, global
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Edinburgh 1910 planning correspondence and minutes (Oldham and Mott papers) | Latin America Left Off the Map | Named from memory, not confirmed | 
+Robert Wilder's account, in The Missionary Review, 1886-87 and later reminiscences | The Mount Hermon Hundred | Named from memory, not confirmed | 
+The Old Catholic Churches — Utrecht to the Union · Netherlands, Germany, Switzerland
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Declaration of Utrecht 1889 text (unheld) | Old Catholic Churches | Named from memory, not confirmed | 
+Reusch, Bericht 1874 (1874) | The Bonn Conferences | Named from memory, not confirmed | 
+Reusch, Bericht 1875 (1875) | The Bonn Conferences | Named from memory, not confirmed | 
+Dutch Neo-Calvinism & the Secession Churches · Netherlands; N. America
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Consistory minutes; contemporary press, court cases 1886 (unheld) | The Panel-Sawing | Named from memory, not confirmed | 
+American Unitarianism & Universalism — the Consolidations · New England, mid-Atlantic
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Emerson Divinity School Address (1838) | The Divinity School Address | Named from memory, not confirmed | 
+Emerson, Divinity School Address 1838 (unheld) | American Unitarianism & Universalism | Named from memory, not confirmed | 
+Oneida Community · New York
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Miller diary ed. Fogarty 2000 (modern edition of 1867-79 manuscript; rights likely closed) | Tirzah Miller's Diary | Named from memory, not confirmed | 
+Oneida Circular, 1879 | The Founder Crosses to Canada | Named from memory, not confirmed | 
+Oneida Circular, Aug 1879 | The Founder Crosses to Canada | Named from memory, not confirmed | 
+The Circular (Oneida) 1879-81 | Oneida Community | Named from memory, not confirmed | 
+The Haugean Awakening · Norway
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Hans Nielsen Hauge, Skrifter / autobiographical Livs-Historie (c.1800s) | The Haugean Awakening | Named from memory, not confirmed | 
+Hauge Skrifter | Ten Years to a Verdict | Named from memory, not confirmed | 
+Hauge trial record (Norwegian National Archives) / Hauge letters | The Haugean Awakening | Named from memory, not confirmed | 
+Hauge's letters; government papers (Hans Nielsen Hauges Skrifter) | Let Out to Make Salt | Named from memory, not confirmed | 
+Hauge, Skrifter (ed. Hauge Society) | The Haugean Awakening | Named from memory, not confirmed | 
+Storting records 1842 | Ten Years to a Verdict | Named from memory, not confirmed | 
+Trial records | Ten Years to a Verdict | Named from memory, not confirmed | 
+Philippine Catholicism — Gomburza to the Aglipayan Schism · Philippines
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Aglipay manifesto (1898) | Excommunicated, and the Assembly at Paniqui | Named from memory, not confirmed | 
+Paniqui constitution (1899) | Excommunicated, and the Assembly at Paniqui | Named from memory, not confirmed | 
+Spanish report of the execution (1872) | The Morning at Bagumbayan | Named from memory, not confirmed | 
+Polish and Lithuanian Catholicism Under the Partitions · Poland, Lithuania
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Ukase of 1864 / Russian Imperial Laws (unheld) | Polish and Lithuanian Catholicism under the Partitions | Named from memory, not confirmed | 
+The Confessional Lutheran Revival & the Emigrations · Prussia, Saxony, Bavaria; N. America; Australia
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Altenburg Debate theses 1841 (unheld) | Stephan Rowed Across the River | Named from memory, not confirmed | 
+Old Lutheran accounts | Christmas Eve at Hönigern | Named from memory, not confirmed | 
+Old Lutheran accounts of Honigern (1835) | Christmas Eve at Hönigern | Named from memory, not confirmed | 
+Vehse 1840, Die Stephan'sche Auswanderung nach Amerika (unheld) | Stephan Rowed Across the River | Named from memory, not confirmed | 
+Verhandlungen 1847 (unheld) | Stephan Rowed Across the River | Named from memory, not confirmed | 
+The Catholic Church of the Long Nineteenth Century · Rome, the Catholic world
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Bernadette's accounts | Bernadette and the Commissioner | Named from memory, not confirmed | 
+Bernadette's own accounts 1858-66 (Laurentin) | Bernadette and the Commissioner | Named from memory, not confirmed | 
+Diplomatic papers of 1858-59 (1858-59) | The Taking of Edgardo Mortara | Named from memory, not confirmed | 
+Holy Office / Bologna Inquisition file on the Mortara case (1858) | The Taking of Edgardo Mortara | Named from memory, not confirmed | 
+Jacomet procès-verbal of 21 Feb 1858 (1858) | Bernadette and the Commissioner | Named from memory, not confirmed | 
+Laurentin | Bernadette and the Commissioner | Named from memory, not confirmed | 
+Lavigerie, London speech 1888 (unheld) | The Catholic Church of the Long Nineteenth Century | Named from memory, not confirmed | 
+Letters of Bishop Ullathorne, July 1870 (1870) | The Vote in the Storm | Named from memory, not confirmed | 
+Mgr Laurence of Tarbes, pastoral letter 18 Jan 1862 (unheld) | The Catholic Church of the Long Nineteenth Century | Named from memory, not confirmed | 
+Ullathorne letters, July 1870 (1870) | The Vote in the Storm | Named from memory, not confirmed | 
+The Optina Elders & Russian Ascetic Renewal · Russia
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Bishop's correspondence | Shamordino | Named from memory, not confirmed | 
+Brothers Karamazov (1880) and Dostoevsky's 1878 letters | The Optina Elders & Russian Ascetic Renewal | Named from memory, not confirmed | 
+Letters of Elder Ambrose of Optina (Russian ed.) | The Optina Elders & Russian Ascetic Renewal | Named from memory, not confirmed | 
+Life of Ambrose (1900) | Shamordino | Named from memory, not confirmed | 
+Optina records | Shamordino | Named from memory, not confirmed | 
+Russian Church records | The Optina Elders & Russian Ascetic Renewal | Named from memory, not confirmed | 
+Soviet decrees | The Optina Elders & Russian Ascetic Renewal | Named from memory, not confirmed | 
+The Russian Church — the Synodal Century · Russia
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Dowling 1912 (unheld, archive.org) | The Russian Church - the Synodal Century | Named from memory, not confirmed | 
+Ioselian, Short History of the Georgian Church (1866) | The Russian Church - the Synodal Century | Named from memory, not confirmed | 
+Kronstadt House of Industry reports (1883-) | The House of Industry at Kronstadt | Named from memory, not confirmed | 
+Synod decisions on the Russian translation, 1824-26 (1824-26) | The Pentateuch Burned at the Brickworks | Named from memory, not confirmed | 
+Synod memoranda 1856-58 | The Pentateuch Burned at the Brickworks | Named from memory, not confirmed | 
+Southern African Mission Churches · South Africa, Lesotho
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Casalis, The Basutos (1861) | Southern African Mission Churches | Named from memory, not confirmed | 
+Philip, Researches (1828) (unheld) | Southern African Mission Churches | Named from memory, not confirmed | 
+Nineteenth-Century Latin American Catholicism · Spanish America, Brazil
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Berthe 1887 is hagiography; prefer the trial record | 'God Does Not Die' | Named from memory, not confirmed | 
+Bustamante, Cuadro historico (1843) | Nineteenth-Century Latin American Catholicism | Named from memory, not confirmed | 
+Macedo Costa's printed defence (unheld) | The Bishop of Olinda Goes to Prison | Named from memory, not confirmed | 
+Procesos inquisitoriales de Morelos (unheld) | Nineteenth-Century Latin American Catholicism | Named from memory, not confirmed | 
+Supremo Tribunal record of 1874 | The Bishop of Olinda Goes to Prison | Named from memory, not confirmed | 
+Indonesian Christianity · Sumatra, Timor, the archipelago
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Dutch mission reports on Sadrach (Wilhelm, Bieger), 1880s (unheld) | Indonesian Christianity | Named from memory, not confirmed | 
+NZV Mededeelingen, 1882-93 | Kiai Sadrach under Suspicion | Named from memory, not confirmed | 
+Nommensen letters/RMG Berichte 1860s-80s | Indonesian Christianity | Named from memory, not confirmed | 
+Rhenish Mission reports 1878 | The Mission Calls for the Army | Named from memory, not confirmed | 
+Warneck on Batak mission (unheld) | Indonesian Christianity | Named from memory, not confirmed | 
+The Reveil & Inner-Mission Awakening · Switzerland, France, Netherlands, Germany
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Les Adieux d'Adolphe Monod (1856) | Monod Dismissed at Lyon | Named from memory, not confirmed | 
+Lyon consistory minutes | Monod Dismissed at Lyon | Named from memory, not confirmed | 
+Monod's published defense 1832 | Monod Dismissed at Lyon | Named from memory, not confirmed | 
+Verhandlungen des Kirchentags Wittenberg 1848 | ‘Love Belongs to Me as Faith Does’ | Named from memory, not confirmed | 
+Vietnamese Catholicism — Edicts and French Conquest · Tonkin, Cochinchina
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Launay, Mgr Retord (1893) (unheld) | Vietnamese Catholicism 1815-1906 | Named from memory, not confirmed | 
+Philiphe Binh, Su ky (1822) ms, Lisbon (unheld) | Vietnamese Catholicism 1815-1906 | Named from memory, not confirmed | 
+The Romanian Greek Catholic Church, 1815 to 1906 · Transylvania, Alba Iulia and Blaj
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Grama & Bunea, Cestiuni (1893) (unheld) | Romanian Greek Catholic Church 1815-1906 | Named from memory, not confirmed | 
+Russian Evangelicals — Stundists to the Baptist Union · Ukraine, Russia
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Decision 1894 (unheld) | 'An Especially Harmful Sect' | Named from memory, not confirmed | 
+Pobedonostsev / Pashkov correspondence | Russian Evangelicals: Stundists | Named from memory, not confirmed | 
+Police records, Pobedonostsev papers (unheld) | The Congress the Police Broke Up | Named from memory, not confirmed | 
+The Black Church in America · United States
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Gray, Confessions 1831 | Nat Turner and the Silencing of the Black Pulpit | Named from memory, not confirmed | 
+Gray, The Confessions of Nat Turner (Baltimore, 1831) | Nat Turner and the Silencing of the Black Pulpit | Named from memory, not confirmed | 
+Rush, Account of the Bilious Remitting Yellow Fever 1794 | The Nurses of 1793 | Named from memory, not confirmed | 
+Virginia Acts of Assembly 1831-32 | Nat Turner and the Silencing of the Black Pulpit | Named from memory, not confirmed | 
+Era 10: The Global Church Era 408
+The Armenian Church after the Genocide (Medz Yeghern) · Anatolia -> Armenia & worldwide diaspora
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Antelias election of Zareh I, 1956 (1956) | The Armenian Church after the Genocide | Named from memory, not confirmed | 
+Catholicosate of Cilicia records (1930s) | The Armenian Church after the Genocide | Named from memory, not confirmed | 
+Church records; press 1945 | The Empty Throne at Etchmiadzin | Named from memory, not confirmed | 
+Grigoris Balakian, Hay Koghkota (Vienna) (1922) | The Armenian Church after the Genocide | Named from memory, not confirmed | 
+NYT 25 Dec 1933 (unheld) | Christmas Eve at Holy Cross | Named from memory, not confirmed | 
+NYT Jul 1933 (unheld) | Christmas Eve at Holy Cross | Named from memory, not confirmed | 
+Soviet and church records | The Empty Throne at Etchmiadzin | Named from memory, not confirmed | 
+trial record 1934 (unheld) | Christmas Eve at Holy Cross | Named from memory, not confirmed | 
+Ratana Church & Pacific Adjustment Movements · Aotearoa New Zealand, Pacific
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Colonial and mission reports, Solomon Islands (1960s) | Ratana Church & Pacific Adjustment Movements | Named from memory, not confirmed | 
+NZ Parliament, Appendix to the Journals; 1924 press (1924) | Ratana Church & Pacific Adjustment Movements | Named from memory, not confirmed | 
+NZ election results 1943 (unheld) | A Potato, a Watch, a Tiki and a Feather | Named from memory, not confirmed | 
+NZ election returns 1943 (1943) | Ratana Church & Pacific Adjustment Movements | Named from memory, not confirmed | 
+Papers Past NZ newspapers 1924 (unheld, online, public domain) | The Petition Nobody Would Receive | Named from memory, not confirmed | 
+Te Ara / DNZB entry on T. W. Rātana; early Rātana church publications (1920s) | Ratana Church & Pacific Adjustment Movements | Named from memory, not confirmed | 
+The Liturgical Movement · Belgium, England, N. America
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Compte rendu of the Malines congress 1909 (Belgian, 1909) | The Liturgical Movement | Named from memory, not confirmed | 
+Hebert, Liturgy and Society (Faber, 1935) - copyright, unheld | The Liturgical Movement | Named from memory, not confirmed | 
+Latin American Base Communities · Brazil, Central America
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+CDF texts (unheld) | Latin American Base Communities | Named from memory, not confirmed | 
+Cardenal (1975-, author's own, unheld) | Latin American Base Communities | Named from memory, not confirmed | 
+Cardenal's own account (1979) | The End of Solentiname | Named from memory, not confirmed | 
+Cardenal, Love in Practice (1977/1979) | The End of Solentiname | Named from memory, not confirmed | 
+Jesuit records | The Road to El Paisnal | Named from memory, not confirmed | 
+Medellin Final Document 1968 (unheld) | Latin American Base Communities | Named from memory, not confirmed | 
+Nicaraguan press (1979) | The End of Solentiname | Named from memory, not confirmed | 
+Press 1977 | The Road to El Paisnal | Named from memory, not confirmed | 
+Romero diary; press (1977) | The Road to El Paisnal | Named from memory, not confirmed | 
+UN Truth Commission 1993 (1993) | The Road to El Paisnal | Named from memory, not confirmed | 
+UN Truth Commission report 1993 (unheld) | Latin American Base Communities | Named from memory, not confirmed | 
+Global South Pentecostal Christianity · Brazil, Nigeria, Ghana, Korea
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Berg, Enviado por Deus (1959) (1932) | Two Swedes Sail for Para | Named from memory, not confirmed | 
+Bergunder 2008 (unheld) | Global South Pentecostal Christianity | Named from memory, not confirmed | 
+Churches' own records (unheld) | Global South Pentecostal Christianity | Named from memory, not confirmed | 
+Pew 2011 (unheld) | Global South Pentecostal Christianity | Named from memory, not confirmed | 
+Vingren diary | Two Swedes Sail for Para | Named from memory, not confirmed | 
+Vingren, Diario (written 1910-32) | Two Swedes Sail for Para | Named from memory, not confirmed | 
+Chinese Catholicism — the First Chinese Bishops to the Divided Church · China
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+AAS 1946 (vol. 38) - unheld | Chinese Catholicism, Twentieth Century | Named from memory, not confirmed | 
+Contemporary reports | Chinese Catholicism, Twentieth Century | Named from memory, not confirmed | 
+Madsen, China's Catholics (1998) - unheld | Chinese Catholicism, Twentieth Century | Named from memory, not confirmed | 
+Pius XII, Ad Apostolorum principis (1958) - unheld | Chinese Catholicism, Twentieth Century | Named from memory, not confirmed | 
+The Chinese Church - Indigenous & Suffering · China
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Angus Kinnear, Against the Tide (1973) (1973) | Watchman Nee's Last Note | Named from memory, not confirmed | 
+Confession text (unheld) | The Chinese Church - Indigenous & Suffering | Named from memory, not confirmed | 
+Family account (grandniece) | Watchman Nee's Last Note | Named from memory, not confirmed | 
+Kinnear 1973 (1973) | Watchman Nee's Last Note | Named from memory, not confirmed | 
+Little Flock records (unheld) | The Chinese Church - Indigenous & Suffering | Named from memory, not confirmed | 
+Pew Forum report 2011 (unheld, same year) | The Chinese Church - Indigenous & Suffering | Named from memory, not confirmed | 
+Press 1956 | Watchman Nee's Last Note | Named from memory, not confirmed | 
+Three-Self press 1956 (1956) | 'I Am Peter' | Named from memory, not confirmed | 
+Wang Mingdao, Wushi nian lai (1950) and later A Stone Made Smooth (unheld) | The Chinese Church - Indigenous & Suffering | Named from memory, not confirmed | 
+Wang memoir (1981) | 'I Am Peter' | Named from memory, not confirmed | 
+Wang, A Stone Made Smooth/Stone Made Small (1981 memoir) | 'I Am Peter' | Named from memory, not confirmed | 
+The Coptic Monastic & Sunday-School Revival · Egypt
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Church records (unheld) | The Coptic Monastic & Sunday-School Revival | Named from memory, not confirmed | 
+Clerical College records | The Deacon Who Taught the Bishops | Named from memory, not confirmed | 
+Egyptian press | The Patriarch Sent to the Desert | Named from memory, not confirmed | 
+Girgis's own writings (unheld) | The Coptic Monastic & Sunday-School Revival | Named from memory, not confirmed | 
+Girgis's writings | The Deacon Who Taught the Bishops | Named from memory, not confirmed | 
+Heikal, Autumn of Fury (1983) | The Patriarch Sent to the Desert | Named from memory, not confirmed | 
+His books (unheld) | The Coptic Monastic & Sunday-School Revival | Named from memory, not confirmed | 
+Presidential decree | The Patriarch Sent to the Desert | Named from memory, not confirmed | 
+Shenouda and Matta's own accounts (c.1960) | The Deacon Who Taught the Bishops | Named from memory, not confirmed | 
+Shenouda's later statements (c.1985) | The Patriarch Sent to the Desert | Named from memory, not confirmed | 
+Watson, Egypt's Coptic Christians (c.1950) | The Deacon Who Taught the Bishops | Named from memory, not confirmed | 
+The Anglican Communion in the Twentieth Century · England, then worldwide
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Jerusalem Declaration 2008 (1968-2008) | The Anglican Communion in the Twentieth Century | Named from memory, not confirmed | 
+Modern Ethiopian & Eritrean Christianity · Ethiopia, Eritrea, Jamaica
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Church records (unheld) | Modern Ethiopian & Eritrean Christianity | Named from memory, not confirmed | 
+Contemporary reports (unheld) | Modern Ethiopian & Eritrean Christianity | Named from memory, not confirmed | 
+Derg-era records not online | Two Churchmen the Derg Killed | Named from memory, not confirmed | 
+Graziani telegrams 1937 (archival, not online) | Debre Libanos | Named from memory, not confirmed | 
+Italian reports as printed in Campbell 2014 (unheld, copyrighted) | Debre Libanos | Named from memory, not confirmed | 
+No early source | Two Churchmen the Derg Killed | Named from memory, not confirmed | 
+Witness and Discipleship (2003) (unheld) | Two Churchmen the Derg Killed | Named from memory, not confirmed | 
+Ecumenical Community Traditions - Taize & Iona · France, Scotland
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Community records (unheld) | Ecumenical Community Traditions - Taize & Iona | Named from memory, not confirmed | 
+Contemporary press (unheld) | Ecumenical Community Traditions - Taize & Iona | Named from memory, not confirmed | 
+Ferguson, George MacLeod (1990) (1944) | The Craftsmen and the Ministers on Iona | Named from memory, not confirmed | 
+MacLeod, We Shall Rebuild (1944) | The Craftsmen and the Ministers on Iona | Named from memory, not confirmed | 
+News reports 17 Aug 2005 | The Evening of 16 August 2005 | Named from memory, not confirmed | 
+Rule of Taize (1954) (unheld) | Ecumenical Community Traditions - Taize & Iona | Named from memory, not confirmed | 
+Taize statements (2005) | The Evening of 16 August 2005 | Named from memory, not confirmed | 
+The Ecumenical Movement & the World Council of Churches · Geneva; global
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Rouse & Neill (1954) | Lausanne, 1927 | Named from memory, not confirmed | 
+Salvation Army statement (1978) | The Special Fund | Named from memory, not confirmed | 
+The Times, Aug 1978 | The Special Fund | Named from memory, not confirmed | 
+WCC First Assembly Report (1948) (1948) | The Ecumenical Movement and the WCC | Named from memory, not confirmed | 
+WCC PCR Special Fund announcement (1970) | The Special Fund | Named from memory, not confirmed | 
+The Georgian Orthodox Church Restored · Georgia (Caucasus)
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Ambrosi memorandum to Genoa Conference (1922) | My Soul Belongs to God | Named from memory, not confirmed | 
+Assembly acts, 1917 (1917) | The Georgian Orthodox Church Restored | Named from memory, not confirmed | 
+Church documents of 1917 restoration (National Archives of Georgia) | Mtskheta, Then a Cell at Martkopi | Named from memory, not confirmed | 
+Contemporary Georgian accounts (unheld) | The Georgian Orthodox Church Restored | Named from memory, not confirmed | 
+Contemporary press / archives (1918) | Mtskheta, Then a Cell at Martkopi | Named from memory, not confirmed | 
+Council acts, Sept 1917 | Mtskheta, Then a Cell at Martkopi | Named from memory, not confirmed | 
+Patriarchate acts (1943/1990) | The Georgian Orthodox Church Restored | Named from memory, not confirmed | 
+Trial record 1924 | My Soul Belongs to God | Named from memory, not confirmed | 
+The Confessing Church · Germany
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Bentley, Martin Niemoller (1945) | Stuttgart, October 1945 | Named from memory, not confirmed | 
+Bonhoeffer, Life Together (1939) (unheld) | The Confessing Church | Named from memory, not confirmed | 
+Declaration text (Oct 1945) | Stuttgart, October 1945 | Named from memory, not confirmed | 
+Memorandum text (unheld) | The Confessing Church | Named from memory, not confirmed | 
+Sermon notes | Stuttgart, October 1945 | Named from memory, not confirmed | 
+Stuttgart Declaration text (unheld) | The Confessing Church | Named from memory, not confirmed | 
+Visser 't Hooft, Memoirs (1973) (1945) | Stuttgart, October 1945 | Named from memory, not confirmed | 
+{"work": "Theological Declaration of Barmen", "date": "1934"} | The Confessing Church | Named from memory, not confirmed | 
+Catholic Lay Renewal Traditions (Catholic Worker; Focolare; Charismatic Renewal; L'Arche) · Global
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Movements' records (unheld) | Catholic Lay Renewal Traditions (Catholic Worker; Focolare; Charismatic Renewal; L'Arche) | Named from memory, not confirmed | 
+NY Times 16 June 1955 (1955) | Dorothy Day Sits in the Park | Named from memory, not confirmed | 
+Reports (unheld) | Catholic Lay Renewal Traditions (Catholic Worker; Focolare; Charismatic Renewal; L'Arche) | Named from memory, not confirmed | 
+Lausanne-Era Global Evangelicalism · Global
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Let the Earth Hear His Voice (1975) (unheld) | The Gospel Has No Nationality | Named from memory, not confirmed | 
+Let the Earth Hear His Voice (1975, unheld) | Lausanne-Era Global Evangelicalism | Named from memory, not confirmed | 
+Progressive Christianity (a broad label, not one movement) · Global
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+The Eight Points (unheld) | Progressive Christianity (a broad label, not one movement) | Named from memory, not confirmed | 
+The Post-Vatican-II Parish Tradition · Global
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+AAS (unheld) | The Post-Vatican-II Parish Tradition | Named from memory, not confirmed | 
+AAS 56 (1964) (unheld) | The First Sunday in Italian | Named from memory, not confirmed | 
+Angelus text (unheld, vatican.va) | The First Sunday in Italian | Named from memory, not confirmed | 
+Lefebvre sermon 30 June 1988 (unheld) | Operation Survival | Named from memory, not confirmed | 
+Ordo initiationis christianae adultorum 1972 (unheld) | The Post-Vatican-II Parish Tradition | Named from memory, not confirmed | 
+Paul VI homily 7 Mar 1965 (unheld, vatican.va) | The First Sunday in Italian | Named from memory, not confirmed | 
+Protocol of 5 May 1988 (unheld) | Operation Survival | Named from memory, not confirmed | 
+Vatican documents (unheld) | The Post-Vatican-II Parish Tradition | Named from memory, not confirmed | 
+The Greek Church and the Ecumenical Patriarchate in the Twentieth Century · Greece, Istanbul
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Cerularius's synod acts - unheld; 1054 events are well attested | The Greek Church and the Ecumenical Patriarchate | Named from memory, not confirmed | 
+Humbert's bull, 16 July 1054 | The Greek Church and the Ecumenical Patriarchate | Named from memory, not confirmed | 
+Joint Catholic-Orthodox Declaration, 1965 (AAS 58) - unheld | The Greek Church and the Ecumenical Patriarchate | Named from memory, not confirmed | 
+Logotheti studies - unheld | The Greek Church and the Ecumenical Patriarchate | Named from memory, not confirmed | 
+Zoe Brotherhood records | The Greek Church and the Ecumenical Patriarchate | Named from memory, not confirmed | 
+Messianic Judaism · Israel, N. America
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Acts and Pauline letters (New Testament; not searched in cic/texts) | Messianic Judaism | Named from memory, not confirmed | 
+Alliance and UMJC records (unheld) | Messianic Judaism | Named from memory, not confirmed | 
+Cohn-Sherbok | The Vote at Messiah College | Named from memory, not confirmed | 
+HCJ 265/87 Beresford v Minister of the Interior, 43(4) PD 793 (1989) | Beresford v. Minister of the Interior | Named from memory, not confirmed | 
+Harris-Shapiro (1975) | The Vote at Messiah College | Named from memory, not confirmed | 
+MJAA proceedings 1975 | The Vote at Messiah College | Named from memory, not confirmed | 
+The books (unheld) | Messianic Judaism | Named from memory, not confirmed | 
+Japanese Christianity after 1906 · Japan
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Kyodan Confession of Faith, 1954 - unheld | Japanese Christianity After 1906 | Named from memory, not confirmed | 
+Kyodan formation records 1941 | Japanese Christianity After 1906 | Named from memory, not confirmed | 
+Mullins (1998) - unheld; card attributes it ('the Kyodan later wrote') | Japanese Christianity After 1906 | Named from memory, not confirmed | 
+Suzuki, Confession on the Responsibility of the Church during World War II (1967) - unheld | Japanese Christianity After 1906 | Named from memory, not confirmed | 
+Northeast India & the Mar Thoma Church — the 20th Century · Kerala; Mizo, Khasi & Naga hills; diaspora
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Census of India (1991-2011) | Northeast India and Mar Thoma | Named from memory, not confirmed | 
+Church records (1895-) | Northeast India and Mar Thoma | Named from memory, not confirmed | 
+Downs, North East India (1992) | The Church Leaders' Committee and the Accord | Named from memory, not confirmed | 
+Juhanon Mar Thoma, Christianity in India (1952) | The Sadhu on the Sandbed | Named from memory, not confirmed | 
+Memorandum of Settlement, Mizoram, 30 June 1986 | The Church Leaders' Committee and the Accord | Named from memory, not confirmed | 
+Mizoram Peace Accord text (1986) | The Church Leaders' Committee and the Accord | Named from memory, not confirmed | 
+Welsh Presbyterian Mission reports (1906-1913) | Northeast India and Mar Thoma | Named from memory, not confirmed | 
+The Malankara Churches — Orthodox & Jacobite · Kerala; worldwide diaspora
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Correspondence Yakub III and Baselios Geevarghese II (1958) | One Generation of Peace | Named from memory, not confirmed | 
+Court record 1958 | A Deposed Patriarch at Niranam | Named from memory, not confirmed | 
+Moran Mar Basselios Catholicos v. Thukalan Paulo Avira (1958) | A Deposed Patriarch at Niranam | Named from memory, not confirmed | 
+Moran Mar Basselios v. Thukalan Paulo Avira, AIR 1959 SC 31 | One Generation of Peace | Named from memory, not confirmed | 
+P.M.A. Metropolitan v. Moran Mar Marthoma (1995) | One Generation of Peace | Named from memory, not confirmed | 
+Supreme Court of India judgments (1958/1995) | The Malankara Churches | Named from memory, not confirmed | 
+Supreme Court of India, 1958 judgment | A Deposed Patriarch at Niranam | Named from memory, not confirmed | 
+Korean Protestantism in the Twentieth Century · Korea
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Kim Chi-bok histories - unheld | Korean Protestantism, Twentieth Century | Named from memory, not confirmed | 
+Lee (2010) | Korean Protestantism, Twentieth Century | Named from memory, not confirmed | 
+Lee, Born Again (2010) - unheld | Korean Protestantism, Twentieth Century | Named from memory, not confirmed | 
+Minutes of the 1907 Korean Presbytery | Korean Protestantism, Twentieth Century | Named from memory, not confirmed | 
+Moffett, Christianity in Asia vol. 2 - unheld | Korean Protestantism, Twentieth Century | Named from memory, not confirmed | 
+Shrine-worship accounts | Korean Protestantism, Twentieth Century | Named from memory, not confirmed | 
+Azusa Street & Early Pentecostalism · Los Angeles, then global
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Apostolic Faith (Azusa) 1906-08 (1912) | Parham Comes to Azusa Street | Named from memory, not confirmed | 
+Church bodies' own founding records, contemporary (unheld) | Azusa Street & Early Pentecostalism | Named from memory, not confirmed | 
+Frank Bartleman, How Pentecost Came to Los Angeles (1925) / Pentecostal press 1911 (1925) | The Split of 1911 and the Clause of 1915 | Named from memory, not confirmed | 
+Goff 1988 (1907) | Parham Comes to Azusa Street | Named from memory, not confirmed | 
+Parham's Sword of the Lord / Sarah Parham, Life of Charles F. Parham (1930) | Parham Comes to Azusa Street | Named from memory, not confirmed | 
+Parham, Sword of the Lord (1912) | Parham Comes to Azusa Street | Named from memory, not confirmed | 
+San Antonio press 1907 | Parham Comes to Azusa Street | Named from memory, not confirmed | 
+Seymour's own accounts (1930) | Parham Comes to Azusa Street | Named from memory, not confirmed | 
+Seymour, Doctrines and Discipline of the Azusa Street Apostolic Faith Mission (1915) (1915) | The Split of 1911 and the Clause of 1915 | Named from memory, not confirmed | 
+{"work": "Los Angeles Times 'Weird Babel of Tongues'", "date": "1906-04-18"} | Azusa Street & Early Pentecostalism | Named from memory, not confirmed | 
+{"work": "Seymour, Doctrines and Discipline of the Azusa Street Apostolic Faith Mission", "date": "1915"} | Azusa Street & Early Pentecostalism | Named from memory, not confirmed | 
+Latin American Catholicism in the Twentieth Century · Mexico, Brazil, Colombia, the continent
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Arreglos text, June 1929 | Latin American Catholicism, Twentieth Century | Named from memory, not confirmed | 
+CELAM, Rio conference conclusions 1955 - unheld | Latin American Catholicism, Twentieth Century | Named from memory, not confirmed | 
+ERPE records - unheld | Latin American Catholicism, Twentieth Century | Named from memory, not confirmed | 
+Meyer, La Cristiada (1973) - unheld | Latin American Catholicism, Twentieth Century | Named from memory, not confirmed | 
+Proano biographies | Latin American Catholicism, Twentieth Century | Named from memory, not confirmed | 
+Vatican canonization record, 2000 - unheld | Latin American Catholicism, Twentieth Century | Named from memory, not confirmed | 
+Branch Davidians & Apocalyptic Splinters · N. America
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Danforth Report 2000 (unheld) | Branch Davidians & Apocalyptic Splinters; The Seals Left Unwritten | Named from memory, not confirmed | 
+Danforth Report 2000 (unheld, US government public domain) | The Seals Left Unwritten | Named from memory, not confirmed | 
+Koresh letter of 14 April 1993 (unheld) | The Seals Left Unwritten | Named from memory, not confirmed | 
+Newport 2006 (unheld) | Branch Davidians & Apocalyptic Splinters | Named from memory, not confirmed | 
+The Shepherd's Rod (1930, unheld) | Branch Davidians & Apocalyptic Splinters | Named from memory, not confirmed | 
+Churches of Christ · N. America (upper South), then global
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Cogdill-Woods Debate (1957) | The Quarantine | Named from memory, not confirmed | 
+Gospel Advocate 1930-50 | The Tent Meetings of Marshall Keeble | Named from memory, not confirmed | 
+Gospel Advocate 1967 | The Tent Meetings of Marshall Keeble | Named from memory, not confirmed | 
+Gospel Advocate 1968 obituary | The Tent Meetings of Marshall Keeble | Named from memory, not confirmed | 
+Gospel Advocate, Dec 1954 | The Quarantine | Named from memory, not confirmed | 
+Gospel Guardian 1952 | The Quarantine | Named from memory, not confirmed | 
+Keeble, sermon collections | The Tent Meetings of Marshall Keeble | Named from memory, not confirmed | 
+US Census Bureau, Religious Bodies 1906 (1906) | Churches of Christ | Named from memory, not confirmed | 
+The Social Gospel · N. America (urban, industrial)
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Federal Council Quadrennial Report 1908 | The Social Gospel | Named from memory, not confirmed | 
+Gutenberg) | The Newspaper Jesus Would Edit | Named from memory, not confirmed | 
+Rauschenbusch articles 1890s | The Children's Funerals | Named from memory, not confirmed | 
+Sharpe 1942 for deafness and printings | The Children's Funerals | Named from memory, not confirmed | 
+Sharpe, Walter Rauschenbusch (1942) | The Children's Funerals | Named from memory, not confirmed | 
+Sheldon, Charles M. Sheldon: His Life Story (1925) | The Newspaper Jesus Would Edit | Named from memory, not confirmed | 
+Sheldon, In His Steps (1896 | The Newspaper Jesus Would Edit | Named from memory, not confirmed | 
+Sheldon, In His Steps (1908) | The Social Gospel | Named from memory, not confirmed | 
+Topeka Daily Capital Sheldon edition, Mar 1900 (Chronicling America/Kansas Historical Society) | The Newspaper Jesus Would Edit | Named from memory, not confirmed | 
+Oneness Pentecostalism · N. America and Mexico, then global
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Church minutes (unheld) | Oneness Pentecostalism | Named from memory, not confirmed | 
+Church's own history (unheld) | Oneness Pentecostalism | Named from memory, not confirmed | 
+Ewart, Phenomenon of Pentecost (1947) (1916) | St Louis, October 1916 | Named from memory, not confirmed | 
+Flower (1916) | St Louis, October 1916 | Named from memory, not confirmed | 
+G. T. Haywood, The Finest of the Wheat, 1920s (unheld) | The White Ministers Leave the Pentecostal Assemblies of the World | Named from memory, not confirmed | 
+Minutes 1916 | St Louis, October 1916 | Named from memory, not confirmed | 
+PAW/Pentecostal Ministerial Alliance minutes and resolutions, 1924 (unheld; not in public-domain online editions I know of) | The White Ministers Leave the Pentecostal Assemblies of the World | Named from memory, not confirmed | 
+UPC merger minutes, St Louis, Sept 1945 (unheld) | The White Ministers Leave the Pentecostal Assemblies of the World | Named from memory, not confirmed | 
+Word of Faith / Meat Out of the Eater (1914-15 periodicals) (unheld) | Oneness Pentecostalism | Named from memory, not confirmed | 
+The Seventh-day Adventist Church in the 20th Century · N. America and Peru, then global
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Andreasen Letters (1959) | Questions on Doctrine | Named from memory, not confirmed | 
+Barnhouse, Eternity (Sept 1956) | Questions on Doctrine | Named from memory, not confirmed | 
+Ford, Daniel 8:14 manuscript (1979) | Glacier View | Named from memory, not confirmed | 
+GC session minutes 1980 (1931/1980) | Seventh-day Adventist Church | Named from memory, not confirmed | 
+Glacier View documents (1980) | Glacier View | Named from memory, not confirmed | 
+Review and Herald, July-Aug 1915 (1915) | Seventh-day Adventist Church | Named from memory, not confirmed | 
+SDA Yearbook 1931 | Seventh-day Adventist Church | Named from memory, not confirmed | 
+Spectrum 1980 | Glacier View | Named from memory, not confirmed | 
+Spectrum 1980-85 | Glacier View | Named from memory, not confirmed | 
+Stahl reports, Review and Herald / Missionary Magazine (1910s) | Seventh-day Adventist Church | Named from memory, not confirmed | 
+The Mainline Century — Liberal Protestantism & Neo-Orthodoxy · N. America, Germany, Britain
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Auburn Affirmation text (1924) | The Mainline Century | Named from memory, not confirmed | 
+Fosdick, The Living of These Days (1956) | Shall the Fundamentalists Win? | Named from memory, not confirmed | 
+Union Theological Seminary, Annual Report 1892 | The Inaugural That Went to Trial | Named from memory, not confirmed | 
+The Emerging Church & Post-Evangelical Movement · N. America, UK, Australia
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Bibliographic record | Church in the Upstairs Room of a Pub | Named from memory, not confirmed | 
+Emergent Village's own records | The Emerging Church & Post-Evangelical Movement | Named from memory, not confirmed | 
+The books themselves (1995-2008) | The Emerging Church & Post-Evangelical Movement | Named from memory, not confirmed | 
+Tickle (2001-2008) | The Emerging Church & Post-Evangelical Movement | Named from memory, not confirmed | 
+Charismatic Renewal & the Jesus Movement · N. America, UK, then global
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Bloy letter 1960 | Nine O'Clock in the Morning | Named from memory, not confirmed | 
+Church records (1965-1982) | Charismatic Renewal and the Jesus Movement | Named from memory, not confirmed | 
+Newsweek, 1960 | Charismatic Renewal and the Jesus Movement | Named from memory, not confirmed | 
+Newsweek, 4 July 1960 | Nine O'Clock in the Morning | Named from memory, not confirmed | 
+Time, "The New Rebel Cry: Jesus Is Coming!" (1971) | The Preacher Two Movements Forgot | Named from memory, not confirmed | 
+Time, 15 Aug 1960 | Charismatic Renewal and the Jesus Movement | Named from memory, not confirmed | 
+Time, Aug 1960 | Nine O'Clock in the Morning | Named from memory, not confirmed | 
+The Narrative-Kingdom Renewal (the Bible as one story fulfilled in Jesus) · N. America, UK, then global (digital)
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+The books themselves (1989-2008) | The Narrative-Kingdom Renewal | Named from memory, not confirmed | 
+Unfinished Agenda (1985) (unheld, copyrighted) | Home by Bus, Then Winson Green | Named from memory, not confirmed | 
+Hebrew Roots & Torah-Observance Movements · N. America, digital-native
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+FFOZ history page | One Law, Reconsidered | Named from memory, not confirmed | 
+Melton, Encyclopedia of American Religions, "Sacred Name Groups" | The Faith, 1937 | Named from memory, not confirmed | 
+Messiah Journal 2009 (2009) | Hebrew Roots and Torah-Observance Movements | Named from memory, not confirmed | 
+The Faith (1937) (1937) | Hebrew Roots and Torah-Observance Movements | Named from memory, not confirmed | 
+torahresource.com/article/assessment-of-the-divine-invitation-teaching | One Law, Reconsidered | Named from memory, not confirmed | 
+Disciples of Christ & the Independent Christian Churches · N. America, then global
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Disciples Year Book | A Congregation in Good Standing | Named from memory, not confirmed | 
+Disciples Year Book 1968-1972 | The Design | Named from memory, not confirmed | 
+Disciples yearbooks | Disciples of Christ and Independent Christian Churches | Named from memory, not confirmed | 
+House Foreign Affairs Committee, Assassination of Rep. Leo J. Ryan and the Jonestown Tragedy (1979) | A Congregation in Good Standing | Named from memory, not confirmed | 
+NACC records | The Design | Named from memory, not confirmed | 
+NACC records (1927-1971) | Disciples of Christ and Independent Christian Churches | Named from memory, not confirmed | 
+Provisional Design for the Christian Church (Disciples of Christ) (1968) | The Design | Named from memory, not confirmed | 
+Dispensational Prophecy Culture · N. America, then global
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+88 Reasons (1988) (unheld, copyrighted) | Eighty-Eight Reasons | Named from memory, not confirmed | 
+Niagara Creed text (1878) | Dispensational Prophecy Culture | Named from memory, not confirmed | 
+The Final Shout (1989) (unheld) | Eighty-Eight Reasons | Named from memory, not confirmed | 
+The books and publisher records (1970-2007) | Dispensational Prophecy Culture | Named from memory, not confirmed | 
+press Sept 1988 (unheld) | Eighty-Eight Reasons | Named from memory, not confirmed | 
+Fundamentalism · N. America, then global
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+NYT 27 July 1925 (unheld) | Bryan on the Lawn | Named from memory, not confirmed | 
+Stewart brothers' records (1920) | Fundamentalism c. 1910-1970s | Named from memory, not confirmed | 
+Watchman-Examiner, July 1920 | Fundamentalism c. 1910-1970s | Named from memory, not confirmed | 
+The Megachurch & Seeker Movement · N. America, then global
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Church publications | The Megachurch & Seeker Movement | Named from memory, not confirmed | 
+Hybels and Warren books (1975-2007) | The Megachurch & Seeker Movement | Named from memory, not confirmed | 
+Leadership Summit 2007 (unheld) | The Wake-Up Call | Named from memory, not confirmed | 
+Reveal (2007) (unheld, copyrighted) | The Wake-Up Call | Named from memory, not confirmed | 
+The Third Wave & the Vineyard · N. America, then global
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Fuller Theological Seminary records | The Third Wave and the Vineyard | Named from memory, not confirmed | 
+Fuller faculty, Ministry and the Miraculous (1987) - unheld | The Third Wave and the Vineyard | Named from memory, not confirmed | 
+Poloma, Main Street Mystics (1997) and Vineyard press statements - unheld | The Third Wave and the Vineyard | Named from memory, not confirmed | 
+Wimber, Power Evangelism (1985), unheld | The Third Wave and the Vineyard | Named from memory, not confirmed | 
+New Calvinism (Young, Restless, Reformed) · N. America, then global (digital)
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Christianity Today, Sept 2006 (2006) | New Calvinism | Named from memory, not confirmed | 
+Keller, "Truth, Tears, Anger and Grace" (2001) | The Sunday After | Named from memory, not confirmed | 
+NY Times / church history pages, 2001 | The Sunday After | Named from memory, not confirmed | 
+Network and church records (1996-2007) | New Calvinism | Named from memory, not confirmed | 
+The Gospel Coalition, Confessional Statement and Theological Vision (2007) | The Sunday After | Named from memory, not confirmed | 
+The Way International; Unification Church; La Luz del Mundo · N. America; Korea; Mexico
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+718 F.2d 1210 (2d Cir. 1983), public court record (unheld) | Two Thousand Couples and a Tax Trial | Named from memory, not confirmed | 
+Appellate briefs, 1983 (unheld) | Two Thousand Couples and a Tax Trial | Named from memory, not confirmed | 
+Church records (unheld) | The Way International; Unification Church; La Luz del Mundo | Named from memory, not confirmed | 
+Court record (unheld) | The Way International; Unification Church; La Luz del Mundo | Named from memory, not confirmed | 
+NYT 2 July 1982 (unheld, paywalled) | Two Thousand Couples and a Tax Trial | Named from memory, not confirmed | 
+Wierwille's books (unheld) | The Way International; Unification Church; La Luz del Mundo | Named from memory, not confirmed | 
+The Rescue Mission Movement · New York, then the U.S. and Canada
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+IUGM proceedings, 1913 (not located in cic/texts) | The Rescue Mission Movement | Named from memory, not confirmed | 
+Pacific Garden Mission's own early records / Chicago city directories, 1877-80s (not located in cic/texts; searched 'Pacific Garden') | The Rescue Mission Movement | Named from memory, not confirmed | 
+American Orthodoxy — Autocephaly & the Convert Wave · North America
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Antiochian Archdiocese record of reception (1987) | Turned Away at the Phanar, Received in Van Nuys | Named from memory, not confirmed | 
+Athenagoras correspondence (1970) | A Dying Patriarch's Last Act | Named from memory, not confirmed | 
+Gillquist, Becoming Orthodox (1989) | American Orthodoxy: Autocephaly and the Convert Wave; Turned Away at the Phanar, Received in Van Nuys | Named from memory, not confirmed | 
+OCA record, Glorification of St Herman (1970) | A Dying Patriarch's Last Act | Named from memory, not confirmed | 
+Tomos of Autocephaly of the OCA (1970) | A Dying Patriarch's Last Act | Named from memory, not confirmed | 
+Tomos of autocephaly, Moscow (1970) | American Orthodoxy: Autocephaly and the Convert Wave | Named from memory, not confirmed | 
+Protestantism in Latin America · Panama, Guatemala, Colombia, Bolivia, Peru, Mexico
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Bastian (1990, 1994) - unheld | Protestantism in Latin America | Named from memory, not confirmed | 
+CLAI founding documents, 1982 | Protestantism in Latin America | Named from memory, not confirmed | 
+Guaman (2008) - unheld, modern author's own estimate | Protestantism in Latin America | Named from memory, not confirmed | 
+Emigre Orthodoxy & the Paris School · Paris, then global
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Bulgakov, Autobiographical Notes (1935) | The Condemnations of 1935 | Named from memory, not confirmed | 
+Camp and witness records (unheld) | Emigre Orthodoxy & the Paris School | Named from memory, not confirmed | 
+Commission report 1936 (1936) | The Condemnations of 1935 | Named from memory, not confirmed | 
+Gestapo and camp records | Mother Maria at the Velodrome d'Hiver | Named from memory, not confirmed | 
+Institute records (unheld) | Emigre Orthodoxy & the Paris School | Named from memory, not confirmed | 
+Smith (2003) | Mother Maria at the Velodrome d'Hiver | Named from memory, not confirmed | 
+The books themselves (unheld) | Emigre Orthodoxy & the Paris School | Named from memory, not confirmed | 
+Tomos 1970 (unheld) | Emigre Orthodoxy & the Paris School | Named from memory, not confirmed | 
+Ukazes 1935 (Tserkovnye Vedomosti) | The Condemnations of 1935 | Named from memory, not confirmed | 
+Iglesia ni Cristo · Philippines
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Church announcements (1963/2009) | Iglesia ni Cristo | Named from memory, not confirmed | 
+Pasugo (1939-, unheld) | Iglesia ni Cristo | Named from memory, not confirmed | 
+Philippine government registration (1914) | Iglesia ni Cristo | Named from memory, not confirmed | 
+Philippine Catholicism in the Twentieth Century · Philippines
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Wiegele, Investing in Miracles (2005) - unheld | Philippine Catholicism, Twentieth Century | Named from memory, not confirmed | 
+Youngblood, Marcos against the Church (1990) - unheld; card attributes it to Youngblood | Philippine Catholicism, Twentieth Century | Named from memory, not confirmed | 
+The Philippine Independent Church in the Twentieth Century · Philippines
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Concordat text, 1961 - unheld | Philippine Independent Church, Twentieth Century | Named from memory, not confirmed | 
+Episcopal Church records, Binsted reports - unheld | Philippine Independent Church, Twentieth Century | Named from memory, not confirmed | 
+IFI Declaration of Faith, 1947 - unheld | Philippine Independent Church, Twentieth Century | Named from memory, not confirmed | 
+Whittemore, The Episcopal Church in the Philippines | Philippine Independent Church, Twentieth Century | Named from memory, not confirmed | 
+Polish Catholicism — Wyszyński and John Paul II · Poland
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Chronicle of the Catholic Church in Lithuania, issue 1 (1972) - unheld | Polish Catholicism: Wyszynski and John Paul II | Named from memory, not confirmed | 
+Homily text, Vatican archive, 1979 - unheld | Polish Catholicism: Wyszynski and John Paul II | Named from memory, not confirmed | 
+Jasna Gora Vows text, 1956 - unheld | Polish Catholicism: Wyszynski and John Paul II | Named from memory, not confirmed | 
+Letter of the Polish Bishops, 1965 (Kominek draft) - unheld | Polish Catholicism: Wyszynski and John Paul II | Named from memory, not confirmed | 
+Wyszynski, Zapiski wiezienne (prison notes) | Polish Catholicism: Wyszynski and John Paul II | Named from memory, not confirmed | 
+Orthodoxy in the Communist Balkans — the Serbian, Romanian, Bulgarian and Albanian Churches · Romania, Bulgaria, Serbia, Albania
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Bulgarian Church acts, 1953 - unheld | Orthodoxy in the Communist Balkans | Named from memory, not confirmed | 
+Leustean (2010) - unheld | Orthodoxy in the Communist Balkans | Named from memory, not confirmed | 
+Mircea Vulcanescu-era memoirs | Orthodoxy in the Communist Balkans | Named from memory, not confirmed | 
+Securitate files | Orthodoxy in the Communist Balkans | Named from memory, not confirmed | 
+Tomos of Constantinople, 1922 - unheld | Orthodoxy in the Communist Balkans | Named from memory, not confirmed | 
+The Catholic Church — Pius X to the Eve of the Council · Rome, the Catholic world
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+AAS 1959 | Out of the Factories by March | Named from memory, not confirmed | 
+Godin and Daniel, La France, pays de mission? (1943) | Out of the Factories by March | Named from memory, not confirmed | 
+La Documentation catholique, Jan 1954 | Out of the Factories by March | Named from memory, not confirmed | 
+Petre, Autobiography and Life of George Tyrrell (1912) | The Grave at Storrington | Named from memory, not confirmed | 
+The Russian Orthodox Church — Council, Patriarchate and Reunion · Russia
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Act of Canonical Communion, 2007 - unheld | The Russian Orthodox Church: Council, Patriarchate and Reunion | Named from memory, not confirmed | 
+Basis of the Social Concept, 2000 - unheld | The Russian Orthodox Church: Council, Patriarchate and Reunion | Named from memory, not confirmed | 
+The East African Revival (Balokole) · Rwanda, Uganda, Kenya, Tanzania
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Abbey record (1998) | The Bishop Who Walked to Rwanda | Named from memory, not confirmed | 
+Church Missionary Society archives | The Mukono Expulsions | Named from memory, not confirmed | 
+Contemporary press | The Bishop Who Walked to Rwanda | Named from memory, not confirmed | 
+Convention records, Kabale 1935- (unheld) | The East African Revival (Balokole) | Named from memory, not confirmed | 
+Kevin Ward (1954) | The Mukono Expulsions | Named from memory, not confirmed | 
+Kivengere, I Love Idi Amin (1977) (1977) | The Bishop Who Walked to Rwanda | Named from memory, not confirmed | 
+Max Warren, Revival: An Enquiry (1954) | The Mukono Expulsions | Named from memory, not confirmed | 
+Westminster Abbey statement (unheld, contemporary) | The East African Revival (Balokole) | Named from memory, not confirmed | 
+{"work": "Joe Church, Quest for the Highest (participant account)", "date": "1981"} | The East African Revival (Balokole) | Named from memory, not confirmed | 
+The Church Struggle against Apartheid · South Africa
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Belhar Confession text - unheld | The Church Struggle Against Apartheid | Named from memory, not confirmed | 
+DRMC synod records | The Church Struggle Against Apartheid | Named from memory, not confirmed | 
+Kairos Document (1985), unheld; card notes signatory count varies | The Church Struggle Against Apartheid | Named from memory, not confirmed | 
+WCC, Cottesloe consultation statement, 1960 - unheld | The Church Struggle Against Apartheid | Named from memory, not confirmed | 
+Sudanese Christianity through the Civil Wars · Sudan, South Sudan
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Comprehensive Peace Agreement text, 2005 - unheld | Sudanese Christianity Through the Civil Wars | Named from memory, not confirmed | 
+Johnson, Root Causes of Sudan's Civil Wars - unheld | Sudanese Christianity Through the Civil Wars | Named from memory, not confirmed | 
+Rolandsen, Guerrilla Government (2005) | Sudanese Christianity Through the Civil Wars | Named from memory, not confirmed | 
+Sudan Missionary Societies Act 1962 and 1964 expulsion order | Sudanese Christianity Through the Civil Wars | Named from memory, not confirmed | 
+Werner, Anderson and Wheeler (2000) - unheld | Sudanese Christianity Through the Civil Wars | Named from memory, not confirmed | 
+Indonesian Christianity — the Independent Century · Sumatra, Java, Timor, the archipelago
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Census and mission reports (1970s) | Indonesian Christianity: The Independent Century | Named from memory, not confirmed | 
+Cribb, The Indonesian Killings of 1965-66 (1990) | Two Million in Six Years | Named from memory, not confirmed | 
+HKBP records; mission reports (1930) | Indonesian Christianity: The Independent Century | Named from memory, not confirmed | 
+Peters, Indonesia Revival (1973) | Indonesian Christianity: The Independent Century; The Night at Soe | Named from memory, not confirmed | 
+Tari, Like a Mighty Wind (1971) | The Night at Soe | Named from memory, not confirmed | 
+Willis, Indonesian Revival (1977) | Two Million in Six Years | Named from memory, not confirmed | 
+The Romanian Greek Catholic Church — Suppression and Return · Transylvania (Romania)
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+AAS 1990 - unheld | The Romanian Greek Catholic Church: Suppression and Return | Named from memory, not confirmed | 
+Decree 358/1948, Official Gazette - unheld | The Romanian Greek Catholic Church: Suppression and Return | Named from memory, not confirmed | 
+Decree-Law 9/1989 - unheld | The Romanian Greek Catholic Church: Suppression and Return | Named from memory, not confirmed | 
+The Sayfo & the Syriac Diaspora · Tur Abdin, Urmia, then global
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Declaration text (unheld) | The Sayfo & the Syriac Diaspora | Named from memory, not confirmed | 
+Memoranda to the Paris Peace Conference 1919 (unheld) | Shall This Nation Die? | Named from memory, not confirmed | 
+Naayem 1921 (unheld) | The Sayfo & the Syriac Diaspora | Named from memory, not confirmed | 
+Naayem, Shall This Nation Die? New York 1921 (unheld, public domain, likely on archive.org) | Shall This Nation Die? | Named from memory, not confirmed | 
+San Jose / SF press Nov 1975 (unheld, copyrighted) | The Patriarch Shot at His Own Door | Named from memory, not confirmed | 
+The Assyrian Tragedy 1934 (unheld) | The Patriarch Shot at His Own Door | Named from memory, not confirmed | 
+African Diaspora & Reverse-Mission Churches in Europe · UK, Germany, Netherlands, Ukraine
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Charity Commission KICC Inquiry Report, 2005 (unheld, UK government) | The Regulator and the Birthday | Named from memory, not confirmed | 
+Church records (unheld) | African Diaspora & Reverse-Mission Churches in Europe | Named from memory, not confirmed | 
+Churches' own records (unheld) | African Diaspora & Reverse-Mission Churches in Europe | Named from memory, not confirmed | 
+Churches' records (unheld) | African Diaspora & Reverse-Mission Churches in Europe | Named from memory, not confirmed | 
+press Nov-Dec 2004 (unheld) | Seven People in a Kyiv Flat | Named from memory, not confirmed | 
+The Russian New Martyrs & the Catacomb Church · USSR
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Butovo execution lists (Memorial / Butovo Book of Memory, unheld) | Carried to Butovo on a Stretcher | Named from memory, not confirmed | 
+Butovo execution lists (unheld) | The Russian New Martyrs & the Catacomb Church | Named from memory, not confirmed | 
+Council acts (unheld) | The Russian New Martyrs & the Catacomb Church | Named from memory, not confirmed | 
+Declaration of 29 July 1927 (unheld, public domain) | Your Joys Are Our Joys | Named from memory, not confirmed | 
+Letters of Kirill and Joseph (unheld) | Your Joys Are Our Joys | Named from memory, not confirmed | 
+NKVD file / synod acts 2000 (unheld) | Your Joys Are Our Joys | Named from memory, not confirmed | 
+church press 2007 (unheld) | Carried to Butovo on a Stretcher | Named from memory, not confirmed | 
+Persecuted-Church Traditions of the Communist Era (Initsiativniki Baptists; Romania's Lord's Army) · USSR, Romania
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Consistory acts | Trifa Buried Without His Vestments | Named from memory, not confirmed | 
+Council bulletins 1964- | The Council of Prisoners' Relatives | Named from memory, not confirmed | 
+Keston archive | The Council of Prisoners' Relatives | Named from memory, not confirmed | 
+Khristianin and bulletins (unheld) | Persecuted-Church Traditions of the Communist Era (Initsiativniki Baptists; Romania's Lord's Army) | Named from memory, not confirmed | 
+Lord's Army press (c.1938) | Trifa Buried Without His Vestments | Named from memory, not confirmed | 
+Oastea Domnului weekly (unheld) | Persecuted-Church Traditions of the Communist Era (Initsiativniki Baptists; Romania's Lord's Army) | Named from memory, not confirmed | 
+Press 1979 (1979) | The Council of Prisoners' Relatives | Named from memory, not confirmed | 
+The bulletins (unheld, contemporary) | Persecuted-Church Traditions of the Communist Era (Initsiativniki Baptists; Romania's Lord's Army) | Named from memory, not confirmed | 
+Vins (unheld) | Persecuted-Church Traditions of the Communist Era (Initsiativniki Baptists; Romania's Lord's Army) | Named from memory, not confirmed | 
+Vins, Three Generations of Suffering (1976) (1976) | The Council of Prisoners' Relatives | Named from memory, not confirmed | 
+The Catholic Church in Africa in the Twentieth Century · Uganda, Rwanda, Zaire, Cameroon, sub-Saharan Africa
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Congregation for Divine Worship decree, 1988 - unheld | The Catholic Church in Africa, Twentieth Century | Named from memory, not confirmed | 
+Des pretres noirs s'interrogent (Presence Africaine, 1956), unheld | The Catholic Church in Africa, Twentieth Century | Named from memory, not confirmed | 
+Longman, Christianity and Genocide in Rwanda (2010) - unheld | The Catholic Church in Africa, Twentieth Century | Named from memory, not confirmed | 
+Paul VI, Kampala address, AAS 61 (1969) - unheld | The Catholic Church in Africa, Twentieth Century | Named from memory, not confirmed | 
+The Ukrainian Greek Catholic Underground · Ukraine
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Acts of the 1946 Lviv Sobor (unheld) | A Council Without Bishops | Named from memory, not confirmed | 
+Archives (unheld) | The Ukrainian Greek Catholic Underground | Named from memory, not confirmed | 
+Church histories (unheld) | The Ukrainian Greek Catholic Underground | Named from memory, not confirmed | 
+Contemporary press / NKGB files | A Council Without Bishops | Named from memory, not confirmed | 
+Cousins 1972 (unheld, copyrighted) | Eighteen Years, Then a Train to Rome | Named from memory, not confirmed | 
+NKGB files (archival) | A Council Without Bishops | Named from memory, not confirmed | 
+Sheptytsky letters (unheld) | The Ukrainian Greek Catholic Underground | Named from memory, not confirmed | 
+Slipyj memoirs (unheld, copyrighted) | Eighteen Years, Then a Train to Rome | Named from memory, not confirmed | 
+Synod records (unheld) | The Ukrainian Greek Catholic Underground | Named from memory, not confirmed | 
+Promise Keepers & the Christian Men's Movement · United States
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Bartkowski, The Promise Keepers (2004) - unheld | Promise Keepers and the Christian Men's Movement | Named from memory, not confirmed | 
+McCartney, From Ashes to Glory (1990) | Promise Keepers and the Christian Men's Movement | Named from memory, not confirmed | 
+Promise Keepers' own tallies, reported by Bartkowski (2004); figures are organiser claims - unheld | Promise Keepers and the Christian Men's Movement | Named from memory, not confirmed | 
+The Black Church in the Twentieth Century · United States
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Birmingham News 16 Sept 1963 | The Love That Forgives | Named from memory, not confirmed | 
+Chicago Defender, Sept-Nov 1961 | Kansas City, 1961 | Named from memory, not confirmed | 
+Denominational and SCLC records (1907-1957) | The Black Church in the Twentieth Century | Named from memory, not confirmed | 
+King eulogy, 18 Sept 1963 | The Love That Forgives | Named from memory, not confirmed | 
+NBC USA minutes 81st session | Kansas City, 1961 | Named from memory, not confirmed | 
+State v. Chambliss (1977) | The Love That Forgives | Named from memory, not confirmed | 
+State v. Cherry (2002) | The Love That Forgives | Named from memory, not confirmed | 
+The books (1969-1970) | The Black Church in the Twentieth Century | Named from memory, not confirmed | 
+The Christian Homeschool Movement · United States
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Dobson broadcast itself not held | The Christian Homeschool Movement | Named from memory, not confirmed | 
+HSLDA founding records | The Christian Homeschool Movement | Named from memory, not confirmed | 
+Moore, Better Late Than Early (1975), copyright, unheld | The Christian Homeschool Movement | Named from memory, not confirmed | 
+Stevens 2001 (unheld) | The Christian Homeschool Movement | Named from memory, not confirmed | 
+Stevens, Kingdom of Children (2001) - modern scholarship, unheld | The Christian Homeschool Movement | Named from memory, not confirmed | 
+The Christian Right · United States
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+Christian Coalition records (1989) | The Christian Right | Named from memory, not confirmed | 
+Reagan speech, Religious Roundtable, Dallas, 22 Aug 1980 | The Christian Right | Named from memory, not confirmed | 
+African-Initiated Churches (Harrist; Aladura; Zionist/ZCC; Kimbanguist) · W. & S. Africa, Congo
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+1921 colonial court record (unheld) | African-Initiated Churches (Harrist; Aladura; Zionist/ZCC; Kimbanguist) | Named from memory, not confirmed | 
+Belgian colonial archives, published trial record (1921) | Kimbangu before the Military Court | Named from memory, not confirmed | 
+Benoit interview notes 1926 (unheld, 11 yrs) | African-Initiated Churches (Harrist; Aladura; Zionist/ZCC; Kimbanguist) | Named from memory, not confirmed | 
+Church founding records, contemporary (unheld) | African-Initiated Churches (Harrist; Aladura; Zionist/ZCC; Kimbanguist) | Named from memory, not confirmed | 
+Colonial records; church history (1959) | Kimbangu before the Military Court | Named from memory, not confirmed | 
+Founders' records (unheld) | African-Initiated Churches (Harrist; Aladura; Zionist/ZCC; Kimbanguist) | Named from memory, not confirmed | 
+Missionary reports 1921 (BMS/Jennings); movement tradition (1921) | Kimbangu before the Military Court | Named from memory, not confirmed | 
+Omoyajowo (1982) (1968) | Christianah Abiodun's Trance, and What Became of Her | Named from memory, not confirmed | 
+Patriarchate letters (unheld) | African-Initiated Churches (Harrist; Aladura; Zionist/ZCC; Kimbanguist) | Named from memory, not confirmed | 
+Peel 1968; church histories (1968) | Christianah Abiodun's Trance, and What Became of Her | Named from memory, not confirmed | 
+Peel, Aladura (1968) from oral accounts | Christianah Abiodun's Trance, and What Became of Her | Named from memory, not confirmed | 
+WCC records, 1969 (unheld) | African-Initiated Churches (Harrist; Aladura; Zionist/ZCC; Kimbanguist) | Named from memory, not confirmed | 
+The 1904-07 Revival Family (Wales; Mukti India; Pyongyang Korea) · Wales, India, Korea
+Text: title, author, date. Edition or link where known | Cards that need it | Status | 
+G. McCune report 1907 (1910) | The Elder Confesses at Pyongyang | Named from memory, not confirmed | 
+Korean church histories (1920) | The Elder Confesses at Pyongyang | Named from memory, not confirmed | 
+Penn-Lewis & Roberts, War on the Saints (1912) (1906) | Evan Roberts Falls Silent | Named from memory, not confirmed | 
+Presbyterian records | The Elder Confesses at Pyongyang | Named from memory, not confirmed | 
+Press 1906 | Evan Roberts Falls Silent | Named from memory, not confirmed | 
+War on the Saints (1912/1913) (1912) | Evan Roberts Falls Silent | Named from memory, not confirmed | 
+{"work": "Western Mail revival supplements", "date": "1904-1905"} | The 1904-07 Revival Family (Wales; Mukti India; Pyongyang Korea) | Named from memory, not confirmed | 
+Dropped as already held (82). Check these matches
+Text named | Held file that matches | 
+Africanus to Origen and Origen to Africanus, c.240, Greek (Migne PG 11 | origen_opera-omnia-t7-pamphilus-apologia-pg17-grc-lat_migne1857.txt | 
+Julius Africanus, Kestoi (fragments) | anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml | 
+John Chrysostom, Adversus Iudaeos 1-8, 386-387 (Greek PG 48 | john-chrysostom_homily-martyr-lucian-grc-lat_migne-pg50.txt | 
+Justinian Novel 37 (535) | justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt | 
+Cyril of Scythopolis, Vita Sabae (Greek, c.557) | cyril-scythopolis_vita-sabae-in-surius-vitae-sanctorum-v12-december-lat_1880.txt | 
+Cyril of Scythopolis, Vita Sabae (Greek, c.557), chs 83-90 | cyril-scythopolis_vita-sabae-in-surius-vitae-sanctorum-v12-december-lat_1880.txt | 
+Gregory VII, Registrum | gregory-great_registrum-epistolarum-t2-pars1-libri-8-9-lat_ewald-hartmann1893.txt | 
+History of the Patriarchs of Alexandria, Life of Michael I (Arabic/English, Evetts, Patrologia Orientalis 5, 1910); composed late 8th c. | severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt | 
+History of the Patriarchs vol. 2, Evetts | severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt | 
+Yahya of Antioch, Continuation of Eutychius (c.1040), ed. Cheikho/Kratchkovsky-Vasiliev | po18_patrologia-orientalis-t18-yahya-ibn-said-histoire-ara-fra_kratchkovsky-vasiliev1924.txt | 
+Kartlis Tskhovreba, Life of Queen Tamar (c.1210) | kartlis-tskhovreba_histoire-de-la-georgie-pt1-histoire-ancienne-fra_brosset1849.txt | 
+Kartlis Tskhovreba: History of King of Kings David (c.1125) | kartlis-tskhovreba_histoire-de-la-georgie-pt1-histoire-ancienne-fra_brosset1849.txt | 
+Life of King of Kings David | kings-chapel_liturgy-collected-principally-from-the-book-of-common-prayer_1785.txt | 
+Jacques de Vitry, Lettres (Huygens, 1960), letter VI, 1220 | jacques-de-vitry_briefe-in-zeitschrift-fuer-kirchengeschichte-14-lat-deu_rohricht1894.txt | 
+Pius V, bull suppressing the Humiliati (1571) | bullarium-romanum_magnum-bullarium-tomus2-pius-iv-to-innocent-ix-lat_cherubini.txt | 
+Clementinae 5.3.3 Ad nostrum (Corpus iuris canonici ed. Friedberg, vol. 2 later half) | corpus-iuris-canonici_pars-2-decretalium-collectiones-lat_friedberg1881.txt | 
+Innocent III bull Quia divinae sapientiae, 1215 (Potthast | bullarium-romanum_magnum-bullarium-tomus2-pius-iv-to-innocent-ix-lat_cherubini.txt | 
+Acta Sanctorum Apr. III Peter Martyr early vitae | acta-martyrum-selecta_gebhardt1902.txt | 
+Innocent IV canonization bull 1253 | bullarium-romanum_magnum-bullarium-tomus2-pius-iv-to-innocent-ix-lat_cherubini.txt | 
+Jordan of Saxony, Libellus de principiis Ordinis Praedicatorum (c.1233) | jordan-saxony_die-briefe-lat-deu_altaner1925.txt | 
+Chauncy, Passion and Martyrdom of the Holy English Carthusian Fathers (1570) | chauncy-maurice_history-of-the-sufferings-of-eighteen-carthusians-in-england_1890.txt | 
+Gadla Estifanos, unheld; also Chronicle of Zara Yaqob (held, Perruchon 1893, line 14374 mentions Estifanos or Etienne) | zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893.txt | 
+Ribadeneira, Vita Ignatii Loiolae (1572) | ribadeneira_vita-ignatii-loiolae-lat_1572.txt | 
+In agro dominico (27 Mar 1329), printed in Denifle/Archiv für Literatur- und Kirchengeschichte 1886 or Bullarium; unheld | ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885.txt | 
+Orthodox Confession 1642-43 with Iasi acts | mogila_orthodox-confession_anon1762.txt | 
+Novyi letopisets / Hermogenes letters | polnoe-sobranie-russkikh-letopisei_t14-1-povest-o-tsare-feodore-i-novyi-letopisets-rus_1910.txt | 
+Brandt History of the Reformation vol 4 (London 1723) | brandt_history-of-the-reformation-in-the-low-countries-v3_1722.txt | 
+Pallavicino Istoria vol 1-2 (1656) already partly held; early printed process not freely available | pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt | 
+Sapieha letter of 1622 (in Documenta Romana / Akty Zapadnoi Rossii vol 4 if it prints it), 1622 | akty-iuzhnoi-i-zapadnoi-rossii_t2-1599-1637-rus_kostomarov1865.txt | 
+Lacy, Cry from the Desart (held) predates the event | misson_cry-from-the-desart_lacy1707.txt | 
+Lettres edifiantes vol. on 1692 edict (held t19-22 may cover; not matched) | lettres-edifiantes_memoires-de-la-chine-t19-fra_1781.txt | 
+Serpos, Compendio (held 1786, t3) check | serpos_compendio-storico-nazione-armena-t1-ita_1786.txt | 
+Assemani, Bibliotheca Orientalis vol. 3 part 1 (1725) - held? assemani_...pars1 exists | assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt | 
+Volney, Travels through Syria and Egypt vol. 1 (1787) | volney_travels-through-syria-and-egypt-v2_1788.txt | 
+A Collection of Sundry Books, Epistles and Papers written by James Nayler (1716) and 'Last Words' pamphlet 1660 | fox_collection-of-epistles_1698.txt | 
+The Germantown Protest, 1688 (Philadelphia Yearly Meeting records / Pastorius papers) and the minutes of Dublin, Philadelphia, Burlington meetings 1688 | philadelphia-yearly-meeting_declaration-respecting-those-who-have-separated_1828.txt | 
+Thomas Burton, Diary of Thomas Burton (MS 1656-7) | baxter_autobiography-reliquiae-baxterianae-abridged_lloyd-thomas1925.txt | 
+Port-Royal 'Relation' of the 1711 exhumation or Saint-Simon, Memoires (1710s-50s) | port-royal_divers-actes-lettres-relations-fra_1724.txt | 
+Marie Durand, letters (published 1850s) or Coquerel, Eglises du Desert (1841) is held | coquerel-charles_histoire-des-eglises-du-desert-t1-fra_1841.txt | 
+Chronicon Ephratense (Ephrata, 1786) | lamech-agrippa_chronicon-ephratense-deu_ephrata1786.txt | 
+Avvakum's epistles in Subbotin v5 (held; locate passage) | avvakum_sochineniia-materialy-v5-rus_subbotin1879.txt | 
+Oldendorp, Geschichte der Mission ... Part 2 (1777) | oldendorp_geschichte-der-mission-caraibische-inseln-v1-deu_bossart1777.txt | 
+Launay, Histoire generale de la Societe des Missions-Etrangeres vol. 1 (1894) | launay_histoire-des-missions-de-chine-kouy-tcheou-t1-fra_1907.txt | 
+Synod text of 1701 (Nilles) | maruta-of-maipherqat_de-sancta-nicaena-synodo-syrische-texte-deu_braun1898.txt | 
+Howell Harris's Trevecka diaries and Association minutes (NLW) | harris-howell_brief-account-of-the-life-with-letters_1791.txt | 
+John Hughes (Pontrobert) 1820s memoir of Ann Griffiths or Thomas Charles notes | braithwaite_memoirs-of-joseph-john-gurney-v1_1854.txt | 
+Nikodemos the Hagiorite, Neon Martyrologion (1799) | nikodemos-hagiorite_pedalion-canons-grc_1886.txt | 
+Spurgeon, Autobiography v2 (1898) | spurgeon_autobiography-v1-1834-1854_1897.txt | 
+General Conference Journal (1844) | new-jerusalem-church_minutes-of-the-first-general-conference_hindmarsh1789.txt | 
+Hugh Bourne, History of the Primitive Methodists (unheld) | antliff_life-of-the-venerable-hugh-bourne_1872.txt | 
+MEC General Conference Journal 1844 (unheld) | new-jerusalem-church_minutes-of-the-first-general-conference_hindmarsh1789.txt | 
+The Christian Mission Magazine / War Cry 1878-79 | mott_decisive-hour-of-christian-missions_1910.txt | 
+Liddon, Life of E. B. Pusey v.2-3 (1894-97) | liddon_life-of-edward-bouverie-pusey-v1_1893.txt | 
+Lambeth Conference 1867 Encyclical letter (unheld) | lambeth-conference_1908-encyclical-letter-resolutions-and-reports_spck1908.txt | 
+Concordat text (1860), Acta Sanctae Sedis (unheld volume) | acta-sanctae-sedis_v40-lat_1907.txt | 
+CMS Niger Mission minutes and Crowther letters 1890 | crowther_journal-of-an-expedition-up-the-niger-and-tshadda_1855.txt | 
+Periodical Accounts 1830s (unheld) | moravian-church_periodical-accounts-missions-v1_1790.txt | 
+Ellis, Three Visits to Madagascar (1858) | ellis_history-of-madagascar-v1_1838.txt | 
+Millennial Dawn vol. 2, 1889 | russell_millennial-dawn-v1-plan-of-the-ages_1886.txt | 
+Ohio Yearly Meeting minutes, 1828 | london-yearly-meeting_extracts-from-minutes-and-advices_1783.txt | 
+Court records, de Cock's trial 1835 (unheld) | scopes-trial_worlds-most-famous-court-trial-tennessee-evolution-case-3e_1925.txt | 
+Zhitie startsa Leonida (Optina, 1876) | paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt | 
+Conybeare, Russian Dissenters is held for context (unheld for event) | conybeare_russian-dissenters_1921.txt | 
+Baptist church minutes (1932) | general-baptist-assembly_minutes-v1-1654-1728_whitley1909.txt | 
+Lambeth 1968 and 1998 reports | lambeth-conference_1908-encyclical-letter-resolutions-and-reports_spck1908.txt | 
+Catholic Worker; press (1961) | catholic-worker_v37-no2-june-1969.txt | 
+Participants' accounts, 1967 (unheld) | krey_first-crusade-accounts-of-eye-witnesses-and-participants_1921.txt | 
+The Catholic Worker, July-Aug 1955 | catholic-worker_v37-no2-june-1969.txt | 
+Lausanne Covenant (unheld, lausanne.org) | faith-and-order_lausanne-1927-proceedings_bate1927.txt | 
+Lausanne Movement press releases Oct 2010 (unheld) | lausanne-movement_cape-town-commitment_2011.txt | 
+Acta Apostolicae Sedis 1964-66 (unheld; held AAS volumes are 1910-28) | acta-apostolicae-sedis_v18-lat_1926.txt | 
+Ecclesia Dei 1988 (unheld, vatican.va) | laemmer_monumenta-vaticana-historiam-ecclesiasticam-saeculi-xvi-lat-ita_1861.txt | 
+Church and court records (Malankara church case) (1912-1995) | scopes-trial_worlds-most-famous-court-trial-tennessee-evolution-case-3e_1925.txt | 
+AG General Council minutes (unheld) | general-baptist-assembly_minutes-v1-1654-1728_whitley1909.txt | 
+Minutes of the General Council 1916 | general-baptist-assembly_minutes-v1-1654-1728_whitley1909.txt | 
+Questions on Doctrine (1957) | schultz-christopher_short-questions-christian-doctrine_rupp1863.txt | 
+Minutes of the General Assembly PCUSA 1923 and 1924 | general-baptist-assembly_minutes-v1-1654-1728_whitley1909.txt | 
+Minutes of the 146th General Assembly PCUSA 1934 (archive.org/HathiTrust, 1934) | general-baptist-assembly_minutes-v1-1654-1728_whitley1909.txt | 
+Minutes of the 148th General Assembly PCUSA 1936 (1936) | general-baptist-assembly_minutes-v1-1654-1728_whitley1909.txt | 
+Acta Apostolicae Sedis 35 (1943) | acta-apostolicae-sedis_v18-lat_1926.txt | 
+Acta Apostolicae Sedis 1939 (vol. 31) - unheld; acta v18 (1926) held only | acta-apostolicae-sedis_v18-lat_1926.txt | 
+William N. Blair & Bruce Hunt, The Korean Pentecost (1977) / Blair, Gospel Day (1910) | benedict_rule-of-st-benedict-lat-eng_hunter-blair1907.txt | 
+Read-only check. No card, record or census file was changed. Mark rules; a separate worker makes any changes.
