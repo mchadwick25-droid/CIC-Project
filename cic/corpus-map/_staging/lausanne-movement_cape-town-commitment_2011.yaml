@@ -1,0 +1,11 @@
+source_file: lausanne-movement_cape-town-commitment_2011.txt
+assignments:
+- row_id: lausanne-movement_cape-town-commitment_2011--the-cape-town-commitment-2011
+  work: 'The Cape Town Commitment (2011)'
+  author: lausanne-movement
+  locus: 'whole'
+  atlas_ids:
+  - lausanne-era-global-evangelicalism
+  role: tradition
+  confidence: needs-ruling
+  note: 'The statement of the congress of October 2010, issued with a 2011 notice, the year after the entry''s window closes (c. 2010). Verbatim only, by the owner''s terms.'

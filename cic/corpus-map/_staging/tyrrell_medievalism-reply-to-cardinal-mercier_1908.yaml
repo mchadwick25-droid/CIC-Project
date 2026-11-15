@@ -1,0 +1,11 @@
+source_file: tyrrell_medievalism-reply-to-cardinal-mercier_1908.txt
+assignments:
+- row_id: tyrrell_medievalism-reply-to-cardinal-mercier_1908--tyrrell-medievalism-a-reply-to-cardinal-mercier
+  work: 'Tyrrell, Medievalism: A Reply to Cardinal Mercier'
+  author: tyrrell
+  locus: 'the reply, lines 936-6833; Mercier''s pastoral, lines 108-933 and 6836-7720'
+  atlas_ids:
+  - the-catholic-church-pius-x-to-the-council
+  role: tradition
+  confidence: assigned
+  note: 'Both sides in one book: the cardinal''s pastoral and Tyrrell''s reply.'

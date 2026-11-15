@@ -1,0 +1,12 @@
+source_file: fedotoff_russian-church-since-the-revolution_1928.txt
+assignments:
+- row_id: fedotoff_russian-church-since-the-revolution_1928--fedotoff-the-russian-church-since-the-revolution
+  work: 'Fedotoff, The Russian Church since the Revolution'
+  author: fedotoff
+  locus: 'whole'
+  atlas_ids:
+  - the-russian-new-martyrs-and-the-catacomb-church
+  - the-russian-orthodox-church-council-patriarchate-and-reunion
+  role: context
+  confidence: assigned
+  note: 'An account printed in London in 1928; it summarizes the documents and does not print them whole.'

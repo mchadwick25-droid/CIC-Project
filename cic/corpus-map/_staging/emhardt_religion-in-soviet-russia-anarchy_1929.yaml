@@ -1,0 +1,30 @@
+source_file: emhardt_religion-in-soviet-russia-anarchy_1929.txt
+assignments:
+- row_id: emhardt_religion-in-soviet-russia-anarchy_1929--metropolitan-sergius-letter-declaration-of-1927-english-in
+  work: 'Metropolitan Sergius, letter (declaration) of 1927 (English, in Emhardt 1929)'
+  author: emhardt
+  locus: 'lines 7713-7912'
+  atlas_ids:
+  - the-russian-orthodox-church-council-patriarchate-and-reunion
+  role: tradition
+  confidence: assigned
+  note: 'The declaration in an English translation printed in 1929, with the compiler''s comment around it.'
+- row_id: emhardt_religion-in-soviet-russia-anarchy_1929--metropolitan-sergius-letter-declaration-of-1927-for-the-new
+  work: 'Metropolitan Sergius, letter (declaration) of 1927, for the New Martyrs and Catacomb shelf'
+  author: emhardt
+  locus: 'lines 7713-7912'
+  atlas_ids:
+  - the-russian-new-martyrs-and-the-catacomb-church
+  role: context
+  confidence: assigned
+  note: 'On this shelf it is the text the catacomb side rejected.'
+- row_id: emhardt_religion-in-soviet-russia-anarchy_1929--emhardt-religion-in-soviet-russia-anarchy
+  work: 'Emhardt, Religion in Soviet Russia: Anarchy'
+  author: emhardt
+  locus: 'whole'
+  atlas_ids:
+  - the-russian-new-martyrs-and-the-catacomb-church
+  - the-russian-orthodox-church-council-patriarchate-and-reunion
+  role: context
+  confidence: assigned
+  note: 'An outside compiler; documents from several sides in translation, with partial quotations of the answers to the declaration.'

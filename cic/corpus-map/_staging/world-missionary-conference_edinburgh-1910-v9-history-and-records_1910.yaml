@@ -1,0 +1,20 @@
+source_file: world-missionary-conference_edinburgh-1910-v9-history-and-records_1910.txt
+assignments:
+- row_id: world-missionary-conference_edinburgh-1910-v9-history-and-records_1910--world-missionary-conference-1910-the-history-and-records-of
+  work: 'World Missionary Conference 1910, The History and Records of the Conference'
+  author: world-missionary-conference
+  locus: 'whole; the official messages, lines 6771-6916'
+  atlas_ids:
+  - the-student-volunteer-movement-and-edinburgh-191
+  role: tradition
+  confidence: assigned
+  note: 'The conference''s own printed record.'
+- row_id: world-missionary-conference_edinburgh-1910-v9-history-and-records_1910--v-s-azariah-the-problem-of-co-operation-between-foreign-and
+  work: 'V. S. Azariah, The Problem of Co-operation between Foreign and Native Workers (Edinburgh 1910)'
+  author: world-missionary-conference
+  locus: 'lines 15395-15829'
+  atlas_ids:
+  - the-student-volunteer-movement-and-edinburgh-191
+  role: tradition
+  confidence: assigned
+  note: 'His own address as the conference printed it.'

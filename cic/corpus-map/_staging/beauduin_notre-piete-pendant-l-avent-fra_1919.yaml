@@ -1,0 +1,11 @@
+source_file: beauduin_notre-piete-pendant-l-avent-fra_1919.txt
+assignments:
+- row_id: beauduin_notre-piete-pendant-l-avent-fra_1919--beauduin-notre-piete-pendant-l-avent-1919
+  work: 'Beauduin, Notre piete pendant l''Avent (1919)'
+  author: beauduin
+  locus: 'whole'
+  atlas_ids:
+  - the-liturgical-movement
+  role: tradition
+  confidence: assigned
+  note: 'His own book in French.'

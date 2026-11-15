@@ -1,0 +1,11 @@
+source_file: tyrrell_much-abused-letter_1907.txt
+assignments:
+- row_id: tyrrell_much-abused-letter_1907--tyrrell-a-much-abused-letter
+  work: 'Tyrrell, A Much-Abused Letter'
+  author: tyrrell
+  locus: 'whole'
+  atlas_ids:
+  - the-catholic-church-pius-x-to-the-council
+  role: tradition
+  confidence: assigned
+  note: 'His own book, in a 1907 impression.'

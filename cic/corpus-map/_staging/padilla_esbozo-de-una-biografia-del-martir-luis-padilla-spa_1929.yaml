@@ -1,0 +1,11 @@
+source_file: padilla_esbozo-de-una-biografia-del-martir-luis-padilla-spa_1929.txt
+assignments:
+- row_id: padilla_esbozo-de-una-biografia-del-martir-luis-padilla-spa_1929--esbozo-de-una-biografia-del-martir-luis-padilla-1929
+  work: 'Esbozo de una biografia del martir Luis Padilla (1929)'
+  author: padilla
+  locus: 'whole'
+  atlas_ids:
+  - latin-american-catholicism-twentieth-century
+  role: tradition
+  confidence: assigned
+  note: 'A Catholic pamphlet of the Cristero years, in Spanish, printed in 1929.'

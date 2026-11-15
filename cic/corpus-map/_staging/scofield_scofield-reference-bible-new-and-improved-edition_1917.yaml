@@ -1,0 +1,11 @@
+source_file: scofield_scofield-reference-bible-new-and-improved-edition_1917.txt
+assignments:
+- row_id: scofield_scofield-reference-bible-new-and-improved-edition_1917--the-scofield-reference-bible-new-and-improved-edition
+  work: 'The Scofield Reference Bible, new and improved edition (Scofield''s introduction and notes)'
+  author: scofield
+  locus: 'Scofield''s introduction and notes; the Bible text is the Authorized Version'
+  atlas_ids:
+  - dispensational-prophecy-culture
+  role: tradition
+  confidence: assigned
+  note: 'His notes are the tradition''s own voice. The Bible text is not his.'

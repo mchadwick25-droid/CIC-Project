@@ -1,0 +1,11 @@
+source_file: niebuhr_does-civilization-need-religion_1927.txt
+assignments:
+- row_id: niebuhr_does-civilization-need-religion_1927--niebuhr-does-civilization-need-religion
+  work: 'Niebuhr, Does Civilization Need Religion?'
+  author: niebuhr
+  locus: 'whole'
+  atlas_ids:
+  - the-mainline-century-liberal-and-neo-orthodox
+  role: tradition
+  confidence: assigned
+  note: 'His own book of 1927.'

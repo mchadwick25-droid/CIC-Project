@@ -1,0 +1,11 @@
+source_file: maurin_catholic-radicalism-phrased-essays_1949.txt
+assignments:
+- row_id: maurin_catholic-radicalism-phrased-essays_1949--maurin-catholic-radicalism-phrased-essays-for-the-green
+  work: 'Maurin, Catholic Radicalism: Phrased Essays for the Green Revolution (1949)'
+  author: maurin
+  locus: 'whole; Dorothy Day''s introduction, lines 53-321'
+  atlas_ids:
+  - catholic-lay-renewal-worlds-catholic-worker-foco
+  role: tradition
+  confidence: assigned
+  note: 'His own essays, in the Catholic Worker''s own printing, with Dorothy Day''s introduction.'
