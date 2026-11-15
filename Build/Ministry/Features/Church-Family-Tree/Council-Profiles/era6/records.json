@@ -146,8 +146,8 @@
         "formation_confidence": "Contested"
       },
       {
-        "claim": "The last session, XLV, met on Friday 22 April 1418, Martin V presiding, and closed with 'Domini, ite in pace', spoken by the cardinal deacon of St Vitus in Macello at the pope's command",
-        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902.txt l.129215-129243, 129317-129322",
+        "claim": "The last session, XLV, met on Friday 22 April 1418, Martin V presiding. After the Mass the cardinal deacon of St Vitus in Macello said 'Domini, ite in pace', at the command of the pope and the whole council. The Polish request on Falkenberg, Martin V's answer, a sermon by the bishop of Catania and the reading of the dissolution decree followed",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902.txt l.129215-129246, 129280-129370",
         "witness_kind": "acts",
         "formation_confidence": "Documented"
       },
@@ -650,8 +650,8 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Gerson, writing after Martin V's election (tract date not checked), says Martin said several times in public that he would keep inviolably what was done 'conciliariter' at Constance",
-        "witness": "gerson_opera-omnia-tomus-2-pars-1-tractatus-ad-schisma-lat_dupin1706.txt l.27283-27294",
+        "claim": "Gerson, in a tract his editor Du Pin dates to 1418, at the end of the council, on the Polish envoys' appeal over Falkenberg's book, says Martin said several times in public that he would keep inviolably what was done 'conciliariter' at Constance",
+        "witness": "gerson_opera-omnia-tomus-2-pars-1-tractatus-ad-schisma-lat_dupin1706.txt l.26985-27015, 27283-27294",
         "witness_kind": "participant",
         "formation_confidence": "Documented"
       },
@@ -890,7 +890,7 @@
       },
       {
         "detail": "The burning of Wyclif's bones as carried out",
-        "note": "The council ordered them dug up in 1415 (Mansi), and Martin V's letter of his eleventh year orders them burned (raynaldus l.7977-8019). The burning itself is held only in Foxe, under the heading A.D. 1425."
+        "note": "The council ordered them dug up in 1415 (Mansi), and Martin V's letter of his eleventh year orders them burned (raynaldus l.7977-8019). That the burning was done is held only in later writers: Foxe, under the heading A.D. 1425 (foxe l.7920-7922, 8042); the 1916 editors of Luther's works, who date it 1427 (luther_works-v2 l.1761-1763); and van Braght's Martyrs Mirror, quoting Mehrning, 'forty-one years after his death' (van-braght l.45484-45486). No witness of the time is held."
       },
       {
         "detail": "Wyclif's own words matched to the forty-five articles",
@@ -973,9 +973,15 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Mansi prints the Compacts with the Bohemians, agreed by Basel's legates at Prague and elsewhere in the council's name and then confirmed by the council itself",
-        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.28590-28614",
+        "claim": "The Compacts with the Bohemians, as Mansi prints them, were agreed between the legates of the council of Basel and the general assembly of Bohemia and Moravia at Prague",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.28617-28623",
         "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Mansi's note says the Compacts were agreed by the council's legates in its name, at Prague and elsewhere, and then confirmed by the council itself",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.28594-28599",
+        "witness_kind": "modern reconstruction",
         "formation_confidence": "Documented"
       },
       {
@@ -998,7 +1004,7 @@
       },
       {
         "claim": "Glassberger dates Basel's first session to Friday 7 December 1431",
-        "witness": "glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.20474-20475",
+        "witness": "glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.20474-20476",
         "witness_kind": "later narrative",
         "formation_confidence": "Contested"
       },
@@ -1082,7 +1088,7 @@
       },
       {
         "claim": "Raynaldus says the legate Nicholas (Albergati) presided at Ferrara's first session. He counts five archbishops, eighteen bishops, four bishops-elect and many heads of orders",
-        "witness": "raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.35130-35145; raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.31494",
+        "witness": "raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.35130-35145; raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.382",
         "witness_kind": "later narrative",
         "formation_confidence": "Documented"
       },
@@ -1255,9 +1261,15 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "The decree teaches that the Spirit proceeds from the Father and the Son as from one principle and one spiration. It reads the holy doctors' and fathers' 'through the Son' in that sense. Doukas calls the phrase the Greeks'. It says the Filioque was added lawfully and with good reason",
-        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.14262-14274; denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.16432-16444; doukas_historia-byzantina-grc-lat_bekker1834.txt l.12037-12040",
+        "claim": "The decree teaches that the Spirit proceeds from the Father and the Son as from one principle and one spiration. It reads the holy doctors' and fathers' 'through the Son' in that sense. It says the Filioque was added lawfully and with good reason",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.14262-14274; denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.16432-16444",
         "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Doukas calls 'from the Father through the Son' the phrase the Greeks use",
+        "witness": "doukas_historia-byzantina-grc-lat_bekker1834.txt l.12004-12007; doukas_historia-byzantina-grc-lat_bekker1834.txt l.12037-12040",
+        "witness_kind": "later narrative",
         "formation_confidence": "Documented"
       },
       {
@@ -1483,15 +1495,39 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "The oration of the Portuguese patriarch Alphonsus Mendez, printed by Ludolf, says envoys came to Florence from the emperor and the metropolitan. They took Eugenius's letters back to Zara Yaqob, and the emperor David later said he still had them",
-        "witness": "ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt l.57416-57425; ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt l.56873-56877",
+        "claim": "The oration of the patriarch Alphonsus Mendez (1626) says envoys came to Florence from the emperor and the patriarch, in Almeida's Portuguese; Ludolf's Latin has the metropolitan. They took Eugenius's letters back to Zara Yaqob, and the emperor David later said he still had them",
+        "witness": "ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt l.57416-57425; ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt l.56873-56877; almeida_historia-aethiopiae-liber-5-8-por_beccari1907.txt l.28117-28125; almeida_historia-aethiopiae-liber-5-8-por_beccari1907.txt l.28184; almeida_historia-aethiopiae-liber-5-8-por_beccari1907.txt l.28464-28468",
         "witness_kind": "later narrative",
         "formation_confidence": "Contested"
       },
       {
-        "claim": "Ludolf says nothing of the kind was done at Florence, and that the Jesuit fathers themselves show Zara Yaqob stood apart from the Roman church",
-        "witness": "ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt l.52424-52434",
+        "claim": "Ludolf answers the Catholic writers who say the Ethiopian king's envoys came to Eugenius at Florence: nothing of the kind was done at the council, he says. The Jesuit fathers themselves, he says, show Zara Yaqob stood apart from the Roman church",
+        "witness": "ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt l.52403-52408; ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt l.52431-52442",
         "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Pope Innocent X's brief of 30 October 1645, as Beccari prints it, says King Zerah of Ethiopia sent envoys to Eugenius IV at the council of Florence, then held at Ferrara, to join the Ethiopian church to the Roman",
+        "witness": "mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt l.1414-1420; mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt l.1432-1440; mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt l.1450-1451",
+        "witness_kind": "acts",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Mendez's history says Portugal's kings learned of Prester John from Marco Polo's travels and from the report of monks who came to the Florentine synod",
+        "witness": "mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt l.6748-6750",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Almeida says, after Baronius and other authors, that some Ethiopians came with the Armenians at the end of the council, professed the Catholic faith and took back the letters of union. He says Eugenius's bulls reached Ethiopia in Zara Yaqob's time, but neither Zara Yaqob nor his successors changed or came out of the schism",
+        "witness": "almeida_historia-aethiopiae-liber-5-8-por_beccari1907.txt l.7658-7697",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Beccari, the modern editor of Mendez and Almeida, says historians know Zara Yaqob's obedience at Florence to be a fiction",
+        "witness": "mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt l.1420; mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt l.1456-1465",
+        "witness_kind": "modern reconstruction",
         "formation_confidence": "Contested"
       },
       {
@@ -1674,7 +1710,7 @@
       },
       {
         "claim": "The day of Basel's first session",
-        "sides": "Friday 7 December 1431: Glassberger (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.20474-20475). 14 December: his Quaracchi editors, after Hergenröther and Brück (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.20494).",
+        "sides": "Friday 7 December 1431: Glassberger (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.20474-20476). 14 December: his Quaracchi editors, after Hergenröther and Brück (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.20494).",
         "formation_confidence": "Contested"
       },
       {
@@ -1729,7 +1765,7 @@
       },
       {
         "claim": "Who sent the Ethiopian envoys",
-        "sides": "The emperor, called Constantine: Eugenius's letter (raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.49240-49247). Zara Yaqob: Patrizi, as Mansi reports (raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.49290-49296; raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.51822-51826). Perruchon, in his own text (zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893.txt l.552-553; zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893.txt l.673-674). The emperor and the metropolitan, and the emperor David later still had Eugenius's letters: the oration of Alphonsus Mendez, printed by Ludolf (ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt l.57416-57425). Nicodemus, head of the Ethiopian convent in Jerusalem, without the king's knowledge: Dillmann, as Perruchon reports (zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893.txt l.578-582). Nothing of the kind was done at Florence, and Zara Yaqob stood apart from Rome: Ludolf (ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt l.52424-52434).",
+        "sides": "The emperor, called Constantine: Eugenius's letter (raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.49240-49247). Zara Yaqob: Patrizi, as Mansi reports (raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.49290-49296; raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.51822-51826). Perruchon, in his own text (zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893.txt l.552-553; zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893.txt l.673-674). King Zerah: Innocent X's brief of 1645 (mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt l.1432-1440; mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt l.1450-1451). The emperor and the patriarch (Almeida's Portuguese, almeida_historia-aethiopiae-liber-5-8-por_beccari1907.txt l.28464-28468), or the metropolitan (Ludolf's Latin, ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt l.57416-57425), and the emperor David later still had Eugenius's letters: the oration of Alphonsus Mendez. Nicodemus, head of the Ethiopian convent in Jerusalem, without the king's knowledge: Dillmann, as Perruchon reports (zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893.txt l.578-582). Consistent with it, monks who came to the synod: Mendez's history (mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt l.6748-6750). Some Ethiopians came with the Armenians at the council's end, no sender named: Almeida (almeida_historia-aethiopiae-liber-5-8-por_beccari1907.txt l.7658-7697). Nothing of the kind was done at Florence, and Zara Yaqob stood apart from Rome: Ludolf (ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt l.52403-52408; ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt l.52431-52442). Zara Yaqob's obedience at Florence is a fiction: Beccari (mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt l.1420; mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt l.1456-1465).",
         "formation_confidence": "Contested"
       },
       {
@@ -1785,7 +1821,7 @@
       },
       {
         "detail": "An Ethiopian-side witness",
-        "note": "Perruchon says the chronicles of Zara Yaqob say nothing of Florence (zara-yaqob l.668-675). Ludolf (1691) and the Mendez oration he prints were read in context; neither is an Ethiopian text of the time."
+        "note": "Perruchon says the chronicles of Zara Yaqob say nothing of Florence (zara-yaqob l.668-675). Ludolf (1691), Almeida and Mendez, with Beccari's introduction and Innocent X's brief, were read in context; none is an Ethiopian text of the time."
       },
       {
         "detail": "An Armenian text of 1439",
