@@ -542,3 +542,50 @@ council rows queued in `CFT-Wants.md` (Marburg and Worms) and the Library items 
 ### Next action
 
 Era 8 wants in a fresh session, when era 7's Whos begin.
+
+## 2026-11-15 — Era 10 rights rulings: eleven questions answered
+
+**Decided (Mark, 2026-11-15).** Eleven rights questions from the era 10 scoping page, answered
+one at a time. Mark's picked option is in quotes.
+
+- **R1, Vatican texts: "Old print, link the rest".** Hold the Latin from the *Acta* printed by
+  1930 and render it ourselves. Everything later is cite and link only. One letter asks
+  permission for the Vatican II documents.
+- **R2, texts whose owners say they are free: "Take all three".** A new class beside public
+  domain, with the owner's own words copied into each file header: the Dictionary of African
+  Christian Biography (CC BY 4.0; skip entries marked as reprinted "with permission"), the
+  Catholic Worker paper ("not copyrighted"), and the Cape Town Commitment (quoted word for word
+  only, no modern rendering).
+- **R3, "non-commercial use only" permissions: "Don't hold, cite and link".** Hold nothing on a
+  non-commercial permission. Write for permission where a text matters.
+- **R4, church statements with no stated terms: "Cite and link, then write".** Letters to each
+  body, starting with Barmen and Lausanne.
+- **R5, quoting a work we do not hold: "Keep the rule".** Facts and a citation, no quotation.
+- **R6, the date rule: "Keep the one test".** The imprint on the title page. Barth's 1919 book is
+  noted as a known exposure (free in the US, protected in Europe until 2038). The line moves each
+  January.
+- **R7, American books of 1931 to 1963 whose copyright was never renewed: "Allow it generally".**
+  Mark chose this over the case-by-case recommendation. Any such book counts as free, with the
+  renewal search recorded in the file header. Asked whether it applies to the running era 8 and 9
+  Library threads, Mark chose "Yes, all eras now". R7 widens the "imprint of 1930 or earlier"
+  rule for American books of 1931 to 1963, and settles the non-renewal proposal in the 27 October
+  rights audit (`Build/Ministry/Operations/Audits/2026-10-27_post-1930-files_Rights-Audit.md`).
+- **R8, old works whose only scan is locked: "Log them, open HathiTrust later".** Record as
+  "located, not obtainable here". Opening HathiTrust in the network settings stays an open item
+  for Mark.
+- **R9, court and government records: "By imprint, like a book".** A printed record counts by its
+  imprint date. Unprinted archive records are cite only. US federal government works are free.
+- **R10, Martin Luther King Jr.: "Cite and link only".** No quotation, no rendering.
+- **R11, translating from an old original ourselves: "Yes, with a second check".** Holds for era
+  10. Where no old English translation exists, a second independent rendering checks the first,
+  and differences are marked uncertain on the card.
+
+**Changed.** The rights rule in `cic/texts/INTAKE.md` §2 and `Design.md` §9. The letters and the
+HathiTrust item are in the Church Family Tree `Open-Gaps.md`.
+
+**Not done.** No text vendored, no file header edited, no letter sent. The nine Church in
+Conversation design questions (D1 to D9) stay open.
+
+### Next action
+
+Mark sends the letters. Library threads for eras 8 and 9 apply R7 from their next intake.
