@@ -1,0 +1,103 @@
+{
+  "name": "John of Damascus",
+  "otherNames": [
+    "John Damascene",
+    "Mansur, his family's name by Michel Le Quien; the name the council of 754 cursed",
+    "Chrysorrhoas, golden-flowing, the name Theophanes the Confessor gives him"
+  ],
+  "knownFor": "A monk and priest of Palestine, from a Christian family of Damascus under the caliphs, who wrote three speeches in defense of the holy images against the emperor Leo the Isaurian. The iconoclast council of 754 cursed him by name.",
+  "dates": "Eighth century. No source used here gives the year of his birth. Michel Le Quien says it seems certain he was born before the end of the seventh century. Le Quien dates his speeches on the images to 727 or 728 and to 730. No source used here gives the year of his death: Humphrey Hody puts it about 750, Johann Fabricius thinks it was not before 756, and Le Quien calls it wholly obscure",
+  "place": "Damascus, his family's city; the monastery of Mar Saba, near Jerusalem, where the Life says he became a monk",
+  "tradition": "Melkite Arabic Christianity; Iconophile Byzantine Monasticism",
+  "role": "Monk and priest; defender of the images; theologian and hymn writer",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Three speeches in defense of the holy images",
+      "about": "written against Leo the Isaurian's war on images. Le Quien dates the first to 727 or 728 and the second to 730, after Patriarch Germanus was driven out. They are used here in Le Quien's Greek and Latin"
+    },
+    {
+      "title": "Exposition of the Orthodox Faith",
+      "about": "the last part of the work Johann Fabricius calls the Fount of Knowledge, after the Dialectica and the book on heresies. Fabricius dates the Dialectica after 743, since its opening letter calls Cosmas already bishop of Maiuma. Used here in S. D. F. Salmond's English"
+    },
+    {
+      "title": "Hymns",
+      "about": "Le Quien says that in hymns he, like Cosmas of Maiuma, had no superior and no equal among the Greeks"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Theophanes says the emperor Constantine V cursed John with curses renewed every year.",
+      "The Roman Martyrology keeps his feast on 6 May, as one who fought for the images in word and writing against Leo the Isaurian. Fabricius gives his Greek feasts as 29 November and 4 December.",
+      "Fabricius names among his friends Cosmas of Maiuma and Peter of Maiuma, whom Theophanes says John praised in his speeches."
+    ],
+    "remembered": [
+      "Theophanes calls him an outstanding teacher who shone in holiness of life and in teaching, and says he was rightly called Chrysorrhoas for the grace of his speech.",
+      "Stephen the Deacon, writing in 808, says the tyrant called him Mansur, but we call him holy and God-bearing.",
+      "Le Quien, in the preface S. D. F. Salmond translates, says his authority among theologians was weighty in the East and the West."
+    ]
+  },
+  "uncertain": [
+    "Most of his life is told only in the Life headed as by a John, patriarch of Jerusalem. Fabricius dates its author after the middle of the tenth century, and the Life says it reworks an older Life in Arabic. Le Quien reads that as the work of a man who lived long after John.",
+    "The cut hand. The Life says Leo forged a letter in John's hand, the caliph had his right hand cut off, and an image of the Mother of God healed it. Fabricius calls this a hardly credible tale. Leo Allatius counts the healing the main thing in the story. The Roman Martyrology has the hand cut off at Leo's order.",
+    "His family. Theophanes, in Jacques Goar's Latin, calls John the son of Mansur; Anastasius the Librarian's Latin of the same passage calls him the grandson. Le Quien takes his father to be Sergius, whom Theophanes names as an official of the caliph Abd al-Malik. Allatius is unsure whether Mansur was a family name or an insult; Le Quien holds it was the family's name.",
+    "His post at court. Only the Life says the caliph made him first counselor.",
+    "When he died. Hody puts it about 750, Fabricius not before 756, and Le Quien calls it wholly obscure. Le Quien reports that the Greek service books give him 104 years, and gives them little weight.",
+    "Where he died. Le Quien reports the Bollandists' view that he died in exile abroad. Le Quien holds that he died at Mar Saba, on the witness of John Phocas, who saw his tomb there in the twelfth century."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Exposition of the Orthodox Faith (tr. S. D. F. Salmond, Nicene and Post-Nicene Fathers, series 2, volume 9)",
+        "author": "John of Damascus",
+        "date": "1898",
+        "language": "English translation",
+        "file": "cic/texts/npnf209_hilary-poitiers-john-damascus.xml"
+      },
+      {
+        "title": "Opera omnia, volume 1 (Patrologia Graeca 94): the speeches on the images and the Fount of Knowledge",
+        "author": "John of Damascus; Michel Le Quien (ed.)",
+        "date": "1860",
+        "language": "Greek and Latin",
+        "file": "cic/texts/john-damascus_opera-omnia-t1-with-vita-pg94-grc-lat_migne1860.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Life of John of Damascus, with Michel Le Quien's notes, Leo Allatius's prolegomena and Johann Fabricius's notice",
+        "author": "John, patriarch of Jerusalem (as headed)",
+        "date": "1860",
+        "language": "Greek and Latin",
+        "file": "cic/texts/john-damascus_opera-omnia-t1-with-vita-pg94-grc-lat_migne1860.txt"
+      },
+      {
+        "title": "Chronographia (Latin tr. Jacques Goar; with the Latin of Anastasius the Librarian)",
+        "author": "Theophanes the Confessor",
+        "date": "1863",
+        "language": "Greek and Latin",
+        "file": "cic/texts/theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt"
+      },
+      {
+        "title": "The Seven Ecumenical Councils: the council of 754",
+        "author": "Henry R. Percival (ed.)",
+        "date": "1900",
+        "language": "English",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      },
+      {
+        "title": "Life of Stephen the Younger",
+        "author": "Stephen the Deacon",
+        "date": "1860",
+        "language": "Greek and Latin",
+        "file": "cic/texts/nikephoros-cp_opera-with-vita-stephani-iunioris-pg100-grc-lat_migne1860.txt"
+      },
+      {
+        "title": "Prolegomena to Malalas, notes on Damascene",
+        "author": "Humphrey Hody",
+        "date": "1860",
+        "language": "Latin",
+        "file": "cic/texts/theodore-abu-qurrah_opuscula-with-andrew-crete-malalas-pg97-grc-lat_migne1860.txt"
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "name": "Cyril and Methodius",
+  "otherNames": [
+    "Constantine the Philosopher, Cyril's name until he took the name Cyril in Rome, by the Italian Legend"
+  ],
+  "knownFor": "Two brothers of Thessalonica who took the faith to the Slavs of Moravia in their own language. Pope John VIII praised the Slavonic letters found by Constantine and, in 880, allowed the Mass to be sung in Slavonic.",
+  "dates": "Ninth century. No source used here gives either brother's year of birth. Johann Ginzel reckons their arrival in Moravia to 863. Cyril died in Rome on 14 February, by the Italian Legend; Ginzel accepts 868 for the year, and Ernst Dümmler and S. H. Cross give 869. Methodius died on 6 April 885, by the Life of Methodius",
+  "place": "Thessalonica, their home; Cherson, where the Italian Legend says Constantine found the relics of Clement of Rome; Moravia, their mission; Rome, where Cyril died and was buried in the basilica of Saint Clement; Pannonia, where Methodius was made bishop",
+  "tradition": "Cyrillo-Methodian Slavic Christianity",
+  "role": "Brothers and missionaries: Constantine (Cyril), priest, scholar and finder of the Slavonic letters; Methodius, monk, then bishop and archbishop for the Slavs",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "The Slavonic letters",
+      "about": "which Pope John VIII calls the Slavonic letters found by Constantine the Philosopher. S. H. Cross says Constantine made the Glagolitic letters, not the Cyrillic; Count Lützow says his alphabet became known as Cyrillic"
+    },
+    {
+      "title": "Slavonic translations",
+      "about": "the Gospel, the Apostle, the Psalter and chosen services, by the two brothers, as the Life of Methodius says; it adds that Methodius later put the rest of the Scriptures into Slavonic in six months"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The Russian Primary Chronicle says the writing made for Moravia exists also in Rus and among the Danube Bulgarians.",
+      "The Life of Clement of Ohrid names Gorazd, Clement, Naum, Angelarius and Sava as Methodius's chief disciples.",
+      "The Life of Methodius says he named Gorazd, a man of the Moravians' own country, learned in Latin books, to follow him."
+    ],
+    "remembered": [
+      "In S. H. Cross's English of the Russian Primary Chronicle, \"The Slavs rejoiced to hear the greatness of God extolled in their native tongue.\"",
+      "Ginzel reports that in 1380 Bishop John of Olomouc ordered their feast kept on 9 March, as Moravia's chief fathers, apostles and patrons.",
+      "Augustin Theiner dedicated his Vatican documents of 1863 to the thousandth-year feast of Saints Cyril and Methodius."
+    ]
+  },
+  "uncertain": [
+    "Which account to trust. Ginzel trusts the Italian Legend, which he and the Bollandists trace to Gauderich of Velletri, a bishop of the brothers' time. Of the Life of Methodius, Dümmler says a pupil wrote it soon after Methodius died, and Wilhelm Wattenbach rates it highly. Ginzel calls it the work of a Greek schismatic.",
+    "Who made them bishops. The Italian Legend says Pope Hadrian II made both brothers bishops. The Life of Methodius says Pope Nicholas received them and ordained Methodius priest, and that he was made bishop later, for the Slavs of Pannonia.",
+    "The year Cyril died. Ginzel accepts 868; Dümmler and Cross give 869.",
+    "The day Methodius died. The Life gives 6 April 885. Ginzel reports that Wattenbach thought a death on so high a feast suspicious, and defends the date.",
+    "His prison. The Life of Methodius says the king's bishops held him two and a half years in Swabia. No other source used here tells it.",
+    "The six-month Bible. Cross says it is generally regarded as apocryphal.",
+    "The Salzburg account against Methodius is hostile. Ginzel and Bartholomäus Kopitar date it to 873; Ginzel reports that Joseph Assemani and Wattenbach give 871."
+  ],
+  "sources": {
+    "about": [
+      {
+        "title": "Geschichte der Slawenapostel Cyrill und Method, with its Codex: the Italian Legend, the Life of Methodius (Latin tr. Franz Miklosich), Anastasius the Librarian, the Salzburg account and the letters of Pope John VIII",
+        "author": "Johann Ginzel (ed.)",
+        "date": "1861",
+        "language": "German and Latin",
+        "file": "cic/texts/ginzel_geschichte-der-slawenapostel-cyrill-und-method-deu-lat_1861.txt"
+      },
+      {
+        "title": "The Russian Primary Chronicle (tr. S. H. Cross)",
+        "author": "S. H. Cross (tr.)",
+        "date": "1930",
+        "language": "English",
+        "file": "cic/texts/russian-primary-chronicle_cross1930.txt"
+      },
+      {
+        "title": "Vetera monumenta Slavorum meridionalium, volume 1, dedication",
+        "author": "Augustin Theiner",
+        "date": "1863",
+        "language": "Latin",
+        "file": "cic/texts/theiner_vetera-monumenta-slavorum-meridionalium-v1-lat_1863.txt"
+      },
+      {
+        "title": "Bohemia: an historical sketch",
+        "author": "Count Lützow",
+        "date": "1920",
+        "language": "English",
+        "file": "cic/texts/lutzow_bohemia-historical-sketch_1920.txt"
+      }
+    ]
+  }
+}

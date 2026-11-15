@@ -1,0 +1,59 @@
+# Who profiles: era 4, batch 9
+
+Seven profiles, one id each: `john-of-damascus`, `theodore-the-studite`, `cyril-and-methodius`, `antony-and-theodosius-of-the-kyiv-caves`, `anskar`, `rimbert`, `clement-of-ohrid`.
+
+This is the first batch of the re-scored era 4 rows: `Build/Ministry/Operations/Audits/2026-11-14_who-rescore-eras4-5/Rescore.md` (PR #1662), its batch plan's batch 9, built under Mark's ruling of 2026-11-14 that eras 4 to 7 are built in full. The plan's batch 9 had nine entries. To hold the writing quality, the worker split off the last two, Stephen the Younger and Nikephoros I, who share one Patrologia Graeca volume, for batch 10, and told the coordinator (2026-11-15). None of the seven was written before. John of Damascus is a live census person entry (below); the other six are not.
+
+## Majors and lengths
+
+The coordinator marked five major (2026-11-15), as the re-score proposed: John of Damascus, Theodore the Studite, Cyril and Methodius, Antony and Theodosius, and Anskar. Mark may overrule. Their briefs run 401 to 405 words, about 2:28 to 2:30; the 2:30 is a cap, not a target. The two pairs run inside the same cap ("Pairs up to 2:30", Mark, 2026-11-14). Rimbert and Clement are not major. Rimbert is a recorder and Clement's life rests on one Life, so both stay near the 2:15 limit for non-majors, at 366 words each.
+
+**The river counts change.** Greek East & Orthodoxy era 4 held five majors, its river cap (Open-Gaps 217). John of Damascus, Theodore, Cyril and Methodius, and Antony and Theodosius are all in Greek East traditions, so the river now holds nine, or eight if Antony and Theodosius are counted with their first tradition, which begins in 1054. Latin West & Catholicism era 4 held ten, and Anskar makes eleven. The map shows five per river, and which five is Mark's choice. The re-score proposed for Greek East: Maximus, John of Damascus, Theodore the Studite, Photius, and Cyril and Methodius.
+
+## John of Damascus, the live entry
+
+The census lists him in Melkite Arabic Christianity and in Iconophile Byzantine Monasticism, with the year 730 and a quotation from the Exposition of the Orthodox Faith (Salmond's English, `npnf209` l.36233-36234). The profile agrees with the entry's names and traditions, and quotes the same chapter of the Exposition. It differs on the year. In the held sources, 730 is Michel Le Quien's date for the second speech on the images, when Patriarch Germanus was driven out. Johann Fabricius dates the Dialectica, the first part of the work that holds the Exposition, after 743. The census year is not changed here; the difference is logged in Open-Gaps for the census fix.
+
+## Who the sources are
+
+- **John of Damascus.** His own speeches on the images (Greek and Latin) and the Exposition (English). His life is told in a Life headed as by a John, patriarch of Jerusalem, which Fabricius dates after the middle of the tenth century; the brief says so and tells the cut-hand story as the Life's, with Fabricius and Leo Allatius on either side. The early witnesses are Theophanes the Confessor, the council of 754 and Stephen the Deacon's Life of Stephen the Younger (808).
+- **Theodore the Studite.** His letters, Testament and Antirrhetici, in Patrologia Graeca 99; two Lives that carry Michael the monk's name, which Angelo Mai says hardly differ; Naukratios's letter on his death; Theophanes. The years are Fabricius's and the Sirmond chronology's; the Lives give ages.
+- **Cyril and Methodius.** No own work is held. The Italian Legend, which Johann Ginzel follows the Bollandists in tracing to Gauderich of Velletri; the Life of Methodius, which Ernst Dümmler takes as a pupil's and Ginzel calls a Greek schismatic's work; the hostile Salzburg account of about 873; Pope John VIII's letters of 879 and 880; the Russian Primary Chronicle in S. H. Cross's English.
+- **Antony and Theodosius.** The Russian Primary Chronicle (Sylvester's colophon of 1116), in Cross's English, and Nestor's Life of Theodosius in the Caves Paterik, whose base text is the redaction of 1462. Where the two differ (Antony's journeys, the source of the Studite rule, where Antony ended his life), the card gives both.
+- **Anskar.** Rimbert's Life, in Georg Waitz's Latin and C. H. Robinson's English; his own letter to the bishops in Mansi's Latin; Adam of Bremen as a later witness; the Royal Frankish Annals and the Annals of Saint-Bertin.
+- **Rimbert.** A recorder, with a thin own life flagged. His Life of Anskar and his letter to the nuns of Heresi are held. His own life rests on the anonymous Life of Rimbert, which G. H. Pertz dates to Adalgar's lifetime. The held scan ends in its chapter 23, so his death rests on Adam of Bremen.
+- **Clement of Ohrid.** One Life, on the re-score's "needs-ruling" list. Its heading names Theophylact of Ohrid (died 1107). Franz Miklosich holds it is a tenth-century disciple's work, Ginzel that Theophylact reworked tenth-century notes, and Migne's editors leave it to the reader. The worker wrote the profile, as the coordinator assigned it, with the dispute told in the brief's second paragraph and the card's first uncertain item. The ruling on whether this Life is early enough stays open for Mark; if it is judged a later retelling, the later-retelling rule would make Clement LISTED.
+
+## Corrections to the re-score found in drafting
+
+- **John of Damascus.** Lines 616-621 of the Patrologia Graeca 94 file are Fabricius's words, not Le Quien's; "post medium saeculi decimi" dates the Life's author, and the death "not before 756" carries Fabricius's "videtur". Anastasius the Librarian's Latin makes John Mansur's grandson where Goar's Latin of Theophanes says son. The image speeches are held in Greek and Latin, not English.
+- **Theodore.** "Cum ipso vixit" (l.3725) is the Sirmond preface's claim about the Sirmond Life, which Mai denies is Michael's. Naukratios wrote a letter on the death, not a Life.
+- **Cyril and Methodius.** The Salzburg account is at l.13130-13722 of the Ginzel file (l.864-866 is the contents); Industriae tuae (880) is at l.13878-13982. No held line names Methodius's jailer or calls him "of Sirmium".
+- **Clement.** The Monitum (PG 126 l.96725-96749) reports Miklosich's argument and leaves the judgment to the reader; it does not argue it in its own voice. The Saint Panteleimon dedication is not in the Life; only Nikodemos the Hagiorite's late book of saints gives it.
+- **Antony and Theodosius.** No held line gives Antony's death year. The Paterik's base text begins only partway into its seventh discourse.
+- **Rimbert.** His birthplace at Turholt is an unsigned note in Waitz's edition; Robinson says only "near". The priest Rimbert of Danish descent sent to Sweden may be another man (Dahlmann; Robinson).
+
+## Names and ids, the worker's calls
+
+- **John of Damascus**, as the census names him.
+- **Antony and Theodosius of the Kyiv Caves**, `antony-and-theodosius-of-the-kyiv-caves`, the coordinator's form; the re-score has "of the Caves". Theodosius of Alexandria and the emperors Theodosius are other men.
+- **Anskar**, the re-score's form; Ansgar and Anscharius are on the card.
+- **Clement of Ohrid**, as the re-score names him; Clement of Rome, whose relics Constantine found, is another man and is named so.
+- **Cyril and Methodius**; Methodius of Olympus, in the census, is another man.
+
+## Card traditions
+
+The census's own names. Five fit the re-score's placings: John of Damascus in Melkite Arabic Christianity and Iconophile Byzantine Monasticism, as the census lists him; Theodore in Iconophile Byzantine Monasticism (726 to 843); Cyril and Methodius and Clement in Cyrillo-Methodian Slavic Christianity (863 to 916); Anskar and Rimbert in Scandinavian Conversion Christianity (826 to 1104).
+
+**Antony and Theodosius are the worker's call.** The re-score places them in Kievan Rus' Christianity (988 to 1054). Only Antony's settling in the cave, after 1051, falls in it. The gathering of the brothers comes after Yaroslav's death in 1054, and Theodosius's abbacy, the move above ground in 1062, the Studite rule and both lives' ends fall later. Their card reads "Kievan Rus' Christianity, 1054-1240; Kievan Rus' Christianity", with the later entry first. They stay in this era 4 batch, as the re-score row places them; whether their map place is era 4 or era 5 is for the coordinator and Mark.
+
+## Language and quotations
+
+Lines held only in Greek, Latin, German or Slavonic are told in modern words with the source named, without quotation marks. Quotation marks are kept for held English: Percival, Salmond, Cross and Robinson. Quotations keep their own spelling ("favour", "succour"). Three brief quotations cross a scan mark in their files, and the words are otherwise exact: a footnote mark in Robinson's "cloakf" (l.2652) and "sixty-fourth*" (l.5594), and a running head inside Cross's "Who ... among you" (l.11855-11860).
+
+| File | Holds |
+|---|---|
+| `<id>.brief.txt` | The brief as text, with no audio tags. Paragraphs are separated by a blank line. |
+| `<id>.card.json` | The card. Its fields are `name`, `otherNames`, `knownFor`, `dates`, `place`, `tradition`, `role`, `briefLength`, `keyWorks` (title, about), `legacy` (`traces`, `remembered`), `uncertain`, and `sources` (`ownWords`, `about`; each entry gives a title, an author where one applies, a date, a language and its file under `cic/texts/`). A field with no content is left out. |
+| `audio/<id>.audio.txt` | The text sent to the voice: the brief with `[calmly]` at the start and `[warmly]` at the start of the last paragraph. |
+| `records.json` | For each id, `claims` (claim, witness, `formation_confidence`), `contested_claims` (claim, sides), and `absent_details` (detail, note) for the honest limits. |

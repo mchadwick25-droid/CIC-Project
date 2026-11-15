@@ -1,0 +1,88 @@
+{
+  "name": "Theodore the Studite",
+  "otherNames": [
+    "Theodore of Stoudios",
+    "Theodorus Studites, the form of Johann Fabricius's Latin"
+  ],
+  "knownFor": "Abbot of the Stoudios monastery in Constantinople, who was exiled three times: for breaking communion with Constantine VI over his second marriage, over the restored priest Joseph, and for defending the holy images against Leo V. His Testament set rules for the abbot after him, and his monastery's rule later reached Kyiv.",
+  "dates": "Born 759 and died 826, by Johann Fabricius and by the year-by-year chronology printed with Jacques Sirmond's edition. The Lives give his ages, not years: 22 when he left the world, 35 when he became abbot, 67 at his death on Sunday 11 November, the feast of the martyr Menas. The same editors date his abbacy at Sakkoudion to 794, his exiles to 796, 809 and 814 or 815, and his recall from the last to 821",
+  "place": "Constantinople, his birthplace; Sakkoudion, outside the city, his first monastery; the Stoudios monastery in Constantinople; in exile Thessalonica, then under Leo V Metopa, Boneta in the Anatolikon and Smyrna. He died on the peninsula of Saint Tryphon by Cape Akritas, and was buried on Prinkipo",
+  "tradition": "Iconophile Byzantine Monasticism",
+  "role": "Monk and abbot of Sakkoudion and Stoudios; defender of the images; writer of letters, catecheses and rules",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Letters",
+      "about": "in two books in the Patrologia Graeca volume, the second gathered in his third exile. They include letters to all the monks and to the iconoclast synod in defense of the images"
+    },
+    {
+      "title": "Testament",
+      "about": "with rules for the abbot after him: own no slave, since a slave is a man made in God's image; keep no female animals; walk rather than ride; let nothing be anyone's own, down to a needle"
+    },
+    {
+      "title": "Antirrhetici, against the iconoclasts",
+      "about": "which opens: it is the time to speak, not to keep silent, now that heresy presses on us"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The Russian Primary Chronicle says Theodosius of the Kyiv Caves obtained the rule of the Studion monks from a Studite monk named Michael, and that all other monasteries took it from his. Nestor's Life of Theodosius says he sent to Ephraim the eunuch in Constantinople for it.",
+      "Philipp Meyer says Athanasios the Athonite took his commands to the abbot almost word for word from the part of Theodore's Testament addressed to the abbot.",
+      "Fabricius, quoting Nikephoros Kallistos, says Theodore and Joseph, both of Stoudios, wrote Lenten canons for their monastery. Leo Allatius says the Lenten service book is named for the two of them, though not all of it is theirs.",
+      "Naukratios, his disciple, followed him as abbot of Stoudios and wrote a letter on his death."
+    ],
+    "remembered": [
+      "Eighteen years after his death, the Lives say, Patriarch Methodios and the empress Theodora brought his body back to Stoudios and laid it with Plato and his brother Joseph.",
+      "The preface to Sirmond's edition says holiness made him a priest, learning a teacher, and faith all but a martyr.",
+      "Fabricius says the Greeks call him the Confessor."
+    ]
+  },
+  "uncertain": [
+    "Who wrote which Life. Both carry the name of Michael the monk. The preface to Sirmond's edition calls the Life printed there the work of Michael, who lived with him. Angelo Mai gives Michael the Life he edited from a Vatican manuscript, and calls the other anonymous, or perhaps by a John, as Allatius guessed; one manuscript gives it to Theodore Daphnopates. Mai says the two hardly differ. No source used here dates either Life.",
+    "His years. The Lives give ages and feast days, not years. The years on this card are Fabricius's and the Sirmond chronology's.",
+    "The year he took over Stoudios. The Sirmond chronology gives 798. Philipp Meyer gives 789, but cites the same chronology.",
+    "Theodote's kinship. The Sirmond Life says she was related to him, they say; Mai's Latin of the other Life makes her his sister's daughter, where its Greek says only kinswoman.",
+    "The first exile. Theophanes says the emperor sent the monks to Thessalonica with Plato's nephews, and does not name Theodore. The Lives name him."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Opera omnia (Patrologia Graeca 99): letters, Testament, Antirrhetici and catecheses",
+        "author": "Theodore the Studite",
+        "date": "1860",
+        "language": "Greek and Latin",
+        "file": "cic/texts/theodore-studite_opera-omnia-pg99-grc-lat_migne1860.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Two Lives of Theodore; Naukratios's letter on his death; the prefaces of Sirmond's edition, Allatius, Mai and Fabricius",
+        "author": "Michael the monk (as headed); Naukratios; Angelo Mai (ed.)",
+        "date": "1860",
+        "language": "Greek and Latin",
+        "file": "cic/texts/theodore-studite_opera-omnia-pg99-grc-lat_migne1860.txt"
+      },
+      {
+        "title": "Chronographia (Latin tr. Jacques Goar)",
+        "author": "Theophanes the Confessor",
+        "date": "1863",
+        "language": "Greek and Latin",
+        "file": "cic/texts/theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt"
+      },
+      {
+        "title": "The Russian Primary Chronicle (tr. S. H. Cross)",
+        "author": "S. H. Cross (tr.)",
+        "date": "1930",
+        "language": "English",
+        "file": "cic/texts/russian-primary-chronicle_cross1930.txt"
+      },
+      {
+        "title": "Die Haupturkunden für die Geschichte der Athosklöster",
+        "author": "Philipp Meyer",
+        "date": "1894",
+        "language": "German",
+        "file": "cic/texts/athos-monasteries_haupturkunden-fur-die-geschichte-der-athoskloster-ger-grc_meyer1894.txt"
+      }
+    ]
+  }
+}

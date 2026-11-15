@@ -1,0 +1,98 @@
+{
+  "name": "Anskar",
+  "otherNames": [
+    "Ansgar, the form of Olavus Petri; Ansgarius, of Adam of Bremen's Latin",
+    "Anscharius, the form of his own letter in Mansi's Latin",
+    "Apostle of the North, C. H. Robinson's title for him"
+  ],
+  "knownFor": "A monk of Corbie who went to the Danes with King Harald in 826 and twice to the Swedes at Birka. As archbishop of Hamburg, and then of Hamburg and Bremen together, he won leave from the Danish king Horic to build a church at Schleswig.",
+  "dates": "Born about 801, by C. H. Robinson's count back from the Life's \"sixty-fourth year of his age\"; Robinson says the true date of his birth is unknown. Died 3 February 865, by Adam of Bremen and the Annals of Corvey; the Life gives no year or day, as Georg Waitz notes. The Danish mission began in 826. Waitz and Robinson date the sack of Hamburg to 845",
+  "place": "Corbie, near Amiens, his monastery; New Corbey; Denmark, with Harald, and Schleswig; Birka, in Sweden; Hamburg, his see, then Bremen, where Adam of Bremen says he was buried in Saint Peter's church",
+  "tradition": "Scandinavian Conversion Christianity",
+  "role": "Monk and missionary; archbishop of Hamburg, then of Hamburg and Bremen",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Letter to the bishops of King Louis's kingdom",
+      "about": "on the northern mission, held in Latin in Mansi and in part in Adam of Bremen. It says the church of Christ is now founded among the Danes and the Swedes, and asks the bishops to pray that the mission may grow"
+    },
+    {
+      "title": "Short prayers for the Psalms",
+      "about": "which the Life says he added to each psalm, and which Robinson lists among his writings"
+    },
+    {
+      "title": "Miracles of Willehad",
+      "about": "which Adam of Bremen says he wrote, with a Life of Willehad. Bernhard Schmeidler, after Dehio, holds he wrote only the Miracles"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The Life says the pope's decree made Hamburg and Bremen one diocese, not two.",
+      "Rimbert, his disciple, followed him as archbishop and wrote his Life.",
+      "Robinson quotes Adam of Bremen that some small part of the Christianity Anskar planted remained, though the Corvey chronicle for 936 says it was well nigh extinct."
+    ],
+    "remembered": [
+      "Adam of Bremen, writing about 1073, calls him an apostle outside and a monk within.",
+      "In the Swedish debate of the 1520s, both Paulus Helie and Olavus Petri claimed the faith that Ansgar preached.",
+      "Robinson writes that his claim to be the Apostle of the North rests on his example, not on the outcome of his work."
+    ]
+  },
+  "uncertain": [
+    "Who wrote the Life. Waitz says the Life of Rimbert and Adam of Bremen both name Rimbert, and that the Life of Rimbert adds that a fellow disciple helped him. Waitz sees no reason to doubt it.",
+    "The year of the sack of Hamburg. Waitz, Bernhard Schmeidler, Steinberg and Robinson give 845. Adam of Bremen puts it in the last year of Louis the Pious, 839 or 840.",
+    "The year the see of Hamburg was founded. Adam gives 832; Dehio, in a note in Waitz's edition, prefers 831; the emperor's charter dated 834 is, the same note says, certainly interpolated.",
+    "The founding documents. Schmeidler calls the charter of Louis the German and the privilege of Pope Nicholas I forgeries of the early eleventh century, after Curschmann.",
+    "When Hamburg and Bremen were joined. The editors give dates from 847 to 864: Dahlmann 847 and 857, Waitz 848, Dehio 860, the headnotes in Mansi 849 or 850 and 863 or 864. Adam says only that it came in Anskar's last years.",
+    "Where Harald was baptized. The Royal Frankish Annals say at Mainz, in Saint Alban's; Robinson quotes Theganus for the palace at Ingelheim.",
+    "The year of the second Swedish journey. Robinson gives 853 in his introduction and probably 852 in a note.",
+    "His healings. The Life says they could not be counted. Robinson says Anskar never claimed the power himself."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Letter to the bishops (in Sacrorum conciliorum collectio, volume 14)",
+        "author": "Anskar; G. D. Mansi (ed.)",
+        "date": "1902",
+        "language": "Latin",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-14-lat_welter-facsimile1902.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Anskar, the Apostle of the North: the Life by Rimbert (tr. C. H. Robinson)",
+        "author": "Rimbert; C. H. Robinson (tr.)",
+        "date": "1921",
+        "language": "English",
+        "file": "cic/texts/rimbert_anskar-the-apostle-of-the-north_robinson1921.txt"
+      },
+      {
+        "title": "Vita Anskarii, with the Life of Rimbert",
+        "author": "Rimbert; Georg Waitz (ed.)",
+        "date": "1884",
+        "language": "Latin",
+        "file": "cic/texts/rimbert_vita-anskarii-accedit-vita-rimberti-lat_waitz1884.txt"
+      },
+      {
+        "title": "Gesta Hammaburgensis ecclesiae pontificum",
+        "author": "Adam of Bremen; Bernhard Schmeidler (ed.)",
+        "date": "1917",
+        "language": "Latin",
+        "file": "cic/texts/adam-bremen_gesta-hammaburgensis-ecclesiae-pontificum-lat_schmeidler1917.txt"
+      },
+      {
+        "title": "Annales Bertiniani",
+        "author": "Prudentius of Troyes; Georg Waitz (ed.)",
+        "date": "1883",
+        "language": "Latin",
+        "file": "cic/texts/prudentius-troyes_annales-bertiniani_waitz1883.txt"
+      },
+      {
+        "title": "Annales regni Francorum",
+        "author": "F. Kurze (ed.)",
+        "date": "1895",
+        "language": "Latin",
+        "file": "cic/texts/annales-regni-francorum_kurze1895.txt"
+      }
+    ]
+  }
+}

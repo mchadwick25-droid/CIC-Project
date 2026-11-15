@@ -1,0 +1,69 @@
+{
+  "name": "Clement of Ohrid",
+  "knownFor": "A priest who followed Methodius from his youth and, driven out of Moravia, taught in Bulgaria under Boris. His Life calls him the first bishop of the Bulgarian tongue, and says he wrote simple sermons in it for every feast.",
+  "dates": "Died 27 July 916, by his Life, which gives the year 6424 from the creation of the world, under Symeon. No source used here gives his year of birth. Johann Ginzel reckons the expulsion from Moravia to 886, counting back from the Life's own years",
+  "place": "Moravia, with Methodius; Kutmichevitsa, where Boris sent him to teach, with houses at Devol and places of rest at Ohrid and Glavenitsa; his see of Dremvitsa, also called Velitsa; Ohrid, where he built his monastery and was buried",
+  "tradition": "Cyrillo-Methodian Slavic Christianity",
+  "role": "Priest and teacher; bishop of Dremvitsa or Velitsa; writer of sermons and hymns in the Bulgarian tongue",
+  "briefLength": "about 2 minutes 15 seconds",
+  "keyWorks": [
+    {
+      "title": "Sermons for every feast",
+      "about": "in the Bulgarian tongue, simple and clear, as the Life says, with praises of the Mother of God, the Baptist, prophets, apostles and martyrs. None is among the sources used here"
+    },
+    {
+      "title": "Hymns for the Triodion",
+      "about": "the hymns sung from the Sunday after Easter to Pentecost, which the Life says he finished as he lay ill"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The Life says his pupils numbered 3,500, and that in each district 300 of them, ordained as readers, deacons and priests, took his orders.",
+      "The Life says one of his churches at Ohrid later became the seat of the archbishop, and that Ohrid had two churches of Saint Clement.",
+      "The Life of Clement names Gorazd, Clement, Naum, Angelarius and Sava as the chief disciples of Cyril and Methodius."
+    ],
+    "remembered": [
+      "The Life's closing prayer says that through him all the land of Bulgaria came to know God.",
+      "Nikodemos the Hagiorite's book of saints says his books were honored by the whole Bulgarian nation no less than the tablets of Moses, and that his monastery at Ohrid was Saint Panteleimon's. The Life names no dedication.",
+      "Paisii of Hilendar, writing in 1762, counts him among the seven teachers of the Bulgarians."
+    ]
+  },
+  "uncertain": [
+    "Who wrote the Life, and when. Its heading names Theophylact, archbishop of Ohrid, who died in 1107. Franz Miklosich holds that a Bulgarian disciple of Clement wrote it in the tenth century, and that Theophylact's name was added; he sides with Friedrich Blumberger. Miklosich reports that Dobrovský thought the author lived in the time of neither man, and answers that Dobrovský gives no reasons. Johann Ginzel thinks Theophylact shaped tenth-century notes into a Life. Migne's editors leave it to the reader. Every detail on this card comes from this one Life.",
+    "His miracles. The Life tells of chains falling in an earthquake and of a host's dead son raised to life. Ginzel says the account of the flight to Bulgaria holds a historical kernel, decorated with miracles.",
+    "The Life's worth. It is hostile to the Frankish clergy. Ginzel, who writes against the Greek schism, says its author either cared nothing for historical truth or bent it in the schism's spirit.",
+    "The year of the expulsion. The Life gives none; 886 is Ginzel's count."
+  ],
+  "sources": {
+    "about": [
+      {
+        "title": "Life of Saint Clement, archbishop of the Bulgarians, with the Monitum (Patrologia Graeca 126)",
+        "author": "Theophylact of Ohrid (as headed)",
+        "date": "1864",
+        "language": "Greek and Latin",
+        "file": "cic/texts/theophylact-ohrid_opera-t4-with-vita-clementis-pg126-grc-lat_migne1864.txt"
+      },
+      {
+        "title": "Geschichte der Slawenapostel Cyrill und Method, with its Latin of the Life of Clement, chapters 1 to 7, and Miklosich's preface",
+        "author": "Johann Ginzel",
+        "date": "1861",
+        "language": "German and Latin",
+        "file": "cic/texts/ginzel_geschichte-der-slawenapostel-cyrill-und-method-deu-lat_1861.txt"
+      },
+      {
+        "title": "Synaxaristes, volume 1: 22 November",
+        "author": "Nikodemos the Hagiorite",
+        "date": "1900",
+        "language": "Greek",
+        "file": "cic/texts/nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900.txt"
+      },
+      {
+        "title": "Istoriia slavianobolgarskaia",
+        "author": "Paisii of Hilendar",
+        "date": "1914",
+        "language": "Bulgarian",
+        "file": "cic/texts/paisii-hilendarski_istoriia-slavianobolgarskaia-bul_ivanov1914.txt"
+      }
+    ]
+  }
+}
