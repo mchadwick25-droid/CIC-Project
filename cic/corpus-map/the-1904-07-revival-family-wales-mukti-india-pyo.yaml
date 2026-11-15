@@ -36,8 +36,8 @@ works:
   date:
     start: 1905
     end: 1905
-    source: 'the printing''s own title page: the copyright notice at OCR line 165 (''Copyright,
-      1905, by Fleming H. Revell Company''); the title page prints no year'
+    source: the copyright notice at OCR line 165 ('Copyright, 1905, by Fleming H. Revell Company');
+      the title page prints no year
     formation_confidence: Documented
   edition_date:
     year: 1905

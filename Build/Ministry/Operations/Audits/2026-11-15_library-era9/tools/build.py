@@ -79,6 +79,9 @@ for l in open(f"{S}/tools/table.txt"):
         for lab, k in (("Divisions", "divisions"), ("Editorial matter", "editorial_matter"), ("Mixed voices", "mixed_voices")):
             if nn(p.get(k)) and keep(p[k]): content += f" {lab}: {dot(keep(p[k]))}"
     if i in NOTES: content = dot(clean(NOTES[i]["content"]))
+    for x in o.get("strip", []): assert x in content, (i, x); content = clean(content.replace(x, ""))
+    if o.get("strip_re"): assert re.search(o["strip_re"], content), i; content = clean(re.sub(o["strip_re"], "", content))
+    if o.get("title_sub") and o["title_sub"][0] in title: title = title.replace(*o["title_sub"])
     if o.get("add"): content += " " + o["add"]
     content += f" About {words:,} words."
     wp = p.get("wanted_passages") or []
@@ -92,7 +95,7 @@ for l in open(f"{S}/tools/table.txt"):
     if dt == "U":
         date = {"formation_confidence": "unknown", "checked": f"the title page and front matter of this printing ({y}); they do not state when the text was first written"}
     else:
-        a, b = dt.split("-"); date = {"start": int(a), "end": int(b), "source": o.get("date_source") or f"the printing's own title page: {basis}", "formation_confidence": "Documented"}
+        a, b = dt.split("-"); date = {"start": int(a), "end": int(b), "source": o.get("date_source") or (basis if o.get("nodate") else f"the printing's own title page: {basis}"), "formation_confidence": "Documented"}
     if o.get("nodate"):
         hr = hr.replace("and the imprint date agrees", "and the date agrees").replace("so the imprint date is the basis", "so the date named here is the basis")
         hr += "; the date used is that of " + basis

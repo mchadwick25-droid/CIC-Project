@@ -27963,7 +27963,7 @@ queue:
     rights_basis: 'Public Domain (pd-us-by-date: published 1876); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the date agrees; the date used is that of the copyright notice at OCR line 27 (''Copyright, 1876, by Jeremiah McAuley''); the title page prints no year'
     verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 76,915 equal to the listed size, the volume''s end read'
     status: downloaded
-    vendored_as: mcauley_transformed-or-the-history-of-a-new-york-thief_1876.txt
+    vendored_as: mcauley_transformed-or-the-history-of-a-river-thief_1876.txt
   - title: 'The Life of Trust: being a narrative of the Lord''s dealings with George Muller, Esq. Edited and condensed by Rev. H. Lincoln Wayland, with an introduction by Francis Wayland'
     author: 'George Muller; Rev. H. Lincoln Wayland; introduction by Francis Wayland'
     year: '1868'
@@ -27994,7 +27994,7 @@ queue:
     verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 171,844 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: story-of-the-welsh-revival_told-by-eyewitnesses_3rd-ed1905.txt
-  - title: 'History of Madagascar, comprising also the progress of the Christian mission established in 1818, and an authentic account of the recent martyrdom of Raparavavy and of the persecution of the native Christians. Compiled chiefly from original documents by the Rev. William Ellis, Foreign Secretary to the London Missionary Society. In two volumes. Vol. I'
+  - title: 'History of Madagascar, comprising also the progress of the Christian mission established in 1818, and an authentic account of the recent martyrdom of Rafaravavy (the OCR of the title page reads ''Raparavavy'') and of the persecution of the native Christians. Compiled chiefly from original documents by the Rev. William Ellis, Foreign Secretary to the London Missionary Society. In two volumes. Vol. I'
     author: 'the Rev. William Ellis'
     year: '1838'
     world: malagasy-christianity

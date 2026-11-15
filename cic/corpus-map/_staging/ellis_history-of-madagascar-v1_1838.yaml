@@ -13,9 +13,9 @@ assignments:
   date:
     start: 1838
     end: 1838
-    source: 'the printing''s own title page: the preface, dated ''Pentonville, October 10th, 1838'' (OCR line 247
-      of vol. 1), with which the library catalogue''s date agrees (Wellcome Library, on the archive.org record:
-      1838); a plate caption at OCR line 4778 of vol. 1 is also dated 1838; the title pages print no year'
+    source: 'the preface, dated ''Pentonville, October 10th, 1838'' (OCR line 247 of vol. 1), with which the library
+      catalogue''s date agrees (Wellcome Library, on the archive.org record: 1838); a plate caption at OCR line
+      4778 of vol. 1 is also dated 1838; the title pages print no year'
     formation_confidence: Documented
   edition_date:
     year: 1838

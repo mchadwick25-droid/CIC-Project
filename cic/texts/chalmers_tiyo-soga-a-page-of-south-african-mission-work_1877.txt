@@ -1,7 +1,7 @@
 Title: Tiyo Soga: a page of South African mission work. By John A. Chalmers
 Creator: John A. Chalmers
 Publisher: Edinburgh: Andrew Elliot; London: Hodder & Stoughton; Glasgow: David Bryce & Son; Grahamstown: James Kay (printed by Aird and Coghill, Glasgow)
-Publication Date: 1877 (OCR line 116, on the title page)
+Publication Date: 1877 (OCR line 74, on the title page, which reads '187 7.')
 Rights: Public Domain (pd-us-by-date: published 1877); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item tiyosogapageofso00chal, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,023,694) equals the size archive.org lists for the djvu.txt.

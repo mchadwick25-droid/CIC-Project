@@ -13,8 +13,8 @@ assignments:
   date:
     start: 1885
     end: 1885
-    source: 'the printing''s own title page: the copyright notice at OCR line 40 (''Copyright, 1885''); the title
-      page prints no year (page image, leaf n8)'
+    source: the copyright notice at OCR line 40 ('Copyright, 1885'); the title page prints no year (page image,
+      leaf n8)
     formation_confidence: Documented
   edition_date:
     year: 1885

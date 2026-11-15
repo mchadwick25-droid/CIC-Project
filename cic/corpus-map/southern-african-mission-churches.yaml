@@ -13,11 +13,12 @@ works:
   date:
     start: 1877
     end: 1877
-    source: 'the printing''s own title page: OCR line 116, on the title page'
+    source: 'the printing''s own title page: OCR line 74, on the title page, which reads ''187
+      7.'''
     formation_confidence: Documented
   edition_date:
     year: 1877
-    source: OCR line 116, on the title page
+    source: OCR line 74, on the title page, which reads '187 7.'
     formation_confidence: Documented
   note: 'Era 9 row 211, Tiyo Soga: a Life.'
   source_file: chalmers_tiyo-soga-a-page-of-south-african-mission-work_1877.txt

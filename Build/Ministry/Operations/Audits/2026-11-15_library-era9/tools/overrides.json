@@ -60,7 +60,8 @@
   "creator": "No author is printed on the title page"
  },
  "caseagainstprofe0105brig": {
-  "creator": "No author is printed on the title page"
+  "creator": "No author is printed on the title page",
+  "basis": "OCR line 52, on the title page"
  },
  "hometalks00noyegoog": {
   "basis": "read on the scan's page image, leaf n8; the OCR at line 165 reads 'l87S'"
@@ -69,7 +70,8 @@
   "basis": "OCR line 171, on the title page, which reads 'M.DCCC.ZLVII.' for MDCCCXLVII"
  },
  "metropolitantab02spurgoog": {
-  "basis": "OCR line 130, on the title page, which reads '187I.'"
+  "basis": "OCR line 130, on the title page, which reads '187I.'",
+  "strip_re": "[^.]*line 1587[^.]*\\."
  },
  "remarksoncertain00newmrich": {
   "basis": "OCR line 3755, in the imprint at the end of the tract ('London: printed for J. G. F. & J. Rivington', line 3751); the scan has no separate title leaf"
@@ -95,7 +97,10 @@
  },
  "lifeoftrustbeing00mlrich": {
   "year": 1868,
-  "basis": "read on the scan's page image, leaf n8 ('1868.', partly under a library stamp); the copyright notice at OCR line 63 reads 1860"
+  "basis": "read on the scan's page image, leaf n8 ('1868.', partly under a library stamp); the copyright notice at OCR line 63 reads 1860",
+  "strip": [
+   "The title page prints no year."
+  ]
  },
  "lifeofcatherineb01bootiala": {
   "basis": "the copyright notice on the title leaf, OCR lines 68-71 ('Entered according to Act of Congress, in the year 1893, by William Booth'); the title page prints no year (page image, leaf n10)",
@@ -107,11 +112,19 @@
  },
  "b29350943_0001": {
   "basis": "the preface, dated 'Pentonville, October 10th, 1838' (OCR line 247 of vol. 1), with which the library catalogue's date agrees (Wellcome Library, on the archive.org record: 1838); a plate caption at OCR line 4778 of vol. 1 is also dated 1838; the title pages print no year",
-  "nodate": true
+  "nodate": true,
+  "title_sub": [
+   "Raparavavy",
+   "Rafaravavy (the OCR of the title page reads 'Raparavavy')"
+  ]
  },
  "b29350943_0002": {
   "basis": "the preface, dated 'Pentonville, October 10th, 1838' (OCR line 247 of vol. 1), with which the library catalogue's date agrees (Wellcome Library, on the archive.org record: 1838); a plate caption at OCR line 4778 of vol. 1 is also dated 1838; the title pages print no year; vol. 2 prints no date of its own",
-  "nodate": true
+  "nodate": true,
+  "title_sub": [
+   "Raparavavy",
+   "Rafaravavy (the OCR of the title page reads 'Raparavavy')"
+  ]
  },
  "cu31924095897249": {
   "title": "A Declaration of the Yearly Meeting of Friends, held in Philadelphia, respecting the proceedings of those who have lately separated from the Society (1828); bound in this scan with four later Friends' pamphlets, of 1838 to 1852"
@@ -119,5 +132,11 @@
  "allgemeinemissio4546unse": {
   "title": "Allgemeine Missions-Zeitschrift. Monatshefte fuer geschichtliche und theoretische Missionskunde, herausgegeben von D. Jul. Richter und D. Joh. Warneck; two yearly volumes in one scan, the 45th (Berlin 1918) and the 46th (Berlin 1919, from OCR line 18305)",
   "basis": "OCR line 44, on the title page of the 45th volume ('Berlin 1918.'); the 46th volume's title page, from OCR line 18305, reads Berlin 1919"
+ },
+ "magnaliadeionder00bavi": {
+  "basis": "OCR line 75, on the title page"
+ },
+ "tiyosogapageofso00chal": {
+  "basis": "OCR line 74, on the title page, which reads '187 7.'"
  }
 }

@@ -13,9 +13,8 @@ assignments:
   date:
     start: 1893
     end: 1893
-    source: 'the printing''s own title page: the copyright notice on the title leaf, OCR lines 68-71 (''Entered
-      according to Act of Congress, in the year 1893, by William Booth''); the title page prints no year (page image,
-      leaf n10)'
+    source: the copyright notice on the title leaf, OCR lines 68-71 ('Entered according to Act of Congress, in the
+      year 1893, by William Booth'); the title page prints no year (page image, leaf n10)
     formation_confidence: Documented
   edition_date:
     year: 1893

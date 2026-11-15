@@ -1,6 +1,6 @@
-source_file: mcauley_transformed-or-the-history-of-a-new-york-thief_1876.txt
+source_file: mcauley_transformed-or-the-history-of-a-river-thief_1876.txt
 assignments:
-- row_id: mcauley_transformed-or-the-history-of-a-new-york-thief_1876--transformed-or-the-history-of-a-river-thief-briefly-told
+- row_id: mcauley_transformed-or-the-history-of-a-river-thief_1876--transformed-or-the-history-of-a-river-thief-briefly-told
   work: Transformed; or, the History of a River Thief, briefly told. Published by himself
   author: mcauley
   locus: the narrative, chapters I-XVII at OCR lines 151-2127; add 12 to OCR line numbers; the rest not mapped
@@ -12,8 +12,8 @@ assignments:
   date:
     start: 1876
     end: 1876
-    source: 'the printing''s own title page: the copyright notice at OCR line 27 (''Copyright, 1876, by Jeremiah
-      McAuley''); the title page prints no year'
+    source: the copyright notice at OCR line 27 ('Copyright, 1876, by Jeremiah McAuley'); the title page prints
+      no year
     formation_confidence: Documented
   edition_date:
     year: 1876
