@@ -1,0 +1,25 @@
+source_file: marchant_dr-john-clifford_1924.txt
+assignments:
+- row_id: marchant_dr-john-clifford_1924--dr-john-clifford-c-h-life-letters-and-reminiscences
+  work: 'Dr. John Clifford, C.H.: Life, Letters and Reminiscences'
+  author: marchant
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - nineteenth-century-baptists
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1924
+    end: 1924
+    source: 'the line ''First published 1924'' under the publisher''s imprint (line 252) and the introduction, signed
+      ''April, 1924'' (line 720), with which the library catalogue''s date agrees (Princeton Theological Seminary
+      Library, on the archive.org record: 1924)'
+    formation_confidence: Documented
+  edition_date:
+    year: 1924
+    source: 'the line ''First published 1924'' under the publisher''s imprint (line 252) and the introduction, signed
+      ''April, 1924'' (line 720), with which the library catalogue''s date agrees (Princeton Theological Seminary
+      Library, on the archive.org record: 1924)'
+    formation_confidence: Documented
+  note: 'Era 9 row 242, John Clifford: a Life told by another.'

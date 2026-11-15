@@ -1,0 +1,21 @@
+source_file: ward-wilfrid_life-and-times-of-cardinal-wiseman-v1_1897.txt
+assignments:
+- row_id: ward-wilfrid_life-and-times-of-cardinal-wiseman-v1_1897--the-life-and-times-of-cardinal-wiseman-in-two-volumes-vol-i
+  work: The Life and Times of Cardinal Wiseman; in two volumes, vol. I
+  author: ward-wilfrid
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - catholic-church-long-nineteenth-century
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1897
+    end: 1897
+    source: 'the printing''s own title page: line 56, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1897
+    source: line 56, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 278, Nicholas Wiseman: a Life told by another (vol. 1).'

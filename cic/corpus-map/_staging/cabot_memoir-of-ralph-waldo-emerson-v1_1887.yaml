@@ -1,0 +1,21 @@
+source_file: cabot_memoir-of-ralph-waldo-emerson-v1_1887.txt
+assignments:
+- row_id: cabot_memoir-of-ralph-waldo-emerson-v1_1887--a-memoir-of-ralph-waldo-emerson-by-james-elliot-cabot-in-two
+  work: A Memoir of Ralph Waldo Emerson, by James Elliot Cabot; in two volumes, vol. I
+  author: cabot
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - american-unitarianism-universalism-consolidations
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1887
+    end: 1887
+    source: 'the printing''s own title page: line 203, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1887
+    source: line 203, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 261, Ralph Waldo Emerson: a Life told by another (vol. 1).'

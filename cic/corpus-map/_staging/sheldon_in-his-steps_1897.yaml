@@ -1,0 +1,21 @@
+source_file: sheldon_in-his-steps_1897.txt
+assignments:
+- row_id: sheldon_in-his-steps_1897--in-his-steps-what-would-jesus-do
+  work: 'In His Steps: ''What Would Jesus Do?'''
+  author: sheldon
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - the-social-gospel
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1897
+    end: 1897
+    source: 'the printing''s own title page: line 72, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1897
+    source: line 72, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 329, Charles M. Sheldon: In His Steps.'

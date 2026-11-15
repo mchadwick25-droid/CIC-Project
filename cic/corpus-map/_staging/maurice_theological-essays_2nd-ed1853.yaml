@@ -1,0 +1,21 @@
+source_file: maurice_theological-essays_2nd-ed1853.txt
+assignments:
+- row_id: maurice_theological-essays_2nd-ed1853--theological-essays-with-a-new-preface-and-other-additions
+  work: Theological Essays; with a new preface, and other additions (second edition)
+  author: maurice
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - victorian-church-of-england
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1853
+    end: 1853
+    source: 'the printing''s own title page: line 71, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1853
+    source: line 71, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 273, Frederick Denison Maurice: Theological Essays.'
