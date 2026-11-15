@@ -27074,16 +27074,6 @@ queue:
     verified_by: 'Library thread, era 8 batch 1: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,293,088 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: bruce_travels-to-discover-the-source-of-the-nile-v3_1790.txt
-  - title: 'The Story of the Church of Egypt: being an outline of the history of the Egyptians under their successive masters from the Roman conquest until now; in two volumes, vol. II'
-    author: 'E. L. Butcher'
-    year: '1897'
-    world: the-coptic-church-under-the-ottomans
-    why: 'Wanted_Sources row 152 and Open-Gaps 175, Library wanted: Butcher, The Story of the Church of Egypt, vol. 2 (1897), the census entry''s source.'
-    url: https://archive.org/details/storyofchurchofe02butc
-    rights_basis: 'Public Domain (pd-us-by-date: published 1897); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 8 batch 1: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 963,910 equal to the listed size, the volume''s end read'
-    status: downloaded
-    vendored_as: butcher_story-of-the-church-of-egypt-v2_1897.txt
   - title: 'Histoire de l''Église d''Alexandrie, fondée par S. Marc, que nous appelons celle des Jacobites-Coptes d''Égypte; écrite au Caire même, en 1672 et 1673'
     author: 'Johann Michael Wansleben (Vansleb)'
     year: '1677'

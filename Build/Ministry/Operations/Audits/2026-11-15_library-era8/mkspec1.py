@@ -111,17 +111,6 @@ for v, ident, bk, lines, extra_note in [
              ("A Scottish traveler's annals of the kings of Abyssinia down to his own visit, with his own judgments. An outsider's version." if v == 2 else
               "A Scottish traveler's account of his journey to Gondar, his stay there and the church as he saw it. An outside witness."))])
 
-add("storyofchurchofe02butc", "storyofchurchofe02butc_djvu.txt", "butcher_story-of-the-church-of-egypt-v2_1897.txt",
-    "The Story of the Church of Egypt: being an outline of the history of the Egyptians under their successive masters from the Roman conquest until now; in two volumes, vol. II",
-    "E. L. Butcher (title page)", "London: Smith, Elder, & Co. (title page)", "1897 (title page)", 1897, NR, "eng",
-    "clean English; marginal year notes run into the text. A library catalog card stands at OCR lines 1-12.",
-    "Chapters XIII to XLIII, from the Fatimid conquest (969) to 1897. The Ottoman years: chapter XXXII at OCR line 9081 (1517 at 9476) through chapter XL, ending at 15241; chapter XLI, from 1854, at 15242. The first Roman Catholic metropolitan (1741) at 12592-12622. Ibrahim al-Jawhari ('Moallem Ibrahim-el Johari') in a footnote at 13292-13299. Main text ends at about 17335; a note on new bishops at 17337-17395; index at 17397-20049.",
-    "E. L. Butcher", COPT,
-    "Wanted_Sources row 152 and Open-Gaps 175, Library wanted: Butcher, The Story of the Church of Egypt, vol. 2 (1897), the census entry's source.",
-    [row("butcher-story-of-the-church-of-egypt-vol-2-ottoman-years", "Butcher, The Story of the Church of Egypt, vol. II: the Ottoman years, 1517-1854", "butcher",
-         "chapters XXXII-XL at OCR lines 9081-15241", [COPT], "context", "provisional", "eng", doc((1897, 1897), "title page: 1897"),
-         "An English writer's history of the Copts down to 1897. A secondary account by an outsider.")])
-
 add("bub_gb_m3GZP6sZZJMC", "bub_gb_m3GZP6sZZJMC_djvu.txt", "vansleb_histoire-de-l-eglise-d-alexandrie-fra_1677.txt",
     "Histoire de l'Église d'Alexandrie, fondée par S. Marc, que nous appelons celle des Jacobites-Coptes d'Égypte; écrite au Caire même, en 1672 et 1673",
     "Johann Michael Wansleben (title page: 'Par le P. J. M. Vansleb, Dominicain')", "Paris: chez la veuve Clousier, and chez Pierre Promé (title page)",
