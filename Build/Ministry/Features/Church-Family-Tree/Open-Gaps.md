@@ -3698,3 +3698,7 @@ it, never by deleting it.
     - Taken on a coordinator's call that Mark may overrule: eleven files whose year is printed only inside the work's title (Edinburgh 1910, Lambeth 1930, Shanghai 1922), and Bultmann's Jesus (1926), dated by a dated afterword with the catalog date agreeing.
     - Latin held with no English printed by 1930 (Mortalium animos, Sacrorum antistitum, the homily to the Chinese bishops, Ab ipsis, Iniquis afflictisque): a rendering of ours needs the second independent rendering.
     - Half met: Metropolitan Sergius. His declaration is held in an English printing of 1929; no full text of an answer rejecting it is held.
+
+291. **The map after release 44: the Safari check and the phone zoom floor settled; the browser tests still out of CI (2026-11-15).** This follows Open-Gaps "The map after release 44" (2026-11-15). Source: Decision-Log, "The map after release 44: Mark's iPhone check passes" (2026-11-15).
+    - Settled: the Safari check passes on Mark's iPhone ("yes the iphone looks good"). The phone zoom floor stays the width fit ("keep it as is").
+    - Still open: `Build/tools/tree_map_view.test.mjs` runs by hand after `node tools/build_tree_site.mjs`; CI has no browser job (the Playwright-in-CI item, P1-8). Owner: the CI owner.
