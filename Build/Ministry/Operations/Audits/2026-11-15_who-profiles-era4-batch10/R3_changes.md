@@ -145,3 +145,15 @@ Source lines rechecked: HARAS l.1-4, l.1671-1673, l.1748-1749; CROSS l.11741-117
 
 ## Noticed, not changed
 - Card `dates` ends "...in its entry for 1072" with no final period (pre-existing).
+
+## After the cap check (R4)
+
+Each source line was reopened before the edit. No brief changed, so no audio was rebuilt. JSON parses.
+
+- **R4-M1.** Applied as worded. PG111 l.14277-14279 in `records.json`, the README census bullet and Open-Gaps 272; l.14275-14276 are blank.
+- **R4-M2.** Applied as worded. THEO l.131112-131114 in the README and `records.json`, PG108 l.131112-131114 in Open-Gaps 272.
+- **R4-M3.** Applied as worded. Ilarion's card `knownFor` now gives 1051 as the Russian Primary Chronicle's.
+- **R4-M4.** Applied as worded in Open-Gaps 272, with Harasiewicz's 1031 (HARAS l.1672, l.1749).
+- **R4-M5.** Applied as worded in the Decision-Log's "Contested points told in place".
+- **R4-M6.** Applied as worded. The confession's own line, GORSKII l.2610, is cited first; it reads "въ лёто язфню", the year garbled.
+- **R4-M7.** Corrected, not applied as worded. In the file, l.16005 reads "P. 21, 4. — Alexis became patriarch ... A.D. 1025, and died", and "sat till 1058" is at l.16006. So Open-Gaps 272 and README l.74 (MOUR l.16006) were right and are unchanged. The two citations that disagreed with them, README l.28 and the `records.json` quotation, now read MOUR l.16006. The `dates` witness range l.16005-16006 is kept, since it covers Alexis's death as well.
