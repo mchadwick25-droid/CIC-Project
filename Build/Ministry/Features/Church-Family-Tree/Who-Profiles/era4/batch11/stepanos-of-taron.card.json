@@ -1,0 +1,85 @@
+{
+  "name": "Stepanos of Taron",
+  "otherNames": [
+    "Asoghik; Asolik and Asolnik in older spellings",
+    "Stephanos von Taron, in Heinrich Gelzer and August Burckhardt's German",
+    "Étienne de Tarôn, in Frédéric Macler's French",
+    "Taronetsi, \"of Taron\""
+  ],
+  "knownFor": "An Armenian historian whose Universal History, written at the order of the catholicos Sargis and finished in 1004 or 1005, records the Bagratid kingdom of Armenia, its churches and its monasteries down to his own day.",
+  "dates": "Finished his History in the Armenian year 453, which Frédéric Macler reckons as 1004 to 1005. Born after 927, by the Armenian editor Malkhasiants; Macler says he was at least about twenty by 967. Macler fits a manuscript notice of his death to 1021 (the scan reads 1091); Marie-Félicité Brosset said no one knows when he died",
+  "place": "Taron, the region his name comes from; the monastery of Khladsor in Derjan, where he spent a Lent. His church served the Bagratid kings at Ani",
+  "tradition": "Bagratid Armenian Christianity",
+  "role": "Historian; writer of the Universal History at the order of the catholicos Sargis",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Universal History",
+      "about": "in three books, from the beginnings of the world to 1004 or 1005. Book III tells the Bagratid kingdom from its restoration in about 887, Macler says, with dates for almost every event. Held in Gelzer and Burckhardt's German (all three books, 1907) and in Macler's French (Book III, 1917)"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Macler counts nine manuscripts listed by Malkhasiants, who printed the Armenian text at St Petersburg in 1885, after Chahnazariants at Paris in 1859.",
+      "Translations followed into Russian by J.-B. Emin (1864), into French by Édouard Dulaurier (Books I and II, 1883) and Macler (Book III, 1917), and into German by Gelzer and Burckhardt (1907).",
+      "Later writers on Armenia and Georgia cite him again and again for dates, among them Brosset and the editor of Michael the Syrian's Chronicle."
+    ],
+    "remembered": [
+      "Macler calls him the historian of the Bagratid kings who ruled at Ani, and the first Armenian writer whose dates can be trusted.",
+      "Gregory Magistros, an Armenian scholar who wrote until 1058, Macler says, asks in a letter for a commentary on Jeremiah by \"Asolik\", whom he calls a very old man (Macler's French).",
+      "C. F. Neumann, in 1830, called him \"the learned Asolnik\"."
+    ]
+  },
+  "uncertain": [
+    "His own life is thin. It rests on a few lines of his own and on modern editors who disagree. Macler warns that it is better to stay in near-ignorance than to fill the gap with bold guesses.",
+    "His name Asoghik. J.-B. Emin, his Russian translator, took it to mean he was skilled in church chant. Mélik David bey, whom Macler cites, read it as the little storyteller, which would rule out church chant.",
+    "His birth. Malkhasiants says the dates of his birth and death are unknown, and that he was born after 927. Emin made him about fifteen in 943. Macler, from Stepanos's own words about the old teachers, says he was at least about twenty by 967.",
+    "His death. Alishan reported a manuscript at the Mekhitarist library in Venice that says the father of the monastery, Stephen, also Asoghik, died when the Persians took Kars. Macler notes that Alishan gives no account of the manuscript, and fits the only matching invasion to 1021. Brosset, in 1876, said no one knows when he died.",
+    "His burial. Armenian tradition shows his tomb at Mush, in the cemetery of the monastery of the Holy Apostles. Macler says the tradition needs a very close look.",
+    "His office. He says he wrote amid the sacred duties Sargis gave him, without naming them. That he studied at Ani and was ordained a priest is a modern notice, which Macler says does little to settle the question. Alishan cites a list that makes Asolik the vardapet and Stephen of Taron the historian two men, and says he was thought to be a married cantor; Macler doubts the list.",
+    "When the History ends. One line has Senekerim reign twenty years, which would reach 1023 or 1024. Malkhasiants reads one year, which keeps the History ending in 1004 or 1005. Brosset saw at least two later insertions in Book III.",
+    "Which Anania ordered the second baptism. Stepanos names Anania of Narek among the teachers, and says the ruling came at the order of the lord Anania. Macler takes that Anania to be the catholicos, Anania of Mokq.",
+    "Gregory Magistros's letter is undated, Macler notes, and no commentary on Jeremiah by Stepanos survives."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Des Stephanos von Taron armenische Geschichte",
+        "author": "Stepanos of Taron; Heinrich Gelzer and August Burckhardt (tr.)",
+        "date": "1907",
+        "language": "German",
+        "file": "cic/texts/stepanos-taron_armenische-geschichte-deu_gelzer-burckhardt1907.txt"
+      },
+      {
+        "title": "Histoire universelle, deuxième partie, livre III",
+        "author": "Stepanos of Taron; Frédéric Macler (tr.)",
+        "date": "1917",
+        "language": "French",
+        "file": "cic/texts/stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Introduction and notes to the Histoire universelle",
+        "author": "Frédéric Macler",
+        "date": "1917",
+        "language": "French",
+        "file": "cic/texts/stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt"
+      },
+      {
+        "title": "Mémoires historiques sur les Sofis, notes",
+        "author": "Zakaria of Agulis; Marie-Félicité Brosset (tr.)",
+        "date": "1876",
+        "language": "French",
+        "file": "cic/texts/zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt"
+      },
+      {
+        "title": "The History of Vartan and of the Battle of the Armenians, preface",
+        "author": "Eghishe; C. F. Neumann (tr.)",
+        "date": "1830",
+        "language": "English",
+        "file": "cic/texts/eghishe_history-of-vartan-and-the-armenian-war_neumann1830.txt"
+      }
+    ]
+  }
+}
