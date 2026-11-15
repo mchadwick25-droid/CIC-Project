@@ -888,7 +888,7 @@
  "william-of-ockham": {
   "claims": [
    {
-    "claim": "The flight: Carlini 'Nella notte del 26 di maggio, Michelino, insieme con l' Ockam, il Bonagrazia, Francesco d' Ascoli e altri, volò dalla Curia avignonese: giunti ad Aigues-mortes trovarono nel porto una barca, vi salirono sopra e di lì montarono in una galea armata, pronta a partire per Genova.' Note: Riezler and Müller give the 25th; 'Nicolaus Minorita, seguito anche dall' Eubel ... dà il 26, che fu un giovedì sera.' Lea: 'Thither he fled, May 26, accompanied by Ockham and Bonagrazia.'",
+    "claim": "The flight: Carlini 'Nella notte del 26 di maggio, Michelino, insieme con l' Ockam, il Bonagrazia, Francesco d' Ascoli e altri, volò dalla Curia avignonese: giunti ad Aigues-mortes trovarono nel porto una barca, vi salirono sopra e di lì montarono in una galea armata, pronta a partire per Genova.' Note: Riezler and Müller give the 25th; 'Nicolaus Minorita, seguito anche dall' Eubel ... dà il 26, che fu un giovedì sera.' Lea: 'Thither he fled, May 26, accompanied by Ockham and Bonagrazia.' Carlini's note cites Riezler, Literar. Widersacher (Leipzig, 1874).",
     "witness": "CARL (carlini_fra-michelino-e-la-sua-eresia-ita-lat_1912.txt) l.6268-6278; LEA3 (lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt) l.7106-7112",
     "formation_confidence": "Widely Accepted"
    },
@@ -903,7 +903,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "William English, Franciscan, master of theology: 'quidam Anglicus vocatus Gulielmus Occham ordinis praelibati' (letter of June 1328); 'mag. Guilelmum Occam eiusdem ord. Min.' (28 May 1328); Michael's Pisa appeal: 'Guilelmus Occham de Anglia, magister in sacra pagina'. Tombstone as Carlini reports it: 'WILELM DICTUS OCKAM EX ANGLIA SS. THEOLOGIAE DOCTOR'.",
+    "claim": "William English, Franciscan, master of theology: 'quidam Anglicus vocatus Gulielmus Occham ordinis praelibati' (letter of June 1328); 'mag. Guilelmum Occam eiusdem ord. Min.' (28 May 1328); Michael's Pisa appeal: 'Guilelmus Occham de Anglia, magister in sacra pagina'. Tombstone as Carlini reports it: 'WILELM DICTUS OCKAM EX ANGLIA SS. THEOLOGIAE DOCTOR'. The stone: after the 1802 demolition 'una lastra di macigno quadrato fu risparmiata: trovavasi nella chiesa vicino all' altar maggiore e portava un nome' (CARL l.8690-8698).",
     "witness": "BUL5 (bullarium-franciscanum_v5-lat_eubel1898.txt) l.54697, 54327, 65196-65199; CARL (carlini_fra-michelino-e-la-sua-eresia-ita-lat_1912.txt) l.8698-8699",
     "formation_confidence": "Documented"
    },
@@ -928,7 +928,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "The 1323 summons: John XXII to the bishops of Ferrara and Bologna, 1 December 1323: a 'Guillelmus dictus Anglicus ordinis fratrum Minorum, sacrae scripturae se asserens professorem' had preached at Bologna 'haereticum esse dicere et asserere salvatorem nostrum ... ac eius apostolos aliquid habuisse in proprio vel communi'; to be cited 'ut infra unius mensis spatium ... apostolico conspectui personaliter se praesentet'. 'The friars' view' in the brief means that view.",
+    "claim": "The 1323 summons: John XXII to the bishops of Ferrara and Bologna, 1 December 1323: a 'Guillelmus dictus Anglicus ordinis fratrum Minorum, sacrae scripturae se asserens professorem' had preached at Bologna 'haereticum esse dicere et asserere salvatorem nostrum ... ac eius apostolos aliquid habuisse in proprio vel communi'; to be cited 'ut infra unius mensis spatium ... apostolico conspectui personaliter se praesentet'. 'The friars' view' in the brief means that view. If the report is true: 'si veritas suffragetur relatibus', 'si ea repereritis veritate fulciri'; Lea: 'to investigate the truth of the report, and if it was correct to cite Ockham'.",
     "witness": "BUL5 (bullarium-franciscanum_v5-lat_eubel1898.txt) l.42407-42452",
     "formation_confidence": "Documented"
    },
@@ -948,12 +948,12 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Munich: Glassberger 'Et profectus cum Ludovico iam coronato, venit Monachium, oppidum Bavariae, et ibi mansit cum sociis suis usque ad mortem suam' (of Michael). Glassberger is a later Observant chronicler (Chronica in Analecta Franciscana II, 1887).",
+    "claim": "Munich: Glassberger 'Et profectus cum Ludovico iam coronato, venit Monachium, oppidum Bavariae, et ibi mansit cum sociis suis usque ad mortem suam' (of Michael). Glassberger is a later Observant chronicler (Chronica in Analecta Franciscana II, 1887). Glassberger 'Ordinis Minorum Observantium', writing 'an. 1508' (GLASS l.1, 106).",
     "witness": "GLASS (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt) l.11153-11156",
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Twenty years, and the argument: Lea 'for twenty years he poured forth a series of controversial works in defence of the cause'; 'he argued that a pope can fall into heresy, and so, indeed, can a general council, and even all Christendom ... There was nothing sure but Scripture'. The argument is told as Lea's summary.",
+    "claim": "Twenty years, and the argument: Lea 'for twenty years he poured forth a series of controversial works in defence of the cause'; 'he argued that a pope can fall into heresy, and so, indeed, can a general council, and even all Christendom ... There was nothing sure but Scripture'. The argument is told as Lea's summary. 'there was nothing sure but Scripture ;' (the stop is the brief's).",
     "witness": "LEA3 (lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt) l.6812-6827",
     "formation_confidence": "Dominant Modern Reconstruction"
    },
@@ -963,7 +963,7 @@
     "formation_confidence": "Widely Accepted"
    },
    {
-    "claim": "The tract (De imperatorum et pontificum potestate): 'Fateor plane, quod mihi veraciter potest imponi, quod ab oboedientia ecclesie Avinionice et a societate multitudinis fratrum minorum me subtraho ex nulla alia causa, nisi quia liquido mihi constat, quod prefata ecclesia Avinionica errores et hereses manifestas tenet'; 'Persecutioni igitur scienter me ingerens et eam fugere non intendens'. Told in modern words, no quotation marks; 'most of his brother friars' renders 'a societate multitudinis fratrum minorum'.",
+    "claim": "The tract (De imperatorum et pontificum potestate): 'Fateor plane, quod mihi veraciter potest imponi, quod ab oboedientia ecclesie Avinionice et a societate multitudinis fratrum minorum me subtraho ex nulla alia causa, nisi quia liquido mihi constat, quod prefata ecclesia Avinionica errores et hereses manifestas tenet'; 'Persecutioni igitur scienter me ingerens et eam fugere non intendens'. Told in modern words, no quotation marks; 'most of his brother friars' renders 'a societate multitudinis fratrum minorum'. He keeps Christ's leave to flee from one city to another ('quamvis forte si esset necesse ... uterer licentia Christi'); the brief says only that he brought persecution on himself knowingly.",
     "witness": "SCHOLZ (scholz_unbekannte-kirchenpolitische-streitschriften-v2-lat_1914.txt) l.25859-25868",
     "formation_confidence": "Documented"
    },
@@ -978,7 +978,7 @@
     "formation_confidence": "Contested"
    },
    {
-    "claim": "Wadding: the Quaracchi editors quote Wadding, 'mihi palam constat ex diplomate Pontificio ... Occhamum adhuc an. 1349 vixisse, remisisse antiquum Ordinis sigillum ... ad Gulielmum Farinerium ... et humiliter sui errati veniam petiisse'; they conclude 'Incertum autem est, quando et ubi mortuus sit; probabiliter circa an. 1350.' Luke Wadding's name and order, and his Annales Minorum: 'Lucas Waddingus ord. Min. Rec.' 'in celeberrimis Annalibus Minorum'.",
+    "claim": "Wadding: the Quaracchi editors quote Wadding, 'mihi palam constat ex diplomate Pontificio ... Occhamum adhuc an. 1349 vixisse, remisisse antiquum Ordinis sigillum ... ad Gulielmum Farinerium ... et humiliter sui errati veniam petiisse'; they conclude 'Incertum autem est, quando et ubi mortuus sit; probabiliter circa an. 1350.' Luke Wadding's name and order, and his Annales Minorum: 'Lucas Waddingus ord. Min. Rec.' 'in celeberrimis Annalibus Minorum'. Wadding's Annales 'saeculo septimo decimo' (BUL5 l.86114-86116).",
     "witness": "GLASS (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt) l.13552-13558; BUL5 (bullarium-franciscanum_v5-lat_eubel1898.txt) l.86114-86116",
     "formation_confidence": "Contested"
    },
@@ -993,8 +993,8 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Dialogus close: Scholz 'a) Schluß von Dialogus III, tractatus II, liber III, cap. 23. Aus: Vat. lat. 4115'; 'christiana religio neminem privat iure suo'.",
-    "witness": "SCHOLZ (scholz_unbekannte-kirchenpolitische-streitschriften-v2-lat_1914.txt) l.22605-22612, 22696",
+    "claim": "Dialogus close: Scholz 'a) Schluß von Dialogus III, tractatus II, liber III, cap. 23. Aus: Vat. lat. 4115'; the master of the dialogue argues 'Nam religio christiana et per consequens Christus neminem, eciam secularem et infidelem, privavit iure suo', with Ambrose quoted: 'quia christiana religio neminem privat iure suo'.",
+    "witness": "SCHOLZ (scholz_unbekannte-kirchenpolitische-streitschriften-v2-lat_1914.txt) l.22605-22612, 22682-22696",
     "formation_confidence": "Documented"
    },
    {
@@ -1018,13 +1018,13 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Gerson 1418: 'Scriptus est iste Tractatus Anno 1418. sub finem Concilii Constantiensis'; 'fundavit Ockam in Dialogo suo, cujus solius autoritati non oportet inniti, quamvis fuerit egregius Theologus' (long s in the OCR).",
+    "claim": "Gerson 1418: 'Scriptus est iste Tractatus Anno 1418. sub finem Concilii Constantiensis'; 'fundavit Ockam in Dialogo suo, cujus solius autoritati non oportet inniti, quamvis fuerit egregius Theologus' (long s in the OCR). 'occasione appellationis Oratorum Polonorum ad futurum Concilium'.",
     "witness": "GERSON (gerson_opera-omnia-tomus-2-pars-1-tractatus-ad-schisma-lat_dupin1706.txt) l.27012-27016, 27207-27211",
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Luther, Exhortation to the Clergy Assembled at the Diet at Augsburg (1530): 'Occam, my dear master, writes that it cannot be proved from the Scriptures that man needs the grace of God in order to do a good work.'",
-    "witness": "LUTHER4 (luther_works-v4-selected_various1931.txt) l.15636-15650, 16777-16779",
+    "claim": "Luther, Exhortation to the Clergy Assembled at the Diet at Augsburg (1530): 'Occam, my dear master, writes that it cannot be proved from the Scriptures that man needs the grace of God in order to do a good work.' 'These are the best of them'.",
+    "witness": "LUTHER4 (luther_works-v4-selected_various1931.txt) l.15636-15650, 16776-16780",
     "formation_confidence": "Documented"
    },
    {
@@ -1053,13 +1053,13 @@
     "formation_confidence": "Contested"
    },
    {
-    "claim": "Witness of Michael's 1338 protest at Munich: 'in civitate Monacensi, in domo fratrum Minorum'; 'Ego, predictus frater Guillermus de Ocham ... adhesi et adhereo'.",
+    "claim": "Witness of Michael's 1338 protest at Munich: 'in civitate Monacensi, in domo fratrum Minorum'; 'Ego, predictus frater Guillermus de Ocham ... adhesi et adhereo'. For William Carlini gives only 'Ego, predictus frater Guillermus de Ocham .... (segue come per H. de Thalem ...)'.",
     "witness": "CARL (carlini_fra-michelino-e-la-sua-eresia-ita-lat_1912.txt) l.13147-13195",
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Birth and early life: Yule-Cordier's bracketed '[born in Surrey]'; Vaughan 1845 and Dalgairns 1908 on Merton.",
-    "witness": "CATHAY (cathay-and-the-way-thither_vol3-missionary-friars-pegolotti-marignolli_yule-cordier1914.txt) l.10491-10494; VAUGHAN (wyclif_tracts-and-treatises_vaughan1845.txt) l.742-756; HILTON (hilton_scale-or-ladder-of-perfection_dalgairns1908.txt) l.2431-2433",
+    "claim": "Birth and early life: Yule-Cordier's bracketed '[born in Surrey]'; Vaughan 1845 and Dalgairns, in an essay of 1870 reprinted in 1908 ('Some writers have connected him with Ockham, because Merton College had the honour of producing both') on Merton.",
+    "witness": "CATHAY (cathay-and-the-way-thither_vol3-missionary-friars-pegolotti-marignolli_yule-cordier1914.txt) l.10491-10494; VAUGHAN (wyclif_tracts-and-treatises_vaughan1845.txt) l.742-756; HILTON (hilton_scale-or-ladder-of-perfection_dalgairns1908.txt) l.212-217, 2431-2433",
     "formation_confidence": "Inferential-Thin"
    }
   ],
@@ -1083,7 +1083,8 @@
     "claim": "Whether the friar summoned from Bologna in 1323 was Ockham",
     "sides": [
      "Eubel, after Raynaldus: more likely Ockham (BUL5 l.42511-42512); Lea and Carlini take it as Ockham (LEA3 l.6496-6503; CARL l.5326-5350)",
-     "Eubel: possibly William of Alnwick (BUL5 l.42504-42507); the letter names only 'Guillelmus dictus Anglicus' (BUL5 l.42416-42418)"
+     "Eubel: possibly William of Alnwick (BUL5 l.42504-42507); the letter names only 'Guillelmus dictus Anglicus' (BUL5 l.42416-42418)",
+     "Earlier: Carlini has Ockham sign the Perugia decision of 1322 (CARL l.4698-4700, 5326-5329); Eubel says the English William at Perugia was William of Alnwick (BUL5 l.42504-42507); the Yule-Cordier note puts Ockham at a council at Assisi in 1322 (CATHAY l.10492-10494)"
     ]
    },
    {
@@ -1504,17 +1505,17 @@
  "nicholas-cabasilas": {
   "claims": [
    {
-    "claim": "1353, three names for patriarch: 'ἐπελέξαντο τρεῖς, Φιλόθεόν τε τὸν τῆς Ἡρακλείας ἀρχιερέα, καὶ τὸν Φιλαδελφείας Μακάριον, καὶ Νικόλαον τὸν Καβάσιλαν, ὄντα ἔτι ἰδιώτην ... βασιλεὺς δὲ εἵλετο τῶν ἄλλων μᾶλλον τὸν Φιλόθεον'; Latin 'privatum adhuc Nicolaum Cabasilam'. Kantakouzenos was the emperor; partisan witness. Told in modern words.",
+    "claim": "1353, three names for patriarch: 'ἐπελέξαντο τρεῖς, Φιλόθεόν τε τὸν τῆς Ἡρακλείας ἀρχιερέα, καὶ τὸν Φιλαδελφείας Μακάριον, καὶ Νικόλαον τὸν Καβάσιλαν, ὄντα ἔτι ἰδιώτην ... βασιλεὺς δὲ εἵλετο τῶν ἄλλων μᾶλλον τὸν Φιλόθεον'; Latin 'privatum adhuc Nicolaum Cabasilam'. Kantakouzenos was the emperor; partisan witness. Told in modern words. 'ἐπευξάμενοι ... ἔπειτα τὴν θείαν χάριν ἐπικαλεσάμενοι τοῦ πνεύματος, ἐπελέξαντο τρεῖς'; Philotheos 'τὸν τῆς Ἡρακλείας ἀρχιερέα'. 'A writer on the sacraments' rests on his works in PG150.",
     "witness": "CANT3 (cantacuzenus_historiarum-libri-iv-v3-grc-lat_schopen1832.txt) l.16595-16603, 16631-16634",
     "formation_confidence": "Documented"
    },
    {
-    "claim": "The notice from Fabricius's Bibliotheca Graeca (Harles's edition): 'Nicolaus Cabasila, Nili Cabasilae Thessalonicensis ex fratre nepos, ejusdemque, defuncti vita, in munere successor fuit. Cum patruo saepe confundi solet. Claruit circa a. 1350 [OCR 4550]'; 'Vir fuit omnino doctus'.",
+    "claim": "The notice from Fabricius's Bibliotheca Graeca (Harles's edition): 'Nicolaus Cabasila, Nili Cabasilae Thessalonicensis ex fratre nepos, ejusdemque, defuncti vita, in munere successor fuit. Cum patruo saepe confundi solet. Claruit circa a. 1350 [OCR 4550]'; 'Vir fuit omnino doctus'. Migne: 'ACCURANTE J.-P. MIGNE' (l.161, 195); heading 'Fabric. Harl. Bibliotheca Graeca, t. X, p. 159' (l.26062).",
     "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.26060-26072, 26083",
     "formation_confidence": "Widely Accepted"
    },
    {
-    "claim": "Gass, sister's son after Phrantzes: 'Er war Schwestersohn (ἀδελφιδοῦς) des Nilus'; Phrantzes: Thomais given 'τῇ ἀδελφῇ τῶν τριῶν ἀρχιερέων ... καὶ μητρὶ τοῦ σοφωτάτου Καβασίλα Νικολάου', she went to Thessalonica 'διὰ τὸ ἐκεῖσε εἶναι τὸν ἀδελφὸν αὐτῆς Καβάσιλαν ἀρχιερέα'.",
+    "claim": "Gass, sister's son after Phrantzes: 'Er war Schwestersohn (ἀδελφιδοῦς) des Nilus'; Phrantzes: Thomais given 'τῇ ἀδελφῇ τῶν τριῶν ἀρχιερέων ... καὶ μητρὶ τοῦ σοφωτάτου Καβασίλα Νικολάου', she went to Thessalonica 'διὰ τὸ ἐκεῖσε εἶναι τὸν ἀδελφὸν αὐτῆς Καβάσιλαν ἀρχιερέα'. Phrantzes: her brother Kabasilas archbishop at Thessalonica; 'τῇ ἀδελφῇ τῶν τριῶν ἀρχιερέων'.",
     "witness": "GASS (cabasilas_mystik-vom-leben-in-christo-grc-deu_gass1849.txt) l.1373-1374, 1453-1455, 1484-1488; PHRAN (sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838.txt) l.7955-7995",
     "formation_confidence": "Contested"
    },
@@ -1539,8 +1540,8 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Gass: 'unter den Anhängern des Palamas genannt und für sie in die Schranken tretend'.",
-    "witness": "GASS (cabasilas_mystik-vom-leben-in-christo-grc-deu_gass1849.txt) l.1231-1235",
+    "claim": "Gass: 'unter den Anhängern des Palamas genannt und für sie in die Schranken tretend'. Symeon counts his writings against 'τοῦ Βαρλαάμ τε καὶ Ἀκινδύνου αἱρέσεως'; the Thessalonica Synodikon praises him against 'τοῦ Βαρλαὰμ καὶ Ἀκινδύνου ... μανίαν'.",
+    "witness": "GASS (cabasilas_mystik-vom-leben-in-christo-grc-deu_gass1849.txt) l.1231-1235; PG155 (symeon-thessalonica_opera-omnia-pg155-grc-lat_migne1866.txt) l.9225-9236; GASS l.1932-1934",
     "formation_confidence": "Widely Accepted"
    },
    {
@@ -1559,18 +1560,18 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "No need to leave: 'καὶ στρατηγήσει μὲν ὁ στρατηγὸς, καὶ γεωργήσει δὲ ὁ γεωργὸς, καὶ δημιουργὸς προστήσεται τῶν ἔργων ... Οὐ γὰρ ἐσχατιὰν ἀνάγκη καταλαβεῖν, οὐδ᾽ ἀήθη τινὰ προσέσθαι τροφήν, οὐδ᾽ ἀμεῖψαι θοἰμάτιον, οὐδ᾽ ὑγείαν διαφθεῖραι'; Latin 'licet domi ... manentem'. Told in modern words.",
+    "claim": "No need to leave: 'καὶ στρατηγήσει μὲν ὁ στρατηγὸς, καὶ γεωργήσει δὲ ὁ γεωργὸς, καὶ δημιουργὸς προστήσεται τῶν ἔργων ... Οὐ γὰρ ἐσχατιὰν ἀνάγκη καταλαβεῖν, οὐδ᾽ ἀήθη τινὰ προσέσθαι τροφήν, οὐδ᾽ ἀμεῖψαι θοἰμάτιον, οὐδ᾽ ὑγείαν διαφθεῖραι'; Latin 'licet domi ... manentem'. Told in modern words. 'καὶ οὐ δεήσεταί γε οὐδενὶ τῶν γιγνομένων': the general gives up none of his work. 'The newborn': 'τελειοῖ τὸν γεγεννημένον' (l.36564).",
     "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.44358-44389",
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Archbishop or not: Fabricius 'in munere successor'; Migne 'NICOLAUS CABASILA, THESSALONICENSIS METROPOLITA'; Gass 'nicht vor 1354 als Erzbischof genannt', taking the see 'erst nach einigen Jahren'; Kantakouzenos 'ὄντα ἔτι ἰδιώτην' (1353); Symeon names him 'τοῦ μακαρίτου ἐκείνου Καβάσιλα ... Νικολάου κατὰ τὴν κλῆσιν' with no see.",
-    "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.344-346, 26071-26072; GASS (cabasilas_mystik-vom-leben-in-christo-grc-deu_gass1849.txt) l.1784-1789; CANT3 (cantacuzenus_historiarum-libri-iv-v3-grc-lat_schopen1832.txt) l.16601-16602; PG155 (symeon-thessalonica_opera-omnia-pg155-grc-lat_migne1866.txt) l.9228-9233",
-    "formation_confidence": "Contested"
+    "claim": "Archbishop: Fabricius 'in munere successor'; Migne 'NICOLAUS CABASILA, THESSALONICENSIS METROPOLITA'; Gass 'verwaltete dasselbe Amt zehn Jahr nachher (nach 1350)', 'Muthmasslich wird also Cabasilas erst nach einigen Jahren das Erzbisthum angetreten haben ... Jedenfalls wird er nicht vor 1354 als Erzbischof genannt'; the Synodikon of the church of Thessalonica, quoted by Gass from Le Quien, 'Νικολάου τοῦ ἁγιωτάτου μητροπολίτου Θεσσαλονίκης ... αἰωνία ἡ μνήμη'. Against or silent: Kantakouzenos 'ὄντα ἔτι ἰδιώτην' (a date, 1353); Symeon names him with no see (silence).",
+    "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.343-346, 26071-26072; GASS (cabasilas_mystik-vom-leben-in-christo-grc-deu_gass1849.txt) l.1373-1375, 1781-1785, 1884-1888, 1919-1938; CANT3 (cantacuzenus_historiarum-libri-iv-v3-grc-lat_schopen1832.txt) l.16601-16602; PG155 (symeon-thessalonica_opera-omnia-pg155-grc-lat_migne1866.txt) l.9228-9233",
+    "formation_confidence": "Widely Accepted"
    },
    {
-    "claim": "Symeon 'writing in the next century': the volume heads him 'Saeculum XV, annus 1430' (file header); 'τὴν καλὴν νίκην ἐπ᾽ εὐσεβείᾳ καὶ ἁγνότητι βίου συστησαμένου'.",
-    "witness": "PG155 (symeon-thessalonica_opera-omnia-pg155-grc-lat_migne1866.txt) l.1-3, 9228-9233",
+    "claim": "Symeon 'writing in the next century': Harles after Wharton, 'Sim. Thessal. claruisse a. 1410 et obiisse a. 1429'; 'τὴν καλὴν νίκην ἐπ᾽ εὐσεβείᾳ καὶ ἁγνότητι βίου συστησαμένου'.",
+    "witness": "PG155 (symeon-thessalonica_opera-omnia-pg155-grc-lat_migne1866.txt) l.796-806, 9228-9233",
     "formation_confidence": "Widely Accepted"
    },
    {
@@ -1584,7 +1585,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Editions: Hervet Venice 1548; Greek by Fronto Ducaeus 1624; Pontanus's six books Ingolstadt 1604; sermon against usurers, Augsburg 1595 by Hoeschel; encomium of Theodora in the Acta Sanctorum for 5 April with Papebroch's commentary; Casaubon read the seven books 'magna cum voluptate'.",
+    "claim": "Editions: Hervet Venice 1548; Greek by Fronto Ducaeus 1624; Pontanus's six books Ingolstadt 1604; sermon against usurers, Augsburg 1595 by Hoeschel; encomium of Theodora in the Acta Sanctorum for 5 April with Papebroch's commentary; Casaubon read the seven books 'magna cum voluptate'. 'DANIELIS PAPEBROCHII COMMENTARIUS' (l.49318).",
     "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.26092-26099, 26126-26131, 26170-26175, 26192-26193, 49316; GASS (cabasilas_mystik-vom-leben-in-christo-grc-deu_gass1849.txt) l.1815-1816",
     "formation_confidence": "Documented"
    },
@@ -1619,17 +1620,17 @@
     "formation_confidence": "Dominant Modern Reconstruction"
    },
    {
-    "claim": "Anti-Latin writings: Fabricius 'num contra S. Thomam Aquinatem scripserit, non omnes consentiunt'; Gass gives the titles to Nilus; Petit gives a purgatory tract to Barlaam.",
-    "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.26084-26086; GASS (cabasilas_mystik-vom-leben-in-christo-grc-deu_gass1849.txt) l.1839-1842; PO15 (patrologia-orientalis-tomus15_petit-documents-concile-de-florence-purgatoire-grc-fra_graffin-nau1927.txt) l.513-516",
+    "claim": "Anti-Latin writings: Fabricius 'num contra S. Thomam Aquinatem scripserit, non omnes consentiunt'; Gass gives the titles to Nilus; Petit: the purgatory tract, once given to Nilus, Nicholas or Barlaam, is the Greeks' joint answer at Ferrara, by Mark of Ephesus and Bessarion ('cette malencontreuse attribution a Barlaam'; 'la majeure partie de cet opuscule est empruntee, mot pour mot, a Marc d'Ephese').",
+    "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.26084-26086; GASS (cabasilas_mystik-vom-leben-in-christo-grc-deu_gass1849.txt) l.1839-1842; PO15 (patrologia-orientalis-tomus15_petit-documents-concile-de-florence-purgatoire-grc-fra_graffin-nau1927.txt) l.513-517, 540-544, 584-587, 630-640",
     "formation_confidence": "Contested"
    }
   ],
   "contested_claims": [
    {
-    "claim": "Whether he became archbishop of Thessalonica",
+    "claim": "When he became archbishop of Thessalonica, and whether he did",
     "sides": [
-     "Fabricius: successor of Nilus (PG150 l.26071-26072); Migne's heading (PG150 l.344-346); Gass: not named archbishop before 1354, took the see later (GASS l.1784-1789)",
-     "Kantakouzenos: still a layman in 1353 (CANT3 l.16601-16602); Symeon of Thessalonica gives him no see (PG155 l.9228-9233)"
+     "Yes: Fabricius (PG150 l.26071-26072); Migne's heading (PG150 l.343-346); Gass, presuming the see some years after 1353, not named archbishop before 1354 (GASS l.1373-1375, 1781-1785); the Thessalonica Synodikon via Le Quien (GASS l.1884-1888, 1919-1938)",
+     "A date and a silence: Kantakouzenos calls him still a layman in 1353 (CANT3 l.16601-16602); Symeon names no see (PG155 l.9228-9233)"
     ]
    },
    {
@@ -1650,7 +1651,7 @@
     "claim": "Whether he wrote against the Latins",
     "sides": [
      "Fabricius: a sharp opponent of the Latins, though not all agree he wrote against them or Aquinas (PG150 l.26084-26086)",
-     "Gass: the titles belong to Nilus (GASS l.1839-1842); Petit: the purgatory tract is Barlaam's (PO15 l.513-516)"
+     "Gass: the titles belong to Nilus (GASS l.1839-1842); Petit: the purgatory tract, once given to Nilus, Nicholas or Barlaam, is the Greeks' joint answer at Ferrara, by Mark of Ephesus and Bessarion (PO15 l.513-517, 540-544, 584-587, 630-640)"
     ]
    }
   ],
@@ -1666,6 +1667,10 @@
    {
     "detail": "His tract against Gregoras",
     "note": "Named by Boivin (GREG2 l.47136-47137) and Migne's index; no text in cic/texts."
+   },
+   {
+    "detail": "The date he took the see of Thessalonica",
+    "note": "No line gives the date he took the see or says he never held it; searched all cic/texts for the name forms with Thessalon-, archiep-, metropol-, μητροπολ-, ἀρχιερ-, Erzbisch-."
    }
   ]
  }
