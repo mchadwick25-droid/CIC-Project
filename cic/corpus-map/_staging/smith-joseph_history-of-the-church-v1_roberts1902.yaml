@@ -1,0 +1,22 @@
+source_file: smith-joseph_history-of-the-church-v1_roberts1902.txt
+assignments:
+- row_id: smith-joseph_history-of-the-church-v1_roberts1902--history-of-the-church-of-jesus-christ-of-latter-day-saints
+  work: History of the Church of Jesus Christ of Latter-day Saints. Period I. History of Joseph Smith, the Prophet.
+  author: smith-joseph
+  locus: Chapter I, Joseph Smith's birth and lineage and the first vision at OCR lines 5334-5665; add 12 to OCR
+    line numbers; the rest not mapped
+  atlas_ids:
+  - latter-day-saints-lds
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1902
+    end: 1902
+    source: 'the printing''s own title page: OCR line 71, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1902
+    source: OCR line 71, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 174, Joseph Smith: his own History.'

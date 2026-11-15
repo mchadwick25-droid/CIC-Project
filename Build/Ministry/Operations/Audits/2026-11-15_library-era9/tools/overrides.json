@@ -1,0 +1,142 @@
+{
+ "actaetdecretasac00unse": {
+  "language": "lat",
+  "title": "Acta et decreta sacrosancti oecumenici concilii Vaticani, cum permultis aliis documentis ad concilium ejusque historiam spectantibus (a note at OCR line 80 says the volume is tome VII of the Collectio Lacensis)",
+  "creator": "Auctoribus presbyteris S. J. e domo B. V. M. sine labe conceptae ad Lacum",
+  "publisher": "Friburgi Brisgoviae: sumptibus Herder, typographi editoris pontificii"
+ },
+ "storyofchurchofe02butc": {
+  "title": "The Story of the Church of Egypt, being an outline of the history of the Egyptians under their successive masters from the Roman conquest until now, by E. L. Butcher; in two volumes, vol. II",
+  "creator": "E. L. Butcher",
+  "publisher": "London: Smith, Elder, & Co., 15 Waterloo Place"
+ },
+ "cihm_15174": {
+  "title": "Innocent of Moscow, the Apostle of Kamchatka and Alaska, by Charles R. Hale, D.D., Dean of Davenport",
+  "creator": "Charles R. Hale, D.D., Dean of Davenport",
+  "publisher": "Privately printed; the colophon reads 'Morcherdt, printer, Davenport, Iowa'"
+ },
+ "philosophyrevel00bavigoog": {
+  "title": "The Philosophy of Revelation; the Stone Lectures for 1908-1909, Princeton Theological Seminary, by Herman Bavinck, Doctor of Theology, Professor in the Free University of Amsterdam",
+  "creator": "Herman Bavinck",
+  "publisher": "Longmans, Green, and Co., 91 and 93 Fifth Avenue, New York; London, Bombay, and Calcutta",
+  "basis": "OCR line 98, on the title page"
+ },
+ "evanrobertsaiwai00phil": {
+  "title": "Evan Roberts, y Diwygiwr; Evan Roberts a'i waith, gan y Parch. D. M. Phillips, M.A., Ph.D., Tylorstown (title page at OCR lines 250-260)",
+  "creator": "D. M. Phillips",
+  "publisher": "Dolgellau: argraffwyd gan E. W. Evans, Swyddfa'r Goleuad",
+  "basis": "OCR line 284, under the printer's line, which reads 'I 9 I 2 .'"
+ },
+ "sim_presbyterian-review_1881-04_2_6": {
+  "title": "The Presbyterian Review, No. 6, April, 1881 (the first article is 'Inspiration')",
+  "creator": "The article 'Inspiration' is signed at its end, OCR lines 2417-2418: 'A. A. Hopce.' (the OCR's reading of Hodge) and 'B. B. Warfield.'",
+  "publisher": "Not printed in the OCR of this number",
+  "basis": "the number's own heading at OCR line 13, 'No. 6.-April, 1881'"
+ },
+ "spurgeonsautobio01spuruoft": {
+  "creator": "C. H. Spurgeon; compiled by his wife and his private secretary (neither is named on the title page)"
+ },
+ "jerrymcauleyhisl00mcau": {
+  "creator": "Edited by Rev. R. M. Offord; introduction by Rev. S. Irenaeus Prime, D.D.; personal sketches by A. S. Hatch, Esq.",
+  "basis": "the copyright notice at OCR line 40 ('Copyright, 1885'); the title page prints no year (page image, leaf n8)",
+  "nodate": true
+ },
+ "gtu_32400003383456": {
+  "creator": "Brigham Young, his two counsellors, the Twelve Apostles, and others; reported by G. D. Watt"
+ },
+ "DerLutheraner01": {
+  "creator": "C. F. W. Walther (editor)"
+ },
+ "booksofthaepingd00medh": {
+  "creator": "Compiled by W. H. Medhurst, Senr."
+ },
+ "declarationslett00dolluoft": {
+  "creator": "Ignaz von Dollinger; the translator is not named on the title page; the host record names F. H. Reusch as editor"
+ },
+ "defenceofprofess00brig": {
+  "creator": "Charles Augustus Briggs (named in the title as Professor Briggs; the full name is the host record's)"
+ },
+ "caseagainstprofe0103brig": {
+  "creator": "No author is printed on the title page"
+ },
+ "caseagainstprofe0105brig": {
+  "creator": "No author is printed on the title page",
+  "basis": "OCR line 52, on the title page"
+ },
+ "hometalks00noyegoog": {
+  "basis": "read on the scan's page image, leaf n8; the OCR at line 165 reads 'l87S'"
+ },
+ "adiscoursematte05parkgoog": {
+  "basis": "OCR line 171, on the title page, which reads 'M.DCCC.ZLVII.' for MDCCCXLVII"
+ },
+ "metropolitantab02spurgoog": {
+  "basis": "OCR line 130, on the title page, which reads '187I.'",
+  "strip_re": "[^.]*line 1587[^.]*\\."
+ },
+ "remarksoncertain00newmrich": {
+  "basis": "OCR line 3755, in the imprint at the end of the tract ('London: printed for J. G. F. & J. Rivington', line 3751); the scan has no separate title leaf"
+ },
+ "whatischristiani00harn_2": {
+  "basis": "OCR line 70, on the title page, which reads 'I9Ol'"
+ },
+ "oneofchinasschol00tayluoft": {
+  "basis": "OCR line 105, in the printing history on the back of the title page ('Reprinted November 1909'); the title page itself prints no year",
+  "title": "One of China's Scholars: the early life and conversion of Pastor Hsi, by Mrs. Howard Taylor; bound in this scan with Pastor Hsi (of North China): One of China's Christians, by Mrs. Howard Taylor, twelfth edition (from OCR line 7854)"
+ },
+ "tractaatvande00kuyp": {
+  "title": "Tractaat van de Reformatie der Kerken, aan de zonen der Reformatie hier te lande op Luthers vierde eeuwfeest aangeboden door Dr. A. Kuyper (the black-letter title page is garbled in the OCR; these words follow the host record and the page image, leaf n6)",
+  "creator": "Dr. A. Kuyper",
+  "publisher": "Amsterdam: Höveker & Zoon (page image, leaf n6)"
+ },
+ "tweedereerstege00cockgoog": {
+  "creator": "Issued by Hendrik de Cock; the foreword of 1882 says he published the letters and did not write them (OCR lines 372-376); forewords by his widow and his son"
+ },
+ "transformedorhis00mcaurich": {
+  "basis": "the copyright notice at OCR line 27 ('Copyright, 1876, by Jeremiah McAuley'); the title page prints no year",
+  "nodate": true
+ },
+ "lifeoftrustbeing00mlrich": {
+  "year": 1868,
+  "basis": "read on the scan's page image, leaf n8 ('1868.', partly under a library stamp); the copyright notice at OCR line 63 reads 1860",
+  "strip": [
+   "The title page prints no year."
+  ]
+ },
+ "lifeofcatherineb01bootiala": {
+  "basis": "the copyright notice on the title leaf, OCR lines 68-71 ('Entered according to Act of Congress, in the year 1893, by William Booth'); the title page prints no year (page image, leaf n10)",
+  "nodate": true
+ },
+ "storyofwelshrevi0000unse": {
+  "basis": "the copyright notice at OCR line 165 ('Copyright, 1905, by Fleming H. Revell Company'); the title page prints no year",
+  "nodate": true
+ },
+ "b29350943_0001": {
+  "basis": "the preface, dated 'Pentonville, October 10th, 1838' (OCR line 247 of vol. 1), with which the library catalogue's date agrees (Wellcome Library, on the archive.org record: 1838); a plate caption at OCR line 4778 of vol. 1 is also dated 1838; the title pages print no year",
+  "nodate": true,
+  "title_sub": [
+   "Raparavavy",
+   "Rafaravavy (the OCR of the title page reads 'Raparavavy')"
+  ]
+ },
+ "b29350943_0002": {
+  "basis": "the preface, dated 'Pentonville, October 10th, 1838' (OCR line 247 of vol. 1), with which the library catalogue's date agrees (Wellcome Library, on the archive.org record: 1838); a plate caption at OCR line 4778 of vol. 1 is also dated 1838; the title pages print no year; vol. 2 prints no date of its own",
+  "nodate": true,
+  "title_sub": [
+   "Raparavavy",
+   "Rafaravavy (the OCR of the title page reads 'Raparavavy')"
+  ]
+ },
+ "cu31924095897249": {
+  "title": "A Declaration of the Yearly Meeting of Friends, held in Philadelphia, respecting the proceedings of those who have lately separated from the Society (1828); bound in this scan with four later Friends' pamphlets, of 1838 to 1852"
+ },
+ "allgemeinemissio4546unse": {
+  "title": "Allgemeine Missions-Zeitschrift. Monatshefte fuer geschichtliche und theoretische Missionskunde, herausgegeben von D. Jul. Richter und D. Joh. Warneck; two yearly volumes in one scan, the 45th (Berlin 1918) and the 46th (Berlin 1919, from OCR line 18305)",
+  "basis": "OCR line 44, on the title page of the 45th volume ('Berlin 1918.'); the 46th volume's title page, from OCR line 18305, reads Berlin 1919"
+ },
+ "magnaliadeionder00bavi": {
+  "basis": "OCR line 75, on the title page"
+ },
+ "tiyosogapageofso00chal": {
+  "basis": "OCR line 74, on the title page, which reads '187 7.'"
+ }
+}

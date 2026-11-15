@@ -1,0 +1,21 @@
+source_file: oliphant_life-of-edward-irving-v2_1862.txt
+assignments:
+- row_id: oliphant_life-of-edward-irving-v2_1862--the-life-of-edward-irving-by-mrs-oliphant-vol-ii
+  work: The Life of Edward Irving ... by Mrs. Oliphant. Vol. II
+  author: oliphant
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - catholic-apostolic-church-irvingites
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1862
+    end: 1862
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n6; the OCR does not give it cleanly'
+    formation_confidence: Documented
+  edition_date:
+    year: 1862
+    source: read on the scan's page image, leaf n6; the OCR does not give it cleanly
+    formation_confidence: Documented
+  note: 'Era 9 row 179, Edward Irving: a Life (vol. 2).'

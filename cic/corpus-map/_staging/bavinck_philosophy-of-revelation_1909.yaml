@@ -1,0 +1,22 @@
+source_file: bavinck_philosophy-of-revelation_1909.txt
+assignments:
+- row_id: bavinck_philosophy-of-revelation_1909--the-philosophy-of-revelation-the-stone-lectures-for-1908
+  work: The Philosophy of Revelation; the Stone Lectures for 1908-1909, Princeton Theological Seminary, by Herman
+  author: bavinck
+  locus: Lecture I, 'The Idea of a Philosophy of Revelation', at OCR lines 344-2520; add 12 to OCR line numbers;
+    the rest not mapped
+  atlas_ids:
+  - dutch-neo-calvinism-secession-churches
+  role: tradition
+  confidence: needs-ruling
+  language: eng
+  date:
+    start: 1909
+    end: 1909
+    source: 'the printing''s own title page: OCR line 98, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1909
+    source: OCR line 98, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 194, Herman Bavinck: an English print of his own lectures.'

@@ -1,0 +1,21 @@
+source_file: richardson_memoirs-of-alexander-campbell-v1_1868.txt
+assignments:
+- row_id: richardson_memoirs-of-alexander-campbell-v1_1868--memoirs-of-alexander-campbell-embracing-a-view-of-the-origin
+  work: Memoirs of Alexander Campbell, embracing a view of the origin, progress and principles of the religious
+  author: richardson
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - the-stone-campbell-restoration-movement
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1868
+    end: 1868
+    source: 'the printing''s own title page: OCR line 102, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1868
+    source: OCR line 102, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 164, Alexander Campbell: a Life (Richardson, vol. 1).'

@@ -1,0 +1,22 @@
+source_file: liddon_life-of-edward-bouverie-pusey-v1_1893.txt
+assignments:
+- row_id: liddon_life-of-edward-bouverie-pusey-v1_1893--life-of-edward-bouverie-pusey-doctor-of-divinity-canon-of
+  work: Life of Edward Bouverie Pusey, Doctor of Divinity, Canon of Christ Church; Regius Professor of Hebrew in
+    the
+  author: liddon
+  locus: Editors' preface at OCR lines 61-340; add 12 to OCR line numbers; the rest not mapped
+  atlas_ids:
+  - the-oxford-movement-and-anglo-catholic-revival
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1893
+    end: 1893
+    source: 'the printing''s own title page: OCR line 56, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1893
+    source: OCR line 56, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 190, Edward Bouverie Pusey: Liddon''s Life, vol. 1.'
