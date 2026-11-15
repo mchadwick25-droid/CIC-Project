@@ -2,7 +2,7 @@ Title: Werken van Zuster Hadewijch, I. Gedichten; diplomatisch uitgegeven naar t
 Creator: Hadewijch; edited by J. F. J. Heremans and C. J. K. Ledeganck (dbnl's title line: 'editie J. Heremans en C. Ledeganck')
 Publisher: Gent: drukkerij van C. Annoot-Braeckman (title page)
 Publication Date: 1875 (title page, as dbnl's text gives it (line 57))
-Rights: Public Domain (pd-us-by-date: published 1875); dbnl.org marks this title 'Auteursrechtvrij' and its notice reads 'Het auteursrecht op dit werk is verlopen. Dat betekent dat het behoort tot het publieke domein.' Mark's ruling allows Hadewijch only in this 1875 edition
+Rights: Public Domain (pd-us-by-date: published 1875); dbnl.org marks this title 'Auteursrechtvrij' and its notice reads 'Het auteursrecht op dit werk is verlopen. Dat betekent dat het behoort tot het publieke domein.' This 1875 edition is the one Hadewijch edition held
 Language: dum
 Source: dbnl.org (Digitale Bibliotheek voor de Nederlandse Letteren), text id hade002werk01_01, https://www.dbnl.org/tekst/hade002werk01_01/ ; dbnl's own plain-text download of its keyed text (dbnl 2009, from the Leiden University Library copy, shelfmark 1080 B 6). Fetched 2026-11-15 by the Library thread; the byte count of the file (233,630) equals the Content-Length dbnl sent.
 Provenance note: Extracted unaltered: the dbnl plain-text file is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1875, out of US copyright by date. OCR quality: not OCR: dbnl's keyed text, clean, with page markers in braces; dbnl says the preliminary pages and the blank pages are left out of the running text. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.

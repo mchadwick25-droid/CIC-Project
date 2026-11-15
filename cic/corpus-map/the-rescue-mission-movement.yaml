@@ -3,6 +3,28 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-rescue-mission-movement
 works:
+- row_id: clarke_founding-of-pacific-garden-mission_1914--the-founding-of-pacific-garden-mission-over-thirty-five
+  work: 'The Founding of Pacific Garden Mission: over thirty-five years contributed to the
+    Master''s service'
+  author: clarke
+  locus: Sarah Clarke on her birth and conversion at lines 122-137; her account of the opening
+    of the rescue mission in 1877 at lines 305-317; the rest not mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1914
+    end: 1914
+    source: the copyright notice at line 63 ('Copyright 1914'); the archive.org record's date
+      is 1914
+    formation_confidence: Documented
+  edition_date:
+    year: 1914
+    source: the copyright notice at line 63 ('Copyright 1914'); the archive.org record's date
+      is 1914
+    formation_confidence: Documented
+  note: 'Era 9 row 330, George and Sarah Clarke: Sarah Clarke''s own account of the mission.'
+  source_file: clarke_founding-of-pacific-garden-mission_1914.txt
 - row_id: mcauley_transformed-or-the-history-of-a-river-thief_1876--transformed-or-the-history-of-a-river-thief-briefly-told
   work: Transformed; or, the History of a River Thief, briefly told. Published by himself
   author: mcauley

@@ -1,0 +1,21 @@
+source_file: graves_old-landmarkism-what-is-it_1880.txt
+assignments:
+- row_id: graves_old-landmarkism-what-is-it_1880--old-landmarkism-what-is-it
+  work: 'Old Landmarkism: What Is It?'
+  author: graves
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - nineteenth-century-baptists
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1880
+    end: 1880
+    source: 'the printing''s own title page: line 44, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1880
+    source: line 44, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 240, James Robinson Graves: Old Landmarkism.'

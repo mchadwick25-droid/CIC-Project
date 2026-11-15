@@ -59,6 +59,26 @@ works:
   confidence: needs-ruling
   note: Her own words, but written in 1887, before the entry's window of 1904-1910.
   source_file: ramabai_high-caste-hindu-woman_1888.txt
+- row_id: stead_welsh-revival-narrative-of-facts_boston1905--the-welsh-revival-i-a-narrative-of-facts-by-w-t-stead-ii-the
+  work: 'The Welsh Revival: I. A Narrative of Facts, by W. T. Stead; II. The Revival: its
+    Power and Source, by G.'
+  author: stead
+  locus: 'Stead''s chapter IV, ''Evan Roberts'', at lines 2040-2789; Morgan''s ''The Revival:
+    Its Power and Source'' at lines 3255-3591; the rest not mapped'
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1905
+    end: 1905
+    source: the copyright notice at lines 267-268 ('Copyright, 1905, by J. H. Tewksbury')
+    formation_confidence: Documented
+  edition_date:
+    year: 1905
+    source: the copyright notice at lines 267-268 ('Copyright, 1905, by J. H. Tewksbury')
+    formation_confidence: Documented
+  note: 'Era 9 row 328, W. T. Stead: his narrative of the Welsh revival.'
+  source_file: stead_welsh-revival-narrative-of-facts_boston1905.txt
 - row_id: story-of-the-welsh-revival_told-by-eyewitnesses_3rd-ed1905--the-story-of-the-welsh-revival-as-told-by-eyewitnesses
   work: The Story of the Welsh Revival as told by eyewitnesses together with a sketch of Evan
     Roberts and his message

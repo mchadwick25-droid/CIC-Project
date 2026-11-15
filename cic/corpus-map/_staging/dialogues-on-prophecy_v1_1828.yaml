@@ -1,0 +1,22 @@
+source_file: dialogues-on-prophecy_v1_1828.txt
+assignments:
+- row_id: dialogues-on-prophecy_v1_1828--dialogues-on-prophecy-vol-i
+  work: Dialogues on Prophecy; vol. I
+  author: dialogues-on-prophecy
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - catholic-apostolic-church-irvingites
+  role: antecedent
+  confidence: provisional
+  language: eng
+  date:
+    start: 1828
+    end: 1828
+    source: 'the printing''s own title page: line 91, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1828
+    source: line 91, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 257, Henry Drummond: Dialogues on Prophecy, vol. 1 (the volume names no author and no place of
+    meeting).'

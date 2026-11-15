@@ -1,0 +1,22 @@
+source_file: cardale_readings-upon-the-liturgy_1851.txt
+assignments:
+- row_id: cardale_readings-upon-the-liturgy_1851--readings-upon-the-liturgy-and-other-divine-offices-of-the
+  work: 'Readings upon the Liturgy and Other Divine Offices of the Church: on the Eucharist, and daily offices'
+  author: cardale
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - catholic-apostolic-church-irvingites
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1848
+    end: 1851
+    source: the part title pages inside the volume, dated 1848 and 1849, and the general title page, dated 1851
+    formation_confidence: Documented
+  edition_date:
+    year: 1851
+    source: line 66, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 256, John Bate Cardale: Readings upon the Liturgy. The title page names no author; the archive.org
+    record names Cardale.'

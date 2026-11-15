@@ -1,0 +1,24 @@
+source_file: coffin_reminiscences-of-levi-coffin_1876.txt
+assignments:
+- row_id: coffin_reminiscences-of-levi-coffin_1876--reminiscences-of-levi-coffin-the-reputed-president-of-the
+  work: Reminiscences of Levi Coffin, the Reputed President of the Underground Railroad; being a brief history of
+    the
+  author: coffin
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - nineteenth-century-quakerism-separations
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1876
+    end: 1876
+    source: the copyright notice at lines 73-75 ('in the year 1876, by Levi Coffin'); the archive.org record's date
+      is 1876
+    formation_confidence: Documented
+  edition_date:
+    year: 1876
+    source: the copyright notice at lines 73-75 ('in the year 1876, by Levi Coffin'); the archive.org record's date
+      is 1876
+    formation_confidence: Documented
+  note: 'Era 9 row 245, Levi Coffin: his Reminiscences.'

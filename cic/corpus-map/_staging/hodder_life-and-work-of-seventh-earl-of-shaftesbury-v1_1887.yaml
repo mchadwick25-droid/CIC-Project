@@ -1,0 +1,21 @@
+source_file: hodder_life-and-work-of-seventh-earl-of-shaftesbury-v1_1887.txt
+assignments:
+- row_id: hodder_life-and-work-of-seventh-earl-of-shaftesbury-v1_1887--the-life-and-work-of-the-seventh-earl-of-shaftesbury-k-g-vol
+  work: The Life and Work of the Seventh Earl of Shaftesbury, K.G.; vol. I
+  author: hodder
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - victorian-church-of-england
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1887
+    end: 1887
+    source: 'the printing''s own title page: line 91, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1887
+    source: line 91, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 271, Lord Shaftesbury: a Life told by another (vol. 1).'

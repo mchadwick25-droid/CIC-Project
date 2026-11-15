@@ -1,0 +1,22 @@
+source_file: phillpotts_letter-to-miss-sellon_1852.txt
+assignments:
+- row_id: phillpotts_letter-to-miss-sellon_1852--a-letter-to-miss-sellon-superior-of-the-society-of-sisters
+  work: A Letter to Miss Sellon, Superior of the Society of Sisters of Mercy, at Plymouth; by Henry, Lord Bishop
+    of
+  author: phillpotts
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - the-oxford-movement-and-anglo-catholic-revival
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1852
+    end: 1852
+    source: 'the printing''s own title page: line 76, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1852
+    source: line 76, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 268, Priscilla Lydia Sellon: her bishop''s letter to her.'

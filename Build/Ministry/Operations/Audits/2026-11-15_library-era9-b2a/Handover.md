@@ -8,7 +8,7 @@ Written 2026-11-15 by the era 9 batch 2a thread, for batch 2b (Britain, Europe, 
 
 ## Where batch 2a stands
 
-- Branch `claude/library-era9-b2a`: 72 files for rows 226, 246-248, 263-266, 279-322 and 324-326, and for
+- Branch `claude/library-era9-b2a`: 71 files for rows 226, 246-248, 263-266, 279-322 and 324-326, and for
   batch 1's retried rows (181, 185, 186, 191, 197, 207, 210, 213).
 - The record: `Search_Log.md` and the review files in this folder; `CFT-Wants.md` ("Era 9, batch 2a"); the
   Library's `Decision-Log.md` (last entry).
@@ -59,7 +59,9 @@ What went wrong, and the fix to keep:
   archive.org ids against main's registry again just before the merge. The closing session did so and found a
   second case: Launay's Histoire générale, tome 2 (`cihm_54001`), vendored on main by the era 8 batch under a
   different file name, so that git showed no conflict on the file itself. This batch's copy was dropped and its
-  map row moved to main's file; the two texts are the same below the header, so the line numbers hold.
+  map row moved to main's file; the two texts are the same below the header, so the line numbers hold. A third case came with batch 2b's merge: Neatby's History of the
+  Plymouth Brethren, under the same file name. Main's copy and entries were kept and this batch's map row for
+  Darby was added to main's staging file.
 - **A searcher's "held already" check misses files named differently.** Ormanian's Church of Armenia was
   picked though it was held. Check every pick's archive.org id against `REGISTRY.yaml` and the queue file
   before building.
@@ -84,8 +86,8 @@ run that generator. Look at it before running it; do not fix it blind.
 
 ## The finish, handed on (the thread stopped at its context limit)
 
-The batch is complete on the branch: 73 files (72 after the closing session dropped Launay's tome 2, held on
-main since the era 8 batch), two review rounds (round 2 clears), origin/main merged in with
+The batch is complete on the branch: 73 files (71 after the closing session dropped Launay's tome 2, held on
+main since the era 8 batch, and Neatby, held on main since era 9 batch 2b), two review rounds (round 2 clears), origin/main merged in with
 no conflict markers. What is left is only the finish.
 
 1. **Checks on the merged branch.** The nine Library validators passed before the merge. They were run again

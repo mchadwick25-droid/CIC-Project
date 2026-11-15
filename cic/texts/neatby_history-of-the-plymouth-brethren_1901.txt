@@ -1,12 +1,12 @@
 Title: A History of the Plymouth Brethren
 Creator: William Blair Neatby, M.A.
-Publisher: London: Hodder and Stoughton
-Publication Date: 1901 (line 69 of this file, on the title page)
+Publisher: London: Hodder and Stoughton, 27 Paternoster Row
+Publication Date: 1901 (line 69, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1901); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item ahistoryoftheply00neatuoft, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (762,200) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1901, out of US copyright by date. OCR quality: clean. Line numbers cited in this header are this file's own line numbers.
-Content note: A history of the Plymouth Brethren in sixteen chapters, by a writer who is not Darby. Editorial matter: the author's Preface at lines 88-233, which says the work is partly based on his articles 'Darby and Darbyism' in the British Weekly; contents from line 241. The text runs from line 296 to line 14204; a Bibliographical Appendix follows from line 14207. Mixed voices: Darby and other writers are quoted inside the narrative. John Nelson Darby's birth is told at line 792; chapter V treats 'Darby in Vaud' (from line 3411), chapter IX 'The Supremacy of Darby' (lines 7779-8463), and chapter XII 'Darby's Strange Corrective to Newtonianism' (from line 10076). About 113,539 words.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1901, out of US copyright by date. OCR quality: clean to fair. Line numbers cited in this header are this file's own lines.
+Content note: A history of the Plymouth Brethren by William Blair Neatby, M.A. (London: Hodder and Stoughton, 1901). Editorial matter: the author's preface at lines 88-235, dated September 1901, which says the work is partly based on his articles in the British Weekly titled 'Darby and Darbyism'. Divisions: contents at lines 241-291 list sixteen chapters, from the Dublin movement through the strife at Plymouth in 1845 and at Bristol in 1848 to a general review; chapter I begins at line 294 and the text ends at line 14204. A bibliographical appendix arranged by chapter runs from line 14207 to line 14518. About 113,539 words.
 
 ______________________________________________________________________
 

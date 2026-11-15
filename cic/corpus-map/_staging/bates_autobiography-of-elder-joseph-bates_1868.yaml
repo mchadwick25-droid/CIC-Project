@@ -1,0 +1,24 @@
+source_file: bates_autobiography-of-elder-joseph-bates_1868.txt
+assignments:
+- row_id: bates_autobiography-of-elder-joseph-bates_1868--the-autobiography-of-elder-joseph-bates-embracing-a-long
+  work: The Autobiography of Elder Joseph Bates; embracing a long life on shipboard, with sketches of voyages on
+    the
+  author: bates
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - restorationist-apocalyptic-ferment-and-adventism
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1868
+    end: 1868
+    source: 'the preface, signed ''Monterey, Mich., May 1, 1868'' (line 191), with which the library catalogue''s
+      date agrees (University of Michigan, on the archive.org record: 1868)'
+    formation_confidence: Documented
+  edition_date:
+    year: 1868
+    source: 'the preface, signed ''Monterey, Mich., May 1, 1868'' (line 191), with which the library catalogue''s
+      date agrees (University of Michigan, on the archive.org record: 1868)'
+    formation_confidence: Documented
+  note: 'Era 9 row 250, Joseph Bates: his Autobiography.'
