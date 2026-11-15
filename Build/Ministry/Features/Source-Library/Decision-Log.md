@@ -554,7 +554,7 @@ hosts and the cautions for writers are in `Build/Ministry/Operations/Audits/2026
 - **R12, a title page with no year (Mark, 2026-11-15: "Copyright notice yes, preface with a check").** Where a title
   page prints no year, a copyright notice dated 1930 or earlier counts. A dated preface counts only when the library
   catalog's date agrees. The header records the date used and where it was found. The ruling came with the Library
-  threads' briefs and is recorded here and in `cic/texts/INTAKE.md` section 2. Twenty files of this batch rest on it.
+  threads' briefs and is recorded here and in `cic/texts/INTAKE.md` section 2. Nineteen files of this batch rest on it.
 - **The Dictionary of African Christian Biography is CC BY-NC (Mark, through the coordinator, 2026-11-15).** R2 was
   made on the site footer's words, "openly licensed via CC BY 4.0". The site's usage page
   (https://dacb.org/about/usage/) says: "DACB is licensed under a Creative Commons Attribution-NonCommercial 4.0

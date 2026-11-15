@@ -17,7 +17,7 @@ Mark's rulings of 2026-11-15 (`Build/Ministry/Features/Source-Library/Decision-L
 - A printed imprint of 1930 or earlier, read on the title page in the OCR or on the page image. A reprint counts by
   its own date.
 - R12 (Mark, 2026-11-15: "Copyright notice yes, preface with a check"): where the title page prints no year, a copyright notice of 1930 or earlier counts; a dated preface counts only
-  when the library catalog date agrees. Each header says which was used. Twenty files rest on it.
+  when the library catalog date agrees. Each header says which was used. Nineteen files rest on it.
 - R7: an American book of 1931-1963 whose copyright was not renewed counts as free, with the renewal search in the
   header. Two databases were searched for every candidate: the Stanford Copyright Renewal Database (its web search)
   and the NYPL `cce-renewals` data (a full copy, searched as text).
@@ -92,7 +92,7 @@ Not found or not taken: see the wants list (Riley's Menace of Modernism, Larkin,
 and Ewart yielded nothing takeable (no scan, no printed year, or lending-only). Taken: Ramabai (1888), Dyer's Revival
 in India (1907), Macnicol (1926), Barratt (1909), and the Korea Mission Field for April 1910 with Kil Sŏn-ju's
 postcard. Dyer's Pandita Ramabai: The Story of Her Life (1900, `panditaramabais00dyergoog`) was found, but the
-scan is cut off at the end of chapter XII and was not taken. The bound 1910 volume of the Korea Mission Field garbles the postcard; the single-issue scan reads cleanly,
+scan is cut off in chapter XII and was not taken. The bound 1910 volume of the Korea Mission Field garbles the postcard; the single-issue scan reads cleanly,
 and its masthead date was read on the page image. Not taken: Gale's Korea in Transition (no mention of Kil), the
 Korea Mission Field volumes for 1907-1909 (no first-hand words of his), Blair, Penn-Lewis, Houteff.
 
