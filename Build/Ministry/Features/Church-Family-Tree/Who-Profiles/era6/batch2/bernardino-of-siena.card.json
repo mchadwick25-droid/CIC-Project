@@ -1,0 +1,108 @@
+{
+  "name": "Bernardino of Siena",
+  "otherNames": [
+    "Bernardinus de Senis",
+    "Bernardinus Senensis",
+    "Saint Bernardine of Siena",
+    "Bernardine Albizzeschi"
+  ],
+  "knownFor": "A Franciscan preacher of the Observance, the stricter branch of his order, who preached for decades in the town squares of Italy. He spread devotion to the name of Jesus, drawn in a sun. His Siena sermons of 1427 survive in a listener's near word-for-word report.",
+  "dates": "In a sermon of 8 September 1427 he says he was born on that day of the year, and took the habit twenty-five years before. Luciano Banchi, his 1880 editor, reckons the birth as 8 September 1380. Nicolaus Glassberger puts his entry to the order in 1402, at twenty-two; Vespasiano da Bisticci gives twenty-two as his age when he sold all he had. He died on 20 May 1444, the eve of the Ascension, by Glassberger and by Laurentius Surius as the annals of Odoricus Raynaldus quote him. Pope Nicholas V's bull of canonization is dated 24 May 1450, at Pentecost; Banchi gives 1 June.",
+  "place": "Massa Marittima, where Banchi and Orlandi place his birth; Vespasiano says Massa. Siena, where he studied and preached the 1427 cycle in the Campo. Bologna, where Carolus Sigonius sets the story of the painter of playing cards. L'Aquila, where he died, on the road by Vespasiano's account and in the friary by Glassberger's.",
+  "tradition": "Observant Reform & Popular Preaching",
+  "role": "Franciscan friar of the Observance; preacher; vicar general of the Observant friars of Italy",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "The Siena sermons of 1427 (Le prediche volgari)",
+      "about": "the forty-five sermons preached in the Campo and the Piazza San Francesco from 15 August to the end of September 1427, as Nazareno Orlandi describes Banchi's edition. Benedetto, son of Master Bartolomeo, a cloth-shearer, took them down on wax tablets and wrote them out in his shop. Banchi printed them in three volumes from 1880."
+    },
+    {
+      "title": "Sermons, selected in English",
+      "about": "a choice of the 1427 sermons, chosen by Nazareno Orlandi and put into English by Helen Josephine Robins, with his story of the sow-thistle and his challenge to his critics to speak to his face."
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Vespasiano da Bisticci credits him with establishing the Observance, and writes that most of its friars follow his style of preaching.",
+      "Glassberger writes that under his vicariate in Tuscany, from 1438, the houses and the number of Observant friars grew greatly, in Italy and beyond.",
+      "Banchi notes that the name of Jesus in his design came to be carved or painted on the fronts of churches and houses, and that in Siena it remains on the front of the Palazzo Pubblico.",
+      "Glassberger tells that when the minister general tried at the Council of Basel to undo the Council of Constance's decree in the Observants' favor, Bernardino told John of Capistrano not to oppose the Observant friars beyond the Alps. Capistrano later said, in Christopher of Varese's Legend as Glassberger quotes it, that he had not understood the matter as Bernardino did."
+    ],
+    "remembered": [
+      "Pope Nicholas V's bull of canonization, dated at St Peter's in 1450, praises him for bringing peoples divided by old hatreds back to peace.",
+      "In 1447, Nicholas V wrote to defend his good name against those who slandered him after his death.",
+      "Glassberger says the canonization fell at Pentecost in the jubilee year, when crowds from every land were in Rome.",
+      "Henry Charles Lea, the historian of the Inquisition, calls him the man \"who counts as the formal founder of the Observantines\"."
+    ]
+  },
+  "uncertain": [
+    "Whose words the sermons are. The 1427 sermons come through Benedetto's report. An old prologue says he took them down word for word, and Orlandi says he wrote them out in his shop from his wax tablets. Vespasiano also names Latin works of his own.",
+    "Who accused him, and when. Glassberger, an Observant Franciscan writing about 1508, places an accusation before Pope Martin V by Dominican preachers with Manfred of Vercelli, and gives no year. Bernardino said at Siena in 1427 that at Rome some had wanted him fried and some roasted, and Banchi says he had been called there to defend his teaching. Eugenius IV's letter of 7 January 1432 names a different accuser, Michael, a priest of St Adalbert in Prague, who had charged him with heresy over the new sign of the name of Jesus. No witness says whether these were one case.",
+    "Where he died, and at what age. Vespasiano says he fell ill on the way and died before reaching L'Aquila, at sixty-four. Glassberger places his death in the friary of St Francis at L'Aquila, in his sixty-fourth year. Surius, in Raynaldus, gives sixty-six years.",
+    "How long he preached. An old prologue to the sermons gives forty-two years of preaching; Vespasiano gives forty-two in one place and forty-four in another; Orlandi says about forty-four; Glassberger and Surius, in Raynaldus, say forty.",
+    "The date of the canonization bull. The bull printed in the Bullarium Franciscanum is dated 24 May 1450. Banchi gives 1 June 1450."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Le prediche volgari di San Bernardino da Siena dette nella piazza del Campo l'anno MCCCCXXVII, volume 1, with Vespasiano da Bisticci's Life",
+        "author": "Bernardino of Siena, as reported by Benedetto di maestro Bartolomeo; Luciano Banchi (ed.)",
+        "date": "1880",
+        "language": "Italian",
+        "file": "cic/texts/bernardino-of-siena_prediche-volgari-1427-v1-ita_banchi1880.txt"
+      },
+      {
+        "title": "Le prediche volgari, volume 2",
+        "author": "Bernardino of Siena, as reported by Benedetto di maestro Bartolomeo; Luciano Banchi (ed.)",
+        "date": "1884",
+        "language": "Italian",
+        "file": "cic/texts/bernardino-of-siena_prediche-volgari-1427-v2-ita_banchi1884.txt"
+      },
+      {
+        "title": "Saint Bernardine of Siena: Sermons",
+        "author": "Bernardino of Siena; Nazareno Orlandi (ed.); Helen Josephine Robins (trans.)",
+        "date": "1920",
+        "language": "English",
+        "file": "cic/texts/bernardino-of-siena_sermons_orlandi-robins1920.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Vita di San Bernardino, in Banchi's first volume",
+        "author": "Vespasiano da Bisticci",
+        "date": "1880",
+        "language": "Italian",
+        "file": "cic/texts/bernardino-of-siena_prediche-volgari-1427-v1-ita_banchi1880.txt"
+      },
+      {
+        "title": "Chronica, in Analecta Franciscana II",
+        "author": "Nicolaus Glassberger; the Quaracchi editors",
+        "date": "1887",
+        "language": "Latin",
+        "file": "cic/texts/glassberger_chronica-analecta-franciscana-v2-lat_1887.txt"
+      },
+      {
+        "title": "Bullarium Franciscanum, nova series I: Eugenius IV's letter of 1432, the letters of 1440 and 1447, and the bull of canonization",
+        "author": "Ulricus Huntemann (ed.)",
+        "date": "1929",
+        "language": "Latin",
+        "file": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt"
+      },
+      {
+        "title": "Annales ecclesiastici, volume 28 (1424-1453)",
+        "author": "Odoricus Raynaldus; Augustin Theiner (ed.)",
+        "date": "1874",
+        "language": "Latin",
+        "file": "cic/texts/raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt"
+      },
+      {
+        "title": "A History of the Inquisition of the Middle Ages, volume III",
+        "author": "Henry Charles Lea",
+        "date": "1888",
+        "language": "English",
+        "file": "cic/texts/lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt"
+      }
+    ]
+  }
+}
