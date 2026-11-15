@@ -424,6 +424,40 @@ inscription is disputed in Littmann's own addenda; four smaller wordings. The li
 - The Life of Sabas is held only in a Latin version that may not be Cyril's wording. A profile should say so.
 - Shushanik, and the whole History of Movses Daskhurantsi, stay wanted.
 
+## Eras 4-5, second fill (2026-11-15)
+
+Forty-six files for the rows the first era 4 and era 5 passes left open and for the Library wants of Open-Gaps
+263, 265, 266, 268 and 272. Record: `Build/Ministry/Operations/Audits/2026-11-15_library-eras4-5/Search_Log.md`;
+the rows are in `CFT-Wants.md`, "Eras 4-5, second fill".
+
+**Decided here.**
+- Rights: only a printed imprint of 1930 or earlier, read on the title page. Where the OCR could not give the
+  year, it was read on the scan's page image (Mansi XII; the Acta Sanctorum, March II). Where neither gave it, the
+  file was left out: Mansi XX, whose scan has no imprint leaf, and PL 148.
+- Hadewijch: the 1875 edition is vendored from dbnl.org. dbnl marks that title "Auteursrechtvrij" and says its
+  copyright has run out. This is the edition Mark's ruling allows.
+- Powicke's offprint on Walter Daniel has no year on its title page. Its reprint line and its prefatory note
+  (March 1922) date it, and it is taken on that printed evidence.
+- Two wants were held already: Berno's testament (PL 133) and the Lyon I sentence in Matthew Paris. The first era 4
+  log's "PL 133 does not print the testament" was wrong.
+- Ibn Hayyan: his book cannot be filled before 1937. Gayangos's al-Maqqari is taken as `context`, a later writer
+  who quotes him by name.
+- A scan whose wanted passage cannot be read is not taken: the Kyiv archive volume, Cummian in Ussher, the Tale of
+  Boris and Gleb, Cosmas the Priest, Akropolites, the Greek Life of Euthymius.
+- A translation printed in place of the author's words is `needs-ruling` and says so: Clare's letters in Tanner's
+  Latin. Her Process survives in an Italian version and is shelved as tradition with that said.
+- Lives with no date of writing in the volume, or written by another house, are `needs-ruling`: the Life of
+  Tarasius; the Life of Robert of Molesme. Raymond of Capua's Life of Catherine came with the April volume and is
+  `needs-ruling` until era 6 places it.
+- A modern study is `context` (Hefele in English) or not taken (Hefele-Leclercq; Robinson's article on Clare).
+- Shelf rows name the file's own prefix as author where the corpus author index has no other name (Mansi, the
+  Acta Sanctorum, the Recueil). George Metochites, bound in the Mai volume, has no shelf row; the header names him.
+
+**For the tree, not the Library.**
+- No English printed by 1930 exists for Theophanes, the Life of Stephen the Younger, Nikephoros, Nicholas
+  Mystikos, Peter of Sicily, Ilarion or the trial of Maximus. Those wants cannot be filled under the date rule.
+- The Life of Constantine is held in Latin translation only; the Slavonic cannot be read in any scan found.
+
 ### Next action
 
-The eras 4-5 leftovers, era 6 and era 7 wants, each in a fresh session, the same way.
+Era 6 and era 7 wants, each in a fresh session, the same way.

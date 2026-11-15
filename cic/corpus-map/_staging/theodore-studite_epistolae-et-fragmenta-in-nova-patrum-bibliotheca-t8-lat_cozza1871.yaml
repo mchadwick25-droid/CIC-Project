@@ -1,0 +1,12 @@
+source_file: theodore-studite_epistolae-et-fragmenta-in-nova-patrum-bibliotheca-t8-lat_cozza1871.txt
+assignments:
+- row_id: theodore-studite_epistolae-et-fragmenta-in-nova-patrum-bibliotheca-t8-lat_cozza1871--theodore-the-studite-letters-mai-and-cozza-nova-patrum
+  work: 'Theodore the Studite, letters (Mai and Cozza, Nova Patrum Bibliotheca VIII), Latin'
+  author: theodore-studite
+  locus: 'part I, from about OCR line 1055; letters 140 and 205 at about 14902 and 20685; add 12 to OCR line numbers'
+  atlas_ids:
+  - iconophile-byzantine-monasticism
+  - byzantine-imperial-church-heraclian-iconoclast
+  role: tradition
+  confidence: provisional
+  note: 'His own letters, here in Latin translation only. The two letters to Theophanes the Confessor are among them.'

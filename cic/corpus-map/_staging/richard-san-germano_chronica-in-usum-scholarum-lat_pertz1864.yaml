@@ -1,0 +1,11 @@
+source_file: richard-san-germano_chronica-in-usum-scholarum-lat_pertz1864.txt
+assignments:
+- row_id: richard-san-germano_chronica-in-usum-scholarum-lat_pertz1864--richard-of-san-germano-chronica-pertz-1864
+  work: 'Richard of San Germano, Chronica (Pertz 1864)'
+  author: richard-san-germano
+  locus: 'the council of 1215 at about OCR lines 2326-2380; add 12 to OCR line numbers'
+  atlas_ids:
+  - latin-papal-church-gregorian
+  role: context
+  confidence: provisional
+  note: 'A notary of San Germano writing the affairs of the kingdom of Sicily; a lay witness of his own times.'

@@ -1,0 +1,11 @@
+source_file: al-maqqari_history-of-the-mohammedan-dynasties-in-spain-v2_gayangos1843.txt
+assignments:
+- row_id: al-maqqari_history-of-the-mohammedan-dynasties-in-spain-v2_gayangos1843--al-maqqari-history-of-the-mohammedan-dynasties-in-spain-vol
+  work: 'al-Maqqari, History of the Mohammedan Dynasties in Spain, vol. II (Gayangos 1843)'
+  author: al-maqqari
+  locus: 'whole volume; Ibn Hayyan quoted at about OCR lines 6945-6951; add 12 to OCR line numbers'
+  atlas_ids:
+  - mozarabic-christianity
+  role: context
+  confidence: provisional
+  note: 'The Umayyad court of Cordoba as a later Muslim historian tells it, quoting Ibn Hayyan by name. A quotation by a later writer, in Gayangos''s English extracts, not Ibn Hayyan''s own book.'

@@ -14,6 +14,16 @@ works:
 
     '
   source_file: adomnan_life-of-saint-columba_huyshe1905.txt
+- row_id: annals-of-ulster_annala-uladh-v1-431-1056-gle-lat-eng_hennessy1887--the-annals-of-ulster-vol-i-431-1056-english-of-hennessy-1887
+  work: The Annals of Ulster, vol. I (431-1056), English of Hennessy 1887
+  author: annals-of-ulster
+  locus: the English translation, whole volume; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: Annals kept in Irish churches, copied and compiled over centuries, so an entry's date
+    of writing is not the date it reports. Quote the Irish and Latin from the page image only;
+    the OCR cannot read them.
+  source_file: annals-of-ulster_annala-uladh-v1-431-1056-gle-lat-eng_hennessy1887.txt
 - row_id: antiphonary-of-bangor-pt2-lat_warren1895--antiphonary-of-bangor
   work: The Antiphonary of Bangor (c. 680-691), Latin
   author: antiphonary-of-bangor

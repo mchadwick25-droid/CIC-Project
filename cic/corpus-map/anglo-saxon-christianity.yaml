@@ -3,6 +3,34 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: anglo-saxon-christianity
 works:
+- row_id: anglo-saxon-chronicle_newly-translated_gomme1909--the-anglo-saxon-chronicle-english-gomme-1909
+  work: The Anglo-Saxon Chronicle, English (Gomme 1909)
+  author: anglo-saxon-chronicle
+  locus: whole text; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: The English of the Chronicle; Plummer's Old English text is held beside it. The early
+    entries were compiled later.
+  source_file: anglo-saxon-chronicle_newly-translated_gomme1909.txt
+- row_id: anglo-saxon-chronicle_two-of-the-saxon-chronicles-parallel-v1-ang_plummer1892--the-anglo-saxon-chronicle-old-english-plummer-1892
+  work: The Anglo-Saxon Chronicle, Old English (Plummer 1892)
+  author: anglo-saxon-chronicle
+  locus: whole text; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: Annals of the English kingdoms, kept in English churches. The early entries were compiled
+    later from Bede and other sources. Quote the Old English from the page image; the OCR
+    loses the special letters.
+  source_file: anglo-saxon-chronicle_two-of-the-saxon-chronicles-parallel-v1-ang_plummer1892.txt
+- row_id: bede_chronica-maiora-in-chronica-minora-3-mgh-aa-13-lat_mommsen1898--bede-chronica-maiora-de-temporum-ratione-66-71-latin-mommsen
+  work: Bede, Chronica maiora (De temporum ratione 66-71), Latin (Mommsen 1898)
+  author: bede
+  locus: about OCR lines 18388-23200; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: Bede's world chronicle to 725, his own work. The other chronicles in the volume are
+    not placed.
+  source_file: bede_chronica-maiora-in-chronica-minora-3-mgh-aa-13-lat_mommsen1898.txt
 - row_id: bede_opera-historica-v1-historia-abbatum-lat_plummer1896--bede-historia-abbatum-the-anonymous-historia-abbatum-plummer
   work: Bede, Historia abbatum; the anonymous Historia abbatum (Plummer 1896)
   author: bede
@@ -78,3 +106,22 @@ works:
 
     '
   source_file: npnf213_gregory-great-ephraim-syrus-aphrahat.xml
+- row_id: willibald_life-of-saint-boniface_robinson1916--willibald-life-of-boniface-english-robinson-1916
+  work: Willibald, Life of Boniface, English (Robinson 1916)
+  author: willibald
+  locus: chapter 6 at about OCR lines 2036-2060; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: The English of the oldest Life of Boniface; Levison's Latin is held beside it.
+  source_file: willibald_life-of-saint-boniface_robinson1916.txt
+- row_id: willibald_vitae-sancti-bonifatii-mgh-srg-57-lat_levison1905--willibald-life-of-boniface-latin-levison-1905
+  work: Willibald, Life of Boniface, Latin (Levison 1905)
+  author: willibald
+  locus: Willibald's Life from about OCR line 5023; chapter 6 at about 6943-6965; add 12 to
+    OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: The oldest Life of Boniface, written at Mainz within a generation of his death. Its
+    chapter 6 is the oldest account of the oak at Geismar. The later Lives in the same volume
+    are not placed.
+  source_file: willibald_vitae-sancti-bonifatii-mgh-srg-57-lat_levison1905.txt

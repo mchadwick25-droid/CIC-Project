@@ -183,6 +183,15 @@ works:
 
     '
   source_file: npnf213_gregory-great-ephraim-syrus-aphrahat.xml
+- row_id: hefele_history-of-the-councils-v4-451-680_clark1895--hefele-a-history-of-the-councils-of-the-church-vol-4-451-680
+  work: Hefele, A History of the Councils of the Church, vol. 4 (451-680), English, 1895
+  author: hefele
+  locus: whole volume; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: A nineteenth-century Catholic historian's account of the councils from the documents.
+    A modern study, not a witness.
+  source_file: hefele_history-of-the-councils-v4-451-680_clark1895.txt
 - row_id: john-ephesus_ecclesiastical-history-part3_paynesmith1860--constantinople-justin-ii-tiberius-sophia
   work: Ecclesiastical History Part III, Books I-III and V-VI (the capital under Justin II,
     Tiberius and Maurice; the empress Sophia; the persecution of 571)

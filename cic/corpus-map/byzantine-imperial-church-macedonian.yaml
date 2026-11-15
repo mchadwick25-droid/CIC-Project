@@ -3,6 +3,35 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: byzantine-imperial-church-macedonian
 works:
+- row_id: attaleiates_historia-grc-lat_bekker1853--michael-attaleiates-history-greek-and-latin-bekker-1853
+  work: Michael Attaleiates, History, Greek and Latin (Bekker 1853)
+  author: attaleiates
+  locus: whole text from about OCR line 185; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: A history of his own times, dedicated to the emperor Nikephoros Botaneiates (the editor's
+    preface, about OCR line 188). A lay witness of the court, not a church writer.
+  source_file: attaleiates_historia-grc-lat_bekker1853.txt
+- row_id: deusdedit_die-kanonessammlung-des-kardinals-deusdedit-bd1-lat-deu_wolf-von-glanvell1905--the-acts-of-constantinople-861-abridged-in-deusdedit-s
+  work: A report of the council of Constantinople of 861 in Deusdedit's collection IV.428-431
+    (Wolf von Glanvell 1905)
+  author: deusdedit
+  locus: about OCR lines 46885-47300; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: A Latin report of the council of 861, kept in a Roman cardinal's collection of 1087.
+    The editor says the report survives in this form only here; Nicetas's Life of Ignatius
+    also tells of the synod. It is a Roman text kept two centuries later, not the council's
+    own acts.
+  source_file: deusdedit_die-kanonessammlung-des-kardinals-deusdedit-bd1-lat-deu_wolf-von-glanvell1905.txt
+- row_id: kedrenos-skylitzes_compendium-historiarum-t2-grc-lat_bekker1839--kedrenos-skylitzes-compendium-historiarum-811-1057-greek-and
+  work: Kedrenos (Skylitzes), Compendium historiarum, 811-1057, Greek and Latin (Bekker 1839)
+  author: kedrenos-skylitzes
+  locus: whole volume; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: A chronicle that ends in 1057, so a later witness for most of what it tells.
+  source_file: kedrenos-skylitzes_compendium-historiarum-t2-grc-lat_bekker1839.txt
 - row_id: mansi_sacrorum-conciliorum-collectio-tomus-15-lat_welter-facsimile1902--mansi-xv-councils-of-855-868
   work: 'Mansi XV: councils of 855-868'
   author: mansi
@@ -47,6 +76,16 @@ works:
   note: A Byzantine envoy's own polemic (Gieseler's preface, OCR about 136-142, citing the
     text), inside this window.
   source_file: peter-of-sicily_historia-manichaeorum-seu-paulicianorum-grc-lat_gieseler1846.txt
+- row_id: photius_opera-t2-contra-manichaeos-mystagogia-epistolae-pg102-grc-lat_migne1860--photius-letters-and-mystagogia-of-the-holy-spirit-greek-and
+  work: Photius, letters and Mystagogia of the Holy Spirit, Greek and Latin (PG 102)
+  author: photius
+  locus: the Mystagogia from about OCR line 20005; the letters from about 45651; add 12 to
+    OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: The patriarch's own letters and his treatise on the procession of the Spirit. Only
+    the Latin columns can be read in this OCR; quote the Greek from the page image.
+  source_file: photius_opera-t2-contra-manichaeos-mystagogia-epistolae-pg102-grc-lat_migne1860.txt
 - row_id: psellos_chronographia-and-orations-in-mesaionike-bibliotheke-v4-grc_sathas1874--michael-psellos-chronographia-and-orations-sathas-iv
   work: Michael Psellos, Chronographia and orations (Sathas IV)
   author: psellos
@@ -57,6 +96,25 @@ works:
     so it was written after his death, which falls after this entry's end in 1054 (patriarch
     1043-1058, era 4 audit).
   source_file: psellos_chronographia-and-orations-in-mesaionike-bibliotheke-v4-grc_sathas1874.txt
+- row_id: psellos_accusation-de-michel-cerulaire-pt1-in-revue-des-etudes-grecques-16-grc-fra_brehier1903--psellos-accusation-of-michael-keroularios-before-the-synod
+  work: Psellos, Accusation of Michael Keroularios before the synod, part 1 (Bréhier, REG
+    16, 1903)
+  author: psellos
+  locus: about OCR lines 26255-28400; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: A speech of accusation against the patriarch, written for a synod in 1059 (Bréhier's
+    title). It is a hostile witness.
+  source_file: psellos_accusation-de-michel-cerulaire-pt1-in-revue-des-etudes-grecques-16-grc-fra_brehier1903.txt
+- row_id: psellos_accusation-de-michel-cerulaire-pt2-in-revue-des-etudes-grecques-17-grc-fra_brehier1904--psellos-accusation-of-michael-keroularios-before-the-synod
+  work: Psellos, Accusation of Michael Keroularios before the synod, part 2 (Bréhier, REG
+    17, 1904)
+  author: psellos
+  locus: about OCR lines 6460-8420; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: The continuation of the prosecutor's speech; a hostile witness.
+  source_file: psellos_accusation-de-michel-cerulaire-pt2-in-revue-des-etudes-grecques-17-grc-fra_brehier1904.txt
 - row_id: theophanes-continuatus_historiae-byzantinae-scriptores-post-theophanem-pg109-grc-lat_migne1863--theophanes-continuatus-pg-109
   work: Theophanes Continuatus (PG 109)
   author: theophanes-continuatus
@@ -82,3 +140,12 @@ works:
   confidence: provisional
   note: Keroularios's own letters and the synodal edict of 1054, inside this window.
   source_file: will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt
+- row_id: zonaras_epitomae-historiarum-libri-xiii-xviii-t3-grc_buettner-wobst1897--john-zonaras-epitome-of-histories-xiii-xviii-greek-buttner
+  work: John Zonaras, Epitome of Histories XIII-XVIII, Greek (Büttner-Wobst 1897)
+  author: zonaras
+  locus: whole volume; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: A world chronicle written long after most of what it tells, so a later witness for
+    these centuries.
+  source_file: zonaras_epitomae-historiarum-libri-xiii-xviii-t3-grc_buettner-wobst1897.txt
