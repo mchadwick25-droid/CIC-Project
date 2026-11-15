@@ -3717,4 +3717,3 @@ it, never by deleting it.
     - Rights calls made by the coordinator, which Mark may overrule: Marchant's Life of Clifford was taken on its printed "First published 1924" line, with a dated introduction and the catalogue agreeing; Roberts's Christendom Astray was taken on its preface of 18 December 1883, though the scan is a reader's upload with no library catalogue behind it.
     - Held for Mark: the scan of Emma Smith's hymnbook of 1835 that carries an Intellectual Reserve copyright line (`collectionofsacr00smit`); a microfilm copy without that line was vendored.
     - Not taken, with the reason in the search log: Lohe's Neuendettelsau history in German (the OCR cannot be read); loose numbers of the Woman's Exponent; two typescripts of 1900 about Coker (unprinted, cite only).
-    - Owed: `cic-website/data/corpus-coverage.json` was not regenerated in this batch; it is regenerated once the coverage rule lands on main.
