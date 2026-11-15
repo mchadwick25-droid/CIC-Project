@@ -85,9 +85,9 @@
       "formation_confidence": "Documented"
     },
     {
-      "claim": "Exsurge threatened Luther with penalties unless he recanted within 60 days of publication",
+      "claim": "Mirbt summarizes the bull's sentence: penalties for Luther and his followers unless they recanted within 60 days of its publication",
       "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.15508-15512",
-      "witness_kind": "acts",
+      "witness_kind": "modern reconstruction",
       "formation_confidence": "Documented"
     },
     {
@@ -199,7 +199,7 @@
       "formation_confidence": "Documented"
     },
     {
-      "claim": "Present at the talks: the archbishop of Trier, Joachim of Brandenburg, George of Saxony, the bishops of Augsburg and Brandenburg, Bock of Strasbourg, Peutinger and Vehus",
+      "claim": "Present at the talks: the archbishop of Trier, Joachim of Brandenburg, George of Saxony, the bishops of Augsburg and Brandenburg, Bock of Strasbourg, Peutinger and Dr. Voeus",
       "witness": "foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.22192-22197",
       "witness_kind": "later narrative",
       "formation_confidence": "Inferential-Thin"
@@ -301,7 +301,7 @@
       "formation_confidence": "Widely Accepted"
     },
     {
-      "claim": "Herrnschmid: 'He came thither, April 16'",
+      "claim": "Herrnschmid: 'He came thither, April 16' (the held OCR gives his name as 'John Daniel Hernnfehmid', arminian-magazine_vol-1_1778.txt l.3492)",
       "witness": "arminian-magazine_vol-1_1778.txt l.9150",
       "witness_kind": "later narrative",
       "formation_confidence": "Widely Accepted"
@@ -391,7 +391,13 @@
       "formation_confidence": "Widely Accepted"
     },
     {
-      "claim": "Vehus said Luther 'was not called to be conferred with, or to disputation'",
+      "claim": "Pallavicino names the archbishop of Trier who undertook to persuade Luther as Richard Greiffenklau (held OCR 'Riccardo Grieffeclau'), a close friend of Frederick but a good Catholic",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.10212-10214",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Dr. Voeus said Luther 'was not called to be conferred with, or to disputation'",
       "witness": "foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.22192-22200",
       "witness_kind": "later narrative",
       "formation_confidence": "Inferential-Thin"
@@ -583,7 +589,7 @@
       "formation_confidence": "Inferential-Thin"
     },
     {
-      "claim": "Herrnschmid: Luther 'added these German words, Hier stehe ich: ich kan nicht anders: Gott helfe mir! Amen.'",
+      "claim": "Herrnschmid: Luther 'added these German words, Hier stehe ich: ich kan nicht anders: Gott helfe mir! Amen.' (held OCR 'Hier flehe ich'; his name, l.3492, as 'Hernnfehmid')",
       "witness": "arminian-magazine_vol-1_1778.txt l.9300-9311",
       "witness_kind": "later narrative",
       "formation_confidence": "Contested"
@@ -628,7 +634,7 @@
   "contested_claims": [
     {
       "claim": "Whether Luther said 'Here I stand', and in what words",
-      "sides": "Held tellings that have it: Foxe's English, 'Hereupon I stand and rest' (foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.22078-22079); Herrnschmid, giving the German as words Luther added (arminian-magazine_vol-1_1778.txt l.9300-9311); Carlyle, quoted by Bacon (luther_hymns_bacon-allen.txt l.603-652); Zinzendorf (zinzendorf_sammlung-oeffentlicher-reden-pennsylvania-deu_buedingen1746.txt l.30869-30872). Held tellings without it: Luther's own Table Talk account (luther_table-talk_bell1886.txt l.3551-3618), Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.10076-10135), Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.9625-9680), Waterworth (council-of-trent_canons-and-decrees_waterworth1848.txt l.1726-1808) and Buchheim (luther_first-principles-reformation_wace-buchheim1885.txt l.2460-2475). No held editor discusses whether he said it.",
+      "sides": "Held tellings that have it: Foxe's English, 'Hereupon I stand and rest' (foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.22078-22079); Herrnschmid, giving the German as words Luther added (arminian-magazine_vol-1_1778.txt l.9300-9311); Carlyle, quoted by Bacon (luther_hymns_bacon-allen.txt l.603-652); Zinzendorf (zinzendorf_sammlung-oeffentlicher-reden-pennsylvania-deu_buedingen1746.txt l.30869-30872). Held tellings without it: Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.10076-10135), Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.9625-9680), Waterworth (council-of-trent_canons-and-decrees_waterworth1848.txt l.1726-1808) and Buchheim (luther_first-principles-reformation_wace-buchheim1885.txt l.2460-2475). Luther's Table Talk tells no speech of the second hearing; its 'next day' is the talks with 'the Bishops and others' (luther_table-talk_bell1886.txt l.3563-3565). No held editor discusses whether he said it.",
       "formation_confidence": "Contested"
     },
     {
@@ -637,8 +643,8 @@
       "formation_confidence": "Contested"
     },
     {
-      "claim": "The day of the first hearing",
-      "sides": "17 April, the day after arrival: Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.10012-10014), Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.9617), Waterworth (council-of-trent_canons-and-decrees_waterworth1848.txt l.1726-1729). 'The fourth day after his repair': Foxe (foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.21734).",
+      "claim": "How soon after his arrival the first hearing came",
+      "sides": "The day after: Pallavicino, 17 April (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.10012-10014); Sarpi, 17 April (sarpi_history-of-the-council-of-trent_brent1676.txt l.9617); Waterworth, arrived 16 April and appeared on the 17th (council-of-trent_canons-and-decrees_waterworth1848.txt l.1724-1727); Herrnschmid, 'April 16. The next day' (arminian-magazine_vol-1_1778.txt l.9150-9151). The fourth day after: Foxe (foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.21734), who gives no calendar date for either hearing.",
       "formation_confidence": "Contested"
     },
     {
@@ -692,7 +698,7 @@
     },
     {
       "detail": "Aleander's own dispatches from Worms",
-      "note": "Not held. Searched all texts for 'aleand' and 'aleandro': hits are Pallavicino, Waterworth, Sarpi, Foxe, Buchheim and Beza's editors, with Brieger's 1884 edition only cited (haupt ZKG 7 l.17946). Aleander reaches us through Pallavicino, who used his letters."
+      "note": "Not held. Searched all texts for 'aleand' and 'aleandro': hits are Pallavicino, Waterworth, Sarpi, Foxe, Buchheim and Beza's editors, with Brieger's 1884 edition only cited (haupt ZKG 7 l.17946). Aleander reaches us through Pallavicino, who used his letters. Luther's 1930 editors (luther_works-v3 l.293-294) report one 1520 letter from Aix, not from Worms."
     },
     {
       "detail": "Luther's Worms speech in its original Latin or German",

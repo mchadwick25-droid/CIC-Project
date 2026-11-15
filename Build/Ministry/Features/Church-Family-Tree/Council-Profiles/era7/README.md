@@ -6,7 +6,7 @@ Three major councils, written to `../../Council_Profile_Pattern.md`: `diet-of-wo
 
 The ceiling is 2 minutes 30 seconds, about 400 words, and it is never a target. Each of these three met it because its held sources carry more than the ceiling holds, and each was cut back to fit.
 
-- **Diet of Worms (about 2:30).** Both sides are held in their own voices: the Edict in German, Luther's speech in Foxe's English and his own later account, and the emperor and the papal envoy through Pallavicino. Telling each side from its own witnesses, with the contested Edict date, takes the full length.
+- **Diet of Worms (about 2:30).** The Edict is held in its German text, Luther's speech in Foxe's English with his own later words, and the emperor and the papal envoy through Pallavicino, a Jesuit writing from the envoy's letters. Each side told from its own witnesses, with the dispute over whether the Diet consented to the Edict, takes the full length.
 - **Diet of Augsburg (about 2:30).** It ran from June to November: the reading of the confession, the Catholic reply, the failed talks, the refused Apology and the final decree. The confessions of Zwingli and the four cities, and the Catholic reply known only through its opponent, each need a sentence.
 - **Synod of Chanforan (about 2:30).** The record is indirect: a manuscript quoted by two historians and printings by later writers who disagree on the year. The witness for the meeting's name and for Farel's presence must be placed, and the dissenting barbes' side told from the Bohemian Brethren's chronicle. That takes the full length.
 
