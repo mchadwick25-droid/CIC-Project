@@ -199,7 +199,8 @@ None is left at `needs-ruling`.
 17. **The Arabic history of the Coptic Church (1924).** Poor OCR; the author's name is the host record's, not read
     in the print. Use it to find a place, then read the page image.
 18. **Khrimian.** A collection made in 1929 that leaves out his encyclicals and his writing in periodicals. Poor OCR
-    in the body. His years and his office are the host record's.
+    in the body. His years and his office are the host record's. Lines 40100-41019 at the foot of the file were
+    not read by the mapper.
 19. **The Armenian liturgy in English.** The two translators are not named and do not say what text they used.
 20. **The Malayalam monthlies.** Poor OCR in both. Which church each belongs to is the host record's word, not read
     in the print. Neither names the events of 1912.
