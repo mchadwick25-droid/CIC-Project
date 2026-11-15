@@ -403,7 +403,7 @@
    "formation_confidence": "Documented"
   },
   {
-   "claim": "After Lorraine's reply, Catherine thought it good that the prelates enter a gracious colloquy with the ministers on their confession (the meetings of 24 and 26 September)",
+   "claim": "After Lorraine's reply, Catherine thought it good that the prelates enter a gracious colloquy with the ministers on their confession (the two meetings fit the sessions of 24 and 26 September, which Polanco dates)",
    "witness": "french-reformed-synods_tous-les-synodes-nationaux-t1-fra_aymon1710.txt l.25539-25548",
    "witness_kind": "participant",
    "formation_confidence": "Documented"
@@ -488,7 +488,7 @@
   },
   {
    "claim": "Waterworth: the articles proposed at Poissy were secretly submitted to canonists at Trent in 1562, to be examined",
-   "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.9099-9102",
+   "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.9099-9102; for \"canonists\", l.7353-7358, 9761-9762, 10501-10502",
    "witness_kind": "modern reconstruction",
    "formation_confidence": "Dominant Modern Reconstruction"
   },
@@ -669,6 +669,12 @@
   {
    "claim": "Pallavicino's history sets out to refute a false history published under the name Pietro Soave Polano (Sarpi) (title)",
    "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.1",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Sarpi writes against the papal power: the council confirmed the 'exorbitant power' of the See of Rome",
+   "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.8820-8836",
    "witness_kind": "later narrative",
    "formation_confidence": "Documented"
   }

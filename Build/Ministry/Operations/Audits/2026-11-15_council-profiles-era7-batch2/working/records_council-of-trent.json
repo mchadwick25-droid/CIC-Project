@@ -608,7 +608,7 @@
    "formation_confidence": "Documented"
   },
   {
-   "claim": "Pallavicino says the cardinals approved the confirmation by common consent",
+   "claim": "Pallavicino says that in the consistory the pope asked the cardinals' votes and confirmed by common consent",
    "witness": "pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846.txt l.58030-58038",
    "witness_kind": "later narrative",
    "formation_confidence": "Contested"
@@ -929,7 +929,7 @@
    "note": "Not held. ls cic/texts | grep -i -E 'massarel|paleot|servanz|le-plat|leplat|theiner|concilium-tridentinum|goerres|ehses|merkle' found nothing. Paleotto and Servanzio reach us in Waterworth's footnote (W l.11159-11165) and Pallavicino's citations (P2 l.47532-47536)."
   },
   {
-   "detail": "The Württemberg and Saxon confessions handed in at Trent, 1551-52",
+   "detail": "The Württemberg Confession handed in at Trent in 1552, and any Saxon confession",
    "note": "Not held. grep over all cic/texts for 'Confessio (Virt|Wirt)embergica|Wirtembergic|Confessio Saxonica|Repetitio confessionis|Saxon Confession|Wurtemberg Confession' gave no relevant hit; the name Badehorn occurs only in Sarpi, and Pallavicino tells the Saxon speech without it. Pallavicino says the Württemberg envoys handed their Confession to the secretary (P2 l.22388-22390). Their speeches reach us through Sarpi, Pallavicino (P2 l.22383-22660) and Waterworth."
   },
   {
