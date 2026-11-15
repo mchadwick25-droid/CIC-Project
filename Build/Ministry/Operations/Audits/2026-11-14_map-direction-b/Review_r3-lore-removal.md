@@ -115,3 +115,13 @@ The Simeon sentence is grammatical and matches its caveat.
 ### (3) Reading levels
 
 11 of 15 paragraphs meet FK ≤ 10 and FRE ≥ 60. Four stay at FRE 54.4–59.2, with FK 7.9 or less: Latin West, Latin and Protestant, Protestant & Evangelical and Across families. Long river names cause this. No AI tells.
+
+## Recheck 3 at aea7d944
+
+Rebuilt (0 mismatched). The working tree holds someone's uncommitted feature-bar edit. It changes no text checked here.
+
+- Pliny: grammatical, with no leading slug and no new claim. Both remaining claims are true.
+  - MINOR (older wording): "the same province's church" is loose. The record covers Neocaesarea in Pontus and Olympus in Lycia. Neocaesarea lay outside Pliny's Bithynia-Pontus.
+- The river-card sentences also changed. All 15 match my recount, with no page errors. My three Recheck 2 MINORs are fixed.
+  - MINOR (latent): a single cross-church link would print "inside the river". No card shows this.
+- 12 of 15 paragraphs meet the reading bar. Three are at FRE 56–58, FK 7.6 or less. All 49 tests pass.

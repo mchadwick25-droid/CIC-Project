@@ -48,7 +48,8 @@ body{margin:0;background:var(--parchment);color:var(--iron-gall);
 .feature-bar{position:fixed;top:2.9rem;left:0;right:0;z-index:27;display:flex;flex-wrap:nowrap;
   gap:.5rem;padding:.4rem .9rem;background:var(--parchment);border-bottom:1px solid var(--rule)}
 .feature-bar.is-tight{flex-wrap:wrap}
-.feature-bar>*{flex-shrink:0;white-space:nowrap}
+.feature-bar>*{flex-shrink:0}
+.feature-bar>.chip,.feature-bar>.chip-group>.chip{white-space:nowrap}
 .feature-bar .who-chip{min-width:0;flex:0 1 auto;overflow:hidden}
 .feature-bar .who-chip .who-chip-label{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
 .chip-group{position:relative}
@@ -121570,8 +121571,8 @@ function buildLegend(){
     closeAll(c);
     p.hidden=!open;
     c.setAttribute('aria-expanded',String(open));
-    p.style.marginLeft='';
-    if(open&&!narrowScreen()){const r=p.getBoundingClientRect(), over=r.right-(window.innerWidth-8);if(over>0)p.style.marginLeft=(-Math.min(over,r.left-8))+'px';}
+    p.style.translate='';
+    if(open&&!narrowScreen()){const r=p.getBoundingClientRect(), shift=r.left<8?8-r.left:r.right>window.innerWidth-8?Math.max(8-r.left,window.innerWidth-8-r.right):0;if(shift)p.style.translate=shift+'px 0';}
   }));
   wrap.querySelectorAll('.chip-panel').forEach(p=>p.addEventListener('click',ev=>ev.stopPropagation()));
   document.addEventListener('click',()=>closeAll(null));
@@ -122078,8 +122079,12 @@ function fitFeatureBar(){
   const bar=document.querySelector('.feature-bar');
   if(!bar)return;
   bar.classList.remove('is-tight');
-  if(!narrowScreen()&&bar.scrollWidth>bar.clientWidth+1)bar.classList.add('is-tight');
+  if(narrowScreen())return;
+  const cs=getComputedStyle(bar), edge=bar.getBoundingClientRect().right-parseFloat(cs.paddingRight)-parseFloat(cs.borderRightWidth);
+  if([...bar.children].some(c=>c.getClientRects().length&&c.getBoundingClientRect().right>edge+0.5))bar.classList.add('is-tight');
 }
+let barFitRaf=0;
+function queueBarFit(){if(!barFitRaf)barFitRaf=requestAnimationFrame(()=>{barFitRaf=0;positionFeatureBar();});}
 function positionFeatureBar(){
   fitFeatureBar();
   const topbar=document.querySelector('.topbar'), featureBar=document.querySelector('.feature-bar');
@@ -122093,7 +122098,7 @@ window.addEventListener('resize',()=>{positionFeatureBar();pinEraCaptions();if(w
 render();
 buildLegend();
 positionFeatureBar();
-if(window.ResizeObserver){const ro=new ResizeObserver(positionFeatureBar);document.querySelectorAll('.topbar,.feature-bar').forEach(e=>ro.observe(e));}
+if(window.ResizeObserver){const ro=new ResizeObserver(queueBarFit);document.querySelectorAll('.topbar,.feature-bar,.feature-bar>*,.feature-bar>.chip-group>.chip').forEach(e=>ro.observe(e));}
 centerView();
 {
   const hint=document.getElementById('zoomHint');
