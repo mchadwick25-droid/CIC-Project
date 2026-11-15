@@ -745,9 +745,14 @@
     "formation_confidence": "Dominant Modern Reconstruction"
    },
    {
-    "claim": "Legates of Rome and of the eastern patriarchs allow the marriage: Eutychius \"Scripsit ergo Leo imperator ad patriarcham\", \"matrimo- nium ipsi licitum pronuntiarunt\"; de Boor on the Life \"dass alle Patri- archen willig seien, dem Kaiser den Dispens für seine Ehe zu ertheilen\"; the Romans \"exsilio nostro ealculum ad- jecerunt\"",
-    "witness": "PG111, Eutychius l.88285-88349; DEBOOR l.9395-9398, l.9453-9456; PG111, Letter 32, l.14452-14455",
-    "formation_confidence": "Widely Accepted"
+    "claim": "Legates of Rome side with Leo and allow the marriage: the Romans \"exsilio nostro ealculum ad- jecerunt\"; Mai: Sergius III \"dispensationem ad quartas nuptias Leoni con- ces8erat\", and the Roman Church \"in causa nuptiarum missis etiam legatis ſaverat\"",
+    "witness": "PG111, Letter 32, l.14452-14455; PG111, Mai l.864-867",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Legates of the eastern patriarchs also allow the marriage: Eutychius \"Scripsit ergo Leo imperator ad patriarcham\", \"matrimo- nium ipsi licitum pronuntiarunt\"; de Boor on the Life \"dass alle Patri- archen willig seien, dem Kaiser den Dispens für seine Ehe zu ertheilen\"; de Boor holds their presence proved against those who doubted it (\"ist bisher be- zweifelt\")",
+    "witness": "PG111, Eutychius l.88285-88349; DEBOOR l.8640-8684, l.9395-9398, l.9453-9456",
+    "formation_confidence": "Dominant Modern Reconstruction"
    },
    {
     "claim": "Restoration after Leo's death; Euthymius deposed: \"miss0que ad Nicolaun ad Galacrenas nuntio, Euthymium patriarcham deposuit, et Nicolaum secundo restitnit\"; \"mittens Alexander Nicolaum ex Galacrenis tulit\"",
@@ -840,8 +845,8 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Henschen on Leo the Grammarian \"auctor coxvus\"; the codex's closing note dates the chronicle to the year of the world 6521: \"anno a mundo condilo sexmillesimo sexcente- simo vicesimo primo\"",
-    "witness": "PG111 l.585-586; PG108, Combefis's note, l.93202-93214",
+    "claim": "Henschen on Leo the Grammarian \"auctor coxvus\"; Combefis reads the codex's closing note as showing him near the times he wrote of (\"Fuisse eum supparem illis quorum res gestas prosecutus est, ipsa sub- scriptio clare indicat\"); the note dates the chronicle's completion (\"Absoluta est recentiorum imperato- rum Chronographia\") to the year of the world 6521: \"anno a mundo condilo sexmillesimo sexcente- simo vicesimo primo\"",
+    "witness": "PG111 l.585-586; PG108, Combefis's note, l.93203-93221",
     "formation_confidence": "Documented"
    },
    {
@@ -944,6 +949,21 @@
     "sides": [
      "Lando: Baronius, as Mai reports (PG111 l.863)",
      "Anastasius III: Pagi, as Mai reports (PG111 l.863)"
+    ]
+   },
+   {
+    "claim": "Year of the exile",
+    "sides": [
+     "907: de Boor, from the patriarch lists (DEBOOR l.5362-5364, l.5797-5800)",
+     "908: Krug and Muralt, following Symeon Magister, as de Boor reports (\"nicht, wie Krug und Muralt nach Symeon Magister annehmen, a.908\", DEBOOR l.5798-5799)",
+     "Nine years after his election in 895, or eleven by Leunclavius: Mai (\"post novennium (aut post annos XI, ut dicitur apud Leunclavium\", PG111 l.662-664)"
+    ]
+   },
+   {
+    "claim": "Whether legates of the eastern patriarchs came",
+    "sides": [
+     "De Boor: they came, on Eutychius, Arethas of Caesarea and the letters of Leo Choerosphactes (DEBOOR l.8640-8684)",
+     "The note Mansi prints before Nicholas's letter: the second synod that chose Euthymius is mentioned only by Eutychius, \"cujus narrationem , quam ufquequaque veram pra- flare nolim\" (MANSI l.93994-93998); de Boor names Mansi XVIII 242 among those who doubted the eastern legates (DEBOOR l.8646-8647, l.8656)"
     ]
    }
   ],
@@ -1079,12 +1099,12 @@
     "formation_confidence": "Contested"
    },
    {
-    "claim": "The unnamed archbishop: Rader, the case still pending after Formosus was refused; Gieseler: \"Haec omnia nihili esse\", and his conjecture that no archbishop was yet chosen when Greek priests were sent after the council of 869",
-    "witness": "PETER (peter-of-sicily_historia-manichaeorum-seu-paulicianorum-grc-lat_gieseler1846.txt), Rader l.620-652; Gieseler l.687-690, l.204-218",
+    "claim": "The unnamed archbishop: Rader, the case still pending after Formosus was refused; Gieseler: \"Haec omnia nihili esse\", and his conjecture that no archbishop was yet chosen when Greek priests were sent after the council of 869; on that conjecture \"Petrus seripsit intra annos 869 et 974\" (scan; 974 a slip for 871)",
+    "witness": "PETER (peter-of-sicily_historia-manichaeorum-seu-paulicianorum-grc-lat_gieseler1846.txt), Rader l.620-652; Gieseler l.687-690, l.204-219",
     "formation_confidence": "Contested"
    },
    {
-    "claim": "John of Odzun, Armenian catholicos (Aucher: raised to the patriarchal see, synodal oration \"anno 719\" at Dvin); his sermon against the Paulicians: they went from attacking images to attacking the cross; they call the orthodox idolaters for honoring the sign of the cross, and blame the painted image of the incarnate Word; canon 32 forbids dealing with \"Pauliciani\". No founder is named",
+    "claim": "John of Odzun, Armenian catholicos (Aucher: raised to the patriarchal see \"anno ^i8.\" (scan), synodal oration \"anno 71g.\" (scan; the file header reads 719) \"in?arbe Tvin\" (scan)); his sermon against the Paulicians: they went from attacking images to attacking the cross; they call the orthodox idolaters for honoring the sign of the cross, and blame the painted image of the incarnate Word; canon 32 forbids dealing with \"Pauliciani\". No founder is named",
     "witness": "ODZUN (john-odzun_opera-arm-lat_aucher1834.txt), Aucher's preface l.196, l.247-249; canon 32 l.3826-3830; sermon l.3900-3918, l.3978-3989; searched for constantin, sergi, silvan, tychic: none",
     "formation_confidence": "Documented"
    },
@@ -1195,6 +1215,11 @@
     "formation_confidence": "Documented"
    },
    {
+    "claim": "Cross: \"6580 (1072). The relics of the holy martyrs Boris and Gleb were transported ... and with them the Metropolitan George\"; under Theodosius, Michael of the Studion \"had come from Greece with the Metropolitan George\"; Mouravieff: \"THE Metropolitan George, who was sent by the Patriarch\" ... \"John Xiphilinus early in the reign of Isyaslaff\" (a margin heading falls between the two)",
+    "witness": "CROSS (russian-primary-chronicle_cross1930.txt) l.12488-12491, l.11868-11869; MOUR (mouravieff_history-of-the-church-of-russia_blackmore1842.txt) l.1693-1694",
+    "formation_confidence": "Documented"
+   },
+   {
     "claim": "Foreword: \"Лфтописецъ не говоритъ, по какому побуждевю Ярославъ не отправилъ его въ Константинополь для рукоположенля, но, конечно, не съ тфмъ, чтобы прервать зависимость Церкви Кевской отъ Константинопольской\"; consecrated by a council of Rus bishops",
     "witness": "GORSKII (ilarion-kiev_slovo-o-zakone-i-blagodati-chu-rus_gorskii1844.txt) l.796-803, l.824",
     "formation_confidence": "Dominant Modern Reconstruction"
@@ -1210,13 +1235,23 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Blackmore's note: Hilarion \"elected by the Russian synod without any reference to the patriarch; and Karamzin praises the wisdom shewed by Yaroslaff\", who \"suspected that the emperors might use the ecclesiastical dependence of the Russian Church for political purposes\"",
+    "claim": "Blackmore's note: Hilarion \"elected by the Russian synod without any reference to the patriarch ; and Karamzin praises the wisdom shewed by Yaroslaff\", who \"suspected that the emperors might use the ecclesiastical dependence of the Russian Church for political purposes\"",
     "witness": "MOUR (mouravieff_history-of-the-church-of-russia_blackmore1842.txt) notes, l.16322-16327",
     "formation_confidence": "Dominant Modern Reconstruction"
    },
    {
+    "claim": "Blackmore's note: a Dissertation published at Rome in 1826 observes that \"the Russian Church had just before asserted its perfect independence of Constantinople on occasion of the election of Hilarion\"",
+    "witness": "MOUR (mouravieff_history-of-the-church-of-russia_blackmore1842.txt) notes, l.16331-16337",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Jacob Susza, bishop of Chełm, in union with Rome, quotes Meletius Smotrytsky's Paraenesis (\"ait Smotriscius\"): in 1051 Rus would not take the consecration of its metropolitan Hilarion from Michael Cerularius, whom it calls the leader of the schism (the 1864 scan garbles \"schismatis\"; the 1666 scan reads \"fchifmatis Cori- phxo\")",
+    "witness": "SUSZA1864 (susza_saulus-et-paulus-ruthenae-unionis-lat_martynov1864.txt) l.4460, l.4485-4489; SUSZA1666 (susza_saulus-et-paulus-lat_rome1666.txt) l.5680-5681, l.5699-5702",
+    "formation_confidence": "Contested"
+   },
+   {
     "claim": "Confession signed: \"Азъ, милостио челов$колюбивааго Бога, мнихъ и прозвитеръ Шлар!онъ, изволешемъ Его, отъ богочестивыихъ Епископъ священъ быхъ и настолованъ въ велицфмв и богох ранимзмъ град Кыевф, яко быти ми въ немъ Митрополиту, пастуху же и учителю ... Владычествующу благовёрному Кагану Ярославу, сыну Владимирю\"; translation gives 6559 (1051); foreword: no doubt it is Ilarion's; the Nicene-Constantinopolitan Creed precedes it as its basis (quoted as the scan reads)",
-    "witness": "GORSKII (ilarion-kiev_slovo-o-zakone-i-blagodati-chu-rus_gorskii1844.txt) l.2605-2611, l.3981-3988, l.165-188",
+    "witness": "GORSKII (ilarion-kiev_slovo-o-zakone-i-blagodati-chu-rus_gorskii1844.txt) l.2605-2611, l.3983-3995, l.165-188",
     "formation_confidence": "Documented"
    },
    {
@@ -1235,7 +1270,7 @@
     "formation_confidence": "Inferential-Thin"
    },
    {
-    "claim": "Foreword: the Sermon prays for Yaroslav and Irina as living; Irina \"скончалась 1050 г.\"; the Annunciation church at the Golden Gate under 1037 in Nestor; edition's note 16: \"около 1050 г.\"",
+    "claim": "Foreword: the Sermon prays for Yaroslav and Irina as living; Irina \"скончалась 1050 г.\"; the Annunciation church at the Golden Gate under 1037 in Nestor; edition's note 16: \"около 1050 г,\"",
     "witness": "GORSKII (ilarion-kiev_slovo-o-zakone-i-blagodati-chu-rus_gorskii1844.txt) l.192-212, l.224-230, l.4202",
     "formation_confidence": "Dominant Modern Reconstruction"
    },
@@ -1260,7 +1295,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Sermon: \"Встани, о честнаа главо, отъ гроба твоего, встани, отряси сонъ!\"; \"виждь чадо свое Георга\"; \"Виждь же и градъ величьствомъ стающь, виждь церкви цвфтущи, виждь Христ!анство растуще\"; George is Yaroslav (foreword: \"Георгя или Ярослава\", the scan breaking the line after \"или\")",
+    "claim": "Sermon: \"Ветапи, о честнаа главо, отъ гроба твоего, встани, отряси сонъ!\" (the scan reads 'Ветапи' for 'Встани'); \"виждь чадо свое Георга\"; \"Виждь же и градъ величьствомъ стающь, виждь церкви цвфтущи, виждь Христ!анство растуще\"; George is Yaroslav (foreword: \"Георгя или Ярослава\", the scan breaking the line after \"или\")",
     "witness": "GORSKII (ilarion-kiev_slovo-o-zakone-i-blagodati-chu-rus_gorskii1844.txt) l.2239-2262, l.134-135",
     "formation_confidence": "Documented"
    },
@@ -1285,6 +1320,11 @@
     "formation_confidence": "Dominant Modern Reconstruction"
    },
    {
+    "claim": "Mouravieff: \"both the native Russian raetropoli-\" ... \"tans Hilarion and Clement, were chosen from the strictest\" (quoted as the scan reads; the word \"metropolitans\" breaks across a margin mark)",
+    "witness": "MOUR (mouravieff_history-of-the-church-of-russia_blackmore1842.txt) l.2076-2078",
+    "formation_confidence": "Documented"
+   },
+   {
     "claim": "Foreword: Berestovo a village \"близъ нынфшней Лавры\", with the grand prince's palace",
     "witness": "GORSKII (ilarion-kiev_slovo-o-zakone-i-blagodati-chu-rus_gorskii1844.txt) l.781-782",
     "formation_confidence": "Documented"
@@ -1305,9 +1345,14 @@
     "formation_confidence": "Inferential-Thin"
    },
    {
-    "claim": "Cross: Shakhmatov attributes the 1051 Caves article to Nikon, \"a member of the Crypt community\", and thinks it first stood under 1062, later \"shifted back to 1051\"; Sylvester's colophon of 6624 (1116)",
+    "claim": "Cross: Shakhmatov attributes the 1051 Caves article to Nikon, \"a member of the Crypt community\", and thinks it first stood under 1062, later \"shifted back to 1051\"; Sylvester's colophon of 6624 (1116); \"in later redactions the item was shifted back to 1051 to connect it with the death of the metropolitan Hilarion\"",
     "witness": "CROSS (russian-primary-chronicle_cross1930.txt) l.5185-5195; l.15108-15110",
     "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Cross: the internal evidence of the Povest \"is distinctly opposed to the tradition of Nestorian authorship\"; the Caves Paterik's founding account tells the same passage on Ilarion's cave",
+    "witness": "CROSS (russian-primary-chronicle_cross1930.txt) l.4819-4822; PAT (kievan-caves-paterik_paterik-kievskago-pecherskago-monastyria-chu_abramovich1911.txt) l.1096-1106",
+    "formation_confidence": "Documented"
    }
   ],
   "contested_claims": [
@@ -1324,7 +1369,9 @@
      "Chronicle: silent (CROSS l.11741-11742; GORSKII l.796-798)",
      "1844 foreword: not meant to break the tie with Constantinople (GORSKII l.798-803)",
      "Mouravieff: resentment over the blinded prisoners; the breach made good by a blessing from Michael Cerularius (MOUR l.1489-1504)",
-     "Karamzin, as Blackmore's note reports: Yaroslav's wise caution about the emperors' political use of the dependence (MOUR l.16322-16327)"
+     "Karamzin, as Blackmore's note reports: Yaroslav's wise caution about the emperors' political use of the dependence (MOUR l.16322-16327)",
+     "A Dissertation printed at Rome in 1826, as Blackmore's note reports: the Russian Church had asserted its perfect independence of Constantinople at Hilarion's election (MOUR l.16331-16337)",
+     "Smotrytsky, as Susza quotes him: in 1051 Rus refused consecration from Michael Cerularius (SUSZA1864 l.4460, l.4485-4489; SUSZA1666 l.5680-5681, l.5699-5702)"
     ]
    },
    {
@@ -1339,7 +1386,8 @@
     "sides": [
      "1844 foreword: Nestor (GORSKII l.742-744)",
      "Sylvester's colophon of 1116 for the Chronicle (CROSS l.15108-15110)",
-     "Shakhmatov, as Cross reports: Nikon of the Caves, first under 1062 (CROSS l.5185-5195)"
+     "Shakhmatov, as Cross reports: Nikon of the Caves, first under 1062 (CROSS l.5185-5195)",
+     "Cross: the internal evidence is opposed to Nestor's authorship (CROSS l.4819-4822)"
     ]
    }
   ],
@@ -1350,7 +1398,7 @@
    },
    {
     "detail": "Year of his death or end of office",
-    "note": "No held source gives it. The foreword: the chronicler does not say; George named by 1079 (GORSKII l.824-827). Mouravieff reports only a conjecture (Ephraim). Searched all cic/texts for Hilarion, Ilarion, Иларион, Ларион, Ларіон and OCR variants."
+    "note": "No held source gives it. The foreword: the chronicler does not say; George named by 1079 (GORSKII l.824-827). Mouravieff reports only a conjecture (Ephraim). Searched all cic/texts for Hilarion, Ilarion, Иларион, Ларион, Ларіон and OCR variants. Cross l.5189-5193 reports Shakhmatov's view that the passage was moved to 1051 'to connect it with the death of the metropolitan Hilarion'; no year is stated, and no other held line ties his death to 1051. The Chronicle names Metropolitan George in 1072 (CROSS l.12488-12491)."
    },
    {
     "detail": "English of the Sermon and the Confession",
@@ -1362,7 +1410,7 @@
    },
    {
     "detail": "'First native-born metropolitan'",
-    "note": "No held line says 'first'. The held lines say only that he was a Rusin (PSRL1 l.6897) and chosen from the Rus presbyters (GORSKII l.154-157)."
+    "note": "No held line says 'first'. The Laurentian calls him a Rusin (PSRL1 l.6897); the foreword says he was Russian by birth (GORSKII l.761); Mouravieff calls Hilarion and Clement the native Russian metropolitans (MOUR l.2076-2078). He is also chosen from the Rus presbyters (GORSKII l.154-157)."
    }
   ]
  },
@@ -1396,7 +1444,7 @@
    {
     "claim": "Born in Constantinople: \"Βυζάντιος τὴν πατρίδα\" (card only)",
     "witness": "PSELL (psellos_chronographia-and-orations-in-mesaionike-bibliotheke-v4-grc_sathas1874.txt), Sathas prologue l.3909-3910",
-    "formation_confidence": "Widely Accepted"
+    "formation_confidence": "Inferential-Thin"
    },
    {
     "claim": "Under Michael IV (after Romanos Argyros), plotters chose him as emperor without his knowledge (\"οὐδὲν εἰδὼς ὧν ἐκεῖνοι\"); all called him innocent, yet he was punished most (\"μᾶλλον κολάζει τῶν ἄλλων\")",
@@ -1570,11 +1618,12 @@
     ]
    },
    {
-    "claim": "Why he and the envoys never met",
+    "claim": "Whether he talked with the envoys",
     "sides": [
      "The envoys' Commemoratio: he avoided them (WILL l.14823-14824)",
-     "Letter I: their discourtesy (WILL l.17213-17227)",
-     "Letter II: he declined to talk with them (WILL l.18076-18085)"
+     "Letter I: their discourtesy (WILL l.17213-17227); they did come before him and hand him the sealed letter (\"epistolam obsignatam tra- diderunt nobis statimque recesserunt\", WILL l.17236-17237)",
+     "Letter II: he declined to talk with them (WILL l.18076-18085)",
+     "Psellos's funeral speech: they came to argue face to face, clashed with him and were beaten (\"τῷ πρωταγωνιστῇ τοῦ ἡμε- τέρου συρραγέντὲς στρατεύματος\" ... \"πρώτης εὐθὺς ἡττήθησαν προσθολῆς\", PSELL l.22706-22729)"
     ]
    },
    {
