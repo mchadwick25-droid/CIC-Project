@@ -3259,3 +3259,54 @@ The approved files are in `Who-Profiles/era6/batch1/` in this folder, and the re
 **What is still open.** Open-Gaps 265. Open-Gaps 217 (caps, major mark, placement) is carried.
 
 Approved to proceed (Mark, 2026-11-14).
+
+## 2026-11-14 — Cap ruling: one check of four round 3 fixes, era 4 councils
+
+**Cap ruling (Mark's standing ruling of 2026-11-14, "Minor round 3 fixes to reader-facing text get one targeted check without asking Mark").** Round 3, the last review round of the era 4 council profiles, found no blocking or substantial point. Four of its nine minor points were in participant text:
+- **Constantinople 680-681, brief and audio.** "sides with one will against the council" became "writes from the side of the condemned". "One will" had not yet been explained.
+- **Nicaea 787, entry.** Theophanes's people line now reads: "The Life printed with his Chronicle says he was called to the council and came in a hair shirt, riding a donkey".
+- **Nicaea 787, entry.** `issue[0]` now says Percival's summary "mostly follows Hefele".
+- **Quinisext, entry.** `outcome[2]`: "the emperor sent John VII the volumes again, and he returned them uncorrected".
+
+All four were applied as worded. One targeted Opus check of only those strings followed, by an agent that had not seen the drafting or the earlier rounds. The check does not count toward the cap: `Build/Ministry/Operations/Audits/2026-11-14_council-profiles-era4/R4_cap-check.md`. Its verdict was CLEAR for all four, with no minor point. The brief runs 398 words, FK 7.66, Flesch 66.88. The cap ruling is met.
+
+## 2026-11-14 — Major councils, era 4: six profiles; all holds lifted, the Library fill paused until the reset (Mark, 2026-11-14)
+
+**Decided (Mark, 2026-11-14, his words as given or relayed by the coordinator).**
+- The council hold is lifted. Mark picked "Councils for eras 4, 5, 6", in his words: "lets do era 4 then 5 then 6 counsils". Era 4 is this entry. Eras 5 and 6 follow as separate jobs.
+- Later the same day: "lift all holds". The coordinator gave its meaning as three points: the council hold is lifted for all eras; the Library hold is lifted; the era 8-10 Who hold is lifted. The Library was to resume with the wanted fill, then era 8 when era 7's Whos begin.
+- Then, through the coordinator, Mark paused the Library's wanted fill until his weekly reset: "lets hold the fable work... when we reset with the gift we will restart". So "lift all holds" stands for the councils and for the era 8-10 Whos. The Library fill is paused until the reset.
+- Mark's standing words for this work: "dont sacrafice quality, expecially the quality of writing." Every review round ran at full effort.
+
+**The six councils.** They are the era 4 rows of the councils scan (`Build/Ministry/Operations/Audits/2026-11-12_major-events-scan/Councils_Scan.md`). Each is written to `Council_Profile_Pattern.md`, in the form of the era 1 to 3 councils.
+- **Lateran 649**: 398 words, FK 7.44, reading ease 67.64. The acts are held in Latin, the record of Martin's side. The condemned Ekthesis, Paul's letter and Typos are quoted in them in Latin translation. Mansi's lists give 105 bishops; Theophanes gives 150 or 110, by the version.
+- **Whitby 664**: 399 words, FK 6.26, reading ease 75.45. No acts exist. The synod is known through Bede and through Stephen's Life of Wilfrid, both on the Roman side, and their accounts of how the ruling came are set side by side. The low grade comes from Bede's short spoken exchange; joining sentences to raise it ran them past 25 words, so they were left.
+- **Constantinople 680-681**: 398 words, FK 7.66, reading ease 66.88. The acts are held in Latin and Greek, with Percival's English extracts. The anathema on Honorius is told from the acts, with the disputes over his meaning in the entry. Michael the Syrian writes from the side of the condemned.
+- **Quinisext 691-692**: 400 words, FK 7.79, reading ease 62.23. The acts are held: the bishops' address, the canons and the signatures, with the blank place for the pope. Rome's refusal is told from the Book of the Popes. No Armenian answer from the time is held; Serpos (1783) is the first.
+- **Nicaea 787**: 401 words, FK 7.88, reading ease 61.06. The full acts and signatures are not held, so the profile rests on Percival's English extracts. The Hieria decree is told in his summary drawn mostly from Hefele, and the broken meeting of the year before from Theophanes. Frankfurt's rejection is told from its capitulary and the royal annals.
+- **The Photian councils, 861-880**: 402 words, FK 7.95, reading ease 62.20. One profile tells the four councils. The acts of 869-870 and 879-880 are held; the canons of 861 are held in the Pedalion; the acts of 867 were burned by order. The two reckonings of the eighth council are told through the Pedalion and Mark of Ephesus.
+
+**Worker's calls under the pattern (not Mark's words; Mark may overrule).**
+- **One profile for the Photian councils**, as the scan's single row has them. The id is `councils-of-constantinople-861-880`.
+- **No Roman tradition id.** The census has no Roman entry between 604 and 1049, so Rome's part in five of the six councils is told in the outcome and record without an id. The gap is logged for Mark in Open-Gaps 266.
+- **The Who click** follows the era 3 rule: those who took part, those condemned, and those who acted on the decisions. Writers who only report a council are in its record and sources. Aidan is left off Whitby's click under this rule.
+- **Columbanus at Whitby.** His Easter letters are an Irish witness some sixty years before the synod. No witness kind in the pattern fits, so he is filed as a later narrative with that note; the gap is logged.
+- **American spelling** in the profiles' own prose (Decision-Log 77); quotations keep their own spelling.
+- **Opus drafted every profile.** Opus research agents first gathered a sourced dossier for each council.
+
+**Review.** Three rounds by fresh Opus agents that had not seen the drafting, at full effort in every round.
+- **Round 1**, the full review in three parts, found no blocking point, 6 substantial and 60 minor. The substantial points:
+  - Theophanes's joint exile of Martin and Maximus to Cherson was told in the narrator's voice, against the Maximus Who profile's exile to the Lazi.
+  - Three false absences: the condemned at Constantinople 680-681 reach us outside its acts, Columbanus's Easter letters are held, and the canons of 861 are held in the Pedalion.
+  - The Quinisext brief said no Armenian answer is known, but Serpos answers it, though late.
+  - The Quinisext brief closed on Tarasius's claim with only his side given.
+- **Round 2**, a targeted recheck, found 2 substantial and 9 minor:
+  - the Constantinople "only" was still false, since Michael the Syrian takes Macarius's side;
+  - a line added in round 1 said Theophanes was not at Nicaea, but the Life printed with his Chronicle says he came.
+- **Round 3**, the last, found no blocking or substantial point and 9 minor. All nine were applied as worded. The four in reader-facing text had one targeted check under Mark's standing ruling, recorded in the cap ruling entry above; its verdict was CLEAR.
+
+Every quotation was re-checked word for word against its vendored file. No paid calls were made.
+
+**What is still open.** Open-Gaps 266, "Major councils, era 4" (2026-11-14). The councils of eras 5 and 6 are next, as separate jobs.
+
+The files are in `Council-Profiles/era4/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-14_council-profiles-era4/`. No census, record or site change is made, so there is no data release number; councils reach the site through the map build. Approved to proceed (coordinator, 2026-11-14; Mark may overrule).
