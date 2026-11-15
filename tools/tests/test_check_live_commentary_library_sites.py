@@ -245,3 +245,79 @@ def test_a_dated_file_name_in_a_registry_note_does_not_hide_the_added_column(tmp
     )
     hits = _scan(tmp_path, "Build/worlds/w/Source_Registry.md", text, "worlds")
     assert [(h.line, h.category) for h in hits] == [(3, "KEEP"), (4, "REWRITE")]
+
+
+def test_a_boxed_header_longer_than_120_lines_is_still_scanned(tmp_path):
+    rule = "     " + "_" * 60 + "\n"
+    text = rule + "\n  Title: A Work\n" + "  Content note: plain.\n" * 130 + "  WHY: after an adversarial review found it\n" + rule + "body\n"
+    hits = _scan(tmp_path, "cic/texts/a_work_x1900.txt", text)
+    assert [h.category for h in hits] == ["REWRITE"] and hits[0].line == 134
+
+
+def test_a_stale_not_yet_vendored_note_is_an_open_item(tmp_path):
+    extra = "Content note: NOT YET VENDORED, flagged for a future round: the earlier article.\n"
+    hits = _scan(tmp_path, "cic/texts/a_work_x1900.txt", HEADER.format(extra=extra, body=""))
+    assert [h.category for h in hits] == ["ROUTE"]
+
+
+def test_the_source_line_names_the_fetcher_and_the_intake_pr_but_no_other_line_does(tmp_path):
+    extra = (
+        "Source: fetched directly by this build thread, pushed to cic/texts/_intake/ (PR #1583).\n"
+        "Provenance note: rewritten by this build thread after PR #1583's own review.\n"
+    )
+    hits = _scan(tmp_path, "cic/texts/a_work_x1900.txt", HEADER.format(extra=extra, body=""))
+    assert [(h.line, h.category) for h in hits] == [(5, "REWRITE")]
+
+
+def test_a_dated_repair_in_a_header_is_flagged(tmp_path):
+    extra = "Provenance note: (Fixed 2026-09-03: the original header named the wrong item.)\n"
+    hits = _scan(tmp_path, "cic/texts/a_work_x1900.txt", HEADER.format(extra=extra, body=""))
+    assert [h.category for h in hits] == ["REWRITE"]
+
+
+def test_ocr_and_the_evangelist_are_not_project_history(tmp_path):
+    extra = (
+        "Content note: The book headings are not caught by the OCR.\n"
+        "Content note: Mark's own disputed shorter ending after 16:8 is preserved.\n"
+    )
+    assert _scan(tmp_path, "cic/texts/a_work_x1900.txt", HEADER.format(extra=extra, body="")) == []
+    hits = _scan(tmp_path, "engine/x.md", "Mark's own standing rule applies here.\n")
+    assert [h.category for h in hits] == ["REWRITE"]
+
+
+def test_registry_data_fields_are_protected_and_a_cue_marks_only_its_own_line(tmp_path):
+    text = (
+        "- date_added: '2026-09-02'\n"
+        "  filename: c.txt\n"
+        "  supplied_by: Claude (Library thread, 2026-10-23)\n"
+        "  apparatus:\n"
+        "    - name: x\n"
+        "      evidence: >-\n"
+        "        checked against the file, 2026-09-02\n"
+        "  rights: CORRECTION per Mark\n"
+        "  title: A Work\n"
+    )
+    hits = _scan(tmp_path, "cic/texts/REGISTRY.yaml", text)
+    assert {h.line: h.category for h in hits} == {1: "PROTECTED", 3: "PROTECTED", 7: "PROTECTED", 8: "REWRITE"}
+
+
+def test_links_checkboxes_and_blank_lines_end_a_template_placeholder(tmp_path):
+    text = (
+        "See [the guide](guide.md) and [ ] tick.\n"
+        "This template has not yet been tested.\n"
+        "[An unclosed placeholder\n"
+        "\n"
+        "This template has not yet been tested.\n"
+    )
+    hits = _scan(tmp_path, "Build/reference/L9-Templates/X_Template.md", text, "reference")
+    assert [(h.line, h.category) for h in hits] == [(2, "ROUTE"), (5, "ROUTE")]
+
+
+def test_a_bare_date_in_backticks_is_still_a_date(tmp_path):
+    hits = _scan(tmp_path, "engine/x.md", "Ruled on `2026-09-25` in session.\n")
+    assert [h.category for h in hits] == ["REWRITE"]
+
+
+def test_an_adverb_before_the_process_verb_is_still_an_open_item(tmp_path):
+    hits = _scan(tmp_path, "Build/worlds/w/x.md", "This has not yet been comprehensively assessed.\n", "worlds")
+    assert [h.category for h in hits] == ["ROUTE"]

@@ -42,8 +42,8 @@ Source Collection: Internet Archive, FULL TEXT (OCR) of a Google
                   Didymus's own Book I proper begins at a second,
                   distinct "LIBER PRIMUS" heading (line 7019 of this
                   file), not at the first one.
-                  The Greek text is not in this
-                  file. That is a counted fact,
+                  No Greek characters survive in
+                  this file's OCR. That is a counted fact,
                   not an impression drawn from
                   sampling the scan:
                   a full Unicode census of this

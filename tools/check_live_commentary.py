@@ -201,6 +201,12 @@ PATTERNS: dict[str, re.Pattern[str]] = {
     ),
     # The build thread narrating itself.
     "builder-thread": re.compile(r"\bthis build thread\b|\bthis session's own prior turn\b|\(Mark, in session\)|\bthis step's own final report\b"),
+    # A dated repair narrated in place ("(Fixed 2026-09-03: the original
+    # header ...)").
+    "dated-fix": re.compile(
+        r"\b(?:Fixed|Corrected|Changed|Updated|Amended) (?:on )?20\d\d-\d\d-\d\d\b"
+        r"|\((?:Fixed|Corrected|Changed|Updated|Amended)\s*$"
+    ),
     # A line explaining itself against an earlier draft of itself.
     "earlier-version": re.compile(
         r"\b(?:an|the) earlier (?:version|draft) of this (?:docstring|comment|note|check|pattern|file|header|record|module)\b"
@@ -526,7 +532,7 @@ _VERIFIED_BY_FIELD = re.compile(r"^\s*(?:-\s+)?verified_by\s*:")
 
 # A code span holding one unbroken name (`baseline/pilot-2026-08-24`, a
 # branch or tag): the date is part of the name.
-_CODE_SPAN_WITH_DATE = re.compile(r"`[^`\s]*20\d\d-\d\d-\d\d[^`\s]*`")
+_CODE_SPAN_WITH_DATE = re.compile(r"`(?=[^`\s]*[^`\s\d-])[^`\s]*20\d\d-\d\d-\d\d[^`\s]*`")
 
 
 def _iso_date_only_in_filenames(line: str) -> bool:
@@ -565,12 +571,12 @@ def _iso_date_is_bare_table_provenance(line: str, in_source_registry_file: bool)
 # marks the author's own scope or timing ("unresolved here", "open question for now").
 ROUTE_CUES = re.compile(
     r"\b((?:TODO|FIXME)\b|open question (here|for now|pending|on purpose|until|for (Mark|the project lead))|"
-    r"open gap|open item|not yet (resolved|fixed|answered|acquired)|"
+    r"open gap|open item|not yet (resolved|fixed|answered|acquired|vendored)|flagged for a future round|"
     r"unresolved (here|for now|pending|on purpose|until)|"
     r"still pending|still open (here|for now|pending|until|for (Mark|the project lead))|"
     r"follow-?up (item|work|needed)|known (gap|issue|defect)|"
     r"needs? (a )?follow-?up|needing (a )?ruling|flagged for (Mark|the project lead)|"
-    r"worth reconsidering|has not yet been (?:re-)?(?:tested|checked|verified|run|reviewed|built|done|confirmed|"
+    r"worth reconsidering|has not yet been (?:\w+ly )?(?:re-)?(?:assessed|opened|tested|checked|verified|run|reviewed|built|done|confirmed|"
     r"conducted|acquired|resolved|fixed|written|drafted|added|decided|located|found|read|asked|performed|"
     r"sought|sent|tried|extended|vendored|collated|answered|settled|ruled|filed|wired|registered|updated|"
     r"recorded|identified|traced|compared|measured|audited|completed|started|scored|approved|supplied)\b|"
@@ -1394,20 +1400,19 @@ def _is_library_edition(rel: Path) -> bool:
 
 def _library_header_end(lines: list[str]) -> int:
     """Number of leading lines that make up a vendored edition's intake
-    header: up to its closing `---` (the current form) or its closing rule
-    of underscores (the older boxed form, which also opens with one). With
-    neither in the first 120 lines, the header is the leading block up to
-    the first blank line."""
-    seen_content = False
+    header. The older boxed form opens with a rule of underscores and ends at
+    the next one, however long it runs. The current form ends at its `---`.
+    With neither in the first 120 lines, the header is the leading block up
+    to the first blank line."""
+    first = next((i for i, line in enumerate(lines) if line.strip()), None)
+    if first is not None and _HEADER_RULE.match(lines[first]):
+        for i in range(first + 1, len(lines)):
+            if _HEADER_RULE.match(lines[i]):
+                return i
+        return len(lines)
     for i, line in enumerate(lines[:120]):
         if line.strip() == "---":
             return i
-        if _HEADER_RULE.match(line):
-            if seen_content:
-                return i
-            continue
-        if line.strip():
-            seen_content = True
     for i, line in enumerate(lines[:40]):
         if not line.strip():
             return i
@@ -1434,7 +1439,8 @@ def _registry_notes_lines(lines: list[str]) -> set[int]:
             key_indent = None
         m = _REGISTRY_FREE_TEXT_KEY.match(line)
         if m:
-            key_indent = len(m.group(1))
+            # `- date_added:` opens an entry: the key itself sits two columns in.
+            key_indent = len(m.group(1)) + (2 if line.lstrip().startswith("- ") else 0)
             out.add(i)
     return out
 
@@ -1775,14 +1781,27 @@ def _is_template(rel: Path) -> bool:
     return bool(_TEMPLATE_DOC.match(rel.as_posix()))
 
 
+_MD_LINK_OR_BOX = re.compile(r"\[[^\]]*\]\([^)]*\)|\[[ xX]\]|`[^`]*`|\\\[")
+
+
 def _template_placeholder_lines(lines: list[str]) -> set[int]:
+    """Headings, and lines inside a bracketed placeholder ([...], possibly
+    over several lines). Links, checkboxes, code spans and escaped brackets
+    are not placeholders, and a placeholder never runs past a heading, a
+    blank line or a `---` rule."""
     out: set[int] = set()
     depth = 0
     for i, line in enumerate(lines, start=1):
         if _MD_HEADING.match(line):
             out.add(i)
-        opened = depth > 0 or "[" in line
-        depth = max(0, depth + line.count("[") - line.count("]"))
+            depth = 0
+            continue
+        if not line.strip() or line.strip() == "---":
+            depth = 0
+            continue
+        bare = _MD_LINK_OR_BOX.sub("", line)
+        opened = depth > 0 or "[" in bare
+        depth = max(0, depth + bare.count("[") - bare.count("]"))
         if opened:
             out.add(i)
     return out
@@ -1895,14 +1914,13 @@ def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
     return hits
 
 
-# An intake header's Source field says who fetched a file and when, by
-# design ("fetched directly by this build thread, 2026-09-08"), so a date and
-# a thread naming itself as the fetcher are data there.
-_HEADER_DATA_PATTERNS = {"iso-date", "builder-thread"}
-# The Source line also says how the file arrived, which can be the intake
-# pull request that carried it ("pushed to cic/texts/_intake/ (PR #1583)").
+# An intake header says when a file arrived, by design, so a date is data
+# on any header line. Its Source field also says who fetched it and how
+# ("fetched directly by this build thread"), so there a thread naming itself
+# and an intake pull request are data too.
+_HEADER_DATA_PATTERNS = {"iso-date"}
 _SOURCE_LINE = re.compile(r"^\s*Source:")
-_SOURCE_LINE_DATA_PATTERNS = {"pr-ref"}
+_SOURCE_LINE_DATA_PATTERNS = {"pr-ref", "builder-thread"}
 
 
 def _scan_library_header(rel: Path, header: list[str], surface: str) -> list[Hit]:

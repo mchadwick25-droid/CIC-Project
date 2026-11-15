@@ -107,7 +107,7 @@ ALLOWED_DIFFERENCE_CLASSES: dict[str, str] = {
 # quotation) - is NOT. That stays a failure and gets fixed in the record,
 # not accommodated here.
 
-# Two of the three source-side patterns (not the stray backslash) fold into the whitespace/ellipsis
+# Two of the three patterns (the source-side ones) fold into the whitespace/ellipsis
 # handling above rather than becoming new classes - each is a source-
 # side typesetting/notation quirk, not a difference in what's actually
 # said. The third (stray backslash) is a record-authoring bug, out of
