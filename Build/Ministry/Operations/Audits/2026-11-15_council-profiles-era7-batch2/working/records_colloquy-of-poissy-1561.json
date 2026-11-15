@@ -55,7 +55,7 @@
    "formation_confidence": "Contested"
   },
   {
-   "claim": "Sarpi gives six cardinals on 9 September",
+   "claim": "Sarpi gives six cardinals on 9 September. The OCR reads 'second of September'; the passage describes the session of 9 September",
    "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.42787-42788",
    "witness_kind": "later narrative",
    "formation_confidence": "Contested"
@@ -151,7 +151,7 @@
    "formation_confidence": "Inferential-Thin"
   },
   {
-   "claim": "On 10 September the prelates resolved that Lorraine, helped by Despence, would answer on the Church and the Supper only. A counter-confession would follow, with condemnation for refusal",
+   "claim": "After the first session the prelates resolved that Lorraine, helped by Despence, would answer on the Church and the Supper only. A counter-confession would follow, with condemnation for refusal. The History gives no date; dated 10 September by Baum and Cunitz from Vermigli's letter (HE1 l.29024-29027)",
    "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.28999-29013",
    "witness_kind": "later narrative",
    "formation_confidence": "Widely Accepted"
@@ -403,8 +403,8 @@
    "formation_confidence": "Documented"
   },
   {
-   "claim": "Catherine thought it good that the prelates enter a gracious colloquy with the ministers",
-   "witness": "french-reformed-synods_tous-les-synodes-nationaux-t1-fra_aymon1710.txt l.25542-25545",
+   "claim": "After Lorraine's reply, Catherine thought it good that the prelates enter a gracious colloquy with the ministers on their confession (the meetings of 24 and 26 September)",
+   "witness": "french-reformed-synods_tous-les-synodes-nationaux-t1-fra_aymon1710.txt l.25539-25548",
    "witness_kind": "participant",
    "formation_confidence": "Documented"
   },
@@ -487,8 +487,8 @@
    "formation_confidence": "Documented"
   },
   {
-   "claim": "Waterworth: the articles proposed at Poissy were secretly examined at Trent",
-   "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.9099-9103",
+   "claim": "Waterworth: the articles proposed at Poissy were secretly submitted to canonists at Trent in 1562, to be examined",
+   "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.9099-9102",
    "witness_kind": "modern reconstruction",
    "formation_confidence": "Dominant Modern Reconstruction"
   },
@@ -499,8 +499,8 @@
    "formation_confidence": "Widely Accepted"
   },
   {
-   "claim": "Melville, 1607, cites the Colloquy of Poissy as a warning against colloquies",
-   "witness": "melville-james_autobiography-and-diary_pitcairn1842.txt l.33964-33969",
+   "claim": "A 1607 letter the diary's editor gives to James Melvill (the attribution in square brackets) cites the Colloquy of Poissy as a warning against colloquies",
+   "witness": "melville-james_autobiography-and-diary_pitcairn1842.txt l.33940, 33951, 33964-33969",
    "witness_kind": "later narrative",
    "formation_confidence": "Documented"
   },
@@ -601,9 +601,9 @@
    "formation_confidence": "Widely Accepted"
   },
   {
-   "claim": "Beza dates 9 September a Tuesday in his printed speech",
-   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27897",
-   "witness_kind": "participant",
+   "claim": "The title of one early edition of Beza's speech, listed by Baum and Cunitz, calls 9 September a Tuesday",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27894-27899",
+   "witness_kind": "modern reconstruction",
    "formation_confidence": "Documented"
   },
   {
@@ -627,7 +627,7 @@
   {
    "claim": "Pallavicino is of the Society of Jesus (title)",
    "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.1",
-   "witness_kind": "modern reconstruction",
+   "witness_kind": "later narrative",
    "formation_confidence": "Documented"
   },
   {
@@ -651,6 +651,24 @@
   {
    "claim": "Beza was minister at Geneva then",
    "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.26003-26004",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Beza's printed speech: believers are made partakers of Christ's body and blood in a spiritual way and through faith, as truly as they see the sacraments",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.28523-28529",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Sarpi was a Venetian friar of the Servite order",
+   "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.675-678",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Pallavicino's history sets out to refute a false history published under the name Pietro Soave Polano (Sarpi) (title)",
+   "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.1",
    "witness_kind": "later narrative",
    "formation_confidence": "Documented"
   }
