@@ -358,6 +358,15 @@ The two era 6 council records in the same file are not listed here: Mark lifted 
 | outside-witness row 8 | Abu'l-Fida | his history in his own text | queued | WHO (OUTSIDE WITNESS) |
 | outside-witness row 9 | al-Qalqashandi | his work in his own text | queued | WHO (OUTSIDE WITNESS) |
 
+## Era 7 (1517-1650): council records, queued
+
+From the era 7 council profiles, batch 1 (`Build/Ministry/Operations/Audits/2026-11-15_council-profiles-era7-batch1/`). The councils scan marks both records WANTED (`Build/Ministry/Operations/Audits/2026-11-12_major-events-scan/Councils_Scan.md`, era 7), and neither had a row here. The editions are named from memory ("[suggested; to confirm]"); confirm each, and that it is public domain, before acquiring. The Library stays on hold until Mark's full wanted fill (2026-11-14), so both rows are **queued**.
+
+| council | want | why | state |
+|---|---|---|---|
+| Marburg Colloquy (1529) | The colloquy's record: F. W. Schirrmacher, *Briefe und Acten zu der Geschichte des Religionsgespräches zu Marburg 1529 und des Reichstages zu Augsburg 1530* (Gotha, 1876) [suggested; to confirm]. Second choices: the Marburg Articles in German with their signatures (Weimar Ausgabe, vol. 30/III, 1910) or H. E. Jacobs, *The Book of Concord*, vol. II (1883) [both suggested; to confirm]. | The profile is held back for want of it. No held text tells the debate in the room: no participant's account of the sessions, no signed copy of the articles. The only list of the fifteen articles is Foxe's English, which breaks off before the clause on the Supper, the point they could not agree. Luther's side has no held words spoken at Marburg. | queued |
+| Diet of Worms (1521) | The Diet's acts: *Deutsche Reichstagsakten, jüngere Reihe*, vol. II, ed. A. Wrede (1896) [suggested; to confirm]; or B. J. Kidd, *Documents Illustrative of the Continental Reformation* (1911) [suggested; to confirm]. | Not needed for the profile, which is written from held sources. Would give Charles V's declaration of 19 April 1521 in its own words (held now only through Buchheim, Pallavicino and Foxe) and the Edict in full (Mirbt holds an excerpt). | queued |
+
 ## Later — queued
 
 - ME-21 by a browser; Lang 1834 and the Peking mission after 1808; the

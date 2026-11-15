@@ -1,0 +1,370 @@
+{
+  "id": "synod-of-chanforan-1532",
+  "kind": "major-council",
+  "kindLabel": "Major council",
+  "era": 7,
+  "name": "Synod of Chanforan",
+  "shortName": "Chanforan 1532",
+  "informalName": "Assembly of Angrogne",
+  "dates": "1532",
+  "start": 1532,
+  "end": 1532,
+  "datesNote": "1532, by most held witnesses. Gilles (1644) and Morland (1658) give 12 September 1532, and so do the modern historians Muston, Montet and Zezschwitz. Perrin (1619), the earliest printed history, gives 12 September 1535. Léger's heading (1669), as our scanned copy reads it, gives 11 December 1531. Montet's quotation of the manuscript reads 1533, against his own 1532 a page earlier. A prisoner in the inquiry of 1535 said the barbes had then held a synod that lasted six days (Gilles). Muston gives six days for 1532.",
+  "region": "Angrogna valley, Piedmont",
+  "placeLabel": "Angrogna",
+  "modernCountries": [
+    {
+      "country": "Italy",
+      "countryId": "Q38",
+      "place": "Cottian Alps",
+      "placeId": "Q1251",
+      "pleiadesId": "167636"
+    }
+  ],
+  "rivers": [
+    "Latin West",
+    "Protestant"
+  ],
+  "teaser": "Angrogna, Piedmont, 1532 by most accounts. The Waldensian barbes and heads of families met and swore articles of faith. They agreed to stop attending the Mass. Two barbes left for Bohemia; the sources differ on whether they walked out or were sent.",
+  "knownFor": "The assembly where the Waldensians of the Alpine valleys adopted articles shaped by the Swiss and Strasbourg reformers. It led to the French Bible of 1535.",
+  "issue": [
+    "The mission of 1530. Perrin says the Waldensians of Provence and Dauphiné sent two barbes, George Morel of Freissinières and Pierre Masson of Burgundy. They went to Oecolampadius at Basel, Capito and Bucer at Strasbourg, and Berthold Haller at Berne (Perrin; the Histoire ecclésiastique attributed to Beza).",
+    "Morland dates the mission to 1530 and says Masson was taken prisoner at Dijon.",
+    "The barbes' own voice. Morel wrote to Oecolampadius that they, 'pauures instructeurs de ce petit peuple', had lived more than four hundred years among cruel thorns. Perrin prints the letter in Occitan and French.",
+    "The reformers' answer. Oecolampadius wrote in 1530, 'la peur d'estre persecutés vous fait dissimuler en vostre foy'. If they went to the Mass, he said, they heard blasphemies against Christ's death (Perrin prints the letter).",
+    "Gilles sums up the reformers' advice under three heads. Settle the points of doctrine on which some disagreed. Hold church order and assemblies more openly. Let no member attend the Mass or use a Roman priest.",
+    "The two sides. Gilles says the meeting debated these points and each side had time to speak. Some barbes judged the new rules 'pas totalement nécessaires', not wholly necessary.",
+    "Those barbes held, Gilles says, that the rules shamed the memory of the leaders before them. They also feared that going public would provoke persecution. Their own words are not held."
+  ],
+  "calledBy": "No held witness names who called it. Gilles says only that pastors came from the reformers' lands to help, and then 'fut convoquée une Assemblée générale en Angrogne'. Perrin says they gathered from all their valleys so that all might be done in order.",
+  "attended": [
+    "Perrin: all the heads of family with their pastors, from all their valleys. Morland: the ministers and heads of families of the churches of the valleys.",
+    "Gilles: the pastors and leading men of the Waldensian churches, from the valleys and from nearby lands.",
+    "The manuscript, as Montet quotes it, places the meeting 'en presentia di tuti li ministri e eciam dio del populo'. That is, before all the ministers and the people too.",
+    "Muston adds representatives from Calabria, Saluzzo, Provence and Dauphiné. He also has the lords of Miradol, Rivenoble and Solaro appear, with no witness cited.",
+    "The visitors. In 1535, Gilles writes, a ducal raid caught a guard, Jeanet Peiret of Angrogna, keeping watch for ministers then gathered at the hamlet of Chanforans.",
+    "Peiret said on 22 September that among them was 'M. Farel, qui avoit la barbe rouge', with a fine white horse and two companions.",
+    "Muston puts Farel and Saulnier (Antoine Saunier) at the 1532 meeting. The editors Baum and Cunitz, citing Herminjard, say Olivetan visited the valleys with them in 1532. Crespin's editors say Martin Gonin and another barbe invited Farel and Saunier from Grandson to the synod of 12 September. Our scan reads 1552, a slip for 1532.",
+    "No count of those present is held, and no list of names. Perrin and Morland say all present signed. Muston says the greater part signed and two pastors refused. Gilles says some barbes did not consent to all the conclusions."
+  ],
+  "decided": [
+    "Perrin says one of them reported on Morel and Masson's mission, and the letters of Oecolampadius and Bucer were read. Then the articles were 'dressés, leus, approuués, signés', and sworn by all present.",
+    "The printed articles. Perrin (1619), Morland (1658) and Léger (1669) print the same seventeen, in the same order. Gilles gives a shorter summary.",
+    "Worship can be done only 'in spirit and in truth' (article 1). All who are saved were chosen by God before the foundation of the world (2).",
+    "'It is impossible that those that are appointed to salvation, should not be saved' (3, in Morland's English). Whoever upholds free will denies predestination and the grace of God (4).",
+    "A Christian may swear by the name of God (6) and may be a magistrate over Christians (10). Auricular confession is not commanded by God (7).",
+    "Marriage is forbidden to no one, and whoever forbids it teaches the devil's doctrine (12, 13). Ministers may own property to keep their families (16).",
+    "There are only two sacraments, baptism and the Eucharist (17).",
+    "Gilles adds a decision the articles do not state. They would drop all pretense and take no further part in the ceremonies of the Roman Church. He says his list gives only the main points.",
+    "The manuscript, as Muston describes it, differs. It opens with the oath and has at least twenty-three numbered articles, some of them struck out.",
+    "The struck items, Muston says, concern Sunday work, the laying on of hands and usury. The text closes with a declaration that 'nothing may henceforth divide us' (Muston's English).",
+    "The Bible. Perrin says that after the articles 'ils se resolurent de faire imprimer promptement toute la Bible'. Muston says the synod resolved on it, citing Olivetan's own apology, which we do not hold."
+  ],
+  "outcome": [
+    "The priests leave. Perrin says the priests among them, there to collect the parish revenues, saw 'la porte fermee à leur gain'.",
+    "'Ils se retirerent sans sonner mot', Perrin goes on, and with their going the Mass left the valleys. No other held witness tells this.",
+    "The dissenters. Gilles names two of the leading objectors, Daniel de Valence and Jean de Molines, from outside the valleys. They 'partirent sans congé de l'assemblée' and went to Bohemia.",
+    "There, Gilles says, they complained of innovations brought in by ministers 'venus d'Alemagne', who had been heard too easily.",
+    "The Brethren's chronicle, Blahoslav's Summa of 1556, says two learned Frenchmen came from the Waldensians. They told of a 'dissidium seu discordiam' among their brethren (Goll's edition).",
+    "The two said they had been sent by the Waldensians, to see whether the Brethren had changed and whether their ministers had married. They stayed 'per integrum semestre unum', a full six months, praised all they saw, and went home to France. Goll's note names them as Valence and Molines. Comenius has the same story.",
+    "Perrin, Morland and Léger tell it differently. In their account the barbes sent the two to serve the churches of Bohemia, and the two betrayed those churches to their enemies.",
+    "Léger puts that betrayal down to 'une trop grande imprudence'. Gilles says the Bohemian pastors' letter speaks only honorably of the two barbes.",
+    "The Bohemian pastors wrote on 27 June 1533, Gilles says. An assembly in Val San Martino on 15 August 1533 confirmed the Angrogne decisions (Gilles; Montet). Muston places it at Pral on 14 August.",
+    "Gilles says the two then withdrew to live on their own. He charges that they carried off what they could of the old Waldensian manuscripts.",
+    "Persecution. Gilles dates the duke's orders to the commissioner Bersour to 28 August 1535. Bersour's prisoners gave the depositions that name Chanforans and Farel.",
+    "Gilles says persecution and war meant the decisions were carried out only over 'une assez longue suite de temps'.",
+    "The Bible of 1535. A French Bible translated by Pierre Robert Olivetan was printed at Neuchâtel at the valleys' cost (Morland; Léger; the Histoire ecclésiastique). Perrin says they paid fifteen hundred gold crowns.",
+    "Muston gives the printer as Pierre de Wingle and the date as 4 June 1535, from the colophon. Baum and Cunitz give the same day.",
+    "Olivetan's preface says 'un certain pauure peuple' gave him the charge to bring this treasure out of the Hebrew and Greek chests (Morland prints it). Morland and Léger name that people as the valleys.",
+    "Its reach. Morland says the Bible was printed 'for the benefit of the Evangelical Churches where this Language was in use'.",
+    "Léger passes on Theodore Beza's words: through the Waldensians of the valleys, France has the Bible in its own language.",
+    "What it changed. Léger wrote in 1669, 'Je ne trouve point qu'ils y ayent changé la moindre chose'. He names one exception: they were nearly Anabaptists on arms, holding that only magistrates should wield the sword. They still held this in 1560, in Emanuel Philibert's war, and acted otherwise only later.",
+    "Montet called Protestant teaching 'une nouveauté pour les Vaudois'. He dates its full triumph among them to the Union of the Valleys of 11 November 1571."
+  ],
+  "record": [
+    {
+      "witness": "The seventeen articles as printed by Perrin (1619), Morland (1658) and Léger (1669)",
+      "kind": "acts",
+      "note": "The meeting's articles at second hand, in later histories. No original is held. Léger says his copy was kept at Cambridge."
+    },
+    {
+      "witness": "The manuscript of the propositions, quoted by Muston and Montet",
+      "kind": "acts",
+      "note": "Muston cites it as a Dublin manuscript of George Morel's and calls it 'the contemporary manuscript'. Montet calls it the acts of the synod. It is not held; we have only their quotations."
+    },
+    {
+      "witness": "Jeanet Peiret's deposition, in Gilles",
+      "kind": "participant",
+      "note": "A guard's testimony to Bersour's ducal inquiry, which Gilles summarizes from the Latin trial record. Gilles has him caught on watch in 1535, for ministers then gathered at Chanforans; Muston puts Farel at the 1532 meeting. The deposition itself is not held."
+    },
+    {
+      "witness": "George Morel's letter to Oecolampadius and Oecolampadius's reply (1530), in Perrin",
+      "kind": "participant",
+      "note": "The exchange that led to the meeting, in Perrin's French. Morel speaks for the barbes, Oecolampadius for the reformers. The originals are not held."
+    },
+    {
+      "witness": "Olivetan's preface to the Bible of 1535, in Morland and Léger",
+      "kind": "participant",
+      "note": "The translator's word on who gave him the commission. Only the preface is held, not the Bible."
+    },
+    {
+      "witness": "Jean-Paul Perrin, Histoire des Vaudois (Geneva, 1619; English of 1624)",
+      "kind": "later narrative",
+      "note": "Pastor at Nyons; Reformed Waldensian side. The earliest held printing of the articles, dated 1535."
+    },
+    {
+      "witness": "Pierre Gilles, Histoire ecclésiastique des églises vaudoises (Geneva, 1644)",
+      "kind": "later narrative",
+      "note": "Pastor of La Tour, writing in 1644; the valleys' own historian. Reformed side; hostile to the dissenting barbes."
+    },
+    {
+      "witness": "Samuel Morland, History of the Evangelical Churches of Piemont (London, 1658)",
+      "kind": "later narrative",
+      "note": "Cromwell's envoy to the valleys; a Protestant outsider sympathetic to the Waldensians."
+    },
+    {
+      "witness": "Jean Léger, Histoire générale des Églises vaudoises (Leiden, 1669)",
+      "kind": "later narrative",
+      "note": "Moderator of the valleys; Reformed side, arguing that the Waldensians changed nothing at the Reformation."
+    },
+    {
+      "witness": "Jan Blahoslav, Summa (1556), in Jaroslav Goll's Quellen (1878)",
+      "kind": "later narrative",
+      "note": "The Bohemian Brethren's chronicle; the side of the hosts who received the dissenting barbes. Goll's note identifies the two envoys."
+    },
+    {
+      "witness": "Comenius, Historia Fratrum Bohemorum (print of 1702)",
+      "kind": "later narrative",
+      "note": "Brethren side; gives the envoys' visit in the words of Lasitius."
+    },
+    {
+      "witness": "The Histoire ecclésiastique attributed to Beza (1580), with notes by Baum and Cunitz (1883)",
+      "kind": "later narrative",
+      "note": "French Reformed history of the 1530 mission and the Bible. The editors' note putting Olivetan, Farel and Saunier in the valleys in 1532 is modern, from Herminjard."
+    },
+    {
+      "witness": "Alexis Muston, The Israel of the Alps (1850; English 1866)",
+      "kind": "modern reconstruction",
+      "note": "Reformed Waldensian pastor and historian. He ties Chanforans, Farel and the six days to 1532 and describes the manuscript."
+    },
+    {
+      "witness": "Édouard Montet, Histoire littéraire des Vaudois du Piémont (1885)",
+      "kind": "modern reconstruction",
+      "note": "Critical historian working from the Dublin manuscripts. He quotes the manuscript and judges Protestant teaching a novelty for the Waldensians."
+    },
+    {
+      "witness": "Gerhard von Zezschwitz, Die Katechismen der Waldenser und Böhmischen Brüder (1863)",
+      "kind": "modern reconstruction",
+      "note": "Gives the synod at Chanforans in the Angrogna valley, 12 September 1532, and the two envoys' half-year in Bohemia."
+    }
+  ],
+  "traditions": [
+    {
+      "id": "the-waldensian-reformed-union",
+      "name": "The Waldensian-Reformed Union",
+      "part": "Gathered",
+      "note": "The pastors and heads of family of the valleys drew up, signed and swore the articles (Perrin; Morland)."
+    },
+    {
+      "id": "the-reformed-cities-zurich-and-geneva",
+      "name": "The Reformed Cities - Zurich & Geneva",
+      "part": "Gathered",
+      "note": "Letters of Oecolampadius and Bucer were read (Perrin). The ministers with Farel at Chanforans 'continuoyent de venir des quartiers de Suisse' (Gilles, in his 1535 account)."
+    },
+    {
+      "id": "czech-churches-last-century",
+      "name": "The Czech Churches' Last Century (Utraquists and Unitas)",
+      "part": "Affected",
+      "note": "The Brethren received the two dissenting barbes for six months (Blahoslav, in Goll) and wrote to the valleys on 27 June 1533 (Gilles)."
+    },
+    {
+      "id": "the-tridentine-church",
+      "name": "The Tridentine Church",
+      "part": "Affected",
+      "note": "Perrin says the parish priests in the valleys left 'sans sonner mot', and the Mass left with them."
+    }
+  ],
+  "people": [
+    {
+      "name": "Guillaume Farel",
+      "verdict": "WHO",
+      "part": "Reformer; named by a guard as among the ministers at Chanforans, in an inquiry Gilles places in 1535. Muston puts him at the 1532 meeting"
+    },
+    {
+      "name": "Pierre Robert Olivetan",
+      "verdict": "LISTED",
+      "part": "Translator of the French Bible printed at Neuchâtel in 1535 at the valleys' cost. Baum and Cunitz, after Herminjard, have him in the valleys in 1532. Muston quotes his apology as the words of 'one who was present'"
+    },
+    {
+      "name": "Antoine Saunier",
+      "verdict": "NOT SCORED",
+      "part": "Reformer; came with Farel to the meeting, by Muston's account (as Saulnier)"
+    },
+    {
+      "name": "Daniel de Valence",
+      "verdict": "NOT SCORED",
+      "part": "Barbe; a leader of the minority that would not consent; left without leave and went to the Brethren in Bohemia (Gilles)"
+    },
+    {
+      "name": "Jean de Molines",
+      "verdict": "NOT SCORED",
+      "part": "Barbe, of the Queyras valley by Léger's list; went to Bohemia with Valence"
+    },
+    {
+      "name": "George Morel",
+      "verdict": "NOT SCORED",
+      "part": "Barbe of Freissinières; envoy to the reformers in 1530; one of the assembly reported on his mission (Perrin)"
+    },
+    {
+      "name": "Pierre Masson",
+      "verdict": "NOT SCORED",
+      "part": "Not present; Morel's companion on the 1530 mission, taken prisoner at Dijon (Morland)"
+    },
+    {
+      "name": "Johannes Oecolampadius",
+      "verdict": "NOT SCORED",
+      "part": "Not present; reformer of Basel, whose letter was read to the assembly (Perrin)"
+    },
+    {
+      "name": "Martin Bucer",
+      "verdict": "NOT SCORED",
+      "part": "Not present; reformer of Strasbourg, whose letter was read to the assembly (Perrin)"
+    },
+    {
+      "name": "Jeanet Peiret",
+      "verdict": "NOT SCORED",
+      "part": "Guard of Angrogna; caught on watch for the ministers gathered at Chanforans, in a raid Gilles places in 1535"
+    },
+    {
+      "name": "Bersour",
+      "verdict": "NOT SCORED",
+      "part": "Not present; the duke's commissioner, whose inquiry of 1535 took the guards' depositions (Gilles)"
+    },
+    {
+      "name": "Martin Gonin",
+      "verdict": "NOT SCORED",
+      "part": "Barbe of Angrogna; with another barbe, invited Farel and Saunier to the synod (Crespin's editors); sent to Geneva in 1536 (Perrin)"
+    }
+  ],
+  "briefLength": "about 2 minutes 30 seconds",
+  "uncertain": [
+    "The meeting's own record is held only at second hand. Its manuscript reaches us in quotations by Muston and Montet. The articles survive in printings by Perrin, Léger and Morland, all on the Reformed side, and in Gilles's summary.",
+    "The dissenting barbes' own words are not held. Their side comes through Gilles, who took the majority's side, and through the Bohemian Brethren's chronicle, written by the hosts who received them.",
+    "The year. Most held witnesses give 12 September 1532: Gilles, Morland, Muston, Montet and Zezschwitz. Perrin, the earliest, gives 12 September 1535. Léger's heading, as our scan reads it, gives December 1531.",
+    "Montet's quotation of the manuscript reads 1533, against his own 1532. It may be a misprint. Perrin also dates the barbes' resolve to preach openly to 1532, before his 1535 assembly.",
+    "The name and Farel. The name Chanforans and Farel's presence rest, among held lines of the time, on Peiret's deposition. Gilles has him caught on watch in 1535, for ministers then gathered there. Muston, the Baum and Cunitz note and Crespin's editors put Farel in the valleys, or at the synod, in 1532.",
+    "Gilles says the pastors from Switzerland 'continuoyent de venir', which allows more than one visit. He names no visitor at the 1532 assembly. Muston gives the meeting six days. One of Bersour's prisoners gave six days to the synod the barbes had held 'alors', then.",
+    "The dissenters in Bohemia. Gilles says they walked out in protest. Perrin, Morland and Léger say the barbes sent them to Bohemia and they betrayed its churches. Blahoslav's chronicle and Comenius say the two came as envoys sent by the Waldensians. They stayed six months and left on good terms.",
+    "Where the dissenters came from. Gilles says from outside the valleys and Muston says Dauphiné. Perrin lists them under Provence, and Léger puts Molines in the Queyras valley.",
+    "The signing. Perrin and Morland say all present signed and swore. Muston says the greater part signed and two pastors refused, citing Gilles. Gilles says some barbes did not consent, and two of their leaders left without leave; he does not speak of signing.",
+    "The articles. The printed seventeen differ in number and order from the manuscript as Muston describes it, with at least twenty-three articles and some struck out. Gilles calls his own list a summary.",
+    "The assembly of 1533. Gilles and Montet place it in Val San Martino on 15 August 1533. Muston places it at Pral on 14 August.",
+    "The Bible. Perrin has the decision to print it follow the articles, in his 1535 assembly. Muston says the 1532 synod resolved on it, from Olivetan's apology, which is not held.",
+    "What the meeting changed. Gilles says the churches joined the other Reformed churches 'environ l'année 1530'. Léger says nothing changed in doctrine or discipline through their talks with the reformers. Their near-Anabaptist view, that only magistrates bear the sword, held until at least 1560. Only later, after the Maccabees' example, did they act otherwise.",
+    "Montet calls Protestant teaching a novelty for the Waldensians, and dates its full triumph to 1571. Zezschwitz says Morel had voiced his churches' surprise at Luther's teaching on the bound will. The 1532 decrees, he says, breathe the firmest predestinarian teaching."
+  ],
+  "sources": {
+    "fromTheCouncil": [
+      {
+        "title": "Histoire des Vaudois: the articles of the assembly at Angrogne",
+        "author": "Jean-Paul Perrin",
+        "language": "French",
+        "file": "cic/texts/perrin_histoire-des-vaudois-fra_1619.txt"
+      },
+      {
+        "title": "History of the Evangelical Churches of the Valleys of Piemont: A brief Confession of Faith, assembled in Angrogne",
+        "author": "Samuel Morland",
+        "language": "English",
+        "file": "cic/texts/morland_history-evangelical-churches-piemont_1658.txt"
+      },
+      {
+        "title": "Histoire générale des Églises évangéliques des Vallées de Piémont, livre premier: Brieve Confession de Foy",
+        "author": "Jean Léger",
+        "language": "French",
+        "file": "cic/texts/leger_histoire-generale-eglises-vaudoises-livre1-fra_1669.txt"
+      }
+    ],
+    "fromThoseThere": [
+      {
+        "title": "Histoire ecclésiastique des églises vaudoises: Jeanet Peiret's deposition of 1535, on the ministers gathered at Chanforans",
+        "author": "Pierre Gilles, from the Turin trial record",
+        "language": "French",
+        "file": "cic/texts/gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt"
+      },
+      {
+        "title": "Histoire des Vaudois: the letters of George Morel and Oecolampadius",
+        "author": "George Morel; Johannes Oecolampadius, in Perrin",
+        "language": "French and Occitan",
+        "file": "cic/texts/perrin_histoire-des-vaudois-fra_1619.txt"
+      },
+      {
+        "title": "The Preface of Robert Olivetan to his Translation of the Bible",
+        "author": "Pierre Robert Olivetan, in Morland",
+        "language": "French and English",
+        "file": "cic/texts/morland_history-evangelical-churches-piemont_1658.txt"
+      }
+    ],
+    "writtenLater": [
+      {
+        "title": "Histoire ecclésiastique des églises réformées recueillies en quelques vallées de Piedmont",
+        "author": "Pierre Gilles",
+        "language": "French",
+        "file": "cic/texts/gilles_histoire-ecclesiastique-eglises-reformees-vallees-de-piemont-fra_1644.txt"
+      },
+      {
+        "title": "Histoire ecclésiastique des églises vaudoises (Pignerol reprint)",
+        "author": "Pierre Gilles",
+        "language": "French",
+        "file": "cic/texts/gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt"
+      },
+      {
+        "title": "History of the Ancient Christians inhabiting the Valleys of the Alps",
+        "author": "Jean-Paul Perrin, in the English of 1624",
+        "language": "English",
+        "file": "cic/texts/perrin_history-ancient-christians-valleys-alps_1847.txt"
+      },
+      {
+        "title": "Quellen und Untersuchungen zur Geschichte der Böhmischen Brüder I: Blahoslav's Summa",
+        "author": "Jan Blahoslav, ed. Jaroslav Goll",
+        "language": "Latin and German",
+        "file": "cic/texts/goll_quellen-bohmische-bruder-v1-deu_1878.txt"
+      },
+      {
+        "title": "Historia Fratrum Bohemorum",
+        "author": "Comenius",
+        "language": "Latin",
+        "file": "cic/texts/comenius_historia-fratrum-bohemorum-lat_1702.txt"
+      },
+      {
+        "title": "Histoire ecclésiastique des églises réformées au royaume de France, tome 1",
+        "author": "Attributed to Theodore Beza, ed. Baum and Cunitz",
+        "language": "French",
+        "file": "cic/texts/beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt"
+      },
+      {
+        "title": "Histoire des martyrs, tome 1: Martin Gonin, with the editors' notes",
+        "author": "Jean Crespin, ed. Daniel Benoît and Matthieu Lelièvre",
+        "language": "French",
+        "file": "cic/texts/crespin_histoire-des-martyrs-t1-fra_benoit-lelievre1885.txt"
+      },
+      {
+        "title": "The Israel of the Alps, volume 1",
+        "author": "Alexis Muston, trans. John Montgomery",
+        "language": "English",
+        "file": "cic/texts/muston_israel-of-the-alps-v1_montgomery1866.txt"
+      },
+      {
+        "title": "Histoire littéraire des Vaudois du Piémont",
+        "author": "Édouard Montet",
+        "language": "French",
+        "file": "cic/texts/montet_histoire-litteraire-des-vaudois-du-piemont-fra_1885.txt"
+      },
+      {
+        "title": "Die Katechismen der Waldenser und Böhmischen Brüder",
+        "author": "Gerhard von Zezschwitz",
+        "language": "German",
+        "file": "cic/texts/zezschwitz_katechismen-der-waldenser-und-boehmischen-brueder-deu_1863.txt"
+      }
+    ]
+  }
+}
