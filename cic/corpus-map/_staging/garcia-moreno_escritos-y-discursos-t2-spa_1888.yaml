@@ -1,0 +1,20 @@
+source_file: garcia-moreno_escritos-y-discursos-t2-spa_1888.txt
+assignments:
+- work: ESCRITOS Y DISCURSOS DE GABRIEL GARCIA MORENO ... TOMO SEGUNDO, ESCRITOS OFICIALES. Quito, Imprenta del
+  author: garcia-moreno
+  locus: 'summary: consecration of Ecuador to the Sacred Heart at OCR lines 14410-14425; consecration mention in
+    life at OCR lines 17636; Concordato at OCR lines 1681, 3973, 10382-10501; the rest not mapped'
+  atlas_ids:
+  - nineteenth-century-latin-american-catholicism
+  role: tradition
+  confidence: provisional
+  language: spa
+  date:
+    formation_confidence: unknown
+    checked: the title page and front matter of this printing (1888); they do not state when the text was first
+      written
+  edition_date:
+    year: 1888
+    source: line 74 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 286, Gabriel Garcia Moreno: his official writings, vol. 2.'

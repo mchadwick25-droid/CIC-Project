@@ -1,0 +1,22 @@
+source_file: molema_bantu-past-and-present_1920.txt
+assignments:
+- work: THE BANTU PAST AND PRESENT AN ETHNOGRAPHICAL & HISTORICAL STUDY OF THE NATIVE RACES OF SOUTH AFRICA BY S.
+    M.
+  author: molema
+  locus: '''A translation of a composition by one of the first Xosa converts to Christianity - Ntsika at OCR lines
+    8907-8930; the rest not mapped'
+  atlas_ids:
+  - southern-african-mission-churches
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1920
+    end: 1920
+    source: 'the printing''s own title page: line 81 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1920
+    source: line 81 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 321, Ntsikana: his hymn in English, in a later history.'

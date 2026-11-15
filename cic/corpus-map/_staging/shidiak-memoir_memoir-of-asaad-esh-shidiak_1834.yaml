@@ -1,0 +1,20 @@
+source_file: shidiak-memoir_memoir-of-asaad-esh-shidiak_1834.txt
+assignments:
+- work: 'MEMOIR OF ASAAD ESH SHIDIAK. BOSTON: CROCKER & BREWSTER, PRINTERS. 1834'
+  author: shidiak-memoir
+  locus: whole memoir at OCR lines 30-3150; the rest not mapped
+  atlas_ids:
+  - arab-evangelical-churches
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1834
+    end: 1834
+    source: 'the printing''s own title page: line 40 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1834
+    source: line 40 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 326, Asaad es Shidiak: a Memoir.'

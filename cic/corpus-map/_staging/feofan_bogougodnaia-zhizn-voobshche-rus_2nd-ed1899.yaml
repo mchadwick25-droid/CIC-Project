@@ -1,0 +1,22 @@
+source_file: feofan_bogougodnaia-zhizn-voobshche-rus_2nd-ed1899.txt
+assignments:
+- work: Богоугодная жизнь вообще. Слова епископа Феофана (Из слов к Тамбовской и Владимирской паствам 1859-1866
+    гг.)
+  author: feofan
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - the-optina-elders-and-russian-ascetic-renewal
+  - russian-church-synodal-century
+  role: tradition
+  confidence: provisional
+  language: rus
+  date:
+    start: 1859
+    end: 1866
+    source: 'the printing''s own title page: line 53 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1899
+    source: line 53 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 295, Theophan the Recluse: sermons on the godly life.'

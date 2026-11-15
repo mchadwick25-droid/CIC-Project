@@ -1,0 +1,23 @@
+source_file: wylde_modern-abyssinia_1901.txt
+assignments:
+- work: MODERN ABYSSINIA, AUGUSTUS B. WYLDE, LATE VICE-CONSUL FOR RED SEA, AUTHOR OF '83 TO '87 IN THE SOUDAN, WITH
+  author: wylde
+  locus: King Johannes and Prince Kassai history (Abyssinian History chapters) at OCR lines 789-1140; Boru Meida
+    visited at OCR lines 18711-18870; the rest not mapped
+  atlas_ids:
+  - ethiopian-christianity-tewodros-to-menelik
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1901
+    end: 1901
+    source: 'the printing''s own title page: line 79 of this file, on the title page, where the OCR reads ''I 90
+      I''; the library catalogue record gives 1901'
+    formation_confidence: Documented
+  edition_date:
+    year: 1901
+    source: line 79 of this file, on the title page, where the OCR reads 'I 90 I'; the library catalogue record
+      gives 1901
+    formation_confidence: Documented
+  note: 'Era 9 row 308, Yohannes IV: an outside account.'

@@ -1,0 +1,20 @@
+source_file: pharmakidis_oikonomos-ho-ex-oikonomon-ell_1849.txt
+assignments:
+- work: ΟΙΚΟΝΟΜΟΣ Ο ΕΞ ΟΙΚΟΝΟΜΩΝ Η ΠΕΡΙ ΟΡΚΟΥ. ΕΝ ΑΘΗΝΑΙΣ, ΕΚ ΤΗΣ ΤΥΠΟΓΡΑΦΙΑΣ ΝΙΚΟΛΑΟΥ ΑΓΓΕΛΙΔΟΥ ... 1849
+  author: pharmakidis
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - orthodoxy-after-1821-balkan-autocephalies
+  role: tradition
+  confidence: provisional
+  language: ell
+  date:
+    start: 1849
+    end: 1849
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n7; the OCR does not give it cleanly'
+    formation_confidence: Documented
+  edition_date:
+    year: 1849
+    source: read on the scan's page image, leaf n7; the OCR does not give it cleanly
+    formation_confidence: Documented
+  note: 'Era 9 rows 300 and 301, Theoklitos Pharmakidis: a pamphlet against Konstantinos Oikonomos.'

@@ -1,0 +1,20 @@
+source_file: filimonov_materialy-dlia-biografii-arkhimandrita-makariia-rus_1888.txt
+assignments:
+- work: Материалы для биографии основателя Алтайской миссии архимандрита Макария. Д. Д. Фил-нова. Москва.
+  author: filimonov
+  locus: early life, 1792 onward at OCR lines 185-340; the rest not mapped
+  atlas_ids:
+  - russian-church-synodal-century
+  role: context
+  confidence: provisional
+  language: rus
+  date:
+    start: 1888
+    end: 1888
+    source: 'the printing''s own title page: line 51 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1888
+    source: line 51 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 296, Makary (Glukharev): materials for his biography.'

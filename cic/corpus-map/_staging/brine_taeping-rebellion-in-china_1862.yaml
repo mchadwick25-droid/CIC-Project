@@ -1,0 +1,21 @@
+source_file: brine_taeping-rebellion-in-china_1862.txt
+assignments:
+- work: THE TAEPING REBELLION IN CHINA; A NARRATIVE OF ITS RISE AND PROGRESS. BASED UPON ORIGINAL DOCUMENTS
+  author: brine
+  locus: Hamberg's narrative (Chap IV), Fung-yun-san, Roberts, Yang-siu-tshin at OCR lines 3095-3200, 3505-3600,
+    3641-3740, 3934; the rest not mapped
+  atlas_ids:
+  - taiping-heavenly-kingdom
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1862
+    end: 1862
+    source: 'the printing''s own title page: line 73 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1862
+    source: line 73 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 rows 263 to 266, the Taiping leaders and Issachar Roberts: an outside account.'

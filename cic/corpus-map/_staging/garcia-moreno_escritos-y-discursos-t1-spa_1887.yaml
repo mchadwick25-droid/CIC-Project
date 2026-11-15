@@ -1,0 +1,19 @@
+source_file: garcia-moreno_escritos-y-discursos-t1-spa_1887.txt
+assignments:
+- work: ESCRITOS Y DISCURSOS DE GABRIEL GARCIA MORENO, recopilados y publicados por la Sociedad de la Juventud
+  author: garcia-moreno
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - nineteenth-century-latin-american-catholicism
+  role: tradition
+  confidence: provisional
+  language: spa
+  date:
+    formation_confidence: unknown
+    checked: the title page and front matter of this printing (1887); they do not state when the text was first
+      written
+  edition_date:
+    year: 1887
+    source: line 71 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 286, Gabriel Garcia Moreno: his writings and speeches, vol. 1.'

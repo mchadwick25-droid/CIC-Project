@@ -1,0 +1,20 @@
+source_file: reyes_la-sensacional-memoria-spa_1899.txt
+assignments:
+- work: LA SENSACIONAL MEMORIA DE Isabelo de los Reyes SOBRE La Revolucion Filipina DE 1896-97 por la cual fue
+  author: reyes
+  locus: Katipunan at OCR lines 173; 273-300; 732; 902; the rest not mapped
+  atlas_ids:
+  - philippine-catholicism-gomburza-to-aglipay
+  role: tradition
+  confidence: provisional
+  language: spa
+  date:
+    start: 1899
+    end: 1899
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n8; the OCR does not give it cleanly'
+    formation_confidence: Documented
+  edition_date:
+    year: 1899
+    source: read on the scan's page image, leaf n8; the OCR does not give it cleanly
+    formation_confidence: Documented
+  note: 'Era 9 row 280, Isabelo de los Reyes: his memorial on the revolution of 1896-97.'

@@ -1,0 +1,21 @@
+source_file: leger_haiti-her-history-and-her-detractors_1907.txt
+assignments:
+- work: Haiti, her history and her detractors (title as in host record)
+  author: leger
+  locus: chapter XV Geffrard and the Concordat of 1860 at OCR lines 9102-9135; 1836 concordat (England) at OCR lines
+    8281-8335; the rest not mapped
+  atlas_ids:
+  - haitian-church-rupture-to-concordat
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1907
+    end: 1907
+    source: 'the printing''s own title page: line 40 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1907
+    source: line 40 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 284, Fabre Geffrard: a later account of the Concordat of 1860.'

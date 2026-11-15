@@ -1,0 +1,20 @@
+source_file: adriaanse_sadrachs-kring-nld_1899.txt
+assignments:
+- work: SADRACH'S KRING, door L. Adriaanse, Dienaar des Woords te Utrecht, afgezonden tot den Zendingsdienst te
+  author: adriaanse
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - indonesian-christianity
+  role: context
+  confidence: provisional
+  language: nld
+  date:
+    start: 1899
+    end: 1899
+    source: 'the printing''s own title page: line 51 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1899
+    source: line 51 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 207, Kiai Sadrach: a Dutch missionary''s account.'

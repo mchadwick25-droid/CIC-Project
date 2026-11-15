@@ -1,0 +1,27 @@
+source_file: stern_captive-missionary_1868.txt
+assignments:
+- work: 'THE CAPTIVE MISSIONARY: BEING AN ACCOUNT OF THE COUNTRY AND PEOPLE OF ABYSSINIA. EMBRACING [a narrative
+    of'
+  author: stern
+  locus: Aboona Salama (Metropolitan) named in contents and text at OCR lines 315, 1021, 1137, 1559, 3026, 3128,
+    8964, 9190; Death of Aboona Salama, 25 Oct (OCR 'October 25tli') at OCR lines 12299-12330; Theodore's life and
+    reign (contents entries) at OCR lines 86-89, 79-310; the rest not mapped
+  atlas_ids:
+  - ethiopian-christianity-tewodros-to-menelik
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1868
+    end: 1868
+    source: 'the dated preface at line 464 of this file (''London, October 26th, 1868.''), with which the library
+      catalogue record of the item agrees (MARC 260: ''London : Cassell, Petter, and Galpin, [1868]''); the title
+      page prints no year'
+    formation_confidence: Documented
+  edition_date:
+    year: 1868
+    source: 'the dated preface at line 464 of this file (''London, October 26th, 1868.''), with which the library
+      catalogue record of the item agrees (MARC 260: ''London : Cassell, Petter, and Galpin, [1868]''); the title
+      page prints no year'
+    formation_confidence: Documented
+  note: 'Era 9 rows 306 and 307, Tewodros II and Abuna Salama III: a captive missionary''s account.'

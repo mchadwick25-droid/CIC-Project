@@ -1,0 +1,20 @@
+source_file: sheptytsky_o-pokaianiiu-lyst-pastyrskii-ukr_1901.txt
+assignments:
+- work: О ПОКАЯНІЮ. ЛИСТЬ ПАСТИРСКІЙ Высокопреосвященого АНДРЕЯ ШЕПТИЦКОГО, Митрополита Галицкого ... до вірныхь
+  author: sheptytsky
+  locus: whole letter at OCR lines 41-2268; the rest not mapped
+  atlas_ids:
+  - ruthenian-greek-catholic-polotsk-to-galicia
+  role: tradition
+  confidence: provisional
+  language: ukr
+  date:
+    start: 1901
+    end: 1901
+    source: 'the printing''s own title page: line 80 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1901
+    source: line 80 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 279, Andrey Sheptytsky: a pastoral letter on repentance.'

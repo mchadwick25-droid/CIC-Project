@@ -1,0 +1,20 @@
+source_file: louvet_la-cochinchine-religieuse-v2-fra_1885.txt
+assignments:
+- work: LA COCHINCHINE RELIGIEUSE, TOME SECOND
+  author: louvet
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - vietnamese-catholicism-1815-1906
+  role: context
+  confidence: provisional
+  language: fra
+  date:
+    start: 1885
+    end: 1885
+    source: 'the printing''s own title page: line 72 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1885
+    source: line 72 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 289, Minh Mang: the edict of 1833 in a mission history, in French.'

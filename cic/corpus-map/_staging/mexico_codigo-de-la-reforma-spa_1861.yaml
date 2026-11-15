@@ -1,0 +1,21 @@
+source_file: mexico_codigo-de-la-reforma-spa_1861.txt
+assignments:
+- work: CODIGO DE LA REFORMA o COLECCION DE LEYES, DECRETOS Y SUPREMAS ORDENES, expedidas desde 1856 hasta 1861.
+  author: mexico
+  locus: desamortizacion decrees 1856 at OCR lines 695-1840; Juarez decrees at Veracruz 1859 at OCR lines 5342-8700;
+    libertad de cultos / abrogation of recursos de fuerza at OCR lines 7455-7480; the rest not mapped
+  atlas_ids:
+  - nineteenth-century-latin-american-catholicism
+  role: context
+  confidence: provisional
+  language: spa
+  date:
+    start: 1856
+    end: 1861
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n4; the OCR does not give it cleanly'
+    formation_confidence: Documented
+  edition_date:
+    year: 1861
+    source: read on the scan's page image, leaf n4; the OCR does not give it cleanly
+    formation_confidence: Documented
+  note: 'Era 9 row 285, Benito Juarez: the Reform laws, 1856 to 1861.'

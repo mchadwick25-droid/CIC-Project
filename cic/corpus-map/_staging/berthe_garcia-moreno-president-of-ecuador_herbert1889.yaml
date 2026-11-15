@@ -1,0 +1,25 @@
+source_file: berthe_garcia-moreno-president-of-ecuador_herbert1889.txt
+assignments:
+- work: GARCIA MORENO, President of Ecuador, 1821-1875, from the French of the Rev. P. A. Berthe, by Lady Herbert.
+  author: berthe
+  locus: consecration of the Republic to the Sacred Heart at OCR lines 10676-10710; chapter title 'The Republic
+    of the Sacred Heart' at OCR lines 406; the rest not mapped
+  atlas_ids:
+  - nineteenth-century-latin-american-catholicism
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1889
+    end: 1889
+    source: 'the printing''s own title page: line 81 of this file, on the title page'
+    formation_confidence: Documented
+  translator:
+    name: Lady Herbert
+    source: the title page
+    formation_confidence: Documented
+  edition_date:
+    year: 1889
+    source: line 81 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 286, Gabriel Garcia Moreno: a Life, in English.'

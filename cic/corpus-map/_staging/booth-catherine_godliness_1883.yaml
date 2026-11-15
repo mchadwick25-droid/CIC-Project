@@ -1,0 +1,23 @@
+source_file: booth-catherine_godliness_1883.txt
+assignments:
+- work: GODLINESS. BEING REPORTS OF A SERIES OF ADDRESSES DELIVERED AT JAMES'S HALL, LONDON, W., During 1881, BY
+    MRS.
+  author: booth-catherine
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - the-salvation-army
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1881
+    end: 1883
+    source: the copyright notice at line 103 of this file ('Entered, according to Act oi Congress, in the year 1883,');
+      the title page prints no year
+    formation_confidence: Documented
+  edition_date:
+    year: 1883
+    source: the copyright notice at line 103 of this file ('Entered, according to Act oi Congress, in the year 1883,');
+      the title page prints no year
+    formation_confidence: Documented
+  note: 'Era 9 row 191, Catherine Booth: Godliness, her addresses of 1881.'

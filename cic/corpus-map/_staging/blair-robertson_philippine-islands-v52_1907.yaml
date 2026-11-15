@@ -1,0 +1,21 @@
+source_file: blair-robertson_philippine-islands-v52_1907.txt
+assignments:
+- work: THE PHILIPPINE ISLANDS 1493-1898 ... Volume LII - 1841-1898. The Arthur H. Clark Company, Cleveland, Ohio,
+  author: blair-robertson
+  locus: note 37 on Apolinario and the confraternity of San Jose at OCR lines 3290-3370; further mentions at OCR
+    lines 433, 3661-3690; the rest not mapped
+  atlas_ids:
+  - philippine-catholicism-gomburza-to-aglipay
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1907
+    end: 1907
+    source: 'the printing''s own title page: line 92 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1907
+    source: line 92 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 281, Apolinario de la Cruz: a note on the Cofradia de San Jose.'

@@ -1,0 +1,20 @@
+source_file: kireevsky_polnoe-sobranie-sochinenii-t1-rus_gershenzon1911.txt
+assignments:
+- work: Полное собрание сочинений И. В. Киреевского в двух томах под редакцией М. Гершензона. Томъ 1. Москва.
+  author: kireevsky
+  locus: О характере просвещения Европы и его отношении к просвещению России (running heads) at OCR lines 8756-9300;
+    the rest not mapped
+  atlas_ids:
+  - the-optina-elders-and-russian-ascetic-renewal
+  role: tradition
+  confidence: provisional
+  language: rus
+  date:
+    formation_confidence: unknown
+    checked: the title page and front matter of this printing (1911); they do not state when the text was first
+      written
+  edition_date:
+    year: 1911
+    source: line 46 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 294, Ivan Kireevsky: his collected works, vol. 1.'

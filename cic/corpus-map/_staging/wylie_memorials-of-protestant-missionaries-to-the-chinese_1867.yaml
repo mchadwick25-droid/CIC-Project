@@ -1,0 +1,20 @@
+source_file: wylie_memorials-of-protestant-missionaries-to-the-chinese_1867.txt
+assignments:
+- work: MEMORIALS OF PROTESTANT MISSIONARIES TO THE CHINESE
+  author: wylie
+  locus: Afa's works at OCR lines 1019-1023, 1700-1775; the rest not mapped
+  atlas_ids:
+  - the-missionary-movement-s-native-churches-seramp
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1867
+    end: 1867
+    source: 'the printing''s own title page: line 59 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1867
+    source: line 59 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 311, Liang Fa: a list of his works.'

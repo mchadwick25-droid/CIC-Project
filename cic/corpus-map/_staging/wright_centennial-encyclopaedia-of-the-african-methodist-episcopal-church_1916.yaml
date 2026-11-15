@@ -1,0 +1,23 @@
+source_file: wright_centennial-encyclopaedia-of-the-african-methodist-episcopal-church_1916.txt
+assignments:
+- work: CENTENNIAL ENCYCLOPAEDIA OF THE AFRICAN METHODIST EPISCOPAL CHURCH ... BY RICHARD R. WRIGHT JR.,
+  author: wright
+  locus: '''Africa, South'': Mokone withdraws from the Wesleyan church, 1 Nov 1892; the Ethiopian Chur at OCR lines
+    32428-32540; ''Rev. Mangena Make Mokone'' named as founder in another man''s biography at OCR lines 17745-17755;
+    the rest not mapped'
+  atlas_ids:
+  - african-initiated-churches-harrist-aladura-zioni
+  - the-black-church-in-the-twentieth-century
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1916
+    end: 1916
+    source: 'the printing''s own title page: line 185 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1916
+    source: line 185 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 213, Mangena Mokone: an entry in the African Methodist Episcopal Church''s encyclopaedia.'

@@ -1,0 +1,21 @@
+source_file: freeman-johns_narrative-of-the-persecution-of-the-christians-in-madagascar_1840.txt
+assignments:
+- work: A NARRATIVE OF THE PERSECUTION OF THE CHRISTIANS IN MADAGASCAR; WITH DETAILS OF THE ESCAPE OF THE SIX
+  author: freeman-johns
+  locus: Ranavalona's accession at OCR lines 613-640; the rest not mapped
+  atlas_ids:
+  - malagasy-christianity
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1840
+    end: 1840
+    source: 'the printing''s own title page: line 45 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1840
+    source: line 45 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 rows 314, 315 and 316, Rasalama, Rafaravavy and Ranavalona I: the missionaries'' narrative of the
+    persecution.'

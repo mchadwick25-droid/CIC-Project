@@ -1,0 +1,20 @@
+source_file: assam-mission_papers-and-discussions-of-the-jubilee-conference-1886_1887.txt
+assignments:
+- work: 'THE ASSAM MISSION OF THE AMERICAN BAPTIST MISSIONARY UNION: papers and discussions of the jubilee conference'
+  author: assam-mission
+  locus: Clark named at OCR lines 307,370,412,532,555; the rest not mapped
+  atlas_ids:
+  - northeast-india-revivals-and-the-mar-thoma-refor
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1886
+    end: 1887
+    source: 'the printing''s own title page: line 27 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1887
+    source: line 27 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 304, Edwin W. Clark: the Assam Mission''s jubilee papers.'

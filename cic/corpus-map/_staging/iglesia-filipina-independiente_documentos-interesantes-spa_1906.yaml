@@ -1,0 +1,24 @@
+source_file: iglesia-filipina-independiente_documentos-interesantes-spa_1906.txt
+assignments:
+- work: Documentos interesantes de la Iglesia filipina independiente (cover-title, 'biografia de Mgr. Gregorio
+  author: iglesia-filipina-independiente
+  locus: IFI circulars and decrees at OCR lines 248-1146; the rest not mapped
+  atlas_ids:
+  - philippine-catholicism-gomburza-to-aglipay
+  role: tradition
+  confidence: provisional
+  language: spa
+  date:
+    start: 1906
+    end: 1906
+    source: 'the dated preface at line 183 of this file (''Manila, I. F., Enero 1906.''), with which the library
+      catalogue record of the item agrees (MARC 260: ''Manila, Imp. Fajardo y c.a, 1906.''); the title page prints
+      no year'
+    formation_confidence: Documented
+  edition_date:
+    year: 1906
+    source: 'the dated preface at line 183 of this file (''Manila, I. F., Enero 1906.''), with which the library
+      catalogue record of the item agrees (MARC 260: ''Manila, Imp. Fajardo y c.a, 1906.''); the title page prints
+      no year'
+    formation_confidence: Documented
+  note: 'Era 9 row 280, Gregorio Aglipay: documents of the Iglesia Filipina Independiente.'

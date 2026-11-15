@@ -1,0 +1,20 @@
+source_file: meadows_chinese-and-their-rebellions_1856.txt
+assignments:
+- work: THE CHINESE AND THEIR REBELLIONS, viewed in connection with their national philosophy, ethics, legislation,
+  author: meadows
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - taiping-heavenly-kingdom
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1856
+    end: 1856
+    source: 'the printing''s own title page: line 99 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1856
+    source: line 99 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 rows 263 to 266, the Taiping leaders and Issachar Roberts: an outside account.'

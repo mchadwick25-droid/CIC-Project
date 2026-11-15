@@ -1,0 +1,20 @@
+source_file: casalis_basutos_1861.txt
+assignments:
+- work: 'THE BASUTOS BY THE REV. E. CASALIS, LATE MISSIONARY, DIRECTOR OF THE PARIS EVANGELICAL MISSION-HOUSE. LONDON:'
+  author: casalis
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - southern-african-mission-churches
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1861
+    end: 1861
+    source: 'the printing''s own title page: line 48 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1861
+    source: line 48 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 322, Moshoeshoe: Casalis, The Basutos.'

@@ -1,0 +1,25 @@
+source_file: ioann-kronshtadtskii_my-life-in-christ_goulaeff1897.txt
+assignments:
+- work: My Life in Christ ... Translated, with the Author's sanction, from the Fourth and Supplemented Edition by
+    E.
+  author: ioann-kronshtadtskii
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - russian-church-synodal-century
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1897
+    end: 1897
+    source: 'the printing''s own title page: line 120 of this file, on the title page'
+    formation_confidence: Documented
+  translator:
+    name: E. E. Goulaeff
+    source: the title page
+    formation_confidence: Documented
+  edition_date:
+    year: 1897
+    source: line 120 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 297, John of Kronstadt: extracts from his diary, in English.'

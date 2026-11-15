@@ -1,0 +1,21 @@
+source_file: vital_o-bispo-de-olinda-e-os-seus-accusadores-por_1873.txt
+assignments:
+- work: O BISPO DE OLINDA E OS SEOS ACCUSADORES NO TRIBUNAL DO BOM SENSO, ou exame do aviso de 27 de setembro e
+    da
+  author: vital
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - nineteenth-century-latin-american-catholicism
+  role: tradition
+  confidence: provisional
+  language: por
+  date:
+    start: 1873
+    end: 1873
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n8; the OCR does not give it cleanly'
+    formation_confidence: Documented
+  edition_date:
+    year: 1873
+    source: read on the scan's page image, leaf n8; the OCR does not give it cleanly
+    formation_confidence: Documented
+  note: 'Era 9 row 287, Vital Maria Goncalves de Oliveira: his own defence.'

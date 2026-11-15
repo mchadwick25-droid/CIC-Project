@@ -1,0 +1,25 @@
+source_file: aglipay_catequesis-de-la-iglesia-filipina-independiente-spa_1912.txt
+assignments:
+- work: Catequesis de la Iglesia Filipina Independiente por el Emmo. Sr. Gregorio Aglipay y Labayan, Obispo Maximo
+    de
+  author: aglipay
+  locus: decrees of Aug 1903 at OCR lines 5823-6089; the rest not mapped
+  atlas_ids:
+  - philippine-catholicism-gomburza-to-aglipay
+  role: tradition
+  confidence: provisional
+  language: spa
+  date:
+    start: 1912
+    end: 1912
+    source: 'the dated prologue at line 1342 of this file (''Madrid, á 25 de Mayo de 1912.''), with which the library
+      catalogue record of the item agrees (MARC 260: ''Manila, I. de Los Reyes, 1912.''); the title page prints
+      no year'
+    formation_confidence: Documented
+  edition_date:
+    year: 1912
+    source: 'the dated prologue at line 1342 of this file (''Madrid, á 25 de Mayo de 1912.''), with which the library
+      catalogue record of the item agrees (MARC 260: ''Manila, I. de Los Reyes, 1912.''); the title page prints
+      no year'
+    formation_confidence: Documented
+  note: 'Era 9 row 280, Gregorio Aglipay: the church''s catechism.'

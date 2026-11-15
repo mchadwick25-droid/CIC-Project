@@ -1,0 +1,20 @@
+source_file: churchill_druzes-and-the-maronites-under-the-turkish-rule_1862.txt
+assignments:
+- work: THE DRUZES AND THE MARONITES under the Turkish rule FROM 1840 TO 1860 BY COLONEL CHURCHILL LONDON BERNARD
+  author: churchill
+  locus: Maronite patriarch passages at OCR lines 1331-1780, 2504-2800; the rest not mapped
+  atlas_ids:
+  - maronite-church-1815-1906
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1862
+    end: 1862
+    source: 'the printing''s own title page: line 55 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1862
+    source: line 55 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 290, Peter Paul Massaad: an outside account of the Maronites, 1840 to 1860.'

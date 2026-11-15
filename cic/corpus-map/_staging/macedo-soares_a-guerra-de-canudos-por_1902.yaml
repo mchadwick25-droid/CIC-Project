@@ -1,0 +1,23 @@
+source_file: macedo-soares_a-guerra-de-canudos-por_1902.txt
+assignments:
+- work: A GUERRA DE CANUDOS por Henrique Duque-Estrada de Macedo Soares (Tenente de Infantaria), 1a edicao, Rio,
+    Typ.
+  author: macedo-soares
+  locus: Conselheiro's predicas (preaching) at OCR lines 975-1060, 9453; the rest not mapped
+  atlas_ids:
+  - canudos-belo-monte
+  role: context
+  confidence: provisional
+  language: por
+  date:
+    start: 1902
+    end: 1902
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n6, which prints ''1a edicao''
+      and ''Rio, Typ. Altina, 1902''; an earlier leaf, the cover, reads 1903 in the OCR'
+    formation_confidence: Documented
+  edition_date:
+    year: 1902
+    source: read on the scan's page image, leaf n6, which prints '1a edicao' and 'Rio, Typ. Altina, 1902'; an earlier
+      leaf, the cover, reads 1903 in the OCR
+    formation_confidence: Documented
+  note: 'Era 9 row 186, Antonio Conselheiro: an army officer''s account of the war, in Portuguese.'

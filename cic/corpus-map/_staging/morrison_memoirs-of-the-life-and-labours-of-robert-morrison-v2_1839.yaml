@@ -1,0 +1,21 @@
+source_file: morrison_memoirs-of-the-life-and-labours-of-robert-morrison-v2_1839.txt
+assignments:
+- work: MEMOIRS OF THE LIFE AND LABOURS OF ROBERT MORRISON, D.D. ... compiled by his widow, with critical notices
+    of
+  author: morrison
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - the-missionary-movement-s-native-churches-seramp
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1839
+    end: 1839
+    source: 'the printing''s own title page: line 75 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1839
+    source: line 75 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 311, Liang Fa: Morrison''s Memoirs, vol. 2.'

@@ -1,0 +1,20 @@
+source_file: lindley_ti-ping-tien-kwoh-v2_1866.txt
+assignments:
+- work: TI-PING TIEN-KWOH; THE HISTORY OF THE TI-PING REVOLUTION, including a narrative of the author's personal
+  author: lindley
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - taiping-heavenly-kingdom
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1866
+    end: 1866
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n6; the OCR does not give it cleanly'
+    formation_confidence: Documented
+  edition_date:
+    year: 1866
+    source: read on the scan's page image, leaf n6; the OCR does not give it cleanly
+    formation_confidence: Documented
+  note: 'Era 9 rows 263 to 266, the Taiping leaders: Lindley, vol. 2.'

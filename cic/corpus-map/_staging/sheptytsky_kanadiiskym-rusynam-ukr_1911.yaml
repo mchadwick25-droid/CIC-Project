@@ -1,0 +1,20 @@
+source_file: sheptytsky_kanadiiskym-rusynam-ukr_1911.txt
+assignments:
+- work: КАНАДЯЙСКИМ РУСИНАМ НАПИСАВ Митрополит Андрей Шептицкий. ЖОВКВА Печатня ОО. Василиян 1911
+  author: sheptytsky
+  locus: whole text at OCR lines 15-3940; the rest not mapped
+  atlas_ids:
+  - ruthenian-greek-catholic-polotsk-to-galicia
+  role: tradition
+  confidence: provisional
+  language: ukr
+  date:
+    start: 1911
+    end: 1911
+    source: 'the printing''s own title page: line 24 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1911
+    source: line 24 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 279, Andrey Sheptytsky: his book for the Ruthenians of Canada.'
