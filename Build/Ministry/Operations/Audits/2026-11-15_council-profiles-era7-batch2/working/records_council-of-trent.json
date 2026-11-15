@@ -625,6 +625,78 @@
    "formation_confidence": "Contested"
   },
   {
+   "claim": "Sarpi says Monte, the prime legate, sang the Mass of the Holy Ghost at the opening",
+   "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.18408-18409",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Widely Accepted"
+  },
+  {
+   "claim": "Sarpi says Monte proposed the transfer in the general congregation",
+   "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.28771-28777",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Dominant Modern Reconstruction"
+  },
+  {
+   "claim": "Le Plat's list names Joannes Maria de Monte, later Julius III, and Marcellus Cervinus among the first legates",
+   "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.24417-24432",
+   "witness_kind": "acts",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Le Plat's list names Christophorus Madrucius, cardinal and bishop of Trent",
+   "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.24451-24454",
+   "witness_kind": "acts",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Sarpi says Madruzzo would not answer the residence question precisely",
+   "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.45907-45909",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Inferential-Thin"
+  },
+  {
+   "claim": "Waterworth says Lainez argued ably against the system of intrinsic and extrinsic justice",
+   "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.4898-4902",
+   "witness_kind": "modern reconstruction",
+   "formation_confidence": "Dominant Modern Reconstruction"
+  },
+  {
+   "claim": "Sarpi says Lainez spoke more than two hours that jurisdiction was given wholly to the bishop of Rome",
+   "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.54300-54305",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Inferential-Thin"
+  },
+  {
+   "claim": "Le Plat's list for 1562 names Hercules Gonzaga first among the presidents",
+   "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.25705-25711",
+   "witness_kind": "acts",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Sarpi says Mantua said the greater number demanded a declaration, and Simonetta favoured residence de jure positivo",
+   "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.45872-45877",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Inferential-Thin"
+  },
+  {
+   "claim": "Morone and Simonetta petitioned Pius IV for confirmation in consistory",
+   "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.24141-24158",
+   "witness_kind": "acts",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Giussano names Gabriel Paleotto, auditor of the Rota",
+   "witness": "giussano_life-of-st-charles-borromeo-v1_1884.txt l.4437",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Waterworth names Angelo Massarelli as secretary",
+   "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.3546-3548",
+   "witness_kind": "modern reconstruction",
+   "formation_confidence": "Documented"
+  },
+  {
    "claim": "Mirbt dates the bull 'Iniunctum nobis' and the Professio fidei Tridentinae to 13 November 1564",
    "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.19494-19498",
    "witness_kind": "modern reconstruction",
@@ -786,7 +858,7 @@
   },
   {
    "claim": "Lorraine and the acclamations",
-   "sides": "'A lightness and vanity not beseeming such a Prelate': Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.70194-70199) | Composed in the manner of the ancient councils, granting the pope a supremacy the French had disputed: Pallavicino (pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846.txt l.57627-57640)",
+   "sides": "'A lightness and vanity not beseeming such a Prelate': Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.70194-70199) | Composed in the manner of the ancient councils, seeming to grant the pope a supremacy the French had disputed: Pallavicino (pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846.txt l.57627-57640)",
    "formation_confidence": "Contested"
   },
   {
