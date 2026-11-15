@@ -129,8 +129,8 @@ Where from: Pius IV's bull says gathered "from all sides out of the nations of C
 ## 8. Outcome, through events
 
 - **Confirmation.** Consistory 26 Jan 1564: Morone and Simonetta petition; Pius IV: "We ... do confirm all and singular the things which have been decreed and defined in the said Council" (WAT l.24141-24178). Bull *Benedictus Deus* (Mirbt's title, MIRBT l.19428; English opening "Blessed be the God, and Father of our Lord Jesus Christ", WAT l.24203) forbids anyone to publish "any commentaries, glosses, annotations, scholia, or any kind of interpretation whatsoever" without papal authority (l.24341-24346), and reserves doubts to "the Apostolic See, the mistress of all the faithful" (l.24351-24354).
-- **Profession of Faith.** Bull *Iniunctum nobis* (Mirbt's date 13 Nov 1564, MIRBT l.19496): all to be set over churches must make it. Key line: "Romanoque pontifici, beati Petri apostolorum principis successori ac Iesu Christi vicario, veram obedientiam spondeo ac iuro" ("to the Roman pontiff, successor of blessed Peter prince of the apostles and vicar of Jesus Christ, I promise and swear true obedience", MIRBT l.19573-19575, my tr.). English in P4E; Latin in SCH l.18263ff.
-- **Roman Catechism.** McHugh and Callan (1923 introduction, modern): Pius V, elected 17 Jan 1566, had it revised; the first edition, "The Manutian (Rome, 1566)", printed by command of Pius V (RC l.1211-1215, 1260-1262). Giussano: Borromeo "presided over the compilation of the Roman Catechism" with theologians who had been at Trent (GIUS1 l.3786-3790).
+- **Profession of Faith.** Bull *Iniunctum nobis* (Mirbt's date 13 Nov 1564, MIRBT l.19496): all to be set over churches must make it. Key line: "Romanoque pontifici, beati Petri apostolorum principis successori ac Iesu Christi vicario, veram obedientiam spondeo ac iuro" ("to the Roman pontiff, successor of blessed Peter prince of the apostles and vicar of Jesus Christ, I promise and swear true obedience", MIRBT l.19575-19576, my tr.). English in P4E; Latin in SCH l.18263ff.
+- **Roman Catechism.** McHugh and Callan (1923 introduction, modern): Pius V, elected 17 Jan 1566, had it revised; the first edition, "The Manutian (Rome, 1566)", printed by command of Pius V (RC l.1211-1215, 1260-1262). Giussano: Borromeo "presided over the compilation of the Roman Catechism" with theologians who had been at Trent (GIUS1 l.3787-3790).
 - **Borromeo and Milan.** Giussano (hagiography): Borromeo, nephew of Pius IV, had "the special superintendence of the acts of the Council" in Rome (GIUS1 l.3653-3656). At Milan's first provincial council (Giussano's contents date it "October 15, 1565", l.1334-1336), "The decrees of the holy Council of Trent were read and formally accepted" (l.4839-4841); prelates came to "this, the first fruits of the Council of Trent" (l.4819-4820). His first seminary in Milan, St John Baptist, was "to accommodate a hundred and fifty students" (l.6467-6470). Milan's own acts quote Trent's seminary order (`borromeo_acta-ecclesiae-mediolanensis-lat_1599.txt` l.2786-2790, per the census edge; not re-read).
 - **Pius IV on seminaries** (Pallavicino, T3 l.57979-57983): he praised "come decretata per inspirazione di Dio l'instituzione de' seminarii: dicendo ch'egli voleva essere il primo a darne spontaneamente l'esempio" ("as decreed by God's inspiration the founding of seminaries, saying he wished to be the first to give the example of his own accord", my tr.).
 - **Beyond the Latin river: the Church of the East.** At session XXII (17 Sep 1562), Cardinal Amulio's letter was read: Abdisho, "Patriarch of Muzale in Assyria", had come to Rome, obeyed the pope and received confirmation; his confession of faith was read (SARPI l.51628-51660; T3 l.9548-9615). His own oath (ABD l.268-289): he could not come to the synod ("cum mihi non liceat ad Sanctam Sacram Tridentinam Synodum accedere"), but promised to teach "praecipue in ijs, quae in sancta sacra Oecumenica Tridentina Synodo terminabuntur" ("above all in what shall be settled in the holy sacred ecumenical synod of Trent", l.288-289, OCR cleaned, my tr.). The Portuguese ambassador protested that Indian sees he listed belonged under the archbishop of Goa (T3 l.9625-9630; SARPI l.51646-51650).
@@ -150,7 +150,7 @@ Where from: Pius IV's bull says gathered "from all sides out of the nations of C
 
 From the acts:
 1. "to decree and declare that the sacred and general council of Trent do begin, and hath begun ? They answered : It pleaseth us." (WAT l.12170-12173)
-2. "transmitted as it were from hand to hand" (WAT l.12419; Latin "quasi per manus traditae", MIRBT l.16566)
+2. "transmitted as it were from hand to hand" (WAT l.12419; Latin "quasi per manus traditae", MIRBT l.16569)
 3. "faith is the beginning of human salvation, the foundation, and the root of all Justification" (WAT l.13245-13246)
 4. "contrary to its intention, It irritated rather than calmed the minds of many" (WAT l.17323)
 5. "that so this college may be a perpetual seminary of ministers of God" (WAT l.19937-19938)
@@ -209,7 +209,7 @@ The census entries mentioning Trent (excerpt file) and their statements:
 - `the-society-of-jesus` relationsSummary: "Its theologians spoke at the Council of Trent" — AGREES: IGN-L l.5842-5845 (editors: Laynez and Salmeron "appointed to be the theologians of the Pope by Paul III", arrived 18 May 1546); SARPI l.54172-54175 and l.54300ff. (Lainez's long speech, Oct 1562). Edge `the-society-of-jesus--the-tridentine-church`: "Laínez argued there against a two-part view of justification, and the council's decree ruled it out" — AGREES with Waterworth's essay (WAT l.4900-4902, 4973-4975), a modern editor; the canons themselves do not name Seripando.
 - `ignatius-of-loyola`: "orders for his men at the Council of Trent in 1546" — AGREES (IGN-L l.3953-3957, "Rome, first months, 1546. Instructions for the Journey to Trent").
 - `tridentine-parish-renewal-borromean-milan`: "From 1565 Borromeo set about ..." and edge: first provincial council 1565 — AGREES (GIUS1 l.1334-1336, "October 15, 1565"; l.4839-4841).
-- `church-of-the-east-schism-of-1552`: "'Abdisho' IV Maron, who went to Rome himself in 1562 and had his profession of faith read at the Council of Trent" — READ at Trent: AGREES (SARPI l.51628-51660; T3 l.9548-9615). WENT TO ROME IN 1562: DIFFERS slightly. Amulio's letter of August 1562 says he came to Rome "anno superiore" (the year before, ABD l.109, OCR "ann6 Juperiore"), and stayed "per multos non solum dies, verum etiam menses" (l.110-111); his profession is dated 7 March 1562 (l.209). So the held print puts his arrival in 1561. "Maron" is not in any held Trent line (the print names him "Abdisu filius Ioannis de domo Marta/Mattia", l.250, OCR unsure). Don't change the census; flag.
+- `church-of-the-east-schism-of-1552`: "'Abdisho' IV Maron, who went to Rome himself in 1562 and had his profession of faith read at the Council of Trent" — READ at Trent: AGREES (SARPI l.51628-51660; T3 l.9548-9615). WENT TO ROME IN 1562: DIFFERS slightly. Amulio's letter of August 1562 says he came to Rome "anno superiore" (the year before, ABD l.109, OCR "ann6 Juperiore"), and stayed "per multos non solum dies, verum etiam menses" (l.111-112); his profession is dated 7 March 1562 (l.209). So the held print puts his arrival in 1561. "Maron" is not in any held Trent line (the print names him "Abdisu filius Ioannis de domo Marta/Mattia", l.250, OCR unsure). Don't change the census; flag.
 - Edge `the-tridentine-church--lutheran-wittenberg...`: Trent "ruled on how sinners are made right with God. Its English translator says one key chapter aims mainly at Luther's errors" — AGREES (WAT l.4970-4973, essay).
 - Edge `hieronymian-ascetic-literary--the-tridentine-church`: Vulgate declared authentic in 1546 — AGREES (WAT l.12478-12483).
 - Edge `the-tridentine-church--the-anabaptist-movements`: March 1547 canon against rebaptism, not naming Anabaptists — AGREES (WAT l.14055-14057, 14242-14246, per census; consistent with session VII header).
@@ -218,7 +218,7 @@ The census entries mentioning Trent (excerpt file) and their statements:
 - Councils-scan row: "it defined doctrine against the Protestants and reformed bishops and seminaries for the Latin river" — AGREES; add that its reach went east (Abdisho) and that MANSI35 holds papal and conciliar documents the row does not list.
 
 **Census gaps** (parties at the council with no census tradition at the date):
-- The St Thomas Christians / Indian sees named in Abdisho's oath (ABD l.262-268: "In India vero Lusitanis subiecta, Cuschin Metropolis, Cananor Metropolis ...") and in the Portuguese protest (T3 l.9621-9630): `st-thomas-christians-under-portuguese-pressure-d` starts 1599. Gap at 1562.
+- The St Thomas Christians / Indian sees named in Abdisho's oath (ABD l.266-268: "In India vero Lusitanis subiecta, Cuschin Metropolis, Cananor Metropolis ...") and in the Portuguese protest (T3 l.9621-9630): `st-thomas-christians-under-portuguese-pressure-d` starts 1599. Gap at 1562.
 - Strasbourg and "five Cities more" sent envoys in 1551 (SARPI l.35957-35958): no separate census entry; they would sit under the Lutheran or Reformed entries (unsure which).
 - The French church (Lorraine and the French bishops, the Parliament's refusal) has no separate Gallican entry in era 7; it sits inside `the-tridentine-church`.
 - Spanish, Portuguese and imperial (German Catholic) bishops: all inside `the-tridentine-church`; no gap.
@@ -231,7 +231,7 @@ Verdicts from Who_Scan_Era7.md unless said. Ids only where a census person entry
 |---|---|---|
 | Paul III | STORY (scan l.211) | Called it: bull of indiction 1542 (WAT l.11654-12143); *Laetare Jerusalem* 1544 (MANSI35 l.35612-35917) |
 | Julius III (as Cardinal Del Monte, first legate) | NOT SCORED | First legate 1545-47: sang the opening Mass (SARPI l.18409; P1 l.35100); proposed the transfer (SARPI l.28776); as pope recalled the council 1550-51 (WAT l.14821) |
-| Marcello Cervini (Santa Croce), legate | NOT SCORED | Legate 1545-47 (WAT l.12966-12968; WAT-LISTS l.24427-24432) |
+| Marcello Cervini (Santa Croce), legate | NOT SCORED | Legate 1545-47 (WAT l.12967-12969; WAT-LISTS l.24427-24432) |
 | Reginald Pole, legate | LISTED (scan l.286) | Legate at the opening; "Recessit ante quintam sess." (WAT-LISTS l.24436-24443) |
 | Cristoforo Madruzzo, cardinal of Trent | NOT SCORED | Host bishop; present at opening (P1 l.35132); would not answer the 1562 residence vote directly (SARPI l.45907-45909; P2 l.47463-47466) |
 | Pedro Pacheco, cardinal | NOT SCORED | Led the opposition to the transfer (SARPI l.28875; P2 l.5565-5566) |
@@ -248,7 +248,7 @@ Verdicts from Who_Scan_Era7.md unless said. Ids only where a census person entry
 | Charles V | NOT SCORED | Pressed for the council and for the Protestants' hearing; opposed the transfer (WAT l.11901-11903; SARPI l.29640-29646, his envoys to the fathers at Bologna) |
 | Ferdinand I | NOT SCORED | Envoys at the opening (P1 l.35135; WAT l.3538); acclaimed at the close (WAT l.24055-24060) |
 | Pius IV | STORY (scan l.213) | Recalled it 1560 (WAT l.17362-17514); confirmed it 26 Jan 1564 (WAT l.24141-24400); Profession 1564 (MIRBT l.19494ff.) |
-| Ercole Gonzaga, legate | NOT SCORED | First legate 1562; died at Trent March 1563 (GIUS1 l.3633-3636, editor's note); took the residence dispute's side, by Sarpi (l.45875-45878) |
+| Ercole Gonzaga, legate | NOT SCORED | First legate 1562 (WAT-LISTS l.25707-25711); died at Trent March 1563 (GIUS1 l.3635-3636, editor's note); in the residence dispute said "the greater number did demand a declaration", "without manifesting his own opinion" (SARPI l.45875-45877) |
 | Ludovico Simonetta, legate | NOT SCORED | Favoured residence "de jure positivo" (SARPI l.45872-45874); petitioned for confirmation (WAT l.24144-24158) |
 | Giovanni Morone, first legate 1563 | NOT SCORED | Closed the council: "go in peace" (WAT l.24021-24024); petitioned for confirmation (l.24144-24158) |
 | Charles, Cardinal of Lorraine | NOT SCORED | Composed and led the acclamations (WAT l.24035ff.; T3 l.57627-57630; SARPI l.70195-70199) |
@@ -256,11 +256,11 @@ Verdicts from Who_Scan_Era7.md unless said. Ids only where a census person entry
 | Antonio Agustín, bishop of Lérida | NOT SCORED | Asked confirmation "as necessary" (T3 l.57603-57604); his residence vote added to the affirmative (P2 l.47554-47555) |
 | Count of Luna (Claudio Fernández de Quiñones) | NOT SCORED | Spanish ambassador; would sign only with the king's consent reserved (T3 l.57720-57723; MANSI35 l.39569-39575) |
 | Angelo Massarelli | NOT SCORED | Secretary; certified the acts (WAT l.24123-24124; essay l.3546-3548) |
-| Gabriele Paleotti (Paleotto) | NOT SCORED | Auditor; eye-witness account of the close quoted by Waterworth (WAT l.11159-11161); sent by Pius IV (GIUS1 l.4436-4440) |
+| Gabriele Paleotti (Paleotto) | NOT SCORED | Auditor; eye-witness account of the close quoted by Waterworth (WAT l.11159-11161); sent by Pius IV (GIUS1 l.4436-4439) |
 | Charles Borromeo | WHO (scan l.135) | In Rome, oversaw the council's business for Pius IV (GIUS1 l.3653-3663); carried out its decrees in Milan (GIUS1 l.4839-4841, 6440-6470) |
 | Pius V | STORY (scan l.212) | Issued the Roman Catechism, 1566 (RC l.1211-1215, 1260-1262) |
 | Abdisho IV, patriarch | STORY (scan l.236) | Swore to receive Trent's decrees; his profession read at session XXII (ABD l.250-289; T3 l.9548-9615) |
-| Marcantonio Amulio, cardinal | NOT SCORED | Sent Abdisho's profession to the legates (ABD l.61-171); urged confirmation by Sarpi's account (SARPI l.70378ff.) |
+| Marcantonio Amulio, cardinal | NOT SCORED | Sent Abdisho's profession to the legates (ABD l.98-178); urged confirmation by Sarpi's account (SARPI l.70378ff.) |
 | John Calvin (id: john-calvin) | WHO | Refused; wrote against it (CAL1 l.20092-20096; CAL2 l.6687, 14473-14476) |
 | John Jewel | WHO (scan l.101) | Refused for England; wrote against it in 1562 (JEWEL-E l.3590-3593; JEWEL-L l.5555ff.) |
 | Martin Luther (id: martin-luther) | WHO | Not present (died 1546, not in a held Trent line); his teaching is the target by Waterworth's reading (WAT l.4970-4973), not named in the canons. Include only if the drafter says so. |
@@ -269,7 +269,7 @@ Writers who only report it (witnesses, not people on the click): Sarpi (scan l.1
 ## 16. Traditions touched (census ids at the date)
 
 **Gathered**
-- `the-tridentine-church` (1517-1650): the council's own body. "the sacred and holy, oecumenical, and general Synod of Trent" (WAT l.12398-12399).
+- `the-tridentine-church` (1517-1650): the council's own body. "the sacred and holy, oecumenical, and general Synod of Trent" (WAT l.12400-12401).
 - `the-society-of-jesus` (1540-1650): Lainez and Salmerón as the pope's theologians (IGN-L l.5842-5845).
 
 **Condemned**
@@ -278,7 +278,7 @@ Writers who only report it (witnesses, not people on the click): Sarpi (scan l.1
 - `the-anabaptist-movements` (1525-1650): the canon against rebaptism, 1547 (census edge; WAT l.14242-14246).
 
 **Refused**
-- `lutheran-wittenberg-and-its-congregations`: the 1552 envoys refused the safe-conduct as offered (SARPI l.34722-34730; WAT l.6698-6705).
+- `lutheran-wittenberg-and-its-congregations`: the 1552 envoys refused the safe-conduct as offered (SARPI l.34722-34730; WAT l.6704-6712).
 - `the-reformed-cities-zurich-and-geneva`: "We may accordingly remain at home." (CAL2 l.14475-14476).
 - `the-english-reformation-and-elizabethan-settleme` (1530s-1650): "we have not tarried for ... the authority or consent of the Tridentine council" (JEWEL-E l.3589-3590).
 
