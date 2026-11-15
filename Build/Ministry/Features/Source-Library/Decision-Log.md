@@ -744,9 +744,14 @@ the Georgian chronicles), and the Pedalion and the two Synaxaristes left the Ott
 difference. The `library` path filter now also fires on `world-census.json` and `corpus-coverage.json`, since a
 census change alone had been enough to make the file stale.
 
+The enforced commentary check failed on one rights line the feed copies from a vendored header: the Hadewijch 1875
+edition's header named Mark's ruling. On the coordinator's direction the sentence is reworded on its own line
+(no line numbers moved), the generated `cic/texts/README.md` row is regenerated, and no other header carries the
+cue.
+
 **Not done.** The generator is unchanged.
 
 ### Next action
 
 A Library batch runs `python cic/engine/corpus_coverage.py` after its last map or text change, and commits the
-result, before its pull request.
+result, before its pull request, then runs `tools/check_live_commentary.py --base origin/main --enforce`.
