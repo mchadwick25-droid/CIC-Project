@@ -1307,8 +1307,8 @@
    {
     "claim": "The year of the raid",
     "sides": [
-     "The Acts: AM 6288 by the church reckoning, AD 788, indiction 5 (AASS l.50556-50557, l.50600-50607; Greek l.229190-229198)",
-     "The Bollandists: 797, the year of the fifth indiction, in the volume's essay on Theophanes (AASS l.2736-2750), its chronological index (l.9493) and their margin, which has Stephen writing just after Easter of 797 (l.50373-50387); one figure in their commentary reads DCCXCVI, 796, in the scan, and the passage goes on to add one year to reach the fifth indiction (l.50454-50460); their note e puts Christopher's death in 789 (scan 189), seven years before, and names no year for the twenty; seven years after 789 is 796 (l.53478-53480)",
+     "The Acts: AM 6288 by the church reckoning, AD 788, indiction 5 (AASS l.50556-50557, l.50600-50624; Greek l.229190-229198)",
+     "The Bollandists: 797, the year of the fifth indiction, in the volume's essay on Theophanes (AASS l.2736-2750), its chronological index (l.9493) and their margin, which has Stephen writing just after Easter of 797 (l.50373-50387); one figure in their commentary reads DCCXCVI, 796, in the scan, and the passage goes on to add one year to reach the fifth indiction (l.50454-50460); their note e puts Christopher's death in 789 (scan 189), seven years before the twenty's passion, and names no year for the twenty (l.53478-53480)",
      "Georg Graf, 1910: March 796 or 797 (GRAF l.645-647)"
     ]
    },
@@ -1953,7 +1953,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Faymiyun's story is Wahb ibn Munabbih's, through al-Mughira ibn Abi Labid: \"ein frommer, eifriger Christ\", \"ein Zimmermann und Maurer\", later sold as a slave in Najran; \"Diess ist die Tradition des Wahb Ibn Munabbah, nach dem Berichte der Bewohner von Nadjran\"",
+    "claim": "Faymiyun's story is Wahb ibn Munabbih's, through al-Mughira ibn Abi Labid: \"ein frommer, eifriger Christ\", \"ein Zimmermann und Maurer\", later sold as a slave in Najran; \"Diess ist die Tradition des Wahb Ibn Munabbah, nach dem Berichte der Bewohner von Nadjran\" (scan \"Ihn\")",
     "witness": "WEIL (ibn-ishaq_leben-mohammeds-nach-ibn-hischam-deu_weil1864.txt), l.993-1001, l.1066-1067, l.1092-1093",
     "formation_confidence": "Documented"
    },
@@ -2008,7 +2008,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "\"Empörung der Abissynier gegen den Nadjaschi\" (scan \"EmpSrnng ... Nadjascbi\"), from Djafar I. Mohammed after his father: the Abyssinians said \"Du hast Dich von unserm Glauben losgesagt\"; the Negus wrote \"ich bekenne, dass es keinen Gott gibt ausser Gott, dass Mohammed sein Diener ist und sein Gesandter, dass Jesus sein Diener ist und sein Gesandter und sein Geist und sein Wort\" (l.9573-9576); he put the paper in \"die rechte Seite seines Oberkleids\" (l.9577-9578); the Abyssinians: \"Du hast unsern Glauben verlassen und Jesus einen Diener genannt\" (scan \"onsem\"), \"Wir sagen, er ist Gottes Sohn\" (l.9589-9591); he laid \"seine Hand auf die Brust\" and said \"ich bekenne, dass Isa, der Sohn Mariams nichts Anderes als diess war, er meinte damit, als in der Schrift, auf welche er seine Hand gelegt, ausgesprochen war\" (l.9591-9594); \"Die Abissynier gaben sich aber zufrieden, und giengen auseinander\" (l.9594-9595)",
+    "claim": "\"Empörung der Abissynier gegen den Nadjaschi\" (scan \"EmpSrnng ... Nadjascbi\"), from Djafar I. Mohammed after his father: the Abyssinians said \"Du hast Dich von unserm Glauben losgesagt\"; the Negus wrote \"ich bekenne, dass es keinen Gott gibt ausser Gott, dass Mohammed sein Diener ist und sein Gesandter, dass Jesus sein Diener ist und sein Gesandter und sein Geist und sein Wort\" (l.9573-9576); he put the paper in \"die rechte Seite seines Oberkleids\" (l.9577-9578); the Abyssinians: \"Du hast unsern Glauben verlassen und Jesus einen Diener genannt\" (scan \"onsem\"), \"Wir sagen, er ist Gottes Sohn\" (l.9588-9591); he laid \"seine Hand auf die Brust\" and said \"ich bekenne, dass Isa, der Sohn Mariams nichts Anderes als diess war, er meinte damit, als in der Schrift, auf welche er seine Hand gelegt, ausgesprochen war\" (l.9591-9594); \"Die Abissynier gaben sich aber zufrieden, und giengen auseinander\" (l.9594-9595)",
     "witness": "WEIL (ibn-ishaq_leben-mohammeds-nach-ibn-hischam-deu_weil1864.txt), l.9565-9597",
     "formation_confidence": "Documented"
    },
