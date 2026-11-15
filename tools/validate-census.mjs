@@ -600,6 +600,42 @@ function checkPlaceLabel(label, entry) {
     if (!parts.includes(c?.place)) errs.push(`${label}: modern country "${c?.country}" comes from "${c?.place}", which is not on the place label`);
   }
 }
+// --- story cards: reader text only, never an identifier or a builder's note ---
+// A story card shows its title, teaser, text, caveat and "How it connects" line to visitors.
+// None of them may carry a census or story id; a tradition is named by its name. The
+// "How it connects" line also may not talk about the data: records, entries, rows, lanes,
+// placement or what a record does or does not name.
+const STORY_TEXT_FIELDS = ["title", "teaser", "text", "caveat", "relationsSummary"];
+const STORY_BUILDER = [
+  /\b(that|this|its|whose|neither|either|each|both|these|those|movement|own|no) records?\b/i,
+  /\brecords? (sits?|begins?|starts?|ends?|stops?|opens?|names?|mentions?|describes?|notes?|says?|lists?|records?|traces?|credits?)\b/i,
+  /\b(entry|entries|row|rows|lane|lanes|census|slug|drafted|coverage|story marker)\b/i,
+  /\bplaced (at|here|with|on)\b/i,
+  /\b(the|this|in the) file\b/i,
+  /\brecorded (on|in) (this|the) map\b/i,
+  /\bmap exists\b/i,
+  ...INTERNAL_NOTE,
+];
+function checkStoryText(stories) {
+  const ids = new Set([
+    ...(d.movements ?? []).map(m => m.id),
+    ...(d.retiredMovements ?? []).map(m => m.id),
+    ...(d.edges ?? []).map(e => e.id),
+    ...stories.map(s => s.id),
+  ].filter(Boolean));
+  for (const s of stories) {
+    for (const f of STORY_TEXT_FIELDS) {
+      const t = s[f];
+      if (typeof t !== "string") continue;
+      for (const tok of t.match(/[a-z0-9]+(?:-{1,2}[a-z0-9]+)*/g) ?? [])
+        if (ids.has(tok) || tok.includes("--")) errs.push(`story ${s.id}: ${f} shows the id "${tok}"; name it in words`);
+    }
+    const r = s.relationsSummary;
+    if (typeof r === "string")
+      STORY_BUILDER.forEach(rx => { if (rx.test(r)) errs.push(`story ${s.id}: relationsSummary carries a builder's note (${rx})`); });
+  }
+}
+
 (d.movements ?? []).forEach(m => checkPlaceLabel(m.id, m));
 if (atlasPath) {
   const html = readFileSync(atlasPath, "utf8");
@@ -607,7 +643,9 @@ if (atlasPath) {
   const open = html.indexOf("[", at);
   let depth = 0, end = open;
   for (; end < html.length; end++) { if (html[end] === "[") depth++; else if (html[end] === "]" && --depth === 0) break; }
-  JSON.parse(html.slice(open, end + 1)).forEach(s => checkPlaceLabel(`story ${s.id}`, s));
+  const stories = JSON.parse(html.slice(open, end + 1));
+  stories.forEach(s => checkPlaceLabel(`story ${s.id}`, s));
+  checkStoryText(stories);
   checkRiverOrigins(html);
 }
 

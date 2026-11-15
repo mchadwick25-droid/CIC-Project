@@ -1,0 +1,11 @@
+source_file: mott_decisive-hour-of-christian-missions_1910.txt
+assignments:
+- row_id: mott_decisive-hour-of-christian-missions_1910--mott-the-decisive-hour-of-christian-missions
+  work: 'Mott, The Decisive Hour of Christian Missions'
+  author: mott
+  locus: 'whole'
+  atlas_ids:
+  - the-student-volunteer-movement-and-edinburgh-191
+  role: tradition
+  confidence: assigned
+  note: 'His own book, its preface dated at Edinburgh in June 1910.'

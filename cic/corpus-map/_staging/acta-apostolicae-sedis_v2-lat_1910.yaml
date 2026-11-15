@@ -1,0 +1,11 @@
+source_file: acta-apostolicae-sedis_v2-lat_1910.txt
+assignments:
+- row_id: acta-apostolicae-sedis_v2-lat_1910--acta-apostolicae-sedis-volume-2-1910-sacrorum-antistitum-and
+  work: 'Acta Apostolicae Sedis, volume 2 (1910): Sacrorum antistitum and the oath against modernism'
+  author: acta-apostolicae-sedis
+  locus: 'Sacrorum antistitum, lines 34631-35792; the oath, lines 35286-35399'
+  atlas_ids:
+  - the-catholic-church-pius-x-to-the-council
+  role: tradition
+  confidence: assigned
+  note: 'Rome''s own Latin texts as first printed in 1910.'

@@ -1,0 +1,11 @@
+source_file: rauschenbusch_theology-for-the-social-gospel_1917.txt
+assignments:
+- row_id: rauschenbusch_theology-for-the-social-gospel_1917--rauschenbusch-a-theology-for-the-social-gospel
+  work: 'Rauschenbusch, A Theology for the Social Gospel'
+  author: rauschenbusch
+  locus: 'whole'
+  atlas_ids:
+  - the-social-gospel
+  role: tradition
+  confidence: assigned
+  note: 'His own book, first printing.'

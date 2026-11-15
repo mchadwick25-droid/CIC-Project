@@ -1,0 +1,11 @@
+source_file: aglipay_catequesis-de-la-iglesia-filipina-independiente-spa_1912.txt
+assignments:
+- row_id: aglipay_catequesis-de-la-iglesia-filipina-independiente-spa_1912--aglipay-catequesis-de-la-iglesia-filipina-independiente-1912
+  work: 'Aglipay, Catequesis de la Iglesia Filipina Independiente (1912)'
+  author: aglipay
+  locus: 'whole'
+  atlas_ids:
+  - philippine-independent-church-twentieth-century
+  role: tradition
+  confidence: assigned
+  note: 'The church''s own catechism by its head bishop, in Spanish.'

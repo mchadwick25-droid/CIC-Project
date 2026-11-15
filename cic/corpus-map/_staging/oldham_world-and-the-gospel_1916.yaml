@@ -1,0 +1,11 @@
+source_file: oldham_world-and-the-gospel_1916.txt
+assignments:
+- row_id: oldham_world-and-the-gospel_1916--oldham-the-world-and-the-gospel
+  work: 'Oldham, The World and the Gospel'
+  author: oldham
+  locus: 'whole'
+  atlas_ids:
+  - the-student-volunteer-movement-and-edinburgh-191
+  role: tradition
+  confidence: assigned
+  note: 'His own book of 1916.'

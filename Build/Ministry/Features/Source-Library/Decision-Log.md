@@ -584,6 +584,42 @@ one at a time. Mark's picked option is in quotes.
 HathiTrust item are in the Church Family Tree `Open-Gaps.md`.
 
 **Not done.** No text vendored, no file header edited, no letter sent. The nine Church in
+## 2026-11-15 — Era 10, batch 1: the major people, the conferences and the Acts to 1930
+
+**Done.** 94 files (10,208,969 words) for the era 10 wants, under the rights rulings of 2026-11-15. The files, their
+rights bases and the rows not filled are in `CFT-Wants.md` ("Era 10 ... batch 1"). The search record, the refused
+hosts and the cautions for writers are in `Build/Ministry/Operations/Audits/2026-11-15_library-era10/Search_Log.md`.
+
+**Decided during the batch.**
+
+- **R12, a title page with no year (Mark, 2026-11-15: "Copyright notice yes, preface with a check").** Where a title
+  page prints no year, a copyright notice dated 1930 or earlier counts. A dated preface counts only when the library
+  catalog's date agrees. The header records the date used and where it was found. The ruling came with the Library
+  threads' briefs and is recorded here and in `cic/texts/INTAKE.md` section 2. Nineteen files of this batch rest on it.
+- **The Dictionary of African Christian Biography is CC BY-NC (Mark, through the coordinator, 2026-11-15).** R2 was
+  made on the site footer's words, "openly licensed via CC BY 4.0". The site's usage page
+  (https://dacb.org/about/usage/) says: "DACB is licensed under a Creative Commons Attribution-NonCommercial 4.0
+  International License ... Posting on websites containing advertising and all other commercial uses require the
+  express written consent of the DACB." R2's line on the dictionary is superseded by R3: cite and link, nothing held.
+- **The Catholic Worker: "Original paper scans only" (Mark, through the coordinator, 2026-11-15).** The owner's
+  sentence, "Content from The Catholic Worker paper is not copyrighted", stands on a page that also puts the site's
+  content under a non-commercial license. Scans of the printed paper are taken on the sentence; the site's own
+  transcriptions are cite and link. Held so far: the issue of June 1969, and Maurin's Catholic Radicalism (1949),
+  whose own title-page verso says its contents are not copyrighted.
+- **A year printed only inside the work's title (coordinator, 2026-11-15; Mark may overrule).** Taken where the
+  publisher and place on the title page are the first printing's, nothing in the scan names a later printing, and the
+  library catalog date agrees. Eleven files: the Edinburgh 1910 report, Lambeth 1930, the Shanghai report of 1922.
+- **A permission notice on a library's film (this thread, under the base rule).** Loisy's L'Évangile et l'Église
+  (1902) exists only as a scan of a Columbia University preservation film whose target reads "Reproductions may not be
+  made without permission from Columbia University Library". Not taken; held for Mark.
+- **R7, first uses.** Niebuhr's Moral Man and Immoral Society (copyright 1932) is held: no renewal in either database.
+  Houteff's Shepherd's Rod, volume 2 (1932) is not held: renewed in 1959.
+- **The registry accepts "Owner-declared free" (Mark, through the coordinator, 2026-11-15: "Allow it
+  (Recommended)").** `cic/engine/texts_registry.py` clears a Rights line that begins with those words, the class
+  `cic/texts/INTAKE.md` section 2 names.
+
+**Not done.** The Azusa Street paper, the African-Initiated Churches people, Rātana, the Russian council's own prints
+and most Orthodox patriarchs have no held source: the reasons are row by row in `CFT-Wants.md`. The nine Church in
 Conversation design questions (D1 to D9) stay open.
 
 ### Next action
@@ -722,3 +758,5 @@ Ninety-nine files for the 63 person rows marked major in the wanted list (rows 1
 
 Era 9, batch 2, in a fresh session: the person rows not marked major (226-330), the era 9 outside witnesses and
 council records, the held eras 8-9 items, and the texts of this batch still owed a date check.
+Era 10, batch 2: a second pass by region for the rows marked not found (Africa, Oceania, the Orthodox churches), more
+original scans of the Catholic Worker paper, and the council leads not yet searched.
