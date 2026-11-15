@@ -369,6 +369,11 @@
     "formation_confidence": "Documented"
    },
    {
+    "claim": "The Life: sent to the Praetorium \"ut secundum leges judicium Subiret, eo quod imperatoris imaginem coulra leges conculcasset\" (scan: \"coulra\")",
+    "witness": "PG100 l.95739-95742",
+    "formation_confidence": "Documented"
+   },
+   {
     "claim": "Eleven months in the Praetorium; the emperor rises at the second hour, rushes out \"in imperatoria vestibula exsiliens\" and meets revellers going to the feast in the empress's honor; he: \"Non sum ego imperator. Alius vester imperator est ... Stephanus Auxentii\"; a crowd runs to the prison; \"Ego sum, quem quzritis\"; ropes tied between the chains on his feet; dragged into the public street; Philomates kills him with a pole from the fire siphons; body thrown into the pit of pagans and the condemned, \"ubi uimirum saneti martyris Pelagii\" \"lemplum olim erat, quod cum lapsum\"; Constantine had made the ruin a tomb of the condemned (\"pulcrum effecit, Pelagiique titulo insignivit\")",
     "witness": "PG100 l.96041-96043, l.96915-96984, l.97169-97190, l.97176-97190",
     "formation_confidence": "Documented"
@@ -418,7 +423,7 @@
    {
     "claim": "Why he was killed",
     "sides": [
-     "The Life: for refusing the council's ruling and defending the images (PG100 l.92841-92857, l.95646-95732)",
+     "The Life: for refusing the council's ruling and defending the images (PG100 l.92841-92857, l.95646-95732); sent to the Praetorium to be tried for trampling the emperor's image (PG100 l.95739-95742)",
      "Theophanes: accused of urging many to the monastic life and to despise court honors and riches (THEO l.78713-78715)",
      "Nikephoros's Short History: accused of drawing people from homes, kin and palaces to the monastic life (PG100 l.81484-81488)"
     ]
@@ -569,7 +574,7 @@
    },
    {
     "claim": "Goar: Nikephoros restored Joseph \"ut imperatoris gratiam iniret\"",
-    "witness": "THEO Goar's note 22 l.87278-87282",
+    "witness": "THEO Goar's note 22 l.87280-87284",
     "formation_confidence": "Contested"
    },
    {
@@ -671,7 +676,7 @@
     "claim": "Why Nikephoros accepted Joseph",
     "sides": [
      "Sirmond chronology: inexperienced and fearing the emperor (PG99 l.5638-5645)",
-     "Goar: to win the emperor's favor (THEO l.87278-87282)"
+     "Goar: to win the emperor's favor (THEO l.87280-87284)"
     ]
    },
    {

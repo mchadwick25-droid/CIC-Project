@@ -3431,3 +3431,9 @@ Round 3 found 1 blocking and 29 minor points, and the cap ruling above settles t
 **What is still open.** Open-Gaps 269, "Era 4 Who batch 9" (2026-11-15).
 
 The approved files are in `Who-Profiles/era4/batch9/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-15_who-profiles-era4-batch9/`. No census, record or site change is made, so there is no data release number. Approved to proceed (coordinator, 2026-11-15; Mark may overrule).
+
+## 2026-11-15 — Who profile length: 2:00 restated, longer only when earned (Mark, 2026-11-15)
+
+**Decided (Mark, 2026-11-15, relayed by the coordinator).** Mark picked, from options, "2:00 for all, earn more (Recommended)". The option read: "Every brief, major or not, aims at 2:00 (about 325 words). It may run to 2:15, or 2:30 for a major or a pair, only when the README says which scene or source would be lost at 2:00. The coordinator also keeps majors scarce, about 1 to 3 per batch." His concern: "we were making exceptions for 2 minutes now we are consistantly pushing 2:30". He then added: "its not a new rule it has always been the rule and it was forgotten".
+
+**What follows.** This is a restatement, not a new rule. It restores the 2:00 of `Who_Profile_Pattern.md` and of the 2026-11-14 ruling "as the pattern says" (Decision-Log, "Who profile length: non-majors to 2:00 from the next batch, and era 4 batch 7 kept as written", 2026-11-14), after briefs drifted to the 2:30 cap and 2:15 became usual. A brief is tightened by writing it tighter, never by stopping a story halfway (Mark, 2026-11-14: "hold to two without cutting off"). It applies from the next batch. Era 4 batch 10 was mid-review, and the coordinator ruled that its seven briefs aim at 2:00 now, with a README line for any that run longer.
