@@ -1,25 +1,52 @@
 # Handover: Library era 10, after batch 2 (2026-11-15)
 
 Written by the era 10 Library thread, batch 2 (session_01JMNsS9o1TTspeWP2qjkoqP), for a fresh session. The coordinator
-is session_01JMNsSADg2CkWvhgudEDKFw (the Church Family Tree coordinator; it took over during this batch). Read
+is session_01JMNsSCBTsM2UVaFpDa3BTF (the Church Family Tree coordinator; the role changed hands twice during this batch). Read
 `CLAUDE.md` first, then batch 1's handover and Search_Log
 (`Build/Ministry/Operations/Audits/2026-11-15_library-era10/`), then this folder's `Search_Log.md`.
 
 ## Where things stand
 
-- Batch 2: 71 files, 4,273,101 words, branch `claude/library-era10-b2`. Records: `CFT-Wants.md` ("Era 10 ... batch
+- Batch 2: 71 files, 4,273,101 words, branch `claude/library-era10-b2`, not yet in a pull request and not merged. Records: `CFT-Wants.md` ("Era 10 ... batch
   2"), `Decision-Log.md` (last entry), this folder's `Search_Log.md` (34 cautions), `Hand_Fetch_List.md` (20 items for
   Mark), `R1_review.md`, `R1_changes.md`, `R2_recheck.md`.
 - Batch 1's twelve `needs-ruling` shelf rows are settled by the shelf principle. None is left.
 - No further scan of the New York Catholic Worker is on archive.org.
 
-## Two additions from Mark, through the coordinator, late in this batch
+## To finish this batch (first thing for the fresh session)
+
+The coordinator is now session_01JMNsSCBTsM2UVaFpDa3BTF (the second handover in this batch; each was confirmed by the
+session standing down). It told this session to stop at a clean point and not to open a pull request.
+
+State of the branch `claude/library-era10-b2` at the stop: everything is committed and pushed; `origin/main` was merged
+in at 462e6e35 (the registry and queue conflicts were resolved by keeping both sides; no duplicate entries); review
+round 1 (`R1_review.md`, four small blocking findings) is answered in `R1_changes.md`; round 2 (`R2_recheck.md`) is a
+PASS. Two review rounds are used of three.
+
+Still to do, in order:
+
+1. Fetch `origin/main` and merge it in again if it has moved. If it has, run `python cic/engine/corpus_map_merge.py`
+   and regenerate `cic/texts/README.md` (`python cic/engine/texts_registry.py --write-readme`) and
+   `cic-website/data/corpus-coverage.json` (`python cic/engine/corpus_coverage.py`), and commit them.
+2. Run every check and read each one's own exit code: `corpus_map_merge.py --check`, `corpus_index.py --build`,
+   `works_registry.py --check`, `author_ids.py --check`, `texts_registry.py --check`,
+   `tests_corpus_index.py --reuse-index`, `tests_corpus_structure.py`, `tests_passage_index.py`, `tests_corpus_map.py`
+   (all under `cic/engine/`), then `python tools/check_live_commentary.py --base origin/main --enforce` and
+   `python tools/check_spelling.py --base origin/main --enforce`. At the stop, on the merged state, the README
+   regeneration, the coverage file and `corpus_map_merge.py --check` had passed; the index build and the checks after
+   it had not finished. Before the merge of main, the commentary check and the spelling check passed.
+3. Open one draft pull request, push once, mark it ready. Send the coordinator one line and wait for its go; it gives
+   the Open-Gaps number. Add the Open-Gaps entry (what stays unfilled, what is held for Mark, the census gaps below).
+4. After merging: send the table, the cautions and the open calls to the coordinator and to the Church in
+   Conversation "Answering from Sources" thread (session_01JMNsSD4wzPQYRHkAq6uKE3).
+
+## Two additions, through the coordinator, late in this batch
 
 They came when this session was near its context cap, so they are handed on whole.
 
-1. **"each of them are vendering all the sources they find into the library".** Every source found that passes the
-   rights rule goes into `cic/texts/` with its header, registry entry and shelf rows. Nothing stays "located, not yet
-   taken". Only rights failures (logged with the reason) and hand-fetch items stay out.
+1. **Vendor what passes.** Mark said of the Library threads: "each of them are vendering all the sources they find
+   into the library". The coordinator's later word is that this was a statement of fact, not a rule. The work it
+   points to is the list under "The follow-on" below: sources this batch found and dated and did not take.
 2. **The "Texts to fetch, by era" list** on the coordinator's page (https://claude.ai/artifact/DAZgxvjPbCyAjzYadhREMW).
    Mark: "the whole point of the library threads was to build the library so we can do our writing". Its era 10 rows
    are extracted in `Fetch_Rows_Era10.md` here: 408 rows, every one "named from memory, not confirmed". List A (128
