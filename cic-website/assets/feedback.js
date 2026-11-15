@@ -269,7 +269,7 @@
 
   function setLiked() {
     likeBtn.setAttribute('aria-pressed', 'true');
-    likeBtn.disabled = true;
+    likeBtn.setAttribute('aria-disabled', 'true');
   }
 
   try {
@@ -277,13 +277,13 @@
   } catch (e) {  }
 
   likeBtn.addEventListener('click', function () {
-    if (likeBtn.disabled) { return; }
-    likeBtn.disabled = true;
+    if (likeBtn.getAttribute('aria-disabled') === 'true') { return; }
+    likeBtn.setAttribute('aria-disabled', 'true');
     post({ kind: 'like', page: PAGE }).then(function () {
       setLiked();
       try { window.localStorage.setItem(LIKE_KEY, '1'); } catch (e) {  }
     }).catch(function () {
-      likeBtn.disabled = false;
+      likeBtn.removeAttribute('aria-disabled');
     });
   });
 

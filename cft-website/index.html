@@ -34907,7 +34907,7 @@ const DATA = {
    "sourcing": "Rich (Cyprian's letters, Augustine's sermons to his own flock)",
    "floorNote": "Nothing in this tradition's confession diverges from the doctrine the Nicene Creed states.",
    "relationsSummary": "The churches led by Cyprian at Carthage and Augustine at Hippo. From the 310s a rival Donatist church stood in the same towns.",
-   "why": "Cyprian, bishop of Carthage in the mid-200s, told his congregation to nurse their pagan neighbors through the plague that now bears his name, before he was beheaded outside the city in 258. A century and a half later, Augustine preached to the same Hippo congregation several times a week for thirty-five years, and stenographers took down much of what he said. There's no built conversation for this tradition here yet.",
+   "why": "Cyprian, bishop of Carthage in the mid-200s, told his congregation to nurse their pagan neighbors through the plague that now bears his name, before he was beheaded outside the city in 258. A century and a half later, Augustine preached to the same Hippo congregation several times a week for thirty-five years, and stenographers took down much of what he said.",
    "entry": null,
    "teaser": "Roman North Africa, c. 240s to 430 CE — the parish before the word existed: bishops burying plague victims, preaching to the same faces every week, and deciding what to do about the people who had failed.",
    "longDescription": "This is the congregational life of Latin-speaking North Africa. It is the week in, week out work of a bishop with a flock, and the hard disputes that pressed on that work. Cyprian became bishop of Carthage around 248. When the emperor Decius ordered everyone to sacrifice, he went into hiding. He came back to the hardest pastoral problem of the age. Thousands of his own people had complied, and now they wanted back in.\n\nHe organized relief through the plague that still bears his name. He told his congregation to nurse pagan neighbors as well as their own. He refused communion to the envoys of Novatian, a rival bishop at Rome. He argued with Stephen of Rome over baptism given outside the church. He was beheaded outside Carthage in 258.\n\nA century and a half later, Augustine was bishop of Hippo Regius from 395 until his death in 430. He preached to the same congregation several times a week for thirty-five years, and stenographers took much of it down. Hundreds of those sermons survive. They argue, joke, scold and console actual people whose lives he knew.\n\nHis pastoral work ran through the great disputes of his day. A rival Donatist church stood in the same towns, and he argued with it for decades. He answered the Manichaeans, whom he had followed for nine years in his youth. In his last years he wrote against Pelagius and his followers on grace and human nature.\n\nBetween the two bishops lay the ordinary round. Catechumens were taught, and new believers were baptized at Easter. Penitents did public penance. The church cared for widows and the poor. And the bishop sat as judge in his own people's disputes.",
@@ -120177,8 +120177,10 @@ function setWho(scope,opts){
   clearConnections();
   const wasOpen=!!whoScope;
   if(wasOpen&&whoScopeKey(scope)===whoScopeKey(whoScope)&&!(opts&&opts.on)){clearWho();return;}
+  const sameList=wasOpen&&whoScopeKey(scope)===whoScopeKey(whoScope);
   whoScope=scope;
-  if(!wasOpen){whoOpener=document.activeElement;traySort='date';tray.classList.remove('is-low');}
+  if(!sameList)traySort='date';
+  if(!wasOpen){whoOpener=document.activeElement;tray.classList.remove('is-low');}
   renderWho();
   syncTrayGrip();
   const cramped=narrowScreen()||(panel.classList.contains('open')&&window.innerWidth-tray.offsetWidth-panel.offsetWidth<360);
@@ -120535,7 +120537,7 @@ function openPersonCard(P){
     if(about.length)h+=`<p class="source-group">Written about them</p>${about.join('')}`;
     h+='</details>';
   }
-  stopNarration(); panelBody.innerHTML=h; showPanel(p?p.id:null); narrCardReady();
+  stopNarration(); panelBody.innerHTML=h; showPanel(p?`tree/${p.id}`:`voice/${P.key.slice(2).replace(/ /g,'-')}`); narrCardReady();
   wirePanelLinks({links});
   syncWorldURL(p?p.id:null);
 }
@@ -120694,7 +120696,7 @@ function render(){
     const built = m.status==='Built & Live';
     const f=famOf(m.laneOrder), col=famColor(f);
     const g=el('g',{class:`node${built?' built':''}${isMajorTradition(m)?' major':''}`,'data-id':m.id,'data-lane':m.laneOrder,tabindex:'0',role:'button',
-      'aria-label':[m.shortName||m.name,plainDates(m.dates),(CFTPlace.formatPlace(m,{today:true})||m.region||'').replace(/ · /g,', ')].filter(Boolean).join(', ')});
+      'aria-label':`${m.shortName||m.name}, ${plainDates(m.dates)}`+((p=>p?`. ${p.replace(/ · /g,'; ')}`:'')(CFTPlace.formatPlace(m,{today:true})||m.region||''))});
     const halo=el('circle',{class:'halo',cx:m._x,cy:m._y,r:9,fill:col,opacity:0});
     const focusRing=el('circle',{class:'focus-ring',cx:m._x,cy:m._y,r:10,
       fill:'none',stroke:'var(--gold-leaf)','stroke-width':2,'vector-effect':'non-scaling-stroke',opacity:0});
@@ -121159,7 +121161,7 @@ function openCouncilCard(c){
     groups.forEach(([k,label])=>{const list=(co.sources&&co.sources[k])||[]; if(list.length)h+=`<p class="source-group">${esc(label)}</p>`+list.map(s=>personSourceItem('Library',s)).join('');});
     h+='</details>';
   }
-  stopNarration(); panelBody.innerHTML=h; showPanel(c.id);
+  stopNarration(); panelBody.innerHTML=h; showPanel(`tree/${c.id}`);
   wirePanelLinks({links:[]});
   syncWorldURL(c.id);
 }
@@ -121241,7 +121243,7 @@ function openPanel(m){
   if(m.why){
     h+=`<h3>Where this tradition stands</h3><p>${esc(m.why)}</p>`;
   }
-  stopNarration(); panelBody.innerHTML=h; showPanel(m.id); hideTip(); narrCardReady();
+  stopNarration(); panelBody.innerHTML=h; showPanel(`tree/${m.id}`); hideTip(); narrCardReady();
   wirePanelLinks();
   const cb=panelBody.querySelector('.conn-btn'); if(cb)cb.addEventListener('click',()=>showConnections(m));
   panelBody.querySelectorAll('.docstory-item[data-story-idx]').forEach(item=>{
@@ -121297,7 +121299,7 @@ function openPanelStory(s){
   stopNarration(); panelBody.innerHTML=h;
   narrCardReady();
   wirePanelLinks();
-  showPanel(null);
+  showPanel(`story/${s.id}`);
   syncWorldURL(null);
 }
 function openPanelEdge(edg,a,b){
@@ -121306,7 +121308,7 @@ function openPanelEdge(edg,a,b){
   stopNarration(); panelBody.innerHTML=`<h2 id="panelTitle">${edgeHeading(edg,a,b)}</h2>
     <p class="meta">${esc(edgeSentence(edg,a,b))} · ${esc(edg.confidence)}${isMajorEdge(edg)?' · Major connection':''}</p>
     <p>${esc(edg.note)}</p>${edg.outcome?`<p><i>Lasting result:</i> ${esc(edg.outcome)}</p>`:''}${sources?`<h3>Sources</h3><ul>${sources}</ul>`:''}`;
-  showPanel(null);
+  showPanel(`connection/${edg.id}`);
   syncWorldURL(null);
 }
 function openPanelRiver(f,members){
@@ -121350,7 +121352,7 @@ function openPanelRiver(f,members){
   ).join('')}</ul>`;
   stopNarration(); panelBody.innerHTML=h;
   wirePanelLinks();
-  showPanel(null);
+  showPanel(`river/${k}`);
   syncWorldURL(null);
 }
 function openEraCard(i){
@@ -121386,7 +121388,7 @@ function openEraCard(i){
     const item=panelBody.querySelector(`details.docstory-item[data-story-idx="${j}"]`);
     if(item){item.open=true;item.scrollIntoView({block:'start'});const sum=item.querySelector('summary');if(sum)sum.focus();}
   }));
-  showPanel(null);
+  showPanel(`era/${eras[i].num}`);
   syncWorldURL(null);
 }
 function goIntoEra(i){
@@ -121401,9 +121403,9 @@ function connButtonHTML(m){
   return `<button type="button" class="who-btn conn-btn"><span>Connections · ${n}</span><span class="who-state">Show on the map</span></button>`;
 }
 let lastFocused=null;
-function showPanel(entryId){
+function showPanel(page){
   lastFocused=document.activeElement;
-  if(window.PageFeedback)window.PageFeedback.mount(panelBody,entryId?`tree/${entryId}`:'atlas-v3');
+  if(window.PageFeedback)window.PageFeedback.mount(panelBody,page);
   panel.classList.add('open');
   panel.removeAttribute('inert');
   document.getElementById('panelClose').focus();
@@ -121571,8 +121573,7 @@ function buildLegend(){
     closeAll(c);
     p.hidden=!open;
     c.setAttribute('aria-expanded',String(open));
-    p.style.translate='';
-    if(open&&!narrowScreen()){const r=p.getBoundingClientRect(), shift=r.left<8?8-r.left:r.right>window.innerWidth-8?Math.max(8-r.left,window.innerWidth-8-r.right):0;if(shift)p.style.translate=shift+'px 0';}
+    if(open)clampChipPanel(p);
   }));
   wrap.querySelectorAll('.chip-panel').forEach(p=>p.addEventListener('click',ev=>ev.stopPropagation()));
   document.addEventListener('click',()=>closeAll(null));
@@ -122075,6 +122076,12 @@ gRivers.addEventListener('click',ev=>{
   const r=stage.getBoundingClientRect();
   zoomAt(ev.clientX-r.left,ev.clientY-r.top,Z_READ/scale);
 },true);
+function clampChipPanel(p){
+  p.style.translate='';
+  if(p.hidden||narrowScreen())return;
+  const r=p.getBoundingClientRect(), shift=r.left<8?8-r.left:r.right>window.innerWidth-8?Math.max(8-r.left,window.innerWidth-8-r.right):0;
+  if(shift)p.style.translate=shift+'px 0';
+}
 function fitFeatureBar(){
   const bar=document.querySelector('.feature-bar');
   if(!bar)return;
@@ -122087,6 +122094,7 @@ let barFitRaf=0;
 function queueBarFit(){if(!barFitRaf)barFitRaf=requestAnimationFrame(()=>{barFitRaf=0;positionFeatureBar();});}
 function positionFeatureBar(){
   fitFeatureBar();
+  document.querySelectorAll('.feature-bar .chip-panel:not([hidden])').forEach(clampChipPanel);
   const topbar=document.querySelector('.topbar'), featureBar=document.querySelector('.feature-bar');
   if(featureBar)featureBar.style.top=narrowScreen()?'auto':(topbar?topbar.offsetHeight:0)+'px';
   document.documentElement.style.setProperty('--map-top',chromeTop()+'px');

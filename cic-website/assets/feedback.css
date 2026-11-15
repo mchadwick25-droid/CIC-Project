@@ -191,7 +191,7 @@
 .page-feedback .pf-report:hover,
 .page-feedback .pf-like[aria-pressed="true"] { color: #E08C74; }
 .page-feedback .pf-like[aria-pressed="true"] .pf-heart path { fill: currentColor; }
-.page-feedback .pf-like:disabled { cursor: default; }
+.page-feedback .pf-like[aria-disabled="true"] { cursor: default; }
 .page-feedback button:focus-visible,
 .page-feedback textarea:focus-visible,
 .page-feedback input:focus-visible { outline: 2px solid #E08C74; outline-offset: 2px; }
