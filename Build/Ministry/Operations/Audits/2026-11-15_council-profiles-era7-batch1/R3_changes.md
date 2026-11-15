@@ -27,3 +27,7 @@ Round 3 was the last round under the cap. The worker applied its points itself; 
 | Synod of Chanforan 1532 | 400 | 2:30 | 6.99 | 66.50 | 25 |
 
 Audio regenerated with `working/mkaudio.py` and checked equal to the brief plus tags; records re-merged into `era7/records.json`; JSON valid.
+
+## The cap check
+
+`R4_cap-check.md`: CLEAR, 5 fixes closed, 0 blocking, 1 minor. A4-M1 (not reader-facing) applied as worded: the Aleander absence note now says the Theiner letter calls him legate and ZKG 14 names him as writer of most of six letters (l.24355-24362).
