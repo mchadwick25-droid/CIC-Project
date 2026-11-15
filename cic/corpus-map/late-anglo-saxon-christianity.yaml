@@ -19,6 +19,25 @@ works:
   confidence: provisional
   note: The king's own preface and translation, inside this window (849-899, era 4 audit).
   source_file: alfred-the-great_west-saxon-version-of-gregorys-pastoral-care-ang-eng_sweet1871.txt
+- row_id: anglo-saxon-chronicle_newly-translated_gomme1909--the-anglo-saxon-chronicle-english-gomme-1909
+  work: The Anglo-Saxon Chronicle, English (Gomme 1909)
+  author: anglo-saxon-chronicle
+  locus: whole text; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: The English of the Chronicle; Plummer's Old English text is held beside it. The early
+    entries were compiled later.
+  source_file: anglo-saxon-chronicle_newly-translated_gomme1909.txt
+- row_id: anglo-saxon-chronicle_two-of-the-saxon-chronicles-parallel-v1-ang_plummer1892--the-anglo-saxon-chronicle-old-english-plummer-1892
+  work: The Anglo-Saxon Chronicle, Old English (Plummer 1892)
+  author: anglo-saxon-chronicle
+  locus: whole text; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: Annals of the English kingdoms, kept in English churches. The early entries were compiled
+    later from Bede and other sources. Quote the Old English from the page image; the OCR
+    loses the special letters.
+  source_file: anglo-saxon-chronicle_two-of-the-saxon-chronicles-parallel-v1-ang_plummer1892.txt
 - row_id: asser_life-of-king-alfred-lat_stevenson1904--asser-life-of-king-alfred-stevenson-1904
   work: Asser, Life of King Alfred (Stevenson 1904)
   author: asser

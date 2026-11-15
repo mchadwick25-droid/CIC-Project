@@ -1,0 +1,12 @@
+source_file: hefele_history-of-the-councils-v4-451-680_clark1895.txt
+assignments:
+- row_id: hefele_history-of-the-councils-v4-451-680_clark1895--hefele-a-history-of-the-councils-of-the-church-vol-4-451-680
+  work: 'Hefele, A History of the Councils of the Church, vol. 4 (451-680), English, 1895'
+  author: hefele
+  locus: 'whole volume; add 12 to OCR line numbers'
+  atlas_ids:
+  - byzantine-imperial-church-justinianic
+  - byzantine-imperial-church-heraclian-iconoclast
+  role: context
+  confidence: provisional
+  note: 'A nineteenth-century Catholic historian''s account of the councils from the documents. A modern study, not a witness.'

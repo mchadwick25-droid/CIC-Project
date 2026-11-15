@@ -1,0 +1,11 @@
+source_file: walter-daniel_ailred-of-rievaulx-and-his-biographer-walter-daniel-lat-eng_powicke1922.txt
+assignments:
+- row_id: walter-daniel_ailred-of-rievaulx-and-his-biographer-walter-daniel-lat-eng_powicke1922--walter-daniel-letter-to-maurice-and-extracts-from-the-life
+  work: 'Walter Daniel, Letter to Maurice and extracts from the Life of Ailred, Latin (Powicke 1922)'
+  author: walter-daniel
+  locus: 'Appendix B, about OCR lines 3605-5632; add 12 to OCR line numbers'
+  atlas_ids:
+  - cistercian-monasticism
+  role: tradition
+  confidence: provisional
+  note: 'A monk of Rievaulx on his own abbot. Only the Letter to Maurice is whole; the Life is in Powicke''s chosen extracts. Powicke''s study around them is a modern historian''s.'

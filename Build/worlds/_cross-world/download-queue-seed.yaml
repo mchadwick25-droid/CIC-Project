@@ -25724,3 +25724,463 @@ queue:
     verified_by: 'Library thread, eras 1-3 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 3,713,700 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: mansi_sacrorum-conciliorum-collectio-tomus-8-492-536-lat_welter-facsimile1901.txt
+  - title: 'Vitae sancti Bonifatii archiepiscopi Moguntini, recognovit Wilhelmus Levison (Scriptores rerum Germanicarum in usum scholarum ex Monumentis Germaniae historicis separatim editi)'
+    author: 'Willibald of Mainz; Wilhelm Levison (ed.)'
+    year: '1905'
+    world: anglo-saxon-christianity
+    why: 'Open-Gaps 265, Library wanted: Willibald''s Life of Boniface (chapter 6, the oak at Geismar).'
+    url: https://archive.org/details/vitaesanctibonif00will
+    rights_basis: 'Public Domain (pd-us-by-date: published 1905); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,012,331 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: willibald_vitae-sancti-bonifatii-mgh-srg-57-lat_levison1905.txt
+  - title: 'The Life of Saint Boniface by Willibald, translated into English for the first time, with introduction and notes, by George W. Robinson'
+    author: 'Willibald of Mainz; George W. Robinson (tr.)'
+    year: '1916'
+    world: anglo-saxon-christianity
+    why: 'Open-Gaps 265, Library wanted: Willibald''s Life of Boniface (chapter 6, the oak at Geismar).'
+    url: https://archive.org/details/lifeofsaintboni00robiuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1916); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 172,285 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: willibald_life-of-saint-boniface_robinson1916.txt
+  - title: 'Libri Carolini sive Caroli Magni capitulare de imaginibus, recensuit Hubertus Bastgen (Monumenta Germaniae historica, Legum sectio III, Concilia, tomi II supplementum)'
+    author: 'Charlemagne''s court; Hubert Bastgen (ed.)'
+    year: '1924'
+    world: carolingian-reform-christianity
+    why: 'Open-Gaps 266 (major councils, era 4), not held: the Caroline Books, the Frankish answer to Nicaea II.'
+    url: https://archive.org/details/libricarolinisiv02bast
+    rights_basis: 'Public Domain (pd-us-by-date: published 1924); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,051,557 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: libri-carolini_caroli-magni-capitulare-de-imaginibus-mgh-concilia-2-suppl-lat_bastgen1924.txt
+  - title: 'Epistolae Karolini aevi, tomus III (Monumenta Germaniae historica, Epistolarum tomus V)'
+    author: 'Hadrian I; Karl Hampe (ed.)'
+    year: '1899'
+    world: carolingian-reform-christianity
+    why: 'Open-Gaps 266 (major councils, era 4), not held: Hadrian I''s reply to Charlemagne on the images.'
+    url: https://archive.org/details/epistolaemerowin5189unse
+    rights_basis: 'Public Domain (pd-us-by-date: published 1899); the archive.org record carries no rights field, so the imprint date is the basis; the archive.org record is titled ''Epistolae Merowingici et Karolini aevi'' with the date 1892, but the title page inside reads Epistolae Karolini aevi III, MDCCCLXXXXIX'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 2,790,624 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: hadrian-i_epistolae-karolini-aevi-3-mgh-epistolae-5-lat_1899.txt
+  - title: 'Two of the Saxon Chronicles Parallel, with supplementary extracts from the others; edited by Charles Plummer on the basis of an edition by John Earle; vol. I, text, appendices and glossary'
+    author: 'Anglo-Saxon Chronicle; Charles Plummer (ed.)'
+    year: '1892'
+    world: anglo-saxon-christianity
+    why: 'Open-Gaps 266 (major councils, era 4), not held: the Anglo-Saxon Chronicle.'
+    url: https://archive.org/details/twoofsaxonchron01earl
+    rights_basis: 'Public Domain (pd-us-by-date: published 1892); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,258,343 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: anglo-saxon-chronicle_two-of-the-saxon-chronicles-parallel-v1-ang_plummer1892.txt
+  - title: 'The Anglo-Saxon Chronicle, newly translated by E. E. C. Gomme'
+    author: 'Anglo-Saxon Chronicle; E. E. C. Gomme (tr.)'
+    year: '1909'
+    world: anglo-saxon-christianity
+    why: 'Open-Gaps 266 (major councils, era 4), not held: the Anglo-Saxon Chronicle (an English version).'
+    url: https://archive.org/details/anglosaxonchron00gommgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1909); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 710,719 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: anglo-saxon-chronicle_newly-translated_gomme1909.txt
+  - title: 'Annala Uladh: Annals of Ulster, otherwise Annala Senait, Annals of Senat; a chronicle of Irish affairs from A.D. 431 to A.D. 1540; edited, with a translation and notes, by William M. Hennessy; vol. I, A.D. 431-1056'
+    author: 'Annals of Ulster; William M. Hennessy (ed., tr.)'
+    year: '1887'
+    world: insular-irish-monastic-christianity
+    why: 'Open-Gaps 266 (major councils, era 4), not held: the Annals of Ulster.'
+    url: https://archive.org/details/annalauladhannal01magu
+    rights_basis: 'Public Domain (pd-us-by-date: published 1887); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,583,638 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: annals-of-ulster_annala-uladh-v1-431-1056-gle-lat-eng_hennessy1887.txt
+  - title: 'Chronica minora saec. IV. V. VI. VII., edidit Theodorus Mommsen, volumen III (Monumenta Germaniae historica, Auctorum antiquissimorum tomus XIII)'
+    author: 'Bede; Theodor Mommsen (ed.)'
+    year: '1898'
+    world: bede-of-jarrow
+    why: 'Open-Gaps 266 (major councils, era 4), not held: Bede''s chronicle.'
+    url: https://archive.org/details/chronicaminorasa13momm
+    rights_basis: 'Public Domain (pd-us-by-date: published 1898); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 3,179,245 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: bede_chronica-maiora-in-chronica-minora-3-mgh-aa-13-lat_mommsen1898.txt
+  - title: 'Die Kanonessammlung des Kardinals Deusdedit, neu herausgegeben von Victor Wolf von Glanvell; I. Band: Die Kanonessammlung selbst'
+    author: 'Deusdedit; Victor Wolf von Glanvell (ed.)'
+    year: '1905'
+    world: byzantine-imperial-church-macedonian
+    why: 'Open-Gaps 266 (major councils, era 4), not held: the Latin abridgment of the council of 861 in Deusdedit''s collection.'
+    url: https://archive.org/details/diekanonessammlu01deus
+    rights_basis: 'Public Domain (pd-us-by-date: published 1905); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 2,515,492 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: deusdedit_die-kanonessammlung-des-kardinals-deusdedit-bd1-lat-deu_wolf-von-glanvell1905.txt
+  - title: 'Patrologiae cursus completus, series Graeca, tomus CII: Photius Constantinopolitanus patriarcha (Contra Manichaeos, De Spiritus Sancti mystagogia, Homiliae, Carmina, Epistolae)'
+    author: 'Photius of Constantinople; J.-P. Migne (ed.)'
+    year: '1860'
+    world: byzantine-imperial-church-macedonian
+    why: 'Open-Gaps 263 and 272: Photius, Contra Manichaeos, a second witness on the Paulicians; Open-Gaps 266: Photius''s letters and Mystagogy.'
+    url: https://archive.org/details/bim_early-english-books-1641-1700_1860_102
+    rights_basis: 'Public Domain (pd-us-by-date: published 1860); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 2,817,877 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: photius_opera-t2-contra-manichaeos-mystagogia-epistolae-pg102-grc-lat_migne1860.txt
+  - title: 'Sacrorum conciliorum nova et amplissima collectio, Joannes Dominicus Mansi; tomus duodecimus, ab anno DCLXXXVII usque ad annum DCCLXXXVII (facsimile reprint of the Florence 1766 printing)'
+    author: 'J. D. Mansi (ed.)'
+    year: '1901'
+    world: byzantine-imperial-church-heraclian-iconoclast
+    why: 'Open-Gaps 266 and 272: the full acts of Nicaea II (Mansi 12-13).'
+    url: https://archive.org/details/sacrorumconcilio0012vari
+    rights_basis: 'Public Domain (pd-us-by-date: published 1901); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 3,632,784 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: mansi_sacrorum-conciliorum-collectio-tomus-12-lat_welter-facsimile1901.txt
+  - title: 'Sacrorum conciliorum nova et amplissima collectio, Joannes Dominicus Mansi; tomus decimus tertius (facsimile reprint)'
+    author: 'J. D. Mansi (ed.)'
+    year: '1902'
+    world: byzantine-imperial-church-heraclian-iconoclast
+    why: 'Open-Gaps 266 and 272: the full acts of Nicaea II (Mansi 12-13).'
+    url: https://archive.org/details/sacrorumconcilio0000unse
+    rights_basis: 'Public Domain (pd-us-by-date: published 1902); the archive.org record carries no rights field, so the imprint date is the basis; the archive.org record gives the title without a volume number; the volume is identified by its own title leaf (''TOMUS DECIMUS TERTIUS'')'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 3,371,710 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: mansi_sacrorum-conciliorum-collectio-tomus-13-lat_welter-facsimile1902.txt
+  - title: 'Novae Patrum Bibliothecae ab Angelo Card. Maio editae tomus octavus, a Iosepho Cozza monacho Basiliano absolutus: S. Theodori Studitae epistolae et fragmenta; Georgii Metochitae diaconi Historiae dogmaticae liber I et II'
+    author: 'Theodore the Studite; Angelo Mai and Giuseppe Cozza (eds.)'
+    year: '1871'
+    world: iconophile-byzantine-monasticism
+    why: 'Open-Gaps 272: the text of Theodore the Studite''s letters to Theophanes the Confessor.'
+    url: https://archive.org/details/bub_gb_avgztuwAX1IC
+    rights_basis: 'Public Domain (pd-us-by-date: published 1871); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 2,824,635 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: theodore-studite_epistolae-et-fragmenta-in-nova-patrum-bibliotheca-t8-lat_cozza1871.txt
+  - title: 'Patrologiae cursus completus, series Graeca, tomus XCVIII: S. Gregorius Agrigentinus, SS. Germanus et Tarasius CP. and others'
+    author: 'Ignatius the Deacon; J.-P. Migne (ed.)'
+    year: '1860'
+    world: byzantine-imperial-church-heraclian-iconoclast
+    why: 'Open-Gaps 266: Ignatius the Deacon''s Life of Tarasius, who presided at Nicaea II.'
+    url: https://archive.org/details/bim_early-english-books-1641-1700_1860_98
+    rights_basis: 'Public Domain (pd-us-by-date: published 1860); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 4,231,960 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: ignatius-deacon_vita-tarasii-in-germanus-tarasius-pg98-grc-lat_migne1860.txt
+  - title: 'Georgius Cedrenus, Ioannis Scylitzae ope ab Immanuele Bekkero suppletus et emendatus; tomus alter (Corpus scriptorum historiae Byzantinae)'
+    author: 'George Kedrenos; John Skylitzes; Immanuel Bekker (ed.)'
+    year: '1839'
+    world: byzantine-imperial-church-macedonian
+    why: 'Open-Gaps 272: Skylitzes and Kedrenos, for the Macedonian-era profiles.'
+    url: https://archive.org/details/GeorgiusCedrenusCompendiumHistoriarumTomusAlterGRLT
+    rights_basis: 'Public Domain (pd-us-by-date: published 1839); the archive.org record carries no rights field, so the imprint date is the basis; the item is a reader''s upload, with no library''s rights statement'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 3,153,672 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: kedrenos-skylitzes_compendium-historiarum-t2-grc-lat_bekker1839.txt
+  - title: 'Michaelis Attaliotae Historia; opus a Wladimiro Bruneto de Presle inventum, descriptum, correctum, recognovit Immanuel Bekkerus (Corpus scriptorum historiae Byzantinae)'
+    author: 'Michael Attaleiates; Immanuel Bekker (ed.)'
+    year: '1853'
+    world: byzantine-imperial-church-macedonian
+    why: 'Open-Gaps 272: Attaleiates, for the Keroularios profile.'
+    url: https://archive.org/details/michaelisattali01bekkgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1853); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,275,243 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: attaleiates_historia-grc-lat_bekker1853.txt
+  - title: 'Ioannis Zonarae Epitomae historiarum libri XVIII, ex recensione Mauricii Pinderi; tomus III, libri XIII-XVIII, edidit Theodorus Büttner-Wobst (Corpus scriptorum historiae Byzantinae)'
+    author: 'John Zonaras; Theodor Büttner-Wobst (ed.)'
+    year: '1897'
+    world: byzantine-imperial-church-macedonian
+    why: 'Open-Gaps 272: Zonaras, for the Macedonian-era profiles.'
+    url: https://archive.org/details/bub_gb_0dUFAAAAQAAJ
+    rights_basis: 'Public Domain (pd-us-by-date: published 1897); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 3,552,546 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: zonaras_epitomae-historiarum-libri-xiii-xviii-t3-grc_buettner-wobst1897.txt
+  - title: 'Revue des études grecques, tome XVI, année 1903; with Louis Bréhier, Un discours inédit de Psellos: accusation du patriarche Michel Cérulaire devant le synode (1059), first part'
+    author: 'Michael Psellos; Louis Bréhier (ed.)'
+    year: '1903'
+    world: byzantine-imperial-church-macedonian
+    why: 'Open-Gaps 272: Psellos''s accusation of Keroularios before the synod.'
+    url: https://archive.org/details/revuedestudesg16assouoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1903); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,511,441 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: psellos_accusation-de-michel-cerulaire-pt1-in-revue-des-etudes-grecques-16-grc-fra_brehier1903.txt
+  - title: 'Revue des études grecques, tome XVII, année 1904; with Louis Bréhier, Un discours inédit de Psellos: accusation du patriarche Michel Cérulaire devant le synode (1059), continuation'
+    author: 'Michael Psellos; Louis Bréhier (ed.)'
+    year: '1904'
+    world: byzantine-imperial-church-macedonian
+    why: 'Open-Gaps 272: Psellos''s accusation of Keroularios before the synod.'
+    url: https://archive.org/details/revuedestudesgr01ruelgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1904); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,591,202 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: psellos_accusation-de-michel-cerulaire-pt2-in-revue-des-etudes-grecques-17-grc-fra_brehier1904.txt
+  - title: 'Denkschriften der Kaiserlichen Akademie der Wissenschaften, Philosophisch-historische Classe, neunzehnter Band (bound with the twentieth); with Ernst Dümmler and Franz Miklosich, Die Legende vom heiligen Cyrillus'
+    author: 'Franz Miklosich and Ernst Dümmler (eds.)'
+    year: '1870'
+    world: cyrillo-methodian-slavic-christianity
+    why: 'Wanted Sources era 4 row 17 and Open-Gaps 263: the Slavonic Life of Constantine (Cyril) in a readable form.'
+    url: https://archive.org/details/denkschriften1920ster
+    rights_basis: 'Public Domain (pd-us-by-date: published 1870); the archive.org record carries no rights field, so the imprint date is the basis; the archive.org record is titled ''Denkschriften'' with the date 1850, the series'' first year'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 2,467,799 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: vita-constantini_die-legende-vom-heiligen-cyrillus-in-denkschriften-wien-19-chu-lat-deu_duemmler-miklosich1870.txt
+  - title: 'Acta Sanctorum quotquot toto orbe coluntur; Martii tomus secundus (Palmé''s reprint)'
+    author: 'The Bollandists'
+    year: '1865'
+    world: cyrillo-methodian-slavic-christianity
+    why: 'Wanted Sources era 4 row 17 (Cyril and Methodius): the Italian Legend, the Roman account of Cyril.'
+    url: https://archive.org/details/actasanctorumquo0008unse
+    rights_basis: 'Public Domain (pd-us-by-date: published 1865); the archive.org record carries no rights field, so the imprint date is the basis; the archive.org record gives the date 1863, the first year of the reprint'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 8,504,010 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: acta-sanctorum_martii-tomus-2-lat_palme1865.txt
+  - title: 'The History of the Mohammedan Dynasties in Spain, by Ahmed ibn Mohammed al-Makkari; translated and illustrated with critical notes by Pascual de Gayangos; vol. I'
+    author: 'Ahmad al-Maqqari; Pascual de Gayangos (tr.)'
+    year: '1840'
+    world: mozarabic-christianity
+    why: 'Wanted Sources era 4 row 36 and Open-Gaps 263 (Ibn Hayyan): a later writer who quotes him, since no edition of al-Muqtabis before 1937 exists.'
+    url: https://archive.org/details/spain-history-volume-1
+    rights_basis: 'Public Domain (pd-us-by-date: published 1840); the archive.org record carries no rights field, so the imprint date is the basis; the item is a reader''s upload, with no library''s rights statement'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 2,118,784 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: al-maqqari_history-of-the-mohammedan-dynasties-in-spain-v1_gayangos1840.txt
+  - title: 'The History of the Mohammedan Dynasties in Spain, by Ahmed ibn Mohammed al-Makkari; translated and illustrated with critical notes by Pascual de Gayangos; vol. II'
+    author: 'Ahmad al-Maqqari; Pascual de Gayangos (tr.)'
+    year: '1843'
+    world: mozarabic-christianity
+    why: 'Wanted Sources era 4 row 36 and Open-Gaps 263 (Ibn Hayyan): a later writer who quotes him, since no edition of al-Muqtabis before 1937 exists.'
+    url: https://archive.org/details/historyofthemoha032395mbp
+    rights_basis: 'Public Domain (pd-us-by-date: published 1843); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 2,560,933 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: al-maqqari_history-of-the-mohammedan-dynasties-in-spain-v2_gayangos1843.txt
+  - title: 'Sacrorum conciliorum nova et amplissima collectio, Joannes Dominicus Mansi; tomus vigesimus secundus, ab anno MCLXVI usque ad annum MCCXXV (facsimile reprint of the Venice printing)'
+    author: 'J. D. Mansi (ed.)'
+    year: '1903'
+    world: latin-papal-church-gregorian
+    why: 'Open-Gaps 268: Mansi 22, the acts and constitutions of the Fourth Lateran Council (1215).'
+    url: https://archive.org/details/sacrorumconcilio0000joan_u1u8
+    rights_basis: 'Public Domain (pd-us-by-date: published 1903); the archive.org record carries no rights field, so the imprint date is the basis; the archive.org record gives the title without a volume number; the volume is identified by its own title page (''TOMUS VIGESIMUS SECUNDUS'')'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 3,627,256 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: mansi_sacrorum-conciliorum-collectio-tomus-22-lat_welter-facsimile1903.txt
+  - title: 'Sacrorum conciliorum nova et amplissima collectio, Joannes Dominicus Mansi; tomus vicesimus quartus, ab anno MCCLXIX usque ad annum MCCXCIX (facsimile reprint of the Venice printing)'
+    author: 'J. D. Mansi (ed.)'
+    year: '1903'
+    world: latin-papal-church-gregorian
+    why: 'Open-Gaps 268: Mansi 24, the acts and constitutions of the Second Council of Lyon (1274).'
+    url: https://archive.org/details/sacrorumconcilio0024joan
+    rights_basis: 'Public Domain (pd-us-by-date: published 1903); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 3,583,601 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: mansi_sacrorum-conciliorum-collectio-tomus-24-lat_welter-facsimile1903.txt
+  - title: 'Constitutiones et acta publica imperatorum et regum, tomus II, edidit Ludewicus Weiland (Monumenta Germaniae historica, Legum sectio IV)'
+    author: 'Innocent IV; Ludwig Weiland (ed.)'
+    year: '1896'
+    world: latin-papal-church-gregorian
+    why: 'Wanted Sources era 5 council row 19 (Lyon I, 1245): the sentence against Frederick II and a report of the council.'
+    url: https://archive.org/details/constitutioneset02weil
+    rights_basis: 'Public Domain (pd-us-by-date: published 1896); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 3,034,068 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: innocent-iv_bulla-depositionis-in-mgh-constitutiones-2-lat_weiland1896.txt
+  - title: 'Georgii Pachymeris De Michaele et Andronico Palaeologis libri tredecim, recognovit Immanuel Bekkerus; volumen prius (Corpus scriptorum historiae Byzantinae)'
+    author: 'George Pachymeres; Immanuel Bekker (ed.)'
+    year: '1835'
+    world: byzantine-church-after-1054
+    why: 'Open-Gaps 268: Pachymeres, the Byzantine account of the union of Lyon and of Michael VIII.'
+    url: https://archive.org/details/demichaeleetand01bekkgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1835); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 2,957,497 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: pachymeres_de-michaele-et-andronico-palaeologis-v1-grc-lat_bekker1835.txt
+  - title: 'Nicephori Gregorae Byzantina historia, Graece et Latine, cura Ludovici Schopeni; volumen I (Corpus scriptorum historiae Byzantinae)'
+    author: 'Nikephoros Gregoras; Ludwig Schopen (ed.)'
+    year: '1829'
+    world: byzantine-church-after-1054
+    why: 'Open-Gaps 268: Gregoras, volume 1 (the second volume is held).'
+    url: https://archive.org/details/nicephorigregor00bekkgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1829); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 2,724,201 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: gregoras_byzantina-historia-v1-grc-lat_schopen1829.txt
+  - title: 'Patrologiae cursus completus, series Graeca, tomus CXLI: Joannes Veccus CP. patriarcha, Constantinus Meliteniota, Georgius Metochita'
+    author: 'John Bekkos; J.-P. Migne (ed.)'
+    year: '1882'
+    world: byzantine-church-after-1054
+    why: 'Open-Gaps 268: John Bekkos''s works (PG 141), the unionist patriarch after Lyon II.'
+    url: https://archive.org/details/taheuriskomenap00georgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1882); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 5,493,117 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: bekkos_opera-with-meliteniotes-metochites-pg141-grc-lat_migne1882.txt
+  - title: 'A History of the Councils of the Church, from the original documents, by Charles Joseph Hefele; volume IV, A.D. 451 to A.D. 680; translated from the German and edited by William R. Clark'
+    author: 'Karl Joseph von Hefele; William R. Clark (tr.)'
+    year: '1895'
+    world: byzantine-imperial-church-justinianic
+    why: 'Open-Gaps 266: Hefele''s History of the Councils past 451 (volumes 1-3 are held).'
+    url: https://archive.org/details/historyofcouncil04hefeuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1895); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,378,234 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: hefele_history-of-the-councils-v4-451-680_clark1895.txt
+  - title: 'A History of the Councils of the Church, from the original documents, by Charles Joseph Hefele; volume V, A.D. 626 to the close of the Second Council of Nicaea, A.D. 787; translated from the German and edited by William R. Clark'
+    author: 'Karl Joseph von Hefele; William R. Clark (tr.)'
+    year: '1896'
+    world: byzantine-imperial-church-heraclian-iconoclast
+    why: 'Open-Gaps 266: Hefele''s History of the Councils past 451 (volumes 1-3 are held).'
+    url: https://archive.org/details/historyofcouncil05hefeuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1896); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,333,269 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: hefele_history-of-the-councils-v5-626-787_clark1896.txt
+  - title: 'Recueil des historiens des croisades, publié par les soins de l''Académie des inscriptions et belles-lettres; Historiens occidentaux, tome troisième'
+    author: 'Fulcher of Chartres; Robert the Monk; Académie des inscriptions et belles-lettres (eds.)'
+    year: '1866'
+    world: latin-church-of-outremer
+    why: 'Open-Gaps 268: Fulcher of Chartres, Robert the Monk and the Gesta Francorum, witnesses of the Council of Clermont (1095).'
+    url: https://archive.org/details/RecueilDesHistoriensDesCroisadesOccidentaux3
+    rights_basis: 'Public Domain (pd-us-by-date: published 1866); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 4,540,646 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: rhc-historiens-occidentaux_t3-fulcher-robert-raymond-gesta-francorum-lat_academie1866.txt
+  - title: 'Recueil des historiens des croisades, publié par les soins de l''Académie des inscriptions et belles-lettres; Historiens occidentaux, tome quatrième'
+    author: 'Guibert of Nogent; Baldric of Bourgueil; Albert of Aachen; Académie des inscriptions et belles-lettres (eds.)'
+    year: '1879'
+    world: latin-church-of-outremer
+    why: 'Open-Gaps 268: Guibert of Nogent, a witness of the Council of Clermont (1095).'
+    url: https://archive.org/details/RecueilDesHistoriensDesCroisadesOcc4
+    rights_basis: 'Public Domain (pd-us-by-date: published 1879); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 3,550,583 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: rhc-historiens-occidentaux_t4-baldric-guibert-albert-lat_academie1879.txt
+  - title: 'The First Crusade: The Accounts of Eye-Witnesses and Participants, by August C. Krey'
+    author: 'August C. Krey (tr., ed.)'
+    year: '1921'
+    world: latin-church-of-outremer
+    why: 'Open-Gaps 268: an English of the eyewitness accounts of Clermont and the First Crusade.'
+    url: https://archive.org/details/firstcrusadeacco00krey
+    rights_basis: 'Public Domain (pd-us-by-date: published 1921); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 954,957 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: krey_first-crusade-accounts-of-eye-witnesses-and-participants_1921.txt
+  - title: 'Patrologiae cursus completus, series Latina, tomus CLI: B. Urbanus II papa and others'
+    author: 'Urban II; J.-P. Migne (ed.)'
+    year: '1853'
+    world: latin-papal-church-gregorian
+    why: 'Open-Gaps 268: Urban II''s letters (PL 151), with the versions of his Clermont speech.'
+    url: https://archive.org/details/bim_early-english-books-1641-1700_1853_151
+    rights_basis: 'Public Domain (pd-us-by-date: published 1853); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 4,194,323 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: urban-ii_epistolae-et-privilegia-with-orationes-claromontanae-pl151-lat_migne1853.txt
+  - title: 'Rogeri de Wendover liber qui dicitur Flores historiarum ab anno Domini MCLIV; The Flowers of History by Roger de Wendover, edited by Henry G. Hewlett; volume II (Rolls Series 84)'
+    author: 'Roger of Wendover; Henry G. Hewlett (ed.)'
+    year: '1887'
+    world: latin-papal-church-gregorian
+    why: 'Open-Gaps 268: Roger of Wendover, an English monk''s account of the Fourth Lateran Council.'
+    url: https://archive.org/details/rogerdewendover00hewlgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1887); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 859,454 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: roger-wendover_flores-historiarum-v2-rolls-series-84-lat_hewlett1887.txt
+  - title: 'Ryccardi de Sancto Germano notarii Chronica, in usum scholarum ex Monumentis Germaniae historicis recusa'
+    author: 'Richard of San Germano; G. H. Pertz (ed.)'
+    year: '1864'
+    world: latin-papal-church-gregorian
+    why: 'Open-Gaps 268: Richard of San Germano, a notary''s account of the Fourth Lateran Council.'
+    url: https://archive.org/details/ryccardidesanct01pertgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1864); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 336,712 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: richard-san-germano_chronica-in-usum-scholarum-lat_pertz1864.txt
+  - title: 'Corpus iuris canonici, editio Lipsiensis secunda, post Aemilii Ludovici Richteri curas recognovit Aemilius Friedberg; pars secunda, Decretalium collectiones'
+    author: 'Emil Friedberg (ed.)'
+    year: '1881'
+    world: latin-papal-church-gregorian
+    why: 'Open-Gaps 268: the Lyon II decree Religionum diversitatem and the other Lyon constitutions taken into the Liber Sextus.'
+    url: https://archive.org/details/corpusjuriscanon00richuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1881); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 7,264,261 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: corpus-iuris-canonici_pars-2-decretalium-collectiones-lat_friedberg1881.txt
+  - title: 'Patrologiae cursus completus, series Latina, tomus CCXVI: Innocentius III pontifex Romanus, opera omnia, tomus tertius'
+    author: 'Innocent III; J.-P. Migne (ed.)'
+    year: '1891'
+    world: innocent-iii
+    why: 'Open-Gaps 268: Innocent III''s summons to the Fourth Lateran Council, Vineam Domini (1213).'
+    url: https://archive.org/details/operaomnia03inno
+    rights_basis: 'Public Domain (pd-us-by-date: published 1891); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 4,245,838 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: innocent-iii_opera-t3-regesta-xiii-xvi-pl216-lat_migne1891.txt
+  - title: 'Patrologiae cursus completus, series Latina, tomus CCXVII: Innocentius III pontifex Romanus, opera omnia, tomus quartus'
+    author: 'Innocent III; J.-P. Migne (ed.)'
+    year: '1890'
+    world: innocent-iii
+    why: 'Open-Gaps 263: Innocent III''s own works (De miseria, PL 217); Open-Gaps 268: his sermons at the Fourth Lateran Council.'
+    url: https://archive.org/details/operaomnia04inno
+    rights_basis: 'Public Domain (pd-us-by-date: published 1890); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 3,941,742 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: innocent-iii_opera-t4-sermones-de-contemptu-mundi-pl217-lat_migne1890.txt
+  - title: 'Patrologiae cursus completus, series Latina, tomus CLVII: Goffridus abbas Vindocinensis and others, with S. Robertus abbas Molismensis'
+    author: 'Anonymous monk of Molesme; J.-P. Migne (ed.)'
+    year: '1899'
+    world: cistercian-monasticism
+    why: 'Wanted Sources era 5 row 58 (Robert of Molesme): his Life and letters.'
+    url: https://archive.org/details/patrologiaecursu0157mign
+    rights_basis: 'Public Domain (pd-us-by-date: published 1899); the archive.org record carries no rights field, so the imprint date is the basis; the archive.org record gives the date 1844, the series'' first year, not this printing''s'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 3,872,145 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: robert-molesme_vita-et-epistolae-in-pl157-lat_migne1899.txt
+  - title: 'Acta Sanctorum quotquot toto orbe coluntur; Aprilis tomus tertius (Palmé''s reprint, curante Joanne Carnandet)'
+    author: 'The Bollandists'
+    year: '1866'
+    world: cistercian-monasticism
+    why: 'Wanted Sources era 5 row 58 (Robert of Molesme); Open-Gaps 267: Raymond of Capua''s full Legenda of Catherine of Siena.'
+    url: https://archive.org/details/actasanctorum12unse
+    rights_basis: 'Public Domain (pd-us-by-date: published 1866); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 9,508,650 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: acta-sanctorum_aprilis-tomus-3-lat_palme1866.txt
+  - title: 'Acta Sanctorum quotquot toto orbe coluntur; Martii tomus primus, complectens dies VIII priores (Palmé''s reprint)'
+    author: 'The Bollandists'
+    year: '1865'
+    world: the-franciscan-movement
+    why: 'Wanted Sources era 5 row 61 (Clare of Assisi): the four letters to Agnes of Prague in a readable print.'
+    url: https://archive.org/details/actasanctorumquo0007unse
+    rights_basis: 'Public Domain (pd-us-by-date: published 1865); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 7,900,766 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: acta-sanctorum_martii-tomus-1-lat_palme1865.txt
+  - title: 'Archivum Franciscanum Historicum, annus XIII (1920); with Zeffirino Lazzeri, Il processo di canonizzazione di S. Chiara d''Assisi'
+    author: 'Zeffirino Lazzeri (ed.)'
+    year: '1920'
+    world: the-franciscan-movement
+    why: 'Wanted Sources era 5 row 61 (Clare of Assisi): the process of canonization.'
+    url: https://archive.org/details/archivumfranciscanumhistoricum13
+    rights_basis: 'Public Domain (pd-us-by-date: published 1920); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 2,041,797 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: clare-assisi_processo-di-canonizzazione-in-archivum-franciscanum-historicum-13-ita-lat_lazzeri1920.txt
+  - title: 'Ailred of Rievaulx and his biographer Walter Daniel, by F. M. Powicke; reprinted from the Bulletin of the John Rylands Library, vol. 6, nos. 3 and 4, July 1921-January 1922'
+    author: 'Walter Daniel; F. M. Powicke'
+    year: '1922'
+    world: cistercian-monasticism
+    why: 'Wanted Sources era 5 row 70 and Open-Gaps 263 (Walter Daniel): his Letter to Maurice and extracts from his Life of Ailred.'
+    url: https://archive.org/details/ailredofrievaulx00powiuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1922); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 322,247 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: walter-daniel_ailred-of-rievaulx-and-his-biographer-walter-daniel-lat-eng_powicke1922.txt
+  - title: 'Werken van Zuster Hadewijch, I. Gedichten; diplomatisch uitgegeven naar twee handschriften ter Koninklijke Bibliotheek te Brussel berustende (Maatschappij der Vlaamsche Bibliophilen, 4e reeks, nr 2)'
+    author: 'Hadewijch; J. F. J. Heremans and C. J. K. Ledeganck (eds.)'
+    year: '1875'
+    world: the-beguines
+    why: 'Wanted Sources era 5 row 73 and Open-Gaps 263 (Hadewijch): the 1875 edition on dbnl, the only one Mark allows.'
+    url: https://www.dbnl.org/tekst/hade002werk01_01/
+    rights_basis: 'Public Domain (pd-us-by-date: published 1875); dbnl.org marks this title ''Auteursrechtvrij'' and its notice reads ''Het auteursrecht op dit werk is verlopen. Dat betekent dat het behoort tot het publieke domein.'' Mark''s ruling allows Hadewijch only in this 1875 edition'
+    verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 233,630 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: hadewijch_werken-1-gedichten-dum_heremans-ledeganck1875.txt

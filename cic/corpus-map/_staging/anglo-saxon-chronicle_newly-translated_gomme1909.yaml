@@ -1,0 +1,12 @@
+source_file: anglo-saxon-chronicle_newly-translated_gomme1909.txt
+assignments:
+- row_id: anglo-saxon-chronicle_newly-translated_gomme1909--the-anglo-saxon-chronicle-english-gomme-1909
+  work: 'The Anglo-Saxon Chronicle, English (Gomme 1909)'
+  author: anglo-saxon-chronicle
+  locus: 'whole text; add 12 to OCR line numbers'
+  atlas_ids:
+  - anglo-saxon-christianity
+  - late-anglo-saxon-christianity
+  role: tradition
+  confidence: provisional
+  note: 'The English of the Chronicle; Plummer''s Old English text is held beside it. The early entries were compiled later.'

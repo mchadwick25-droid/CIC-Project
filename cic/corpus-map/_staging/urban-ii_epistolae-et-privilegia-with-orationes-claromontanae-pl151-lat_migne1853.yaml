@@ -1,0 +1,11 @@
+source_file: urban-ii_epistolae-et-privilegia-with-orationes-claromontanae-pl151-lat_migne1853.txt
+assignments:
+- row_id: urban-ii_epistolae-et-privilegia-with-orationes-claromontanae-pl151-lat_migne1853--urban-ii-letters-and-privileges-with-the-clermont-speeches
+  work: 'Urban II, letters and privileges, with the Clermont speeches (PL 151)'
+  author: urban-ii
+  locus: 'the letters from about OCR line 22757; the speeches at about 46652-47750; add 12 to OCR line numbers'
+  atlas_ids:
+  - latin-papal-church-gregorian
+  role: tradition
+  confidence: provisional
+  note: 'The pope''s own letters. The speeches are the chroniclers'' versions gathered by the editor, not a text from Urban''s chancery.'

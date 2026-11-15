@@ -1,0 +1,11 @@
+source_file: psellos_accusation-de-michel-cerulaire-pt1-in-revue-des-etudes-grecques-16-grc-fra_brehier1903.txt
+assignments:
+- row_id: psellos_accusation-de-michel-cerulaire-pt1-in-revue-des-etudes-grecques-16-grc-fra_brehier1903--psellos-accusation-of-michael-keroularios-before-the-synod
+  work: 'Psellos, Accusation of Michael Keroularios before the synod, part 1 (Bréhier, REG 16, 1903)'
+  author: psellos
+  locus: 'about OCR lines 26255-28400; add 12 to OCR line numbers'
+  atlas_ids:
+  - byzantine-imperial-church-macedonian
+  role: context
+  confidence: provisional
+  note: 'A speech of accusation against the patriarch, written for a synod in 1059 (Bréhier''s title). It is a hostile witness.'

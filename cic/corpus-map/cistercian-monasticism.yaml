@@ -76,6 +76,25 @@ works:
   note: The first Life of Bernard, by a friend and fellow Cistercian, written inside this
     window.
   source_file: bernard-clairvaux_opera-t5-with-vita-prima-pl185-lat_migne1855.txt
+- row_id: robert-molesme_vita-et-epistolae-in-pl157-lat_migne1899--life-of-robert-of-molesme-by-a-monk-of-molesme-with-robert-s
+  work: Life of Robert of Molesme by a monk of Molesme, with Robert's letters (PL 157)
+  author: robert-molesme
+  locus: about OCR lines 95370-101190; add 12 to OCR line numbers
+  role: tradition
+  confidence: needs-ruling
+  note: The Life was written at Molesme, the house Robert left for Cîteaux and went back to,
+    in the twelfth century by its own heading. It is Molesme's telling, not Cîteaux's, and
+    later than Robert, so its placing needs a ruling.
+  source_file: robert-molesme_vita-et-epistolae-in-pl157-lat_migne1899.txt
+- row_id: acta-sanctorum_aprilis-tomus-3-lat_palme1866--life-of-robert-of-molesme-acta-sanctorum-april-iii
+  work: Life of Robert of Molesme, Acta Sanctorum April III
+  author: robert-molesme
+  locus: about OCR lines 152877-155900; add 12 to OCR line numbers
+  role: tradition
+  confidence: needs-ruling
+  note: The same Life as in PL 157, in the Bollandists' printing; that copy reads more cleanly.
+    The placing needs the same ruling.
+  source_file: acta-sanctorum_aprilis-tomus-3-lat_palme1866.txt
 - row_id: stephen-harding_charta-caritatis-and-exordium-in-pl166-lat_migne1894--stephen-harding-charta-caritatis-usus-antiquiores-and-the-exordi
   work: Stephen Harding, Charta caritatis, Usus antiquiores and the Exordium of Citeaux (PL
     166)
@@ -87,3 +106,13 @@ works:
   note: The founding texts of Citeaux. Their authorship and date are disputed in the census
     sources note; the volume prints them as the work of the third abbot.
   source_file: stephen-harding_charta-caritatis-and-exordium-in-pl166-lat_migne1894.txt
+- row_id: walter-daniel_ailred-of-rievaulx-and-his-biographer-walter-daniel-lat-eng_powicke1922--walter-daniel-letter-to-maurice-and-extracts-from-the-life
+  work: Walter Daniel, Letter to Maurice and extracts from the Life of Ailred, Latin (Powicke
+    1922)
+  author: walter-daniel
+  locus: Appendix B, about OCR lines 3605-5632; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: A monk of Rievaulx on his own abbot. Only the Letter to Maurice is whole; the Life
+    is in Powicke's chosen extracts. Powicke's study around them is a modern historian's.
+  source_file: walter-daniel_ailred-of-rievaulx-and-his-biographer-walter-daniel-lat-eng_powicke1922.txt

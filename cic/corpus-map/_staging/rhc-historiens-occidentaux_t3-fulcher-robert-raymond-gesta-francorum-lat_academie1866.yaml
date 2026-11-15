@@ -1,0 +1,22 @@
+source_file: rhc-historiens-occidentaux_t3-fulcher-robert-raymond-gesta-francorum-lat_academie1866.txt
+assignments:
+- row_id: rhc-historiens-occidentaux_t3-fulcher-robert-raymond-gesta-francorum-lat_academie1866--fulcher-of-chartres-historia-hierosolymitana-latin-rhc
+  work: 'Fulcher of Chartres, Historia Hierosolymitana, Latin (RHC Occidentaux III)'
+  author: rhc-historiens-occidentaux
+  locus: 'from about OCR line 24291; Clermont at about 24772-24919; add 12 to OCR line numbers'
+  atlas_ids:
+  - latin-church-of-outremer
+  - latin-papal-church-gregorian
+  role: tradition
+  confidence: provisional
+  note: 'A chaplain who went on the crusade and stayed in Jerusalem. His is one of the four main reports of Urban II''s speech at Clermont; the reports differ, and all were written after the crusade.'
+- row_id: rhc-historiens-occidentaux_t3-fulcher-robert-raymond-gesta-francorum-lat_academie1866--robert-the-monk-raymond-of-aguilers-tudebode-and-the-gesta
+  work: 'Robert the Monk, Raymond of Aguilers, Tudebode and the Gesta Francorum, Latin (RHC Occidentaux III)'
+  author: rhc-historiens-occidentaux
+  locus: 'whole volume; Robert on Clermont from about OCR line 52360; add 12 to OCR line numbers'
+  atlas_ids:
+  - latin-church-of-outremer
+  - latin-papal-church-gregorian
+  role: tradition
+  confidence: provisional
+  note: 'Latin histories of the First Crusade by clergy who went or wrote soon after. Robert the Monk gives another of the reports of Urban''s speech.'
