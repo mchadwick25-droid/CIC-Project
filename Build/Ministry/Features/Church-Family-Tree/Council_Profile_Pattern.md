@@ -5,10 +5,10 @@ Approved to proceed (Mark, 2026-11-14). The pattern every major-council profile 
 ## What carries over from the Who pattern unchanged
 
 - The writing standard, by reference: `CLAUDE.md`, "Accessible and rigorous"; the NorthStar readability target and Writing Standard; the Voice Style Guide 1.1 to 1.12; the person-brief decision of 2026-11-11 (story, natural years, named witnesses, flowing sentences).
-- The newer standards of 2026-11-11: common names with their place at first mention in each text, real witnesses named, natural dates, hostile witnesses named with polemic marked, Jon audio tags in the audio script only, grade 8 as a floor.
+- The newer standards of 2026-11-11: common names with their place at first mention in each text, real witnesses named, natural dates, hostile witnesses named with polemic marked, Jon audio tags in the audio script only, grade 8 as a floor that fails.
 - Quotes verbatim from the vendored file, re-checked against file and line. A narrator's modern-word telling is a paraphrase and does not claim to be the quote.
 - The five `formation_confidence` levels as record tags, never said aloud or shown as labels. A contested point gives both sides by name and has a `contested_claim` behind it. An honest limit is an `absent_detail`.
-- The review checklist, items 1 to 9, 11 and 13, as written there.
+- The review checklist, items 1 to 11 and 13, as written there. In item 10 the close read asks why the council mattered, and its length question is this pattern's own ceiling. The eight early-church person briefs are the bar for a council brief's prose as well: story, joined reasons, evidence inside the telling.
 
 ## How a council differs from a person
 
@@ -19,7 +19,7 @@ Approved to proceed (Mark, 2026-11-14). The pattern every major-council profile 
    - **modern reconstruction**: an editor or historian of the councils (Hefele, Leclercq, McGiffert) who supplies a date, a count or a sequence that no ancient witness gives.
 2. **Acts versus later narratives.** What the acts say is told plainly. What only a later narrative says is told as that writer's account. Where the acts are lost, the brief says so once, early, and says whose account stands in their place. A council with held acts cites them first, before any history.
 3. **Friendly and hostile witnesses.** The winners usually wrote the record. The condemned party's position is told in its own words where the Library holds them. Where it does not, the brief says the view reaches us through opponents and names them. The Who rule for hostile-witness founders applies to the condemned teaching: two independent witnesses for the teaching, or the brief says it rests on one. A participant who called or led the council is a partisan witness for it, placed once and said to be partisan.
-4. **Numbers, dates and names.** A count of bishops comes from a named witness or a subscription list, and the two are kept apart where they differ (a round number in a history and a signed list are different witnesses). A month or year that no ancient witness gives is told as the modern historian's dating, by name ("by Hefele's dating"). This is the Who reviews' "modern date told as an ancient writer's" fault, guarded at the pattern level.
+4. **Numbers, dates and names.** A count of bishops comes from a named witness or a subscription list, and the two are kept apart where they differ (a round number in a history and a signed list are different witnesses). A month or year that no ancient witness gives is told as the modern historian's dating, by name, once and in a clause ("by Hefele's dating"). Where historians differ, the brief gives the date only as far as they agree, and the entry's `uncertain` and `datesNote` carry each side by name. A date is never told flat where the entry itself says it is disputed. This is the Who reviews' "modern date told as an ancient writer's" fault, guarded at the pattern level.
 5. **Issue, decision and outcome are separate.** The issue or controversy that brought them together is one field; what it decided or tried to decide is another; what came of it is a third. A council that failed to decide, or whose decision was rejected, is told as such. The river-level reach is told through events in the outcome, not asserted.
 6. **Confessions through the meeting.** A creed, definition or confession is told as the act of the meeting that made it: who drafted, who signed, who refused. It is listed among the sources under the council's own record.
 7. **A council is shown like a tradition; its people are on the Who click.** A council carries no verdict; its people do. The Who click lists the people in the record with their verdict (WHO, STORY, LISTED) and what part they played. Attending does not make someone a Who. A Who has one profile, shown in the council's list and in their tradition's, never a second copy.
@@ -77,7 +77,7 @@ The page reads in the tradition page's order: the line with era, dates and place
 
 ## Review checklist additions
 
-Run with the Who checklist, items 1 to 9, 11 and 13.
+Run with the Who checklist, items 1 to 11 and 13.
 
 C1. Every main witness in `record` has a kind and, where partisan, a side.
 C2. Where the acts are lost, the brief says so once, early, and names whose account stands in for them.
@@ -86,4 +86,4 @@ C4. Every count of attendees has its witness; every month or year that no ancien
 C5. The issue that brought them together is stated with its sides and witnesses; issue, decided and outcome are separate, and a failed or rejected decision is told as such.
 C6. A creed or confession is told as the act of the meeting, with who signed and who refused where held.
 C7. The entry is in the tradition page's form, with the "Major council" title. The Who click gives each person their verdict and part; no new verdict is made by the council profile.
-C8. The brief is within 2 minutes 30 seconds and reads as a story from a scene.
+C8. The brief is within 2 minutes 30 seconds, which is a ceiling and never a target, and passes the close read of Who checklist item 10.
