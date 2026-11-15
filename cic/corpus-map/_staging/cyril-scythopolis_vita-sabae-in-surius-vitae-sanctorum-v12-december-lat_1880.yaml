@@ -6,6 +6,6 @@ assignments:
   locus: 'the Life at about OCR lines 6460-8758; add 12 to OCR line numbers'
   atlas_ids:
   - chalcedonian-monasticism-judean-desert-and-gaza
-  role: tradition
-  confidence: needs-ruling
-  note: 'A full Life of Sabas in Latin. The volume itself says it may be Metaphrastes''s tenth-century reworking of Cyril''s Life of about 557, so the wording may not be Cyril''s; the placing needs a ruling.'
+  role: context
+  confidence: assigned
+  note: "A full Life of Sabas in Latin. The volume itself says it may be Metaphrastes's tenth-century reworking of Cyril's Life of about 557. Cyril is quoted only from Cyril's own edition."

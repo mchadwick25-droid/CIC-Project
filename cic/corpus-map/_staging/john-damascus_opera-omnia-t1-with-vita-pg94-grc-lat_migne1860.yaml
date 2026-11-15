@@ -18,5 +18,5 @@ assignments:
   atlas_ids:
   - melkite-arabic-christianity
   role: tradition
-  confidence: needs-ruling
-  note: 'The hagiographer''s Life. Its date of writing is not given in this volume''s heading, so its window is the tree''s question.'
+  confidence: assigned
+  note: "The hagiographer's Life. The volume gives no date of writing."

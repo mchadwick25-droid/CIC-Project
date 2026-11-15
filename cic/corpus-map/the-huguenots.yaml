@@ -83,7 +83,7 @@ works:
   author: bodin
   locus: the whole volume; not mapped
   role: context
-  confidence: needs-ruling
+  confidence: assigned
   note: A dialogue of seven speakers on religion, in Latin; an outside witness.
   source_file: bodin_colloquium-heptaplomeres-lat_noack1857.txt
 - row_id: bodin_six-bookes-of-a-commonweale_knolles1606--bodin-the-six-bookes-of-a-commonweale-knolles-1606
@@ -91,7 +91,7 @@ works:
   author: bodin
   locus: the whole volume; not mapped
   role: context
-  confidence: needs-ruling
+  confidence: assigned
   note: His book on the state in the English of 1606; an outside witness.
   source_file: bodin_six-bookes-of-a-commonweale_knolles1606.txt
 - row_id: busbecq_life-and-letters-v2_forster-daniell1881--busbecq-letters-from-france-forster-and-daniell
@@ -99,7 +99,7 @@ works:
   author: busbecq
   locus: the whole volume; not mapped
   role: context
-  confidence: needs-ruling
+  confidence: assigned
   note: The same ambassador's letters from France in a translators' English; an outside witness.
   source_file: busbecq_life-and-letters-v2_forster-daniell1881.txt
 - row_id: crespin_histoire-des-martyrs-t1-fra_benoit-lelievre1885--histoire-des-martyrs-1619-edition-tome-1-livres-i-iv-the
@@ -349,7 +349,7 @@ works:
   author: montaigne
   locus: the whole volume; not mapped
   role: context
-  confidence: needs-ruling
+  confidence: assigned
   note: His essays in the English of 1603; an outside witness.
   source_file: montaigne_essays-v1_florio-saintsbury1892.txt
 - row_id: montaigne_essays-v2_florio-saintsbury1893--montaigne-essays-volume-2-florio
@@ -357,7 +357,7 @@ works:
   author: montaigne
   locus: the whole volume; not mapped
   role: context
-  confidence: needs-ruling
+  confidence: assigned
   note: His essays in the English of 1603; an outside witness.
   source_file: montaigne_essays-v2_florio-saintsbury1893.txt
 - row_id: montaigne_essays-v3_florio-saintsbury1893--montaigne-essays-volume-3-florio
@@ -365,7 +365,7 @@ works:
   author: montaigne
   locus: the whole volume; not mapped
   role: context
-  confidence: needs-ruling
+  confidence: assigned
   note: His essays in the English of 1603; an outside witness.
   source_file: montaigne_essays-v3_florio-saintsbury1893.txt
 - row_id: mornay-charlotte_huguenot-family-in-the-xvi-century_crump1926--a-huguenot-family-in-the-xvi-century-the-memoirs

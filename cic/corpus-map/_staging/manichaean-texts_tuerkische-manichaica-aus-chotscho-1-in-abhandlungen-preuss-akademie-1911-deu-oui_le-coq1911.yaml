@@ -7,5 +7,5 @@ assignments:
   atlas_ids:
   - manichaeism
   role: tradition
-  confidence: needs-ruling
-  note: 'The Manichaeans'' own texts, found at Turfan. The manuscripts are of the eighth to tenth centuries, later than this window, so the placing needs a ruling.'
+  confidence: assigned
+  note: "The Manichaeans' own texts, found at Turfan. The manuscripts are of the 8th-10th centuries."

@@ -7,5 +7,5 @@ assignments:
   atlas_ids:
   - byzantine-imperial-church-heraclian-iconoclast
   role: tradition
-  confidence: needs-ruling
-  note: 'The Life of the patriarch who presided at Nicaea II, by Ignatius the Deacon, in Gentian Hervet''s Latin version; no Greek is printed. The volume gives no date of writing, so the placing needs a ruling.'
+  confidence: assigned
+  note: "The Life of the patriarch who presided at Nicaea II, by Ignatius the Deacon, in Gentian Hervet's Latin version; no Greek is printed. The volume gives no date of writing."

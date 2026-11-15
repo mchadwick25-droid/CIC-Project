@@ -6,6 +6,6 @@ assignments:
   locus: the whole volume
   atlas_ids:
   - joachimite-current
-  role: tradition
-  confidence: needs-ruling
-  note: One of Joachim's own works. The volume's series page files it under writers of the twelfth century, before this entry's start; its date of writing is for the tree to rule on. Published in 1930, the last year the Library's date rule clears.
+  role: antecedent
+  confidence: assigned
+  note: "One of Joachim's own works, written before this entry's start; the current grows from him. The volume's series page files it under writers of the twelfth century. Published in 1930, the last year the Library's date rule clears."

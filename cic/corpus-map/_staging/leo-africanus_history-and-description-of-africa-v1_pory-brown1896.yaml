@@ -7,5 +7,5 @@ assignments:
   atlas_ids:
   - the-coptic-church-under-the-ottomans
   role: context
-  confidence: needs-ruling
-  note: 'A Moor baptised as Giovanni Leone, by the title page, describing Africa, in the English of 1600; an outside witness.'
+  confidence: assigned
+  note: "A Moor baptized as Giovanni Leone, by the title page, describing Africa, in the English of 1600; an outside witness. No census entry is North Africa, so the work sits on this entry."

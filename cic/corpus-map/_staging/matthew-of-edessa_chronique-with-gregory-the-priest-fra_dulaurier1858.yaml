@@ -7,7 +7,7 @@ assignments:
   atlas_ids:
   - armenian-cilicia
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   language: fra
   date: {formation_confidence: unknown, checked: "the title page gives the years the chronicle covers (962-1136, and 1162 for the continuation), not the years of writing; Dulaurier's preface speaks of him as an Armenian monk of the twelfth century (file line 853) and gives no year of writing"}
   note: 'An Armenian monk''s chronicle of 962-1136 and a priest''s continuation to 1162, in French.'
@@ -18,7 +18,7 @@ assignments:
   atlas_ids:
   - bagratid-armenian-christianity
   role: context
-  confidence: needs-ruling
+  confidence: assigned
   language: fra
   date: {formation_confidence: unknown, checked: "the title page gives the years the chronicle covers (962-1136), not the years of writing; Dulaurier's preface speaks of him as an Armenian monk of the twelfth century (file line 853) and gives no year of writing"}
   note: 'A later Armenian chronicle whose first part covers the Bagratid years.'
