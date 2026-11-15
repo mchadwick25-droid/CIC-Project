@@ -6,6 +6,7 @@ import os from 'node:os';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import crypto from 'node:crypto';
+import vm from 'node:vm';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
 const census = JSON.parse(fs.readFileSync(path.join(root, 'cic-website/data/world-census.json'), 'utf8'));
@@ -180,16 +181,15 @@ test('the map keeps person entries off the rivers and shows them through Who', (
   assert.ok(at < map.indexOf('const byId={}; DATA.movements.forEach'));
   assert.match(map, /const personEntries=DATA\.movements\.filter\(m=>PERSON_IDS\.has\(m\.id\)\);/);
   assert.match(map, /DATA\.edges=DATA\.edges\.filter\(e=>!PERSON_IDS\.has\(e\.from\)&&!PERSON_IDS\.has\(e\.to\)\);/);
-  assert.match(map, /const WHO_TRAD_MAX=6, WHO_RIVER_MAX=4,/);
+  assert.match(map, /const RIVER_WHO_MAX=5, TRAD_WHO_MAX=4,/);
   assert.doesNotMatch(map, /data-view-btn=/);
 });
 
 test('Who and the connection lines are never shown together', () => {
   const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
   assert.match(map, /svg\.who-on \.edge-line,svg\.who-on \.edge-hit,svg\.who-on \.continues\{display:none!important\}/);
-  assert.match(map, /if\(whoScope\)whoLinks\.suspend\(\);else whoLinks\.restore\(\);/);
-  assert.match(map, /whoScope=null;whoLinks\.restore\(\);renderWho\(\);/);
-  assert.match(map, /if\(whoLinks\.saved&&\(k==='major'\|\|k\.startsWith\('family:'\)\)&&familyKeys\.some\(f=>!hidden\.has\(f\)\)\)\{whoLinks\.saved=null;clearWho\(\);\}/);
+  assert.match(map, /function setWho\(scope,opts\)\{\n  clearConnections\(\);/);
+  assert.match(map, /function showConnections\(m\)\{\n  clearConnections\(\); if\(whoScope\)clearWho\(\);/);
 });
 
 test('the map holds every tradition\'s people, every person\'s home tradition and card', () => {
@@ -250,7 +250,7 @@ test('a movement retired into another loses its page and redirects permanently',
 });
 
 test('the method page and the era 10 band say where the history ends, in the same words', () => {
-  const line = "The tree's history runs to 2010. Movements since then will be added as they become history.";
+  const line = "The map runs to about 2010. Traditions that began after that will be added once enough time has passed.";
   const page = generate(census)('method.html').replace(/&#039;/g, "'");
   assert.ok(page.includes(`<p>${line}</p>`));
   assert.ok(page.includes('<p>Nothing after 2010 is mapped yet.</p>'));
@@ -303,12 +303,10 @@ test('the movements column sits left of the era rivers, its names reading leftwa
   assert.match(map, /class:'across-lbl',x:m\._x-7,y:m\._labelY,'text-anchor':'end'/);
 });
 
-test('the Movements switch starts off and is remembered like the other switches', () => {
+test('there is no Movements switch: a movement across churches shows while a river it touches is on, and always when it touches none', () => {
   const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
-  assert.match(map, /<button type="button" class="chip" data-toggle="movements" aria-pressed="false"><span class="sw-name">Movements<\/span><span class="sw" aria-hidden="true"><\/span><\/button>/);
-  assert.match(map, /let movementsOn=false;\n\s*try\{movementsOn=localStorage\.getItem\('tree-movements'\)==='1';\}catch\(e\)\{\}/);
-  assert.match(map, /localStorage\.setItem\('tree-movements',movementsOn\?'1':'0'\)/);
-  assert.ok(map.includes('The Movements switch shows movements that ran across churches as thin lines beside their era, for the years they lasted.'));
+  assert.doesNotMatch(map, /data-toggle="movements"/);
+  assert.match(map, /g\.classList\.toggle\('across-out',!!ls\.size&&!\[\.\.\.ls\]\.some\(k=>!laneOff\(k\)\)\)/);
 });
 
 test('ties come only from census links, and a movement line never runs under a later name', () => {
@@ -404,15 +402,27 @@ test('the map draws major councils in their own column, off the rivers, and a co
   assert.match(map, /DATA\.movements=DATA\.movements\.filter\(m=>m\.kind!==COUNCIL_KIND\);/);
   assert.match(map, /\[COUNCIL_KIND\]:'Major council'/);
   assert.match(map, /if\(councilById\[m\.id\]\)\{openCouncilCard\(m\);return;\}/);
-  assert.match(map, /const x0=\(Number\.isFinite\(left\)\?left:70\)-COUNCIL_GAP;/);
+  assert.match(map, /const x0=Math\.min\(\.\.\.cols\.map\(c=>c\.left\)\)-COUNCIL_GAP;/);
+  assert.match(map, /c\._y=Math\.max\(yearToY\(c\.start\),lastY\+COUNCIL_ROW\)/);
   assert.match(map, /cap\.textContent='Major councils';/);
 });
 
-test('Who has one control for each river in each era and one beside each tradition, and no separate profile control', () => {
+test('Who is a mark: a group figure with a count for each river in each era, and a single figure beside each tradition', () => {
   const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
   assert.match(map, /class:'who-pill river-pill'/);
   assert.match(map, /class:'who-pill prof-pill'/);
-  const pill = map.slice(map.indexOf('function profilePill'), map.indexOf('const linkEnd='));
-  assert.match(pill, /label\.textContent='Who';/);
-  assert.doesNotMatch(pill, /personGlyph/);
+  const river = map.slice(map.indexOf('function renderWhoPills'), map.indexOf('function whoFigure'));
+  assert.match(river, /groupGlyph\(\)/);
+  assert.match(river, /t\.textContent=n===1\?'':String\(n\)/);
+  const figure = map.slice(map.indexOf('function whoFigure'), map.indexOf('function setWhoMark'));
+  assert.match(figure, /personGlyph/);
+  assert.doesNotMatch(map.slice(map.indexOf('function renderWhoPills'), map.indexOf('function setWhoMark')), /textContent='Who'/);
+});
+
+test('the map\'s own script parses', () => {
+  const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
+  const open = map.indexOf('<script>\n"use strict";');
+  assert.ok(open > 0);
+  const code = map.slice(open + '<script>'.length, map.indexOf('</script>', open));
+  assert.doesNotThrow(() => new vm.Script(code));
 });

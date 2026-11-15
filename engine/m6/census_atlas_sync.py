@@ -76,6 +76,8 @@ PEOPLE_FIELDS = (
     "people",
     "peopleNote",
     "toldWithin",
+    "major",
+    "activeYear",
     "card",
     "council",
 )
