@@ -42,6 +42,27 @@ works:
     formation_confidence: Documented
   note: 'Era 9 row 174, Joseph Smith: the Doctrine and Covenants.'
   source_file: latter-day-saints_doctrine-and-covenants_kirtland1835.txt
+- row_id: smith-emma_collection-of-sacred-hymns_kirtland1835--a-collection-of-sacred-hymns-for-the-church-of-the-latter
+  work: A Collection of Sacred Hymns, for the Church of the Latter Day Saints; selected by
+    Emma Smith
+  author: smith-emma
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1835
+    end: 1835
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n0 (the
+      title page prints 1835; the OCR does not give it)'
+    formation_confidence: Documented
+  edition_date:
+    year: 1835
+    source: read on the scan's page image, leaf n0 (the title page prints 1835; the OCR does
+      not give it)
+    formation_confidence: Documented
+  note: 'Era 9 row 251, Emma Hale Smith: the hymnbook of 1835.'
+  source_file: smith-emma_collection-of-sacred-hymns_kirtland1835.txt
 - row_id: smith-joseph_history-of-the-church-v1_roberts1902--history-of-the-church-of-jesus-christ-of-latter-day-saints
   work: History of the Church of Jesus Christ of Latter-day Saints. Period I. History of Joseph
     Smith, the Prophet.
@@ -82,6 +103,25 @@ works:
     formation_confidence: Documented
   note: 'Era 9 row 174, Joseph Smith: a life told by another (his mother).'
   source_file: smith-lucy_biographical-sketches-of-joseph-smith_1853.txt
+- row_id: snow_poems-religious-historical-and-political-v1_1856--poems-religious-historical-and-political-by-eliza-r-snow-vol
+  work: Poems, Religious, Historical, and Political, by Eliza R. Snow (vol. I; the volume
+    number is on the library
+  author: snow
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1856
+    end: 1856
+    source: 'the printing''s own title page: line 71, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1856
+    source: line 71, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 252, Eliza R. Snow: her poems (vol. 1).'
+  source_file: snow_poems-religious-historical-and-political-v1_1856.txt
 - row_id: tullidge_life-of-brigham-young_1876--life-of-brigham-young-or-utah-and-her-founders-by-edward-w
   work: Life of Brigham Young; or, Utah and her Founders. By Edward W. Tullidge. New York,
     1876

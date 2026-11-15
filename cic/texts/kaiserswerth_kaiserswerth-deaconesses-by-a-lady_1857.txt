@@ -1,0 +1,2485 @@
+Title: Kaiserswerth Deaconesses; including a history of the institution, the ordination service and questions for self-examination; by a Lady
+Creator: By a Lady (the author is not named)
+Publisher: London: Joseph Masters, Aldersgate Street, and New Bond Street (read on the page image, leaf n5; the OCR of the title page drops it)
+Publication Date: 1857 (read on the scan's page image, leaf n5 (the title page prints MDCCCLVII; the OCR does not give it))
+Rights: Public Domain (pd-us-by-date: published 1857); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
+Language: eng
+Source: archive.org item kaiserswerthdea00deacgoog, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (89,396) equals the size archive.org lists for the djvu.txt.
+Provenance note: The item's own djvu.txt is reproduced after this header with one host addition taken out: Google's own preamble to its scans (47 lines, 3,010 bytes: the notice that begins 'This is a digital copy of a book', through the web-address line that closes its section 'About Google Book Search') was removed at intake. Nothing else was stripped, normalized or corrected, and the edition's own words are untouched. Rights basis: published 1857, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are this file's own lines.
+Content note: An account of the deaconess institution at Kaiserswerth by an unnamed author, given on the title page as 'a Lady' (title page at lines 32-53). Editorial matter: her preface at lines 57-276, which says she visited Kaiserswerth during two summers in Germany and refers to an earlier account by Miss Nightingale. Divisions: the narrative, headed 'Kaiserswerth Sisterhood', at lines 280-1309; an appendix from line 1313 holding the service for the ordination of deaconesses (line 1319), questions for self-examination (line 1826) and extracts from the rules for deaconesses (line 2330); the text ends at line 2478. A note at lines 52-53 gives any profit to the institution. About 15,148 words.
+
+______________________________________________________________________
+
+
+
+
+
+
+
+1)0. d 
+
+
+
+600107556U 
+
+
+
+
+/ 
+
+
+
+KAISERSWERTH DEACONESSES. 
+
+
+
+A HTSTOET OF TILE INSTITUTION, 
+
+
+
+fDrbinalion Sctbitt nnU tiQutelions Car SdUcxamfnalian. 
+
+
+
+By a L.^Y. /C^^^X 
+
+
+
+//O.cL. Ith b- 
+
+
+
+Should this work produce any profit to the author, it will 
+be given to the Kaiserswerth Institution. 
+
+
+
+PREFACE. 
+
+
+
+On my return to England^ after a residence of 
+two summers in G^rmany^ during which time I 
+had employed myself in visiting many schools, 
+hospitals^ and other institutions, it was suggested 
+to me that some account of my visit to Kaisers- 
+werth might be both useful and interesting. 
+
+A few years ago it would have been necessary 
+to preface this by a defence of Sisterhoods in 
+general; but recent events have dispelled much 
+prejudice : it is felt, that althousrh much remains 
+to be done, a step was taken In the right di- 
+rection when the first band of fourteen nurses 
+was sent out, the only ones considered suffi- 
+ciently trained of the two hundred and eighty 
+lady volunteers. It is no longer necessary to 
+show how much work there is to be done in hos- 
+pitals, schools, workhouses, penitentiaries, pri- 
+sons, and poor parishes, this has been done Vv^ 
+
+
+
+4 PREFACE. 
+
+abler hands ;i but it occurred to me^ that a more 
+detailed description than that given six years ago 
+by Miss Nightingale of an institution^ in which 
+she was herself trained^ and which has since 
+that time added many new features^ might assist 
+those who are considering the best way of turn- 
+ing to account the wasted energy of our country- 
+women^ of those whose highest happiness it 
+would be^ like Mary^ Joanna^ and Susannah, to 
+follow Christ (S. Luke viii. 3), and listen to His 
+words, as He tells His Apostles of the good seed 
+sown by the wayside, which, if left exposed, will 
+be devoured by the birds of the air, — when He 
+speaks of the thorns and thistles, the fashionable 
+restraints and worldly pleasures, which prevent 
+the bringing forth much fruit, — of the self-in- 
+dulgent spirit, which receives the Word with joy 
+only when it does not interfere with comfort and 
+reputation, but withers away in the cold blasts of 
+contempt, and draws back when told " Thou art 
+beside thyself/' There are many, who when 
+they pray to God to comfort and succour all who 
+are in trouble, sorrow, need, sickness, or any 
+
+1 '• Account of the Institution for Deaconesses/' Hookham. 
+" Eastera Hospitals and English Nurses.'* *♦ Ismeer." Mrs. 
+Jameson's '* Sisters of Charity and Communion of Labour." 
+"Ecclesiastic" for January 1855. ''Hospitals and Sister- 
+hoodB, * * Murray. 
+
+
+
+PRBFACE. 5 
+
+other adversity/ cannot be satisfied with giving a 
+small portion of their money, who tremble at 
+the thought of being numbered " with the women 
+who are at ease, with the careless daughters/' 
+who desire to offer themselves a lively sacrifice. 
+O that Christ would take us by the hand I He 
+has but to speak the word, " Daughter, I say unto 
+thee. Arise,'' and we shall arise and minister to 
+Him; then will the scomers acknowledge, we 
+were only sleeping, and our souls will magnify 
+the Lord. 
+
+But we must not expect any seed to take deep 
+root and bear fruit in a day ; the Apostles and 
+deacons of the early Church went through a 
+period of probation. Some will be called, who 
+cannot be chosen for the work ; who want that 
+combination of wisdom and devotion required in 
+those sent to prepare the way where Christ in- 
+teuds to come. (S. Matt. x. 16.) There are 
+many difficulties in our way, but we must not 
+call them impossibilities ; for if we believe with 
+Pastor Fliedner, that the order of Deaconesses 
+was founded by the Apostles, we shall not be 
+afraid, that in restoring it, we are doing any 
+thing to endanger the truth. In a short pub- 
+lished account of the Institution for Deaconesses, 
+Pastor Fliedner thus writes : 
+
+
+
+6 PREFACE. 
+
+'* The Apostles of our Lord^ on the first es- 
+tablishment of the Church at Jerusalem^ besides 
+their spiritual duties^ had undertaken to provide 
+for the bodily wants of the poor. (Acts vi. 2.) 
+They soon however found it inexpedient for them 
+to leave the Word of God and serve tables, but at 
+the same time were unwilling to entrust the care 
+of the poor to unsystematic charity. They there- 
+fore desired the multitude of the disciples (Acts 
+vi. 8) to look out seven men of honest report, and 
+full of the Holy Ghost, and of wisdom, who 
+should be called Diakonoi (i.e. servants) of the 
+poor. The disciples chose seven men whom they 
+set before the Apostles; and when they had 
+prayed, they laid their hands on them. (Ver. 6.) 
+Before their appointment to this office in the 
+Church, the deacons were required, according to 
+the directions of S. Paul, to pass through a pro- 
+bationary trial. (1 Tim. iii. 10.) 
+
+" Soon after this it was found necessary to ap- 
+point also female deacons, because they were better 
+able to attend upon the women and children^ and 
+the Church could more easily obtain access by 
+their means to the Jewish and heathen women, 
+than would otherwise have been possible, when 
+we consider the restraints imposed upon women 
+In the east. S. Paul mentions Phoebe, a (§*axo»o^) 
+
+
+
+PREFACE. 7 
+
+deaconess of the Church at Cenchrea (Rom. xvi. 
+1), desiriDg the Christians there ' to receive and 
+assist her in whatever business she had need of 
+them/ He intreats the brethren at Philippi 
+(Phil. iv. 3) to help those women which laboured 
+with him in the Gospel. He greets Tryphsena 
+and Tryphosa, the labourers in the Lord^ and 
+Persis, who laboured much in the Lord. We hear 
+also of the daughters of Philip, who prophesied. 
+
+'^ The deaconesses were some of them widows 
+(1 Tim. V. 9, 10), from that class qf persons for 
+whom the Church must have provided. Some 
+were unmarried, as TertuUian^ and Epipha- 
+nius^ at the end of the second and beginning 
+of the fourth century tell us. Like the deacons, 
+they were ordained to their office by the laying 
+on of hands.3 Some were advanced in years, but 
+many were admitted young, because a strong con- 
+stitution was required in those who undertook to 
+nurse the sick. Besides caring for the infirm and 
+poor, they visited prisons,* instructed as cate- 
+chists the female candidates for baptism^^ anointed 
+
+" Tertul. de Veland. Virg. c. ix. 
+^ Ezposit Fid. n. xxi. 
+
+3 Concil. Chalced. c. xv. — Constit. Apost. lib. viii. c. xix. 
+See Coteler, Vol. II. p. 407. 
+* Coteler. not. in lib. iii. c. xv. 
+^ Hieron. com. in Rom. xvi. I. 
+
+
+
+8 PREFACE. 
+
+the dead for burial, and performed other offices 
+as servants of the Church. 
+
+" Their successful labours excited the hatred of 
+the heathen. In the persecution under Trajan, 
+at the beginning of the second century, two dea- 
+conesses were brought to the rack, but remained 
+faithful. In S. Chrysostom^s time, towards the 
+end of the fourth century, forty deaconesses were 
+appointed to the Church in Constantinople, and 
+among others Olympias, who distinguished her- 
+self by her self-denial and unwearied charity.^ 
+
+''This office continued in the Latin until the 
+eighth, in the Greek Church until the twelfth 
+century, and ceased in both chiefly on account 
+of the abuses that had crept in. But amongst 
+the Waldeuses and the Bohemian and Moravian 
+brethren there were still women called elders, 
+who performed the duties of deaconesses. They 
+superintended the arrangements of the Church, re- 
+minded the younger women of their duties (Titus 
+ii. 4), settled disputes, and sought to prevent all 
+that might cause scandal. They visited the sick 
+of their own sex, consoled mourners, and assisted 
+the needy. Many chose the unmarried state, not 
+because they imagined that they would thus at- 
+tain a higher place in heaven, but that they 
+
+* Sozomen, lib. viii. c. ix. 
+
+
+
+PREFACE. 9 
+
+might have more leisure in the performance of 
+these duties. 
+
+''After the Reformation the order of dea- 
+conesses was restored in various places. The 
+Prince of Sedan, in the Netherlands, after he 
+and most of his subjects had accepted the Re- 
+formation, bestowed in 1559 the money belong- 
+ing to the suppressed convents, upon the ' De- 
+moiselles de Charit^^ to assist the sick, the poor 
+and the aged. 
+
+"The first general Synod of the Reformed 
+Church in 1568, restored the office of deaconess, 
+which had existed in the Apostolic Church, and 
+we find some traces of it amongst the English 
+refugees in 1608/' 
+
+How far the institution at Kaiserswerth has 
+been successful in training deaconesses, it is the 
+object of these pages to show. 
+
+
+
+KAISERSWERTH SISTERHOOD. 
+
+
+
+During a residence of some months in Ger- 
+many^ I had become acquainted with several 
+'^ Sisters'' from Kaiserswerth^ and invariably found 
+that their faces beamed with pleasure when they 
+spoke of their adopted home ; I became so inte- 
+rested in the institution^ that I determined to visit 
+it^ and having obtained Pastor Fliedner's kind 
+permission to spend a few days there^ took up my 
+abode early one morning in the Feierabendhaus. 
+
+I was received by a very agreeable and intelli- 
+gent deaconess, (diaconissin) to whom I was the 
+bearer of a letter from her sister; she imme- 
+diately introduced me to Mrs. Fliedner, who 
+arranged how my time should be disposed of. 
+
+But before proceeding to describe what I saw, 
+I must give some description of the Institution 
+itself. 
+
+Kaiserswerth is a small town uot fet ^^>ss. 
+
+
+
+12 KAISERSWEBTH SISTERHOOD. 
+
+Diisseldorf. The nearest railway station is Kal- 
+kum^ whence an agreeable walk of about two 
+miles leads to the ^ Diaconissen-Anstalt/ This is 
+situated close to the Rhine^ and with its nu- 
+merous houses and gardens may be said to form 
+a small village. An old tower^ now used as a 
+store-house^ and the ruins of an imperial castle^ 
+(from which the town takes its name) gives it 
+a picturesque appearance. 
+The Institution consists of — 
+
+1. The Parent-house, or house of education 
+for the two classes of sisters, namely, both the 
+nursing and teaching sisters, during the time that 
+they are going through the various departments, 
+under the direction and superintendence of ex- 
+perienced deaconesses. 
+
+2. The Hospital. 
+
+8. The Training School. 
+
+4. The Day and Infant School. 
+
+6. The Orphan Asylum. 
+
+6. The Magdalen Asylum. 
+
+7. The Lunatic Asylum for women. 
+
+There are now 240 sisters, whose duty it is to 
+serve in the various institutions at Kaiserswerth, 
+and in similar houses at home and abroad, to 
+which they may be appointed by Pastor Fliedner, 
+— to visit the sick and poor, (as our district visi- 
+
+
+
+KAISERSWERTH SISTERHOOD. 13 
+
+tors, but more systematically) to nurse the poor 
+in sickness^ when they can be spared^ to attend 
+families, who ask for their services, and, in time 
+of war, to be ready to assist in the military hos- 
+pitals. They never go singly when sent to reside 
+in other institutions. (S. Mark vi. 7.) 
+
+Pastor Fliedner and his wife are called Father 
+and Mother, and are looked upon with the 
+greatest affection and reverence. The Deacon- 
+esses are received from various ranks, so that 
+whilst some have been servants, others are the 
+daughters of noble families. When any person 
+is desirous of admission, she must obtain a medi- 
+cal certificate that, her health is generally good, 
+and a letter of recommendation from the clergy- 
+man of her parish, as well as the consent of het 
+parents, when living.^ If she seem in earnest, 
+she is admitted to the ante-probationary house, 
+which is quite shut off from the other depart- 
+ments; its inmates, however, work under the 
+strict observation of the senior sisters ; the period 
+of residence in this house varies from a few weeks 
+to a year, and some, if found incompetent, are re- 
+jected. When the superior sisters are satisfied 
+both of the sincerity and capability of the candif 
+date, she is admitted as (Probeschwester) proba- 
+
+1 For farther particulars, see A.\^i^ecLdiiL^« 
+
+C 
+
+
+
+14 KAISEBSWEBTH 8ISTEEHOOD. 
+
+tionary sister. She now pats on the Sisters' 
+dress^ a dark bine spotted cotton and a white cap 
+with a plain narrow edgings and goes through 
+each particular station (or department) under the 
+direction of the respective sisters^ who are respon- 
+sible to the head mistress of the probationaries. 
+•Every afternoon some time is devoted to instruc- 
+tion in singing, etc.^ for many come quite youngs 
+and those who belong to the poorer classes often 
+require some additional elementary teaching. 
+Such deaconesses as are suited for it become 
+teaching sisters. Those trained as Lehrschwes- 
+tem (teaching Sisters) are not required to go 
+through all the departments; they must, how- 
+ever, learn something of cookings housekeepings 
+and the care of sick children. 
+
+The average time of service as probationer 
+(probeschwester) is one year, but this period is 
+dependent upon the disposition and inteUigence of 
+the sister. ^ Should she be considered fit, and desire 
+it, she is ordained (eingesegnet) as deaconess.^ 
+She then puts on the distinguishing dress, a blue 
+spotted cotton for week days, and for Sundays 
+a blue stuff, a plain linen collar, and a spotted 
+muslin cap with a net quilling, a black satin 
+
+^ It may vary from six months to more than two years. 
+^ See Appendix A. 
+
+
+
+KAISERSHVEBTH SISTERHOOD* 15 
+
+bonnet^ and a black shawl or cloak ; this costume 
+marking their office is always a protection to 
+them^ but especially in their solitary night jour- 
+neys. Certain sisters are employed in making 
+the dresses for the whole establishment. 
+
+Those who are fully admitted deaconesses are 
+sent out^ if they can be spared, to various hos- 
+pitals, &c., but the demand for them is so great, 
+that Pastor Fliedner is sometimes obliged to send 
+those who have not completed their time of pro- 
+bation. 
+
+On taking upon herself the office, a deaconess 
+binds herself to serve for five years, unless for rea- 
+sons considered sufficient by the superiors she 
+should retire, or be dismissed. Should family 
+duties require her presence, she is not only allowed, 
+but advised to resign her office immediately : at 
+the end of this period she renews it for another 
+five years, or a longer period.i 
+
+Deaconesses have not often retired, but some 
+have married. 
+
+The institution undertakes to provide for all 
+sisters, when no longer capable of active service. 
+The Feierabend (holyday evening) house is to 
+be set apart for their residence during the eve- 
+ning of their days. There they can have th6 
+
+' Lawa of the foundation, § 6, § 7. 
+
+
+
+16 KAISERSWERTH SISTERHOOD. 
+
+society of the younger deaconesses^ and assist in 
+the house^ as far as they are able^ and in the sick 
+wards. 
+
+I was much struck by the sunny joyfiilness 
+which pervades the whole establishment ; there is 
+none of that gloominess and melancholy associated 
+with black crape and iron railings^ which we are 
+so apt to connect with the name of sisters ; they 
+seem overflowing with love to Him Who hath 
+loved us^ and to have found indeed joy and peace 
+in believing. Of course this, as every other train- 
+ing place in the world^ has its trials ; but as one 
+of them said to me, '^ There is something so 
+satisfying in the work ;'' and another, " If people 
+only knew how much happiness we have, many 
+more would come to us.** 
+
+The diet is of course of the simplest description ; 
+the sisters rise at half-past four or half-past five, 
+breakfast at half-past six, on a beverage made of 
+roasted and ground rye, without sugar, which 
+makes a very fair substitute for coffee ; after break- 
+fast a hymn is sung, a portion of the Bible is read, 
+and prayer is made by one of the sisters, of 
+course, according to German custom, extempore. 
+Dinner at twelve, a plain soup, perhaps meat, with 
+a liberal supply of vegetables. At three, rye- 
+eoSee, inth one piece of white bread, and black 
+
+
+
+KAISEBSWEETH 8ISTB&H00D. 17 
+
+bread and treacle ad libitum. For supper soap^ 
+black bread and butter. After supper a hymn is 
+sung^ and a chapter read out of some devotional 
+book^ and prayer is again made by a sister, with 
+special reference to the institution , for Father and 
+Mother, (i.e. Pastor Fliedner and his wife), for all 
+sisters at home and abroad, for all travelling, etc., 
+as well as for spiritual graces. 
+
+The first house which I visited was the Asylum 
+for Female Lunatics, or, as they call it. Healing 
+Institution (Heil-Anstalt.) It is a house three 
+stories high, in each of which the inmates are 
+arranged, generally with reference to their former 
+position in society. The story consists of a long 
+gallery, into which the doors of the cells open ; 
+each is a light, cheerful looking room, with, in 
+most cases, two beds, one for the patient, the 
+other for a sister, who sleeps, when it is practi- 
+cable, in the same room or in one adjoining; the 
+refractory patients have a separate house. At the 
+end of this gallery is a large room overlooking 
+the Rhine, where the patients receive their friends, 
+and have music. There is a chapel, with one 
+part railed off, for those who are not quite to 
+be trusted ; also a greenhouse and a nice garden. 
+Pastor Distelhoff and his wife (the daughter of 
+Pastor Fliedner) reside here ; there are at T^cesent 
+
+c5, 
+
+
+
+18 KAISERSWERTH SISTERHOOD. 
+
+about twenty patients^ but there is accommodation 
+for many more. 
+
+I spent nearly the whole afternoon in the rooms 
+devoted to sick children. This is a favourite post 
+with the sisters j they have some infants only a 
+few months old^ sent to them on the mothers' 
+death. Many come to be cured of club foot and 
+rickets : this is called, all over Germany, even in 
+the hospital lists, the English sickness. Those 
+who are old and strong enough to learn, have 
+daily some instruction from the sisters, and 
+amuse themselves with games, or plaiting straw 
+for making hats, mats, slippers, &c. I took les- 
+sons in this useful art from a fat, merry boy, 
+whom the others called Grandmamma. All are 
+taught to make themselves useful in waiting upon 
+themselves and others. I was much pleased with 
+the results of the kind and judicious training of 
+the sisters : the children seemed happy and obe-* 
+dient. 
+
+On Sunday we got up soon after five, break- 
+fasted, joined in the morning prayers and hymn, 
+read and talked to the sisters who were not too 
+busy till half-past nine; we then went to the 
+chapel, and had the usual Lutheran service, with 
+an interesting sermon from Pastor Distelhoff. 
+After which we visited the ante-probationary 
+
+
+
+KAISERSWERTH SISTERHOOD. 19 
+
+rooms, the sick wards, and surgery, where the 
+sisters learn to make up medicines, and per- 
+form simple operations, cupping, &c. After 
+dinner I had a delightful walk with a large party 
+of Sisters, climbed up the ruin, and visited the 
+prettiest points we were able to reach within our 
+prescribed time. On our return we assembled at 
+Church : instead of giving a sermon. Pastor Flied- 
+ner catechised children, probationary sisters and 
+deaconesses, beginning with the first Epistle of 
+S. Peter. This service was highly interesting, 
+and the catechumens, it is scarcely necessary to 
+say, were well instructed. 
+
+After Church we visited the Magdalen Asylum, 
+the Orphan school, containing about thirty chil- 
+dren, and the adjacent Training school, where the 
+pupils receive instruction from the teaching sis- 
+ters and the resident clergy, and give lessons in 
+the orphan and infant schools, in presence of their 
+teachers. These pupils (seminaristinnen), after 
+passing the Government examination, are sent as 
+mistresses to schools, or governesses to private 
+families ; but they do not generally become dea- 
+conesses.^ 
+
+* Partly because their duties are not of such a nature as to 
+require it, — and in some cases it might be difficult to comply 
+with the rules ; partly because the difficulty oC kfift.>^vss.%Nvs^ •*. 
+
+
+
+20 KAISBASWEBTH SISTBBHOOD. 
+
+We next went to Pastor Fliedner's library: 
+here books published for the institution are soldi 
+and the mass of papers from all the houses in 
+connection are arranged in their respective pigeon-^ 
+holes by a sister^ who has this charge. I need 
+hardly say that everything is in the most perfect 
+order^ otherwise it would be impossible to keep 
+accounts correctly^ and arrange the monthly and 
+yearly reports. 
+
+Sisters who are ill, or quite incapable of assist- 
+ing, are sent to a country place at some distance, 
+called Salem, where they stay until their health' is 
+restored. 
+
+After going through these various departments, 
+we went into the infant schoolroom, to be present 
+at the Sunday school. This was held by the 
+sister to whom I was first introduced ; and I was 
+never present at a lesson which seemed to give so 
+much pleasure to children and listeners, as well 
+as to the teacher, who certainly understood the 
+art of drawing out children by means of ques- 
+tions. At seven, as it was the birthday of one of 
+
+constant superintendence over so large a body of teachers, who 
+are of course much dispersed, would be too great ; and partly 
+because their numbers would too much swell the ranks of 
+those whom the institution is bound to support in sickness 
+mad age. 
+
+
+
+KAISERSWERTH SISTERHOOD. 21 
+
+the orphans^ there was a feast^ consisting of rice^ 
+plams^ and bread and butter. The room was 
+prettily ornamented with hanging lamps and 
+wreaths of flowers, and about twelve sisters were 
+invited. Mr. and Mrs. Fliedner and two clergy-* 
+men came. After we had sung a hymn chosen 
+by the child, Pastor Fliedner gave a book, and a 
+nice address. He spoke particularly of our duty, 
+not simply to serve, but also to imitate Christ. 
+After supper Pastor Distelhoff and a resident 
+candidate kept not only the children, but us also 
+amused for more than an hour, with tales, warn- 
+ing and instructive, such as the Germans excel in 
+relating. We then concluded with a hymn and 
+prayer. 
+
+I left Kaiserswerth with a letter kindly given 
+me by Pastor Fliedner to the sisters at Diissel- 
+dorf, where I spent a most agreeable day in the 
+hospital superintended by them. 
+
+I think it will not be uninteresting to trace the 
+origin and progress of the Institution for Dea- 
+conesses (Diaconissen-Anstalt), taking as our 
+guide a short account published by Pastor Flied- 
+ner in the " Armen und Kranken Freund.^^ 
+
+In 1822, its founder was appointed to his first 
+living at Kaiserswerth, an extremely small village 
+on the Rhine, containing about two hundred of the 
+
+
+
+22 KAI8BRSWEBTH SI8TBttH00D» 
+
+Reformed Faith^ nearly all of whom were connected 
+with a large velvet manufactory : the rest of the in- 
+habitants were Roman Catholics* He had scarcely 
+been four weeks in the place when the firm failed^ 
+the workmen were thrown out of employment^ 
+andj if not compelled to remove elsewhere^ were 
+no longer able to pay for a church and school. 
+Pastor Fliedner was offered another living: he 
+answered that he could not consider it consistent 
+with his duty as shepherd to desert his flock just 
+at a time when they most needed spiritual care 
+and watchfulness. He therefore collected^ in 
+the neighbouring communities^ enough for the 
+more immediate wants of his church ; but^ find- 
+ing this would not long suffice^ he undertook^ 
+in 1828^ a journey through Holland and Eng- 
+land^ in order to obtain pecuniary assistance. 
+He became interested in many of our charitable 
+institutions^ but the societies whose aim was to 
+improve the prisons chiefly attracted his notice. 
+
+On his return^ finding his small congregation 
+did not require the whole of his time^ he obtained 
+permission (1825) to hold a service in the prison 
+at Diisseldorf ; the space assigned for this service 
+consisted of two sleeping-rooms^ connected by a 
+doorway^ in which he stood so as to be heard by 
+both men and women. 
+
+
+
+KAISBRSWEBTH SISTERHOOD. 23 
+
+Having thus taken upon himself the office of 
+Chaplain^ he necessarily gained an insight into 
+the melancholy state of the prisons. To use his 
+own words^ " There was no classification^ no re- 
+gular employment^ no instruction for the children : 
+prisons were indeed schools of yice. There was 
+great want of jcleanliness^ the food and beds were 
+bad ; but the governors of prisons in the whole 
+province were rich,'' 
+
+In 1826 he travelled through Bhenish-Prussia^ 
+examined the prisons^ and promoted the esta- 
+blishment of a prison society. And now he began 
+to feel the need of such servants of the Church as 
+8. Paul mentions under the title of deaconesses^ 
+to undertake the eare of the female prisoners. 
+
+On his return he represented to the Diisseldorf 
+Benevolent Society the necessity of founding an 
+asylum, to be superintended by women, where the 
+female prisoners might reside on their dismissal, 
+where they might receive religious instruction, 
+and whence, after their good resolutions were 
+tested and strengthened, they might be sent to 
+service in well-regulated families, or be otherwise 
+employed. But who would undertake the ma- 
+nagement 7 AH kinds of objections were raised. 
+At last Pastor Fliedner declared himself ready to 
+undertake it. 
+
+
+
+24 KAISBRSWERTH SISTERHOOD. 
+
+" In my first wife/' he says, " I had indeed a 
+faithful helper. She had for several years served, 
+out of charity, in a house of refuge for neglected 
+children, and had intended to devote herself en- 
+tirely to the care of the prison in Diisseldorf. 
+She obtained the assistance of an early friend, 
+who, for want of a better asylum, was installed in 
+a small house in my garden. We soon after re- 
+ceived the first inmate, and at the end of the 
+month I was able triumphantly to tell a certain 
+Countess — who had prophesied that our plan 
+would never succeed, and that all the inmates would 
+run away — ^that things were progressing favour- 
+ably. We shortly after hired a larger house, and 
+our asylum was about to be removed, when all at 
+once the families inhabiting the house declared 
+they would not keep their promise of removing 
+into a smaller dwelling. Rather than insist posi- 
+tively on our right, we resolved to yield, and our- 
+selves take possession of the smaller one; but 
+when they saw us making preparations for this^ 
+they came to a better mind, and we experienced 
+the truth of the promise, ^ Blessed are the meek, 
+for they shall inherit the earth.' '^ 
+
+" Thus the work came properly into operation, 
+and gave me and my wife much to do, both with 
+regard to the internal and external arrangements. 
+
+
+
+KAISERSWERTH SISTERHOOD. 25 
+
+We were obliged to bring together nearly all the 
+money ourselves, for we only received from the 
+Prison Society about £22. 10s. a year ; but the 
+difficulty of doing this was nothing compared 
+with that of reclaiming the degraded convicts. 
+God, however, strengthened our weak faith, by 
+allowing us to see the good seed spring up in the 
+hearts of five of the inmates. We had also ob- 
+tained the help of a most patient and loving assist- 
+ant, who afterwards married a missionary in Borneo, 
+where she is now working with much success/' 
+
+The destitute and neglected children next at- 
+tracted Pastor Fliedner's notice; he established 
+first a knitting, and afterwards an infant school, 
+for children, whose mothers went out to work. 
+This also was successful, and he had now time to 
+consider the state of the sick poor. ^^ How often,'' 
+he says, " had I seen them almost forsaken, their 
+bodily wants badly provided for, their spiritual 
+quite neglected, — fading away in unwholesome 
+rooms, and perishing like the leaves in autumn : 
+how many even populous towns were without 
+hospitals, and, where these did exist, I had found 
+that, though sometimes the entrance hall was 
+splendidly adorned with marble, the nursing was 
+bad, — and the doctors complained bitterly of the 
+drunkenness and immorality of the hired servants. 
+
+D 
+
+
+
+26 KAISEBSWBRTH SISTERHOOD. 
+
+'* And what shall I say of the spiritual care ? 
+In many hospitals there was no chaplain^ and in 
+very few a chapel: formal religious superinten- 
+dence had indeed survived in the Boman Catholic 
+hospitals^ but this could not satisfy a close ob- 
+server. Did not such evils cry to heaven f Did 
+not our LoBD^s terrible words apply to us f 'I 
+was sick, and ye visited Me not.' Were not our 
+Protestant Christian women able and willing to 
+devote themselves to the care of the sick ? Those 
+who had with so much zeal and self-devotion 
+served in the military hospitals during the wars 
+of 1813 — 1815, had shown us that there were 
+JEilizabeth Fry, and many others who had not 
+feared the pestilential air in the prisons, and our 
+own fellow-labourers in the asylum and schools 
+had given us encouragement and confidence. 
+
+^^ Had not the Apostolic Church made use of 
+women to nurse the sick, and appointed some 
+to the office of {huKovog) deaconess ? Had not 
+the ancient Christian Church, following the ex- 
+ample of the first disciples, set apart those deacon- 
+esses as servants of the Church ? and should we 
+longer hesitate to revive this office, and restore 
+these holy handmaids of the Lord ? These and 
+similar considerations gave us no rest. 
+
+^^Bat surely our little Kaiserswerth was not the 
+
+
+
+KAISEBSWEBTH SISTERHOOD. 27 
+
+right place to found a Protestant house for deacon- 
+esses, and to educate Protestant nurses, a place 
+with scarcely 1800 inhabitants, nearly all of 
+whom were Roman Catholics ; it would not sup- 
+ply enough patients for the purpose, and was 
+so poor that we could not there expect to obtain 
+the necessary funds. Besides, older and more 
+experienced pastors were fitter than I for such an 
+undertaking. I went to five neighbouring towns, 
+which I considered suitable, and begged the clergy 
+to undertake such an institution. They replied, 
+* that they had too much to do; whilst I, with my 
+small congregation and in the quiet village of 
+Eaiserswerth, was favourably situated ; that Gk)i> 
+had given me opportunites for obtaining the neces- 
+sary experience during my travels, and He could 
+also direct money, patients, and nurses to Kaisers- 
+werth : they would help me as far as they could.' 
+" Well, then we thoUght God intended us to 
+take this weight upoti our shoulders. We first 
+looked about for a house ; just then the largest 
+and handsomest house in the village was to be 
+sold for £345 ; but we had no money ; however, 
+we bought the house on April 20th, 1836. I 
+undertook to pay for it at Martinmas, 11th No- 
+vember. It was long before we received much 
+assistance. At last a friend and her brother 
+
+
+
+28 RAISEBSWEBTH SISTEAHOOD. 
+
+promised to lend us £270 upon a first mortgage, 
+the remaining £76 were very diflBcult to obtain, 
+since we could only offer a second mortgage. 
+However we trusted in God. 
+
+'' On the 30th of May, 1836, the rules for a 
+Deaconess Society (Diaconissin-Verein) were ex- 
+amined, and signed in the house of our friend 
+Count Stolberg, whom we chose as President. 
+We wished our society to be identified with the 
+Church, and for this reason proposed that the 
+Presidents of the Synod should, in virtue of their 
+office, be members of the Council. In the mean- 
+time the inhabitants of Kaiserswerth were most 
+anxious to know for what purpose I had bought 
+the house. At first they thought it was for a 
+new velvet manufacturer, or some rich gentle- 
+man ; but as it came out by degrees that it was 
+ror a hospital under my management, the Boman 
+Catholic tenants, who had a right to remain in 
+my purchased house a whole year, began to make 
+an outcry. ' They had not taken lodgings in a 
+hospital — they would not allow any patient to 
+come into the house while they lived there — if it 
+were attempted, they would remove, and take 
+care to obtain several hundred thalers damage.' 
+They tried to excite the Roman Catholic Clergy 
+to prevent the establishment of a hospital under 
+
+
+
+KAISEBSWBBTH SISTERHOOD. 29 
+
+Protestant direction. But we were not think- 
+ing of making proselytes of the patients j and as 
+the best proof of this^ we had chosen as our 
+doctor a Roman Catholic, who had been recom- 
+mended to us by the Council as the most skilful 
+practitioner, although there were Protestant doc- 
+tors in the town. One of these was so angry 
+at our having preferred the younger and the 
+Roman Catholic, that he went all over the place 
+exciting the inhabitants against our proposed hos- 
+pital. 'A multitude of patients sick of the plague, 
+the cholera, and other infectious diseases would 
+be carried into the hospital ; and since this was 
+in the middle of the town, the infected atmosphere 
+would extend itself to all parts ; the town itself 
+would become one great Lazaretto, and every day 
+corpses would be carried out of the hospital.' 
+
+'^ This gave the Roman Catholics more pretext 
+for their opposition, and one day two Town Coun- 
+cillors called upon me, and required me to desist 
+from my undertaking, telling me the whole town 
+was against it, and they would complain of me to 
+the Government. They advised me to buy the 
+old House of Correction, which was just beyond 
+the town; but this was quite unsuitable, so I 
+answered them quietly, that they might as well 
+leave me in peace, for they would find the estab- 
+
+
+
+30 KAISERSWERTH SISTERHOOD. 
+
+lishment of great use to the town, which was 
+as yet without a hospital. Our Roman Catholic 
+doctor quite lost courage, but we did not ; and in 
+the midst of these difficulties a ray of light shone 
+through the clouds. Besides purchase-money, we 
+had also to provide funds for fitting up the hos- 
+pital; where these were to be found I could not 
+tell. 
+
+'^On the 1st of September I went to a mis- 
+sionary festival at Munchen-Gladbach ; during 
+the meeting I did not venture to mention my 
+scheme; but having been invited with several 
+others who were interested in the cause of the 
+mission to a friend^s house, we talked about 
+various things, and then that glorious hymn — 
+* Jesus Christ rules as King^ — was sung. I 
+felt that He was indeed all-powerful, and with 
+renewed confidence in Him began to speak of my 
+wish to educate Protestant deaconesses. Great 
+sympathy was manifested ; this was a most agree- 
+able surprise to me, for I was almost a stranger^ 
+and my purpose was known only to very few. 
+The following morning my friends accompanied 
+me to Diisseldorf, and on taking leave gave me 
+thirty thalers, (£4. 10^.) which they had in haste 
+collected the preceding evening after my depar- 
+ture. With a beating heart I brought the money 
+
+
+
+KAISEBSWEBTH SISTERHOOD. 31 
+
+to my wife. But now we were to have still 
+more encouragement. An elderly and experienced 
+Christian lady, the daughter of a doctor at 
+Ruhrort, was prevailed on to pay us a visit, 
+and consult with us about taking upon herself 
+the office of deaconess. She had for many years 
+assisted her father and brother, (also a medical 
+man) by nursing, and dressing wounds ; she had, 
+at the same time, gained much experience in the 
+spiritual care of the sick and poor; she was, 
+in every respect, suitable for a deaconess, but she 
+was wavering and undecided, for one of her 
+brothers (the doctor) was opposed to her wishes, 
+and she herself perceived that we had made 
+scarcely any preparations for a hospital. She 
+was still irresolute, and upon the point of starting 
+for home, when a large parcel came by post from 
+Munchen Gladbach ; we opened it before her, 
+and found, to our astonishment, a large quantity 
+of beautiful linen, handkerchiefs, bandages, and 
+many other things for our hospital. This, to- 
+gether with the advice of her brother, a clergy- 
+man in England, whom she always consulted on 
+matters of importance, turned the scale in our 
+favour, and she promised to come in October. 
+
+" I travelled to Elberfeld and Barmen to make 
+collections for fitting up. I was kindly r^ceived^ 
+
+
+
+32 KAISEB8WEBTH SISTERHOOD. 
+
+and obtained numerous subscriptions, though we 
+could point to no fruit, not even to blossoms 
+or leaves; we could only say the seed had been 
+sown, which we hoped might become a tree* It 
+is true that one lady angrily showed me the 
+door, and asked me whether I was not ashamed 
+of trying to found nunneries in our Protestant 
+Church. Some favourably disposed Protestants 
+doubted whether our plan of educating deacon<* 
+esses, who should perform the same duties as the 
+Romish sisters, were practicable; for, as they 
+said, we had not, and indeed could not have^ 
+with our belief in the Bible, that great motive 
+power, which they had, namely, the mistaken 
+belief that we could, by these charitable works^ 
+merit heaven. But I could answer, we certainly 
+have not that strong motive, for it is contrary to 
+God's Word ; but we have a far more powerful 
+one in our grateful love to the Lord Jesus 
+Christ, Who has deserved heaven for us, and 
+bestows upon us all earthly blessings ; and this 
+love constrains us with a divine energy to devote 
+ourselves to His service, in ministering to His 
+sick and suffering members. October came. Sister 
+Gertrude was expected on the 20th, but we could 
+not wait so long — we could not rest until the 
+hospital was opened. A lady from Diisseldorf 
+
+
+
+KAISERSWEBTH SISTERHOOD. 33 
+
+offered to assist us for nine months^ although she 
+would not become a deaconess; and our nurse, 
+who wished to be infant school mistress, proposed 
+to remove for a time into the deaconess-house, 
+and help nurse the sick. Thus was our deaconess- 
+house opened without a single deaconess. 
+
+" On the 13th these two furnished the ground- 
+floor sufficiently for themselves and a few sick 
+persons : they had one table, a few broken chairs, 
+some damaged knives, some forks with only two 
+prongs, some old worm-eaten French bedsteads, 
+various as to form and colour. With sucb furni- 
+ture and cooking utensils as had been presented 
+to us, we took up our abode in the house with 
+great joy and thanksgiving ; for we knew, we felt, 
+that the Lord had here prepared a place for us. 
+But now would any patients come ? Though many 
+of all persuasions were well disposed towards our 
+institution, others were working hard against us. 
+
+*^ However, early on Sunday morning, the 11th 
+of October, our first patient came and begged for 
+free admission ; she was a Roman Catholic servant 
+from the town. Several persons had tried to dis- 
+suade her from coming, and promised her a room 
+and a nurse, but had not kept their word, so her 
+Roman Catholic mistress put in a word for us. - 
+
+'^ Scarcely had she been an hour in the boaae^ 
+
+
+
+34 KAISEBSWEBTH 8ISTEAHOOO. 
+
+when one of the tenants^ in a great passion^ in- 
+sisted on seeing me. Although I akeady had my 
+gown on and was going to churchy he required 
+that I should that minute send the sick person 
+away. * He would not live in a hospital — ^he 
+would indict me.' I hegged him to compose 
+himself^ for I must go to service ; he continued 
+raving — he went straight to the mayor^ who hap- 
+pened to be with some friends at the apothecary's^ 
+and demanded of him very violently^ that he 
+should immediately turn our patient out of the 
+house. The mayor^ a considerate and benevolent 
+man^ said he did not feel himself justified in 
+doing this; then the tenant rated him in the 
+presence of the others, and called him a stupid 
+fellow. The mayor, who was also an officer of 
+militia, demanded an explanation, and the col- 
+lector of taxes who was present at the uproar, 
+ran backwards and forwards as mediator between 
+the mayor, and the tenant, and me ; be was soon 
+successful in reconciling the contending parties. 
+
+" Then the tenant went to Count Stolberg, and 
+offered to go out of the house for one hundred 
+thalers : upon the Count's advice I bargained 
+with the chief tenant, who was a reasonable man^ 
+— I offered thirty thalers for them all, and pro- 
+mised to buy some furniture ; so they went off to 
+
+
+
+KAISERSWEBTH SISTERHOOD. 35 
+
+Diisseldorf, and we had^ to our great joy, the 
+whole house to ourselves. 
+
+'^ We soon found the advantage of this, for it 
+was not long before more patients came from 
+Barmen, and even our own town, notwithstanding 
+the opposition. 
+
+'' On the 20th of September our first deaconess 
+came; some candidates for the office soon fol- 
+lowed ; so now we had no want either of patients 
+or nurses. Shortly before Martinmas, Count 
+Stolberg had prevailed on a noble friend to lend 
+US the remaining £75 to pay for the house. 
+There was no lack of ridicule among the Roman 
+Catholics. They said that because the sisters 
+took no vows of celibacy, and were not subject to 
+other conventual rules, that the whole must come 
+to nothing. 
+
+'' At first the mayor did not even take the 
+trouble to write down the names of the sisters, he 
+thought the whole affair of so little consequence ; 
+we were despised; but here also it was God's 
+pleasure to choose the base things of the world 
+and things which are despised, that no flesh 
+should glory in His presence. Thus we endeav- 
+oured to follow the Apostolic Church ; the seed 
+was sown in faith, and the Lord has already 
+arisen to fulfil His promises, making it to grow 
+
+
+
+36 KATSEBSWERTH SISTERHOOD. 
+
+
+
+up and spread out its fruitful branches over matiy 
+lands. May it prove a tree of life, whose leaves 
+\ may be for the healing of the sick and wretched 
+
+j amongst Christians and Heathens, Jews and 
+
+} Turks ; so that the Church of Christ may be- 
+
+■ come a holy temple, a fit dwelling for God the 
+
+f Holy Ghost/^ 
+
+Such was the apparently insignificant beginning 
+
+[ of an institution which now provides daily for 
+
+about 400 persons residing within its walls, and 
+
+I which since its foundation twenty years ago has 
+
+^ trained 240 sisters. 
+
+The number of sick received into the hospital 
+during the year 1855, was 774. 
+
+The training school, since its first opening, has 
+sent out 740 teachers, during the past year 57. 
+The infant school averages 90 children. 
+The orphan asylum contains about 30. 
+The lunatic asylum has received during the last 
+year 29. 
+
+The Magdalen asylum 28, and since its foun- 
+dation 280. 
+
+To show that the deaconesses are valued in 
+Germany, it is suflBcient to say that they are em- 
+ployed in 41 hospitals, schools, and other charit- 
+able institutions, as well as in many parishes as 
+district visitors. 
+
+
+
+RAISBRSWERTH SISTERHOOD. 87 
+
+In addition to this they have flourishing houses 
+in Jerusalem^ Smyrna, Constantinople^ Pittsburg 
+in North America^ and other places. Five sisters 
+are engaged in the German hospital in London. 
+
+The King and Queen of Prussia have mani- 
+fested a warm interest in the institution, and the 
+church authorities especially feel its value. Dr. 
+Khan, general superintendent of the synod of 
+Rhenish Prussia and Westphalia, recommended 
+it strongly in a circular letter to his clergy ; and 
+other ecclesiastical synods have noticed it fa- 
+vourably. 
+
+It is satisfactory to be able to add the testi- 
+mony of an eminent German physician, who after 
+assisting for three years in a hospital served by 
+paid nurses, had seen the working of the Kaisers- 
+werth deaconesses in another hospital. He had been 
+greatly annoyed by the necessity of perpetually 
+watching the nurses, to see if they drank them- 
+selves or allowed the patients to receive anything 
+from without, and whether they executed the me- 
+dical orders with care and cleanliness. He had 
+found the utmost watchfulness of little use, and 
+even where the nurses complied with the external 
+regulations, they exercised no beneficial influence 
+on the minds of the patients. And this is gene- 
+rally the case with nurses who work for gain, 
+
+E 
+
+
+
+38 KAISERSWERTH SISTERHOOD. 
+
+though there may be exceptions. The toil is 
+great^ the duties often disgusting^ the pecuniary 
+remuneration in comparison small. 
+
+He proceeds to state that where the voluntary 
+system of nursing exists^ no intemperance is ever 
+seen. Every service is performed with the utmost 
+kindness^ cleanliness^ order^ and punctuality. If 
+a shade of ill-humour is seen^ owing to the in- 
+gratitude of patients^ or the difficulty of pleasing 
+them> a word of encouragement is sufficient to 
+make such nurses recommence their work of love 
+with fresh zeal and redoubled patience and per-» 
+severance. He says he never heard a medical man 
+complain of a deaconess interfering with his or- 
+ders^ or giving her opinion on a patient's case ; 
+and he considers that the tone of mind of the 
+patients is raised by the deaconesses. To their 
+teaching and example he ascribes a happy change 
+in many cases. To the objection raised by some 
+that the patient must not be alarmed about him- 
+self, he answers, that he never had the slightest 
+reason td suppose that any of the deaconesses had 
+through her spiritual attendance injured the bodily 
+welfare of a single patient; on the contrary, he 
+had seen much benefit from it to the body. 
+
+Upon reflecting on the result to my own mind 
+of my brief visit to Kaisersworth, I cannot but ad- 
+
+
+
+KAI8EBSWERTH SISTERHOOD. 89 
+
+mire the extensive field of usefulness thus open to 
+earnest^ active^ and pious women. I am pleased 
+with the number, character, and definiteness of 
+the objects provided for their labours, and struck 
+with the appearance of health and happiness 
+which characterizes its inmates, with the day* 
+light of happiness which beams in the midst of 
+sickness and suffering. I could not but contrast 
+the aimless existence of many of my own coun- 
+trywomen, the dreary regions of the fashionable 
+world, with the wide field under cultivation by 
+this band of sisters, who, by God's blessing, 
+penetrate year by year further into the wilderness 
+and rescue so many of their fellow creatures from 
+evils more to be dreaded than want, pestilence, 
+and the sword. Am I wrong in thinking that 
+many, who have sought in a Church ^^ wise in 
+her generation'^ opportunities for usefulness de- 
+nied to them in their own, might if rightly trained 
+and directed, have worthily followed in the foot- 
+steps of the deaconesses of the primitive Church ? 
+At the same time however that we would recom- 
+mend such an institution as that at Kaiserswerth, 
+as a fitting sphere for the labours of earnest and 
+devoted women, we would warn all to try them- 
+selves, lest under the influence of a temporary 
+excitement they take a step which they may 
+
+
+
+40 KAISERSWEBTH SISTERHOOD. 
+
+afterwards desire to retrace. The happiness of 
+a deaconess does not arise from external circum- 
+stances^ it is a peace which the world cannot give. 
+She must be prepared to live away from the 
+worlds without any society but that of a few sick 
+persons and children^ without beautiful services^ 
+to believe, in the midst of unbelief and sin, in the 
+holy Catholic Church and the Communion of 
+Saints. She must be always watching for her 
+LoRD^s coming, for in the midst of the pestilence 
+and near the field of battle is her post.^ Whilst 
+we would remind all that the first duty of a 
+daughter is to show piety at home, — ^that we 
+must not try to serve God by neglecting the 
+duties imposed by Him, that if we have been un- 
+faithful in that which is least, we shall also be un< 
+faithful in much, — we would ask each whether she 
+is standing all the day idle, when the Master hath 
+called her to labour in His vineyard, — whether 
+it can be said of her, '^ she hath done what she 
+could?" 
+
+' At the yearly festival, 1855, eleyen deaconesses were to 
+be ordained, the number was however only eight, for, two 
+days previously, three were ordained and sent to Frankfort, 
+because two sisters had there died suddenly of the cholera. 
+They started not only undismayed, but so full of joyful courage, 
+that they sang as they were going the hymn " Oh that I had a 
+thousand tongues.'* 
+
+
+
+APPENDIX. 
+
+
+
+I. 
+
+Service fob the Ordination of Deaconesses. 
+
+HYMN I. 
+
+O, glorious Prince of life, defend 
+Thy poor house here on earth ; extend 
+To it Thy shielding care, and deign 
+That here be never done in yain 
+The smallest work of love ; and fill 
+Each soul with strength to do Thy will. 
+And oh, let Mary's spirit blest 
+Alike on every sister rest. 
+That they, in hope, through grief and pain. 
+May bear Thy yoke, and count it gain : 
+And if oppressive it should be. 
+Say to their hearts, " Come, follow Me, 
+For I am with thee — I am He 
+Who bore the Cross on Calvary." 
+Then with fresh courage we'll arise. 
+Pursue our journey to the skies. 
+Fight for the home we have in view, 
+And following Thee, our foes subdue. 
+As Thou Thyself, in days gone by, 
+Supportedst uncomplainingly, 
+
+E 2 
+
+
+
+42 KAISERSWEBTH SISTERHOOD. 
+
+In silence and in gentleness^ 
+And in a spirit full of peace. 
+For us the yoke of love, — impart, 
+We pray Thee, Lord, to every heart 
+That peace, which worketh full of love. 
+And wearies not : grant this, to prove 
+That Thou art in us, and that we 
+Even on earth are still with Thee. 
+O Lord, our Saviour and Defence, 
+We seek no earthly recompense ; 
+But be our home Thy mercy-seat. 
+And we shall tread with willing feet 
+Our pathway here ; and striving still 
+Our lowly duties to fulfil. 
+Stand waiting for that harvest bright 
+Reserved for those who walk in light. 
+
+Address. 
+
+
+
+M. A. 
+
+
+
+We are to-day assembled in the presence of 
+our Lord to celebrate a holy solemnity^ to make a 
+solemn^ but joyful covenant. 
+
+In order fully to understand the deep meaning 
+of this ceremony^ let us imagine ourselves stand- 
+ing amongst the first members of the Church of 
+Christ at Jerusalem^ that model of all Christian 
+churches upon earthy just founded by the Apos- 
+tles^ walking in the fear of the Lord^ and fulfilled 
+with the consolation of the Holy Ghost. 
+
+Here, in this newly-planted garden of the 
+Lord, when the number of the disciples was mul- 
+
+
+
+KAI8SBSWBBTH SISTERHOOD. 43 
+
+tipliedj were felt those wants and weaknesses 
+which exist everywhere on earth. There were 
+widows and orphans^ poor and sick members who 
+required daily assistance^ but whose needs were 
+overlooked for want of regular care. Then the 
+twelve called together the multitude of the dis- 
+ciplesj and commanded them to choose out seven 
+men^ of good report^ full of the Holy Ghost and 
+of wisdom^ to assist the widows and orphans^ to 
+take care of the sick and poor, as servants of the 
+Church, or deacons. They then prayed, and laid 
+their hands on them, and ordained them to the 
+o£Gice of deacons. 
+
+Not long after the Church, in like manner, ap- 
+pointed female assistants, to provide for the wants 
+of the sick and poor, as servants of the Church, 
+or deaconesses. The Apostle speaks with praise 
+of Phoebe, as of one in the service of the Corin- 
+thian Church, who had been a succourer of many, 
+and of himself also. (Rom. zvi. 1.) 
+
+These deaconesses laboured after the Apostolic 
+times, for many centuries, profitably in the Church 
+of Christ. Their charity embraced the poor, the 
+sick, prisoners and children ; and in the fourth 
+century forty were active in the Church at Con- 
+stantinople. 
+
+To-day these seven women before us desire to 
+
+
+
+44 KAISERSWERTH SISTERHOOD. 
+
+be appointed to a similar work of love in the 
+service of the Church, as those forty, — ^as Phoebe 
+in Cenchrsea, as the seven deacons in Jerusalem. 
+They are of good report, as those deacons ; they 
+have prayed for the Holy Spirit, and the wis- 
+dom from above (Acts vL 3) ; they hold the mys- 
+tery of the faith in a pure conscience (1 Tim. 
+iii. 9) ; for, feeling their own impurity and sin- 
+fulness, they have turned with penitence to the 
+Saviour of sinners, and He has made known to 
+them the covenant of grace, and purified their 
+hearts by faith. They have also been proved, as 
+S. Paul required of the deacons (1 Tim. iii. 10) ; 
+they have gone through a long period of proba- 
+tion, that we might see whether they were skilful 
+and unblameable in the service of the sick and 
+poor (1 Tim. iii. 10) ; they have, under the direc- 
+tion of the superior and the physician, exercised 
+themselves in the bodily care of the sick and poor, 
+whose servants they are to be; and, under the 
+direction of the ClergymaA, learnt to satisfy the 
+spiritual wants of those under their care, as far as 
+is consistent with their office. Whenever they 
+could, they have relieved the afflicted and the 
+miserable, and have diligently followed every 
+good work. (1 Tim. v. 10.) 
+Having been found worthy to fulfil the duties 
+
+
+
+KAISEBSWERTH SISTERHOOD. 45 
+
+of deaconess^ we will to-day^ in the Name of the 
+Holy Trinity, admit them to this office. 
+
+But it is fitting, my dear sisters, that here, in 
+the presence of God and this congregation, the 
+duties to which you are about to devote your- 
+selves should again be laid before you. 
+
+You are to be servants of the Church of God 
+as deaconesses, especially as ministers of her sick 
+and poor ; but also, if need be, of prisoners and 
+destitute children : it will therefore be your duty, 
+according as you shall be specially directed, to 
+serve in a threefold capacity, as 
+
+(1.) Servants of the Lord Jesus. 
+
+(2.) Servants of the sick and poor, for Jesus' 
+sake. 
+
+(3.) Servants one to another. 
+
+First, as servants of the Lord Jesus. You 
+are not only bound, as every Christian, to live 
+to the honour of God, but you have also made it 
+the special object of your life to serve Him with 
+all your powers in the sick and weak members of 
+His Body. You are therefore so much the more 
+bound to die to all the pleasures, honours, riches, 
+and joys of the world ; to seek your joy in this 
+service of love, through gratitude to Him, Who 
+took upon Him the form of a servant, and suf- 
+fered death for you, even the death of the Cross. 
+
+
+
+46 KAISEBSWEBTH SISTERHOOD. 
+
+You are not to seek for abundant earthly re- 
+ward in this service ; if you have food and raiment^ 
+you must be therewith content. 
+
+You must not seek honour from man; you 
+must go forth unto Jesus^ bearing His reproach. 
+
+You must not seek earthly pleasure and ease ; 
+you must deny yourselves, and take up your cross 
+daily and follow Him. 
+
+What an honour is yours ! You are to minister 
+to Him, Whom it is the highest honour of the 
+holy angels to serve, — ^the King of kings and 
+Lord of lords, — to serve Him as His handmaid^ 
+to wait upon Him in His members. 
+
+As Mary of Bethany had always before her eyes 
+the one thing needful, and therefore rejoiced to 
+sit at Jesus^ feet, but was also ready, when it 
+was permitted her, to wsdt upon and to anoint 
+Him, — as she did not shrink from expense, 
+trouble, or the derision of men, — so must you 
+always desire, on the one hand, to hear Jesus, 
+on the other to serve Him with a love which 
+beareth all things, believeth all things, hopeth all 
+things, endureth all things. Then will His 
+glorious promises be yours. He will say to you, 
+*^ I was naked, and ye clothed Me ; I was sick, 
+and ye visited Me ; I was in prison, and ye came 
+unto me. Whoso receiveth a little child in My 
+
+
+
+KAISBRSWEBTH SISTERHOOD. 47 
+
+Name, receiveth Me/' " Come, ye blessed of My 
+Father, inherit the kingdom prepared for you 
+from the foundation of the world.'' (S. Matt. 
+XXV. 36, 34.) 
+
+Secondly, as servants of the sick and poor, for 
+Jesus' sake. As S. Paul made himself servant 
+unto all, that he might gain the more, so must 
+you be specially servants of the sick and poor, 
+not to obtain praise from them, but out of love and 
+submission to the Lord, Whose representatives 
+you are. 
+
+Therefore you must not serve them with such 
+indulgence as might strengthen their perverse will, 
+but always with the holy zeal of parental affection 
+striving to win their souls for the Lord. 
+
+Thirdly, as servants one to another. 
+
+It is your duty, my sisters, when several of 
+you are working together, to show that love 
+which leads us in lowliness of mind to esteem 
+others better than ourselves. (Phil. ii. 3.) Who- 
+soever will be great among you, let her be the 
+servant of all. If you are one, by a living faith 
+in our common Lord and Saviour, you are 
+more nearly related to one another than if you 
+were united by tbe closest ties of blood. You 
+are acknowledged as daughters by the Great 
+High Priest, Who says to you, " By this shall all 
+
+
+
+48 KAISERSWEBTH SISTERHOOD. 
+
+men know that ye are My disciples^ if ye love 
+one another/' (S. John xiii. 35.) 
+
+As such^ Christian servants^ it is your duty, 
+
+Finally^ with childlike obedience to respect the 
+authority of the superiors of the deaconess-in- 
+stitution who are over you in the Lord^ and 
+labour among you with parental love. 
+
+In the presence of God and this congregation 
+I now demand of you^ 
+
+Are you determined faithfully to fulfil these 
+duties belonging to the office of a deaconess, in the 
+fear of the Lord according to His Holy Word 7 
+
+Answer, Yes. 
+
+May Jesus Christ, the chief Shepherd and 
+Bishop of your souls, seal your profession and 
+vow with His yea and Amen, and own you for 
+ever as His. Amen. 
+
+Draw near, and give me and the superior your 
+hands in confirmation of your promise. 
+
+Kneel down.^ The triune God, God the Fa- 
+THER, Son and Holy Ghost, bless you, make 
+you faithful unto death, and give unto you the 
+crown of everlasting life. Amen. 
+
+Let us who are here assembled, and desire for 
+these deaconesses salvation and blessing, pray for 
+them. 
+
+^ The deaconesses are ordained with imposition of hands. 
+
+
+
+KAISBRSWERTH SISTERHOOD. 49 
+
+come let us worship and fall down^ and kneel 
+before the Lord our Maker. 
+
+(The congregation kneeLj Father of mercy. 
+Who hast led these Thy servants to Thy Son, so 
+that they have given themselves up to Him for 
+His own possession, and desire to serve Him with 
+all the powers of their body and soul in adminis- 
+tering to the sick and poor ; we humbly beseech 
+Thee, be merciful unto them and direct their 
+hearts into Thy love and into the patient waiting 
+for Christ, that they may live and work in Thee 
+and rejoice in Thy favour always. 
+
+Lord Jesus, Thou merciful High Priest, 
+Who hast purchased these souls with Thy Blood ; 
+Thine they are : they have devoted themselves to 
+Thy service. Enlighten them with the bright 
+beams of Thy truth, strengthen the weak by Thy 
+power, and give them an abundant measure of 
+Thy meekness and humility, that they may ac- 
+knowledge themselves unprofitable servants be- 
+fore Thee, and desire to be and do nothing of 
+themselves, but only to the honour of Thy gld- 
+rious Name. 
+
+O God the Holy Ghost, Thou Spirit of 
+peace ; replenish them with Thy peace, that they, 
+as Thy messengers, may bring peace to the homes 
+and families of the sick, and the circle of sisters ; 
+
+
+
+50 KAISERSWERTH SISTERHOOD. 
+
+grant that they may be ever adorned with the 
+ornament of a meek and quiet spirit, and may be 
+so governed by the spirit of obedience towards 
+all their superiors, feeling that in performing their 
+commands they are obeying Thee. (Heb.xiii. 17; 
+1 S. Pet. ii. 13 ; 1 Cor. xiv. 34.) 
+
+Grant them to know, O triune God, that they 
+serve Thee and not man ; pour out Thy peace 
+upon them like a river. (Isa. xlviii. 18.) Let 
+Thy free Spirit sustain them, that they may 
+always feel that it is good for them to be in 
+Thy service, that godliness hath the promise 
+of the life that now is and of that which is to 
+come. 
+
+And when duty calls them afar off, go Thou 
+with them as Thou didst with Jacob. Keep 
+them by Thine angels in all their ways, lest at 
+any time they dash their feet against a stone; 
+lead them with Thy Fatherly hand ; guard them 
+by Thy watchful eye, that when they walk 
+through the dark valley they may not fear, and 
+in the hour of death clothe them with the white 
+garments of Thy righteousness (Rev. iii. 5), and 
+give them palms of victory in their hands (Rev. 
+vii. 9), and grant unto them the crown of life. 
+(Rev. ii. 10.) Amen. Amen. 
+
+
+
+KAISERSWERTH SISTERHOOD. 51 
+
+HYMN II. 
+
+CBrfore the Cekbraiion of the Holy Communion^) 
+
+Lord, let them of those five be foundy 
+Who when they hear the joyful sound 
+
+Of Thy return, shall bear 
+Their shining lamps, and on that mom 
+To greet Thy Second Advent's dawn. 
+
+With joyful hearts prepare. 
+
+O Lord, we make our prayer to Thee, 
+That faith, and hope, and charity, 
+
+May all their hearts inspire : 
+O Thou, of ev*ry light most bright, 
+Before Whom darkness turns to light. 
+
+Quicken each good desire. 
+
+Preserve their souls in faithfulness, 
+Come quickly, heal, renew, and bless ; 
+
+Grant that each hour may be 
+So counted, blessed Lord, as Thine, 
+That some good deed in each may shine. 
+
+Each day be given to Thee. 
+
+Exhortation. 
+
+Ye have now entered as servants of Christ 
+into His vineyard ; to you is entrusted the joyful 
+duty of ministering to your Saviour in His sick 
+and weak members. Arise^ then^ arise^ my sis- 
+ters, gird yourselves as the wise virgins for His 
+
+^ The newly-ordained deaconesses receive the Lord's 
+Sapper. 
+
+
+
+52 KAISER8WEBTH SISTERHOOD. 
+
+service. Behold^ the Bridegroom cometh^ go ye 
+out to meet Him, with your lamps in your hands. 
+He standeth at the door and knocketh, in the 
+form indeed of a servant, in the sick and mi- 
+serable around you. Open then unto Him (Rev. 
+iii. 19), feed Him in the hungry, clothe Him in 
+the naked (S. Matt. xxv. 40), receive Him in His 
+little ones (S. Matt, xviii. 5), visit Him in the 
+prisoners, bind up His wounds in the sick, and 
+accompany Him in the dead to His last resting 
+place. 
+
+Yours is a blessed office, but one also beset 
+with difficulties ; how soon will the hands become 
+weary and the knees feeble I (Isa. xxxv. 8.) Yet, 
+thanks be to God, ye know the Bridegroom of 
+your souls, when He comes to you, in other 
+form than that of a servant ; ye know Him as 
+the Lord of Glory, Who anoints with the oil of 
+gladness of His Holy Spirit; therefore have 
+ye desired this feast of mercy. Ye say, I have 
+need to be fed of Thee, and comest Thou to me f 
+
+And lo I He is here, the King of Glory, and 
+saith, '* Come unto Me, all ye that labour and are 
+heavy laden, and I will refresh you.'' There He, 
+the Bridegroom standeth, in glorious Majesty; 
+He desires to adorn you with His wedding garment, 
+— to give you Himself, and all His Divine power. 
+
+
+
+KAISER8WERTH SISTERHOOD. 53 
+
+in the Communion of His Body and Blood. O 
+ye have well done that ye are come ; all things are 
+ready. Open, then, your hands, your mouth, 
+your heart, and receive of His fulness grace for 
+grace. (S. John i. 16.) Yea, taste and see how 
+gracious the Lord is. Blessed is the man that 
+trusteth in Him. 
+
+During the administration is sung, 
+
+Christ, Thou Lamb of God, Who takest 
+away the sins of the world : have mercy upon us. 
+
+O Christ, Thou Lamb of God, Who takest 
+away the sins of the world : have mercy upon us. 
+
+Christ, Thou Lamb of God, Who takest 
+away the sins of the world : grant us Thy peace. 
+Amen. 
+
+The Thanksgiving. 
+Concluding Hymn. 
+
+Source of all bliss and joy divine, 
+My deepest love, O Lord, is Thine ; 
+To feed, to clothe, to solace Thee, 
+Oh, Saviour 1 this is granted me. 
+
+When in true thankful love we bear 
+The poor man's burden, grief and care. 
+These words to us are sent from Thee, 
+** Come, O ye blessed, unto Me." 
+
+AU those who little children love. 
+Whose tender beaxU N«\\;)[i ^VV) ts\«^s« 
+
+¥2 
+
+
+
+64 KAISERSWBBTH SISTEBHOOD. 
+
+For cv'ry sofferer here below. 
+For the lone captives in their woe ; 
+
+Those who behold the poor's sad tears, 
+And still their weeping and their fears, 
+To them a bright reward Thou'lt be, 
+A shield, a guard, a panoply. 
+
+With heavenly fire then fill each heart, 
+O, Jesus, and to ns impart 
+Still more of love, until it be 
+Our highest, chief felicity. 
+On earth to minuter to Thee. 
+
+Then the Blessing is sunff, 
+
+The grace of our Lord Jesus Christ^ and the 
+love of GoD^ and the fellowship of the Holt 
+Ghost, be with us all. Amen. 
+
+
+
+II. 
+Questions for Self-examination. 
+
+The following is a series of questions for self- 
+examination, prepared with especial reference to 
+deaconesses by Pastor Fliedner. He has arranged 
+others for those who are preparing to receive the 
+Holy Communion. 
+
+Introductory Remarks. 
+
+In order that the sisters may become better 
+prepared to perform their eartYA^ AviXAe:^ V^ ^^ 
+
+
+
+KAISERSWERTH SISTERHOOD. 55 
+
+honour of our Lord Jesus Christ^ and more 
+fitted to receive the heavenly treasure (Rev. ii. 17), 
+we have arranged some questions for self-exami- 
+nation, which they are required to ask them- 
+selves, in the presence of God, at least once every 
+week. 
+
+(Questions for) Self-examination for Deaconesses 
+and Probationary Sisters. 
+
+Kneel down, my sister, in silence and deep hu- 
+mility before the holy God, Who is a judge of 
+the thoughts and intents of the heart, and pray 
+thus with David : Lord, Thou searchest me out, 
+and knowest me ; Thou knowest my downsitting 
+and mine uprising. Thou under standest my 
+thoughts afar o£f. Thou art about my path and 
+about my bed, and searchest out all my ways. 
+For lo, there is not a word in my tongue, but 
+Thou, Lord, knowest it altogether. Try me, 
+God, and seek the ground of my heart ; prove 
+me, and examine my thoughts. Look well if 
+there be any way of wickedness in me, and lead 
+me in the way everlasting.^^^ Thou dost ad- 
+monish us by Thine Apostle: '^Examine your- 
+selves whether ye be in the faith; prove your 
+own selves.''^ Lord, I must confess, with 
+
+1 Fs. cxzxU. l-~4, 23» 24. ' 2 Cor. xiii. 5 ; iu. 5. 
+
+
+
+66 KAI8EB8WERTH SISTERHOOD. 
+
+him^ that I am not sufficient of myself to think 
+any good thing : but do Thou enlighten the eyes 
+of my understanding, that I may know how I 
+stand before Thee. And grant Thy blessing to 
+me during this examination, that it may be to Thy 
+honour and my own salvation. 
+
+Concerning the morning. 
+
+1. Did I, on waking, think first of God with 
+praise and thanksgiving (Ps. Ivi. 8, 7), or of 
+earthly things ? 
+
+2. Did I pray for renewed grace and forgive- 
+ness, for fresh love, humility and wisdom, to 
+enable me to perform my duty for our Saviour 
+Jesus Christ's sake ? 
+
+3. Did I omit to mention in my prayers those 
+committed to my care (Eph. i. 15 — 19), the 
+sisters, those dwelling with me, my relations, my 
+spiritual pastor, and all others who are set in 
+authority over me ? 
+
+4. Did I pray that I might, all the day, do 
+everything as in God's sight, seeking the appro- 
+bation of my Saviour, not desiring to please 
+men? 
+
+5. Did I rise punctually, and dress quickly, 
+with due regard to propriety and neatness, but 
+without ministering to vanity ? 
+
+
+
+KAISERSWERTR SISTERHOOD. 57 
+
+6. Did I in silence collect my thoughts^ and 
+prepare myself for the united morning devotions ? 
+Did I unnecessarily omit them ? Did I join in 
+them with my whole hearty and seek to make 
+them profitable to myself ? 
+
+Concerning External Duties. 
+
+7. Did I take care that the rooms intrusted to 
+my charge should be at the proper time swept^ 
+arranged^ aired^ warmed^ &c. 7 and when I had 
+to provide for the bodily wants of others^ did I do 
+so kindly and faithfully 7 
+
+8. When I had to nurse the sick, did I endea- 
+vour to be present at the visits of the physician 7 
+Did I carefully listen to his directions, and con- 
+scientiously follow them 7 
+
+9. Did I take care that those intrusted to me 
+obtained wholesome and sufficient food, accord- 
+ing to his directions? and if this was not the 
+case, did I hesitate to give information in the 
+right quarter 7 Did I, as far as I was able, pre- 
+vent those intrusted to my care from eating too 
+much, or forbidden food, or becoming in other 
+ways spoiled or pampered? 
+
+10. When I had to attend upon the sick, or 
+poor children, did I care for their bodily wants, 
+for order and cleanliness, and l^d them as much 
+
+
+
+58 KAISERSWERTH SISTERHOOD. 
+
+as possible to maintain this^ and to employ them- 
+selves in suitable and useful occupations 7 
+
+11. Have I myself industriously endeavoured 
+to learn such occupations,— e.g., needlework, gar- 
+dening, &c., as well as simple surgical operations f 
+
+Concerning Spiritual Duties and Teaching^ 
+
+12. When I had to assist those intrusted to my 
+care at their devotions,^ did I carefully prepare 
+myself for it, and seek to make it edifying and 
+instructive to them, and not keep them too 
+long ? 
+
+13. When I had to take care of and give in- 
+struction to children or other pupils, did I care- 
+fully prepare myself beforehand, and impart it 
+faithfully, looking up to God 7 Did I watch 
+over them as much as possible during their school 
+hours 7 Have I endeavoured to train their heart 
+and soul aright, and sought to bring them up in 
+the nurture and admonition of the Lord 7 (Eph. 
+vi. 4.) 
+
+14. Have I endeavoured to make him who has 
+the care of their souls acquainted with their spi- 
+ritual wants, and as far as I could, sought pastoral 
+
+^ As it is not the custom in Germany to use generally forms 
+of prayer, the sisters have to pray without a book. 
+
+
+
+KAISE&SWE&TH SISTE&HOOD. 59 
+
+counsel to assist me in training them religiously^ 
+and acted upon it ? 
+
+15. Have I procured for them^ as far as it was 
+in my power, a sufficiency of spiritual food, — e.g. 
+religious books, but above all the Bible, — and 
+tried to direct them so that they might read pro- 
+fitably ? 
+
+16. Have I sufficiently sought to cheer and 
+gladden my sick children,—- «. g. by taking walks 
+with them, singing, telling tales, playing, and so 
+on, — teaching them to "rejoice in the Lord 
+alway?'' (Phil. iv. 4.) 
+
+17. Have I led them to sanctify Sunday and 
+holy days, and spend them profitably for their 
+souls, as well during Divine Service as before and 
+after; and in doing this, sufficiently considered 
+the circumstances of each 7 
+
+Concerning my conduct to the Sisters and Superiors, 
+
+and others. 
+
+18. Have I endeavoured to show sincere love 
+to those living with me, especially to the sisters, 
+that we might be of one mind in the Lord ? 
+(As S. Paul admonishes Euodias and Syntyche, 
+Eph. iv. 2.) Have I allowed "the sun to go 
+down upon my wrath,^^ (Eph. iv. 26,) or sought 
+
+
+
+60 RAISBRSWERTH SISTERHOOD. 
+
+Christian reconciliation before going to rest? 
+(Eph. iv. 31, 32.) 
+
+19. Have I always been obedient to the Sisters 
+immediately set over me, as well as to my other 
+superiors, with childlike submission, without mur- 
+muring or complaining to others (according to 
+the admonition of S. Paul, 1 Thess. v. 12, 18; 
+1 S. Pet. ii. 13, 16) ? Have I allowed any feel- 
+ings of bitterness, or anger, or dislike to arise in 
+my mind towards those who blamed me ? or if 
+such arose, did I immediately recognise their sin- 
+fulness, strive to overcome them, confess them to 
+the LoBD, and earnestly beseech Him to give me 
+a kind and affectionate heart f 
+
+20. If any duties which had been imposed 
+upon me seemed too difficult, or unsuit^ for me, 
+did I first mention this to the sister immediately 
+set over me ? and if I thought she treated me un- 
+justly, did I complain of her treatment to the 
+other sisters, and judge her uncharitably ? or did 
+I, for the time being, endure the evil with a meek 
+and quiet spirit (according to the Apostle^s ad- 
+monition, 1 S. Pet. ii. 19), and then seek redress 
+from those still higher in authority 7 
+
+21. Have I concealed anything from my supe- 
+riors which I was conscientiously, or by the rules 
+of the boase, bound to tell them immediately. 
+
+
+
+KAISERSWERTH SISTERHOOD. 61 
+
+whether it related to myself^ or others, or the in- 
+stitution ? 
+
+22. If other sisters have been placed under my 
+care^ that I might direct them in their work, or 
+receive assistance from them, did I always treat 
+them with kindness, meekness, and humility, as 
+our Saviour teaches us by His example (S. John 
+xiii. 2 — 15,) and by His word (S. Mark x. 42 — 
+45, and S. Matt. vii. 12.) If it became my duty 
+to admonish or punish, have I endeavoured to do 
+it always in a spirit of holy love, and as kindly as 
+possible, in words and manner, also as privately 
+as could be ? (S. Matt, xviii. 15, 16.) Did I 
+prepare myself for it by looking up to God ? 
+and did I pray for the offender? (S. James 
+V. 16.) 
+
+23. Has the fear of man or the desire to please 
+man, led me to be silent, when ray duty required 
+me to admonish or punish 7 (S. Luke xvii. 3, 4 ; 
+Eph. V. 11 ; Gal. i. 10; 1 Sam. iii. 13; Isa. Ivi. 
+10 ; Prov. xxvii. 23.) 
+
+24. In my work, did I look upon my own 
+things, instead of on those of others, or seek to im- 
+pose the difficult and disagreeable duties upon 
+others, instead of rather doing them when I 
+could myself, as a servant of the sisters, for Je- 
+sus' sake ? (Phil. ii. 3, 4.) 
+
+
+
+62 KAISER8WERTH SISTERHOOD. 
+
+25. Have I kept my tongue in cheeky avoiding 
+all frivolous and useless gossiping^ both with the 
+sisters^ patients^ and others residing in the house^ 
+and avoided an unsuitable intimacy with the two 
+last classes of persons ? (S. James ii. 26.) Have 
+I related things which I ought not to strangers 
+about the sisters 7 
+
+26. Have I shown a partial love towards some 
+sisters^ and on the contrary repelled others f 
+
+27. Have I remembered in my prayers all the 
+wants of our Deaconess-Institution^ and all the 
+sisters connected with it : also all other similar 
+institutions and missionary societies for the exten- 
+sion of the Protestant Church ? 
+
+28. (If stationed far from Kaiserswerth.) Have 
+I endeavoured to keep up the connection with our 
+parent house by regular correspondence and re- 
+ports^ by keeping monthly hours (of prayer) and 
+following the other directions of the superiors 
+there : have I tried to excite in those around me 
+sympathy for it ? 
+
+29. Have I, during the time of my service in 
+this part of the Lord^s vineyard, endeavoured 
+always to maintain a serious, dignified and re* 
+served behaviour, as is becoming a deaconess of 
+the Lord, and not sought the intimate acquaint- 
+ance of any man ? (1 Cor. vii. 34.) 
+
+
+
+KAISE&SWERTH SISTERHOOD. 63 
+
+Concerning the traming of my oivn soul and my 
+improvement in performing the duties of a dea^ 
+coness. 
+
+30. Do I accustom myself daily to hold com- 
+munion with the Lord in prayer at other times 
+besides the fixed hours of prayer ? (1 Thess. v. 
+17; Col. iv. 2; S. Luke vi. 9, 13; S. John xiv. 
+13, 14 ; Ps. Ixxiii. 28.) 
+
+3L Do I diligently read the Holy Scriptures 
+(Acts xxii. 11), that they may be profitable to 
+me for doctrine, for reproof, for correction, for 
+instruction in righteousness 7 (2 Tim. iii. 16 ; 
+S. John V. 89 ; Ps. cxix. 10, 5.) 
+
+32. Have I been led to acknowledge my sin- 
+fulness by diligent examination of my heart and 
+conduct, and with penitent faith earnestly prayed 
+for forgiveness of my sins ? Have I the assurance 
+of the forgiveness of my sins, and my regeneration 
+by^he Holy Ghost : and if not, do I daily pray 
+for it ? (2 Cor. xiii. 5 ; Acts xix. 2 ; 2 S, Pet. L 
+10, 11; Rom. viii. 14—16; S. Matt. v. 3—9.) 
+
+33. Do 1 endeavour to prove myself a disciple 
+of the Lord Jesus by a constant endeavour to 
+become lowly in my own eyes (as David, as S. 
+John the Baptist, and S. Paul : 2 Sam. vi. 22 ; S. 
+John iii. 30; 2 Cor. iv. 16 ; xii, 9, 10), by firmly 
+
+
+
+64 KAISERSWERTH SISTERHOOD. 
+
+renounciDg the world and its pleasures (IS. John 
+ii. 15, 17), by purifying myself from all pollu- 
+tion of the flesh and spirit, especially from my 
+favourite sins, by a daily advancing in holiness 
+and in the fear of God (2 Cor. vii. 1 ; Phil. iii. 
+12, 14), and by bringing forth the fruits of the 
+Spirit ? (Gal. v. 22.) 
+
+34. Have I spent the whole of Sunday as 
+the Lord's day, and exclusively in His service ? 
+(Isa. Iviii. 13.) Did I prepare myself for the pub- 
+lic service by self-examination, by collecting my 
+thoughts and withdrawing my mind from earthly 
+cares, by reading the Holy Scriptures, that the 
+Lord might open my heart to attend to the 
+things spoken ? (Acts xvi. 14 ; Eccles. v. 1, 2 ; 
+Ps. xxvi. 6.) Have I been present at Divine ser- 
+vice as often as I could, and solemnly pondered 
+what I there heard in my heart? (S. Luke 
+ii. 19; Heb. x. 15 ; S. Matt, xviii. 20; xxvi. 55; 
+Acts ii. 46.) Have I endeavoured to spend the 
+time after service for my own bodily and spiritual 
+strengthening and refreshing, remembering to 
+keep holy the Sabbath day 7 
+
+35. Have I diligently thought on my bap- 
+tismal vows, and on their renewal in the presence 
+of God at Confirmation ? (Eccles. v. 8, 4 ; Ps. 
+
+/ 14, 16, 17.) 
+
+
+
+KAISERS WERTH SISTERHOOD. 65 
+
+86. Has the frequent thought of the suffer- 
+ings and death of Cheist^ been to me a shield to 
+quench the fiery darts of the wicked one ? (Eph. 
+iv. 16.) 
+
+37. Have I embraced every opportunity of re- 
+ceiving the Holy Communion^ endeavoured to 
+receive it worthily^ and then, as at other times, 
+sought the advice of him who has he care of my 
+soul? 
+
+88. Do I seek to enrich my mind with Chris- 
+tian and other useful knowledge, as it is profitable 
+for my office? Do I take advantage of the 
+lessons offered to me and use all other opportu- 
+nities of improvement faithfully to the honour of 
+God? Do I endeavour to do this when I am 
+stationed far off, and obtain for this purpose ad- 
+vice from the parent house ? Do I allow myself 
+to be so absorbed in learning or teaching that it 
+leads my soul rather away from than to God? 
+Do I seek so to turn all my learning and teaching 
+to His service, that the acknowledging of the 
+truth may lead me to eternal life, that I may 
+grow in grace and the knowledge of our Lord 
+and Saviour Jesus Christ ? (Tit. i. 1, 2; 2 
+S. Pet. iii. 18 ; 2 S. Tim. ii. 25, 26.) 
+
+39. Have I omitted to take care of my bodily 
+health as it is my duty, by enjoying fresh air at 
+
+
+
+66 KAI8ERSWERTH SISTERHOOD. 
+
+the appointed times, by moderation in eating and 
+drinking^ not indulging my appetite or breaking 
+the rules of the house ? (1 S. Tim. v. 23 ; 1 
+Cor. X. 31.) 
+
+40. Do I regularly consider the rules of the 
+house, and the duties of my office there set forth, 
+and the passages in the Bible upon which they 
+are founded (Rules for the house, §§ 3 — 5), and 
+my vows as deaconess 7 Do I use these questions 
+once every week ? 
+
+41. Do I earnestly struggle against all vanity, 
+keeping conscientiously to the prescribed dress, 
+adorning myself with the ornaments required in 
+Holy Scripture? (1 S. Tim. ii. 9; 1 S. Pet. 
+iii. 3, 4.) 
+
+42. Have I sought to be faithful in that which 
+is least (S. Luke xvi. 10), obeying all other pre« 
+scribed rules, for the Lord^s sake, however unim- 
+portant they may seem, that no loss or injury may 
+occur to the institution which 1 serve, through 
+my fault 7 (S. John vi. 12.) Do I remember that 
+our institution is only supported by charity, and 
+receive all that is given me with thanksgiving ? 
+
+43. When not permitted to see the fruits of 
+my labour, have I allowed myself to grow de- 
+sponding and idle in my work, instead of hoping 
+even against hope, and looking upon myself as a 
+
+
+
+KAISERSWERTH SISTERHOOD. 67 
+
+sower who must wait patiently for the blessing from 
+heaven (S. James v. 7^ 8) and trusting in God^s 
+promises ? (Isa. xlix. 14 ; Iv. 10, 11 ; Ps. xc. 16.) 
+
+44. If God allows me to see the good seed 
+spring up into the hearts of any amongst whom I 
+labour, do I 'give all the glory to Him, Who has 
+given me power and opportunity, and acknow- 
+ledge myself an unprofitable servant ? (S. Luke 
+xvii. 10.) 
+
+45. Have I in all my actions, even when not 
+actively employed in the duties of my office, 
+sought to show that I am the Lord^s servant, 
+giving offence to none, but rather seeking the 
+honour of the sisterhood ? (2 Cor. vi. 3.) 
+
+46. Do I daily endeavour to give up my will 
+more entirely to God, forgetting those things 
+which are behind (Phil. iii. 13 ; S. Luke ix. 62), 
+forsaking with my whole heart all that I have 
+(S. Luke xiv. 33), even all those which were for- 
+merly my favourite thoughts and wishes, that 
+they may not disturb me in my holy service, but 
+I may be able to serve the Lord Jesus always 
+with more faithfulness, perseverance, and self- 
+denial in His vineyard ? 
+
+47. Do I receive all the sufferings which God 
+sends me, with submission 7 Do I seek by them 
+to grow in patience, in renouncing my own will, 
+in obedience to the will oi Gjot^I V^^*^*'^^'* 
+
+
+
+68 KAISERSWERTH SISTERHOOD. 
+
+36; S. Matt. xvi. 14, 25.) Do I cast all ifty 
+care for the future upon Him, kuowing that His 
+grace . is sufficient for me (2 Cor. xii. 9), so that 
+my mind may not be moved from the peace of 
+God and the simplicity which is in Christ Jesus^ 
+that I may seek to rejoice in Him always, and to 
+be careful for nothing, but in everything by 
+prayer and supplication with thanksgiving make 
+my requests known unto God ? (2 Cor. xi. 8 ; 
+Phil. iv. 4—7 ; S. Matt. vi. 31—34.) 
+
+48. Is it my joy to be dead indeed unto the 
+world, to walk by faith, having my life hid with 
+Christ in God ? (Col. iii. 1 — 3 ; Gal. ii. 20.) 
+
+49. Is my aim in every thought and deed to 
+advance the glory of God and my own salvation, 
+as well as that of others, so that I am able to say, 
+*^to me to live is Christ, and to die is gain ?" 
+(Phil. i. 21.) 
+
+
+
+III. 
+Extracts from Rules for Deaconesses. 
+
+Any person who wishes to become a deaconess^ 
+must be able to read well, write, and know some- 
+thing of arithmetic. She must be eighteen, and 
+
+' Many more educational qualifications are required of those 
+who are to be specially trained foi te&cihlu^-deaconesses in the 
+training school. 
+
+
+
+KAISERSWERTH SISTERHOOD. . 69 
+
+usually not above forty. She must express her 
+wish in writing to the directors^ and send with it 
+
+(1.) A certificate of Baptism. 
+
+(2.) A short account of her life^ composed by 
+herself. 
+
+(3.) A testimonial of good moral character from 
+her pastor. 
+
+(4.) A medical certificate of good health. 
+
+She must obtain the consent of her parents^ if 
+living. 
+
+Every deaconess must go through a proba- 
+tionary period of from six to twelve months : this 
+time shall be extended if it seem desirable^ to two 
+or even three years. It is to be spent in the in- 
+stitution. The probationary sister is expected to 
+perform cheerfully all the work imposed on her, 
+and in a docile spirit to receive all the directions 
+and instructions given her.^ 
+
+When she becomes a deaconess, she receives a 
+salary of £3. 16s. 
+
+A deaconess is not received unless she be elected 
+by a majority of those then residing in the house. 
+
+^ The sisters are encouraged to make use of the library, and 
+to take every opportunity of obtaining such instruction as may 
+improve their minds and assist them in their work; e.g. to 
+study foreign languages, singing. A museum of natural his- 
+tory is in progress. 
+
+
+
+70 KAISERSWERTU SISTERHOOD. 
+
+Some Special Duties of the Sisters, 
+
+To observe punctually the directions of the 
+doctor^ with regard to medicine^ nursings and diet^ 
+lightings warmings &c.^ without speaking against 
+his advice^ and to inform him daily of the patient's 
+state. To make use of no remedies but those 
+prescribed by him. To send for a Clergyman as 
+soon as the patient desires it. To read to those 
+of their own communion the Bible or other edi- 
+fying works, according to the direction of the 
+Clergyman. To pray with him, and, if the Cler- 
+gyman desire it, to inform him of the patient's 
+state of mind. 
+
+The deaconess must endeavour to perform all 
+her duties without noise. She must be kind, 
+cheerful, patient, and watchful, so that it may 
+appear she serves the sick for Christ's sake. In 
+her spiritual care of the sick she must endeavour 
+to point out to them the love of God — that though 
+He woundeth. His hands make whole (Job v. 18) ; 
+that He allows us to suffer in the flesh that we 
+may cease from sin (I S. Pet. iv. 1) ; that He 
+makes whole that we may sin no more (S. John 
+V. 14) ; and that the works of God may be made 
+manifest in us. (S. John ix. 1 — 3.) She must 
+consider her patients as those who by means 
+
+
+
+KAISERSWERTH SISTERHOOD. 71 
+
+• 
+
+of tbeir cross are placed in Christ^s school ; 
+she must be kind and patient^ yet not always 
+speak only of God^s grace, but when necessary, 
+warn and exhort to listen to the awakening voice 
+from above. ^^ Those whom I love I rebuke and 
+chasten : be watchful, therefore, and repent/' 
+(Rev. iii. 19.) Especially she must strive to pro- 
+mote Christian resignation to God's will, that the 
+patients may not vex themselves with anxious 
+thoughts about their recovery or worldly cares, 
+but may cast all their care upon God, in every- 
+thing by prayer and supplication with thanksgiv- 
+ing making their requests known unto Him (Phil. 
+iv. 6), caring only for one thing, that they may 
+please the Lord ; whether they live, living to the 
+Lord, or whether dying, dying to Him. 
+
+The deaconess must not allow the patients to 
+talk much of worldly things, nor even allow them 
+to converse so much on religious matters that they 
+have not time for meditation and communion with 
+God. This would besides be injurious to herself. 
+She must by no means dispute with the sick, nor 
+allow them to dispute with one another about re- 
+ligion. She should employ the patients in useful 
+work, as far as their strength will allow. 
+
+
+
+72 KAISERSWERTH SISTERHOOD. 
+
+Attendance on the sick in the totun of Kaiserswerth 
+
+and other places. 
+
+If a deaconess be required in a family, the 
+superior shall first visit it and appoint a sister or 
+sisters. These sisters shall not be assisted by re- 
+lations or friends in their treatment. If any sister 
+find her services superfluous, she should leave, 
+since her duty is not to amuse or be simply a com- 
+panion. She shall take her meals alone or in the 
+patient's room. She must observe a prudent re- 
+serve in her conduct to all members of the family, 
+and devote herself entirely to her patient. She 
+must not repeat what she hears, nor allow any 
+gossiping with servants or others. She must 
+not go out, except when it is necessary to call the 
+doctor or Clergyman immediately. She must not 
+make acquaintance with or visit the neighbours, 
+the duties of her office allow her no time for it. 
+If change of air be necessary, permission will be 
+granted to the sisters to stay with relations, or 
+sometimes friends. A sister is not permitted to 
+receive any presents; should these be pressed 
+upon her, she must send all to the institution to 
+be placed in the sisters' box, the contents of which 
+are devoted to Christmas presents, &c., to the 
+sisters, or journeys for the benefit of their health. 
+
+
+
+J. MA8TBSB ASCD CO., PBINTEB8, ALDEBB6ATB STREET, LONDON. 
+
+
+

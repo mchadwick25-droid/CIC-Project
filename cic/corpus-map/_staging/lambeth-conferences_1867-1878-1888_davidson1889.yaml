@@ -1,0 +1,25 @@
+source_file: lambeth-conferences_1867-1878-1888_davidson1889.txt
+assignments:
+- row_id: lambeth-conferences_1867-1878-1888_davidson1889--the-lambeth-conferences-of-1867-1878-and-1888-with-the
+  work: The Lambeth Conferences of 1867, 1878, and 1888; with the official reports and resolutions, together with
+    the
+  author: lambeth-conferences
+  locus: the editor's narrative of the first conference, 1867, at lines 739-1364; the Archbishop of Canterbury's
+    opening address of September 24, 1867, at lines 4106-4363; the 'Address to the Faithful' of the 1867 conference
+    with its signatures at lines 4629-4886; the rest not mapped
+  atlas_ids:
+  - victorian-church-of-england
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1867
+    end: 1889
+    source: the title, which names the conferences of 1867, 1878 and 1888, and the title page's imprint year (line
+      482)
+    formation_confidence: Documented
+  edition_date:
+    year: 1889
+    source: line 482, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 275, Charles Longley: the documents of the Lambeth Conference of 1867.'

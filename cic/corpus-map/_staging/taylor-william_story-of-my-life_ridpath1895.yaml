@@ -1,0 +1,22 @@
+source_file: taylor-william_story-of-my-life_ridpath1895.txt
+assignments:
+- row_id: taylor-william_story-of-my-life_ridpath1895--story-of-my-life-an-account-of-what-i-have-thought-and-said
+  work: 'Story of My Life: an account of what I have thought and said and done in my ministry of more than fifty-three'
+  author: taylor-william
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - nineteenth-century-methodism
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1895
+    end: 1895
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n8 (the title page prints 1895;
+      the OCR at line 70 reads ''18Q5'')'
+    formation_confidence: Documented
+  edition_date:
+    year: 1895
+    source: read on the scan's page image, leaf n8 (the title page prints 1895; the OCR at line 70 reads '18Q5')
+    formation_confidence: Documented
+  note: 'Era 9 row 239, William Taylor: Story of My Life.'

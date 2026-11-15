@@ -1,0 +1,22 @@
+source_file: groen-van-prinsterer_ongeloof-en-revolutie-nld_2e-uitg1868.txt
+assignments:
+- row_id: groen-van-prinsterer_ongeloof-en-revolutie-nld_2e-uitg1868--ongeloof-en-revolutie-eene-reeks-van-historische
+  work: 'Ongeloof en Revolutie: eene reeks van historische voorlezingen; tweede uitgaaf'
+  author: groen-van-prinsterer
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - dutch-neo-calvinism-secession-churches
+  - the-reveil-and-inner-mission-awakening
+  role: tradition
+  confidence: provisional
+  language: nld
+  date:
+    start: 1868
+    end: 1868
+    source: 'the printing''s own title page: line 42, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1868
+    source: line 42, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 270, Guillaume Groen van Prinsterer: Ongeloof en Revolutie, in Dutch.'

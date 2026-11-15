@@ -1,0 +1,21 @@
+source_file: maurice-f_life-of-frederick-denison-maurice-v1_1884.txt
+assignments:
+- row_id: maurice-f_life-of-frederick-denison-maurice-v1_1884--the-life-of-frederick-denison-maurice-chiefly-told-in-his
+  work: The Life of Frederick Denison Maurice, chiefly told in his own letters; edited by his son Frederick Maurice;
+  author: maurice-f
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - victorian-church-of-england
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1884
+    end: 1884
+    source: 'the printing''s own title page: line 199, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1884
+    source: line 199, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 273, Frederick Denison Maurice: a Life told in his letters (vol. 1).'
