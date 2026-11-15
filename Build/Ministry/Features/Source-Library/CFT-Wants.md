@@ -363,6 +363,87 @@ Anna Komnene is held.
 
 **Not taken.** Every duplicate, garbled or secondary scan is listed in the search log.
 
+## Eras 4-5, second fill (2026-11-15): the rows left open, and the wants the Who and council batches added
+
+Forty-six files. The wants are the rows the first era 4 and era 5 passes left not found or held, and the Library
+wants of Open-Gaps 263, 265, 266, 268 and 272 (one item from 267). The search record is
+`Build/Ministry/Operations/Audits/2026-11-15_library-eras4-5/Search_Log.md`. Every file has a printed imprint of 1930
+or earlier, read on its title page or, for two volumes, on the scan's page image. Rows in the era 4 and era 5
+tables above are not rewritten; where this section changes one, it says so.
+
+| want | state | file(s), with the imprint year | shelf |
+|---|---|---|---|
+| Open-Gaps 265, Library wanted: Willibald's Life of Boniface (chapter 6, the oak at Geismar) | filled | `willibald_vitae-sancti-bonifatii-mgh-srg-57-lat_levison1905.txt` (1905) | anglo-saxon-christianity, tradition |
+| Open-Gaps 265, Library wanted: Willibald's Life of Boniface (chapter 6, the oak at Geismar) | filled | `willibald_life-of-saint-boniface_robinson1916.txt` (1916) | anglo-saxon-christianity, tradition |
+| Open-Gaps 266 (major councils, era 4), not held: the Caroline Books, the Frankish answer to Nicaea II | filled | `libri-carolini_caroli-magni-capitulare-de-imaginibus-mgh-concilia-2-suppl-lat_bastgen1924.txt` (1924) | carolingian-reform-christianity, tradition; byzantine-imperial-church-heraclian-iconoclast, context |
+| Open-Gaps 266 (major councils, era 4), not held: Hadrian I's reply to Charlemagne on the images | filled | `hadrian-i_epistolae-karolini-aevi-3-mgh-epistolae-5-lat_1899.txt` (1899) | carolingian-reform-christianity, byzantine-imperial-church-heraclian-iconoclast, context |
+| Open-Gaps 266 (major councils, era 4), not held: the Anglo-Saxon Chronicle | filled | `anglo-saxon-chronicle_two-of-the-saxon-chronicles-parallel-v1-ang_plummer1892.txt` (1892) | anglo-saxon-christianity, late-anglo-saxon-christianity, tradition |
+| Open-Gaps 266 (major councils, era 4), not held: the Anglo-Saxon Chronicle (an English version) | filled | `anglo-saxon-chronicle_newly-translated_gomme1909.txt` (1909) | anglo-saxon-christianity, late-anglo-saxon-christianity, tradition |
+| Open-Gaps 266 (major councils, era 4), not held: the Annals of Ulster | filled | `annals-of-ulster_annala-uladh-v1-431-1056-gle-lat-eng_hennessy1887.txt` (1887) | insular-irish-monastic-christianity, medieval-irish-christianity, tradition |
+| Open-Gaps 266 (major councils, era 4), not held: Bede's chronicle | filled | `bede_chronica-maiora-in-chronica-minora-3-mgh-aa-13-lat_mommsen1898.txt` (1898) | bede-of-jarrow, anglo-saxon-christianity, tradition |
+| Open-Gaps 266 (major councils, era 4), not held: the Latin abridgment of the council of 861 in Deusdedit's collection | filled | `deusdedit_die-kanonessammlung-des-kardinals-deusdedit-bd1-lat-deu_wolf-von-glanvell1905.txt` (1905) | byzantine-imperial-church-macedonian, context; latin-papal-church-gregorian, tradition |
+| Open-Gaps 263 and 272: Photius, Contra Manichaeos, a second witness on the Paulicians; Open-Gaps 266: Photius's letters and Mystagogy | filled | `photius_opera-t2-contra-manichaeos-mystagogia-epistolae-pg102-grc-lat_migne1860.txt` (1860) | byzantine-imperial-church-macedonian, tradition; paulicians, context |
+| Open-Gaps 266 and 272: the full acts of Nicaea II (Mansi 12-13) | filled | `mansi_sacrorum-conciliorum-collectio-tomus-12-lat_welter-facsimile1901.txt` (1901) | byzantine-imperial-church-heraclian-iconoclast, iconophile-byzantine-monasticism, tradition |
+| Open-Gaps 266 and 272: the full acts of Nicaea II (Mansi 12-13) | filled | `mansi_sacrorum-conciliorum-collectio-tomus-13-lat_welter-facsimile1902.txt` (1902) | byzantine-imperial-church-heraclian-iconoclast, iconophile-byzantine-monasticism, tradition |
+| Open-Gaps 272: the text of Theodore the Studite's letters to Theophanes the Confessor | filled | `theodore-studite_epistolae-et-fragmenta-in-nova-patrum-bibliotheca-t8-lat_cozza1871.txt` (1871) | iconophile-byzantine-monasticism, byzantine-imperial-church-heraclian-iconoclast, tradition |
+| Open-Gaps 266: Ignatius the Deacon's Life of Tarasius, who presided at Nicaea II | filled | `ignatius-deacon_vita-tarasii-in-germanus-tarasius-pg98-grc-lat_migne1860.txt` (1860) | byzantine-imperial-church-heraclian-iconoclast, tradition (needs-ruling) |
+| Open-Gaps 272: Skylitzes and Kedrenos, for the Macedonian-era profiles | filled | `kedrenos-skylitzes_compendium-historiarum-t2-grc-lat_bekker1839.txt` (1839) | byzantine-imperial-church-macedonian, context |
+| Open-Gaps 272: Attaleiates, for the Keroularios profile | filled | `attaleiates_historia-grc-lat_bekker1853.txt` (1853) | byzantine-imperial-church-macedonian, byzantine-church-after-1054, context |
+| Open-Gaps 272: Zonaras, for the Macedonian-era profiles | filled | `zonaras_epitomae-historiarum-libri-xiii-xviii-t3-grc_buettner-wobst1897.txt` (1897) | byzantine-imperial-church-macedonian, byzantine-imperial-church-heraclian-iconoclast, context |
+| Open-Gaps 272: Psellos's accusation of Keroularios before the synod | filled | `psellos_accusation-de-michel-cerulaire-pt1-in-revue-des-etudes-grecques-16-grc-fra_brehier1903.txt` (1903) | byzantine-imperial-church-macedonian, context |
+| Open-Gaps 272: Psellos's accusation of Keroularios before the synod | filled | `psellos_accusation-de-michel-cerulaire-pt2-in-revue-des-etudes-grecques-17-grc-fra_brehier1904.txt` (1904) | byzantine-imperial-church-macedonian, context |
+| Wanted Sources era 4 row 17 and Open-Gaps 263: the Slavonic Life of Constantine (Cyril) in a readable form | filled | `vita-constantini_die-legende-vom-heiligen-cyrillus-in-denkschriften-wien-19-chu-lat-deu_duemmler-miklosich1870.txt` (1870) | cyrillo-methodian-slavic-christianity, tradition |
+| Wanted Sources era 4 row 17 (Cyril and Methodius): the Italian Legend, the Roman account of Cyril | filled | `acta-sanctorum_martii-tomus-2-lat_palme1865.txt` (1865) | cyrillo-methodian-slavic-christianity, context |
+| Wanted Sources era 4 row 36 and Open-Gaps 263 (Ibn Hayyan): a later writer who quotes him, since no edition of al-Muqtabis before 1937 exists | filled | `al-maqqari_history-of-the-mohammedan-dynasties-in-spain-v1_gayangos1840.txt` (1840) | mozarabic-christianity, context |
+| Wanted Sources era 4 row 36 and Open-Gaps 263 (Ibn Hayyan): a later writer who quotes him, since no edition of al-Muqtabis before 1937 exists | filled | `al-maqqari_history-of-the-mohammedan-dynasties-in-spain-v2_gayangos1843.txt` (1843) | mozarabic-christianity, context |
+| Open-Gaps 268: Mansi 22, the acts and constitutions of the Fourth Lateran Council (1215) | filled | `mansi_sacrorum-conciliorum-collectio-tomus-22-lat_welter-facsimile1903.txt` (1903) | latin-papal-church-gregorian, innocent-iii, tradition |
+| Open-Gaps 268: Mansi 24, the acts and constitutions of the Second Council of Lyon (1274) | filled | `mansi_sacrorum-conciliorum-collectio-tomus-24-lat_welter-facsimile1903.txt` (1903) | latin-papal-church-gregorian, tradition; byzantine-church-after-1054, context |
+| Wanted Sources era 5 council row 19 (Lyon I, 1245): the sentence against Frederick II and a report of the council | filled | `innocent-iv_bulla-depositionis-in-mgh-constitutiones-2-lat_weiland1896.txt` (1896) | latin-papal-church-gregorian, tradition |
+| Open-Gaps 268: Pachymeres, the Byzantine account of the union of Lyon and of Michael VIII | filled | `pachymeres_de-michaele-et-andronico-palaeologis-v1-grc-lat_bekker1835.txt` (1835) | byzantine-church-after-1054, tradition |
+| Open-Gaps 268: Gregoras, volume 1 (the second volume is held) | filled | `gregoras_byzantina-historia-v1-grc-lat_schopen1829.txt` (1829) | byzantine-church-after-1054, context |
+| Open-Gaps 268: John Bekkos's works (PG 141), the unionist patriarch after Lyon II | filled | `bekkos_opera-with-meliteniotes-metochites-pg141-grc-lat_migne1882.txt` (1882) | byzantine-church-after-1054, tradition |
+| Open-Gaps 266: Hefele's History of the Councils past 451 (volumes 1-3 are held) | filled | `hefele_history-of-the-councils-v4-451-680_clark1895.txt` (1895) | byzantine-imperial-church-justinianic, byzantine-imperial-church-heraclian-iconoclast, context |
+| Open-Gaps 266: Hefele's History of the Councils past 451 (volumes 1-3 are held) | filled | `hefele_history-of-the-councils-v5-626-787_clark1896.txt` (1896) | byzantine-imperial-church-heraclian-iconoclast, context |
+| Open-Gaps 268: Fulcher of Chartres, Robert the Monk and the Gesta Francorum, witnesses of the Council of Clermont (1095) | filled | `rhc-historiens-occidentaux_t3-fulcher-robert-raymond-gesta-francorum-lat_academie1866.txt` (1866) | latin-church-of-outremer, latin-papal-church-gregorian, tradition; latin-church-of-outremer, latin-papal-church-gregorian, tradition |
+| Open-Gaps 268: Guibert of Nogent, a witness of the Council of Clermont (1095) | filled | `rhc-historiens-occidentaux_t4-baldric-guibert-albert-lat_academie1879.txt` (1879) | latin-church-of-outremer, latin-papal-church-gregorian, tradition |
+| Open-Gaps 268: an English of the eyewitness accounts of Clermont and the First Crusade | filled | `krey_first-crusade-accounts-of-eye-witnesses-and-participants_1921.txt` (1921) | latin-church-of-outremer, latin-papal-church-gregorian, tradition |
+| Open-Gaps 268: Urban II's letters (PL 151), with the versions of his Clermont speech | filled | `urban-ii_epistolae-et-privilegia-with-orationes-claromontanae-pl151-lat_migne1853.txt` (1853) | latin-papal-church-gregorian, tradition |
+| Open-Gaps 268: Roger of Wendover, an English monk's account of the Fourth Lateran Council | filled | `roger-wendover_flores-historiarum-v2-rolls-series-84-lat_hewlett1887.txt` (1887) | latin-papal-church-gregorian, context |
+| Open-Gaps 268: Richard of San Germano, a notary's account of the Fourth Lateran Council | filled | `richard-san-germano_chronica-in-usum-scholarum-lat_pertz1864.txt` (1864) | latin-papal-church-gregorian, context |
+| Open-Gaps 268: the Lyon II decree Religionum diversitatem and the other Lyon constitutions taken into the Liber Sextus | filled | `corpus-iuris-canonici_pars-2-decretalium-collectiones-lat_friedberg1881.txt` (1881) | latin-papal-church-gregorian, tradition |
+| Open-Gaps 268: Innocent III's summons to the Fourth Lateran Council, Vineam Domini (1213) | filled | `innocent-iii_opera-t3-regesta-xiii-xvi-pl216-lat_migne1891.txt` (1891) | innocent-iii, latin-papal-church-gregorian, tradition |
+| Open-Gaps 263: Innocent III's own works (De miseria, PL 217); Open-Gaps 268: his sermons at the Fourth Lateran Council | filled | `innocent-iii_opera-t4-sermones-de-contemptu-mundi-pl217-lat_migne1890.txt` (1890) | innocent-iii, latin-papal-church-gregorian, tradition |
+| Wanted Sources era 5 row 58 (Robert of Molesme): his Life and letters | filled | `robert-molesme_vita-et-epistolae-in-pl157-lat_migne1899.txt` (1899) | cistercian-monasticism, tradition (needs-ruling) |
+| Wanted Sources era 5 row 58 (Robert of Molesme); Open-Gaps 267: Raymond of Capua's full Legenda of Catherine of Siena | filled | `acta-sanctorum_aprilis-tomus-3-lat_palme1866.txt` (1866) | cistercian-monasticism, tradition (needs-ruling); latin-papal-church-avignon-to-lateran-v, tradition (needs-ruling) |
+| Wanted Sources era 5 row 61 (Clare of Assisi): the four letters to Agnes of Prague in a readable print | filled | `acta-sanctorum_martii-tomus-1-lat_palme1865.txt` (1865) | the-franciscan-movement, tradition (needs-ruling) |
+| Wanted Sources era 5 row 61 (Clare of Assisi): the process of canonization | filled | `clare-assisi_processo-di-canonizzazione-in-archivum-franciscanum-historicum-13-ita-lat_lazzeri1920.txt` (1920) | the-franciscan-movement, tradition |
+| Wanted Sources era 5 row 70 and Open-Gaps 263 (Walter Daniel): his Letter to Maurice and extracts from his Life of Ailred | filled | `walter-daniel_ailred-of-rievaulx-and-his-biographer-walter-daniel-lat-eng_powicke1922.txt` (1922) | cistercian-monasticism, tradition |
+| Wanted Sources era 5 row 73 and Open-Gaps 263 (Hadewijch): the 1875 edition on dbnl, the only one Mark allows | filled | `hadewijch_werken-1-gedichten-dum_heremans-ledeganck1875.txt` (1875) | the-beguines, tradition |
+| Wanted Sources era 4 row 32 (Berno's testament) | held already | `odo-cluny_opera-with-john-of-salerno-vita-odonis-pl133-lat_migne1853.txt` | The testament is printed whole at about file line 67228. The first era 4 pass missed it. |
+| Wanted Sources era 5 council row 19 (Lyon I): the sentence against Frederick II | held already, and filled | `matthew-paris_chronica-majora-v4-rolls-series-57-lat_luard1877.txt` | Matthew Paris copies the bull at about file line 29303; the MGH text is above. The council's other constitutions (Mansi XXIII) were not found. |
+| Open-Gaps 268: Mansi tomus 20 (Clermont) | held for Mark | — | One scan on archive.org; it has no imprint leaf, so the printing's year cannot be read (the host says 1902). |
+| Open-Gaps 268: Bernold of Constance | not taken | — | PL 148 holds his chronicle, but no year can be read on its OCR title page. |
+| Open-Gaps 268: Akropolites; Peter of Vaux-de-Cernay; Salimbene's Latin; "Zelus fidei"; Hefele-Leclercq V-VI | not found or not taken | — | Akropolites: both scans unusable. Peter: volume I (1926) stops at 1212. Salimbene: no Latin before 1931 on archive.org. Zelus fidei: not in the Liber Sextus. Hefele-Leclercq: found, not taken (a modern historian). |
+| Open-Gaps 263 and 272: Peter the Higumen | not found | — | Gieseler's Appendix (1849) is not on archive.org; PG 104 does not print him. |
+| Wanted Sources era 4 row 51 (Stephen Mansur): the Greek Passion | not found | — | Papadopoulos-Kerameus (1907) is not on archive.org. The Latin is held. |
+| Wanted Sources era 4 row 40 (Boris and Gleb): the Tale | not found | — | The 1899 printing found has unreadable Slavonic; Abramovich, Sreznevskii and Bodianskii are not on archive.org. |
+| Wanted Sources era 4 row 17: a Life of Methodius in Slavonic; any readable Slavonic | not found | — | The Latin Life of Methodius (Ginzel) is held. |
+| Wanted Sources era 4 council row 13 (the synod of 843) | not found | — | Uspenskii (1893) is not on archive.org. |
+| Open-Gaps 272: a readable Greek Life of Euthymius; the Kyiv archive volume on Ilarion; Cummian's Easter letter (266) | not taken | — | Every scan found garbles the wanted text. |
+| Open-Gaps 272: an English of Theophanes, Stephen the Younger, Nikephoros, Nicholas Mystikos, Peter of Sicily, Ilarion; Open-Gaps 265: an English of Maximus's trial | none before 1931 | — | No English of these was printed by 1930, so none can be taken under the date rule. |
+| Wanted Sources era 5 row 92 (Teodosije); row 89 (Cosmas the Priest); council row 18 (Nerses of Lambron's speech) | not found | — | Daničić (1860), Popruzhenko (1907), Aucher (1812) and Neumann (1834) are not on archive.org. |
+| Wanted Sources era 5 rows 62 and 97 (Dominic's process; Humbert's Legenda) | not found | — | Quétif and Échard I (1719) describes the inquiries and does not print them in the scan read. |
+| Wanted Sources era 5 row 61 (Clare): the Testament; the letters in her own Latin | not found | — | Seraphicae legislationis textus originales (1897) is not on archive.org. |
+| Wanted Sources era 5 rows 65 (Valdes's profession), 75 (the French and Latin Mirror), 93 (Cyril III's own record) | none before 1931 | — | Not searched again: each was first printed after 1930. |
+
+**Changes to the rows above.** Era 4 row 32 (Berno): held, not "not found". Era 4 row 36 (Ibn Hayyan): a later
+witness is now held; his own book stays not found. Era 4 row 17: the Life of Constantine is now held in Latin. Era 5
+rows 58, 61, 70 and 73 (Robert of Molesme, Clare, Walter Daniel, Hadewijch) and council row 19 are filled in part,
+as the table says. Hadewijch is no longer held for Mark: the 1875 edition is vendored, with dbnl's own
+public-domain notice for that title recorded in the search log.
+
+**Not taken.** Every duplicate, garbled or secondary scan is listed in the search log.
+
 ## Era 6 (1300-1517): the Who scan's wanted sources, queued
 
 The era 6 rows of `Build/Ministry/Operations/Audits/2026-11-12_wanted-sources-combined/Wanted_Sources.md`: person
