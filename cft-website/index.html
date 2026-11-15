@@ -45,8 +45,12 @@ body{margin:0;background:var(--parchment);color:var(--iron-gall);
 #zoomCtl button+button{border-top:1px solid var(--rule)}
 #zoomCtl button:hover{background:var(--tyrian-wash);color:var(--gold-leaf)}
 #zoomCtl button:focus-visible{outline:2px solid var(--madder);outline-offset:-2px}
-.feature-bar{position:fixed;top:2.9rem;left:0;right:0;z-index:20;display:flex;flex-wrap:wrap;
+.feature-bar{position:fixed;top:2.9rem;left:0;right:0;z-index:27;display:flex;flex-wrap:nowrap;
   gap:.5rem;padding:.4rem .9rem;background:var(--parchment);border-bottom:1px solid var(--rule)}
+.feature-bar.is-tight{flex-wrap:wrap}
+.feature-bar>*{flex-shrink:0;white-space:nowrap}
+.feature-bar .who-chip{min-width:0;flex:0 1 auto;overflow:hidden}
+.feature-bar .who-chip .who-chip-label{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
 .chip-group{position:relative}
 .chip-group:last-child{margin-left:auto}
 .chip{min-height:44px;font-family:"Alegreya Sans",sans-serif;font-size:1rem;font-weight:700;background:none;cursor:pointer;
@@ -386,18 +390,15 @@ svg.strip-on #era-labels{display:none}
   .feature-bar .chip{padding:.3rem .7rem}
   .feature-bar .chip[aria-pressed="true"]{border-color:var(--gold-leaf);color:var(--gold-leaf)}
   .feature-bar .chip[aria-pressed="true"] .sw-name::after{content:" \2713";content:" \2713" / ""}
-  .feature-bar .chip{flex-shrink:0;white-space:nowrap}
   .feature-bar .chip[aria-pressed="false"]{color:var(--ink-faded)}
   .feature-bar{gap:.4rem}
 }
 @media (min-width:641px) and (max-width:900px){
-  .feature-bar{gap:.25rem;padding-left:.5rem;padding-right:.5rem;flex-wrap:nowrap}
+  .feature-bar{gap:.25rem;padding-left:.5rem;padding-right:.5rem}
   .feature-bar .chip{padding:.3rem .45rem;font-size:.9rem}
   .feature-bar .chip.has-ico{gap:.25rem}
   .feature-bar .chip .dn{display:none}
   .feature-bar .chip-group:last-child{margin-left:0}
-  .feature-bar .who-chip{min-width:0;flex:0 1 auto;overflow:hidden}
-  .feature-bar .who-chip .who-chip-label{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
 }
 @media (max-width:640px){
   .topbar{flex-wrap:nowrap;padding:.3rem .6rem}
@@ -120144,7 +120145,28 @@ function wireWhoMore(g,go){
   g.addEventListener('click',ev=>{ev.stopPropagation();go();});
   g.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();ev.stopPropagation();go();}});
 }
+function heldWhoName(layer){
+  const a=document.activeElement;
+  if(!a||!layer.contains(a)||!a.dataset.key)return null;
+  const r=a.getBoundingClientRect();
+  return {el:a,key:a.dataset.key,x:(r.left+r.right)/2,y:(r.top+r.bottom)/2};
+}
+function restoreWhoName(layer,h){
+  if(!h||document.activeElement!==document.body)return;
+  let best=null,bestD=Infinity;
+  layer.querySelectorAll(`[data-key="${CSS.escape(h.key)}"]`).forEach(g=>{
+    if(!mapItemShown(g))return;
+    const r=g.getBoundingClientRect(), d=Math.hypot((r.left+r.right)/2-h.x,(r.top+r.bottom)/2-h.y);
+    if(d<bestD){bestD=d;best=g;}
+  });
+  if(best)best.focus({preventScroll:true});else keepMapFocus(h.el);
+}
 function drawWhoNames(){
+  const held=heldWhoName(gWho);
+  drawWhoRows();
+  restoreWhoName(gWho,held);
+}
+function drawWhoRows(){
   gWho.innerHTML='';
   document.querySelectorAll('.node.who-under,.node.who-lit,.river-group.who-lit').forEach(g=>g.classList.remove('who-under','who-lit'));
   if(!whoScope||!whoPick)return;
@@ -120197,7 +120219,7 @@ function drawWhoNames(){
       const at=p&&p._at||[rows.length?rows[0].x:0,rows.length?rows[0].y-line*2:0];
       x=at[0]+((p&&p._w)||markU()*3)/2+markU()*.4; y=at[1];
     }else{const last=rows[rows.length-1];x=last?last.x:sc.m._x+8;y=last?last.y+line:sc.m._y+line;}
-    const g=el('g',{class:'who-name who-all',tabindex:'0',role:'button',transform:`translate(${x.toFixed(1)},${y.toFixed(1)})`,'aria-label':`${rest} more ${rest===1?'person':'people'}. Shows the full list.`});
+    const g=el('g',{class:'who-name who-all',tabindex:'0',role:'button','data-key':'more',transform:`translate(${x.toFixed(1)},${y.toFixed(1)})`,'aria-label':`${rest} more ${rest===1?'person':'people'}. Shows the full list.`});
     const t=el('text',{class:'who-text',x:0,y:fu*.32});
     t.style.fontSize=fu+'px'; t.style.strokeWidth=(3*fu/11)+'px'; t.textContent=`+${rest} more`; g.appendChild(t); gWho.appendChild(g);
     const w=t.getComputedTextLength();
@@ -120212,9 +120234,9 @@ function drawWhoNames(){
 function renderWho(){
   svg.classList.toggle('who-on',!!whoScope);
   whoPick=whoScope?scopePeople(whoScope):null;
+  syncWhoControls();
   labelFitRun();
   drawWhoNames();
-  syncWhoControls();
   renderTray();
   queueAutoWho();
 }
@@ -120286,6 +120308,7 @@ function syncWhoControls(){
   if(chip){
     chip.hidden=!whoScope;
     if(whoScope){chip.querySelector('.who-chip-label').textContent=`Who: ${whoScopeLabel(whoScope)}`;chip.setAttribute('aria-label',`Who: ${whoScopeLabel(whoScope)}. Clear the names from the map.`);}
+    fitFeatureBar();
   }
   document.querySelectorAll('[data-who]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.who===key)));
   const btn=panelBody.querySelector('.who-btn[data-who]');
@@ -120387,6 +120410,11 @@ function placeWhoMarks(){
 
 let autoKey='', autoRaf=0;
 function autoWho(){
+  const held=heldWhoName(gAuto);
+  autoWhoRows();
+  restoreWhoName(gAuto,held);
+}
+function autoWhoRows(){
   autoRaf=0;
   const off=()=>{if(autoKey){gAuto.innerHTML='';autoKey='';gNodes.querySelectorAll('.node.auto-own').forEach(g=>g.classList.remove('auto-own'));}};
   if(whoScope||scale<Z_PEOPLE||!labelFit.items||svg.classList.contains('no-people'))return off();
@@ -120421,12 +120449,12 @@ function autoWho(){
       wireWhoPerson(g,P,m);
     });
     if(rest>0){
-      const g=el('g',{class:'who-name who-all',tabindex:'0',role:'button',transform:`translate(${x.toFixed(1)},${(it.dy+rows.length*line).toFixed(1)})`,'aria-label':`${rest} more ${rest===1?'person':'people'} of ${m.shortName||m.name}. Opens the full list.`});
+      const g=el('g',{class:'who-name who-all',tabindex:'0',role:'button','data-key':'more:'+m.id,transform:`translate(${x.toFixed(1)},${(it.dy+rows.length*line).toFixed(1)})`,'aria-label':`${rest} more ${rest===1?'person':'people'} of ${m.shortName||m.name}. Opens the full list.`});
       const t=el('text',{class:'who-text',x:0,y:fu*.32}); t.style.fontSize=fu+'px'; t.style.strokeWidth=(3*fu/11)+'px'; t.textContent=`+${rest} more`; g.appendChild(t);
       gAuto.appendChild(g);
       const w=t.getComputedTextLength(); wMax=Math.max(wMax,w);
       g.insertBefore(el('rect',{class:'who-hit',x:-3,y:-line/2,width:w+6,height:line,rx:2}),g.firstChild);
-      wireWhoMore(g,()=>setWho({type:'trad',m},{on:true}));
+      wireWhoMore(g,()=>{setWho({type:'trad',m},{on:true});const f=tray.querySelector('.tray-row');if(f)f.focus();});
     }
     used.push([x,yb0,x+wMax+fu,yb1]);
   });
@@ -120632,7 +120660,6 @@ function render(){
     const organic=el('path',{d:riverPath(k,1), fill:col, opacity:RIVER_ORGANIC_OP, class:'river-organic'});
     calm.dataset.lane=k; organic.dataset.lane=k;
     const members=churchBodies.filter(m=>m.laneOrder===k).sort((a,b)=>a.start-b.start);
-    const years=members.map(m=>m.start);
     const riverTip=tipForRiver(f,members.length,riverSpan(members));
     const group=el('g',{class:'river-group',tabindex:'0',role:'button',
       'aria-label':`${f.name} river, ${members.length} ${members.length===1?'tradition':'traditions'}`});
@@ -122128,7 +122155,14 @@ gRivers.addEventListener('click',ev=>{
   const r=stage.getBoundingClientRect();
   zoomAt(ev.clientX-r.left,ev.clientY-r.top,Z_READ/scale);
 },true);
+function fitFeatureBar(){
+  const bar=document.querySelector('.feature-bar');
+  if(!bar)return;
+  bar.classList.remove('is-tight');
+  if(!narrowScreen()&&bar.scrollWidth>bar.clientWidth+1)bar.classList.add('is-tight');
+}
 function positionFeatureBar(){
+  fitFeatureBar();
   const topbar=document.querySelector('.topbar'), featureBar=document.querySelector('.feature-bar');
   if(featureBar)featureBar.style.top=narrowScreen()?'auto':(topbar?topbar.offsetHeight:0)+'px';
   document.documentElement.style.setProperty('--map-top',chromeTop()+'px');
