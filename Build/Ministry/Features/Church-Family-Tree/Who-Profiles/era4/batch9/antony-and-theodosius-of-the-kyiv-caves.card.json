@@ -1,0 +1,84 @@
+{
+  "name": "Antony and Theodosius of the Kyiv Caves",
+  "otherNames": [
+    "Antonius, the form of S. H. Cross's English",
+    "Antony and Theodosius Pecherskii (\"of the Caves\"), the Paterik's form"
+  ],
+  "knownFor": "The founders of the Caves monastery of Kyiv. Antony, made a monk on Mount Athos, lived in a cave on a hill outside the city. Theodosius became prior of the brothers who gathered there and gave the house the rule of the Studion monastery of Constantinople.",
+  "dates": "Eleventh century. No source used here gives either man's year of birth, or the year of Antony's death. The Russian Primary Chronicle places Antony's settling in the cave after 1051, when Hilarion was made metropolitan, and the gathering of brothers after Yaroslav's death in 1054. Nestor, a monk of the Caves, dates the move above ground to 1062. Theodosius died on Saturday 3 May 1074",
+  "place": "Kyiv, the cave and the monastery above it; Mount Athos, where Antony became a monk; Lyubech, Antony's city; Vasilev, near Kyiv, Theodosius's birthplace, and Kursk, where he grew up; Chernigov, where Antony dug another cave",
+  "tradition": "Kievan Rus' Christianity, 1054-1240; Kievan Rus' Christianity",
+  "role": "Monks and founders: Antony, hermit of the cave; Theodosius, prior of the monastery",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "The Caves monastery of Kyiv",
+      "about": "which the Chronicle says grew under Theodosius to a hundred monks. It says other monasteries took the Studite rule from his"
+    },
+    {
+      "title": "Prince Izyaslav's question about the Latins",
+      "about": "a reply headed in the Caves Paterik as Theodosius's own. It tells the prince to show mercy even to a heretic or a Latin, and also forbids sharing meals and sacraments with Latins. Only the heading gives it to him"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The Chronicle says that from the Caves monastery all other monasteries adopted the same rule, and that it is honored as the oldest of all.",
+      "In 1091, the Chronicle's narrator says, he dug up Theodosius's relics by night, and they were laid in the church on 14 August.",
+      "Under 1108 the Chronicle says Prince Svyatopolk ordered that Theodosius be named in the liturgy."
+    ],
+    "remembered": [
+      "The Chronicle says the monastery was founded by tears, fasting, prayer and vigil, where others were founded by emperors and nobles.",
+      "In Nestor's Life, Svyatoslav comes to the monastery and says he had not dared to come, thinking the prior was angry with him. Theodosius answers that monks must rebuke princes for the salvation of the soul, and that princes should listen."
+    ]
+  },
+  "uncertain": [
+    "Which text of Nestor's Life. The Caves Paterik used here rests on the redaction of 1462, made at the order of Cassian of the Caves; D. I. Abramovich prints the older Arsenian redaction, from a copy of 1406, in an appendix.",
+    "Antony's first years. The Chronicle tells of one journey home from Athos, after 1051. The 1462 Paterik tells of an earlier stay in Kyiv under Prince Vladimir, a flight back to Athos when Boris and Gleb were killed, and a return after 1051.",
+    "When Theodosius became a monk. The 1462 Paterik dates his tonsure to 1032, under Yaroslav. The 1406 copy gives no year, and the Chronicle has the brothers gather only after 1054.",
+    "Who chose Theodosius as prior. The Chronicle says the brothers asked Antony for a new prior and he named Theodosius. Nestor's Life says the brothers chose him themselves and told Antony, who blessed him. S. H. Cross points out the difference.",
+    "Where Antony ended his life. The Chronicle says he lived forty years in the cave on the hill, where his bones lie, but also that he fled by night to Chernigov and dug a new cave there. It gives no year for his death.",
+    "Where the Studite rule came from. The Chronicle, and the Paterik's founding account headed as Nestor's, say Theodosius copied it from Michael, a Studite monk in Kyiv. Nestor's Life says he sent a brother to Ephraim the eunuch in Constantinople for it.",
+    "Who built the monastery above ground. The Chronicle says the brothers under Barlaam, the first prior, built the church, cells and palisade on the hill Prince Izyaslav gave them. Nestor's Life says Theodosius found a site near the cave, built a church, a fence and many cells there, and moved the brothers in 1062. S. H. Cross points out the difference.",
+    "Who wrote the Chronicle, and what Nestor knew. Sylvester says he wrote the Chronicle in 1116. S. H. Cross argues against the tradition that Nestor wrote it. Cross also says Nestor, by his own statement in the Life, did not know Theodosius and entered the monastery after his death. The Paterik heads its founding account as Nestor's, and there the writer says Theodosius received him at seventeen. A. N. Mouravieff, who also has Nestor enter at seventeen, calls him an eyewitness of Theodosius's life."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Paterik Kievskago Pecherskago monastyria: Prince Izyaslav's question about the Latins (headed as Theodosius's)",
+        "author": "Theodosius of the Caves (as headed); D. I. Abramovich (ed.)",
+        "date": "1911",
+        "language": "Church Slavonic",
+        "file": "cic/texts/kievan-caves-paterik_paterik-kievskago-pecherskago-monastyria-chu_abramovich1911.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "The Russian Primary Chronicle (tr. S. H. Cross)",
+        "author": "S. H. Cross (tr.)",
+        "date": "1930",
+        "language": "English",
+        "file": "cic/texts/russian-primary-chronicle_cross1930.txt"
+      },
+      {
+        "title": "Paterik Kievskago Pecherskago monastyria: Nestor's Life of Theodosius and the founding accounts",
+        "author": "Nestor; D. I. Abramovich (ed.)",
+        "date": "1911",
+        "language": "Church Slavonic",
+        "file": "cic/texts/kievan-caves-paterik_paterik-kievskago-pecherskago-monastyria-chu_abramovich1911.txt"
+      },
+      {
+        "title": "Polnoe sobranie russkikh letopisei, volume 1: the Laurentian text",
+        "date": "1926",
+        "language": "Old Russian",
+        "file": "cic/texts/russian-primary-chronicle_psrl-t1-lavrentevskaia-letopis-orv_1926.txt"
+      },
+      {
+        "title": "A History of the Church of Russia (tr. R. W. Blackmore)",
+        "author": "A. N. Mouravieff",
+        "date": "1842",
+        "language": "English",
+        "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt"
+      }
+    ]
+  }
+}

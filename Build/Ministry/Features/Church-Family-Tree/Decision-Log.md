@@ -3389,3 +3389,45 @@ Every quotation was re-checked word for word against its vendored file. No paid 
 **What is still open.** Open-Gaps 268, "Major councils, era 5" (2026-11-15). The councils of era 6 are next, as a separate job.
 
 The files are in `Council-Profiles/era5/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-15_council-profiles-era5/`. No census, record or site change is made, so there is no data release number; councils reach the site through the map build. Approved to proceed (coordinator, 2026-11-15; Mark may overrule).
+
+## 2026-11-15 — Cap ruling: one check of the round 3 fixes, era 4 Who batch 9
+
+**Cap ruling (2026-11-15, Mark: "Write it + one check (Recommended)", picked from options, relayed by the coordinator).** The third and last review round of era 4 Who batch 9 found 1 blocking and 29 minor points. The blocking point, R3-B1, was a close-out record, not a fault in any brief or card: Open-Gaps 269 cited this batch's Decision-Log entry before it was written. Neither part's reviewer found a wrong fact, quotation or date in any brief or card, or a contested point told as settled. The minor points were wording, line-range and record fixes, among them:
+- **John of Damascus.** The card now says the copy used here reads 750 for Le Quien's second speech, with no claim about his printed page; the records now give Fabricius's own reading of "Mansur" as the grandfather's name.
+- **Clement of Ohrid.** The brief explains "the Third Hour" as an hour of prayer, and gives Miklosich and Ginzel an identifier.
+- **Theodore, Cyril and Methodius, and Anskar.** Fabricius, Ginzel and Dümmler are named with an identifier at first mention, and Anskar's brief gives Adam of Bremen's time.
+- **Rimbert.** The card states the Life of Rimbert's rule before it speaks of "that rule".
+
+Mark ordered three things: write the batch's Decision-Log entry (below), apply the minor points as worded, and run one targeted Opus check of only the changed strings, by an agent that had not seen the drafting or the earlier rounds. The check also read the two new Decision-Log entries and Open-Gaps 269's reference to the batch entry. The check does not count toward the cap: `Build/Ministry/Operations/Audits/2026-11-15_who-profiles-era4-batch9/R4_cap-check.md`. This entry and the batch entry below resolve R3-B1. Its verdict was NOT CLEAR, with no blocking point: every round 3 fix held against its source. It found 14 minor points: three unclear references or long sentences in the Theodore, Anskar and Clement briefs; two line ranges or witnesses in the records; "printed" and an absence note in Open-Gaps 269; nested parentheses in the README; and four points in these two entries and R3_changes.md. All 14 were applied as worded. As in the earlier cap rulings, the ruling is treated as met, since a minor finding needs no further round.
+
+## 2026-11-15 — Who profiles, era 4 batch 9: seven profiles, five majors, Clement kept as a Who, the Kyiv pair placed in era 5 (coordinator, under Mark's ruling of 2026-11-14 that eras 4 to 7 are built in full)
+
+**The batch.** The first batch of the re-scored era 4 rows, the batch plan's batch 9 in `Build/Ministry/Operations/Audits/2026-11-14_who-rescore-eras4-5/Rescore.md`: John of Damascus, Theodore the Studite, Cyril and Methodius, Antony and Theodosius of the Kyiv Caves, Anskar, Rimbert and Clement of Ohrid. None was written before. John of Damascus is a live census person entry and is not changed; the other six are not in the census. Opus drafted every profile to `Who_Profile_Pattern.md`, per Mark's era 1 batch 1 ruling, "Opus for all". The first worker drafted the batch and ran rounds 1 to 3. A second worker took over at a clean break, after the first worker's context passed 400k tokens, and applied round 3, ran the cap check and merged.
+
+**Mark's ruling on Clement of Ohrid (2026-11-15, relayed by the coordinator).** Clement was on the re-score's "needs-ruling" list, since his life rests on one Life whose author is disputed. Its heading names Theophylact of Ohrid, who died in 1107. Franz Miklosich holds it a tenth-century disciple's work, and Johann Ginzel thinks Theophylact reworked older notes. Patrologia Graeca 126 leaves it to the reader, and Patrologia Graeca 111 lists it as anonymous, of about the middle of the tenth century. Mark picked "Keep as Who, dispute told (Recommended)". Clement stays a Who, the dispute is told in the brief and the card, and the needs-ruling is closed.
+
+**Coordinator and worker calls (not Mark's words; Mark may overrule).**
+- **Major marks** (coordinator, 2026-11-15), as the re-score proposed: John of Damascus, Theodore, Cyril and Methodius, Antony and Theodosius, and Anskar. Their briefs run 405 to 406 words, about 2:30. The 2:30 is a cap, not a target, and the two pairs run inside it ("Pairs up to 2:30", Mark, 2026-11-14). Rimbert and Clement are not major, at 365 and 370 words.
+- **Antony and Theodosius in era 5** (coordinator, 2026-11-15). They go on the map in era 5, in Kievan Rus' Christianity, 1054-1240, with 1062 as the active year: by Nestor's account, the year Theodosius moved the monastery above ground. Their files stay in this era 4 batch. The ruling applies Mark's rule that a name sits at the dates the person was active (Decision-Log, "Map Who: how many names, which names, and where they sit", 2026-11-11). The re-score had placed them in Kievan Rus' Christianity of 988 to 1054. Their card gives both traditions, the later first.
+- **Batch 10 split** (worker, told to the coordinator, 2026-11-15). The plan's batch 9 had nine entries. Stephen the Younger and Nikephoros I, who share one Patrologia Graeca volume, move to batch 10, to hold the writing quality.
+- **The river counts.** By the census Who rows, Greek East & Orthodoxy era 4 held five majors and Latin West & Catholicism ten. John of Damascus, Theodore, and Cyril and Methodius make the Greek East eight, and Anskar makes the Latin West eleven. By era 4 card traditions the counts are nine and ten. Which rule counts is for the map build slice and Mark.
+- **Contested points told in place.** The cut hand of John of Damascus is the late Life's story, with Fabricius and Leo Allatius on either side. Whether "Mansur" was a family name or an insult is given to each witness. The authorship of Clement's Life is told as above. Where the Russian Primary Chronicle and Nestor's Life of Theodosius differ, the Kyiv card gives both.
+- **Names and ids.** `john-of-damascus`, `theodore-the-studite`, `cyril-and-methodius`, `antony-and-theodosius-of-the-kyiv-caves`, `anskar`, `rimbert`, `clement-of-ohrid`. The traditions are the census's names.
+- **American spelling** in the new prose (Decision-Log 77); quotations keep their own spelling.
+
+**Review.** Three rounds by fresh Opus agents that had not seen the drafting, at full effort in every round (Mark, relayed by the coordinator: "dont sacrafice quality, expecially the quality of writing"), then the cap check.
+
+Round 1, the full checklist review in three parts, found 14 blocking and 66 minor points, all applied except optional ones. Among the blocking points:
+- Stephen the Younger's words were given to Stephen the Deacon.
+- The condition on Theodore's slave rule was dropped.
+- A held Migne dating was left out of the dispute over Clement's Life, and his burial date was told as his death.
+- On the Kyiv card, a contested point was told as settled. On the Anskar card, Robinson was misread on his birth.
+- The README's river counts disagreed with the census.
+
+Round 2, a targeted recheck in two parts, found 7 blocking and 34 minor points. All were applied except two that were left, and the records half of one that was missed; round 3 took up all three. Five of the seven blocking points came from round 1's own fix wording. They were a death turned into a fall, a "their own time" that moved Gauderich of Velletri into the Bollandists' century, a contested point put back on a card as settled, "two princes" naming the wrong pair, and Robinson's argument on Rimbert misstated.
+
+Round 3 found 1 blocking and 29 minor points, and the cap ruling above settles them. Every quotation in the briefs and cards was re-checked word for word against its vendored file in each round and by script. The two misses are scan marks the README names. No paid calls were made.
+
+**What is still open.** Open-Gaps 269, "Era 4 Who batch 9" (2026-11-15).
+
+The approved files are in `Who-Profiles/era4/batch9/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-15_who-profiles-era4-batch9/`. No census, record or site change is made, so there is no data release number. Approved to proceed (coordinator, 2026-11-15; Mark may overrule).
