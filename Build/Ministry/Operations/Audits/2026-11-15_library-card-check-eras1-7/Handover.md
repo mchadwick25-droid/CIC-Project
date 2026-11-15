@@ -1,5 +1,7 @@
 # Handover: Library, card-check fetch list, eras 1-7 (2026-11-15)
 
+**Stopped by Mark's direction of 2026-11-15, as the coordinator passed it on.** His words: "the legend wasn't about source, it was about it calling legends true who profiles. we dont need to build out more legends we need to make sure the who and counsils are drawing from their own sources not sources writen 1000 years later". Nothing from this fetch list is to be vendored. The branch stays as it is, with no pull request. The Open-Gaps number reserved for it (297) is released.
+
 From the first session of this batch (session_01JMNsSEBeazzXCpEwX6BWdW), which stopped at the 400k-token mark
 its brief set. Branch: `claude/library-cards-eras1-4` (keep the name; it now covers eras 1-7). No pull request is
 open. **Nothing is vendored yet**: no file in `cic/texts/`, no registry, map or wants row has been written. The
