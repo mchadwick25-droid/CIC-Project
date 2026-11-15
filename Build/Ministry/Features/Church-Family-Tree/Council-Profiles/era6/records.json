@@ -20,8 +20,8 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Buck dates the Aulendorf codex of Richental to the mid-1400s, a copy of a lost original of the 1420s",
-        "witness": "richental_chronik-des-constanzer-concils-gmh_buck1882.txt l.9",
+        "claim": "Buck judges the Aulendorf codex of Richental a copy made about the mid-1400s from an exemplar ('vorlage') of the 1420s, behind which lay a fuller Latin diary",
+        "witness": "richental_chronik-des-constanzer-concils-gmh_buck1882.txt l.406-429",
         "witness_kind": "modern reconstruction",
         "formation_confidence": "Documented"
       },
@@ -110,8 +110,8 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "While the union matter lay silent the council acted against Hus and the errors of Wyclif",
-        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.975-977",
+        "claim": "While the Italian proposal to open by confirming Pisa lay silent, after d'Ailly's counter-schedule, the council acted against Hus and the errors of Wyclif",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.966-977",
         "witness_kind": "participant",
         "formation_confidence": "Documented"
       },
@@ -146,8 +146,14 @@
         "formation_confidence": "Contested"
       },
       {
-        "claim": "The last session, XLV, met on Friday 22 April 1418, Martin V presiding, and closed with 'Domini, ite in pace'",
-        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902.txt l.129215-129243",
+        "claim": "The last session, XLV, met on Friday 22 April 1418, Martin V presiding, and closed with 'Domini, ite in pace', spoken by the cardinal deacon of St Vitus in Macello at the pope's command",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902.txt l.129215-129243, 129317-129322",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Martin V's decree at the last session dissolved the council and gave all present leave to go home",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902.txt l.129362-129370",
         "witness_kind": "acts",
         "formation_confidence": "Documented"
       },
@@ -476,6 +482,24 @@
         "formation_confidence": "Documented"
       },
       {
+        "claim": "Benedict XIII replied in writing to the council's citation, served at Peñíscola on 21 January 1417: those gathered at Constance are not a general synod and do not represent the universal church, being excommunicate",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902.txt l.110726-110760, 111237-111246, 111387-111391",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Benedict XIII's cardinals answered King Alfonso from Peñíscola on 3 May 1416 that they could not and must not go to the gathering at Constance",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd3-lat_finke1926.txt l.29733-29740, 29988-29989",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Benedict XIII, Peñíscola, Maundy Thursday (8 April) 1417, excommunicated all those gathered at Constance and the coming election, 'que melius damnata intrusio dici debet'",
+        "witness": "council-of-constance_acta-concilii-constanciensis-bd3-lat_finke1926.txt l.31527-31553",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
         "claim": "Richental has all three popes deposed on Corpus Christi eve 1415",
         "witness": "richental_chronik-des-constanzer-concils-gmh_buck1882.txt l.3975-3983",
         "witness_kind": "participant",
@@ -534,6 +558,12 @@
         "witness": "richental_chronik-des-constanzer-concils-gmh_buck1882.txt l.7167-7171",
         "witness_kind": "participant",
         "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Harasiewicz (1862) says the Kiev metropolitan Gregorius Semivlach is reported ('perhibetur') to have set out for the Council of Constance in 1418 to renew the union",
+        "witness": "harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt l.4820-4823",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
       },
       {
         "claim": "The acts date session IV to Saturday 30 March 1415, the second-last day of the month; Fillastre calls it the Saturday of the Easter vigil",
@@ -611,6 +641,18 @@
         "claim": "At the last session the Polish envoys asked for the condemnation of John Falkenberg's book; Martin V said he would keep what was decreed in matters of faith 'conciliariter ... et non aliter'",
         "witness": "mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902.txt l.129288-129315",
         "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Hefele reads Martin V's approval as limited to decrees made 'in materiis fidei conciliariter', which leaves out the decrees on the council's superiority, as not concerning the faith and made 'tumultuariter' rather than 'conciliariter'",
+        "witness": "hefele_history-of-the-councils-v1-to-nicaea_clark1872.txt l.3333-3400, 3938-3941",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Gerson, writing after Martin V's election (tract date not checked), says Martin said several times in public that he would keep inviolably what was done 'conciliariter' at Constance",
+        "witness": "gerson_opera-omnia-tomus-2-pars-1-tractatus-ad-schisma-lat_dupin1706.txt l.27283-27294",
+        "witness_kind": "participant",
         "formation_confidence": "Documented"
       },
       {
@@ -692,7 +734,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Prague, 10 July 1420: Sigismund had his legate raise 'illam impiam crucem Antichristi' and let Hus be burned 'sub suo salvo aut potius calvo conductu'",
+        "claim": "Prague, 10 July 1420: Sigismund had his legate raise 'illam impiam crucem Antichristi' and had Hus, 'sub suo salvo aut potius calvo conductu', and Jerome condemned and burned ('jussit condemnari et exuri')",
         "witness": "palacky_urkundliche-beitraege-hussitenkrieg-v1-deu-lat_1873.txt l.2255-2333",
         "witness_kind": "later narrative",
         "formation_confidence": "Documented"
@@ -740,6 +782,12 @@
         "formation_confidence": "Documented"
       },
       {
+        "claim": "Luther, 1521, on the bull's thirtieth article: 'all the articles of John Hus condemned at Constance are altogether Christian', and the pope acted 'like a very Antichrist'; the editors trace the article to the Leipzig Disputation of 1519",
+        "witness": "luther_works-v3-selected_various1930.txt l.5221-5237, 5245-5248",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
         "claim": "Piccolomini: both bore death with a steady mind and hurried to the fire as if invited to a feast",
         "witness": "piccolomini_historia-bohemica-lat_1592.txt l.4055-4057",
         "witness_kind": "later narrative",
@@ -748,6 +796,18 @@
       {
         "claim": "Foxe heads the decree on Wyclif's bones 'A.D. 1425' and says they were burned and the ashes drowned",
         "witness": "foxe_acts-and-monuments-v3_cattley-townsend1837.txt l.7919-7922, 8040-8044",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Martin V to the bishop of Lincoln, Rome, 9 December (V id. Dec.) of his eleventh year: the council's definitive sentence ordered Wyclif's body and bones dug up; he had confirmed it by other letters, and orders them dug up, publicly burned and the ashes disposed of so no trace remains",
+        "witness": "raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.7977-8019",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Raynaldus files Martin V's letter on Wyclif's bones under 1427 and says Martin also asked the English king's council to support the bishop",
+        "witness": "raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.7559, 7971-7976, 8019-8025",
         "witness_kind": "later narrative",
         "formation_confidence": "Documented"
       }
@@ -770,12 +830,12 @@
       },
       {
         "claim": "The binding force of Haec sancta",
-        "sides": "Never confirmed in full by Rome, rejected by Eugene IV in 1439, received with Rome's rights reserved in 1446: Bannwart (denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.16207-16222). Approved by the Apostolic See and not limited to the time of schism: the Gallican Articles (denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.23505-23516). Martin V's 'conciliariter ... et non aliter' (mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902.txt l.129310-129315) is held, but no held writer argues it either way.",
+        "sides": "Never confirmed in full by Rome, rejected by Eugene IV in 1439, received with Rome's rights reserved in 1446: Bannwart (denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.16207-16222). Approved by the Apostolic See and not limited to the time of schism: the Gallican Articles (denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.23505-23516). Martin V's 'conciliariter ... et non aliter' (mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902.txt l.129310-129315) is read by Hefele as excluding the decrees on the council's power over the pope (hefele_history-of-the-councils-v1-to-nicaea_clark1872.txt l.3393-3400, 3938-3941). Gerson says Martin publicly promised to keep what was done conciliariter (gerson_opera-omnia-tomus-2-pars-1-tractatus-ad-schisma-lat_dupin1706.txt l.27289-27293).",
         "formation_confidence": "Contested"
       },
       {
         "claim": "When Wyclif was condemned, and how many further articles",
-        "sides": "4 May 1415, session VIII: the acts (mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902.txt l.64789, 65536-65566; denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.15776-15778). The 4 May sentence did not stand; condemnation on 6 July: Fillastre (council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.1861-1871, 2567-2575). 266 further articles (council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.1864) against 260 (council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.2573).",
+        "sides": "4 May 1415, session VIII: the acts (mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902.txt l.64789, 65536-65566; denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.15776-15778); Martin V's letter says the council's definitive sentence ordered the exhumation and that he confirmed it, without dating it (raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt l.7988-8001). The 4 May sentence did not stand; condemnation on 6 July: Fillastre (council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.1861-1871, 2567-2575). 266 further articles (council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.1864) against 260 (council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt l.2573).",
         "formation_confidence": "Contested"
       },
       {
@@ -810,7 +870,7 @@
       },
       {
         "claim": "Whether the council canonized Bridget of Sweden",
-        "sides": "Canonized at a session on Candlemas eve 1415: Richental (richental_chronik-des-constanzer-concils-gmh_buck1882.txt l.3027-3058). Canonized by Boniface IX in 1391 and confirmed by John XXIII in 1414: Cumming, on her Who card (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era6/batch2/bridget-of-sweden.card.json l.46-48).",
+        "sides": "Canonized at a session on Candlemas eve 1415: Richental (richental_chronik-des-constanzer-concils-gmh_buck1882.txt l.3027-3058). Canonized by Boniface IX in 1391 and confirmed by John XXIII in 1414 and Martin V in 1419: Cumming, on her Who card (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era6/batch2/bridget-of-sweden.card.json l.46-48).",
         "formation_confidence": "Contested"
       },
       {
@@ -829,32 +889,20 @@
         "note": "The 72,460 at the end of his recapitulation is marked by Buck as a later hand (richental l.11686)."
       },
       {
-        "detail": "The surname of Gregory, the Ruthenian archbishop",
-        "note": "Fillastre's text gives an ellipsis after 'archiepiscopus'; searched all of cic/texts for Tsamblak, Camblak, Zamblak and Samblak with no hit."
-      },
-      {
-        "detail": "The burning of Wyclif's bones",
-        "note": "The council ordered them dug up in 1415 (Mansi); the burning is held only in Foxe, under the heading A.D. 1425."
+        "detail": "The burning of Wyclif's bones as carried out",
+        "note": "The council ordered them dug up in 1415 (Mansi), and Martin V's letter of his eleventh year orders them burned (raynaldus l.7977-8019). The burning itself is held only in Foxe, under the heading A.D. 1425."
       },
       {
         "detail": "Wyclif's own words matched to the forty-five articles",
         "note": "His works are held (wyclif_* files) but were not checked against the articles; the entry gives the condemned teaching as the acts state it."
       },
       {
-        "detail": "Benedict XIII's own written reply",
-        "note": "Known here only through Fillastre's summary; Finke's third volume, which may hold Benedict-side texts, was not read beyond its header."
-      },
-      {
-        "detail": "Luther at Leipzig in 1519 in his own words",
-        "note": "Not held; only a 1930 editor's introduction and Exsurge Domine, article 30. Searched for leipzig or lipsi with hus, hussit or bohem nearby."
+        "detail": "Luther's words at Leipzig in 1519, printed in full",
+        "note": "Not held. The 1930 volume gives the article as he put it there (editors' note, luther_works-v3 l.5245-5248) and his own 1521 defense of it (l.5221-5237); Exsurge Domine, article 30, gives the condemned form."
       },
       {
         "detail": "The First Vatican Council naming Constance",
         "note": "The held text of Pastor aeternus (Denzinger) does not name Constance; searched every CONSTANTI hit in Denzinger."
-      },
-      {
-        "detail": "A held writer arguing what Martin V's 'conciliariter ... et non aliter' meant",
-        "note": "None found; the text is held in Mansi, but no held source argues its sense either way."
       },
       {
         "detail": "The year of Richental's second entry on the Ruthenian archbishop (21 January)",

@@ -27,7 +27,7 @@
     "Three popes. Fillastre says the schism had lasted thirty years when the cardinals of both sides called a council at Pisa. There, he says, Benedict XIII and Gregory XII were deposed and Alexander V chosen. Mansi's acts of Pisa date it to 1409.",
     "Fillastre says Pisa did not end the split. Spain except Portugal held to Benedict, and Naples, Carlo Malatesta, the dukes of Bavaria and Trier held to Gregory. Alexander died within the year, and John XXIII was chosen in his place.",
     "Fillastre names the council's two aims as the peace and full union of the church, and its reform. The decree Haec sancta adds the faith to these.",
-    "Heresy. While the union matter lay silent, Fillastre writes, the council acted against Hus. He calls him 'a certain Bohemian heretic', and names the errors of John Wyclif, the Englishman.",
+    "Heresy. While the proposal to confirm Pisa lay silent, Fillastre writes, the council acted against Hus. He calls him 'a certain Bohemian heretic', and names the errors of John Wyclif, the Englishman.",
     "Hus's side, in his own words. On 6 July 1415, Mladoňovice reports, Hus said he had come freely under the king's safe-conduct, 'wishing to show my innocence'. The Bohemian barons wrote on 12 May 1415 that he went to answer a false charge.",
     "Hus taught that the holy catholic church is 'the totality of the predestinate' (his De Ecclesia, in Schaff's English). The council condemned this as the first of his thirty articles (the acts, in Denzinger)."
   ],
@@ -54,18 +54,18 @@
     "Jerome of Prague. Fillastre says he recanted on 23 September 1415 and took it back the next May. On 30 May 1416, Fillastre says, he was condemned and taken by the secular court to the fire.",
     "The Observants (session XIX, in Glassberger). The council set a vicar general over the Observant friars of France, Burgundy and Touraine, and named Nicholas Rudolphi to it.",
     "The election. Fillastre and Glassberger say the cardinals and six men from each nation would choose the pope together. Cerretanus says they chose Oddone Colonna on 11 November 1417, St Martin's day, and he took the name Martin V.",
-    "At the last session, the acts say, the Polish envoys asked to have a book by John Falkenberg condemned. Martin V answered that he would keep what the council had decided in matters of faith 'conciliarly, and not otherwise'. He then sent them home with 'Lords, go in peace' (Mansi)."
+    "At the last session, the acts say, the Polish envoys asked to have a book by John Falkenberg condemned. Martin V answered that he would keep what the council had decided in matters of faith 'conciliarly, and not otherwise'. His decree dissolved the council and gave all leave to go home. At his command a cardinal deacon said, 'Lords, go in peace' (Mansi)."
   ],
   "outcome": [
     "The schism ended under one pope. Fillastre writes, 'Praised be the Most High, who granted that this be done in peace and the church set under one head.'",
-    "Benedict XIII did not accept it. Fillastre summarizes his written reply: this could be no general council, for it had no true cardinals or bishops, and all there were schismatics.",
+    "Benedict XIII did not accept it. The council's summons was served on him at Peñíscola in January 1417. His written reply said those gathered at Constance were 'not a general synod' (the acts, in Mansi). Being excommunicate, he said, they did not represent the universal church. His cardinals had told King Alfonso in May 1416 that they could not and must not go there. On Maundy Thursday 1417 Benedict excommunicated all those gathered at Constance (Finke).",
     "Bohemia rose against the sentence. On 2 September 1415 its barons, knights and nobles wrote to the council, calling Hus 'a good, just and catholic man'. They vowed to defend the preachers of God's law 'to the shedding of blood'. Palacký counts 452 seals on the eight letters.",
     "Hus had defended the lay cup from prison against the council's decree (his letter, in Workman and Pope's English). Laurence of Březová says Jakoubek of Stříbro began giving it in Prague in 1414.",
-    "In July 1420 Prague wrote to Venice against Sigismund. It said he had his legate raise 'the impious cross of Antichrist' against Bohemia. It said he let Hus and Jerome burn 'under his safe-conduct, or rather his bald-conduct'.",
+    "In July 1420 Prague wrote to Venice against Sigismund. It said he had his legate raise 'the impious cross of Antichrist' against Bohemia. It said he had Hus and Jerome condemned and burned 'under his safe-conduct, or rather his bald-conduct'.",
     "In February 1418 Martin V's bull Inter cunctas condemned Wyclif's and Hus's articles again. It told judges to ask suspects whether Constance represented the universal church (Denzinger).",
     "Bannwart, Denzinger's modern editor, says Rome never confirmed all of Constance's decrees. He says Eugene IV in 1439 rejected Haec sancta as 'impious and scandalous'. In 1446, he says, Eugene received Constance with Rome's rights kept whole.",
     "The French clergy's Articles, which Bannwart dates to 1682, said Haec sancta stood unmoved and was not meant for the time of schism alone. Innocent XI rejected them in 1682, Bannwart notes, and the Articles were condemned in 1690.",
-    "In 1520 Martin Luther wrote that Hus and Jerome were burned in breach of a safe-conduct. He wrote, 'I have not yet found any errors in his writings.' Pope Leo's bull that year condemned his claim that some of Hus's articles were 'most Christian'."
+    "In 1520 Martin Luther wrote that Hus and Jerome were burned in breach of a safe-conduct. He wrote, 'I have not yet found any errors in his writings.' Pope Leo's bull that year condemned his claim that some of Hus's articles were 'most Christian'. In his 1521 reply Luther went further: 'all the articles of John Hus condemned at Constance are altogether Christian.'"
   ],
   "record": [
     {
@@ -96,7 +96,7 @@
     {
       "witness": "Ulrich Richental, Chronicle of the Council of Constance (ed. Buck)",
       "kind": "participant",
-      "note": "A Constance burgher who saw it but was not a member; Catholic and lively. Buck dates his copy to the mid-1400s, from a lost original of the 1420s."
+      "note": "A Constance burgher who saw it but was not a member; Catholic and lively. Buck judges his text a mid-1400s copy of an exemplar from the 1420s."
     },
     {
       "witness": "Peter of Mladoňovice, Relatio (Palacký, Documenta)",
@@ -124,6 +124,16 @@
       "note": "A papal secretary who saw Jerome die; admiring of him, though he disowns his views."
     },
     {
+      "witness": "Benedict XIII, reply to the council's summons, January 1417 (Mansi, volume 27), and his and his cardinals' letters (Finke, volume 3)",
+      "kind": "participant",
+      "note": "The refusing pope's own voice; hostile to the council."
+    },
+    {
+      "witness": "Martin V to the bishop of Lincoln, on Wyclif's bones, in his eleventh year (Raynaldus, Annales ecclesiastici, volume 28)",
+      "kind": "participant",
+      "note": "The pope the council chose, writing years later; printed in Raynaldus's Annales, which file it under 1427."
+    },
+    {
       "witness": "Thomas Walsingham, Historia Anglicana",
       "kind": "later narrative",
       "note": "A St Albans chronicler of the time; English."
@@ -149,14 +159,14 @@
       "note": "Hussite, against Sigismund."
     },
     {
-      "witness": "Aeneas Sylvius Piccolomini, Historia Bohemica; John Foxe, Acts and Monuments; Martin Luther, 1520",
+      "witness": "Aeneas Sylvius Piccolomini, Historia Bohemica; John Foxe, Acts and Monuments; Martin Luther, 1520 and 1521",
       "kind": "later narrative",
       "note": "Later memory: Catholic and hostile to the Hussites; Protestant; Protestant."
     },
     {
-      "witness": "Heinrich Finke, Clemens Bannwart, Carl Mirbt, František Palacký, Václav Novotný and Count Lützow",
+      "witness": "Heinrich Finke, Clemens Bannwart, Carl Mirbt, František Palacký, Václav Novotný, Count Lützow, Karl Joseph von Hefele and Michael Harasiewicz",
       "kind": "modern reconstruction",
-      "note": "Editors and historians who give the authorship of the diary, the seal count, the date of 28 November and the later reception."
+      "note": "Editors and historians. They give the diary's author, the seal count, the date of 28 November and the later reception. Hefele reads Martin V's promise, and Harasiewicz names the Ruthenian archbishop."
     }
   ],
   "traditions": [
@@ -164,7 +174,7 @@
       "id": "latin-papal-church-avignon-to-lateran-v",
       "name": "The Latin Papal Church (Avignon to Fifth Lateran)",
       "part": "Gathered",
-      "note": "The cardinals and nations of the three obediences met and set the church 'under one head' (Fillastre). Benedict XIII's side refused, calling it no general council (Fillastre)."
+      "note": "The cardinals and nations of the three obediences met and set the church 'under one head' (Fillastre). Benedict XIII refused it, saying those gathered there were no general synod (his reply, in Mansi)."
     },
     {
       "id": "the-hussite-and-bohemian-brethren-movement",
@@ -220,6 +230,11 @@
       "part": "Hus's companion; recorded his hearings, sentence and death"
     },
     {
+      "name": "Ulrich Richental",
+      "verdict": "WHO",
+      "part": "Citizen of Constance; saw the council and wrote its chronicle"
+    },
+    {
       "name": "John Wyclif",
       "id": "john-wyclif",
       "verdict": "WHO",
@@ -237,44 +252,44 @@
       "part": "Long dead; learned men of Sweden, Denmark and Norway asked the council to make her a saint, by Richental's account"
     },
     {
+      "name": "Guillaume Fillastre",
+      "verdict": "WHO",
+      "part": "Cardinal of St Mark and diarist; objected to the first Wyclif sentence; wrote Benedict's sentence; an elector"
+    },
+    {
+      "name": "Pierre d'Ailly",
+      "verdict": "WHO",
+      "part": "Cardinal of Cambrai; opposed opening with the confirmation of Pisa (Fillastre)"
+    },
+    {
       "name": "Martin V (Oddone Colonna)",
       "verdict": "STORY",
       "part": "Cardinal; elected pope on 11 November 1417; presided over the last session and issued Inter cunctas"
     },
     {
-      "name": "Stephen Páleč",
-      "verdict": "LISTED",
-      "part": "Hus's accuser; with Michael de Causis, stirred the cardinals to arrest him (Mladoňovice)"
-    },
-    {
       "name": "John XXIII (Baldassare Cossa)",
-      "verdict": "NOT SCORED",
+      "verdict": "STORY",
       "part": "Called the council; fled in March 1415; deposed on 29 May 1415"
     },
     {
       "name": "Gregory XII (Angelo Correr)",
-      "verdict": "NOT SCORED",
+      "verdict": "STORY",
       "part": "Not present; authorized the council and resigned through his envoys on 4 July 1415"
     },
     {
       "name": "Benedict XIII (Pedro de Luna)",
-      "verdict": "NOT SCORED",
+      "verdict": "STORY",
       "part": "Not present; refused the council and was deposed on 26 July 1417"
     },
     {
       "name": "Sigismund, king of the Romans",
-      "verdict": "NOT SCORED",
+      "verdict": "STORY",
       "part": "Pressed for the council; sat in its sessions in his regalia; gave Hus his safe-conduct"
     },
     {
-      "name": "Guillaume Fillastre",
-      "verdict": "NOT SCORED",
-      "part": "Cardinal of St Mark and diarist; objected to the first Wyclif sentence; wrote Benedict's sentence; an elector"
-    },
-    {
-      "name": "Pierre d'Ailly",
-      "verdict": "NOT SCORED",
-      "part": "Cardinal of Cambrai; opposed opening with the confirmation of Pisa (Fillastre)"
+      "name": "Stephen Páleč",
+      "verdict": "LISTED",
+      "part": "Hus's accuser; with Michael de Causis, stirred the cardinals to arrest him (Mladoňovice)"
     },
     {
       "name": "Francesco Zabarella",
@@ -317,7 +332,7 @@
       "part": "Preached against heresy at Hus's sentence, and again at Jerome's"
     },
     {
-      "name": "Ludwig, Count Palatine",
+      "name": "Duke Ludwig, son of Clem of Bavaria (Mladoňovice)",
       "verdict": "NOT SCORED",
       "part": "Held the golden orb at Hus's sentence and led him to execution"
     },
@@ -327,7 +342,7 @@
       "part": "Helped John XXIII flee to Schaffhausen"
     },
     {
-      "name": "Gregory, archbishop of the Rus'",
+      "name": "Gregory, metropolitan of Kiev (Gregorius Semivlach, in Harasiewicz)",
       "verdict": "NOT SCORED",
       "part": "Ruthenian archbishop of the Greek faith; came before Martin V on 25 February 1418 to seek union"
     },
@@ -363,16 +378,16 @@
     "The opening day. It may be 1 November, the day set (Fillastre; Cerretanus; Březová), or 5 November, the procession and Mass (Fillastre; Cerretanus; Mansi). It may also be 16 November, the first session (Fillastre).",
     "The flight. Fillastre says John left by water after midnight on the night to 21 March. Richental says he rode out disguised in a grey cloak at one in the afternoon of 20 March. Walsingham says he pretended to be ill and left suddenly by night.",
     "Haec sancta. Fillastre says the first reading, in session IV, left out the article on reform, and Mansi prints that clause in brackets in session IV. Mirbt gives the decree as session V; Bannwart and the French clergy cite sessions IV and V together.",
-    "How binding Haec sancta was. Bannwart says Rome never confirmed all of Constance's decrees and Eugene IV rejected this one. The French clergy in 1682 said it was approved by Rome and stood for all time. Martin V's promise to keep what was done 'conciliarly, and not otherwise' is a text each side could read its own way.",
-    "When Wyclif was condemned. The acts date the sentence to 4 May 1415. Fillastre says that sentence did not stand, and that the council condemned the articles and his memory on 6 July. Fillastre gives 266 further articles on 4 May and 260 on 6 July.",
+    "How binding Haec sancta was. Bannwart says Rome never confirmed all of Constance's decrees and Eugene IV rejected this one. The French clergy in 1682 said it was approved by Rome and stood for all time. Martin V promised to keep what the council decided in matters of faith 'conciliarly, and not otherwise' (the acts). Hefele, a nineteenth-century historian of the councils, says this left out the decrees on the council's power. Those decrees, he says, did not concern the faith. Gerson, writing after the election, says Martin said often and in public that he would keep what was done conciliarly.",
+    "When Wyclif was condemned. The acts date the sentence to 4 May 1415. Fillastre says that sentence did not stand, and that the council condemned the articles and his memory on 6 July. Fillastre gives 266 further articles on 4 May and 260 on 6 July. Martin V later wrote that the council's sentence had ordered the exhumation, and that he had confirmed it (Raynaldus).",
     "Whether Hus tried to escape. Richental says he hid in a hay wagon and was caught. Mladoňovice says this was a rumour, and false. Lützow rejects Richental's tale and notes a guess that he confused Hus with Jerome.",
     "The safe-conduct. Its text is dated Speyer, 18 October 1414. Hus wrote on 4 November that he had come without it, and Novotný says it reached him on 5 November. Luther's 1916 editors say he was wrong to give Jerome one too.",
     "Who presided at Hus's sentence. The acts name Jean de Brogny, cardinal of Ostia, with the king present. Mladoňovice says the king of the Romans presided. Mladoňovice says seven bishops took part in the degrading, and the sentence names six.",
     "Richental's errors. He has all three popes deposed on 29 May 1415, though Fillastre says Gregory resigned and Benedict was deposed in 1417. He tells Jerome's burning in his 1415 pages and again in May 1416; Fillastre and Poggio date it to 30 May 1416.",
     "Richental's counts are his own, and the total of 72,460 is in a later hand. The acts give two hundred fathers at session IV, 'or about'.",
     "Who first went over to Colonna. Fillastre says the cardinal of Pisa went first, and that he himself was among the last. Walsingham says the bishop of London spoke first and the rest agreed at once.",
-    "Bridget of Sweden. Richental says the council heard the Scandinavians' request and made her a saint in February 1415. Her Who card gives Cumming's view that she had been canonized in 1391 and confirmed by John XXIII in 1414.",
-    "The Ruthenian archbishop's arrival. Fillastre has him enter on a Friday before 25 February 1418. Richental names him Jerg and gives 19 February with five bishops, and in another place 21 January with eight."
+    "Bridget of Sweden. Richental says the council heard the Scandinavians' request and made her a saint in February 1415. Her Who card gives Cumming's view that she had been canonized in 1391. He says John XXIII confirmed it in 1414, and Martin V in 1419.",
+    "The Ruthenian archbishop's arrival. Fillastre has him enter on a Friday before 25 February 1418. Richental names him Jerg and gives 19 February with five bishops, and in another place 21 January with eight. Harasiewicz, a Ruthenian Catholic church historian of Lviv writing in 1862, names him Gregorius Semivlach, metropolitan of Kiev. He says Gregory is reported to have set out for the council in 1418."
   ],
   "sources": {
     "fromTheCouncil": [
@@ -393,12 +408,6 @@
         "author": "Council of Constance and Martin V, in Heinrich Denzinger, ed. Clemens Bannwart",
         "language": "Latin",
         "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt"
-      },
-      {
-        "title": "Acta concilii Constanciensis III: John XXIII, Gregory XII and Benedict XIII",
-        "author": "ed. Heinrich Finke",
-        "language": "Latin",
-        "file": "cic/texts/council-of-constance_acta-concilii-constanciensis-bd3-lat_finke1926.txt"
       }
     ],
     "fromThoseThere": [
@@ -443,6 +452,12 @@
         "author": "Jean Gerson, ed. Du Pin",
         "language": "Latin",
         "file": "cic/texts/gerson_opera-omnia-tomus-2-pars-1-tractatus-ad-schisma-lat_dupin1706.txt"
+      },
+      {
+        "title": "Acta concilii Constanciensis III: Benedict XIII's replies, his cardinals' letters, the excommunication of 1417",
+        "author": "ed. Heinrich Finke",
+        "language": "Latin",
+        "file": "cic/texts/council-of-constance_acta-concilii-constanciensis-bd3-lat_finke1926.txt"
       }
     ],
     "writtenLater": [
@@ -499,6 +514,30 @@
         "author": "Count Lützow",
         "language": "English",
         "file": "cic/texts/lutzow_life-and-times-of-hus_1909.txt"
+      },
+      {
+        "title": "Annales ecclesiastici XXVIII: Martin V's letter on Wyclif's bones",
+        "author": "Odoric Raynaldus, ed. Augustin Theiner",
+        "language": "Latin",
+        "file": "cic/texts/raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt"
+      },
+      {
+        "title": "An Argument in Defense of All the Articles, 1521",
+        "author": "Martin Luther, in Works of Martin Luther III",
+        "language": "English",
+        "file": "cic/texts/luther_works-v3-selected_various1930.txt"
+      },
+      {
+        "title": "A History of the Councils of the Church I, introduction",
+        "author": "Karl Joseph von Hefele, tr. W. R. Clark",
+        "language": "English",
+        "file": "cic/texts/hefele_history-of-the-councils-v1-to-nicaea_clark1872.txt"
+      },
+      {
+        "title": "Annales Ecclesiae Ruthenae",
+        "author": "Michael Harasiewicz",
+        "language": "Latin",
+        "file": "cic/texts/harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt"
       }
     ]
   }
