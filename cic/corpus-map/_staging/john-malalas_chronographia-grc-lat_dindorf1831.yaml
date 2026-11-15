@@ -1,0 +1,11 @@
+source_file: john-malalas_chronographia-grc-lat_dindorf1831.txt
+assignments:
+- row_id: john-malalas_chronographia-grc-lat_dindorf1831--john-malalas-chronographia-dindorf-1831
+  work: 'John Malalas, Chronographia, Greek and Latin (Dindorf 1831)'
+  author: john-malalas
+  locus: 'book XVIII from about OCR line 28677; add 12 to OCR line numbers'
+  atlas_ids:
+  - byzantine-imperial-church-justinianic
+  role: context
+  confidence: provisional
+  note: 'An Antiochene chronicler''s world history down to Justinian, written inside this window. A lay writer''s witness to the church of his day.'

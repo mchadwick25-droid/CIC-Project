@@ -1,0 +1,11 @@
+source_file: nau_opuscules-maronites-pt1-syr-fra_1899.txt
+assignments:
+- row_id: nau_opuscules-maronites-pt1-syr-fra_1899--opuscules-maronites-part-1-nau-1899
+  work: 'Maronite short works: writings ascribed to John Maron and a Maronite chronicle, Syriac and French, part 1 (Nau 1899)'
+  author: nau
+  locus: 'the introduction at about OCR lines 190-340; add 12 to OCR line numbers'
+  atlas_ids:
+  - maronite-christianity
+  role: tradition
+  confidence: needs-ruling
+  note: 'The Maronites'' own old Syriac texts. Their dates and the authorship of John Maron are disputed, and they may be earlier than this window; the placing needs a ruling.'

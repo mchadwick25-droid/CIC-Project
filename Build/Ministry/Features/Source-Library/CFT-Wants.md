@@ -200,6 +200,42 @@ written, not the date the book was printed. But the book's letters begin before 
 of England. For the census owner: the Victorian entry's text quotes the two 1814 letters, which fall
 before its window.
 
+## Eras 1-3 (70-622): the Who scan's wanted sources and the council records
+
+Twenty-five files for the eras 1-3 rows of `Build/Ministry/Operations/Audits/2026-11-12_wanted-sources-combined/Wanted_Sources.md`:
+person rows 1-13, council rows 1-8, and Library-label correction 19. The search record is
+`Build/Ministry/Operations/Audits/2026-11-15_library-eras1-3/Search_Log.md`. Every file has a printed imprint of 1930
+or earlier, read on its title page. Every modern edition the audits named (Koenen and Römer, Perler, Thomson, Lang,
+Dowsett, Schwartz) is in copyright or after 1930, and was replaced by an older public-domain edition or witness, or
+reported not found. An Opus reviewer checked every rights row and twelve of the files in depth; its corrections
+are in `R1_changes.md` beside the search log.
+
+| want (Wanted Sources row) | state | file(s) | shelf |
+|---|---|---|---|
+| era 1 row 1 (Mani) | filled with later own texts and two outside witnesses | `manichaean-texts_tuerkische-manichaica-aus-chotscho-1-in-abhandlungen-preuss-akademie-1911-deu-oui_le-coq1911.txt`; `manichaean-texts_traite-manicheen-retrouve-en-chine-pt1-in-journal-asiatique-10-18-fra_chavannes-pelliot1911.txt`; `manichaean-texts_traite-manicheen-retrouve-en-chine-pt2-in-journal-asiatique-11-1-fra_chavannes-pelliot1913.txt`; `manichaean-texts_dr-steins-turkish-khuastuanift-in-jras-1911_le-coq1911.txt`; `mani_mani-seine-lehre-und-seine-schriften-fihrist-deu-ara_fluegel1862.txt`; `biruni_chronology-of-ancient-nations_sachau1879.txt` | manichaeism: the Manichaean texts `needs-ruling` (the manuscripts are later than the window); the Fihrist and al-Biruni context. The Cologne Codex, the Kephalaia and the Psalm-Book are in copyright. Müller's Turfan fragments (1904) were not found. |
+| era 1 row 2 (Melito of Sardis) | not found | — | The Peri Pascha was first printed in 1940, so no public-domain edition exists. The old fragments are held (Otto 1872, Routh 1846). |
+| era 1 row 3 (Ptolemy the Valentinian) | filled | `epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915.txt` | valentinian-and-other-gnostic-christianities, tradition (the Letter to Flora) |
+| era 1 row 4 (Paul of Samosata) | filled | `paul-samosata_paulus-von-samosata-fragmente-tu44-5-deu-grc_loofs1924.txt`; `paul-samosata_paul-de-samosate-etude-historique-fra-grc_bardy1923.txt` | antiochene-church-third-century, `needs-ruling` (which fragments are his is disputed) |
+| era 2 row 5 (Maron) | filled | `theodoret_opera-omnia-t3-historia-religiosa-pg82-grc-lat_migne1864.txt`; `nau_opuscules-maronites-pt1-syr-fra_1899.txt`; `nau_opuscules-maronites-pt2-syr-fra_1900.txt`; `naironus_dissertatio-de-origine-nomine-ac-religione-maronitarum-lat_1679.txt` | Theodoret's Historia religiosa on the Antiochene entry, tradition; its chapter on Maron on maronite-christianity, antecedent; Nau `needs-ruling`; Naironus none yet (no Maronite entry covers 1679). Held already: Duwayhi's history in Arabic. |
+| era 2 row 6 (Gregory the Illuminator) | filled | `langlois_collection-historiens-armenie-tomes1-2-fra_1867-1869.txt`; `agathangelos_agathangelus-und-die-akten-gregors-von-armenien-grc-deu_lagarde1887.txt` | armenian-christianity-conversion-era, `needs-ruling` (Agathangelos is usually dated after 451) |
+| era 2 row 7 (Ezana of Aksum) | filled | `ezana_deutsche-aksum-expedition-bd4-inschriften-deu-gez-grc_littmann1913.txt`; `budge_history-of-ethiopia-nubia-and-abyssinia-v1_1928.txt` | aksumite-christianity, antecedent (the inscriptions are of the fourth century) |
+| era 3 row 8 (Iakob Tsurtaveli) | not found | — | No text of the Martyrdom of Shushanik before 1931 was found in a usable scan. The Armenian version (Venice 1853) is on archive.org with unreadable OCR; not taken. |
+| era 3 rows 9, 10 (Vachagan III; Movses Daskhurantsi); council 4 (Aghuen) | filled in part | `movses-daskhurantsi_beitraege-zur-albanischen-geschichte-deu_manandian1897.txt` | church-of-caucasian-albania, tradition (the canons of Aghuen in German). The whole History was not found before 1931. |
+| era 3 row 11 (Sabas) | filled in Latin, possibly a paraphrase | `cyril-scythopolis_vita-sabae-in-surius-vitae-sanctorum-v12-december-lat_1880.txt` | chalcedonian-monasticism-judean-desert-and-gaza, `needs-ruling`: the volume's heading says the Life may be Metaphrastes's reworking of Cyril. No readable Greek was found. |
+| era 3 row 12 (John Malalas) | held already, and filled | `theodore-abu-qurrah_opuscula-with-andrew-crete-malalas-pg97-grc-lat_migne1860.txt` (held; now shelved); `john-malalas_chronographia-grc-lat_dindorf1831.txt` | byzantine-imperial-church-justinianic, context |
+| era 3 row 13 (Theophylact Simocatta) | filled | `theophylact-simocatta_historiae-with-genesius-grc-lat_bekker1834.txt` | byzantine-imperial-church-justinianic, context (he writes about 630) |
+| council 1 (Rome against Apollinaris, 377) | held already | `mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901.txt` | The notice of the synod, at about file line 47669. No acts survive. |
+| council 2 (the Donatist council against Tyconius) | held already, one witness | `augustine_scripta-contra-donatistas-opera-omnia-t9-lat_migne-pl43.txt` | Augustine, Contra epistolam Parmeniani I.1, from about file line 1340. No acts survive. |
+| council 3 (Beth Lapat, 484) | none survives | — | The acts were annulled and are lost. |
+| councils 5, 7 (Dvin 506 and 554) | filled in German | `ter-minassiantz_armenische-kirche-in-ihren-beziehungen-zu-den-syrischen-kirchen-tu26-deu_1904.txt` | the two Armenian entries of 451-884, tradition (the bishops' letters). The Armenian Book of Letters (1901) has unreadable OCR; not taken. |
+| council 6 (Constantinople 536) | filled | `mansi_sacrorum-conciliorum-collectio-tomus-8-492-536-lat_welter-facsimile1901.txt` | byzantine-imperial-church-justinianic, tradition |
+| council 8 (Dvin 607-609) | filled, later witness | `brosset_deux-historiens-armeniens-kiracos-oukhtanes-fra_1870.txt` | armenian-christianity-before-the-bagratids and georgian-christianity, context (Ukhtanes writes in the tenth century) |
+| correction 19 (Lactantius, CSEL 19, page 411) | filled | `lactantius_divinae-institutiones-epitome-csel19-second-scan-lat_brandt1890.txt` | latin-apologists, tradition |
+
+**Not taken.** Harnack's Brief an die Flora (1904) and de Boor's Simocatta (1887): the OCR of each title page is
+unreadable, and the same texts are filled from Holl and Bekker. Every other duplicate, garbled or secondary scan is
+listed in the search log. Nothing in this batch is held for Mark.
+
 ## Era 4 (622-1054): the Who scan's wanted sources and the council records
 
 Fifty-one files for the era 4 rows of `Build/Ministry/Operations/Audits/2026-11-12_wanted-sources-combined/Wanted_Sources.md`:

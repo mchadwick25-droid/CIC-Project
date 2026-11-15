@@ -40,6 +40,16 @@ works:
 
     '
   source_file: moses-khoren_history-of-armenians-ita_mechitaristi1850.txt
+- row_id: movses-daskhurantsi_beitraege-zur-albanischen-geschichte-deu_manandian1897--canons-of-aghuen-in-movses-daskhurantsi-german-manandian-1897
+  work: The canons of Aghuen under King Vachagan (Movses Daskhurantsi, History of the Albanians
+    I.26), German (Manandian 1897)
+  author: movses-daskhurantsi
+  locus: the canons from about OCR line 2553; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: The Albanian church's own canons of about 488, in German. They survive inside a history
+    compiled in the tenth century; the canons are of this window, the compiler is later.
+  source_file: movses-daskhurantsi_beitraege-zur-albanischen-geschichte-deu_manandian1897.txt
 - row_id: sebeos_histoire-d-heraclius-fra_macler1904--histoire-d-heraclius
   work: Sebeos, History (Histoire d'Heraclius), French
   author: sebeos
