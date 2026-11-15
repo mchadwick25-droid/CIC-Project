@@ -468,3 +468,10 @@ restored the source's own "had held" where the record had smoothed it to
 
 `ijc.quote.eutropius-right-of-refuge` ("Yes!") stays as the source speaks
 it.
+
+Source Registry row 30 (Wessel, *Leo the Great and the Spiritual Rebuilding
+of a Universal Rome*): verification-note history moved here from the
+registry row under the standing rule that a change editing a live file also
+removes its commentary. The title was confirmed 2026-08-05 during the
+full-system review and matched the working recollection exactly; publisher,
+series and year were added then, and Confidence was raised from C to B.

@@ -137,9 +137,7 @@ def _world_front_referenced_ids(rec: dict) -> set[str]:
     every other record type's own reference fields already; world_front's
     were added to the schema in the infrastructure pass but never wired in
     here, so a typo'd `grounded_in` id validated cleanly (schema only checks
-    it's a string) and resolved silently to nothing at compile time. The
-    desert pilot's own manual check (not this gate) is what first caught
-    this gap - see Build/worlds/desert/Open_Gaps_Tracking.md.
+    it's a string) and resolved silently to nothing at compile time.
     """
     ids: set[str] = set()
 

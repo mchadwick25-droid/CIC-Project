@@ -146,7 +146,7 @@ class RoundOpening:
 # measured output confirms it (~3.1-3.4k tokens/round x 3 rounds ~= 9.6k,
 # against the original ~1.8k x 5 = 9k) - close enough to call it the same
 # budget. Priced against the same rate card: a 3-round session now runs
-# ~$0.51, against ~$0.70 for the un-resized 5-round figure this replaces.
+# ~$0.51, against ~$0.70 for a 5-round session.
 #
 # Still config, not constant law - swappable without touching round
 # semantics; a live continuous-session measurement is the more rigorous
@@ -203,7 +203,7 @@ def open_table_round(
         # SS2) - the interview's optional empathy stream has no single voice
         # to belong to here, and the crisis append never depended on it
         # anyway (crisis_resources' own stage-5 proof point). The
-        # Mark-approved resources text is reused verbatim; only its
+        # approved resources text is reused verbatim; only its
         # {representative_name} slot is filled with the or-joined names.
         facilitator_event = crisis_resources.append_crisis_resources_turn(
             signal=safety_outcome.value["signal"],

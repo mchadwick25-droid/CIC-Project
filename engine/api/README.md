@@ -3,11 +3,10 @@
 A thin FastAPI wrapper around `engine/m4`'s turn loop, built to let a real
 HTTP client exercise the real pipeline (world load, gate routing, voice
 generation, event log, usage log) against a real Bedrock credential. This is
-**not** the participant-facing production system — see
-`/root/.claude/plans/linear-popping-dawn.md` for what's deliberately out of
-scope (SSE streaming, Postgres, rate limiting, deletion workflow, auth
+**not** the participant-facing production system. Deliberately out of
+scope: SSE streaming, Postgres, rate limiting, deletion workflow, auth
 hardening beyond a session-code header, and the full `Artifact-5`/`Artifact-6`
-production topology, which is not yet built).
+production topology.
 
 ## Running it
 

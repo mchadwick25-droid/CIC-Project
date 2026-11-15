@@ -434,6 +434,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+      - name: Add the files the scan reads beyond the edited ones
+        if: github.event_name == 'pull_request'
+        run: python tools/check_live_commentary.py --sparse-paths | git sparse-checkout add --stdin
       - if: github.event_name == 'pull_request'
         run: python tools/check_live_commentary.py --base "origin/${{ github.base_ref }}" --enforce
       - if: github.event_name != 'pull_request'

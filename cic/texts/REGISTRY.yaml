@@ -1,12 +1,8 @@
 # cic/texts/REGISTRY.yaml — what CANNOT be read off a vendored file itself
 #
-# WHY THIS EXISTS, AND WHY IT MOVED HERE (2026-09-02, Mark's sign-off). This
-# data used to live as a 750-line Python tuple (`ENTRIES`) inside
-# cic/engine/texts_registry.py. Moving it to YAML changes nothing about what
-# it means or how it's checked — cic/engine/texts_registry.py still reads it,
-# still validates it against what's actually sitting in cic/texts/, still
-# generates cic/texts/README.md from it — but it stops requiring Python to
-# read or write: the download queue, a future Zotero export, the Atlas feed,
+# WHY THIS IS YAML. cic/engine/texts_registry.py reads this file, validates
+# it against what is actually sitting in cic/texts/, and generates
+# cic/texts/README.md from it. As YAML it needs no Python to read or write: the download queue, a future Zotero export, the Atlas feed,
 # or Mark by hand can all work with this file directly, the same reason
 # cic/corpus-map/WORKS.yaml and AUTHOR-IDS.yaml are YAML and not Python.
 #
@@ -44,11 +40,9 @@
 #                  them with no wrapper the gate's fleet-wide `apparatus`
 #                  class already recognizes (soft hyphen, tilde-digit,
 #                  pipe-page, bracketed locator). Never a per-record field,
-#                  and never a per-QUOTE pattern either — R33 (2026-09-23,
-#                  Mark, on this file's own first draft, which anchored five
-#                  entries to one quote's exact wording each): "we should be
-#                  setting principles we will have a 100 worlds and cant
-#                  tell the representitive what to say for every quote."
+#                  and never a per-QUOTE pattern either: the rule is a
+#                  principle that holds across a hundred worlds, not a
+#                  wording fitted to each quote.
 #                  An entry describes the EDITION's own convention, evidenced
 #                  against the real file, and applies to every quote citing
 #                  it - never a shape written to fit one quote's own words.
@@ -78,8 +72,7 @@
 #                      genuinely the very next endnote in the sequence at
 #                      that point, which the real notes list, read fresh
 #                      every run, decides - never guessed.
-#                    kind: letterform (Mark's OCR/normalization ruling,
-#                      2026-09-25) - this ONE edition's own OCR misreading
+#                    kind: letterform - this ONE edition's own OCR misreading
 #                      of an archaic letterform (e.g. a scan rendering
 #                      thorn as `])` or `]?`), matched and REPLACED with
 #                      `replacement`, never just dropped. Never a global

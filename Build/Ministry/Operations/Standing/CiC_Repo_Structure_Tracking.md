@@ -1018,3 +1018,13 @@ old site's Worker now answers those addresses, and every old tree address, with 
 to the tree's domain. `tools/moved_paths.txt` maps each old path to its new one. The root
 `README.md` map follows.
 
+
+## 2026-11-15 — The live-commentary check covers the Library and Sandbox
+
+**Context.** Mark, 15 Nov: "Make sure notes and comments are not in library or program." CLAUDE.md lists
+`cic/texts/` and `Sandbox/` as live surfaces; `tools/check_live_commentary.py` did not scan either.
+
+**Action.** Two surfaces join the check: `cic-texts` (`cic/texts/`: each vendored edition's intake header
+only, never its source text; `REGISTRY.yaml` and the Markdown files, with the registry's free-text values
+and the three generated indexes reported as PROTECTED) and `sandbox` (`Sandbox/`). `cic/texts/_intake/`
+stays outside the check. Full account: `Build/Ministry/Operations/Audits/2026-11-15_live-surfaces-sweep/`.
