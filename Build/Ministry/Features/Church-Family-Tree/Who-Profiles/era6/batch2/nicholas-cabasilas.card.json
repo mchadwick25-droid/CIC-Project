@@ -10,7 +10,7 @@
   "dates": "The notice from Fabricius that J.-P. Migne printed in 1865 says he flourished about 1350. John Kantakouzenos, the emperor, in his history, names him as an envoy in 1346, as joining the emperor's plan to withdraw in 1349, and as still a layman in 1353. A synod's record of September 1350 lists him in the emperor's household. No witness gives his birth or death.",
   "place": "Thessalonica, which chose him as its envoy in 1346. Berroia, where he met Manuel Kantakouzenos. Constantinople, where he was of the emperor's household and was put forward for patriarch.",
   "tradition": "Hesychasm & the Palamite Synthesis",
-  "role": "Layman of the imperial household, by Kantakouzenos's account; envoy; theologian of the sacraments; archbishop of Thessalonica, by Fabricius and the Thessalonica record",
+  "role": "Layman of the imperial household, by Kantakouzenos's account; envoy; theologian of the sacraments; archbishop of Thessalonica, by Fabricius and Gass, though Martin Jugie doubts it",
   "briefLength": "about 2 minutes 30 seconds",
   "keyWorks": [
     {
@@ -40,7 +40,7 @@
     ]
   },
   "uncertain": [
-    "When he became archbishop of Thessalonica, and whether he did. Fabricius says he succeeded his uncle Nilus in that office, and Migne heads him as metropolitan of Thessalonica. A record of the church of Thessalonica, quoted by Gass, calls him its most holy metropolitan. Gass presumes he took the see only some years after the synod of 1351, and finds him named archbishop no earlier than 1354. Kantakouzenos calls him still a layman in 1353. Symeon of Thessalonica praises him and names no see. No witness gives the date or tells how he took office.",
+    "Whether and when he became archbishop of Thessalonica. Fabricius says he succeeded his uncle Nilus in that office after Nilus died, and Migne heads him as metropolitan of Thessalonica. Gass puts Gregory Palamas in the see between uncle and nephew. Gass presumes Nicholas took it only some years after the synod of 1351, and finds him named archbishop no earlier than 1354. A record of the church of Thessalonica, quoted by Gass, calls a Nicholas its most holy metropolitan, and Gass takes him for Cabasilas. Kantakouzenos calls him still a layman in 1353. Symeon of Thessalonica praises him and names no see. Martin Jugie, editing his sermons on Mary in 1926, finds no serious proof that he succeeded Nilus. He says neither Kantakouzenos, nor the titles in the manuscripts, nor the record of the church of Thessalonica gives him that title. He thinks it came from confusion with Nilus. No witness gives the date or tells how he took office.",
     "How he was Nilus's nephew. Fabricius makes him the son of Nilus's brother. Gass, after George Phrantzes, makes him the son of Nilus's sister. Phrantzes calls Nicholas's mother the sister of three archbishops, and says her brother Kabasilas was archbishop at Thessalonica, without a first name.",
     "Whether Kabasilas of the sakellion, a church office, is Nicholas. Kantakouzenos names a church official of that title as an envoy in 1343 and 1347, without a first name. Fabricius, Pontanus and Gass take him for Nicholas. In 1353 Kantakouzenos counts that Kabasilas among the leading clergy, a few pages before he calls Nicholas a layman.",
     "Whether Nikephoros Gregoras's old friend Cabasilas is Nicholas. Gregoras names only a Cabasilas, in deep old age in 1351. Boivin, in his notes on Gregoras's history, and Gass take him for Nicholas.",
@@ -119,6 +119,13 @@
         "date": "1920",
         "language": "Greek and French",
         "file": "cic/texts/patrologia-orientalis-tomus15_petit-documents-concile-de-florence-purgatoire-grc-fra_graffin-nau1927.txt"
+      },
+      {
+        "title": "Homélies mariales byzantines II: Nicolas Cabasilas, introduction, in Patrologia Orientalis 19",
+        "author": "Martin Jugie (ed.)",
+        "date": "1926",
+        "language": "French",
+        "file": "cic/texts/john-ephesus_lives-eastern-saints-po19-mixed-issue_brooks1926.txt"
       }
     ]
   }

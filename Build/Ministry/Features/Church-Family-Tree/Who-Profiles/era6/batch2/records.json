@@ -152,8 +152,8 @@
     "formation_confidence": "Contested"
    },
    {
-    "claim": "Scudder on the return: 'Gregory, swayed by her representations'; and 'perhaps regretting his return, becomes alienated from Catherine'. Bridget's demand: Cumming 'She was especially anxious that the papal seat, which had long been at Avignon, should be re-established at Rome'. Fiorilli: 'avvenimento al quale santa Caterina aveva molto contribuito'. Mansi's notice of Gregory XI: 'Hujus transmigrationis causam alii aliam referunt'; Platina a bishop's retort; Gobelinus 'instinctu & revelatione Dei, quae sanctae Brigittae tunc adhuc Romae degenti aliquoties obtigerat, perque Alphonsum quemdam eremitam illi secundo insinuata erat'.",
-    "witness": "CATHL (catherine-of-siena_selected-letters_scudder1905.txt) l.1228, 1357-1358; BIRGE (birgitta_revelations-enm_cumming1929.txt) l.980-982; CATHI (catherine-of-siena_libro-della-divina-dottrina-ita_fiorilli1912.txt) l.14342-14344; MANSI26 (mansi_sacrorum-conciliorum-collectio-tomus-26-1344-1409-lat_welter-facsimile1901.txt) l.53393-53410",
+    "claim": "Scudder on the return: 'Gregory, swayed by her representations'; and 'perhaps regretting his return, becomes alienated from Catherine'. Bridget's demand: Cumming 'She was especially anxious that the papal seat, which had long been at Avignon, should be re-established at Rome'. Fiorilli: 'avvenimento al quale santa Caterina aveva molto contribuito'. Mansi's notice of Gregory XI: 'Hujus transmigrationis causam alii aliam referunt'; Platina a bishop's retort; Gobelinus 'instinctu & revelatione Dei, quae sanctae Brigittae tunc adhuc Romae degenti aliquoties obtigerat, perque Alphonsum quemdam eremitam illi secundo insinuata erat'. Gobelinus Paderbonensis officialis (MANSI26 l.111555-111556); Platina 'in vita ipsius Gregorii' (BIRGL l.98786-98787).",
+    "witness": "CATHL (catherine-of-siena_selected-letters_scudder1905.txt) l.1228, 1357-1358; BIRGE (birgitta_revelations-enm_cumming1929.txt) l.980-982; CATHI (catherine-of-siena_libro-della-divina-dottrina-ita_fiorilli1912.txt) l.14342-14344; MANSI26 (mansi_sacrorum-conciliorum-collectio-tomus-26-1344-1409-lat_welter-facsimile1901.txt) l.53393-53410, 111555-111556; BIRGL (birgitta_revelationes-lat_duranti1628.txt) l.98786-98787",
     "formation_confidence": "Contested"
    },
    {
@@ -377,13 +377,13 @@
     "formation_confidence": "Inferential-Thin"
    },
    {
-    "claim": "Gobelinus, in Mansi's notice of Gregory XI: the return 'instinctu & revelatione Dei, quae sanctae Brigittae tunc adhuc Romae degenti aliquoties obtigerat, perque Alphonsum quemdam eremitam illi secundo insinuata erat'; Platina gives another cause.",
-    "witness": "MANSI26 (mansi_sacrorum-conciliorum-collectio-tomus-26-1344-1409-lat_welter-facsimile1901.txt) l.53393-53410",
+    "claim": "Gobelinus, in Mansi's notice of Gregory XI: the return 'instinctu & revelatione Dei, quae sanctae Brigittae tunc adhuc Romae degenti aliquoties obtigerat, perque Alphonsum quemdam eremitam illi secundo insinuata erat'; Platina gives another cause. Gobelinus Paderbonensis officialis (MANSI26 l.111555-111556); Platina 'in vita ipsius Gregorii' (BIRGL l.98786-98787).",
+    "witness": "MANSI26 (mansi_sacrorum-conciliorum-collectio-tomus-26-1344-1409-lat_welter-facsimile1901.txt) l.53393-53410, 111555-111556; BIRGL (birgitta_revelationes-lat_duranti1628.txt) l.98786-98787",
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Rome: Cumming dates only the start of the journey, two or three years after the revelation of 1346 (BIRGE l.928-929, 967). He quotes the Extravagantes, fifteen years in Rome before Urban V came, and notes the chronological discrepancy (BIRGE l.955-961, 996-998). The Bollandists' note to her daughter's 'viginti quinque annis' in Rome with her mother: 'Ergo ab anno 1348' (ASMAR3 l.132892-132893, 133269). Her death: 'Anno 1373 die 23 Julii' (ASMAR3 l.133269).",
-    "witness": "BIRGE (birgitta_revelations-enm_cumming1929.txt) l.928-929, 955-961, 967, 996-998; ASMAR3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt) l.132892-132893, 133269",
+    "claim": "Rome: Cumming dates only the start of the journey, two or three years after the revelation of 1346 (BIRGE l.928-929, 967). He quotes the Extravagantes, fifteen years in Rome before Urban V came, and notes the chronological discrepancy (BIRGE l.956-961, 996-998). The Bollandists' note to her daughter's 'viginti quinque annis' in Rome with her mother: 'Ergo ab anno 1348' (ASMAR3 l.132892-132893, 133269). Her death: 'Anno 1373 die 23 Julii' (ASMAR3 l.133269).",
+    "witness": "BIRGE (birgitta_revelations-enm_cumming1929.txt) l.928-929, 956-961, 967, 996-998; ASMAR3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt) l.132892-132893, 133269",
     "formation_confidence": "Contested"
    }
   ],
@@ -728,7 +728,7 @@
     "formation_confidence": "Widely Accepted"
    },
    {
-    "claim": "Ehrle's reckoning of the year: the note 'feria VI infra octavam pentecostes scil. festo s. Antonii'; 'wie schon Papebroch berechnete', in the first half of the fourteenth century that weekday fell on 13 June only in 1317, 1337 and 1348; 1348 ruled out because Simon Fidati died 2 February 1348; 'dass Angelo am 15. Juni 1337, nicht erst 1348 starb'. Oliger: 'Quod hoc anno Angelus mortuus sit, clarissime demonstravit P. Ehrle'.",
+    "claim": "Ehrle's reckoning of the year: the note 'feria VI infra octavam pentecostes scil. festo s. Antonii'; 'wie schon Papebroch berechnete', in the first half of the fourteenth century this Friday after Pentecost ('diese fer. VI') fell on 13 June only in 1317, 1337 and 1348; 1348 ruled out because Simon Fidati died 2 February 1348; 'dass Angelo am 15. Juni 1337, nicht erst 1348 starb'. Oliger: 'Quod hoc anno Angelus mortuus sit, clarissime demonstravit P. Ehrle'.",
     "witness": "EHRLE1 (ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885.txt) l.27540, 27601, 27786-27798, 28565-28567; CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1406-1407",
     "formation_confidence": "Dominant Modern Reconstruction"
    },
@@ -1278,8 +1278,8 @@
     "formation_confidence": "Widely Accepted"
    },
    {
-    "claim": "Combefis's note: 'Francisci Combefisii Ord. Praed. Notae'; he calls the 1347 tome 'heretico plane spiritu conscripta, & mendaciis conferta'. Hostile.",
-    "witness": "MANSI26 (mansi_sacrorum-conciliorum-collectio-tomus-26-1344-1409-lat_welter-facsimile1901.txt) l.19583, 19592-19597",
+    "claim": "Combefis's note: 'Francisci Combefisii Ord. Praed. Notae'; he calls the 1351 tome, held under Kantakouzenos and John Palaiologos ('regnantibus … Cantacuzeno & Palaeologo'), at which he says Gregoras was condemned ('in hac Synodo … damnatur'), 'heretico plane spiritu conscripta, & mendaciis conferta'. Hostile.",
+    "witness": "MANSI26 (mansi_sacrorum-conciliorum-collectio-tomus-26-1344-1409-lat_welter-facsimile1901.txt) l.10511-10524, 12063-12070, 12189, 19574, 19583, 19592-19597",
     "formation_confidence": "Documented"
    },
    {
@@ -1372,13 +1372,13 @@
     "formation_confidence": "Widely Accepted"
    },
    {
-    "claim": "Paisius on the copies: the Life brought from Athos by the schemamonk Savva to the Elder Basil, 'отъ негоже и мы вземше преписахомъ' (we copied it); a Greek copy later reached the community, 'не все, развѣ точію части нѣкія; еще же и описанія блаженныя кончины сего святаго въ немъ не обрѣтается'. Paisius is 'Архимандрита Молдовлахійскія Нямецкія обители' (l.14222-14223).",
-    "witness": "PAISZ (paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt) l.10528-10541, 14222-14223",
+    "claim": "Paisius on the copies: the Life brought from Athos by the schemamonk Savva to the Elder Basil, 'отъ негоже и мы вземше преписахомъ' (we copied it); a Greek copy later reached the community, 'не все, развѣ точію части нѣкія; еще же и описанія блаженныя кончины сего святаго въ немъ не обрѣтается'. Paisius is 'Архимандрита Молдовлахійскія Нямецкія обители' (l.14222-14223); abbot, 'настоятеля Нямецкаго Вознесенскаго Монастыря' (l.3993-3994).",
+    "witness": "PAISZ (paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt) l.3993-3994, 10528-10541, 14222-14223",
     "formation_confidence": "Documented"
    },
    {
     "claim": "Meyer 1894: 'durch den Mönch Gregorios eingeführt, der früher dem Sinai angehört hatte. Er lernte die Sache aber auf Creta von einem Eremiten Arsenios kennen. Auf dem Athos bewohnte er das Kellion Magullah, das dem Kloster Iwiron gehört'; citing 'den Bios des Gregorios von seinem Zeitgenossen, dem Patr. Kallistos'; Meyer dates the introduction to the thirteenth century ('vor dem 13. Jahrh. ... nicht bekannt ... Damals aber').",
-    "witness": "MEYER (athos-monasteries_haupturkunden-fur-die-geschichte-der-athoskloster-ger-grc_meyer1894.txt) l.3998-4009",
+    "witness": "MEYER (athos-monasteries_haupturkunden-fur-die-geschichte-der-athoskloster-ger-grc_meyer1894.txt) l.32-48 (title page), 3998-4009",
     "formation_confidence": "Inferential-Thin"
    },
    {
@@ -1388,7 +1388,7 @@
    },
    {
     "claim": "Basil, elder of the Poiana Marului monastery and friend of Paisius ('Старца Схимонаха Василія, спостника и друга блаженнаго Отца Паѵсія'), in his preface to the chapters of Philotheos of Sinai: 'И самому сему Григорію Синаиту сопротивишася испрва саміи словеснѣйшіи отцы Аѳонскія горы, егда началъ бѣ о семъ ихъ учити.' His preface to Gregory's book begins at l.3999.",
-    "witness": "PAISZ (paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt) l.3999, 4523-4526, 4651-4653, 14198-14199, 14206-14207",
+    "witness": "PAISZ (paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt) l.3987-3994, 3999, 4523-4526, 4651-4653, 14198-14199, 14206-14207, 14215",
     "formation_confidence": "Inferential-Thin"
    },
    {
@@ -1540,7 +1540,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Gass: 'unter den Anhängern des Palamas genannt und für sie in die Schranken tretend'. Symeon counts his writings against 'τοῦ Βαρλαάμ τε καὶ Ἀκινδύνου αἱρέσεως'; the Thessalonica Synodikon praises him against 'τοῦ Βαρλαὰμ καὶ Ἀκινδύνου ... μανίαν'.",
+    "claim": "Gass: 'unter den Anhängern des Palamas genannt und für sie in die Schranken tretend'. Symeon counts his writings against 'τοῦ Βαρλαάμ τε καὶ Ἀκινδύνου αἱρέσεως'; the Thessalonica Synodikon praises a Nicholas, whom Gass takes for him, against 'τοῦ Βαρλαὰμ καὶ Ἀκινδύνου ... μανίαν'.",
     "witness": "GASS (cabasilas_mystik-vom-leben-in-christo-grc-deu_gass1849.txt) l.1231-1235; PG155 (symeon-thessalonica_opera-omnia-pg155-grc-lat_migne1866.txt) l.9225-9236; GASS l.1932-1934",
     "formation_confidence": "Widely Accepted"
    },
@@ -1565,9 +1565,9 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Archbishop: Fabricius 'in munere successor'; Migne 'NICOLAUS CABASILA, THESSALONICENSIS METROPOLITA'; Gass 'verwaltete dasselbe Amt zehn Jahr nachher (nach 1350)', 'Muthmasslich wird also Cabasilas erst nach einigen Jahren das Erzbisthum angetreten haben ... Jedenfalls wird er nicht vor 1354 als Erzbischof genannt'; the Synodikon of the church of Thessalonica, quoted by Gass from Le Quien, 'Νικολάου τοῦ ἁγιωτάτου μητροπολίτου Θεσσαλονίκης ... αἰωνία ἡ μνήμη'. Against or silent: Kantakouzenos 'ὄντα ἔτι ἰδιώτην' (a date, 1353); Symeon names him with no see (silence).",
-    "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.343-346, 26071-26072; GASS (cabasilas_mystik-vom-leben-in-christo-grc-deu_gass1849.txt) l.1373-1375, 1781-1785, 1884-1888, 1919-1938; CANT3 (cantacuzenus_historiarum-libri-iv-v3-grc-lat_schopen1832.txt) l.16601-16602; PG155 (symeon-thessalonica_opera-omnia-pg155-grc-lat_migne1866.txt) l.9228-9233",
-    "formation_confidence": "Widely Accepted"
+    "claim": "Archbishop: Fabricius 'in munere successor'; Migne 'NICOLAUS CABASILA, THESSALONICENSIS METROPOLITA'; Gass 'verwaltete dasselbe Amt zehn Jahr nachher (nach 1350)', 'Muthmasslich wird also Cabasilas erst nach einigen Jahren das Erzbisthum angetreten haben ... Jedenfalls wird er nicht vor 1354 als Erzbischof genannt'; on the order, 'so dass zwischen Beide nur die bischöfliche Regierung des Gregorius Palamas ... fällt' (OCR 'bischuf- liche Regierang', 'föUt'); the Synodikon of the church of Thessalonica, quoted by Gass from Le Quien, 'Νικολάου τοῦ ἁγιωτάτου μητροπολίτου Θεσσαλονίκης ... αἰωνία ἡ μνήμη', a first name with no surname, which Gass reads as Cabasilas ('dass er nämlich ... gekämpft habe'). Against: Martin Jugie, editing the homilies on the Virgin in Patrologia Orientalis 19 (1926), 'On a fait de lui, sans aucune preuve serieuse, le successeur de son oncle sur le siege de Thessalonique. Ni Jean Cantacuzene, ni les suscriptions des manuscrits, ni le Synodicon de l'Eglise de Thessalonique ne soufflent mot de ce titre, qui a du lui venir de ce qu'on l'a confondu souvent avec Nil' (OCR 'soufllent', 'avee Nil'); his note cites Louis Petit's article on the Synodicon of Thessalonica (Echos d'Orient, May 1918). Bounds and silence: Kantakouzenos 'ὄντα ἔτι ἰδιώτην' (a date, 1353); Symeon names him with no see (silence).",
+    "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.343-346, 26071-26072; GASS (cabasilas_mystik-vom-leben-in-christo-grc-deu_gass1849.txt) l.1373-1377, 1773-1786, 1884-1888, 1919-1938; CANT3 (cantacuzenus_historiarum-libri-iv-v3-grc-lat_schopen1832.txt) l.16601-16602; PG155 (symeon-thessalonica_opera-omnia-pg155-grc-lat_migne1866.txt) l.9228-9233; PO19 (john-ephesus_lives-eastern-saints-po19-mixed-issue_brooks1926.txt) l.39892-39895, 39907-39908, 39914",
+    "formation_confidence": "Contested"
    },
    {
     "claim": "Symeon 'writing in the next century': Harles after Wharton, 'Sim. Thessal. claruisse a. 1410 et obiisse a. 1429'; 'τὴν καλὴν νίκην ἐπ᾽ εὐσεβείᾳ καὶ ἁγνότητι βίου συστησαμένου'.",
@@ -1632,10 +1632,11 @@
   ],
   "contested_claims": [
    {
-    "claim": "When he became archbishop of Thessalonica, and whether he did",
+    "claim": "Whether and when he became archbishop of Thessalonica",
     "sides": [
-     "Yes: Fabricius (PG150 l.26071-26072); Migne's heading (PG150 l.343-346); Gass, presuming the see only some years after the synod of 1351, and not named archbishop before 1354 (GASS l.1373-1375, 1773-1786); the Thessalonica Synodikon via Le Quien (GASS l.1884-1888, 1919-1938)",
-     "A date and a silence: Kantakouzenos calls him still a layman in 1353 (CANT3 l.16601-16602); Symeon names no see (PG155 l.9228-9233)"
+     "Fabricius: his uncle Nilus's successor in office once Nilus had died, 'defuncti vita, in munere successor' (PG150 l.26071-26072); Migne heads him metropolitan of Thessalonica (PG150 l.343-346)",
+     "Gass: Gregory Palamas held the see between uncle and nephew (GASS l.1374-1377); Nicholas presumably took it only some years after the synod of 1351, and is not named archbishop before 1354 (GASS l.1773-1786); he takes the Synodikon's 'Nicholas, most holy metropolitan of Thessalonica', quoted from Le Quien, for him (GASS l.1884-1888, 1919-1938)",
+     "No: Jugie, no serious proof; Kantakouzenos, the manuscript titles and the Synodicon of Thessalonica are silent on the title; it came from confusion with Nilus (PO19 l.39892-39895, 39907-39908, 39914)"
     ]
    },
    {
@@ -1675,7 +1676,7 @@
    },
    {
     "detail": "The date he took the see of Thessalonica",
-    "note": "No line gives the date he took the see or says he never held it; searched all cic/texts for the name forms with Thessalon-, archiep-, metropol-, μητροπολ-, ἀρχιερ-, Erzbisch-."
+    "note": "No line gives the date he took the see; Jugie doubts he held it at all (PO19 l.39892-39895). Searched all cic/texts for the name forms with Thessalon-, archiep-, metropol-, μητροπολ-, ἀρχιερ-, Erzbisch-."
    }
   ]
  }
