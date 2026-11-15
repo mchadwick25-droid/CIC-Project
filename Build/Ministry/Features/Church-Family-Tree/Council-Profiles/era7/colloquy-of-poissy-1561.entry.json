@@ -1,0 +1,391 @@
+{
+  "id": "colloquy-of-poissy-1561",
+  "kind": "major-council",
+  "kindLabel": "Major council",
+  "era": 7,
+  "name": "Colloquy of Poissy",
+  "shortName": "Colloquy of Poissy",
+  "dates": "1561",
+  "start": 1561,
+  "end": 1561,
+  "datesNote": "1561. The prelates' assembly at Poissy opened in late July or early August; Languet, Brulart and De Thou differ, as Baum and Cunitz report them. The Ecclesiastical History dates the ministers' first petition to 17 August; Goulart gives 10 August and Beza's letter the 12th. The History dates the first joint session to 9 September, about noon, and Beza's printed speech calls it a Tuesday. The History gives 16 September for the second session. Polanco dates the third to Wednesday 24 September and the last to Friday 26 September. Five from each side conferred on 29 and 30 September and 1 October; Baum and Cunitz correct the History's '26' to the 29th. The History dates the prelates' rejection of the formula to 9 October. The canons close 'Pridie Idus Oct.', 14 October. The Edict of St-Germain is dated 17 January 1561 in the old style, 1562 in ours.",
+  "region": "Poissy, near Saint-Germain-en-Laye, west of Paris",
+  "placeLabel": "Poissy",
+  "modernCountries": [
+    {
+      "country": "France",
+      "countryId": "Q142"
+    }
+  ],
+  "rivers": [
+    "Latin West",
+    "Protestant"
+  ],
+  "teaser": "In September 1561 the French crown brought Reformed ministers before its cardinals and bishops at Poissy. Beza spoke for the ministers; the prelates refused them on 9 October.",
+  "knownFor": "The meeting at which Theodore Beza, before the young Charles IX and the French prelates, defended the Reformed faith in September 1561.",
+  "issue": [
+    "France was split over religion. The History says the assembly that made the Edict of July resolved again to call the prelates to Poissy. The ministers would have a safe-conduct to be there and be heard.",
+    "The History gives that assembly's aim: 'afin d'advifer fil y auroit moyen de les reunir à l'Eglife Romaine'. That is, to see whether there was any way to reunite them to the Roman Church.",
+    "At the Estates, the History says, the Third Estate's speaker asked for 'un Concile national libre & légitime'. The king would preside over it. A further list of requests repeats the call.",
+    "The chancellor, L'Hospital, opened on 9 September, in the History's summary. The king had granted the ministers a safe-conduct, hoping a friendly conference would do much good. At worst, no one could say they were condemned unheard.",
+    "The ministers' petition set their terms. The bishops should not be their judges, 'attendu qu'ils font nos parties' (since they are the other party). All differences should be decided by the word of God alone.",
+    "The Catholic objection came from Diego Laínez, the Jesuit general, on 26 September. Matters of faith belonged to the pope and the general council, he said. With that council open, such meetings were neither fitting nor lawful.",
+    "Pallavicino, a Jesuit historian, says no national council was agreed. Catholics thought it an insult to the general council already in session. The Reformed knew the French prelates would never give them an equal power to judge."
+  ],
+  "calledBy": "The crown. The History gives the king's words on 9 September: 'je vous ay fait affembler' (I have had you gathered) from many parts of the kingdom. The prelates' canons open with the king summoning them. In her October letter Catherine says she thought it good that the prelates enter 'quelque Colloque gracieux' with the ministers. The History says the King of Navarre sent for Martyr and Beza by letter. No held source disputes that the crown called it.",
+  "attended": [
+    "No signed list of the prelates is held. The counts differ by witness and by day.",
+    "9 September, in the History. The royal family sat at the head of the refectory. Three cardinals sat on each side of the hall, and below them 'trente fix Evefques qu'Arcevefques' (thirty-six bishops and archbishops). Behind these stood a crowd of clergy and doctors.",
+    "Sarpi also gives six cardinals that day. Pallavicino, for the colloquy as a whole, gives five cardinals besides the legate and forty bishops, who had come for the Estates.",
+    "The ministers. The History says twelve came, with 22 deputies of the provincial churches. It names fourteen ministers in all, Martyr and Beza among them. Sarpi says the ministers were 'in number fourteen'.",
+    "Martyr came from Zurich and Beza from Geneva, the History says. Baum and Cunitz say Nicolas des Gallars had been pastor of the London church for two years.",
+    "24 September. The History gives five cardinals, fifteen or sixteen doctors and some bishops, and twelve ministers only. Polanco names the five cardinals: Lorraine, Armagnac, Bourbon, Châtillon and Guise.",
+    "26 September. Polanco gives the same five cardinals and '25 obispos' (25 bishops), and about as many doctors. He says the legate, the Cardinal of Ferrara, and Tournon did not attend these disputations.",
+    "The legate came to court on 19 September, by Vermigli's account in a note by Baum and Cunitz. The History says Laínez came in his train. Laínez's editors date his arrival at Saint-Germain to the 19th."
+  ],
+  "decided": [
+    "The colloquy itself made no joint decision. The prelates' assembly acted on its own, and its acts are held as the History prints them.",
+    "10 September. The History says the prelates resolved that Lorraine would answer two points only, the Church and the Supper. They would then draw up a confession against the ministers'. If the ministers refused it, they would be condemned.",
+    "15 September. Royal letters given in the Parlement in February 1562 cite the assembly's act. It received the Society of Jesus 'par forme de collége et non de religión nouuellement institutée'. The Jesuits were to take another title than 'société de Jésus'.",
+    "29 September to 1 October. At Catherine's order, the History says, two bishops and three doctors met five ministers. They worked out a statement that Christ gives 'véritablement la fubftance de fon corps & de fon fang' in the Supper.",
+    "9 October. The prelates' conclusion, as the History prints it, found the statement 'non feulement infuffifant, mais auffi captieux'. Unless Beza and his company signed the Catholic confession at once, they would not be heard again.",
+    "The same conclusion asked that, under whatever penalty the king set, they be barred from the realm. In France, it says, there had been 'qu'un Dieu, un Roy, une foy, & une loy'.",
+    "The Catholic confession they were to sign says Christ's body and blood are present 'réellement & tranfubftantiellement' under the bread and wine.",
+    "The canons, dated 14 October. They deal with discipline, beginning with how bishops are named and examined. The assembly submits all its decrees to the pope. The last canon tells the faithful to abhor 'Luther, Zvingle & Calvin'."
+  ],
+  "outcome": [
+    "The ministers were not heard again. The History says that after 9 October they could never obtain a debate on their confession. The prelates dismissed their doctors on 13 October and went home.",
+    "Catherine to her ambassador, October 1561. The two meetings had brought only 'Confufion de Difputes fur Difputes' (disputes upon disputes), with discord far more than union. Her smaller conference had not pleased the other prelates.",
+    "Of the prelates' canons she wrote that nothing in them could remedy the troubles. She would wait for the coming general council, though she did not know what to expect of it.",
+    "Rome. Sarpi says the Pope was glad that the colloquy had broken up 'without doing any thing'. Pallavicino says neither side gave way, and each then claimed 'fpecie di vittoria' (a kind of victory).",
+    "The Reformed gained ground. Pallavicino says French Catholics blamed the colloquy for the Huguenots' new freedom to profess their faith openly. Bonnet, Calvin's editor, says it 'everywhere increased the audacity of the Reformed'.",
+    "The Edict of January 1562, as the History prints it. It suspended the penalties for Reformed meetings held by day outside the towns. It did so for now: 'Jufques à la détermination dudit Concile gênerai, ou que par nous autrement en ayt efté ordonné'. That is, until the said general council decides, or the king orders otherwise.",
+    "The edict gave its reason. The king hoped God would let him reunite his subjects 'en une mefme bergerie' (in one and the same fold).",
+    "Trent. Waterworth says 'the articles proposed at the Conference of Poissy' were secretly examined there in 1562. Pallavicino reports Lorraine at Trent in 1563: the clergy and Estates gathered at Poissy had been held back only with great difficulty.",
+    "Scotland. In 1607 James Melville warned against colloquies that leave things worse, 'as witnesseth Colloquium Poissiaconum in Gallia, anno 1561'.",
+    "The French Reformed. Bersier says that in 1872 the president opened a session of the general synod with the confession of sins Beza first read at Poissy."
+  ],
+  "record": [
+    {
+      "witness": "The prelates' canons, their conclusion of 9 October and the Catholic confession (French, printed in the Ecclesiastical History)",
+      "kind": "acts",
+      "note": "The Catholic assembly's own acts, held only as a Reformed history prints them. Baum and Cunitz give the canons' Latin closing from Languet's letters."
+    },
+    {
+      "witness": "The ministers' petitions of 17 August and 8 September, and their declaration of 26 September (printed in the Ecclesiastical History)",
+      "kind": "acts",
+      "note": "The Reformed party's own papers."
+    },
+    {
+      "witness": "The assembly's act receiving the Jesuits, 15 September (cited in royal letters of February 1562, in the Lainii Monumenta)",
+      "kind": "acts",
+      "note": "Held only as a later royal and Parlement document quotes it."
+    },
+    {
+      "witness": "The Edict of January 1562 (printed in the Ecclesiastical History; summarized by Crespin)",
+      "kind": "acts",
+      "note": "The crown's act after the colloquy."
+    },
+    {
+      "witness": "Theodore Beza's speeches, as the Ecclesiastical History prints them",
+      "kind": "participant",
+      "note": "Reformed. Baum and Cunitz say the speech of 9 September was probably first printed under Beza's own care a few days later."
+    },
+    {
+      "witness": "Juan Alfonso de Polanco, letter to Salmerón of 27 September and his account of the sessions (Spanish, Lainii Monumenta)",
+      "kind": "participant",
+      "note": "Jesuit, Catholic. Coudret says Polanco was present. The editors print the letter from Polanco's own drafts."
+    },
+    {
+      "witness": "Diego Laínez, speech of 26 September (Italian, Lainii Monumenta)",
+      "kind": "participant",
+      "note": "Jesuit, Catholic. The editors say the copy was begun by Codreto and finished by Polanco, with Laínez's own corrections."
+    },
+    {
+      "witness": "Annibal Coudret, letter to Domenech of 27 September (Italian, Lainii Monumenta)",
+      "kind": "participant",
+      "note": "Jesuit, Catholic."
+    },
+    {
+      "witness": "Catherine de' Medici, letter to the Bishop of Rennes, St-Germain, October 1561 (Aymon)",
+      "kind": "participant",
+      "note": "The crown's. Signed 'CATERINE'. The heading above it is Aymon's own. The OCR of the day reads 'iS.', perhaps 18."
+    },
+    {
+      "witness": "The Ecclesiastical History of the Reformed Churches, printed in 1580",
+      "kind": "later narrative",
+      "note": "Reformed, polemical in places. The title page names no author. Reuss, its 1889 editor, thought Beza directed it and gave his memories of Poissy but did not compile it. Baum and Cunitz show that its Poissy chapter copies Pierre de la Place's Commentaires passage by passage."
+    },
+    {
+      "witness": "Paolo Sarpi, History of the Council of Trent (Brent's English, 1676)",
+      "kind": "later narrative",
+      "note": "Catholic. Pallavicino wrote against him."
+    },
+    {
+      "witness": "Sforza Pallavicino, Istoria del Concilio di Trento (1664)",
+      "kind": "later narrative",
+      "note": "Jesuit, Catholic."
+    },
+    {
+      "witness": "G. Baum and Ed. Cunitz's notes to the History; Rodolphe Reuss; Jules Bonnet; the Jesuit editors of the Lainii Monumenta",
+      "kind": "modern reconstruction",
+      "note": "They supply dates and quote letters that are not held: Beza's and Vermigli's from Poissy, Languet's, Brulart's journal and Catherine's letter of 14 September."
+    }
+  ],
+  "traditions": [
+    {
+      "id": "the-huguenots",
+      "name": "The Huguenots",
+      "part": "Gathered",
+      "note": "Their ministers and 22 lay deputies were heard, and Beza gave the king their confession (the History)."
+    },
+    {
+      "id": "the-tridentine-church",
+      "name": "The Tridentine Church",
+      "part": "Gathered",
+      "note": "The French cardinals and bishops met as the prelates' assembly (the History), and the pope's legate came on 19 September (Vermigli, in Baum and Cunitz)."
+    },
+    {
+      "id": "the-reformed-cities-zurich-and-geneva",
+      "name": "The Reformed Cities - Zurich & Geneva",
+      "part": "Gathered",
+      "note": "Beza came from Geneva and Martyr from Zurich (the History)."
+    },
+    {
+      "id": "the-society-of-jesus",
+      "name": "The Society of Jesus",
+      "part": "Gathered",
+      "note": "Its general, Laínez, spoke on 26 September (Polanco). The prelates' assembly received the Society in France on 15 September (the act, in royal letters of 1562)."
+    },
+    {
+      "id": "the-huguenots",
+      "name": "The Huguenots",
+      "part": "Refused",
+      "note": "On 9 October the prelates resolved not to hear them again unless they signed the Catholic confession (the prelates' conclusion, in the History)."
+    },
+    {
+      "id": "lutheran-wittenberg-and-its-congregations",
+      "name": "Lutheran Wittenberg & Its Congregations",
+      "part": "Affected",
+      "note": "Lorraine pressed the ministers with a Württemberg confession, and Lutheran theologians were sent for 'afin de les divifer' (the History)."
+    },
+    {
+      "id": "the-scottish-reformation-and-kirk",
+      "name": "The Scottish Reformation & Kirk",
+      "part": "Affected",
+      "note": "James Melville cited Poissy in 1607 as a warning against colloquies (Melville's diary)."
+    }
+  ],
+  "people": [
+    {
+      "name": "Theodore Beza",
+      "verdict": "WHO",
+      "part": "Minister at Geneva; spoke for the Reformed on 9, 24 and 26 September; one of the five ministers in the later conference"
+    },
+    {
+      "name": "Peter Martyr Vermigli",
+      "verdict": "NOT SCORED",
+      "part": "Professor at Zurich; spoke in Italian on 26 September; one of the five ministers in the conference"
+    },
+    {
+      "name": "Charles IX",
+      "verdict": "NOT SCORED",
+      "part": "King; presided and opened the session of 9 September"
+    },
+    {
+      "name": "Catherine de' Medici",
+      "verdict": "NOT SCORED",
+      "part": "Queen mother; heard the sessions; ordered the conference of five and five; wrote of the outcome in October"
+    },
+    {
+      "name": "Michel de L'Hospital",
+      "verdict": "NOT SCORED",
+      "part": "Chancellor; gave the opening speech on 9 September"
+    },
+    {
+      "name": "Charles, Cardinal of Lorraine",
+      "verdict": "NOT SCORED",
+      "part": "Answered Beza on 16 September; led the Catholic side on 24 and 26 September"
+    },
+    {
+      "name": "François, Cardinal de Tournon",
+      "verdict": "NOT SCORED",
+      "part": "Dean of the cardinals; asked the king to silence Beza on 9 September"
+    },
+    {
+      "name": "Diego Laínez",
+      "verdict": "WHO",
+      "part": "Jesuit general; came with the legate; spoke to the queen on 26 September"
+    },
+    {
+      "name": "Juan Alfonso de Polanco",
+      "verdict": "WHO",
+      "part": "Jesuit; present on 26 September; wrote the Jesuit accounts of the sessions"
+    },
+    {
+      "name": "Ippolito d'Este, Cardinal of Ferrara",
+      "verdict": "NOT SCORED",
+      "part": "Papal legate; came to court on 19 September; did not attend the disputations, Polanco says"
+    },
+    {
+      "name": "Claude d'Espence",
+      "verdict": "NOT SCORED",
+      "part": "Sorbonne doctor; helped Lorraine prepare his reply; one of the three Catholic doctors in the conference"
+    },
+    {
+      "name": "Jean de Montluc",
+      "verdict": "NOT SCORED",
+      "part": "Bishop of Valence; one of the two Catholic bishops in the conference"
+    },
+    {
+      "name": "Nicolas des Gallars, Augustin Marlorat and Jean de l'Espine",
+      "verdict": "NOT SCORED",
+      "part": "Ministers; with Beza and Martyr, the five Reformed members of the conference"
+    },
+    {
+      "name": "Antoine, King of Navarre",
+      "verdict": "NOT SCORED",
+      "part": "Sent for Martyr and Beza by letter; present on 9 September"
+    },
+    {
+      "name": "Jeanne d'Albret, Queen of Navarre",
+      "verdict": "NOT SCORED",
+      "part": "Present on 9 and 26 September"
+    },
+    {
+      "name": "Gaspard de Coligny",
+      "verdict": "LISTED",
+      "part": "Admiral; with the queen when she gave the ministers her word that the clergy would not be their judges, early September"
+    },
+    {
+      "name": "Jacob Andreae",
+      "verdict": "LISTED",
+      "part": "One of the Württemberg theologians sent for; they reached Paris on 19 October, after the prelates had gone, by Baum and Cunitz's account"
+    },
+    {
+      "name": "John Calvin",
+      "id": "john-calvin",
+      "verdict": "WHO",
+      "part": "Not present; advised Beza by letter from Geneva; named among the 'herefiarques' in the prelates' last canon"
+    }
+  ],
+  "briefLength": "about 2 minutes 30 seconds",
+  "uncertain": [
+    "The fullest account is the Ecclesiastical History, a Reformed book printed in 1580 with no author named. It was long credited to Beza. Reuss, its 1889 editor, thought Beza directed it but did not compile it. Its Poissy chapter copies La Place.",
+    "No joint, signed acts of the colloquy are held. The History says its third conference, the last, went 'fans ordre ni fecretaires'. The prelates' acts reach us only as the History prints them.",
+    "How many prelates came. The History gives six cardinals and thirty-six bishops and archbishops on 9 September, and Sarpi six cardinals. Pallavicino gives five cardinals besides the legate and forty bishops. Polanco gives 25 bishops on 26 September.",
+    "How many ministers came. The History says twelve, with 22 deputies, but names fourteen. Sarpi says fourteen. Baum and Cunitz count Martyr and Beza on top of the twelve.",
+    "Whether Beza was stopped. The History says the king did not stir and Beza finished. Languet, in a note, says they let him finish. Sarpi says 'he was commanded to conclude'.",
+    "Catherine, writing on 14 September, says she nearly silenced him but held back. That letter is known only from a note by Baum and Cunitz.",
+    "Beza's words on the bread. The printed speech says Christ's body is as far 'du pain & du vin' as the highest heaven from the earth. The History's narrative has 'du pain' alone, and adds that the body is truly offered.",
+    "Whether the ministers came in at the start on 9 September. The History brings them in after Tournon spoke. La Place and De Serres, as the editors cite them, seem to have them there from the start.",
+    "What Beza gave in writing on 26 September. Polanco gives a Latin formula with 'substantialiter'. The History prints a French statement without it and says the Latin came from a private meeting.",
+    "Whether Lorraine approved the formula of 1 October. The History says he said he had never believed otherwise, and Des Gallars agrees. Beza's letter of 4 October says nothing of it, Baum and Cunitz note.",
+    "When the prelates' assembly opened. Languet wrote on 1 August that it had begun three days before. Brulart gives 1 August; De Thou gives 10 August, which Baum and Cunitz reject.",
+    "Whether the legate was present. Polanco and Coudret say Ferrara stayed away from the disputations. Pallavicino reports Ferrara's own claim that his presence gave the Catholic doctors strength."
+  ],
+  "sources": {
+    "fromTheCouncil": [
+      {
+        "title": "Histoire ecclésiastique des Églises réformées au royaume de France, vol. 1 (the prelates' canons and conclusion, the ministers' petitions, the Edict of January)",
+        "author": "ed. G. Baum and Ed. Cunitz",
+        "language": "French",
+        "file": "cic/texts/beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt"
+      },
+      {
+        "title": "Lainii Monumenta, vol. 8 (royal letters citing the act receiving the Jesuits)",
+        "author": "Jesuit editors",
+        "language": "French and Latin",
+        "file": "cic/texts/lainez_epistolae-et-acta-v8-lat_1917.txt"
+      }
+    ],
+    "fromThoseThere": [
+      {
+        "title": "Speeches of 9, 24 and 26 September, in the Histoire ecclésiastique",
+        "author": "Theodore Beza",
+        "language": "French",
+        "file": "cic/texts/beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt"
+      },
+      {
+        "title": "Letters of Polanco and Coudret, September 1561, in Lainii Monumenta, vol. 6",
+        "author": "Juan Alfonso de Polanco; Annibal Coudret",
+        "language": "Spanish and Italian",
+        "file": "cic/texts/lainez_epistolae-et-acta-v6-lat_1915.txt"
+      },
+      {
+        "title": "Speech at Poissy, 26 September 1561, and Polanco's account of the sessions, in Lainii Monumenta, vol. 8",
+        "author": "Diego Laínez; Juan Alfonso de Polanco",
+        "language": "Italian and Spanish",
+        "file": "cic/texts/lainez_epistolae-et-acta-v8-lat_1917.txt"
+      },
+      {
+        "title": "Letter to the Bishop of Rennes, October 1561, in Tous les synodes nationaux",
+        "author": "Catherine de' Medici; ed. Jean Aymon",
+        "language": "French",
+        "file": "cic/texts/french-reformed-synods_tous-les-synodes-nationaux-t1-fra_aymon1710.txt"
+      },
+      {
+        "title": "Letters of John Calvin, vol. 4",
+        "author": "John Calvin, ed. Jules Bonnet",
+        "language": "English",
+        "file": "cic/texts/calvin_letters-vol4_bonnet1858.txt"
+      }
+    ],
+    "writtenLater": [
+      {
+        "title": "Histoire ecclésiastique des Églises réformées au royaume de France (the narrative, 1580)",
+        "author": "no author named; ed. G. Baum and Ed. Cunitz",
+        "language": "French",
+        "file": "cic/texts/beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt"
+      },
+      {
+        "title": "Histoire ecclésiastique, vol. 3 (introduction on authorship)",
+        "author": "Rodolphe Reuss",
+        "language": "French",
+        "file": "cic/texts/beza_histoire-ecclesiastique-t3-fra_baum-cunitz-reuss1889.txt"
+      },
+      {
+        "title": "Histoire des martyrs, vol. 3",
+        "author": "Jean Crespin, ed. Daniel Benoît",
+        "language": "French",
+        "file": "cic/texts/crespin_histoire-des-martyrs-t3-fra_benoit-lelievre1889.txt"
+      },
+      {
+        "title": "The History of the Council of Trent",
+        "author": "Paolo Sarpi, tr. Nathanael Brent",
+        "language": "English",
+        "file": "cic/texts/sarpi_history-of-the-council-of-trent_brent1676.txt"
+      },
+      {
+        "title": "Istoria del Concilio di Trento, part 2",
+        "author": "Sforza Pallavicino",
+        "language": "Italian",
+        "file": "cic/texts/pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt"
+      },
+      {
+        "title": "Istoria del Concilio di Trento, vol. 3",
+        "author": "Sforza Pallavicino",
+        "language": "Italian",
+        "file": "cic/texts/pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846.txt"
+      },
+      {
+        "title": "The Canons and Decrees of the Council of Trent",
+        "author": "tr. J. Waterworth",
+        "language": "English",
+        "file": "cic/texts/council-of-trent_canons-and-decrees_waterworth1848.txt"
+      },
+      {
+        "title": "The Autobiography and Diary of Mr James Melvill",
+        "author": "James Melville, ed. Robert Pitcairn",
+        "language": "Scots English",
+        "file": "cic/texts/melville-james_autobiography-and-diary_pitcairn1842.txt"
+      },
+      {
+        "title": "Histoire du Synode général de l'Église réformée de France, 1872, vol. 1",
+        "author": "Eugène Bersier",
+        "language": "French",
+        "file": "cic/texts/bersier_histoire-du-synode-general-de-l-eglise-reformee-t1-fra_1872.txt"
+      }
+    ]
+  }
+}

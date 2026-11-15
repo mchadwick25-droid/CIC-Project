@@ -1,0 +1,431 @@
+{
+  "id": "diet-of-augsburg-1555",
+  "kind": "major-council",
+  "kindLabel": "Major council",
+  "era": 7,
+  "name": "Diet of Augsburg and the Religious Peace",
+  "shortName": "Peace of Augsburg",
+  "informalName": "Religionsfriede",
+  "dates": "1555",
+  "start": 1555,
+  "end": 1555,
+  "region": "Augsburg, in southern Germany",
+  "placeLabel": "Augsburg",
+  "modernCountries": [
+    {
+      "country": "Germany",
+      "countryId": "Q183"
+    }
+  ],
+  "rivers": [
+    "Latin West",
+    "Protestant"
+  ],
+  "teaser": "In 1555, twenty-five years after the Augsburg Confession was read there, a new imperial diet at Augsburg made a religious peace. It protected the estates of that confession and of the old religion, and shut out all others.",
+  "knownFor": "The recess of 25 September 1555, which set a peace between the two religions of the empire. It came from a later diet than the one that heard the Augsburg Confession in 1530.",
+  "datesNote": "1555; this is not the Diet of 1530. Sarpi and the Monumenta editors date the opening to 5 February. Polanco has the legate Morone arrive on 24 March, the eve of the Annunciation, and leave on 31 March. Mirbt's heading, Sarpi and the Monumenta editors, after Braunsberger, date the recess to 25 September. Pallavicino says the very end of September. Paul IV's two letters against it are dated 18 December 1555.",
+  "issue": [
+    "The emperor's aim, in Sarpi. Charles V called the Diet 'principally to compose the Controversies of Religion'. Sarpi says this was 'the Fountain of all the troubles, and calamities of Germany'.",
+    "Ferdinand's opening, as Sarpi tells it. A general council had once been thought the only remedy, and why it failed was known to all. A national council was out of use.",
+    "Colloquies, Ferdinand said, had done no good, since both parties sought private gain. Still he urged them to try one again, unless the Diet found a better way. The proposal also dealt with peace and war with the Turks.",
+    "The recess gives its own reason. The peace was made 'der spaltigen religion halben' ('because of the divided religion'). It was meant to save 'this praiseworthy nation' from the final ruin that stood before it.",
+    "Rome's terms. Pallavicino says Julius III sent a legate only with extreme reluctance, to an assembly of churchmen and laymen, Catholics and heretics. He set two conditions.",
+    "Great lords were to come in person, not send proxies. And nothing was to be settled against the Church, the Fathers and the councils, above all against the decisions of Trent. Pallavicino gives both.",
+    "Sarpi says the legate was told 'above all, to divert all Colloquies, and Treaties of Religion'. He says Julius cursed the colloquies and complained of always having 'a Council, a Colloquy, or a Diet' on his back.",
+    "Catholic doubt in Germany. Polanco reports Peter Canisius: all Catholics thought it would have been far wiser never to have begun the Diet.",
+    "The Lutheran side. No Lutheran who was there speaks in our sources. Sarpi says those of the Augsburg Confession claimed that anyone might take up their teaching and keep the honors and offices they held.",
+    "Pallavicino says the Protestant princes of Saxony, Brandenburg and Hesse met at Naumburg 'quasi in una Contradieta' ('as if in a counter-diet'). They wrote to Ferdinand that they would confirm their hereditary league.",
+    "Passau before it. The Peace of Westphalia in 1648 names 'the agreement made at Passau in 1552 and the peace of religion that followed it in 1555'. Pallavicino says the recess left seized church goods to the Concord of Passau."
+  ],
+  "calledBy": "Charles V. Sarpi says the emperor 'had intimated' the Diet, and that 'Ferdinand began the Diet, in the Emperours name'. Pallavicino says Charles, pleading sickness and war, answered curtly and left the arrangement to Ferdinand. No held source disputes this.",
+  "attended": [
+    "No list of those present is held, and no count. Sarpi says Ferdinand's opening proposal was meant to draw men to the Diet, 'to which very few were come'.",
+    "Ferdinand, King of the Romans, ran the Diet. Polanco places him at Augsburg, and Salmerón had an audience with him there on 1 September.",
+    "Polanco says the legate Giovanni Morone came with the Jesuits Diego Lainez and Jerónimo Nadal. The King of the Romans, the Cardinal of Augsburg and other bishops and princes met them almost a league out.",
+    "Morone left on 31 March with the Cardinal of Augsburg, Otto Truchsess, and Lainez left on 2 April, Polanco says. Nadal wrote from Augsburg on 30 March, 6 April and 17 April.",
+    "The nuncios. Pallavicino says Zaccaria Delfino asked to be recalled when Paul IV was elected. He left his business to Luigi Lippomano, bishop of Verona, who was on his way to Poland.",
+    "Lippomano gave Ferdinand 'una ponderosa scrittura' ('a weighty paper'). It argued that questions of faith have no court but the Apostolic See. Then, Pallavicino says, he went on to Poland.",
+    "Alfonso Salmerón, a Jesuit, came with Lippomano and reached Augsburg on 20 August, by his own letter. The Monumenta editors say they left on 7 September.",
+    "Peter Canisius was at Augsburg for most of June and again from late July to 5 August, by the Monumenta editors' dating after Braunsberger. Polanco says he preached twice and stopped a public disputation he thought dangerous.",
+    "Polanco also names Pedro de Soto, 'once confessor of the Emperor Charles', and the bishop of Laibach. He says Soto left the Diet when Philip, king of England, called him away.",
+    "The Protestant estates. No held line names a Protestant prince or envoy present at Augsburg. The 1648 treaty says the peace was made with the consent of the emperor, electors, princes and estates of both religions.",
+    "Ferdinand's defence, in Pallavicino, says the same. He had only approved what 'Cattolici ed Eretici, Ecclesiastici e Secolari' ('Catholics and heretics, churchmen and laymen') had agreed together."
+  ],
+  "decided": [
+    "The recess of 25 September is held in part, in Mirbt's extract. Its voice is 'we', beside 'His Roman Imperial Majesty'; the extract does not name the speaker.",
+    "No force against the Augsburg Confession. No estate of the empire was to be attacked or harmed on account of it. Nor was any to be forced from it 'wider sein conscienz, gewissen und willen' ('against its conscience and will').",
+    "That protection covered the religion and church order the estates had set up, or might yet set up. It held 'in iren fürstentumben, landen und herschaften' ('in their principalities, lands and lordships'), with their goods.",
+    "The disputed religion was to be brought to agreement only 'durch christliche, freuntliche, friedliche mittel und wege' ('by Christian, friendly, peaceful means').",
+    "The old religion. In turn, the estates of the Augsburg Confession were to leave the other estates untroubled in their religion. These were those 'der alten religion anhengig' ('holding to the old religion'), church or lay.",
+    "All others shut out. 'Doch sollen alle andere, so obgemelten beden religionen nit anhengig, in diesem frieden nit gemeint sondern genzlich ausgeschlossen sein.' The clause names no group.",
+    "The churchmen's clause, headed by Mirbt 'Reservatum ecclesiasticum'. An archbishop, bishop or prelate who left 'unser alten religion' ('our old religion') was to give up his see and its income at once. His honor was to be spared.",
+    "The chapter could then choose 'eine person der alten religion verwant' ('a person of the old religion') in his place.",
+    "Church lands. Mirbt gives this article only in summary: the church goods the Protestant estates had taken stayed with them. Pallavicino says such seizures were left to the Concord of Passau until a future diet.",
+    "Bishops' courts. Church jurisdiction was not to be used against the religion, ministries and ceremonies of the Augsburg Confession. It was to rest, suspended, 'bis zu entlicher vergleichung der religion' ('until the final settlement of religion').",
+    "The right to leave. Some subjects of the old religion or the Augsburg Confession might wish to move for their religion. They could go 'mit iren weib und kindern' ('with their wives and children').",
+    "They could also sell their goods, against a fair payment for release from serfdom and a departure tax. They could leave 'unverhindert menniklichs' ('unhindered by anyone'), with their honor untouched.",
+    "For ever. If no agreement came through a general council, national assembly, colloquies or imperial talks, the peace still stood. It was to be 'ein bestendiger beharrlicher und unbedingter, für und für, ewig werender friet'.",
+    "The imperial court. Its judge and assessors might be presented 'von beyden der alten Religion und der Augspurgischen Confession' ('from both the old religion and the Augsburg Confession').",
+    "The free cities, held only in the histories. Pallavicino's list of articles extends the peace to the nobles directly under the emperor. It also covers imperial cities where both religions had been in force, so both could live there in peace.",
+    "Sarpi tells the bargain behind it. The Catholics would not let a bishop or abbot change religion and keep his post. They also opposed letting the Interim cities return to the Augsburg Confession.",
+    "At last, Sarpi says, 'The Catholicks were content that the Cities should do as they pleased'. In turn 'the Protestants gave over their pretence concerning the Ecclesiasticks.'",
+    "Oaths and subjects, in Pallavicino. Oaths could be sworn 'per Dio, e per l'Euangelio' ('by God and the Gospel'), so Protestants need not swear by the saints. No estate was to draw another's lord or subject to its religion.",
+    "Ferdinand's declaration. Pallavicino says Ferdinand also declared that church princes' subjects were not bound, as lay princes' subjects were, to keep the prince's religion or leave. Sarpi tells a declaration too, but our copy breaks off.",
+    "Left undecided. Pallavicino says Ferdinand chose not to settle by which of four proposed ways concord should be sought. He put that article off to a future diet."
+  ],
+  "outcome": [
+    "Rome refused it. On 18 December Paul IV wrote to Ferdinand of a recess 'tam perniciosum' ('so ruinous'), reached against his will, Ferdinand's, and that of all Catholics.",
+    "The same day he wrote to Bishop Wolfgang of Passau. Nothing, he said, could have been decided more foreign to the Catholic faith than this recess.",
+    "Pallavicino says the pope made very bitter complaints, carried by the nuncio Delfino early in 1556. Ferdinand, he says, felt plain necessity had kept him free of blame for the concessions harmful to Catholics.",
+    "Ferdinand also felt he had shown the greatest zeal where the choice was his own. So he answered more sharply than his mild nature usually allowed, Pallavicino says.",
+    "Sarpi reports 'The Fame' that Cardinal Truchsess of Augsburg urged the pope on, 'displeased with the liberty granted to the Confessionists'. Pallavicino sets the pope's anger beside his ill will toward the House of Austria.",
+    "Subjects and their lords. Pallavicino says the subjects of Ferdinand and of the dukes of Bavaria asked for the freedom of their neighbors. They were told the recesses bound vassals to follow their lords' religion, or leave.",
+    "Pallavicino's judgment. The recess seemed helpful then, and proved the more harmful in the long run. The Germans slept on it as on opium, and another age paid with slaughter and desolation.",
+    "The shut-out. A draft mandate of Duke Christoph of Württemberg, from 1556 and still debated early in 1557, ordered Anabaptists and Schwenckfelders punished. They were, it says, 'mit nichten begriffen, sonder darvon usgeschlossen' ('in no way included, but excluded').",
+    "Bossert, its editor, notes that 'Zwinglischer' ('Zwinglian') was added above the line in Duke Christoph's own hand.",
+    "Who counted. A Schwenckfelder history, first printed in 1771, tells of Worms in 1557. Each Lutheran party claimed to be the true kin of the Augsburg Confession, and each wished to shut the others out of the peace.",
+    "That history says the Catholics answered that they must first settle who those of the Confession were.",
+    "The Reformed. Schaff says Frederick III of the Palatinate was threatened with exclusion from the treaty's benefits. The reason, he says, was that 'Zwinglianism and Calvinism were not yet tolerated on German soil'.",
+    "The Jesuits in 1566. Nadal, Canisius and Ledesma judged that a reconfirmed peace did not harm Trent's teaching. Its conditions held only a permission and a suspension of jurisdiction, yielding 'for a time' to hard necessity.",
+    "They added that the Holy See bore it with grief and did not praise 'pacem hanc publice constitutam' ('this publicly made peace').",
+    "At Trent in 1563, Pallavicino says, the emperor's envoy objected to one draft. It seemed to overturn 'tutti i recessi delle diete alemanne' ('all the recesses of the German diets') in church matters.",
+    "Bohemia. Lützow says the peace 'contained no reference to Bohemia, but it greatly encouraged the Lutheran party in that country'. The 1609 Letter of Majesty, quoted by the Bohemian estates in 1618, invokes the 'Religionsfried'.",
+    "Westphalia, 1648. The treaty ordered the peace of 1555 'rata habeatur sancteque et inviolabiliter servetur' ('held valid and kept holy and inviolable'). It gave its rights also to those 'qui inter illos reformati vocantur' ('who are called Reformed').",
+    "The same treaty allowed no other religion in the empire. Innocent X protested that the heretics of the so-called Augsburg Confession were allowed the free exercise of their heresy."
+  ],
+  "record": [
+    {
+      "witness": "Articles of the Religious Peace from the Augsburg recess of 25 September 1555 (Mirbt, no. 351)",
+      "kind": "acts",
+      "note": "An extract only: sections 15 to 18, 20, 24, 25 and 106, with 19 in Mirbt's summary. The joint act of the emperor's side and the estates."
+    },
+    {
+      "witness": "Paul IV, letters to Ferdinand and to Bishop Wolfgang of Passau, 18 December 1555 (Mirbt, nos. 352-353)",
+      "kind": "participant",
+      "note": "One sentence each, taken from Raynaldus; of the papacy, whose legate and nuncios took part. The refusing party's own words."
+    },
+    {
+      "witness": "Jerónimo Nadal, letters from Augsburg, March and April 1555",
+      "kind": "participant",
+      "note": "A Jesuit with the legate's party; hostile to the Lutherans."
+    },
+    {
+      "witness": "Alfonso Salmerón, letter from Augsburg, 1 September 1555",
+      "kind": "participant",
+      "note": "A Jesuit with the nuncio Lippomano; reports his audience with Ferdinand."
+    },
+    {
+      "witness": "Juan Alfonso de Polanco, Chronicon for 1555, with the Monumenta editors' notes (1897)",
+      "kind": "later narrative",
+      "note": "The secretary of the Society of Jesus, writing its history; Catholic. The editors' notes quote Canisius's letters from Braunsberger's edition."
+    },
+    {
+      "witness": "Paolo Sarpi, History of the Council of Trent (Brent's English, 1676)",
+      "kind": "later narrative",
+      "note": "A Venetian friar; Catholic but hostile to the papal court. The only held telling of the opening day. Lines near the declaration are lost in our copy."
+    },
+    {
+      "witness": "Sforza Pallavicino, Istoria del Concilio di Trento, parts 2 and 3 (1664)",
+      "kind": "later narrative",
+      "note": "A Jesuit writing against Sarpi; for the papal court. He used papal papers. He holds the free-cities clause and Ferdinand's declaration."
+    },
+    {
+      "witness": "Mandate of Duke Christoph of Württemberg against the sects, after 11 September 1556 (Bossert, 1930)",
+      "kind": "acts",
+      "note": "Not the Diet's own: a later act of a Lutheran prince's chancery, a year on. Bossert's notes date the draft. It shows the exclusion clause in use."
+    },
+    {
+      "witness": "The Peace of Westphalia, 1648, and Innocent X's protest (Mirbt, nos. 430-438, 440)",
+      "kind": "acts",
+      "note": "Not the Diet's own: later treaty texts that confirm the 1555 peace and extend it to the Reformed, with the papal protest against them."
+    },
+    {
+      "witness": "Nadal, Canisius and Ledesma, opinion on the 1555 recess, 1566",
+      "kind": "later narrative",
+      "note": "Jesuits, eleven years on; Catholic."
+    },
+    {
+      "witness": "Erläuterung für Herrn Caspar Schwenckfeld (first printed 1771)",
+      "kind": "later narrative",
+      "note": "Written by Schwenckfelder emigrants from Silesia; the host catalogue names Christopher Schultz. Tells the Lutheran quarrel at Worms in 1557."
+    },
+    {
+      "witness": "Philip Schaff, The Creeds of Christendom (extract); Count Francis Lützow (1910); Charles F. Schaeffer (1868); Allen Anders Seipt (1909); Howard Wiegner Kriebel (1904)",
+      "kind": "modern reconstruction",
+      "note": "Later historians and editors: Schaff on the Reformed, Lützow on Bohemia, Schaeffer on the year of Arndt's birth, Seipt and Kriebel on the Schwenckfelders."
+    }
+  ],
+  "traditions": [
+    {
+      "id": "lutheran-wittenberg-and-its-congregations",
+      "name": "Lutheran Wittenberg & Its Congregations",
+      "part": "Gathered",
+      "note": "The recess protects 'die stende, so der Augspurgischen confession verwant' ('the estates of the Augsburg Confession') in their religion and lands (Mirbt's extract)."
+    },
+    {
+      "id": "the-tridentine-church",
+      "name": "The Tridentine Church",
+      "part": "Gathered",
+      "note": "The recess protects the estates of 'the old religion', and its churchmen's clause keeps sees for it (Mirbt's extract). A legate and nuncios came from Rome (Polanco; Pallavicino)."
+    },
+    {
+      "id": "the-tridentine-church",
+      "name": "The Tridentine Church",
+      "part": "Refused",
+      "note": "Paul IV called the recess 'so ruinous', reached against the will of all Catholics, on 18 December 1555 (his letter, in Mirbt)."
+    },
+    {
+      "id": "the-society-of-jesus",
+      "name": "The Society of Jesus",
+      "part": "Gathered",
+      "note": "Lainez and Nadal came with the legate, Salmerón with the nuncio, and Canisius preached in the city (Polanco; Nadal's and Salmerón's letters)."
+    },
+    {
+      "id": "the-reformed-cities-zurich-and-geneva",
+      "name": "The Reformed Cities - Zurich & Geneva",
+      "part": "Affected",
+      "note": "Not named in the recess, which shuts out all others. Later texts put them outside: Duke Christoph's added 'Zwinglian' (Bossert), Schaff on Frederick III, and Westphalia's admission of the 'reformati'."
+    },
+    {
+      "id": "the-anabaptist-movements",
+      "name": "The Anabaptist Movements",
+      "part": "Affected",
+      "note": "Shut out of the peace, which names no group. Duke Christoph's draft mandate of 1556 punishes them as 'excluded' from it (Bossert)."
+    },
+    {
+      "id": "schwenckfelders",
+      "name": "Schwenckfelders",
+      "part": "Affected",
+      "note": "Shut out of the peace, which names no group. Duke Christoph's mandate names them among the excluded (Bossert). Kriebel says the Treaty of Augsburg 'practically outlawed' them."
+    },
+    {
+      "id": "czech-churches-last-century",
+      "name": "The Czech Churches' Last Century (Utraquists and Unitas)",
+      "part": "Affected",
+      "note": "Lützow says the peace did not mention Bohemia but 'greatly encouraged the Lutheran party' there. The 1609 Letter of Majesty invokes the 'Religionsfried' (the estates' Apology of 1618)."
+    }
+  ],
+  "people": [
+    {
+      "name": "Ferdinand, King of the Romans",
+      "verdict": "NOT SCORED",
+      "part": "Opened the Diet in the emperor's name on 5 February; granted the peace and made the declaration on church princes' subjects; answered Paul IV sharply"
+    },
+    {
+      "name": "Charles V",
+      "verdict": "NOT SCORED",
+      "part": "Emperor; not present; called the Diet and left its handling to Ferdinand"
+    },
+    {
+      "name": "Giovanni Morone",
+      "verdict": "NOT SCORED",
+      "part": "Cardinal and papal legate; arrived on 24 March and left on 31 March after Julius III died"
+    },
+    {
+      "name": "Pope Julius III",
+      "verdict": "NOT SCORED",
+      "part": "Not present; sent Morone reluctantly, on two conditions; died in March 1555"
+    },
+    {
+      "name": "Pope Paul IV",
+      "verdict": "NOT SCORED",
+      "part": "Not present; condemned the recess in two letters of 18 December 1555"
+    },
+    {
+      "name": "Zaccaria Delfino",
+      "verdict": "NOT SCORED",
+      "part": "Nuncio; asked to be recalled on Paul IV's election, and carried the pope's complaints to Ferdinand in 1556"
+    },
+    {
+      "name": "Luigi Lippomano, bishop of Verona",
+      "verdict": "NOT SCORED",
+      "part": "Nuncio on his way to Poland; gave Ferdinand a paper on the Apostolic See's authority, then left"
+    },
+    {
+      "name": "Otto Truchsess, Cardinal of Augsburg",
+      "verdict": "NOT SCORED",
+      "part": "Received the legate and left with him; Sarpi reports a rumor that he urged Paul IV on"
+    },
+    {
+      "name": "Peter Canisius",
+      "verdict": "WHO",
+      "part": "At Augsburg in June and from late July to 5 August; preached twice and stopped a disputation; judged the Diet more harmful than useful"
+    },
+    {
+      "name": "Jerónimo Nadal",
+      "verdict": "WHO",
+      "part": "Came with the legate; wrote from Augsburg in March and April"
+    },
+    {
+      "name": "Diego Lainez",
+      "verdict": "WHO",
+      "part": "Came with the legate; left on 2 April"
+    },
+    {
+      "name": "Alfonso Salmerón",
+      "verdict": "WHO",
+      "part": "Came with the nuncio Lippomano on 20 August; had an audience with Ferdinand"
+    },
+    {
+      "name": "Pedro de Soto",
+      "verdict": "NOT SCORED",
+      "part": "Once the emperor's confessor; at the Diet until Philip, king of England, called him away"
+    },
+    {
+      "name": "Wolfgang, bishop of Passau",
+      "verdict": "NOT SCORED",
+      "part": "Received Paul IV's second letter against the recess; no held line puts him at the Diet"
+    },
+    {
+      "name": "Christoph, duke of Württemberg",
+      "verdict": "NOT SCORED",
+      "part": "No held line puts him at the Diet; his draft mandate of 1556 punished sects as excluded from the peace"
+    }
+  ],
+  "briefLength": "about 2 minutes 30 seconds",
+  "uncertain": [
+    "Part of the Diet's own record is held: articles of the recess, in Mirbt's extract. The account of the room comes from the Catholic side, from Jesuits in the city and Pallavicino, and from Sarpi. No Lutheran who was there speaks in our sources.",
+    "The free-cities clause and Ferdinand's declaration on church princes' subjects are not in Mirbt's extract. They reach us only through Pallavicino and Sarpi, and Sarpi's account of the declaration breaks off in our copy.",
+    "Did rulers choose? The recess protects the estates' religion in their own lands and lets subjects leave. Sarpi sums it up as power 'to [estab]lish in his own State what Religio[n] he will, and to forbid the other'.",
+    "Pallavicino calls it a duty of vassals to follow their lords' religion or leave. Seipt says it let rulers enforce their religion and banish the rest. The recess speaks of a right to depart.",
+    "The cities, the churchmen's clause and Ferdinand's declaration are exceptions held in the same texts.",
+    "For ever, or for a time? The recess says it holds until final agreement and, if none comes, for ever. Pallavicino says Ferdinand consented 'not for ever, but until the final concord'.",
+    "Schaeffer calls it 'a temporary external repose for the Lutheran Church'. The Jesuits of 1566 called its terms a mere permission, yielding for a time.",
+    "No held text calls it the first legal toleration. The recess says 'frieden' and 'fridstand'. Westphalia, Pallavicino and Lützow put the Passau agreement of 1552 before it.",
+    "Who was shut out. The recess names no one. That the Reformed were outside is held only in later texts: Duke Christoph's mandate, Schaff, and Westphalia. Only Schaff names Calvinism.",
+    "Did Ferdinand hold firm? On 1 September Salmerón has him vow to permit nothing against the faith. Pallavicino says he 'consented to very grave losses for the Catholic religion' and pleaded necessity.",
+    "Pallavicino blames Charles's curt reply, which left it all to Ferdinand. Sarpi puts it down to the debate, where 'all inclined' to leave each to his liberty.",
+    "Which Augsburg Confession counted? The recess names no edition. At Worms in 1557, by a Schwenckfelder history of 1771, each Lutheran party claimed to be its true heirs.",
+    "What moved Paul IV. Sarpi reports a rumor that Cardinal Truchsess urged him on. Pallavicino points to the pope's ill will toward the House of Austria, and says Sarpi leaves out the true beginnings of the wars that followed.",
+    "In 1557, the Hutterite chronicle says, a count told arrested Brethren that 'die Konfession zu Augsburg' had so decided. He may have meant the confession of 1530; it is not told here as about the peace.",
+    "Polanco says the King of the Romans, the Cardinal of Augsburg and other bishops and princes rode out to meet the legate. The brief names Ferdinand alone of these."
+  ],
+  "sources": {
+    "fromTheCouncil": [
+      {
+        "title": "Quellen zur Geschichte des Papsttums, no. 351: articles of the Religious Peace from the Augsburg recess of 1555",
+        "author": "ed. Carl Mirbt",
+        "language": "German",
+        "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt"
+      }
+    ],
+    "fromThoseThere": [
+      {
+        "title": "Quellen zur Geschichte des Papsttums, nos. 352-353: letters of Paul IV, 18 December 1555",
+        "author": "Paul IV, ed. Carl Mirbt",
+        "language": "Latin",
+        "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt"
+      },
+      {
+        "title": "Epistolae P. Hieronymi Nadal I",
+        "author": "Jerónimo Nadal",
+        "language": "Italian and Latin",
+        "file": "cic/texts/nadal_epistolae-v1-lat_1898.txt"
+      },
+      {
+        "title": "Epistolae P. Alphonsi Salmeronis, Tomus Primus",
+        "author": "Alfonso Salmerón",
+        "language": "Spanish and Latin",
+        "file": "cic/texts/salmeron_epistolae-v2-lat_1906.txt"
+      }
+    ],
+    "writtenLater": [
+      {
+        "title": "Chronicon Societatis Iesu V (1555)",
+        "author": "Juan Alfonso de Polanco, with the Monumenta editors",
+        "language": "Latin",
+        "file": "cic/texts/polanco_chronicon-v5-lat_1897.txt"
+      },
+      {
+        "title": "Epistolae et acta P. Jacobi Lainii I: editors' life",
+        "author": "Monumenta editors",
+        "language": "Latin",
+        "file": "cic/texts/lainez_epistolae-et-acta-v1-lat_1912.txt"
+      },
+      {
+        "title": "The History of the Council of Trent",
+        "author": "Paolo Sarpi, tr. Nathanael Brent",
+        "language": "English",
+        "file": "cic/texts/sarpi_history-of-the-council-of-trent_brent1676.txt"
+      },
+      {
+        "title": "Istoria del Concilio di Trento, parte seconda",
+        "author": "Sforza Pallavicino",
+        "language": "Italian",
+        "file": "cic/texts/pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt"
+      },
+      {
+        "title": "Istoria del Concilio di Trento, tomo terzo",
+        "author": "Sforza Pallavicino",
+        "language": "Italian",
+        "file": "cic/texts/pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846.txt"
+      },
+      {
+        "title": "Quellen zur Geschichte der Wiedertäufer I: Duke Christoph's mandate",
+        "author": "ed. Gustav Bossert",
+        "language": "German",
+        "file": "cic/texts/taeuferakten-wuerttemberg_quellen-geschichte-wiedertaeufer-1-deu_bossert1930.txt"
+      },
+      {
+        "title": "Epistolae P. Hieronymi Nadal III: the opinion of 1566",
+        "author": "Jerónimo Nadal, Peter Canisius, Diego de Ledesma",
+        "language": "Latin",
+        "file": "cic/texts/nadal_epistolae-v3-lat_1902.txt"
+      },
+      {
+        "title": "Quellen zur Geschichte des Papsttums, nos. 430-438, 440: the Peace of Westphalia and Innocent X's protest",
+        "author": "ed. Carl Mirbt",
+        "language": "Latin",
+        "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt"
+      },
+      {
+        "title": "Erläuterung für Herrn Caspar Schwenckfeld",
+        "author": "Schwenckfelder emigrants (Christopher Schultz, by the host catalogue)",
+        "language": "German",
+        "file": "cic/texts/schultz-christopher_erlaeuterung-fuer-caspar-schwenckfeld-deu_benner1830.txt"
+      },
+      {
+        "title": "Die Apologie druhá stavův království Českého (1618)",
+        "author": "The Bohemian estates",
+        "language": "Czech",
+        "file": "cic/texts/bohemian-estates_apologie-druha-1618-ces_subert1862.txt"
+      },
+      {
+        "title": "Das große Geschichtbuch der Hutterischen Brüder",
+        "author": "ed. Rudolf Wolkan",
+        "language": "German",
+        "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt"
+      },
+      {
+        "title": "The Creeds of Christendom: the Heidelberg Catechism, history (extract)",
+        "author": "Philip Schaff",
+        "language": "English",
+        "file": "cic/texts/schaff_second-helvetic-confession-heidelberg-catechism_1919.txt"
+      },
+      {
+        "title": "Bohemia: An Historical Sketch",
+        "author": "Count Francis Lützow",
+        "language": "English",
+        "file": "cic/texts/lutzow_bohemia-historical-sketch_1920.txt"
+      },
+      {
+        "title": "True Christianity: introduction",
+        "author": "Charles F. Schaeffer",
+        "language": "English",
+        "file": "cic/texts/arndt_true-christianity_boehm-schaeffer1868.txt"
+      },
+      {
+        "title": "Schwenkfelder Hymnology",
+        "author": "Allen Anders Seipt",
+        "language": "English",
+        "file": "cic/texts/seipt_schwenkfelder-hymnology_1909.txt"
+      },
+      {
+        "title": "The Schwenkfelders in Pennsylvania",
+        "author": "Howard Wiegner Kriebel",
+        "language": "English",
+        "file": "cic/texts/kriebel_schwenkfelders-in-pennsylvania_1904.txt"
+      }
+    ]
+  }
+}

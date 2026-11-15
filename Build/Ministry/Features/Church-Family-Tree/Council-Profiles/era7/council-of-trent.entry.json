@@ -1,0 +1,467 @@
+{
+  "id": "council-of-trent",
+  "kind": "major-council",
+  "kindLabel": "Major council",
+  "era": 7,
+  "name": "Council of Trent",
+  "shortName": "Trent",
+  "dates": "1545-1563",
+  "start": 1545,
+  "end": 1563,
+  "datesNote": "1545-1563, in three periods. The acts date the first session to 13 December 1545 and the last to 3 and 4 December 1563. Paul III's bull calling the council is dated the eleventh of the calends of June 1542, which Waterworth gives as 22 May. Sessions IX and X met at Bologna in 1547, the tenth on 2 June. The second period ran from 1 May 1551 to 28 April 1552, the third from 18 January 1562. Pius IV confirmed the decrees in consistory on 26 January 1564.",
+  "region": "Trent, in the Alps of northern Italy; for a time Bologna",
+  "placeLabel": "Trent",
+  "modernCountries": [
+    {
+      "country": "Italy",
+      "countryId": "Q38"
+    }
+  ],
+  "rivers": [
+    "Latin West"
+  ],
+  "teaser": "Paul III called a general council to Trent, and it met there in three periods from 1545 to 1563. It set the Catholic answer to the Protestants on Scripture, tradition and justification, and ordered bishops to reside and train priests.",
+  "knownFor": "The council of the Latin Church whose decrees, confirmed by Pius IV in 1564, set Catholic teaching and church order against the Reformation.",
+  "issue": [
+    "The pope's own words. Paul III's bull of 1542 says Christian unity was 'rent and well-nigh torn asunder by schisms, dissensions, heresies'. It adds that Rhodes had been lost and Hungary ravaged.",
+    "The bull gives the council's business. It was to treat the 'integrity and truth of the Christian religion' and the correction of evil manners. It was also to seek peace among Christian princes and to repel 'barbarians and infidels'.",
+    "Why Trent. The bull says the Germans 'wished for the city of Trent', though the pope thought Italy more convenient. It was 'principally on their account, and at their instance' that the council was called.",
+    "The emperor and the Protestants. The bull says Charles V had promised the dissenters his mediation. At the diet of Regensburg, it says, the pope was asked to tolerate certain of their articles until a council decided them.",
+    "The opening decree of 13 December 1545 names its aims. They include 'the extirpation of heresies' and the peace of the Church. They also include the reform of clergy and people and the defeat of 'the enemies of the Christian name'.",
+    "The Reformed side, in Calvin's own words. In a letter Bonnet dates to January 1545, Calvin calls the pope Antichrist. He foresees his side refusing a council run by 'the professed enemies of God': 'they will never permit him to be the judge.'",
+    "The Lutheran side reaches us only through Sarpi and Waterworth. Sarpi gives the Saxon envoy's terms in 1552: a 'general, free, and Christian Council', where controversies were decided 'according to the Holy Scripture'.",
+    "Sarpi's own frame. He calls it a gathering 'by some ... procured and hastened, by some hindered and deferred for the space of 22 years'."
+  ],
+  "calledBy": "Paul III, by his bull of indiction given at Rome in 1542, for Trent. The bull 'Laetare Jerusalem', dated 19 November 1544 and printed in Mansi, lifted the suspension and set a new date. A papal brief in Mansi moved the opening to Gaudete Sunday. Julius III recalled the council in 1551, and Pius IV by his bull of 1560. No held source disputes who called it.",
+  "attended": [
+    "At the opening. No list for the day is held. Sarpi says the legates came 'with all the Prelates, in number 25'.",
+    "Pallavicino counts, besides the three legates, the cardinal of Trent, four archbishops, twenty bishops and five generals of orders. He adds Ferdinand's envoys. Waterworth follows him and notes that Le Plat's list gives twenty-two bishops.",
+    "At the reopening in 1562. Waterworth counts 102 prelates at the first general congregation, on 15 January. Sarpi says 112 mitred prelates, besides the cardinals, walked in the procession of 18 January.",
+    "At the close. The acts count 255 signers: four legates, two cardinals, three patriarchs, twenty-five archbishops and 168 bishops. Then come seven abbots, thirty-nine proctors of absent prelates and seven generals. The secretary Massarelli and two notaries certify the count.",
+    "Pallavicino and Waterworth give the same 255 and 168. Sarpi prints '268 Bishops' with the acts' other figures, probably a misprint for 168, so his figure is not used.",
+    "The ambassadors did not sign with the fathers. Waterworth and Pallavicino say the Count of Luna, for Spain, would sign only with his king's consent reserved. The envoys' acceptances were drawn up apart, within two days.",
+    "Lists of names. Waterworth prints Le Plat's Latin lists of those present in the first and third periods. Mansi prints names for Bologna and for the session of May 1551. No list of the 255 signatures is held."
+  ],
+  "decided": [
+    "To open. On 13 December 1545 the fathers were asked whether the council 'do begin, and hath begun'. 'They answered : It pleaseth us.'",
+    "Scripture and tradition, 8 April 1546. Truth is contained 'in the written books, and the unwritten traditions', which came down 'transmitted as it were from hand to hand'. The council receives both 'with an equal affection of piety, and reverence'.",
+    "The same session lists the canon of Scripture and declares the old Latin Vulgate 'authentic'. No one may interpret Scripture against the sense 'which holy mother Church ... hath held and doth hold'.",
+    "Justification, 13 January 1547. Faith is 'the beginning of human salvation, the foundation, and the root of all Justification'. Canon IX condemns anyone who says that by faith alone the sinner is justified, with 'nothing else' required to co-operate.",
+    "The canons name no one. Waterworth says chapter VII is aimed 'mainly against the errors of Luther'. He says it also aims at an opinion of Seripando, the general of the Augustinians.",
+    "The move to Bologna, 11 March 1547. The decree calls the disease 'so plainly and notoriously certain' that the prelates could not stay without danger. The council was moved 'for a time' to Bologna.",
+    "Safe-conduct for the Protestants, 25 January 1552. The council promised not to use the decrees 'of any Councils whatsoever, especially those of Constance and Sienna' against its pledge. It noted that the Protestants 'have not as yet come'.",
+    "Suspension, 28 April 1552. War had broken out, and the decree admits the council 'irritated rather than calmed the minds of many'. Almost all the German bishops had withdrawn.",
+    "The reopening, 18 January 1562. Business was to be what 'the Legates and Presidents proposing' seemed fit. Waterworth says the archbishop of Granada and the bishop of Orense protested against these words. Sarpi names four prelates who objected.",
+    "Residence, 15 July 1563. Pastors are 'by divine precept' bound to know and feed their sheep. All set over churches, 'even though they be cardinals', must reside in person. The decree does not declare residence to be of divine right.",
+    "Seminaries, the same day. Cathedral and greater churches must keep and train a number of boys, at least twelve years old, in a college chosen by the bishop. The poor are to be chosen first, 'that so this college may be a perpetual seminary of ministers of God'.",
+    "The close, 3 and 4 December 1563. The decree says 'no hope remains' that the heretics will come. The earlier decrees were read again, and the fathers voted to end and to ask the pope's confirmation.",
+    "The last session also sent the Index of books to the pope, to be finished by his authority (Mirbt's Latin text). It did the same with the catechism, the missal and the breviary.",
+    "The acclamations. The cardinal of Lorraine led them, and the fathers answered. 'Ever let us confess, ever keep,' they said of the council's faith. To 'Anathema to all heretics' they answered 'Anathema, anathema.'"
+  ],
+  "outcome": [
+    "Confirmation. The acts record the consistory of 26 January 1564. Pius IV, 'with the advice and assent' of the cardinals, confirmed all the council had decreed. His bull forbids anyone to publish commentaries on the decrees without papal authority.",
+    "The bull reserves doubts about the decrees to 'the Apostolic See, the mistress of all the faithful'.",
+    "The Profession of Faith. Pius IV's bull 'Iniunctum nobis', dated 13 November 1564 by Mirbt, set a profession for those set over churches. It swears 'true obedience' to the Roman pontiff and receives all that Trent defined.",
+    "The Roman Catechism. Its 1923 editors say Pius V, elected in January 1566, had it revised. The first edition was printed at Rome in 1566 by his command.",
+    "Milan. Giussano, Borromeo's biographer, says Pius IV gave his nephew Charles Borromeo oversight of the council's business in Rome. At Milan's first provincial council in 1565, he says, Trent's decrees were 'read and formally accepted'.",
+    "The Church of the East. At the session of 17 September 1562, Sarpi and Pallavicino say, the letter of Cardinal Amulio was read. It said Abdisho, patriarch of Muzal in Assyria, had come to Rome and professed obedience.",
+    "Abdisho's own oath survives in a print of 1562. He could not come to the synod, he writes, but swore to teach above all what Trent 'terminabuntur', would settle. His profession is dated at Rome, 7 March 1562.",
+    "England refused. Jewel's Apology of 1562 says 'we have not tarried for ... the authority or consent of the Tridentine council'. There 'not one of our divines could be heard'.",
+    "Geneva. In 1551 Calvin wrote to Bullinger that his side had no place there 'from right or custom'. 'We may accordingly remain at home,' he wrote. Bonnet says Calvin had answered the decrees of 1547 in his Antidote.",
+    "France and Germany, as Sarpi tells it. He says the Parliament's counsellors opposed the reform articles. He also says 'the Princes of Germany held none esteem of this Council'."
+  ],
+  "record": [
+    {
+      "witness": "The acts, in Waterworth's English: the bull of 1542, the decrees and canons of all twenty-five sessions, the acclamations, the subscription count and the confirmation",
+      "kind": "acts",
+      "note": "The council's own record, translated by J. Waterworth, who writes as a Catholic. The count of signers is certified by the secretary Massarelli and two notaries."
+    },
+    {
+      "witness": "Latin decrees and papal bulls: Mansi's additions to Trent; Mirbt; Schaff; the Bullarium",
+      "kind": "acts",
+      "note": "Mansi holds Paul III's bulls, including 'Laetare Jerusalem', the brief for the opening and lists of names. Mirbt and Schaff give the Latin decrees, the bull of confirmation and the Profession of Faith."
+    },
+    {
+      "witness": "Abdisho IV, profession and oath, with Cardinal Amulio's letter to the legates (print of 1562)",
+      "kind": "acts",
+      "note": "Documents of a party, sworn at Rome before Amulio; of the patriarch of the Church of the East who professed union with Rome."
+    },
+    {
+      "witness": "John Calvin, letters (Bonnet's English edition)",
+      "kind": "participant",
+      "note": "Of a refusing party, the Reformed of Geneva; Bonnet's notes are an editor's."
+    },
+    {
+      "witness": "John Jewel, Apology of the Church of England (1562, in Lady Bacon's English)",
+      "kind": "participant",
+      "note": "Of a refusing party, the English church; Jewel was bishop of Salisbury."
+    },
+    {
+      "witness": "Ignatius of Loyola, instructions for the journey to Trent (1546)",
+      "kind": "participant",
+      "note": "The founder of the Jesuits, writing to the men he sent; the notes are the 1914 editors'."
+    },
+    {
+      "witness": "Paolo Sarpi, History of the Council of Trent (Brent's English, 1676)",
+      "kind": "later narrative",
+      "note": "A Venetian Servite friar, Catholic but writing against the papal court's power. He is the only held source for the Protestant envoys' speeches."
+    },
+    {
+      "witness": "Sforza Pallavicino, Istoria del Concilio di Trento",
+      "kind": "later narrative",
+      "note": "A Jesuit, later a cardinal, writing to refute Sarpi; for the papal court. He cites the acts and the diaries of Paleotto and Servanzio."
+    },
+    {
+      "witness": "J. Waterworth, historical essay prefixed to the acts",
+      "kind": "modern reconstruction",
+      "note": "English Catholic; follows Pallavicino and calls Sarpi 'skilful, but unfair'. Paleotto's and Servanzio's eyewitness words reach us only in his footnote."
+    },
+    {
+      "witness": "G. P. Giussano, Life of St Charles Borromeo (English, 1884)",
+      "kind": "later narrative",
+      "note": "A Catholic life of Borromeo; for the council's business in Rome and its reception at Milan."
+    },
+    {
+      "witness": "J. McHugh and C. Callan, introduction to the Roman Catechism (1923)",
+      "kind": "modern reconstruction",
+      "note": "Catholic editors; for the making of the Catechism after the council."
+    }
+  ],
+  "traditions": [
+    {
+      "id": "the-tridentine-church",
+      "name": "The Tridentine Church",
+      "part": "Gathered",
+      "note": "The council's own body: 'the sacred and holy, oecumenical, and general Synod of Trent' (the acts)."
+    },
+    {
+      "id": "the-society-of-jesus",
+      "name": "The Society of Jesus",
+      "part": "Gathered",
+      "note": "Laynez and Salmerón came in 1546 as the pope's theologians, say the editors of Ignatius's letters."
+    },
+    {
+      "id": "lutheran-wittenberg-and-its-congregations",
+      "name": "Lutheran Wittenberg & Its Congregations",
+      "part": "Condemned",
+      "note": "Canon IX condemns justification by faith alone; Waterworth says chapter VII aims mainly at Luther. In 1552 Saxon and Württemberg envoys refused its terms, by Sarpi's account."
+    },
+    {
+      "id": "the-reformed-cities-zurich-and-geneva",
+      "name": "The Reformed Cities - Zurich & Geneva",
+      "part": "Refused",
+      "note": "Calvin: 'We may accordingly remain at home.' Bonnet says the Reformed cantons refused to send deputies."
+    },
+    {
+      "id": "the-anabaptist-movements",
+      "name": "The Anabaptist Movements",
+      "part": "Condemned",
+      "note": "The canons on baptism of March 1547 condemn rebaptism, without naming the Anabaptists (the acts)."
+    },
+    {
+      "id": "the-english-reformation-and-elizabethan-settleme",
+      "name": "The English Reformation & Elizabethan Settlement",
+      "part": "Refused",
+      "note": "Jewel: 'we have not tarried for ... the authority or consent of the Tridentine council'."
+    },
+    {
+      "id": "tridentine-parish-renewal-borromean-milan",
+      "name": "Tridentine Parish Renewal - Borromean Milan",
+      "part": "Affected",
+      "note": "Trent's decrees were 'read and formally accepted' at Milan's first provincial council in 1565 (Giussano)."
+    },
+    {
+      "id": "church-of-the-east-schism-of-1552",
+      "name": "The Church of the East — the Schism of 1552",
+      "part": "Affected",
+      "note": "Abdisho IV swore at Rome to teach what Trent would settle; his profession was read at the session of 17 September 1562."
+    }
+  ],
+  "people": [
+    {
+      "name": "Paul III",
+      "verdict": "STORY",
+      "part": "Called the council in 1542 and lifted its suspension with 'Laetare Jerusalem' in 1544"
+    },
+    {
+      "name": "Giovanni Maria del Monte (later Julius III)",
+      "verdict": "NOT SCORED",
+      "part": "First legate, 1545-1547; sang the opening Mass and proposed the move to Bologna; as pope, recalled the council in 1551"
+    },
+    {
+      "name": "Marcello Cervini, cardinal of Santa Croce",
+      "verdict": "NOT SCORED",
+      "part": "Legate, 1545-1547"
+    },
+    {
+      "name": "Reginald Pole",
+      "verdict": "LISTED",
+      "part": "Legate at the opening; left before the fifth session (Le Plat's list)"
+    },
+    {
+      "name": "Cristoforo Madruzzo, cardinal of Trent",
+      "verdict": "NOT SCORED",
+      "part": "The host bishop; at the opening; in 1562 would not answer the residence question directly (Sarpi)"
+    },
+    {
+      "name": "Pedro Pacheco, cardinal",
+      "verdict": "NOT SCORED",
+      "part": "Led the bishops who opposed the move to Bologna"
+    },
+    {
+      "name": "Girolamo Fracastoro",
+      "verdict": "NOT SCORED",
+      "part": "The council's physician; his sworn statement on the disease of 1547 (Pallavicino)"
+    },
+    {
+      "name": "Diego Laynez",
+      "verdict": "WHO",
+      "part": "Papal theologian from 1546; argued against a two-part view of justification (Waterworth); spoke on papal authority in 1562 (Sarpi)"
+    },
+    {
+      "name": "Alfonso Salmerón",
+      "verdict": "WHO",
+      "part": "Papal theologian from 1546"
+    },
+    {
+      "name": "Ignatius of Loyola",
+      "id": "ignatius-of-loyola",
+      "verdict": "WHO",
+      "part": "Not present; sent written instructions to his men going to Trent in 1546"
+    },
+    {
+      "name": "Maurice, elector of Saxony",
+      "verdict": "NOT SCORED",
+      "part": "Not present; sent envoys in 1552 with his terms (Sarpi, Waterworth)"
+    },
+    {
+      "name": "Leonhard Badehorn",
+      "verdict": "NOT SCORED",
+      "part": "Spoke for the Saxon envoys on 24 January 1552 (Sarpi)"
+    },
+    {
+      "name": "Charles V",
+      "verdict": "NOT SCORED",
+      "part": "Emperor; pressed for a council and promised the Protestants his mediation (Paul III's bull)"
+    },
+    {
+      "name": "Pius IV",
+      "verdict": "STORY",
+      "part": "Recalled the council in 1560; confirmed its decrees in 1564; issued the Profession of Faith"
+    },
+    {
+      "name": "Ercole Gonzaga, cardinal of Mantua",
+      "verdict": "NOT SCORED",
+      "part": "First legate in 1562; in the residence dispute said most fathers wanted a declaration (Sarpi)"
+    },
+    {
+      "name": "Ludovico Simonetta",
+      "verdict": "NOT SCORED",
+      "part": "Legate; held residence to be of positive law (Sarpi); asked the pope's confirmation in 1564"
+    },
+    {
+      "name": "Giovanni Morone",
+      "verdict": "NOT SCORED",
+      "part": "First legate at the close; dismissed the fathers with 'go in peace'; asked the pope's confirmation"
+    },
+    {
+      "name": "Charles, cardinal of Lorraine",
+      "verdict": "NOT SCORED",
+      "part": "Composed and led the closing acclamations"
+    },
+    {
+      "name": "Pedro Guerrero, archbishop of Granada",
+      "verdict": "NOT SCORED",
+      "part": "Protested 'the Legates proposing' in 1562; would not ask the pope's confirmation (Pallavicino, Waterworth)"
+    },
+    {
+      "name": "Count of Luna",
+      "verdict": "NOT SCORED",
+      "part": "Spanish ambassador; would sign only with his king's consent reserved"
+    },
+    {
+      "name": "Angelo Massarelli",
+      "verdict": "NOT SCORED",
+      "part": "Secretary of the council; certified the count of signers"
+    },
+    {
+      "name": "Gabriele Paleotti (Paleotto)",
+      "verdict": "NOT SCORED",
+      "part": "Auditor; his eyewitness words on the close reach us only in Waterworth's footnote"
+    },
+    {
+      "name": "Servanzio",
+      "verdict": "NOT SCORED",
+      "part": "Diarist at the council; his words on the close reach us only in Waterworth's footnote"
+    },
+    {
+      "name": "Charles Borromeo",
+      "verdict": "WHO",
+      "part": "In Rome, oversaw the council's business for Pius IV; carried its decrees into Milan (Giussano)"
+    },
+    {
+      "name": "Pius V",
+      "verdict": "STORY",
+      "part": "Had the Roman Catechism revised and printed, 1566"
+    },
+    {
+      "name": "Abdisho IV, patriarch",
+      "verdict": "STORY",
+      "part": "Not present; swore at Rome to teach what Trent would settle; his profession was read in 1562"
+    },
+    {
+      "name": "Marcantonio Amulio, cardinal",
+      "verdict": "NOT SCORED",
+      "part": "Sent Abdisho's profession to the legates; urged prompt confirmation, by Sarpi's account"
+    },
+    {
+      "name": "John Calvin",
+      "id": "john-calvin",
+      "verdict": "WHO",
+      "part": "Refused; called the pope Antichrist and wrote against the decrees"
+    },
+    {
+      "name": "John Jewel",
+      "verdict": "WHO",
+      "part": "Refused for England; called it 'a conspiracy and not a council' in 1562"
+    }
+  ],
+  "briefLength": "about 2 minutes 30 seconds",
+  "uncertain": [
+    "The acts are held in Waterworth's English and in Latin, but the room's arguments and votes reach us through two opposed histories. Sarpi wrote against the papal court; Pallavicino, a Jesuit, wrote to refute him. Waterworth, a Catholic, follows Pallavicino.",
+    "The eyewitness diaries are not held. Paleotto's and Servanzio's words on the close reach us only in Waterworth's footnote; Pallavicino cites them elsewhere.",
+    "The opening count. Sarpi says 'in number 25' with the legates, and it is unclear whether his figure counts them. Pallavicino counts four archbishops and twenty bishops, Le Plat twenty-two bishops.",
+    "Bologna, 1547. The acts call the disease 'notoriously certain'. Sarpi says del Monte 'suborned some to ask the Physicians' whether it was contagious. Pallavicino says Sarpi asserts a papal order 'without any proof', and cites Fracastoro's sworn word.",
+    "The vote on the move. Sarpi says thirty-five bishops and three generals agreed, against Pacheco and seventeen others. Pallavicino counts thirty-eight for and fourteen against, of fifty-six.",
+    "Residence by divine right, 20 April 1562. Sarpi counts 68 for and 33 against, with 30 who deferred to the pope. Pallavicino counts 38 or 37 against and 34 between, so most would not define without the pope. He quotes the secretary's tally of 66, later 67, for.",
+    "The closing vote. Sarpi says the fathers answered 'not one by one, but altogether'. Pallavicino and Waterworth say the archbishop of Granada alone would not ask confirmation. Pallavicino adds three bishops who asked it 'as necessary'.",
+    "The confirmation. The acts say Pius IV confirmed with the cardinals' 'advice and assent', and Pallavicino says by common consent. Sarpi says most of eight cardinals first wanted the decrees moderated, and that Amulio urged confirming at once.",
+    "Lorraine and the acclamations. Sarpi calls his leading them 'a lightness and vanity not beseeming such a Prelate'. Pallavicino says he composed them 'in the manner of the ancient councils', granting the pope a supremacy the French had disputed.",
+    "The proposing formula of 1562. Waterworth says Granada and Orense protested and Leon and Almería agreed on a condition. Sarpi says all four contradicted.",
+    "Abdisho's dates. Amulio's letter of August 1562 says he came to Rome 'the year before'. His profession is dated 7 March 1562; Sarpi gives 17 March.",
+    "The Lutheran envoys of 1552 reach us only through Sarpi and Waterworth. Their own confessions handed in at Trent are not among our sources.",
+    "No held line gives the year Sarpi or Pallavicino wrote."
+  ],
+  "sources": {
+    "fromTheCouncil": [
+      {
+        "title": "The Canons and Decrees of the Council of Trent: the acts, with Le Plat's lists",
+        "author": "tr. J. Waterworth",
+        "language": "English",
+        "file": "cic/texts/council-of-trent_canons-and-decrees_waterworth1848.txt"
+      },
+      {
+        "title": "Sacrorum conciliorum collectio, tomus 35: additions to the Council of Trent, with 'Laetare Jerusalem'",
+        "author": "ed. J. D. Mansi",
+        "language": "Latin",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt"
+      },
+      {
+        "title": "Quellen zur Geschichte des Papsttums: the decrees of Trent, 'Benedictus Deus' and 'Iniunctum nobis'",
+        "author": "ed. Carl Mirbt",
+        "language": "Latin",
+        "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt"
+      },
+      {
+        "title": "The Creeds of Christendom II: the canons and decrees of Trent and the Profession of the Tridentine Faith",
+        "author": "ed. Philip Schaff",
+        "language": "Latin and English",
+        "file": "cic/texts/schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt"
+      },
+      {
+        "title": "Magnum Bullarium Romanum II: the confirmation of the council and the form of the profession",
+        "author": "ed. Cherubini",
+        "language": "Latin",
+        "file": "cic/texts/bullarium-romanum_magnum-bullarium-tomus2-pius-iv-to-innocent-ix-lat_cherubini.txt"
+      },
+      {
+        "title": "A Profession of Catholick Faith",
+        "author": "Pius IV",
+        "language": "English",
+        "file": "cic/texts/pius-iv_profession-of-catholick-faith_anon1734.txt"
+      },
+      {
+        "title": "Approbatio et professio of the Patriarch of the Eastern Assyrians, with Cardinal Amulio's letter",
+        "author": "Abdisho IV; Marcantonio Amulio",
+        "language": "Latin",
+        "file": "cic/texts/abdisho-iv_approbatio-et-professio-fidei-concilio-tridentino-lat_1562.txt"
+      }
+    ],
+    "fromThoseThere": [
+      {
+        "title": "Letters of John Calvin I",
+        "author": "John Calvin, ed. Jules Bonnet",
+        "language": "English",
+        "file": "cic/texts/calvin_letters-vol1_bonnet1858.txt"
+      },
+      {
+        "title": "Letters of John Calvin II",
+        "author": "John Calvin, ed. Jules Bonnet",
+        "language": "English",
+        "file": "cic/texts/calvin_letters-vol2_bonnet1858.txt"
+      },
+      {
+        "title": "The Apology of the Church of England",
+        "author": "John Jewel, tr. Anne Bacon",
+        "language": "English",
+        "file": "cic/texts/jewel_apology-of-the-church-of-england_bacon-morley1888.txt"
+      },
+      {
+        "title": "Apologia Ecclesiae Anglicanae, with the letter on the Council of Trent",
+        "author": "John Jewel",
+        "language": "Latin",
+        "file": "cic/texts/jewel_apologia-ecclesiae-anglicanae-lat_1838.txt"
+      },
+      {
+        "title": "Letters and Instructions of St Ignatius Loyola I",
+        "author": "Ignatius of Loyola",
+        "language": "English",
+        "file": "cic/texts/ignatius-loyola_letters-instructions-v1_oleary-goodier1914.txt"
+      }
+    ],
+    "writtenLater": [
+      {
+        "title": "The History of the Council of Trent",
+        "author": "Paolo Sarpi, tr. Brent",
+        "language": "English",
+        "file": "cic/texts/sarpi_history-of-the-council-of-trent_brent1676.txt"
+      },
+      {
+        "title": "Istoria del Concilio di Trento, parte prima",
+        "author": "Sforza Pallavicino",
+        "language": "Italian",
+        "file": "cic/texts/pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt"
+      },
+      {
+        "title": "Istoria del Concilio di Trento, parte seconda",
+        "author": "Sforza Pallavicino",
+        "language": "Italian",
+        "file": "cic/texts/pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt"
+      },
+      {
+        "title": "Istoria del Concilio di Trento, tomo III",
+        "author": "Sforza Pallavicino",
+        "language": "Italian",
+        "file": "cic/texts/pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846.txt"
+      },
+      {
+        "title": "The Canons and Decrees of the Council of Trent: historical essays",
+        "author": "J. Waterworth",
+        "language": "English",
+        "file": "cic/texts/council-of-trent_canons-and-decrees_waterworth1848.txt"
+      },
+      {
+        "title": "The Life of St Charles Borromeo I",
+        "author": "G. P. Giussano",
+        "language": "English",
+        "file": "cic/texts/giussano_life-of-st-charles-borromeo-v1_1884.txt"
+      },
+      {
+        "title": "The Catechism of the Council of Trent: introduction",
+        "author": "J. A. McHugh and C. J. Callan",
+        "language": "English",
+        "file": "cic/texts/council-of-trent_roman-catechism_mchugh-callan1923.txt"
+      }
+    ]
+  }
+}

@@ -1,0 +1,750 @@
+{
+  "claims": [
+    {
+      "claim": "The legate Morone's party reached Augsburg on the eve of the Annunciation (24 March 1555)",
+      "witness": "polanco_chronicon-v5-lat_1897.txt l.15369-15370",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "The King of the Romans, the Cardinal of Augsburg and other bishops and princes received them and came out almost a league to meet the legate",
+      "witness": "polanco_chronicon-v5-lat_1897.txt l.15370-15372",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Word that Julius was dying reached Augsburg on the 27th, and news of his death on the 29th (the file reads 'Julius II', sic)",
+      "witness": "polanco_chronicon-v5-lat_1897.txt l.15372-15374",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Morone left for Rome on the last day of March, with the Cardinal of Augsburg",
+      "witness": "polanco_chronicon-v5-lat_1897.txt l.15374-15376; sarpi_history-of-the-council-of-trent_brent1676.txt l.38150-38151",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Sarpi says Morone received word of Julius's death 'eight days after' arriving",
+      "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.38148-38150",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Julius III died on 23 March 1555",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.26393-26395; council-of-trent_canons-and-decrees_waterworth1848.txt l.6883-6884",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Polanco is the secretary of the Society of Jesus, writing its chronicle for 1555",
+      "witness": "polanco_chronicon-v5-lat_1897.txt l.1-4",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Julius III sent Morone only 'con ripugnanza estrema' (OCR 'edrema'), since religion was to be handled in an assembly mixed of churchmen and laymen, Catholics and heretics; 'alla qual mostruosità non pareua conueneuole spettatore vn Legato' (OCR 'moftruofità', 'conue-|neuolc fpettatore')",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.26375-26380",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Pallavicino was a Jesuit ('della Compagnia di Gesù'); the held edition is his revised one of 1664, the first having appeared in 1656-1657",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.1-4",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Pallavicino's history was written to refute Sarpi's ('un'istoria falsa ... sotto nome di Pietro Soave Polano')",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.1",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Sarpi was a Venetian friar ('Father Paul the Venetian, of the Order'; 'Fryer Paul')",
+      "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.679; sarpi_history-of-the-council-of-trent_brent1676.txt l.1137",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "No Lutheran participant's own account of the 1555 Diet is held",
+      "witness": "see absent_details",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "This Diet met in 1555, twenty-five years after the Augsburg Confession was read at the Diet of 1530; the recess protects that confession without naming a year or edition",
+      "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16247-16248; mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16272-16274; bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt l.31286",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Sarpi says the emperor 'had intimated' the Diet 'principally to compose the Controversies of Religion', which was 'the Fountain of all the troubles, and calamities of Germany' (long s normalized)",
+      "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.38057-38063",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Sarpi says Ferdinand began the Diet in the emperor's name on 5 February",
+      "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.38065-38067",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "The Monumenta editors say the Augsburg assembly of 1555 began on 5 February and closed in September",
+      "witness": "salmeron_epistolae-v2-lat_1906.txt l.8513-8514",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Ferdinand's opening, in Sarpi: a general, free and pious council was once thought the only remedy; why it bore no fruit was known to all; a national council was out of use",
+      "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.38084-38096",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Ferdinand, in Sarpi: colloquies did no good because both parties aimed at private gain; yet he counselled trying one once more if the Diet did not propose a better way",
+      "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.38097-38104",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "The proposal also concerned peace and war with the Turks, and was meant to invite men to the Diet, 'to which very few were come'",
+      "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.38106-38109",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "The recess says the peace was made 'der spaltigen religion halben' as the high need of the empire required",
+      "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16266-16268",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "The recess says the peace was granted to save 'diese lobliche nation vor endlichem vorsteendem undergang' (OCR 'lobhche')",
+      "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16323-16324",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Julius III's two conditions: great lords in person, not proxies; and nothing settled against the authority of the Church, the Fathers and the councils, above all against Trent's decisions",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.26380-26388",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Sarpi says the legate was instructed 'above all, to divert all Colloquies, and Treaties of Religion'",
+      "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.38147-38148",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Sarpi says Julius cursed the colloquies and their inventors, and complained he would always have 'a Council, a Colloquy, or a Diet' on his back",
+      "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.38114-38118",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Polanco reports Canisius: all Catholics thought it would have been far wiser never to have begun the Diet, and feared its end would be a great harm to faith and church jurisdiction",
+      "witness": "polanco_chronicon-v5-lat_1897.txt l.14914-14918",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Sarpi says those of the Augsburg Confession claimed it was lawful for all to accept their doctrine, keeping the honors, states and offices they held (OCR has lost part of 'Offices')",
+      "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.38426-38429",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Pallavicino says the Protestant princes of Saxony, Brandenburg and Hesse met at Naumburg 'quasi in una Contradieta' and wrote to Ferdinand of confirming their hereditary league",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27427-27433",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "The 1648 treaty names 'Transactio a. 1552 Passavii inita et hanc a. 1555 secuta pax religionis'",
+      "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.21625-21626",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Pallavicino's article: seizures of church goods were left to the Concord of Passau and suspended until a future diet",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27462-27465",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Charles V called the Diet; Ferdinand opened it 'in the Emperours name'",
+      "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.38057-38067",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Pallavicino says Charles answered 'in secca forma' that sickness and war kept him from German affairs, 'Onde à esso Ferdinando ne rimettea la dispositione'",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27419-27423",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Ferdinand was Charles's brother: Pallavicino has the emperor and 'il Rè suo fratello' (OCR 'lùo'); Sarpi's 'Imperial Authority of his Brother' reads 'of - us Brother' in the OCR",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.9428-9430; sarpi_history-of-the-council-of-trent_brent1676.txt l.38468-38469",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "The recess speaks as 'we' beside 'der Röm. Kai. Mt' (OCR 'Köm.'); Mirbt's extract does not name the speaker",
+      "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16270-16271; mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16325-16326",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "No list or count of those present is held; Sarpi's 'very few were come' is the only size statement",
+      "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.38108-38109",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Polanco places the King of the Romans at Augsburg ('qui tunc Augustae agebat')",
+      "witness": "polanco_chronicon-v5-lat_1897.txt l.13600-13601",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Salmerón had an audience with the King of the Romans at Augsburg, reported in his letter of 1 September 1555",
+      "witness": "salmeron_epistolae-v2-lat_1906.txt l.8431-8461",
+      "witness_kind": "participant",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Nadal was sent with the legate Morone to the Diet of Augsburg in February 1555, and Lainez joined them at Florence",
+      "witness": "polanco_chronicon-v5-lat_1897.txt l.15312-15313; polanco_chronicon-v5-lat_1897.txt l.15363-15364; lainez_epistolae-et-acta-v1-lat_1912.txt l.386-387",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Lainez left Augsburg on 2 April",
+      "witness": "polanco_chronicon-v5-lat_1897.txt l.15382-15383",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Nadal wrote from Augsburg on 30 March, 6 April and 17 April 1555",
+      "witness": "nadal_epistolae-v1-lat_1898.txt l.16761; nadal_epistolae-v1-lat_1898.txt l.17202; nadal_epistolae-v1-lat_1898.txt l.17228",
+      "witness_kind": "participant",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "The Cardinal of Augsburg is Otto Truchsess, by the Monumenta editors' note",
+      "witness": "polanco_chronicon-v5-lat_1897.txt l.1457",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Pallavicino: the nuncio Delfino, on Paul IV's election, asked for a successor and was told to commend his business to Luigi Lippomano, bishop of Verona, who was going as nuncio to Poland",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27379-27395",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Lippomano gave Ferdinand 'vna ponderosa scrittura' (OCR 'pende rofa_» fcrittufa') arguing questions of faith have no tribunal but the Apostolic See, then went on to Poland rather than stay a 'spettatore poco onorato'",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27399-27406",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Salmerón reached Augsburg on 20 August 1555 with the nuncio of Verona",
+      "witness": "salmeron_epistolae-v2-lat_1906.txt l.8448-8450",
+      "witness_kind": "participant",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "The Monumenta editors say Salmerón's party left Augsburg on 7 September",
+      "witness": "salmeron_epistolae-v2-lat_1906.txt l.8528",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Canisius was at Augsburg most of June (after the 9th) and from the last days of July to 5 August, by the editors' dating after Braunsberger",
+      "witness": "polanco_chronicon-v5-lat_1897.txt l.14815-14817",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Dominant Modern Reconstruction"
+    },
+    {
+      "claim": "Canisius preached twice at Augsburg and blocked a public disputation that seemed full of danger",
+      "witness": "polanco_chronicon-v5-lat_1897.txt l.14856-14860",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Nadal and Lainez met the bishop of Laibach and Pedro de Soto, 'olim Imperatoris Caroli confessario'; Soto left the Diet called by Philip, king of England",
+      "witness": "polanco_chronicon-v5-lat_1897.txt l.15384-15388; polanco_chronicon-v5-lat_1897.txt l.15423-15424",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "The 1648 treaty says the 1555 peace was made with the unanimous consent of the emperor, electors, princes and estates of both religions",
+      "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.21625-21627",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Ferdinand's defence in Pallavicino: he had only approved what 'Cattolici ed Eretici, Ecclesiastici e Secolari' had agreed together (OCR 'vintamente', 'Ecclefiaftici')",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27440-27442",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "No held line names a Protestant prince or envoy present at Augsburg in 1555",
+      "witness": "see absent_details",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "The recess is dated 25 September 1555",
+      "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16247-16248; sarpi_history-of-the-council-of-trent_brent1676.txt l.38443-38444; polanco_chronicon-v5-lat_1897.txt l.2541-2542",
+      "witness_kind": "acts",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Pallavicino says the recess came out 'in sù lo spirar di Settembre'",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27564",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Paul IV's two letters are dated 18 December 1555",
+      "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16342; mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16351",
+      "witness_kind": "participant",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Paul IV was elected on 23 May 1555",
+      "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.6890-6891",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "§15: no estate of the empire to be attacked, harmed or forced on account of the Augsburg Confession 'wider sein conscienz, gewissen und willen'",
+      "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16271-16279",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "§15: the protection covers the religion and order set up or to be set up 'in iren fürstentumben, lan-|den und herschaften', with goods and lordships",
+      "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16277-16284",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "§15: the disputed religion to be brought to agreement only 'durch christliche, freuntlihe [sic OCR], friedliche mittel und wege'",
+      "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16284-16286",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "§16: the estates of the Augsburg Confession to leave the estates 'der alten religion anhengig, geistlich oder weltlich' untroubled in their religion",
+      "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16286-16290",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "§17: 'Doch sollen alle andere, so obgemelten beden religionen nit anhengig, in diesem frieden nit gemeint sondern genzlich ausgeschlossen sein' (the OCR runs 'bedenreligionennit' together and reads 'ssin'); the clause names no group",
+      "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16290-16292",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "§18, headed by Mirbt '(Reservatum ecclesiasticum)': a churchman who leaves 'unser alten religion' gives up his see and its income at once, 'jedoch seinen eren onnachteilig'; the chapter may choose 'eine person der alten religion verwant'",
+      "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16292-16301",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "§19, in Mirbt's summary only: church goods seized by the Protestant estates stay with them",
+      "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16301-16302",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "§20: church jurisdiction not exercised against the Augsburg Confession's religion, ministries and ceremonies, and to 'ruhen, eingestelt und suspendirt sein' 'bis zu entlicher vergleichung der religion' (OCR 'entlieher')",
+      "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16302-16316",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "§24: subjects of either religion may move 'mit iren weib und kindern', sell their goods against a fair release from serfdom and departure tax, 'unverhindert menniklichs', without loss of honor",
+      "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16316-16323",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "§25: if agreement through general council, national assembly, colloquies or imperial negotiations fails, the peace still stands, 'ein bestendiger beharrlicher und unbedingter, für und für, ewig werender friet'",
+      "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16323-16332",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "§106: the Kammergericht's judge and assessors may be presented 'von beyden der alten Religion und der Augspurgischen Confession'",
+      "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16332-16336",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Pallavicino's article: the concord holds also among the nobility directly subject to the emperor and in imperial cities where both religions had been in force, so that both live together peaceably",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27483-27486",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Sarpi: the Catholics would not let bishops or abbots change religion and keep their posts, nor let the cities that had received the Interim return to the Augsburg Confession",
+      "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.38429-38437",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Sarpi: 'The Catholicks were content that the Cities should do as they pleased, and the Protestants gave over their pretence concerning the Ecclesiasticks' (long s normalized; 'the;Proteſtants', 'prerence' in OCR)",
+      "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.38440-38443",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Pallavicino's article on oaths 'per Dio, e per l'Euangelio', so that Protestants are not forced 'à giurar pe' Santi'",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27491-27503",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Pallavicino's article: no estate may draw another's lord or subject to its religion, nor protect vassals against their lord",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27452-27455",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Pallavicino: Ferdinand declared that the temporal subjects of church princes were not bound, like lay princes' subjects, to keep the prince's religion or change country",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27505-27507",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Sarpi tells a declaration by Ferdinand after the recess concerning places subject to church princes; the passage breaks off in the OCR",
+      "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.38467-38476",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Pallavicino: Ferdinand judged it best not to decide by which of the four proposed ways concord might be reached, and put it off to a future diet",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27406-27412",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Paul IV to Ferdinand, 18 Dec 1555: the popes had worked that the Augsburg assembly should break up with religion untouched rather than reach a recess 'tam perniciosum' (OCR 'perniciosura'), reached against his will, Ferdinand's and all Catholics'",
+      "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16346-16349",
+      "witness_kind": "participant",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Paul IV to Bishop Wolfgang of Passau, 18 Dec 1555: 'Nam quid alienius ab ea potuit deliberari [OCR 'dehberari'], quam quae in Augustae proximi conventus recessu decretum fuisse accepimus!' ('ea' is the Catholic faith of the sentence before)",
+      "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16355-16357",
+      "witness_kind": "participant",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Pallavicino: the pope 'fè perciò asprissime querele' with Ferdinand, set out by the nuncio Delfino, who returned from Rome early in 1556",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27564-27568",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Pallavicino: it seemed to Ferdinand that in the concessions harmful to Catholics plain necessity had kept him free of blame, and that where the choice was his he had shown the greatest zeal; he answered 'con maniere più risentite' than his mild nature usually allowed",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27568-27576",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Pallavicino: the pope's complaints were taken as reproaches because of his ill will toward the House of Austria",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27576-27582",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Pallavicino says Sarpi tells the wars of Paul IV and Philip 'senza dirne i veri principij'",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27583-27590",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Sarpi: 'The Fame was' that Cardinal Truchsess of Augsburg, 'displeased with the liberty granted to the Confessionists', moved the pope; what the pope said is partly on lost lines",
+      "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.38524-38526",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Pallavicino: Ferdinand's and Bavaria's subjects asked not to be under a harder condition than their neighbors; they were answered that by the recesses vassals must 'seguir la Religion de' Padroni, ò à partirsi'",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27523-27529",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Pallavicino's verdict: the recess proved the more harmful in the long run the more helpful it seemed then; the Germans slept on this 'oppio', and it cost Germany in another age 'vn lunghissimo trauaglio, con tante stragi e desolazioni'",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27509-27521",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Duke Christoph of Württemberg's mandate punishes Anabaptists, Schwenckfelders and others in honor, body and goods, 'dann sie auch in jungstem zuo Augspurg ufgeriebtem [sic OCR] religionsfridenstand und Freistellung mit nichten begriffen, sonder darvon usgesohlossen [sic OCR]'",
+      "witness": "taeuferakten-wuerttemberg_quellen-geschichte-wiedertaeufer-1-deu_bossert1930.txt l.9186-9187; taeuferakten-wuerttemberg_quellen-geschichte-wiedertaeufer-1-deu_bossert1930.txt l.9243-9245; taeuferakten-wuerttemberg_quellen-geschichte-wiedertaeufer-1-deu_bossert1930.txt l.9307-9310",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Bossert: the first draft dates from 1556, as the councillors' advice of 11 September 1556 shows; the printed copy carries Duke Christoph's additions; the draft was still debated early in 1557",
+      "witness": "taeuferakten-wuerttemberg_quellen-geschichte-wiedertaeufer-1-deu_bossert1930.txt l.9113; taeuferakten-wuerttemberg_quellen-geschichte-wiedertaeufer-1-deu_bossert1930.txt l.9320-9324",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "'Zwinglischer' was written above the line in Duke Christoph's own hand (Bossert's note a)",
+      "witness": "taeuferakten-wuerttemberg_quellen-geschichte-wiedertaeufer-1-deu_bossert1930.txt l.9244; taeuferakten-wuerttemberg_quellen-geschichte-wiedertaeufer-1-deu_bossert1930.txt l.9280",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "The Erläuterung says that at Worms in 1557 each Lutheran party wished to be the true kin of the Augsburg Confession and to shut the others out of the Religious Peace; the Catholics answered they must first settle who those were",
+      "witness": "schultz-christopher_erlaeuterung-fuer-caspar-schwenckfeld-deu_benner1830.txt l.12314-12350",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "The Erläuterung was written by Schwenckfelder emigrants from Silesia; the host catalogue names Christopher Schultz; first printed at Jauer in 1771",
+      "witness": "schultz-christopher_erlaeuterung-fuer-caspar-schwenckfeld-deu_benner1830.txt l.1-3",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Schaff: Frederick III 'was threatened with exclusion from the benefits of the Augsburg Treaty of Peace (concluded in 1555), since Zwinglianism and Calvinism were not yet tolerated on German soil'",
+      "witness": "schaff_second-helvetic-confession-heidelberg-catechism_1919.txt l.1819-1821",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Nadal, Canisius and Ledesma, 1566: reconfirming the peace did not prejudice Trent's dogmas; its conditions held 'nihil ... praeterquam permissionem, dissimulationem ecclesiasticae iurisdictionis, ac iuris etiam imperialis debiti suspensionem', yielding 'ad tempus' to hard necessity",
+      "witness": "nadal_epistolae-v3-lat_1902.txt l.5668-5684",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "The 1566 opinion: the Holy See 'ferre quidem dolenter' this, and does not approve all done in the recesses 'nec pacem hanc publice constitutam laudari'",
+      "witness": "nadal_epistolae-v3-lat_1902.txt l.5712-5719",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "The subscriptions of Nadal, Canisius and Ledesma on the 1566 opinion are autograph, by the editors' note",
+      "witness": "nadal_epistolae-v3-lat_1902.txt l.5703",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "At Trent in 1563 the archbishop of Prague, for the emperor, said a draft seemed to overturn 'tutti i recessi delle diete alemanne in materie ecclesiastiche, e perciò rimetter le spade in mano alle parti pacificate'",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846.txt l.43384-43395",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Lützow: 'The Peace of Augsburg contained no reference to Bohemia, but it greatly encouraged the Lutheran party in that country'",
+      "witness": "lutzow_bohemia-historical-sketch_1920.txt l.11500-11502",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "The 1609 Letter of Majesty, quoted by the Bohemian estates in 1618, leaves them 'při tom pokoji, v svaté říši a náboženství, jenž Religionsfried slově, učiněném'",
+      "witness": "bohemian-estates_apologie-druha-1618-ces_subert1862.txt l.18495-18498",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Westphalia: the 1555 peace 'rata habeatur sancteque et inviolabiliter servetur'",
+      "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.21625-21628",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Westphalia extends its rights also to those 'qui inter illos reformati vocantur'",
+      "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.21734-21742",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Westphalia: 'Praeter religiones super nominatas nulla alia in sacro imperio Romano recipiatur vel toleretur'",
+      "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.21747-21748",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Innocent X protested that 'Haereticis Augustanae, ut vocant, confessionis liberum suae haereseos exercitium' is allowed",
+      "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.21813-21815",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Kriebel says the Schwenckfelders 'later were practically outlawed by the Augsburg Confession, by the Truce of Nuremberg, by the Treaty of Augsburg and by the Treaty of Westphalia'",
+      "witness": "kriebel_schwenkfelders-in-pennsylvania_1904.txt l.1088-1090",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Seipt: the Peace of Augsburg (1555) 'granted to every ruling prince the right to enforce his religion upon his subjects, and to banish all who refused to conform'",
+      "witness": "seipt_schwenkfelder-hymnology_1909.txt l.2241-2243",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Schaeffer: 1555 was the year 'the signing of the articles of the Peace of Augsburg secured a temporary external repose for the Lutheran Church'",
+      "witness": "arndt_true-christianity_boehm-schaeffer1868.txt l.533-535",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Pallavicino: Ferdinand consented to grave losses for the Catholic religion 'non però à perpetuo, mà fin' alla concordia finale'",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27413-27415",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Sarpi's summary: 'every one having Power to [estab]lish in his own State what Religion he will, and to forbid the other' (OCR 'liſh')",
+      "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.38458-38459",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Sarpi: in the debate 'all inclined to the second proposition', to leave every one to his liberty, and it was resolved to let princes and states follow in their dominions what pleased them best",
+      "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.38401-38425",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Salmerón, 1 Sept 1555: Ferdinand would lose his states, life and children rather than favor the heretics, and would permit nothing in the Diet against the faith or the Catholics",
+      "witness": "salmeron_epistolae-v2-lat_1906.txt l.8455-8461; salmeron_epistolae-v2-lat_1906.txt l.8484-8485",
+      "witness_kind": "participant",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Nadal from Augsburg: 'non si fa niente della dieta, se non ch' guadagnano ogni giorno d' grosso li lutherani' (OCR 'deUa', 'U lutherani')",
+      "witness": "nadal_epistolae-v1-lat_1898.txt l.16972-16973",
+      "witness_kind": "participant",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Canisius to Ignatius, 3 August 1555, quoted from Braunsberger: more harm than good is to be feared from the Diet, 'et nonest qui se opponat murum pro domo. Israél'",
+      "witness": "polanco_chronicon-v5-lat_1897.txt l.14943-14946",
+      "witness_kind": "participant",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "The Hutterite chronicle has a count tell arrested Brethren in 1557: 'denn die Konfession zu Augsburg hat es also beschlossen'; it may refer to the 1530 confession, and is not told as about the peace",
+      "witness": "hutterite-brethren_geschicht-buch-deu_wolkan1923.txt l.21383-21385",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "The brief names Ferdinand as the one who met the legate; Polanco has the King of the Romans with the Cardinal of Augsburg and other bishops and princes",
+      "witness": "polanco_chronicon-v5-lat_1897.txt l.15370-15372",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    }
+  ],
+  "contested_claims": [
+    {
+      "claim": "Whether the peace let rulers choose their subjects' religion",
+      "sides": "The recess protects the estates' religion 'in iren fürstentumben, landen und herschaften' and gives subjects of both religions a right to leave: Mirbt's extract (mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16277-16279, 16316-16323) | Power 'to establish in his own State what Religion he will, and to forbid the other': Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.38458-38459) | A duty of vassals to 'seguir la Religion de' Padroni, ò à partirsi': Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27527-27529) | 'the right to enforce his religion upon his subjects, and to banish all who refused': Seipt (seipt_schwenkfelder-hymnology_1909.txt l.2241-2243) | Exceptions held: the imperial cities (Pallavicino pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27483-27486; Sarpi sarpi_history-of-the-council-of-trent_brent1676.txt l.38440-38442), church princes' subjects (Pallavicino pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27505-27507), the churchmen's clause (mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16294-16298)",
+      "formation_confidence": "Contested",
+      "note": "Told as rulers choosing for their lands, with stated exceptions. The phrase 'cuius regio, eius religio' is in no held text."
+    },
+    {
+      "claim": "Whether the peace was permanent or temporary",
+      "sides": "Until final agreement and, failing that, 'ewig werender': the recess (mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16326-16332) | 'non però à perpetuo, mà fin' alla concordia finale': Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27413-27415) | 'a temporary external repose for the Lutheran Church': Schaeffer (arndt_true-christianity_boehm-schaeffer1868.txt l.532-535) | a 'permissionem' yielding 'ad tempus': the 1566 Jesuits (nadal_epistolae-v3-lat_1902.txt l.5676-5681)",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Whether the peace was the first legal toleration",
+      "sides": "No held text says 'first' or 'toleration'; the recess says 'frieden' and 'fridstand' (mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16291, 16323) | Passau 1552 came before it: Westphalia (mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.21625-21626), Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27462-27464) | Kriebel names 'the Truce of Nuremberg' among earlier acts (kriebel_schwenkfelders-in-pennsylvania_1904.txt l.1089)",
+      "formation_confidence": "Contested",
+      "note": "The councils scan row's 'first legal toleration' is not told in the entry."
+    },
+    {
+      "claim": "Whether the Reformed (Calvinists) were left out by the 1555 recess",
+      "sides": "The recess names no one; it excludes 'alle andere' (mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16290-16292) | Later texts put Zwinglians outside: Duke Christoph's mandate (taeuferakten-wuerttemberg_quellen-geschichte-wiedertaeufer-1-deu_bossert1930.txt l.9244, 9280, 9307-9311); Schaff on Frederick III (schaff_second-helvetic-confession-heidelberg-catechism_1919.txt l.1819-1821); Westphalia's admission of the 'reformati' (mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.21739-21742)",
+      "formation_confidence": "Contested",
+      "note": "Only Schaff names Calvinism; no held 1555 text names Calvinists."
+    },
+    {
+      "claim": "Whether Ferdinand gave way or held firm",
+      "sides": "He would permit nothing against the faith: Salmerón, 1 Sept 1555 (salmeron_epistolae-v2-lat_1906.txt l.8455-8461) | He 'consentì à grauissimi detrimenti della Religion Cattolica' and pleaded necessity: Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27413, 27568-27574) | Cause: Charles's curt answer leaving it to Ferdinand, Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27419-27423); the debate where 'all inclined' to liberty, Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.38401-38404)",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Ferdinand's declaration on church princes' subjects: its terms and consent",
+      "sides": "Given without comment as Ferdinand's declaration: Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27505-27507) | Sarpi tells a declaration whose text breaks off in the OCR (sarpi_history-of-the-council-of-trent_brent1676.txt l.38467-38476)",
+      "formation_confidence": "Contested",
+      "note": "Sarpi's damaged phrase on consent is not quoted; no held text gives the declaration's date or form."
+    },
+    {
+      "claim": "Who counted as the Augsburg Confession",
+      "sides": "The recess names no edition (mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16272-16288) | At Worms in 1557 each Lutheran party claimed to be the true 'Augsburgischen Confessions-Verwandten', and the Catholics asked them first to settle who they were: the Erläuterung (schultz-christopher_erlaeuterung-fuer-caspar-schwenckfeld-deu_benner1830.txt l.12324-12350)",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "What moved Paul IV",
+      "sides": "'The Fame' that Cardinal Truchsess of Augsburg persuaded him: Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.38524-38526) | His ill will toward the House of Austria colored his complaints: Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27576-27582), who says Sarpi omits the true beginnings (pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27583-27590)",
+      "formation_confidence": "Contested"
+    }
+  ],
+  "absent_details": [
+    {
+      "detail": "The full recess",
+      "note": "Mirbt gives only §§15-18, 20, 24, 25 and 106, with §19 summarized (mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.16266-16336). The free-cities clause and Ferdinand's declaration reach us only through Pallavicino and Sarpi. Dossier searched all cic/texts for 'Declaratio Ferdinand', 'Ferdinandea', 'Nebenerkl', 'Nebendeklar' (only university names matched) and for 'Religionsfried', 'Religions-Fried', 'fridstand', 'friedstand', 'pax religionis', 'pace della religione', 'reservatum ecclesiast', 'recessu augustano', 'paix d'Augsbourg', 'Treaty/Peace/Pacification of Augsburg'."
+    },
+    {
+      "detail": "A list or count of those present",
+      "note": "No signature or member list found in Mirbt, Sarpi, Pallavicino, Polanco, Nadal or Salmerón (dossier searches for 'Fürsten', 'Stände', 'electors', 'princes' near the Diet). Sarpi's 'very few were come' is the only size statement (sarpi_history-of-the-council-of-trent_brent1676.txt l.38105-38106)."
+    },
+    {
+      "detail": "A Protestant prince or envoy named as present at Augsburg",
+      "note": "No held line names one; Pallavicino puts Saxony, Brandenburg and Hesse at Naumburg (pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27427-27430). Same files searched as for the member list."
+    },
+    {
+      "detail": "A Lutheran participant's own account of the Diet",
+      "note": "The held Melanchthon files are the 1530 confession and the Apology only. The Book of Concord (Jacobs 1911): grep for '1555|religious peace|peace of (religion|augsburg)|Passau|recess' gives only the 1530 Recess at l.11994. The Lutheran estates speak only in the joint recess and, a year on, in Duke Christoph's mandate."
+    },
+    {
+      "detail": "A Reformed voice from 1555",
+      "note": "Calvin's held letters (calvin_letters-vol1/2/4_bonnet1858.txt) skip 1555-1558 by year counts. Beza's Histoire t.1-3 has no 1555 Augsburg hit; its Augsbourg hits concern the confession."
+    },
+    {
+      "detail": "The phrase 'cuius regio, eius religio'",
+      "note": "In no held text. Dossier searched all cic/texts for 'cu[ij]us *-? *regio', 'eius|ejus *religio', 'ubi unus dominus'; the only hits are unrelated Latin (Acta Sanctorum, Aelred, Isidore). Not used in the entry."
+    },
+    {
+      "detail": "Canisius's and Ignatius's own 1555 letters",
+      "note": "Not held; Canisius's 1555 words come only through the Monumenta editors' quotations from Braunsberger (polanco_chronicon-v5-lat_1897.txt l.14943-14946; salmeron_epistolae-v2-lat_1906.txt l.8516-8520). Ignatius's held volumes are tomus 02, 03, 05, 06 and 22; his letter to Ferdinand of 24 July 1555 is only cited (salmeron_epistolae-v2-lat_1906.txt l.8522-8523)."
+    },
+    {
+      "detail": "The end of Sarpi's account of the declaration and the start of Paul IV's reaction",
+      "note": "Lost in the OCR, about sarpi_history-of-the-council-of-trent_brent1676.txt l.38477-38501. Sarpi's damaged phrase on 'consent' is not quoted."
+    },
+    {
+      "detail": "Charles V's own words to Ferdinand",
+      "note": "Only in Pallavicino's paraphrase (pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.27419-27423)."
+    },
+    {
+      "detail": "Waterworth, Anderson's French documents, Foxe v4/v7/v8, Morland on the 1555 Diet",
+      "note": "No hit. Waterworth searched for '1555|Ferdinand|Augsburgh|Diet': hits at council-of-trent_canons-and-decrees_waterworth1848.txt l.6866-6930 pass from Passau to the popes of 1555 with no word on the Diet."
+    },
+    {
+      "detail": "An Augsburg place id in the census",
+      "note": "No census row carries an Augsburg (or Bavaria, Swabia) place id; searched the origin/main world-census.json for 'place' values containing Augsburg, Bavaria and Swabia. modernCountries gives Germany only."
+    }
+  ]
+}
