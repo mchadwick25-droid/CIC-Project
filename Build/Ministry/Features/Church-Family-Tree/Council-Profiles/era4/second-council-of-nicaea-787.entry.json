@@ -28,15 +28,15 @@
   "knownFor": "The council that ended the first ban on images and taught that the honor paid to an image passes to the one it shows, and that Charlemagne's bishops refused.",
   "datesNote": "787, the year Henry Percival gives. Theophanes puts the first session in the church of Holy Wisdom at Nicaea on 11 October and a last reading of the decree at the Magnaura palace in Constantinople in November; Louis Duchesne gives eight sessions from 25 September to 22 October. The broken meeting at the Holy Apostles fell in August of the ninth indiction, on the 17th in Jacques Goar's Latin of Theophanes and the 7th in Anastasius the Librarian's",
   "issue": [
-    "In 754 a council of 338 bishops at Hieria, called by Constantine V, had banned images (its decree; Theophanes). Its decree survives only in the acts of 787, read out in Session VI to be answered, and is held as Percival's English summary drawn mostly from Hefele.",
+    "In 754 a council of 338 bishops at Hieria, called by Constantine V, had banned images (its decree; Theophanes). Its decree survives only in the acts of 787, read out in Session VI to be answered, and survives here only in Percival's English summary, drawn mostly from Hefele.",
     "The ban's case, in that summary: whoever makes an image of Christ \"either depicts the Godhead which cannot be depicted, and mingles it with the manhood (like the Monophysites), or he represents the body of Christ as not made divine and separate and as a person apart, like the Nestorians\"; and \"The only admissible figure of the humanity of Christ, however, is bread and wine in the holy Supper.\"",
     "The case for images, in the decree of 787: images are to be set up and given \"due salutation and honourable reverence\", not the worship due to the divine nature alone, \"For the honour which is paid to the image passes on to that which the image represents\".",
     "The emperors' letter says Tarasius accepted the patriarchate only on condition of a council with envoys from Rome and from the East, since the Christians of the East \"decline communion with us\"."
   ],
-  "calledBy": "The empress Irene and her son Constantine VI. The decree says the council met \"by the will of the pious and Christ-loving Emperors, Constantine and Irene, his mother\"; their letter to Hadrian I asks him to come or send envoys. After the meeting at Constantinople was broken up, Theophanes says, Irene called the bishops to Nicaea. Tarasius led the council; the synodal letter is in his name",
+  "calledBy": "The empress Irene and her son Constantine VI. The decree says the council met \"by the will of the pious and Christ-loving Emperors, Constantine and Irene, his mother\"; their letter to Hadrian I asks him to come or send envoys. After the meeting at Constantinople was broken up, Theophanes says, Irene called the bishops to Nicaea. Tarasius led the council and the synodal letter is in his name, though Percival, after Michaud, doubts that he presided",
   "attended": [
     "The Book of the Popes gives about 350 bishops (\"iuxta trecentorum quinquaginta\"), and Michael the Monk's Life of Theodore the Studite about 350, among them Plato, Theodore's uncle. Percival, and Edward Gibbon as he quotes him, give 350. Theophanes gives no number.",
-    "No list of signatures is held; Percival notes that the subscriptions close the acts of Session VII, which his extracts leave out.",
+    "No list of signatures is given in the extracts; Percival notes that the subscriptions close the acts of Session VII, which his extracts leave out.",
     "Hadrian I sent the archpriest Peter and Peter, priest and abbot of Saint Sabas in Rome. For the East came John, monk and syncellus of the see of Antioch, and Thomas, priest and abbot. Theodore the Studite later wrote, as Percival quotes him through John Mason Neale, that the Eastern envoys were brought by Constantinople's own deputies, not sent by their patriarchs.",
     "Monks sat and spoke, among them Sabbas, abbot of the Studium."
   ],
@@ -59,7 +59,7 @@
     {
       "witness": "The acts of the Seventh Council in English extracts: the emperors' letters, Sessions I to IV and VI, the decree, the canons and the synodal letter, with Henry Percival's notes (Nicene and Post-Nicene Fathers, series 2, vol. 14)",
       "kind": "acts",
-      "note": "The record of the side that won. The full acts (Mansi, tomus 12-13) are not held. Percival holds the council ecumenical and argues for it."
+      "note": "The record of the side that won. The full acts, in Mansi's tomus 12-13, are not among our sources. Percival holds the council ecumenical and argues for it."
     },
     {
       "witness": "The decree of Hieria (754), in Percival's summary drawn mostly from Hefele",
@@ -82,14 +82,19 @@
       "note": "Roman; gives about 350 bishops and the Latin translation of the acts."
     },
     {
-      "witness": "The capitulary of the synod of Frankfurt (794), in Alfred Boretius's edition, and the Frankish royal annals",
+      "witness": "The capitulary of the synod of Frankfurt (794), in Alfred Boretius's edition",
       "kind": "acts",
       "note": "The council that rejected Nicaea; Frankish."
     },
     {
+      "witness": "The Frankish royal annals (Annales regni Francorum)",
+      "kind": "later narrative",
+      "note": "Frankish court annals; call the Greek synod false and say it was rejected at Frankfurt."
+    },
+    {
       "witness": "The bishops at Paris (825), report to Louis the Pious (Mansi, tomus 14)",
       "kind": "later narrative",
-      "note": "Frankish; on Charlemagne's chapters and Hadrian's reply, neither held."
+      "note": "Frankish; on Charlemagne's chapters and Hadrian's reply, neither of which survives in our sources."
     },
     {
       "witness": "Michael the Monk, Life of Theodore the Studite (Migne, PG 99)",
@@ -99,7 +104,7 @@
     {
       "witness": "Life of the patriarch Methodius (Migne, PG 100)",
       "kind": "later narrative",
-      "note": "On the restoration of 843."
+      "note": "For the images; on the restoration of 843."
     },
     {
       "witness": "Louis Duchesne, commentary on the Book of the Popes",
@@ -171,6 +176,16 @@
       "part": "Not at Nicaea; at Frankfurt in 794, by Boretius's note, as an envoy from Britain"
     },
     {
+      "name": "Theophanes the Confessor",
+      "verdict": "WHO",
+      "part": "Not present at Nicaea; chronicler of the broken meeting of the year before and of the council"
+    },
+    {
+      "name": "Theodore the Studite",
+      "verdict": "WHO",
+      "part": "Not present; his uncle Plato attended; later doubted, then accepted, the council's standing"
+    },
+    {
       "name": "Photius of Constantinople",
       "id": "photius-of-constantinople",
       "verdict": "WHO",
@@ -199,12 +214,12 @@
   ],
   "briefLength": "about 2 minutes 30 seconds",
   "uncertain": [
-    "The full acts and the list of signatures are not held; the profile rests on Percival's English extracts, the winners' record. The Hieria decree survives only inside them, in a summary drawn mostly from Hefele.",
+    "The full acts and the list of signatures are not among our sources; we draw on Percival's English extracts, the winners' record. The Hieria decree survives only inside them, in a summary drawn mostly from Hefele.",
     "The count: about 350, in the Book of the Popes and the Life of Theodore the Studite; Theophanes gives none.",
-    "The dates: Theophanes gives 11 October for the first session; Duchesne gives eight sessions from 25 September to 22 October. The broken meeting is dated 17 August in Goar's Latin of Theophanes and 7 August in Anastasius's.",
+    "The dates: Theophanes gives 11 October for the first session; the editor's note in Migne's Theodore the Studite gives 24 September; Duchesne gives eight sessions from 25 September to 22 October, and W. M. Sinclair, as Percival quotes him, seven. The broken meeting is dated 17 August in Goar's Latin of Theophanes and 7 August in Anastasius's.",
     "Whether the Eastern envoys were sent by their patriarchs: the acts say they brought letters from the East; Theodore the Studite later wrote, as Percival quotes him, that they were not, and afterwards changed his view.",
-    "Whether the Franks misread the council: Frankfurt held that it demanded adoration of images as of the Trinity; Hefele and Boretius say the Franks judged wrongly, through a bad translation, in Hefele's view; the bishops at Paris in 825 still rejected adoring images.",
-    "Who wrote the Frankish books against the council (the Caroline Books): Percival inclines to Alcuin; Froben, Alcuin's editor, denies it. The books are not held."
+    "Whether the Franks misread the council: Frankfurt held that it demanded adoration of images as of the Trinity; Hefele, followed by Boretius, says the Franks judged wrongly, through a bad translation; the bishops at Paris in 825 still rejected adoring images.",
+    "Who wrote the Frankish books against the council (the Caroline Books): Percival inclines to Alcuin; Froben, Alcuin's editor, denies it. The books are not among our sources."
   ],
   "sources": {
     "fromTheCouncil": [

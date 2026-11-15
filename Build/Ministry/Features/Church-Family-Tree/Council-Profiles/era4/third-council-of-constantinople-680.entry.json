@@ -37,7 +37,7 @@
   "calledBy": "The emperor Constantine IV. His letter to Pope Donus, which Agatho received after Donus died, asked Rome for envoys and bishops and said he wished to compel no one (the acts, in Mansi). The definition says the council met by his decree, and he presided in person (the acts; Percival)",
   "attended": [
     "The Book of the Popes gives 150 bishops of the East with the papal envoys, as does Paul the Deacon after it. Theophanes gives 289, and so does Eutychius of Alexandria, a Melkite chronicler, by his own sum. Michael the Syrian gives 250, with Agatho's envoys.",
-    "Henry Percival says the number present was under three hundred and that the minutes of the last session have only 174 signatures. No count of the held list was made for this profile.",
+    "Henry Percival says the number present was under three hundred and that the minutes of the last session have only 174 signatures.",
     "The acts of Session I name the Roman envoys, the priests Theodore and George and the deacon John; George of Constantinople; Peter, holding the place of Alexandria; Macarius of Antioch; George, for the vicar of Jerusalem; three bishops for the Roman synod; and Theodore for Ravenna. The emperor sat in the middle, the Roman envoys on his left and the patriarchs of Constantinople and Antioch on his right (Percival).",
     "Before the council, a Roman synod of 125 bishops wrote to the emperors; Wilfrid of Ripon signed its letter for the synod of Britain (Mansi), and at Hatfield the English bishops confirmed their faith before John, archchanter of Saint Peter's (Bede IV.17)."
   ],
@@ -53,14 +53,14 @@
     "Macarius and his followers were exiled to Rome (the Book of the Popes); Michael the Syrian says he stayed there a prisoner to the end of his life.",
     "In Spain, the fourteenth council of Toledo, in the fifth year of King Ervig, received the acts so far as they did not depart from the earlier councils, and set them after Chalcedon; its statement of faith drew questions from Rome that the fifteenth council answered.",
     "The papal oath of the Liber Diurnus, which Percival says each new pope took from the fifth to the eleventh century, cursed Sergius and the others \"together with Honorius, because he assisted the base assertion of the heretics\", in Percival's English.",
-    "Michael the Syrian, from the losing side of Chalcedon, closes his account: this, he says, is how the pernicious heresy of Maximus came in.",
+    "Michael the Syrian, of the church that rejected Chalcedon, closes his account: this, he says, is how the pernicious heresy of Maximus came in.",
     "Whether the Maronites held to one will after the council is disputed: Eutychius, William of Tyre and Michael the Syrian say so; Istifan al-Duwayhi, a Maronite patriarch, answers that the charge rests on Eutychius. The acts name no Maronites."
   ],
   "record": [
     {
       "witness": "The acts of the Sixth Council, Greek and Latin (Mansi, tomus 11)",
       "kind": "acts",
-      "note": "The full record of the side that won, with dated sessions, the documents read and the signatures; the Greek column is poorly read in the file and the Latin is used."
+      "note": "The full record of the side that won, with dated sessions, the documents read and the signatures; the Latin column is followed here."
     },
     {
       "witness": "The acts in English extracts, with Henry Percival's introduction and excursus on Honorius (Nicene and Post-Nicene Fathers, series 2, vol. 14)",
@@ -80,7 +80,7 @@
     {
       "witness": "Leo II's letters to the emperor and to the bishops of Spain (Mansi)",
       "kind": "participant",
-      "note": "The pope who accepted the council; the two letters judge Honorius differently. Baronius held them spurious, Pagi genuine, as Binius and Pagi's notes in Mansi report."
+      "note": "The pope who accepted the council; not present. The two letters judge Honorius differently. Baronius held them spurious, Pagi genuine, as Binius and Pagi's notes in Mansi report."
     },
     {
       "witness": "The Book of the Popes, lives of Agatho and Leo II (Duchesne's Latin)",
@@ -109,8 +109,8 @@
     },
     {
       "witness": "Councils of Toledo XIV and XV (the Hispana collection)",
-      "kind": "acts",
-      "note": "The acts of the Spanish councils that received the Sixth Council."
+      "kind": "later narrative",
+      "note": "The acts of the Spanish councils that received the Sixth Council: another council's record."
     },
     {
       "witness": "William of Tyre, History, and Istifan al-Duwayhi, History of the Maronites",
@@ -128,7 +128,7 @@
       "id": "byzantine-imperial-church-heraclian-iconoclast",
       "name": "The Byzantine Imperial Church (Heraclian & Iconoclast Eras)",
       "part": "Gathered",
-      "note": "Constantine IV called and led the council in the palace at Constantinople, and George of Constantinople accepted Agatho's letters. The council condemned this church's own former patriarchs, Sergius, Pyrrhus, Paul and Peter, and deposed Macarius of Antioch; the census entry already says it taught two wills without naming Maximus."
+      "note": "Constantine IV called and led the council in the palace at Constantinople, and George of Constantinople accepted Agatho's letters. The council condemned this church's own former patriarchs, Sergius, Pyrrhus, Paul and Peter, and deposed Macarius of Antioch."
     },
     {
       "id": "anglo-saxon-christianity",
@@ -212,6 +212,16 @@
       "part": "Dead; anathematized"
     },
     {
+      "name": "Peter of Constantinople",
+      "verdict": "LISTED",
+      "part": "Dead; anathematized"
+    },
+    {
+      "name": "Theodore of Pharan",
+      "verdict": "LISTED",
+      "part": "Dead; anathematized"
+    },
+    {
       "name": "Constantine IV",
       "verdict": "NOT SCORED",
       "part": "Emperor; called the council, presided and signed the decrees"
@@ -244,11 +254,11 @@
   ],
   "briefLength": "about 2 minutes 30 seconds",
   "uncertain": [
-    "The acts are the winners' record. Macarius and Polychronius reach us only inside them, and Michael the Syrian, who is hostile to the council, writes from outside both parties.",
+    "The acts are the winners' record. The condemned reach us only through their opponents: these acts, the Roman acts of 649 and Maximus's debate with Pyrrhus. Michael the Syrian, hostile to the council, reports Macarius's argument from outside both parties.",
     "The count: 150 in the Book of the Popes and Paul the Deacon; 289 in Theophanes and Eutychius; 250 in Michael the Syrian; Percival says under three hundred, with 174 signatures on the last session.",
     "The opening date: the acts give 7 November; the Book of the Popes 22 November, which Duchesne holds wrong.",
     "Honorius: the acts condemn him in several sessions and letters. Whether he taught one will is disputed: Pope John IV in 641 and Maximus held that his letter meant only that Christ had no contrary wills; Agatho's letter leaves him out; Leo II wrote of betrayal to the emperor and of neglect to the Spanish bishops; Baronius later held the name inserted into the acts, and Percival answers him.",
-    "Whether George of Constantinople resisted: the acts say he accepted Agatho's letters; Michael the Syrian says he and the patriarch of Antioch refused and were deposed.",
+    "Whether George of Constantinople resisted: the acts say he accepted Agatho's letters; Michael the Syrian says he and the patriarch of Antioch refused and were deposed; Paul the Deacon has George stir up the heresy and be rebuked, which his translator W. D. Foulke calls a mistake.",
     "The Maronites: the acts do not name them; the link rests on Eutychius, William of Tyre and Michael the Syrian, and al-Duwayhi rejects it.",
     "The date of Leo II's letter to the emperor: Carl Mirbt gives 682, Duchesne 683."
   ],
