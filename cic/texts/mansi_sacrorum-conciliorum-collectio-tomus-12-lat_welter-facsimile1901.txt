@@ -1,6 +1,6 @@
 Title: Sacrorum conciliorum nova et amplissima collectio, Joannes Dominicus Mansi; tomus duodecimus, ab anno DCLXXXVII usque ad annum DCCLXXXVII (facsimile reprint of the Florence 1766 printing)
 Creator: J. D. Mansi and others (eds.); facsimile reprint by H. Welter (title page)
-Publisher: Florentiae: expensis Antonii Zatta Veneti, 1766; reproduction en fac-similé pour H. Welter, Paris et Leipzig (title page)
+Publisher: Florentiae: expensis Antonii Zatta Veneti, 1766 (the original title, read on the page image, leaf n8; the OCR keeps only 'EXPENSIS ANTONII ZATTA VENETI'); reproduction en fac-similé pour H. Welter, Paris et Leipzig (the facsimile's own leaf)
 Publication Date: 1901 (the facsimile's own title leaf, read on the page image of the scan (leaf n7: '1901'); the OCR prints the year as 'IgoI' at line 171)
 Rights: Public Domain (pd-us-by-date: published 1901); the archive.org record carries no rights field, so the imprint date is the basis
 Language: lat

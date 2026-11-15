@@ -6,7 +6,7 @@ Rights: Public Domain (pd-us-by-date: published 1920); the archive.org record ca
 Language: ita
 Source: archive.org item archivumfranciscanumhistoricum13, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (2,041,797) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1920, out of US copyright by date. OCR quality: the Italian is clean to fair, with accents misread; the Latin is clean to fair. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: The process of canonization of Clare of Assisi, in the old Italian version: Lazzeri's introduction from about OCR line 30711 (page 403); the witnesses' depositions from about 33926 ('Sora Pacifica de Gelfutio de Assise') to about 38400. The rest of the volume is the journal's other articles.
+Content note: The process of canonization of Clare of Assisi, in the old Italian version: Lazzeri's introduction from about OCR line 30711 (page 403); the witnesses' depositions from about 33926 ('Sora Pacifica de Gelfutio de Assise') to about 37500; Lazzeri's appendices (a letter on her death and papal letters) to about 38400. The rest of the volume is the journal's other articles.
 
 ______________________________________________________________________
 

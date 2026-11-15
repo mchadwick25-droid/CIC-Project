@@ -1,12 +1,12 @@
 Title: Denkschriften der Kaiserlichen Akademie der Wissenschaften, Philosophisch-historische Classe, neunzehnter Band (bound with the twentieth); with Ernst Dümmler and Franz Miklosich, Die Legende vom heiligen Cyrillus
-Creator: the Slavonic Life of Constantine (Cyril), edited by Franz Miklosich with a Latin translation, introduced by Ernst Dümmler; with the other memoirs of the two volumes (title page and article heading)
+Creator: the Slavonic Life of Constantine (Cyril), edited by Franz Miklosich, with a Latin translation made by Dümmler and Miklosich together and an introduction by Ernst Dümmler; with the other memoirs of the two volumes (title page and article heading)
 Publisher: Wien: aus der Kaiserlich-Königlichen Hof- und Staatsdruckerei (title page)
 Publication Date: 1870 (title page of Band 19; Band 20, bound in from about OCR line 28698, was not dated by the Library thread)
 Rights: Public Domain (pd-us-by-date: published 1870); the archive.org record carries no rights field, so the imprint date is the basis; the archive.org record is titled 'Denkschriften' with the date 1850, the series' first year
 Language: lat
 Source: archive.org item denkschriften1920ster, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (2,467,799) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1870, out of US copyright by date. OCR quality: the German and the Latin are clean; the Church Slavonic is unreadable (Cyrillic read as Latin look-alikes). Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: The Slavonic Life of Constantine the Philosopher (Cyril): Dümmler's German introduction from about OCR line 17923, the Slavonic text at about 18531-19540, Miklosich's Latin translation at about 19550-20440, notes from 20446. The introduction lists the manuscripts, the oldest dated ones written by the deacon Vladislav in 1469 and 1479. There is no Life of Methodius here.
+Content note: The Slavonic Life of Constantine the Philosopher (Cyril): the German opening note from about OCR line 17923 and Dümmler's introduction from about 18062, the Slavonic text at about 18531-19540, the Latin translation (the two editors' joint work) at about 19550-20440, notes from 20446. The opening note lists the manuscripts, the oldest dated ones written by the deacon Vladislav in 1469 and 1479. There is no Life of Methodius here.
 
 ______________________________________________________________________
 

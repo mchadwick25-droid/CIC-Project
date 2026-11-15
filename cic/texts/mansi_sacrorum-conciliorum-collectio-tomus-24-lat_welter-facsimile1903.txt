@@ -1,7 +1,7 @@
 Title: Sacrorum conciliorum nova et amplissima collectio, Joannes Dominicus Mansi; tomus vicesimus quartus, ab anno MCCLXIX usque ad annum MCCXCIX (facsimile reprint of the Venice printing)
 Creator: J. D. Mansi and others (eds.); facsimile reprint by H. Welter (title page)
 Publisher: Venetiis: apud Antonium Zatta; reproduction en fac-similé pour H. Welter, Paris et Leipzig (title page)
-Publication Date: 1903 (the facsimile's own leaf and imprint line; the OCR prints the year as '1g03' (about line 66) and 'MDCCCCIID' (line 139))
+Publication Date: 1903 (the facsimile's own leaf and imprint line; the OCR prints the year as '1g03' (OCR line 80) and 'MDCCCCIID' (line 139))
 Rights: Public Domain (pd-us-by-date: published 1903); the archive.org record carries no rights field, so the imprint date is the basis
 Language: lat
 Source: archive.org item sacrorumconcilio0024joan, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (3,583,601) equals the size archive.org lists for the djvu.txt.

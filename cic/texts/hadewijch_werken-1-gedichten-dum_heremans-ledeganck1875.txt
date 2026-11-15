@@ -6,7 +6,7 @@ Rights: Public Domain (pd-us-by-date: published 1875); dbnl.org marks this title
 Language: dum
 Source: dbnl.org (Digitale Bibliotheek voor de Nederlandse Letteren), text id hade002werk01_01, https://www.dbnl.org/tekst/hade002werk01_01/ ; dbnl's own plain-text download of its keyed text (dbnl 2009, from the Leiden University Library copy, shelfmark 1080 B 6). Fetched 2026-11-15 by the Library thread; the byte count of the file (233,630) equals the Content-Length dbnl sent.
 Provenance note: Extracted unaltered: the dbnl plain-text file is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1875, out of US copyright by date. OCR quality: not OCR: dbnl's keyed text, clean, with page markers in braces; dbnl says the preliminary pages and the blank pages are left out of the running text. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Hadewijch's poems in Middle Dutch, the diplomatic edition of 1875, pages 1-301; the poems are numbered by section, and the last heading is XXXII. The editors' note at the end says that poem and those after it are wanting in the older manuscript. Only the poems are in this volume.
+Content note: Hadewijch's poems in Middle Dutch, the diplomatic edition of 1875, pages 1-301; the poems are numbered by section, and the last heading is XXXII. dbnl's text ends at page 301 with XXXII. The editors' note there says that poem 'and the following' are wanting in the older manuscript, which implies more poems; whether the printed volume runs past page 301 was not checked. Only poems are in this file.
 
 ______________________________________________________________________
 

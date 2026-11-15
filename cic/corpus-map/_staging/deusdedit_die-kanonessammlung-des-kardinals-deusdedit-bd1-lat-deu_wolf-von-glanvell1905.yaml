@@ -1,14 +1,14 @@
 source_file: deusdedit_die-kanonessammlung-des-kardinals-deusdedit-bd1-lat-deu_wolf-von-glanvell1905.txt
 assignments:
 - row_id: deusdedit_die-kanonessammlung-des-kardinals-deusdedit-bd1-lat-deu_wolf-von-glanvell1905--the-acts-of-constantinople-861-abridged-in-deusdedit-s
-  work: 'The acts of Constantinople 861, abridged in Deusdedit''s collection IV.428-431 (Wolf von Glanvell 1905)'
+  work: 'A report of the council of Constantinople of 861 in Deusdedit''s collection IV.428-431 (Wolf von Glanvell 1905)'
   author: deusdedit
   locus: 'about OCR lines 46885-47300; add 12 to OCR line numbers'
   atlas_ids:
   - byzantine-imperial-church-macedonian
   role: context
   confidence: provisional
-  note: 'The only surviving record of the council of 861, kept in a Roman cardinal''s Latin abridgment of about 1087. It is a Roman selection, made two centuries later, not the council''s own acts.'
+  note: 'A Latin report of the council of 861, kept in a Roman cardinal''s collection of 1087. The editor says the report survives in this form only here; Nicetas''s Life of Ignatius also tells of the synod. It is a Roman text kept two centuries later, not the council''s own acts.'
 - row_id: deusdedit_die-kanonessammlung-des-kardinals-deusdedit-bd1-lat-deu_wolf-von-glanvell1905--deusdedit-collectio-canonum-wolf-von-glanvell-1905
   work: 'Deusdedit, Collectio canonum (Wolf von Glanvell 1905)'
   author: deusdedit

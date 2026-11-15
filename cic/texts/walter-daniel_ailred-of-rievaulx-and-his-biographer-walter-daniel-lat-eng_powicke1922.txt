@@ -6,7 +6,7 @@ Rights: Public Domain (pd-us-by-date: published 1922); the archive.org record is
 Language: eng
 Source: archive.org item ailredofrievaulx00powiuoft, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (322,247) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1922, out of US copyright by date. OCR quality: the English is fair to clean; the Latin extracts are clean to fair. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Powicke's study, with Appendix B, 'Extracts from MS. Q. B. 7 of Jesus College, Cambridge' (from about OCR line 3605): Walter Daniel's Letter to Maurice in full at about 3607-3775, and extracts from his Life of Ailred at about 3781-5632. The Life is not printed whole.
+Content note: Powicke's study, with Appendix B, 'Extracts from MS. Q. B. 7 of Jesus College, Cambridge' (from about OCR line 3605): Walter Daniel's Letter to Maurice at about 3607-3779, as Powicke prints it (he calls it complete; it ends where Walter says he will set down four stories), and extracts from his Life of Ailred at about 3781-5632. The Life is not printed whole.
 
 ______________________________________________________________________
 

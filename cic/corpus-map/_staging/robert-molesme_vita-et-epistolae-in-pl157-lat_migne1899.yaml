@@ -3,7 +3,7 @@ assignments:
 - row_id: robert-molesme_vita-et-epistolae-in-pl157-lat_migne1899--life-of-robert-of-molesme-by-a-monk-of-molesme-with-robert-s
   work: 'Life of Robert of Molesme by a monk of Molesme, with Robert''s letters (PL 157)'
   author: robert-molesme
-  locus: 'about OCR lines 95370-101190; add 12 to OCR line numbers'
+  locus: 'about OCR lines 95370-98310; add 12 to OCR line numbers'
   atlas_ids:
   - cistercian-monasticism
   role: tradition

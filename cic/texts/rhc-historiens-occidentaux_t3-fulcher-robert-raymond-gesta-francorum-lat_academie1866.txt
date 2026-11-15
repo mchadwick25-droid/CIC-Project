@@ -6,7 +6,7 @@ Rights: Public Domain (pd-us-by-date: published 1866); the archive.org record ca
 Language: lat
 Source: archive.org item RecueilDesHistoriensDesCroisadesOccidentaux3, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (4,540,646) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1866, out of US copyright by date. OCR quality: the Latin is clean to fair; words are double-spaced and the apparatus is noisy; the French prefaces are clean. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Latin histories of the First Crusade. Tudebode from about OCR line 4194; the Gesta Francorum from 11649; Raymond of Aguilers from 19175; Fulcher of Chartres from 24291, with the Council of Clermont (book I, chapter 1) at about 24772-24838 and Urban II's address (chapter 2) at 24839-24919; Robert the Monk from 51945, with Clermont and Urban's speech from about 52360. The general index from about 81005.
+Content note: Latin histories of the First Crusade. Tudebode from about OCR line 4194; the Gesta Francorum from 11649; Raymond of Aguilers from 19175; Fulcher of Chartres from 24291, with the Council of Clermont (book I, chapter 1) at about 24772-24838 and Urban II's address (chapter 2) at 24839-24919; Robert the Monk from 51945, with Clermont and Urban's speech from about 52360. The general index from about 62692.
 
 ______________________________________________________________________
 

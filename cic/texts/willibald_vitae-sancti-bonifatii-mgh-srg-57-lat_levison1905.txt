@@ -1,7 +1,7 @@
 Title: Vitae sancti Bonifatii archiepiscopi Moguntini, recognovit Wilhelmus Levison (Scriptores rerum Germanicarum in usum scholarum ex Monumentis Germaniae historicis separatim editi)
 Creator: Willibald of Mainz and later writers of Lives of Boniface; edited by Wilhelm Levison (title page)
 Publisher: Hannoverae et Lipsiae: impensis bibliopolii Hahniani (title page)
-Publication Date: 1905 (title page)
+Publication Date: 1905 (the series title, OCR line 37; the editor's own title leaf, OCR line 63, reads 1906)
 Rights: Public Domain (pd-us-by-date: published 1905); the archive.org record carries no rights field, so the imprint date is the basis
 Language: lat
 Source: archive.org item vitaesanctibonif00will, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,012,331) equals the size archive.org lists for the djvu.txt.

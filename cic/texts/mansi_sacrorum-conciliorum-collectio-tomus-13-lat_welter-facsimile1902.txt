@@ -6,7 +6,7 @@ Rights: Public Domain (pd-us-by-date: published 1902); the archive.org record ca
 Language: lat
 Source: archive.org item sacrorumconcilio0000unse, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (3,371,710) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1902, out of US copyright by date. OCR quality: the Latin is fair to poor: two columns run together in places and long s is read as f; the Greek is garbled. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: The Second Council of Nicaea continued: session IV from about OCR line 744, session V from about 16011, session VI from about 65584, then the definition, canons and letters, to about OCR line 83064, where the council of Worms begins. Pope Hadrian I's reply to Charlemagne on the images is printed here too (the passage 'edidit nobis capitulare' at about 76595). The index of titles from about 106650.
+Content note: The Second Council of Nicaea continued: session IV from about OCR line 744, session V from about 16011, session VI from about 65584, then the definition, canons and letters, to about OCR line 83064, where the council of Worms begins. Pope Hadrian I's reply to Charlemagne on the images is printed here too (the passage 'edidit nobis capitulare' at about 76595). Charlemagne's ecclesiastical capitularies, with their index of titles, from about 106650.
 
 ______________________________________________________________________
 

@@ -6,7 +6,7 @@ Rights: Public Domain (pd-us-by-date: published 1905); the archive.org record ca
 Language: lat
 Source: archive.org item diekanonessammlu01deus, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (2,515,492) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1905, out of US copyright by date. OCR quality: the Latin is clean to fair; the German notes are fair. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: The canon collection in four books. Book IV, chapters 428-431, abridges the acts of the Council of Constantinople of 861 (the hearing of Ignatius before the Roman legates), at about OCR lines 46885-47300; the editor's notes date them 'Mai 861' (OCR lines 46924, 47056, 47271). The first session of the council of 879 follows from about 47362.
+Content note: The canon collection in four books. Book IV, chapters 428-431, gives a report of the Council of Constantinople of 861 (the hearing of Ignatius before the Roman legates), at about OCR lines 46885-47300; the editor's notes date them 'Mai 861' (OCR lines 46924, 47056, 47271), say the report survives in this form only here, and point to Nicetas's Life of Ignatius for the synod (OCR lines 46924-46929). The first session of the council of 879 follows from about 47362.
 
 ______________________________________________________________________
 

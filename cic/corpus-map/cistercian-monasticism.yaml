@@ -79,7 +79,7 @@ works:
 - row_id: robert-molesme_vita-et-epistolae-in-pl157-lat_migne1899--life-of-robert-of-molesme-by-a-monk-of-molesme-with-robert-s
   work: Life of Robert of Molesme by a monk of Molesme, with Robert's letters (PL 157)
   author: robert-molesme
-  locus: about OCR lines 95370-101190; add 12 to OCR line numbers
+  locus: about OCR lines 95370-98310; add 12 to OCR line numbers
   role: tradition
   confidence: needs-ruling
   note: The Life was written at Molesme, the house Robert left for Cîteaux and went back to,
@@ -113,6 +113,7 @@ works:
   locus: Appendix B, about OCR lines 3605-5632; add 12 to OCR line numbers
   role: tradition
   confidence: provisional
-  note: A monk of Rievaulx on his own abbot. Only the Letter to Maurice is whole; the Life
-    is in Powicke's chosen extracts. Powicke's study around them is a modern historian's.
+  note: A monk of Rievaulx on his own abbot. The Letter to Maurice is given as Powicke prints
+    it, ending where Walter announces four stories; the Life is in Powicke's chosen extracts.
+    Powicke's study around them is a modern historian's.
   source_file: walter-daniel_ailred-of-rievaulx-and-his-biographer-walter-daniel-lat-eng_powicke1922.txt
