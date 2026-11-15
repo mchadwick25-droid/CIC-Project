@@ -128,7 +128,7 @@
    },
    {
     "claim": "Ani: the Bagratids \"régnèrent à Ani\"; Sargis \"transfère le siège catholical à Ani en la même année\" (992), Macler's note citing Ormanian (scan)",
-    "witness": "MAC (stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt), l.444-445, l.15210-15214",
+    "witness": "MAC (stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt), l.975-976, l.15210-15214",
     "formation_confidence": "Documented"
    },
    {
@@ -142,8 +142,8 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Chabot, on Manazkert: \"Sur ce concile, cf. le récit d'Etienne Asolik, trad. Dulaurier, p. 131\"",
-    "witness": "CHAB (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt), l.38282-38283",
+    "claim": "A note signed (J. M.) in Chabot's edition, on Manazkert: \"Sur ce concile, cf. le récit d'Etienne Asolik, trad. Dulaurier, p. 131\"",
+    "witness": "CHAB (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt), l.38282-38284",
     "formation_confidence": "Documented"
    },
    {
@@ -631,7 +631,7 @@
     "formation_confidence": "Contested"
    },
    {
-    "claim": "Codex: \"codex quidam Ecclesiæ Condubensis\" ... \"quem vidit M\" [Morales, scan cut]; \"Codicem alium Toletanæ Ecclesiæ Thomas Tamaius laudat\"; Antonio: \"Nos inde ... habemus exemplum, transcriptum ex altero nobis communicato ex ... cardinalis Barberini Romana bibliotheca\", given to Barberini at Madrid \"ab eodem Thoma Tamaio de Vargas, regio chronographo\"; the copy's title: \"e codice pervetusto Ecclesiæ Cordubensis litteris gothicis exarato\" (scan)",
+    "claim": "Codex: \"codex quidam Ecclesiæ Condubensis\" ... \"quem vidit M\" [Morales, scan cut]; \"Codicem alium Toletanæ Ecclesiæ Thomas Tamaius laudat\"; Antonio: \"Nos inde ... habemus exemplum, transcriptum ex altero nobis communicato ex ... cardinalis Barberini Romana bibliotheca\", given to Barberini at Madrid, \"Matriti, dum ... legatus\", \"ab eodem Thoma Tamaio de Vargas, regio chronographo\"; the copy's title: \"e codice pervetusto Ecclesiæ Cordubensis litteris gothicis exarato\" (scan)",
     "witness": "ALV (paulus-alvarus_confessio-epistolae-indiculus-luminosus-pl121-lat_migne1852.txt), l.31019-31036, l.31058-31075",
     "formation_confidence": "Documented"
    },
@@ -1153,13 +1153,23 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Bollandists' text: \"Hoc (juxta ea qua ad. Theophanis | Chronologiam notavimus) annum. nobis pccxcvi signant\" (scan: DCCXCVI = 796)",
-    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.50454-50455",
+    "claim": "Bollandists' text: \"Hoc (juxta ea qua ad. Theophanis | Chronologiam notavimus) annum. nobis pccxcvi signant\" (scan: DCCXCVI = 796); \"nam. Alecandrinz Fre annis octo ram communem subsequenti, adjiciendus est annus unus, Phocz, ob caussam ibi explicatam. detractus, itaque ad. Indictionem indicatam. pervenitur\" (scan): the commentary goes on to add one year to the Alexandrian count to reach the fifth indiction, which the volume's essay on Theophanes makes 797",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.50454-50460",
     "formation_confidence": "Contested"
    },
    {
     "claim": "Bollandists' margin: \"statim post r€5i gestam, scilicet post Pascha anni 797\" (scan), beside \"S. Stephanus Poeta\" (the margin dates the writing, soon after the raid; read so, it puts the raid in 797)",
     "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.50373-50387",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Essay on Theophanes's chronology, opening the volume (\"OBSERVATIONES PERQUAM UTILES AD 5. THEOPHANIS CHRONOGRAPHIAM\" (scan)); Theophanes is \"Magni-agri in Sigriana Hegumeni Confessorisque\" (scan); \"vide xx Martii probatum in Martyribus Sabaitis\"; the writer counted by the Alexandrian era \"et annum unum ex more omisisset computare\"; \"cum quinta Indictio annum nostrum pccxcvir signet\" (scan: DCCXCVII = 797)",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.667, l.1116-1118, l.2736-2750",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Chronological index: \"INDEX CHRONOLOGICUS TOMI III MARTII\"; \". 797 Martyres xx mon: chi Laurg S. Sabze\" (scan)",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.9259, l.9493",
     "formation_confidence": "Contested"
    },
    {
@@ -1273,6 +1283,11 @@
     "formation_confidence": "Documented"
    },
    {
+    "claim": "Nikodemos, 28 October: \"ΣΤΕΦΑΝΟΥ τοϋ Σαΰΰαίτου, τοΰ χαϊ 'Κταοχύιχου γενομέγον\" (scan, for Σαββαΐτου ... Ἐπισκόπου); \"ήκμαζεν έν ετει ψ/ (790)\"; \"εΐσελθών δηλαδή εις τήν Λαύραν τοϋ μεγάλου πατρός Σάββα\" (scan); \"ήξιώθη καί τοϋ χαρίσματος της άρχιερωσύνης\" (scan); no link to the Passion; the Typikon's feast for the Poet is 27 October (AASS l.50435-50438)",
+    "witness": "NIK1 (nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900.txt), l.23272-23299, l.23319",
+    "formation_confidence": "Documented"
+   },
+   {
     "claim": "Nikodemos's dates \"(1748/9-1809)\"; Synaxaristes vol. 2, March to August, catalogued 1900",
     "witness": "NIK (nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900.txt), file header l.1-4",
     "formation_confidence": "Documented"
@@ -1293,8 +1308,7 @@
     "claim": "The year of the raid",
     "sides": [
      "The Acts: AM 6288 by the church reckoning, AD 788, indiction 5 (AASS l.50556-50557, l.50600-50607; Greek l.229190-229198)",
-     "The Bollandists' text: 796, by their own chronology (AASS l.50454-50455); their note e on Christopher, seven years before, implies 796 (l.53478-53480)",
-     "The Bollandists' margin: Stephen wrote soon after the raid, just after Easter of 797, which puts the raid in 797 (AASS l.50373-50387)",
+     "The Bollandists: 797, the year of the fifth indiction, in the volume's essay on Theophanes (AASS l.2736-2750), its chronological index (l.9493) and their margin, which has Stephen writing just after Easter of 797 (l.50373-50387); one figure in their commentary reads DCCXCVI, 796, in the scan, and the passage goes on to add one year to reach the fifth indiction (l.50454-50460); their note e puts Christopher's death in 789 (scan 189), seven years before, and names no year for the twenty; seven years after 789 is 796 (l.53478-53480)",
      "Georg Graf, 1910: March 796 or 797 (GRAF l.645-647)"
     ]
    },
@@ -1332,7 +1346,7 @@
    },
    {
     "detail": "Birth, family, age, office, death, burial",
-    "note": "Searched AASS commentary and Acts, PG94 Lequien prolegomena, Papadopoulos-Kerameus t.4, Theodore the Studite PG99 notes, Analecta Bollandiana 7, Nikodemos vol. 1 and 2, Graf 1910, Theophanes PG108, Charon, Peeters: nothing for the author."
+    "note": "Searched all of cic/texts for Stephan/Stephanus/Stefanos/Στέφαν/Étienne/اسطفان with Saba/Sabas/Sabaita/Σαββαΐτ/Mar Saba, with Poeta/ποιητ/melod/hymnograph and with Thaumaturg, including OCR line splits: nothing for the author. Namesakes: the Wonderworker (PG94 l.5332-5335, l.35211; PG99 l.72016, l.72454; Papadopoulos-Kerameus t.4 l.12941-12962); a 28 October Stephen the Sabaite, a disciple of Saint Sabas by Le Quien (PG94 l.8858-8860), and a bishop flourishing in 790 by Nikodemos, vol. 1 l.23272-23316, who does not tie him to the account."
    },
    {
     "detail": "An English translation, and Georgian or Arabic versions",
