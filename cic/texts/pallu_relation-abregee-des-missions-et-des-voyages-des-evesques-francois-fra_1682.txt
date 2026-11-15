@@ -1,0 +1,2461 @@
+Title: Relation abrégée des missions et des voyages des évesques françois, envoyez aux royaumes de la Chine, Cochinchine, Tonquin, et Siam
+Creator: François Pallu, bishop of Heliopolis (title page)
+Publisher: Paris: chez Charles Angot, rue Saint Jacques, au Lion d'Or (title page, read on the page image, leaf n2; the OCR drops these lines)
+Publication Date: 1682 (title page: 'M. DC. LXXXII.', read on the page image, leaf n2; the OCR garbles the numeral)
+Rights: Public Domain (pd-us-by-date: published 1682); the archive.org record carries no rights field, so the imprint date is the basis
+Language: fra
+Source: archive.org item relationabregeed00pall, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (121,188) equals the size archive.org lists for the djvu.txt.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1682, out of US copyright by date. OCR quality: clean French for a print of its age, with the long s read as f. Word count of the host text: 18,786. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
+Content note: In order: an extract of a privilege and an approbation of 1665-1666 that name Jacques de Bourges's Relation, at OCR lines 7-36; the title page at 39-58; a scan notice at 61-69; Pallu's dedication to the archbishops, bishops and clergy of France, dated April 1668, at 74-157; a second privilege extract and approbation (April 1666) at 162-195; the Relation at 197-2429, with no chapter headings. Letters from Tonkin and elsewhere are quoted at length inside it.
+
+______________________________________________________________________
+
+i 
+
+
+< 
+
+
+Extrait  du  Tri^ilege  du  Roy, 
+
+PAr  grâce  & Privilège  du  Roy , il  eft  per- 
+mis à Denis  Bechet  Marchand 
+Libraire  de  noftre  Ville  de  Paris , d’imprimer 
+ou  faire  Imprimer  , vendre  & débiter , Les 
+Relations  des  Voyages  des  Sieurs  Evêques  de 
+Beryte , A H eliopolis  & Metellopolis  au  Royaume 
+de  la  Chine  , compofées  par  M.  J.  de  Bourges , 
+Frejires  & Mijjlonnaire  Apoflolique  ; & ce  pen- 
+dant le  temps  &:  efpace  de  fept  années,  à com- 
+mencer du  jour  que  chacune  defdites  Rela- 
+tions auraefté  achevée  d’imprimer,  ainfi  qu’il 
+eft  plus  au  long  porté  dans  les  Lettres  de  Pri- 
+vilège,données  à Paris  le  2 3 . Novembre  1 66$, 
+Par  le  Roy  en  fon  Confeil. 
+
+D'A  L E N C E\ 
+
+Regiftré  fur  le  Livre  de  la  Cbmunauté  des  Marchands 
+Libraires, L4.  Décembre  1665.  Signé  Piget, Syndic. 
+
+Achevé d'imprimer  pour  la  1.  fois  le  7.  Ianvier  1 666. 
+
+
+AP  F RO  B AT  ION. 
+
+J'Ay  lu  un  Livre  intitulé , Relation  du  Voyage 
+de  Mr  /’ Evêque  de  Beryte.  Fait  à Paris  le  7. 
+Novembre  1665.  M . GRANDINb 
+
+
+RELATION 
+
+ABREGE’E 
+
+des  missions 
+
+ET 
+
+DES  VOYAGES 
+
+) ES  EVESQUES  FRANÇOIS 
+envoyez  aux  Royaumes  delà  Chine, 
+Cochinchine  ,Tonquin , ôc  Siam. 
+
+ŸarMejJIre  FRANÇOIS  PJLLV 
+Evejqiiè  d’Heliojjolis. 
+
+
+M DC.  LXXXfL 
+Avec  Privilège  du  Roy , & Approbation^ 
+
+
+Digitized  by  the  Internet  Archive 
+in  2016  with  fundiwg  from 
+Duke  University  Libraries 
+
+
+A 
+
+
+https://archive.org/details/relationabregeedOOpall 
+
+
+rg 
+
+A NOSSEIGNEURS 
+
+LES 
+
+
+A RC  H EVE  SQJJ'ES, 
+
+E V E S QJJ  E S , 
+
+E T 
+
+CLERGE*  DE  FRANCE. 
+
+ESSE  IGNEVRS, 
+
+Tlnjïen-rs  raiforts  ni obligent  avoués  dedier  cette  Rela- 
+tion de  nos  R oyages  , & de  F eflat  de  nos  Mljjions  , les 
+grâces  cju  elles  ont  recettes  d.e  vous  en  vos  dernieres  nxEffem- 
+blees  demandent  de  nous  une  reconnoiffance  particulière ,& 
+j ay  cru  ne  pouvoir  trouver  une  meilleure  occafîon  tjue  cel- 
+le-cy  , de  la  rendre  publique.  Comme  f expo  fe  en  cet  abrège 
+ce  qui  touche  F eflablijfemeut  de  l' Eçlifeparmy  les  Infidè- 
+les, a quipouvois-je  plus  juflement  confacrernos  premiers 
+travaux , qud  vous  , M E S S E I G N EV  R S ? qui 
+ejlans  les  Princes  légitimés  3 & les  véritables  Epoux  de 
+
+A ij 
+
+
+l'Egllfe  de  Iefus-Chrifl  , reffentez  un  fi  noble  zele  pour 
+tout  ce  c/ui  regarde  fa  gloire  & fon  aggrandiffement.  Les 
+Ecclefafliques  qui  nous  accompagnent  , & c/ui  nous  fer- 
+vent f utilement , eflans  rnrtls  de  vos  Diocefes  avec  voflre 
+benediEl'on  , il  faut  confeffer  que  nos  Æfflons  vous  doivent 
+le  plus  grand  bien  que  nous  efprrons  y procurer  par  leur 
+entremïfe  , & c efl  une  grâce  qui  nous  attache  a vous  d une 
+façon  particulière.  Nous  avons  e(lé  envoyez  vers  les  r.  gli- 
+fes  nalffantss  de  l'Orient  pour  leur  donner  la  perfeLïon 
+qui  lew  manque , en  y confacrant  des  Ere  (1res  dignes  de 
+cette  haute  vocation  & y établijfant  la  DifcipVne  Eccle- 
+fîœflique  ifour  feùfflr  en  ces  Ernploys  nous  avons  befoin 
+d' avoir  devant  les  yeux  des  modelles  excellents  de  l'une  & 
+de  l'autre  -,  C'cfi  ce  qui  nous  oblige  de  tourner  ouvert  la 
+voue  vers  vous  , M ESSEIGNEERS  . pour  ccn- 
+fdcrer  & étudier  la  conduite  pleine  de  fagefe  que  vous 
+obfervez  dans  vos  Diocefes  avec  tant  de fuccès  & tant  de 
+réputation  ; que  la  France  aujonrâ' huy  par  le  mérité  & 
+par  la  capacité  de  fes  E vefques  , par  la  reforme  de  fes  Ec- 
+clefafliques  , par  le  nombre  des  Séminaires , qui  s'y  éta- 
+blirent chaque  jour  , par  l'exacle  & la  régulière  obfer- 
+vation  des  Loix  Canoniques  qui  y font  remifes  en  ufage 
+par  vos  foins , peut  eflre  propoféeen  exemple  à toutes  les 
+Eglifes  du  Monde.  De  forte  , AdESSEIGNEERS  3 
+que  quand  vous  ne  nous  auriez  pas  prévenu  les  premiers 
+par  les  effets  de  votre  bonté , quand  nous  n aurions  pas  vît 
+de  nos  yeux  ces  merveilles , nous  ferions  obligez  pour  F in- 
+terefl  des  Eglifes  de  la  Chine  . de  la  Cochinchine  , du  Ton - 
+quin  , & de  Siam,  de  rechercher  par  toutes  fo-rtes  de 
+moyens  , l'honneur  de  voflre  proteflion , & de  voflre  cor - 
+refpondance.  Ce  font  les  véritables  motifs  qui  m'ont  obli- 
+gé d vous  offrir  ce  petit  Sommaire  de  nos  Ernploys , ois  je 
+vous  rends  compte  de  toute  la  conduite  que  nous  avons 
+tenue  jufqn'd  prefent. 
+
+Pour  ce  qui  me  regarde , j'ay  receu  de  E ous AIES- 
+
+
+REIGNEVRS  , des  marques  fi  particulières  de  vojlr* 
+bien-veillance  , que  je  ne  puis  a/fez  vous  en  remer - 
+cler  ny  vous  exprimer  avec  quels  fentimens  de  gra* 
+titude  & de  rejpett  je  fuis, 
+
+
+messeignevrs , 
+
+
+Voftre  très  humble  8c  tres-obeïf- 
+fant  ferviteur FRANCQXS9 
+Evefque  d’Heliopoiis. 
+
+
+A Paris  ce  mois 
+d’Avril  1 668. 
+
+
+ce»  */JC*æ 
+
+
+Extrait  du  Privilège  du  Roy. 
+
+PAr  grâce  & Privilège  du  Roy  ; il  eft  permis  à De- 
+nis Bichît  Marchand  Libraire  de  cette  Ville 
+de  Paris , d’imprimer  ou  faire  imprimer , vendre  & dé- 
+biter , Les  c, "Relations  des  Voyages  des  Sieurs  Evefcjues 
+de  Bcryte  , dJ  Hcliopolis  & Aîetellopolis  au  Royaume  de 
+la  Chine  -,  & ce  pendant  le  temps  & elpace  de  lepc  an- 
+nées , à commence  • du  jour  que  chacune  defdites  Re- 
+lations aura  efïé  achevée  a imprimer  , ainf.  qu’il  eft 
+plusaulong  porté  dans  les  Iettresdu  Privilège,  don- 
+nées à Paris  le  23.  Novembre  1665.  Par  le  Roy  en  ion 
+Confeil. 
+
+D’A  L EN  CE’. 
+
+
+Reg  ftré  fur  le  Livre  de  la  Communauté  des  Mar- 
+chands Libraires  , le  4.  Décembre  1'.  65.  Signe  P 1- 
+g E T , Syndic. 
+
+Achevé  d'imprimer  pour  la  première  fois 
+le  x 8.  Avril  1 6 6 6’. 
+
+
+AP  F RO  BATI  ON. 
+
+J’ay  leu  un  Livre  intitule  Relation  du  voyage  de  AP. 
+fEvefcjne  d? Heliopolis.ï ait  à Paris  le  25.  Avril  idée» 
+M.  LRANDIN. 
+
+
+ï 
+
+
+RELATION  ABREGEE 
+
+
+Des  Mijjlons  (efr  des  Voyages  des  Evefques 
+François  3 envoyés  aux  Royaumes  de  la 
+Chine , Coch  'mchine  > Tonqum  gy  Siam. 
+
+Epuis  qu’on  a publié  noftre  fainte  Foy  dans 
+la  Chine  , le  Tonquin  & la  Cochmchine 
+avec  des  fuccés  qui  font  afiez  connus  , on 
+n’a  rien  conceu  de  plus  grand  pour  l’affer- 
+millèment  de  ce  grand  œuvre,  & pour  y faire  encore 
+de  plus  grands  progrès , que  l’envoy  qu’on  y a fait  de 
+trois  Evefques  François. 
+
+Ce  deifein  fut  propofé  à Paris  il  y a prés  de  quinze 
+ans  -,  & l’on  fut  aifément  perfuadé  de  ion  importances 
+& des  avantages  que  la  Religion  Chreftienne  en  pou- 
+voir attendre  •,  ce  qui  luy  fît  trouver  l'approbation  & 
+la  faveur  qui  luy  eltoit  neceifaire  auprès  de  tous  ceux 
+qui  pouvoient  contribuer  à le  faire  reüiïir. 
+
+Mais  fi  les  raiions  qu’on  eut  alors  de  former  cette 
+entreprife,  firent  croire  qu’elle  eftoit  de  Dieu  , infpi- 
+rée  par  fonEfprit,  8c  neceffaire  aux  Egliies  nailTantes 
+de  l’Orient  j l’on  peut  dire  maintenant  avec  plusd’af- 
+furance  que  l’experience  des  grâces  qui  l’ont  accom- 
+pagnée , & la  luire  des  bénédictions  dont  il  a plû  à 
+Dieu  d’en  favorifer  le  cours , font  encore  plusfeniible- 
+pient  connoiftre  que  fa  Providence  conduit  ce  grand 
+
+A iiij 
+
+
+2. 
+
+deffein  ",  & qu’il  le  faut  mettre  au  rang  de  ces  œuvres 
+extraordinaires  aufquelles  elle  prefide  par  une  dire- 
+dlion  fpeciale  , pour  la  gloire  de  fon  Eglile,  & l’exalta- 
+tion de  fon  faint  Nom. 
+
+je  me  perfuade  que  cette  confideration  aura  quelque 
+pouvoir  fur  l’efprit  de  plufieursEcclefiaftiques  de  vertu, 
+pour  les  obliger  à penler  ferieufement  à l’importance 
+qu’il  y a de  ne  pas  laitier  périr  cette  grande  ouverture 
+à la  publication  de  l’Evangile,  faute  de  luy  fournir  | 
+des  ouvriers  capables  d’entrer  dans  cette  moifton  qui  j 
+feprefente  à la  Nation  Françoile  , comme  auflû  pour 
+exciter  tant  de  perfonnes,  animées  du  defir  de  faire 
+connoiftre  Dieu  , à y concourir  par  leurs  bons  offices  . 
+& par  divers  effets  de  leur  zele. 
+
+J’avoue  que  j’ay  efté  fenliblement  touché  à mon 
+retour  en  Europe , lors  que  j’ay  veu  que  le  temps  n’a- 
+voit  point  diminué  l’eftime  qu’on  avoir  conceu'e  pour 
+noftre  Million  -,  & l’on  ne  pouvoir  pas  m’en  donner  une 
+preuve  ny  plus  forte  ny  plus  obligeante  , que  l’inftan- 
+ce  qui  m’a  efté  faite  de  donner  au  Public  la  Relation  de 
+ce  qui  s’y  eftp?lTé  de  plus  confiderable  -,  A quoy  je  ; 
+voudrois  pouvoir  fatisfaire  : mais  à peine  puis-je  me  : 
+promettre  leloifir  neceffaire  pour  cela,  chaque  pas  que  j 
+je  fais  eftant  pour  avancer  mon  retour . 
+
+Cependant,  pour  ne  pas  manquer  entièrement  à ce 
+que  je  dois  auxpreffans  defirs  de  mes  amis,  j’ayrefola  > 
+de  publier  cet  abrégé  de  mes  voyages  , où  je  me  pro-  .. 
+pofe  principalement  de  faire  remarquer  les  effets  delà  j 
+conduite  de  Dieu , qui  ont  paru  d une  maniéré  plus  fen- 
+fible  fur  nos  perfonnes  durant  le  cours  de  noftre  mar- 
+che;  j’yexpoferay  le  véritable  eftat  de  nos  Millions,  1 
+afin  que  tout  le  Monde  voye  de  quelles  difficulrez  elles  ii 
+font  environnées , quels  obftacles  nous  avons  à com-  ; 
+batre , & ce  que  nous  avons  à craindre  •,  Mais  auffi  je  fe-  [ 
+ray  voir  ce  que  nous  avons  àefperer  , quelles  iont  les  j 
+ouvertures  que  la  providence  de  Dieu  offre  aux  déliré  j 
+
+
+he  nous  avons  de  nous  confumer  pour  fa  gloire  , & les 
+Ifpofitions  que  nous  y trouvons  pour  y accomplir  nô, 
+le  Miniftere  , & fatisfaire  aux  intentions  de  l’Eglife. 
+Pour  mon  particulier  je  n’ignore  pas  que  mon  retour 
+n Europe  n ait  caufé  quelque  furprife  à plufieurs  de 
+îesamis,  & que  pour  n en  fçavoir  pas  le  motif,  Ion 
+en  ait  parlé  diverfement.  CoYnme  il  eft  du  devoir 
+: ''un  Evefque  d’éloigner  de  luy  tout  ce  qui  peut  ternir  fa 
+onduite  -,  j’ay  crû  que  j’avois  quelque  obligation , en 
+e rencontre  , d’expoler  aux  yeux  de  tout  le  Monde  cel- 
+| que  nous  avons  tenue  en  toutes  nos  démarchés  5 & 
+e jrinei paiement  en  celle  de  mon  retour, 
+s C’eft  à quoy  je  vais  fatisfaire  : & pour  donner  quel- 
+que ordre  à ma  narration , je  toucberay  en  peu  de  mots 
+i te  qui  s’eftpafte  au  commencement  de  noftre  entre- 
+
+■ »rife,  ce  qui  nous  eft  arrivé  de  plus  remarquable  en  nos 
+[ oyages  , les  circonftances  de  noftre  eftabliflement  à 
+: iiam  , les  motifs  de  mon  retour  en  Europe  ,&  l’entrée 
+
+■ le  nos  Ecclefiaftiques  dans  les  principaux  lieux  de  nos 
+: Millions,  &en  fuite j’infereray  les  dernieres  nouvelles 
+: [uej’ay  receuè’s  deMonfeigneur  l’Evefque  de  Beryte, 
+
+; jui  ne  contribueront  pas  peu  à confirmer  mesLefteurs 
+: ;n  cette  croyance,  que  quelques  oppofitions  que  nous 
+
+millions  prévoir  à nos  defleins , il  y a neantmoins  en- 
+;ore  plus  de  fujet  que  jamais  d’efperer,  avec  la  grâce  de 
+Dieu  , des  fuccez  proportionnez  à l’attente  qu'on  a 
+,;uë  -,  qu’il  n’y  a point  de  fujet  de  fe  repentir  de'tout  ce 
+pi’on  a fait  jufqu’à  prefent  j&  qu’au  moins  ceux  qui 
+ant  efté  chargez  de  cét  œuvre , n’ont  point  reculé  en  ar- 
+riéré , 8c  font  difpofez  à confumer  le  facrifice  qu’ils  ont 
+fait  d’eux-mefmes  , pour  accomplir  leur  vocation. 
+
+Ma  confcience  me  rend  ce  témoignage  que  depuis 
+qu’il  a plu  à Dieu  de  m’appeller  ( quoy  qu’indigne  ) aux 
+fondions  de  l’ Apoftolat , je  n’ay  ceiîe  de  m’appliquer  à 
+[llavancement  de  l’œuvre  que  l’bglife  a voulu  mettre  en 
+nos  mains, 
+
+* 
+
+
+Apres  avoir  employé  plus  d’un  an  à Rome  pour  ol 
+tenir  du  S.  Siégé  tous  les  pouvoirs  qui  nous  eftoient  ne 
+celîaires , j’en  partis  fur  la  fin  de  l’ann  ée  1658.  je  vins  ei 
+France  pour  y chercher  des  Ecclefiaftiques  , & poif 
+examiner  la  vocation  & les  qualitez  de  ceux  qui  s’of 
+fraient  en  aftez  grand  nombre, comme  auffi  pour  établi 
+à Pa  is  une  correfponlance  fiable  > & pour  dilpoler  tou> 
+cequieftoit  neceffaire  pour  le  voyage. 
+
+M.  de  la  Mothe-  Lambert  Evelque  de  Beryte  , Vil 
+caire  Apoftolique  delà  Cochimhine  8c  de  la  vL hin<| 
+Méridionale,  le  mit  en  chemin  avec  deux  Ecclefiaftb 
+queseni66o.  8c apres  avoir  traverfé  la  Turquie, l’Ara 
+bie  , la  Perle  , & l’Inde  , 8c  s’efire  embarqué  fur  troij 
+mers  difierentes , il  arriva  fur  la  fin  de  i66z.  à Odia , au 
+trement  appellée  ]uthia  , Capitale  du  Royaume  dd 
+Siam,  ainfi qu’il  a efté  amplement  déclaré «dans la  rela 
+tion  de  fon  voyage  qu’on  a donnée  au  public. 
+
+En  1661.  M.  Cotolendy  . Evefque  de  Metellopolis 
+Vicaire  Apoftolique  de  la  Chine  Septentrionale  prit  h 
+mefme  route,  accompagné  de  trois  perfonnes,  8c  avec! 
+une  diligence  extraordinaire  arriva  , en  fept  ou  huiti 
+mois , fur  la  cofte  de  la  Mer  de  Bengale , où  il  fut  atta-l 
+qué  d’une  maladie  qui  l’emporta. 
+
+Ce  Prélat  confommé  en  vertus  a efté  la  première  vi  j 
+dfiime  de  noftre  Million  -,  Et  quoy  que  la  perte  d’un  fi 
+grand  homme,  femble-  l’avoir  affoiblie  , neanrmoina 
+ayans  efte  les  témoins  de  la  lainteté  de  la  vie, nous’ avonsl 
+conçeu  une  particulière  confiance  , qu’efiant  devant 
+Dieu,  &jouïliant  de  la  gloire  , nous  reuentirons  du- 
+rant le  cours  de  nos  travaux  , l’effet  de  les  intercef- 
+fions. 
+
+Pour  mon  particulier  je  fus  obligé  de  demeurer  à| 
+Paris, pour  achever  de  mettre  ordre  a toutes  nos  attires, l 
+&àdilpofer  mon  embarquement  avec  fept  Ecclet  ani- 
+ques  , 8c  quelques  pieux  Laïques  , pour  traverlct  1 O- 
+cean  fur  un  Vailleau  qui  avoir  eft«  bafty  par  le  con- 
+
+
+His  de  plufieurs  perfonnes  de  qualité , pour  nous  por- 
+r.vec  tout  l’équipage  deftiné  à nos  Millions  : Mais  ce 
+al  eau  apres  avoir  efté  long-temps  retenu  dans  les 
+: c;s  de  Hollande  par  les  Officiers  des  Eftats,  pour  des 
+lies  allez  connues , ayant  pery  prés  du  Texel  3 mon 
+i ^rt  fut  retardé  d’une  année  entière  , &je  ne  pus 
+:o|jr  de  France  que  le  deuxième  janvier  milfix  cenc 
+'iante-deux  , accompagné  de  neuf  perfonnes  avec 
+Quelles  je  m’embarquay  à Marledle  , pour  fuivre  le 
+icjjpin  qui  nous  avoir  cité  tracé  par  ceux  qui  elloient 
+ilfis  devant  nous. 
+
+fi-^ioy  que  noftre  Mifïïon  fouffrift  un  notable  prej udi* 
+:oin  la  perte  de  ce  Vailfieau /Neantmoins  cette  difgra- 
+aii^pparente  a efté  utile  à noftre  deil’ein , en  ce  qu'elle 
+cfebligea  de  faire  mon  voyage  par  terre,  duquel  j’ay 
+:ii  1 beaucoup  de  profit  pour  mon  inftruÊtion  particu- 
+e , par  la  communication  que  j a y eue  en  divers  lieux* 
+il  je  plufieurs  excellens  Ouvriers  Evangéliques, 
+ild’arrivay  en  Alep  un  mois  apres  mon  embarquement, 
+tips  la  conlolation  de  voir  en  ce  lieu  une  des  plus  tloril- 
+lii  1res  Millions  qui  foit  dans  le  Levant  , neuf  ou  dix 
+tt  lîionnaires  de  divers  Ordres,  fort  unis  entr’eux  , ne 
+lans  jour  & nuit  de  s’appliquer  à la  converlion  des 
+
+i.  îifmatiques  , &des  Heretiques  de  diverles  Sectes. 
+
+1 efté  un  de  mes  foins  , durant  noftre  marche,  de 
+^informer  par  tout  de  l’état  de  noftre  Religion , & des 
+mbyens  d’en  eftendre  les  progrez. 
+n'iAuiortird’Alep  ie  ne  pus  tenir  la  route  deBabylone, 
+
+j. :oyque  la  plus  courte , à caufe  des  excelîives  chaleurs 
+:f| ’on  fouftre  fur  les  confins  de  l’Arabie  & du  Sein  Per- 
+
+ue,  quandla  Çiifon  eft  trop  avancée  : c’eft  p'ourquoy 
+i pris  le  chemin  d’Erzeron  dans  la  Turcomanie  , pal- 
+lie toujours  entre  la  Natolie  & l’Euphrate , d’où  con- 
+i.liiiantmon  voyage  vers  Tauris  , jerendis  vifite  au 
+Ll.triarche  des  Arméniens  près  de  la  ville  d’Erivan,  dans 
+U fameux  Monaftere  d’Heretiques  Eutichéens,  qui  ne 
+
+
+8 
+
+font  pas  moins  opiniaftres , qu’ignorans  : J’y  en  trou  * 
+entr’autres  un  certain , qui  ayant  efté  en  Pologne , a\ i 
+quelque  teinture  de  la  langue  Latine,  je  voulus  en>  ci 
+en  conférence  avec  luy  fur  le  point  principal  de  l’ht a 
+fie  d’Eutichés  *,  mais  il  éluda  avecaddreiïe  mes  demi 
+des.  Je  forcis  de  ce  Monaftere  peu  édifié  de  ces  R. 
+gieuxj  qui  ne  font  pas  paroif  re  beaucoup  de  pic] 
+quoyque  d’ailleurs  leur  vie  foie  fort  aufiere. 
+
+Apres  quelque  peu  de  fejour  àTauris  j’arrivay  à b 
+pabam  Capitale  de  la  Perle . où  m’étant  informe  des 
+veries  routes  que  je  pouvois  tenir  pour  penetrerjulq 
+dans  la  Chine,  je  mis  en  deliberation  fij’irois  par  T-' 
+re, fuivanules  ouvertures  que  j’entrouvois  : les  p 
+fages  me  détournèrent  de  ce  deffein  trop  hazardeux, 
+vins  donc  m’embarquer  au  port  de  Gamron , furie  S. 
+Perfique,  dans  un  vaiffeau  Anglois  , & apres  trei 
+joursde  navigation,  je  mis  pied  à terre  à Surate,  p 
+mier  port  des  Indes.  De  là  marchant  fur  les  traces 
+M.  deBeryte,  jepalfayfurune  partie  des  Etats  du  grs 
+Mogol,&  traverfay  tout  le  Royaume  de  Golcon! 
+jufqu’à  Maflulipatan  , d’où  ayant  palfe  le  Golphe 
+Bengale  £ pris  port  àTennalfetim , j’arrivay  heureu 
+mentàOdia  , apres  avoir  confommé  deux  ans  dep 
+mon  départ  de  Marfeille  jufqu’à  mon  arrivée  en  ce 
+ville- là. 
+
+Toutes  les  fatigues  d’un  fi  long  & pénible  voyage  f 
+rent  bien- tofi:  oubliées  par  la  rencontre  que  j’y  fis  | 
+Monfieur  de  Beryte  , où  divers  accidens  l’avoient  q 
+ïefté. 
+
+Il  me  feroit  difficile  d’exprimer  quelle  fut  la  fatisfj 
+ébiondemon  ame  devoir  les  heureux  commencemel 
+de  fes  emplois  A poftoliques  vers  les  Cochinchinois  qui 
+y avoir  rencontré  , dont  U elt  parlé  dans  la  relation  w 
+les  voyages,  j’ay  ellé  depuis  témoin  des  progrès  :! 
+cette  nouvelle  Eglile , qui  s’eit  toujours  augmentée  p" 
+les  foins  afli  dus  de  ce  Prélat,  & par  la  conYerfiou  4 
+
+
+7 
+
+lueurs  de  ces  Cochinchinoîs. 
+
+Lrfque  j’arrivayà  Siam  5 il  n y a voit  pas  long- temps 
+ivM-  de  Beryte  y eftoit  de  retour  > il  s eftoit  embarque 
+oi:  la  Chine , fur  un  vaifleau  qui  devoir  mobilier  à 
+’atom  : mais  apres  plus  de  trente  jours  de  tempehe  & 
+Continuels  orages  U fut  obligé  de  retourner  à Siam. 
+
+faut  attribuer  (on  retour , qui  a conferve  la  petion- 
+e pour  nous  faire  ainfi  rencontrer  enlemble,  àunef- 
+ïfces- particulier  de  la  Providence  de  Dieu  fur  noftre 
+■Fion  -.car  il  eftoit  d’une  extrême  confequence  que  je 
+k'e  conférer  avec  luy  = pour  régler  d un  commun  avis 
+[leurs  points  eflêntiels  à la  conduite  que  nous  avions 
+nu- pour  oblerver  l’uniformité -en  toutes  nos  démar- 
+chés. . . 
+
+Si  Monfieur  de  Beryte  fuft  palîe  à la  Chine , iuivant 
+Idefir , il  n’euft  pu  le  garantir  de  la  rigueur  des  Ar- 
+L qu’on  y avoit  depuis  peu  publiez  L Empereur 
+[tare  qui  domine  ce  grand  pays , avoit  fait  d;fences 
+s de  griéves  peines  de  forcit  de  fes  ports , 5c  qu  au* 
+
+1 navire  eftranger  n’y  fuft  receu.  Les  Gouverneurs  , 
+confequence  de  ces  ordres,  ne  permsttoiênt  pas  a 
+iixqui  y eftoient entrez  , ny  de  s en  retourner,  ny 
+Voir  aucune  communication  au  dedans, ce  qui  eult 
+tailliblement  fait  périr  ce  Prélat,  & toute  fa  trou- 
+
+L’on  peut  encore  icy  obferver  un  autre  effet  de  la 
+bvidence  en  ce  que  les  tempeftes  qui  empelchenc  les 
+1 fléaux  d’arriver  à la  Chine  , les  rejettent  ordinaire 
+:nt  dans  le  golphe  de  la  Cochinchine  i & fl  cela  un 
+
+ivé , ce  Prélat  n’y  euft  pas  trouvé  un  plus  favorable 
+îcueil  ,1a  perfecution  s’y  eftant  allumée  peu  aupara- 
+■i nt  contre  les  Chreftiens.  Les  ennemis  de  noftre  Foy 
+1 pouvansvoit  fans  douleur  les  progrez  quelle  faiioit, 
+% teflentit  bien-toft  l’effet  de  leur  haine  : car  en  plu. 
+iur-s  lieux  l’exercice  de  la  Religion  Chreftienne  fmjcf- 
+nureufement  défendu , quelques  Eglifes  furent  abba. 
+
+I 
+
+
+8 
+
+
+m'es,  les  faintes  Images  & les  ornemens  facrez 
+jettezaufeu,  grand  nombre  de  Néophytes  furent 
+mal-traitez,  il  y en  eut  entr 'autres  quatre  qui  moq 
+rentcondamment  pour  la  ConfeŒon  du  nom  de  Je  t 
+Christ  & , fcellerent  leur  foy  par  leur  fan  g.  C 
+tragédie  arriva  en  1 66;.  & du  depuis  la  perfecutic 
+continué  d’affliger  cette  Eglile. 
+
+M.  de  Beryte  avoic  eu  loin  déferire  aux  princip 
+Millionnaires  qui  eftoient  dans  ces  Royaumes  , p 
+leur  donner  luy-mefme  la  nouvelle  de  fon  arriv; 
+Siam  3 & leur  témoigner  le  deftr  qu’il  avoir  de  le  joirq 
+à eux  pour  les  ayder  dans  leurs  travaux  & partage 
+veceux  letreior  de  leurs  foutfrances.  Il  receut  quel 
+temps  après  des  lettres  pleines  de  civilité  & de  refp 
+des  Peres  Jefuites  delà  Cochinchine,  dont  le  Superi 
+eftoit  François',  Ces  Peres  voulurent  que  leurs  leu 
+fulîent  accompagnées  de  quelques  prelents , entre 
+très  d'un  coutelas  qui  avoir  fervy  ^ trancher  la  te 
+d’un  des  quatre  Martyrs,  d’une  natte  arroulee  du  fa 
+d’un-autre , 8c  d’un  linge  trempé  dans  leur  iang. 
+
+Ces  Peres  reprefenterén:  en  fuite  à M.  de  Beryte  1 
+convenant  qu’il  y avoit , qu’il  fift  fon  entrée  dans  la 
+c'  inchine  dans  un  temps  auquel  la  perfecution  con 
+lesChreftiensfembloit  plus  échauffée;  Que  l’éclat  de! 
+dignité , qui  ne  pouvoir  eftre  cachée  , irtiteroit  davt, 
+rage  la  haine  des  ennemis  de  nodreFoy,  qui  ne  ch 
+choient  qu’une  occafion  de  faire  exiler  les  Mifhonairt, 
+&que  s’ilvouloit  eftre  plus  particulièrement  infort 
+de  l’eftat  des  chofes , il  pouvoir  envoyer  un  de  les  Ecc 
+fiaftiques,quiluy  en  feroic  un  rapport  hdele  , fuiva: 
+quoy  il  prendroir  mieux  les  mefures 
+
+Moniteur  de  Beryte  crut  qu’il  devoir  fe  foumett 
+aux  ordres  de  la  Providence,  en  acquielcant  aux  avis  : 
+ces  Peres , & le  côntenta  pour  lors  d’envoyer  à la  C- 
+chinchineunEcclefialdique  accompagné  d’un  Interpre; 
+avec  ordre  de  conférer  ayec  lefdits  Peres  des  moyens  a 
+
+
+? 
+
+,e!»  ifcourir  cette  Eglife  affligée  & d’obferver  lbigneufe- 
+tient  fi  entre  les  plus  anciens  Cathechiftes , il  n’y  en  au- 
+oit  point  quelques  uns  qu’on  put  difpofer  àla  Preftrife; 
+jil  écrivit  auffi  une  lettre  Paftoralle  qu’il  leur  adreffà 
+’St  Jour  la  communiquer  aux  plus  fervents  Chreftiens,  à 
+:csJ  Laquelle  ils  ont  fait  une  réponfe  fort  touchante , qui  fera 
+ty-aprés  inferée. 
+
+m s ]’ay  voulu  icy  obferver  plus  en  détail  la  conduite  qu’a 
+>’•  tenue' M.  de  Berite  5 qu’on  n’a  faite  dans  là  relation  de 
+ï fes  voyages , pour  faire  voir  qu’il  n’a  rien  obmis  de  fa 
+l'o  part  pour  entrer  plus  avant  dans  les  lieux  de  fon  Vica- 
+s;  iriat  Apoftohque,  &qu’ilenaeftéempefché  par  desob- 
+«i  ftacles  qu’il  n’a  pu  vaincre. 
+
+■f  Quant  à ce  qui  regarde  ma  perfonne , je  n’ay  pas  é- 
+e prouvé  une  protection  de  Dieu  fur  moy  moins  fenfible. 
+I.  Lors  que  je  fus  arrivé  à Siam,  je  ne  penfay  qu’à  chercher 
+■jles  moyens  & les  voyes  d’entrer  au  Tonquin , qui  eft  le 
+Iprinci pal  lieu  de  ma  Million.  Comme  il  y a peu  de  com- 
+(merce  entre  les  ports  de  Siam  & duTonquin  je  fus  o- 
+bligé  de  recevoir  l’offre  que  me  fit  un  Marchand  Maho- 
+imetan  , de  me  porter  fur  fon  vaiffeau , quoyque  je  viffe 
+bien  que  cet  offre  me  deuft  eftre  un  peu  onereufe.  En 
+effet  quelques  jours  après  je  ne  pus  pas  me  ditpenfer  en 
+reconnoifiance  de  fa  civilité,  de  luy  faire  unpreft  gra- 
+.tuitde  cinq  cens  efcus  > mais  il  me  manqua  de  parole, 
+& après  avoir  équipé  fon  Vaiifeau  fur  lequel  j’eftois 
+prett  de  m’embarquer  , il  me  déclara  qu’il  n’iroit  point 
+, au  Tonquin.  U eft  certain  que  ç’aefté  par  une  conduite 
+particulière  de  Dieu  fur  moy , que  je  n’ay  pu  reuffir  pour 
+: lors  dans  cette  entreprife. 
+
+Car  au  mefme  temps  que  je  faifois  des  inftances  aué 
+: prés  de  ce  Mahometan  pour  l’obliger  à me  tenir  parole  » 
+je  receus  nouvelles  affleurées  du  Tonquin  que  la  perfe- 
+cution  s’y  eftoit  extrêmement  échauffée  contre  les  Chré- 
+tiens , que  la  publication  de  noftre  fain te  Foyy  eftoit 
+deftendu'e  avec  les  dernieres  rigueurs , & que  tous  les 
+
+
+Prédicateurs  Evangéliques  en avoîent  efté  bannis-,  D 
+force  que  chacun  jugea  que  mon  abord  en  ce  pais  eu! 
+efté  un  contre  temps  fafcheux,  quon  n'euftpas  man 
+qué  d’interpreter  & de  faire  palier  pour  une  delobeïl 
+fance  formelle  aux  ordres  du  Roy^ce  qui  l'auroit  de  nou 
+veau  irrité  & rendu  implacable  contre  ces  nouveau: 
+Chrétiens , Iefquels  il  n’eft  pas  à propos  d'expofer  au: 
+perfecutions  les  plus  violentes , dépourveus  de  Preftre 
+comme  ils  font. 
+
+L'Arreft  porté  contr-‘eux  eft  rigoureux  , en  voie; 
+en  partie  la  teneur  , extraite  d’une  letrre  duTonquit 
+dattée  du  i<,.  Janvier  1664. 
+
+Nous  avons  chajfè  & nous  chaffons  àpe-rpetuité  hors  dt 
+noftre  Royaume  cesPeres  ( ce  font  les  Prédicateurs  ) lef- 
+quels  fugitifs  de  leurs  terres  font  venus  enfeigner  aux  peu- 
+ples gr offert , aux  ignorans  & aux  femmes  une  loy  qui  cfi 
+fans  fondement  , d'autant  plus  pernicieufe  & ridicule , 
+quelle  en  feigne,  quil  ne faut  point  adorer  ny  le  Ciel  ,ny  U\ 
+Terre  ; Qu  il  ne  faut  point  rendre  de  culte  a l' Efpdt  ny  aHt 
+Démon  ; Vneloy  qui  fait  que  les  femmes  quittent  leurs  ma- 
+ris que  les  maris  abandonnent  leurs  femmes  , &c. 
+ces  caufes  nom  ordonnons  que  les  Chefs  de  nos  Officiers  ref~  | 
+dans  près  de  nous  en  n'offre  Cour , & ceux  qui  commandent I 
+dans  les çydldècs  ( ce  (ont  leurs  villes  & bourgades)* 
+ayent  a faire  les  diligences  po  finies  pour  ramaffer  tous  les  li-  , 
+vres  des  prières  ,&  ou  font  contenues  les  doftdnes  que  css\ 
+\Peres  ont  femèes  par  le  Royaume  ; Qjfils  lesfaffent  brûler  A 
+& que  rien  nerefte  df  une  f méchante  Loy  Nous  commun-  I 
+dons  d toutes  perfonn es  qui  connoi front  des  Cathechiftes 
+eu  des  Tredicateurs  de  cette  Religion  , de  les  refrrer pro-  J 
+mettant  de  les  recompenfer , &c. 
+
+La  derniere  Relation  des  chofes  arrivées  au  Tonquin 
+donnéeau  public  par  le  Pere  Tiftanier , Jefuite  François, 
+décrit  les  commencemens  de  cette  perlecution  , & le  1 
+Pere  Phdippes  de  Marinis  aufli  Jefuite  en  parle  plus  < 
+amplement  en  fonhiftoire  eu  langue  Italienne,  qui  fait  1 
+
+connoiftre  ' 
+
+
+-’onnoîftre  que  îe  Roy  ayant  fait  faire  commandement  à 
+ieufou  dix  Millionnaires  répandus  dans  fon  Royaume, 
+le  fe  rendre  à fa  Cour  dans  un  temps  prefîx , fans  en  a- 
+roir  déclaré  la  raifon , les  fit  tous  embarquer  iur  un 
+7aüîeau  qui  s’en  alloit  à Macao,  à la  referve  du  Supé- 
+rieur qu’il  retint  pour  certaines  confidetations  d’Erat , 
+St  auquel  il  donna  feulement  un  compagnon  -,  mais  il 
+es  obligea  de  demeurer  dans  fa  ville  Royale , en  uns 
+naifon  qui  leur  fut  marquée , leur  défendant  tres-étroi- 
+
+t:ementde  faire  des affemblées  , ny  aucune  fondion  de 
+eür  Religion. 
+
+1 C’eft  ce  qu’erwrapportent  ces  Autheurs , & j’ay  appris 
+Tailleurs  que  ces  deux  Millionnaires  ont  demeuré  deux 
+au  trois  ansencét  eftat , avecuntroifiéme , qui  fut  ad- 
+nis  depuis  dans  le  Royaume.  Mais  que  quelques  mal- 
+yeillans  ayans  faic  naitlre  de  nouveaux  foupçons  con- 
+te eux,  &les  ayans  chargez  deplufieurs  accufations, 
+ls  furent  enfin  bannis  dans  laderniere  perfecucion  que 
+’aycy-devant  rapportée , & contraints  de  monter  fur 
+in  vaiiTeau  Hollandoisqui  les  porta  à Batavie.  Le  Su- 
+périeur déjà  âgé  & confumé  de  travaux  y eft  mort , & 
+es  deux  autres  qui  font  François , ayans  appris  que  nous 
+dtions  à Siam,  prirent  refolution  de  nous  y venir  trou- 
+ver , &nous  écrivirent  des  lettres  fort  civiles. 
+
+J’avoue  que  la  nouvelle  de  cette  perfecution  me  jet-' 
+
+’ a dans  un  grand  embarras  d’efprit  à mon  arrivée  en 
+:es  pais,  voyant  la  porte  de  mes  Millions  fermée,  8c 
+ne  fentant  prelfé  d’un  defir  ardent  de  fecourir  au  périt 
+le  ma  vie  cette  Eglife,  vers  laquelle  i’eftôis  envoyé, 
+k qui  fembloit  avoir  plus  de  beloin  de  la  prefence  de 
+on  Evefque.  C’eff  pourquoy  ne  pouvanc  refifter  aux 
+uftes  mouvemens  qui  m’animoient  alors  , je  crûs  qu’il 
+" îftoit  de  mon  devoir  de  faire  tous  mes  efforts  pour  en- 
+; 1er  au  Tonquin  , & m’abandonner  tans  refer  ve  à la  pro- 
+- ddence  de  Dieu , qui  m’avoit  amené  au  travers  de  tant 
+le  dangers  fi  proche  du  lieu  ou  je  deyois  achever  mon 
+Sacrifice.  B 
+
+
+12 
+
+Cependant  l’écrivis  aux  Chrétiens  clu  Tonquin  une 
+lettre  la  plus  tendre  qu’il  me  fut  poffïble  , pour  les  en-' 
+courager  a foutfrir  pour  Jésus  Christ  qui  ne  per. 
+mectoit  cette  perfecution,  que  pour  éprouver  leur  Foj 
+& leur  amour  envers  luy-,  Je  leur  repreientois  que  le 
+Croix  eltoient  le  partage  de  tes  1 feus , & les  louftrance: 
+le  chemin  aCTeurc  du  lalut  eternel . que  nôtre  Seigneui 
+avoit  luy-mefme  voulu  nous  apprendre  à fouffrir  , & ; 
+endurer  plûtoft  la  mort,  que  de  manquer  à rendre  1 hon! 
+neur  qui  eft  deù  à la  Majelie  de  Dieu  •,  je  les  averedfoi 
+■ce  te  fouvenir  qu’ils  a voient  renoncé  aux  Idoles , qu’iP 
+ne  pouvoient  plus  fe  ioû  mettre  aux  ■fuperftitions  par 
+y.  unes  qu’ils  avoient  deteliées  , tans  trahir  leur  con  i 
+fcience,  fans  faire  outrage  à leur  Créateur , & fans.lt 
+rendre  coupables  de  l’eternelle  damnation  le  leur  en1 
+voyay  la  lettre  qui  leur  reprel.  ntoit  ces  choies  plus  ai 
+long  j par  le  moyen  d'un  lnterprette  qui  étroit  Catholii 
+que. 
+
+l’appris  par  des  lettres  venues  de  Manille,  que  le 
+Efpagnois  faifoient  patïerde  temps  en  temps  desNavi 
+resauTonqum,  & que  le  Gouverneur  des  Philippine 
+y avoir  envoyé  depuis  peu  une  Amballade  On  me  don 
+na  auffi  avis  que  le  Roy  de  Siam  elloir  tm  le  point  di 
+faire  untraitté  d’alliance  avec  celuy  du  Royaume  d 
+Laos  ■,&  comme  il  y a libre  pai’age  de  Laos  au  Ton 
+quin,je  crûs  qu’allant  à Laos  l’entrée  en  cet  Lltat  m 
+leroit  radie. 
+
+D i vertes  raitons  m’empefeherent  pour  lors  de  pren 
+dre  le  chemin  de  Manille,  & le  hs  dellem  . fuivantJ 
+confeil  de  mesamis  de  tenterla  voye  de  Laos,  quoiqiu 
+peu  fréquentée , fort  longue  , & exposée  à oivers  ha 
+zatds.  Mais  le  Prefident  du  Commerce  de  Siam  avec  ld 
+quel  je  devois  traiter  pour  mes  pafieports , s’oppoia 
+mon  detlein  , lur  ce  qu’etlant  uropean  il  te  figura  qui 
+inon  entreeaupais  de  Laos  y poutroit  caufer  des  om 
+b. âges  , qui  nuitoient  aux  aiïaites  de  Ion  Maiitre.  I 
+
+
+f !? 
+
+4Iut  donc  ceder  à ces  obftacles , qui  malgré  tous  mes 
+lins,  m’avoient  fermé  toutes  les  avenues  du  Ton- 
+uin. 
+
+. C'eft  ce  qui  nous  obligea  , Moniteur  l’Evefque  de 
+,eryce&  moy  d examiner  devant  Dieu  & avec  une  ac- 
+intion  particulière  , ce  que  nous  avions  à faire  , veu 
+s difpofuions  de  nos  Millions:  Et  enfin  , après  piu- 
+eurs  confiderations , nous  crûmes  que  la  volonté  de 
+fieu  nous  eftoit  fuffifamment  declaree  , & que  ce  fu- 
+îémeDifpenfateur  de  toutes  choies  ayant  permis  que 
+pus  trouvaiïions  des  empefchemens  pour  lors  infur- 
+lontables  de  pafter  plus  avant , iT  faiioit  allez  connoî- 
+ie , que  nous  devions  nous  arrefter  à ce  qu’il  nous  ren- 
+dit lors  poüible , qui  eftoit  de  nous  eftablir  dans  la  Ca- 
+taledeSiam  , &d’y  poler  une  refidance  ftable  & af- 
+rée  pour  les  Ecclefiaftiques  François,  d’où  nous  poti- 
+ons ménager  les  occaiions  d’entrer  dans  ces  Royau- 
+es , où  nouseitions  principalement  deftinez , lors  que 
+[porte  nous  en  feroit  ouverte. 
+
+Noftre  reiolution  ainfi  prife  de  nous  arrefter  à Siam  , 
+<>us  ne  pensâmes  plus  qu’à  nous  appliquer  à nous  pre- 
+jjloir  du  temps  de  ce  repos  dont  nous  commencions  à 
+un-  , ponr  prévoir  ce  qui  nous  pourroit  eftre  utile 
+ns  le  cours  de  nos  Millions. 
+
+il  feroit  difficile  de  concevoir  combien  noftre  fejour 
+e ce  li#i  là  nous  a efté  utile  en  toutes  maniérés,  ii  nous 
+4 l'avions  appris  par  noftre  propre  expérience  ■,  Nous 
+rt(|  pouvons  allez  bénir  l’admirable  conduite  de  Dieu, 
+4 nous  voir  en  feureré  , reiimsdans  une  ville,  donc 
+, k|  us  n’avions  pasmelme  oiiylenom  en  Europe  ,avec 
+f i erté  de  nous  y occuper  aux  fondions  de  noftre  Mi- 
+otjr  lere  & d’y  faire  tous  les  exercices  de  noftre  Religion 
+oiis  aucun  trouble. 
+
+ioi  1 nous  fut  ailé  alors  de  reconnoiftre  qu’il  eft  bonde 
+oandonner  à la  Sagelle  infinie  de  ce  divin  Maiftre-, 
+B fortant  d’Europe  nous  encrâmes  comme  à l’aveugle 
+
+B ij 
+
+
+en  AÈe , fansfçavoir  quelle  route  tenir.  Mais  qui  s eft 
+jamais  repenty  de  s’eftre  confié  entièrement  à luy  ? Il  a 
+efté  noftre guide  en  toute  noftre  marche,  comme  luy 
+feul  eftoitle  motif  de  noftre  voyage  •,  il  nous  a confervé 
+au  milieu  des  dangers  d’une  route  qui  nous  eftoit  incon- 
+nue , & à tous  ceux  avec  qui  nous  avions  voulu  prendre 
+des  mefures  -,  rien  n’a  efté  capable  de  nous  arrelter , & 
+il  faut  avouer  ingenuement , que  le  defir  d’accomplir 
+fa  vocation  , de  latisfaire  aux  ordres  de  l’Egliie,& l’a- 
+vantage qu’il  y a de  foutïrir  quelque  chofe  pour  noftre 
+Seigneur  , qui  fortifie  le  courage  desfiens,  loncdepuil- 
+lants  motifs , & moyens  tout  enfemble  pour  furmontet 
+les  plus  grandes  diftictiltez  qui  fe  prefentent  frequem. 
+ment,  &lefquelles il  faut  combatrre  prefque  a chaque 
+pas  qu’on  fait , en  ces  voyages  éloignez. 
+
+Je  m ’étendrois  plus  au  long  à faire  remarquer  ce  qut 
+nous  avons  gagné  pour  l’avancement  de  nos  defteins 
+par  ce  premier  établillement  que  nous  avons  fait  i 
+Siam  , s’iln’avoit  efté  déjà  reprelentc  ailleurs. 
+
+Je  me  contenteray  feulement  d oblerver  en  cet  en 
+droit,  que  comme  il  n’y  arien  de  plusneceliaire  pou 
+la  propagation  de  la  Foy  en  tous  ces  pais  d’Orient,qu 
+d’y  avoir  des  Séminaires,  pour  y eiever  des  gens  d 
+pais , & les  difpoler  à l’eftat  de  Catechiftes  , ou  du  S< 
+cerdoce  , on  le  peut  faire  aifément  à Siam  , où  il  e 
+permis  à toutes  lortes  de  Nations , de  s’eftablir  Qn  pei 
+auffide  là  trouver  des  commoiitez  pour  aller  prelqu 
+par  tout  i parle  chemin  de  terre  , aux  Royaumes  c 
+Pegu , d’Ava , de  Laos , par  le  chemin  de  mer , à la  CF 
+ne,  à la  Cochinchine  , au  Tonquin  , au  Maculîar,] 
+Bengale , &c. 
+
+L’abord  de  toutes  ces  Nations , à chacune  defquell 
+l’on  marque  differents  quartiers  hors  la  ville  pour  lel  . 
+habitation , offre  une  grande  commodité  à nos  Miffic- 
+naires , pour  apprendre  là  langue  des  pais , aulquels  i 
+feront  deftinez  -,  ils  pourront  aulfi  par  avance  s’mftru: 
+
+
+*5 
+
+des  coutumes , des  moeurs , & des  croyances  de  chaque 
+Royaume,  & pratiquer  des  habitudes  pour  s y intro- 
+duire avec  facilitp , accompagnans  les  Marchands  qui  ' 
+Ivont  & viennent , & autres  qui  arrivent  à Siam  pour  di« 
+veriès  Négociations. 
+
+Et  enfin , comme  l’experience  montre  à quelles  per- 
+fections on  eft  fouvent  expole  en  ces  divers  eftars , 
+quand  on  y prefche  la  Religion  Chreftienne,  & que  les 
+Prédicateurs  font  obligez  de  temps  en  temps  de  s’ab- 
+fenter , & quelquefois  forcez  d’en  fortir  ;il  eft  évident 
+que  c’eftoitune  choie  de  grande  confequence,  qu'ils 
+eullent  non  feulement  un  lieu  de  refuge , où  ils  trou- 
+vaient une  retraite,  allurée  en  cas  d’exil-,  Mais  encore 
+doit  ils  puflenc  recevoir  de  temps  en  temps  aflillance 
+de  confeil , d’argent , & autres  fecours. 
+
+Ce  qui  a fait  que  Noffeigneurs  les  Cardinaux  de  la 
+i facrée  Congrégation  de  la  propagation  de  la  Foy , auf- 
+t : quels  on  a rendu  un  fidele  compte  de  ces  dil  polirions , 
+
+' ont  jugé  qu’on  ne  pouvoir  penfer  à un  eftabliiïemenc 
+plus  unie  j qu’à  celuy  que  nous  avons  fi  heureuiement 
+commencé  à Siam. 
+
+Durant  le  fejourque  nous  y avons  fait  , noftre  pre- 
+[ miere  application,  a efté  de  cultiver  la  nouvelle  Eglile 
+desCochinchinols , &en  melme  temps  de  ramaftèr  tou- 
+: tes  les  lumières  que  nous  avions  priies , loir  des  choies 
+' que  nous  avions  -remarquées  par  nous  melmes , fou  des 
+avis  qui  nous  avoient  efté  donnez  par  le*  plus  iages 
+1 Millionnaires  , afin  d’en  pouvoir  profiter  j & apres  avoir 
+pris  loin  particulier  de  reconnoiftre  ce  qui  pouvoic  re- 
+tarder les  progrez  de  l’Evangile , &en  diminuer  l’elii- 
+me  en  l’efprit  des  Idolâtres  Nous  avons  penfé  premiè- 
+rement à nous  garantir  de  tout  ce  qui  pouvoir  tendra 
+au  relafchement , auquel  nous  aurions  pû  infenfible- 
+menrnous  engager  par  quelques  railons  apparentes, 
+qui  fembloient  en  devoir  authorifer  l’ufage. 
+
+Secondement , nous  avons  crû  qu’il  eltoir  de  noftre 
+
+B iij 
+
+
+devoir  de  penfer  de  bonne  heure  aux  moyens  de  les  te-  ' : 
+trancher  entièrement  &de  nous  eftablir  d'abord  en  de  - 
+faintes  pratiques , & un  peu  plusfe  çres,  qui  peudent 
+iervir  de  modèle  à tous  , donnant  pour  cela  tout  le 
+foin  & toute  l'application  que  l’importance  de  la  cho- 
+fe,& l’honneur  de  noftre  aignité.demandoit  de  nous. 
+
+Et  afin  de  ne  nous  point  tromper  par  de  faillies  réglés,; 
+nous  avons  pris  l’Evangile  à la  main,  les  faints  Canons 
+del’Eglife,  lesConftitutions  des  Souverains  Pontifes, 
+les  Decrets  particuliers  de  la  facrée  Congrégation  delà 
+propagation  de  la  Foy  , l’exemple  des  hommes  A polio- 
+liques , principalement  de  S.  François  Xavier,  duquel 
+la  vie , les  actions  & tous  les  pas , ruais  fur  tout  les  ma- 
+ximes contenues  en  les  lettres  fournilTent  des  conduites 
+feures,parle  laint  ufage  delquelleson  peut  fe  promet- 
+tre de  très-grands  fuccez  , &ie  garantir  de  tout  repro- 
+che , eftantaffuré  qu’il  ne  fufht  pas  de  faire  le  bien,  mais  | 
+encore  qu’il  faut  procurer  qu’il  foit  fa  t par  des  vcyes  : 
+qui  foient  pures , droites , & légitimés. 
+
+Cet  examen  nous  fit  entrer  infenfiblement  en  la  dif- 
+cufiîonde  plufieurs  matières-,  & enfin  nous  jucealmes 
+M.  de  Beryte  & moy , avec  Favis  de  nos  Ecclefiaftiques, 
+que  pour  donner  un  fondement  lolide  à nos  delleins , il 
+elloit  abfolument  necelîaire  : 
+
+Enpremier lieu,  d’obtenir  du  faint  Siégé  , que  le  Vi- 
+caire Apofrolique  pourle  païs  & la  Ville  de  Siam  fuft 
+comme  îeaChef , & euft  quelque  direction  généra-  j 
+le  fur  toutes  nos  Millions. 
+
+En  fécond  lieu , d'eftablir  dans  Siam  un  Séminaire  ge- 
+neral pour  y apprendre  les  Langues  de  tous  lesRoy  au- 
+lnes voifins , y former  des  Catechiites  , & préparer  au  t 
+Sacerdoce  ceux  qu’on  en  jugera  les  plus  dignes. 
+
+Entroifiëme  lieu,  de  faire  approuvera  Rome  divers 
+reglemens  que  nous  jugeâmes  necefiaires  pour  notice  I 
+conduite,  ahn  qu’eftans  amodiez  du  faint  Siégé,  en  t 
+les  fift  plus  facilement  obferver. 
+
+
+17 
+
+En  quatrième  lieu  , de  faire  décider  des  ditHcuItez 
+mportantes  , foie  pour  les  fnœurs  , foie  pour  la  dikipÜ- 
+ie  Ecclefiailique  de  ces  lieux-,  La  plulpait  des  M'i  {ho- 
+raires eftansiouvent  en  peine  àquoyfe  refoudre  fur  ce 
+ujet,cequi  faitnaiftre  des  difterens  entr’eux,  & pré- 
+judicié à la  Religion. 
+
+Finalement,  de  pourvoir  à plufieurs  autres  points, 
+donc Fétabliil'ement  n’efoit  pas  d'une  moindre conie- 
+quence. 
+
+JLes  chôfesainfi  refolucs  aptes  une  longue  & meure 
+deliberation  , nous  crûmes  quil  e-ftoitnecelîaire  que  I un 
+de  nous  vinft  en  Europe,  afin  de  pourfuivre  1’execunon 
+& la  decifion , tant  des  choies  projettées , que  des  q.ie- 
+fiions  à reioudre  qu’on  jugeoit , d’un  fi  grand  poids  & fi 
+importantes  en  leur  fuite,  quelles  ne  pouvoient  eftre 
+propofées,  expliquées,  & pouriuivies,  comme  il  le  mi 
+bloit  neceilaire  , que  par  un  des  Evelques  , dit  de- 
+voir defquels  il  feroit  , de  les  faire  obier  ver  , apres 
+. qu’elles  auroienc  elle  refalués  & terminées  à Ro- 
+me. 
+
+Cet  avis,  qui  fut  ouvert  par  M-  de  Beryte,  fut  exa- 
+miné long  - temps  , & enfin  fuivy  de  celay  de 
+tous  ceux,  avec  qui  nous  jugeafmes  à propos  d’en  con- 
+férer. Mais  comme  il  fe  trouva  pour  lors  fort  foible  de 
+fanté  ,on  ne  crût  point  qu’il  fuit  en  efiatde  s’expofer 
+une  ieconde  fois  aux  travaux  & aux  périls  d’un  voyage 
+de  deux  années.  C’elt  pourquoy  pour  l’intereffc  de  la 
+confervation  de  ce  Prélat,  m’eitant , grâces  à Dieu, 
+trouvé  lors  plein  de  vigueur,  je  fus  obligé  de  m’ofoir 
+pour  cette  Négociation. 
+
+J’avoue  qu’il  fallut  que  Dieu  me  fortifiai!; extraordh 
+nairement  -,  je  aie  fentois  attache  à ma  Million  vers  les 
+Nations  qui  m’eftoienc  particulièrement  commifes , 
+dont  je  me  voyois  fi  proche -,  les  liens  du  devoir  , delà 
+tendrelie  & de  la  compaffion  pour  ces  pauvres  âmes 
+abandonnées  faiioient  fur  moy  une  puitlance  impie  i- 
+
+B htj 
+
+
+fion  -,  & mon  cœur  ne  pouvoit  penfer  à s’en  éloignerons 
+une  extrême  violence  j’avois  encore  prefente  à l’efprit 
+la  fuite  des  difcultez  & des  fatigues  eftranges  que  j’a- 
+vois fouffértes  durant  mon  voyage,  dont  je  ne  failois 
+que  me  delaller , 8c  aufquels  il  faloit  m’expofer  de  nou- 
+veau •,  je  prevoyois  les  divers  jugemens  qu’on  feroit  de 
+mon  retour  en  France  : Enfin  jen’envifageoispar  tout 
+que  des  obftacles  à ma  refolutionj  Cependant confide- 
+rant  les  prellans  beloins  de  nos  Mifïïons  entièrement 
+mourantes  8c  tbranlées  par  la  malice  des  ennemis  de  no- 
+ftre  Religion  , je fermay  lesyeux  à tout,  pour  ne  re- 
+garder que  les  ordres  de  Dieu,  qui  m’etoient  déclarez 
+par  la  bouche  de  fes  ferviteurs  que  je  confiderois  com- 
+me fes  organes. 
+
+Je  partis  de  Siam  le  17.  Janvier  1665.  troisansaprés 
+mon  départ  de  France  , accompagné  d’un  vertueux 
+Gentilhomme  qui  s’eft  donné  à nos  Millions. 
+
+Après  trois  femalnes  ou  un  mois  de  chemin  par  terre, 
+nous  traversâmes  la  Mer  de  Bengale  en  moins  d’un 
+mois  , 8c  eftant  arrivé  à Mafulpatan  j’y  trouvay  un 
+Religieux  Caftillan  de  ^l’Ordre  de  Saint  François, 
+qui  revenoit  tde  la  Chine  , où  il  avoir  efté  14.  ans 
+dans)  l’exercice  des  fondions  de  Milîionaire  } Il 
+eftoit  en  fort  pauvre  eftat  & prefque  dénué  de 
+tout  il  revenoit  en  Europe  pour  les  affaires  de  la 
+Million  , je  le  receus  avec  bien  de  la  joye  en  ma  com- 
+pagnie, 8c  je  le  regarday  non  feulement  comme  un  lu- 
+jet  fur  qui  je  pouvois  exercer  la  charité  , mais  encore 
+comme  un  Ange  que  Dieu  m’envoyoit  pour  lacon'.o- 
+lation  démon  ame durant  le  voyage  qui  nousreftoità 
+faire. 
+
+Pour  furcroift  de  bon  heur , je  trouvay  fort  à propos 
+tin  fecours  de  mille-  eicus  qui  avoient  elle  envoyez  de 
+Paris  par  charité  pour  la  fublîllancede  nos  Millions,  8c 
+qui  nous ’avoit  efté  apportée  tres-lîdelementparle  lîeur  ; 
+Tavernier , fort  connu  en  tous  ces  pais  d’Onent  -,  Cette 
+
+
+{ïîfttiïice  impreveuéme  donna  d’autant  plus  de  fujet  de 
+enirDieu,  que  ma  compagnie  s’effant  augmentée,  & 
+non  voyage  devant  eftre  beaucoup  plus  long  que  je 
+’avois  penTe,j’eu(Te  efté  obligé  d’emprunter  de  l’argent, 
+i on  m’en  euft  voulu  prefter  ; ou  de  fouffrir  une  extrême 
+lifette. 
+
+: De  Maflulpatan  j’allay  au  Fort  de  Saint  Géorge , qui 
+ippartient  à la  Compagnie  d’Angleterre , j’attendis  là 
+jixmois  entiers  l’oportunité  de  quelque  Vailleau  qui 
+repallaften  Europe  ; mais  en  vain,  la  guerre  qui  eftoic 
+entre  1‘ Angleterre  & la  Hollande  empêchant  les  Vail- 
+feauxdeie  mettre  en  Mer:  Il  fallut  donc  le  refoudre  à 
+traverfer  une  fécondé  fois  toute  llnde  , enluiteje 
+m’embarquay  pour  le  port  de  Congo  dans  la  Perfe , 
+d’où,  après  avoir  paflè  le  fein  Perfique  , j’abordayà 
+Balfora,  delàjemontay  àBabylonefurles  Fleuves  du 
+Tygre  & de  l’Eufrate , j’y  arrivay  grièvement  malade  , 
+& j’avoue  que  je  dois  après  Dieu,  ma  guerifon  aux  cha- 
+ritables alTiùancesquejereceusdansce  mefme  lien  en 
+lamaifon  des  Reverends  Peres  Capucins  , qui  y font 
+unerefidence  ordinaire. 
+
+En  fuite , après  avoir  traverféla  Mefopotamie,  veu 
+MoulTbl  qui  eft  l’ancienne  Ninive  , Nizibe&  Edefle, 
+qu’on  appelle  maintenant  Orfa,  je  me  rendis  en  Alep, 
+■ où  j’eus  laconfolation  de  voir  les  progrez  de  nos  Reli- 
+gieux François  pour  la  réduction  des  Schifmatiques  & 
+Heretiques  à la  pureté  & à l’unité  de  noftre  fainte  Foy  j 
+L’ordre  qu’ils  gardent  en  leur  conduite  pourroit  fervir 
+de  modèle  à toutes  les  Miffions  du  Monde,  ils  travail- 
+lent de  concert,  fous  la  proteétion  deM.  Baron  Con- 
+fulde  France,  qui  refide  en  cette  ville  là , & qui  fait 
+heureufement  fervir  l’authorité  que  fa  charge  luy  dou- 
+ane pour  avancer  les  affaires  de  Dieu  :j’avois  befoin  de 
+trouvera  mon  arrivée  dans  Alep  unamy  aufTi  genereux 
+que  luy -.j’eftois  extrêmement  abbatu,  après  une  mar- 
+1 che  de  prés  de  cinquante  jours  que  j'avois  faite  depuis 
+
+
+Babyîone  ? durant  une  failon  froide  & pluvieinP:  Le 
+bon  traitement  que  je  receus  chez  luy  durant  prés,  j 
+d'un  mois  , repara  mes  forces  pour  continuer  mon 
+voyage. 
+
+Je  m'embarquay  a Alexandretre  fur  un  vaiffeauqui 
+venoità  Livourne  , où  j arrivay  le  vingt-feptiéme  Mars 
+en  bonne  lanté  , & apres  trois  lemaines  de  fejour  & de  1 
+rafrabhilTemenr  que  ;e  receus  deM  le  grand  Luc  debi 
+Tolcane  , j'allay  à Rome  rendre  compte  au  Saint  Siégé  j 
+des  motifs  de  mon  retour  : Meffeigneurs  les  Cardinaux  j 
+de  la  Congrégation  de  la  propagation  de  la  Foy  en  ayans  « 
+eu  nouvelles,  en  témoignèrent  beaucoup  de  latisfactiô:! 
+dautât  qu'ayant  exécuté  de  ma  part , avec  allez  de  loin 
+en  divers  lieux  où  j ’a vois  palTé, les  ordres  qu'ils  m'avoiéd 
+donnez,  ils  eftoient  bien  aùesqueje  futfevenuen  per- 
+fonneleur  expofer  le  véritable  eftat  de  toutes  choies. 
+
+NollreS.  Pere  le  Pape  Clement  1 X.  après  les  cere*.  : 
+moniesde  fon  exaltation  ,&  dés  qu’il  pût  vacqucrauxj 
+affaires  voulut  ellre  informé  de  celles  dont  j’avois  à i 
+l’entretenir-.  Après  m’avoir  écouté  , il  nomma  quatre  I 
+Caidinauxpout  Commiflaires,  afin  de  les  examiner  &1 
+luy  en  faire  le  rapport,  pourle.s  faire  expedier  le  plus  I 
+promptement  qu'il  feroit  pofîible , & pour  me  donner  f 
+plus  de  marques  du  zele  qu'il  a pour  nos  Employs  A-  \ 
+poftoliques  , & melme  pour  ce  quiregardoit  ma  per- 
+forme  , il  voulut  que  je  fuffe  porteur  d’un  Bref  de  la  part  R 
+addrelïc  au  Roy , par  lequel  fa  Sainteté  luy  témoigne  la  i 
+joye  de  mon  rertnir  à Rome  , comme  necellaire  pour  I 
+pourvoir  à plufieurs  befoins  desLglilesd’Otient,  &:  fait  I 
+connoiftre  à Sa  Maj  lté  qu'elle  luy  fera  piailir  très-  l 
+agréable  de  me  donner  fa  prote&ion  en  toutes  les  affai-  1 
+res  qui  regardent  une  fi  pieufe  &fi  glorieuleentreptile 
+qu'ell  la  nollre. 
+
+Après  avoir  donc  demeuré  prés  de  huit  mois  dans" 
+Rome  , je  fuis  venu  en  1 rance  pour  y travailler  a plu- 
+iieurs  chofes  très  importantes  au  bien  de  nos  Millions,  i 
+
+
+ont  j’ay  fait  connoiftre  le  Plan  à fa  Majefté,  qui  até- 
+iqignéeneftrefort  fatisfaite,  auflfi  bien  que  du  Bref  de 
+a Sainteté  que  je  luy  remis  en  main,  fur  lequel  Sa  Ma- 
+illé me  promit  de  faire  toute  l'attention  neceliaire , & 
+u’elle  examineroit  mes  mémoires,  pour  m'en  donnée 
+il  plutoft  la  refolution,  afin  de  ne  point  retarder  mon. 
+jetour , duquel  je  luy  fis  d abord  ouverture  & du  delfein 
+ue  j’avois  de  mener  avec  moy  le  nombre  d’Ecclefia- 
+iques  que  je  connoiftrois  avoir  une  véritable  voca- 
+ion  pour  ce  faint  employ. 
+
+Voilà  l'eftat  auquel  je  fuis  pour  le  regard  de  mon  vo- 
+ageen  Europe  jufquesàce  jourd’huy.  Mais  pour  ce 
+ui  regarde  l'avancement  du  Chriltianifme  dans  ces 
+eux  éloignez  de  noilre  V icariac  Apoftolique , j'ay  trou- 
+lé  dés  mon  arrivée  à Paris  des  lettres  de  M.  l'Evêque  de 
+jjeryte  dattées  de  Siam  au  mois  d’Odtobre  1 666.  qui 
+ont  les  premières  que  j'aye  receues  de  luy  depuis 
+
+Ïon  départ  de  luthia  , qui  nous  apprennent  la  can- 
+ulation defes  employs  en  cette  Ville-là  auprès  des 
+ochinchinois , le  progrès  du  Séminaire , l'envoy  de  les 
+eclefiaitiquesà  la  Chine,  la  Cochinchinne  & leTon- 
+uin , & l’éreétion  d’une  nouvelle  Eglife  en  la  Ville  de 
+:iam,la  conceflîon  d'un  fond  de  Terre  que  le  Roy  luy 
+i faite , & plufieurs  autres  chofes  importantes , que  j’ay 
+ru  ne  pouvoir  mieux  communiquer  au  public,  qu'en 
+aferant  icy  cette  longue  lettre,  quidoit  compoler  la 
+lus  grande  partie  de  cette  Relation  ; voicy  donc  ;ce 
+j ju'il  m'en  écrit. 
+
+; Nous  avons  fait  prefenter  au  Roy  une  Requefte  , « 
+
+; ij>ar  laquelle  nous  luy  demandons  un  fond,  & la  pet-  <£ 
+
+; niiïlon  d’y  bâtir,  no  lire  Requelle  , qui  luy  futpre-  « 
+li  entée  par  fon  principal  Miniftre  apres  qu'il  fut  guéri , « 
+efte  fort  bien  recette  de  Sa  Maielté il  nous  a fi£t  « 
+..  ton  d’un  grand  champ  fort  bien  fitué  fur  le  bord  de  « 
+i a Riviere  , joignant  celuy  où  demeurent  les  Co-  “ 
+hinchinois,  & pour  témoigner  encor  plus  qu’il  a-  « 
+
+# 
+
+
+I 
+
+
+XX 
+
+» gl'ée  noftre  eftablilïement  en  fon  Royaume , il  nou 
+, a fait  dire  qu’il  donnèrent  les  matereaux  neceltàire: 
+
+, pour  baltir  noftre  Eglife.  Enfuite  de  cet  ordre  les  Of 
+bcieis,  à qui  la  connoilîance  de  ces  choies  appat 
+tient , enjoignirent  à ceux  qui  occupoient  cette  pla- 
+ce, de  transporter  ailleurs  leurs  mailons  dans  hui 
+jours,  & de  nous  la  ceder.  Nous  avons  fait  accom 
+moder  en  ce  heu  eux  chambres  bâties  de  bois,  S 
+couvertes  de  thuiles , pour  pouvoir  garantir  du  fei 
+nos  livres  & nos  ornemens  d’Eglife,  que  nous  avon 
+apportez  d’Europe.  M l’Evefque  deBeryte  me  mar 
+que  la  qualité  de  ce  baftiment parce  que  le  corp 
+des  mailons  ordinaires  du  pais  ne  font  bafties  que  d 
+cannes  d’Inde,  & couvertes  de  feuilles  femblables  : . 
+celles  de  Palmier.  Pour  ce  qui  regarde  l’édifice  d 
+de  cette  nouvelle  Eglile  qu’on  fe  propofoit  de  fair< 
+de  briques,  on  a elté  d’avis  de  lurfoir  ce  delfein  ju( 
+ques  à ce  que  nous  ayons  mis  plus  de  temps  à édifie! 
+noftremaiion  intérieure’,  En  un  mot  nous  avons  cri 
+en  devoir  referver  l’execution  à ceux  qui  feront  de 
+ftinez  pour  ce  Royaume 
+J’ay  receu  diverles  nouvelles  du  Tonquin,  de  1 1 
+Cochinchinne  , & de  la  Chine  ; je  commencera 
+, par  celles  du  Tonquin  qui  vous  regardent  de  plu 
+, prés- 
+
+, Un  peu  auparavant  la  Felte  de  Noël  nous  eume  t 
+, nouvelles  qu’il  eltoit  arrivé  unVaifiTeau  en  ce  Pori  ] 
+( qui  venoit  du  Tonquin  , audï-toft  nous  penfâme: 
+
+, qu’il  y auroit  quelques  lettres  en  rëponies  à celle 
+, qu’on  y avoit  écrites  l’année  precedente  ; Toute  ne  i 
+, lire difficulté  eitoit  d’empefeher  quelles  ne  fullenï 
+3 interceptées  i la  Providence  de  Dieu  permit  que  l’u  i 
+j des  deux  François  qui  eitoient  venus  avec  nous  l’a  I 
+3 16 6 1.  fuit  au  bas  de  laRiviere  auffi-tolt  après  1 ai 
+33  rivée  du  Vailfeau,  & qu’il  allait  vifiterquelques-ur 
+j,  d®  fesamis  qu’il  y crut  trouver , il  rencontra  un  pa 
+
+
+2? 
+
+jger  Efpagnol  qui  luy  demanda  de  nos  nouvelles,  « 
+uy  difant  qu’  il  y avoir  des  lettres  pour  nous , qu’il  « 
+ny  remit  enmefme  temps  pour  nous  les  apporter  « 
+ivec  diligence.  « 
+
+Cette  lettre  eft  écrite  en  Portugais  par  un  Cate-  « 
+:hilte  duTonquin  du  2.4.  Oétobre  1665.  il  vous  écrit  “ 
+qu’il  a receu  vos  ordres  , & qu’il  a envoyé  la  lettre  « 
+que  vous  luy  aviez  addrellee  pour  faire  tenir  aux  « 
+principaux  Chrétiens  de  ce  Royaume , à laquelle  il  « 
+alleure  qu’ils  ont  fatisfait  , &•  adjoufte  qu’aprés  la  « 
+ifortie  de  troisPeres  Jefuites , qui  en  furent  bannis  « 
+de  12.  Novembre  1665.  On  ht  un  Edit  contre  la  Reli-  « 
+gion  Chrétienne  , mais  que  n’ayant  point  efté  pu-  « 
+blié  il  n’a  point  eu  d’efïét  ; C’eft  celuy  qui  a etté  cy-  « 
+delfus  rapporté  , d’où  vient  que  les  Chrétiens  vivent  « 
+comme  auparavant  ; qu’il  ett  vray  que  quelques  uns  “ 
+fe  font  refroidis  •,  mais  qu’il  y a auffi  des  Néophytes  « 
+■qui  ont  receu  le  Baptefme,  8c  que  plufieurs  autres  « 
+ne  font  qu’attendre  l’arrivée  de  quelque  Preftre  pour  « 
+le  recevoir  •,  Que  les  Catechiftes  fe  font  diftribuez  « 
+par  les  Provinces , où  ils  exercent  leurs  fondions  à « 
+l’ordinaire  , & avec  beaucoup  de  circonfpe&ion , & « 
+de  prudence.  « 
+
+A 1 égard  du  retour  desPeres  qui  ont  efté  bannis,  « 
+le  Cathechifte  affeure  que  le  Roy  a fait  allez  con-  « 
+noiftre  qu’il  ne  l’auroit  point  defagreable,  par  la  de-  « 
+mande  qu’il  a fait  quelquefois  , s’ils|»ereviendtoient  « 
+pas  : A quoy  il  ajoute  que  l’opinion  eft  que  c eft  “ 
+par  fon  ordre  , que  les  OfHciers  qui  ont  la  dire-  “ 
+
+! étion  des  affaires  & du  Commerce  , ont  écrit  au  Vi-  « 
+fiteur  des  Jefuites  de  Macao , qu’il  pouvoit  envoyer  « 
+
+' de  fes  Religieux  ,&  qu’ils  feroient  les  bien-venus  > la  ££ 
+lettre  de  ce  CatechilteTonquinois  a efté  apportée  “ 
+par  unVailfeau  de  Macao,  qui  s’en  allant  à Cam-  w 
+boye  a efté  contraint  par  la  tempefte  de  relafcher-  « 
+au  Tonquin,  ce  qui  fait  que  ce  C atechifte  ne  doute  « 
+
+
+i4 
+
+» point  que  ces  Peres  Jefuites  n y puilfent  retourner 
+& croit  même  qu’un  Evefque  avec  quelques  Ecde- 
+fiaftiques  y pourroient  avoir  entrée  ; a ouftant  que 
+quand  1 Evefque  feroit  obligé  de  fe  retirer  lo.s  di 
+>j  retour  desVailïeaux  , les  Chrétiens  ne  laideroiem  . 
+
+» pas  de  recevoir  une  confolation  indicible  de  fa  veut  i 
+« pendant  le  temps  de  fon  fejour , ce  qu’ils  expriment 
+» d’une  façon  particulière , difans  que  tous  les  Chré. 
+
+tiens  l’attendent  les  yeux  ouverts. 
+
+» Deux  jours  après  que  nous  eûmes  receu  ces  nou- 
+» velles  duTonquin  , il  arriva  un  Courrier  du  Tanaf- 
+j,  ferin  , par  la  voye duquel  nous  furent  apportes  des 
+jj  paquets  d’Europe  où  nous  apprifmes  encre  autres 
+c.  chofes  que  ; Cuvant  les  inftructions  que  nous  avions 
+ce  lailTées  à Paris  avant  nodre  départ  , les  Ecclefiafti- 
+jj  ques  qui  s’efeoient  chargez  du  foin  de  nos  adatres,  i 
+jj  avoienr  obtenu  du  Roy  l’établilTement  d’un  Seminai-  j 
+jj  re  pour  le  foûrien  de  nos  Mi'Tons  ; ce  qui  nous  obli-  1 
+>j  gea  d’en  rendre  incontinent  grâces  à Dieu,  & nous  fl 
+jj  fut  un  nouveau  motif  de  nous  appliquer  avec  plus  ti 
+jj  de  confiance  que  jamais  aux  fondions  de  noftre  Mi- 
+ss niftere. 
+
+sj  Depuis  que  nous  eûmes  receu  les  nouvelles  du  . 
+jj  Tonquin  que  je  vous  écris , & que  nous  fûmes  intor- 
+j>  mez qu’il  n’y  avoit  aucuns  Preftres  ; Que  neant- 
+sj  moins  on  croyoit  qu’ils  n’y  ieroientpas  mal  receus  , 
+j>  nous  nous  appliquâmes  tout  à ^ait  à voir  comraenc 
+jj  on  p ou rr oit  amder  ces  Chreùiens  fi  abandonnés: 
+jj  mais  comme  il  ne  fe  prefentoit  aucune  occaiion  pour 
+jj  aller  en  ce  Royaume  , nous  ne  pouvions  faire  au- 
+jj  tre  chofe  , que  de  recommander  cette  adaire  à 
+jj  Dieu , qui  enfin  , par  les  iecrets  adorables  de  la  Pro- 
+jj  vidence,  permit  qu’un  Vailîeau  de  Chinois  , habi- 
+jj  tuez  au  Tonquin , qui  alloient  vers  Bantanpour  tra- 
+>j  fiquer , vint  échouer  en  ce  Port  de  Siam  au  mois  d’A- 
+» viril  dernier.  Dés  que  nous  fûmes  avertis  de  cetcç 
+
+
+orme  rencontre,  nous  crames  que  Dieuavoit  exan-  « 
+é les  prières  des  C1  retiens  dn  Tonquin  , qui  par  « 
+eurs  larmes  & leurs  pénitences  deman  Joient  à ce  Pe-  « 
+ede  mifiericorde  , quelque  Minière  de  1.  C.  qui  les  « 
+jût  affilier  dans  leur  extrême  befioin.  “ 
+
+La  plus  grande  difficulté  aux  yeux  de  tout  le  mon-  » 
+jreeftoic  de  laiffier  un  Preftre  entre  les  mains  de  ce  s » 
+Chinois,  aufquels  les  Etrangers  ne  fie  peuvent  con-  ?> 
+1er.  Cependant  dans  cette  affaire  que  nous  voyons  « 
+iien  ellre au  deffus  des  réglés  de  nollre  prudence,  « 
+ifin  de  ne  nous  point  tromper  , & pour  obtenir  lu-  cc 
+niere  de  celuy  qui  ieul  doit  guider  nos  délibérations,  « 
+ions  filmes  des  prières  de  quarante- heures  devant  le  ct 
+Saint  Sacrement  ; en  fuite  de  quoy  il  fut  arrefté  qu’un  « 
+
+: le  nos  Ecclefiaftiques , qui  fcait  bien  la  Langue-  du  « 
+jjTonquin , s’en  iroit  ieul  avec  les  Chinois  vécu  en  Ma-  « 
+jcelot  ,& qu’il  en  feroit  l’office  pendant  le  voyage,  s’il  « 
+
+: en  efto't  requis  par  les  gens  du  Vaiffeau  Ce  vertueux  « 
+Ecclefiaitique  partie  de  Siam  pour  l’execution  de  ce  « 
+delfein  le  20  Juin  16C5.  pour  aller  joindre  leNavire,  cc 
+ait  il  devoir  s’embarquer , qui  fit  voile  le  24.  du  me  fi  ce 
+me  mois.  Il  eft  vray  que  cette  entrepriien’apaseilé  ce 
+icy  approuvée  de  tour  le  monde  , comme  effant  hors  ce 
+: du  cours  ordinaire  de  la  prudence , noltre  conlolation  ce 
+: bft , que  s’il  y a quelque  faute , elle  fiera  jeparée  par  le  ee 
+tjjdefir  hncere  que  nous  avons  de  rendre  fiervice  à Dieu,  ce 
+; 8c  de  donner  une  forte  preuve  aux  Chreff  iens  du  T on-  ee 
+: quin  du  foin  que  vous  m’avez  donné  charge  de  pi  en-  ee 
+s dre  deux  en  voftre  abfience.  Dieu  veiiille  que  cetre  ee 
+;;  expédition  ait  un  auffi  bon  fiuccés  que  celle  de  laCo-  ce 
+.!•  chinchine  de  l’année  precedente,  de  laquelle  je  vais  « 
+i vous  tendre  compte.  ce 
+
+Avant  que  paffer  outre  au  refie  du  récit  que  me  fait 
+M.  de  Bery  te  ; je  me  fiens  obligé  de  remarquer  en  ceten- 
+- droit , que  depuis  mon  départ  de  Luthia , qui  fur  vers  la 
+, fin  de  janvier  1665.  M.  Chevreul , que  nous  avions  en- 
+
+
+iG 
+
+voÿé  dans  la  Cochinchine  avec  un  Interprète , efl  reve- 
+nu  à Siam  , & a rapporté  que  la  perfecuron  s’eftant  ral 
+lumée  de  nouveau  dans  cet  autre  Royaume  , l’on  y a 
+éprouvé  en  beaucoup  de  maniérés  la  Foy  d’un  granc 
+nombre  de  Chreftiens  , entre  Iefquels  il  y en  a eu  trente- 
+fept  qui  ont  efté  martyrifez , & que  tous  les  Millionnai- 
+res en  ayans  efté  chaffez  , fe  font  venus  réfugier  à 
+Siam: Je  ne  doute  point  que  M.  de  Berytene  m’ayt  i 
+mandé  bien  au  long  par  une  autre  lettre  precedenre.qut 
+ne  m’a  point  efté  rendue' , toute  la  négociation  de  M. 
+Chevreul  en  la  Cochinchine , & les  caules  de  fon  retom 
+par  cette  forte  perfecuiion,  mais  il  eft  jufte  de  laiffet 
+aux  RR.  PP.  Jeiuites,  qui  en  ont  receu  le  detail,  qu’ils 
+m’ont  fait  voir  eftanc  à Rome , de  le  donner  au  Public.  ' 
+Après  cet  èclairciffement  l’on  peut  voirie  refte  dans  la 
+fuite  de  cette  melme  lettre  que  je  rapporte  icy  de  M. 
+de  Beryte , qu’il  pourfuit  en  ces  termes. 
+
+»>  Le  31.  Janvier  1 6 66.  nous  avons  appris  par  le  retout  i 
+» du  petit  Vaifteau , fur  lequel  s’étoient  embarquez  M, 
+
+» Hainques  & M.  Chevreiil  , que  le  vent  n’ayant  pas 
+» efté  favorable , ils  n’avoient  pu  arriver  fur  les  colles  du 
+» Royaume  de  Ciampa,  que  leu.  d’Oétobreiô^.  qu’ils 
+>5  furent  tous  deux  attaquez  d’une  forte  maladie  ; qu’é- 
+» tans  arrivez  à Ciampa  ils  s’enquirent  en  quel  eftat 
+» eftoient  les  affaires  de  la  Religion  en  la  Cochinchine, 
+
+» & fceurentque  s’il  y entroit  quelque  Prédicateur , i! 
+
+» couroit  rifquede  la  vie.  En  effet  une  femme  Chre-  : 
+» ftienne ayant  voulu  prendre  nos  Eccleiialuques  dans 
+» fachalouppe,  pour  les  mener  enfecret  en  ia  maifon 
+» éloignée  de  deux  ou  trots  lieues  de  là,  un  Ofticierdu 
+» Roy  en  ayant  efté  averty,  fe  doutant  que  ces  Eftran-  ; 
+» gerspourroienteftre  des  Preltres,  intimida  tellement  • 
+» cette  femme,  luyremontrantqu  elle  le  perdroit avec  ; 
+» toute  fa  famille  , fi  elle  les  recevoit , qu’il  l’obligea  de  ! 
+» changer  de  refolution.  Ayant  donc  délibéré  de  ce  qui  : 
+» eftott  à faire  en  cette  rencontre  on  jugea  à propos  que  ! 
+
+M.  Hainques;  1 
+
+
+27  , _ 
+
+'[.  Hainqnés , qui  aVoit  recouvré  fa  faute  , & qui  fça-  « 
+bit  la  Langue  de  la  Coch.nchine , y entreroit  leul,  & «< 
+ne  M.  Chevreül  , qui  eftoit  aduellement  travaillé  «« 
+une  fièvre  continué , s’en  boit  àCamboye  « 
+
+Pour  l’execution  de  ce  dellein,  deux  Néophytes  « 
+irritent  du  Vailleau  pour  accompagner  M,  Bain-  « 
+lues  , & le  mener  jüfq'ues  a un  Village  diftant  d’envi-  « 
+lin  trois  lieues  du  bord  de  la  Mer  en  la  mailon  d’un  « 
+entil  de  leur  ancienne  connoillance  , où  il  fuc  bien  ce 
+eceu  j & en  mefme  temps  ils  privent  congé  de  luy , & « 
+en  retournèrent  pour  le  mettre,  à la  voile  , ne  le  « 
+oyans  pas  en  feureté  en  ce  lieu-là.  « 
+
+M.  Hainques  s’eftoitveftu  à la  japonoife,  marcha  « 
+uds  pieds  lelon  la  couftume  de  certe  Région  où  l’u-  « 
+ge  des  chauftùres  eft  inconnu  \ il  portoit  fon  fac  « 
+rec  luy , où  eftoient  les  ornemens  d’Eglife  , du  pain  « 
+
+. t du  vin  pour  l’ufage  de  la  Melle  , & les  laintes  « 
+miles  -,  il  eftoit  feul  lans  ferviteuc  & fans  aucune  con-  c< 
+b i (fan ce  : il  feroit  difficile  de  le  figurer  un  eftat  plus  ce 
+bandonné  à la  divine  Providence.  . « 
+
+Ce  petit  Vaiffieau  eftant  party  audî-coft  , arriva  à « 
+barre  de  Camboye  ; diftante  de  plus  de  §o.  lieués  de  « 
+Ville  Royale  où  l’on  a couùume  d’aborder.  En  ce  ce 
+mps  là  il  le  rencontra  une  famille  Chteftienne  Co-  ce 
+îinchinoife,  qui  montoit  la  civiere  dans  une  cha-  ce 
+,‘iippe  i le  chef  de  cette  famille  s’eftant  apperceu  ce 
+l’il  y avoir  des  Etrangers,  fe  douta  qu’ils  eftoient  ce 
+hreltiens , & ayant  lceu  qu’un  d eux  (_  qui  eftoit  M.  C£ 
+hevreiil  ) eftoit  malade  , il  le  chargea  d’en  prendre  “ 
+>ut  le  loin  poffible,  & s’en  eft  acquité  fi  fidèlement,  « 
+te  le  malade  a repris  la  faute  dans  ce  mefme  lieu,  « 
+nfi  que  nous  l’avons  appris  depuis.  « 
+
+Pour  revenir  à M.  Hainques  , nous  apprenons  d’ulie  “ 
+ttrê  qu’il  écrit  de  Faifo  capitale  de  la  Cochinchine  “ 
+124.  Février  i665.  laluite  de  fon  voyage  , Qu’é-  cc 
+nt  arrivé  au  Royaume  deCiampa  , il  fe  rendit.au  « 
+
+C 
+
+
+2,8 
+
+s,  plutoftà  VaniK  ,qui  en  eftla  Capitale1, 8c  rèmarqu* 
+s,  que  comme  le  Roy  de  la  Cochinchine  s’eil  emparé  dt 
+„ c-e  Royaume  , & l'a  reüny  au  lien,  les  Officiers  qu 
+„ gouvernent  en  ce  lieu  là  font  Cochinchinois,  d'oi 
+5,  vient  qu’on  y garde  les  loix  de  la  Cochinchme. 
+
+„ Les  Gouverneurs  ayans  donc  appris  l’arrivée  de  Kî 
+„ Hainques  , commencèrent  a le  faire  oblerver  ; mai 
+» comme  il  y trouva  quelques  Chreftiens , il  fut  avert; 
+j,  detoutcequifefailoitcontreluy.de  forte  que  pou 
+» éviter  beaucoup d’iaconveniens qui  pouvoient  luyat 
+» river, on  luy  conleilla  que  lors  qu’on  luy demande 
+„ roitoù  il  prétendoit  aller,  il  feroit  reponle  •,  que  loi 
+„ deffiein  eftoit  d’aller  a la  Cour  de  la  Cochinci.ine  por 
+s?  ter  un  prefentau  Roy;  ce  qu’ayant  fait , le  Gouvei 
+33  neur  & les  Officiers  fe  turent , 8c  luy  dirent  , que  pui: 
+33  qu’il  avoir  cette  penlée,  lorfqu’il  voudroit  y aller,  il 
+,3  b pourvoiroient  de  toutes  chofesneceffiaires  pour  s’ 
+
+,3  rendre.  Il  prit  cinq  on  fix  joues,  comme  s’il  eut  vou 
+„ lu  fe  delaffier  de  fon  voyage , durant  lelquels  il  s’oc 
+„ cupa  j melme  pendant  les  nuits,  à catechiier  les  Chre 
+„ ftiens,  les  fortifier  en  la  Foy,  leur  dire  la  Melle  , le 
+„ çonfeffier,  &leur  donner  le  Sacrement  de  la  iaint 
+„ Eucharillie,  apres  quoy,  il  partit  pour  Fumay  qt 
+„ eft  un  des  Ports  des  plus  confiderables  delà  Cochu  i 
+„ chine  : Son  arrivée  y cattfa  auffi  de  l’étonne  ment , < t\ 
+„ fur  les  raifons  qu’on  luy  demanda  de  fon  voyage  ; il  I 
+„ une  femblable  réponle  que  celle  qu’il  avoit  faite  I 
+„ VanniK;  le  Gouverneur  de  ce  heu  laie  receut  bier 
+„ & luy  permit  de  faire  un  fejour  allez  long  ; les  ^hr  J 
+„ (liens  s’edans  donnez  avis  les  uns  aux  autres  qu  : 
+
+„ a voient  un  Prellrefe  rendirent  prés  de  luy  ; M..  Fiai:  , 
+„ ques  fut  dix  jours  & dix  nuits  continuelles  à les  r , 
+„ paître  de  la  parole  de  Dieu  & des  Sacremens  av  ec  ui  j 
+„ benedtélion  incroyable  , ce  qu’ayant  fait,  il  prit  co-  j 
+s,  gé  du  Gouverneur  , qui  luy  donna  des  foldats  p:  i 
+„ honneur  pour  le  conduire  julques  à Faifo,  éloigné  : 
+
+
+*9 
+
+{ept  à haie  fournées,  pendant  lefquelles  il  fut  défrayé  « 
+en  tous  les  l eux  de  Ton  palîage , & ne  luy  coûta  quoy  “ 
+que  ce  Toit  ; les  Soldats  le  quittèrent  à Faifo,  &rjeftant  « 
+refté  feul  il  fit  à pied  le  refte  du  chemin  jufques  à la  « 
+,Cour,  & fit  rencontre  d’un  Soldat  Chretlien  avec  fa  « 
+femme , âulquels  il  le  crût  obligé  de  fe  découvrir  pour  « 
+d’extrême  péril  ou  ils  eftoient  de  leur  falut  ,•  s’il  ne  leur  « 
+euffcpas  donné l’abfolution , damant  que  patTans  un  ce 
+petit  'bras  de  Mer  , peu  s’en  fallut  qu’  ls  ne  fulfent  ce 
+fubmergez  -,  ils  gardèrent  le  lecret  , comme  ils  luy  ce 
+avoient  promis  , & luy  rendirent  ce  bon  office  que  ce 
+de  le  loger  chez  un  de  leurs  amis  le  loir  qu’ils  arrive-  ce 
+rent  à la  Cour  ; parce  qu’il  eldoit  trop  tard  pour  pou-  ce 
+voir  le  conduire  en  la  mailon  du  Sieur  Jean  de  la  Croix  ce 
+Officier  & Fondeur  des  Canons  du  Roy , mais  luy  en  ce 
+ayant  donné  l’a ddretïe',  M.  Hainques  ne  manqua  pas  ce 
+de  s’y  rendre  le  lendemain  matin  , & l’ayant  trouvé  en  ce 
+compagnie , il  le  tira  à part  8c  luy  dit  le  fujec  de  fon  ce 
+arrivée.  ce 
+
+• Je  ne  dois  pas  icy  obmettre  que  Monfeigneur  l’E- 
+vefque  de  Beryte  8r  moy  avions  déjà  pris  habitude 
+avec  ce  genereux  Chreftien  le  Sieur  Jean  de  la  Croix, 
+que  nous  luy  avions  rendu  quelque  fervice  dans  fes 
+affaires , qu'il  nous  avoit  mefme  eferit  , nous  alfieu- 
+rant  qu’il  avoir  pafïion  de  pouvoir  lervir  à nos  deC 
+feins,  &que  M.  Hainques  avoit  charge  de  fe  décou- 
+vrir à luy  & de  prendre  fes  avis  , au  cas  qu’il  le  pue 
+joindre  : cette  obfervation  5 qui  fait  à l’Hiftoire  , a 
+coupé  le  fil  de  la  narration  de  M.  de  Beryte  , qu’il  con- 
+tinue en  cette  fort£ 
+
+Le  Sieur  jean  de  la  Croix  ayant  feeu  les  particula-  cc 
+ritez&les  motifs  du  voyage  de  M.  Hainques  , en  {. 
+demeura  tout  à fait  furpris  : mais  eftant  revenu  de  fon  (s 
+eftonnement , il  luy  du  qu  il  eftou  le  bien  venu , puis  {C 
+qu’il  expofoit  fa  vie  pour  le  fal-at  des  Chreftiens  de  la  <t 
+Cochinchine , & qu’il  eftoit  refolu  de  luy  rendre  tous  M 
+
+C ij 
+
+
+3° 
+
+•s;  les  fetvices  qu’il  pourroit. 
+
+53  Ayans  donc  concerté  entre  eux  des  mefures  qu’il 
+>3  falloir  prendre  avec  le  Roy,  ils  trouvèrent  à propos 
+:>  défaire  palier  M.  Hainques  pour  frere  de  fa  femme 
+33  qui  venoit  à la  Cochirchine  pour  quelques  affaires; 
+
+33  mais  qu’il  faloit  en  avertir  fa  MajeftéjM.  Hainques  luy 
+33  ayantditqtfil  avoir  eilé  obligé  de  donner  à entendre 
+33  aux  Gouverneurs  de  Ciampa  & de  Fumay  , qu’il  al- 
+33  loir  à la  .Cour  pour  faire  quelque  prefentau  Roy, 
+
+33  pour  faciliter  Ion  entrée  dans  le  Royaume,  il  luy  de- 
+33  manda  ce  qu’il  avoir  à luy  prelenter , à quoy  il  luy  ré- 
+33  pondit  qu’il  avoir  une  montre ',1e  Sieur  jean  de  la 
+33  Croixrepartitque  cela  fe  pouvoir  prefenter  au  Roy, 
+
+33  & qu'il  l’auroit  agréable  ; la  venue  d’un  Etranger 
+33  efhnsiulpeéte,  iansen  donner  avis  incontinent  à la 
+33  Cour , je  Sieur  Jean  de  la  Croix  y fut , apres  quelques 
+33  heures  de  converfation , & ayant  laluc  le  Rôy  juy 
+33  donna  avis  de  l’arrivée  de  fon  beau- frere  qui  venoit 
+33  en  Ion  Royaume  pour  y faire  quelque  trafic  ( ce  qu’il 
+33  entendoit  de  celuyqui  confilie  à gagner  les  âmes  à' 
+
+33  Dieu,&  qu’il avoit  apporté  une  Montre  pour  pteséter 
+33  à Sa  Majefte  , laquelle  il  le  iupplioit  d’agréer  ; le  Roy 
+33  la  receut,  & ne  s’informa  de  rien  davantage:  le  Sieur 
+33  jean  delaCroixehantde  ret  urchezluy,  donna  or-  ^ 
+33  dre  à tous  fes  domeftiques  , qui  lont  au  nombre  de  ' 
+33  vingt- cinq  ou  de  trente  de  traitter  M.  Hainques  com»  ■ 
+33  me  Ion  beau  frere  ; il  laf  ht  faire  deux  habits , l’un  à 
+33  la  japonoile , & l’autre  à la  Portugaife.  Cependant 
+33  notlre  Millionnaire  plein  de  zele  ne  perd  point  de 
+33  temps,  il  catechile  , il  exhorte  roufle  monde  de  mo'u- 
+33  rir  plutoltque  d’etlre  Inhdele  à Dieu-,  iladminiltre  les 
+33  Sacremens  en  lecret  à ceux  à qui  on  jugea  propos  de 
+»3  le  découvrir.  Ayant  appris  qu  une  femme  Chreitien- 
+33  ne  elloir  prête  de  mourir,  il  luy  ht  dire  qu’il  avoit  de 
+J3  fort  bons  remedes  ; cette  femme  le  convie  à cette 
+»>  nouvelle  de  l’aller  voir , il  y fut , luy  demanda  le  te- 
+
+
+H 
+
+crée , & luy  dit  quel  il  e(ioit,deux  jours  apres  que 
+cette  femme  eutreceu  les  Sacremensde  Penitence, 
+d’Euchariltie  , & d'Extréme-Ondtion,  elle  mouriir. 
+
+Apres  ieize  jours  de  fejoirchez  M.  de  la  Croix  on 
+trouva  à propos  que  M..  Hainques  retournait  à Faifo 
+pour  acheter  une  chaloupe  Se  un  peu  de  ris,  afipque 
+lous  ce  pretexte  il  fuft  en  eiiat  de  vifiter  tous  les  Chré- 
+ftiens  de  ce  Royaume- l'a. 
+
+On  appréd  par  fa  lettre  du  24.  Février  , que  ce  def- 
+fein  efloit  tout  preft  de  s'exécuter  , & qu'il  partoit 
+avec  quatre  jeunes  Chreitiens  Cochinehinois  quis'é 
+loïent  donnez  à luy , leiquels  il  inftruiioit  pour  dire 
+Carechiiies.  C'a  efté  par  leur  moyen  qu’il  a envoyé 
+des  lettres  circulaires  pleines  de  charité  & de  conio- 
+Jation  aux  Chreitiens  éloignez  pour  les  encourager. 
+Ces  premiers  travaux  de  M.  Hainques  ont  déjà  pro- 
+duit des  fruits  allez  conhderables  , pour  faire  , qu  il 
+ne  fe  repente  pas  d'avoir  reconcé  aux  elpetancesque 
+fes  bonnes  qualitez  & la  faveur  de  les  amis  luy  pou- 
+voient  promettre  à Paris  : car  outre  ce  qui  aetié  rap-  * 
+porté  cy-dellus,  il  a baptife  de  nouveau  q arante-une 
+perlonnes,  porte  & .obligé  les  Chie  uens  a s'un  r en- 
+tre eux,  & à fe  tenir  fort  cachez  & fournis  à Dieu 
+durant  le  temps  de  la  colete  du  Roy.  On  ne  peut 
+dire  la  joye  que  les  Chreitiens  ont  témoigné  à Ion  ar- 
+rivée , & lorsqu’ils  ontlceu  que  les  autres  Ecclefialti- 
+ques  qui  font  à Siam,  lont  en  relolution  de  perdre 
+pldrolt  la  vie  , que  de  manquer  à les  affilier.  On  verra 
+quelque  témoignage  de  leur  reconnoiliance  par  les 
+deux  lettres  qu’ils  ont  écrites,  qu  on  a tra  uitesavec 
+le  plus  d'exaétitude  qu’on  a pii.  Voicy  la  teneur  de 
+la  première. . 
+
+Nous  adorons  Dieu  en  trois  perfonnes , Se  hono- 
+rons la  très  fainte  Vierge.  Nous  prions  la  louverai- 
+ne  Majelté,  de  vouloir  affilier  noftre  Saint  Pere  le  Pa- 
+pe, & noftre  très-grand  Pere  l’Eveique  , pour  que 
+
+
+VI 
+
+
+toutes  chofesleur  foient  favorables  -,  L’an  pafTé  nous 
+eurne*-  giande  ]oye  d’apprendre  des  nouvelles  de  nôtre 
+très  grand  Pere  l’bvefque,  qui  dcliberoir  de  palier  à 
+laCo  hmchine  pour  faire  charté  a nos  âmes  j enten- 
+dans  ces  nouvelles  nous  deliraimes  beaucoup  d’en 
+voir  l’effet,  croyans  que  Dieu  n’avoit  point  encore 
+achevé  la  moillon  de  fes  Saints  dans  ce  K oyaume  icy. 
+N offre  Roy  perlecutant  la  Foy  tous  les  Peres  furent 
+obligez  départir,  & de  s'en  retourner  •,  En  forte  que 
+nous  lommes  demeurez  cerne  un  Troupeau  d'Ciiail- 
+les , qui  n’a  perfonne  qui  le  garde  , qui  eft  errant  dans 
+les  bo.s , & qui  a mtime  rencontré  de  furieux  Loups. 
+Nous  prions  Dieu  nuit  & jour  qu’il  nous  falle  la  gi  ace 
+d ouïr  des  nouvelles,  & de  voir  des  lettres  qui  nous 
+allurent  qtienolliefres  grand  Peie  eli  arrive  en  nôtre 
+Toàn  ( C’eft  la  maiion  de  ceux  qui  gardent  les  fron- 
+tières ) & qu’il  nous  apporte  un  ialutaire  remede  pour 
+guerii  nos  âmes.  Nous  remercions  giandcment  nô- 
+tre très  grand  Pere  de  ce  fi  grand  bien-fait , & prions 
+Dieudeluy  en  payer  la  peine  , le  faiiant  un  très-grand 
+Sa  nt  dans  le  Paradis.  Depuis  que  nous  eûmesla  let- 
+tre , premièrement  nous  nous  *c jouîmes,  feconde- 
+ment  nous  fûmes  trava  llez  de  grands  foins-,  tierce- 
+ment  nous  eûmes  grand  peur  Nous  nous  réjouïfmes 
+pour  les  paroles  de  conlolation  que  nous  eûmes, 
+qui  nous  fervent  d’un  gran  1 médicament.  Nous  eû- 
+mes crainte,  à caul'e  de  nos  gtandspechez  , qui  nous 
+ont  fait  perdre  les  bonnes  grâces  de  Dieu:  nous  fûmes 
+accablez  de  grands  foins , ne  lçacbans  quand  nous  au- 
+rions latisfait  a fa  divine  juffice  pour  nos  très  grands 
+pechez.  Nous  nous  fommes  rellouvenus  des  mérités 
+de  j t s u s C h R i s t , lequel  s’eft  incarné  dans  les  F e- 
+cles  pallez , a loutre,  t la  mort  iur  l’arbre  de  la  Croix, 
+&répanlu  Ion  lang , pour  nous  délivrer  de  nos  pe- 
+chez. Cepen ’ant  nous  avons  commis  Je  nouveaux 
+crimes,  & n’avons  payé  les  effets  de  Ion  amour  que 
+
+
+3? 
+
+ar  des  extrêmes  ingratitudes  , dont  nous  ibmmes  « 
+ort  marris  -.Nous tous  les  Chreiliensde  la  Cochin-  “ 
+hine  prions  noftre  tres-g'vand  Pere  l’Evefque  & tous  ££ 
+es  autres  Per  es  de  prier  Dieu , à ce  que  par  ion  infinie  “ 
+nileri  corde  il  daigne  nous  pardonner  nos  peJaez-,  c« 
+ju’il  falle  çonnoiftre  à noftre  Roy , & à tous  les  grâds  “ 
+3e  fa  Cour  la  Loy  du  vray  Dieu  , pour  qu’il  donne  la  « 
+iberté  de  Religion,  & ouvre  un  chemin  large  à la  « 
+tharitédu  Pere , pour  venir  icy  veiller  à la  garde  de  « 
+nos  âmes , & nous  donner  le  Sacrement  de  Confirma'  « 
+tion  qui  nous  rende  forts  dans  la  Loy , nous  fa  lie  evi  « 
+ter  les  embûches  du  démon,  fafie  çonnoiftre  la  veri-  £C 
+table  Religion  à tous  ces  peuples , pour  que  le  nom  “ 
+de  Dieu  foie  fanélifié  ,&  que  nous  jouïfftons  de  tou-  “ 
+tes  fortes  de  biens  •>  nous  iouhaittonspaffionncment  ££ 
+■cette  nouvelle.  « 
+
+Depuis  la  terre  de  la  naiftance  de  noftre  très  grand  « 
+Pere  l’Evefque  pour  arrivera  Siam  , quoy  qu’il  y eut  C£ 
+ides  millions  de  lieues  & des  travaux  à palier  par  les  “ 
+deferts  les  Montagnes  S:  les  Mers  qu’on  nepeutex-  ££ 
+primer  -,  neantmoins  noftre  très- grand  Pere  a fouftert  c£ 
+tout  cela  , s’eftant  refolu  de  venir  prendre  ioin  de  nos  ££ 
+■âmes-,  aufîile  remercions  nous tèûjours  de  ce  grand  ££ 
+bien  fait  ; quoy  que  noftre  très-  grand  Pere  foit  encore  C£ 
+à Siam,  toutefois  dans  le  cœur  il  eft  déjà  icy  dans  la  ££ 
+Cochinchine  avec  nous;  Audi  nous  fouvenons-nous  « 
+de  luy  ; Nous  le  conliderons  comme  deja  uny  à nous,  “ 
+& ne  failant  qu’un  avec  nous  Apres  que  nous  eûmes 
+leu  la  lettre  que  noftre  très-grand  Pere  nous  a en-  « 
+voyée  , donc  nous  iiuy  fommes  beaucoup  obligez , « 
+nous  délibéra fmes  de  mettre  un  bateau  en  eftaepour  ££ 
+aller  quérir  noftre  très-grand  Pere  l’Eveique  & l’a-  ££ 
+mener  icy  ; Mais  on  trouva  eftre  encore  trop  à l’ê-  « 
+troit,  & la  liberté  de  la  fainte  Loy  de  Dieu  n’eftant  « 
+point  encore  élargie  ; nous  n’avons  encore  pû  relou-  « 
+dre  cette  affaire.  Nous  prions  pourtant  Dieu  d’en-»  « 
+
+C üij 
+
+
+34 
+
+» porter  la  peine  à noflre  Pere  , pour  qu’il  puiffe  ac- 
+» complir  ce  dellein,&  venir  prendre  nos  âmes  en  fa 
+» piopre  garde.  Nous  prions  Dieu  , la  Sainte  Vierge 
+» Mare,&  tous  les  Maints  Anges,  & leur  demandons 
+» qu’ils  nous  fa  lient  la  grâce  de  voir  bien-toft  la  face 
+» de  noftre  très-grand  Pere , de  recevoir  de  grandes  for- 
+33  ces  pour  nous  délivrer  de  nos  pecbez , de  garder  fide- 
+3>  lement  & entièrement  amitié  avec  Dieu , & demar- 
+33  cher  fur  les  veftiges  de  tous  les  Saints.  Nous  fommes 
+33  de  chétifs  vers  de  terre , & n’avons  pas  l’efprit  de  rien 
+33  écrire  qui  (oit  digne  de  fervir  deréponfe  à la  b.lle& 
+
+33  fainte  lettre  de  notlre  très  grand  Pere  : Neantmoin$ 
+
+33  nous  le  prions  de  recevoir  les  lignes  de  cette  lettre 
+33  comme  un  témoignage  de  nos  reipeéts  , & d’avoir 
+>3  compallîon  de  nous.  Amen, 
+si  Yoicy  l’autre. 
+
+Lettre  ■particulière  des  Chreftiens  deVatfo,  qui  ne  fait 
+pas  rno  ns  paroijlre  les  bonnes  difpofitions  de  ces  Neo - l 
+phytess 
+
+„ Nous  adorons  & révérons  trois  perfonnes  en  un  feul 
+»,  Dieu  Créateur  du  C îel  & de  la  Terre  & de  toutes  : 
+„ choies.  Nous  failons  en  lui  te  nollre  i everence  à nô- 
+,3  tre  Saint  Pere  le  Pape  qui  vous  a créé  tvefque  ;Nous 
+>,  prions  aufïi  le  Tout-puillant , Créateur  du  Ciel  & de 
+,3  la  Terre  d’affiftcr  noue  très  grand  Pere,  de  les  plus 
+„ particulières  faveurs,  pour  que  l’un  & l’autre puil-  j 
+cc  lent  s’avancer  tous  i es  jours  dé  plus  en  plus  dans  les 
+,,  bonnes  grâces,  v’elt  ieu  , comme  nous  croyons , 
+
+„ quia  fait  connoiltre  nos  extrtmes  mileres  : en  effet 
+„ nous  compolons  vn  troupeau  d’ouailles  de  ] tsu  s- 
+„ Christ,  mis  idiotes  & ignorantes  ; Nous  tommes 
+„ pourtant  alltmb  ez  pour,  faire  la  pielente  a nollre 
+n très  grand  Pere,  api  es  tous  eftre  louvenus  desmeri- 
+3,  tes  de  j b s u s-Cn  ri  s x Souverain.  Seigneur  de  ioa- 
+
+
+es  chcfes , & nous  eftre  unis  à route  l’Egîife  Militari-  « 
+e.  Nous  avons  commencé  à devenir  Etrilles,  que  « 
+tous- ne  fçaurions  l'exp  imer,  jufques  à en  avoir  les  « 
+armes  aux  yeux , parce  que  voyans  que  nous  iom-  « 
+nés  des  miferables  vers  de  terre  ; & cependant  Dieu  « 
+i bien  voulu  donner  à noftre  tresrgrand  Pere  tant  de  « 
+eele  & tant  de  compaflon  pour  nous,  que  quand  le  « 
+Ciel  & la  Terre  feroicnt  changez  en  papier,  Us  ne  « 
+fuffircient  pas  pour  déclarer  la  grandeur  de  cette  cha-  « 
+cité  divine  , ne  nous  ayant  pas  encoie  fait  la  grâce  de  “ 
+jouît  de  fa  prefence  j Nous  nous  fommes  crûs  obi  gez  « 
+de  luy  faire  connoildre  par  la  prelente  que  nous  loû-  « 
+pirons  apres  ce  bon  heur,  afin  quelle  ait  encore  plus  « 
+de  ccmpaffion  de  nous.  1 ans  les  liecles  pillez  Dieu  “ 
+ayant  veu  le  genft  humain  perdu  , n’a  pas  vol, lu  le  “ 
+laitier  dans  cette  damnation  3 Mais  lailTantla  Cour  C( 
+Celefte  de  ces  neuf  Chœurs  des  Anges  eft  venu  dans  “ 
+ce  monde , s’eft  expofé  à toutes  fortes  de  peines,  de  cc 
+miferes , & de  travaux  , jufques  à mourir  fur  une  “ 
+Croix  pour  nospechez,  nous  lailfantdes  exemples  « 
+d’une  humilité  tres-profonde.  Noftre  très-grand  Pe-  “ 
+re  fuit  maintenant  fesvcftiges;  ayant  quitté  l’Europe,  “ 
+& s’expofant  àfoufdrir  toutes  fortes  de  travaux  & de  “ 
+miferes,  (ans  que  la  diftance  de  trois  ou  quatre  mille  « 
+lieues,  les  Mers,  les  lieux  deferts  & les  montagnes,  “ 
+& toutes  les  autres  difhculcez  à vaincre  ayencpû  “ 
+l’empefcher  de  venir  travailler  à noftre  faluœ  “ 
+
+Nous,  voyans  tous  ces  grands  travaux  eflfuyez,&  « 
+ceux  auxquels  il  elt  encore  expofé  pour  nous , qui  ne  « 
+fommes  que  des  pauvres  pécheurs,  & qui  n’avons  ja- ct 
+mais  mecicele  moindre  de  ces  effets  de  la  bonté,  nous  “ 
+nous  en  fommes  fi  attendris,  que  les  larmes  nous  en  « 
+viennent  encore  aux  yeux.  L’an  pâlie  noftre  très-  « 
+grand  Pere  nous  fie  la  grâce  de  nous  envoyer  viluer  « 
+par  un  pere,  lequel  nous  apprit  qu’il  eftoit  arrivé  a « 
+Siam;  & qu’il  avoit  grand  délit  de  fe  rendre  icyau  « 
+
+
+>>  phitoft  ; Nous  en  recelâmes  une  joye  extreme,  & en 
+» rendifmes  grâces  à Dieu  de  coût  noftre  cœur  : par  la 
+» prefence  de  ce  Pere  nous  nous  voyonsdcja  comme  en 
+33  pofteffion  de  noftre  très-grand  Pere , & la  Cochin- 
+53  chine  nous  paroiftoit  comme  une  belle  forelt  rem- 
+” plie  de  beaux  arbres  tous  fleuris , en  forte  que  nous 
+5>  croyions  que  Dieu  eût  changé  le  cœur  de  noftre  Roy, 
+
+»3  qui  paroilfoit  donner  une  ple  ne  liberté  pour  tous  les 
+33  exercices  de  noftre  Sainte  Religion , qui  eiloit  un  che- 
+“ min  ouvert  à noftre  très-grand  Pere  de  s’unir  à ce  lien 
+“ Troupeau , & de  n’eftre  qu’un  avec  luy  , comme  nous 
+’3  le  délirions  pafîionnément.  Cependant  voilà  une  hor- 
+’3  ribletempeftequi  s’eleve , laquelle  abbat  & fleurs  & 
+
+>’  feiiilies 8c  brife  mefmes  les  branches  encore  tendres-, 
+
+>3  Nous  voulons  dire  que  noftre  Roy^Faitune  h cruelle 
+33  periecution  à cette  Eglile  naiffante  , qu’il  en  chafte 
+»3  tous  les  Peres,  met  à mort  tous  les  Catechiftes,  qui 
+’3  pouvoienten  leurablence  nous. donner  quelque  con- 
+33  lolation  8c  inftrudion -,  En  forte  que  plulieursd  entre 
+33  nouseltans  foibles,  n’ayans  pas  encore  pu  recevoir 
+>3  le  Sacrement  de  Confirmation,  tombèrent  pour  lors 
+3>  dans  l’infidélité  s Nous  confultàmes  enfuite  entre  nous 
+3»  s’il  n’eftoit  point  à propos  de  difpofer  un  bateau, pour  1 
+>3  que  quelques-uns  de  nous  puflent  le  rendre  auprès  de 
+>3  noftre  très-grand  Pere  Mais  la  perfecution  eftant  : 
+33  encore  fort  allumée  ,nous  n’en  pûmes  venir  à bout, 
+
+»3  ce  qui  fit  un  grand  futcroift  à noftre  affiiélion  , voyâs  > 
+33  que  nous  n’eftions  pas  capables  d’efteéfuer  lamoinuie 
+>3  reiolution  , nous  en  attribuâmes  la  caule  à nos  pe- 
+
+33  chez  , qui  nous  rendoient  indignes  d’un  tel  bon- he-ur,  i 
+
+33  Noftre  affliftion  a duré  jufques  à prelent  , que  nous  j 
+33  avons  receu  celle  que  noftre  très  grand  Pere  nous  a 
+33  écrire  , laquelle  arriva  l’an  pafté  à la  fin  du  lepticme 
+.«  mois , 8c  ne  nous  a efté  communiquée  qu’au  commen- 
+33  cernent  du  fécond  mois  de  la  prefence  année.  Quand 
+»3  nous  y avons  leu  les  excellentes  inftruclions  8c  con- 
+
+
+-# 
+
+fo  dons  que  noftre  très  grand  Pere  nous  y donne  : « 
+Nus  avons  &fté  frit  es&  joyeux  en  melme  temps  •,  « 
+tries  pour  ne  pouvoir  pas  encôre  jouir  du  bon-heur  “ 
+d' fa  prelence  ; joyeux  dans  l'eiperance  que  nous  <« 
+a ms  de  rencontrer  en  luy  un  mil  ou  tres  piu  & très-  « 
+replandilfant  pour  nous  y mirer,  &un  remedegene  « 
+
+1 n pour  tous  nos  maux  Àttendans  que  noftre  très-  « 
+gind Pere  arrive  icy  heureufementnous  luy  oftrons  “ 
+e témoignage  de  nos  reconnoiftances , les  prières  « 
+qe  nous  failons  à tous  nos  chers  freres  ,qui  ont  icy  « 
+dnné  leur  vie  pour  l’intereftde  la  Religion  afin  d’ob-  « 
+nir  du  bon  Dieu  3 que  noftre  très  grand  Perepuifle  “ 
+tm  toft  le  rendre  icy  , pour  exercer  fur  nous  la  « 
+
+• ginde  charité  dont  il  brûle  , afin  qu’eftans  fortifiez  « 
+
+1 pr  ies  exemples  nous  fouftrions  tous  nos  maux  pour  « 
+fi  eu , & pout  la  fatisfadion  que  nous  devons  pour  « 
+tir  s crimes.  Nous  conjurons  la  divine  Majefté  que  « 
+
+]tur  la  recompenfe  de  tous  les  travaux  que  noftre  « 
+%t;s- grand  Pere  endure  à noftre  occafion  -,  Elle  luy  « 
+:,|lilela  grâce  de  devenir  un  très- grand  Saint,  & de« 
+
+■ jliir  du  bon  heur  eternel  pour  tous  les  fiecles  des  fie-  « 
+
+18 j(és . Amen.  « 
+
+Voicy , Monfeigneur , la  réponfe  que  j’ay  faite  aux  « 
+'hreftiens  de  la  Cochinchine  que  je  tranlcris  icy  « 
+
+> >ur  vous  donner  connoifiànce  de  tout.  « 
+
+* Mes  Freres  , comme  vous  ne  pouvez  douter  de  l’a-  « 
+°f  tour  que  )’ay  pour  vous , qui  elt  fi  grand , que  je  puis  « 
+14  pus  dire  qu’il  me  confirme  ; vous  ne  pouvez  pas  aulii  « 
+f outer  de  la  latisfadion  que  j’ayreceué  de  vas  lettres.  « 
+
+ebefoin  où  vous  elles  me  fait  gémir  tous  les  jours  « 
+151  fix  pieds  de  Jefus-Chritt  pour  . bienir  de  la  "bonté  “ 
+® eftre  auprez  de  vous , afin  de  vous  rendre  tous  les  « 
+•s  cours  d’un  véritable  Pafteur  ,&  qui  ne  fera  pas  par-  « 
+® litement  content  jufqu’à  ce  qu’il  ait  donné  fa  vie  “ 
+bur  le  bien  de  vos  âmes  -,  Etainfi  s’il  eft  vrayque  « 
+
+■ ay  une  envie  extrcme  de  vivre  pour  vous , il  eft  aulîi  “ 
+
+
+» vray  que  j’en  ay  encore  une  plus  grande  demour 
+,5  pour  vous.  En  cela  je  ne  fais  pas  plus  que  je  doi: 
+
+» puis  que  Noftre  Seigneur  Jesus-Christ  en. 
+» ainfi  ufé , & veut  que  j’en  ufe  de  la  forte,  je  vous  ai 
+» ray  donc  une  parfaite  obligation  de  contribuer  à c 
+53  delfein  , en  me  donnant  avis  comme  je  puis  me  rendi 
+3>  à la  Cocbinehine  Que  fi  par  une  conduite  de  Diet 
+33  qu’il  faut  toujours  adorer,  il  arri/oit  queie  n’y  pâfj 
+33  pas  entrer , &que  la  dignité  que  j’ay  fuft  fufpecte  à 
+33  Cour  ; je  vous  prierois  de  jetter  les  yeux  fur  les  pe. 
+
+33  formes  d’entre  vous  les  plus  faintes,  &me  les  envoy<  « 
+)3  dans  quelque  petite  chaloupe  , afin  qu’apres  les  avo 
+33  rendus  capables  d’eftre  Pteftres , jelespûllè  ordonrt 
+33  pour  enfuite  vous  aller  repaître  de  la  parole  de  Diet 
+33  8c  vousadminiftrer  les  faints  Sacremens  Ce  qu  n- 
+33  fait  plus  appuier  cette  penfée , c’eft  la'crainte  que  j’a 
+» qu’on  ne  falle  deffences  aux  Chreftiens  eftrange 
+33  d entrer  en  la  Coclv.nchine  : Ileft  vray  quequandc 
+33  aura  fait  un  femblabie  Edit,  jene  lailferois  pasaup; 
+
+33  ril  de  ma  vie , & de  celle  de  plufieurs  de  nos  Miflloi 
+33  naires  d’aller  vous  affifter.  Cette  relolution  que  noi  j 
+33  prenons  vient  purement  de  Dieu  ;&  comme  elle  noi  . 
+33  eft  donnée  en  voftre  faveur,  c’eft:  un  figne  mamfeli  / 
+33  de  l’amour  qu’il  vous  porte  •,  cette  grâce  eft  une  luit 
+33  de  celle  qu’il  vous  a faite  de  vous  éclairer  entre  pli 
+33  fieurs  nations , qui  ne  le  iont  pas  encore  ; faite>  y loi 
+3>  vent  reflexion  & ayez  toujours  devant  les  y eux  Tac 
+» cori  mutuel  qui  s’eft  fait  entre  Dieu  & vous  , a 
+33  temps  de  voftre  Baptelme  , ou  vous  promûtes  pot 
+33  Jors  à Dieu  de  l’aimer  de  tout  voftre  cœur , de  tou 
+33  te  voftre  ame , de  toutes  vos  forces , & le  prochair 
+33  comme  vous  melme,  8c  de  renoncer  au  diable  & 
+
+33  toutes  lortes  de  pechez  : Et  Dieu  de  (a  part  yous  al 
+33  sâra qu’il  vous  adoptoitpour  les  heritiers,  pour  le 
+>?  enfans , & pour  la  vie  éternelle  Ce  contrat  a efi 
+>}  fait  non  feulement  devant  les  perfonnes  qui  alüfterei:  I 
+
+
+■I 
+
+
+39 
+
+à oftreBaptefme;  mais  encore  en  la  prefencede  toit-  « 
+t;  a Cour  celefte , & des  Elprits  bien-heureux  qui  « 
+S!-  fat  devant  le  Trofne  de  Dieu  ; delorte  que  vous  « 
+vyez  combien  il  eft  plus  folemnel  ,&  combien  il  y « 
+®i|  salus  d'obligation  à letenir,  que  s'il  avoir  efté  fait  « 
+
+- cvant  qui  que  ce  foit  des  hommes.  La  bonté  de  « 
+Leu,  mes  frétés  , n’en  ett  pas  demeurée. là  , quoy-  « 
+cj'il  femble  , qu'elle  ne  puilfe  pas  palier  plus  avant:  « 
+(vous  a donne  Ton  faintEfprit,  qui  apres  vous  avoir  « 
+
+L fittifié  , demeure  d’une  façon  particulière  dans  vos  « 
+® nés;  d'où  vient  que  les  Chreftiens  qui  font  en  grâce  « 
+W tirèrent  d’avec  le^  autres  hommes  dans  leurs  pcnfées,  « 
+ms  leurs  paroles,  dans  leurs  actions  : Ce  font  des  <c 
+i bmmes.  reformez  , qui  participent  plus  de  la  nature  « 
+d Hyine  ; que  de  l’Buinaine  ; cette  différence  eft  à re-  « 
+|iitl  jarquer  dans  un  Chreftien  , & dans  un  Gentil  ; ce-  « 
+ij  iylàa  promis  de  ne  rien  faire  dans  toutes  (es  ope-  « 
+lat-j  nions  qui  puille  déplaire  à Dieu , quand  bien  meime  « 
+jperoit  contraire  à Ion  inclination  : celuy  cy  au  con  « 
+lilîiirene  luit  que  les  appétits  d’une  nature  conom-  « 
+er|  te  : celuy  là  penle  à l'Eternité  ; celuy-  cy  ne  fait  cas  « 
+ue  du  prelent  : celuy-là  obierve  la  Loy  de  Dieu  ; ce-  « 
+iijjjiy-cy  celle  des  fens.  D'où  peut  venir  un  h grand  « 
+Rangement  entré  deux  hommes  d’une  nature  (em-  «= 
+e jiable  ,(lnonquel  un  eft  un  homme'  nouveau  &•  re-  « 
+
+- ;)rme  , & l’autre  ne  l’eft  pas:  Outre  cet  effet  de  l'ef-  « 
+rit  divin  demeurant  dans  les  âmes,  il  y en  a encore  « 
+
+i n admirable  qui  eft  que  par  fon  moyen  , elles  (ont  « 
+p aies  à J esus  Christ  qui  les  considérant,  après  « 
+ette  union , comme  (es  propres  membres , influe  per-  « 
+b etuellement  de  nouvelles  grâces  , & prend  plus  d’in-  « 
+breft  a tout  ce  qui  les  touche  , qu’un  homme  ne  fait  « 
+■our  la  confervation  des  parties  de  fon  corps.  De  « 
+i-tte  grande  vérité  nous  pouvons  juger  combien  un  « 
+'omme  jufte  eft  cher  au  Pere  Eternel , puilqu’iln’eft  « 
+u’unavec  Jesus-Chr-xst.  Apres  tant  d'excezde  » 
+
+« ; 
+
+■ 
+
+
+. , , s . 40 
+
+>3  bonté  d\m  Dieu  envers  nous , pouvons-nous  dou  ; 
+j>  d’eftre  éternellement  heureux  ?non;  mes  freres  ,c’; 
+
+33  un  crime  de  croire  le  contraire  ; le  divm  Efprits'efu; 
+
+33  un  y à nous  de  la  maniéré  que  je  viens  de  dire , ne  s’ ; 
+
+33  leparera  jamais  fi  nous  voulons , c’ell  à dire  fi  nous 
+33  commettons  quelque  péché  mortel  encotequa 
+33  cela  arriveroit  par  ignorance  , fragilité  , ou  auti 
+33  ment,  nous  avons  encore  un  moyen  d’obliger  ce' 
+
+33  vin  elpritderetourner  dans  nos  âmes  avec  les  melrr. 
+
+33  prérogatives,  finousavons  une  grande  condition 
+33  l’avoir  oftenfé,  & fi  nous  recevons  le  Sacrement 
+,3  Penitence.  Qifaucun  Chreilien  donc  ne  le  delefp 
+33  le  de  Ion  falut  ; que  les  jitftes  le  réjouifient  de  la  gra 
+33  que  Dieu  leur  a faite  de  perleverer  en  cette  lain 
+s,  union  &-  que  les  pécheurs  le  rejoliilTent  autfi  de  la  po 
+33  voir  recouvrer  , quand  ils  voudront , pourveu  qu’ 
+
+33  ne  négligent  pas  le  remede:  le  finis  vous  exhorta 
+33  encore  une  fois  de  vous  reiouvenir  de  cegrani&  1 
+33  lemnel  contracV  que  vous  avez  fait  avec  Dieu  par  v 
+33  treBaptelme,&defuivre  les  mouvemens , & lesii 
+,3  lpirations  du  divin  efpritque  vous  y avez  receu  , a 
+33  quel,  fi  vous  elfes  fideles,  vous  arriverez  au  points 
+„ la  perfection  que  je  vous  fouhaite  au  nom  du  Per 
+33  du  Fils , & du  lainr  Efprit. 
+
+„ Voila , Monfeigneur , tout  ce  que  je  puis  vous  e a 
+13  crite  de  l’état  prefent  des  affaires  de  nollre  chere  Ce 
+j,  chinchine  , qui  donnera  quelque  jove  à tous  nosam 
+3,  d’Europe  $ à quoy  j’ajoute  les  nouvelles  que  nous  a; 
+
+3>  prenons  du  collé  de  la  Chine  par  le  retour  des  va: 
+
+33  beaux  du  Roy  de  Siam,  lelquelsne  lontpas  tiagre: 
+
+33  blés-  On  m’écrit  de  Macao  que  cette  ville  ell  tôt 
+33  jours  réduite  en  une  extrême  neceifité , les  habitat  < 
+33  néanmoins  ont  quelque  elperance  qu’on  leur  pe 
+„ mettrale  commerce  , comme  auparavant  en  payar  1 
+33  une  certaine  fomme  qu’on  leur  demande.  Toutes  1< 
+
+33  lettres  de  Macao,  & plufieurs  habitgns  de  cette  Vil. 
+
+
+4î 
+
+à qui  fe  font  embarquez  fur  les  VaiflTeaux  du  Roy  , « 
+lifent  que  vingt-cinq  ou  trente  Religieux  qui  étoient  ce 
+i la  Chine , ont  efté  mandez  à Pequin , & qu’il  y a eu  « 
+\rreft  de  bannillement  contre  eux  au  moisdeSeptem-  « 
+are  16^5.  on  n’en  fçait  pas  encore  la  caufe,  plufienrs  « 
+alTdrentquece  n’eft  pas  tant  en  haine  delà  Religion  « 
+Chreftienne , que  pour  des  confiderations  d’Fftat  & ce 
+des  précautions  de  Politique.  « 
+
+On  craint  qu’on  ne  lésait  fait  mourir  par  les  the-  ce 
+mins  par  quelque  ordre  fecret  de  la  Cour  , à cauie  ce 
+qu’eftans  partis  de  Pequin  aufîi-toft  apres  i’Arreftde  ce 
+condamnation  on  n’avoit  pas  de  nouvelles  de  ce  qu’ils  ce 
+eftoient  devenus  depuis  le  -o.  Mars  1 666.  ce 
+
+]’ay  appris  auffi  que  M.Bvindeau, que  nous  avons  ce 
+envoyé  à la  Chine,  a efté  parfaitement  bien  receu  à ce 
+Macao  , le  Gouverneur  dé  la  Ville  luy  a fait  otfre  de  ce 
+Service  ; le  Vicaire  general  de  l’Evefché,  qui  eftÀu-  ce 
+iguftin  , l’a  logé , la  plufpart  des  Religieux  de  la  mef-  ce 
+me  Ville  luy  ont  témoigné  beaucoup  d’aftéétion  •,  on  ce 
+n’a  gueres  tardé  à connoiftre  fon  mérité , & la  capaciT  ce 
+té  qu’il  a acquiie  en  Sc  ;bonne  ( où  il  eftoit  prell  de  ce 
+prendre  le  bonnet  de  Üoéteur  avant  fon  départ.  On  ce 
+peut  dire  qu’il  a l’avantage  d’eftre  le  premier  que  cet-  ce 
+te  célébré  Faculté  ait  donné  aufervice  de  ce  païs  h ce 
+éloigné , & qu’il  a ouvert  par  fon  exemple  le  chemin  ce 
+pour  le  fuivre  à quelques  autres  de  cet  llluftre  Corps.)  ce 
+Le  Vicaire  General  l’a  auffi-toft  occupé  àprefeher,  à ce- 
+confeiPer , & à plufieurs  autres  employs  de  charité,  ce  ce 
+qui  luy  a acquis  de  l’eftime&  du  crédit  auprès  des  « 
+gens  de  bien  & des  pevfonnes  des-interelfées  : Parmy  ce 
+des  occupations  il  ne  laifte  pas  de  s’appliquer  à appien-  ce 
+dre  à parler,  & à écrire  la  Langue  Mandarine  delà  ce 
+Chine , afin  d’eftre  en  eftat  d’y  entrer , lorfqu’il  plaira  « 
+à Dieu  de  luy  en  ouvrir  la  porte-  il  m’a  envoyé  un  ce 
+Dictionaire  de  cette  Langue  écrit  de  fa  main.  ce 
+j 11  eftoit  venu  cette  année  à Siam  plufieurs  perfon-  « 
+
+
+- - 4* 
+
+hcs  de  Macao  , pour  recevoir  les  Ordres  facrez; 
+Mais,  comme  nous  avons  iugc  que  quelques  un  - n’a- 
+^ voient  pas  la  capacité,  ny  les  quahtez  necellaires  pour 
+sj  pouvoir  eitre  ordonnez , ny  prelque  les  premiets  fon- 
+j7  demens  des  vertus,  qu’il  faut  avoir  long-temps  pra- 
+tiquées avant  que  d’eltre  admis  au  'acerdoce,  ils  ont 
+mieux  aymé  s’en  retourner,  que  de  fe  loùmettre  à la 
+|ULte  ditcipline  d’un  Séminaire  *,  De  lorte  qu’il  n’en 
+ell  relié  que  trois  ; mais  deux  de  ceux  qui  eltoienc  ve- 
+nus l’année  precedeme  , ont  ellé  faits  Diacres  , & 
+pouirontbieneftre  admis  à 1 Ordre  dePreltrite  Tan- 
+née prochaine. 
+
+Nous  continuons  nos  exercices  ordinaires  de  Mif- 
+fionnaires,  & n’ayans  pas  rencontre  plus  ce  monde  en 
+eflat  de  recevoir  le  Baptelme  parmy  les  Coch.nchi- 
+nois,  nous  fumes  obligé  d employer  plus  utilement 
+nos  travaux  ailleurs,  mais  la  bonté  de  Dieu  ayant 
+depuis  touché  le  cœur  de  quatre  de  ceux  quiavoient 
+eu  volonté  d’embralfer  le  Chciftianitme  , & qui  en 
+avoient  efté  détournez  par  des  relp-ds  mondains,  • 
+nous  leur  avons  conféré  le  Bapœlme , apres  avoir  eité 
+’ inlhuits  durant  un  temps  conliderable.  Si  toit  qu’on 
+M vit  le  commencement  d’un  petit  Troupeau  dans  Ten- 
+” droit  où  habitent  les  gens  originaires  du  pais  de  Là  is-, 
+l’on  prit  relolution  de  faire  bâtir  une  peci.e  Chapel- 
+’ le  à la  façon  du  pais , où  Ton  commença  de  ceùbrer  v 
+la  iainte  Melle  le  29.  Aoull  dernier  : quelques  autres 
+” decemeime  village  ayans  conlideré  qu’on  ne  cher- 
+53  che  que  le  falut  de  leurs  âmes  , ont  aufïi  déclare  qu’ils 
+” vouloient  embraller  la  Religion Chreftienne  & vien- 
+” nent  entendre  le  Catechifme,  qu’on  y fait  deux  ou 
+” rrois  fois  la  Semaine  ^Nous  avons  dedie  cette  petite 
+53  Chapelle  ( fuivant  les  intentions  de  Madame  la  Du- 
+” chelTed’Aiguillon,  qui  nous  a fait  la  grâce  de  nous 
+53  en  écrire  exprès  J à l’honneur  du  précieux  lang  de 
+” N.  S.  répandu  en  Croix  pour  le  ialut  de  tous  les  hom- 
+" mes.  Je  ne  t 
+
+
+Je  ne  puis,  Monfeigneur , finir  cette  longue  1er-  « 
+re , fans  vous  parler  encore  de  quelques  circonftan-  « 
+tances  de  notlre  établiiTement  àSiam  : On  eut  eu  <t 
+dus  d’inclination  que  nous  nous  fuffions  établis  par-  « 
+nyles  Nations  Chreftiennes  : Mais  ayans  choiii  le  « 
+ieuoù. demeurent  les  Cochtnchinois  pour  de  julles  ce 
+'onfiderations,  l’on  me  fait  palier  la  conceffion  du  c< 
+hamp  que  le  Roy  nous  y a faite,  pour  une  faveur  « 
+Extraordinaire  5 Plufieurs  nous  demandent  devenir  « 
+lemeurer  en  noftre  quartier  , à quoy  je  me  rends  ai-  « 
+»z  difficile , ne  voulant  prés  de  Nous  que  des  gens  « 
+le  bonne  vie.  Je  l’ay  permis  a deux  Familles  de  « 
+iiam,  à une  de  Portugais,  & à une  de  François-,  fi  « 
+['autres  François  viennent  s’établir  en  ce  pais , ou  1 on  ce 
+es  defire  fort,  ils  pourroient  loger  fur  un  fond  qui  « 
+ppartientàla  Nation,  vous  en  pouvez  affiner  M^s-  ce 
+es Direfteurs  de  la  Compagnie  Royale,  &leur  fai-  ce 
+e offre  dufervice  de  nos  Ecclefiaftiques  en  tous  les  ce 
+‘leuxou  ils  font.  , “ 
+
+Le  Roy  de  Siam  envoya  l’année  paffiée  un  de  fes  a 
+raifleaux à Goa  , qui  n’eft  point  encore  de  retour , il  ce 
+n doit  partir  un  autre  ce  mois  de  Novembre  pro-  » 
+hain  pour  Surate  ce  fera  une  belle  occafion  pour  » 
+eux  qui  nous  viennent  trouver;  Nous  avons  un  ex-  ce 
+:éme  befoin  qu’ils  viennent  bien-toft,  & en  bon  nom-  et 
+re,  nepouvans  fuffire  tous  à nos  employs  ,‘qui  de-  ce 
+nandent  une  tres-grande  application.  Nous  avons  ce 
+;y  un  Séminaire  d’Ecclefiaftiques , une  Echoie  de  ce 
+'heologie  Morale  , quelques  jeunes  Sianois  que  le  ce 
+.oy  nous  a donné  à inltruire , une  petite  Echoie  pour  » 
+stj  osChreftiens  , quelques  Cathecumenes , & lacon-  ce 
+uite  d’une  Pàrroiffie  , outre  plufieurs  autres  occupa-  ce 
+Di  ons  envers  le  prochain  qui  nous  confument  beau-  « 
+H oup  de  temps.  “ 
+
+; Je  me  fuis  appliqué  depuis  peu  à préparer  quelques  « 
+erfonnespour  eftre  en  eftat  d’accompagner  les  Ec- <s 
+
+D 
+
+
+44  . 
+
+« cîefiaftiques  que  nous  attendons  -,  j’ay  avec  moy  ut 
+» Chinois  originaire  de  Canton,  qui  m’eft  engagé  , le 
+» quel , outre  fa  langue  naturelle , parle  celle  de  Chin 
+a?  cheu,  ou  de  la  Province  de  Foxhicn,  & paflable 
+» ment  la  Mandarine  de  la  Chine  , c'eft  une  bonne  ac. 
+» quifition  pour  moy  : J ay  encore  un  autre  hommt 
+>3  Chretiien  que  j’ay  retiré  de  chez  un  Mandarin,  que 
+33  j’ay  deftiné  pour  ceux  qui  palleront  à Laos:  J’ay  a 
+33  chetédeux  petits  garçons  de  Siam  , & un  grand  qu 
+33  efr  toujours  avec  Moniteur  Laneau  pour  le  perfe 
+33  éhonner  en  la  langue  de  ce  Pays -,  outre  cela  nouséle 
+33  vons  trois  autres  tnfans  de  Siam  a la  Clericature , lef 
+33  quels  nous  ont  efte  donnez  par  leurs  parens  par  con 
+33  tradb,  à la  charge  de  les  entretenir , & de  les  éleve 
+33  comme  s’ils  eitoient  nos  frétés  : Il  nous  eft  mort  cetr< 
+33  anme  trois  petits  enfans , l’un  Chino  s , l’autre  Co 
+33  chinchinois  , & l’autre  de  Laos,  qui  iont  en  Paradis 
+,3  & prient  Dieu  fans  doute  pour  nous  •,  Toutes  nos  af- 
+33  faites  vont  bien  , grâces  à Dieu  •,  J’ay  une  grande  joy< 
+33  que  ceux  qui  feront  envoyez  pour  icy  , les  trouvcn 
+33  en  l’état  où  elles  iont  ; je  les  attens  avec  un  peu  d <m 
+33  patience  pour  m’en  aller  mourir  au  plutoit  en  quel 
+33  qu’un  des  lieux  de  nos  Miffions,  dont  )’ay  un  deiirque 
+„ je  ne  puis  exprimer.  Je  donne  ay  la  Toniure  le  jOU 
+33  deToulfaints  a trois  de  nos  Seminariftes  , un  d’eu: 
+33  âgé  de  z6  ans  elt  en  la  refolution  de  fe  donner  pa 
+33  vœu  aux  Miffions  j je  leur  diray  ce  jour-là  quelqtr 
+33  chofe  des  richelles  delà  pauvreté  Evangélique  ; nou 
+33  baptiierons  auffi  quatre  Caihectimenes , deux  de  M 
+33  Laneau,  & deux  des  miens  : Un  Cochinchinois  te 
+33  negat,  & baptisé  il  y a fept  ou  huit  ans , areceu  abio 
+33  lution  publique , il  paroiit  fort  touche,  & nous  croyô 
+33  fapeniteneelincere  & véritable;  celuvqui  aeité  i re 
+33  tre  des  Idoles  ,dont  vous  avez  oiiy  parler  eirant  icy 
+33  elt  venu  demeurer  proche  de  nous,  & m’a  fait  dm 
+33  depuis  peu  de  jours  qu’il  vouloir  eltre  Chreltien  ave 
+
+
+45 
+
+nue  fa  famille  , dont  j'ay  bien  de  la  joye.  Nous 
+/ons  icy  un  fujet  qui  promet  beaucoup , c'eft  le  heur 
+rançois  Ferez  , je  Tay  conduit  ces  deux  dermeres 
+anées  en  deux  retraites,  je  luy  ay  donné  laTonfure, 
+fin  qu'il  puilTe  enteigner  la  doélrine  Chieftienne  les 
+)imanches  & Feltes  apres  Vefpres , félon  qu  il  a de- 
+ré,  je  m'attache  à l’élever  dans  la  pureté  de  la  do- 
+crine  dejEsasCHRisïà  quoy  je  rencontre  tou- 
+* la  bonne  difpofuion  qu'on-  peut  fouhaiter. 
+
+Vous  ayant  rendu  compte  du  peu  que  nous  faiions 
+our  lefalut  du  prochain  vous  me  permettrez  bien 
+ne  je  vous  dite  quelque  chofe  de  ce  que  nous  faiions 
+Jour  le  noftre  propre,  que  nous  devons  avoir  princi- 
+alement  enveuë.  Je  metens  prefte  chaque  jour  du 
+!efir  de  fatisfaire  âmes  obligations  } Mais  quand  je 
+onfidere  que  l’eftat  où  je  tins  m engage  indilpenta-. 
+jiement  à la  petfeébon,  j entre  dans  une  humilia- 
+ion  profonde  , me  voyant  de  tous  codez  environne 
+’occafions  de  déchoir  ; Mais  afin  de  foutenir  mon  ef- 
+rit,  & pour  le  contraindre  à fe  loumettre  , j ay  fait 
+aire  mon  cercueil , qui  eft  dans  ma  chambre,  cou- 
+ert  d'une  toile  noire , je  trouve  que  ce  fpeéfacie  me 
+îrt  utilement  , il  m'avertit  que  je  dois  eftre  plus  diln 
+,ent , qu’il  ne  me  refte  plus  gueres  de  temps  ,&  que 
+; me  garde  bien  d'avoir  de  1 amour  pour  ce  corps, 
+hui  doit  bien  toft  eftre  enferme  dans  ce  tombeau, 
+rangé  des  vers  , & réduit  en  cendres  i entrant  donc 
+ar  avance  en  cette  derniere  demeure , ie  me  détrom- 
+pé aifemept  de  l'amour  des  chofesfenhblesque  je  re- 
+,arde  comme  paftees  pourmoy  j ay  beloin  de  ce  ie~ 
+ours  iauffi  bien  la  vie  d’un  homme  Apoftolique  doit 
+
+ftre  un  exercice  de  mort  continuelle. 
+
+Je  me  confirme  de  plus  en  plus  en  cette  pemëe , que 
+î grâce  de  convertir  les  âmes  eft  un  don  exttaordinai- 
+e , & un  pur  effet  de  la  bonté  de  Dieu  , lequel  en  gra- 
+.fié  qui  il  luy  plaift  j tout  ce  que  nous  pouvons  faire 
+
+
+CC 
+
+Ct 
+
+CC 
+
+« 
+
+Ci 
+
+CC 
+
+cc 
+
+cc 
+
+cc 
+
+cc 
+
+ce 
+
+ce 
+
+ce 
+
+ce 
+
+ce 
+
+ce 
+
+Ci 
+
+
+4é 
+
+» de  noftre  part  pour  l’obtenir , c’eft  d’ofterles  empef. 
+
+?>  chemens  à le  recevoir  par  la  pratique  de  1‘ humilité. 
+
+?>  de  la  pauvreté  , de  l’oraifon , & de  la  penitence  ; nou< 
+
+» devons  tenir  pour  fufpeétes  toutes  les  voyes  qui  m 
+» nous  mènent  point- là  ; nous  fçavons  que  les  voyes  de 
+» l’Evangile  font  eftroites , celles  qui  font  trop  large: 
+
+» font  dangereufes par  tout  ; mais  on  peut afturer  quel 
+les  font  funeftes  en  ces  Pays  infidèles,  par  la  liberté 
+qu’on  y a de  tout  faire  : Je  ne  puis  me  perfuader  que 
+tant  de  faints  amis  de  nos  Midi  ons , que  nous  avons  ; 
+
+33  Paris  , à Rome,  & ailleurs,  fullent  fort  édifiez,  fi  or 
+33  leur  raportoit  un  jour  que  nous  euffions  tenu  icy  grâ- 
+33  de  table , que  nous  euffions  affeéfc  de  nous  faire  lui- 
+33  vrepar  des  troupes  d’efclaves , & que  pour  ioufteni  i 
+33  la  dépenfede  noftre  train  nous  euffions  efté  oblige;' 
+33  de  recourir  à des  moyens  entièrement  reprouvez.  ]( 
+
+33  fçaisbien  qu’on  a voulu  par  ces  pratiques  accrédité 
+>3  icy  les  Miniftres  de  la  Religion  , & par  une  pompe  ex 
+>3  terieure  faire  voir  aux  Payens  que  ceux  qui  prechen 
+33  l’Evangile  , ne  font  pas  gens  de  néant , comme  ils  s’i 
+33  maginent.  Pour  moy  je  veux  bien  par  avance  m 
+33  condamner  moy-mefme  , fi  je  m’oublie  jufqu’à  c. 
+
+» point  ,que  d’entrer  en  ces  conduites , qui  nous  fon 
+33  deftenducs  par  les  réglés  toutes  laintes  que  l’Eglili  f 
+33  nous  propofe , aulquelles  il  nous  faut  attacher  fim 
+33  plement  & de  bonne  grâce  , pour  honorer  nol'tre  Mi 
+33  niftere.  Je  retiens  une  joye  particulière,  & je  m 
+33  côfole  durant  voftre  abience,  dans  la  penfée  que  vou  ' 
+33  fçaurezbien  propofer  à Rome  & à Paris  , avec  frui 
+33  & utilité,  les  pures  maximes  aufquelles  ilnous  fau 
+33  tenir , fi  nous  voulons  voir  revivre  parmy  les  infidèle  i 
+33  de  ces  contrées  quelque  Image  du  tiecle  des  Saints  d i 
+33  poftres  ; c’eft  ce  que  vous  ferez  goufter  aux  Eccltfis 
+33  ftiques  que  noftre  Seigneur  appellera  àfonlervicee 
+33  cespaïs,  comme  auffi  à plulieurs  Saints  Rekgiem  ; 
+33  dont  la  France  abonde,  qui  pourroient  s’occuper  ic  i 
+
+
+i rec  fruit  pour  l’honneut  de  l’Eglife  , & le  falut  de  « 
+lufieurs , je  me  recommande  à vos  prières  , &c.  « 
+
+Ce  font  jufquesicy  les  propres  termes  de  la  derniere 
+ettrede  M.  de  Eeryte.  J’ay  cru  que  je  ferois  plaifir  à 
+ous  ceux  qui  ont  témoigné  du  zele  pour  nos  Millions, 
+i je  leur  en  faifois  part  , &des  fentimens  qu’elle  cou» 
+ient  ; j’efpere  qu  elle  ne  contribuera  pas  peu  à la  fin 
+jue  je  me  fuis  propofé , qui  eftoit  principalement  de 
+faire  connoiftre  les  difpofitions  où  nousfommes  , & 
+[uelles  font  les  ouvertures  d’aujourd’huy  pour  les  pro- 
+pres de  noftre  lainte  Foy. 
+
+Je  ne  fçay  pas  fi  je  me  trompe,  & fi  la  complaifance 
+l’un  œuvre  qui  eft  entre  nos  mains  m’en  fait  trop  dire; 
+:1  me  femble  cependant  que  je  puis  affurer  que  tout  con- 
+:pire  à augmenter  noftre  confiance , & je  voy  que  tout 
+;e  que  nous  pouvions  defirer  pour  fon  foûtien , s’elt 
+reureufement  accomply,&  cela  d’une  maniéré  dall- 
+ant plus  furprenante,  que  nous  n’y  avons  rien  contri- 
+bué de  noftre  part  ; puiique  tandis  que  nous  avancions 
+/ers nos  Millions,  la  main  de  Dieu  agifloit  puiflam- 
+nent  pour  nous,  tant  à Rome,  qu’à  Paris , pour  le  bien 
+le  nos  affaires. 
+
+. Il  eft  vifible  que  nous  avions  befoin  de  quatre  princi- 
+paux fecours  pour  la  conduite  de  noftre  entreprife  : 
+
+Premièrement,  d’une  refidence  fixe  en  quelque  lieu 
+de  feüreté  proche  de  nos  Millions. 
+
+Secondement  , d’une  prote&ion  particulière  > & 
+d’une  influence  perpétuelle  du  Saint  Siégé  , & de  la  fa- 
+crée  Congrégation  de  la  propagation  de  la  Foy , laquel- 
+le a la  direction  de  tout  ce  qui  regarde  fon  établifle- 
+ment  parmy  les  Infidèles. 
+
+En  troihéme  lieu  , d’une  correfpondance  ftable  à Pa- 
+ris, pour  l’adminiftration  de  toutes  nos  affaires. 
+
+Enfin  , nous  avions  befoin  de  l’appuy  & de  la  faveur 
+des  Puifiances  Souveraines. 
+
+i Nous  avons  trouvé  le  premier  fecours  à Siam  avec 
+
+
+48 
+
+tout  l’avantage  & toute  la  facilité  que  nous  pouvion: 
+deiîrer  , comme  il  a efté  déclaré  cy-defl  us . & fi  le  Sémi- 
+naire que  nous  y avons  efiablv  , eftoit  foutenu  par  quel- 
+que revenu  médiocre , il  deviendroit  dautant  plus  utile: 
+qu’on  pourroit  y préparer  les  Ecclefiafiiques  qui  ieroici 
+envoyez  de  l’fc  urope , & y entretenir  d’autres  petfonne: 
+du  Païs , qu  on  difpoferoit  aux  fondrions  de  Catechifles 
+à la  Clericature , 8c  aux  autres  employs  qui  lont  p;  opret 
+des  Millions. 
+
+Pour  ce  qui  dépend  du  S Sieae , & de  fa  prote&ion;  . 
+jepuisafiurerqu’ün’ya  guere  de  Million,  dont  le  fuc. 
+œsluy  foitplus  à cœur,  que  celle  qu  1 a confié  à no:  i 
+foins.  C’elt  une  fatisfaétion  bien  agréable  à nos  Sei-  : 
+gneursles  Cardinaux  delà  Congrégation  de  la  propa- 
+gation delà  Foy , que  les  François  les  ayent  heureufe-  » 
+ment  trompez  , 8c  leur  ayent  fait  voir  qu’ils  efioient  ca- 
+pables , avec  l’aide  de  Dieu , des  entreprifes  qui  deman- 
+dent de  la  relolution,  du  aes-interefiTement  , 8c  de  la  j 
+confiance. 
+
+Lorfqu  ils  furent  affûtez  de  la  mort  de  feu  M.  l’E  vef- 1 
+que  de  Metellopolis  , Us  jugèrent  aufïï-toft  que  pour  ■ 
+perpétuer  nofire  Million , il  falloir  procéder  au  choix  $ 
+d’un  fuccell'eur , afin  qu’il  n’y  euft  jamais  moins  de  trois  l 
+Evelques  François  : Pour  cet  effet  ils  obtinrent  du  Pape  t 
+Alexandre  VU.  un  Bref  particulier  & extraordinaire,  t 
+addrefifé  à M.  deBeryte&  à moy  , portant  pouvoir  de 
+facrer  fur  les  lieux  pourLvefque  un  de  nos  Eccldiafti- 1 
+ques  à nofire  choix  , quiremplift  la  place  de  M.  de  Me-  I 
+te  llopolis. 
+
+i/eltime  qu’ils  témoignent  par  ce  procédé  , faire  de 
+nofire  Nation  , excite  quelquefois  en  nous  un  louable 
+delir  d’en  foûrenir  1 honneur , & d’effacer  par  noltre  per- 
+feverance  la  tache  qui  nous  eft  quelquefois  imputée , de 
+commencer  les  choies,  8c  de  ne  les  pas  achever. 
+
+Pour  ce  qui  regarde  le  troilîeme  appuy  qui  nous  étoit 
+necefiaire  ; il  elt  certain  que  noltre  entreprile  euft  elté 
+
+
+• . _ 49 
+
+|)îus  téméraire,  qite  prudente  , d’aller  nous  perdre  à 
+)lu»de  cinq  mille  lieues  de  France  , en  des  païs  infidèles, 
+i nous  n euflîons  efté  alîeurez  d’une  correfpondance  fla- 
+pie, fur  laquelle  nous  pûffions  nousrepoler  de  i’admi- 
+uftration  de  nos  principales  affaires  en  Europe.  Quel- 
+]ues  Ecclefiafliques  pleins  de  zele  & de  charité  ont  vou- 
+ti  entrer  en  part  de  cet  œuvre,  & fefont  chargez  decer- 
+e follicitude,  fans  laquelle  il  nous  feroit  difficile  de  nous 
+naintenir  long  • temps  dans  nos  emplois  plus  cette 
+orrefpondance  fera  bien  réglée,  plus  aurons  nous  lieu 
+l’efperer  de  reiiffir. 
+
+Comme  le  principal  foin  de  ces  vertueux  Ecclefiafti- 
+jties  étoit  de  nous  préparer  des  Ouvriers , ils  ont  eftably 
+. Paris  pour  une  finfifainte  & fi  utile,  un  éeminaire  par 
+>ermifIîon  du  Roy  , dans  lequel  tous  ceux  qui  le  fentenc 
+i |ttirez  par  le  S Efprit  à nos  employs , viennent éprou- 
+'erleur  vocation  ,&  s’y  difpofer  par  des  préparations 
+convenables  L’ereétion  de  ce  Séminaire  nous  a efté  une 
+ireuve  du  foin  que  Dieu  prenoit  de  Nous , & nous  le  re- 
+gardons comme  la  fourced’oii  nous  pouvons  tirer  des 
+ucceireurs  à nos  emplois  , pour  rendre  nos  Millions 
+ierpe  ruelles. 
+
+Tous  ces  avantages  ne  feroient  pas  fuffifans  fans  le 
+concours  fpeciai  des  Puillànces  Souveraines  ; Dieu  qui 
+ient  en  fa  main  le  cœur  des  Roys , a ouvert  ceLuy  de 
+loftre  genereux  Monarque  en  faveur  de  nolire  œuvre, 
+es  grâces  que  nous  en  avons  receués  nous  lont  une  for- 
+ealfurancede  celles  que  nous  en  devons  encore  atten- 
+de à l’advenir.  Comme  il  imite  le  Soleil  en  fona&ivi- 
+é , il  veut  auffi  luy  refiembler  en  l’ctendué  de  l'on  in- 
+iuence,  & nous  en  faire  reffentirde  continuels  effets 
+. afquesdans  les. lieux  les  plus  éloignez  de  fa  prefence  ; 
+on  deffein  ell  de  contribuer  à faire  connoiitre  Dieu, 
+’eft  ce  qu’il  a déclaré  qu’il  fe  propofoit  principalement 
+ans  l’établillèment  de  la  Compagnie  Ro;  ale,  qui  fait 
+fiat  de  diitribuer  les  flottes  en  toutes  les  parties  del’Ü=. 
+
+
+5°  ..  , • 
+
+rient  -,  Et  il  faut  avouer  qu’elle  peut  beaucoup  fervir  à 1 
+propagation  de  la  Foy. 
+
+Durant  lefejour  que  nous  faifions  dans  les  ports  dt 
+Indes , voyans  que  tant  de  nations  de  l’Europe  s’y  fa; 
+foient  confiderer  par  leur  commerce  , nous  ne  pouvior 
+nousempefeher  de  former  d’ardens  defirs&  déporté 
+nos  vœux  vers  le  Ciel,  afin  qu’il  excitaft  dans  le  cœu 
+des  François  une  generofité  pareille  à celle  qui  anim 
+nos  voifins. 
+
+Noiîeigneurs  de  l’aiîemblée  du  Clergé  tenue  à Par 
+en  1660.  pour  nous  témoigner  la  part  qu’ils  vouloier 
+prendre  à notlre  Million  , nous  gratifièrent  d’unfecom 
+confiderable  ; celle  de  1665.0e  s’eftpas  montrée  moir 
+genereufe  & liberale,  & nous  ne  pourrions  fans  ingra 
+titude  taire  les  faveurs  que  nous  en  avons  receuës.  . 1 
+Il  faut  avouer  que  la  confideration  attenrive  de  c 
+concours  de  grâces , ne  fait  pas  une  petite  impreffiol 
+fur  nosefpnts  , qu’elle  releve  puilfammenc  nos  elpe 
+rances  , & nous  inlpire  un  courage  nouveau  pour  vair 
+cre  les  plus  grandes  difficultez  que  nous  avons  déj  i 
+éprouvées  en  partie , &c  qui  nous  relient  encore  à corr  ■ 
+barre , pour  foulfenir  en  mefine  temps  par  noftre  mini  r 
+ftere , l’intereft  du  falut  des  âmes , i’honneur  de  l’Eglift  ; 
+8c  la  réputation  de  noftre  nation. 
+
+Comme  ces  chofes  font  grandes  elles  furpaftent  ne  i 
+forces,  c’eft  ce  qui  nous  oblige  de  recourir  aux  prière 
+de  tous  ceux  qui  ont  du  zele pour  Dieu,  & à publier  pa 
+toutlebefoinque  nous  avons,  d’eftre  aydez  par  de  d 5 
+gnes  ouvriers.  Nous  fçavons  que  c’eft  purement  : 
+Dieudeverferenl’ameles  premières  imprellions  d’un  i 
+vocation  fi  relevée  , en  laquelle  on  ne  le  doit  rien  pre 
+poler  que  de  faint  & que  d’heroïque  * c’eft  le  paifa 
+amour  de  Jésus  Christ  qui  feul  la  peut  pioduii 
+dans  les  cœurs,  qui  en  peut  faire  comprendre  les  avar 
+tapies,  &infpirer  la  force necellâire pour envilager  iar 
+aamte  les  evenemens  les  plus  terribles  qui  accompt 
+
+gner  i 
+
+
+5l 
+
+gnentles  emplois  Apoftoliques;  c'eft  enfin  ce  genereux 
+& 2rdent  amour  du  Sauveur  de  nos  âmes  , qui  feul 
+nous  peut  faire  eftimer  cette  prérogative  particulière 
+de  noftre  condition  ,qui  confifte  en  ce  point,  que  fi  par 
+des  obfiacles  infurmontables  nous  étions  empecbez 
+d’operer  pour  nofire  Seigneur  de  grandes  choies  ; nous 
+fommes  du  moins  tres-afiéurez  que  nous  aurons  tou- 
+tes fortes  de  moyens  de  participer  à fa  Croix  , & 
+d’endurer  pour  luy  de  continuelles  peines. 
+
+Vobis  doncitwn  efî  pro  Chriflo , non  folwn  ut  \nenm  crt- 
+datis ,fed ut  etiampro  illo pAtiamini.  Ad  Philip.  1.  29. 
+
+
+> 
+
+
+I 
+
+
+4 
+
+
+■ 
+
+
+"SI 
+
+
+•F 
+
+

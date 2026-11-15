@@ -1,0 +1,31 @@
+source_file: historia-cultus-sinensium_varia-scripta-de-cultibus-sinarum-lat_1700.txt
+assignments:
+- row_id: historia-cultus-sinensium_varia-scripta-de-cultibus-sinarum-lat_1700--maigrot-mandatum-provisionale-1693
+  work: 'Charles Maigrot, Declaratio seu Mandatum provisionale (26 March 1693), Latin (Cologne 1700)'
+  author: maigrot
+  locus: 'OCR lines 15623-15921; add 12 to OCR line numbers'
+  atlas_ids:
+  - chinese-catholicism-1650-1906
+  role: tradition
+  confidence: provisional
+  language: lat
+  date: {start: 1693, end: 1693, source: "the Mandate's date line, 'die vigesima sexta mensis Martii anni Domini' (about OCR lines 15914-15918); the year is garbled there and is read 1693 from the later piece in the same volume dated 'decima Novembris 1693' (18817, where the OCR prints '16931')", formation_confidence: Documented}
+  note: 'The vicar apostolic of Fujian''s provisional ruling for the priests of his vicariate on the disputed Chinese rites. His own text, printed in 1700.'
+- row_id: historia-cultus-sinensium_varia-scripta-de-cultibus-sinarum-lat_1700--charmot-notae-and-notationes-on-the-jesuit-observations
+  work: 'Nicolas Charmot, Notae and Notationes on the Jesuits'' observations on Maigrot''s Mandate (in Historia cultus Sinensium, Cologne 1700)'
+  author: charmot
+  locus: 'the Notae at OCR lines 126-7940; the Notationes at 8194-13133; add 12 to OCR line numbers'
+  atlas_ids:
+  - chinese-catholicism-1650-1906
+  role: tradition
+  confidence: needs-ruling
+  language: lat
+  date: {start: 1698, end: 1700, source: "Charmot's notes are dated 29 July 1698 and 7 October 1698 (OCR lines 120-170, 8194); title page 'M. DCC.'", formation_confidence: Documented}
+  note: 'Charmot''s answers to the Jesuits'' observations on the Mandate, laid before the Holy Office. The Jesuits'' own writings stand later in the volume (from about OCR line 27431) and are not part of this row.'
+authors_ruled:
+  maigrot:
+    kind: metadata-omission
+    evidence: "The Mandate is headed with his name (file lines 15645-15657, 'Carolus Maigrot Sacerdos Vicarius Apostolicus Fokiensis') and signed 'Carolus Maigrot' at file line 15932."
+  charmot:
+    kind: metadata-omission
+    evidence: "The notes on the Jesuits' observations on the Mandate are headed 'a Nicolao Charmot' (heading at file lines 138-169, his name at 158); the title pages name no author."

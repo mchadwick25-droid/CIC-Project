@@ -1,0 +1,14 @@
+source_file: pallu_relation-abregee-des-missions-et-des-voyages-des-evesques-francois-fra_1682.txt
+assignments:
+- row_id: pallu_relation-abregee-des-missions-et-des-voyages-des-evesques-francois-fra_1682--pallu-relation-abregee-des-missions
+  work: 'Pallu, Relation abrégée des missions et des voyages des évesques françois (Paris 1682)'
+  author: pallu
+  locus: 'the Relation at OCR lines 197-2429; the dedication at 74-157; add 12 to OCR line numbers'
+  atlas_ids:
+  - vietnamese-catholicism-to-1815
+  - chinese-catholicism-1650-1906
+  role: tradition
+  confidence: provisional
+  language: fra
+  date: {start: 1668, end: 1682, source: "the dedication is dated 'ce mois d'Avril 1668' (OCR line 156); title page 'M. DC. LXXXII.'", formation_confidence: Documented}
+  note: 'The bishop of Heliopolis reports to the clergy of France on the missions and journeys of the French bishops sent to China, Cochinchina, Tonkin and Siam. His own voice.'

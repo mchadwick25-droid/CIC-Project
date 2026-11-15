@@ -1,0 +1,13 @@
+source_file: jabarti_merveilles-biographiques-et-historiques-t5-fra_1890.txt
+assignments:
+- row_id: jabarti_merveilles-biographiques-et-historiques-t5-fra_1890--jabarti-chronicle-1202-1212-french-with-obituary-of-ibrahim-al-jawhari
+  work: 'al-Jabarti, Aja''ib al-athar, the years 1202-1212 AH, French (Cairo 1890), with the obituary of Ibrahim al-Jawhari'
+  author: jabarti
+  locus: 'the volume at OCR lines 92-10498; the obituary at 9397-9428; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-coptic-church-under-the-ottomans
+  role: context
+  confidence: provisional
+  language: fra
+  date: {formation_confidence: unknown, checked: "the title page (OCR lines 22-61) and the year headings give the years narrated (1202-1212 AH), not a year of writing; the volume has no preface"}
+  note: 'A Muslim scholar of Cairo gives the obituary of the leading Coptic official of his day. An outside witness from the Muslim majority, in French translation.'
