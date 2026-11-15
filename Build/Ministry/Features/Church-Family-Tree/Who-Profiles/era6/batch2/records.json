@@ -4,7 +4,7 @@
    {
     "claim": "The Avignon scene, Raymond of Capua's Life in Mirbt's extract: 'recolo me aliquoties fuisse interpretem inter fel. mem. dominum Gregorium XI. [OCR XL.] ... et hanc sacram virginem ... Ipsa enim non intelligebat Latinum sermonem et summus pontifex non noverat Italicum idioma'; she complained 'quod in Romana curia, ubi deberet paradisus esse caelicarum virtutum, inveniebat foetorem infernalium vitiorum'; the pope asked how in a few days she could learn its ways; 'plus percepi foetorem peccatorum, quae in Romana curia committuntur, existens in civitate mea unde sum nata, quam percipiant ipsi qui ea commiserunt'; 'Ad haec pontifex subticuit.' Told in modern words. Raymond is her confessor and biographer: 'ipsius sanctae confessario'. The summer of 1376 is Scudder's Avignon stay (arrival 18 June, departure 13 September).",
     "witness": "MIRBT (mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt) l.13866-13891; CATHL (catherine-of-siena_selected-letters_scudder1905.txt) l.1337-1348",
-    "formation_confidence": "Widely Accepted"
+    "formation_confidence": "Inferential-Thin"
    },
    {
     "claim": "Birth 25 March 1347, youngest of twenty-five children of Jacopo Benincasa, a dyer, and Lapa: Scudder's chronology ('June 1 8th' etc. OCR spacing).",
@@ -19,11 +19,11 @@
    {
     "claim": "The Mantellate: 'She is vested with the black and white habit of Saint Dominic, becoming one of the Mantellate, or Dominican tertiaries, devout women who lived under religious rule in their own homes' (1363-4).",
     "witness": "CATHL (catherine-of-siena_selected-letters_scudder1905.txt) l.1279-1282",
-    "formation_confidence": "Widely Accepted"
+    "formation_confidence": "Inferential-Thin"
    },
    {
-    "claim": "Writing and dictation: 'She learned to write only three years before her death, and even after this time was in the habit of dictating her correspondence ... to the noble youths who served her as secretaries.'",
-    "witness": "CATHL (catherine-of-siena_selected-letters_scudder1905.txt) l.517-522",
+    "claim": "Writing and dictation: 'She learned to write only three years before her death, and even after this time was in the habit of dictating her correspondence ... to the noble youths who served her as secretaries.' Fiorilli: 'sapeva appena leggere e meno ancora scrivere', and her learning to write in October 1377.",
+    "witness": "CATHL (catherine-of-siena_selected-letters_scudder1905.txt) l.517-522; CATHI (catherine-of-siena_libro-della-divina-dottrina-ita_fiorilli1912.txt) l.14604-14607, 14631-14634",
     "formation_confidence": "Widely Accepted"
    },
    {
@@ -32,14 +32,14 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "The letter of 28 June 1376: 'at the end of our talk he said that if your case were as I presented it to him, he was ready to receive you as sons'; 'But you, with your taxes and frivolities, are spoiling all that is sown.'; 'Given in Avignon, the 28th day of June, 1376.'",
+    "claim": "The letter of 28 June 1376: 'at the end of our talk he said that if your case were as I presented it to him, he was ready to receive you as sons, and to do what seemed best to me' (the condition is told); 'But you, with your taxes and frivolities, are spoiling all that is sown.'; 'Given in Avignon, the 28th day of June, 1376.'",
     "witness": "CATHL (catherine-of-siena_selected-letters_scudder1905.txt) l.6782-6802",
     "formation_confidence": "Documented"
    },
    {
     "claim": "The peace failed: 'Catherine, sent to Avignon, fails to procure peace.'",
     "witness": "CATHL (catherine-of-siena_selected-letters_scudder1905.txt) l.1227",
-    "formation_confidence": "Widely Accepted"
+    "formation_confidence": "Inferential-Thin"
    },
    {
     "claim": "To Gregory: 'I tell you, Come, come, come, and do not wait for time, since time does not wait for you.'",
@@ -62,14 +62,14 @@
     "formation_confidence": "Widely Accepted"
    },
    {
-    "claim": "Guidini, in Fiorilli: 'questo fece tutto essendo ella in astrazione, perduti tutti e' sentimenti, salvo che la lengua'; 'Ella diceva e uno scriveva: quando ser Barduccio, quando el detto donno Stefano, e quando Neri di Landoccio ... e io so' uno di quegli.' Told in modern words; the trance is the witnesses' testimony.",
-    "witness": "CATHI (catherine-of-siena_libro-della-divina-dottrina-ita_fiorilli1912.txt) l.14385-14407",
+    "claim": "Guidini, in Fiorilli: 'questo fece tutto essendo ella in astrazione, perduti tutti e' sentimenti, salvo che la lengua'; 'Ella diceva e uno scriveva: quando ser Barduccio, quando el detto donno Stefano, e quando Neri di Landoccio ... e io so' uno di quegli.' Told in modern words; the trance is the witnesses' testimony. 'Three disciples': Barduccio, Stefano, Neri, Fiorilli's notes 5-7 (l.14432-14442).",
+    "witness": "CATHI (catherine-of-siena_libro-della-divina-dottrina-ita_fiorilli1912.txt) l.14385-14407, 14432-14442",
     "formation_confidence": "Documented"
    },
    {
-    "claim": "The schism and Rome: Urban 'summons her to Rome ... takes up her abode in that city on November 28th'; 'She writes on his behalf to the Kings of France and Hungary, to Queen Giovanna of Naples'.",
+    "claim": "The schism and Rome: Urban 'summons her to Rome ... takes up her abode in that city on November 28th'; 'She writes on his behalf to the Kings of France and Hungary, to Queen Giovanna of Naples'. 'Rulers': the Kings of France and Hungary and Queen Giovanna.",
     "witness": "CATHL (catherine-of-siena_selected-letters_scudder1905.txt) l.1371-1385",
-    "formation_confidence": "Widely Accepted"
+    "formation_confidence": "Inferential-Thin"
    },
    {
     "claim": "Her last letter to Raymond: 'For the pain in my heart was so great, that the tunic which clothed me burst'; Scudder dates the related letter to Urban to the Monday after Sexagesima, 1380.",
@@ -87,18 +87,18 @@
     "formation_confidence": "Inferential-Thin"
    },
    {
-    "claim": "The Bridge: 'WHEREFORE I have told thee that I have made a Bridge of My Word, of My only-begotten Son, and this is the truth.' Thorold's English, 1896.",
+    "claim": "The Bridge: 'WHEREFORE I have told thee that I have made a Bridge of My Word, of My only-begotten Son, and this is the truth.' Thorold's English, 1896. Thorold 1896 (CATHD l.21-31).",
     "witness": "CATHD (catherine-of-siena_dialogue_thorold1896.txt) l.3199-3201",
     "formation_confidence": "Documented"
    },
    {
     "claim": "Place: 'born in the Strada dell' Oca, near the fountain of Fontebranda, Siena'; Pisa 1375; Rome from 28 November 1378.",
     "witness": "CATHL (catherine-of-siena_selected-letters_scudder1905.txt) l.1258-1261, 1320-1327, 1371-1375",
-    "formation_confidence": "Widely Accepted"
+    "formation_confidence": "Inferential-Thin"
    },
    {
-    "claim": "The Dialogue's colophon (Sienese codex): 'SOCTO GLI ANNI DOMINI MCCCLXXVIII DEL MESE D'OCTOBRE'; Gaddiano: '1378 del mese d'octobre'; Barberini: 'nel 1377 (sic)'; Thorold's title page: 'COMPLETED IN THE YEAR OF OUR LORD 1370'; Fiorilli: written in about three months.",
-    "witness": "CATHI (catherine-of-siena_libro-della-divina-dottrina-ita_fiorilli1912.txt) l.14324-14327, 15003-15005, 15169, 14373-14383; CATHD (catherine-of-siena_dialogue_thorold1896.txt) l.19-23",
+    "claim": "The Dialogue's colophon (Sienese codex): 'SOCTO GLI ANNI DOMINI MCCCLXXVIII DEL MESE D'OCTOBRE'; Gaddiano: '1378 del mese d'octobre'; Barberini, at the book's opening: 'E questo fu nel 1377 (sic)'; Thorold's title page: 'COMPLETED IN THE YEAR OF OUR LORD 1370'; Fiorilli: written in about three months.",
+    "witness": "CATHI (catherine-of-siena_libro-della-divina-dottrina-ita_fiorilli1912.txt) l.14324-14327, 15003-15005, 15166-15169, 14373-14383; CATHD (catherine-of-siena_dialogue_thorold1896.txt) l.19-23",
     "formation_confidence": "Contested"
    },
    {
@@ -142,18 +142,18 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Father Alvarez on Teresa's manuscript: 'the books of St. Gertrude, St. Catharine of Siena, or St. Bridget of Sweden'.",
-    "witness": "TERESA (teresa-of-avila_interior-castle_stanbrook1912.txt) l.680-690",
+    "claim": "Father Alvarez on Teresa's manuscript: 'the books of St. Gertrude, St. Catharine of Siena, or St. Bridget of Sweden'. 'Father Rodrigo Alvarez, S. J.'; '22nd day of February, 1582'.",
+    "witness": "TERESA (teresa-of-avila_interior-castle_stanbrook1912.txt) l.644, 661-662, 680-696",
     "formation_confidence": "Documented"
    },
    {
-    "claim": "The stigmata: Scudder, 'On April 1st she receives the Stigmata in the Church of Santa Cristina; but the marks, at her request, remain invisible'; the Bollandist commentary: 'Bulla Sixti IV [OCR 11'], prohibente imagines omnes, in quibus Sancta exprimebatur Christi vulneribus insignita'.",
-    "witness": "CATHL (catherine-of-siena_selected-letters_scudder1905.txt) l.1320-1327; ASJUN5 (acta-sanctorum_junii-tomus-5-lat_palme1867.txt) l.52511-52528, 52573-52576",
+    "claim": "The stigmata: Scudder, 'On April 1st she receives the Stigmata in the Church of Santa Cristina; but the marks, at her request, remain invisible'. The Bollandist commentary: Lucy of Narni testified 'quod S. Catharina Senensis, precibus et orationibus obtinuit ... ut stigmata ipsius Luciae ... essent visibilia et palpabilia, in fidem et testimonium stigmatum ipsius S. Catharinae'; this while the Holy See was working 'de reformanda seu mitiganda (sicuti reformata et mitigata etiam fuit) non diu post, Bulla Sixti IV [OCR 11'], prohibente imagines omnes, in quibus Sancta exprimebatur Christi vulneribus insignita'; the commentator takes it as proof of hers ('ad certificanda stigmata S. Catharinae Senensis').",
+    "witness": "CATHL (catherine-of-siena_selected-letters_scudder1905.txt) l.1320-1327; ASJUN5 (acta-sanctorum_junii-tomus-5-lat_palme1867.txt) l.52514-52590",
     "formation_confidence": "Contested"
    },
    {
-    "claim": "Scudder on the return: 'Gregory, swayed by her representations'; and 'perhaps regretting his return, becomes alienated from Catherine'. Bridget's demand: Cumming 'She was especially anxious that the papal seat, which had long been at Avignon, should be re-established at Rome'.",
-    "witness": "CATHL (catherine-of-siena_selected-letters_scudder1905.txt) l.1228, 1357-1358; BIRGE (birgitta_revelations-enm_cumming1929.txt) l.980-982",
+    "claim": "Scudder on the return: 'Gregory, swayed by her representations'; and 'perhaps regretting his return, becomes alienated from Catherine'. Bridget's demand: Cumming 'She was especially anxious that the papal seat, which had long been at Avignon, should be re-established at Rome'. Fiorilli: 'avvenimento al quale santa Caterina aveva molto contribuito'. Mansi's notice of Gregory XI: 'Hujus transmigrationis causam alii aliam referunt'; Platina a bishop's retort; Gobelinus 'instinctu & revelatione Dei, quae sanctae Brigittae tunc adhuc Romae degenti aliquoties obtigerat, perque Alphonsum quemdam eremitam illi secundo insinuata erat'.",
+    "witness": "CATHL (catherine-of-siena_selected-letters_scudder1905.txt) l.1228, 1357-1358; BIRGE (birgitta_revelations-enm_cumming1929.txt) l.980-982; CATHI (catherine-of-siena_libro-della-divina-dottrina-ita_fiorilli1912.txt) l.14342-14344; MANSI26 (mansi_sacrorum-conciliorum-collectio-tomus-26-1344-1409-lat_welter-facsimile1901.txt) l.53393-53410",
     "formation_confidence": "Contested"
    },
    {
@@ -166,22 +166,22 @@
    {
     "claim": "How far she brought about Gregory XI's return to Rome",
     "sides": [
-     "Scudder: Gregory 'swayed by her representations' (CATHL l.1228); Duranti: her letters handled the whole matter (BIRGL l.98792-98796)",
-     "Bridget's revelations pressed the same demand (BIRGE l.980-982); Scudder: Gregory perhaps regretted the return and became alienated from her (CATHL l.1357-1358)"
+     "Scudder: Gregory 'swayed by her representations' (CATHL l.1228); Duranti: her letters handled the whole matter (BIRGL l.98792-98796); Fiorilli: she did much toward it (CATHI l.14342-14344)",
+     "Other causes: Gobelinus credits Bridget's revelations, delivered through Alphonso; Platina, a bishop's retort (MANSI26 l.53393-53410); Bridget's revelations pressed the same demand (BIRGE l.980-982)"
     ]
    },
    {
     "claim": "When the Dialogue was finished",
     "sides": [
      "October 1378: the Sienese and Gaddiano copies (CATHI l.14324-14327, 15003-15005); Scudder, 1378 (CATHL l.2182-2184); Fiorilli, July to October 1378 (CATHI l.14373-14377)",
-     "1370: Thorold's title page (CATHD l.19-23); 1377: a Barberini copy (CATHI l.15169)"
+     "1370: Thorold's title page (CATHD l.19-23); 1377 (Fiorilli's sic): a Barberini copy, at the book's opening (CATHI l.15166-15169)"
     ]
    },
    {
     "claim": "The stigmata",
     "sides": [
      "Scudder's chronology: received at Pisa on 1 April 1375, invisible at her request (CATHL l.1320-1327)",
-     "The Bollandist commentary: Sixtus IV forbade images of her with Christ's wounds (ASJUN5 l.52573-52576)"
+     "A bull of Sixtus IV forbade images of her with Christ's wounds, and was soon reformed and softened (ASJUN5 l.52526-52527, 52580-52582). The Bollandist commentator himself takes Lucy of Narni's visible stigmata as proof of hers (ASJUN5 l.52514-52523, 52542-52546, 52587-52590)."
     ]
    }
   ],
@@ -192,7 +192,7 @@
    },
    {
     "detail": "The year and bull of her canonization",
-    "note": "Searched all cic/texts for canoniz/canonis within 80 characters of Senens/Siena/Sienna/Sienne. Only Covel (COVEL l.51460-51461), with no year, and a 1517 edition title (CATHI l.15547-15550)."
+    "note": "Searched all cic/texts for canoniz/canonis within 80 characters of Senens/Siena/Sienna/Sienne. Only Covel (COVEL l.51460-51461), with no year, and Fiorilli's entry for the 1517 Venice Dialogue printed 'con la sua uita: et canonizatione' with poems of Pius II in her praise (CATHI l.15544-15550). No bull is held."
    },
    {
     "detail": "Raymond of Capua's Life in full, and his account of the stigmata",
@@ -207,8 +207,8 @@
  "bridget-of-sweden": {
   "claims": [
    {
-    "claim": "Naples, early 1373, after Jerusalem: chapter heading, shown at Naples 'in festo Sancti Policarpi, quando rediit de Hierusalem'; her reply 'O Domine Deus meus, Regina Neapolis, & multi alij dicunt mihi, quod impossibile est eum venire Romam, quia Rex Franciae, & Cardinales, & alij, quamplurima ponunt ei impedimenta ad veniendum'; Christ: 'Sed vtrum tu videbis eum venire, an non, tibi non est licitum scire.' Long-s OCR ('impoffibile', 'quapfurimaponut'), read through. Told in modern words. 'Widow': her husband died in 1344 (BIRGE l.919).",
-    "witness": "BIRGL (birgitta_revelationes-lat_duranti1628.txt) l.98947-98953, 98980-98988, 99015-99016; BIRGE (birgitta_revelations-enm_cumming1929.txt) l.919",
+    "claim": "The Naples revelation: heading, shown at Naples 'in festo Sancti Policarpi, quando rediit de Hierusalem'; Christ: 'scias certissime, quod ipse veniet Roma'; her reply 'O Domine Deus meus, Regina Neapolis, & multi alij dicunt mihi, quod impossibile est eum venire Romam, quia Rex Franciae, & Cardinales, & alij, quamplurima ponunt ei impedimenta ad veniendum'; Christ: 'ducam ipsum Papam ad Romam, non ad eorum consolationem. Sed vtrum tu videbis eum venire, an non, tibi non est licitum scire.' Long-s OCR read through. Told in modern words.",
+    "witness": "BIRGL (birgitta_revelationes-lat_duranti1628.txt) l.98947-98953, 98979-98988, 99007-99016",
     "formation_confidence": "Documented"
    },
    {
@@ -257,8 +257,8 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Duranti, Episcopus Feretranus, 1628 notes; quoting Vastovius: 'Alter S. Brigittae Confessor Petrus Olauus fuit Ordinis Cisterciensis, qui in linguam Latinam octo libros Reuelationum transtulit'.",
-    "witness": "BIRGL (birgitta_revelationes-lat_duranti1628.txt) l.210-230, 11120-11123",
+    "claim": "Duranti, Episcopus Feretranus, 1628, in his own treatise on visions: 'Alter S. Brigittae Confessor Petrus Olauus fuit Ordinis Cisterciensis, qui in linguam Latinam octo libros Reuelationum transtulit, cuius etiam vitam scripsit idem Ioannes Vuasthonius' (Duranti's words, not a quotation of Vastovius); elsewhere the three 'amici', Petrus Olauus, Magister Matthias and Alphonsus, 'redegerunt ea in libros'.",
+    "witness": "BIRGL (birgitta_revelationes-lat_duranti1628.txt) l.210-230, 8157-8181, 11096-11124",
     "formation_confidence": "Contested"
    },
    {
@@ -272,8 +272,8 @@
     "formation_confidence": "Widely Accepted"
    },
    {
-    "claim": "Montefiascone, 1370: heading 'Haec est revelatio, quam habuit Sponsa Christi in Roma de eodem Papa Urbano antequam rediret Avenionem. Anno Domini MCCCLXX. quam ipsa praesentauit ei in Monteflascone'; 'Si contigerit ipsum redire ad terras, vbi fuit electus Papa, ipse habebit in breui tempore vnam percussionem, siue vnam alapam'. Duranti's note, after Platina: she foretold that if he returned home he would die very soon, which happened.",
-    "witness": "BIRGL (birgitta_revelationes-lat_duranti1628.txt) l.98413-98419, 98553-98559, 98600-98609",
+    "claim": "Montefiascone, 1370: heading 'Haec est revelatio, quam habuit Sponsa Christi in Roma de eodem Papa Urbano antequam rediret Avenionem. Anno Domini MCCCLXX. quam ipsa praesentauit ei in Monteflascone'; 'Si contigerit ipsum redire ad terras, vbi fuit electus Papa, ipse habebit in breui tempore vnam percussionem, siue vnam alapam'. Duranti's note, after Platina: she foretold that if he returned home he would die very soon, which happened. Cumming: 'This revelation was delivered to him by Alphonso' (against the heading's 'ipsa praesentauit').",
+    "witness": "BIRGL (birgitta_revelationes-lat_duranti1628.txt) l.98413-98419, 98553-98559, 98600-98609; BIRGE (birgitta_revelations-enm_cumming1929.txt) l.993, 1022",
     "formation_confidence": "Documented"
    },
    {
@@ -302,7 +302,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Torquemada's first-call story: she feared a trick of Satan, went to Master Matthias; 'Ego sum omnium conditor, non deceptor.' Told in modern words. Torquemada wrote at the Council of Basel, 1435: 'Anno D. Incarnat. millesimo quadringentesimo trigesimoquinto'.",
+    "claim": "Torquemada's first-call story: she feared a trick of Satan, went to Master Matthias; 'Ego sum omnium conditor, non deceptor.' Told in modern words. Torquemada wrote at the Council of Basel, 1435: 'Anno D. Incarnat. millesimo quadringentesimo trigesimoquinto'. 'Mulier audi me, Ego sum Deus tuus, qui tecum loqui volo, noli timere. Ego sum omnium conditor, non deceptor.'",
     "witness": "BIRGL (birgitta_revelationes-lat_duranti1628.txt) l.1183-1200, 1502-1527",
     "formation_confidence": "Documented"
    },
@@ -347,7 +347,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Father Alvarez's note: 'the books of St. Gertrude, St. Catharine of Siena, or St. Bridget of Sweden'.",
+    "claim": "Father Alvarez's note: 'the books of St. Gertrude, St. Catharine of Siena, or St. Bridget of Sweden'. 'Father Rodrigo Alvarez, S. J.', 1582.",
     "witness": "TERESA (teresa-of-avila_interior-castle_stanbrook1912.txt) l.680-690",
     "formation_confidence": "Documented"
    },
@@ -357,8 +357,8 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Olavus Petri: 'S. Birgitte oppenbarilse äre ringare än at them j sa drapelig ärende skal macht giffuas'. Polemic. Bale, as Cumming quotes him: 'tenebrosa somnia'. Polemic.",
-    "witness": "OLAVUS (olavus-petri_samlade-skrifter-v1-swe_hesselman1914.txt) l.17088-17093; BIRGE (birgitta_revelations-enm_cumming1929.txt) l.1187-1194",
+    "claim": "Olavus Petri: 'S. Birgitte oppenbarilse äre ringare än at them j sa drapelig ärende skal macht giffuas'. Polemic. Bale, as Cumming quotes him: 'tenebrosa somnia'. Polemic. Bale 1557; 'Bale confuses St. Birgitta with St. Bridget of Ireland'.",
+    "witness": "OLAVUS (olavus-petri_samlade-skrifter-v1-swe_hesselman1914.txt) l.17088-17093; BIRGE (birgitta_revelations-enm_cumming1929.txt) l.1187-1194, 1223-1224",
     "formation_confidence": "Documented"
    },
    {
@@ -367,9 +367,24 @@
     "formation_confidence": "Contested"
    },
    {
-    "claim": "The Rule dictated: 'Ego obtuli tibi Regulam Religionis ... Ego dictaui eam'.",
-    "witness": "BIRGL (birgitta_revelationes-lat_duranti1628.txt) l.98279-98312",
+    "claim": "The Rule dictated: 'Ego obtuli tibi Regulam Religionis ... Ego dictaui eam'. Cumming: 'exactly as they were given to her by the Mother of God'.",
+    "witness": "BIRGL (birgitta_revelationes-lat_duranti1628.txt) l.98279-98312; BIRGE (birgitta_revelations-enm_cumming1929.txt) l.1027-1030",
     "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Early 1373 by reckoning: the outbound stop at Naples in February 1372; the return on Polycarp's feast; the February and July 1373 revelations that follow. Cumming's 'returned to Rome the same year' runs against it.",
+    "witness": "BIRGE (birgitta_revelations-enm_cumming1929.txt) l.1047-1048, 9590-9592; BIRGL (birgitta_revelationes-lat_duranti1628.txt) l.98947-98953, 99016-99018, 99163-99165",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Gobelinus, in Mansi's notice of Gregory XI: the return 'instinctu & revelatione Dei, quae sanctae Brigittae tunc adhuc Romae degenti aliquoties obtigerat, perque Alphonsum quemdam eremitam illi secundo insinuata erat'; Platina gives another cause.",
+    "witness": "MANSI26 (mansi_sacrorum-conciliorum-collectio-tomus-26-1344-1409-lat_welter-facsimile1901.txt) l.53393-53410",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Rome from 1348 or 1349 by reckoning; the Bollandists 'ab anno 1348'; her death 'Anno 1373 die 23 Julii'.",
+    "witness": "BIRGE (birgitta_revelations-enm_cumming1929.txt) l.928-929, 967; ASMAR3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt) l.133269",
+    "formation_confidence": "Inferential-Thin"
    }
   ],
   "contested_claims": [
@@ -377,21 +392,21 @@
     "claim": "Who put her revelations into Latin, and how close the Latin stands to her words",
     "sides": [
      "Cumming: her confessors, or one of them, translated, and the Latin was read back to her; Peter of Alvastra kept the book (BIRGE l.971-974, 1100-1107)",
-     "Duranti quoting Vastovius: Peter Olafsson, a Cistercian, translated all eight books (BIRGL l.11120-11123); Torquemada: Prior Peter and Peter Olavi are two men (BIRGL l.1558-1569)",
+     "Duranti: Peter Olavus, a Cistercian, translated all eight books (BIRGL l.11120-11124), and elsewhere three friends put them into books (BIRGL l.8157-8181); Torquemada: Prior Peter and Peter Olavi are two men (BIRGL l.1558-1569)",
      "Wilkens: Prior Peter and Alphonso made it a rhetorical Latin that impairs her imagery (WILKENS l.16113-16121); Cumming notes re-ordering in Book V (BIRGE l.1126-1127)"
     ]
    },
    {
     "claim": "Her birth year",
     "sides": [
-     "Cumming's line: 1302 or 1308 (OCR), with 'The earliest authorities differ' (BIRGE l.857, 889)",
-     "File headers: about 1303 (not a witness)"
+     "Cumming's line as printed: 1302 or 1308 (BIRGE l.857); the second figure may be an OCR misreading",
+     "Cumming: the earliest authorities differ, citing S.R.S. iii (BIRGE l.889)"
     ]
    },
    {
     "claim": "Her death day",
     "sides": [
-     "23 July 1373: Cumming (BIRGE l.1049, 1076); Boniface IX's bulls set her feast on 10 Kal. Aug. (BIRGL l.3876, 3915)",
+     "23 July 1373: Cumming (BIRGE l.1049, 1076); Boniface IX's bulls set her feast on 10 Kal. Aug. (BIRGL l.3876, 3915); a Bollandist note: 23 July 1373 (ASMAR3 l.133269)",
      "28 July 1373: Cumming (BIRGE l.1184)"
     ]
    },
@@ -429,6 +444,10 @@
    {
     "detail": "Books six to eight and the Extravagantes",
     "note": "The 1628 file holds books one to five (running heads stop at LIBER QVINTVS); quoted only through Cumming and Duranti."
+   },
+   {
+    "detail": "A primary witness for her birth year",
+    "note": "Only Cumming's line (BIRGE l.857); the Library file headers' 'about 1303' is not a witness."
    }
   ]
  },
