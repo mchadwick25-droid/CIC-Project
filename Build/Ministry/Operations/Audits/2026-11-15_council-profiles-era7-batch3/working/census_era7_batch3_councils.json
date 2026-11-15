@@ -1,0 +1,2107 @@
+{
+ "movements": [
+  {
+   "id": "st-thomas-christians-1300-1517",
+   "name": "St Thomas Christians, 1300-1517",
+   "era": 6,
+   "dates": "1300-1517",
+   "kind": null,
+   "legacy": "The community is still here. After 1517 came pressure from the Portuguese. Then came the Synod of Diamper in 1599 and the Coonan Cross revolt of 1653. Between them, these split the St Thomas Christians into the several churches they are now. They include the Syro-Malabar and Syro-Malankara Catholics, the Malankara Orthodox and Jacobite Syrian churches, the Mar Thoma Church and others. Together they have several million members, in Kerala and far beyond. Syriac is still used when they worship. The texts of this era already take it as known that the apostle Thomas founded the church. That is still how the community sees itself.",
+   "documentedStories": [
+    {
+     "title": "Four Bishops Write Home from Malabar",
+     "when": "1504",
+     "tier": "1",
+     "verification": "from reference summaries; primary text not yet read",
+     "teaser": "Sent from Mesopotamia to a church that had been without a bishop for decades, the new Syriac bishops of India write to their patriarch in the Hakkari mountains describing thirty thousand Christian families, churches at Cranganore and Quilon, and ships from a Christian nation no one has heard of.",
+     "text": "Around 1490 the St Thomas Christians of Malabar, whose last bishops from Mesopotamia had died, sent three men to find the patriarch of the Church of the East, now living in a monastery near Gazarta on the Tigris after Timur’s wars. In 1504 the bishops in India — Mar Yahballaha, Mar Denha, Mar Jacob and Mar Thomas — wrote to the new patriarch Eliya V, and their letter survives in Syriac. They describe the journey: to Hormuz, by ship to Cannanore, on to Cranganore, the reception by the Christians ‘with great joy’, the churches they consecrated and the ordinations they performed. They estimate the community at about thirty thousand families in some twenty towns, ‘rich and honoured’, with their own headman, living among Hindus and Muslims under Hindu rulers; they describe the pepper trade and the church at Quilon. Then, near the end, they report news: ‘powerful ships’ had arrived from the west, from a nation called Portugal, whose people were Christians and had a bishop with them, who had received the Syriac bishops kindly and celebrated the liturgy with them at Cannanore, and who were building a fortress and fighting the Muslims of Calicut. The letter is the last document of the St Thomas Christians as a church of the East before the Portuguese began, within a generation, to bring them under Rome; the men who wrote it did not know that, and it is also the only description of the Malabar church by its own bishops before 1500.",
+     "caveat": "The letter is authentic and preserved in a Syriac manuscript in the Vatican; its numbers are round. The bishops’ favorable first impression of the Portuguese is their own and predates the Synod of Diamper by ninety-five years.",
+     "sources": [
+      {
+       "work": "Letter of the Bishops Yahballaha, Denha, Jacob and Thomas to the Patriarch Eliya V (1504), Vatican Syriac 204",
+       "type": "primary",
+       "note": "Latin in Assemani, Bibliotheca Orientalis III.1 (1725), pp. 589–599; English in Alphonse Mingana, ‘The Early Spread of Christianity in India’, Bulletin of the John Rylands Library 10 (1926)."
+      },
+      {
+       "work": "Colophon of MS Vatican Syriac 22 (Cranganore, 1301)",
+       "type": "primary",
+       "note": "The earlier witness naming Yahballaha III; Latin in Assemani, English in Mingana."
+      },
+      {
+       "work": "István Perczel, ‘Syriac Christianity in India’, in The Syriac World, ed. King (Routledge, 2019)",
+       "type": "reference",
+       "note": "On the 1490 delegation and the 1504 letter."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "the-anabaptist-movements",
+   "name": "The Anabaptist Movements",
+   "era": 7,
+   "dates": "1525-1650",
+   "kind": null,
+   "statusDescription": "Tiered Strong (Tier 1) on a rich base, read with care for genre — the Martyrs Mirror and the Hutterite Chronicle alongside the movement's own hymnody. Its court testimonies are coerced, not plain inside voice. Its window ends in 1650, bringing the Dordrecht Confession (1632) back inside its own window.",
+   "documentedStories": [
+    {
+     "title": "Dirk Willems Turns Back on the Ice",
+     "when": "16 May 1569",
+     "tier": "2",
+     "teaser": "An Anabaptist escaping across a frozen moat at Asperen hears the man chasing him break through the ice, goes back, and pulls him out. He is arrested on the spot and burned.",
+     "text": "Dirk Willems had been rebaptized at Rotterdam, had let others be rebaptized in his house at Asperen in Holland, and was under sentence when he escaped from the town’s prison by a rope of knotted rags and ran across the moat, which was frozen. The Martyrs Mirror, the great Dutch Mennonite compilation of 1660, gives the story and the court record. A thief-catcher — a guard set to pursue him — followed onto the ice, which had borne the starved prisoner and did not bear the guard; he broke through. Willems, on the far bank, heard him and turned back and pulled him out. The guard, the account says, wanted to let him go; the burgomaster standing on the bank called out that he should remember his oath, and the guard arrested the man who had saved him. The sentence of the Asperen court, dated 16 May 1569, is printed: Dirk Willems, having ‘persisted obstinately in his opinion’, rebaptized and having permitted rebaptism in his house, is to be executed by fire. The Martyrs Mirror adds that the wind carried the flames away from him so that he died slowly, crying out seventy times ‘O my Lord, my God’, until the bailiff, sickened, ordered him despatched. The Mennonites and Amish have kept the story and the engraving of it — the man on the ice reaching down — as the picture of what their faith requires, which is not to escape.",
+     "caveat": "The court sentence is authentic and reproduced by van Braght from the Asperen records; the narrative of the rescue comes from the same compilation, made ninety years later from earlier martyr books, and has no contemporary independent witness. The detail of the seventy cries is hagiographic.",
+     "sources": [
+      {
+       "work": "Thieleman J. van Braght, The Bloody Theater or Martyrs Mirror (1660), part II, s.a. 1569 (Dirk Willems)",
+       "type": "primary",
+       "note": "Sohm’s English translation (1886), hosted online."
+      },
+      {
+       "work": "Sentence of the court of Asperen, 16 May 1569",
+       "type": "primary",
+       "note": "Reproduced in van Braght; original in the Asperen judicial archive."
+      },
+      {
+       "work": "Brad Gregory, Salvation at Stake: Christian Martyrdom in Early Modern Europe (Harvard, 1999), ch. 6",
+       "type": "reference",
+       "note": "On the Anabaptist martyrologies and their construction."
+      }
+     ],
+     "verification": "from reference summaries; primary text not yet read"
+    },
+    {
+     "title": "The Kingdom at Münster",
+     "when": "February 1534 – June 1535",
+     "tier": "1",
+     "teaser": "Anabaptists take control of a Westphalian city, expel or rebaptize everyone, abolish money, introduce polygamy under a tailor who crowns himself king of the New Jerusalem, and are starved, betrayed and slaughtered — and every other Anabaptist pays for it.",
+     "text": "Münster had elected an Anabaptist-leaning council in February 1534 under the preacher Bernhard Rothmann, and within weeks Dutch followers of the prophet Melchior Hoffman’s successor Jan Matthijs had arrived and taken it over. Those who would not be rebaptized were driven out of the gates into the snow; property was declared common and money abolished; books other than the Bible were burned. The prince-bishop besieged the city. Matthijs, who had declared it the New Jerusalem, rode out against the besiegers on Easter Day with a handful of men, believing himself invulnerable, and was killed. Jan van Leiden, a tailor from Leiden, took his place, ran naked through the streets in prophecy, dissolved the council, introduced polygamy — he took sixteen wives, and beheaded one in the market square himself — and in September had himself crowned king of the whole world, with a court and a throne. In June 1535 the city was betrayed to the besiegers and most of its defenders killed. Jan van Leiden and two lieutenants were tortured with hot tongs before the crowd in January 1536, and their bodies hung in cages from the tower of St Lambert’s, where the cages still are. Menno Simons, who left his priesthood the following year, wrote against ‘the abomination of Münster’ for the rest of his life; the peaceful Anabaptists who became the Mennonites were hunted for two generations as if they had been there. The tradition has never been allowed to forget it, and has not tried to.",
+     "caveat": "Gresbeck’s eyewitness account and Kerssenbrock’s later history are hostile; Rothmann’s own pamphlets from inside the city survive and confirm the doctrines. The sixteen wives and the beheading rest on the hostile accounts and on the trial confessions, which were extracted under torture. The outline is not disputed.",
+     "sources": [
+      {
+       "work": "Henry Gresbeck, False Prophets and Preachers: Henry Gresbeck’s Account of the Anabaptist Kingdom of Münster",
+       "type": "primary",
+       "note": "English in Christopher Mackay (Truman State, 2016)."
+      },
+      {
+       "work": "Bernhard Rothmann, Restitution (1534) and Concerning Vengeance (1534)",
+       "type": "primary",
+       "note": "The Münsterite theology from inside; English extracts in Williams and Mergal, Spiritual and Anabaptist Writers (Westminster, 1957)."
+      },
+      {
+       "work": "Menno Simons, The Blasphemy of John of Leiden (c. 1535)",
+       "type": "primary",
+       "note": "English in The Complete Writings of Menno Simons, ed. Wenger (Herald, 1956)."
+      },
+      {
+       "work": "Ralf Klötzer, ‘The Melchiorites and Münster’, in A Companion to Anabaptism and Spiritualism, 1521–1700, ed. Roth and Stayer (Brill, 2007)",
+       "type": "reference",
+       "note": "The current standard account."
+      }
+     ],
+     "verification": "from reference summaries; primary text not yet read"
+    }
+   ]
+  },
+  {
+   "id": "the-english-reformation-and-elizabethan-settleme",
+   "name": "The English Reformation & Elizabethan Settlement",
+   "era": 7,
+   "dates": "1530s-1650",
+   "kind": null,
+   "relationsSummary": "Shaped by Lutheran and Reformed influences taking root in England. It carried on as the Church of England, and its Puritan wing gave rise to the churches that later broke away. Its story runs through the Stuart century, from the Hampton Court Conference of 1604 to the Westminster Assembly."
+  },
+  {
+   "id": "puritanism",
+   "name": "Puritanism",
+   "era": 7,
+   "dates": "c. 1560-1660",
+   "kind": null,
+   "longDescription": "Puritans were the English Protestants who thought the Elizabethan settlement had stopped halfway. That a church with bishops, surplices and a set liturgy still carried too much of what the Reformation was meant to clear away. Their real distinctiveness lay less in church furniture than in the inner life. They kept diaries, examined their own hearts in writing, and made the conversion narrative — an account of how God had brought you to faith, told aloud before a congregation. A normal thing for ordinary men and women to produce. Pressed at home, thousands sailed for New England from 1630. Those who stayed came to dominate the Long Parliament and the Westminster Assembly, and after the Restoration of 1660 were ejected from the Church of England altogether."
+  },
+  {
+   "id": "dutch-further-reformation-and-refuge-culture",
+   "name": "Dutch Further Reformation & Refuge Culture",
+   "era": 7,
+   "dates": "c. 1570-1650",
+   "kind": null,
+   "statusDescription": "Tiered Viable, secondary (Tier 2), conditionally — whether it is supporting context or a tradition in its own right is a real, open question. Dort (1618–19) is named both here and in the Remonstrant entry."
+  },
+  {
+   "id": "orthodoxy-under-the-ottomans-parish-millet-and-n",
+   "name": "Orthodoxy under the Ottomans - Parish, Millet & Neomartyrs",
+   "era": 7,
+   "dates": "1453-1650",
+   "kind": null,
+   "documentedStories": [
+    {
+     "title": "Jeremias II Asks the Lutherans to Stop Writing",
+     "when": "1573–1581",
+     "tier": "1",
+     "verification": "from reference summaries; primary text not yet read",
+     "teaser": "The theologians of Tübingen send the patriarch of Constantinople a Greek translation of the Augsburg Confession, hoping for recognition. After three exchanges of long letters he tells them, courteously, to go their own way and write to him only as friends.",
+     "text": "In 1573 the Lutheran chaplain of the imperial embassy at Constantinople, Stephan Gerlach, carried letters from Jakob Andreae and Martin Crusius of Tübingen to the patriarch Jeremias II, with a Greek version of the Augsburg Confession, asking for his judgment. The Lutherans hoped that the ancient church of the East, free of the pope, would recognize their teaching as its own. His First Answer of 1576 goes through the Confession article by article — accepting some, correcting others, and rejecting justification by faith alone, the denial of free will, the removal of the invocation of saints and the reduction of the sacraments — in the voice of a church that had not been asked its opinion for a century and meant to give it fully. The Tübingen theologians replied; he answered again in 1579, more shortly; they replied again; and in 1581 he wrote the Third Answer, which ends the correspondence: ‘We ask you not to trouble us further, nor to write to us on these matters. Go your own way; but write to us, if you wish, for friendship’s sake.’ The Lutherans printed the whole exchange in 1584 — with the patriarch’s refusals — and the Catholics reprinted it with glee. The letters are the first sustained encounter between the Reformation and Orthodoxy, and the Orthodox side is the voice of a captive church declining to be recruited by either western party: not Rome, not Wittenberg, and no further letters, please.",
+     "caveat": "The correspondence is authentic and was printed by the Tübingen side in 1584 with both parties’ texts; Jeremias’ answers were drafted with the help of his synod’s theologians. The Orthodox church has treated the Answers as a confessional document, though they were letters.",
+     "sources": [
+      {
+       "work": "The neomartyrologies: Nikodemos the Hagiorite, Neon Martyrologion (1799); English access via Vaporis, Witnesses for Christ: Orthodox Christian Neomartyrs of the Ottoman Period 1437-1860 (SVS, 2000); Ottoman execution records as the hostile-administrative layer",
+       "type": "primary",
+       "note": "Worth reading with genre in mind: the collection is itself a late-18th-century spiritual project. It documents a real pastoral texture — spiritual fathers preparing, and sometimes dissuading, would-be martyrs."
+      },
+      {
+       "work": "The Jeremias II-Tuebingen correspondence: Augsburg and Constantinople (trans. Mastrantonis, Holy Cross, 1982)",
+       "type": "primary",
+       "note": "The patriarch's three Answers (1576-81) - captive Orthodoxy defining itself against the Reformation in its own measured voice."
+      },
+      {
+       "work": "The Lucaris controversy, both sides: Cyril Lucaris's Confession (1629) and the condemnations - Synod of Constantinople (1638), Synod of Jerusalem with Dositheus's Confession (1672; trans. Robertson, 1899)",
+       "type": "primary",
+       "note": "An internal boundary contest under double outside pressure (Protestant embassies, Roman missions), with documents surviving from both sides of the dispute."
+      },
+      {
+       "work": "Parish/millet texture: patriarchal berats (Ottoman appointment warrants), kadi-court records used by Christians, parish and monastic registers, Athonite archives",
+       "type": "primary",
+       "note": "Church life seen through the sultan's own bureaucracy — an outside, administrative pen, not the church's own voice."
+      },
+      {
+       "work": "Steven Runciman, The Great Church in Captivity (1968), with Papademetriou, Render unto the Sultan (2015)",
+       "type": "secondary",
+       "note": "The classic account, dated in parts, paired with a current corrective."
+      },
+      {
+       "work": "Cambridge History of Christianity vol. 5, ch. 7 'The Great Church in captivity 1453-1586' (Zachariadou), with ch. 6 'Mount Athos and the Ottomans' (Zachariadou)",
+       "type": "reference",
+       "note": "This period runs past where this particular volume ends; a related chapter (Kitromilides, \"Orthodoxy and the West\") may also be relevant but hasn't been directly confirmed."
+      }
+     ]
+    },
+    {
+     "title": "Cyril Lucaris Is Strangled on a Boat",
+     "when": "27 June 1638",
+     "tier": "1",
+     "verification": "from reference summaries; primary text not yet read",
+     "teaser": "The patriarch who has been deposed and restored five times, whose Confession reads like Geneva’s, and whom the Jesuits and the Dutch ambassador have fought over for twenty years, is taken from the patriarchate by janissaries on the sultan’s order and killed in the Bosporus.",
+     "text": "Cyril Lucaris had been educated at Padua and Venice, had spent years in Poland fighting the Union of Brest, and as patriarch of Constantinople from 1620 had allied himself with the Protestant embassies — English and Dutch — against the French and Austrian ambassadors and the Jesuits, who worked to depose him. In 1629 a Confession of Faith appeared in Geneva under his name, in Latin, teaching predestination, justification by faith, two sacraments, and the authority of Scripture over the church; he never publicly repudiated it, and a Greek version with his signature exists. His enemies used it. Deposed and restored five times as the embassies bribed the Porte in turn, he was finally denounced to the sultan Murad IV in June 1638, as the army left for Baghdad, as having incited the Cossacks against the empire. On 27 June janissaries took him from the patriarchate to a boat, and — the Dutch ambassador’s and the Greek accounts agree — strangled him and threw the body into the Bosporus; it was recovered by fishermen and buried by his supporters. Within three months his successor, Cyril Kontaris, held a synod that anathematized him and the Confession by name; synods at Jassy in 1642 and Jerusalem in 1672 did it again. Kontaris was himself strangled by the Ottomans the following year. The Orthodox church has never agreed whether Lucaris wrote the Confession, and has kept the anathemas and, in some quarters, his memory as a martyr, at the same time.",
+     "caveat": "The manner of death is reported by the Dutch resident Cornelis Haga and by Greek sources and is not disputed; the immediate cause of the denunciation is. Lucaris’ authorship of the Confession is contested by Orthodox historians and generally accepted by others; the page states the dispute.",
+     "sources": [
+      {
+       "work": "Cyril Lucaris, Confession of Faith (Geneva, 1629; Greek 1633)",
+       "type": "primary",
+       "note": "English translation online; Latin and Greek in Kimmel, Monumenta fidei Ecclesiae Orientalis (1850)."
+      },
+      {
+       "work": "Thomas Smith, An Account of the Greek Church (1680), and the correspondence of Cornelis Haga (1638)",
+       "type": "primary",
+       "note": "The English and Dutch accounts of Lucaris’ career and death; discussed in Hering."
+      },
+      {
+       "work": "Synod of Constantinople (September 1638), anathemas against Lucaris; Synod of Jerusalem (1672), Confession of Dositheus",
+       "type": "primary",
+       "note": "The condemnations; Robertson’s translation of Jerusalem 1672 online."
+      },
+      {
+       "work": "Gunnar Hering, Ökumenisches Patriarchat und europäische Politik, 1620–1638 (Steiner, 1968)",
+       "type": "reference",
+       "note": "The standard study of Lucaris’ patriarchate."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "st-thomas-christians-under-portuguese-pressure-d",
+   "name": "St. Thomas Christians under Portuguese Pressure - Diamper & the Coonan Cross",
+   "era": 7,
+   "dates": "1599-1665",
+   "kind": null,
+   "sources": [
+    {
+     "work": "The Synod of Diamper acta (1599): Eng. trans. Michael Geddes (1694); critical ed. Scaria Zacharia, The Acts and Decrees of the Synod of Diamper 1599 (Kottayam, 1994)",
+     "type": "primary",
+     "note": "Hostile to the tradition it absorbed: the decrees Latinize the community and condemn its East Syriac books, many of which were burned or corrected under the synod's own orders — which is why the earlier record is so thin. The community's practices survive mainly as a list of things condemned."
+    },
+    {
+     "work": "Gouvea, Jornada of Archbishop Menezes (1606; Eng. trans. Malekandathil, 2003)",
+     "type": "primary",
+     "note": "The fullest contemporary description of the community, but written by its conqueror's own chronicler."
+    },
+    {
+     "work": "The community's own layer: surviving Kerala Syriac manuscripts (HMML digitization), the East Syriac liturgical and canonical tradition, palm-leaf (ola) records, transmitted memory of the copper-plate privileges",
+     "type": "primary",
+     "note": "The inside voice, fragmentary because the synod burned so many of its books — that destruction is itself part of the evidence. Largely uncataloged and untranslated."
+    },
+    {
+     "work": "The Coonan Cross oath (1653): community tradition of the oath's wording, contemporary Carmelite and Jesuit reports of the revolt, correspondence around Mar Thoma I's consecration",
+     "type": "primary",
+     "note": "The oath's text is preserved only through tradition, in variant forms, and the surviving reports come from pens sympathetic to the mission side. This event marks the origin of today's division among Kerala's churches."
+    },
+    {
+     "work": "Frykenberg, Christianity in India (OUP, 2008), relevant chapters, with Istvan Perczel's Kerala Syriac manuscript studies",
+     "type": "secondary",
+     "note": "Perczel's manuscript discoveries have directly revised the earlier picture of how thin the sources are."
+    },
+    {
+     "work": "Cambridge History of Christianity vol. 5; vol. 6, ch. 30 (Zupanov & Hsia)",
+     "type": "reference",
+     "note": "Volume 5 has no chapter dedicated to the St Thomas Christians; the closest is chapter 22 (O'Mahony, on Syriac Christianity, though it focuses on the modern period). Zupanov is a specialist on the Malabar missions."
+    }
+   ],
+   "longDescription": "The Christians of the Malabar coast traced their church to the apostle Thomas. For centuries they had worshipped in Syriac and taken their bishops from the Church of the East. The Portuguese found this puzzling and then intolerable. In 1599 Archbishop Aleixo de Menezes held a synod at Diamper. It placed the community under Latin rule, revised its liturgy, and ordered its Syriac books corrected or burned. Half a century of resentment came to a head on 3 January 1653. At Mattancherry a crowd swore they would no longer obey the Jesuits or the Jesuit archbishop, Francisco Garcia. Tradition says they tied ropes to a stone cross as they swore. This is the Coonan Cross Oath, named for a cross said to have bent under the strain.",
+   "voices": [
+    "Aleixo de Menezes — Archbishop of Goa, who convened the Synod of Diamper in 1599",
+    "Archdeacon Thomas (Mar Thoma I) — the community's own leader, made bishop by his own people after the 1653 oath",
+    "Ahatallah — the Syrian bishop whose disappearance in Portuguese custody helped trigger the revolt of 1653"
+   ],
+   "legacy": "The division made in 1653 is still the shape of Christianity in Kerala. Those who returned to Rome became the Syro-Malabar Catholic Church, now one of the largest Eastern Catholic churches in the world. Those who did not are the ancestors of the Malankara Orthodox, Jacobite, Mar Thoma and related churches. All of them still worship in liturgies descended from the Syriac tradition Diamper set out to correct, and the bent cross at Mattancherry is still there.",
+   "documentedStories": [
+    {
+     "title": "The Bishop Who Never Arrived, and the Oath at the Bent Cross",
+     "when": "1652 – 1653",
+     "tier": "1",
+     "verification": "from reference summaries; primary text not yet read",
+     "teaser": "A Syrian bishop claiming to be sent to the Christians of India is held by the Portuguese, shipped past the crowd waiting for him at Cochin, and vanishes. Within weeks the community swears at a stone cross that it will obey no Jesuit again, and makes its own archdeacon a bishop.",
+     "text": "In 1652 a Syrian bishop calling himself Ignatius Ahatallah reached Mylapore on the Coromandel coast, claiming that he had been sent as patriarch of the Christians of India. Who had sent him is still argued: he had made a Catholic profession at Rome twenty years earlier, had since served the Syrian and the Coptic patriarchs, and carried letters whose authority the Portuguese refused to recognize. Two Malabar deacons on pilgrimage at Mylapore met him and carried his letter home, and the community received it with joy. The Portuguese put him on a ship for Goa. When it called at Cochin the Thomas Christians, said to have gathered in thousands, asked to see him and were refused; the ship sailed on, and word spread through the churches that he had been drowned in the harbor, or burned by the Inquisition at Goa. On 3 January 1653 a crowd gathered at the stone cross outside the church at Mattancherry and swore, hands on ropes tied to the cross, that they would no longer obey the Jesuit archbishop Francisco Garcia or any Jesuit. In May, at Alangad, twelve priests laid hands on Archdeacon Thomas and named him Mar Thoma, citing a letter attributed to Ahatallah that authorized it. Ahatallah himself was shipped on toward Lisbon and disappears from the record; the likeliest account has him dying in Europe in 1654 without reaching Rome.",
+     "caveat": "The contemporary accounts are Jesuit and Carmelite, written by the parties the oath was sworn against; the wording of the oath comes from the community's own tradition in variant forms. Ahatallah's commission and his death are both uncertain, and the letter said to authorize the archdeacon's consecration is widely thought not to be his. What is not in doubt is the oath, the date and the consecration.",
+     "sources": [
+      {
+       "work": "Giuseppe di Santa Maria Sebastiani, Prima speditione all'Indie Orientali (Rome, 1666)",
+       "type": "primary",
+       "note": "The Carmelite commissary's account of the revolt and of the mission sent to end it; hostile to Mar Thoma, and the fullest narrative from the Roman side."
+      },
+      {
+       "work": "Letters of Archbishop Francisco Garcia SJ to Rome, 1653–1654 (Jesuit archives)",
+       "type": "primary",
+       "note": "The Jesuit archbishop's own reports of the oath and the consecration; summarized in Thekkedath."
+      },
+      {
+       "work": "The Coonan Cross oath, community tradition and the Malabar Syriac record",
+       "type": "primary",
+       "note": "The oath's wording survives in the community's transmitted memory, in variant forms."
+      },
+      {
+       "work": "Joseph Thekkedath, History of Christianity in India, vol. 2: From the Middle of the Sixteenth to the End of the Seventeenth Century (Bangalore, 1982)",
+       "type": "reference",
+       "note": "Standard reconstruction of Ahatallah's movements and the events of 1652–1653 from the archival sources."
+      }
+     ]
+    },
+    {
+     "title": "Diamper: The Synod That Burned the Books",
+     "when": "20–26 June 1599",
+     "tier": "1",
+     "verification": "from reference summaries; primary text not yet read",
+     "teaser": "An archbishop from Goa gathers the priests and elders of the Thomas Christians for a week, declares their patriarch a heretic, rewrites their sacraments and orders their Syriac books burned or corrected. Much of what is known about the community before that week is what the synod condemned.",
+     "text": "Archbishop Aleixo de Menezes of Goa arrived in Malabar early in 1599 with soldiers, money and a determination that the Thomas Christians should have no bishop but one Rome sent. Through the spring he toured their churches, confirming and ordaining, on the reasoning that priests who owed their orders to him would owe him obedience. The Archdeacon George, who had governed the community since the death of its last East Syrian bishop, resisted, was threatened with excommunication and with Portuguese pressure on the pepper trade, and submitted. The synod met at Udayamperur, which the Portuguese called Diamper, from 20 to 26 June 1599, with some 150 priests and more than 600 lay representatives. Its decrees, read in Portuguese and Malayalam, declared the patriarch of the East a heretic, condemned the prayers for Nestorius and Theodore, imposed Latin discipline on clerical marriage, fasting and the sacraments, and ordered a list of Syriac books — the Nomocanon, the Book of the Fathers, the homilies of Narsai among them — to be burned or corrected. Menezes then made a second circuit collecting manuscripts, and many were burned at the churches where they were found. The chronicler Gouvea, who wrote the archbishop's official account, presents this as rescue. The modern editor of the acts has shown that the printed decrees include material the assembly never voted on. Much of what is known about the community's worship before 1599 is what the synod condemned.",
+     "caveat": "The acts and Gouvea's Jornada are the victor's records and describe the community chiefly as a set of errors. That the printed decrees differ from what the assembly approved is the argument of Jonas Thaliath (1958), accepted by most later scholars but disputed in detail. The scale of the burning is known from the order and from later absence, not from an inventory.",
+     "sources": [
+      {
+       "work": "The Acts and Decrees of the Synod of Diamper (1599); English in Michael Geddes, The History of the Church of Malabar (London, 1694); critical ed. Scaria Zacharia (Kottayam, 1994)",
+       "type": "primary",
+       "note": "The decrees themselves, including Session III's list of books to be burned or corrected."
+      },
+      {
+       "work": "António de Gouvea, Jornada do Arcebispo de Goa Dom Frey Aleixo de Menezes (Coimbra, 1606); English trans. Pius Malekandathil (Kochi, 2003)",
+       "type": "primary",
+       "note": "The official narrative of Menezes's visitation and the synod, by his Augustinian chronicler; hostile to the tradition it describes."
+      },
+      {
+       "work": "Jonas Thaliath, The Synod of Diamper (Rome, 1958)",
+       "type": "reference",
+       "note": "The study that showed the printed decrees were altered after the synod."
+      },
+      {
+       "work": "Robert Eric Frykenberg, Christianity in India: From Beginnings to the Present (Oxford, 2008), ch. 5",
+       "type": "reference",
+       "note": "Narrative of the Portuguese pressure on the Thomas Christians from Menezes to the Coonan Cross."
+      }
+     ]
+    }
+   ],
+   "people": [
+    {
+     "name": "Aleixo de Menezes",
+     "year": 1599,
+     "voice": 0,
+     "source": {
+      "work": "Aleixo de Menezes, convocation of the Synod of Diamper (1599), in Michael Geddes's English (1694)",
+      "file": "cic/texts/geddes_history-of-the-church-of-malabar-synod-of-diamper_1694.txt",
+      "lines": "8826-8828",
+      "quote": "he commanded us upon the death of the Archbifbop Mar- Abraham, to take Poffeffion ofthis Church and Bi- froprick,"
+     }
+    }
+   ]
+  },
+  {
+   "id": "the-union-of-brest-and-ruthenian-greek-catholic-",
+   "name": "The Union of Brest & Ruthenian Greek Catholic Christianity",
+   "era": 7,
+   "dates": "1596-c. 1700",
+   "kind": null,
+   "shortName": "Union of Brest",
+   "sources": [
+    {
+     "work": "The union documents: the 33 articles (1595), the acta of the two simultaneous Brest synods of 1596 (union and anti-union - both records carried), papal and royal instruments, in Documenta Unionis Berestensis (ed. Welykyj)",
+     "type": "primary",
+     "note": "Available only in Latin and Church Slavonic."
+    },
+    {
+     "work": "The polemical literature, both sides: Ipatii Potii's union apologetics; Meletij Smotryc'kyj's Threnos (1610, as Orthodox) and his later pro-union works after converting; English access via Frick's scholarship and the Harvard Library of Early Ukrainian Literature",
+     "type": "primary",
+     "note": "Polemic was this tradition's native genre, and both sides' literature is treated as formative. Smotryc'kyj's own switch from the Orthodox to the pro-union side is itself evidence of the identity tension at stake."
+    },
+    {
+     "work": "Brotherhood records: the Lviv Stauropegial brotherhood statutes, registers, and school records, with Vilnius and kin",
+     "type": "primary",
+     "note": "Lay confraternities formed the backbone of Orthodox resistance — a rare glimpse of lay agency in this era's Eastern sources."
+    },
+    {
+     "work": "The Uniate church's early life: Metropolitan Rutsky's Basilian reform and pastoral correspondence; Josaphat Kuntsevych - pastoral record, murder (1623), canonization-process testimony",
+     "type": "primary",
+     "note": "The Kuntsevych material is hagiographic and drawn from canonization-process testimony, so it's structured, guided evidence. The violence during this period ran in both directions."
+    },
+    {
+     "work": "Borys Gudziak, Crisis and Reform: The Kyivan Metropolitanate, the Patriarchate of Constantinople, and the Genesis of the Union of Brest (Harvard, 1998)",
+     "type": "secondary",
+     "note": "The current standard work on the subject."
+    },
+    {
+     "work": "Cambridge History of Christianity vol. 6, ch. 18 'Latin Christianity and eastern Orthodoxy' (Dmitriev)",
+     "type": "reference",
+     "note": "Directly covers this borderland region."
+    }
+   ],
+   "longDescription": "In 1596 most of the Orthodox bishops of the Polish-Lithuanian Commonwealth met at Brest and accepted communion with Rome while keeping their Byzantine liturgy, their Church Slavonic, their calendar and their married clergy. Their opponents met in the same town at the same time and rejected it outright, so what the union produced was not one church but two rival hierarchies claiming the same people and arguing in print for a century. The new church had to explain itself constantly — to Rome, to the Orthodox it had left, and to Latin bishops who never quite treated it as an equal. And that argument became the ordinary condition of its life rather than an occasional crisis. Its most famous figure, Archbishop Josaphat Kuntsevych, was killed by a hostile crowd at Vitebsk in 1623.",
+   "documentedStories": [
+    {
+     "title": "Vitebsk, 12 November 1623",
+     "when": "1622 – 1624",
+     "tier": "1",
+     "verification": "from reference summaries; primary text not yet read",
+     "teaser": "A Catholic chancellor writes to a Uniate archbishop that his closing of Orthodox churches has made a scarecrow of the union. Eighteen months later a crowd kills the archbishop and throws his body in the river; the king's commissioners behead nineteen townsmen and pull down the town hall.",
+     "text": "Josaphat Kuntsevych became archbishop of Polotsk in 1618, a monk of austere life and a preacher the Orthodox had once crowded to hear, and set about bringing his diocese into the Union of Brest by closing the churches of priests who would not conform. In March 1622 the Lithuanian chancellor Lew Sapieha, a Catholic and a supporter of the union, wrote to him that his methods were losing the cause: the churches of Mogilev and Orsha were sealed, the Orthodox were holding services in fields and barns, the Cossacks were threatening war over it, and the union had been made a scarecrow. Josaphat answered that he was defending what the law gave him. On 12 November 1623 he was at Vitebsk, where his men had arrested an Orthodox priest; the town bells rang, a crowd broke into the archbishop's house, and Josaphat, going out to them, was struck with a halberd and shot, and his body was dragged through the streets and thrown into the Dvina. The king's commission arrived in January 1624: nineteen townsmen were beheaded, the town hall was demolished, and Vitebsk lost its charter of self-government and its bells. Josaphat was beatified in 1643 on the testimony gathered then. The Orthodox archbishop of the same city, Meletij Smotryc'kyj, whom the Uniates blamed for inciting the town, left for Constantinople and Jerusalem, and came back four years later a Uniate.",
+     "caveat": "The fullest account of the killing is the beatification process, taken from Josaphat's side; Sapieha's letter is authentic and shows that the Uniate leadership itself thought the archbishop's coercion had provoked the town. Both the coercion and the murder are attested; who threw the first stone in the long quarrel is not a question the sources settle.",
+     "sources": [
+      {
+       "work": "Lew Sapieha, letter to Josaphat Kuntsevych, 12 March 1622",
+       "type": "primary",
+       "note": "The chancellor's rebuke; Polish text in the Sapieha correspondence, English extracts in Frick and others."
+      },
+      {
+       "work": "S. Josaphat Hieromartyr: Documenta Romana Beatificationis et Canonizationis, ed. A. G. Welykyj (Rome, 1952–1967)",
+       "type": "primary",
+       "note": "The beatification process of 1628 onward, with eyewitness testimony to the killing and the reprisals."
+      },
+      {
+       "work": "David A. Frick, Meletij Smotryc'kyj (Cambridge, MA, 1995)",
+       "type": "reference",
+       "note": "Sets the Vitebsk affair in the rivalry of the two archbishops of Polotsk."
+      },
+      {
+       "work": "Borys A. Gudziak, Crisis and Reform: The Kyivan Metropolitanate, the Patriarchate of Constantinople, and the Genesis of the Union of Brest (Cambridge, MA, 1998)",
+       "type": "reference",
+       "note": "The standard account of the union's origins and first decades."
+      }
+     ]
+    },
+    {
+     "title": "The Lament, and the Man Who Wrote It",
+     "when": "1610 – 1633",
+     "tier": "1",
+     "verification": "from reference summaries; primary text not yet read",
+     "teaser": "A young teacher publishes the Orthodox Church's lament for the noble houses that have left her, and the king orders it burned. Seventeen years later, now an archbishop, he joins the union he had wept over, and a council makes him watch his new book torn up.",
+     "text": "In 1610 the Vilnius Orthodox brotherhood press issued a Polish book called Threnos, the Lament of the One Holy Universal Apostolic Eastern Church, under the name Theophil Ortholog. Its author was Meletij Smotryc'kyj, a young teacher in the brotherhood school. The book is a widow's lament: the Church speaks as a mother stripped of her robes and her children, and names them — the Ostroz'kyj, Sluc'kyj, Zbaraz'kyj, Wiśniowiecki and dozens of other houses who had gone over to Rome or to the Reformed. ‘Where are those priceless jewels of my crown?’ King Sigismund III ordered the book burned and the brotherhood's printer imprisoned; Uniates answered it in print; the Orthodox read it aloud, and his later Uniate biographer says they had it laid in their coffins. In 1620 Smotryc'kyj was secretly consecrated Orthodox archbishop of Polotsk, the see Josaphat Kuntsevych held for the union, and after Josaphat's murder he left for the Christian East. He returned in 1626 doubting whether the Greek patriarchs still taught what he had defended, and in 1627 he privately joined the union. In 1628 he published an Apology asking the Orthodox to follow him. A council at Kyiv that August made him stand while his book was torn up and its pages trodden underfoot; he signed a recantation and, back at his monastery at Derman', withdrew it and denounced the council. He died a Uniate in 1633.",
+     "caveat": "Both books and the acts of the Kyiv council of 1628 survive; the accounts of the council scene are partisan on both sides. What Smotryc'kyj believed at each stage is the subject of a large literature, and his own explanations changed. The Orthodox went on reading the Threnos after its author had left them.",
+     "sources": [
+      {
+       "work": "Meletij Smotryc'kyj, Threnos (Vilnius, 1610), facsimile in Harvard Library of Early Ukrainian Literature, Texts vol. 1: Collected Works of Meletij Smotryc'kyj (Cambridge, MA, 1987)",
+       "type": "primary",
+       "note": "The lament, in the original Polish."
+      },
+      {
+       "work": "Rus' Restored: Selected Writings of Meletij Smotryc'kyj, 1610–1630, trans. David A. Frick (Cambridge, MA, 2005)",
+       "type": "primary",
+       "note": "English translations of the Threnos, the Apology and the works of the conversion years."
+      },
+      {
+       "work": "Jakiv Suša, Saulus et Paulus Ruthenae Unionis (Rome, 1666)",
+       "type": "primary",
+       "note": "The Uniate biography, source of the report about the Threnos and coffins; partisan."
+      },
+      {
+       "work": "David A. Frick, Meletij Smotryc'kyj (Cambridge, MA, 1995)",
+       "type": "reference",
+       "note": "The standard study of his life and conversion."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "the-kyiv-mohyla-orthodox-revival",
+   "name": "The Kyiv-Mohyla Orthodox Revival",
+   "era": 7,
+   "dates": "1615-1700",
+   "kind": null,
+   "relationsSummary": "Orthodoxy answering Reformation/Counter-Reformation pressure with its own confessional formation; the response to the Union of Brest.",
+   "why": "Orthodox Kyiv answered the Union of Brest not with a lament but with a school: a lay brotherhood founded a college in 1615, and Metropolitan Petro Mohyla built it on the Jesuit model — Latin, rhetoric, philosophy, theology — on the reasoning that a church cannot defend itself against arguments it cannot read. He also gave the church its own confession of faith and a service book, the Trebnyk of 1646, that fixed how priests actually celebrated the sacraments.",
+   "longDescription": "Orthodox Kyiv answered the Union of Brest not with a lament but with a school. A lay brotherhood founded one in 1615, and Petro Mohyla, metropolitan from 1633, turned it into a college on the Jesuit model — Latin, rhetoric, philosophy, theology. On the reasoning that a church cannot defend itself against arguments it cannot read. He also gave the Kyivan church its own instruments. An Orthodox Confession of faith, approved in revised form by a council at Iaşi in 1642, a short catechism, and a great service book, the Trebnyk of 1646, which regularized how priests were actually to celebrate the sacraments. It is the clearest case anywhere of a tradition taking up its rivals' tools in order to remain itself.",
+   "documentedStories": [
+    {
+     "title": "Feed for the Sturgeon of the Dnieper",
+     "when": "1631 – 1635",
+     "tier": "1",
+     "verification": "from reference summaries; primary text not yet read",
+     "teaser": "Kyiv's Orthodox open a school on the Jesuit model and the Cossacks conclude the teachers are secret Uniates. The prefect writes that there was a time when they made their confessions expecting to be thrown in the river.",
+     "text": "When Petro Mohyla, then archimandrite of the Kyiv Caves monastery, opened a school at the monastery in 1631 with Latin as its language and the Jesuit colleges as its model, the reaction in Kyiv was not gratitude. The Cossacks and the burghers who had defended Orthodoxy against the union for a generation could not see the difference between a Latin school and a Latin church, and word went round that the teachers were secret Uniates. Sylvester Kossov, the school's prefect, wrote three years later that there had been a time when he and his colleagues, having made their confessions, expected at any moment to be seized and used to feed the sturgeon of the Dnieper, or to be burned. It took the intervention of the brotherhood and the Cossack hetman to make the school safe, and in 1632 it was merged with the brotherhood's own school on the Podil as a compromise, under the brotherhood's oversight and Mohyla's protection. Kossov's Exegesis of 1635 was written to answer the charge that Latin schooling was foreign to Orthodoxy: without Latin, he wrote, Orthodox children would be fools before the courts, the Diet and their Catholic neighbors, and would go to the Jesuits for what their own church could not give them. He became metropolitan of Kyiv himself in 1647, and the college outlived the Commonwealth.",
+     "caveat": "The threat is known from Kossov's own retrospective account, written in the college's defense, and may be heightened; that the school was suspected and that its merger with the brotherhood school was a political settlement is agreed. The sturgeon are Kossov's image.",
+     "sources": [
+      {
+       "work": "Sylvester Kossov, Exegesis (Kyiv, 1635)",
+       "type": "primary",
+       "note": "The defense of Latin schooling in Orthodox Kyiv; Polish, with extracts translated in Ševčenko."
+      },
+      {
+       "work": "Ihor Ševčenko, 'The Many Worlds of Peter Mohyla', Harvard Ukrainian Studies 8 (1984)",
+       "type": "reference",
+       "note": "The orientation essay; quotes and dates the Kossov passage."
+      },
+      {
+       "work": "Liudmila Charipova, Latin Books and the Eastern Orthodox Clerical Elite in Kiev, 1632–1780 (Manchester, 2006)",
+       "type": "reference",
+       "note": "The college's curriculum and library from the archives."
+      }
+     ]
+    },
+    {
+     "title": "Digging Up the Church of the Tithes",
+     "when": "1635 – 1638",
+     "tier": "2",
+     "verification": "from reference summaries; primary text not yet read",
+     "teaser": "A metropolitan clears the rubble of Kyiv's first stone church, four centuries after the Mongols left it, and announces that he has found the bones of the prince who baptized Rus'.",
+     "text": "Kyiv in Mohyla's time was a city of ruins, with the churches of the Kyivan princes lying broken since the Mongol sack of 1240 and several of the best preserved in Uniate hands. Mohyla made their recovery a program. He regained St Sophia from the Uniates in 1633 and began repairing it; he rebuilt the Church of the Saviour at Berestove; and in 1635 he had the rubble of the Church of the Tithes, Vladimir's first stone church, cleared, and announced that among the foundations two sarcophagi had been found, one of them holding the remains of St Vladimir himself. He took the skull and other bones, placed the skull in the Dormition cathedral of the Caves monastery, sent a jawbone to the tsar in Moscow, and built a small church over the site. The monastery's press published the finds in the Teraturgema of 1638, a catalog of the monastery's miracles by the monk Afanasij Kal'nofojs'kyj, which set out, with maps, what Kyiv had been. Historians doubt the identification, and the bones were dispersed after 1917. What is not in doubt is what Mohyla was doing: giving the Orthodox of the Commonwealth back the city of their baptism, in stone, as an answer to the argument, made by Uniate and Catholic polemicists alike, that theirs was a church without a past.",
+     "caveat": "The excavation and the announcement are contemporary and documented; the identification of the remains as Vladimir's rests on Mohyla's word and is not accepted by modern archaeology. The Teraturgema is a miracle-book with a program, and reads as one.",
+     "sources": [
+      {
+       "work": "Afanasij Kal'nofojs'kyj, Teraturgema (Kyiv, 1638)",
+       "type": "primary",
+       "note": "The Caves monastery's miracle-book, with the account of the finds and the plans of Kyiv."
+      },
+      {
+       "work": "Ihor Ševčenko, 'The Many Worlds of Peter Mohyla', Harvard Ukrainian Studies 8 (1984)",
+       "type": "reference",
+       "note": "On Mohyla's restoration program and its meaning."
+      },
+      {
+       "work": "Serhii Plokhy, The Cossacks and Religion in Early Modern Ukraine (Oxford, 2001)",
+       "type": "reference",
+       "note": "Context for the recovery of Kyiv's churches as a confessional argument."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "the-remonstrants-and-dort",
+   "name": "The Remonstrants and Dort",
+   "era": 7,
+   "dates": "1610-1650",
+   "kind": null,
+   "sourcing": "Moderate: the Remonstrance of 1610, the acts and canons of the Synod of Dort, Simon Episcopius's writings, and the exile Brotherhood's own records.",
+   "relationsSummary": "The sharpest internal contest inside Reformed Protestantism in this era: the Five Articles of 1610, judged and condemned by the Synod of Dort in 1618-19, about two hundred ministers deposed, and the Remonstrant Brotherhood driven into exile until toleration returned in the 1630s. The Brotherhood continued afterward with its own seminary in Amsterdam, later associated with the theologian Philipp van Limborch.",
+   "why": "After Jacobus Arminius raised doubts about how strictly predestination should be taught, his followers set out five articles in the Remonstrance of 1610 — a quarrel that swallowed Dutch politics and sent the statesman Johan van Oldenbarnevelt to the scaffold in 1619. The Synod of Dort answered with five canons of its own, deposing some two hundred ministers, until toleration returned in the 1630s and the exiles came home to build a church of their own.",
+   "longDescription": "The Dutch Reformed minister Jacobus Arminius had doubts about how strictly predestination should be taught, and after his death in 1609 his supporters set them out in five articles — the Remonstrance of 1610. Asking the government to allow their view. The quarrel that followed swallowed the young Dutch Republic, mixing theology with politics until it ended on a scaffold. The statesman Johan van Oldenbarnevelt, the Remonstrants' protector, was executed in 1619. The Synod of Dort, meeting through the winter of 1618-19 with delegates from Reformed churches across Europe, condemned the Remonstrance and answered it with five canons of its own. Some two hundred ministers were deposed and their leaders driven into exile — until toleration returned in the 1630s and they came home to build a church of their own.",
+   "voices": [
+    "Jacobus Arminius — Leiden professor whose questions about predestination began the controversy",
+    "Simon Episcopius — the Remonstrants' spokesman at Dort and chief theologian of the church they built in exile",
+    "Hugo Grotius — jurist and Remonstrant sympathizer, imprisoned for his part in the affair and famously smuggled out in a book chest",
+    "Johan van Oldenbarnevelt — the Republic's leading statesman and the Remonstrants' protector, executed in 1619"
+   ],
+   "legacy": "Both sides outlived the quarrel. The Remonstrant Brotherhood is still a small Dutch church, with its own seminary in Amsterdam. The Canons of Dort became one of the three Dutch Reformed standards of faith. Ministers swore to them as far away as North America. 'Arminian' became a lasting label in English theology. John Wesley took it up a century later, and the whole Methodist family took it from him.",
+   "experienceToday": [
+    {
+     "text": "The Grote Kerk in Dordrecht — where the Synod of Dort opened and closed, with a permanent exhibition about it in the south aisle chapels",
+     "url": "https://grotekerkdordrecht.com/synode/"
+    }
+   ],
+   "documentedStories": [
+    {
+     "title": "‘Dimittimini, Exite!’",
+     "when": "6 December 1618 – 14 January 1619",
+     "tier": "1",
+     "verification": "from reference summaries; primary text not yet read",
+     "teaser": "Summoned to the Synod of Dort as defendants rather than delegates, the Remonstrants spend five weeks arguing about who may set the order of debate. The president ends it by telling them they began with a lie and end with one, and orders them out. An English observer writes home that the foreign divines were dismayed.",
+     "text": "The Synod of Dort opened on 13 November 1618 with delegates from the Dutch provinces and from the Reformed churches of England, Scotland, the Palatinate, Switzerland, Hesse, Bremen, Emden and Geneva; the French delegates had been forbidden by their king to come. The Remonstrants were not delegates. Thirteen of them, led by Simon Episcopius, professor at Leiden, were summoned as parties to answer for their doctrine, and arrived on 6 December. The next day Episcopius delivered an oration of nearly two hours, in Latin, defending the Remonstrants' right to state their whole position and to argue against unconditional reprobation first, since it was what the people feared. The synod's president, Johannes Bogerman, insisted that they answer the synod's questions in the synod's order. For five weeks the two sides argued procedure. On 14 January 1619 Bogerman lost patience and, in a speech that the English observer John Hales reported home, told them that they had begun with a lie and ended with one, that they were unworthy of the synod's patience, and concluded, ‘Dimittimini, exite!’ — ‘You are dismissed, go!’ Hales wrote that the foreign delegates disliked the manner of it. The synod went on to judge the Remonstrant doctrine from their writings, and its Canons were read in the Great Church on 6 May 1619. The Remonstrant ministers who would not sign an Act of Cessation were banished in July; some two hundred were deposed. Episcopius went to Antwerp and wrote the confession of the church they founded there.",
+     "caveat": "Hales's letters are a contemporary eyewitness record by a member of the English delegation's household, and the Acta confirm the dates; the exact words of Bogerman's speech are as Hales and the Remonstrants reported them. The Canons of Dort say nothing about the manner of the dismissal.",
+     "sources": [
+      {
+       "work": "John Hales, Golden Remains of the Ever Memorable Mr. John Hales (London, 1659): letters from the Synod of Dort, 1618–1619",
+       "type": "primary",
+       "note": "Eyewitness letters to the English ambassador, including the dismissal of 14 January."
+      },
+      {
+       "work": "Acta Synodi Nationalis ... Dordrechti habitae (Leiden, 1620); The Canons of Dort (1619), English in Philip Schaff, The Creeds of Christendom, vol. 3",
+       "type": "primary",
+       "note": "The synod's own record and its decisions."
+      },
+      {
+       "work": "Anthony Milton, ed., The British Delegation and the Synod of Dort (1618–1619) (Woodbridge, 2005)",
+       "type": "reference",
+       "note": "Edition of the British delegates' papers with a narrative of the sessions."
+      },
+      {
+       "work": "Gerard Brandt, The History of the Reformation and Other Ecclesiastical Transactions in and about the Low-Countries, vol. 3 (London, 1722)",
+       "type": "reference",
+       "note": "The Remonstrant historian's detailed account, from documents; partisan."
+      }
+     ]
+    },
+    {
+     "title": "A Brotherhood in Exile, and a Church That Could Not Be Seen from the Street",
+     "when": "1619 – 1634",
+     "tier": "1",
+     "verification": "from reference summaries; primary text not yet read",
+     "teaser": "The banished ministers meet at Antwerp and agree to be a society rather than a church, slip back over the border under false names to preach in barns, and, when Amsterdam relents, build a meeting-house for a thousand people behind a row of ordinary house fronts.",
+     "text": "The banished ministers gathered at Antwerp, in the Spanish Netherlands, in the autumn of 1619, and at the end of September constituted themselves as a Brotherhood — not a church, they said, since they did not wish to add to the divisions of the Reformed, but a society of ministers who would serve congregations wherever they could. Johannes Uytenbogaert, the old court preacher who had drafted the Remonstrance of 1610, presided; Episcopius wrote the Confession of 1621, which set out the Remonstrant faith and insisted that no confession should bind consciences. For a decade the Brotherhood's ministers slipped in and out of the Republic under assumed names, preached in barns and private houses, and were fined, imprisoned and, in a few cases, sent to the fortress at Loevestein; congregations were broken up by soldiers and the towns fined them. The death of Prince Maurice in 1625 and the rise of a tolerant party in Amsterdam changed everything. In 1630 the Amsterdam magistrates permitted the Remonstrants to build, provided the building could not be recognized as a church from the street; the meeting-house on the Keizersgracht, opened in September 1630, stood behind ordinary house fronts and seated a thousand. Uytenbogaert came home; Episcopius became the first professor of the Remonstrant seminary at Amsterdam in 1634. The Brotherhood is still called that.",
+     "caveat": "The Antwerp meeting, the Confession and the Amsterdam permission are documented in the Brotherhood's records and the city's; the years of clandestine ministry are known mostly from the Remonstrants' own histories. The hidden church survives, as a concert hall.",
+     "sources": [
+      {
+       "work": "Confessio, sive Declaratio sententiae pastorum qui in Foederato Belgio Remonstrantes vocantur (1621); English: The Confession or Declaration of the Ministers ... called Remonstrants (London, 1676)",
+       "type": "primary",
+       "note": "Episcopius's confession for the exile church."
+      },
+      {
+       "work": "Gerard Brandt, The History of the Reformation ... in and about the Low-Countries, vol. 4 (London, 1723)",
+       "type": "primary",
+       "note": "The Remonstrant historian's account of the exile and return, from the Brotherhood's papers."
+      },
+      {
+       "work": "Jonathan Israel, The Dutch Republic: Its Rise, Greatness, and Fall, 1477–1806 (Oxford, 1995)",
+       "type": "reference",
+       "note": "The politics of toleration in the 1620s and 1630s."
+      },
+      {
+       "work": "G. J. Hoenderdaal and P. M. Luca, eds., Staat in de vrijheid: De geschiedenis van de remonstranten (Zutphen, 1982)",
+       "type": "reference",
+       "note": "The Brotherhood's own historians on its founding and its churches."
+      }
+     ]
+    }
+   ],
+   "livingEvidence": {
+    "basis": "The Remonstrant Brotherhood is alive today. It published its yearly theme for 2026 to 2027 on its own site. A Leiden thesis of 2017 calls it a small Dutch denomination. The Canons of Dort side is carried by the Reformed churches. The tree has no Remonstrant entry after 1650.",
+    "evidence": "Blog: Goed vrij zijn, Remonstrantse Broederschap (17 September 2026): own-voice; verified. https://www.remonstranten.nl/blog | De moeite waard om door te geven: de remonstrantse traditie aan het begin van de 21e eeuw, Leiden University (doctoral thesis, M.F.C. Junte) (2017): independent; verified. https://scholarlypublications.universiteitleiden.nl/access/item%3A2942969/download",
+    "grade": "CD (Contemporary-Documented); newest dated item 2026, newest verified 2026",
+    "group": "own"
+   }
+  },
+  {
+   "id": "melkite-greek-catholic-church",
+   "name": "The Melkite Greek Catholic Split",
+   "era": 8,
+   "dates": "1650-1815",
+   "kind": null,
+   "relationsSummary": "When Patriarch Athanasius III died in 1724, the party at Damascus chose Cyril VI Tanas, who favored union with Rome. Constantinople consecrated a rival, Sylvester, instead. The see of Antioch split for good, and the Melkite Greek Catholic Church began. It is still alive today. The split took a shape seen before, in the Union of Brest and in the Maronites' union with Rome. The Orthodox side of the split stayed part of Orthodoxy under the Ottomans."
+  },
+  {
+   "id": "ruthenian-uniate-18th-century",
+   "name": "The Ruthenian Uniate Church — Zamość to the Partitions",
+   "era": 8,
+   "dates": "1700-1815",
+   "kind": null,
+   "why": "A century after the Union of Brest, the Greek Catholic church of the Ruthenian lands held the loyalty of most of the region's peasantry, and the Synod of Zamość in 1720 consolidated it while importing Roman devotional practices into its Byzantine rite. When the partitions of Poland handed most of its people to Catherine II's Russia, which treated the union as an amputation to be reversed, forced-reversion campaigns from 1794 stripped away the great majority of its parishes within two years — leaving Austrian Galicia, where the Habsburgs funded the clergy's education, as the church's real survival zone.",
+   "longDescription": "A century after the Union of Brest, the Greek Catholic church of the Ruthenian lands — today's Ukraine and Belarus — was at its numerical height, holding the loyalty of most of the peasantry of the eastern Polish-Lithuanian Commonwealth. The Synod of Zamość in 1720 consolidated it and also latinized it, importing Roman devotional practices into a Byzantine rite and settling its identity as something distinctly its own rather than a temporary arrangement. Then the political ground vanished: the partitions of Poland between 1772 and 1795 handed most of the church's people to Catherine II's Russia, which regarded the union as an amputation to be reversed, and campaigns of forced reversion from 1794 stripped it of the great majority of its parishes within two years. What survived did so in Austrian Galicia, where the Habsburgs raised the Greek Catholic clergy's status and paid for their education. And where the church became, over the following century, the carrier of Ukrainian national identity.\n\nThe Ruthenian church of the Carpathian lands had a union with Rome of its own, apart from the union of Brest. Nilles's heading dates the union at Uzhhorod to 1646. It dates the solemn confirmation to 1652.\n\nIn a petition of 15 January 1652, Greek-rite priests tell the pope that they were won back to Rome in the Latin church of the Uzhhorod castle, on 23 April. Their printed text names the year as 1649. Nilles notes that some read it as 1646, because the bishop of Eger who received them died in 1647.\n\nTheir earlier bishop at Mukachevo, they say, had left the union.\n\nThey joined on three terms. They would keep the Greek rite. They would have a bishop of their own choosing, confirmed by Rome. They would keep their church privileges. In their Latin, as the scan prints it: ritus graecae ecclesiae nobis servare Iice«t.\n\nThey asked Rome to confirm Peter Parthenius, the bishop they had chosen."
+  },
+  {
+   "id": "catholic-church-long-nineteenth-century",
+   "name": "The Catholic Church of the Long Nineteenth Century",
+   "era": 9,
+   "dates": "1815-1906",
+   "kind": null,
+   "voices": [
+    "Pius IX — the longest-reigning pope, who defined the Immaculate Conception, issued the Syllabus of Errors, and lost the Papal States",
+    "Leo XIII — his successor, who opened the church's engagement with industrial society in Rerum Novarum (1891)",
+    "Bernadette Soubirous — the Pyrenean girl whose 1858 visions made Lourdes the century's great pilgrimage site",
+    "John Henry Newman — the English convert whose theology of conscience and of doctrinal development ran alongside, and sometimes against, the century's Roman current",
+    "Nicholas Wiseman — first archbishop of Westminster after the Catholic hierarchy was restored in England in 1850"
+   ]
+  },
+  {
+   "id": "the-east-african-revival-balokole",
+   "name": "The East African Revival (Balokole)",
+   "era": 10,
+   "dates": "1930s-1970s",
+   "kind": null,
+   "sources": [
+    {
+     "work": "Balokole testimony culture: convention records (Kabale 1935-), fellowship records, 'Tukutendereza Yesu'; Nagenda's addresses; Kivengere, I Love Idi Amin (1977)",
+     "type": "primary",
+     "note": "The movement's own testimony genre, and published African voices from within it."
+    },
+    {
+     "work": "Joe Church, Quest for the Highest (1981)",
+     "type": "primary",
+     "note": "A missionary's documentary memoir from Gahini - written from outside the African leadership of a movement that arose within, and often against, mission Anglicanism."
+    },
+    {
+     "work": "The Janani Luwum martyrdom record (1977; Westminster Abbey martyrs 1998)",
+     "type": "primary"
+    },
+    {
+     "work": "Derek R. Peterson, Ethnic Patriotism and the East African Revival (CUP, 2012); Kevin Ward & Emma Wild-Wood (eds.), The East African Revival: History and Legacies (Ashgate, 2012)",
+     "type": "secondary",
+     "note": "The current standard scholarly works; the Ward/Wild-Wood volume includes oral-history material."
+    },
+    {
+     "work": "CHC vol. 9; Sanneh/Walls world-Christianity frames",
+     "type": "reference"
+    },
+    {
+     "work": "Timothy Longman, Christianity and Genocide in Rwanda (Cambridge University Press, 2009)",
+     "type": "secondary",
+     "note": "Its thesis, that church leaders backed the genocide, is contested."
+    }
+   ],
+   "legacy": "The revival came as a wave, and by the 1970s the wave had passed. The fellowships had not. They lived on inside the Anglican churches of East Africa. They kept their meetings, their practice of confession and their hymn. The revival gave those churches a generation of African leaders. They were formed outside the control of missions. It also left a large body of testimony, and historians were slow to read it. Janani Luwum is honored among the twentieth-century martyrs on the west front of Westminster Abbey, unveiled in 1998.",
+   "documentedStories": [
+    {
+     "title": "The Mukono Expulsions",
+     "when": "October 1941",
+     "tier": "1",
+     "verification": "from reference summaries; primary text not yet read",
+     "teaser": "At the Anglican theological college of Uganda, the students touched by the revival rise before dawn to pray and preach to one another, confess their sins in public, and tell the staff they are not saved. The warden forbids the meetings; twenty-six refuse to stop and are sent down.",
+     "text": "The revival that had begun at Gahini in Rwanda in the early 1930s had spread by 1941 through the Anglican church of Uganda in fellowship meetings whose members, the balokole, confessed their sins aloud, sang Tukutendereza Yesu, and asked everyone they met, clergy and Europeans included, whether they too were saved. At Bishop Tucker Memorial College at Mukono a group of students had joined the movement and had begun, in 1941, to hold meetings in the dormitories before the college's own morning prayers, at four or five o'clock, to preach to the other students and to tell members of staff that they were unconverted. The warden, J. C. Jones regarded this as a breach of discipline and of charity, and in October 1941 forbade the early meetings and the preaching. The balokole students answered that they could not obey a rule that forbade them to witness. Twenty-six were expelled, among them William Nagenda, who became the revival's most traveled African leader. The bishop, Cyril Stuart, supported the warden and then tried to hold the revival inside the church, ordaining some of the balokole and refusing to let the movement become a separate body, which its leaders did not want either. The expelled went out as lay evangelists and the fellowship grew faster than the college; by the 1950s the balokole were the church's most active members and some of its bishops, and the church that had expelled them had been remade by them.",
+     "caveat": "The college's and the diocese's records and the balokole's own accounts document the expulsions; the accounts differ on the tone of the students' witness and on the warden's motives. The later reconciliation is documented in the church's own history and in the revival's.",
+     "sources": [
+      {
+       "work": "Records of Bishop Tucker Memorial College, Mukono, and of the diocese of Uganda on the expulsions of October 1941; correspondence of Bishop Cyril Stuart and J. C. Jones (Church of Uganda archives; CMS archive)",
+       "type": "primary",
+       "note": "The institutional record of the crisis."
+      },
+      {
+       "work": "Joe Church, Quest for the Highest: An Autobiographical Account of the East African Revival (Exeter, 1981)",
+       "type": "primary",
+       "note": "A missionary participant's memoir, including Mukono."
+      },
+      {
+       "work": "Kevin Ward, '\"Obedient Rebels\": The Relationship between the Early \"Balokole\" and the Church of Uganda: The Mukono Crisis of 1941', Journal of Religion in Africa 19 (1989)",
+       "type": "reference",
+       "note": "The standard study of the expulsions."
+      },
+      {
+       "work": "Kevin Ward and Emma Wild-Wood, eds., The East African Revival: History and Legacies (Farnham, 2012)",
+       "type": "reference",
+       "note": "The revival's history from African and missionary sources."
+      }
+     ]
+    },
+    {
+     "title": "The Bishop Who Walked to Rwanda",
+     "when": "16 – 19 February 1977",
+     "tier": "1",
+     "verification": "from reference summaries; primary text not yet read",
+     "teaser": "The archbishop of Uganda is murdered by Amin's men after signing a protest against the killings, and the regime announces a car accident. The bishop of Kigezi, who had stood beside him, walks out of the country over the mountains with his wife and writes a book whose title is a decision.",
+     "text": "Festo Kivengere had been converted in the revival as a schoolmaster, had preached with William Nagenda across the world, and in 1972 was made bishop of Kigezi, in the south-west of Uganda, the year after Idi Amin took power. In February 1977 the Anglican bishops of Uganda, led by Archbishop Janani Luwum, delivered to Amin a letter protesting the disappearances and the terror, and signed it. On 16 February Luwum and two cabinet ministers were arrested at a public rally at which Kivengere stood with him; that night Luwum was killed, and the government announced the next day that he and the ministers had died in a car accident. The bishops knew what had happened, and Kivengere was warned that he was next. On the night of 19 February he and his wife Mera drove toward the border, abandoned the car, and walked through the night over the Kigezi mountains into Rwanda. From exile he organized relief for Ugandan refugees, and within months had written a short book called I Love Idi Amin, in which he said that he had had to decide, in the days after Luwum's death, whether he would hate the man who had killed his archbishop, and had concluded that he could not, because Christ had died for Amin as for him. He returned to Kigezi after Amin fell in 1979, preached reconciliation through the wars that followed, and died in 1988. In 1998 Luwum's statue was set over the west door of Westminster Abbey.",
+     "caveat": "Luwum's death and the regime's account are documented in the church's records and in the later inquiries; Kivengere's escape and his book are his own account and his wife's. The book's title was chosen by him and was controversial among Ugandans at the time, which the record shows.",
+     "sources": [
+      {
+       "work": "Festo Kivengere with Dorothy Smoker, I Love Idi Amin: The Story of Triumph under Fire in the Midst of Suffering and Persecution in Uganda (Old Tappan, NJ, 1977)",
+       "type": "primary",
+       "note": "The bishop's own account of February 1977."
+      },
+      {
+       "work": "Letter of the Anglican bishops of Uganda to Idi Amin, February 1977; records of the Church of Uganda on the death of Archbishop Janani Luwum",
+       "type": "primary",
+       "note": "The protest and the church's record of the killing."
+      },
+      {
+       "work": "Anne Coomes, Festo Kivengere: A Biography (Eastbourne, 1990)",
+       "type": "reference",
+       "note": "The standard biography."
+      },
+      {
+       "work": "Derek R. Peterson, Ethnic Patriotism and the East African Revival: A History of Dissent, c. 1935–1972 (Cambridge, 2012)",
+       "type": "reference",
+       "note": "The revival's political history before Amin."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "the-ukrainian-greek-catholic-underground",
+   "name": "The Ukrainian Greek Catholic Underground",
+   "era": 10,
+   "dates": "1946-1989",
+   "kind": null,
+   "relationsSummary": "The world's largest banned church - clandestine ordinations, bishops in the Gulag, emergence intact in 1989; a continuation of the Union of Brest. The Romanian Greek Catholic Church, dissolved in 1948, has its own entry.",
+   "documentedStories": [
+    {
+     "title": "A Council Without Bishops",
+     "when": "March 1946 – September 1948",
+     "tier": "1",
+     "verification": "from reference summaries; primary text not yet read",
+     "teaser": "With every Greek Catholic bishop already in prison, the NKGB assembles two hundred priests in Lviv to vote their church out of existence. The priest who chairs it is shot dead on a Lviv street two and a half years later.",
+     "text": "In April 1945 the Soviet authorities arrested every bishop of the Ukrainian Greek Catholic Church, Metropolitan Josyf Slipyj among them. The following month an 'Initiative Group for the Reunion of the Greek Catholic Church with the Orthodox Church' announced itself, led by Havryil Kostelnyk, a respected Lviv priest, theologian and long-standing critic of Latin influence in his church, who had lost a son in the war. The group worked under the direction of the state security service, whose files, opened after 1991, record the arrangements. Priests who refused to join were arrested; some 800 signed. To give the gathering a semblance of episcopal presence, two members of the group, Mykhailo Melnyk and Antonii Pelvetsky, were secretly received into Orthodoxy and consecrated bishops in Kyiv in February 1946. On 8 to 10 March 1946, in St George's Cathedral in Lviv, 216 priests and 19 laypeople, with no bishop of their own church present, voted to annul the Union of Brest of 1596 and to join the Russian Orthodox Church. The church that had existed for three and a half centuries was declared not to exist. On 20 September 1948, after celebrating the liturgy at the Transfiguration Church in Lviv, Kostelnyk was shot dead in the street by a young man who then killed himself. The Soviet authorities blamed Ukrainian nationalists and the Vatican; the underground church suspected the security service of removing a man who knew too much. The question had not been settled by 2010.",
+     "caveat": "The synod and the state's orchestration of it are documented in the NKGB and party files opened after 1991 and in the standard history built on them; the attendance figures are from those records. Kostelnyk's own motives, and who killed him, remain disputed, and the page states the competing accounts without choosing.",
+     "sources": [
+      {
+       "work": "Bohdan R. Bociurkiw, The Ukrainian Greek Catholic Church and the Soviet State (1939–1950) (Canadian Institute of Ukrainian Studies Press, 1996)",
+       "type": "reference",
+       "note": "The standard account, built on the security-service and party archives."
+      },
+      {
+       "work": "The acts of the Lviv 'Sobor' of 8–10 March 1946 (published by the Moscow Patriarchate, 1946)",
+       "type": "primary",
+       "note": "The synod's own record as the state published it."
+      },
+      {
+       "work": "NKGB/MGB files on the Initiative Group (Ukrainian state archives, opened after 1991)",
+       "type": "primary",
+       "note": "The organizers' side of the record; access limited."
+      },
+      {
+       "work": "Serhii Plokhy, The Gates of Europe (Basic Books, 2015)",
+       "type": "reference",
+       "note": "Context for the liquidation within the Soviet reabsorption of western Ukraine."
+      }
+     ]
+    },
+    {
+     "title": "Eighteen Years, Then a Train to Rome",
+     "when": "January–February 1963",
+     "tier": "1",
+     "verification": "from reference summaries; primary text not yet read",
+     "teaser": "An American editor carries a message from John XXIII to Khrushchev. Weeks later a Dutch monsignor collects a seventy-year-old metropolitan from Moscow and puts him on a train, on condition that he never go home.",
+     "text": "Josyf Slipyj was arrested in April 1945, tried in secret and sentenced to eight years; when those ended he was sentenced again, and again, and by 1962 had spent seventeen years in camps and exile from Siberia to Mordovia, ordaining priests in secret when he could. In December 1962 Norman Cousins, the editor of the Saturday Review, visited Khrushchev as an unofficial go-between during the thaw after the Cuban missile crisis; he had been asked by John XXIII's circle to raise one specific matter, the metropolitan's release. Khrushchev agreed, on terms: Slipyj was to leave the Soviet Union and never return, and the release was to be presented as a humanitarian gesture, not a concession. On 26 January 1963 Slipyj was told he was free. Monsignor Jan Willebrands of the Secretariat for Christian Unity traveled to Moscow to collect him, and the two men went by train to Vienna, then on to Rome, arriving on 9 February. Slipyj had been permitted to bring a small suitcase; in it, among other things, was soil from the graves of his people in the camps. John XXIII received him at once. He was seventy, and he would live twenty-one more years in Rome, never returning to Lviv, holding together a banned church from outside and pressing at the Council and after it, without success, for the recognition of a Ukrainian patriarchate. His body was returned to St George's Cathedral in Lviv in 1992, when there was again a church to receive it.",
+     "caveat": "The release is documented in Cousins's own account, in Willebrands's, in Slipyj's memoirs and in the Vatican's record; the detail of the soil rests on the accounts of those who received him. The terms Khrushchev set are as Cousins reported them. Slipyj's own experience of the camps is known from his own writing.",
+     "sources": [
+      {
+       "work": "Norman Cousins, The Improbable Triumvirate: John F. Kennedy, Pope John, Nikita Khrushchev (Norton, 1972)",
+       "type": "primary",
+       "note": "The intermediary's own account of the request and Khrushchev's answer."
+      },
+      {
+       "work": "Josyf Slipyj, Spomyny (Memoirs), edited by Ivan Datsko and Maria Horiacha (Lviv–Rome, 2014)",
+       "type": "primary",
+       "note": "The metropolitan's own record of arrest, camps and release."
+      },
+      {
+       "work": "Jaroslav Pelikan, Confessor Between East and West: A Portrait of Ukrainian Cardinal Josyf Slipyj (Eerdmans, 1990)",
+       "type": "reference",
+       "note": "The standard English biography."
+      },
+      {
+       "work": "Bohdan R. Bociurkiw, The Ukrainian Greek Catholic Church and the Soviet State (1939–1950) (CIUS, 1996)",
+       "type": "reference",
+       "note": "The arrests of 1945 and the underground years."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fundamentalism-1910-1970s",
+   "name": "Fundamentalism",
+   "era": 10,
+   "dates": "c. 1910-1970s",
+   "kind": null,
+   "longDescription": "The word arrived in 1920: Curtis Lee Laws, writing in the Watchman-Examiner, proposed calling those willing to do 'battle royal for the Fundamentals' fundamentalists, and the name stuck. The movement was older than the word. The Niagara Bible Conference had met annually from the 1870s until 1897 and adopted a fourteen-point creed in 1878; A. A. Hodge and B. B. Warfield published 'Inspiration' in the Presbyterian Review in April 1881, giving the doctrine of scripture its most exacting American statement. Between 1910 and 1915 twelve volumes called The Fundamentals were published, financed by Lyman Stewart and given away — around three million copies. The Presbyterian General Assembly adopted a five-point doctrinal deliverance in 1910. Then came the public defeats and the separations: the Scopes trial in July 1925, Princeton Seminary reorganized in 1929 with Westminster founded in answer, and new denominations of their own from the 1930s.",
+   "documentedStories": [
+    {
+     "title": "Bryan on the Lawn",
+     "when": "10–26 July 1925",
+     "tier": "1",
+     "verification": "from reference summaries; primary text not yet read",
+     "teaser": "On the seventh day of the Scopes trial, with the courtroom floor cracking under the crowd, the judge moves proceedings on to the lawn, and William Jennings Bryan takes the stand as an expert on the Bible. Five days after the verdict he is dead.",
+     "text": "John Scopes, a young teacher in Dayton, Tennessee, had agreed to be prosecuted under the state's new law against teaching human evolution, in a test case the town's businessmen thought would bring visitors. It brought William Jennings Bryan, three times a presidential candidate and the country's best-known Christian layman, to assist the prosecution, and Clarence Darrow, its best-known agnostic, to the defense. The trial opened on 10 July 1925 in heat above a hundred degrees, and the judge ruled out the defense's scientific witnesses. On Monday 20 July, the court moved to a platform on the courthouse lawn, and Darrow called Bryan himself as a witness on the Bible. For two hours Darrow asked about Jonah, Joshua's sun, the date of the flood, and the six days of creation. Bryan held that the fish was a miracle and that he believed it; on the days he conceded that they might be periods, not twenty-four hours, and that he had not studied the matter, and the crowd, which had been his, laughed. The judge struck the testimony from the record the next morning. Scopes was convicted and fined a hundred dollars. Bryan stayed in Dayton to prepare the closing speech he had not been allowed to give; on Sunday 26 July he lay down for a nap after lunch and did not wake. The movement lost, that week, its public face, and drew from the loss the lesson that it would build its own institutions rather than argue in public.",
+     "caveat": "The trial transcript is published and the exchange on the lawn is in it; the crowd's reactions are from contemporary press. The commonly repeated notion that Bryan was destroyed on the stand is a later dramatization, and the page follows the record, in which he was inconsistent, not humiliated, until he had gone home.",
+     "sources": [
+      {
+       "work": "The World's Most Famous Court Trial: Tennessee Evolution Case (National Book Company, 1925), the stenographic transcript",
+       "type": "primary",
+       "note": "The transcript, including Bryan's testimony of 20 July; the linked site reproduces the day-seven examination."
+      },
+      {
+       "work": "Edward J. Larson, Summer for the Gods: The Scopes Trial and America's Continuing Debate over Science and Religion (Basic Books, 1997)",
+       "type": "reference",
+       "note": "The standard history, which corrects the dramatizations."
+      },
+      {
+       "work": "George M. Marsden, Fundamentalism and American Culture (Oxford University Press, 1980; 3rd ed. 2022)",
+       "type": "reference",
+       "note": "The trial's effect on the movement."
+      },
+      {
+       "work": "H. L. Mencken, dispatches from Dayton, Baltimore Evening Sun, July 1925",
+       "type": "primary",
+       "note": "The hostile eyewitness whose account shaped the later memory; positioned."
+      }
+     ]
+    },
+    {
+     "title": "The Active Obedience of Christ",
+     "when": "1933 – 1 January 1937",
+     "tier": "1",
+     "verification": "from reference summaries; primary text not yet read",
+     "teaser": "A Princeton scholar founds an independent mission board, is tried by his presbytery for it, is suspended from the ministry, founds a new church, and dies of pneumonia in North Dakota six months later, sending a last telegram about a doctrine.",
+     "text": "J. Gresham Machen had left Princeton Seminary in 1929, when its board was reorganized to end conservative control, and founded Westminster Seminary in Philadelphia. In 1932 a lay commission's report, Re-Thinking Missions, questioned whether the Presbyterian mission enterprise should aim at conversion at all, and the novelist Pearl Buck said publicly that it should not. Machen concluded that the church's board could not be trusted with the gospel, and in June 1933 organized an Independent Board for Presbyterian Foreign Missions. The General Assembly of 1934 ordered all members to resign from it within ninety days. Machen refused, on the ground that no church court could order him to support a board he believed unfaithful. He was tried by the Presbytery of New Brunswick in early 1935; the court refused to hear his argument about the board's doctrine and found him guilty of disobedience and of disturbing the peace of the church, and suspended him from the ministry. The Assembly of 1936 upheld the sentence. On 11 June 1936 Machen and some thirty ministers constituted a new body, the Presbyterian Church of America, renamed the Orthodox Presbyterian Church in 1939 after a lawsuit over the name. That December, exhausted, he kept a speaking engagement in North Dakota against advice, caught pneumonia in the cold, and died in Bismarck on 1 January 1937, aged fifty-five. His last message, dictated to be telegraphed to his colleague John Murray, was: 'I'm so thankful for active obedience of Christ. No hope without it.'",
+     "caveat": "The trial record and the Assembly's acts are published; the telegram is recorded by Machen's biographer and colleague. Historians of the movement note that the new church divided within the year over other questions, and that Machen's own relationship to the word fundamentalist was uneasy; the page does not smooth either.",
+     "sources": [
+      {
+       "work": "Ned B. Stonehouse, J. Gresham Machen: A Biographical Memoir (Eerdmans, 1954)",
+       "type": "reference",
+       "note": "The colleague's biography, recording the trial and the telegram."
+      },
+      {
+       "work": "D. G. Hart, Defending the Faith: J. Gresham Machen and the Crisis of Conservative Protestantism in Modern America (Johns Hopkins University Press, 1994)",
+       "type": "reference",
+       "note": "The standard modern study."
+      },
+      {
+       "work": "Minutes of the General Assembly of the Presbyterian Church in the U.S.A., 1934–36; the record of Machen's trial before the Presbytery of New Brunswick (1935)",
+       "type": "primary",
+       "note": "The church's own record of the proceedings."
+      },
+      {
+       "work": "J. Gresham Machen, Christianity and Liberalism (Macmillan, 1923)",
+       "type": "primary",
+       "note": "The book that stated his case a decade earlier."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "the-mainline-century-liberal-and-neo-orthodox",
+   "name": "The Mainline Century — Liberal Protestantism & Neo-Orthodoxy",
+   "era": 10,
+   "dates": "c. 1900-1990",
+   "kind": null,
+   "sources": [
+    {
+     "work": "Harry Emerson Fosdick, 'Shall the Fundamentalists Win?' (preached 21 May 1922); the Auburn Affirmation (released 9 January 1924)",
+     "type": "primary",
+     "note": "The Auburn Affirmation had about 150 initial signers and roughly 1,300 eventually. These are the rupture's texts from the liberal side."
+    },
+    {
+     "work": "Karl Barth, Der Römerbrief (1919; 2nd ed. 1922)",
+     "type": "primary",
+     "note": "The neo-orthodox turn's opening text — a break with liberalism made from inside it."
+    },
+    {
+     "work": "Rudolf Bultmann, 'New Testament and Mythology' (1941); Reinhold Niebuhr, Moral Man and Immoral Society (1932) and The Nature and Destiny of Man (1941–43); Paul Tillich, Systematic Theology (1951–63)",
+     "type": "primary",
+     "note": "Bultmann's date is 1941; the Niebuhr and Tillich dates come from standard reference works."
+    },
+    {
+     "work": "The historical-critical reach-back: Adolf von Harnack, What Is Christianity? (1900); the Briggs heresy trial record (1891–93)",
+     "type": "primary",
+     "note": "This traces the deeper background to this century's main story; dates come from standard reference works."
+    },
+    {
+     "work": "Federal Council of Churches records (from 1908) and National Council of Churches records (from 1950); denominational archives",
+     "type": "primary",
+     "note": "This is the institutional half of this story, kept alongside the academic half deliberately, since the seminaries were the denominations' own teaching offices."
+    },
+    {
+     "work": "Gary Dorrien, The Making of American Liberal Theology (Westminster John Knox, 3 vols., 2001, 2003, 2006)",
+     "type": "secondary",
+     "note": "The standard history of this tradition."
+    },
+    {
+     "work": "Bradley J. Longfield, The Presbyterian Controversy (Oxford, 1991)",
+     "type": "secondary",
+     "note": "This studies the institutional rupture from both sides."
+    }
+   ],
+   "documentedStories": [
+    {
+     "title": "Shall the Fundamentalists Win?",
+     "when": "21 May 1922 – 1 March 1925",
+     "tier": "1",
+     "verification": "from reference summaries; primary text not yet read",
+     "teaser": "A Baptist preaching in a Presbyterian pulpit asks whether the fundamentalists will win. A publicist mails the sermon to every minister in the country, two General Assemblies try to make him conform, and he leaves rather than become a Presbyterian to stay.",
+     "text": "Harry Emerson Fosdick was a Baptist, a professor at Union Theological Seminary, and since 1918 the regular preacher at First Presbyterian Church in New York, an arrangement the congregation had made and the presbytery tolerated. On 21 May 1922 he preached a sermon he called 'Shall the Fundamentalists Win?', pleading for tolerance of ministers who did not hold the virgin birth, the inerrancy of scripture or a literal second coming as tests of fellowship, and saying that a church which drove them out would lose the coming generation. The congregation's publicist, Ivy Lee retitled it and mailed it to some 130,000 Protestant ministers. Clarence Macartney of Philadelphia answered with 'Shall Unbelief Win?', and the 1923 General Assembly, meeting in Indianapolis, directed the Presbytery of New York to see that the preaching at First Church conformed to the Westminster Confession, reaffirming five doctrines as essential. The presbytery exonerated Fosdick; a complaint went up again. The 1924 Assembly, at Grand Rapids, chose not to try him but to invite him to become a Presbyterian and so come under its discipline. He declined: he would not, he said, subscribe to a creed as a condition of preaching, and he resigned the pulpit, preaching his last sermon there on 1 March 1925 to a church filled beyond the doors. John D. Rockefeller Jr., a member of the congregation, then built him a church of his own on Riverside Drive, opened in 1930, where he preached until 1946 without a creed in the door.",
+     "caveat": "The sermon text is published, the Assembly minutes record the votes, and Fosdick's own autobiography gives his side; Macartney's reply and the conservative accounts give the other. The page does not decide who won.",
+     "sources": [
+      {
+       "work": "Harry Emerson Fosdick, 'Shall the Fundamentalists Win?' (sermon, 21 May 1922)",
+       "type": "primary",
+       "note": "The sermon text."
+      },
+      {
+       "work": "Harry Emerson Fosdick, The Living of These Days: An Autobiography (Harper, 1956)",
+       "type": "primary",
+       "note": "His own account of the three years."
+      },
+      {
+       "work": "Minutes of the General Assembly of the Presbyterian Church in the U.S.A., 1923 and 1924",
+       "type": "primary",
+       "note": "The Assembly's actions."
+      },
+      {
+       "work": "Bradley J. Longfield, The Presbyterian Controversy: Fundamentalists, Modernists, and Moderates (Oxford University Press, 1991)",
+       "type": "reference",
+       "note": "The standard account of both sides."
+      }
+     ]
+    },
+    {
+     "title": "The Inaugural That Went to Trial",
+     "when": "20 January 1891 – June 1893",
+     "tier": "1",
+     "verification": "from reference summaries; primary text not yet read",
+     "teaser": "A professor of biblical theology uses his inaugural lecture to say that the Bible has errors, that Moses did not write the Pentateuch, and that the church has made an idol of the book. The General Assembly vetoes his chair, tries him twice, and suspends him; his seminary walks out of the denomination.",
+     "text": "Charles Augustus Briggs had taught Hebrew at Union Theological Seminary in New York since 1874 and was among the first American scholars to adopt the German historical criticism of the Old Testament. On 20 January 1891, inaugurated to a new chair of biblical theology, he delivered an address on 'The Authority of Holy Scripture' in which he said that the Bible contained errors, that Moses had not written the Pentateuch nor Isaiah the whole of Isaiah, that the church had turned the Bible into an idol as it had once turned the church and reason into idols, and that God speaks through reason and the church as well as through scripture. He said it with some heat. The Presbyterian General Assembly, which held a veto over Union's appointments under an agreement of 1870, refused to confirm him that May. The Presbytery of New York tried him for heresy and acquitted him in 1892; the prosecuting committee appealed, and in 1893 the Assembly at Washington, sitting as the church's highest court, found him guilty of teaching doctrines contrary to the Westminster standards and suspended him from the ministry. Union's directors had already voted to sever the seminary's relationship with the Assembly rather than surrender its chair, and did so in 1892; Briggs kept teaching there until his death in 1913. He was ordained an Episcopal priest in 1899. The conservative party had won the case and lost the seminary, which is roughly the shape the next century took.",
+     "caveat": "The address is published, the trials are recorded in the Assembly's minutes and in the published trial proceedings, and the seminary's severance is in its own records. This story precedes the entry's window and is included because it is the background to the century's argument.",
+     "sources": [
+      {
+       "work": "Charles A. Briggs, The Authority of Holy Scripture: An Inaugural Address (Scribner, 1891)",
+       "type": "primary",
+       "note": "The address."
+      },
+      {
+       "work": "The Case against Professor Briggs, 3 parts (Scribner, 1892–93): the trial proceedings",
+       "type": "primary",
+       "note": "The published record of the presbytery and Assembly trials."
+      },
+      {
+       "work": "Bradley J. Longfield, The Presbyterian Controversy (Oxford University Press, 1991)",
+       "type": "reference",
+       "note": "The case as the opening of the century's argument."
+      },
+      {
+       "work": "Robert T. Handy, A History of Union Theological Seminary in New York (Columbia University Press, 1987)",
+       "type": "reference",
+       "note": "The seminary's severance and Briggs's later years."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "new-calvinism-young-restless-reformed",
+   "name": "New Calvinism (Young, Restless, Reformed)",
+   "era": 10,
+   "dates": "c. 1998-c. 2010",
+   "kind": null,
+   "documentedStories": [
+    {
+     "title": "The Sunday After",
+     "when": "16 September 2001; 2005–2007",
+     "tier": "1",
+     "verification": "from reference summaries; primary text not yet read",
+     "teaser": "Five days after the towers fall, a Presbyterian congregation in Manhattan finds twice its usual number at the door, and its pastor preaches on the shortest verse in the Bible. Six years later he co-founds the coalition that gives the movement its confession.",
+     "text": "Tim Keller had planted Redeemer Presbyterian Church in Manhattan in 1989, against the advice of people who told him that young professionals in New York would not come to a church with a Westminster confession; by 2001 some three thousand did each Sunday, meeting in rented auditoriums. On Sunday 16 September 2001, five days after the attacks, the congregation's numbers roughly doubled, with people standing along the walls of the Hunter College auditorium and a second overflow site. Keller preached on John 11, the raising of Lazarus, and on the two words 'Jesus wept'; his sermon, later published as 'Truth, Tears, Anger and Grace', said that Jesus did not explain Lazarus's death to Mary but wept with her, that anger at death was right because death was an enemy, and that grace was the only thing that would keep grief from turning to hate. The church spent the following months in the work of a parish in a wounded city, and much of the crowd stayed. In 2005 Keller and D. A. Carson gathered some forty pastors at Trinity Evangelical Divinity School to consider what a coalition around the gospel might be; in May 2007 The Gospel Coalition launched publicly with a Confessional Statement and a Theological Vision for Ministry that Keller had largely drafted, the New Calvinism's nearest thing to a common confession.",
+     "caveat": "The sermon is published, the attendance is the church's account and contemporary reporting, and the coalition's founding documents are its own. He was a public figure, and the page does not assess his theology.",
+     "sources": [
+      {
+       "work": "Timothy Keller, 'Truth, Tears, Anger and Grace' (sermon, Redeemer Presbyterian Church, 16 September 2001)",
+       "type": "primary",
+       "note": "The sermon, published by the church."
+      },
+      {
+       "work": "The Gospel Coalition, Confessional Statement and Theological Vision for Ministry (2007)",
+       "type": "primary",
+       "note": "The founding documents."
+      },
+      {
+       "work": "Collin Hansen, Timothy Keller: His Spiritual and Intellectual Formation (Zondervan, 2023)",
+       "type": "reference",
+       "note": "The authorized biography, by a colleague; positioned."
+      },
+      {
+       "work": "Collin Hansen, 'Young, Restless, Reformed', Christianity Today (September 2006)",
+       "type": "reference",
+       "note": "The article that named the movement."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "the-ecumenical-movement-and-the-wcc",
+   "name": "The Ecumenical Movement & the World Council of Churches",
+   "era": 10,
+   "dates": "1921-c. 2010",
+   "kind": null,
+   "documentedStories": [
+    {
+     "title": "Lausanne, 1927",
+     "when": "3–21 August 1927",
+     "tier": "1",
+     "verification": "from reference summaries; primary text not yet read",
+     "teaser": "Seventeen years after he conceived it at Edinburgh, an American missionary bishop opens the first world conference on the doctrines that divide the churches. Four hundred delegates from a hundred and eight churches argue for three weeks, and the Orthodox read a statement declining to vote.",
+     "text": "Charles Brent, an Episcopal missionary bishop in the Philippines, had sat in the World Missionary Conference at Edinburgh in 1910, from which doctrine had been excluded to keep the peace, and had come away convinced that the churches would have to talk about exactly what divided them or not be one at all. His church took up the proposal that autumn. The war intervened. On 3 August 1927 the first World Conference on Faith and Order opened in Lausanne with Brent presiding, some four hundred delegates from a hundred and eight churches, Protestant, Anglican, Old Catholic and Orthodox; Rome had declined. For three weeks the sections debated the gospel, the nature of the church, its common confession, its ministry and its sacraments, and produced reports that set agreements and disagreements side by side. On 18 August Archbishop Germanos of Thyateira read a statement for the Orthodox delegation: they had taken part gladly, they could accept the report on the gospel, and on the rest they would not vote, because the Orthodox church could not treat as open questions matters its councils had settled, and because a reunion built on compromise formulae would be no reunion. The conference received the statement without offense and printed it in full. That set the movement's method: to say plainly where the churches stood and to keep meeting. Brent died in 1929. The continuation committee he left became, twenty-one years later, half of the World Council of Churches.",
+     "caveat": "The proceedings are published, including the Orthodox statement; the account follows them and the standard history of the movement. The page does not assess the theology of any report.",
+     "sources": [
+      {
+       "work": "H. N. Bate (ed.), Faith and Order: Proceedings of the World Conference, Lausanne, August 3–21, 1927 (SCM, 1927)",
+       "type": "primary",
+       "note": "The conference's own record, with the Orthodox statement."
+      },
+      {
+       "work": "Ruth Rouse and Stephen Charles Neill (eds.), A History of the Ecumenical Movement, 1517–1948 (SPCK, 1954)",
+       "type": "reference",
+       "note": "The standard history, treating Brent and Lausanne."
+      },
+      {
+       "work": "Alexander C. Zabriskie, Bishop Brent: Crusader for Christian Unity (Westminster, 1948)",
+       "type": "reference",
+       "note": "The biography."
+      },
+      {
+       "work": "World Council of Churches archives, Faith and Order papers (Geneva)",
+       "type": "primary",
+       "note": "The continuation committee's record; access limited."
+      }
+     ]
+    },
+    {
+     "title": "The Special Fund",
+     "when": "September 1970 – 1981",
+     "tier": "1",
+     "verification": "from reference summaries; primary text not yet read",
+     "teaser": "The World Council of Churches announces grants to nineteen organizations fighting racism, among them armed liberation movements in southern Africa. Eight years later a grant to a guerrilla army follows the killing of thirteen missionaries and children by that army's fighters, and churches begin to leave.",
+     "text": "The Uppsala assembly of 1968, meeting weeks after the murder of Martin Luther King, who was to have preached to it, resolved that the churches must move from statements against racism to action. The Programme to Combat Racism was set up in 1969, and on 3 September 1970 its Special Fund announced its first grants: $200,000 to nineteen organizations, among them the African National Congress, ZANU and ZAPU in Rhodesia and SWAPO in Namibia, all engaged in armed struggle against white-minority or colonial rule. The grants were for humanitarian purposes, health, education and refugees, and were made without conditions; the council said the movements were the authentic voice of the oppressed and that it would not police money given in trust. Governments in Pretoria and Salisbury denounced it; so did member churches in Germany, Britain and America. In June 1978, at the Elim Pentecostal mission at Vumba in eastern Rhodesia, guerrillas of ZANLA, the armed wing of ZANU, killed eight British missionaries and four of their children; a ninth adult died of her wounds six days later. In August the Special Fund announced a grant of $85,000 to the Patriotic Front, the alliance of ZANU and ZAPU. The Salvation Army suspended its membership in the council that month and withdrew in 1981; the Presbyterian Church in Ireland withdrew in 1980; others reduced their contributions. The council did not rescind the grant. The program continued until 1994, when the movements it had funded were in government across the region, and both parties went on writing its history.",
+     "caveat": "The grants, the killings and the withdrawals are documented in the council's own records, the withdrawing churches' published decisions and the contemporary press; the council's reasoning and its critics' are both stated. The page does not decide whether the grants were right.",
+     "sources": [
+      {
+       "work": "World Council of Churches, Programme to Combat Racism, Special Fund grant announcements (3 September 1970; August 1978) and PCR documentation, 1969–94",
+       "type": "primary",
+       "note": "The council's own record of the grants and its defense of them."
+      },
+      {
+       "work": "The Salvation Army, statement suspending membership in the World Council of Churches (August 1978) and withdrawal (1981); Presbyterian Church in Ireland, General Assembly decision (1980)",
+       "type": "primary",
+       "note": "The withdrawing churches' own decisions."
+      },
+      {
+       "work": "Baldwin Sjollema, Never Bow to Racism: A Personal Account of the Ecumenical Struggle (WCC, 2015)",
+       "type": "reference",
+       "note": "The program's first director's own account, written from inside the movement he helped lead."
+      },
+      {
+       "work": "Contemporary reporting of the Elim (Vumba) killings, June 1978 (The Times; Rhodesia Herald)",
+       "type": "reference",
+       "note": "The event that preceded the 1978 grant."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "korean-protestantism-twentieth-century",
+   "name": "Korean Protestantism in the Twentieth Century",
+   "era": 10,
+   "dates": "1907-c. 2010",
+   "kind": null,
+   "legacy": "In the 1960s and 1970s most of the divided Presbyterian churches adopted the Westminster Confession. They also kept the Twelve Articles in their constitutions."
+  },
+  {
+   "id": "mennonites-and-amish-after-1650",
+   "name": "The Mennonites and the Amish",
+   "era": 8,
+   "dates": "1650-1890",
+   "kind": null,
+   "sourcing": "Thin for this period. The shelf holds later printings of older texts. The Martyrs Mirror of 1660 is here in an English edition of 1886. The Ausbund hymnal is here in Pennsylvania printings of 1846 and 1856. The Dordrecht Confession of 1632 is here in an Indiana manual of 1890. Their prefaces speak for the later church. From the 1700s, only the Ephrata chronicle tells of them, and it speaks from outside.",
+   "floorNote": "No question. Their Dordrecht Confession says that the Word became \"flesh and man\", born of the Virgin Mary.",
+   "why": "After 1650 the heirs of the Anabaptists became settled churches. In 1660 Thieleman van Braght of Dordrecht gathered their martyrs into one great book, the Martyrs Mirror. He longed to be like \"my slain fellow brethren and sisters\". The book crossed the sea with his people. In Pennsylvania the Ephrata Brethren printed it in German, and in 1886 an English edition came out.",
+   "longDescription": "After 1650 the heirs of the Swiss and Dutch Anabaptists lived on as settled churches. Many were called Mennonites, after Menno Simons. Their Dordrecht Confession of 1632 stayed their rule of faith. In 1660 Thieleman van Braght of Dordrecht published the Martyrs Mirror. It told of those \"Who Baptized Only Upon Confession of Faith\". In a prayer dated at Dort in 1659, he asked to be like \"my slain fellow brethren and sisters\".\n\nIn Pennsylvania the Mennonites wanted their great martyr book in German, not Dutch. The Ephrata community in Lancaster County did the work. Fifteen of its brothers were set to it, and the job took three years. The edition ran to 1300 copies.\n\nThe old hymn book of the Swiss Brethren, the Ausbund, was printed again and again in Pennsylvania. Its songs, the title says, were written in the prison at Passau. A Lancaster printing of 1856 calls itself the seventh in Pennsylvania. In 1886 Mennonite publishers brought out the Martyrs Mirror in English. English was spreading \"year by year\" among \"our Mennonite people\", its preface says.\n\nIn 1890 a manual from Elkhart set out the church's forms. A minister was chosen by lot. A slip with a verse from Proverbs went into one of several like books. The man whose book held it was ordained. Some congregations, \"especially among the Amish and Russian Mennonites\", chose by the members' vote instead.\n\nThe Mennonites also had a Russian chapter. Gerhard Wiebe, an elder of Bergthal, told it in 1900. A call came from Russia, he writes, and the first families left Prussia in 1788 or 1789. By 1790 eight villages had been settled. In the Molotschna colony thirty-nine villages were settled between 1804 and 1824. In the early 1870s the Mennonites read in the newspapers that they would be drafted. They sent men to St Petersburg. Many then left for America. Wiebe says his last brethren came from Russia in 1876.\n\nThe Hutterites, a church of their own, have a Russian chapter too. Josef Beck, who edited their chronicles, wrote in 1883 that single families who would not give up their fathers' faith went to Wischenka in Russia. In 1784, he says, part of the new converts fled to join them. The emigrants later moved on from Little Russia. Beck's preface says they went to the Crimea. His own note places their colony, Hutersthal, near the Sea of Azov, in the province of Taurida. In 1855, he says, the community stood under a grandson of the last bishop.\n\nThe two churches had been in touch before, by letter. In 1749 a Mennonite preacher, Franz Simon Sporer, wrote to the Brethren at Levar in Hungary. In 1757 another, Peter Weber, wrote to Zacharias Walter. He offered to send Menno's books.",
+   "voices": [
+    "Thieleman J. van Braght — compiler of the Martyrs Mirror (1660), whose prefaces and prayer are dated at Dort in 1659",
+    "The publishers of the English edition of 1886 — Mennonites who called the martyrs \"especially precious to us\""
+   ],
+   "people": [
+    {
+     "name": "Thieleman J. van Braght",
+     "year": 1659,
+     "voice": 0,
+     "source": {
+      "work": "Thieleman J. van Braght, prayer prefixed to the Martyrs Mirror, dated Dort 23 July 1659 (English of 1886)",
+      "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+      "lines": "564-566",
+      "quote": "so that I may become like unto Thy dearest friends, my slain fellow brethren and sisters,"
+     }
+    }
+   ]
+  },
+  {
+   "id": "hugo-grotius",
+   "name": "Hugo Grotius",
+   "era": 7,
+   "dates": "1617-1645",
+   "kind": "person",
+   "toldWithin": "the-remonstrants-and-dort",
+   "relationsSummary": "Told within the Remonstrants and Dort. He sided with them but did not found that tradition, which began with the Remonstrance of 1610. English writers after 1660 name him; his legacy below says how.",
+   "longDescription": "Grotius was a jurist on the Remonstrant side. In 1617 he published at Leiden a treatise on theology.\n\nIt answers Faustus Socinus, who denied that Christ's death satisfied divine justice. The treatise opens by promising to state first the doctrine which the church of Christ has defended 'with unshaken faith', as drawn from Scripture. It then sets that doctrine beside the view of Socinus. The Library holds it only in Foster's English.\n\nDort condemned the Remonstrants. Foster, who put the book into English, says Grotius shared the ban laid on his fellow Arminians. He adds that the English Arminians gave Grotius a kinder reception.",
+   "card": {
+    "knownFor": "Dutch jurist on the Remonstrant side who defended Christ's death as a satisfaction in his 1617 answer to Socinus.",
+    "role": "Jurist and writer",
+    "keyWorks": [
+     {
+      "title": "Defence of the Catholic Faith concerning the Satisfaction of Christ",
+      "about": "answers Socinus in ten chapters, first printed at Leiden in 1617"
+     },
+     {
+      "title": "On the Law of War and Peace",
+      "about": "his work on international law"
+     },
+     {
+      "title": "On the Truth of the Christian Religion",
+      "about": "his defense of the faith, which English readers prized"
+     }
+    ],
+    "legacy": {
+     "traces": [
+      "Reformed writers who opposed him still borrowed from him. Heidegger took the idea of God as ruler of the universe to answer Socinus, and Turretin used the same phrase, though each meant something other than Grotius did.",
+      "The Dutch Arminians went another way. Episcopius, Curcellaeus and Limborch said God could forgive without any satisfaction, and put the need for the cross in God's will, not in a ruler's duty.",
+      "In England, Archbishop Tillotson stood first among the Arminians who largely took up his theory. In New England, Jonathan Edwards, then a pastor at New Haven, may have read him, since Grotius's example of Zaleucus turns up in Edwards's third sermon on the atonement, and Samuel Hopkins took up the governmental idea completely."
+     ],
+     "remembered": [
+      "In 1692 Bishop Burnet wrote that Grotius's book on the truth of the Christian religion, with its notes, ought to be read and almost learned by heart.",
+      "Richard Baxter wrote against him in The Grotian Religion Discovered, in answer to Thomas Pierce, whose chief aim was to defend Grotius.",
+      "In Holland, once the Arminians were condemned at Dort, he shared the ban laid on them, and even as a commentator he was often met with prejudice and hostility."
+     ]
+    },
+    "uncertain": [
+     "Why Grotius was condemned is not clear. Mosheim, who tells of the sentence, says the pretext and the charges are unknown to him. Hoogerbeets, the pensionary of Leyden, was imprisoned with him.",
+     "Grotius himself never calls his view the governmental theory. The name came later, and he speaks instead of God acting as ruler."
+    ],
+    "sources": {
+     "ownWords": [
+      {
+       "title": "A Defence of the Catholic Faith concerning the Satisfaction of Christ, against Faustus Socinus (Grotius, Leiden 1617; Foster's English, 1889)",
+       "file": "cic/texts/grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889.txt",
+       "language": "English"
+      }
+     ],
+     "about": [
+      {
+       "title": "Historical Introduction to the Defence of the Catholic Faith",
+       "author": "Frank Hugh Foster",
+       "date": "1889",
+       "language": "English",
+       "file": "cic/texts/grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889.txt"
+      },
+      {
+       "title": "Memoirs of Simon Episcopius",
+       "author": "Calder",
+       "date": "1838",
+       "language": "English",
+       "file": "cic/texts/calder_memoirs-of-simon-episcopius_1838.txt"
+      },
+      {
+       "title": "Articles of the Synod of Dort, with the history of events",
+       "author": "Scott (quoting Mosheim)",
+       "date": "1831",
+       "language": "English",
+       "file": "cic/texts/synod-of-dort_articles-with-history-of-events_scott1831.txt"
+      },
+      {
+       "title": "Discourse of the Pastoral Care",
+       "author": "Gilbert Burnet",
+       "date": "1692",
+       "language": "English",
+       "file": "cic/texts/burnet_discourse-of-the-pastoral-care_1692.txt"
+      },
+      {
+       "title": "Reliquiae Baxterianae",
+       "author": "Richard Baxter",
+       "date": "1696",
+       "language": "English",
+       "file": "cic/texts/baxter_reliquiae-baxterianae_sylvester1696.txt"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "the-dutch-reformed-church-at-the-cape",
+   "name": "The Dutch Reformed Church at the Cape",
+   "era": 8,
+   "dates": "1652-1906",
+   "kind": null,
+   "floorNote": "No question. McCarter lists its standards as the Heidelberg Catechism, the Belgic Confession and the Canons of Dort.",
+   "relationsSummary": "Its standards came from the Netherlands, among them the Canons of Dort. It began as the Company's church at Table Bay. The Trek of the 1830s took many of its people inland, and new churches grew beyond the colony."
+  }
+ ],
+ "edges": [
+  {
+   "id": "kievan-rus-christianity--kievan-rus-christianity-1054-1240",
+   "from": "kievan-rus-christianity",
+   "to": "kievan-rus-christianity-1054-1240",
+   "type": "continued as",
+   "confidence": "Inferential-Thin",
+   "note": "Before he became head of the church in Kyiv in 1051, the priest Ilarion dug a cave above the Dnieper. Mouravieff, a Russian church historian writing in 1838, calls that cave the seed of the Caves Monastery and of every religious house in Russia. Herberstein retold the Rus' annals in 1549. He says Russia has kept the faith of Christ since Vladimir's baptism. The claim of one unbroken church rests on these two later accounts.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838), trans. R. W. Blackmore (Oxford, 1842); vendored at cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt: Hilarion, priest at Berestoff, 'dug himself out a dark cave or Pesch, the germ of the future Lavra, and of all the religious houses of Russia'; Anthony later settled 'in the deserted cave of Hilarion'; Hilarion chosen metropolitan, margin date 1051",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "1540-1542",
+     "quote": "The Metropolitan Hilarion when he was as yet only priest of the Church of the holy Apostles in Berestoff,",
+     "locus": "ch. II, file lines 1497-1498, 1541-1566"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838), trans. R. W. Blackmore (Oxford, 1842); vendored at cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt: Hilarion, priest at Berestoff, 'dug himself out a dark cave or Pesch, the germ of the future Lavra, and of all the religious houses of Russia'; Anthony later settled 'in the deserted cave of Hilarion'; Hilarion chosen metropolitan, margin date 1051",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "1552",
+     "quote": "the future Lavra, and of all the religious houses of Russia.",
+     "locus": "ch. II, file lines 1497-1498, 1541-1566"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Sigmund von Herberstein, Notes upon Russia (Rerum Moscoviticarum Commentarii, 1549), trans. R. H. Major (1851), vol. I: a sixteenth-century retelling of the Rus' annals, used here as a later account, not as a primary: Vladimir's baptism, 'since which time Russia has continued in the faith of Christ' (the same sentence dates the baptism 6469 (961))",
+     "file": "cic/texts/herberstein_notes-upon-russia-v1_major1851.txt",
+     "lines": "8286-8288",
+     "quote": "These events took place in the year of the world 6469 (961), since which time Russia has continued in the faith of Christ.",
+     "locus": "vendored: cic/texts/herberstein_notes-upon-russia-v1_major1851.txt lines 8282-8288"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "st-thomas-christians-1300-1517--st-thomas-christians-under-portuguese-pressure-d",
+   "from": "st-thomas-christians-1300-1517",
+   "to": "st-thomas-christians-under-portuguese-pressure-d",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "In 1504 bishops sent by the patriarch wrote from Malabar about its Christians, their towns and their churches. In 1599 the archbishop who called the Synod of Diamper wrote that the pope had told him to bar any bishop coming from Babylon. That, he said, had been the custom until then.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of the bishops of India (1490-1504), with their letter of 1504 to the patriarch, trans. A. Mingana (1926) from the Syriac printed in Assemani, Bibl. Orient. III.1",
+     "file": "cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt",
+     "lines": "1921-1926",
+     "locus": "Mingana 1926, p. 39, the letter of 1504",
+     "quote": "our country in which the Christians are found is called Malabar.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Acts and Decrees of the Synod of Diamper (1599), the archbishop's summons, in Michael Geddes's English (1694)",
+     "file": "cic/texts/geddes_history-of-the-church-of-malabar-synod-of-diamper_1694.txt",
+     "lines": "8826-8830",
+     "locus": "Synod of Diamper, the publication and calling of the synod",
+     "quote": "he commanded us upon the death of the Archbifbop Mar- Abraham, to take Poffeffion ofthis Church and Bi- froprick, fo as not to fuffer any Bifbop or Prelate coming from Babylon, to exter thereiz, as has been — hitherto the Cuftom,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "the-reformed-cities-zurich-and-geneva--the-scottish-reformation-and-kirk",
+   "from": "the-reformed-cities-zurich-and-geneva",
+   "to": "the-scottish-reformation-and-kirk",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "John Knox studied in Geneva and went to preach to the English exiles at Frankfurt at John Calvin's command. He then went back to Geneva, and from there, by way of Dieppe, to Scotland.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Knox, The History of the Reformation in Scotland, Book I, in The Works of John Knox, vol. 1, ed. David Laing",
+     "file": "cic/texts/knox_works-v1_laing1895.txt",
+     "lines": "6571-6575",
+     "locus": "Knox, History of the Reformation, Book I",
+     "quote": "When he left England, then he passed to Geneva, and thare remaned at his privat study,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Knox, The History of the Reformation in Scotland, Book I, in The Works of John Knox, vol. 1, ed. David Laing",
+     "file": "cic/texts/knox_works-v1_laing1895.txt",
+     "lines": "6574-6575",
+     "locus": "Knox, History of the Reformation, Book I",
+     "quote": "at the commandiment of that notable servand of God, JOHNE CALVYNE.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Knox, The History of the Reformation in Scotland, Book I, in The Works of John Knox, vol. 1, ed. David Laing",
+     "file": "cic/texts/knox_works-v1_laing1895.txt",
+     "lines": "6588",
+     "locus": "Knox, History of the Reformation, Book I",
+     "quote": "returned to Geneva, from thense to Deape, and thairafter to Scotland,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Acts of the General Assembly of the Church of Scotland, in The Booke of the Universall Kirk of Scotland, 1560-1602, ed. Alexander Peterkin (1839)",
+     "file": "cic/texts/kirk-of-scotland_booke-of-the-universall-kirk-1560-1602_peterkin1839.txt",
+     "lines": "1201-1211",
+     "locus": "General Assembly, Session Fifth, December 1562",
+     "quote": "It is concluded, That ane uniforme order sail be taken or keeped in ministration of the Sacraments, and solemnization of Mariages and Buriall of the Dead, according to the Kirk of Geneva.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "G. W. Sprott and Thomas Leishman (eds.), The Book of Common Order of the Church of Scotland ... and the Directory (1868), introduction",
+     "file": "cic/texts/kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868.txt",
+     "lines": "604-606",
+     "locus": "Introduction",
+     "quote": "The Book of Geneva thus remodelled is known as Knox's Liturgy, or ' Book of Common Order,' and it embodied the law of the Church as to worship from 1564 till 1645."
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "concerns": "john-calvin"
+  },
+  {
+   "id": "the-reformed-cities-zurich-and-geneva--the-remonstrants-and-dort",
+   "from": "the-reformed-cities-zurich-and-geneva",
+   "to": "the-remonstrants-and-dort",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "In 1618 the Dutch government asked Zurich, Bern, Basel, Schaffhausen and Geneva to send men to the Synod of Dort. Geneva sent two, John Diodati and Theodore Tronchin, and the Swiss sent five. Speaking for Geneva, Diodati said the Remonstrants should go.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The Articles of the Synod of Dort, with the History of Events published by the authority of the States-General, trans. Thomas Scott (1831)",
+     "file": "cic/texts/synod-of-dort_articles-with-history-of-events_scott1831.txt",
+     "lines": "4458-4463",
+     "locus": "Synod's preface, History of Preceding Events",
+     "quote": "to the four reformed republics of Helvetia, (Switzerland,) the Tigurine, Bernessian, Basilian, and Schaphusian ; to the Illustrious and generous the counts of Correspondentia and Wedevarica ; to the republics of Geneva, Bremen, and Emden, in which they requested, that they would deign to send from them to this Synod",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Hales, Letters from the Synod of Dort to Sir Dudley Carleton (1618-19; printed 1765)",
+     "file": "cic/texts/hales_letters-from-the-synod-of-dort_1765.txt",
+     "lines": "360-362",
+     "locus": "letter from Dort, November 1618",
+     "quote": "Those of Geneva told us, that in the churches in their cities they had every Sunday four sermons",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Gerard Brandt, The History of the Reformation in and about the Low-Countries, vol. III (English, 1722)",
+     "file": "cic/texts/brandt_history-of-the-reformation-in-the-low-countries-v3_1722.txt",
+     "lines": "2300-2302",
+     "locus": "Book XXXIII, the deputies at Dort",
+     "quote": "Those from Swisserland, John Facob Breylingerus, Mark Rut- meijerus, Sebastian Bechius, Wolfgang Maijerus, and John Conrad Cocchius. On tae behalf of the City of Geneva, were Fobn Deodatus, and Theodore Tronchin.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Gerard Brandt, The History of the Reformation in and about the Low-Countries, vol. III (English, 1722)",
+     "file": "cic/texts/brandt_history-of-the-reformation-in-the-low-countries-v3_1722.txt",
+     "lines": "13200-13203",
+     "locus": "the Remonstrants before the Synod, 1619",
+     "quote": "Deodarus faid, in the name of those of Geneva - * That the dodrines of the Remonstrants might be sufficiently learned * from the Conference at the Hague, and their books. Let them go then, said he, as * unworthy to appear any longer at the Synod",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "the-remonstrants-and-dort--the-methodist-revival",
+   "from": "the-remonstrants-and-dort",
+   "to": "the-methodist-revival",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "In July 1741 John Wesley picked up the works of Simon Episcopius by mistake and read their account of the Synod of Dort. 'What a scene is here disclosed!' he wrote. Later he drew up plans for a magazine he called The Arminian Magazine.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Wesley, Journal, ed. Nehemiah Curnock, vol. 2 (1909)",
+     "file": "cic/texts/wesley-j_journal-v2_curnock1909.txt",
+     "lines": "28695-28698",
+     "locus": "6 July 1741",
+     "quote": "Looking for a book in our College Library, I took down, by mistake, the works of Episcopius,2 which, opening on an account of the Synod of Dort, I believed it might be useful to read it through.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Wesley, Journal, ed. Nehemiah Curnock, vol. 2 (1909)",
+     "file": "cic/texts/wesley-j_journal-v2_curnock1909.txt",
+     "lines": "28698",
+     "locus": "6 July 1741",
+     "quote": "But what a scene is here disclosed !",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Wesley, Journal, ed. Nehemiah Curnock, vol. 6 (1909)",
+     "file": "cic/texts/wesley-j_journal-v6_curnock1909.txt",
+     "lines": "10223",
+     "locus": "August, year illegible in the OCR running head",
+     "quote": "drew up proposals for T}ie Arminian Magazine}-",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "concerns": "john-wesley"
+  },
+  {
+   "id": "anti-trinitarian-currents-servetus-polish-brethr--the-remonstrants-and-dort",
+   "from": "anti-trinitarian-currents-servetus-polish-brethr",
+   "to": "the-remonstrants-and-dort",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "After Poland expelled the Brethren in 1658, some went to Holland. There, the Unitarian historian Thomas Rees wrote in 1818, they merged into the Remonstrant and Mennonite churches and spread their views through the press. What they changed in Remonstrant thinking rests on that one late account.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Thomas Rees, Historical Introduction to The Racovian Catechism (London, 1818)",
+     "file": "cic/texts/racovian-catechism_racovian-catechism_rees1818.txt",
+     "lines": "3314-3316",
+     "locus": "Historical Introduction",
+     "quote": "became amalgamated with the Re monstrants and the Mennonites, or the Low Artni- nians and Baptists of Holland.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Thomas Rees, Historical Introduction to The Racovian Catechism (London, 1818)",
+     "file": "cic/texts/racovian-catechism_racovian-catechism_rees1818.txt",
+     "lines": "3318-3320",
+     "locus": "Historical Introduction",
+     "quote": "The asylum afforded them in the Dutch states fur nished them with favourable opportunities for the dis semination of their sentiments through the press.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "orthodoxy-under-the-ottomans-parish-millet-and-n--the-union-of-brest-and-ruthenian-greek-catholic-",
+   "from": "orthodoxy-under-the-ottomans-parish-millet-and-n",
+   "to": "the-union-of-brest-and-ruthenian-greek-catholic-",
+   "type": "broke with",
+   "confidence": "Documented",
+   "note": "At Brest on 8 October 1596 the metropolitan of Kyiv and his bishops placed themselves under Pope Clement VIII. A rival synod met in the same town. Three days later Nikephoros, who spoke for the patriarch in Constantinople, said they were cast out as traitors to the faith.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synodal charter of Metropolitan Mykhail Rahoza and the bishops at Brest, 8 October 1596, in Akty otnosiashchiesia k istorii Zapadnoi Rossii, vol. 4 (St Petersburg, 1851), no. 103",
+     "file": "cic/texts/akty-zapadnoi-rossii_t4-1588-1652-rus_1851.txt",
+     "lines": "13931-13935",
+     "locus": "no. 103",
+     "quote": "абыхмо  ся  на  сѵнодъ созвавши,  исповѣданіе  вѣры  святой  учинили и  пос  лушеиство  столицы  Римской  Петра  свя¬ того  Клименту  оемому  и  его  наслѣдникомъ отдали.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Circular charter of Nikephoros, protosyncellus and exarch of the patriarchal throne of Constantinople, Brest, 11 October 1596, in Akty Zapadnoi Rossii, vol. 4 (1851), no. 111",
+     "file": "cic/texts/akty-zapadnoi-rossii_t4-1588-1652-rus_1851.txt",
+     "lines": "15036-15037",
+     "locus": "no. 111",
+     "quote": "НикиФоръ,  великій  протосинкгелъ  иекзархъ патріаршого  Константинопольского  престола,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The same charter, no. 111",
+     "file": "cic/texts/akty-zapadnoi-rossii_t4-1588-1652-rus_1851.txt",
+     "lines": "15043-15046",
+     "locus": "no. 111",
+     "quote": "отверженію  конечному  предаете митрополита  Кіевского  Михаила  Рагозу  и  нѣ¬ которыхъ  еще  съ  нимъ  епископовъ  его,  яко  от¬ ступниковъ  и  разорителей  церкви  соборной.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "the-tridentine-church--the-union-of-brest-and-ruthenian-greek-catholic-",
+   "from": "the-tridentine-church",
+   "to": "the-union-of-brest-and-ruthenian-greek-catholic-",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "In December 1595 Pope Clement VIII met two Ruthenian bishops, Hypatius and Cyril, in Rome. His bull Magnus Dominus then took their metropolitan, bishops, clergy and people into the Roman church. It let them keep their own rites, as long as these did not clash with Catholic teaching.",
+   "outcome": "The pope's bull took the Ruthenian bishops, clergy and people into the Roman church and let them keep their own rites.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Clement VIII, bull Magnus Dominus (23 December 1595), in Michael Harasiewicz, Annales Ecclesiae Ruthenae (Lviv, 1862)",
+     "file": "cic/texts/harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt",
+     "lines": "10881-10887",
+     "locus": "Magnus Dominus",
+     "quote": "Cum igitur duo supradicti Episcopi, et Oratores Hypa- tius, et Cyrillus henigne a Nobis in conspectum, et colloquium nostrum essent admissi,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The same bull",
+     "file": "cic/texts/harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt",
+     "lines": "11176-11180",
+     "locus": "Magnus Dominus",
+     "quote": "uti membra nostra in Christo reci- pimus, unimus, adjungimus, annectimus et incorporamus, at- que ad majorem charitatis Nostrae crga ipsos siguificationein omnes sacros ritus el caeremonias ,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "the-kyiv-mohyla-orthodox-revival--the-union-of-brest-and-ruthenian-greek-catholic-",
+   "from": "the-kyiv-mohyla-orthodox-revival",
+   "to": "the-union-of-brest-and-ruthenian-greek-catholic-",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In his own notes Petro Mohyla called the union a wicked falling away from the faith. In August 1628 a synod at the Caves monastery in Kyiv sent envoys to Meletius Smotrytsky. They asked about his Apology, a book that leaned toward Rome. The envoy told him the synod held the whole book to be against the faith and wicked.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Petro Mohyla, autograph notes (tales of miracles and notable events), in Arkhiv Iugo-Zapadnoi Rossii, part 1, vol. 7 (Kyiv, 1887)",
+     "file": "cic/texts/arkhiv-iugo-zapadnoi-rossii_ch1-t7-pamiatniki-polemiki-vyshensky-mogila-rus_1887.txt",
+     "lines": "2961-2962",
+     "locus": "Mohyla's notes",
+     "quote": "егда  въ  Россіи  попущеніемъ  Божіимъ  злоче- стивое  отступство,  глаголемое ,  унія*  множитися  нача,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Jakub Susza, Saulus et Paulus Ruthenae unionis (Rome, 1666; ed. Martynov, Brussels, 1864), quoting Smotrytsky's Protestatio",
+     "file": "cic/texts/susza_saulus-et-paulus-ruthenae-unionis-lat_martynov1864.txt",
+     "lines": "3741-3752",
+     "locus": "Life of Smotrytsky, the Kyiv synod of 1628",
+     "quote": "Subdidit qusBsitor, synoduma capite ad calcem censere eam contrariam et im- piam.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The same work, a letter from Rome dated 6 April 1628",
+     "file": "cic/texts/susza_saulus-et-paulus-ruthenae-unionis-lat_martynov1864.txt",
+     "lines": "3701-3703",
+     "locus": "Life of Smotrytsky",
+     "quote": "uihil ex istis partibus Sanctitati Suae signi- « ficari potuisse gratius, quam conversionem Me- « letii.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "the-tridentine-church--st-thomas-christians-under-portuguese-pressure-d",
+   "from": "the-tridentine-church",
+   "to": "st-thomas-christians-under-portuguese-pressure-d",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 1599 the Archbishop of Goa, Aleixo de Menezes, held a synod at Diamper and bound it to the Council of Trent. Its decrees called the community's Syriac books the work of Nestorian heretics. They forbade anyone to read them and ordered them destroyed.",
+   "outcome": "The synod said many Syriac books came from Nestorian heretics. It forbade all Christians to read them and ordered them destroyed.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Acts and Decrees of the Synod of Diamper (1599), Geddes's English (1694) as reprinted by James Hough, History of Christianity in India, vol. 2 (1839), Appendix A",
+     "file": "cic/texts/hough_history-of-christianity-in-india-v2_1839.txt",
+     "lines": "30340-30343",
+     "locus": "Session II, Decree I (profession of faith according to the Council of Trent)",
+     "quote": "That  this  Synod  may  in  all  things  govern  itself  according to  the  directions  of  the  holy  canons,  and  tread  in  the  footsteps of  the  holy  general  councils,  and  particularly  of  the  holy  coun- cil of  Trent,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Acts and Decrees of the Synod of Diamper (1599), Geddes's English (1694) as reprinted by James Hough, History of Christianity in India, vol. 2 (1839), Appendix A",
+     "file": "cic/texts/hough_history-of-christianity-in-india-v2_1839.txt",
+     "lines": "31939-31940",
+     "locus": "Session III, Decree XIV, heading",
+     "quote": "CONDEMNS  MANY  SYRIAN  BOOKS,  FORBIDS  ALL  CHRISTIANS  TO READ  THEM,  AND  COMMANDS  THAT  THEY  BE  DESTROYED.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Acts and Decrees of the Synod of Diamper (1599), Geddes's English (1694) as reprinted by James Hough, History of Christianity in India, vol. 2 (1839), Appendix A",
+     "file": "cic/texts/hough_history-of-christianity-in-india-v2_1839.txt",
+     "lines": "31948-31951",
+     "locus": "Session III, Decree XIV",
+     "quote": "the  Synod  knowing  that  this  bishopric  is  full  of  books  writ in  the  Syrian  tongue  by  Nestorian  heretics,  and  persons  of other  devilish  sects,  which  abound  with  heresies,  blasphemies and  false  doctrines,  doth  command",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Acts and Decrees of the Synod of Diamper (1599), Geddes's English (1694) as reprinted by James Hough, History of Christianity in India, vol. 2 (1839), Appendix A",
+     "file": "cic/texts/hough_history-of-christianity-in-india-v2_1839.txt",
+     "lines": "32704-32708",
+     "locus": "Session III, Decree XXI",
+     "quote": "doth  embrace  the  last  holy *H*  and  sacred  council  of  Trent,  and  does  not  only  believe  and confess  all  that  was  determined  and  approved  of  therein,  and reject  and  anathematize  all  that  that  council  rejected  and  con- demned;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "church-of-the-east-schism-of-1552--st-thomas-christians-under-portuguese-pressure-d",
+   "from": "church-of-the-east-schism-of-1552",
+   "to": "st-thomas-christians-under-portuguese-pressure-d",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Until 1599 the Malabar church named the patriarch of the Church of the East at every Mass. A Portuguese book of 1606 tells of priests at Diamper who mourned 'our Patriarch of Babylon, who governed us so many years.' They called him Mar Simon.",
+   "outcome": "The Synod of Diamper banned the Malabar church from naming or obeying the Patriarch of Babylon. The penalty was to be cut off from the church.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Antonio de Gouvea, Jornada do Arcebispo de Goa Dom Frey Aleixo de Menezes (Coimbra, 1606)",
+     "file": "cic/texts/gouvea_jornada-do-arcebispo-de-goa-por_1606.txt",
+     "lines": "10194",
+     "locus": "Book I, the first day of the synod",
+     "quote": "A menhàm fe dà fim pera féprcao noffo Patriarcha de Babylonia,quenosgouernoutãtos annos.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Antonio de Gouvea, Jornada do Arcebispo de Goa Dom Frey Aleixo de Menezes (Coimbra, 1606)",
+     "file": "cic/texts/gouvea_jornada-do-arcebispo-de-goa-por_1606.txt",
+     "lines": "10195-10197",
+     "locus": "Book I, the first day of the synod",
+     "quote": "Ia nam nomearemos no officio diuino ? & naMifía MarSimon,como nomeauàmos (que afsim fechamaua o Patriarcha,quc então goucrna-' ua).",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Acts and Decrees of the Synod of Diamper (1599), Geddes's English (1694) as reprinted by James Hough, History of Christianity in India, vol. 2 (1839), Appendix A",
+     "file": "cic/texts/hough_history-of-christianity-in-india-v2_1839.txt",
+     "lines": "31641-31643",
+     "locus": "Session III, Decree VIII, heading",
+     "quote": "FORBIDS  THE  ACKNOWLEDGING  OF  THE  PATRIARCH  OF  BABYLON, OR  ANT  SUPREME  PASTOR,  BUT  THE  POPE  OF  ROME,  UPON FAIN    OF    EXCOMMUNICATION.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Acts and Decrees of the Synod of Diamper (1599), Geddes's English (1694) as reprinted by James Hough, History of Christianity in India, vol. 2 (1839), Appendix A",
+     "file": "cic/texts/hough_history-of-christianity-in-india-v2_1839.txt",
+     "lines": "31663-31665",
+     "locus": "Session III, Decree VIII",
+     "quote": "whereas  the  Patri- archs of  Babylon,  to  whom  this  church  was  subject,  are Nestorians,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Michael Geddes, A Short History of the Church of Malabar (1694), on the sending of Mar Abraham",
+     "file": "cic/texts/geddes_history-of-the-church-of-malabar-synod-of-diamper_1694.txt",
+     "lines": "3370-3374",
+     "locus": "Short History",
+     "quote": "they fent fecretly to Mar Simeon, Patriarch of Baby- lon, defiring him to order them a new Arch-Bi- fhop, who ftraightwaysfent them one Mar Abra- ham,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "st-thomas-christians-under-portuguese-pressure-d--northeast-india-revivals-and-the-mar-thoma-refor",
+   "from": "st-thomas-christians-under-portuguese-pressure-d",
+   "to": "northeast-india-revivals-and-the-mar-thoma-refor",
+   "type": "gave rise to",
+   "confidence": "Widely Accepted",
+   "note": "In 1787 'all the Church people of Malankara' signed a paper recalling their forefathers' oath at Mattancherry. In 1869 a priest of the Great Church at Kottayam wrote that a bishop from Antioch won back 'the now existing Syrian churches' after 1685. The Mar Thoma reform grew inside this church. In 1847 the Patriarch of Antioch wrote about the reforming bishop Matthew. His predecessor, he said, had sent a bishop to keep 'all the flock of Mar Thomas' from him. The hill churches of the northeast are not part of this line.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Document of the Church people of Malankara assembled at Angamaly, 1 February 1787, in English translation, printed in Thomas Whitehouse, Lingerings of Light in a Dark Land (1873), Appendix E",
+     "file": "cic/texts/whitehouse_lingerings-of-light-in-a-dark-land_1873.txt",
+     "lines": "19286-19289",
+     "locus": "Appendix E, heading",
+     "quote": "THE DOCUMENT signed by all the Church people of Malankara (beginning with Angamdle) who were assembled in the Large Church of Anga- mdle, on the first of February (old reckoning) in the year of our Lord, 1787,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Document of the Church people of Malankara assembled at Angamaly, 1 February 1787, in English translation, printed in Thomas Whitehouse, Lingerings of Light in a Dark Land (1873), Appendix E",
+     "file": "cic/texts/whitehouse_lingerings-of-light-in-a-dark-land_1873.txt",
+     "lines": "19303-19305",
+     "locus": "Appendix E",
+     "quote": "Upon this our forefathers assembled at Muttan- cherry, and took an oath that neither they themselves, nor their descendants, should ever have anything to do with the Paulists.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Edavalikel Philipos, The Syrian Christians of Malabar, ed. G. B. Howard (1869), answer to Q. 69",
+     "file": "cic/texts/philipos_syrian-christians-of-malabar_howard1869.txt",
+     "lines": "2159-2161",
+     "locus": "Q. 69",
+     "quote": "After  this,  in  1685,  Mar  Evanious  the  Bishop  came from  Antioch,  and  with  much  difficulty  redeemed  the  now existing  Syrian  churches  from  the  Portuguese;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Thomas Whitehouse, Lingerings of Light in a Dark Land (1873), narrative chapter on the Syrian church after 1653",
+     "file": "cic/texts/whitehouse_lingerings-of-light-in-a-dark-land_1873.txt",
+     "lines": "9991-9994",
+     "locus": "narrative, the oath at Muttancherry",
+     "quote": "Upon this their fore- fathers assembled at Muttancherry, and there took a solemn oath that neither they, nor their descendants, would have anything more to do with the Paulists;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "George Broadley Howard, The Christians of St. Thomas and their Liturgies (1864), chap. III",
+     "file": "cic/texts/howard_christians-of-st-thomas-and-their-liturgies_1864.txt",
+     "lines": "3054-3058",
+     "locus": "chap. III, the oath of 1653",
+     "quote": "in the year 1653, fifty- four years after the Synod of Diamper had been held, a number of their leading men assembled in the church of Alan ghat, and there solemnly bound themselves by oath,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Ignatius Jacob II, Patriarch of Antioch, letter of 29 May 1847, on the earlier Patriarch Elias sending Mar Koorillos, in Edavalikel Philipos, The Syrian Christians of Malabar, ed. G. B. Howard (1869)",
+     "file": "cic/texts/philipos_syrian-christians-of-malabar_howard1869.txt",
+     "lines": "2593-2595",
+     "locus": "The Patriarch's Letter (May, 1847)",
+     "quote": "And he sent him to India hour before hour, that he might expel the reprobate Matthew, and keep from him all the flock of Mar Thomas,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "the-union-of-brest-and-ruthenian-greek-catholic---ruthenian-uniate-18th-century",
+   "from": "the-union-of-brest-and-ruthenian-greek-catholic-",
+   "to": "ruthenian-uniate-18th-century",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "In 1728 the Latin bishop of Lutsk and Brest wrote to Leo Kiszka, 'Metropolitan of Kyiv and all Rus'. He promised to keep a rule of Pope Urban VIII that kept Ruthenians from moving to the Latin rite. The historian Harasiewicz lists Kiszka among the heads of this church in communion with Rome since the union of 1596.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Stephen Boguslaw Rupniewski, Latin bishop of Lutsk and Brest, pastoral letter on keeping the Ruthenian rite (1728), printed in Michael Harasiewicz, Annales Ecclesiae Ruthenae (Lviv, 1862)",
+     "file": "cic/texts/harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt",
+     "lines": "19758-19760",
+     "locus": "the letter's opening; Harasiewicz's heading dates it 1728",
+     "quote": "Stephanus Boguslaus a Rupniow in Januszowice Ru- pniewski Dei et Apostolieae Sedis Gratia Episcopus Luce- oriensis et Brestensis.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Stephen Boguslaw Rupniewski, pastoral letter (1728), in Harasiewicz, Annales Ecclesiae Ruthenae (1862)",
+     "file": "cic/texts/harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt",
+     "lines": "19764-19765",
+     "locus": "the letter, address",
+     "quote": "signanter Illmo et Remo. Domino Leoni Kiszka Metropolitano Kijoviensi et totius Russiae",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Stephen Boguslaw Rupniewski, pastoral letter (1728), in Harasiewicz, Annales Ecclesiae Ruthenae (1862)",
+     "file": "cic/texts/harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt",
+     "lines": "19769-19772",
+     "locus": "the letter",
+     "quote": "Et sicuti ante nunquam admis- simus, ita nec deinceps admittemus transitum Ruthenorum ad latinum ritum, eum id nobis prohiberi non ignoremus per Breve S. M. Urbani VIII.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Michael Harasiewicz, Annales Ecclesiae Ruthenae (Lviv, 1862), list of the metropolitans after the union",
+     "file": "cic/texts/harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt",
+     "lines": "13288-13291",
+     "locus": "documents on the union in later times, opening",
+     "quote": "Post unionem in Synodo Bresteusi anno 1596 renovatam usque ad primam Polouiae divisionem auno 1772 praeerant Hierarehiae Ruthenae, communionem cum 8. Sede Romana ha- benti, sequentes Metropolitae:",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Michael Harasiewicz, Annales Ecclesiae Ruthenae (Lviv, 1862), list of the metropolitans after the union",
+     "file": "cic/texts/harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt",
+     "lines": "13296",
+     "locus": "the same list",
+     "quote": "Leo I1 Kiszka 1713;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "russian-church-synodal-century--ruthenian-greek-catholic-polotsk-to-galicia",
+   "from": "russian-church-synodal-century",
+   "to": "ruthenian-greek-catholic-polotsk-to-galicia",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 1839 the Holy Synod printed an account of the Greek Catholics of its western lands. It called their union with Rome 'the schism'. The Synod received their bishops, clergy and people into the Russian Church, and the emperor confirmed it that March.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia, trans. R. W. Blackmore (Oxford, 1842), Notes, IV: the Synod's account of 1839",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "19780-19782",
+     "locus": "Notes, IV, heading",
+     "quote": "IV. An account of the re-union of the Uniates with the Orthodox Church in the Russian Empire. St. Petersburg Synodal Press, 1839. Printed by the direction of the Most Holy Synod.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia, trans. R. W. Blackmore (Oxford, 1842), Notes, IV: the Synod's account of 1839",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "19788-19791",
+     "locus": "Notes, IV",
+     "quote": "The schism, which has been called the Unia, began in the western districts of Russia in 1 596, through the defection of some part of the clergy at a council held at Brest-Litofsky from the orthodox faith,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia, trans. R. W. Blackmore (Oxford, 1842), Notes, IV: the Synod's account of 1839",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "20203-20209",
+     "locus": "Notes, IV",
+     "quote": "decided to receive the bishops, the priesthood, and the whole flock hitherto belonging to the Greek Uniate Church",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia, trans. R. W. Blackmore (Oxford, 1842), Notes, IV: the Synod's account of 1839",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "20220-20226",
+     "locus": "Notes, IV",
+     "quote": "the report of the Synod was confirmed by the supreme resolution of His Majesty, written with his own hand: \"m I thank God, and accept it.\"",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "outcome": "In 1839 the Russian Holy Synod took the Greek Catholic bishops, priests and people of Russia's western lands into its church. The emperor confirmed it."
+  },
+  {
+   "id": "the-social-gospel--the-mainline-century-liberal-and-neo-orthodox",
+   "from": "the-social-gospel",
+   "to": "the-mainline-century-liberal-and-neo-orthodox",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "In May 1908, 32 church bodies formed the Federal Council of Churches. That December it adopted the Social Creed of the Churches. The creed made the Social Gospel's concern for working people a shared program. Historians of the movement trace its stream on into the mainline churches.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Federal Council of Churches, The Social Creed of the Churches (adopted 4 December 1908), as published by the National Council of Churches",
+     "url": "https://nationalcouncilofchurches.us/?p=3863",
+     "accessed": "2026-11-10",
+     "locus": "opening sentence",
+     "quote": "We deem it the duty of all Christian people to concern themselves directly with certain practical industrial problems.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "National Council of Churches, 'History' (nationalcouncilofchurches.us; the council's own account, undated page)",
+     "url": "https://nationalcouncilofchurches.us/about-us/history/",
+     "accessed": "2026-11-10",
+     "locus": "History, opening section",
+     "quote": "In May 1908, 32 Christian communions met in Philadelphia to form the Federal Council of Churches.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "National Council of Churches, 'History' (nationalcouncilofchurches.us; the council's own account, undated page)",
+     "url": "https://nationalcouncilofchurches.us/about-us/history/",
+     "accessed": "2026-11-10",
+     "locus": "History, opening section",
+     "quote": "in November 1950 the US churches that formed the Federal Council of Churches joined with additional ecumenical bodies to establish the National Council of Churches during a Constituting Convention held in Cleveland, Ohio.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Christopher H. Evans, The Social Gospel in American Religion: A History (NYU Press, 2017)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Gary Dorrien, The Making of American Liberal Theology (Westminster John Knox, 3 vols., 2001, 2003, 2006)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online"
+  },
+  {
+   "id": "the-mainline-century-liberal-and-neo-orthodox--the-social-gospel",
+   "from": "the-mainline-century-liberal-and-neo-orthodox",
+   "to": "the-social-gospel",
+   "type": "argued against",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "In 1932 Reinhold Niebuhr published Moral Man and Immoral Society. Historians read it as a sharp attack on the Social Gospel's hope that reform would bring in God's kingdom. This reading rests on modern histories.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Christopher H. Evans, The Social Gospel in American Religion: A History (NYU Press, 2017)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Gary Dorrien, The Making of American Liberal Theology (Westminster John Knox, 3 vols., 2001, 2003, 2006)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked"
+  },
+  {
+   "id": "the-mainline-century-liberal-and-neo-orthodox--progressive-christianity-a-broad-label-not-one-m",
+   "from": "the-mainline-century-liberal-and-neo-orthodox",
+   "to": "progressive-christianity-a-broad-label-not-one-m",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "From about 1990, many people in the old mainline churches called their faith progressive. Historians such as Gary Dorrien trace their ideas back to the liberal faith of those same churches in the years before.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Gary Dorrien, The Making of American Liberal Theology (Westminster John Knox, 3 vols., 2001, 2003, 2006)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "David Hollinger, After Cloven Tongues of Fire (Princeton University Press, 2013)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked"
+  },
+  {
+   "id": "the-anabaptist-movements--mennonites-and-amish-after-1650",
+   "from": "the-anabaptist-movements",
+   "to": "mennonites-and-amish-after-1650",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "The Dutch and Swiss Anabaptist churches carried on after 1650, many of them under the name of Menno Simons. At Dort in 1659 Thieleman van Braght called the martyrs \"my slain fellow brethren and sisters\". A Mennonite manual of 1890 still used the Dordrecht Confession of 1632.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Thieleman J. van Braght, The Bloody Theater or Martyrs Mirror (1660), tr. Joseph F. Sohm (1886)",
+     "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+     "lines": "564-566",
+     "locus": "van Braght's dedicatory prayer, dated Dort, 23 July 1659",
+     "quote": "so that I may become like unto Thy dearest friends, my slain fellow brethren and sisters,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Thieleman J. van Braght, The Bloody Theater or Martyrs Mirror (1660), tr. Joseph F. Sohm (1886)",
+     "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+     "lines": "52350-52351",
+     "locus": "A.D. 1600, the confession \"believed, taught, and practiced, by those called Mennonites\"",
+     "quote": "and practiced, by those called Mennonites,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Confession of Faith and Minister's Manual (Elkhart, Indiana: Mennonite Publishing Co., 1890)",
+     "file": "cic/texts/dordrecht-confession_ministers-manual_elkhart1890.txt",
+     "lines": "129-131",
+     "locus": "Preface",
+     "quote": "The  Confession  of  Faith  is  the  same  that  has been  in  use  among  our  people  for  over  two hundred  and  fifty  years.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "the-remonstrants-and-dort--the-dutch-reformed-church-at-the-cape",
+   "from": "the-remonstrants-and-dort",
+   "to": "the-dutch-reformed-church-at-the-cape",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "In 1869 McCarter named the standards of the Dutch Reformed Church in South Africa. They are the Heidelberg Catechism, the Belgic Confession and the Canons of Dort.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John McCarter, The Dutch Reformed Church in South Africa (Edinburgh, 1869)",
+     "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+     "accessed": "2026-11-10",
+     "locus": "on the church's standards",
+     "quote": "Its Standards are the Heidelberg Catechism, the Belgic Confession, and the Canons of the Synod of Dort.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Richard Elphick and Rodney Davenport, eds., Christianity in South Africa: A Political, Social and Cultural History (1997)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-online"
+  }
+ ]
+}
