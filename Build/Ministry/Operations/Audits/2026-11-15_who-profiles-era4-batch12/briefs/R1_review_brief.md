@@ -9,7 +9,7 @@ You are a fresh reviewer who has not seen the drafting. Review at FULL effort. R
 4. Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch12/README.md.
 5. One finished profile for house form: Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch11/eulogius-of-cordoba.* (and its batch11/records.json entry).
 6. The re-score rows: Build/Ministry/Operations/Audits/2026-11-14_who-rescore-eras4-5/Rescore.md (the rows for your people).
-7. Length rule (Decision-Log, "Who profile length: 2:00 restated, longer only when earned", 2026-11-15): every brief aims at 2:00, about 325 words; longer only where the README names the scene or source a 2:00 version would lose. Tighten by writing tighter, never by cutting a story off. Shorter where sources are thin. Test each brief's length.
+7. Length rule (Mark, 2026-11-15, replacing the same day's 2:00 restatement): "They should be 1 to 2:30 not three"; his pick, "A brief can run anywhere from 1:00 to 2:30 as its story needs, not aim at 2:00." No target inside the range. Test that each brief's length fits its story: padding of a thin life, or filling toward 2:30 for its own sake, is a finding; so is a story cut off. The README gives each brief's length and one line on why.
 
 ## What to check, for each of your profiles (brief, card, records entry in batch12/records.json, audio/<id>.audio.txt)
 - Every sentence of the brief and every card field: reopen the cited lines in cic/texts with sed -n (don't read whole files; use grep -n and line ranges). Who speaks, under what condition and hedge, which event a date belongs to. Does the source establish at least what the sentence says?
