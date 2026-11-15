@@ -9,5 +9,5 @@ assignments:
   role: tradition
   confidence: needs-ruling
   language: lat
-  date: {start: 1651, end: 1652, source: "privilege dated Avignon, 1 May 1651 (about OCR line 636); title page 'M. DC. LII.'", formation_confidence: Documented}
-  note: 'The missionary''s Latin history of Tonkin and of its mission from 1627 to 1646. Before this entry''s window, so the shelf needs a ruling.'
+  date: {start: 1651, end: 1652, source: "the Society's permission to print, dated Avignon, 1 May 1651 (about OCR lines 627-637); title page 'M. DC. LII.'", formation_confidence: Documented}
+  note: 'The missionary''s Latin history of Tonkin and of its mission from 1627 to 1646. The years it tells come before this entry''s window, so the shelf needs a ruling.'

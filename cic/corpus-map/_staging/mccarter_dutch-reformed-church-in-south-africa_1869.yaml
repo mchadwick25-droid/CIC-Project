@@ -7,7 +7,7 @@ assignments:
   atlas_ids:
   - the-dutch-reformed-church-at-the-cape
   role: tradition
-  confidence: needs-ruling
+  confidence: provisional
   language: eng
   date: {start: 1869, end: 1869, source: "title page: 1869", formation_confidence: Documented}
-  note: 'A minister in Natal writes the church''s history in English. Chapters I and II cover the Dutch period; the rest is the nineteenth century. Whether he writes from inside the church was not read in the preface.'
+  note: 'A minister in Natal writes the church''s history in English; his preface speaks of ''several years'' pastoral labour among the South African Dutch colonists'' (OCR lines 75-77). Chapters I and II cover the Dutch period; the rest is the nineteenth century.'

@@ -1,12 +1,12 @@
 Title: Histoire de l'Église d'Alexandrie, fondée par S. Marc, que nous appelons celle des Jacobites-Coptes d'Égypte; écrite au Caire même, en 1672 et 1673
 Creator: Johann Michael Wansleben (title page: 'Par le P. J. M. Vansleb, Dominicain')
 Publisher: Paris: chez la veuve Clousier, and chez Pierre Promé (title page)
-Publication Date: 1677 (title page: 'M. DC. LXXVII.', read on the page image, leaf n4; the OCR does not give the numeral)
+Publication Date: 1677 (title page: 'M. DC. LXXVII.', confirmed on the page image, leaf n4; the OCR reads 'M. pC. LXXVII.')
 Rights: Public Domain (pd-us-by-date: published 1677); the archive.org record carries the Public Domain Mark
 Language: fra
 Source: archive.org item bub_gb_m3GZP6sZZJMC, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (433,108) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1677, out of US copyright by date. OCR quality: readable French with the long s read as f; roman numerals in chapter headings are often garbled and marginal headings run into the text. Google's stamp lines stand at OCR lines 1-7 and at the end. Word count of the host text: 75,236. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Seven parts: I, the hierarchy, at OCR line 1202; II, customs, at 3168; III, belief, at 6234; IV, ceremonies, at 7381; V, canons and councils, at 11361; VI, a catalog of the Coptic patriarchs from St Mark to 1673, drawn from al-Maqrizi and other Arabic authors, at 14095; VII, a catalog of famous men, at 15436, ending at about 16316. Editorial matter: dedication from 98; Vansleb's foreword at 585-860; royal privilege (28 August 1677) at 1083-1175; table of chapters at 16357-16750; index from 16751. Chapters inside the parts were not fully mapped.
+Content note: Seven parts: I, the hierarchy, at OCR line 1202; II, customs, at 3168; III, belief, at 6234; IV, ceremonies, at 7381; V, canons and councils, at 11361; VI, a catalog of the Coptic patriarchs from St Mark to 1673, drawn, its heading says, from Arabic authors (the first name is garbled there; 'Abulbaracat' is named often elsewhere in the book), at 14095; VII, a catalog of famous men, at 15436, ending at about 16316. Editorial matter: dedication from 98; Vansleb's foreword at 585-860; royal privilege (28 August 1677) at 1083-1175; table of chapters at 16357-16750; index from 16751. Chapters inside the parts were not fully mapped.
 
 ______________________________________________________________________
 

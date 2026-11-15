@@ -1,12 +1,12 @@
 Title: Divers voyages de la Chine, et autres royaumes de l'Orient; avec le retour de l'autheur en Europe, par la Perse et l'Arménie; le tout divisé en trois parties
-Creator: Alexandre de Rhodes (title page)
+Creator: Alexandre de Rhodes (the archive.org record; the title page names no author and says only 'le retour de l'Autheur'; the narrator is addressed as 'Pere Alexandre' at OCR line 6289)
 Publisher: Paris: chez Christophe Journel, au dernier pillier de la grand'salle du Palais (title page)
 Publication Date: 1682 (title page: 'M. DC. LXXXII.')
 Rights: Public Domain (pd-us-by-date: published 1682); the archive.org record carries the Public Domain Mark
 Language: fra
 Source: archive.org item bub_gb_74U28QLld2UC, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (519,855) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1682, out of US copyright by date. OCR quality: clean French; some chapter numerals are wrong. Google's stamp lines stand among the first 109 OCR lines and from 14867. Word count of the host text: 87,428. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: A printing of 1682; the Wanted_Sources row names a first printing of 1653, which was not looked for in this print. Privilege extract at OCR lines 71-80; preface at 134. Part 1, from Rome to China, at 253 (chapter I at 263). Part 2, the kingdom of Annam, Tonkin and Cochinchina, at 2604, chapter I at 2651 to chapter LI at 11140. Part 3, the return by Persia and Armenia, at 11354 to chapter XXI at 14505.
+Content note: A printing of 1682. Privilege extract at OCR lines 71-80; preface at 134. Part 1, from Rome to China, at 253 (chapter I at 263). Part 2, the kingdom of Annam, Tonkin and Cochinchina, at 2604, chapter I at 2651 to chapter LI at 11140. Part 3, the return by Persia and Armenia, at 11354 to chapter XXI at 14505.
 
 ______________________________________________________________________
 

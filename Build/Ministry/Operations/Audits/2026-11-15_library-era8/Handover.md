@@ -6,6 +6,40 @@ global and any language pieces") and his model change ("use our free fable and s
 rewrite process": no Opus anywhere; the review is one fresh Fable subagent) all still stand. The coordinator is
 session_01JMNsSAmN1HUCBWPQWS4gro; batch reports also go to session_01JMNsSD4wzPQYRHkAq6uKE3.
 
+## State after batch 1 (second session, session_01JMNsSDAHDEA8fp5UjRHuYa)
+
+Batch 1, the global files, is done on `claude/library-era8-1`: 31 files vendored (Africa, Egypt, Ethiopia, Latin
+America, Asia). Its records: `Search_Log.md`, `R1_review.md`, `R1_changes.md`, `R2_recheck.md`,
+`Mapper_Reports_batch1.md`, and the "Era 8 (1650-1815), batch 1" section of
+`Build/Ministry/Features/Source-Library/CFT-Wants.md`. The two tables below headed "Africa, Latin America, Coptic,
+Ethiopian, Syriac" and "Asia" are spent; the first two ("British Isles and Methodists", "North America and
+Catholic Europe") are batch 2's starting list.
+
+How batch 1 was worked, as a pattern: `fetch` every candidate by identifier and compare bytes (a short script);
+read each title page in the OCR, and on the page image where the year is garbled (a contact sheet of the first
+leaves finds the title leaf, then a crop of the imprint); `MAPPER_BRIEF.md` for Sonnet mappers, about eight files
+each, who hand back contents maps; `mkspec1.py` as the spec; `intake.py` (it now writes `authors_ruled`); the
+recipe below. A slug that is not a filename prefix needs an `authors_ruled` entry. A process note or a date in a
+header's rights line fails `check_live_commentary.py`; keep rulings in the Search_Log.
+
+Carried into batch 2:
+- Parry, Six Months in a Syrian Monastery (1895): take the Google scan `sixmonthsinasyr00parrgoog` (not fetched
+  yet). The Columbia scan was dropped for its "Reproductions may not be made without permission" line. The census
+  has no entry for the Syriac Orthodox between 1650 and 1906; the nearest shelf is
+  `the-sayfo-and-the-syriac-diaspora`, context, needs-ruling.
+- Dobrizhoffer (Latin and English), Muratori, Rancé, Fontaine, du Fossé, Quesnel: batch 2, with Catholic Europe.
+- Vieira's Sermões: early volumes located, none chosen.
+- Located and left for era 9: Pascoe vol. 2 (`twohundredyearso02pasc`), Launay tome 3 (`cihm_54002`).
+- Mark's rulings of 15 November as the coordinator relayed them: a title page with no year may be dated by a
+  copyright notice of 1930 or earlier, or by a dated preface (the coordinator adds: a printed licence or
+  approbation leaf) when the library catalog's date agrees, the date and its place recorded in the header;
+  "All rights reserved" on a print of 1930 or earlier does not block it; a part of a collection takes its date
+  from the collection volume's own title page. Host additions (Google's sheet, archive.org notices) may be
+  stripped at intake only, with what was stripped recorded in the Provenance note; batch 1 did not strip
+  anything, since its line maps were made against the host text.
+- Review lesson: say in the header where each title-page fact was read (OCR or page image); never credit the
+  title page with a name, publisher or source that only the host record or outside knowledge gives.
+
 ## A rights widening, relayed and not yet used
 
 At 17:15 UTC on 2026-11-15 the coordinator relayed a ruling as Mark's ("Yes, all eras now"; "Allow it generally"):

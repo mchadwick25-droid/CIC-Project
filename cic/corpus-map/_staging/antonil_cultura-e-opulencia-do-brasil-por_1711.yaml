@@ -9,5 +9,5 @@ assignments:
   role: tradition
   confidence: provisional
   language: por
-  date: {start: 1710, end: 1711, source: "licences of 12 December 1710 to 6 March 1711 (OCR lines 351-419); title page 'Anno de 1711'", formation_confidence: Documented}
+  date: {start: 1710, end: 1711, source: "licences of 12 December 1710 to 6 March 1711 (OCR lines 351-410); title page 'Anno de 1711'", formation_confidence: Documented}
   note: 'A handbook of Brazil''s sugar, tobacco, gold and cattle, with counsel to mill owners on the teaching and treatment of the enslaved.'

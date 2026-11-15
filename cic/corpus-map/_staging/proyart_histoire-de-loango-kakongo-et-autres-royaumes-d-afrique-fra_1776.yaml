@@ -9,7 +9,7 @@ assignments:
   role: context
   confidence: provisional
   language: fra
-  date: {start: 1776, end: 1776, source: "title page: 'M. DCC. LXXVI.'; approbation of 26 May 1770 at OCR line 13573", formation_confidence: Documented}
+  date: {start: 1776, end: 1776, source: "title page: 'M. DCC. LXXVI.'", formation_confidence: Documented}
   note: 'A French priest''s history of the French mission to Loango and Kakongo, drawn up from the prefects'' memoirs. A mission''s view, not a Kongolese voice.'
 - row_id: proyart_histoire-de-loango-kakongo-et-autres-royaumes-d-afrique-fra_1776--proyart-histoire-de-loango-part-1-the-country
   work: 'Proyart, Histoire de Loango, Kakongo: part 1, the country and people (1776)'

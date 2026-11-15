@@ -3,7 +3,7 @@
 The search record for the first era 8 batch: Africa, Egypt, Ethiopia, the Syriac churches, Latin America and Asia.
 The wants are in `ERA8_WANTS_MASTER.md` beside this file (groups 2, 3, 4, 5 and part of 6). The searches were run by
 the first era 8 session and are summarized in `Handover.md`; this session fetched every candidate again by its
-archive.org identifier, read each imprint, had the contents mapped, and vendored 32 files. The vendored files,
+archive.org identifier, read each imprint, had the contents mapped, and vendored 31 files. The vendored files,
 their state and their shelves are in `Build/Ministry/Features/Source-Library/CFT-Wants.md` (the "Era 8, batch 1"
 section).
 
@@ -41,7 +41,7 @@ licence or approbation leaf is the same kind of evidence as a dated preface.
 
 | host | state from this sandbox | used |
 |---|---|---|
-| archive.org (metadata, djvu.txt, page images) | reachable | all 32 files |
+| archive.org (metadata, djvu.txt, page images) | reachable | all 31 files |
 | gallica, HathiTrust, books.google downloads, MDZ, documentacatholicaomnia | blocked or broken, by the earlier logs | not tried |
 | dbnl.org | reachable, by the earlier logs | not needed: Valentijn's third deel came from archive.org on the first try |
 
@@ -51,7 +51,7 @@ No host was newly refused by the network proxy.
 
 Forty scans were fetched. Each download's byte count was compared with the size archive.org lists for the
 djvu.txt, and all forty were equal. The Library thread read the title-page lines of each. Where the OCR did not
-give the year cleanly, it read the page image: Vansleb's Histoire (leaf n4) and Nouvelle relation (n6); Rhodes's
+give the year cleanly, it read the page image: Vansleb's Histoire (leaf n4; the OCR reads "M. pC. LXXVII.") and Nouvelle relation (n6); Rhodes's
 Tunchinensis historiae (n4) and Cathechismus (n4, n6); the Historia cultus Sinensium (n6); Bruce, vol. 2 (n12);
 Guidi's Versio (n8) and Textus (n6); Gobat (n9); Baldaeus in English (n12 engraved, n14 letterpress); Barros
 (n2); Pallu (n2); Valentijn, deel 3 (n4). Five mappers (Sonnet, read-only) then mapped the contents of the files
@@ -72,16 +72,22 @@ fetched, checked and not taken. McCarter's Dutch Reformed Church in South Africa
 
 **Egypt.** Vansleb's Histoire de l'Église d'Alexandrie (1677), his Nouvelle relation (1677) and its English, The
 Present State of Egypt (1678). Butcher, vol. 2 (1897). Al-Jabarti's chronicle, tome V of the Cairo French
-translation (1890), which holds the obituary of Ibrahim al-Jawhari under the year 1209.
+translation (1890), which holds the obituary of Ibrahim al-Jawhari under the year 1209. The leaf before its title
+page carries "Droits de traduction et de reproduction réservés"; on a print of 1890 that does not block it, by
+the coordinator's reading of Mark's ruling.
 
 **Ethiopia.** Bruce's Travels, vols 2 and 3 (1790). Gobat's Journal in the London first edition (1834), which
 the census names; the New York edition of 1850 (journalthreeyea01bairgoog) was fetched and not taken, as a later
 edition of the same book. Guidi's Annales regum Iyasu II et Iyo'as: the translation (1912), which is in French,
 and the Ge'ez text (1910).
 
-**The Syriac Orthodox.** Parry's Six Months in a Syrian Monastery (1895). The scan opens with Columbia's
-microfilm target, which carries the library's standard statement on photocopying under US copyright law; it is
-not a statement about this book, and the title page reads 1895.
+**The Syriac Orthodox.** Parry's Six Months in a Syrian Monastery (1895) was vendored from the Columbia
+microfilm scan (sixmonthsinsyria00parr) and then taken out again after the review. The scan opens with Columbia's
+microfilm target, which carries the library's statement on photocopying under US copyright law and the line
+"Reproductions may not be made without permission from Columbia University Library". The title page reads 1895,
+so the book itself is free by date; but the rule for this work is that a scan with a permission notice is not
+taken, so this scan was dropped. A Google scan of the same edition exists (sixmonthsinasyr00parrgoog, host date
+1895); it was not fetched, and is left for the next batch.
 
 **Latin America.** Vieira's Maria Rosa Mystica, parts 1 (1686) and 2 (1688); Barros's Vida (1746); Vieira's
 Cartas, tomos 1 and 2 (1735); Antonil (1711); the Code noir in Prault's collection of 1767, which prints the

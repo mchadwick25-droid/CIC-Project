@@ -20,9 +20,9 @@ assignments:
   role: context
   confidence: needs-ruling
   language: eng
-  date: {start: 1834, end: 1834, source: "title page: 1834", formation_confidence: Documented}
+  date: {start: 1834, end: 1834, source: "title page: 1834, read on the page image, leaf n9", formation_confidence: Documented}
   note: 'Professor Lee''s short history, which quotes older authorities. Secondary, and not Gobat''s voice.'
 authors_ruled:
   lee-samuel:
     kind: metadata-omission
-    evidence: "The title page (file lines 60-112) reads 'to which is prefixed, A Brief History of the Church of Abyssinia, by the Rev. Professor Lee, D.D.'; the history stands at file lines 675-2834."
+    evidence: "The title page (file lines 81-109) reads 'A Brief History of the Church of Abyssinia, by the Rev. Professor Lee, D.D.'; the history stands at file lines 675-2834."

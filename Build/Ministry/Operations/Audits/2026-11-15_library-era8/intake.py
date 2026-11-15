@@ -85,6 +85,12 @@ for it in items:
         else:
             out.append("  date: {formation_confidence: unknown, checked: %s}" % json.dumps(d["checked"], ensure_ascii=False))
         out.append("  note: " + q(r["note"]))
+    if it.get("authors_ruled"):
+        out.append("authors_ruled:")
+        for slug, r in it["authors_ruled"].items():
+            out.append("  %s:" % slug)
+            out.append("    kind: " + r["kind"])
+            out.append("    evidence: " + json.dumps(r["evidence"], ensure_ascii=False))
     open(os.path.join(repo, "cic/corpus-map/_staging", stem + ".yaml"), "w", encoding="utf-8").write("\n".join(out) + "\n")
     print(it["filename"], nbytes, words)
 

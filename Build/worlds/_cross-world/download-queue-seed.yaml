@@ -27114,7 +27114,7 @@ queue:
     verified_by: 'Library thread, era 8 batch 1: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 477,449 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: vansleb_present-state-of-egypt_1678.txt
-  - title: 'Merveilles biographiques et historiques, ou Chroniques du cheikh Abd-el-Rahman el Djabarti, traduites de l''arabe par Chefik Mansour Bey, Abdulaziz Khalil Bey, Gabriel Nicolas Khalil Bey et Iskender Ammoun Effendi; tome V'
+  - title: 'Merveilles biographiques et historiques, ou Chroniques du cheikh Abd-el-Rahman el Djabarti, traduites de l''arabe par Chefik Mansour Bey, Abdulaziz Kahil Bey, Gabriel Nicolas Kahil Bey et Iskender Ammoun Effendi; tome V'
     author: 'Abd al-Rahman al-Jabarti; Chefik Mansour Bey and others (tr.)'
     year: '1890'
     world: the-coptic-church-under-the-ottomans
@@ -27134,16 +27134,6 @@ queue:
     verified_by: 'Library thread, era 8 batch 1: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 619,742 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: gobat_journal-of-a-three-years-residence-in-abyssinia_1834.txt
-  - title: 'Six Months in a Syrian Monastery: being the record of a visit to the head quarters of the Syrian Church in Mesopotamia, with some account of the Yazidis or Devil Worshippers of Mosul and El Jilwah, their sacred book'
-    author: 'Oswald H. Parry'
-    year: '1895'
-    world: the-sayfo-and-the-syriac-diaspora
-    why: 'CFT-Wants batch 2 (ME-7) and Open-Gaps 179, Library wanted: Parry (1895) for the Syriac Orthodox patriarchate, c. 1650-1906.'
-    url: https://archive.org/details/sixmonthsinsyria00parr
-    rights_basis: 'Public Domain (pd-us-by-date: published 1895); the archive.org record carries no rights field. Columbia University''s microfilm target at the head carries the library''s standard statement on photocopying under US copyright law, which is not a statement about this book'
-    verified_by: 'Library thread, era 8 batch 1: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,023,197 equal to the listed size, the volume''s end read'
-    status: downloaded
-    vendored_as: parry_six-months-in-a-syrian-monastery_1895.txt
   - title: 'Annales regum Iyāsu II et Iyo''as; interpretatus est Ignatius Guidi (Corpus Scriptorum Christianorum Orientalium, Scriptores Aethiopici, Versio, series altera, tomus VI)'
     author: 'Ignazio Guidi (tr.)'
     year: '1912'

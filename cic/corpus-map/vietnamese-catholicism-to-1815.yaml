@@ -65,8 +65,8 @@ works:
       the page image, leaf n6)
     formation_confidence: Documented
   note: A catechism for those preparing for baptism, in eight days, in Latin beside Vietnamese
-    in Roman letters. Only the Latin can be read in this file. Printed just before this entry's
-    window.
+    in Roman letters. Only the Latin can be read in this file. Printed in 1651, as this entry's
+    window opens; the mission it was made for is earlier, so the shelf needs a ruling.
   source_file: rhodes_cathechismus-in-octo-dies-divisus-lat-vie_1651.txt
 - row_id: rhodes_divers-voyages-de-la-chine-et-autres-royaumes-de-l-orient-fra_1682--rhodes-divers-voyages-et-missions
   work: Rhodes, Divers voyages de la Chine et autres royaumes de l'Orient (1682 printing)
@@ -82,8 +82,8 @@ works:
       narrative opens with the departure of 1618 (OCR line 374); a year of writing was not
       read
   note: The missionary tells his own journeys from 1618, with the missions of Tonkin and Cochinchina.
-    The missions he describes come before this entry's window, which is why the shelf needs
-    a ruling.
+    The title page names no author. The missions he describes come before this entry's window,
+    which is why the shelf needs a ruling.
   source_file: rhodes_divers-voyages-de-la-chine-et-autres-royaumes-de-l-orient-fra_1682.txt
 - row_id: rhodes_tunchinensis-historiae-libri-duo-lat_1652--rhodes-tunchinensis-historiae-libri-duo
   work: Rhodes, Tunchinensis historiae libri duo (Lyon 1652)
@@ -95,8 +95,9 @@ works:
   date:
     start: 1651
     end: 1652
-    source: privilege dated Avignon, 1 May 1651 (about OCR line 636); title page 'M. DC. LII.'
+    source: the Society's permission to print, dated Avignon, 1 May 1651 (about OCR lines
+      627-637); title page 'M. DC. LII.'
     formation_confidence: Documented
-  note: The missionary's Latin history of Tonkin and of its mission from 1627 to 1646. Before
-    this entry's window, so the shelf needs a ruling.
+  note: The missionary's Latin history of Tonkin and of its mission from 1627 to 1646. The
+    years it tells come before this entry's window, so the shelf needs a ruling.
   source_file: rhodes_tunchinensis-historiae-libri-duo-lat_1652.txt

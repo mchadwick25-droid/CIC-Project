@@ -6,7 +6,7 @@ Rights: Public Domain (pd-us-by-date: published 1652); the archive.org record ca
 Language: lat
 Source: archive.org item bub_gb_GxWRJap5LkMC_3, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (450,665) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1652, out of US copyright by date. OCR quality: readable Latin with the long s read as f and c often read for e. Google's stamp lines stand among the first 122 OCR lines. Word count of the host text: 61,508. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Two books. Dedication to Innocent X from OCR line 69; to the reader at 158 and 224; chapter lists at 254 and 433; privilege (Avignon, 1 May 1651) at about 636. Liber primus, the kingdom, at 657 (Caput I at 662) to 4425. Liber II, the preaching of the Gospel from 1627 to 1646, at 4449 (Caput I at 4477); 'Finis' at 12679.
+Content note: Two books. Dedication to Innocent X from OCR line 69; to the reader at 158 and 224; chapter lists at 254 and 433; the Society's permission to print (Avignon, 1 May 1651) at about 627-641. Liber primus, the kingdom, at 657 (Caput I at 662) to 4425. Liber II, the preaching of the Gospel from 1627 to 1646, at 4449 (Caput I at 4477); 'Finis' at 12679.
 
 ______________________________________________________________________
 

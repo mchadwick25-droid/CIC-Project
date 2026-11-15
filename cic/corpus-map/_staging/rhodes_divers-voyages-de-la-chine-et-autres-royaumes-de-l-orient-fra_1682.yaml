@@ -10,4 +10,8 @@ assignments:
   confidence: needs-ruling
   language: fra
   date: {formation_confidence: unknown, checked: "the title page (OCR lines 32-58) gives 'M. DC. LXXXII.' for this printing; the narrative opens with the departure of 1618 (OCR line 374); a year of writing was not read"}
-  note: 'The missionary tells his own journeys from 1618, with the missions of Tonkin and Cochinchina. The missions he describes come before this entry''s window, which is why the shelf needs a ruling.'
+  note: 'The missionary tells his own journeys from 1618, with the missions of Tonkin and Cochinchina. The title page names no author. The missions he describes come before this entry''s window, which is why the shelf needs a ruling.'
+authors_ruled:
+  rhodes:
+    kind: metadata-omission
+    evidence: "The title page (file lines 44-70) names no author; the archive.org record credits Alexandre de Rhodes, and the narrator is addressed as 'Pere Alexandre' at file line 6301. The attribution is the record's."

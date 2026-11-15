@@ -18,25 +18,6 @@ works:
     formation_confidence: Documented
   note: A Jesuit's Life of Vieira in five books. Its subject is Vieira; its voice is Barros.
   source_file: barros_vida-do-apostolico-padre-antonio-vieyra-por_1746.txt
-- row_id: historia-cultus-sinensium_varia-scripta-de-cultibus-sinarum-lat_1700--historia-cultus-sinensium-the-collection
-  work: 'Historia cultus Sinensium: the vicars apostolic''s case against the Chinese rites
-    (Cologne 1700)'
-  author: charmot
-  locus: the Historia at OCR lines 254-7940; Charmot's Notationes at 8194-13133; the Jesuit
-    observations at 27431-32074; add 12 to OCR line numbers
-  role: tradition
-  confidence: needs-ruling
-  language: lat
-  date:
-    start: 1698
-    end: 1700
-    source: Charmot's notes are dated 29 July 1698 and 7 October 1698 (OCR lines 120-170,
-      8194); title page 'M. DCC.'
-    formation_confidence: Documented
-  note: The case of the French vicars apostolic against the Jesuits on the Chinese rites,
-    as laid before Innocent XII, with Jesuit writings in an appendix. Several voices; each
-    piece must be cited by its own author.
-  source_file: historia-cultus-sinensium_varia-scripta-de-cultibus-sinarum-lat_1700.txt
 - row_id: jesuit-relations_thwaites-v36-fra-eng_1896-1901--the-jesuit-relations-and-allied-documents-thwaites-vol-36-lower-canada-abenakis-1650-1651
   work: 'The Jesuit Relations and Allied Documents (Thwaites), Vol. 36: Lower Canada, Abenakis:
     1650-1651'

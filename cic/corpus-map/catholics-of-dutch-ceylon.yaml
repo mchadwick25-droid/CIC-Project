@@ -39,7 +39,7 @@ works:
   author: ceylon-catholic-church
   locus: the text at OCR lines 112-1334; Joseph Vaz at about 754-910; the Dutch placards at
     about 596-642; add 12 to OCR line numbers
-  role: tradition
+  role: context
   confidence: needs-ruling
   language: eng
   date:
@@ -47,6 +47,7 @@ works:
     end: 1848
     source: 'title page: ''Colombo 1848'''
     formation_confidence: Documented
-  note: An unsigned history of the Catholic church in Ceylon, printed at Colombo. The host's
-    attribution to Simon Casie Chitty is not in the print.
+  note: An unsigned history of the Catholic church in Ceylon, printed at Colombo forty years
+    after this entry's window closes. The host's attribution to Simon Casie Chitty is not
+    in the print.
   source_file: ceylon-catholic-church_sketch-of-the-rise-and-progress_1848.txt

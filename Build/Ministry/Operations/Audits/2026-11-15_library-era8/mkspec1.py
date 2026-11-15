@@ -50,12 +50,12 @@ add("histoiredeloango00proy_0", "histoiredeloango00proy_0_djvu.txt", "proyart_hi
     "Liévin-Bonaventure Proyart (title page: 'Par M. l'Abbé Proyart')",
     "Paris: C. P. Berton and N. Crapart; Lyon: Bruyset-Ponthus (title page)", "1776 (title page: 'M. DCC. LXXVI.')", 1776, NR, "fra",
     "readable French with the long s read as f; several chapter headings are garbled. A John Carter Brown Library plate stands at OCR lines 1-4.",
-    "Two parts. Part 1, the country and its people: Chapitre premier at OCR line 134 to about 7224. Part 2, the history of the French mission: half-title at 7225-7237, 'Chapitre premier. Origine de la Mission' at 7242, eighteen chapters, ending 'FIN' at 13287. Editorial matter: the dedicatory letter at about 50-118; remarks on the map for pilots at 12915-13286; table at 13292-13430; approbation (26 May 1770) at 13573; privilege at 13587-13670. Letters of the prefects are quoted inside Part 2 and were not mapped.",
+    "Two parts. Part 1, the country and its people: Chapitre premier at OCR line 134 to about 7224. Part 2, the history of the French mission: half-title at 7225-7237, 'Chapitre premier. Origine de la Mission' at 7242, eighteen chapters, ending 'FIN' at 13287. Editorial matter: the dedicatory letter at about 50-118; remarks on the map for pilots at 12915-13286; table at 13292-13430; approbation (the OCR reads 26 May 1770) at 13573; privilege at 13587-13670. Letters of the prefects are quoted inside Part 2 and were not mapped.",
     "Liévin-Bonaventure Proyart", KONGO,
     "Open-Gaps 175 (AF-3), Library wanted: Proyart for Kongo after 1650, in the mission's own French (the English of Pinkerton XVI is held).",
     [row("proyart-histoire-de-loango-part-2-the-french-mission", "Proyart, Histoire de Loango, Kakongo: part 2, the French mission (1776)", "proyart",
          "part 2 at OCR lines 7242-13287", [KONGO], "context", "provisional", "fra",
-         doc((1776, 1776), "title page: 'M. DCC. LXXVI.'; approbation of 26 May 1770 at OCR line 13573"),
+         doc((1776, 1776), "title page: 'M. DCC. LXXVI.'"),
          "A French priest's history of the French mission to Loango and Kakongo, drawn up from the prefects' memoirs. A mission's view, not a Kongolese voice."),
      row("proyart-histoire-de-loango-part-1-the-country", "Proyart, Histoire de Loango, Kakongo: part 1, the country and people (1776)", "proyart",
          "part 1 at OCR lines 134-7224", [KONGO], "context", "needs-ruling", "fra",
@@ -76,7 +76,7 @@ add("twohundredyearso01pasc", "twohundredyearso01pasc_djvu.txt", "pascoe_two-hun
      row("pascoe-spg-north-american-colonies", "Pascoe, Two Hundred Years of the S.P.G., vol. I: the older North American colonies", "pascoe",
          "chapters II-XII at OCR lines 5444-10688", [COFE], "context", "provisional", "eng",
          doc((1901, 1901), "title page: 1901"),
-         "The Society's digest of its colonial missions, colony by colony. A later summary by the Society's secretary.")])
+         "The Society's digest of its colonial missions, colony by colony. A later summary by the Society's assistant secretary.")])
 
 add("dutchreformedchu00mcca", "dutchreformedchu00mcca_djvu.txt", "mccarter_dutch-reformed-church-in-south-africa_1869.txt",
     "The Dutch Reformed Church in South Africa, with notices of the other denominations: an historical sketch",
@@ -87,9 +87,9 @@ add("dutchreformedchu00mcca", "dutchreformedchu00mcca_djvu.txt", "mccarter_dutch
     "John McCarter", CAPE,
     "Open-Gaps 175 (AF-4), Library wanted: McCarter (1869), the census entry's own source for the Dutch Reformed Church at the Cape.",
     [row("mccarter-dutch-reformed-church-in-south-africa", "McCarter, The Dutch Reformed Church in South Africa (1869)", "mccarter",
-         "the whole book at OCR lines 213-4995; chapters I-II (213-1247) cover the years to 1806", [CAPE], "tradition", "needs-ruling", "eng",
+         "the whole book at OCR lines 213-4995; chapters I-II (213-1247) cover the years to 1806", [CAPE], "tradition", "provisional", "eng",
          doc((1869, 1869), "title page: 1869"),
-         "A minister in Natal writes the church's history in English. Chapters I and II cover the Dutch period; the rest is the nineteenth century. Whether he writes from inside the church was not read in the preface.")])
+         "A minister in Natal writes the church's history in English; his preface speaks of 'several years' pastoral labour among the South African Dutch colonists' (OCR lines 75-77). Chapters I and II cover the Dutch period; the rest is the nineteenth century.")])
 
 for v, ident, bk, lines, extra_note in [
     (2, "travelstodiscov02bruc", "Books III and IV, the annals of Abyssinia",
@@ -125,9 +125,9 @@ add("storyofchurchofe02butc", "storyofchurchofe02butc_djvu.txt", "butcher_story-
 add("bub_gb_m3GZP6sZZJMC", "bub_gb_m3GZP6sZZJMC_djvu.txt", "vansleb_histoire-de-l-eglise-d-alexandrie-fra_1677.txt",
     "Histoire de l'Église d'Alexandrie, fondée par S. Marc, que nous appelons celle des Jacobites-Coptes d'Égypte; écrite au Caire même, en 1672 et 1673",
     "Johann Michael Wansleben (title page: 'Par le P. J. M. Vansleb, Dominicain')", "Paris: chez la veuve Clousier, and chez Pierre Promé (title page)",
-    "1677 (title page: 'M. DC. LXXVII.', read on the page image, leaf n4; the OCR does not give the numeral)", 1677, PDM, "fra",
+    "1677 (title page: 'M. DC. LXXVII.', confirmed on the page image, leaf n4; the OCR reads 'M. pC. LXXVII.')", 1677, PDM, "fra",
     "readable French with the long s read as f; roman numerals in chapter headings are often garbled and marginal headings run into the text. Google's stamp lines stand at OCR lines 1-7 and at the end.",
-    "Seven parts: I, the hierarchy, at OCR line 1202; II, customs, at 3168; III, belief, at 6234; IV, ceremonies, at 7381; V, canons and councils, at 11361; VI, a catalog of the Coptic patriarchs from St Mark to 1673, drawn from al-Maqrizi and other Arabic authors, at 14095; VII, a catalog of famous men, at 15436, ending at about 16316. Editorial matter: dedication from 98; Vansleb's foreword at 585-860; royal privilege (28 August 1677) at 1083-1175; table of chapters at 16357-16750; index from 16751. Chapters inside the parts were not fully mapped.",
+    "Seven parts: I, the hierarchy, at OCR line 1202; II, customs, at 3168; III, belief, at 6234; IV, ceremonies, at 7381; V, canons and councils, at 11361; VI, a catalog of the Coptic patriarchs from St Mark to 1673, drawn, its heading says, from Arabic authors (the first name is garbled there; 'Abulbaracat' is named often elsewhere in the book), at 14095; VII, a catalog of famous men, at 15436, ending at about 16316. Editorial matter: dedication from 98; Vansleb's foreword at 585-860; royal privilege (28 August 1677) at 1083-1175; table of chapters at 16357-16750; index from 16751. Chapters inside the parts were not fully mapped.",
     "Johann Michael Wansleben (Vansleb)", COPT,
     "Open-Gaps 175, Library wanted: Vansleb, Histoire de l'Église d'Alexandrie (1677), for the Coptic patriarchate under the Ottomans.",
     [row("vansleb-histoire-de-l-eglise-d-alexandrie", "Vansleb, Histoire de l'Église d'Alexandrie (1677)", "vansleb",
@@ -146,7 +146,7 @@ add("bub_gb_8n2JTTnOoMIC", "bub_gb_8n2JTTnOoMIC_djvu.txt", "vansleb_nouvelle-rel
     [row("vansleb-nouvelle-relation-voyage-en-egypte", "Vansleb, Nouvelle relation d'un voyage fait en Égypte (1677)", "vansleb",
          "the journal at OCR lines 379-17991", [COPT], "context", "provisional", "fra",
          doc((1671, 1677), "the journal opens 'le 8 de May 1671' (OCR line 389-390); title page 'M. DC. LXXVII.'"),
-         "The Dominican's travel journal of 1672-1673, with visits to Coptic churches and desert monasteries. An outside witness.")])
+         "The Dominican's travel journal, which opens in May 1671, with visits to Coptic churches and desert monasteries. An outside witness.")])
 
 add("presentstateofeg00wans", "presentstateofeg00wans_djvu.txt", "vansleb_present-state-of-egypt_1678.txt",
     "The Present State of Egypt; or, A New Relation of a Late Voyage into that Kingdom, performed in the years 1672 and 1673, by F. Vansleb, R. D.; Englished by M. D., B. D.",
@@ -162,8 +162,8 @@ add("presentstateofeg00wans", "presentstateofeg00wans_djvu.txt", "vansleb_presen
          "The English translation of the travel journal, printed a year after the French. An outside witness; the translator signs only with initials.")])
 
 add("merveillesbiogra05jaba", "merveillesbiogra05jaba_djvu.txt", "jabarti_merveilles-biographiques-et-historiques-t5-fra_1890.txt",
-    "Merveilles biographiques et historiques, ou Chroniques du cheikh Abd-el-Rahman el Djabarti, traduites de l'arabe par Chefik Mansour Bey, Abdulaziz Khalil Bey, Gabriel Nicolas Khalil Bey et Iskender Ammoun Effendi; tome V",
-    "Abd al-Rahman al-Jabarti; translated by Chefik Mansour Bey, Abdulaziz Khalil Bey, Gabriel Nicolas Khalil Bey and Iskender Ammoun Effendi (title page)",
+    "Merveilles biographiques et historiques, ou Chroniques du cheikh Abd-el-Rahman el Djabarti, traduites de l'arabe par Chefik Mansour Bey, Abdulaziz Kahil Bey, Gabriel Nicolas Kahil Bey et Iskender Ammoun Effendi; tome V",
+    "Abd al-Rahman al-Jabarti; translated by Chefik Mansour Bey, Abdulaziz Kahil Bey, Gabriel Nicolas Kahil Bey and Iskender Ammoun Effendi (title page)",
     "Le Caire: Imprimerie nationale (title page)", "1890 (title page; the archive.org record's date field reads 1888)", 1890, NR, "fra",
     "mostly clean French; Arabic names are in Latin letters. Internet Archive credit lines stand at OCR lines 1-20.",
     "The chronicle of Egypt for the Hijri years 1202 to 1212 (1787-1798), each year with its events and its obituaries. Year headings: 1202 at OCR line 96; 1203 at 2059; 1204 at 2851; 1205 at 3314; 1206 at 6490; 1207 at 7584; 1208 at 8412; 1209 at 8994; 1210 at 9431; 1211 and 1212 at 9790. The obituary of the Copt Ibrahim al-Jawhari ('Moallem Ibrahim el Djohari'), under 1209, at 9397-9428. 'Fin du tome cinquième' at 10498; the translators' calendar table at 10501-10694. Other 'El Djohari' passages concern a Muslim sheikh.",
@@ -188,21 +188,8 @@ add("journalathreeye00leegoog", "journalathreeye00leegoog_djvu.txt", "gobat_jour
          "A missionary of the Church Missionary Society keeps a journal of his stay in Abyssinia from 1830. An outside witness."),
      row("lee-brief-history-of-the-church-of-abyssinia", "Samuel Lee, A Brief History of the Church of Abyssinia (in Gobat 1834)", "lee-samuel",
          "OCR lines 663-2822", [ETH], "context", "needs-ruling", "eng",
-         doc((1834, 1834), "title page: 1834"),
+         doc((1834, 1834), "title page: 1834, read on the page image, leaf n9"),
          "Professor Lee's short history, which quotes older authorities. Secondary, and not Gobat's voice.")])
-
-add("sixmonthsinsyria00parr", "sixmonthsinsyria00parr_djvu.txt", "parry_six-months-in-a-syrian-monastery_1895.txt",
-    "Six Months in a Syrian Monastery: being the record of a visit to the head quarters of the Syrian Church in Mesopotamia, with some account of the Yazidis or Devil Worshippers of Mosul and El Jilwah, their sacred book",
-    "Oswald H. Parry; with a prefatory note by the Bishop of Durham (title page)", "London: Horace Cox, Windsor House, Bream's Buildings, E.C. (title page)", "1895 (title page)", 1895,
-    "the archive.org record carries no rights field. Columbia University's microfilm target at the head carries the library's standard statement on photocopying under US copyright law, which is not a statement about this book", "eng",
-    "readable English with many small slips ('tlie', 'tliat'). Columbia's microfilm target and catalog record stand at OCR lines 1-134 (the record there gives 'London, Cox, 1896'; the title page reads 1895), a library plate at 147-161.",
-    "Title page at OCR lines 344-375. The Bishop of Durham's prefatory note (December 1894) at 419-702; the author's introduction at 759-880; contents at 950-1070. Part I, the journey and the stay at Deir el-Za'faran, chapters I-XIX at 1177-15712 (the Yazidis at 14239; Mar Mattai and the Syrians of Mosul at 14903). Part II, The Old Syrian Church: chapter I, the Church of Antioch, at 15713; II, modern history of the Old Syrians, at 16928; III, the clergy and churches, at 17579; IV, customs and condition, at 19126. Appendix at 20021-22166, with a translated Arabic manuscript history of the Yazidis from about 20600. Glossary at 22167; index from 22819.",
-    "Oswald H. Parry", "the-sayfo-and-the-syriac-diaspora",
-    "CFT-Wants batch 2 (ME-7) and Open-Gaps 179, Library wanted: Parry (1895) for the Syriac Orthodox patriarchate, c. 1650-1906.",
-    [row("parry-six-months-in-a-syrian-monastery", "Parry, Six Months in a Syrian Monastery (1895)", "parry",
-         "Part II, The Old Syrian Church, at OCR lines 15713-20020; Part I at 1177-15712", ["the-sayfo-and-the-syriac-diaspora"], "context", "needs-ruling", "eng",
-         doc((1895, 1895), "title page 1895; the prefatory note is dated December 1894 (OCR lines 419-702); the year of the visit was not read in the text"),
-         "An English visitor's account of the Syriac Orthodox patriarchate at Deir el-Za'faran, with a sketch of its modern history. The census has no entry for this church between 1650 and 1906, so the shelf is the nearest later one and needs a ruling.")])
 
 # ---------------- Ethiopia own voice ----------------
 add("annalesregumiysu01guid", "annalesregumiysu01guid_djvu.txt", "annales-regum-iyasu-ii-et-iyoas_versio-fra_guidi1912.txt",
@@ -290,7 +277,7 @@ add("culturaeopulenci00anto", "culturaeopulenci00anto_djvu.txt", "antonil_cultur
     "Open-Gaps 176 (LA8-4), Library wanted: Antonil (1711), named in the census entry for colonial Brazil.",
     [row("antonil-cultura-e-opulencia-do-brasil", "Antonil, Cultura e opulencia do Brasil (1711)", "antonil",
          "the four parts at OCR lines 187-8754; on the slaves and their teaching at 828-882 and 1318-1579", [LATAM], "tradition", "provisional", "por",
-         doc((1710, 1711), "licences of 12 December 1710 to 6 March 1711 (OCR lines 351-419); title page 'Anno de 1711'"),
+         doc((1710, 1711), "licences of 12 December 1710 to 6 March 1711 (OCR lines 351-410); title page 'Anno de 1711'"),
          "A handbook of Brazil's sugar, tobacco, gold and cattle, with counsel to mill owners on the teaching and treatment of the enslaved.")])
 
 add("BSG_8F403_7INV2830RES", "BSG_8F403_7INV2830RES_djvu.txt", "code-noir_recueil-des-reglemens-colonies-francoises-fra_prault1767.txt",
@@ -315,7 +302,7 @@ LW = "Wanted_Sources rows 124 and 125 (major), Library wanted: Launay, Histoire 
 add("cihm_54000", "cihm_54000_djvu.txt", "launay_histoire-generale-de-la-societe-des-missions-etrangeres-t1-fra_1894.txt",
     "Histoire générale de la Société des Missions-Étrangères; tome premier", "Adrien Launay, of the same Society (title page)", "Paris: Téqui, libraire-éditeur (title page)", "1894 (title page)", 1894, NR, "fra",
     "mostly clean French; some pages are broken into columns and garbled (for example near OCR lines 13765 and 38000) and a few pages are scanned twice. Several chapter numerals are misprinted or misread.",
-    "The years 1658 to 1754. A letter from the Seminary's superior from about OCR line 49; Launay's preface at 246-395. Chapters from 619 (1658); chapter IV at 7502 (1664-1665), with the Instructions known as the Monita summarized at about 9402-9604; the first synod of Tonkin (14 February 1670) at 12409-12420, on a page that appears twice (again at 13771-13792); chapter XII at 34493 (1692-1700), with Bishop Maigrot's Mandate discussed at 34849-35060 and its articles quoted in French at about 35075-35382. 'Fin du tome premier' at 49946; table at 49957-50732. Letters and documents are quoted throughout and were not mapped one by one.",
+    "The years 1658 to 1754. A letter from the Seminary's superior from about OCR line 49; Launay's preface at 246-395. Chapters from 619 (1658); chapter IV at 7502 (1664-1665), with the Instructions known as the Monita summarized at about 9402-9604; the first synod of Tonkin (14 February 1670) at 12409-12420, on a page that appears twice (again at 13771-13792; the first copy's OCR reads the year as 1679); chapter XII at 34493 (1692-1700), with Bishop Maigrot's Mandate discussed at 34849-35060 and its articles quoted in French at about 35075-35382. 'Fin du tome premier' at 49946; table at 49957-50732. Letters and documents are quoted throughout and were not mapped one by one.",
     "Adrien Launay", VIET, LW,
     [row("launay-histoire-generale-missions-etrangeres-tome-1-1658-1754", "Launay, Histoire générale de la Société des Missions-Étrangères, tome I: 1658-1754", "launay",
          "chapters at OCR lines 619-49946; the synod of Tonkin at 12409-12420; Maigrot's Mandate at 34849-35382", [VIET, CHINA], "context", "provisional", "fra",
@@ -333,7 +320,7 @@ add("cihm_54001", "cihm_54001_djvu.txt", "launay_histoire-generale-de-la-societe
 
 add("relationabregeed00pall", "relationabregeed00pall_djvu.txt", "pallu_relation-abregee-des-missions-et-des-voyages-des-evesques-francois-fra_1682.txt",
     "Relation abrégée des missions et des voyages des évesques françois, envoyez aux royaumes de la Chine, Cochinchine, Tonquin, et Siam",
-    "François Pallu, bishop of Heliopolis (title page)", "Paris: chez Charles Angot, rue Saint Jacques, au Lion d'Or (title page)",
+    "François Pallu, bishop of Heliopolis (title page)", "Paris: chez Charles Angot, rue Saint Jacques, au Lion d'Or (title page, read on the page image, leaf n2; the OCR drops these lines)",
     "1682 (title page: 'M. DC. LXXXII.', read on the page image, leaf n2; the OCR garbles the numeral)", 1682, NR, "fra",
     "clean French for a print of its age, with the long s read as f.",
     "In order: an extract of a privilege and an approbation of 1665-1666 that name Jacques de Bourges's Relation, at OCR lines 7-36; the title page at 39-58; a scan notice at 61-69; Pallu's dedication to the archbishops, bishops and clergy of France, dated April 1668, at 74-157; a second privilege extract and approbation (April 1666) at 162-195; the Relation at 197-2429, with no chapter headings. Letters from Tonkin and elsewhere are quoted at length inside it.",
@@ -347,55 +334,55 @@ add("relationabregeed00pall", "relationabregeed00pall_djvu.txt", "pallu_relation
 RW = "Wanted_Sources row 126 (major) and Open-Gaps 178, Library wanted: Rhodes's own account of his missions, and the Cathechismus of 1651 with its teaching."
 add("bub_gb_74U28QLld2UC", "bub_gb_74U28QLld2UC_djvu.txt", "rhodes_divers-voyages-de-la-chine-et-autres-royaumes-de-l-orient-fra_1682.txt",
     "Divers voyages de la Chine, et autres royaumes de l'Orient; avec le retour de l'autheur en Europe, par la Perse et l'Arménie; le tout divisé en trois parties",
-    "Alexandre de Rhodes (title page)", "Paris: chez Christophe Journel, au dernier pillier de la grand'salle du Palais (title page)", "1682 (title page: 'M. DC. LXXXII.')", 1682, PDM, "fra",
+    "Alexandre de Rhodes (the archive.org record; the title page names no author and says only 'le retour de l'Autheur'; the narrator is addressed as 'Pere Alexandre' at OCR line 6289)", "Paris: chez Christophe Journel, au dernier pillier de la grand'salle du Palais (title page)", "1682 (title page: 'M. DC. LXXXII.')", 1682, PDM, "fra",
     "clean French; some chapter numerals are wrong. Google's stamp lines stand among the first 109 OCR lines and from 14867.",
-    "A printing of 1682; the Wanted_Sources row names a first printing of 1653, which was not looked for in this print. Privilege extract at OCR lines 71-80; preface at 134. Part 1, from Rome to China, at 253 (chapter I at 263). Part 2, the kingdom of Annam, Tonkin and Cochinchina, at 2604, chapter I at 2651 to chapter LI at 11140. Part 3, the return by Persia and Armenia, at 11354 to chapter XXI at 14505.",
+    "A printing of 1682. Privilege extract at OCR lines 71-80; preface at 134. Part 1, from Rome to China, at 253 (chapter I at 263). Part 2, the kingdom of Annam, Tonkin and Cochinchina, at 2604, chapter I at 2651 to chapter LI at 11140. Part 3, the return by Persia and Armenia, at 11354 to chapter XXI at 14505.",
     "Alexandre de Rhodes", VIET, RW,
     [row("rhodes-divers-voyages-et-missions", "Rhodes, Divers voyages de la Chine et autres royaumes de l'Orient (1682 printing)", "rhodes",
          "parts 1-3 at OCR lines 253 to about 14866; Tonkin and Cochinchina in part 2 at 2604-11353", [VIET], "tradition", "needs-ruling", "fra",
          unk("the title page (OCR lines 32-58) gives 'M. DC. LXXXII.' for this printing; the narrative opens with the departure of 1618 (OCR line 374); a year of writing was not read"),
-         "The missionary tells his own journeys from 1618, with the missions of Tonkin and Cochinchina. The missions he describes come before this entry's window, which is why the shelf needs a ruling.")])
+         "The missionary tells his own journeys from 1618, with the missions of Tonkin and Cochinchina. The title page names no author. The missions he describes come before this entry's window, which is why the shelf needs a ruling.")])
 add("bub_gb_GxWRJap5LkMC_3", "bub_gb_GxWRJap5LkMC_djvu.txt", "rhodes_tunchinensis-historiae-libri-duo-lat_1652.txt",
     "Tunchinensis historiae libri duo, quorum altero status temporalis huius regni, altero mirabiles evangelicae praedicationis progressus referuntur; coeptae per patres Societatis Iesu, ab anno 1627 ad annum 1646",
     "Alexandre de Rhodes, S.J. (title page)", "Lugduni: sumptibus Ioan. Bapt. Devenet, in vico Mercatorio, sub signo Crucis Aureae (title page)",
     "1652 (title page: 'M. DC. LII.', read on the page image, leaf n4; the OCR does not give the numeral)", 1652, PDM, "lat",
     "readable Latin with the long s read as f and c often read for e. Google's stamp lines stand among the first 122 OCR lines.",
-    "Two books. Dedication to Innocent X from OCR line 69; to the reader at 158 and 224; chapter lists at 254 and 433; privilege (Avignon, 1 May 1651) at about 636. Liber primus, the kingdom, at 657 (Caput I at 662) to 4425. Liber II, the preaching of the Gospel from 1627 to 1646, at 4449 (Caput I at 4477); 'Finis' at 12679.",
+    "Two books. Dedication to Innocent X from OCR line 69; to the reader at 158 and 224; chapter lists at 254 and 433; the Society's permission to print (Avignon, 1 May 1651) at about 627-641. Liber primus, the kingdom, at 657 (Caput I at 662) to 4425. Liber II, the preaching of the Gospel from 1627 to 1646, at 4449 (Caput I at 4477); 'Finis' at 12679.",
     "Alexandre de Rhodes", VIET, RW,
     [row("rhodes-tunchinensis-historiae-libri-duo", "Rhodes, Tunchinensis historiae libri duo (Lyon 1652)", "rhodes",
          "Liber I at OCR lines 657-4425; Liber II at 4449-12679", [VIET], "tradition", "needs-ruling", "lat",
-         doc((1651, 1652), "privilege dated Avignon, 1 May 1651 (about OCR line 636); title page 'M. DC. LII.'"),
-         "The missionary's Latin history of Tonkin and of its mission from 1627 to 1646. Before this entry's window, so the shelf needs a ruling.")])
+         doc((1651, 1652), "the Society's permission to print, dated Avignon, 1 May 1651 (about OCR lines 627-637); title page 'M. DC. LII.'"),
+         "The missionary's Latin history of Tonkin and of its mission from 1627 to 1646. The years it tells come before this entry's window, so the shelf needs a ruling.")])
 add("bub_gb_p8UC5ZZ21Q8C", "bub_gb_p8UC5ZZ21Q8C_djvu.txt", "rhodes_cathechismus-in-octo-dies-divisus-lat-vie_1651.txt",
     "Cathechismus pro iis, qui volunt suscipere Baptismum, in octo dies divisus (Latin and Vietnamese in parallel columns)",
     "Alexandre de Rhodes, S.J. (title page)", "Romae: typis Sacrae Congregationis de Propaganda Fide (title page)",
     "1651 (the title page prints no year; the licence of Goswinus Nickel, vicar general of the Society, on the leaf after it is dated 'Romae 8. Iulij 1651', read on the page image, leaf n6; the archive.org record's date field also reads 1651)", 1651, None, "lat-vie",
     "the Latin reads as running text with the long s read as f. The Vietnamese is badly garbled, its tone marks lost, and can serve only to find a place. Each page is given as its Latin half and then its Vietnamese half; marginal letters are mixed into the lines.",
-    "Title page at OCR lines 1-24, with the Vietnamese title garbled at line 16. The Society's licence at 68-80 and the imprimatur at 83-86. Day 1 at 109 (Vietnamese at 136); Day 2 at 1839; Day 3 at 4291; Day 4 at 7084; Day 5 at 11186; Days 6 and 7 not found by a clean heading (page heads at 14297 and 17224); Day 8 at 21293 (Vietnamese at 21326). The text ends at 25890; errata at 25898; noise to the end.",
+    "Title page at OCR lines 5-28, with the Vietnamese title garbled at 20-21. The Society's licence at 68-80 and the imprimatur at 83-86. Day 1 at 109 (Vietnamese at 136); Day 2 at 1839; Day 3 at 4291; Day 4 at 7084; Day 5 at 11186; Days 6 and 7 not found by a clean heading (page heads at 14297 and 17224); Day 8 at 21293 (Vietnamese at 21326). The text ends at 25890; errata at 25898; noise to the end.",
     "Alexandre de Rhodes", VIET, RW,
     [row("rhodes-cathechismus-in-octo-dies-divisus", "Rhodes, Cathechismus in octo dies divisus, Latin and Vietnamese (Rome 1651)", "rhodes",
          "the eight days at OCR lines 109-25890", [VIET], "tradition", "needs-ruling", "lat-vie",
          doc((1651, 1651), "the Society's licence, dated 'Romae 8. Iulij 1651' (OCR line 78, confirmed on the page image, leaf n6)"),
-         "A catechism for those preparing for baptism, in eight days, in Latin beside Vietnamese in Roman letters. Only the Latin can be read in this file. Printed just before this entry's window.")],
-    rights="Public Domain (pd-us-by-date: published 1651; the title page prints no year, and the date is taken from the printed licence on the next leaf, 'Romae 8. Iulij 1651', with which the archive.org catalog date agrees: the Library coordinator's call of 2026-11-15 under Mark's ruling of the same day on undated title pages); " + PDM,
+         "A catechism for those preparing for baptism, in eight days, in Latin beside Vietnamese in Roman letters. Only the Latin can be read in this file. Printed in 1651, as this entry's window opens; the mission it was made for is earlier, so the shelf needs a ruling.")],
+    rights="Public Domain (pd-us-by-date: published 1651; the title page prints no year, and the date is taken from the printed licence on the next leaf, 'Romae 8. Iulij 1651', with which the archive.org catalog date agrees); " + PDM,
     rights_short="published 1651 by the printed licence date, out of US copyright by date")
 
 add("bub_gb_vW4zWSxsvhIC", "bub_gb_vW4zWSxsvhIC_djvu.txt", "historia-cultus-sinensium_varia-scripta-de-cultibus-sinarum-lat_1700.txt",
     "Historia cultus Sinensium, seu varia scripta de cultibus Sinarum, inter vicarios apostolicos Gallos aliosque missionarios, et patres Societatis Jesu controversis, oblata Innocentio XII. pontifici maximo",
     "Several authors: Nicolas Charmot's notes, Charles Maigrot's Mandate, bishops' letters, and writings of the Jesuits in an appendix (the title page names no author)", "Coloniae (title page; no printer named)",
-    "1700 (title page: 'M. DCC.', read on the page image, leaf n6; the OCR does not give the numeral)", 1700, PDM, "lat",
+    "1700 (first title page: 'Coloniae, M. DCC.', read on the page image, leaf n6, where the OCR drops the imprint; the second title page gives 'COLONIAE' and 'M. D C C.' at OCR lines 15962 and 15971)", 1700, PDM, "lat",
     "clean Latin with the long s read as f. Google's stamp lines stand among the first 88 OCR lines and at the end.",
-    "A collection of the writings laid before the Pope in the Chinese rites case. Printer to the reader at OCR lines 48-80; Charmot's notes (29 July 1698) at 120-170; preface from 171; the Historia in five sections at 254, 5148, 5599, 6377 and 7104; a brief of Innocent XII to Maigrot at 7941; Charmot's Notationes at 8194-13133; further pieces at 13134 and 14632. Maigrot's Declaratio seu Mandatum provisionale: heading at 15623, text from 15643, dated at Chang-lo in Fujian on 26 March (the year is garbled in the OCR), signed at 15920. A second title page follows at about 15922. A later piece signed by Maigrot 'in Metropoli Fokiensi' on 10 November 1693 ends at 18820. Bishops' letters at about 19234-19938; replies and memorials from 23424; Jesuit observations at 27431-32074; index from 32210; 'Finis' at 32504. The pieces between 15922 and 23424 were not mapped one by one.",
+    "A collection of the writings laid before the Pope in the Chinese rites case. Printer to the reader at OCR lines 48-80; Nicolas Charmot's notes on the Jesuits' observations on the Mandate (29 July 1698): title at 126-157, preface from 171, five sections at 254, 5148, 5599, 6377 and 7104; a brief of Innocent XII to Maigrot at 7941; Charmot's Notationes at 8194-13133; further pieces at 13134 and 14632. Maigrot's Declaratio seu Mandatum provisionale: heading at 15623, text from 15643, dated at Chang-lo in Fujian on 26 March (the year is garbled in the OCR), signed at 15920. A second title page follows at about 15925-15971. A later piece signed by Maigrot 'in Metropoli Fokiensi' on 10 November 1693 ends at 18820. Bishops' letters at about 19234-19938; replies and memorials from 23424; Jesuit observations at 27431-32074; index from 32210; 'Finis' at 32504. The pieces between 15922 and 23424 were not mapped one by one.",
     "Charles Maigrot; Nicolas Charmot; others", CHINA,
     "Wanted_Sources row 124 (major), Library wanted: Maigrot's Mandate of 1693 in a printing of the time.",
     [row("maigrot-mandatum-provisionale-1693", "Charles Maigrot, Declaratio seu Mandatum provisionale (26 March 1693), Latin (Cologne 1700)", "maigrot",
          "OCR lines 15623-15921", [CHINA], "tradition", "provisional", "lat",
-         doc((1693, 1693), "the Mandate's date line, 'die vigesima sexta mensis Martii anni Domini' (about OCR lines 15914-15918); the year is garbled there and is read 1693 from the later piece in the same volume dated 'decima Novembris 1693' (18817) and from Launay"),
+         doc((1693, 1693), "the Mandate's date line, 'die vigesima sexta mensis Martii anni Domini' (about OCR lines 15914-15918); the year is garbled there and is read 1693 from the later piece in the same volume dated 'decima Novembris 1693' (18817, where the OCR prints '16931')"),
          "The vicar apostolic of Fujian's provisional ruling for the priests of his vicariate on the disputed Chinese rites. His own text, printed in 1700."),
-     row("historia-cultus-sinensium-the-collection", "Historia cultus Sinensium: the vicars apostolic's case against the Chinese rites (Cologne 1700)", "charmot",
-         "the Historia at OCR lines 254-7940; Charmot's Notationes at 8194-13133; the Jesuit observations at 27431-32074", [CHINA, SJ], "tradition", "needs-ruling", "lat",
+     row("charmot-notae-and-notationes-on-the-jesuit-observations", "Nicolas Charmot, Notae and Notationes on the Jesuits' observations on Maigrot's Mandate (in Historia cultus Sinensium, Cologne 1700)", "charmot",
+         "the Notae at OCR lines 126-7940; the Notationes at 8194-13133", [CHINA], "tradition", "needs-ruling", "lat",
          doc((1698, 1700), "Charmot's notes are dated 29 July 1698 and 7 October 1698 (OCR lines 120-170, 8194); title page 'M. DCC.'"),
-         "The case of the French vicars apostolic against the Jesuits on the Chinese rites, as laid before Innocent XII, with Jesuit writings in an appendix. Several voices; each piece must be cited by its own author.")])
+         "Charmot's answers to the Jesuits' observations on the Mandate, laid before the Holy Office. The Jesuits' own writings stand later in the volume (from about OCR line 27431) and are not part of this row.")])
 
 add("ASketchOfTheRiseAndProgress", "ASketchOfTheRiseAndProgress_djvu.txt", "ceylon-catholic-church_sketch-of-the-rise-and-progress_1848.txt",
     "A Sketch of the Rise and Progress of the Catholic Church in Ceylon", "Anonymous (no author is named anywhere in the print; the archive.org record credits Simon Casie Chitty)",
@@ -405,9 +392,9 @@ add("ASketchOfTheRiseAndProgress", "ASketchOfTheRiseAndProgress_djvu.txt", "ceyl
     "Anonymous", CEYLON,
     "Wanted_Sources row 127 (major) and Open-Gaps 178, Library wanted: the Sketch (Colombo, 1848) named in the census for Joseph Vaz.",
     [row("sketch-of-the-catholic-church-in-ceylon-1848", "A Sketch of the Rise and Progress of the Catholic Church in Ceylon (Colombo 1848)", "ceylon-catholic-church",
-         "the text at OCR lines 112-1334; Joseph Vaz at about 754-910; the Dutch placards at about 596-642", [CEYLON], "tradition", "needs-ruling", "eng",
+         "the text at OCR lines 112-1334; Joseph Vaz at about 754-910; the Dutch placards at about 596-642", [CEYLON], "context", "needs-ruling", "eng",
          doc((1848, 1848), "title page: 'Colombo 1848'"),
-         "An unsigned history of the Catholic church in Ceylon, printed at Colombo. The host's attribution to Simon Casie Chitty is not in the print.")])
+         "An unsigned history of the Catholic church in Ceylon, printed at Colombo forty years after this entry's window closes. The host's attribution to Simon Casie Chitty is not in the print.")])
 
 BW = "Wanted_Sources row 156 and Open-Gaps 178, Library wanted: Baldaeus (Amsterdam, 1672), a Dutch Reformed account of the Ceylon church."
 add("naauwkeurigebesc00bald", "naauwkeurigebesc00bald_djvu.txt", "baldaeus_naauwkeurige-beschryvinge-van-malabar-en-choromandel-en-ceylon-nld_1672.txt",
@@ -462,6 +449,18 @@ add("oudennieuwoostin03vale", "oudennieuwoostin03vale_djvu.txt", "valentijn_oud-
          doc((1726, 1726), "title page: 'MDCCXXVI'"),
          "The minister's descriptions of other lands of the Company's trade. Church matters there were not mapped.")])
 
+RULED = {
+    "annales-regum-iyasu-ii-et-iyoas_versio-fra_guidi1912.txt": {"ethiopian-royal-chronicles": ("anonymous", "The title page (file lines 233-305) names the kings whose annals these are and Ignazio Guidi as translator; it names no author.")},
+    "annales-regum-iyasu-ii-et-iyoas_textus-gez_guidi1910.txt": {"ethiopian-royal-chronicles": ("anonymous", "The title page (file lines 133-177) names the kings whose annals these are and Ignazio Guidi as editor; it names no author.")},
+    "gobat_journal-of-a-three-years-residence-in-abyssinia_1834.txt": {"lee-samuel": ("metadata-omission", "The title page (file lines 81-109) reads 'A Brief History of the Church of Abyssinia, by the Rev. Professor Lee, D.D.'; the history stands at file lines 675-2834.")},
+    "historia-cultus-sinensium_varia-scripta-de-cultibus-sinarum-lat_1700.txt": {
+        "maigrot": ("metadata-omission", "The Mandate is headed with his name (file lines 15645-15657, 'Carolus Maigrot Sacerdos Vicarius Apostolicus Fokiensis') and signed 'Carolus Maigrot' at file line 15932."),
+        "charmot": ("metadata-omission", "The notes on the Jesuits' observations on the Mandate are headed 'a Nicolao Charmot' (heading at file lines 138-169, his name at 158); the title pages name no author.")},
+    "rhodes_divers-voyages-de-la-chine-et-autres-royaumes-de-l-orient-fra_1682.txt": {"rhodes": ("metadata-omission", "The title page (file lines 44-70) names no author; the archive.org record credits Alexandre de Rhodes, and the narrator is addressed as 'Pere Alexandre' at file line 6301. The attribution is the record's.")},
+}
+for it in items:
+    if it["filename"] in RULED:
+        it["authors_ruled"] = {k: dict(kind=v[0], evidence=v[1]) for k, v in RULED[it["filename"]].items()}
 json.dump(items, open(S + "spec1.json", "w"), ensure_ascii=False, indent=1)
 print(len(items), "items")
 for it in items:

@@ -850,7 +850,7 @@ authors:
   charmot:
     kind: metadata-omission
     evidence: The notes on the Jesuits' observations on the Mandate are headed 'a Nicolao
-      Charmot' (file lines 134-145); the title page names no author.
+      Charmot' (heading at file lines 138-169, his name at 158); the title pages name no author.
     from_file: historia-cultus-sinensium_varia-scripta-de-cultibus-sinarum-lat_1700.txt
   chirino:
     kind: metadata-omission
@@ -2146,9 +2146,8 @@ authors:
     from_file: john-biclaro-leander-pl72-lat_migne1878.txt
   lee-samuel:
     kind: metadata-omission
-    evidence: The title page (file lines 60-112) reads 'to which is prefixed, A Brief History
-      of the Church of Abyssinia, by the Rev. Professor Lee, D.D.'; the history stands at
-      file lines 675-2834.
+    evidence: The title page (file lines 81-109) reads 'A Brief History of the Church of Abyssinia,
+      by the Rev. Professor Lee, D.D.'; the history stands at file lines 675-2834.
     from_file: gobat_journal-of-a-three-years-residence-in-abyssinia_1834.txt
   leonard-of-chios:
     kind: metadata-omission
@@ -3164,6 +3163,12 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  rhodes:
+    kind: metadata-omission
+    evidence: The title page (file lines 44-70) names no author; the archive.org record credits
+      Alexandre de Rhodes, and the narrator is addressed as 'Pere Alexandre' at file line
+      6301. The attribution is the record's.
+    from_file: rhodes_divers-voyages-de-la-chine-et-autres-royaumes-de-l-orient-fra_1682.txt
   rhodon:
     kind: metadata-omission
     evidence: div2 10.8 'Rhodon' names the author.
