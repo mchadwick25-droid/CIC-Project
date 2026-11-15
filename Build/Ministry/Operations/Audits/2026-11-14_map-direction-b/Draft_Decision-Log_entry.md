@@ -45,8 +45,10 @@
 
 **Measured.** Map height 12,744. Overlaps 0 at zooms 0.2, 0.32, 0.39, 0.47, 0.58, 0.7, 0.9, 1.4, 1.8, 2.6, 4 and 7, and 0 with a Who open in all 29 river-eras on desktop and phone. The prototype's one overlap at 0.47 came from a guessed text height; the build measures the font.
 
-**Review.** Three rounds by fresh Opus agents at full effort: the code against the decision list, the participant-facing text against the reading bar, and the AI-tells check. [ROUND COUNTS]
+**Review.** Three rounds by fresh Opus agents at full effort: the code against the decision list, the participant-facing text against the reading bar, and the AI-tells check (`Review_r1-*.md` to `Review_r3-*.md`). Round 3's blocking code points were fixed under Mark's cap rulings, each followed by one targeted check: `Review_r3-fixcheck.md`, `Review_r3-fixcheck2.md` and `Review_r3-fixcheck3.md`. The last of these found all six of its points fixed, no regressions and one new minor point (see Open-Gaps 270). The river-note removal had its own check and three rechecks (`Review_r3-lore-removal.md`), and they closed its blocking points.
 
-**Not tested here.** Real touch, a screen reader, speed on an older phone, and [OTHERS].
+**Not tested here.** Real touch, a screen reader, speed on an older phone, audio and a real phone's touch on the new card Who button. The browser checks used Chromium with emulated devices only.
 
-Approved to proceed (Mark, [DATE]).
+**Release.** Data release 44 (15 November 2026). The data page and the census license credit show release 44. Release 44 follows release 43 (PR #1663).
+
+Approved to proceed (Mark, 2026-11-15: "yes for release 44 finish"; "i have approved it 3 times").
