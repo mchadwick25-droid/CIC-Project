@@ -1,0 +1,11 @@
+source_file: zankov_eastern-orthodox-church_lowrie1929.txt
+assignments:
+- row_id: zankov_eastern-orthodox-church_lowrie1929--zankov-the-eastern-orthodox-church-lowrie-1929
+  work: 'Zankov, The Eastern Orthodox Church (Lowrie 1929)'
+  author: zankov
+  locus: 'whole; the forewords are not his'
+  atlas_ids:
+  - orthodoxy-in-the-communist-balkans
+  role: tradition
+  confidence: assigned
+  note: 'A Bulgarian Orthodox professor''s own account, in an English edition that folds most footnotes into the text.'

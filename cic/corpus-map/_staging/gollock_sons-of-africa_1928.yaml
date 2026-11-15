@@ -1,0 +1,20 @@
+source_file: gollock_sons-of-africa_1928.txt
+assignments:
+- row_id: gollock_sons-of-africa_1928--gollock-sons-of-africa-the-prophets-harris-malaki-elijah-ii
+  work: 'Gollock, Sons of Africa: the prophets (Harris, Malaki, "Elijah II", Kibangu)'
+  author: gollock
+  locus: 'lines 6616-7180'
+  atlas_ids:
+  - african-initiated-churches-harrist-aladura-zioni
+  role: context
+  confidence: assigned
+  note: 'A mission editor''s second-hand account of 1928. The print spells Kibangu and Braid so.'
+- row_id: gollock_sons-of-africa_1928--gollock-sons-of-africa-kivubulaya-at-work
+  work: 'Gollock, Sons of Africa: "Kivubulaya at Work"'
+  author: gollock
+  locus: 'lines 6074-6256'
+  atlas_ids:
+  - east-african-christianity-uganda-martyrs
+  role: context
+  confidence: assigned
+  note: 'A later outside account of Apolo Kivebulaya, printed in 1928, after the entry''s window; it names no source.'

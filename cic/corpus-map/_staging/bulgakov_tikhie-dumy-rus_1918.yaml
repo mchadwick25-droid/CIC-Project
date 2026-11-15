@@ -6,6 +6,6 @@ assignments:
   locus: 'whole'
   atlas_ids:
   - emigre-orthodoxy-and-the-paris-school
-  role: tradition
-  confidence: needs-ruling
+  role: antecedent
+  confidence: assigned
   note: 'His own articles of 1911-15, printed in Moscow in 1918, before the entry''s window. Poor OCR: a second witness until checked against the page images.'

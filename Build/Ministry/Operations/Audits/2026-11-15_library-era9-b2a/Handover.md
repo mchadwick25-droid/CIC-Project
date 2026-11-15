@@ -60,8 +60,8 @@ What went wrong, and the fix to keep:
   second case: Launay's Histoire générale, tome 2 (`cihm_54001`), vendored on main by the era 8 batch under a
   different file name, so that git showed no conflict on the file itself. This batch's copy was dropped and its
   map row moved to main's file; the two texts are the same below the header, so the line numbers hold. A third case came with batch 2b's merge: Neatby's History of the
-  Plymouth Brethren, under the same file name. Main's copy and entries were kept and this batch's map row for
-  Darby was added to main's staging file.
+  Plymouth Brethren, under the same file name. Main's copy and entries were kept and this batch's locus for
+  Darby was added to main's map row (the merge refuses two rows for one work from one file on one entry).
 - **A searcher's "held already" check misses files named differently.** Ormanian's Church of Armenia was
   picked though it was held. Check every pick's archive.org id against `REGISTRY.yaml` and the queue file
   before building.

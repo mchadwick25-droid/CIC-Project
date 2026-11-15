@@ -6,6 +6,6 @@ assignments:
   locus: 'whole; Bodley''s introduction is not hers'
   atlas_ids:
   - the-1904-07-revival-family-wales-mukti-india-pyo
-  role: tradition
-  confidence: needs-ruling
-  note: 'Her own words, but written in 1887, before the entry''s window of 1904-1910.'
+  role: antecedent
+  confidence: assigned
+  note: 'Her own words, written in 1887, before the entry''s window of 1904-1910 and before Mukti.'

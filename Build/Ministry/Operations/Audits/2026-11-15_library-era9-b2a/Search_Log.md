@@ -104,7 +104,7 @@ Not taken, because neither test is met:
   1833 now stands on that file.
 - `ahistoryoftheply00neatuoft` (Neatby, History of the Plymouth Brethren, 1901): vendored and reviewed here,
   then dropped at the last merge with main, where era 9 batch 2b had vendored the same scan under the same name.
-  The map row for row 181 (chapter IX, on Darby) now stands on that file.
+  The locus for row 181 (chapter IX, on Darby) is added to that file's map row.
 - The Chronicle of Menelik II: the host file holds tome I (Paris 1930) and tome II (Paris 1932). Only tome I
   was taken; the file is cut before tome II's title page, and its header says so.
 

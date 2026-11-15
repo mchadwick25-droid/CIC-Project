@@ -23,6 +23,65 @@ works:
     was not found). The title page gives the author as J. G. B.; the archive.org record names
     John Gifford Bellett.'
   source_file: bellett_short-meditation-on-the-moral-glory-of-the-lord-jesus-christ_1865.txt
+- row_id: darby_dialogues-on-the-essays-and-reviews_2nd-ed1863--dialogues-on-the-essays-and-reviews-second-edition-revised
+  work: DIALOGUES ON THE ESSAYS AND REVIEWS. Second edition, revised
+  author: darby
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1863
+    end: 1863
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n5; the
+      OCR does not give it cleanly'
+    formation_confidence: Documented
+  edition_date:
+    year: 1863
+    source: read on the scan's page image, leaf n5; the OCR does not give it cleanly
+    formation_confidence: Documented
+  note: 'Era 9 row 181, John Nelson Darby: a book of his own, printed without his name. The
+    title page names no author; the archive.org record names Darby.'
+  source_file: darby_dialogues-on-the-essays-and-reviews_2nd-ed1863.txt
+- row_id: darby_studies-on-the-book-of-daniel_3rd-ed1864--studies-on-the-book-of-daniel-a-course-of-lectures-by-j-n
+  work: 'STUDIES ON THE BOOK OF DANIEL: A COURSE OF LECTURES BY J. N. DARBY. TRANSLATED FROM
+    THE FRENCH, AND REVISED'
+  author: darby
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1864
+    end: 1864
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n5; the
+      OCR does not give it cleanly'
+    formation_confidence: Documented
+  edition_date:
+    year: 1864
+    source: read on the scan's page image, leaf n5; the OCR does not give it cleanly
+    formation_confidence: Documented
+  note: 'Era 9 row 181, John Nelson Darby: lectures of his own, translated from the French.'
+  source_file: darby_studies-on-the-book-of-daniel_3rd-ed1864.txt
+- row_id: darby_seven-lectures-on-the-second-coming-of-the-lord_toronto1863--seven-lectures-on-the-second-coming-of-the-lord-delivered-in
+  work: Seven Lectures on the Second Coming of the Lord. Delivered in Toronto, in 1863, by
+    J. N. Darby. From revised
+  author: darby
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1863
+    end: 1863
+    source: 'the printing''s own title page: line 44 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1863
+    source: line 44 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 181, John Nelson Darby: lectures of his own.'
+  source_file: darby_seven-lectures-on-the-second-coming-of-the-lord_toronto1863.txt
 - row_id: groves_journal-of-a-residence-at-bagdad-1830-1831_1832--journal-of-a-residence-at-bagdad-during-the-years-1830-and
   work: Journal of a residence at Bagdad, during the years 1830 and 1831, by Anthony N. Groves,
     missionary
@@ -108,7 +167,8 @@ works:
   author: neatby
   locus: Benjamin Wills Newton introduced at lines 2462-2476; chapter VI, The Strife at Plymouth
     in 1845, at lines 4450-5635; chapter VII, The Doctrinal Controversy at Plymouth, at lines
-    5640-6722; the rest not mapped
+    5640-6722; chapter IX, The Epoch of Exclusivism - The Supremacy of Darby, at lines 7779-8463;
+    the rest not mapped
   role: context
   confidence: provisional
   language: eng
@@ -121,7 +181,8 @@ works:
     year: 1901
     source: line 69, on the title page
     formation_confidence: Documented
-  note: 'Era 9 row 259, Benjamin Wills Newton: an account of the division by another.'
+  note: 'Era 9 row 259, Benjamin Wills Newton: an account of the division by another. Era
+    9 row 181, John Nelson Darby: a history of the Brethren by another hand.'
   source_file: neatby_history-of-the-plymouth-brethren_1901.txt
 - row_id: newton-b-w_thoughts-on-the-apocalypse_2nd-ed1853--thoughts-on-the-apocalypse-second-edition
   work: Thoughts on the Apocalypse; second edition

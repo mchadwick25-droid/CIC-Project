@@ -16,5 +16,5 @@ assignments:
   atlas_ids:
   - the-social-gospel
   role: context
-  confidence: needs-ruling
+  confidence: assigned
   note: 'A critic''s voice, written in 1932, after that entry''s window closes in 1918.'

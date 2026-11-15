@@ -3,6 +3,47 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-russian-orthodox-church-council-patriarchate-and-reunion
 works:
+- row_id: christian-east_v8-no4-winter-1927--metropolitan-sergius-letter-of-16-29-july-1927-in-the
+  work: Metropolitan Sergius, letter of 16/29 July 1927, in The Christian East
+  author: christian-east
+  locus: lines 363-568
+  role: tradition
+  confidence: assigned
+  note: His own letter with the Synod's signatures, in an English whose maker the print does
+    not name; the journal says it prints it in full.
+  source_file: christian-east_v8-no4-winter-1927.txt
+- row_id: christian-east_v4-no2-may-1923--patriarch-tikhon-a-pastoral-1923-in-the-christian-east
+  work: Patriarch Tikhon, a pastoral (1923), in The Christian East
+  author: christian-east
+  locus: lines 4125-4200
+  role: tradition
+  confidence: assigned
+  note: His own words in the journal's English, made from a Belgrade Russian newspaper.
+  source_file: christian-east_v4-no2-may-1923.txt
+- row_id: christian-east_v4-no4-november-1923--patriarch-tikhon-epistle-of-15-july-1923-in-the-christian
+  work: Patriarch Tikhon, epistle of 15 July 1923, in The Christian East
+  author: christian-east
+  locus: lines 1359-1629
+  role: tradition
+  confidence: assigned
+  note: His own words in an English whose maker the print does not name.
+  source_file: christian-east_v4-no4-november-1923.txt
+- row_id: christian-east_v2-no2-july-1921--the-christian-east-volume-ii-number-2-july-1921-on-the
+  work: 'The Christian East, volume II, number 2 (July, 1921): on the Russian church'
+  author: christian-east
+  locus: whole
+  role: context
+  confidence: assigned
+  note: An Anglican journal's reports on the Russian church; an outside witness.
+  source_file: christian-east_v2-no2-july-1921.txt
+- row_id: christian-east_v4-no2-may-1923--the-christian-east-volume-iv-number-2-may-1923-on-the
+  work: 'The Christian East, volume IV, number 2 (May, 1923): on the Russian church'
+  author: christian-east
+  locus: whole
+  role: context
+  confidence: assigned
+  note: An Anglican journal's reports on the Russian church; an outside witness.
+  source_file: christian-east_v4-no2-may-1923.txt
 - row_id: emhardt_religion-in-soviet-russia-anarchy_1929--emhardt-religion-in-soviet-russia-anarchy
   work: 'Emhardt, Religion in Soviet Russia: Anarchy'
   author: emhardt
@@ -30,6 +71,15 @@ works:
   note: An account printed in London in 1928; it summarizes the documents and does not print
     them whole.
   source_file: fedotoff_russian-church-since-the-revolution_1928.txt
+- row_id: nikolaevskii-sobor_ko-dniu-dvadtsatipiatiletiia-patriarkha-tikhona-rus_1922--ko-dniu-25-letiia-v-arkhiereiskom-sane-patriarkha-tikhona
+  work: Ko dniu 25-letiia v arkhiereiskom sane Patriarkha Tikhona (New York, 1922)
+  author: nikolaevskii-sobor
+  locus: whole; his speech of 1898 at lines 296-420
+  role: tradition
+  confidence: assigned
+  note: His own church's clergy in America, writing in 1922. The trial words are told at second
+    hand.
+  source_file: nikolaevskii-sobor_ko-dniu-dvadtsatipiatiletiia-patriarkha-tikhona-rus_1922.txt
 - row_id: spinka_church-and-the-russian-revolution_1927--patriarch-tikhon-epistle-of-january-19-1918-english-in
   work: Patriarch Tikhon, epistle of January 19, 1918 (English, in Spinka 1927)
   author: spinka
@@ -47,3 +97,28 @@ works:
   confidence: assigned
   note: A historian's account, printed in 1927.
   source_file: spinka_church-and-the-russian-revolution_1927.txt
+- row_id: valentinov_chernaia-kniga-rus_1925--patriarch-tikhon-epistle-on-help-for-the-starving-15
+  work: Patriarch Tikhon, epistle on help for the starving, 15 February 1922 (as printed in
+    Valentinov 1925)
+  author: valentinov
+  locus: lines 13444-13517
+  role: tradition
+  confidence: assigned
+  note: His own words in Russian, in full, as an émigré compiler printed them in 1925.
+  source_file: valentinov_chernaia-kniga-rus_1925.txt
+- row_id: vvedensky_tserkov-i-gosudarstvo-rus_1923--patriarch-tikhon-epistle-of-19-january-1918-as-printed-in
+  work: Patriarch Tikhon, epistle of 19 January 1918 (as printed in Vvedensky 1923)
+  author: vvedensky
+  locus: lines 8188-8351
+  role: tradition
+  confidence: assigned
+  note: His own words in Russian, printed by an opponent in 1923, in the new spelling.
+  source_file: vvedensky_tserkov-i-gosudarstvo-rus_1923.txt
+- row_id: vvedensky_tserkov-i-gosudarstvo-rus_1923--vvedensky-tserkov-i-gosudarstvo-1923
+  work: Vvedensky, Tserkov i gosudarstvo (1923)
+  author: vvedensky
+  locus: whole
+  role: context
+  confidence: assigned
+  note: A renovationist leader's partisan account, against the Patriarch.
+  source_file: vvedensky_tserkov-i-gosudarstvo-rus_1923.txt

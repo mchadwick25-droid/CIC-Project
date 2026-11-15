@@ -1,0 +1,11 @@
+source_file: velimirovic_soul-of-serbia_1916.txt
+assignments:
+- row_id: velimirovic_soul-of-serbia_1916--velimirovic-the-soul-of-serbia-1916
+  work: 'Velimirović, The Soul of Serbia (1916)'
+  author: velimirovic
+  locus: 'whole'
+  atlas_ids:
+  - orthodoxy-in-the-communist-balkans
+  role: antecedent
+  confidence: assigned
+  note: 'His own lectures in English, printed in 1916, before the entry''s window opens in 1920.'

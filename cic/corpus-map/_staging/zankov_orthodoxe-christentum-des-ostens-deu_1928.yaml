@@ -1,0 +1,11 @@
+source_file: zankov_orthodoxe-christentum-des-ostens-deu_1928.txt
+assignments:
+- row_id: zankov_orthodoxe-christentum-des-ostens-deu_1928--zankow-das-orthodoxe-christentum-des-ostens-1928
+  work: 'Zankow, Das orthodoxe Christentum des Ostens (1928)'
+  author: zankov
+  locus: 'whole'
+  atlas_ids:
+  - orthodoxy-in-the-communist-balkans
+  role: tradition
+  confidence: assigned
+  note: 'A Bulgarian Orthodox professor''s own account, in the German he lectured in.'

@@ -8,8 +8,8 @@
   "scope": "vendored coverage only - see this script's own docstring for why the acquirable/purchasable/no-edition-exists breakdown is not included here",
   "counts": {
     "total_entries": 619,
-    "entries_with_coverage": 290,
-    "entries_zero_coverage": 329
+    "entries_with_coverage": 296,
+    "entries_zero_coverage": 323
   },
   "entries": {
     "post-apostolic-house-church": {
@@ -36038,6 +36038,22 @@
           "confidence": "provisional",
           "source_file": "butcher_story-of-the-church-of-egypt-v2_1897.txt",
           "rights": "Public Domain (pd-us-by-date: published 1897); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "Manassa, Tarikh al-Kanisa al-Qibtiyya (history of the Coptic Church, 1924)",
+          "author": "manassa-yuhanna",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "manassa-yuhanna_tarikh-al-kanisa-al-qibtiyya-ara_1924.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1924; the title-page year, read on the page image (\"الطبعة الأولى سنة ١٩٢٤ م\"); the OCR misreads the last digit; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Kyriakos Mikhail, Copts and Moslems under British Control (1911)",
+          "author": "mikhail",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "mikhail_copts-and-moslems-under-british-control_1911.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1911; the title-page year; the archive.org record says possible-copyright-status \"NOT_IN_COPYRIGHT\")"
         }
       ]
     },
@@ -36880,6 +36896,14 @@
       "status": "Pre-Survey Candidate",
       "works": [
         {
+          "work": "The Divine Liturgy of the Holy Apostolic Church of Armenia (English, 1908)",
+          "author": "armenian-church",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "armenian-church_divine-liturgy_1908.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1908; the title-page year, read on the page image (\"MCMVIII\"; the verso reads \"First Published in 1908\"); the archive.org record carries no rights field)"
+        },
+        {
           "work": "History of Armenia (Chamich; Avdall's English translation, 1827): Avdall's continuation 1780-1827",
           "author": "avdall",
           "role": "context",
@@ -36910,6 +36934,14 @@
           "confidence": "provisional",
           "source_file": "issaverdens_armenian-ritual-parts1-4_1876.txt",
           "rights": "Public Domain (published 1876, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Khrimian Hayrik, Amboghjakan erker (collected works, 1929)",
+          "author": "khrimian",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "khrimian_amboghjakan-yerker-hye_1929.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1929; the title-page year; the archive.org record carries no rights field)"
         },
         {
           "work": "Il Servo di Dio Abate Mechitar, as a work of the twentieth-century congregation",
@@ -37426,12 +37458,28 @@
           "rights": "Public Domain (pd-us-by-date: published 1895); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
         },
         {
+          "work": "Gollock, Sons of Africa: \"Kivubulaya at Work\"",
+          "author": "gollock",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "gollock_sons-of-africa_1928.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1928; the title page prints no year; the date used is the copyright notice, \"Copyright, 1928\"; the archive.org record carries no rights field)"
+        },
+        {
           "work": "Travels, researches, and missionary labours, during an eighteen years' residence in Eastern Africa; together",
           "author": "krapf",
           "role": "tradition",
           "confidence": "provisional",
           "source_file": "krapf_travels-researches-and-missionary-labours-in-eastern-africa_1860.txt",
           "rights": "Public Domain (pd-us-by-date: published 1860); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "Tucker, Eighteen Years in Uganda and East Africa, volume II",
+          "author": "tucker",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "tucker_eighteen-years-in-uganda-and-east-africa-v2_1908.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1908; the title-page year; the archive.org record carries no rights field)"
         }
       ]
     },
@@ -37693,8 +37741,8 @@
         {
           "work": "Ramabai, The High-Caste Hindu Woman",
           "author": "ramabai",
-          "role": "tradition",
-          "confidence": "needs-ruling",
+          "role": "antecedent",
+          "confidence": "assigned",
           "source_file": "ramabai_high-caste-hindu-woman_1888.txt",
           "rights": "Public Domain (pd-us-by-date: printed 1888; the title-page year; the archive.org record carries no rights field)"
         },
@@ -37724,7 +37772,56 @@
     "african-initiated-churches-harrist-aladura-zioni": {
       "name": "African-Initiated Churches (Harrist; Aladura; Zionist/ZCC; Kimbanguist)",
       "status": "Pre-Survey Candidate",
-      "works": []
+      "works": [
+        {
+          "work": "Gollock, Sons of Africa: the prophets (Harris, Malaki, \"Elijah II\", Kibangu)",
+          "author": "gollock",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "gollock_sons-of-africa_1928.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1928; the title page prints no year; the date used is the copyright notice, \"Copyright, 1928\"; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Allegret on the prophet Harris (International Review of Missions, 1923)",
+          "author": "international-review-of-missions",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "international-review-of-missions_v12_1923.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1923; the year on the volume title leaf; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Lerrigo, \"The 'Prophet Movement' in Congo\" (International Review of Missions, 1922)",
+          "author": "international-review-of-missions",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "international-review-of-missions_v11_1922.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1922; the year on the volume title leaf; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Thompson, \"The Ivory Coast: A Study in Modern Missionary Method\" (International Review of Missions, 1928)",
+          "author": "international-review-of-missions",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "international-review-of-missions_v17_1928.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1928; the year on the volume title leaf; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Marty, Études sur l'Islam en Côte d'Ivoire: \"Le harrisme\"",
+          "author": "marty",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "marty_etudes-sur-l-islam-en-cote-d-ivoire-fra_1922.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1922; the title-page year; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Smith, The Christian Mission in Africa: on the prophet Harris",
+          "author": "smith",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "smith_christian-mission-in-africa-le-zoute-1926_1926.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1926; the title-page year; the archive.org record carries no rights field)"
+        }
+      ]
     },
     "the-chinese-church-indigenous-and-suffering": {
       "name": "The Chinese Church - Indigenous & Suffering",
@@ -37749,8 +37846,8 @@
         {
           "work": "Cheng Ching-yi, speech at Edinburgh 1910 (Report of Commission VIII), for the Chinese Church shelf",
           "author": "world-missionary-conference",
-          "role": "tradition",
-          "confidence": "needs-ruling",
+          "role": "antecedent",
+          "confidence": "assigned",
           "source_file": "world-missionary-conference_edinburgh-1910-v8-report-of-commission-8_1910.txt",
           "rights": "Public Domain (pd-us-by-date: printed 1910; the title page prints the year only in the work's own title (\"World Missionary Conference, 1910\") and carries no separate imprint year, copyright notice or dated preface; the publishers on the title page are those of the first printing (Oliphant, Anderson & Ferrier, Edinburgh and London; Fleming H. Revell Company, New York, Chicago and Toronto), nothing in the scan names a later printing, and the library catalog date is 1910; the archive.org record carries no rights field)"
         }
@@ -37795,18 +37892,218 @@
         {
           "work": "Bulgakov, Dva grada (Two Cities), volume II",
           "author": "bulgakov",
-          "role": "tradition",
-          "confidence": "needs-ruling",
+          "role": "antecedent",
+          "confidence": "assigned",
           "source_file": "bulgakov_dva-grada-tom-2-rus_1911.txt",
           "rights": "Public Domain (pd-us-by-date: printed 1911; the title-page year, read on the page image; the archive.org record carries no rights field)"
         },
         {
           "work": "Bulgakov, Tikhie dumy (Quiet Thoughts)",
           "author": "bulgakov",
-          "role": "tradition",
-          "confidence": "needs-ruling",
+          "role": "antecedent",
+          "confidence": "assigned",
           "source_file": "bulgakov_tikhie-dumy-rus_1918.txt",
           "rights": "Public Domain (pd-us-by-date: printed 1918; the title-page year; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Put' (Paris), number 1 (1925)",
+          "author": "put",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "put_n01-rus_1925.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1925; the masthead date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Put' (Paris), number 10 (1928)",
+          "author": "put",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "put_n10-rus_1928.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1928; the masthead date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Put' (Paris), number 11 (1928)",
+          "author": "put",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "put_n11-rus_1928.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1928; the masthead date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Put' (Paris), number 12 (1928)",
+          "author": "put",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "put_n12-rus_1928.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1928; the masthead date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Put' (Paris), number 13 (1928)",
+          "author": "put",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "put_n13-rus_1928.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1928; the masthead date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Put' (Paris), number 14 (1928)",
+          "author": "put",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "put_n14-rus_1928.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1928; the masthead date (\"№ 14. Декабрь 1928\"); the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Put' (Paris), number 15 (1929)",
+          "author": "put",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "put_n15-rus_1929.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1929; the masthead date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Put' (Paris), number 16 (1929)",
+          "author": "put",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "put_n16-rus_1929.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1929; the masthead date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Put' (Paris), number 17 (1929)",
+          "author": "put",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "put_n17-rus_1929.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1929; the OCR misreads the masthead year as \"1939\"; numbers 16 and 18 are both dated 1929, and a piece in this number is dated \"23. III. 1929\"; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Put' (Paris), number 18 (1929)",
+          "author": "put",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "put_n18-rus_1929.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1929; the masthead date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Put' (Paris), number 19 (1929)",
+          "author": "put",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "put_n19-rus_1929.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1929; the masthead date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Put' (Paris), number 2 (1926)",
+          "author": "put",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "put_n02-rus_1926.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1926; the masthead date (\"№ 2. Январь 192[6]\": the OCR garbles the last digit; number 1 is dated September 1925 and number 3 is dated 1926); the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Put' (Paris), number 20 (1930)",
+          "author": "put",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "put_n20-rus_1930.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1930; the masthead date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Put' (Paris), number 21 (1930)",
+          "author": "put",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "put_n21-rus_1930.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1930; the masthead date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Put' (Paris), number 22 (1930)",
+          "author": "put",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "put_n22-rus_1930.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1930; the masthead date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Put' (Paris), number 23 (1930)",
+          "author": "put",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "put_n23-rus_1930.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1930; the masthead date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Put' (Paris), number 24 (1930)",
+          "author": "put",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "put_n24-rus_1930.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1930; the masthead date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Put' (Paris), number 25 (1930)",
+          "author": "put",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "put_n25-rus_1930.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1930; the masthead date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Put' (Paris), number 3 (1926)",
+          "author": "put",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "put_n03-rus_1926.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1926; the masthead date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Put' (Paris), number 4 (1926)",
+          "author": "put",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "put_n04-rus_1926.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1926; the masthead date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Put' (Paris), number 5 (1926)",
+          "author": "put",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "put_n05-rus_1926.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1926; the masthead date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Put' (Paris), number 6 (1927)",
+          "author": "put",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "put_n06-rus_1927.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1927; the masthead date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Put' (Paris), number 7 (1927)",
+          "author": "put",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "put_n07-rus_1927.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1927; the masthead date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Put' (Paris), number 8 (1927)",
+          "author": "put",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "put_n08-rus_1927.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1927; the masthead date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Put' (Paris), number 9 (1928)",
+          "author": "put",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "put_n09-rus_1928.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1928; the masthead date; the archive.org record carries no rights field)"
         }
       ]
     },
@@ -37860,6 +38157,14 @@
       "status": "Pre-Survey Candidate",
       "works": [
         {
+          "work": "Austin, The Baqubah Refugee Camp (1920)",
+          "author": "austin",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "austin_baqubah-refugee-camp_1920.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1920; the title-page year; the archive.org record carries no rights field)"
+        },
+        {
           "work": "The Catholicos of the East and his People (Maclean and Browne, 1892)",
           "author": "maclean-browne",
           "role": "context",
@@ -37868,12 +38173,28 @@
           "rights": "Public Domain (published 1892; public domain by date; the host marks the item Public Domain Mark 1.0)"
         },
         {
+          "work": "Naayem, Shall This Nation Die? (1921)",
+          "author": "naayem",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "naayem_shall-this-nation-die_1921.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1921; the title page prints no year; the date used is the copyright notice, \"Copyright, 1921\"; the archive.org record says possible-copyright-status \"The Library of Congress is unaware of any copyright restrictions for this item.\")"
+        },
+        {
           "work": "The Assyrians and their Neighbours (1929), chapter X, The Great War and After",
           "author": "wigram",
           "role": "context",
           "confidence": "provisional",
           "source_file": "wigram_assyrians-and-their-neighbours_1929.txt",
           "rights": "Public Domain (pd-us-by-date: published 1929; the item record carries no rights field and no access restriction)"
+        },
+        {
+          "work": "Wigram, Our Smallest Ally (1920)",
+          "author": "wigram",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "wigram_our-smallest-ally_1920.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1920; the title-page year, read on the page image; the archive.org record carries a Public Domain Mark)"
         }
       ]
     },
@@ -37891,6 +38212,38 @@
       "name": "The Russian New Martyrs & the Catacomb Church",
       "status": "Pre-Survey Candidate",
       "works": [
+        {
+          "work": "Metropolitan Sergius, letter of 16/29 July 1927, in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v8-no4-winter-1927.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1927; the cover date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Patriarch Tikhon, a pastoral (1923), in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v4-no2-may-1923.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1923; the cover date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Patriarch Tikhon, epistle of 15 July 1923, in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v4-no4-november-1923.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1923; the cover date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "The Christian East, volume VIII, number 4 (Winter, 1927): on the Russian church under persecution",
+          "author": "christian-east",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "christian-east_v8-no4-winter-1927.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1927; the cover date; the archive.org record carries no rights field)"
+        },
         {
           "work": "Emhardt, Religion in Soviet Russia: Anarchy",
           "author": "emhardt",
@@ -37916,6 +38269,14 @@
           "rights": "Public Domain (pd-us-by-date: printed 1928; \"First published 1928\", read on the page image; the archive.org record carries no rights field)"
         },
         {
+          "work": "Ko dniu 25-letiia v arkhiereiskom sane Patriarkha Tikhona (New York, 1922)",
+          "author": "nikolaevskii-sobor",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "nikolaevskii-sobor_ko-dniu-dvadtsatipiatiletiia-patriarkha-tikhona-rus_1922.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1922; the title-page year; the archive.org record says possible-copyright-status \"The Library of Congress is unaware of any copyright restrictions for this item.\")"
+        },
+        {
           "work": "Patriarch Tikhon, epistle of January 19, 1918 (English, in Spinka 1927)",
           "author": "spinka",
           "role": "tradition",
@@ -37930,6 +38291,30 @@
           "confidence": "assigned",
           "source_file": "spinka_church-and-the-russian-revolution_1927.txt",
           "rights": "Public Domain (pd-us-by-date: printed 1927; the title-page year; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Patriarch Tikhon, epistle on help for the starving, 15 February 1922 (as printed in Valentinov 1925)",
+          "author": "valentinov",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "valentinov_chernaia-kniga-rus_1925.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1925; the title-page year; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Valentinov (comp.), Chernaia kniga (1925)",
+          "author": "valentinov",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "valentinov_chernaia-kniga-rus_1925.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1925; the title-page year; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Patriarch Tikhon, epistle of 19 January 1918 (as printed in Vvedensky 1923)",
+          "author": "vvedensky",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "vvedensky_tserkov-i-gosudarstvo-rus_1923.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1923; the title-page year, read on the page image; the archive.org record carries no rights field)"
         }
       ]
     },
@@ -37946,7 +38331,7 @@
           "work": "The Cape Town Commitment (2011)",
           "author": "lausanne-movement",
           "role": "tradition",
-          "confidence": "needs-ruling",
+          "confidence": "assigned",
           "source_file": "lausanne-movement_cape-town-commitment_2011.txt",
           "rights": "Owner-declared free (the document's own notice: \"© 2011 The Lausanne Movement. This document may be reproduced in whole or in part without permission. The text should remain unchanged and an acknowledgement to The Lausanne Movement should be included. For publishing rights in English or in translation, email communications@lausanne.org.\" Because the owner asks that the text remain unchanged, it is quoted word for word only and gets no modern rendering. Acknowledgement: The Lausanne Movement.)"
         }
@@ -37960,12 +38345,30 @@
     "ratana-church-and-pacific-adjustment-movements": {
       "name": "Ratana Church & Pacific Adjustment Movements",
       "status": "Floor Question (register)",
-      "works": []
+      "works": [
+        {
+          "work": "Te Karere 1930: a letter on the covenant at Ratana Pa",
+          "author": "te-karere",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "te-karere_v24-mri_1930.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1930; the masthead dates of the numbers in the file, all of 1930 (\"21 o Mei 1930\" read on the page image); the host record gives the series date 1907; the archive.org record carries no rights field)"
+        }
+      ]
     },
     "the-armenian-church-after-the-genocide-medz-yegh": {
       "name": "The Armenian Church after the Genocide (Medz Yeghern)",
       "status": "Pre-Survey Candidate",
-      "works": []
+      "works": [
+        {
+          "work": "The Divine Liturgy of the Holy Apostolic Church of Armenia (English, 1908)",
+          "author": "armenian-church",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "armenian-church_divine-liturgy_1908.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1908; the title-page year, read on the page image (\"MCMVIII\"; the verso reads \"First Published in 1908\"); the archive.org record carries no rights field)"
+        }
+      ]
     },
     "the-emerging-church-and-post-evangelical-movemen": {
       "name": "The Emerging Church & Post-Evangelical Movement",
@@ -38106,7 +38509,7 @@
           "work": "Niebuhr, Moral Man and Immoral Society, for the Social Gospel shelf",
           "author": "niebuhr",
           "role": "context",
-          "confidence": "needs-ruling",
+          "confidence": "assigned",
           "source_file": "niebuhr_moral-man-and-immoral-society_1936.txt",
           "rights": "Public Domain (US copyright not renewed: an American book copyrighted 1932, in a 1936 printing. Renewal search, 15 November 2026: the Stanford Copyright Renewal Database, searched \"immoral society\", \"Moral man\" and \"Niebuhr moral\", gave no entry for this book; the NYPL cce-renewals data, all years 1950 to 1991 and later, searched for \"immoral society\" and for every Niebuhr entry, gave none, though it lists renewals of his other title of 1932, The Contribution of Religion to Social Work (R258326, 1960), and of his books of 1929, 1934, 1935, 1937 and later. Result: no renewal found.)"
         },
@@ -38278,18 +38681,26 @@
       "status": "Pre-Survey Candidate",
       "works": [
         {
+          "work": "Malankara Sabha Tharaka, volume 6, number 12 (1910)",
+          "author": "malankara-sabha-tharaka",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "malankara-sabha-tharaka_v6-no12-mal_1910.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1910; the year in the imprint on the cover, read on the page image; the archive.org record carries a Public Domain Mark)"
+        },
+        {
           "work": "Sundar Singh, Reality and Religion",
           "author": "sundar-singh",
-          "role": "tradition",
-          "confidence": "needs-ruling",
+          "role": "context",
+          "confidence": "assigned",
           "source_file": "sundar-singh_reality-and-religion_1924.txt",
           "rights": "Public Domain (pd-us-by-date: printed 1924; the title-page year; the archive.org record carries no rights field)"
         },
         {
           "work": "Sundar Singh, The Search after Reality",
           "author": "sundar-singh",
-          "role": "tradition",
-          "confidence": "needs-ruling",
+          "role": "context",
+          "confidence": "assigned",
           "source_file": "sundar-singh_search-after-reality_1925.txt",
           "rights": "Public Domain (pd-us-by-date: printed 1925; the title-page year; the archive.org record carries no rights field)"
         }
@@ -38300,12 +38711,28 @@
       "status": "Pre-Survey Candidate",
       "works": [
         {
+          "work": "Catholic Sabha, volume 2, numbers 5 and 6 (1922)",
+          "author": "catholic-sabha",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "catholic-sabha_v2-nos5-6-mal_1922.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1922; the year printed on the calendar leaf after the cover, read on the page image (\"1922\" and the Malayalam-era year \"1098\"); the archive.org record carries no rights field)"
+        },
+        {
           "work": "The Christians of St. Thomas and their Liturgies (Howard, 1864): the Ordo Communis and six anaphorae translated from Syriac manuscripts obtained in Travancore",
           "author": "howard",
           "role": "tradition",
           "confidence": "provisional",
           "source_file": "howard_christians-of-st-thomas-and-their-liturgies_1864.txt",
           "rights": "Public Domain (published 1864; public domain by date; the host marks the item Public Domain Mark 1.0)"
+        },
+        {
+          "work": "Panjikaran, The Syrian Church in Malabar (1912)",
+          "author": "panjikaran",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "panjikaran_syrian-church-in-malabar_1912.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1912; the title-page year; the archive.org record carries no rights field)"
         },
         {
           "work": "The Syrian Christians of Malabar (Philipos, 1869): the church's belief, sacraments, fasts and orders in its own priest's words",
@@ -38328,7 +38755,48 @@
     "the-georgian-orthodox-church-restored": {
       "name": "The Georgian Orthodox Church Restored",
       "status": "Pre-Survey Candidate",
-      "works": []
+      "works": [
+        {
+          "work": "Catholicos Ambrose of Georgia, memorandum to the Genoa conference (1922), in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v4-no2-may-1923.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1923; the cover date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "The Christian East, volume III, number 2 (July, 1922): on the Georgian church",
+          "author": "christian-east",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "christian-east_v3-no2-july-1922.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1922; the cover date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "The Christian East, volume III, number 3 (October, 1922): on the Georgian church",
+          "author": "christian-east",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "christian-east_v3-no3-october-1922.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1922; the cover date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "The Christian East, volume IV, number 1 (March, 1923): on the Georgian church",
+          "author": "christian-east",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "christian-east_v4-no1-march-1923.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1923; the cover date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "The Christian East, volume IV, number 3 (August, 1923): on the Georgian church",
+          "author": "christian-east",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "christian-east_v4-no3-august-1923.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1923; the cover date; the archive.org record carries no rights field)"
+        }
+      ]
     },
     "churches-of-christ-twentieth-century": {
       "name": "Churches of Christ",
@@ -38389,9 +38857,17 @@
           "work": "Azariah and Whitehead, Christ in the Indian Villages",
           "author": "azariah",
           "role": "tradition",
-          "confidence": "needs-ruling",
+          "confidence": "assigned",
           "source_file": "azariah_christ-in-the-indian-villages_1930.txt",
           "rights": "Public Domain (pd-us-by-date: printed 1930; \"First published 3 June 1930\" on the verso of the title page; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Bell (ed.), Documents on Christian Unity 1920-4",
+          "author": "bell",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "bell_documents-on-christian-unity-1920-24_1924.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1924; the title-page year; the archive.org record carries no rights field)"
         },
         {
           "work": "Faith and Order: Proceedings of the World Conference, Lausanne 1927",
@@ -38466,6 +38942,30 @@
           "rights": "Public Domain (pd-us-by-date: printed 1928; the title-page year; the archive.org record carries no rights field)"
         },
         {
+          "work": "The International Review of Missions, volume 11 (1922)",
+          "author": "international-review-of-missions",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "international-review-of-missions_v11_1922.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1922; the year on the volume title leaf; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "The International Review of Missions, volume 12 (1923)",
+          "author": "international-review-of-missions",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "international-review-of-missions_v12_1923.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1923; the year on the volume title leaf; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "The International Review of Missions, volume 17 (1928)",
+          "author": "international-review-of-missions",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "international-review-of-missions_v17_1928.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1928; the year on the volume title leaf; the archive.org record carries no rights field)"
+        },
+        {
           "work": "Lambeth Conference 1920: An Appeal to All Christian People",
           "author": "lambeth-conference",
           "role": "context",
@@ -38488,6 +38988,14 @@
           "confidence": "assigned",
           "source_file": "oldham_christianity-and-the-race-problem_1924.txt",
           "rights": "Public Domain (pd-us-by-date: printed 1924; the title-page year; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "International Conference at Le Zoute 1926, recommendations and resolutions (in Smith, The Christian Mission in Africa)",
+          "author": "smith",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "smith_christian-mission-in-africa-le-zoute-1926_1926.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1926; the title-page year; the archive.org record carries no rights field)"
         }
       ]
     },
@@ -38530,10 +39038,18 @@
         {
           "work": "Loisy, Autour d'un petit livre (1903)",
           "author": "loisy",
-          "role": "tradition",
-          "confidence": "needs-ruling",
+          "role": "antecedent",
+          "confidence": "assigned",
           "source_file": "loisy_autour-d-un-petit-livre-2e-ed-fra_1903.txt",
           "rights": "Public Domain (pd-us-by-date: printed 1903; the title-page year; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Loisy, L'Évangile et l'Église (third edition, 1904)",
+          "author": "loisy",
+          "role": "antecedent",
+          "confidence": "assigned",
+          "source_file": "loisy_evangile-et-l-eglise-3e-ed-fra_1904.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1904; the title-page year, read on the page image; the archive.org record says possible-copyright-status \"NOT_IN_COPYRIGHT\")"
         },
         {
           "work": "Loisy, Simples reflexions sur le decret Lamentabili et sur l'encyclique Pascendi",
@@ -38546,8 +39062,8 @@
         {
           "work": "Loisy, The Gospel and the Church (Home 1903)",
           "author": "loisy",
-          "role": "tradition",
-          "confidence": "needs-ruling",
+          "role": "antecedent",
+          "confidence": "assigned",
           "source_file": "loisy_gospel-and-the-church_home1903.txt",
           "rights": "Public Domain (pd-us-by-date: printed 1903; the title-page year; the archive.org record carries no rights field)"
         },
@@ -38617,6 +39133,102 @@
       "name": "The Anglican Communion in the Twentieth Century",
       "status": "Pre-Survey Candidate",
       "works": [
+        {
+          "work": "The Christian East, volume I, number 3 (September, 1920)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v1-no3-september-1920.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1920; the cover date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "The Christian East, volume II, number 2 (July, 1921)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v2-no2-july-1921.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1921; the cover date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "The Christian East, volume III, number 2 (July, 1922)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v3-no2-july-1922.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1922; the cover date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "The Christian East, volume III, number 3 (October, 1922)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v3-no3-october-1922.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1922; the cover date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "The Christian East, volume IV, number 1 (March, 1923)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v4-no1-march-1923.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1923; the cover date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "The Christian East, volume IV, number 2 (May, 1923)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v4-no2-may-1923.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1923; the cover date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "The Christian East, volume IV, number 3 (August, 1923)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v4-no3-august-1923.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1923; the cover date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "The Christian East, volume IV, number 4 (November, 1923)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v4-no4-november-1923.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1923; the cover date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "The Christian East, volume VIII, number 4 (Winter, 1927)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v8-no4-winter-1927.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1927; the cover date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "The Christian East, volume X, number 1 (Spring, 1929)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v10-no1-spring-1929.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1929; the cover date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "The Christian East, volume XI, number 1 (Spring, 1930)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v11-no1-spring-1930.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1930; the cover date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "The Christian East, volume XI, number 2 (Summer, 1930)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v11-no2-summer-1930.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1930; the cover date; the archive.org record carries no rights field)"
+        },
         {
           "work": "Lambeth Conference 1908: Encyclical Letter, Resolutions and Reports",
           "author": "lambeth-conference",
@@ -38745,7 +39357,16 @@
     "the-catholic-church-in-africa-twentieth-century": {
       "name": "The Catholic Church in Africa in the Twentieth Century",
       "status": "Pre-Survey Candidate",
-      "works": []
+      "works": [
+        {
+          "work": "Wanger, Imfundiso yeBandhla eliKatolike (Zulu catechism, 1912)",
+          "author": "wanger",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "wanger_imfundiso-yebandhla-elikatolike-zul_1912.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1912; the title-page year; a bishop's leaf dated 29 April 1915 is bound with it; the archive.org record carries no rights field)"
+        }
+      ]
     },
     "the-church-struggle-against-apartheid": {
       "name": "The Church Struggle against Apartheid",
@@ -38911,8 +39532,8 @@
         {
           "work": "Uchimura, How I Became a Christian (1922 printing), for the shelf after 1906",
           "author": "uchimura",
-          "role": "tradition",
-          "confidence": "needs-ruling",
+          "role": "antecedent",
+          "confidence": "assigned",
           "source_file": "uchimura_how-i-became-a-christian_1922.txt",
           "rights": "Public Domain (pd-us-by-date: printed 1922; the title-page year; the archive.org record carries no rights field)"
         }
@@ -38922,6 +39543,46 @@
       "name": "The Russian Orthodox Church — Council, Patriarchate and Reunion",
       "status": "Pre-Survey Candidate",
       "works": [
+        {
+          "work": "Metropolitan Sergius, letter of 16/29 July 1927, in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v8-no4-winter-1927.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1927; the cover date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Patriarch Tikhon, a pastoral (1923), in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v4-no2-may-1923.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1923; the cover date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Patriarch Tikhon, epistle of 15 July 1923, in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v4-no4-november-1923.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1923; the cover date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "The Christian East, volume II, number 2 (July, 1921): on the Russian church",
+          "author": "christian-east",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "christian-east_v2-no2-july-1921.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1921; the cover date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "The Christian East, volume IV, number 2 (May, 1923): on the Russian church",
+          "author": "christian-east",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "christian-east_v4-no2-may-1923.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1923; the cover date; the archive.org record carries no rights field)"
+        },
         {
           "work": "Emhardt, Religion in Soviet Russia: Anarchy",
           "author": "emhardt",
@@ -38947,6 +39608,14 @@
           "rights": "Public Domain (pd-us-by-date: printed 1928; \"First published 1928\", read on the page image; the archive.org record carries no rights field)"
         },
         {
+          "work": "Ko dniu 25-letiia v arkhiereiskom sane Patriarkha Tikhona (New York, 1922)",
+          "author": "nikolaevskii-sobor",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "nikolaevskii-sobor_ko-dniu-dvadtsatipiatiletiia-patriarkha-tikhona-rus_1922.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1922; the title-page year; the archive.org record says possible-copyright-status \"The Library of Congress is unaware of any copyright restrictions for this item.\")"
+        },
+        {
           "work": "Patriarch Tikhon, epistle of January 19, 1918 (English, in Spinka 1927)",
           "author": "spinka",
           "role": "tradition",
@@ -38961,6 +39630,30 @@
           "confidence": "assigned",
           "source_file": "spinka_church-and-the-russian-revolution_1927.txt",
           "rights": "Public Domain (pd-us-by-date: printed 1927; the title-page year; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Patriarch Tikhon, epistle on help for the starving, 15 February 1922 (as printed in Valentinov 1925)",
+          "author": "valentinov",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "valentinov_chernaia-kniga-rus_1925.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1925; the title-page year; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Patriarch Tikhon, epistle of 19 January 1918 (as printed in Vvedensky 1923)",
+          "author": "vvedensky",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "vvedensky_tserkov-i-gosudarstvo-rus_1923.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1923; the title-page year, read on the page image; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Vvedensky, Tserkov i gosudarstvo (1923)",
+          "author": "vvedensky",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "vvedensky_tserkov-i-gosudarstvo-rus_1923.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1923; the title-page year, read on the page image; the archive.org record carries no rights field)"
         }
       ]
     },
@@ -38974,19 +39667,148 @@
       "status": "Pre-Survey Candidate",
       "works": [
         {
+          "work": "The Christian East, volume X, number 1 (Spring, 1929): on the Bulgarian church",
+          "author": "christian-east",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "christian-east_v10-no1-spring-1929.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1929; the cover date; the archive.org record carries no rights field)"
+        },
+        {
           "work": "Legea si Statutul pentru organizarea Bisericii Ortodoxe Romane (1925)",
           "author": "romanian-orthodox-church",
           "role": "tradition",
           "confidence": "assigned",
           "source_file": "romanian-orthodox-church_legea-si-statutul-pentru-organizarea-ron_1925.txt",
           "rights": "Public Domain (pd-us-by-date: printed 1925; the title-page year; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Christianity and War: Letters of a Serbian to his English Friend (1915)",
+          "author": "velimirovic",
+          "role": "antecedent",
+          "confidence": "assigned",
+          "source_file": "velimirovic_christianity-and-war_1915.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1915; the year on the printed cover, read on the page image; the pamphlet has no separate title page; the archive.org record says possible-copyright-status \"NOT_IN_COPYRIGHT\")"
+        },
+        {
+          "work": "Velimirović, Religion and Nationality in Serbia (1915)",
+          "author": "velimirovic",
+          "role": "antecedent",
+          "confidence": "assigned",
+          "source_file": "velimirovic_religion-and-nationality-in-serbia_1915.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1915; no year is legible on the title page in the OCR; the date used is the dated prefatory note, \"June 15, 1915\", with which the library catalog date agrees; the archive.org record says possible-copyright-status \"NOT_IN_COPYRIGHT\")"
+        },
+        {
+          "work": "Velimirović, Serbia in Light and Darkness (1916)",
+          "author": "velimirovic",
+          "role": "antecedent",
+          "confidence": "assigned",
+          "source_file": "velimirovic_serbia-in-light-and-darkness_1916.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1916; the title-page year, read on the page image; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Velimirović, The Agony of the Church (1917)",
+          "author": "velimirovic",
+          "role": "antecedent",
+          "confidence": "assigned",
+          "source_file": "velimirovic_agony-of-the-church_1917.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1917; the title-page year; the archive.org record says possible-copyright-status \"NOT_IN_COPYRIGHT\")"
+        },
+        {
+          "work": "Velimirović, The Soul of Serbia (1916)",
+          "author": "velimirovic",
+          "role": "antecedent",
+          "confidence": "assigned",
+          "source_file": "velimirovic_soul-of-serbia_1916.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1916; the title-page year; the archive.org record says possible-copyright-status \"NOT_IN_COPYRIGHT\")"
+        },
+        {
+          "work": "Zankov, The Eastern Orthodox Church (Lowrie 1929)",
+          "author": "zankov",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "zankov_eastern-orthodox-church_lowrie1929.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1929; the title-page year, read on the page image; the OCR misreads it as 1939; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Zankow, Das orthodoxe Christentum des Ostens (1928)",
+          "author": "zankov",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "zankov_orthodoxe-christentum-des-ostens-deu_1928.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1928; the title-page year; the archive.org record carries no rights field)"
         }
       ]
     },
     "the-greek-church-and-the-ecumenical-patriarchate": {
       "name": "The Greek Church and the Ecumenical Patriarchate in the Twentieth Century",
       "status": "Pre-Survey Candidate",
-      "works": []
+      "works": [
+        {
+          "work": "Ecumenical Patriarchate, encyclical \"Unto all the Churches of Christ wheresoever they be\" (January 1920), in Bell 1924",
+          "author": "bell",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "bell_documents-on-christian-unity-1920-24_1924.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1924; the title-page year; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Pan-Orthodox Conference of Constantinople (1923), decisions, in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v4-no4-november-1923.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1923; the cover date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Patriarch Meletios of Alexandria, reply of 12 May 1930, in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v11-no2-summer-1930.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1930; the cover date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Patriarch Meletios, letter to the Archbishop of Canterbury and encyclical on Anglican ordinations (1922), in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v3-no3-october-1922.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1922; the cover date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "The Christian East, volume I, number 3 (September, 1920): on the Greek churches",
+          "author": "christian-east",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "christian-east_v1-no3-september-1920.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1920; the cover date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "The Christian East, volume IV, number 4 (November, 1923): on the Greek churches",
+          "author": "christian-east",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "christian-east_v4-no4-november-1923.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1923; the cover date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "The Christian East, volume XI, number 2 (Summer, 1930): on the Greek churches",
+          "author": "christian-east",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "christian-east_v11-no2-summer-1930.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1930; the cover date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Ecumenical Patriarchate, Mavri Vivlos (Black Book, 1920)",
+          "author": "ecumenical-patriarchate",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "ecumenical-patriarchate_mavri-vivlos-ell_1920.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1920; the title-page year, read on the page image; the archive.org record carries a Public Domain Mark)"
+        }
+      ]
     },
     "the-romanian-greek-catholic-church-suppression-and-return": {
       "name": "The Romanian Greek Catholic Church — Suppression and Return",
@@ -40003,6 +40825,14 @@
       "status": "Pre-Survey Candidate",
       "works": [
         {
+          "work": "American Zulu Mission, Amagama Okuhlabelela (Zulu Hymnal, 1911)",
+          "author": "american-zulu-mission",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "american-zulu-mission_amagama-okuhlabelela-zul_1911.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1911; the title page prints no year; the date used is the copyright notice, \"Copyright 1911\", with \"Published March 10, 1911\" beside it; the archive.org record carries no rights field)"
+        },
+        {
           "work": "Tiyo Soga: a page of South African mission work. By John A. Chalmers",
           "author": "chalmers",
           "role": "context",
@@ -40017,6 +40847,14 @@
           "confidence": "provisional",
           "source_file": "colenso_ten-weeks-in-natal_1855.txt",
           "rights": "Public Domain (pd-us-by-date: published 1855); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
+        },
+        {
+          "work": "Jabavu, The Black Problem (second edition, 1921)",
+          "author": "jabavu",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "jabavu_black-problem-2e_1921.txt",
+          "rights": "Public Domain (pd-us-by-date: printed 1921; the title page prints no year; the date used is the dated foreword, \"12th December 1920\", with which the library catalog date (1920) agrees; the author's preface to this second edition is dated January 1921; the archive.org record carries no rights field)"
         }
       ]
     },

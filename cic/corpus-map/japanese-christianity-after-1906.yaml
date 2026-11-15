@@ -15,7 +15,7 @@ works:
   work: Uchimura, How I Became a Christian (1922 printing), for the shelf after 1906
   author: uchimura
   locus: whole
-  role: tradition
-  confidence: needs-ruling
-  note: Written before this entry's window; this printing is of 1922.
+  role: antecedent
+  confidence: assigned
+  note: Written before this entry's window, its preface dated 1895; this printing is of 1922.
   source_file: uchimura_how-i-became-a-christian_1922.txt
