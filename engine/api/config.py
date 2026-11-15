@@ -1,4 +1,4 @@
-"""Minimal test-backend config (see /root/.claude/plans/linear-popping-dawn.md).
+"""Minimal test-backend config.
 Env-var-driven, fails loudly on a missing region rather than guessing one -
 same discipline as every other --region-required script in this repo
 (engine/provider/preflight.py, engine/m4/live_turn_run.py,

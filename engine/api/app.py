@@ -1,4 +1,4 @@
-"""FastAPI shape only (see /root/.claude/plans/linear-popping-dawn.md) - HTTP
+"""FastAPI shape only - HTTP
 parsing, headers, status codes. All business logic lives in engine.api.wiring;
 this module never touches the M4/M5 pipeline directly.
 

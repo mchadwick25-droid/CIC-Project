@@ -435,6 +435,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+      - name: Add the files the scan reads beyond the edited ones
+        if: github.event_name == 'pull_request'
+        run: python tools/check_live_commentary.py --sparse-paths | git sparse-checkout add --stdin
       - if: github.event_name == 'pull_request'
         run: python tools/check_live_commentary.py --base "origin/${{ github.base_ref }}" --enforce
       - if: github.event_name != 'pull_request'
@@ -468,6 +471,38 @@ jobs:
           python-version: "3.11"
       - run: pip install pyyaml
       - run: python tools/check_spelling.py --base "origin/${{ github.base_ref }}" --enforce
+
+  # Who and council profile briefs a PR adds or edits are graded: grade 8.0 to
+  # 10.0 on the full text, reading ease 60 or above with proper names left out
+  # (Who_Profile_Pattern.md, "The readability method"). A brief the PR does
+  # not touch, or only moves, is not read, so the briefs written before the
+  # check do not fail a PR that leaves their words alone.
+  profile-readability:
+    name: Profile readability (briefs this PR edits)
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          sparse-checkout: |
+            /engine/__init__.py
+            /engine/m1/__init__.py
+            /engine/m1/fk.py
+            /engine/m1/profile_readability.py
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Write out the profile briefs this PR edits
+        run: |
+          briefs="$(python -m engine.m1.profile_readability --base "origin/${{ github.base_ref }}" --list)"
+          if [ -n "$briefs" ]; then
+            printf '%s\n' "$briefs" | sed 's/[][*?\\]/\\&/g; s|^|/|' | git sparse-checkout add --stdin
+          fi
+      - run: python -m engine.m1.profile_readability --base "origin/${{ github.base_ref }}"
 
   # A PR that touches a world's records or its build documents runs that
   # world's after-edit gates: required record types and the site JSON with no

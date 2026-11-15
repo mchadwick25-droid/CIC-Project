@@ -1,0 +1,20 @@
+source_file: herminjard_correspondance-des-reformateurs-t5-1538-1539-fra-lat_1878.txt
+assignments:
+- row_id: herminjard_correspondance-des-reformateurs-t5-1538-1539-fra-lat_1878--marie-dentiere-epistre-tres-utile-to-marguerite-de-navarre-1539-abridged-herminjard-5-no-785
+  work: 'Marie Dentiere, Epistre tres utile to Marguerite de Navarre (1539), abridged (Herminjard 5, no. 785)'
+  author: herminjard
+  locus: 'about OCR lines 14915-15411; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-reformed-cities-zurich-and-geneva
+  role: tradition
+  confidence: provisional
+  note: 'Her own words, with passages left out by the editor.'
+- row_id: herminjard_correspondance-des-reformateurs-t5-1538-1539-fra-lat_1878--letters-of-the-french-speaking-reformers-1538-1539-herminjard-5
+  work: 'Letters of the French-speaking reformers, 1538-1539 (Herminjard 5)'
+  author: herminjard
+  locus: 'the whole volume; not mapped'
+  atlas_ids:
+  - the-reformed-cities-zurich-and-geneva
+  role: tradition
+  confidence: provisional
+  note: 'The reformers'' own letters for 1538 and 1539; single letters not mapped.'

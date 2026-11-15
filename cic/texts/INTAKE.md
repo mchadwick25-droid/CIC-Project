@@ -4,7 +4,7 @@
 in this same directory, nothing regenerates this file — it's the procedure,
 not a report on the corpus.
 
-**Trigger — two real paths, both fine (2026-09-03).** Mark finds a source
+**Trigger — two real paths, both fine.** Mark finds a source
 and downloads it to his own machine; from there:
 - **Attach it in a live chat message** — one or a few files, no separate
   upload step. Good for a single find mid-conversation.
@@ -19,13 +19,11 @@ the file up — from a raw attachment or `_intake/` file to a vendored file
 every future session can search and cite.
 
 **Two shapes of source, same pipeline, different rights checklist.** Most of
-this corpus so far is an English translation of an ancient work. Starting
-2026-09-02, Mark is also sourcing **original-language texts** (Greek, Latin,
-Syriac, ...) directly. Everything below applies to both; where they differ,
+this corpus is an English translation of an ancient work. Mark also sources
+**original-language texts** (Greek, Latin, Syriac, ...) directly. Everything below applies to both; where they differ,
 both paths are stated.
 
-**A clean public-domain original can be primary evidence (Mark's ruling,
-2026-09-25).** Language is not what decides whether a source is primary —
+**A clean public-domain original can be primary evidence.** Language is not what decides whether a source is primary —
 credibility and truth are. If a work is a primary source to the world it
 belongs to, that holds regardless of what language it survives in. In
 practice:
@@ -49,12 +47,6 @@ practice:
   rendering þ as `])`/`]?`), each one verified against page images before
   it's trusted. No model ever retypes a source to work around a bad scan.
 
-This replaces this file's own prior framing (in force 2026-09-02 through
-2026-09-25) that an original-language text was a second witness by
-definition, never primary evidence, because the project's evidence language
-was English. The reasoning for the change, and the ruling's own words, are
-recorded in `worlds/_cross-world/LIBRARY-DECISION-LOG.md` — this file states
-the current rule plainly, not its history.
 
 ---
 
@@ -63,7 +55,7 @@ the current rule plainly, not its history.
 Extract the text, and pull whatever the source itself states: title, author,
 translator/editor, publisher, year, and — critically — **where Mark got it
 and what that host itself says about rights.** A chat attachment usually has
-this in Mark's own message alongside it; a file pulled from `_intake/`
+this in Mark's message alongside it; a file pulled from `_intake/`
 should have it in a sidecar note per that folder's own convention. If
 neither states the URL and the host's own rights statement, ask before doing
 anything else. A rights basis is never guessed; it either comes from the
@@ -213,8 +205,7 @@ Expressions, one Greek-based, one Syriac).
 python cic/engine/corpus_index.py --build
 ```
 
-Derived, gitignored, ~10 seconds for the whole corpus as of 2026-09-02 (64
-files). Skipping this just means the new file is invisible to
+Derived, gitignored, about 10 seconds for the whole corpus. Skipping this just means the new file is invisible to
 `corpus_index.py`'s search until someone rebuilds it — not a correctness
 risk, just a wasted trip for whoever searches next.
 

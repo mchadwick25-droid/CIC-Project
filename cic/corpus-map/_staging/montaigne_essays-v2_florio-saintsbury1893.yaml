@@ -1,0 +1,11 @@
+source_file: montaigne_essays-v2_florio-saintsbury1893.txt
+assignments:
+- row_id: montaigne_essays-v2_florio-saintsbury1893--montaigne-essays-volume-2-florio
+  work: 'Montaigne, Essays, volume 2 (Florio)'
+  author: montaigne
+  locus: 'the whole volume; not mapped'
+  atlas_ids:
+  - the-huguenots
+  role: context
+  confidence: needs-ruling
+  note: 'His essays in the English of 1603; an outside witness.'

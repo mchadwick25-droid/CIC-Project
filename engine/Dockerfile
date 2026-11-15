@@ -1,20 +1,14 @@
 # Church in Conversation — engine/api as a deployable service.
-# PHASE-1-LAUNCH.md Stage 3 asked for this container ("the engine needs a
-# container"); the cic-poc Dockerfile that stage described beside it was
-# retired and deleted with the old system, 2026-08-28.
 #
 # Build context MUST be the repository root, not engine/ — the image needs
 # engine/, records/, and records/worlds.yaml together, the same layout
 # every COPY below and .github/workflows/ci.yml's own recipe already
 # assume. On Render (or any host that lets you set a Dockerfile path
 # separately from the build context), point dockerfilePath at
-# engine/Dockerfile and leave dockerContext as the repo root. (The retired
-# cic-poc/Dockerfile this note once contrasted against is deleted - the
-# old system's retirement, 2026-08-28.)
+# engine/Dockerfile and leave dockerContext as the repo root.
 #
-# Frontend stage added PHASE-1-LAUNCH.md Stage 5 (one Render service, not
-# two - Mark's call): builds cic-poc/frontend's static bundle and lands it
-# at cic-poc/frontend/dist, same source-tree-relative path engine/api/
+# Frontend stage (one Render service, not two): builds cic-poc/frontend's
+# static bundle and lands it at cic-poc/frontend/dist, same source-tree-relative path engine/api/
 # app.py's own REPO_ROOT-based lookup expects locally, so nothing about
 # how the mount finds it differs between a dev checkout and this image.
 # engine/api/app.py serves it same-origin (no CORS_ORIGINS needed) -

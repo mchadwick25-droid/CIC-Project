@@ -1,0 +1,11 @@
+source_file: gracian_tratado-de-la-redempcion-de-captivos-spa_momarte1609.txt
+assignments:
+- row_id: gracian_tratado-de-la-redempcion-de-captivos-spa_momarte1609--jeronimo-gracian-tratado-de-la-redempcion-de-captivos-1609
+  work: 'Jeronimo Gracian, Tratado de la redempcion de captivos (1609)'
+  author: gracian
+  locus: 'the whole volume; not mapped'
+  atlas_ids:
+  - carmelite-reform-and-spanish-mystics
+  role: tradition
+  confidence: provisional
+  note: 'His own words, with passages on his captivity at Tunis; not his autobiography.'

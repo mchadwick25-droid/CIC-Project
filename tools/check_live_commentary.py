@@ -93,6 +93,7 @@ already in it. KEEP and PROTECTED lines never fail the run.
 from __future__ import annotations
 
 import argparse
+import fnmatch
 import json
 import re
 import io
@@ -135,6 +136,8 @@ SURFACES: dict[str, tuple[str, ...]] = {
     "fixtures": ("fixtures",),
     "packages": ("packages",),
     "canon": ("canon",),
+    "cic-texts": ("cic/texts",),
+    "sandbox": ("Sandbox",),
 }
 
 SKIP_DIR_NAMES = {"node_modules", ".git", "dist", "build", "__pycache__", ".pytest_cache"}
@@ -153,16 +156,75 @@ PATTERNS: dict[str, re.Pattern[str]] = {
     "entry-number": re.compile(r"\bEntry\s+\d+\b"),
     "decision-log": re.compile(r"Decision-Log"),
     "rulings-pending": re.compile(r"Rulings-Pending"),
-    "marks-word": re.compile(r"Mark'?s\s+(ruling|call|word|own)\b", re.IGNORECASE),
+    # "Mark's own" is also the Evangelist's ("Mark's own disputed shorter
+    # ending"), so a gospel noun after it is not the project lead.
+    "marks-word": re.compile(
+        r"Mark'?s\s+(ruling|call|word|own\b(?!\s+(?:disputed|shorter|longer|ending|gospel|account)\b))\b",
+        re.IGNORECASE,
+    ),
     "per-mark": re.compile(r"\bper Mark\b"),
     "reviewer": re.compile(r"\breviewer\b", re.IGNORECASE),
     "review-round": re.compile(r"\bround\s+\d+\b", re.IGNORECASE),
     "ruled": re.compile(r"\bRULED\b"),
     "iso-date": re.compile(r"\b20\d\d-\d\d-\d\d\b"),
     "era-gate": re.compile(
-        r"\bat (?:the|that) (?:Era\s+\d+\s+(?:same\s+)?|same\s+)gate\b|\bat (?:the|that) (?:Era\s+\d+\s+)?(?:same\s+)?Freeze\b|\bthe Freeze\b|"
+        r"\bat (?:the|that) (?:Era\s+\d+\s+(?:same\s+)?|same\s+)gate\b|\bat (?:the|that) (?:Era\s+\d+\s+)?(?:same\s+)?Freeze\b|"
         r"\b(?:corrected|checked|cleared|caught|found|fixed|run|verified|held|resolved|flagged|reconciled|settled|dated|decided)\b[^.]{0,40}\bat (?:the|that) gate\b",
         re.IGNORECASE,
+    ),
+    # A review finding cited as the reason a line reads the way it does
+    # ("Critic Finding 5 implemented here", "Review Finding 2").
+    "review-finding": re.compile(r"\b(?:Critic|Review)\s+Finding\s+\d+\b"),
+    # A change order named as provenance ("under the accounts change order",
+    # "added by change order CO-P2-10(c)"). The governing method files use
+    # "change order" as process vocabulary (see _METHOD_VOCAB).
+    "change-order": re.compile(r"\b[Cc]hange[- ][Oo]rders?\b|\bCO-P\d+-\d+"),
+    # A pull-request or issue number as provenance ("#440's own fix",
+    # "(#419, #420)", "PR #13", "by #413"). A bare "#333" is a CSS colour and
+    # "#6400" a Project Gutenberg book number, so a number alone never
+    # matches: it needs "PR", a possessive, a preposition or a parenthesised
+    # list of such numbers.
+    "pr-ref": re.compile(
+        r"\bPR\s*#\d+\b|#\d{2,5}'s own\b|\b(?:by|in|via|see) #\d{3,4}\b|\(#\d{3,4}(?:,\s*#\d{3,4})+\)"
+        r"|\b(?:a|the) #\d{3,4} (?:triage|fix|review|round)\b"
+    ),
+    # A working-branch name or a private plan-file path: session plumbing,
+    # and a dead pointer anywhere but the machine that wrote it.
+    "session-branch": re.compile(r"\bclaude/[a-z0-9]+(?:-[a-z0-9]+)+\b|/root/\.claude/"),
+    # Who approved or directed a line, in forms "per Mark" and "Mark's
+    # ruling" do not cover. "supplied by Mark" is not here: an intake
+    # header's Source field names who supplied a file, by design.
+    "mark-provenance": re.compile(
+        r"\bMark-approved\b|\b(?:at|on) Mark's (?:direction|request|instruction)\b"
+        r"|\bMark's (?:approved|standing|sign-off|OCR|direction|instruction)\b"
+        r"|\b(?:confirmed|re-confirmed|accepted|approved|ruled|decided) by (?:Mark|the project lead)\b"
+        r"|\bthe project lead's own call\b"
+    ),
+    # The build thread narrating itself.
+    "builder-thread": re.compile(r"\bthis build thread\b|\bthis session's own prior turn\b|\(Mark, in session\)|\bthis step's own final report\b"),
+    # A dated repair narrated in place ("(Fixed 2026-09-03: the original
+    # header ...)").
+    "dated-fix": re.compile(
+        r"\b(?:Fixed|Corrected|Changed|Updated|Amended) (?:on )?20\d\d-\d\d-\d\d\b"
+        r"|\((?:Fixed|Corrected|Changed|Updated|Amended)\s*$"
+    ),
+    # A line explaining itself against an earlier draft of itself.
+    "earlier-version": re.compile(
+        r"\b(?:an|the) earlier (?:version|draft) of this (?:docstring|comment|note|check|pattern|file|header|record|module)\b"
+        r"|\bfrom an earlier draft\b|\bthe earlier version of this check\b",
+        re.IGNORECASE,
+    ),
+}
+
+# Builder phrasing that reached reader text on the two public sites: a
+# record's own build notes copied into a story card or a tree page. Applied
+# to cft-website/ and cic-website/ only (see _site_reader_text and
+# _SITE_SURFACES); elsewhere these phrases are ordinary build prose.
+SITE_PATTERNS: dict[str, re.Pattern[str]] = {
+    "builder-phrase": re.compile(
+        r"\bwhose record sits at\b|\bthat record never names\b|\bthe same province's church\b"
+        r"|\bconsulted via\b|\bknown to me, not consulted\b"
+        r"|\bcensus (?:row|edge|relations line)\b|\bper census\b|\btension-sibling\b|\bWho scan\b"
     ),
 }
 
@@ -416,7 +478,7 @@ def _source_registry_date_lines(raw_lines: list[str]) -> tuple[set[int], set[int
         if header:
             with_header.add(i)
         cells = _table_cells(line)
-        dated = [n for n, cell in enumerate(cells) if _ISO_DATE.search(cell)]
+        dated = [n for n, cell in enumerate(cells) if _ISO_DATE.search(cell) and not _iso_date_only_in_filenames(cell)]
         if dated and all(n < len(header) and header[n] for n in dated):
             out.add(i)
     return out, with_header
@@ -469,10 +531,17 @@ _PUBLIC_STATUS_LABEL = re.compile(r'^\s*"statusWord"\s*:')
 _VERIFIED_BY_FIELD = re.compile(r"^\s*(?:-\s+)?verified_by\s*:")
 
 
+# A code span holding one unbroken name (`baseline/pilot-2026-08-24`, a
+# branch or tag): the date is part of the name.
+_CODE_SPAN_WITH_DATE = re.compile(r"`(?=[^`\s]*[^`\s\d-])[^`\s]*20\d\d-\d\d-\d\d[^`\s]*`")
+
+
 def _iso_date_only_in_filenames(line: str) -> bool:
     """True when every ISO date on the line sits inside a file name
-    (`live-table-report-witt-rzg-2026-09-19.json`): the date is part of the
-    name being cited, not a date written into prose."""
+    (`live-table-report-witt-rzg-2026-09-19.json`) or a one-name code span:
+    the date is part of the name being cited, not a date written into
+    prose."""
+    line = _CODE_SPAN_WITH_DATE.sub("", line)
     return not re.search(r"20\d\d-\d\d-\d\d", _FILENAME_WITH_DATE.sub("", line))
 
 
@@ -503,12 +572,16 @@ def _iso_date_is_bare_table_provenance(line: str, in_source_registry_file: bool)
 # marks the author's own scope or timing ("unresolved here", "open question for now").
 ROUTE_CUES = re.compile(
     r"\b((?:TODO|FIXME)\b|open question (here|for now|pending|on purpose|until|for (Mark|the project lead))|"
-    r"open gap|open item|not yet (resolved|fixed|answered|acquired)|"
+    r"open gap|open item|not yet (resolved|fixed|answered|acquired|vendored)|flagged for a future round|"
     r"unresolved (here|for now|pending|on purpose|until)|"
     r"still pending|still open (here|for now|pending|until|for (Mark|the project lead))|"
     r"follow-?up (item|work|needed)|known (gap|issue|defect)|"
     r"needs? (a )?follow-?up|needing (a )?ruling|flagged for (Mark|the project lead)|"
-    r"worth reconsidering|has not yet been [a-z-]+|has not yet done\b)",
+    r"worth reconsidering|has not yet been (?:\w+ly )?(?:re-)?(?:assessed|opened|tested|checked|verified|run|reviewed|built|done|confirmed|"
+    r"conducted|acquired|resolved|fixed|written|drafted|added|decided|located|found|read|asked|performed|"
+    r"sought|sent|tried|extended|vendored|collated|answered|settled|ruled|filed|wired|registered|updated|"
+    r"recorded|identified|traced|compared|measured|audited|completed|started|scored|approved|supplied)\b|"
+    r"has not yet done\b)",
     re.IGNORECASE,
 )
 
@@ -590,7 +663,7 @@ SOURCE_REGISTRY_REF = re.compile(
 # lowercase "correction" or "blocking" is ordinary engineering prose, not a
 # change-history marker) - the multi-word phrases are safe case-insensitive.
 CHANGE_HISTORY_CUES = re.compile(
-    r"\bCORRECTION\b|\bBLOCKING\b|(?i:\bcaught by\b|\badversarial review\b|\bre-?confirmations?\b)"
+    r"\bCORRECTION\b|\bBLOCKING\b|(?i:\bcaught by\b(?! the (?:OCR|scan)\b)|\badversarial review\b|\bre-?confirmations?\b)"
 )
 # Registered as a primary pattern too, so the triggering line itself is
 # tagged "change-history-cue" in the report; scan_file separately widens
@@ -1300,9 +1373,82 @@ def _is_engine_report(rel: Path) -> bool:
     return len(parts) >= 3 and parts[0] == "engine" and "reports" in parts
 
 
+# ---------------------------------------------------------------------------
+# The Library (cic/texts/). A vendored edition is source text, never scanned:
+# its wording is the source's own, whatever it says. Only its intake header
+# (cic/texts/INTAKE.md section 4) is ours, so only the header is scanned. The
+# header names who supplied a file and when by design, so a date there is
+# data, not provenance. README.md, AUTHORS.md and STRUCTURE.md are generated
+# from REGISTRY.yaml by cic/engine/texts_registry.py: a find there is a find
+# in REGISTRY.yaml, reported once, at its source. REGISTRY.yaml's own `notes`
+# values are append-only by that file's declared policy ("a historical record
+# of what was known then"), so they are PROTECTED and reported, not blocking;
+# its header comments and every other field are scanned.
+# ---------------------------------------------------------------------------
+LIBRARY_ROOT = "cic/texts/"
+LIBRARY_GENERATED_FILES = {"cic/texts/README.md", "cic/texts/AUTHORS.md", "cic/texts/STRUCTURE.md"}
+LIBRARY_REGISTRY = "cic/texts/REGISTRY.yaml"
+LIBRARY_EDITION_SUFFIXES = {".txt"}
+# An intake header is a few kilobytes; a vendored edition can be hundreds of
+# megabytes, and only its header is read.
+LIBRARY_HEADER_BYTES = 256 * 1024
+_HEADER_RULE = re.compile(r"^\s*_{10,}\s*$")
+
+
+def _is_library_edition(rel: Path) -> bool:
+    return rel.as_posix().startswith(LIBRARY_ROOT) and rel.suffix in LIBRARY_EDITION_SUFFIXES
+
+
+def _library_header_end(lines: list[str]) -> int:
+    """Number of leading lines that make up a vendored edition's intake
+    header. The older boxed form opens with a rule of underscores and ends at
+    the next one, however long it runs. The current form ends at its `---`.
+    With neither in the first 120 lines, the header is the leading block up
+    to the first blank line."""
+    first = next((i for i, line in enumerate(lines) if line.strip()), None)
+    if first is not None and _HEADER_RULE.match(lines[first]):
+        for i in range(first + 1, len(lines)):
+            if _HEADER_RULE.match(lines[i]):
+                return i
+        return len(lines)
+    for i, line in enumerate(lines[:120]):
+        if line.strip() == "---":
+            return i
+    for i, line in enumerate(lines[:40]):
+        if not line.strip():
+            return i
+    return min(len(lines), 40)
+
+
+_REGISTRY_FREE_TEXT_KEY = re.compile(r"^(\s*)(?:- )?(?:notes|evidence|supplied_by|date_added):")
+
+
+def _registry_notes_lines(lines: list[str]) -> set[int]:
+    """1-based lines of REGISTRY.yaml's free-text values: each entry's
+    `notes`, `supplied_by` and `date_added` (who supplied the file, and when)
+    and each apparatus mapping's `evidence` (the schema's own record of what
+    was checked against the file, and when), key line included, up
+    to the next line indented no deeper than the key."""
+    out: set[int] = set()
+    key_indent = None
+    for i, line in enumerate(lines, start=1):
+        indent = len(line) - len(line.lstrip())
+        if key_indent is not None:
+            if not line.strip() or indent > key_indent:
+                out.add(i)
+                continue
+            key_indent = None
+        m = _REGISTRY_FREE_TEXT_KEY.match(line)
+        if m:
+            # `- date_added:` opens an entry: the key itself sits two columns in.
+            key_indent = len(m.group(1)) + (2 if line.lstrip().startswith("- ") else 0)
+            out.add(i)
+    return out
+
+
 def is_protected(rel: Path, line_no: int, protected_field_lines: set[int]) -> bool:
     rel_s = rel.as_posix()
-    if rel_s.startswith("cic/texts/"):
+    if rel_s in LIBRARY_GENERATED_FILES:
         return True
     if rel_s == "fixtures/seeded_defects.yaml":
         return True
@@ -1402,6 +1548,21 @@ _GATE_MODULE = re.compile(r"^engine/m10/[^/]+\.py$")
 _GATE_TEST_MODULE = re.compile(r"^engine/m10/tests/[^/]+\.py$")
 _GATE_KEEP_PATTERNS = {"reviewer", "route-cue"}
 _REVIEW_HEADER_FIELD = re.compile(r"^\s*(?:Reviewer|Drafter) (?:model|agent)\s*:")
+
+
+def _markdown_fenced_lines(lines: list[str]) -> set[int]:
+    """Lines inside a fenced code block of a Markdown file: commands and
+    literal output, where a date is part of a name (`git checkout
+    baseline/pilot-2026-08-24`)."""
+    out: set[int] = set()
+    inside = False
+    for i, line in enumerate(lines, start=1):
+        if line.lstrip().startswith("```"):
+            inside = not inside
+            continue
+        if inside:
+            out.add(i)
+    return out
 
 
 def _python_code_lines(text: str) -> set[int]:
@@ -1519,10 +1680,264 @@ def _without_name_taxonomy_tag(line: str) -> str:
     return _TRAILING_NAME_TAG.sub("", _LEADING_NAME_TAG.sub("", line, count=1), count=1)
 
 
+# ---------------------------------------------------------------------------
+# The two public sites. Reader text there must not carry a record id
+# (ijc.force.leo-rejects-canon-28) or a census id (alexandria-catechetical):
+# both are build plumbing, and a reader meets them only when a record's
+# build note has leaked into a card or a page. Ids are legitimate inside
+# markup and data plumbing, so the scan reads a line with its HTML tags,
+# its id-like key/value pairs and its paths and URLs taken out first.
+# ---------------------------------------------------------------------------
+_SITE_ROOTS = ("cft-website/", "cic-website/")
+_SITE_ID_KEY = re.compile(
+    r"(?i)^(?:id|ids|slug|key|src|href|url|file|path|from|to|target|source|record|records|world|worlds|code|"
+    r"census|parent|children|ref|refs|image|audio|node|nodes|edge|edges|link|links)$|^_"
+    r"|(?:Id|_id|Ids|_ids|Url|_url|Path|_path|File|_file|Src|Key|_key)$"
+)
+_SITE_STRING = re.compile(r'"(?:[^"\\]|\\.)*"')
+_SITE_KEY_GAP = re.compile(r"^\s*:\s*$")
+_SITE_TAG = re.compile(r"<[^>]*>")
+_SITE_PATH = re.compile(r"\S*(?:/|\.(?:html|json|mp3|ogg|wav|md|mjs|js|css|png|jpe?g|svg|webp|yaml))\S*")
+_SLUG_CACHE: dict[str, re.Pattern[str] | None] = {}
+
+
+def _is_site_file(rel: Path) -> bool:
+    """A page or data file on one of the two public sites. A stylesheet has
+    no reader text."""
+    return rel.as_posix().startswith(_SITE_ROOTS) and rel.suffix != ".css"
+
+
+def _site_reader_text(line: str) -> str:
+    """The line as a reader would read it. HTML tags go (attributes are
+    markup). The double-quoted string literals are walked left to right, so a
+    `","` between two array items is never mistaken for a string: a key goes,
+    the value of an id-like key (_SITE_ID_KEY, or any key starting `_`) goes,
+    and a string with no space in it goes (a key or a bare identifier,
+    "toldWithin": "roman-church-gregorian"). Then paths and URLs go."""
+    text = _SITE_TAG.sub(" ", line)
+    parts: list[str] = []
+    pos = 0
+    key = None
+    key_end = -1
+    for m in _SITE_STRING.finditer(text):
+        parts.append(text[pos:m.start()])
+        pos = m.end()
+        content = m.group(0)[1:-1]
+        if text[m.end():].lstrip().startswith(":"):
+            key, key_end = content, m.end()
+            continue
+        value_of = key if key is not None and _SITE_KEY_GAP.match(text[key_end:m.start()]) else None
+        if value_of is not None and _SITE_ID_KEY.search(value_of):
+            continue
+        if not re.search(r"\s", content):
+            continue
+        parts.append(" " + content + " ")
+    parts.append(text[pos:])
+    return _SITE_PATH.sub(" ", "".join(parts))
+
+
+def _slug_pattern() -> re.Pattern[str] | None:
+    """Record ids (<world code>.<type>.<name>, the world codes read from
+    records/) and every hyphenated census id (cic-website/data/
+    world-census.json's movements)."""
+    key = str(REPO)
+    if key not in _SLUG_CACHE:
+        alternatives = []
+        codes = _world_codes()
+        if codes:
+            alternatives.append(r"(?:%s)\.[a-z_]+\.[a-z0-9][a-z0-9-]*[a-z0-9]" % "|".join(map(re.escape, codes)))
+        census = REPO / CENSUS_PATH
+        try:
+            movements = json.loads(census.read_text(encoding="utf-8")).get("movements", [])
+        except (OSError, ValueError, AttributeError):
+            movements = []
+        ids = sorted({m.get("id") for m in movements if isinstance(m, dict) and "-" in str(m.get("id", ""))}, key=len, reverse=True)
+        if ids:
+            alternatives.append("|".join(map(re.escape, ids)))
+        _SLUG_CACHE[key] = re.compile(r"(?<![\w.-])(?:%s)(?![\w-])" % "|".join(alternatives)) if alternatives else None
+    return _SLUG_CACHE[key]
+
+
+def _world_codes() -> list[str]:
+    """The world codes: records/'s subdirectories, read from git's tree when
+    a sparse checkout (CI's) leaves records/ off disk."""
+    records = REPO / "records"
+    names: list[str] = []
+    if records.is_dir():
+        names = [d.name for d in records.iterdir() if d.is_dir()]
+    if not names:
+        try:
+            out = subprocess.run(["git", "ls-tree", "-d", "--name-only", "HEAD", "records/"],
+                                 cwd=REPO, capture_output=True, text=True, check=True).stdout
+            names = [Path(line).name for line in out.splitlines() if line.strip()]
+        except (OSError, subprocess.CalledProcessError):
+            names = []
+    return sorted(n for n in names if n != "worlds")
+
+
+# Files the scan reads beyond the ones a change edits: the census ids the
+# site rule looks for, and every file an ACCEPTED_OPEN waiver names (so a
+# stale waiver is caught). CI's sparse checkout adds these (--sparse-paths).
+CENSUS_PATH = "cic-website/data/world-census.json"
+
+
+def sparse_paths() -> list[str]:
+    paths = {CENSUS_PATH}
+    for waiver in ACCEPTED_OPEN:
+        paths.update(waiver.paths)
+    return sorted("/" + p for p in paths)
+
+
+def _site_slug(reader: str) -> bool:
+    pattern = _slug_pattern()
+    return bool(pattern and pattern.search(reader))
+
+
+# ---------------------------------------------------------------------------
+# Text the program or a template writes out, not a note about the file: an
+# open-item cue on a Python code line (a string the program prints, such as
+# a paste-ready stub with a TODO slot for its reader to fill), and, in a
+# Build/reference template, a section heading or a bracketed placeholder
+# ("### Open Items Carried Forward", "[... If testing has not yet been
+# conducted, write PENDING ...]"). Only a bare open-item cue is excused; any
+# provenance pattern on the same line still counts. A Python comment or
+# docstring is never a code line (_python_code_lines).
+# ---------------------------------------------------------------------------
+_TEMPLATE_DOC = re.compile(r"^Build/reference/.*Template[^/]*\.md$")
+_MD_HEADING = re.compile(r"^#{1,6}\s")
+
+
+def _is_template(rel: Path) -> bool:
+    return bool(_TEMPLATE_DOC.match(rel.as_posix()))
+
+
+_MD_LINK_OR_BOX = re.compile(r"\[[^\]]*\]\([^)]*\)|\[[ xX]\]|`[^`]*`|\\\[")
+
+
+def _template_placeholder_lines(lines: list[str]) -> set[int]:
+    """Headings, and lines inside a bracketed placeholder ([...], possibly
+    over several lines). Links, checkboxes, code spans and escaped brackets
+    are not placeholders, and a placeholder never runs past a heading, a
+    blank line or a `---` rule."""
+    out: set[int] = set()
+    depth = 0
+    for i, line in enumerate(lines, start=1):
+        if _MD_HEADING.match(line):
+            out.add(i)
+            depth = 0
+            continue
+        if not line.strip() or line.strip() == "---":
+            depth = 0
+            continue
+        bare = _MD_LINK_OR_BOX.sub("", line)
+        opened = depth > 0 or "[" in bare
+        depth = max(0, depth + bare.count("[") - bare.count("]"))
+        if opened:
+            out.add(i)
+    return out
+
+
+def _placeholder_category(matched: list[str], category: str, written_out: bool) -> str:
+    if category == "ROUTE" and written_out and set(matched) == {"route-cue"}:
+        return "KEEP"
+    return category
+
+
+# ---------------------------------------------------------------------------
+# ACCEPTED_OPEN waivers (CLAUDE.md, "Track gaps and exceptions explicitly"):
+# known lines on a live surface that are not being fixed right now, each with
+# the open item or the change that owns it. A waived line is reported as
+# WAIVED and never fails a run. A waiver that no longer matches any line
+# fails every --enforce run until it is removed, so a waiver cannot outlive
+# the defect it names. Keep each match narrow: the field and the wording.
+# ---------------------------------------------------------------------------
+@dataclass(frozen=True)
+class Waiver:
+    key: str
+    paths: tuple[str, ...]  # repo-relative paths or fnmatch patterns
+    match: re.Pattern[str]  # applied to the line's own text
+    owner: str
+
+
+ACCEPTED_OPEN: tuple[Waiver, ...] = (
+    Waiver(
+        "story-source-notes",
+        ("cft-website/index.html",),
+        re.compile(r'^\s*"note":.*\b(?:consulted via|known to me, not consulted)\b'),
+        "Church Family Tree Open-Gaps 280: the story source notes record real sourcing limits; "
+        "their wording waits on Mark.",
+    ),
+    Waiver(
+        "relations-summary-release-45",
+        ("cft-website/index.html",),
+        re.compile(r'^\s*"relationsSummary":'),
+        "Release 45 (PR #1679, claude/cft-story-relations-cleanup) rewrites every relationsSummary; "
+        "this waiver comes off when it merges.",
+    ),
+    Waiver(
+        "census-builder-wording",
+        ("cft-website/index.html", "cic-website/data/world-census.json", "cft-website/tree/*.html"),
+        re.compile(
+            r"\bcensus (?:row|edge|relations line)\b|\bper census\b|\btension-sibling\b|\bWho scan\b"
+            r"|\bChange order under G\d"
+        ),
+        "Church Family Tree Open-Gaps 280: census wording outside the stories, for Mark and a slice after "
+        "Release 45.",
+    ),
+    Waiver(
+        "compiled-record-ids",
+        (
+            "cic-website/traditions/syriac-edessa-nisibis.html",
+            "cic-website/data/worlds/syriac-edessa-nisibis.json",
+            "cic-website/data/worlds/desert-monasticism.json",
+        ),
+        re.compile(r"syr\.source\.theodoret-historia-ecclesiastica \(Theodoret|desert\.source\.evagrius-praktikos and Doc_01"),
+        "Church Family Tree Open-Gaps 280: a record id in syr.quote.theodoret-gnats's speaker_or_author and a "
+        "build note in desert.figure.evagrius reach the compiled site; a record fix and a recompile.",
+    ),
+)
+
+
+def _waiver_for(rel: Path, line: str) -> Waiver | None:
+    rel_s = rel.as_posix()
+    for waiver in ACCEPTED_OPEN:
+        if any(fnmatch.fnmatchcase(rel_s, p) for p in waiver.paths) and waiver.match.search(line):
+            return waiver
+    return None
+
+
+def stale_waivers(repo: Path, waivers: tuple[Waiver, ...] = ACCEPTED_OPEN) -> list[str]:
+    """Each waiver that matches no line it would waive, across its files."""
+    problems: list[str] = []
+    for waiver in waivers:
+        paths = sorted({p for pattern in waiver.paths for p in repo.glob(pattern) if p.is_file()})
+        used = False
+        for path in paths:
+            rel = path.relative_to(repo)
+            surface = surface_of(rel)
+            if surface is None:
+                continue
+            if any(h.category in BLOCKING_CATEGORIES + ("WAIVED",) and waiver.match.search(h.text)
+                   for h in scan_file(repo, path, surface)):
+                used = True
+                break
+        if not used:
+            problems.append(f"ACCEPTED_OPEN waiver {waiver.key!r} matches no line any more: remove it ({waiver.owner})")
+    return problems
+
+
 def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
     rel = path.relative_to(repo)
     if is_generated_manifest(rel):
         return []
+    if _is_library_edition(rel):
+        try:
+            with path.open("rb") as handle:
+                head = handle.read(LIBRARY_HEADER_BYTES).decode("utf-8", errors="replace")
+        except OSError:
+            return []
+        head_lines = head.splitlines()
+        return _scan_library_header(rel, head_lines[:_library_header_end(head_lines)], surface)
     try:
         text = path.read_text(encoding="utf-8", errors="replace")
     except OSError:
@@ -1547,6 +1962,10 @@ def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
         locus_lines = _locus_lines(text)
         source_record_body_lines = _source_record_body_lines(text, record_type)
     protected_field_lines |= _doc_construction_protected_lines(rel, text)
+    if rel.as_posix() == LIBRARY_REGISTRY:
+        protected_field_lines |= _registry_notes_lines(raw_lines)
+    site_file = _is_site_file(rel)
+    template_lines = _template_placeholder_lines(raw_lines) if _is_template(rel) else set()
 
     # A change-history cue inside a YAML front-matter block widens only to
     # its own top-level key's lines (_yaml_scalar_block_lines) - front
@@ -1558,24 +1977,39 @@ def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
     # _paragraph_lines, unchanged.
     frontmatter_end = _yaml_frontmatter_end(raw_lines)
     change_history_block_lines: set[int] = set()
+    registry_free_text = _registry_notes_lines(raw_lines) if rel.as_posix() == LIBRARY_REGISTRY else set()
     for i, line in enumerate(raw_lines, start=1):
         if CHANGE_HISTORY_CUES.search(line) and not _VERIFIED_BY_FIELD.match(line):
-            if frontmatter_end is not None and i <= frontmatter_end:
+            if rel.as_posix() == LIBRARY_REGISTRY:
+                # No blank lines separate this file's entries, so paragraph
+                # widening would flood every neighbouring entry: a cue marks
+                # its own line only, and none inside a protected free-text value.
+                if i not in registry_free_text:
+                    change_history_block_lines.add(i)
+            elif frontmatter_end is not None and i <= frontmatter_end:
                 change_history_block_lines.update(_yaml_scalar_block_lines(frontmatter_field_lines, i))
             else:
                 change_history_block_lines.update(_paragraph_lines(raw_lines, i))
 
     code_lines = _python_code_lines(text) if path.suffix == ".py" else set()
+    fenced_lines = _markdown_fenced_lines(raw_lines) if path.suffix == ".md" else set()
     hits: list[Hit] = []
     for i, line in enumerate(raw_lines, start=1):
         matched = [name for name, pat in PATTERNS.items() if pat.search(line)]
         if i in code_lines:
             matched = [name for name in matched if name != "ruling-identifier"]
+        if i in fenced_lines:
+            matched = [name for name in matched if name != "iso-date"]
         if i in spoken_field_lines:
             spoken_text = _without_name_taxonomy_tag(line)
             cited_text = "" if i in locus_lines else _SOURCE_CITATION.sub("", spoken_text)
             matched += [name for name, pat in SPOKEN_VOCAB_PATTERNS.items()
                         if pat.search(cited_text if name == "section-ref" else spoken_text)]
+        if site_file:
+            reader = _site_reader_text(line)
+            matched += [name for name, pat in SITE_PATTERNS.items() if pat.search(reader)]
+            if _site_slug(reader):
+                matched.append("record-slug")
         if not matched and i not in spoken_field_lines and _route_cue(line, in_source_registry_file):
             matched = ["route-cue"]
         if not matched and i in change_history_block_lines:
@@ -1588,8 +2022,46 @@ def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
             category = classify_line(line, matched, i in source_record_body_lines, in_source_registry_file, i in provenance_date_lines, i in headed_table_lines)
             category = _gate_vocabulary_category(rel, line, matched, category, code_lines, i)
             category = _method_vocabulary_category(rel, line, matched, category)
+            category = _placeholder_category(matched, category, i in code_lines or i in template_lines)
+            waiver = _waiver_for(rel, line) if category in BLOCKING_CATEGORIES else None
+            if waiver is not None:
+                category = "WAIVED"
+                matched = matched + [f"waiver:{waiver.key}"]
         hits.append(Hit(surface, rel.as_posix(), i, category, matched, line.strip()))
     return hits
+
+
+# An intake header says when a file arrived, by design, so a date is data
+# on any header line. Its Source field also says who fetched it and how
+# ("fetched directly by this build thread"), so there a thread naming itself
+# and an intake pull request are data too.
+_HEADER_DATA_PATTERNS = {"iso-date"}
+_SOURCE_LINE = re.compile(r"^\s*Source:")
+_SOURCE_LINE_DATA_PATTERNS = {"pr-ref", "builder-thread"}
+
+
+def _scan_library_header(rel: Path, header: list[str], surface: str) -> list[Hit]:
+    hits: list[Hit] = []
+    for i, line in enumerate(header, start=1):
+        data = _HEADER_DATA_PATTERNS | (_SOURCE_LINE_DATA_PATTERNS if _SOURCE_LINE.match(line) else set())
+        matched = [name for name, pat in PATTERNS.items() if name not in data and pat.search(line)]
+        if not matched and _route_cue(line):
+            matched = ["route-cue"]
+        if not matched:
+            continue
+        hits.append(Hit(surface, rel.as_posix(), i, classify_line(line, matched), matched, line.strip()))
+    return hits
+
+
+def _is_scannable(rel: Path) -> bool:
+    """A text file this scan reads: one of TEXT_SUFFIXES, or a vendored
+    Library edition (header only). The Library's `_intake/` holds files not
+    yet vendored, so it is not a live surface yet."""
+    if rel.as_posix().startswith(LIBRARY_ROOT + "_intake/"):
+        return False
+    if _is_library_edition(rel):
+        return True
+    return rel.suffix not in SKIP_SUFFIXES and rel.suffix in TEXT_SUFFIXES
 
 
 def iter_files(repo: Path, surface: str):
@@ -1602,9 +2074,7 @@ def iter_files(repo: Path, surface: str):
                 continue
             if any(part in SKIP_DIR_NAMES for part in path.relative_to(repo).parts):
                 continue
-            if path.suffix in SKIP_SUFFIXES:
-                continue
-            if path.suffix not in TEXT_SUFFIXES:
+            if not _is_scannable(path.relative_to(repo)):
                 continue
             if surface == "cic-poc-frontend" and "node_modules" in path.parts:
                 continue
@@ -1656,7 +2126,7 @@ def run_changed(repo: Path, files: list[Path]) -> list[Hit]:
             continue
         if any(part in SKIP_DIR_NAMES for part in rel.parts):
             continue
-        if path.suffix in SKIP_SUFFIXES or path.suffix not in TEXT_SUFFIXES:
+        if not _is_scannable(rel):
             continue
         hits.extend(scan_file(repo, path, surface))
     return hits
@@ -1670,8 +2140,13 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--surface", choices=sorted(SURFACES), default=None)
     parser.add_argument("--json", type=Path, default=None)
     parser.add_argument("--base", default=None, help="scan only files changed since the merge-base with this git ref")
+    parser.add_argument("--sparse-paths", action="store_true",
+                        help="print, one per line, the sparse-checkout paths the scan reads beyond the edited files")
     parser.add_argument("--enforce", action="store_true", help="exit 1 when a scanned file carries REWRITE or ROUTE lines (needs --base)")
     args = parser.parse_args(argv)
+    if args.sparse_paths:
+        print("\n".join(sparse_paths()))
+        return 0
     if args.enforce and not args.base:
         parser.error("--enforce needs --base: the rule is scoped to the files a change edits")
 
@@ -1684,16 +2159,16 @@ def main(argv: list[str] | None = None) -> int:
 
     counts: dict[str, dict[str, int]] = {}
     for hit in hits:
-        counts.setdefault(hit.surface, {"KEEP": 0, "REWRITE": 0, "ROUTE": 0, "PROTECTED": 0})
+        counts.setdefault(hit.surface, {"KEEP": 0, "REWRITE": 0, "ROUTE": 0, "PROTECTED": 0, "WAIVED": 0})
         counts[hit.surface][hit.category] += 1
 
     scope = f"files changed since the merge-base with {args.base}" if args.base else "whole tree"
     print(f"Live-surface commentary scan ({scope}; see tools/check_live_commentary.py)\n")
     for surface in surfaces:
-        c = counts.get(surface, {"KEEP": 0, "REWRITE": 0, "ROUTE": 0, "PROTECTED": 0})
+        c = counts.get(surface, {"KEEP": 0, "REWRITE": 0, "ROUTE": 0, "PROTECTED": 0, "WAIVED": 0})
         total = sum(c.values())
         print(f"{surface}: {total} hits  (KEEP {c['KEEP']}, REWRITE {c['REWRITE']}, "
-              f"ROUTE {c['ROUTE']}, PROTECTED {c['PROTECTED']})")
+              f"ROUTE {c['ROUTE']}, PROTECTED {c['PROTECTED']}, WAIVED {c['WAIVED']})")
     print()
     for hit in hits:
         print(hit.row())
@@ -1711,6 +2186,11 @@ def main(argv: list[str] | None = None) -> int:
         for hit in blocking:
             print(f"  {hit.row()}", file=sys.stderr)
         return 1
+    if args.enforce:
+        stale = stale_waivers(REPO, ACCEPTED_OPEN)
+        if stale:
+            print("\n" + "\n".join(stale), file=sys.stderr)
+            return 1
     return 0
 
 

@@ -24,9 +24,9 @@ Provenance note: Body text unaltered including its own OCR errors
   Milan synodal acts - no PD English translation of either exists.
   This is Borromeo's own institutional voice, previously wholly
   unvendored in any form. Vendored 2026-09-25 as part of a
-  post-Step0-Revision-2 PD source-acquisition pass. Per this
-  project's own INTAKE.md rule, this Latin text is a second
-  witness, never primary evidence for a Representative.
+  post-Step0-Revision-2 PD source-acquisition pass. A clean public-domain original can
+  be primary evidence; scan quality
+  decides quotability, not language (cic/texts/INTAKE.md).
 
 f/^A.    --.H 
 

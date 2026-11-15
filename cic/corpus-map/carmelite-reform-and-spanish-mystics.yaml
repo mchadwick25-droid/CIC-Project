@@ -38,6 +38,14 @@ works:
     meets the antecedent rule (the entry's own sources argue from the text). Provisional until
     a build reads the decree against her passages.
   source_file: council-of-trent_canons-and-decrees_waterworth1848.txt
+- row_id: gracian_tratado-de-la-redempcion-de-captivos-spa_momarte1609--jeronimo-gracian-tratado-de-la-redempcion-de-captivos-1609
+  work: Jeronimo Gracian, Tratado de la redempcion de captivos (1609)
+  author: gracian
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  note: His own words, with passages on his captivity at Tunis; not his autobiography.
+  source_file: gracian_tratado-de-la-redempcion-de-captivos-spa_momarte1609.txt
 - row_id: ignatius-loyola_spiritual-exercises_mullan1914--the-spiritual-exercises-of-st-ignatius-2
   work: The Spiritual Exercises of St. Ignatius (as the Spanish prayer discipline beside which
     the Teresian reform grew)

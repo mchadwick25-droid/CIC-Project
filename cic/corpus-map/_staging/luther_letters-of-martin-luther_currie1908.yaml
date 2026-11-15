@@ -1,0 +1,11 @@
+source_file: luther_letters-of-martin-luther_currie1908.txt
+assignments:
+- row_id: luther_letters-of-martin-luther_currie1908--luther-letters-in-english-currie
+  work: 'Luther, letters in English (Currie)'
+  author: luther
+  locus: 'the whole volume; not mapped'
+  atlas_ids:
+  - lutheran-wittenberg-and-its-congregations
+  role: tradition
+  confidence: provisional
+  note: 'A translator''s selection; the Coburg letters at about OCR lines 13255-16200.'

@@ -511,6 +511,47 @@ works:
 
     '
   source_file: gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt
+- row_id: herminjard_correspondance-des-reformateurs-t2-1527-1532-fra-lat_1868--letters-of-the-french-speaking-reformers-1527-1532-herminjard-2
+  work: Letters of the French-speaking reformers, 1527-1532 (Herminjard 2)
+  author: herminjard
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  note: The reformers' own letters for 1527 to 1532; single letters not mapped.
+  source_file: herminjard_correspondance-des-reformateurs-t2-1527-1532-fra-lat_1868.txt
+- row_id: herminjard_correspondance-des-reformateurs-t5-1538-1539-fra-lat_1878--letters-of-the-french-speaking-reformers-1538-1539-herminjard-5
+  work: Letters of the French-speaking reformers, 1538-1539 (Herminjard 5)
+  author: herminjard
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  note: The reformers' own letters for 1538 and 1539; single letters not mapped.
+  source_file: herminjard_correspondance-des-reformateurs-t5-1538-1539-fra-lat_1878.txt
+- row_id: herminjard_correspondance-des-reformateurs-t5-1538-1539-fra-lat_1878--marie-dentiere-epistre-tres-utile-to-marguerite-de-navarre-1539-abridged-herminjard-5-no-785
+  work: Marie Dentiere, Epistre tres utile to Marguerite de Navarre (1539), abridged (Herminjard
+    5, no. 785)
+  author: herminjard
+  locus: about OCR lines 14915-15411; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: Her own words, with passages left out by the editor.
+  source_file: herminjard_correspondance-des-reformateurs-t5-1538-1539-fra-lat_1878.txt
+- row_id: jussie_le-levain-du-calvinisme-fra_revilliod-fick1853--jeanne-de-jussie-on-marie-dentiere-s-visit-to-the-poor-clares
+  work: Jeanne de Jussie on Marie Dentiere's visit to the Poor Clares
+  author: jussie
+  locus: about OCR lines 7683-7790; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: An opponent's report of Dentiere preaching to the nuns.
+  source_file: jussie_le-levain-du-calvinisme-fra_revilliod-fick1853.txt
+- row_id: kidd_documents-illustrative-of-the-continental-reformation-lat-deu-fra-eng_1911--kidd-documents-of-the-continental-reformation-the-swiss-and-french-documents
+  work: 'Kidd, Documents of the Continental Reformation: the Swiss and French documents'
+  author: kidd
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  note: Includes Collin's report of Marburg at about OCR line 14477; the rest not mapped.
+  source_file: kidd_documents-illustrative-of-the-continental-reformation-lat-deu-fra-eng_1911.txt
 - row_id: kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868--book-of-common-order-2
   work: The Book of Common Order (the Forme of Prayers of the English congregation at Geneva,
     1556, as adopted in Scotland)
@@ -1007,6 +1048,16 @@ works:
     that overlaps Reformed teaching, never as the Reformed cities' own voice. English version,
     with Robertson's own Orthodox refutation printed beside it.
   source_file: dositheus_acts-and-decrees-synod-jerusalem_robertson1899.txt
+- row_id: luther_werke-kritische-gesamtausgabe-bd-30-abt-3-deu-lat_weimar1910--the-marburg-colloquy-the-reports-of-hedio-the-anonymous-collin-osiander-and-brenz-and-the-marburg-articles-with-their-signatures-weimar-edition-30-3
+  work: 'The Marburg Colloquy: the reports of Hedio, the Anonymous, Collin, Osiander and Brenz,
+    and the Marburg Articles with their signatures (Weimar edition 30/3)'
+  author: luther
+  locus: about OCR lines 6580-12729; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: Participants' reports from both sides, and the fifteen articles as signed, in the
+    original Latin and German.
+  source_file: luther_werke-kritische-gesamtausgabe-bd-30-abt-3-deu-lat_weimar1910.txt
 - row_id: marot-beze_pseaumes-mis-en-rime-francoise-fra_1562--les-pseaumes-mis-en-rime-francoise-the-genevan-psalter
   work: Les Pseaumes mis en rime francoise (the Genevan Psalter, complete 1562 edition)
   author: marot-beze
@@ -1051,6 +1102,15 @@ works:
 
     '
   source_file: rilliet_calvin-and-servetus_tweedie1846.txt
+- row_id: schirrmacher_briefe-und-acten-marburg-1529-augsburg-1530-lat-deu_1876--acta-colloquii-marpurgensis-1529-from-aurifaber-s-manuscript-schirrmacher-as-the-other-side-s-hearing
+  work: Acta colloquii Marpurgensis (1529), from Aurifaber's manuscript (Schirrmacher), as
+    the other side's hearing
+  author: schirrmacher
+  locus: about OCR lines 1210-1836; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: Zwingli's and Oecolampadius's words as a Lutheran collection reports them.
+  source_file: schirrmacher_briefe-und-acten-marburg-1529-augsburg-1530-lat-deu_1876.txt
 - row_id: synod-of-dort_articles-with-history-of-events_scott1831--the-articles-of-the-synod-of-dort-and-its-rejection-of-3
   work: The Articles of the Synod of Dort and its Rejection of Errors (the Canons of Dort),
     English from the Latin (Scott, 1831)

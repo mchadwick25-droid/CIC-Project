@@ -20,6 +20,75 @@ works:
 
     '
   source_file: acosta_natural-and-moral-history-of-the-indies-v2_grimston-markham1880.txt
+- row_id: las-casas_brevissima-relacion-de-la-destruycion-de-las-indias-spa_cadiz1821--las-casas-brevissima-relacion-de-la-destruycion-de-las-indias-1552-cadiz-1821
+  work: Las Casas, Brevissima relacion de la destruycion de las Indias (1552), Cadiz 1821
+  author: las-casas
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  note: His own tract in Spanish, in a reprint of 1821.
+  source_file: las-casas_brevissima-relacion-de-la-destruycion-de-las-indias-spa_cadiz1821.txt
+- row_id: las-casas_historia-de-las-indias-t1-spa_fuensanta-sancho-rayon1875--las-casas-historia-de-las-indias-volume-1
+  work: Las Casas, Historia de las Indias, volume 1
+  author: las-casas
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  note: His own history, first printed here; the editors' foreword in volume I gives its dates
+    of writing. Chapters not mapped.
+  source_file: las-casas_historia-de-las-indias-t1-spa_fuensanta-sancho-rayon1875.txt
+- row_id: las-casas_historia-de-las-indias-t2-spa_fuensanta-sancho-rayon1875--las-casas-historia-de-las-indias-volume-2
+  work: Las Casas, Historia de las Indias, volume 2
+  author: las-casas
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  note: His own history, first printed here; the editors' foreword in volume I gives its dates
+    of writing. Chapters not mapped.
+  source_file: las-casas_historia-de-las-indias-t2-spa_fuensanta-sancho-rayon1875.txt
+- row_id: las-casas_historia-de-las-indias-t3-spa_fuensanta-sancho-rayon1875--las-casas-historia-de-las-indias-volume-3
+  work: Las Casas, Historia de las Indias, volume 3
+  author: las-casas
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  note: His own history, first printed here; the editors' foreword in volume I gives its dates
+    of writing. Chapters not mapped.
+  source_file: las-casas_historia-de-las-indias-t3-spa_fuensanta-sancho-rayon1875.txt
+- row_id: las-casas_historia-de-las-indias-t4-spa_fuensanta-sancho-rayon1876--las-casas-historia-de-las-indias-volume-4
+  work: Las Casas, Historia de las Indias, volume 4
+  author: las-casas
+  locus: the whole volume; his change of mind at about OCR lines 9842-9925
+  role: tradition
+  confidence: provisional
+  note: His own history, first printed here; the editors' foreword in volume I gives its dates
+    of writing. Chapters not mapped.
+  source_file: las-casas_historia-de-las-indias-t4-spa_fuensanta-sancho-rayon1876.txt
+- row_id: las-casas_historia-de-las-indias-t5-spa_fuensanta-sancho-rayon1876--las-casas-historia-de-las-indias-volume-5
+  work: Las Casas, Historia de las Indias, volume 5
+  author: las-casas
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  note: His own history, first printed here; the editors' foreword in volume I gives its dates
+    of writing. Chapters not mapped.
+  source_file: las-casas_historia-de-las-indias-t5-spa_fuensanta-sancho-rayon1876.txt
+- row_id: macnutt_bartholomew-de-las-casas-his-life-apostolate-and-writings_1909--las-casas-brevissima-relacion-in-macnutt-s-english-1909
+  work: Las Casas, Brevissima relacion, in MacNutt's English (1909)
+  author: macnutt
+  locus: about OCR lines 13557-18525; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: His own tract in a translator's English.
+  source_file: macnutt_bartholomew-de-las-casas-his-life-apostolate-and-writings_1909.txt
+- row_id: macnutt_bartholomew-de-las-casas-his-life-apostolate-and-writings_1909--macnutt-life-of-las-casas-1909
+  work: MacNutt, Life of Las Casas (1909)
+  author: macnutt
+  locus: about OCR lines 1-13556; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: A retelling of 1909; not his words.
+  source_file: macnutt_bartholomew-de-las-casas-his-life-apostolate-and-writings_1909.txt
 - row_id: motolinia_historia-de-los-indios-de-la-nueva-espana-spa_sanchez-garcia1914--historia-de-los-indios-de-la-nueva-espana
   work: Historia de los indios de la Nueva Espana (written 1536-1541)
   author: motolinia
@@ -37,3 +106,35 @@ works:
 
     '
   source_file: motolinia_historia-de-los-indios-de-la-nueva-espana-spa_sanchez-garcia1914.txt
+- row_id: sahagun_historia-de-la-conquista-de-mexico-libro-12-spa_bustamante1829--sahagun-historia-de-la-conquista-de-mexico-book-xii-of-the-historia-general-bustamante
+  work: Sahagun, Historia de la conquista de Mexico (Book XII of the Historia general; Bustamante)
+  author: sahagun
+  locus: about OCR lines 356-2796; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: The friar's Spanish text of the conquest book; the Nahuatl is not in this edition.
+  source_file: sahagun_historia-de-la-conquista-de-mexico-libro-12-spa_bustamante1829.txt
+- row_id: sahagun_historia-general-de-las-cosas-de-nueva-espana-t1-spa_bustamante1829--sahagun-historia-general-de-las-cosas-de-nueva-espana-volume-1-bustamante
+  work: Sahagun, Historia general de las cosas de Nueva Espana, volume 1 (Bustamante)
+  author: sahagun
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  note: The friar's Spanish text only; the Nahuatl of his informants is not in this edition.
+  source_file: sahagun_historia-general-de-las-cosas-de-nueva-espana-t1-spa_bustamante1829.txt
+- row_id: sahagun_historia-general-de-las-cosas-de-nueva-espana-t2-spa_bustamante1829--sahagun-historia-general-de-las-cosas-de-nueva-espana-volume-2-bustamante
+  work: Sahagun, Historia general de las cosas de Nueva Espana, volume 2 (Bustamante)
+  author: sahagun
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  note: The friar's Spanish text only; the Nahuatl of his informants is not in this edition.
+  source_file: sahagun_historia-general-de-las-cosas-de-nueva-espana-t2-spa_bustamante1829.txt
+- row_id: sahagun_historia-general-de-las-cosas-de-nueva-espana-t3-spa_bustamante1830--sahagun-historia-general-de-las-cosas-de-nueva-espana-volume-3-bustamante
+  work: Sahagun, Historia general de las cosas de Nueva Espana, volume 3 (Bustamante)
+  author: sahagun
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  note: The friar's Spanish text only; the Nahuatl of his informants is not in this edition.
+  source_file: sahagun_historia-general-de-las-cosas-de-nueva-espana-t3-spa_bustamante1830.txt

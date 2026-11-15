@@ -37,6 +37,14 @@ works:
   note: Arndt (1555-1621) is Lutheran orthodoxy's own devotional writer, born within that
     world's window and writing just after it closes; provisional placement for a later pass.
   source_file: arndt_true-christianity_boehm-schaeffer1868.txt
+- row_id: balan_monumenta-reformationis-lutheranae-1521-1525-lat-ita_1884--aleander-s-letters-from-the-diet-of-worms-1521-balan-as-an-opponent-s-report
+  work: Aleander's letters from the Diet of Worms, 1521 (Balan), as an opponent's report
+  author: balan
+  locus: about OCR lines 2438-16100; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: Luther at Worms as Aleander reported him.
+  source_file: balan_monumenta-reformationis-lutheranae-1521-1525-lat-ita_1884.txt
 - row_id: bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912--konkordieboken-in-swedish
   work: Konkordieboken (the Book of Concord, Concordia pia) in the Swedish tradition of Broocman's
     1730 translation, as revised for Bensow's 1912 edition
@@ -66,6 +74,15 @@ works:
     Augsburg Confession, Apology and the two Catechisms already vendored, and the corpus's
     only text of the Smalcald Articles and the Formula of Concord. English only.
   source_file: book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt
+- row_id: corpus-reformatorum_v27-confutatio-et-apologia-confessionis-augustanae-lat-deu_bindseil1859--melanchthon-apologia-confessionis-augustanae-with-the-confutatio-it-answers-corpus-reformatorum-27
+  work: Melanchthon, Apologia Confessionis Augustanae, with the Confutatio it answers (Corpus
+    Reformatorum 27)
+  author: corpus-reformatorum
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  note: Latin texts; the Apology's sections not mapped.
+  source_file: corpus-reformatorum_v27-confutatio-et-apologia-confessionis-augustanae-lat-deu_bindseil1859.txt
 - row_id: danske-folkekirke_ordinatio-ecclesiastica-lat_vinitor1537--ordinatio-ecclesiastica-1537-wittenberg
   work: Ordinatio ecclesiastica of 1537, the Wittenberg-approved church order sent north
   author: danske-folkekirke
@@ -80,6 +97,32 @@ works:
 
     '
   source_file: danske-folkekirke_ordinatio-ecclesiastica-lat_vinitor1537.txt
+- row_id: deutsche-reichstagsakten_juengere-reihe-bd-2-reichstag-zu-worms-1521-deu-lat-fra_wrede1896--deutsche-reichstagsakten-jungere-reihe-2-luther-s-hearing-at-worms
+  work: 'Deutsche Reichstagsakten, jungere Reihe 2: Luther''s hearing at Worms'
+  author: deutsche-reichstagsakten
+  locus: about OCR lines 36057-38650; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: The accounts of his two appearances, in Latin and German.
+  source_file: deutsche-reichstagsakten_juengere-reihe-bd-2-reichstag-zu-worms-1521-deu-lat-fra_wrede1896.txt
+- row_id: foerstemann_urkundenbuch-reichstag-zu-augsburg-1530-bd-2-deu-lat_1835--forstemann-urkundenbuch-of-the-diet-of-augsburg-1530-volume-2
+  work: Forstemann, Urkundenbuch of the Diet of Augsburg 1530, volume 2
+  author: foerstemann
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  note: The Protestant estates' papers and the negotiations of July to November 1530, in German
+    and Latin.
+  source_file: foerstemann_urkundenbuch-reichstag-zu-augsburg-1530-bd-2-deu-lat_1835.txt
+- row_id: fuesslin_beytraege-kirchen-reformations-geschichten-schweitzerland-theil-5-deu_1753--katharina-zell-letter-to-the-citizens-of-strasbourg-with-her-answer-to-ludwig-rabus-printed-1557-in-fusslin-s-beytrage-5
+  work: Katharina Zell, letter to the citizens of Strasbourg with her answer to Ludwig Rabus
+    (printed 1557), in Fusslin's Beytrage 5
+  author: fuesslin
+  locus: about OCR lines 9555-16345; add 12 to OCR line numbers
+  role: tradition
+  confidence: needs-ruling
+  note: Her own words, in an eighteenth-century reprint.
+  source_file: fuesslin_beytraege-kirchen-reformations-geschichten-schweitzerland-theil-5-deu_1753.txt
 - row_id: gerlach_tage-buch-deu_1674--tage-buch-diary-at-constantinople-1573-1578-german-2
   work: 'Stephan Gerlach''s Tage-Buch: the diary of the court preacher to the imperial embassy
     at Constantinople, 1573-1578 (German)'
@@ -116,6 +159,23 @@ works:
   note: 'The view of Lutheranism from outside: the Patriarch''s three answers to the Lutheran
     theologians. Latin only; the Greek columns are not recovered in this file.'
   source_file: acta-et-scripta-wirtembergensium_jeremias-ii-correspondence-lat_1584.txt
+- row_id: kidd_documents-illustrative-of-the-continental-reformation-lat-deu-fra-eng_1911--kidd-documents-of-the-continental-reformation-worms-marburg-and-augsburg
+  work: 'Kidd, Documents of the Continental Reformation: Worms, Marburg and Augsburg'
+  author: kidd
+  locus: about OCR lines 5682-6115, 14477-14900 and 15135-17200; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: Luther's answer at Worms in Latin, the fifteenth Marburg article in a Latin version
+    with nine signatures, and Augsburg texts.
+  source_file: kidd_documents-illustrative-of-the-continental-reformation-lat-deu-fra-eng_1911.txt
+- row_id: laemmer_monumenta-vaticana-historiam-ecclesiasticam-saeculi-xvi-lat-ita_1861--campeggio-s-letters-from-the-diet-of-augsburg-1530-laemmer-as-an-opponent-s-report
+  work: Campeggio's letters from the Diet of Augsburg, 1530 (Laemmer), as an opponent's report
+  author: laemmer
+  locus: about OCR lines 2582-4320; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: The Lutheran estates at Augsburg as Campeggio reported them.
+  source_file: laemmer_monumenta-vaticana-historiam-ecclesiasticam-saeculi-xvi-lat-ita_1861.txt
 - row_id: luther_works-v2-selected_jacobs-spaeth1916--a-brief-explanation-of-the-ten-commandments-the-creed-and
   work: A Brief Explanation of the Ten Commandments, the Creed, and the Lord's Prayer
   author: luther
@@ -424,6 +484,30 @@ works:
 
     '
   source_file: luther_works-v6-selected_various1932.txt
+- row_id: luther_briefe-sendschreiben-und-bedenken-theil-4-lat-deu_de-wette1827--luther-letters-from-the-coburg-and-after-de-wette-4
+  work: Luther, letters from the Coburg and after (de Wette 4)
+  author: luther
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  note: His own letters in Latin and German, from April 1530.
+  source_file: luther_briefe-sendschreiben-und-bedenken-theil-4-lat-deu_de-wette1827.txt
+- row_id: luther_letters-of-martin-luther_currie1908--luther-letters-in-english-currie
+  work: Luther, letters in English (Currie)
+  author: luther
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  note: A translator's selection; the Coburg letters at about OCR lines 13255-16200.
+  source_file: luther_letters-of-martin-luther_currie1908.txt
+- row_id: luther_werke-kritische-gesamtausgabe-bd-30-abt-3-deu-lat_weimar1910--luther-writings-of-1529-1532-weimar-edition-30-3
+  work: Luther, writings of 1529-1532 (Weimar edition 30/3)
+  author: luther
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  note: Original-language texts; single writings other than the Marburg part not mapped.
+  source_file: luther_werke-kritische-gesamtausgabe-bd-30-abt-3-deu-lat_weimar1910.txt
 - row_id: luther_bondage-of-the-will_cole1823--martin-luther-on-the-bondage-of-the-will
   work: Martin Luther on the Bondage of the Will
   author: luther
@@ -633,6 +717,16 @@ works:
 
     '
   source_file: luther_works-v3-selected_various1930.txt
+- row_id: luther_werke-kritische-gesamtausgabe-bd-30-abt-3-deu-lat_weimar1910--the-marburg-colloquy-the-reports-of-hedio-the-anonymous-collin-osiander-and-brenz-and-the-marburg-articles-with-their-signatures-weimar-edition-30-3
+  work: 'The Marburg Colloquy: the reports of Hedio, the Anonymous, Collin, Osiander and Brenz,
+    and the Marburg Articles with their signatures (Weimar edition 30/3)'
+  author: luther
+  locus: about OCR lines 6580-12729; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: Participants' reports from both sides, and the fifteen articles as signed, in the
+    original Latin and German.
+  source_file: luther_werke-kritische-gesamtausgabe-bd-30-abt-3-deu-lat_weimar1910.txt
 - row_id: luther_works-v1-selected_jacobs-spaeth1915--the-ninety-five-theses-disputation-on-the-power-and-efficacy
   work: The Ninety-Five Theses (Disputation on the Power and Efficacy of Indulgences), with
     the Letter to Archbishop Albrecht of Mainz
@@ -786,6 +880,41 @@ works:
 
     '
   source_file: olavus-petri_samlade-skrifter-v2-swe_hesselman1915.txt
+- row_id: reu_augsburg-confession-collection-of-sources_1930--reu-the-augsburg-confession-a-collection-of-sources
+  work: 'Reu, The Augsburg Confession: a collection of sources'
+  author: reu
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  note: Lutheran sources of 1530 in a translator's English of 1930.
+  source_file: reu_augsburg-confession-collection-of-sources_1930.txt
+- row_id: roehrich_mittheilungen-geschichte-evangelischen-kirche-des-elsasses-bd-3-deu_1855--t-w-rohrich-life-of-katharina-zell-with-extracts-from-her-writings-mittheilungen-3
+  work: T. W. Rohrich, Life of Katharina Zell, with extracts from her writings (Mittheilungen
+    3)
+  author: roehrich
+  locus: about OCR lines 6166-7115; add 12 to OCR line numbers
+  role: context
+  confidence: needs-ruling
+  note: A Life of 1855 that quotes her at length; the extracts are hers, the frame is not.
+  source_file: roehrich_mittheilungen-geschichte-evangelischen-kirche-des-elsasses-bd-3-deu_1855.txt
+- row_id: schirrmacher_briefe-und-acten-marburg-1529-augsburg-1530-lat-deu_1876--acta-colloquii-marpurgensis-1529-from-aurifaber-s-manuscript-schirrmacher
+  work: Acta colloquii Marpurgensis (1529), from Aurifaber's manuscript (Schirrmacher)
+  author: schirrmacher
+  locus: about OCR lines 1210-1836; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: A Latin report of the sessions from the Wittenberg side's collector, speaker by speaker;
+    the articles are not printed.
+  source_file: schirrmacher_briefe-und-acten-marburg-1529-augsburg-1530-lat-deu_1876.txt
+- row_id: schirrmacher_briefe-und-acten-marburg-1529-augsburg-1530-lat-deu_1876--luther-s-letters-of-1530-and-the-acts-of-the-diet-of-augsburg-from-aurifaber-s-manuscript-schirrmacher
+  work: Luther's letters of 1530 and the acts of the Diet of Augsburg, from Aurifaber's manuscript
+    (Schirrmacher)
+  author: schirrmacher
+  locus: about OCR lines 2212 onward; the end not mapped; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: Latin letters and acts; the German reports after them are poorly read in the OCR.
+  source_file: schirrmacher_briefe-und-acten-marburg-1529-augsburg-1530-lat-deu_1876.txt
 - row_id: theologia-germanica_theologia-germanica_winkworth1893--theologia-germanica-english-of-the-treatise-luther-printed
   work: Theologia Germanica (Winkworth's translation)
   author: theologia-germanica

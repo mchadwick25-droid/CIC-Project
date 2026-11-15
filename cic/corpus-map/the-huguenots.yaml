@@ -78,6 +78,30 @@ works:
 
     '
   source_file: beza_histoire-ecclesiastique-t3-fra_baum-cunitz-reuss1889.txt
+- row_id: bodin_colloquium-heptaplomeres-lat_noack1857--bodin-colloquium-heptaplomeres-noack-1857
+  work: Bodin, Colloquium heptaplomeres (Noack 1857)
+  author: bodin
+  locus: the whole volume; not mapped
+  role: context
+  confidence: needs-ruling
+  note: A dialogue of seven speakers on religion, in Latin; an outside witness.
+  source_file: bodin_colloquium-heptaplomeres-lat_noack1857.txt
+- row_id: bodin_six-bookes-of-a-commonweale_knolles1606--bodin-the-six-bookes-of-a-commonweale-knolles-1606
+  work: Bodin, The Six Bookes of a Commonweale (Knolles 1606)
+  author: bodin
+  locus: the whole volume; not mapped
+  role: context
+  confidence: needs-ruling
+  note: His book on the state in the English of 1606; an outside witness.
+  source_file: bodin_six-bookes-of-a-commonweale_knolles1606.txt
+- row_id: busbecq_life-and-letters-v2_forster-daniell1881--busbecq-letters-from-france-forster-and-daniell
+  work: Busbecq, letters from France (Forster and Daniell)
+  author: busbecq
+  locus: the whole volume; not mapped
+  role: context
+  confidence: needs-ruling
+  note: The same ambassador's letters from France in a translators' English; an outside witness.
+  source_file: busbecq_life-and-letters-v2_forster-daniell1881.txt
 - row_id: crespin_histoire-des-martyrs-t1-fra_benoit-lelievre1885--histoire-des-martyrs-1619-edition-tome-1-livres-i-iv-the
   work: 'Histoire des martyrs (1619 edition), Tome 1: Livres I-IV, the French martyrs from
     1523 to the mid-1540s with Benoit''s introduction'
@@ -320,6 +344,30 @@ works:
 
     '
   source_file: migault_journal-fra_weiss-clouzot1910.txt
+- row_id: montaigne_essays-v1_florio-saintsbury1892--montaigne-essays-volume-1-florio
+  work: Montaigne, Essays, volume 1 (Florio)
+  author: montaigne
+  locus: the whole volume; not mapped
+  role: context
+  confidence: needs-ruling
+  note: His essays in the English of 1603; an outside witness.
+  source_file: montaigne_essays-v1_florio-saintsbury1892.txt
+- row_id: montaigne_essays-v2_florio-saintsbury1893--montaigne-essays-volume-2-florio
+  work: Montaigne, Essays, volume 2 (Florio)
+  author: montaigne
+  locus: the whole volume; not mapped
+  role: context
+  confidence: needs-ruling
+  note: His essays in the English of 1603; an outside witness.
+  source_file: montaigne_essays-v2_florio-saintsbury1893.txt
+- row_id: montaigne_essays-v3_florio-saintsbury1893--montaigne-essays-volume-3-florio
+  work: Montaigne, Essays, volume 3 (Florio)
+  author: montaigne
+  locus: the whole volume; not mapped
+  role: context
+  confidence: needs-ruling
+  note: His essays in the English of 1603; an outside witness.
+  source_file: montaigne_essays-v3_florio-saintsbury1893.txt
 - row_id: mornay-charlotte_huguenot-family-in-the-xvi-century_crump1926--a-huguenot-family-in-the-xvi-century-the-memoirs
   work: 'A Huguenot Family in the XVI Century: The Memoirs of Philippe de Mornay, Sieur du
     Plessis Marly, Written by His Wife (Lucy Crump''s translation)'
