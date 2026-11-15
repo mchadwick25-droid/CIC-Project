@@ -1,0 +1,11 @@
+source_file: acta-sanctorum_martii-tomus-2-lat_palme1865.txt
+assignments:
+- row_id: acta-sanctorum_martii-tomus-2-lat_palme1865--vita-constantini-cum-translatione-s-clementis-the-italian
+  work: 'Vita Constantini cum translatione S. Clementis (the Italian Legend), Acta Sanctorum March II'
+  author: acta-sanctorum
+  locus: 'from about OCR line 18531; add 12 to OCR line numbers'
+  atlas_ids:
+  - cyrillo-methodian-slavic-christianity
+  role: context
+  confidence: provisional
+  note: 'A Latin account of Cyril and of the bringing of Clement''s relics to Rome. It is a Latin church''s telling, so an outside witness beside the Slavonic Lives.'

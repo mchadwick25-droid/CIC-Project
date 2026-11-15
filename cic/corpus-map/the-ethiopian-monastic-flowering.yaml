@@ -188,8 +188,8 @@ works:
     Fourteenth-century and inside both windows. Ready to quote once verified against the scan.
   source_file: umari_masalik-el-absar-afrique-moins-egypte-fra_gaudefroy-demombynes1927.txt
 - row_id: zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893--chronicles-of-zar-a-ya-eqob-and-ba-eda-maryam-ge-ez-text-wit
-  work: Chronicles of Zar'a Ya'eqob and Ba'eda Maryam (Ge'ez text with French introduction
-    and appendix)
+  work: Chronicles of Zar'a Ya'eqob and Ba'eda Maryam (Ge'ez text with French translation,
+    introduction and appendix)
   author: zara-yaqob
   locus: Introduction from file line 451; Ge'ez chronicle of Zar'a Ya'eqob from about line
     2867; Ba'eda Maryam at 8540; appendix of French extracts at 15046
@@ -197,7 +197,8 @@ works:
   confidence: assigned
   note: Royal chronicle of the reign that conceded the Saturday Sabbath and persecuted Estifanos's
     monks. The Ge'ez OCR is unusable, so this is a second witness for the Ge'ez wording. The
-    French introduction, notes and the appendix of translated extracts are readable. No full
-    French translation is in the volume; no public-domain English translation exists (the
-    only English version, Huntingford 1965, is for Amda Seyon and in copyright).
+    French introduction, notes and the appendix of translated extracts are readable, and a
+    running French translation of both chronicles stands beneath the Ge'ez on each page (Zar'a
+    Ya'eqob from about file line 2922); no public-domain English translation exists (the only
+    English version, Huntingford 1965, is for Amda Seyon and in copyright).
   source_file: zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893.txt

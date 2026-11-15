@@ -1,0 +1,11 @@
+source_file: pachymeres_de-michaele-et-andronico-palaeologis-v1-grc-lat_bekker1835.txt
+assignments:
+- row_id: pachymeres_de-michaele-et-andronico-palaeologis-v1-grc-lat_bekker1835--george-pachymeres-history-books-i-vi-michael-viii-greek-and
+  work: 'George Pachymeres, History, books I-VI (Michael VIII), Greek and Latin (Bekker 1835)'
+  author: pachymeres
+  locus: 'whole volume; book V from about OCR line 15482; add 12 to OCR line numbers'
+  atlas_ids:
+  - byzantine-church-after-1054
+  role: tradition
+  confidence: provisional
+  note: 'A Byzantine writer''s history of his own times, with a Greek account of the union of Lyon.'

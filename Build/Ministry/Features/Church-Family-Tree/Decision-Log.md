@@ -3594,3 +3594,106 @@ Every quotation in the briefs and cards was re-checked word for word against its
 **What is still open.** Open-Gaps 272, "Era 4 Who batch 10" (2026-11-15).
 
 The approved files are in `Who-Profiles/era4/batch10/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-15_who-profiles-era4-batch10/`. No census, record or site change is made, so there is no data release number. Approved to proceed (coordinator, 2026-11-15; Mark may overrule).
+
+## 2026-11-15 — Cap ruling: one round 3 fix and one check, era 7 councils batch 1
+
+**Cap ruling (2026-11-15, Mark: "A", picked from options, relayed by the coordinator).** The third and last review round left one blocking point open, in the Synod of Chanforan brief. A round 2 fix had made it say that Léger found the valleys "changed nothing at the Reformation, except that later they took up arms". Léger says their old rule already allowed self-defense in extremity and held through the war of 1560-61 (`leger_histoire-generale-eglises-vaudoises-livre1-fra_1669.txt` l.23072-23086); Gilles tells that war fought on the defensive. Mark ordered the reviewer's wording, "changed nothing at the Reformation, but later went beyond self-defense", with its two minors ("the historians" before Muston and Montet; "in doctrine or discipline" in the entry and records) and the two Worms records minors. Then one targeted Opus check of only those strings, by an agent that had not seen the drafting or the earlier rounds, which does not count toward the cap: `Build/Ministry/Operations/Audits/2026-11-15_council-profiles-era7-batch1/R4_cap-check.md`. Its verdict is CLEAR, with one minor point in a records note, applied as worded (`R3_changes.md`).
+
+## 2026-11-15 — Major councils, era 7, batch 1: three profiles, Marburg held back (coordinator, under Mark's lifting of the council hold, 2026-11-14)
+
+**Decided.** Era 7's twelve major councils go in three batches of four, in date order (coordinator call). This is batch 1. Mark's standing words for this work: "dont sacrafice quality, expecially the quality of writing." The length ceiling is 2:30 (Mark, 2026-11-15: "Keep 2:30 for councils"), and it is never a target. Every review round ran at full effort.
+
+**The three councils.** They are the era 7 rows of the councils scan (`Build/Ministry/Operations/Audits/2026-11-12_major-events-scan/Councils_Scan.md`), written to `Council_Profile_Pattern.md` in the form of the era 1 to 6 councils.
+- **Diet of Worms 1521**: 399 words, FK 7.12, reading ease 67.17. The Diet's own record is not held; part of its Edict is, in German, in Mirbt. Luther's speech is in Foxe's English, drawn from Melanchthon and others. The emperor and the papal envoy Aleander reach us through Pallavicino, a Jesuit writing in 1664 from Aleander's letters. The scene is Foxe's: Luther waits two hours in a crowd so thick he is "almost smothered for the press". "Hier stehe ich" is told as Herrnschmid's alone among the held texts. The Edict's dating is Mirbt's, and whether the Diet consented is told from Buchheim and Pallavicino. The close is Buchheim's: Luther at the Wartburg, at the translation of the Bible.
+- **Diet of Augsburg 1530**: 400 words, FK 7.91, reading ease 60.26. The confession is told as the act of the meeting: Melanchthon drafted it; seven princes and the cities of Nuremberg and Reutlingen signed it. The scene is Bensow's: the chancellor Beyer reads the German for two hours on 25 June. The Catholic reply is not among our sources; it reaches us through Melanchthon and Catholic historians. The talks are told from Sarpi and Pallavicino, each against the other. Zwingli's confession and the four cities' are held. The close is Uppsala in 1593, and Bensow's note that the copies the emperor received have never been found.
+- **Synod of Chanforan 1532**: 400 words, FK 6.99, reading ease 66.50. The meeting's manuscript reaches us only in Muston's and Montet's quotations; its articles in the printings of Perrin, Gilles, Léger and Morland, all on the Reformed side. The date is told as contested (most say 12 September 1532; Perrin, the earliest, 1535). The name and Farel's presence rest on a guard's deposition that Gilles places in an inquiry of 1535; Muston puts Farel at the meeting. The dissenting barbes are told from Gilles, on the majority's side, and from the Bohemian Brethren's chronicle (Blahoslav, ed. Goll). The close is Léger quoting Beza: through the Waldensians of the valleys, France has the Bible in its own language.
+
+**The Marburg Colloquy (1529) is held back** (worker's call, agreed by the coordinator). No held text tells the debate in the room or prints the signed articles; Foxe's English list of the fifteen articles stops before the clause on the Supper, and Luther has no held words spoken at Marburg. A profile would be thin and one-sided on the meeting itself. Its record is a queued want in `Build/Ministry/Features/Source-Library/CFT-Wants.md`, "Era 7", with a Worms row that is not needed for its profile.
+
+**Worker's calls under the pattern (not Mark's words; Mark may overrule).**
+- **Rivers as the scan gives them**: Worms and Chanforan, Latin West and Protestant; Augsburg, Protestant and Latin West.
+- **Each brief runs to the ceiling, and the README says why.** Each was drafted longer and cut back; every round 1 reviewer was asked to test the length against the README's reason, and each found the brief earned it.
+- **The Who click follows the era 3 to 6 rule.** Verdicts are the era 7 Who scan's; Luther (`martin-luther`) is the only id. Writers who only report a council (Foxe, Pallavicino, Sarpi, Waterworth, Buchheim, Bensow, the Waldensian historians) are in the record and sources.
+- **A partisan label needs a held line.** Buchheim is placed as "an 1885 historian on Luther's side" (his own words against the Curia), since no held line gives his church; the same words are used in both Diets.
+- **The low grade, as with Clermont and era 6.** Worms and Chanforan sit under grade 8 because the spoken lines are short; joining them would run sentences past 25 words or pad.
+- **American spelling** in the profiles' own prose (Decision-Log 77); quotations keep their own spelling.
+- **Opus drafted every profile.** Research agents first gathered a sourced dossier for each council (Marburg's too), and Opus agents wrote the entries and records from them.
+
+**Review.** Three rounds by fresh Opus agents, one per council, none of whom had seen the drafting, at full effort in every round.
+- **Round 1**, the full review, found 10 blocking, 11 substantial and 29 minor points. Among the blocking: the Chanforan dissent shrunk to two barbes, the guard's 1535 deposition told in Muston's 1532 frame, Léger's exception dropped, and the teaser taking one side; at Worms, the Table Talk used as a counter-witness for a speech it does not give, and Buchheim called "Protestant" with no held line; at Augsburg, Melanchthon's "How could they assent" moved to the wrong moment and the 15 April term given to the wrong witness. Earlier, the entry agents had caught first names no held line gives ("Christian Beyer", "Joseph Waterworth") before review.
+- **Round 2**, a targeted recheck, found 2 blocking, 3 substantial and 13 minor. Both blocking points came from fix wording: "Charles read out a paper" (Pallavicino has it read for him) and the worker's own reading of Léger.
+- **Round 3**, the last, found 1 blocking and 5 minor. The blocking point, again Léger, went to Mark; his ruling is recorded in the cap ruling entry above.
+
+Every quotation was re-checked word for word against its vendored file. No paid calls were made.
+
+**What is still open.** Open-Gaps 273, "Major councils, era 7 batch 1" (2026-11-15).
+
+The files are in `Council-Profiles/era7/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-15_council-profiles-era7-batch1/`. No census, record or site change is made, so there is no data release number; councils reach the site through the map build. Approved to proceed (coordinator, 2026-11-15; Mark may overrule).
+
+## 2026-11-15 — The map after release 44: the era mark, a pan limit and zoom floor, the map owns its pinch, and no hover tip on touch (coordinator, from Mark's report of 2026-11-15)
+
+**Reported (Mark, 2026-11-15).** "So 44 is live and it looks great, but the eras are not working with the scrolling in and out. The I moves to the middle of the era title. Also Things scroll off the page and you get lost. The card has a box that is in the way". His iPhone Safari screenshots, relayed by the design worker, showed:
+- the era mark inside its title at first load ("1. THE EARLY CHUR(i)H ERA");
+- the whole page zoomed, with the header cut to "ree" and the bottom bar off screen;
+- the hover tip left open over the map after a tap.
+
+**What was wrong, and the fix.** All the changes are in `cft-website/index.html`.
+- **The era mark.** The map measured each title once, cached its width over its font size, and placed the mark from that number at every zoom. The title font, Cinzel, loads late, so a first measure can use the narrower fallback font. Safari's text-length measure can also fall short of the drawn title. The cache is gone. The mark is placed from the title's drawn box every time the captions are placed. A ResizeObserver on each title moves the mark again when the font arrives, with or without a font event.
+- **Lost off the page.** There was no pan limit, and the zoom-out floor was 0.06, so the tree became a speck. One clamp in `applyTransform` now covers every way of moving or zooming: drag, wheel, keys, buttons, pinch, the glide after a fling, the zoom-to actions, resize and the Who list. No side of the map area is more than a third empty.
+- **Safari zooming the page.** The map, its controls and its two bars now cancel a two-finger touch and Safari's gesture events. A pinch there zooms only the map. Page zoom still works on the cards, the Who list, the bar's panels (the Key) and the text pages.
+- **The box in the way: the hover tip.** A tap fires the browser's stand-in mouse events, which opened the tip, and nothing closed it. The tip and the hover highlights now answer only a mouse, a pen or the keyboard. A touch hides any open tip. The tip also goes when the map is scrolled, dragged, panned or zoomed by keys, and when a card opens.
+
+**Coordinator's and worker's calls (not Mark's words; Mark may overrule).**
+- **The zoom floor.** It is the lower of 0.9 × the opening zoom and the zoom where the tree's whole width fits the screen. That gives 0.45 on a 1440-wide desktop (opening 0.50) and 0.18 on an iPhone 13 (opening 0.39). The tree is about six times taller than it is wide, so fitting its whole height would be the speck Mark saw. On a phone, the floor set "a little below the opening zoom" would keep the tree wider than the screen. The width fit lets a reader see every river at once. If Mark prefers the phone floor at 0.9 × the opening zoom (0.35), it is one line in `minScale`.
+- **The two bars own the pinch.** This was not in the brief. It is there because a pinch that started on a bar was the other way the page got zoomed and the reader stranded.
+
+**Review.** Fresh Opus agents that had not seen the work.
+- **Round 1, full effort.** PASS WITH MINOR, 8 minor points, all handled (`R1_review.md`, `R1_changes.md`). An earlier round 1 reviewer stalled on a permission prompt and wrote nothing; the coordinator had it stopped.
+- **Round 2, targeted recheck.** PASS WITH MINOR, 3 minor points, all fixed (`R2_review.md`, `R2_changes.md`).
+- No blocking point is open. The reviews are in `Build/Ministry/Operations/Audits/2026-11-15_map-fixes-after-44/`.
+
+**Checks.**
+- **New tests:** 17 browser tests in `Build/tools/tree_map_view.test.mjs` (Playwright Chromium, run by hand after `node tools/build_tree_site.mjs`). They cover the mark at every zoom, with a late font, with a short text measure and on leaving the era strip; the pan limit after drag, wheel, keys, fling, pinch, rotation and closing the Who list; the zoom floor; the tap with no tip left behind; and the mouse and keyboard tips. Each one tested against main's code, or against the fix taken out, fails.
+- **Release 44's checks, unchanged:**
+  - 0 overlaps at the A16 zooms;
+  - 0 overlaps in all 29 river-eras with a Who open, on desktop and iPhone 13;
+  - keyboard focus-stepping and the zoom-to actions as on main.
+
+**Not tested: Safari.** This container has no WebKit, so none of this is proven on an iPhone. Mark is asked to check on his iPhone before the fixes are called done. Open-Gaps 275, "The map after release 44" (2026-11-15).
+
+No census or record change, so there is no data release number. No paid calls were made. Approved to proceed (coordinator, 2026-11-15; Mark may overrule).
+
+## 2026-11-15 — Cap ruling: two round 3 fixes and one check, era 7 councils batch 2
+
+**Cap ruling (2026-11-15, Mark: "A", picked from options, relayed by the coordinator).** The third and last review round left two blocking points open, both from round 2 fix wording. In the Council of Trent brief, a length cut had made it say the Saxon envoys "first asked the council to affirm it stood above the pope"; Sarpi's "first" belongs to the council's act ("That they would first repeat, approve, and ratifie the Article of the Superiority of the Council above the Pope", `sarpi_history-of-the-council-of-trent_brent1676.txt` l.36639-36641), and the envoys' speech opens with the safe-conduct (l.36586-36612). In the Colloquy of Poissy brief, Sarpi was still counted among the voices of the Catholic side, which his Poissy chapter does not speak for (l.42805, l.42836-42840). Mark ordered both reviewers' wordings as given: "Sarpi says they asked the council to first affirm it stood above the pope", and "The Catholic side speaks through Jesuits: those with the pope's legate, and Sforza Pallavicino, a historian of Trent. Another historian of Trent, the Venetian friar Paolo Sarpi, was hostile to the papal court." Then one targeted Opus check of those strings and of round 3's one substantial fix (Regensburg, Faber's Latin "we" given no subject the Latin does not give), by an agent that had not seen the drafting or the earlier rounds, which does not count toward the cap: `Build/Ministry/Operations/Audits/2026-11-15_council-profiles-era7-batch2/R4_cap-check.md`. Its verdict is CLEAR, with no new finding (`R3_changes.md`).
+
+## 2026-11-15 — Major councils, era 7, batch 2: four profiles (coordinator, under Mark's lifting of the council hold, 2026-11-14)
+
+**Decided.** This is batch 2 of era 7's three batches of major councils, in date order (coordinator call). Mark's standing words for this work: "dont sacrafice quality, expecially the quality of writing." The length ceiling is 2:30 (Mark, 2026-11-15: "Keep 2:30 for councils"), and it is never a target. Every review round ran at full effort, and round 2 tested each brief's length sentence by sentence.
+
+**The four councils.** They are the era 7 rows of the councils scan (`Build/Ministry/Operations/Audits/2026-11-12_major-events-scan/Councils_Scan.md`), written to `Council_Profile_Pattern.md` in the form of batch 1.
+- **Colloquy of Regensburg 1541** (`colloquy-of-regensburg-1541`): 396 words, FK 8.00, reading ease 60.19. None of the colloquy's own papers is held, neither the book nor the agreed articles. The story rests on Calvin's dated letters from the city, marked as the Protestant side, with the Jesuit Peter Faber's letter of 12 May from the Catholic side, set against Sarpi and Pallavicino. Gropper as author of the book is Pallavicino's. The agreement on justification and the break on the Supper are Calvin's words, with Pallavicino's on the Lutherans' refusal of transubstantiation and on Rome's doubt. "Crosses" is the 1858 translator's word; Calvin's Latin is not held. The close is Paul III's bull for Trent recalling Ratisbon.
+- **Council of Trent 1545-1563** (`council-of-trent`): 398 words, FK 7.74, reading ease 61.63. The acts are held in Waterworth's English. The debates are told from Sarpi, a Venetian friar hostile to the papal court, and Pallavicino, the Jesuit who wrote to refute him, each given as his. The Protestant refusal is in Calvin's and Jewel's own words, and the Saxon envoys' as Sarpi gives them. Four decrees are told (Scripture and tradition, justification, seminaries, residence), with the Lutherans' later answer in the Formula of Concord (1577). The removal to Bologna and the residence debate are told as the two historians dispute them. The close is the acts' count of signers, Pius IV's confirmation, the patriarch Abdisho's oath in Rome, and each historian's verdict.
+- **Diet of Augsburg and the Religious Peace 1555** (`diet-of-augsburg-1555`): 399 words, FK 7.87, reading ease 62.60. Told apart from the Diet of 1530 in its own brief. The recess's articles are held in Mirbt; the room only through Catholic writers, Polanco's chronicle, Pallavicino and Sarpi; no Lutheran who was there speaks in our sources. Each main clause of the recess has its sentence. Paul IV's refusal and Ferdinand's answer are Pallavicino's; the word in Ferdinand's answer lost in the OCR is not used. The parties shut out are told through Duke Christoph's draft order, ed. Bossert. The close is Westphalia's "inter illos".
+- **Colloquy of Poissy 1561** (`colloquy-of-poissy-1561`): 400 words, FK 7.58, reading ease 65.01. The main source is the anonymous Ecclesiastical History of the Reformed Churches (1580), placed by its editor Reuss and marked as the Reformed side. The Catholic side speaks through the Jesuits with the legate and Pallavicino; Sarpi is placed apart. Beza's sentence on the Supper carries his concession (believers truly share in Christ's body by faith) before the distance that caused the uproar. The Catholic replies are Lorraine's and Laínez's own words; the prelates' refusal is their own decision. The close is Catherine's letter, Pallavicino's verdict and the January edict of 1562.
+
+**Worker's calls under the pattern (not Mark's words; Mark may overrule).**
+- **Rivers as the scan gives them**: Regensburg, Augsburg 1555 and Poissy, Latin West and Protestant; Trent, Latin West.
+- **The Who click follows the era 3 to 6 rule.** Verdicts are the era 7 Who scan's: John Calvin, Martin Luther and Ignatius of Loyola carry ids; everyone else is NOT SCORED.
+- **"Affected" for the traditions shut out of the 1555 peace** (the Reformed cities, the Anabaptists, the Schwenckfelders and the Czech churches): the recess excludes them without condemning them.
+- **Scan claims found in no held source, and not used**: Regensburg as the "last serious joint attempt"; the 1555 peace as the "first legal toleration" and "Calvinists left out" as a phrase of the recess; Poissy as the end of the "hope of a common French church".
+- **Sarpi's label across the batch.** Briefs: "the Venetian friar Paolo Sarpi", hostile to the papal court where his side matters; entries: "A Venetian Servite friar; Catholic but hostile to the papal court", on his own frame against the "exorbitant power" of the See of Rome.
+- **The length.** Every brief was drafted longer and cut back, and round 2 tested every sentence; it cut one clause and a few words. Each runs close to the ceiling because each needs the witnesses for both sides placed as well as the events; the README says why for each.
+- **American spelling** in the profiles' own prose (Decision-Log 77); quotations keep their own spelling.
+- **Opus drafted every profile.** Research agents first gathered a sourced dossier for each council, and Opus agents wrote the entries and records from them, checking each brief sentence against its sources before review.
+
+**Review.** Three rounds by fresh Opus agents, one per council, none of whom had seen the drafting, at full effort in every round.
+- **Round 1**, the full review, found 4 blocking, 18 substantial and 48 minor points. Among the blocking: at Trent, a false absence (the Lutheran side was said to reach us only through Sarpi and Waterworth, though Pallavicino gives the envoys' demands and the Smalcald Articles and the Formula of Concord are held); at Augsburg 1555, Polanco placed "in the city", and Ferdinand "cleared him of blame" resting on a word lost in the OCR; at Poissy, Beza's sentence without his concession.
+- **Round 2**, a targeted recheck with a length test, found 0 blocking, 3 substantial and 14 minor. It cut one clause at Regensburg and a few words in the others.
+- **Round 3**, the last, found 2 blocking and 1 substantial. Both blocking points came from round 2 fix wording and went to Mark; his ruling is recorded in the cap ruling entry above.
+
+Every quotation was re-checked word for word against its vendored file. No paid calls were made.
+
+**What is still open.** Open-Gaps 278, "Major councils, era 7 batch 2" (2026-11-15).
+
+The files are in `Council-Profiles/era7/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-15_council-profiles-era7-batch2/`. No census, record or site change is made, so there is no data release number; councils reach the site through the map build. Approved to proceed (coordinator, 2026-11-15; Mark may overrule).

@@ -1,0 +1,11 @@
+source_file: kedrenos-skylitzes_compendium-historiarum-t2-grc-lat_bekker1839.txt
+assignments:
+- row_id: kedrenos-skylitzes_compendium-historiarum-t2-grc-lat_bekker1839--kedrenos-skylitzes-compendium-historiarum-811-1057-greek-and
+  work: 'Kedrenos (Skylitzes), Compendium historiarum, 811-1057, Greek and Latin (Bekker 1839)'
+  author: kedrenos-skylitzes
+  locus: 'whole volume; add 12 to OCR line numbers'
+  atlas_ids:
+  - byzantine-imperial-church-macedonian
+  role: context
+  confidence: provisional
+  note: 'A chronicle that ends in 1057, so a later witness for most of what it tells.'

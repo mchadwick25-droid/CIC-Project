@@ -25,6 +25,15 @@ works:
   note: A Byzantine envoy's hostile account (fl. c.870, era 4 audit). Their enemies' words,
     not the Paulicians' own.
   source_file: peter-of-sicily_historia-manichaeorum-seu-paulicianorum-grc-lat_gieseler1846.txt
+- row_id: photius_opera-t2-contra-manichaeos-mystagogia-epistolae-pg102-grc-lat_migne1860--photius-against-the-manichaeans-on-the-paulicians-greek-and
+  work: Photius, Against the Manichaeans (on the Paulicians), Greek and Latin (PG 102)
+  author: photius
+  locus: about OCR lines 242-20000; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: 'A hostile witness: the patriarch of Constantinople writing against the Paulicians.
+    Its first book tells the same history as Peter of Sicily''s, which is held.'
+  source_file: photius_opera-t2-contra-manichaeos-mystagogia-epistolae-pg102-grc-lat_migne1860.txt
 - row_id: theophanes-continuatus_historiae-byzantinae-scriptores-post-theophanem-pg109-grc-lat_migne1863--theophanes-continuatus-pg-109
   work: Theophanes Continuatus (PG 109)
   author: theophanes-continuatus

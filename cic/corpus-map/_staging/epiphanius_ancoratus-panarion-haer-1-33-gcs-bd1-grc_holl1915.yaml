@@ -1,0 +1,11 @@
+source_file: epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915.txt
+assignments:
+- row_id: epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915--ptolemy-letter-to-flora-in-panarion-33-holl-1915
+  work: 'Ptolemy, Letter to Flora, in Epiphanius, Panarion 33 (Holl 1915)'
+  author: epiphanius
+  locus: 'haer. 33 from about OCR line 33850; the Letter from 34004; add 12 to OCR line numbers'
+  atlas_ids:
+  - valentinian-and-other-gnostic-christianities
+  role: tradition
+  confidence: provisional
+  note: 'A Valentinian teacher''s own letter, written inside this window; it survives only because Epiphanius, an opponent writing about 375, copied it whole. The rest of the volume is Epiphanius''s own account of the sects.'

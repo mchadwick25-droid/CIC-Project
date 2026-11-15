@@ -1,0 +1,11 @@
+source_file: mani_mani-seine-lehre-und-seine-schriften-fihrist-deu-ara_fluegel1862.txt
+assignments:
+- row_id: mani_mani-seine-lehre-und-seine-schriften-fihrist-deu-ara_fluegel1862--ibn-al-nadim-fihrist-on-mani-fluegel-1862
+  work: 'Ibn al-Nadim, the Fihrist''s chapter on Mani and the Manichaeans, Arabic and German (Flügel 1862)'
+  author: mani
+  locus: 'the German translation from about OCR line 4329; add 12 to OCR line numbers'
+  atlas_ids:
+  - manichaeism
+  role: context
+  confidence: provisional
+  note: 'A Muslim bookseller of Baghdad, writing in 987, gives Mani''s life and the titles and summaries of his books from Manichaean sources. An outside witness, later than this window, and independent of the Acts of Archelaus.'

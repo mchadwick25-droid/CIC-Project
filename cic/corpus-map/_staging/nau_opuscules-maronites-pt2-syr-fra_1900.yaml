@@ -1,0 +1,11 @@
+source_file: nau_opuscules-maronites-pt2-syr-fra_1900.txt
+assignments:
+- row_id: nau_opuscules-maronites-pt2-syr-fra_1900--opuscules-maronites-part-2-nau-1900
+  work: 'Fragments of a Maronite Syriac chronicle, with other short texts, French, in Opuscules maronites part 2 (Nau 1900)'
+  author: nau
+  locus: 'the chronicle fragments from about OCR line 91; the Life of Severus by Zacharias from 1249; add 11 to OCR line numbers'
+  atlas_ids:
+  - maronite-christianity
+  role: tradition
+  confidence: needs-ruling
+  note: 'A Maronite chronicle of the seventh century in fragments, with a debate before Muawiya. Earlier than this window, so the placing needs a ruling. The Life of Severus bound with it is held in Kugener''s edition and is not placed here.'

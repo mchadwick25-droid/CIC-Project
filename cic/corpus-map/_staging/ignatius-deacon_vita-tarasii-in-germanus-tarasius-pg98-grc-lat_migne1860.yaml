@@ -1,0 +1,11 @@
+source_file: ignatius-deacon_vita-tarasii-in-germanus-tarasius-pg98-grc-lat_migne1860.txt
+assignments:
+- row_id: ignatius-deacon_vita-tarasii-in-germanus-tarasius-pg98-grc-lat_migne1860--ignatius-the-deacon-life-of-tarasius-of-constantinople-latin
+  work: 'Ignatius the Deacon, Life of Tarasius of Constantinople, Latin (PG 98)'
+  author: ignatius-deacon
+  locus: 'from about OCR line 117439; add 12 to OCR line numbers'
+  atlas_ids:
+  - byzantine-imperial-church-heraclian-iconoclast
+  role: tradition
+  confidence: needs-ruling
+  note: 'The Life of the patriarch who presided at Nicaea II, by Ignatius the Deacon, in Gentian Hervet''s Latin version; no Greek is printed. The volume gives no date of writing, so the placing needs a ruling.'

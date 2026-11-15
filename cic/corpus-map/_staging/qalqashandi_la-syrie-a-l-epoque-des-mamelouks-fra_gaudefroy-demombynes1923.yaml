@@ -1,0 +1,11 @@
+source_file: qalqashandi_la-syrie-a-l-epoque-des-mamelouks-fra_gaudefroy-demombynes1923.txt
+assignments:
+- row_id: qalqashandi_la-syrie-a-l-epoque-des-mamelouks-fra_gaudefroy-demombynes1923--al-qalqashandi-and-others-syria-under-the-mamluks-gaudefroy-demombynes-1923
+  work: 'al-Qalqashandi and others, Syria under the Mamluks (Gaudefroy-Demombynes 1923)'
+  author: qalqashandi
+  locus: 'the whole volume; not mapped'
+  atlas_ids:
+  - coptic-christianity-fatimid-to-mamluk
+  role: context
+  confidence: needs-ruling
+  note: 'No census entry covers Mamluk Egypt and Syria or the Maghreb after 1300; shelved here until a ruling places the outside witnesses of era 6. Not read in depth for its passages on Christians.'

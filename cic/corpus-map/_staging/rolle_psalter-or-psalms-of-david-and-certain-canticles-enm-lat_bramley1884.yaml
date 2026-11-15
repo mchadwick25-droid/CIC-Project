@@ -1,0 +1,11 @@
+source_file: rolle_psalter-or-psalms-of-david-and-certain-canticles-enm-lat_bramley1884.txt
+assignments:
+- row_id: rolle_psalter-or-psalms-of-david-and-certain-canticles-enm-lat_bramley1884--richard-rolle-english-psalter-bramley-1884
+  work: 'Richard Rolle, English Psalter (Bramley 1884)'
+  author: rolle
+  locus: 'about OCR lines 1520-28100; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-english-mystics-and-devout
+  role: tradition
+  confidence: provisional
+  note: 'Rolle''s own English translation and commentary, in Middle English.'

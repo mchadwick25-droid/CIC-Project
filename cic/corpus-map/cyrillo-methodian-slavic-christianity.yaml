@@ -3,6 +3,16 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: cyrillo-methodian-slavic-christianity
 works:
+- row_id: acta-sanctorum_martii-tomus-2-lat_palme1865--vita-constantini-cum-translatione-s-clementis-the-italian
+  work: Vita Constantini cum translatione S. Clementis (the Italian Legend), Acta Sanctorum
+    March II
+  author: acta-sanctorum
+  locus: from about OCR line 18531; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: A Latin account of Cyril and of the bringing of Clement's relics to Rome. It is a
+    Latin church's telling, so an outside witness beside the Slavonic Lives.
+  source_file: acta-sanctorum_martii-tomus-2-lat_palme1865.txt
 - row_id: ginzel_geschichte-der-slawenapostel-cyrill-und-method-deu-lat_1861--codex-legendarum-et-monumentorum-de-ss-cyrillo-et-methodio
   work: Codex legendarum et monumentorum de SS. Cyrillo et Methodio (Ginzel 1861)
   author: ginzel
@@ -32,3 +42,14 @@ works:
     view that its author lived with Clement and was not Theophylact; its date of writing is
     disputed there.
   source_file: theophylact-ohrid_opera-t4-with-vita-clementis-pg126-grc-lat_migne1864.txt
+- row_id: vita-constantini_die-legende-vom-heiligen-cyrillus-in-denkschriften-wien-19-chu-lat-deu_duemmler-miklosich1870--the-slavonic-life-of-constantine-cyril-latin-translation-of
+  work: The Slavonic Life of Constantine (Cyril), Latin translation of Dümmler and Miklosich
+    (1870)
+  author: vita-constantini
+  locus: the Latin at about OCR lines 19550-20440; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: The Slavic tradition's own Life of Cyril, readable here in the editors' Latin. The
+    manuscripts are of the fifteenth century and later, and how close the Life stands to Cyril's
+    own circle is argued in the introduction. Quote the Slavonic from the page image only.
+  source_file: vita-constantini_die-legende-vom-heiligen-cyrillus-in-denkschriften-wien-19-chu-lat-deu_duemmler-miklosich1870.txt

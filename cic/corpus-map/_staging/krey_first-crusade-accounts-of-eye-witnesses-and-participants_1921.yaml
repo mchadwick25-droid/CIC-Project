@@ -1,0 +1,12 @@
+source_file: krey_first-crusade-accounts-of-eye-witnesses-and-participants_1921.txt
+assignments:
+- row_id: krey_first-crusade-accounts-of-eye-witnesses-and-participants_1921--krey-the-first-crusade-the-eyewitness-accounts-in-english
+  work: 'Krey, The First Crusade: the eyewitness accounts in English (1921)'
+  author: krey
+  locus: 'whole volume; Clermont at about OCR lines 1295-2254; add 12 to OCR line numbers'
+  atlas_ids:
+  - latin-church-of-outremer
+  - latin-papal-church-gregorian
+  role: tradition
+  confidence: provisional
+  note: 'English translations of the Latin accounts, cut and arranged by a modern editor. The Latin of Fulcher, Robert and Guibert is held beside it.'
