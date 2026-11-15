@@ -15,9 +15,9 @@ Source: Internet Archive item thomaehemerkena00pohlgoog
 Provenance note: Body text unaltered including its own OCR errors
   (Latin). Content confirmed by direct read to open with 'Sermones
   ad Novicios' (sermons to novices) and to include a Vita Lidewigis
-  Virginis (life of Lidwina of Schiedam). Per this project's own
-  INTAKE.md rule, this Latin text is a second witness, never
-  primary evidence for a Representative. Vendored 2026-09-25 as
+  Virginis (life of Lidwina of Schiedam). A clean public-domain original can
+  be primary evidence; scan quality
+  decides quotability, not language (cic/texts/INTAKE.md). Vendored 2026-09-25 as
   part of a post-Step0-Revision-2 PD source-acquisition pass.
 
 This  is  a  digital  copy  of  a  book  that  was  preserved  for  generations  on  library  shelves  before  it  was  carefully  scanned  by  Google  as  part  of  a  project 

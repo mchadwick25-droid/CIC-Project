@@ -20,9 +20,9 @@ Provenance note: Body text unaltered including its own OCR errors
   primary-adjacent biography by someone who knew Ignatius
   personally. No PD English translation was located this pass.
   Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD
-  source-acquisition pass. Per this project's own INTAKE.md rule,
-  this Latin text is a second witness, never primary evidence for
-  a Representative.
+  source-acquisition pass. A clean public-domain original can be primary evidence; scan quality decides quotability,
+  not language (cic/texts/INTAKE.md). The scan is garbled, so this file stays second
+  witness until a clean witness of the same work is vendored.
 
 i'  r 
 

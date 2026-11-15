@@ -19,9 +19,9 @@ Source: Internet Archive item tractatusdeeccle00wycl
   (curl, raw bytes) from the item's own _djvu.txt full-text file,
   2026-09-25, this session.
 Provenance note: Body text unaltered including its own OCR errors
-  (Latin). Wyclif Society Latin Works series, vol. 10. Per this
-  project's own INTAKE.md rule, Latin text is a second witness, never
-  primary evidence for a Representative.
+  (Latin). Wyclif Society Latin Works series, vol. 10. A clean public-domain original can
+  be primary evidence; scan quality
+  decides quotability, not language (cic/texts/INTAKE.md).
 
 Digitized  by  the  Internet  Archive 
 

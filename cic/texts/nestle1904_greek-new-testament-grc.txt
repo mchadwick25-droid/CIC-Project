@@ -18,12 +18,12 @@ Provenance note: this header was prepended by the build thread. The site's own R
   whitespace (an early extraction pass introduced exactly that bug - "Β<span>ί</span>βλος"
   becoming "Β ί βλος" - caught and fixed before this file was written), block-level tags
   (paragraph/heading boundaries) normalized to single spaces, &nbsp; entities normalized to
-  plain spaces. No wording added, dropped, substituted, or reordered. Mark's own standing
-  rules for original-language witnesses (cic/texts/INTAKE.md) apply: this is a second
-  witness for cross-checking a specific Greek reading, never primary evidence for a
-  Representative in its own right - this project's evidence language is English, and
-  `cic/texts/webbe_world-english-bible-british-edition.xml` remains the English witness a
-  world's own source records actually cite.
+  plain spaces. No wording added, dropped, substituted, or reordered. A clean public-domain original can
+  be primary evidence; scan quality
+  decides quotability, not language (cic/texts/INTAKE.md).
+  `cic/texts/webbe_world-english-bible-british-edition.xml` is the public-domain English
+  translation, a cross-check against the
+  Opus rendering.
 Content note: verified mechanically before this file was written - every one of the 27
   New Testament books' own chapter count matches its independently known canonical count
   exactly (Matthew 28, Mark 16, ... Revelation 22), and Mark's own disputed shorter-ending

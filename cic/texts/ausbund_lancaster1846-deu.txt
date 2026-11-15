@@ -19,9 +19,9 @@ Provenance note: Body text unaltered including its own OCR errors
   use among the Amish. This volume is physically bound with three
   further texts per its own title page (a Confessio oder
   Bekanntnitz, a historical report, and six more spiritual songs) -
-  not individually identified or assessed this pass. Per this
-  project's own INTAKE.md rule, this German text is a second
-  witness, never primary evidence for a Representative.
+  not individually identified or assessed this pass. A clean public-domain original can be primary evidence; scan quality decides quotability,
+  not language (cic/texts/INTAKE.md). The scan is garbled, so this file stays second
+  witness until a clean witness of the same work is vendored.
 
 THE  BENSON LIBRARY  OF  HYMNOLOGY 
 
