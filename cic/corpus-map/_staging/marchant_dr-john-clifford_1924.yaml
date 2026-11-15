@@ -12,10 +12,14 @@ assignments:
   date:
     start: 1924
     end: 1924
-    source: 'the printing''s own title page: line 252, under the publisher''s imprint: ''First published 1924'''
+    source: 'the line ''First published 1924'' under the publisher''s imprint (line 252) and the introduction, signed
+      ''April, 1924'' (line 720), with which the library catalogue''s date agrees (Princeton Theological Seminary
+      Library, on the archive.org record: 1924)'
     formation_confidence: Documented
   edition_date:
     year: 1924
-    source: 'line 252, under the publisher''s imprint: ''First published 1924'''
+    source: 'the line ''First published 1924'' under the publisher''s imprint (line 252) and the introduction, signed
+      ''April, 1924'' (line 720), with which the library catalogue''s date agrees (Princeton Theological Seminary
+      Library, on the archive.org record: 1924)'
     formation_confidence: Documented
   note: 'Era 9 row 242, John Clifford: a Life told by another.'

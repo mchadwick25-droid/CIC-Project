@@ -857,7 +857,7 @@ Line numbers in these headers are the file's own lines.
 |---|---|---|---|
 | era 9 row 227, Walter Scott: a Life told by another | filled | `baxter-w_life-of-elder-walter-scott_1874.txt` (1874); 139,679 words; eng | the-stone-campbell-restoration-movement, context |
 | era 9 row 228, 'Raccoon' John Smith: a Life told by another | filled | `williams-j-a_life-of-elder-john-smith_1870.txt` (1870); 184,885 words; eng | the-stone-campbell-restoration-movement, context |
-| era 9 row 229, Peter Cartwright: his Autobiography | filled | `cartwright_autobiography-of-peter-cartwright_strickland1856.txt` (1856); 163,023 words; eng | the-second-great-awakening-and-camp-meeting-worl, nineteenth-century-methodism, tradition |
+| era 9 row 229, Peter Cartwright: his Autobiography | filled | `cartwright_autobiography-of-peter-cartwright_strickland1857.txt` (1857); 162,070 words; eng | the-second-great-awakening-and-camp-meeting-worl, nineteenth-century-methodism, tradition |
 | era 9 row 233, Amanda Berry Smith: her Autobiography | filled | `smith-amanda_autobiography-story-of-the-lords-dealings_1893.txt` (1893); 214,885 words; eng | the-holiness-movement, the-black-church-in-america, tradition |
 | era 9 row 234, Hannah Whitall Smith: The Christian's Secret of a Happy Life | filled | `smith-hannah-whitall_christians-secret-of-a-happy-life_rev-ed1888.txt` (1888); 65,664 words; eng | the-holiness-movement, tradition |
 | era 9 row 234, Hannah Whitall Smith: her spiritual autobiography | filled | `smith-hannah-whitall_unselfishness-of-god_1903.txt` (1903); 81,241 words; eng | the-holiness-movement, tradition |
@@ -955,9 +955,10 @@ Line numbers in these headers are the file's own lines.
 
 ### Cautions for profile writers (batch 2b)
 
-- **No year on the title page.** Cartwright, both books of Hannah Whitall Smith, the Life of Inskip, Coffin,
+- **No year on the title page.** Both books of Hannah Whitall Smith, the Life of Inskip, Coffin,
   Sarah Clarke and Stead are dated from a copyright notice. Tiffany's Dix (the scan has no title page at all),
-  Bates, Christendom Astray and Miller's Irvingism are dated from a preface and the catalogue. The Student
+  Bates, Christendom Astray, Miller's Irvingism and Marchant's Clifford are dated from a preface or a
+  'First published' line, with the catalogue. The Student
   Volunteer report is dated from the year in its title. Each header says so.
 - **Author not named, or named by initials.** Readings upon the Liturgy names no author (the host names
   Cardale). Dialogues on Prophecy names none. Bellett's book is by "J. G. B." The Unselfishness of God is by
@@ -972,7 +973,8 @@ Line numbers in these headers are the file's own lines.
   Newton's Thoughts on the Apocalypse (second, 1853); Maurice's Theological Essays (second, 1853); Ongeloof en
   Revolutie (second, 1868); Lasserre in French (twenty-eighth, 1870); Monod in French (1857; the English of 1873
   says it follows the fifth Paris edition); Taylor's Story of My Life (title page 1895, with matter of June
-  1896); In His Steps (1897).
+  1896); In His Steps (1897); Cartwright (1857, 'eleventh thousand', copyright 1856); Wiseman's Appeal (a
+  later impression under the 1850 title page).
 - **Part of a larger work.** Vol. 1 only: Bunting, Hodder's Shaftesbury, Ashwell's Wilberforce, the Life of
   Maurice, Ward's Wiseman, Cabot's Emerson, Drummond's Speeches, Dialogues on Prophecy, Snow's Poems, Payne,
   Miller. Froude's Remains is part 1, vol. 1. Colenso's Pentateuch is part I.

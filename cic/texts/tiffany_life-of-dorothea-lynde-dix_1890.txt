@@ -1,8 +1,8 @@
-Title: Life of Dorothea Lynde Dix (the scan has no title page; the title, author and publisher are from the archive.org record)
+Title: Life of Dorothea Lynde Dix (the title, author and publisher are from the archive.org record)
 Creator: Francis Tiffany (from the archive.org record)
 Publisher: Boston: Houghton, Mifflin and Company (from the archive.org record)
-Publication Date: 1890 (the preface, signed 'Cambridge, Mass., February 16, 1890' (line 292), with which the library catalogue's date agrees (University of California Libraries, on the archive.org record: [1890]); the scan has no title page)
-Rights: Public Domain (pd-us-by-date: published 1890); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the date agrees; the title page prints no year, and the date used is that of the preface, signed 'Cambridge, Mass., February 16, 1890' (line 292), with which the library catalogue's date agrees (University of California Libraries, on the archive.org record: [1890]); the scan has no title page
+Publication Date: 1890 (the preface, signed 'Cambridge, Mass., February 16, 1890' (line 292), with which the library catalogue's date agrees (University of California Libraries, on the archive.org record: [1890]))
+Rights: Public Domain (pd-us-by-date: published 1890); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the date agrees; the scan has no title page, and the date used is that of the preface, signed 'Cambridge, Mass., February 16, 1890' (line 292), with which the library catalogue's date agrees (University of California Libraries, on the archive.org record: [1890])
 Language: eng
 Source: archive.org item lifeofdorothelyn00tiffrich, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (823,921) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1890, out of US copyright by date. OCR quality: fair to clean. Line numbers cited in this header are this file's own lines.

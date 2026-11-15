@@ -17,7 +17,8 @@ assignments:
     formation_confidence: Documented
   edition_date:
     year: 1884
-    source: the preface, dated 18 December 1883 (read on the scan's page image, leaf n6; the OCR gives the year
-      garbled), with which the archive.org record's date, 1884, agrees
+    source: the preface, dated 'Birmingham, December 18, 1883' on the scan's page image, leaf n6 (the OCR at line
+      290 prints 1888; the text itself closes 'December 7th, 1883' at line 24946); the archive.org record, a reader's
+      upload and not a library catalogue, gives 1884; the title page names the author himself as publisher
     formation_confidence: Documented
   note: 'Era 9 row 254, Robert Roberts: Christendom Astray.'

@@ -1,8 +1,8 @@
 Title: Dr. John Clifford, C.H.: Life, Letters and Reminiscences
 Creator: Sir James Marchant, LL.D.
 Publisher: London, New York, Toronto and Melbourne: Cassell and Company, Ltd.
-Publication Date: 1924 (line 252, under the publisher's imprint: 'First published 1924')
-Rights: Public Domain (pd-us-by-date: published 1924); the archive.org record carries no rights field, so the imprint date is the basis
+Publication Date: 1924 (the line 'First published 1924' under the publisher's imprint (line 252) and the introduction, signed 'April, 1924' (line 720), with which the library catalogue's date agrees (Princeton Theological Seminary Library, on the archive.org record: 1924))
+Rights: Public Domain (pd-us-by-date: published 1924); the archive.org record carries no rights field, so the date named here is the basis; the title page prints no year, and the date used is that of the line 'First published 1924' under the publisher's imprint (line 252) and the introduction, signed 'April, 1924' (line 720), with which the library catalogue's date agrees (Princeton Theological Seminary Library, on the archive.org record: 1924)
 Language: eng
 Source: archive.org item drjohncliffordch00marc, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (852,418) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1924, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are this file's own lines.

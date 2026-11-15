@@ -37,7 +37,7 @@ def strip_host(raw):
     assert all(re.fullmatch(rb"Go ?ogle", sq(L[k])) for k in nb), ("text before preamble", [L[k] for k in nb])
     startk = nb[0] if nb else dk
     ak = next(k for k, l in enumerate(L[:200]) if sq(l) in (b"About Google Book Search", "\u00dcber Google Buchsuche".encode()))
-    end = next(k for k in range(ak + 1, ak + 12) if b"http" in L[k] or b":/" in L[k])
+    end = next(k for k in range(ak + 1, ak + 12) if b"http" in L[k] or b":/" in L[k] or b"com/" in L[k].replace(b" ", b""))
     cut = L[startk:end + 1]
     body = b"\n".join(L[:startk] + L[end + 1:])
     return body, f"Google's own preamble to its scans ({len(cut)} lines, {len(raw) - len(body):,} bytes: the notice that begins 'This is a digital copy of a book', through the web-address line that closes its section '{sq(L[ak]).decode()}') was removed at intake"
@@ -82,7 +82,7 @@ for l in open(f"{S}/tools/table.txt"):
     def header(content, basis):
         rights = f'Public Domain (pd-us-by-date: published {y}); {hr}'
         if o.get("nodate"):
-            rights = rights.replace("and the imprint date agrees", "and the date agrees").replace("so the imprint date is the basis", "so the date named here is the basis") + "; the title page prints no year, and the date used is that of " + basis
+            rights = rights.replace("and the imprint date agrees", "and the date agrees").replace("so the imprint date is the basis", "so the date named here is the basis") + ("; the scan has no title page" if o.get("notp") else "; the title page prints no year") + ", and the date used is that of " + basis
         if o.get("stamps"): rights += "; " + o["stamps"]
         prov = "Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected." if not stripped else f"The item's own djvu.txt is reproduced after this header with one host addition taken out: {stripped}. Nothing else was stripped, normalized or corrected, and the edition's own words are untouched."
         size = f"the byte count of the downloaded file ({len(raw0):,}) equals the size archive.org lists for the djvu.txt"

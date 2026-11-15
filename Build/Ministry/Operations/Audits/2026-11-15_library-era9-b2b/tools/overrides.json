@@ -9,12 +9,11 @@
   "creator": "John Augustus Williams",
   "publisher": "Cincinnati: R. W. Carroll & Co., Publishers"
  },
- "autobiographyofp00cartuoft": {
+ "autobiographype00cartgoog": {
   "title": "Autobiography of Peter Cartwright, the Backwoods Preacher; edited by W. P. Strickland",
   "creator": "Peter Cartwright; edited by W. P. Strickland",
-  "publisher": "Cincinnati: Hitchcock and Walden; New York: Nelson and Phillips",
-  "nodate": 1,
-  "basis": "the copyright notice at line 62 ('in the year 1856, by Carlton & Porter'); the archive.org record's date is [1856]"
+  "publisher": "Carlton & Porter, 200 Mulberry-Street (the title page names no city); eleventh thousand",
+  "date_source": "the copyright notice of 1856 and the title page's imprint year of 1857"
  },
  "autobiographysto00smit": {
   "title": "An Autobiography: the story of the Lord's dealings with Mrs. Amanda Smith, the colored evangelist; with an introduction by Bishop Thoburn, of India",
@@ -52,7 +51,7 @@
  "williamtaylor00tayluoft": {
   "title": "Story of My Life: an account of what I have thought and said and done in my ministry of more than fifty-three years in Christian lands and among the heathen, written by myself; edited by John Clark Ridpath",
   "creator": "William Taylor, Bishop of the Methodist Episcopal Church for Africa; edited by John Clark Ridpath",
-  "publisher": "Toronto, Ontario: William Briggs, Wesley Buildings",
+  "publisher": "Toronto, Ontario: William Briggs, Wesley Buildings (the publisher's name is read on the page image, leaf n8; the OCR drops it)",
   "basis": "read on the scan's page image, leaf n8 (the title page prints 1895; the OCR at line 70 reads '18Q5')",
   "stamps": "the text prints a document and an entry dated June 1896 (lines 37571 and 37579), so this printing was made after the year on its title page"
  },
@@ -71,7 +70,7 @@
  "MinisterialTravelsAndLaboursOfMrs.ZilphaElaw": {
   "title": "Memoirs of the Life, Religious Experience, Ministerial Travels and Labours of Mrs. Zilpha Elaw, an American Female of Colour; together with some account of the great religious revivals in America; written by herself",
   "creator": "Mrs. Zilpha Elaw",
-  "publisher": "London: Published by the Authoress, and sold by T. Dudley, 19 Charter-house Lane; and Mr. B. Taylor, 19 Montague-St., Spitalfields",
+  "publisher": "London: Published by the Authoress, and sold by T. Dudley, 19 Charter-house Lane; and Mr. B. Taylor, 19 Montague-St., Spitalfields (read on the page image, leaf n1; the OCR is garbled here)",
   "basis": "read on the scan's page image, leaf n1 (the title page prints 1846; the OCR does not give it)"
  },
  "brandpluckedfrom00foot": {
@@ -121,14 +120,15 @@
  "memoirofralphwal01cabo_1": {
   "title": "A Memoir of Ralph Waldo Emerson, by James Elliot Cabot; in two volumes, vol. I",
   "creator": "James Elliot Cabot",
-  "publisher": "Boston and New York: Houghton, Mifflin and Company; Cambridge: The Riverside Press"
+  "publisher": "Cambridge: Printed at the Riverside Press"
  },
  "lifeofdorothelyn00tiffrich": {
-  "title": "Life of Dorothea Lynde Dix (the scan has no title page; the title, author and publisher are from the archive.org record)",
+  "title": "Life of Dorothea Lynde Dix (the title, author and publisher are from the archive.org record)",
   "creator": "Francis Tiffany (from the archive.org record)",
   "publisher": "Boston: Houghton, Mifflin and Company (from the archive.org record)",
   "nodate": 1,
-  "basis": "the preface, signed 'Cambridge, Mass., February 16, 1890' (line 292), with which the library catalogue's date agrees (University of California Libraries, on the archive.org record: [1890]); the scan has no title page"
+  "basis": "the preface, signed 'Cambridge, Mass., February 16, 1890' (line 292), with which the library catalogue's date agrees (University of California Libraries, on the archive.org record: [1890])",
+  "notp": 1
  },
  "HiramEdsonTheTimeOfTheEndItsBeginningProgressiveEventsAndFinal": {
   "title": "The Time of the End; its beginning, progressive events, and final termination: a discourse",
@@ -192,7 +192,8 @@
   "title": "Dr. John Clifford, C.H.: Life, Letters and Reminiscences",
   "creator": "Sir James Marchant, LL.D.",
   "publisher": "London, New York, Toronto and Melbourne: Cassell and Company, Ltd.",
-  "basis": "line 252, under the publisher's imprint: 'First published 1924'"
+  "nodate": 1,
+  "basis": "the line 'First published 1924' under the publisher's imprint (line 252) and the introduction, signed 'April, 1924' (line 720), with which the library catalogue's date agrees (Princeton Theological Seminary Library, on the archive.org record: 1924)"
  },
  "remainsoflaterev11frouuoft": {
   "title": "Remains of the late Reverend Richard Hurrell Froude, M.A., Fellow of Oriel College, Oxford; in two volumes, vol. I",
@@ -271,7 +272,7 @@
  "lesadieuxdadolp00monogoog": {
   "title": "Les Adieux d'Adolphe Monod à ses amis et à l'Église, octobre 1855 à mars 1856",
   "creator": "Adolphe Monod",
-  "publisher": "Paris: Librairie de Ch. Meyrueis et Cie, Éditeurs, rue de Rivoli, 174",
+  "publisher": "Paris: Librairie de Ch. Meyrueis et Cie, Éditeurs, rue de Rivoli, 174 (the address is read on the page image, leaf n11)",
   "basis": "read on the scan's page image, leaf n11 (the title page prints 1857; the OCR gives the year garbled)",
   "date_source": "the title page, which dates the addresses October 1855 to March 1856"
  },
@@ -318,7 +319,7 @@
  "kaiserswerthdea00deacgoog": {
   "title": "Kaiserswerth Deaconesses; including a history of the institution, the ordination service and questions for self-examination; by a Lady",
   "creator": "By a Lady (the author is not named)",
-  "publisher": "London: Joseph Masters, Aldersgate Street, and New Bond Street",
+  "publisher": "London: Joseph Masters, Aldersgate Street, and New Bond Street (read on the page image, leaf n5; the OCR of the title page drops it)",
   "basis": "read on the scan's page image, leaf n5 (the title page prints MDCCCLVII; the OCR does not give it)"
  },
  "historyofafrican00payn": {
@@ -332,7 +333,7 @@
   "publisher": "Birmingham: R. Roberts, Athenaeum Buildings, Edmund Street",
   "year": 1884,
   "nodate": 1,
-  "basis": "the preface, dated 18 December 1883 (read on the scan's page image, leaf n6; the OCR gives the year garbled), with which the archive.org record's date, 1884, agrees",
+  "basis": "the preface, dated 'Birmingham, December 18, 1883' on the scan's page image, leaf n6 (the OCR at line 290 prints 1888; the text itself closes 'December 7th, 1883' at line 24946); the archive.org record, a reader's upload and not a library catalogue, gives 1884; the title page names the author himself as publisher",
   "date_source": "the preface, dated 18 December 1883, and the archive.org record's date of 1884"
  },
  "waysprovidencea00unkngoog": {

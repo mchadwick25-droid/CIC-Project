@@ -1,7 +1,7 @@
 # id | filename | atlas ids | role | conf | date (S-E | U) | want
 lifeofelderwalte00baxt|baxter-w_life-of-elder-walter-scott_1874|the-stone-campbell-restoration-movement|context|provisional|1874-1874|era 9 row 227, Walter Scott: a Life told by another
 lifeofelderjohns00williala|williams-j-a_life-of-elder-john-smith_1870|the-stone-campbell-restoration-movement|context|provisional|1870-1870|era 9 row 228, 'Raccoon' John Smith: a Life told by another
-autobiographyofp00cartuoft|cartwright_autobiography-of-peter-cartwright_strickland1856|the-second-great-awakening-and-camp-meeting-worl,nineteenth-century-methodism|tradition|provisional|1856-1856|era 9 row 229, Peter Cartwright: his Autobiography
+autobiographype00cartgoog|cartwright_autobiography-of-peter-cartwright_strickland1857|the-second-great-awakening-and-camp-meeting-worl,nineteenth-century-methodism|tradition|provisional|1856-1857|era 9 row 229, Peter Cartwright: his Autobiography
 autobiographysto00smit|smith-amanda_autobiography-story-of-the-lords-dealings_1893|the-holiness-movement,the-black-church-in-america|tradition|provisional|1893-1893|era 9 row 233, Amanda Berry Smith: her Autobiography
 christianssecret00smitrich|smith-hannah-whitall_christians-secret-of-a-happy-life_rev-ed1888|the-holiness-movement|tradition|provisional|1888-1888|era 9 row 234, Hannah Whitall Smith: The Christian's Secret of a Happy Life
 unselfishnessofg00smit|smith-hannah-whitall_unselfishness-of-god_1903|the-holiness-movement|tradition|provisional|1903-1903|era 9 row 234, Hannah Whitall Smith: her spiritual autobiography

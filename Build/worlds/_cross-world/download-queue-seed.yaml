@@ -28106,14 +28106,14 @@ queue:
     vendored_as: williams-j-a_life-of-elder-john-smith_1870.txt
   - title: 'Autobiography of Peter Cartwright, the Backwoods Preacher; edited by W. P. Strickland'
     author: 'Peter Cartwright; edited by W. P. Strickland'
-    year: '1856'
+    year: '1857'
     world: the-second-great-awakening-and-camp-meeting-worl
     why: 'Wanted Sources, era 9 row 229, Peter Cartwright: his Autobiography.'
-    url: https://archive.org/details/autobiographyofp00cartuoft
-    rights_basis: 'Public Domain (pd-us-by-date: published 1856); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the date agrees; the title page prints no year, and the date used is that of the copyright notice at line 62 (''in the year 1856, by Carlton & Porter''); the archive.org record''s date is [1856]'
-    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,062,860 equal to the listed size, the volume''s end read'
+    url: https://archive.org/details/autobiographype00cartgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1857); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,058,707 equal to the listed size, the volume''s end read'
     status: downloaded
-    vendored_as: cartwright_autobiography-of-peter-cartwright_strickland1856.txt
+    vendored_as: cartwright_autobiography-of-peter-cartwright_strickland1857.txt
   - title: 'An Autobiography: the story of the Lord''s dealings with Mrs. Amanda Smith, the colored evangelist; with an introduction by Bishop Thoburn, of India'
     author: 'Mrs. Amanda Smith'
     year: '1893'
@@ -28294,13 +28294,13 @@ queue:
     verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 552,881 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: cabot_memoir-of-ralph-waldo-emerson-v1_1887.txt
-  - title: 'Life of Dorothea Lynde Dix (the scan has no title page; the title, author and publisher are from the archive.org record)'
+  - title: 'Life of Dorothea Lynde Dix (the title, author and publisher are from the archive.org record)'
     author: 'Francis Tiffany (from the archive.org record)'
     year: '1890'
     world: american-unitarianism-universalism-consolidations
     why: 'Wanted Sources, era 9 row 262, Dorothea Dix: a Life told by another.'
     url: https://archive.org/details/lifeofdorothelyn00tiffrich
-    rights_basis: 'Public Domain (pd-us-by-date: published 1890); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the date agrees; the title page prints no year, and the date used is that of the preface, signed ''Cambridge, Mass., February 16, 1890'' (line 292), with which the library catalogue''s date agrees (University of California Libraries, on the archive.org record: [1890]); the scan has no title page'
+    rights_basis: 'Public Domain (pd-us-by-date: published 1890); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the date agrees; the scan has no title page, and the date used is that of the preface, signed ''Cambridge, Mass., February 16, 1890'' (line 292), with which the library catalogue''s date agrees (University of California Libraries, on the archive.org record: [1890])'
     verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 823,921 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: tiffany_life-of-dorothea-lynde-dix_1890.txt
@@ -28410,7 +28410,7 @@ queue:
     world: nineteenth-century-baptists
     why: 'Wanted Sources, era 9 row 242, John Clifford: a Life told by another.'
     url: https://archive.org/details/drjohncliffordch00marc
-    rights_basis: 'Public Domain (pd-us-by-date: published 1924); the archive.org record carries no rights field, so the imprint date is the basis'
+    rights_basis: 'Public Domain (pd-us-by-date: published 1924); the archive.org record carries no rights field, so the date named here is the basis; the title page prints no year, and the date used is that of the line ''First published 1924'' under the publisher''s imprint (line 252) and the introduction, signed ''April, 1924'' (line 720), with which the library catalogue''s date agrees (Princeton Theological Seminary Library, on the archive.org record: 1924)'
     verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 852,418 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: marchant_dr-john-clifford_1924.txt
@@ -28650,7 +28650,7 @@ queue:
     world: christadelphians
     why: 'Wanted Sources, era 9 row 254, Robert Roberts: Christendom Astray.'
     url: https://archive.org/details/christendomastray1884
-    rights_basis: 'Public Domain (pd-us-by-date: published 1884); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the date agrees; the title page prints no year, and the date used is that of the preface, dated 18 December 1883 (read on the scan''s page image, leaf n6; the OCR gives the year garbled), with which the archive.org record''s date, 1884, agrees'
+    rights_basis: 'Public Domain (pd-us-by-date: published 1884); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the date agrees; the title page prints no year, and the date used is that of the preface, dated ''Birmingham, December 18, 1883'' on the scan''s page image, leaf n6 (the OCR at line 290 prints 1888; the text itself closes ''December 7th, 1883'' at line 24946); the archive.org record, a reader''s upload and not a library catalogue, gives 1884; the title page names the author himself as publisher'
     verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,237,424 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: roberts-robert_christendom-astray_1884.txt

@@ -40,26 +40,24 @@ works:
     formation_confidence: Documented
   note: 'Era 9 row 237, Jabez Bunting: a Life told by his son (vol. 1).'
   source_file: bunting-t-p_life-of-jabez-bunting-v1_1859.txt
-- row_id: cartwright_autobiography-of-peter-cartwright_strickland1856--autobiography-of-peter-cartwright-the-backwoods-preacher
+- row_id: cartwright_autobiography-of-peter-cartwright_strickland1857--autobiography-of-peter-cartwright-the-backwoods-preacher
   work: Autobiography of Peter Cartwright, the Backwoods Preacher; edited by W. P. Strickland
   author: cartwright
-  locus: the whole volume; not mapped
+  locus: Cartwright's preface at lines 102-263; the rest not mapped
   role: tradition
   confidence: provisional
   language: eng
   date:
     start: 1856
-    end: 1856
-    source: the copyright notice at line 62 ('in the year 1856, by Carlton & Porter'); the
-      archive.org record's date is [1856]
+    end: 1857
+    source: the copyright notice of 1856 and the title page's imprint year of 1857
     formation_confidence: Documented
   edition_date:
-    year: 1856
-    source: the copyright notice at line 62 ('in the year 1856, by Carlton & Porter'); the
-      archive.org record's date is [1856]
+    year: 1857
+    source: line 60, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 229, Peter Cartwright: his Autobiography.'
-  source_file: cartwright_autobiography-of-peter-cartwright_strickland1856.txt
+  source_file: cartwright_autobiography-of-peter-cartwright_strickland1857.txt
 - row_id: clowes_journals-of-william-clowes_1844--the-journals-of-william-clowes-a-primitive-methodist
   work: The Journals of William Clowes, a Primitive Methodist Preacher, containing chronicles
     of events relative to
