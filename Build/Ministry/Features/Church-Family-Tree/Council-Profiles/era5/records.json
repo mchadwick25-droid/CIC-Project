@@ -410,7 +410,7 @@
       },
       {
         "claim": "The year",
-        "sides": "1095: William of Tyre (WT l.6066-6067), the act of concord (PL159 l.74964), Urban's letter with Le Couteulx's year (CART l.13240-13241, 13316), Mirbt (MIRBT l.11220), Duchesne (LP2 l.71663-71665), and one Bollandist note (AASS-JUN5 l.26403-26405, '109S' in the OCR). 1096: Lambert of Saint-Omer, a contemporary hand by Duchesne (LP1 l.47694); the same notice puts Urban's death in 1096 (LP1 l.47699), against 1099 in Duchesne (LP2 l.71346), Migne's heading to the act (PL159 l.74878), another Bollandist note (AASS-JUN5 l.148148-148149), and Baldric's printed 'anno subsequente (1096)' after a star-shower of April 1095 (PL166 l.77749-77751, 77773-77774), the bracket likely an editor's.",
+        "sides": "1095: William of Tyre (WT l.6066-6067), the act of concord (PL159 l.74964), Urban's letter with Le Couteulx's year (CART l.13240-13241, 13316), Mirbt (MIRBT l.11220), Duchesne (LP2 l.71663-71665), and one Bollandist note (AASS-JUN5 l.26403-26405, '109S' in the OCR). 1096: Lambert of Saint-Omer, a contemporary hand by Duchesne (LP1 l.47694), though the same notice puts Urban's death in 1096 (LP1 l.47699), against 1099 in Duchesne (LP2 l.71346); Migne's heading to the act (PL159 l.74878); another Bollandist note (AASS-JUN5 l.148148-148149); and Baldric's printed 'anno subsequente (1096)' after a star-shower of April 1095 (PL166 l.77749-77751, 77773-77774), the bracket likely an editor's.",
         "formation_confidence": "Documented"
       },
       {
@@ -1320,6 +1320,12 @@
         "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.26476-26480",
         "witness_kind": "acts",
         "formation_confidence": "Documented"
+      },
+      {
+        "claim": "John of Balastri, a Friar Minor learned in Greek and Latin, had been interpreter at the council of Lyon for the emperor of the Greeks and the prelates of Greece, was sent back with the Greeks, and died at Constantinople",
+        "witness": "glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.7359-7362",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
       }
     ],
     "contested_claims": [

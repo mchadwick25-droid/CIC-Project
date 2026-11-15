@@ -35,7 +35,7 @@
   "attended": [
     "Manuel Kalekas was a Greek Dominican who wrote for the Latins and died in 1410. He gives the pope in person and about 400 bishops, with envoys standing in for the church of Constantinople (Adversus Graecos, in Ambrogio Traversari's Latin). His editor Fabricius says Kalekas did not live at the time of the council. No list of names is among our sources.",
     "The Greek envoys go unnamed in Glassberger and in Gennadios. Thomas Creyghton, the 1660 editor, names them as Theophanes, metropolitan of Nicaea, and Germanos, who had been patriarch some years before, between Arsenios and Joseph. Guillaume Adam, a Latin hostile to the Greeks writing about 1317, says the emperor sent his patriarch. The editors of the Recueil identify that patriarch as John Bekkos (see uncertain).",
-    "Glassberger names their interpreter as John of Balastri (Parastron), a Franciscan of Constantinople who knew Greek and Latin. At Lyon he interpreted for the emperor and the Greek prelates.",
+    "Glassberger names their interpreter as John of Balastri, a Franciscan of Constantinople who knew Greek and Latin. At Lyon he interpreted for the emperor and the Greek prelates.",
     "Glassberger says three Franciscan prelates presided by the pope's order and handled the council's business. They were Cardinal Bonaventure, Eudes Rigaud, archbishop of Rouen, and the bishop of Tripoli, whom Eubel names as Paul.",
     "Glassberger says envoys of the Tatars came in robes woven with gold to make an alliance. One of them, a king's son, was baptized, with the pope lifting him from the font.",
     "Thomas Aquinas was summoned. A witness at his canonization says he was on the road in Lent when he fell ill at Maenza. The sources are Tocco's Life and the deposition of Nicholas, abbot of Fossanova."
@@ -55,7 +55,7 @@
     "The Synaxaristes remembers as martyrs the twenty-six monks of Zographou, and Euthymios, abbot of Vatopedi, with twelve of his monks. In its telling, they rebuked the Latin-minded Michael and Bekkos. Philipp Meyer, the modern editor of the Athos charters, doubts the story of a punitive invasion of Athos.",
     "The editors of the Recueil say Michael signed the act of union in 1277 and that Martin IV excommunicated him on 18 November 1281.",
     "After Michael's death, Gennadios says, a great synod overturned the act of Lyon. The patriarch list says Andronikos II cast Bekkos down and sent him into exile. Ismaël Boulliau, Doukas's 17th-century editor, says Andronikos denied his father funeral pomp and the usual honors because he had sided with the Latins.",
-    "In the Latin church the conclave decree was taken up. The decree set prayers and processions for a vacant Roman see. A council at Ravenna in 1311 ordered them held for vacant cathedrals of its province. In 1309, Glassberger says, Clement V gave the Oxford Franciscans the Sack friars' house. It was expected soon to fall to the apostolic see under Gregory's constitution. Boniface VIII later set the Augustinian Hermits and the Carmelites on a firm footing, as before the council (Glassberger).",
+    "In the Latin church the conclave decree was taken up. The decree set prayers and processions for a vacant Roman see. A council at Ravenna in 1311 ordered them held for vacant cathedrals of its province. In 1309 Clement V gave the Oxford Franciscans the Sack friars' house (his letter, in the Franciscan bullarium). It was expected soon to fall to the apostolic see under Gregory's constitution. Boniface VIII later set the Augustinian Hermits and the Carmelites on a firm footing, as before the council (Glassberger).",
     "In 1870 the First Vatican Council recalled the Second Council of Lyon (Pastor aeternus, in Mirbt and in Schaff's English). With that council's approval, it said, the Greeks professed the supreme and full primacy of the Roman church."
   ],
   "record": [
@@ -212,7 +212,7 @@
       "part": "Bishop; presided, by the Franciscan account (named by Eubel)"
     },
     {
-      "name": "John of Balastri (Parastron)",
+      "name": "John of Balastri",
       "verdict": "NOT SCORED",
       "part": "Franciscan of Constantinople; interpreter for the emperor and the Greek prelates"
     },
