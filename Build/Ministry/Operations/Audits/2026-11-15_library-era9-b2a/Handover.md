@@ -78,3 +78,34 @@ search log has the list).
 
 `corpus-coverage.json`'s generator output already differs from main (flagged by PR #1688). This batch did not
 run that generator. Look at it before running it; do not fix it blind.
+
+## The finish, handed on (the thread stopped at its context limit)
+
+The batch is complete on the branch: 73 files, two review rounds (round 2 clears), origin/main merged in with
+no conflict markers. What is left is only the finish.
+
+1. **Checks on the merged branch.** The nine Library validators passed before the merge. They were run again
+   after it, with `tools/check_live_commentary.py --base origin/main --enforce`,
+   `tools/check_spelling.py --base origin/main --enforce` and `tools/check_paths.py`; the result is in the last
+   section of this file. If main has moved again, merge it and run them again.
+2. **`cic-website/data/corpus-coverage.json` was not committed.** The coordinator's new rule (PR #1691, not on
+   main when this was written) is to run `python cic/engine/corpus_coverage.py` after the last map change and
+   after merging main, and to commit the file. Run here, the generator's output differs from main far beyond
+   this batch: 307 entries become 619, because the committed copy predates the census's growth. That is the
+   drift PR #1688 flagged. It was left as main has it, and the question was put to the coordinator. Once
+   #1691 is on main, merge main, run the generator and commit its output.
+3. **One draft pull request** from `claude/library-era9-b2a` into `main`, marked ready when CI is green. No
+   pull request has been opened yet. Earlier pushes ran no CI (the workflow runs on pull requests only).
+4. **Before merging,** send the coordinator (`session_01JMNsSADg2CkWvhgudEDKFw`, confirmed by the former
+   coordinator) one line and wait for its go; it gives the Open-Gaps number then. Write the Open-Gaps entry in
+   `Build/Ministry/Features/Church-Family-Tree/Open-Gaps.md` on the pattern of batch 1's entry 287: what stays
+   unfilled (the search log's "Not found" and hand-fetch lists).
+5. **After merging,** send the wants table, the cautions and what is left at `needs-ruling` (nothing) to the
+   coordinator and to the "Answering from Sources" thread, `session_01JMNsSD4wzPQYRHkAq6uKE3`.
+
+To regenerate the files (only if a header must change): the spec is built by `tools/build.py` from
+`tools/table.txt`, `tools/overrides.json`, the searchers' picks (`tools/data/picks_*.json`) and the checkers'
+notes (`tools/data/notes_out_*.json`). `build.py` expects them in a scratch folder as `g<letter>/picks.json` and
+`notes_out_<n>.json`, with each scan's `djvu.txt` fetched again by `ia.py fetch` into `g<letter>/dl/`. For one
+small change it is less work to change `overrides.json` and edit by hand the one file's header line, its
+staging row, its registry entry and its queue row, all four together.
