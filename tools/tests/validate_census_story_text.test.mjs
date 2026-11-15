@@ -56,5 +56,5 @@ test("builder notes in How it connects fail", () => {
 });
 
 test("history's own records are not builder notes", () => {
-  assert.deepEqual(validate(withSummary(0, "Her trial record survives, and the court records name the judges.")), []);
+  assert.deepEqual(validate(withSummary(0, "Her trial record survives in Latin, with the French minute of the court.")), []);
 });
