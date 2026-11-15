@@ -293,7 +293,7 @@ works:
 - row_id: mansi_sacrorum-conciliorum-collectio-tomus-8-492-536-lat_welter-facsimile1901--synod-of-constantinople-536-in-mansi-8
   work: The synod of Constantinople of 536 under Menas, the acts, in Mansi tom. 8
   author: mansi
-  locus: the acts from about OCR line 90500 to about 116790; add 12 to OCR line numbers
+  locus: the acts from about OCR line 90500 to about 116780; add 12 to OCR line numbers
   role: tradition
   confidence: provisional
   note: The synod's own acts in five sessions, with the sentences on Anthimus and Severus.

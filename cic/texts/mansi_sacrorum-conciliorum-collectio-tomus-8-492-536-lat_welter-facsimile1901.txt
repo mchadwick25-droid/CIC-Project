@@ -6,7 +6,7 @@ Rights: Public Domain (pd-us-by-date: published 1901); the archive.org record ca
 Language: lat
 Source: archive.org item sacrorumconcilio0008joan, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (3,713,700) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1901, out of US copyright by date. OCR quality: the Latin is fair, with the long s read as f; the Greek columns are garbled; the host notes text cut off by tight binding and some skewed pages. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: The synod of Constantinople of 536 under Menas: heading at about OCR line 90500, the first session at 90761, the second at 94889, Menas's sentence against Anthimus at 98464, his sentence against Severus at 114527. A synod of Jerusalem follows from about 116792 and the indices from 118250.
+Content note: The synod of Constantinople of 536 under Menas: heading at about OCR line 90500, the first session at 90761, the second at 94889, Menas's sentence against Anthimus at 98464, his sentence against Severus at 114527. A synod of Jerusalem follows from about 116780 and the indices from 118238.
 
 ______________________________________________________________________
 

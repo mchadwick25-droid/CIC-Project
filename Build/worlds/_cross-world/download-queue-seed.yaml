@@ -25694,7 +25694,7 @@ queue:
     verified_by: 'Library thread, eras 1-3 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 2,327,781 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: cyril-scythopolis_vita-sabae-in-surius-vitae-sanctorum-v12-december-lat_1880.txt
-  - title: 'Theophylacti Simocattae Historiarum libri octo, recognovit Immanuel Bekkerus; Genesius (Corpus scriptorum historiae Byzantinae)'
+  - title: 'Theophylacti Simocattae Historiarum libri octo, recognovit Immanuel Bekkerus; Genesius, ex recognitione Caroli Lachmanni (Corpus scriptorum historiae Byzantinae)'
     author: 'Theophylact Simocatta'
     year: '1834'
     world: byzantine-imperial-church-justinianic
