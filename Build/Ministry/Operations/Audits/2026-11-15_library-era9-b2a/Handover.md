@@ -151,3 +151,13 @@ All passed, each with exit code 0: `corpus_map_merge.py --check`, `corpus_index.
 `tools/check_spelling.py --base origin/main --enforce` (0 findings) and
 `tools/check_paths.py --baseline tools/check_paths_baseline.txt` (0 new). `corpus_coverage.py` was run and its
 output was not committed, for the reason given above.
+
+## The finish, by the closing session (2026-11-15)
+
+Main was merged in four more times before the pull request (the coverage check of PR #1691, era 9 batch 2b, data
+release 46 with era 10 batch 2, and a records-only change). The batch is 71 files. After the merge that brought in
+era 10 batch 2, every check listed above passed with exit code 0, with `corpus_coverage.py` run and its file
+committed; the index build covered the merged shelf. The last merge touched no Library file. The Open-Gaps entry is
+"Library, era 9 batch 2a" (2026-11-15). The follow-on's first item, the card texts in `Card_Texts_To_Fetch.md`, is
+dropped: the list came from the legend check, and the coordinator passed on Mark's direction of 2026-11-15 that it
+is not wanted. The second item, the volumes located and not yet taken, stands as the coordinator's instruction.
