@@ -121337,10 +121337,11 @@ function openPanelRiver(f,members){
     :`None of its ${members.length} traditions has a Representative yet.`;
   const kinds=andList(topTypes.map(([t])=>`&ldquo;${esc(t)}&rdquo;`)), to=r=>andList(r.map(([l])=>`to ${esc(l)}`));
   const edgeText=laneEdges.length===0?`No connections are recorded for it on this map yet.`
-    :laneEdges.length===1?`Its one recorded connection is a ${kinds} link${topRivers.length?`, with ${esc(topRivers[0][0])}`:''}.`
-    :`Of its ${laneEdges.length} recorded connections, the most common ${topTypes.length>1?`kinds are ${kinds} (${topTypes[0][1]} each)`:`kind is ${kinds} (${topTypes[0][1]})`}.`
+    :laneEdges.length===1?`Its one recorded connection, of the kind ${kinds}, is ${topRivers.length?`with ${esc(topRivers[0][0])}`:'inside the river'}.`
+    :`It has ${laneEdges.length} recorded connections. The most common ${topTypes.length>1?`kinds are ${kinds} (${topTypes[0][1]} each)`:`kind is ${kinds} (${topTypes[0][1]})`}.`
       +(!topRivers.length?''
         :topRivers.length>1?` Outside the river, it links equally often ${to(topRivers)}.`
+        :!restRivers.length?` Outside the river, it links only ${to(topRivers)}.`
         :` Outside the river, it links most often ${to(topRivers)}${nextRivers.length===1?`, then ${to(nextRivers)}`:''}.`);
   h+=`<h3>What sets this river apart</h3><p>${spanText} ${builtText} ${edgeText}</p>`;
   h+=`<h3>Traditions in this river</h3><ul class="voices">${members.map(m=>
