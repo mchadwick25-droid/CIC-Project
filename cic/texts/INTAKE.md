@@ -70,6 +70,10 @@ verified-not-asserted case this whole registry rests on.
 `texts_registry.py`'s own docstring:
 - Published > 95 years ago (rolling; 1930 as of 2026) → public domain by
   date.
+- Where a title page prints no year, a copyright notice in the volume dated
+  1930 or earlier stands for the date; a dated preface stands for it only
+  where the library catalogue's date agrees. The header's Rights line says
+  which date was used and where it stands in the file.
 - A transcriber's explicit PD declaration (Pearse's site-wide notice is the
   precedent) → accepted, recorded as such.
 - An explicit open licence (CC BY 4.0 — Dysinger's Evagrius is the one case
