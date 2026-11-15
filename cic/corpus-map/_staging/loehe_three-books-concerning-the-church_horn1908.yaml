@@ -1,0 +1,25 @@
+source_file: loehe_three-books-concerning-the-church_horn1908.txt
+assignments:
+- row_id: loehe_three-books-concerning-the-church_horn1908--three-books-concerning-the-church-offered-to-friends-of-the
+  work: Three Books concerning the Church, offered to friends of the Lutheran Church, for consideration and
+  author: loehe
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - confessional-lutheran-revival-emigrations
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1908
+    end: 1908
+    source: 'the printing''s own title page: line 62, on the title page'
+    formation_confidence: Documented
+  translator:
+    name: Edward T. Horn
+    source: the title page
+    formation_confidence: Documented
+  edition_date:
+    year: 1908
+    source: line 62, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 276, Wilhelm Loehe: Three Books concerning the Church, in English.'

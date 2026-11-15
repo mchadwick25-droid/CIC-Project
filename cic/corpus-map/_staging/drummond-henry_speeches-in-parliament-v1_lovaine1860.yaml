@@ -1,0 +1,23 @@
+source_file: drummond-henry_speeches-in-parliament-v1_lovaine1860.txt
+assignments:
+- row_id: drummond-henry_speeches-in-parliament-v1_lovaine1860--speeches-in-parliament-and-some-miscellaneous-pamphlets-of
+  work: Speeches in Parliament and Some Miscellaneous Pamphlets of the late Henry Drummond, Esq.; edited by Lord
+  author: drummond-henry
+  locus: the editor's Introductory Notice of Henry Drummond's life and political career at lines 51-314; the rest
+    not mapped
+  atlas_ids:
+  - catholic-apostolic-church-irvingites
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1860
+    end: 1860
+    source: 'the printing''s own title page: line 41, on the title page, where the OCR reads ''I860'''
+    formation_confidence: Documented
+  edition_date:
+    year: 1860
+    source: line 41, on the title page, where the OCR reads 'I860'
+    formation_confidence: Documented
+  note: 'Era 9 row 257, Henry Drummond: his speeches in Parliament, with a sketch of his political career (vol.
+    1).'

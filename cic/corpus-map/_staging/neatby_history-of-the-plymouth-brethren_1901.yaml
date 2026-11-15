@@ -1,0 +1,22 @@
+source_file: neatby_history-of-the-plymouth-brethren_1901.txt
+assignments:
+- row_id: neatby_history-of-the-plymouth-brethren_1901--a-history-of-the-plymouth-brethren
+  work: A History of the Plymouth Brethren
+  author: neatby
+  locus: Benjamin Wills Newton introduced at lines 2462-2476; chapter VI, The Strife at Plymouth in 1845, at lines
+    4450-5635; chapter VII, The Doctrinal Controversy at Plymouth, at lines 5640-6722; the rest not mapped
+  atlas_ids:
+  - plymouth-brethren-and-dispensational-formation
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1901
+    end: 1901
+    source: 'the printing''s own title page: line 69, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1901
+    source: line 69, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 259, Benjamin Wills Newton: an account of the division by another.'

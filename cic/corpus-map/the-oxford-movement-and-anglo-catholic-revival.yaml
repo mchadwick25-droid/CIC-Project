@@ -24,6 +24,43 @@ works:
     formation_confidence: Documented
   note: 'Era 9 row 189, John Keble: a Life (vol. 1).'
   source_file: coleridge_memoir-of-the-rev-john-keble-v1_2nd-ed1869.txt
+- row_id: colles_sisters-of-mercy-sisters-of-misery_1852--sisters-of-mercy-sisters-of-misery-or-miss-sellon-in-the
+  work: 'Sisters of Mercy, Sisters of Misery: or, Miss Sellon in the Family'
+  author: colles
+  locus: the whole volume; not mapped
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1852
+    end: 1852
+    source: 'the printing''s own title page: line 66, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1852
+    source: line 66, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 268, Priscilla Lydia Sellon: a critic''s pamphlet of 1852.'
+  source_file: colles_sisters-of-mercy-sisters-of-misery_1852.txt
+- row_id: froude_remains-pt1-v1_1838--remains-of-the-late-reverend-richard-hurrell-froude-m-a
+  work: Remains of the late Reverend Richard Hurrell Froude, M.A., Fellow of Oriel College,
+    Oxford; in two volumes,
+  author: froude
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1838
+    end: 1838
+    source: 'the printing''s own title page: line 49, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1838
+    source: line 49, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 267, Richard Hurrell Froude: his Remains (part 1, vol. 1).'
+  source_file: froude_remains-pt1-v1_1838.txt
 - row_id: keble_national-apostasy-assize-sermon_1833--national-apostasy-considered-in-a-sermon-preached-in-st-mary
   work: National Apostasy considered in a sermon preached in St. Mary's, Oxford, before His
     Majesty's Judges of
@@ -107,6 +144,25 @@ works:
     formation_confidence: Documented
   note: 'Era 9 row 188, John Henry Newman: Tract 90.'
   source_file: newman_tract-90-remarks-on-certain-passages-in-the-thirty-nine-articles_2nd-ed1841.txt
+- row_id: phillpotts_letter-to-miss-sellon_1852--a-letter-to-miss-sellon-superior-of-the-society-of-sisters
+  work: A Letter to Miss Sellon, Superior of the Society of Sisters of Mercy, at Plymouth;
+    by Henry, Lord Bishop of
+  author: phillpotts
+  locus: the whole volume; not mapped
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1852
+    end: 1852
+    source: 'the printing''s own title page: line 76, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1852
+    source: line 76, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 268, Priscilla Lydia Sellon: her bishop''s letter to her.'
+  source_file: phillpotts_letter-to-miss-sellon_1852.txt
 - row_id: pusey_do-all-to-the-lord-jesus-sermon_boston1864--do-all-to-the-lord-jesus-a-sermon-by-the-rev-e-b-pusey-d-d
   work: Do all to the Lord Jesus. A sermon, by the Rev. E. B. Pusey, D.D., Regius Professor
     of Hebrew, Canon of

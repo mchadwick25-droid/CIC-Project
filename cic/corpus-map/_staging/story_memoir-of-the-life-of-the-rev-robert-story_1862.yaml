@@ -1,0 +1,23 @@
+source_file: story_memoir-of-the-life-of-the-rev-robert-story_1862.txt
+assignments:
+- row_id: story_memoir-of-the-life-of-the-rev-robert-story_1862--memoir-of-the-life-of-the-rev-robert-story-late-minister-of
+  work: Memoir of the Life of the Rev. Robert Story, late Minister of Rosneath, Dunbartonshire
+  author: story
+  locus: chapter V, 'Mary Campbell, Gifts, Irving', at lines 8219-10073; letter from Mary Campbell to Mr. Story
+    at lines 8442-8711; the M'Donald family of Port Glasgow and the healing of the sister, whose name is left blank,
+    at lines 8739-8792; the rest not mapped
+  atlas_ids:
+  - catholic-apostolic-church-irvingites
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1862
+    end: 1862
+    source: 'the printing''s own title page: line 139, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1862
+    source: line 139, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 255, Mary Campbell and Margaret Macdonald: the Life of Mary Campbell''s minister.'

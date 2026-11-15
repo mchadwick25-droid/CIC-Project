@@ -30034,3 +30034,613 @@ queue:
     verified_by: 'Library thread, era 8 batch 1: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 5,252,630 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: valentijn_oud-en-nieuw-oost-indien-deel3-nld_1726.txt
+  - title: 'Life of Elder Walter Scott, with sketches of his fellow-laborers, William Hayden, Adamson Bentley, John Henry, and others'
+    author: 'William Baxter'
+    year: '1874'
+    world: the-stone-campbell-restoration-movement
+    why: 'Wanted Sources, era 9 row 227, Walter Scott: a Life told by another.'
+    url: https://archive.org/details/lifeofelderwalte00baxt
+    rights_basis: 'Public Domain (pd-us-by-date: published 1874); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 911,289 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: baxter-w_life-of-elder-walter-scott_1874.txt
+  - title: 'Life of Elder John Smith, with some account of the rise and progress of the current reformation'
+    author: 'John Augustus Williams'
+    year: '1870'
+    world: the-stone-campbell-restoration-movement
+    why: 'Wanted Sources, era 9 row 228, ''Raccoon'' John Smith: a Life told by another.'
+    url: https://archive.org/details/lifeofelderjohns00williala
+    rights_basis: 'Public Domain (pd-us-by-date: published 1870); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,213,472 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: williams-j-a_life-of-elder-john-smith_1870.txt
+  - title: 'Autobiography of Peter Cartwright, the Backwoods Preacher; edited by W. P. Strickland'
+    author: 'Peter Cartwright; edited by W. P. Strickland'
+    year: '1857'
+    world: the-second-great-awakening-and-camp-meeting-worl
+    why: 'Wanted Sources, era 9 row 229, Peter Cartwright: his Autobiography.'
+    url: https://archive.org/details/autobiographype00cartgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1857); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,058,707 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: cartwright_autobiography-of-peter-cartwright_strickland1857.txt
+  - title: 'An Autobiography: the story of the Lord''s dealings with Mrs. Amanda Smith, the colored evangelist; with an introduction by Bishop Thoburn, of India'
+    author: 'Mrs. Amanda Smith'
+    year: '1893'
+    world: the-holiness-movement
+    why: 'Wanted Sources, era 9 row 233, Amanda Berry Smith: her Autobiography.'
+    url: https://archive.org/details/autobiographysto00smit
+    rights_basis: 'Public Domain (pd-us-by-date: published 1893); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,316,737 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: smith-amanda_autobiography-story-of-the-lords-dealings_1893.txt
+  - title: 'The Christian''s Secret of a Happy Life; new, revised and enlarged edition'
+    author: 'Hannah Whitall Smith'
+    year: '1888'
+    world: the-holiness-movement
+    why: 'Wanted Sources, era 9 row 234, Hannah Whitall Smith: The Christian''s Secret of a Happy Life.'
+    url: https://archive.org/details/christianssecret00smitrich
+    rights_basis: 'Public Domain (pd-us-by-date: published 1888); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the date agrees; the title page prints no year, and the date used is that of the copyright notice at line 145, which the OCR gives garbled with the year 1888 clear'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 413,448 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: smith-hannah-whitall_christians-secret-of-a-happy-life_rev-ed1888.txt
+  - title: 'The Unselfishness of God and How I Discovered It: a spiritual autobiography'
+    author: 'H. W. S. (Mrs. Pearsall Smith), as the title page prints it; the archive.org record names Hannah Whitall Smith'
+    year: '1903'
+    world: the-holiness-movement
+    why: 'Wanted Sources, era 9 row 234, Hannah Whitall Smith: her spiritual autobiography.'
+    url: https://archive.org/details/unselfishnessofg00smit
+    rights_basis: 'Public Domain (pd-us-by-date: published 1903); the archive.org record carries no rights field, so the date named here is the basis; the title page prints no year, and the date used is that of the copyright notice at lines 69-70 (''Copyright, 1903, by Fleming H. Revell Company'')'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 513,625 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: smith-hannah-whitall_unselfishness-of-god_1903.txt
+  - title: 'The Life of Rev. John S. Inskip, President of the National Association for the Promotion of Holiness'
+    author: 'W. McDonald and John E. Searles'
+    year: '1885'
+    world: the-holiness-movement
+    why: 'Wanted Sources, era 9 row 235, John S. Inskip: a Life told by others.'
+    url: https://archive.org/details/lifeofrevjohnsin00mcdo
+    rights_basis: 'Public Domain (pd-us-by-date: published 1885); the archive.org record carries no rights field, so the date named here is the basis; the title page prints no year, and the date used is that of the copyright notice at lines 74-76 (''in the year 1885, by McDonald & Gill'')'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 812,647 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: mcdonald-searles_life-of-rev-john-s-inskip_1885.txt
+  - title: 'Report of the first International Convention of the Student Volunteer Movement for Foreign Missions, held at Cleveland, Ohio, U.S.A., February 26, 27, 28 and March 1, 1891'
+    author: 'The Student Volunteer Movement for Foreign Missions (no author is named on the title page)'
+    year: '1891'
+    world: the-student-volunteer-movement-and-edinburgh-191
+    why: 'Wanted Sources, era 9 row 236, Robert P. Wilder: the report of the movement''s first convention, with his addresses.'
+    url: https://archive.org/details/studentvolunteer00unknuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1891); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the date agrees; the title page prints no year, and the date used is that of the year printed in the title on the title page (lines 33-34: ''February 26, 27, 28, and March 1, 1891''); the title page gives a printer and no separate imprint year, and the archive.org record''s date is 1891'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 645,500 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: student-volunteer-movement_report-first-international-convention-cleveland_1891.txt
+  - title: 'Story of My Life: an account of what I have thought and said and done in my ministry of more than fifty-three years in Christian lands and among the heathen, written by myself; edited by John Clark Ridpath'
+    author: 'William Taylor, Bishop of the Methodist Episcopal Church for Africa; edited by John Clark Ridpath'
+    year: '1895'
+    world: nineteenth-century-methodism
+    why: 'Wanted Sources, era 9 row 239, William Taylor: Story of My Life.'
+    url: https://archive.org/details/williamtaylor00tayluoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1895); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees; the text prints a document and an entry dated June 1896 (lines 37571 and 37579), so this printing was made after the year on its title page'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 2,636,809 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: taylor-william_story-of-my-life_ridpath1895.txt
+  - title: 'In His Steps: ''What Would Jesus Do?'''
+    author: 'Charles M. Sheldon'
+    year: '1897'
+    world: the-social-gospel
+    why: 'Wanted Sources, era 9 row 329, Charles M. Sheldon: In His Steps.'
+    url: https://archive.org/details/inhisstepswhatwo00shel
+    rights_basis: 'Public Domain (pd-us-by-date: published 1897); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 546,732 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: sheldon_in-his-steps_1897.txt
+  - title: 'The Founding of Pacific Garden Mission: over thirty-five years contributed to the Master''s service'
+    author: 'Sarah D. Clarke'
+    year: '1914'
+    world: the-rescue-mission-movement
+    why: 'Wanted Sources, era 9 row 330, George and Sarah Clarke: Sarah Clarke''s own account of the mission.'
+    url: https://archive.org/details/foundingofpacifi00clar
+    rights_basis: 'Public Domain (pd-us-by-date: published 1914); the archive.org record says possible-copyright-status The Library of Congress is unaware of any copyright restrictions for this item, and the date agrees; the title page prints no year, and the date used is that of the copyright notice at line 63 (''Copyright 1914''); the archive.org record''s date is 1914'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 47,456 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: clarke_founding-of-pacific-garden-mission_1914.txt
+  - title: 'Memoirs of the Life, Religious Experience, Ministerial Travels and Labours of Mrs. Zilpha Elaw, an American Female of Colour; together with some account of the great religious revivals in America; written by herself'
+    author: 'Mrs. Zilpha Elaw'
+    year: '1846'
+    world: the-black-church-in-america
+    why: 'Wanted Sources, era 9 row 231, Zilpha Elaw: her Memoirs.'
+    url: https://archive.org/details/MinisterialTravelsAndLaboursOfMrs.ZilphaElaw
+    rights_basis: 'Public Domain (pd-us-by-date: published 1846); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 258,358 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: elaw_memoirs-of-mrs-zilpha-elaw_1846.txt
+  - title: 'A Brand Plucked from the Fire: an autobiographical sketch'
+    author: 'Mrs. Julia A. J. Foote'
+    year: '1879'
+    world: the-black-church-in-america
+    why: 'Wanted Sources, era 9 row 232, Julia Foote: A Brand Plucked from the Fire.'
+    url: https://archive.org/details/brandpluckedfrom00foot
+    rights_basis: 'Public Domain (pd-us-by-date: published 1879); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 157,470 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: foote_brand-plucked-from-the-fire_1879.txt
+  - title: 'A Short Account of the Rise and Progress of the African Methodist Episcopal Church in America; written by Christopher Rush, Superintendent of the Connexion, with the aid of George Collins'
+    author: 'Christopher Rush, with the aid of George Collins'
+    year: '1843'
+    world: nineteenth-century-methodism
+    why: 'Wanted Sources, era 9 row 238, James Varick: Rush''s Short Account of the African Methodist Episcopal Church.'
+    url: https://archive.org/details/ashortaccountri00collgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1843); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 149,500 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: rush_short-account-rise-and-progress-african-me-church_1843.txt
+  - title: 'Old Landmarkism: What Is It?'
+    author: 'J. R. Graves, LL.D.'
+    year: '1880'
+    world: nineteenth-century-baptists
+    why: 'Wanted Sources, era 9 row 240, James Robinson Graves: Old Landmarkism.'
+    url: https://archive.org/details/oldlandmarkismw00gravgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1880); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees; the archive.org record''s own date and publisher (Texarkana, 1928) do not match the scanned title page, which prints Memphis, 1880'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 391,521 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: graves_old-landmarkism-what-is-it_1880.txt
+  - title: 'The Gospel Developed through the Government and Order of the Churches of Jesus Christ'
+    author: 'William Bullein Johnson'
+    year: '1846'
+    world: nineteenth-century-baptists
+    why: 'Wanted Sources, era 9 row 241, William Bullein Johnson: The Gospel Developed.'
+    url: https://archive.org/details/the-gospel-developed-throug-the-governmet-and-order-of-the-churches-of-jesus-christ
+    rights_basis: 'Public Domain (pd-us-by-date: published 1846); the archive.org record carries the Public Domain Mark (licenseurl https://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 265,443 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: johnson-w-b_gospel-developed_1846.txt
+  - title: 'Journal of the Life of John Wilbur, a Minister of the Gospel in the Society of Friends; with selections from his correspondence, &c.'
+    author: 'John Wilbur'
+    year: '1859'
+    world: nineteenth-century-quakerism-separations
+    why: 'Wanted Sources, era 9 row 243, John Wilbur: his Journal.'
+    url: https://archive.org/details/journaloflifeofj00wilb
+    rights_basis: 'Public Domain (pd-us-by-date: published 1859); the archive.org record says possible-copyright-status The Library of Congress is unaware of any copyright restrictions for this item, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,776,059 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: wilbur_journal-of-the-life-of-john-wilbur_1859.txt
+  - title: 'James and Lucretia Mott: Life and Letters; edited by their granddaughter, Anna Davis Hallowell'
+    author: 'Anna Davis Hallowell (editor); James Mott and Lucretia Mott (letters)'
+    year: '1884'
+    world: nineteenth-century-quakerism-separations
+    why: 'Wanted Sources, era 9 row 244, Lucretia Mott: a Life with her letters.'
+    url: https://archive.org/details/jameslucretiamot00hall
+    rights_basis: 'Public Domain (pd-us-by-date: published 1884); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,241,881 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: hallowell_james-and-lucretia-mott-life-and-letters_1884.txt
+  - title: 'Reminiscences of Levi Coffin, the Reputed President of the Underground Railroad; being a brief history of the labors of a lifetime in behalf of the slave'
+    author: 'Levi Coffin'
+    year: '1876'
+    world: nineteenth-century-quakerism-separations
+    why: 'Wanted Sources, era 9 row 245, Levi Coffin: his Reminiscences.'
+    url: https://archive.org/details/reminiscencesofl00coff
+    rights_basis: 'Public Domain (pd-us-by-date: published 1876); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the date agrees; the title page prints no year, and the date used is that of the copyright notice at lines 73-75 (''in the year 1876, by Levi Coffin''); the archive.org record''s date is 1876'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,345,206 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: coffin_reminiscences-of-levi-coffin_1876.txt
+  - title: 'An Address delivered before the Senior Class in Divinity College, Cambridge, Sunday evening, 15 July, 1838'
+    author: 'Ralph Waldo Emerson'
+    year: '1838'
+    world: american-unitarianism-universalism-consolidations
+    why: 'Wanted Sources, era 9 row 261, Ralph Waldo Emerson: the Address of 1838.'
+    url: https://archive.org/details/addressdelivered1838emer
+    rights_basis: 'Public Domain (pd-us-by-date: published 1838); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 49,637 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: emerson_address-before-the-senior-class-in-divinity-college_1838.txt
+  - title: 'A Memoir of Ralph Waldo Emerson, by James Elliot Cabot; in two volumes, vol. I'
+    author: 'James Elliot Cabot'
+    year: '1887'
+    world: american-unitarianism-universalism-consolidations
+    why: 'Wanted Sources, era 9 row 261, Ralph Waldo Emerson: a Life told by another (vol. 1).'
+    url: https://archive.org/details/memoirofralphwal01cabo_1
+    rights_basis: 'Public Domain (pd-us-by-date: published 1887); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 552,881 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: cabot_memoir-of-ralph-waldo-emerson-v1_1887.txt
+  - title: 'Life of Dorothea Lynde Dix (the title, author and publisher are from the archive.org record)'
+    author: 'Francis Tiffany (from the archive.org record)'
+    year: '1890'
+    world: american-unitarianism-universalism-consolidations
+    why: 'Wanted Sources, era 9 row 262, Dorothea Dix: a Life told by another.'
+    url: https://archive.org/details/lifeofdorothelyn00tiffrich
+    rights_basis: 'Public Domain (pd-us-by-date: published 1890); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the date agrees; the scan has no title page, and the date used is that of the preface, signed ''Cambridge, Mass., February 16, 1890'' (line 292), with which the library catalogue''s date agrees (University of California Libraries, on the archive.org record: [1890])'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 823,921 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: tiffany_life-of-dorothea-lynde-dix_1890.txt
+  - title: 'The Time of the End; its beginning, progressive events, and final termination: a discourse'
+    author: 'Hiram Edson'
+    year: '1849'
+    world: restorationist-apocalyptic-ferment-and-adventism
+    why: 'Wanted Sources, era 9 row 249, Hiram Edson: his own discourse of 1849 (his account of the morning after was not found in print).'
+    url: https://archive.org/details/HiramEdsonTheTimeOfTheEndItsBeginningProgressiveEventsAndFinal
+    rights_basis: 'Public Domain (pd-us-by-date: published 1849); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 84,597 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: edson_time-of-the-end_1849.txt
+  - title: 'The Autobiography of Elder Joseph Bates; embracing a long life on shipboard, with sketches of voyages on the Atlantic and Pacific Oceans, the Baltic and Mediterranean Seas; also impressment and service on board British war ships, long confinement in Dartmoor Prison, early experience in reformatory movements, travels in various parts of the world, and a brief account of the great Advent movement of 1840-44'
+    author: 'Elder Joseph Bates'
+    year: '1868'
+    world: restorationist-apocalyptic-ferment-and-adventism
+    why: 'Wanted Sources, era 9 row 250, Joseph Bates: his Autobiography.'
+    url: https://archive.org/details/autobiographyel01bategoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1868); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the date agrees; the title page prints no year, and the date used is that of the preface, signed ''Monterey, Mich., May 1, 1868'' (line 191), with which the library catalogue''s date agrees (University of Michigan, on the archive.org record: 1868)'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 552,589 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: bates_autobiography-of-elder-joseph-bates_1868.txt
+  - title: 'A Collection of Sacred Hymns, for the Church of the Latter Day Saints; selected by Emma Smith'
+    author: 'Emma Smith (selector)'
+    year: '1835'
+    world: latter-day-saints-lds
+    why: 'Wanted Sources, era 9 row 251, Emma Hale Smith: the hymnbook of 1835.'
+    url: https://archive.org/details/per_utah-and-the-mormons_a-collection-of-sacred-h_emma-smith_1835
+    rights_basis: 'Public Domain (pd-us-by-date: published 1835); the archive.org record carries no rights field, so the imprint date is the basis; the scan is of a microfilm copy (the archive.org record names Research Publications as the microfilm''s publisher)'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 113,150 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: smith-emma_collection-of-sacred-hymns_kirtland1835.txt
+  - title: 'Poems, Religious, Historical, and Political, by Eliza R. Snow (vol. I; the volume number is on the library label, not on the title page)'
+    author: 'Eliza R. Snow'
+    year: '1856'
+    world: latter-day-saints-lds
+    why: 'Wanted Sources, era 9 row 252, Eliza R. Snow: her poems (vol. 1).'
+    url: https://archive.org/details/poemsreligioushi00asnow
+    rights_basis: 'Public Domain (pd-us-by-date: published 1856); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 280,387 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: snow_poems-religious-historical-and-political-v1_1856.txt
+  - title: 'Readings upon the Liturgy and Other Divine Offices of the Church: on the Eucharist, and daily offices connected therewith (three parts under a general title page of 1851)'
+    author: 'No author is named on the title page; the archive.org record names John Bate Cardale'
+    year: '1851'
+    world: catholic-apostolic-church-irvingites
+    why: 'Wanted Sources, era 9 row 256, John Bate Cardale: Readings upon the Liturgy.'
+    url: https://archive.org/details/readingsuponlit00servgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1851); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees; the archive.org record''s own date is 1848; the general title page prints 1851'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,558,538 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: cardale_readings-upon-the-liturgy_1851.txt
+  - title: 'Dialogues on Prophecy; vol. I'
+    author: 'No author is named on the title page'
+    year: '1828'
+    world: catholic-apostolic-church-irvingites
+    why: 'Wanted Sources, era 9 row 257, Henry Drummond: Dialogues on Prophecy, vol. 1 (the volume names no author and no place of meeting).'
+    url: https://archive.org/details/dialogues-on-prophecy
+    rights_basis: 'Public Domain (pd-us-by-date: published 1828); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 657,466 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: dialogues-on-prophecy_v1_1828.txt
+  - title: 'Speeches in Parliament and Some Miscellaneous Pamphlets of the late Henry Drummond, Esq.; edited by Lord Lovaine; in two volumes, vol. I'
+    author: 'Henry Drummond; edited by Lord Lovaine'
+    year: '1860'
+    world: catholic-apostolic-church-irvingites
+    why: 'Wanted Sources, era 9 row 257, Henry Drummond: his speeches in Parliament, with a sketch of his political career (vol. 1).'
+    url: https://archive.org/details/speechesinparlia01drumuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1860); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,176,381 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: drummond-henry_speeches-in-parliament-v1_lovaine1860.txt
+  - title: 'Thoughts on the Apocalypse; second edition'
+    author: 'Benjamin Wills Newton'
+    year: '1853'
+    world: plymouth-brethren-and-dispensational-formation
+    why: 'Wanted Sources, era 9 row 259, Benjamin Wills Newton: his own writing.'
+    url: https://archive.org/details/thoughtsonapocal00newtrich
+    rights_basis: 'Public Domain (pd-us-by-date: published 1853); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 889,620 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: newton-b-w_thoughts-on-the-apocalypse_2nd-ed1853.txt
+  - title: 'A History of the Plymouth Brethren'
+    author: 'William Blair Neatby, M.A.'
+    year: '1901'
+    world: plymouth-brethren-and-dispensational-formation
+    why: 'Wanted Sources, era 9 row 259, Benjamin Wills Newton: an account of the division by another.'
+    url: https://archive.org/details/ahistoryoftheply00neatuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1901); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 762,200 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: neatby_history-of-the-plymouth-brethren_1901.txt
+  - title: 'The Life of Jabez Bunting, D.D., with notices of contemporary persons and events; by his son, Thomas Percival Bunting; vol. I'
+    author: 'Thomas Percival Bunting'
+    year: '1859'
+    world: nineteenth-century-methodism
+    why: 'Wanted Sources, era 9 row 237, Jabez Bunting: a Life told by his son (vol. 1).'
+    url: https://archive.org/details/lifeofjabezbunti00bunt
+    rights_basis: 'Public Domain (pd-us-by-date: published 1859); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,123,270 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: bunting-t-p_life-of-jabez-bunting-v1_1859.txt
+  - title: 'Dr. John Clifford, C.H.: Life, Letters and Reminiscences'
+    author: 'Sir James Marchant, LL.D.'
+    year: '1924'
+    world: nineteenth-century-baptists
+    why: 'Wanted Sources, era 9 row 242, John Clifford: a Life told by another.'
+    url: https://archive.org/details/drjohncliffordch00marc
+    rights_basis: 'Public Domain (pd-us-by-date: published 1924); the archive.org record carries no rights field, so the date named here is the basis; the title page prints no year, and the date used is that of the line ''First published 1924'' under the publisher''s imprint (line 252) and the introduction, signed ''April, 1924'' (line 720), with which the library catalogue''s date agrees (Princeton Theological Seminary Library, on the archive.org record: 1924)'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 852,418 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: marchant_dr-john-clifford_1924.txt
+  - title: 'Remains of the late Reverend Richard Hurrell Froude, M.A., Fellow of Oriel College, Oxford; in two volumes, vol. I'
+    author: 'Richard Hurrell Froude (the editors are not named on the title page)'
+    year: '1838'
+    world: the-oxford-movement-and-anglo-catholic-revival
+    why: 'Wanted Sources, era 9 row 267, Richard Hurrell Froude: his Remains (part 1, vol. 1).'
+    url: https://archive.org/details/remainsoflaterev11frouuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1838); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 831,205 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: froude_remains-pt1-v1_1838.txt
+  - title: 'A Letter to Miss Sellon, Superior of the Society of Sisters of Mercy, at Plymouth; by Henry, Lord Bishop of Exeter'
+    author: 'Henry, Lord Bishop of Exeter'
+    year: '1852'
+    world: the-oxford-movement-and-anglo-catholic-revival
+    why: 'Wanted Sources, era 9 row 268, Priscilla Lydia Sellon: her bishop''s letter to her.'
+    url: https://archive.org/details/lettertomisssell0000phil
+    rights_basis: 'Public Domain (pd-us-by-date: published 1852); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 37,922 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: phillpotts_letter-to-miss-sellon_1852.txt
+  - title: 'Sisters of Mercy, Sisters of Misery: or, Miss Sellon in the Family'
+    author: 'Rev. W. M. Colles, A.B.'
+    year: '1852'
+    world: the-oxford-movement-and-anglo-catholic-revival
+    why: 'Wanted Sources, era 9 row 268, Priscilla Lydia Sellon: a critic''s pamphlet of 1852.'
+    url: https://archive.org/details/sistersmercysis00collgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1852); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 55,185 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: colles_sisters-of-mercy-sisters-of-misery_1852.txt
+  - title: 'The Life and Work of the Seventh Earl of Shaftesbury, K.G.; vol. I'
+    author: 'Edwin Hodder'
+    year: '1887'
+    world: victorian-church-of-england
+    why: 'Wanted Sources, era 9 row 271, Lord Shaftesbury: a Life told by another (vol. 1).'
+    url: https://archive.org/details/lifeworkofsevent01hodduoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1887); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,311,536 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: hodder_life-and-work-of-seventh-earl-of-shaftesbury-v1_1887.txt
+  - title: 'Life of the Right Reverend Samuel Wilberforce, D.D., Lord Bishop of Oxford and afterwards of Winchester, with selections from his diaries and correspondence; vol. I'
+    author: 'A. R. Ashwell, M.A.'
+    year: '1880'
+    world: victorian-church-of-england
+    why: 'Wanted Sources, era 9 row 272, Samuel Wilberforce: a Life with his diaries and letters (vol. 1).'
+    url: https://archive.org/details/lifeofrightrever01ashw
+    rights_basis: 'Public Domain (pd-us-by-date: published 1880); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,322,724 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: ashwell_life-of-samuel-wilberforce-v1_1880.txt
+  - title: 'Theological Essays; with a new preface, and other additions (second edition)'
+    author: 'Frederick Denison Maurice, M.A., Chaplain of Lincoln''s Inn'
+    year: '1853'
+    world: victorian-church-of-england
+    why: 'Wanted Sources, era 9 row 273, Frederick Denison Maurice: Theological Essays.'
+    url: https://archive.org/details/theologicalessa03maurgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1853); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 911,177 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: maurice_theological-essays_2nd-ed1853.txt
+  - title: 'The Life of Frederick Denison Maurice, chiefly told in his own letters; edited by his son Frederick Maurice; in two volumes, vol. I'
+    author: 'Frederick Maurice (editor); Frederick Denison Maurice (letters)'
+    year: '1884'
+    world: victorian-church-of-england
+    why: 'Wanted Sources, era 9 row 273, Frederick Denison Maurice: a Life told in his letters (vol. 1).'
+    url: https://archive.org/details/lifeoffrederickd01maur
+    rights_basis: 'Public Domain (pd-us-by-date: published 1884); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,353,402 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: maurice-f_life-of-frederick-denison-maurice-v1_1884.txt
+  - title: 'The Pentateuch and Book of Joshua Critically Examined (the title page prints no part number; the text is headed Part I)'
+    author: 'The Right Rev. John William Colenso, D.D., Bishop of Natal'
+    year: '1862'
+    world: victorian-church-of-england
+    why: 'Wanted Sources, era 9 row 274, John William Colenso: The Pentateuch and Book of Joshua, part I.'
+    url: https://archive.org/details/dli.ministry.18474
+    rights_basis: 'Public Domain (pd-us-by-date: published 1862); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 432,028 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: colenso_pentateuch-and-book-of-joshua-pt1_1862.txt
+  - title: 'Ten Weeks in Natal: a journal of a first tour of visitation among the colonists and Zulu Kafirs of Natal'
+    author: 'John William Colenso, D.D., Lord Bishop of the Diocese'
+    year: '1855'
+    world: victorian-church-of-england
+    why: 'Wanted Sources, era 9 row 274, John William Colenso: Ten Weeks in Natal.'
+    url: https://archive.org/details/tenweeksinnatalj00cole
+    rights_basis: 'Public Domain (pd-us-by-date: published 1855); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 658,562 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: colenso_ten-weeks-in-natal_1855.txt
+  - title: 'The Lambeth Conferences of 1867, 1878, and 1888; with the official reports and resolutions, together with the sermons preached at the conferences; edited by Randall T. Davidson, Dean of Windsor'
+    author: 'The Lambeth Conferences; edited by Randall T. Davidson'
+    year: '1889'
+    world: victorian-church-of-england
+    why: 'Wanted Sources, era 9 row 275, Charles Longley: the documents of the Lambeth Conference of 1867.'
+    url: https://archive.org/details/lambethconferenc00daviuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1889); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 780,544 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: lambeth-conferences_1867-1878-1888_davidson1889.txt
+  - title: 'Recollections of the Last Four Popes and of Rome in their Times'
+    author: 'H. E. Cardinal Wiseman'
+    year: '1858'
+    world: catholic-church-long-nineteenth-century
+    why: 'Wanted Sources, era 9 row 278, Nicholas Wiseman: Recollections of the Last Four Popes.'
+    url: https://archive.org/details/recollectionsofl00wise_0
+    rights_basis: 'Public Domain (pd-us-by-date: published 1858); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 713,775 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: wiseman_recollections-of-the-last-four-popes_1858.txt
+  - title: 'An Appeal to the Reason and Good Feeling of the English People on the Subject of the Catholic Hierarchy'
+    author: 'Cardinal Wiseman'
+    year: '1850'
+    world: catholic-church-long-nineteenth-century
+    why: 'Wanted Sources, era 9 row 278, Nicholas Wiseman: his Appeal of 1850 on the hierarchy.'
+    url: https://archive.org/details/a628371100wiseuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1850); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 99,081 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: wiseman_appeal-to-the-english-people-catholic-hierarchy_1850.txt
+  - title: 'The Life and Times of Cardinal Wiseman; in two volumes, vol. I'
+    author: 'Wilfrid Ward'
+    year: '1897'
+    world: catholic-church-long-nineteenth-century
+    why: 'Wanted Sources, era 9 row 278, Nicholas Wiseman: a Life told by another (vol. 1).'
+    url: https://archive.org/details/lifeandtimescar02wardgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1897); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,298,628 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: ward-wilfrid_life-and-times-of-cardinal-wiseman-v1_1897.txt
+  - title: 'The Welsh Revival: I. A Narrative of Facts, by W. T. Stead; II. The Revival: its Power and Source, by G. Campbell Morgan'
+    author: 'W. T. Stead; G. Campbell Morgan'
+    year: '1905'
+    world: the-1904-07-revival-family-wales-mukti-india-pyo
+    why: 'Wanted Sources, era 9 row 328, W. T. Stead: his narrative of the Welsh revival.'
+    url: https://archive.org/details/MN41536ucmf_1
+    rights_basis: 'Public Domain (pd-us-by-date: published 1905); the archive.org record carries no rights field, so the date named here is the basis; the title page prints no year, and the date used is that of the copyright notice at lines 267-268 (''Copyright, 1905, by J. H. Tewksbury'')'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 150,441 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: stead_welsh-revival-narrative-of-facts_boston1905.txt
+  - title: 'Les Adieux d''Adolphe Monod à ses amis et à l''Église, octobre 1855 à mars 1856'
+    author: 'Adolphe Monod'
+    year: '1857'
+    world: the-reveil-and-inner-mission-awakening
+    why: 'Wanted Sources, era 9 row 269, Adolphe Monod: the deathbed addresses, in French.'
+    url: https://archive.org/details/lesadieuxdadolp00monogoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1857); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 271,350 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: monod_adieux-a-ses-amis-et-a-l-eglise-fra_1857.txt
+  - title: 'Les Adieux d''Adolphe Monod: The Parting Words of Adolphe Monod to his Friends and the Church, October, 1855, to March, 1856; translated from the fifth Paris edition'
+    author: 'Adolphe Monod (the translator is not named on the title page)'
+    year: '1873'
+    world: the-reveil-and-inner-mission-awakening
+    why: 'Wanted Sources, era 9 row 269, Adolphe Monod: the deathbed addresses, in English.'
+    url: https://archive.org/details/lesadieuxdadolph00mono
+    rights_basis: 'Public Domain (pd-us-by-date: published 1873); the archive.org record says possible-copyright-status The Library of Congress is unaware of any copyright restrictions for this item, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 326,710 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: monod_parting-words-to-his-friends-and-the-church_1873.txt
+  - title: 'Ongeloof en Revolutie: eene reeks van historische voorlezingen; tweede uitgaaf'
+    author: 'Mr. G. Groen van Prinsterer'
+    year: '1868'
+    world: dutch-neo-calvinism-secession-churches
+    why: 'Wanted Sources, era 9 row 270, Guillaume Groen van Prinsterer: Ongeloof en Revolutie, in Dutch.'
+    url: https://archive.org/details/ongeloofenrevolu00groe
+    rights_basis: 'Public Domain (pd-us-by-date: published 1868); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,095,479 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: groen-van-prinsterer_ongeloof-en-revolutie-nld_2e-uitg1868.txt
+  - title: 'Three Books concerning the Church, offered to friends of the Lutheran Church, for consideration and discussion; translated from the German by Edward T. Horn'
+    author: 'Wilhelm Loehe; translated by Edward T. Horn, D.D., LL.D.'
+    year: '1908'
+    world: confessional-lutheran-revival-emigrations
+    why: 'Wanted Sources, era 9 row 276, Wilhelm Loehe: Three Books concerning the Church, in English.'
+    url: https://archive.org/details/threebooksconcer0000wilh
+    rights_basis: 'Public Domain (pd-us-by-date: published 1908); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 268,535 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: loehe_three-books-concerning-the-church_horn1908.txt
+  - title: 'Notre-Dame de Lourdes; vingt-huitième édition'
+    author: 'Henri Lasserre'
+    year: '1870'
+    world: catholic-church-long-nineteenth-century
+    why: 'Wanted Sources, era 9 row 277, Bernadette Soubirous: Lasserre, Notre-Dame de Lourdes, in French.'
+    url: https://archive.org/details/notredamedelou00lass
+    rights_basis: 'Public Domain (pd-us-by-date: published 1870); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 915,284 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: lasserre_notre-dame-de-lourdes-fra_28e-ed1870.txt
+  - title: 'Our Lady of Lourdes; from the French'
+    author: 'Henri Lasserre (the translator is not named on the title page)'
+    year: '1870'
+    world: catholic-church-long-nineteenth-century
+    why: 'Wanted Sources, era 9 row 277, Bernadette Soubirous: Lasserre, Our Lady of Lourdes, in English.'
+    url: https://archive.org/details/ourladyoflourdes00lassuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1870); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 906,416 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: lasserre_our-lady-of-lourdes_1870.txt
+  - title: 'A History of the Church known as the Moravian Church, or the Unitas Fratrum, or the Unity of the Brethren, during the eighteenth and nineteenth centuries'
+    author: 'J. Taylor Hamilton'
+    year: '1900'
+    world: moravian-church-after-1815
+    why: 'Wanted Sources, era 9 row 323, J. Taylor Hamilton: his history of the Moravian Church.'
+    url: https://archive.org/details/historyofchurchk00hami
+    rights_basis: 'Public Domain (pd-us-by-date: published 1900); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,727,226 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: hamilton-j-taylor_history-of-the-moravian-church_1900.txt
+  - title: 'Kaiserswerth Deaconesses; including a history of the institution, the ordination service and questions for self-examination; by a Lady'
+    author: 'By a Lady (the author is not named)'
+    year: '1857'
+    world: the-reveil-and-inner-mission-awakening
+    why: 'Wanted Sources, era 9 row 223, Theodor Fliedner: an English account of Kaiserswerth by a lady.'
+    url: https://archive.org/details/kaiserswerthdea00deacgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1857); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 89,396 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: kaiserswerth_kaiserswerth-deaconesses-by-a-lady_1857.txt
+  - title: 'History of the African Methodist Episcopal Church; edited by Rev. C. S. Smith (vol. I)'
+    author: 'Daniel A. Payne, D.D., LL.D.; edited by Rev. C. S. Smith, D.D.'
+    year: '1891'
+    world: the-black-church-in-america
+    why: 'Wanted Sources, era 9 row 230, Daniel Coker: Payne''s history of his church, which tells of Coker (Coker''s own Dialogue and Journal were not found in print).'
+    url: https://archive.org/details/historyofafrican00payn
+    rights_basis: 'Public Domain (pd-us-by-date: published 1891); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,526,185 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: payne_history-of-the-african-methodist-episcopal-church-v1_1891.txt
+  - title: 'Christendom Astray: or, Popular Theology (both in faith and practice) shewn to be unscriptural; and the true nature of the ancient Apostolic faith exhibited, in eighteen lectures'
+    author: 'Robert Roberts'
+    year: '1883'
+    world: christadelphians
+    why: 'Wanted Sources, era 9 row 254, Robert Roberts: Christendom Astray.'
+    url: https://archive.org/details/christendomastray1884
+    rights_basis: 'Public Domain (pd-us-by-date: published 1883); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/); the title page prints no year, and the date used is that of the preface, dated ''Birmingham, December 18, 1883'' on the scan''s page image, leaf n6 (the OCR at line 290 prints 1888); the text itself closes ''December 7th, 1883'' at line 24946; no library catalogue record stands behind this scan, and the archive.org record, a reader''s upload, gives 1884'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,237,424 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: roberts-robert_christendom-astray_1883.txt
+  - title: 'The Ways of Providence, authentically illustrated'
+    author: 'Robert Roberts, of Birmingham'
+    year: '1881'
+    world: christadelphians
+    why: 'Wanted Sources, era 9 row 254, Robert Roberts: The Ways of Providence.'
+    url: https://archive.org/details/waysprovidencea00unkngoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1881); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 589,144 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: roberts-robert_ways-of-providence_1881.txt
+  - title: 'The History and Doctrines of Irvingism, or of the so-called Catholic and Apostolic Church; vol. I'
+    author: 'Edward Miller, M.A., Vicar of Butler''s Marston'
+    year: '1878'
+    world: catholic-apostolic-church-irvingites
+    why: 'Wanted Sources, era 9 row 255, Mary Campbell and Margaret Macdonald: an outside history that tells of 1830 (vol. 1).'
+    url: https://archive.org/details/historydoctrines01mill
+    rights_basis: 'Public Domain (pd-us-by-date: published 1878); the archive.org record carries no rights field, so the date named here is the basis; the title page prints no year, and the date used is that of the preface, dated ''Christmas Eve, 1877'' (line 236); the library catalogue''s date is 1878 (Princeton Theological Seminary Library, on the archive.org record)'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 878,896 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: miller-edward_history-and-doctrines-of-irvingism-v1_1878.txt
+  - title: 'Memoir of the Life of the Rev. Robert Story, late Minister of Rosneath, Dunbartonshire'
+    author: 'The author''s name is not legible in the OCR of the title page; the archive.org record names Robert Herbert Story'
+    year: '1862'
+    world: catholic-apostolic-church-irvingites
+    why: 'Wanted Sources, era 9 row 255, Mary Campbell and Margaret Macdonald: the Life of Mary Campbell''s minister.'
+    url: https://archive.org/details/memoirliferevro00storgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1862); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 792,914 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: story_memoir-of-the-life-of-the-rev-robert-story_1862.txt
+  - title: 'A Short Meditation on the Moral Glory of the Lord Jesus Christ; by J. G. B.'
+    author: 'J. G. B. (the archive.org record names John Gifford Bellett)'
+    year: '1865'
+    world: plymouth-brethren-and-dispensational-formation
+    why: 'Wanted Sources, era 9 row 260, J. G. Bellett: one of his own books (his memoir of the early circle was not found).'
+    url: https://archive.org/details/ashortmeditatio00bellgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1865); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 133,941 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: bellett_short-meditation-on-the-moral-glory-of-the-lord-jesus-christ_1865.txt

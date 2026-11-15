@@ -1,0 +1,22 @@
+source_file: ashwell_life-of-samuel-wilberforce-v1_1880.txt
+assignments:
+- row_id: ashwell_life-of-samuel-wilberforce-v1_1880--life-of-the-right-reverend-samuel-wilberforce-d-d-lord
+  work: Life of the Right Reverend Samuel Wilberforce, D.D., Lord Bishop of Oxford and afterwards of Winchester,
+    with
+  author: ashwell
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - victorian-church-of-england
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1880
+    end: 1880
+    source: 'the printing''s own title page: line 61, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1880
+    source: line 61, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 272, Samuel Wilberforce: a Life with his diaries and letters (vol. 1).'

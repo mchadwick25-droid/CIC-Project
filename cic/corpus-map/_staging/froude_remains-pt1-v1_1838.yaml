@@ -1,0 +1,21 @@
+source_file: froude_remains-pt1-v1_1838.txt
+assignments:
+- row_id: froude_remains-pt1-v1_1838--remains-of-the-late-reverend-richard-hurrell-froude-m-a
+  work: Remains of the late Reverend Richard Hurrell Froude, M.A., Fellow of Oriel College, Oxford; in two volumes,
+  author: froude
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - the-oxford-movement-and-anglo-catholic-revival
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1838
+    end: 1838
+    source: 'the printing''s own title page: line 49, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1838
+    source: line 49, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 267, Richard Hurrell Froude: his Remains (part 1, vol. 1).'

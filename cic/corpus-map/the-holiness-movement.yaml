@@ -3,6 +3,25 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-holiness-movement
 works:
+- row_id: mcdonald-searles_life-of-rev-john-s-inskip_1885--the-life-of-rev-john-s-inskip-president-of-the-national
+  work: The Life of Rev. John S. Inskip, President of the National Association for the Promotion
+    of Holiness
+  author: mcdonald-searles
+  locus: the whole volume; not mapped
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1885
+    end: 1885
+    source: the copyright notice at lines 74-76 ('in the year 1885, by McDonald & Gill')
+    formation_confidence: Documented
+  edition_date:
+    year: 1885
+    source: the copyright notice at lines 74-76 ('in the year 1885, by McDonald & Gill')
+    formation_confidence: Documented
+  note: 'Era 9 row 235, John S. Inskip: a Life told by others.'
+  source_file: mcdonald-searles_life-of-rev-john-s-inskip_1885.txt
 - row_id: palmer_way-of-holiness_1843--the-way-of-holiness-with-notes-by-the-way-being-a-narrative
   work: The Way of Holiness, with notes by the way; being a narrative of experience resulting
     from a determination to
@@ -22,6 +41,63 @@ works:
     formation_confidence: Documented
   note: 'Era 9 row 166, Phoebe Palmer: The Way of Holiness.'
   source_file: palmer_way-of-holiness_1843.txt
+- row_id: smith-amanda_autobiography-story-of-the-lords-dealings_1893--an-autobiography-the-story-of-the-lord-s-dealings-with-mrs
+  work: 'An Autobiography: the story of the Lord''s dealings with Mrs. Amanda Smith, the colored
+    evangelist; with an'
+  author: smith-amanda
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1893
+    end: 1893
+    source: 'the printing''s own title page: line 54, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1893
+    source: line 54, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 233, Amanda Berry Smith: her Autobiography.'
+  source_file: smith-amanda_autobiography-story-of-the-lords-dealings_1893.txt
+- row_id: smith-hannah-whitall_christians-secret-of-a-happy-life_rev-ed1888--the-christian-s-secret-of-a-happy-life-new-revised-and
+  work: The Christian's Secret of a Happy Life; new, revised and enlarged edition
+  author: smith-hannah-whitall
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1888
+    end: 1888
+    source: the copyright notice at line 145, which the OCR gives garbled with the year 1888
+      clear
+    formation_confidence: Documented
+  edition_date:
+    year: 1888
+    source: the copyright notice at line 145, which the OCR gives garbled with the year 1888
+      clear
+    formation_confidence: Documented
+  note: 'Era 9 row 234, Hannah Whitall Smith: The Christian''s Secret of a Happy Life.'
+  source_file: smith-hannah-whitall_christians-secret-of-a-happy-life_rev-ed1888.txt
+- row_id: smith-hannah-whitall_unselfishness-of-god_1903--the-unselfishness-of-god-and-how-i-discovered-it-a-spiritual
+  work: 'The Unselfishness of God and How I Discovered It: a spiritual autobiography'
+  author: smith-hannah-whitall
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1903
+    end: 1903
+    source: the copyright notice at lines 69-70 ('Copyright, 1903, by Fleming H. Revell Company')
+    formation_confidence: Documented
+  edition_date:
+    year: 1903
+    source: the copyright notice at lines 69-70 ('Copyright, 1903, by Fleming H. Revell Company')
+    formation_confidence: Documented
+  note: 'Era 9 row 234, Hannah Whitall Smith: her spiritual autobiography.'
+  source_file: smith-hannah-whitall_unselfishness-of-god_1903.txt
 - row_id: wheatley_life-and-letters-of-mrs-phoebe-palmer_1876--the-life-and-letters-of-mrs-phoebe-palmer-by-rev-richard
   work: The Life and Letters of Mrs. Phoebe Palmer, by Rev. Richard Wheatley
   author: wheatley

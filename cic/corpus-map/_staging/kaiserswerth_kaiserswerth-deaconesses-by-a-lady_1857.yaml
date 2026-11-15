@@ -1,0 +1,22 @@
+source_file: kaiserswerth_kaiserswerth-deaconesses-by-a-lady_1857.txt
+assignments:
+- row_id: kaiserswerth_kaiserswerth-deaconesses-by-a-lady_1857--kaiserswerth-deaconesses-including-a-history-of-the
+  work: Kaiserswerth Deaconesses; including a history of the institution, the ordination service and questions for
+  author: kaiserswerth
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - the-reveil-and-inner-mission-awakening
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1857
+    end: 1857
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n5 (the title page prints MDCCCLVII;
+      the OCR does not give it)'
+    formation_confidence: Documented
+  edition_date:
+    year: 1857
+    source: read on the scan's page image, leaf n5 (the title page prints MDCCCLVII; the OCR does not give it)
+    formation_confidence: Documented
+  note: 'Era 9 row 223, Theodor Fliedner: an English account of Kaiserswerth by a lady.'
