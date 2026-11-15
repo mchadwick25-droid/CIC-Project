@@ -1,12 +1,12 @@
 {
   "name": "Anskar",
   "otherNames": [
-    "Ansgar, the form of Olavus Petri; Ansgarius, of Adam of Bremen's Latin",
+    "Ansgar, the modern Swedish form; Ansgarius, of Adam of Bremen's Latin and Olavus Petri's Swedish",
     "Anscharius, the form of his own letter in Mansi's Latin",
     "Apostle of the North, C. H. Robinson's title for him"
   ],
   "knownFor": "A monk of Corbie who went to the Danes with King Harald in 826 and twice to the Swedes at Birka. As archbishop of Hamburg, and then of Hamburg and Bremen together, he won leave from the Danish king Horic to build a church at Schleswig.",
-  "dates": "Born about 801, by C. H. Robinson's count back from the Life's \"sixty-fourth year of his age\"; Robinson says the true date of his birth is unknown. Died 3 February 865, by Adam of Bremen and the Annals of Corvey; the Life gives no year or day, as Georg Waitz notes. The Danish mission began in 826. Waitz and Robinson date the sack of Hamburg to 845",
+  "dates": "Born in 801, C. H. Robinson says; the Life puts his last illness in his sixty-fourth year. Robinson adds that the day of his birth is unknown: 8 September, sometimes given, was the day his body was moved at Bremen. Died 3 February 865, by Adam of Bremen and the Annals of Corvey; the Life gives no year or day, as Georg Waitz notes. The Danish mission began in 826. Robinson and Waitz date the sack of Hamburg to 845",
   "place": "Corbie, near Amiens, his monastery; New Corbey; Denmark, with Harald, and Schleswig; Birka, in Sweden; Hamburg, his see, then Bremen, where Adam of Bremen says he was buried in Saint Peter's church",
   "tradition": "Scandinavian Conversion Christianity",
   "role": "Monk and missionary; archbishop of Hamburg, then of Hamburg and Bremen",
@@ -27,25 +27,25 @@
   ],
   "legacy": {
     "traces": [
-      "The Life says the pope's decree made Hamburg and Bremen one diocese, not two.",
+      "The papal decree in the Life rules that Hamburg and Bremen \"shall henceforth be called not two dioceses but one diocese\".",
       "Rimbert, his disciple, followed him as archbishop and wrote his Life.",
-      "Robinson quotes Adam of Bremen that some small part of the Christianity Anskar planted remained, though the Corvey chronicle for 936 says it was well nigh extinct."
+      "Robinson quotes the Corvey chronicle for 936, that the faith Anskar and his helpers preached in Sweden was well nigh extinct, and Adam of Bremen, that among the Danes some small part of it remained."
     ],
     "remembered": [
-      "Adam of Bremen, writing about 1073, calls him an apostle outside and a monk within.",
-      "In the Swedish debate of the 1520s, both Paulus Helie and Olavus Petri claimed the faith that Ansgar preached.",
-      "Robinson writes that his claim to be the Apostle of the North rests on his example, not on the outcome of his work."
+      "Adam of Bremen, writing in the 1070s, calls him an apostle outside and a monk within.",
+      "In the Swedish debate of 1527 and 1528, the Danish Carmelite Paulus Helie said the Swedes had left the faith Ansgar preached, and Olavus Petri answered that they kept it.",
+      "Robinson writes that the title Apostle of the North, given him early, rests on \"the inspiring example which he bequeathed to those who were moved to follow in his steps\"."
     ]
   },
   "uncertain": [
     "Who wrote the Life. Waitz says the Life of Rimbert and Adam of Bremen both name Rimbert, and that the Life of Rimbert adds that a fellow disciple helped him. Waitz sees no reason to doubt it.",
-    "The year of the sack of Hamburg. Waitz, Bernhard Schmeidler, Steinberg and Robinson give 845. Adam of Bremen puts it in the last year of Louis the Pious, 839 or 840.",
+    "The year of the sack of Hamburg. Waitz, Bernhard Schmeidler and Sigfrid Steinberg give 845, and C. H. Robinson thinks it probably correct. Adam of Bremen, as he says others tell it, puts it in the last year of Louis the Pious, 839 or 840. The Annals of Saint-Bertin say the Northmen took a city of the Slavs in 845, which Waitz thinks was Hamburg.",
     "The year the see of Hamburg was founded. Adam gives 832; Dehio, in a note in Waitz's edition, prefers 831; the emperor's charter dated 834 is, the same note says, certainly interpolated.",
     "The founding documents. Schmeidler calls the charter of Louis the German and the privilege of Pope Nicholas I forgeries of the early eleventh century, after Curschmann.",
     "When Hamburg and Bremen were joined. The editors give dates from 847 to 864: Dahlmann 847 and 857, Waitz 848, Dehio 860, the headnotes in Mansi 849 or 850 and 863 or 864. Adam says only that it came in Anskar's last years.",
     "Where Harald was baptized. The Royal Frankish Annals say at Mainz, in Saint Alban's; Robinson quotes Theganus for the palace at Ingelheim.",
     "The year of the second Swedish journey. Robinson gives 853 in his introduction and probably 852 in a note.",
-    "His healings. The Life says they could not be counted. Robinson says Anskar never claimed the power himself."
+    "His healings. The Life says they could not be counted. Robinson says Anskar never claimed the power himself. Robinson also notes it is uncertain whether Anskar's words about being made a good man deny that miracles were done through him."
   ],
   "sources": {
     "ownWords": [
