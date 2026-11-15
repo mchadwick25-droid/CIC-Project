@@ -26184,3 +26184,273 @@ queue:
     verified_by: 'Library thread, eras 4-5 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 233,630 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: hadewijch_werken-1-gedichten-dum_heremans-ledeganck1875.txt
+  - title: 'Velikie Minei Chetii, sobrannye vserossiiskim mitropolitom Makariem: Sentiabr, dni 1-13 (Pamiatniki slaviano-russkoi pismennosti, izdannye Arkheograficheskoiu kommissieiu)'
+    author: 'Macarius of Moscow (compiler); Archaeographic Commission (ed.)'
+    year: '1868'
+    world: muscovite-monastic-christianity
+    why: 'Wanted Sources, era 6 row 99: Joseph of Volotsk, his monastic rule and an early Life.'
+    url: https://archive.org/details/velikiemineichetiisobrannyevserossijski38
+    rights_basis: 'Public Domain (pd-us-by-date: published 1868); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 6 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 2,414,771 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: macarius-metropolitan_velikie-minei-chetii-september-1-13-chu_arkheograficheskaia-kommissiia1868.txt
+  - title: 'Akty istoricheskie, sobrannye i izdannye Arkheograficheskoiu kommissieiu; tom pervyi, 1334-1598'
+    author: 'Archaeographic Commission (ed.)'
+    year: '1841'
+    world: muscovite-monastic-christianity
+    why: 'Wanted Sources, era 6 row 110: Kirill of Beloozero (his own letters). Open-Gaps 271, not held: a Russian text of the time on the rejection of Florence.'
+    url: https://archive.org/details/aktyistoricheskiesobrannyeiizdannyearhe1
+    rights_basis: 'Public Domain (pd-us-by-date: published 1841); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 6 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 3,506,399 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: akty-istoricheskie_t1-1334-1598-rus_arkheograficheskaia-kommissiia1841.txt
+  - title: 'Werke des Patriarchen von Bulgarien Euthymius (1375-1393), nach den besten Handschriften herausgegeben von Emil Kaluzniacki'
+    author: 'Euthymius of Tarnovo; Emil Kaluzniacki (ed.)'
+    year: '1901'
+    world: serbian-and-bulgarian-medieval-monasticism
+    why: 'Wanted Sources, era 6 row 107: Euthymius of Tarnovo, his own Life of Hilarion of Moglena.'
+    url: https://archive.org/details/werkedespatriar00kagoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1901); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 6 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,841,128 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: euthymius-tarnovo_werke-des-patriarchen-von-bulgarien-chu-deu_kaluzniacki1901.txt
+  - title: 'Sacrorum conciliorum nova et amplissima collectio, tomus vigesimus nonus, ab anno 1431 usque ad annum 1434 (Welter''s facsimile of the Venice edition)'
+    author: 'G. D. Mansi (ed.)'
+    year: '1904'
+    world: latin-papal-church-avignon-to-lateran-v
+    why: 'Open-Gaps 271, not held: Basel''s session acts (Mansi tomi 29 and 30).'
+    url: https://archive.org/details/sacrorumconcilio0029vari
+    rights_basis: 'Public Domain (pd-us-by-date: published 1904); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 6 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 4,306,591 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: mansi_sacrorum-conciliorum-collectio-tomus-29-1431-1434-lat_welter-facsimile1904.txt
+  - title: 'Sacrorum conciliorum nova et amplissima collectio, tomus trigesimus, ab anno 1431 usque ad annum 1439 (Welter''s facsimile of the Venice edition)'
+    author: 'G. D. Mansi (ed.)'
+    year: '1904'
+    world: latin-papal-church-avignon-to-lateran-v
+    why: 'Open-Gaps 271, not held: Basel''s session acts (Mansi tomi 29 and 30).'
+    url: https://archive.org/details/sacrorumconcilio0030joan
+    rights_basis: 'Public Domain (pd-us-by-date: published 1904); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 6 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 4,004,171 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: mansi_sacrorum-conciliorum-collectio-tomus-30-1431-1439-lat_welter-facsimile1904.txt
+  - title: 'Voyages d''Ibn Batoutah, texte arabe, accompagne d''une traduction par C. Defremery et le Dr B. R. Sanguinetti; tome premier (Societe asiatique, Collection d''ouvrages orientaux)'
+    author: 'Ibn Battuta; C. Defremery and B. R. Sanguinetti (eds.)'
+    year: '1853'
+    world: byzantine-church-palaiologan
+    why: 'Wanted Sources, outside-witness row 6, era 6: Ibn Battuta in his own text.'
+    url: https://archive.org/details/voyagesdibnbato02sanggoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1853); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 6 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 778,666 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: ibn-battuta_voyages-v1-ara-fra_defremery-sanguinetti1853.txt
+  - title: 'Voyages d''Ibn Batoutah, texte arabe, accompagne d''une traduction par C. Defremery et le Dr B. R. Sanguinetti; tome second (Societe asiatique, Collection d''ouvrages orientaux)'
+    author: 'Ibn Battuta; C. Defremery and B. R. Sanguinetti (eds.)'
+    year: '1854'
+    world: byzantine-church-palaiologan
+    why: 'Wanted Sources, outside-witness row 6, era 6: Ibn Battuta in his own text.'
+    url: https://archive.org/details/bub_gb_B6awYb6ve8IC
+    rights_basis: 'Public Domain (pd-us-by-date: published 1854); the archive.org record carries the Public Domain Mark (licenseurl creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, era 6 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 845,022 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: ibn-battuta_voyages-v2-ara-fra_defremery-sanguinetti1854.txt
+  - title: 'Voyages d''Ibn Batoutah, texte arabe, accompagne d''une traduction par C. Defremery et le Dr B. R. Sanguinetti; tome troisieme (Societe asiatique, Collection d''ouvrages orientaux)'
+    author: 'Ibn Battuta; C. Defremery and B. R. Sanguinetti (eds.)'
+    year: '1855'
+    world: byzantine-church-palaiologan
+    why: 'Wanted Sources, outside-witness row 6, era 6: Ibn Battuta in his own text.'
+    url: https://archive.org/details/bub_gb_PMdNacqUOxEC
+    rights_basis: 'Public Domain (pd-us-by-date: published 1855); the archive.org record carries the Public Domain Mark (licenseurl creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, era 6 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 996,887 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: ibn-battuta_voyages-v3-ara-fra_defremery-sanguinetti1855.txt
+  - title: 'Voyages d''Ibn Batoutah, texte arabe, accompagne d''une traduction par C. Defremery et le Dr B. R. Sanguinetti; tome quatrieme (Societe asiatique, Collection d''ouvrages orientaux)'
+    author: 'Ibn Battuta; C. Defremery and B. R. Sanguinetti (eds.)'
+    year: '1858'
+    world: byzantine-church-palaiologan
+    why: 'Wanted Sources, outside-witness row 6, era 6: Ibn Battuta in his own text.'
+    url: https://archive.org/details/bub_gb_Jc58NhYL6oMC
+    rights_basis: 'Public Domain (pd-us-by-date: published 1858); the archive.org record carries the Public Domain Mark (licenseurl creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, era 6 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 829,367 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: ibn-battuta_voyages-v4-ara-fra_defremery-sanguinetti1858.txt
+  - title: 'Les Prolegomenes d''Ibn Khaldoun, traduits en francais et commentes par M. de Slane; premiere partie (extrait des Notices et extraits des manuscrits, tome XIX)'
+    author: 'Ibn Khaldun; de Slane (trans.)'
+    year: '1863'
+    world: coptic-christianity-fatimid-to-mamluk
+    why: 'Wanted Sources, outside-witness row 7, era 6: Ibn Khaldun in his own text.'
+    url: https://archive.org/details/lesprolgomne01abdauoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1863); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 6 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,611,681 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: ibn-khaldun_prolegomenes-pt1-fra_de-slane1863.txt
+  - title: 'Les Prolegomenes d''Ibn Khaldoun, traduits en francais et commentes par M. de Slane; deuxieme partie (extrait des Notices et extraits des manuscrits, tome XX)'
+    author: 'Ibn Khaldun; de Slane (trans.)'
+    year: '1865'
+    world: coptic-christianity-fatimid-to-mamluk
+    why: 'Wanted Sources, outside-witness row 7, era 6: Ibn Khaldun in his own text.'
+    url: https://archive.org/details/lesprolgomne02abdauoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1865); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 6 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,341,117 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: ibn-khaldun_prolegomenes-pt2-fra_de-slane1865.txt
+  - title: 'Les Prolegomenes d''Ibn Khaldoun, traduits en francais et commentes par M. de Slane; troisieme partie (extrait des Notices et extraits des manuscrits, tome XXI)'
+    author: 'Ibn Khaldun; de Slane (trans.)'
+    year: '1868'
+    world: coptic-christianity-fatimid-to-mamluk
+    why: 'Wanted Sources, outside-witness row 7, era 6: Ibn Khaldun in his own text.'
+    url: https://archive.org/details/lesprolgomne03abdauoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1868); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 6 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,650,639 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: ibn-khaldun_prolegomenes-pt3-fra_de-slane1868.txt
+  - title: 'Histoire des Berberes et des dynasties musulmanes de l''Afrique septentrionale, par Ibn-Khaldoun; traduite de l''arabe par M. le baron de Slane; tome premier'
+    author: 'Ibn Khaldun; de Slane (trans.)'
+    year: '1852'
+    world: coptic-christianity-fatimid-to-mamluk
+    why: 'Wanted Sources, outside-witness row 7, era 6: Ibn Khaldun in his own text.'
+    url: https://archive.org/details/histoiredesberbe01ibnk_0
+    rights_basis: 'Public Domain (pd-us-by-date: published 1852); the archive.org record carries no rights field, so the imprint date is the basis; the host dates all four volumes 1852'
+    verified_by: 'Library thread, era 6 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,506,590 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: ibn-khaldun_histoire-des-berberes-v1-fra_de-slane1852.txt
+  - title: 'Histoire des Berberes et des dynasties musulmanes de l''Afrique septentrionale, par Ibn-Khaldoun; traduite de l''arabe par M. le baron de Slane; tome deuxieme'
+    author: 'Ibn Khaldun; de Slane (trans.)'
+    year: '1854'
+    world: coptic-christianity-fatimid-to-mamluk
+    why: 'Wanted Sources, outside-witness row 7, era 6: Ibn Khaldun in his own text.'
+    url: https://archive.org/details/histoiredesberbe02ibnk_0
+    rights_basis: 'Public Domain (pd-us-by-date: published 1854); the archive.org record carries no rights field, so the imprint date is the basis; the host dates all four volumes 1852'
+    verified_by: 'Library thread, era 6 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,583,926 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: ibn-khaldun_histoire-des-berberes-v2-fra_de-slane1854.txt
+  - title: 'Histoire des Berberes et des dynasties musulmanes de l''Afrique septentrionale, par Ibn-Khaldoun; traduite de l''arabe par M. le baron de Slane; tome troisieme'
+    author: 'Ibn Khaldun; de Slane (trans.)'
+    year: '1856'
+    world: coptic-christianity-fatimid-to-mamluk
+    why: 'Wanted Sources, outside-witness row 7, era 6: Ibn Khaldun in his own text.'
+    url: https://archive.org/details/histoiredesberbe03ibnk
+    rights_basis: 'Public Domain (pd-us-by-date: published 1856); the archive.org record carries no rights field, so the imprint date is the basis; the host dates all four volumes 1852'
+    verified_by: 'Library thread, era 6 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,293,373 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: ibn-khaldun_histoire-des-berberes-v3-fra_de-slane1856.txt
+  - title: 'Histoire des Berberes et des dynasties musulmanes de l''Afrique septentrionale, par Ibn-Khaldoun; traduite de l''arabe par M. le baron de Slane; tome quatrieme'
+    author: 'Ibn Khaldun; de Slane (trans.)'
+    year: '1856'
+    world: coptic-christianity-fatimid-to-mamluk
+    why: 'Wanted Sources, outside-witness row 7, era 6: Ibn Khaldun in his own text.'
+    url: https://archive.org/details/histoiredesberbe04ibnk
+    rights_basis: 'Public Domain (pd-us-by-date: published 1856); the archive.org record carries no rights field, so the imprint date is the basis; the host dates all four volumes 1852'
+    verified_by: 'Library thread, era 6 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,448,352 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: ibn-khaldun_histoire-des-berberes-v4-fra_de-slane1856.txt
+  - title: 'Die Geographie und Verwaltung von Agypten, nach dem Arabischen des Abul-Abbas Ahmed ben Ali el-Calcaschandi, von F. Wustenfeld (aus dem 25. Bande der Abhandlungen der Koniglichen Gesellschaft der Wissenschaften zu Gottingen)'
+    author: 'al-Qalqashandi; F. Wustenfeld (trans.)'
+    year: '1879'
+    world: coptic-christianity-fatimid-to-mamluk
+    why: 'Wanted Sources, outside-witness row 9, era 6: al-Qalqashandi in his own text.'
+    url: https://archive.org/details/diegeographieun00wsgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1879); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 6 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 499,843 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: qalqashandi_geographie-und-verwaltung-von-aegypten-deu_wuestenfeld1879.txt
+  - title: 'La Syrie a l''epoque des Mamelouks d''apres les auteurs arabes: description geographique, economique et administrative, precedee d''une introduction sur l''organisation gouvernementale, par Gaudefroy-Demombynes'
+    author: 'al-Qalqashandi; Gaudefroy-Demombynes (trans.)'
+    year: '1923'
+    world: coptic-christianity-fatimid-to-mamluk
+    why: 'Wanted Sources, outside-witness row 9, era 6: al-Qalqashandi in his own text.'
+    url: https://archive.org/details/lasyrielpoquedes0000gaud
+    rights_basis: 'Public Domain (pd-us-by-date: published 1923); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 6 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,209,941 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: qalqashandi_la-syrie-a-l-epoque-des-mamelouks-fra_gaudefroy-demombynes1923.txt
+  - title: 'Magnum oecumenicum Constantiense concilium, tomus III: Rerum concilii Constantiensis de religionis et fidei momentis'
+    author: 'Hermann von der Hardt (ed.)'
+    year: '1698'
+    world: the-hussite-and-bohemian-brethren-movement
+    why: 'Wanted Sources, era 6 row 100: Jakoubek of Stribro, his tracts on the chalice.'
+    url: https://archive.org/details/bub_gb_kOb4sUbDZ70C
+    rights_basis: 'Public Domain (pd-us-by-date: published 1698); the archive.org record carries the Public Domain Mark (licenseurl creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, era 6 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 2,224,282 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: hardt_magnum-oecumenicum-constantiense-concilium-t3-lat_1698.txt
+  - title: 'Analecta Bollandiana, tomus IV, ediderunt Carolus de Smedt, Gulielmus van Hooff et Josephus de Backer'
+    author: 'Henricus Pomerius; the Bollandists (eds.)'
+    year: '1885'
+    world: devotio-moderna-brethren-of-the-common-life
+    why: 'Wanted Sources, era 6 row 104: Henry Pomerius, De origine monasterii Viridisvallis, with the Life of Ruusbroec.'
+    url: https://archive.org/details/AnalectaBollandiana1885
+    rights_basis: 'Public Domain (pd-us-by-date: published 1885); the archive.org record carries the Public Domain Mark (licenseurl creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, era 6 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,001,721 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: pomerius_de-origine-monasterii-viridisvallis-in-analecta-bollandiana-4-lat_1885.txt
+  - title: 'Acta Sanctorum Octobris, tomus X, quo dies vigesimus tertius et quartus continentur'
+    author: 'The Bollandists (eds.)'
+    year: '1861'
+    world: observant-reform-and-popular-preaching
+    why: 'Wanted Sources, era 6 row 106: John of Capistrano, the eyewitness Life by Nicholas of Fara.'
+    url: https://archive.org/details/actasanctorumquo0058unse_j9h6
+    rights_basis: 'Public Domain (pd-us-by-date: published 1861); the archive.org record carries no rights field, so the imprint date is the basis; the host record names Palme, Paris, 1863, which is not what the title page says'
+    verified_by: 'Library thread, era 6 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 6,610,485 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: acta-sanctorum_octobris-tomus-10-lat_bruxelles1861.txt
+  - title: 'The Psalter, or Psalms of David and certain canticles, with a translation and exposition in English by Richard Rolle of Hampole; edited from manuscripts by the Rev. H. R. Bramley'
+    author: 'Richard Rolle; H. R. Bramley (ed.)'
+    year: '1884'
+    world: the-english-mystics-and-devout
+    why: 'Open-Gaps 264, Library wanted: Rolle''s English Psalter commentary.'
+    url: https://archive.org/details/psalterorpsalmso00roll
+    rights_basis: 'Public Domain (pd-us-by-date: published 1884); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 6 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,713,274 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: rolle_psalter-or-psalms-of-david-and-certain-canticles-enm-lat_bramley1884.txt
+  - title: 'Ausgewahlte Predigten Johann Taulers, herausgegeben von Leopold Naumann (in the series edited by Hans Lietzmann)'
+    author: 'Johannes Tauler; L. Naumann (ed.)'
+    year: '1914'
+    world: rhineland-mysticism-and-the-friends-of-god
+    why: 'Open-Gaps 264, Library wanted: Tauler''s Middle High German sermons.'
+    url: https://archive.org/details/ausgewhltepredig0000taul
+    rights_basis: 'Public Domain (pd-us-by-date: published 1914); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 6 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 170,169 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: tauler_ausgewaehlte-predigten-gmh_naumann1914.txt
+  - title: 'Acta Sanctorum quotquot toto orbe coluntur; Maii tomus quintus, quo continentur dies XX, XXI, XXII, XXIII et XXIV (Palme''s reprint, curante Joanne Carnandet)'
+    author: 'The Bollandists (eds.)'
+    year: '1866'
+    world: observant-reform-and-popular-preaching
+    why: 'Open-Gaps 267, Library wanted: Maffeo Vegio''s Life of Bernardino.'
+    url: https://archive.org/details/actasanctorum18unse
+    rights_basis: 'Public Domain (pd-us-by-date: published 1866); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 6 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 5,547,273 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: acta-sanctorum_maii-tomus-5-lat_palme1866.txt
+  - title: 'Revelationum S. Brigittae libri tres posteriores, a Consalvo Duranto episcopo Feretrano novis notationibus variisque lectionibus locupletati; una cum Regula S. Salvatoris, Sermone angelico et quatuor orationibus; tomus II'
+    author: 'Birgitta of Sweden; Consalvo Duranti (ed.)'
+    year: '1628'
+    world: latin-papal-church-avignon-to-lateran-v
+    why: 'Open-Gaps 267, Library wanted: Books VI to VIII of Bridget''s Revelations.'
+    url: https://archive.org/details/bub_gb_2_8rGlQ7NJkC
+    rights_basis: 'Public Domain (pd-us-by-date: published 1628); the archive.org record carries the Public Domain Mark (licenseurl creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, era 6 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 2,859,213 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: birgitta_revelationes-libri-vi-viii-tomus-2-lat_duranti1628.txt
+  - title: 'Scriptores rerum Suecicarum medii aevi, edidit et illustravit Claudius Annerstedt; tomus III'
+    author: 'Master Peter and Prior Peter, confessors of Birgitta; C. Annerstedt (ed.)'
+    year: '1876'
+    world: latin-papal-church-avignon-to-lateran-v
+    why: 'Open-Gaps 267, Library wanted: Bridget''s Life by her confessors.'
+    url: https://archive.org/details/scriptoresrerumsuecicarummediiaevi3
+    rights_basis: 'Public Domain (pd-us-by-date: published 1876); the archive.org record carries the Public Domain Mark (licenseurl creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, era 6 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 3,368,390 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: birgitta_vita-auctoribus-petro-et-petro-in-scriptores-rerum-suecicarum-3-lat_annerstedt1876.txt
+  - title: 'The De sacramento altaris of William of Ockham; edited by T. Bruce Birch; Latin text and English translation'
+    author: 'William of Ockham; T. Bruce Birch (ed.)'
+    year: '1930'
+    world: franciscan-order-era-6
+    why: 'Open-Gaps 267, Library wanted: Ockham''s philosophical works.'
+    url: https://archive.org/details/desacramentoalta00ockh
+    rights_basis: 'Public Domain (pd-us-by-date: published 1930); the archive.org record carries no rights field, so the imprint date is the basis; 1930 is the last year the date rule admits'
+    verified_by: 'Library thread, era 6 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 976,492 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: ockham_de-sacramento-altaris-lat-eng_birch1930.txt

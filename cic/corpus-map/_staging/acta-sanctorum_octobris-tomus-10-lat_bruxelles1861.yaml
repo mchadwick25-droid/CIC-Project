@@ -1,0 +1,11 @@
+source_file: acta-sanctorum_octobris-tomus-10-lat_bruxelles1861.txt
+assignments:
+- row_id: acta-sanctorum_octobris-tomus-10-lat_bruxelles1861--nicholas-of-fara-life-of-john-of-capistrano-acta-sanctorum-october-x
+  work: 'Nicholas of Fara, Life of John of Capistrano (Acta Sanctorum, October X)'
+  author: acta-sanctorum
+  locus: 'OCR lines 86853-95735; add 12 to OCR line numbers'
+  atlas_ids:
+  - observant-reform-and-popular-preaching
+  role: tradition
+  confidence: provisional
+  note: 'A companion''s Life, the Observant friars'' own account of him. Two more early Lives follow it in the volume.'

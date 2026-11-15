@@ -444,36 +444,73 @@ public-domain notice for that title recorded in the search log.
 
 **Not taken.** Every duplicate, garbled or secondary scan is listed in the search log.
 
-## Era 6 (1300-1517): the Who scan's wanted sources, queued
+## Era 6 (1300-1517), filled (2026-11-15): the Who scan's wanted sources and the wants the Who and council batches added
 
-The era 6 rows of `Build/Ministry/Operations/Audits/2026-11-12_wanted-sources-combined/Wanted_Sources.md`: person
-rows 99-112 (14 sources, 4 major) and the outside-witness rows 5-9. Mark, 2026-11-14: "add to the wanted list from
-other eras we will do a full wanted fill in after we get what in process done". The Library stays on hold until then,
-so every row is **queued** and none has been searched. Era 6 builds its held rows only. The named editions are the
-audits' and many were written from memory ("[suggested; to confirm]" in the audit); confirm each before acquiring.
-The two era 6 council records in the same file are not listed here: Mark lifted era 6 councils for a separate worker.
+Twenty-seven files. The wants are the era 6 rows of
+`Build/Ministry/Operations/Audits/2026-11-12_wanted-sources-combined/Wanted_Sources.md` (person rows 99-112 and
+outside-witness rows 5-9) and the Library wants of Open-Gaps 264, 267 and 271. The search record is
+`Build/Ministry/Operations/Audits/2026-11-15_library-era6/Search_Log.md`. Every file has a printed imprint of 1930
+or earlier, read on its title page or, for ten volumes, on the scan's page image. Three wants were held already.
 
-| want (Wanted Sources row) | person | named source (the audit's) | state | would move to |
-|---|---|---|---|---|
-| era 6 row 99 | Joseph of Volotsk (Joseph of Volokolamsk), major | his Monastic Rule or the Prosvetitel (Enlightener); a Life by Savva Chernyi | queued | WHO |
-| era 6 row 100 | Jakoubek of Stříbro (Jacobellus de Misa), major | his tracts on the chalice (edition to be named by the Library thread) | queued | WHO |
-| era 6 row 101 | Zara Yaqob (emperor, r. 1434-1468), major | the Mashafa Berhan and Mashafa Milad; the chronicle of his reign in a usable translation (Perruchon 1893, named in the census) | queued | STORY |
-| era 6 row 102 | Ewostatewos, major | the Gadla Ewostatewos (the edition the audit suggests is doubtful; the era 6 scan names Turaev's Acta S. Eustathii, 1905, from memory, to confirm) | queued | WHO |
-| era 6 row 103 | Margery Kempe | the Book of Margery Kempe in a public-domain text (the audit names the EETS text, 1940, to confirm) | queued | STORY |
-| era 6 row 104 | Henry Pomerius | De origine monasterii Viridisvallis, with the Life of Ruusbroec, in Analecta Bollandiana 4 (1885) | queued | WHO (recorder) |
-| era 6 row 105 | Raymond of Capua | his Legenda maior of Catherine of Siena (Acta Sanctorum, April III) | queued | WHO (recorder) |
-| era 6 row 106 | John of Capistrano | the eyewitness Life by Nicholas of Fara (Acta Sanctorum, October X) | queued | WHO |
-| era 6 row 107 | Euthymius of Tarnovo | Gregory Tsamblak's Praise of Euthymius; his own Life of Hilarion of Moglena | queued | WHO |
-| era 6 row 108 | Teodosij of Trnovo | the Life by the patriarch Kallistos | queued | WHO |
-| era 6 row 109 | Stephen of Perm | the Life by Epiphanius the Wise | queued | WHO |
-| era 6 row 110 | Kirill of Beloozero | the Life by Pachomius the Logothete | queued | WHO |
-| era 6 row 111 | Zosima and Savvatii of Solovki (one paired row) | their Lives; the Solovki chronicles | queued | WHO |
-| era 6 row 112 | Estifanos of Gwendagwende | the Ge'ez Acts of Abba Estifanos (the audit names Getatchew Haile's CSCO edition of 2006, in copyright; a public-domain text is wanted) | queued | STORY |
-| outside-witness row 5 | Rashid al-Din | the full history (only a geography excerpt is held) | queued | WHO (OUTSIDE WITNESS) |
-| outside-witness row 6 | Ibn Battuta | his travels in his own text | queued | WHO (OUTSIDE WITNESS) |
-| outside-witness row 7 | Ibn Khaldun | his history in his own text | queued | WHO (OUTSIDE WITNESS) |
-| outside-witness row 8 | Abu'l-Fida | his history in his own text | queued | WHO (OUTSIDE WITNESS) |
-| outside-witness row 9 | al-Qalqashandi | his work in his own text | queued | WHO (OUTSIDE WITNESS) |
+| want | state | file(s), with the imprint year | shelf |
+|---|---|---|---|
+| era 6 row 99, Joseph of Volotsk (major): his monastic rule and an early Life | filled | `macarius-metropolitan_velikie-minei-chetii-september-1-13-chu_arkheograficheskaia-kommissiia1868.txt` (1868) | muscovite-monastic-christianity, tradition |
+| era 6 row 99, Joseph of Volotsk: the Prosvetitel; Nevostruev's Life | not found | — | Not on archive.org under eight title and author queries. |
+| era 6 row 100, Jakoubek of Stříbro (major): a tract of his own on the chalice | filled | `hardt_magnum-oecumenicum-constantiense-concilium-t3-lat_1698.txt` (1698) | the-hussite-and-bohemian-brethren-movement, tradition; latin-papal-church-avignon-to-lateran-v, context |
+| era 6 row 101, Zara Yaqob (major): the chronicle of his reign in a usable translation | held already | `zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893.txt` | A running French translation stands beneath the Ge'ez, from about file line 2922. The file's header said there was none; corrected. |
+| era 6 row 101, Zara Yaqob: the Mashafa Berhan and Mashafa Milad | not found | — | Dillmann (1884) is not on archive.org; the editions are of the 1960s. |
+| era 6 row 102, Ewostatewos (major): the Gadla Ewostatewos | not found | — | Turaev (1905, 1906) is not on archive.org; the Latin of 1955 is out by date. |
+| era 6 row 103, Margery Kempe: the short treatise printed about 1501 | held already | `cell-of-self-knowledge_seven-early-english-mystical-treatises_gardner1910.txt` | The only part of her Book printed by 1930. |
+| era 6 row 103, Margery Kempe: the Book itself | none before 1931 | — | First printed 1936 and 1940. |
+| era 6 row 104, Henry Pomerius: De origine monasterii Viridisvallis, with the Life of Ruusbroec | filled | `pomerius_de-origine-monasterii-viridisvallis-in-analecta-bollandiana-4-lat_1885.txt` (1885) | devotio-moderna-brethren-of-the-common-life, rhineland-mysticism-and-the-friends-of-god, tradition |
+| era 6 row 105, Raymond of Capua: his Life of Catherine of Siena | filled (eras 4-5 batch) | `acta-sanctorum_aprilis-tomus-3-lat_palme1866.txt` (1866) | latin-papal-church-avignon-to-lateran-v, tradition (needs-ruling) |
+| era 6 row 106, John of Capistrano: the Life by Nicholas of Fara | filled | `acta-sanctorum_octobris-tomus-10-lat_bruxelles1861.txt` (1861) | observant-reform-and-popular-preaching, tradition |
+| era 6 row 107, Euthymius of Tarnovo: his own Life of Hilarion of Moglena | filled | `euthymius-tarnovo_werke-des-patriarchen-von-bulgarien-chu-deu_kaluzniacki1901.txt` (1901) | serbian-and-bulgarian-medieval-monasticism, tradition (needs-ruling) |
+| era 6 row 107, Euthymius of Tarnovo: Gregory Tsamblak's Praise | held for Mark | — | The only scan is the Variorum reprint of 1971 of Kałużniacki's 1901 edition. |
+| era 6 row 108, Teodosij of Trnovo: the Life by Kallistos | not found | — | Zlatarski (1904) and Bodianskii (1860) are not on archive.org. |
+| era 6 row 109, Stephen of Perm: the Life by Epiphanius the Wise | not found | — | Druzhinin (1897) and Kushelev-Bezborodko (1862) are not on archive.org; two retellings of 1896 not taken. |
+| era 6 row 110, Kirill of Beloozero: his own letters and testament | filled | `akty-istoricheskie_t1-1334-1598-rus_arkheograficheskaia-kommissiia1841.txt` (1841) | muscovite-monastic-christianity, tradition |
+| era 6 row 110, Kirill of Beloozero: the Life by Pachomius | not found | — | Yablonskii (1908) and Nikolskii are not on archive.org. |
+| era 6 row 111, Zosima and Savvatii of Solovki: their Lives | not found | — | Only a retelling of 1897 and descriptions of the monastery; not taken. |
+| era 6 row 112, Estifanos of Gwendagwende: his Acts | none found before 1931 | — | The court's account of the revolt is in the held Perruchon volume, at about file line 6720. |
+| outside-witness row 5, Rashid al-Din | not found | — | Quatremère (1836) is not on archive.org; the Persian scans cannot be read. |
+| outside-witness row 6, Ibn Battuta: the Travels in Arabic with French | filled | `ibn-battuta_voyages-v1-ara-fra_defremery-sanguinetti1853.txt` (1853) | byzantine-church-palaiologan, st-thomas-christians-1300-1517, context (needs-ruling) |
+| outside-witness row 6, Ibn Battuta: the Travels in Arabic with French | filled | `ibn-battuta_voyages-v2-ara-fra_defremery-sanguinetti1854.txt` (1854) | byzantine-church-palaiologan, st-thomas-christians-1300-1517, context (needs-ruling) |
+| outside-witness row 6, Ibn Battuta: the Travels in Arabic with French | filled | `ibn-battuta_voyages-v3-ara-fra_defremery-sanguinetti1855.txt` (1855) | byzantine-church-palaiologan, st-thomas-christians-1300-1517, context (needs-ruling) |
+| outside-witness row 6, Ibn Battuta: the Travels in Arabic with French | filled | `ibn-battuta_voyages-v4-ara-fra_defremery-sanguinetti1858.txt` (1858) | byzantine-church-palaiologan, st-thomas-christians-1300-1517, context (needs-ruling) |
+| outside-witness row 7, Ibn Khaldun: the Prolegomena in French | filled | `ibn-khaldun_prolegomenes-pt1-fra_de-slane1863.txt` (1863) | coptic-christianity-fatimid-to-mamluk, context (needs-ruling) |
+| outside-witness row 7, Ibn Khaldun: the Prolegomena in French | filled | `ibn-khaldun_prolegomenes-pt2-fra_de-slane1865.txt` (1865) | coptic-christianity-fatimid-to-mamluk, context (needs-ruling) |
+| outside-witness row 7, Ibn Khaldun: the Prolegomena in French | filled | `ibn-khaldun_prolegomenes-pt3-fra_de-slane1868.txt` (1868) | coptic-christianity-fatimid-to-mamluk, context (needs-ruling) |
+| outside-witness row 7, Ibn Khaldun: the history of the Berbers in French | filled | `ibn-khaldun_histoire-des-berberes-v1-fra_de-slane1852.txt` (1852) | coptic-christianity-fatimid-to-mamluk, context (needs-ruling) |
+| outside-witness row 7, Ibn Khaldun: the history of the Berbers in French | filled | `ibn-khaldun_histoire-des-berberes-v2-fra_de-slane1854.txt` (1854) | coptic-christianity-fatimid-to-mamluk, context (needs-ruling) |
+| outside-witness row 7, Ibn Khaldun: the history of the Berbers in French | filled | `ibn-khaldun_histoire-des-berberes-v3-fra_de-slane1856.txt` (1856) | coptic-christianity-fatimid-to-mamluk, context (needs-ruling) |
+| outside-witness row 7, Ibn Khaldun: the history of the Berbers in French | filled | `ibn-khaldun_histoire-des-berberes-v4-fra_de-slane1856.txt` (1856) | coptic-christianity-fatimid-to-mamluk, context (needs-ruling) |
+| outside-witness row 8, Abu'l-Fida | held already | `rhc-historiens-orientaux_t1-fra_academie1872.txt` | A French summary from his Annals, about file lines 6059-23098, and his autobiography, about 23101-24592. Reiske's five Latin volumes (1789-94) are located, not taken. |
+| outside-witness row 9, al-Qalqashandi: on Egypt | filled | `qalqashandi_geographie-und-verwaltung-von-aegypten-deu_wuestenfeld1879.txt` (1879) | coptic-christianity-fatimid-to-mamluk, context (needs-ruling) |
+| outside-witness row 9, al-Qalqashandi: on Syria | filled | `qalqashandi_la-syrie-a-l-epoque-des-mamelouks-fra_gaudefroy-demombynes1923.txt` (1923) | coptic-christianity-fatimid-to-mamluk, context (needs-ruling) |
+| Open-Gaps 264, Library wanted: Rolle's English Psalter commentary | filled | `rolle_psalter-or-psalms-of-david-and-certain-canticles-enm-lat_bramley1884.txt` (1884) | the-english-mystics-and-devout, tradition |
+| Open-Gaps 264, Library wanted: Tauler's Middle High German sermons | filled in part | `tauler_ausgewaehlte-predigten-gmh_naumann1914.txt` (1914) | rhineland-mysticism-and-the-friends-of-god, tradition. A selection after Vetter; Vetter (1910) is not on archive.org. |
+| Open-Gaps 264, Library wanted: Kempis's Latin Life of Gerard (Pohl's volume 7) | not found | — | Pohl 7 is not on archive.org; the printings of 1615 and 1728 cannot be read at that place. |
+| Open-Gaps 267, Library wanted: Books VI to VIII of Bridget's Revelations | filled | `birgitta_revelationes-libri-vi-viii-tomus-2-lat_duranti1628.txt` (1628) | latin-papal-church-avignon-to-lateran-v, tradition |
+| Open-Gaps 267, Library wanted: Bridget's Life by her confessors | filled | `birgitta_vita-auctoribus-petro-et-petro-in-scriptores-rerum-suecicarum-3-lat_annerstedt1876.txt` (1876) | latin-papal-church-avignon-to-lateran-v, tradition |
+| Open-Gaps 267, Library wanted: Maffeo Vegio's Life of Bernardino | filled | `acta-sanctorum_maii-tomus-5-lat_palme1866.txt` (1866) | observant-reform-and-popular-preaching, tradition |
+| Open-Gaps 267, Library wanted: Ockham's philosophical works | filled in part | `ockham_de-sacramento-altaris-lat-eng_birch1930.txt` (1930) | franciscan-order-era-6, tradition. One treatise. |
+| Open-Gaps 267, Library wanted: Ockham's Latin letter to the chapter at Assisi | held for Mark | — | Müller's text (1884) is on archive.org only in a Johnson Reprint. |
+| Open-Gaps 267, Library wanted: Kallistos's Life of Gregory of Sinai; Palamas's letter from captivity; Petit's article on the Synodikon of Thessalonica | not found | — | Pomialovskii (1894), Neos Hellenomnemon and Échos d'Orient 18 are not on archive.org. |
+| Open-Gaps 267, Library wanted: the full Triads of Palamas | none before 1931 | — | First printed 1959. |
+| Open-Gaps 271, not held: Basel's session acts (Mansi 29) | filled | `mansi_sacrorum-conciliorum-collectio-tomus-29-1431-1434-lat_welter-facsimile1904.txt` (1904) | latin-papal-church-avignon-to-lateran-v, tradition; the-hussite-and-bohemian-brethren-movement, context |
+| Open-Gaps 271, not held: Basel's documents (Mansi 30) | filled | `mansi_sacrorum-conciliorum-collectio-tomus-30-1431-1439-lat_welter-facsimile1904.txt` (1904) | latin-papal-church-avignon-to-lateran-v, tradition; the-hussite-and-bohemian-brethren-movement, context |
+| Open-Gaps 271, not held: a Russian text of the time on the rejection of Florence | filled | `akty-istoricheskie_t1-1334-1598-rus_arkheograficheskaia-kommissiia1841.txt` (1841) | muscovite-monastic-christianity, tradition; byzantine-church-palaiologan, context. Simeon of Suzdal's account was not found. |
+| Open-Gaps 271, not held: a witness of the time to the burning of Wyclif's bones | not found | — | Not in the Fasciculi zizaniorum (1858). |
+| Open-Gaps 271, not held: a roll of Basel's members; a signed list for Haec sancta; Luther at Leipzig; Coptic, Ethiopian and Armenian texts on Florence | not searched | — | Left for a later batch. |
+
+**Cautions the filled texts carry.** Joseph of Volotsk's Life and rule, Kirill's letters and Euthymius's Life of
+Hilarion are in Church Slavonic or old Russian with no translation held, and the OCR has steady letter errors. The
+Life of Joseph names no author in the OCR. Ibn Battuta, Ibn Khaldun and al-Qalqashandi are held in their
+translators' French and German, not their own words; none was read in depth for its passages on Christians.
+Jakoubek's tract is kept inside his opponent's reply. Tauler is a selection. Vegio's Life has approximate bounds.
+
+**Not taken.** Every duplicate, reprint, retelling and unreadable scan is listed in the search log.
 
 ## Era 7 (1517-1650): council records, queued
 
