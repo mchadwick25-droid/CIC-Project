@@ -3535,3 +3535,62 @@ Approved to proceed (Mark, 2026-11-15: "yes for release 44 finish"; "i have appr
 - After that check found 2 BLOCKING points in later work: "Fix all 6 + one check (Recommended)". Check: `Review_r3-fixcheck3.md`. All six are fixed, with no regressions.
 
 All three files are in `Build/Ministry/Operations/Audits/2026-11-14_map-direction-b/`.
+
+## 2026-11-15 — Who profile length: 2:00 restated, longer only when earned (Mark, 2026-11-15)
+
+**Decided (Mark, 2026-11-15, relayed by the coordinator).** Mark picked, from options, "2:00 for all, earn more (Recommended)". The option read: "Every brief, major or not, aims at 2:00 (about 325 words). It may run to 2:15, or 2:30 for a major or a pair, only when the README says which scene or source would be lost at 2:00. The coordinator also keeps majors scarce, about 1 to 3 per batch." His concern: "we were making exceptions for 2 minutes now we are consistantly pushing 2:30". He then added: "its not a new rule it has always been the rule and it was forgotten".
+
+**What follows.** This is a restatement, not a new rule. It restores the 2:00 of `Who_Profile_Pattern.md` and of the 2026-11-14 ruling "as the pattern says" (Decision-Log, "Who profile length: non-majors to 2:00 from the next batch, and era 4 batch 7 kept as written", 2026-11-14), after briefs drifted to the 2:30 cap and 2:15 became usual. A brief is tightened by writing it tighter, never by stopping a story halfway (Mark, 2026-11-14: "hold to two without cutting off"). It applies from the next batch. Era 4 batch 10 was mid-review, and the coordinator ruled that its seven briefs aim at 2:00 now, with a README line for any that run longer.
+
+## 2026-11-15 — Cap ruling: one check of the round 3 fixes, era 4 Who batch 10
+
+**Cap ruling (2026-11-15, Mark: "Fix + one check (Recommended)", picked from options, relayed by the coordinator).** The third and last review round of era 4 Who batch 10 found 1 blocking and 26 minor points (Part A 0 and 7, Part B 0 and 10, Part C 1 and 9). The blocking point, Part C R3-B1, was a held date placing left off Ilarion of Kyiv's card and records. Michael Harasiewicz's Annales Ecclesiae Ruthenae (1862) dates Ilarion's election to 1031 (the scan reads it at l.1672 and l.1749) and George I, the next metropolitan, to 1063 (l.1749). The card gave only the Russian Primary Chronicle's 1051 for the election. No brief text was wrong, and no brief changed. The minor points were wording, census-difference and Open-Gaps completeness, line ranges and README counts.
+
+Mark ordered the blocking point and all minor points applied as worded, with the note that the Chronicle's 1051 matches Ilarion's own dated confession, then one targeted check of only the changed strings by a fresh Opus agent at full effort, rereading Harasiewicz l.1672 and l.1749 in context. The check does not count toward the cap: `Build/Ministry/Operations/Audits/2026-11-15_who-profiles-era4-batch10/R4_cap-check.md`. Its verdict was NOT CLEAR, with no blocking point: every round 3 fix was applied as worded and held against its source, and Harasiewicz's lines check out in context. It found 7 minor points: two line ranges the round 3 reviewers had set wrong and the fixes carried into new strings, three places that told 1051 with no witness named (the card's knownFor, Open-Gaps 272 and the batch entry below), and two witness lines. Six were applied as worded. The seventh, R4-M7, cited Blackmore's "sat till 1058" at l.16005; it is at l.16006, since l.16004 is blank, so the fixer kept l.16006 and set the other two citations to it. As in the earlier cap rulings, the ruling is treated as met, since a minor finding needs no further round.
+
+## 2026-11-15 — Who profiles, era 4 batch 10: seven profiles, no majors, briefs held to 2:00, the four Georgian entries split off (coordinator, under Mark's ruling of 2026-11-14 that eras 4 to 7 are built in full)
+
+**The batch.** The re-score's batch 10 in `Build/Ministry/Operations/Audits/2026-11-14_who-rescore-eras4-5/Rescore.md`, with Stephen the Younger and Nikephoros of Constantinople, split off from batch 9: Theophanes the Confessor, Stephen the Younger, Nikephoros of Constantinople, Nicholas Mystikos, Peter of Sicily, Ilarion of Kyiv and Michael Keroularios. None was written before, and none is a census person entry. Several are named in live census text, which is not changed here. Opus drafted every profile to `Who_Profile_Pattern.md`, per Mark's era 1 batch 1 ruling, "Opus for all".
+
+**Mark's ruling on merging (relayed by the coordinator, 2026-11-15).** "don't merge anything until 44 merges". This batch's pull request waited for data release 44 (PR #1669), which is now merged into this branch.
+
+**Coordinator's calls (2026-11-15; not Mark's words; Mark may overrule).**
+- **The plan.** The re-score's batch 10 had nine entries, and with the two from batch 9 it held eleven. Seven are written here. The worker proposed splitting off the four Georgian entries, to hold the writing quality: Grigol Khandzteli; Giorgi Merchule; John the Iberian and John Tornike; and Euthymius the Athonite. They share one Peeters volume, and they carry the open question of whether Euthymius the Athonite shares a profile with John the Iberian. The coordinator approved the split and will make them their own batch after batch 12.
+- **No majors.** Data release 44 (PR #1669), now on main, gives the census's Who rows a major flag. None of the seven has a census person row, so the re-score's Major column is used. It marks all seven "no". Release 44 flags the same five Greek East era 4 rows that batch 9 counted, so the river counts in the batch 9 README stand: eight by the census's Who rows, nine by era 4 card traditions.
+- **Length.** The briefs were drafted at up to 2:15. After round 1 they were tightened to Mark's restated 2:00 (the entry "Who profile length: 2:00 restated, longer only when earned", above), with a README line for any that run longer. The seven run 329 to 333 words, about 2:00 each, so none has that line. Each cut is listed in `Tighten_2-00.md` in the audit folder. The tightening does not count as a review round.
+
+**Worker calls (not Mark's words; Mark may overrule).**
+- **Card traditions**, by the census's own names. Theophanes, Stephen and Nikephoros are in Iconophile Byzantine Monasticism. Nikephoros follows his scan row (Era4:102); if Mark prefers the patriarchs together, The Byzantine Imperial Church (Heraclian & Iconoclast Eras) is one card field away. Nicholas and Peter are in The Byzantine Imperial Church (Macedonian Era). Ilarion is in Kievan Rus' Christianity (988 to 1054), with 1051 as his active year, when he was made metropolitan. Keroularios's card lists the Macedonian entry first and The Byzantine Church after the Schism second, since his best-known dated act is the edict of July 1054.
+- **Thin lives.** Peter of Sicily and Ilarion have a thin own life, flagged. Theophanes's life rests on a Life whose author and date are disputed, and his brief says so.
+- **Contested points told in place.** Theophanes's death year is Goar's 818 or the Bollandists' about 820. Nikephoros's exile falls in 814, 815 or 816, by three held placings. Stephen's brief gives no death year, and his card gives each witness's. Nicholas's brief leaves the year of his fall untold; his card gives de Boor's 907, Krug and Muralt's 908, and Mai's nine years after the election, or eleven by Leunclavius. Whether eastern legates came is told with de Boor in the brief and with his doubters on the card. Whether Peter followed Photius is Gieseler's argument, against Montfaucon and, in part, Wolf. Who made Ilarion a monk, and why he was consecrated in Kyiv, are given to each witness. His brief gives 1051 as the Chronicle's, and his card adds Harasiewicz's 1031. Keroularios's death is told two ways in his brief and three on his card, and his card asks whether he talked with the envoys.
+- **Names and ids.** `theophanes-the-confessor`, `stephen-the-younger`, `nikephoros-of-constantinople`, `nicholas-mystikos`, `peter-of-sicily`, `ilarion-of-kyiv`, `michael-keroularios`. The brief names "Patriarch Nikephoros of Constantinople" apart from the emperor Nikephoros I, and Zoe Karbonopsina apart from Leo's second wife, also a Zoe. Euthymius, who replaced Nicholas, is kept apart from Euthymius the Athonite. Hilarion, Larion and Cerularius are on the cards as other names.
+- **American spelling** in the new prose (Decision-Log 77); quotations keep their own spelling.
+
+**Review.** Fresh Opus agents that had not seen the drafting, at full effort in every round.
+
+Round 1, the full checklist review in three parts, found 22 blocking and 61 minor points: Part A 6 and 21, Part B 13 and 20, Part C 3 and 20. All were applied except a few minor ones the change logs give reasons for. Among the blocking points:
+- Held placings were missing for Theophanes's birth and death and for Nikephoros's crowning, exile and death. A disputed year of Nicholas's exile was told as settled on his card.
+- Nikephoros's brief called the steward Joseph "the priest", an office no held line gives.
+- Nicholas's card misread de Boor, and drew a contrast between two witnesses that the source does not draw. Its eastern legates were told as settled.
+- Peter's close cut Rački's sentence in half, and his brief misread the emperor's order.
+- Keroularios's brief put two Michaels in one sentence and misstated why he would not debate the envoys. His card's heading, "Why he and the envoys never met", is contradicted by his own letter.
+- Ilarion's brief gave only the latest held date for George, the next metropolitan named, and missed the Chronicle's 1072.
+- The README's census bullets missed live passages for Nikephoros, Nicholas, Keroularios and Ilarion. One of Ilarion's contradicts the profile.
+
+Round 2, a targeted recheck in three parts that read every tightened brief in full, found 12 blocking and 35 minor points: Part A 5 and 9, Part B 3 and 15, Part C 4 and 11. All were applied. The missing length entry, raised in Parts B and C, was resolved by the worker's Decision-Log entry above. Most of the blocking points came from round 1's own fixes or from the tightening:
+- A fix of the worker's own named the author of the sermon on Nikephoros "Theophanes, a priest and abbot", which could not be told from Theophanes the Confessor. A round 1 fix named "Clement" on Ilarion's card with no identifier, and Clement of Ohrid is a batch 9 Who.
+- A round 1 cut for length removed the only line in Theophanes's brief that marked his Life as hostile to Leo the Armenian.
+- Nicholas's brief still gave his disputed year 907 with one placing; round 1 had taken it off his card only. The tightening left "the same" with no referent in Peter's brief, on the profile's main contested point.
+- Nikephoros's brief gave one side of a contested motive for restoring Joseph.
+- A round 1 fix misreported the Caves Paterik's founding account on Ilarion's card, and Susza was named on the card but missing from its sources.
+- The README's census bullets again missed passages: one more that names Nikephoros, three Nicholas points under "The rest agrees", and Stephen's coin, said to agree when it does not.
+
+**Round 3.** Three parts found 1 blocking and 26 minor points, and the cap ruling above settles them. Every quotation in the briefs and cards was re-checked word for word against its vendored file in each round and by script. No paid calls were made.
+
+Every quotation in the briefs and cards was re-checked word for word against its vendored file in each round and by script. No paid calls were made.
+
+**Lessons for the next batch.** A fix is new text and needs the same check: a man named in a fix needs an identifier that tells him from his namesake. A cut for length can take out a side or a marker: after each cut, check that every contested point keeps its sides and every partisan source is still marked. The README's census bullets need a full walk of the census for each name and each of its spellings before round 1, since both rounds found passages missing.
+
+**What is still open.** Open-Gaps 272, "Era 4 Who batch 10" (2026-11-15).
+
+The approved files are in `Who-Profiles/era4/batch10/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-15_who-profiles-era4-batch10/`. No census, record or site change is made, so there is no data release number. Approved to proceed (coordinator, 2026-11-15; Mark may overrule).
