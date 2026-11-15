@@ -1,0 +1,11 @@
+source_file: las-casas_brevissima-relacion-de-la-destruycion-de-las-indias-spa_cadiz1821.txt
+assignments:
+- row_id: las-casas_brevissima-relacion-de-la-destruycion-de-las-indias-spa_cadiz1821--las-casas-brevissima-relacion-de-la-destruycion-de-las-indias-1552-cadiz-1821
+  work: 'Las Casas, Brevissima relacion de la destruycion de las Indias (1552), Cadiz 1821'
+  author: las-casas
+  locus: 'the whole volume; not mapped'
+  atlas_ids:
+  - new-spain-and-andes-mission-born-christianity
+  role: tradition
+  confidence: provisional
+  note: 'His own tract in Spanish, in a reprint of 1821.'

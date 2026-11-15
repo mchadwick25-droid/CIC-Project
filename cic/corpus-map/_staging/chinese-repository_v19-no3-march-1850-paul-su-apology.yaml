@@ -1,0 +1,11 @@
+source_file: chinese-repository_v19-no3-march-1850-paul-su-apology.txt
+assignments:
+- row_id: chinese-repository_v19-no3-march-1850-paul-su-apology--xu-guangqi-paul-su-memorial-to-the-wanli-emperor-in-defence-of-the-jesuits-in-english-chinese-repository-march-1850
+  work: 'Xu Guangqi (Paul Su), memorial to the Wanli emperor in defence of the Jesuits, in English (Chinese Repository, March 1850)'
+  author: chinese-repository
+  locus: 'about OCR lines 1293-1757; add 12 to OCR line numbers'
+  atlas_ids:
+  - china-mission-born-christianity
+  role: tradition
+  confidence: provisional
+  note: 'A convert official''s own memorial, in an unnamed translator''s English of 1850.'
