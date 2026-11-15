@@ -5,7 +5,7 @@ The coordinator applied the brief fixes; Opus fixers applied the entry and recor
 Coordinator's actions and calls:
 - Clermont brief: A2-S1 (the canon on prebends in two cities, which the Beauvais record heads as Urban's, replaces the investiture ban, whose heading names no pope) and A2-M2 (Lambert 'writing about 1120') applied as the recheck worded them. 400 words, FK 7.08, Flesch 68.77. The FK sits below grade 8; nothing in the text is padded or flattened, and raising it would mean joining sentences past the 25-word limit (as with era 4's Whitby).
 - B-M10 (an optional close on Trent for Lateran IV): not taken. The Vitry close stays; era 4 accepted sourced closes of this kind.
-- The census items of B-S6 and C-S3 are logged in Open-Gaps 267, 'Major councils, era 5' (2026-11-15), with Clermont's.
+- The census items of B-S6 and C-S3 are logged in Open-Gaps 268, 'Major councils, era 5' (2026-11-15; drafted as 267 and renumbered at merge, since 267 was taken on main by era 6 Who batch 2), with Clermont's.
 - Outside the findings: one Opus pass split every entry sentence over 25 words in all three entries without changing content, and Henry IV and Gregory VII were taken off the Clermont Who click (neither took part; the era 4 rule).
 
 ---

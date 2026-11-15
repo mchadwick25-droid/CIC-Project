@@ -16,3 +16,5 @@ Round 3, the last review round, left one blocking point (Lyon C3-B1) and two sub
 - C3-S1 — fixed as worded: "(Parastron)" dropped from Lyon `attended[2]` and the people name ("John of Balastri"), and from the Open-Gaps entry; the records claim for the interpreter added (Glassberger l.7359-7362).
 
 The before and after strings are in the cap check's file.
+
+The reviews cite the era 5 Open-Gaps entry as 267, its number while drafted. It was renumbered 268 at merge, since 267 was taken on main by era 6 Who batch 2.

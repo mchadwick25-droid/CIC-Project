@@ -1,0 +1,132 @@
+{
+  "name": "Nicholas Cabasilas",
+  "otherNames": [
+    "Nicolaus Cabasila",
+    "Nicolaus Cabasilas",
+    "Καβάσιλας Νικόλαος",
+    "Niccolò Cabasilla"
+  ],
+  "knownFor": "A learned layman of the emperor's household and an envoy in the civil war of the 1340s, who wrote The Life in Christ and a commentary on the Divine Liturgy. He taught that the life in Christ is given through baptism, chrismation (the anointing with chrism) and the Eucharist, and can be lived at home and at work.",
+  "dates": "The notice from Fabricius that J.-P. Migne printed in 1865 says he flourished about 1350. John Kantakouzenos, the emperor, in his history, names him as an envoy in 1346, as joining the emperor's plan to withdraw in 1349, and as still a layman in 1353. A synod's record of September 1350 lists him in the emperor's household. No witness gives his birth or death.",
+  "place": "Thessalonica, which chose him as its envoy in 1346. Berroia, where he met Manuel Kantakouzenos. Constantinople, where he was of the emperor's household and was put forward for patriarch.",
+  "tradition": "Hesychasm & the Palamite Synthesis",
+  "role": "Layman of the imperial household, by Kantakouzenos's account; envoy; theologian of the sacraments; archbishop of Thessalonica, by Fabricius and Gass, though Martin Jugie doubts it",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "The Life in Christ",
+      "about": "seven books on how baptism, chrismation (the anointing with chrism) and the Eucharist give, complete and keep the life in Christ. Jacob Pontanus put six books into Latin in 1604; Wilhelm Gass printed the Greek at Greifswald in 1849, and Migne prints Greek and Latin side by side."
+    },
+    {
+      "title": "Commentary on the Divine Liturgy",
+      "about": "on how everything done in the Liturgy makes the faithful holy and shows the Savior's saving work. Gentian Hervet put it into Latin at Venice in 1548, and Fronto Ducaeus printed the Greek in 1624."
+    },
+    {
+      "title": "Sermon against usurers",
+      "about": "against lending at interest. No labor comes before interest, he writes, and the lender gains without doing any business. David Hoeschel printed it at Augsburg in 1595."
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "At the Council of Trent in 1562, Sforza Pallavicino writes in his history of the council, the archbishop of Granada cited his first book on the Mass for the view that Christ gave the apostles the power of priesthood at Pentecost.",
+      "Gass writes that Mark of Ephesus drew heavily on him and copied him. Louis Petit, editing the Florence documents on purgatory in 1920, names Mark and Bessarion as the only two Greek prelates charged with answering the Latins at Ferrara.",
+      "His encomium of St Theodora of Thessalonica was printed in the Acta Sanctorum for 5 April, with the commentary of the Bollandist Daniel Papebroch."
+    ],
+    "remembered": [
+      "The notice from Fabricius calls him a thoroughly learned man.",
+      "Symeon of Thessalonica calls him the blessed Cabasilas, Nicholas by name, who won the good victory by piety and purity of life.",
+      "Gentian Hervet, while he disputed one point, wrote that nothing more devout or more Christian could be said than the rest of the book.",
+      "Fabricius's notice says the scholar Casaubon read the seven books of The Life in Christ with great pleasure."
+    ]
+  },
+  "uncertain": [
+    "Whether and when he became archbishop of Thessalonica. Fabricius says he succeeded his uncle Nilus in that office after Nilus died, and Migne heads him as metropolitan of Thessalonica. Gass puts Gregory Palamas in the see between uncle and nephew. Gass presumes Nicholas took it only some years after the synod of 1351, and finds him named archbishop no earlier than 1354. A record of the church of Thessalonica, quoted by Gass, calls a Nicholas its most holy metropolitan, and Gass takes him for Cabasilas. Kantakouzenos calls him still a layman in 1353. Symeon of Thessalonica praises him and names no see. Martin Jugie, editing Cabasilas's sermons on Mary in 1926, finds no serious proof that he succeeded Nilus. Jugie says neither Kantakouzenos, nor the titles in the manuscripts, nor the record of the church of Thessalonica gives him that title. He thinks it came from confusion with Nilus. No witness gives the date or tells how he took office.",
+    "How he was Nilus's nephew. Fabricius makes him the son of Nilus's brother. Gass, after George Phrantzes, makes him the son of Nilus's sister. Phrantzes calls Nicholas's mother the sister of three archbishops, and says her brother Kabasilas was archbishop at Thessalonica, without a first name.",
+    "Whether Kabasilas of the sakellion, a church office, is Nicholas. Kantakouzenos names a church official of that title as an envoy in 1343 and 1347, without a first name. Fabricius, Pontanus and Gass take him for Nicholas. In 1353 Kantakouzenos counts that Kabasilas among the leading clergy, a few pages before he calls Nicholas a layman.",
+    "Whether Nikephoros Gregoras's old friend Cabasilas is Nicholas. Gregoras names only a Cabasilas, in deep old age in 1351. Boivin, in his notes on Gregoras's history, and Gass take him for Nicholas.",
+    "Which writings against the Latins are his. Fabricius says not all agree that he wrote against them or against Thomas Aquinas. Gass gives those titles to Nilus. Louis Petit notes that a tract on purgatory has been given to Nilus, to Nicholas and to Barlaam of Calabria. He finds it the Greeks' joint answer at Ferrara, written by Mark of Ephesus and Bessarion."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Commentary on the Divine Liturgy, The Life in Christ, the sermon against usurers and the encomium of St Theodora, in Patrologia Graeca 150",
+        "author": "Nicholas Cabasilas; J.-P. Migne (ed.)",
+        "date": "1865",
+        "language": "Greek and Latin",
+        "file": "cic/texts/palamas_opera-omnia-pg150-grc-lat_migne1865.txt"
+      },
+      {
+        "title": "Die Mystik des Nikolaus Cabasilas vom Leben in Christo",
+        "author": "Nicholas Cabasilas; Wilhelm Gass (ed.)",
+        "date": "1849",
+        "language": "Greek, with German study",
+        "file": "cic/texts/cabasilas_mystik-vom-leben-in-christo-grc-deu_gass1849.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Notice from Fabricius's Bibliotheca Graeca, in Patrologia Graeca 150",
+        "author": "J. A. Fabricius, in Harles's edition; J.-P. Migne (ed.)",
+        "date": "1865",
+        "language": "Latin",
+        "file": "cic/texts/palamas_opera-omnia-pg150-grc-lat_migne1865.txt"
+      },
+      {
+        "title": "Historiarum libri IV, volume 2",
+        "author": "John Kantakouzenos; Ludwig Schopen (ed.)",
+        "date": "1831",
+        "language": "Greek and Latin",
+        "file": "cic/texts/cantacuzenus_historiarum-libri-iv-v2-grc-lat_schopen1831.txt"
+      },
+      {
+        "title": "Historiarum libri IV, volume 3",
+        "author": "John Kantakouzenos; Ludwig Schopen (ed.)",
+        "date": "1832",
+        "language": "Greek and Latin",
+        "file": "cic/texts/cantacuzenus_historiarum-libri-iv-v3-grc-lat_schopen1832.txt"
+      },
+      {
+        "title": "Acta patriarchatus Constantinopolitani I",
+        "author": "Franz Miklosich and Joseph Müller (eds.)",
+        "date": "1860",
+        "language": "Greek, with Latin headings",
+        "file": "cic/texts/acta-et-diplomata-graeca_acta-patriarchatus-constantinopolitani-1315-1402-v1-grc-lat_miklosich-mueller1860.txt"
+      },
+      {
+        "title": "Opera omnia, Patrologia Graeca 155",
+        "author": "Symeon of Thessalonica",
+        "date": "1866",
+        "language": "Greek and Latin",
+        "file": "cic/texts/symeon-thessalonica_opera-omnia-pg155-grc-lat_migne1866.txt"
+      },
+      {
+        "title": "Chronicles of George Phrantzes, John Cananus and John Anagnostes",
+        "author": "Immanuel Bekker (ed.)",
+        "date": "1838",
+        "language": "Greek and Latin",
+        "file": "cic/texts/sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838.txt"
+      },
+      {
+        "title": "Istoria del Concilio di Trento, books 17 to 24",
+        "author": "Sforza Pallavicino",
+        "date": "1846",
+        "language": "Italian",
+        "file": "cic/texts/pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846.txt"
+      },
+      {
+        "title": "Documents relatifs au Concile de Florence, purgatory, in Patrologia Orientalis 15",
+        "author": "Louis Petit (ed.)",
+        "date": "1920",
+        "language": "Greek and French",
+        "file": "cic/texts/patrologia-orientalis-tomus15_petit-documents-concile-de-florence-purgatoire-grc-fra_graffin-nau1927.txt"
+      },
+      {
+        "title": "Homélies mariales byzantines II: Nicolas Cabasilas, introduction, in Patrologia Orientalis 19",
+        "author": "Martin Jugie (ed.)",
+        "date": "1926",
+        "language": "French",
+        "file": "cic/texts/john-ephesus_lives-eastern-saints-po19-mixed-issue_brooks1926.txt"
+      }
+    ]
+  }
+}

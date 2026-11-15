@@ -3311,6 +3311,45 @@ Every quotation was re-checked word for word against its vendored file. No paid 
 
 The files are in `Council-Profiles/era4/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-14_council-profiles-era4/`. No census, record or site change is made, so there is no data release number; councils reach the site through the map build. Approved to proceed (coordinator, 2026-11-14; Mark may overrule).
 
+## 2026-11-15 — Cap ruling: one check of the round 3 fixes, era 6 Who batch 2
+
+**Cap ruling (2026-11-15, Mark: "Fix + one check (Recommended)", picked from options, relayed by the coordinator).** The third and last review round of era 6 Who batch 2 found 5 blocking and 5 minor points:
+- the Palamas card named the 1347 tome where Combefis annotates the 1351 tome;
+- the Clareno card dropped "after Pentecost" from Ehrle's reckoning of the death year;
+- on Cabasilas, "Gass agrees" misread Gass, who puts Gregory Palamas in the see between uncle and nephew;
+- the Thessalonica Synodikon names only a Nicholas, whom Gass takes for Cabasilas;
+- a held side was missed: Martin Jugie, editing Cabasilas's sermons on Mary in Patrologia Orientalis 19 (1926), finds "sans aucune preuve sérieuse" that he succeeded his uncle.
+
+Mark ordered three things. The first two fixes and the minor points were applied as worded. The three Cabasilas points were applied as one fix: the see is marked Contested, and each claim is given to its own witness (Fabricius, Gass, Jugie). Then one targeted Opus check of only those strings, by an agent that had not seen the drafting or the earlier rounds, which does not count toward the cap: `Build/Ministry/Operations/Audits/2026-11-14_who-profiles-era6-batch2/R4_cap-check.md`. Its verdict was NOT CLEAR, with no blocking point: the fixes for all five round 3 blocking points held against their sources, and on Cabasilas each claim sits with its own witness. It found six minor points, all wording or line numbers with the substance right: "leave the world" heard as "die" after a cut, "his sermons" binding to Jugie, two pronouns, three long sentences on the Clareno card, and the Gass witness lines. All six were applied as worded. As in the earlier cap rulings, the ruling is treated as met, since a minor finding needs no further round.
+
+## 2026-11-15 — Who profiles, era 6 batch 2: eight profiles, eight majors, Cabasilas's see contested (coordinator, under Mark's ruling of 2026-11-14 that eras 4 to 7 are built in full)
+
+**The batch.** The second era 6 batch, eight WHO rows of `Build/Ministry/Operations/Audits/2026-11-12_who-scan-era6/Who_Scan_Era6.md`: Catherine of Siena, Bridget of Sweden, Bernardino of Siena, Angelo Clareno, William of Ockham, Gregory Palamas, Gregory of Sinai and Nicholas Cabasilas. None was written before, and none is a census person entry. Opus drafted every profile to `Who_Profile_Pattern.md`, per Mark's era 1 batch 1 ruling, "Opus for all". The first worker drafted the batch and ran round 1. A second worker took over at a clean break, after the first worker's context passed 646k tokens, and ran rounds 2 and 3, the cap check and the merge.
+
+**Coordinator and worker calls (not Mark's words; Mark may overrule).**
+- **Major marks** (coordinator). All eight are major, as the scan's Major column says. The tradition caps hold: Hesychasm & the Palamite Synthesis 3, The Latin Papal Church 2, Observant Reform 1, Fraticelli 1, The Franciscan Order 1. The river caps do not all hold. Latin West & Catholicism now holds 13 era 6 majors against the 5 the map shows, and which five it shows is Mark's pick (Open-Gaps 267). The briefs run 405 to 407 words, about 2:30. The 2:30 is a cap, not a target.
+- **Contested points told in place.** The History of the Seven Tribulations is Ehrle's attribution to Clareno, tagged Dominant Modern Reconstruction, with Affò, Richard and Tocco doubting it. Clareno's death year is Ehrle's reckoning from a note dated to the Friday after Pentecost. Bridget's years in Rome and the stigmata of Catherine are told with their witnesses. Whether Cabasilas became archbishop of Thessalonica is Contested: Fabricius and Gass say he did, and Jugie finds no serious proof.
+- **Hostile and late witnesses** are named and marked: Gregoras against Palamas; Glassberger, an Observant friar writing in 1508, on Bernardino's accusers; Covel, writing in 1722 against prayer to the saints, on Catherine's canonization.
+- **Names, ids and traditions.** `catherine-of-siena`, `bridget-of-sweden`, `bernardino-of-siena`, `angelo-clareno`, `william-of-ockham`, `gregory-palamas`, `gregory-of-sinai`, `nicholas-cabasilas`; the traditions are the census's names. Angelo Tancredi, the Mansi rector "Willielmus de Okam" of 1311 and Nicholas of Ockham are different men and are kept apart.
+- **American spelling** in the new prose (Decision-Log 77), "Order of St Savior" included; quotations keep their own spelling.
+
+**Review.** Three rounds by fresh Opus agents that had not seen the drafting, at full effort in every round (Mark, relayed by the coordinator: "dont sacrafice quality, expecially the quality of writing"), then the cap check.
+
+Round 1, the full checklist review in four parts, found 24 blocking and 106 minor points, all applied. Among the blocking points were a reversed source, prefaces cited for the wrong work, a false absence, misread notes and a dropped condition.
+
+Round 2, a targeted recheck in four parts, found 6 blocking and 54 minor points, all applied. All six blocking points came from round 1's fix wording:
+- a death month moved onto Bernardino's sending to L'Aquila;
+- Ehrle's hedge on Clareno's late move dropped;
+- Raynaldus's "seems inclined" dropped on the 1331 bull;
+- Bridget's Rome years given to Cumming, who does not reckon them;
+- on Cabasilas, the narrator's who-line put inside Kantakouzenos's words, and a year put in Gass's mouth.
+
+Round 3 found 5 blocking and 5 minor points, and stopped for the cap ruling above. Every quotation in the briefs and cards (18) was re-checked word for word against its vendored file in each round and by script before merging. No paid calls were made.
+
+**What is still open.** Open-Gaps 267, "Era 6 Who batch 2" (2026-11-15).
+
+The approved files are in `Who-Profiles/era6/batch2/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-14_who-profiles-era6-batch2/`. No census, record or site change is made, so there is no data release number. Approved to proceed (coordinator, 2026-11-15; Mark may overrule).
+
 ## 2026-11-15 — Cap ruling: ten round 3 fixes and one check, era 5 councils
 
 **Cap ruling (Mark, 2026-11-15, his pick relayed by the coordinator: "Fix + one check (Recommended)").** Round 3, the last review round of the era 5 council profiles, left one blocking point, two substantial points and seven minor ones. All three of the larger points came in with a pass after round 2 that split entry sentences over 25 words; none was in a brief:
