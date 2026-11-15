@@ -38,6 +38,21 @@ works:
   note: 'Placed on window and subject: the Mongol history to about 1304 and the Cilician court.
     Not read for these entries.'
   source_file: hetum_history-of-the-tartars-flower-of-histories-of-the-east_bedrosian2004.txt
+- row_id: matthew-of-edessa_chronique-with-gregory-the-priest-fra_dulaurier1858--matthew-of-edessa-chronicle-french-dulaurier-1858
+  work: Matthew of Edessa, Chronicle, with the continuation of Gregory the Priest, French
+    (Dulaurier 1858)
+  author: matthew-of-edessa
+  locus: the chronicle at about OCR lines 1170-15720, the continuation from about 13999; add
+    12 to OCR line numbers
+  role: tradition
+  confidence: needs-ruling
+  language: fra
+  date:
+    formation_confidence: unknown
+    checked: the title page gives the years the chronicle covers (962-1136, and 1162 for the
+      continuation), not the years of writing; Dulaurier's preface was not read for a date
+  note: An Armenian monk's chronicle of 962-1136 and a priest's continuation to 1162, in French.
+  source_file: matthew-of-edessa_chronique-with-gregory-the-priest-fra_dulaurier1858.txt
 - row_id: ormanian_church-of-armenia_gregory1912--church-of-armenia-6
   work: 'The Church of Armenia (Ormanian; Gregory''s English translation, 1912): chapter XII,
     the patriarchal seat in Cilicia'

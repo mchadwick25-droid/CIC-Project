@@ -27024,3 +27024,73 @@ queue:
     verified_by: 'Library thread, era 7 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 559,193 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: pallavicino_istoria-del-concilio-di-trento-tomo7-libri13-14-ita_classici-sacri1846.txt
+  - title: 'St John Damascene on Holy Images, followed by Three Sermons on the Assumption, translated from the original Greek by Mary H. Allies'
+    author: 'John of Damascus; Mary H. Allies (tr.)'
+    year: '1898'
+    world: iconophile-byzantine-monasticism
+    why: 'Open-Gaps 269, Library wanted: an English of John of Damascus''s speeches on the images.'
+    url: https://archive.org/details/stjohndamasceneo00alliuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1898); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, eras 4-5 third fill: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 288,204 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: john-damascus_on-holy-images-with-three-sermons-on-the-assumption_allies1898.txt
+  - title: 'Chronique de Matthieu d''Édesse (962-1136) avec la Continuation de Grégoire le Prêtre jusqu''en 1162 (Bibliothèque historique arménienne), par M. Édouard Dulaurier'
+    author: 'Matthew of Edessa; Gregory the Priest; Édouard Dulaurier (tr.)'
+    year: '1858'
+    world: bagratid-armenian-christianity
+    why: 'Open-Gaps 279, Library wanted: Matthew of Edessa.'
+    url: https://archive.org/details/bub_gb_YlkuAAAAQAAJ
+    rights_basis: 'Public Domain (pd-us-by-date: published 1858); the archive.org record carries the Public Domain Mark'
+    verified_by: 'Library thread, eras 4-5 third fill: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,229,086 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: matthew-of-edessa_chronique-with-gregory-the-priest-fra_dulaurier1858.txt
+  - title: 'Chronique de Michel le Syrien, patriarche jacobite d''Antioche (1166-1199), éditée pour la première fois et traduite en français par J.-B. Chabot; tome III'
+    author: 'Michael the Syrian; J.-B. Chabot (ed., tr.)'
+    year: '1905'
+    world: syriac-orthodox-west-syriac-christianity
+    why: 'Open-Gaps 279, Library wanted: Michael the Syrian''s Book XII.'
+    url: https://archive.org/details/MichelLeSyrien3
+    rights_basis: 'Public Domain (pd-us-by-date: published 1905); the archive.org record carries a public-domain licence link'
+    verified_by: 'Library thread, eras 4-5 third fill: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,642,774 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: michael-the-syrian_chronique-tome3-livres-xii-xxi-fra_chabot1905.txt
+  - title: 'Theodori Abu Kurra De cultu imaginum libellus, e codice Arabico nunc primum editus, Latine versus, illustratus (Ioannes Arendzen)'
+    author: 'Theodore Abu Qurrah; Ioannes Arendzen (ed., tr.)'
+    year: '1897'
+    world: melkite-arabic-christianity
+    why: 'Open-Gaps 279, Library wanted: Theodore Abu Qurrah (his own Arabic; no English before 1931 exists).'
+    url: https://archive.org/details/TreatiseAboutTheIconsAbuQurrahArabicText
+    rights_basis: 'Public Domain (pd-us-by-date: published 1897); the archive.org record carries a CC0 public-domain dedication'
+    verified_by: 'Library thread, eras 4-5 third fill: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 194,898 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: theodore-abu-qurrah_de-cultu-imaginum-ara-lat_arendzen1897.txt
+  - title: 'Monumenta Germaniae historica, edidit Georgius Heinricus Pertz; Scriptorum tomus II'
+    author: 'Georg Heinrich Pertz (ed.)'
+    year: '1829'
+    world: scandinavian-conversion-christianity
+    why: 'Open-Gaps 269, Library wanted: a complete Life of Rimbert (the held Waitz scan ends in chapter 23).'
+    url: https://archive.org/details/bub_gb_WW-NO0RSd4AC
+    rights_basis: 'Public Domain (pd-us-by-date: published 1829); the archive.org record carries the Public Domain Mark'
+    verified_by: 'Library thread, eras 4-5 third fill: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 4,185,000 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: mgh-ss-2_scriptores-tomus-2-with-vita-rimberti-vita-anskarii-lat_pertz1829.txt
+  - title: 'Acta Sanctorum, Julii tomus tertius (Palmé reprint, Carnandet)'
+    author: 'The Bollandists; Leontius of Mar Saba (Life of Stephen the Sabaite)'
+    year: '1868'
+    world: melkite-arabic-christianity
+    why: 'Open-Gaps 279, Library wanted: the Life of Stephen the Wonderworker.'
+    url: https://archive.org/details/actasanctorumquo29boll
+    rights_basis: 'Public Domain (pd-us-by-date: published 1868); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, eras 4-5 third fill: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 6,613,445 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: acta-sanctorum_julii-tomus-3-lat-grc_palme1868.txt
+  - title: 'The Seventh General Council, the Second of Nicaea, held A.D. 787, in which the worship of images was established; with copious notes from the ''Caroline Books''; translated by John Mendham'
+    author: 'Second Council of Nicaea; John Mendham (tr.)'
+    year: '1850'
+    world: byzantine-imperial-church-heraclian-iconoclast
+    why: 'Open-Gaps 269, Library wanted: the acts of Nicaea II (an English beside the held Mansi XII-XIII).'
+    url: https://archive.org/details/seventhgeneralc00mendgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1850); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, eras 4-5 third fill: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,994,798 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: mendham_seventh-general-council-second-of-nicaea_1850.txt
