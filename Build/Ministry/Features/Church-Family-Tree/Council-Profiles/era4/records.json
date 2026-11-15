@@ -1068,13 +1068,13 @@
       },
       {
         "claim": "The seventeen canons of the synod of 861 in the Holy Apostles",
-        "witness": "nikodemos-hagiorite_pedalion-canons-grc_1886.txt l.33300, 33330 ff.",
+        "witness": "nikodemos-hagiorite_pedalion-canons-grc_1886.txt l.33300, 33392 ff.",
         "witness_kind": "acts",
         "formation_confidence": "Documented"
       },
       {
-        "claim": "The Pedalion's editors: the synod of 861 met in 861, issued its canons at its second meeting, its minutes are not found, and it said nothing against Photius",
-        "witness": "nikodemos-hagiorite_pedalion-canons-grc_1886.txt l.33222-33228, 33335-33345",
+        "claim": "The Pedalion's editors: the synod in the Holy Apostles met in 861 and issued its canons at its second meeting; its minutes are not found; it said nothing against Photius",
+        "witness": "nikodemos-hagiorite_pedalion-canons-grc_1886.txt l.33222-33228, 33296-33300, 33335-33345",
         "witness_kind": "modern reconstruction",
         "formation_confidence": "Widely Accepted"
       }
@@ -1124,7 +1124,7 @@
     "absent_details": [
       {
         "detail": "The minutes of 861",
-        "note": "Lost; Duchesne says the Greek does not survive. A shortened Latin version in Cardinal Deusdedit's collection is not held. The seventeen canons are held in the Pedalion (nikodemos-hagiorite_pedalion-canons-grc_1886.txt l.33300, 33330 ff.)."
+        "note": "Lost; Duchesne says the Greek does not survive. A shortened Latin version in Cardinal Deusdedit's collection is not held. The seventeen canons are held in the Pedalion (nikodemos-hagiorite_pedalion-canons-grc_1886.txt l.33300, 33392 ff.)."
       },
       {
         "detail": "The acts of 867",
