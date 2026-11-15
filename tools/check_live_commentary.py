@@ -1743,11 +1743,10 @@ def _slug_pattern() -> re.Pattern[str] | None:
     key = str(REPO)
     if key not in _SLUG_CACHE:
         alternatives = []
-        records = REPO / "records"
-        codes = sorted(d.name for d in records.iterdir() if d.is_dir() and d.name != "worlds") if records.is_dir() else []
+        codes = _world_codes()
         if codes:
             alternatives.append(r"(?:%s)\.[a-z_]+\.[a-z0-9][a-z0-9-]*[a-z0-9]" % "|".join(map(re.escape, codes)))
-        census = REPO / "cic-website" / "data" / "world-census.json"
+        census = REPO / CENSUS_PATH
         try:
             movements = json.loads(census.read_text(encoding="utf-8")).get("movements", [])
         except (OSError, ValueError, AttributeError):
@@ -1757,6 +1756,36 @@ def _slug_pattern() -> re.Pattern[str] | None:
             alternatives.append("|".join(map(re.escape, ids)))
         _SLUG_CACHE[key] = re.compile(r"(?<![\w.-])(?:%s)(?![\w-])" % "|".join(alternatives)) if alternatives else None
     return _SLUG_CACHE[key]
+
+
+def _world_codes() -> list[str]:
+    """The world codes: records/'s subdirectories, read from git's tree when
+    a sparse checkout (CI's) leaves records/ off disk."""
+    records = REPO / "records"
+    names: list[str] = []
+    if records.is_dir():
+        names = [d.name for d in records.iterdir() if d.is_dir()]
+    if not names:
+        try:
+            out = subprocess.run(["git", "ls-tree", "-d", "--name-only", "HEAD", "records/"],
+                                 cwd=REPO, capture_output=True, text=True, check=True).stdout
+            names = [Path(line).name for line in out.splitlines() if line.strip()]
+        except (OSError, subprocess.CalledProcessError):
+            names = []
+    return sorted(n for n in names if n != "worlds")
+
+
+# Files the scan reads beyond the ones a change edits: the census ids the
+# site rule looks for, and every file an ACCEPTED_OPEN waiver names (so a
+# stale waiver is caught). CI's sparse checkout adds these (--sparse-paths).
+CENSUS_PATH = "cic-website/data/world-census.json"
+
+
+def sparse_paths() -> list[str]:
+    paths = {CENSUS_PATH}
+    for waiver in ACCEPTED_OPEN:
+        paths.update(waiver.paths)
+    return sorted("/" + p for p in paths)
 
 
 def _site_slug(reader: str) -> bool:
@@ -2111,8 +2140,13 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--surface", choices=sorted(SURFACES), default=None)
     parser.add_argument("--json", type=Path, default=None)
     parser.add_argument("--base", default=None, help="scan only files changed since the merge-base with this git ref")
+    parser.add_argument("--sparse-paths", action="store_true",
+                        help="print, one per line, the sparse-checkout paths the scan reads beyond the edited files")
     parser.add_argument("--enforce", action="store_true", help="exit 1 when a scanned file carries REWRITE or ROUTE lines (needs --base)")
     args = parser.parse_args(argv)
+    if args.sparse_paths:
+        print("\n".join(sparse_paths()))
+        return 0
     if args.enforce and not args.base:
         parser.error("--enforce needs --base: the rule is scoped to the files a change edits")
 
