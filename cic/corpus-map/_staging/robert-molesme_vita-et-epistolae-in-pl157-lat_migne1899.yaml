@@ -1,0 +1,11 @@
+source_file: robert-molesme_vita-et-epistolae-in-pl157-lat_migne1899.txt
+assignments:
+- row_id: robert-molesme_vita-et-epistolae-in-pl157-lat_migne1899--life-of-robert-of-molesme-by-a-monk-of-molesme-with-robert-s
+  work: 'Life of Robert of Molesme by a monk of Molesme, with Robert''s letters (PL 157)'
+  author: robert-molesme
+  locus: 'about OCR lines 95370-98310; add 12 to OCR line numbers'
+  atlas_ids:
+  - cistercian-monasticism
+  role: tradition
+  confidence: needs-ruling
+  note: 'The Life was written at Molesme, the house Robert left for Cîteaux and went back to, in the twelfth century by its own heading. It is Molesme''s telling, not Cîteaux''s, and later than Robert, so its placing needs a ruling.'

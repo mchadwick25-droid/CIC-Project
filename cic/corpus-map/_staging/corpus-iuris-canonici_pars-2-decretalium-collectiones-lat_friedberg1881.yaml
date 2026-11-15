@@ -1,0 +1,11 @@
+source_file: corpus-iuris-canonici_pars-2-decretalium-collectiones-lat_friedberg1881.txt
+assignments:
+- row_id: corpus-iuris-canonici_pars-2-decretalium-collectiones-lat_friedberg1881--constitutions-of-lyon-ii-in-the-liber-sextus-friedberg
+  work: 'Constitutions of Lyon II in the Liber Sextus (Friedberg, Corpus iuris canonici II, 1881)'
+  author: corpus-iuris-canonici
+  locus: 'about OCR lines 113981, 114815 and 125241; add 12 to OCR line numbers'
+  atlas_ids:
+  - latin-papal-church-gregorian
+  role: tradition
+  confidence: provisional
+  note: 'The council''s constitutions as Boniface VIII''s law book of 1298 took them up, so in the form the later church used. The rest of the volume is not placed.'

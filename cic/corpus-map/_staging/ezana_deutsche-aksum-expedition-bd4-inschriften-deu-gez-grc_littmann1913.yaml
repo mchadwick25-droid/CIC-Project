@@ -1,0 +1,11 @@
+source_file: ezana_deutsche-aksum-expedition-bd4-inschriften-deu-gez-grc_littmann1913.txt
+assignments:
+- row_id: ezana_deutsche-aksum-expedition-bd4-inschriften-deu-gez-grc_littmann1913--ezana-inscriptions-german-littmann-1913
+  work: 'Ezana of Aksum, the inscriptions, with German translation (Littmann 1913)'
+  author: ezana
+  locus: 'Nr. 4 at about OCR line 469; Nr. 11 at 3113; add 12 to OCR line numbers'
+  atlas_ids:
+  - aksumite-christianity
+  role: antecedent
+  confidence: provisional
+  note: 'The king''s own inscriptions of the fourth century. The earlier ones open with pagan formulas; Nr. 11 is usually read as Christian, which Littmann''s addenda record as disputed. Earlier than this entry''s window, so placed as an antecedent.'

@@ -3,6 +3,15 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: bede-of-jarrow
 works:
+- row_id: bede_chronica-maiora-in-chronica-minora-3-mgh-aa-13-lat_mommsen1898--bede-chronica-maiora-de-temporum-ratione-66-71-latin-mommsen
+  work: Bede, Chronica maiora (De temporum ratione 66-71), Latin (Mommsen 1898)
+  author: bede
+  locus: about OCR lines 18388-23200; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: Bede's world chronicle to 725, his own work. The other chronicles in the volume are
+    not placed.
+  source_file: bede_chronica-maiora-in-chronica-minora-3-mgh-aa-13-lat_mommsen1898.txt
 - row_id: bede_opera-historica-v1-historia-abbatum-lat_plummer1896--bede-historia-abbatum-the-anonymous-historia-abbatum-plummer
   work: Bede, Historia abbatum; the anonymous Historia abbatum (Plummer 1896)
   author: bede

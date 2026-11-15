@@ -165,6 +165,16 @@ works:
 
     '
   source_file: sebeos_histoire-d-heraclius-fra_macler1904.txt
+- row_id: ter-minassiantz_armenische-kirche-in-ihren-beziehungen-zu-den-syrischen-kirchen-tu26-deu_1904--armenian-synodal-letters-german-ter-minassiantz-1904
+  work: Letters of the Armenian church with the Syrians, sixth century, from the Book of Letters,
+    German (Ter-Minassiantz 1904)
+  author: ter-minassiantz
+  locus: the Heft from about OCR line 28372; the letters from 36564; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: The Armenian bishops' own letters around the councils of Dvin of 506 and 554, in German.
+    The letters are of these windows; the study around them is a modern scholar's.
+  source_file: ter-minassiantz_armenische-kirche-in-ihren-beziehungen-zu-den-syrischen-kirchen-tu26-deu_1904.txt
 - row_id: timothy-aelurus_widerlegung-der-lehre-von-chalcedon-xcl_ter-mekerttschian-ter-minassiantz1908--timothy-aelurus-refutation-armenian
   work: Timothy Aelurus, Refutation of Chalcedon, Armenian text (1908)
   author: timothy-aelurus

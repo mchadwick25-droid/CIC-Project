@@ -1,0 +1,20 @@
+source_file: hardt_magnum-oecumenicum-constantiense-concilium-t3-lat_1698.txt
+assignments:
+- row_id: hardt_magnum-oecumenicum-constantiense-concilium-t3-lat_1698--jakoubek-of-stribro-jacobellus-de-misa-demonstratio-for-the-lay-chalice-1415-von-der-hardt-iii
+  work: 'Jakoubek of Stribro (Jacobellus de Misa), Demonstratio for the lay chalice, 1415 (von der Hardt III)'
+  author: hardt
+  locus: 'OCR lines 50822-52254; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-hussite-and-bohemian-brethren-movement
+  role: tradition
+  confidence: provisional
+  note: 'Jakoubek''s own tract, kept inside his opponent''s reply, as von der Hardt printed it in 1698.'
+- row_id: hardt_magnum-oecumenicum-constantiense-concilium-t3-lat_1698--mauritius-of-prague-reply-to-jacobellus-on-the-chalice-von-der-hardt-iii
+  work: 'Mauritius of Prague, reply to Jacobellus on the chalice (von der Hardt III)'
+  author: hardt
+  locus: 'from OCR line 52256; add 12 to OCR line numbers'
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  role: context
+  confidence: provisional
+  note: 'The council party''s answer to the Prague masters.'

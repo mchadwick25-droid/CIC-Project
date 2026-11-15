@@ -13,6 +13,15 @@ works:
   note: A sympathetic outside view in the idealizing frame of a saint's life, by a bishop
     and preacher, written inside this window.
   source_file: acta-sanctorum_junii-tomus-5-lat_palme1867.txt
+- row_id: hadewijch_werken-1-gedichten-dum_heremans-ledeganck1875--hadewijch-poems-middle-dutch-heremans-and-ledeganck-1875
+  work: Hadewijch, poems, Middle Dutch (Heremans and Ledeganck 1875)
+  author: hadewijch
+  locus: whole text; dbnl's page markers give the printed pages
+  role: tradition
+  confidence: provisional
+  note: Her own poems in her own Middle Dutch, from the two Brussels manuscripts. No translation
+    is held, and her prose is not in this volume.
+  source_file: hadewijch_werken-1-gedichten-dum_heremans-ledeganck1875.txt
 - row_id: mechthild_fliessende-licht-der-gottheit-gmh_morel1869--mechthild-von-magdeburg-the-flowing-light-of-the-godhead-2
   work: Mechthild von Magdeburg, The Flowing Light of the Godhead (Morel's edition, Middle
     High German)

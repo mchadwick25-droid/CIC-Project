@@ -1,0 +1,12 @@
+source_file: innocent-iii_opera-t3-regesta-xiii-xvi-pl216-lat_migne1891.txt
+assignments:
+- row_id: innocent-iii_opera-t3-regesta-xiii-xvi-pl216-lat_migne1891--innocent-iii-registers-pl-216-with-the-summons-vineam-domini
+  work: 'Innocent III, registers (PL 216), with the summons Vineam Domini of 1213'
+  author: innocent-iii
+  locus: 'the summons at about OCR line 64586; add 12 to OCR line numbers'
+  atlas_ids:
+  - innocent-iii
+  - latin-papal-church-gregorian
+  role: tradition
+  confidence: provisional
+  note: 'The pope''s own letters from his register. Check the summons against the page image: the OCR drops some lines there.'

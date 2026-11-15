@@ -1,0 +1,11 @@
+source_file: budge_history-of-ethiopia-nubia-and-abyssinia-v1_1928.txt
+assignments:
+- row_id: budge_history-of-ethiopia-nubia-and-abyssinia-v1_1928--ezana-inscriptions-english-budge-1928
+  work: 'Ezana of Aksum, the inscriptions in English, in Budge, History of Ethiopia I (1928)'
+  author: budge
+  locus: 'the inscriptions at about OCR lines 13843-14100; add 11 to OCR line numbers'
+  atlas_ids:
+  - aksumite-christianity
+  role: antecedent
+  confidence: provisional
+  note: 'An English version of the king''s inscriptions inside a modern history. The inscriptions are an antecedent to this entry; Budge''s own narrative is a historian''s and is not the tradition''s voice.'

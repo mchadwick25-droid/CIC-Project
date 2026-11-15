@@ -13,3 +13,12 @@ works:
   note: The disciple of St Sava's Lives of Simeon and of Sava, the native royal-saint genre,
     inside this window. Teodosije's Life (Daničić 1860) was not found.
   source_file: domentijan_zivot-svetoga-simeuna-i-svetoga-save-chu_danicic1865.txt
+- row_id: euthymius-tarnovo_werke-des-patriarchen-von-bulgarien-chu-deu_kaluzniacki1901--euthymius-of-tarnovo-life-of-hilarion-of-moglena-kaluzniacki-1901
+  work: Euthymius of Tarnovo, Life of Hilarion of Moglena (Kaluzniacki 1901)
+  author: euthymius-tarnovo
+  locus: OCR lines 6946-8385; add 12 to OCR line numbers
+  role: tradition
+  confidence: needs-ruling
+  note: The patriarch's own writing, in Church Slavonic only; no translation is held. No census
+    entry is the Bulgarian church of his day, so the placing needs a ruling.
+  source_file: euthymius-tarnovo_werke-des-patriarchen-von-bulgarien-chu-deu_kaluzniacki1901.txt

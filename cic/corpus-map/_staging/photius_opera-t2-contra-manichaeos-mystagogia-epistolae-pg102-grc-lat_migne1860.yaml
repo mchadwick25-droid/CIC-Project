@@ -1,0 +1,20 @@
+source_file: photius_opera-t2-contra-manichaeos-mystagogia-epistolae-pg102-grc-lat_migne1860.txt
+assignments:
+- row_id: photius_opera-t2-contra-manichaeos-mystagogia-epistolae-pg102-grc-lat_migne1860--photius-letters-and-mystagogia-of-the-holy-spirit-greek-and
+  work: 'Photius, letters and Mystagogia of the Holy Spirit, Greek and Latin (PG 102)'
+  author: photius
+  locus: 'the Mystagogia from about OCR line 20005; the letters from about 45651; add 12 to OCR line numbers'
+  atlas_ids:
+  - byzantine-imperial-church-macedonian
+  role: tradition
+  confidence: provisional
+  note: 'The patriarch''s own letters and his treatise on the procession of the Spirit. Only the Latin columns can be read in this OCR; quote the Greek from the page image.'
+- row_id: photius_opera-t2-contra-manichaeos-mystagogia-epistolae-pg102-grc-lat_migne1860--photius-against-the-manichaeans-on-the-paulicians-greek-and
+  work: 'Photius, Against the Manichaeans (on the Paulicians), Greek and Latin (PG 102)'
+  author: photius
+  locus: 'about OCR lines 242-20000; add 12 to OCR line numbers'
+  atlas_ids:
+  - paulicians
+  role: context
+  confidence: provisional
+  note: 'A hostile witness: the patriarch of Constantinople writing against the Paulicians. Its first book tells the same history as Peter of Sicily''s, which is held.'

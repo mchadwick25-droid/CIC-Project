@@ -390,3 +390,106 @@ Latin and Greek of Anna Komnene for the Bogomils, and Stephen of Bourbon, Rainer
 ### Next action
 
 The era 6 wants (1300-1517, 14 person sources, 4 major) in a fresh session, the same way.
+
+## 2026-11-15 — Church Family Tree wants, eras 1-3 (70-622)
+
+**Done.** Twenty-five archive.org files for the eras 1-3 rows of the combined wanted list: person rows 1-13,
+council rows 1-8 and Library-label correction 19. Mark restarted the Library on 15 November, eras 1-7 first, in a
+fresh session per batch. File by file: `CFT-Wants.md`, eras 1-3. The search record is
+`Build/Ministry/Operations/Audits/2026-11-15_library-eras1-3/Search_Log.md`; the review is `R1_review.md` beside it.
+
+**Decided here.**
+- Rights: only a printed imprint of 1930 or earlier, read on the title page. Two finds whose title-page OCR could
+  not be read (Harnack 1904, de Boor 1887) were left out, since Holl and Bekker fill the same wants.
+- Three wants were held already and are marked HELD: Malalas (PG 97), the Roman synod of 377 (the notice in Mansi
+  III) and the Donatist council against Tyconius (Augustine, in PL 43). The held Malalas now has a shelf row.
+- Mani: the followers' texts the audit named are in copyright. The Library took the Manichaean texts printed
+  before 1931 (Turfan, Dunhuang) and two Muslim witnesses who quote Mani's books (the Fihrist, al-Biruni). The
+  Manichaean texts are `needs-ruling`: the manuscripts are later than the entry's window. The witnesses are `context`.
+- A text earlier than its entry's window is `antecedent`: Ezana's inscriptions on the Aksumite entry (451-615) and
+  Theodoret's chapter on Maron on the Maronite entry (1100-1300).
+- A text whose date or author is disputed is `needs-ruling`: the fragments of Paul of Samosata, Agathangelos, Nau's
+  Maronite texts, and the Latin Life of Sabas, which its own volume says may be Metaphrastes's paraphrase.
+- A later historian is `context`: Ukhtanes on the break with the Georgians, Simocatta, Malalas.
+- Naironus (1679) is vendored with no shelf: no Maronite entry covers its date.
+- Unreadable originals were not taken: the Armenian Book of Letters (1901) and the Armenian Shushanik (1853).
+
+**Corrected after review.** All 25 rights rows passed. The reviewer found eleven points, all fixed: Genesius in
+the Simocatta volume is Lachmann's edition; three OCR notes were too generous (the Greek in Lagarde and Bardy, the
+Latin in PG 82); the acts of 536 in Mansi VIII end before the volume does; the Christian reading of Ezana's last
+inscription is disputed in Littmann's own addenda; four smaller wordings. The list is `R1_changes.md`.
+
+**For the tree, not the Library.**
+- Melito's Peri Pascha cannot be filled from the public domain: it was first printed in 1940.
+- The Life of Sabas is held only in a Latin version that may not be Cyril's wording. A profile should say so.
+- Shushanik, and the whole History of Movses Daskhurantsi, stay wanted.
+
+## Eras 4-5, second fill (2026-11-15)
+
+Forty-six files for the rows the first era 4 and era 5 passes left open and for the Library wants of Open-Gaps
+263, 265, 266, 268 and 272. Record: `Build/Ministry/Operations/Audits/2026-11-15_library-eras4-5/Search_Log.md`;
+the rows are in `CFT-Wants.md`, "Eras 4-5, second fill".
+
+**Decided here.**
+- Rights: only a printed imprint of 1930 or earlier, read on the title page. Where the OCR could not give the
+  year, it was read on the scan's page image (Mansi XII; the Acta Sanctorum, March II). Where neither gave it, the
+  file was left out: Mansi XX, whose scan has no imprint leaf, and PL 148.
+- Hadewijch: the 1875 edition is vendored from dbnl.org. dbnl marks that title "Auteursrechtvrij" and says its
+  copyright has run out. This is the edition Mark's ruling allows.
+- Powicke's offprint on Walter Daniel has no year on its title page. Its reprint line and its prefatory note
+  (March 1922) date it, and it is taken on that printed evidence.
+- Two wants were held already: Berno's testament (PL 133) and the Lyon I sentence in Matthew Paris. The first era 4
+  log's "PL 133 does not print the testament" was wrong.
+- Ibn Hayyan: his book cannot be filled before 1937. Gayangos's al-Maqqari is taken as `context`, a later writer
+  who quotes him by name.
+- A scan whose wanted passage cannot be read is not taken: the Kyiv archive volume, Cummian in Ussher, the Tale of
+  Boris and Gleb, Cosmas the Priest, Akropolites, the Greek Life of Euthymius.
+- A translation printed in place of the author's words is `needs-ruling` and says so: Clare's letters in Tanner's
+  Latin. Her Process survives in an Italian version and is shelved as tradition with that said.
+- Lives with no date of writing in the volume, or written by another house, are `needs-ruling`: the Life of
+  Tarasius; the Life of Robert of Molesme. Raymond of Capua's Life of Catherine came with the April volume and is
+  `needs-ruling` until era 6 places it.
+- A modern study is `context` (Hefele in English) or not taken (Hefele-Leclercq; Robinson's article on Clare).
+- Shelf rows name the file's own prefix as author where the corpus author index has no other name (Mansi, the
+  Acta Sanctorum, the Recueil). George Metochites, bound in the Mai volume, has no shelf row; the header names him.
+
+**For the tree, not the Library.**
+- No English printed by 1930 exists for Theophanes, the Life of Stephen the Younger, Nikephoros, Nicholas
+  Mystikos, Peter of Sicily, Ilarion or the trial of Maximus. Those wants cannot be filled under the date rule.
+- The Life of Constantine is held in Latin translation only; the Slavonic cannot be read in any scan found.
+
+## Era 6 fill (2026-11-15)
+
+Twenty-seven files for the era 6 rows of the wanted list and the Library wants of Open-Gaps 264, 267 and 271.
+Record: `Build/Ministry/Operations/Audits/2026-11-15_library-era6/Search_Log.md`; the rows are in `CFT-Wants.md`,
+"Era 6 (1300-1517), filled".
+
+**Decided here.**
+- Rights: only a printed imprint of 1930 or earlier. Ten years were read on the scan's page image where the OCR
+  title page gave none; the leaf is named in each header.
+- A scan that is a modern reprint is out, whatever the year of the text it reproduces: Gibb's Ibn Battuta (a 1992
+  reprint), the Zeitschrift für Kirchengeschichte volume with Ockham's letter (a Johnson Reprint), Kałużniacki's
+  Tsamblak (Variorum, 1971). The last two are held for Mark, since the text reproduced is of 1884 and 1901.
+- The host's own date is not trusted against the title page: the Acta Sanctorum for October X is the Brussels
+  printing of 1861, where the host names Paris, 1863.
+- Three wants were held already. The Perruchon header, registry note and shelf note said the chronicle of Zara
+  Yaqob had no French translation in the volume; it has one, and the three are corrected. The header of the
+  Recueil's first Oriental volume now names its extract from Abu'l-Fida.
+- A retelling is not taken in place of a Life: Stephen of Perm (1896), Zosima and Savvatii (1897).
+- A printing whose wanted passage cannot be read is not taken: Kempis's Life of Gerard in the 1615 and 1728 Opera.
+- A selection is taken where the full edition is not to be had, and says so: Naumann's Tauler after Vetter.
+- The Muslim outside witnesses are held in their translators' French and German and shelved `context`,
+  `needs-ruling`: no census entry covers Mamluk Egypt and Syria or the Maghreb after 1300, so Ibn Khaldun and
+  al-Qalqashandi sit on `coptic-christianity-fatimid-to-mamluk` until a ruling; Ibn Battuta on the Palaiologan and
+  Saint Thomas entries. None was read in depth.
+- Euthymius of Tarnovo is `needs-ruling`: no census entry is the Bulgarian church of his day.
+- Birch's Ockham carries the imprint 1930, the last year the date rule admits.
+
+**For the tree, not the Library.**
+- Nothing printed by 1930 was found for Estifanos, for Zara Yaqob's own books or for the full Book of Margery
+  Kempe. The Gadla Ewostatewos, the Prosvetitel and the Lives of Stephen of Perm, Kirill of Beloozero, Zosima and
+  Savvatii, and Theodosius of Tarnovo exist in print before 1931 but are not on archive.org.
+
+### Next action
+
+Era 7 wants in a fresh session, the same way.

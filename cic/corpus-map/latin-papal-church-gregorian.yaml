@@ -41,6 +41,25 @@ works:
   note: The canons' own rule of daily life, written in 1295-1296. Within this entry's window
     (1049-1300).
   source_file: barnwell-priory_observances-in-use-at-barnwell-lat-eng_clark1897.txt
+- row_id: corpus-iuris-canonici_pars-2-decretalium-collectiones-lat_friedberg1881--constitutions-of-lyon-ii-in-the-liber-sextus-friedberg
+  work: Constitutions of Lyon II in the Liber Sextus (Friedberg, Corpus iuris canonici II,
+    1881)
+  author: corpus-iuris-canonici
+  locus: about OCR lines 113981, 114815 and 125241; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: The council's constitutions as Boniface VIII's law book of 1298 took them up, so in
+    the form the later church used. The rest of the volume is not placed.
+  source_file: corpus-iuris-canonici_pars-2-decretalium-collectiones-lat_friedberg1881.txt
+- row_id: deusdedit_die-kanonessammlung-des-kardinals-deusdedit-bd1-lat-deu_wolf-von-glanvell1905--deusdedit-collectio-canonum-wolf-von-glanvell-1905
+  work: Deusdedit, Collectio canonum (Wolf von Glanvell 1905)
+  author: deusdedit
+  locus: whole collection; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: A canon collection of the Gregorian reform, made for the Roman church's claims and
+    finished in 1087.
+  source_file: deusdedit_die-kanonessammlung-des-kardinals-deusdedit-bd1-lat-deu_wolf-von-glanvell1905.txt
 - row_id: innocent-iii_opera-with-gesta-innocentii-pl214-lat_migne1853--innocent-iii-gesta-innocentii-iii-and-registers-including-books
   work: Innocent III, Gesta Innocentii III and Registers (including books I-III and V) (PL
     214)
@@ -50,6 +69,44 @@ works:
   confidence: provisional
   note: The pope's own letters and the Gesta of his pontificate, inside these windows.
   source_file: innocent-iii_opera-with-gesta-innocentii-pl214-lat_migne1853.txt
+- row_id: innocent-iii_opera-t3-regesta-xiii-xvi-pl216-lat_migne1891--innocent-iii-registers-pl-216-with-the-summons-vineam-domini
+  work: Innocent III, registers (PL 216), with the summons Vineam Domini of 1213
+  author: innocent-iii
+  locus: the summons at about OCR line 64586; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: 'The pope''s own letters from his register. Check the summons against the page image:
+    the OCR drops some lines there.'
+  source_file: innocent-iii_opera-t3-regesta-xiii-xvi-pl216-lat_migne1891.txt
+- row_id: innocent-iii_opera-t4-sermones-de-contemptu-mundi-pl217-lat_migne1890--innocent-iii-sermons-and-de-miseria-conditionis-humanae-pl
+  work: Innocent III, sermons and De miseria conditionis humanae (PL 217)
+  author: innocent-iii
+  locus: the council sermons at about OCR lines 50793 and 50961; De miseria from about 52480;
+    add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: 'His own writing: the treatise on human misery, written before he was pope, and his
+    sermons, with the two preached at the council of 1215.'
+  source_file: innocent-iii_opera-t4-sermones-de-contemptu-mundi-pl217-lat_migne1890.txt
+- row_id: innocent-iv_bulla-depositionis-in-mgh-constitutiones-2-lat_weiland1896--innocent-iv-bull-deposing-frederick-ii-at-lyon-1245-and-the
+  work: Innocent IV, bull deposing Frederick II at Lyon (1245), and the Relatio de concilio
+    Lugdunensi (MGH Constitutiones II)
+  author: innocent-iv
+  locus: nos. 400 and 401, from about OCR line 40576; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: The council's best-known act in the pope's own words, with a contemporary report of
+    the sessions. The council's other constitutions are not here.
+  source_file: innocent-iv_bulla-depositionis-in-mgh-constitutiones-2-lat_weiland1896.txt
+- row_id: krey_first-crusade-accounts-of-eye-witnesses-and-participants_1921--krey-the-first-crusade-the-eyewitness-accounts-in-english
+  work: 'Krey, The First Crusade: the eyewitness accounts in English (1921)'
+  author: krey
+  locus: whole volume; Clermont at about OCR lines 1295-2254; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: English translations of the Latin accounts, cut and arranged by a modern editor. The
+    Latin of Fulcher, Robert and Guibert is held beside it.
+  source_file: krey_first-crusade-accounts-of-eye-witnesses-and-participants_1921.txt
 - row_id: mansi_sacrorum-conciliorum-collectio-tomus-21-lat_welter-facsimile1903--mansi-xxi-the-council-of-troyes-and-the-latin-rule-of-the-templa
   work: Mansi XXI, the Council of Troyes and the Latin Rule of the Templars
   author: mansi
@@ -60,6 +117,24 @@ works:
     Rule text. The volume's own heading dates the council 1127; the prologue of the Rule says
     1128 (margin note 'Anno 1128').
   source_file: mansi_sacrorum-conciliorum-collectio-tomus-21-lat_welter-facsimile1903.txt
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-22-lat_welter-facsimile1903--mansi-xxii-the-fourth-lateran-council-1215
+  work: Mansi XXII, the Fourth Lateran Council (1215)
+  author: mansi
+  locus: about OCR lines 92779-105984; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: The council's constitutions (numbered to LXX) and the documents printed with them,
+    in Mansi's collection. The other councils of the volume are not placed.
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-22-lat_welter-facsimile1903.txt
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-24-lat_welter-facsimile1903--mansi-xxiv-the-second-council-of-lyon-1274
+  work: Mansi XXIV, the Second Council of Lyon (1274)
+  author: mansi
+  locus: about OCR lines 3718-12500; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: 'The Latin record of the council: the account of its sessions, its constitutions and
+    the letters printed with them.'
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-24-lat_welter-facsimile1903.txt
 - row_id: matthew-paris_chronica-majora-v4-rolls-series-57-lat_luard1877--matthew-paris-chronica-majora-iv-the-first-council-of-lyon-1245
   work: 'Matthew Paris, Chronica majora IV: the First Council of Lyon (1245)'
   author: matthew-paris
@@ -83,6 +158,54 @@ works:
     act. The documents before 1300 (the contents list reaches Gregory X at no. 304) serve
     the Gregorian entry.
   source_file: mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt
+- row_id: rhc-historiens-occidentaux_t3-fulcher-robert-raymond-gesta-francorum-lat_academie1866--fulcher-of-chartres-historia-hierosolymitana-latin-rhc
+  work: Fulcher of Chartres, Historia Hierosolymitana, Latin (RHC Occidentaux III)
+  author: rhc-historiens-occidentaux
+  locus: from about OCR line 24291; Clermont at about 24772-24919; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: A chaplain who went on the crusade and stayed in Jerusalem. His is one of the four
+    main reports of Urban II's speech at Clermont; the reports differ, and all were written
+    after the crusade.
+  source_file: rhc-historiens-occidentaux_t3-fulcher-robert-raymond-gesta-francorum-lat_academie1866.txt
+- row_id: rhc-historiens-occidentaux_t4-baldric-guibert-albert-lat_academie1879--guibert-of-nogent-gesta-dei-per-francos-latin-rhc
+  work: Guibert of Nogent, Gesta Dei per Francos, Latin (RHC Occidentaux IV)
+  author: rhc-historiens-occidentaux
+  locus: from about OCR line 9928; Clermont at about 11092-11360; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: An abbot's history of the crusade, with one of the four main reports of Urban II's
+    speech at Clermont. He did not go on the crusade. Baldric and Albert, in the same volume,
+    are also held in PL 166.
+  source_file: rhc-historiens-occidentaux_t4-baldric-guibert-albert-lat_academie1879.txt
+- row_id: rhc-historiens-occidentaux_t3-fulcher-robert-raymond-gesta-francorum-lat_academie1866--robert-the-monk-raymond-of-aguilers-tudebode-and-the-gesta
+  work: Robert the Monk, Raymond of Aguilers, Tudebode and the Gesta Francorum, Latin (RHC
+    Occidentaux III)
+  author: rhc-historiens-occidentaux
+  locus: whole volume; Robert on Clermont from about OCR line 52360; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: Latin histories of the First Crusade by clergy who went or wrote soon after. Robert
+    the Monk gives another of the reports of Urban's speech.
+  source_file: rhc-historiens-occidentaux_t3-fulcher-robert-raymond-gesta-francorum-lat_academie1866.txt
+- row_id: richard-san-germano_chronica-in-usum-scholarum-lat_pertz1864--richard-of-san-germano-chronica-pertz-1864
+  work: Richard of San Germano, Chronica (Pertz 1864)
+  author: richard-san-germano
+  locus: the council of 1215 at about OCR lines 2326-2380; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: A notary of San Germano writing the affairs of the kingdom of Sicily; a lay witness
+    of his own times.
+  source_file: richard-san-germano_chronica-in-usum-scholarum-lat_pertz1864.txt
+- row_id: roger-wendover_flores-historiarum-v2-rolls-series-84-lat_hewlett1887--roger-of-wendover-flores-historiarum-vol-ii-hewlett-1887
+  work: Roger of Wendover, Flores historiarum, vol. II (Hewlett 1887)
+  author: roger-wendover
+  locus: the council of 1215 at about OCR lines 7790-7830; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: A monk's chronicle of his own times, written in England; an outside report of the
+    council of 1215.
+  source_file: roger-wendover_flores-historiarum-v2-rolls-series-84-lat_hewlett1887.txt
 - row_id: thomas-becket_epistolae-with-vitae-pl190-lat_migne1893--thomas-becket-letters-and-the-early-lives-of-thomas-pl-190
   work: Thomas Becket, letters, and the early Lives of Thomas (PL 190)
   author: thomas-becket
@@ -92,6 +215,16 @@ works:
   note: 'The archbishop''s letters and the Lives by his own circle, inside this window (national
     churches: England).'
   source_file: thomas-becket_epistolae-with-vitae-pl190-lat_migne1893.txt
+- row_id: urban-ii_epistolae-et-privilegia-with-orationes-claromontanae-pl151-lat_migne1853--urban-ii-letters-and-privileges-with-the-clermont-speeches
+  work: Urban II, letters and privileges, with the Clermont speeches (PL 151)
+  author: urban-ii
+  locus: the letters from about OCR line 22757; the speeches at about 46652-47750; add 12
+    to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: The pope's own letters. The speeches are the chroniclers' versions gathered by the
+    editor, not a text from Urban's chancery.
+  source_file: urban-ii_epistolae-et-privilegia-with-orationes-claromontanae-pl151-lat_migne1853.txt
 - row_id: will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861--acta-et-scripta-de-controversiis-saec-xi-will-1861-the-latin
   work: 'Acta et scripta de controversiis saec. XI (Will 1861): the Latin side'
   author: will

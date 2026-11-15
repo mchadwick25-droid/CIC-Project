@@ -3,6 +3,24 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: byzantine-church-after-1054
 works:
+- row_id: attaleiates_historia-grc-lat_bekker1853--michael-attaleiates-history-greek-and-latin-bekker-1853
+  work: Michael Attaleiates, History, Greek and Latin (Bekker 1853)
+  author: attaleiates
+  locus: whole text from about OCR line 185; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: A history of his own times, dedicated to the emperor Nikephoros Botaneiates (the editor's
+    preface, about OCR line 188). A lay witness of the court, not a church writer.
+  source_file: attaleiates_historia-grc-lat_bekker1853.txt
+- row_id: bekkos_opera-with-meliteniotes-metochites-pg141-grc-lat_migne1882--john-bekkos-works-on-the-union-of-the-churches-greek-and
+  work: John Bekkos, works on the union of the churches, Greek and Latin (PG 141)
+  author: bekkos
+  locus: from about OCR line 575; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: The patriarch's own defence of the union. He speaks for the party that accepted the
+    union.
+  source_file: bekkos_opera-with-meliteniotes-metochites-pg141-grc-lat_migne1882.txt
 - row_id: benjamin-tudela_itinerary-heb-eng_adler1907--benjamin-of-tudela-itinerary-hebrew-and-english-adler-1907
   work: Benjamin of Tudela, Itinerary, Hebrew and English (Adler 1907)
   author: benjamin-tudela
@@ -13,3 +31,30 @@ works:
   note: A Jewish traveller's notes on the Christians of Constantinople and the Latin states,
     an outside witness written inside this window.
   source_file: benjamin-tudela_itinerary-heb-eng_adler1907.txt
+- row_id: gregoras_byzantina-historia-v1-grc-lat_schopen1829--nikephoros-gregoras-historia-byzantina-volume-1-greek-and
+  work: Nikephoros Gregoras, Historia Byzantina, volume 1, Greek and Latin (Schopen 1829)
+  author: gregoras
+  locus: whole volume; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: A fourteenth-century scholar's history, so a later witness for the thirteenth century;
+    the second volume, on his own times, is held.
+  source_file: gregoras_byzantina-historia-v1-grc-lat_schopen1829.txt
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-24-lat_welter-facsimile1903--mansi-xxiv-the-second-council-of-lyon-1274-as-the-latin
+  work: Mansi XXIV, the Second Council of Lyon (1274), as the Latin record of the union
+  author: mansi
+  locus: about OCR lines 3718-12500; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: The Latin side's record of the union with the Greeks. For the Byzantine church it
+    is an outside witness.
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-24-lat_welter-facsimile1903.txt
+- row_id: pachymeres_de-michaele-et-andronico-palaeologis-v1-grc-lat_bekker1835--george-pachymeres-history-books-i-vi-michael-viii-greek-and
+  work: George Pachymeres, History, books I-VI (Michael VIII), Greek and Latin (Bekker 1835)
+  author: pachymeres
+  locus: whole volume; book V from about OCR line 15482; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: A Byzantine writer's history of his own times, with a Greek account of the union of
+    Lyon.
+  source_file: pachymeres_de-michaele-et-andronico-palaeologis-v1-grc-lat_bekker1835.txt

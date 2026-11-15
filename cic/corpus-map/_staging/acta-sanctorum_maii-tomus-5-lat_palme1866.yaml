@@ -1,0 +1,11 @@
+source_file: acta-sanctorum_maii-tomus-5-lat_palme1866.txt
+assignments:
+- row_id: acta-sanctorum_maii-tomus-5-lat_palme1866--maffeo-vegio-life-of-bernardino-of-siena-acta-sanctorum-may-v
+  work: 'Maffeo Vegio, Life of Bernardino of Siena (Acta Sanctorum, May V)'
+  author: acta-sanctorum
+  locus: 'about OCR lines 24593-28467; add 12 to OCR line numbers'
+  atlas_ids:
+  - observant-reform-and-popular-preaching
+  role: tradition
+  confidence: provisional
+  note: 'An eyewitness of much of it, as the heading says (''in pluribus oculato teste''); the line bounds are approximate. Barnabas of Siena''s Life stands just before it.'
