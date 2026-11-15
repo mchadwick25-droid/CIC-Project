@@ -1438,8 +1438,13 @@
     "formation_confidence": "Contested"
    },
    {
-    "claim": "Cross: the internal evidence of the Povest \"is distinctly opposed to the tradition of Nestorian authorship\"; the Caves Paterik's founding account tells the same passage on Ilarion's cave",
-    "witness": "CROSS (russian-primary-chronicle_cross1930.txt) l.4819-4822; PAT (kievan-caves-paterik_paterik-kievskago-pecherskago-monastyria-chu_abramovich1911.txt) l.1096-1106",
+    "claim": "Cross: the internal evidence of the Povest \"is distinctly opposed to the tradition of Nestorian authorship\"; the Caves Paterik's founding account tells the passage on Ilarion's cave in nearly the same words",
+    "witness": "CROSS (russian-primary-chronicle_cross1930.txt) l.4819-4822; PAT (kievan-caves-paterik_paterik-kievskago-pecherskago-monastyria-chu_abramovich1911.txt) l.1098-1106",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Paterik's founding account: before Ilarion's cave, Antony came to Kyiv and to Berestovoye and settled in a cave the Varangians had dug (\"ископали варязи\"); after Vladimir's death, seeing Sviatopolk's bloodshed (\"нача избивали братёо свою\"), he \"пакы бЪжа въ святую гору\" (quoted as the scan reads)",
+    "witness": "PAT (kievan-caves-paterik_paterik-kievskago-pecherskago-monastyria-chu_abramovich1911.txt) l.1088-1092, l.1094-1097",
     "formation_confidence": "Documented"
    }
   ],
@@ -1447,7 +1452,7 @@
    {
     "claim": "Authorship of the Sermon on Law and Grace",
     "sides": [
-     "1844 foreword: Ilarion's, by argument from the shared manuscript, the Kagan title, likeness to the confession, and the 1555 prayer, 'if this guess is right' (GORSKII l.146-157, l.686-716)",
+     "1844 foreword: Ilarion's, by argument from the shared manuscript, the Kagan title, likeness to the confession, and the 1555 prayer, if, it says, this guess is right (GORSKII l.146-157, l.686-716)",
      "Cross: 'attributed to the metropolitan Hilarion' (CROSS l.5800)"
     ]
    },
@@ -1466,7 +1471,8 @@
     "claim": "Who made him a monk",
     "sides": [
      "Simon of Vladimir: Antony tonsured him, as Polycarp read in a Life of Antony (PAT l.5437-5438)",
-     "Chronicle: Ilarion dug the cave before Antony came (CROSS l.11744-11776); his confession calls him a monk by 1051 and names no one (GORSKII l.2605-2606)"
+     "Chronicle: Ilarion dug the cave before Antony came (CROSS l.11744-11776); his confession calls him a monk by 1051 and names no one (GORSKII l.2605-2606)",
+     "Caves Paterik: Antony lived at Berestovoye in a Varangian cave before Ilarion dug his, then fled back to the Holy Mountain under Sviatopolk (PAT l.1088-1097)"
     ]
    },
    {
@@ -1498,7 +1504,7 @@
    },
    {
     "detail": "'First native-born metropolitan'",
-    "note": "No held line says 'first'. The Laurentian calls him a Rusin (PSRL1 l.6897); the foreword says he was Russian by birth (GORSKII l.761); Mouravieff calls Hilarion and Clement the native Russian metropolitans (MOUR l.2076-2078). He is also chosen from the Rus presbyters (GORSKII l.154-157)."
+    "note": "No held line says 'first'. The Laurentian calls him a Rusin (PSRL1 l.6897); the foreword says he was Russian by birth (GORSKII l.761); Mouravieff calls Hilarion and Clement of Smolensk the native Russian metropolitans (MOUR l.2076-2078). He is also chosen from the Rus presbyters (GORSKII l.154-157)."
    }
   ]
  },
@@ -1545,7 +1551,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "His brother could not bear the separation (\"ἀφόρητον Ἡν τὸ χεχωρίσθαι τοῦ ἀδελφοῦ\"), and the pain went from his heart to his head; \"νεκρὸς αὐτίκα ἐγεγόνει\"",
+    "claim": "His brother could not bear the separation (\"ἀφόρητον Ἡν τὸ χεχωρίσθαι τοῦ ἀδελφοῦ\"), and the pain went from his heart to his head; \"νεκρὸς αὐτίκα ἐγεγόνει\" (records only; cut from the brief at the 2:00 tightening)",
     "witness": "PSELL (psellos_chronographia-and-orations-in-mesaionike-bibliotheke-v4-grc_sathas1874.txt), funeral speech, l.21283-21317",
     "formation_confidence": "Documented"
    },
@@ -1560,7 +1566,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Letter I: the envoys \"cum cruce et baculis\" entered the palace; \"penitus nos salutatione impertiti nec susti- nentes vel minimum capita sua inclinare\"; would not sit \"post metropolitanos\"; \"epistolam obsignatam tra- diderunt nobis statimque recesserunt\"; the seal \"ipsummet invenit adulteratum\"",
+    "claim": "Letter I: the envoys \"cum cruce et baculis\" entered the palace; \"penitus nos salutatione impertiti nec susti- nentes vel minimum capita sua inclinare\"; would not sit \"post metropolitanos\"; \"epistolam obsignatam tra- diderunt nobis statimque recesserunt\"; the seal \"ipsummet invenit adulteratum\" (records only; cut from the brief at the 2:00 tightening)",
     "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt), letter I, l.17213-17240 (Greek l.17190-17212)",
     "formation_confidence": "Documented"
    },
