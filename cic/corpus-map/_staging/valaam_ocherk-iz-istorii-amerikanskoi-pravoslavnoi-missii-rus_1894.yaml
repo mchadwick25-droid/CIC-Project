@@ -14,11 +14,11 @@ assignments:
   date:
     start: 1894
     end: 1894
-    source: 'the printing''s own title page: line 19 of this file, on the title page'
+    source: 'the printing''s own title page: line 58 of this file, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1894
-    source: line 19 of this file, on the title page
+    source: line 58 of this file, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 226, Herman of Alaska: the Valaam monastery''s account of the Kodiak mission, with his letters.
     A later compilation by the monastery that sent the mission; it prints letters of Herman''s.'

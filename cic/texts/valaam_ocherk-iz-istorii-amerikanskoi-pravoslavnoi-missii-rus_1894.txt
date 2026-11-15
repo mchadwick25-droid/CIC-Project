@@ -1,12 +1,12 @@
 Title: Очеркъ изъ исторіи Американской православной духовной миссіи (Кадьякской миссіи 1794-1837 гг.)
 Creator: not named on the title page
 Publisher: С.-Петербургъ: Изданіе Валаамскаго монастыря; Типографія М. Меркушева
-Publication Date: 1894 (line 19 of this file, on the title page)
+Publication Date: 1894 (line 58 of this file, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1894); the archive.org record carries no rights field, so the imprint date is the basis
 Language: rus
 Source: archive.org item ocherkizistoriiamerikanskojpravoslavnojd22, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (812,229) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1894, out of US copyright by date. OCR quality: fair, in the old spelling. Line numbers cited in this header are this file's own line numbers.
-Content note: A Russian essay on the Kodiak mission of 1794-1837, issued by Valaam monastery for the centenary of Orthodoxy in America; the title page (lines 14-56) names no author and lists a portrait and facsimile of the monk German, views, and unpublished materials. Editorial matter: the preface at lines 95-416, dated Valaam, 18 July 1894. The essay ends at line 4833. Appendices from line 4836: Appendix I, correspondence numbered 1 to 20; Appendix II, from the manuscript of hieromonk Gedeon, from line 7390 to line 11361. Mixed voices: Appendix I prints Lazarev's account, letters of Yanovsky, bishops Petr and Innokenty and others, and letters of German himself (Nos. 4, 5, 13 and 20). The essay tells of German at many points, his death at line 4702. About 66,319 words.
+Content note: A Russian essay on the Kodiak mission of 1794-1837, issued by Valaam monastery for the centenary of Orthodoxy in America; the title page (lines 14-58) names no author and lists a portrait and facsimile of the monk German, views, and unpublished materials. Editorial matter: the preface at lines 95-416, dated Valaam, 18 July 1894. The essay ends at line 4833. Appendices from line 4836: Appendix I, correspondence numbered 1 to 20; Appendix II, from the manuscript of hieromonk Gedeon, from line 7390 to line 11361. Mixed voices: Appendix I prints Lazarev's account, letters of Yanovsky, bishops Petr and Innokenty and others, and letters of German himself (Nos. 4, 5, 13 and 20). The essay tells of German at many points, his death at line 4702. About 66,319 words.
 
 ______________________________________________________________________
 

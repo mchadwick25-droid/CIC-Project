@@ -851,8 +851,9 @@ rows tried by new routes and the date checks batch 1 left owing. The search reco
 `Build/Ministry/Operations/Audits/2026-11-15_library-era9-b2a/Search_Log.md`. Twenty-eight files are in the
 tradition's own language: Russian (7), Spanish (6), French (5), Portuguese (3), Ukrainian (2), Dutch (2),
 Greek, German and Italian (1 each). Every file rests on a printed year of 1930 or earlier; the header of each
-names where the year stands. At intake Google's preamble and the scanner's page marks were removed, and each
-header says what was removed. Rows 227-245, 249-262, 267-278, 323 and 327-330 are left for batch 2b.
+names where the year stands. At intake Google's preamble and the lines that hold only the scanner's page mark
+were removed, and each header says what was removed. In three Google scans (Jessup vol. 1, My Life in Christ,
+Reyes) the OCR broke the page mark over two lines or misread it; those lines remain, and the headers say so. Rows 227-245, 249-262, 267-278, 323 and 327-330 are left for batch 2b.
 
 Batch 1's eighteen `needs-ruling` shelf rows were decided in this batch by the shelf principle Mark ruled on 15
 November; the table of batch 1 above shows the roles as they now stand. No row of this batch is left at
@@ -869,7 +870,7 @@ November; the table of batch 1 above shows the roles as they now stand. No row o
 | era 9 row 191, Catherine Booth: Godliness, her addresses of 1881 | filled | `booth-catherine_godliness_1883.txt` (1883); 50,227 words; eng | the-salvation-army, tradition |
 | era 9 row 207, Kiai Sadrach: a Dutch missionary's account | filled | `adriaanse_sadrachs-kring-nld_1899.txt` (1899); 171,390 words; nld | indonesian-christianity, context |
 | era 9 row 207, Kiai Sadrach: a Dutch mission history | filled | `coolsma_de-zendingseeuw-voor-nederlandsch-oost-indie-nld_1901.txt` (1901); 621,962 words; nld | indonesian-christianity, context |
-| era 9 row 210, Charles Lwanga: a French account that names him | filled | `klein_le-cardinal-lavigerie-et-ses-oeuvres-d-afrique-fra_1897.txt` (1897); 105,124 words; fra | east-african-christianity-uganda-martyrs, context |
+| era 9 rows 210 and 318, Charles Lwanga and Joseph Mukasa Balikuddembe: a French account that names both | filled | `klein_le-cardinal-lavigerie-et-ses-oeuvres-d-afrique-fra_1897.txt` (1897); 105,124 words; fra | east-african-christianity-uganda-martyrs, context |
 | era 9 row 213, Mangena Mokone: an entry in the African Methodist Episcopal Church's encyclopaedia | filled | `wright_centennial-encyclopaedia-of-the-african-methodist-episcopal-church_1916.txt` (1916); 300,374 words; eng | african-initiated-churches-harrist-aladura-zioni, the-black-church-in-the-twentieth-century, context |
 | era 9 row 226, Herman of Alaska: the Valaam monastery's account of the Kodiak mission, with his letters | filled | `valaam_ocherk-iz-istorii-amerikanskoi-pravoslavnoi-missii-rus_1894.txt` (1894); 66,319 words; rus | alaskan-mission-herman-veniaminov, context |
 | era 9 rows 246 and 248, Samuel Sharpe and Henry Bleby: Bleby's narrative | filled | `bleby_death-struggles-of-slavery_3rd-ed1868.txt` (1868); 119,414 words; eng | caribbean-churches-of-slavery-and-emancipation, tradition |
@@ -975,7 +976,7 @@ November; the table of batch 1 above shows the roles as they now stand. No row o
   volume is the court martial record, with the prisoner's defence and his letters in the appendix.
 - **Names as the files spell them.** Row 311: Milne (1820) tells of the baptism of 'Leang-kung-fah' in 1816 and
   does not say he is Liang Fa; Morrison's Memoirs print 'Leang-Afa'. Row 318: Stock prints 'Balikudembe
-  Mukasa'. Row 210: Klein prints 'Charles Louanga' and does not name Joseph Mukasa. Row 312: Gill prints
+  Mukasa'. Rows 210 and 318: Klein prints 'Charles Louanga' and 'Joseph Mkasa'. Row 312: Gill prints
   'Taunga', in two short quoted reports only. Row 213: the African Methodist Episcopal encyclopaedia has no
   entry headed Mokone; he is told of in its entry 'Africa, South'. Row 302: Scheffler prints 'Anthimos'. Ellis's
   Martyr Church often reads a capital R as E ('Eanavalona').
@@ -1003,8 +1004,8 @@ November; the table of batch 1 above shows the roles as they now stand. No row o
   columns that the OCR interleaves; it names Fabre Geffrard.
 - **Dates.** No year on the title page: Hardy, Uchimura, Jessup (both volumes), both Catherine Booth books,
   Stern, the two Iglesia Filipina Independiente books and Macedo Costa; each header names the copyright notice
-  or the dated preface used. Macedo Costa's book carries one prefixed letter of January 1887 against the
-  catalogue's 1886. A Guerra de Canudos reads 1902 on its title page and 1903 on its cover.
+  or the dated preface used. Macedo Costa's book carries two prefixed letters of January 1887 against the
+  catalogue's 1886. A Guerra de Canudos prints 1902 on its title page; the OCR misreads it as 1903.
 - **Row 308, Boru Meda.** The Chronicle of Menelik II has a chapter on the assembly at 'Borou-Mieda'; its
   locus is in the shelf row. **Row 285:** the Codigo begins with 1856, so the Ley Juarez of 1855 is not in it.
   **Row 286:** the consecration decree was not found in Garcia Moreno's two volumes; Berthe tells of it.

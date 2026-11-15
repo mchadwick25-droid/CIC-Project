@@ -12,10 +12,10 @@ assignments:
   date:
     start: 1899
     end: 1899
-    source: 'the printing''s own title page: line 51 of this file, on the title page'
+    source: 'the printing''s own title page: line 80 of this file, on the title page (''LEIDEN. - D. DONNER. - 1899.'')'
     formation_confidence: Documented
   edition_date:
     year: 1899
-    source: line 51 of this file, on the title page
+    source: line 80 of this file, on the title page ('LEIDEN. - D. DONNER. - 1899.')
     formation_confidence: Documented
   note: 'Era 9 row 207, Kiai Sadrach: a Dutch missionary''s account.'

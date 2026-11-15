@@ -1,7 +1,7 @@
 Title: A GUERRA DE CANUDOS
 Creator: Henrique Duque-Estrada de Macedo Soares (Tenente de Infantaria)
 Publisher: Rio: Typ. Altina
-Publication Date: 1902 (read on the scan's page image, leaf n6, which prints '1a edicao' and 'Rio, Typ. Altina, 1902'; an earlier leaf, the cover, reads 1903 in the OCR)
+Publication Date: 1902 (read on the scan's page image, leaf n6, which prints 'Rio, Typ. Altina, 1902'; the library catalogue record gives 1902; the OCR of the same title page, at line 46 of this file, misreads the year as 1903)
 Rights: Public Domain (pd-us-by-date: published 1902); the archive.org record carries no rights field, so the imprint date is the basis
 Language: por
 Source: archive.org item guerradecanudos00soar, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (555,992) equals the size archive.org lists for the djvu.txt.

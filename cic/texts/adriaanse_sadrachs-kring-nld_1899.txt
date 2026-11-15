@@ -1,7 +1,7 @@
 Title: SADRACH'S KRING
 Creator: L. Adriaanse, Dienaar des Woords te Utrecht, afgezonden tot den Zendingsdienst te Poerworedjo
 Publisher: Leiden: D. Donner
-Publication Date: 1899 (line 51 of this file, on the title page)
+Publication Date: 1899 (line 80 of this file, on the title page ('LEIDEN. - D. DONNER. - 1899.'))
 Rights: Public Domain (pd-us-by-date: published 1899); the archive.org record carries no rights field, so the imprint date is the basis
 Language: nld
 Source: archive.org item MN41568ucmf_0, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,202,837) equals the size archive.org lists for the djvu.txt.

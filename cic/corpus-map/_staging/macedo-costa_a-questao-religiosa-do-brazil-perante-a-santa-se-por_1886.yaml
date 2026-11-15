@@ -14,12 +14,14 @@ assignments:
     end: 1886
     source: 'the dated prefatory letters, of which the last-dated in 1886 stands at line 171 of this file (''Dezembro
       de 1886.''), and the library catalogue record of the item (MARC 260: ''Lisboa : Lallemant Freres, 1886.'');
-      the title page cannot be read in the OCR, and one prefixed letter is dated January 1887'
+      the title page cannot be read in the OCR, and two prefixed letters are dated January 1887, so the front matter
+      was printed after the catalogue''s year'
     formation_confidence: Documented
   edition_date:
     year: 1886
     source: 'the dated prefatory letters, of which the last-dated in 1886 stands at line 171 of this file (''Dezembro
       de 1886.''), and the library catalogue record of the item (MARC 260: ''Lisboa : Lallemant Freres, 1886.'');
-      the title page cannot be read in the OCR, and one prefixed letter is dated January 1887'
+      the title page cannot be read in the OCR, and two prefixed letters are dated January 1887, so the front matter
+      was printed after the catalogue''s year'
     formation_confidence: Documented
   note: 'Era 9 row 287, Antonio de Macedo Costa: his own account of the religious question.'

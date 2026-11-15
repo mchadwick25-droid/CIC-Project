@@ -48,8 +48,8 @@ locus from the text. The searchers' notes were used only as pointers.
 Pharmakidis (leaf n7, 1849); Lindley, vol. 2 (n6, 1866); Reyes, La sensacional memoria (n8, 1899); Codigo de la
 Reforma (n4, 1861); Darby, Studies on the Book of Daniel (n5, 1864); Darby, Dialogues on the Essays and Reviews
 (n5, MDCCCLXIII); Davis, Sketch of Neesima (n8, 1890; the OCR reads 1800); Evans, Biographical Dictionary (n9,
-1907); Dom Vital, O Bispo de Olinda (n8, 1873); Macedo Soares, A Guerra de Canudos (n6, 1902, "1a edicao"; an
-earlier leaf, the cover, reads 1903 in the OCR). Four more leaves were opened to find these and were blank or
+1907); Dom Vital, O Bispo de Olinda (n8, 1873); Macedo Soares, A Guerra de Canudos (n6, 1902; the
+OCR of the same title page misreads the year as 1903). Four more leaves were opened to find these and were blank or
 were not title pages.
 
 ## Title pages that print no year
@@ -61,7 +61,7 @@ Aggressive Christianity (Boston; "Entered ... in the year 1883") and Godliness (
 Taken on a dated preface that the catalogue record agrees with: Stern, The Captive Missionary (preface of 26
 October 1868; MARC "[1868]"); Documentos interesantes de la Iglesia Filipina Independiente (January 1906; MARC
 1906); Aglipay's Catequesis (prologue of 25 May 1912; MARC 1912); Macedo Costa, A Questao Religiosa (prefixed
-letters of December 1886; MARC 1886; one prefixed letter is dated January 1887).
+letters of December 1886; MARC 1886; two prefixed letters are dated January 1887).
 
 Not taken, because neither test is met:
 
@@ -88,6 +88,10 @@ Not taken, because neither test is met:
   read in the OCR or on the image. `respostadobispo00nacigoog` (Brazil).
 
 ## Dropped at the Library thread's check
+
+- The archive.org item that holds Sheptytsky's book for the Ruthenians of Canada is named
+  `herbarzpolskipow01niesuoft_202605`, an identifier that belongs to another book. The file's title page and
+  colophon are Sheptytsky's (Zhovkva, 1911), and it was taken.
 
 - `fiftythreeyearsi0000jess` (Jessup, vol. 1): a lending-library scan. Replaced by `fiftythreeyears00unkngoog`.
 - `thechurchofarmen00ormauoft` (Ormanian, The Church of Armenia, 1912): held already.

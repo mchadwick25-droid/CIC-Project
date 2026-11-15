@@ -29,6 +29,9 @@ from build_strip import strip_host
 def find_basis(i, y, L):
     if IMG.get(str(i)) is not None: return f"read on the scan's page image, leaf n{IMG[i]}; the OCR does not give it cleanly", None
     for k, ln in enumerate(L[:420]):
+        t = ln.strip()
+        if re.fullmatch(r"\W*(%d|%s)\W*" % (y, " ?".join(roman(y))), t): return f"line {k+13} of this file, on the title page", t
+    for k, ln in enumerate(L[:420]):
         t = ln.strip(); c = t.replace(" ", "").replace(".", "").replace(",", "")
         if len(t) <= 34 and (re.search(r"\b%d\b" % y, t) or roman(y) in c) and not re.search(r"copyright|entered|act of|library|digitiz|^[A-Z]{1,3} *[0-9]{2,5} ", t, re.I):
             return f"line {k+13} of this file, on the title page", t
@@ -79,6 +82,7 @@ for l in open(f"{S}/tools/table.txt"):
         pre = f"{o['pre_what']} (host OCR lines 1-{o['pre_upto']})"; L0 = L0[o["pre_upto"]:]
     L, stripped = strip_host(L0)
     stripped = "; and ".join(x for x in (pre, stripped) if x) or None
+    left = sum(1 for x in L if re.fullmatch(r"\W*(Digiti[sz]ed by|Hosted by)\W*", re.sub(r"\s+", " ", x).strip(), re.I) or re.fullmatch(r"\W*(\w{0,8} ?[,.] ?)?G[oO0]{2}[gq][l1I][eC]\W*", re.sub(r"\s+", " ", x).strip()))
     delta = o.get("delta", 0)
     def shift(t):
         if not delta: return t
@@ -104,6 +108,7 @@ for l in open(f"{S}/tools/table.txt"):
     fs = o.get("final_sub", {})
     if "title" in fs: assert fs["title"][0] in title, i; title = title.replace(*fs["title"])
     if "creator" in fs: assert fs["creator"][0] in creator, i; creator = creator.replace(*fs["creator"])
+    if o.get("content_sub"): assert o["content_sub"][0] in content, (i, content[:300]); content = content.replace(*o["content_sub"])
     for x in o.get("strip", []): assert x in content, (i, x); content = clean(content.replace(x, ""))
     if o.get("strip_re"): assert re.search(o["strip_re"], content), i; content = clean(re.sub(o["strip_re"], "", content))
     if o.get("title_sub") and o["title_sub"][0] in title: title = title.replace(*o["title_sub"])
@@ -129,7 +134,7 @@ for l in open(f"{S}/tools/table.txt"):
     row["edition_date"] = {"year": y, "source": basis, "formation_confidence": "Documented"}
     row["note"] = o.get("note") or dot(want[0].upper() + want[1:])
     if o.get("note_add"): row["note"] += " " + o["note_add"]
-    spec.append({"filename": fn + ".txt", "ia_id": i, "src": src, "bytes": len(raw), "stripped": stripped, "cut_at": o.get("cut_at"), "pre_upto": o.get("pre_upto"), "cut": cut, "body_bytes": len(body.encode()), "title": title, "creator": creator, "publisher": pub, "year": y, "year_basis": basis,
+    spec.append({"filename": fn + ".txt", "ia_id": i, "src": src, "bytes": len(raw), "stripped": stripped, "cut_at": o.get("cut_at"), "pre_upto": o.get("pre_upto"), "cut": cut, "left": left, "body_bytes": len(body.encode()), "title": title, "creator": creator, "publisher": pub, "year": y, "year_basis": basis,
                  "host_rights": hr, "stamps": o.get("stamps"), "language": lang, "ocr": dot(o.get("ocr") or grade(p["ocr_quality"])), "content": content,
                  "want": "Wanted Sources (2026-11-12), " + want + ".", "seed_world": atlas.split(",")[0], "seed_author": creator, "why": "Wanted Sources, " + want + ".", "rows": [row], "words": words})
 json.dump(spec, open(f"{S}/spec.json", "w"), ensure_ascii=False, indent=1)

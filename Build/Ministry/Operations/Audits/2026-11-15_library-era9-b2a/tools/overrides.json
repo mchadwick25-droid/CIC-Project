@@ -34,19 +34,20 @@
  "ajh3760.0001.001.umich.edu": {
   "nodate": true,
   "basis_re": "Enero 1906",
-  "basis_tpl": "the dated preface at line {n} of this file ('{t}'), with which the library catalogue record of the item agrees (MARC 260: 'Manila, Imp. Fajardo y c.a, 1906.'); the title page prints no year"
+  "basis_tpl": "the dated preface at line {n} of this file ('{t}'), with which the library catalogue record of the item agrees (MARC 260: 'Manila, Imp. Fajardo y c.a, 1906.'); the title page cannot be read in the OCR, and the title and publisher in this header are from the catalogue record",
+  "add": "The compiler's address at line 213 is dated 1936 in the OCR, a misreading of 1906: the documents in the file are dated 1902 to 1905."
  },
  "ajh3759.0001.001.umich.edu": {
   "nodate": true,
   "basis_re": "Mayo de 1912",
   "basis_max": 3000,
-  "basis_tpl": "the dated prologue at line {n} of this file ('{t}'), with which the library catalogue record of the item agrees (MARC 260: 'Manila, I. de Los Reyes, 1912.'); the title page prints no year",
+  "basis_tpl": "the dated prologue at line {n} of this file ('{t}'), with which the library catalogue record of the item agrees (MARC 260: 'Manila, I. de Los Reyes, 1912.'); the title page cannot be read in the OCR, and the title and publisher in this header are from the catalogue record",
   "note_add": "The church's own text in a printing of 1912, six years after the entry's window closes; the first printing is not held."
  },
  "questoreligios00cost": {
   "nodate": true,
   "basis_re": "Dezembro de 1886",
-  "basis_tpl": "the dated prefatory letters, of which the last-dated in 1886 stands at line {n} of this file ('{t}'), and the library catalogue record of the item (MARC 260: 'Lisboa : Lallemant Freres, 1886.'); the title page cannot be read in the OCR, and one prefixed letter is dated January 1887"
+  "basis_tpl": "the dated prefatory letters, of which the last-dated in 1886 stands at line {n} of this file ('{t}'), and the library catalogue record of the item (MARC 260: 'Lisboa : Lallemant Freres, 1886.'); the title page cannot be read in the OCR, and two prefixed letters are dated January 1887, so the front matter was printed after the catalogue's year"
  },
  "aggressivechrist00boot_0": {
   "nodate": true,
@@ -64,7 +65,7 @@
  },
  "guerradecanudos00soar": {
   "year": 1902,
-  "basis": "read on the scan's page image, leaf n6, which prints '1a edicao' and 'Rio, Typ. Altina, 1902'; an earlier leaf, the cover, reads 1903 in the OCR"
+  "basis": "read on the scan's page image, leaf n6, which prints 'Rio, Typ. Altina, 1902'; the library catalogue record gives 1902; the OCR of the same title page, at line 46 of this file, misreads the year as 1903"
  },
  "sketchoflifeofre00davirich": {
   "year": 1890,
@@ -142,7 +143,11 @@
   "note_add": "The monastery's own published history; it tells of the elders in the third person."
  },
  "ocherkizistoriiamerikanskojpravoslavnojd22": {
-  "note_add": "A later compilation by the monastery that sent the mission; it prints letters of Herman's."
+  "note_add": "A later compilation by the monastery that sent the mission; it prints letters of Herman's.",
+  "content_sub": [
+   "(lines 14-56)",
+   "(lines 14-58)"
+  ]
  },
  "lasensacionalme00sagrgoog": {
   "note_add": "His own text of 1897-99, written before the Iglesia Filipina Independiente was founded."
@@ -160,7 +165,8 @@
   }
  },
  "dialoguesonessa00darbgoog": {
-  "note_add": "The title page names no author; the archive.org record names Darby."
+  "note_add": "The title page names no author; the archive.org record names Darby.",
+  "add": "The second work's title page shows no year in the OCR; the year in this header is that of the first work."
  },
  "MyLifeInChrist": {
   "delta": -49
@@ -170,5 +176,12 @@
  },
  "studiesonbookda00darbgoog": {
   "delta": -48
+ },
+ "MN41568ucmf_0": {
+  "basis_re": "LEIDEN\\. - D\\. DONNER\\. - 1899",
+  "basis_tpl": "line {n} of this file, on the title page ('{t}')"
+ },
+ "lecardinallavige00kleiuoft": {
+  "add": "The same chapter tells of 'Joseph Mkasa', his sentence and death, at lines 7022-7045."
  }
 }

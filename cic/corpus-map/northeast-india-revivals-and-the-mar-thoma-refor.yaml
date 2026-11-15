@@ -16,11 +16,11 @@ works:
   date:
     start: 1886
     end: 1887
-    source: 'the printing''s own title page: line 27 of this file, on the title page'
+    source: 'the printing''s own title page: line 176 of this file, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1887
-    source: line 27 of this file, on the title page
+    source: line 176 of this file, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 304, Edwin W. Clark: the Assam Mission''s jubilee papers.'
   source_file: assam-mission_papers-and-discussions-of-the-jubilee-conference-1886_1887.txt

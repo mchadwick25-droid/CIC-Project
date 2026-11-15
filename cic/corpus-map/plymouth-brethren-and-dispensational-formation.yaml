@@ -54,11 +54,11 @@ works:
   date:
     start: 1863
     end: 1863
-    source: 'the printing''s own title page: line 31 of this file, on the title page'
+    source: 'the printing''s own title page: line 44 of this file, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1863
-    source: line 31 of this file, on the title page
+    source: line 44 of this file, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 181, John Nelson Darby: lectures of his own.'
   source_file: darby_seven-lectures-on-the-second-coming-of-the-lord_toronto1863.txt

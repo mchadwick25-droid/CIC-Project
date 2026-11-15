@@ -15,14 +15,14 @@ assignments:
     start: 1912
     end: 1912
     source: 'the dated prologue at line 1342 of this file (''Madrid, á 25 de Mayo de 1912.''), with which the library
-      catalogue record of the item agrees (MARC 260: ''Manila, I. de Los Reyes, 1912.''); the title page prints
-      no year'
+      catalogue record of the item agrees (MARC 260: ''Manila, I. de Los Reyes, 1912.''); the title page cannot
+      be read in the OCR, and the title and publisher in this header are from the catalogue record'
     formation_confidence: Documented
   edition_date:
     year: 1912
     source: 'the dated prologue at line 1342 of this file (''Madrid, á 25 de Mayo de 1912.''), with which the library
-      catalogue record of the item agrees (MARC 260: ''Manila, I. de Los Reyes, 1912.''); the title page prints
-      no year'
+      catalogue record of the item agrees (MARC 260: ''Manila, I. de Los Reyes, 1912.''); the title page cannot
+      be read in the OCR, and the title and publisher in this header are from the catalogue record'
     formation_confidence: Documented
   note: 'Era 9 row 280, Gregorio Aglipay: the church''s catechism. The church''s own text in a printing of 1912,
     six years after the entry''s window closes; the first printing is not held.'
