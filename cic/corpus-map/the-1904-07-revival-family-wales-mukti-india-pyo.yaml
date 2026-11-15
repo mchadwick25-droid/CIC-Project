@@ -3,6 +3,32 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-1904-07-revival-family-wales-mukti-india-pyo
 works:
+- row_id: dyer_revival-in-india_1907--dyer-compiler-revival-in-india
+  work: Dyer (compiler), Revival in India
+  author: dyer
+  locus: whole; the Mukti chapters
+  role: tradition
+  confidence: assigned
+  note: First-hand accounts from inside the revival, gathered in 1907. Mixed voices.
+  source_file: dyer_revival-in-india_1907.txt
+- row_id: korea-mission-field_v6-no4-april-1910--the-korea-mission-field-april-1910-with-a-postcard-by-pastor
+  work: The Korea Mission Field, April 1910 (with a postcard by Pastor Kil)
+  author: korea-mission-field
+  locus: the postcard, lines 721-744
+  role: tradition
+  confidence: assigned
+  note: A missionary monthly. The postcard is Kil's own words in a missionary's English; the
+    rest is the missionaries' voice.
+  source_file: korea-mission-field_v6-no4-april-1910.txt
+- row_id: macnicol_pandita-ramabai-builders-of-modern-india_1926--macnicol-pandita-ramabai
+  work: Macnicol, Pandita Ramabai
+  author: macnicol
+  locus: whole
+  role: context
+  confidence: assigned
+  note: A life printed in 1926, after the entry's window closes in 1910; it quotes her own
+    Testimony.
+  source_file: macnicol_pandita-ramabai-builders-of-modern-india_1926.txt
 - row_id: phillips_evan-roberts-ai-waith-cym_1912--evan-roberts-y-diwygiwr-evan-roberts-a-i-waith-gan-y-parch-d
   work: Evan Roberts, y Diwygiwr; Evan Roberts a'i waith, gan y Parch. D. M. Phillips, M.A.,
     Ph.D., Tylorstown (title
@@ -10,7 +36,7 @@ works:
   locus: Chapter XXI, which closes with Evan Roberts's visions at OCR lines 8258-8783; add
     12 to OCR line numbers; the rest not mapped
   role: context
-  confidence: provisional
+  confidence: assigned
   language: cym
   date:
     start: 1912
@@ -25,6 +51,14 @@ works:
   note: 'Era 9 row 214, Evan Roberts: a Life, in Welsh. A Life by another hand, printed in
     1912, two years after the entry''s window closes.'
   source_file: phillips_evan-roberts-ai-waith-cym_1912.txt
+- row_id: ramabai_high-caste-hindu-woman_1888--ramabai-the-high-caste-hindu-woman
+  work: Ramabai, The High-Caste Hindu Woman
+  author: ramabai
+  locus: whole; Bodley's introduction is not hers
+  role: tradition
+  confidence: needs-ruling
+  note: Her own words, but written in 1887, before the entry's window of 1904-1910.
+  source_file: ramabai_high-caste-hindu-woman_1888.txt
 - row_id: story-of-the-welsh-revival_told-by-eyewitnesses_3rd-ed1905--the-story-of-the-welsh-revival-as-told-by-eyewitnesses
   work: The Story of the Welsh Revival as told by eyewitnesses together with a sketch of Evan
     Roberts and his message

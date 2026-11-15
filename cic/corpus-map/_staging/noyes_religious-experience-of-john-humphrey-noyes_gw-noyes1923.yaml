@@ -8,7 +8,7 @@ assignments:
   atlas_ids:
   - oneida-community
   role: context
-  confidence: provisional
+  confidence: assigned
   language: eng
   date:
     formation_confidence: unknown

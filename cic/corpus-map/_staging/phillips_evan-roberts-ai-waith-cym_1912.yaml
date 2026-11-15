@@ -8,7 +8,7 @@ assignments:
   atlas_ids:
   - the-1904-07-revival-family-wales-mukti-india-pyo
   role: context
-  confidence: provisional
+  confidence: assigned
   language: cym
   date:
     start: 1912

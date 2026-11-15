@@ -1,0 +1,11 @@
+source_file: barth_wort-gottes-und-die-theologie-deu_1924.txt
+assignments:
+- row_id: barth_wort-gottes-und-die-theologie-deu_1924--barth-das-wort-gottes-und-die-theologie-1924
+  work: 'Barth, Das Wort Gottes und die Theologie (1924)'
+  author: barth
+  locus: 'whole'
+  atlas_ids:
+  - the-mainline-century-liberal-and-neo-orthodox
+  role: tradition
+  confidence: assigned
+  note: 'His own addresses in German.'

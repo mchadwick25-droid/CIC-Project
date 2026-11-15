@@ -120,7 +120,7 @@ works:
   locus: Preface by Eugene Stock at OCR lines 54-136; Author's Foreword at OCR lines 139-222;
     add 12 to OCR line numbers; the rest not mapped
   role: context
-  confidence: provisional
+  confidence: assigned
   language: eng
   date:
     start: 1908
@@ -160,7 +160,7 @@ works:
   author: taylor-howard
   locus: the whole volume; not mapped
   role: context
-  confidence: provisional
+  confidence: assigned
   language: eng
   date:
     start: 1912
@@ -180,7 +180,7 @@ works:
   author: taylor-howard
   locus: the whole volume; not mapped
   role: context
-  confidence: provisional
+  confidence: assigned
   language: eng
   date:
     start: 1900
@@ -197,15 +197,6 @@ works:
   note: 'Era 9 row 205, Xi Shengmo (Pastor Hsi): a Life (the early life). A Life by another
     hand, in a printing of 1909, after the entry''s window closes.'
   source_file: taylor-howard_one-of-chinas-scholars-pastor-hsi_1909.txt
-- row_id: underwood_call-of-korea_1908--underwood-the-call-of-korea-1908
-  work: Underwood, The Call of Korea (1908)
-  author: underwood
-  locus: the whole book; add 11 to OCR line numbers for this file's own
-  role: tradition
-  confidence: needs-ruling
-  note: The first Presbyterian missionary's own account, written in 1908. Like the Korean
-    Repository it waits on the AP15 ruling for its shelf.
-  source_file: underwood_call-of-korea_1908.txt
 - row_id: wylie_memorials-of-protestant-missionaries-to-the-chinese_1867--memorials-of-protestant-missionaries-to-the-chinese-giving-a
   work: 'MEMORIALS OF PROTESTANT MISSIONARIES TO THE CHINESE: giving a list of their publications,
     and obituary'

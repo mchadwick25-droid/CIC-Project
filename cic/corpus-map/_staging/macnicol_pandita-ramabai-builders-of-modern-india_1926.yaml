@@ -1,0 +1,11 @@
+source_file: macnicol_pandita-ramabai-builders-of-modern-india_1926.txt
+assignments:
+- row_id: macnicol_pandita-ramabai-builders-of-modern-india_1926--macnicol-pandita-ramabai
+  work: 'Macnicol, Pandita Ramabai'
+  author: macnicol
+  locus: 'whole'
+  atlas_ids:
+  - the-1904-07-revival-family-wales-mukti-india-pyo
+  role: context
+  confidence: assigned
+  note: 'A life printed in 1926, after the entry''s window closes in 1910; it quotes her own Testimony.'

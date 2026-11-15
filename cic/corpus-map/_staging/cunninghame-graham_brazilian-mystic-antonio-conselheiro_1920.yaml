@@ -7,7 +7,7 @@ assignments:
   atlas_ids:
   - canudos-belo-monte
   role: context
-  confidence: provisional
+  confidence: assigned
   language: eng
   date:
     start: 1920

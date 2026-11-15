@@ -8,7 +8,7 @@ assignments:
   atlas_ids:
   - catholic-apostolic-church-irvingites
   role: tradition
-  confidence: provisional
+  confidence: assigned
   language: eng
   date:
     formation_confidence: unknown

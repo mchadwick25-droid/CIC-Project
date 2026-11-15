@@ -20,7 +20,7 @@ assignments:
   atlas_ids:
   - melkite-arabic-christianity
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   language: eng
   date: {formation_confidence: unknown, checked: "the title page and the sermon headings (OCR lines 4774, 5519, 6403) give no year"}
   note: 'Three sermons on the Dormition, in English.'

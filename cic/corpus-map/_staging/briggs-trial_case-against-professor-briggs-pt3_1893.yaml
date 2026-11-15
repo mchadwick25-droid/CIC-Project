@@ -8,7 +8,7 @@ assignments:
   atlas_ids:
   - the-mainline-century-liberal-and-neo-orthodox
   role: context
-  confidence: provisional
+  confidence: assigned
   language: eng
   date:
     start: 1893

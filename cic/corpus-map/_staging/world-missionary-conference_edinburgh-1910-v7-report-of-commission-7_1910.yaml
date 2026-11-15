@@ -1,0 +1,11 @@
+source_file: world-missionary-conference_edinburgh-1910-v7-report-of-commission-7_1910.txt
+assignments:
+- row_id: world-missionary-conference_edinburgh-1910-v7-report-of-commission-7_1910--world-missionary-conference-1910-report-of-commission-vii
+  work: 'World Missionary Conference 1910, Report of Commission VII'
+  author: world-missionary-conference
+  locus: 'whole'
+  atlas_ids:
+  - the-student-volunteer-movement-and-edinburgh-191
+  role: tradition
+  confidence: assigned
+  note: 'The conference''s own printed report.'

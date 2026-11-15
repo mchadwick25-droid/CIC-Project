@@ -1,0 +1,11 @@
+source_file: tyrrell_christianity-at-the-cross-roads_1909.txt
+assignments:
+- row_id: tyrrell_christianity-at-the-cross-roads_1909--tyrrell-christianity-at-the-cross-roads
+  work: 'Tyrrell, Christianity at the Cross-Roads'
+  author: tyrrell
+  locus: 'whole; the introduction is M. D. Petre''s'
+  atlas_ids:
+  - the-catholic-church-pius-x-to-the-council
+  role: tradition
+  confidence: assigned
+  note: 'His last book, printed in 1909.'

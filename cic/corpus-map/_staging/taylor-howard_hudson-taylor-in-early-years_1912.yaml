@@ -8,7 +8,7 @@ assignments:
   atlas_ids:
   - the-missionary-movement-s-native-churches-seramp
   role: context
-  confidence: provisional
+  confidence: assigned
   language: eng
   date:
     start: 1912

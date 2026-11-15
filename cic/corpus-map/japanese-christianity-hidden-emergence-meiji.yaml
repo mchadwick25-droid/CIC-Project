@@ -99,3 +99,11 @@ works:
     formation_confidence: Documented
   note: 'Era 9 row 283, Uchimura Kanzo: his own account.'
   source_file: uchimura_diary-of-a-japanese-convert_1895.txt
+- row_id: uchimura_how-i-became-a-christian_1922--uchimura-how-i-became-a-christian
+  work: Uchimura, How I Became a Christian
+  author: uchimura
+  locus: whole
+  role: tradition
+  confidence: assigned
+  note: His own account in his own English, its preface dated 1895.
+  source_file: uchimura_how-i-became-a-christian_1922.txt

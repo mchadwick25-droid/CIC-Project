@@ -1,4 +1,13 @@
 source_file: theodore-studite_epistolae-et-fragmenta-in-nova-patrum-bibliotheca-t8-lat_cozza1871.txt
+
+authors_ruled:
+  george-metochites:
+    kind: metadata-omission
+    evidence: >
+      The author index has no slug for him. The volume's title page names "Georgii Metochitae diaconi Historiae
+      dogmaticae liber I et II" (title page and part II heading, file lines about 1 and 100), and the file header
+      lists George Metochites as a creator. A mechanical index-coverage gap, not an attribution dispute.
+
 assignments:
 - row_id: theodore-studite_epistolae-et-fragmenta-in-nova-patrum-bibliotheca-t8-lat_cozza1871--theodore-the-studite-letters-mai-and-cozza-nova-patrum
   work: 'Theodore the Studite, letters (Mai and Cozza, Nova Patrum Bibliotheca VIII), Latin'
@@ -10,3 +19,12 @@ assignments:
   role: tradition
   confidence: provisional
   note: 'His own letters, here in Latin translation only. The two letters to Theophanes the Confessor are among them.'
+- row_id: theodore-studite_epistolae-et-fragmenta-in-nova-patrum-bibliotheca-t8-lat_cozza1871--george-metochites-historia-dogmatica-books-i-and-ii-mai
+  work: 'George Metochites, Historia dogmatica, books I and II (Mai, Nova Patrum Bibliotheca VIII), Latin'
+  author: george-metochites
+  locus: 'part II, headed Georgii Metochitae diaconi Historiae dogmaticae liber I et II, from about OCR line 100'
+  atlas_ids:
+  - byzantine-church-after-1054
+  role: tradition
+  confidence: assigned
+  note: "George Metochites's own Historia dogmatica, books I and II, in the Latin of the Mai volume. Placed with the same role as Bekkos on this entry."

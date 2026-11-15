@@ -7,5 +7,5 @@ assignments:
   atlas_ids:
   - the-franciscan-movement
   role: tradition
-  confidence: needs-ruling
-  note: The writings attributed to Francis's companion Leo. Their date and attribution are for the tree to rule on.
+  confidence: assigned
+  note: "The writings attributed to Francis's companion Leo. Their date, and their attribution to Leo, are contested."

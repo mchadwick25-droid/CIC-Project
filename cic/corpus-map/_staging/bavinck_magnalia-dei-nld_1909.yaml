@@ -8,7 +8,7 @@ assignments:
   atlas_ids:
   - dutch-neo-calvinism-secession-churches
   role: tradition
-  confidence: provisional
+  confidence: assigned
   language: nld
   date:
     start: 1909

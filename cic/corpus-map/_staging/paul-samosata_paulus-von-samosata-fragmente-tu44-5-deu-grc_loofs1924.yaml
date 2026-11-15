@@ -7,5 +7,5 @@ assignments:
   atlas_ids:
   - antiochene-church-third-century
   role: tradition
-  confidence: needs-ruling
-  note: 'The bishop''s own words as his opponents quoted them, with the letter the bishops sent him. Which fragments are his is disputed; Loofs argues each case. The Greek OCR is garbled, so quote only after checking the page.'
+  confidence: assigned
+  note: "The bishop's own words as his opponents quoted them, with the letter the bishops sent him. Which fragments are his is disputed; Loofs argues each case. The Greek OCR is garbled, so quote only after checking the page."

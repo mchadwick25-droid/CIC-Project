@@ -10,7 +10,7 @@ works:
   locus: Voorrede at OCR lines 78-202; Section 23, De gemeente van Christus, at OCR lines
     24684-26138; add 12 to OCR line numbers; the rest not mapped
   role: tradition
-  confidence: provisional
+  confidence: assigned
   language: nld
   date:
     start: 1909
@@ -31,7 +31,7 @@ works:
   locus: Lecture I, 'The Idea of a Philosophy of Revelation', at OCR lines 344-2520; add 12
     to OCR line numbers; the rest not mapped
   role: tradition
-  confidence: provisional
+  confidence: assigned
   language: eng
   date:
     start: 1909

@@ -75,7 +75,7 @@ works:
   author: lindley
   locus: Author's preface at OCR lines 266-465; add 12 to OCR line numbers; the rest not mapped
   role: context
-  confidence: provisional
+  confidence: assigned
   language: eng
   date:
     start: 1866

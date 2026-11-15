@@ -50,7 +50,7 @@ works:
   locus: Editor's preface at OCR lines 95-140; Introduction at OCR lines 143-190; add 12 to
     OCR line numbers; the rest not mapped
   role: context
-  confidence: provisional
+  confidence: assigned
   language: eng
   date:
     formation_confidence: unknown
