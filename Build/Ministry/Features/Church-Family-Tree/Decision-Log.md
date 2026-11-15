@@ -3761,7 +3761,7 @@ The approved files are in `Who-Profiles/era4/batch11/` in this folder, and the r
 
 **Other story fields.** No title, teaser, text or caveat shows an id. 137 of the 168 story source notes say how the builder read the source ("consulted via summaries only", "known to me, not consulted"); that is a different fix and is left for Mark (Open-Gaps, below). The list is in the audit folder, `Other_Fields_Findings.md`.
 
-**What is still open.** Open-Gaps OGNUM, "The stories' 'How it connects' in the new voice (data release 45)" (2026-11-15). APPROVAL
+**What is still open.** Open-Gaps OGNUM, "The stories' 'How it connects' in the new voice (data release 45)" (2026-11-15). Approved to proceed (Mark, 2026-11-15: "use many for Le Chambon, approved, go ahead").
 
 ## 2026-11-15 — Cap ruling: the Abercius line and one check, story "How it connects" cleanup (data release 45)
 
@@ -3775,7 +3775,7 @@ Both files are in `Build/Ministry/Operations/Audits/2026-11-15_story-relations-c
 
 **Ruled (Mark, 2026-11-15, "yes, fresh cycle").** The new voice is a change order on lines that had already used their three rounds, so it gets a fresh cycle with its own three-round cap. Only these files count toward it: `V2_R1_review.md`, `V2_R2_recheck.md`, `V2_R3_recheck.md`. The earlier files in the folder above (`R1_review.md`, `R2_recheck.md`, `R3_recheck.md`, `Cap_ruling_check.md`, `Cap_ruling_check2.md`) belong to the first rewrite, which Mark set aside, and do not count toward this cycle.
 
-**After round 3.** Round 3 left five minor points and one blocking point. The minor fixes (Forty Martyrs, Cassiodorus, John the Almsgiver, Böhme, Ditt) were applied as worded under Mark's standing cap ruling of 2026-11-14, then one targeted check by a fresh Opus agent: `V2_R3_capcheck.md`, clear on all six lines. It does not count toward the cap. The blocking point, Le Chambon's "most of them Jewish children" where the card's caveat calls the numbers disputed, went to Mark with the checked fix "many of them Jewish children" on his read page. MARKRULING
+**After round 3.** Round 3 left five minor points and one blocking point. The minor fixes (Forty Martyrs, Cassiodorus, John the Almsgiver, Böhme, Ditt) were applied as worded under Mark's standing cap ruling of 2026-11-14, then one targeted check by a fresh Opus agent: `V2_R3_capcheck.md`, clear on all six lines. It does not count toward the cap. The blocking point, Le Chambon's "most of them Jewish children" where the card's caveat calls the numbers disputed, went to Mark with the checked fix "many of them Jewish children" on his read page. Mark ruled: "use many for Le Chambon, approved, go ahead" (2026-11-15).
 
 All files are in `Build/Ministry/Operations/Audits/2026-11-15_story-relations-cleanup/voice2/`.
 
