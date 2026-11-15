@@ -1,0 +1,1564 @@
+{
+ "movements:hieronymian-ascetic-literary": {
+  "legacy": "The Vulgate became the Bible of the Latin West for over a thousand years. Medieval theology argued from it, and later translators worked from it or against it. In 1546 the Council of Trent declared it the authentic text. Its rise was not immediate or uncontested. Augustine quoted Jerome's Hebrew version at times, but he never gave it the old version's authority. Writing after Jerome's death, he granted that even the Jews judged the work faithful. Yet, he wrote, 'the churches of Christ judge that no one should be preferred to the authority' of the Seventy translators. In the 590s, Pope Gregory the Great still drew on both the new Latin version and the old.\n\nIts principle mattered as much as its content. Jerome insisted on going back to the Hebrew instead of resting on the Greek. Scholars of the Renaissance and Reformation later made the same kind of appeal to the original languages. In the end, they turned it on the Vulgate itself.\n\nThe circle left a second, quieter pattern too — wealthy women funding, hosting, and directing serious biblical scholarship — which recurs constantly in later Christian history. The caves beneath the Church of the Nativity in Bethlehem, where tradition places Jerome's study, are still shown to pilgrims."
+ },
+ "movements:cyrillo-methodian-slavic-christianity": {
+  "documentedStories": [
+   {
+    "title": "The Argument in Venice About Three Languages",
+    "when": "867",
+    "tier": "2",
+    "verification": "from reference summaries; primary text not yet read",
+    "teaser": "On the way to Rome, Constantine is surrounded by Latin clergy who say that God may be praised only in Hebrew, Greek and Latin. He asks whether God sends rain on everyone.",
+    "text": "The Life of Constantine, written by a disciple within a few years of his death in 869, gives the mission’s own account of the objection it faced. Constantine and Methodius had been in Moravia for more than three years teaching the Slavs to read the Gospel and pray the liturgy in their own tongue, and were traveling to Rome with disciples to be ordained when they stopped at Venice. There, the Life says, ‘bishops, priests and monks gathered against him like ravens against a falcon’ and put the case: only three languages were fit for the worship of God, the three in which Pilate had written the inscription over the cross. Constantine answered, the Life records, with a question — does not God send rain on all alike, and does the sun not shine on all? And he quoted Paul at length — ‘I would rather speak five words with my understanding than ten thousand in a tongue’ — and Psalm 116, ‘Praise the Lord, all nations’. In Rome, carrying the relics of Clement that he had found in the Crimea, he was received by Pope Hadrian II, who laid the Slavonic books on the altar of St Mary Major and had the liturgy sung in Slavonic in four Roman churches. Constantine fell ill there, took the monastic name Cyril, and died in February 869, asking his brother not to abandon the work for the sake of their mountain monastery at home.",
+    "caveat": "The Life of Constantine is a disciple’s hagiography with a polemical purpose and stages the debate as a set-piece; the papal approval is corroborated by Hadrian II’s letter as quoted in the Life of Methodius. The identity of the Venetian ‘trilinguists’ is unrecorded.",
+    "sources": [
+     {
+      "work": "Life of Constantine and Life of Methodius (trans. Marvin Kantor, Medieval Slavic Lives of Saints and Princes, Michigan Slavic Translations 5, 1983)",
+      "type": "primary",
+      "note": "The two vitas — the mission's own memory of itself; facing-page Old Church Slavonic and English, full text free online (kroraina.com/promacedonia.org)."
+     },
+     {
+      "work": "Chernorizets Hrabar, On the Letters (O pismenech)",
+      "type": "primary",
+      "note": "The first-generation defense of the Slavic alphabet against the 'trilingual' objection — the mission's program argued from inside. English in K. Petkov, The Voices of Medieval Bulgaria (Brill, 2008)."
+     },
+     {
+      "work": "The earliest Slavonic liturgical/biblical manuscripts (e.g. Kiev Folia) as direct evidence of the translation program",
+      "type": "primary"
+     },
+     {
+      "work": "A. P. Vlasto, The Entry of the Slavs into Christendom (Cambridge, 1970)",
+      "type": "secondary",
+      "note": "Standard English survey of Slavic Christianization with full Cyrillo-Methodian coverage."
+     },
+     {
+      "work": "Francis Dvornik, Byzantine Missions among the Slavs (1970)",
+      "type": "secondary",
+      "note": "The classic study of the mission in its Byzantine and papal politics."
+     },
+     {
+      "work": "Cambridge History of Christianity, vol. 3, ch. 6: 'Slav Christianities, 800-1100' (Jonathan Shepard)",
+      "type": "reference"
+     }
+    ]
+   },
+   {
+    "title": "Methodius in the Bavarian Prison",
+    "when": "870–873",
+    "tier": "1",
+    "verification": "from reference summaries; primary text not yet read",
+    "teaser": "The pope’s archbishop for the Slavs is seized by the Frankish bishops of Bavaria, tried before them, struck with a whip, and held in a monastery for two and a half years until Rome finds out.",
+    "text": "Hadrian II had made Methodius archbishop of Pannonia and Moravia in 869, with the pope’s letter permitting the Slavonic liturgy provided the Epistle and Gospel were read first in Latin. The bishops of Bavaria — Salzburg, Passau, Freising — regarded Moravia and Pannonia as their mission territory, and when the Moravian prince Rastislav was overthrown by his nephew with Frankish help in 870, they took their chance. Methodius was seized, brought before a synod at Regensburg in the presence of King Louis the German, and tried. The Life of Methodius gives fragments of the exchange: told he was teaching in their territory, he answered that if he had thought it theirs he would have kept away, but it was St Peter’s; when the bishops became heated, he told them they were sweating like men arguing round a stove. Bishop Hermanrich of Passau struck at him with a whip. He was imprisoned in a monastery in Swabia — probably Ellwangen — in the open in winter, and held for two and a half years. Pope John VIII’s letters survive, and they are furious: to Hermanrich, that his savagery ‘would bring tears to a stone’, and suspension from office; to Louis, that Pannonia belonged to Rome; to the papal legate, orders to free Methodius and bring him back. He was restored, and worked in Moravia for twelve more years, translating, the Life says, most of the Old Testament with two shorthand priests in eight months.",
+    "caveat": "The Life of Methodius is a disciple’s account; the papal letters of 873 are authentic and independently confirm the imprisonment, its length and Hermanrich’s violence. The place of confinement is inferred. The sale of disciples as slaves is from the later Life of Clement of Ohrid.",
+    "sources": [
+     {
+      "work": "Life of Methodius (Vita Methodii), ch. 9–10",
+      "type": "primary",
+      "note": "The trial and imprisonment (Kantor’s translation)."
+     },
+     {
+      "work": "John VIII, Letters to Hermanrich of Passau, Adalwin of Salzburg, Anno of Freising and Louis the German (873)",
+      "type": "primary",
+      "note": "Latin in MGH Epp. 7; English excerpts in Dvornik and in Vlasto, The Entry of the Slavs into Christendom (Cambridge, 1970)."
+     },
+     {
+      "work": "Theophylact of Ohrid, Life of Clement of Ohrid, ch. 11–14",
+      "type": "primary",
+      "note": "The expulsion of the disciples after 885; Greek with English in Iliev, Theophylact of Ohrid’s Long Life of St Clement (Sofia, 1995)."
+     },
+     {
+      "work": "A. P. Vlasto, The Entry of the Slavs into Christendom (Cambridge, 1970)",
+      "type": "reference",
+      "note": "On the Bavarian bishops and the imprisonment."
+     }
+    ]
+   }
+  ]
+ },
+ "movements:observant-reform-and-popular-preaching": {
+  "legacy": "The Observance won. When Leo X divided the Franciscans in 1517, the Observants took the order's leadership. By the 1560s the Capuchins stood beside them. The Council of Trent then let other friars own land and buildings, but not these two. The same pattern of reformed against unreformed shaped the Dominicans and Augustinians too. Two smaller things passed into ordinary use and outlived the movement. One is the monti di pietà, low-interest town pawn-banks that Observant friars promoted from the 1460s as an answer to ruinous lending. The one founded at Siena in 1472 still trades as a bank today. The other is the radiant IHS monogram that Bernardino held up at the end of his sermons. It became a fixture of Catholic devotional art."
+ },
+ "movements:late-medieval-lay-parish-piety": {
+  "sources": [
+   {
+    "work": "Churchwardens' accounts: Morebath (ed. Binney, 1904), All Saints' Bristol (ed. Burgess), Bassingbourn and kin",
+    "type": "primary"
+   },
+   {
+    "work": "Books of hours and primers: The Prymer or lay folks' prayer book (ed. Littlehales, EETS, 1895-97) and the mass-market horae",
+    "type": "primary",
+    "note": "The ordinary household's actual prayer equipment, surviving in thousands of worn copies."
+   },
+   {
+    "work": "Wills and gild records: bequests for obits, lights, and fabric; the 1389 gild returns; The Lay Folks Mass Book (EETS)",
+    "type": "primary",
+    "note": "Practice documented at the moment of death and in fraternity - the two points where ordinary people wrote themselves down."
+   },
+   {
+    "work": "John Mirk, Festial (ed. Powell, EETS, 2009-11)",
+    "type": "primary",
+    "note": "The era's most-copied English sermon collection, written for parish priests preaching to lay congregations - the closest surviving proxy for what the pew actually heard."
+   },
+   {
+    "work": "Eamon Duffy, The Stripping of the Altars: Traditional Religion in England, c.1400-c.1580 (Yale, 1992; 2nd ed. 2005), with The Voices of Morebath (2001)",
+    "type": "secondary",
+    "note": "Duffy's revisionism is a position in a live historiographical argument, not a settled conclusion."
+   },
+   {
+    "work": "Cambridge History of Christianity vol. 4, ch. 15 'Sacramental life' (Rubin); cf. ch. 21 'Saints and pilgrimages' (Vauchez)",
+    "type": "reference",
+    "note": "The parish's sacramental round is this chapter's ground. Its coverage ends in 1517, before this practice's continuation into Tridentine parish renewal, which a later volume would cover."
+   }
+  ],
+  "documentedStories": [
+   {
+    "title": "Alice Chester Pays for the Rood Loft",
+    "when": "1470s–1485",
+    "tier": "1",
+    "verification": "from reference summaries; primary text not yet read",
+    "teaser": "A Bristol widow who ran her late husband’s business commissions a new rood loft, a new altarpiece and a crane for the quay, and her parish writes it all down so that she will be prayed for by name.",
+    "text": "All Saints’ in Bristol kept, from the 1460s, a Church Book in which the churchwardens recorded what the parish’s benefactors had given, ‘so that they should not be forgotten but be had in remembrance and prayed for’. The longest entry is for Alice Chester, widow of Henry Chester, a draper and ironmonger, who after his death in 1470 carried on his trade in iron, wine and cloth and, the book says, prospered. She had a new rood loft built across the chancel arch, with images of the Crucifixion, Mary and John, and twenty-two other figures, ‘carved and gilded’, at a cost the wardens record; she gave a new tabernacle for the image of Jesus, a gilt altarpiece for the high altar with the Passion carved on it, vestments, a silver-gilt cross, and a new front for the Lady altar; she paid for the church’s crane on the quay — the parish owned property — to be rebuilt, ‘for the common profit of the town’; and she left money for a priest to sing for her soul and her husband’s. The book records that she did these things ‘in her lifetime, with her own hands’, so that the parish would see them done. The parish’s account of what she paid for — a rood loft to look up at during Mass, an altarpiece of the Passion, a crane — is the kind of evidence this Christian tradition leaves, and it is more candid than a creed.",
+    "caveat": "The Church Book is the parish’s own record, written to secure prayer for donors and accurate about sums; nothing of Alice Chester’s own voice survives beyond her will. The rood loft was destroyed at the Reformation.",
+    "sources": [
+     {
+      "work": "Churchwardens' accounts: Morebath (ed. Binney, 1904), All Saints' Bristol (ed. Burgess), Bassingbourn and kin",
+      "type": "primary"
+     },
+     {
+      "work": "Books of hours and primers: The Prymer or lay folks' prayer book (ed. Littlehales, EETS, 1895-97) and the mass-market horae",
+      "type": "primary",
+      "note": "The ordinary household's actual prayer equipment, surviving in thousands of worn copies."
+     },
+     {
+      "work": "Wills and gild records: bequests for obits, lights, and fabric; the 1389 gild returns; The Lay Folks Mass Book (EETS)",
+      "type": "primary",
+      "note": "Practice documented at the moment of death and in fraternity - the two points where ordinary people wrote themselves down."
+     },
+     {
+      "work": "John Mirk, Festial (ed. Powell, EETS, 2009-11)",
+      "type": "primary",
+      "note": "The era's most-copied English sermon collection, written for parish priests preaching to lay congregations - the closest surviving proxy for what the pew actually heard."
+     },
+     {
+      "work": "Eamon Duffy, The Stripping of the Altars: Traditional Religion in England, c.1400-c.1580 (Yale, 1992; 2nd ed. 2005), with The Voices of Morebath (2001)",
+      "type": "secondary",
+      "note": "Duffy's revisionism is a position in a live historiographical argument, not a settled conclusion."
+     },
+     {
+      "work": "Cambridge History of Christianity vol. 4, ch. 15 'Sacramental life' (Rubin); cf. ch. 21 'Saints and pilgrimages' (Vauchez)",
+      "type": "reference",
+      "note": "The parish's sacramental round is this chapter's ground. Its coverage ends in 1517, before this practice's continuation into Tridentine parish renewal, which a later volume would cover."
+     }
+    ]
+   }
+  ]
+ },
+ "movements:latin-papal-church-avignon-to-lateran-v": {
+  "continuesAs": "the-tridentine-church",
+  "legacy": "This is a continuous institution. The same church, reorganized by the Council of Trent a generation later, is the Roman Catholic Church of today. Its material legacy from these centuries is hard to miss: the papal palace at Avignon, the Vatican Library, the Sistine Chapel, and St Peter's, begun in 1506. Its legacy in church law is quieter and has lasted longer. The claim that a general council can judge a pope was beaten but never quite died. In 1682 the French clergy appealed to the rulings of Constance in their Gallican Articles. In 1870 the First Vatican Council turned the claim down once more. And the reforms the councils of the 1400s kept voting for, and failed to enforce, were still waiting when Luther wrote."
+ },
+ "movements:the-english-reformation-and-elizabethan-settleme": {
+  "people": [
+   {
+    "person": "william-tyndale"
+   },
+   {
+    "name": "Thomas Cranmer",
+    "year": 1533,
+    "voice": 0,
+    "author": "cranmer",
+    "held": "cranmer_miscellaneous-writings-and-letters_cox1846--letters-of-thomas-cranmer"
+   },
+   {
+    "name": "John Jewel",
+    "year": 1562,
+    "voice": 2,
+    "author": "jewel",
+    "held": "jewel_apologia-ecclesiae-anglicanae-lat_1838--apologia-ecclesiae-anglicanae-1562-the-latin-original"
+   },
+   {
+    "name": "John Foxe",
+    "year": 1563,
+    "voice": 4,
+    "author": "foxe",
+    "held": "foxe_acts-and-monuments-v7_cattley-townsend1837--the-acts-and-monuments-vol-vii-the-marian-persecution-of-1555"
+   },
+   {
+    "name": "Richard Hooker",
+    "year": 1593,
+    "voice": 3,
+    "author": "hooker",
+    "held": "hooker_laws-of-ecclesiastical-polity-books-1-5_keble1850--of-the-laws-of-ecclesiastical-polity-preface-and-books-i-v"
+   }
+  ]
+ },
+ "movements:the-society-of-jesus": {
+  "relationsSummary": "A driving force of Catholic reform. Its theologians spoke at the Council of Trent, and its missions began the churches of Japan and China.",
+  "people": [
+   {
+    "person": "ignatius-of-loyola"
+   },
+   {
+    "name": "Francis Xavier",
+    "year": 1541,
+    "voice": 1,
+    "author": "francis-xavier",
+    "held": "francis-xavier_monumenta-xaveriana-v1-lat_1899-1900--monumenta-xaveriana-tomus-i-xavier-s-letters-and-other"
+   },
+   {
+    "name": "Peter Canisius",
+    "year": 1555,
+    "voice": 3,
+    "author": "canisius",
+    "held": "canisius_summe-of-christian-doctrine_anon1622--a-summe-of-christian-doctrine"
+   }
+  ]
+ },
+ "movements:tridentine-parish-renewal-borromean-milan": {
+  "id": "tridentine-parish-renewal-borromean-milan",
+  "name": "Tridentine Parish Renewal - Borromean Milan",
+  "shortName": "Tridentine Milan",
+  "why": "Archbishop Charles Borromeo took the Council of Trent's decrees and worked out what they meant for one ordinary parish: founding seminaries, walking visitations through remote alpine valleys, and issuing instructions detailed enough to help standardize the enclosed confessional box still found in Catholic churches. When plague struck Milan in 1576, he stayed in the city rather than flee it.",
+  "sources": [
+   {
+    "work": "Acta Ecclesiae Mediolanensis (1582) - Borromeo's provincial councils, diocesan synods, and instructions (incl. Instructiones fabricae, 1577)",
+    "type": "primary",
+    "note": "The model diocese's own legislation, later adopted across the Catholic world. Available only in Latin and Italian."
+   },
+   {
+    "work": "The Milan visitation records - Borromeo's and successors' parish visitations across the archdiocese",
+    "type": "primary",
+    "note": "A Catholic counterpart to the Lutheran Saxon visitation records, showing ordinary parish life. Largely archival material in Italian."
+   },
+   {
+    "work": "Lay formation records: Schools of Christian Doctrine rules and catechist rosters (laymen and laywomen teaching), confraternity statutes and registers",
+    "type": "primary",
+    "note": "Shows the renewal as ordinary people's weekly practice."
+   },
+   {
+    "work": "Giussano's Life of St Charles Borromeo (1610; Eng. trans. 1884) and the canonization-process testimony (1604-10)",
+    "type": "primary",
+    "note": "Written for a hagiographic purpose; the canonization testimony is structured, guided evidence rather than a free-standing account."
+   },
+   {
+    "work": "Wietse de Boer, The Conquest of the Soul (Brill, 2001), with Headley & Tomaro (eds.), San Carlo Borromeo (1988)",
+    "type": "secondary",
+    "note": "The current standard work on how Borromeo's discipline was actually lived."
+   },
+   {
+    "work": "Cambridge History of Christianity vol. 6, ch. 9 'Redefining Catholicism: Trent and beyond' (Bireley), with ch. 12 (Ditchfield)",
+    "type": "reference"
+   }
+  ],
+  "longDescription": "The Council of Trent decided what Catholic reform ought to mean; Milan under Archbishop Charles Borromeo showed what it looked like in a parish. From 1565 Borromeo set about redesigning a whole archdiocese around the question of what a parish priest was actually for — founding seminaries to train them, holding provincial councils and diocesan synods, walking his own visitations through remote alpine valleys, and issuing minutely detailed instructions on everything from the fabric of a church building to the enclosed confessional box, which his diocese did much to standardize. He also mobilized the laity, through Schools of Christian Doctrine in which ordinary men and women taught catechism to children and through confraternities that organized charity. When plague struck Milan in 1576 he stayed in the city, and his reputation as a pastor was made.",
+  "teaser": "Milan and Lombardy, 1560 to 1610 — an archbishop who took the Council of Trent's decrees and worked out, parish by parish, what they would actually change.",
+  "documentedStories": [
+   {
+    "title": "Borromeo Walks Barefoot Through the Plague",
+    "when": "August 1576 – 1577",
+    "tier": "2",
+    "verification": "from reference summaries; primary text not yet read",
+    "teaser": "When plague reaches Milan and the governor and the nobility leave, the archbishop stays, organizes the lazaretto, feeds the quarantined from his own revenues, and leads a penitential procession through the city with a rope round his neck and the relic of the Holy Nail.",
+    "text": "The plague entered Milan in August 1576, and by October the Spanish governor had withdrawn to Vigevano and most of the nobility to their estates. Charles Borromeo stayed. He turned the archbishop’s palace into a supply depot and sold or pawned its furnishings, the tapestries and his own bed, to buy food; he organized the lazaretto outside the Porta Orientale, where the sick were sent, with priests and Capuchins to serve it, and visited it himself; he had altars set up at street corners so that the quarantined could hear Mass from their windows; he arranged for the confessors to hear confessions through the windows of infected houses; and he had the clergy sign a promise to stay, which most did — his household priests who died are named. In October he led three penitential processions through the city, barefoot, with a rope round his neck as a sign of guilt, carrying the relic of the Holy Nail from the cathedral. The city council, which had quarreled with him for a decade over jurisdiction, asked him afterwards to remain as its protector. Some seventeen thousand Milanese died, of about a hundred and twenty thousand; the plague was afterwards called the plague of San Carlo. His canonization in 1610 rested largely on this year, and the model of the Tridentine bishop — resident, visiting, in the streets — was built on it.",
+    "caveat": "Giussano’s Life and the canonization testimony are hagiographic and were produced for the cause; the plague measures are corroborated by the city’s own health-board records and by the governor’s correspondence. The mortality figures are contemporary estimates.",
+    "sources": [
+     {
+      "work": "Giovanni Pietro Giussano, The Life of St Charles Borromeo (1610), book IV",
+      "type": "primary",
+      "note": "English translation (Burns and Oates, 1884), hosted at the Internet Archive."
+     },
+     {
+      "work": "Acts of the Canonisation Process of Charles Borromeo (1604–1610), depositions on the plague",
+      "type": "primary",
+      "note": "Latin; excerpts in Headley and Tomaro (eds), San Carlo Borromeo (Folger, 1988)."
+     },
+     {
+      "work": "Wietse de Boer, The Conquest of the Soul: Confession, Discipline, and Public Order in Counter-Reformation Milan (Brill, 2001)",
+      "type": "reference",
+      "note": "On Borromeo’s Milan."
+     }
+    ]
+   },
+   {
+    "title": "The Humiliati Try to Shoot the Archbishop at Prayer",
+    "when": "26 October 1569",
+    "tier": "1",
+    "verification": "from reference summaries; primary text not yet read",
+    "teaser": "A lay order of Lombard wool-workers, founded on humility four centuries earlier, has become rich and slack. Borromeo tries to reform it; four of its members hire a priest of the order to kill him during vespers, and the whole order is suppressed.",
+    "text": "The Humiliati had begun in the twelfth century as penitent wool-workers and by the sixteenth had dwindled to some hundred and seventy members in richly endowed houses across Lombardy, their provosts living on the revenues. Pius V made Borromeo their protector in 1567; he imposed enclosure, common life and the surrender of private income, and deposed provosts who refused. Four of them met at Brera in 1569 and, according to the trial records, raised money among the houses to have him killed. They found a member of the order, a priest named Girolamo Donato, called Farina, who agreed for forty gold scudi. On the evening of 26 October, as Borromeo knelt at vespers in the chapel of his palace, singing with his household the antiphon ‘Let not your heart be troubled’, Farina fired an arquebus at his back from a few paces. The ball struck his rochet and fell to the floor, leaving a bruise; whether the charge was weak or the weapon loaded with shot is disputed, and the tradition called it a miracle. Borromeo forbade the household to pursue the assassin and finished the office. Farina was caught in Piedmont; he and the three surviving provosts were tried by a papal commission and hanged in 1570, the fourth having died in prison. Pius V suppressed the Humiliati entirely in February 1571 and gave their houses to other orders. An order founded on humility ended by hiring a murder, and the reformer whose zeal provoked it inherited its property.",
+    "caveat": "The trial records and Giussano agree on the sequence; the ‘miracle’ of the bullet is the hagiographic reading of a documented failure to kill. The Humiliati’s side survives only in the confessions of the accused.",
+    "sources": [
+     {
+      "work": "Giussano, The Life of St Charles Borromeo (1610), book II, ch. 8–9",
+      "type": "primary",
+      "note": "English translation (1884), vol. 1."
+     },
+     {
+      "work": "Pius V, Bull Quemadmodum solicitus (7 February 1571), suppressing the Humiliati",
+      "type": "primary",
+      "note": "Latin in the Bullarium Romanum, vol. 7."
+     },
+     {
+      "work": "Frances Andrews, The Early Humiliati (Cambridge, 1999), epilogue",
+      "type": "reference",
+      "note": "On the order’s decline and suppression."
+     }
+    ]
+   }
+  ]
+ },
+ "movements:the-kyiv-mohyla-orthodox-revival": {
+  "sources": [
+   {
+    "work": "Mohyla's confessional corpus: the Orthodox Confession (Kyiv synod 1640; Syrigos's revision approved Iasi 1642; Eng. trans. from Overbeck 1898 onward) and the Short Catechism (1645)",
+    "type": "primary",
+    "note": "The printed Confession is Syrigos's Greek revision, not exactly the original Kyiv text; the 1645 Short Catechism stays closer to Mohyla's own hand. Together they show Orthodoxy answering Reformation and Tridentine pressure with its own confessional formation."
+   },
+   {
+    "work": "The Trebnyk of 1646 (Mohyla's Euchologion) with its pastoral rubrics",
+    "type": "primary",
+    "note": "The revival's most parish-facing text — formation carried out through worship itself."
+   },
+   {
+    "work": "Academy and brotherhood records: the Kyiv Epiphany brotherhood statutes and school records, the Mohyla Collegium's curriculum, disputation, and panegyric materials",
+    "type": "primary",
+    "note": "Latin-style schooling put in service of Orthodoxy — the underlying identity tension is visible in the syllabus itself."
+   },
+   {
+    "work": "The apologetic-patristic layer: Kopystens'kyj's Palinodija (1620s) and the Kyiv Caves Lavra press's patristic and hagiographic printing program",
+    "type": "primary",
+    "note": "The revival's scholarly self-defense and publishing arm."
+   },
+   {
+    "work": "Ihor Sevcenko, 'The Many Worlds of Peter Mohyla' (HUS, 1984), with current Kyivan-academy scholarship (Sharipova/Charipova)",
+    "type": "secondary",
+    "note": "A classic orientation essay, plus current archive-based studies."
+   },
+   {
+    "work": "Cambridge History of Christianity vol. 6, ch. 18 'Latin Christianity and eastern Orthodoxy' (Dmitriev)",
+    "type": "reference",
+    "note": "No dedicated chapter on this Ruthenian revival was found in volume 5."
+   }
+  ]
+ },
+ "movements:the-tridentine-church": {
+  "id": "the-tridentine-church",
+  "name": "The Tridentine Church",
+  "shortName": "Tridentine Church",
+  "informalName": "The Church of Trent and the Counter-Reformation",
+  "sourcing": "Rich: Trent's acta and catechism, the reformed liturgical books, Propaganda Fide's archive, the new orders' records; the era of Catholic record-keeping remade",
+  "relationsSummary": "The Catholic Church's answer to the Reformation: the Council of Trent's three periods between 1545 and 1563, the resulting Roman Catechism and Tridentine Missal, Pope Sixtus V's reorganized curia, and the missionary office Propaganda Fide founded in 1622. Its story also includes the Index of Forbidden Books and the Roman Inquisition, new active orders such as the Capuchins, a wider generation of lay devotion, the Greek College in Rome, and the Catholic remainder of the Augustinian Hermits after the Reformation split the order.",
+  "why": "The Council of Trent met across three widely separated periods between 1545 and 1563, restating Catholic teaching on Scripture, justification and the sacraments, and ordering bishops to actually live in their dioceses and found seminaries to train priests. What followed was thorough standardization — a single Roman Catechism, Missal and Breviary for the whole Latin church — alongside new active orders, the Capuchins, Ursulines and Oratorians, doing pastoral work the older monastic rules had never been designed for.",
+  "longDescription": "The Catholic Church's answer to the Reformation took decades to assemble and then held for four centuries. The Council of Trent met in three widely separated periods between 1545 and 1563, restating Catholic teaching on Scripture and tradition, justification and the sacraments, and — as important in practice — ordering bishops to reside in their dioceses and to found seminaries. What followed was wholesale standardization: a Roman Catechism, a revised Missal and Breviary issued for the whole Latin church, and in 1622 a Roman office for the missions, Propaganda Fide. The same period produced the Roman Inquisition and the Index of Forbidden Books, and a wave of new active orders — Capuchins, Ursulines, Oratorians — doing work the older monastic rules had never been designed for.",
+  "voices": [
+   "Pope Paul III — who finally convened the Council of Trent in 1545, after decades of delay",
+   "Pope Pius V — who issued the Roman Catechism, Breviary and Missal that carried Trent's decisions into every parish",
+   "Charles Borromeo — Archbishop of Milan, whose diocese became the working model of what Trent's decrees meant on the ground",
+   "Angela Merici — founder of the Ursulines in 1535, the first order of women organized for the teaching of girls",
+   "Robert Bellarmine — Jesuit cardinal whose controversial writings were the era's standard Catholic reply to Protestant theology"
+  ],
+  "experienceToday": [
+   {
+    "text": "The Museo Diocesano Tridentino, Trento — in the palace on the cathedral square, with a gallery devoted to the Council of Trent itself",
+    "url": "https://www.museodiocesanotridentino.it/"
+   }
+  ],
+  "documentedStories": [
+   {
+    "title": "The Primate of Spain in the Inquisition’s Prison",
+    "when": "1559 – 1576",
+    "tier": "1",
+    "verification": "from reference summaries; primary text not yet read",
+    "teaser": "The archbishop of Toledo, fresh from the deathbed of Charles V, is arrested by the Spanish Inquisition for a catechism the Council of Trent will approve. He spends the next seventeen years in custody and dies eighteen days after his sentence.",
+    "text": "Bartolomé Carranza, a Dominican theologian, had been the emperor's man at Trent, had helped Queen Mary restore Catholicism in England, and in 1557 was made archbishop of Toledo, primate of Spain. In 1558 he published a Commentary on the Christian Catechism in Spanish, and in September that year attended Charles V's deathbed at Yuste. In August 1559 the Spanish Inquisition, under Fernando de Valdés, arrested him at Torrelaguna on charges of Lutheran opinions drawn from his catechism and from witnesses to his conversation, including what he was said to have told the dying emperor about justification. The trial had no end. Carranza was held in Valladolid for seven years while inquisitors, his own Dominican brethren and the Spanish universities fought over his book; the Council of Trent, in 1563, had the Catechism examined and approved it. Pius V demanded the case for Rome, and in 1567 Carranza was moved to Castel Sant'Angelo, where he stayed nine years more, Pius dying before he could judge him. On 14 April 1576 Gregory XIII pronounced: the archbishop was not convicted of heresy but was vehemently suspect of it, must abjure sixteen propositions, was suspended for five years, and his catechism was prohibited. Carranza abjured, said Mass at St John Lateran, fell ill, and died on 2 May 1576, protesting his innocence. He had been archbishop for nineteen years and in his diocese for less than one.",
+    "caveat": "The process, in twenty-odd volumes, is fully published and the facts are not in dispute; whether Carranza held anything a Catholic could not hold is still argued, and the case is usually read as a contest between Valdés's Inquisition and Rome over who judged a Spanish archbishop. Trent's approval of the Catechism is in the council's records.",
+    "sources": [
+     {
+      "work": "Fray Bartolomé Carranza: Documentos históricos, ed. J. Ignacio Tellechea Idígoras (Madrid, 1962–1994)",
+      "type": "primary",
+      "note": "The complete process, from the arrest to the sentence."
+     },
+     {
+      "work": "Bartolomé Carranza, Comentarios sobre el Catechismo christiano (Antwerp, 1558)",
+      "type": "primary",
+      "note": "The book on which the charges rested."
+     },
+     {
+      "work": "J. Ignacio Tellechea Idígoras, El arzobispo Carranza y su tiempo, 2 vols. (Madrid, 1968)",
+      "type": "reference",
+      "note": "The standard study by the editor of the process."
+     },
+     {
+      "work": "Henry Kamen, The Spanish Inquisition: A Historical Revision (New Haven, 1997)",
+      "type": "reference",
+      "note": "Sets the case within the Inquisition's campaign of 1558–1559."
+     }
+    ]
+   },
+   {
+    "title": "The Last Day at Trent",
+    "when": "3–4 December 1563",
+    "tier": "1",
+    "verification": "from reference summaries; primary text not yet read",
+    "teaser": "With the pope ill and the legates afraid of a vacancy, the council's last decrees are read in haste, the old ones read again, and the Cardinal of Lorraine leads the fathers in acclamations that end with anathema to all heretics. The secretary notes that many wept.",
+    "text": "The Council of Trent's last session opened on 3 December 1563 and ran into the next day, because Pius IV was ill and the legates were afraid of what a vacancy in Rome would do to a council that had already been suspended twice. The decrees on purgatory, the invocation of saints, images, indulgences and the reform of religious orders were read and voted in haste; the decrees of the first two periods, from 1545 to 1552, were read again so that the French and the Spaniards who had not been present could assent to them. Then the Cardinal of Lorraine, who had come to Trent a year earlier as the French crown's critic of Rome, stood and led the acclamations, and the fathers answered him: to the pope, long life; to the emperors Charles and Ferdinand, eternal memory; to the legates, thanks; and finally, ‘Anathema to all heretics,’ answered, ‘Anathema, anathema.’ The secretary, Angelo Massarelli, recorded that many of the bishops wept, and that men who had argued for years embraced. Two hundred and fifty-five signed. Pius IV confirmed the decrees on 26 January 1564. Massarelli's diaries, kept from the first session onward, remain the fullest record of the council. The council never wrote its own history; the two great histories were written by an enemy, Paolo Sarpi, and an answerer, Sforza Pallavicino, and the fight between them lasted as long as the decrees.",
+    "caveat": "The decrees, the acclamations and the signatures are in the printed acts; Massarelli's diary supplies the tears and the haste. The judgment that the closing was rushed is the council's own contemporaries' and every historian's since.",
+    "sources": [
+     {
+      "work": "The Canons and Decrees of the Sacred and Oecumenical Council of Trent, trans. J. Waterworth (London, 1848), Session XXV with the Acclamations of the Fathers",
+      "type": "primary",
+      "note": "English of the decrees and of the acclamations at the close."
+     },
+     {
+      "work": "Concilium Tridentinum: Diariorum, Actorum, Epistularum, Tractatuum nova collectio, ed. Görres-Gesellschaft (Freiburg, 1901–), vols. 1–3: Massarelli's diaries",
+      "type": "primary",
+      "note": "The secretary's day-by-day record."
+     },
+     {
+      "work": "Paolo Sarpi, Historia del Concilio Tridentino (London, 1619)",
+      "type": "primary",
+      "note": "The hostile Venetian history, written from documents by a contemporary."
+     },
+     {
+      "work": "John W. O'Malley, Trent: What Happened at the Council (Cambridge, MA, 2013)",
+      "type": "reference",
+      "note": "Narrative of the third period and the closing session."
+     }
+    ]
+   },
+   {
+    "title": "Twenty-Eight Names in a Book at Brescia",
+    "when": "25 November 1535 – 1544",
+    "tier": "1",
+    "verification": "from reference summaries; primary text not yet read",
+    "teaser": "A sixty-year-old laywoman and twenty-eight companions write their names in a register and call themselves the Company of St Ursula. They take no solemn vows, wear no habit and live at home, and the Latin church has no name for what they are.",
+    "text": "On 25 November 1535, in Brescia, Angela Merici and twenty-eight women wrote their names in a book in the oratory of St Afra and called themselves the Company of St Ursula. Angela was about sixty, a Franciscan tertiary who had lived as a laywoman, gone on pilgrimage to the Holy Land and to Rome, and had for years taught girls and nursed the sick in the city. What she founded was, by the standards of the age, hardly an order at all: the members took no solemn vows, wore no habit, lived in their own homes, most of them with their families or as servants, met for instruction, and put themselves under a rule that asked for virginity, poverty and obedience, for daily prayer and fasting, and for the care of others. The rule was approved by the bishop's vicar in 1536; Angela dictated her Counsels and her Testament, addressed to the women who would govern the company after her, shortly before her death in January 1540. Paul III approved the Company in 1544. It was Charles Borromeo who, bringing it to Milan, turned it toward the teaching of girls, and the following century that turned the Ursulines into enclosed nuns with schools; by 1650 they were the largest body of teaching women in the Catholic world. What Angela made was something the Latin church did not yet have a name for: a company of consecrated women living in the world.",
+    "caveat": "The founding register, the Rule of 1536 and the Counsels and Testament survive, the last two as dictated to a secretary. The number of companions is given as twenty-eight in the earliest record; Angela's age is uncertain within a few years. That the company was later enclosed is history, not Angela's design.",
+    "sources": [
+     {
+      "work": "Angela Merici, Regola, Ricordi (Counsels) and Testamento (Brescia, 1536–1540)",
+      "type": "primary",
+      "note": "The founding documents; English in the modern editions of the Ursuline sources."
+     },
+     {
+      "work": "Querciolo Mazzonis, Spirituality, Gender, and the Self in Renaissance Italy: Angela Merici and the Company of St. Ursula (Washington, DC, 2007)",
+      "type": "reference",
+      "note": "The current study of the founding and the early company."
+     },
+     {
+      "work": "Teresa Ledóchowska, Angela Merici and the Company of St Ursula, 2 vols. (Rome, 1968)",
+      "type": "reference",
+      "note": "The documentary history of the company's first century."
+     }
+    ]
+   }
+  ]
+ },
+ "movements:ethiopian-christianity-gragn-to-fasilides": {
+  "sourcing": "A genuine inside voice survives: royal chronicles, Emperor Galawdewos's Confession of 1555, and anti-Catholic polemics from the Jesuit century. The wars of this period destroyed many manuscripts, which itself limits what can be known.",
+  "documentedStories": [
+   {
+    "title": "‘We Restore to You the Faith of Your Forefathers’",
+    "when": "June 1632",
+    "tier": "1",
+    "verification": "from reference summaries; primary text not yet read",
+    "teaser": "After a battle in which eight thousand of his own peasants die for the old faith, an emperor who has spent ten years imposing Rome has a proclamation read: the former clergy may return to their churches and say their own liturgy, and the people are to rejoice.",
+    "text": "Emperor Susenyos had accepted the Roman faith in 1622 and, under the Jesuit patriarch Afonso Mendes from 1626, had tried to impose it on the country: the Sabbath abolished, the calendar changed, the clergy re-ordained, the people re-baptized, and the church's fasts and feasts realigned. The revolts came one after another, in Lasta, in Gojjam, among the monks, and were put down with slaughter. In June 1632 Susenyos defeated the rebels of Lasta in a battle in which, the chronicle says, eight thousand peasants died. His son Fasiladas, riding over the field with him afterwards, is recorded as saying that the dead were not pagans or Muslims but his own people, Christians, and that this was not victory but the slaughter of the kingdom. On 24 June 1632 Susenyos had a proclamation read: ‘Hear ye, hear ye. We first gave you this faith believing that it was good. But innumerable people have been slain — Julius, Gabriel, Takla Giyorgis, Sarsa Krestos, and now these peasants. For which reason we restore to you the faith of your forefathers. Let the former clergy return to their churches, let them put in their altars, let them say their own liturgy. And do ye rejoice.’ The chronicle says the people rejoiced through the night. Susenyos died three months later, and Fasiladas, who succeeded him, expelled Mendes and the Jesuits in 1633 and closed the country to Europeans.",
+    "caveat": "The proclamation is preserved both in the royal chronicle and in the Jesuit Almeida's history, which agree in substance; the English wording used here follows the Portuguese as rendered by Pankhurst. Fasiladas's words on the battlefield come from the same sources and may be shaped by hindsight. The casualty figure is the chronicle's.",
+    "sources": [
+     {
+      "work": "Chronica de Susenyos, rei de Ethiopia, ed. and trans. F. M. Esteves Pereira, 2 vols. (Lisbon, 1892–1900)",
+      "type": "primary",
+      "note": "The Ge'ez royal chronicle with Portuguese translation; the proclamation and the battle."
+     },
+     {
+      "work": "Manoel de Almeida SJ, História de Etiópia a Alta, in Some Records of Ethiopia, 1593–1646, trans. C. F. Beckingham and G. W. B. Huntingford (Hakluyt Society, 1954)",
+      "type": "primary",
+      "note": "The Jesuit historian's account of the same events, including the proclamation."
+     },
+     {
+      "work": "Richard Pankhurst, The Ethiopian Royal Chronicles (Addis Ababa, 1967)",
+      "type": "reference",
+      "note": "English extracts from the chronicles, including the 1632 proclamation."
+     },
+     {
+      "work": "Leonardo Cohen, The Missionary Strategies of the Jesuits in Ethiopia (1555–1632) (Wiesbaden, 2009)",
+      "type": "reference",
+      "note": "The Jesuit mission and its collapse from both sets of sources."
+     }
+    ]
+   },
+   {
+    "title": "The Emperor’s Confession of Faith",
+    "when": "1555 – 1559",
+    "tier": "1",
+    "verification": "from reference summaries; primary text not yet read",
+    "teaser": "A Jesuit envoy hands the emperor a treatise on the errors of the Ethiopians. The emperor answers in writing: the Sabbath is kept in memory of creation, not as the Jews keep it; circumcision is a custom of the land; and the faith is the apostles'.",
+    "text": "The Jesuits' first envoy to Ethiopia, Gonçalo Rodrigues, arrived at the court of Emperor Galawdewos in 1555 with a treatise attacking the errors of the Ethiopians, and the emperor answered him in writing. The Confession of Galawdewos, short enough to be read in a quarter of an hour, states the Ethiopian faith in the Trinity and the Incarnation in language the Latins could not fault, and then turns to the customs the Portuguese had been calling Jewish. The Ethiopians keep the Sabbath, the emperor writes, not as the Jews do, who will not draw water or light a fire on it, but as the apostles commanded, in memory of the creation, as they keep the Lord's day in memory of the resurrection. They circumcise as the Ethiopians always have, as a custom of the land like the marking of the face among some nations, not as the Jews for salvation. They abstain from pork not as Jews but as men who dislike it, as Christians elsewhere refuse horse-meat. He closed by naming the Latin missionaries' own churches as his witnesses that the Ethiopian faith was the faith of the apostles and the councils. Galawdewos, who had spent his whole reign fighting the invasions from Adal and had received the Portuguese as allies against them, was killed in battle against Nur ibn Mujahid on 23 March 1559, and his head was carried to Harar. His Confession remained the Ethiopian Church's standard answer to Rome for the next century.",
+    "caveat": "The Confession survives in Ge'ez manuscripts and in a contemporary Portuguese translation, and its authorship is accepted; whether the emperor wrote it himself or had it drafted by his clergy is not known. Its date is fixed by Rodrigues's embassy.",
+    "sources": [
+     {
+      "work": "The Confessio fidei of King Galawdewos (1555); ed. and trans. Edward Ullendorff, 'The Confessio Fidei of King Claudius of Ethiopia', Journal of Semitic Studies 32 (1987)",
+      "type": "primary",
+      "note": "The Ge'ez text with English translation."
+     },
+     {
+      "work": "Chronique de Galâwdêwos, ed. and trans. William E. Conzelman (Paris, 1895)",
+      "type": "primary",
+      "note": "The royal chronicle; the wars and the emperor's death."
+     },
+     {
+      "work": "Edward Ullendorff, Ethiopia and the Bible (Oxford, 1968)",
+      "type": "reference",
+      "note": "On the Sabbath, circumcision and dietary questions the Confession addresses."
+     }
+    ]
+   }
+  ],
+  "people": [
+   {
+    "name": "Emperor Galawdewos",
+    "year": 1555,
+    "voice": 1,
+    "author": "galawdewos",
+    "held": "ludolf_commentarius-ad-historiam-aethiopicam-lat_1691--confession-of-faith-of-king-claudius-gal"
+   }
+  ]
+ },
+ "movements:carmelite-reform-and-spanish-mystics": {
+  "relationsSummary": "Teresa founds San Jose (1562); John of the Cross joins (1568); the Discalced province is recognized (1580-93); Teresa dies 1582, canonized 1622; connects to the medieval Carmelite order and lives inside the wider Tridentine Catholic reform while speaking in its own unmistakable voice."
+ },
+ "movements:church-of-the-east-schism-of-1552": {
+  "relationsSummary": "Opponents of the hereditary succession elect Yohannan Sulaqa. Rome makes him patriarch in 1553, and he is killed at home in 1555. From then on the communion has two rival patriarchs. In Malabar, the same communion's Indian church faced its own crisis under Portuguese rule, which ended in the Coonan Cross Oath of 1653. The story grows out of the Church of the East after Timur. The entry on the Church of the East's three patriarchs, 1650 to 1815, carries it on.",
+  "why": "By the sixteenth century, the Church of the East's highest office had become hereditary, passing from uncle to nephew within a single family. In 1552 a dissenting party elected a monastery superior, Yohannan Sulaqa, who traveled to Rome, was consecrated patriarch there in 1553, and was arrested and killed on his return home in 1555 — beginning a division into two rival patriarchates that has never fully healed.",
+  "longDescription": "By the sixteenth century the patriarchate of the Church of the East — once a communion that had reached as far as China — had contracted to the mountains and plains of Mesopotamia, and its highest office had become hereditary, passing from uncle to nephew inside a single family. In 1552 a party opposed to that arrangement elected a monastery superior, Yohannan Sulaqa, and sent him to Rome. He made a profession of faith there, was consecrated patriarch in 1553, returned home, and was arrested and killed in 1555. The line he had begun continued anyway, and from that point the ancient communion has carried two rival patriarchates — a division that has never fully healed.",
+  "teaser": "Mesopotamia and Rome, 1552 to 1555 — a disputed election that sent a monk to the pope and left an ancient church with two patriarchs ever after.",
+  "voices": [
+   "Yohannan Sulaqa — monastery superior elected by the dissenting party, consecrated at Rome in 1553 and killed in 1555",
+   "Shemon VII Ishoyahb — the hereditary patriarch whose succession the dissenters rejected",
+   "Abdisho IV Maron — Sulaqa's successor, who continued the new line and its relationship with Rome"
+  ],
+  "documentedStories": [
+   {
+    "title": "Sulaqa Goes to Rome",
+    "when": "1552 – 1555",
+    "tier": "1",
+    "verification": "from reference summaries; primary text not yet read",
+    "teaser": "A party of the Church of the East that will not accept another hereditary patriarch elects a monastery superior and sends him to the pope. He comes back a patriarch, consecrates bishops for a year, and is arrested, tortured and killed at his rival's instigation.",
+    "text": "In 1552 a party of the Church of the East that refused to accept the succession of Shem'on VII Isho'yahb's young nephew as patriarch-designate met at Mosul, elected Yohannan Sulaqa, superior of the monastery of Rabban Hormizd near Alqosh, and, on the advice of Franciscans in Jerusalem, sent him to Rome to be confirmed. He reached Rome in November 1552 with a letter from his electors, made a profession of faith that his translators rendered acceptably, and on 9 April 1553 was consecrated bishop in St Peter's; on 28 April Julius III proclaimed him patriarch of the Chaldeans, the name Rome had used since the previous century for East Syrians in union with it. He returned by way of Constantinople with an Ottoman firman recognizing him and settled at Amid, present Diyarbakır, where he consecrated five bishops within a year. His rival Shem'on VII, according to the account written by Sulaqa's own party, persuaded the pasha of Amadiya to summon him; Sulaqa was arrested, held four months, tortured to make him renounce the union, and killed in January 1555, his body thrown into a lake. His bishops chose 'Abdisho' IV Maron, who went to Rome himself in 1562 and had his profession of faith read at the Council of Trent. The line Sulaqa began later drifted out of communion with Rome and the older line into it, so that today's Chaldean Catholic patriarchate descends from Shem'on VII and today's Assyrian Church of the East from Sulaqa.",
+    "caveat": "The Roman side — the profession, the consecration and the bull — is documented in the papal registers; the election, the arrest and the death are known from the letters of Sulaqa's bishops and later Chaldean accounts, which are partisan and thin. That the two lines exchanged their relation to Rome over the following two centuries is the settled view of modern scholarship.",
+    "sources": [
+     {
+      "work": "Roman documents of Sulaqa's profession, consecration and appointment (1553), ed. Giuseppe Beltrami, La Chiesa Caldea nel secolo dell'Unione (Rome, 1933); Joseph Habbi, 'Signification de l'union chaldéenne de Mar Sulaqa avec Rome en 1553', L'Orient Syrien 11 (1966)",
+      "type": "primary",
+      "note": "The papal side of the union, from the Vatican registers."
+     },
+     {
+      "work": "Letter of the bishops of the Sulaqa line to Pope Julius III / Paul IV (c. 1555–1556), reporting the patriarch's death",
+      "type": "primary",
+      "note": "The earliest account of the arrest and killing, by Sulaqa's own party."
+     },
+     {
+      "work": "Heleen Murre-van den Berg, 'The Patriarchs of the Church of the East from the Fifteenth to Eighteenth Centuries', Hugoye: Journal of Syriac Studies 2.2 (1999)",
+      "type": "reference",
+      "note": "The reconstruction of the two lines and their later reversal."
+     },
+     {
+      "work": "David Wilmshurst, The Ecclesiastical Organisation of the Church of the East, 1318–1913 (Louvain, 2000)",
+      "type": "reference",
+      "note": "The colophon and succession-list evidence for the period."
+     }
+    ]
+   }
+  ],
+  "people": [
+   {
+    "name": "Abdisho IV Maron",
+    "year": 1555,
+    "voice": 2,
+    "author": "abdisho-iv",
+    "held": "abdisho-iv_approbatio-et-professio-fidei-concilio-tridentino-lat_1562--approbatio-et-professio-fidei-abdisho-iv-1562"
+   }
+  ]
+ },
+ "movements:port-royal-jansenism": {
+  "relationsSummary": "Augustine's long shadow inside the Tridentine church"
+ },
+ "movements:philippine-catholicism-era-8": {
+  "documentedStories": [
+   {
+    "title": "The Bishop, the Rebel and the Assassin",
+    "when": "December 1762 – 20 September 1763",
+    "tier": "1",
+    "verification": "from reference summaries; primary text not yet read",
+    "teaser": "While the British hold Manila, a courier from Ilocos leads his province against the Spanish tribute and the friars, and is excommunicated by his bishop. A friend shoots him in his own house, with the church's blessing and a promised reward, and his widow leads the rising until she is hanged.",
+    "text": "When the British took Manila in October 1762 the Spanish government of the islands collapsed into the hands of the oidor Simón de Anda, who declared himself governor at Bacolor, and the provinces were left to themselves. In Ilocos, on the north-west coast of Luzon, Diego Silang, a mestizo of Vigan who had worked as a courier between Manila and the province, led a rising in December against the tribute, the forced labor and the alcalde mayor, and, having driven out the Spanish officials, offered to hold the province for the king under his own government. The bishop of Nueva Segovia, Bernardo Ustáriz, a Dominican, refused him, and when Silang accepted a commission from the British and began to expel the Augustinian friars from their parishes, the bishop excommunicated him and called on the province to abandon him. In May 1763 two men of Vigan, Miguel Vicos, a Spanish mestizo who had been Silang's friend, and Pedro Becbec undertook to kill him; the Spanish accounts say that they were promised pardon and reward by the Spanish authorities and were encouraged and absolved in advance by the bishop and the clergy. On 28 May Vicos shot Silang in the back in his own house and claimed the reward. Silang's widow, Gabriela, took command of the remaining rebels with his uncle Nicolás Cariño, fought through the summer, and was defeated, captured and hanged at Vigan on 20 September 1763 with some ninety of her followers, in the plaza before the cathedral.",
+    "caveat": "The Spanish accounts, which are the only detailed ones, do not hide the church's part in the assassination and present it as lawful; Silang's own letters, a few of which survive, present his loyalty to the king. The numbers hanged with Gabriela vary between eighty and a hundred in the sources.",
+    "sources": [
+     {
+      "work": "Spanish accounts of the Ilocos revolt, 1762–1763, including the letters of Bishop Bernardo Ustáriz and of Simón de Anda; English in Blair & Robertson, The Philippine Islands, vol. 49",
+      "type": "primary",
+      "note": "The contemporary Spanish record, including the arrangements for Silang's killing."
+     },
+     {
+      "work": "Diego Silang, letters and proclamations, 1762–1763, as preserved in the Spanish dossiers",
+      "type": "primary",
+      "note": "The rebel's own statements of his aims."
+     },
+     {
+      "work": "David Routledge, Diego Silang and the Origins of Philippine Nationalism (Quezon City, 1979)",
+      "type": "reference",
+      "note": "The standard study, from the Spanish archives."
+     },
+     {
+      "work": "Nicholas P. Cushner, Spain in the Philippines: From Conquest to Revolution (Quezon City, 1971)",
+      "type": "reference",
+      "note": "The British occupation and the provincial revolts in context."
+     }
+    ]
+   },
+   {
+    "title": "‘No More Oarsmen on the Pasig’",
+    "when": "1767 – 1776",
+    "tier": "1",
+    "verification": "from reference summaries; primary text not yet read",
+    "teaser": "A new archbishop, backed by a crown that wants the friars out of the parishes, ordains Filipinos by the score to replace them. The friars answer that he has ordained every boatman on the river, and within a decade the crown agrees with the friars.",
+    "text": "Basilio Sancho de Santa Justa y Rufina, a Piarist, arrived as archbishop of Manila in 1767 with the Bourbon government's instructions to enforce two things the friar orders had resisted for two centuries: that their parishes be subject to the bishop's visitation like any others, and that parishes be given, as the Council of Trent intended, to secular priests, which in the Philippines meant Filipinos and mestizos, since almost no Spanish seculars came. The expulsion of the Jesuits in 1768 emptied their parishes at once, and the Augustinians, refusing visitation, surrendered many of theirs in Pampanga. Sancho filled them. He reopened the diocesan seminary, ordained Filipino candidates rapidly and in numbers, and by the early 1770s had placed native priests in scores of parishes around Manila and in the provinces. The friars, who had held for two centuries that Filipinos were unfit for the priesthood by nature, said that the archbishop had ordained so many that there were no more oarsmen to be found on the Pasig river, and reported to Madrid every failure of the new priests. The provincial council Sancho convened in 1771 confirmed his policy; the crown, alarmed by the friars' reports and by the revolts of the 1760s, reversed itself in a royal order of 1776, which halted the transfer of parishes and returned many to the orders. The question of whether a Filipino could be trusted with a parish became, over the next century, the grievance on which the nation formed.",
+    "caveat": "Sancho's decrees, the council of 1771 and the royal order of 1776 are documented; the oarsmen remark is the friars' and is reported by their own historians. The new priests' failures are recorded by their enemies, and their successes by almost no one.",
+    "sources": [
+     {
+      "work": "Basilio Sancho de Santa Justa y Rufina, pastoral letters and reports to the crown, 1767–1787; Acts of the Provincial Council of Manila (1771)",
+      "type": "primary",
+      "note": "The archbishop's policy in his own documents."
+     },
+     {
+      "work": "Royal order of 11 December 1776 on the parishes of the Philippines",
+      "type": "primary",
+      "note": "The crown's reversal."
+     },
+     {
+      "work": "John N. Schumacher, Readings in Philippine Church History (Quezon City, 1979), and Revolutionary Clergy: The Filipino Clergy and the Nationalist Movement, 1850–1903 (Quezon City, 1981)",
+      "type": "reference",
+      "note": "The secularization controversy from Sancho to 1872, with the documents."
+     },
+     {
+      "work": "Horacio de la Costa, 'The Development of the Native Clergy in the Philippines', Theological Studies 8 (1947)",
+      "type": "reference",
+      "note": "The classic account of the friars' opposition to a Filipino priesthood."
+     }
+    ]
+   }
+  ]
+ },
+ "movements:jerome": {
+  "legacy": "His Latin Bible became the West's standard text, and in 1546 the Council of Trent declared the Vulgate authentic. His catalog, On Illustrious Men, keeps much of what is known about early Christian writers. It is how we know that Cyprian called Tertullian 'the master'."
+ },
+ "movements:ignatius-of-loyola": {
+  "relationsSummary": "Ignatius of Loyola is told within the Society of Jesus, the order that grew from him and his companions. His men at Trent and his debt to the Imitation of Christ are carried on its links.",
+  "why": "Ignatius of Loyola was a soldier, a beggar, a pilgrim and a student before he founded anything. He told his own story late, dictating it to a younger Jesuit between 1553 and 1555.",
+  "longDescription": "Ignatius of Loyola was born in 1491 at the castle of Loyola, and grew up a page and then a soldier. At the siege of Pamplona a cannon ball broke one of his legs. In his slow recovery he read the lives of Christ and the saints, because the house had no other books.\n\nHe set out as a pilgrim. At Manresa he lived on the alms he begged each day. He reached Jerusalem, but he could not stay there. So he went back to school, to be better fitted to help souls.\n\nAt Paris he took his master's degree in March 1534. Francis Xavier and Peter Faber were his fellow students there. He and his companions meant to spend their lives in Jerusalem. If they could not, they would offer themselves to the pope.\n\nNo ship could take them, so they went to Rome. In 1540 Pope Paul III approved their Society. From Rome Ignatius sent out letters and instructions, among them orders for his men at the Council of Trent in 1546. He died on 31 July 1556.",
+  "voices": [
+   "Ignatius of Loyola — soldier, pilgrim and founder, whose Spiritual Exercises, letters and dictated life survive",
+   "Luis Gonzalez da Camara - the younger Jesuit who took down his life story from 1553 to 1555"
+  ]
+ },
+ "movements:elipandus-of-toledo-and-felix-of-urgell": {
+  "longDescription": "At the end of one July, Elipandus, archbishop of Toledo, received a letter from his friend Felix. He wrote back that it came to him as if fallen from heaven, and that he thanked God with arms stretched out. He was now, he said, in worn-out old age, and had entered his eighty-second year. He still held the teaching for which both men had been condemned.\n\nFelix was bishop of Urgell, a city the Frankish annals place on a ridge of the Pyrenees. In 794 the council of Frankfurt condemned the teaching as the heresy of them both. The sources tell the two men together, so they share one profile. Much of their story comes from the men who fought them.\n\nElipandus set out his view in a letter to Alcuin of York. Christ is adoptive, he wrote, only in the form of a servant, his humanity, and not in the glory or substance of his divine nature. As God, the Son is Son by nature, not by grace. Elipandus also cited the Toledo prayers for the mass of the Lord's Supper. As he quoted them, they spoke of the passion of the adoptive man.\n\nHis opponents heard two sons in this. Pope Hadrian I likened it to Nestorius, who confessed the Son of God a mere man. Alcuin wrote that Felix divided Christ into a proper son and an adoptive one. Elipandus called Alcuin a new Arius.\n\nThe Frankish annals say Felix was condemned at Regensburg in 792 and renounced his teaching before Pope Hadrian at Rome. In 799 he came to the palace at Aachen, where Alcuin says he was heard, proved wrong, and returned to the peace of the church. Felix then wrote to his clergy that he came back with no pretense this time, as there had been once, which God knows.\n\nFroben, Alcuin's editor, reports from a book of Agobard of Lyon that Felix still taught some people his errors, and held to them until he died. In a letter Froben dates to 800, Alcuin says Elipandus still held his view. No source of their own time gives the year either man died.\n\nElipandus had defended his friend to Alcuin. He had known Felix from early youth, he wrote, as a man of the highest charity, chaste and of good conduct. Yet Alcuin, he wrote, now hunted him in the mountains and the caves.",
+  "card": {
+   "otherNames": [
+    "Elipandus Toletanus; Helipandus; Eliphandus, in Pope Hadrian I's letter",
+    "Felix Urgellitanus or Orgellitanus"
+   ],
+   "knownFor": "Two bishops of Spain, Elipandus archbishop of Toledo and Felix bishop of Urgell, who taught that Christ in his humanity is the adoptive Son of God. The council of Frankfurt condemned the teaching in 794 as the heresy of both. Felix submitted at Aachen in 799. Elipandus, Alcuin says in a letter Froben dates to 800, still held it.",
+   "datesNote": "Late eighth century. Heterius and Beatus date Elipandus's letter to the abbot Fidelis to October of the Spanish era 823, which a note in J.-P. Migne's volume reckons as 785. Elipandus says in a letter to Felix that he had entered his eighty-second year; the letter carries no year. Froben, Alcuin's editor, reckons his birth to 717, and with Madrisi places his death in 809 or the year after, and says Felix is believed to have died about 818. The Frankish annals place Felix's first condemnation in 792",
+   "placeNote": "Toledo, Elipandus's see; Urgell, on a ridge of the Pyrenees, Felix's see, by the Frankish annals; Regensburg, Rome and Aachen, where Felix was heard; Frankfurt, where the council condemned the teaching; Lyon, where Froben says Felix was kept after 799",
+   "role": "Bishops: Elipandus, archbishop of Toledo; Felix, bishop of Urgell. Condemned as Adoptionists by their opponents",
+   "keyWorks": [
+    {
+     "title": "Letters of Elipandus",
+     "about": "four letters, against Migetius, to Charlemagne, to Alcuin and to Felix, held in Latin in Patrologia Latina 96. His letter to the abbot Fidelis survives only as Heterius and Beatus quote it. A letter of the bishops of Spain to the bishops of Gaul, which Froben gives to Elipandus and his fellow bishops, is in Patrologia Latina 101"
+    },
+    {
+     "title": "Confession of faith, by Felix",
+     "about": "written to the clergy of Urgell after he submitted at Aachen in 799, renouncing the adoption of the flesh. In Patrologia Latina 96"
+    },
+    {
+     "title": "Felix's book to Alcuin",
+     "about": "known only from the passages Alcuin quotes in his seven books against Felix, in Patrologia Latina 100-101"
+    }
+   ],
+   "legacy": {
+    "traces": [
+     "The council of Frankfurt in 794, in its first canon, condemned the impious and wicked heresy of Elipandus and Felix, and ordered it rooted out of the church.",
+     "Alcuin wrote seven books against Felix and four against Elipandus.",
+     "Ardo's Life of Benedict of Aniane says Benedict fought the teaching of Felix, which had spread through almost all that province, and won back bishops from it.",
+     "Paulus Alvarus of Córdoba, in the ninth century, recalls the time when the plague of Elipandus laid waste his province."
+    ],
+    "remembered": [
+     "Alcuin, writing to Leidrad of Lyon, calls Elipandus a man heavy with years and long famous for a religious life, and says Elipandus called him a forger, a heretic and a persecutor of Christians.",
+     "Elipandus called Beatus of Liébana Antiphrasius, as if his name, blessed, meant its opposite; Charlemagne's reply, as Nicolás Antonio quotes it, records the name.",
+     "Marius Férotin, who edited the Mozarabic sacramentary in 1912, holds that the old Toledo prayers mean by adoption the Son's taking of human nature, and that there is nothing in them but what is orthodox."
+    ]
+   },
+   "uncertain": [
+    "Much of what is held comes from their opponents: Alcuin, Pope Hadrian, Beatus and Heterius, the council of Frankfurt and the Frankish annals. Elipandus's letters and Felix's confession are their own words.",
+    "What adoptive meant. Elipandus says Christ is adoptive only in the form of a servant, not in the substance of his divinity, and that he is one person in two natures. Hadrian and Alcuin read the teaching as two sons and liken it to Nestorius.",
+    "The Toledo prayers. Elipandus cites the mass of the Lord's Supper for the passion of the adoptive man. Marius Férotin's manuscript reads instead the adoption of his birth, and he notes that Elipandus did not quote it as his codex has it.",
+    "Who taught whom. The Frankish annals say Elipandus asked Felix by letter and Felix answered adoptive. A late Life of Beatus has Felix teach Elipandus as a boy. Jean Mabillon names Dungal as calling Felix the master of the error.",
+    "Whether Felix's submission held. Felix writes that he returned without pretense, as he had not some time before, and repents of an oath he once broke. Froben says Alcuin did not doubt him afterward. Agobard of Lyon, in a book that is not held, says Felix still taught some people his errors and held to them to the end; Froben reports it. Ado of Vienne, through Nicolás Antonio, says he died unrepentant.",
+    "Whether Elipandus repented. Only forged chronicles say so. Nicolás Antonio and Froben reject them, and Alcuin, in a letter Froben dates to 800, says he still held his view.",
+    "The years of both men. Elipandus's eighty-second year depends on when his letter to Felix was written, which Madrisi, the editor of Paulinus of Aquileia, put in 792 and Froben after 799.",
+    "Whether the setting under Muslim rule shaped the teaching. Nicolás Antonio puts the error down to the ignorance of a people under Saracen rule, and adds that the two bishops were perhaps touched by the Muslims around them. No held text of their time says so."
+   ],
+   "sources": {
+    "ownWords": [
+     {
+      "title": "Letters of Elipandus, and the Confession of faith of Felix, in Patrologia Latina 96",
+      "author": "Elipandus of Toledo; Felix of Urgell; J.-P. Migne (ed.)",
+      "date": "1862",
+      "language": "Latin",
+      "file": "cic/texts/ildefonsus-julian-toledo-pl96-lat_migne1862.txt"
+     },
+     {
+      "title": "Letter of the bishops of Spain to the bishops of Gaul, Aquitaine and Austria, in Patrologia Latina 101",
+      "author": "The bishops of Spain",
+      "date": "1863",
+      "language": "Latin",
+      "file": "cic/texts/alcuin_opera-omnia-letters_migne-pl100-101_1863.txt"
+     }
+    ],
+    "about": [
+     {
+      "title": "Against Felix, Against Elipandus, and letters, in Patrologia Latina 100-101, with Froben's dissertation",
+      "author": "Alcuin of York; Froben (ed.)",
+      "date": "1863",
+      "language": "Latin",
+      "file": "cic/texts/alcuin_opera-omnia-letters_migne-pl100-101_1863.txt"
+     },
+     {
+      "title": "Against Elipandus, in Patrologia Latina 96",
+      "author": "Heterius and Beatus of Liébana",
+      "date": "1862",
+      "language": "Latin",
+      "file": "cic/texts/ildefonsus-julian-toledo-pl96-lat_migne1862.txt"
+     },
+     {
+      "title": "Annales regni Francorum, for 792 and 794",
+      "author": "Friedrich Kurze (ed.)",
+      "date": "1895",
+      "language": "Latin",
+      "file": "cic/texts/annales-regni-francorum_kurze1895.txt"
+     },
+     {
+      "title": "Capitulary of the council of Frankfurt, 794, in MGH Leges",
+      "author": "Georg Heinrich Pertz (ed.)",
+      "date": "1881",
+      "language": "Latin",
+      "file": "cic/texts/capitulatio-de-partibus-saxoniae_pertz1881.txt"
+     },
+     {
+      "title": "Enchiridion symbolorum: Hadrian I's letters and the Frankfurt synodal letter",
+      "author": "Heinrich Denzinger; Clemens Bannwart (ed.)",
+      "date": "1911",
+      "language": "Latin",
+      "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt"
+     },
+     {
+      "title": "Le Liber mozarabicus sacramentorum",
+      "author": "Marius Férotin (ed.)",
+      "date": "1912",
+      "language": "Latin and French",
+      "file": "cic/texts/ferotin_liber-mozarabicus-sacramentorum-lat-fra_1912.txt"
+     },
+     {
+      "title": "Life of Benedict of Aniane, in Patrologia Latina 103",
+      "author": "Ardo",
+      "date": "1851",
+      "language": "Latin",
+      "file": "cic/texts/benedict-aniane_concordia-regularum-with-ardo-vita-pl103-lat_migne1851.txt"
+     },
+     {
+      "title": "Letters, in Patrologia Latina 121",
+      "author": "Paulus Alvarus of Córdoba",
+      "date": "1852",
+      "language": "Latin",
+      "file": "cic/texts/paulus-alvarus_confessio-epistolae-indiculus-luminosus-pl121-lat_migne1852.txt"
+     }
+    ]
+   }
+  }
+ },
+ "movements:alcuin-of-york": {
+  "longDescription": "Liudger, a Frisian deacon, traveled to York to study under its master, Alcuin. Altfrid, a ninth-century bishop of Münster, tells it in his Life of Saint Liudger. A Frisian merchant killed a local count's son in a quarrel, and the Frisians hurried to leave. Alcuin sent Liudger home with them, Altfrid says, for he would rather die than see his dear son suffer deadly harm.\n\nAlcuin was born in the province of York, of noble English stock, Jean Mabillon writes in his seventeenth-century essay. Mabillon draws on an older Life. He adds that Alcuin was raised from boyhood at York's main church and later ran its school.\n\nIn 780, Mabillon writes, Alcuin went to Rome on behalf of Eanbald, the new bishop of York. On the way back, at Parma, he met Charlemagne, who invited him to Francia. Einhard, who wrote Charlemagne's Life, calls Alcuin a deacon from Britain and a man learned in every field. Charlemagne learned rhetoric, logic and astronomy from him, Einhard says, as Mabillon quotes him.\n\nAlcuin wrote that he came at Charlemagne's call. His teacher, he says, had charged him to defend the Catholic faith wherever new sects arose. Felix, bishop of Urgel, taught that Christ in his human nature was God's adopted Son. The Royal Frankish Annals record that teaching condemned at Regensburg in 792 and at Frankfurt in 794. The Frankfurt decrees end with Charlemagne asking the council to take Alcuin into its fellowship and prayers.\n\nElipandus of Toledo, who had first put the question to Felix, warned Alcuin not to corrupt the king. Alcuin answered that the king could not be corrupted, and that he had come to help him in the faith. He wrote seven books against Felix. In Charlemagne's thirty-second year as king, Alcuin says, Felix was summoned to Aachen, came willingly and confessed the true faith.\n\nIn 796, by Mabillon's reckoning, Charlemagne made Alcuin abbot of Saint Martin's at Tours. The older Life, as Mabillon reports it, puts his death in May 804. Mabillon argues instead that Alcuin lived on past 810.\n\nFrom Tours Alcuin described his teaching to Charlemagne, in a letter Mabillon quotes. To some he served the honey of the Scriptures, and others he plied with the old wine of ancient learning. Some he fed on the apples of grammar. Others he longed to light up with the order of the stars, like the painted roof of a great house."
+ },
+ "movements:dhuoda": {
+  "card": {
+   "otherNames": [
+    "Dodana",
+    "Duodana",
+    "Dodane"
+   ],
+   "knownFor": "Frankish noblewoman who wrote at Uzès, from 841, a handbook of Christian conduct for her elder son William. It holds her own verses and her epitaph.",
+   "datesNote": "Married in 824, in Léopold Delisle's date. Édouard Bondurand reckons from the book's closing note that she began it on 30 November 841. He dates its completion to 2 February 843, where earlier scholars, as he reports, put it in 842. No source used here gives the year of her birth or death.",
+   "placeNote": "Uzès, where she wrote the book and where her second son was born; Aachen, where she married in the palace",
+   "role": "Noblewoman, wife of Bernard, duke of Septimania; author of a handbook of faith and conduct for her son",
+   "keyWorks": [
+    {
+     "title": "Liber manualis (Handbook for William)",
+     "about": "a handbook of Christian conduct in seventy-three chapters, by Léopold Delisle's count, written for her son William. It teaches the love and search for God, honor for his father and loyalty to King Charles the Bald. It also teaches respect for priests, the virtues and the Beatitudes, and prayer for the living and the dead. Édouard Bondurand finds in it quotations from the poet Prudentius and from Donatus. He also finds a passage of Pliny the Elder retold, and countless passages of the Bible"
+    },
+    {
+     "title": "Verses in the Handbook",
+     "about": "her own lines, which she says she dictated herself, with all the rest. Léopold Delisle found that the first letters of the opening verses spell, in Latin, a greeting from Dhuoda to her beloved son William. They end with a word telling him to read. Édouard Bondurand found, from the Nîmes copy, that the first letters of chapter 69 spell, in Latin, verses to William her son. Chapter 68 tells William to read the book and later give it to his younger brother"
+    },
+    {
+     "title": "Her epitaph (chapter 73)",
+     "about": "verses she asked William to have written on her tomb, whose first letters spell her name. They ask passers of every age and sex to pray for her"
+    }
+   ],
+   "legacy": {
+    "traces": [
+     "Two manuscripts survive, Bondurand says. One is thirty-two leaves of a Carolingian copy, a small part of the text, found in the papers of E. Germer-Durand, which the library of Nîmes bought in 1885. The other is a seventeenth-century copy at Paris, made from a lost manuscript of the abbey of La Grasse.",
+     "Léopold Delisle reports that Mabillon printed the preface, the table and thirteen chapters in 1677. Baluze printed the preface and the closing note in 1688.",
+     "Bondurand's edition of 1887 printed the whole book. Where the Nîmes fragments survive, he prints their text, with the Paris readings in his notes."
+    ],
+    "remembered": [
+     "The authors of the Histoire littéraire de la France, as Bondurand quotes them, called the book a monument of literature and piety. They regretted that only part of it had been printed.",
+     "Bondurand calls it the oldest writing to survive by a woman born on the soil of France.",
+     "John A. McHugh and Charles J. Callan wrote the introduction to their 1923 English translation of the Roman Catechism. There they list the manual of Dhuoda, explaining Christian faith and morality, among works of popular instruction from the ninth century on."
+    ]
+   },
+   "uncertain": [
+    "No source used here gives the year of Dhuoda's death. Bondurand thinks she died soon after the book was finished, before her husband and sons met their ends.",
+    "Her family. Léopold Delisle, as Bondurand quotes him, says her origin is unknown. Bondurand notes that she names none of her own kin, though she calls William's descent illustrious on both sides. Her name alone, he adds, would point to the nobility of Septimania. He gives two other women of the name, a Dodana dead by 813 and a Deda of 814. He says that is all that is known of her origin.",
+    "Outside her book, no source of her own time used here names her. Nithard and the Annals of Saint-Bertin name Bernard and William, but not Dhuoda.",
+    "Her birth. In her first chapter she calls herself small and of the lowest birth. Bondurand says it should not be taken literally, since she is hard on herself throughout the book. The words may mean the clay all people are made from.",
+    "Whether she was Charlemagne's daughter. The Paris copy has Dhuoda call the late emperor Louis, Charlemagne's son, her brother. Some writers therefore made her Charlemagne's daughter. Baluze, Dom Vaissete and Dom Rivet rejected this. Léopold Delisle notes that Émile Mabille had not wholly given it up. The Nîmes fragment reads the late emperor Louis instead, and Delisle says the idea must be given up.",
+    "When the book was finished. Its closing note gives 2 February with no year. Earlier scholars, Bondurand reports, took this as 842, sixty-four days after she began. Bondurand argues for 843, since the verses of chapter 69 were finished on 30 November 842, when William had turned sixteen.",
+    "Bernard's death. The Annals of Saint-Bertin say only that he was judged guilty of treason by the Franks and put to death on Charles's order. Bondurand gives the story from the old chronicle of Odo Héribert that Charles stabbed him at Saint-Sernin in Toulouse. He says popular imagination surrounded the death with such details."
+   ],
+   "sources": {
+    "ownWords": [
+     {
+      "title": "Liber manualis (Le Manuel de Dhuoda), ed. Édouard Bondurand",
+      "author": "Dhuoda",
+      "date": "1887",
+      "language": "Latin",
+      "file": "cic/texts/dhuoda_liber-manualis_bondurand1887.txt"
+     }
+    ],
+    "about": [
+     {
+      "title": "Introduction, French summaries and Éclaircissements to Le Manuel de Dhuoda, quoting Léopold Delisle and the Histoire littéraire de la France",
+      "author": "Édouard Bondurand",
+      "date": "1887",
+      "language": "French",
+      "file": "cic/texts/dhuoda_liber-manualis_bondurand1887.txt"
+     },
+     {
+      "title": "Histories III.2",
+      "author": "Nithard",
+      "date": null,
+      "language": "Latin",
+      "file": "cic/texts/nithard_historiarum-libri-iv_pertz-muller1907.txt"
+     },
+     {
+      "title": "Annals of Saint-Bertin, years 844, 848 and 850, ed. Georg Waitz",
+      "author": "Prudentius of Troyes",
+      "date": null,
+      "language": "Latin",
+      "file": "cic/texts/prudentius-troyes_annales-bertiniani_waitz1883.txt"
+     },
+     {
+      "title": "Translators' introduction to the Catechism of the Council of Trent",
+      "author": "John A. McHugh and Charles J. Callan",
+      "date": "1923",
+      "language": "English",
+      "file": "cic/texts/council-of-trent_roman-catechism_mchugh-callan1923.txt"
+     }
+    ]
+   }
+  }
+ },
+ "edges:palestinian-ascetic-monasticism-early--chalcedonian-monasticism-judean-desert-and-gaza": {
+  "sources": [
+   {
+    "kind": "primary",
+    "source_id": "hal.source.jerome-vita-hilarionis",
+    "work": "Jerome, Life of Hilarion, section 14",
+    "file": "cic/texts/npnf206_jerome-principal-works.xml",
+    "lines": "30347-30348",
+    "locus": "Vita Hilarionis 14",
+    "quote": "For as yet there were no monasteries in Palestine, nor had anyone known a monk in Syria before the saintly Hilarion.",
+    "license": "public-domain"
+   },
+   {
+    "kind": "primary",
+    "work": "John Moschus, Spiritual Meadow, chapter 139 (Latin version in Migne)",
+    "file": "cic/texts/john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt",
+    "lines": "15556-15557",
+    "locus": "Pratum spirituale 139",
+    "quote": "qui erat prepositus monasterii Pharan",
+    "license": "public-domain"
+   }
+  ]
+ },
+ "edges:hieronymian-ascetic-literary--the-tridentine-church": {
+  "id": "hieronymian-ascetic-literary--the-tridentine-church",
+  "to": "the-tridentine-church",
+  "note": "In 1546 the Council of Trent ruled that the old Latin Vulgate was authentic. It was to be the text for public reading and preaching. Its English translator of 1848 says the council chose the Vulgate as Jerome's version. Augustine had said Jerome's work was a translation from the Hebrew.",
+  "sources": [
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Council of Trent, Session IV (8 April 1546), Decree concerning the edition and use of the sacred books (trans. Waterworth)",
+    "file": "cic/texts/council-of-trent_canons-and-decrees_waterworth1848.txt",
+    "lines": "12477-12480",
+    "locus": "Sess. IV, decree on the Vulgate",
+    "quote": "ordains and declares, that the said old and Vulgate edition, which, by the lengthened usage of so many ages, has been approved of in the Church,",
+    "license": "public-domain"
+   },
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Augustine, City of God XVIII.43",
+    "file": "cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml",
+    "lines": "36732-36733",
+    "locus": "De civ. Dei XVIII.43",
+    "quote": "who translated these same Scriptures into the Latin speech, not from the Greek, but from the Hebrew.",
+    "license": "public-domain"
+   },
+   {
+    "kind": "secondary",
+    "work": "J. Waterworth, historical essay prefixed to The Canons and Decrees of the Sacred and Oecumenical Council of Trent (London, 1848)",
+    "file": "cic/texts/council-of-trent_canons-and-decrees_waterworth1848.txt",
+    "lines": "4174-4175",
+    "quote": "St. Jerome's version, or the Vulgate, was selected and proposed,"
+   }
+  ]
+ },
+ "edges:the-tridentine-church--the-humiliati": {
+  "id": "the-tridentine-church--the-humiliati",
+  "from": "the-tridentine-church"
+ },
+ "edges:latin-papal-church-avignon-to-lateran-v--the-tridentine-church": {
+  "id": "latin-papal-church-avignon-to-lateran-v--the-tridentine-church",
+  "to": "the-tridentine-church",
+  "note": "In 1546 the Council of Trent enforced a penalty on unapproved religious books 'imposed in a canon of the last Council of Lateran'. In 1551 it renewed and enlarged a law that Pope Clement V had issued at the Council of Vienne. The same church carried its own laws on into the age of the Reformation.",
+  "sources": [
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Council of Trent, Session IV (8 April 1546), Decree on the edition and use of the sacred books, trans. J. Waterworth (1848)",
+    "file": "cic/texts/council-of-trent_canons-and-decrees_waterworth1848.txt",
+    "lines": "12521-12522",
+    "locus": "Sess. IV",
+    "quote": "under pain of the anathema and fine imposed in a canon of the last Council of Lateran",
+    "license": "public-domain"
+   },
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Council of Trent, Session XIV (25 November 1551), Decree on reformation, ch. 6, trans. Waterworth",
+    "file": "cic/texts/council-of-trent_canons-and-decrees_waterworth1848.txt",
+    "lines": "16908-16910",
+    "locus": "Sess. XIV, de ref. c. 6",
+    "quote": "pursuant to the constitution of Clement V., published in the Council of Vienne, and beginning Quoniam,",
+    "license": "public-domain"
+   }
+  ]
+ },
+ "edges:lutheran-wittenberg-and-its-congregations--the-tridentine-church": {
+  "id": "lutheran-wittenberg-and-its-congregations--the-tridentine-church",
+  "to": "the-tridentine-church"
+ },
+ "edges:the-tridentine-church--lutheran-wittenberg-and-its-congregations": {
+  "id": "the-tridentine-church--lutheran-wittenberg-and-its-congregations",
+  "from": "the-tridentine-church",
+  "note": "In June 1520 a papal bull, Exsurge Domine, condemned forty-one of Martin Luther's claims as errors. Later the Council of Trent ruled on how sinners are made right with God. Its English translator says one key chapter aims mainly at Luther's errors.",
+  "sources": [
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Leo X, bull Exsurge Domine (15 June 1520), in Carl Mirbt, Quellen zur Geschichte des Papsttums, 3rd ed. (1911)",
+    "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+    "lines": "15391-15393",
+    "locus": "Mirbt no. 339, heading",
+    "quote": "3. Die Bannandrohung gegen Luther (1520). Bulle „Exsurge domine\", 15. Juni 1520:",
+    "license": "public-domain"
+   },
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Leo X, bull Exsurge Domine (15 June 1520), in Carl Mirbt, Quellen zur Geschichte des Papsttums, 3rd ed. (1911)",
+    "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+    "lines": "15502-15506",
+    "locus": "Exsurge Domine, § 3",
+    "quote": "Praefatos omnes et singulos articulos seu errores tamquam, ut praemittitiir, respective haereticos aut scandalosos aut falsos aut piarum aurium offensives vel simpli- cium mentium seductivos et veritati catholicae obviantes damnamus, reprobamus atque omnino reiicimus.",
+    "license": "public-domain"
+   },
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Errors of Martin Luther condemned in the bull Exsurge Domine (1520), in Denzinger-Bannwart, Enchiridion Symbolorum (1911)",
+    "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+    "lines": "17513-17515",
+    "locus": "Denzinger nos. 741-781, heading",
+    "quote": "Errores Martini Luther^ [Damnati in Bulla «E.xsurge Domine», 15. lunii 1520.]",
+    "license": "public-domain"
+   },
+   {
+    "kind": "secondary",
+    "source_id": null,
+    "work": "J. Waterworth, historical essay prefixed to The Canons and Decrees of the Sacred and Oecumenical Council of Trent (London, 1848)",
+    "file": "cic/texts/council-of-trent_canons-and-decrees_waterworth1848.txt",
+    "lines": "4970-4973",
+    "quote": "The seventh chapter is directed mainly against the errors of Luther, especially on the formal cause of justifi cation ;",
+    "license": "public-domain"
+   }
+  ]
+ },
+ "edges:the-tridentine-church--the-anabaptist-movements": {
+  "id": "the-tridentine-church--the-anabaptist-movements",
+  "from": "the-tridentine-church",
+  "note": "In March 1547 the Council of Trent condemned anyone who said that those baptized as babies must be baptized again as adults. The canon does not name the Anabaptists. A Mennonite martyr book quotes a writer who says they were hunted 'first especially in popedom.' It says about six hundred died at Ensisheim alone.",
+  "outcome": "In March 1547 the Council of Trent condemned all who taught that a child baptized at birth must be baptized again.",
+  "sources": [
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Council of Trent, Session VII (3 March 1547), in The Canons and Decrees of the Council of Trent, trans. J. Waterworth (1848)",
+    "file": "cic/texts/council-of-trent_canons-and-decrees_waterworth1848.txt",
+    "lines": "14055-14057",
+    "locus": "Session VII, heading",
+    "quote": "SESSION THE SEVENTH, Celebrated on the third day of the month of March, MDXLVII.",
+    "license": "public-domain"
+   },
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Council of Trent, Session VII (3 March 1547), in The Canons and Decrees of the Council of Trent, trans. J. Waterworth (1848)",
+    "file": "cic/texts/council-of-trent_canons-and-decrees_waterworth1848.txt",
+    "lines": "14242-14246",
+    "locus": "Session VII, Canons on Baptism, canon XIII",
+    "quote": "If anyone saith that little children, for that they have not actual faith,* are not, after having received bap tism, to be reckoned amongst the faithful ; and that, for this cause, they are to be rebaptised when they have attained to years of discretion ;",
+    "license": "public-domain"
+   },
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Thieleman J. van Braght, The Bloody Theater, or Martyrs Mirror (1660), trans. Joseph F. Sohm (1886)",
+    "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+    "lines": "60490-60491",
+    "locus": "Martyrs Mirror, note after the account of the early martyrs",
+    "quote": "were persecuted with great tyranny; first especially in popedom.",
+    "license": "public-domain"
+   },
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Thieleman J. van Braght, The Bloody Theater, or Martyrs Mirror (1660), trans. Joseph F. Sohm (1886)",
+    "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+    "lines": "60497-60499",
+    "locus": "Martyrs Mirror, same note",
+    "quote": "They were put to death in many places ; at Ensis- heim alone about six hundred were slain,",
+    "license": "public-domain"
+   },
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Thieleman J. van Braght, The Bloody Theater, or Martyrs Mirror (1660), trans. Joseph F. Sohm (1886)",
+    "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+    "lines": "58939-58942",
+    "locus": "Martyrs Mirror, Michael Sattler (1527), the sentence",
+    "quote": "In the case of the Governor of his Imperial Majesty versus Michael Sattler, judgment is passed, that Michael Sattler shall be delivered to the executioner,",
+    "license": "public-domain"
+   }
+  ]
+ },
+ "edges:lutheran-wittenberg-and-its-congregations--the-english-reformation-and-elizabethan-settleme": {
+  "note": "William Tyndale's book The Obedience of a Christian Man, printed in 1528, defends Martin Luther by name. His editor showed in 1848 that Tyndale's Prologue to Romans is mostly Luther's own preface. At his trial in 1555, Thomas Cranmer was told he had once been a Lutheran, and he granted that he had changed his mind.",
+  "sources": [
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "William Tyndale, The Obedience of a Christian Man (1528), in Doctrinal Treatises, ed. Henry Walter (1848)",
+    "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+    "lines": "16024-16026",
+    "locus": "Obedience of a Christian Man",
+    "quote": "And because that all the world knoweth that Martin Luther slayeth no man, but killeth only with the spiritual sword, the word of God,",
+    "license": "public-domain"
+   },
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Thomas Cranmer, Examination at Oxford before Brokes (September 1555), in Miscellaneous Writings and Letters, ed. J. E. Cox (1846)",
+    "file": "cic/texts/cranmer_miscellaneous-writings-and-letters_cox1846.txt",
+    "lines": "21211-21212",
+    "locus": "Examination before Brokes (Dr Martin speaking)",
+    "quote": "Then from a Lutheran ye became a Zwinglian, which is the vilest heresy of all in the high mystery of the sacrament ;",
+    "license": "public-domain"
+   },
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Thomas Cranmer, Examination at Oxford before Brokes (September 1555), in Miscellaneous Writings and Letters, ed. J. E. Cox (1846)",
+    "file": "cic/texts/cranmer_miscellaneous-writings-and-letters_cox1846.txt",
+    "lines": "21216",
+    "locus": "Examination before Brokes (Cranmer's reply)",
+    "quote": "I grant that then I believed otherwise than I do now;",
+    "license": "public-domain"
+   },
+   {
+    "kind": "secondary",
+    "source_id": null,
+    "work": "Henry Walter, introduction to Tyndale's Prologue to Romans, in Tyndale, Doctrinal Treatises (Parker Society, 1848)",
+    "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+    "lines": "30816-30817",
+    "locus": "Editor's introduction to the Prologue to Romans",
+    "quote": "for the greater part of it is in fact a paraphrase, and sometimes a literal translation, of Luther's preface to the Romans,",
+    "license": "public-domain"
+   }
+  ]
+ },
+ "edges:the-english-reformation-and-elizabethan-settleme--the-tridentine-church": {
+  "id": "the-english-reformation-and-elizabethan-settleme--the-tridentine-church",
+  "to": "the-tridentine-church",
+  "note": "Henry VIII's orders of 1536 told the clergy to keep the laws that ended the Pope's 'usurped power' in England. Under Mary I, in 1555, London parishes prayed for the Pope again. In 1562 John Jewel wrote that the English had left Rome and gave thanks for it. In 1570 Pope Pius V cut Elizabeth off from the church.",
+  "sources": [
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "First Royal Injunctions of Henry VIII (1536), in Visitation Articles and Injunctions, vol. II, ed. W. H. Frere and W. M. Kennedy (1910)",
+    "file": "cic/texts/church-of-england_visitation-articles-injunctions-v2-1536-1558_frere-kennedy1910.txt",
+    "lines": "458-461",
+    "locus": "First Royal Injunctions (1536), 1",
+    "quote": "all and singular laws and statutes1 of this realm made for the abolishing and extirpation of the Bishop of Rome's pretensed and usurped power and jurisdiction within this realm,",
+    "license": "public-domain"
+   },
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Edmund Bonner, Injunctions for London Diocese (1555), the form of bidding prayer, in Visitation Articles and Injunctions, vol. II, ed. Frere and Kennedy (1910)",
+    "file": "cic/texts/church-of-england_visitation-articles-injunctions-v2-1536-1558_frere-kennedy1910.txt",
+    "lines": "18839-18841",
+    "locus": "Bonner's Injunctions (1555), bidding prayer",
+    "quote": "the good estate of our most holy father the Pope, Paul the fourth of that name, with the whole college of Cardinals,",
+    "license": "public-domain"
+   },
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Pius V, Regnans in Excelsis (1570), English column, in Thomas Barlow, Brutum Fulmen (1681)",
+    "file": "cic/texts/barlow_brutum-fulmen_1681.txt",
+    "lines": "2779-2783",
+    "locus": "Regnans in Excelsis, section 3",
+    "quote": "declare the aforefaid Elszabeth , being an Heretick,. and a favourer of Hereticks, and her Adherents in the matters aforefaid, to:have incurred the fen- tence of Anathema’, and to be cut off fromthe Unity of the",
+    "license": "public-domain"
+   },
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "John Jewel, The Apology of the Church of England (1562), trans. Anne Bacon (1564), ed. Henry Morley (1888)",
+    "file": "cic/texts/jewel_apology-of-the-church-of-england_bacon-morley1888.txt",
+    "lines": "2573-2575",
+    "locus": "Apology, Part IV",
+    "quote": "It is true; we have departed from them, and for so doing we both give thanks to Almighty God, and greatly rejoice on our own behalf.",
+    "license": "public-domain"
+   }
+  ]
+ },
+ "edges:the-scottish-reformation-and-kirk--the-tridentine-church": {
+  "id": "the-scottish-reformation-and-kirk--the-tridentine-church",
+  "to": "the-tridentine-church"
+ },
+ "edges:scandinavian-reformation-kingdoms--the-tridentine-church": {
+  "id": "scandinavian-reformation-kingdoms--the-tridentine-church",
+  "to": "the-tridentine-church"
+ },
+ "edges:the-society-of-jesus--the-tridentine-church": {
+  "id": "the-society-of-jesus--the-tridentine-church",
+  "to": "the-tridentine-church",
+  "note": "Pope Paul III approved the Society of Jesus by bull in 1540. In 1546 Ignatius of Loyola sent instructions to his men at the Council of Trent, where Laínez and Salmerón served as the pope's theologians. Laínez argued there against a two-part view of justification, and the council's decree ruled it out.",
+  "sources": [
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Paul III, bull Regimini militantis Ecclesiae (27 September 1540), in Institutum Societatis Iesu, vol. 1 (Florence, 1892)",
+    "file": "cic/texts/society-of-jesus_institutum-societatis-iesu-v1-lat_1892.txt",
+    "lines": "1554",
+    "locus": "index of papal letters",
+    "quote": "Regimini militantis, 27 Sept. 1540.",
+    "license": "public-domain"
+   },
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Paul III, bull Regimini militantis Ecclesiae (27 September 1540), in Institutum Societatis Iesu, vol. 1 (Florence, 1892)",
+    "file": "cic/texts/society-of-jesus_institutum-societatis-iesu-v1-lat_1892.txt",
+    "lines": "2115-2117",
+    "locus": "Regimini militantis, approval clause",
+    "quote": "apostolica auctoritate, tenore prae¬ sentium ex certa scientia approba¬ mus, confirmamus et benedicimus,",
+    "license": "public-domain"
+   },
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Ignatius of Loyola, Letter XX, To the Society at Trent (Rome, 1546), in Letters and Instructions, trans. O'Leary and Goodier (1914)",
+    "file": "cic/texts/ignatius-loyola_letters-instructions-v1_oleary-goodier1914.txt",
+    "lines": "3953-3957",
+    "locus": "Letter XX",
+    "quote": "To the Society at Trent . 85 Rome, first months, 1546. Instructions for the Journey to Trent.",
+    "license": "public-domain"
+   },
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Council of Trent, Canons and Decrees, trans. J. Waterworth (London, 1848), Session VI, Decree on Justification, ch. 7",
+    "file": "cic/texts/council-of-trent_canons-and-decrees_waterworth1848.txt",
+    "lines": "13188-13190",
+    "locus": "Sess. VI, ch. 7",
+    "quote": "lastly, the alone formal cause is the justice of God, not that whereby He Himself is just, but that whereby He maketh us just,",
+    "license": "public-domain"
+   },
+   {
+    "kind": "secondary",
+    "source_id": null,
+    "work": "Ignatius of Loyola, Letters and Instructions, editors' note to Letter XX (O'Leary and Goodier, 1914)",
+    "file": "cic/texts/ignatius-loyola_letters-instructions-v1_oleary-goodier1914.txt",
+    "lines": "5842-5845",
+    "quote": "On the 18th of May, 1546, the Jesuit Fathers Laynez and Salmeron arrived in Trent, having been appointed to be the theologians of the Pope by Paul III.",
+    "license": "public-domain"
+   },
+   {
+    "kind": "secondary",
+    "source_id": null,
+    "work": "J. Waterworth, historical essay prefixed to The Canons and Decrees of the Sacred and Oecumenical Council of Trent (London, 1848)",
+    "file": "cic/texts/council-of-trent_canons-and-decrees_waterworth1848.txt",
+    "lines": "4900-4902",
+    "quote": "Only five theologians supported this system, which was impugned by the rest, and especially, in a very able argument, by Lainez, of the Society of Jesus.",
+    "license": "public-domain"
+   },
+   {
+    "kind": "secondary",
+    "source_id": null,
+    "work": "J. Waterworth, historical essay prefixed to The Canons and Decrees of the Sacred and Oecumenical Council of Trent (London, 1848)",
+    "file": "cic/texts/council-of-trent_canons-and-decrees_waterworth1848.txt",
+    "lines": "4973-4975",
+    "quote": "It also aims at the opinion of Seripando, on the intrinsic and extrinsic application of the merits of Christ, in justification;",
+    "license": "public-domain"
+   },
+   {
+    "kind": "secondary",
+    "source_id": null,
+    "work": "Sforza Pallavicino, S.J., Istoria del Concilio di Trento, part 1 (Rome, 1664)",
+    "file": "cic/texts/pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt",
+    "lines": "43575-43576",
+    "quote": "erano arriuaci s poc’anzi due Teologi della Tua nazione, mandati colà dal Poncefìce,Dicgo Lainez,ed Alfonfo Salmerones",
+    "license": "public-domain"
+   }
+  ]
+ },
+ "edges:the-tridentine-church--tridentine-parish-renewal-borromean-milan": {
+  "id": "the-tridentine-church--tridentine-parish-renewal-borromean-milan",
+  "from": "the-tridentine-church",
+  "to": "tridentine-parish-renewal-borromean-milan",
+  "note": "Charles Borromeo wrote that he called Milan's first provincial council because the Council of Trent had ordered it. The council met in 1565. Its decree on seminaries quotes Trent's order. Then it taxes church incomes across the province to pay for one.",
+  "outcome": "Milan's first provincial council did what Trent told it to do. It taxed church incomes in the province to found and pay for a seminary.",
+  "sources": [
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Charles Borromeo, Acta Ecclesiae Mediolanensis (1599 printing; first published 1582), Borromeo's letter to the province",
+    "file": "cic/texts/borromeo_acta-ecclesiae-mediolanensis-lat_1599.txt",
+    "lines": "542-544",
+    "locus": "Concilium Provinciale I, opening letter",
+    "quote": "cogendi Prouincialem Synodum, quo die ex grauifsimo iuflb fandi Tridentini Con- cilij recognoui ,mature vt id munusexequi poflem , vehementerelaboraui .",
+    "license": "public-domain"
+   },
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Charles Borromeo, Acta Ecclesiae Mediolanensis (1599 printing; first published 1582)",
+    "file": "cic/texts/borromeo_acta-ecclesiae-mediolanensis-lat_1599.txt",
+    "lines": "2786-2790",
+    "locus": "Concilium Provinciale I, De Seminario Clericorum",
+    "quote": "Amdatvm cfta facro Tridcntino co- cilio prouinci.-ilibus lynodis , vt quampri- mum in eam curam incumberent , vt femina- riumclcricorum , vbicunque id fieri pollet, conftituerecur ,",
+    "license": "public-domain"
+   },
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Charles Borromeo, Acta Ecclesiae Mediolanensis (1599 printing; first published 1582)",
+    "file": "cic/texts/borromeo_acta-ecclesiae-mediolanensis-lat_1599.txt",
+    "lines": "2795-2800",
+    "locus": "Concilium Provinciale I, De Seminario Clericorum",
+    "quote": "Itaque nos prouincis noftrar ftatu, Sc ecclcfia- rum,ac beneficiorum genere diligenter confi- derato , duximus ad hanc rationem confugien dum dVe; vt detrahamus,",
+    "license": "public-domain"
+   },
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Giovanni Pietro Giussano, The Life of St. Charles Borromeo (Italian 1610; English version, 1884), table of contents",
+    "file": "cic/texts/giussano_life-of-st-charles-borromeo-v1_1884.txt",
+    "lines": "1334-1336",
+    "locus": "Book I, ch. XI (contents)",
+    "quote": "ST. CHARLES MAEES HIS ENTRY INTO MILAN I CELEBRATION OF HIS FIRST PROVINCIAL COUNCIL, OCTOBER 1 5, 1 565",
+    "license": "public-domain"
+   },
+   {
+    "kind": "secondary",
+    "source_id": null,
+    "work": "Henry Edward Manning, preface to Giussano, The Life of St. Charles Borromeo, vol. 1 (1884)",
+    "file": "cic/texts/giussano_life-of-st-charles-borromeo-v1_1884.txt",
+    "lines": "497-502",
+    "quote": "In them the Council of Trent is to be seen translated into provincial and diocesan administration for the reform of all orders of the Church.",
+    "license": "public-domain"
+   }
+  ]
+ },
+ "edges:tridentine-parish-renewal-borromean-milan--the-tridentine-church": {
+  "id": "tridentine-parish-renewal-borromean-milan--the-tridentine-church",
+  "from": "tridentine-parish-renewal-borromean-milan",
+  "to": "the-tridentine-church"
+ },
+ "edges:ambrosian-milan-standalone--tridentine-parish-renewal-borromean-milan": {
+  "id": "ambrosian-milan-standalone--tridentine-parish-renewal-borromean-milan",
+  "to": "tridentine-parish-renewal-borromean-milan"
+ },
+ "edges:the-tridentine-church--carmelite-reform-and-spanish-mystics": {
+  "id": "the-tridentine-church--carmelite-reform-and-spanish-mystics",
+  "from": "the-tridentine-church",
+  "note": "Teresa of Ávila wrote that before each new house she first sought the local bishop's consent, 'according to the decree of the council'. She also tells how Trent's decree on hermits made the hermit Mariano want to appeal to Rome. After she showed him her rule, he joined her reform.",
+  "sources": [
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Teresa of Avila, The Book of the Foundations, trans. David Lewis, ed. Benedict Zimmerman (1913)",
+    "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+    "lines": "13766-13768",
+    "locus": "Foundations ch. 24 (the Seville foundation)",
+    "quote": "for in founding the other monasteries the first thing I sought was the sanction of the ordinary, according to the decree of the council.",
+    "license": "public-domain"
+   },
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Teresa of Avila, The Book of the Foundations, trans. David Lewis, ed. Benedict Zimmerman (1913)",
+    "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+    "lines": "10025-10032",
+    "locus": "Foundations 17.8",
+    "quote": "When the holy Council of Trent had been held, and when the decree came forth by which all hermits were to be brought under the discipline of the regular orders, Mariano wished to go to Rome,",
+    "license": "public-domain"
+   },
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Teresa of Avila, The Book of the Foundations, trans. David Lewis, ed. Benedict Zimmerman (1913), editor's note quoting Mariano's letter of 7 May 1571",
+    "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+    "lines": "10053-10054",
+    "locus": "note to Foundations 17",
+    "quote": "Your servant in the Lord Doctor Mariano Azaro, Italian, Discalced Carmelite friar,’",
+    "license": "public-domain"
+   },
+   {
+    "kind": "secondary",
+    "source_id": null,
+    "work": "Benedict Zimmerman, introduction to Teresa of Avila, The Book of the Foundations, trans. Lewis (1913)",
+    "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+    "lines": "1209-1213",
+    "quote": "until the Council of Trent radically changed these matters. They had been so ingrained in the minds and customs of the times that the introduction of the Reform decreed by the Council taxed the ingenuity of the General to the utmost.",
+    "license": "public-domain"
+   }
+  ]
+ },
+ "edges:the-tridentine-church--the-post-vatican-ii-parish-world": {
+  "id": "the-tridentine-church--the-post-vatican-ii-parish-world",
+  "from": "the-tridentine-church",
+  "note": "In 1570 Pope Pius V issued a Roman Missal reformed under a decree of the Council of Trent. In 2007 Pope Benedict XVI called that Missal, as revised in 1962, an extraordinary form of the Roman rite. The older rite kept a place beside the new one.",
+  "sources": [
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Pius V, bull Quo primum tempore (14 July 1570), in Cherubini, Magnum bullarium Romanum, vol. 2",
+    "file": "cic/texts/bullarium-romanum_magnum-bullarium-tomus2-pius-iv-to-innocent-ix-lat_cherubini.txt",
+    "lines": "87956-87958",
+    "locus": "heading of the bull",
+    "quote": "Miffalis Romani, ad rité Miffas celebrandas ex Con- cilii Tridentini decreto reformati , approbatio, & aliorum abolitio.",
+    "license": "public-domain"
+   },
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Pius V, bull Quo primum tempore (14 July 1570), in Cherubini, Magnum bullarium Romanum, vol. 2",
+    "file": "cic/texts/bullarium-romanum_magnum-bullarium-tomus2-pius-iv-to-innocent-ix-lat_cherubini.txt",
+    "lines": "88306-88307",
+    "locus": "dating",
+    "quote": "ANNO 1570.",
+    "license": "public-domain"
+   },
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Benedict XVI, apostolic letter Summorum Pontificum (7 July 2007), English text on the Holy See's website",
+    "url": "https://www.vatican.va/content/benedict-xvi/en/motu_proprio/documents/hf_ben-xvi_motu-proprio_20070707_summorum-pontificum.html",
+    "accessed": "2026-11-10",
+    "locus": "Art. 1",
+    "quote": "The Roman Missal promulgated by Saint Pius V and revised by Blessed John XXIII is nonetheless to be considered an extraordinary expression of the same lex orandi of the Church and duly honoured for its venerable and ancient usage.",
+    "license": "copyright Libreria Editrice Vaticana; short quotation"
+   },
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Benedict XVI, apostolic letter Summorum Pontificum (7 July 2007), English text on the Holy See's website",
+    "url": "https://www.vatican.va/content/benedict-xvi/en/motu_proprio/documents/hf_ben-xvi_motu-proprio_20070707_summorum-pontificum.html",
+    "accessed": "2026-11-10",
+    "locus": "Art. 2",
+    "quote": "For such a celebration with either Missal, the priest needs no permission from the Apostolic See or from his own Ordinary.",
+    "license": "copyright Libreria Editrice Vaticana; short quotation"
+   },
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Benedict XVI, letter to the bishops accompanying Summorum Pontificum (7 July 2007), English text on the Holy See's website",
+    "url": "https://www.vatican.va/content/benedict-xvi/en/letters/2007/documents/hf_ben-xvi_let_20070707_lettera-vescovi.html",
+    "accessed": "2026-11-10",
+    "locus": "letter, on the two forms",
+    "quote": "The last version of the Missale Romanum prior to the Council, which was published with the authority of Pope John XXIII in 1962 and used during the Council, will now be able to be used as a Forma extraordinaria of the liturgical celebration.",
+    "license": "copyright Libreria Editrice Vaticana; short quotation"
+   },
+   {
+    "kind": "secondary",
+    "source_id": null,
+    "work": "John W. O'Malley, What Happened at Vatican II (Harvard, 2008)",
+    "file": null,
+    "lines": null,
+    "locus": null,
+    "quote": null,
+    "license": null
+   }
+  ]
+ },
+ "edges:the-tridentine-church--orthodoxy-under-the-ottomans-parish-millet-and-n": {
+  "id": "the-tridentine-church--orthodoxy-under-the-ottomans-parish-millet-and-n",
+  "from": "the-tridentine-church"
+ },
+ "edges:the-tridentine-church--the-union-of-brest-and-ruthenian-greek-catholic-": {
+  "id": "the-tridentine-church--the-union-of-brest-and-ruthenian-greek-catholic-",
+  "from": "the-tridentine-church"
+ },
+ "edges:the-tridentine-church--st-thomas-christians-under-portuguese-pressure-d": {
+  "id": "the-tridentine-church--st-thomas-christians-under-portuguese-pressure-d",
+  "from": "the-tridentine-church",
+  "note": "In 1599 the Archbishop of Goa, Aleixo de Menezes, held a synod at Diamper and bound it to the Council of Trent. Its decrees called the community's Syriac books the work of Nestorian heretics. They forbade anyone to read them and ordered them destroyed.",
+  "sources": [
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Acts and Decrees of the Synod of Diamper (1599), Geddes's English (1694) as reprinted by James Hough, History of Christianity in India, vol. 2 (1839), Appendix A",
+    "file": "cic/texts/hough_history-of-christianity-in-india-v2_1839.txt",
+    "lines": "30340-30343",
+    "locus": "Session II, Decree I (profession of faith according to the Council of Trent)",
+    "quote": "That  this  Synod  may  in  all  things  govern  itself  according to  the  directions  of  the  holy  canons,  and  tread  in  the  footsteps of  the  holy  general  councils,  and  particularly  of  the  holy  coun- cil of  Trent,",
+    "license": "public-domain"
+   },
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Acts and Decrees of the Synod of Diamper (1599), Geddes's English (1694) as reprinted by James Hough, History of Christianity in India, vol. 2 (1839), Appendix A",
+    "file": "cic/texts/hough_history-of-christianity-in-india-v2_1839.txt",
+    "lines": "31939-31940",
+    "locus": "Session III, Decree XIV, heading",
+    "quote": "CONDEMNS  MANY  SYRIAN  BOOKS,  FORBIDS  ALL  CHRISTIANS  TO READ  THEM,  AND  COMMANDS  THAT  THEY  BE  DESTROYED.",
+    "license": "public-domain"
+   },
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Acts and Decrees of the Synod of Diamper (1599), Geddes's English (1694) as reprinted by James Hough, History of Christianity in India, vol. 2 (1839), Appendix A",
+    "file": "cic/texts/hough_history-of-christianity-in-india-v2_1839.txt",
+    "lines": "31948-31951",
+    "locus": "Session III, Decree XIV",
+    "quote": "the  Synod  knowing  that  this  bishopric  is  full  of  books  writ in  the  Syrian  tongue  by  Nestorian  heretics,  and  persons  of other  devilish  sects,  which  abound  with  heresies,  blasphemies and  false  doctrines,  doth  command",
+    "license": "public-domain"
+   },
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Acts and Decrees of the Synod of Diamper (1599), Geddes's English (1694) as reprinted by James Hough, History of Christianity in India, vol. 2 (1839), Appendix A",
+    "file": "cic/texts/hough_history-of-christianity-in-india-v2_1839.txt",
+    "lines": "32704-32708",
+    "locus": "Session III, Decree XXI",
+    "quote": "doth  embrace  the  last  holy *H*  and  sacred  council  of  Trent,  and  does  not  only  believe  and confess  all  that  was  determined  and  approved  of  therein,  and reject  and  anathematize  all  that  that  council  rejected  and  con- demned;",
+    "license": "public-domain"
+   }
+  ]
+ },
+ "edges:church-of-the-east-schism-of-1552--the-tridentine-church": {
+  "id": "church-of-the-east-schism-of-1552--the-tridentine-church",
+  "to": "the-tridentine-church"
+ },
+ "edges:the-tridentine-church--catholic-church-ancien-regime": {
+  "id": "the-tridentine-church--catholic-church-ancien-regime",
+  "from": "the-tridentine-church",
+  "note": "In 1699 the bishops of the Paris province met to accept a ruling by Pope Innocent XII. Their archbishop said the church of France had received 'the faith of the Council of Trent' without exception. Trent's rules for church order, he added, were not yet received everywhere there."
+ },
+ "edges:the-tridentine-church--ruthenian-uniate-18th-century": {
+  "id": "the-tridentine-church--ruthenian-uniate-18th-century",
+  "from": "the-tridentine-church",
+  "note": "The Ruthenian synod at Zamość in 1720 wrote that it followed in the footsteps of the fathers of the Council of Trent. Those present professed that they received the Council of Trent. The synod barred parish priests from keeping feasts outside its list, and that list included Corpus Christi, a feast of the Latin church.",
+  "sources": [
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Synodus provincialis Ruthenorum habita in civitate Zamosciae anno 1720, in Mansi, Sacrorum conciliorum collectio, vol. 35 (1902 facsimile)",
+    "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt",
+    "lines": "133984-133985",
+    "locus": "Papal confirmation",
+    "quote": "fynodum provincialem Ruthénam in Civitate Zamofcie Anno MDCCXX. celebravit,",
+    "license": "public-domain"
+   },
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Synodus provincialis Ruthenorum habita in civitate Zamosciae anno 1720, in Mansi, Sacrorum conciliorum collectio, vol. 35 (1902 facsimile)",
+    "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt",
+    "lines": "137965-137967",
+    "locus": "Decrees, on books",
+    "quote": "prefens fynodus veltigiis patrum facri concilii Tridentini inherens, ftatuit primo ,",
+    "license": "public-domain"
+   },
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Synodus provincialis Ruthenorum habita in civitate Zamosciae anno 1720, in Mansi, Sacrorum conciliorum collectio, vol. 35 (1902 facsimile)",
+    "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt",
+    "lines": "135553",
+    "locus": "Professions of faith",
+    "quote": "Pariter veneror, & fufcipio Tridentinam",
+    "license": "public-domain"
+   },
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Synodus provincialis Ruthenorum habita in civitate Zamosciae anno 1720, in Mansi, Sacrorum conciliorum collectio, vol. 35 (1902 facsimile)",
+    "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt",
+    "lines": "141783-141787",
+    "locus": "Decrees, on feasts",
+    "quote": "prohibet fynodus parochis {ub graviflima poena arbitrio ordinarii, ne preter diem  Dominicam, alia fefta ce lebrent » aut populo denuncient, quam ca, que fequuntur.",
+    "license": "public-domain"
+   },
+   {
+    "kind": "primary",
+    "source_id": null,
+    "work": "Synodus provincialis Ruthenorum habita in civitate Zamosciae anno 1720, in Mansi, Sacrorum conciliorum collectio, vol. 35 (1902 facsimile)",
+    "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt",
+    "lines": "142049",
+    "locus": "Decrees, the movable feasts",
+    "quote": "Feftum Corporis, Chrifti Domini.",
+    "license": "public-domain"
+   }
+  ]
+ }
+}
