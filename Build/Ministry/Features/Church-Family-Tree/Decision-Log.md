@@ -3828,3 +3828,17 @@ All files are in `Build/Ministry/Operations/Audits/2026-11-15_story-relations-cl
 **Decided (Mark, 2026-11-15, to the map-fixes worker).** Mark checked www.churchfamilytree.com in Safari on his iPhone and answered: "yes the iphone looks good". The check was the three steps sent to him: each era "i" just after its title at first load and after pinching; a pinch that zooms only the map, with the header and the bottom bar left in place and the tree never off screen; and a tap that opens the card at once with no box left behind. Asked whether to keep the phone zoom floor at the width fit (0.18 on iPhone 13, every river on screen) or to stop sooner (0.35, the tree wider than the screen), he answered: "keep it as is".
 
 **What follows.** The Safari check and the floor in Open-Gaps "The map after release 44" (2026-11-15) are settled; see Open-Gaps 292. The map's browser tests are still run by hand, not in CI. No code, census or record change, so there is no data release number. Approved to proceed (Mark, 2026-11-15).
+
+## 2026-11-15 — Quotations not in a held file: twelve cards corrected or told plainly (coordinator; data release 46)
+
+**Done (coordinator's instruction to Thread A, under the three-thread plan Mark accepted on 2026-11-15).** The legend-fixes worker's list of quotations not in a held file (branch `claude/cft-legend-fixes`, commit 9f88aa23) was checked again against `main` and the vendored texts. Nothing else from that branch was applied. Each quotation was corrected to the held text where a held file has it, or its quotation marks were taken off and it was said in plain words where none does. Two cards go to Mark unchanged. The verification table is `Build/Ministry/Operations/Audits/2026-11-15_cft-quote-fixes/Verification_Table.md`.
+
+**Corrected to the held text.** Scholastica's Storm, seven quotations, to Gregory's Dialogues as Gardner printed them in 1911 (`gregory-great_dialogues_gardner1911.txt` l.5351-5406). The Gaza charioteer, to Jerome's Life of Hilarion (`npnf206_jerome-principal-works.xml` l.30459-30461). Ælfheah: "greatly excited" for "greatly incensed", and one comma (`anglo-saxon-chronicle_newly-translated_gomme1909.txt` l.7608-7620). The Bequest of the Dying Mother, to Lützow's English (`lutzow_bohemia-historical-sketch_1920.txt` l.16484-16488). Nayler's last words, one comma (`fox_journal-v1_ellwood-text-pickard1901.txt` l.14399-14400). Nayler's "Holy, holy, holy, Lord God of Sabaoth" is held (`ellwood_history-of-the-life_crump1900.txt` l.381-382) and stays as it was.
+
+**Told plainly.** Lucian's "I am a Christian" (text, caveat and a source note), from Chrysostom's held Latin. Toledo IV canon 57, three renderings, from the held Latin (`collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt` l.40202-40231). The Coptic Lament's "they are not compelled to do this". The Boxer card's "to manifest the meekness and gentleness of Christ". The Christian Right, six spans in four fields ("totally political", "I endorse you and what you're doing", the four principles), on the card, the map and its tree page.
+
+**Held for Mark.** Dominic Sells His Books and John of Ephesus's ‘compelling’ (Open-Gaps 296).
+
+**Review.** Round 1, a fresh Opus reviewer: 2 blocking points (Comenius and Nayler were held in English) and one missed quotation (the Christian Right's voices line). All three were fixed. Round 2, a targeted recheck: 0 blocking. Files: `Build/Ministry/Operations/Audits/2026-11-15_cft-quote-fixes/`.
+
+**What is still open.** Open-Gaps 296 (2026-11-15).

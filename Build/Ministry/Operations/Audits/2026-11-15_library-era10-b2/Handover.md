@@ -114,3 +114,13 @@ non-major people and council leads, and the 280 rows of list B in `Fetch_Rows_Er
   1940; the Serbian church between 1906 and 1920; the Māori and Pacific mission churches after 1906.
 - Batch 1's open items still stand (the eleven year-in-title files; the living marks after 2010; second renderings
   under R11 for the Latin held with no old English).
+
+## The finish, by the closing session (2026-11-15)
+
+Main was merged in three more times (the coverage check of PR #1691, era 9 batch 2b, data release 46). No archive.org
+identifier of this batch is held under another file name on main. After the merge of era 9 batch 2b, every check of
+"To finish this batch" step 2 passed with exit code 0, with `tools/check_paths.py` added; the index build covered the
+merged shelf. After the last merge, which touched no Library text, the map check, the registry check, the coverage
+generator, the commentary check, the spelling check and the path check were run again and passed. The Open-Gaps entry
+is "Library, era 10 batch 2" (2026-11-15). The 408 card-text rows of `Fetch_Rows_Era10.md` are dropped: they came from
+the legend check, and the coordinator passed on Mark's direction of 2026-11-15 that they are not wanted.

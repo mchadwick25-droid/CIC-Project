@@ -1,0 +1,186 @@
+[
+ {
+  "card": "48/1",
+  "id": "early-benedictine-italian-monasticism",
+  "title": "Scholastica’s Storm",
+  "field": "text",
+  "old": "Gregory says, ‘in the praises of God and in holy conversation’, and",
+  "new": "Gregory says, ‘in the praises of God and spiritual talk’, and"
+ },
+ {
+  "card": "48/1",
+  "id": "early-benedictine-italian-monasticism",
+  "title": "Scholastica’s Storm",
+  "field": "text",
+  "old": "talking ‘of the joys of the heavenly life’.",
+  "new": "talking ‘of the joys of heaven’."
+ },
+ {
+  "card": "48/1",
+  "id": "early-benedictine-italian-monasticism",
+  "title": "Scholastica’s Storm",
+  "field": "text",
+  "old": "Benedict was shocked: ‘What are you saying, sister? I cannot possibly stay outside my cell.’",
+  "new": "Benedict refused, ‘saying that he might not by any means tarry all night out of his Abbey’."
+ },
+ {
+  "card": "48/1",
+  "id": "early-benedictine-italian-monasticism",
+  "title": "Scholastica’s Storm",
+  "field": "text",
+  "old": "Benedict, ‘greatly troubled’, said: ‘God forgive you, sister. What have you done?’",
+  "new": "Benedict grew sad and complained of his sister, saying: ‘God forgive you, what have you done?’"
+ },
+ {
+  "card": "48/1",
+  "id": "early-benedictine-italian-monasticism",
+  "title": "Scholastica’s Storm",
+  "field": "text",
+  "old": "She answered: ‘I asked you and you would not listen; I asked my Lord and he listened.’",
+  "new": "She answered: ‘I desired you to stay, and you would not hear me, I have desired our good Lord, and he hath vouchsafed to grant my petition.’"
+ },
+ {
+  "card": "48/1",
+  "id": "early-benedictine-italian-monasticism",
+  "title": "Scholastica’s Storm",
+  "field": "text",
+  "old": "the point he wants made: ‘She could do more, because she loved more.’",
+  "new": "the point he wants made: ‘of right she did more which loved more.’"
+ },
+ {
+  "card": "15/0",
+  "id": "antiochene-church-third-century",
+  "title": "Lucian of Antioch, Nine Years in Prison",
+  "field": "text",
+  "old": "that under interrogation Lucian answered every question with the same three words, ‘I am a Christian.’",
+  "new": "that under questioning Lucian gave one answer to every question: that he was a Christian."
+ },
+ {
+  "card": "15/0",
+  "id": "antiochene-church-third-century",
+  "title": "Lucian of Antioch, Nine Years in Prison",
+  "field": "caveat",
+  "old": "Chrysostom’s ‘I am a Christian’ is a homiletic tradition",
+  "new": "Chrysostom’s account of his one answer is a homiletic tradition"
+ },
+ {
+  "card": "20/0",
+  "id": "palestinian-ascetic-monasticism-early",
+  "title": "The Christian Charioteer of Gaza Asks the Monk for Help",
+  "field": "text",
+  "old": "‘against the people of Gaza, the enemies of God, who were insulting not so much him as the church of Christ’",
+  "new": "‘especially against the people of Gaza who were enemies of God, and who would exult over the Church of Christ more than over him’"
+ },
+ {
+  "card": "60/1",
+  "id": "nicene-visigothic-iberia",
+  "title": "Toledo IV, Canon 57",
+  "field": "text",
+  "old": "would quote for centuries: ‘Concerning the Jews, the holy synod has decreed that henceforth no one is to be brought to belief by force; for God has mercy on whom he will, and hardens whom he will. Such people are not to be saved against their will but willingly, that the form of justice may be whole.’",
+  "new": "would quote for centuries. From now on, the synod decreed, no one was to be forced to believe. God has mercy on whom he will and hardens whom he will, and such people were to be saved willingly, not against their will, so that justice would be whole."
+ },
+ {
+  "card": "60/1",
+  "id": "nicene-visigothic-iberia",
+  "title": "Toledo IV, Canon 57",
+  "field": "text",
+  "old": "Some had already been baptized under Sisebut. ‘Because it is now established that they have received the divine sacraments, the grace of baptism, the chrism and the body and blood of the Lord’, they must be made to keep the faith they took, ‘lest the name of the Lord be blasphemed and the faith be held vile’.",
+  "new": "Some had already been baptized under Sisebut. They had shared in the divine sacraments, the canon says: they had received the grace of baptism, been anointed with the chrism and taken the body and blood of the Lord. So they must be made to keep the faith they had taken under force or necessity. Otherwise the name of the Lord would be blasphemed, and the faith they had taken would be held cheap and contemptible."
+ },
+ {
+  "card": "66/1",
+  "id": "coptic-christianity-under-early-islam",
+  "title": "The Lament Over the Lost Language",
+  "field": "text",
+  "old": "‘they are not compelled to do this’, the text says",
+  "new": "no one forces them to do this, the text says"
+ },
+ {
+  "card": "83/0",
+  "id": "late-anglo-saxon-christianity",
+  "title": "Ælfheah Will Not Be Ransomed",
+  "field": "text",
+  "old": "‘greatly incensed against the bishop because he would not promise them any money’",
+  "new": "‘greatly excited against the bishop, because he would not promise them any money’"
+ },
+ {
+  "card": "83/0",
+  "id": "late-anglo-saxon-christianity",
+  "title": "Ælfheah Will Not Be Ransomed",
+  "field": "text",
+  "old": "‘his holy blood fell on the earth and his holy soul",
+  "new": "‘his holy blood fell on the earth, and his holy soul"
+ },
+ {
+  "card": "163/1",
+  "id": "czech-churches-last-century",
+  "title": "The Bequest of the Dying Mother",
+  "field": "text",
+  "old": "‘I too believe before God,’ Comenius wrote, ‘that after the passing of the storms of wrath, brought upon our heads by our sins, the rule of thy affairs will return to thee again, O Czech people.’",
+  "new": "Comenius wrote that he too believed, before God, that the rule of the Czech people’s affairs would return to them. It would come once the storms of wrath, brought down by their sins, had passed."
+ },
+ {
+  "card": "170/0",
+  "id": "the-quakers-religious-society-of-friends",
+  "title": "James Nayler Rides into Bristol",
+  "field": "text",
+  "old": "singing ‘Holy, holy, holy, Lord God of Sabaoth’ and spreading",
+  "new": "singing Holy, holy, holy and spreading"
+ },
+ {
+  "card": "170/0",
+  "id": "the-quakers-religious-society-of-friends",
+  "title": "James Nayler Rides into Bristol",
+  "field": "text",
+  "old": "‘There is a spirit which I feel that delights",
+  "new": "‘There is a spirit which I feel, that delights"
+ },
+ {
+  "card": "206/2",
+  "id": "the-missionary-movement-s-native-churches-seramp",
+  "title": "The Boxer Summer, and a Mission That Refused Its Damages",
+  "field": "text",
+  "old": "where they could, ‘to manifest the meekness and gentleness of Christ’;",
+  "new": "where they could, so as to show the meekness and gentleness of Christ;"
+ },
+ {
+  "card": "299/None",
+  "id": "the-christian-right",
+  "title": "The Christian Right",
+  "field": "floorNote",
+  "old": "'It is totally political,' he said.",
+  "new": "It was entirely political, he said."
+ },
+ {
+  "card": "299/None",
+  "id": "the-christian-right",
+  "title": "The Christian Right",
+  "field": "why",
+  "old": "Then he added, 'I endorse you and what you're doing.'",
+  "new": "Then he added that he endorsed them and what they were doing."
+ },
+ {
+  "card": "299/None",
+  "id": "the-christian-right",
+  "title": "The Christian Right",
+  "field": "longDescription",
+  "old": "It named four principles of its own: 'pro-life, pro-family, pro-morals, and pro-American'.",
+  "new": "It named four principles of its own: it was pro-life, pro-family, pro-morals and pro-American."
+ },
+ {
+  "card": "299/None",
+  "id": "the-christian-right",
+  "title": "The Christian Right",
+  "field": "longDescription",
+  "old": "Falwell called it 'totally political', not a religious group.",
+  "new": "Falwell called it entirely political, not a religious group."
+ },
+ {
+  "card": "299/None",
+  "id": "the-christian-right",
+  "title": "The Christian Right",
+  "field": "longDescription",
+  "old": "He told the crowd, 'I endorse you and what you're doing.'",
+  "new": "He told the crowd that he endorsed them and what they were doing."
+ }
+]
