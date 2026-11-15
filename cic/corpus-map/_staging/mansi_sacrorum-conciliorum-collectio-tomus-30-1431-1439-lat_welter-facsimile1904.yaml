@@ -1,0 +1,20 @@
+source_file: mansi_sacrorum-conciliorum-collectio-tomus-30-1431-1439-lat_welter-facsimile1904.txt
+assignments:
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-30-1431-1439-lat_welter-facsimile1904--council-of-basel-documents-mansi-30
+  work: 'Council of Basel, documents (Mansi 30)'
+  author: mansi
+  locus: 'from OCR line 5962; add 12 to OCR line numbers'
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  role: tradition
+  confidence: provisional
+  note: 'The council''s own acts and letters as Mansi gathered them in the eighteenth century.'
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-30-1431-1439-lat_welter-facsimile1904--council-of-basel-documents-mansi-30-for-the-bohemian-negotiations
+  work: 'Council of Basel, documents (Mansi 30), for the Bohemian negotiations'
+  author: mansi
+  locus: 'not mapped; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-hussite-and-bohemian-brethren-movement
+  role: context
+  confidence: provisional
+  note: 'The council''s side of its dealings with the Bohemians; the passages were not located.'

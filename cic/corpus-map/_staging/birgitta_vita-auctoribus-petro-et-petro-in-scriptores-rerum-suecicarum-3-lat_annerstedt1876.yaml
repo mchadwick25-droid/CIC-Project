@@ -1,0 +1,11 @@
+source_file: birgitta_vita-auctoribus-petro-et-petro-in-scriptores-rerum-suecicarum-3-lat_annerstedt1876.txt
+assignments:
+- row_id: birgitta_vita-auctoribus-petro-et-petro-in-scriptores-rerum-suecicarum-3-lat_annerstedt1876--life-of-birgitta-by-her-confessors-prior-peter-and-master-peter-scriptores-rerum-suecicarum-iii
+  work: 'Life of Birgitta by her confessors, Prior Peter and Master Peter (Scriptores rerum Suecicarum III)'
+  author: birgitta
+  locus: 'about OCR lines 47115-49160; add 12 to OCR line numbers'
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  role: tradition
+  confidence: provisional
+  note: 'The two confessors'' own account, given in for her canonization.'

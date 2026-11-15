@@ -458,6 +458,38 @@ the rows are in `CFT-Wants.md`, "Eras 4-5, second fill".
   Mystikos, Peter of Sicily, Ilarion or the trial of Maximus. Those wants cannot be filled under the date rule.
 - The Life of Constantine is held in Latin translation only; the Slavonic cannot be read in any scan found.
 
+## Era 6 fill (2026-11-15)
+
+Twenty-seven files for the era 6 rows of the wanted list and the Library wants of Open-Gaps 264, 267 and 271.
+Record: `Build/Ministry/Operations/Audits/2026-11-15_library-era6/Search_Log.md`; the rows are in `CFT-Wants.md`,
+"Era 6 (1300-1517), filled".
+
+**Decided here.**
+- Rights: only a printed imprint of 1930 or earlier. Ten years were read on the scan's page image where the OCR
+  title page gave none; the leaf is named in each header.
+- A scan that is a modern reprint is out, whatever the year of the text it reproduces: Gibb's Ibn Battuta (a 1992
+  reprint), the Zeitschrift für Kirchengeschichte volume with Ockham's letter (a Johnson Reprint), Kałużniacki's
+  Tsamblak (Variorum, 1971). The last two are held for Mark, since the text reproduced is of 1884 and 1901.
+- The host's own date is not trusted against the title page: the Acta Sanctorum for October X is the Brussels
+  printing of 1861, where the host names Paris, 1863.
+- Three wants were held already. The Perruchon header, registry note and shelf note said the chronicle of Zara
+  Yaqob had no French translation in the volume; it has one, and the three are corrected. The header of the
+  Recueil's first Oriental volume now names its extract from Abu'l-Fida.
+- A retelling is not taken in place of a Life: Stephen of Perm (1896), Zosima and Savvatii (1897).
+- A printing whose wanted passage cannot be read is not taken: Kempis's Life of Gerard in the 1615 and 1728 Opera.
+- A selection is taken where the full edition is not to be had, and says so: Naumann's Tauler after Vetter.
+- The Muslim outside witnesses are held in their translators' French and German and shelved `context`,
+  `needs-ruling`: no census entry covers Mamluk Egypt and Syria or the Maghreb after 1300, so Ibn Khaldun and
+  al-Qalqashandi sit on `coptic-christianity-fatimid-to-mamluk` until a ruling; Ibn Battuta on the Palaiologan and
+  Saint Thomas entries. None was read in depth.
+- Euthymius of Tarnovo is `needs-ruling`: no census entry is the Bulgarian church of his day.
+- Birch's Ockham carries the imprint 1930, the last year the date rule admits.
+
+**For the tree, not the Library.**
+- Nothing printed by 1930 was found for Estifanos, for Zara Yaqob's own books or for the full Book of Margery
+  Kempe. The Gadla Ewostatewos, the Prosvetitel and the Lives of Stephen of Perm, Kirill of Beloozero, Zosima and
+  Savvatii, and Theodosius of Tarnovo exist in print before 1931 but are not on archive.org.
+
 ### Next action
 
-Era 6 and era 7 wants, each in a fresh session, the same way.
+Era 7 wants in a fresh session, the same way.

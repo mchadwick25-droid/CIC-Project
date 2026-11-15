@@ -3,6 +3,24 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: muscovite-monastic-christianity
 works:
+- row_id: akty-istoricheskie_t1-1334-1598-rus_arkheograficheskaia-kommissiia1841--kirill-of-beloozero-letters-to-the-princes-and-testament-akty-istoricheskie-i-nos-12-16-27-and-the-testament-of-1427
+  work: Kirill of Beloozero, letters to the princes and testament (Akty istoricheskie I, nos.
+    12, 16, 27 and the testament of 1427)
+  author: akty-istoricheskie
+  locus: about OCR lines 2720, 3154, 6486 and 7243; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: Kirill's own letters and will, in old Russian; no Life of him is held.
+  source_file: akty-istoricheskie_t1-1334-1598-rus_arkheograficheskaia-kommissiia1841.txt
+- row_id: akty-istoricheskie_t1-1334-1598-rus_arkheograficheskaia-kommissiia1841--moscow-s-letters-on-isidore-and-the-council-of-florence-akty-istoricheskie-i
+  work: Moscow's letters on Isidore and the Council of Florence (Akty istoricheskie I)
+  author: akty-istoricheskie
+  locus: about OCR lines 8370-8780, 9620-9860 and 12570-13700; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: 'The grand prince''s and Metropolitan Jonah''s own letters, with bishops'' sworn statements:
+    the Moscow side of the rejection of the union. The document numbers were not all read.'
+  source_file: akty-istoricheskie_t1-1334-1598-rus_arkheograficheskaia-kommissiia1841.txt
 - row_id: avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924--the-life-of-the-archpriest-avvakum-by-himself-3
   work: The Life of the Archpriest Avvakum by Himself
   author: avvakum
@@ -55,6 +73,24 @@ works:
     Mouravieff''s narrative (vendored) retells it, and Zenkovsky''s abridged English is in
     copyright.'
   source_file: macarius-metropolitan_velikie-minei-chetii-september-25-30-chu_arkheograficheskaya-kommissiya1883.txt
+- row_id: macarius-metropolitan_velikie-minei-chetii-september-1-13-chu_arkheograficheskaia-kommissiia1868--joseph-of-volokolamsk-dukhovnaia-gramota-monastic-rule-in-the-great-menaion-reader-september-9
+  work: Joseph of Volokolamsk, Dukhovnaia gramota (monastic rule), in the Great Menaion Reader
+    (September 9)
+  author: macarius-metropolitan
+  locus: about OCR lines 33914-41289; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: Joseph's own rule for his monastery, in Church Slavonic; no translation is held.
+  source_file: macarius-metropolitan_velikie-minei-chetii-september-1-13-chu_arkheograficheskaia-kommissiia1868.txt
+- row_id: macarius-metropolitan_velikie-minei-chetii-september-1-13-chu_arkheograficheskaia-kommissiia1868--life-of-joseph-of-volokolamsk-in-the-great-menaion-reader-september-9
+  work: Life of Joseph of Volokolamsk, in the Great Menaion Reader (September 9)
+  author: macarius-metropolitan
+  locus: about OCR lines 31080-33911; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: An early Life of Joseph kept in Metropolitan Macarius's Menaion. The heading names
+    no author in the OCR.
+  source_file: macarius-metropolitan_velikie-minei-chetii-september-1-13-chu_arkheograficheskaia-kommissiia1868.txt
 - row_id: mouravieff_history-of-the-church-of-russia_blackmore1842--a-history-of-the-church-of-russia-mouravieff-blackmore-s
   work: A History of the Church of Russia (Mouravieff; Blackmore's English, 1842)
   author: mouravieff

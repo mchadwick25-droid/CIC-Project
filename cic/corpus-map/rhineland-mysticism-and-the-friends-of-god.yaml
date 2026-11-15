@@ -189,6 +189,16 @@ works:
 
     '
   source_file: merswin_buch-von-den-neun-felsen-gmh_schmidt1859.txt
+- row_id: pomerius_de-origine-monasterii-viridisvallis-in-analecta-bollandiana-4-lat_1885--henry-pomerius-de-origine-monasterii-viridisvallis-with-the-life-of-ruusbroec-analecta-bollandiana-4
+  work: Henry Pomerius, De origine monasterii Viridisvallis, with the Life of Ruusbroec (Analecta
+    Bollandiana 4)
+  author: pomerius
+  locus: about OCR lines 15148-19290; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: A canon of Groenendael writing his own house's history and its first prior's Life,
+    a generation after Ruusbroec.
+  source_file: pomerius_de-origine-monasterii-viridisvallis-in-analecta-bollandiana-4-lat_1885.txt
 - row_id: ruusbroec_adornment-spiritual-marriage-sparkling-stone-book-supreme-truth_wynschenk-dom1916--ruysbroeck-adornment-of-the-spiritual-marriage-sparkling
   work: Ruysbroeck, Adornment of the Spiritual Marriage, Sparkling Stone, Book of Supreme
     Truth (Wynschenk Dom's translation)
@@ -287,6 +297,15 @@ works:
 
     '
   source_file: suso_little-book-of-eternal-wisdom_1910.txt
+- row_id: tauler_ausgewaehlte-predigten-gmh_naumann1914--johannes-tauler-selected-sermons-in-the-original-german-naumann-1914
+  work: Johannes Tauler, selected sermons in the original German (Naumann 1914)
+  author: tauler
+  locus: about OCR lines 300-3968; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: Tauler's sermons as the manuscripts give them; a selection only. No sermon here was
+    matched to Winkworth's English.
+  source_file: tauler_ausgewaehlte-predigten-gmh_naumann1914.txt
 - row_id: tauler_history-and-life-with-sermons_winkworth1907--tauler-life-and-twenty-five-sermons-winkworth-s-translation
   work: Tauler, Life and twenty-five sermons (Winkworth's translation)
   author: tauler
