@@ -93,6 +93,7 @@ already in it. KEEP and PROTECTED lines never fail the run.
 from __future__ import annotations
 
 import argparse
+import fnmatch
 import json
 import re
 import io
@@ -1813,6 +1814,89 @@ def _placeholder_category(matched: list[str], category: str, written_out: bool) 
     return category
 
 
+# ---------------------------------------------------------------------------
+# ACCEPTED_OPEN waivers (CLAUDE.md, "Track gaps and exceptions explicitly"):
+# known lines on a live surface that are not being fixed right now, each with
+# the open item or the change that owns it. A waived line is reported as
+# WAIVED and never fails a run. A waiver that no longer matches any line
+# fails every --enforce run until it is removed, so a waiver cannot outlive
+# the defect it names. Keep each match narrow: the field and the wording.
+# ---------------------------------------------------------------------------
+@dataclass(frozen=True)
+class Waiver:
+    key: str
+    paths: tuple[str, ...]  # repo-relative paths or fnmatch patterns
+    match: re.Pattern[str]  # applied to the line's own text
+    owner: str
+
+
+ACCEPTED_OPEN: tuple[Waiver, ...] = (
+    Waiver(
+        "story-source-notes",
+        ("cft-website/index.html",),
+        re.compile(r'^\s*"note":.*\b(?:consulted via|known to me, not consulted)\b'),
+        "Church Family Tree Open-Gaps 280: the story source notes record real sourcing limits; "
+        "their wording waits on Mark.",
+    ),
+    Waiver(
+        "relations-summary-release-45",
+        ("cft-website/index.html",),
+        re.compile(r'^\s*"relationsSummary":'),
+        "Release 45 (PR #1679, claude/cft-story-relations-cleanup) rewrites every relationsSummary; "
+        "this waiver comes off when it merges.",
+    ),
+    Waiver(
+        "census-builder-wording",
+        ("cft-website/index.html", "cic-website/data/world-census.json", "cft-website/tree/*.html"),
+        re.compile(
+            r"\bcensus (?:row|edge|relations line)\b|\bper census\b|\btension-sibling\b|\bWho scan\b"
+            r"|\bChange order under G\d"
+        ),
+        "Church Family Tree Open-Gaps 280: census wording outside the stories, for Mark and a slice after "
+        "Release 45.",
+    ),
+    Waiver(
+        "compiled-record-ids",
+        (
+            "cic-website/traditions/syriac-edessa-nisibis.html",
+            "cic-website/data/worlds/syriac-edessa-nisibis.json",
+            "cic-website/data/worlds/desert-monasticism.json",
+        ),
+        re.compile(r"syr\.source\.theodoret-historia-ecclesiastica \(Theodoret|desert\.source\.evagrius-praktikos and Doc_01"),
+        "Church Family Tree Open-Gaps 280: a record id in syr.quote.theodoret-gnats's speaker_or_author and a "
+        "build note in desert.figure.evagrius reach the compiled site; a record fix and a recompile.",
+    ),
+)
+
+
+def _waiver_for(rel: Path, line: str) -> Waiver | None:
+    rel_s = rel.as_posix()
+    for waiver in ACCEPTED_OPEN:
+        if any(fnmatch.fnmatchcase(rel_s, p) for p in waiver.paths) and waiver.match.search(line):
+            return waiver
+    return None
+
+
+def stale_waivers(repo: Path, waivers: tuple[Waiver, ...] = ACCEPTED_OPEN) -> list[str]:
+    """Each waiver that matches no line it would waive, across its files."""
+    problems: list[str] = []
+    for waiver in waivers:
+        paths = sorted({p for pattern in waiver.paths for p in repo.glob(pattern) if p.is_file()})
+        used = False
+        for path in paths:
+            rel = path.relative_to(repo)
+            surface = surface_of(rel)
+            if surface is None:
+                continue
+            if any(h.category in BLOCKING_CATEGORIES + ("WAIVED",) and waiver.match.search(h.text)
+                   for h in scan_file(repo, path, surface)):
+                used = True
+                break
+        if not used:
+            problems.append(f"ACCEPTED_OPEN waiver {waiver.key!r} matches no line any more: remove it ({waiver.owner})")
+    return problems
+
+
 def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
     rel = path.relative_to(repo)
     if is_generated_manifest(rel):
@@ -1910,6 +1994,10 @@ def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
             category = _gate_vocabulary_category(rel, line, matched, category, code_lines, i)
             category = _method_vocabulary_category(rel, line, matched, category)
             category = _placeholder_category(matched, category, i in code_lines or i in template_lines)
+            waiver = _waiver_for(rel, line) if category in BLOCKING_CATEGORIES else None
+            if waiver is not None:
+                category = "WAIVED"
+                matched = matched + [f"waiver:{waiver.key}"]
         hits.append(Hit(surface, rel.as_posix(), i, category, matched, line.strip()))
     return hits
 
@@ -2037,16 +2125,16 @@ def main(argv: list[str] | None = None) -> int:
 
     counts: dict[str, dict[str, int]] = {}
     for hit in hits:
-        counts.setdefault(hit.surface, {"KEEP": 0, "REWRITE": 0, "ROUTE": 0, "PROTECTED": 0})
+        counts.setdefault(hit.surface, {"KEEP": 0, "REWRITE": 0, "ROUTE": 0, "PROTECTED": 0, "WAIVED": 0})
         counts[hit.surface][hit.category] += 1
 
     scope = f"files changed since the merge-base with {args.base}" if args.base else "whole tree"
     print(f"Live-surface commentary scan ({scope}; see tools/check_live_commentary.py)\n")
     for surface in surfaces:
-        c = counts.get(surface, {"KEEP": 0, "REWRITE": 0, "ROUTE": 0, "PROTECTED": 0})
+        c = counts.get(surface, {"KEEP": 0, "REWRITE": 0, "ROUTE": 0, "PROTECTED": 0, "WAIVED": 0})
         total = sum(c.values())
         print(f"{surface}: {total} hits  (KEEP {c['KEEP']}, REWRITE {c['REWRITE']}, "
-              f"ROUTE {c['ROUTE']}, PROTECTED {c['PROTECTED']})")
+              f"ROUTE {c['ROUTE']}, PROTECTED {c['PROTECTED']}, WAIVED {c['WAIVED']})")
     print()
     for hit in hits:
         print(hit.row())
@@ -2064,6 +2152,11 @@ def main(argv: list[str] | None = None) -> int:
         for hit in blocking:
             print(f"  {hit.row()}", file=sys.stderr)
         return 1
+    if args.enforce:
+        stale = stale_waivers(REPO, ACCEPTED_OPEN)
+        if stale:
+            print("\n" + "\n".join(stale), file=sys.stderr)
+            return 1
     return 0
 
 

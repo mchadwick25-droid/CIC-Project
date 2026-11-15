@@ -166,7 +166,7 @@ def test_ids_in_markup_and_data_plumbing_are_not_reader_text(site_repo, line):
     "consulted via", "known to me, not consulted", "the census row ends here",
 ])
 def test_story_card_builder_phrases_are_flagged_on_the_sites(site_repo, phrase):
-    hits = _scan(site_repo, "cft-website/index.html", f'"how": "Cyprian, {phrase}, writes."\n', "cft-website")
+    hits = _scan(site_repo, "cic-website/story.html", f'"how": "Cyprian, {phrase}, writes."\n', "cic-website")
     assert [h.category for h in hits] == ["REWRITE"]
 
 
@@ -321,3 +321,34 @@ def test_a_bare_date_in_backticks_is_still_a_date(tmp_path):
 def test_an_adverb_before_the_process_verb_is_still_an_open_item(tmp_path):
     hits = _scan(tmp_path, "Build/worlds/w/x.md", "This has not yet been comprehensively assessed.\n", "worlds")
     assert [h.category for h in hits] == ["ROUTE"]
+
+
+# --- ACCEPTED_OPEN waivers -----------------------------------------------------
+
+def test_a_waived_line_is_reported_and_never_blocks(site_repo):
+    line = '"note": "Cyprian\'s letter, consulted via summaries only."\n'
+    hits = _scan(site_repo, "cft-website/index.html", line, "cft-website")
+    assert [h.category for h in hits] == ["WAIVED"]
+    assert "waiver:story-source-notes" in hits[0].patterns
+
+
+def test_a_waiver_is_narrow_to_its_file_and_field(site_repo):
+    line = '"how": "Cyprian\'s letter, consulted via summaries only."\n'
+    assert [h.category for h in _scan(site_repo, "cft-website/index.html", line, "cft-website")] == ["REWRITE"]
+    note = '"note": "consulted via summaries only."\n'
+    assert [h.category for h in _scan(site_repo, "cic-website/x.html", note, "cic-website")] == ["REWRITE"]
+
+
+def test_a_waiver_that_matches_nothing_is_stale(site_repo):
+    (site_repo / "cft-website").mkdir(exist_ok=True)
+    (site_repo / "cft-website" / "index.html").write_text('"note": "consulted via summaries only."\n', encoding="utf-8")
+    used = clc.Waiver("used", ("cft-website/index.html",), clc.re.compile(r'^\s*"note":'), "test")
+    unused = clc.Waiver("unused", ("cft-website/index.html",), clc.re.compile(r'^\s*"never":'), "test")
+    assert clc.stale_waivers(site_repo, (used, unused)) == [
+        "ACCEPTED_OPEN waiver 'unused' matches no line any more: remove it (test)"
+    ]
+
+
+def test_every_registered_waiver_names_its_owner():
+    for waiver in clc.ACCEPTED_OPEN:
+        assert waiver.owner and ("Open-Gaps" in waiver.owner or "PR #" in waiver.owner)

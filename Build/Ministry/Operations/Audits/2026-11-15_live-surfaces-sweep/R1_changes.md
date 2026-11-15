@@ -100,3 +100,14 @@ These are existing text that the new patterns now see. None blocks a change that
 12. (a) quote_verbatim: "Two of the three patterns (the source-side ones)". (b) didymus: "No Greek characters survive in / this file's OCR." (c) Cyprian Pars III keeps the plain fact: "Closely related material from the same edition is vendored separately". Session ids in other headers' Source/Provenance lines are left: they say who fetched a file, which INTAKE.md section 4 asks for.
 
 Library after these fixes: 9 REWRITE and 10 ROUTE lines, every one in a file this change does not edit (bell, cassian and eucherius "this build thread" outside a Source line; calvin, chronica-minora, gregory-great, luther, pl11 ×3, theodosianus, vonsoden_streit, wyclif open-item pointers; hadewijch, optatus, nestle1904 as listed; john-ephesus, origen and evagrius change history). Section 4's cic-texts row is superseded by this count.
+
+## 7. ACCEPTED_OPEN waivers (coordinator's condition before merge)
+
+The check would have failed every edit to `cft-website/index.html` on known lines that wait on Mark or on Release 45. It now carries an `ACCEPTED_OPEN` registry (CLAUDE.md, "Track gaps and exceptions explicitly"). A waived line reports as WAIVED and never fails a run, and every `--enforce` run fails on a waiver that matches no line any more. The waivers:
+
+- `story-source-notes`: `"note"` lines in `cft-website/index.html` with "consulted via" or "known to me, not consulted". Owner: Open-Gaps 280, the wording waits on Mark.
+- `relations-summary-release-45`: every `"relationsSummary"` line in `cft-website/index.html`. Owner: Release 45 (PR #1679); it comes off when that merges.
+- `census-builder-wording`: census row/edge/relations line, per census, tension-sibling, Who scan, and "Change order under G..." in `cft-website/index.html`, `cic-website/data/world-census.json` and `cft-website/tree/*.html`. Owner: Open-Gaps 280.
+- `compiled-record-ids`: the syriac pull-quote cite and the desert date-field note in three compiled site files. Owner: Open-Gaps 280.
+
+Whole-site counts with the waivers: cft-website 0 REWRITE, 104 WAIVED; cic-website 0 REWRITE, 13 WAIVED. Tests cover a waived line, a waiver's narrowness to its file and field, and a stale waiver.
