@@ -135,3 +135,13 @@ handover, on the same branch if the pull request has not merged, or on a new one
 The way of working is this batch's: searchers hand back picks, the Library thread checks every pick's archive.org
 id against the registry and reads the doubtful imprints, fresh checkers write the headers from the vendored
 first pass, one independent review, then the checks.
+
+## Checks on the merged branch (2026-11-15, after merging origin/main)
+
+All passed, each with exit code 0: `corpus_map_merge.py --check`, `corpus_index.py --build` (2,193 files),
+`works_registry.py --check`, `author_ids.py --check`, `texts_registry.py --check`,
+`tests_corpus_index.py --reuse-index`, `tests_corpus_structure.py`, `tests_passage_index.py`,
+`tests_corpus_map.py`, `tools/check_live_commentary.py --base origin/main --enforce`,
+`tools/check_spelling.py --base origin/main --enforce` (0 findings) and
+`tools/check_paths.py --baseline tools/check_paths_baseline.txt` (0 new). `corpus_coverage.py` was run and its
+output was not committed, for the reason given above.
