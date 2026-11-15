@@ -1687,12 +1687,9 @@ _SITE_ID_KEY = re.compile(
     r"census|parent|children|ref|refs|image|audio|node|nodes|edge|edges|link|links)$|^_"
     r"|(?:Id|_id|Ids|_ids|Url|_url|Path|_path|File|_file|Src|Key|_key)$"
 )
-_SITE_PAIR = re.compile(r"""["']?([A-Za-z_][\w-]*)["']?\s*:\s*("(?:[^"\\]|\\.)*"|'(?:[^'\\]|\\.)*')""")
+_SITE_STRING = re.compile(r'"(?:[^"\\]|\\.)*"')
+_SITE_KEY_GAP = re.compile(r"^\s*:\s*$")
 _SITE_TAG = re.compile(r"<[^>]*>")
-# A quoted string with no space in it is a key or a bare identifier value
-# ("toldWithin": "roman-church-gregorian", "antony-the-great": {), never a
-# sentence a reader reads.
-_SITE_BARE_TOKEN = re.compile(r""""[^"\s]*"|'[^'\s]*'""")
 _SITE_PATH = re.compile(r"\S*(?:/|\.(?:html|json|mp3|ogg|wav|md|mjs|js|css|png|jpe?g|svg|webp|yaml))\S*")
 _SLUG_CACHE: dict[str, re.Pattern[str] | None] = {}
 
@@ -1704,12 +1701,32 @@ def _is_site_file(rel: Path) -> bool:
 
 
 def _site_reader_text(line: str) -> str:
-    def drop_id_pair(m: re.Match[str]) -> str:
-        return " " if _SITE_ID_KEY.search(m.group(1)) else m.group(0)
+    """The line as a reader would read it. HTML tags go (attributes are
+    markup). The double-quoted string literals are walked left to right, so a
+    `","` between two array items is never mistaken for a string: a key goes,
+    the value of an id-like key (_SITE_ID_KEY, or any key starting `_`) goes,
+    and a string with no space in it goes (a key or a bare identifier,
+    "toldWithin": "roman-church-gregorian"). Then paths and URLs go."""
     text = _SITE_TAG.sub(" ", line)
-    text = _SITE_PAIR.sub(drop_id_pair, text)
-    text = _SITE_BARE_TOKEN.sub(" ", text)
-    return _SITE_PATH.sub(" ", text)
+    parts: list[str] = []
+    pos = 0
+    key = None
+    key_end = -1
+    for m in _SITE_STRING.finditer(text):
+        parts.append(text[pos:m.start()])
+        pos = m.end()
+        content = m.group(0)[1:-1]
+        if text[m.end():].lstrip().startswith(":"):
+            key, key_end = content, m.end()
+            continue
+        value_of = key if key is not None and _SITE_KEY_GAP.match(text[key_end:m.start()]) else None
+        if value_of is not None and _SITE_ID_KEY.search(value_of):
+            continue
+        if not re.search(r"\s", content):
+            continue
+        parts.append(" " + content + " ")
+    parts.append(text[pos:])
+    return _SITE_PATH.sub(" ", "".join(parts))
 
 
 def _slug_pattern() -> re.Pattern[str] | None:

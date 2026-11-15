@@ -40,17 +40,33 @@ New patterns, everywhere: `review-finding` (Critic/Review Finding N), `change-or
 
 New on the two public sites only (cft-website/, cic-website/, stylesheets excluded):
 - `builder-phrase`: whose record sits at, that record never names, the same province's church, consulted via, known to me, not consulted, census row/edge/relations line, per census, tension-sibling, Who scan.
-- `record-slug`: a record id (`<world code>.<type>.<name>`, world codes read from records/) or a hyphenated census id (from cic-website/data/world-census.json) in reader text. A line is read with its HTML tags, id-like key/value pairs, keys starting `_`, bare one-token quoted strings, and paths and URLs taken out first, so ids in markup and data plumbing do not count.
+- `record-slug`: a record id (`<world code>.<type>.<name>`, world codes read from records/) or a hyphenated census id (from cic-website/data/world-census.json) in reader text. A line is read with its HTML tags, id-like key/value pairs, keys starting `_`, bare one-token quoted strings (string literals read left to right), and paths and URLs taken out first, so ids in markup and data plumbing do not count.
 
 False-positive repairs, each narrow (section 1): bare "the Freeze"; "has not yet been" needs a process verb; template headings and bracketed placeholders; open-item cues on Python code lines; dates inside one-name code spans and fenced commands; a dated file name in a Source Registry note no longer hides the Added column; "caught by the OCR/scan" is not change history; "Mark's own" before a gospel noun is the Evangelist; "prior turn" alone is a conversation turn.
 
-Tests: `tools/tests/test_check_live_commentary_library_sites.py` (new, 47 cases), the old "vendored texts fully excluded" test removed (it encoded the rule this change replaces), and the two BASELINES hand labels. Whole suite: 351 passed.
+Tests: `tools/tests/test_check_live_commentary_library_sites.py` (new), the old "vendored texts fully excluded" test removed (it encoded the rule this change replaces), and the two BASELINES hand labels. Whole suite: 351 passed.
 
 Scope note for every other thread: the new patterns report existing text across the tree (counts in section 4). `--enforce` fails a change only on files it edits, so the existing text blocks nothing until a change touches its file.
 
 ## 4. Whole-tree counts after this change (REWRITE + ROUTE, then PROTECTED)
 
-To be filled from the final scan before the pull request opens.
+On main before this change the whole tree carried 16 REWRITE/ROUTE lines. With the wider check, and after this change's fixes:
+
+| surface | REWRITE + ROUTE | PROTECTED (reported, never blocking) |
+|---|---|---|
+| cft-website | 104 (58 story `relationsSummary` lines and the story source notes under Release 45; the rest census text, section 5) | 0 |
+| cic-website | 13 (census text mirrored from the map, and three real reader-text leaks: the syriac pull-quote cite in the page and its world JSON, and a desert story's date field, section 5) | 0 |
+| cic-texts | 8 (section 5) | 5,406 |
+| engine | 6 | 3,819 |
+| records | 61 (mostly `mark-provenance` and `review-finding` in record bodies, section 5) | 443 |
+| reference | 40 (method vocabulary such as "change order", and branch names in method documents) | 0 |
+| worlds | 149 (construction documents: "this build thread", Mark provenance, change orders, review findings) | 21,909 |
+| sandbox | 11 (the sample card's text and dated seeds, section 5) | 0 |
+| cic-corpus-map | 9 | 0 |
+| cic-poc-frontend | 1 | 0 |
+| canon, fixtures, packages, cic-engine | 0 | 8 |
+
+These are existing text that the new patterns now see. None blocks a change that does not edit its file.
 
 ## 5. Left for Mark or another thread (not changed)
 
@@ -58,6 +74,7 @@ To be filled from the final scan before the pull request opens.
 - **The 78 story source notes with "consulted via summaries only" and similar.** Real sourcing limits; Mark decides their wording.
 - **Census text outside the stories (cft-website/index.html DATA and cic-website/data/world-census.json, and the generated tree pages):** "the census row ends here" (council-of-dvin-609, second-council-of-constantinople-553), "The Who scan lists him as not yet scored" (council-of-nicaea-325, council-of-sardica-343), "native genre per census" (the-stone-campbell-restoration-movement), "tension-sibling evidence (census relations line)" (latin-american-base-communities), "web-verified per the census row", a "Change order under G89-38 a" link reason; the census `meta.source`/`meta.notes` paths; `eras[].stepStatus`/`rec` ("Step 0 COMPLETE"); about 19 `statusWord` values in build jargon ("Floor divergence recorded ... register retained", "c2 CLEARED"); 166 `statusDescription` values opening "Tiered Strong (Tier 1)"; 22 `sourcing` values opening "RICH"/"THIN", which the map renders. Reader-facing census wording, and index.html is under Release 45: a decision for Mark and a slice after Release 45.
 - **cic-website/traditions/syriac-edessa-nisibis.html:471**: a pull-quote's `<cite>` shows a record id, "syr.source.theodoret-historia-ecclesiastica (Theodoret's telling of Jacob's prayer)". Root cause: `records/syr/quote/syr.quote.theodoret-gnats.md`'s `speaker_or_author` holds a source id plus a note, and `cic-website/assets/orientation-render.mjs` prints the field raw. A record and renderer fix for the site-compiler thread.
+- **A desert story's date field (cic-website/data/worlds/desert-monasticism.json):** "January 399, at Kellia ... per Palladius ch. XXXVIII (the year itself from desert.source.evagrius-praktikos and Doc_01 SS2.3)", from `records/desert/figure/desert.figure.evagrius.md`. A build note with a record id and a Doc_01 section in reader text, and probably in a spoken field. A record fix, then a package rebuild and site recompile, for the desert world's thread.
 - **Spoken record fields:** `ijc.force.leo-rejects-canon-28` `name` ("the Strand A/B Fracture"), `pahc.core.house-church` `cautions` ("every Strand A use"), `rzg.force.synod-of-dort-international-dimension` `description` ("Confirmed by the project lead as part of this world's own transmission").
 - **Record bodies.** The record schema (Artifact-1, line 7) defines a record's markdown body as "provenance and build notes — never read by any builder". About 25 body passages carry rulings, branch names, review findings and "the project lead's own call" (hal, desert, pahc voice_craft; ijc quotes; cappadocian stories, figures and demonstrations; gallic, hal and syr terms; syr, desert, hal world_core; lpc and don). By schema they are in their designed place. Whether that designed place conflicts with CLAUDE.md's rule is a governance question.
 - **Source records' `discovery_channel`** values carrying review rounds and a change order (desert cassian ×2 "change order CO-P2-10(c)"; desert, ijc "added at Step2 Review Round 1, Finding 4", "located at review (Opus canon-structure pass)"). A schema-defined provenance field, PROTECTED by the checker.
