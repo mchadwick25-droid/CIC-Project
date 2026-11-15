@@ -1,0 +1,13 @@
+source_file: theodore-abu-qurrah_de-cultu-imaginum-ara-lat_arendzen1897.txt
+assignments:
+- row_id: theodore-abu-qurrah_de-cultu-imaginum-ara-lat_arendzen1897--theodore-abu-qurrah-on-the-veneration-of-images-arabic-and-latin-arendzen-1897
+  work: 'Theodore Abu Qurrah, On the Veneration of Images, Arabic with Latin translation (Arendzen 1897)'
+  author: theodore-abu-qurrah
+  locus: 'the Latin at about OCR lines 1367-3715, the Arabic at about 3779-5340; add 12 to OCR line numbers'
+  atlas_ids:
+  - melkite-arabic-christianity
+  role: tradition
+  confidence: provisional
+  language: ara-lat
+  date: {formation_confidence: unknown, checked: "the title page (OCR lines 28-76) gives no year for the treatise; Arendzen's preface was not read for a date"}
+  note: 'The bishop''s Arabic treatise on the images with a Latin translation; only the Latin can be read in this OCR.'

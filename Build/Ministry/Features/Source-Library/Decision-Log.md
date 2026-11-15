@@ -589,3 +589,35 @@ Conversation design questions (D1 to D9) stay open.
 ### Next action
 
 Mark sends the letters. Library threads for eras 8 and 9 apply R7 from their next intake.
+
+## Eras 4-5, third fill (2026-11-15)
+
+Seven public-domain files for the Library items of Open-Gaps 269 and 279 (era 4 Who batches 9 and 11). Search
+record: `Build/Ministry/Operations/Audits/2026-11-15_library-eras4-5-b/Search_Log.md`. Wants table and cautions:
+`CFT-Wants.md`, "Eras 4-5, third fill".
+
+**Decided here.**
+- Rights, as in the second fill: a printed imprint of 1930 or earlier read on the title page or its page image.
+  Matthew of Edessa's year was read on the page image because the OCR garbles the numeral.
+- A title page with no year is not taken, even where the preface is dated: Bacha's French of Abu Qurrah (preface
+  1905) is held for Mark, as Mansi XX was.
+- An own-language text whose script the OCR cannot give is taken only where a readable translation stands in the
+  same file (Arendzen's Arabic with Latin). The Armenian uploads of Stepanos and Matthew and Chabot's Syriac
+  tome IV were not taken.
+- From this batch each shelf row states its language and a date field. Where the file itself does not date the
+  writing, the date is `unknown` and says what was read. Each file's word count is in its header and registry
+  note.
+- Shelves. Matthew of Edessa is `needs-ruling` on `armenian-cilicia` (tradition) and on
+  `bagratid-armenian-christianity` (context): Dulaurier's preface calls him an Armenian monk of the twelfth century, a native of Edessa, and no entry is his own.
+  John of Damascus's sermons on the Assumption are `needs-ruling` on `melkite-arabic-christianity`. Mendham's
+  English of Nicaea II sits where Mansi XII-XIII sit, as the council's own acts.
+- The review was done by a Fable reader in place of Opus, on Mark's instruction of 2026-11-15 as relayed by the
+  Church Family Tree coordinator ("use our free fable and stop all opus work except the rewrite process").
+
+**For the tree, not the Library.**
+- Nothing by Clement of Ohrid, no short Life of him and no Life of Methodius beyond the held texts was found.
+- No English of Eulogius, Alvarus or Abu Qurrah was printed by 1930.
+
+### Next action
+
+Era 8 (1650-1815), by region, each batch in its own pull request.

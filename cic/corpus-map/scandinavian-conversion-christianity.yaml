@@ -47,3 +47,19 @@ works:
   confidence: provisional
   note: The Latin original of Rimbert's Life of Anskar, and the Life of Rimbert.
   source_file: rimbert_vita-anskarii-accedit-vita-rimberti-lat_waitz1884.txt
+- row_id: mgh-ss-2_scriptores-tomus-2-with-vita-rimberti-vita-anskarii-lat_pertz1829--vita-rimberti-pertz-1829
+  work: Vita Rimberti (MGH Scriptores II, Pertz 1829)
+  author: vita-rimberti-anonymous
+  locus: about OCR lines 63742-64582; the editor's preface at 63692-63741; add 12 to OCR line
+    numbers
+  role: tradition
+  confidence: provisional
+  language: lat
+  date:
+    formation_confidence: unknown
+    checked: the heading and the first lines of the Life (OCR lines 63691-63744); the editor's
+      preface says it was written while Adalgar, Rimbert's successor, lived (file line 63706)
+      and gives no year
+  note: The Life of Rimbert, archbishop of Hamburg-Bremen, complete in 25 chapters; its author
+    is not named.
+  source_file: mgh-ss-2_scriptores-tomus-2-with-vita-rimberti-vita-anskarii-lat_pertz1829.txt
