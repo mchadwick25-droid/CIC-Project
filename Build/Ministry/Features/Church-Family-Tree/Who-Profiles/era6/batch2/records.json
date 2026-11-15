@@ -1,0 +1,1683 @@
+{
+ "catherine-of-siena": {
+  "claims": [
+   {
+    "claim": "The Avignon scene, Raymond of Capua's Life in Mirbt's extract: 'recolo me aliquoties fuisse interpretem inter fel. mem. dominum Gregorium XI. [OCR XL.] ... et hanc sacram virginem ... Ipsa enim non intelligebat Latinum sermonem et summus pontifex non noverat Italicum idioma'; she complained 'quod in Romana curia, ubi deberet paradisus esse caelicarum virtutum, inveniebat foetorem infernalium vitiorum'; the pope asked how in a few days she could learn its ways; 'plus percepi foetorem peccatorum, quae in Romana curia committuntur, existens in civitate mea unde sum nata, quam percipiant ipsi qui ea commiserunt'; 'Ad haec pontifex subticuit.' Told in modern words. Raymond is her confessor and biographer: 'ipsius sanctae confessario'. The summer of 1376 is Scudder's Avignon stay (arrival 18 June, departure 13 September).",
+    "witness": "MIRBT (mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt) l.13866-13891; CATHL (catherine-of-siena_selected-letters_scudder1905.txt) l.1337-1348",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Birth 25 March 1347, youngest of twenty-five children of Jacopo Benincasa, a dyer, and Lapa: Scudder's chronology ('June 1 8th' etc. OCR spacing).",
+    "witness": "CATHL (catherine-of-siena_selected-letters_scudder1905.txt) l.1256-1262",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Scudder's book: 'Saint Catherine of Siena as seen in her Letters', translated and edited by Vida D. Scudder, first edition 1905 (header; the scan is a later reprint).",
+    "witness": "CATHL (catherine-of-siena_selected-letters_scudder1905.txt) l.1-10",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Mantellate: 'She is vested with the black and white habit of Saint Dominic, becoming one of the Mantellate, or Dominican tertiaries, devout women who lived under religious rule in their own homes' (1363-4).",
+    "witness": "CATHL (catherine-of-siena_selected-letters_scudder1905.txt) l.1279-1282",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Writing and dictation: 'She learned to write only three years before her death, and even after this time was in the habit of dictating her correspondence ... to the noble youths who served her as secretaries.' Fiorilli: 'sapeva appena leggere e meno ancora scrivere', and her learning to write in October 1377.",
+    "witness": "CATHL (catherine-of-siena_selected-letters_scudder1905.txt) l.517-522; CATHI (catherine-of-siena_libro-della-divina-dottrina-ita_fiorilli1912.txt) l.14604-14607, 14631-14634",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Florence sent her: 'Sent as their representative to Avignon'; the Eight of War: 'Florence, enraged, rebels against the Pope, and appoints ... a new body of Magistrates, known as the Eight of War'; heading 'TO THE EIGHT OF WAR CHOSEN BY THE COMMUNE OF FLORENCE, AT WHOSE INSTANCE THE SAINT WENT TO POPE GREGORY XI'.",
+    "witness": "CATHL (catherine-of-siena_selected-letters_scudder1905.txt) l.1199-1202, 1337-1342, 6710-6712",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The letter of 28 June 1376: 'at the end of our talk he said that if your case were as I presented it to him, he was ready to receive you as sons, and to do what seemed best to me' (the condition is told); 'But you, with your taxes and frivolities, are spoiling all that is sown.'; 'Given in Avignon, the 28th day of June, 1376.'",
+    "witness": "CATHL (catherine-of-siena_selected-letters_scudder1905.txt) l.6782-6802",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The peace failed: 'Catherine, sent to Avignon, fails to procure peace.'",
+    "witness": "CATHL (catherine-of-siena_selected-letters_scudder1905.txt) l.1227",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "To Gregory: 'I tell you, Come, come, come, and do not wait for time, since time does not wait for you.'",
+    "witness": "CATHL (catherine-of-siena_selected-letters_scudder1905.txt) l.5220-5222",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gregory reached Rome: 'Gregory, swayed by her representations, returns to Italy, and reaches Rome, after a difficult journey, on January 17th, 1377'. Duranti reports Platina's year as 1376, by another reckoning of the year's start.",
+    "witness": "CATHL (catherine-of-siena_selected-letters_scudder1905.txt) l.1227-1229; BIRGL (birgitta_revelationes-lat_duranti1628.txt) l.98786-98788",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Duranti: 'litterae S. Catharinae Senensis ad eundem Pontificem scriptae, quibus totum negotium cum eo de reditu in Italiam peregit' (long-s OCR garbled). Duranti's notes, Revelationes 1628.",
+    "witness": "BIRGL (birgitta_revelationes-lat_duranti1628.txt) l.98792-98796",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "The Dialogue in 1378: Scudder's chronology, 'Catherine returns to Siena, where she devotes herself to composing her \"Dialogue.\"'; Scudder 'composed and dictated in trance during the year 1378'.",
+    "witness": "CATHL (catherine-of-siena_selected-letters_scudder1905.txt) l.1357-1366, 2182-2184",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Guidini, in Fiorilli: 'questo fece tutto essendo ella in astrazione, perduti tutti e' sentimenti, salvo che la lengua'; 'Ella diceva e uno scriveva: quando ser Barduccio, quando el detto donno Stefano, e quando Neri di Landoccio ... e io so' uno di quegli.' Told in modern words; the trance is the witnesses' testimony. 'Three disciples': Barduccio, Stefano, Neri, Fiorilli's notes 5-7 (l.14432-14442).",
+    "witness": "CATHI (catherine-of-siena_libro-della-divina-dottrina-ita_fiorilli1912.txt) l.14385-14407, 14432-14442",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The schism and Rome: Urban 'summons her to Rome ... takes up her abode in that city on November 28th'; 'She writes on his behalf to the Kings of France and Hungary, to Queen Giovanna of Naples'. 'Rulers': the Kings of France and Hungary and Queen Giovanna.",
+    "witness": "CATHL (catherine-of-siena_selected-letters_scudder1905.txt) l.1371-1385",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Her last letter to Raymond: 'For the pain in my heart was so great, that the tunic which clothed me burst'; Scudder dates the related letter to Urban to the Monday after Sexagesima, 1380.",
+    "witness": "CATHL (catherine-of-siena_selected-letters_scudder1905.txt) l.12925-12934, 12424",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Death: 'on April 30th she dies, in the presence of her disciples' (1380), Scudder's chronology; the year also in Mirbt's heading, Covel, Banchi.",
+    "witness": "CATHL (catherine-of-siena_selected-letters_scudder1905.txt) l.1389-1395; MIRBT (mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt) l.13866; COVEL (covel_some-account-of-the-present-greek-church_1722.txt) l.51460",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Canonization: Covel 'St. Catharine of Sienna died at three and thirty years of Age anno 1380. and about eighty years after was Canonized by P. Pius the second'. One late witness; no bull held.",
+    "witness": "COVEL (covel_some-account-of-the-present-greek-church_1722.txt) l.51460-51461",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "The Bridge: 'WHEREFORE I have told thee that I have made a Bridge of My Word, of My only-begotten Son, and this is the truth.' Thorold's English, 1896. Thorold 1896 (CATHD l.21-31).",
+    "witness": "CATHD (catherine-of-siena_dialogue_thorold1896.txt) l.3199-3201",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Place: 'born in the Strada dell' Oca, near the fountain of Fontebranda, Siena'; Pisa 1375; Rome from 28 November 1378.",
+    "witness": "CATHL (catherine-of-siena_selected-letters_scudder1905.txt) l.1258-1261, 1320-1327, 1371-1375",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "The Dialogue's colophon (Sienese codex): 'SOCTO GLI ANNI DOMINI MCCCLXXVIII DEL MESE D'OCTOBRE'; Gaddiano: '1378 del mese d'octobre'; Barberini, at the book's opening: 'E questo fu nel 1377 (sic)'; Thorold's title page: 'COMPLETED IN THE YEAR OF OUR LORD 1370'; Fiorilli: written in about three months.",
+    "witness": "CATHI (catherine-of-siena_libro-della-divina-dottrina-ita_fiorilli1912.txt) l.14324-14327, 15003-15005, 15166-15169, 14373-14383; CATHD (catherine-of-siena_dialogue_thorold1896.txt) l.19-23",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Title: Guidini, 'Questo libro fu poi intitolato cosí: «Libro de la divina dottrina»'.",
+    "witness": "CATHI (catherine-of-siena_libro-della-divina-dottrina-ita_fiorilli1912.txt) l.14397-14400",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Maconi: 'quem ego pro parte scripsi, dum ore virgineo dictabat illum'; 'licet in vulgari, sed ego latinizavi'. Raymond, in Fiorilli's Italian: 'com'io stesso ne faccio esperimento, ora che m'affatico a trasportarlo in quell'idioma'.",
+    "witness": "CATHI (catherine-of-siena_libro-della-divina-dottrina-ita_fiorilli1912.txt) l.14448-14450, 14467-14472, 14484-14487",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gardner: Wynkyn de Worde's Lyf of saint Katherin of Senis about 1493, from Raymond's Legenda; the Orcharde of Syon 1519, from Raymond's Latin version printed at Brescia 1496.",
+    "witness": "GARDNER (cell-of-self-knowledge_seven-early-english-mystical-treatises_gardner1910.txt) l.480-502",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Fiorilli: the princeps 1472 and the printings to 1496.",
+    "witness": "CATHI (catherine-of-siena_libro-della-divina-dottrina-ita_fiorilli1912.txt) l.14506-14511",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Maconi became prior of Pavia and general of the Carthusians; Caffarini 'ebbe la parte maggiore nel processo della canonizzazione fatto a Venezia'.",
+    "witness": "CATHI (catherine-of-siena_libro-della-divina-dottrina-ita_fiorilli1912.txt) l.14436-14438, 14462-14465",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Fiorilli on Raymond's Legenda: 'il piú autorevole documento antico intorno a Caterina da Siena'.",
+    "witness": "CATHI (catherine-of-siena_libro-della-divina-dottrina-ita_fiorilli1912.txt) l.14360-14365",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Banchi: Bernardino born 'l' anno stesso della morte di santa Caterina da Siena'.",
+    "witness": "BANCHI1 (bernardino-of-siena_prediche-volgari-1427-v1-ita_banchi1880.txt) l.158-160",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Lea: 'her constant theme is the corruption of every rank in the hierarchy and the immediate necessity for reform.'",
+    "witness": "LEA3 (lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt) l.29388-29392",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Father Alvarez on Teresa's manuscript: 'the books of St. Gertrude, St. Catharine of Siena, or St. Bridget of Sweden'. 'Father Rodrigo Alvarez, S. J.'; '22nd day of February, 1582'.",
+    "witness": "TERESA (teresa-of-avila_interior-castle_stanbrook1912.txt) l.644, 661-662, 680-696",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The stigmata: Scudder, 'On April 1st she receives the Stigmata in the Church of Santa Cristina; but the marks, at her request, remain invisible'. The Bollandist commentary: Lucy of Narni testified 'quod S. Catharina Senensis, precibus et orationibus obtinuit ... ut stigmata ipsius Luciae ... essent visibilia et palpabilia, in fidem et testimonium stigmatum ipsius S. Catharinae'; this while the Holy See was working 'de reformanda seu mitiganda (sicuti reformata et mitigata etiam fuit) non diu post, Bulla Sixti IV [OCR 11'], prohibente imagines omnes, in quibus Sancta exprimebatur Christi vulneribus insignita'; the commentator takes it as proof of hers ('ad certificanda stigmata S. Catharinae Senensis').",
+    "witness": "CATHL (catherine-of-siena_selected-letters_scudder1905.txt) l.1320-1327; ASJUN5 (acta-sanctorum_junii-tomus-5-lat_palme1867.txt) l.52514-52590",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Scudder on the return: 'Gregory, swayed by her representations'; and 'perhaps regretting his return, becomes alienated from Catherine'. Bridget's demand: Cumming 'She was especially anxious that the papal seat, which had long been at Avignon, should be re-established at Rome'. Fiorilli: 'avvenimento al quale santa Caterina aveva molto contribuito'. Mansi's notice of Gregory XI: 'Hujus transmigrationis causam alii aliam referunt'; Platina a bishop's retort; Gobelinus 'instinctu & revelatione Dei, quae sanctae Brigittae tunc adhuc Romae degenti aliquoties obtigerat, perque Alphonsum quemdam eremitam illi secundo insinuata erat'. Gobelinus Paderbonensis officialis (MANSI26 l.111555-111556); Platina 'in vita ipsius Gregorii' (BIRGL l.98786-98787).",
+    "witness": "CATHL (catherine-of-siena_selected-letters_scudder1905.txt) l.1228, 1357-1358; BIRGE (birgitta_revelations-enm_cumming1929.txt) l.980-982; CATHI (catherine-of-siena_libro-della-divina-dottrina-ita_fiorilli1912.txt) l.14342-14344; MANSI26 (mansi_sacrorum-conciliorum-collectio-tomus-26-1344-1409-lat_welter-facsimile1901.txt) l.53393-53410, 111555-111556; BIRGL (birgitta_revelationes-lat_duranti1628.txt) l.98786-98787",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "1374: 'perhaps summoned thither to answer charges made against her by certain in the Order'.",
+    "witness": "CATHL (catherine-of-siena_selected-letters_scudder1905.txt) l.1312-1314",
+    "formation_confidence": "Inferential-Thin"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "How far she brought about Gregory XI's return to Rome",
+    "sides": [
+     "Scudder: Gregory 'swayed by her representations' (CATHL l.1228); Duranti: her letters handled the whole matter (BIRGL l.98792-98796); Fiorilli: she did much toward it (CATHI l.14342-14344)",
+     "Other causes: Gobelinus credits Bridget's revelations, delivered through Alphonso; Platina, a bishop's retort (MANSI26 l.53393-53410); Bridget's revelations pressed the same demand (BIRGE l.980-982)"
+    ]
+   },
+   {
+    "claim": "When the Dialogue was finished",
+    "sides": [
+     "October 1378: the Sienese and Gaddiano copies (CATHI l.14324-14327, 15003-15005); Scudder, 1378 (CATHL l.2182-2184); Fiorilli, July to October 1378 (CATHI l.14373-14377)",
+     "1370: Thorold's title page (CATHD l.19-23); 1377 (Fiorilli's sic): a Barberini copy, at the book's opening (CATHI l.15166-15169)"
+    ]
+   },
+   {
+    "claim": "The stigmata",
+    "sides": [
+     "Scudder's chronology: received at Pisa on 1 April 1375, invisible at her request (CATHL l.1320-1327)",
+     "A bull of Sixtus IV forbade images of her with Christ's wounds, and was soon reformed and softened (ASJUN5 l.52526-52527, 52580-52582). The Bollandist commentator himself takes Lucy of Narni's visible stigmata as proof of hers (ASJUN5 l.52514-52523, 52542-52546, 52587-52590)."
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Where she was buried",
+    "note": "Searched all cic/texts for her name forms with Minerva, buried, sepolt, sepult. No held line gives the place."
+   },
+   {
+    "detail": "The year and bull of her canonization",
+    "note": "Searched all cic/texts for canoniz/canonis within 80 characters of Senens/Siena/Sienna/Sienne. Only Covel (COVEL l.51460-51461), with no year, and Fiorilli's entry for the 1517 Venice Dialogue printed 'con la sua uita: et canonizatione' with poems of Pius II in her praise (CATHI l.15544-15550). No bull is held."
+   },
+   {
+    "detail": "Raymond of Capua's Life in full, and his account of the stigmata",
+    "note": "Searched all cic/texts for Legenda, Raimund, Raymond, Capuan: only Mirbt's extract and Fiorilli's quotations are held."
+   },
+   {
+    "detail": "The Italian originals of the letters",
+    "note": "Not held; the letters are quoted in Scudder's English."
+   }
+  ]
+ },
+ "bridget-of-sweden": {
+  "claims": [
+   {
+    "claim": "The Naples revelation: heading, shown at Naples 'in festo Sancti Policarpi, quando rediit de Hierusalem'; Christ: 'scias certissime, quod ipse veniet Roma'; her reply 'O Domine Deus meus, Regina Neapolis, & multi alij dicunt mihi, quod impossibile est eum venire Romam, quia Rex Franciae, & Cardinales, & alij, quamplurima ponunt ei impedimenta ad veniendum'; Christ: 'ducam ipsum Papam ad Romam, non ad eorum consolationem. Sed vtrum tu videbis eum venire, an non, tibi non est licitum scire.' Long-s OCR read through. Told in modern words.",
+    "witness": "BIRGL (birgitta_revelationes-lat_duranti1628.txt) l.98947-98953, 98979-98988, 99007-99016",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "She died in Rome in July 1373: Cumming 'On 23 July 1873 [OCR for 1373] ... she died' and 'Birgitta died in Rome, 28 July 1373'; the last revelation to Gregory 'in mense Iulij, anno Domini M.CCC.LXXIII.'",
+    "witness": "BIRGE (birgitta_revelations-enm_cumming1929.txt) l.1049, 1076, 1184; BIRGL (birgitta_revelationes-lat_duranti1628.txt) l.99163-99165",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gregory XI reached Rome on 17 January 1377: Scudder's chronology.",
+    "witness": "CATHL (catherine-of-siena_selected-letters_scudder1905.txt) l.1227-1229",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Name: Cumming says 'Birgitta' 'is her correct name, and not Brigitte, Brigida, or Bridget'.",
+    "witness": "BIRGE (birgitta_revelations-enm_cumming1929.txt) l.891",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Cumming's edition: The Revelations of Saint Birgitta, edited from the Garrett MS., EETS O.S. 178, 1929.",
+    "witness": "BIRGE (birgitta_revelations-enm_cumming1929.txt) l.1-10",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Marriage: 'At thirteen years of age her father, much against her wishes, married her to the eighteen-year-old Ulf Gudmarson'; source her daughter Catherine's deposition (Cumming's note).",
+    "witness": "BIRGE (birgitta_revelations-enm_cumming1929.txt) l.908-914, 932-933",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Ulf died in 1344; 'A few days after her husband had died, Christ appeared to Birgitta and told her that he had chosen her to be his bride.' Cumming's note: some early accounts say a year or two after.",
+    "witness": "BIRGE (birgitta_revelations-enm_cumming1929.txt) l.919-929, 949-951",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "'In 1346 she received a revelation bidding her to go to Rome'; 'two or three years elapsed before her journey began. With a small retinue, including her two confessors, Peter, prior of Alvastra, and Peter Olafson, first confessor of the Vadstena monastery, she finally left Sweden, never more to return alive.' The Bollandists note that the year does not square with other figures in her daughter's Life.",
+    "witness": "BIRGE (birgitta_revelations-enm_cumming1929.txt) l.928-929, 967-971; ASMAR3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt) l.131895-131899",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Writing and Latin: 'she continued to write down her revelations in Swedish, and her confessors translated them into Latin' (971-974); 'She wrote in Swedish, and one of her confessors translated the revelation into Latin. This translation was then read to her' (1100-1105); 'two fragments of Birgitta's handwriting' survive (1123-1124); signs of re-ordering in Book V (1126-1127).",
+    "witness": "BIRGE (birgitta_revelations-enm_cumming1929.txt) l.971-974, 1100-1110, 1123-1127",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Alphonso: 'Alphonso the hermit, formerly bishop of Jaén, wrote the Prologus of Book VIII and edited Birgitta's revelations in 1877 [OCR for 1377]'. Duranti also names 'Alphonsus olim Episcopus Giennen. & postea Eremita'.",
+    "witness": "BIRGE (birgitta_revelations-enm_cumming1929.txt) l.1052-1053; BIRGL (birgitta_revelationes-lat_duranti1628.txt) l.8157-8181",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Duranti, Episcopus Feretranus, 1628, in his own treatise on visions: 'Alter S. Brigittae Confessor Petrus Olauus fuit Ordinis Cisterciensis, qui in linguam Latinam octo libros Reuelationum transtulit, cuius etiam vitam scripsit idem Ioannes Vuasthonius' (Duranti's words, not a quotation of Vastovius); elsewhere the three 'amici', Petrus Olauus, Magister Matthias and Alphonsus, 'redegerunt ea in libros'.",
+    "witness": "BIRGL (birgitta_revelationes-lat_duranti1628.txt) l.210-230, 8157-8181, 11096-11124",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Wilkens 1894: 'Meister Petrus, Prior des Klosters in Alvastra ... und der ehemalige Bischof von Jaen Alfonso de Vadaterra übersetzten ... das schwedische Original in rhetorisierendes Latein ... Das lateinische Gewand beeinträchtigt die reiche Bildersprache.' Told in modern words; 'dimmed' renders 'beeinträchtigt'.",
+    "witness": "WILKENS (jacques-de-vitry_briefe-in-zeitschrift-fuer-kirchengeschichte-14-lat-deu_rohricht1894.txt) l.16060-16070, 16113-16121, 16310",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Pressing for the return: Cumming 'She was especially anxious that the papal seat, which had long been at Avignon, should be re-established at Rome'; Urban V came in 1367 (OCR 1867) and decided to leave in 1370; she warned him not to leave Rome.",
+    "witness": "BIRGE (birgitta_revelations-enm_cumming1929.txt) l.980-993",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Montefiascone, 1370: heading 'Haec est revelatio, quam habuit Sponsa Christi in Roma de eodem Papa Urbano antequam rediret Avenionem. Anno Domini MCCCLXX. quam ipsa praesentauit ei in Monteflascone'; 'Si contigerit ipsum redire ad terras, vbi fuit electus Papa, ipse habebit in breui tempore vnam percussionem, siue vnam alapam'. Duranti's note, after Platina: she foretold that if he returned home he would die very soon, which happened, on the way to France or, as others say, at Avignon ('dum enim proficiscebatur in Galliam ... mortuus est, vel ut alij volunt, Auenione vitam finiuit' [OCR 'mortuus esHyuel', 'dueniano'], BIRGL l.98604-98609). Cumming: 'This revelation was delivered to him by Alphonso' (against the heading's 'ipsa praesentauit'); he 'died the same year, in less than a month after returning to Avignon' (BIRGE l.1022-1024).",
+    "witness": "BIRGL (birgitta_revelationes-lat_duranti1628.txt) l.98413-98419, 98553-98559, 98600-98609; BIRGE (birgitta_revelations-enm_cumming1929.txt) l.993, 1022-1024",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Order approved: 'After many years of command and entreaty by Birgitta, the Order was approved by Urban in 1370'; monks and nuns; 'sixty sisters and twenty-five monks'.",
+    "witness": "BIRGE (birgitta_revelations-enm_cumming1929.txt) l.1026-1042",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "'thow hedde of my chyrch, that syttest in my sete ... thu arte verely a sleer of soules' (Middle English; the OCR prints thorn as 'p').",
+    "witness": "BIRGE (birgitta_revelations-enm_cumming1929.txt) l.2126-2133",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Lea: 'nothing that Wickliff or Huss could say of the depravity of the clergy could exceed the bitterness of her denunciation'. 'Wyclif' and 'Hus' are the brief's spellings.",
+    "witness": "LEA3 (lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt) l.29382-29386",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Burial and translation: Boniface IX's bulls, buried at S. Lorenzo in Panisperna and translated to the monastery 'in Vuatzsteno'; daughter's Life: carried to Sweden with her confessors; Cumming 'Her bones were carried to Vadstena'. The Bollandists weigh July 1374 for the translation.",
+    "witness": "BIRGL (birgitta_revelationes-lat_duranti1628.txt) l.3858-3864, 3921-3928; ASMAR3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt) l.132991-133005, 133312-133324; BIRGE (birgitta_revelations-enm_cumming1929.txt) l.1076-1077",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Canonization 1391 by Boniface IX; Cumming 'on 8 October 1391 ... the validity of the canonization was questioned', confirmed by John XXIII in 1414 and Martin V in 1419; the bulls dated 'Nonas Octobris' (7 October); feast '10 Kal. Augusti' (23 July). Lea: 1391, confirmed 1419.",
+    "witness": "BIRGE (birgitta_revelations-enm_cumming1929.txt) l.1079-1091; BIRGL (birgitta_revelationes-lat_duranti1628.txt) l.3876-3888, 3915, 3930-3931; LEA3 (lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt) l.29405-29406",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Torquemada's first-call story: she feared a trick of Satan, went to Master Matthias; 'Ego sum omnium conditor, non deceptor.' Told in modern words. Torquemada wrote at the Council of Basel, 1435: 'Anno D. Incarnat. millesimo quadringentesimo trigesimoquinto'. 'Mulier audi me, Ego sum Deus tuus, qui tecum loqui volo, noli timere. Ego sum omnium conditor, non deceptor.'",
+    "witness": "BIRGL (birgitta_revelationes-lat_duranti1628.txt) l.1183-1200, 1502-1527",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Torquemada on Gregory XI's commission of 1377 (cardinals named) and Urban VI's of 1379; Cumming says Torquemada headed Gregory's commission.",
+    "witness": "BIRGL (birgitta_revelationes-lat_duranti1628.txt) l.1558-1662; BIRGE (birgitta_revelations-enm_cumming1929.txt) l.1081-1084",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Torquemada counts Prior Peter and Peter Olavi as two men presenting the books to Gregory XI.",
+    "witness": "BIRGL (birgitta_revelationes-lat_duranti1628.txt) l.1558-1569",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Born at Finstad in Uppland; 'In the year 1302 or 1308 [OCR]'; 'The earliest authorities differ'.",
+    "witness": "BIRGE (birgitta_revelations-enm_cumming1929.txt) l.857-859, 889",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Syon: Henry V laid the cornerstone, 22 February 1415; Cecily, Duchess of York, 1495, 'a boke of the Revelations of Saint Burgitte' to her daughter, prioress of Syon.",
+    "witness": "BIRGE (birgitta_revelations-enm_cumming1929.txt) l.1196-1201, 1780-1783",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Wills: Henry lord Scrope 1415 'unum librum de Revelationibus S. Brigidae'; Elizabeth Sywardby, proved 1468, 'De libro compilato in lingua Anglica de Revelationibus Sanctae Brigidae'.",
+    "witness": "TEB3 (york-registry_testamenta-eboracensia-v3-enm_raine1865.txt) l.2174-2176, 9689-9691",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Richental: at Constance learned men of Sweden, Denmark and Norway asked for the canonization of 'ain hailgi küngin, mit nammen Brigida'.",
+    "witness": "RICH (richental_chronik-des-constanzer-concils-gmh_buck1882.txt) l.3027-3045",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Glassberger: the Basel ruling, 'liber coelestium revelationum sanctae Brigittae sub modificatione theologorum debeat intelligi'.",
+    "witness": "GLASS (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt) l.20966-20974",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Declaratio printed with Gerson's works: 'Si conveniat Urbanum Quintum, Brigittam de Suecia ... non obstante nimia Sanctorum multitudine, canonizari'.",
+    "witness": "GERSON (gerson_opera-omnia-tomus-2-pars-1-tractatus-ad-schisma-lat_dupin1706.txt) l.27974-27990, 28327-28330",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Father Alvarez's note: 'the books of St. Gertrude, St. Catharine of Siena, or St. Bridget of Sweden'. 'Father Rodrigo Alvarez, S. J.', 1582.",
+    "witness": "TERESA (teresa-of-avila_interior-castle_stanbrook1912.txt) l.680-690",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Duranti pairs her with Catherine's letters on the return.",
+    "witness": "BIRGL (birgitta_revelationes-lat_duranti1628.txt) l.98786-98796",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Olavus Petri: 'S. Birgitte oppenbarilse äre ringare än at them j sa drapelig ärende skal macht giffuas'. Polemic. Bale, as Cumming quotes him: 'tenebrosa somnia'. Polemic. Bale 1557; 'Bale confuses St. Birgitta with St. Bridget of Ireland'.",
+    "witness": "OLAVUS (olavus-petri_samlade-skrifter-v1-swe_hesselman1914.txt) l.17088-17093; BIRGE (birgitta_revelations-enm_cumming1929.txt) l.1187-1194, 1223-1224",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Fifteen O's: Cumming, 'attributed to St. Birgitta, which became very popular in England'; Duranti: 'inter opera illius minime reperiuntur, nec Magister Matthias, neque Petrus Olauus, nec Alphonsus ... earum orationum meminerunt'.",
+    "witness": "BIRGE (birgitta_revelations-enm_cumming1929.txt) l.1688-1692; BIRGL (birgitta_revelationes-lat_duranti1628.txt) l.8190-8210",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "The Rule dictated: 'Ego obtuli tibi Regulam Religionis ... Ego dictaui eam'. Cumming: 'exactly as they were given to her by the Mother of God'.",
+    "witness": "BIRGL (birgitta_revelationes-lat_duranti1628.txt) l.98279-98312; BIRGE (birgitta_revelations-enm_cumming1929.txt) l.1027-1030",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Early 1373 by reckoning: the outbound stop at Naples in February 1372; the return on Polycarp's feast; the February and July 1373 revelations that follow. Cumming's 'returned to Rome the same year' runs against it.",
+    "witness": "BIRGE (birgitta_revelations-enm_cumming1929.txt) l.1047-1048, 9590-9592; BIRGL (birgitta_revelationes-lat_duranti1628.txt) l.98947-98953, 99016-99018, 99163-99165",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Gobelinus, in Mansi's notice of Gregory XI: the return 'instinctu & revelatione Dei, quae sanctae Brigittae tunc adhuc Romae degenti aliquoties obtigerat, perque Alphonsum quemdam eremitam illi secundo insinuata erat'; Platina gives another cause. Gobelinus Paderbonensis officialis (MANSI26 l.111555-111556); Platina 'in vita ipsius Gregorii' (BIRGL l.98786-98787).",
+    "witness": "MANSI26 (mansi_sacrorum-conciliorum-collectio-tomus-26-1344-1409-lat_welter-facsimile1901.txt) l.53393-53410, 111555-111556; BIRGL (birgitta_revelationes-lat_duranti1628.txt) l.98786-98787",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Rome: Cumming dates only the start of the journey, two or three years after the revelation of 1346 (BIRGE l.928-929, 967). He quotes the Extravagantes, fifteen years in Rome before Urban V came, and notes the chronological discrepancy (BIRGE l.956-961, 996-998). The Bollandists' note to her daughter's 'viginti quinque annis' in Rome with her mother: 'Ergo ab anno 1348' (ASMAR3 l.132892-132893, 133269). Her death: 'Anno 1373 die 23 Julii' (ASMAR3 l.133269).",
+    "witness": "BIRGE (birgitta_revelations-enm_cumming1929.txt) l.928-929, 956-961, 967, 996-998; ASMAR3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt) l.132892-132893, 133269",
+    "formation_confidence": "Contested"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Who put her revelations into Latin, and how close the Latin stands to her words",
+    "sides": [
+     "Cumming: her confessors, or one of them, translated, and the Latin was read back to her; Peter of Alvastra kept the book (BIRGE l.971-974, 1100-1107)",
+     "Duranti: Peter Olavus, a Cistercian, translated all eight books (BIRGL l.11120-11124), and elsewhere three friends put them into books (BIRGL l.8157-8181); Torquemada: Prior Peter and Peter Olavi are two men (BIRGL l.1558-1569)",
+     "Wilkens: Prior Peter and Alphonso made it a rhetorical Latin that impairs her imagery (WILKENS l.16113-16121); Cumming notes re-ordering in Book V (BIRGE l.1126-1127)"
+    ]
+   },
+   {
+    "claim": "Her birth year",
+    "sides": [
+     "Cumming's line as printed: 1302 or 1308 (BIRGE l.857); the second figure may be an OCR misreading",
+     "Cumming: the earliest authorities differ, citing S.R.S. iii (BIRGE l.889)"
+    ]
+   },
+   {
+    "claim": "Her death day",
+    "sides": [
+     "23 July 1373: Cumming (BIRGE l.1049, 1076); Boniface IX's bulls set her feast on 10 Kal. Aug. (BIRGL l.3876, 3915); a Bollandist note: 23 July 1373 (ASMAR3 l.133269)",
+     "28 July 1373: Cumming (BIRGE l.1184)"
+    ]
+   },
+   {
+    "claim": "Canonization day",
+    "sides": [
+     "8 October 1391: Cumming (BIRGE l.1079-1084)",
+     "7 October: the bulls' 'Nonas Octobris' (BIRGL l.3887-3888, 3930-3931)"
+    ]
+   },
+   {
+    "claim": "Who examined the Revelations",
+    "sides": [
+     "Cumming: a commission of Gregory XI headed by Torquemada (BIRGE l.1081-1084)",
+     "Torquemada: Gregory's 1377 commission had other members; he examined them himself at Basel in 1435 (BIRGL l.1183-1200, 1570-1590)"
+    ]
+   },
+   {
+    "claim": "Authorship of the Fifteen O's",
+    "sides": [
+     "Attributed to her, popular in England (BIRGE l.1688-1692)",
+     "Duranti: not among her works and unmentioned by her confessors (BIRGL l.8190-8210)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Her Swedish text",
+    "note": "Not held; Cumming says two fragments of her hand survive (BIRGE l.1123-1124). Searched all cic/texts for Klemming, Uppenbarelser."
+   },
+   {
+    "detail": "The Life by her confessors and the Vita abbreviata",
+    "note": "Cited by Cumming and the Bollandists only; searched all cic/texts for 'Vita abbreviata' and the confessors' names; not held."
+   },
+   {
+    "detail": "Books six to eight and the Extravagantes",
+    "note": "The 1628 file holds books one to five (running heads stop at LIBER QVINTVS); quoted only through Cumming and Duranti."
+   },
+   {
+    "detail": "A primary witness for her birth year",
+    "note": "Searched all cic/texts for 1300 to 1309 and MCCCI- within 250 characters of Birgit-/Brigitt-/Bridget/Brigid, and for age words near her name. Only Cumming's line gives a year (BIRGE l.857). The Extravagantes give her age at her coming to Rome without a year (BIRGE l.959-960). The Library file headers' 'about 1303' is not a witness."
+   }
+  ]
+ },
+ "bernardino-of-siena": {
+  "claims": [
+   {
+    "claim": "The would-be hermit, his own story in Robins's English: 'this befell before I was a friar. There came to me the will to live like an angel'; 'The thought came to me that I would live on water and grass, and I bethought me that I would go live in a wood'; 'I determined also to buy a Bible ... and a cover to keep over it. And I bought the Bible, and I went to buy a piece of leather, of chamois skin, that water might not soak in'; 'I determined to go to look about me, near Massa ... not arriving at any decision, I returned to Siena'; 'I went out there beyond the Porta' (Porta a Follonica in the Italian, BANCHI2); 'Chew, and chew, it would not go down!'; 'With one mouthful of sow-thistle I rid myself of all temptation'. He bought the Bible and went to buy the leather: 'E comparai la Bibbia, e andai per comparare uno quoio di camoza'. Massa is Massa Marittima by Banchi's note ('che fu patria del Santo') and his introduction.",
+    "witness": "ORL (bernardino-of-siena_sermons_orlandi-robins1920.txt) l.6823-6868; BANCHI2 (bernardino-of-siena_prediche-volgari-1427-v2-ita_banchi1884.txt) l.16120-16207; BANCHI1 (bernardino-of-siena_prediche-volgari-1427-v1-ita_banchi1880.txt) l.158-159",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Preaching at Siena in 1427: the cycle was preached 'in su la Piazza di Siena, detta il Campo, negli anni del Signore MCCCCXXVij' from 15 August (Prologue; Cod. Sen. 9 reads 1426). ORL: 'delivered in August, 1427 ... in the historic Campo of Siena'.",
+    "witness": "BANCHI1 (bernardino-of-siena_prediche-volgari-1427-v1-ita_banchi1880.txt) l.1257-1261, 1269; ORL (bernardino-of-siena_sermons_orlandi-robins1920.txt) l.199-201",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Born 1380: his own words in the sermon of 8 September 1427, 'io nacqui in tal dì quale è oggi ... oggi fa XXV anni ch' io mi vestii frate'; Banchi: 'Cioè, nacque agli 8 di settembre del 1380'; Banchi's introduction: born at Massa Marittima, 8 September 1380; ORL: 'Saint Bernardine was born in 1380'. The year is the editors' reckoning from his words.",
+    "witness": "BANCHI2 (bernardino-of-siena_prediche-volgari-1427-v2-ita_banchi1884.txt) l.11051-11055, 11070; BANCHI1 (bernardino-of-siena_prediche-volgari-1427-v1-ita_banchi1880.txt) l.158-160; ORL (bernardino-of-siena_sermons_orlandi-robins1920.txt) l.233",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Joined the Franciscans in 1402 at twenty-two: Glassberger 'ipso anno intravit sanctus Bernardinus Religionem, cum esset tunc annorum XXII' (under 1402); Vespasiano: 'in età d' anni ventidua, vendè tutto quello ch' egli aveva', then 'si volse all' Ordine di santo Francesco'; Banchi: received by capitular decision of 5 September 1402 (document not held).",
+    "witness": "GLASS (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt) l.16267-16268, 16294; BANCHI1 (bernardino-of-siena_prediche-volgari-1427-v1-ita_banchi1880.txt) l.845-852, 257-258",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Orlandi: 'For about-forty-four years Albizzeschi preached almost unceasingly in cities and villages, more often in the piazzas than in the churches.' Orlandi selected and edited, Robins translated (title page in header). The year 1920 is the host date only and is not told in the brief.",
+    "witness": "ORL (bernardino-of-siena_sermons_orlandi-robins1920.txt) l.1-6, 238-242",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Benedetto the cloth-shearer, ORL: 'through a shearer of cloth, Banedetto [sic, OCR] of Master Bartholomew ... As he stood listening to the sermons he took them down with a style on wax-covered tablets, and afterwards, when he went back to his shop, wrote out on parchment everything'. Prologue: 'de verbo ad verbum'. Banchi printed them in 1880 (ORL 'publication in 1880 by Cav. Luciano Bianchi [sic]'; Banchi's introduction dated 'Siena 22 giugno 1880').",
+    "witness": "ORL (bernardino-of-siena_sermons_orlandi-robins1920.txt) l.203-205, 246-253; BANCHI1 (bernardino-of-siena_prediche-volgari-1427-v1-ita_banchi1880.txt) l.803-806, 1249-1266",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Bologna story: Raynaldus quotes Carolus Sigonius: games, cards and dice 'post IV nonas Maii in foro, populo ipso approbante, combusta sunt'; a man who painted playing cards complained he was deprived of his living; 'Si nescis aliud pingere, hanc imaginem pinge ... ac circulo facto, solem in eo formavit, atque in medio nomen JESU novis quibusdam litterarum formis effinxit' (OCR heavily garbled; read through it). Filed under 1424.",
+    "witness": "RAYN (raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt) l.2386-2426",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Glassberger was an Observant Franciscan writing his chronicles in 1508: 'Occupatus erat in scribendis his Chronicis an. 1508'. The Observance as the strict branch: GLASS l.95-97 (the editors' note); LEA3 l.8223-8224.",
+    "witness": "GLASS (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt) l.95-110; LEA3 (lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt) l.8223-8224",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Accusation before Martin V: 'Praedicatores autem cum praedicto Manfredo magnam accusationem fecerunt domino Martino Papae contra sanctum Bernardinum, eo quod magnifice praedicabat et nomen Iesus [OCR 'lesus'] in populo exclamabat; mentientes, eum inducere homines ad ritum, qui idololatriae assimilatur. Dominus autem Papa, audito beato Bernardino, nihil iniuste actum seu indiscretum praedicatum asserebat ... licentiam ei praedicandi universaliter concessit.' Undated, 'Circa haec tempora'. Glassberger alone names the accusers and the outcome; Bernardino's own words (BANCHI1 l.5337-5341) and Banchi (l.318-322, 5373-5375, 6410-6412) witness a Roman hearing on his teaching before June 1427.",
+    "witness": "GLASS (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt) l.19760-19794",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Eugenius IV, 7 January 1432: Michael, 'plebanus S. Adalberti ... Pragen.', promoter of causes of the faith, charged him 'super crimine haeresis et super eo, quod quemdam characterem novum huius nominis Iesus ... de novo adorandum invenerat'; the pope calls him 'acerrimus et rigorosus haeresum exstirpator' and calls in and annuls the causes. Raynaldus prints the same bull.",
+    "witness": "BULN (bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt) l.13108-13190; RAYN (raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt) l.18255-18330",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Vicar general of the Observants, 1439: 'institutus fuit sanctus Bernardinus ex dispositione domini Eugenii Papae a Ministro Generali ... Vicarius Generalis super omnes Fratres de Observantia, per totam Italiam constitutos'. Vicar in Tuscany 1438: 21087-21095. Eugenius's letter of 10 November 1440 to him as 'vicario in partibus Italiae'.",
+    "witness": "GLASS (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt) l.21087-21095, 21136-21142; BULN (bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt) l.43687-43700",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Death on the way to L'Aquila, Vespasiano: 'sendo egli di anni sessantaquattro, e predicando a Milano, gli fu commesso ... che andasse all' Aquila a predicare ... Innanzi che giugnesse all' Aquila, si ammalò di febre, e in pochi dì ... si morì'. Glassberger: '20 May, in vigilia Ascensionis ... in civitate Aquila in conventu sancti Francisci reddidit sanctus Bernardinus Christo animam suam ... aetatis suae anno LXIV'. Surius in Raynaldus: 20 May 1444, 'Vixit in terris annis sex et sexaginta'.",
+    "witness": "BANCHI1 (bernardino-of-siena_prediche-volgari-1427-v1-ita_banchi1880.txt) l.1150-1163; GLASS (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt) l.21737-21741; RAYN (raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt) l.60071-60112",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Vespasiano his friend and contemporary, a Florentine bookseller: Banchi 'Vespasiano libraio fiorentino, contemporaneo ed amico suo'; Vespasiano: 'sendo suto assai noto alla sua persona'. The Life is printed in Banchi's volume 1.",
+    "witness": "BANCHI1 (bernardino-of-siena_prediche-volgari-1427-v1-ita_banchi1880.txt) l.761-762, 809-1196",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Canonization at Pentecost 1450 by Nicholas V: the bull, headed '1450, maii 24', dated 'IX kal. iunii', 'hac die pentecostes'; Glassberger: 'in die sancto Pentecostes ... propter Iubilaeum ... canonizavit dominus Nicolaus Papa V. sanctum Bernardinum de Senis'. Banchi gives 'bolla del 1° giugno 1450'.",
+    "witness": "BULN (bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt) l.108623-108627, 108922, 109016-109017; GLASS (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt) l.22956-22961; BANCHI1 (bernardino-of-siena_prediche-volgari-1427-v1-ita_banchi1880.txt) l.420-421",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "His challenge to his critics, Robins's English: 'He who hath aught to say to me, say it to me to my face that I may reply to him; and if thou wish not to say it to me, write it to me, and we shall see what I have said that is wrong. I am one of those who wish to hold to that which Holy Church doth hold.' (OCR 'Chureh').",
+    "witness": "ORL (bernardino-of-siena_sermons_orlandi-robins1920.txt) l.5829-5834",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: forty-five sermons, Campo and Piazza S. Francesco, 15 August to end of September 1427 (Orlandi on Banchi's edition).",
+    "witness": "ORL (bernardino-of-siena_sermons_orlandi-robins1920.txt) l.203-209",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card legacy: Vespasiano, 'Santo Bernardino è quello che ha stabilita questa religione dell' Osservanza'; 'i più de' frati della Osservanza ... seguitano lo stile di santo Bernardino'.",
+    "witness": "BANCHI1 (bernardino-of-siena_prediche-volgari-1427-v1-ita_banchi1880.txt) l.970-997, 1104-1116",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card legacy: Glassberger on the growth under his Tuscan vicariate: 'multiplicata sunt loca et numerus Fratrum de Observantia valde, tam in eadem Provincia quam in aliis Provinciis intra et extra Italiam'.",
+    "witness": "GLASS (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt) l.21087-21093",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card legacy: Banchi on the name carved or painted on church and house fronts, remaining on Siena's Palazzo Pubblico.",
+    "witness": "BANCHI1 (bernardino-of-siena_prediche-volgari-1427-v1-ita_banchi1880.txt) l.11642-11645",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card legacy: at Basel, 'Frater Iohanne, noli esse contrarius Fratribus ultramontanis'; Capistrano in Christopher of Varese's Legend: 'Ego rem non intellexi, sicut sanctus Bernardinus'.",
+    "witness": "GLASS (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt) l.20704-20711",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card remembered: the bull praises him for reconciling peoples 'antiquis odiis dissidentes'; dated 'Datum Romae in basilica principis apostolorum'.",
+    "witness": "BULN (bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt) l.108951-108953, 109016",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card remembered: Nicholas V, 14 April 1447, 'Defendit famam S. Bernardini de Senis adversus calumniatores'.",
+    "witness": "BULN (bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt) l.84490-84575",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card remembered: Lea, 'who counts as the formal founder of the Observantines'.",
+    "witness": "LEA3 (lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt) l.8229-8231",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card uncertain: the Prologue's 'continui XLvj anni perseverò, ne' quali 42 anni pochissimi tempi fu che Egli non predicasse'; Vespasiano 'anni quarantadua' and 'anni quarantaquattro'; Glassberger 'XL annis praedicando'. Surius in Raynaldus: 'Vixit in terris annis sex et sexaginta ... quadraginta ... praedicavit'.",
+    "witness": "BANCHI1 (bernardino-of-siena_prediche-volgari-1427-v1-ita_banchi1880.txt) l.1242-1244, 938, 1124-1125; GLASS (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt) l.21740-21741; RAYN (raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt) l.60109-60111",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Latin sermons named by Vespasiano, 'il Vangelo eterno' and 'il libro de' Sermoni'; not held.",
+    "witness": "BANCHI1 (bernardino-of-siena_prediche-volgari-1427-v1-ita_banchi1880.txt) l.1104-1116",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Rome hearing, his own words in the 1427 cycle: 'Di quello che s'è fatto a Roma non dico nulla; che quando io v'andai, chi mi voleva fritto e chi arostito'; Banchi: 'San Bernardino s'era recato a Roma non molto prima, costrettovi dalle male lingue, che ne accusavano di poca ortodossia le dottrine e gl'insegnamenti'; introduction: 'era stato chiamato a difendere dall'accusa di poca ortodossia i suoi insegnamenti'.",
+    "witness": "BANCHI1 (bernardino-of-siena_prediche-volgari-1427-v1-ita_banchi1880.txt) l.318-322, 5337-5341, 5373-5375, 6410-6412",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "The Campo: 'in su la Piazza di Siena, detta il Campo'.",
+    "witness": "BANCHI1 (bernardino-of-siena_prediche-volgari-1427-v1-ita_banchi1880.txt) l.1257",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Vespasiano: 'Santo Bernardino nacque a Massa'; Orlandi: 'Massa Marittima was his birthplace'; ORL 'Friar Bernardine Al-bizzeschi'.",
+    "witness": "BANCHI1 (bernardino-of-siena_prediche-volgari-1427-v1-ita_banchi1880.txt) l.819; ORL (bernardino-of-siena_sermons_orlandi-robins1920.txt) l.186-187, 2955",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Basel: the minister general sought at Basel to break the Constance decree; 'Unde hoc attendens beatus Bernardinus arguebat fratrem Iohannem'.",
+    "witness": "GLASS (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt) l.20690-20708",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Where he died, and at what age",
+    "sides": [
+     "Vespasiano: fell ill and died before reaching L'Aquila, aged sixty-four (BANCHI1 l.1150-1163)",
+     "Glassberger: in the friary of St Francis at L'Aquila, in his sixty-fourth year (GLASS l.21737-21741); Surius in Raynaldus: in his cell, aged sixty-six (RAYN l.60071-60112)"
+    ]
+   },
+   {
+    "claim": "Who accused him over the name of Jesus, and whether the hearings were one case",
+    "sides": [
+     "Glassberger: the Dominican Manfred of Vercelli and the Preachers, before Martin V, undated (GLASS l.19760-19794)",
+     "Eugenius IV's letter of 7 January 1432: Michael, priest of St Adalbert in Prague, under letters of Martin V granted at Constance; cited 21 November 1431 (BULN l.13132-13169)",
+     "Bernardino himself and Banchi: a Roman hearing on his teaching before June 1427, accusers unnamed (BANCHI1 l.318-322, 5337-5341, 5373-5375; the date from Banchi's note on Martin V naming him bishop on 4 June 1427, l.6410-6412)"
+    ]
+   },
+   {
+    "claim": "Date of the canonization bull",
+    "sides": [
+     "The bull: 24 May 1450, IX kal. iunii (BULN l.108627, 109016-109017)",
+     "Banchi: 1 June 1450 (BANCHI1 l.420-421)"
+    ]
+   },
+   {
+    "claim": "How many years he preached",
+    "sides": [
+     "Prologue: 42 years of near-constant preaching within 46 (BANCHI1 l.1242-1244); Vespasiano: 42 and 44 (BANCHI1 l.938, 1124-1125)",
+     "Orlandi: about 44 (ORL l.240-241); Glassberger: 40 (GLASS l.21740-21741); Surius in Raynaldus: 40 (RAYN l.60109-60111)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "His Latin works",
+    "note": "No held file holds De evangelio aeterno or his Latin sermons; searched the cic/texts file list for bernardin, opera, vegio. Robinson cites an Opera Omnia that is not held. A content search of all cic/texts for 'Vangelo eterno', 'De evangelio aeterno' and 'Sermones' near his name found nothing more."
+   },
+   {
+    "detail": "Maffeo Vegio's Latin Life",
+    "note": "Named by Vespasiano (BANCHI1 l.1189-1190). A search of all cic/texts for 'Maffeo Veg', 'Maphaeus Veg', 'Mapheus' found no copy."
+   },
+   {
+    "detail": "A tablet carried while preaching",
+    "note": "Searched 'tavolett' and 'tabell' in the four Bernardino files and in RAYN. No held line shows him holding up a tablet; the held lines speak of a new sign (BULN l.13140), letters in a sun (RAYN l.2423-2424) and a design for the Palazzo (BANCHI3 l.1523-1526). The brief tells only the drawing."
+   }
+  ]
+ },
+ "angelo-clareno": {
+  "claims": [
+   {
+    "claim": "The hearing, from the Historia: 'interrogavit eum, an ipse esset frater minor; cui ille respondit, quod sic. Et dixit ad eum summus pontifex: \"Quare recessisti ab eis\"? Respondit fr. Angelus: \"Pater sancte ego non recessi ab eis; sed interrogate eos, quare repulerunt me\". Et siluit summus pontifex'. Told in modern words. 'Public hearing' renders Oliger's 'in publico Consistorio'; 'about 1317' is Oliger's 'c. a. 1317'. Told without the first person: 'He had not left them, the friar answered; they should be asked why they threw him out.' 'A chronicle of the Spirituals' renders the work's subject.",
+    "witness": "EHRLE2 (ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd2-deu-lat_1886.txt) l.7693-7697; CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1306-1310",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "The Historia as a chronicle of the rigorists' persecutions; Ehrle: 'Das bei Weitem wahrscheinlichste ist, dass dieselbe von fr. Angelo de Clarino geschrieben wurde.' Ehrle S.J., Archiv II, Berlin 1886.",
+    "witness": "EHRLE2 (ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd2-deu-lat_1886.txt) l.1-3, 6013-6016",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "From the March of Ancona: Oliger 'e Marchia Anconitana oriundus est sive Cingulo sive ... Forosempronii'.",
+    "witness": "CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.951-957",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Oliger edited the Expositio, Quaracchi 1912, 'P. Livarius Oliger O.F.M.'; entry about 1270: 'Angelum Clarenum Ordini Minorum nomen dedisse versus a. 1270 rite concludimus'; he rejects about 1260 (77 years under the Rule).",
+    "witness": "CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1-4, 1032-1037, 1135-1137",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "The prisons, in his own letter (Ehrle dates it summer 1317): 'variis persecutionibus oppressus in carceribus plurimis Ancone, Forani, Rome, Viterbii, Asisii' (OCR 'persecationibns ... caroeribas plniimis'). The list runs on: 'in omnibus locis fratrum, que sunt a Roma usque ad Anconam', and further prisons follow (l.29221-29224); Oliger: 'longa serie carcerum'. Ehrle's dating: 'Geschrieben im Sommer 1317'.",
+    "witness": "EHRLE1 (ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885.txt) l.29190-29197; CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1218; EHRLE1 l.29200, 29221-29224",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Freed c. 1289-90 by the minister general Gaufridus; missionary 'in Armeniam' (Cilicia); back 'circa initium a. 1294'. 'Hoc vero nomine non intelligenda est antiqua Armenia, sed regnum Armeniae in Cilicia'.",
+    "witness": "CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1184-1214",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "1294, with Liberatus to Celestine V at Aquila: separation and the name 'Pauperum Eremitarum Coelestini'. 'Fr. Liberatus a Macerata'.",
+    "witness": "CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1207-1240, 1288",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Boniface VIII rescinded Celestine's grants; 'Transfretavit igitur c. a. 1295 Angelus cum sociis in Achaiam'; in Thessaly 'usque ad a. 1304-05'; 'omnium ultimus Angelus Clarenus'. Lea: 'Angelo being the last to reach Italy, in 1305'. Island named Trixonia by Ehrle (Oliger, Lea).",
+    "witness": "CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1242-1290; LEA3 (lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt) l.2194-2202",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Leader after Liberatus died in 1307: 'Ei successit in regimine fratrum Spiritualium Angelus noster'. Told as his band of Spirituals: Ubertino and the Provençal Spirituals stood apart (EHRLE2 l.7670-7690).",
+    "witness": "CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1292-1297",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Vienne 1311: 'ibique in domo Cardinalis Iacobi Columnae habitabat'.",
+    "witness": "CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1299-1305",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "John XXII 'Angelum Avenione c. a. 1317 in publico Consistorio interrogavit et detineri iussit. Is scripsit tunc Epistolam excusatoriam'.",
+    "witness": "CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1306-1310",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "The letter of defense: 'nec apostatas nec hereticos nec excommunicatos nos esse aut fuisse cognoscimus, nisi forte sit heresis excommunicatione digna, credere, confiteri, diligere et operari cum humilitate ... id, quod sanctus Franciscus de sue regule observantia credidit ... Hanc heresim me habuisse semper et me nunc habere confiteor'. Told in modern words. Ehrle printed it in full in 1885.",
+    "witness": "EHRLE1 (ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885.txt) l.27814-27869; CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1366-1372",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Lea: 'though Angelo da Clarino was for a while imprisoned on the strength of an old condemnation by Boniface VIII., he was soon released and permitted to adopt the Celestin habit and Rule.'",
+    "witness": "LEA3 (lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt) l.3629-3632; LEA3 l.54 (title page, 1888)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "After Colonna died on 14 August 1318 he returned to Italy, 'suosque rexit in regione Urbis, morans ut plurimum Sublaci'. Subiaco 'in regione Urbis'.",
+    "witness": "CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1343-1346",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "The 1334 bull, John XXII, 21 February 1334: capture of 'ille nequam haereticus, qui se damnatae sectae Fraticellorum maiorem seu ministrum generalem nominat'. The bull names no one; '(Angelum de Clarino)' is Eubel's bracket. Eubel edited Bullarium Franciscanum V, 1898. A week later (28 February 1334), before the inquisitor Simon of Spoleto, a friar said their general 'est frater Angelus Clarani de Fossabruno, qui alias fuit vocatus frater Petrus de Fossabruno'; Oliger: 'Iohannes XXII edidit bullam contra Angelum'.",
+    "witness": "BUL5 (bullarium-franciscanum_v5-lat_eubel1898.txt) l.84546-84560; EHRLE4 (ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd4-deu-lat_1888.txt) l.594, 648-650; BUL5 l.84605, 84637-84639; CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1394",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Death: Oliger 'Mortuus est in eremitorio S. Mariae de Aspro, in dioc. Marsico sito, die 1d [OCR for 15] Iunii 1337'; Ehrle 'wo er am 15. Juni 1337 starb'. The Basilicata: Ehrle 'in der Diöcese von Marsico in der Basilicata'. He went there not long before his death: Ehrle 'nicht sehr lange vor seinem Tode begab er sich trotz seines hohen Alters in das Eremitorium'; Oliger 'recessisse videtur in Italiam meridionalem'. Ehrle infers the late move ('Dies glaube ich daraus entnehmen zu können', OCR 'glanbe ... in kennen', from Thomas Anglicus calling him 'peregrinus et ignotus'). No line says he fled.",
+    "witness": "CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1393-1399; EHRLE1 (ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885.txt) l.27770-27774, 27785-27786",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Ehrle's reckoning of the year: the note 'feria VI infra octavam pentecostes scil. festo s. Antonii'; 'wie schon Papebroch berechnete', in the first half of the fourteenth century this Friday after Pentecost ('diese fer. VI') fell on 13 June only in 1317, 1337 and 1348; 1348 ruled out because Simon Fidati died 2 February 1348; 'dass Angelo am 15. Juni 1337, nicht erst 1348 starb'. Oliger: 'Quod hoc anno Angelus mortuus sit, clarissime demonstravit P. Ehrle'.",
+    "witness": "EHRLE1 (ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885.txt) l.27540, 27601, 27786-27798, 28565-28567; CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1406-1407",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Simon Fidati of Cascia, O.S.A., taught by Angelo: 'Predicabam catheticatus ab ipso'; 'doctor discipulo'; Oliger 'quem patrem spiritualem et magistrum coluerat'. The 1833 cult decree's 'a teneris annis' is not told.",
+    "witness": "CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1404-1405, 1434-1437, 1485-1490, 1507",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Simon's lament: 'Fr. Simon ... de morte fratris Angeli de Clarino'; 'Et vere Angelus nomine, sed verior re'. Told in modern words.",
+    "witness": "CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1450-1477",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Never a priest, in the Historia: 'Pater sancte non sum sacerdos; et una de racionibus, quare nolui esse sacerdos est, quia nolebam audire confessiones'.",
+    "witness": "EHRLE2 (ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd2-deu-lat_1886.txt) l.7709-7711",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Expositio for brother Thomas: 'Postulasti a me frequentius, karissime in Domino fr. Thoma'. Oliger dates it 1321-1323 on internal grounds, and: 'Angelus est longe acerbior in rebus ac hominibus diiudicandis' in the later letters.",
+    "witness": "CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.4327-4332, 2944-2992",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Döllinger prints an extract of the Chronicon de persecutionibus and names Angelus de Clarino as its author after Ehrle.",
+    "witness": "DOELL (doellinger_beitraege-zur-sektengeschichte-des-mittelalters-v2-lat-deu_1890.txt) l.351-360",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Rader: 'Primus omnium interpres Climaci, quod sciam [as far as I know], fuit Angelus de Cingulo'; 'Latine primum reddita fuisse dicitur an. 1295, ab Angelo de Cingulo O. M. qui Clarenus cognominatus est'; Ambrose of Camaldoli 'Negat Clarenum hunc aperte et plane transtulisse, sed obscure potius et intricate, dum verbum verbo redderet'. Ambrose 'Angeli nomen non exprimat'. Rader a Jesuit: 'Matthaei Raderi Soc. Jesu presbyteri Isagoge' (l.41442).",
+    "witness": "PG88 (dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt) l.41444-41447, 43283-43284, 43305-43307",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Letters in one Florentine codex, 'Liber epistolarum beati Angeli de clarino'; gathered 'verosimiliter a B. Simone de Cassia'; Simon: 'nolens ut eius memoria totaliter de seculo deperiret'.",
+    "witness": "CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1001-1003, 1672-1677, 1516-1520",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "The Clareni placed under the Friars Minor by Sixtus IV in 1472; descent 'nondum omni ex parte constat'.",
+    "witness": "CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1579-1584",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Bartholomew of Pisa: 'praedicator insignis'; Wadding: 'sanctissime vixit in religione' (OCR garbled). Wadding (1625) 'der als der erste die historia ausgiebig für seine Annalen verwerthete'.",
+    "witness": "CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1790-1792, 1553-1554; EHRLE2 (ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd2-deu-lat_1886.txt) l.5716-5717",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Old Bollandists printed his acts and miracles; 'cultus eius numquam ab Ecclesia fuit approbatus'.",
+    "witness": "CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1530-1534",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Paulinus of Venice, Franciscan bishop of Pozzuoli (1324-1344): 'Petrus de Macerata et Petrus de Forosinfronio apostate fuerunt ... secundus Angelum, quia angelicas se fingebat revelationes habere'. Hostile.",
+    "witness": "CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.978-984",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Lea: 'a man of the firmest and gentlest spirit, of the most saintly aspirations'.",
+    "witness": "LEA3 (lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt) l.3336-3338; LEA3 l.54 (title page, 1888)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Authorship doubts: Affò (Vita di frate Elia, Parma 1783), 'Il Waddingo lo attribuisce, non so con qual fondamento'; Richard; Tocco; Ehrle's reply of 1887; Eubel 'ut credere fas est, Angelus de Clarino nobis conscripsit'.",
+    "witness": "EHRLE2 (ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd2-deu-lat_1886.txt) l.5720-5835; EHRLE3 (ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd3-deu-lat_1887.txt) l.22704-22846; BUL5 (bullarium-franciscanum_v5-lat_eubel1898.txt) l.23359",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Dating of the Epistola: Ehrle, summer 1317, against Annibali da Latera after Wadding, late 1318 or early 1319; Eubel: summoned 'anno 1316 ad finem vergente aut anno 1317 ineunte'.",
+    "witness": "EHRLE1 (ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885.txt) l.27824-27845; BUL5 (bullarium-franciscanum_v5-lat_eubel1898.txt) l.23184-23186",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Sabatier's apparatus: '2° Angelo Clareno da Cingoli (circa 1245-1337)'; 'prit l'habit franciscain peu après 1260'. One witness for the birth year.",
+    "witness": "SABAT (speculum-perfectionis_speculum-perfectionis-lat_sabatier1898.txt) l.46, 3828, 4586",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Fled to Greece: 'ut Italiam relinquere et in Graeciam confugere statuerint zelantes'. The island: 'in parva quadam insula, cuius nomen et situs ignorantur, a P. Ehrle vero argumentis non spernendis ut Trixonia ... determinatur'.",
+    "witness": "CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1245-1251",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "The 1331 bull against friars 'sub ducatu Angeli de Valle Spoletana': Oliger 'non liquet ... editorque Bullarii Franc. P. Eubel dubitat. Ad eam vero assumendam propensus videtur Raynaldus ... et eam sustinet F. Tocco'. 'Prof. F. Tocco' in Ehrle; 'Felice Tocco' in Carlini.",
+    "witness": "CLAR (clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt) l.1417-1424; EHRLE3 (ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd3-deu-lat_1887.txt) l.22702; CARL (carlini_fra-michelino-e-la-sua-eresia-ita-lat_1912.txt) l.1461 (OCR 'FeLIcE')",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Bollandists on the death: Possevinus 'mortuum putet 1294'; Arturus 'mortuum ait an. 12340' [OCR], 26 April; from the miracles 'coaevus D. Robertus de Mileto ... paullo post sancti viri obitum scripsit', 'obiisse 14 Junii'; Arturus lists him among the Blessed at 15 June. Ehrle: the list names 15 June (EHRLE1 l.27789-27790); the list is Robert of Mileto's: 'Infrascripta misit dominus Rubertus [OCR 'Bubertus'] de Mileto Gentili (de Fulgineo) modico tempore post obitum fr. Angeli de Clarino' (EHRLE1 l.28490-28492).",
+    "witness": "ASMAR3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt) l.24804-24829",
+    "formation_confidence": "Contested"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Who wrote the History of the Seven Tribulations",
+    "sides": [
+     "Ehrle (1886, 1887): by far most likely Angelo (EHRLE2 l.6013-6016; EHRLE3 l.22704-22846); Eubel (BUL5 l.23359); Oliger (CLAR l.1630, 1680-1681); Döllinger after Ehrle (DOELL l.351-360)",
+     "Affò: no ground for Wadding's attribution (EHRLE2 l.5760-5761); Richard and Tocco, as Ehrle reports them (EHRLE2 l.5822-5835; EHRLE3 l.22703-22712)"
+    ]
+   },
+   {
+    "claim": "When he joined the order",
+    "sides": [
+     "Ehrle: not long after 1260 (EHRLE1 l.27684, 27694-27700); Eubel: between 1260 and 1270 (CLAR l.1157-1158)",
+     "Oliger: about 1270 (CLAR l.1032-1037, 1135-1137)"
+    ]
+   },
+   {
+    "claim": "Where he was born",
+    "sides": [
+     "Cingoli (CLAR l.951-957)",
+     "Fossombrone, 'communius et forsan rectius' (CLAR l.951-957)"
+    ]
+   },
+   {
+    "claim": "Year of death",
+    "sides": [
+     "1337, by Ehrle's weekday reckoning (EHRLE1 l.27786-27798), followed by Oliger (CLAR l.1406-1407) and Lea (LEA3 l.3335-3336)",
+     "Possevinus 1294; Arturus a Monasterio, as the Bollandists report him (ASMAR3 l.24804-24816)"
+    ]
+   },
+   {
+    "claim": "Date of the letter of defense",
+    "sides": [
+     "Ehrle: summer 1317 (EHRLE1 l.27824-27845)",
+     "Annibali da Latera after Wadding: late 1318 or early 1319 (EHRLE1 l.27824-27845)"
+    ]
+   },
+   {
+    "claim": "Day of death",
+    "sides": [
+     "15 June: Ehrle from the list of miracles (EHRLE1 l.27789-27790); Oliger (CLAR l.1398-1399)",
+     "14 June: the Bollandists from Robert of Mileto's miracles (ASMAR3 l.24815-24817)"
+    ]
+   },
+   {
+    "claim": "Whether the 1331 bull's Angelo of the Spoleto valley is Clareno",
+    "sides": [
+     "Raynaldus seems inclined to it; Tocco and others hold it (CLAR l.1423-1424)",
+     "Eubel doubts; Oliger: not clear (CLAR l.1418-1420)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "A full text of the History of the Seven Tribulations",
+    "note": "Held only in parts (EHRLE2; DOELL no. 43). Oliger: 'Nondum habetur editio integra' (CLAR l.1645)."
+   },
+   {
+    "detail": "His Latin versions of Climacus, Macarius and Basil",
+    "note": "Not held as texts; searched all cic/texts for Clarenus/Clareno/Cingulo. Only Rader's preface in PG 88 names his Climacus."
+   }
+  ]
+ },
+ "william-of-ockham": {
+  "claims": [
+   {
+    "claim": "The flight: Carlini 'Nella notte del 26 di maggio, Michelino, insieme con l' Ockam, il Bonagrazia, Francesco d' Ascoli e altri, volò dalla Curia avignonese: giunti ad Aigues-mortes trovarono nel porto una barca, vi salirono sopra e di lì montarono in una galea armata, pronta a partire per Genova.' Note: Riezler and Müller give the 25th; 'Nicolaus Minorita, seguito anche dall' Eubel ... dà il 26, che fu un giovedì sera.' Lea: 'Thither he fled, May 26, accompanied by Ockham and Bonagrazia.' Carlini's note cites Riezler, Literar. Widersacher (Leipzig, 1874).",
+    "witness": "CARL (carlini_fra-michelino-e-la-sua-eresia-ita-lat_1912.txt) l.6268-6278; LEA3 (lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt) l.7106-7112",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Carlini's book dated 1912: title page 'BOLOGNA DITTA NICOLA ZANICHELLI 1912'.",
+    "witness": "CARL (carlini_fra-michelino-e-la-sua-eresia-ita-lat_1912.txt) l.195-198 (title page)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Michael of Cesena head of the order: 'Michaelem de Caesena olim ordinis fratrum Minorum generalem ministrum'.",
+    "witness": "BUL5 (bullarium-franciscanum_v5-lat_eubel1898.txt) l.72731-72732",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "William English, Franciscan, master of theology: 'quidam Anglicus vocatus Gulielmus Occham ordinis praelibati' (letter of June 1328); 'mag. Guilelmum Occam eiusdem ord. Min.' (28 May 1328); Michael's Pisa appeal: 'Guilelmus Occham de Anglia, magister in sacra pagina'. Tombstone as Carlini reports it: 'WILELM DICTUS OCKAM EX ANGLIA SS. THEOLOGIAE DOCTOR'. The stone: after the 1802 demolition 'una lastra di macigno quadrato fu risparmiata: trovavasi nella chiesa vicino all' altar maggiore e portava un nome' (CARL l.8690-8698).",
+    "witness": "BUL5 (bullarium-franciscanum_v5-lat_eubel1898.txt) l.54697, 54327, 65196-65199; CARL (carlini_fra-michelino-e-la-sua-eresia-ita-lat_1912.txt) l.8698-8699",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Two days later (letter dated 'Dat. ut supra' = 'Dat. Avinione, V kal. iunii, anno duodecimo', 28 May 1328): 'Cum Guilelmus Okam de ordine fratrum Minorum, qui super crimine haeresis in curia Romana delatus extiterat, pendente inquisitionis negotio in eadem curia contra ipsum, tamquam sibi male conscius inde nuper occulte absque licentia nostra recesserit, se de dicto crimine reddendo convictum'. The June 1328 letter: an inquiry 'ratione multarum opinionum erronearum et haereticarum, quas ipse scripserat et dogmatizaverat' was pending, 'et propter hoc erat, ne absque nostra licentia de curia memorata recederet, arrestatus'. The pope's statement, told as his.",
+    "witness": "BUL5 (bullarium-franciscanum_v5-lat_eubel1898.txt) l.54398-54407, 54325-54330, 54695-54703",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Letters ordering his arrest to German bishops and lords, the English bishops and the King of England: 7 March 1329 to the German bishops; 2 April 1329 to Rudolf of Baden and other lords ('Marchionem de Baden aliosque nobiles'); 5 April 1329 to the English bishops, 'Episcopos Angliae monet, ut Guilelmum de Okam capiant', and the King of England asked to help 'in capiendo fr. Guilelmo de Okam'.",
+    "witness": "BUL5 (bullarium-franciscanum_v5-lat_eubel1898.txt) l.58508-58512, 59017-59025, 3451, 3455, 59050-59072, 59248-59253",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "1330, the pope on the doctors: 'eiusque scripta fuerant pluribus doctoribus assignata (ut ea deberent examinare cum diligentia et quae invenirent [haeretica seu erronea declarare) qui iam multos articulos declaraverunt haereticales)'; the same letter calls him 'haeresiarcham'. Letter of 22 July 1330, quoted by Eubel from Raynaldus. The pope's statement, told as his.",
+    "witness": "BUL5 (bullarium-franciscanum_v5-lat_eubel1898.txt) l.72708-72740",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The 1323 decision: Lea 'The papal decision on the momentous question was at last put forth, November 12, 1323, in the bull Cum inter nonnullos ... The assertion that Christ and the apostles possessed no property was flatly declared to be a perversion of Scripture; it was denounced for the future as erroneous and heretical'. The friars' view: the Chapter of Perugia's decision, Lea l.6492-6493.",
+    "witness": "LEA3 (lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt) l.6492-6493, 6504-6511",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The 1323 summons: John XXII to the bishops of Ferrara and Bologna, 1 December 1323: a 'Guillelmus dictus Anglicus ordinis fratrum Minorum, sacrae scripturae se asserens professorem' had preached at Bologna 'haereticum esse dicere et asserere salvatorem nostrum ... ac eius apostolos aliquid habuisse in proprio vel communi'; to be cited 'ut infra unius mensis spatium ... apostolico conspectui personaliter se praesentet'. 'The friars' view' in the brief means that view. If the report is true: 'si veritas suffragetur relatibus', 'si ea repereritis veritate fulciri'; Lea: 'to investigate the truth of the report, and if it was correct to cite Ockham'.",
+    "witness": "BUL5 (bullarium-franciscanum_v5-lat_eubel1898.txt) l.42407-42452",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Eubel on the identity: 'Non constat, quinam Guilelmus Anglicus sit intelligendus: utrum ille Guilelmus Alnvich ... an Guilelmus dictus de Okam ... Verisimilius tamen est (id quod Raynaldus ... opinatur), sermonem fieri de Guilelmo Okamo.' Calendar: 'Guilelmum (Occam?) dictum Anglicum'. Lea takes him for Ockham ('Ockham obeyed'). 'Another Englishman': Eubel's 'Guilelmus Alnvich' is named as an English William, an Anglicus.",
+    "witness": "BUL5 (bullarium-franciscanum_v5-lat_eubel1898.txt) l.42504-42512, 2204; LEA3 (lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt) l.6496-6503",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Eubel edited the volume in 1898: Bullarium Franciscanum V, ed. Conrad Eubel, Rome 1898; title page 'A CONRADO EUBEL ... ROMAE, MDCCCXCVIII'.",
+    "witness": "BUL5 (bullarium-franciscanum_v5-lat_eubel1898.txt) l.70-77 (title page)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Pisa appeal: 'adhaeserunt ... Guilelmus Occham de Anglia, magister in sacra pagina' to Michael's appeal made 'Anno Domini 1328 ... in civitate Pisana in domo fratrum Minorum'. Glassberger: Michael, Bonagrazia and William appealed 'a sententiis Iohannis Papae XXII. tamquam ab haeretico'.",
+    "witness": "BUL5 (bullarium-franciscanum_v5-lat_eubel1898.txt) l.63285-63286, 65196-65199; GLASS (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt) l.11150-11153",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Munich: Glassberger 'Et profectus cum Ludovico iam coronato, venit Monachium, oppidum Bavariae, et ibi mansit cum sociis suis usque ad mortem suam' (of Michael). Glassberger is a later Observant chronicler (Chronica in Analecta Franciscana II, 1887). Glassberger 'Ordinis Minorum Observantium', writing 'an. 1508' (GLASS l.1, 106).",
+    "witness": "GLASS (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt) l.11153-11156",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Twenty years, and the argument: Lea 'for twenty years he poured forth a series of controversial works in defence of the cause'; 'he argued that a pope can fall into heresy, and so, indeed, can a general council, and even all Christendom ... There was nothing sure but Scripture'. The argument is told as Lea's summary. 'there was nothing sure but Scripture ;' (the stop is the brief's).",
+    "witness": "LEA3 (lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt) l.6812-6827",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Against John XXII and Benedict XII: Scholz prints 'Contra Iohannem XXII (1335)' and 'Tractatus contra Benedictum XII (c. 1337)'; dates are Scholz's.",
+    "witness": "SCHOLZ (scholz_unbekannte-kirchenpolitische-streitschriften-v2-lat_1914.txt) l.22811, 23187, 165-171",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "The tract (De imperatorum et pontificum potestate): 'Fateor plane, quod mihi veraciter potest imponi, quod ab oboedientia ecclesie Avinionice et a societate multitudinis fratrum minorum me subtraho ex nulla alia causa, nisi quia liquido mihi constat, quod prefata ecclesia Avinionica errores et hereses manifestas tenet'; 'Persecutioni igitur scienter me ingerens et eam fugere non intendens'. Told in modern words, no quotation marks; 'most of his brother friars' renders 'a societate multitudinis fratrum minorum'. He keeps Christ's leave to flee from one city to another ('quamvis forte si esset necesse ... uterer licentia Christi'); the brief says only that he walked into persecution knowingly.",
+    "witness": "SCHOLZ (scholz_unbekannte-kirchenpolitische-streitschriften-v2-lat_1914.txt) l.25859-25868",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Seal: Lea 'When dying he handed the seal of the Order over to William of Ockham, who used it as Vicar-general'. Michael's death in 1342: Carlini notes that Wadding gave 1343, Raynaldus 1344 and others 1350, and holds that Glassberger, John of Winterthur and the best sources exclude every doubt on 1342; Lea l.7464-7465.",
+    "witness": "LEA3 (lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt) l.7474-7477; CARL (carlini_fra-michelino-e-la-sua-eresia-ita-lat_1912.txt) l.8642-8649",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Death: the Munich necrology as Carlini prints it, 'sepultus in choro ante altare cum magistro wilhelmo ockam, qui obiit quarto idus aprilis a. d. MCCCXLVII' (10 April 1347); Glassberger 'X. die Aprilis, magister Gulielmus Ockam, Anglicus ... sepulti in conventu Monacensi'.",
+    "witness": "CARL (carlini_fra-michelino-e-la-sua-eresia-ita-lat_1912.txt) l.8648-8654; GLASS (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt) l.13531-13533",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Wadding: the Quaracchi editors quote Wadding, 'mihi palam constat ex diplomate Pontificio ... Occhamum adhuc an. 1349 vixisse, remisisse antiquum Ordinis sigillum ... ad Gulielmum Farinerium ... et humiliter sui errati veniam petiisse'; they conclude 'Incertum autem est, quando et ubi mortuus sit; probabiliter circa an. 1350.' Luke Wadding's name and order, and his Annales Minorum: 'Lucas Waddingus ord. Min. Rec.' 'in celeberrimis Annalibus Minorum'. Wadding's Annales 'saeculo septimo decimo' (BUL5 l.86114-86116).",
+    "witness": "GLASS (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt) l.13552-13558; BUL5 (bullarium-franciscanum_v5-lat_eubel1898.txt) l.86114-86116",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Lea doubts the peace: 'Church historians claim that in 1349 he at last made his peace and was reconciled, but this is more than doubtful, for Giacomo della Marca classes him with Michele and Bonagrazia as the three unrepentant heretics who died under excommunication'. Lea on the death: 'uncertain, but it occurred between 1347 and 1350'.",
+    "witness": "LEA3 (lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt) l.6837-6841, 7482-7483",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Shirley: 'Duns Scotus, and Ockham, the glory and the reproach of his order, were both Englishmen and Franciscans'; 'Of Ockham himself Wyclif always speaks with respect', quoting 'Assumit quod venerabilis inceptor Hokham fuit haereticus, quod nescit probare'. Shirley's edition of the Fasciculi Zizaniorum, 1858, a Carmelite collection (as in era 6 batch 1's Wyclif profile).",
+    "witness": "FZ (fasciculi-zizaniorum_shirley1858.txt) l.3081-3082, 3362-3368",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Dialogus close: Scholz 'a) Schluß von Dialogus III, tractatus II, liber III, cap. 23. Aus: Vat. lat. 4115'; the master of the dialogue argues 'Nam religio christiana et per consequens Christus neminem, eciam secularem et infidelem, privavit iure suo', with Ambrose quoted: 'quia christiana religio neminem privat iure suo'.",
+    "witness": "SCHOLZ (scholz_unbekannte-kirchenpolitische-streitschriften-v2-lat_1914.txt) l.22605-22612, 22682-22696",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Against John XXII content: the retraction John XXII is said to have made 'agens in extremis penultima die vite sue circa visionem animarum sanctarum in celo' does not excuse him; 'Si autem ex ignorantia facti vel iuris aliquid dixero contrarium veritati, corrigi sum paratus' (OCR 'i^norantia', 'al.quid').",
+    "witness": "SCHOLZ (scholz_unbekannte-kirchenpolitische-streitschriften-v2-lat_1914.txt) l.22811-22835",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "On the Power of Emperors and Popes: 'Aus: Brit. Mus. Ms. Royal 10. A. XV.'; 'De omnibus enim, que feci, scripsi vel dixi, postquam regule beati Francisci me subieci, coram iudice minime recusando cupio reddere rationem'.",
+    "witness": "SCHOLZ (scholz_unbekannte-kirchenpolitische-streitschriften-v2-lat_1914.txt) l.25812, 25852-25854",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Index of 1564: 'Guilelmi Ochani [Occami seu de Ockam] Opus nonaginta dierum. Item Dialogi ... et scripta omnia contra Joannem XXII' (OCR 'Ouilelmi', 'nona^nta diernm'), Reusch 1886.",
+    "witness": "REUSCH (reusch_indices-librorum-prohibitorum-sechzehnten-jahrhunderts-deu-lat_1886.txt) l.15714, 16977-16980",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ockhamists: Glassberger quoting 'frater Andreas, sancti Magni Ratisbonae Canonicus': 'Gulielmus Ockam, a quo quidam dialectici vocantur Ockamistae'.",
+    "witness": "GLASS (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt) l.12549-12555",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gerson 1418: 'Scriptus est iste Tractatus Anno 1418. sub finem Concilii Constantiensis'; 'fundavit Ockam in Dialogo suo, cujus solius autoritati non oportet inniti, quamvis fuerit egregius Theologus' (long s in the OCR). 'occasione appellationis Oratorum Polonorum ad futurum Concilium'.",
+    "witness": "GERSON (gerson_opera-omnia-tomus-2-pars-1-tractatus-ad-schisma-lat_dupin1706.txt) l.27012-27016, 27207-27211",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Luther, Exhortation to the Clergy Assembled at the Diet at Augsburg (1530): 'Occam, my dear master, writes that it cannot be proved from the Scriptures that man needs the grace of God in order to do a good work.' 'These are the best of them'.",
+    "witness": "LUTHER4 (luther_works-v4-selected_various1931.txt) l.15636-15650, 16776-16780",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Lea's guess on influence: 'Possibly ... If this be so' on Wyclif, Constance and Basel.",
+    "witness": "LEA3 (lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt) l.6855-6867",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Bartholomew of Pisa's catalogue in the Conformitates: 'Guilelmus Ocham, qui multa opera fecit in logica et philosophia et alios libros plures'.",
+    "witness": "BUL5 (bullarium-franciscanum_v5-lat_eubel1898.txt) l.86123-86124, 86259-86261",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Glassberger: 'Totus etiam Ordo rediit ad obedientiam domini Papae praeter Michaelem de Caesena, Gulielmum Ockam, Bonagratiam et Franciscum Rubei, qui docti viri utinam! ingenia sua melioribus studiis comprobassent!'",
+    "witness": "GLASS (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt) l.11519-11522",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Clement VI's sermon, quoted by Konrad of Megenberg in his treatise against Ockham: 'Wilhelmus Occam diversos errores contra auctoritatem et potestatem sancte sedis Romane docuit et docet, et ab illo Wilhelmo didicit et recepit errores ille Marsilius'; 'post mortem Michahelis ... ipse scripsit litteram et sigillavit eam sigillo eiusdem Michahelis et fecit se vicarium ordinis'. Hostile witness.",
+    "witness": "SCHOLZ (scholz_unbekannte-kirchenpolitische-streitschriften-v2-lat_1914.txt) l.20031-20040, 21026-21040",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Carlini on the 1349 letter: Clement VI 'rallegrandosi che l'Ockam avesse restituito il sigillo antico'; and his conclusion 'Che l'Ockam non accettasse ... ce lo assicurano i documenti posteriori'.",
+    "witness": "CARL (carlini_fra-michelino-e-la-sua-eresia-ita-lat_1912.txt) l.9520-9537",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Witness of Michael's 1338 protest at Munich: 'in civitate Monacensi, in domo fratrum Minorum'; 'Ego, predictus frater Guillermus de Ocham ... adhesi et adhereo'. For William Carlini gives only 'Ego, predictus frater Guillermus de Ocham .... (segue come per H. de Thalem ...)'.",
+    "witness": "CARL (carlini_fra-michelino-e-la-sua-eresia-ita-lat_1912.txt) l.13147-13195",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Birth and early life: Yule-Cordier's bracketed '[born in Surrey]'; Vaughan 1845 and Dalgairns, in an essay of 1870 reprinted in 1908 ('Some writers have connected him with Ockham, because Merton College had the honour of producing both') on Merton.",
+    "witness": "CATHAY (cathay-and-the-way-thither_vol3-missionary-friars-pegolotti-marignolli_yule-cordier1914.txt) l.10491-10494; VAUGHAN (wyclif_tracts-and-treatises_vaughan1845.txt) l.742-756; HILTON (hilton_scale-or-ladder-of-perfection_dalgairns1908.txt) l.212-217, 2431-2433",
+    "formation_confidence": "Inferential-Thin"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "When he died",
+    "sides": [
+     "The Munich Franciscan book of the dead: 10 April 1347 (CARL l.8651-8654); Glassberger, under 1347: 10 April (GLASS l.13531-13533)",
+     "Luke Wadding, quoted by the Quaracchi editors: alive in 1349 by a papal letter; the editors: uncertain, probably about 1350 (GLASS l.13552-13558)",
+     "Lea: uncertain, between 1347 and 1350 (LEA3 l.7482-7483)"
+    ]
+   },
+   {
+    "claim": "Whether he was reconciled in 1349",
+    "sides": [
+     "Wadding: he returned the seal and asked pardon (GLASS l.13554-13557); Carlini reports Clement VI's 1349 letter glad of the seal's return (CARL l.9520-9532)",
+     "Lea: 'more than doubtful', citing Jacob of the Marches on the three who died unrepentant (LEA3 l.6837-6841); Carlini's conclusion that he did not accept (CARL l.9532-9537)"
+    ]
+   },
+   {
+    "claim": "Whether the friar summoned from Bologna in 1323 was Ockham",
+    "sides": [
+     "Eubel, after Raynaldus: more likely Ockham (BUL5 l.42511-42512); Lea and Carlini take it as Ockham (LEA3 l.6496-6503; CARL l.5326-5350)",
+     "Eubel: possibly William of Alnwick (BUL5 l.42504-42507); the letter names only 'Guillelmus dictus Anglicus' (BUL5 l.42416-42418)",
+     "Earlier: Carlini has Ockham sign the Perugia decision of 1322 (CARL l.4698-4700, 5326-5329); Eubel says the English William at Perugia was William of Alnwick (BUL5 l.42504-42507); the Yule-Cordier note puts Ockham at a council at Assisi in 1322 (CATHAY l.10492-10494)"
+    ]
+   },
+   {
+    "claim": "Whether his writings were heretical",
+    "sides": [
+     "John XXII: 'haeresiarcham', the doctors found 'multos articulos ... haereticales' (BUL5 l.72733-72739); Clement VI in Konrad of Megenberg (SCHOLZ l.21026-21040)",
+     "Ockham: his innocence falsely defamed (SCHOLZ l.25845-25847); Wyclif via Shirley: the charge cannot be proved (FZ l.3366-3368)"
+    ]
+   },
+   {
+    "claim": "Date of the flight",
+    "sides": [
+     "26 May 1328: Nicolaus Minorita and Eubel as Carlini cites them, and Carlini (CARL l.6268, 6276-6278); Lea (LEA3 l.7111)",
+     "25 May: Riezler and Müller, as Carlini cites them (CARL l.6276-6277)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Birth year, birthplace, entry to the order, studies",
+    "note": "Searched all cic/texts for the name forms Occam, Ockham, Okam, Ockam, Ocham, Hocham, Okkham with born/natus/nato/Surrey/Merton/Oxford. No contemporary held line gives them. The only birthplace line is the bracketed '[born in Surrey]' in Yule-Cordier 1914 (CATHAY l.10492); Merton rests on Vaughan 1845 and Dalgairns 1908."
+   },
+   {
+    "detail": "'Ockham's razor'",
+    "note": "Searched all cic/texts for razor, rasoio, novacula, 'entia non sunt multiplicanda', 'pluralitas non est ponenda', 'frustra fit per plura'. No held line ties any of them to Ockham; Aquinas has 'pluralitas non est ponenda sine necessitate' (thomas-aquinas_opera-omnia-t12 file, l.31872). Not told."
+   },
+   {
+    "detail": "The doctors who examined his writings and the articles they marked",
+    "note": "John XXII's 1330 letter says doctors had found many articles heretical (BUL5 l.72733-72739). A search of all cic/texts for the name forms with articul*, magistr*, doctor* found no list of the doctors or articles and no sentence."
+   },
+   {
+    "detail": "His philosophical and theological works",
+    "note": "Searched all cic/texts for 'Summa logic', 'Quodlibet', 'Expositio aurea', 'Centilog'. None of his logic or Sentences commentary is held; Centilogium appears only as a title in a Jesuit bibliography. The card lists only his held political works."
+   },
+   {
+    "detail": "The Latin of the 1324 'face like flint' letter",
+    "note": "Lea gives it in English with the year 1324 (LEA3 l.6812-6815); Carlini gives it in Italian with no year (CARL l.10707-10713). Searched for 'faciem meam', 'petram', 'atramentum' near his name: no Latin original is held. Not told in the brief."
+   }
+  ]
+ },
+ "gregory-palamas": {
+  "claims": [
+   {
+    "claim": "1347, palace prison and envoy: Kantakouzenos 'ἡ μήτηρ καὶ τὸν Ἀνδρόνικον Ἀσάνην ... καὶ τὸν Παλαμᾶν Γρηγόριον αὐτοῦ που κατακεκλεισμένους ἐν δεσμωτηρίοις ἔνδον βασιλείων ἄγεσθαι ἐκέλευε πρὸς αὐτὴν, καὶ περὶ τῆς πρὸς βασιλέα ... εἰρήνης ἔπεμπε πρὸς ἐκεῖνον πρεσβευτάς' (OCR 'Γρηχόριον', 'ἐκέλευδ'); Latin: Palamas 'pro iustitia veritateque gravissime afflictus, usque ad extremum nihil abiectum aut fecerit, aut dixerit'. The empress was refusing any settlement, 'eam a pacificatione refugientem mori ipsosque secum perdere malle viderunt', until her son John, 'tum quindecim natus annos', begged her to send to Kantakouzenos; 'lico persuasa mater'. 'For justice and truth' follows Schopen's Latin 'pro iustitia veritateque' for 'ὑπὲρ αὐτοῦ δικαίου καὶ τῆς ἀληθείας'; 'base' renders 'ἀγεννές'. Kantakouzenos is partisan; the empress is Anna (the 'mother' of the young emperor). Told in modern words.",
+    "witness": "CANT2 (cantacuzenus_historiarum-libri-iv-v2-grc-lat_schopen1831.txt) l.34225-34251, 34275-34278, 34298-34303, 34333-34336",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Kantakouzenos took Palamas's side: at the 1351 synod he speaks in the first person, 'I summoned Gregory Palamas of Thessalonica', and found him in full accord with the saints.",
+    "witness": "CANT3 (cantacuzenus_historiarum-libri-iv-v3-grc-lat_schopen1832.txt) l.11054-11059, 11082-11141",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Philotheos's Encomium (praise speech): his father a member of the senate under Andronikos II, 'τῆς συγκλήτου μὲν εἷς καὶ ὁ τοῦ σοφοῦ Γρηγορίου πατὴρ ἦν'. Panegyric.",
+    "witness": "PALH (palamas_homiliae-41-grc_jerusalem1857.txt) l.1280-1315, 1469-1473",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Left for Athos with his two brothers; tonsured at Vatopedi by Nikodemos: 'παρὰ τῇ τοῦ Βατοπεδίου γενόμενος λαύρᾳ Νικοδήμῳ φοιτᾷ ... κείρεται παρ᾽ αὐτοῦ'. Panegyric; Kantakouzenos agrees on the three brothers. Kantakouzenos: 'ἐπὶ πάνυ παιδικῇ τῇ ἡλικίᾳ', 'aetate admodum puerili'; Philotheos: 'τὸν ἔφηβον ὑπερβεβηκὼς ἤδη'.",
+    "witness": "PALH (palamas_homiliae-41-grc_jerusalem1857.txt) l.2125-2143, 2449-2465; CANT1 (cantacuzenus_historiarum-libri-iv-v1-grc-lat_schopen1828.txt) l.32725-32752",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Barlaam: learned ('sacram ... et civilem eruditionem'), posed as a disciple of a hesychast, heard of light seen with bodily eyes, and called them 'impostores, mendaces, Massalianos et Omphalopsychos' (Greek 'ἀπατεῶνας ... καὶ Μασσαλιανοὺς καὶ Ὀμφαλοψύχους'). 'Cheats' renders impostores; hostile charge reported by a partisan witness. The hesychasts' prayer in stillness: 'tranquille precationibus intenti'.",
+    "witness": "CANT1 (cantacuzenus_historiarum-libri-iv-v1-grc-lat_schopen1828.txt) l.32640-32702",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Palamas's reply: 'οἱ δ᾽ ὀμφαλοψύχους τούτους ὀνομάζοντες, πρὸς τῷ συκοφαντεῖν σαφῶς, ὧν κατηγοροῦσι· τίς γάρ ποτε τούτων ἐπ᾽ ὀμφαλοῦ λέγει τὴν ψυχήν;' Told in modern words.",
+    "witness": "PHIL2 (philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt) l.42164-42170; PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.64679-64683",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The 1341 synod in Hagia Sophia: Philotheos 'κατὰ τὸν μέγιστον ... νεὼν τῆς τοῦ Θεοῦ μεγάλης Σοφίας'; the tome: the monks said those purified 'ἐλλάμψεις θείας ... δέχονται'; Barlaam accused them of saying God's essence is shared; they answered 'οὐ τὴν οὐσίαν, ἀλλὰ τὴν ἄκτιστον καὶ θεοποιὸν χάριν τοῦ πνεύματος'. Dated July 1341 (ACTA), August (PG151).",
+    "witness": "ACTA (acta-et-diplomata-graeca_acta-patriarchatus-constantinopolitani-1315-1402-v1-grc-lat_miklosich-mueller1860.txt) l.9665, 9703-9711, 10303; PALH (palamas_homiliae-41-grc_jerusalem1857.txt) l.5094-5095; PG151 (palamas_opera-omnia-pg151-grc-lat_migne1865.txt) l.14766",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Palamas on essence: 'Τριῶν ὄντων τοῦ Θεοῦ, οὐσίας ἐνεργείας, Τριάδος ὑποστάσεων θείων ... κατ᾽ οὐσίαν εἶναι τὸν Θεὸν ἀμέθεκτον' (150 Chapters, ch. 75).",
+    "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.66797-66804",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Akindynos and Gregoras against him. Gregoras in his own words: 'τῇ πρὶν ἐκείνῃ πολυθεΐᾳ τἀνδρός'; at GREG2 l.18639-18641 'Palamae, Deos multos statuentis' is what interpreters of an omen said, as Gregoras reports it. Hostile polemic.",
+    "witness": "GREG3 (gregoras_byzantina-historia-v3-grc-lat_bekker1855.txt) l.13057; GREG2 (gregoras_byzantina-historia-v2-grc-lat_schopen1830.txt) l.18639-18641; MANSI26 (mansi_sacrorum-conciliorum-collectio-tomus-26-1344-1409-lat_welter-facsimile1901.txt) l.10198-10204",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Kalekas had him held: 'κρατηθῆναι ... καὶ κωλυθῆναι' (letter of November 1344, hostile); Philotheos: 'τέσσαρας ἐνιαυτοὺς ὅλους ἦν διαμείβων ὥσπερ ἐν λάκκῳ τινὶ τῇ φρουρᾷ'.",
+    "witness": "ACTA (acta-et-diplomata-graeca_acta-patriarchatus-constantinopolitani-1315-1402-v1-grc-lat_miklosich-mueller1860.txt) l.11280-11286, 11425-11433; PALH (palamas_homiliae-41-grc_jerusalem1857.txt) l.5949-5950",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "1347 synod: 'in Palatio regio 7. die Februarii anno 1347'; the patriarch John deposed; 'Acindynus, ejusque sequaces damnantur: Palamas e contra ejusque socii recte sentire declarantur'. Mansi's Latin calls it a 'Pseudo-synodus'.",
+    "witness": "MANSI26 (mansi_sacrorum-conciliorum-collectio-tomus-26-1344-1409-lat_welter-facsimile1901.txt) l.10190-10207; ACTA (acta-et-diplomata-graeca_acta-patriarchatus-constantinopolitani-1315-1402-v1-grc-lat_miklosich-mueller1860.txt) l.11508-11514",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Archbishop of Thessalonica, kept out: Isidore consecrated him; the governors would not receive him, in truth to keep the rule of the city for themselves; 'Palaeologus, Zelotas circum se habens'; he stayed on Lemnos. Philotheos: the city refused him, the faction behind it.",
+    "witness": "CANT3 (cantacuzenus_historiarum-libri-iv-v3-grc-lat_schopen1832.txt) l.6212-6226, 6242-6253, 6281-6316; PALH (palamas_homiliae-41-grc_jerusalem1857.txt) l.6200-6210, 6464-6481",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "1351: Kantakouzenos, presiding, found 'Palamas and his side' in accord with the saints, Gregoras holding Barlaam's and Akindynos's views. Partisan.",
+    "witness": "CANT3 (cantacuzenus_historiarum-libri-iv-v3-grc-lat_schopen1832.txt) l.11054-11119",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Capture: Philotheos, sailing to Constantinople to make peace, 'ἄπεισιν αἰχμάλωτος εἰς Ἀσίαν, Ἀχαιμενίδαις' (his archaizing for the Turks); 'Ἐνιαυτὸς ὅλος ἤνυστο τῷ γενναίῳ αἰχμαλωσίᾳ'. Combefis: 'a Turcis ... captus'. Gregoras offers divine justice as one of two causes: 'nescio, utrum ... an tribuendum sit divinae supremaeque iustitiae'; the satrap's son had the books thrown into the sea and Palamas flogged.",
+    "witness": "PALH (palamas_homiliae-41-grc_jerusalem1857.txt) l.7280-7433; GREG3 (gregoras_byzantina-historia-v3-grc-lat_bekker1855.txt) l.13053-13148, 13160-13163, 13186-13193; MANSI26 (mansi_sacrorum-conciliorum-collectio-tomus-26-1344-1409-lat_welter-facsimile1901.txt) l.19735-19741",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Age at death: 'τρία μὲν ἔτη καὶ ἑξήκοντα τὰ πάντα'. Philotheos alone; no year.",
+    "witness": "PALH (palamas_homiliae-41-grc_jerusalem1857.txt) l.8243-8244",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "The 1857 editor: feast set by synod under Philotheos 'ἐν ἔτει σωτηρίῳ ͵αΤξη' [1368], ἓξ δηλονότι ἔτεσιν ὕστερα τῆς τιμίας αὐτοῦ ἀναλύσεως'; quotes Philotheos 'ἅγιον ἔχω τοῦτον ... ἀπὸ τῶν θαυμάτων αὐτοῦ ... ἰαμάτων πηγὴν τὸν ἴδιον ἀναδείξας τάφον'. The 1368 tome against Prochoros Kydones is in PG151, dated April 6876 (1368), signed by Philotheos; its sainthood wording is not in the PG151 OCR.",
+    "witness": "PALH (palamas_homiliae-41-grc_jerusalem1857.txt) l.503-514, 523-555; PG151 (palamas_opera-omnia-pg151-grc-lat_migne1865.txt) l.15318-15324",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "The body: 'ἡμεῖς δὲ ἐν τοῖς σωματικοῖς φρονήμασιν εἶναι τὸν νοῦν, οἰόμεθα κακόν· ἐν τῷ σώματι δέ, οὐχὶ κακόν, ἐπεὶ μηδὲ τὸ σῶμα πονηρόν' (OCR 'φρονήυχσιν'). Told in modern words.",
+    "witness": "PHIL2 (philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt) l.41676-41679",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Triads named by Philotheos: nine treatises in three triads; 'κατὰ Μασαλιανῶν'.",
+    "witness": "PALH (palamas_homiliae-41-grc_jerusalem1857.txt) l.4252-4330",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Transfiguration homily: 'ὥστε τὸ αὐτὸ καὶ φῶς ἐστιν ἐνταῦθα καὶ σκότος, δι᾿ ὑπερέχουσαν φανότητα ἐπισκιάζον'.",
+    "witness": "PALH (palamas_homiliae-41-grc_jerusalem1857.txt) l.29457-29461",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Synodikon acclamation of 'Γρηγορίου τοῦ ἁγιωτάτου μητροπολίτου Θεσσαλονίκης' on the Sunday of Orthodoxy; feast on the following Sunday; hymns by Philotheos.",
+    "witness": "PALH (palamas_homiliae-41-grc_jerusalem1857.txt) l.462-490, 503-512, 581-588",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Neilos's Encomium; Neilos patriarch soon after Philotheos.",
+    "witness": "PALH (palamas_homiliae-41-grc_jerusalem1857.txt) l.9916-9926, 629-630",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gennadios: 'τοῦ μακαρίου Παλαμᾶ'.",
+    "witness": "PG160 (gennadius-scholarius_opera-omnia-pg160-grc-lat_migne1866.txt) l.57945",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Metropolitan of Side: 'πολυθέων Παλαμιτῶν'. Hostile.",
+    "witness": "ACTA (acta-et-diplomata-graeca_acta-patriarchatus-constantinopolitani-1315-1402-v1-grc-lat_miklosich-mueller1860.txt) l.18903-18997",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bollandists after Allatius: 'Palamam haereticum'; Covel: 'another hot headed Monk'. Hostile.",
+    "witness": "ASAUG1 (acta-sanctorum_augusti-tomus-1-lat_1750.txt) l.151940-151968; COVEL (covel_some-account-of-the-present-greek-church_1722.txt) l.29751-29756",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Imprisonment motives: Gregoras first thought it was friendship with Kantakouzenos, then by Anna's letters for 'novelty of dogmas'; Kalekas says he fled 'εἰς τὴν Ἡράκλειαν'.",
+    "witness": "GREG2 (gregoras_byzantina-historia-v2-grc-lat_schopen1830.txt) l.11905-11939; ACTA (acta-et-diplomata-graeca_acta-patriarchatus-constantinopolitani-1315-1402-v1-grc-lat_miklosich-mueller1860.txt) l.11426-11427",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Combefis on 1341, printed by Mansi: 'nihil de dogmate disceptatum sit in ea Synodo, ut auctor est Gregoras'.",
+    "witness": "MANSI26 (mansi_sacrorum-conciliorum-collectio-tomus-26-1344-1409-lat_welter-facsimile1901.txt) l.19594-19597",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Place: family settled at Constantinople (Philotheos); 'genere Asiaticus et in aula imperatoria educatus' (Kantakouzenos); the Lavra and Glossia; Beroea.",
+    "witness": "PALH (palamas_homiliae-41-grc_jerusalem1857.txt) l.1411-1418, 2563-2649, 2881-2898; CANT1 (cantacuzenus_historiarum-libri-iv-v1-grc-lat_schopen1828.txt) l.32723-32751",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "The Philokalia's compilers: Nikodemos with 'the holy Macarius of Corinth' published it.",
+    "witness": "PHIL1 (philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt) l.147-153",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Paisius Velichkovsky translated Palamas's piece on prayer into Slavonic (title page and contents of Vostorgnutye klasy).",
+    "witness": "PAISK (paisius-velichkovsky_vostorgnutye-klasy-chu_optina1849.txt) l.29-41 (title page), 9835-9836",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Philotheos's grounds for sainthood: his life and struggles and defense of the Church, and 'μάλιστα δὲ ἀκριβῶς πεπληροφόρημαι τοῦτο ... ὡς ἅγιον ἀπὸ τῶν θαυμάτων αὐτοῦ'.",
+    "witness": "PALH (palamas_homiliae-41-grc_jerusalem1857.txt) l.523-555",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Combefis's note: 'Francisci Combefisii Ord. Praed. Notae'; he calls the 1351 tome, held under Kantakouzenos and John Palaiologos ('regnantibus … Cantacuzeno & Palaeologo'), at which he says Gregoras was condemned ('in hac Synodo … damnatur'), 'heretico plane spiritu conscripta, & mendaciis conferta'. Hostile.",
+    "witness": "MANSI26 (mansi_sacrorum-conciliorum-collectio-tomus-26-1344-1409-lat_welter-facsimile1901.txt) l.10511-10524, 12063-12070, 12189, 19574, 19583, 19592-19597",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Philotheos is patriarch of Constantinople: the Encomium's title 'ΝΕΑΣ ΡΩΜΗΣ ΚΑΙ ΟΙΚΟΥΜΕΝΙΚΟΥ ΠΑΤΡΙΑΡΧΟΥ ΦΙΛΟΘΕΟΥ'.",
+    "witness": "PALH (palamas_homiliae-41-grc_jerusalem1857.txt) l.102, 1286",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Whether his teaching on essence and energies made many gods",
+    "sides": [
+     "Gregoras (GREG2 l.18641; GREG3 l.13057); the metropolitan of Side (ACTA l.18975, 18997); Akindynos's verses (PG151 l.26513)",
+     "The synods of 1347 and 1351 (MANSI26 l.10198-10204; CANT3 l.11107-11119); the 1341 tome: the monks deny sharing God's essence (ACTA l.9709-9710)"
+    ]
+   },
+   {
+    "claim": "Why he was imprisoned",
+    "sides": [
+     "Kalekas: he fled when summoned and was to be held (ACTA l.11425-11433); Gregoras, by Anna's letters: for new dogma (GREG2 l.11905-11911)",
+     "Gregoras's first thought: his friendship with Kantakouzenos (GREG2 l.11906-11907); Philotheos: for the truth (PALH l.5949-5958)"
+    ]
+   },
+   {
+    "claim": "Whether the 1341 synod examined doctrine",
+    "sides": [
+     "Kantakouzenos and Philotheos: Barlaam refuted (CANT1 l.33293-33311; PALH l.5097-5129); Kalekas: 'ἐξηλέγχθη ὁ Βαρλαάμ' (ACTA l.11604)",
+     "Combefis after Gregoras: no doctrine debated (MANSI26 l.19594-19597)"
+    ]
+   },
+   {
+    "claim": "Month of the 1341 tome",
+    "sides": [
+     "July: Miklosich and Müller (ACTA l.9665, 10303)",
+     "August: the Jassy text in PG151 (PG151 l.14766)"
+    ]
+   },
+   {
+    "claim": "His age when he left for Athos",
+    "sides": [
+     "Philotheos: past boyhood (PALH l.2125)",
+     "Kantakouzenos: still boys (CANT1 l.32726, 32751-32752)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Birth year and death year in a source text",
+    "note": "Searched every held file naming Palamas (Greek and Latin forms) for years 1290-1300 and 1355-1365 near his name or death words. Only the Library file headers give 1296 and 1359. The 1857 editor's 'six years' before the 1368 feast points to 1362 (PALH l.510-514); the headers' 1359 is not a witness."
+   },
+   {
+    "detail": "The letter from captivity to the Thessalonians",
+    "note": "Combefis says it exists (MANSI26 l.19737-19740). Searched all palamas_*, philokalia_* and PG147 for χιον-, chion, taronit, captivitat: no copy held."
+   },
+   {
+    "detail": "The Triads as a whole work",
+    "note": "Only the Philokalia extract (PHIL2 l.41617ff) and Migne's De Hesychastis (PG150) are held."
+   },
+   {
+    "detail": "The church of his burial",
+    "note": "Not named in Philotheos (PALH l.8255-8300) or Neilos (PALH l.11489-11500)."
+   }
+  ]
+ },
+ "gregory-of-sinai": {
+  "claims": [
+   {
+    "claim": "Athos and the three monks: the notice, 'εἰς δὲ τὸ τοῦ Ἄθω ὄρος ἐλθὼν, καὶ τὰ ἐκεῖσε περινοστήσας μοναστήρια, καὶ ἡσυχαστήρια, πολλοὺς μὲν εὗρε συνέσει καὶ τῇ κατὰ τὸ ἦθος σεμνότητι κεκοσμημένους ... περὶ δὲ τήρησιν νοὸς καὶ ἡσυχίας ἀκρίβειαν, καὶ θεωρίαν ἐπὶ τοσοῦτον ἀμυήτους, ὥστε οὐδὲ ἐξ ὀνόματος ... διαγινώσκειν· μόνοις δὲ τρισὶν ἐντυγχάνει κατὰ τὴν ἀντικρὺ Φιλοθέου κειμένην τοῦ Μαγουλᾶ σκήτην (Ἡσαΐας, Κορνήλιος, καὶ Μακάριος ...), μικρὸν καὶ περὶ τὸ θεωρητικὸν ἐνασχολουμένοις' (OCR χ for κ throughout). Told in modern words: guarding of the mind, stillness and contemplation.",
+    "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.69117-69131; PHIL2 (philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt) l.33605-33624",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "The notice is the Philokalia's (Venice 1782), reprinted by Migne: same Greek in PHIL2 and PG150; the Philokalia compiled by Macarius of Corinth and Nikodemos the Hagiorite, first printed 1782.",
+    "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.60950-60975, 69105-69218; PHIL2 (philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt) l.33590-33666",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Tonsured on Sinai, hence Sinaite: 'ὁ κατὰ τὸ Σίναιον ὄρος μοναχὸς ἀποκαρεὶς, καὶ διὰ τοῦτο ἐπικληθεὶς Σιναΐτης'.",
+    "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.69111-69115",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Floruit: 'ἤκμασε μὲν ἐπὶ τῆς βασιλείας Ἀνδρονίκου τοῦ Παλαιολόγου, περί που τὸ χιλιοστὸν τριακοσιοστὸν τριακοστὸν ἔτος' (OCR 'τριαχοσιοστὸν'); Latin 'circa millesimum trecentesimum tricesimum annum'. One notice.",
+    "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.69115-69117, 69161-69162",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Kallistos wrote his Life: 'Οὗ καὶ τὸν βίον Κάλλιστος ὁ ἁγιώτατος πατριάρχης, ὁ καὶ μαθητὴς αὐτοῦ χρηματίσας, κατὰ πλάτος συνέγραψεν.' Paisius: 'Житіе Святаго Григорія Синаита, писанное ученикомъ его Святѣйшимъ Каллистомъ Патріархомъ Цареградскимъ'.",
+    "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.69142-69144; PAISZ (paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt) l.10530-10532",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Paisius on the copies: the Life brought from Athos by the schemamonk Savva to the Elder Basil, 'отъ негоже и мы вземше преписахомъ' (we copied it); a Greek copy later reached the community, 'не все, развѣ точію части нѣкія; еще же и описанія блаженныя кончины сего святаго въ немъ не обрѣтается'. Paisius is 'Архимандрита Молдовлахійскія Нямецкія обители' (l.14222-14223); abbot, 'настоятеля Нямецкаго Вознесенскаго Монастыря' (l.3993-3994).",
+    "witness": "PAISZ (paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt) l.3993-3994, 10528-10541, 14222-14223",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Meyer 1894: 'durch den Mönch Gregorios eingeführt, der früher dem Sinai angehört hatte. Er lernte die Sache aber auf Creta von einem Eremiten Arsenios kennen. Auf dem Athos bewohnte er das Kellion Magullah, das dem Kloster Iwiron gehört'; citing 'den Bios des Gregorios von seinem Zeitgenossen, dem Patr. Kallistos'; Meyer dates the introduction to the thirteenth century ('vor dem 13. Jahrh. ... nicht bekannt ... Damals aber').",
+    "witness": "MEYER (athos-monasteries_haupturkunden-fur-die-geschichte-der-athoskloster-ger-grc_meyer1894.txt) l.32-48 (title page), 3998-4009",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Teaching all: 'οὐ μόνον τοὺς κατ᾽ ἰδίαν ἡσυχάζοντας, ἀλλὰ δὴ καὶ τοὺς ἐν κοινοβίοις ἅπαντας, περὶ νήψεως καὶ φυλακῆς νοὸς καὶ νοερᾶς προσευχῆς ἐδίδασκεν'. Nil Sorsky repeats it.",
+    "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.69131-69134; NIL (nil-sorsky_predanie-i-ustav-chu_borovkova-maikova1912.txt) l.2426-2431",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Basil, elder of the Poiana Marului monastery and friend of Paisius ('Старца Схимонаха Василія, спостника и друга блаженнаго Отца Паѵсія'), in his preface to the chapters of Philotheos of Sinai: 'И самому сему Григорію Синаиту сопротивишася испрва саміи словеснѣйшіи отцы Аѳонскія горы, егда началъ бѣ о семъ ихъ учити.' His preface to Gregory's book begins at l.3999.",
+    "witness": "PAISZ (paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt) l.3987-3994, 3999, 4523-4526, 4651-4653, 14198-14199, 14206-14207, 14215",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "The prayer: 'Οὕτως εἶπον οἱ Πατέρες· ὁ μέν· Κύριε Ἰησοῦ Χριστὲ, Υἱὲ τοῦ Θεοῦ, ἐλέησόν με, τὸ ὅλον· ὁ δὲ, τὸ ἥμισυ· Ἰησοῦ, Υἱὲ τοῦ Θεοῦ, ἐλέησόν με. Ὅπερ εὐκολώτερόν ἐστι διὰ τὴν τοῦ νοὸς ἀδυναμίαν'; 'οἱ μὲν διὰ στόματος, οἱ δὲ διὰ νοῦ διδάσκουσι λέγειν αὐτήν. Ἐγὼ δὲ ἀμφότερα τίθημι.' (OCR 'θὕύτως', 'co-γολώτερόν'). Told in modern words.",
+    "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.72588-72601",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "How to sit: 'Ποτὲ μὲν ἐπὶ σκάμνου, τὸ πλεῖστον διὰ τὸ ἐπίπονον'; 'κύπτων κάτωθεν, καὶ τὸν νοῦν ἐν τῇ καρδίᾳ συνάγων, εἴπερ διήνοικται, ἐπικαλοῦ τὸν Κύριον Ἰησοῦν εἰς βοήθειαν'; 'Πονῶν δὲ, τοὺς ὤμους καὶ τὴν κεφαλὴν πολλάκις ἀλγῶν, καρτέρει ἐπιπόνως καὶ ἐρωτικῶς ... ζητῶν ἐν καρδίᾳ τὸν Κύριον'. Told in modern words.",
+    "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.72564-72582",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Three lauras: 'κατὰ τὰ παρόρια τῆς Μακεδονίας τρεῖς λαύρας μεγίστας οἰκοδομήσας'; Lecomte's Latin 'in finibus Macedoniae'; PHIL2 prints it capitalized as a place name; Rački: 'na planini Paraoriji ... kod jedrene'.",
+    "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.69134-69136, 69175-69176; PHIL2 (philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt) l.33628; RACKI (racki_bogomili-i-patareni-rad-viii-hrv_jazu1869.txt) l.3664-3668",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Rački retells the Life of Theodosius of Trnovo by Kallistos ('koje sastavi njegov drug a potonji (1354—62) carigradski patrijar imenom Kalista'); disciples 'grčkoga i slovenskoga roda', among them 'Kalisto, potonji patrijar carigradski i Jakov, kašnje arhiepiskop srbski'; Theodosius sent 'k caru Aleksandru s prosbom, neka onu sv. družbu uzme u zaštitu proti Turčinu'. One later retelling.",
+    "witness": "RACKI (racki_bogomili-i-patareni-rad-viii-hrv_jazu1869.txt) l.3538-3545, 3664-3693",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Baptism's gift: 'ἡ ἐνέργεια τοῦ ἁγίου Πνεύματος ... ἡ διὰ τοῦ βαπτίσματος διδομένη σοὶ, καὶ παντὶ πιστῷ, ἢ διὰ τῆς τῶν ἐντολῶν ἀμελείας τοῖς πάθεσι συγχωσθεῖσα, καὶ τὴν μετάνοιαν ἡμῶν ἀναμένουσα' (OCR 'πάῆξσ:'). Told in modern words.",
+    "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.72489-72493",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "To Longinus: 'Εἰ δὲ καὶ ἄνδρες βαπτιζόμεθα, πλὴν ἀλλ᾽ ἐν ὕδατι μόνον, καὶ οὐ Πνεύματι αἰσθανόμεθα'.",
+    "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.71636, 71661-71663",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Common teacher: 'κοινὸς διδάσκαλος τῆς ἱερᾶς νήψεως', still leading by his writings.",
+    "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.69145-69148",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Paisius on hymns: 'Божественною премудростію Троичны, яже по всей вселеннѣй по вся недѣли ... поются, такожде и канонъ Животворящему Кресту сложивый'. One late witness.",
+    "witness": "PAISZ (paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt) l.9282-9285",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Maximus the Hut-burner (Kapsokalyvis), later vernacular Life in PHIL2: Gregory asks 'κρατεῖς τὴν νοερὰν προσευχήν;'; close, 'πλέον δὲν τὸν ὠνόμαζεν ἄνθρωπον, ἀλλὰ Ἄγγελον ἐπίγειον'. Later and legendary.",
+    "witness": "PHIL2 (philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt) l.72440-72459, 72677-72680",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Signs of grace and delusion: 'τίνα μὲν τὰ σημεῖα τῆς πλάνης, τίνα δὲ τῆς χάριτος'; the Chapters 'CAPITA PER ACROSTICHIDEM' from l.69298; 'DE QUIETUDINE ET DUOBUS ORATIONIS MODIS' 71943; 'QUOMODO OPORTEAT SEDERE HESYCHASTAM' 72564; Latin by Lecomte (60950-60975).",
+    "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.69151, 69298, 71943, 72564, 60950-60975",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Paisius, citing Kallistos's Life: Gregory went round all Athos and 'отнюдь никогоже обрѣте въ ней, ниже малое вѣдѣніе о молитвѣ сей имущаго'. Against the notice's three monks at Magoula. Meyer makes the three his pupils.",
+    "witness": "PAISZ (paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt) l.11025-11031; MEYER (athos-monasteries_haupturkunden-fur-die-geschichte-der-athoskloster-ger-grc_meyer1894.txt) l.4006-4007",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "The sitting advice is a separate short piece, 'EJUSDEM QUOMODO OPORTEAT SEDERE HESYCHASTAM AD ORATIONEM', after the fifteen chapters 'DE QUIETUDINE ET DUOBUS ORATIONIS MODIS'.",
+    "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.71961-71971, 72555-72561, 72588",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The neglect clause: 'ἣ διὰ τῆς τῶν ἐντολῶν ἀμελείας τοῖς πάθεσι συγχωσθεῖσα'; the condition 'εἴπερ διήνοικται'; 'Some Fathers' renders 'ὁ μέν ... ὁ δέ'.",
+    "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.72489-72493, 72578-72579, 72589-72591",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "What Paroria was",
+    "sides": [
+     "Lecomte's Latin in Migne: the borders of Macedonia (PG150 l.69175-69176)",
+     "The 1893 Philokalia: a place name (PHIL2 l.33628); Rački: a mountain Paroria near Adrianople (RACKI l.3667)"
+    ]
+   },
+   {
+    "claim": "When he brought the prayer of the mind to Athos",
+    "sides": [
+     "The notice: he flourished about 1330 (PG150 l.69115-69117)",
+     "Meyer: in the thirteenth century, by what he calls a credible tradition, referring to Kallistos's Life (MEYER l.4001-4009)"
+    ]
+   },
+   {
+    "claim": "Where Magoula lay",
+    "sides": [
+     "The notice: opposite Philotheou (PG150 l.69126-69129)",
+     "Meyer: a cell belonging to Iviron (MEYER l.4004-4006)"
+    ]
+   },
+   {
+    "claim": "Whether he found anyone on Athos who knew the prayer",
+    "sides": [
+     "The notice: three monks at Magoula gave a little time to contemplation (PG150 l.69125-69131; PHIL2 l.33615-33620)",
+     "Paisius, citing Kallistos's Life: no one at all (PAISZ l.11025-11031)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Birth year, birthplace and family",
+    "note": "Searched all cic/texts for Gregory with Σιναΐτ/Sinait/Синаит and for Κουκουλ/Koukoul: no birth detail. The notice begins with the Sinai tonsure."
+   },
+   {
+    "detail": "Year and place of death; burial; feast",
+    "note": "No line found in PG150, PHIL1-2, PAISZ, NIL, RACKI, MEYER, the Synaxaristes or the Acta Sanctorum files. Paisius says the Greek copy of Kallistos's Life lacked the account of his end (PAISZ l.10536-10541)."
+   },
+   {
+    "detail": "Kallistos's Life of Gregory",
+    "note": "Named in PG150 l.69142, PAISZ l.10530 and MEYER l.4009; no Greek or Slavonic text of it in cic/texts."
+   }
+  ]
+ },
+ "nicholas-cabasilas": {
+  "claims": [
+   {
+    "claim": "1353, three names for patriarch: 'ἐπελέξαντο τρεῖς, Φιλόθεόν τε τὸν τῆς Ἡρακλείας ἀρχιερέα, καὶ τὸν Φιλαδελφείας Μακάριον, καὶ Νικόλαον τὸν Καβάσιλαν, ὄντα ἔτι ἰδιώτην ... βασιλεὺς δὲ εἵλετο τῶν ἄλλων μᾶλλον τὸν Φιλόθεον'; Latin 'privatum adhuc Nicolaum Cabasilam'. Kantakouzenos was the emperor; partisan witness. Told in modern words. 'ἐπευξάμενοι ... ἔπειτα τὴν θείαν χάριν ἐπικαλεσάμενοι τοῦ πνεύματος, ἐπελέξαντο τρεῖς'; Philotheos 'τὸν τῆς Ἡρακλείας ἀρχιερέα'. 'A writer on the sacraments' rests on his works in PG150.",
+    "witness": "CANT3 (cantacuzenus_historiarum-libri-iv-v3-grc-lat_schopen1832.txt) l.16595-16603, 16631-16634",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The notice from Fabricius's Bibliotheca Graeca (Harles's edition): 'Nicolaus Cabasila, Nili Cabasilae Thessalonicensis ex fratre nepos, ejusdemque, defuncti vita, in munere successor fuit. Cum patruo saepe confundi solet. Claruit circa a. 1350 [OCR 4550]'; 'Vir fuit omnino doctus'. Migne: 'ACCURANTE J.-P. MIGNE' (l.161, 195); heading 'Fabric. Harl. Bibliotheca Graeca, t. X, p. 159' (l.26062). Year: 'CL (1865)' in the list of Migne's volumes (PG161 l.110885); this scan's title page OCR reads '1863' (PG150 l.261).",
+    "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.26060-26072, 26083, 261; PG161 (bessarion_opera-omnia-pg161-grc-lat_migne1866.txt) l.110885",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Gass, sister's son after Phrantzes: 'Er war Schwestersohn (ἀδελφιδοῦς) des Nilus'; Phrantzes: Thomais given 'τῇ ἀδελφῇ τῶν τριῶν ἀρχιερέων ... καὶ μητρὶ τοῦ σοφωτάτου Καβασίλα Νικολάου', she went to Thessalonica 'διὰ τὸ ἐκεῖσε εἶναι τὸν ἀδελφὸν αὐτῆς Καβάσιλαν ἀρχιερέα'. Phrantzes: her brother Kabasilas archbishop at Thessalonica; 'τῇ ἀδελφῇ τῶν τριῶν ἀρχιερέων'.",
+    "witness": "GASS (cabasilas_mystik-vom-leben-in-christo-grc-deu_gass1849.txt) l.1373-1374, 1453-1455, 1484-1488; PHRAN (sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838.txt) l.7955-7995",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Gass printed the Greek at Greifswald in 1849: 'Graece edidit Dr W. Gass, Greifswald 1849' (OCR 'Gast').",
+    "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.26160; GASS (cabasilas_mystik-vom-leben-in-christo-grc-deu_gass1849.txt) l.1-10",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "1346 envoys: 'πρεσβευτὰς ᾑροῦντο πρὸς Καντακουζηνὸν Μανουὴλ τοῦ βασιλέως υἱὸν ἐν Βερροίᾳ διατρίβοντα, Νικόλαόν τε τὸν Καβάσιλαν καὶ Φαρμάκην'; Latin 'Nicolaum Cabasilam et Pharmacen legatos deligunt'; Bonn margin A.C. 1346.",
+    "witness": "CANT2 (cantacuzenus_historiarum-libri-iv-v2-grc-lat_schopen1831.txt) l.32137-32140, 32168-32169",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "1349 plan: 'συνείποντο δὲ αὐτῷ πρὸς τὴν ἐκ τοῦ βίου ἀναχώρησιν καὶ Καβάσιλας Νικόλαος καὶ Δημήτριος ὁ Κυδώνης, σοφίας μὲν εἰς ἄκρον τῆς ἔξωθεν ἐπειλημμένοι, οὐχ ἧττον δὲ καὶ ἔργοις φιλοσοφοῦντες καὶ τὸν σώφρονα βίον καὶ τῶν ἐκ τοῦ γάμου κακῶν ἀπηλλαγμένον ᾑρημένοι' (OCR '΄ημηήεριος', 'γάµου'); letters from Thessalonica stopped the plan.",
+    "witness": "CANT3 (cantacuzenus_historiarum-libri-iv-v3-grc-lat_schopen1832.txt) l.6394-6443",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "1350 synod record: 'τῶν οἰκείων τῷ κρατίστῳ καὶ ἁγίῳ μου αὐθέντῃ καὶ βασιλεῖ ... κῦρ Νικολάου τοῦ Καβάσιλα'.",
+    "witness": "ACTA (acta-et-diplomata-graeca_acta-patriarchatus-constantinopolitani-1315-1402-v1-grc-lat_miklosich-mueller1860.txt) l.13958, 14063-14068",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gass: 'unter den Anhängern des Palamas genannt und für sie in die Schranken tretend'. Symeon counts his writings against 'τοῦ Βαρλαάμ τε καὶ Ἀκινδύνου αἱρέσεως'; the Thessalonica Synodikon praises a Nicholas, whom Gass takes for him, against 'τοῦ Βαρλαὰμ καὶ Ἀκινδύνου ... μανίαν'.",
+    "witness": "GASS (cabasilas_mystik-vom-leben-in-christo-grc-deu_gass1849.txt) l.1231-1235; PG155 (symeon-thessalonica_opera-omnia-pg155-grc-lat_migne1866.txt) l.9225-9236; GASS l.1884-1888, 1917-1918, 1935-1937",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "The Life in Christ, opening: 'Ἡ ἐν Χριστῷ ζωὴ φύεται ἐν τῷδε τῷ βίῳ καὶ τὰς ἀρχὰς ἐντεῦθεν λαμβάνει, τελειοῦται δὲ ἐπὶ τοῦ μέλλοντος'. Told in modern words.",
+    "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.35858-35860",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The three mysteries: 'τὸ μὲν βάπτισμα τὸ εἶναι δίδωσι καὶ ὅλως ὑποστῆναι κατὰ Χριστόν ... Ἡ δὲ τοῦ μύρου χρίσις τελειοῖ τὸν γεγεννημένον τῇ τοιᾷδε ζωῇ προσήκουσαν ἐνέργειαν ἐντιθεῖσα· ἡ δὲ θεία εὐχαριστία τὴν ζωὴν ταύτην καὶ τὴν ὑγείαν συντηρεῖ καὶ συνέχει'. Told in modern words.",
+    "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.36560-36572",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Οὐ γὰρ αὐτοὶ πρὸς τὸν Θεὸν ἐκινήθημεν οὐδὲ ἀνέβημεν, ἀλλ᾽ αὐτὸς πρὸς ἡμᾶς ἐλήλυθε καὶ κατῆλθεν' (OCR garbled). Told in modern words.",
+    "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.36579-36582",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "No need to leave: 'καὶ στρατηγήσει μὲν ὁ στρατηγὸς, καὶ γεωργήσει δὲ ὁ γεωργὸς, καὶ δημιουργὸς προστήσεται τῶν ἔργων ... Οὐ γὰρ ἐσχατιὰν ἀνάγκη καταλαβεῖν, οὐδ᾽ ἀήθη τινὰ προσέσθαι τροφήν, οὐδ᾽ ἀμεῖψαι θοἰμάτιον, οὐδ᾽ ὑγείαν διαφθεῖραι'; Latin 'licet domi ... manentem'. Told in modern words. 'καὶ οὐ δεήσεταί γε οὐδενὶ τῶν γιγνομένων': the general gives up none of his work. 'The newborn': 'τελειοῖ τὸν γεγεννημένον' (l.36564).",
+    "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.44358-44389",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Archbishop: Fabricius 'in munere successor'; Migne 'NICOLAUS CABASILA, THESSALONICENSIS METROPOLITA'; Gass 'verwaltete dasselbe Amt zehn Jahr nachher (nach 1350)', 'Muthmasslich wird also Cabasilas erst nach einigen Jahren das Erzbisthum angetreten haben ... Jedenfalls wird er nicht vor 1354 als Erzbischof genannt'; on the order, 'so dass zwischen Beide nur die bischöfliche Regierung des Gregorius Palamas ... fällt' (OCR 'bischuf- liche Regierang', 'föUt'); the Synodikon of the church of Thessalonica, quoted by Gass from Le Quien, 'Νικολάου τοῦ ἁγιωτάτου μητροπολίτου Θεσσαλονίκης ... αἰωνία ἡ μνήμη', a first name with no surname, which Gass reads as Cabasilas ('dass er nämlich ... gekämpft habe'). Against: Martin Jugie, editing the homilies on the Virgin in Patrologia Orientalis 19 (1926), 'On a fait de lui, sans aucune preuve serieuse, le successeur de son oncle sur le siege de Thessalonique. Ni Jean Cantacuzene, ni les suscriptions des manuscrits, ni le Synodicon de l'Eglise de Thessalonique ne soufflent mot de ce titre, qui a du lui venir de ce qu'on l'a confondu souvent avec Nil' (OCR 'soufllent', 'avee Nil'); his note cites Louis Petit's article on the Synodicon of Thessalonica (Echos d'Orient, May 1918). Bounds and silence: Kantakouzenos 'ὄντα ἔτι ἰδιώτην' (a date, 1353); Symeon names him with no see (silence).",
+    "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.343-346, 26071-26072; GASS (cabasilas_mystik-vom-leben-in-christo-grc-deu_gass1849.txt) l.1373-1377, 1773-1786, 1884-1888, 1917-1918, 1935-1938; CANT3 (cantacuzenus_historiarum-libri-iv-v3-grc-lat_schopen1832.txt) l.16601-16602; PG155 (symeon-thessalonica_opera-omnia-pg155-grc-lat_migne1866.txt) l.9228-9233; PO19 (john-ephesus_lives-eastern-saints-po19-mixed-issue_brooks1926.txt) l.39892-39895, 39907-39908, 39914",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Symeon 'writing in the next century': Harles after Wharton, 'Sim. Thessal. claruisse a. 1410 et obiisse a. 1429'; 'τὴν καλὴν νίκην ἐπ᾽ εὐσεβείᾳ καὶ ἁγνότητι βίου συστησαμένου'.",
+    "witness": "PG155 (symeon-thessalonica_opera-omnia-pg155-grc-lat_migne1866.txt) l.796-806, 9228-9233",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Hervet: 'Similiter hic noster Cabasila videtur existimasse Latinos credere se per solam verborum Christi narrationem Christi corpus et sanguinem conficere'; 'Caetera autem quae sunt in hoc libello, sunt ejusmodi, ut nihil magis pium nec magis christianum dici aut fingi possit'. Hervet's Latin, Venice 1548 (Fabricius).",
+    "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.26426-26431, 26494-26496, 26092-26094",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The windows: 'διὰ τῶν μυστηρίων τούτων τῶν ἱερῶν ὥσπερ διὰ θυρίδων εἰς τὸν σκοτεινὸν τοῦτον κόσμον ὁ ἥλιος εἰσέρχεται τῆς δικαιοσύνης'. Told in modern words.",
+    "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.36590-36592",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Editions: Hervet Venice 1548; Greek by Fronto Ducaeus 1624; Pontanus's six books Ingolstadt 1604; sermon against usurers, Augsburg 1595 by Hoeschel; encomium of Theodora in the Acta Sanctorum for 5 April with Papebroch's commentary; Casaubon read the seven books 'magna cum voluptate'. 'DANIELIS PAPEBROCHII COMMENTARIUS' (l.49318).",
+    "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.26092-26099, 26126-26131, 26170-26175, 26192-26193, 49316; GASS (cabasilas_mystik-vom-leben-in-christo-grc-deu_gass1849.txt) l.1815-1816",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Usury: 'τόκου δὲ οὐδεὶς ἡγεῖται πόνος, οὐδὲ κινδύνων γέμει τὸ πρᾶγμα, ἀλλὰ δεῖ τοῦτ᾽ αὐτὸ μόνον κερδαίνειν πραγματευσαμένους οὐδέν'.",
+    "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.48508-48510",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Liturgy commentary: made holy by everything done in the liturgy, 'καθ᾽ ὃν ἐν αὐτοῖς ὁρῶμεν τὸν Χριστὸν ... ἡ οἰκονομία τοῦ Σωτῆρος σημαίνεται'.",
+    "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.26594-26600",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Trent: 'Niccolò Cabasilla nel libro primo del Sacrificio della Messa, il quale opinò, che tal podestà fosse data nel giorno della Pentecoste'.",
+    "witness": "PALL (pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846.txt) l.7646-7651",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mark of Ephesus: Gass 'von Männern wie Marcus Eugenicus stark benutzt und ausgeschrieben'. One witness.",
+    "witness": "GASS (cabasilas_mystik-vom-leben-in-christo-grc-deu_gass1849.txt) l.1879-1882",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Sakellion: 'ὁ σακελλίου Καβάσιλας' (1343) and 'Καβάσιλαν τὸν σακελλίου' (1347), no first name; 1353 'Καβάσιλαν τὸν σακελλίου' among 'τῶν ἐπιφανεστέρων τοῦ κλήρου'; Fabricius 'sacelli imperialis curator'; Pontanus; Gass.",
+    "witness": "CANT2 (cantacuzenus_historiarum-libri-iv-v2-grc-lat_schopen1831.txt) l.24905-24938, 34026-34029; CANT3 (cantacuzenus_historiarum-libri-iv-v3-grc-lat_schopen1832.txt) l.16353-16375; PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.26072-26073, 35726-35731; GASS (cabasilas_mystik-vom-leben-in-christo-grc-deu_gass1849.txt) l.1378-1381",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Gregoras's old friend: 'ὁ καλὸς ἐγεγόνει Καβάσιλας, τῶν φίλων ὁ βέλτιστος ... πρός τε τὸ βαθὺ γῆρας'; Boivin's note: 'Nicolaus scilicet'.",
+    "witness": "GREG2 (gregoras_byzantina-historia-v2-grc-lat_schopen1830.txt) l.28603-28608, 47127-47128",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Anti-Latin writings: Fabricius 'num contra S. Thomam Aquinatem scripserit, non omnes consentiunt'; Gass gives the titles to Nilus; Petit: the purgatory tract, once given to Nilus, Nicholas or Barlaam, is the Greeks' joint answer at Ferrara, by Mark of Ephesus and Bessarion ('cette malencontreuse attribution a Barlaam'; 'la majeure partie de cet opuscule est empruntee, mot pour mot, a Marc d'Ephese').",
+    "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.26084-26086; GASS (cabasilas_mystik-vom-leben-in-christo-grc-deu_gass1849.txt) l.1839-1842; PO15 (patrologia-orientalis-tomus15_petit-documents-concile-de-florence-purgatoire-grc-fra_graffin-nau1927.txt) l.513-517, 540-544, 584-587, 630-640",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Petit: Mark of Ephesus and Bessarion 'avaient seuls recu mission de repondre aux Latins' at Ferrara; the card names them in its legacy entry, after Gass's line on Mark.",
+    "witness": "PO15 (patrologia-orientalis-tomus15_petit-documents-concile-de-florence-purgatoire-grc-fra_graffin-nau1927.txt) l.627-641",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Whether and when he became archbishop of Thessalonica",
+    "sides": [
+     "Fabricius: his uncle Nilus's successor in office once Nilus had died, 'defuncti vita, in munere successor' (PG150 l.26071-26072); Migne heads him metropolitan of Thessalonica (PG150 l.343-346)",
+     "Gass: Gregory Palamas held the see between uncle and nephew (GASS l.1374-1377); Nicholas presumably took it only some years after the synod of 1351, and is not named archbishop before 1354 (GASS l.1773-1786); he takes the Synodikon's 'Nicholas, most holy metropolitan of Thessalonica', quoted from Le Quien, for him (GASS l.1884-1888, 1917-1918, 1935-1938)",
+     "No: Jugie, no serious proof; Kantakouzenos, the manuscript titles and the Synodicon of Thessalonica are silent on the title; it came from confusion with Nilus (PO19 l.39892-39895, 39907-39908, 39914)"
+    ]
+   },
+   {
+    "claim": "How he was Nilus's nephew",
+    "sides": [
+     "Fabricius: brother's son (PG150 l.26071)",
+     "Gass, after Phrantzes: sister's son (GASS l.1373-1374; PHRAN l.7957-7964)"
+    ]
+   },
+   {
+    "claim": "Whether 'Kabasilas of the sakellion' is Nicholas",
+    "sides": [
+     "Fabricius, Pontanus, Gass: yes (PG150 l.26072-26073, 35726-35731; GASS l.1378-1381)",
+     "Kantakouzenos counts that Kabasilas among the clergy in 1353 and calls Nicholas a layman the same year (CANT3 l.16353-16354, 16601-16602)"
+    ]
+   },
+   {
+    "claim": "Whether he wrote against the Latins",
+    "sides": [
+     "Fabricius: a sharp opponent of the Latins, though not all agree he wrote against them or Aquinas (PG150 l.26084-26086)",
+     "Gass: the titles belong to Nilus (GASS l.1839-1842); Petit: the purgatory tract, once given to Nilus, Nicholas or Barlaam, is the Greeks' joint answer at Ferrara, by Mark of Ephesus and Bessarion (PO15 l.513-517, 540-544, 584-587, 630-640)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Birth, death, burial",
+    "note": "Searched all cic/texts for Καβάσιλ-, Καβασίλ-, Cabasil-, Kabasil-, Кавасил- (34 files): no birth, death or burial line."
+   },
+   {
+    "detail": "Monastic profession",
+    "note": "No line says he took the habit. Kantakouzenos says only that he joined the emperor's plan to withdraw (CANT3 l.6395-6400); Schopen's index 'monachismum amplexus' goes beyond the text."
+   },
+   {
+    "detail": "His tract against Gregoras",
+    "note": "Named by Boivin (GREG2 l.47136-47137) and Migne's index; no text in cic/texts."
+   },
+   {
+    "detail": "The date he took the see of Thessalonica",
+    "note": "No line gives the date he took the see; Jugie doubts he held it at all (PO19 l.39892-39895). Searched all cic/texts for the name forms with Thessalon-, archiep-, metropol-, μητροπολ-, ἀρχιερ-, Erzbisch-."
+   }
+  ]
+ }
+}

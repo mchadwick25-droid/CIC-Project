@@ -3259,3 +3259,175 @@ The approved files are in `Who-Profiles/era6/batch1/` in this folder, and the re
 **What is still open.** Open-Gaps 265. Open-Gaps 217 (caps, major mark, placement) is carried.
 
 Approved to proceed (Mark, 2026-11-14).
+
+## 2026-11-14 — Cap ruling: one check of four round 3 fixes, era 4 councils
+
+**Cap ruling (Mark's standing ruling of 2026-11-14, "Minor round 3 fixes to reader-facing text get one targeted check without asking Mark").** Round 3, the last review round of the era 4 council profiles, found no blocking or substantial point. Four of its nine minor points were in participant text:
+- **Constantinople 680-681, brief and audio.** "sides with one will against the council" became "writes from the side of the condemned". "One will" had not yet been explained.
+- **Nicaea 787, entry.** Theophanes's people line now reads: "The Life printed with his Chronicle says he was called to the council and came in a hair shirt, riding a donkey".
+- **Nicaea 787, entry.** `issue[0]` now says Percival's summary "mostly follows Hefele".
+- **Quinisext, entry.** `outcome[2]`: "the emperor sent John VII the volumes again, and he returned them uncorrected".
+
+All four were applied as worded. One targeted Opus check of only those strings followed, by an agent that had not seen the drafting or the earlier rounds. The check does not count toward the cap: `Build/Ministry/Operations/Audits/2026-11-14_council-profiles-era4/R4_cap-check.md`. Its verdict was CLEAR for all four, with no minor point. The brief runs 398 words, FK 7.66, Flesch 66.88. The cap ruling is met.
+
+## 2026-11-14 — Major councils, era 4: six profiles; all holds lifted, the Library fill paused until the reset (Mark, 2026-11-14)
+
+**Decided (Mark, 2026-11-14, his words as given or relayed by the coordinator).**
+- The council hold is lifted. Mark picked "Councils for eras 4, 5, 6", in his words: "lets do era 4 then 5 then 6 counsils". Era 4 is this entry. Eras 5 and 6 follow as separate jobs.
+- Later the same day: "lift all holds". The coordinator gave its meaning as three points: the council hold is lifted for all eras; the Library hold is lifted; the era 8-10 Who hold is lifted. The Library was to resume with the wanted fill, then era 8 when era 7's Whos begin.
+- Then, through the coordinator, Mark paused the Library's wanted fill until his weekly reset: "lets hold the fable work... when we reset with the gift we will restart". So "lift all holds" stands for the councils and for the era 8-10 Whos. The Library fill is paused until the reset.
+- Mark's standing words for this work: "dont sacrafice quality, expecially the quality of writing." Every review round ran at full effort.
+
+**The six councils.** They are the era 4 rows of the councils scan (`Build/Ministry/Operations/Audits/2026-11-12_major-events-scan/Councils_Scan.md`). Each is written to `Council_Profile_Pattern.md`, in the form of the era 1 to 3 councils.
+- **Lateran 649**: 398 words, FK 7.44, reading ease 67.64. The acts are held in Latin, the record of Martin's side. The condemned Ekthesis, Paul's letter and Typos are quoted in them in Latin translation. Mansi's lists give 105 bishops; Theophanes gives 150 or 110, by the version.
+- **Whitby 664**: 399 words, FK 6.26, reading ease 75.45. No acts exist. The synod is known through Bede and through Stephen's Life of Wilfrid, both on the Roman side, and their accounts of how the ruling came are set side by side. The low grade comes from Bede's short spoken exchange; joining sentences to raise it ran them past 25 words, so they were left.
+- **Constantinople 680-681**: 398 words, FK 7.66, reading ease 66.88. The acts are held in Latin and Greek, with Percival's English extracts. The anathema on Honorius is told from the acts, with the disputes over his meaning in the entry. Michael the Syrian writes from the side of the condemned.
+- **Quinisext 691-692**: 400 words, FK 7.79, reading ease 62.23. The acts are held: the bishops' address, the canons and the signatures, with the blank place for the pope. Rome's refusal is told from the Book of the Popes. No Armenian answer from the time is held; Serpos (1783) is the first.
+- **Nicaea 787**: 401 words, FK 7.88, reading ease 61.06. The full acts and signatures are not held, so the profile rests on Percival's English extracts. The Hieria decree is told in his summary drawn mostly from Hefele, and the broken meeting of the year before from Theophanes. Frankfurt's rejection is told from its capitulary and the royal annals.
+- **The Photian councils, 861-880**: 402 words, FK 7.95, reading ease 62.20. One profile tells the four councils. The acts of 869-870 and 879-880 are held; the canons of 861 are held in the Pedalion; the acts of 867 were burned by order. The two reckonings of the eighth council are told through the Pedalion and Mark of Ephesus.
+
+**Worker's calls under the pattern (not Mark's words; Mark may overrule).**
+- **One profile for the Photian councils**, as the scan's single row has them. The id is `councils-of-constantinople-861-880`.
+- **No Roman tradition id.** The census has no Roman entry between 604 and 1049, so Rome's part in five of the six councils is told in the outcome and record without an id. The gap is logged for Mark in Open-Gaps 266.
+- **The Who click** follows the era 3 rule: those who took part, those condemned, and those who acted on the decisions. Writers who only report a council are in its record and sources. Aidan is left off Whitby's click under this rule.
+- **Columbanus at Whitby.** His Easter letters are an Irish witness some sixty years before the synod. No witness kind in the pattern fits, so he is filed as a later narrative with that note; the gap is logged.
+- **American spelling** in the profiles' own prose (Decision-Log 77); quotations keep their own spelling.
+- **Opus drafted every profile.** Opus research agents first gathered a sourced dossier for each council.
+
+**Review.** Three rounds by fresh Opus agents that had not seen the drafting, at full effort in every round.
+- **Round 1**, the full review in three parts, found no blocking point, 6 substantial and 60 minor. The substantial points:
+  - Theophanes's joint exile of Martin and Maximus to Cherson was told in the narrator's voice, against the Maximus Who profile's exile to the Lazi.
+  - Three false absences: the condemned at Constantinople 680-681 reach us outside its acts, Columbanus's Easter letters are held, and the canons of 861 are held in the Pedalion.
+  - The Quinisext brief said no Armenian answer is known, but Serpos answers it, though late.
+  - The Quinisext brief closed on Tarasius's claim with only his side given.
+- **Round 2**, a targeted recheck, found 2 substantial and 9 minor:
+  - the Constantinople "only" was still false, since Michael the Syrian takes Macarius's side;
+  - a line added in round 1 said Theophanes was not at Nicaea, but the Life printed with his Chronicle says he came.
+- **Round 3**, the last, found no blocking or substantial point and 9 minor. All nine were applied as worded. The four in reader-facing text had one targeted check under Mark's standing ruling, recorded in the cap ruling entry above; its verdict was CLEAR.
+
+Every quotation was re-checked word for word against its vendored file. No paid calls were made.
+
+**What is still open.** Open-Gaps 266, "Major councils, era 4" (2026-11-14). The councils of eras 5 and 6 are next, as separate jobs.
+
+The files are in `Council-Profiles/era4/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-14_council-profiles-era4/`. No census, record or site change is made, so there is no data release number; councils reach the site through the map build. Approved to proceed (coordinator, 2026-11-14; Mark may overrule).
+
+## 2026-11-15 — Cap ruling: one check of the round 3 fixes, era 6 Who batch 2
+
+**Cap ruling (2026-11-15, Mark: "Fix + one check (Recommended)", picked from options, relayed by the coordinator).** The third and last review round of era 6 Who batch 2 found 5 blocking and 5 minor points:
+- the Palamas card named the 1347 tome where Combefis annotates the 1351 tome;
+- the Clareno card dropped "after Pentecost" from Ehrle's reckoning of the death year;
+- on Cabasilas, "Gass agrees" misread Gass, who puts Gregory Palamas in the see between uncle and nephew;
+- the Thessalonica Synodikon names only a Nicholas, whom Gass takes for Cabasilas;
+- a held side was missed: Martin Jugie, editing Cabasilas's sermons on Mary in Patrologia Orientalis 19 (1926), finds "sans aucune preuve sérieuse" that he succeeded his uncle.
+
+Mark ordered three things. The first two fixes and the minor points were applied as worded. The three Cabasilas points were applied as one fix: the see is marked Contested, and each claim is given to its own witness (Fabricius, Gass, Jugie). Then one targeted Opus check of only those strings, by an agent that had not seen the drafting or the earlier rounds, which does not count toward the cap: `Build/Ministry/Operations/Audits/2026-11-14_who-profiles-era6-batch2/R4_cap-check.md`. Its verdict was NOT CLEAR, with no blocking point: the fixes for all five round 3 blocking points held against their sources, and on Cabasilas each claim sits with its own witness. It found six minor points, all wording or line numbers with the substance right: "leave the world" heard as "die" after a cut, "his sermons" binding to Jugie, two pronouns, three long sentences on the Clareno card, and the Gass witness lines. All six were applied as worded. As in the earlier cap rulings, the ruling is treated as met, since a minor finding needs no further round.
+
+## 2026-11-15 — Who profiles, era 6 batch 2: eight profiles, eight majors, Cabasilas's see contested (coordinator, under Mark's ruling of 2026-11-14 that eras 4 to 7 are built in full)
+
+**The batch.** The second era 6 batch, eight WHO rows of `Build/Ministry/Operations/Audits/2026-11-12_who-scan-era6/Who_Scan_Era6.md`: Catherine of Siena, Bridget of Sweden, Bernardino of Siena, Angelo Clareno, William of Ockham, Gregory Palamas, Gregory of Sinai and Nicholas Cabasilas. None was written before, and none is a census person entry. Opus drafted every profile to `Who_Profile_Pattern.md`, per Mark's era 1 batch 1 ruling, "Opus for all". The first worker drafted the batch and ran round 1. A second worker took over at a clean break, after the first worker's context passed 646k tokens, and ran rounds 2 and 3, the cap check and the merge.
+
+**Coordinator and worker calls (not Mark's words; Mark may overrule).**
+- **Major marks** (coordinator). All eight are major, as the scan's Major column says. The tradition caps hold: Hesychasm & the Palamite Synthesis 3, The Latin Papal Church 2, Observant Reform 1, Fraticelli 1, The Franciscan Order 1. The river caps do not all hold. Latin West & Catholicism now holds 13 era 6 majors against the 5 the map shows, and which five it shows is Mark's pick (Open-Gaps 267). The briefs run 405 to 407 words, about 2:30. The 2:30 is a cap, not a target.
+- **Contested points told in place.** The History of the Seven Tribulations is Ehrle's attribution to Clareno, tagged Dominant Modern Reconstruction, with Affò, Richard and Tocco doubting it. Clareno's death year is Ehrle's reckoning from a note dated to the Friday after Pentecost. Bridget's years in Rome and the stigmata of Catherine are told with their witnesses. Whether Cabasilas became archbishop of Thessalonica is Contested: Fabricius and Gass say he did, and Jugie finds no serious proof.
+- **Hostile and late witnesses** are named and marked: Gregoras against Palamas; Glassberger, an Observant friar writing in 1508, on Bernardino's accusers; Covel, writing in 1722 against prayer to the saints, on Catherine's canonization.
+- **Names, ids and traditions.** `catherine-of-siena`, `bridget-of-sweden`, `bernardino-of-siena`, `angelo-clareno`, `william-of-ockham`, `gregory-palamas`, `gregory-of-sinai`, `nicholas-cabasilas`; the traditions are the census's names. Angelo Tancredi, the Mansi rector "Willielmus de Okam" of 1311 and Nicholas of Ockham are different men and are kept apart.
+- **American spelling** in the new prose (Decision-Log 77), "Order of St Savior" included; quotations keep their own spelling.
+
+**Review.** Three rounds by fresh Opus agents that had not seen the drafting, at full effort in every round (Mark, relayed by the coordinator: "dont sacrafice quality, expecially the quality of writing"), then the cap check.
+
+Round 1, the full checklist review in four parts, found 24 blocking and 106 minor points, all applied. Among the blocking points were a reversed source, prefaces cited for the wrong work, a false absence, misread notes and a dropped condition.
+
+Round 2, a targeted recheck in four parts, found 6 blocking and 54 minor points, all applied. All six blocking points came from round 1's fix wording:
+- a death month moved onto Bernardino's sending to L'Aquila;
+- Ehrle's hedge on Clareno's late move dropped;
+- Raynaldus's "seems inclined" dropped on the 1331 bull;
+- Bridget's Rome years given to Cumming, who does not reckon them;
+- on Cabasilas, the narrator's who-line put inside Kantakouzenos's words, and a year put in Gass's mouth.
+
+Round 3 found 5 blocking and 5 minor points, and stopped for the cap ruling above. Every quotation in the briefs and cards (18) was re-checked word for word against its vendored file in each round and by script before merging. No paid calls were made.
+
+**What is still open.** Open-Gaps 267, "Era 6 Who batch 2" (2026-11-15).
+
+The approved files are in `Who-Profiles/era6/batch2/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-14_who-profiles-era6-batch2/`. No census, record or site change is made, so there is no data release number. Approved to proceed (coordinator, 2026-11-15; Mark may overrule).
+
+## 2026-11-15 — Cap ruling: ten round 3 fixes and one check, era 5 councils
+
+**Cap ruling (Mark, 2026-11-15, his pick relayed by the coordinator: "Fix + one check (Recommended)").** Round 3, the last review round of the era 5 council profiles, left one blocking point, two substantial points and seven minor ones. All three of the larger points came in with a pass after round 2 that split entry sentences over 25 words; none was in a brief:
+- **Lyon 1274, entry `outcome[7]`.** The split credited Clement V's grant of 1309 to the Oxford Franciscans to Glassberger. It now cites Clement V's own letter in the Franciscan bullarium, and "(Glassberger)" stands on the Boniface VIII sentence only.
+- **Lyon 1274, entry and Open-Gaps.** The interpreter is "John of Balastri", as Glassberger names him; "Parastron" came from a Ducange note no claim cites. A records claim for his part was added.
+- **Lateran IV, entry `outcome[7]`.** "Nearly six centuries after the council", where the split had made it read as six centuries after the Pedalion's printing in 1800.
+
+All ten fixes were applied as the reviewers worded them. One targeted Opus check of only those strings followed, by an agent that had not seen the drafting or the earlier rounds. The check does not count toward the cap: `Build/Ministry/Operations/Audits/2026-11-15_council-profiles-era5/R4_cap-check.md`. Its verdict was CLEAR for all ten. It found one minor point outside them, a citation range one line short in the Clermont records (Acta Sanctorum, June V, l.148148-148150), which was corrected. The cap ruling is met.
+
+## 2026-11-15 — Major councils, era 5: three profiles (coordinator, under Mark's lifting of the council hold, 2026-11-14)
+
+**Decided.** Mark lifted the council hold on 2026-11-14 ("lets do era 4 then 5 then 6 counsils"; "lift all holds"), recorded in "Major councils, era 4". This entry is era 5. The Library fill stays paused until Mark's weekly reset. Mark's standing words for this work: "dont sacrafice quality, expecially the quality of writing." Every review round ran at full effort.
+
+**The three councils.** They are the era 5 rows of the councils scan (`Build/Ministry/Operations/Audits/2026-11-12_major-events-scan/Councils_Scan.md`). Each is written to `Council_Profile_Pattern.md`, in the form of the era 1 to 4 councils.
+- **Clermont 1095**: 400 words, FK 7.08, reading ease 68.77. The acts are not held. Two canons reach us in Mirbt, and four more in the record of the council of Beauvais (1114). The scene is Baldric of Bourgueil's, an eyewitness on the side of the call, and William of Tyre's later speech is set beside it. Lambert of Saint-Omer gives 310 bishops and the year 1096. The armies' arrival in the East is told through Anna Komnene, who traces it to Peter the Hermit. The low grade comes from short spoken lines; joining them would run sentences past 25 words, so they were left, as with Whitby.
+- **Lateran IV 1215**: 400 words, FK 8.13, reading ease 62.84. No account from inside the sessions is held, so the scene is Dominic setting out with Fulk of Toulouse, from Jordan of Saxony. The canons are told from Mirbt's and Denzinger's extracts. Hethum of Korykos gives the count, and Jacques de Vitry the Maronite patriarch's coming. Joachim of Fiore speaks in his own words from the Psalterium and his letter of 1200. Canon 68 is not held, so the brief does not tell it.
+- **Lyon 1274**: 392 words, FK 8.02, reading ease 64.06. Three texts of the acts are held in extract. The scene is Glassberger's (1508), a Franciscan chronicler. The Greek side reaches us from about 1300 on: Nikephoros Kallistos's list of patriarchs, Gennadios Scholarios, and the chronicle printed under Sphrantzes's name. The close is the First Vatican Council's use of the Greeks' profession, from Schaff's English.
+
+**Worker's calls under the pattern (not Mark's words; Mark may overrule).**
+- **Rivers as the scan gives them**, as every era 3 and era 4 entry does: Clermont, Latin West; Lateran IV, Latin West and Syriac East; Lyon, Greek East and Latin West. Clermont's reach to Byzantium is told in its outcome and its Byzantine link.
+- **The Who click follows the era 3 and era 4 rule.** Writers who only report a council (Anna Komnene, William of Tyre, Ibn al-Athir at Clermont) are in the record and sources. Henry IV and Gregory VII, background to Clermont, are not on its click.
+- **No Roman gap.** `latin-papal-church-gregorian` covers 1049-1300. Other parties with no census tradition at the date are logged in Open-Gaps 268.
+- **The Waldensians are not linked to Lyon 1274.** The scan's link was a place-name match, and no held line ties them to the council.
+- **The Lateran IV close stays on Jacques de Vitry at Innocent's body.** A close on Trent was offered as optional; era 4 accepted sourced closes of this kind.
+- **Joachim of Fiore filed as later narrative with a note**, like Columbanus for Whitby. The pattern gap is logged again.
+- **No wanted rows.** The held sources carry all three profiles; what is not held is listed in Open-Gaps 268 for the Library thread.
+- **American spelling** in the profiles' own prose (Decision-Log 77); quotations keep their own spelling.
+- **Opus drafted every profile.** Opus research agents first gathered a sourced dossier for each council, and Opus agents wrote the entries and records from them.
+
+**Review.** Three rounds by fresh Opus agents, one per council, none of whom had seen the drafting, at full effort in every round.
+- **Round 1**, the full review in three parts, found 10 blocking, 14 substantial and 38 minor points. Most of the blocking points were false absences: Lambert's count and date at Clermont, the further Clermont canons at Beauvais, Gerard de Frachet putting Francis at Lateran IV, a Cathar text held, a second copy of canon 13, and the Greek witnesses dated to the 1400s when the patriarch list is from about 1300. Also: the wrong work for Joachim's "branches on one root", the wrong author for the second Life of Dominic, an unsupported "not at the council" for Vitry, and a false "no held witness" on Michael VIII's motive (the Recueil editors give it).
+- **Round 2**, a targeted recheck, found 1 blocking, 3 substantial and 12 minor. The blocking point was a false absence of any Waldensian voice on Lateran IV: Jean Léger (1669) names it. Two of the substantial points were Lyon's decree on the mendicant orders, misread from Lea and Salimbene. The third was a canon against lay investiture at Clermont: its heading in the Beauvais record names no pope, and a second council of Clermont (about 1077) is held. The brief now tells a canon the record gives to Urban.
+- **Round 3**, the last, found 1 blocking, 2 substantial and 7 minor, all in entry text. The three larger points went to Mark, and his ruling is recorded in the cap ruling entry above.
+
+Every quotation was re-checked word for word against its vendored file. No paid calls were made.
+
+**What is still open.** Open-Gaps 268, "Major councils, era 5" (2026-11-15). The councils of era 6 are next, as a separate job.
+
+The files are in `Council-Profiles/era5/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-15_council-profiles-era5/`. No census, record or site change is made, so there is no data release number; councils reach the site through the map build. Approved to proceed (coordinator, 2026-11-15; Mark may overrule).
+
+## 2026-11-15 — Cap ruling: one check of the round 3 fixes, era 4 Who batch 9
+
+**Cap ruling (2026-11-15, Mark: "Write it + one check (Recommended)", picked from options, relayed by the coordinator).** The third and last review round of era 4 Who batch 9 found 1 blocking and 29 minor points. The blocking point, R3-B1, was a close-out record, not a fault in any brief or card: Open-Gaps 269 cited this batch's Decision-Log entry before it was written. Neither part's reviewer found a wrong fact, quotation or date in any brief or card, or a contested point told as settled. The minor points were wording, line-range and record fixes, among them:
+- **John of Damascus.** The card now says the copy used here reads 750 for Le Quien's second speech, with no claim about his printed page; the records now give Fabricius's own reading of "Mansur" as the grandfather's name.
+- **Clement of Ohrid.** The brief explains "the Third Hour" as an hour of prayer, and gives Miklosich and Ginzel an identifier.
+- **Theodore, Cyril and Methodius, and Anskar.** Fabricius, Ginzel and Dümmler are named with an identifier at first mention, and Anskar's brief gives Adam of Bremen's time.
+- **Rimbert.** The card states the Life of Rimbert's rule before it speaks of "that rule".
+
+Mark ordered three things: write the batch's Decision-Log entry (below), apply the minor points as worded, and run one targeted Opus check of only the changed strings, by an agent that had not seen the drafting or the earlier rounds. The check also read the two new Decision-Log entries and Open-Gaps 269's reference to the batch entry. The check does not count toward the cap: `Build/Ministry/Operations/Audits/2026-11-15_who-profiles-era4-batch9/R4_cap-check.md`. This entry and the batch entry below resolve R3-B1. Its verdict was NOT CLEAR, with no blocking point: every round 3 fix held against its source. It found 14 minor points: three unclear references or long sentences in the Theodore, Anskar and Clement briefs; two line ranges or witnesses in the records; "printed" and an absence note in Open-Gaps 269; nested parentheses in the README; and four points in these two entries and R3_changes.md. All 14 were applied as worded. As in the earlier cap rulings, the ruling is treated as met, since a minor finding needs no further round.
+
+## 2026-11-15 — Who profiles, era 4 batch 9: seven profiles, five majors, Clement kept as a Who, the Kyiv pair placed in era 5 (coordinator, under Mark's ruling of 2026-11-14 that eras 4 to 7 are built in full)
+
+**The batch.** The first batch of the re-scored era 4 rows, the batch plan's batch 9 in `Build/Ministry/Operations/Audits/2026-11-14_who-rescore-eras4-5/Rescore.md`: John of Damascus, Theodore the Studite, Cyril and Methodius, Antony and Theodosius of the Kyiv Caves, Anskar, Rimbert and Clement of Ohrid. None was written before. John of Damascus is a live census person entry and is not changed; the other six are not in the census. Opus drafted every profile to `Who_Profile_Pattern.md`, per Mark's era 1 batch 1 ruling, "Opus for all". The first worker drafted the batch and ran rounds 1 to 3. A second worker took over at a clean break, after the first worker's context passed 400k tokens, and applied round 3, ran the cap check and merged.
+
+**Mark's ruling on Clement of Ohrid (2026-11-15, relayed by the coordinator).** Clement was on the re-score's "needs-ruling" list, since his life rests on one Life whose author is disputed. Its heading names Theophylact of Ohrid, who died in 1107. Franz Miklosich holds it a tenth-century disciple's work, and Johann Ginzel thinks Theophylact reworked older notes. Patrologia Graeca 126 leaves it to the reader, and Patrologia Graeca 111 lists it as anonymous, of about the middle of the tenth century. Mark picked "Keep as Who, dispute told (Recommended)". Clement stays a Who, the dispute is told in the brief and the card, and the needs-ruling is closed.
+
+**Coordinator and worker calls (not Mark's words; Mark may overrule).**
+- **Major marks** (coordinator, 2026-11-15), as the re-score proposed: John of Damascus, Theodore, Cyril and Methodius, Antony and Theodosius, and Anskar. Their briefs run 405 to 406 words, about 2:30. The 2:30 is a cap, not a target, and the two pairs run inside it ("Pairs up to 2:30", Mark, 2026-11-14). Rimbert and Clement are not major, at 365 and 370 words.
+- **Antony and Theodosius in era 5** (coordinator, 2026-11-15). They go on the map in era 5, in Kievan Rus' Christianity, 1054-1240, with 1062 as the active year: by Nestor's account, the year Theodosius moved the monastery above ground. Their files stay in this era 4 batch. The ruling applies Mark's rule that a name sits at the dates the person was active (Decision-Log, "Map Who: how many names, which names, and where they sit", 2026-11-11). The re-score had placed them in Kievan Rus' Christianity of 988 to 1054. Their card gives both traditions, the later first.
+- **Batch 10 split** (worker, told to the coordinator, 2026-11-15). The plan's batch 9 had nine entries. Stephen the Younger and Nikephoros I, who share one Patrologia Graeca volume, move to batch 10, to hold the writing quality.
+- **The river counts.** By the census Who rows, Greek East & Orthodoxy era 4 held five majors and Latin West & Catholicism ten. John of Damascus, Theodore, and Cyril and Methodius make the Greek East eight, and Anskar makes the Latin West eleven. By era 4 card traditions the counts are nine and ten. Which rule counts is for the map build slice and Mark.
+- **Contested points told in place.** The cut hand of John of Damascus is the late Life's story, with Fabricius and Leo Allatius on either side. Whether "Mansur" was a family name or an insult is given to each witness. The authorship of Clement's Life is told as above. Where the Russian Primary Chronicle and Nestor's Life of Theodosius differ, the Kyiv card gives both.
+- **Names and ids.** `john-of-damascus`, `theodore-the-studite`, `cyril-and-methodius`, `antony-and-theodosius-of-the-kyiv-caves`, `anskar`, `rimbert`, `clement-of-ohrid`. The traditions are the census's names.
+- **American spelling** in the new prose (Decision-Log 77); quotations keep their own spelling.
+
+**Review.** Three rounds by fresh Opus agents that had not seen the drafting, at full effort in every round (Mark, relayed by the coordinator: "dont sacrafice quality, expecially the quality of writing"), then the cap check.
+
+Round 1, the full checklist review in three parts, found 14 blocking and 66 minor points, all applied except optional ones. Among the blocking points:
+- Stephen the Younger's words were given to Stephen the Deacon.
+- The condition on Theodore's slave rule was dropped.
+- A held Migne dating was left out of the dispute over Clement's Life, and his burial date was told as his death.
+- On the Kyiv card, a contested point was told as settled. On the Anskar card, Robinson was misread on his birth.
+- The README's river counts disagreed with the census.
+
+Round 2, a targeted recheck in two parts, found 7 blocking and 34 minor points. All were applied except two that were left, and the records half of one that was missed; round 3 took up all three. Five of the seven blocking points came from round 1's own fix wording. They were a death turned into a fall, a "their own time" that moved Gauderich of Velletri into the Bollandists' century, a contested point put back on a card as settled, "two princes" naming the wrong pair, and Robinson's argument on Rimbert misstated.
+
+Round 3 found 1 blocking and 29 minor points, and the cap ruling above settles them. Every quotation in the briefs and cards was re-checked word for word against its vendored file in each round and by script. The two misses are scan marks the README names. No paid calls were made.
+
+**What is still open.** Open-Gaps 269, "Era 4 Who batch 9" (2026-11-15).
+
+The approved files are in `Who-Profiles/era4/batch9/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-15_who-profiles-era4-batch9/`. No census, record or site change is made, so there is no data release number. Approved to proceed (coordinator, 2026-11-15; Mark may overrule).
