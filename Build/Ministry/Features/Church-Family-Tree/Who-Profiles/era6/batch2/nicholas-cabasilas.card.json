@@ -29,7 +29,7 @@
   "legacy": {
     "traces": [
       "At the Council of Trent in 1562, Sforza Pallavicino writes in his history of the council, the archbishop of Granada cited his first book on the Mass for the view that Christ gave the apostles the power of priesthood at Pentecost.",
-      "Gass writes that Mark of Ephesus, the Greek spokesman at Florence, drew heavily on him and copied him.",
+      "Gass writes that Mark of Ephesus drew heavily on him and copied him. Louis Petit, editing the Florence documents on purgatory in 1920, names Mark and Bessarion as the only two Greek prelates charged with answering the Latins at Ferrara.",
       "His encomium of St Theodora of Thessalonica was printed in the Acta Sanctorum for 5 April, with the commentary of the Bollandist Daniel Papebroch."
     ],
     "remembered": [
@@ -40,16 +40,16 @@
     ]
   },
   "uncertain": [
-    "When he became archbishop of Thessalonica, and whether he did. Fabricius says he succeeded his uncle Nilus in that office, and Migne heads him as metropolitan of Thessalonica. A record of the church of Thessalonica, quoted by Gass, calls him its most holy metropolitan. Gass presumes he took the see some years after 1353 and finds him named archbishop no earlier than 1354. Kantakouzenos calls him still a layman in 1353. Symeon of Thessalonica praises him and names no see. No witness gives the date or tells how he took office.",
+    "When he became archbishop of Thessalonica, and whether he did. Fabricius says he succeeded his uncle Nilus in that office, and Migne heads him as metropolitan of Thessalonica. A record of the church of Thessalonica, quoted by Gass, calls him its most holy metropolitan. Gass presumes he took the see only some years after the synod of 1351, and finds him named archbishop no earlier than 1354. Kantakouzenos calls him still a layman in 1353. Symeon of Thessalonica praises him and names no see. No witness gives the date or tells how he took office.",
     "How he was Nilus's nephew. Fabricius makes him the son of Nilus's brother. Gass, after George Phrantzes, makes him the son of Nilus's sister. Phrantzes calls Nicholas's mother the sister of three archbishops, and says her brother Kabasilas was archbishop at Thessalonica, without a first name.",
     "Whether Kabasilas of the sakellion, a church office, is Nicholas. Kantakouzenos names a church official of that title as an envoy in 1343 and 1347, without a first name. Fabricius, Pontanus and Gass take him for Nicholas. In 1353 Kantakouzenos counts that Kabasilas among the leading clergy, a few pages before he calls Nicholas a layman.",
-    "Whether Nikephoros Gregoras's old friend Cabasilas is Nicholas. Gregoras names only a Cabasilas, in deep old age in 1351. Boivin, who edited Gregoras's history, and Gass take him for Nicholas.",
-    "Which writings against the Latins are his. Fabricius says not all agree that he wrote against them or against Thomas Aquinas. Gass gives those titles to Nilus. Louis Petit, editing the Florence documents on purgatory in 1920, notes that a tract on purgatory has been given to Nilus, to Nicholas and to Barlaam of Calabria. He finds it the Greeks' joint answer at Ferrara, written by Mark of Ephesus and Bessarion."
+    "Whether Nikephoros Gregoras's old friend Cabasilas is Nicholas. Gregoras names only a Cabasilas, in deep old age in 1351. Boivin, in his notes on Gregoras's history, and Gass take him for Nicholas.",
+    "Which writings against the Latins are his. Fabricius says not all agree that he wrote against them or against Thomas Aquinas. Gass gives those titles to Nilus. Louis Petit notes that a tract on purgatory has been given to Nilus, to Nicholas and to Barlaam of Calabria. He finds it the Greeks' joint answer at Ferrara, written by Mark of Ephesus and Bessarion."
   ],
   "sources": {
     "ownWords": [
       {
-        "title": "Commentary on the Divine Liturgy, The Life in Christ, the sermon against usurers and the encomium of St Theodora, with the notice from Fabricius, in Patrologia Graeca 150",
+        "title": "Commentary on the Divine Liturgy, The Life in Christ, the sermon against usurers and the encomium of St Theodora, in Patrologia Graeca 150",
         "author": "Nicholas Cabasilas; J.-P. Migne (ed.)",
         "date": "1865",
         "language": "Greek and Latin",
@@ -64,6 +64,13 @@
       }
     ],
     "about": [
+      {
+        "title": "Notice from Fabricius's Bibliotheca Graeca, in Patrologia Graeca 150",
+        "author": "J. A. Fabricius, in Harles's edition; J.-P. Migne (ed.)",
+        "date": "1865",
+        "language": "Latin",
+        "file": "cic/texts/palamas_opera-omnia-pg150-grc-lat_migne1865.txt"
+      },
       {
         "title": "Historiarum libri IV, volume 2",
         "author": "John Kantakouzenos; Ludwig Schopen (ed.)",

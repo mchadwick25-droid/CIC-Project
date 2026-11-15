@@ -894,7 +894,7 @@
    },
    {
     "claim": "Carlini's book dated 1912: title page 'BOLOGNA DITTA NICOLA ZANICHELLI 1912'.",
-    "witness": "CARL (carlini_fra-michelino-e-la-sua-eresia-ita-lat_1912.txt) l.1-6 (header, quoting the title page)",
+    "witness": "CARL (carlini_fra-michelino-e-la-sua-eresia-ita-lat_1912.txt) l.195-198 (title page)",
     "formation_confidence": "Documented"
    },
    {
@@ -913,7 +913,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Letters ordering his arrest to bishops and lords in Germany and England: 7 March 1329 to the German bishops; 2 April 1329 to Rudolf of Baden and other lords ('Marchionem de Baden aliosque nobiles'); 5 April 1329 to the English bishops, 'Episcopos Angliae monet, ut Guilelmum de Okam capiant', and the King of England asked to help 'in capiendo fr. Guilelmo de Okam'.",
+    "claim": "Letters ordering his arrest to German bishops and lords, the English bishops and the King of England: 7 March 1329 to the German bishops; 2 April 1329 to Rudolf of Baden and other lords ('Marchionem de Baden aliosque nobiles'); 5 April 1329 to the English bishops, 'Episcopos Angliae monet, ut Guilelmum de Okam capiant', and the King of England asked to help 'in capiendo fr. Guilelmo de Okam'.",
     "witness": "BUL5 (bullarium-franciscanum_v5-lat_eubel1898.txt) l.58508-58512, 59017-59025, 3451, 3455, 59050-59072, 59248-59253",
     "formation_confidence": "Documented"
    },
@@ -938,8 +938,8 @@
     "formation_confidence": "Contested"
    },
    {
-    "claim": "Eubel edited the volume in 1898: Bullarium Franciscanum V, ed. Conrad Eubel, Rome 1898 (file header and title page).",
-    "witness": "BUL5 (bullarium-franciscanum_v5-lat_eubel1898.txt) l.1-10 (header)",
+    "claim": "Eubel edited the volume in 1898: Bullarium Franciscanum V, ed. Conrad Eubel, Rome 1898; title page 'A CONRADO EUBEL ... ROMAE, MDCCCXCVIII'.",
+    "witness": "BUL5 (bullarium-franciscanum_v5-lat_eubel1898.txt) l.70-77 (title page)",
     "formation_confidence": "Documented"
    },
    {
@@ -963,7 +963,7 @@
     "formation_confidence": "Widely Accepted"
    },
    {
-    "claim": "The tract (De imperatorum et pontificum potestate): 'Fateor plane, quod mihi veraciter potest imponi, quod ab oboedientia ecclesie Avinionice et a societate multitudinis fratrum minorum me subtraho ex nulla alia causa, nisi quia liquido mihi constat, quod prefata ecclesia Avinionica errores et hereses manifestas tenet'; 'Persecutioni igitur scienter me ingerens et eam fugere non intendens'. Told in modern words, no quotation marks; 'most of his brother friars' renders 'a societate multitudinis fratrum minorum'. He keeps Christ's leave to flee from one city to another ('quamvis forte si esset necesse ... uterer licentia Christi'); the brief says only that he brought persecution on himself knowingly.",
+    "claim": "The tract (De imperatorum et pontificum potestate): 'Fateor plane, quod mihi veraciter potest imponi, quod ab oboedientia ecclesie Avinionice et a societate multitudinis fratrum minorum me subtraho ex nulla alia causa, nisi quia liquido mihi constat, quod prefata ecclesia Avinionica errores et hereses manifestas tenet'; 'Persecutioni igitur scienter me ingerens et eam fugere non intendens'. Told in modern words, no quotation marks; 'most of his brother friars' renders 'a societate multitudinis fratrum minorum'. He keeps Christ's leave to flee from one city to another ('quamvis forte si esset necesse ... uterer licentia Christi'); the brief says only that he walked into persecution knowingly.",
     "witness": "SCHOLZ (scholz_unbekannte-kirchenpolitische-streitschriften-v2-lat_1914.txt) l.25859-25868",
     "formation_confidence": "Documented"
    },
@@ -1510,8 +1510,8 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "The notice from Fabricius's Bibliotheca Graeca (Harles's edition): 'Nicolaus Cabasila, Nili Cabasilae Thessalonicensis ex fratre nepos, ejusdemque, defuncti vita, in munere successor fuit. Cum patruo saepe confundi solet. Claruit circa a. 1350 [OCR 4550]'; 'Vir fuit omnino doctus'. Migne: 'ACCURANTE J.-P. MIGNE' (l.161, 195); heading 'Fabric. Harl. Bibliotheca Graeca, t. X, p. 159' (l.26062).",
-    "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.26060-26072, 26083",
+    "claim": "The notice from Fabricius's Bibliotheca Graeca (Harles's edition): 'Nicolaus Cabasila, Nili Cabasilae Thessalonicensis ex fratre nepos, ejusdemque, defuncti vita, in munere successor fuit. Cum patruo saepe confundi solet. Claruit circa a. 1350 [OCR 4550]'; 'Vir fuit omnino doctus'. Migne: 'ACCURANTE J.-P. MIGNE' (l.161, 195); heading 'Fabric. Harl. Bibliotheca Graeca, t. X, p. 159' (l.26062). Year: 'CL (1865)' in the list of Migne's volumes (PG161 l.110885); this scan's title page OCR reads '1863' (PG150 l.261).",
+    "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.26060-26072, 26083, 261; PG161 (bessarion_opera-omnia-pg161-grc-lat_migne1866.txt) l.110885",
     "formation_confidence": "Widely Accepted"
    },
    {
@@ -1623,13 +1623,18 @@
     "claim": "Anti-Latin writings: Fabricius 'num contra S. Thomam Aquinatem scripserit, non omnes consentiunt'; Gass gives the titles to Nilus; Petit: the purgatory tract, once given to Nilus, Nicholas or Barlaam, is the Greeks' joint answer at Ferrara, by Mark of Ephesus and Bessarion ('cette malencontreuse attribution a Barlaam'; 'la majeure partie de cet opuscule est empruntee, mot pour mot, a Marc d'Ephese').",
     "witness": "PG150 (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.26084-26086; GASS (cabasilas_mystik-vom-leben-in-christo-grc-deu_gass1849.txt) l.1839-1842; PO15 (patrologia-orientalis-tomus15_petit-documents-concile-de-florence-purgatoire-grc-fra_graffin-nau1927.txt) l.513-517, 540-544, 584-587, 630-640",
     "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Petit: Mark of Ephesus and Bessarion 'avaient seuls recu mission de repondre aux Latins' at Ferrara; the card names them in its legacy entry, after Gass's line on Mark.",
+    "witness": "PO15 (patrologia-orientalis-tomus15_petit-documents-concile-de-florence-purgatoire-grc-fra_graffin-nau1927.txt) l.627-641",
+    "formation_confidence": "Documented"
    }
   ],
   "contested_claims": [
    {
     "claim": "When he became archbishop of Thessalonica, and whether he did",
     "sides": [
-     "Yes: Fabricius (PG150 l.26071-26072); Migne's heading (PG150 l.343-346); Gass, presuming the see some years after 1353, not named archbishop before 1354 (GASS l.1373-1375, 1781-1785); the Thessalonica Synodikon via Le Quien (GASS l.1884-1888, 1919-1938)",
+     "Yes: Fabricius (PG150 l.26071-26072); Migne's heading (PG150 l.343-346); Gass, presuming the see only some years after the synod of 1351, and not named archbishop before 1354 (GASS l.1373-1375, 1773-1786); the Thessalonica Synodikon via Le Quien (GASS l.1884-1888, 1919-1938)",
      "A date and a silence: Kantakouzenos calls him still a layman in 1353 (CANT3 l.16601-16602); Symeon names no see (PG155 l.9228-9233)"
     ]
    },
