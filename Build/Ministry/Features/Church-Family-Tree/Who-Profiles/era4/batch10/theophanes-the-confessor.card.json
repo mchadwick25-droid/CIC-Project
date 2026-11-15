@@ -1,0 +1,89 @@
+{
+  "name": "Theophanes the Confessor",
+  "otherNames": [
+    "Theophanes, abbot of Agros, the form of the Chronographia's own title",
+    "Theophanes of Sigriane, the form in Johann Fabricius's notice",
+    "Megalagrites, of the Great Field, a form Jacques Goar quotes"
+  ],
+  "knownFor": "Monk and abbot of Agros in Sigriane who wrote the Chronographia, a year-by-year history of the empire and the church from the emperor Diocletian to the emperor Michael and his son Theophylact. His Life says he defied the emperor Leo the Armenian over the holy images and died in exile on Samothrace.",
+  "dates": "Born about 751 or 752 by Jacques Goar's reckoning from the winter of the ice; about 744, Goar says, by Theophanes's own figures. Held two years in prison, by his Life, then dead after twenty-three days in exile, in 818 by Goar's count, or about 820 by the Bollandists'. Honored on 12 March, the day of his Office",
+  "place": "Constantinople, the imperial city his Life praises as his home without naming it, where he saw the ice; Sigriane, which Goar, after Leo Allatius, places in Asia near Cyzicus, with the monastery of Polychronius, where he became a monk, and Agros, his own house; the island of Calonymus, where he built a monastery and, by the notice in his Office, copied books for six years; Nicaea, in 787; the Eleutherius palace, where the Life says Leo held him; Samothrace, where he died",
+  "tradition": "Iconophile Byzantine Monasticism",
+  "role": "Monk and abbot of Agros; author of the Chronographia",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Chronographia",
+      "about": "carried on, its preface says, from the chronology of his friend George the Syncellus, who had served the patriarch Tarasios and reached the time of Diocletian. Its title runs from Diocletian's first year to the second year of Michael and Theophylact, the years of the world 5777 (the scan reads 9777) to 6305 by the Alexandrian count. Goar notes that Anastasius the Librarian says it reached Leo, and that Baronius ends it at the fall of Adrianople in 813. Held in Greek with Goar's Latin"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "François Combefis, who saw Goar's work through the press, says that later Greek and Latin writers of short histories mostly retold Theophanes in other words, rather than adding their own.",
+      "Anastasius the Librarian drew on the Chronographia, which he says runs to Leo, for a church history in Latin. He wrote it while Ignatius still led the church of Constantinople.",
+      "The chronicle that continues Theophanes, written at the order of the emperor Constantine Porphyrogenitus, begins where he stopped, with Leo the Armenian."
+    ],
+    "remembered": [
+      "Joseph Genesios tells how, as the patriarch Nikephoros of Constantinople sailed into exile, Theophanes greeted him from a shore with candles and incense. Nikephoros raised his hands to him, Genesios says, and named him the holy father and confessor Theophanes of Agros. The chronicle that continues Theophanes tells the same, as something people say.",
+      "Anastasius the Librarian says his written Life told how he sold great estates, served as abbot of Agros, shone with miracles and died a confessor, and that it made this known through Byzantium and the lands around it.",
+      "A catalogue of Theodore the Studite's letters, which gives only titles and opening words, lists two to Theophanes, abbot of Agros, one addressed to him as abbot and confessor."
+    ]
+  },
+  "uncertain": [
+    "Who wrote the Life and Eulogy, and when. It names no author and says only that many urged its writer on. Jacques Goar calls it the work of Symeon Metaphrastes, or, in Baronius's judgment, of Theodore the Studite. Johann Fabricius says some learned men give it to Theodore. François Combefis, who printed the Greek from a manuscript at Saint Mark's in Venice, says the Latin pointed to a fine work that Anastasius the Librarian had also enjoyed. Anastasius, whom Godfrey Henschen calls almost his contemporary, knew of a written Life while Ignatius still led the church of Constantinople. The held copy lacks one leaf, and has a gap after his father's death.",
+    "His birth year. No early source gives it. Goar dates the winter of the ice, which Theophanes sets in the year of the world 6255, to 755 by Theophanes's own figures and to 763 by better ones. He reckons Theophanes about twelve then, and so born about 744 by his own figures, or better 751 or 752.",
+    "His marriage. The notice in his Office says he was married at twelve and lived with his wife eight years, and that Leo IV and his father-in-law died in his twenty-first year. Goar thinks the first false and calls the second an error. The notice names his wife Megalo (the scan reads Megalus), renamed Irene in her convent on Principe; the Life gives no name.",
+    "His death year. The Life gives two years of prison and twenty-three days on Samothrace, but no year. The year 818, in Leo's fifth year, is Goar's, argued against Baronius, who Goar says split Theophanes into two men. The Bollandists, in their commentary on Nikephoros of Constantinople, put his death about 820, while Nikephoros was still in exile. The scan reads 720, a year that clause rules out.",
+    "The summons. The Life says Leo offered rewards and threats through a messenger. The notice says Leo threatened to hang him, and names the man who argued with him as John, a soothsayer. Both honor Theophanes as a saint and are hostile to Leo, whom the Life calls the wickedest of men.",
+    "His name. The Life's Latin heading calls him Theophanes, also called Isaac. Goar says it should read Theophanes son of Isaac.",
+    "The Chronographia's tables of years. Henschen holds that the year tables in the manuscripts are full of errors and are not Theophanes's own. He wonders that Goar and Combefis could think them his. Goar guesses that the errors came from Theophanes following different authors and their figures, and not revising his work under persecution."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Chronographia, with its preface (Patrologia Graeca 108)",
+        "author": "Theophanes the Confessor; Jacques Goar (ed.)",
+        "date": "1863",
+        "language": "Greek and Latin",
+        "file": "cic/texts/theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Life and Eulogy of Theophanes, his Office and its notice for 12 March, with the prefaces of Jacques Goar and François Combefis and Godfrey Henschen's dissertation (Patrologia Graeca 108)",
+        "author": "Unnamed author; J.-P. Migne (ed.)",
+        "date": "1863",
+        "language": "Greek and Latin",
+        "file": "cic/texts/theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt"
+      },
+      {
+        "title": "Preface to the Historia ecclesiastica (Patrologia Graeca 108)",
+        "author": "Anastasius the Librarian",
+        "date": "1863",
+        "language": "Latin",
+        "file": "cic/texts/theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt"
+      },
+      {
+        "title": "The chronicle that continues Theophanes, and Joseph Genesios's history (Patrologia Graeca 109)",
+        "author": "Theophanes Continuatus; Joseph Genesios",
+        "date": "1863",
+        "language": "Greek and Latin",
+        "file": "cic/texts/theophanes-continuatus_historiae-byzantinae-scriptores-post-theophanem-pg109-grc-lat_migne1863.txt"
+      },
+      {
+        "title": "Works of Theodore the Studite, with Johann Fabricius's notice and a catalogue of his letters (Patrologia Graeca 99)",
+        "author": "J.-P. Migne (ed.)",
+        "date": "1860",
+        "language": "Greek and Latin",
+        "file": "cic/texts/theodore-studite_opera-omnia-pg99-grc-lat_migne1860.txt"
+      },
+      {
+        "title": "Commentary on the Life of Nikephoros of Constantinople (Patrologia Graeca 100)",
+        "author": "The Bollandists",
+        "date": "1860",
+        "language": "Latin",
+        "file": "cic/texts/nikephoros-cp_opera-with-vita-stephani-iunioris-pg100-grc-lat_migne1860.txt"
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Stephen the Younger",
+  "otherNames": [
+    "Stephanus Junior, the form of the Latin Life",
+    "Stephen of Auxentius, as the Life has Constantine V name him"
+  ],
+  "knownFor": "A monk of Mount Auxentius, in Bithynia, east of Constantinople, who refused to sign the ruling of the council of 754 against the holy images. His Life says he trod on a coin bearing the emperor's image before Constantine V, and was dragged to his death through the city's streets.",
+  "dates": "Died on 28 November, in his fifty-third year, by his Life, which gives no year. Theophanes the Confessor gives 20 November, in the fourth indiction. Johann Fabricius gives the year 766, and the editors of the Patrologia Graeca's Theophanes 767. The Life gives his ages: 16 when he took the monk's habit, 31 when he shut himself in his cell, 42 when he moved to the summit. It sets his parents' story in the first year of the emperor Anastasius II, which the edition's bracket gives as 713",
+  "place": "Constantinople, where the Life says he was born and was baptized by Patriarch Germanus; Mount Auxentius, his monastery and cell, which the Life places in Bithynia by the gulf of Nicomedia and Theophanes near Mount Damatrys; a monastery at Chrysopolis, where bishops argued with him; the island of Proconnesus, his exile; the Phiale and Praetorium prisons in Constantinople; the pit where Saint Pelagius's church had stood, where his body was thrown",
+  "tradition": "Iconophile Byzantine Monasticism",
+  "role": "Monk and recluse of Mount Auxentius; martyr for the holy images",
+  "briefLength": "about 2 minutes",
+  "legacy": {
+    "traces": [
+      "Stephen the Deacon's Life of him, which Fabricius dates to 808, tells much of the history of the iconoclasts clearly, say its Benedictine editors, Bernard de Montfaucon and Jacques Loppin. They add that Symeon Metaphrastes drew his own Life of Stephen from it.",
+      "In the Life, Stephen the Younger tells the monks that John of Damascus kept writing against the emperor, and that the tyrant called John Mansur, but we call him holy and God-bearing.",
+      "The Life says a devout man named Theodore gathered pieces of his broken skull from the street, and the abbot of the monastery of Dios laid them in a box within the altar. Theodore, it says, was later exiled to Sicily with his wife and children for honoring the images."
+    ],
+    "remembered": [
+      "Theophanes calls him the younger protomartyr, after Stephen, the church's first martyr.",
+      "Patriarch Nikephoros of Constantinople, in his Short History, calls him a holy and devout man, a monk shut in a narrow hut at the foot of Mount Auxentius.",
+      "The Life says that as he was dragged to his death a fiery cloud rose over the mountain he came from, and hail fell on the city."
+    ]
+  },
+  "uncertain": [
+    "His story rests mainly on one Life, by Stephen the Deacon of Constantinople, a partisan of the images. He wrote it 42 years after the death, he says, from what Stephen's disciples and other truthful men told him. Fabricius dates it to 808. Of the three accounts, only the Life tells of the coin, the 342 monks in the Praetorium and the emperor's words on the feast day. The Benedictine editors note that its author took phrases and whole sentences from Cyril of Scythopolis's Life of Euthymius.",
+    "Why he was killed. The Life puts the holy images at the center. Theophanes says he was accused of urging many into the monastic life and away from court honors and riches. Nikephoros's Short History says he was accused of drawing people from their homes, their kin and the palace into it. Theophanes then tells of officials and soldiers punished for honoring images.",
+    "When he died. The Life gives 28 November and his fifty-third year, but no year. One manuscript the Benedictine editors used, the Regius, lacks the word third, and so reads his fiftieth year. Theophanes gives 20 November, in the fourth indiction, under the year Jacques Goar's Latin numbers 757 from the Incarnation. Fabricius gives 766, as does the year marked beside the passage in the Patrologia Graeca's edition of Nikephoros's Short History. The editors of Theophanes in the Patrologia Graeca give 767, and say Theophanes runs together events of several years.",
+    "His years as a recluse. Theophanes says he spent sixty years in his enclosure. The editors of Theophanes reject this and place his death in his fifty-third year.",
+    "How he died. The Life says Philomates killed him with a pole from the fire pumps, and that a man frying fish then struck his head with a firebrand, thinking him alive. Theophanes says soldiers of the guard tore him apart as they dragged him, and Nikephoros that he was dragged and torn apart."
+  ],
+  "sources": {
+    "about": [
+      {
+        "title": "Life of Stephen the Younger (Latin tr. Jacques Loppin), with Fabricius's notice and the Benedictine preface (Patrologia Graeca 100)",
+        "author": "Stephen the Deacon; Bernard de Montfaucon and Jacques Loppin (eds.)",
+        "date": "1860",
+        "language": "Greek and Latin",
+        "file": "cic/texts/nikephoros-cp_opera-with-vita-stephani-iunioris-pg100-grc-lat_migne1860.txt"
+      },
+      {
+        "title": "Short History (Breviarium historicum), ed. Denis Petau and Immanuel Bekker",
+        "author": "Nikephoros of Constantinople",
+        "date": "1860",
+        "language": "Greek and Latin",
+        "file": "cic/texts/nikephoros-cp_opera-with-vita-stephani-iunioris-pg100-grc-lat_migne1860.txt"
+      },
+      {
+        "title": "Chronographia (Latin tr. Jacques Goar), with the Patrologia Graeca editors' notes",
+        "author": "Theophanes the Confessor",
+        "date": "1863",
+        "language": "Greek and Latin",
+        "file": "cic/texts/theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt"
+      },
+      {
+        "title": "The Seven Ecumenical Councils: the council of 754",
+        "author": "Henry R. Percival (ed.)",
+        "date": "1900",
+        "language": "English",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      }
+    ]
+  }
+}
