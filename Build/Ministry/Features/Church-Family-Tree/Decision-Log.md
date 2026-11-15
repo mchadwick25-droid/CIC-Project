@@ -3822,3 +3822,27 @@ All files are in `Build/Ministry/Operations/Audits/2026-11-15_story-relations-cl
 **Review.** One fresh Opus agent, read and grep only, checked the fixes against the findings and the sources, the pattern against every rigor rule, and the whole for anything that would push writing back toward short flat sentences. It found three blocking points, all fixed before Mark saw the pages: the Gregory of Nyssa fix told the editors' reading flat; a pronoun in Methodius pointed at the wrong man; and the first wording of the evidence rule sent every dispute among modern editors to the card.
 
 **What follows.** `Who_Profile_Pattern.md` and `Council_Profile_Pattern.md` carry the change. `Worker_Brief_Template.md` holds the paragraph every Who worker is now given. The card fixes wait for the next data release (Open-Gaps, "Card fixes for the eight, for the next data release", 2026-11-15). The live text and audio of the eight change when they are re-recorded (Open-Gaps, "The eight's corrected briefs are the bar; the live text and audio wait for re-recording", 2026-11-15). The grader change is its own pull request. The 250 briefs since 2026-11-12 are then checked against the eight. No census, record, site or audio file changes here, so there is no data release number. Approved to proceed (Mark, 2026-11-15).
+
+## 2026-11-15 — Legends told as legends: story, tradition and council cards, and two Whos moved to Story - legend
+
+**Mark's rulings (2026-11-15), in order.**
+- "check the stories and traditions cards for legends too"
+- "we can tell a story if it has real sourcing from the time and we cant download the source but we can verify the story as wildly accepted or better"
+- "we don't need to change the story, just how it is presented to the audience"
+- "lets keep beuno as a story - legend"
+- For the Whos known only from late records: "Apply your bar to each". Theopistus becomes a Story - legend like Beuno. Brigid, David of Wales, Brendan, Ciaran, Alopen, Clement of Ohrid, Tekle Haymanot and the six Coptic patriarchs stay Whos.
+
+**What the rulings mean in practice.** A legend keeps its story. It gets the existing Tier 3 story label and a framing line that names who tells it, for example "The Welsh Life, written centuries later, tells how...". A claim is cut only when no source holds it and it cannot be confirmed as Widely Accepted or better.
+
+**Applied here (data, no release number yet).** Only the firm items of the two checks (the Legend Check, version 3, "How firm is this?", and the Who Reality Check, version 3):
+1. Relabels with the checker's own new sentences: 26 cards from the no-source group and 50 from the late-source and wonder group. A story card with a relabel moves to Tier 3 (26 existing cards moved). The framing line names the teller.
+2. The confirmed cuts, and the small wording fixes. Where the same card carried both a cut and a relabel for one claim (Apolo at Mboga; Lucian of Antioch), the later and fuller check governed.
+3. Beuno and Theopistus leave the Whos. Each now stands as a Tier 3 story in the tradition that tells it (British and Welsh Christianity; Cyrilline Miaphysite Egyptian Christianity), told from the profile's own text with a framing line added at the start. Each person entry moved to `retiredMovements` with `redirectTo` its tradition, as the census rules require. The Who brief files stay where they are, unedited.
+4. One person date: Pachomius died about 346, by the Catholic Encyclopedia page the check linked. The earlier 348 was not confirmed. His birth year 292 stays, since no linked reference contradicts it. Ishoyahb III's date (649 to 659) is not corrected here: he has no person entry in the census yet.
+5. The census meta counts, the tree pages, `_redirects`, the sitemaps and the data page's movement count follow from the two retired entries and were regenerated with the project's own scripts.
+
+**Left alone, by the rulings.** Rows the check marked "not confirmed" and the "keep" cards. No Who or council profile brief was edited, because the readability grader fails any edited brief below grade 8 and the legend framing for briefs belongs to the planned rewrite of the 250.
+
+**The writing standard for the edited card text.** No grader covers story or tradition card text. The edited text was written to `VR_1A_Writing_Standard_2026-08-09.md`: short sentences, plain words, no AI tells. An independent read-only review of a sample of 20 changes found no sentence problems beyond one long nested sentence in the Taiping card and found the added dates, names and places came from the checker's own sentences. It also found quotations that do not stand in a held file; they are listed in Open-Gaps.
+
+**Not done.** Nothing paid and no engine model call. The release number is not bumped here. Awaiting Mark's go.
