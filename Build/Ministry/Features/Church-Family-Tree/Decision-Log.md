@@ -3630,3 +3630,35 @@ Every quotation was re-checked word for word against its vendored file. No paid 
 
 The files are in `Council-Profiles/era7/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-15_council-profiles-era7-batch1/`. No census, record or site change is made, so there is no data release number; councils reach the site through the map build. Approved to proceed (coordinator, 2026-11-15; Mark may overrule).
 
+## 2026-11-15 — The map after release 44: the era mark, a pan limit and zoom floor, the map owns its pinch, and no hover tip on touch (coordinator, from Mark's report of 2026-11-15)
+
+**Reported (Mark, 2026-11-15).** "So 44 is live and it looks great, but the eras are not working with the scrolling in and out. The I moves to the middle of the era title. Also Things scroll off the page and you get lost. The card has a box that is in the way". His iPhone Safari screenshots, relayed by the design worker, showed:
+- the era mark inside its title at first load ("1. THE EARLY CHUR(i)H ERA");
+- the whole page zoomed, with the header cut to "ree" and the bottom bar off screen;
+- the hover tip left open over the map after a tap.
+
+**What was wrong, and the fix.** All the changes are in `cft-website/index.html`.
+- **The era mark.** The map measured each title once, cached its width over its font size, and placed the mark from that number at every zoom. The title font, Cinzel, loads late, so a first measure can use the narrower fallback font. Safari's text-length measure can also fall short of the drawn title. The cache is gone. The mark is placed from the title's drawn box every time the captions are placed. A ResizeObserver on each title moves the mark again when the font arrives, with or without a font event.
+- **Lost off the page.** There was no pan limit, and the zoom-out floor was 0.06, so the tree became a speck. One clamp in `applyTransform` now covers every way of moving or zooming: drag, wheel, keys, buttons, pinch, the glide after a fling, the zoom-to actions, resize and the Who list. No side of the map area is more than a third empty.
+- **Safari zooming the page.** The map, its controls and its two bars now cancel a two-finger touch and Safari's gesture events. A pinch there zooms only the map. Page zoom still works on the cards, the Who list, the bar's panels (the Key) and the text pages.
+- **The box in the way: the hover tip.** A tap fires the browser's stand-in mouse events, which opened the tip, and nothing closed it. The tip and the hover highlights now answer only a mouse, a pen or the keyboard. A touch hides any open tip. The tip also goes when the map is scrolled, dragged, panned or zoomed by keys, and when a card opens.
+
+**Coordinator's and worker's calls (not Mark's words; Mark may overrule).**
+- **The zoom floor.** It is the lower of 0.9 × the opening zoom and the zoom where the tree's whole width fits the screen. That gives 0.45 on a 1440-wide desktop (opening 0.50) and 0.18 on an iPhone 13 (opening 0.39). The tree is about six times taller than it is wide, so fitting its whole height would be the speck Mark saw. On a phone, the floor set "a little below the opening zoom" would keep the tree wider than the screen. The width fit lets a reader see every river at once. If Mark prefers the phone floor at 0.9 × the opening zoom (0.35), it is one line in `minScale`.
+- **The two bars own the pinch.** This was not in the brief. It is there because a pinch that started on a bar was the other way the page got zoomed and the reader stranded.
+
+**Review.** Fresh Opus agents that had not seen the work.
+- **Round 1, full effort.** PASS WITH MINOR, 8 minor points, all handled (`R1_review.md`, `R1_changes.md`). An earlier round 1 reviewer stalled on a permission prompt and wrote nothing; the coordinator had it stopped.
+- **Round 2, targeted recheck.** PASS WITH MINOR, 3 minor points, all fixed (`R2_review.md`, `R2_changes.md`).
+- No blocking point is open. The reviews are in `Build/Ministry/Operations/Audits/2026-11-15_map-fixes-after-44/`.
+
+**Checks.**
+- **New tests:** 17 browser tests in `Build/tools/tree_map_view.test.mjs` (Playwright Chromium, run by hand after `node tools/build_tree_site.mjs`). They cover the mark at every zoom, with a late font, with a short text measure and on leaving the era strip; the pan limit after drag, wheel, keys, fling, pinch, rotation and closing the Who list; the zoom floor; the tap with no tip left behind; and the mouse and keyboard tips. Each one tested against main's code, or against the fix taken out, fails.
+- **Release 44's checks, unchanged:**
+  - 0 overlaps at the A16 zooms;
+  - 0 overlaps in all 29 river-eras with a Who open, on desktop and iPhone 13;
+  - keyboard focus-stepping and the zoom-to actions as on main.
+
+**Not tested: Safari.** This container has no WebKit, so none of this is proven on an iPhone. Mark is asked to check on his iPhone before the fixes are called done. Open-Gaps 274, "The map after release 44" (2026-11-15).
+
+No census or record change, so there is no data release number. No paid calls were made. Approved to proceed (coordinator, 2026-11-15; Mark may overrule).

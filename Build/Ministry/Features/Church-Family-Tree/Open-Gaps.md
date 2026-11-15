@@ -3570,3 +3570,12 @@ it, never by deleting it.
     - Not held, and noted in the entries or `records.json`: the Diet of Worms's own record (Reichstagsakten II) and Charles V's French declaration of 19 April 1521; Aleander's dispatches; any original-language edition of Luther's Worms speech; the Confutatio pontificia; the full recess of 19 November 1530; any 1530 Campeggio document; Luther's Coburg letters; the Chanforan manuscript at Dublin, Herminjard, Scultetus and the Olivetan Bible with its "Apologie du translateur". Owner: the Library thread.
     - Scan corrections. Era 7 Who scan, `Who_Scan_Era7.md` l.76, calls `luther_hymns_bacon-allen.txt` l.651 an "editor's account of Worms"; it is Thomas Carlyle's words, quoted by Bacon (l.603-652). The councils scan's Worms row marked the Reichstagsakten WANTED, but no row was carried into CFT-Wants until this batch. Owner: the coordinator. The audits are not edited.
 
+
+274. **The map after release 44: Safari untested, the map's browser tests not in CI, the phone zoom floor (2026-11-15).** Source: Decision-Log, "The map after release 44" (2026-11-15); the reviews in `Build/Ministry/Operations/Audits/2026-11-15_map-fixes-after-44/`.
+    - **Safari not tested.** The container has no WebKit (Playwright's webkit is not installed, and the environment forbids `playwright install`). The era mark, the map owning its pinch, and the tap with no tip were tested only in Chromium, some with WebKit's behaviour imitated. Each needs a check on an iPhone:
+      - the era mark sits just after each title at first load and at every zoom;
+      - a pinch on the map zooms only the map, and the bars stay put;
+      - a tap opens the card at once (round 1 raised that Safari might hold back a first tap after a hover change), with no tip left behind.
+      Owner: Mark, then the map.
+    - **The map's browser tests are not in CI.** `Build/tools/tree_map_view.test.mjs` runs by hand after `node tools/build_tree_site.mjs`. CI has no browser job (the Playwright-in-CI item, P1-8). The late-font test needs `fonts.gstatic.com`, as the live page does. Owner: the CI owner.
+    - **The phone zoom floor.** The floor on a phone is the width fit (0.18 on iPhone 13), not 0.9 × the opening zoom (0.35), because the tree is wider than the screen at the opening zoom. This is Mark's call; it is one line in `minScale`. Owner: Mark.
