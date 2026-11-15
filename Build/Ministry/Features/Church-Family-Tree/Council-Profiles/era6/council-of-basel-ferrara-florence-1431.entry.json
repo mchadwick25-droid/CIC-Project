@@ -1,0 +1,574 @@
+{
+  "id": "council-of-basel-ferrara-florence-1431",
+  "kind": "major-council",
+  "kindLabel": "Major council",
+  "era": 6,
+  "name": "Council of Basel–Ferrara–Florence",
+  "shortName": "Basel–Ferrara–Florence 1431–1445",
+  "dates": "1431–1445",
+  "start": 1431,
+  "end": 1445,
+  "region": "Basel, on the Rhine; then Ferrara and Florence; later Rome",
+  "placeLabel": "Basel, Ferrara, Florence and Rome",
+  "modernCountries": [
+    {
+      "country": "Switzerland",
+      "countryId": "Q39",
+      "place": "Switzerland",
+      "placeId": "Q39"
+    },
+    {
+      "country": "Italy",
+      "countryId": "Q38",
+      "place": "Italy",
+      "placeId": "Q38"
+    },
+    {
+      "country": "Italy",
+      "countryId": "Q38",
+      "place": "Rome",
+      "placeId": "Q220"
+    }
+  ],
+  "rivers": [
+    "Greek East",
+    "Latin West",
+    "Syriac East",
+    "Caucasus"
+  ],
+  "teaser": "Basel, 1431; Ferrara and Florence, 1438 and 1439. A council that began at Basel was moved by Pope Eugenius IV to meet the Greeks. At Florence, Latins and Greeks signed a decree of union.",
+  "knownFor": "The council at which the Greek emperor and bishops signed a union with Rome in 1439. Doukas says the bishops told the people at home, \"We have sold our faith.\"",
+  "datesNote": "1431 to 1445, the span the councils scan gives. Basel opened on 23 July 1431, by its acts as Raynaldus quotes them. Glassberger dates its first session to Friday 7 December 1431. On 7 May 1437 the fathers split over where to meet the Greeks. Two rival decrees were read in the same session, Raynaldus says. Eugenius's bull moving the council to Ferrara is dated 18 September 1437 by Raynaldus and by Mansi. Mansi says the acts printed by Justiniani wrongly read 1 October. Ferrara opened on Wednesday 8 January 1438, by the record Raynaldus quotes. The solemn opening with the Greeks was on 9 April 1438, by the Greek acts and Eugenius's decree. Eugenius's decree moved the council to Florence on 10 January 1439. It is dated 1438 because the year was counted from the Incarnation. The decree of union was signed on 5 July 1439 and read on 6 July. Later the council moved to Rome. Patrizi puts that session in April 1442, and Mansi argues for 1441. Denzinger's heading gives 1438–1445 for Florence, and Mansi's tomus 35 gives 1438–1446. No held act names a closing session. Those who stayed at Basel deposed Eugenius on 25 June 1439. Only Glassberger gives the day they elected Felix V, 17 November 1439. By Mansi's note, the Basel party moved to Lausanne in 1448 and ended there in April 1449.",
+  "issue": [
+    "Basel was to end the Hussite heresy, Glassberger says. Eugenius IV confirmed Cardinal Julian Cesarini as legate for the council, \"above all to root out the heresy of the Hussites.\" The Taborite chronicle says Basel invited the Bohemians to a free hearing. Their envoys set out their Four Articles before the whole council in 1433.",
+    "Council against pope. Glassberger says the Basel fathers held, by the decrees of Constance renewed at Basel, that a lawful general council had its power directly from Christ. It stood above the pope, they said, so he could not move or dissolve it without its consent. Bannwart, Denzinger's editor, notes that Eugenius rejected the Constance teaching on 4 September 1439.",
+    "Where to meet the Greeks. Bissipatus, envoy of the Greek emperor, told Basel in 1437 that the place must suit the pope too. His presence, he said, was needed above all, and nothing good could come without it (in Raynaldus). Raynaldus says Basel's majority wanted Basel, Avignon or a town in Savoy. Mansi's note says the papal legates' party chose Florence, Udine or another town.",
+    "The Turks. The anonymous Roman history printed before the Greek acts says Turkish force squeezed the eastern empire tighter every day. The chronicle printed under Sphrantzes's name has Manuel II tell his son that the Turks feared a union of Greeks and Latins above all. Chalkokondyles says the pope at Ferrara asked the emperor to help him in his quarrel with the Germans, that is, with Basel.",
+    "The doctrine. The Roman history lists the procession of the Holy Spirit and the Filioque, unleavened bread, purgatory, the saints' vision of God and the pope's primacy. Petit, the modern editor, says purgatory came first, at private meetings from April 1438. Mark of Ephesus says the first public debate was on the words added to the Creed, then the doctrine itself at Florence.",
+    "Why the Greeks came is told by witnesses, and no decree states a bargain. Mark of Ephesus wrote that the city was being guarded \"by the Pope's gold.\" The later Greek chronicle printed by Bekker says no help was sent afterwards."
+  ],
+  "calledBy": "Basel was opened under Martin V and Eugenius IV by two delegates of Cardinal Julian Cesarini, by its acts as Raynaldus quotes them. Glassberger says Martin V sent Cesarini to begin it. Eugenius IV moved the council to Ferrara and called the Greeks there, Raynaldus says. Eugenius's decree at Ferrara says the emperor and the patriarch consented. His decree moving it to Florence names their consent too, \"with the approval of the holy council.\" Patrizi says Eugenius moved it to Rome in a session at Florence.",
+  "attended": [
+    "No full roll of Basel is among our sources. Mansi's note says that at the opening no bishops were there, only a few abbots.",
+    "Ferrara's first session, on 8 January 1438, had five archbishops, eighteen bishops, four bishops-elect and many heads of religious orders, Raynaldus says. Cardinal Nicholas Albergati presided for the pope.",
+    "The emperor John VIII Palaiologos and Patriarch Joseph II of Constantinople came with the Greek bishops. Syropoulos lists the bishops of twenty sees, from Ephesus and Trebizond to Moldo-Wallachia and Rhodes. Isidore came from Russia with one bishop. Envoys of the patriarchs of Alexandria, Antioch and Jerusalem came too, by the Roman history.",
+    "Syropoulos says the emperor's man brought two bishops and an envoy from Georgia. Later he speaks of one Georgian bishop and one lay prince.",
+    "Doukas names among the Greeks Mark of Ephesus, Bessarion of Nicaea, Isidore, George Scholarios and Gemistos of Lacedaemon. Mark spoke for the Greeks and Cardinal Julian for the Latins, he says.",
+    "The signed list of the decree of union is held in Mansi's tomus 31. Our count finds more than a hundred Latin and about thirty Greek signatures in the printed list. The pope signs first, then eight cardinals, Latin patriarchs, bishops, envoys of Burgundy and heads of orders. On the Greek side, the emperor signs first, then the metropolitans and envoys of the eastern patriarchs, then officials and monks.",
+    "The Roman editor of the list says many fathers had left before the signing, so their names are missing.",
+    "At Basel's session that deposed Eugenius, Raynaldus counts only seven bishops. He quotes Aeneas Silvius, who was there. Aeneas says no Spanish or Aragonese prelate came, and from Italy only the bishop of Grosseto and one abbot.",
+    "Later envoys came from the Armenians in 1439 and from the Copts and the Ethiopians in 1441. The Syrians came in 1444, and the Chaldeans and Maronites of Cyprus in 1445 (Raynaldus; the decrees)."
+  ],
+  "decided": [
+    "Eugenius's decree of 9 April 1438 declared the ecumenical synod to be at Ferrara, with the emperor and patriarch consenting (the Greek acts). Asked if they received it, both sides answered, \"We receive and approve.\"",
+    "Against Basel. Ferrara's first session ruled that those staying at Basel under the council's name had incurred the penalties of the transfer. It called their meeting a conventicle (in Raynaldus). On 4 September 1439, at Florence, the decree Moyses condemned Basel's teaching and its attempt to depose the pope (in Raynaldus).",
+    "The decree of union Laetentur caeli, read on 6 July 1439 (the acts, in Mansi; extracts in Denzinger and Mirbt). It begins: \"Let the heavens rejoice and the earth be glad: the wall that divided the western and the eastern church has been taken away.\"",
+    "It taught that the Spirit proceeds from the Father and the Son as from one principle and one spiration. The Greek saying, \"from the Father through the Son,\" was read in that sense. It said the word Filioque had been added to the Creed lawfully and with good reason.",
+    "It allowed the eucharist in unleavened or leavened wheat bread, each priest following his own church, western or eastern. It taught purgatory and the soul's vision of God after death.",
+    "It gave the apostolic see and the Roman pontiff primacy over the whole world. It called the pope true vicar of Christ and head of the whole church. It set the order of the patriarchs, \"saving all their privileges and rights.\" The Greek acts say the Latins tried to drop the word \"all.\"",
+    "The decree for the Armenians, Exultate Deo, dated 22 November 1439 (the acts, in Mansi). It gave them the Creed with the Filioque, the faith of Chalcedon, the seven sacraments and Latin feast dates. The envoys accepted it in their own name, their patriarch's and that of all Armenians.",
+    "The decree for the Copts, Cantate Domino, dated 4 February 1442 by our reckoning (in Raynaldus). It rejoices that \"before three years have passed\" three great nations have been joined. Andrew, abbot of Saint Antony's in Egypt, accepted it for Patriarch John and his people.",
+    "In a Lateran session on 30 September 1444, Abdallah, archbishop of Edessa, accepted the faith for Ignatius, patriarch of the Syrians (in Raynaldus). The decree says he had read the decrees for the Greeks, Armenians and Copts in Arabic.",
+    "The bull Benedictus sit Deus of 7 August 1445 received two men from Cyprus (in Raynaldus). They were Timothy, metropolitan of the Chaldeans, and Isaac, sent by Elias, bishop of the Maronites. It gave them the rights of other Catholics.",
+    "At Basel, after the split, the fathers set out three propositions on a council's power and deposed Eugenius. Raynaldus calls the propositions false. They elected Felix V and defined the Immaculate Conception (Glassberger). Glassberger's modern editors say that definition never bound the faith, since it was not the act of a lawful council."
+  ],
+  "outcome": [
+    "Bessarion and Isidore were made cardinals, Chalkokondyles says.",
+    "Doukas, a Greek historian of the fall, says people met the returning bishops at the harbor and asked, \"Did we win?\" They answered, \"We have sold our faith, we have traded piety for impiety.\" He says Antony of Heraclea and others who had signed spoke like this.",
+    "Doukas, a hostile witness, also says some bishops would not sign until they were paid. Syropoulos says the opposite: no money was asked or promised at the signing.",
+    "Mark of Ephesus led the refusal at home. In his letter to the faithful he calls the unionists \"Graeco-Latins,\" half-beasts like the centaurs. \"What union is this,\" he asks, \"where no plain sign appears?\" To Scholarios he wrote, \"Between truth and falsehood there is nothing in between.\"",
+    "Petit, the modern editor, says the new patriarch Metrophanes proclaimed the union in the islands in June and July 1440.",
+    "Mansi's tomus 35 prints a decree of 1443 in which the patriarchs of Alexandria, Antioch and Jerusalem condemn Metrophanes and the union. Mansi thinks it a forgery by a Greek partisan. Mouravieff, a Russian writer of 1838, tells it as fact (see uncertain).",
+    "In Moscow, Mouravieff says, Isidore had the acts of Florence proclaimed in the cathedral of the Dormition. Grand Prince Basil called him a traitor. The bishops would not own the pope as Vicar of Christ and rejected the Filioque. Isidore was confined in the Chudov monastery and escaped to Rome. Harasiewicz, a Ruthenian Catholic writing in 1862, also says Basil opposed the union. Both are later narratives.",
+    "In Constantinople the union was celebrated on 12 December 1452, Leonard of Chios writes, \"if it was not feigned.\" Doukas says Scholarios, now the monk Gennadios, posted a warning on his cell door. After the union, Doukas says, people shunned Hagia Sophia like a synagogue of the Jews.",
+    "Issaverdens, a modern Armenian Catholic historian, says the catholicos Constantine sent four vardapets, who accepted and signed the union.",
+    "The Ethiopian chronicles of Zara Yaqob say nothing of Florence, Perruchon, their editor, notes.",
+    "The Basel party went on to Lausanne. Felix V gave up his title on 7 April 1449, by Mansi's note. In its decree of 16 April 1449, the Lausanne synod still said it had been lawfully gathered at Basel. It had not consented, it said, when Eugenius set up a meeting at Ferrara under a council's name. The French envoys' instrument of 4 April 1449 speaks of Pope Nicholas V's wish for peace.",
+    "In 1516 the Fifth Lateran Council called Basel after the transfer a \"little council, or rather a gathering\" (in Mirbt). It no longer deserved the name of council, Lateran said.",
+    "The Roman editor of the acts says the Greeks never received this council, which they call the eighth, apart from those who sat in it. The Greek chronicle printed by Bekker also calls it the eighth synod. It came to no good end, it says, because the bishop of Ephesus refused to sign, and many quarreled again at home."
+  ],
+  "record": [
+    {
+      "witness": "The Greek acts, with a Latin version (Mansi, tomus 31)",
+      "kind": "acts",
+      "note": "A first-person record by a Greek delegate, from the voyage to the reading of the decree. Mansi does not name the writer. Petit gives him, in brackets, as Dorotheos of Mitylene. Pro-union in outcome."
+    },
+    {
+      "witness": "Laetentur caeli with its signatures; Eugenius's decree at Ferrara; Patriarch Joseph's last statement; Exultate Deo (Mansi, tomus 31)",
+      "kind": "acts",
+      "note": "The council's own texts. Joseph's statement is given as the Greek acts report it."
+    },
+    {
+      "witness": "Laetentur caeli, Exultate Deo and Cantate Domino in Denzinger (ed. Bannwart) and Mirbt",
+      "kind": "acts",
+      "note": "Modern editors' extracts. They date Cantate Domino 1441 by the Florentine year."
+    },
+    {
+      "witness": "The decree of the Lausanne synod, 1449, and the French envoys' instrument (Mansi, tomus 32)",
+      "kind": "acts",
+      "note": "Acts of the Basel party at its end; it speaks for itself against Eugenius."
+    },
+    {
+      "witness": "Mansi, tomus 35: additions to the council of Florence",
+      "kind": "acts",
+      "note": "The Armenian envoys' address and the 1443 decree of the eastern patriarchs, which Mansi thinks forged."
+    },
+    {
+      "witness": "Sylvester Syropoulos, memoir (Vera historia unionis non verae, ed. Creyghton, 1660)",
+      "kind": "participant",
+      "note": "A Greek delegate, great ecclesiarch of Constantinople, who signed the decree. His memoir is hostile to the union. The main witness for the scene at Ferrara."
+    },
+    {
+      "witness": "Mark of Ephesus, account of his acts at Florence and letter to the faithful (in Petit's Documents, PO 17); letter to Scholarios (PG 160)",
+      "kind": "participant",
+      "note": "The one Greek bishop who openly refused to sign, in his own words. Against the union."
+    },
+    {
+      "witness": "Bessarion, works (PG 161); Mark and Bessarion on purgatory (in Petit, PO 15)",
+      "kind": "participant",
+      "note": "Bessarion was a Greek spokesman who read the decree in Greek. For the union."
+    },
+    {
+      "witness": "Raynaldus, Annales ecclesiastici, tomus 28 (ed. Theiner), with Mansi's notes",
+      "kind": "later narrative",
+      "note": "A Roman annalist of the 17th century. He quotes the acts of Basel's opening, Eugenius's letters and decrees, Aeneas Silvius and the later decrees of union. Papal side; he calls the Basel party schismatics."
+    },
+    {
+      "witness": "Nicholas Glassberger, Chronica",
+      "kind": "later narrative",
+      "note": "A Franciscan chronicler writing in 1508. For Basel's aims, its doctrine of a council's power, the deposition and Felix V."
+    },
+    {
+      "witness": "Chronicon Taboritarum of Nicholas of Pelhřimov and John of Lukavec (in Höfler)",
+      "kind": "later narrative",
+      "note": "Taborite; for Basel's hearing of the Bohemians in 1433."
+    },
+    {
+      "witness": "Doukas, Historia Byzantina, with the editors' notes",
+      "kind": "later narrative",
+      "note": "Greek historian of the fall of Constantinople; hostile to the union. The notes correct him from the acts."
+    },
+    {
+      "witness": "The chronicle printed under Sphrantzes's name; Laonikos Chalkokondyles, Histories; Leonard of Chios (PG 159)",
+      "kind": "later narrative",
+      "note": "Greek and Latin writers of the fall. Leonard, a Latin, doubts the union of 1452 was meant."
+    },
+    {
+      "witness": "Historia politica et patriarchica Constantinopoleos (ed. Bekker, in Crusius's Latin)",
+      "kind": "later narrative",
+      "note": "A Greek chronicle of Constantinople running to 1578. Calls Florence the eighth synod; against its outcome."
+    },
+    {
+      "witness": "A. N. Mouravieff, History of the Church of Russia (1838; English, 1842); Harasiewicz, Annales ecclesiae Ruthenae (1862)",
+      "kind": "later narrative",
+      "note": "Mouravieff writes for the Russian Orthodox side, Harasiewicz for the Ruthenian Catholic. Both are late."
+    },
+    {
+      "witness": "Issaverdens, Armenia and the Armenians (1875); Perruchon, the chronicles of Zara Yaqob (1893)",
+      "kind": "later narrative",
+      "note": "Modern writers on the Armenian and Ethiopian sides."
+    },
+    {
+      "witness": "Mansi, Petit, Bannwart, Mirbt, Glassberger's Quaracchi editors and Perruchon citing Dillmann",
+      "kind": "modern reconstruction",
+      "note": "Editors who fix the dates of the transfer, of the move to Rome and of the Coptic decree. They also judge the 1443 synod and name the Ethiopians' sender."
+    }
+  ],
+  "traditions": [
+    {
+      "id": "latin-papal-church-avignon-to-lateran-v",
+      "name": "The Latin Papal Church (Avignon to Fifth Lateran)",
+      "part": "Gathered",
+      "note": "Eugenius IV moved the council to Ferrara and signed the decree of union first (Raynaldus; the signed list)."
+    },
+    {
+      "id": "latin-papal-church-avignon-to-lateran-v",
+      "name": "The Latin Papal Church (Avignon to Fifth Lateran)",
+      "part": "Affected",
+      "note": "Those who stayed at Basel deposed Eugenius and elected Felix V, and the split lasted until 1449 (Glassberger; Mansi's note; the Lausanne decree)."
+    },
+    {
+      "id": "byzantine-church-palaiologan",
+      "name": "The Byzantine Church, Palaiologan Era",
+      "part": "Gathered",
+      "note": "The emperor, the patriarch and the bishops came, and the emperor and about thirty Greeks signed (the Greek acts; the signed list)."
+    },
+    {
+      "id": "byzantine-church-palaiologan",
+      "name": "The Byzantine Church, Palaiologan Era",
+      "part": "Refused",
+      "note": "At home, Doukas says, bishops who had signed disowned it, and the people shunned Hagia Sophia after the union of 1452. Mark of Ephesus led the refusal in his letters."
+    },
+    {
+      "id": "armenian-cilicia-after-the-kingdom",
+      "name": "Armenian Christianity after the Kingdom (Sis to Etchmiadzin)",
+      "part": "Gathered",
+      "note": "The catholicos's envoys accepted the decree Exultate Deo for all Armenians in 1439 (the acts; Issaverdens)."
+    },
+    {
+      "id": "the-ethiopian-monastic-flowering",
+      "name": "The Ethiopian Monastic Flowering",
+      "part": "Gathered",
+      "note": "Ethiopian envoys came to Florence and Rome in 1441 (Raynaldus). Who sent them is disputed: Eugenius names the emperor, Dillmann the abbot of the Ethiopians in Jerusalem."
+    },
+    {
+      "id": "maronite-christianity-era-6",
+      "name": "Maronite Christianity — the Union Formalized",
+      "part": "Gathered",
+      "note": "Isaac, sent by Elias, bishop of the Maronites of Cyprus, was received in a Lateran session in 1445 (Raynaldus)."
+    },
+    {
+      "id": "church-of-the-east-timur-to-hakkari",
+      "name": "The Church of the East — Timur's Catastrophe and the Northern Remnant",
+      "part": "Gathered",
+      "note": "Timothy, metropolitan of the Chaldeans of Cyprus, professed the Catholic faith in 1445 (Raynaldus). The census entry is the nearest fit for this island community."
+    },
+    {
+      "id": "franciscan-order-era-6",
+      "name": "The Franciscan Order — Spirituals Crisis to the Great Division",
+      "part": "Gathered",
+      "note": "The general of the Friars Minor signed the decree of union (the signed list). The friar Albert carried the pope's letters to the Copts (Raynaldus)."
+    },
+    {
+      "id": "muscovite-monastic-christianity",
+      "name": "Muscovite Monastic Christianity",
+      "part": "Refused",
+      "note": "Grand Prince Basil and the Russian bishops rejected Isidore and the union, by Mouravieff and Harasiewicz, both later writers."
+    },
+    {
+      "id": "the-hussite-and-bohemian-brethren-movement",
+      "name": "The Hussite & Bohemian Brethren Movement",
+      "part": "Affected",
+      "note": "Basel invited the Bohemians and heard their Four Articles in 1433 (the Taborite chronicle)."
+    }
+  ],
+  "people": [
+    {
+      "name": "Eugenius IV",
+      "verdict": "NOT SCORED",
+      "part": "Pope; moved the council to Ferrara, Florence and Rome; signed the decree first; asked whether Mark had signed (Syropoulos)"
+    },
+    {
+      "name": "John VIII Palaiologos",
+      "verdict": "NOT SCORED",
+      "part": "Emperor; led the Greeks and signed first for them; would not let the pope judge Mark (Syropoulos)"
+    },
+    {
+      "name": "Joseph II of Constantinople",
+      "verdict": "NOT SCORED",
+      "part": "Patriarch; refused to kiss the pope's foot, by Syropoulos; died at Florence in June 1439, leaving a written statement of faith (the Greek acts)"
+    },
+    {
+      "name": "Mark of Ephesus (Mark Eugenikos)",
+      "verdict": "WHO",
+      "part": "Greek spokesman; refused to sign; led the refusal at home in his letters"
+    },
+    {
+      "name": "Bessarion",
+      "verdict": "WHO",
+      "part": "Metropolitan of Nicaea; Greek spokesman; read the decree in Greek and signed; made a cardinal"
+    },
+    {
+      "name": "Gennadios Scholarios (George Scholarios)",
+      "verdict": "WHO",
+      "part": "Present, by Doukas; later, as the monk Gennadios, warned against the union of 1452"
+    },
+    {
+      "name": "Sylvester Syropoulos",
+      "verdict": "WHO",
+      "part": "Great ecclesiarch; signed the decree; wrote the memoir hostile to the union"
+    },
+    {
+      "name": "Isidore of Kiev",
+      "verdict": "STORY",
+      "part": "Metropolitan from Russia; signed for Antioch; made a cardinal; rejected in Moscow, by Mouravieff"
+    },
+    {
+      "name": "Gregory Mammas",
+      "verdict": "LISTED",
+      "part": "Hieromonk and protosyncellus; signed for Alexandria; later wrote against Mark"
+    },
+    {
+      "name": "Georgios Gemistos Plethon",
+      "verdict": "LISTED",
+      "part": "Present, by Doukas"
+    },
+    {
+      "name": "Julian Cesarini",
+      "verdict": "NOT SCORED",
+      "part": "Cardinal; legate for Basel at its start; Latin spokesman; read the decree in Latin"
+    },
+    {
+      "name": "Nicholas Albergati",
+      "verdict": "NOT SCORED",
+      "part": "Cardinal; presided at Ferrara's first session (Raynaldus)"
+    },
+    {
+      "name": "Louis Aleman, Cardinal of Arles",
+      "verdict": "NOT SCORED",
+      "part": "Led Basel's majority and the session that deposed Eugenius (Raynaldus)"
+    },
+    {
+      "name": "Felix V (Amadeus of Savoy)",
+      "verdict": "NOT SCORED",
+      "part": "Elected pope by Basel in 1439 (Glassberger); gave up the title in 1449 (Mansi's note)"
+    },
+    {
+      "name": "Nicholas V",
+      "verdict": "STORY",
+      "part": "Not present; pope when the Basel party made peace in 1449 (the French envoys' instrument)"
+    },
+    {
+      "name": "Aeneas Silvius Piccolomini",
+      "verdict": "NOT SCORED",
+      "part": "At Basel; eyewitness of the session that deposed Eugenius, as Raynaldus quotes him"
+    },
+    {
+      "name": "John of Ragusa",
+      "verdict": "NOT SCORED",
+      "part": "Dominican; opened Basel as one of Cesarini's two delegates (the acts in Raynaldus)"
+    },
+    {
+      "name": "Antony of Heraclea",
+      "verdict": "NOT SCORED",
+      "part": "Metropolitan; first Greek prelate to sign, for Alexandria; at home said they had sold their faith (Doukas)"
+    },
+    {
+      "name": "Dorotheos of Mitylene",
+      "verdict": "NOT SCORED",
+      "part": "Metropolitan; signed; went over to the Latins, by Syropoulos; author of the Greek acts, by Petit's bracketed attribution"
+    },
+    {
+      "name": "Metrophanes of Cyzicus",
+      "verdict": "NOT SCORED",
+      "part": "Metropolitan; signed; patriarch from 1440"
+    },
+    {
+      "name": "Isaias of Stauropolis",
+      "verdict": "NOT SCORED",
+      "part": "Bishop; slipped away from Florence when the signing began (Syropoulos)"
+    },
+    {
+      "name": "The Georgian envoys, a bishop and a lay prince",
+      "verdict": "NOT SCORED",
+      "part": "Neither signed; both slipped away (Syropoulos)"
+    },
+    {
+      "name": "Constantine, catholicos of the Armenians",
+      "verdict": "NOT SCORED",
+      "part": "Not present; sent the Armenian envoys (Issaverdens)"
+    },
+    {
+      "name": "Sargis and Joachim",
+      "verdict": "NOT SCORED",
+      "part": "Armenian envoys named in the catholicos's mandate (Raynaldus)"
+    },
+    {
+      "name": "Andrew, abbot of Saint Antony's",
+      "verdict": "NOT SCORED",
+      "part": "Envoy of the Coptic patriarch John; accepted Cantate Domino; also called the Ethiopian emperor's envoy in Eugenius's letter"
+    },
+    {
+      "name": "John, Coptic patriarch",
+      "verdict": "NOT SCORED",
+      "part": "Not present; sent Andrew (Cantate Domino, in Raynaldus)"
+    },
+    {
+      "name": "Zara Yaqob",
+      "verdict": "WANTED",
+      "part": "Ethiopian emperor; not present; named as sender of the envoys by Eugenius's letter and Patrizi, but not by Dillmann"
+    },
+    {
+      "name": "Nicodemus, abbot of the Ethiopians in Jerusalem",
+      "verdict": "NOT SCORED",
+      "part": "Not present; sent the Ethiopian monks, by Dillmann's view as Perruchon reports it"
+    },
+    {
+      "name": "Abdallah, archbishop of Edessa",
+      "verdict": "NOT SCORED",
+      "part": "Envoy of Ignatius, patriarch of the Syrians; accepted the faith at the Lateran in 1444 (Raynaldus)"
+    },
+    {
+      "name": "Timothy, metropolitan of the Chaldeans",
+      "verdict": "NOT SCORED",
+      "part": "From Cyprus; professed the faith at the Lateran in 1445 (Raynaldus)"
+    },
+    {
+      "name": "Isaac",
+      "verdict": "NOT SCORED",
+      "part": "Envoy of Elias, bishop of the Maronites of Cyprus, in 1445 (Raynaldus)"
+    },
+    {
+      "name": "Ambrogio Traversari",
+      "verdict": "NOT SCORED",
+      "part": "Signed the decree as Ambrose, general of the Camaldolese (the signed list)"
+    },
+    {
+      "name": "Basil II of Moscow",
+      "verdict": "NOT SCORED",
+      "part": "Grand prince; not present; rejected Isidore and the union (Mouravieff; Harasiewicz)"
+    },
+    {
+      "name": "Jonah of Moscow",
+      "verdict": "LISTED",
+      "part": "Not present; chosen metropolitan after the years without one that followed Isidore, by Mouravieff"
+    }
+  ],
+  "briefLength": "about 2 minutes 30 seconds",
+  "uncertain": [
+    "The acts of the Basel years are not among our sources, save where Raynaldus, Glassberger and others quote them. For Ferrara and Florence we hold the Greek acts, a delegate's record, and the decrees with their signatures. The scene at Ferrara comes from Syropoulos, a delegate who signed but wrote against the union.",
+    "How Joseph greeted the pope: Syropoulos says he refused the foot-kiss and was received in the pope's room before the cardinals alone. The Greek acts say only that he kissed the pope's cheek.",
+    "Who refused to sign: Doukas says all the Greeks agreed except Mark, and Mouravieff says Mark alone did not sign. Syropoulos says Isaias of Stauropolis slipped away rather than sign, and neither Georgian envoy signed. No Stauropolis signature is in the printed list.",
+    "The day Joseph died: 9 June 1439 in the Greek acts; 10 June in Syropoulos and in the notes to Doukas. Doukas puts his death \"after the union\"; the acts and Syropoulos put it before the signing.",
+    "Joseph's written statement: the Greek acts say it was found after his death. Mark says the patriarch had long since been corrupted. No held line of Syropoulos says the note was written for him.",
+    "The date of the bull moving the council to Ferrara: 18 September 1437 by Raynaldus and Mansi. The acts Justiniani printed read 1 October, which Mansi calls a mistake.",
+    "The year the council moved to Rome: Patrizi gives 1442; Mansi argues 1441.",
+    "When the council ended: Denzinger's heading gives 1445 and Mansi's tomus 35 gives 1446. No held act names a closing session.",
+    "Felix V's election day, 17 November 1439, rests on Glassberger alone.",
+    "The Armenian decree is dated 22 November 1439 in its own dating clause. Raynaldus's narrative puts the Armenians' acceptance in a session of 10 December.",
+    "The Coptic decree is dated 4 February 1441 in Denzinger and Mirbt, counting the Florentine year. Mansi gives it as 1442 by our reckoning.",
+    "Who sent the Ethiopians: Eugenius's letter and Patrizi name the emperor, Zara Yaqob. Dillmann, as Perruchon reports, says Nicodemus of the Ethiopian convent in Jerusalem sent them, without the king's knowledge.",
+    "The synod of 1443 in which the eastern patriarchs condemn the union: Mansi prints it and thinks it forged; Mouravieff tells it as fact.",
+    "Why the Greeks came: that they sought military help is a witness's view. Mark speaks of the city guarded \"by the Pope's gold.\" The Greek chronicle printed by Bekker says no help came, and Mouravieff says no western ruler helped. No decree states a bargain.",
+    "How many were at Basel's deposition session: Raynaldus says seven bishops; Aeneas Silvius, as he quotes him, describes how few came. Both reach us through the papal side.",
+    "The day of the solemn opening with the Greeks: the Greek acts say Wednesday 9 April 1438; Petit calls it Tuesday.",
+    "The Georgian party: Syropoulos first speaks of two bishops and an envoy, then of one bishop and one lay prince.",
+    "The Armenian envoys: Issaverdens says four vardapets; the catholicos's mandate in Raynaldus names two.",
+    "The Russian rejection rests on Mouravieff, writing in 1838, and Harasiewicz, writing in 1862. No Russian text of the time is among our sources.",
+    "Whether Basel stayed a council after the transfer is told by party. Glassberger's editors and the Fifth Lateran Council say it did not. The Lausanne decree and Felix V say it did. In 1446 Eugenius received Basel \"from its beginning up to the transfer made by us,\" Bannwart notes."
+  ],
+  "sources": {
+    "fromTheCouncil": [
+      {
+        "title": "Sacrorum conciliorum collectio, tomus 31: the Greek acts, Laetentur caeli with its signatures, Exultate Deo, and Basel matter",
+        "author": "Giovanni Domenico Mansi",
+        "language": "Latin and Greek",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt"
+      },
+      {
+        "title": "Sacrorum conciliorum collectio, tomus 32: the end of the Basel schism at Lausanne, 1449",
+        "author": "Giovanni Domenico Mansi",
+        "language": "Latin",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-32-1438-1549-lat_welter-facsimile1901.txt"
+      },
+      {
+        "title": "Sacrorum conciliorum collectio, tomus 35: additions to the council of Florence, 1438 to 1446",
+        "author": "Giovanni Domenico Mansi",
+        "language": "Latin",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt"
+      },
+      {
+        "title": "Decrees for the Greeks, the Armenians and the Copts",
+        "author": "Council of Florence, in Heinrich Denzinger, Enchiridion symbolorum, ed. Clemens Bannwart",
+        "language": "Latin",
+        "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt"
+      },
+      {
+        "title": "Laetentur caeli, the sacraments and Cantate Domino; the Pragmatic Sanction of Bourges; the Fifth Lateran Council on Basel",
+        "author": "Carl Mirbt, Quellen zur Geschichte des Papsttums, nos. 323 to 326 and 336",
+        "language": "Latin",
+        "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt"
+      }
+    ],
+    "fromThoseThere": [
+      {
+        "title": "Vera historia unionis non verae",
+        "author": "Sylvester Syropoulos, ed. Robert Creyghton",
+        "language": "Greek and Latin",
+        "file": "cic/texts/syropoulos_vera-historia-unionis-non-verae-grc-lat_creyghton1660.txt"
+      },
+      {
+        "title": "Account of his acts at the synod of Florence; letter to the Orthodox (in Louis Petit, Documents relatifs au concile de Florence, PO 17)",
+        "author": "Mark of Ephesus",
+        "language": "Greek and Latin",
+        "file": "cic/texts/john-ephesus_lives-eastern-saints-po17_brooks1923.txt"
+      },
+      {
+        "title": "Letter to George Scholarios, with Scholarios's works (PG 160)",
+        "author": "Mark of Ephesus; Gennadios Scholarios",
+        "language": "Greek and Latin",
+        "file": "cic/texts/gennadius-scholarius_opera-omnia-pg160-grc-lat_migne1866.txt"
+      },
+      {
+        "title": "Works (PG 161)",
+        "author": "Bessarion",
+        "language": "Greek and Latin",
+        "file": "cic/texts/bessarion_opera-omnia-pg161-grc-lat_migne1866.txt"
+      },
+      {
+        "title": "Documents relatifs au concile de Florence I: la question du purgatoire à Ferrare (PO 15)",
+        "author": "Mark of Ephesus and Bessarion, ed. Louis Petit",
+        "language": "Greek and French",
+        "file": "cic/texts/patrologia-orientalis-tomus15_petit-documents-concile-de-florence-purgatoire-grc-fra_graffin-nau1927.txt"
+      }
+    ],
+    "writtenLater": [
+      {
+        "title": "Annales ecclesiastici, tomus 28, 1424 to 1453, with Mansi's notes",
+        "author": "Odoric Raynaldus, ed. Augustin Theiner",
+        "language": "Latin",
+        "file": "cic/texts/raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt"
+      },
+      {
+        "title": "Chronica",
+        "author": "Nicholas Glassberger, in Analecta Franciscana II",
+        "language": "Latin",
+        "file": "cic/texts/glassberger_chronica-analecta-franciscana-v2-lat_1887.txt"
+      },
+      {
+        "title": "Chronicon Taboritarum, in Geschichtschreiber der husitischen Bewegung II",
+        "author": "Nicholas of Pelhřimov and John of Lukavec, ed. Konstantin Höfler",
+        "language": "Latin",
+        "file": "cic/texts/hofler_geschichtschreiber-husitischen-bewegung-v2-lat_1865.txt"
+      },
+      {
+        "title": "Historia Byzantina, with the editors' notes",
+        "author": "Doukas",
+        "language": "Greek and Latin",
+        "file": "cic/texts/doukas_historia-byzantina-grc-lat_bekker1834.txt"
+      },
+      {
+        "title": "The chronicle printed under Sphrantzes's name",
+        "author": "ed. Immanuel Bekker",
+        "language": "Greek and Latin",
+        "file": "cic/texts/sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838.txt"
+      },
+      {
+        "title": "Histories; with Leonard of Chios and Joseph of Methone (PG 159)",
+        "author": "Laonikos Chalkokondyles",
+        "language": "Greek and Latin",
+        "file": "cic/texts/chalcocondyles_historiarum-libri-x-with-isidore-leonard-plusiadenos-pg159-grc-lat_migne1866.txt"
+      },
+      {
+        "title": "Historia politica et patriarchica Constantinopoleos",
+        "author": "ed. Immanuel Bekker, Latin by Martin Crusius",
+        "language": "Greek and Latin",
+        "file": "cic/texts/historia-politica-et-patriarchica-constantinopoleos_grc-lat_bekker1849.txt"
+      },
+      {
+        "title": "A History of the Church of Russia",
+        "author": "A. N. Mouravieff, tr. R. W. Blackmore",
+        "language": "English",
+        "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt"
+      },
+      {
+        "title": "Annales ecclesiae Ruthenae",
+        "author": "Michael Harasiewicz",
+        "language": "Latin",
+        "file": "cic/texts/harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt"
+      },
+      {
+        "title": "Armenia and the Armenians II: ecclesiastical history",
+        "author": "James Issaverdens",
+        "language": "English",
+        "file": "cic/texts/issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt"
+      },
+      {
+        "title": "Les chroniques de Zar'a Yâ'eqôb et de Ba'eda Mâryâm",
+        "author": "Jules Perruchon",
+        "language": "Ge'ez and French",
+        "file": "cic/texts/zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893.txt"
+      }
+    ]
+  }
+}
