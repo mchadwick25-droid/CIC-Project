@@ -512,14 +512,115 @@ Jakoubek's tract is kept inside his opponent's reply. Tauler is a selection. Veg
 
 **Not taken.** Every duplicate, reprint, retelling and unreadable scan is listed in the search log.
 
-## Era 7 (1517-1650): council records, queued
+## Era 7 (1517-1650), filled (2026-11-15): the Who scan's wanted sources, the outside witnesses and the council records
 
-From the era 7 council profiles, batch 1 (`Build/Ministry/Operations/Audits/2026-11-15_council-profiles-era7-batch1/`). The councils scan marks both records WANTED (`Build/Ministry/Operations/Audits/2026-11-12_major-events-scan/Councils_Scan.md`, era 7), and neither had a row here. The editions are named from memory ("[suggested; to confirm]"); confirm each, and that it is public domain, before acquiring. The Library stays on hold until Mark's full wanted fill (2026-11-14), so both rows are **queued**.
+Fifty-six files. The wants are the era 7 rows of
+`Build/Ministry/Operations/Audits/2026-11-12_wanted-sources-combined/Wanted_Sources.md` (person rows 113-120,
+outside-witness rows 10-27 and council row 22), the two council rows the era 7 council batch queued here (the
+Marburg Colloquy and the Diet of Worms), and the Library items of Open-Gaps 273. The search record is
+`Build/Ministry/Operations/Audits/2026-11-15_library-era7/Search_Log.md`. Every file has a printed imprint of 1930
+or earlier, read on its title page or, for sixteen volumes, on the scan's page image. One want was held already.
 
-| council | want | why | state |
+| want | state | file(s), with the imprint year | shelf |
 |---|---|---|---|
-| Marburg Colloquy (1529) | The colloquy's record: F. W. Schirrmacher, *Briefe und Acten zu der Geschichte des Religionsgespräches zu Marburg 1529 und des Reichstages zu Augsburg 1530* (Gotha, 1876) [suggested; to confirm]. Second choices: the Marburg Articles in German with their signatures (Weimar Ausgabe, vol. 30/III, 1910) or H. E. Jacobs, *The Book of Concord*, vol. II (1883) [both suggested; to confirm]. | The profile is held back for want of it. No held text tells the debate in the room: no participant's account of the sessions, no signed copy of the articles. The only list of the fifteen articles is Foxe's English, which breaks off before the clause on the Supper, the point they could not agree. Luther's side has no held words spoken at Marburg. | queued |
-| Diet of Worms (1521) | The Diet's acts: *Deutsche Reichstagsakten, jüngere Reihe*, vol. II, ed. A. Wrede (1896) [suggested; to confirm]; or B. J. Kidd, *Documents Illustrative of the Continental Reformation* (1911) [suggested; to confirm]. | Not needed for the profile, which is written from held sources. Would give Charles V's declaration of 19 April 1521 in its own words (held now only through Buchheim, Pallavicino and Foxe) and the Edict in full (Mirbt holds an excerpt). | queued |
+| era 7 row 113, Katharina Schütz Zell: her letter to the citizens of Strasbourg and her answer to Rabus (1557) | filled | `fuesslin_beytraege-kirchen-reformations-geschichten-schweitzerland-theil-5-deu_1753.txt` (1753) | lutheran-wittenberg-and-its-congregations, tradition (needs-ruling) |
+| era 7 row 113, Katharina Schütz Zell: a Life with extracts from her letters and her hymn-book preface | filled | `roehrich_mittheilungen-geschichte-evangelischen-kirche-des-elsasses-bd-3-deu_1855.txt` (1855) | lutheran-wittenberg-and-its-congregations, context (needs-ruling) |
+| era 7 row 113, Katharina Schütz Zell: the Entschuldigung of 1524; the hymn-book preface in full; the Miserere exposition of 1558 | not found | — | No scan under four title and author queries. Wackernagel's Bibliographie (1855) prints the hymn book's title only. |
+| era 7 row 114, Marie Dentière: the Epistre tres utile (1539) | filled in part | `herminjard_correspondance-des-reformateurs-t5-1538-1539-fra-lat_1878.txt` (1878) | the-reformed-cities-zurich-and-geneva, tradition The editor left passages out. |
+| era 7 row 114, Marie Dentière: an opponent's account of her | filled | `jussie_le-levain-du-calvinisme-fra_revilliod-fick1853.txt` (1853) | the-tridentine-church, tradition; the-reformed-cities-zurich-and-geneva, context |
+| era 7 row 114, Marie Dentière: the whole Epistre; La guerre et deslivrance (Rilliet 1881) | not found | — | Tome 20 of the Geneva society's Mémoires et documents is not on archive.org. |
+| era 7 row 115, Jerónimo Gracián: a work of his own | filled in part | `gracian_tratado-de-la-redempcion-de-captivos-spa_momarte1609.txt` (1609) | carmelite-reform-and-spanish-mystics, tradition A treatise that speaks of his captivity; not the Peregrinación. |
+| era 7 row 115, Jerónimo Gracián: the Peregrinación de Anastasio | not found | — | No scan of the Burgos printing of 1905; the edition of 1932-33 is out by date. Mármol's Life (1619) is on archive.org with OCR that cannot be read; not taken. |
+| era 7 row 116, Fabian Fucan: Myotei mondo and Ha Daiusu | none found before 1931 | — | Nothing in a Western language; two Japanese-only volumes of 1923 and 1925 were seen and not taken. |
+| era 7 row 117, Xu Guangqi: a writing of his own in translation | filled | `chinese-repository_v19-no3-march-1850-paul-su-apology.txt` (1850) | china-mission-born-christianity, tradition One memorial, in English. |
+| era 7 row 118, Guaman Poma de Ayala: the Nueva corónica | none before 1931 | — | First reproduced in 1936. Pietschmann's paper of 1908 is not on archive.org. |
+| era 7 row 119, Bartolomé de las Casas: the Historia de las Indias | filled | `las-casas_historia-de-las-indias-t1-spa_fuensanta-sancho-rayon1875.txt` (1875) | new-spain-and-andes-mission-born-christianity, tradition |
+| era 7 row 119, Bartolomé de las Casas: the Historia de las Indias | filled | `las-casas_historia-de-las-indias-t2-spa_fuensanta-sancho-rayon1875.txt` (1875) | new-spain-and-andes-mission-born-christianity, tradition |
+| era 7 row 119, Bartolomé de las Casas: the Historia de las Indias | filled | `las-casas_historia-de-las-indias-t3-spa_fuensanta-sancho-rayon1875.txt` (1875) | new-spain-and-andes-mission-born-christianity, tradition |
+| era 7 row 119, Bartolomé de las Casas: the Historia de las Indias | filled | `las-casas_historia-de-las-indias-t4-spa_fuensanta-sancho-rayon1876.txt` (1876) | new-spain-and-andes-mission-born-christianity, tradition |
+| era 7 row 119, Bartolomé de las Casas: the Historia de las Indias | filled | `las-casas_historia-de-las-indias-t5-spa_fuensanta-sancho-rayon1876.txt` (1876) | new-spain-and-andes-mission-born-christianity, tradition |
+| era 7 row 119, Bartolomé de las Casas: the Brevísima relación in Spanish | filled | `las-casas_brevissima-relacion-de-la-destruycion-de-las-indias-spa_cadiz1821.txt` (1821) | new-spain-and-andes-mission-born-christianity, tradition |
+| era 7 row 119, Bartolomé de las Casas: the Brevísima relación in English, with a Life | filled | `macnutt_bartholomew-de-las-casas-his-life-apostolate-and-writings_1909.txt` (1909) | new-spain-and-andes-mission-born-christianity, tradition; new-spain-and-andes-mission-born-christianity, context |
+| era 7 row 120, Bernardino de Sahagún: the Historia general, Books I-XI | filled | `sahagun_historia-general-de-las-cosas-de-nueva-espana-t1-spa_bustamante1829.txt` (1829) | new-spain-and-andes-mission-born-christianity, tradition |
+| era 7 row 120, Bernardino de Sahagún: the Historia general, Books I-XI | filled | `sahagun_historia-general-de-las-cosas-de-nueva-espana-t2-spa_bustamante1829.txt` (1829) | new-spain-and-andes-mission-born-christianity, tradition |
+| era 7 row 120, Bernardino de Sahagún: the Historia general, Books I-XI | filled | `sahagun_historia-general-de-las-cosas-de-nueva-espana-t3-spa_bustamante1830.txt` (1830) | new-spain-and-andes-mission-born-christianity, tradition |
+| era 7 row 120, Bernardino de Sahagún: the Historia general, Book XII | filled | `sahagun_historia-de-la-conquista-de-mexico-libro-12-spa_bustamante1829.txt` (1829) | new-spain-and-andes-mission-born-christianity, tradition |
+| era 7 row 120, Bernardino de Sahagún: the Nahuatl of his informants (Seler 1927); the Colloquios | not found; held for Mark | — | Seler (1927) is not on archive.org. The Colloquios (Pou y Martí, 1924) is probably in a volume of the Miscellanea Ehrle that archive.org marks access-restricted; not taken. |
+| outside-witness row 10, Kâtib Çelebi | filled in part | `katib-celebi_history-of-the-maritime-wars-of-the-turks-chapters-1-4_mitchell1831.txt` (1831) | orthodoxy-under-the-ottomans-parish-millet-and-n, context (needs-ruling) Chapters I-IV; no more was translated. |
+| outside-witness row 11, Evliya Çelebi: the Travels in English | filled | `evliya-celebi_narrative-of-travels-v1-pt1_hammer1834.txt` (1834) | orthodoxy-under-the-ottomans-parish-millet-and-n, context (needs-ruling) |
+| outside-witness row 11, Evliya Çelebi: the Travels in English | filled | `evliya-celebi_narrative-of-travels-v1-pt2_hammer1846.txt` (1846) | orthodoxy-under-the-ottomans-parish-millet-and-n, context (needs-ruling) |
+| outside-witness row 11, Evliya Çelebi: the Travels in English | filled | `evliya-celebi_narrative-of-travels-v2_hammer1850.txt` (1850) | orthodoxy-under-the-ottomans-parish-millet-and-n, context (needs-ruling) |
+| outside-witness rows 12-14, Peçevi, Mustafa Ali, Selaniki | not found | — | No translation printed by 1930 was found; the Ottoman-script printing of Peçevi (1866) cannot be read in the OCR and was not taken. |
+| outside-witness row 15, Joseph ha-Kohen: Divrei ha-Yamim in English | filled | `joseph-ha-kohen_chronicles-of-rabbi-joseph-ben-joshua-ben-meir-v1_bialloblotzky1835.txt` (1835) | the-tridentine-church, context (needs-ruling) |
+| outside-witness row 15, Joseph ha-Kohen: Divrei ha-Yamim in English | filled | `joseph-ha-kohen_chronicles-of-rabbi-joseph-ben-joshua-ben-meir-v2_bialloblotzky1836.txt` (1836) | the-tridentine-church, context (needs-ruling) |
+| outside-witness row 15, Joseph ha-Kohen: Emek ha-Bakha in French | filled | `joseph-ha-kohen_la-vallee-des-pleurs-emek-ha-bakha-fra_see1881.txt` (1881) | the-tridentine-church, context (needs-ruling) |
+| outside-witness row 16, Samuel Usque: the Consolaçam | filled | `usque_consolacam-as-tribulacoens-de-israel-por_mendes-dos-remedios1906.txt` (1906) | the-tridentine-church, context (needs-ruling) |
+| outside-witness rows 17-18, Gedaliah ibn Yahya; David Gans | not found | — | No scan under any spelling tried. |
+| outside-witness row 19, Solomon ibn Verga: Shevet Yehudah in Latin | filled | `ibn-verga_historia-judaica-shevet-yehudah-lat_gentius1651.txt` (1651) | the-tridentine-church, context (needs-ruling) |
+| outside-witness row 20, Jacques-Auguste de Thou | located | — | The Latin of 1733 (seven volumes) and the French of 1734 (sixteen) are on archive.org in part; not taken for their length. His De vita sua (1621) has poor OCR and no title page in the scan; not taken. |
+| outside-witness row 21, Guicciardini: the Storia d'Italia | filled | `guicciardini_la-storia-d-italia-v1-ita_gherardi1919.txt` (1919) | the-tridentine-church, latin-papal-church-avignon-to-lateran-v, context (needs-ruling) |
+| outside-witness row 21, Guicciardini: the Storia d'Italia | filled | `guicciardini_la-storia-d-italia-v2-ita_gherardi1919.txt` (1919) | the-tridentine-church, latin-papal-church-avignon-to-lateran-v, context (needs-ruling) |
+| outside-witness row 21, Guicciardini: the Storia d'Italia | filled | `guicciardini_la-storia-d-italia-v3-ita_gherardi1919.txt` (1919) | the-tridentine-church, latin-papal-church-avignon-to-lateran-v, context (needs-ruling) |
+| outside-witness row 21, Guicciardini: the Storia d'Italia | filled | `guicciardini_la-storia-d-italia-v4-ita_gherardi1919.txt` (1919) | the-tridentine-church, latin-papal-church-avignon-to-lateran-v, context (needs-ruling) |
+| outside-witness row 22, Machiavelli: his writings in English | filled | `machiavelli_historical-political-and-diplomatic-writings-v1_detmold1882.txt` (1882) | latin-papal-church-avignon-to-lateran-v, the-tridentine-church, context (needs-ruling) |
+| outside-witness row 22, Machiavelli: his writings in English | filled | `machiavelli_historical-political-and-diplomatic-writings-v2_detmold1882.txt` (1882) | latin-papal-church-avignon-to-lateran-v, the-tridentine-church, context (needs-ruling) |
+| outside-witness row 22, Machiavelli: his writings in English | filled | `machiavelli_historical-political-and-diplomatic-writings-v3_detmold1882.txt` (1882) | latin-papal-church-avignon-to-lateran-v, the-tridentine-church, context (needs-ruling) |
+| outside-witness row 22, Machiavelli: his writings in English | filled | `machiavelli_historical-political-and-diplomatic-writings-v4_detmold1882.txt` (1882) | latin-papal-church-avignon-to-lateran-v, the-tridentine-church, context (needs-ruling) |
+| outside-witness row 23, Jean Bodin: the Six Books in English | filled | `bodin_six-bookes-of-a-commonweale_knolles1606.txt` (1606) | the-huguenots, context (needs-ruling) |
+| outside-witness row 23, Jean Bodin: the Colloquium heptaplomeres | filled | `bodin_colloquium-heptaplomeres-lat_noack1857.txt` (1857) | the-huguenots, context (needs-ruling) |
+| outside-witness row 24, Montaigne: the Essays in Florio's English | filled | `montaigne_essays-v1_florio-saintsbury1892.txt` (1892) | the-huguenots, context (needs-ruling) |
+| outside-witness row 24, Montaigne: the Essays in Florio's English | filled | `montaigne_essays-v2_florio-saintsbury1893.txt` (1893) | the-huguenots, context (needs-ruling) |
+| outside-witness row 24, Montaigne: the Essays in Florio's English | filled | `montaigne_essays-v3_florio-saintsbury1893.txt` (1893) | the-huguenots, context (needs-ruling) |
+| outside-witness row 25, Vasari | located | — | Foster's English (1850-52, five volumes) and de Vere's (1912-15, ten) are on archive.org in part; not taken for their length. |
+| outside-witness row 26, Leo Africanus | filled | `leo-africanus_history-and-description-of-africa-v1_pory-brown1896.txt` (1896) | the-coptic-church-under-the-ottomans, context (needs-ruling) |
+| outside-witness row 26, Leo Africanus | filled | `leo-africanus_history-and-description-of-africa-v2_pory-brown1896.txt` (1896) | the-coptic-church-under-the-ottomans, context (needs-ruling) |
+| outside-witness row 26, Leo Africanus | filled | `leo-africanus_history-and-description-of-africa-v3_pory-brown1896.txt` (1896) | the-coptic-church-under-the-ottomans, context (needs-ruling) |
+| outside-witness row 27, Busbecq: the Turkish Letters and the letters from France | filled | `busbecq_life-and-letters-v1_forster-daniell1881.txt` (1881) | orthodoxy-under-the-ottomans-parish-millet-and-n, context (needs-ruling) |
+| outside-witness row 27, Busbecq: the Turkish Letters and the letters from France | filled | `busbecq_life-and-letters-v2_forster-daniell1881.txt` (1881) | the-huguenots, context (needs-ruling) |
+| council row, Marburg Colloquy (1529): the colloquy's record, first choice (Schirrmacher) | filled | `schirrmacher_briefe-und-acten-marburg-1529-augsburg-1530-lat-deu_1876.txt` (1876) | lutheran-wittenberg-and-its-congregations, tradition; the-reformed-cities-zurich-and-geneva, context Latin acts of the sessions; the host calls the item a reprint of 1968, which the scan is not. |
+| council row, Marburg Colloquy (1529): the participants' reports and the signed articles (Weimar edition 30/3) | filled | `luther_werke-kritische-gesamtausgabe-bd-30-abt-3-deu-lat_weimar1910.txt` (1910) | lutheran-wittenberg-and-its-congregations, the-reformed-cities-zurich-and-geneva, tradition; lutheran-wittenberg-and-its-congregations, tradition |
+| council row, Marburg Colloquy (1529): Jacobs's Book of Concord, vol. II | not taken | — | The only scan is an undated upload whose title-page year was not read. Erichson (1880) is a narrative with poor OCR; not taken. |
+| council row, Diet of Worms (1521): the Diet's acts (Reichstagsakten II) | filled | `deutsche-reichstagsakten_juengere-reihe-bd-2-reichstag-zu-worms-1521-deu-lat-fra_wrede1896.txt` (1896) | lutheran-wittenberg-and-its-congregations, tradition; the-tridentine-church, context |
+| council row, Diet of Worms (1521): Kidd's Documents (also Marburg and Augsburg) | filled | `kidd_documents-illustrative-of-the-continental-reformation-lat-deu-fra-eng_1911.txt` (1911) | lutheran-wittenberg-and-its-congregations, tradition; the-reformed-cities-zurich-and-geneva, tradition; the-tridentine-church, context |
+| Wanted Sources council row 22, Colloquy of Poissy (1561) | held already | — | `beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt`, the chapter 'Le Colloque de Poissy' from about file line 26871, with Beza's speech; the councils scan already says so. |
+| Open-Gaps 273, not held: Aleander's dispatches | filled | `balan_monumenta-reformationis-lutheranae-1521-1525-lat-ita_1884.txt` (1884) | the-tridentine-church, tradition; lutheran-wittenberg-and-its-congregations, context |
+| Open-Gaps 273, not held: Luther's Worms speech in its own language; Charles V's French declaration; the Edict | filled | — | In the Reichstagsakten volume and in Kidd, above. Whether either prints the Edict in full was not checked. |
+| Open-Gaps 273, not held: the Confutatio pontificia, Latin | filled | `corpus-reformatorum_v27-confutatio-et-apologia-confessionis-augustanae-lat-deu_bindseil1859.txt` (1859) | the-tridentine-church, tradition; lutheran-wittenberg-and-its-congregations, tradition |
+| Open-Gaps 273, not held: the Confutatio pontificia, English | filled | `reu_augsburg-confession-collection-of-sources_1930.txt` (1930) | lutheran-wittenberg-and-its-congregations, tradition; the-tridentine-church, context Imprint 1930. |
+| Open-Gaps 273, not held: the full recess of 19 November 1530 | filled in part | `foerstemann_urkundenbuch-reichstag-zu-augsburg-1530-bd-2-deu-lat_1835.txt` (1835) | lutheran-wittenberg-and-its-congregations, tradition The Diet's papers to its close; the recess itself was not found as a text. Kidd and Reu print the draft recess of 22 September. |
+| Open-Gaps 273, not held: a Campeggio document of 1530 | filled | `laemmer_monumenta-vaticana-historiam-ecclesiasticam-saeculi-xvi-lat-ita_1861.txt` (1861) | the-tridentine-church, tradition; lutheran-wittenberg-and-its-congregations, context |
+| Open-Gaps 273, not held: Luther's Coburg letters, in the original | filled | `luther_briefe-sendschreiben-und-bedenken-theil-4-lat-deu_de-wette1827.txt` (1827) | lutheran-wittenberg-and-its-congregations, tradition |
+| Open-Gaps 273, not held: Luther's Coburg letters, in English | filled | `luther_letters-of-martin-luther_currie1908.txt` (1908) | lutheran-wittenberg-and-its-congregations, tradition |
+| Open-Gaps 273, not held: Herminjard (for Chanforan) | filled | `herminjard_correspondance-des-reformateurs-t2-1527-1532-fra-lat_1868.txt` (1868) | the-waldensian-reformed-union, context (needs-ruling); the-reformed-cities-zurich-and-geneva, tradition A letter from the valleys and the editor's notes; no account of the assembly by one who was there. |
+| Open-Gaps 273, not held: Scultetus's Annales | located | — | The scan of 1618 holds the first decade only (1516-1525); von der Hardt's reprint (1717) runs to 1535 but its OCR is poor and the 1532 passage was not found. Neither taken. |
+| Open-Gaps 273, not held: the Olivetan Bible with its Apologie du translateur | held for Mark | — | The scan of the 1535 Bible carries the French national library's notice on commercial reuse, and its black letter cannot be read in the OCR. Reuss (1866) describes the preface and does not print it. |
+| Open-Gaps 273, not held: the Chanforan manuscript at Dublin | not searched | — | A manuscript; no printing was looked for beyond Herminjard. |
+
+**Cautions the filled texts carry.**
+- Katharina Zell: her own words are in Füsslin's reprint of 1753, in black letter the OCR reads only fairly;
+  Rabus's letters stand in the same section. Röhrich is a Life of 1855 that quotes her.
+- Marie Dentière: Herminjard prints the Epistre with passages left out. Jeanne de Jussie is an opponent.
+- Gracián: the treatise speaks of his captivity; it is not his own account of his life.
+- Xu Guangqi: one memorial, in an unnamed translator's English of 1850. The heading dates the charge against the
+  Jesuits 1617.
+- Las Casas: he tells his own part in the third person, as "el clérigo Casas", and only in volumes IV and V. The
+  Historia and the Cádiz Brevísima are in Spanish; MacNutt's English of the Brevísima is of 1909.
+- Sahagún: Bustamante's Spanish only. The Nahuatl of his informants is not held, and the notes and supplements
+  are the editor's.
+- Marburg: Schirrmacher's Latin acts come from Aurifaber's collection, the Wittenberg side; his German parts are
+  poorly read, and whether he prints the articles was not established. The Weimar volume holds the reports of
+  Hedio, the Anonymous, Collin, Osiander and Brenz and the articles with their signatures. Kidd prints the
+  fifteenth article only, with the signatures.
+- Worms: whether the Edict stands in full in Kidd or in the Reichstagsakten was not checked. Which of Aleander's
+  letters in Balan fall in the weeks of the hearing was not checked.
+- Augsburg: the recess of 19 November was not found as a text; Kidd and Reu print the draft of 22 September.
+  Reu's imprint is 1930 and his preface is dated 15 December 1930.
+- The outside witnesses are held in their translators' English, French and Latin, except Usque (Portuguese),
+  Guicciardini (Italian) and Bodin's Colloquium (Latin). None was read in depth. The Latin Shevet Yehudah does
+  not name its author on the title page. Kâtib Çelebi is four chapters. The title page of Evliya's second part
+  says "Part I".
+
+**Not taken.** Every duplicate, reprint, long set and unreadable scan is listed in the search log.
 
 ## Later — queued
 

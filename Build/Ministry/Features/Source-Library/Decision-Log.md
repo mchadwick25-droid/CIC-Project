@@ -493,3 +493,50 @@ Record: `Build/Ministry/Operations/Audits/2026-11-15_library-era6/Search_Log.md`
 ### Next action
 
 Era 7 wants in a fresh session, the same way.
+
+## Era 7 fill (2026-11-15)
+
+Fifty-six files for the era 7 rows of the wanted list (person rows 113-120, outside-witness rows 10-27), the two
+council rows queued in `CFT-Wants.md` (Marburg and Worms) and the Library items of Open-Gaps 273. Record:
+`Build/Ministry/Operations/Audits/2026-11-15_library-era7/Search_Log.md`; the rows are in `CFT-Wants.md`,
+"Era 7 (1517-1650), filled".
+
+**Decided here.**
+- Rights: only a printed imprint of 1930 or earlier. Sixteen years were read on the scan's page image where the
+  OCR title page gave none or a doubtful one; the leaf is named in each header.
+- The title page decides, not the host's record. The one scan of Schirrmacher's Briefe und Acten is catalogued
+  by the host as the Amsterdam reprint of 1968. The scan is the Gotha printing of 1876: the title page, old
+  library stamps, the printer's line on the last leaf, and no reprint leaf. It was taken, and the header says why.
+  The same reading set aside the host's dates for Füsslin (1741 for 1753), the Reichstagsakten (1893 for 1896),
+  Förstemann (1833 for 1835) and The Chinese Repository (1832 for 1850).
+- A scan with no title page is not taken on its companions' imprint: the first scan of Machiavelli's fourth
+  volume gave way to one that has its title page; de Thou's De vita sua was not taken.
+- A scan that is a modern reprint is out: the Kraus reprint of The Chinese Repository, the Burt Franklin Leo
+  Africanus, the facsimiles of Bodin (1962) and Kidd (1967). The single monthly number of the Repository with Xu
+  Guangqi's memorial is an original of 1850 and was taken.
+- A notice on reuse is held for Mark: the scan of the Olivetan Bible carries the French national library's
+  notice on commercial reuse. Access-restricted volumes (the Miscellanea Ehrle) were not taken.
+- An abridged or partial own text is taken and says so: Dentière's Epistre with the editor's cuts; Kâtib Çelebi's
+  four chapters; Gracián's treatise in place of his Peregrinación.
+- One want was held already: the Colloquy of Poissy, in Beza's Histoire ecclésiastique.
+- Long sets were located and not taken: de Thou (seven and sixteen volumes) and Vasari (five and ten).
+- Reu carries the imprint 1930, the last year the date rule admits; his preface is dated 15 December 1930.
+- Shelves. Rows for Luther's own texts sit on `lutheran-wittenberg-and-its-congregations`; the person entry
+  `martin-luther` has no shelf. Katharina Zell is `needs-ruling` on the same entry: Strasbourg has none of its
+  own. The Ottoman witnesses and Busbecq sit on `orthodoxy-under-the-ottomans-parish-millet-and-n`; the Jewish
+  chroniclers, Guicciardini and Machiavelli on `the-tridentine-church` (the last two also on
+  `latin-papal-church-avignon-to-lateran-v`); Bodin and Montaigne on `the-huguenots`; Leo Africanus on
+  `the-coptic-church-under-the-ottomans`. All of these are `context`, `needs-ruling`: no census entry is the
+  Ottoman state, the Jews of Europe, Italy's politics or North Africa. None was read in depth.
+- Two built worlds' shelves gained rows and lost none: `lutheran-wittenberg-and-its-congregations` and
+  `the-reformed-cities-zurich-and-geneva`.
+
+**For the tree, not the Library.**
+- Marburg now has a record of the sessions and the signed articles, so the held-back profile can be written.
+- Nothing printed by 1930 was found for Fabian Fucan or Guaman Poma. Zell's Entschuldigung, Dentière's whole
+  Epistre, Gracián's Peregrinación, Seler's Sahagún and the Colloquios exist in print before 1931 but are not
+  on archive.org, or not open there.
+
+### Next action
+
+Era 8 wants in a fresh session, when era 7's Whos begin.
