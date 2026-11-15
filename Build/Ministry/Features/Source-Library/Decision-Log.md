@@ -390,3 +390,35 @@ Latin and Greek of Anna Komnene for the Bogomils, and Stephen of Bourbon, Rainer
 ### Next action
 
 The era 6 wants (1300-1517, 14 person sources, 4 major) in a fresh session, the same way.
+
+## 2026-11-15 — Church Family Tree wants, eras 1-3 (70-622)
+
+**Done.** Twenty-five archive.org files for the eras 1-3 rows of the combined wanted list: person rows 1-13,
+council rows 1-8 and Library-label correction 19. Mark restarted the Library on 15 November, eras 1-7 first, in a
+fresh session per batch. File by file: `CFT-Wants.md`, eras 1-3. The search record is
+`Build/Ministry/Operations/Audits/2026-11-15_library-eras1-3/Search_Log.md`; the review is `R1_review.md` beside it.
+
+**Decided here.**
+- Rights: only a printed imprint of 1930 or earlier, read on the title page. Two finds whose title-page OCR could
+  not be read (Harnack 1904, de Boor 1887) were left out, since Holl and Bekker fill the same wants.
+- Three wants were held already and are marked HELD: Malalas (PG 97), the Roman synod of 377 (the notice in Mansi
+  III) and the Donatist council against Tyconius (Augustine, in PL 43). The held Malalas now has a shelf row.
+- Mani: the followers' texts the audit named are in copyright. The Library took the Manichaean texts printed
+  before 1931 (Turfan, Dunhuang) and two Muslim witnesses who quote Mani's books (the Fihrist, al-Biruni). The
+  Manichaean texts are `needs-ruling`: the manuscripts are later than the entry's window. The witnesses are `context`.
+- A text earlier than its entry's window is `antecedent`: Ezana's inscriptions on the Aksumite entry (451-615) and
+  Theodoret's chapter on Maron on the Maronite entry (1100-1300).
+- A text whose date or author is disputed is `needs-ruling`: the fragments of Paul of Samosata, Agathangelos, Nau's
+  Maronite texts, and the Latin Life of Sabas, which its own volume says may be Metaphrastes's paraphrase.
+- A later historian is `context`: Ukhtanes on the break with the Georgians, Simocatta, Malalas.
+- Naironus (1679) is vendored with no shelf: no Maronite entry covers its date.
+- Unreadable originals were not taken: the Armenian Book of Letters (1901) and the Armenian Shushanik (1853).
+
+**For the tree, not the Library.**
+- Melito's Peri Pascha cannot be filled from the public domain: it was first printed in 1940.
+- The Life of Sabas is held only in a Latin version that may not be Cyril's wording. A profile should say so.
+- Shushanik, and the whole History of Movses Daskhurantsi, stay wanted.
+
+### Next action
+
+The eras 4-5 leftovers, era 6 and era 7 wants, each in a fresh session, the same way.

@@ -3,6 +3,26 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: armenian-christianity-conversion-era
 works:
+- row_id: langlois_collection-historiens-armenie-tomes1-2-fra_1867-1869--agathangelos-history-french-langlois-1867
+  work: Agathangelos, History of Tiridates and of the preaching of Gregory the Illuminator,
+    French (Langlois 1867)
+  author: agathangelos
+  locus: Agathangelos from about OCR line 13550; add 12 to OCR line numbers
+  role: tradition
+  confidence: needs-ruling
+  note: The Armenian church's own account of its founding patriarch. The text is usually dated
+    after 451, just outside this window, and its author's claim to be an eyewitness is not
+    accepted; the placing needs a ruling.
+  source_file: langlois_collection-historiens-armenie-tomes1-2-fra_1867-1869.txt
+- row_id: agathangelos_agathangelus-und-die-akten-gregors-von-armenien-grc-deu_lagarde1887--agathangelos-greek-version-lagarde-1887
+  work: Agathangelos, the Greek version, with the Acts of Gregory (Lagarde 1887)
+  author: agathangelos
+  locus: the Greek from about OCR line 195; add 12 to OCR line numbers
+  role: tradition
+  confidence: needs-ruling
+  note: The old Greek translation of the Armenian life of Gregory. Placed as the French of
+    Langlois is; the Greek OCR is fair to garbled, so quote only after checking the page.
+  source_file: agathangelos_agathangelus-und-die-akten-gregors-von-armenien-grc-deu_lagarde1887.txt
 - row_id: moses-khoren_history-of-armenians-ita_mechitaristi1850--history-of-the-armenians
   work: History of the Armenians
   author: moses-khoren

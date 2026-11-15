@@ -1,0 +1,20 @@
+source_file: theodoret_opera-omnia-t3-historia-religiosa-pg82-grc-lat_migne1864.txt
+assignments:
+- row_id: theodoret_opera-omnia-t3-historia-religiosa-pg82-grc-lat_migne1864--theodoret-historia-religiosa-greek-pg-82
+  work: 'Theodoret, Historia religiosa (Philotheos), Greek and Latin (PG 82)'
+  author: theodoret
+  locus: 'from about OCR line 99629; add 12 to OCR line numbers'
+  atlas_ids:
+  - antiochene-exegetical-christianity-chrysostom-ce
+  role: tradition
+  confidence: provisional
+  note: 'The bishop of Cyrrhus''s own lives of the Syrian monks he knew, written about 444.'
+- row_id: theodoret_opera-omnia-t3-historia-religiosa-pg82-grc-lat_migne1864--theodoret-on-maron-historia-religiosa-16-pg-82
+  work: 'Theodoret, Historia religiosa 16: Maron (PG 82)'
+  author: theodoret
+  locus: 'chapter 16 at about OCR line 109550; add 12 to OCR line numbers'
+  atlas_ids:
+  - maronite-christianity
+  role: antecedent
+  confidence: provisional
+  note: 'The one contemporary account of the hermit from whom the Maronites take their name. Far earlier than this entry''s window, so placed as an antecedent.'

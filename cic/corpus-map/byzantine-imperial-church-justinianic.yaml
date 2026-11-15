@@ -208,6 +208,25 @@ works:
 
     '
   source_file: john-ephesus_lives-eastern-saints-po18_brooks1924.txt
+- row_id: john-malalas_chronographia-grc-lat_dindorf1831--john-malalas-chronographia-dindorf-1831
+  work: John Malalas, Chronographia, Greek and Latin (Dindorf 1831)
+  author: john-malalas
+  locus: book XVIII from about OCR line 28677; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: An Antiochene chronicler's world history down to Justinian, written inside this window.
+    A lay writer's witness to the church of his day.
+  source_file: john-malalas_chronographia-grc-lat_dindorf1831.txt
+- row_id: theodore-abu-qurrah_opuscula-with-andrew-crete-malalas-pg97-grc-lat_migne1860--john-malalas-chronographia-pg-97
+  work: John Malalas, Chronographia, Greek and Latin (PG 97)
+  author: john-malalas
+  locus: from about OCR line 6696; book XVIII from about 55000 to 62320; add 12 to OCR line
+    numbers
+  role: context
+  confidence: provisional
+  note: An Antiochene chronicler's world history down to Justinian, written inside this window.
+    The Latin is readable; for the Greek use Dindorf 1831.
+  source_file: theodore-abu-qurrah_opuscula-with-andrew-crete-malalas-pg97-grc-lat_migne1860.txt
 - row_id: john-nikiu_chronicle_charles1916--constantinople-justinian-heraclius
   work: Chronicle chapters on Constantinople from Justinian to Phocas (XC-CV passim)
   author: john-nikiu
@@ -271,6 +290,15 @@ works:
 
     '
   source_file: liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-8-492-536-lat_welter-facsimile1901--synod-of-constantinople-536-in-mansi-8
+  work: The synod of Constantinople of 536 under Menas, the acts, in Mansi tom. 8
+  author: mansi
+  locus: the acts from about OCR line 90500 to 127424; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: The synod's own acts in five sessions, with the sentences on Anthimus and Severus.
+    The imperial church speaking in council, inside this window.
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-8-492-536-lat_welter-facsimile1901.txt
 - row_id: chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894--marcellinus-comes
   work: Marcellinus Comes, Chronicon (379-534) with its continuation to 548
   author: marcellinus-comes
@@ -404,6 +432,16 @@ works:
 
     '
   source_file: romanos-melodist_cantica-grc_pitra1888.txt
+- row_id: theophylact-simocatta_historiae-with-genesius-grc-lat_bekker1834--theophylact-simocatta-histories-bekker-1834
+  work: Theophylact Simocatta, Histories, Greek and Latin (Bekker 1834)
+  author: theophylact-simocatta
+  locus: book I from about OCR line 1866; book VIII from 16732; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: A court official's history of the emperor Maurice (582-602), written about 630, a
+    few years after this window closes. A secular historian's witness to the church of his
+    day.
+  source_file: theophylact-simocatta_historiae-with-genesius-grc-lat_bekker1834.txt
 - row_id: chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894--victor-tunnuna
   work: Victor of Tunnuna, Chronicon (444-566)
   author: victor-tunnunensis

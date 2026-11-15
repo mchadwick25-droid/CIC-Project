@@ -25474,3 +25474,253 @@ queue:
     verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 633,508 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: benjamin-tudela_itinerary-heb-eng_adler1907.txt
+  - title: 'Epiphanius, erster Band: Ancoratus und Panarion haer. 1-33, herausgegeben von Karl Holl (Die griechischen christlichen Schriftsteller 25)'
+    author: 'Epiphanius of Salamis'
+    year: '1915'
+    world: valentinian-and-other-gnostic-christianities
+    why: 'Wanted Sources, era 1 row 3 (Ptolemy the Valentinian).'
+    url: https://archive.org/details/epiphanius01epip
+    rights_basis: 'Public Domain (pd-us-by-date: published 1915); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, eras 1-3 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 2,028,751 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915.txt
+  - title: 'Paulus von Samosata: eine Untersuchung zur altkirchlichen Literatur- und Dogmengeschichte, von Friedrich Loofs (Texte und Untersuchungen 44, 5)'
+    author: 'Paul of Samosata (fragments); Friedrich Loofs'
+    year: '1924'
+    world: antiochene-church-third-century
+    why: 'Wanted Sources, era 1 row 4 (Paul of Samosata).'
+    url: https://archive.org/details/paulusvonsamosat0000unse
+    rights_basis: 'Public Domain (pd-us-by-date: published 1924); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, eras 1-3 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 905,997 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: paul-samosata_paulus-von-samosata-fragmente-tu44-5-deu-grc_loofs1924.txt
+  - title: 'Paul de Samosate: étude historique, par Gustave Bardy (Spicilegium sacrum Lovaniense, fasc. 4)'
+    author: 'Paul of Samosata (fragments); Gustave Bardy'
+    year: '1923'
+    world: antiochene-church-third-century
+    why: 'Wanted Sources, era 1 row 4 (Paul of Samosata).'
+    url: https://archive.org/details/paul-de-samosate-etude-historique-gustave-bardy
+    rights_basis: 'Public Domain (pd-us-by-date: published 1923); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, eras 1-3 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,446,723 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: paul-samosata_paul-de-samosate-etude-historique-fra-grc_bardy1923.txt
+  - title: 'Mani, seine Lehre und seine Schriften: ein Beitrag zur Geschichte des Manichäismus. Aus dem Fihrist des Abû''lfaradsch Muhammad ben Ishak al-Warrâk, im Text nebst Uebersetzung, Commentar und Index, von Gustav Flügel'
+    author: 'Ibn al-Nadim'
+    year: '1862'
+    world: manichaeism
+    why: 'Wanted Sources, era 1 row 1 (Mani).'
+    url: https://archive.org/details/maniseinelehreun00ibna
+    rights_basis: 'Public Domain (pd-us-by-date: published 1862); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, eras 1-3 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,077,551 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: mani_mani-seine-lehre-und-seine-schriften-fihrist-deu-ara_fluegel1862.txt
+  - title: 'The Chronology of Ancient Nations: an English version of the Arabic text of the Athâr-ul-Bâkiya of Albîrûnî, translated and edited by C. Edward Sachau'
+    author: 'al-Biruni'
+    year: '1879'
+    world: manichaeism
+    why: 'Wanted Sources, era 1 row 1 (Mani).'
+    url: https://archive.org/details/chronologyofanci00biru
+    rights_basis: 'Public Domain (pd-us-by-date: published 1879); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, eras 1-3 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,320,778 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: biruni_chronology-of-ancient-nations_sachau1879.txt
+  - title: 'Abhandlungen der Königlich Preussischen Akademie der Wissenschaften, Jahrgang 1911, philosophisch-historische Classe (the whole volume); contains A. von Le Coq, Türkische Manichaica aus Chotscho I'
+    author: 'Manichaean community of Turfan; A. von Le Coq'
+    year: '1911'
+    world: manichaeism
+    why: 'Wanted Sources, era 1 row 1 (Mani).'
+    url: https://archive.org/details/AbhandDerPreussAkadDerWissen1911
+    rights_basis: 'Public Domain (pd-us-by-date: published 1911); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, eras 1-3 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,124,560 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: manichaean-texts_tuerkische-manichaica-aus-chotscho-1-in-abhandlungen-preuss-akademie-1911-deu-oui_le-coq1911.txt
+  - title: 'Journal asiatique, dixième série, tome XVIII (1911, the whole volume); contains Éd. Chavannes and P. Pelliot, Un traité manichéen retrouvé en Chine, traduit et annoté (first part)'
+    author: 'Manichaean community in China; Chavannes and Pelliot'
+    year: '1911'
+    world: manichaeism
+    why: 'Wanted Sources, era 1 row 1 (Mani).'
+    url: https://archive.org/details/in.ernet.dli.2015.530757
+    rights_basis: 'Public Domain (pd-us-by-date: published 1911); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, eras 1-3 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,335,126 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: manichaean-texts_traite-manicheen-retrouve-en-chine-pt1-in-journal-asiatique-10-18-fra_chavannes-pelliot1911.txt
+  - title: 'Journal asiatique, onzième série, tome I (1913, the whole volume); contains Éd. Chavannes and P. Pelliot, Un traité manichéen retrouvé en Chine, traduit et annoté (second part)'
+    author: 'Manichaean community in China; Chavannes and Pelliot'
+    year: '1913'
+    world: manichaeism
+    why: 'Wanted Sources, era 1 row 1 (Mani).'
+    url: https://archive.org/details/in.ernet.dli.2015.530758
+    rights_basis: 'Public Domain (pd-us-by-date: published 1913); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, eras 1-3 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,568,147 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: manichaean-texts_traite-manicheen-retrouve-en-chine-pt2-in-journal-asiatique-11-1-fra_chavannes-pelliot1913.txt
+  - title: 'The Journal of the Royal Asiatic Society of Great Britain and Ireland for 1911 (the whole volume); contains A. von Le Coq, Dr. Stein''s Turkish Khuastuanift from Tun-huang, being a confession-prayer of the Manichaean auditores'
+    author: 'Manichaean community of Central Asia; A. von Le Coq'
+    year: '1911'
+    world: manichaeism
+    why: 'Wanted Sources, era 1 row 1 (Mani).'
+    url: https://archive.org/details/in.ernet.dli.2015.70558
+    rights_basis: 'Public Domain (pd-us-by-date: published 1911); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, eras 1-3 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 2,394,452 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: manichaean-texts_dr-steins-turkish-khuastuanift-in-jras-1911_le-coq1911.txt
+  - title: 'L. Caeli Firmiani Lactanti Opera omnia, pars I: Divinae institutiones et Epitome divinarum institutionum, recensuit Samuel Brandt (Corpus scriptorum ecclesiasticorum Latinorum 19)'
+    author: 'Lactantius'
+    year: '1890'
+    world: latin-apologists
+    why: 'Wanted Sources, Library-label correction 19 (Open-Gaps 234): the held CSEL 19 scan has no page 411.'
+    url: https://archive.org/details/corpusscriptorum0019vari
+    rights_basis: 'Public Domain (pd-us-by-date: published 1890); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, eras 1-3 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 2,093,938 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: lactantius_divinae-institutiones-epitome-csel19-second-scan-lat_brandt1890.txt
+  - title: 'Collection des historiens anciens et modernes de l''Arménie, publiée en français par Victor Langlois, tome premier (1867) and tome deuxième (1869), in one file; tome I contains Agathange, Histoire du règne de Tiridate et de la prédication de saint Grégoire l''Illuminateur'
+    author: 'Agathangelos'
+    year: '1867'
+    world: armenian-christianity-conversion-era
+    why: 'Wanted Sources, era 2 row 6 (Gregory the Illuminator).'
+    url: https://archive.org/details/chama-01-02-langlois-etal-1867-1869
+    rights_basis: 'Public Domain (pd-us-by-date: published 1867); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, eras 1-3 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 4,159,688 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: langlois_collection-historiens-armenie-tomes1-2-fra_1867-1869.txt
+  - title: 'Agathangelus und die Akten Gregors von Armenien, neu herausgegeben von Paul de Lagarde (Abhandlungen der Königlichen Gesellschaft der Wissenschaften zu Göttingen 35)'
+    author: 'Agathangelos'
+    year: '1887'
+    world: armenian-christianity-conversion-era
+    why: 'Wanted Sources, era 2 row 6 (Gregory the Illuminator).'
+    url: https://archive.org/details/agathangelusundd00agat
+    rights_basis: 'Public Domain (pd-us-by-date: published 1887); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, eras 1-3 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 499,402 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: agathangelos_agathangelus-und-die-akten-gregors-von-armenien-grc-deu_lagarde1887.txt
+  - title: 'Deutsche Aksum-Expedition, Band IV: Sabaische, griechische und altabessinische Inschriften, von Enno Littmann'
+    author: 'Ezana of Aksum'
+    year: '1913'
+    world: aksumite-christianity
+    why: 'Wanted Sources, era 2 row 7 (Ezana of Aksum).'
+    url: https://archive.org/details/SabaischeGriechischeUndAltabessinischeInschriften
+    rights_basis: 'Public Domain (pd-us-by-date: published 1913); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, eras 1-3 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 521,475 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: ezana_deutsche-aksum-expedition-bd4-inschriften-deu-gez-grc_littmann1913.txt
+  - title: 'A History of Ethiopia, Nubia and Abyssinia (according to the hieroglyphic inscriptions of Egypt and Nubia, and the Ethiopian chronicles), by Sir E. A. Wallis Budge, volume I'
+    author: 'E. A. Wallis Budge'
+    year: '1928'
+    world: aksumite-christianity
+    why: 'Wanted Sources, era 2 row 7 (Ezana of Aksum).'
+    url: https://archive.org/details/india.history.resource.106145
+    rights_basis: 'Public Domain (pd-us-by-date: published 1928); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, eras 1-3 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 803,409 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: budge_history-of-ethiopia-nubia-and-abyssinia-v1_1928.txt
+  - title: 'Beiträge zur albanischen Geschichte, von Agop Manandian (Inaugural-Dissertation, Jena)'
+    author: 'Movses Daskhurantsi; Agop Manandian'
+    year: '1897'
+    world: church-of-caucasian-albania
+    why: 'Wanted Sources, era 3 rows 9 (Vachagan III) and 10 (Movses Daskhurantsi); council row 4 (Aghuen).'
+    url: https://archive.org/details/BeitrageZurAlbanischenGeschichte
+    rights_basis: 'Public Domain (pd-us-by-date: published 1897); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, eras 1-3 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 114,631 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: movses-daskhurantsi_beitraege-zur-albanischen-geschichte-deu_manandian1897.txt
+  - title: 'Texte und Untersuchungen zur Geschichte der altchristlichen Literatur, Neue Folge XI (der ganzen Reihe XXVI), the whole bound volume; Heft 4 is Erwand Ter-Minassiantz, Die armenische Kirche in ihren Beziehungen zu den syrischen Kirchen bis zum Ende des 13. Jahrhunderts'
+    author: 'Erwand Ter-Minassiantz'
+    year: '1904'
+    world: armenian-christianity-after-avarayr
+    why: 'Wanted Sources, council rows 5 and 7 (the first and second councils of Dvin).'
+    url: https://archive.org/details/diearmenischeki00mingoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1904); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, eras 1-3 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,964,276 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: ter-minassiantz_armenische-kirche-in-ihren-beziehungen-zu-den-syrischen-kirchen-tu26-deu_1904.txt
+  - title: 'Deux historiens arméniens: Kiracos de Gantzac, XIIIe s., Histoire d''Arménie; Oukhtanès d''Ourha, Xe s., Histoire en trois parties; traduits par M. Brosset'
+    author: 'Ukhtanes; Kirakos of Gandzak'
+    year: '1870'
+    world: armenian-christianity-before-the-bagratids
+    why: 'Wanted Sources, council row 8 (the third council of Dvin).'
+    url: https://archive.org/details/bub_gb_BK09AAAAYAAJ
+    rights_basis: 'Public Domain (pd-us-by-date: published 1870); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, eras 1-3 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,370,921 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: brosset_deux-historiens-armeniens-kiracos-oukhtanes-fra_1870.txt
+  - title: 'Patrologiae cursus completus, series Graeca, tomus LXXXII: Theodoreti Cyrensis episcopi opera omnia, tomus tertius (with the Historia ecclesiastica and the Historia religiosa)'
+    author: 'Theodoret of Cyrrhus'
+    year: '1864'
+    world: maronite-christianity
+    why: 'Wanted Sources, era 2 row 5 (Maron).'
+    url: https://archive.org/details/patrologiae_cursus_completus_gr_vol_082
+    rights_basis: 'Public Domain (pd-us-by-date: published 1864); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, eras 1-3 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 8,475,812 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: theodoret_opera-omnia-t3-historia-religiosa-pg82-grc-lat_migne1864.txt
+  - title: 'Opuscules maronites: œuvres inédites de Jean Maron, chronique syriaque maronite et autres; première partie, texte syriaque autographié et traduction française, par F. Nau'
+    author: 'John Maron (attributed); François Nau'
+    year: '1899'
+    world: maronite-christianity
+    why: 'Wanted Sources, era 2 row 5 (Maron).'
+    url: https://archive.org/details/opusculesmaronit11maro
+    rights_basis: 'Public Domain (pd-us-by-date: published 1899); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, eras 1-3 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 171,260 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: nau_opuscules-maronites-pt1-syr-fra_1899.txt
+  - title: 'Opuscules maronites, seconde partie: fragments d''une chronique syriaque maronite and other short texts; Vie de Sévère, patriarche d''Antioche, par Zacharie le Scholastique; par F. Nau'
+    author: 'John Maron (attributed); François Nau'
+    year: '1900'
+    world: maronite-christianity
+    why: 'Wanted Sources, era 2 row 5 (Maron).'
+    url: https://archive.org/details/opusculesmaronit00maro
+    rights_basis: 'Public Domain (pd-us-by-date: published 1900); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, eras 1-3 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 281,649 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: nau_opuscules-maronites-pt2-syr-fra_1900.txt
+  - title: 'Dissertatio de origine, nomine, ac religione Maronitarum, auctore Fausto Nairono Banesio Maronita'
+    author: 'Faustus Naironus'
+    year: '1679'
+    world: maronite-christianity
+    why: 'Wanted Sources, era 2 row 5 (Maron), the Maronite tradition''s own account.'
+    url: https://archive.org/details/bub_gb_lr_kdYWDeXAC
+    rights_basis: 'Public Domain (pd-us-by-date: published 1679); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, eras 1-3 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 194,822 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: naironus_dissertatio-de-origine-nomine-ac-religione-maronitarum-lat_1679.txt
+  - title: 'Historiae seu vitae sanctorum juxta optimam Coloniensem editionem, a Laurentio Surio; volumen XII, December (the whole volume); contains the Vita S. Sabae abbatis'
+    author: 'Cyril of Scythopolis'
+    year: '1880'
+    world: chalcedonian-monasticism-judean-desert-and-gaza
+    why: 'Wanted Sources, era 3 row 11 (Sabas).'
+    url: https://archive.org/details/historiaeseuvita0012suri
+    rights_basis: 'Public Domain (pd-us-by-date: published 1880); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, eras 1-3 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 2,327,781 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: cyril-scythopolis_vita-sabae-in-surius-vitae-sanctorum-v12-december-lat_1880.txt
+  - title: 'Theophylacti Simocattae Historiarum libri octo, recognovit Immanuel Bekkerus; Genesius (Corpus scriptorum historiae Byzantinae)'
+    author: 'Theophylact Simocatta'
+    year: '1834'
+    world: byzantine-imperial-church-justinianic
+    why: 'Wanted Sources, era 3 row 13 (Theophylact Simocatta).'
+    url: https://archive.org/details/bub_gb_ftUFAAAAQAAJ
+    rights_basis: 'Public Domain (pd-us-by-date: published 1834); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, eras 1-3 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 2,041,313 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: theophylact-simocatta_historiae-with-genesius-grc-lat_bekker1834.txt
+  - title: 'Ioannis Malalae Chronographia, ex recensione Ludovici Dindorfii; accedunt Chilmeadi Hodiique annotationes et Ric. Bentleii epistola ad Io. Millium (Corpus scriptorum historiae Byzantinae)'
+    author: 'John Malalas'
+    year: '1831'
+    world: byzantine-imperial-church-justinianic
+    why: 'Wanted Sources, era 3 row 12 (John Malalas).'
+    url: https://archive.org/details/bub_gb_tNUFAAAAQAAJ
+    rights_basis: 'Public Domain (pd-us-by-date: published 1831); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, eras 1-3 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 3,034,646 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: john-malalas_chronographia-grc-lat_dindorf1831.txt
+  - title: 'Sacrorum conciliorum nova et amplissima collectio, tomus octavus (492-536), Joannes Dominicus Mansi; the Welter facsimile reprint'
+    author: 'Mansi'
+    year: '1901'
+    world: byzantine-imperial-church-justinianic
+    why: 'Wanted Sources, council row 6 (Constantinople 536, Menas''s synod).'
+    url: https://archive.org/details/sacrorumconcilio0008joan
+    rights_basis: 'Public Domain (pd-us-by-date: published 1901); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, eras 1-3 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 3,713,700 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: mansi_sacrorum-conciliorum-collectio-tomus-8-492-536-lat_welter-facsimile1901.txt
