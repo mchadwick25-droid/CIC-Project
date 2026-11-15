@@ -223,3 +223,81 @@ Audio rebuilt by score.py. JSON parses, with a final newline.
 - New, from Part C's changes (Who the sources are, al-Tabari): after "His life rests on F. K. Ginzel (1887) and Philip Hitti (1916)." add "His card also cites al-Maqrizi in Étienne Quatremère's French (1811) on the copies in the caliph Aziz's library, and Michael the Syrian in J.-B. Chabot's French (1901) for Yazdegerd as the last Persian king."
 - R1-CM8 (cross-batch): stephen-of-mar-saba (Part B or A's file): "No source used here" → "No source" in every place. "...used here. Of his own life" → drop "used here". "No source used here makes the writer a relative" → "No source makes the writer a relative". Done for ibn-ishaq by Part C.
 - Language and quotations: unchanged for Part C. The brief quotations stay Hitti's "We only transmit to others what has been transmitted to us." and Moberg's "anything that suggests an independent Muhammadan tradition of historical value." The al-Tabari card adds one held-English quotation, Hitti's "what has been once well said need not be told again" (HITTI l.614-616), if the section lists card quotations.
+
+---
+
+## README: round 1 changes
+
+File edited: `Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch11/README.md` only. Each cited source line was reopened in cic/texts before a sentence about it was written. Census paths were checked with a python walk of release 44 (scratchpad/census.json). Word counts come from python `len(text.split())` on the current briefs: Stepanos 336, Eulogius 337, Alvarus 336, Abu Qurrah 338, Stephen 337, Ishoyahb 338, al-Tabari 333, Ibn Ishaq 338.
+
+### Part A
+
+- R1-AM-R1 (dangling "(C1)", "(C4)", "(C6)", "(C7)"): applied. All five labels are gone. Each one is now replaced by the finding it stood for, or by a plain statement.
+- R1-AM-R2 (Eulogius and Alvarus brothers, stale): applied, in the fixer's wording plus a cite (ALV l.31683-31716). I checked both cards first: Eulogius `uncertain` "His brothers" and Alvarus `uncertain[7]` each give Tamayo and Antonio.
+- R1-AM-R3 (Stepanos death rests on a "late" notice): applied with change. The text is now "a manuscript notice whose age Alishan does not give", in place of "of unknown age". Macler's point is that Alishan gives no notice of the manuscript's "âge probable" (MAC l.879-882). Following the fixer, I added Emin's reading of Gregory Magistros (MAC l.751-756). I also added the tomb tradition at Mush (l.905-908) and Brosset's "no one knows", as the brief now has it. "The old teachers he saw in his youth": applied.
+- R1-AM-R4 (Taronites namesake): applied. The `movements[116]` path is verified, and the bullet now names its id.
+- R1-AM-R5 (Eulogius `voices[0]`): applied. The census text "executed in 859" is verified.
+- Part A word-range line ("unchanged at 324-338"): applied with change. The current files give 333 to 338, so the range is restated as 333 to 338.
+
+### Part B
+
+- R1-BM16 (Ishoyahb Other profiles and census (3), stale on 840): applied with change. "The draft" became "the profile". Census (3) now reads "agrees with TOM l.1, l.94, and with the profile". The three placings were checked on the Ishoyahb card `uncertain[0]` and on the Thomas card (`dates`, `uncertain` "When he wrote"). The Thomas brief gives Budge and Labourt only. "The Thomas profile gives the same three placings" holds through its card.
+- R1-BM17 (Who the sources are, Thomas's date): applied in the fixer's form, with Assemani (ASS31 l.78622-78626 and LABOURT l.17233-17234 reopened).
+- R1-BM18 (Stephen, the margin's 797): applied with change.
+  - The range is l.50373-50387, as the fixer found: the margin begins "S. Stephanus Poeta" at l.50373.
+  - The wording "straight after the raid" renders the margin's "statim post rem gestam".
+  - In Corrections, "which implies the raid in 797" became "which, read so, puts the raid in 797". This marks it as a reading, the same way the records do.
+  - Census bullet: "The draft gives all three" became "The profile gives all three".
+- R1-BM14 (Beth Abe vs Beth 'Abhe, for Open-Gaps): applied with change. I walked the census.
+  - "Beth Abe" stands in `movements[543]` (babai-the-great) `longDescription`, `card/legacy/traces[2]` and `card/uncertain[0]`.
+  - It also stands in `movements[548]/card/uncertain[8]` (barhadbeshabba-arbaya). The fixer did not list this one.
+  - "Beth 'Abhe" stands in `[604]`, `[599]` and `[458]/card/sources/about[2]`.
+  - Among the profiles, era3/batch6 babai-the-great (brief, card, audio, records) and era3/batch8 barhadbeshabba-arbaya (card) write Beth Abe.
+  - Both the census bullet and the Other profiles bullet now flag the difference for the batch's Open-Gaps entry. That entry does not exist yet (see R1-CM4).
+- Part B word range ("337 to 338 for these three"): applied with change. The batch range is restated as 333 to 338 from all eight current files.
+- Mark's option of "Stephen the Poet": applied with change, under Names and ids. It is marked as an option for the coordinator or Mark and is not applied to the profile.
+  - The cites are corrected. The Wonderworker's "similiter Sabaitae" is at AASS l.50431-50433. The Typikon's "Poetae titulo ipsum a priori distinguens" is at l.50436-50438 (the title clause itself is l.50438).
+  - The README adds that the id would follow the name.
+
+### Part C
+
+- R1-CB8 (river counts mix two rules): applied with change, after I verified it with python.
+  - Census rule: release 44's era 4 person rows with `major` true, counted by `laneLabel`, give LW 10, GE 5, SEA 4, Caucasus 1, Africa 1. With batch 9's four majors added, GE is 8 and LW is 11.
+  - Card-tradition rule: I took each major's card `tradition` from Who-Profiles and kept the era 4 census traditions, by `laneLabel`. That gives LW 10, GE 9, SEA 4, Caucasus 1, Africa 1. Humbert's era 4 card tradition is the Macedonian-era Byzantine church; his Latin Papal tradition is era 5.
+  - Changes to the proposal: the rule names are written in, Humbert's move is explained, and the three unchanged rivers are stated.
+  - "Open-Gaps 269" is cited instead as Open-Gaps, "Era 4 Who batch 9" (2026-11-15). CLAUDE.md says cross-references cite subject and date, not a bare number.
+- R1-CB9 (outside witnesses "have no river"): applied with change.
+  - The proposed "Their cards carry no tradition" is false: both cards' `tradition` reads "Outside the church". The README now says that.
+  - The census check: al-Baladhuri's `laneLabel` is Syriac East & Asia with `toldWithin` null. The other outside witnesses also sit on lanes (Josephus and the others on Origin, Ammianus on the Latin West, Procopius and Agathias on the Greek East).
+  - "Of Baghdad" was dropped because the sentence does not need it.
+  - The README points the question to the batch's Open-Gaps entry.
+- R1-CM1 (drafting language and "(C<n>)" labels): applied. Every "draft" in the census and Other profiles bullets now reads "profile", "card" or "brief", whichever the fact sits in. Each underlying claim was rechecked against the current files.
+  - The Leocritia rendering is in the brief, so the text reads "brief".
+  - Theodore's consecration now quotes the current card: "or any year for his consecration".
+  - The only "draft" left is in the opening ("Opus drafted") and the section title "found in drafting".
+- R1-CM2 (al-Tabari brief requote): applied with change. The brief sentence is requoted from the current brief, and "(C7)" is removed. The fixer's "the two cards agree" was replaced with "It sits with the al-Baladhuri card's line without conflict", because the comparison is with al-Baladhuri's card ("scarcely judges what he reports", census `[609]/card/uncertain[1]`).
+- Fixer's new Ibn Ishaq Other-profiles text ("only this batch's al-Tabari card names him"): applied with change.
+  - It now reads "Outside this batch no profile names him or Ibn Hisham", verified by grep across Who-Profiles. The al-Tabari card's `uncertain[2]` is then given.
+  - I reopened T4 l.673-674, l.5549 and l.6769. At l.5549 the name before "عن ابن اسحاق" is garbled ("als"), and l.6769 reads "حيد بن اسحاق". The README says "both garbled in the scan".
+- R1-CM3 (census passages missed): applied. Every path was verified in census.json: `movements[53]` `relationsSummary`, `voices[0]` and `voices[3]`; `movements[609]/card/uncertain[4]`; `movements[569]/card/uncertain[0]`.
+  - The `[53]` items differ on the year and on Kaleb (WEIL l.1236-1254: an unnamed king of Abyssinia, Arjat in command, no year).
+  - `[609]` agrees with HITTI l.646-652. The README now notes that the census line itself does not name him.
+  - `[569]`: neither confirmed nor contradicted.
+- R1-CM3, add "Ja'far son of Abu Talib" to the Ibn Ishaq patterns: not applied. "Ja'far" is already in the bullet's pattern list, and the census walk finds no Ja'far hit.
+- R1-CM4 (Open-Gaps entry not yet logged): applied. It now reads "(2026-11-15, to be logged at approval)". I confirmed that Open-Gaps.md has no batch 11 entry; the last is 272, batch 10.
+- R1-CM5 (re-score caveats): applied with change. It uses the Rescore's own terms: "Mark may judge it too thin" (l.156) and "judgment call", because the held text is Ibn Hisham's recension (l.157). I added l.160's "Mark may prefer LISTED" for Stephen, the same kind of caveat.
+- R1-CM6 ("evi" in quotation marks): applied, under the reviewer's "if it stays" branch. The card still has it, so it is listed under Language and quotations (DUV l.222 reopened). The card itself is not edited here.
+- R1-CM7 and the README part of R1-CB5 (Ibn Ishaq Who the sources are, add al-Baladhuri): applied in the fixer's form, with Yasar (HITTI l.15785-15791 reopened).
+- Fixer's new al-Tabari Who-the-sources sentence (al-Maqrizi in Quatremère; Michael the Syrian in Chabot): applied. I reopened QUATREMERE l.14025 and l.14045-14053, and Chabot l.32600.
+- R1-CM8 ("No source used here" on the Stephen card): not applied. It is a profile edit, outside this README. The stephen-of-mar-saba card still has "used here" in `dates`, `place`, `uncertain` "His name" (twice) and "Which Stephen". This is for the coordinator or Part B's file.
+- Fixer's note on listing the al-Tabari card's Hitti quotation under Language and quotations: not applied. The section lists the brief quotations and only those card quotations that break its rule. Hitti's "what has been once well said need not be told again" is held English, verbatim (HITTI l.614-616), and needs no entry.
+
+### Found while applying
+
+- al-Tabari, Other profiles: "No other profile names him" was stale. The Ibn Ishaq card's `legacy/traces[2]` gives Moberg's "preserved by Ibn Hisham and Tabari" (MOBERG l.2637-2639). Applied.
+- Ibn Ishaq, Other profiles: "are in the draft records only" was stale. Hitti's al-Mansur line and the eleven citations are now on the card (`keyWorks[0].about`, `legacy/traces[3]`). Applied. "The draft's record 5" became "the records' Medina claim, `claims[5]`", checked in records.json.
+- Stepanos, Who the sources are: "the colophon of 1004 to 1005" stated Macler's reckoning flat. It now reads "the colophon's Armenian year 453, which Macler reckons as 1004 to 1005", to match the card after R1-AM7. Applied.
+- Pointer for the coordinator, not applied (profile file): the al-Tabari card's `uncertain[2]` says "Salama's chain reaches Ibn Ishaq". It rests on T4 l.5549 and l.6769, which are both garbled in the scan.
+- Shape: all nine section headings are kept. The batch 10 README has seven, without "River and tradition counts" or "Other profiles". No section was merged or dropped.
+
+Counts: 31 items. 14 applied (Part A 4, Part B 1, Part C 6, found while applying 3), 12 applied with change (Part A 2, Part B 5, Part C 5), 4 not applied (Part C 3, plus the al-Tabari chain pointer), and 1 shape note.
