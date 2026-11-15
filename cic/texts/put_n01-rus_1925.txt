@@ -1,12 +1,12 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1925
+Title: Путь: органъ русской религіозной мысли, № 1 (1925)
+Creator: Путь (many writers); подъ редакціей Н. А. Бердяева, при участіи Б. П. Вышеславцева и Г. Г. Кульмана
+Publisher: Paris (the editorial address on the cover)
+Publication Date: 1925 (the masthead; see the Rights line)
 Rights: Public Domain (pd-us-by-date: printed 1925; the masthead date; the archive.org record carries no rights field)
 Language: rus
 Source: archive.org item B-001-028-092-093-ALL, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,106,389) equals the size archive.org lists for the djvu.txt.
 Provenance note: The item's own djvu.txt follows this header. Removed at intake as the host's own additions: the page-foot stamp of the digitizing library, "Библиотека «Руниверс»" (176 lines). Nothing else was removed, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1925; the masthead date; the archive.org record carries no rights field. OCR quality: good; Russian in the old spelling. Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Content note: Number 1 of the Paris journal Путь; the cover prints "VOIE, Revue religieuse russe" and "Органъ русской религіозной мысли". Russian in the old spelling. The masthead in the OCR, line 43: "СЕНТЯБРЬ 1925". Articles and reviews with their lines in this file (author and title as printed; some first lines are approximate): 112: Духовныя задачи русской эмиграціи (Отъ редакціи); 373-1351: С. Франкъ. Религіозныя основы общественности; 1359-2365: Николай Бердяевъ. Царство Божіе и царство кесаря; 2373-3557: Прот. Сергій Булгаковъ. Очерки ученія о церкви; 3577-4558: Б. Вышеславцевъ. Значеніе сердца въ религіи; 4568-5309: Протоіерей Сергій Четвериковъ. Изъ исторіи русскаго старчества; 5319: Кн. Г. Н. Трубецкой. Памяти св. патріарха Тихона; 5893: В. В. Зѣньковскій. Религіозное движеніе среди русской молодежи въ эмиграціи; 6721: С. С. Безобразовъ. Русскій православный богословскій институтъ въ Парижѣ; 7444: Н. А. Бердяевъ. Евразійцы; 8165: Н. К. Ивановъ. Епархіальный съѣздъ въ Москвѣ для выборовъ членовъ Собора 1923 г; 9298: Проф. Тиллихъ. Діалектическая теологія; 10071: С. Фіомэ. Пилигримъ Гроба Господня (Леонъ Блуа); 10933: Н. С. Арсеньевъ. Современныя теченія въ католичествѣ и протестантизмѣ въ Германіи; 11961-12283: Н. А. Бердяевъ. Неотомизмъ; 12286-12847: Кн. Г. Н. Трубецкой. Католическій богословъ о русской религіозной психологіи. A double number. Prince G. N. Trubetskoy on Patriarch Tikhon at about lines 5319-5890. Every "Лосскій" in the journal to 1930 signs as Н. Лосскій (N. O. Lossky); no piece by Vladimir Lossky was found.
 
 ______________________________________________________________________
 

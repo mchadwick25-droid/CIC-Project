@@ -1,12 +1,12 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1925
+Title: Черная книга («Штурмъ небесъ»): сборникъ документальныхъ данныхъ, характеризующихъ борьбу совѣтской коммунистической власти противъ всякой религіи, противъ всѣхъ исповѣданій и церквей
+Creator: Составилъ А. А. Валентиновъ; съ вводной статьей Петра Струве
+Publisher: Paris: изданіе Русскаго Національнаго Студенческаго Объединенія
+Publication Date: 1925 (title page)
 Rights: Public Domain (pd-us-by-date: printed 1925; the title-page year; the archive.org record carries no rights field)
 Language: rus
 Source: archive.org item chernaiakniga00unse, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,250,467) equals the size archive.org lists for the djvu.txt.
 Provenance note: The item's own djvu.txt follows this header. No Google or Internet Archive notice was found to remove; nothing was stripped, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1925; the title-page year; the archive.org record carries no rights field. OCR quality: fair; Russian in the old spelling. Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Content note: An émigré compilation in Russian, in the old spelling, drawn mostly from the press; a list of sources stands at about line 22500. Appendix 1 prints in full Patriarch Tikhon's epistle on help for the starving, dated Moscow, 15 February 1922 (lines 13444-13517). No document of Metropolitan Sergius is printed. The contents at lines 23351-23405; University of North Carolina library stamps at the foot are the scan's.
 
 ______________________________________________________________________
 

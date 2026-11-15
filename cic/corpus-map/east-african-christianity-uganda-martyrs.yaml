@@ -25,6 +25,15 @@ works:
   note: 'Era 9 row 210, Charles Lwanga: a missionary''s account of Uganda (it does not name
     him).'
   source_file: ashe_chronicles-of-uganda_1895.txt
+- row_id: gollock_sons-of-africa_1928--gollock-sons-of-africa-kivubulaya-at-work
+  work: 'Gollock, Sons of Africa: "Kivubulaya at Work"'
+  author: gollock
+  locus: lines 6074-6256
+  role: context
+  confidence: assigned
+  note: A later outside account of Apolo Kivebulaya, printed in 1928, after the entry's window;
+    it names no source.
+  source_file: gollock_sons-of-africa_1928.txt
 - row_id: krapf_travels-researches-and-missionary-labours-in-eastern-africa_1860--travels-researches-and-missionary-labours-during-an-eighteen
   work: Travels, researches, and missionary labours, during an eighteen years' residence in
     Eastern Africa; together
@@ -44,3 +53,12 @@ works:
     formation_confidence: Documented
   note: 'Era 9 row 209, Johann Ludwig Krapf: his Travels.'
   source_file: krapf_travels-researches-and-missionary-labours-in-eastern-africa_1860.txt
+- row_id: tucker_eighteen-years-in-uganda-and-east-africa-v2_1908--tucker-eighteen-years-in-uganda-and-east-africa-volume-ii
+  work: Tucker, Eighteen Years in Uganda and East Africa, volume II
+  author: tucker
+  locus: whole; Mboga and Apolo Kivebulaya at lines 6384-6760
+  role: tradition
+  confidence: assigned
+  note: The Bishop of Uganda's own account, printed in 1908, two years after the entry's window
+    closes. Volume II only.
+  source_file: tucker_eighteen-years-in-uganda-and-east-africa-v2_1908.txt

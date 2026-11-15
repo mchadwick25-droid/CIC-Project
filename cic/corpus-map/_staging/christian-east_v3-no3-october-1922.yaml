@@ -1,0 +1,29 @@
+source_file: christian-east_v3-no3-october-1922.txt
+assignments:
+- row_id: christian-east_v3-no3-october-1922--the-christian-east-volume-iii-number-3-october-1922
+  work: 'The Christian East, volume III, number 3 (October, 1922)'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - the-anglican-communion-twentieth-century
+  role: tradition
+  confidence: assigned
+  note: 'An Anglican quarterly on the Eastern churches; many writers, and the documents it prints are in translation.'
+- row_id: christian-east_v3-no3-october-1922--the-christian-east-volume-iii-number-3-october-1922-on-the
+  work: 'The Christian East, volume III, number 3 (October, 1922): on the Georgian church'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - the-georgian-orthodox-church-restored
+  role: context
+  confidence: assigned
+  note: 'An Anglican journal''s reports on the Georgian church; an outside witness.'
+- row_id: christian-east_v3-no3-october-1922--patriarch-meletios-letter-to-the-archbishop-of-canterbury
+  work: 'Patriarch Meletios, letter to the Archbishop of Canterbury and encyclical on Anglican ordinations (1922), in The Christian East'
+  author: christian-east
+  locus: 'lines 1472-1855'
+  atlas_ids:
+  - the-greek-church-and-the-ecumenical-patriarchate
+  role: tradition
+  confidence: assigned
+  note: 'The Patriarchate''s own texts in English versions the print credits to Germanos and to "J. A. D.".'

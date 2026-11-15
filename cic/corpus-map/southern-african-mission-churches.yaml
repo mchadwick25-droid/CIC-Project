@@ -3,6 +3,15 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: southern-african-mission-churches
 works:
+- row_id: american-zulu-mission_amagama-okuhlabelela-zul_1911--american-zulu-mission-amagama-okuhlabelela-zulu-hymnal-1911
+  work: American Zulu Mission, Amagama Okuhlabelela (Zulu Hymnal, 1911)
+  author: american-zulu-mission
+  locus: whole
+  role: tradition
+  confidence: assigned
+  note: The mission church's own hymnal, in an edition of 1911, five years after the entry's
+    window closes; by its preface the words were then in their eighth edition.
+  source_file: american-zulu-mission_amagama-okuhlabelela-zul_1911.txt
 - row_id: chalmers_tiyo-soga-a-page-of-south-african-mission-work_1877--tiyo-soga-a-page-of-south-african-mission-work-by-john-a
   work: 'Tiyo Soga: a page of South African mission work. By John A. Chalmers'
   author: chalmers
@@ -22,3 +31,12 @@ works:
     formation_confidence: Documented
   note: 'Era 9 row 211, Tiyo Soga: a Life.'
   source_file: chalmers_tiyo-soga-a-page-of-south-african-mission-work_1877.txt
+- row_id: jabavu_black-problem-2e_1921--jabavu-the-black-problem-second-edition-1921
+  work: Jabavu, The Black Problem (second edition, 1921)
+  author: jabavu
+  locus: whole; the foreword is Merriman's
+  role: context
+  confidence: assigned
+  note: His own papers of 1920, after this entry's window. No census entry is the mission
+    churches of southern Africa after 1906.
+  source_file: jabavu_black-problem-2e_1921.txt

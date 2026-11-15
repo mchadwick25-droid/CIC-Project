@@ -1,11 +1,11 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1916
+Title: The Soul of Serbia: Lectures Delivered before the Universities of Cambridge and Birmingham and in London and Elsewhere in England, second edition
+Creator: Father Nicholas Velimirovic, Professor of Theology at Belgrade
+Publisher: London: The Faith Press
+Publication Date: 1916 (title page, which also prints "Second Edition")
 Rights: Public Domain (pd-us-by-date: printed 1916; the title-page year; the archive.org record says possible-copyright-status "NOT_IN_COPYRIGHT")
 Source: archive.org item soulofserbialect00veli, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (152,752) equals the size archive.org lists for the djvu.txt.
 Provenance note: The item's own djvu.txt follows this header. No Google or Internet Archive notice was found to remove; nothing was stripped, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1916; the title-page year; the archive.org record says possible-copyright-status "NOT_IN_COPYRIGHT". Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Content note: His lectures in England. No preface by another hand; a quoted passage stands after the title page (lines 66-149). The text ends at line 3307.
 
 ______________________________________________________________________
 

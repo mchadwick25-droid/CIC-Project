@@ -1,11 +1,11 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1920
+Title: Our Smallest Ally: A Brief Account of the Assyrian Nation in the Great War
+Creator: Rev. W. A. Wigram, D.D. (the OCR garbles the initials on the title leaf); with an introduction by General H. H. Austin
+Publisher: London: Society for Promoting Christian Knowledge; New York: The Macmillan Company
+Publication Date: 1920 (title page, read on the page image; the OCR has the year in fragments; Austin's letter is dated February 6, 1920)
 Rights: Public Domain (pd-us-by-date: printed 1920; the title-page year, read on the page image; the archive.org record carries a Public Domain Mark)
 Source: archive.org item william-ainger-wigram-our-smallest-ally-a-brief-account-of-the-assyrian-nation-i, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (93,599) equals the size archive.org lists for the djvu.txt.
 Provenance note: The item's own djvu.txt follows this header. No Google or Internet Archive notice was found to remove; nothing was stripped, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1920; the title-page year, read on the page image; the archive.org record carries a Public Domain Mark. Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Content note: A short account by an English clergyman. The murder of Mar Shimun at lines 1700-1760; the death of his brother Hormizd at lines 905-925; a war song at lines 760-840 names Surma once (line 781). The third chapter is headed "CHAPTER II" in the OCR. The text ends at line 2428.
 
 ______________________________________________________________________
 

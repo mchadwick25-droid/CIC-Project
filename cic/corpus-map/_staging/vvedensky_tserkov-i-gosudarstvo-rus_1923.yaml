@@ -1,0 +1,21 @@
+source_file: vvedensky_tserkov-i-gosudarstvo-rus_1923.txt
+assignments:
+- row_id: vvedensky_tserkov-i-gosudarstvo-rus_1923--vvedensky-tserkov-i-gosudarstvo-1923
+  work: 'Vvedensky, Tserkov i gosudarstvo (1923)'
+  author: vvedensky
+  locus: 'whole'
+  atlas_ids:
+  - the-russian-orthodox-church-council-patriarchate-and-reunion
+  role: context
+  confidence: assigned
+  note: 'A renovationist leader''s partisan account, against the Patriarch.'
+- row_id: vvedensky_tserkov-i-gosudarstvo-rus_1923--patriarch-tikhon-epistle-of-19-january-1918-as-printed-in
+  work: 'Patriarch Tikhon, epistle of 19 January 1918 (as printed in Vvedensky 1923)'
+  author: vvedensky
+  locus: 'lines 8188-8351'
+  atlas_ids:
+  - the-russian-orthodox-church-council-patriarchate-and-reunion
+  - the-russian-new-martyrs-and-the-catacomb-church
+  role: tradition
+  confidence: assigned
+  note: 'His own words in Russian, printed by an opponent in 1923, in the new spelling.'

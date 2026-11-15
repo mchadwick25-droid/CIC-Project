@@ -1,12 +1,12 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1923
+Title: Церковь и государство: очерк взаимоотношений церкви и государства в России 1918-1922 г.
+Creator: Прот. А. Введенский (the title leaf styles him deputy chairman of the Высшее церковное управление)
+Publisher: Moscow (the title page names no publisher; the verso names the printer, "Мосполиграф, 20-я типография Красный пролетарий")
+Publication Date: 1923 (title page, read on the page image; the preface is dated 22 January 1923)
 Rights: Public Domain (pd-us-by-date: printed 1923; the title-page year, read on the page image; the archive.org record carries no rights field)
 Language: rus
 Source: archive.org item tserkovigosudars01vved, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (953,978) equals the size archive.org lists for the djvu.txt.
-Provenance note: The item's own djvu.txt follows this header. No Google or Internet Archive notice was found to remove; nothing was stripped, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1923; the title-page year, read on the page image; the archive.org record carries no rights field. OCR quality: fair to poor; the opening pages are garbled. Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Provenance note: The item's own djvu.txt follows this header. Removed at intake as the host's own additions: the Internet Archive's own notice (6 lines). Nothing else was removed, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1923; the title-page year, read on the page image; the archive.org record carries no rights field. OCR quality: fair to poor; the opening pages are garbled. Line numbers in this header are this file's own line numbers.
+Content note: A renovationist leader's account, written against Patriarch Tikhon; it prints documents of the other side. The opening leaves are garbled in the OCR and the clean text begins at about line 178. The epistle of the Council of September 1917 at about lines 6949-6994. Patriarch Tikhon's epistle of 19 January 1918, as read to the Council, at lines 8188-8351. A patriarchal instruction of 28 February 1918 from about line 13603. The author's text ends at about line 17189.
 
 ______________________________________________________________________
 
@@ -59,12 +59,6 @@ ______________________________________________________________________
 
 
 
-Пашхед ру {пе Ищете! Агспуе 
-Ш 2021 миП пад Нот 
-Оике Упмегзйу Ибганез 
-
-
-В рз://агспме.ого/ава!Лзегкомаозидаг$01ууеа 
 
 
 

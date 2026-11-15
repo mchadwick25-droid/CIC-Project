@@ -1,11 +1,11 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1928
+Title: The International Review of Missions, Volume the Seventeenth (1928)
+Creator: The International Review of Missions (many writers); editor William Paton, associate editor M. M. Underhill
+Publisher: London: Edinburgh House; Humphrey Milford, Oxford University Press (published by the International Missionary Council)
+Publication Date: 1928 (the volume title leaf)
 Rights: Public Domain (pd-us-by-date: printed 1928; the year on the volume title leaf; the archive.org record carries no rights field)
 Source: archive.org item sim_international-review-of-mission_1928_17, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,739,426) equals the size archive.org lists for the djvu.txt.
 Provenance note: The item's own djvu.txt follows this header. No Google or Internet Archive notice was found to remove; nothing was stripped, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1928; the year on the volume title leaf; the archive.org record carries no rights field. Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Content note: One whole volume of the quarterly; many writers. E. W. Thompson, "The Ivory Coast: A Study in Modern Missionary Method", at lines 42344-43158; the print styles him Secretary for West Africa and the West Indies of the Wesleyan Methodist Missionary Society. Harris's words "Read the Bible; it is the word of God" stand at about line 43005, as brought back by the Rev. P. Benoit from Liberia; the print does not say how Benoit took them down. A review of Sons of Africa, signed Max Yergan, at line 46846.
 
 ______________________________________________________________________
 

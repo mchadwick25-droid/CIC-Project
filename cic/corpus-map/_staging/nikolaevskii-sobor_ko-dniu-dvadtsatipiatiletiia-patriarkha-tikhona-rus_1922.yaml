@@ -1,0 +1,12 @@
+source_file: nikolaevskii-sobor_ko-dniu-dvadtsatipiatiletiia-patriarkha-tikhona-rus_1922.txt
+assignments:
+- row_id: nikolaevskii-sobor_ko-dniu-dvadtsatipiatiletiia-patriarkha-tikhona-rus_1922--ko-dniu-25-letiia-v-arkhiereiskom-sane-patriarkha-tikhona
+  work: 'Ko dniu 25-letiia v arkhiereiskom sane Patriarkha Tikhona (New York, 1922)'
+  author: nikolaevskii-sobor
+  locus: 'whole; his speech of 1898 at lines 296-420'
+  atlas_ids:
+  - the-russian-orthodox-church-council-patriarchate-and-reunion
+  - the-russian-new-martyrs-and-the-catacomb-church
+  role: tradition
+  confidence: assigned
+  note: 'His own church''s clergy in America, writing in 1922. The trial words are told at second hand.'

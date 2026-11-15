@@ -1,12 +1,12 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1927
+Title: Путь: органъ русской религіозной мысли, № 6 (1927)
+Creator: Путь (many writers); подъ редакціей Н. А. Бердяева, при участіи Б. П. Вышеславцева и Г. Г. Кульмана
+Publisher: Paris (the editorial address on the cover)
+Publication Date: 1927 (the masthead; see the Rights line)
 Rights: Public Domain (pd-us-by-date: printed 1927; the masthead date; the archive.org record carries no rights field)
 Language: rus
 Source: archive.org item B-001-028-092-093-ALL, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (807,847) equals the size archive.org lists for the djvu.txt.
 Provenance note: The item's own djvu.txt follows this header. Removed at intake as the host's own additions: the page-foot stamp of the digitizing library, "Библиотека «Руниверс»" (134 lines). Nothing else was removed, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1927; the masthead date; the archive.org record carries no rights field. OCR quality: good; Russian in the old spelling. Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Content note: Number 6 of the Paris journal Путь; the cover prints "VOIE, Revue religieuse russe" and "Органъ русской религіозной мысли". Russian in the old spelling. The masthead in the OCR, line 47: "№6. ЯНВАРЬ 1927 **б.". Articles and reviews with their lines in this file (author and title as printed; some first lines are approximate): 113-829: А. Ремизовъ. Рождество; 837-1656: Н. Н. Алексѣевъ. Христіанство и идея монархіи; 1664-2472: Л. П. Карсавинъ. Объ опасностяхъ и преодолѣніи отвлеченнаго христіанства; 2483-3341: Н. Бердяевъ. Наука о религіи и христіанская апологетика; 3349-3897: Н. Клепининъ. Мысли о религіозномъ смыслѣ націонализма; 3908: Письмо Кардинала Андріе, Архіепископа Бордосскаго; 4232: Письмо Его Святѣйшества Папы Пія XI; 4328: Католикъ. О скалѣ Петровой; 4824: В. Ильинъ. О небесной и земной соборности; 5587-6499: Е. Скобцова. Святая Земля; 6507: Н. Арсеньевъ. О духѣ времени и пониманіи его; 6802: А. Карповъ. О монархіи; 7381-7926: Н. Бердяевъ. Дневникъ философа (О духѣ времени и монархіи); 8488: Л. Зандеръ. Бьервильскій съѣздъ; 9226: Г. Ѳедотовъ. Религіозный путь Пеги; 9713-9890: Н. Бердяевъ. Рецензія: Н. Лосскій «Свобода воли»; 10153-10239: Л. Зандеръ. Архивъ Достоевскаго. Every "Лосскій" in the journal to 1930 signs as Н. Лосскій (N. O. Lossky); no piece by Vladimir Lossky was found.
 
 ______________________________________________________________________
 

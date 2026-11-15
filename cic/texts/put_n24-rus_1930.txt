@@ -1,12 +1,12 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1930
+Title: Путь: органъ русской религіозной мысли, № 24 (1930)
+Creator: Путь (many writers); подъ редакціей Н. А. Бердяева, при участіи Б. П. Вышеславцева и Г. Г. Кульмана
+Publisher: Paris (the editorial address on the cover)
+Publication Date: 1930 (the masthead; see the Rights line)
 Rights: Public Domain (pd-us-by-date: printed 1930; the masthead date; the archive.org record carries no rights field)
 Language: rus
 Source: archive.org item B-001-028-092-093-ALL, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (462,954) equals the size archive.org lists for the djvu.txt.
 Provenance note: The item's own djvu.txt follows this header. Removed at intake as the host's own additions: the page-foot stamp of the digitizing library, "Библиотека «Руниверс»" (124 lines). Nothing else was removed, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1930; the masthead date; the archive.org record carries no rights field. OCR quality: good; Russian in the old spelling. Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Content note: Number 24 of the Paris journal Путь; the cover prints "VOIE, Revue religieuse russe" and "Органъ русской религіозной мысли". Russian in the old spelling. The masthead in the OCR, line 56: "М 34. ОКТЯБРЬ 1930 № 24.". Articles and reviews with their lines in this file (author and title as printed; some first lines are approximate): 90-1778: В. Зѣньковскій. Преодолѣніе платонизма и проблема софійной твари; 1786-2553: П. Прокофьевъ. Религіозная утопія Ал. А. Иванова; 2559-3925: Р. Плетневъ. Достоевскій и Евангеліе (окончаніе); 3930-4529: А. Карповъ. Англо-русская конференція въ High-Leigh; 4540-5159: Н. Алексѣевъ. Религіозно-философскія идеи и личность Б. Н. Чичерина; 5167-5351: С. Франкъ. Памяти Л. М. Лопатина; 5355-5707: Н. Бердяевъ. О новѣйшихъ теченіяхъ въ нѣмецкой философіи. Гейдеггеръ; 5712-5852: Н. Бердяевъ. E. Brunner, Gott und Mensch. Every "Лосскій" in the journal to 1930 signs as Н. Лосскій (N. O. Lossky); no piece by Vladimir Lossky was found.
 
 ______________________________________________________________________
 

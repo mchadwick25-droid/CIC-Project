@@ -1,12 +1,12 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1929
+Title: Путь: органъ русской религіозной мысли, № 15 (1929)
+Creator: Путь (many writers); подъ редакціей Н. А. Бердяева, при участіи Б. П. Вышеславцева и Г. Г. Кульмана
+Publisher: Paris (the editorial address on the cover)
+Publication Date: 1929 (the masthead; see the Rights line)
 Rights: Public Domain (pd-us-by-date: printed 1929; the masthead date; the archive.org record carries no rights field)
 Language: rus
 Source: archive.org item B-001-028-092-093-ALL, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (503,182) equals the size archive.org lists for the djvu.txt.
 Provenance note: The item's own djvu.txt follows this header. Removed at intake as the host's own additions: the page-foot stamp of the digitizing library, "Библиотека «Руниверс»" (140 lines). Nothing else was removed, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1929; the masthead date; the archive.org record carries no rights field. OCR quality: good; Russian in the old spelling. Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Content note: Number 15 of the Paris journal Путь; the cover prints "VOIE, Revue religieuse russe" and "Органъ русской религіозной мысли". Russian in the old spelling. The masthead in the OCR, line 53: "№ 15. ФЕВРАЛЬ 1929 №15.". Articles and reviews with their lines in this file (author and title as printed; some first lines are approximate): 90-1843: С. Троицкій. Бракъ и грѣхъ. I. Бракъ до грѣха; 1851-3810: Прот. С. Булгаковъ. Очерки ученія о Церкви. IV. О ватиканскомъ догматѣ; 3818-5173: Н. Алексѣевъ. Русское западничество; 5181-5860: И. Стратоновъ. Развитіе церковной смуты послѣ перваго Карловацкаго Собора (окончаніе); 5863: С. Франкъ. Памяти Ю. И. Айхенвальда; 5965-6393: С. Франкъ. Новая нѣмецкая литература по философской антропологіи; 6395-6500: В. Зѣньковскій. Wilfred Monod, Du protestantisme; 6503-6605: В. Ильинъ. Ангелологія и ученіе о Св. Софіи Премудрости Божіей (По поводу новой книги о. Сергія Булгакова). V. N. Ilyin's review of Bulgakov's books («Купина Неопалимая», «Другъ Жениха») at lines 6503-6605. Every "Лосскій" in the journal to 1930 signs as Н. Лосскій (N. O. Lossky); no piece by Vladimir Lossky was found.
 
 ______________________________________________________________________
 

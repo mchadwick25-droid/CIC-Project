@@ -1,12 +1,12 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1926
+Title: Путь: органъ русской религіозной мысли, № 5 (1926)
+Creator: Путь (many writers); подъ редакціей Н. А. Бердяева, при участіи Б. П. Вышеславцева и Г. Г. Кульмана
+Publisher: Paris (the editorial address on the cover)
+Publication Date: 1926 (the masthead; see the Rights line)
 Rights: Public Domain (pd-us-by-date: printed 1926; the masthead date; the archive.org record carries no rights field)
 Language: rus
 Source: archive.org item B-001-028-092-093-ALL, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (679,880) equals the size archive.org lists for the djvu.txt.
 Provenance note: The item's own djvu.txt follows this header. Removed at intake as the host's own additions: the page-foot stamp of the digitizing library, "Библиотека «Руниверс»" (118 lines). Nothing else was removed, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1926; the masthead date; the archive.org record carries no rights field. OCR quality: good; Russian in the old spelling. Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Content note: Number 5 of the Paris journal Путь; the cover prints "VOIE, Revue religieuse russe" and "Органъ русской религіозной мысли". Russian in the old spelling. The masthead in the OCR, line 49: "№ б. ОКТЯБРЬ-НОЯБРЬ 1926 № б.". Articles and reviews with their lines in this file (author and title as printed; some first lines are approximate): 143-902: Прот. С. Булгаковъ. Благодатные завѣты преп. Сергія русскому богословствованію; 910-1813: Н. Н. Алексѣевъ. Идея «Земного Града» въ христіанскомъ вѣроученіи; 2057-2629: Н. Бердяевъ. Церковная смута и свобода совѣсти; 2637-3210: Г. П. Федотовъ. Объ антихристовомъ добрѣ; 3218-4215: Н. Арсеньевъ. Пессимизмъ и мистика въ древней Греціи; 4223-4910: Письмо проф. Ганса Эренберга прот. С. Булгакову и отвѣтъ Булгакова; 4915: Г. Г. Кульманъ. Протестантизмъ и православіе; 5369: Вл. Соловьевъ. Письмо къ Л. Толстому о воскресеніи Христа; 5698: А. К. Отношеніе Англиканской Церкви къ Православію; 6129: Л. Зандеръ. Три студенческихъ съѣзда; 6546: В. Сперанскій. Религіозно-психологическіе наброски совѣтской Россіи; 7409-7825: Кн. Д. А. Шаховской. На правахъ разговора. The scan stops at page 118: the printed contents list five more reviews (pages 119-133) that are not in it. Berdyaev, "Церковная смута и свобода совѣсти" (lines 2057-2629), speaks of the Karlovci synod and Patriarch Tikhon. Every "Лосскій" in the journal to 1930 signs as Н. Лосскій (N. O. Lossky); no piece by Vladimir Lossky was found.
 
 ______________________________________________________________________
 

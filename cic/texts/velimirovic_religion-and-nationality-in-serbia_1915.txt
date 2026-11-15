@@ -1,11 +1,11 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1915
+Title: Religion and Nationality in Serbia
+Creator: Father Nicholas Velimirovic; with a prefatory note by R. W. Seton-Watson; "the translation is by Miss Fanny S. Copeland" (line 113)
+Publisher: London: Nisbet & Co. Ltd.
+Publication Date: 1915 (no year is legible on the title page; the prefatory note is dated June 15, 1915)
 Rights: Public Domain (pd-us-by-date: printed 1915; no year is legible on the title page in the OCR; the date used is the dated prefatory note, "June 15, 1915", with which the library catalogue date agrees; the archive.org record says possible-copyright-status "NOT_IN_COPYRIGHT")
 Source: archive.org item religionnational00veli, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (38,010) equals the size archive.org lists for the djvu.txt.
 Provenance note: The item's own djvu.txt follows this header. No Google or Internet Archive notice was found to remove; nothing was stripped, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1915; no year is legible on the title page in the OCR; the date used is the dated prefatory note, "June 15, 1915", with which the library catalogue date agrees; the archive.org record says possible-copyright-status "NOT_IN_COPYRIGHT". Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Content note: A threepenny pamphlet. Seton-Watson's note (to line 115) is not his. The text ends at line 892; adverts follow.
 
 ______________________________________________________________________
 

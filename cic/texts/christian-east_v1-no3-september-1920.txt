@@ -1,11 +1,11 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1920
+Title: The Christian East, volume I, number 3 (September, 1920)
+Creator: The Christian East (many writers; an Anglican quarterly on the Eastern churches)
+Publisher: Not legible in the OCR of this number; the cover of the winter 1927 number, read on the page image, says "Published for the Anglican & Eastern Churches Assocn. by the Faith Press, Ltd."
+Publication Date: 1920 (the date on the cover or first page)
 Rights: Public Domain (pd-us-by-date: printed 1920; the cover date; the archive.org record carries no rights field)
 Source: archive.org item per_christian-east_the-christian-east_1920-09_1_3, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (170,667) equals the size archive.org lists for the djvu.txt.
 Provenance note: The item's own djvu.txt follows this header. No Google or Internet Archive notice was found to remove; nothing was stripped, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1920; the cover date; the archive.org record carries no rights field. Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Content note: One number of the quarterly. It does not print the Ecumenical Patriarchate's encyclical of January 1920: it sums it up at lines 2360-2372. It prints the Lambeth Conference's resolutions on the Eastern churches (lines 3905-3968) and an address of the Metropolitan in Greek with an English version (lines 970-1017). No document of an Orthodox church is printed.
 
 ______________________________________________________________________
 

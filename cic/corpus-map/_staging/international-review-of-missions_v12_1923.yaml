@@ -1,0 +1,20 @@
+source_file: international-review-of-missions_v12_1923.txt
+assignments:
+- row_id: international-review-of-missions_v12_1923--allegret-on-the-prophet-harris-international-review-of
+  work: 'Allegret on the prophet Harris (International Review of Missions, 1923)'
+  author: international-review-of-missions
+  locus: 'lines 11456-11610'
+  atlas_ids:
+  - african-initiated-churches-harrist-aladura-zioni
+  role: context
+  confidence: assigned
+  note: 'Allegret''s summary; its long quotation is Marty''s wording, credited in a footnote.'
+- row_id: international-review-of-missions_v12_1923--the-international-review-of-missions-volume-12-1923
+  work: 'The International Review of Missions, volume 12 (1923)'
+  author: international-review-of-missions
+  locus: 'whole'
+  atlas_ids:
+  - the-ecumenical-movement-and-the-wcc
+  role: tradition
+  confidence: assigned
+  note: 'The International Missionary Council''s own quarterly; each article is its writer''s, not the Council''s.'

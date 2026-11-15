@@ -1,12 +1,12 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1912
+Title: Imfundiso yeBandhla eliKatolike
+Creator: Rev. Willibald Wanger
+Publisher: Mariannhill, Natal: printed at the mission press ("Yacindezelwa emTshinini was'emHlatuzane (Mariannhill)")
+Publication Date: 1912 (title page); a Latin leaf of the Vicar Apostolic of Natal, dated Durban, 29 April 1915, is bound after it
 Rights: Public Domain (pd-us-by-date: printed 1912; the title-page year; a bishop's leaf dated 29 April 1915 is bound with it; the archive.org record carries no rights field)
 Language: zul
 Source: archive.org item imfundisoyebandh00wikk, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,252,032) equals the size archive.org lists for the djvu.txt.
 Provenance note: The item's own djvu.txt follows this header. Removed at intake as the host's own additions: the Internet Archive's own notice (6 lines). Nothing else was removed, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1912; the title-page year; a bishop's leaf dated 29 April 1915 is bound with it; the archive.org record carries no rights field. OCR quality: fair. Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Content note: A Catholic catechism in Zulu. The Latin leaf at lines 99-112 permits the sale of the book as corrected, "eo tamen pacto, ut ejus usus Missionariis ac Presbyteris exclusive reservetur"; so this copy was issued in or after 1915. The body ends at about line 37148; the contents stand at the end (from line 37150). A Duquesne University library slip at the foot is the scan's.
 
 ______________________________________________________________________
 

@@ -1,12 +1,12 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1928
+Title: Das orthodoxe Christentum des Ostens: Sein Wesen und seine gegenwärtige Gestalt
+Creator: Stefan Zankow, Dr. theol. et juris, Professor an der Universität zu Sofia
+Publisher: Berlin: Furche-Verlag
+Publication Date: 1928 (title page)
 Rights: Public Domain (pd-us-by-date: printed 1928; the title-page year; the archive.org record carries no rights field)
 Language: deu
 Source: archive.org item bwb_C0-AYK-159, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (396,866) equals the size archive.org lists for the djvu.txt.
 Provenance note: The item's own djvu.txt follows this header. Removed at intake as the host's own additions: the Internet Archive's own notice (5 lines). Nothing else was removed, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1928; the title-page year; the archive.org record carries no rights field. OCR quality: fair; Fraktur. Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Content note: His own book in German. The foreword says it grew from six guest lectures at the University of Berlin in the summer semester of 1927. Fraktur OCR, with footnotes sometimes run into the text. The body ends at about line 8100. The host record wrongly gives the language as English.
 
 ______________________________________________________________________
 

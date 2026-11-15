@@ -1,11 +1,11 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1917
+Title: The Agony of the Church
+Creator: The Rev. Nicholai Velimirovic, D.D., of St Savva's College, Belgrade; with a foreword by the Rev. Alexander Whyte, D.D.
+Publisher: London: Student Christian Movement
+Publication Date: 1917 (title page)
 Rights: Public Domain (pd-us-by-date: printed 1917; the title-page year; the archive.org record says possible-copyright-status "NOT_IN_COPYRIGHT")
 Source: archive.org item agonyofchurch00veliiala, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (133,383) equals the size archive.org lists for the djvu.txt.
 Provenance note: The item's own djvu.txt follows this header. No Google or Internet Archive notice was found to remove; nothing was stripped, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1917; the title-page year; the archive.org record says possible-copyright-status "NOT_IN_COPYRIGHT". Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Content note: His addresses in English. Whyte's foreword (lines 49-62) and an unsigned publishers' foreword (lines 63-101) are not his. The text ends at line 3408.
 
 ______________________________________________________________________
 

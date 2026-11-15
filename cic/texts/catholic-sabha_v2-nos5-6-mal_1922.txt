@@ -1,12 +1,12 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1922
+Title: കാതോലിക് സഭ ("The Catholic Church"), volume 2, numbers 5 and 6 (as the host record numbers it)
+Creator: An editorial committee whose names are garbled in the OCR (lines 29-36). The host record names the Malankara Orthodox Syrian Church; the cover, read on the page image, says the paper is "for the welfare of the Malankara Syrian Church"
+Publisher: Not legible in the OCR
+Publication Date: 1922 (the calendar leaf after the cover prints "1922" and the Malayalam-era year "1098", read on the page image; lines 105-125)
 Rights: Public Domain (pd-us-by-date: printed 1922; the year printed on the calendar leaf after the cover, read on the page image ("1922" and the Malayalam-era year "1098"); the archive.org record carries no rights field)
 Language: mal
 Source: archive.org item 1922catholicsabh0000mala, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (365,554) equals the size archive.org lists for the djvu.txt.
 Provenance note: The item's own djvu.txt follows this header. No Google or Internet Archive notice was found to remove; nothing was stripped, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1922; the year printed on the calendar leaf after the cover, read on the page image ("1922" and the Malayalam-era year "1098"); the archive.org record carries no rights field. OCR quality: fair. Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Content note: A double number of a church monthly in Malayalam: church law, church history, vocation and schools. The names of the Catholicos of Malankara, Dionysius and Abdul Masih were looked for and not found; "Catholicos" appears only in a history of the East Syrian church (lines 2795-2990). Poor OCR: it serves for finding a place, not for quotation. No English matter. The last article ends at about line 4020.
 
 ______________________________________________________________________
 

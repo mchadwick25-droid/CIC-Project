@@ -1,12 +1,12 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1927
+Title: Путь: органъ русской религіозной мысли, № 7 (1927)
+Creator: Путь (many writers); подъ редакціей Н. А. Бердяева, при участіи Б. П. Вышеславцева и Г. Г. Кульмана
+Publisher: Paris (the editorial address on the cover)
+Publication Date: 1927 (the masthead; see the Rights line)
 Rights: Public Domain (pd-us-by-date: printed 1927; the masthead date; the archive.org record carries no rights field)
 Language: rus
 Source: archive.org item B-001-028-092-093-ALL, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (802,813) equals the size archive.org lists for the djvu.txt.
 Provenance note: The item's own djvu.txt follows this header. Removed at intake as the host's own additions: the page-foot stamp of the digitizing library, "Библиотека «Руниверс»" (130 lines). Nothing else was removed, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1927; the masthead date; the archive.org record carries no rights field. OCR quality: good; Russian in the old spelling. Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Content note: Number 7 of the Paris journal Путь; the cover prints "VOIE, Revue religieuse russe" and "Органъ русской религіозной мысли". Russian in the old spelling. The masthead in the OCR, line 49: "э* 7. АПРѢЛЬ 1927". Articles and reviews with their lines in this file (author and title as printed; some first lines are approximate): 105: В. Зѣньковскій. Свобода и соборность; 1017: С. Четвериковъ. Изъ исторіи русскаго старчества; 2264-2828: Н. Бердяевъ. Изъ размышленій о теодицеѣ; 2836-3887: Г. Флоровскій. Домъ Отчій; 3899: Г. Цебриковъ. Антиминсъ; 4312: С. М. Кавертъ. Различныя теченія въ американской религіозной жизни; 4932: Н. Арсеньевъ. О современномъ положеніи христіанства; 5915: Н. К. Съѣздъ въ St. Albans; 6665: П. С. Лопухинъ. По поводу статьи Л. А. Зандера о Бьервильскомъ съѣздѣ; 7412-7619: Г. Федотовъ. Зарубежная церковная смута; 7620: Хроника духовной жизни; 7960-7992: Н. Бердяевъ. Рецензія на книгу Г. Федотова «Смертобожничество»; 7999: Рецензія: IRENIKON — COLLECTIA № 1 ; 8510-8816: Г. Флоровскій. Книга Мёлера о церкви. G. Fedotov, "Зарубежная церковная смута" (lines 7412-7619), is on the Karlovci division. Every "Лосскій" in the journal to 1930 signs as Н. Лосскій (N. O. Lossky); no piece by Vladimir Lossky was found.
 
 ______________________________________________________________________
 

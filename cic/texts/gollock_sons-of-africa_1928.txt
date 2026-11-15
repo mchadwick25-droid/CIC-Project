@@ -1,11 +1,11 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1928
+Title: Sons of Africa
+Creator: Georgina A. Gollock (the preface is signed "Georgina A. Gollock, London, May 1928"; the OCR garbles the name on the title leaf); decorations by Aaron Douglas
+Publisher: New York: Friendship Press
+Publication Date: 1928 (the title leaf prints no year; "Copyright, 1928, by G. Q. LeSourd" at line 98, where the OCR reads "G..Q.")
 Rights: Public Domain (pd-us-by-date: printed 1928; the title page prints no year; the date used is the copyright notice, "Copyright, 1928"; the archive.org record carries no rights field)
 Source: archive.org item sonsofafrica0000goll_g2r2, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (298,589) equals the size archive.org lists for the djvu.txt.
 Provenance note: The item's own djvu.txt follows this header. No Google or Internet Archive notice was found to remove; nothing was stripped, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1928; the title page prints no year; the date used is the copyright notice, "Copyright, 1928"; the archive.org record carries no rights field. Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Content note: Short lives of Africans, written by a mission editor for study groups; no bibliography, and sources are named only here and there. "Kivubulaya at Work" (Apolo Kivebulaya) at lines 6074-6256, with no source named; "William Wade Harris, Liberian Prophet" at lines 6616-6769; the sections on Malaki of Uganda, "Elijah II" (Garrick Sokari Braid) and Kibangu follow to about line 7180, the Kibangu section crediting Dr Lerrigo. The print spells Kivubulaya, Kibangu and Braid so. Library stamps of the School of Theology at Claremont and a catalogue card at the foot are the scan's.
 
 ______________________________________________________________________
 

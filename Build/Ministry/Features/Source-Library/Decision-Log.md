@@ -760,3 +760,34 @@ Era 9, batch 2, in a fresh session: the person rows not marked major (226-330), 
 council records, the held eras 8-9 items, and the texts of this batch still owed a date check.
 Era 10, batch 2: a second pass by region for the rows marked not found (Africa, Oceania, the Orthodox churches), more
 original scans of the Catholic Worker paper, and the council leads not yet searched.
+
+## 2026-11-15 — Era 10, batch 2: Africa, Oceania, the Orthodox and Oriental churches
+
+**Done.** 71 files (4,273,101 words) for the era 10 rows batch 1 left open, all public domain by their printed dates.
+The files and the rows not filled are in `CFT-Wants.md` ("Era 10 ... batch 2"). The search record, the calls and the
+cautions are in `Build/Ministry/Operations/Audits/2026-11-15_library-era10-b2/Search_Log.md`; the items Mark can fetch
+by hand are in `Hand_Fetch_List.md` beside it.
+
+**Decided during the batch (this thread, under the rulings already recorded; the coordinator or Mark may overrule).**
+
+- **A digitizing library's page-foot stamp is a host addition.** The 25 numbers of Путь carried the line "Библиотека
+  «Руниверс»" at the foot of each page. It was stripped at intake and counted in each header.
+- **A year printed in both eras on a leaf inside an issue counts as a printed year.** One Malayalam monthly was taken
+  on its calendar leaf ("1922" and the Malayalam-era year "1098"). Issues that print only Malayalam-era numerals, not
+  read with certainty, were not taken.
+- **A host record that claims copyright in a scan of an old print is held for Mark,** as batch 1 of era 9 did with the
+  same claimant. Three Māori and Tongan prints of 1897-1916 were not taken.
+- **A second edition dated by its foreword and its catalogue record.** Jabavu's The Black Problem is taken under R12
+  on a foreword of December 1920 and a catalogue date of 1920, though the author's preface to the second edition is
+  dated January 1921. The header gives all three.
+- **Batch 1's shelf rows at `needs-ruling`.** All twelve are settled by the principle of the shelf rulings above
+  (antecedent, context or tradition, with the doubt in the row's note). The table is in the Search_Log.
+
+**Not done.** No further scan of the New York Catholic Worker exists on archive.org. No first-hand print of William
+Wadé Harris, Kimbangu, Kivebulaya, Rātana, Surma, Balakian, Kyrion II or Habib Girgis was found; the original prints
+of the Moscow council of 1917-18 are on hosts that refuse automated clients.
+
+### Next action
+
+Mark works the hand-fetch list. Batch 3 (American books of 1931-1963 under R7; the remaining people and council
+leads) goes to a fresh session.

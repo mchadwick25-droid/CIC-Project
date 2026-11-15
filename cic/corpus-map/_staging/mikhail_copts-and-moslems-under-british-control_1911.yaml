@@ -1,0 +1,11 @@
+source_file: mikhail_copts-and-moslems-under-british-control_1911.txt
+assignments:
+- row_id: mikhail_copts-and-moslems-under-british-control_1911--kyriakos-mikhail-copts-and-moslems-under-british-control
+  work: 'Kyriakos Mikhail, Copts and Moslems under British Control (1911)'
+  author: mikhail
+  locus: 'whole; the Congress of Assiout and the Patriarch''s encyclical at lines 1156-1475'
+  atlas_ids:
+  - coptic-revival-under-cyril-iv
+  role: tradition
+  confidence: assigned
+  note: 'An advocacy book of 1911 by a representative of the Coptic press, five years after the entry''s window closes. No census entry covers the Coptic church between 1906 and 1940.'

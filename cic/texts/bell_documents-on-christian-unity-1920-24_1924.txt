@@ -1,11 +1,11 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1924
+Title: Documents on Christian Unity 1920-4
+Creator: Edited by G. K. A. Bell, Dean of Canterbury (the host record gives the name as "G. K. A Bell"; the OCR of the title page keeps only "Dean of Canterbury")
+Publisher: London: Oxford University Press, Humphrey Milford
+Publication Date: 1924 (title page)
 Rights: Public Domain (pd-us-by-date: printed 1924; the title-page year; the archive.org record carries no rights field)
 Source: archive.org item documentsonchris0000gkbe, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (729,464) equals the size archive.org lists for the djvu.txt.
 Provenance note: The item's own djvu.txt follows this header. Removed at intake as the host's own additions: the Internet Archive's own notice (6 lines). Nothing else was removed, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1924; the title-page year; the archive.org record carries no rights field. Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Content note: Ninety documents of many churches and four appendices, in English. Document 13, the "Encyclical Letter from the Patriarchate of Constantinople. Unto all the Churches of Christ wheresoever they be (January 1920)", at lines 3112-3340, signed by the locum tenens Dorotheus of Brussa and eleven metropolitans; the book does not say who made its English. The Lambeth "Appeal to All Christian People" from line 971. The editor's statement on permissions at lines 119-180. Some headings are garbled in the OCR. The text ends at line 19316.
 
 ______________________________________________________________________
 

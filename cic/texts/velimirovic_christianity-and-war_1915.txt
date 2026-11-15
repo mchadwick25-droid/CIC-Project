@@ -1,11 +1,11 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1915
+Title: Christianity and War: Letters of a Serbian to his English Friend
+Creator: No author is named in the print; the host record gives Nikolaj Velimirović
+Publisher: New York (the cover prints "Њујорк"); a Serbian line above the title is garbled in the OCR
+Publication Date: 1915 (the printed cover, read on the page image)
 Rights: Public Domain (pd-us-by-date: printed 1915; the year on the printed cover, read on the page image; the pamphlet has no separate title page; the archive.org record says possible-copyright-status "NOT_IN_COPYRIGHT")
 Source: archive.org item christianitywarl00veli, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (60,993) equals the size archive.org lists for the djvu.txt.
 Provenance note: The item's own djvu.txt follows this header. No Google or Internet Archive notice was found to remove; nothing was stripped, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1915; the year on the printed cover, read on the page image; the pamphlet has no separate title page; the archive.org record says possible-copyright-status "NOT_IN_COPYRIGHT". Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Content note: A pamphlet of letters in English with no author, translator or preface-writer named anywhere in it. It gives its writer only as "a Serbian". The text ends at about line 1315.
 
 ______________________________________________________________________
 

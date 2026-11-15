@@ -1,11 +1,11 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1916
+Title: Serbia in Light and Darkness
+Creator: Rev. Father Nicholai Velimirovic; with a preface by the Archbishop of Canterbury
+Publisher: London and New York: Longmans, Green and Co.
+Publication Date: 1916 (title page, read on the page image)
 Rights: Public Domain (pd-us-by-date: printed 1916; the title-page year, read on the page image; the archive.org record carries no rights field)
 Source: archive.org item cu31924028577868, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (195,935) equals the size archive.org lists for the djvu.txt.
 Provenance note: The item's own djvu.txt follows this header. Removed at intake as the host's own additions: the scanning library's notice with its archive.org address (8 lines). Nothing else was removed, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1916; the title-page year, read on the page image; the archive.org record carries no rights field. Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Content note: His lectures and essays in English. The preface (lines 265-305, signed "Randall Cantuar", Lambeth, Easter 1916) is not his. The text ends at line 5277.
 
 ______________________________________________________________________
 

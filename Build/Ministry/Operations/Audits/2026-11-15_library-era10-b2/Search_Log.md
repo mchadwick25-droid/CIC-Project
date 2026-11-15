@@ -164,4 +164,71 @@ None is left at `needs-ruling`.
 
 ## Cautions for profile writers
 
-CAUTIONS_PLACEHOLDER
+1. **The African prophets.** No held file prints Harris's, Kimbangu's or Kivebulaya's own writing. What is held is
+   what missionaries and one colonial writer printed about them between 1908 and 1928. Say so in any profile.
+2. **Spellings.** The prints spell Kibangu (never Kimbangu), "William Vade Harris" (Marty), "William Wade Harris"
+   and "William Wadé Harris", Kivubulaya (Gollock) and Kivebulaya (Tucker), Braid (for Braide).
+3. **Kibangu's call (the review of 1922).** Lerrigo gives it in the first person, but he had it from Budimbu, who
+   said he had it from the prophet. Two hands stand between the words and the man.
+4. **Harris's last charge (the review of 1928).** Thompson gives the words as the missionary Benoit brought them from
+   Liberia. The print does not say how Benoit took them down.
+5. **The review of 1923 is not a second witness.** Allegret's long quotation on Harris is Marty's wording; a footnote
+   says so.
+6. **Marty.** He sums up Harris's preaching and quotes none of it. He writes as an observer of Islam.
+7. **Gollock, Sons of Africa.** Written for study groups, with no bibliography. The Apolo section names no source.
+   Several of its subjects were living when it was printed.
+8. **Tucker.** Volume II only. Apolo Kivebulaya is seen through his bishop; none of his own words are given.
+9. **Smith on Le Zoute.** Only the recommendations and resolutions are the conference's; the rest is Smith's reading,
+   by his own preface.
+10. **Jabavu.** A second edition; its section on the Native Affairs Act was shortened. Merriman's foreword is not
+    his. "Native" and "black problem" are the print's words.
+11. **The Zulu hymnal.** Many hymns are adaptations, by the preface. It names no Zulu writer; the index of first
+    lines names some writers. The date rests on a copyright notice.
+12. **Wanger's catechism.** A leaf of 1915 allows its sale "as corrected" and reserves its use to missionaries and
+    priests. It is not evidence of what lay Zulu Catholics were given to read.
+13. **Te Karere.** The letter that speaks of Rātana is broken in the OCR and its signer cannot be read. It is another
+    church's paper. Do not quote it without the page image. The numbers in the file are out of order.
+14. **Naayem.** The print does not say who made the English or from what language. Part II is other people's
+    depositions. Surma is not named anywhere in the book.
+15. **Austin and Wigram.** Outside witnesses of 1920. Austin spells the Patriarch "Mar Polos Shimun". Wigram's third
+    chapter is headed "CHAPTER II" in the OCR.
+16. **Kyriakos Mikhail.** An advocacy book written for English readers. The Patriarch's encyclical is signed with his
+    office only; the book does not name him there. Chapters I and II are by other hands.
+17. **The Arabic history of the Coptic Church (1924).** Poor OCR; the author's name is the host record's, not read
+    in the print. Use it to find a place, then read the page image.
+18. **Khrimian.** A collection made in 1929 that leaves out his encyclicals and his writing in periodicals. Poor OCR
+    in the body. His years and his office are the host record's.
+19. **The Armenian liturgy in English.** The two translators are not named and do not say what text they used.
+20. **The Malayalam monthlies.** Poor OCR in both. Which church each belongs to is the host record's word, not read
+    in the print. Neither names the events of 1912.
+21. **Panjikaran.** It argues one side and stops at 1599.
+22. **Путь.** The cover prints "VOIE, Revue religieuse russe"; the Russian name stands in the journal's own notes.
+    Each header lists the articles with line numbers; some first lines are approximate. Number 5 lacks its last
+    fifteen pages. In number 9 the OCR runs two columns together at about lines 5236-5330.
+23. **Путь, the dates.** The OCR garbles the masthead year of number 2 ("192©") and misreads that of number 17 as
+    "1939". Both dates rest on the numbers on either side. The pack has no page images to check them on.
+24. **Lossky.** Every "Лосскій" in Путь to 1930 is Н. Лосскій, the philosopher N. O. Lossky. Nothing of Vladimir
+    Lossky is held.
+25. **Sergius's message of 1927.** Held only in English (The Christian East, winter 1927), headed a "Letter", dated
+    16/29 July 1927; the print names no translator. Путь number 9 dates the message 29 July 1927 and number 10
+    "19-го августа 1927". Batch 1's caution 3 (Emhardt) still holds. Still no full text of a rejection.
+26. **Tikhon.** The New York volume of 1922 tells his words at the trial at second hand. His epistle of 19 January
+    1918 is held in Russian only inside a book by his opponent Vvedensky, in the new spelling; check it against
+    Spinka's and Emhardt's English. The pastoral of 1923 in The Christian East was translated from a Belgrade
+    newspaper.
+27. **Vvedensky.** A renovationist leader writing against the Patriarch. The first leaves are garbled; the clean text
+    begins at about line 178.
+28. **Valentinov.** A compilation from the press, made in Paris. Only Appendix 1 is a full document of the Patriarch.
+29. **The Christian East.** An Anglican journal. Its Orthodox documents are translations, some with no translator
+    named. Ambrose's memorandum breaks off where the scan lacks a page. In the number for July 1922 the print dates a
+    law "March 27, 1919", which looks like a slip. The number for September 1920 does not print the encyclical of
+    January 1920.
+30. **Bell.** The encyclical of January 1920 is in English with no translator named. Some headings are garbled in
+    the OCR, so check a document's number against the contents.
+31. **Zankov.** The English edition folds most footnotes into the text and drops the rest; quote the German for
+    anything that turns on a note. The OCR prints the English edition's year as 1939.
+32. **Velimirović.** The books of 1915-1917 style him "Father" and professor; give no later office from them. One
+    is a translation by Fanny S. Copeland. Christianity and War names no author at all: the attribution is the
+    library's. The forewords are by others.
+33. **The Patriarchate's Black Book (1920).** Poor OCR in Greek. The title is the host record's.
+34. **Loisy 1904.** The third edition, with no preface of its own. Do not cite it as the text of 1902.

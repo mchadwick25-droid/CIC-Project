@@ -1,0 +1,21 @@
+source_file: valentinov_chernaia-kniga-rus_1925.txt
+assignments:
+- row_id: valentinov_chernaia-kniga-rus_1925--valentinov-comp-chernaia-kniga-1925
+  work: 'Valentinov (comp.), Chernaia kniga (1925)'
+  author: valentinov
+  locus: 'whole'
+  atlas_ids:
+  - the-russian-new-martyrs-and-the-catacomb-church
+  role: context
+  confidence: assigned
+  note: 'An émigré compilation from the press, made outside Russia.'
+- row_id: valentinov_chernaia-kniga-rus_1925--patriarch-tikhon-epistle-on-help-for-the-starving-15
+  work: 'Patriarch Tikhon, epistle on help for the starving, 15 February 1922 (as printed in Valentinov 1925)'
+  author: valentinov
+  locus: 'lines 13444-13517'
+  atlas_ids:
+  - the-russian-orthodox-church-council-patriarchate-and-reunion
+  - the-russian-new-martyrs-and-the-catacomb-church
+  role: tradition
+  confidence: assigned
+  note: 'His own words in Russian, in full, as an émigré compiler printed them in 1925.'

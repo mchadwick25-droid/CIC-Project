@@ -1,11 +1,11 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1911
+Title: Copts and Moslems under British Control: A Collection of Facts and a Résumé of Authoritative Opinions on the Coptic Question
+Creator: Kyriakos Mikhail; chapters by Mrs. Butcher and John Ward; a preface by Professor A. H. Sayce
+Publisher: London: Smith, Elder & Co.
+Publication Date: 1911 (title page)
 Rights: Public Domain (pd-us-by-date: printed 1911; the title-page year; the archive.org record says possible-copyright-status "NOT_IN_COPYRIGHT")
 Source: archive.org item coptsmoslemsunde00mikh, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (259,837) equals the size archive.org lists for the djvu.txt.
 Provenance note: The item's own djvu.txt follows this header. No Google or Internet Archive notice was found to remove; nothing was stripped, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1911; the title-page year; the archive.org record says possible-copyright-status "NOT_IN_COPYRIGHT". Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Content note: An advocacy book for the Copts; in his note (lines 73-126) he says he was sent to London in June 1910 as "a representative of the Coptic Press". Chapters I and II are by other hands. The Coptic Congress of Assiout (March 1911) at lines 1156-1186 and 1380-1475; the opening address of the Bishop of Assiout at lines 1186-1215; the Patriarch's encyclical against the Congress at lines 1262-1352, signed only "The Patriarch of the Orthodox Copts". The text ends at about line 5870. UCLA library stamps are the scan's.
 
 ______________________________________________________________________
 

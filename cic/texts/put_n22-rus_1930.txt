@@ -1,12 +1,12 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1930
+Title: Путь: органъ русской религіозной мысли, № 22 (1930)
+Creator: Путь (many writers); подъ редакціей Н. А. Бердяева, при участіи Б. П. Вышеславцева и Г. Г. Кульмана
+Publisher: Paris (the editorial address on the cover)
+Publication Date: 1930 (the masthead; see the Rights line)
 Rights: Public Domain (pd-us-by-date: printed 1930; the masthead date; the archive.org record carries no rights field)
 Language: rus
 Source: archive.org item B-001-028-092-093-ALL, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (558,266) equals the size archive.org lists for the djvu.txt.
 Provenance note: The item's own djvu.txt follows this header. Removed at intake as the host's own additions: the page-foot stamp of the digitizing library, "Библиотека «Руниверс»" (140 lines). Nothing else was removed, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1930; the masthead date; the archive.org record carries no rights field. OCR quality: good; Russian in the old spelling. Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Content note: Number 22 of the Paris journal Путь; the cover prints "VOIE, Revue religieuse russe" and "Органъ русской религіозной мысли". Russian in the old spelling. The masthead in the OCR, line 56: "№ 22. ІЮНЬ 1930 № 22.". Articles and reviews with their lines in this file (author and title as printed; some first lines are approximate): 95: Прот. С. Четвериковъ. Евхаристія, какъ средоточіе христіанской жизни; 1043-2297: А. Карповъ. А. М. Бухаревъ (Архимандритъ Феодоръ); 2302-2964: И. Гофштеттеръ. Богоборчество; 2969: М. Курдюмовъ. Православіе и большевизмъ; 4390: Письмо изъ Россіи Н. А. Бердяеву; 4557: Л. Шестовъ. В. В. Розановъ; 4916-5503: Н. Меньшиковъ. Душа вещей; 5511-6037: В. Зѣньковскій. Съѣздъ въ Аѳинахъ; 6044-6179: В. Н. Ильинъ. По поводу второй выставки иконъ; 6194-6278: Г. Флоровскій. Orient und Occident; 6280-6412: Г. Флоровскій. Charles Gore, Jesus of Nazareth; 6414-6524: Б. Вышеславцевъ. Asketismus (Schjelderup); 6526-6728: Б. Вышеславцевъ. Psychanalyse de l'Art (Baudouin). A "Письмо изъ Россіи Н. А. Бердяеву" (from line 4390) names the "декларація" of Metropolitan Sergius at line 4513. Every "Лосскій" in the journal to 1930 signs as Н. Лосскій (N. O. Lossky); no piece by Vladimir Lossky was found.
 
 ______________________________________________________________________
 

@@ -1,12 +1,12 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1927
+Title: Путь: органъ русской религіозной мысли, № 8 (1927)
+Creator: Путь (many writers); подъ редакціей Н. А. Бердяева, при участіи Б. П. Вышеславцева и Г. Г. Кульмана
+Publisher: Paris (the editorial address on the cover)
+Publication Date: 1927 (the masthead; see the Rights line)
 Rights: Public Domain (pd-us-by-date: printed 1927; the masthead date; the archive.org record carries no rights field)
 Language: rus
 Source: archive.org item B-001-028-092-093-ALL, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,024,582) equals the size archive.org lists for the djvu.txt.
-Provenance note: The item's own djvu.txt follows this header. Removed at intake as the host's own additions: the page-foot stamp of the digitizing library, "Библиотека «Руниверс»" (158 lines). Nothing else was removed, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1927; the masthead date; the archive.org record carries no rights field. OCR quality: good; Russian in the old spelling. Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Provenance note: The item's own djvu.txt follows this header. Removed at intake as the host's own additions: the page-foot stamp of the digitizing library, "Библиотека «Руниверс»" (160 lines). Nothing else was removed, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1927; the masthead date; the archive.org record carries no rights field. OCR quality: good; Russian in the old spelling. Line numbers in this header are this file's own line numbers.
+Content note: Number 8 of the Paris journal Путь; the cover prints "VOIE, Revue religieuse russe" and "Органъ русской религіозной мысли". Russian in the old spelling. The masthead in the OCR, line 48: "№8. АВГУСТЪ 1927 №8.". Articles and reviews with their lines in this file (author and title as printed; some first lines are approximate): 114-1643: С. Франкъ. Церковь и міръ, благодать и законъ; 1651-5621: Н. Н. Алексѣевъ. Русскій народъ и государство; 5629-6984: Г. П. Ѳедотовъ. Св. Женевьева и Св. Симеонъ Столпникъ; 6989-8365: В. Зѣньковскій. Факты и размышленія (психологія современной молодежи); 8373-9250: Е. Беленсонъ. О юродствѣ во Христѣ; 9258-10398: Р. Вальтеръ. Ангелусъ Силезіусъ; 10406-12107: Ю. Сазонова. Три католическихъ образа; 12115: П. К. Ивановъ. Сокровенный смыслъ событій въ русской православной церкви; 13251-13565: Н. Бердяевъ. Съѣздъ въ Австріи; 13573-14135: Б. Вышеславцевъ. Балканскія впечатлѣнія; 14143: Философское общество въ Прагѣ (list of lectures 14143-14338; not in contents); 14363-14848: Н. Бердяевъ. Утопическій этатизмъ евразійцевъ; 14853-15307: Н. Бердяевъ. Обвиненіе Запада; 15315-15860: Л. Зандеръ. Новая книга о Достоевскомъ; 15863-16193: В. Ильинъ. Рецензіи: прот. С. Булгаковъ «Другъ жениха»; митр. Антоній «Догматъ искупленія»; 16194-16398: Рецензіи на Клепинина и Смирнова «Литургія». V. Ilyin reviews Bulgakov's «Другъ жениха» near the end of the number. Every "Лосскій" in the journal to 1930 signs as Н. Лосскій (N. O. Lossky); no piece by Vladimir Lossky was found.
 
 ______________________________________________________________________
 
@@ -7318,7 +7318,6 @@ of  our  youth»  сначала  съ  ужасомъ  кон¬
 мысль  книги  Линдсея,  что,  какъ  ни  тя- 
 
 
-Библиотекз  "Руниверс1 
 
 
 жела  картина  современнаго  распада  нра¬ 
@@ -7845,7 +7844,6 @@ Bruce  Curry.  Если  жизнь  такъ  жестока,
 къ  «музыкѣ  будущаго»,  къ  тому  истори- 
 
 
-Библиотекз  "Руниверс1 
 
 
 ческому  перелому,  въ  которомъ  такъ 

@@ -1,11 +1,11 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1929
+Title: The Eastern Orthodox Church
+Creator: Stefan Zankov; translated and edited by Donald A. Lowrie; foreword to the American edition by John R. Mott
+Publisher: Milwaukee, Wis.: Morehouse Publishing Company
+Publication Date: 1929 (title page, read on the page image; the OCR at line 115 misreads it as 1939)
 Rights: Public Domain (pd-us-by-date: printed 1929; the title-page year, read on the page image; the OCR misreads it as 1939; the archive.org record carries no rights field)
 Source: archive.org item easternorthodoxc0000tsan_r7h2, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (238,316) equals the size archive.org lists for the djvu.txt.
 Provenance note: The item's own djvu.txt follows this header. No Google or Internet Archive notice was found to remove; nothing was stripped, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1929; the title-page year, read on the page image; the OCR misreads it as 1939; the archive.org record carries no rights field. Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Content note: A Bulgarian Orthodox professor's lectures of 1927 in English. Lowrie's preface (lines 380-406) says most of the German footnotes are worked into the text and the rest left out, and sends the reader to the German edition of 1928. Mott's foreword is not Zankov's. The body ends at about line 6600. Claremont library marks at the head and foot are the scan's.
 
 ______________________________________________________________________
 

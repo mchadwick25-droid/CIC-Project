@@ -1,11 +1,11 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1921
+Title: Shall This Nation Die?
+Creator: Rev. Joseph Naayem, O.I.; with a preface by Lord Bryce and an historical essay by Rev. Gabriel Oussani, D.D.
+Publisher: New York: Chaldean Rescue
+Publication Date: 1921 (the title leaf prints no year; "Copyright, 1921" at line 116)
 Rights: Public Domain (pd-us-by-date: printed 1921; the title page prints no year; the date used is the copyright notice, "Copyright, 1921"; the archive.org record says possible-copyright-status "The Library of Congress is unaware of any copyright restrictions for this item.")
 Source: archive.org item shallthisnationd00naay, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (436,910) equals the size archive.org lists for the djvu.txt.
 Provenance note: The item's own djvu.txt follows this header. Removed at intake as the host's own additions: the Internet Archive's own notice (6 lines). Nothing else was removed, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1921; the title page prints no year; the date used is the copyright notice, "Copyright, 1921"; the archive.org record says possible-copyright-status "The Library of Congress is unaware of any copyright restrictions for this item.". Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Content note: A priest's account of the massacres of the war years, in English, published by Chaldean Rescue. Bryce's preface (dated 22 July 1920) and Oussani's essay (lines 293-629) are not Naayem's. Bryce calls it "his English translation of his book"; the print does not say from what language or by whom. Part I, chapters I-IV, is Naayem's own eyewitness account; Part II is depositions of others, so labelled; Part III tells of Mar Shimoun (lines 8571-8712; his letters and death at lines 9296-9350) and gives Bishop Petros Aziz's account. Surma is not named in the book. The text ends at line 10257. Library and binder's stamps are the scan's.
 
 ______________________________________________________________________
 

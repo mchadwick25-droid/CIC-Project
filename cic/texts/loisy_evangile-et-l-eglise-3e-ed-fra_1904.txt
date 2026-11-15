@@ -1,12 +1,12 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1904
+Title: L'Évangile et l'Église, troisième édition
+Creator: Alfred Loisy
+Publisher: Bellevue (S.-et-O.): chez l'auteur
+Publication Date: 1904 (title page)
 Rights: Public Domain (pd-us-by-date: printed 1904; the title-page year, read on the page image; the archive.org record says possible-copyright-status "NOT_IN_COPYRIGHT")
 Language: fra
 Source: archive.org item lvangileetlg00loisuoft, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (420,232) equals the size archive.org lists for the djvu.txt.
 Provenance note: The item's own djvu.txt follows this header. No Google or Internet Archive notice was found to remove; nothing was stripped, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1904; the title-page year, read on the page image; the archive.org record says possible-copyright-status "NOT_IN_COPYRIGHT". Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Content note: His book in French, in the third edition. No preface to this edition is printed; an undated introduction at lines 92-921, then six chapters (from lines 925, 1964, 3135, 4785, about 6091, and 7561). The body ends at line 9317; the table and a University of Toronto library slip follow. The first edition of 1902 is not held.
 
 ______________________________________________________________________
 

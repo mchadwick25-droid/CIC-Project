@@ -1,11 +1,11 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1923
+Title: The International Review of Missions, Volume the Twelfth (1923)
+Creator: The International Review of Missions (many writers); edited by J. H. Oldham and G. A. Gollock
+Publisher: London: Edinburgh House; Humphrey Milford, Oxford University Press (published by the International Missionary Council)
+Publication Date: 1923 (the volume title leaf)
 Rights: Public Domain (pd-us-by-date: printed 1923; the year on the volume title leaf; the archive.org record carries no rights field)
 Source: archive.org item sim_international-review-of-mission_1923_12, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,471,187) equals the size archive.org lists for the djvu.txt.
 Provenance note: The item's own djvu.txt follows this header. No Google or Internet Archive notice was found to remove; nothing was stripped, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1923; the year on the volume title leaf; the archive.org record carries no rights field. Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Content note: One whole volume of the quarterly; many writers. Elie Allegret, "The Missionary Question in the French Colonies", has a section "Religious Unrest" at lines 11456-11610 on William Wade Harris; its long quotation is introduced "An Administrator wrote" and a footnote credits Marty's Études, so it is not a second witness beside Marty. A note on Kibangu at line 14817, in the unsigned "Missionary Survey of the Year 1922".
 
 ______________________________________________________________________
 

@@ -1,12 +1,12 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1911
+Title: Amagama Okuhlabelela: Zulu Hymnal, second music edition, revised and enlarged
+Creator: The American Zulu Mission (the preface's signature is not legible in the OCR)
+Publisher: Boston: The American Board of Commissioners for Foreign Missions, for the American Zulu Mission, Natal, South Africa
+Publication Date: 1911 (the title leaf prints no year; "Copyright 1911" and "Published March 10, 1911" follow it)
 Rights: Public Domain (pd-us-by-date: printed 1911; the title page prints no year; the date used is the copyright notice, "Copyright 1911", with "Published March 10, 1911" beside it; the archive.org record carries no rights field)
 Language: zul
 Source: archive.org item amkuhlabel00bost, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (591,818) equals the size archive.org lists for the djvu.txt.
 Provenance note: The item's own djvu.txt follows this header. No Google or Internet Archive notice was found to remove; nothing was stripped, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1911; the title page prints no year; the date used is the copyright notice, "Copyright 1911", with "Published March 10, 1911" beside it; the archive.org record carries no rights field. OCR quality: fair; the tonic sol-fa notation is noisy. Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Content note: The mission church's hymnal in Zulu with tonic sol-fa music. The preface (lines 187-282) calls it "the second edition of music and words combined, - the eighth edition of the words", revised "with the generous aid of other missionaries and the natives", and says many hymns are adaptations and not translations. The hymns end at about line 24480; indexes follow, and responsive readings from line 25460. The first-line index names some writers; the preface names no Zulu hymn-writer. The music notation is noisy in the OCR. A Princeton library stamp is the scan's.
 
 ______________________________________________________________________
 

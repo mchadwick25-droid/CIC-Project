@@ -1,11 +1,11 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1921
-Rights: Public Domain (pd-us-by-date: printed 1921; the title page prints no year; the date used is the dated foreword, "12th December 1920", with which the library catalogue date (1920) agrees; the author's note to this second edition is dated January 1921; the archive.org record carries no rights field)
+Title: The Black Problem: Papers and Addresses on Various Native Problems, second edition
+Creator: D. D. T. Jabavu, B.A. (Lond.), Professor of Bantu Languages, S.A. Native College, Fort Hare; foreword by John X. Merriman
+Publisher: Lovedale, C.P.: The Book Department (Lovedale Institution Press)
+Publication Date: 1921 (the title leaf prints no year; the foreword is dated 12th December 1920 and the author's preface to the second edition "January, 1921")
+Rights: Public Domain (pd-us-by-date: printed 1921; the title page prints no year; the date used is the dated foreword, "12th December 1920", with which the library catalogue date (1920) agrees; the author's preface to this second edition is dated January 1921; the archive.org record carries no rights field)
 Source: archive.org item blackproblempape00jaba, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (372,667) equals the size archive.org lists for the djvu.txt.
-Provenance note: The item's own djvu.txt follows this header. Removed at intake as the host's own additions: the Internet Archive's own notice (6 lines). Nothing else was removed, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1921; the title page prints no year; the date used is the dated foreword, "12th December 1920", with which the library catalogue date (1920) agrees; the author's note to this second edition is dated January 1921; the archive.org record carries no rights field. Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Provenance note: The item's own djvu.txt follows this header. Removed at intake as the host's own additions: the Internet Archive's own notice (6 lines). Nothing else was removed, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1921; the title page prints no year; the date used is the dated foreword, "12th December 1920", with which the library catalogue date (1920) agrees; the author's preface to this second edition is dated January 1921; the archive.org record carries no rights field. Line numbers in this header are this file's own line numbers.
+Content note: Papers and addresses by a professor at Fort Hare; the preface calls the book "the statement of a Native's opinions on Native matters". Merriman's foreword at lines 64-118 is not Jabavu's. The preface to the second edition (lines 245-283) says the first edition "has been exhausted within three months" and that the section on the Native Affairs Act was condensed. The text ends at about line 7597. The words "Native" and "black problem" are the print's own.
 
 ______________________________________________________________________
 

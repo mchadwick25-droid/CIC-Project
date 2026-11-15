@@ -1,12 +1,12 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1910
+Title: മലങ്കര സഭാതാരക (Malankara Sabha Tharaka, "The Star of the Malankara Church"), volume 6, number 12 (as the host record numbers it)
+Creator: Malankara Sabha Tharaka; manager K. N. Daniel, Kottayam (lines 54-55). The host record names the Mar Thoma Church; the print does not name a church in what could be read
+Publisher: Kottayam: printed and published by K. M. Varky at the V. G. Press (cover, read on the page image)
+Publication Date: 1910 (the cover imprint, read on the page image; a Malayalam-era date stands at line 26, its digits garbled in the OCR)
 Rights: Public Domain (pd-us-by-date: printed 1910; the year in the imprint on the cover, read on the page image; the archive.org record carries a Public Domain Mark)
 Language: mal
 Source: archive.org item 1910-Malankara-Sabha-Tharaka-Volume-006-Issue-12, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (246,416) equals the size archive.org lists for the djvu.txt.
 Provenance note: The item's own djvu.txt follows this header. No Google or Internet Archive notice was found to remove; nothing was stripped, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1910; the year in the imprint on the cover, read on the page image; the archive.org record carries a Public Domain Mark. OCR quality: fair. Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Content note: One number of a church monthly in Malayalam. The contents at lines 29-51; the leading matter is on the worldly authority of the Patriarch of Antioch. Poor OCR: it serves for finding a place, not for quotation. No English matter. The last matter ends at about line 2055.
 
 ______________________________________________________________________
 

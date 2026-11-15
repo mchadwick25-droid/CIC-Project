@@ -1,11 +1,11 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1922
+Title: The International Review of Missions, Volume the Eleventh (1922)
+Creator: The International Review of Missions (many writers); edited by J. H. Oldham and G. A. Gollock
+Publisher: London: Edinburgh House; Humphrey Milford, Oxford University Press (published by the International Missionary Council)
+Publication Date: 1922 (the volume title leaf)
 Rights: Public Domain (pd-us-by-date: printed 1922; the year on the volume title leaf; the archive.org record carries no rights field)
 Source: archive.org item sim_international-review-of-mission_1922_11, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,555,592) equals the size archive.org lists for the djvu.txt.
 Provenance note: The item's own djvu.txt follows this header. No Google or Internet Archive notice was found to remove; nothing was stripped, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1922; the year on the volume title leaf; the archive.org record carries no rights field. Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Content note: One whole volume of the quarterly; many writers. "The 'Prophet Movement' in Congo" by P. H. J. Lerrigo, M.D., at lines 23628-24179: Kibangu's call is told from line 23666 as Lerrigo had it from Budimbu, "an English-speaking native" who "knew the prophet personally"; the court-martial at line 24093 and the reprieve at lines 24117-24121. The print spells the prophet Kibangu. D. D. T. Jabavu, "Native Unrest in South Africa", from line 22385.
 
 ______________________________________________________________________
 

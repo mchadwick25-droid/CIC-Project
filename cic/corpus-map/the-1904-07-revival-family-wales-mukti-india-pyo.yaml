@@ -54,9 +54,10 @@ works:
   work: Ramabai, The High-Caste Hindu Woman
   author: ramabai
   locus: whole; Bodley's introduction is not hers
-  role: tradition
-  confidence: needs-ruling
-  note: Her own words, but written in 1887, before the entry's window of 1904-1910.
+  role: antecedent
+  confidence: assigned
+  note: Her own words, written in 1887, before the entry's window of 1904-1910 and before
+    Mukti.
   source_file: ramabai_high-caste-hindu-woman_1888.txt
 - row_id: story-of-the-welsh-revival_told-by-eyewitnesses_3rd-ed1905--the-story-of-the-welsh-revival-as-told-by-eyewitnesses
   work: The Story of the Welsh Revival as told by eyewitnesses together with a sketch of Evan

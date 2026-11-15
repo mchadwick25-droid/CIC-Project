@@ -1,11 +1,11 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1912
+Title: The Syrian Church in Malabar
+Creator: Joseph C. Panjikaran, B.A.
+Publisher: Trichinopoly: St. Joseph's Industrial School Press ("Printed by Rev. Brother Joseph S.J., Superintendent")
+Publication Date: 1912 (title page)
 Rights: Public Domain (pd-us-by-date: printed 1912; the title-page year; the archive.org record carries no rights field)
 Source: archive.org item cu31924029361338, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (127,574) equals the size archive.org lists for the djvu.txt.
 Provenance note: The item's own djvu.txt follows this header. Removed at intake as the host's own additions: the scanning library's notice with its archive.org address (9 lines). Nothing else was removed, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1912; the title-page year; the archive.org record carries no rights field. Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Content note: An argument that the Syrian church of Malabar was not Nestorian before 1599; the history stops at the Synod of Diamper. He speaks of "Jacobite" writers at lines 492-501 and 848-856. The book says nothing of the events of 1912 and does not name the Mar Thoma church. The text ends at about line 2755.
 
 ______________________________________________________________________
 

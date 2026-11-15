@@ -1,11 +1,11 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1908
+Title: The Divine Liturgy of the Holy Apostolic Church of Armenia (Christian Liturgies)
+Creator: The Armenian Church; "translated into English by two Armenian priests", who are not named
+Publisher: London: Cope and Fenwick
+Publication Date: 1908 (title page: "MCMVIII"; the verso reads "First Published in 1908")
 Rights: Public Domain (pd-us-by-date: printed 1908; the title-page year, read on the page image ("MCMVIII"; the verso reads "First Published in 1908"); the archive.org record carries no rights field)
 Source: archive.org item divineliturgyofh00arme, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (114,239) equals the size archive.org lists for the djvu.txt.
 Provenance note: The item's own djvu.txt follows this header. No Google or Internet Archive notice was found to remove; nothing was stripped, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1908; the title-page year, read on the page image ("MCMVIII"; the verso reads "First Published in 1908"); the archive.org record carries no rights field. Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Content note: The Armenian liturgy in English. Unsigned "Introductory Notes" at lines 133-533; the liturgy at lines 563-4531. The translators say nothing of the text they worked from. Stray marks on blank leaves are OCR noise.
 
 ______________________________________________________________________
 

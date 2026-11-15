@@ -1,0 +1,11 @@
+source_file: ecumenical-patriarchate_mavri-vivlos-ell_1920.txt
+assignments:
+- row_id: ecumenical-patriarchate_mavri-vivlos-ell_1920--ecumenical-patriarchate-mavri-vivlos-black-book-1920
+  work: 'Ecumenical Patriarchate, Mavri Vivlos (Black Book, 1920)'
+  author: ecumenical-patriarchate
+  locus: 'whole'
+  atlas_ids:
+  - the-greek-church-and-the-ecumenical-patriarchate
+  role: tradition
+  confidence: assigned
+  note: 'The Patriarchate''s own print in Greek. Poor OCR: a second witness until checked against the page images.'

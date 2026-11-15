@@ -1,12 +1,12 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1930
-Rights: Public Domain (pd-us-by-date: printed 1930; the masthead date, read on the page image ("21 o Mei 1930"); the host record gives the series date 1907; the archive.org record carries no rights field)
+Title: Te Karere, Wahanga 24 (numbers of 1930)
+Creator: The New Zealand Mission of the Church of Jesus Christ of Latter-day Saints (as the host record names it); the masthead prints "Hoani Eparaima Makapi, Tumuaki Mihana"
+Publisher: New Zealand; letters are directed to "te Etita o Te Karere, M.A.C., Hastings" (lines 3069-3070)
+Publication Date: 1930 (mastheads: "21 o Mei 1930" at lines 129-134, read also on the page image; "23 o Aperira" 1930 at lines 3036-3039; a third masthead, of November 1930 in garbled OCR, at about line 6701)
+Rights: Public Domain (pd-us-by-date: printed 1930; the masthead dates of the numbers in the file, all of 1930 ("21 o Mei 1930" read on the page image); the host record gives the series date 1907; the archive.org record carries no rights field)
 Language: mri
 Source: archive.org item tekarere3000chur, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (363,593) equals the size archive.org lists for the djvu.txt.
-Provenance note: The item's own djvu.txt follows this header. No Google or Internet Archive notice was found to remove; nothing was stripped, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1930; the masthead date, read on the page image ("21 o Mei 1930"); the host record gives the series date 1907; the archive.org record carries no rights field. OCR quality: fair to poor. Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Provenance note: The item's own djvu.txt follows this header. No Google or Internet Archive notice was found to remove; nothing was stripped, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1930; the masthead dates of the numbers in the file, all of 1930 ("21 o Mei 1930" read on the page image); the host record gives the series date 1907; the archive.org record carries no rights field. OCR quality: fair to poor. Line numbers in this header are this file's own line numbers.
+Content note: Several numbers of a mission paper in Māori, with some English; the numbers are not in date order in the scan. A letter headed "He Whakautu Korero / Ki te Etita o Te Karere" at lines 141-210 answers a report of a speech at Ratana Pa and speaks of the Mission President's notice against signing a covenant; its OCR is badly broken and its signer is not legible, so it must not be quoted without the page image. A notice at lines 6674-6690 lists "Ratana" among the churches invited to a meeting. The file ends inside the November number.
 
 ______________________________________________________________________
 

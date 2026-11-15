@@ -1,12 +1,12 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1920
+Title: Μαύρη Βίβλος των μαρτυρίων του εν Τουρκία Ελληνισμού από της ανακωχής μέχρι τέλους 1920 (as the host record gives it; the title leaves are garbled in the OCR)
+Creator: Οἰκουμενικὸν Πατριαρχεῖον (the Ecumenical Patriarchate, line 12); no compiler is named
+Publisher: Constantinople: the Patriarchal Press (read on the page image with some doubt; garbled in the OCR at lines 29-34)
+Publication Date: 1920 (title page, read on the page image; the year also stands in the title)
 Rights: Public Domain (pd-us-by-date: printed 1920; the title-page year, read on the page image; the archive.org record carries a Public Domain Mark)
 Language: ell
 Source: archive.org item 1920_genocide, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (464,066) equals the size archive.org lists for the djvu.txt.
 Provenance note: The item's own djvu.txt follows this header. No Google or Internet Archive notice was found to remove; nothing was stripped, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1920; the title-page year, read on the page image; the archive.org record carries a Public Domain Mark. OCR quality: poor; polytonic Greek. Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Content note: The Patriarchate's own record, in Greek, of what its people suffered from the armistice to the end of 1920; its prologue calls it a second book. Parts are marked Α, Β and Γ; the body ends at about line 7204 and a table of contents follows (lines 7205-7300). Poor OCR, with the accents unevenly kept and some line ends cut: it serves for finding a place, not for quotation.
 
 ______________________________________________________________________
 

@@ -43,10 +43,20 @@ works:
   work: Loisy, Autour d'un petit livre (1903)
   author: loisy
   locus: whole
-  role: tradition
-  confidence: needs-ruling
+  role: antecedent
+  confidence: assigned
   note: His own book in French, printed in 1903, before the entry's window opens in 1906.
+    The decree Lamentabili of 1907 answers this book and its fellow.
   source_file: loisy_autour-d-un-petit-livre-2e-ed-fra_1903.txt
+- row_id: loisy_evangile-et-l-eglise-3e-ed-fra_1904--loisy-l-evangile-et-l-eglise-third-edition-1904
+  work: Loisy, L'Évangile et l'Église (third edition, 1904)
+  author: loisy
+  locus: whole
+  role: antecedent
+  confidence: assigned
+  note: His own book in French, in the edition of 1904, before the entry's window opens in
+    1906. The decree Lamentabili of 1907 answers this book and its fellow.
+  source_file: loisy_evangile-et-l-eglise-3e-ed-fra_1904.txt
 - row_id: loisy_simples-reflexions-fra_1908--loisy-simples-reflexions-sur-le-decret-lamentabili-et-sur-l
   work: Loisy, Simples reflexions sur le decret Lamentabili et sur l'encyclique Pascendi
   author: loisy
@@ -59,9 +69,10 @@ works:
   work: Loisy, The Gospel and the Church (Home 1903)
   author: loisy
   locus: whole
-  role: tradition
-  confidence: needs-ruling
+  role: antecedent
+  confidence: assigned
   note: His book in an English translation of 1903, before the entry's window opens in 1906.
+    The decree Lamentabili of 1907 answers this book and its fellow.
   source_file: loisy_gospel-and-the-church_home1903.txt
 - row_id: modernists_programme-of-modernism-with-pascendi_tyrrell1908--the-programme-of-modernism-with-pascendi-in-english-1908
   work: The Programme of Modernism, with Pascendi in English (1908)

@@ -1,0 +1,11 @@
+source_file: velimirovic_religion-and-nationality-in-serbia_1915.txt
+assignments:
+- row_id: velimirovic_religion-and-nationality-in-serbia_1915--velimirovic-religion-and-nationality-in-serbia-1915
+  work: 'Velimirović, Religion and Nationality in Serbia (1915)'
+  author: velimirovic
+  locus: 'whole'
+  atlas_ids:
+  - orthodoxy-in-the-communist-balkans
+  role: antecedent
+  confidence: assigned
+  note: 'His own pamphlet in Copeland''s English, printed in 1915, before the entry''s window opens in 1920.'

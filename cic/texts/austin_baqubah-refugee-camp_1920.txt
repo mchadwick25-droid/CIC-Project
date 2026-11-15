@@ -1,11 +1,11 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1920
+Title: The Baqubah Refugee Camp: An Account of Work on behalf of the Persecuted Assyrian Christians
+Creator: Brigadier-Gen. H. H. Austin (late Commandant)
+Publisher: London: The Faith Press
+Publication Date: 1920 (title page)
 Rights: Public Domain (pd-us-by-date: printed 1920; the title-page year; the archive.org record carries no rights field)
 Source: archive.org item baqubahrefugeecamp, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (179,440) equals the size archive.org lists for the djvu.txt.
 Provenance note: The item's own djvu.txt follows this header. Removed at intake as the host's own additions: Google's preamble at the head (9 lines); "Digitized by" marks (3 lines). Nothing else was removed, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1920; the title-page year; the archive.org record carries no rights field. OCR quality: fair. Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Content note: The camp commandant's account. The Patriarch "Mar Polos Shimun" at lines 2360-2460; "Surma Khanum" at lines 2428-2436 and 2484-2523; the Patriarch's reply quoted at lines 4082-4097. The appendix (lines 4267-4590) is a "Thanksgiving" reprinted from The Near East of 16 January 1920 and signed for a national Assyrian committee. No letter signed by a church leader is printed. A Berkeley library mark at the foot is the scan's.
 
 ______________________________________________________________________
 

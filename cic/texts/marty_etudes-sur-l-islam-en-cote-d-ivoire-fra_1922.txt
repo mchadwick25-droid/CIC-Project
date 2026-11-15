@@ -1,12 +1,12 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1922
+Title: Études sur l'Islam en Côte d'Ivoire (Collection de la Revue du monde musulman)
+Creator: Paul Marty (the title leaf prints no office with the name)
+Publisher: Paris: Éditions Ernest Leroux
+Publication Date: 1922 (title page)
 Rights: Public Domain (pd-us-by-date: printed 1922; the title-page year; the archive.org record carries no rights field)
 Language: fra
 Source: archive.org item tudessurlislam00mart, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,038,508) equals the size archive.org lists for the djvu.txt.
 Provenance note: The item's own djvu.txt follows this header. Removed at intake as the host's own additions: the Internet Archive's own notice (8 lines). Nothing else was removed, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1922; the title-page year; the archive.org record carries no rights field. OCR quality: fair. Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Content note: A French study of Islam in the colony, dedicated to its governor. The section "Essor du christianisme. Le harrisme." at lines 537-756 describes William Wadé Harris and his preaching of 1914; it sums up what he said and quotes none of his words. The print spells him "William Vade Harris" and calls the movement "une manifestation de l'éthiopianisme". The body ends at line 19128; annexes, bibliography and contents follow. A University of Connecticut stamp at the head is the scan's.
 
 ______________________________________________________________________
 

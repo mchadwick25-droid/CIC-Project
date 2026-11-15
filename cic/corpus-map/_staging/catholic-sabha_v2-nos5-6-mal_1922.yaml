@@ -1,0 +1,11 @@
+source_file: catholic-sabha_v2-nos5-6-mal_1922.txt
+assignments:
+- row_id: catholic-sabha_v2-nos5-6-mal_1922--catholic-sabha-volume-2-numbers-5-and-6-1922
+  work: 'Catholic Sabha, volume 2, numbers 5 and 6 (1922)'
+  author: catholic-sabha
+  locus: 'whole'
+  atlas_ids:
+  - the-malankara-churches-orthodox-and-jacobite
+  role: tradition
+  confidence: assigned
+  note: 'A church monthly in Malayalam. The host record names the Malankara Orthodox Syrian Church; its title and publisher are not legible in the OCR. Poor OCR.'

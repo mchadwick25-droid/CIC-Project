@@ -1,12 +1,12 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1922
+Title: Ко дню 25-лѣтія въ архіерейскомъ санѣ Святѣйшаго Патріарха Московскаго и всея Руси Тихона, 1897 г. - 19 октября - 1922 г.: сборникъ статей
+Creator: Комитетъ при Св. Николаевскомъ каѳедральномъ соборѣ (New York); the articles are unsigned, and fourteen clergy are listed as helpers (lines 41-65)
+Publisher: New York: изданіе Комитета при Св. Николаевскомъ Каѳ. Соборѣ
+Publication Date: 1922 (title page)
 Rights: Public Domain (pd-us-by-date: printed 1922; the title-page year; the archive.org record says possible-copyright-status "The Library of Congress is unaware of any copyright restrictions for this item.")
 Language: rus
 Source: archive.org item kodniudvadtsatip00unse, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (176,469) equals the size archive.org lists for the djvu.txt.
 Provenance note: The item's own djvu.txt follows this header. No Google or Internet Archive notice was found to remove; nothing was stripped, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1922; the title-page year; the archive.org record says possible-copyright-status "The Library of Congress is unaware of any copyright restrictions for this item.". OCR quality: fair; Russian in the old spelling. Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Content note: A volume by Russian clergy in America for their patriarch's jubilee, in the old spelling. Tikhon's own speech of 1898 at lines 296-420. His epistle of 13 October 1918 to the Council of People's Commissars is quoted in part at lines 1093-1100. The words at his trial ("Я не Василій Беллавинъ...", lines 2224-2236) are told by the writer of the piece, not printed from a record. The text ends at line 2549.
 
 ______________________________________________________________________
 

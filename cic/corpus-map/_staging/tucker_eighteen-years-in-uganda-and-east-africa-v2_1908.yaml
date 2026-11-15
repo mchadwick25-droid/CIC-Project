@@ -1,0 +1,11 @@
+source_file: tucker_eighteen-years-in-uganda-and-east-africa-v2_1908.txt
+assignments:
+- row_id: tucker_eighteen-years-in-uganda-and-east-africa-v2_1908--tucker-eighteen-years-in-uganda-and-east-africa-volume-ii
+  work: 'Tucker, Eighteen Years in Uganda and East Africa, volume II'
+  author: tucker
+  locus: 'whole; Mboga and Apolo Kivebulaya at lines 6384-6760'
+  atlas_ids:
+  - east-african-christianity-uganda-martyrs
+  role: tradition
+  confidence: assigned
+  note: 'The Bishop of Uganda''s own account, printed in 1908, two years after the entry''s window closes. Volume II only.'

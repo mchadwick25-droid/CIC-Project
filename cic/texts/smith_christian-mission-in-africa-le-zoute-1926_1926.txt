@@ -1,11 +1,11 @@
-Title: PENDING
-Creator: PENDING
-Publisher: PENDING
-Publication Date: 1926
+Title: The Christian Mission in Africa: A Study Based on the Work of the International Conference at Le Zoute, Belgium, September 14th to 21st, 1926
+Creator: Edwin W. Smith, Literary Superintendent of the British and Foreign Bible Society
+Publisher: London and New York: The International Missionary Council
+Publication Date: 1926 (title page)
 Rights: Public Domain (pd-us-by-date: printed 1926; the title-page year; the archive.org record carries no rights field)
 Source: archive.org item christianmission00smit, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (562,183) equals the size archive.org lists for the djvu.txt.
 Provenance note: The item's own djvu.txt follows this header. Removed at intake as the host's own additions: the Internet Archive's own notice (6 lines). Nothing else was removed, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1926; the title-page year; the archive.org record carries no rights field. Line numbers in this header are this file's own line numbers.
-Content note: PENDING
+Content note: Smith's own account of the conference; his preface says the Conference answers only for "its formal recommendations and resolutions", which stand at lines 5372-6336. A short passage on "the prophet Harris" at lines 2250-2269, with none of his words. The list of delegates at lines 9051-9700 names the Africans present; words of the Rev. John Dube are given at lines 1837-1857. A Pretoria library stamp is the scan's.
 
 ______________________________________________________________________
 
