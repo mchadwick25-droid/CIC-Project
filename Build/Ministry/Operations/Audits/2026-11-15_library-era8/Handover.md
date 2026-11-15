@@ -31,6 +31,40 @@ the pull request. Check that the script is on main before relying on it.
 
 Open-Gaps numbers come from the coordinator at go time; batch 1's entry is 291.
 
+### Two standing rules from Mark, relayed by the coordinator on 15 November
+
+1. "Each of them are vendoring all the sources they find into the library." Every source found that passes the
+   rights rules goes into `cic/texts/` in the same batch. Nothing waits as "located, not yet taken". The only
+   exceptions are rights failures and sites that need a hand fetch.
+2. "The whole point of the library threads was to build the library so we can do our writing." Batch 2 also takes
+   the era 8 rows of the section "Texts to fetch, by era" on https://claude.ai/artifact/DAZgxvjPbCyAjzYadhREMW
+   (read it with the Artifact tool). Those are texts the story, tradition and council cards rest on that the
+   shelf does not hold. Each title there was named from memory, so confirm that each one exists, and grep the
+   shelf for it, before downloading.
+
+### Found by batch 1 and not vendored: batch 2 vendors these first
+
+Batch 1 was scoped before rule 1 arrived. Each of these passed the byte check and has a readable imprint of 1930
+or earlier unless the reason says otherwise; none has had its contents mapped.
+
+| identifier | what it is | imprint as read | why batch 1 left it |
+|---|---|---|---|
+| `twohundredyearso02pasc` | Pascoe, Two Hundred Years of the S.P.G., vol. 2 | London, 1901 (OCR title page) | the second half of a work whose vol. 1 is vendored; Asia onward, thought to belong to era 9 |
+| `cihm_54002` | Launay, Histoire générale de la Société des Missions-Étrangères, tome 3 | Paris: Téqui, 1894 (OCR title page) | covers 1836 on; left for era 9 |
+| `oudennieuwoostin02vale` | Valentijn, Oud en Nieuw Oost-Indiën, deel 2 | Dordrecht and Amsterdam, MDCCXXIV (OCR title page) | the first session did not find church matter in it; 600,000 words of Dutch |
+| `bub_gb_rG8lStorjTwC` | Historia cultus Sinensium, the Continuatio | "M. DCC." in the OCR; the page image was not read | the main volume was enough for Maigrot's Mandate |
+| `codenoirourecuei00fran` | Code noir, ou Recueil d'édits (Paris: Libraires associés) | "M. DGC. XL III." in the OCR (1743); the page image was not read | a second collection of the same acts as the 1767 one |
+| `journalthreeyea01bairgoog` | Gobat, Journal of Three Years in Abyssinia, New York edition with Baird's sketch | 1850 (OCR title page) | a later edition of the vendored London 1834 book; it adds Baird's sketch |
+| `sixmonthsinasyr00parrgoog` | Parry, Six Months in a Syrian Monastery | host date 1895; not fetched | found only after the Columbia scan was dropped |
+| `sermoensdopanton01viei`, `sermoensdopanton07viei`, `sermoensdopanton00viei` | Vieira, Sermões, three early volumes | 1683, 1689, 1699 by the first session's note; not fetched by batch 1 | none was chosen |
+| `accountofabipone18221dobr`, `cu31924104090935`, `cu31924104095033`, `historiadeabipon00dobr` | Dobrizhoffer in English (1822) and Latin (1784) | by the first session's note | scoped to batch 2 with Catholic Europe |
+
+Not vendored for a rights or scan reason, so not owed: Weld Blundell (`royalchronicleof00welduoft`, no dated
+title page, preface or notice in the scan); Merolla in English (`voyagetocongosev00mero`, no imprint of its own);
+Parry's Columbia scan (`sixmonthsinsyria00parr`, a permission line); Bacha's Abu Qurrah
+(`untraitdesesuvr00kurrgoog`, rights clear, scan cropped); Ximénez and the modern Vietnamese catechism (CC
+BY-NC-ND, held for Mark).
+
 Carried into batch 2:
 - Parry, Six Months in a Syrian Monastery (1895): take the Google scan `sixmonthsinasyr00parrgoog` (not fetched
   yet). The Columbia scan was dropped for its "Reproductions may not be made without permission" line. The census
