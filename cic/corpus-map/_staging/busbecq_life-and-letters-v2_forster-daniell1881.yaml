@@ -1,0 +1,11 @@
+source_file: busbecq_life-and-letters-v2_forster-daniell1881.txt
+assignments:
+- row_id: busbecq_life-and-letters-v2_forster-daniell1881--busbecq-letters-from-france-forster-and-daniell
+  work: 'Busbecq, letters from France (Forster and Daniell)'
+  author: busbecq
+  locus: 'the whole volume; not mapped'
+  atlas_ids:
+  - the-huguenots
+  role: context
+  confidence: needs-ruling
+  note: 'The same ambassador''s letters from France in a translators'' English; an outside witness.'

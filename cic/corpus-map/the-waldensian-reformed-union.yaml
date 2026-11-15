@@ -148,6 +148,16 @@ works:
 
     '
   source_file: gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt
+- row_id: herminjard_correspondance-des-reformateurs-t2-1527-1532-fra-lat_1868--antoine-saunier-to-farel-5-november-1532-with-the-editor-s-notes-on-the-waldensian-assembly-herminjard-2
+  work: Antoine Saunier to Farel, 5 November 1532, with the editor's notes on the Waldensian
+    assembly (Herminjard 2)
+  author: herminjard
+  locus: about OCR lines 22205-22445; add 12 to OCR line numbers
+  role: context
+  confidence: needs-ruling
+  note: A letter from the valleys seven weeks after the assembly; the account of the assembly
+    itself is the editor's note, not a letter.
+  source_file: herminjard_correspondance-des-reformateurs-t2-1527-1532-fra-lat_1868.txt
 - row_id: leger_histoire-generale-eglises-vaudoises-livre1-fra_1669--histoire-generale-des-eglises-evangeliques-livre-premier
   work: 'Histoire générale des Églises Évangéliques des Vallées de Piémont ou Vaudoises, Livre
     premier (1669): the valleys'' doctrine and discipline, with the ancient documents and

@@ -1,0 +1,11 @@
+source_file: bodin_colloquium-heptaplomeres-lat_noack1857.txt
+assignments:
+- row_id: bodin_colloquium-heptaplomeres-lat_noack1857--bodin-colloquium-heptaplomeres-noack-1857
+  work: 'Bodin, Colloquium heptaplomeres (Noack 1857)'
+  author: bodin
+  locus: 'the whole volume; not mapped'
+  atlas_ids:
+  - the-huguenots
+  role: context
+  confidence: needs-ruling
+  note: 'A dialogue of seven speakers on religion, in Latin; an outside witness.'

@@ -1,0 +1,20 @@
+source_file: balan_monumenta-reformationis-lutheranae-1521-1525-lat-ita_1884.txt
+assignments:
+- row_id: balan_monumenta-reformationis-lutheranae-1521-1525-lat-ita_1884--aleander-s-letters-from-the-diet-of-worms-1521-balan
+  work: 'Aleander''s letters from the Diet of Worms, 1521 (Balan)'
+  author: balan
+  locus: 'about OCR lines 2438-16100; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-tridentine-church
+  role: tradition
+  confidence: provisional
+  note: 'Aleander''s own reports to the Vice-Chancellor; single letters not mapped.'
+- row_id: balan_monumenta-reformationis-lutheranae-1521-1525-lat-ita_1884--aleander-s-letters-from-the-diet-of-worms-1521-balan-as-an-opponent-s-report
+  work: 'Aleander''s letters from the Diet of Worms, 1521 (Balan), as an opponent''s report'
+  author: balan
+  locus: 'about OCR lines 2438-16100; add 12 to OCR line numbers'
+  atlas_ids:
+  - lutheran-wittenberg-and-its-congregations
+  role: context
+  confidence: provisional
+  note: 'Luther at Worms as Aleander reported him.'
