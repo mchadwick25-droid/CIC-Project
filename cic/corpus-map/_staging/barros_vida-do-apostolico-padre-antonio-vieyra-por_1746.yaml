@@ -1,0 +1,14 @@
+source_file: barros_vida-do-apostolico-padre-antonio-vieyra-por_1746.txt
+assignments:
+- row_id: barros_vida-do-apostolico-padre-antonio-vieyra-por_1746--barros-vida-do-padre-antonio-vieyra
+  work: 'André de Barros, Vida do apostolico padre Antonio Vieyra (1746)'
+  author: barros
+  locus: 'Livros I-V at OCR lines 1099-32571; add 12 to OCR line numbers'
+  atlas_ids:
+  - colonial-latin-american-devotional-catholicism
+  - society-of-jesus-1650-1814
+  role: tradition
+  confidence: provisional
+  language: por
+  date: {start: 1745, end: 1746, source: "licences of 21 May 1745 and November 1746 (about OCR lines 166-870); title page 'M.D.CC.XLVI.'", formation_confidence: Documented}
+  note: 'A Jesuit''s Life of Vieira in five books. Its subject is Vieira; its voice is Barros.'

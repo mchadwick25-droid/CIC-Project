@@ -29734,3 +29734,303 @@ queue:
     verified_by: 'Library thread, era 10 batch 2: host record read, title page or masthead read, wanted passages located, text fetched, byte count 420,232 equal to the listed size, the end read'
     status: downloaded
     vendored_as: loisy_evangile-et-l-eglise-3e-ed-fra_1904.txt
+  - title: 'Histoire de Loango, Kakongo, et autres royaumes d''Afrique; rédigée d''après les mémoires des préfets apostoliques de la mission françoise; enrichie d''une carte utile aux navigateurs'
+    author: 'Liévin-Bonaventure Proyart'
+    year: '1776'
+    world: kongo-christianity-after-1650
+    why: 'Open-Gaps 175 (AF-3), Library wanted: Proyart for Kongo after 1650, in the mission''s own French (the English of Pinkerton XVI is held).'
+    url: https://archive.org/details/histoiredeloango00proy_0
+    rights_basis: 'Public Domain (pd-us-by-date: published 1776); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 8 batch 1: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 481,273 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: proyart_histoire-de-loango-kakongo-et-autres-royaumes-d-afrique-fra_1776.txt
+  - title: 'Two Hundred Years of the S.P.G.: an historical account of the Society for the Propagation of the Gospel in Foreign Parts, 1701-1900 (based on a digest of the Society''s records); vol. I'
+    author: 'C. F. Pascoe'
+    year: '1901'
+    world: restoration-georgian-church-of-england
+    why: 'CFT-Wants batch 2 (AF-8) and Open-Gaps 175, Library wanted: a pre-1931 source for Philip Quaque and the S.P.G. in West Africa.'
+    url: https://archive.org/details/twohundredyearso01pasc
+    rights_basis: 'Public Domain (pd-us-by-date: published 1901); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 8 batch 1: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 2,878,882 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: pascoe_two-hundred-years-of-the-spg-v1_1901.txt
+  - title: 'The Dutch Reformed Church in South Africa, with notices of the other denominations: an historical sketch'
+    author: 'John McCarter'
+    year: '1869'
+    world: the-dutch-reformed-church-at-the-cape
+    why: 'Open-Gaps 175 (AF-4), Library wanted: McCarter (1869), the census entry''s own source for the Dutch Reformed Church at the Cape.'
+    url: https://archive.org/details/dutchreformedchu00mcca
+    rights_basis: 'Public Domain (pd-us-by-date: published 1869); the archive.org record says the Library of Congress is unaware of any copyright restrictions'
+    verified_by: 'Library thread, era 8 batch 1: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 201,928 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: mccarter_dutch-reformed-church-in-south-africa_1869.txt
+  - title: 'Travels to Discover the Source of the Nile, in the Years 1768, 1769, 1770, 1771, 1772, and 1773; in five volumes; vol. II'
+    author: 'James Bruce'
+    year: '1790'
+    world: ethiopian-christianity-gondar-to-the-zemene-mesafint
+    why: 'Wanted_Sources row 151 and Open-Gaps 175, Library wanted: Bruce''s Travels, vols 2 and 3 (1790), the census entry''s source for Gondar.'
+    url: https://archive.org/details/travelstodiscov02bruc
+    rights_basis: 'Public Domain (pd-us-by-date: published 1790); the archive.org record says ''Not in copyright'''
+    verified_by: 'Library thread, era 8 batch 1: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,233,299 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: bruce_travels-to-discover-the-source-of-the-nile-v2_1790.txt
+  - title: 'Travels to Discover the Source of the Nile, in the Years 1768, 1769, 1770, 1771, 1772, and 1773; in five volumes; vol. III'
+    author: 'James Bruce'
+    year: '1790'
+    world: ethiopian-christianity-gondar-to-the-zemene-mesafint
+    why: 'Wanted_Sources row 151 and Open-Gaps 175, Library wanted: Bruce''s Travels, vols 2 and 3 (1790), the census entry''s source for Gondar.'
+    url: https://archive.org/details/travelstodiscov03bruc
+    rights_basis: 'Public Domain (pd-us-by-date: published 1790); the archive.org record says ''Not in copyright'''
+    verified_by: 'Library thread, era 8 batch 1: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,293,088 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: bruce_travels-to-discover-the-source-of-the-nile-v3_1790.txt
+  - title: 'Histoire de l''Église d''Alexandrie, fondée par S. Marc, que nous appelons celle des Jacobites-Coptes d''Égypte; écrite au Caire même, en 1672 et 1673'
+    author: 'Johann Michael Wansleben (Vansleb)'
+    year: '1677'
+    world: the-coptic-church-under-the-ottomans
+    why: 'Open-Gaps 175, Library wanted: Vansleb, Histoire de l''Église d''Alexandrie (1677), for the Coptic patriarchate under the Ottomans.'
+    url: https://archive.org/details/bub_gb_m3GZP6sZZJMC
+    rights_basis: 'Public Domain (pd-us-by-date: published 1677); the archive.org record carries the Public Domain Mark'
+    verified_by: 'Library thread, era 8 batch 1: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 433,108 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: vansleb_histoire-de-l-eglise-d-alexandrie-fra_1677.txt
+  - title: 'Nouvelle relation en forme de journal, d''un voyage fait en Égypte, par le P. Vansleb, R. D., en 1672 et 1673'
+    author: 'Johann Michael Wansleben (Vansleb)'
+    year: '1677'
+    world: the-coptic-church-under-the-ottomans
+    why: 'Open-Gaps 175, Library wanted: Vansleb on the Copts under the Ottomans (his journal, beside the Histoire).'
+    url: https://archive.org/details/bub_gb_8n2JTTnOoMIC
+    rights_basis: 'Public Domain (pd-us-by-date: published 1677); the archive.org record carries the Public Domain Mark'
+    verified_by: 'Library thread, era 8 batch 1: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 578,494 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: vansleb_nouvelle-relation-d-un-voyage-fait-en-egypte-fra_1677.txt
+  - title: 'The Present State of Egypt; or, A New Relation of a Late Voyage into that Kingdom, performed in the years 1672 and 1673, by F. Vansleb, R. D.; Englished by M. D., B. D.'
+    author: 'Johann Michael Wansleben (Vansleb); M. D. (tr.)'
+    year: '1678'
+    world: the-coptic-church-under-the-ottomans
+    why: 'Open-Gaps 175, Library wanted: Vansleb on the Copts, in an English printed by 1930 beside the French.'
+    url: https://archive.org/details/presentstateofeg00wans
+    rights_basis: 'Public Domain (pd-us-by-date: published 1678); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 8 batch 1: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 477,449 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: vansleb_present-state-of-egypt_1678.txt
+  - title: 'Merveilles biographiques et historiques, ou Chroniques du cheikh Abd-el-Rahman el Djabarti, traduites de l''arabe par Chefik Mansour Bey, Abdulaziz Kahil Bey, Gabriel Nicolas Kahil Bey et Iskender Ammoun Effendi; tome V'
+    author: 'Abd al-Rahman al-Jabarti; Chefik Mansour Bey and others (tr.)'
+    year: '1890'
+    world: the-coptic-church-under-the-ottomans
+    why: 'Wanted_Sources row 152, Library wanted: al-Jabarti''s obituary of Ibrahim al-Jawhari; also Open-Gaps 225 (no Muslim chronicler of 1650-1906 held).'
+    url: https://archive.org/details/merveillesbiogra05jaba
+    rights_basis: 'Public Domain (pd-us-by-date: published 1890); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 8 batch 1: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 513,420 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: jabarti_merveilles-biographiques-et-historiques-t5-fra_1890.txt
+  - title: 'Journal of a Three Years'' Residence in Abyssinia, in furtherance of the objects of the Church Missionary Society; to which is prefixed, A Brief History of the Church of Abyssinia, by the Rev. Professor Lee, D.D.'
+    author: 'Samuel Gobat; Samuel Lee'
+    year: '1834'
+    world: ethiopian-christianity-gondar-to-the-zemene-mesafint
+    why: 'Census VII.38 and VII.34 name Gobat''s Journal (London, 1834) as a source; Open-Gaps 175 (AF-1), Library wanted for Ethiopia in the Zemene Mesafint.'
+    url: https://archive.org/details/journalathreeye00leegoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1834); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 8 batch 1: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 619,742 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: gobat_journal-of-a-three-years-residence-in-abyssinia_1834.txt
+  - title: 'Annales regum Iyāsu II et Iyo''as; interpretatus est Ignatius Guidi (Corpus Scriptorum Christianorum Orientalium, Scriptores Aethiopici, Versio, series altera, tomus VI)'
+    author: 'Ignazio Guidi (tr.)'
+    year: '1912'
+    world: ethiopian-christianity-gondar-to-the-zemene-mesafint
+    why: 'Open-Gaps 175 (AF-1), Library wanted: Guidi''s Annales for Ethiopia after Gondar''s high years; the tradition''s own chronicle in a readable translation.'
+    url: https://archive.org/details/annalesregumiysu01guid
+    rights_basis: 'Public Domain (pd-us-by-date: published 1912); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 8 batch 1: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 633,538 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: annales-regum-iyasu-ii-et-iyoas_versio-fra_guidi1912.txt
+  - title: 'Annales regum Iyāsu II et Iyo''as; edidit Ignatius Guidi (Corpus Scriptorum Christianorum Orientalium, Scriptores Aethiopici, Textus, series altera, tomus VI)'
+    author: 'Ignazio Guidi (ed.)'
+    year: '1910'
+    world: ethiopian-christianity-gondar-to-the-zemene-mesafint
+    why: 'Open-Gaps 175 (AF-1), Library wanted: Guidi''s Annales; the chronicle in its own language.'
+    url: https://archive.org/details/annalesregumiysu02guid
+    rights_basis: 'Public Domain (pd-us-by-date: published 1910); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 8 batch 1: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,028,267 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: annales-regum-iyasu-ii-et-iyoas_textus-gez_guidi1910.txt
+  - title: 'Maria Rosa Mystica: excellencias, poderes, e maravilhas do seu Rosario, compendiadas em trinta sermoens asceticos, e panegyricos sobre os dous Evangelhos desta solennidade, novo, e antigo; I. parte'
+    author: 'António Vieira'
+    year: '1686'
+    world: colonial-latin-american-devotional-catholicism
+    why: 'Wanted_Sources row 123 (major), Library wanted: Vieira''s Maria Rosa Mystica (1686), a Life (Barros 1746) and the Cartas.'
+    url: https://archive.org/details/mariarosamystica00viei
+    rights_basis: 'Public Domain (pd-us-by-date: published 1686); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 8 batch 1: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,390,112 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: vieira_maria-rosa-mystica-parte1-por_1686.txt
+  - title: 'Maria Rosa Mystica: excellencias, poderes, e maravilhas do seu Rosario, compendiadas em trinta sermoens asceticos, e panegyricos, sobre os dous Evangelhos desta solennidade, novo, e antigo; II. parte'
+    author: 'António Vieira'
+    year: '1688'
+    world: colonial-latin-american-devotional-catholicism
+    why: 'Wanted_Sources row 123 (major), Library wanted: Vieira''s Maria Rosa Mystica (1686), a Life (Barros 1746) and the Cartas.'
+    url: https://archive.org/details/mariarosamystica01viei
+    rights_basis: 'Public Domain (pd-us-by-date: published 1688); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 8 batch 1: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,364,382 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: vieira_maria-rosa-mystica-parte2-por_1688.txt
+  - title: 'Vida do apostolico padre Antonio Vieyra da Companhia de Jesus, chamado por antonomasia o Grande'
+    author: 'André de Barros'
+    year: '1746'
+    world: colonial-latin-american-devotional-catholicism
+    why: 'Wanted_Sources row 123 (major), Library wanted: Vieira''s Maria Rosa Mystica (1686), a Life (Barros 1746) and the Cartas.'
+    url: https://archive.org/details/vidadoapostolico00barr
+    rights_basis: 'Public Domain (pd-us-by-date: published 1746); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 8 batch 1: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,256,257 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: barros_vida-do-apostolico-padre-antonio-vieyra-por_1746.txt
+  - title: 'Cartas do P. Antonio Vieyra da Companhia de Jesu; tomo primeiro'
+    author: 'António Vieira'
+    year: '1735'
+    world: colonial-latin-american-devotional-catholicism
+    why: 'Wanted_Sources row 123 (major), Library wanted: Vieira''s Maria Rosa Mystica (1686), a Life (Barros 1746) and the Cartas.'
+    url: https://archive.org/details/cartasdopantonio00viei
+    rights_basis: 'Public Domain (pd-us-by-date: published 1735); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 8 batch 1: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 574,877 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: vieira_cartas-tomo1-por_1735.txt
+  - title: 'Cartas do P. Antonio Vieyra da Companhia de Jesu; tomo segundo'
+    author: 'António Vieira'
+    year: '1735'
+    world: colonial-latin-american-devotional-catholicism
+    why: 'Wanted_Sources row 123 (major), Library wanted: Vieira''s Maria Rosa Mystica (1686), a Life (Barros 1746) and the Cartas.'
+    url: https://archive.org/details/cartasdopantonio01viei
+    rights_basis: 'Public Domain (pd-us-by-date: published 1735); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 8 batch 1: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 571,690 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: vieira_cartas-tomo2-por_1735.txt
+  - title: 'Cultura e opulencia do Brasil por suas drogas, e minas, com varias noticias curiosas do modo de fazer o assucar; plantar, e beneficiar o tabaco; tirar ouro das minas; e descubrir as da prata'
+    author: 'André João Antonil'
+    year: '1711'
+    world: colonial-latin-american-devotional-catholicism
+    why: 'Open-Gaps 176 (LA8-4), Library wanted: Antonil (1711), named in the census entry for colonial Brazil.'
+    url: https://archive.org/details/culturaeopulenci00anto
+    rights_basis: 'Public Domain (pd-us-by-date: published 1711); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 8 batch 1: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 395,916 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: antonil_cultura-e-opulencia-do-brasil-por_1711.txt
+  - title: 'Le Code noir, ou Recueil des règlemens rendus jusqu''à présent, concernant le gouvernement, l''administration de la justice, la police, la discipline et le commerce des nègres dans les colonies françoises, et les conseils et compagnies établis à ce sujet'
+    author: 'France (royal edicts)'
+    year: '1767'
+    world: colonial-latin-american-devotional-catholicism
+    why: 'Open-Gaps 176 (LA8-6), Library wanted: the Code noir (1685), for Haiti before 1804.'
+    url: https://archive.org/details/BSG_8F403_7INV2830RES
+    rights_basis: 'Public Domain (pd-us-by-date: published 1767); the archive.org record''s rights field reads ''Domaine public'' (Bibliothèque Sainte-Geneviève)'
+    verified_by: 'Library thread, era 8 batch 1: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 415,532 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: code-noir_recueil-des-reglemens-colonies-francoises-fra_prault1767.txt
+  - title: 'Histoire générale de la Société des Missions-Étrangères; tome premier'
+    author: 'Adrien Launay'
+    year: '1894'
+    world: vietnamese-catholicism-to-1815
+    why: 'Wanted_Sources rows 124 and 125 (major), Library wanted: Launay, Histoire générale de la Société des Missions-Étrangères (1894), for Pallu, Lambert de la Motte and Maigrot; also the Synod of Tonkin (1670) council lead.'
+    url: https://archive.org/details/cihm_54000
+    rights_basis: 'Public Domain (pd-us-by-date: published 1894); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 8 batch 1: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,339,770 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: launay_histoire-generale-de-la-societe-des-missions-etrangeres-t1-fra_1894.txt
+  - title: 'Histoire générale de la Société des Missions-Étrangères; tome deuxième'
+    author: 'Adrien Launay'
+    year: '1894'
+    world: vietnamese-catholicism-to-1815
+    why: 'Wanted_Sources rows 124 and 125 (major), Library wanted: Launay, Histoire générale de la Société des Missions-Étrangères (1894), for Pallu, Lambert de la Motte and Maigrot; also the Synod of Tonkin (1670) council lead. Tome 2 carries the same history to 1815 and beyond.'
+    url: https://archive.org/details/cihm_54001
+    rights_basis: 'Public Domain (pd-us-by-date: published 1894); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 8 batch 1: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,314,460 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: launay_histoire-generale-de-la-societe-des-missions-etrangeres-t2-fra_1894.txt
+  - title: 'Relation abrégée des missions et des voyages des évesques françois, envoyez aux royaumes de la Chine, Cochinchine, Tonquin, et Siam'
+    author: 'François Pallu'
+    year: '1682'
+    world: vietnamese-catholicism-to-1815
+    why: 'Wanted_Sources row 125 (major), Library wanted: Pallu''s and Lambert de la Motte''s own Relations.'
+    url: https://archive.org/details/relationabregeed00pall
+    rights_basis: 'Public Domain (pd-us-by-date: published 1682); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 8 batch 1: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 121,188 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: pallu_relation-abregee-des-missions-et-des-voyages-des-evesques-francois-fra_1682.txt
+  - title: 'Divers voyages de la Chine, et autres royaumes de l''Orient; avec le retour de l''autheur en Europe, par la Perse et l''Arménie; le tout divisé en trois parties'
+    author: 'Alexandre de Rhodes'
+    year: '1682'
+    world: vietnamese-catholicism-to-1815
+    why: 'Wanted_Sources row 126 (major) and Open-Gaps 178, Library wanted: Rhodes''s own account of his missions, and the Cathechismus of 1651 with its teaching.'
+    url: https://archive.org/details/bub_gb_74U28QLld2UC
+    rights_basis: 'Public Domain (pd-us-by-date: published 1682); the archive.org record carries the Public Domain Mark'
+    verified_by: 'Library thread, era 8 batch 1: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 519,855 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: rhodes_divers-voyages-de-la-chine-et-autres-royaumes-de-l-orient-fra_1682.txt
+  - title: 'Tunchinensis historiae libri duo, quorum altero status temporalis huius regni, altero mirabiles evangelicae praedicationis progressus referuntur; coeptae per patres Societatis Iesu, ab anno 1627 ad annum 1646'
+    author: 'Alexandre de Rhodes'
+    year: '1652'
+    world: vietnamese-catholicism-to-1815
+    why: 'Wanted_Sources row 126 (major) and Open-Gaps 178, Library wanted: Rhodes''s own account of his missions, and the Cathechismus of 1651 with its teaching.'
+    url: https://archive.org/details/bub_gb_GxWRJap5LkMC_3
+    rights_basis: 'Public Domain (pd-us-by-date: published 1652); the archive.org record carries the Public Domain Mark'
+    verified_by: 'Library thread, era 8 batch 1: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 450,665 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: rhodes_tunchinensis-historiae-libri-duo-lat_1652.txt
+  - title: 'Cathechismus pro iis, qui volunt suscipere Baptismum, in octo dies divisus (Latin and Vietnamese in parallel columns)'
+    author: 'Alexandre de Rhodes'
+    year: '1651'
+    world: vietnamese-catholicism-to-1815
+    why: 'Wanted_Sources row 126 (major) and Open-Gaps 178, Library wanted: Rhodes''s own account of his missions, and the Cathechismus of 1651 with its teaching.'
+    url: https://archive.org/details/bub_gb_p8UC5ZZ21Q8C
+    rights_basis: 'Public Domain (pd-us-by-date: published 1651; the title page prints no year, and the date is taken from the printed licence on the next leaf, ''Romae 8. Iulij 1651'', with which the archive.org catalog date agrees); the archive.org record carries the Public Domain Mark'
+    verified_by: 'Library thread, era 8 batch 1: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 583,620 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: rhodes_cathechismus-in-octo-dies-divisus-lat-vie_1651.txt
+  - title: 'Historia cultus Sinensium, seu varia scripta de cultibus Sinarum, inter vicarios apostolicos Gallos aliosque missionarios, et patres Societatis Jesu controversis, oblata Innocentio XII. pontifici maximo'
+    author: 'Charles Maigrot; Nicolas Charmot; others'
+    year: '1700'
+    world: chinese-catholicism-1650-1906
+    why: 'Wanted_Sources row 124 (major), Library wanted: Maigrot''s Mandate of 1693 in a printing of the time.'
+    url: https://archive.org/details/bub_gb_vW4zWSxsvhIC
+    rights_basis: 'Public Domain (pd-us-by-date: published 1700); the archive.org record carries the Public Domain Mark'
+    verified_by: 'Library thread, era 8 batch 1: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,098,184 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: historia-cultus-sinensium_varia-scripta-de-cultibus-sinarum-lat_1700.txt
+  - title: 'A Sketch of the Rise and Progress of the Catholic Church in Ceylon'
+    author: 'Anonymous'
+    year: '1848'
+    world: catholics-of-dutch-ceylon
+    why: 'Wanted_Sources row 127 (major) and Open-Gaps 178, Library wanted: the Sketch (Colombo, 1848) named in the census for Joseph Vaz.'
+    url: https://archive.org/details/ASketchOfTheRiseAndProgress
+    rights_basis: 'Public Domain (pd-us-by-date: published 1848); the archive.org record carries the Public Domain Mark'
+    verified_by: 'Library thread, era 8 batch 1: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 47,859 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: ceylon-catholic-church_sketch-of-the-rise-and-progress_1848.txt
+  - title: 'Naauwkeurige beschryvinge van Malabar en Choromandel, der zelver aangrenzende ryken, en het machtige eyland Ceylon; nevens een omstandige en grondigh doorzochte ontdekking en wederlegginge van de afgoderye der Oost-Indische heydenen'
+    author: 'Philippus Baldaeus'
+    year: '1672'
+    world: protestant-churches-of-the-voc-world
+    why: 'Wanted_Sources row 156 and Open-Gaps 178, Library wanted: Baldaeus (Amsterdam, 1672), a Dutch Reformed account of the Ceylon church.'
+    url: https://archive.org/details/naauwkeurigebesc00bald
+    rights_basis: 'Public Domain (pd-us-by-date: published 1672); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 8 batch 1: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 2,838,001 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: baldaeus_naauwkeurige-beschryvinge-van-malabar-en-choromandel-en-ceylon-nld_1672.txt
+  - title: 'A True and Exact Description of the Most Celebrated East-India Coasts of Malabar and Coromandel, as also of the Isle of Ceylon; translated from the High-Dutch printed at Amsterdam, 1672 (A Collection of Voyages and Travels, vol. III)'
+    author: 'Philippus Baldaeus'
+    year: '1703'
+    world: protestant-churches-of-the-voc-world
+    why: 'Wanted_Sources row 156 and Open-Gaps 178, Library wanted: Baldaeus (Amsterdam, 1672), a Dutch Reformed account of the Ceylon church. The English printed by 1930, beside the Dutch.'
+    url: https://archive.org/details/trueexactdescrip00bald
+    rights_basis: 'Public Domain (pd-us-by-date: published 1703); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 8 batch 1: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,530,807 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: baldaeus_true-and-exact-description-of-malabar-and-coromandel-and-ceylon_churchill1703.txt
+  - title: 'Oud en Nieuw Oost-Indiën, derde deel: Omstandig verhaal van de geschiedenissen en zaaken het kerkelyke ofte den godsdienst betreffende, zoo in Amboina, als in alle de eylanden, daar onder behoorende; mitsgaders een beschryving van Banda, Timor en Solor, Celebes ofte Macassar, Borneo en Bali, Tonkin, Cambodia en Siam'
+    author: 'François Valentijn'
+    year: '1726'
+    world: protestant-churches-of-the-voc-world
+    why: 'Open-Gaps 178, Library wanted: Valentijn, Oud en Nieuw Oost-Indiën, for the Protestant churches of the VOC world (census VII.43, which had no file).'
+    url: https://archive.org/details/oudennieuwoostin03vale
+    rights_basis: 'Public Domain (pd-us-by-date: published 1726); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 8 batch 1: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 5,252,630 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: valentijn_oud-en-nieuw-oost-indien-deel3-nld_1726.txt

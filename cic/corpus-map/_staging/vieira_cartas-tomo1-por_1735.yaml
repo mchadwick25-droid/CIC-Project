@@ -1,0 +1,14 @@
+source_file: vieira_cartas-tomo1-por_1735.txt
+assignments:
+- row_id: vieira_cartas-tomo1-por_1735--vieira-cartas-tomo-1
+  work: 'Vieira, Cartas, tomo 1 (1735)'
+  author: vieira
+  locus: 'Cartas I-CXXXXI at OCR lines 873-16398; add 12 to OCR line numbers'
+  atlas_ids:
+  - colonial-latin-american-devotional-catholicism
+  - society-of-jesus-1650-1814
+  role: tradition
+  confidence: provisional
+  language: por
+  date: {start: 1647, end: 1674, source: "the first letter is dated September 1647 (OCR line 919) and the last Rome, 3 June 1674 (16243)", formation_confidence: Documented}
+  note: 'Vieira''s own letters to ministers, nobles and fellow Jesuits, first printed in 1735. His voice; the editors'' choice of letters.'

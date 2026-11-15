@@ -1,0 +1,14 @@
+source_file: launay_histoire-generale-de-la-societe-des-missions-etrangeres-t2-fra_1894.txt
+assignments:
+- row_id: launay_histoire-generale-de-la-societe-des-missions-etrangeres-t2-fra_1894--launay-histoire-generale-missions-etrangeres-tome-2-1754-1836
+  work: 'Launay, Histoire générale de la Société des Missions-Étrangères, tome II: 1754-1836'
+  author: launay
+  locus: 'chapters I-IX (1754-1815) at OCR lines 68-39800; chapters X-XII at 39801-50731; add 12 to OCR line numbers'
+  atlas_ids:
+  - vietnamese-catholicism-to-1815
+  - chinese-catholicism-1650-1906
+  role: context
+  confidence: provisional
+  language: fra
+  date: {start: 1894, end: 1894, source: "title page: 1894", formation_confidence: Documented}
+  note: 'The Society''s history from 1754 to 1836. A later account from the mission''s side.'
