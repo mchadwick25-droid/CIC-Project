@@ -27,7 +27,7 @@
   ],
   "teaser": "Constantinople, 691-692. Bishops called by the emperor Justinian II issued 102 canons, some against Roman and Armenian customs; Pope Sergius I refused to sign them.",
   "knownFor": "The council in the palace dome that wrote canons for the fifth and sixth councils, which the Greek church received as canon law, and Rome refused.",
-  "datesNote": "691-692. Canon 3 dates its cut-off to 15 January of the past fourth indiction; Charles Joseph Hefele, as Henry Percival quotes him, reads this as January 691 and puts the council between 1 September 691 and 1 September 692. Claude Fleury and Louis Duchesne give 692, and the Pedalion, the Greek canon-law collection, 691. Theophanes puts the issue of the canons in the second year of Justinian's restored reign, in the 700s; his editor Jacques Goar holds that he errs. No held source gives a month",
+  "datesNote": "691-692. Canon 3 dates its cut-off to 15 January of the past fourth indiction; Charles Joseph Hefele, as Henry Percival quotes him, reads this as January 691 and puts the council between 1 September 691 and 1 September 692. Claude Fleury and Louis Duchesne give 692, and the Pedalion, the Greek canon-law collection, 691. Theophanes puts the issue of the canons in the second year of Justinian's restored reign, in the 700s; his editor Jacques Goar holds that he errs. No source we draw on gives a month",
   "issue": [
     "The bishops told the emperor that the fifth and sixth councils, under Justinian I and Constantine IV, had set out the faith but made no canons, and that they had met at his command to write them (the bishops' address, Mansi tomus 11; Fleury, in Percival).",
     "Canon 3 says the emperor asked the council to provide for the purity of the clergy, and contrasts the strict rule of the Roman church on clerical marriage with the milder rule of Constantinople.",
@@ -36,7 +36,7 @@
   ],
   "calledBy": "The emperor Justinian II. The bishops' address says they met at his command, canon 3 that he had addressed the council, and the Book of the Popes that he ordered a council held in the imperial city. His signature heads the list",
   "attended": [
-    "The signatures are held in Mansi. The emperor signs first; a place is left blank for the pope of Rome; then Paul of Constantinople, Peter of Alexandria, Anastasius of Jerusalem and George of Antioch. The Book of the Popes names only three patriarchs, of Constantinople, Alexandria and Antioch.",
+    "The signatures are printed in Mansi. The emperor signs first; a place is left blank for the pope of Rome; then Paul of Constantinople, Peter of Alexandria, Anastasius of Jerusalem and George of Antioch. The Book of the Popes names only three patriarchs, of Constantinople, Alexandria and Antioch.",
     "Henry Percival, after Hefele, counts the signers as 211, \"bishops or representatives of bishops\". Claude Fleury, a French church historian quoted by Percival, gives 211 bishops. The Pedalion gives 227 after the Greek canonists Balsamon and Zonaras, of the 1100s, and 240 after a Greek list of synods, the Synodicon, which Mansi prints. The editors' preface in Mansi, describing the list, names eight leading signers and then the signatures of 205 bishops.",
     "Blank places were left for the bishops of Thessalonica, Sardinia, Ravenna and Corinth, Percival says; the editors' preface in Mansi names Heraclea in the first place. Basil of Gortyna in Crete signed as holding the place of the church of Rome in every synod; Percival says there is no information whether Rome had sent him.",
     "Whether Rome was represented is disputed: the Book of the Popes says the pope's envoys came and, deceived, signed; Louis Duchesne, its editor, holds that they did and were disowned; Percival says the West was not really represented at all."
@@ -117,7 +117,7 @@
     {
       "witness": "Charles Joseph Hefele, as quoted by Henry Percival",
       "kind": "modern reconstruction",
-      "note": "The dating from the indiction, and the count of 211; Hefele's own volume for this council is not held."
+      "note": "The dating from the indiction, and the count of 211; Hefele's own volume for this council is not among our sources."
     },
     {
       "witness": "Louis Duchesne, commentary on the Book of the Popes",
@@ -168,7 +168,7 @@
     {
       "name": "Anastasius of Jerusalem",
       "verdict": "NOT SCORED",
-      "part": "Signed in the signatures; not named among the patriarchs by the Book of the Popes"
+      "part": "Signed; not named among the patriarchs by the Book of the Popes"
     },
     {
       "name": "George of Antioch",
@@ -188,12 +188,17 @@
     {
       "name": "John of Porto",
       "verdict": "NOT SCORED",
-      "part": "Bishop; taken to Constantinople by the emperor's order"
+      "part": "Bishop; carried off to Constantinople by the emperor's order, in contempt of the pope"
+    },
+    {
+      "name": "Boniface, counselor of the apostolic see",
+      "verdict": "NOT SCORED",
+      "part": "Carried off to Constantinople with John of Porto by the emperor's order"
     },
     {
       "name": "John VII of Rome",
       "verdict": "NOT SCORED",
-      "part": "Pope; sent the volumes again, returned them uncorrected"
+      "part": "Pope; the emperor sent him the volumes again, and he returned them uncorrected"
     },
     {
       "name": "Constantine of Rome",

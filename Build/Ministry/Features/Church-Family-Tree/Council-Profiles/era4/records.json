@@ -541,7 +541,7 @@
     "absent_details": [
       {
         "detail": "A text of the party of one will outside its opponents' records",
-        "note": "None found; Michael the Syrian reports Macarius's argument but not his words; Honorius's letter survives through these acts."
+        "note": "None found; Michael the Syrian, who takes Macarius's side, reports his argument but not his words; Honorius's letter survives through these acts."
       },
       {
         "detail": "A count of the signatures made from the held list",
@@ -1061,22 +1061,28 @@
         "formation_confidence": "Widely Accepted"
       },
       {
-        "claim": "The Pedalion: the First-Second synod of 861 in the Holy Apostles issued seventeen canons at its second meeting; its minutes are not found; it said nothing against Photius",
-        "witness": "nikodemos-hagiorite_pedalion-canons-grc_1886.txt l.33222-33228, 33300, 33335-33345",
-        "witness_kind": "acts",
-        "formation_confidence": "Documented"
-      },
-      {
         "claim": "Basil put Photius out and restored Ignatius to the patriarch's palace",
         "witness": "liber-pontificalis_texte-introduction-commentaire-t2-lat-fra_duchesne1892.txt l.53408-53409; Hincmar, Annales Bertiniani l.7148 ('Ignatium restituentes', of the council)",
         "witness_kind": "later narrative",
         "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The seventeen canons of the synod of 861 in the Holy Apostles",
+        "witness": "nikodemos-hagiorite_pedalion-canons-grc_1886.txt l.33300, 33330 ff.",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Pedalion's editors: the synod of 861 met in 861, issued its canons at its second meeting, its minutes are not found, and it said nothing against Photius",
+        "witness": "nikodemos-hagiorite_pedalion-canons-grc_1886.txt l.33222-33228, 33335-33345",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
       }
     ],
     "contested_claims": [
       {
         "claim": "The number at 861",
-        "sides": "Binius: 318, 'as they boasted' (mansi_sacrorum-conciliorum-collectio-tomus-15-lat_welter-facsimile1902.txt l.63831, 63849-63850). Pedalion: 318, after Dositheos (nikodemos-hagiorite_pedalion-canons-grc_1886.txt l.33224). Nicholas I: the Byzantines claimed nearly Nicaea's number (mansi_sacrorum-conciliorum-collectio-tomus-15-lat_welter-facsimile1902.txt l.18456-18458).",
+        "sides": "Binius: 318, 'ut ipsi jactabant', as they boasted (mansi_sacrorum-conciliorum-collectio-tomus-15-lat_welter-facsimile1902.txt l.63831, 63849-63850). Pedalion: 318, after Dositheos (nikodemos-hagiorite_pedalion-canons-grc_1886.txt l.33224). Nicholas I: the Byzantines claimed nearly Nicaea's number (mansi_sacrorum-conciliorum-collectio-tomus-15-lat_welter-facsimile1902.txt l.18456-18458).",
         "formation_confidence": "Contested"
       },
       {
