@@ -3,11 +3,11 @@
   "label": "Outside witness",
   "otherNames": [
     "Muhammad ibn Ishaq, and Mohammed Ibn Ishak, the form in Gustav Weil's German",
-    "al-Muttalibi, the name he bears in Ibn Hisham's chain of transmission, as Weil gives it (Almuttalebij)"
+    "al-Muttalibi, the name he bears in Ibn Hisham's chain of transmission, as Weil gives it (Almuttalabij). His grandfather Yasar was a freedman of Qays ibn Makhrama ibn al-Muttalib, by al-Baladhuri, a Muslim historian who died in 892"
   ],
-  "knownFor": "A Muslim collector of traditions whose life of Muhammad, known only through Ibn Hisham's reworking, tells of the Christians Muhammad's first followers met: the Negus of Abyssinia, the Christians of Najran, and Waraqa ibn Naufal of Mecca.",
-  "dates": "Lived in the first half of the second century of Islam, Gustav Weil says. Died in the year 151 of the hijra, which Philip Hitti gives as 767 and a note by B. T. A. Evetts as 768 (the scan reads the year as i5i). No source used here gives his birth",
-  "place": "Medina, by Philip Hitti, who sets him at the head of the tradition of Medina. No source used here gives his birthplace or the place of his death",
+  "knownFor": "A Muslim collector of traditions whose life of Muhammad, known only through Ibn Hisham's reworking, tells of Christians who met Muhammad and his first followers: the Negus of Abyssinia, the Christians of Najran, and Waraqa ibn Naufal of Mecca.",
+  "dates": "Lived in the first half of the second century of Islam, Gustav Weil says. Died in the year 151 of the hijra, which Philip Hitti gives as 767 and a note by B. T. A. Evetts as 768 (the scan reads the year as i5i). No source gives his birth",
+  "place": "No source gives where he was born, lived or died. Philip Hitti counts him, with al-Waqidi, as representing the tradition of Medina",
   "tradition": "Outside the church",
   "role": "Collector of traditions; author of the life of Muhammad",
   "briefLength": "about 2 minutes",
@@ -31,12 +31,13 @@
     ]
   },
   "uncertain": [
-    "How far he can be trusted. Weil calls him reliable, and the faithful voice of the traditions of his day, but says much that he reports as fact belongs to legend. Ibn Ishaq himself marks some reports as what people believe, and after giving two accounts of how Christianity came to Najran he says God knows which is right.",
+    "How far he can be trusted. Weil says Ibn Ishaq's contemporaries and later scholars held him reliable. Weil himself calls him the faithful voice of the traditions of his day. Some of what he reports as fact, Weil says, belongs to legend, which Weil does not hold against him. Ibn Ishaq himself marks some reports as what people believe, and after giving two accounts of how Christianity came to Najran he says God knows which is right.",
+    "His family. Al-Baladhuri, in Hitti's English, names his grandfather Yasar among the captives that the commander Khalid ibn al-Walid took from a church at 'Ain at-Tamr. Al-Baladhuri says Yasar was a freedman of Qays ibn Makhrama ibn al-Muttalib.",
     "The Najran and Abyssinia stories. Axel Moberg, who edited the Syriac Book of the Himyarites in 1924, finds nothing in the Arabic accounts of the persecution that suggests an independent tradition of historical value. He traces their facts to the older Christian Acts of the martyrs, apart from the Jewish king's death in the sea, which points to the Book of the Himyarites.",
     "What Ibn Hisham changed. Weil says the reworking kept the wording as well as the substance, and that Ibn Hisham marks what he adds. Ibn Hisham himself says he left out what does not touch on Muhammad, poems unknown to experts, things ugly to tell or hurtful to some, and what al-Bakka'i, his source for the text, did not confirm. In one poem he says he changed two of Ibn Ishaq's words.",
     "The year of his death. Hitti gives the year 151 of the hijra as 767, and Evetts's note gives it as 768.",
     "That he wrote for the caliph al-Mansur rests on one sentence of Hitti's, who names no early source for it.",
-    "The Negus scene comes from Umm Salama, one of the exiles and later Muhammad's wife, through a chain of reporters that Ibn Ishaq names."
+    "The Negus scene comes from Umm Salama, one of the exiles and a wife of Muhammad, through a chain of reporters that Ibn Ishaq names. In another report, Ibn Ishaq tells that the Abyssinians rose against the Negus for leaving their faith. In answer, the Negus wrote out the Muslim confession of faith."
   ],
   "sources": {
     "ownWords": [
@@ -64,8 +65,8 @@
         "file": "cic/texts/ibn-ishaq_leben-mohammeds-nach-ibn-hischam-deu_weil1864.txt"
       },
       {
-        "title": "The Origins of the Islamic State, part 1, introduction",
-        "author": "al-Baladhuri; Philip Khuri Hitti (tr.)",
+        "title": "The Origins of the Islamic State, volume 1, introduction and text",
+        "author": "Philip Khuri Hitti; al-Baladhuri",
         "date": "1916",
         "language": "English",
         "file": "cic/texts/baladhuri_origins-of-the-islamic-state-v1_hitti1916.txt"
