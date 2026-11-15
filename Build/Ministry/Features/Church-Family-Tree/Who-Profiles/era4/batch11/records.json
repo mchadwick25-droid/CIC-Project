@@ -1817,8 +1817,8 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Quatremère quoting al-Maqrizi (\"« La bibliothèque deskhalifes (2), dit Macrizy\" (scan), l.14025; source note \"Ms, Arab. 678 C\", l.14033): the caliph \"Aziz\"; \"plus de vingt exemplaires de cette chronique, du nombre desquels il y en avoit un écrit de la main de l'auteur\" (scan \"il j en\")",
-    "witness": "QUATREMERE (quatremere_memoires-geographiques-et-historiques-sur-l-egypte-tome2-fra_quatremere1811.txt), l.14025-14053",
+    "claim": "Quatremère quoting al-Maqrizi (\"« La bibliothèque deskhalifes (2), dit Macrizy\" (scan), l.14025; source note \"Ms, Arab. 678 C\", l.14033): the caliph \"Aziz\"; \"plus de vingt exemplaires de cette chronique, du nombre desquels il y en avoit un écrit de la main de l'auteur\" (scan \"il j en\"); al-Maqrizi's death: \"AL-MAKRIZi (died A. H. 845 = A. D. 1441)\" (scan), EVETTS l.15213",
+    "witness": "QUATREMERE (quatremere_memoires-geographiques-et-historiques-sur-l-egypte-tome2-fra_quatremere1811.txt), l.14025-14053; EVETTS (abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt), l.15213",
     "formation_confidence": "Documented"
    },
    {
@@ -1954,7 +1954,7 @@
    },
    {
     "claim": "Faymiyun's story is Wahb ibn Munabbih's, through al-Mughira ibn Abi Labid: \"ein frommer, eifriger Christ\", \"ein Zimmermann und Maurer\", later sold as a slave in Najran; \"Diess ist die Tradition des Wahb Ibn Munabbah, nach dem Berichte der Bewohner von Nadjran\"",
-    "witness": "WEIL (ibn-ishaq_leben-mohammeds-nach-ibn-hischam-deu_weil1864.txt), l.994-1000, l.1060-1061, l.1091-1093",
+    "witness": "WEIL (ibn-ishaq_leben-mohammeds-nach-ibn-hischam-deu_weil1864.txt), l.993-1001, l.1066-1067, l.1092-1093",
     "formation_confidence": "Documented"
    },
    {
@@ -1973,7 +1973,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Moberg: Ibn Ishaq's account, \"preserved by Ibn Hisham and Tabari\", vivid and \"rather fantastic\"; he cannot see in the Arabic narratives \"anything that suggests an independent Muhammadan tradition of historical value\"; their facts owed to the Acta, save the king's death in the sea",
+    "claim": "Moberg: Ibn Ishaq's account, \"preserved by Ibn Hisham and Tabari\", vivid and \"rather fantastic\"; he cannot see in the Arabic narratives \"anything that suggests an independent Muhammadan tradition of historical value\"; their facts owed to the Acta, save the king's death in the sea, which suggests the Book of the Himyarites (l.2708-2710)",
     "witness": "MOBERG (book-of-the-himyarites-syr-eng_moberg1924.txt), l.2628-2639, l.2692-2712",
     "formation_confidence": "Dominant Modern Reconstruction"
    },
@@ -2008,8 +2008,13 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "\"Empörung der Abissynier gegen den Nadjaschi\" (scan \"EmpSrnng ... Nadjascbi\"), from Djafar I. Mohammed after his father: the Abyssinians said \"Du hast Dich von unserm Glauben losgesagt\"; the Negus wrote \"ich bekenne, dass es keinen Gott gibt ausser Gott, dass Mohammed sein Diener ist und sein Gesandter, dass Jesus sein Diener ist ...\"",
+    "claim": "\"Empörung der Abissynier gegen den Nadjaschi\" (scan \"EmpSrnng ... Nadjascbi\"), from Djafar I. Mohammed after his father: the Abyssinians said \"Du hast Dich von unserm Glauben losgesagt\"; the Negus wrote \"ich bekenne, dass es keinen Gott gibt ausser Gott, dass Mohammed sein Diener ist und sein Gesandter, dass Jesus sein Diener ist und sein Gesandter und sein Geist und sein Wort\" (l.9573-9576); he put the paper in \"die rechte Seite seines Oberkleids\" (l.9577-9578); the Abyssinians: \"Du hast unsern Glauben verlassen und Jesus einen Diener genannt\" (scan \"onsem\"), \"Wir sagen, er ist Gottes Sohn\" (l.9589-9591); he laid \"seine Hand auf die Brust\" and said \"ich bekenne, dass Isa, der Sohn Mariams nichts Anderes als diess war, er meinte damit, als in der Schrift, auf welche er seine Hand gelegt, ausgesprochen war\" (l.9591-9594); \"Die Abissynier gaben sich aber zufrieden, und giengen auseinander\" (l.9594-9595)",
     "witness": "WEIL (ibn-ishaq_leben-mohammeds-nach-ibn-hischam-deu_weil1864.txt), l.9565-9597",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Hitti on al-Baladhuri: \"The year 279/892 saw his death\" (card otherNames[1], legacy/traces[3])",
+    "witness": "HITTI (baladhuri_origins-of-the-islamic-state-v1_hitti1916.txt), l.742",
     "formation_confidence": "Documented"
    }
   ],
