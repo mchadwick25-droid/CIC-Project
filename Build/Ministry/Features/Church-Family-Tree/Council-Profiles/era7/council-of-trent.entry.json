@@ -86,7 +86,7 @@
     {
       "witness": "Abdisho, profession and oath, with Cardinal Amulio's letter to the legates (print of 1562)",
       "kind": "participant",
-      "note": "Documents of a party, not the council's own record: sworn at Rome before Amulio, sent by him to the legates, and read at the session of 17 September 1562 (Sarpi). Of the patriarch of the Church of the East who professed union with Rome."
+      "note": "Documents of a party, not the council's own record. They were sworn at Rome before Amulio, who sent them to the legates. They were read at the session of 17 September 1562 (Sarpi, Pallavicino). Of the patriarch of the Church of the East who professed union with Rome."
     },
     {
       "witness": "John Calvin, letters (Bonnet's English edition)",
@@ -181,7 +181,7 @@
       "id": "church-of-the-east-schism-of-1552",
       "name": "The Church of the East — the Schism of 1552",
       "part": "Affected",
-      "note": "Abdisho IV swore at Rome to teach what Trent would settle; his profession was read at the session of 17 September 1562."
+      "note": "Abdisho swore at Rome to teach what Trent would settle; his profession was read at the session of 17 September 1562."
     }
   ],
   "people": [
@@ -239,7 +239,7 @@
     {
       "name": "Maurice, elector of Saxony",
       "verdict": "NOT SCORED",
-      "part": "Not present; sent envoys in 1552 with his terms (Sarpi, Waterworth)"
+      "part": "Not present; sent envoys in 1552 with his terms (Sarpi, Pallavicino, Waterworth)"
     },
     {
       "name": "Leonardus Badehornus (Badehorn)",
@@ -342,11 +342,11 @@
     "The vote on the move. Sarpi says thirty-five bishops and three generals agreed, against Pacheco and seventeen others. Pallavicino counts thirty-eight for and fourteen against, of fifty-six.",
     "Residence by divine right, 20 April 1562. Sarpi counts 68 for and 33 against, with 30 who deferred to the pope. Pallavicino counts 38 or 37 against and 34 between, so most would not define without the pope. He quotes the secretary's tally of 66, later 67, for.",
     "The closing vote. Sarpi says the fathers answered 'not one by one, but altogether'. Pallavicino and Waterworth say the archbishop of Granada alone would not ask confirmation. Pallavicino adds three bishops who asked it 'as necessary'.",
-    "The confirmation. The acts say Pius IV confirmed with the cardinals' 'advice and assent'. Both historians say some in Rome first held back from confirming outright. Pallavicino says some officials of the Roman court advised against an absolute confirmation, but Boncompagni, Paleotto and many others opposed them; the cardinals then approved by common consent. Sarpi says most of eight cardinals named to review the decrees wanted them moderated first, and that Amulio urged confirming at once.",
+    "The confirmation. The acts say Pius IV confirmed with the cardinals' 'advice and assent'. Both historians say some in Rome first held back from confirming outright. Pallavicino says some officials of the Roman court advised against an absolute confirmation, but Boncompagni, Paleotto and many others opposed them. The cardinals then approved by common consent. Sarpi says most of eight cardinals named to review the decrees wanted them moderated first, and that Amulio urged confirming at once.",
     "Lorraine and the acclamations. Sarpi calls his leading them 'a lightness and vanity not beseeming such a Prelate'. Pallavicino says he composed them in the manner of the ancient councils. In them, he says, Lorraine seemed to grant the pope a supremacy the French had disputed.",
     "The proposing formula of 1562. Waterworth says Granada and Orense protested and Leon and Almería agreed on a condition. Sarpi says all four contradicted.",
     "Abdisho's dates. Amulio's letter of August 1562 says he came to Rome 'the year before'. His profession is dated 7 March 1562; Sarpi gives 17 March.",
-    "The Lutheran envoys of 1552 reach us through Sarpi, Pallavicino and Waterworth. Pallavicino says the Württemberg envoys handed their Confession to the secretary. Neither their confession nor the Saxons' is among our sources.",
+    "The Lutheran envoys of 1552 reach us through Sarpi, Pallavicino and Waterworth. Pallavicino says the Württemberg envoys handed their Confession to the secretary. That confession is not among our sources, and no Saxon confession is either.",
     "No held line gives the year Sarpi or Pallavicino wrote."
   ],
   "sources": {
@@ -421,7 +421,7 @@
       },
       {
         "title": "Approbatio et professio of the Patriarch of the Eastern Assyrians, with Cardinal Amulio's letter",
-        "author": "Abdisho IV; Marcantonio Amulio",
+        "author": "Abdisho; Marcantonio Amulio",
         "language": "Latin",
         "file": "cic/texts/abdisho-iv_approbatio-et-professio-fidei-concilio-tridentino-lat_1562.txt"
       },

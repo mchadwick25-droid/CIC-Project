@@ -22,7 +22,7 @@
     "Protestant"
   ],
   "teaser": "In 1555, twenty-five years after the Augsburg Confession was read there, a new imperial diet at Augsburg made a religious peace. It protected the estates of that confession and of the old religion, and shut out all others.",
-  "knownFor": "The recess of 25 September 1555, which set a peace between the two religions of the empire, at a later diet than the one that heard the Augsburg Confession in 1530.",
+  "knownFor": "The recess of 25 September 1555, which made peace between the empire's two religions at a later diet than the one of the Augsburg Confession.",
   "datesNote": "1555; this is not the Diet of 1530. Sarpi and the Monumenta editors date the opening to 5 February. Polanco has the legate Morone arrive on 24 March, the eve of the Annunciation, and leave on 31 March. Mirbt's heading, Sarpi and the Monumenta editors, after Braunsberger, date the recess to 25 September. Pallavicino says the very end of September. Paul IV's two letters against it are dated 18 December 1555.",
   "issue": [
     "The emperor's aim, in Sarpi. Charles V called the Diet 'principally to compose the Controversies of Religion'. Sarpi says this was 'the Fountain of all the troubles, and calamities of Germany'.",
@@ -34,7 +34,7 @@
     "Sarpi says the legate was told 'above all, to divert all Colloquies, and Treaties of Religion'. He says Julius cursed the colloquies and complained of always having 'a Council, a Colloquy, or a Diet' on his back.",
     "Catholic doubt in Germany. Polanco reports Peter Canisius: all Catholics thought it would have been far wiser never to have begun the Diet.",
     "The Lutheran side. No Lutheran who was there speaks in our sources. Sarpi says those of the Augsburg Confession claimed that anyone might take up their teaching and keep the honors and offices they held.",
-    "Ferdinand's defence, as Pallavicino gives it, says the Protestant princes of Saxony, Brandenburg and Hesse met at Naumburg 'quasi in vna Contradieta' ('as if in a counter-diet'). They wrote to him that they would confirm their hereditary league.",
+    "Ferdinand's defence, as Pallavicino gives it, names a meeting at Naumburg. The Protestant princes of Saxony, Brandenburg and Hesse met there 'quasi in vna Contradieta' ('as if in a counter-diet'). They wrote to Ferdinand that they would confirm their hereditary league.",
     "Passau before it. The Peace of Westphalia in 1648 names 'the agreement made at Passau in 1552 and the peace of religion that followed it in 1555'. Pallavicino says the recess left seized church goods to the Concord of Passau."
   ],
   "calledBy": "Charles V. Sarpi says the emperor 'had intimated' the Diet, and that 'Ferdinand began the Diet, in the Emperours name'. Ferdinand's defence, as Pallavicino gives it, says Charles answered curtly that sickness and war kept him from German affairs, and left the arrangement to Ferdinand. No held source disputes that Charles called it.",
@@ -137,7 +137,7 @@
     {
       "witness": "The Peace of Westphalia, 1648, and Innocent X's protest (Mirbt, nos. 430-438, 440)",
       "kind": "acts",
-      "note": "Not the Diet's own: later treaty texts that confirm the 1555 peace and give its rights also to those among them called Reformed, with the papal protest against them."
+      "note": "Not the Diet's own: later treaty texts that confirm the 1555 peace, with the papal protest against them. They give its rights also to those among them called Reformed."
     },
     {
       "witness": "Nadal, Canisius and Ledesma, opinion on the 1555 recess, 1566",
@@ -178,7 +178,7 @@
       "id": "the-society-of-jesus",
       "name": "The Society of Jesus",
       "part": "Gathered",
-      "note": "Lainez and Nadal came with the legate, Salmerón joined the nuncio's party, and Canisius preached in the city (Polanco; Nadal's and Salmerón's letters)."
+      "note": "Lainez and Nadal came with the legate, Salmerón was of the nuncio's party, and Canisius preached in the city (Polanco; Nadal's and Salmerón's letters)."
     },
     {
       "id": "the-reformed-cities-zurich-and-geneva",

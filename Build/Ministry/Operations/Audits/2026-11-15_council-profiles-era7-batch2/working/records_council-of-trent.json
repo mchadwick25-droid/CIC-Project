@@ -322,7 +322,8 @@
    "claim": "Sarpi's frame: a convocation 'procured and hastened' by some, 'hindered and deferred for the space of 22 years' by others",
    "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.8788-8791",
    "witness_kind": "later narrative",
-   "formation_confidence": "Documented"
+   "formation_confidence": "Documented",
+   "note": "OCR 'deterred' and '2.2.' (S l.8790); read as 'deferred' and '22'"
   },
   {
    "claim": "Session IV, 8 April 1546: truth is in the written books and the unwritten traditions 'transmitted as it were from hand to hand'",
@@ -403,7 +404,7 @@
    "formation_confidence": "Documented"
   },
   {
-   "claim": "Session XXIII, chapter XVIII: cathedral churches to train boys of at least twelve, the poor chosen first, in 'a perpetual seminary of ministers of God'",
+   "claim": "Session XXIII, chapter XVIII: cathedral churches to train youths of at least twelve in a college, the poor chosen first; the bishop assigns some to the churches, keeps the rest, and fills the places of those withdrawn, 'that so this college may be a perpetual seminary of ministers of God'",
    "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.19909-19938",
    "witness_kind": "acts",
    "formation_confidence": "Documented"
@@ -561,7 +562,7 @@
   {
    "claim": "Waterworth prints Le Plat's lists of those present in the first ten sessions and in the nine under Pius IV",
    "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.24409-24416, 25697-25703",
-   "witness_kind": "acts",
+   "witness_kind": "modern reconstruction",
    "formation_confidence": "Documented"
   },
   {
@@ -639,13 +640,13 @@
   {
    "claim": "Le Plat's list names Joannes Maria de Monte, later Julius III, and Marcellus Cervinus among the first legates",
    "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.24417-24432",
-   "witness_kind": "acts",
+   "witness_kind": "modern reconstruction",
    "formation_confidence": "Documented"
   },
   {
    "claim": "Le Plat's list names Christophorus Madrucius, cardinal and bishop of Trent",
    "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.24451-24454",
-   "witness_kind": "acts",
+   "witness_kind": "modern reconstruction",
    "formation_confidence": "Documented"
   },
   {
@@ -669,7 +670,7 @@
   {
    "claim": "Le Plat's list for 1562 names Hercules Gonzaga first among the presidents",
    "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.25705-25711",
-   "witness_kind": "acts",
+   "witness_kind": "modern reconstruction",
    "formation_confidence": "Documented"
   },
   {
@@ -741,25 +742,25 @@
   {
    "claim": "Abdisho's profession is dated Rome, 7 March 1562",
    "witness": "abdisho-iv_approbatio-et-professio-fidei-concilio-tridentino-lat_1562.txt l.209",
-   "witness_kind": "acts",
+   "witness_kind": "participant",
    "formation_confidence": "Documented"
   },
   {
    "claim": "Abdisho swore at Rome before Amulio that he could not come to the synod but would teach what Trent would settle",
    "witness": "abdisho-iv_approbatio-et-professio-fidei-concilio-tridentino-lat_1562.txt l.214-218, 266-289",
-   "witness_kind": "acts",
+   "witness_kind": "participant",
    "formation_confidence": "Documented"
   },
   {
    "claim": "Amulio's letter, Rome, August 1562, says Abdisho came to Rome 'the year before' and stayed months",
    "witness": "abdisho-iv_approbatio-et-professio-fidei-concilio-tridentino-lat_1562.txt l.105-112, 171-172",
-   "witness_kind": "acts",
+   "witness_kind": "participant",
    "formation_confidence": "Documented"
   },
   {
    "claim": "Amulio's letter says Abdisho would have gone to the council had he not hastened home",
    "witness": "abdisho-iv_approbatio-et-professio-fidei-concilio-tridentino-lat_1562.txt l.119-122",
-   "witness_kind": "acts",
+   "witness_kind": "participant",
    "formation_confidence": "Documented"
   },
   {
@@ -795,7 +796,7 @@
   {
    "claim": "Le Plat's list says Pole left before the fifth session",
    "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.24436-24443",
-   "witness_kind": "acts",
+   "witness_kind": "modern reconstruction",
    "formation_confidence": "Documented"
   },
   {
@@ -821,6 +822,49 @@
    "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.14055-14057, 14242-14246",
    "witness_kind": "acts",
    "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Pallavicino gives the audience of the Württemberg and Saxon envoys: the Württemberg men handed their Confession to the secretary, and he sums up the Saxons' petitions in five heads, the fourth that the pope be declared subject to the council before all else",
+   "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.22383-22660",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Luther's Smalcald Articles, dated 1537 in the edition, were written for the council Paul III had called to Mantua, before Trent met; they were to be presented if the pope held 'a truly free Christian Council', and say 'the Romish court is so dreadfully afraid of a free Christian Council'",
+   "witness": "book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.15751-15792",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Paul III's bull of 1542 says he had called the council to Mantua for 1537, was refused the city, and chose Vicenza and then Trent",
+   "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.11719-11738, 11979-11988",
+   "witness_kind": "acts",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "The Lutheran Formula of Concord says 'the decree of the Council of Trent ... should by right be rejected', namely 'that our good works support salvation'; its Epitome is signed at Bergen, 29 May 1577",
+   "witness": "book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt l.30993-30999, 27925",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented",
+   "note": "Jacobs's footnote refers the decree to Sess. VI, can. XXIV (l.31038); the reference is the editor's."
+  },
+  {
+   "claim": "Pallavicino says some officials of the Roman court advised the pope against an absolute confirmation, since it cut the court's revenue and authority, and Boncompagni, Paleotto and many others opposed them",
+   "witness": "pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846.txt l.57848-57867",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "Waterworth counts, at the session of 18 January 1562, besides the cardinals, 106 bishops, four mitred abbots and four generals of orders",
+   "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.7182-7184",
+   "witness_kind": "modern reconstruction",
+   "formation_confidence": "Dominant Modern Reconstruction"
+  },
+  {
+   "claim": "Giussano gives a round 'two hundred and fifty Bishops' assembled for the third period",
+   "witness": "giussano_life-of-st-charles-borromeo-v1_1884.txt l.3650",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Inferential-Thin"
   }
  ],
  "contested_claims": [
@@ -853,7 +897,7 @@
   },
   {
    "claim": "How the cardinals in Rome received the decrees before confirmation",
-   "sides": "Confirmed with the cardinals' 'advice and assent': the acts (council-of-trent_canons-and-decrees_waterworth1848.txt l.24171-24174); by common consent: Pallavicino (pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846.txt l.58030-58039) | Most of eight cardinals wanted them moderated first; Amulio urged confirming at once: Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.70324-70327, 70376-70416)",
+   "sides": "Confirmed with the cardinals' 'advice and assent': the acts (council-of-trent_canons-and-decrees_waterworth1848.txt l.24171-24174); by common consent, after some officials of the Roman court had advised against an absolute confirmation: Pallavicino (pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846.txt l.57848-57867, 58030-58039) | Most of eight cardinals wanted them moderated first; Amulio urged confirming at once: Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.70324-70327, 70376-70416)",
    "formation_confidence": "Contested"
   },
   {
@@ -876,7 +920,7 @@
    "claim": "The opening count, 13 December 1545",
    "sides": "'with all the Prelates, in number 25': Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.18406-18407) | cardinal of Trent, four archbishops, twenty bishops, five generals, besides three legates: Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.35131-35135) | four archbishops, twenty-two bishops, five generals: Le Plat, as Waterworth reports (council-of-trent_canons-and-decrees_waterworth1848.txt l.3552-3554)",
    "formation_confidence": "Widely Accepted",
-   "note": "The counts agree in substance. Whether Sarpi's 25 includes the legates is unclear."
+   "note": "Pallavicino's cardinal of Trent, four archbishops and twenty bishops make 25 besides the legates, so he and Sarpi agree if Sarpi's 25 leaves the legates out. Le Plat's twenty-two bishops differ by two."
   }
  ],
  "absent_details": [
@@ -886,7 +930,7 @@
   },
   {
    "detail": "The Württemberg and Saxon confessions handed in at Trent, 1551-52",
-   "note": "Not held. grep over all cic/texts for 'Confessio (Virt|Wirt)embergica|Wirtembergic|Confessio Saxonica|Repetitio confessionis|Saxon Confession|Wurtemberg Confession' gave no relevant hit; 'Badehorn' occurs only in Sarpi. Their speeches reach us through Sarpi and Waterworth."
+   "note": "Not held. grep over all cic/texts for 'Confessio (Virt|Wirt)embergica|Wirtembergic|Confessio Saxonica|Repetitio confessionis|Saxon Confession|Wurtemberg Confession' gave no relevant hit; the name Badehorn occurs only in Sarpi, and Pallavicino tells the Saxon speech without it. Pallavicino says the Württemberg envoys handed their Confession to the secretary (P2 l.22388-22390). Their speeches reach us through Sarpi, Pallavicino (P2 l.22383-22660) and Waterworth."
   },
   {
    "detail": "Calvin's Acta Synodi Tridentini cum Antidoto (1547)",
