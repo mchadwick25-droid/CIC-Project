@@ -429,7 +429,13 @@ svg.strip-on #era-labels{display:none}
 #panel .who-btn{display:flex;justify-content:space-between;align-items:center;gap:.6rem;width:100%;margin:.6rem 0 .4rem;
   padding:.6rem .9rem;border:1px solid var(--gold-leaf);border-radius:4px;background:var(--gold-leaf);color:var(--parchment);
   font-family:"Alegreya Sans",sans-serif;font-size:.95rem;font-weight:700;cursor:pointer;text-align:left}
-#panel .who-btn[aria-pressed="true"]{background:var(--tyrian-wash);color:var(--iron-gall)}
+#panel .who-btn .who-line{display:flex;min-width:0;white-space:pre}
+#panel .who-btn .who-first{min-width:0;overflow:hidden;text-overflow:ellipsis}
+#panel .who-btn .who-more{flex:none}
+#people-section{scroll-margin-top:.6rem}
+#panel .who-btn .who-state{flex:none}
+#people-section:focus{outline:none}
+#people-section:focus-visible{outline:2px solid var(--madder);outline-offset:2px}
 #panel .who-btn:focus-visible{outline:2px solid var(--iron-gall);outline-offset:2px}
 #panel .who-state{font-size:.82rem;font-weight:600;white-space:nowrap}
 #panel .people-list{list-style:none;padding:0;margin:.3rem 0 .8rem}
@@ -507,7 +513,7 @@ svg.strip-on #era-labels{display:none}
 </div>
 <aside id="whoTray" hidden aria-labelledby="trayTitle">
   <div class="tray-head"><button type="button" class="tray-btn tray-grip" aria-expanded="true" aria-label="Make the list smaller">&#9662;</button>
-  <div class="tray-title"><h2 id="trayTitle" tabindex="-1"></h2><p class="tray-sub"></p></div>
+  <div class="tray-title"><h2 id="trayTitle"></h2><p class="tray-sub"></p></div>
   <button type="button" class="tray-btn tray-close" aria-label="Close the Who list and clear the names from the map">&times;</button></div>
   <div class="tray-sort" role="group" aria-label="Order of the list"><button type="button" data-sort="date" aria-pressed="true">By date</button><button type="button" data-sort="trad" aria-pressed="false">By tradition</button></div>
   <div class="tray-body"></div>
@@ -120176,10 +120182,8 @@ function setWho(scope,opts){
   renderWho();
   syncTrayGrip();
   const cramped=narrowScreen()||(panel.classList.contains('open')&&window.innerWidth-tray.offsetWidth-panel.offsetWidth<360);
-  const fromCard=panel.contains(document.activeElement);
   if(cramped&&panel.classList.contains('open')){lastFocused=null;closePanel();}
   zoomToWho();
-  if(fromCard&&!panel.classList.contains('open'))tray.querySelector('#trayTitle').focus();
   announce(`Who list open: ${whoPick.all.length} ${whoPick.all.length===1?'person':'people'}, ${whoPick.shown.length} named on the map.`);
 }
 function clearWho(){
@@ -120218,10 +120222,6 @@ function zoomToWho(){
   }
   applyTransform(); applyDetail();
 }
-function whoCountText(m){
-  const n=(peopleOf[m.id]||[]).length;
-  return n?`Who · ${n} ${n===1?'person':'people'}`:'Who · no one named';
-}
 function syncWhoControls(){
   const key=whoScopeKey(whoScope);
   const chip=document.getElementById('who-chip');
@@ -120231,8 +120231,6 @@ function syncWhoControls(){
     fitFeatureBar();
   }
   document.querySelectorAll('[data-who]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.who===key)));
-  const btn=panelBody.querySelector('.who-btn[data-who]');
-  if(btn){const on=btn.dataset.who===key;btn.querySelector('.who-state').innerHTML=on?'On the map <span aria-hidden="true">×</span>':'Show on the map';}
 }
 
 const WHO_TIP_NAMES=4;
@@ -120445,14 +120443,14 @@ function traditionEnd(id){
 }
 
 function whoButtonHTML(m){
-  const n=(peopleOf[m.id]||[]).length;
-  if(!n)return '';
-  return `<button type="button" class="who-btn" data-who="${esc(whoScopeKey({type:'trad',m}))}" aria-pressed="false"><span>${esc(whoCountText(m))}</span><span class="who-state">Show on the map</span></button>`;
+  if(!(peopleOf[m.id]||[]).length)return '';
+  const {names,more}=whoTipParts({type:'trad',m}), rest=more+names.length-1, tail=rest?` +${rest} more`:'';
+  return `<button type="button" class="who-btn who-list-btn" aria-controls="people-section" aria-label="${esc(`Who · ${names[0]}${tail}. See the list`)}"><span class="who-line"><span class="who-first">Who · ${esc(names[0])}</span>${tail?`<span class="who-more">${tail}</span>`:''}</span><span class="who-state">See the list</span></button>`;
 }
 function peopleHTML(m){
-  const list=peopleOf[m.id]||[];
+  const list=(peopleOf[m.id]||[]).length?scopePeople({type:'trad',m}).all.map(a=>a.P):[];
   if(!list.length)return !(m.people||[]).length&&m.peopleNote?`<h3 id="people-section">Who</h3><p class="people-note">${esc(m.peopleNote)}</p>`:'';
-  return `<h3 id="people-section">Who</h3><ul class="people-list">${list.map(P=>
+  return `<h3 id="people-section" tabindex="-1">Who</h3><ul class="people-list">${list.map(P=>
     `<li><button type="button" class="panel-link" data-person="${esc(P.key)}">${esc(P.entry?P.entry.name:P.name)}</button> · ${esc(personDates(P))}</li>`).join('')}</ul>`;
 }
 function briefLength(seconds){
@@ -120552,10 +120550,8 @@ function wirePanelLinks(ctx){
   panelBody.querySelectorAll('button.panel-link[data-edge]').forEach(btn=>btn.addEventListener('click',()=>{
     const e=ctx&&ctx.links&&ctx.links[+btn.dataset.edge], a=e&&entryById(e.from), b=e&&entryById(e.to); if(a&&b)openPanelEdge(e,a,b);
   }));
-  panelBody.querySelectorAll('.who-btn[data-who]').forEach(btn=>btn.addEventListener('click',()=>{
-    const m=byId[btn.dataset.who.slice(2)]; if(m)setWho({type:'trad',m});
-  }));
-  syncWhoControls();
+  const whoList=panelBody.querySelector('.who-list-btn'), whoHead=panelBody.querySelector('#people-section');
+  if(whoList&&whoHead)whoList.addEventListener('click',()=>{whoHead.scrollIntoView({block:'start',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});whoHead.focus({preventScroll:true});});
 }
 
 function render(){
