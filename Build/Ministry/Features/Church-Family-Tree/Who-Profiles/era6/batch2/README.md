@@ -22,7 +22,7 @@ Held witnesses beyond those the scan cites, among them:
 - **Clareno.** Ehrle's 1885 Archiv volume, with the full letter of defense and the letters; Döllinger's extract of the Chronicon; Rader's preface in Migne PG 88.
 - **Ockham.** Carlini, with the Munich book of the dead and the 1338 protest; the 1328 to 1330 letters in Eubel's Bullarium; Konrad of Megenberg quoting Clement VI; Shirley; Gerson; Luther; Reusch's Index of 1564.
 - **Palamas.** Kantakouzenos; Gregoras, volumes 2 and 3; Miklosich and Müller's patriarchal acts; the Philokalia; Mansi 26 with Combefis's notes; the Bollandists after Allatius; Covel.
-- **Gregory of Sinai.** The Philokalia of 1893; Meyer; Rački; Paisius Velichkovsky's volume with Basil of Poiana Marului's preface; Nil Sorsky.
+- **Gregory of Sinai.** The Philokalia of 1893; Meyer; Rački; Paisius Velichkovsky's volume with Basil of Poiana Marului's prefaces; Nil Sorsky.
 - **Cabasilas.** Kantakouzenos, volumes 2 and 3; Miklosich and Müller; Gass; Phrantzes; Symeon of Thessalonica; Pallavicino on Trent; Petit in Patrologia Orientalis 15.
 
 Corrections to the scan found in drafting:
@@ -41,7 +41,7 @@ Names and ids, the worker's calls:
 - **Bernardino of Siena**, `bernardino-of-siena`, the census name. Bernardino Ochino and the Carmelite Bernardinus de Senis of the order's general chapters are different men, and so is Bernardino of Aquila, the chronicler.
 - **Angelo Clareno**, `angelo-clareno`, the census name. Peter of Fossombrone was his earlier name, and the card gives it in its Latin form, Petrus de Forosempronio. Angelo Tancredi is a different man. Whether the Angelo of the Spoleto valley of the 1331 bull is Clareno is open: Raynaldus seems inclined to think so and Tocco holds it, Eubel doubts it, and Oliger leaves it unsettled.
 - **William of Ockham**, `william-of-ockham`, the census voice name. The Mansi rector of 1311 and Nicholas of Ockham are kept apart.
-- **Gregory Palamas**, `gregory-palamas`, the census name. Gregory Akindynos and Gregory of Sinai are named in full, and Philotheos is named by his see's city on the card only where needed.
+- **Gregory Palamas**, `gregory-palamas`, the census name. Gregory Akindynos and Gregory of Sinai are named in full, and Philotheos is named as patriarch of Constantinople at his first mention in the brief and in the card.
 - **Gregory of Sinai**, `gregory-of-sinai`, the census name; the sources call him the Sinaite. The patriarch Kallistos is kept apart from Kallistos Xanthopoulos.
 - **Nicholas Cabasilas**, `nicholas-cabasilas`, the census name. His uncle Nilus Cabasilas is named at once in the brief, since Fabricius warns the two are often confused.
 
