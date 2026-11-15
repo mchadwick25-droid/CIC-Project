@@ -70,17 +70,30 @@ verified-not-asserted case this whole registry rests on.
 `texts_registry.py`'s own docstring:
 - Published > 95 years ago (rolling; 1930 as of 2026) → public domain by
   date.
+- Where a title page prints no year, a copyright notice in the volume dated
+  1930 or earlier stands for the date; a dated preface stands for it only
+  where the library catalogue's date agrees. The header's Rights line says
+  which date was used and where it stands in the file.
 - A transcriber's explicit PD declaration (Pearse's site-wide notice is the
   precedent) → accepted, recorded as such.
-- Where a title page prints no year, a copyright notice dated inside the
-  rule counts; a dated preface counts only when the library catalog's date
-  agrees. The header records the date used and where it was found.
 - An explicit open licence (CC BY 4.0 — Dysinger's Evagrius is the one case
   so far) → `open-licence`, with the attribution string recorded and carried
   into every quote that draws on it.
-- 1931–1963 US publications need an actual renewal check (Stanford Copyright
-  Renewal Database / NYPL `cce-renewals`), not a guess — flag for that
-  research rather than assuming clear.
+- The date is the imprint on the title page, not the host's record, and the
+  line moves each January.
+- 1931–1963 US publications whose copyright was not renewed → free, for any
+  such book. The renewal search (Stanford Copyright Renewal Database / NYPL
+  `cce-renewals`, or the catalogue transcriptions) is run, never guessed, and
+  recorded in the file header: what was searched, the names searched, the
+  date, the result. A renewal found means in copyright, not held.
+- An owner's own statement that the text is free (CC BY 4.0, "not
+  copyrighted", "may be reproduced without permission") → `owner-declared
+  free`, a class beside public domain, with the owner's own words copied into
+  the file header. Entries the owner marks as reprinted "with permission" are
+  skipped. Where the statement says the text must stay unchanged, the text is
+  quoted word for word only and gets no modern rendering.
+- A "non-commercial use only" permission → not held. Cite and link, and write
+  for permission where the text matters.
 - Foreign-published 1931+ translations: assume URAA-restored (in copyright in
   the US) unless a licence says otherwise — see
   `world-build-docs/_cross-world/PLAN-texts-store-scaling.md`'s sibling
@@ -102,6 +115,22 @@ order of how often they'll actually come up:
   itself asserts copyright on its "electronic edition." If this is Mark's
   source, cite it bibliographically in the eventual source record; do not
   save its text into `cic/texts/`.
+- **Vatican texts** — the Latin of the *Acta* printed by 1930 is held under
+  the date rule and rendered by us. Everything later is cite and link only.
+- **Court and government records** — a printed record counts by its imprint
+  date, like a book. Unprinted archive records are cite only. US federal
+  government works are free.
+- **Church statements with no stated terms** (confessions, conference
+  resolutions, bishops' documents) — cite and link, and write to the body for
+  permission.
+- **Old works whose only scan is locked** (lending-only) — record as "located,
+  not obtainable here"; do not take them.
+- **Martin Luther King Jr.** — cite and link only. No quotation, no rendering.
+- **A work we do not hold** is never quoted. A profile gives facts and a
+  citation.
+- **Our own rendering from an old original** (era 10) — where no old English
+  translation exists to check against, a second independent rendering checks
+  the first, and differences are marked uncertain on the card.
 - Anything else: treat like an English translation from an unfamiliar host —
   find the host's own explicit rights statement before proceeding, never
   infer one from silence.

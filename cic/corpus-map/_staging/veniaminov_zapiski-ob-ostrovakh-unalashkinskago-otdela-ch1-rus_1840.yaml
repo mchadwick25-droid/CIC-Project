@@ -1,0 +1,21 @@
+source_file: veniaminov_zapiski-ob-ostrovakh-unalashkinskago-otdela-ch1-rus_1840.txt
+assignments:
+- row_id: veniaminov_zapiski-ob-ostrovakh-unalashkinskago-otdela-ch1-rus_1840--i
+  work: ЗАПИСКИ ОБЪ ОСТРОВАХЪ УНАЛАШКИНСКАГО ОТДЪЛА, СОСТАВЛЕННЫЯ И. Вениаминовымъ. ЧАСТЬ ПЕРВАЯ. Издано иждивенiемъ
+  author: veniaminov
+  locus: Contents of Part One at OCR lines 19510-19610; add 12 to OCR line numbers; the rest not mapped
+  atlas_ids:
+  - alaskan-mission-herman-veniaminov
+  role: tradition
+  confidence: provisional
+  language: rus
+  date:
+    start: 1840
+    end: 1840
+    source: 'the printing''s own title page: OCR line 41, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1840
+    source: OCR line 41, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 202, Ioann Veniaminov: his Notes on the Unalaska islands, part 1.'

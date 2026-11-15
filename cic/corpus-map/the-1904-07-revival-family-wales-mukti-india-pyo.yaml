@@ -29,6 +29,27 @@ works:
   note: A life printed in 1926, after the entry's window closes in 1910; it quotes her own
     Testimony.
   source_file: macnicol_pandita-ramabai-builders-of-modern-india_1926.txt
+- row_id: phillips_evan-roberts-ai-waith-cym_1912--evan-roberts-y-diwygiwr-evan-roberts-a-i-waith-gan-y-parch-d
+  work: Evan Roberts, y Diwygiwr; Evan Roberts a'i waith, gan y Parch. D. M. Phillips, M.A.,
+    Ph.D., Tylorstown (title
+  author: phillips
+  locus: Chapter XXI, which closes with Evan Roberts's visions at OCR lines 8258-8783; add
+    12 to OCR line numbers; the rest not mapped
+  role: context
+  confidence: needs-ruling
+  language: cym
+  date:
+    start: 1912
+    end: 1912
+    source: 'the printing''s own title page: OCR line 284, under the printer''s line, which
+      reads ''I 9 I 2 .'''
+    formation_confidence: Documented
+  edition_date:
+    year: 1912
+    source: OCR line 284, under the printer's line, which reads 'I 9 I 2 .'
+    formation_confidence: Documented
+  note: 'Era 9 row 214, Evan Roberts: a Life, in Welsh.'
+  source_file: phillips_evan-roberts-ai-waith-cym_1912.txt
 - row_id: ramabai_high-caste-hindu-woman_1888--ramabai-the-high-caste-hindu-woman
   work: Ramabai, The High-Caste Hindu Woman
   author: ramabai
@@ -37,3 +58,25 @@ works:
   confidence: needs-ruling
   note: Her own words, but written in 1887, before the entry's window of 1904-1910.
   source_file: ramabai_high-caste-hindu-woman_1888.txt
+- row_id: story-of-the-welsh-revival_told-by-eyewitnesses_3rd-ed1905--the-story-of-the-welsh-revival-as-told-by-eyewitnesses
+  work: The Story of the Welsh Revival as told by eyewitnesses together with a sketch of Evan
+    Roberts and his message
+  author: story-of-the-welsh-revival
+  locus: A Message to the World by Evan Roberts at OCR lines 239-329; Mr. Evan Roberts by
+    W. T. Stead at OCR lines 2631-2846; add 12 to OCR line numbers; the rest not mapped
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1905
+    end: 1905
+    source: the copyright notice at OCR line 165 ('Copyright, 1905, by Fleming H. Revell Company');
+      the title page prints no year
+    formation_confidence: Documented
+  edition_date:
+    year: 1905
+    source: the copyright notice at OCR line 165 ('Copyright, 1905, by Fleming H. Revell Company');
+      the title page prints no year
+    formation_confidence: Documented
+  note: 'Era 9 row 214, Evan Roberts: accounts of the revival printed in 1905.'
+  source_file: story-of-the-welsh-revival_told-by-eyewitnesses_3rd-ed1905.txt

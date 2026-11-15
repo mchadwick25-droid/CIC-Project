@@ -543,6 +543,47 @@ council rows queued in `CFT-Wants.md` (Marburg and Worms) and the Library items 
 
 Era 8 wants in a fresh session, when era 7's Whos begin.
 
+## 2026-11-15 — Era 10 rights rulings: eleven questions answered
+
+**Decided (Mark, 2026-11-15).** Eleven rights questions from the era 10 scoping page, answered
+one at a time. Mark's picked option is in quotes.
+
+- **R1, Vatican texts: "Old print, link the rest".** Hold the Latin from the *Acta* printed by
+  1930 and render it ourselves. Everything later is cite and link only. One letter asks
+  permission for the Vatican II documents.
+- **R2, texts whose owners say they are free: "Take all three".** A new class beside public
+  domain, with the owner's own words copied into each file header: the Dictionary of African
+  Christian Biography (CC BY 4.0; skip entries marked as reprinted "with permission"), the
+  Catholic Worker paper ("not copyrighted"), and the Cape Town Commitment (quoted word for word
+  only, no modern rendering).
+- **R3, "non-commercial use only" permissions: "Don't hold, cite and link".** Hold nothing on a
+  non-commercial permission. Write for permission where a text matters.
+- **R4, church statements with no stated terms: "Cite and link, then write".** Letters to each
+  body, starting with Barmen and Lausanne.
+- **R5, quoting a work we do not hold: "Keep the rule".** Facts and a citation, no quotation.
+- **R6, the date rule: "Keep the one test".** The imprint on the title page. Barth's 1919 book is
+  noted as a known exposure (free in the US, protected in Europe until 2038). The line moves each
+  January.
+- **R7, American books of 1931 to 1963 whose copyright was never renewed: "Allow it generally".**
+  Mark chose this over the case-by-case recommendation. Any such book counts as free, with the
+  renewal search recorded in the file header. Asked whether it applies to the running era 8 and 9
+  Library threads, Mark chose "Yes, all eras now". R7 widens the "imprint of 1930 or earlier"
+  rule for American books of 1931 to 1963, and settles the non-renewal proposal in the 27 October
+  rights audit (`Build/Ministry/Operations/Audits/2026-10-27_post-1930-files_Rights-Audit.md`).
+- **R8, old works whose only scan is locked: "Log them, open HathiTrust later".** Record as
+  "located, not obtainable here". Opening HathiTrust in the network settings stays an open item
+  for Mark.
+- **R9, court and government records: "By imprint, like a book".** A printed record counts by its
+  imprint date. Unprinted archive records are cite only. US federal government works are free.
+- **R10, Martin Luther King Jr.: "Cite and link only".** No quotation, no rendering.
+- **R11, translating from an old original ourselves: "Yes, with a second check".** Holds for era
+  10. Where no old English translation exists, a second independent rendering checks the first,
+  and differences are marked uncertain on the card.
+
+**Changed.** The rights rule in `cic/texts/INTAKE.md` §2 and `Design.md` §9. The letters and the
+HathiTrust item are in the Church Family Tree `Open-Gaps.md`.
+
+**Not done.** No text vendored, no file header edited, no letter sent. The nine Church in
 ## 2026-11-15 — Era 10, batch 1: the major people, the conferences and the Acts to 1930
 
 **Done.** 94 files (10,208,969 words) for the era 10 wants, under the rights rulings of 2026-11-15. The files, their
@@ -582,5 +623,77 @@ Conversation design questions (D1 to D9) stay open.
 
 ### Next action
 
+Mark sends the letters. Library threads for eras 8 and 9 apply R7 from their next intake.
+
+## Eras 4-5, third fill (2026-11-15)
+
+Seven public-domain files for the Library items of Open-Gaps 269 and 279 (era 4 Who batches 9 and 11). Search
+record: `Build/Ministry/Operations/Audits/2026-11-15_library-eras4-5-b/Search_Log.md`. Wants table and cautions:
+`CFT-Wants.md`, "Eras 4-5, third fill".
+
+**Decided here.**
+- Rights, as in the second fill: a printed imprint of 1930 or earlier read on the title page or its page image.
+  Matthew of Edessa's year was read on the page image because the OCR garbles the numeral.
+- A title page with no year is not taken, even where the preface is dated: Bacha's French of Abu Qurrah (preface
+  1905) is held for Mark, as Mansi XX was.
+- An own-language text whose script the OCR cannot give is taken only where a readable translation stands in the
+  same file (Arendzen's Arabic with Latin). The Armenian uploads of Stepanos and Matthew and Chabot's Syriac
+  tome IV were not taken.
+- From this batch each shelf row states its language and a date field. Where the file itself does not date the
+  writing, the date is `unknown` and says what was read. Each file's word count is in its header and registry
+  note.
+- Shelves. Matthew of Edessa is `needs-ruling` on `armenian-cilicia` (tradition) and on
+  `bagratid-armenian-christianity` (context): Dulaurier's preface calls him an Armenian monk of the twelfth century, a native of Edessa, and no entry is his own.
+  John of Damascus's sermons on the Assumption are `needs-ruling` on `melkite-arabic-christianity`. Mendham's
+  English of Nicaea II sits where Mansi XII-XIII sit, as the council's own acts.
+- The review was done by a Fable reader in place of Opus, on Mark's instruction of 2026-11-15 as relayed by the
+  Church Family Tree coordinator ("use our free fable and stop all opus work except the rewrite process").
+
+**For the tree, not the Library.**
+- Nothing by Clement of Ohrid, no short Life of him and no Life of Methodius beyond the held texts was found.
+- No English of Eulogius, Alvarus or Abu Qurrah was printed by 1930.
+
+### Next action
+
+Era 8 (1650-1815), by region, each batch in its own pull request.
+## Era 9, batch 1: the major figures (2026-11-15)
+
+Ninety-nine files for the 63 person rows marked major in the wanted list (rows 163-225). Record:
+`Build/Ministry/Operations/Audits/2026-11-15_library-era9/Search_Log.md`; the rows are in `CFT-Wants.md`,
+"Era 9 (1815-1906), batch 1".
+
+**Ruled by Mark during the batch (15 November, through the coordinator).**
+- On title pages that print no year, verbatim: "Copyright notice yes, preface with a check". A copyright notice
+  dated 1930 or earlier counts as the date. A dated preface counts only when the library catalogue's date
+  agrees. The header's rights line names the date used and where it stands. The rule is now in
+  `cic/texts/INTAKE.md`, section 2. Six files came in under it.
+- The wider rights rule of the same day (American books of 1931 to 1963 never renewed; United States
+  government works; owner-stated free texts) and the leave to strip the host's own additions at intake were
+  received during the batch and not used in it. They apply from the next batch.
+
+**Decided here.**
+- Every imprint was checked again by the Library thread after the searchers. Eighteen years were read on the
+  scan's page image; the leaf is named in each header.
+- Content notes say only what the file shows. The first review found details from outside the files in the
+  searchers' notes, so every note and locus of the batch was checked against its text by fresh checkers and
+  written again. Search narration stays in the search log.
+- Lives told by another are shelved as `context`; the person's own writings as `tradition`. A text written
+  outside its entry's window is `needs-ruling` on the nearest entry.
+- OCR that cannot be read is not taken, even where the imprint is good: Wichern's Denkschrift (1889),
+  Friedrich's Life of Dollinger, Dollinger's Briefe und Erklarungen, Khrimian's Armenian works, Waldenstrom in
+  Swedish. They are listed as located.
+- Ellis's History of Madagascar, vol. 2, prints no date of its own. It was taken on vol. 1's preface and the
+  catalogue's date, and its header says so.
+
+**Held for Mark.**
+- Os Sertoes, third edition (1905): the host record carries the Public Domain Mark, but the Brasiliana USP
+  notice inside the file asks for non-commercial use and no republication without leave.
+- The Doctrine and Covenants of 1852 (an Intellectual Reserve copyright line) and two Swedish printings of
+  Waldenstrom under NC licenses were not taken.
+
+### Next action
+
+Era 9, batch 2, in a fresh session: the person rows not marked major (226-330), the era 9 outside witnesses and
+council records, the held eras 8-9 items, and the texts of this batch still owed a date check.
 Era 10, batch 2: a second pass by region for the rows marked not found (Africa, Oceania, the Orthodox churches), more
 original scans of the Catholic Worker paper, and the council leads not yet searched.

@@ -1,0 +1,26 @@
+source_file: ellis_history-of-madagascar-v2_1838.txt
+assignments:
+- row_id: ellis_history-of-madagascar-v2_1838--history-of-madagascar-compiled-chiefly-from-original
+  work: History of Madagascar ... compiled chiefly from original documents by the Rev. William Ellis ... In two
+  author: ellis
+  locus: chapter VIII, the start of the mission by Messrs. Bevan and Jones, at OCR lines 9304-10513; chapter XVIII,
+    to the martyrdom of Rafaravavy, at OCR lines 22630-24021; add 12 to OCR line numbers; the rest not mapped
+  atlas_ids:
+  - malagasy-christianity
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1838
+    end: 1838
+    source: 'the preface, dated ''Pentonville, October 10th, 1838'' (OCR line 247 of vol. 1), with which the library
+      catalogue''s date agrees (Wellcome Library, on the archive.org record: 1838); a plate caption at OCR line
+      4778 of vol. 1 is also dated 1838; the title pages print no year; vol. 2 prints no date of its own'
+    formation_confidence: Documented
+  edition_date:
+    year: 1838
+    source: 'the preface, dated ''Pentonville, October 10th, 1838'' (OCR line 247 of vol. 1), with which the library
+      catalogue''s date agrees (Wellcome Library, on the archive.org record: 1838); a plate caption at OCR line
+      4778 of vol. 1 is also dated 1838; the title pages print no year; vol. 2 prints no date of its own'
+    formation_confidence: Documented
+  note: 'Era 9 row 208, David Jones and David Griffiths: Ellis, History of Madagascar, vol. 2.'

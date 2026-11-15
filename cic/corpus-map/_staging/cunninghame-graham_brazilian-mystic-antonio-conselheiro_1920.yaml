@@ -1,0 +1,21 @@
+source_file: cunninghame-graham_brazilian-mystic-antonio-conselheiro_1920.txt
+assignments:
+- row_id: cunninghame-graham_brazilian-mystic-antonio-conselheiro_1920--a-brazilian-mystic-being-the-life-and-miracles-of-antonio
+  work: A Brazilian Mystic, being the life and miracles of Antonio Conselheiro. By R. B. Cunninghame Graham
+  author: cunninghame-graham
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - canudos-belo-monte
+  role: context
+  confidence: needs-ruling
+  language: eng
+  date:
+    start: 1920
+    end: 1920
+    source: 'the printing''s own title page: OCR line 112, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1920
+    source: OCR line 112, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 186, Antonio Conselheiro: a second witness in English.'

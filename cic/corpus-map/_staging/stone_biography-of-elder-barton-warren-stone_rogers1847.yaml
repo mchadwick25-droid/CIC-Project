@@ -1,0 +1,23 @@
+source_file: stone_biography-of-elder-barton-warren-stone_rogers1847.txt
+assignments:
+- row_id: stone_biography-of-elder-barton-warren-stone_rogers1847--biography-of-eld-barton-warren-stone-written-by-himself-with
+  work: 'Biography of Eld. Barton Warren Stone, written by himself: with additions and reflections by Elder John
+    Rogers'
+  author: stone
+  locus: Stone's own narrative of his life, chapters I-X at OCR lines 441-4048; add 12 to OCR line numbers; the
+    rest not mapped
+  atlas_ids:
+  - the-stone-campbell-restoration-movement
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1847
+    end: 1847
+    source: 'the printing''s own title page: OCR line 91, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1847
+    source: OCR line 91, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 163, Barton W. Stone: his own Biography.'

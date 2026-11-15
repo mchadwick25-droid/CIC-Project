@@ -339,6 +339,19 @@ works:
 
     '
   source_file: michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt
+- row_id: michael-the-syrian_chronique-tome3-livres-xii-xxi-fra_chabot1905--michael-the-syrian-chronicle-books-xii-to-xxi-french
+  work: 'Chronique de Michel le Syrien, tome III: Books XII to XXI, French translation'
+  author: michael-the-syrian
+  locus: Books XII-XXI at about OCR lines 69-19900; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: fra
+  date:
+    formation_confidence: unknown
+    checked: the title page gives his patriarchate (1166-1199), not the years of writing;
+      Chabot's introduction is in tome I
+  note: The Syriac Orthodox patriarch's chronicle from the year 758 on, in Chabot's French.
+  source_file: michael-the-syrian_chronique-tome3-livres-xii-xxi-fra_chabot1905.txt
 - row_id: michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899--chronique-tome-i-books-i-vii-french
   work: Chronique, tome I, Books I-VII (Chabot's French translation, 1899)
   author: michael-the-syrian
@@ -420,8 +433,7 @@ works:
     foremost theologian, in his own words - real administrative and pastoral correspondence
     from a working patriarch and, after his 518 deposition, an exile writing to sustain a
     scattered communion. This is only the Sixth Book of his letters (123 letters survive of
-    it); it is not his complete correspondence - see REGISTRY.yaml for what else exists and
-    is not yet vendored.
+    it); it is not his complete correspondence.
 
     '
   source_file: severus-of-antioch_select-letters-book6-part1_brooks1903.txt
