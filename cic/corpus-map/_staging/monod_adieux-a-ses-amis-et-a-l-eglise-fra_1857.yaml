@@ -1,7 +1,6 @@
 source_file: monod_adieux-a-ses-amis-et-a-l-eglise-fra_1857.txt
 assignments:
-- row_id: monod_adieux-a-ses-amis-et-a-l-eglise-fra_1857--les-adieux-d-adolphe-monod-a-ses-amis-et-a-l-eglise-octobre
-  work: Les Adieux d'Adolphe Monod à ses amis et à l'Église, octobre 1855 à mars 1856
+- work: Les Adieux d'Adolphe Monod à ses amis et à l'Église, octobre 1855 à mars 1856
   author: monod
   locus: the whole volume; not mapped
   atlas_ids:

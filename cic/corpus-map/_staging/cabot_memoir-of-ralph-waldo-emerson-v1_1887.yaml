@@ -1,7 +1,6 @@
 source_file: cabot_memoir-of-ralph-waldo-emerson-v1_1887.txt
 assignments:
-- row_id: cabot_memoir-of-ralph-waldo-emerson-v1_1887--a-memoir-of-ralph-waldo-emerson-by-james-elliot-cabot-in-two
-  work: A Memoir of Ralph Waldo Emerson, by James Elliot Cabot; in two volumes, vol. I
+- work: A Memoir of Ralph Waldo Emerson, by James Elliot Cabot; in two volumes, vol. I
   author: cabot
   locus: the whole volume; not mapped
   atlas_ids:

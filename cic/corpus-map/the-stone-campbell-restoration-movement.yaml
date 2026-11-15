@@ -3,25 +3,6 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-stone-campbell-restoration-movement
 works:
-- row_id: baxter-w_life-of-elder-walter-scott_1874--life-of-elder-walter-scott-with-sketches-of-his-fellow
-  work: Life of Elder Walter Scott, with sketches of his fellow-laborers, William Hayden,
-    Adamson Bentley, John
-  author: baxter-w
-  locus: the whole volume; not mapped
-  role: context
-  confidence: provisional
-  language: eng
-  date:
-    start: 1874
-    end: 1874
-    source: 'the printing''s own title page: line 56, on the title page'
-    formation_confidence: Documented
-  edition_date:
-    year: 1874
-    source: line 56, on the title page
-    formation_confidence: Documented
-  note: 'Era 9 row 227, Walter Scott: a Life told by another.'
-  source_file: baxter-w_life-of-elder-walter-scott_1874.txt
 - row_id: campbell_christian-baptist-v5_bethany1828--the-christian-baptist-published-monthly-edited-by-alexander
   work: The Christian Baptist, published monthly. Edited by Alexander Campbell. Vol. V. Bethany,
     Brooke County, Va.
@@ -112,22 +93,3 @@ works:
     formation_confidence: Documented
   note: 'Era 9 row 163, Barton W. Stone: his own Biography.'
   source_file: stone_biography-of-elder-barton-warren-stone_rogers1847.txt
-- row_id: williams-j-a_life-of-elder-john-smith_1870--life-of-elder-john-smith-with-some-account-of-the-rise-and
-  work: Life of Elder John Smith, with some account of the rise and progress of the current
-    reformation
-  author: williams-j-a
-  locus: the whole volume; not mapped
-  role: context
-  confidence: provisional
-  language: eng
-  date:
-    start: 1870
-    end: 1870
-    source: 'the printing''s own title page: line 58, on the title page'
-    formation_confidence: Documented
-  edition_date:
-    year: 1870
-    source: line 58, on the title page
-    formation_confidence: Documented
-  note: 'Era 9 row 228, ''Raccoon'' John Smith: a Life told by another.'
-  source_file: williams-j-a_life-of-elder-john-smith_1870.txt

@@ -678,9 +678,10 @@ Sixty-one files for 49 person rows of the wanted list, and the date check left o
   (Carlton & Porter, 1857).
 - A "First published" line under the imprint, with a dated introduction and the catalogue's date agreeing, is
   treated like a dated preface (Marchant's Life of Clifford, 1924). The header says so.
-- For Christendom Astray the dated preface (18 December 1883) agrees with the archive.org record's 1884, but
-  that record is a reader's upload and not a library catalogue. The title page names the author as his own publisher, and the
-  text closes with the date 7 December 1883. The header states all of this.
+- Christendom Astray prints no year on its title page, and no library catalogue record stands behind the
+  scan (a reader's upload, which gives 1884). It is dated 1883 from its preface (18 December 1883, read on the
+  page image) and from the text's own closing date (7 December 1883). The header states this, and the point is
+  put to the coordinator.
 - OCR that cannot be read is not taken: Lohe's Neuendettelsau history in German (1907).
 - Shelves follow the principle of 15 November. Nothing is left at `needs-ruling`. Dialogues on Prophecy (1828)
   is `antecedent` on the Catholic Apostolic Church. A church's history by its own officer inside the entry's

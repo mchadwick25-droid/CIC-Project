@@ -40,3 +40,11 @@ works:
     formation_confidence: Documented
   note: 'Era 9 row 198, Nikolai of Japan: a Russian account of the Japan mission.'
   source_file: pravoslavie-v-iaponii_pravoslavie-v-iaponii-rus_1889.txt
+- row_id: uchimura_how-i-became-a-christian_1922--uchimura-how-i-became-a-christian
+  work: Uchimura, How I Became a Christian
+  author: uchimura
+  locus: whole
+  role: tradition
+  confidence: assigned
+  note: His own account in his own English, its preface dated 1895.
+  source_file: uchimura_how-i-became-a-christian_1922.txt

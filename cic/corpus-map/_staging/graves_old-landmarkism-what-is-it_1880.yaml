@@ -1,7 +1,6 @@
 source_file: graves_old-landmarkism-what-is-it_1880.txt
 assignments:
-- row_id: graves_old-landmarkism-what-is-it_1880--old-landmarkism-what-is-it
-  work: 'Old Landmarkism: What Is It?'
+- work: 'Old Landmarkism: What Is It?'
   author: graves
   locus: the whole volume; not mapped
   atlas_ids:

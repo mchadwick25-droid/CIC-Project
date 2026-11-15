@@ -1,7 +1,6 @@
 source_file: hodder_life-and-work-of-seventh-earl-of-shaftesbury-v1_1887.txt
 assignments:
-- row_id: hodder_life-and-work-of-seventh-earl-of-shaftesbury-v1_1887--the-life-and-work-of-the-seventh-earl-of-shaftesbury-k-g-vol
-  work: The Life and Work of the Seventh Earl of Shaftesbury, K.G.; vol. I
+- work: The Life and Work of the Seventh Earl of Shaftesbury, K.G.; vol. I
   author: hodder
   locus: the whole volume; not mapped
   atlas_ids:

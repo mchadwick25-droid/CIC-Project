@@ -1,7 +1,6 @@
 source_file: dialogues-on-prophecy_v1_1828.txt
 assignments:
-- row_id: dialogues-on-prophecy_v1_1828--dialogues-on-prophecy-vol-i
-  work: Dialogues on Prophecy; vol. I
+- work: Dialogues on Prophecy; vol. I
   author: dialogues-on-prophecy
   locus: the whole volume; not mapped
   atlas_ids:

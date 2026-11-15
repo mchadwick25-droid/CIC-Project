@@ -1,7 +1,6 @@
 source_file: elaw_memoirs-of-mrs-zilpha-elaw_1846.txt
 assignments:
-- row_id: elaw_memoirs-of-mrs-zilpha-elaw_1846--memoirs-of-the-life-religious-experience-ministerial-travels
-  work: Memoirs of the Life, Religious Experience, Ministerial Travels and Labours of Mrs. Zilpha Elaw, an American
+- work: Memoirs of the Life, Religious Experience, Ministerial Travels and Labours of Mrs. Zilpha Elaw, an American
   author: elaw
   locus: the whole volume; not mapped
   atlas_ids:

@@ -22,23 +22,3 @@ works:
     formation_confidence: Documented
   note: 'Era 9 row 211, Tiyo Soga: a Life.'
   source_file: chalmers_tiyo-soga-a-page-of-south-african-mission-work_1877.txt
-- row_id: colenso_ten-weeks-in-natal_1855--ten-weeks-in-natal-a-journal-of-a-first-tour-of-visitation
-  work: 'Ten Weeks in Natal: a journal of a first tour of visitation among the colonists and
-    Zulu Kafirs of Natal'
-  author: colenso
-  locus: the journal at lines 1044-10883; extracts from letters of Mrs. Woodrow and others
-    at lines 10918-11391; the rest not mapped
-  role: tradition
-  confidence: provisional
-  language: eng
-  date:
-    start: 1855
-    end: 1855
-    source: 'the printing''s own title page: line 83, on the title page'
-    formation_confidence: Documented
-  edition_date:
-    year: 1855
-    source: line 83, on the title page
-    formation_confidence: Documented
-  note: 'Era 9 row 274, John William Colenso: Ten Weeks in Natal.'
-  source_file: colenso_ten-weeks-in-natal_1855.txt

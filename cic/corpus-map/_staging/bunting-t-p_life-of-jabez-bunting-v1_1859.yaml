@@ -1,7 +1,6 @@
 source_file: bunting-t-p_life-of-jabez-bunting-v1_1859.txt
 assignments:
-- row_id: bunting-t-p_life-of-jabez-bunting-v1_1859--the-life-of-jabez-bunting-d-d-with-notices-of-contemporary
-  work: The Life of Jabez Bunting, D.D., with notices of contemporary persons and events; by his son, Thomas Percival
+- work: The Life of Jabez Bunting, D.D., with notices of contemporary persons and events; by his son, Thomas Percival
   author: bunting-t-p
   locus: the whole volume; not mapped
   atlas_ids:

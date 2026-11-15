@@ -31,6 +31,17 @@ works:
   note: A Jewish traveller's notes on the Christians of Constantinople and the Latin states,
     an outside witness written inside this window.
   source_file: benjamin-tudela_itinerary-heb-eng_adler1907.txt
+- row_id: theodore-studite_epistolae-et-fragmenta-in-nova-patrum-bibliotheca-t8-lat_cozza1871--george-metochites-historia-dogmatica-books-i-and-ii-mai
+  work: George Metochites, Historia dogmatica, books I and II (Mai, Nova Patrum Bibliotheca
+    VIII), Latin
+  author: george-metochites
+  locus: part II, headed Georgii Metochitae diaconi Historiae dogmaticae liber I et II, from
+    about OCR line 100
+  role: tradition
+  confidence: assigned
+  note: George Metochites's own Historia dogmatica, books I and II, in the Latin of the Mai
+    volume. Placed with the same role as Bekkos on this entry.
+  source_file: theodore-studite_epistolae-et-fragmenta-in-nova-patrum-bibliotheca-t8-lat_cozza1871.txt
 - row_id: gregoras_byzantina-historia-v1-grc-lat_schopen1829--nikephoros-gregoras-historia-byzantina-volume-1-greek-and
   work: Nikephoros Gregoras, Historia Byzantina, volume 1, Greek and Latin (Schopen 1829)
   author: gregoras

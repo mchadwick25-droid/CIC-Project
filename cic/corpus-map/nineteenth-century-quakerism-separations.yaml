@@ -42,27 +42,6 @@ works:
     formation_confidence: Documented
   note: 'Era 9 row 170, Joseph John Gurney: the Memoirs, vol. 2.'
   source_file: braithwaite_memoirs-of-joseph-john-gurney-v2_1854.txt
-- row_id: coffin_reminiscences-of-levi-coffin_1876--reminiscences-of-levi-coffin-the-reputed-president-of-the
-  work: Reminiscences of Levi Coffin, the Reputed President of the Underground Railroad; being
-    a brief history of the
-  author: coffin
-  locus: the whole volume; not mapped
-  role: tradition
-  confidence: provisional
-  language: eng
-  date:
-    start: 1876
-    end: 1876
-    source: the copyright notice at lines 73-75 ('in the year 1876, by Levi Coffin'); the
-      archive.org record's date is 1876
-    formation_confidence: Documented
-  edition_date:
-    year: 1876
-    source: the copyright notice at lines 73-75 ('in the year 1876, by Levi Coffin'); the
-      archive.org record's date is 1876
-    formation_confidence: Documented
-  note: 'Era 9 row 245, Levi Coffin: his Reminiscences.'
-  source_file: coffin_reminiscences-of-levi-coffin_1876.txt
 - row_id: gurney_observations-on-the-religious-peculiarities-of-the-society-of-friends_1824--observations-on-the-religious-peculiarities-of-the-society
   work: Observations on the religious peculiarities of the Society of Friends, by Joseph John
     Gurney. 'The kingdom of
@@ -82,25 +61,6 @@ works:
     formation_confidence: Documented
   note: 'Era 9 row 170, Joseph John Gurney: his Observations.'
   source_file: gurney_observations-on-the-religious-peculiarities-of-the-society-of-friends_1824.txt
-- row_id: hallowell_james-and-lucretia-mott-life-and-letters_1884--james-and-lucretia-mott-life-and-letters-edited-by-their
-  work: 'James and Lucretia Mott: Life and Letters; edited by their granddaughter, Anna Davis
-    Hallowell'
-  author: hallowell
-  locus: the whole volume; not mapped
-  role: context
-  confidence: provisional
-  language: eng
-  date:
-    start: 1884
-    end: 1884
-    source: 'the printing''s own title page: line 55, on the title page'
-    formation_confidence: Documented
-  edition_date:
-    year: 1884
-    source: line 55, on the title page
-    formation_confidence: Documented
-  note: 'Era 9 row 244, Lucretia Mott: a Life with her letters.'
-  source_file: hallowell_james-and-lucretia-mott-life-and-letters_1884.txt
 - row_id: hicks_journal-of-the-life-and-religious-labours_1832--journal-of-the-life-and-religious-labours-of-elias-hicks
   work: Journal of the life and religious labours of Elias Hicks. Written by himself
   author: hicks
@@ -140,23 +100,3 @@ works:
     formation_confidence: Documented
   note: 'Era 9 row 169, Elias Hicks: the Orthodox side''s account.'
   source_file: philadelphia-yearly-meeting_declaration-respecting-those-who-have-separated_1828.txt
-- row_id: wilbur_journal-of-the-life-of-john-wilbur_1859--journal-of-the-life-of-john-wilbur-a-minister-of-the-gospel
-  work: Journal of the Life of John Wilbur, a Minister of the Gospel in the Society of Friends;
-    with selections from
-  author: wilbur
-  locus: Appendix of John Wilbur's letters to George Crosfield, 1832, at lines 27072-28607;
-    the rest not mapped
-  role: tradition
-  confidence: provisional
-  language: eng
-  date:
-    start: 1859
-    end: 1859
-    source: 'the printing''s own title page: line 36, on the title page'
-    formation_confidence: Documented
-  edition_date:
-    year: 1859
-    source: line 36, on the title page
-    formation_confidence: Documented
-  note: 'Era 9 row 243, John Wilbur: his Journal.'
-  source_file: wilbur_journal-of-the-life-of-john-wilbur_1859.txt

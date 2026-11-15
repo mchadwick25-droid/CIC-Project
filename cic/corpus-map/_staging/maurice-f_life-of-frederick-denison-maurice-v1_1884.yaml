@@ -1,7 +1,6 @@
 source_file: maurice-f_life-of-frederick-denison-maurice-v1_1884.txt
 assignments:
-- row_id: maurice-f_life-of-frederick-denison-maurice-v1_1884--the-life-of-frederick-denison-maurice-chiefly-told-in-his
-  work: The Life of Frederick Denison Maurice, chiefly told in his own letters; edited by his son Frederick Maurice;
+- work: The Life of Frederick Denison Maurice, chiefly told in his own letters; edited by his son Frederick Maurice;
   author: maurice-f
   locus: the whole volume; not mapped
   atlas_ids:

@@ -1,7 +1,6 @@
 source_file: ashwell_life-of-samuel-wilberforce-v1_1880.txt
 assignments:
-- row_id: ashwell_life-of-samuel-wilberforce-v1_1880--life-of-the-right-reverend-samuel-wilberforce-d-d-lord
-  work: Life of the Right Reverend Samuel Wilberforce, D.D., Lord Bishop of Oxford and afterwards of Winchester,
+- work: Life of the Right Reverend Samuel Wilberforce, D.D., Lord Bishop of Oxford and afterwards of Winchester,
     with
   author: ashwell
   locus: the whole volume; not mapped

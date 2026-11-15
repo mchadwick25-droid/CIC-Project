@@ -1,0 +1,24 @@
+source_file: roberts-robert_christendom-astray_1883.txt
+assignments:
+- work: 'Christendom Astray: or, Popular Theology (both in faith and practice) shewn to be unscriptural; and the
+    true'
+  author: roberts-robert
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - christadelphians
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1883
+    end: 1883
+    source: the preface, dated 18 December 1883 on the page image (leaf n6), and the text's own closing date of
+      7 December 1883 (line 24946)
+    formation_confidence: Documented
+  edition_date:
+    year: 1883
+    source: the preface, dated 'Birmingham, December 18, 1883' on the scan's page image, leaf n6 (the OCR at line
+      290 prints 1888); the text itself closes 'December 7th, 1883' at line 24946; no library catalogue record stands
+      behind this scan, and the archive.org record, a reader's upload, gives 1884
+    formation_confidence: Documented
+  note: 'Era 9 row 254, Robert Roberts: Christendom Astray.'

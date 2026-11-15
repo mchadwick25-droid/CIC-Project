@@ -1,7 +1,6 @@
 source_file: ward-wilfrid_life-and-times-of-cardinal-wiseman-v1_1897.txt
 assignments:
-- row_id: ward-wilfrid_life-and-times-of-cardinal-wiseman-v1_1897--the-life-and-times-of-cardinal-wiseman-in-two-volumes-vol-i
-  work: The Life and Times of Cardinal Wiseman; in two volumes, vol. I
+- work: The Life and Times of Cardinal Wiseman; in two volumes, vol. I
   author: ward-wilfrid
   locus: the whole volume; not mapped
   atlas_ids:

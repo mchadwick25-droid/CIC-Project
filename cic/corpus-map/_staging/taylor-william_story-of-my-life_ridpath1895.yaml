@@ -1,7 +1,6 @@
 source_file: taylor-william_story-of-my-life_ridpath1895.txt
 assignments:
-- row_id: taylor-william_story-of-my-life_ridpath1895--story-of-my-life-an-account-of-what-i-have-thought-and-said
-  work: 'Story of My Life: an account of what I have thought and said and done in my ministry of more than fifty-three'
+- work: 'Story of My Life: an account of what I have thought and said and done in my ministry of more than fifty-three'
   author: taylor-william
   locus: the whole volume; not mapped
   atlas_ids:

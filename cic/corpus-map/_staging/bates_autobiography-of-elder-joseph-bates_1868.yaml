@@ -1,7 +1,6 @@
 source_file: bates_autobiography-of-elder-joseph-bates_1868.txt
 assignments:
-- row_id: bates_autobiography-of-elder-joseph-bates_1868--the-autobiography-of-elder-joseph-bates-embracing-a-long
-  work: The Autobiography of Elder Joseph Bates; embracing a long life on shipboard, with sketches of voyages on
+- work: The Autobiography of Elder Joseph Bates; embracing a long life on shipboard, with sketches of voyages on
     the
   author: bates
   locus: the whole volume; not mapped

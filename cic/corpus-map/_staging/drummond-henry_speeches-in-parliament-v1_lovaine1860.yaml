@@ -1,7 +1,6 @@
 source_file: drummond-henry_speeches-in-parliament-v1_lovaine1860.txt
 assignments:
-- row_id: drummond-henry_speeches-in-parliament-v1_lovaine1860--speeches-in-parliament-and-some-miscellaneous-pamphlets-of
-  work: Speeches in Parliament and Some Miscellaneous Pamphlets of the late Henry Drummond, Esq.; edited by Lord
+- work: Speeches in Parliament and Some Miscellaneous Pamphlets of the late Henry Drummond, Esq.; edited by Lord
   author: drummond-henry
   locus: the editor's Introductory Notice of Henry Drummond's life and political career at lines 51-314; the rest
     not mapped

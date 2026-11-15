@@ -1,7 +1,6 @@
 source_file: groen-van-prinsterer_ongeloof-en-revolutie-nld_2e-uitg1868.txt
 assignments:
-- row_id: groen-van-prinsterer_ongeloof-en-revolutie-nld_2e-uitg1868--ongeloof-en-revolutie-eene-reeks-van-historische
-  work: 'Ongeloof en Revolutie: eene reeks van historische voorlezingen; tweede uitgaaf'
+- work: 'Ongeloof en Revolutie: eene reeks van historische voorlezingen; tweede uitgaaf'
   author: groen-van-prinsterer
   locus: the whole volume; not mapped
   atlas_ids:

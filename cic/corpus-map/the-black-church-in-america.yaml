@@ -3,45 +3,6 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-black-church-in-america
 works:
-- row_id: elaw_memoirs-of-mrs-zilpha-elaw_1846--memoirs-of-the-life-religious-experience-ministerial-travels
-  work: Memoirs of the Life, Religious Experience, Ministerial Travels and Labours of Mrs.
-    Zilpha Elaw, an American
-  author: elaw
-  locus: the whole volume; not mapped
-  role: tradition
-  confidence: provisional
-  language: eng
-  date:
-    start: 1846
-    end: 1846
-    source: 'the printing''s own title page: read on the scan''s page image, leaf n1 (the
-      title page prints 1846; the OCR does not give it)'
-    formation_confidence: Documented
-  edition_date:
-    year: 1846
-    source: read on the scan's page image, leaf n1 (the title page prints 1846; the OCR does
-      not give it)
-    formation_confidence: Documented
-  note: 'Era 9 row 231, Zilpha Elaw: her Memoirs.'
-  source_file: elaw_memoirs-of-mrs-zilpha-elaw_1846.txt
-- row_id: foote_brand-plucked-from-the-fire_1879--a-brand-plucked-from-the-fire-an-autobiographical-sketch
-  work: 'A Brand Plucked from the Fire: an autobiographical sketch'
-  author: foote
-  locus: the whole volume; not mapped
-  role: tradition
-  confidence: provisional
-  language: eng
-  date:
-    start: 1879
-    end: 1879
-    source: 'the printing''s own title page: line 62, on the title page'
-    formation_confidence: Documented
-  edition_date:
-    year: 1879
-    source: line 62, on the title page
-    formation_confidence: Documented
-  note: 'Era 9 row 232, Julia Foote: A Brand Plucked from the Fire.'
-  source_file: foote_brand-plucked-from-the-fire_1879.txt
 - row_id: humphreys_historical-account-of-the-spg_1730--an-historical-account-of-the-s-p-g-1730-the-chapters-on-the
   work: An Historical Account of the S.P.G. (1730), the chapters on the instruction of Negroes
     and the Codrington bequest
@@ -63,67 +24,6 @@ works:
     these are its earliest own-voice texts. Provisional; David George's narrative is under
     his own slug in the row above.
   source_file: rippon_baptist-annual-register-1790-1793_1793.txt
-- row_id: payne_history-of-the-african-methodist-episcopal-church-v1_1891--history-of-the-african-methodist-episcopal-church-edited-by
-  work: History of the African Methodist Episcopal Church; edited by Rev. C. S. Smith (vol.
-    I)
-  author: payne
-  locus: the outline of Daniel Coker's life and character at lines 5500-5700; the rest not
-    mapped
-  role: tradition
-  confidence: provisional
-  language: eng
-  date:
-    start: 1891
-    end: 1891
-    source: 'the printing''s own title page: line 77, on the title page'
-    formation_confidence: Documented
-  edition_date:
-    year: 1891
-    source: line 77, on the title page
-    formation_confidence: Documented
-  note: 'Era 9 row 230, Daniel Coker: Payne''s history of his church, which tells of Coker
-    (Coker''s own Dialogue and Journal were not found in print).'
-  source_file: payne_history-of-the-african-methodist-episcopal-church-v1_1891.txt
-- row_id: rush_short-account-rise-and-progress-african-me-church_1843--a-short-account-of-the-rise-and-progress-of-the-african
-  work: A Short Account of the Rise and Progress of the African Methodist Episcopal Church
-    in America; written by
-  author: rush
-  locus: the election of Abraham Thompson and James Varick as Elders on October 1st, 1820,
-    at lines 1754-1778; the rest not mapped
-  role: tradition
-  confidence: provisional
-  language: eng
-  date:
-    start: 1843
-    end: 1843
-    source: 'the printing''s own title page: line 126, on the title page'
-    formation_confidence: Documented
-  edition_date:
-    year: 1843
-    source: line 126, on the title page
-    formation_confidence: Documented
-  note: 'Era 9 row 238, James Varick: Rush''s Short Account of the African Methodist Episcopal
-    Church.'
-  source_file: rush_short-account-rise-and-progress-african-me-church_1843.txt
-- row_id: smith-amanda_autobiography-story-of-the-lords-dealings_1893--an-autobiography-the-story-of-the-lord-s-dealings-with-mrs
-  work: 'An Autobiography: the story of the Lord''s dealings with Mrs. Amanda Smith, the colored
-    evangelist; with an'
-  author: smith-amanda
-  locus: the whole volume; not mapped
-  role: tradition
-  confidence: provisional
-  language: eng
-  date:
-    start: 1893
-    end: 1893
-    source: 'the printing''s own title page: line 54, on the title page'
-    formation_confidence: Documented
-  edition_date:
-    year: 1893
-    source: line 54, on the title page
-    formation_confidence: Documented
-  note: 'Era 9 row 233, Amanda Berry Smith: her Autobiography.'
-  source_file: smith-amanda_autobiography-story-of-the-lords-dealings_1893.txt
 - row_id: spirit-of-missions_v39-1874-12-haiti-triennial-report_1874--holly-triennial-report-of-the-missionary-jurisdiction-of-haiti-in-the-
   work: Holly, Triennial Report of the Missionary Jurisdiction of Haiti, in The Spirit of
     Missions, December 1874

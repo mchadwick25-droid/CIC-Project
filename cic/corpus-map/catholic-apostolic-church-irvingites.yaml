@@ -3,68 +3,6 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: catholic-apostolic-church-irvingites
 works:
-- row_id: cardale_readings-upon-the-liturgy_1851--readings-upon-the-liturgy-and-other-divine-offices-of-the
-  work: 'Readings upon the Liturgy and Other Divine Offices of the Church: on the Eucharist,
-    and daily offices'
-  author: cardale
-  locus: the whole volume; not mapped
-  role: tradition
-  confidence: provisional
-  language: eng
-  date:
-    start: 1848
-    end: 1851
-    source: the part title pages inside the volume, dated 1848 and 1849, and the general title
-      page, dated 1851
-    formation_confidence: Documented
-  edition_date:
-    year: 1851
-    source: line 66, on the title page
-    formation_confidence: Documented
-  note: 'Era 9 row 256, John Bate Cardale: Readings upon the Liturgy. The title page names
-    no author; the archive.org record names Cardale.'
-  source_file: cardale_readings-upon-the-liturgy_1851.txt
-- row_id: dialogues-on-prophecy_v1_1828--dialogues-on-prophecy-vol-i
-  work: Dialogues on Prophecy; vol. I
-  author: dialogues-on-prophecy
-  locus: the whole volume; not mapped
-  role: antecedent
-  confidence: provisional
-  language: eng
-  date:
-    start: 1828
-    end: 1828
-    source: 'the printing''s own title page: line 91, on the title page'
-    formation_confidence: Documented
-  edition_date:
-    year: 1828
-    source: line 91, on the title page
-    formation_confidence: Documented
-  note: 'Era 9 row 257, Henry Drummond: Dialogues on Prophecy, vol. 1 (the volume names no
-    author and no place of meeting).'
-  source_file: dialogues-on-prophecy_v1_1828.txt
-- row_id: drummond-henry_speeches-in-parliament-v1_lovaine1860--speeches-in-parliament-and-some-miscellaneous-pamphlets-of
-  work: Speeches in Parliament and Some Miscellaneous Pamphlets of the late Henry Drummond,
-    Esq.; edited by Lord
-  author: drummond-henry
-  locus: the editor's Introductory Notice of Henry Drummond's life and political career at
-    lines 51-314; the rest not mapped
-  role: tradition
-  confidence: provisional
-  language: eng
-  date:
-    start: 1860
-    end: 1860
-    source: 'the printing''s own title page: line 41, on the title page, where the OCR reads
-      ''I860'''
-    formation_confidence: Documented
-  edition_date:
-    year: 1860
-    source: line 41, on the title page, where the OCR reads 'I860'
-    formation_confidence: Documented
-  note: 'Era 9 row 257, Henry Drummond: his speeches in Parliament, with a sketch of his political
-    career (vol. 1).'
-  source_file: drummond-henry_speeches-in-parliament-v1_lovaine1860.txt
 - row_id: irving_collected-writings-v5_carlyle1866--the-collected-writings-of-edward-irving-edited-by-his-nephew
   work: The Collected Writings of Edward Irving. Edited by his nephew the Rev. G. Carlyle,
     M.A. In five volumes. Vol.
@@ -83,29 +21,6 @@ works:
     formation_confidence: Documented
   note: 'Era 9 row 179, Edward Irving: his collected writings, vol. 5.'
   source_file: irving_collected-writings-v5_carlyle1866.txt
-- row_id: miller-edward_history-and-doctrines-of-irvingism-v1_1878--the-history-and-doctrines-of-irvingism-or-of-the-so-called
-  work: The History and Doctrines of Irvingism, or of the so-called Catholic and Apostolic
-    Church; vol. I
-  author: miller-edward
-  locus: Mary Campbell of Fernicarry and her speaking in a tongue at lines 2335-2402; the
-    Macdonalds of Port Glasgow and Margaret Macdonald's rising from her sick bed at lines
-    2404-2522; the rest not mapped
-  role: context
-  confidence: provisional
-  language: eng
-  date:
-    start: 1877
-    end: 1878
-    source: the preface's date of 1877 and the archive.org record's date of 1878
-    formation_confidence: Documented
-  edition_date:
-    year: 1878
-    source: the preface, dated 'Christmas Eve, 1877' (line 236); the library catalogue's date
-      is 1878 (Princeton Theological Seminary Library, on the archive.org record)
-    formation_confidence: Documented
-  note: 'Era 9 row 255, Mary Campbell and Margaret Macdonald: an outside history that tells
-    of 1830 (vol. 1).'
-  source_file: miller-edward_history-and-doctrines-of-irvingism-v1_1878.txt
 - row_id: oliphant_life-of-edward-irving-v2_1862--the-life-of-edward-irving-by-mrs-oliphant-vol-ii
   work: The Life of Edward Irving ... by Mrs. Oliphant. Vol. II
   author: oliphant
@@ -145,24 +60,3 @@ works:
     formation_confidence: Documented
   note: 'Era 9 row 179, Edward Irving: a Life (vol. 1).'
   source_file: oliphant_life-of-edward-irving-v1_1862.txt
-- row_id: story_memoir-of-the-life-of-the-rev-robert-story_1862--memoir-of-the-life-of-the-rev-robert-story-late-minister-of
-  work: Memoir of the Life of the Rev. Robert Story, late Minister of Rosneath, Dunbartonshire
-  author: story
-  locus: chapter V, 'Mary Campbell, Gifts, Irving', at lines 8219-10073; letter from Mary
-    Campbell to Mr. Story at lines 8442-8711; the M'Donald family of Port Glasgow and the
-    healing of the sister, whose name is left blank, at lines 8739-8792; the rest not mapped
-  role: context
-  confidence: provisional
-  language: eng
-  date:
-    start: 1862
-    end: 1862
-    source: 'the printing''s own title page: line 139, on the title page'
-    formation_confidence: Documented
-  edition_date:
-    year: 1862
-    source: line 139, on the title page
-    formation_confidence: Documented
-  note: 'Era 9 row 255, Mary Campbell and Margaret Macdonald: the Life of Mary Campbell''s
-    minister.'
-  source_file: story_memoir-of-the-life-of-the-rev-robert-story_1862.txt

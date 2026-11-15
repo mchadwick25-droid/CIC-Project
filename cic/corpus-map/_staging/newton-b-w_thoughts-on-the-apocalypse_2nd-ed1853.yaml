@@ -1,7 +1,6 @@
 source_file: newton-b-w_thoughts-on-the-apocalypse_2nd-ed1853.txt
 assignments:
-- row_id: newton-b-w_thoughts-on-the-apocalypse_2nd-ed1853--thoughts-on-the-apocalypse-second-edition
-  work: Thoughts on the Apocalypse; second edition
+- work: Thoughts on the Apocalypse; second edition
   author: newton-b-w
   locus: the whole volume; not mapped
   atlas_ids:

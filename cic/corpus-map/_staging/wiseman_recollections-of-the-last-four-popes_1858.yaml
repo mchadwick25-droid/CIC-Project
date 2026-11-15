@@ -1,7 +1,6 @@
 source_file: wiseman_recollections-of-the-last-four-popes_1858.txt
 assignments:
-- row_id: wiseman_recollections-of-the-last-four-popes_1858--recollections-of-the-last-four-popes-and-of-rome-in-their
-  work: Recollections of the Last Four Popes and of Rome in their Times
+- work: Recollections of the Last Four Popes and of Rome in their Times
   author: wiseman
   locus: the whole volume; not mapped
   atlas_ids:

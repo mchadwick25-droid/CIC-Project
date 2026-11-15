@@ -1,7 +1,6 @@
 source_file: hallowell_james-and-lucretia-mott-life-and-letters_1884.txt
 assignments:
-- row_id: hallowell_james-and-lucretia-mott-life-and-letters_1884--james-and-lucretia-mott-life-and-letters-edited-by-their
-  work: 'James and Lucretia Mott: Life and Letters; edited by their granddaughter, Anna Davis Hallowell'
+- work: 'James and Lucretia Mott: Life and Letters; edited by their granddaughter, Anna Davis Hallowell'
   author: hallowell
   locus: the whole volume; not mapped
   atlas_ids:

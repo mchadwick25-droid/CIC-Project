@@ -1,7 +1,6 @@
 source_file: sheldon_in-his-steps_1897.txt
 assignments:
-- row_id: sheldon_in-his-steps_1897--in-his-steps-what-would-jesus-do
-  work: 'In His Steps: ''What Would Jesus Do?'''
+- work: 'In His Steps: ''What Would Jesus Do?'''
   author: sheldon
   locus: the whole volume; not mapped
   atlas_ids:

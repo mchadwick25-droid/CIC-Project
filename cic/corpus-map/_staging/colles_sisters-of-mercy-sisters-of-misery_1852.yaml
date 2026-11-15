@@ -1,7 +1,6 @@
 source_file: colles_sisters-of-mercy-sisters-of-misery_1852.txt
 assignments:
-- row_id: colles_sisters-of-mercy-sisters-of-misery_1852--sisters-of-mercy-sisters-of-misery-or-miss-sellon-in-the
-  work: 'Sisters of Mercy, Sisters of Misery: or, Miss Sellon in the Family'
+- work: 'Sisters of Mercy, Sisters of Misery: or, Miss Sellon in the Family'
   author: colles
   locus: the whole volume; not mapped
   atlas_ids:

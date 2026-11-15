@@ -1,7 +1,6 @@
 source_file: stead_welsh-revival-narrative-of-facts_boston1905.txt
 assignments:
-- row_id: stead_welsh-revival-narrative-of-facts_boston1905--the-welsh-revival-i-a-narrative-of-facts-by-w-t-stead-ii-the
-  work: 'The Welsh Revival: I. A Narrative of Facts, by W. T. Stead; II. The Revival: its Power and Source, by G.'
+- work: 'The Welsh Revival: I. A Narrative of Facts, by W. T. Stead; II. The Revival: its Power and Source, by G.'
   author: stead
   locus: 'Stead''s chapter IV, ''Evan Roberts'', at lines 2040-2789; Morgan''s ''The Revival: Its Power and Source''
     at lines 3255-3591; the rest not mapped'

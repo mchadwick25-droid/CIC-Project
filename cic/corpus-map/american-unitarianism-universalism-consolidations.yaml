@@ -20,24 +20,6 @@ works:
   note: The pamphlet that set off the controversy leading to Channing's 1819 sermon and the
     AUA.
   source_file: belsham_american-unitarianism-brief-history_1815.txt
-- row_id: cabot_memoir-of-ralph-waldo-emerson-v1_1887--a-memoir-of-ralph-waldo-emerson-by-james-elliot-cabot-in-two
-  work: A Memoir of Ralph Waldo Emerson, by James Elliot Cabot; in two volumes, vol. I
-  author: cabot
-  locus: the whole volume; not mapped
-  role: context
-  confidence: provisional
-  language: eng
-  date:
-    start: 1887
-    end: 1887
-    source: 'the printing''s own title page: line 203, on the title page'
-    formation_confidence: Documented
-  edition_date:
-    year: 1887
-    source: line 203, on the title page
-    formation_confidence: Documented
-  note: 'Era 9 row 261, Ralph Waldo Emerson: a Life told by another (vol. 1).'
-  source_file: cabot_memoir-of-ralph-waldo-emerson-v1_1887.txt
 - row_id: channing_sermon-at-the-ordination-of-jared-sparks-baltimore_1819--a-sermon-delivered-at-the-ordination-of-the-rev-jared-sparks
   work: A Sermon delivered at the Ordination of the Rev. Jared Sparks (1819)
   author: channing
@@ -47,25 +29,6 @@ works:
   note: The opening text of the consolidation era (1819 onward); provisional pending that
     world's own build.
   source_file: channing_sermon-at-the-ordination-of-jared-sparks-baltimore_1819.txt
-- row_id: emerson_address-before-the-senior-class-in-divinity-college_1838--an-address-delivered-before-the-senior-class-in-divinity
-  work: An Address delivered before the Senior Class in Divinity College, Cambridge, Sunday
-    evening, 15 July, 1838
-  author: emerson
-  locus: the whole volume; not mapped
-  role: tradition
-  confidence: provisional
-  language: eng
-  date:
-    start: 1838
-    end: 1838
-    source: 'the printing''s own title page: line 37, on the title page'
-    formation_confidence: Documented
-  edition_date:
-    year: 1838
-    source: line 37, on the title page
-    formation_confidence: Documented
-  note: 'Era 9 row 261, Ralph Waldo Emerson: the Address of 1838.'
-  source_file: emerson_address-before-the-senior-class-in-divinity-college_1838.txt
 - row_id: parker_discourse-of-matters-pertaining-to-religion_3rd-ed1847--a-discourse-of-matters-pertaining-to-religion-by-theodore
   work: 'A Discourse of Matters Pertaining to Religion. By Theodore Parker. Third Edition.
     Boston: Charles C. Little'
@@ -106,29 +69,6 @@ works:
     formation_confidence: Documented
   note: 'Era 9 row 184, Theodore Parker: his sermons.'
   source_file: parker_ten-sermons-of-religion_2nd-ed1861.txt
-- row_id: tiffany_life-of-dorothea-lynde-dix_1890--life-of-dorothea-lynde-dix-the-title-author-and-publisher
-  work: Life of Dorothea Lynde Dix (the title, author and publisher are from the archive.org
-    record)
-  author: tiffany
-  locus: the whole volume; not mapped
-  role: context
-  confidence: provisional
-  language: eng
-  date:
-    start: 1890
-    end: 1890
-    source: 'the preface, signed ''Cambridge, Mass., February 16, 1890'' (line 292), with
-      which the library catalogue''s date agrees (University of California Libraries, on the
-      archive.org record: [1890])'
-    formation_confidence: Documented
-  edition_date:
-    year: 1890
-    source: 'the preface, signed ''Cambridge, Mass., February 16, 1890'' (line 292), with
-      which the library catalogue''s date agrees (University of California Libraries, on the
-      archive.org record: [1890])'
-    formation_confidence: Documented
-  note: 'Era 9 row 262, Dorothea Dix: a Life told by another.'
-  source_file: tiffany_life-of-dorothea-lynde-dix_1890.txt
 - row_id: weiss_life-and-correspondence-of-theodore-parker-v2_1864--life-and-correspondence-of-theodore-parker-by-john-weiss-in
   work: 'Life and Correspondence of Theodore Parker ... By John Weiss. In two volumes. Vol.
     II. New York: D. Appleton'

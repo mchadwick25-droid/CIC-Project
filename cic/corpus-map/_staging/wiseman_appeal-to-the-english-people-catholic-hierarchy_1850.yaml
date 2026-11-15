@@ -1,7 +1,6 @@
 source_file: wiseman_appeal-to-the-english-people-catholic-hierarchy_1850.txt
 assignments:
-- row_id: wiseman_appeal-to-the-english-people-catholic-hierarchy_1850--an-appeal-to-the-reason-and-good-feeling-of-the-english
-  work: An Appeal to the Reason and Good Feeling of the English People on the Subject of the Catholic Hierarchy
+- work: An Appeal to the Reason and Good Feeling of the English People on the Subject of the Catholic Hierarchy
   author: wiseman
   locus: the whole volume; not mapped
   atlas_ids:

@@ -20,10 +20,9 @@ works:
   author: agnes-prague
   locus: the Latin Legend from about OCR line 3396; add 12 to OCR line numbers
   role: context
-  confidence: needs-ruling
+  confidence: assigned
   note: The Legend's own heading gives no date. Seton dates its composition 1282-1328 and
-    the copy he prints to the fourteenth century; whether it falls inside this window is for
-    the tree to rule on.
+    the copy he prints to the fourteenth century.
   source_file: agnes-prague_some-new-sources-for-the-life-of-blessed-agnes-of-bohemia_seton1915.txt
 - row_id: bonaventure_tria-opuscula-breviloquium-itinerarium-de-reductione-lat_quaracchi1911--tria-opuscula
   work: Bonaventure, Breviloquium, Itinerarium mentis in Deum and De reductione artium ad
@@ -59,10 +58,15 @@ works:
   author: clare-assisi
   locus: about OCR lines 136330-136900; add 12 to OCR line numbers
   role: tradition
-  confidence: needs-ruling
-  note: Clare's letters as the Bollandists printed them, in a Latin version made by Joannes
-    Tannerus. The wording is the translator's, not hers, so no phrase can be quoted as Clare's
-    Latin.
+  confidence: assigned
+  translator:
+    name: Joannes Tannerus (Latin version of Clare's four letters to Agnes)
+    source: 'acta-sanctorum_martii-tomus-1-lat_palme1865.txt line 135866: quas a se Latine
+      redditas transmisit Joannes Tannerus'
+    formation_confidence: Documented
+  note: 'Clare''s letters as the Bollandists printed them, in a Latin version made by Joannes
+    Tannerus. A translation: the wording is the translator''s, not hers, so no phrase is quoted
+    as Clare''s own Latin.'
   source_file: acta-sanctorum_martii-tomus-1-lat_palme1865.txt
 - row_id: clare-assisi_life-of-saint-clare-ascribed-to-thomas-of-celano_robinson1910--the-life-of-saint-clare-ascribed-to-thomas-of-celano-with-her-ru
   work: The Life of Saint Clare ascribed to Thomas of Celano, with her Rule (Robinson 1910)
@@ -141,9 +145,9 @@ works:
   author: leo-assisi
   locus: the whole volume
   role: tradition
-  confidence: needs-ruling
-  note: The writings attributed to Francis's companion Leo. Their date and attribution are
-    for the tree to rule on.
+  confidence: assigned
+  note: The writings attributed to Francis's companion Leo. Their date, and their attribution
+    to Leo, are contested.
   source_file: leo-assisi_scripta-fratris-leonis-lat_lemmens1901.txt
 - row_id: salimbene_from-st-francis-to-dante_coulton1907--salimbene-extracts-from-the-chronicle-english-coulton-1907
   work: Salimbene, extracts from the Chronicle, English (Coulton 1907)
@@ -159,22 +163,19 @@ works:
   author: speculum-perfectionis
   locus: the Latin text from about OCR line 12409; add 12 to OCR line numbers
   role: tradition
-  confidence: needs-ruling
-  note: 'The Latin of the Speculum perfectionis, placed as the held English of Evans 1899
-    is: its date of writing and its attribution to Leo are contested, and it sits between
-    the Franciscan Movement entry (to 1300) and the Spirituals entries.'
+  confidence: assigned
+  note: The Latin of the Speculum perfectionis. Its date of writing and its attribution to
+    Leo are contested.
   source_file: speculum-perfectionis_speculum-perfectionis-lat_sabatier1898.txt
 - row_id: speculum-perfectionis_mirror-of-perfection_evans1899--the-mirror-of-perfection-speculum-perfectionis-english-by
   work: The Mirror of Perfection (Speculum perfectionis), English by Sebastian Evans (1899)
   author: speculum-perfectionis
   locus: Whole file
   role: tradition
-  confidence: needs-ruling
-  note: Placed needs-ruling because the text is contested in date or attribution and sits
-    between the Franciscan Movement world (to 1300) and the Spirituals worlds. The English
-    of Sabatier's 1898 Latin edition. Sabatier's attribution to Leo and his early date are
-    contested; the text is read as a Spiritual-circle witness to Francis's poverty. Clean
-    OCR. Sabatier's Latin is not vendored (garbled OCR).
+  confidence: assigned
+  note: The English of Sabatier's 1898 Latin edition. Sabatier's attribution to Leo and his
+    early date are contested; the text is read as a Spiritual-circle witness to Francis's
+    poverty. Clean OCR. Sabatier's Latin is held separately.
   source_file: speculum-perfectionis_mirror-of-perfection_evans1899.txt
 - row_id: thomas-celano_vita-et-miracula-sancti-francisci-lat_d-alencon1906--thomas-of-celano-vita-prima-vita-secunda-and-tractatus-de-miracu
   work: Thomas of Celano, Vita prima, Vita secunda and Tractatus de miraculis (d'Alençon 1906)

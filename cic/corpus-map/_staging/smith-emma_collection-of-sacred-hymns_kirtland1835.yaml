@@ -1,7 +1,6 @@
 source_file: smith-emma_collection-of-sacred-hymns_kirtland1835.txt
 assignments:
-- row_id: smith-emma_collection-of-sacred-hymns_kirtland1835--a-collection-of-sacred-hymns-for-the-church-of-the-latter
-  work: A Collection of Sacred Hymns, for the Church of the Latter Day Saints; selected by Emma Smith
+- work: A Collection of Sacred Hymns, for the Church of the Latter Day Saints; selected by Emma Smith
   author: smith-emma
   locus: the whole volume; not mapped
   atlas_ids:

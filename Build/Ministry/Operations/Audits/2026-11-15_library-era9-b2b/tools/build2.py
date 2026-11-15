@@ -73,6 +73,7 @@ for l in open(f"{S}/tools/table.txt"):
         hr = "the archive.org record's rights statement reads: " + re.sub(r"<[^>]+>", "", clean(m["rights"]))[:300]
     else:
         hr = "the archive.org record carries no rights field, so the imprint date is the basis"
+    if o.get("hr"): hr = o["hr"]
     lang = o.get("language") or LANG.get(clean(p["language"])[:3].lower()); assert lang, (i, p["language"])
     title = o.get("title") or clean(p["title_page_words"]).rstrip(".")
     creator = o.get("creator") or clean(p["author_as_printed"])
