@@ -8,7 +8,7 @@ session_01JMNsSAmN1HUCBWPQWS4gro; batch reports also go to session_01JMNsSD4wzPQ
 
 ## State after batch 1 (second session, session_01JMNsSDAHDEA8fp5UjRHuYa)
 
-Batch 1, the global files, is done on `claude/library-era8-1`: 31 files vendored (Africa, Egypt, Ethiopia, Latin
+Batch 1, the global files, is done on `claude/library-era8-1`: 30 files vendored (Africa, Egypt, Ethiopia, Latin
 America, Asia). Its records: `Search_Log.md`, `R1_review.md`, `R1_changes.md`, `R2_recheck.md`,
 `Mapper_Reports_batch1.md`, and the "Era 8 (1650-1815), batch 1" section of
 `Build/Ministry/Features/Source-Library/CFT-Wants.md`. The two tables below headed "Africa, Latin America, Coptic,
@@ -21,6 +21,9 @@ leaves finds the title leaf, then a crop of the imprint); `MAPPER_BRIEF.md` for 
 each, who hand back contents maps; `mkspec1.py` as the spec; `intake.py` (it now writes `authors_ruled`); the
 recipe below. A slug that is not a filename prefix needs an `authors_ruled` entry. A process note or a date in a
 header's rights line fails `check_live_commentary.py`; keep rulings in the Search_Log.
+
+Before vendoring, list `origin/main`'s `cic/texts/` again: the era 9 Library thread works the same day and took
+Butcher's vol. 2 while batch 1 was in review.
 
 Carried into batch 2:
 - Parry, Six Months in a Syrian Monastery (1895): take the Google scan `sixmonthsinasyr00parrgoog` (not fetched

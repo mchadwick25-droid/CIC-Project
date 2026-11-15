@@ -3,6 +3,22 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-coptic-church-under-the-ottomans
 works:
+- row_id: butcher_story-of-the-church-of-egypt-v2_1897--butcher-story-of-the-church-of-egypt-vol-2-ottoman-years
+  work: 'Butcher, The Story of the Church of Egypt, vol. II: the Ottoman years, 1517-1854'
+  author: butcher
+  locus: chapters XXXII-XL at OCR lines 9081-15241; the first Roman Catholic metropolitan
+    (1741) at 12592-12622; Ibrahim al-Jawhari in a footnote at 13292-13299; add 12 to OCR
+    line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1897
+    end: 1897
+    source: 'title page: 1897 (OCR line 48)'
+    formation_confidence: Documented
+  note: An English writer's history of the Copts down to 1897. A secondary account by an outsider.
+  source_file: butcher_story-of-the-church-of-egypt-v2_1897.txt
 - row_id: jabarti_merveilles-biographiques-et-historiques-t5-fra_1890--jabarti-chronicle-1202-1212-french-with-obituary-of-ibrahim-al-jawhari
   work: al-Jabarti, Aja'ib al-athar, the years 1202-1212 AH, French (Cairo 1890), with the
     obituary of Ibrahim al-Jawhari

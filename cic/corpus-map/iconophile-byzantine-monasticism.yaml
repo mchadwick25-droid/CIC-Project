@@ -21,6 +21,22 @@ works:
   note: The second half of the council's acts, with its definition and canons. Only the Latin
     can be read in this OCR. The later councils in the volume are not placed.
   source_file: mansi_sacrorum-conciliorum-collectio-tomus-13-lat_welter-facsimile1902.txt
+- row_id: mendham_seventh-general-council-second-of-nicaea_1850--second-council-of-nicaea-acts-english-mendham-1850
+  work: The Second Council of Nicaea (787), acts in English (Mendham 1850)
+  author: council-of-nicaea-787
+  locus: the acts at about OCR lines 5971-30890; Mendham's introduction at about 499-4169;
+    add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 787
+    end: 787
+    source: 'title page: ''held A.D. 787'''
+    formation_confidence: Documented
+  note: The council's acts in English. The translator's introduction and notes are his own
+    and stand on the same pages.
+  source_file: mendham_seventh-general-council-second-of-nicaea_1850.txt
 - row_id: npnf214_seven-ecumenical-councils--the-second-council-of-nicaea-787-extracts-from-the-acts
   work: 'The Second Council of Nicaea (787): Extracts from the Acts, Decree, Canons'
   author: council-of-nicaea-787
@@ -37,6 +53,20 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
+- row_id: john-damascus_on-holy-images-with-three-sermons-on-the-assumption_allies1898--john-of-damascus-on-holy-images-english-allies-1898
+  work: John of Damascus, On Holy Images, English (Allies 1898)
+  author: john-damascus
+  locus: Parts I-III at about OCR lines 197-4773; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: the title page and the opening of the translator's preface (OCR lines 17-60)
+      give no year for the treatises
+  note: The three treatises against those who attack the holy images, in English. The Greek
+    is held in PG 94.
+  source_file: john-damascus_on-holy-images-with-three-sermons-on-the-assumption_allies1898.txt
 - row_id: john-damascus_opera-omnia-t1-with-vita-pg94-grc-lat_migne1860--john-of-damascus-works-pg-94
   work: John of Damascus, works (PG 94)
   author: john-damascus

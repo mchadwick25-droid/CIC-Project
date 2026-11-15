@@ -2155,6 +2155,14 @@ authors:
       his letter on the capture of the City is at file line 54400; the file's leading slug
       is chalcocondyles.
     from_file: chalcocondyles_historiarum-libri-x-with-isidore-leonard-plusiadenos-pg159-grc-lat_migne1866.txt
+  leontius-of-mar-saba:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author.
+      The Life''s own heading names him (file line 105585): ''Auctore Leontio sancti discipulo''.
+      A mechanical index-coverage gap, not an attribution dispute.
+
+      '
+    from_file: acta-sanctorum_julii-tomus-3-lat-grc_palme1868.txt
   letter-churches-lyons-vienne:
     kind: anonymous
     evidence: 'div2 10.16 "Pseud-Irenaeus" — the section itself explains the piece is the
@@ -3660,6 +3668,15 @@ authors:
 
       '
     from_file: visigothic-code-forum-judicum_scott1910.txt
+  vita-rimberti-anonymous:
+    kind: anonymous
+    evidence: 'The Life''s heading names no author (file line 63703). The editor''s preface
+      says it was written while Rimbert''s successor Adalgar lived, not by him ''sed ab alio
+      quodam, aut ecclesiae Bremensis clerico, aut monacho Corbeiensi'' (file lines 63706
+      to 63708).
+
+      '
+    from_file: mgh-ss-2_scriptores-tomus-2-with-vita-rimberti-vita-anskarii-lat_pertz1829.txt
   vita-samsonis:
     kind: anonymous
     evidence: 'The Vita prima Samsonis is anonymous; its date (7th-9th century) is contested.

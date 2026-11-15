@@ -12,3 +12,23 @@ works:
   note: Cheap religious reading for the newly literate poor, the readership the Sunday-school
     movement made; provisional for the later world.
   source_file: cheap-repository_tracts-v1-1795_marshall1797.txt
+- row_id: moody-w-r_life-of-dwight-l-moody_1900--the-life-of-dwight-l-moody-by-his-son-william-r-moody
+  work: The Life of Dwight L. Moody, by his son William R. Moody; Official Authorised Edition;
+    issued by the
+  author: moody-w-r
+  locus: The page headed 'The Autobiography of Dwight L. Moody' at OCR lines 47-65; Introduction
+    by William R. Moody at OCR lines 116-157; add 12 to OCR line numbers; the rest not mapped
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1900
+    end: 1900
+    source: 'the printing''s own title page: OCR line 106, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1900
+    source: OCR line 106, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 167, Dwight L. Moody: the Life by his son.'
+  source_file: moody-w-r_life-of-dwight-l-moody_1900.txt

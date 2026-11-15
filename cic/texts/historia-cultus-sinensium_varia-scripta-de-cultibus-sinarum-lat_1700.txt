@@ -1,7 +1,7 @@
 Title: Historia cultus Sinensium, seu varia scripta de cultibus Sinarum, inter vicarios apostolicos Gallos aliosque missionarios, et patres Societatis Jesu controversis, oblata Innocentio XII. pontifici maximo
 Creator: Several authors: Nicolas Charmot's notes, Charles Maigrot's Mandate, bishops' letters, and writings of the Jesuits in an appendix (the title page names no author)
 Publisher: Coloniae (title page; no printer named)
-Publication Date: 1700 (first title page: 'Coloniae, M. DCC.', read on the page image, leaf n6, where the OCR drops the imprint; the second title page gives 'COLONIAE' and 'M. D C C.' at OCR lines 15962 and 15971)
+Publication Date: 1700 (first title page: 'Coloniae, M. DCC.', read on the page image, leaf n6, where the OCR drops the imprint; the second title page gives the place, which the OCR reads 'O O L O N I M', and 'M. D C C.' at OCR lines 15962 and 15971)
 Rights: Public Domain (pd-us-by-date: published 1700); the archive.org record carries the Public Domain Mark
 Language: lat
 Source: archive.org item bub_gb_vW4zWSxsvhIC, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,098,184) equals the size archive.org lists for the djvu.txt.

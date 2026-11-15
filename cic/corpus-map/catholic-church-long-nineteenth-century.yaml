@@ -13,6 +13,28 @@ works:
   note: The concordatory regime the next century's French church lived under, to its abolition
     in 1905.
   source_file: anderson-frank-maloy_constitutions-and-documents-history-of-france_1908.txt
+- row_id: collectio-lacensis_t7-acta-et-decreta-concilii-vaticani-lat_1892--acta-et-decreta-sacrosancti-oecumenici-concilii-vaticani-cum
+  work: Acta et decreta sacrosancti oecumenici concilii Vaticani, cum permultis aliis documentis
+    ad concilium ejusque
+  author: collectio-lacensis
+  locus: Joseph Audu's observations on the discipline schemata, written in Chaldean and read
+    in Latin, at OCR lines 63556-63571; heading of the item of 25 March 1870 from Audu and
+    other Eastern bishops at OCR lines 127246-127248; add 12 to OCR line numbers; the rest
+    not mapped
+  role: tradition
+  confidence: provisional
+  language: lat
+  date:
+    start: 1869
+    end: 1892
+    source: 'the printing''s own title page: OCR line 64, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1892
+    source: OCR line 64, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 200, Joseph Audo: the acts of the Vatican council.'
+  source_file: collectio-lacensis_t7-acta-et-decreta-concilii-vaticani-lat_1892.txt
 - row_id: marie-de-l-incarnation-compiegne_histoire-des-carmelites-de-compiegne-fra_1836--histoire-des-religieuses-carmelites-de-compiegne-posthumous
   work: Histoire des religieuses carmélites de Compiègne (posthumous, 1836)
   author: marie-de-l-incarnation-compiegne
@@ -32,6 +54,27 @@ works:
     The letters are undated in the volume; it was printed in 1818 and cites March 1818, so
     it goes on the entry for 1815-1906.
   source_file: milner_end-of-religious-controversy-part2_1818.txt
+- row_id: newman_apologia-pro-vita-sua_1864--apologia-pro-vita-sua-being-a-reply-to-a-pamphlet-entitled
+  work: 'Apologia pro vita sua: being a reply to a pamphlet entitled "What, then, does Dr.
+    Newman mean?" (OCR'
+  author: newman
+  locus: Part III, 'History of my Religious Opinions', at OCR lines 4672-6409; Part VI, the
+    same history from 1841 to 1845, at OCR lines 12042-16293; add 12 to OCR line numbers;
+    the rest not mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1864
+    end: 1864
+    source: 'the printing''s own title page: OCR line 28, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1864
+    source: OCR line 28, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 188, John Henry Newman: the Apologia.'
+  source_file: newman_apologia-pro-vita-sua_1864.txt
 - row_id: clement-xiv_bulls-suppression-and-restoration-of-the-jesuits-lat-eng_1814--sollicitudo-omnium-ecclesiarum-7-august-1814-latin-and-2
   work: Sollicitudo omnium ecclesiarum (7 August 1814), Latin and English
   author: pius-vii

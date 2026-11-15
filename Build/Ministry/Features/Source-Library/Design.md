@@ -213,6 +213,13 @@ the source text, which is shown as the edition printed it.
 ## 9. Rights
 
 - Public-domain translations and editions: shown with the file's own rights line.
+  The date is the imprint on the title page. American books of 1931 to 1963 whose copyright
+  was not renewed count as public domain, with the renewal search in the file header.
+- Owner-declared free texts (CC BY 4.0, "not copyrighted", reproducible without permission):
+  a class beside public domain, with the owner's own words in the file header.
+- Texts held only on a non-commercial permission, church statements with no stated terms,
+  Vatican texts printed after 1930, King and works we do not hold: cite and link, no
+  quotation. Locked-scan works are logged "located, not obtainable here".
 - CCEL files: decision 3 above. Passage with credit now; volumes after permission;
   archive.org scans as fallback. CCEL's copyright page is read live by Mark at the opening
   of Stage 1, before any CCEL-derived passage is displayed, because the project's wording

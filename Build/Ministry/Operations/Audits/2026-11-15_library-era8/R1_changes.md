@@ -17,7 +17,7 @@ from the corrected text. No file's body was touched: each is still the host's dj
 | 8. Roles of the Ceylon Sketch and McCarter | should fix | The Sketch (1848) is now context, needs-ruling: it was written after the entry's window closed in 1806, as Launay and Pascoe were after theirs. McCarter stays tradition, for the reason in row 7. |
 | 9. Parry: a permission line on the microfilm target | should fix | The reviewer is right: host lines 16-18 read "Reproductions may not be made without permission from Columbia University Library". The rule for this work is that a scan with a permission notice is not taken. Parry was taken out of the batch (file, staging row, registry and seed entries). A Google scan of the same edition is left for the next batch. Logged in the Search_Log and CFT-Wants. |
 | 10. Divers voyages header: a tracking reference | should fix | Fixed. The sentence is gone. |
-| 11. "licence" | should fix | Not changed. The project writes "licence" for the noun throughout (CLAUDE.md, `cic/texts/INTAKE.md`, the registry's own `open-licence` term), and `tools/check_spelling.py --enforce` passes on this branch. |
+| 11. "licence" | should fix | Not changed. The Library writes "licence" for the noun (`cic/texts/INTAKE.md`, the registry's own `open-licence` term), and `tools/check_spelling.py --enforce` passes on this branch. |
 | 12. Vansleb, Histoire: "the OCR does not give the numeral" | note | Fixed in the header and the Search_Log: the OCR reads "M. pC. LXXVII." |
 | 13. Proyart: the approbation of 1770 | note | The header now says "the OCR reads 26 May 1770", and the row's date rests on the title page alone. The page image was not checked. |
 | 14. Launay: the synod's year in the first copy | note | Fixed: the header says the first copy's OCR reads 1679. |
@@ -32,3 +32,5 @@ from the corrected text. No file's body was touched: each is still the host's dj
 Also changed, not from a finding: the CFT-Wants table marks Proyart's first part as needs-ruling; a row and a log
 entry record the second look at Bacha's Abu Qurrah (an era 4 item), whose rights now clear and whose one scan is
 cropped.
+
+After round 2 and the merge of main: Butcher's vol. 2 was dropped from this batch, because the era 9 Library batch had vendored the same scan under the same filename and it reached main first. The batch is 30 files; the era 8 shelf row for Butcher was added to the staging file already on main.

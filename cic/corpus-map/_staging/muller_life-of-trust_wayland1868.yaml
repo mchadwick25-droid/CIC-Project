@@ -1,0 +1,25 @@
+source_file: muller_life-of-trust_wayland1868.txt
+assignments:
+- row_id: muller_life-of-trust_wayland1868--the-life-of-trust-being-a-narrative-of-the-lord-s-dealings
+  work: 'The Life of Trust: being a narrative of the Lord''s dealings with George Muller, Esq. Edited and condensed
+    by'
+  author: muller
+  locus: introduction at OCR lines 518-1140; Dr. Sawtell's letter, dated Bristol, Dec. 14, 1860, at OCR lines 19087-19485;
+    add 12 to OCR line numbers; the rest not mapped
+  atlas_ids:
+  - plymouth-brethren-and-dispensational-formation
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1860
+    end: 1868
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n8 (''1868.'', partly under a
+      library stamp); the copyright notice at OCR line 63 reads 1860'
+    formation_confidence: Documented
+  edition_date:
+    year: 1868
+    source: read on the scan's page image, leaf n8 ('1868.', partly under a library stamp); the copyright notice
+      at OCR line 63 reads 1860
+    formation_confidence: Documented
+  note: 'Era 9 row 183, George Muller: his Narrative, condensed for American readers.'

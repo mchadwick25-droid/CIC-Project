@@ -3,7 +3,7 @@
 The search record for the first era 8 batch: Africa, Egypt, Ethiopia, the Syriac churches, Latin America and Asia.
 The wants are in `ERA8_WANTS_MASTER.md` beside this file (groups 2, 3, 4, 5 and part of 6). The searches were run by
 the first era 8 session and are summarized in `Handover.md`; this session fetched every candidate again by its
-archive.org identifier, read each imprint, had the contents mapped, and vendored 31 files. The vendored files,
+archive.org identifier, read each imprint, had the contents mapped, and vendored 30 files. The vendored files,
 their state and their shelves are in `Build/Ministry/Features/Source-Library/CFT-Wants.md` (the "Era 8, batch 1"
 section).
 
@@ -41,7 +41,7 @@ licence or approbation leaf is the same kind of evidence as a dated preface.
 
 | host | state from this sandbox | used |
 |---|---|---|
-| archive.org (metadata, djvu.txt, page images) | reachable | all 31 files |
+| archive.org (metadata, djvu.txt, page images) | reachable | all 30 files |
 | gallica, HathiTrust, books.google downloads, MDZ, documentacatholicaomnia | blocked or broken, by the earlier logs | not tried |
 | dbnl.org | reachable, by the earlier logs | not needed: Valentijn's third deel came from archive.org on the first try |
 
@@ -71,7 +71,9 @@ volume stops inside the chapters on India, and the second volume (twohundredyear
 fetched, checked and not taken. McCarter's Dutch Reformed Church in South Africa (1869).
 
 **Egypt.** Vansleb's Histoire de l'Église d'Alexandrie (1677), his Nouvelle relation (1677) and its English, The
-Present State of Egypt (1678). Butcher, vol. 2 (1897). Al-Jabarti's chronicle, tome V of the Cairo French
+Present State of Egypt (1678). Butcher, vol. 2 (1897), was fetched, mapped and vendored, and then left out: the
+era 9 Library batch had vendored the same scan under the same filename and reached main first. This batch added
+an era 8 row (the Ottoman years, chapters XXXII-XL) to that file's staging entry. Al-Jabarti's chronicle, tome V of the Cairo French
 translation (1890), which holds the obituary of Ibrahim al-Jawhari under the year 1209. The leaf before its title
 page carries "Droits de traduction et de reproduction réservés"; on a print of 1890 that does not block it, by
 the coordinator's reading of Mark's ruling.

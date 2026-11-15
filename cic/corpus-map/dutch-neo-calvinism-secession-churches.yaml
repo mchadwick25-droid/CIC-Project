@@ -3,6 +3,85 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: dutch-neo-calvinism-secession-churches
 works:
+- row_id: bavinck_magnalia-dei-nld_1909--magnalia-dei-onderwijzing-in-de-christelijke-religie-naar
+  work: 'Magnalia Dei: Onderwijzing in de Christelijke Religie naar Gereformeerde Belijdenis
+    door Dr. H. Bavinck,'
+  author: bavinck
+  locus: Voorrede at OCR lines 78-202; Section 23, De gemeente van Christus, at OCR lines
+    24684-26138; add 12 to OCR line numbers; the rest not mapped
+  role: tradition
+  confidence: needs-ruling
+  language: nld
+  date:
+    start: 1909
+    end: 1909
+    source: 'the printing''s own title page: OCR line 75, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1909
+    source: OCR line 75, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 194, Herman Bavinck: his own summary of doctrine, in Dutch (not the Dogmatiek).'
+  source_file: bavinck_magnalia-dei-nld_1909.txt
+- row_id: bavinck_philosophy-of-revelation_1909--the-philosophy-of-revelation-the-stone-lectures-for-1908
+  work: The Philosophy of Revelation; the Stone Lectures for 1908-1909, Princeton Theological
+    Seminary, by Herman
+  author: bavinck
+  locus: Lecture I, 'The Idea of a Philosophy of Revelation', at OCR lines 344-2520; add 12
+    to OCR line numbers; the rest not mapped
+  role: tradition
+  confidence: needs-ruling
+  language: eng
+  date:
+    start: 1909
+    end: 1909
+    source: 'the printing''s own title page: OCR line 98, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1909
+    source: OCR line 98, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 194, Herman Bavinck: an English print of his own lectures.'
+  source_file: bavinck_philosophy-of-revelation_1909.txt
+- row_id: cock_twee-der-eerste-geschriften-nld_1882--twee-der-eerste-geschriften-van-den-eersten-leeraar-der
+  work: Twee der eerste geschriften van den eersten leeraar der Christelijke Gereformeerde
+    Kerk in Nederland [OCR
+  author: cock
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  language: nld
+  date:
+    formation_confidence: unknown
+    checked: the title page and front matter of this printing (1882); they do not state when
+      the text was first written
+  edition_date:
+    year: 1882
+    source: OCR line 180, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 224, Hendrik de Cock: two of his first writings.'
+  source_file: cock_twee-der-eerste-geschriften-nld_1882.txt
+- row_id: kuyper_tractaat-van-de-reformatie-der-kerken-nld_1883--tractaat-van-de-reformatie-der-kerken-aan-de-zonen-der
+  work: Tractaat van de Reformatie der Kerken, aan de zonen der Reformatie hier te lande op
+    Luthers vierde eeuwfeest
+  author: kuyper
+  locus: Chapter IV, Van de reformatie der kerken at OCR lines 5892-10469; add 12 to OCR line
+    numbers; the rest not mapped
+  role: tradition
+  confidence: provisional
+  language: nld
+  date:
+    start: 1883
+    end: 1883
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n6; the
+      OCR does not give it cleanly'
+    formation_confidence: Documented
+  edition_date:
+    year: 1883
+    source: read on the scan's page image, leaf n6; the OCR does not give it cleanly
+    formation_confidence: Documented
+  note: 'Era 9 row 193, Abraham Kuyper: a Dutch work of his own.'
+  source_file: kuyper_tractaat-van-de-reformatie-der-kerken-nld_1883.txt
 - row_id: reformed-dutch-church_constitution-catechism-confession-canons-liturgy_1840--the-constitution-of-the-reformed-dutch-church-of-north-america
   work: The Constitution of the Reformed Dutch Church of North America, with formularies and
     rules of the General Synod (1840)
