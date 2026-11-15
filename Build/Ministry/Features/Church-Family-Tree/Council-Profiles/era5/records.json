@@ -444,8 +444,14 @@
   "fourth-lateran-council-1215": {
     "claims": [
       {
-        "claim": "When the time came that the bishops began to go to Rome for the Lateran council, Dominic joined Fulk, bishop of Toulouse, so that they might go to the council together",
-        "witness": "acta-sanctorum_augusti-tomus-1-lat_1750.txt l.93024-93026, 93039-93040, 93048-93050",
+        "claim": "When the time came that the bishops began to go to Rome for the Lateran council, two good men of Toulouse gave themselves to Dominic",
+        "witness": "acta-sanctorum_augusti-tomus-1-lat_1750.txt l.93023-93026",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Dominic joined Fulk, bishop of Toulouse, so that they might go to the Lateran council together; Jordan tells this a paragraph after the bishops' setting out, so the brief's first sentence joins the two",
+        "witness": "acta-sanctorum_augusti-tomus-1-lat_1750.txt l.93039-93040, 93047-93050",
         "witness_kind": "later narrative",
         "formation_confidence": "Documented"
       },
@@ -468,14 +474,20 @@
         "formation_confidence": "Documented"
       },
       {
+        "claim": "The notice in Mansi: at this time Saint Dominic, a Spaniard, founded the Order of Preachers",
+        "witness": "innocent-iii_opera-with-gesta-innocentii-pl214-lat_migne1853.txt l.1048-1050",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
         "claim": "No account from inside the sessions is among our sources",
         "witness": "dossier section 14 (searches for Wendover, Matthew Paris, Richard of San Germano, Ursberg, Vaux-de-Cernay, Tudela, Puylaurens over cic/texts)",
         "witness_kind": "modern reconstruction",
         "formation_confidence": "Documented"
       },
       {
-        "claim": "The canons are held in extract in Mirbt's source book (nos. 277-282) and in Denzinger's Enchiridion (nos. 428-437)",
-        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.12278-12547; denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.13855-14140",
+        "claim": "Most canons we hold are in extract in Mirbt's source book (nos. 277-282) and in Denzinger's Enchiridion (nos. 428-437), in Clemens Bannwart's eleventh edition of 1911",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.12278-12547; denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.13855-14140; denzinger_enchiridion-symbolorum-lat_bannwart1911.txt header l.1-2",
         "witness_kind": "acts",
         "formation_confidence": "Documented"
       },
@@ -576,13 +588,13 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Canon 3: bishops are to visit any parish where heretics are said to live once or twice a year and put men on oath to name heretics; a negligent bishop is to be deposed",
-        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.12366-12384",
+        "claim": "Canon 3: bishops are to go, twice or at least once a year, through any parish where heretics are said to live, and put three or more men of good name on oath to name them; a negligent bishop is to be deposed",
+        "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.12365-12384",
         "witness_kind": "acts",
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Canon 3 names no group; Albigenses and Waldenses are Denzinger's headings",
+        "claim": "Canon 3 names no group; Albigenses and Waldenses are the headings in Denzinger's Enchiridion, in Bannwart's edition of 1911",
         "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.12300-12384; denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.13857-13858, 13863, 14058",
         "witness_kind": "modern reconstruction",
         "formation_confidence": "Documented"
@@ -608,18 +620,18 @@
       {
         "claim": "The Pedalion calls the council the local synod held in the Lateran of Rome in 1215 and cites its fourth canon on the Easterners not celebrating where a Westerner had celebrated without first a blessing of water, and on their rebaptizing, by the testimony of their own enemies",
         "witness": "nikodemos-hagiorite_pedalion-canons-grc_1886.txt l.7141-7149 (left column of interleaved OCR)",
-        "witness_kind": "modern reconstruction",
+        "witness_kind": "later narrative",
         "formation_confidence": "Documented"
       },
       {
         "claim": "The Pedalion's commentary is by Agapios the hieromonk and Nikodemos the Hagiorite, first printed at Leipzig in 1800",
         "witness": "nikodemos-hagiorite_pedalion-canons-grc_1886.txt header (Creator line)",
-        "witness_kind": "modern reconstruction",
+        "witness_kind": "later narrative",
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Canon 2 condemns the tract Abbot Joachim put out against Peter Lombard on the unity or essence of the Trinity, calling him a heretic and a madman for saying in his Sentences that there is one supreme reality which is Father, Son and Holy Spirit",
-        "witness": "denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.13944-13950",
+        "claim": "Canon 2 condemns the tract Abbot Joachim put out against Peter Lombard on the unity or essence of the Trinity, calling him a heretic and a madman for saying in his Sentences that there is one supreme reality which is Father, Son and Holy Spirit, and which neither begets nor is begotten nor proceeds",
+        "witness": "denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.13943-13950",
         "witness_kind": "acts",
         "formation_confidence": "Documented"
       },
@@ -636,9 +648,9 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "In his Tractatus, Joachim warns against thinking of the three as three branches fixed in one root, the substance as root and the hypostases as branches, which is to bring in a quaternity; Buonaiuti's bracket says the allusion is to Peter Lombard",
-        "witness": "joachim-fiore_tractatus-super-quatuor-evangelia-lat_buonaiuti1930.txt l.17807-17814",
-        "witness_kind": "participant",
+        "claim": "In his Psalterium decem chordarum (fol. 229), as Ernesto Buonaiuti quotes it in a note to his edition of the Tractatus, Joachim warns against thinking of the three as three branches fixed in one root, the substance as root and the hypostases as branches, which is to bring in a quaternity; Buonaiuti's bracket says the allusion is to Peter Lombard",
+        "witness": "joachim-fiore_tractatus-super-quatuor-evangelia-lat_buonaiuti1930.txt l.17741-17856 (Buonaiuti's note; siglum P = Psalterium decem chordarum at l.3009)",
+        "witness_kind": "later narrative",
         "formation_confidence": "Documented"
       },
       {
@@ -650,13 +662,25 @@
       {
         "claim": "Joachim's letter of submission, signed with his own hand in 1200, asks that his works be presented to the apostolic see for correction",
         "witness": "acta-sanctorum_maii-tomus-6-lat_1739.txt l.80610-80612, 80638-80660, 80676-80679 (right column of interleaved OCR)",
-        "witness_kind": "participant",
+        "witness_kind": "later narrative",
         "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Joachim died in 1202, before the council",
+        "witness": "ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885.txt l.3349-3351",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
       },
       {
         "claim": "Canon 2 condemns the teaching of Almaric as not so much heretical as mad, without stating it",
         "witness": "denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.14050-14053",
         "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The notice in Mansi: Almaric, convicted of twenty errors, was exhumed after his death and burned at Paris, with many of his followers",
+        "witness": "innocent-iii_opera-with-gesta-innocentii-pl214-lat_migne1853.txt l.1056-1058",
+        "witness_kind": "modern reconstruction",
         "formation_confidence": "Documented"
       },
       {
@@ -666,8 +690,8 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Pope Honorius confirmed the Order",
-        "witness": "acta-sanctorum_augusti-tomus-1-lat_1750.txt l.94737-94740 (Vita altera)",
+        "claim": "Pope Honorius confirmed the Order (Bartholomew of Trent's Life of Dominic, the Vita altera, written before the middle of the thirteenth century by the Bollandists' heading)",
+        "witness": "acta-sanctorum_augusti-tomus-1-lat_1750.txt l.94619-94624, 94737-94740",
         "witness_kind": "later narrative",
         "formation_confidence": "Documented"
       },
@@ -684,6 +708,18 @@
         "formation_confidence": "Widely Accepted"
       },
       {
+        "claim": "Glassberger's editors quote Salimbene (Parma edition, p. 262): Gregory X suppressed at Lyon the new mendicant groups, wishing to fulfil the decretal Innocent III made at the general council, which says that no one is henceforth to found a new religious order, and whoever wishes to enter religion is to take one already approved",
+        "witness": "glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.7318-7323",
+        "witness_kind": "acts",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Phrases of canon 1 (Firmiter credimus), on Christ's body and blood under the forms of bread and wine and the bread changed in substance, are quoted in Cajetan's commentary in the Leonine Summa",
+        "witness": "thomas-aquinas_opera-omnia-t12-summa-theologiae-lat_leonine1906.txt l.30506-30512, 33675-33677",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
         "claim": "Jacques de Vitry came to Perugia and found Pope Innocent dead but not yet buried; in the night his precious robes had been stolen and his body left almost naked and stinking in the church; Vitry saw how short and empty is the deceiving glory of this world",
         "witness": "jacques-de-vitry_briefe-in-zeitschrift-fuer-kirchengeschichte-14-lat-deu_rohricht1894.txt l.5934-5940",
         "witness_kind": "later narrative",
@@ -698,6 +734,18 @@
       {
         "claim": "Vitry's letter I is dated October 1216 by Röhricht's heading",
         "witness": "jacques-de-vitry_briefe-in-zeitschrift-fuer-kirchengeschichte-14-lat-deu_rohricht1894.txt l.5856",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Vitry's letter I opens with him as humble minister of the church of Acre; no held line says where he was in November 1215",
+        "witness": "jacques-de-vitry_briefe-in-zeitschrift-fuer-kirchengeschichte-14-lat-deu_rohricht1894.txt l.5860-5861",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Vitry's letter II is dated to the end of March 1217 by Röhricht's heading",
+        "witness": "jacques-de-vitry_briefe-in-zeitschrift-fuer-kirchengeschichte-14-lat-deu_rohricht1894.txt l.6116",
         "witness_kind": "modern reconstruction",
         "formation_confidence": "Documented"
       },
@@ -732,14 +780,20 @@
         "formation_confidence": "Documented"
       },
       {
+        "claim": "Denifle dates the work of the commission at Anagni to 1255",
+        "witness": "ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885.txt l.5148-5151",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
         "claim": "The Anagni commission of 1255 judged that a passage of the Concordia seemed still to assert the heresy condemned in the Lateran council",
         "witness": "ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885.txt l.7739-7740",
         "witness_kind": "later narrative",
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Salimbene: the pope ordained there should be henceforth no new order of religious mendicants, but this was not kept through the negligence of the prelates",
-        "witness": "salimbene_from-st-francis-to-dante_coulton1907.txt l.13490-13493",
+        "claim": "Salimbene, in Coulton's English, summarizes the canon: the pope ordained there should be henceforth no [new] order of religious mendicants, but this was not kept through the negligence of the prelates; elsewhere, as Glassberger's editors quote him, he gives the canon's general wording, that no one is to found a new religious order",
+        "witness": "salimbene_from-st-francis-to-dante_coulton1907.txt l.13489-13492; glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.7318-7323",
         "witness_kind": "later narrative",
         "formation_confidence": "Documented"
       },
@@ -774,6 +828,12 @@
         "formation_confidence": "Documented"
       },
       {
+        "claim": "Ehrle identifies the Assisi catalogue of the popes as the catalogue of Richard of Poitiers, monk of Cluny",
+        "witness": "ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885.txt l.26363-26366",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
         "claim": "Al-Duwayhi gives 411 bishops from the East and the West, names the patriarch Jeremiah and says the pope confirmed him and gave him the pallium (paraphrase; second witness only)",
         "witness": "duwayhi_tarikh-al-ta-ifa-al-maruniyya-ara_shartuni1890.txt l.9486-9496",
         "witness_kind": "later narrative",
@@ -789,6 +849,18 @@
         "claim": "The Annals of Ulster, A.D. 1216: Eghdon Mac Gilluir, coarb of Patrick and primate of Ireland, died at Rome after the general Lateran council; the Annals of Kilronan, 1216: a synod of the clergy of the world at Rome at Lateran with Pope Innocent",
         "witness": "four-masters_annals-of-the-kingdom-of-ireland-v3-1172-1378-gle-eng_odonovan1856.txt l.16505-16513, 16632-16637",
         "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Gerard de Frachet: when Dominic was at Rome pressing God and the pope for the confirmation of his order, he saw in a vision a companion he had not known, and the next day found Francis in a church and embraced him; one manuscript (C) and Conway's English put this during the Lateran council of 1215, and Reichert's note dates the vision to 1215; the story came through a friar minor, long Francis's companion, to brethren, one of whom wrote it to Jordan",
+        "witness": "gerard-de-frachet_vitae-fratrum-lat_reichert1896.txt l.1743, 1748-1753, 1767-1770, variant l.1776-1777; gerard-de-frachet_lives-of-the-brethren_conway1924.txt l.996-997, 1010-1017, 1044-1050",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Gerard de Frachet's Lives of the Brethren was completed about 1260 and approved by the General Chapter of Strasbourg in 1260, by Conway's introduction",
+        "witness": "gerard-de-frachet_lives-of-the-brethren_conway1924.txt l.160-179, 211",
+        "witness_kind": "modern reconstruction",
         "formation_confidence": "Widely Accepted"
       },
       {
@@ -838,14 +910,9 @@
         "formation_confidence": "Contested"
       },
       {
-        "claim": "Whether Francis of Assisi was at the council",
-        "sides": "Yes: Glassberger alone (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.2110-2112). Against: no early Franciscan source among ours names the council (dossier section 14 searches of Thomas of Celano, Bonaventure, Francis, Speculum perfectionis).",
+        "claim": "Whether Francis of Assisi was at Rome during the council",
+        "sides": "Yes, or at Rome around it: Gerard de Frachet (gerard-de-frachet_vitae-fratrum-lat_reichert1896.txt l.1750-1770, variant l.1776-1777, editor's note l.1743; gerard-de-frachet_lives-of-the-brethren_conway1924.txt l.1014-1050) and Glassberger (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt l.2110-2112). Neither puts him in the sessions. Against: no early Franciscan source among ours names the council (dossier section 14 searches of Thomas of Celano, Bonaventure, Francis, Speculum perfectionis).",
         "formation_confidence": "Inferential-Thin"
-      },
-      {
-        "claim": "What canon 13 forbade",
-        "sides": "Any new religious order: the Bollandists' quotation from Labbe (acta-sanctorum_augusti-tomus-1-lat_1750.txt l.74820-74827). A new order of religious mendicants: Salimbene, with Coulton's bracket [new] (salimbene_from-st-francis-to-dante_coulton1907.txt l.13490-13492).",
-        "formation_confidence": "Widely Accepted"
       },
       {
         "claim": "Innocent III's death day",
@@ -861,7 +928,7 @@
     "absent_details": [
       {
         "detail": "The full acts (Mansi tome 22; Hefele volume V)",
-        "note": "Not held; the canons are held only in Mirbt's and Denzinger's extracts and the Bollandists' quotation of canon 13."
+        "note": "Not held. Most canons we hold are in Mirbt's and Denzinger's extracts; canon 13 is also quoted by the Bollandists and, from Salimbene, by Glassberger's editors, and phrases of canon 1 by Cajetan's commentary in the Leonine Summa."
       },
       {
         "detail": "Canons 67 to 70 on the Jews, including canon 68 on dress",
@@ -893,7 +960,7 @@
       },
       {
         "detail": "Joachim's condemned tract",
-        "note": "Not held; it is known from canon 2's description, with Joachim's own voice in his Tractatus and his letter of 1200."
+        "note": "Not held; it is known from canon 2's description, with Joachim's own voice in his Psalterium decem chordarum, as Buonaiuti quotes it, and in his letter of 1200."
       },
       {
         "detail": "Almaric's teaching",
@@ -901,7 +968,7 @@
       },
       {
         "detail": "A Cathar or Waldensian voice on the council",
-        "note": "No Cathar text is held, and no Waldensian account of the council."
+        "note": "Neither is held. The Library holds the Interrogatio Iohannis, a dualist scripture the Cathars used (Döllinger II), and Waldensian poems (the Nobla Leiczon), but no Cathar or Waldensian text that speaks of the council."
       },
       {
         "detail": "A Greek writer of the time on the council",
