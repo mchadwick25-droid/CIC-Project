@@ -1,0 +1,11 @@
+source_file: velimirovic_agony-of-the-church_1917.txt
+assignments:
+- row_id: velimirovic_agony-of-the-church_1917--velimirovic-the-agony-of-the-church-1917
+  work: 'Velimirović, The Agony of the Church (1917)'
+  author: velimirovic
+  locus: 'whole'
+  atlas_ids:
+  - orthodoxy-in-the-communist-balkans
+  role: antecedent
+  confidence: assigned
+  note: 'His own addresses in English, printed in 1917, before the entry''s window opens in 1920.'

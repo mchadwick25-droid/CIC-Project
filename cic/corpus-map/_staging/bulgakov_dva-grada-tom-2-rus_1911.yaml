@@ -6,6 +6,6 @@ assignments:
   locus: 'whole'
   atlas_ids:
   - emigre-orthodoxy-and-the-paris-school
-  role: tradition
-  confidence: needs-ruling
+  role: antecedent
+  confidence: assigned
   note: 'His own essays, printed in Moscow in 1911, before the entry''s window of the 1920s to the 1970s. Poor OCR: a second witness until checked against the page images.'

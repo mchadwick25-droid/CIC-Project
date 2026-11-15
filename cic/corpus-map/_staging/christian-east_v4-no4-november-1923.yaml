@@ -1,0 +1,39 @@
+source_file: christian-east_v4-no4-november-1923.txt
+assignments:
+- row_id: christian-east_v4-no4-november-1923--the-christian-east-volume-iv-number-4-november-1923
+  work: 'The Christian East, volume IV, number 4 (November, 1923)'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - the-anglican-communion-twentieth-century
+  role: tradition
+  confidence: assigned
+  note: 'An Anglican quarterly on the Eastern churches; many writers, and the documents it prints are in translation.'
+- row_id: christian-east_v4-no4-november-1923--the-christian-east-volume-iv-number-4-november-1923-on-the
+  work: 'The Christian East, volume IV, number 4 (November, 1923): on the Greek churches'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - the-greek-church-and-the-ecumenical-patriarchate
+  role: context
+  confidence: assigned
+  note: 'An Anglican journal''s reports on the Greek churches; an outside witness.'
+- row_id: christian-east_v4-no4-november-1923--pan-orthodox-conference-of-constantinople-1923-decisions-in
+  work: 'Pan-Orthodox Conference of Constantinople (1923), decisions, in The Christian East'
+  author: christian-east
+  locus: 'lines 612-941'
+  atlas_ids:
+  - the-greek-church-and-the-ecumenical-patriarchate
+  role: tradition
+  confidence: assigned
+  note: 'The conference''s own decisions in an English whose maker the print does not name.'
+- row_id: christian-east_v4-no4-november-1923--patriarch-tikhon-epistle-of-15-july-1923-in-the-christian
+  work: 'Patriarch Tikhon, epistle of 15 July 1923, in The Christian East'
+  author: christian-east
+  locus: 'lines 1359-1629'
+  atlas_ids:
+  - the-russian-orthodox-church-council-patriarchate-and-reunion
+  - the-russian-new-martyrs-and-the-catacomb-church
+  role: tradition
+  confidence: assigned
+  note: 'His own words in an English whose maker the print does not name.'

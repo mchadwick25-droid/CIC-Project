@@ -1,0 +1,20 @@
+source_file: christian-east_v1-no3-september-1920.txt
+assignments:
+- row_id: christian-east_v1-no3-september-1920--the-christian-east-volume-i-number-3-september-1920
+  work: 'The Christian East, volume I, number 3 (September, 1920)'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - the-anglican-communion-twentieth-century
+  role: tradition
+  confidence: assigned
+  note: 'An Anglican quarterly on the Eastern churches; many writers, and the documents it prints are in translation.'
+- row_id: christian-east_v1-no3-september-1920--the-christian-east-volume-i-number-3-september-1920-on-the
+  work: 'The Christian East, volume I, number 3 (September, 1920): on the Greek churches'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - the-greek-church-and-the-ecumenical-patriarchate
+  role: context
+  confidence: assigned
+  note: 'An Anglican journal''s reports on the Greek churches; an outside witness.'

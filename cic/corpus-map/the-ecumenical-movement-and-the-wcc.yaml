@@ -16,11 +16,19 @@ works:
   author: azariah
   locus: whole
   role: tradition
-  confidence: needs-ruling
-  note: A joint book by two bishops in India, with John R. Mott's introduction; the chapters
-    are not divided between them. The Wanted Sources row for Azariah names the Ecumenical
-    Movement entry.
+  confidence: assigned
+  note: A joint book by two bishops in India, with John R. Mott's introduction. The chapters
+    are not divided between them, so which words are Azariah's is not known.
   source_file: azariah_christ-in-the-indian-villages_1930.txt
+- row_id: bell_documents-on-christian-unity-1920-24_1924--bell-ed-documents-on-christian-unity-1920-4
+  work: Bell (ed.), Documents on Christian Unity 1920-4
+  author: bell
+  locus: whole
+  role: tradition
+  confidence: assigned
+  note: The churches' own statements on unity, gathered and printed in 1924 by the Dean of
+    Canterbury; each document is its own church's.
+  source_file: bell_documents-on-christian-unity-1920-24_1924.txt
 - row_id: faith-and-order_lausanne-1927-proceedings_bate1927--faith-and-order-proceedings-of-the-world-conference-lausanne
   work: 'Faith and Order: Proceedings of the World Conference, Lausanne 1927'
   author: faith-and-order
@@ -93,6 +101,33 @@ works:
   confidence: assigned
   note: The meeting's own printed report; many voices.
   source_file: international-missionary-council_jerusalem-meeting-1928-v8_1928.txt
+- row_id: international-review-of-missions_v11_1922--the-international-review-of-missions-volume-11-1922
+  work: The International Review of Missions, volume 11 (1922)
+  author: international-review-of-missions
+  locus: whole
+  role: tradition
+  confidence: assigned
+  note: The International Missionary Council's own quarterly; each article is its writer's,
+    not the Council's.
+  source_file: international-review-of-missions_v11_1922.txt
+- row_id: international-review-of-missions_v12_1923--the-international-review-of-missions-volume-12-1923
+  work: The International Review of Missions, volume 12 (1923)
+  author: international-review-of-missions
+  locus: whole
+  role: tradition
+  confidence: assigned
+  note: The International Missionary Council's own quarterly; each article is its writer's,
+    not the Council's.
+  source_file: international-review-of-missions_v12_1923.txt
+- row_id: international-review-of-missions_v17_1928--the-international-review-of-missions-volume-17-1928
+  work: The International Review of Missions, volume 17 (1928)
+  author: international-review-of-missions
+  locus: whole
+  role: tradition
+  confidence: assigned
+  note: The International Missionary Council's own quarterly; each article is its writer's,
+    not the Council's.
+  source_file: international-review-of-missions_v17_1928.txt
 - row_id: lambeth-conference_1920-encyclical-letter-resolutions-and-reports_spck1920--lambeth-conference-1920-an-appeal-to-all-christian-people
   work: 'Lambeth Conference 1920: An Appeal to All Christian People'
   author: lambeth-conference
@@ -117,3 +152,13 @@ works:
   confidence: assigned
   note: His own book of 1924.
   source_file: oldham_christianity-and-the-race-problem_1924.txt
+- row_id: smith_christian-mission-in-africa-le-zoute-1926_1926--international-conference-at-le-zoute-1926-recommendations
+  work: International Conference at Le Zoute 1926, recommendations and resolutions (in Smith,
+    The Christian Mission in Africa)
+  author: smith
+  locus: lines 5372-6336
+  role: tradition
+  confidence: assigned
+  note: The conference's own formal text; the rest of the book is Smith's interpretation,
+    by his own preface.
+  source_file: smith_christian-mission-in-africa-le-zoute-1926_1926.txt

@@ -1,0 +1,11 @@
+source_file: khrimian_amboghjakan-yerker-hye_1929.txt
+assignments:
+- row_id: khrimian_amboghjakan-yerker-hye_1929--khrimian-hayrik-amboghjakan-erker-collected-works-1929
+  work: 'Khrimian Hayrik, Amboghjakan erker (collected works, 1929)'
+  author: khrimian
+  locus: 'whole'
+  atlas_ids:
+  - armenian-christianity-zartonk
+  role: tradition
+  confidence: assigned
+  note: 'His own works in Armenian, in an edition of 1929; the host record gives his years as 1820-1907. Poor OCR in the body.'

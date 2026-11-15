@@ -3,6 +3,14 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: orthodoxy-in-the-communist-balkans
 works:
+- row_id: christian-east_v10-no1-spring-1929--the-christian-east-volume-x-number-1-spring-1929-on-the
+  work: 'The Christian East, volume X, number 1 (Spring, 1929): on the Bulgarian church'
+  author: christian-east
+  locus: whole
+  role: context
+  confidence: assigned
+  note: An Anglican journal's reports on the Bulgarian church; an outside witness.
+  source_file: christian-east_v10-no1-spring-1929.txt
 - row_id: romanian-orthodox-church_legea-si-statutul-pentru-organizarea-ron_1925--legea-si-statutul-pentru-organizarea-bisericii-ortodoxe
   work: Legea si Statutul pentru organizarea Bisericii Ortodoxe Romane (1925)
   author: romanian-orthodox-church
@@ -11,3 +19,63 @@ works:
   confidence: assigned
   note: Official texts of state and church, printed at a monastery press in 1925.
   source_file: romanian-orthodox-church_legea-si-statutul-pentru-organizarea-ron_1925.txt
+- row_id: velimirovic_christianity-and-war_1915--christianity-and-war-letters-of-a-serbian-to-his-english
+  work: 'Christianity and War: Letters of a Serbian to his English Friend (1915)'
+  author: velimirovic
+  locus: whole
+  role: antecedent
+  confidence: assigned
+  note: The print names no author; the library record gives Velimirović. Printed in 1915,
+    before the entry's window opens in 1920.
+  source_file: velimirovic_christianity-and-war_1915.txt
+- row_id: velimirovic_religion-and-nationality-in-serbia_1915--velimirovic-religion-and-nationality-in-serbia-1915
+  work: Velimirović, Religion and Nationality in Serbia (1915)
+  author: velimirovic
+  locus: whole
+  role: antecedent
+  confidence: assigned
+  note: His own pamphlet in Copeland's English, printed in 1915, before the entry's window
+    opens in 1920.
+  source_file: velimirovic_religion-and-nationality-in-serbia_1915.txt
+- row_id: velimirovic_serbia-in-light-and-darkness_1916--velimirovic-serbia-in-light-and-darkness-1916
+  work: Velimirović, Serbia in Light and Darkness (1916)
+  author: velimirovic
+  locus: whole
+  role: antecedent
+  confidence: assigned
+  note: His own book in English, printed in 1916, before the entry's window opens in 1920.
+  source_file: velimirovic_serbia-in-light-and-darkness_1916.txt
+- row_id: velimirovic_agony-of-the-church_1917--velimirovic-the-agony-of-the-church-1917
+  work: Velimirović, The Agony of the Church (1917)
+  author: velimirovic
+  locus: whole
+  role: antecedent
+  confidence: assigned
+  note: His own addresses in English, printed in 1917, before the entry's window opens in
+    1920.
+  source_file: velimirovic_agony-of-the-church_1917.txt
+- row_id: velimirovic_soul-of-serbia_1916--velimirovic-the-soul-of-serbia-1916
+  work: Velimirović, The Soul of Serbia (1916)
+  author: velimirovic
+  locus: whole
+  role: antecedent
+  confidence: assigned
+  note: His own lectures in English, printed in 1916, before the entry's window opens in 1920.
+  source_file: velimirovic_soul-of-serbia_1916.txt
+- row_id: zankov_eastern-orthodox-church_lowrie1929--zankov-the-eastern-orthodox-church-lowrie-1929
+  work: Zankov, The Eastern Orthodox Church (Lowrie 1929)
+  author: zankov
+  locus: whole; the forewords are not his
+  role: tradition
+  confidence: assigned
+  note: A Bulgarian Orthodox professor's own account, in an English edition that folds most
+    footnotes into the text.
+  source_file: zankov_eastern-orthodox-church_lowrie1929.txt
+- row_id: zankov_orthodoxe-christentum-des-ostens-deu_1928--zankow-das-orthodoxe-christentum-des-ostens-1928
+  work: Zankow, Das orthodoxe Christentum des Ostens (1928)
+  author: zankov
+  locus: whole
+  role: tradition
+  confidence: assigned
+  note: A Bulgarian Orthodox professor's own account, in the German he lectured in.
+  source_file: zankov_orthodoxe-christentum-des-ostens-deu_1928.txt

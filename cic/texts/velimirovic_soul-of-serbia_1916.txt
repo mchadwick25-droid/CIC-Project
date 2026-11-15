@@ -1,0 +1,3323 @@
+Title: The Soul of Serbia: Lectures Delivered before the Universities of Cambridge and Birmingham and in London and Elsewhere in England, second edition
+Creator: Father Nicholas Velimirovic, Professor of Theology at Belgrade
+Publisher: London: The Faith Press
+Publication Date: 1916 (title page, which also prints "Second Edition")
+Rights: Public Domain (pd-us-by-date: printed 1916; the title-page year; the archive.org record says possible-copyright-status "NOT_IN_COPYRIGHT")
+Source: archive.org item soulofserbialect00veli, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (152,752) equals the size archive.org lists for the djvu.txt.
+Provenance note: The item's own djvu.txt follows this header. No Google or Internet Archive notice was found to remove; nothing was stripped, normalized or corrected; library stamps and slips in the scan are left as they are. Rights basis: pd-us-by-date: printed 1916; the title-page year; the archive.org record says possible-copyright-status "NOT_IN_COPYRIGHT". Line numbers in this header are this file's own line numbers.
+Content note: His lectures in England. No preface by another hand; a quoted passage stands after the title page (lines 66-149). The text ends at line 3307.
+
+______________________________________________________________________
+
+UC  SOUTHERN  REGIONAL  LIBRARY  FACILITY 
+
+
+AA    000  825  332    o 
+
+
+THE 
+
+SOUL  OF  SERBIA 
+
+
+BY 
+
+
+NICHOLAS  VELIMIROVid 
+
+
+THE  FAITH  PRESS 
+
+
+UCSB  LIBRARY  ^^^-^^^ 
+
+
+THE    SOUL   OF    SERBIA 
+
+
+KARA-GEORGE 
+
+The  Leader  of  the  First  Serbian  Revolution  for  Freedom 
+1804-1813 
+
+
+THE  SOUL 
+OF  SERBIA 
+
+LECTURES  DELIVERED  BEFORE  THE  UNIVER- 
+SITIES OF  CAMBRIDGE  AND  BIRMINGHAM  AND 
+IN    LONDON   AND    ELSEWHERE    IN    ENGLAND 
+
+
+BY   FATHER 
+NICHOLAS    VELIMIROVIC 
+
+PROFESSOR  OF  THEOLOGY  AT  BELGRADE 
+
+
+SECOND  EDITION 
+
+
+PUBLISHED  BY 
+THE    FAITH    PRESS    AT    THE    FAITH    HOUSE 
+22  BUCKINGHAM  STREET,  LONDON,  W.C.    1916 
+
+
+We  have  stood  up  for  the  small  nations  ;  we  have  recognized  their 
+rights  and  their  value.  The  British  Empire  is  already  a  federation  of 
+friendly  nations,  and  the  independence  which  ever  since  the  mistake 
+about  America  has  been  granted  to  its  Colonies  has  been  more  than 
+justified. 
+
+"  We  must  see  to  it  that  a  country  nearer  home  is  emancipated  too, 
+and  left  free  to  develop  its  own  genius  without  mistrust  and  without 
+coercion.  Ireland,  by  its  striking  loyalty,  as  well  as  by  its  always  con- 
+spicuous bravery,  has  earned  its  modified  independence,  and  hence- 
+forth must  be  one  of  the  friendly  nations  in  the  British  Empire. 
+
+"  Consider  what  ive  owe  to  the  small  nations — we  may  almost  say 
+that  to  them  is  due  the  progress  of  the  world.  In  some  of  the  best  epochs 
+in  history  all  nations  were  small ;  communities  ivhich  produced  some 
+of  the  greatest  of  mankind  were  no  more  than  cities.  Value  in  spiritual 
+things  cannot  be  numerically  estimated  ;  nor  has  numbering  the  people 
+always  been  reckoned  a  judicious  act. 
+
+"  Of  high  modern  examples  of  small  populations  Lord  Bryce  gives 
+the  following  historical  summary  : 
+
+"  '  In  modern  Europe  what  do  we  not  owe  to  little  Switzerland, 
+lighting  the  torch  of  freedom  six  hundred  years  ago,  and  keeping  it 
+alight  through  all  the  centuries  when  despotic  monarchies  held  the  rest 
+of  the  Etiropean  Continent  ?  And  what  to  free  Holland,  with  her  great 
+men  of  learning  and  her  painters  surpassing  those  of  all  other  coun- 
+tries save  Italy  ?  So  the  small  Scandinavian  nations  have  given  to  the 
+world  famous  men  of  science,  from  Linncsus  downwards,  poets  like 
+Tegner  and  Bjornson,  scholars  like  Madvig,  dauntless  explorers  like 
+Fridtjof  Nansen.  England  had,  in  the  age  of  Shakespeare,  Bacon, 
+and  Milton,  a  population  little  larger  than  that  of  Bulgaria  to-day. 
+The  United  States,  in  the  days  of  Washington  and  Franklin  and  Jeffer- 
+soyi  and  Hamilton  and  Marshall,  counted  fewer  inhabitants  than  Den- 
+mark or  Greece.' 
+
+"  And  the  following  is  by  Mr.  H.  A.  L.  Fisher,  Vice-Chancellor  of 
+Sheffield  : 
+
+"  'Almost  everything  which  is  most  precious  in  our  civilization  has 
+come  from  small  States — the  Old  Testament,  the  Homeric  poems,  the 
+Attic  and  the  Elizabethan  drama,  the  art  of  the  Italian  Renaissance, 
+the  common  law  of  England.    Nobody  needs  to  be  told  what  humanity 
+
+
+owes  to  Athens,  Florence,  Geneva,  or  Weimar.  The  world's  debt  to  any 
+one  of  these  small  States  far  exceeds  all  that  has  issued  from  the  mili- 
+tant monarchies  of  Louis  XIV,  of  Napoleon,  of  the  present  Emperor 
+of  Germany.  .  .  .  In  the  particular  points  of  heroic  and  martial 
+patriotism,  civic  pride  and  political  prudence,  they  have  often  reached 
+the  highest  levels  to  which  it  is  possible  for  humanity  to  attain  ;  and 
+from  Thucydides,  Plato,  and  Aristotle,  as  well  as  from  the  illustrious 
+school  of  Florentine  historians  and  publicists,  the  world  has  learnt 
+nine-tenths  of  its  best  political  wisdom. ' 
+
+"  But  indeed,  when  considering  the  possible  outcome  from  small 
+communities,  there  is  no  need  to  go  beyond  the  country  now  called 
+Syria  I  And  it  is  interesting  to  remember  that  that  sufficiently  moment- 
+ous A  dvent  occurred  during  a  numbering  of  the  people  by  the  Emperor 
+of  Rome.  One  more  head  to  be  counted — or  perhaps  to  be  ignored  by 
+the  enumerators  as  too  insignificant  an  item  in  the  stable  of  an  inn  ; 
+true  majesty  being  only  discernible  by  the  extra  simple  and  the  extra 
+wise  ! 
+
+"  But,  returning  to  more  prosaic  matters,  it  is  manifest  that  one  of 
+the  minor  advantages  flowing  from  the  existence  of  smaller  States  con- 
+sists in  the  fact  that  they  serve  as  convenient  laboratories  for  social 
+experiment  on  a  moderate  scale.  Much  material  for  the  comparative 
+study  of  social  and  industrial  expedients  has  been  provided  by  the 
+enterprise  of  the  American  State  Legislatures.  Such  experiments  as 
+women's  suffrage,  or  as  the  State  control  of  the  public  sale  of  alcoholic 
+drink,  or  as  a  thoroughgoing  application  of  the  Reformatory  theory  of 
+punishment,  would  hardly  be  seriously  contemplated  in  large,  old,  and 
+settled  communities,  were  it  not  for  the  fact  that  they  have  been  tried 
+upon  a  smaller  scale  by  the  more  adventurous  Legislatures  of  the  New 
+World. 
+
+"  The  gallantry  shown  by  Serbia  is  universally  recognized ;  and 
+■its  future  is  clearly  going  to  be  an  important  one.  It  is  strange  to  recall 
+that  the  present  war  immediately  arose  because  that  country  resented,  a 
+gratuitous  attempt,  sustained  by  Prussia  and  instigated  I  believe 
+chiefly  by  Hungary,  to  destroy  it  and  blot  out  its  independence." — Sir 
+Oliver  Lodge  :   "  The  War  and  After,"  pp.  201-204. 
+
+
+CONTENTS 
+I 
+
+
+PAGE 
+
+The  Soul  of  Serbia  .  .  .        .     ii 
+
+
+II 
+
+Serbia's  Place  in  Human  History         .  .         .31 
+
+III 
+
+Religion  and  Nationality  in  Serbia     .  •        •     55 
+
+IV 
+
+Serbia's  Tragedy       .  .  .  .         .     75 
+
+
+THE  SOUL  OF  SERBIA 
+
+
+THE  SOUL  OF  SERBIA 
+
+"  It  is  not  in  mortals  to  command  success  ; 
+But  we  will  do  more,  my  friend,  we  will  deserve  it." 
+
+Addison. 
+
+THE  great  Belgian  poet,  Maeterlinck,  believes  in 
+the  soul  of  plants  and  even  of  material  things 
+and  elements.  Is  there  anybody  among  you  who 
+doubts  that  Serbia  has  a  soul  ?  Is  there  anybody, 
+brethren  and  sisters,  with  the  conviction  that  Serbia 
+lives  "  by  bread  alone,"  and  that  she  fights  by  muscles 
+alone  ?  If  there  is  one  person  only  who  thinks  so,  I 
+would  consider  myself  very  happy  to  engage  all  my 
+time  and  all  my  force  to  correct  such  a  conviction. 
+I  would  be  happy  to  prove  that  not  by  muscles  so 
+much  as  by  soul  Serbia  was  enabled  to  endure  five 
+hundred  years  of  slavery  under  the  Turks,  to  suffer 
+during  such  a  long  time  without  being  annihilated,  to 
+get  rid  of  the  Asiatic  yoke  lately  without  anybody's 
+help,  to  resist  indomitably  the  greediness  of  almost 
+all  her  neighbours,  to  be  so  brilliantly  victorious  over 
+the  Austro-Magyars  in  November,  1914,  and  finally  to 
+defend  in  our  days  her  independence  against  the 
+organised  attack  of  the  Kaiser's  troops,  allied  with 
+the  troops  of  the  Austrians,  Magyars,  and  Bulgars, 
+
+
+12  THE   SOUL   OF   SERBIA 
+
+and  allied  also  with  the  perfidious  treachery,  Mongol 
+brutality,  and  all  kinds  of  worms  which  have  grown 
+up  through  centuries  and  centuries  in  the  mist  and 
+darkness  of  Balkanic  slavery.  The  Serbian  history 
+was  a  voyage  on  a  long,  thorny  way, — on  a  very  thorny 
+way  indeed.  The  only  physical  force,  without  being 
+doubled — oh,  much  more  than  doubled  ! — by  the 
+moral  and  intellectual  force,  i.e.  by  the  soul  itself, 
+was  certainly  not  sufficient,  not  even  for  a  bigger 
+national  body  than  the  Serbian,  to  make  such  a  thorny 
+pilgrim.age,  ever  struggling  against  oppression,  and 
+ever  striving  for  an  independent  being.    But 
+
+Killers  of  the  Body  are  not  Killers  of  the  Soul. 
+
+Our  physical  being  is  not  superior  in  any  way  to 
+the  physical  being  of  our  enemies.  Compared  with 
+the  Turks  in  robustness  and  corpulence,  the  Serbs  are 
+the  losing  party.  Naturally  a  race  of  conquerors 
+must  be  more  robust  and  more  stout  than  a  race  of 
+slaves. 
+
+At  the  moment  of  the  first  Serbian  conflict  with 
+the  Mongol  race,  the  Turks  might  have  been  weaker 
+individually  in  bodily  strength  than  we  Serbs.  Only  by 
+their  immense  number  they  succeeded  in  overwhelm- 
+ing us.  Three  Turks  were  engaged  in  fighting  against 
+one  Serb  in  the  famous  battle  of  Kosovo  (a.d.  1389), 
+just  as  now  three  Germano-Bulgars  are  against  one 
+Serb.  Two  of  our  kings  have  been  killed  during 
+seventeen  years  in  these  engagements  against  the 
+Turks — King  Vukashin  under  the  walls  of  Adrianople 
+and  King  Lazare  on  the  field  of  Kosovo.  You  can 
+now  easily  imagine  how  many  of  our  noblemen  and 
+brave  fighters  must  have  perished  when  two  kings  in 
+
+
+THE   SOUL   OF   SERBIA  13 
+
+seventeen  years'  fighting  in  the  first  ranks  were  killed. 
+But  you  cannot  easily  imagine,  without  reading  the 
+historic  documents,  how  many  hundred  thousands, 
+yea,  millions,  of  our  people  have  been  killed  by  the 
+fierce  invaders  from  Asia  during  five  centuries  !  The 
+massacres  have  been  ordered  by  the  Turkish  rulers 
+and  robbers,  carefully  prepared  for  like  the  great 
+festivals,  and  carefully  executed,  from  year  to  year, 
+from  century  to  century.  Western  Europe  remembers 
+with  horror  one  bloody  St.  Bartholomew's  night.  I 
+have  not  time  enough  to  count  for  you  all  the  blood- 
+red  nights  in  our  history  of  five  hundred  years. 
+Europe  is  now  beginning  to  learn  Serbian  history. 
+
+In  learning  Serbian  history  under  the  rule  of  the 
+criminal  Turks,  Europe  will  probably  forget  all  the 
+"  standard-crimes  "  of  men  and  nations  in  her  West. 
+It  happened  once  after  a  long,  long  butchery  that 
+the  Turks  looked  all  around  and  saw  only  cripples 
+and  blind  beggars  in  the  Serbian  country,  in  the 
+Fatherland  of  the  great  heroes  of  old.  The  body  of 
+the  Serbian  nation  was  obviously  killed.  But  still 
+the  soul  lived.  The  cripples  and  the  blind  were  cer- 
+tainly not  representatives  of  the  Serbian  physical 
+force  of  old,  but  they  were  always  the  representatives 
+of  the  national  soul.  If  you  look  a  little  deeper  in  the 
+human  life  you  will  be  astonished  to  see  how  humble 
+is  the  soul  in  the  Universe.  The  most  sublime  soul 
+sometimes  dwells  in  the  poorest  and  ugliest  house. 
+The  blind  Milton,  the  hunch-backed  Pope,  and  the 
+lame  Byron  certainly  cannot  be  taken  as  examples  of 
+English  physical  strength,  but  why  not  as  examples 
+of  the  English  soul  ?  The  Serbian  blind  beggars,  the 
+miserable  physical  constructions  they  must  have  been, 
+
+
+14  THE  SOUL  OF   SERBIA 
+
+sang  the  nationaljpast,  prophesied  the  national  future, 
+formulated  the  national  rights  and  hopes,  and  spirit- 
+ualised the  terrible  national  suffering — ^widening  with 
+their  clairvoyance  the  horizon  of  history. 
+'^Like  the  dark  cellar  in  which  the  vegetables  are 
+preserved  fresh  and  green  during  the  winter  until  the 
+spring,  so  our  blind  bards  preserved  the  soul  of  the 
+Serbian  people  throughout  the  cold  winter  of  slavery 
+until  the  spring  of  freedom.  The  barbarous  killers  of 
+the  body  could  not  kill  the  soul.    But 
+
+The  Modern  Killers  of  the  Body 
+
+cannot  kill  the  soul  either.  You  are  all  witnesses  of 
+that.  Poland  is  to-day  more  physically  killed  than 
+ever  in  history,  but  who  dares  to  say  that  the  Polish 
+soul  is  killed  too  ?  In  America  there  exists  a  New 
+Poland,  new  in  body  and  soul. 
+
+And  what  do  you  think  about  the  Armenians  ? 
+Did  not  Lord  Bryce  affirm  the  other  day  that  800,000 
+of  them  have  been  slaughtered  in  the  recent  massacre  ? 
+The  rest  are  now  persecuted  systematically,  and  who 
+knows  at  this  moment,  while  we  are  here  comfortably 
+sitting  and  speaking,  how  many  of  these  unhappy 
+Armenians  are  flying  before  their  oppressors  looking 
+towards  Mount  Ararat,  where  Noah  found  his  salva- 
+tion, and  searching  in  vain  for  an  ark  to  save  them- 
+selves from  the  deluge  of  the  overflowing  Turkish  fury  ? 
+And  still  the  soul  of  Armenia  cannot  be  killed. 
+
+And  Belgium  ?  Wealthy  and  industrious  Belgium, 
+though  she  has  lost  her  body,  has  found  her  soul.  "  I 
+saved  my  soul,"  said  the  King  of  Belgium.  Never  in 
+modern  history  has  the  soul  of  Belgium  been  seen  so 
+clearly  as  in  this  war,  since  the  great  trial  came  in  the 
+
+
+THE   SOUL   OF   SERBIA  15 
+
+form  of  the  German  invasion  and  the  sore  desolation 
+of  Maeterlinck's  country. 
+
+What,  then,  should  I  say  in  this  connection  about 
+my  poor  country  ?  The  modern  killers  of  the  body 
+have  shown  skilfulness  in  their  murderous  work  even 
+more  in  Serbia  than  in  any  other  corner  of  the  world 
+from  Hamburg  to  Bagdad.  The  Germans  invaded 
+Serbia  with  one  plan  :  to  conquer.  But  they  drove 
+away  all  the  Serbian  population  from  all  the  northern 
+districts  into  which  they  came.  You  may  ask,  Why  ? 
+In  order  to  take  corn,  hay,  cattle,  metals  and  every- 
+thing from  the  deserted  houses.  And  so  they  killed 
+thousands  and  thousands  not  directly  with  their  hands 
+but  indirectly  through  hunger.  And  then  they  plun- 
+dered all  the  towns  and  villages  under  the  pretext 
+that  they  found  them  deserted.  The  Magyars  and 
+Bulgars,  the  nations  which  received  just  as  much  of 
+the  German  chemical  and  atheistic  civilisation  as  is 
+necessary  to  make  them  fittest  for  the  crime — these 
+Magyars  and  Bulgars  invaded  Serbia  from  north,  west, 
+and  east,  with  two  plans  :  to  conquer  and  to  exter- 
+minate. More  capable  of  carrying  out  the  second  than 
+the  first  purpose,  they  availed  themselves  of  German 
+troops  and  German  howitzers  to  conquer  the  Serbian 
+land — ^that  land  detested  with  a  deadly  hatred,  yet 
+envied  for  its  glory.  The  extermination  they  accom- 
+plished with  a  diabolical  accuracy.  The  old  men  and 
+women,  the  sick  and  wounded,  the  crippled  and  blind, 
+have  been  slaughtered  with  joy  and  satisfaction.  The 
+houses,  schools,  and  haystacks  with  the  sheltering 
+Serbian  fugitives  have  been  burnt,  the  bishops  and 
+priests  insulted,  the  churches  transformed  into  stables, 
+the  beautiful  Hebrew  synagogue  in  Belgrade  reduced 
+
+
+i6  THE   SOUL   OF   SERBIA 
+
+to  ashes.  The  whole  of  the  Serbian  land  is  now  nothing 
+but  the  clay  of  the  bodies  of  the  innocent — nothing 
+but  a  chaos  of  dead  human  bodies  with  the  criminal 
+spirit  of  the  killers  triumphing  over  that  chaos. 
+
+If  you  ask  me,  "  What  is  Serbia  now  ?  "  I  will 
+reply  : 
+
+"  The  Serbian  language  is  no  longer  spoken,  but 
+only  whispered  on  the  soil  of  Serbia." 
+
+If  you  ask  me  again,  "  What  is  Serbia  now  ?  "  I 
+will  reply  : 
+
+"  The  Babylonian  king  of  old,  the  destroyer  of 
+Jerusalem,  would  be  ashamed  if  he  could  look  to-day 
+upon  the  ruined  Serbia  ;  so  imperfect  was  his  de- 
+structive work  in  comparison  with  the  work  of  the 
+great  Hunter  and  his  dogs.  Then  how  could  I  other- 
+wise call  the  Kaiser  from  Berlin  and  his  company  than 
+by  the  name  :  '  the  great  Hunter  and  his  dogs  '  \  " 
+
+If  you  ask  me  again,  "  What  is  Serbia  now  ?  "  I 
+will  reply  : 
+
+"  A  great  heap  of  the  slaughtered  dead  despising 
+the  living  killers." 
+
+Shall  I  give  one  more  reply  ? 
+
+"  Serbia  is  now  and  will  be  henceforth  the  conscience 
+of  her  enemies  and  her  friends.  The  enemies  will  be, 
+like  Richard  the  Third,  disturbed  in  their  sleep  by 
+the  pale  face  of  the  destroyed  Serbia,  whispering  like 
+spirits  :  '  Why  did  you  sin  so  much  against  me  ?  ' 
+And  her  friends  will  be  henceforth  frightened  in  their 
+dreams  by  the  phantom  of  martyred  Serbia,  with  the 
+everlasting  reproach  :  Why  did  you  not  help  me  in 
+time  ?  " 
+
+But  no,  I  am  wrong — the  dead  reproach  no  one. 
+Allow  me  now  to  resume  what  I  said  with  the  following 
+
+
+THE   SOUL   OF   SERBIA  i^ 
+
+statement  :  The  modern  killers  succeeded  perfectly 
+in  accomplishing  their  crime  against  Serbia,  to  kill 
+Serbia's  body,  but  they  succeeded  in  no  way  in  killing 
+the  Serbian  soul.  Serbia's  body  being  dead,  Serbia's 
+soul  is  now  more  alive  than  ever. 
+
+
+Our  Soul  is  Full  of  Tears. 
+
+Will  you  believe  me  when  I  say  that  no  people  in 
+the  world  weep  so  much  as  the  Serbian  people  ?  That 
+is  in  no  way  our  physiological  failure,  but  rather  our 
+soul.  Our  soul  is  in  our  tears.  We  wept  in  our  joy 
+and  we  wept  in  our  distress.  In  our  joy  we  wept 
+because  our  joy  has  been  only  a  rare  and  surprising 
+visitor,  and  in  distress  we  wept  because  distress  has 
+been  our  perpetual  householder.  With  tears,  with 
+"  holy  water  " — as  Shakespeare  called  them — ^with 
+only  "  holy  water  "  upon  the  earth,  as  we  dare  to  say, 
+Serbia  is  inundated  more  than  any  big  empire  in  the 
+world.  If  this  holy  water  sanctifies,  as  presumed,  then 
+Serbia  is  surely  sacred  soil. 
+
+Even  our  national  hero  and  our  model,  Marko 
+Kralevich,  the  hero  of  our  national  poetry,  and  the 
+hero  of  Mestrovich's  sculpture  also,  wept  very  much. 
+He  wept  on  hearing  about  the  wicked  deeds  of  the 
+Turks  ;  on  hearing  how  the  Turks  killed  and  plun- 
+dered the  poor  "  raya  "  ;  on  hearing  how  they  robbed 
+the  Serbian  girls  and  carried  the  Serbian  boys  to 
+Stamboul.  He  wept  on  seeing  the  Serbian  people  in 
+rags  and  the  robber  Turks  in  silk  and  satin  ;  on  seeing 
+the  Christian  Cross  overshadowed  by  the  Crescent  ; 
+and  on  seeing  the  Turks  defiling  the  Serbian  sanctuaries 
+and  carving  the  eyes  of  the  Serbian  saints'  pictures. 
+
+B 
+
+
+1 8  THE  SOUL   OF   SERBIA 
+
+He  fought  many  duels  and  killed  many  Turkish 
+tyrants,  but  he  wept  even  when  he  once  killed  a  Turk 
+— Mussa,  whom  he  considered  a  greater  fighter  than 
+himself.  He  possessed  a  gigantic  body — as  the  popular 
+tradition  described  him — though  he  had  a  melancholy 
+soul,  sorrowful  and  tearful.  That  is  quite  the  Serbian 
+soul — melancholy,  sorrowful,  and  tearful !  We  Serbs, 
+we  are  lovers  of  tears  ! 
+
+"  Better  is  a  bath  in  tears  than  in  Jordan,"  says  a 
+Serbian  proverb. 
+
+Another  proverb  says  :  "  So  many  worthy  prayers 
+as  many  tears." 
+
+And  another  :  "  A  temple  will  be  built  on  every  spot 
+on  which  a  tear-drop  fell." 
+
+And  another  :  "  With  tear-drops  the  sins  also  come 
+out." 
+
+And  another  :  "  It  is  better  to  weep  with  the  wise 
+than  sing  with  the  foolish." 
+
+Another  again  :  "  There  are  only  two  nations  upon 
+the  earth  :   that  which  weeps  and  that  which  laughs." 
+
+And  another  again  :  "  The  mourning  of  a  sufferer 
+awakes  the  angels,  the  laughing  of  a  drunkard  awakes 
+the  devil." 
+
+(I  remember  a  sentence  of  St.  Bernard  who  said, 
+"  The  tears  of  penitents  are  the  wine  of  angels  !  "  If 
+that  is  true  then  all  the  angels  are  in  Serbia  !) 
+
+Now,  somebody  may  think  that  tears  made  the 
+Serbian  people  wiser.  That  is  a  topic  which  may  be 
+discussed.  But  it  is  clear  and  out  of  all  discussion 
+that  the  long  suffering  affected  our  hearts  so  much 
+that  they  became  more  soft  and  humble.  You  have 
+probably  heard  that  we  Serbs  had  a  very  strong 
+aristocracy  in  the  Middle  Ages,  in  the  time  before  our 
+
+
+THE  SOUL   OF   SERBIA  19 
+
+suffering  and  weeping  in  Turkish  chains.  But  cer- 
+tainly you  did  not  hear  at  what  time  our  aristocracy, 
+our  princes,  dukes  and  velmoges  disappeared.  I  my- 
+self cannot  precisely  indicate  to  you  the  date.  But 
+I  can  tell  you  with  certitude,  that  it  happened  during 
+the  slavery,  during,  and  because  of,  the  common 
+hardships  and  common  humiliation.  And  if  you  wish 
+me  to  speak  more  precisely  I  can  say  :  it  happened 
+on  the  day  when  our  rich  and  poor,  our  noble  and 
+ignoble,  united  their  tears,  having  been  equally  in- 
+jured and  downtrodden  by  iniquity  and  brutality. 
+Consequently  The  Serbian  Democracy  was  Born 
+IN  Tears.  That  is  a  point  that  I  should  especially 
+accentuate  to  an  English  audience.  Your  country  is 
+the  home  and  hearth  of  the  European  democracy. 
+Your  democracy  was  formed  after  long  experimenting 
+and  reasoning.  Wisdom  is  the  foundation  of  your 
+democratic  organisation.  Yet  our  Serbian  democracy 
+is  quite  different.  It  is  very  similar  to  the  American 
+democracy.  It  is  something  unplanned,  unprepared, 
+spontaneous  and  genuine.  For  a  long  time  we  have 
+had  a  democracy  without  knowing  its  name.  Many 
+other  peoples  first  invented  the  name  "  democracy  " 
+and  then  went  to  find  that  for  which  such  a  name  may 
+be  suitable.  One  day  when  the  origin  and  essence  of 
+our  democracy  shall  be  studied  the  world  will  be  sur- 
+prised, as  it  was  by  our  coming  into  independent  being 
+a  few  hundred  years  ago. 
+
+Our  democracy  is  in  some  ways  very  similar  to  the 
+American. 
+
+
+20  THE   SOUL   OF   SERBIA 
+
+
+Serbia  is  the  Little  America, 
+
+or  America  in  Europe.  A  hundred  years  ago,  as  the 
+famous  Burke  wonderfully  advocated  the  New  World 
+and  prophesied  a  grand  future  for  it,  America  num- 
+bered less  than  three  million  inhabitants.  That  was 
+an  entire  world  in  ovo.  Serbia  of  to-day  has  five 
+millions,  America's  population  at  the  present  time  is 
+nearly  a  hundred  millions,  I  have,  of  course,  no  in- 
+tention of  making  a  comparison  of  America's  and 
+Serbia's  bodies,  but  only  of  their  souls.  What  was  the 
+spirit  of  America  from  the  beginning,  if  not  the  protest 
+against  Europe  ?  Except  in  the  case  of  the  curiosity 
+of  Columbus  and  his  comrades,  America  from  the  very 
+beginning  has  coloured  herself  with  an  anti-European 
+colour.  The  many  grotesque  qualities  of  the  physical 
+and  spiritual  civilisation  in  the  America  of  to-day  are 
+the  product  of  the  old  desire  to  differ  as  much  as 
+possible  from  Europe. 
+
+Well,  we  Serbs  arose  a  century  ago  as  a  protest 
+against  Europe. 
+
+We  protested  against  the  Turkish  tyranny  which 
+abased  us  to  stupid  animals  or  dead  things.  Our 
+blind  bards  excited  the  soul  of  the  slaves  against  the 
+inhuman  dominators.  They  sang  about  the  equal 
+right  of  all  men,  consequently  of  Serbs  also,  to  live 
+freely  upon  the  earth.  They  passionately  rejected 
+and  condemned  the  Turkish  pretension  to  exploit 
+Serbian  property,  to  dispose  of  Serbian  lives  freely 
+and  irresponsibly.  They  even  argued  that  the  laborious 
+and  sober  Serb  should  possess  greater  rights  than  the 
+lazy  and  vicious  Turk.    We  protested,  and  we  arose  to 
+
+
+THE   SOUL   OF   SERBIA  21 
+
+fight.  Yet  the  whole  of  Europe  supported  the  Turk 
+and  applauded  his  intention  of  punishing  the  Serbian 
+rebels.  But  our  loud  protest  against  the  bloody  Turk 
+was  at  the  same  time  a  silent  protest  against  Europe. 
+
+We  protested  soon  afterwards  against  Metternich's 
+Austria.  When  I  say  Metternich's  Austria,  I  mean  the 
+most  anti-Christian  rule  in  a  Christian  country.  As 
+Turkey  represented  in  the  Balkans  the  most  perverse 
+Mohammedan  regime,  quite  contrary  to  the  true  and 
+beautiful  Islamic  spirit  of  righteousness,  so  Austria 
+represented,  and  unfortunately  still  represents,  the 
+most  perverse  Christian  regime,  quite  contrary  to  the 
+true  Christian  spirit  of  national  and  personal  liberty. 
+Perhaps  you  will  ask  :  "  How  does  the  Christian,  or 
+anti-Christian,  rule  in  Austria  concern  you  ?  "  Cer- 
+tainly, if  you  suppose  the  frontier  between  Serbia  and 
+Austria  to  be  a  national  and  natural  one,  as  the 
+frontier  between  England  and  France,  or  between 
+France  and  Italy,  you  were  quite  right  in  putting  such 
+a  question.  But  please  take  notice  of  the  fact  that  the 
+Kingdom  of  Serbia,  with  Montenegro,  includes  only  a 
+minority  of  the  Serbian  race.  This  minority  numbers 
+something  over  five  millions.  But  there  are  over  eight 
+millions  of  our  Serbian  brethren  (Serbs,  Croats  and 
+Slovenes)  in  the  monarchy  of  the  Hapsburgs.  How 
+could  we  not  be  troubled  with  the  question  of  what 
+life  they  live  and  what  government  they  have  ? 
+
+We  did  right,  I  am  convinced,  or  at  least  we  did 
+what  the  English  people  would  do  if  they  had  eight 
+millions  of  their  brethren  under  the  yoke  of  any  un- 
+scrupulous foreigners.  We  protested  and  protested. 
+Our  protest  was  ridiculed  by  Austrian  diplomacy  and 
+journalism,  and,  so  ridiculed  and  caricatured,  came  to 
+
+
+22  THE   SOUL   OF   SERBIA 
+
+English  and  French  ears.  Self-sufficient  and  com- 
+fortable Europe  was  afraid  only  of  any  trouble,  and 
+therefore  Austria,  with  her  peaceful  perfidy  calumni- 
+ating "  troublesome  "  Serbia,  found  a  more  willing 
+listener  than  protesting  Serbia.  What  could  poor 
+Serbia  do  in  such  a  case  ?  She  protested  loudly 
+against  Austria  and  silently  against  the  whole  of 
+Europe.  Certainly  her  protest,  loud  or  silent,  was  like 
+a  voice  "  in  the  desert."  Yet  she  still  protested 
+rnelancholically  and  waited  hopefully.  Her  thoughts 
+at  that  time  were  as  these  : — 
+
+"  Both  the  Sultan  and  the  Kaiser  have  golden 
+crowns  but  hearts  of  coal." 
+
+Or,  as  a  Turk  asked  a  Serbian  :  "  Why  are  you 
+Serbs  so  poor  and  naked  ?  "  the  reply  was  :  "  Because 
+justice  is  our  only  clothing." 
+
+Or  another  Serbian  proverb  :  "  Better  thinks  the 
+horse  of  a  Turkish  Bey  than  the  Bey  himself.  The 
+Bey  sees  Beys  and  slaves  in  the  world,  and  his  horse 
+sees  men  only." 
+
+Or  another  word  :  "  What  is  the  earthquake  ?  The 
+earth  trembles  because  of  the  injustice  of  man  to 
+man.  What  means  the  eclipse  of  the  sun  ?  The  sun 
+hides  its  eyes  so  as  not  to  see  how  the  brother  kills 
+his  brother." 
+
+The  suffering  people  comforted  themselves  with 
+sayings  like  these  : — 
+
+"  Fools  only  laugh  in  this  world,  but  sufferers  and 
+God  will  laugh  in  the  other." 
+
+Or  :  "  For  a  long  time  God  did  not  make  Paradise, 
+but  after  He  saw  the  sufferings  of  the  Serbs  He  made  it." 
+
+Poor  people  !  Their  hopes  saved  them.  The  force 
+of  their  soul  endured  all  the  physical  pain  and  priva- 
+
+
+THE   SOUL   OF   SERBIA  23 
+
+tion.    The  killers  of  the  body  never  succeeded  in  killing 
+their  soul. 
+
+Beautiful  Death. 
+
+In  no  other  country  in  the  world  can  you  hear  the 
+people  speaking  so  much  about  beautiful  death  as 
+among  the  Serbian  people.  Even  lately  you  may  have 
+read  the  message  of  the  Serbian  Premier,  Mr.  Pashich, 
+that  the  Serbs  have  decided  to  fight  until  the  last 
+man,  because,  he  said  :  "It  is  better  to  die  in  beauty 
+than  to  live  in  shame."  "  To  die  in  beauty  " — ^to 
+have  "  a  beautiful  death  " — that  is  quite  the  Serbian 
+spirit  of  old  and  of  modern  times.  The  Serbs  in 
+Montenegro  sang  with  passion  and  envy  every  heroic 
+death.     Such  popular  songs  habitually  ended  : 
+
+"  Happy  is  he,  now  and  for  ever. 
+
+For  he  died  such  a  beautiful  death." 
+
+And  the  Sloven  poet  from  Ljubljana  (Laibach),  Simon 
+Gregoric,  sang,  quite  in  the  national  spirit  : 
+
+"  To  die,  my  brethren,  is  not  painful ; 
+To  abandon  hope,  that  is  painful." 
+
+As  a  young  Serbian  monk,  Abakum,  was  impaled 
+by  the  Turks,  his  mother  stood  below  and  wept.  And 
+the  son  looked  toward  her  and  said  : 
+
+"  Mother,  dear,  my  thanks  for  your  motherly  milk. 
+But  do  not  weep  ;  the  Serb  is  Christ's  follower  and 
+enjoys  death." 
+
+Another  Serbian  martyr  said  to  his  torturers : 
+"  My  pain  is  only  for  a  short  time,  but  your  shame  is 
+for  ever.  I  am  going  to  the  place  where  I  can  despise 
+your  life.  Sweet  is  it  to  be  dead  without  you,  as  it  is 
+bitter  to  live  with  you." 
+
+
+24  THE  SOUL   OF   SERBIA 
+
+Not  to  fear  death  was  the  most -recommended  dogma 
+of  Serbian  conduct  of  Hfe  for  centuries.  "  Fear  very 
+often  dishonours  Hfe,"  said  a  great  Serbian  prince 
+from  Montenegro. 
+
+Life  is  not  worth  so  much  that  honour  may  be 
+sacrificed  for  it.  Life  in  slavery  is  ugher  than  death. 
+A  beautiful  death  seems  sometimes  to  be  the  very  aim 
+of  life.  It  is  considered  as  a  bath  for  all  the  impurities 
+of  a  sinful  life.  I  remember  a  Serbian  officer  whose 
+life  was  lax  and  impure.  In  the  battle  on  the  Drina 
+he  died  a  hero's  death,  and  at  once  the  whole  of  his 
+life  was  transfigured  in  the  eyes  of  all  the  people.  His 
+life  was  dignified  and  ennobled  by  his  death.  The 
+shadows  vanished  and  the  light  was  exaggerated. 
+That  has  always,  and  for  everybody,  the  same  great 
+effect — I  mean  a  beautiful  death.  A  witness  of  the 
+present  war,  an  English  gentleman,  Rev.  R.  J.  Camp- 
+bell, writes  of  the  "  higher  command  "  that  men  in 
+the  war  oftentimes  heard  and  consequently  rushed 
+into  death.  He  described  "  an  exultant  joy  in  losing 
+everything,  forsaking  everything,  crucifying  every- 
+thing dear  to  the  natural  man."  And  then  he  adds  : 
+"  Witness  Serbia  to-day  ;  old  men,  sick  men,  women, 
+girls,  little  children  dying  with  arms  in  their  hands. 
+This  is  Serbia's  hour  of  agony  and  glory.  Her  people 
+are  not  merely  being  defeated  ;  they  are  being  ex- 
+terminated. They  need  not  be,  and  at  first  sight  one 
+wonders  why  they  should  consent  to  be.  All  they 
+have  to  do  is  to  throw  down  their  arms  and  submit 
+to  the  invader.  They  might  have  to  suffer  a  little 
+more,  endure  an  ignominious  subjection,  but  at  least 
+this  tide  of  slaughter  would  be  stayed.  And  they  will 
+not.    The  world,  with  parted  lips  and  straining  eyes. 
+
+
+THE  SOUL   OF   SERBIA  25 
+
+beholds  that  they  will  not.  Yet  these  very  people 
+not  so  long  ago  were  mean,  ignorant,  chaffering, 
+thieving,  petty  traders  and  pig-breeders.  Any  who 
+have  had  to  deal  with  them  know  they  were  no  models 
+of  all  the  virtues."*  So  writes  Mr.  Campbell,  the  well- 
+known  preacher  and  moralist.  And  I  can  say  only  : 
+Yes,  we  have  been  a  mean,  ignorant,  chaffering, 
+thieving  people,  and  we  never  have  been  models  of 
+all  the  virtues.  I  was  once  in  the  parish  of  Mr.  Camp- 
+bell. There  is  a  tube-station,  as  in  many  others  in 
+London,  and  in  this  tube-station  I  read  the  same  words 
+that  I  read  in  every  tube-station  in  London  :  "  Be- 
+ware of  pickpockets  !  "  I  was  ashamed,  because  I 
+thought,  "  Doubtless  by  this  we  Serbs  are  meant  !  " 
+Yet  the  beautiful  death  is  like  a  white  snow  cover 
+hiding  all  the  black  spots  of  mud  and  dirt.  An  un- 
+selfish death  may  be  the  atonement  for  a  selfish  life. 
+A  heroic  death  may  be  a  great  light  for  a  dark  life. 
+Mr.  Campbell  seems  to  think  that  the  present  suffering 
+of  Serbia  is  recovering  or  rather  re-creating  Serbia. 
+Like  a  snow-white  cover,  a  glorious  and  beautiful 
+death  covers  now  the  whole  of  Serbia,  of  the  mean, 
+sinful  Serbia.  There  is  no  more  mud  and  dirt  to  be 
+seen  over  there.  There  came  suffering  and  death  and 
+sanctified  Serbia.    Yes — sancta  Serbia  ! 
+
+
+The  Triumph  of  the  Soul. 
+
+I  will  remind  you  of  a  curious  psychological  fact 
+that  only  in  this  world-war  became  obvious  to  every- 
+body.    This  fact  is  :    Oppression  of  the  body  results 
+
+*  Sunday  Herald,  December  5,  1915. 
+
+
+26  THE   SOUL   OF   SERBIA 
+
+very  often  in  a  revival  of  the  soul.  Do  you  think 
+that  Zeppelins  brought  only  damage  to  the  people  of 
+London  ?  Or  that  the  German  submarines  destroying 
+the  Ltisitania  and  Arabic  did  purely  harm  to  English 
+interests  ?  Methinks  not  so.  Methinks  that  the 
+Zeppelins  and  submarines  were  destructive  only  for 
+English  bodies  and  constructive  for  English  souls. 
+Physical  suffering  awoke  the  conscience  and  patriot- 
+ism of  this  country.  Lord  Kitchener's  "  call  for  more 
+men  "  was  even  strengthened  by  the  raids  of  Zeppelins 
+and  submarines  and  by  the  martyr  death  of  Miss 
+Cavell.  By  their  inhuman  warfare  the  Germans  killed 
+some  thousands  of  bodies,  but  stirred  and  kindled 
+some  millions  of  souls  in  Great  Britain. 
+
+Our  Serbian  history  gives  an  experimental  proof 
+of  how  oppression  of  the  body  results  in  a  revival  of 
+the  soul.  The  more  the  Serbian  body  was  oppressed 
+the  higher  the  Serbian  soul  was  uplifted.  In  the  happy 
+time  of  peace  and  pleasure  man  lives  more  the  physical 
+life,  and  in  the  dark  time  of  bodily  oppression  man 
+lives  more  the  spiritual  life.  It  seems  to  me  sometimes 
+that  life  is  identical  with  freedom.  When  the  body  is 
+quite  free,  then  it  becomes  the  centre  of  a  man's  life. 
+When  the  body  is  in  the  chains  of  slavery,  then  only 
+the  soul  can  be  free  ;  and  being  free  it  becomes  the 
+centre  of  a  man's  life.  You  will  mention  that  the 
+harmony  of  the  two  is  ideal.  You  will  say  :  The  best 
+is  when  a  man  is  free  in  body  and  soul.  I  were  short- 
+sighted should  I  not  agree  with  you.  But  it  is  un- 
+fortunately stated  as  a  rule  that  in  the  case  of  the 
+freedom  of  body  and  soul  practically  the  body  only 
+is  free. 
+
+During  the  time  of  our  sufferings  our  Serbian  soul 
+
+
+THE   SOUL   OF   SERBIA  27 
+
+was  similar  to  the  lightnings  in  the  black  clouds  ;  the 
+body  was  despised,  the  soul  exalted. 
+
+"  My  body  belongs  to  the  Turks  and  dogs,  but  my 
+soul  is  mine,"  was  a  Serbian  saying. 
+
+The  intensity  of  the  life  of  the  soul  corresponded 
+to  the  intensity  of  bodily  oppression.  The  soul  en- 
+dured, survived,  triumphed.  That  is  the  lesson  of 
+the  Serbian  past.  That  is  the  lesson  of  the  present 
+time  in  Serbia  too.  Do  not  think,  please,  that  our 
+belief  in  the  supreme  victory  of  good  over  evil  is  shaken 
+by  our  present  suffering.  Do  not  believe  that  our 
+hopes  are  banished  by  the  present  catastrophe.  Many 
+times  in  our  history  we  have  been  cast  by  Fate  to  the 
+very  bottom  of  Hell.  Yet  on  this  bottom  of  Hell 
+we  still  believed  in  Heaven. 
+
+We  Cannot  Command  Success. 
+
+One  of  your  great  poets,  Addison,  wrote  this  true 
+and  beautiful  sentence  : — 
+
+"  It  is  not  in  mortals  to  command  success  ; 
+But  we  will  do  more,  my  friend,  we  will  deserve  it." 
+
+These  words  can  be  applied  very  well  to  our  Serbian 
+fate.  So  can  we  Serbs  say  :  It  was  not  in  our  power 
+to  command  success,  but  we  did  our  best,  and  we 
+deserved  success.  For  eighteen  months  Serbia  fought 
+victoriously  for  her  freedom,  for  the  freedom  of  all 
+her  Southern  Slav  brethren  under  the  yoke  of  Austro- 
+Hungary,  and  for  the  common  cause  of  her  powerful 
+Allies.  You  can  hardly  imagine  all  the  privations  and 
+hardships  which  Serbia  has  endured  since  this  world- 
+struggle  began. 
+
+
+28  THE   SOUL   OF   SERBIA 
+
+And  now  !  What  a  catastrophe  !  The  country 
+conquered  by  the  modern  Nebuchadnezzar  of  BerUn  ; 
+the  army  pressed  to  the  Adriatic  coast  ;  many  thou- 
+sands of  old  men  and  women,  of  helpless  children  and 
+their  mothers,  fled  to  the  Kingdom  of  the  German 
+King  Constantine,  to  the  inhospitable  Albanian  desert, 
+or  to  the  heroic  but  breadless  Montenegro.  Without 
+home,  without  food,  without  aim  !  Their  life  is  nothing 
+else  than  a  silent — a  slow — dying  out. 
+
+And  still  the  soul  of  the  suffering  Serbia  is  not  dead. 
+She  is  again  put  on  the  bottom  of  Hell,  but  still  she 
+looks  towards  Heaven  with  belief,  hope,  and  expecta- 
+tion. She  looks  over  the  sea  towards  this  blessed  and 
+Leading  Island,  whispering  : 
+
+"  I  am  dying  for  the  cause  for  which  England  has 
+been  living.  That  cause  comprehends  the  Christian 
+ideals  of  freedom  and  of  humane  civilisation.  But 
+my  Soul  cannot  die,  my  Day  will  come.  I  am  very 
+sorry  that  England  must  suffer  so  much  because  of 
+my  suffering.  (She  has  suffering  enough  of  her  own.) 
+I  did  not  get  success,  but  I  deserved  success.  When 
+England,  the  leading  country  of  human  civilisation, 
+thinks  that  I  deserved  success — and  she  does  think  so 
+— I  am  satisfied.  The  killers  of  my  children  have  not 
+killed  my  soul.    I  did  my  duty — I  saved  my  soul." 
+
+
+II 
+
+SERBIA'S  PLAGE  IN   HUMAN 
+HISTORY 
+
+
+"  Serbia  is  the  route  to  the  East.  ...  It  cannot  be 
+repeated  too  often  that  Serbia  is  the  chief  obstacle  to 
+those  plans  of  political  predominance  from  Berlin  to 
+Bagdad,  which  lie  at  the  back  of  Germany's  mind  in 
+this  world-war  ;  that  her  services  to  the  common 
+cause  entitle  her  to  be  treated  on  an  equal  footing 
+with  all  the  other  allies  ;  and  that  just  as  Serbia  is  the 
+route  from  the  West  to  Constantinople  and  Salonica, 
+so  she  is  the  route,  as  in  Turkish  days,  from  Eastern 
+Europe  to  Vienna  and  Berlin.  Sooner  or  later  it  will 
+become  clear,  even  to  the  man  in  the  street,  that 
+the  way  to  Berlin  lies  not  through  Belgium  but 
+through  the  Balkans  and  the  great  Hungarian 
+plains." — R.  Seton-Watson,  The  Balkans,  Italy  and 
+the  Adriatic,  pp.  31-32. 
+
+
+THE  STRUGGLE  BETWEEN  SUPER-MAN 
+AND  ALL-MAN 
+
+"  Our  strong  arms  be  our  conscience,  swords  our  law,"  says 
+Super-man. 
+
+"  Whosoever  exalteth  himself  shall  be  abased  ;  and  he  that 
+humbleth  himself  shall  be  exalted,"  says  All-man. 
+
+IF  the  little  children,  our  posterity/,  should  ask  us, 
+how  long  have  you  lived  upon  this  earth,  we, 
+brethren,  should  answer  :  thousands  of  years.  And 
+our  answer  would  be  true. 
+
+All  that  our  eyes  have  seen,  and  our  ears  heard, 
+and  our  hands  made,  and  our  hearts  felt,  and  our 
+minds  created  during  our  life  upon  the  earth  :  all 
+that  is  not  easy  of  accomplishment  in  a  thousand 
+years. 
+
+And  in  our  answer  we  can  also  say  that  the  time 
+for  us  has  not  been  long.  Indeed,  we  have  not  felt  it, 
+because  our  generation  has  kept  on  growing,  not  by 
+reason  of  long  time  but  because  of  our  great  sorrows, 
+and  died,  not  old  in  years,  but  exhausted  in  working 
+and  creating. 
+
+The  contents  of  our  time  have  been  the  very  essence 
+of  good  and  evil  of  many,  many  centuries.  By  this 
+essence,  but  only  diluted,  will  live  many  after-genera- 
+tions, through  whom  fate  will  continue  our  own  life 
+upon  this  unquiet  and  terrible  planet. 
+
+31 
+
+
+32  SERBIA'S   PLACE 
+
+Now  in  these  "  essential  "  times  when  human  hfe 
+is  measured  not  by  days  but  by  deeds,  and  when  the 
+greatest  events  have  happened  since  the  creation  of 
+the  world,  in  this  time  our  Serbian  people  have  not 
+been  merely  spectators  but  active  participants  and 
+creators  of  these  events,  and  first  in  point  of  time  as 
+well  as  in  energy.  Our  Serbian  people  have  occupied 
+on  the  page  of  to-day's  world  history  a  place  almost 
+parallel  with  the  greatest  and  most  famous  modern 
+nations,  with  English,  Russian,  and  French. 
+
+Is  this  fact  only  accidental  and  ephemeral  ?  Will  it 
+be  that  at  the  end  of  this  war  the  Serbian  nation  will 
+be  forgetful  of  its  Allies  and  maliciously  despised  by 
+its  neighbours  ? 
+
+Will  this  nation  be  punished  by  Fate,  as  a  bold 
+parvenu  who  succeeded  momentarily  in  reaching  the 
+heights  and  in  mingling  with  a  society  which  is  not 
+its  own  ?  In  a  word  :  What  place  henceforth,  in  the 
+world's  history,  will  the  Serbian  nation  occupy  ? 
+
+But  before  we  answer  our  question  as  to  what  place 
+it  will  occupy  in  the  future,  we  must  first  enquire  what 
+place  it  has  occupied  in  the  past,  and  what  place  it 
+has  at  the  present  time.  We  need  to  have  two  points 
+to  be  able  to  draw  a  straight  line  which  we  can  pro- 
+long into  the  future,  and  by  which  we  can  measure 
+the  future. 
+
+If  we  had  the  same  point  of  view  as  the  modern 
+German  philosophers  of  history  and  law,  we  would 
+not  put  the  above  question.  For  almost  fifty  years 
+past,  these  philosophers  have  conducted  a  fanatical 
+propaganda  of  the  idea  that  the  little  nations  have  no 
+right  to  existence,  and  that  all  small  national  and 
+political  entities  have  to  be  merged  in  the  greater 
+
+
+IN   HUMAN   HISTORY  33 
+
+ones  who  alone,  according  to  this  famous  theory,  have 
+the  right  to  independent  being  and  capabihty  for 
+cultured  creation.  Read  :  Max  Stirner,  Nietzsche, 
+Treitschke,  Bernhardi. 
+
+But  we  cannot  possibly  accept  this  German  theory, 
+because  it  is  desperate  from  every  point  of  view  ;  it 
+is  desperate  for  small  nations  because  it  threatens  the 
+destruction  of  the  body  of  the  small  nations,  and  it  is 
+desperate  also  for  the  great  nations  because  it  threatens 
+the  destruction  of  their  souls.  We  must  not  accept 
+this  theory  as  Christians  because  that  would  mean  we 
+were  falling  back  to  the  pagan  times  when  the  weak 
+were  cast  down  from  the  Tarpeian  Rock,  and  we  cannot 
+as  Christians  again  experiment  with  Neros  and  gladia- 
+tors, with  adoration  of  pagan  idols  and  with  the  slave- 
+trade.  And  we  cannot  accept  this  theory  as  human 
+beings  because  it  approximates  us  to  the  animal  life, 
+and  the  superiority  of  our  human  life  over  the  animal 
+life  consists  in  greater  sociability,  in  greater  indulgence 
+towards  the  weak,  in  common  support  of  each  other, 
+and  in  the  accomplishment  of  all — and  not  only  of 
+some  human  beings,  and  of  rising  from  the  beast  up 
+to  God, 
+
+This  political  Nietzscheanism  whose  theorists  have 
+been  Treitschke  and  Bernhardi,  and  which  has  been 
+carried  into  practice  by  Bismarck,  the  Prussian 
+Junkers  and  Kaiser  William,  not  only  cannot  avoid 
+the  individual  Nietzscheanism,  but  would  be  the  most 
+servile  guide,  who  would  go  ahead  and  carry  this 
+individual  Nietzscheanism  just  as  a  body  carries  its 
+shadow.  For  as  soon  as  it  is  said  and  accepted  that  a 
+stronger  state  possesses  the  full  right  of  domination 
+over  a  smaller  neighbouring  state,  at  once  it  must  be 
+c 
+
+
+34  SERBIA'S   PLACE 
+
+conclusively  said  and  accepted  that  a  stronger  man, 
+too,  possesses  the  full  right  of  domination  over  his 
+weaker  fellow  man.  And  as  soon  as  the  notion  of  a 
+physical  super-nation  and  super-state  may  be  fixed  in 
+the  mind  of  human  kind,  the  notion  of  a  physical  super- 
+man must  be  subsequently  fixed  and  acknowledged 
+too.  Once  the  physical  super-man  is  acknowledged  as 
+the  ideal  of  men,  the  history  and  culture  of  man- 
+kind will  be  thereby  brought  down  to  South  Sea 
+cannibalism,  singing  the  words  of  Richard  the 
+Third  :  "  Our  strong  arms  be  our  conscience,  swords 
+our  law." 
+
+Shall  indeed  the  dramatic  history  and  the  glorious 
+culture  of  mankind  end  so  miserably  ?  No  !  This 
+philosophy,  which  means  the  negation  of  the  greatest 
+moral  achievements  to  which  mankind  climbed  up 
+through  blood  and  tears, — this  philosophy  must  never 
+be  ours.  Our  ideal  is  not  the  super-man  but  the  All- 
+man. 
+
+The  Son  of  God  designed  the  same  ideal  by  His 
+words,  and  sanctified  it  by  His  blood  upon  the  earth. 
+By  degrees,  during  many  centuries,  this  ideal  was 
+carved  in  the  ethical  consciousness  of  European  man- 
+kind, and  was  in  detail  elaborated  and  accentuated 
+by  the  most  spiritual  and  most  gifted  men  of  the 
+European  and  American  continents  :  Emerson,  Victor 
+Hugo,  Dickens,  Tolstoi,  Longfellow,  Dostoievsky,  i.e. 
+the  men  whose  works  came  to  be  the  first  and  most 
+sacred  after  Holy  Writ  for  nine-tenths  of  reading 
+people. 
+
+According  to  this  philosophy,  which  is  presented 
+lastly  more  and  more  as  the  Slavonic  philosophy  and 
+which  consequently  is  ours  too,  we  confess  that  no 
+
+
+IN   HUMAN   HISTORY  35 
+
+man  has  the  full  right  over  his  fellow  man  and  that 
+no  nation  has  the  full  right  over  its  fellow  nation.  The 
+first  principle  of  this  philosophy  is — freedom,  the 
+second — love. 
+
+We  consider  ourselves  not  as  the  lords  of  this  world. 
+We  look  upon  this  world  as  upon  God's  field  and  upon 
+human  beings  as  upon  God's  seed.  The  great  Sower 
+has  sown  the  seed  upon  His  field.  Wlio  gave  us  the 
+right  to  say  :  this  and  that  seed  is  not  good,  therefore 
+He  shall  root  it  out  ?  Who  gave  us  the  right  to  say  : 
+this  and  that  creature  must  be  burnt  because  it  is 
+not  of  our  colour,  of  our  smell  and  of  our  fruit  ?  Who 
+made  us  judges  of  the  world,  so  that  we  could  pro- 
+nounce these  pretentious  words  :  this  nation  must 
+be  exterminated  because  it  is  too  small ;  and  this  one 
+must  be  dispersed  because  it  is  perilous  ;  and  this  one 
+must  be  subjugated  because  it  speaks  not  our  tongue 
+and  prays  to  God  not  according  to  our  rite  ?  No  ; 
+we  have  not  one  right  without  a  corresponding  obliga- 
+tion. 
+
+We  have  the  right  to  live  in  this  world,  but  also 
+the  obligation  to  let  other  people  live  too. 
+
+We  have  the  right  to  be  free,  but  also  the  obligation 
+to  make  other  people  free. 
+
+We  have  the  right  to  our  daily  bread,  but  also  the 
+obligation  to  take  care  of  our  hungry  neighbours. 
+
+We  have  the  right  to  demand  the  protection  of  our 
+person,  but  also  the  obligation  to  protect  people  in 
+danger. 
+
+We  have  the  right  to  look  upon  ourselves  as  the 
+sons  of  God  and  upon  our  nation  as  God's  nation, 
+but  the  obligation,  too,  to  look  upon  all  men  as  the 
+sons  of  God  and  upon  all  nations  as  God's  nations. 
+
+
+36  SERBIA'S  PLACE 
+
+We  Serbians  uphold  such  a  philosophy  not  because 
+we  are  little  but  because  this  philosophy  is  great  and 
+sublime.  The  day  will  come  when  this  philosophy 
+will  be  generally  acknowledged  as  the  only  salutary 
+philosophy  for  the  soul  and  body  of  humankind.  It 
+will  draw  man  nearer  to  man,  nation  to  nation,  state 
+to  state,  and  it  will  join  all  in  one  brotherhood,  one 
+love,  one  kingdom  of  God  upon  the  earth.  We  keep 
+this  philosophy  because  we  have  sufficiently  experienced 
+throughout  the  centuries  the  perniciousness  of  the 
+opposite  philosophy  of  our  neighbours,  that,  namely, 
+which  is  appropriated  by  the  Germans  as  their  national, 
+political  and  social  guide  in  this  world,  and  v/hich  is 
+completely  expressed  in  the  words  :   Might  is  right  ! 
+
+We  have  never  been  the  followers  of  such  a  philo- 
+sophy but  we  have  never  feared  it.  Our  struggle 
+against  the  nations  who  follow  this  watchword  ("  Might 
+is  right  ")  fills  the  whole  of  our  history. 
+
+
+II 
+
+-  BEFORE  AND  AFTER  THE  BATTLE  OF 
+KOSOVO 
+
+"  I  would,  and  my  horse  could,  but  God  consented  not." 
+
+Serbian  Proverb. 
+
+Let  us  now  consider  more  closely  what  place  we  have 
+occupied  and  what  role  we  have  played  in  the  world's 
+history. 
+
+I   Our  known  history  began  at  the  time  when  we  came 
+in  contact  with  Byzantium,  at  the  very  time  of  the 
+
+
+IN    HUMAN    HISTORY  37 
+
+great  Settlement  of  Nations,  which  meant  a  new  start 
+in  the  game  of  world-history.  Hundreds  of  years  of 
+our  earlier  history  are  shrouded  in  darkness.  We  do 
+not  know  our  Carpathian  history — our  bucolic  and 
+pagan  antiquity,  shared  by  the  Russians  and  all  the 
+Slav  brethren  in  common — we  know  only  our  Balkan 
+history.  From  the  earliest  times  the  Balkans  may  be 
+compared  to  a  theatre  in  which  the  worst  places  were 
+the  most  expensive  ;  and  here  from  the  very  first. 
+Destiny  has  exacted  from  us  Serbians  very  heavy 
+entrance-prices.  From  the  first  day  our  task  was  to 
+protect  ourselves  against  the  lack  of  scruple  and  the 
+Nietzscheanism  of  cultured  and  uncultured  nations  ; 
+firstly  against  the  decadent  cultured  Byzantines,  after- 
+wards against  the  barbarous  Huns  and  Avars,  Bulgars 
+and  Magyars,  then  against  the  new  invaders,  the 
+Turks,  and  finally  against  the  artful  Venetians  and 
+the  Germans. 
+
+At  the  very  moment  when  Byzantium  ceased  to  be 
+dangerous  to  us  we  took  up  the  task  of  defending 
+Byzantium  from  her  horrible  enemy,  the  Turk.  Our 
+Tsar  Dushan  made  the  alliance  with  the  Byzantine 
+regent  Cantacuzene  so  as  to  defend  the  Balkans  against 
+the  Asiatic  flood  which  approached  nearer  and  nearer 
+to  Constantinople. 
+
+After  Tsar  Dushan,  the  King  Vukashin  excelled  as 
+the  great  champion  of  the  Christian  Balkans  against 
+the  Osmanlis.  For  before  the  famous  battle  of  Kosovo 
+in  Old  Serbia  we  had  to  sustain  a  similar  battle  at 
+Adrianople,  on  the  river  Maritza.  On  the  threshold 
+of  Bulgaria,  which  country  was  unable  to  give  any 
+resistance  to  the  Turks,  King  Vukashin  fell  with  a 
+splendid  Serbian  army  of  60,000,  the  victims  for  the 
+
+
+38  SERBIA'S   PLACE 
+
+freedom  of  the  Christian  Balkans,  This  happened  in 
+1371 ;  and  only  eighteen  years  later  was  the  famous 
+battle  on  the  field  of  Kosovo,  Here  fell  Tsar  Lazar 
+with  the  rest  of  the  Serbian  kingly  splendour  and  might. 
+The  enslaved  Serbian  people  sang  this  heroic  battle 
+in  wonderful  poetry,  and  even  found  an  explanation 
+for  the  terrible  conflict  of  Kosovo  in  the  religious 
+sphere. 
+
+The  battle  of  Kosovo  was  symbolised  as  the  battle 
+of  Heaven  and  Earth,  Mystically  King  Lazar  was  asked 
+which  he  preferred,  the  Kingdom  of  Earth  or  the 
+Kingdom  of  Heaven  ?  In  the  first  case  he  might  be 
+victorious  over  the  Sultan,  in  the  second  case  he  might 
+be  beaten  by  the  Sultan,  the  bearer  of  entirely  earthly 
+ambitions, 
+
+"  Tsar  Lazar  !  thou  Tsar  of  noble  lineage, 
+Tell  me  now,  what  kingdom  hast  thou  chosen  ? 
+Wilt  thou  have  heaven's  kingdom  for  thy  portion, 
+Or  an  earthly  kingdom  ?    If  an  earthly, 
+Saddle  thy  good  steed — and  gird  him  tightly. 
+Let  thy  heroes  buckle  on  their  sabres, 
+Smite  the  Turkish  legions  like  a  tempest. 
+And  these  legions  all  will  fly  before  thee. 
+But  if  thou  wilt  have  heaven's  kingdom  rather, 
+Speedily  erect  upon  Kosovo, 
+Speedily  erect  a  church  of  marble  ; 
+Not  of  marble,  but  of  silk  and  scarlet ; 
+That  the  army,  to  its  vespers  going. 
+May  from  sin  be  purged — for  death  be  ready  : 
+For  thy  warriors  all  are  doom'd  to  stumble  ; 
+Thou,  too,  prince,  wilt  perish  with  thy  army  !  " 
+
+When  the  Tsar  Lazar  had  read  the  writings,  many 
+were  his  thoughts  and  long  his  musings. 
+
+
+IN    HUMAN    HISTORY  39 
+
+"  Lord  my  God  !  what — which  shall  be  my  portion, 
+Which  my  choice  of  these  two  proffer'd  kingdoms  ? 
+Shall  I  choose  heaven's  kingdom  ?    Shall  I  rather 
+Choose  an  earthly  one  ? — for  what  is  earthly 
+Is  all  fleeting,  vain,  and  unsubstantial ; 
+Heavenly  things  are  lasting,  firm,  eternal." 
+
+So  the  Tsar  preferred  a  heavenly  kingdom  rather 
+than  an  earthly. 
+
+Tsar  Lazar,  a  saint  in  his  noble  character,  preferred 
+the  Kingdom  of  Heaven,  and  he  fell  with  all  his  dukes 
+and  armies  as  a  holy  and  necessary  victim  for  Justice. 
+Was  it  not  a  struggle  between  Christianity  and  Nietz- 
+scheanism  ?  Was  it  not  the  struggle  of  the  same  prin- 
+ciples which  are  fighting  to-day  against  each  other  ? 
+The  Turks  are  to-day  again  on  the  scene  allied  with 
+the  nation  which  produced  Nietzsche  and  which  be- 
+lieves in  Nietzsche  as  the  Turks  believe  in  the  Coran 
+or  in  their  sword. 
+
+But  let  us  continue. 
+
+The  Turks  were  a  terrible  power.  But  soon  there 
+came  from  Central  Asia  a  still  more  terrible  power 
+threatening  the  Turks.  It  was  Tamerlane  with  his 
+wild  Mongol  hordes.  Now  Tsar  Lazar's  son,  Stephen 
+the  Tall,  hastened  shoulder  to  shoulder  with  his 
+brother-in-law,  the  Sultan  Bayezid,  to  stand  against 
+the  bloody  flood  of  the  Mongols.  The  Serbian  co- 
+operation in  the  memorable  battle  at  Angora  is  related 
+as  very  prominent.  The  noble  son  of  Lazar,  King 
+Stephen  the  Tall,  perhaps  the  most  noble  person 
+amongst  the  old  Serbian  kings,  was  constrained  and 
+determined  by  circumstances  so  hardly  as  to  ally 
+himself  with  the  evil  in  order  to  fight  against  the 
+worse. 
+
+
+40  SERBIA'S   PLACE 
+
+When  all  had  been  done  on  the  part  of  the  Serbian 
+people  that  it  was  possible  to  do  by  unaided  human 
+might  to  save  the  freedom  or  even  the  semi-freedom 
+of  Balkan  Christianity,  Fate  placed  the  v*'eights  on 
+the  contrary  side  of  the  scales,  so  that  the  balance 
+was  reversed  and  the  shadow  of  the  Coran  covered 
+all  the  land  and  people  from  the  Bosphorus  to  the 
+Danube, 
+
+So  began  the  slavery  that  was  a  great  period  in  our 
+history,  immense  in  its  tragedy.  What  did  this  slavery 
+mean  ?  The  Serbian  slave  must  be  disarmed  and  must 
+serve  the  armed  master.  He  must  not  only  take  off 
+his  shoes,  but  with  his  own  hands  put  them  on  the  feet 
+of  his  despots.  He  must  take  the  bread  from  his  own 
+children  and  give  it  to  the  dogs  of  the  strangers.  He 
+was  a  human  being,  but  he  must  never  say  so  aloud. 
+He  had  the  constant  memory  of  his  kingly  past,  yet 
+he  must  still  live  from  hour  to  hour  like  an  insect. 
+In  a  word  he  had  to  suffer,  lest  all  Christian  Europe 
+should  suffer.  For  the  Asiatic  invaders,  occupied  with 
+the  frequent  Serbian  insurrections,  with  the  Serbian 
+haiduks  and  guerrilla  fighters,  with  the  Serbian  cross- 
+roads and  bushy  forests,  the  home  of  all  the  valiant 
+lovers  of  freedom — ^were  obliged  very  often  to  aban- 
+don their  daring  projects  for  the  ultimate  conquest  of 
+Europe — and  that  of  Central  Europe  in  the  first 
+place. 
+
+
+IN   HUMAN   HISTORY  41 
+
+
+III 
+
+THE  INSURRECTION  OF  THE  HUMBLE 
+AGAINST   THE   PROUD 
+
+"  No  bad  winter  without  wind,  no  bad  guest  without  Turk." 
+
+Serbian  Proverb. 
+
+"  The  first  spontaneous  national  movement  against  the  Turks 
+was  the  Serbian  rising  of  1804,  and  the  following  years.  It  cannot 
+be  too  often  repeated  that  Serbia,  unlike  her  Balkan  neighbours, 
+achieved  her  own  freedom.  What  she  has,  she  won  almost  un- 
+aided."—R.  W.  Seton-Watson. 
+
+This  continued  till  the  beginning  of  the  nineteenth 
+century.  And  when  all  the  world  thought  that  mid- 
+night reigned  in  the  Balkans,  there  began  the  dawn  of 
+day.  The  Serbian  people,  who  were  the  last  to  lay 
+down  their  arms  before  the  Turks,  were  the  first  to 
+take  them  up  against  the  Turks.  These  were  not  the 
+arms  of  steel  but  the  hearts  of  steel.  A  handful  of 
+such  hearts  with  justice  on  one  side  and  a  great  empire 
+with  injustice  on  the  other  ! 
+
+Such  was  the  great  Beginning  ;  the  End  of  which 
+was  on  the  battlefields  of  Kumanovo,  Monastir,  and 
+Adrianople,  and  the  last  sanctification  of  which  will 
+be  the  fall  of  Constantinople. 
+
+Look,  what  a  wonderful  thing  ;  to-day  the  English, 
+the  French,  and  the  Russians  are  carrying  to  the  end 
+the  deed  begun  by  the  peasants  of  Shumadija  a  hundred 
+years  ago — to  drive  out  the  Turks  from  Europe  and 
+to  free  the  enslaved  Christians  !  The  generals  of  the 
+three  great  nations  who  are  now  fighting  under  the 
+
+
+42  SERBIA'S   PLACE 
+
+walls  of  the  towns  of  Constantine,  are  busy  on  the 
+same  work  on  which  were  engaged  the  heroes  from 
+Misar  and  Ljubic — Kara-George  and  Milos  Obrenovic  ; 
+and  they  shake  each  other  by  the  hand. 
+
+Is  not  that  a  great  and  wonderful  thing  ? 
+
+Is  it  not  a  great  and  wonderful  thing  that  a  little 
+enslaved  nation  traces  out  the  right  path  and  sees 
+soon  afterwards  the  greatest  nations  following  the  same 
+path  with  glory  and  pride  ? 
+
+Our  fighting  a  hundred  years  ago  was  like  a  mustard- 
+seed  sown  at  its  time  and  grown  up  to-day  into  a  big 
+tree,  the  branches  of  which  reach  to  Siberia  and  South 
+Africa,  Behold,  Siberia  and  South  Africa  are  now 
+the  allies  of  the  Serbian  peasants  !  Behold,  we  fought 
+against  Byzantium — Byzantium  vanished ;  and  then 
+against  Tamerlane — Tamerlane  vanished  with  all  his 
+bloody  glory  ;  and  then  against  the  Avars  and  Bulgars 
+— ^where  are  they  to-day  ?  And  then  against  the  Turks 
+— ^they  are  vanishing  like  the  shadow  of  the  Prophet's 
+sword ;  and  finally  we  are  engaged  in  the  struggle 
+against  Austria — Austria's  case  is  now  hopeless. 
+
+Remember  :  throughout  our  whole  history  we  have 
+been  fighting  against  men  or  peoples  great  in  might 
+and  injustice,  and  therefore  condemned  to  destruction. 
+
+Hereby  is  our  history  justified.  Hereby  is  our  place 
+in  human  history  defined.  We  never  have  been  so 
+much  a  geographical  as  a  historical  power  ;  our  his- 
+tory has  always  been  greater  than  our  geography. 
+For  about  four  hundred  years  we  disappeared  from 
+geography,  but  never  from  history.  History  is  often 
+made  under  the  earth.  The  first  pages  of  the  history 
+of  Christianity  were  written  down  in  the  catacombs. 
+The  history  of  millions  of  the  working  people  in  the 
+
+
+IN   HUMAN   HISTORY  43 
+
+mines  is  hidden  in  subterranean  darkness.  During 
+four  hundred  years  our  Serbian  history  was  written 
+by  blood  and  tears  and  hopes,  in  the  darkness  of 
+slavery.  We  lived  in  the  Sultan's  state,  invisible  to 
+the  rest  of  the  world,  like  the  fire  under  the  ashes. 
+Strangers  looked — if  they  looked  at  all — and  saw  the 
+ashes  but  not  the  fire  beneath. 
+
+The  Insurrection  came,  the  Insurrection  of  the  slaves, 
+of  broken  hearts,  and  scattered  the  ashes — and  the 
+fire  grew  bright  and  was  seen.  I  speak  not  only  of 
+Kara-George's  Insurrection.  The  Serbian  Insurrec- 
+tion has  lasted  a  hundred  years.  It  is  now  at  the  climax 
+and  at  the  same  time  in  its  final  phase.  The  goal  of 
+this  Insurrection  was  designed  and  proclaimed  from 
+the  first  day  as  liberation  from  the  yoke  of  tyranny. 
+Our  Insurrection  like  a  volcano  produced  several 
+violent  commotions  for  the  greater  part  of  mankind. 
+The  first  shot  was  fired  in  Topola  (1804),  and  the 
+Insurrection  began  ;  the  second  shot  was  fired  in 
+Nevesinje  (Herzegovina,  1875),  and  the  Insurrection 
+continued  ;  the  third  shot  was  fired  in  Kumanovo 
+(1912)  and  the  Insurrection  approached  its  end.  Our 
+Insurrection  caused  also  this  world-war,  the  greatest 
+commotion  in  history.  And  so  our  cause  becomes 
+to-day  the  cause  of  the  greatest  nations  upon  the 
+earth. 
+
+Too  small  a  cause  for  so  big  a  war,  it  may  be  said. 
+Not  at  all.  The  national  cause  of  Serbia,  i.e.  of  a  small 
+spot  on  the  globe,  is  the  justice  of  the  Universe.  There- 
+fore it  may  be  said  to  our  great  allies :  You  are  not 
+fighting  for  the  Serbian  interests  but  for  universal 
+justice.  The  principles  which  lay  at  the  root  of  our 
+Serbian  Insurrection,  and  which  have  met  very  often 
+
+
+44  SERBIA'S   PLACE 
+
+with  the  bitterest  irony  and  contempt  of  the  world, 
+are  now  the  chief  principles  of  our  powerful  allies. 
+
+We  have  been  fighting  against  the  Turks  during  the 
+last  century  for  the  freedom  of  our  enslaved  brethren  ; 
+and  to-day  the  French  people  are  fighting  for  the  same 
+freedom  for  their  brethren  in  Alsace  and  Lorraine. 
+
+We  have  been  fighting  against  the  Austrians  for  the 
+respect  of  the  independence  of  a  small  nation  such  as 
+we  were, — the  British  declared  war  on  Germany  just 
+because  Germany  so  scornfully  trampled  on  Belgian 
+independence. 
+
+The  tendency  of  our  Insurrection  has  been  to  set 
+free  not  only  ourselves  but  all  our  Slav  brethren  in 
+the  South  and  everyw^here, — Russia  has  waged  this 
+costly  war  because  of  the  brotherhood  and  solidarity 
+of  the  Slav  race. 
+
+It  is  clear  that  the  principles  which  England,  France, 
+and  Russia  of  to-day  are  fighting  for  have  been  the 
+very  principles  of  the  Serbian  people  from  Kara- 
+George  and  his  peasant  collaborators  up  to  to-day. 
+For  a  hundred  years  we  have  been  desperately  fighting 
+against  the  brutal  idea  now  upheld  by  Germany,  that 
+-the  small  peoples  have  no  right  to  life  and  freedom, 
+against  an  idea  which  is  as  old  as  degenerate  Byzan- 
+tium, as  old  as  Tamerlane  and  the  Turkish  Sultanate, 
+as  old  as  the  Austrian  watchword  divide  et  impera,  and 
+even  as  the  most  brutal  instinct  of  men. 
+
+
+IN    HUMAN   HISTORY  45 
+
+
+IV 
+
+
+DEMOCRACY  AND  HEROISM  IN  THEORY 
+AND  PRACTICE 
+
+"  If  you  would  have  pity  on  me  dying,  have  pity  on  me  while  I 
+am  still  alive." — Serbian  Proverb. 
+
+All  the  small  nations  may  be  thankful  to  the  Serbians 
+because  they,  before  all  other  nations  in  the  nineteenth 
+century,  arose  to  fight  for  the  rights  of  the  small 
+nations,  and  not  only  did  they  arise,  but  they  per- 
+sisted, too,  in  their  fighting.  "  Nationalism  " — ^that 
+is  the  watchword  of  the  nineteenth  century,  that  is 
+the  inspiration  of  the  greatest  modern  politicians  and 
+the  commonest  topic  of  the  endless  discussions  through- 
+out the  last  century  of  European  history.  But  this 
+European  theory  of  nationalism  appeared  after  the 
+Serbian  practice  of  the  same  theory.  For,  behold,  it 
+was  a  whole  generation  after  the  insurrection  under 
+Kara-George  and  Serbia's  hard  struggle  for  national 
+independence  that  the  national  spirit  awoke  in  Italy 
+and  Prussia.  When  as  yet  the  Piedmonts  of  Italy  and 
+Germany  were  still  scarcely  conscious  of  their  own 
+theories,  the  Piedmont  of  Southern  Slavdom,  Serbia, 
+was  practically  at  work.  And  how  much  the  idealism 
+of  Serbia  to-day  differs  not  only  from  the  idealism  of 
+military  Prussia  but  even  from  that  of  Italy,  it  is  easy 
+to  prove. 
+
+In  a  declaration  in  the  beginning  of  the  world-war 
+the  Serbian  Government  said  :  "  Serbia  is  fighting  for 
+the  freedom  of  all  her  enslaved  brethren,  Serbs,  Croats, 
+
+
+46  SERBIA'S  PLACE 
+
+and  Slovenes  under  the  yoke  of  Austria."  Contrast 
+these  simple  idealistic  words  with  the  declaration  of 
+Signor  Salandra  last  May,  "  Italy,"  he  said,  "  entered 
+the  greatest  war  recorded  in  history  solely  to  defend 
+her  ancient  aspirations  and  vital  interests." 
+
+Writing  on  Serbia,  Dr.  Dillon  said  :  "  Like  a  phoenix 
+from  the  ashes,  so  Serbia  rose  from  her  unbeing  into 
+being,  and  became  at  once  the  Piedmont  of  South 
+Slavdom  and  the  chief  factor  in  the  international 
+situation." 
+
+"  The  Serbians,  the  poor  defenders  of  European 
+civilisation  for  many  centuries,  these  heroes  in  rags 
+and  sandals,  deserved  the  admiration  of  the  whole 
+world."  So  spoke  Maurice  Barres,  the  famous  French 
+author. 
+
+"  The  Serbians  fulfilled  their  duty  brilliantly.  They 
+have  been  fighting  during  a  century  for  freedom  and 
+independence.  Serbia  deserves  to  be  now  supported 
+materially  and  morally,  and  after  this  war  she  must 
+be  supported  to  unite  all  the  Serbs,  together  with  their 
+brethren  the  Croats  and  Slovenes  in  one  and  the  same 
+state  with  a  population  of  fourteen  millions."  So  said 
+M.  Herve,  the  leader  of  the  French  pacifists. 
+
+On  the  13th  of  March  last,  a  "  Serbian  Day  "  was 
+fixed  throughout  the  whole  of  France.  On  this  occa- 
+sion the  French  teachers  in  the  schools  explained  to 
+Young  France  the  history  of  the  Serbian  people  and 
+commended  it  as  the  most  heroic  history  in  the 
+world. 
+
+In  such  terms  the  world  wrote  and  spoke  of  Serbia 
+in  the  spring  of  1915,  after  a  series  of  splendid  Serbian 
+victories  over  the  Austrian  army  at  Tser,  Rudnik, 
+Valjevo,  Kosmaj,  and  Drina. 
+
+
+IN   HUMAN   HISTORY  47 
+
+But  a  hundred  years  ago,  in  the  year  of  our  Lord 
+1815,  nobody  knew  anythhig,  nobody  wrote  or  spoke 
+anything  of  Serbia.  In  the  year  1815  there  did  not 
+as  yet  exist  a  state  of  Serbia.  In  the  spring  of  the 
+same  year  a  handful  of  unlettered  peasants  prayed  in 
+the  little  wooden  church  of  the  village  of  Takovo  just 
+on  the  day  celebrated  as  that  of  Christ's  solemn  entry 
+into  Jerusalem.  After  sincere  and  hearty  prayer,  the 
+peasants  gathered  under  a  shady  oak  next  the  church 
+and  in  fearful  and  hopeful  whispers  determined  to 
+make  a  new  insurrection  against  their  Asiatic  oppres- 
+sors. They  pledged  each  other  their  word  of  honour 
+to  fight  until  death  against  the  common  foe.  The  little 
+wooden  church,  the  shady  oak  and  the  great  blue 
+spring  heaven  over  the  poor  peasants  assisted  their 
+firm  and  touching  resolution. 
+
+I  cannot  believe  that  the  story  of  William  Tell  and 
+his  compatriots  in  Switzerland  could  be  any  more 
+touching  than  the  story  of  the  Serbian  revolutionists, 
+of  these  humble  and  pious  peasants  of  Serbia,  who, 
+beginning  the  greatest  deed  in  their  history,  could 
+look  only  towards  Heaven  and  seek  there  a  support, 
+because  all  the  earth  around  them,  near  and  far,  was 
+peopled  by  their  enemies,  or  oppressors,  or  despisers. 
+
+
+SERBIA'S   PLACE 
+
+
+A  HARD  STRUGGLE  FOR  A  GREAT  IDEA— 
+THAT  IS  ALL 
+
+"  Serbia  cannot  accept  a  lesser  programme  without  betraying 
+her  kinsmen  across  the  frontier,  who  look  to  her  to-day  as  their 
+representative  before  Europe." — R.  W.  Seton-Watson. 
+
+Evidently  our  place  in  human  history  is  not  marked 
+either  by  big  commerce  like  America's,  nor  by  an 
+excellent  fleet  like  England's,  nor  by  large  towns  like 
+London,  New  York,  Paris,  and  Moscow,  nor  by  the 
+brilliancy  of  science  and  literature,  nor  by  the  great 
+mines  and  factories,  neither  by  the  Louvre  nor  by 
+Windsor.  But  it  is  marked  by  something  that  is  more 
+precious  because  it  costs  more  sacrifices,  more  per- 
+sistence and  more  blood — it  is  marked  by  the  struggle 
+of  a  people  for  their  freedom,  by  struggle  and  success. 
+This  success  of  the  Serbian  people  is  not  to  be  con- 
+sidered solely  as  a  material  success.  It  is  a  success 
+indeed  of  a  religious  character,  and  therefore  a  universal, 
+all-human  success.  This  is  the  victory  of  the  Christian 
+idea  over  the  anti-Christian  or  pagan  idea.  The  pagan 
+idea  is  the  Super-man  (Ubermensch) ,  the  Christian  idea 
+is  the  All-man.  The  pagan  idea  may  be  expressed  as 
+"  Right  in  Might,"  the  Christian  as  "  Might  in  Right." 
+The  pagan  idea  means  that  the  earth  belongs  only  to 
+the  strong ;  the  Christian,  that  the  earth  belongs  to 
+all  God's  creatures.  The  small  peoples  have  the  same 
+right  to  exist  upon  the  earth  as  have  the  big  ones,  or 
+as  the  insignificant  blades  of  grass  have  the  right  to 
+
+
+IN   HUMAN   HISTORY  49 
+
+grow  under  the  sun  close  to  the  big  oak.  Indeed  the 
+struggle  of  the  Serbian  people  has  put  this  to  a  practical 
+proof.  The  small  peoples  make  with  the  big  peoples  a 
+necessary  and  beautiful  mosaic  in  history.  History 
+is  just  for  this  reason  interesting  and  beautiful — it  is 
+just  for  this  reason  dramatic.  Every  nation  has  its 
+dimensions — its  space  and  number, — has  its  strength, 
+intellectual  and  moral.  That  is  to  say — every  nation 
+has  its  colour.  The  world-history  is  a  drama  ;  it  is 
+also  a  colour-painting,  too.  But  it  could  not  be  either 
+drama  or  painting,  if  one  nation  conquered  all  others 
+and  forced  upon  them  its  own  individuality.  In  that 
+case  there  would  be  one  colour  only,  and  therefore 
+monotony  and  death. 
+
+Now  it  is  evident  what  is  our  place  and  part  in  our 
+human  history.  Upon  our  flag  is  written  :  "  For  the 
+Christian  faith  and  golden  freedom."  This  watch- 
+word is  written  to-day  over  the  most  Christian  countries, 
+over  Russia,  Great  Britain,  and  France.  Our  fighting 
+to-day  widens  out  to  the  furthest  corners  of  the  wide 
+world.  How  wonderful  is  the  shining  of  justice  ! 
+Like  the  reflector's  light,  so  justice  shines  and  its  shining 
+widens  more  and  more  as  it  goes  further  and  further 
+from  the  burning  point.  Serbia  is  to-day  easily  seen 
+from  Boston  as  well  as  from  India  and  China.  What 
+a  change  !  Only  a  hundred  years  ago  unknown  Serbia 
+was  born.  It  is  a  youth,  a  fire,  an  enigma.  Enigmatic 
+Serbia  may  well  seem,  alike  to  her  neighbours  and  to 
+the  remotest  inhabitants  of  the  earth.  She  kindled  a 
+little  fire  a  century  ago,  and  this  fire  has  grown  into 
+a  world-war.  She  rose  at  first  against  Turkish  tyranny, 
+and  nine-tenths  of  mankind  was  on  the  side  of  the 
+Turk.    She  succeeded.   She  rose  again,  against  Austria- 
+
+
+so  SERBIA'S   PLACE 
+
+Hungary,  and  most  of  the  world  was  on  the  side  of 
+Austria-Hungary.  For  the  conflict  between  Serbia 
+and  Austria-Hungary  has  lasted  more  than  fifty  years. 
+Serbia  was  supported  by  God  and  Austria-Hungary 
+by  the  world.  But  what  a  change  to-day  !  The  more 
+civilised  part  of  the  world  is  fighting  to-day  against 
+Austria-Hungary,  the  ally  of  the  Turks — and  divine 
+justice  is  once  more  on  the  side  of  Serbia. 
+
+
+VI 
+
+ALWAYS  TRUE  TO  HER  OWN  SELF 
+
+"  To  thine  own  self  be  true  ; 
+And  it  must  follow,  as  the  night  the  day, 
+Thou  canst  not  then  be  false  to  any  man." 
+
+Shakespeare. 
+
+How,  it  may  be  asked,  did  the  whole  civilised  world 
+come  to  adopt  the  Serbian  point  of  view  ? 
+
+Because,  we  reply,  the  Serbian  point  of  view  from  the 
+beginning  of  Serbia's  Insurrection  was  grounded  on 
+Christian  foundations.  The  world  of  to-day  is  pretty 
+clearly  divided  into  two  camps  :  the  anti-Christian 
+and  the  Christian.  Three  great  Caesars  (of  Stamboul, 
+Vienna,  and  Berlin),  with  their  tyrannous  little  servant, 
+the  Caesar  of  Bulgaria — ^that  is  the  pagan  camp.  And 
+the  rest  of  the  world  is  the  Christian  camp.  Serbia's 
+justice  and  Serbia's  struggle  for  divine  justice  divided 
+the  world.  That  is  the  last  conflict  between  Chris- 
+tianity and  Paganism.  That  is  the  decisive  struggle 
+between  Christ  and  Antichrist. 
+
+In  the  world  a  revolution  in  the  opinions  about  Serbia 
+
+
+IN   HUMAN   HISTORY  51 
+
+is  already  in  evidence.  Russia  abandons  altogether  the 
+artificial  policy  of  Count  Ignatieff.  Great  Britain  is 
+in  a  hurry  to  correct  her  failures  of  the  Berlin  Congress. 
+France  most  warmly  greeted  our  victories  and  ex- 
+pressed her  admiration  and  friendship  for  Serbia. 
+Greece  and  Roumania  are  with  us  in  spirit.  The 
+Bulgarian  people  respect  us  (although  with  hatred) 
+after  their  defeat  on  Bregalniza.  Our  Southern  Slav 
+brethren  from  the  Roumanian  frontier  as  far  as 
+Trieste,  and  from  Cattaro  to  Gratz,  look  towards 
+Heaven  and  towards  us,  awaiting  freedom  and  union 
+with  us. 
+
+What  was  the  Serbian  past  ?  The  struggle  for  a 
+Christian  idea.  What  is  the  Serbian  present  ?  The 
+same  struggle  for  the  same  Christian  idea.  The 
+difference  is  that  we  have  been  struggling  alone  in 
+the  past,  and  now  our  struggle  is  supported  by  the 
+most  powerful  and  most  noble  champions  upon  our 
+planet. 
+
+Now  we  have  found  two  points  in  our  history  and 
+hereby  the  straight  line  connecting  them  and  leading 
+us  some  steps  towards  our  national  future. 
+
+We  began  our  struggle  alone,  a  struggle  for  the  best 
+cause — that  is  the  first  point.  To-day,  we  meet  in 
+the  same  struggle  as  our  friends  the  best  nations  in 
+the  world — that  is  the  second  point. 
+
+What  may  be  our  future  ?  Since  we  arc  to-day 
+allied  with  the  best  amongst  the  nations  in  the  struggle 
+we  shall  be  to-morrow  allied  with  them  in  the  work  of 
+peace — ^that  is  our  future.  The  peaceful  carrying  out 
+of  the  work  of  culture  !  Peaceful  creative  work  ! 
+We  will  show  in  the  peace  of  to-morrow  that  our 
+national  and  human  qualities  are  of  the  superior  kind 
+
+
+52  SERBIA'S   PLACE 
+
+in  the  work  of  culture,  as  they  have  been  superior  in 
+war. 
+
+There  is  a  heroic  peace  as  well  as  a  heroic  war.  A 
+nation  can  be  heroic  in  peace  as  in  war.  For  what 
+indeed  is  peace  if  not  a  fight  with  nature,  with  the 
+things  and  elements  of  nature  ?  We  Serbians  have  a 
+good  hope  that  we  shall  be  able  to  show  ourselves 
+equally  heroic  in  the  second  kind  of  fighting  as  we  did 
+in  the  first.  Some  people  speak  about  a  greater  Serbia. 
+Never  was  Serbia  so  great  as  she  now  is,  in  her  suffering, 
+in  her  heroism,  and  in  her  enthusiastic  and  optimistic 
+belief  in  the  Victory  of  Good  over  Evil.  Young  Serbia 
+was  always  true  to  her  Destiny,  true  to  her  own  Self. 
+Serbia's  truth  is  at  last  recognised  and  accepted  by 
+many  of  her  friends  and  critics.  She  recognised  her 
+cross  from  the  beginning  and  she  took  it  willingly — 
+always  true  to  her  own  Self. 
+
+"  To  thine  own  self  be  true  ; 
+And  it  must  follow,  as  the  night  the  day, 
+Thou  canst  not  then  be  false  to  any  man." 
+
+
+Ill 
+
+RELIGION  AND  NATIONALITY 
+IN  SERBIA 
+
+
+DEDICATED  TO 
+THE  MEMORY  OF  THE  GREAT  CROATIAN  PATRIOT 
+
+BISHOP   STROSSMAYER 
+
+ON   THE  CENTENARY  OF   HIS   BIRTH 
+(1815-I915) 
+
+
+"  Sve  za  Vjeru  i  za  Domovinu." 
+("All  for  Faith  and  Fatherland.") 
+
+
+SERBO-CROAT   PHONOGRAPHY 
+
+Pronounce  "  s  "  as  "  sh  "  in  "  ship," 
+
+"  c  "  as  "  ch  "  in  "  church." 
+"  c  "  ditto  (softer). 
+"  c  "  as  "  ts  "  in  "  cats." 
+„  "  z  "  as  "  j  "  in  French  "jour," 
+
+
+Ill 
+
+RELIGION  AND  NATIONALITY 
+IN  SERBIA 
+
+LOVE  first,  and  then  logic,"  says  Dostoievsky. 
+^  "  First  we  understand,  and  then  we  can  love," 
+is  the  watchword  of  ancient  paganism. 
+
+The  first  of  these  watchwords  leads  to  Christian 
+humility  and  to  general  good  ;  the  second  to  worldly 
+pride  and  general  evil. 
+
+Five  years  ago  I  wrote  in  the  Guardian  upon  the 
+reunion  of  the  Churches.  The  underlying  idea  of  my 
+article  was  the  above-mentioned  quotation  from  the 
+great  Russian  thinker  and  poet.  I  subsequently  read 
+the  controversy  between  Charles  Kingsley  and  Cardinal 
+Newman — the  controversy  on  soul  and  logic — and  I 
+became  still  more  confirmed  in  my  belief  that  love,  and 
+not  logic,  must  play  the  leading  part  in  the  reunion  of 
+the  Churches.  In  other  words,  let  us  be  united  first 
+in  practical  matters,  in  our  daily,  useful  dealings  with 
+society  and  humanity,  let  us  more  frequently  join 
+hands  in  the  charitable  work  in  which  we  both  share  ; 
+for  this  will  lead  us  to  tolerance,  and  tolerance  in  its 
+turn  will  build  the  bridge  towards  the  finding  of  a 
+common  logical  ground. 
+
+To-day  I  see  with  pleasure  the  Roman  Catholic 
+and  English  Churches  in  England  working  together 
+
+55 
+
+
+56  RELIGION   AND   NATIONALITY 
+
+in  the  same  grand  patriotic  and  national  cause,  united 
+by  the  same  inspiration,  the  same  desire,  and  the  same 
+prayers. 
+
+The  dogma  that  divides  them  lies  three  hundred 
+years  behind  them,  but  the  love  that  unites  them  in 
+the  same  labours  is  with  them  now.  And  I  see  with 
+joy  how  the  representatives  of  both  these  Churches  in 
+England  are  united  in  sympathy  and  love  towards 
+others — ^towards  ravaged  Belgium  and  sorely  stricken 
+Serbia.  The  Bishop  of  London  is  president  of  the 
+Serbian  Relief  Fund,  Cardinal  Bourne  has  permitted 
+lectures  on  behalf  of  the  Serbians  to  be  ^Iven  in  West- 
+minster Cathedral,  and  himself  honoured  these  lectures 
+by  his  presence.  Divided  in  dogma,  these  two  great 
+Christian  Churches  are  nevertheless  united  in  work. 
+Considering  all  this,  I  to-day  insist  more  strongly  on 
+my  thesis,  that  all  Christian  Churches  have  sufficient 
+logical  ground  in  common,  on  which  they  may  range 
+themselves  side  by  side  in  the  same  work,  the  same 
+mission,  and  the  same  charity.  The  differences  in  their 
+points  of  view  concerning  transcendental  formulae, 
+unrealisable  in  life,  can  reasonably  take  a  second  place. 
+
+The  Jugoslav  Ideal. 
+
+A  proof  of  the  above  may  be  seen  in  the  life  of  a 
+whole  nation  throughout  several  centuries.  I  mean 
+the  Jugoslavs — Serbs,  Croats,  and  Slovenes — ^who  are 
+one  and  the  same  nation  in  language,  in  blood,  in  des- 
+tiny, and  in  their  aspirations,  and  who  to-day  as  one 
+man  desire  to  shake  off  the  Austro-Hungarian  yoke, 
+and  to  build  up  a  single  undivided  State  with  free 
+Serbia  and  Montenegro.    The  proof  alluded  to  consists 
+
+
+IN   SERBIA  57 
+
+in  this,  that  in  the  great  national  struggle  for  national 
+union  and  freedom  which  Serbia  has  now  waged  for  a 
+hundred  years,  her  people  have  risen  superior  to  all 
+divergencies  of  creed  between  the  Orthodox  and 
+Catholic  Churches,  and  have  held  fast  only  to  that 
+which  unites,  not  to  that  which  divides  in  rehgion. 
+
+That  the  Orthodox  Church  is  the  best  spiritual 
+medium  of  the  national  ideal  is  known  throughout 
+the  world.  The  Serbian  Orthodox  Church  has  been 
+this  throughout  the  history  of  Serbia,  from  the  days 
+of  St.  Sava,  her  founder  and  organiser.  St.  Sava,  the 
+son  of  King  Neman]  a — ^the  most  famous  of  the  Serbian 
+kings  and  founder  of  the  Serbian  State — succeeded 
+in  setting  upon  it  the  seal  of  Orthodoxy  for  centuries 
+to  come.  If  the  father  endowed  the  Serbian  State 
+with  a  body,  the  son  gave  it  a  soul.  And  later  on, 
+when  the  body  of  the  Serbian  State  was  destroyed 
+by  the  Turkish  invasion,  the  soul  lived  on  through  the 
+centuries,  and  suffered,  and  nothing  remained  uncon- 
+quered  in  this  soul  but  her  faith,  and  the  tradition  of 
+the  freedom  of  the  past.  The  monasteries  were  centres 
+of  trust  and  hope.  The  priests  were  the  guides  of  the 
+people,  upholding  and  comforting  them.  The  Patri- 
+archs of  Ipek  were  in  truth  patriarchs  of  the  people, 
+and,  like  the  patriarchs  of  old,  true  representatives  of 
+the  people  and  their  protectors.  When  the  tyranny 
+of  the  Turks  and  Albanians  over-stepped  all  bounds 
+in  old  Serbia,  and  the  nation  was  in  danger  of  being 
+exterminated,  the  Patriarch  Arsen  Crnojevic  trans- 
+ferred thirty-six  thousand  Serbian  families  across  the 
+Save  into  Syrmia  and  Slavonia.  Catholic  countries 
+were  considered  brother-lands  in  which  these  exiles 
+could  find  shelter.     In  the  eyes  of  the  people   both 
+
+
+58  RELIGION   AND   NATIONALITY 
+
+Orthodoxy  and  Catholicism  were  subordinate  to  the 
+one  name — Christianity,  and  contrasted  under  this 
+single  name  with  cruel  and  bloodthirsty  Islam. 
+
+In  1804,  on  the  eve  of  the  Serbian  revolt  against 
+Turkey,  priests  were  present  at  the  secret  gathering 
+in  Orasac,  and  the  leadership  of  the  rising  was  offered 
+to  one  of  them,  Prota  Atanasije  ;  when  he  refused,  it 
+was  offered  to  Kara-George,  Both  before  and  during 
+the  rising  the  Church  suffered  great  hardships.  Many 
+priests  were  impaled  near  Stambulkapia  in  Belgrade, 
+among  them  Iguman  Paissi  and  his  deacon  Avacum. 
+In  1815,  at  the  beginning  of  the  second  rising,  another 
+Iguman,  Melentije  in  Takovo,  blessed  Prince  Milos, 
+encouraged  him,  and  accompanied  him  in  battle. 
+And  when  the  Serbian  forces  gave  way  before  the 
+Turks  at  Ljubic,  this  same  Melentije  himself  seized 
+the  drum  and  restored  the  courage  of  the  soldiers. 
+From  this  he  was  called  "  the  Drummer,"  and  this 
+nickname  clung  to  him  ever  afterwards,  even  when  he 
+became  Metropolitan  of  Serbia. 
+
+The  Catholic  Clergy  as  National  Leaders. 
+
+It  is  less  well  known  that  the  Catholic  clergy  in 
+Jugoslavia  have  also  proved  themselves  both  national- 
+ist and  patriotic,  but  it  is  nevertheless  an  historical  fact. 
+In  the  struggle  with  the  Turks  the  Catholic  clergy  (Croats 
+and  Slovenes)  followed  in  the  steps  of  their  Orthodox 
+brothers,  and  on  countless  occasions  sacrificed  themselves 
+for  the  nation.  Several  Ban-Bishops  of  Zagreb  (Agram) 
+organised  the  defence  of  Croatia  against  the  Turks  ; 
+many  Roman-Catholic  priests  in  Croatia,  sword  in  hand, 
+defended  their  country  against  the  enemy,  such  as 
+
+
+IN   SERBIA  59 
+
+(in  the  sixteenth  century)  the  Canons  Jurak  and  Fintic, 
+and  (in  the  seventeenth  century)  Frater  Lika  Im- 
+brisinovic  in  Slovenia  and  Father  Marko  Mesic  in 
+the  Lika  district  of  Croatia  ;  and  there  were  Fran- 
+ciscan monks  who  languished  in  Venetian  dungeons 
+because  they  dared  to  defend  their  country.  It  is  still 
+less  known  that  through  the  whole  of  last  century 
+both  Churches,  the  Orthodox  as  well  as  the  Catholic, 
+carried  on  an  active  propaganda  for  Jugoslav  freedom 
+and  union,  but  this  also  is  a  fact. 
+
+In  the  eighteenth  century  the  consciousness  of  the 
+identity  of  the  Southern  Slav  nations  began  to  awake, 
+whether  under  Turkish,  Hungarian,  German,  or 
+Italian  rule.  A  Catholic  priest  from  the  Dalmatian 
+islands,  Don  Andrew  Kacic,  composed  poems  in 
+imitation  of  the  Serbian  national  poetry.  Dositej 
+Obradovic,  an  Orthodox  monk,  after  acquiring  a  wider 
+culture  in  his  travels  through  all  Europe,  including 
+Great  Britain,  began  to  write  in  the  popular  tongue. 
+Lukian  Musicky,  an  Orthodox  Bishop,  was  also  de- 
+voted to  the  Serbian  and  Slovenic  cause.  Ivan  Raic, 
+the  Orthodox  Archimandrite,  wrote  a  history  of  the 
+Serbo-Croats  in  the  Serbo-Croatian  tongue.  Sundecic, 
+an  Orthodox  priest,  was  read  by  all  Jugoslavs  in  prefer- 
+ence to  many  finer  authors,  simply  because  he,  too, 
+was  inspired  by  the  idea  of  national  union,  and  because 
+he  went  so  far  in  his  identification  of  Serbs  and  Croats 
+that  he  had  one  of  his  books  printed  in  Roman  and 
+C3T:illic  characters  side  by  side,  and  some  others  in 
+Roman  characters  only,  and  this  although  he  was  an 
+Orthodox  priest.  Valentin  Vodnik,  a  Slovene  Catholic 
+monk  of  Napoleon's  time,  was  also  inspired  by  the 
+idea  of  a  union  of  all  Jugoslav  peoples  in  one  State, 
+
+
+6o  RELIGION   AND   NATIONALITY 
+
+which  was  to  be  called  Illyria,  and  Napoleon  also  had 
+this  idea.  In  1811  Vodnik  wrote  his  hymn  to  "  Illyria 
+Resurrecta,"  by  which  he  hoped  to  influence  Napoleon 
+to  create  the  Jugoslav  State. 
+
+"  Napoleon  said  :    '  Arise,  Illyria.  .  .  .'  " 
+
+This  poor  Slovene  monk  had  to  pay  dearly  for  his 
+ideals.  Cruelly  persecuted  by  the  Austrian  authorities 
+and  cast  from  one  prison  into  another,  he  finally  died 
+in  1819.  And  when  the  Croat,  Ljudevit  Gaj,  in  the 
+forties  of  last  century,  arose  with  his  "  lUyrian  " — 
+this  was  only  another  name  for  the  Jugoslav  ideal 
+of  to-day — he  was  enthusiastically  welcomed  and  sup- 
+ported by  the  Catholic  theologians  of  the  seminary  in 
+Zagreb,  who  thenceforth  became  the  most  active 
+champions  of  his  ideals. 
+
+During  the  first  forty  years  of  the  nineteenth  cen- 
+tury the  idea  of  a  united  Jugoslavia  so  far  materialised 
+that  the  Orthodox  Patriarch  of  Karlovci  (Karlowitz) 
+could  install  Jelacic,  the  celebrated  Ban  of  Croatia, 
+with  the  unanimous  approval  of  all  the  Croatian 
+Catholic  clergy. 
+
+The  following  is  a  still  more  striking  example  of 
+patriotism  before  clericalism.  In  1848  the  Catholic 
+clergy  of  the  diocese  of  Zagreb  met  in  conference  and 
+passed  a  resolution  ^including  the  following  pro- 
+visions : — 
+
+1.  The  union  of  Serbs  and  Croats. 
+
+2.  Toleration  of  creeds. 
+
+3.  The  use  of  the  Old  Slav  tongue  in  Divine  service 
+in  the  Jugoslav  Catholic  Church. 
+
+The  Catholic  priest  Rac^ki,  one  of  the  most  eminent 
+Jugoslav  historians,  was  a  great  champion  of  these 
+
+
+IN   SERBIA  6i 
+
+ideas  of  reunion,  and  endeavoured  to  introduce  the 
+"  Cyrilitza  "  (Cyrillic  alphabet)  among  the  Croatians. 
+
+Austrian  Reaction. 
+
+The  reaction  of  1849  brought  with  it  a  brutal  sup- 
+pression of  all  national  agitation  and  aspirations  in 
+Austria-Hungary.  Austria  artificially  created  different 
+nationalities  in  her  provinces,  and  called  into  existence 
+the  Dalmatians,  Croatians,  Slavonians,  Istrians,  Car- 
+niolians,  etc.,  as  separate  nationalities,  even  as — after 
+the  occupation  of  Bosnia — the  new  nationality  of  the 
+"  Bosnians  "  immediately  arose  in  the  world. 
+
+But  the  Austrian  terror  only  succeeded  in  awakening 
+the  Jugoslav  national  consciousness  in  all  these  pro- 
+vinces, which  are  inhabited  by  one  nation,  homogene- 
+ous as  the  inhabitants  of  Northern  and  Southern 
+France.  And  thus  the  Austrian  plan  of  converting 
+geographical  conceptions  into  historical,  national,  and 
+religious  conceptions  was  frustrated.  This  was  very 
+clearly  shown  after  the  first  Austrian  defeat.  One 
+result  of  the  battle  of  Solferino  was  the  revival  of  the 
+old  agitation.  The  enlightened  Prince  Michael,  who 
+at  this  time  ascended  the  Serbian  throne,  was  not  only 
+an  enthusiast  for  Jugoslav  ideals,  but  strove  actively 
+towards  their  realisation.  At  his  own  expense  he  sent 
+many  Slovenes,  Croats,  and  Bulgarians  to  college  for 
+their  education,  thus  preparing  an  entire  generation 
+for  the  realisation  of  his  plans — even  the  Bulgarians  ; 
+for  they,  too,  as  represented  by  the  best  of  their  nation, 
+were  at  one  time  enthusiasts  for  the  Jugoslav  cause. 
+
+In  Slovenia  the  Catholic  clergy  were  the  strongest 
+representatives   and   champions   of   the  same  cause. 
+
+
+62  RELIGION  AND   NATIONALITY 
+
+Among  them  Antun  Askerc  and  Don  Simon  Gregorcic 
+undoubtedly  distinguished  themselves  above  all  others. 
+Both  were  poets  ;  the  former  was  the  greatest  Slovene 
+composer  of  epic  and  ballad  poetry.  "  My  muse  is  a 
+Spartan,"  he  said.  "  In  one  hand  she  holds  the  sword, 
+and  in  the  other  a  torch."  Simon  Gregorcic  was  the 
+greatest  lyrical  poet  of  his  nation.  His  most  beautiful 
+poems  are  patriotic  songs.  In  contrast  to  the  warlike 
+Askerc  he  was  a  gentle-souled  optimist,  a  pure  anima 
+Candida. 
+
+Two  Great  Bishops. 
+
+But  above  all  the  divines  of  Southern  Slavdom  the 
+Orthodox  Prince-Bishop  of  Montenegro,  Peter  II, 
+Njegos,  and  Strossmayer,  the  Catholic  Bishop  of 
+Djakovo,  tower  as  the  mightiest  champions  of  national 
+union. 
+
+In  all  his  writings  Njegos  gave  eloquent  expression 
+to  his  grief  and  bitter  distress  that  religious  tradition 
+could  break  up  a  nation  into  separate  fragments,  each 
+sick  and  unhappy  without  the  other.  In  short,  the 
+sum  of  his  experience  is  this  : — 
+
+"  Be  a  Serb  and  believe  what  you  believe." 
+
+Further  on  he  says  : — 
+
+"  Do  not  ask  how  a  man  crosses  himself,  but  whose 
+the  blood  that  warms  his  heart  and  whose  the  milk 
+that  nourished  him." 
+
+Njegos  did  not  speak  thus  from  a  lack  of  reverence, 
+but  rather  because  of  his  heartfelt  piety.  He  conceived 
+religion  as  a  force  for  unifying,  not  for  disuniting,  and 
+it  grieved  him  to  see  in  his  country  everywhere  the 
+destructive  results  of  religious  discord.  To-day  the 
+illustrious  Bishop  of  Montenegro  is  equally  beloved 
+
+
+IN   SERBIA  63 
+
+by  Serbs,  Croats,  and  Slovenes.  This  was  made  evident 
+in  Zagreb  on  the  ist  of  March,  1914,  on  the  occasion 
+of  the  centenary  of  his  birth.  On  that  day  Zagreb  was 
+gay  with  Serbian  flags,  and  at  a  solemn  gathering 
+lectures  about  Njegos  were  delivered  by  a  Slovene,  a 
+Croat,  and  a  Serb,  successively.  Catholics  and  Ortho- 
+dox alike  jointly  celebrated  their  national  hero.  The 
+Austrian  authorities  were  plunged  in  consternation  by 
+this  unexpected  manifestation  of  brotherly  solidarity 
+between  the  very  elements  among  whom  they  were 
+unceasingly  endeavouring  to  promote  discord. 
+
+Bishop  Strossmayer  is  probably  better  known  to 
+the  Western  world  than  the  Vladika  Peter.  He  was 
+that  great  Bishop  who  so  distinguished  himself  as  a 
+Catholic  divine  and  orator  at  the  Vatican  Council  in 
+1870.  Equally  great  in  his  broad  religious  views  and 
+in  his  national  ideals,  Strossmayer  was  in  very  truth  a 
+God-sent  blessing  to  his  people.  A  son  of  the  people, 
+he  lived  and  worked  for  his  people.  Everything  great 
+that  Croatia  to-day  possesses  in  the  way  of  national 
+and  cultural  wealth  is  bound  up  with  the  name  of 
+Strossmayer ;  everything  was  created,  revived,  or 
+amended  by  him. 
+
+But  he  was  not  unaided  in  his  efforts  and  his  ideals. 
+He  had  the  unfailing  support  of  the  entire  Catholic 
+clergy  of  Croatia  at  his  back — as  the  fiery  defender  of 
+true  Catholicism  in  Rome  ;  as  leader  of  the  propaganda 
+of  liberation  for  all  Jugoslav  lands  from  the  Austrian 
+yoke,  and  the  union  with  Serbia  under  Prince  Michael ; 
+as  the  founder  of  the  Jugoslav  academy  in  Zagreb, 
+or  as  the  tireless  builder-up,  stone  by  stone,  of  the 
+material  welfare  of  the  Croatian  people.  He  was  in 
+constant  correspondence  with  Prince  Michael,  with 
+
+
+64  RELIGION   AND   NATIONALITY 
+
+Michael,  Metropolitan  of  Belgrade,  and  with  Glad- 
+stone. His  political  ideas  were  readily  accepted  by  the 
+Serbian  Prince,  and  his  love  of  peace  and  religious 
+toleration  earned  him  the  friendship  of  the  Orthodox 
+Metropolitan.  His  broad-minded  culture  and  sincere 
+sorrow  for  his  people  deeply  touched  Gladstone,  who, 
+as  is  well  known,  did  his  utmost  to  help  the  caus^  of 
+Jugoslav  freedom. 
+
+Strossmayer's  generation  and  that  which  succeeded 
+him,  whether  clergy  or  laity,  fully  appreciated  his 
+teaching.  Nor  did  the  Austrian  Government  fail  to 
+understand  it,  and  they  strove  by  every  means  in  their 
+power  to  uproot  or  to  destroy  the  seed  sown  by  the 
+Bishop  of  Djakovo.  But  this  seed  germinated  and 
+sprang  up  in  the  field,  tall  and  green,  till  both  Germans 
+and  Magyars  contemplated  this  dangerous  crop  with 
+rage  and  envy.  They  inaugurated  new  terrors,  new 
+tortures,  new  inhumanities,  new  calumnies.  Serbia 
+was  represented  as  the  black  plague-spot  of  the  earth. 
+But  these  calumnies  were  not  well  received  by  the 
+Austrian  Slavs.  Then — especially  since  1894 — Austria 
+began  her  Clerical  propaganda  ;  but  this  also  failed 
+to  influence  the  souls  of  the  Croats  and  Slovenes. 
+Various  attempts  were  made  to  supersede  the  Serbo- 
+Croat  language  by  the  Magyar  ;  but  this  only  roused 
+such  vehement  opposition  that  even  those  who  had 
+learnt  Magyar  from  interest  or  curiosity  ceased  to  use 
+it.  Then  the  Magyar  Government  endeavoured  to 
+influence  the  elections  in  Croatia  in  an  anti-Slav  sense 
+by  new  political  combinations,  i.e.  by  an  arbitrary 
+redistribution  of  the  electoral  districts  ;  but  so  far  from 
+being  successful,  this  measure  only  resulted  in  a  coali- 
+tion between  Serbs  and  Croats,  who,  under  the  influence 
+
+
+IN    SERBIA  65 
+
+of  Austrian  and  Magyar  intrigue,  had  hitherto  always 
+voted  separately.  This  coalition  has,  in  fact,  during 
+recent  years  been  the  dominant  factor  in  Croatia. 
+
+The  Legacy  of  Strossmayer. 
+
+Strossmayer  died  in  1905,  but  his  physical  death 
+only  meant  the  resurrection  of  his  ideals.  Austria- 
+Hungary  rejoiced  over  his  death,  but  her  joy  was  short- 
+lived. In  1908  Austria  burdened  her  conscience  with 
+a  further  crime — the  annexation  of  Bosnia.  Instantly 
+it  became  evident  that  Strossmayer  still  lived — indeed, 
+that  he  was  more  than  ever  alive.  For  the  annexation 
+of  Bosnia  was  a  blow  that  fell  equally  upon  Zagreb 
+(Agram),  Ljubljana  (Laibach),  Trieste,  and  all  Dalmatia 
+no  less  than  upon  Serbia  and  Montenegro.  The  harvest 
+that  Strossmayer  and  Njegos  had  sown  was  now  ripe. 
+Austria  saw  with  sorrow  that  her  prisons  were  too 
+smaU  to  contain  an  entire  nation  ;  but  she  herself  was 
+a  dark  dungeon  for  the  Jugoslavs,  irrespective  of  creeds, 
+for  at  this  juncture  she  discovered  that  she  could 
+reckon  as  little  on  the  Catholic  clergy  as  the  Ortho- 
+dox. 
+
+Several  Bishops  sided  with  their  clergy  in  the  national 
+struggle.  Thus  Ucellini,  the  Catholic  Bishop  of  Kotor 
+(Cattaro),  translated  the  "  Divina  Commedia  "  and 
+dedicated  his  translation  to  the  Serbo-Croat  nation, 
+and  because  of  his  wish  to  introduce  the  Slav  tongue 
+into  the  liturgy,  Archbishop  Dvornik  had  to  fly  from 
+his  native  town  of  Zadar  (Zara)  in  Dalmatia  to  Con- 
+stantinople, where  he  died.  The  Catholic  clergy  of 
+Dalmatia  especially  distingTiished  themselves  in  this 
+struggle  against  Austria,  and  in  Zadar,  where  Arch- 
+
+
+66  RELIGION   AND   NATIONALITY 
+
+bishop  Dvornik  had  lived  and  worked,  another  priest, 
+Don  Jure  Biankini,  preached  Nationalism  with  re- 
+ligious fervour. 
+
+Then  came  the  Balkan  wars.  From  these  wars 
+Serbia  three  times  emerged  victorious — against  the 
+Turks,  against  the  Bulgarians,  and  against  the  Alban- 
+ians. In  Austria-Hungary  the  Jugoslavs  looked  upon 
+Serbia's  war  as  their  war,  and  felt  the  Serbian  victories 
+as  their  own.  Although  themselves  in  servitude,  they 
+nevertheless  contributed  to  these  victories.  Numerous 
+doctors,  nurses,  volunteers,  medical  stores,  and  money 
+were  sent  by  one  brother-nation  to  the  other,  and 
+Austria  found  herself  compelled  to  close  her  Serbian 
+frontier  by  a  cordon  of  soldiers.  But  all  in  vain  ! 
+Hearts  were  full  to  overflowing,  and  love  waxed 
+stronger  than  ever.  Then  came  the  world-war.  All 
+ties  between  Austria  and  her  Slav  subjects  were 
+broken.  Austria's  declaration  of  war  on  Serbia  was 
+in  many  respects  also  a  declaration  of  war  to  the 
+Jugoslavs  in  Austria.  Arrests,  wholesale  hangings, 
+and  shootings  became  the  order  of  the  day.  All 
+Orthodox  and  Catholic  Bishops  were  placed  under 
+police  supervision.  Nikodim  Milas,  Orthodox  Bishop 
+in  Dubrovnik  (Ragusa),  suffered  such  gross  ill-usage 
+at  the  hands  of  the  police  that  he  died  within  a 
+few  days. 
+
+The  Southern  Slavs  under  Austrian 
+Terrorism. 
+
+In  Dalmatia,  Croatia,  Istria,  and  Carniola  the  prisons 
+were  filled  to  overflowing  with  Catholic  priests.  So  far 
+as  voices  from  Dalmatia  have  been  able  to  reach  us,  we 
+
+
+IN   SERBIA  67 
+
+V  V 
+
+learn  that  Ivo  Separovic,  Ante  Antic,  Mate  Skarica, 
+and  Ivo  Lutic  have  been  imprisoned  in  Dalmatia,  and 
+in  Istria  the  following  priests  who  are  also  national 
+delegates  :  Luka  Kirac,  Anton  Andre jcic,  Sime 
+Cervar,  the  canons  bantic,  Zavladal,  Mandic,  Matic, 
+and  two  Franciscans  ;  in  Carniola  fifteen  priests  of  the 
+Slovene  Clerical  party.  About  ten  of  the  leading  men 
+of  the  nation — journalists,  artists,  and  writers — both 
+Catholic  and  Orthodox,  fled  to  Serbia,  England,  Russia, 
+and  America.  They  fled  but  to  repeat  the  smothered 
+cry  of  tens  of  thousands  of  their  brothers  in  Habsburg 
+prisons.  And  this  cry  is  all  the  more  terrible  because 
+it  rings  through  the  twentieth  century  as  terrible  as 
+the  cry  that  rang  through  the  Catacombs  and  the  Circus 
+Romanus  nineteen  centuries  ago.  It  is  the  cry  of  the 
+priests  of  Christ,  who  preached  the  Way  of  Truth 
+before  God  and  man  ;  the  despairing  cry  of  the  martyrs 
+of  the  nation,  who  are  giving  their  life  for  the  salvation 
+of  the  people  ;  the  cry  of  the  shepherd  whose  flock  is 
+being  harried  by  the  wolf  ;  the  cry  of  noble  and  en- 
+lightened men  who  open  their  eyes  in  vain  to  behold  the 
+light,  for  around  them  is  only  darkness  :  they  open 
+their  mouths,  but  instead  of  bread,  iron  is  placed 
+upon  their  lips  ;  they  stretch  forth  their  trembling 
+hands,  seeking  the  cheerful  warmth  of  the  fire,  only 
+to  find  instead  the  cold  stones  and  mildew-covered 
+walls  of  a  dungeon  ;  they  cry  for  help,  but  their  cry 
+falls  dead  upon  thick  stone  walls,  and  returns  like  an 
+echo  into  their  hearts.    But,  as  Njegos  says  : — 
+
+"  From  their  blood  will  spring  flowers 
+For  some  far-off  generation," 
+
+
+68  RELIGION    AND    NATIONALITY 
+
+Religion  as  a  Unifying  Force. 
+
+The  great  fact,  to  which  I  have  alluded  at  the 
+beginning  of  this  article,  is  the  fact  of  the  unifying 
+influence  of  religion  in  the  history  of  Jugoslavdom 
+during  the  past  century,  and  especially  during  the 
+tragic  happenings  of  the  present  war ;  Orthodox  and 
+Catholics  found  themselves  united  in  the  self-same 
+practical  work — in  this  case  in  one  and  the  same 
+idealistic  struggle  for  nationality  and  in  common 
+suffering.  In  this  common  struggle  and  suffering  they 
+have  realised  that  they  are  brothers,  and  were  amazed 
+to  think  that  religion  could  even  for  one  moment  have 
+divided  them.  They  were  amazed  to  think  that  such 
+abstract  details  of  religion  as  the  dogma  of  the  fiUoque, 
+could  divide  them,  brothers,  who  shared  so  much 
+common  ground  in  their  beliefs — ^the  belief  in  the 
+Trinity,  belief  in  the  Saviour,  in  immortality,  in  righte- 
+ousness, in  one  Apostolic  Church,  in  the  Sermon  on  the 
+Mount,  in  the  beauty  of  self-sacrifice  for  others,  and  in 
+suffering  for  what  is  good  and  ideal. 
+
+It  may  be  objected  that  this  may  be  so  in  the  day 
+of  trouble,  but  that  all  may  be  different  to-morrow, 
+with  the  return  of  peace.  For  even  in  the  early  days 
+of  Christianity  there  was  no  division  in  the  Church 
+because  of  the  common  suffering,  but  as  soon  as  perse- 
+cution ceased,  the  spirit  of  sectarianism  crept  into  the 
+world. 
+
+On  this  point  I  venture  to  say  that  history  will  not 
+repeat  itself  ;  what  has  been  will  never  be  again.  No 
+sacrifice  of  blood  and  human  life  has  ever  been  made 
+without  causing  a  great  stride  in  history  and  a  great 
+change  in  human  life.    The  present  World-war,  which 
+
+
+IN    SERBIA  69 
+
+is  calling  for  unprecedented  sacrifices  in  blood  and  life, 
+must  mean  a  correspondingly  great  stride  (forward  let 
+us  hope)  for  humanity,  and  fundamentally  change  the 
+aspects  of  history. 
+
+The  nations  will  be  drawn  more  closely  together, 
+with  or  without  the  approval  of  the  Churches.  But 
+the  Churches,  too,  should  be  drawn  together,  and 
+ultimately  be  united.  They  will  be  united  on  those 
+great  matters,  which  they  all  have  in  common — 
+evangelical,  theological,  and  in  the  forms  of  Divine 
+Service.  The  Churches,  too,  must  learn  their  lesson 
+from  this  war.  They  must  be  careful  always  to  unite 
+in  practical  work,  which  needs  the  inspiration  of  the 
+Christian  spirit  and  Christian  love.  For  if  the  Catholic, 
+English,  and  Presbyterian  Churches  in  Great  Britain, 
+the  Catholic  and  Protestant  Churches  in  Germany,  and 
+the  Catholic  and  Orthodox  Churches  in  Southern 
+Slavdom  have  in  war-time  found  one  another  in  the 
+self-same  charitable  work  and  the  same  patriotic 
+enthusiasm,  surely  they  can  be  united  in  peace-time 
+in  the  sublime  work  of  human  civilisation. 
+
+You  will  object  that  there  are  differences.  And  I 
+reply :  "  Certainly  there  are  differences ;  but  the 
+individual  differences  between  myself  and  my  neigh- 
+bour are  much  greater  than  those  between  the  Christian 
+Churches,  yet  nevertheless  my  neighbour  and  I  meet 
+in  the  same  road,  in  the  same  work,  and  at  the  same 
+table,  and  we  live  together  under  the  same  laws  ;  we 
+both  rebel  against  the  same  evil,  and  we  both  defend 
+the  same  good."  You  will  repeat,  that  there  are 
+differences.  And  again  I  reply  :  "As  these  differ- 
+ences could  be  forgotten  in  war-time,  they  can  also 
+be  forgotten  in  peace-time." 
+
+
+70  RELIGION   AND   NATIONALITY 
+
+A  Plea  for  Christian  Charity. 
+
+At  least  this  must  be  the  case  with  us  Jugoslavs. 
+During  the  last  centuries  we  have  passed  through  a 
+repetition  of  the  sufferings  of  the  early  Christians. 
+Common  struggle  and  common  suffering  have  taught 
+us  to  live  under  the  Christian  spirit,  which  animates 
+both  the  Orthodox  and  Catholic  faiths.  The  State  for 
+which  Serbia  is  now  fighting  will  include  many  Orthodox 
+and  Catholic  members.  The  people  of  this  State  who 
+have  learnt,  not  from  theories,  but  from  life  and 
+suffering,  will  always  know  how  to  respect  the  faith 
+of  their  neighbours  in  so  far  as  it  differs  from  their 
+own,  and  to  love  it  in  so  far  as  it  coincides  with  theirs. 
+And  as  the  similarities  between  the  Orthodox  and 
+Catholic  faiths  are  in  a  proportion  of  ninety  per  cent, 
+there  will  be  ninety  per  cent  of  reasons  for  mutual  love 
+inspired  by  faith,  and  only  ten  per  cent  scope  for 
+mutual  tolerance  as  regards  their  "  individual  "  differ- 
+ences. The  future  Jugoslav  State  will  contain  about 
+fifty  dioceses,  half  of  them  Catholic  and  the  other 
+Orthodox.  All  the  inhabitants  of  all  these  dioceses  are 
+at  this  moment  praying  that  Serbia  and  her  allies  may 
+be  victorious,  even  as  the  Bishop  of  London  and  Car- 
+dinal Bourne  are  praying.  The  people  who  were 
+united  in  bondage  will  certainly  not  be  divided  in 
+freedom,  otherwise  freedom  would  not  be  better  than 
+bondage,  but  rather  worse.  The  people  who  learnt 
+the  lesson  of  love  in  bondage  will  surely  continue  in 
+love  in  freedom,  otherwise  freedom  would  merely 
+mean  a  worse  temptation  for  them.  The  people  who 
+learnt  tolerance  in  bondage  will  not  forget  to  be  tolerant 
+in  freedom.     Therefore  the  Serbian  Government  was 
+
+
+IN   SERBIA  71 
+
+merely  the  mouthpiece  of  the  Serbian  people  when, 
+directly  after  the  Balkan  wars,  it  proceeded  to  place 
+Serbia's  relations  with  the  Catholic  Church  on  a  proper 
+footing,  because  with  the  extension  of  Serbia  the 
+number  of  her  Catholic  inhabitants  would  likewise 
+increase.  In  the  midst  of  the  war,  the  Skupstina  in 
+Nis  discussed  the  project  of  the  Concordat  with  the 
+Holy  See  and  accepted  it.  It  is  known  in  the  Vatican 
+and  elsewhere  with  how  much  sincerity  and  broad- 
+minded  goodwill  the  Serbians  strove  to  meet  the  needs 
+and  wishes  of  Catholics  living  within  the  borders  of 
+Serbia.  All  future  Governments  in  Serbia  will  be, 
+we  confidently  believe,  as  sincere  and  broad-minded 
+in  religious  matters  as  the  Cabinet  which  has  created 
+the  Concordat  ;  and  it  behoves  the  Orthodox  and 
+Catholic  clergy  to  be  unanimous  in  upraising  their 
+people  in  cultural  respects,  even  as  during  the  dark 
+centuries  of  slavery  they  were  active  in  awakening 
+the  national  consciousness  and  now  are  unanimous 
+in  suffering  with  their  flocks  and  in  the  struggle  for 
+righteous  ideals  of  freedom  and  unity. 
+
+All  we  Jugoslavs  are  sure  that  there  will  be  harmony 
+and  unanimity  between  the  two  priesthoods,  the  two 
+confessions,  and  the  two  Churches  in  the  future  Serbian 
+State.  It  is  very  difficult  for  us  to  prove  this  before- 
+hand. Whatever  may  now  be  said  or  written,  people 
+will  reserve  the  right  to  believe  nothing  until  they  see 
+it,  just  as  they  reserved  their  right  to  believe  in  Serbia's 
+physical  strength  until  it  could  no  longer  be  denied 
+But  we  have  this  conviction  because  we  know  our- 
+selves. Our  national  watchword  after  this  war  will  be 
+"  Love  first,  and  then  Logic  !  " 
+
+This  watchword  should  be  the  watchword  for  all 
+
+
+72  RELIGION   AND   NATIONALITY 
+
+the  Christian  Churches,  for  it  is  true  to  the  Gospel,  to 
+which  all  the  world — now  plunged  into  a  terrible  war 
+because  of  logic  without  love — must  eventually  return. 
+The  fences  set  up  between  the  Churches  are  incredibly 
+petty.  But  it  had  to  be  that  for  a  thousand  years  men 
+lived  isolated  and  secluded  within  these  fences,  and  for 
+a  thousand  years  there  was  isolated  labour  and  develop- 
+ment, strife  and  discord,  passionate  reproach  and 
+logical  recrimination,  much  blood  and  many  tears,  the 
+sin  of  Cain,  and  the  ever-repeated  Crucifixion  of  Christ, 
+and  in  the  end  the  European  War  became  necessary. 
+All  this  had  to  be,  so  that  Christian  humanity  might 
+ripen  and  grow,  and  outgrow  these  petty  fences,  and 
+that  each  man  might  behold  his  neighbour  over  the 
+fence,  that  he  might  feel  his  heart,  hear  his  lamenta- 
+tions, and  might  extend  a  helping  hand  over  the  fence 
+and  clasp  him  in  a  brother's  embrace.  All  this  was 
+necessary  through  thousands  of  years,  till  Christian 
+men  became  convinced  that  the  distance  between  man 
+and  his  brother  is  not  to  be  measured  by  miles,  as  he 
+had  imagined,  but  by  inches  !  All  this  had  to  be,  so 
+that  all  Christian  Churches,  and  all  humanity,  might 
+repeat  with  conviction  : — 
+
+"  Love  first,  and  then  Logic  !  " 
+
+
+IV 
+
+SERBIA'S  TRAGEDY 
+
+
+TO  ALL  THE 
+
+ENGLISH   DOCTORS   AND   NURSES 
+
+WHO  SACRIFICED  THEIR   LIVES   FOR   SERBIA 
+
+THE   FOLLOWING  PAGES 
+
+ARE   GRATEFULLY   INSCRIBED   BY 
+
+THE   AUTHOR 
+
+
+IV 
+
+SERBIA'S  TRAGEDY 
+
+"  Blessed  is  he  that  considereth  the  poor ;  the  Lord  will  deliver 
+him  in  the  time  of  trouble." — PSALM  xli.  i. 
+
+The  Modern  Nebuchadnezzar. 
+
+NOTHING  is  so  sublime  as  tragedy.  The  happy 
+and  lazy  Jupiter  upon  Olympus  seems  a  vulgar 
+being  in  comparison  with  the  nailed  Prometheus. 
+Aristophanes  and  Moliere,  the  authors  of  comedies, 
+stand  behind  Shakespeare,  the  author  of  tragedies. 
+Laughter  often  pollutes  the  soul,  but  tears  are  always 
+cleansing.  Since  the  ancient  people  of  Israel,  I  see  no 
+other  people  in  the  world's  history  with  a  more  tragical 
+fate  than  that  of  the  Serbian  people.  I  listen  in  this 
+country  and  I  hear  all  around  me  the  talk  about  the 
+Serbian  tragedy.  But  if  an  Englishman  speaks  about 
+the  Serbian  tragedy,  and  if  I,  as  a  Serbian,  speak  on 
+the  same  subject,  there  is  this  difference — an  English- 
+man thinks  only  on  the  present  situation  of  Serbia, 
+and  I  think  on  the  whole  of  the  Serbian  history. 
+
+The  present  situation  in  Serbia  is  indeed  more 
+painful  than  any  imaginable  tragedy  of  human  life. 
+Nebuchadnezzar  destroyed  Jerusalem,  profaned  the 
+national  sanctuaries,  plundered  all  the  treasures, 
+carried  the  people  of  Israel  away  from  the  Holy  Sion, 
+
+75 
+
+
+76  SERBIA'S   TRAGEDY 
+
+and  put  them  on  the  rivers  of  Babylon  to  weep  over 
+their  past  and  to  despair  over  their  future.  But  you 
+will  be  wrong  if  you  expect  anything  else  from  Nebu- 
+chadnezzar, an  obscure  follower  of  obscure  divinities, 
+Baal  and  Astarte.  Nebuchadnezzar  did  as  he  thought 
+and  spoke.  He  w^as  not  a  preacher  of  Christ  like  the 
+Kaiser  from  Berlin  ;  he  did  not  wash  the  feet  of  twelve 
+old  men  every  Holy  Thursday  as  Caesar,  His  Apostolic 
+Majesty  from  Vienna,  servus  servorum  Dei  does  ;  even 
+he  was  not  Padishah,  the  son  of  the  Prophet,  and  the 
+servant  of  the  only  God,  Allah.  Nebuchadnezzar  was 
+no  hypocrite.  That  is  a  merit  in  this  life.  He  was 
+transformed  into  an  ox,  he,  the  destroyer  of  Israel. 
+Hereby  he  was  very  honoured,  for  what  is  more  beauti- 
+ful and  sincere  than  an  ox  ?  But  Nebuchadnezzar's 
+colleagues  from  Berlin,  Vienna,  Stamboul,  and  Sofia, 
+the  destroyers  of  Serbia,  deserve  in  no  way  this  honour, 
+to  be  transformed  into  oxen.  Their  transformation 
+shall  be  not  honour  but  punishment,  not  beauty  but 
+shame.  For  they  have  destroyed  Serbia,  killed 
+children,  dishonoured  women,  executed  old  ones, 
+plundered  towns  and  made  a  banquet  over  desolation, 
+tears,  and  blood,  over  the  ashes  of  Serbia,  all  in  the 
+name  not  of  Baal  and  Astarte,  but  in  the  name  of  God 
+the  Righteous,  of  Allah  the  Great,  and  of  Christ  the 
+Divine. 
+
+I  have  no  intention  to  paint  the  present  situation 
+of  Serbia.  It  is  clear  to  every  healthy  eye  and  every 
+feeling  heart.  But  the  present  situation  of  Serbia  is 
+only  one  tragic  scene  in  the  Serbian  tragedy,  a  very 
+dark  scene  indeed — ^winter-midnight  without  moon- 
+light and  stars — but  a  scene  only.  The  whole  of  the 
+Serbian  tragedy  is  the  whole  of  the  Serbian  history. 
+
+
+SERBIA'S   TRAGEDY  77 
+
+Our  national  tragedy,  as  the  tragedy  of  every  hero 
+man,  is  caused  by  our  external  situation  and  by  our 
+internal  qualities. 
+
+
+Serbia  Always  in  Somebody's  Pathway. 
+
+What  is  our  external  situation  ?  We  are  in  the 
+route,  in  the  only  good  route  between  Europe  and 
+Asia.  Remember,  please  :  a  tragical  person  is  always 
+in  somebody's  pathway.  The  birth  of  tragedy  is  con- 
+ditioned in  the  first  place  by  geography.  A  man  in  a 
+corner  is  never  a  tragical  hero  like  his  fellow  in  the 
+middle  of  the  street.  Greeks  and  Bulgars  are  like  a 
+man  in  the  corner.  They  are  protected  by  their  geo- 
+graphical position.  The  Turks  coming  from  Asia  must 
+conquer  Serbia  before  the  fall  of  Constantinople,  before 
+the  conquering  of  Bulgaria  and  Greece.  The  battle  on 
+Kosovofield  in  1389  between  Serbs  and  Turks  decided 
+not  only  the  fate  of  Serbia,  but  of  Greece,  Bulgaria, 
+Rumania,  and  the  whole  of  the  Balkans.  We  stood 
+in  the  way  ;  the  other  nations  stood  by  the  way,  in 
+the  corner.  Therefore,  the  Turks  tried  to  win  decisive 
+battles  against  the  Serbs,  before  they  conquered  Con- 
+stantinople, before  they  conquered  Greece  and  Bul- 
+garia. And  they  won  on  Maritza,  against  King 
+Vukashin,  and  lost  on  Plocnik,  against  the  Voivode 
+Milosh,  and  won  again  definitely  on  Kossovofield, 
+against  King  Lazare.  Serbia  having  lost,  everything 
+in  the  Balkans  was  lost.  Serbia  freed,  the  Balkans 
+were  freed.  Serbia  was  the  last  to  be  plunged  into 
+slavery,  she — ^the  first  to  get  up  into  freedom.  She 
+was  and  she  is  the  key  of  the  situation  in  the  Near 
+East.    With  this  key  you  can  lock  and  open  the  doors 
+
+
+78  SERBIA'S   TRAGEDY 
+
+of  the  Balkans,  even  the  doors  of  Asia  from  Europe 
+and  of  Europe  from  Asia.  As  a  sphinx  she  stood  on 
+the  way  and  spoke  to  the  Islamic  Drang  nach  Westen  : 
+"  Your  way  goes  only  over  me  !  "  As  a  sphinx  she 
+stands  to-day  also  on  the  way  and  speaks  to  the 
+Teutonic  Drang  nach  Osten  :  "  Only  over  me  !  "  And 
+she  is  trodden  to-day  by  European  and  Christian 
+invaders  as  she  was  trodden  five  hundred  years  ago 
+by  Asiatic  and  Islamic  invaders.  It  is  very  painful 
+to  see  the  nation  of  Schiller,  of  the  great  apostle  of 
+liberty  and  spiritual  beauty,  going  the  same  abomin- 
+able way  and  doing  the  same  tyrannic  and  destructive 
+work  as  the  bloody  Turk  went  and  did.  But  human 
+selfishness  is  all  the  same,  whether  it  be  covered  by 
+the  Crescent  or  by  the  Cross.  I  cannot  say  which  suffer- 
+ing for  Serbia  is  the  harder,  either  from  Bagdad's  wild 
+Islam  rushing  westwards,  or  from  Vienna's  and  Berlin's 
+perfidious  Christianity  rushing  eastwards.  But  if  you 
+ask  to-day  anybody  in  Bosnia  about  the  administra- 
+tion and  prosperity  of  the  country,  the  unmistakable 
+answer  will  be  :  it  was  much  better  under  the  Turkish 
+rule  than  under  the  Austro-Hungarian  rule.  The  same 
+answer  you  will  hear  in  other  Jugoslav  provinces  :  in 
+Croatia,  Slovenia  and  Dalmatia.  Why  ?  Perhaps 
+because  our  sincere  Slav  soul,  choosing  between  two 
+evils,  prefers  a  wolf  to  a  fox.  And  perhaps  because, 
+indeed,  the  rule  of  the  religious  and  God-fearing  Turk 
+must  have  been  more  just  and  more  mild  than  the 
+rule  of  the  scientific  perfidy  and  atheistic  brutality 
+of  Germans  and  their  servile  pupils,  Magyars  and 
+Bulgars. 
+
+It  is  characteristic  that  the  great  man  of  this  town  * 
+
+*  This  Lecture  was  delivered  before  the  University  of  Birmingham. 
+
+
+SERBIA'S   TRAGEDY  79 
+
+and  the  very  pride  of  British  science,  Sir  Oliver  Lodge, 
+in  one  of  his  recent  publications,  expressed  very  differ- 
+ent observations  about  Turkey  and  Austria.  He  said  : 
+"  It  is  a  thousand  pities  that  Austria  has  been  dragged 
+into  this  infamous  war,  for  it  seems  to  treat  its  pro- 
+vinces remarkably  well."*  Speaking  on  Turkey,  he 
+refers  to  the  "  devastating  blight  of  greedy  Turkish 
+misgovernment."f  As  an  admirer  of  Sir  Oliver  Lodge, 
+I  cannot  oppose  him.  But  as  a  neighbour  of  Austria 
+and  Turkey  for  thirty-live  years  of  my  life,  I  will  say 
+for  my  part  and  for  the  part  of  all  Serbian  people  : 
+If  it  please  God  to  put  us  under  anybody's  yoke, 
+then  we  prefer  to  be  under  the  Turkish  yoke  than 
+under  the  Austrian.  But,  O  great  God,  make  from 
+Serbia  rather  a  Salt  Lake,  only  save  her  from  both 
+these  yokes  ! 
+
+I  will  go  on.  I  speak  on  our  external  situation. 
+But  it  is  clear  that  our  external  situation  consists  not 
+solely  of  our  geographical  position,  which  crucified  us, 
+which  crucified  a  peasant  and  pastoral  people  coming 
+with  their  flocks  from  the  Carpathian  mountains  down 
+to  the  plains  of  the  Danube  and  Sava,  with  bucolic  joys 
+and  naivete  ;  our  external  situation  consists  also  of 
+what  the  world  thought  about  us.  That  is  very  im- 
+portant, sometimes  decisive — what  the  people  think 
+about  us.  Did  not  even  Christ  Himself  ask  what  men 
+thought  about  Him  ? 
+
+The  Turkish  Nietzscheanism. 
+
+The  Turks  thought  that  the  Serbs  were  the  most 
+horrible  revolutionists,  the  continual  earthquake  for 
+
+•   The  War  and  After,  3 1.  t  /iJ.,  214. 
+
+
+8o  SERBIA'S   TRAGEDY 
+
+their  Empire,  or,  if  carried  as  children  and  educated 
+as  Janizaries  in  Stamboul,  they  became  the  most 
+feared  defenders  of  Padishah  and  his  state.  A  Sultan 
+once  said  :  "  All  my  Empire,  from  Mecca  and  Medina 
+to  Shumadia  (Serbia)  smells  like  the  balsam  of  roses 
+from  Jenet,  but  Shumadia  stinks  always  like  powder 
+in  a  Sheitan's  workshop."  The  Turks  from  their  side 
+wondered  why  cannot  we  be  quiet  under  their  rule  like 
+the  other  peoples,  and  we  wondered  from  our  side  how 
+could  we  be  quiet  in  chains,  surrounded  by  injustice, 
+overwhelmed  by  tyranny  ?  We  made  many  revolts, 
+small  and  great.  During  our  small  revolts  the  Turks 
+held  us  in  contempt,  but  when  the  first  great  Revolu- 
+tion started,  a  hundred  years  ago,  they  feared  us.  And 
+when  they  contemned  us  they  were  silent  about  us, 
+and  when  they  feared  us  they  dispersed  lies  and 
+calumnies  about  us  before  Europe  and  the  other 
+ignorant  world.  "  Turkish  lies  "  became  proverbial 
+in  the  Serbian  tongue. 
+
+"  They  are  only  a  band  of  robbers  and  thieves," 
+said  the  Turks  to  astonished  Europe.  "For  the  rest, 
+Serbia  is  our  internal  affair."  Too  costly  was  our  In- 
+surrection. Our  best  men  among  our  people  have  been 
+killed,  hanged,  burnt.  Belgrade's  fortress  looked  like 
+a  forest  of  spears  with  the  leading  men  impaled.  By 
+day  the  Dahies  and  Agas  made  a  promenade  in  this 
+horrible  forest,  and  by  night  in  this  place  wandered 
+the  dogs  and  mothers  secretly  ;  the  dogs  to  satisfy 
+their  appetite,  and  the  mothers  to  defend  the  dear 
+martyr-bodies  from  dogs  and  to  mourn,  and  if  possible 
+to  steal  them  away  and  to  bury  them.  O,  how  blessed 
+is  that  stealing  ;   how  sanctified  by  every  religion  ! 
+
+The  Turkish  watchword  was  :  "  We  will  kill  all  the 
+
+
+SERBIA'S   TRAGEDY  8i 
+
+Serbians,  male  and  female,  except  the  children  under 
+seven  years  ;  they  will  grow  up  and  will  be  our  obedient 
+slaves."  The  Pharaoh  from  Egypt  thought  more  in- 
+geniously as  he  determined  to  kill  all  the  new-born 
+children  of  Israel,  hoping  so  to  see  all  the  people 
+gradually  dying  out.  The  extermination  of  the  Serbian 
+nation  a  hundred  years  ago  was  not  a  passionate  word 
+only,  but  an  official  programme.  Remember,  please, 
+that  this  official  bloody  programme  of  the  Turkish 
+Dahies  against  the  Serbian  race  was  determined  and 
+executed  methodically  and  exactly  just  in  the  days 
+when  the  great  Pitt  spoke  eloquently  and  enthusiastic- 
+ally against  the  Slavery  of  Negroes  in  the  House  of 
+Commons. 
+
+But  the  Turk  and  God  thought  not  the  same.  God 
+intervened  and  saved  Serbia  as  He  saved  the  Children 
+of  Israel  of  old. 
+
+
+Austria's  derri&re  pens^e. 
+
+Now,  what  did  Austria  think  about  us  Serbians  ? 
+Nothing  pure  and  nothing  unselfish.  She  thought 
+that  the  Turk  must  be  banished  to  Asia,  and  that 
+she  would  take  the  rule  over  the  Christian  Balkans. 
+She  supported  and  excited  our  little  revolts  against 
+our  oppressors  in  order  not  to  liberate  us,  but  in  order 
+to  compromise  the  Sultan's  Empire  in  the  eyes  of 
+Europe.  As  soon  as  we  got  free  by  our  own  moral  and 
+physical  force,  Austria  became  the  chief  conspirator 
+against  our  national  freedom.  And  as  she  was  anxious 
+before  to  rebuke  and  compromise  the  Turkish  tyranny 
+in  the  Christian  Balkans,  so  now  she  was  anxious  to 
+rebuke  and  compromise  the  Serbian  freedom.     Cer- 
+
+
+82  SERBIA'S   TRAGEDY 
+
+tainly  it  was  a  very  easy  business  to  ridicule  a  little 
+peasant  state  coming  into  being  so  unexpectedly  and 
+standing   obstinately   independent   between   two   big 
+empires.     Between  the  Sultan's  Empire  on  one  side 
+and  the  Austrian  Caesar's  Empire  on  the  other,  little 
+Serbia  looked  like  a  small  cottage-house  between  two 
+big  London  hotels.     It  was  a  very  easy  business  for 
+the  idle  people  from  Vienna  to  ridicule  our  wooden 
+churches  and  our  rough-looking  priests,  our  schools  in 
+the  shops  of  tailors  and  our  parliament   in  a  poor 
+monastery,  our  illiterate  kings  and  our  State  ministers 
+in  peasant's  costume,  our  generals  without  gold,  and 
+our  princesses  sitting  in  the  house  and  spinning  and 
+weaving.    We  looked  forward  to  learn  something  better 
+from  our  Christian  brethren,  and  we  met  only  contempt 
+and  irony,   irony  and  threats — threats  with  words  : 
+"  We  will  swallow  you  !  "     But  we  thought  :  "  How 
+could  you  swallow  us,  if  not  in  the  same  way  as  the  sea- 
+beast  swallowed  the  prophet  Jonah  ?    For  five  hundred 
+years  we  have  been  in  the  throat  of  the  Asiatic  beast, 
+and  now  we  are  out  in  the  sunlight  again.     Could 
+your  throat,  the  '  Christian  '  and  the  '  Apostolic,'  keep 
+us  any  longer  than  another  five  hundred  years  ?     If 
+yes,  all  right,  we  are  ready  to  come  in,  in  the  darkness 
+of  your  throat,  in  the  mill  of  your  teeth,  and  to  wait 
+patiently  there  for  your  death  and  our  life.    But,  dear 
+Christian  brethren,  take  care  for  your  Christian  teeth. 
+We  are  too  hard  food  ;  they  can  be  broken,  your  teeth, 
+and  we  will  be  very  sorry."     So  whispered  peasant 
+voices  from  the  little  cottage  between  two  big  old 
+hotels.    By  the  pressure  the  tragedy  is  born,  very  often 
+by  the  pressure  of  two  monsters  against  the  unsup- 
+ported one. 
+
+
+SERBIA'S   TRAGEDY  83 
+
+Franco-Russian  Policy. 
+
+What  did  Russia  think  about  us  ?  Russia  is  a  big 
+body,  a  big  light  casting  a  big  shadow.  Russia  as  a 
+light  reasoned  as  follows:  "The  Serbian  revolution 
+against  the  Turk  is  a  very  good  augur  for  the  future  of 
+the  Balkans.  Both  as  a  Christian  and  as  a  Slav 
+country  I  shall  help  the  Serbian  cause." 
+
+But  the  shadow  of  Russia  replied  :  "  No,  we  cannot 
+help  a  hopeless  cause.  We  cannot  quarrel  with  Turkey. 
+You,  our  Serbian  brethren,  go  to  Vienna  and  ask  there 
+for  support,  for  we  are  Slavs,  and,  therefore,  it  will  be 
+shocking  for  the  Kaiser  of  Vienna  if  we  help  you  as 
+Slavs."  And  the  Kaiser  of  Vienna  ironically  replied 
+to  our  requests  :  "  You  are  Slavs,  and  you  must  go 
+to  the  Russians  !  " 
+
+And  after  both  reasonings  Russia  the  Big  decided 
+to  support  us  and  not  to  support  us,  or,  in  other  words, 
+to  support  us  only  with  a  little  finger,  and  for  more 
+than  seventy  years  she  balanced  between  to  support 
+us  and  not  to  support  us.  We  have  been  very  touched 
+even  with  the  little  help  that  Russia  gave  us.  We 
+said  :  "  Thank  you,  our  good  sister  !  "  And  we  went 
+our  lonely  bloody  pathway,  "  ever  sighing,  ever 
+singing." 
+
+But  after  seventy  years  of  our  hard  fighting  and 
+tantalic  suffering  it  happened  that  the  holy  Russia 
+gave  birth  to  a  daughter  named  Bulgaria.  And  the 
+happy  mother  rejoiced  very  much  and  the  daughter 
+also.  And  both  the  light  of  Russia  and  the  shadow  of 
+Russia  have  been  exceedingly  anxious  to  do  every- 
+thing for  their  new-born  blessing.  And  both  Russias 
+planned  to  make  Bulgaria  greater  on  account  not  only 
+
+
+84  SERBIA'S   TRAGEDY 
+
+of  Turkey,  but  also  of  Serbia,  her  loyallest  friend  and 
+most  active  collaborator  in  the  liberation  of  Bulgaria. 
+At  the  Congress  of  Berlin,  the  Serbian  delegate  visited 
+the  representative  of  Russia,  who  said  :  "  Go  and  speak 
+to  Beaconsfield  and  Bismarck  and  Andrassy  !  "  And 
+as  the  Serbian  delegate  came  to  speak  to  Beaconsfield, 
+Bismarck  and  Andrassy,  they  said  :  "  Why  do  you 
+not  go  to  Prince  Gortschakoff  ?  "  And  our  delegate, 
+ashamed,  returned  to  our  little  cottage.  And  Serbia 
+trembled  and  asked  :  "  Who  is  my  true  friend  in  the 
+world  ?  "  And  the  earth  was  silent,  and  the  poor 
+people  read  more  by  hearts  than  by  eyes  on  the 
+heaven,  the  stars  as  the  words  :  "Be  confident,  I  am 
+thy  friend  !  " 
+
+What  did  France  think  about  us  ?  Napoleon  ad- 
+mired our  persistence  in  fighting  for  freedom.  But  as  a 
+son-in-law  of  Vienna  he  appreciated  much  the  friend- 
+ship of  the  Sultan.  So  Napoleon — more  a  fine  calcula- 
+tor of  his  own  interests  than  a  true  liberator  of  nations — 
+did  not  care  about  the  poor  cottage  so  much  as  about 
+the  two  hotels  suffocating  it.  In  the  time  of  Prince 
+Michael  we  desired  very  heartily  to  approach  to  France. 
+But  it  was  too  much  to  ask  from  the  chief  creator  of 
+the  freed  and  united  Italy,  Napoleon  III,  to  do  another 
+similar  good  and  great  deed,  by  creating  a  freed  and 
+united  Serbia.  In  the  new  epoch  of  the  Franco- 
+Russian  alliance  the  French  looked  upon  us  through 
+the  Russian  eyes,  and  the  Russian  Bulgaromanie 
+found  in  France  also  many  followers. 
+
+
+SERBIA'S   TRAGEDY  85 
+
+England's  Good  Conscience. 
+
+What  did  England  think  about  us  ?  The  English 
+people  and  Mr.  Gladstone  thought  very  well.  But 
+Serbia  has  not  been  in  the  English  "  sphere  of  in- 
+terests," or — to  speak  in  a  more  Christian  language — 
+in  the  English  sphere  of  care,  and,  therefore,  many 
+people  in  this  country  thought  nothing  at  all  about 
+Serbia.  One  day — it  was  twelve  years  ago — we 
+Serbians  committed  a  great  sin,  we  killed  a  man  and 
+his  wife — a  king  and  a  queen — and  England  was  the 
+first  to  cast  a  stone  at  us  and  the  last  to  take  this  stone 
+away.  We  have  not  been  angry  with  England  for  that 
+reason,  but  rather  deeply  ashamed  of  ourselves.  We 
+had  always  two  feelings  towards  England — respect 
+and  fear.  WTien  England  cast  a  stone  at  us  and  our 
+sin,  we  felt  fear  and  kept  silent.  We  dared  not  to 
+apologise  ourselves.  We  kept  thoughtful  and  sorrow- 
+ful. We  thought  only  and  dared  not  to  say  at  that 
+time  what  we  thought.  I,  myself,  dare  now  to  say  it, 
+not  as  a  Serbian,  but  as  a  minister  of  Christ.  W^e 
+thought  :  "  Behold,  how  England  is  quick  to  condemn 
+our  sin  !  She  is  doubtless  right.  But,  oh  !  were  she 
+so  quick  also  to  appreciate  our  virtues  during  a  century 
+of  our  hard  fighting  and  suffering  !  Behold,  we  sinned 
+before  God  and  England  in  killing  a  man  and  his  wife  ! 
+But  who  will  remind  England  that  the  bloody  Turk, 
+against  whom  we  fought,  and  whom  she  supported 
+more  than  a  hundred  years,  is  killing  every  day  and 
+every  night  more  than  one  man  and  one  wife  among 
+our  brethren  in  Macedonia  and  Old  Serbia,  and 
+that  in  the  second  big  hotel  next  our  cottage,  in 
+Austria,  with  which  England  stays  on  good  footing. 
+
+
+86  SERBIA'S   TRAGEDY 
+
+there  are  Southern  Slav  provinces,  which  are  trans- 
+formed into  a  black  pit  of  the  blackest  sins  of  the 
+Governmental  apparatus  under  the  protection  of  the 
+most  Christian  Emperor  ?  "  Certainly,  it  is  most  re- 
+assuring that  there  exists  a  civilised  country  which 
+can  protest  at  every  time  against  every  crime  of  every 
+nation  in  the  world.  But  we  asked  ourselves  :  "  Did 
+England  create  us  to  have  the  right  to  punish  us  ? 
+Did  she  educate  us  ?  Did  she  support  our  liberation 
+or  relieve  our  sufferings  ?  Did  she  remark  our  virtues  ? 
+As  we  struggled  for  light  against  the  chaotic  powers  in 
+south  and  north  was  she  with  us  or  with  these  chaotic 
+powers  ?  Has  she  the  right  to  cast  a  stone  at  us  ?  " 
+If  she  says  :  "  Yes,  I  have  still  this  right,"  we  will  say 
+— "  Amen  !  " 
+
+Now,  in  this  sublime  moment,  I  will  say  only,  that 
+a  great  part  of  our  Serbian  tragedy  of  to-day  is  the 
+British  tragedy  also.  Great  Britain  is  to-day  fighting 
+shoulder  by  shoulder  with  Serbia  against  all  the 
+countries  with  which  the  British  diplomacy  stood  always 
+on  a  more  friendly  footing  than  with  Serbia.  Our 
+Serbian  enemies — Turks,  Bulgars,  Austro-Germans, 
+and  Magyars — are  now  British  enemies  too.  The 
+British  soldiers  are  now  washing  with  their  blood  in 
+Macedonia  what  the  uninformed  men  in  this  country 
+wrote  with  the  pen  and  spoke  with  the  tongue. 
+
+Russia  also  participates  very  strongly  in  the  Serbian 
+tragedy.  She  is  going  to  suffocate  her  beloved  daughter, 
+thirty-seven  years  old  only,  called  Bulgaria.  As  she 
+gave  birth  to  this  child  she  was  proud,  thinking  and 
+shouting  all  over  the  world  that  she  had  brought  forth 
+an  angel.  Many  people  believed  it  bona  fide  in  this  as 
+in  other  countries.    The  noble  brothers  Eu.xkn  have 
+
+
+SERBIA'S   TRAGEDY  -  87 
+
+not  been  isolated  in  that  belief.  Unhappily  it  was  not 
+an  angel,  but  a  very  hornish  buffalo-calf.  Now  the 
+holy  and  disappointed  mother  is  going  to  kill  her  own 
+mischievous  fruit.  That  is  the  Russian  tragic  part  in 
+our  Serbian  tragedy. 
+
+A  Legend. 
+
+I  will  finally  reply  to  the  question  "  What  was  the 
+world  thinking  about  Serbia  ?  " — ^with  a  Serbian 
+popular  legend.  Once  in  the  old  times  there  came  on 
+Christmas  Day  the  Archangel  Michael  from  heaven  to 
+the  earth,  and  gathered  some  people  and  gave  them 
+many  presents,  and  said  :  "  Go  this  road  and  do  any 
+good  to  any  human  being."  And  on  this  road  was 
+sitting  a  slave  in  chains,  silent  and  motionless,  like  a 
+statue.  Around  him  there  were  many  beasts  of  all 
+kinds.  The  archangel  invisibly  transferred  himself 
+on  the  other  end  of  the  road,  met  the  people  each  after 
+the  other,  and  asked  : 
+
+"  Did  you  see  any  human  being  on  your  way  ?  " 
+
+"  No,"  replied  the  first  man.  "  I  have  seen  an  iron 
+statue,  and  many  beasts  around  it,  roaring,  '  Give  it 
+to  us  !  '    I  gave  my  presents  to  the  beasts." 
+
+He  asked  the  second. 
+
+"  No,"  replied  the  second  man.  "  I  saw  only  a 
+monster  of  clay,  and  many  beasts  around  it,  growling, 
+'  Give  it  to  us  !  '    1  gave  my  presents  to  the  beasts." 
+
+He  asked  the  third. 
+
+"  No,"  replied  the  third  man.  "  I  saw  only  a  stone 
+with  a  human  image,  and  many  beasts  around  it, 
+bleating,  '  Give  it  to  us  !  '  I  gave  my  presents  to  the 
+beasts." 
+
+
+88  SERBIA'S   TRAGEDY 
+
+He  asked  the  fourth. 
+
+"  No,"  replied  the  fourth  man.  "  I  saw  only  a 
+silent  ghostly  figure,  and  the  beasts  around,  mewing, 
+'  Give  it  to  us  !  '    I  gave  my  presents  to  the  beasts." 
+
+The  archangel  angrily  said  :  "  Come  on  !  " 
+
+As  they  came  to  the  place  where  the  slave  stood  the 
+archangel  exclaimed  : 
+
+"  Are  you  iron  ?  " 
+
+No  reply. 
+
+"  Are  you  clay  ?  " 
+
+No  reply, 
+
+"  Are  you  stone  ?  " 
+
+No  reply. 
+
+"  Are  you  a  ghost  ?  " 
+
+No  reply. 
+
+"  Are  you  a  man  ?  " 
+
+The  human  figure  trembled,  and  said  : 
+
+"  No,  I  am  a  slave.  But  how  sweet  this  question  is  to 
+hear  !  For  a  thousand  years  I  stand  here  and  no  human 
+tongue  has  called  me  man,  not  even  in  a  question." 
+
+The  archangel  took  all  the  presents  from  the  beasts 
+and  gave  them  to  the  slave,  Ajid  he  turned  to  the  men 
+and  said  : 
+
+"  God  sent  you  to  make  men  even  from  iron  and 
+clay  and  stone,  and  you  did  the  contrary,  and  made 
+men  into  iron  and  clay  and  stone.  Unhappy  this 
+Christmas  Day  is  for  me  and  for  you." 
+
+And  the  archangel  ascended  to  heaven. 
+
+Realities  regarded  as  Dreams. 
+
+Now,  I  will  try  to  point  out  some  of  the  internal 
+causes  of  our  tragedy.     To  somebody  in  this  hall  it 
+
+
+SERBIA'S   TRAGEDY  89 
+
+may  seem  that  I  keep  you  too  long.  I  don't  think  so. 
+I  will  not  keep  you  a  long  time,  not  even  five  hundred 
+minutes,  telling  you  the  tragedy  which  lasted  five 
+hundred  years.  Death  was  not  considered  the  worst 
+that  could  happen  to  a  Serbian  slave  during  such  a 
+long  slavery,  and  the  worst  that  can  happen  to  you  to- 
+night in  this  brilliant  hall,  in  the  fine  chairs,  under  the 
+electric  light,  is  the  sleep,  the  sleep  and  dream  of  a 
+tragedy  of  a  nation.  Is  it  not  all  a  dream  after  all  ? 
+What  is  your  philosophy  of  life  ?  "  All  is  shadow  and 
+dream,"  it  is  said  in  a  funer.:!  song  of  ours.  I  read  the 
+other  day  in  a  paper  :  "  The  constant  habit  of  an 
+Englishman  is  to  belittle  everything  that  is  his."  That 
+is  true,  as  it  is  true  that  the  constant  habit  of  a  Serbian 
+is  to  transform  all  the  realities  into  dreams,  to  be-sing 
+everything,  every  event,  every  life,  and  every  death. 
+I  never  met  an  Englishman  boasting  about  his  nation's 
+grandeur  and  riches  and  glory.  I  oftentimes  ask 
+myself  :  Do  the  people  really  know  geography  ?  Do 
+they  know  that  their  Empire  is  not  a  square  but  a 
+circle  on  this  planet  ?  If  they  make  the  comparison 
+betw^een  their  country  and  Switzerland  or  Serbia  they 
+have  very  little  reason  to  be  so  modest  and  grumbling 
+over  themselves.  Of  course,  it  is  quite  a  different 
+thing  if  they  will  compare  their  country  with  Mars,  or 
+the  Moon,  or  Jupiter.  But  what  is  England,  what 
+Serbia,  what  all  the  troubles  that  we  call  history  ? 
+Little  episodes  in  time  and  space  !  The  main  differ- 
+ence between  the  Englishman  and  the  Serbian  consists 
+in  the  fact  that  the  Englishman  tries  to  transform  his 
+dreams  into  realities,  and  the  Serbian  tries  to  trans- 
+form the  reality  into  dreams.  What  could  a  free  and 
+big  and  undisturbed  and  happy  people  like  the  English 
+
+
+90  SERBIA'S   TRAGEDY 
+
+do,  indeed,  if  not  to  create  the  realities  out  of  their 
+dreams,  thoughts,  ideals,  chimeras  ?  And,  on  the 
+other  hand,  how  could  the  Serbian  race,  enslaved, 
+tyrannised,  despised  through  centuries  and  centuries, 
+conserve  its  existence  if  it  did  not  look  upon  all  the 
+brutal  reality  as  upon  a  dream,  a  transitory  shadow,  a 
+cloud  of  smoke  hiding  the  face  of  the  sun. 
+
+"  To  be  weak  is  miserable, 
+Doing  or  suffering," 
+
+says  the  great  poet  of  "Paradise  Lost."  We  Serbians 
+feared  and  shamed  always  the  weakness  either  in  doing 
+or  in  suffering.  You  have  heard  that  the  Serbians 
+are  a  poetical  people.  It  is  true.  But  it  was  a  necessity 
+for  the  Serbian  slaves  to  sing  so  as  to  transform  the 
+reality  into  dream,  and  so  as  to  get  the  necessary 
+strength  to  endure  in  suffering — to  be  strong  in  suffer- 
+ing and  in  doing.  I  am  not  a  follower  of  Darwin,  but 
+I  am  sure  that  a  great  part  of  his  theory  can  be  proved 
+just  by  our  Serbian  history.  Our  poetical  instinct  was 
+latent  in  the  time  of  our  happiness  and  glory  before 
+the  tragedy  of  Kosovofield.  We  did  not  sing  so  much 
+during  the  time  of  our  freedom.  But  in  the  dark  time 
+of  the  Turkish  rule  our  capacity  to  sing  developed 
+brilliantly  and  abundantly.  With  sighing  came  singing 
+also.  Only  by  the  developed  poetical  instinct  we 
+became  "  fit  "  to  "  survive  "  our  superhuman  suffer- 
+ing, to  survive  five  hundred  years  of  crucifixion  and 
+imprisonment  of  soul  and  body.  We  dreamed  and 
+dreamed,  and  we  sung  and  sung  ;  and  the  more  we 
+dreamed  and  sung,  the  further  we  stood  from  the  ugly 
+reality.  Like  an  animal  which  sleeps  all  the  winter 
+through,  dreaming  two  summers — ^the  past  and  the 
+
+
+SERBIA'S   TRAGEDY  91 
+
+coming — we  Serbians  also,  living  a  cold  and  dark 
+winter  of  slavery  through,  dreamed  two  summers — the 
+summer  of  the  past  glory  and  the  summer  of  the  coming 
+freedom.  Now,  just  when  you  think  that  I  have  too 
+far  deviated  from  my  subject,  I  am  at  the  right  point 
+to  explain  how  one  of  our  internal  qualities  became 
+one  of  the  causes  of  our  tragedy  in  the  modern  time. 
+After  our  partial  liberation,  a  hundred  years  ago,  we 
+still  remained  poets  and  dreamers.  We  had  not  the 
+right  sense  for  the  reality.  Poets  and  dreamers,  we 
+could  not  transform  ourselves  at  once  into  the  real 
+politicians  and  practical  organisers  of  the  State,  as  a 
+bird  from  the  desert  coming  in  the  forest  cannot  at 
+once  change  its  grey  feathers  into  green. 
+
+The  Art  of  Self-Advertisement. 
+
+Our  great  emotionalism,  excited  by  the  long  suffering, 
+was  quite  an  inconvenient  quality  for  the  real  politics. 
+Into  every  affair  we  put  as  much  heart  as  brains,  or 
+even  more  heart  than  brains.  We  cannot  manipulate 
+in  the  politics  with  all  those  means  and  methods  by 
+which  the  nations  of  the  "  reinen  Vernunft  "  are  so 
+coolly  playing,  jumping,  getting  and  losing,  and  again 
+getting.  An  English  friend  of  mine  asked  me  one  day  : 
+"  Why  did  not  you  Serbians  make  such  an  active 
+propaganda  in  England  for  your  cause,  as  the  Bulgars 
+did,  for  so  many  years  ?  Why  did  you  not  speak  and 
+write  about  yourselves  and  advertise  the  people  about 
+your  country,  and  get  friends  and  supporters  of  your 
+rights  ?  "  I  reply  simply  :  "  Because  we  could  not." 
+Yes,  indeed,  we  could  not.  We  are  a  silent,  melan- 
+cholic and  discreet  people.    We  are  far  from  imposing 
+
+
+92  SERBIA'S   TRAGEDY 
+
+ourselves  on  anybody.  We  are  too  proud  of  our  his- 
+tory, of  our  great  heroes  and  their  immortal  deeds  to 
+look  upon  politics  as  upon  an  acrobatic,  skilful  game. 
+The  Bulgars  have  the  advantages — or  disadvantages 
+in  our  eyes — they  have  been  freed  not  by  themselves, 
+and  they  have  had  kings  not  of  their  own  people.  They 
+have  been  cherished  and  recommended  by  Russia, 
+and  as  every  cherished  child  they  are  too  talkative. 
+And  having  their  kings  from  Austria,  they  have  been 
+educated  during  the  last  thirty-seven  years  quite  in 
+the  Austrian  manner  of  thinking  and  doing  and  making 
+politics.  Russia  gave  them  the  body,  and  Austria 
+breathed  her  spirit  into  this  body.  In  the  modern 
+political  acrobacy  the  kings  played  a  very  important 
+part.  The  imperialistic  Germany  knew  it  better  than 
+the  democratic  France  and  England.  Germany's  con- 
+viction was  that  it  is  better  to  have  a  German  king 
+in  the  Near  East  than  a  dreadnought.  I  suppose  that 
+now  France  and  England  also  are  convinced  that  a 
+German  king  in  the  Balkans — ^whether  his  name  be 
+Ferdinand  or  not — represents  a  more  destructive  force 
+than  any  dreadnought  or  any  howitzer.  These  German 
+kings,  our  neighbours,  and  their  next  great  protector, 
+the  Emperor  from  Vienna,  with  their  unscrupulous 
+political  game,  with  their  quick  monkey's  face  changing, 
+with  their  infernal  conspiracies  and  intrigues  against 
+Serbia,  were  for  our  peasant  people  the  representatives 
+of  the  European  culture.  Our  people  looked  upon 
+these  German  KuUurtrdger,  and  have  been  disappointed 
+and  disgusted,  and,  therefore,  also  reserved  and  sceptic 
+in  regard  to  all  the  cultured  peoples  of  Europe,  but  the 
+reserved  and  sceptical  make  no  friends.  The  German 
+kings  of  our  neighbouring  nations  have  been  a  laisser 
+
+
+SERBIA'S   TRAGEDY  93 
+
+passer  to  them  for  Western  Europe.  Our  kings 
+descended  not  from  the  European  noblesse  ;  they  have 
+been  our  noble  peasants,  without  kinsmen  outside 
+from  Serbia,  without  riches,  and,  consequently,  without 
+influence  on  the  politics-making  potencies.  That  was 
+our  disadvantage  in  the  political  game  of  the  world. 
+But  still  we  considered  it  as  sounder  and  more  har- 
+monious to  have  a  king  of  our  own  people.  It  was 
+doubtless  a  fine  thought,  but  also  a  pathway  of  greater 
+suffering. 
+
+Did  you  read  the  other  day  that  the  Kaiser  is 
+anxious  to  find  a  new  German  prince  for  the  throne 
+of  Serbia  ?  He  thinks  seriously  to  continue  the  same 
+game  with  the  little  nations  and  his  royal  proteges. 
+But  the  German  game  is  no  secret  any  more  for  any- 
+body in  the  world,  and  the  Kaiser  rather  should  be 
+anxious  to  think  where  to  house  to-morrow  the  German 
+Royal  refugees  from  the  Near  East  ! 
+
+Bad  and  Good  Results  of  Fatalism. 
+
+Besides,  our  misfortune  is  partly  due  to  our  fatalism. 
+We  are  greater  fatalists  than  any  Christian  nation. 
+The  explanation  of  our  fatalism  lies  in  our  sufferings. 
+Suffering  makes  infallibly  a  man  a  fatalist.  A  happy 
+man  is  never  a  fatalist.  We  suffered  horribly  through 
+all  our  history,  from  our  furious  enemies,  as  well  as 
+from  our  half-and-half  friends,  I  was  witness  of  a 
+touching  scene  a  year  ago  in  a  hospital  of  a  little  town 
+in  Serbia.  I  saw  an  English  nurse,  sick  of  typhus, 
+lying  in  bed.  A  Serbian  old  lady  stood  at  the  bed  and 
+bitterly  wept.  "  Why  do  you  w^eep  ?  "  I  asked.  "  How 
+not  to  weep,  sir  ?  "  replied  the  lady.    "  She,  poor  one, 
+
+
+94  SERBIA'S  TRAGEDY 
+
+came  from  so  far  to  suffer  and  perhaps  to  die  here. 
+Why  did  she  come  in  this  country  of  suffering  ?  The 
+suffering  is  our  part  and  not  the  English."  That  is  a 
+very  popular  thought  in  Serbia  :  the  suffering  is  our 
+Serbian  part  more  than  anybody  else's.  The  whole 
+of  our  popular  philosophy  is  founded  on  the  concep- 
+tion of  suffering. 
+
+"  In  suffering  only  the  true  hero  can  be  recog- 
+nised," says  a  Serbian  proverb.  Fatalism  is  like 
+opium.  It  enables  the  slaves  to  endure  in  suffering. 
+But  it  hinders  the  free  men  from  acting  freely  and 
+progressively.  Our  fatalism  was  our  friend  during 
+the  time  of  our  slavery,  but  it  was  our  enemy  during 
+the  newest  epoch  of  our  history.  Fatalism,  together 
+with  our  melancholy  and  poetical  sensibility  are  our 
+qualities  ;  very  useful  qualities,  indeed,  for  great  deeds 
+and  sufferings,  but  very  unwelcomed  qualities  for 
+clever  political  propaganda,  for  minute  social  organisa- 
+tion, detailed  advertisement,  and  quick  diplomatic 
+game.  We  have  more  capacity  to  hunt  a  lion  than  to 
+catch  a  fly.  Therein  is  our  force,  but  therein  is  our 
+weakness  also.  That  is  a  humorist ic  side  of  our 
+tragedy.  In  his  admirable  lecture  on  "  Humour  in 
+Tragedy,"  Sir  Herbert  Tree  proved  how  the  humour 
+is  important  for  a  perfect  tragedy.  "  At  this  time," 
+he  said,  "it  is  only  the  force  and  calm  of  humour 
+which  can  stay  us  from  crossing  the  borderland  which 
+separates  despair  from  madness,"*  The  happy  people 
+of  Piccadilly  Circus  joked  the  other  day  to  our  poor 
+Serbian  Government  with  words  :  "  The  Serbian 
+Government  is  now  scooting  to  Scutari !  " 
+
+*  The  English  Review,  November,  191 5. 
+
+
+SERBIA'S   TRAGEDY  95 
+
+We  Smile  and  Hope  After  All. 
+
+The  most  divine  thing  in  a  tragedy,  after  suffering, 
+is  a  smile.  Even  Christ  smiled  Himself  in  the  time 
+of  His  agony  in  the  garden,  seeing  "  a  great  multitude 
+with  swords  and  staves  coming  out  as  against  a  thief." 
+A  smile  in  a  tragedy  makes  the  tragedy  greater.  We 
+Serbians  are  now  smiling  to  our  friend  of  old — death — 
+who  is  now  making  in  our  country  a  rich  harvest  by 
+the  sword  of  the  Kaiser,  as  it  did  five  hundred  years 
+ago  by  the  sword  of  the  Sultan.  With  a  smile,  we  are 
+asking  :  "  Where  is  indeed  the  human  progress  ?  A 
+Christian  Kaiser  does  to-day  the  same  diabolic  destruc- 
+tion of  Serbia  as  a  Mohammedan  Sultan  did  half  a 
+thousand  years  ago.    Where  is  the  progress  ?  " 
+
+With  a  smile  we  see  now  that  this  strip  of  Albania 
+which  was  called  three  years  ago  the  Serbian  window 
+of  the  Adriatic  is  now  the  whole  of  Serbia.  The  whole 
+of  Serbia  in  a  window  ! 
+
+With  a  smile  we  are  wondering  how  it  happened 
+that  we  are  perishing  in  the  very  great  and  excep- 
+tional moment  in  history  as  we  happily  got  to  have  as 
+real  allies  and  supporters  great  Russia,  England,  and 
+France  ? 
+
+With  a  smile  we  are  asking  :  "  In  what  regard  is  our 
+century  better  than  the  century  of  Nebuchadnezzar, 
+the  great  ox-king,  or  king-ox,  from  Babylon  ?  " 
+
+And  still  we  hope.  We  are  fighting  for  Freedom  and 
+Justice.  Our  fighting  for  such  ideals  could  be  a  definite 
+failure  only  in  the  case  if  there  were  no  God,  But 
+there  is  a  God  ;  the  whole  of  Serbia  believes  in  a  God. 
+Our  fighting  cannot  be  a  failure,  as  our  God  cannot  be 
+a  chimera. 
+
+
+96  SERBIA'S   TRAGEDY 
+
+When  I  speak  here  Death  is  at  work  in  Serbia, 
+paving  Serbia  with  d^ad  corpses,  making  from  Serbia 
+a  mournful  cemetery,  a  "  valley  of  Death."  Serbia 
+is  now  very  similar  to  a  cemetery,  full  of  silence,  bones, 
+and  hyenas.  Still,  the  last  act  of  a  great  tragedy  is 
+not  Death  but  Resurrection.  I  don't  believe  that 
+Serbia  will  entirely  die.  But  if  that  should  happen, 
+even  for  a  short  time,  I  would  write  on  the  sacred 
+tomb  of  my  martyred  country  the  most  suitable 
+epitaph  :  "  Here  rests  a  loyal  friend  of  England." 
+
+
+WILLIAM    BRENDON   AND  SON,    LTD.,  TRINTERS 
+PLYMOUTH,    ENGLAND 
+
+
+THE 
+
+SOUL  OF  SERBIA 
+
+BY 
+
+NICHOLAS  VELIMIROVid 
+
+
+THE  FAITH  PRES 
+
+

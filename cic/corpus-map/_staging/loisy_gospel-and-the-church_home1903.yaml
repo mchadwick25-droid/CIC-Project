@@ -6,6 +6,6 @@ assignments:
   locus: 'whole'
   atlas_ids:
   - the-catholic-church-pius-x-to-the-council
-  role: tradition
-  confidence: needs-ruling
-  note: 'His book in an English translation of 1903, before the entry''s window opens in 1906.'
+  role: antecedent
+  confidence: assigned
+  note: 'His book in an English translation of 1903, before the entry''s window opens in 1906. The decree Lamentabili of 1907 answers this book and its fellow.'

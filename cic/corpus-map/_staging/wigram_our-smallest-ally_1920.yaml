@@ -1,0 +1,11 @@
+source_file: wigram_our-smallest-ally_1920.txt
+assignments:
+- row_id: wigram_our-smallest-ally_1920--wigram-our-smallest-ally-1920
+  work: 'Wigram, Our Smallest Ally (1920)'
+  author: wigram
+  locus: 'whole; the murder of Mar Shimun at lines 1700-1760'
+  atlas_ids:
+  - the-sayfo-and-the-syriac-diaspora
+  role: context
+  confidence: assigned
+  note: 'An English clergyman''s account; an outside witness.'

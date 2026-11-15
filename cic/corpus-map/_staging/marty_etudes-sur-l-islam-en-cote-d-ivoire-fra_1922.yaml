@@ -1,0 +1,11 @@
+source_file: marty_etudes-sur-l-islam-en-cote-d-ivoire-fra_1922.txt
+assignments:
+- row_id: marty_etudes-sur-l-islam-en-cote-d-ivoire-fra_1922--marty-etudes-sur-l-islam-en-cote-d-ivoire-le-harrisme
+  work: 'Marty, Études sur l''Islam en Côte d''Ivoire: "Le harrisme"'
+  author: marty
+  locus: 'lines 537-756'
+  atlas_ids:
+  - african-initiated-churches-harrist-aladura-zioni
+  role: context
+  confidence: assigned
+  note: 'An outside account of 1922 in French; it summarizes Harris and quotes none of his words.'
