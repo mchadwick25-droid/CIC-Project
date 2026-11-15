@@ -3310,3 +3310,43 @@ Every quotation was re-checked word for word against its vendored file. No paid 
 **What is still open.** Open-Gaps 266, "Major councils, era 4" (2026-11-14). The councils of eras 5 and 6 are next, as separate jobs.
 
 The files are in `Council-Profiles/era4/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-14_council-profiles-era4/`. No census, record or site change is made, so there is no data release number; councils reach the site through the map build. Approved to proceed (coordinator, 2026-11-14; Mark may overrule).
+
+## 2026-11-15 — Cap ruling: ten round 3 fixes and one check, era 5 councils
+
+**Cap ruling (Mark, 2026-11-15, his pick relayed by the coordinator: "Fix + one check (Recommended)").** Round 3, the last review round of the era 5 council profiles, left one blocking point, two substantial points and seven minor ones. All three of the larger points came in with a pass after round 2 that split entry sentences over 25 words; none was in a brief:
+- **Lyon 1274, entry `outcome[7]`.** The split credited Clement V's grant of 1309 to the Oxford Franciscans to Glassberger. It now cites Clement V's own letter in the Franciscan bullarium, and "(Glassberger)" stands on the Boniface VIII sentence only.
+- **Lyon 1274, entry and Open-Gaps.** The interpreter is "John of Balastri", as Glassberger names him; "Parastron" came from a Ducange note no claim cites. A records claim for his part was added.
+- **Lateran IV, entry `outcome[7]`.** "Nearly six centuries after the council", where the split had made it read as six centuries after the Pedalion's printing in 1800.
+
+All ten fixes were applied as the reviewers worded them. One targeted Opus check of only those strings followed, by an agent that had not seen the drafting or the earlier rounds. The check does not count toward the cap: `Build/Ministry/Operations/Audits/2026-11-15_council-profiles-era5/R4_cap-check.md`. Its verdict was CLEAR for all ten. It found one minor point outside them, a citation range one line short in the Clermont records (Acta Sanctorum, June V, l.148148-148150), which was corrected. The cap ruling is met.
+
+## 2026-11-15 — Major councils, era 5: three profiles (coordinator, under Mark's lifting of the council hold, 2026-11-14)
+
+**Decided.** Mark lifted the council hold on 2026-11-14 ("lets do era 4 then 5 then 6 counsils"; "lift all holds"), recorded in "Major councils, era 4". This entry is era 5. The Library fill stays paused until Mark's weekly reset. Mark's standing words for this work: "dont sacrafice quality, expecially the quality of writing." Every review round ran at full effort.
+
+**The three councils.** They are the era 5 rows of the councils scan (`Build/Ministry/Operations/Audits/2026-11-12_major-events-scan/Councils_Scan.md`). Each is written to `Council_Profile_Pattern.md`, in the form of the era 1 to 4 councils.
+- **Clermont 1095**: 400 words, FK 7.08, reading ease 68.77. The acts are not held. Two canons reach us in Mirbt, and four more in the record of the council of Beauvais (1114). The scene is Baldric of Bourgueil's, an eyewitness on the side of the call, and William of Tyre's later speech is set beside it. Lambert of Saint-Omer gives 310 bishops and the year 1096. The armies' arrival in the East is told through Anna Komnene, who traces it to Peter the Hermit. The low grade comes from short spoken lines; joining them would run sentences past 25 words, so they were left, as with Whitby.
+- **Lateran IV 1215**: 400 words, FK 8.13, reading ease 62.84. No account from inside the sessions is held, so the scene is Dominic setting out with Fulk of Toulouse, from Jordan of Saxony. The canons are told from Mirbt's and Denzinger's extracts. Hethum of Korykos gives the count, and Jacques de Vitry the Maronite patriarch's coming. Joachim of Fiore speaks in his own words from the Psalterium and his letter of 1200. Canon 68 is not held, so the brief does not tell it.
+- **Lyon 1274**: 392 words, FK 8.02, reading ease 64.06. Three texts of the acts are held in extract. The scene is Glassberger's (1508), a Franciscan chronicler. The Greek side reaches us from about 1300 on: Nikephoros Kallistos's list of patriarchs, Gennadios Scholarios, and the chronicle printed under Sphrantzes's name. The close is the First Vatican Council's use of the Greeks' profession, from Schaff's English.
+
+**Worker's calls under the pattern (not Mark's words; Mark may overrule).**
+- **Rivers as the scan gives them**, as every era 3 and era 4 entry does: Clermont, Latin West; Lateran IV, Latin West and Syriac East; Lyon, Greek East and Latin West. Clermont's reach to Byzantium is told in its outcome and its Byzantine link.
+- **The Who click follows the era 3 and era 4 rule.** Writers who only report a council (Anna Komnene, William of Tyre, Ibn al-Athir at Clermont) are in the record and sources. Henry IV and Gregory VII, background to Clermont, are not on its click.
+- **No Roman gap.** `latin-papal-church-gregorian` covers 1049-1300. Other parties with no census tradition at the date are logged in Open-Gaps 268.
+- **The Waldensians are not linked to Lyon 1274.** The scan's link was a place-name match, and no held line ties them to the council.
+- **The Lateran IV close stays on Jacques de Vitry at Innocent's body.** A close on Trent was offered as optional; era 4 accepted sourced closes of this kind.
+- **Joachim of Fiore filed as later narrative with a note**, like Columbanus for Whitby. The pattern gap is logged again.
+- **No wanted rows.** The held sources carry all three profiles; what is not held is listed in Open-Gaps 268 for the Library thread.
+- **American spelling** in the profiles' own prose (Decision-Log 77); quotations keep their own spelling.
+- **Opus drafted every profile.** Opus research agents first gathered a sourced dossier for each council, and Opus agents wrote the entries and records from them.
+
+**Review.** Three rounds by fresh Opus agents, one per council, none of whom had seen the drafting, at full effort in every round.
+- **Round 1**, the full review in three parts, found 10 blocking, 14 substantial and 38 minor points. Most of the blocking points were false absences: Lambert's count and date at Clermont, the further Clermont canons at Beauvais, Gerard de Frachet putting Francis at Lateran IV, a Cathar text held, a second copy of canon 13, and the Greek witnesses dated to the 1400s when the patriarch list is from about 1300. Also: the wrong work for Joachim's "branches on one root", the wrong author for the second Life of Dominic, an unsupported "not at the council" for Vitry, and a false "no held witness" on Michael VIII's motive (the Recueil editors give it).
+- **Round 2**, a targeted recheck, found 1 blocking, 3 substantial and 12 minor. The blocking point was a false absence of any Waldensian voice on Lateran IV: Jean Léger (1669) names it. Two of the substantial points were Lyon's decree on the mendicant orders, misread from Lea and Salimbene. The third was a canon against lay investiture at Clermont: its heading in the Beauvais record names no pope, and a second council of Clermont (about 1077) is held. The brief now tells a canon the record gives to Urban.
+- **Round 3**, the last, found 1 blocking, 2 substantial and 7 minor, all in entry text. The three larger points went to Mark, and his ruling is recorded in the cap ruling entry above.
+
+Every quotation was re-checked word for word against its vendored file. No paid calls were made.
+
+**What is still open.** Open-Gaps 268, "Major councils, era 5" (2026-11-15). The councils of era 6 are next, as a separate job.
+
+The files are in `Council-Profiles/era5/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-15_council-profiles-era5/`. No census, record or site change is made, so there is no data release number; councils reach the site through the map build. Approved to proceed (coordinator, 2026-11-15; Mark may overrule).
