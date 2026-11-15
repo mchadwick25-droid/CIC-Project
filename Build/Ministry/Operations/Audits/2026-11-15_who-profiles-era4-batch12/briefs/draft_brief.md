@@ -1,0 +1,40 @@
+# Drafting brief: Church Family Tree Who profile (era 4 batch 12)
+
+You research and draft one Who profile (brief, card, records) from the held sources. Repo /home/user/CIC-Project. Quality of writing and source fidelity come before everything (Mark: "dont sacrafice quality, expecially the quality of writing"). You are Opus; you draft the profile yourself.
+
+## Read first, all of it
+1. /home/user/CIC-Project/CLAUDE.md, sections "Trust and source fidelity" and "Accessible and rigorous".
+2. Build/Ministry/Features/Church-Family-Tree/Who_Profile_Pattern.md (the pattern and its 14-item checklist).
+3. Build/Ministry/Operations/Audits/2026-11-15_who-profiles-era4-batch12/briefs/lessons.md (mistakes reviewers caught in earlier batches; avoid every one).
+4. House form, finished examples: Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch11/eulogius-of-cordoba.brief.txt and .card.json, and the "eulogius-of-cordoba" entry of batch11/records.json (python3 -c to print just that key). For a recorder with a thin life: batch11/stephen-of-mar-saba.*.
+5. Your person's re-score row: Build/Ministry/Operations/Audits/2026-11-14_who-rescore-eras4-5/Rescore.md (grep your person's name). Treat it as leads, not truth: earlier batches found its line numbers and claims often wrong. Reopen every line you use with sed -n in cic/texts/ and confirm who speaks, hedges, conditions and dates. Don't read whole files: grep -n with whitespace-tolerant patterns (OCR often double-spaces or garbles names), then sed -n ranges.
+
+## Research
+- Find every held source on your person across ALL of cic/texts (grep -l -i on name variants, including Latin and Old English forms and OCR garbles), not just the files the re-score names. The Library's new fill (PR #1675) added the Anglo-Saxon Chronicle (Plummer 1892 in Old English; Gomme 1909 in English), the Annals of Ulster and Bede's chronicle. Berno's testament is printed whole in the PL 133 Odo volume at about l.67228.
+- Every held placing of every date (birth, consecration, death, burial: died and buried differ), with its owner. Chronicles and editors' notes often give other years.
+- Later retellings (Osbern, Eadmer, Nalgod, Florence/John of Worcester, William of Malmesbury and the like) are later: name them as later where used; an early witness carries the life.
+
+## What to write
+- `<id>.brief.txt` in Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch12/: about 325 words (2:00 spoken). Aim 320-338, the length of batches 10 and 11 (329-338). Paragraphs separated by one blank line, no audio tags. Opens on one sourced scene; the who-line within the first few sentences; then their story and what mattered, the positions they held, built or defended told through events; disputes told in place with witnesses named; a close in their own words if held, else how later readers remembered them. Tighten by writing tighter, never by cutting a story off. Shorter where the sources are thin. Grade: FK ≤ 10 and Flesch ≥ 60, grade 8 a floor worth staying above (score with: cd /home/user/CIC-Project && python3 Build/Ministry/Operations/Audits/2026-11-15_who-profiles-era4-batch12/briefs/score.py Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era4/batch12 — it also writes the audio file; don't edit audio by hand).
+- `<id>.card.json`: fields in this order: name, otherNames, knownFor, dates, place, tradition, role, briefLength ("about 2 minutes"), keyWorks (max 3; title, about; omit if the person left no works), legacy {traces, remembered}, uncertain (opens with the brief's own caveat; each item names its witnesses; every held placing of every disputed date), sources {ownWords, about} (each: title, author, date, language, file "cic/texts/<basename>"). Absent fields left out. Every source named on the card is in sources; every source in sources is used. indent=2, ensure_ascii=False, final newline.
+- Records: /tmp/claude-0/-home-user-CIC-Project/a6a70c47-631c-5a34-8705-fed970b2e30a/scratchpad/rec/<id>.json: {"claims":[{claim, witness, formation_confidence}], "contested_claims":[{claim, sides:[...]}], "absent_details":[{detail, note}]}. Claims quote the source verbatim as the scan reads (mark "(scan)" where garbled), witness = "TAG (basename), l.X-Y". One claim for each fact in brief and card. formation_confidence one of: Documented, Widely Accepted, Dominant Modern Reconstruction, Contested, Inferential-Thin. A single modern witness is not Widely Accepted. absent_details say what was searched (patterns and scope).
+
+## Hard rules
+- Never invent: no family, feeling, motive, office, adjective or scene the held lines don't give. No profile arithmetic in a source's mouth.
+- Only held ENGLISH goes in quotation marks, verbatim (Old English and Latin are not English for this purpose: tell them in modern words with the source named; a held modern English translation, such as Cook's Asser, Wilcock's or Giles's Bede, Gomme's Chronicle or Sweet's facing translation, may be quoted, named as the translator's English).
+- Name real witnesses ("Asser says"), introduced at first mention with role and time ("Albert Cook, who put Asser into English in 1906"). A partisan witness (a disciple's Life written as a tribute to a saint) is marked once at first use.
+- Disputed dates: the brief may give one only with its owner, or the spread; the card gives every held placing by name.
+- Common names get "of <place>" or the source's epithet at first mention in each text (brief and card separately). Namesakes in this batch: Oswald of Worcester and York vs King Oswald of Northumbria; Odo of Canterbury (Archbishop Oda, Oswald's kinsman) vs Odo of Cluny; Benedict of Aniane vs Benedict of Nursia vs Benedict Biscop; Wulfstan of Winchester (the cantor) vs Wulfstan of York; Æthelwold vs other Æthelwolds; any Edgar/Edward/Eadred kings told apart.
+- No AI tells, no "not X but Y", "X, not Y", "X and never Y", colon reveals, rhetorical questions, triads, tails, aphorisms, quotable closers, hedging filler, unearned adjectives, sentences past ~25 words, pronouns with unclear referents when heard aloud, "the same" without referent, drafting-process words ("used here", "held") in brief or card. Every sentence earns its place. American spelling outside quotes. Define terms a listener won't know (ealdorman, thegn, Rule, customary, etc.).
+- Card tradition: use the census tradition name given below.
+
+## Linked profiles in this batch (drafted in parallel by other agents)
+Alfred the Great; Dunstan; Æthelwold of Winchester; Oswald of Worcester and York; Benedict Biscop and Ceolfrid; Benedict of Aniane; Odo of Cluny; Odilo of Cluny. Dunstan, Æthelwold and Oswald share events (King Edgar's reform, Glastonbury, Abingdon, Fleury, Ramsey, the Regularis Concordia). Tell any shared event only from your own cited lines, and list in your report each shared event and dispute you tell, with the line, so the worker can align the profiles.
+
+## README material (report it; don't write the README)
+- Census walk: the release-44 census is at /tmp/claude-0/-home-user-CIC-Project/a6a70c47-631c-5a34-8705-fed970b2e30a/scratchpad/census.json. Walk every string in it (python json walk with a path printer) for every spelling of your person's name (and Latin/Old English forms), and list each passage with its JSON path, saying agrees or differs with the held lines (and why). Mind namesakes (King Oswald, Odo of Canterbury, other Benedicts).
+- Other profiles: grep Build/Ministry/Features/Church-Family-Tree/Who-Profiles/ (all eras, brief, card and records) for your person; for each hit say agrees or differs.
+- Corrections to the re-score row (lines or claims wrong).
+
+## Report back
+Reply with: the files written, word count / FK / Flesch, then README material in at most 25 lines: census passages (path, agree/differ, why), other profiles, re-score corrections, name/id calls, shared events with lines, any judgment the coordinator should see (thin life, a too-thin source, a pairing doubt). Keep it short.

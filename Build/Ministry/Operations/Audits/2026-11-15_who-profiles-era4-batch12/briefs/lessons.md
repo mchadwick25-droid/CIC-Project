@@ -1,0 +1,21 @@
+# Lessons from era 4 batches 9-10 and era 6 batch 2 reviews (distilled)
+- Reopen every cited range in context: who speaks, under what condition, what the line annotates. Don't give one witness's words to another, don't merge two witnesses, don't swap who holds a side, don't report an editor's reasoning as the source's own.
+- No absence or "only" claim until all of cic/texts is searched with name variants and OCR forms.
+- Ranges must include the line carrying the quote or year; check reviewers' ranges too. A file header is not the scan.
+- Every source named on a card is in `sources`, every source in `sources` is used. Every records claim supports brief/card text.
+- Every held placing of every date (incl. other volumes, editors' notes). Never tell a disputed year from one side, even in knownFor. Died vs buried. AM/indiction reckonings get their owner. "The scan reads" where the scan differs from the printed year.
+- Quotes verbatim inside the cited range; a cut quote keeps its condition; no own English of a foreign source in quotation marks; only held English is quoted.
+- Single-witness claims are not Widely Accepted. Partisan witness marked once at first use. Give a held editor's dissent. Never turn a hedge into a flat statement. No invented office, motive or adjective.
+- Writing: no "X, not Y", "not X but Y", "X and never Y", colon-reveals, tails; ~25-word max; pronouns resolve to nearest noun aloud; scholars introduced with role and time at first mention; "of <place>" identifiers; no "the same"/"it" without referent; no drafting-process language ("used here", "as held") on participant text; one term per thing; American spelling outside quotes; define terms.
+- Brief ~325 words (2:00); README names any exception.
+- Card order per pattern; missing fields omitted; uncertain opens with the brief's caveat. Audio = brief with "[calmly] " at start and "[warmly] " at start of last paragraph. JSON final newline. absent_details state the searches. Card fix => matching records fix.
+- README: census bullets list every live passage and say agree/differ; both river counts; word range restated after every change; cite only existing Open-Gaps / Decision-Log entries.
+- Fixes are new text: read every fix against its source. Tightening can drop a side or a hostile marker or a referent.
+- (batch 11) Never put the profile's own arithmetic or reckoning in a source's mouth ("seven years after 789 is 796" was the profile's sum, not the note's). A derived date is said as derived, or left out.
+- (batch 11) An editor's signed contributor's note belongs to its signer, not the editor. A witness who quotes another (Quatremère quoting al-Maqrizi) is not the speaker.
+- (batch 11) Read every characterization of a source against its words: "tradition" is not "legend", an inference is not a title ("a bishop, Janah").
+- (batch 11) Linked or paired profiles tell a shared dispute the same way, both sides, in both, and the README agrees.
+- (batch 10) A held date placing left off a card is blocking. Search all of cic/texts for other placings (other volumes, editors' notes, chronicles) before writing a date.
+- (batch 10) A man named in a fix needs an identifier that tells him from a namesake; a cut for length can drop a side or a marker.
+- (batch 9) "Died" and "buried" differ; don't count blank lines in line ranges; "the scan reads", not "printed", for OCR-only text.
+- Search every held file before writing "no source gives X". No editor's view told as settled.
