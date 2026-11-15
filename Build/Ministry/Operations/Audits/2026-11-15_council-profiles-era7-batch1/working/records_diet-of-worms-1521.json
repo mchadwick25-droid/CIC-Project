@@ -1,0 +1,718 @@
+{
+  "claims": [
+    {
+      "claim": "On the second day Luther waited at the emperor's court from after four until six o'clock, 'almost smothered for the press'",
+      "witness": "foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.21838-21843",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "The evening of the second hearing was 18 April 1521",
+      "witness": "luther_first-principles-reformation_wace-buchheim1885.txt l.2464-2466",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Köstlin, as cited by Luther's 1930 editors, dates Luther's Worms speech to 18 April 1521",
+      "witness": "luther_works-v3-selected_various1930.txt l.10567",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "The second hearing was on the day after the first",
+      "witness": "foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.21838",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Luther's own account: 'Then they gave me one day and one night'",
+      "witness": "luther_table-talk_bell1886.txt l.3564",
+      "witness_kind": "participant",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "The Diet's own record, the Deutsche Reichstagsakten, is cited by Mirbt as his source for the Edict",
+      "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.15590",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Foxe names his sources for the Worms account: Melanchthon's history, Sleidan, the Ursperg chronicle's continuation and another (name damaged in the OCR)",
+      "witness": "foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.22529",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Pallavicino says he found matters in the letters of Girolamo Aleander, sent to Germany by the pope on Luther's business",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.6157-6159",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Pallavicino says Aleander reported to Rome on the news of Luther's disappearance",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.10410-10412",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Pallavicino's history is the 1664 revised edition; the first appeared in 1656-1657",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.3",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "The emperor ordered 'a sitting or assembly of the states of all the empire' at Worms for 6 January 1521, and it began that day",
+      "witness": "foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.21660-21667",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "The Edict names those present as the empire's 'churfürsten, fürsten und stende jetzo hie versamelt'",
+      "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.15598-15600",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Sarpi gives the Edict as saying the herald was sent 'not to know and judge the things that concern Faith, which belongeth to the Pope alone'",
+      "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.9744-9746",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Exsurge Domine is dated 15 June 1520",
+      "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.15393",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Exsurge threatened Luther with penalties unless he recanted within 60 days of publication",
+      "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.15508-15512",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Luther burned the bull at Wittenberg on 10 December 1520",
+      "witness": "foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.21652-21657",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Aleander held that a notorious heretic already sentenced by the pope ought not to be heard, and that no safe-conduct was owed",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.9938-9943",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Waterworth: Aleander 'was indeed averse to this summons'",
+      "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.1710",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "The estates warned that violent measures would 'call forth the greatest commotion' and asked for 'merely ... a summary interrogatory'",
+      "witness": "luther_first-principles-reformation_wace-buchheim1885.txt l.2373-2380",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "The estates' draft grievances say 'achtet man von nöten, das derhalben ain besserung und gemain reformation geschehe'",
+      "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.15566",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Buchheim: the estates presented their gravamina to Charles, with the approval of George, duke of Saxony",
+      "witness": "luther_first-principles-reformation_wace-buchheim1885.txt l.2426-2436",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Frederick asked the legates that Luther's error 'might first be known, before he were made a heretic'",
+      "witness": "foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.21620-21631",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Foxe says Leo sent two legates to Frederick, Aleander one of them",
+      "witness": "foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.21599-21601",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Waterworth: Frederick said the cited works could not, he was persuaded, be from Luther's pen",
+      "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.1710-1713",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Luther would recant only if convinced by Scripture and probable reasons",
+      "witness": "foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.22070-22078",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Luther's own account: 'God's Word is not my word, therefore I know not how to give it away'",
+      "witness": "luther_table-talk_bell1886.txt l.3565-3566",
+      "witness_kind": "participant",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Charles cited Luther on 6 March 'through the instigation of duke Frederic'",
+      "witness": "foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.21667-21668",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Frederick declined to summon Luther; the citation of 6 March 1521 came in the name of emperor and estates, with a safe-conduct",
+      "witness": "luther_first-principles-reformation_wace-buchheim1885.txt l.2395-2403",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Luther: 'On Tuesday in the Passion week ... I was cited by the herald'",
+      "witness": "luther_table-talk_bell1886.txt l.3497-3499",
+      "witness_kind": "participant",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Luther names the emperor and the electors in person at his hearing",
+      "witness": "luther_table-talk_bell1886.txt l.3547-3549",
+      "witness_kind": "participant",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "The three spiritual electors were at Worms, by Luther's Table Talk",
+      "witness": "luther_table-talk_bell1886.txt l.984-995",
+      "witness_kind": "participant",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Albrecht of Mainz signed the ban as head of the Diet",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.10507-10509",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Joachim of Brandenburg spoke to Luther in the talks",
+      "witness": "luther_table-talk_bell1886.txt l.3567-3569",
+      "witness_kind": "participant",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Present at the talks: the archbishop of Trier, Joachim of Brandenburg, George of Saxony, the bishops of Augsburg and Brandenburg, Bock of Strasbourg, Peutinger and Vehus",
+      "witness": "foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.22192-22197",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Frederick of Saxony was at Worms and spoke before the three spiritual electors, by Luther's account",
+      "witness": "luther_table-talk_bell1886.txt l.988-993",
+      "witness_kind": "participant",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Lewis, elector Palatine, opposed breaking faith with Luther",
+      "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.9670-9676",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Philip of Hesse, 'then but a young Prince', said 'is your cause just and upright, then I beseech God to assist you'",
+      "witness": "luther_table-talk_bell1886.txt l.3542-3545",
+      "witness_kind": "participant",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Caracciolo and Aleander were at the emperor's residence for the ban, with Mainz and the cardinal of Sion at the signing",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.10468-10474, 10507-10510",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Schurff, a Wittenberg lawyer, asked that the titles of the books be read",
+      "witness": "foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.21781-21782",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Schurff asked that the titles be read, by Luther's own account",
+      "witness": "luther_table-talk_bell1886.txt l.3555-3556",
+      "witness_kind": "participant",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Caspar Sturm, the emperor's herald, conducted Luther from Wittenberg to Worms",
+      "witness": "foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.21741-21742",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Sturm overtook Luther at Oppenheim to conduct him home",
+      "witness": "foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.22484-22486",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Luther came with perhaps a hundred horse and entered Worms with only eight",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.9971-9974",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Waterworth gives a hundred horsemen and only eight mounted attendants",
+      "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.1717-1720",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "About twenty-five of Luther's books lay before him",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.10020-10021",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "'The books lay on a table which he showed unto me'",
+      "witness": "luther_table-talk_bell1886.txt l.3553-3554",
+      "witness_kind": "participant",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Cochlaeus offered to dispute if Luther yielded up his safe-conduct",
+      "witness": "luther_table-talk_bell1886.txt l.3590-3597",
+      "witness_kind": "participant",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Glapion ('Sglapian'), the emperor's confessor, had Bucer warn Luther at Oppenheim not to enter Worms",
+      "witness": "luther_table-talk_bell1886.txt l.3510-3515",
+      "witness_kind": "participant",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Justus Jonas went with Luther to Worms, by the note of Crespin's editors",
+      "witness": "crespin_histoire-des-martyrs-t1-fra_benoit-lelievre1885.txt l.37791-37793",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Luther arrived at Worms on 16 April",
+      "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.1720-1726",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Herrnschmid: 'He came thither, April 16'",
+      "witness": "arminian-magazine_vol-1_1778.txt l.9150",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Foxe: Luther entered Worms 'about seventeen days after Easter'",
+      "witness": "foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.21696-21697",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Eck's two questions: whether the books were Luther's, and 'Whether thou wilt recant and revoke them'",
+      "witness": "foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.21765-21778",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Luther owned the books and asked for time to deliberate",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.10022-10025",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Luther owned the books and asked 'respite of time', by his own account",
+      "witness": "luther_table-talk_bell1886.txt l.3556-3564",
+      "witness_kind": "participant",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "At the first hearing Charles said 'Costui certamente non mi farebbe mai diventar' Eretico' (OCR: 'Cq^/w cerramaue non mi farebbe mai dinentar' Eretico')",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.10002-10010",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Waterworth: 'This man at least would never make me a heretic'",
+      "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.1734-1738",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Luther's plain answer: 'I will not, nor may not revoke any manner of thing ... Hereupon I stand and rest: I have not what else to say. God have mercy upon me!'",
+      "witness": "foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.22070-22079",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Spaniards jeered at Luther on his way to his lodging after the second hearing",
+      "witness": "foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.22129-22131",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "On the morning of 19 April Charles declared in a French document in his own hand. He would maintain what his ancestors adopted, 'more especially at the Council of Constance'. He would not hear Luther again",
+      "witness": "luther_first-principles-reformation_wace-buchheim1885.txt l.2466-2475",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Charles read a paper in his own hand, a full sheet long, later read in consistory at Rome. He would hear Luther no more and would proceed against him 'come notorio eretico'",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.10137-10177",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Foxe gives the emperor's letter 'in effect' on the Friday following: 'we will not violate our faith, which we have promised him'",
+      "witness": "foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.22133-22147",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Pallavicino: 'Tutta la Dieta concorse nella sentenza di Cesare'",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.10181",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Some at the Diet held, after Constance, that faith need not be kept; the elector Palatine opposed them",
+      "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.9669-9676",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "The archbishop of Trier met Luther on the morrow after St George's day, with other princes",
+      "witness": "foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.22178-22197",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Vehus said Luther 'was not called to be conferred with, or to disputation'",
+      "witness": "foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.22192-22200",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "The chancellor of Trier dismissed Luther: 'you have leave and licence to depart again with your safe-conduct'",
+      "witness": "luther_table-talk_bell1886.txt l.3608-3611",
+      "witness_kind": "participant",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Luther left Worms on 26 April at ten o'clock",
+      "witness": "foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.22479-22482",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Sarpi: Luther departed 'the 26. of April'",
+      "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.9710-9711",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Waterworth: 'Luther left Worms on the twenty-sixth of April'",
+      "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.1807-1808",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "The Edict carries out 'des decrets, Sentenz und verdamnus laut der bullen' and declares Luther 'als von gots kirchen abgesündert gelide und einen verstopten zertrenner und offenbarn ketzer'",
+      "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.15600-15604",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "After twenty days ending 14 May, no one is to 'hauset, hoffet, etzt, drenket, noch enthaltet' Luther; he is to be taken and sent to the emperor",
+      "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.15612-15625",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "The Edict orders action against Luther's 'mitverwandten, anhengern, enthaltern, fürschiebern, gönnern und nachvolgern' and their goods",
+      "witness": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.15629-15634",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Sarpi's summary of the Edict: Luther's books to be burned, and printing controlled",
+      "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.9780-9790",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Waterworth: his writings to be seized and burnt, and works on the faith approved by the Ordinary before publication",
+      "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.1831-1837",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Pallavicino: Aleander was charged to draw up the ban, and it was then revised in the emperor's councils",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.10448-10454",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Five of Frederick's nobles in disguise stopped the carriage, took Luther 'con simulata forza', and brought him by night to the Wartburg; Frederick did not know which castle held him",
+      "witness": "pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.10392-10407",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Masked horsemen beat the drivers, made a show of violence and carried Luther to the Wartburg",
+      "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.1821-1829",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Frederick 'conveyed Luther a little out of sight secretly'",
+      "witness": "foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.22552-22554",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Herrnschmid: Luther was seized on the road by horsemen and carried to a castle",
+      "witness": "arminian-magazine_vol-1_1778.txt l.9456-9458",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Steimle: Luther entered the Wartburg on 4 May 1521",
+      "witness": "luther_works-v2-selected_jacobs-spaeth1916.txt l.14412-14416",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Frederick brought Luther to safety 'by means of a stratagem'",
+      "witness": "luther_first-principles-reformation_wace-buchheim1885.txt l.2499-2501",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "The Edict 'found, in general, no responsive reception' in Germany",
+      "witness": "luther_first-principles-reformation_wace-buchheim1885.txt l.2572-2575",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Waterworth: Charles's departure and the elector's authority 'rendered the Ban ineffectual'",
+      "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.1864-1866",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Luther, 1530: the decree was so horrible 'it had to be changed at the diet at Nuremberg'",
+      "witness": "luther_works-v4-selected_various1931.txt l.15957-15971",
+      "witness_kind": "participant",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Luther's Table Talk: the tyrants 'were constrained to recall the same again'",
+      "witness": "luther_table-talk_bell1886.txt l.3614-3618",
+      "witness_kind": "participant",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Luther, 1525: the synod at Buxtehude had Leo's bull and the imperial edict issued at Worms posted up against Friar Henry",
+      "witness": "luther_works-v4-selected_various1931.txt l.8997-9023",
+      "witness_kind": "participant",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "The Council of Regency, by edict of 20 January 1522, demanded the Edict be carried out",
+      "witness": "luther_works-v3-selected_various1930.txt l.11681-11682",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "At Speyer in 1526 Ferdinand announced the emperor's resolve to carry out the edict passed at Worms",
+      "witness": "anjou_history-of-the-reformation-in-sweden_mason1859.txt l.6614-6618",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "The Augsburg decree of 1530 announced the emperor's resolve 'to carry out unconditionally the Edict of Worms'",
+      "witness": "luther_first-principles-reformation_wace-buchheim1885.txt l.3480-3482",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "The Edict's date of 8 May matches an alliance of emperor and pope 'to have the same friends and without exception the same enemies'",
+      "witness": "luther_first-principles-reformation_wace-buchheim1885.txt l.2521-2527",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "By the decree 'the emperor procured no small thanks with the pope'",
+      "witness": "foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.22549-22550",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Buchheim: the Peasants' Twelve Articles echo Luther's declaration at Worms",
+      "witness": "luther_first-principles-reformation_wace-buchheim1885.txt l.2982-2986",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "At the Wartburg Luther worked at 'the great work of his life, the translation of the Bible from the original text'",
+      "witness": "luther_first-principles-reformation_wace-buchheim1885.txt l.2596-2600",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Buchheim calls Luther's refusal 'the official proclamation of the Reformation'",
+      "witness": "luther_first-principles-reformation_wace-buchheim1885.txt l.2461-2463",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Waterworth tells Worms in his introduction to the Council of Trent",
+      "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.1648-1866",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Melanchthon was at Wittenberg during the Wartburg months, so is not on the Who click",
+      "witness": "luther_first-principles-reformation_wace-buchheim1885.txt l.2609-2612",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Herrnschmid: Luther 'added these German words, Hier stehe ich: ich kan nicht anders: Gott helfe mir! Amen.'",
+      "witness": "arminian-magazine_vol-1_1778.txt l.9300-9311",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Carlyle, quoted by Bacon: 'Here I stand - I cannot do otherwise - God be my help, Amen.'",
+      "witness": "luther_hymns_bacon-allen.txt l.603-652",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Zinzendorf gives Luther's mind at Worms as 'da stehe ich, ich kan nicht anders, GOtt helffe mir'",
+      "witness": "zinzendorf_sammlung-oeffentlicher-reden-pennsylvania-deu_buedingen1746.txt l.30869-30872",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Bacon calls the tiles saying 'the famous saying imputed to Luther'",
+      "witness": "luther_hymns_bacon-allen.txt l.856-859",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Luther's own account of the tiles: 'although in Worms there were as many devils as there are tiles on the houses, yet, God willing, I will go thither'",
+      "witness": "luther_table-talk_bell1886.txt l.3507-3509",
+      "witness_kind": "participant",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Luther, 1522: 'I could have started such a little game at Worms that even the emperor would not have been safe'",
+      "witness": "luther_works-v2-selected_jacobs-spaeth1916.txt l.14932-14934",
+      "witness_kind": "participant",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Buchheim calls Charles 'a bigoted Roman Catholic at heart' (Buchheim's side)",
+      "witness": "luther_first-principles-reformation_wace-buchheim1885.txt l.2358",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Documented"
+    }
+  ],
+  "contested_claims": [
+    {
+      "claim": "Whether Luther said 'Here I stand', and in what words",
+      "sides": "Held tellings that have it: Foxe's English, 'Hereupon I stand and rest' (foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.22078-22079); Herrnschmid, giving the German as words Luther added (arminian-magazine_vol-1_1778.txt l.9300-9311); Carlyle, quoted by Bacon (luther_hymns_bacon-allen.txt l.603-652); Zinzendorf (zinzendorf_sammlung-oeffentlicher-reden-pennsylvania-deu_buedingen1746.txt l.30869-30872). Held tellings without it: Luther's own Table Talk account (luther_table-talk_bell1886.txt l.3551-3618), Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.10076-10135), Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.9625-9680), Waterworth (council-of-trent_canons-and-decrees_waterworth1848.txt l.1726-1808) and Buchheim (luther_first-principles-reformation_wace-buchheim1885.txt l.2460-2475). No held editor discusses whether he said it.",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Who the Johann Eck who questioned Luther was",
+      "sides": "The Leipzig opponent, 'John Eckius above mentioned', then the Trier official: Foxe (foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.21752-21753). 'Another' Johann Eck, vicar of the archbishop of Trier: Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.10015-10017). 'The Bishop of Trier's fiscal', without more: Luther's Table Talk (luther_table-talk_bell1886.txt l.3551).",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "The day of the first hearing",
+      "sides": "17 April, the day after arrival: Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.10012-10014), Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.9617), Waterworth (council-of-trent_canons-and-decrees_waterworth1848.txt l.1726-1729). 'The fourth day after his repair': Foxe (foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.21734).",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Twenty or twenty-one days for Luther's journey home",
+      "sides": "Twenty-one: Foxe (foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.22456-22458, 22484-22485), Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.9707-9708), Sleidan as reported by Waterworth (council-of-trent_canons-and-decrees_waterworth1848.txt l.1811). Twenty: Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.10357), Waterworth after him (council-of-trent_canons-and-decrees_waterworth1848.txt l.1803-1804), and the Edict's twenty days ending 14 May (mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.15612-15613, 15620).",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "The Edict's date and the day it was signed",
+      "sides": "Dated 8 May, signed by Charles on 26 May: Mirbt, from Wrede (mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.15590-15591). Signed in church on Trinity Sunday, 26 May, with the signature dated back to the eighth: Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.10500-10510). Put out on 25 May and post-dated to 8 May: Buchheim (luther_first-principles-reformation_wace-buchheim1885.txt l.2518-2521). Placed under the ban on 8 May: Waterworth (council-of-trent_canons-and-decrees_waterworth1848.txt l.1831-1832). '8. of April': Sarpi's English (sarpi_history-of-the-council-of-trent_brent1676.txt l.9712-9713), apparently a slip.",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Whether the Diet consented to the Edict",
+      "sides": "Yes: the Edict's own claim of 'einhelligem rat und willen' of electors, princes and estates (mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.15598-15600). Pallavicino says the whole Diet agreed with Charles's sentence, and Brandenburg answered for all that the ban pleased them (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.10181, 10494-10500). Also Waterworth, 'with the consent of the Germanic Diet' (council-of-trent_canons-and-decrees_waterworth1848.txt l.1831-1833). No: Buchheim, 'without the formal sanction of the Diet', after Frederick and the Palatine had left (luther_first-principles-reformation_wace-buchheim1885.txt l.2509-2521).",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "The date of Decet Romanum pontificem",
+      "sides": "2 January 1521: Mirbt (mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.15394). 3 January 1521: Luther's 1930 editors (luther_works-v3-selected_various1930.txt l.288-289) and Waterworth (council-of-trent_canons-and-decrees_waterworth1848.txt l.1659-1660).",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Who drafted the Edict",
+      "sides": "Aleander drew up its content, and it was then revised in the emperor's councils: Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt l.10448-10454). Herrnschmid seems to say it was drawn up by Aleander, but the OCR is broken (arminian-magazine_vol-1_1778.txt l.9403-9405). No held source names another drafter, and none confirms Pallavicino independently.",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Where Luther stood for his hearing",
+      "sides": "'The Senate House': Luther's Table Talk (luther_table-talk_bell1886.txt l.3547). 'The earl palatine's palace': Foxe (foxe_acts-and-monuments-v4_cattley-townsend1837.txt l.21743-21744).",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "How many grievances the estates brought",
+      "sides": "'Four hundred articles': Luther's Table Talk (luther_table-talk_bell1886.txt l.3530-3531). 'Some hundred and four statements': Luther in 1530 (luther_works-v4-selected_various1931.txt l.16043-16045). Mirbt prints only an excerpt (mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.15525-15580), so no count can be taken from it.",
+      "formation_confidence": "Contested"
+    }
+  ],
+  "absent_details": [
+    {
+      "detail": "The Diet's own record (Deutsche Reichstagsakten, jüngere Reihe, vol. II, ed. Wrede, 1896)",
+      "note": "Not held; cited only by Mirbt (l.15528, 15590), Luther's 1931 editors (luther_works-v4 l.15992-15995) and others. Searched cic/texts file names for reichstag, wrede, kidd, kostlin, kalkoff, forstemann, balan, brieger, sleidan, weimar, erlang: none. Now a queued want in Build/Ministry/Features/Source-Library/CFT-Wants.md, Era 7, 'Diet of Worms (1521)' (l.368): Wrede's Reichstagsakten or Kidd's Documents."
+    },
+    {
+      "detail": "The Edict of Worms in full",
+      "note": "Held only as Mirbt's excerpt of the German text from the Reichstagsakten (mirbt l.15586-15637). The parts on books and printing are known only from Sarpi's and Waterworth's summaries. The full Edict is named in the CFT-Wants Era 7 row for Worms."
+    },
+    {
+      "detail": "Charles V's French declaration of 19 April 1521 in its own words",
+      "note": "Not held. Searched cic/texts for 'descendu des', 'tres chrestiens empereurs', 'roys catholiques', 'Kaiser Karl', 'Karls V' and 'Carolus' near Worms. Held only as Buchheim's English extract (first-principles l.2466-2475), Pallavicino's Italian paraphrase (l.10142-10177) and Foxe's 'in effect' (l.22133-22147). Named in the CFT-Wants Era 7 row for Worms."
+    },
+    {
+      "detail": "Aleander's own dispatches from Worms",
+      "note": "Not held. Searched all texts for 'aleand' and 'aleandro': hits are Pallavicino, Waterworth, Sarpi, Foxe, Buchheim and Beza's editors, with Brieger's 1884 edition only cited (haupt ZKG 7 l.17946). Aleander reaches us through Pallavicino, who used his letters."
+    },
+    {
+      "detail": "Luther's Worms speech in its original Latin or German",
+      "note": "Not held. Searched for 'Wormser Rede', 'Rede in Worms', 'hier stehe', 'kan nicht anders', 'kann nicht anders', 'nec possum nec volo'. The only hits for the text's history are a ZKG 14 news note naming Spalatin's version and Burkhardt's 1894 printing (jacques-de-vitry ZKG 14 file l.25846-25853). The speech is held in Foxe's English."
+    },
+    {
+      "detail": "A list of those present",
+      "note": "No list of names is held. The Edict names the estates as a body (mirbt l.15598-15600). Those named in the entry come from narratives, each cited."
+    },
+    {
+      "detail": "A held editor's judgment on whether 'Here I stand' is authentic",
+      "note": "None held. Searched LHYM, the Luther works volumes, First Principles, Foxe, Waterworth and the Table Talk for spurious, doubtful, legend, authentic, apocryphal and 'later addition' near 'Worms' or 'stand': none found. The only held caution is Bacon's on the tiles saying (luther_hymns l.856-859). The entry says only which tellings have it."
+    },
+    {
+      "detail": "Luther's letters from Worms and the Wartburg",
+      "note": "Not held as letters; only quoted in editors' introductions (luther_works-v3 l.6370-6378). Searched for 'ex eremo', 'Patmos', 'correspondence'; no Enders or Smith correspondence is held."
+    },
+    {
+      "detail": "A witness of the time for the opening day of 6 January 1521",
+      "note": "Foxe is the only held narrative that gives it (foxe l.21660-21667); the Herberstein editor gives the day it was called for (herberstein_notes-upon-russia-v1 l.5815-5818). No held act dates the opening."
+    }
+  ]
+}

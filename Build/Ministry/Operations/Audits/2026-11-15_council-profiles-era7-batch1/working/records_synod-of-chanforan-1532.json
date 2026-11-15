@@ -1,0 +1,683 @@
+{
+  "claims": [
+    {
+      "claim": "Gilles dates the general assembly at Angrogne to 12 September 1532",
+      "witness": "gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.1914-1918; gilles_histoire-ecclesiastique-eglises-reformees-vallees-de-piemont-fra_1644.txt l.2618-2619",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Morland heads the confession 'assembled in Angrogne the 12. of September of the Year 1532'",
+      "witness": "morland_history-evangelical-churches-piemont_1658.txt l.7939-7942",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Muston dates the synodal assembly at Angrogna to 12 September 1532 and says it lasted six days",
+      "witness": "muston_israel-of-the-alps-v1_montgomery1866.txt l.6408-6410",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Montet dates the synod of Angrogne to 12 September 1532",
+      "witness": "montet_histoire-litteraire-des-vaudois-du-piemont-fra_1885.txt l.939-941; montet_histoire-litteraire-des-vaudois-du-piemont-fra_1885.txt l.9124-9126",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Zezschwitz dates the synod of Angrogne to 12 September 1532 and places 'die Synode zu Chanforans im Thale von Angrogne' in 1532",
+      "witness": "zezschwitz_katechismen-der-waldenser-und-boehmischen-brueder-deu_1863.txt l.6309-6311; zezschwitz_katechismen-der-waldenser-und-boehmischen-brueder-deu_1863.txt l.11544-11546",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Perrin dates the assembly at Angrogne to 12 September 1535, in the French and in the English",
+      "witness": "perrin_histoire-des-vaudois-fra_1619.txt l.11970-11974; perrin_history-ancient-christians-valleys-alps_1847.txt l.5263-5265; perrin_history-ancient-christians-valleys-alps_1847.txt l.5296-5297",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Perrin dates the barbes' resolve to preach the Gospel openly to 1532, before his 1535 assembly",
+      "witness": "perrin_histoire-des-vaudois-fra_1619.txt l.11954-11962",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Léger's heading, as the OCR reads, dates the confession to '1 1. de Décembre 1531'. He says his copy is kept at Cambridge",
+      "witness": "leger_histoire-generale-eglises-vaudoises-livre1-fra_1669.txt l.13065-13068",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Montet's quotation of the manuscript reads 'en Angroma l'anno del Segnor 1533, e a di 12 de septembro' (OCR 'Vanno', 'septemhro'), against his own 1532",
+      "witness": "montet_histoire-litteraire-des-vaudois-du-piemont-fra_1885.txt l.979-981",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "A prisoner in Bersour's inquiry said the barbes' synod had lasted six days; Gilles adds that the Latin trial record calls it 'Capitulum'",
+      "witness": "gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2454-2467",
+      "witness_kind": "participant",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Muston places the meeting in the open air at the hamlet of Chanforans in the commune of Angrogna",
+      "witness": "muston_israel-of-the-alps-v1_montgomery1866.txt l.6379-6384",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Muston quotes the manuscript: 'En presencia de tuti li ministri et eciam Dio del populo' (OCR 'Bio'). He cites it as 'MS. of George Morel, Dublin, C, V, No. 18'",
+      "witness": "muston_israel-of-the-alps-v1_montgomery1866.txt l.6383-6393",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Montet quotes the manuscript: 'en presentia di tuti li ministri e eciam dio del populo', and its first question, whether a Christian may lawfully swear",
+      "witness": "montet_histoire-litteraire-des-vaudois-du-piemont-fra_1885.txt l.979-982",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Montet calls the manuscript 'les actes du Synode d'Angrogne' and says it is written in a dialect close to Italian",
+      "witness": "montet_histoire-litteraire-des-vaudois-du-piemont-fra_1885.txt l.939-941",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Muston calls the manuscript 'the contemporary manuscript'",
+      "witness": "muston_israel-of-the-alps-v1_montgomery1866.txt l.6470-6471",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Gilles says the conclusions were fully proved 'par les actes et manuscrit qui en fut dressé', and calls his own list 'en substance le principal'",
+      "witness": "gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.1993-1997",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Perrin says the Waldensians sent two barbes, George Morel of Freissinières and Pierre Masson of Burgundy. They went to Oecolampadius at Basel, Capito and Bucer at Strasbourg and Haller at Berne",
+      "witness": "perrin_histoire-des-vaudois-fra_1619.txt l.14134-14143",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "The Histoire ecclésiastique attributed to Beza gives the same deputation of Morel and Masson to Basel, Strasbourg and Berne",
+      "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.3310-3324",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Morland dates the mission to 1530 and says Masson was taken prisoner at Dijon",
+      "witness": "morland_history-evangelical-churches-piemont_1658.txt l.21825-21829",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Montet dates the barbes' contact with the reformers to 1530",
+      "witness": "montet_histoire-litteraire-des-vaudois-du-piemont-fra_1885.txt l.8991-8994",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Morel wrote to Oecolampadius: 'pauures instructeurs de ce petit peuple, auons demeuré plus de quatre cens ans parmi des cruelles espines' (long s normalized)",
+      "witness": "perrin_histoire-des-vaudois-fra_1619.txt l.14215-14218",
+      "witness_kind": "participant",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Oecolampadius wrote in 1530: 'la peur d'estre persecutés vous fait dissimuler en vostre foy & que vous la cachés' (long s normalized)",
+      "witness": "perrin_histoire-des-vaudois-fra_1619.txt l.14271-14283",
+      "witness_kind": "participant",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Oecolampadius wrote that going to 'leurs Messes abominables' they heard blasphemies against Christ's death and passion",
+      "witness": "perrin_histoire-des-vaudois-fra_1619.txt l.14295-14300",
+      "witness_kind": "participant",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Gilles sums up the reformers' advice in three heads. Settle disputed points of doctrine; hold church order and assemblies more openly; bar members from the Mass and Roman priests",
+      "witness": "gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.1886-1899",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Gilles says the matters were debated in the valleys and that pastors from the reformers' lands came to help before the assembly",
+      "witness": "gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.1900-1913",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Gilles says each side had time and liberty to propose and answer",
+      "witness": "gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.1919-1921",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Gilles says some barbes judged the new rules 'pas totalement nécessaires', that they shamed the memory of earlier leaders, and that openness would provoke persecution",
+      "witness": "gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2030-2041",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Gilles says only 'fut convoquée une Assemblée générale en Angrogne', naming no convener",
+      "witness": "gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.1913-1914",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Perrin says they gathered from all their valleys so that all might be done in order, naming no convener",
+      "witness": "perrin_histoire-des-vaudois-fra_1619.txt l.11969-11972",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Perrin: 'tous les chefs de famille auec leurs Pasteurs', from all their valleys",
+      "witness": "perrin_histoire-des-vaudois-fra_1619.txt l.11971-11975",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Morland: 'the Ministers, and Heads of Families of the Churches of the Valleys of Piemont'",
+      "witness": "morland_history-evangelical-churches-piemont_1658.txt l.7939-7941",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Gilles: 'des Pasteurs, et principaux des Eglises Vaudoises, tant des Valées, que des pays circonvoisins'",
+      "witness": "gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.1916-1918",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Muston has representatives from Calabria, Saluces, Provence and Dauphiny",
+      "witness": "muston_israel-of-the-alps-v1_montgomery1866.txt l.6379-6381",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Muston has the seigneurs of Miradol, Rivenoble and Solaro appear, citing no witness",
+      "witness": "muston_israel-of-the-alps-v1_montgomery1866.txt l.6399-6401",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Jeanet Peiret of Angrogna, a guard Bersour caught, testified on 22 September. He said they kept guard for the ministers 'assemblez en la bourgade des Chanforans au milieu d'Angrogne'",
+      "witness": "gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2441-2445; gilles_histoire-ecclesiastique-eglises-reformees-vallees-de-piemont-fra_1644.txt l.3084-3086",
+      "witness_kind": "participant",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Peiret said that among them was 'M. Farel, qui avoit la barbe rouge, et un beau cheval blanc', with two companions (the 1881 OCR reads 'Farel.'; the 1644 print has the comma)",
+      "witness": "gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2446-2450; gilles_histoire-ecclesiastique-eglises-reformees-vallees-de-piemont-fra_1644.txt l.3088-3091",
+      "witness_kind": "participant",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Gilles says these were 'des Pasteurs qui continuoyent de venir des quartiers de Suisse'",
+      "witness": "gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2450-2451",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Gilles places Peiret's deposition in Bersour's inquiry, after the duke's patents of 28 August 1535",
+      "witness": "gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2328-2330; gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2441-2442",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Muston puts Farel, on a white horse, and Saulnier at the 1532 meeting",
+      "witness": "muston_israel-of-the-alps-v1_montgomery1866.txt l.6402-6405; muston_israel-of-the-alps-v1_montgomery1866.txt l.7484-7485",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Baum and Cunitz, citing Herminjard, say Olivetan visited the valleys with Farel and Saunier in 1532. There, they say, he received the charge to translate the Bible",
+      "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.2433-2435",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Muston quotes Olivetan's 'Apologie du translateur' as the words of 'one who was present at that meeting'",
+      "witness": "muston_israel-of-the-alps-v1_montgomery1866.txt l.6411-6412; muston_israel-of-the-alps-v1_montgomery1866.txt l.6440-6441",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Perrin and Morland say the articles were signed and sworn by all present",
+      "witness": "perrin_histoire-des-vaudois-fra_1619.txt l.12007-12012; morland_history-evangelical-churches-piemont_1658.txt l.7944-7946",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Muston says the declaration was signed by the greater part, and two pastors refused to sign, citing Gilles",
+      "witness": "muston_israel-of-the-alps-v1_montgomery1866.txt l.6538-6542",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Perrin says one of the assembly reported on Morel and Masson's mission, and the letters of Oecolampadius and Bucer were read",
+      "witness": "perrin_histoire-des-vaudois-fra_1619.txt l.11975-12003",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Perrin says the articles were 'dressés, leus, approuués, signés, & iuré par tous les assistans' (OCR 'drefies', 'fignés')",
+      "witness": "perrin_histoire-des-vaudois-fra_1619.txt l.12007-12012",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Perrin, Morland and Léger print the same seventeen articles in the same order",
+      "witness": "perrin_histoire-des-vaudois-fra_1619.txt l.12019-12133; morland_history-evangelical-churches-piemont_1658.txt l.7952-8036; leger_histoire-generale-eglises-vaudoises-livre1-fra_1669.txt l.13070-13174",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Article 1: divine service can only be done in spirit and in truth",
+      "witness": "morland_history-evangelical-churches-piemont_1658.txt l.7952-7954; perrin_histoire-des-vaudois-fra_1619.txt l.12019-12020",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Article 2: all who have been and shall be saved were elected of God before the foundation of the world",
+      "witness": "morland_history-evangelical-churches-piemont_1658.txt l.7965-7966",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Article 3: 'It is impossible that those that are appointed to salvation, should not be saved' (long s normalized)",
+      "witness": "morland_history-evangelical-churches-piemont_1658.txt l.7968-7969",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Article 4: whoever upholds free will denies predestination and the grace of God",
+      "witness": "morland_history-evangelical-churches-piemont_1658.txt l.7971-7972",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Article 6: a Christian may swear by the name of God",
+      "witness": "morland_history-evangelical-churches-piemont_1658.txt l.7977-7983",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Article 7: auricular confession is not commanded of God",
+      "witness": "morland_history-evangelical-churches-piemont_1658.txt l.7984-7985",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Article 10: a Christian may exercise the office of magistrate over Christians",
+      "witness": "morland_history-evangelical-churches-piemont_1658.txt l.8003-8004",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Articles 12 and 13: marriage is forbidden to none, and whoever forbids it teaches a diabolical doctrine",
+      "witness": "morland_history-evangelical-churches-piemont_1658.txt l.8010-8019",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Article 16: ministers may own some estate to keep their families",
+      "witness": "morland_history-evangelical-churches-piemont_1658.txt l.8026-8028",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Article 17: only two sacramental signs, baptism and the Eucharist",
+      "witness": "morland_history-evangelical-churches-piemont_1658.txt l.8030-8036",
+      "witness_kind": "acts",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Gilles says the assembly resolved to reject all dissimulation and take no further part in the ceremonies of the Roman Church",
+      "witness": "gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.1921-1926",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Muston says the manuscript's first question concerned oaths",
+      "witness": "muston_israel-of-the-alps-v1_montgomery1866.txt l.6452-6458",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Muston says the manuscript has struck-out items on Sunday work, the laying on of hands and usury",
+      "witness": "muston_israel-of-the-alps-v1_montgomery1866.txt l.6472-6500",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Muston gives the manuscript's articles XVIII to XXIII",
+      "witness": "muston_israel-of-the-alps-v1_montgomery1866.txt l.6495-6522",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Muston quotes the closing declaration: 'nothing may henceforth divide us'",
+      "witness": "muston_israel-of-the-alps-v1_montgomery1866.txt l.6527-6538",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Perrin says that after the articles 'ils se resolurent de faire imprimer promptement toute la Bible' (OCR 'pro. ptément')",
+      "witness": "perrin_histoire-des-vaudois-fra_1619.txt l.12154-12158",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Muston says the synod resolved on the Bible, citing Olivetan's 'Apologie du translateur'",
+      "witness": "muston_israel-of-the-alps-v1_montgomery1866.txt l.6436-6441",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Perrin says the priests there for the parish revenues saw 'la porte fermee à leur gain'. 'Ils se retirerent sans sonner mot', and the Mass 'se bannit d'elle mesme des vallees' (long s normalized)",
+      "witness": "perrin_histoire-des-vaudois-fra_1619.txt l.12136-12154; perrin_history-ancient-christians-valleys-alps_1847.txt l.5375-5381",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Gilles names Daniel de Valence and Jean de Molines, 'venus de dehors des Valées', who 'partirent sans congé de l'assemblée' and went to Bohemia",
+      "witness": "gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2047-2052",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Gilles says the two complained of innovations brought in by ministers 'venus d'Alemagne', given entry too easily",
+      "witness": "gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2052-2057",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Blahoslav's Summa (1556): two learned Frenchmen came from the Waldensians and told of 'quandam mutationem atque dissidium seu discordiam exortam'",
+      "witness": "goll_quellen-bohmische-bruder-v1-deu_1878.txt l.6424-6425; goll_quellen-bohmische-bruder-v1-deu_1878.txt l.7159-7161",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Blahoslav: the two stayed 'per integrum semestre unum', praised all they saw and returned to their own in France",
+      "witness": "goll_quellen-bohmische-bruder-v1-deu_1878.txt l.7176-7185",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Goll's note identifies the two envoys as Daniel von Valence and Johannes von Molines",
+      "witness": "goll_quellen-bohmische-bruder-v1-deu_1878.txt l.7223-7224",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Widely Accepted"
+    },
+    {
+      "claim": "Comenius has two Frenchmen sent by the Waldensian brethren stay six whole months",
+      "witness": "comenius_historia-fratrum-bohemorum-lat_1702.txt l.2805-2810",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Perrin says Valence and Molines were sent to serve the Bohemian churches and betrayed them to their enemies",
+      "witness": "perrin_histoire-des-vaudois-fra_1619.txt l.6538-6550; perrin_histoire-des-vaudois-fra_1619.txt l.14672-14680",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Morland says the two were sent into Bohemia by the other barbes and shamefully betrayed those churches",
+      "witness": "morland_history-evangelical-churches-piemont_1658.txt l.21810-21820",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Léger says the two were sent to Bohemia and through 'une trop grande imprudence' revealed those churches to their enemies",
+      "witness": "leger_histoire-generale-eglises-vaudoises-livre1-fra_1669.txt l.22897-22900",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Gilles says the Bohemian pastors wrote on 27 June 1533 (1644 OCR reads '17.de Iuin')",
+      "witness": "gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2059-2063",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Gilles says the Bohemian letter speaks only honorably of the two barbes",
+      "witness": "gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2145-2148",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Gilles places the next assembly in Val S. Martin on 15 August 1533, which confirmed 'la conclusion faite l'année précédente en Angrogne'",
+      "witness": "gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2153-2179",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Montet places the confirming synod at Saint-Martin on 15 August 1533",
+      "witness": "montet_histoire-litteraire-des-vaudois-du-piemont-fra_1885.txt l.9152-9155",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Muston places the next synod at Pral on 14 August 1533",
+      "witness": "muston_israel-of-the-alps-v1_montgomery1866.txt l.6571-6572",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Gilles says the two then withdrew to live on their own and carried off what they could of the old Waldensian manuscripts",
+      "witness": "gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2179-2189",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Inferential-Thin"
+    },
+    {
+      "claim": "Gilles says persecution and war let the decisions be carried out only 'avec une assez longue suite de temps'",
+      "witness": "gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2190-2195",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Gilles dates the duke's patents to Bersour to 28 August 1535",
+      "witness": "gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2328-2330",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Morland says the valleys in 1535 had the first French Bible printed at their own cost, through their interpreter Robert Olivetan",
+      "witness": "morland_history-evangelical-churches-piemont_1658.txt l.5740-5748",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Morland lists the French Bible printed by the valleys at Neuchâtel in 1535 among the volumes he deposited",
+      "witness": "morland_history-evangelical-churches-piemont_1658.txt l.4355-4357",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Perrin says they gave fifteen hundred gold crowns to a printer at Neuchâtel for the first French Bible seen in France",
+      "witness": "perrin_histoire-des-vaudois-fra_1619.txt l.12160-12164; perrin_history-ancient-christians-valleys-alps_1847.txt l.5383-5386",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Léger says Olivetan translated and printed the Bible at Neuchâtel at the valleys' cost (the year is unclear in the OCR)",
+      "witness": "leger_histoire-generale-eglises-vaudoises-livre1-fra_1669.txt l.19297-19300",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "The Histoire ecclésiastique says they had the first French Bible printed at Neuchâtel at their own cost (OCR 'i635'). Olivetan translated it with Calvin's help",
+      "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.3330-3340",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Muston gives the preface's date, 7 February 1535, and the colophon: Neuchâtel, Pierre de Wingle, 4 June 1535; the cost 1500 golden crowns",
+      "witness": "muston_israel-of-the-alps-v1_montgomery1866.txt l.6595-6622",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Baum and Cunitz date Pierre de Wingle's printing at Neuchâtel to 4 June 1535",
+      "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.2435-2436",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Olivetan's preface says 'un certain pauure peuple' gave him the charge. He was to draw 'iceluy thresor hors des armaires & coffres Ebraicques & Grecz' (OCR normalized)",
+      "witness": "morland_history-evangelical-churches-piemont_1658.txt l.5958-5969",
+      "witness_kind": "participant",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Morland says the Bible was printed 'for the benefit of the Evangelical Churches where this Language was in use'",
+      "witness": "morland_history-evangelical-churches-piemont_1658.txt l.5744-5746",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Léger quotes Beza: through the Waldensians of the valleys France has the Bible in its own language",
+      "witness": "leger_histoire-generale-eglises-vaudoises-livre1-fra_1669.txt l.19320-19323",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Documented"
+    },
+    {
+      "claim": "Léger: 'Je ne trouve point qu'ils y ayent changé la moindre chose', except on bearing arms",
+      "witness": "leger_histoire-generale-eglises-vaudoises-livre1-fra_1669.txt l.23071-23076",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Montet: 'La doctrine protestante était en fait une nouveauté pour les Vaudois'",
+      "witness": "montet_histoire-litteraire-des-vaudois-du-piemont-fra_1885.txt l.9213-9214",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Montet dates the absolute and final triumph of Protestantism among the Waldensians to the Union of the Valleys of 11 November 1571",
+      "witness": "montet_histoire-litteraire-des-vaudois-du-piemont-fra_1885.txt l.9165-9170",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Gilles says the churches joined the other Reformed churches 'environ l'année 1530'",
+      "witness": "gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.238-241",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Zezschwitz says Morel voiced his churches' surprise at Luther's teaching on the bound will, dating it by slip to 1532. The 1532 decrees, he says, breathe the firmest predestinarian teaching",
+      "witness": "zezschwitz_katechismen-der-waldenser-und-boehmischen-brueder-deu_1863.txt l.6303-6311",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Perrin lists Valence and Molines under Provence",
+      "witness": "perrin_histoire-des-vaudois-fra_1619.txt l.6540-6541",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Léger gives Molines as 'de la Vallée de Queyras'",
+      "witness": "leger_histoire-generale-eglises-vaudoises-livre1-fra_1669.txt l.22894-22896",
+      "witness_kind": "later narrative",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Muston says the two dissenting pastors belonged to Dauphiny",
+      "witness": "muston_israel-of-the-alps-v1_montgomery1866.txt l.6545-6547",
+      "witness_kind": "modern reconstruction",
+      "formation_confidence": "Contested"
+    }
+  ],
+  "contested_claims": [
+    {
+      "claim": "The year and day of the assembly",
+      "sides": "12 September 1532: Gilles (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.1914-1918; gilles_histoire-ecclesiastique-eglises-reformees-vallees-de-piemont-fra_1644.txt l.2618-2619). Also Morland (morland_history-evangelical-churches-piemont_1658.txt l.7939-7942). Also Muston (muston_israel-of-the-alps-v1_montgomery1866.txt l.6408-6410). Also Montet (montet_histoire-litteraire-des-vaudois-du-piemont-fra_1885.txt l.939-941; montet_histoire-litteraire-des-vaudois-du-piemont-fra_1885.txt l.9124-9126). Also Zezschwitz (zezschwitz_katechismen-der-waldenser-und-boehmischen-brueder-deu_1863.txt l.6309-6311). 12 September 1535: Perrin (perrin_histoire-des-vaudois-fra_1619.txt l.11970-11974; perrin_history-ancient-christians-valleys-alps_1847.txt l.5263-5265). 11 December 1531, as the OCR reads: Léger (leger_histoire-generale-eglises-vaudoises-livre1-fra_1669.txt l.13065-13067). 1533 in Montet's quotation of the manuscript, against his own 1532 (montet_histoire-litteraire-des-vaudois-du-piemont-fra_1885.txt l.979-980). No held writer discusses Perrin's 1535.",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Whether the name Chanforans and Farel's presence belong to the 1532 meeting",
+      "sides": "The only witness of the time is Peiret's deposition, which Gilles places in Bersour's inquiry of 1535 (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2328-2330; gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2441-2451). Gilles names no visitor at the 1532 assembly (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.1911-1918) and says the Swiss pastors 'continuoyent de venir' (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2450-2451). Tied to 1532: Muston (muston_israel-of-the-alps-v1_montgomery1866.txt l.6382-6384; muston_israel-of-the-alps-v1_montgomery1866.txt l.6402-6410; muston_israel-of-the-alps-v1_montgomery1866.txt l.7484-7485), Baum and Cunitz from Herminjard (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.2433-2435), Zezschwitz for the name (zezschwitz_katechismen-der-waldenser-und-boehmischen-brueder-deu_1863.txt l.11544-11546).",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "What the two dissenting barbes did and how they parted",
+      "sides": "Walked out of the assembly in protest and took their complaint to Bohemia: Gilles (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2047-2058). Sent by the barbes to Bohemia and betrayed its churches: Perrin (perrin_histoire-des-vaudois-fra_1619.txt l.6538-6550; perrin_histoire-des-vaudois-fra_1619.txt l.14672-14680). So also Morland (morland_history-evangelical-churches-piemont_1658.txt l.21810-21820), Léger, by 'trop grande imprudence' (leger_histoire-generale-eglises-vaudoises-livre1-fra_1669.txt l.22897-22900). Stayed six months, praised all and went home: Blahoslav (goll_quellen-bohmische-bruder-v1-deu_1878.txt l.7159-7185), with Goll's identification (goll_quellen-bohmische-bruder-v1-deu_1878.txt l.7223-7224); Comenius (comenius_historia-fratrum-bohemorum-lat_1702.txt l.2805-2810). Gilles says the Bohemian letter blames them for nothing (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2145-2148).",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "That the Waldensians joined the Reformation in 1532, and what the meeting changed",
+      "sides": "About 1530: Gilles's preface (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.238-241). Nothing changed but the view on bearing arms: Léger (leger_histoire-generale-eglises-vaudoises-livre1-fra_1669.txt l.23071-23076). Protestant teaching a novelty, its full triumph in 1571: Montet (montet_histoire-litteraire-des-vaudois-du-piemont-fra_1885.txt l.9213-9219; montet_histoire-litteraire-des-vaudois-du-piemont-fra_1885.txt l.9165-9170). The 1532 decrees firmly predestinarian, against Morel's earlier unease: Zezschwitz (zezschwitz_katechismen-der-waldenser-und-boehmischen-brueder-deu_1863.txt l.6303-6311). Gilles says the reformers found 'quelques défauts' to remedy (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.1886-1888).",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "The form of the articles: the printed seventeen or the manuscript",
+      "sides": "Seventeen in the same order: Perrin (perrin_histoire-des-vaudois-fra_1619.txt l.12019-12133), Morland (morland_history-evangelical-churches-piemont_1658.txt l.7952-8036), Léger (leger_histoire-generale-eglises-vaudoises-livre1-fra_1669.txt l.13070-13174). A summary of the main points: Gilles (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.1993-1997). At least twenty-three, with struck items: the manuscript as Muston describes it (muston_israel-of-the-alps-v1_montgomery1866.txt l.6452-6538); Montet's Italianate lines (montet_histoire-litteraire-des-vaudois-du-piemont-fra_1885.txt l.9141-9182). No held writer doubts the articles are genuine.",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Whether all present signed",
+      "sides": "All present signed and swore: Perrin (perrin_histoire-des-vaudois-fra_1619.txt l.12007-12012), Morland (morland_history-evangelical-churches-piemont_1658.txt l.7944-7946). The greater part signed and two refused: Muston, citing Gilles (muston_israel-of-the-alps-v1_montgomery1866.txt l.6538-6542). Gilles says the two left without leave and does not speak of signing (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2047-2052).",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "The place and day of the assembly of 1533",
+      "sides": "Val S. Martin, 15 August 1533: Gilles (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2153-2154), Montet (montet_histoire-litteraire-des-vaudois-du-piemont-fra_1885.txt l.9152-9155). Pral, 14 August 1533: Muston (muston_israel-of-the-alps-v1_montgomery1866.txt l.6571-6572). Pral lies in Val San Martino; the day differs.",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "Where the dissenting barbes came from",
+      "sides": "From outside the valleys: Gilles (gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt l.2047-2049). Dauphiny: Muston (muston_israel-of-the-alps-v1_montgomery1866.txt l.6545-6547). Listed under Provence: Perrin (perrin_histoire-des-vaudois-fra_1619.txt l.6540-6541). Molines of the Queyras valley: Léger (leger_histoire-generale-eglises-vaudoises-livre1-fra_1669.txt l.22894-22896).",
+      "formation_confidence": "Contested"
+    },
+    {
+      "claim": "When the decision to print the Bible was made",
+      "sides": "After the articles, at the assembly Perrin dates 1535: Perrin (perrin_histoire-des-vaudois-fra_1619.txt l.12154-12158). At the 1532 synod: Muston, from Olivetan's unheld apology (muston_israel-of-the-alps-v1_montgomery1866.txt l.6436-6441). Olivetan received the charge in the valleys in 1532: Baum and Cunitz (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.2433-2435).",
+      "formation_confidence": "Contested"
+    }
+  ],
+  "absent_details": [
+    {
+      "detail": "Who called the assembly",
+      "note": "No held line names a convener. Gilles has only 'fut convoquée une Assemblée générale' (gilles 1881 l.1914). Perrin has 'ils s'assemblerent de toutes leurs vallees' (perrin 1619 l.11971-11972). Muston has 'a synod was held' (l.6379). Passages read whole in Perrin 1619, Perrin 1847, Gilles 1644 and 1881, Morland, Léger and Muston."
+    },
+    {
+      "detail": "A count of those present",
+      "note": "None held. Read whole the assembly passages in Perrin (both), Gilles, Morland, Léger, Muston and Montet. Searched cent|hundred|nombre|number and two- or three-digit numbers near them. Perrin and Morland say only 'all present'."
+    },
+    {
+      "detail": "A signed list of names",
+      "note": "Not held. Perrin and Morland say the articles were signed but print no names. Searched fign|sign|subscri|soubsign|liste|noms around the passages in Perrin 1619, Morland, Léger and Gilles 1881."
+    },
+    {
+      "detail": "The original manuscript of the propositions",
+      "note": "Not held. Known only through quotations by Muston (l.6392-6393, 6450-6538) and Montet (l.979-981, 9141-9182). Léger's copy was at Cambridge (l.13067-13068); not held."
+    },
+    {
+      "detail": "The dissenting barbes' own words",
+      "note": "No writing by Daniel de Valence or Jean de Molines is held. Searched all of cic/texts for Valence|Valentia|Valenza|Valencia with Molin, and both names in Gilles, Perrin, Léger, Morland, Goll, Comenius and Zezschwitz. Their case reaches us through Gilles and through the Brethren's chronicle."
+    },
+    {
+      "detail": "A witness of the time placing Saunier or Olivetan at the 1532 meeting",
+      "note": "None held. Muston (l.6404-6405, 6411-6412) and the Baum and Cunitz note from Herminjard (beza t1 l.2433-2435) say so; Herminjard is not held. A 1539 letter of Libertet to Farel says Olivetan went to the Waldensians with Farel, without a date (calvin opera vol10 l.48140-48141)."
+    },
+    {
+      "detail": "The Olivetan Bible itself and its 'Apologie du translateur'",
+      "note": "Not held. Only the preface is held, in Morland (l.5764-6030) and in part in Léger (l.19325-19345). Muston's account of the synod's Bible decision rests on the unheld apology (l.6440-6441)."
+    },
+    {
+      "detail": "Oecolampadius's letter in its original Latin",
+      "note": "Held only in Perrin's French (l.5482-5540, 14259-14320) and English (perrin 1847 l.2688-2714). Scultetus, Montet's source, is not held (montet l.9002-9004)."
+    },
+    {
+      "detail": "A held line that Farel 'pressed the union' at the assembly",
+      "note": "None found. The census's voice line for the Waldensian-Reformed Union says so. The held witnesses place Farel among the ministers (gilles 1881 l.2446-2448; muston l.6402-6405) and say the Bible 'originated through the influence of Farel' (muston l.6626). Searched Farel in Gilles, Perrin, Morland, Léger, Muston and Montet."
+    }
+  ]
+}
