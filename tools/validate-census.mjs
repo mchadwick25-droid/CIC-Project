@@ -604,7 +604,7 @@ function checkPlaceLabel(label, entry) {
 // A story card shows its title, teaser, text, caveat and "How it connects" line to visitors.
 // None of them may carry a census or story id; a tradition is named by its name. The
 // "How it connects" line also may not talk about the data: records, entries, rows, lanes,
-// placement or what a record does or does not name (Open-Gaps 270, "How it connects").
+// placement or what a record does or does not name.
 const STORY_TEXT_FIELDS = ["title", "teaser", "text", "caveat", "relationsSummary"];
 const STORY_BUILDER = [
   /\b(that|this|its|whose|neither|either|each|both|these|those|movement|own|no) records?\b/i,
