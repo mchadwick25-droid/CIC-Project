@@ -1,12 +1,12 @@
 Title: Memoirs of Joseph John Gurney; with selections from his journal and correspondence. Edited by Joseph Bevan Braithwaite. In two volumes. Vol. II
 Creator: Joseph John Gurney (subject); Joseph Bevan Braithwaite
 Publisher: Norwich: Fletcher and Alexander; London: W. & F. G. Cash; Thomas Hatchard; Edinburgh, Dublin
-Publication Date: 1854 (page image leaf 6 (MDCCCLIV; OCR garbled))
+Publication Date: 1854 (read on the scan's page image, leaf n6; the OCR does not give it cleanly)
 Rights: Public Domain (pd-us-by-date: published 1854); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item memoirsofjosephj02gurn, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,333,329) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1854, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Second half, covering his American journey and the Wilburite-Gurneyite controversies, including his statement of faith near the end. Divisions: chapters XXVII onwards; contents at the start. Mixed voices: Gurney's journal and letters in the editor's narrative. Cautions: Title-page year read on the image at leaf 6. About 199,909 words.
+Content note: Vol. II of two, edited by Joseph Bevan Braithwaite, Norwich. Divisions: contents at lines 55-267 list chapters XXVII-XLVII, then 'Recollections of Joseph John Gurney, by his Daughter' and an appendix; Chapter XXVII, dated 1835, starts at line 277 with the publication of the Beacon and a letter to Isaac Crewdson; Chapter XXX covers the voyage to America. The appendix from line 23351 is the statement of Christian faith Gurney furnished at the request of Stephen A. Chase of Salem, Massachusetts, dated 1846. Mixed voices: chapter summaries list extracts from Gurney's journal and letters within the editor's account. About 199,909 words.
 
 ______________________________________________________________________
 

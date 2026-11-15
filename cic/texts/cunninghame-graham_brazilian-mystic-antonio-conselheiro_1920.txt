@@ -1,12 +1,12 @@
 Title: A Brazilian Mystic, being the life and miracles of Antonio Conselheiro. By R. B. Cunninghame Graham
 Creator: R. B. Cunninghame Graham
 Publisher: New York: Dodd, Mead and Company
-Publication Date: 1920 (OCR line 112)
+Publication Date: 1920 (OCR line 112, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1920); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees
 Language: eng
 Source: archive.org item ABrazilianMystic, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (399,517) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1920, out of US copyright by date. OCR quality: fair: Google scan with 'Digitized by Google' lines. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: A literary life of Conselheiro and the Canudos story drawing on Cunha. Divisions: chapters; preface from line 145. Editorial matter: preface at 145. Mixed voices: author's narrative. Cautions: Secondary and derivative of Os Sertoes; not Conselheiro's own words. 1920. About 68,385 words.
+Content note: A Brazilian Mystic, by R. B. Cunninghame Graham, New York, Dodd, Mead and Company, 1920, dedicated to Don Jose Maria Braceras. Editorial matter: the author's preface at lines 145-408, signed at Ardoch, 1919; it tells how a letter from Colonel Roosevelt suggested he write of the frontiersmen of Brazil. Divisions: an introduction on the Sertao of Pernambuco and Bahia from line 425; chapters I-XIX, Chapter I at line 2560 and Chapter XIX at line 10474; lettering from a map at the end. Footnotes cite Euclydes da Cunha's 'Os Sertoes', for example at lines 2383 and 3388. About 68,385 words.
 
 ______________________________________________________________________
 

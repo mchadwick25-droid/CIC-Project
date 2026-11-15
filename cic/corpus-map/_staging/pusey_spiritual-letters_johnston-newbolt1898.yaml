@@ -4,7 +4,8 @@ assignments:
   work: Spiritual Letters of Edward Bouverie Pusey, Doctor of Divinity, Canon of Christ Church, Regius Professor
     of
   author: pusey
-  locus: letters of direction at OCR lines 200-13600; add 12 to OCR line numbers; the rest not mapped
+  locus: Group I, 'Letters of Counsel and Sympathy', at OCR lines 571-5273; add 12 to OCR line numbers; the rest
+    not mapped
   atlas_ids:
   - the-oxford-movement-and-anglo-catholic-revival
   role: tradition
@@ -16,6 +17,6 @@ assignments:
       written
   edition_date:
     year: 1898
-    source: OCR line 87
+    source: OCR line 87, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 190, Edward Bouverie Pusey: his letters.'

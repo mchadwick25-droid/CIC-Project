@@ -7,21 +7,19 @@ works:
   work: Journal of Discourses by Brigham Young, President of the Church of Jesus Christ of
     Latter-day Saints, his two
   author: journal-of-discourses
-  locus: Young's discourse on self-government, mysteries, tithing, Adam our Father and our
-    God (9 A at OCR lines 5716-6600 (index entry at 110); Young on the pioneers and Great
-    Basin settlements (6 April/July 1852) at OCR lines search 'Pioneers' from line 6000; add
-    12 to OCR line numbers; the rest not mapped
+  locus: the whole volume; not mapped
   role: tradition
   confidence: provisional
   language: eng
   date:
     start: 1854
     end: 1854
-    source: 'the printing''s own title page: page image leaf 6 (OCR drops the year)'
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n6; the
+      OCR does not give it cleanly'
     formation_confidence: Documented
   edition_date:
     year: 1854
-    source: page image leaf 6 (OCR drops the year)
+    source: read on the scan's page image, leaf n6; the OCR does not give it cleanly
     formation_confidence: Documented
   note: 'Era 9 row 175, Brigham Young: the Journal of Discourses, vol. 1.'
   source_file: journal-of-discourses_v1_watt1854.txt
@@ -29,19 +27,18 @@ works:
   work: 'Doctrine and Covenants of the Church of the Latter Day Saints: carefully selected
     from the revelations of'
   author: latter-day-saints
-  locus: Preface and plan of the book at OCR lines 40-80; Revelation on Missouri and the city
-    of Zion (sample) at OCR lines 8000-8010; add 12 to OCR line numbers; the rest not mapped
+  locus: Preface at OCR lines 48-125; add 12 to OCR line numbers; the rest not mapped
   role: tradition
   confidence: provisional
   language: eng
   date:
     start: 1835
     end: 1835
-    source: 'the printing''s own title page: OCR lines 1-30 (title page ''.1835.'')'
+    source: 'the printing''s own title page: OCR line 40, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1835
-    source: OCR lines 1-30 (title page '.1835.')
+    source: OCR line 40, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 174, Joseph Smith: the Doctrine and Covenants.'
   source_file: latter-day-saints_doctrine-and-covenants_kirtland1835.txt
@@ -49,21 +46,19 @@ works:
   work: History of the Church of Jesus Christ of Latter-day Saints. Period I. History of Joseph
     Smith, the Prophet.
   author: smith-joseph
-  locus: Smith's own account of his early visions (James 1:5, the light, two personages) at
-    OCR lines 5470-5700; Birth and lineage chapter at OCR lines 392-433; add 12 to OCR line
-    numbers; the rest not mapped
+  locus: Chapter I, Joseph Smith's birth and lineage and the first vision at OCR lines 5334-5665;
+    add 12 to OCR line numbers; the rest not mapped
   role: tradition
   confidence: provisional
   language: eng
   date:
     start: 1902
     end: 1902
-    source: 'the printing''s own title page: OCR lines 56-72 (title page 1902 and ''Copyrighted
-      by Joseph F. Smith ... 1902'')'
+    source: 'the printing''s own title page: OCR line 71, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1902
-    source: OCR lines 56-72 (title page 1902 and 'Copyrighted by Joseph F. Smith ... 1902')
+    source: OCR line 71, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 174, Joseph Smith: his own History.'
   source_file: smith-joseph_history-of-the-church-v1_roberts1902.txt
@@ -71,19 +66,19 @@ works:
   work: Biographical Sketches of Joseph Smith, the Prophet, and his Progenitors for many generations.
     By Lucy Smith,
   author: smith-lucy
-  locus: Her account of her son's visits from Moroni and the plates at OCR lines search 'Moroni'
-    from line 4000 on; add 12 to OCR line numbers; the rest not mapped
+  locus: Preface signed Orson Pratt at OCR lines 448-496; Appendix at OCR lines 14620-15432;
+    add 12 to OCR line numbers; the rest not mapped
   role: tradition
   confidence: provisional
   language: eng
   date:
     start: 1853
     end: 1853
-    source: 'the printing''s own title page: OCR lines 30-60 (''1853.'')'
+    source: 'the printing''s own title page: OCR line 69, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1853
-    source: OCR lines 30-60 ('1853.')
+    source: OCR line 69, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 174, Joseph Smith: a life told by another (his mother).'
   source_file: smith-lucy_biographical-sketches-of-joseph-smith_1853.txt
@@ -91,19 +86,18 @@ works:
   work: Life of Brigham Young; or, Utah and her Founders. By Edward W. Tullidge. New York,
     1876
   author: tullidge
-  locus: Young's early life and the Exodus (Chapter II) at OCR lines from contents line 37;
-    add 12 to OCR line numbers; the rest not mapped
+  locus: the whole volume; not mapped
   role: context
   confidence: provisional
   language: eng
   date:
     start: 1876
     end: 1876
-    source: 'the printing''s own title page: OCR lines 10-20'
+    source: 'the printing''s own title page: OCR line 25, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1876
-    source: OCR lines 10-20
+    source: OCR line 25, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 175, Brigham Young: a life told by another.'
   source_file: tullidge_life-of-brigham-young_1876.txt

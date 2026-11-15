@@ -8,14 +8,17 @@ did not take. The rows not marked major (226-330), the era 9 outside witnesses, 
 the held eras 8-9 items are left for the next batches.
 
 Rights rule for this batch (settled): only a printed imprint year of 1930 or earlier, read on the title page in
-the OCR or on the scan's page image; a reprint counts by its own date; a copyright notice alone is not an
-imprint; no NC or ND license, no permission notice, no access-restricted item.
+the OCR or on the scan's page image; a reprint counts by its own date; no NC or ND license, no permission
+notice, no access-restricted item. During the batch Mark ruled on title pages that print no year (15 November:
+"Copyright notice yes, preface with a check"): a copyright notice dated 1930 or earlier stands for the date,
+and a dated preface stands for it where the library catalogue's date agrees. The wider rule of the same day
+(American books of 1931 to 1963 that were never renewed; owner-stated free texts) was not used in this batch.
 
 ## Hosts
 
 | host | state from this sandbox | used |
 |---|---|---|
-| archive.org (advancedsearch, metadata, djvu.txt, page images) | reachable | all 93 files |
+| archive.org (advancedsearch, metadata, djvu.txt, page images) | reachable | all 99 files |
 | dbnl.org | reachable, by the eras 4-5 log | not tried in this batch (see Sadrach and de Cock below) |
 | gallica, HathiTrust, books.google downloads, MDZ, documentacatholicaomnia | blocked or broken, by the era 5 log | not tried again |
 
@@ -32,8 +35,9 @@ stalled. They handed back about 100 candidates.
 
 The Library thread then checked every candidate: the byte count against the host's record again, the host's
 rights fields, and the imprint year on the title page. Where the OCR did not show the year, the page image was
-read. Sixteen imprints were read on page images in this way, and a seventeenth title page was read and found to print no year. Thirteen candidates were dropped at this
-check (listed below), and one not picked by a searcher was added after its title page image was read (the
+read. Eighteen imprints were read on page images in this way, and three more title pages were read and found to
+print no year. Thirteen candidates were dropped at this check (listed below; six of them came back in after
+the ruling on undated title pages), and one not picked by a searcher was added after its title page image was read (the
 English Declarations and Letters of Dollinger, 1891).
 
 ## Held already
@@ -69,22 +73,24 @@ English Declarations and Letters of Dollinger, 1891).
 
 ## Seen and not taken
 
-No printed imprint year on the title page (the year rests on a copyright notice, a preface or the host's date):
+No printed year on the title page, and the check the ruling asks for still owed (a copyright notice of 1930 or
+earlier, or a dated preface that the library catalogue's date agrees with):
 
 - `calvinismsixstonny00kuyp`, `calvinismsixston00kuyp`, `calvinismsixlect00kuypuoft`: Kuyper, Calvinism, the
   Stone Lectures for 1898-1899 (row 193). Three scans; none prints a year.
-- `b29350943_0001`, `b29350943_0002`, `india.history.resource.86108`, `.86109`: Ellis, History of Madagascar
-  (row 208). The preface is dated 10 October 1838; no title page prints a year.
-- `lifeoftrustbeing00mlrich`: Muller, The Life of Trust, Wayland's edition (row 183). Copyright notice of 1860.
-- `lifeofcatherineb01bootiala`: Booth-Tucker, Life of Catherine Booth, vol. 1 (row 191). Copyright notice of
-  1893; the title page image was read and has no year.
 - `aggressivechris00boot`: Catherine Booth, Aggressive Christianity (row 191). Only the day the sermon was given.
-- `storyofwelshrevi0000unse`: The Story of the Welsh Revival, third edition (row 214). Copyright notice of 1905.
-- `transformedorhis00mcaurich`: McAuley, Transformed (row 219). Copyright notice of 1876.
-- `retrospect0000tayl` and five other scans of Hudson Taylor's A Retrospect (row 204);
-  `pastorhsiofnorth00tayluoft`, Pastor Hsi, the full Life (row 205); `blnegromartyrsof00wals`, Walsh, on the
-  Uganda martyrs, with a chapter on Charles Lwanga (row 210); `inspiration00hodg`, the separate printing of
-  Hodge and Warfield (row 217); `kaiserswerthdea00deacgoog` (row 223); `optinapustyn51` (row 197).
+- `retrospect0000tayl` and five other scans of Hudson Taylor's A Retrospect (row 204).
+- `blnegromartyrsof00wals`: Walsh, on the Uganda martyrs, with a chapter on Charles Lwanga (row 210).
+- `inspiration00hodg`, the separate printing of Hodge and Warfield (row 217); `kaiserswerthdea00deacgoog` (row
+  223); `optinapustyn51` (row 197).
+
+Taken after the ruling, each with the date and its place named in the rights line: Offord's Jerry McAuley
+(copyright 1885), McAuley's Transformed (copyright 1876), Booth-Tucker's Life of Catherine Booth, vol. 1
+(copyright 1893), The Story of the Welsh Revival (copyright 1905), Ellis's History of Madagascar, vols. 1 and 2
+(preface of 10 October 1838; the Wellcome Library's catalogue date is 1838; vol. 2 prints no date of its own).
+Wayland's Life of Trust was first set aside as undated; its title page image prints 1868 under a library
+stamp, and it was taken. The full Life of Pastor Hsi (row 205) turned out to be bound in the scan of One of
+China's Scholars.
 
 OCR that cannot be read:
 
@@ -132,9 +138,9 @@ Welsh revival; Hadley, Down in Water Street (1902); Rullmann on the Secession (1
 and Waln (1826) on the Hicksite separation; Crowther's Gospel on the Banks of the Niger; a French book on the
 Uganda martyrs, not checked (`les-martyrs-negres-de-l-ouganda-000001174`).
 
-## A point for a ruling
+## The ruling on undated title pages
 
-Thirteen wanted texts were left out only because the title page prints no year, though a dated preface, a
-copyright notice or a printer's line in the same scan puts the printing well before 1931 (the first list under
-"Seen and not taken"). The rule as settled leaves them out. If a dated preface or copyright notice inside the
-scan may stand for the imprint, these can be taken without a new search.
+The batch first left out thirteen wanted texts whose title pages print no year. The point was put to the
+coordinator, and Mark ruled on 15 November: "Copyright notice yes, preface with a check". Six files came in
+under it (above). The rule is in `cic/texts/INTAKE.md`, section 2, and the ruling is quoted in the Library's
+Decision-Log.

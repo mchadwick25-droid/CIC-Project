@@ -1,12 +1,12 @@
 Title: Life and Correspondence of Theodore Parker, Minister of the Twenty-eighth Congregational Society, Boston. By John Weiss. In two volumes. Vol. 1. New York: D. Appleton & Company, 443 & 445 Broadway. 1864
 Creator: John Weiss
 Publisher: New York: D. Appleton & Company
-Publication Date: 1864 (OCR lines 38-58)
+Publication Date: 1864 (OCR line 58, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1864); the archive.org record carries no rights field, so the imprint date is the basis
 Language: eng
 Source: archive.org item lifecorrespondenweis, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,640,654) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1864, out of US copyright by date. OCR quality: clean to fair. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Weiss's life of Parker, drawing on Parker's letters. This volume covers the early life and the controversy years. Divisions: Chapters with contents of vol. 1 at line 261. Editorial matter: Preface; contents; index at line 27675. Mixed voices: Yes: many letters to and from Parker are printed. Cautions: A two-volume work: both volumes are picked as the life needs the second for the late years (Fugitive Slave, Kansas). Weiss was Parker's friend and a fellow minister (title page does not say so; this comes from the project's own row). About 255,131 words.
+Content note: Volume 1 of 2 of John Weiss's life of Theodore Parker (New York, D. Appleton & Company, 1864). Editorial matter: preface from line 68, which says the material is chiefly letters gathered from Parker's papers and correspondents. Divisions: 'Contents of Vol. I' at lines 261-348, listing chapters I-XV; list of illustrations from line 349; the text from chapter I at line 400; chapter XIV at line 23613; 'End of Vol. I' at line 27671. Mixed voices: Parker's letters are printed in the narrative; chapter XV, by its contents entry, gives letters to him from England and Germany, and the volume closes with one signed Gervinus. About 255,131 words.
 
 ______________________________________________________________________
 

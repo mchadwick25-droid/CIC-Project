@@ -1,12 +1,12 @@
 Title: Journals of the Rev. James Frederick Schon and Mr. Samuel Crowther, who, with the sanction of Her Majesty's Government, accompanied the expedition up the Niger, in 1841, in behalf of the Church Missionary Society. With appendices and map
 Creator: the Rev. James Frederick Schon and Mr. Samuel Crowther
 Publisher: London: Hatchard and Son, Piccadilly; Nisbet and Co., Berners Street; Seeleys, Fleet Street
-Publication Date: 1842 (OCR line 59)
+Publication Date: 1842 (OCR line 59, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1842); the archive.org record carries no rights field, so the imprint date is the basis
 Language: eng
 Source: archive.org item journalsofrevjam00scho, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (636,012) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1842, out of US copyright by date. OCR quality: clean to fair. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Two missionaries' journals from the 1841 Niger expedition; Crowther's is the Yoruba freedman's own account. Divisions: Schon's journal first (contents line 73), then Crowther's journal, then appendices. Editorial matter: appendices; CMS publication list at end. Mixed voices: two authors in one volume: Schon's journal comes first, Crowther's is the second part. Cautions: Half of the volume is Schon's, not Crowther's. Verify the start line of Crowther's part before use. About 98,364 words.
+Content note: Journals of the Rev. James Frederick Schon and Mr. Samuel Crowther from the expedition up the Niger in 1841, in behalf of the Church Missionary Society; London, 1842. Editorial matter: separate contents lists for Schon's journal (from line 68) and Crowther's journal (from line 249); a preface from line 353, dated Church Missionary House, Sept. 29, 1842. Divisions: Schon's journal from line 1198; Crowther's journal from line 9953; appendices I-IV from line 12958, the first a letter from Crowther to the Secretaries; a list of publications sold at the Church Missionary House at the end. Mixed voices: two journal writers in one volume, with the Society's preface. About 98,364 words.
 
 ______________________________________________________________________
 

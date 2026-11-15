@@ -1,12 +1,12 @@
 Title: Life of Edward Bouverie Pusey, Doctor of Divinity, Canon of Christ Church; Regius Professor of Hebrew in the University of Oxford, by Henry Parry Liddon, D.D., D.C.L., LL.D.; edited and prepared for publication by the Rev. J. O. Johnston, M.A. and the Rev. Robert J. Wilson, M.A. In four volumes: Vol. I (1800-1836)
 Creator: Henry Parry Liddon; Rev. J. O. Johnston and Rev. Robert J. Wilson
 Publisher: London: Longmans, Green, and Co.; New York: 15 East 16th Street
-Publication Date: 1893 (OCR line 56)
+Publication Date: 1893 (OCR line 56, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1893); the archive.org record carries no rights field, so the imprint date is the basis
 Language: eng
 Source: archive.org item lifeofedwardbouv01lidd_0, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,397,210) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1893, out of US copyright by date. OCR quality: clean (sampled line 15000). Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Volume 1 of the four-volume official life, to 1836. It prints many of Pusey's own letters. Divisions: Preface (line 59 on), Contents of vol. I (line 343), chapters. Editorial matter: Editors' preface line 59-340 and index/ads at end from about line 27790. Mixed voices: Pusey's letters printed throughout. Cautions: Multi-volume: vol. 1 only. Others located: lifeofedwardbouv02lidd_1 (v2), lifeofedwardbouv03lidd_0 (v3), lifeofedwardbouv04lidd (v4); Tractarian years are in v1 end and v2. About 209,678 words.
+Content note: Volume I (1800-1836) of four of Henry Parry Liddon's life of Pusey, edited and prepared for publication by J. O. Johnston and Robert J. Wilson (London, Longmans, Green, and Co., 1893). Editorial matter: the editors' preface at lines 61-340, signed J. O. J. and R. J. W., Oxford, August 1893; a publisher's catalogue from line 26536. Divisions: 'Contents of Vol. I' from line 343; list of illustrations from line 525; the text from chapter I at line 572; chapter XVIII at line 21660; an appendix, 'History of the Pusey and Bouverie Families', from line 24012; 'End of Vol. I' at line 26529. Mixed voices: appendixes to chapters print documents, among them a letter of Pusey to Dr. Tholuck. About 209,678 words.
 
 ______________________________________________________________________
 

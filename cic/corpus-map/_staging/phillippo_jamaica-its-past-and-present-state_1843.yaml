@@ -12,10 +12,10 @@ assignments:
   date:
     start: 1843
     end: 1843
-    source: 'the printing''s own title page: OCR lines 8-20 (MDCCCXLIII)'
+    source: 'the printing''s own title page: OCR line 25, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1843
-    source: OCR lines 8-20 (MDCCCXLIII)
+    source: OCR line 25, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 171, William Knibb: a fellow missionary''s account of Jamaica.'

@@ -1,12 +1,12 @@
 Title: Innocent of Moscow, the Apostle of Kamchatka and Alaska, by Charles R. Hale, D.D., Dean of Davenport
 Creator: Charles R. Hale, D.D., Dean of Davenport
 Publisher: Privately printed; the colophon reads 'Morcherdt, printer, Davenport, Iowa'
-Publication Date: 1888 (OCR lines 23-24 ('PRIVATELY PRINTED. 1888,'))
+Publication Date: 1888 (OCR line 24, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1888); the archive.org record carries no rights field, so the imprint date is the basis
 Language: eng
 Source: archive.org item cihm_15174, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (51,281) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1888, out of US copyright by date. OCR quality: fair: Canadiana microfilm scan; the text is readable in most places but some lines are damaged in the margin (see lines 600-615). Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: A short English essay on Innocent (Veniaminov), missionary to the Aleuts and to Kamchatka, later Metropolitan of Moscow. It draws on Barsukov's Life and the Russian missionary-society documents. Divisions: One continuous essay with a bibliography at the head (lines 26-50). Editorial matter: source list at lines 26-50 names Barsukov's Life of Innocent (Moscow, 1883) and Tvoreniya (1887). Mixed voices: quotes from Veniaminov's letters and writings inside Hale's account. Cautions: A secondary account by an American Episcopal clergyman; privately printed; microform scan. Page 1 cover/title marks partly damaged. About 8,743 words.
+Content note: A pamphlet by Charles R. Hale, D.D., Dean of Davenport, privately printed, 1888. A list of works stands at the head (lines 36-64), among them John Barsoukoff's life of Innocent, Metropolitan of Moscow (Moscow, 1883) and his collection of Innocent's works (Moscow, 1887), with documents and reports of the Orthodox Missionary Society. Divisions: one continuous text from line 67; it tells of John Veniaminoff's work at Ounalashka among the Aleoutines and with the Koloshes. A closing note at lines 1488-1493 says the greater part first appeared as an article in the American Church Review, July, 1877. Mixed voices: a letter signed Benjamin Bosworth Smith, Bishop of Kentucky, is printed near the end. About 8,743 words.
 
 ______________________________________________________________________
 

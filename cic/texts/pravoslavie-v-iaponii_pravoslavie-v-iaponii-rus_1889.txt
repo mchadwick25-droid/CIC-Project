@@ -1,12 +1,12 @@
 Title: ПРАВОСЛАВІЕ ВЪ ЯПОНІИ
 Creator: not named on the title page (host record: Макаров Степан Осипович, named in the preface per the catalogue)
 Publisher: САНКТПЕТЕРБУРГЪ, ВЪ СУНОДАЛЬНОЙ ТИПОГРАФІИ
-Publication Date: 1889 (OCR line 16 ('1889.'))
+Publication Date: 1889 (OCR line 16, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1889); the archive.org record carries no rights field, so the imprint date is the basis
 Language: rus
 Source: archive.org item pravoslavievjaponii45, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (48,500) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1889, out of US copyright by date. OCR quality: fair: readable old-orthography Cyrillic with some letter errors; the word count from wc under-counts Cyrillic lines (992 lines). Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: A short printed letter by Captain Makarov of the corvette Vityaz, written from Yokohama after two years in the Pacific, about the Orthodox mission in Japan and its head, Bishop Nikolai. It describes the schools and the growth of the church. Divisions: Publisher's note ('От издателя') then the letter; 28 printed pages. Editorial matter: publisher's note lines 18-40. Mixed voices: a naval officer's letter from Yokohama, framed by the publisher's note. Cautions: Not Nikolai's own writing: an outside, admiring witness. Author is named only in the preface per the host/catalogue note. No diary or Life of Nikolai was found. About 3,933 words.
+Content note: A Russian pamphlet printed at the Synodal Press, Saint Petersburg, 1889. Editorial matter: the publisher's note at lines 29-82 says that Stepan Osipovich Makarov, commander of the corvette 'Vityaz', back from about two years in the Pacific, wrote this letter from Yokohama to a friend in Petersburg and allowed it to be printed without his signature; that it had appeared in the Moskovskie Vedomosti and the Tserkovnye Vedomosti; and that gifts are asked to finish the cathedral in Tokyo. Divisions: the letter, under the pamphlet's title, at lines 88-990. It opens with a Sunday service in Japanese at the mission in Tokyo and tells of the mission under Bishop Nikolai. About 3,933 words.
 
 ______________________________________________________________________
 

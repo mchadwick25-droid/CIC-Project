@@ -14,11 +14,11 @@ works:
   date:
     start: 1854
     end: 1854
-    source: 'the printing''s own title page: OCR line ~50 (MDCCCLIV)'
+    source: 'the printing''s own title page: OCR line 86, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1854
-    source: OCR line ~50 (MDCCCLIV)
+    source: OCR line 86, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 170, Joseph John Gurney: the Memoirs, vol. 1.'
   source_file: braithwaite_memoirs-of-joseph-john-gurney-v1_1854.txt
@@ -33,11 +33,12 @@ works:
   date:
     start: 1854
     end: 1854
-    source: 'the printing''s own title page: page image leaf 6 (MDCCCLIV; OCR garbled)'
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n6; the
+      OCR does not give it cleanly'
     formation_confidence: Documented
   edition_date:
     year: 1854
-    source: page image leaf 6 (MDCCCLIV; OCR garbled)
+    source: read on the scan's page image, leaf n6; the OCR does not give it cleanly
     formation_confidence: Documented
   note: 'Era 9 row 170, Joseph John Gurney: the Memoirs, vol. 2.'
   source_file: braithwaite_memoirs-of-joseph-john-gurney-v2_1854.txt
@@ -45,37 +46,37 @@ works:
   work: Observations on the religious peculiarities of the Society of Friends, by Joseph John
     Gurney. 'The kingdom of
   author: gurney
-  locus: the whole volume; not mapped
+  locus: Conclusion at OCR lines 13348-14062; add 12 to OCR line numbers; the rest not mapped
   role: tradition
   confidence: provisional
   language: eng
   date:
     start: 1824
     end: 1824
-    source: 'the printing''s own title page: OCR line 25-45 (1824)'
+    source: 'the printing''s own title page: OCR line 51, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1824
-    source: OCR line 25-45 (1824)
+    source: OCR line 51, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 170, Joseph John Gurney: his Observations.'
   source_file: gurney_observations-on-the-religious-peculiarities-of-the-society-of-friends_1824.txt
 - row_id: hicks_journal-of-the-life-and-religious-labours_1832--journal-of-the-life-and-religious-labours-of-elias-hicks
   work: Journal of the life and religious labours of Elias Hicks. Written by himself
   author: hicks
-  locus: 1830 memorial from Jericho Monthly Meeting against Hicks at OCR lines ~19560; add
-    12 to OCR line numbers; the rest not mapped
+  locus: the Journal, chapters I-XVIII at OCR lines 217-19008; add 12 to OCR line numbers;
+    the rest not mapped
   role: tradition
   confidence: provisional
   language: eng
   date:
     start: 1832
     end: 1832
-    source: 'the printing''s own title page: OCR line 17-40 (1832)'
+    source: 'the printing''s own title page: OCR line 39, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1832
-    source: OCR line 17-40 (1832)
+    source: OCR line 39, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 169, Elias Hicks: his Journal.'
   source_file: hicks_journal-of-the-life-and-religious-labours_1832.txt
@@ -83,18 +84,19 @@ works:
   work: A Declaration of the Yearly Meeting of Friends, held in Philadelphia, respecting the
     proceedings of those who
   author: philadelphia-yearly-meeting
-  locus: the whole volume; not mapped
+  locus: the Philadelphia Declaration of 1828 at OCR lines 58-1834; add 12 to OCR line numbers;
+    the rest not mapped
   role: tradition
   confidence: provisional
   language: eng
   date:
     start: 1828
-    end: 1828
-    source: 'the printing''s own title page: OCR line 80-100 (1828)'
+    end: 1852
+    source: 'the printing''s own title page: OCR line 89, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1828
-    source: OCR line 80-100 (1828)
+    source: OCR line 89, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 169, Elias Hicks: the Orthodox side''s account.'
   source_file: philadelphia-yearly-meeting_declaration-respecting-those-who-have-separated_1828.txt

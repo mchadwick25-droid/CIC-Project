@@ -1,12 +1,12 @@
-Title: One of China's Scholars: the early life and conversion of Pastor Hsi, with illustrations. By Mrs. Howard Taylor (nee Geraldine Guinness). Tenth impression
+Title: One of China's Scholars: the early life and conversion of Pastor Hsi, by Mrs. Howard Taylor; bound in this scan with Pastor Hsi (of North China): One of China's Christians, by Mrs. Howard Taylor, twelfth edition (from OCR line 7854)
 Creator: Mrs. Howard Taylor (nee Geraldine Guinness)
 Publisher: London: Morgan & Scott, 12 Paternoster Buildings; China Inland Mission, Newington Green
-Publication Date: 1909 (OCR lines 76-101: 'First Edition November 1900' ... 'Reprinted November 1909'; title page itself has no year)
+Publication Date: 1909 (OCR line 105, in the printing history on the back of the title page ('Reprinted November 1909'); the title page itself prints no year)
 Rights: Public Domain (pd-us-by-date: published 1909); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item oneofchinasschol00tayluoft, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (969,289) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1909, out of US copyright by date. OCR quality: clean. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Mrs Howard Taylor's account of Hsi's early life, Confucian scholarship and conversion; his words are reported, not his own pen. Divisions: chapters; first part of the life only. Editorial matter: printing-history page lines 88-101; publisher's advertisements at end. Mixed voices: biographer's narrative with Hsi's words reported. Cautions: Early life only; the whole life is in 'Pastor Hsi (of North China)' (pastorhsiofnorth00tayluoft), held back because its title page prints no year (preface dated November 1903 at page image leaf 9). Imprint year taken from the printing-history page. About 169,725 words.
+Content note: The file holds two books by Mrs. Howard Taylor, not one. First, 'One of China's Scholars: the Early Life and Conversion of Pastor Hsi', tenth impression, London, Morgan and Scott: printing history at lines 88-108 (first edition November 1900, reprinted to November 1909); preface signed J. Hudson Taylor at lines 148-229; contents at lines 232-279 (an introductory chapter, chapters 1-19, two appendices); 'The End' at line 7848. Second, 'Pastor Hsi (of North China): One of China's Christians', twelfth edition, from line 7854: preface from line 7963, contents listing 24 chapters from line 8082, introduction from line 8210. China Inland Mission book notices follow from line 24546. About 169,725 words.
 
 ______________________________________________________________________
 

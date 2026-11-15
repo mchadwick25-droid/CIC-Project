@@ -1,12 +1,12 @@
 Title: Memoirs of Joseph John Gurney; with selections from his journal and correspondence. Edited by Joseph Bevan Braithwaite. In two volumes. Vol. I
 Creator: Joseph John Gurney (subject); Joseph Bevan Braithwaite
 Publisher: Norwich: Fletcher and Alexander; London: W. & F. G. Cash and Thomas Hatchard; Edinburgh, Dublin
-Publication Date: 1854 (OCR line ~50 (MDCCCLIV))
+Publication Date: 1854 (OCR line 86, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1854); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item memoirsofjosephj01gurn, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,254,121) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1854, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: First half of the authorised Quaker life of Gurney with long extracts from his journal and letters. Divisions: chapters; contents after the title page. Editorial matter: editor's preface near start. Mixed voices: Gurney's journal and letters in the editor's narrative; letters to him also printed. Cautions: Edited by Braithwaite; also volume 2 picked. About 189,224 words.
+Content note: Volume I of 'Memoirs of Joseph John Gurney; with selections from his journal and correspondence', edited by Joseph Bevan Braithwaite, in two volumes, Norwich, 1854 (title page at lines 50-86). Editorial matter: the editor's Preface from line 92, which says Gurney's widow and family asked him to edit the memoir; contents from line 227. Divisions: chapters I (line 483) to XXVI (line 22980); Appendix from line 23686. Mixed voices: Gurney's letters are printed under headings such as 'To his sister Catherine' (line 1272); letters by others also appear, such as one from John Talwin Shewell to a friend (line 3411); Appendix A prints letters from Dr. Tregelles to the editor. About 189,224 words.
 
 ______________________________________________________________________
 

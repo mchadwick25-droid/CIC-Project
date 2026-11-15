@@ -1,12 +1,12 @@
 Title: Jamaica: its past and present state, by James M. Phillippo, twenty years a Baptist missionary in that island. Second thousand
 Creator: James M. Phillippo
 Publisher: London: John Snow, Paternoster Row
-Publication Date: 1843 (OCR lines 8-20 (MDCCCXLIII))
+Publication Date: 1843 (OCR line 25, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1843); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item jamaicaitspastpr00philuoft, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (931,778) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1843, out of US copyright by date. OCR quality: clean to fair. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Phillippo's 1843 account of Jamaica's society and the Baptist missions after emancipation. Divisions: chapters; preface at line 37. Editorial matter: preface at 37. Cautions: Second thousand. A Philadelphia 1843 printing is also located: jamaicaitspastpr00phil. About 137,560 words.
+Content note: Title page (lines 1-25): 'Jamaica: its Past and Present State', by James M. Phillippo, twenty years a Baptist missionary in that island, Second Thousand, London, John Snow, 1843. Editorial matter: the author's Preface from line 37, which says he wrote the work while illness kept him from more active labors; contents from line 229, followed by a list of engravings. Divisions: chapters I (line 553) to XVIII (line 17915); the contents head chapter I 'Christianity' and chapter II 'Sketch of the Island', and chapter XVIII treats the claims of missionary societies. Appendix from line 18968; an errata list stands near the end. About 137,560 words.
 
 ______________________________________________________________________
 

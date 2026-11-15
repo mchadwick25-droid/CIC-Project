@@ -1,12 +1,12 @@
 Title: What Is Christianity? Sixteen lectures delivered in the University of Berlin during the winter-term 1899-1900. By Adolf Harnack. Translated into English by Thomas Bailey Saunders. London: Williams and Norgate; New York: G. P. Putnam's Sons. 1901
 Creator: Adolf Harnack; Thomas Bailey Saunders
 Publisher: London: Williams and Norgate; New York: G. P. Putnam's Sons
-Publication Date: 1901 (OCR line 67-73)
+Publication Date: 1901 (OCR line 70, on the title page, which reads 'I9Ol')
 Rights: Public Domain (pd-us-by-date: published 1901); the archive.org record carries no rights field, so the imprint date is the basis
 Language: eng
 Source: archive.org item whatischristiani00harn_2, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (516,193) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1901, out of US copyright by date. OCR quality: clean. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Saunders's English of Harnack's sixteen Berlin lectures. Divisions: sixteen lectures; contents not read. Editorial matter: author's preface to the English edition near line 80; publisher's list from about line 11175. Cautions: Title-page words partly from the host title; first English printing of 1901. About 87,707 words.
+Content note: Sixteen lectures given in the University of Berlin in the winter term 1899-1900, translated into English by Thomas Bailey Saunders; London, Williams and Norgate, 1901. Editorial matter: Harnack's note on the English edition at lines 79-99, dated Berlin, October 1900; the translator's preface at lines 102-129, which says the lectures were delivered extempore and taken down in shorthand by a listener. Divisions: contents at lines 132-192 give two heads, 'The Gospel' and 'The Gospel in History'; Lecture II starts at line 860 and Lecture XVI at line 10387; 'The End' at line 11092. Publisher's lists run from line 11105. About 87,707 words.
 
 ______________________________________________________________________
 

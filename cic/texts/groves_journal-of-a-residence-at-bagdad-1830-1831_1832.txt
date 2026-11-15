@@ -1,12 +1,12 @@
 Title: Journal of a residence at Bagdad, during the years 1830 and 1831, by Anthony N. Groves, missionary
 Creator: Anthony N. Groves
 Publisher: London: James Nisbet, Berners Street
-Publication Date: 1832 (OCR line ~30 (M DCCC XXXII))
+Publication Date: 1832 (OCR line 62, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1832); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item journalofresiden00grov, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (563,141) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1832, out of US copyright by date. OCR quality: clean to fair. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Groves's own journal of the Baghdad mission. Divisions: journal; introduction line ~35. Editorial matter: introduction line ~35; publisher's catalogue at end. Cautions: Short; does not contain the Darby criticism, which sits in the memoir. About 88,199 words.
+Content note: The journal of Anthony N. Groves, missionary, during his residence at Bagdad in 1830 and 1831 (London, James Nisbet, 1832). Editorial matter: an Introduction at lines 65-391, signed A. J. Scott, Woolwich, August 1832; 'Notes' from line 11236; a list of books 'lately published by James Nisbet' from line 11975. Divisions: title pages at lines 18-62; the journal from line 394; an Appendix from line 11494, whose opening says the letters are added because they hold details not in the journal. About 88,199 words.
 
 ______________________________________________________________________
 

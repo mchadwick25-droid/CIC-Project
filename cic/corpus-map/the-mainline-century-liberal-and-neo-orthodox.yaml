@@ -7,19 +7,18 @@ works:
   work: The Defence of Professor Briggs before the Presbytery of New York, December 13, 14,
     15, 19, and 22, 1892
   author: briggs
-  locus: the Bible, Church and Reason argument at OCR lines 60-9700; add 12 to OCR line numbers;
-    the rest not mapped
+  locus: the whole volume; not mapped
   role: tradition
   confidence: needs-ruling
   language: eng
   date:
     start: 1893
     end: 1893
-    source: 'the printing''s own title page: OCR line 25 (copyright 1893 line 31)'
+    source: 'the printing''s own title page: OCR line 25, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1893
-    source: OCR line 25 (copyright 1893 line 31)
+    source: OCR line 25, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 216, Charles A. Briggs: his own defence at the trial.'
   source_file: briggs_defence-before-the-presbytery-of-new-york_1893.txt
@@ -27,19 +26,19 @@ works:
   work: The Case against Professor Briggs. I. The Charges and Specifications submitted to
     the Presbytery of New York,
   author: briggs-trial
-  locus: Response of Briggs to the charges, Nov 4 1891 at OCR lines find after 100; add 12
-    to OCR line numbers; the rest not mapped
+  locus: Item I, the Charges and Specifications, at OCR lines 243-856; Item II, Response of
+    Professor Briggs, at OCR lines 857-2210; add 12 to OCR line numbers; the rest not mapped
   role: context
   confidence: needs-ruling
   language: eng
   date:
     start: 1892
     end: 1892
-    source: 'the printing''s own title page: OCR line 99'
+    source: 'the printing''s own title page: OCR line 99, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1892
-    source: OCR line 99
+    source: OCR line 99, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 216, Charles A. Briggs: the trial record, part I.'
   source_file: briggs-trial_case-against-professor-briggs-pt1_1892.txt
@@ -47,19 +46,20 @@ works:
   work: 'The Defence of Professor Briggs before the General Assembly: The Case against Professor
     Briggs, Part III'
   author: briggs-trial
-  locus: Briggs's arguments before the General Assembly, May 1893 at OCR lines 60-13600; add
-    12 to OCR line numbers; the rest not mapped
+  locus: Briggs's argument against entertaining the appeal at OCR lines 1671-5459; Briggs's
+    argument against sustaining the appeal at OCR lines 6045-13317; add 12 to OCR line numbers;
+    the rest not mapped
   role: context
   confidence: needs-ruling
   language: eng
   date:
     start: 1893
     end: 1893
-    source: 'the printing''s own title page: OCR line 52'
+    source: 'the printing''s own title page: OCR line 36, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1893
-    source: OCR line 52
+    source: OCR line 36, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 216, Charles A. Briggs: the trial record, part III.'
   source_file: briggs-trial_case-against-professor-briggs-pt3_1893.txt
@@ -67,18 +67,18 @@ works:
   work: Das Wesen des Christentums. Sechzehn Vorlesungen vor Studierenden aller Facultäten
     im Wintersemester
   author: harnack
-  locus: the whole volume; not mapped
+  locus: Vorwort at OCR lines 62-102; add 12 to OCR line numbers; the rest not mapped
   role: tradition
   confidence: provisional
   language: deu
   date:
     start: 1900
     end: 1900
-    source: 'the printing''s own title page: OCR line 56-57'
+    source: 'the printing''s own title page: OCR line 59, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1900
-    source: OCR line 56-57
+    source: OCR line 59, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 221, Adolf von Harnack: Das Wesen des Christentums.'
   source_file: harnack_das-wesen-des-christentums-deu_1900.txt
@@ -93,7 +93,7 @@ works:
   date:
     start: 1901
     end: 1901
-    source: 'the printing''s own title page: OCR line 67-73'
+    source: 'the printing''s own title page: OCR line 70, on the title page, which reads ''I9Ol'''
     formation_confidence: Documented
   translator:
     name: Thomas Bailey Saunders
@@ -101,7 +101,7 @@ works:
     formation_confidence: Documented
   edition_date:
     year: 1901
-    source: OCR line 67-73
+    source: OCR line 70, on the title page, which reads 'I9Ol'
     formation_confidence: Documented
   note: 'Era 9 row 221, Adolf von Harnack: What Is Christianity?, in English.'
   source_file: harnack_what-is-christianity_saunders1901.txt

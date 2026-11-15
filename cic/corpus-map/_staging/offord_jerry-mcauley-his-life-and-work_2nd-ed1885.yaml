@@ -4,7 +4,7 @@ assignments:
   work: 'Jerry McAuley: his life and work, with introduction by Rev. S. Irenaeus Prime, D.D., and personal sketches
     by'
   author: offord
-  locus: Water Street Mission account at OCR lines not located; add 12 to OCR line numbers; the rest not mapped
+  locus: the whole volume; not mapped
   atlas_ids:
   - the-rescue-mission-movement
   role: context
@@ -13,10 +13,12 @@ assignments:
   date:
     start: 1885
     end: 1885
-    source: 'the printing''s own title page: OCR line 40 (''Copyright, 1885'')'
+    source: 'the printing''s own title page: the copyright notice at OCR line 40 (''Copyright, 1885''); the title
+      page prints no year (page image, leaf n8)'
     formation_confidence: Documented
   edition_date:
     year: 1885
-    source: OCR line 40 ('Copyright, 1885')
+    source: the copyright notice at OCR line 40 ('Copyright, 1885'); the title page prints no year (page image,
+      leaf n8)
     formation_confidence: Documented
   note: 'Era 9 row 219, Jerry McAuley: his life and his own account.'

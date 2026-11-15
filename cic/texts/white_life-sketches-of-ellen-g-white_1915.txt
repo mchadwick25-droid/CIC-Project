@@ -1,12 +1,12 @@
 Title: Life Sketches of Ellen G. White, being a narrative of her experience to 1881 as written by herself; with a sketch of her subsequent labors and of her last sickness, compiled from original sources
 Creator: Ellen G. White; compiled from original sources (compiler not named)
 Publisher: Mountain View, California: Pacific Press Publishing Association
-Publication Date: 1915 (OCR line 38 (copyright 1915 line 51))
+Publication Date: 1915 (OCR line 38, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1915); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item lifesketchesofel00whit, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (918,177) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1915, out of US copyright by date. OCR quality: clean. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Her autobiographical narrative with a later section told by compilers. Divisions: preface line 58; contents line 120; chapters. Editorial matter: preface line 58. Mixed voices: her own narrative to 1881, then compilers' sketch of later labors and last sickness. Cautions: 1915 compilation, not the first printing. Spiritual Gifts vols. 1-2 (1858, 1860): spiritualgiftsgr0000vari is a Review and Herald facsimile reprint (copyright 1945 line 123), so not taken; folkscanomy transcriptions WhiteEllen.MyChristianExperienceViewsAndLabors.SpiritualGiftsVol2 (CC0) and ...GreatControversy...Vol1 are typed transcriptions, not scans, so no title-page check was possible. The 1880 Life Sketches of James and Ellen White is lifesketchesance00whit (not fetched). About 140,745 words.
+Content note: Ellen G. White's narrative of her experience to 1881, with a sketch of her later labors and last sickness (Pacific Press Publishing Association, Mountain View, California, 1915). Editorial matter: the publishers' preface at lines 58-117 says her earlier accounts were printed in 1860 and 1880, and that from chapter forty-two (page 255) the story is continued by C. C. Crisler with the help of W. C. White and D. E. Robinson. Divisions: contents from line 120; the first chapter, 'Childhood', at line 576; chapters on the funeral services at lines 18621 and 19107. Mixed voices: her own narrative, then the compilers' chapters. About 140,745 words.
 
 ______________________________________________________________________
 

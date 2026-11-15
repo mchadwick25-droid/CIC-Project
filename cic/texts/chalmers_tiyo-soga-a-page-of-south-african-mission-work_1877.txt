@@ -1,12 +1,12 @@
 Title: Tiyo Soga: a page of South African mission work. By John A. Chalmers
 Creator: John A. Chalmers
 Publisher: Edinburgh: Andrew Elliot; London: Hodder & Stoughton; Glasgow: David Bryce & Son; Grahamstown: James Kay (printed by Aird and Coghill, Glasgow)
-Publication Date: 1877 (OCR line 74 ('187 7.'))
+Publication Date: 1877 (OCR line 116, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1877); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item tiyosogapageofso00chal, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,023,694) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1877, out of US copyright by date. OCR quality: clean to fair. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: The standard Life of Soga by his Scottish colleague, with long extracts from his journals and letters. Divisions: chapters; Soga's journals and letters quoted. Editorial matter: index at end. Mixed voices: life with Soga's own journals and letters printed in it. Cautions: Biographer's frame around Soga's own words; a 1878 reprint is separate on host. About 155,925 words.
+Content note: A life of the Rev. Tiyo Soga by John A. Chalmers (Edinburgh, Andrew Elliot; printed by Aird and Coghill, Glasgow). Editorial matter: the author's preface at lines 91-116, dated Grahamstown, 1877, in which he says he became Soga's biographer as his fellow-laborer and that the Rev. Dr. Aikman of Glasgow saw the book through the press. Divisions: contents from line 162, with chapters on Lovedale, his visits to Scotland, the cattle killing and his return to South Africa; the text from chapter I at line 262; chapter XXII at line 17593; a printers' line at the end. Mixed voices: extracts from Soga's journal are printed, for example at lines 6855 and 7284. About 155,925 words.
 
 ______________________________________________________________________
 

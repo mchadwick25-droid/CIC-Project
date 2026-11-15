@@ -3,8 +3,7 @@ assignments:
 - row_id: richardson_memoirs-of-alexander-campbell-v1_1868--memoirs-of-alexander-campbell-embracing-a-view-of-the-origin
   work: Memoirs of Alexander Campbell, embracing a view of the origin, progress and principles of the religious
   author: richardson
-  locus: Campbell's own letters and writings quoted in vol. 1 at OCR lines throughout 1059-24947; add 12 to OCR
-    line numbers; the rest not mapped
+  locus: the whole volume; not mapped
   atlas_ids:
   - the-stone-campbell-restoration-movement
   role: context
@@ -13,11 +12,10 @@ assignments:
   date:
     start: 1868
     end: 1868
-    source: 'the printing''s own title page: OCR line 102 (title page, ''VOL. I. PHILADELPHIA ... 1868''); copyright
-      1868 line 114'
+    source: 'the printing''s own title page: OCR line 102, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1868
-    source: OCR line 102 (title page, 'VOL. I. PHILADELPHIA ... 1868'); copyright 1868 line 114
+    source: OCR line 102, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 164, Alexander Campbell: a Life (Richardson, vol. 1).'

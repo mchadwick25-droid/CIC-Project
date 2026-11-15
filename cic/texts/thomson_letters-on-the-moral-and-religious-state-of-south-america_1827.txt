@@ -1,12 +1,12 @@
 Title: Letters on the moral and religious state of South America, written during a residence of nearly seven years in Buenos Aires, Chile, Peru, and Colombia. By James Thomson. Published by James Nisbet, 21 Berners Street, London
 Creator: James Thomson
 Publisher: London: James Nisbet, 21 Berners Street (with Hatchard, Seeley, Hamilton Adams, others)
-Publication Date: 1827 (page image leaf 9 (MDCCCXXVII); OCR of title page garbled)
+Publication Date: 1827 (read on the scan's page image, leaf n9; the OCR does not give it cleanly)
 Rights: Public Domain (pd-us-by-date: published 1827); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item lettersonmorala00thomgoog, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (433,325) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1827, out of US copyright by date. OCR quality: fair: some OCR garble (preface lines and long passages), body mostly readable. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Thomson's letters on schools, Bible distribution and religion in Buenos Aires, Chile, Peru and Colombia. Divisions: letters; dedication to Lord Calthorpe line 123; preface line 162. Editorial matter: dedication and preface 123-190. Mixed voices: author's own letters. Cautions: Google scan with Bodleian stamp on title page. About 76,816 words.
+Content note: Title page (lines 93-117): 'Letters on the Moral and Religious State of South America, written during a residence of nearly seven years in Buenos Aires, Chile, Peru, and Colombia', by James Thomson; London, published by James Nisbet. Editorial matter: the author's dedication to Lord Calthorpe at lines 125-154; his Preface at lines 162-228, dated London, 13th February, 1827, which says the letters were lent back to him by the people they were addressed to and are printed in the order of time in which they were written. Divisions: dated letters without numbers, from Buenos Aires, 5th June, 1820 (line 252); later letters are dated from Lima and Quito. About 76,816 words.
 
 ______________________________________________________________________
 

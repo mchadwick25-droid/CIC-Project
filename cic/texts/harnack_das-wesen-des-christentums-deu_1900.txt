@@ -1,12 +1,12 @@
 Title: Das Wesen des Christentums. Sechzehn Vorlesungen vor Studierenden aller Facultäten im Wintersemester 1899/1900 an der Universität Berlin gehalten von Adolf Harnack. Leipzig, J. C. Hinrichs'sche Buchhandlung, 1900
 Creator: Adolf Harnack
 Publisher: Leipzig, J. C. Hinrichs'sche Buchhandlung
-Publication Date: 1900 (OCR line 56-57)
+Publication Date: 1900 (OCR line 59, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1900); the archive.org record carries no rights field, so the imprint date is the basis
 Language: deu
 Source: archive.org item daswesendeschris00harn_2, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (462,588) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1900, out of US copyright by date. OCR quality: fair to clean: roman-type OCR with long-s ('ſ') spelling errors; the Vorwort reads cleanly. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Harnack's sixteen Berlin lectures in the 1900 print. Divisions: Vorwort then sixteen lectures. Editorial matter: Vorwort lines 60-80. Cautions: The edition number is not stated in the part read; another scan (daswesendeschris00harn) is the fourth edition. About 66,516 words.
+Content note: Sixteen lectures given by Adolf Harnack to students of all faculties at the University of Berlin in the winter semester of 1899/1900, in German (Leipzig, J. C. Hinrichs, 1900). Editorial matter: the Vorwort at lines 62-102, dated May 1900, says the lectures were given freely, taken down in shorthand by the student Walther Becker, and printed with few corrections. Divisions: the first lecture from line 105; the sixteenth from line 7782; 'Inhalt' from line 8356, in two parts, 'Das Evangelium' and 'Das Evangelium in der Geschichte'. About 66,516 words.
 
 ______________________________________________________________________
 

@@ -24,12 +24,12 @@ works:
   date:
     start: 1827
     end: 1827
-    source: 'the printing''s own title page: page image leaf 9 (MDCCCXXVII); OCR of title
-      page garbled'
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n9; the
+      OCR does not give it cleanly'
     formation_confidence: Documented
   edition_date:
     year: 1827
-    source: page image leaf 9 (MDCCCXXVII); OCR of title page garbled
+    source: read on the scan's page image, leaf n9; the OCR does not give it cleanly
     formation_confidence: Documented
   note: 'Era 9 row 220, James Thomson: his Letters.'
   source_file: thomson_letters-on-the-moral-and-religious-state-of-south-america_1827.txt

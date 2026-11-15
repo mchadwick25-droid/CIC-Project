@@ -1,12 +1,12 @@
 Title: Elpis Israel; a book for the times: being an exposition of the Kingdom of God, with reference to 'the time of the end,' and 'the age to come.' By John Thomas, M.D., Richmond, Virginia, United States. London: published by the author; and may be obtained at 3, Brudenell Place, New North Road, Hoxton. 1849. Printed by Charles Beckett, Kingsland Road
 Creator: John Thomas, M.D., Richmond, Virginia, United States
 Publisher: London: published by the author
-Publication Date: 1849 (OCR title block, first 30 lines ('1849 ,'))
+Publication Date: 1849 (OCR line 35, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1849); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees
 Language: eng
 Source: archive.org item elpisisrael18491steditionjohnthomas, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,417,442) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1849, out of US copyright by date. OCR quality: fair. Some dropped letters ('TIIE', 'bnt'); body readable at lines 7541, 14344 and 15000. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: The first edition of Elpis Israel, Thomas's exposition of the Kingdom of God. Divisions: Three parts with chapters, contents from line 53. Editorial matter: Detailed contents; no preface seen at the sampled lines. Cautions: Community upload (opensource/community) with a public-domain mark; title page and imprint read clearly in the scan. Eureka and a life of Thomas were NOT FOUND on archive.org by search. OCR ends at the chronology table. About 250,733 words.
+Content note: John Thomas's exposition of the Kingdom of God, published by the author in London; the title page is dated 1849 and the preface January 1, 1850. Divisions: title page at lines 1-46; contents from line 50, in three parts: 'The Rudiments of the World', 'The Things of the Kingdom of God, and the Name of ...' and 'The Kingdoms of the World in their Relation to the Kingdom of God'; chapter I of each part begins at lines 765, 12372 and 20684. Chronology tables stand at lines 18203, 19672 and 28767, and the file ends in one. Editorial matter: the author's preface at lines 315-734, addressed in part to his subscribers. About 250,733 words.
 
 ______________________________________________________________________
 

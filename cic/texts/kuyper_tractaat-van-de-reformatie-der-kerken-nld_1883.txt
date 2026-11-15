@@ -1,12 +1,12 @@
-Title: Tractaat van de Reformatie der Kerken, aan de zonen der Reformatie hier te lande op Luthers vierde eeuwfeest [as the host record gives it; OCR of the lettered title is garbled], door Dr. A. Kuyper, Amsterdam, Höveker & Wormser, 1883
-Creator: Dr. A. Kuyper (OCR garbled)
-Publisher: Amsterdam, Höveker (& Wormser)
-Publication Date: 1883 (OCR line 80 ('1883.' after the Amsterdam imprint))
+Title: Tractaat van de Reformatie der Kerken, aan de zonen der Reformatie hier te lande op Luthers vierde eeuwfeest aangeboden door Dr. A. Kuyper (the black-letter title page is garbled in the OCR; these words follow the host record and the page image, leaf n6)
+Creator: Dr. A. Kuyper
+Publisher: Amsterdam: Höveker & Zoon (page image, leaf n6)
+Publication Date: 1883 (read on the scan's page image, leaf n6; the OCR does not give it cleanly)
 Rights: Public Domain (pd-us-by-date: published 1883); the archive.org record carries no rights field, so the imprint date is the basis
 Language: nld
 Source: archive.org item tractaatvande00kuyp, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (637,329) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1883, out of US copyright by date. OCR quality: clean to fair: Dutch roman type, some hyphenation and stray marks; title page garbled. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Kuyper's 1883 Dutch treatise on reforming the churches, written in the run-up to the 1886 Doleantie. Divisions: dedication then chapters; contents not checked. Editorial matter: dedication to P. J. Elout van Soeterwoude near line 90. Cautions: Title words beyond 'Tractaat van de Reformatie der Kerken' and the author line are from OCR that is garbled, and the long subtitle comes from the host title; the 'Voorrede' was not read. Dutch only, no English. About 90,480 words.
+Content note: A Dutch-language book. Title page (lines 64-100; the lettered title is garbled in the OCR): 'Tractaat van de Reformatie der Kerken', Amsterdam, 1883. Dedication to Jonkheer Meester P. J. Elout van Soeterwoude at lines 103-127. Editorial matter: the author's Voorrede from line 133, signed Amsterdam, 1 October 1883, Kuyper; Inleiding from line 357. Divisions: four chapters in numbered sections: I, Algemeene beginselen (line 481); II, Van de rechte formatie der kerken (line 1713); III, Van de deformatie der kerken (line 4383); IV, Van de reformatie der kerken (line 5892), which begins with section 51. Inhoudsopgave (contents) from line 10472. About 90,480 words.
 
 ______________________________________________________________________
 

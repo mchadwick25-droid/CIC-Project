@@ -1,12 +1,12 @@
 Title: The Story of the Church of Egypt, being an outline of the history of the Egyptians under their successive masters from the Roman conquest until now, by E. L. Butcher; in two volumes, vol. II
 Creator: E. L. Butcher
 Publisher: London: Smith, Elder, & Co., 15 Waterloo Place
-Publication Date: 1897 (OCR line 48 (title page, '1897 [All rights reserved]'))
+Publication Date: 1897 (OCR line 48, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1897); the archive.org record carries no rights field, so the imprint date is the basis
 Language: eng
 Source: archive.org item storyofchurchofe02butc, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (963,910) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1897, out of US copyright by date. OCR quality: clean: English, ordinary Princeton scan, three samples read cleanly; occasional stray marks on plate pages. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Volume 2 of Butcher's history of the Egyptian church, carrying the story through the nineteenth century. It tells how Cyril the Reformer was acclaimed to the patriarchate in 1854 and set up schools in Cairo. An outsider's English account, not Cyril's own words. Divisions: chapters with running heads and year marginalia; index at the end (index entries from about OCR line 18100). Editorial matter: no preface of note in vol. 2; index from about line 18100. Mixed voices: none seen; one author's narrative with quoted sources. Cautions: Vol. 2 of 2 only; Cyril appears as 'Cyril the Reformer' (not numbered IV in the lines read). Written by an English author, so an outside witness. Arabic original not found in a pre-1931 scan (see report). About 144,216 words.
+Content note: Volume II of 'The Story of the Church of Egypt, being an outline of the history of the Egyptians under their successive masters from the Roman conquest until now', by E. L. Butcher, in two volumes, London, Smith, Elder, & Co. (title page at lines 18-50). Contents of the second volume from line 64. Divisions: Part II continued, chapters XIII (The Conquest of Egypt by the Fatimites, line 153) to XLIII (Social Life and Customs, line 16630). Chapter XLII, The Church of Egypt in the Nineteenth Century, begins at line 15810 and includes the account of the patriarch it calls Cyril the Reformer (from line 16010). Index from line 17397. About 144,216 words.
 
 ______________________________________________________________________
 

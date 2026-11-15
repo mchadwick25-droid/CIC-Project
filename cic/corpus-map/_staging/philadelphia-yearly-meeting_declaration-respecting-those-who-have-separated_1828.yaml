@@ -4,7 +4,7 @@ assignments:
   work: A Declaration of the Yearly Meeting of Friends, held in Philadelphia, respecting the proceedings of those
     who
   author: philadelphia-yearly-meeting
-  locus: the whole volume; not mapped
+  locus: the Philadelphia Declaration of 1828 at OCR lines 58-1834; add 12 to OCR line numbers; the rest not mapped
   atlas_ids:
   - nineteenth-century-quakerism-separations
   role: tradition
@@ -12,11 +12,11 @@ assignments:
   language: eng
   date:
     start: 1828
-    end: 1828
-    source: 'the printing''s own title page: OCR line 80-100 (1828)'
+    end: 1852
+    source: 'the printing''s own title page: OCR line 89, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1828
-    source: OCR line 80-100 (1828)
+    source: OCR line 89, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 169, Elias Hicks: the Orthodox side''s account.'

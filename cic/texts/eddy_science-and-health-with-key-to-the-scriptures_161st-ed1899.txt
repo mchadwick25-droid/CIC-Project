@@ -1,12 +1,12 @@
 Title: Science and Health with Key to the Scriptures. By Mary Baker G. Eddy, President of Massachusetts Metaphysical College. One Hundred and Sixty-First Edition. Boston: published by Joseph Armstrong, C.S.D., 95 Falmouth Street. 1899
 Creator: Mary Baker G. Eddy
 Publisher: Boston: Joseph Armstrong, C.S.D., 95 Falmouth Street; University Press: John Wilson and Son, Cambridge
-Publication Date: 1899 (OCR lines 25-55 (title page, '161st edition', '1899.'))
+Publication Date: 1899 (OCR line 55, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1899); the archive.org record carries no rights field, so the imprint date is the basis
 Language: eng
 Source: archive.org item sciencehealt00eddy, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,474,425) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1899, out of US copyright by date. OCR quality: clean to fair. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: The 1899 text of Science and Health as then printed, much revised from 1875. Divisions: Chapters with contents (line 148 'Index 593'), Preface from line 151, index at the back. Editorial matter: Preface lines 151-300; index near end. Mixed voices: none seen; many scripture quotations. Cautions: Not the first edition: the 1875 item sciencehealthwi000eddy was NOT TAKEN because it is a modern publisher's reprint (OCR line 1-60 'Publisher's Note'). Doctrinal claims are not scored (project note). About 215,874 words.
+Content note: Title page: 'Science and Health with Key to the Scriptures', by Mary Baker G. Eddy, President of Massachusetts Metaphysical College, One Hundred and Sixty-First Edition, Boston, published by Joseph Armstrong, 1899; the verso carries copyright entries of 1875, 1885, 1890 and 1894. Contents at lines 107-148 list chapters I-XIV, then 'Key to the Scriptures' with XV Genesis, XVI Apocalypse and XVII Glossary, and an index. Editorial matter: the author's Preface at lines 151-366, signed Mary Baker G. Eddy. Divisions: Chapter I begins at line 376; the Glossary at line 24396; the index at line 25176. About 215,874 words.
 
 ______________________________________________________________________
 

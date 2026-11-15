@@ -1,12 +1,12 @@
 Title: Tracts for the Times. Remarks on certain passages in the Thirty-nine Articles. [The corrections in the Second Edition are put in brackets.] (running head 'VOL. VI.-90')
 Creator: signed [J. H. N.], Oxford, The Feast of the Conversion of St. Paul, 1841
 Publisher: London: printed for J. G. F. & J. Rivington, St. Paul's Church Yard, and Waterloo Place (printers Gilbert & Rivington, St. John's Square)
-Publication Date: 1841 (OCR lines 3743-3744 (colophon, 'SECOND EDITION'); no separate title leaf in the OCR)
+Publication Date: 1841 (OCR line 3755, in the imprint at the end of the tract ('London: printed for J. G. F. & J. Rivington', line 3751); the scan has no separate title leaf)
 Rights: Public Domain (pd-us-by-date: published 1841); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item remarksoncertain00newmrich, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (233,757) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1841, out of US copyright by date. OCR quality: clean (sampled lines 50, 2000, 3730). Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Tract 90 in its Second Edition (1841) as one separate volume item, the tract that raised the Oxford storm. Newman reads the Thirty-nine Articles in a Catholic sense. Divisions: Introduction and sections 1-12 by Article (contents lines 8-45), Conclusion. Editorial matter: none; advertisements for other books from line 3755. Cautions: Imprint read from the colophon, not a title leaf. A second scan with a bundle of 1841 pamphlets exists (a623832400newmuoft); not taken. About 35,662 words.
+Content note: A number of 'Tracts for the Times' with the running mark 'Vol. vi. - 90', in its Second Edition; the title page says the corrections in the Second Edition are put in brackets. The author is not named on the title page; the text is signed '[J. H. N.]', Oxford, the Feast of the Conversion of St. Paul, 1841 (London, printed for J. G. F. & J. Rivington, 1841). Divisions: contents at lines 23-57; Introduction at lines 62-174; sections 1-12, each on one or two of the Articles, from line 175; Conclusion at lines 3577-3740. Editorial matter: a list of works said to uphold the doctrines of the Tracts from line 3759. About 35,662 words.
 
 ______________________________________________________________________
 

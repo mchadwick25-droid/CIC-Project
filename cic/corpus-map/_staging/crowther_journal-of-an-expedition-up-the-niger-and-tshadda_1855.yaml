@@ -3,8 +3,7 @@ assignments:
 - row_id: crowther_journal-of-an-expedition-up-the-niger-and-tshadda_1855--journal-of-an-expedition-up-the-niger-and-tshadda-rivers
   work: Journal of an expedition up the Niger and Tshadda rivers, undertaken by Macgregor Laird, Esq., in connection
   author: crowther
-  locus: Crowther's journal of the Niger expedition at OCR lines after contents, about 110-11000; add 12 to OCR
-    line numbers; the rest not mapped
+  locus: Crowther's journal at OCR lines 1053-8859; add 12 to OCR line numbers; the rest not mapped
   atlas_ids:
   - the-missionary-movement-s-native-churches-seramp
   role: tradition
@@ -13,10 +12,10 @@ assignments:
   date:
     start: 1854
     end: 1855
-    source: 'the printing''s own title page: OCR line 59 (MDCCCLV)'
+    source: 'the printing''s own title page: OCR line 59, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1855
-    source: OCR line 59 (MDCCCLV)
+    source: OCR line 59, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 203, Samuel Ajayi Crowther: his journal of 1854.'

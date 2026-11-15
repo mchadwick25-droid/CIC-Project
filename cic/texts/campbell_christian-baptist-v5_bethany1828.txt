@@ -1,12 +1,12 @@
 Title: The Christian Baptist, published monthly. Edited by Alexander Campbell. Vol. V. Bethany, Brooke County, Va. Printed and published by A. Campbell, at the Bethany Printing-Office. 1827-28
 Creator: Alexander Campbell (editor)
 Publisher: Bethany, Brooke County, Va.: A. Campbell
-Publication Date: 1828 (page image leaf 9 ('1827-28'); OCR title page garbled (line 216 'VOL. v.-1828'))
+Publication Date: 1828 (read on the scan's page image, leaf n9; the OCR does not give it cleanly)
 Rights: Public Domain (pd-us-by-date: published 1828); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item christianbaptis00campgoog, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (894,749) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1828, out of US copyright by date. OCR quality: fair; occasional garbling (e.g. 'sunpf', 'Ciod') but readable; samples at lines 9000 and 17000. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: One year's issues of Campbell's monthly, 1827-28: essays on creeds, church order and the Ancient Gospel, with correspondence. Divisions: monthly numbers 1-12 (No. 1 line 539, Aug. 6, 1827); index of volume line ~216-300 (garbled); contains the 'Ancient Gospel' essays (Nos. 1-7) and 'Letters from ... Bishop Clack'. Editorial matter: index lines 216-300. Mixed voices: Campbell writes most; reprints letters from correspondents, extracts from other papers. Cautions: Vol. V only (not the earliest volume). The vol. I scan on the host (cbv-1-sipdf) carries a Gospel Advocate Company 1955 reprint notice, so it was not taken. Other Google volumes: christianbaptis02campgoog (1826), christianbaptis04campgoog (1829). About 155,862 words.
+Content note: Volume V of The Christian Baptist, published monthly, edited by Alexander Campbell, Bethany, Brooke County, Va., 1827-28 (title page at lines 113-134). The file opens with a Google notice. Divisions: an index to the volume from line 216, then twelve monthly numbers, from No. 1 dated Aug. 6, 1827 (line 539) to No. 12 dated July 7, 1828 (line 17049). Essays headed 'Ancient Gospel' begin with No. I at line 8260. Mixed voices: a letter signed Spencer Clack is followed by Campbell's reply at line 1337, and letters headed 'To the Editor of the Christian Baptist' appear in the numbers. About 155,862 words.
 
 ______________________________________________________________________
 

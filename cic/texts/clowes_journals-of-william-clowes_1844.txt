@@ -1,12 +1,12 @@
 Title: The Journals of William Clowes, a Primitive Methodist Preacher, containing chronicles of events relative to his unregenerate state, his conversion to God, his call to the ministry, the commencement and progress of the Primitive Methodist Connexion, and to his itinerant labours therein from the year 1810 to that of 1838
 Creator: William Clowes
 Publisher: London: published by Hallam and Holliday, Conference Offices, Sutton Street, Commercial Road, St. George's in the East; Tyler & Reed, printers, Bolt-Court
-Publication Date: 1844 (OCR line 103)
+Publication Date: 1844 (OCR line 103, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1844); the archive.org record says possible-copyright-status The Library of Congress is unaware of any copyright restrictions for this item., and the imprint date agrees
 Language: eng
 Source: archive.org item journalsofwillia00clow, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (745,106) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1844, out of US copyright by date. OCR quality: clean (sampled lines 395, 3000, 6213). Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Clowes's own journal of conversion, call and travels in the Primitive Methodist connexion. Divisions: Introduction line ~108, then dated journal entries by year. Editorial matter: none noted. Cautions: Bourne's own History of the Primitive Methodists (1823) NOT found; Antliff's Life of Bourne (1872) is the substitute. About 115,023 words.
+Content note: The Journals of William Clowes, London, Hallam and Holliday, 1844. Editorial matter: an introduction at lines 124-165 signed William Clowes; he says he wrote for private use, that the book went through the press without his inspection, and that the pages are headed 'Life of W. Clowes' and the chapter summaries are in the third person. Divisions: chapters I-XXXII, written in the first person, each with a summary at its head; Chapter I starts at line 174 and Chapter XXXII at line 13945; 'The End' at line 14657. A day's praying on Mow hill is told from line 1586. About 115,023 words.
 
 ______________________________________________________________________
 

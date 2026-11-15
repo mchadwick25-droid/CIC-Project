@@ -7,19 +7,18 @@ works:
   work: Memoirs of William Miller, generally known as a lecturer on the prophecies, and the
     second coming of Christ,
   author: bliss
-  locus: Miller's own account of his conversion and calculations at OCR lines 600-4000 (approx);
-    add 12 to OCR line numbers; the rest not mapped
+  locus: the whole volume; not mapped
   role: context
   confidence: provisional
   language: eng
   date:
     start: 1853
     end: 1853
-    source: 'the printing''s own title page: OCR line 43'
+    source: 'the printing''s own title page: OCR line 43, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1853
-    source: OCR line 43
+    source: OCR line 43, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 172, William Miller: a Life told by a disciple.'
   source_file: bliss_memoirs-of-william-miller_1853.txt
@@ -27,7 +26,7 @@ works:
   work: Miller's Works. Views of the Prophecies and Prophetic Chronology, selected from manuscripts
     of William
   author: miller
-  locus: Miller's lectures on the prophecies at OCR lines 430-12200; add 12 to OCR line numbers;
+  locus: Part Second, Address and Lectures at OCR lines 3205-8845; add 12 to OCR line numbers;
     the rest not mapped
   role: tradition
   confidence: provisional
@@ -35,12 +34,12 @@ works:
   date:
     start: 1842
     end: 1842
-    source: 'the printing''s own title page: page image leaf 9 (''1842''); OCR line 119 reads
-      ''1S^2'''
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n9; the
+      OCR does not give it cleanly'
     formation_confidence: Documented
   edition_date:
     year: 1842
-    source: page image leaf 9 ('1842'); OCR line 119 reads '1S^2'
+    source: read on the scan's page image, leaf n9; the OCR does not give it cleanly
     formation_confidence: Documented
   note: 'Era 9 row 172, William Miller: his own Views of the Prophecies.'
   source_file: miller_views-of-the-prophecies-and-prophetic-chronology_himes1842.txt
@@ -48,19 +47,19 @@ works:
   work: Life Sketches of Ellen G. White, being a narrative of her experience to 1881 as written
     by herself; with a
   author: white
-  locus: her visions and early ministry in her own words at OCR lines throughout; add 12 to
-    OCR line numbers; the rest not mapped
+  locus: Publishers' preface at OCR lines 58-117; add 12 to OCR line numbers; the rest not
+    mapped
   role: tradition
   confidence: provisional
   language: eng
   date:
     start: 1915
     end: 1915
-    source: 'the printing''s own title page: OCR line 38 (copyright 1915 line 51)'
+    source: 'the printing''s own title page: OCR line 38, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1915
-    source: OCR line 38 (copyright 1915 line 51)
+    source: OCR line 38, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 173, Ellen G. White: Life Sketches.'
   source_file: white_life-sketches-of-ellen-g-white_1915.txt

@@ -4,7 +4,7 @@ assignments:
   work: The Christian Baptist, published monthly. Edited by Alexander Campbell. Vol. V. Bethany, Brooke County,
     Va.
   author: campbell
-  locus: Ancient Gospel No. 1 at OCR lines 8260 onward; add 12 to OCR line numbers; the rest not mapped
+  locus: the whole volume; not mapped
   atlas_ids:
   - the-stone-campbell-restoration-movement
   role: tradition
@@ -13,11 +13,10 @@ assignments:
   date:
     start: 1827
     end: 1828
-    source: 'the printing''s own title page: page image leaf 9 (''1827-28''); OCR title page garbled (line 216 ''VOL.
-      v.-1828'')'
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n9; the OCR does not give it cleanly'
     formation_confidence: Documented
   edition_date:
     year: 1828
-    source: page image leaf 9 ('1827-28'); OCR title page garbled (line 216 'VOL. v.-1828')
+    source: read on the scan's page image, leaf n9; the OCR does not give it cleanly
     formation_confidence: Documented
   note: 'Era 9 row 164, Alexander Campbell: one volume of the Christian Baptist.'

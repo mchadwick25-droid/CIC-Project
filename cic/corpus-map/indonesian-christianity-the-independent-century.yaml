@@ -3,24 +3,26 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: indonesian-christianity-the-independent-century
 works:
-- row_id: allgemeine-missions-zeitschrift_jg45-1918-deu_berlin1918--allgemeine-missions-zeitschrift-monatshefte-fuer
+- row_id: allgemeine-missions-zeitschrift_jg45-46-deu_berlin1918-1919--allgemeine-missions-zeitschrift-monatshefte-fuer
   work: Allgemeine Missions-Zeitschrift. Monatshefte fuer geschichtliche und theoretische
-    Missionskunde.
+    Missionskunde,
   author: allgemeine-missions-zeitschrift
-  locus: Nommensen obituary by Johannes Warneck at OCR lines 10924-11067; death notice (20
-    May 1918) at OCR lines 9668-9676; add 12 to OCR line numbers; the rest not mapped
+  locus: Obituary of D. Ludwig Nommensen by D. Joh. Warneck at OCR lines 10921-11069; notice
+    of his death at OCR lines 9669-9674; add 12 to OCR line numbers; the rest not mapped
   role: context
   confidence: provisional
   language: deu
   date:
     start: 1918
     end: 1918
-    source: 'the printing''s own title page: OCR lines 41-45 (''Berlin 1918. Verlag von Martin
-      Warneck'')'
+    source: 'the printing''s own title page: OCR line 44, on the title page of the 45th volume
+      (''Berlin 1918.''); the 46th volume''s title page, from OCR line 18305, reads Berlin
+      1919'
     formation_confidence: Documented
   edition_date:
     year: 1918
-    source: OCR lines 41-45 ('Berlin 1918. Verlag von Martin Warneck')
+    source: OCR line 44, on the title page of the 45th volume ('Berlin 1918.'); the 46th volume's
+      title page, from OCR line 18305, reads Berlin 1919
     formation_confidence: Documented
   note: 'Era 9 row 206, Ludwig Ingwer Nommensen: the obituary by J. Warneck.'
-  source_file: allgemeine-missions-zeitschrift_jg45-1918-deu_berlin1918.txt
+  source_file: allgemeine-missions-zeitschrift_jg45-46-deu_berlin1918-1919.txt

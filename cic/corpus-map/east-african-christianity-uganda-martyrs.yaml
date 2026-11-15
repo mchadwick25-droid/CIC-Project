@@ -7,19 +7,20 @@ works:
   work: Chronicles of Uganda. By the Rev. R. P. Ashe, M.A., F.R.G.S., author of Two Kings
     of Uganda. With portrait
   author: ashe
-  locus: martyrdoms of the young converts and note referring to the fuller account at OCR
-    lines 2490-2640; add 12 to OCR line numbers; the rest not mapped
+  locus: the burning of three young converts on January 31st, with a footnote pointing to
+    the fuller account in 'Two Kings of Uganda', at OCR lines 2486-2499; add 12 to OCR line
+    numbers; the rest not mapped
   role: tradition
   confidence: provisional
   language: eng
   date:
     start: 1895
     end: 1895
-    source: 'the printing''s own title page: OCR lines 49-52'
+    source: 'the printing''s own title page: OCR line 52, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1895
-    source: OCR lines 49-52
+    source: OCR line 52, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 210, Charles Lwanga: a missionary''s account of Uganda (it does not name
     him).'
@@ -35,11 +36,11 @@ works:
   date:
     start: 1860
     end: 1860
-    source: 'the printing''s own title page: OCR line 79'
+    source: 'the printing''s own title page: OCR line 79, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1860
-    source: OCR line 79
+    source: OCR line 79, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 209, Johann Ludwig Krapf: his Travels.'
   source_file: krapf_travels-researches-and-missionary-labours-in-eastern-africa_1860.txt

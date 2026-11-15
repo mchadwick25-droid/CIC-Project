@@ -1,12 +1,12 @@
 Title: Memoirs of Rev. Charles G. Finney, written by himself. New York: A. S. Barnes & Company, 1876
 Creator: Rev. Charles G. Finney
 Publisher: New York: A. S. Barnes & Company
-Publication Date: 1876 (OCR line 14 (also copyright 1876 line 21, Oberlin College preface line 76))
+Publication Date: 1876 (OCR line 14, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1876); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item memoirsofrevchar00finnuoft, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,126,684) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1876, out of US copyright by date. OCR quality: clean. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Finney's autobiography, dictated in his last years, covering conversion, revivals in New York and Rochester, Oberlin. Divisions: Preface (line 22-78), contents lines 79-392, chapters from ~line 400; publisher advertisements from line 20169. Editorial matter: preface by the Oberlin trustees/editors, lines ~22-78; advertisements lines 20169-20501. Mixed voices: mostly Finney; closing chapters by Oberlin hands may be present (not checked). Cautions: 1876 first edition; text-end line for the last chapter not checked. About 176,972 words.
+Content note: Finney's narrative of his own life, 'written by himself' (New York, A. S. Barnes & Company, 1876; copyright the Trustees of Oberlin College). Editorial matter: a preface signed J. H. F., Oberlin College, January 1876, at lines 30-76, says the manuscript is printed essentially as found, with occasional omissions; a 'Conclusion' from line 20040 speaks of his closing years in the third person. Divisions: contents from line 79; chapters I-XXXVI, with the text from line 480; 'The End' at line 20102; publisher's advertisements from line 20105 to the end. About 176,972 words.
 
 ______________________________________________________________________
 

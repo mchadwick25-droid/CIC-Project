@@ -1,12 +1,12 @@
 Title: Religious Experience of John Humphrey Noyes, Founder of the Oneida Community. With seventeen illustrations. Compiled and edited by George Wallingford Noyes. New York: The Macmillan Company. 1923
 Creator: John Humphrey Noyes; Compiled and edited by George Wallingford Noyes
 Publisher: New York: The Macmillan Company
-Publication Date: 1923 (OCR lines 20-40 ('1923'))
+Publication Date: 1923 (OCR line 66, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1923); the archive.org record carries no rights field, so the imprint date is the basis
 Language: eng
 Source: archive.org item religiousexperie00noye, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (755,393) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1923, out of US copyright by date. OCR quality: clean. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: A compilation of Noyes's own earlier writings on his religious life, arranged by his editor in 1923. Divisions: Preface at line 95; contents at line 193. Editorial matter: Compiler's preface and notes. Mixed voices: Compiled from Noyes's writings with editor's linking text. Cautions: A compilation made forty years after Noyes's death; the editor's selection and notes shape it. No second witness (Tirzah Miller) found. About 114,933 words.
+Content note: A book on the religious experience of John Humphrey Noyes, compiled and edited by George Wallingford Noyes (New York, The Macmillan Company, 1923). Editorial matter: the editor's preface at lines 95-140, dated Ithaca, New York, April 25, 1922, says he gave up a strict compilation of original documents for a semi-narrative form and condensed and rearranged documents without altering the sense; introduction at lines 143-190, which says the book recounts the experiences that led to the Putney Community. Divisions: contents from line 193; list of illustrations from line 356; chapters I-XXXIX, with the text from line 418. Mixed voices: Noyes's writings and talks set in the editor's linking narrative. About 114,933 words.
 
 ______________________________________________________________________
 

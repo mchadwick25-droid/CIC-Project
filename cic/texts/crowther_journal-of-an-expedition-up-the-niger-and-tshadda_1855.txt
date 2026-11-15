@@ -1,12 +1,12 @@
 Title: Journal of an expedition up the Niger and Tshadda rivers, undertaken by Macgregor Laird, Esq., in connection with the British Government, in 1854. By the Rev. Samuel Crowther. With map and appendix
 Creator: the Rev. Samuel Crowther
 Publisher: London: Church Missionary House, Salisbury Square; Seeley, Jackson, and Halliday, Fleet Street
-Publication Date: 1855 (OCR line 59 (MDCCCLV))
+Publication Date: 1855 (OCR line 59, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1855); the archive.org record carries no rights field, so the imprint date is the basis
 Language: eng
 Source: archive.org item journalofexpedit00crow, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (437,882) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1855, out of US copyright by date. OCR quality: fair to clean. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Crowther's own day-by-day record of the 1854 expedition, with his remarks on missions, languages and peoples. Divisions: chapters from line 69 (contents 66-); journal text follows contents; appendix at end. Editorial matter: appendix at end. Cautions: Journal of one expedition only; the wanted passages on his Yoruba Bible work are not here. About 68,238 words.
+Content note: Title page (lines 22-59): 'Journal of an Expedition up the Niger and Tshadda Rivers, undertaken by Macgregor Laird, Esq., in connection with the British Government, in 1854', by the Rev. Samuel Crowther, with map and appendix; London, Church Missionary House, 1855. Contents at lines 66-169 list five chapters and an appendix. Editorial matter: a Preface from line 175. Divisions: the Journal at lines 1053-8859, signed Samuel Crowther at its close; Appendix from line 8862, with Appendix II, a comparison of languages, from line 9247 and Appendix III from line 11982. About 68,238 words.
 
 ______________________________________________________________________
 

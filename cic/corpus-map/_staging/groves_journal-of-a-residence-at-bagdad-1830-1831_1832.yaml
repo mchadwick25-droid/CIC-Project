@@ -3,7 +3,7 @@ assignments:
 - row_id: groves_journal-of-a-residence-at-bagdad-1830-1831_1832--journal-of-a-residence-at-bagdad-during-the-years-1830-and
   work: Journal of a residence at Bagdad, during the years 1830 and 1831, by Anthony N. Groves, missionary
   author: groves
-  locus: the whole volume; not mapped
+  locus: Introduction signed A. J. Scott at OCR lines 65-391; add 12 to OCR line numbers; the rest not mapped
   atlas_ids:
   - plymouth-brethren-and-dispensational-formation
   role: tradition
@@ -12,10 +12,10 @@ assignments:
   date:
     start: 1830
     end: 1832
-    source: 'the printing''s own title page: OCR line ~30 (M DCCC XXXII)'
+    source: 'the printing''s own title page: OCR line 62, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1832
-    source: OCR line ~30 (M DCCC XXXII)
+    source: OCR line 62, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 182, Anthony Norris Groves: his journal.'

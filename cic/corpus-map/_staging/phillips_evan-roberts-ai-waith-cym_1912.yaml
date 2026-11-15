@@ -3,7 +3,8 @@ assignments:
 - row_id: phillips_evan-roberts-ai-waith-cym_1912--evan-roberts-y-diwygiwr-evan-roberts-a-i-waith-gan-y-parch-d
   work: Evan Roberts, y Diwygiwr; Evan Roberts a'i waith, gan y Parch. D. M. Phillips, M.A., Ph.D., Tylorstown (title
   author: phillips
-  locus: visions of Evan Roberts at OCR lines 8265-8791; add 12 to OCR line numbers; the rest not mapped
+  locus: Chapter XXI, which closes with Evan Roberts's visions at OCR lines 8258-8783; add 12 to OCR line numbers;
+    the rest not mapped
   atlas_ids:
   - the-1904-07-revival-family-wales-mukti-india-pyo
   role: context
@@ -12,10 +13,10 @@ assignments:
   date:
     start: 1912
     end: 1912
-    source: 'the printing''s own title page: OCR lines 280-284 (''Argraffwyd gan E. W. Evans ... Dolgellau. 1912.'')'
+    source: 'the printing''s own title page: OCR line 284, under the printer''s line, which reads ''I 9 I 2 .'''
     formation_confidence: Documented
   edition_date:
     year: 1912
-    source: OCR lines 280-284 ('Argraffwyd gan E. W. Evans ... Dolgellau. 1912.')
+    source: OCR line 284, under the printer's line, which reads 'I 9 I 2 .'
     formation_confidence: Documented
   note: 'Era 9 row 214, Evan Roberts: a Life, in Welsh.'

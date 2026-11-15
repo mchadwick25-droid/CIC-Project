@@ -1,12 +1,12 @@
 Title: Memoir of William Knibb, by John Howard Hinton, M.A. Second edition
 Creator: John Howard Hinton, M.A.
 Publisher: London: Houlston and Stoneman, Paternoster Row; Bristol: Evans and Abbott, Clare Street
-Publication Date: 1849 (OCR lines 15-30 (M.DCCC.XLIX))
+Publication Date: 1849 (OCR line 45, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1849); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item memoirofwilliamk00hint, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,415,656) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1849, out of US copyright by date. OCR quality: fair to clean (Princeton scan). Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: A full Baptist Life of Knibb with long extracts from his own letters. Divisions: chapters; preface line 53, CHAPTER I at 195. Editorial matter: preface from line 53. Mixed voices: Knibb's letters inside Hinton's narrative. Cautions: Second edition. The first edition (1847) was not found. The 1849 date is the printed year; host 'date' agrees. About 217,878 words.
+Content note: A memoir of William Knibb by John Howard Hinton, second edition (London, Houlston and Stoneman, 1849). Editorial matter: the author's preface at lines 53-160, which speaks of Knibb's letters and speeches as sources; 'Advertisement to the Second Edition' at lines 163-189, dated London, February 6, 1849, which says the memoir is without abridgment and corrects a name on page 337. Divisions: contents from line 192, listing chapters I-XX; the text from chapter I at line 288; chapter XX, 'Estimate of his character and labours', at line 23879; a printer's line at the end. About 217,878 words.
 
 ______________________________________________________________________
 

@@ -1,12 +1,12 @@
 Title: C. H. Spurgeon's Autobiography, compiled from his diary, letters, and records, by his wife and his private secretary. Vol. I. 1834-1854
 Creator: C. H. Spurgeon; compiled by his wife and his private secretary (neither is named on the title page)
 Publisher: London: Passmore and Alabaster, Paternoster Buildings, E.C.
-Publication Date: 1897 (OCR line 31-56 (1897 at line 56))
+Publication Date: 1897 (OCR line 56, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1897); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item spurgeonsautobio01spuruoft, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,116,489) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1897, out of US copyright by date. OCR quality: fair: some OCR noise, running text readable at start, middle and end. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Vol. 1 of 4 (1834-1854): Spurgeon's boyhood, conversion and early ministry told in his own diary and letters with the compilers' linking narrative. Divisions: chapters; contents from OCR line ~62. Editorial matter: introduction by Mrs. Spurgeon from line 5581 (check); front contents list at lines ~62-120. Mixed voices: mixed: Spurgeon's diary/letters inside the compilers' narrative. Cautions: Compiled by his widow and secretary, not his own text throughout. Vols 2-4 located: autobiographyofc03spur / spurgeonsautobio02spuruoft, 03spuruoft, 04spuruoft (not downloaded). About 175,855 words.
+Content note: Vol. I, 1834-1854, London, Passmore and Alabaster, 1897; the title page says it was compiled from his diary, letters and records by his wife and his private secretary. Divisions: 'Contents of Vol. I' at lines 64-135 lists chapters I-XXXIII, among them XII 'Letters to Father and Mother, January to June, 1850' and XIII 'Diary, April to June, 1850'; a list of illustrations from line 138; Chapter I starts at line 213 and Chapter XXXIII at line 16723; the text ends at line 16852. Editorial matter: Chapter XIII opens with an introduction by Mrs. C. H. Spurgeon at line 5581. About 175,855 words.
 
 ______________________________________________________________________
 

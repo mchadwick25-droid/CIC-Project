@@ -1,12 +1,12 @@
 Title: Memoirs of Alexander Campbell, embracing a view of the origin, progress and principles of the religious reformation which he advocated. By Robert Richardson. Vol. II
 Creator: Robert Richardson
 Publisher: Philadelphia: J. B. Lippincott & Co.
-Publication Date: 1870 (OCR line 110-115 ('VOL. II. PHILADELPHIA ... 1S70', OCR reads 1S70; copyright 1869 line 119). Host record 'year 1870'.)
+Publication Date: 1870 (read on the scan's page image, leaf n10; the OCR does not give it cleanly)
 Rights: Public Domain (pd-us-by-date: published 1870); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item memoirsalexande00richgoog, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,497,937) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1870, out of US copyright by date. OCR quality: clean; the year digit reads '1S70' in OCR, confirmed by the 1869 copyright line and the host year. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Second volume: Campbell's editing, debates, college at Bethany, the Mormon and slavery questions, closing scenes and death, with a list of his published works. Divisions: 'Contents of Volume Second' line 133; chapters I-XXI (line 142 contents; text from ~line 480); index from line 27879. Editorial matter: index lines 27879-28670. Mixed voices: Richardson narrates; extracts and letters of Campbell, and letters to him. Cautions: Volume 2 of 2. Host record gives date 1956 and publisher Gospel Advocate in error; the printed title page is Lippincott 1870. About 221,572 words.
+Content note: Volume 2 of the memoir by Robert Richardson (Philadelphia, J. B. Lippincott & Co., 1870). The contents list names the discussions with Walker, Owen, Purcell and Rice, the 'Millennial Harbinger', Mormonism, slavery, and Campbell's decline, death and funeral. Divisions: 'Contents of Volume Second' from line 133; chapters I-XXI, with the text from line 492 and chapter XXI at line 26886; 'List of Mr. Campbell's published works' at lines 27847-27876. Editorial matter: an index with entries for both volumes from line 27879; it breaks off at 'Presbyterians' where the file ends (line 28670). About 221,572 words.
 
 ______________________________________________________________________
 

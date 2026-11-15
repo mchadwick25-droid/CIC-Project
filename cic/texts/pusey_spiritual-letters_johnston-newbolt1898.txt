@@ -1,12 +1,12 @@
 Title: Spiritual Letters of Edward Bouverie Pusey, Doctor of Divinity, Canon of Christ Church, Regius Professor of Hebrew in the University of Oxford
 Creator: Edward Bouverie Pusey; Rev. J. O. Johnston, Rev. R. J. Wilson, Rev. W. C. E. Newbolt (as printed on the list leaf at front)
 Publisher: London, New York and Bombay: Longmans, Green, and Co.
-Publication Date: 1898 (OCR line 87)
+Publication Date: 1898 (OCR line 87, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1898); the archive.org record carries no rights field, so the imprint date is the basis
 Language: eng
 Source: archive.org item spiritualletters00puse, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (621,319) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1898, out of US copyright by date. OCR quality: clean (sampled line 6000). Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Pusey's own letters, selected and edited after his death. Divisions: letters in groups; contents near the start. Editorial matter: editors' preface near the start; index at the end. Mixed voices: letters are Pusey's; the editors' notes are short. Cautions: Edited selection. Listing line 'Life of ... Pusey' is a publisher's list, not the text. Dates and recipients are the editors', not read here beyond the sample. About 97,696 words.
+Content note: Pusey's letters, edited and prepared for publication by the Rev. J. O. Johnston and the Rev. W. C. E. Newbolt; London, Longmans, Green, and Co., 1898. Editorial matter: the editors' preface at lines 94-541, which thanks those who sent the letters to Dr. Liddon. Divisions: contents at lines 544-565 give four groups: I Letters of Counsel and Sympathy (from line 571), II Letters on Intellectual Difficulties (from line 5274), III Letters on Theological and Ecclesiastical Subjects (from line 6875), IV Fragments of Conversations and Letters (from line 11545). The text ends at line 13673. About 97,696 words.
 
 ______________________________________________________________________
 

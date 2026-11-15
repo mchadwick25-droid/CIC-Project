@@ -3,7 +3,7 @@ assignments:
 - row_id: gladden_applied-christianity_9th-ed1897--applied-christianity-moral-aspects-of-social-questions-by
   work: 'Applied Christianity: moral aspects of social questions, by Washington Gladden. Boston and New York:'
   author: gladden
-  locus: The Wage-Workers and the Churches at OCR lines not located; add 12 to OCR line numbers; the rest not mapped
+  locus: the whole volume; not mapped
   atlas_ids:
   - the-social-gospel
   role: tradition
@@ -12,11 +12,10 @@ assignments:
   date:
     start: 1886
     end: 1897
-    source: 'the printing''s own title page: OCR line 58 (''1897''); ''Copyright, 1886'' line 67; ''NINTH EDITION''
-      line 73'
+    source: 'the printing''s own title page: OCR line 58, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1897
-    source: OCR line 58 ('1897'); 'Copyright, 1886' line 67; 'NINTH EDITION' line 73
+    source: OCR line 58, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 215, Washington Gladden: Applied Christianity.'

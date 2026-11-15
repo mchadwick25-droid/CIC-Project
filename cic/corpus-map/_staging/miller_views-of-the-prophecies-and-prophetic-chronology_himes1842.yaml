@@ -3,7 +3,7 @@ assignments:
 - row_id: miller_views-of-the-prophecies-and-prophetic-chronology_himes1842--miller-s-works-views-of-the-prophecies-and-prophetic
   work: Miller's Works. Views of the Prophecies and Prophetic Chronology, selected from manuscripts of William
   author: miller
-  locus: Miller's lectures on the prophecies at OCR lines 430-12200; add 12 to OCR line numbers; the rest not mapped
+  locus: Part Second, Address and Lectures at OCR lines 3205-8845; add 12 to OCR line numbers; the rest not mapped
   atlas_ids:
   - restorationist-apocalyptic-ferment-and-adventism
   role: tradition
@@ -12,10 +12,10 @@ assignments:
   date:
     start: 1842
     end: 1842
-    source: 'the printing''s own title page: page image leaf 9 (''1842''); OCR line 119 reads ''1S^2'''
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n9; the OCR does not give it cleanly'
     formation_confidence: Documented
   edition_date:
     year: 1842
-    source: page image leaf 9 ('1842'); OCR line 119 reads '1S^2'
+    source: read on the scan's page image, leaf n9; the OCR does not give it cleanly
     formation_confidence: Documented
   note: 'Era 9 row 172, William Miller: his own Views of the Prophecies.'

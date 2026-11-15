@@ -1,12 +1,12 @@
 Title: Ti-ping Tien-kwoh; the history of the Ti-ping revolution, including a narrative of the author's personal adventures. By Lin-Le (Lindley)
 Creator: Lin-Le (host gives Augustus F. Lindley)
 Publisher: London: Day & Son (Limited), lithographers & publishers
-Publication Date: 1866 (OCR title block lines about 150-165 ('18G6'); preface dated 3rd February 1866 at line 465)
+Publication Date: 1866 (read on the scan's page image, leaf n8; the OCR does not give it cleanly)
 Rights: Public Domain (pd-us-by-date: published 1866); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item tipingtienkwohhi01lind, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,077,403) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1866, out of US copyright by date. OCR quality: fair: clean body, front leaves garbled. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: A participant-witness history of the rising, vol. 1, which prints large extracts of Hamberg's narrative of Hong Xiuquan's visions. Divisions: vol. 1 of 2; chapters from about line 525; Hamberg's narrative quoted at 2275-2600; Hamberg named in contents at line 603. Editorial matter: author's preface ~line 440-470. Mixed voices: author's own narrative (a Westerner who served the Taipings) with long quotations from Hamberg. Cautions: Vol. 1 of 2; Lindley is a partisan of the Taipings. Hamberg quoted, not complete. Vol. 2 id: tipingtienkwohhi02lind (located, not fetched). About 156,700 words.
+Content note: Volume I of a history of the Ti-ping revolution with a narrative of the author's own adventures, by Lin-Le, who is described on the title page as a former officer in the Chung-wang's guards (London, Day & Son). Editorial matter: a translated commission from the Chung-wang naming Lin-le at lines 224-248; a dedication; the author's preface at lines 266-465, signed A. F. L., London, February 3, 1866; errata at line 468. Divisions: 'Contents of Vol. I' from line 481; the text from chapter I at line 788; chapter XIV at line 18414. Mixed voices: chapter II, on Hung-sui-tshuen (from line 2089), quotes the Rev. T. Hamberg's account, first at line 2275. About 156,700 words.
 
 ______________________________________________________________________
 

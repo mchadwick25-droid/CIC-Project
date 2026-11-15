@@ -1,12 +1,12 @@
 Title: Ten Sermons of Religion by Theodore Parker, Minister of the Twenty-eighth Congregational Church, in Boston. Second Edition. Boston: Ticknor and Fields. M DCCC LXI
 Creator: Theodore Parker
 Publisher: Boston: Ticknor and Fields
-Publication Date: 1861 (OCR lines 62-80 ('M DCCC LXI.'; copyright 1852 line 84))
+Publication Date: 1861 (OCR line 76, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1861); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item tensermonsrelig00parkgoog, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (557,663) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1861, out of US copyright by date. OCR quality: fair. Google scan with 'Hosted by Google' page marks; body clear. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Ten sermons of religion, Parker's own, delivered at Boston. Divisions: Ten sermons, contents from line 192. Editorial matter: Preface from line 122. Cautions: The host date says 1853 but the title page reads 1861, second edition; the imprint used is 1861. About 99,459 words.
+Content note: Second edition, Boston, Ticknor and Fields, 1861, with a copyright entry of 1852 in Parker's name. Editorial matter: a dedication to Ralph Waldo Emerson at lines 96-110; Parker's preface at lines 122-184, dated August 24th, 1852, which says the sermons were chosen from a much longer course. Divisions: contents at lines 192-235 list ten sermons, from I 'Of Piety, and the Relation thereof to Manly Life' to X 'Of Communion with God'; the sermons start at line 247; 'End' at line 15046. About 99,459 words.
 
 ______________________________________________________________________
 

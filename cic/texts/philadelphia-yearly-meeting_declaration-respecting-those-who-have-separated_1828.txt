@@ -1,12 +1,12 @@
-Title: A Declaration of the Yearly Meeting of Friends, held in Philadelphia, respecting the proceedings of those who have lately separated from the Society; and also, showing the contrast between their doctrines and those held by Friends
+Title: A Declaration of the Yearly Meeting of Friends, held in Philadelphia, respecting the proceedings of those who have lately separated from the Society (1828); bound in this scan with four later Friends' pamphlets, of 1838 to 1852
 Creator: Yearly Meeting of Friends held in Philadelphia (Orthodox), no personal author
 Publisher: Printed by Samuel Wood and Sons (New York)
-Publication Date: 1828 (OCR line 80-100 (1828))
+Publication Date: 1828 (OCR line 89, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1828); the archive.org record carries no rights field, so the imprint date is the basis
 Language: eng
 Source: archive.org item cu31924095897249, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (401,045) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1828, out of US copyright by date. OCR quality: fair to clean (some noise in early lines). Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: The Orthodox Philadelphia Yearly Meeting's official 1828 account of the separation and a contrast of Hicksite and Orthodox doctrines. Divisions: narrative of the schism, then doctrines of the Separatists contrasted with Friends. Mixed voices: Quotes Hicks and other Hicksite writers inside an Orthodox argument. Cautions: Corporate Orthodox statement, hostile to Hicks; reads as polemic. Also located and not picked: reviewoftestimon00lewi (Evan Lewis 1829, defends Hicks, quotes the Orthodox Westbury and Jericho 'Testimony'; OCR of its front is noisy), observationsons00walngoog (Robert Waln 1826), reviewofprincipa00hick (1825, no author or year on title page), journalofliferel00hick*. About 68,865 words.
+Content note: The file holds five pamphlets bound together, not one. (1) The Declaration of the Yearly Meeting of Friends held in Philadelphia, 1828, at lines 58-1834, signed Samuel Bettle, Clerk; it names Elias Hicks from line 254. (2) 'Narrative of Facts and Circumstances that have tended to produce a Secession from the Society of Friends in New-England Yearly Meeting', Providence, from line 1838. (3) 'Declaration of New-England Yearly Meeting of Friends upon various Christian Doctrines', Providence, 1845, from line 3753. (4) A 'Review' of a vindication of that meeting's disciplinary proceedings, Philadelphia, 1852, from line 4779. (5) 'A Declaration, by the late Joseph John Gurney', with a testimony of Norwich Monthly Meeting, Philadelphia, 1847, from line 6542. About 68,865 words.
 
 ______________________________________________________________________
 

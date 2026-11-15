@@ -3,8 +3,8 @@ assignments:
 - row_id: schon-crowther_journals-of-the-niger-expedition-of-1841_1842--journals-of-the-rev-james-frederick-schon-and-mr-samuel
   work: Journals of the Rev. James Frederick Schon and Mr. Samuel Crowther, who, with the sanction of Her Majesty's
   author: schon-crowther
-  locus: Mr. Crowther's journal at OCR lines second part (find 'MR. CROWTHER' heading after contents); add 12 to
-    OCR line numbers; the rest not mapped
+  locus: Schon's journal at OCR lines 1198-9950; Crowther's journal at OCR lines 9953-12955; add 12 to OCR line
+    numbers; the rest not mapped
   atlas_ids:
   - the-missionary-movement-s-native-churches-seramp
   role: tradition
@@ -13,10 +13,10 @@ assignments:
   date:
     start: 1841
     end: 1842
-    source: 'the printing''s own title page: OCR line 59'
+    source: 'the printing''s own title page: OCR line 59, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1842
-    source: OCR line 59
+    source: OCR line 59, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 203, Samuel Ajayi Crowther: his journal of 1841.'

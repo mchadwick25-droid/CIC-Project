@@ -7,18 +7,19 @@ works:
   work: Jubilate! Denkschrift zur Jubelfeier der Erneuerung des apostolischen Diakonissen-Amtes
     und der
   author: disselhoff
-  locus: the whole volume; not mapped
+  locus: Table of contents at OCR lines 297-682; add 12 to OCR line numbers; the rest not
+    mapped
   role: tradition
   confidence: needs-ruling
   language: deu
   date:
     start: 1886
     end: 1886
-    source: 'the printing''s own title page: OCR line 168-201 (title block, year at line 201)'
+    source: 'the printing''s own title page: OCR line 201, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1886
-    source: OCR line 168-201 (title block, year at line 201)
+    source: OCR line 201, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 223, the Fliedners: Kaiserswerth''s own jubilee memoir, in German.'
   source_file: disselhoff_jubilate-denkschrift-kaiserswerth-deu_1886.txt
@@ -33,7 +34,7 @@ works:
   date:
     start: 1867
     end: 1867
-    source: 'the printing''s own title page: OCR line 138'
+    source: 'the printing''s own title page: OCR line 138, on the title page'
     formation_confidence: Documented
   translator:
     name: Catherine Winkworth
@@ -41,7 +42,7 @@ works:
     formation_confidence: Documented
   edition_date:
     year: 1867
-    source: OCR line 138
+    source: OCR line 138, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 223, Theodor Fliedner: a Life, in English.'
   source_file: fliedner-life_life-of-pastor-fliedner-of-kaiserswerth_winkworth1867.txt
@@ -56,11 +57,11 @@ works:
   date:
     start: 1851
     end: 1851
-    source: 'the printing''s own title page: OCR line 6 and line 58'
+    source: 'the printing''s own title page: OCR line 10, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1851
-    source: OCR line 6 and line 58
+    source: OCR line 10, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 223, the Fliedners: an English account of Kaiserswerth.'
   source_file: kaiserswerth_institution-of-kaiserswerth-on-the-rhine_1851.txt

@@ -1,12 +1,12 @@
 Title: The Life of the Venerable Hugh Bourne, by William Antliff, D.D
 Creator: William Antliff, D.D.
 Publisher: London: published by George Lamb, Sutton Street, Commercial Road, E.
-Publication Date: 1872 (OCR line 93)
+Publication Date: 1872 (OCR line 93, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1872); the archive.org record carries no rights field, so the imprint date is the basis
 Language: eng
 Source: archive.org item lifeofvenerableh0000antl, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (996,617) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1872, out of US copyright by date. OCR quality: fair to clean (sampled line 8000; some curly-quote noise). Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: A life of Hugh Bourne by a Primitive Methodist minister, with extracts from his journal. Divisions: chapters; Bourne's journal extracts and his 'Reflections' discussed near line 4512; appendix. Editorial matter: preface near line 317. Mixed voices: Bourne's own journal entries and letters quoted inside the biographer's narrative. Cautions: Not Bourne's own History of the Primitive Methodists (1823). Other histories located but not taken: Petty 1860 (historyofprimiti0000john), Ashworth Life of Bourne 1888 (venerabl00ashw). About 167,409 words.
+Content note: A life of Hugh Bourne by William Antliff, D.D. (London, George Lamb, 1872). Editorial matter: the author's preface at lines 109-317, signed W. Antliff, The Primitive Methodist Theological Institute, Sunderland, April 3, 1872; it names as sources Bourne's journals and other manuscripts, his printed works, and writings on him by Walford, Petty and Herod. A list of works sold by the book steward follows 'The End'. Divisions: contents from line 323, whose early chapters name Harriseahead, Mow Cop and the first camp-meeting; the text from chapter I at line 1080; chapter XXVIII at line 18217; 'The End' at line 19876. About 167,409 words.
 
 ______________________________________________________________________
 

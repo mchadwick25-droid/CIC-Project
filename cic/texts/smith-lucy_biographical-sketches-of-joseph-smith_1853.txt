@@ -1,12 +1,12 @@
 Title: Biographical Sketches of Joseph Smith, the Prophet, and his Progenitors for many generations. By Lucy Smith, Mother of the Prophet. Published for Orson Pratt by S. W. Richards, 15, Wilton Street. London: sold at the Latter-day Saints' Book Depot, 35, Jewin Street; and by all booksellers. 1853
 Creator: Lucy Smith, Mother of the Prophet; Published for Orson Pratt (host record also names Orson Pratt)
 Publisher: Liverpool [OCR 'Eonbon' = London sale line]: S. W. Richards
-Publication Date: 1853 (OCR lines 30-60 ('1853.'))
+Publication Date: 1853 (OCR line 69, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1853); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees
 Language: eng
 Source: archive.org item BiographicalSketchesOfJosephSmithTheProphet, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (669,211) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1853, out of US copyright by date. OCR quality: fair. Title page has noisy lettering, body samples at lines 2632 and 7000 read clearly. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: The family history and life of Joseph Smith told by his mother, taken down for publication in 1853. Divisions: Numbered chapters with a contents page after the title page. Editorial matter: Short contents list; no long editorial matter seen. Mixed voices: Mostly Lucy Smith's voice, with letters and reported speech of others quoted inside. Cautions: Host description says Brigham Young later called it unreliable and tried to suppress it. It is a mother's account, not neutral. The host description is an uploader's note. About 104,546 words.
+Content note: Lucy Smith's account of her family and of her son Joseph Smith, written in the first person (published for Orson Pratt by S. W. Richards; London, 1853). Divisions: contents at lines 78-445, listing chapters I-LIV and an appendix; the text from 'Chap. I', on her father Solomon Mack, at line 504; appendix from line 14620. Editorial matter: preface signed Orson Pratt at lines 448-496; a printer's line at the end. Mixed voices: the first chapter gives an extract from Solomon Mack's narrative; the appendix prints a journal and letters of Don C. Smith and verses on deaths in the family. About 104,546 words.
 
 ______________________________________________________________________
 

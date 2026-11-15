@@ -3,8 +3,8 @@ assignments:
 - row_id: richardson_memoirs-of-alexander-campbell-v2_1870--memoirs-of-alexander-campbell-embracing-a-view-of-the-origin
   work: Memoirs of Alexander Campbell, embracing a view of the origin, progress and principles of the religious
   author: richardson
-  locus: Campbell-Owen, Campbell-Rice period, college, later years, death at OCR lines 480-27870; add 12 to OCR
-    line numbers; the rest not mapped
+  locus: Chapter I, on the discussion with Mr. Walker, at OCR lines 492-1666; List of Mr. Campbell's published works
+    at OCR lines 27847-27876; add 12 to OCR line numbers; the rest not mapped
   atlas_ids:
   - the-stone-campbell-restoration-movement
   role: context
@@ -13,12 +13,11 @@ assignments:
   date:
     start: 1870
     end: 1870
-    source: 'the printing''s own title page: OCR line 110-115 (''VOL. II. PHILADELPHIA ... 1S70'', OCR reads 1S70;
-      copyright 1869 line 119). Host record ''year 1870''.'
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n10; the OCR does not give it
+      cleanly'
     formation_confidence: Documented
   edition_date:
     year: 1870
-    source: OCR line 110-115 ('VOL. II. PHILADELPHIA ... 1S70', OCR reads 1S70; copyright 1869 line 119). Host record
-      'year 1870'.
+    source: read on the scan's page image, leaf n10; the OCR does not give it cleanly
     formation_confidence: Documented
   note: 'Era 9 row 164, Alexander Campbell: a Life (Richardson, vol. 2).'

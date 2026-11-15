@@ -1,12 +1,12 @@
 Title: The Life of Dwight L. Moody, by his son William R. Moody; Official Authorised Edition; issued by the authorised publishers, 1900
 Creator: William R. Moody
 Publisher: [s.l.] Authorized Publishers (copyright Fleming H. Revell Company)
-Publication Date: 1900 (OCR line 106 (copyright 1900 line 109))
+Publication Date: 1900 (OCR line 106, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1900); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item lifeofdwight00mood, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,166,868) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1900, out of US copyright by date. OCR quality: clean; sampled start, middle (line 10450), end. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Authorised biography covering Moody's early life, Sunday-school work, revival campaigns in Britain and America, and the Northfield and Chicago schools. Divisions: Introduction line 116; chapters; includes the Mount Hermon, Northfield and Chicago Bible Institute (1886) chapters (around lines 15700-15800). Editorial matter: son's introduction at line 116. Mixed voices: son narrates; quotes Moody's letters, sermons and talks. Cautions: Not Moody's own writing except quotations; no collection of his own sermons was taken. The 'Life and sermons' compilation (lifesermonsofdwi00mood, 1900) is by Ogilvie and was not taken. About 180,120 words.
+Content note: A life of Moody by his son William R. Moody, marked as the official edition (1900; copyright Fleming H. Revell Company). A page headed 'The Autobiography of Dwight L. Moody' stands at lines 47-65. Editorial matter: the son's Introduction at lines 116-157, signed William R. Moody, East Northfield, Mass. Divisions: Table of Contents from line 160, which lists chapters on his conversion, Sunday-school work, Northfield Seminary, the Mount Hermon schools and the Bible Institute; the text from line 948; 48 chapters, chapter XLVIII at line 20592. Mixed voices: the final pages print another person's recollection of Moody. About 180,120 words.
 
 ______________________________________________________________________
 

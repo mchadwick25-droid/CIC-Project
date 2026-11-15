@@ -1,12 +1,12 @@
-Title: Allgemeine Missions-Zeitschrift. Monatshefte fuer geschichtliche und theoretische Missionskunde. Herausgegeben von D. Jul. Richter und D. Joh. Warneck. Fuenfundvierzigster Band
+Title: Allgemeine Missions-Zeitschrift. Monatshefte fuer geschichtliche und theoretische Missionskunde, herausgegeben von D. Jul. Richter und D. Joh. Warneck; two yearly volumes in one scan, the 45th (Berlin 1918) and the 46th (Berlin 1919, from OCR line 18305)
 Creator: D. Jul. Richter and D. Joh. Warneck (editors); obituary by D. Joh. Warneck
 Publisher: Berlin: Verlag von Martin Warneck
-Publication Date: 1918 (OCR lines 41-45 ('Berlin 1918. Verlag von Martin Warneck'))
+Publication Date: 1918 (OCR line 44, on the title page of the 45th volume ('Berlin 1918.'); the 46th volume's title page, from OCR line 18305, reads Berlin 1919)
 Rights: Public Domain (pd-us-by-date: published 1918); the archive.org record carries no rights field, so the imprint date is the basis
 Language: deu
 Source: archive.org item allgemeinemissio4546unse, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (2,109,169) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1918, out of US copyright by date. OCR quality: fair: Fraktur with long-s read as 'ſ'; name reads 'Nommenſen'. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: A ten-page obituary by the Rhenish mission's leading writer: his birth on a Hallig, training at Barmen, sending to Sumatra in 1861, his own way of working, the Batak church. Divisions: a bound year of monthly issues; index at front (Nommenſen listed lines 132, 1176); obituary 'D. Ludwig Nommenſen. In piam memoriam. Von D. Joh. Warneck' at lines 10924-11067; short notice of his death at 9668-9676. Editorial matter: whole file is a year of a periodical; take only the obituary. Mixed voices: none within the obituary. Cautions: A periodical volume, not a life: the file is 281,000 words for about 150 lines of use. Warneck points to his own book on fifty years of Batak mission (not found on host). No pre-1931 life of Nommensen was found. About 281,883 words.
+Content note: Two bound yearly volumes of a German monthly on mission history and theory, edited by D. Jul. Richter and D. Joh. Warneck: the forty-fifth volume (Berlin 1918; title page at lines 8-45, contents from line 117) and the forty-sixth (Berlin 1919; title page from line 18305). In the 1918 volume a short notice of the death of D. Ludwig Nommensen stands at lines 9669-9674, and the obituary 'D. Ludwig Nommensen. In piam memoriam. Von D. Joh. Warneck' at lines 10921-11069, on pages 174-176. Both call him the founder and long-time leader of the Batak mission, dead at 84; the notice reads May 20 and the obituary May 23. He is listed in the contents at line 132. About 281,883 words.
 
 ______________________________________________________________________
 

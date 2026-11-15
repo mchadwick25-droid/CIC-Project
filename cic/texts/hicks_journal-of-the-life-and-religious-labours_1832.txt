@@ -1,12 +1,12 @@
 Title: Journal of the life and religious labours of Elias Hicks. Written by himself
 Creator: Elias Hicks
 Publisher: New-York: published by Isaac T. Hopper
-Publication Date: 1832 (OCR line 17-40 (1832))
+Publication Date: 1832 (OCR line 39, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1832); the archive.org record says possible-copyright-status The Library of Congress is unaware of any copyright restrictions for this item., and the imprint date agrees
 Language: eng
 Source: archive.org item journalofliferel01hick, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,148,792) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1832, out of US copyright by date. OCR quality: clean to fair, Library of Congress scan. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Hicks's autobiographical journal to 1830 with the later controversies, written by himself and published after his death. Divisions: chapters; CHAPTER I at line 217; preface line 76. Editorial matter: preface from line 76; appendix with the Orthodox-separation memorials near the end (lines ~19500). Mixed voices: Journal is Hicks's; some documents by others near the end (e.g. memorial from Jericho Monthly Meeting 1830). Cautions: Published posthumously with 'by himself' on the title page; other copies located: journalofliferel00hick, journalofliferel00hick_0, cu31924029465790. About 173,374 words.
+Content note: Title page: 'Journal of the Life and Religious Labours of Elias Hicks. Written by himself', New York, published by Isaac T. Hopper, 1832. Editorial matter: an unsigned Preface at lines 76-92 says his connexions collected the manuscripts he left; contents from line 98. Divisions: the Journal in chapters I-XVIII, from line 217; it closes at line 19008 with his signature, and a note follows that he lived a little more than two months longer. Appendix from line 19014: his letter to Hugh Judge of Ohio, dated 1830, and a testimony of Jericho Monthly Meeting concerning him, read at the Yearly Meeting of New-York in 1830. About 173,374 words.
 
 ______________________________________________________________________
 

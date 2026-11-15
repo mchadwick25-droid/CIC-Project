@@ -1,12 +1,12 @@
 Title: Memoirs of Alexander Campbell, embracing a view of the origin, progress and principles of the religious reformation which he advocated. By Robert Richardson. Vol. I
 Creator: Robert Richardson
 Publisher: Philadelphia: J. B. Lippincott & Co.
-Publication Date: 1868 (OCR line 102 (title page, 'VOL. I. PHILADELPHIA ... 1868'); copyright 1868 line 114)
+Publication Date: 1868 (OCR line 102, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1868); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item memoirsalexande00unkngoog, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,291,079) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1868, out of US copyright by date. OCR quality: clean; Google scan, 'Hosted by Google' page marks; samples at line 12000 and the end read well. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: First volume of the authorised life, covering Campbell's Irish and Scottish youth, his coming to America and the early reform with Thomas Campbell. Metadata wrongly says preface and contents omitted; both are present. Divisions: preface (line 136) and 'Contents of Volume First' (line 383), then Book I chapters I-XXIII; a second sequence of chapters I-XXIII (line 1059 onward) is the text; ends 'END OF VOLUME FIRST' line 24947; no index in this volume. Editorial matter: preface lines 136-380 (Richardson); contents 383-1058. Mixed voices: Richardson narrates; prints many Campbell letters and extracts, and letters to him by others. Cautions: Volume 1 of 2; vol. 2 is the next pick (memoirsalexande00richgoog, 1870). Not an edition with Campbell as author. About 188,994 words.
+Content note: Volume I of Robert Richardson's life of Alexander Campbell; the title page (line 102) is dated Philadelphia, 1868. Editorial matter: Richardson's preface at lines 136-372, dated Bethphage, West Va., December 27, 1867; 'Contents of Volume First' from line 383. Divisions: chapters I-XXIII, with Chapter I starting at line 1059 on Campbell's birth in County Antrim, Ireland, and Chapter XXIII at line 22748; an appendix from line 23818; 'End of Volume First' at line 24947. About 188,994 words.
 
 ______________________________________________________________________
 

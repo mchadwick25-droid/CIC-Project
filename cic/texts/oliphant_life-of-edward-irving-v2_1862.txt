@@ -1,12 +1,12 @@
 Title: The Life of Edward Irving ... by Mrs. Oliphant. Vol. II
 Creator: Mrs. Oliphant
 Publisher: London: Hurst and Blackett
-Publication Date: 1862 (OCR line ~76 ('] 862'), pencil 1862 at leaf 7)
+Publication Date: 1862 (read on the scan's page image, leaf n6; the OCR does not give it cleanly)
 Rights: Public Domain (pd-us-by-date: published 1862); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item lifeofedwardirvi02olipuoft, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,285,981) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1862, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Irving's Life from 1828, covering the controversy over the Gifts and his removal. Divisions: chapters; vol. 2 starts 1828 (contents at leaf 9). Mixed voices: Irving's letters inside Oliphant's narrative. Cautions: Title-page year read from OCR ']862' and pencil call number '1862'. About 197,494 words.
+Content note: Volume II of 'The Life of Edward Irving, Minister of the National Scotch Church, London. Illustrated by his journals and correspondence', by Mrs. Oliphant, in two volumes, London, Hurst and Blackett, 1862 (title page at lines 55-94). Contents of the second volume from line 103. Divisions: seven chapters headed by year, from Chapter I, 1828 (line 364), to Chapter VII, '1834 - The End'. Appendix A (line 16808) gives the case of Miss Fancourt as described by herself in a letter to a friend; Appendix B (line 16892) gives extracts from Mr. Baxter's 'Narrative of Facts'. Mixed voices: the chapter summaries name Irving's letters. About 197,494 words.
 
 ______________________________________________________________________
 

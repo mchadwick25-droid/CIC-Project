@@ -3,7 +3,8 @@ assignments:
 - row_id: hinton_memoir-of-william-knibb_2nd-ed1849--memoir-of-william-knibb-by-john-howard-hinton-m-a-second
   work: Memoir of William Knibb, by John Howard Hinton, M.A. Second edition
   author: hinton
-  locus: the whole volume; not mapped
+  locus: Author's preface at OCR lines 53-160; Advertisement to the Second Edition at OCR lines 163-189; add 12
+    to OCR line numbers; the rest not mapped
   atlas_ids:
   - caribbean-churches-of-slavery-and-emancipation
   role: context
@@ -15,6 +16,6 @@ assignments:
       written
   edition_date:
     year: 1849
-    source: OCR lines 15-30 (M.DCCC.XLIX)
+    source: OCR line 45, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 171, William Knibb: a Life.'

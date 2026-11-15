@@ -3,8 +3,7 @@ assignments:
 - row_id: hicks_journal-of-the-life-and-religious-labours_1832--journal-of-the-life-and-religious-labours-of-elias-hicks
   work: Journal of the life and religious labours of Elias Hicks. Written by himself
   author: hicks
-  locus: 1830 memorial from Jericho Monthly Meeting against Hicks at OCR lines ~19560; add 12 to OCR line numbers;
-    the rest not mapped
+  locus: the Journal, chapters I-XVIII at OCR lines 217-19008; add 12 to OCR line numbers; the rest not mapped
   atlas_ids:
   - nineteenth-century-quakerism-separations
   role: tradition
@@ -13,10 +12,10 @@ assignments:
   date:
     start: 1832
     end: 1832
-    source: 'the printing''s own title page: OCR line 17-40 (1832)'
+    source: 'the printing''s own title page: OCR line 39, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1832
-    source: OCR line 17-40 (1832)
+    source: OCR line 39, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 169, Elias Hicks: his Journal.'

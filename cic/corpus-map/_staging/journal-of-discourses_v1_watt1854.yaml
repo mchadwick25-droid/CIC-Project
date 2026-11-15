@@ -4,9 +4,7 @@ assignments:
   work: Journal of Discourses by Brigham Young, President of the Church of Jesus Christ of Latter-day Saints, his
     two
   author: journal-of-discourses
-  locus: Young's discourse on self-government, mysteries, tithing, Adam our Father and our God (9 A at OCR lines
-    5716-6600 (index entry at 110); Young on the pioneers and Great Basin settlements (6 April/July 1852) at OCR
-    lines search 'Pioneers' from line 6000; add 12 to OCR line numbers; the rest not mapped
+  locus: the whole volume; not mapped
   atlas_ids:
   - latter-day-saints-lds
   role: tradition
@@ -15,10 +13,10 @@ assignments:
   date:
     start: 1854
     end: 1854
-    source: 'the printing''s own title page: page image leaf 6 (OCR drops the year)'
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n6; the OCR does not give it cleanly'
     formation_confidence: Documented
   edition_date:
     year: 1854
-    source: page image leaf 6 (OCR drops the year)
+    source: read on the scan's page image, leaf n6; the OCR does not give it cleanly
     formation_confidence: Documented
   note: 'Era 9 row 175, Brigham Young: the Journal of Discourses, vol. 1.'

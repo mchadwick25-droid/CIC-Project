@@ -1,12 +1,12 @@
 Title: Life of Pastor Fliedner of Kaiserswerth. Translated from the German by Catherine Winkworth. London: Longmans, Green, and Co. 1867
 Creator: not printed in the OCR title block (host: Theodor Fliedner); Catherine Winkworth
 Publisher: London: Longmans, Green, and Co.
-Publication Date: 1867 (OCR line 138)
+Publication Date: 1867 (OCR line 138, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1867); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item lifepastorflied00fliegoog, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (320,650) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1867, out of US copyright by date. OCR quality: clean. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: English translation of a German Life of Pastor Fliedner. Not Fliedner's own account. Divisions: Editor's preface line ~145, then chapters. Editorial matter: Editor's preface to line 643 (Clifton, Aug. 1867). Mixed voices: Fliedner's own reports and letters quoted within the narrative (not checked in detail). Cautions: A Life, by another hand (the original German author is not named in the part read); the host lists Fliedner as creator, which is a cataloguing error. About 54,506 words.
+Content note: Title page (lines 114-138): 'Life of Pastor Fliedner of Kaiserswerth', translated from the German by Catherine Winkworth, London, Longmans, Green, and Co., 1867. The German author is not named on the title page. Editorial matter: the Editor's Preface at lines 146-643, dated Clifton, Aug. 1867, which calls the book the only complete story of Fliedner's life that his family has yet authorized; the Author's Preface from line 647, which opens with the Kaiserswerth Almanack's twenty-fifth year and Fliedner's death on October 4, 1864. Contents from line 785. Divisions: chapters I (line 864) to XVI (line 5658). A Longmans catalog of new works begins at line 6022. About 54,506 words.
 
 ______________________________________________________________________
 

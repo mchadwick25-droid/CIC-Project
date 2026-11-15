@@ -1,12 +1,12 @@
 Title: A Discourse of Matters Pertaining to Religion. By Theodore Parker. Third Edition. Boston: Charles C. Little and James Brown. M.DCCC.XLVII
 Creator: Theodore Parker
 Publisher: Boston: Charles C. Little and James Brown
-Publication Date: 1847 (OCR lines 150-180 ('M.DCCC.ZLVII.' Roman numerals, with host date 1847))
+Publication Date: 1847 (OCR line 171, on the title page, which reads 'M.DCCC.ZLVII.' for MDCCCXLVII)
 Rights: Public Domain (pd-us-by-date: published 1847); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item adiscoursematte05parkgoog, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (806,810) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1847, out of US copyright by date. OCR quality: fair. Google scan; Roman-numeral year has an OCR error; body text clean. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Parker's own lectures on religion that put him at odds with the Unitarian establishment. Divisions: Books I-V (lectures) with contents at lines 283-390; preface from line 189. Editorial matter: Preface lines 189-282. Cautions: Third edition 1847; the first edition is not this scan. About 142,908 words.
+Content note: Title page (lines 136-171): 'A Discourse of Matters Pertaining to Religion', by Theodore Parker, Third Edition, Boston, Charles C. Little and James Brown, 1847. Editorial matter: the author's Preface to the First Edition at lines 189-252, which says the pages hold the substance of a series of five lectures delivered in Boston, enlarged for the press; his preface to the Third Edition from line 261; contents from line 283. Divisions: The Introduction from line 458, then Books I-V, beginning at lines 659, 6424, 9188, 12186 and 14478. 'The End' stands at line 18729. About 142,908 words.
 
 ______________________________________________________________________
 

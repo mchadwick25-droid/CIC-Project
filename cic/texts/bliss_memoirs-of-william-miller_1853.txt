@@ -1,12 +1,12 @@
 Title: Memoirs of William Miller, generally known as a lecturer on the prophecies, and the second coming of Christ, by Sylvester Bliss
 Creator: Sylvester Bliss
 Publisher: Boston: published by Joshua V. Himes, 8 Chardon Street
-Publication Date: 1853 (OCR line 43)
+Publication Date: 1853 (OCR line 43, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1853); the archive.org record says possible-copyright-status The Library of Congress is unaware of any copyright restrictions for this item., and the imprint date agrees
 Language: eng
 Source: archive.org item memoirsofwilliam00blis, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,140,373) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1853, out of US copyright by date. OCR quality: fair; double-spaced OCR with some stray quote marks, readable. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Authorised life by a leading associate, printing Miller's letters and a sample of the 'Voice of Warning'. Divisions: contents line 551; chapters; index from line 21820. Editorial matter: index lines 21820-22622. Mixed voices: Bliss narrates; prints Miller's letters and autobiographical statements. Cautions: Start and end lines approximate. About 178,678 words.
+Content note: Memoirs of William Miller by Sylvester Bliss, Boston, Joshua V. Himes, 1853. A sheet headed 'Voice of Warning', No. 1, Boston, Oct. 1, 1842, is reproduced from line 89, before the preface. Editorial matter: preface from line 468, with a closing note at lines 536-548 signed Joshua V. Himes saying that Elder Apollos Hale prepared the first three chapters; contents from line 551; index at lines 21820-22614. Divisions: chapters I-XXVI, Chapter I at line 699. Mixed voices: the preface says Miller's opinions are given in his own language, from his correspondence and published writings. About 178,678 words.
 
 ______________________________________________________________________
 

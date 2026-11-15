@@ -3,7 +3,7 @@ assignments:
 - row_id: antliff_life-of-the-venerable-hugh-bourne_1872--the-life-of-the-venerable-hugh-bourne-by-william-antliff-d-d
   work: The Life of the Venerable Hugh Bourne, by William Antliff, D.D
   author: antliff
-  locus: Mow Cop camp meeting and the origins at OCR lines 1000-6000; add 12 to OCR line numbers; the rest not mapped
+  locus: Author's preface at OCR lines 109-317; add 12 to OCR line numbers; the rest not mapped
   atlas_ids:
   - nineteenth-century-methodism
   role: context
@@ -12,10 +12,10 @@ assignments:
   date:
     start: 1872
     end: 1872
-    source: 'the printing''s own title page: OCR line 93'
+    source: 'the printing''s own title page: OCR line 93, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1872
-    source: OCR line 93
+    source: OCR line 93, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 222, Hugh Bourne: a Life.'

@@ -1,12 +1,12 @@
 Title: The Way of Holiness, with notes by the way; being a narrative of experience resulting from a determination to be a Bible Christian. By Mrs. P. Palmer
 Creator: Mrs. P. Palmer
 Publisher: New York: Piercy and Reed, printers, No. 9 Spruce-Street
-Publication Date: 1843 (OCR line 37)
+Publication Date: 1843 (OCR line 37, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1843); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item wayofholinesswit00palm, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (330,218) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1843, out of US copyright by date. OCR quality: clean. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Palmer's first book, a narrative of her experience of holiness, with her notes on the way. Divisions: dedication line 48; Introduction line 79; contents lines 139-330; chapters follow. Editorial matter: none apart from her own introduction. Mixed voices: none seen; her letters may be quoted. Cautions: End line approximate. About 50,843 words.
+Content note: Title page (lines 7-37): 'The Way of Holiness, with Notes by the Way; being a narrative of experience resulting from a determination to be a Bible Christian', by Mrs. P. Palmer, New York, 1843. Dedication to her parents at line 48; her Introduction at lines 79-136; contents at lines 139-367. Divisions: Book I, 'Is there not a shorter way?', sections I-IX, from line 370; Book II, 'Notes by the Way', sections I-VIII and further unnumbered parts, from line 2341. Three closing pieces follow from line 7904: 'A Visit to my Friend's Mansion in the Early Ages of Eternity', 'The Royal Heir' and 'Traveller's Song'. About 50,843 words.
 
 ______________________________________________________________________
 

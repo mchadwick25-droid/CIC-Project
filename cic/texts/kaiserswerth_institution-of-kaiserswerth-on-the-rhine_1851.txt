@@ -1,12 +1,12 @@
 Title: The Institution of Kaiserswerth on the Rhine, for the practical training of deaconesses, under the direction of the Rev. Pastor Fliedner, embracing the support and care of a hospital, infant and industrial schools, and a female penitentiary. London: printed by the inmates of the London Ragged Colonial Training School, 28 St. Ann's Street, Westminster. 1851
 Creator: none on the title page (host: Florence Nightingale)
 Publisher: London, printed by the inmates of the London Ragged Colonial Training School
-Publication Date: 1851 (OCR line 6 and line 58)
+Publication Date: 1851 (OCR line 10, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1851); the archive.org record's rights statement reads: This work is available under the Creative Commons, Public Domain Mark
 Language: eng
 Source: archive.org item b30473512, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (59,553) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1851, out of US copyright by date. OCR quality: fair: spaced two-column OCR, some garbled lines. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: A 32-page English description of the Kaiserswerth institution (hospital, schools, penitentiary). Divisions: 32 pages, continuous text. Cautions: Author not named on the title page; the host catalogue gives Florence Nightingale. Wellcome Library scan. Not Fliedner's own words. About 8,938 words.
+Content note: A pamphlet in English on the institution at Kaiserswerth under Pastor Fliedner, printed in London in 1851 by the inmates of the London Ragged Colonial Training School. No author is named on the title page (lines 42-73). Divisions: the text runs from line 79 to line 1196 and opens with a legend that the nineteenth century is to be the 'century of woman'. Numbered sections include I 'The Hospital and Mother-house of the Deaconesses' (line 491), II 'Penitentiary and Asylum for Females released from Prison' (line 871) and IV 'Normal School, Orphan Asylum, and Infant School' (line 1107). The last page number is 32. About 8,938 words.
 
 ______________________________________________________________________
 

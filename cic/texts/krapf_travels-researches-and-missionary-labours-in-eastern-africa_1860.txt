@@ -1,12 +1,12 @@
 Title: Travels, researches, and missionary labours, during an eighteen years' residence in Eastern Africa; together with journeys to Jagga, Usambara, Ukambani, Shoa, Abessinia, and Khartum; and a coasting voyage from Mombaz to Cape Delgado. By the Rev. Dr. J. Lewis Krapf. With an appendix respecting the snow-capped mountains of Eastern Africa; the sources of the Nile; the languages and literature of Abessinia and Eastern Africa, etc.; and a concise account of geographical researches in Eastern Africa up to the discovery of the Uyenyesi by Dr. Livingstone, by E. G. Ravenstein, F.R.G.S
 Creator: the Rev. Dr. J. Lewis Krapf; E. G. Ravenstein (appendix)
 Publisher: London: Trubner and Co., Paternoster Row
-Publication Date: 1860 (OCR line 79)
+Publication Date: 1860 (OCR line 79, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1860); the archive.org record carries no rights field, so the imprint date is the basis
 Language: eng
 Source: archive.org item india.history.resource.70831, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (998,457) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1860, out of US copyright by date. OCR quality: fair: clean body, some stray marks and mixed Latin/Ethiopic in the appendix. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Krapf's own account of his years in East Africa, his journeys and his language work. Divisions: narrative chapters, then appendices incl. Ravenstein's essay and language notes. Editorial matter: appendices after the main journal. Mixed voices: Ravenstein's appendix is a separate author. Cautions: Another scan, travelsresearch00ravegoog (Google, 1860), has the title page badly faded; this DLI scan was chosen because its title page reads. About 169,566 words.
+Content note: Title page (lines 28-79): 'Travels, Researches, and Missionary Labours, during an Eighteen Years' Residence in Eastern Africa', by the Rev. Dr. J. Lewis Krapf, with an appendix and 'A Concise Account of Geographical Researches in Eastern Africa' by E. G. Ravenstein; London, Trübner and Co., 1860. Editorial matter: The Publishers' Advertisement from line 118; contents from line 233. Mixed voices: the Introduction (from line 902) is Ravenstein's account, not Krapf's. Divisions: Part I, 'Researches and Missionary Labours. Extracts from Journals', from line 2219; Part II, 'Travels in Eastern Africa', from line 10254; Part III, on geography, topography and history, ending at line 22306; Appendix from line 22309. About 169,566 words.
 
 ______________________________________________________________________
 

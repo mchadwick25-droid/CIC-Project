@@ -1,12 +1,12 @@
 Title: Jubilate! Denkschrift zur Jubelfeier der Erneuerung des apostolischen Diakonissen-Amtes und der fünfzigjährigen Wirksamkeit des Diakonissen-Mutterhauses zu Kaiserswerth a. Rhein. Von Julius Disselhoff. Kaiserswerth, Verlag der Diakonissen-Anstalt. 1886
 Creator: Julius Disselhoff
 Publisher: Kaiserswerth, Verlag der Diakonissen-Anstalt
-Publication Date: 1886 (OCR line 168-201 (title block, year at line 201))
+Publication Date: 1886 (OCR line 201, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1886); the archive.org record carries no rights field, so the imprint date is the basis
 Language: deu
 Source: archive.org item 11522702bsb, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,361,884) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1886, out of US copyright by date. OCR quality: fair: long-s read as 'ſ'; start of file has junk, text readable. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Disselhoff's fiftieth-anniversary history of the Kaiserswerth deaconess house. Divisions: contents at lines 600-700 incl. list of motherhouses and stations. Editorial matter: title and verse to line 240. Cautions: Not Fliedner's own text. Fliedner's own German accounts were not found on the host. Bayerische Staatsbibliothek scan. About 188,677 words.
+Content note: A German memorial volume by Julius Disselhoff for the jubilee of the renewal of the deaconess office and of fifty years of the deaconess motherhouse at Kaiserswerth (Kaiserswerth, Verlag der Diakonissen-Anstalt). The OCR is rough in the headings. Divisions: title page at lines 168-200; a jubilee hymn at lines 204-294; 'Inhalts-Verzeichnis' at lines 297-682, in twelve sections that run from the history of the deaconess work and the founding of the house to its daughter houses, stations, and the deaconess houses of other lands; the text opens under 'Jubilate!' at line 685, and the first section begins at line 823. About 188,677 words.
 
 ______________________________________________________________________
 

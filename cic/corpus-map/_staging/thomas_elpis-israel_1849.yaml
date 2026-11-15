@@ -4,7 +4,7 @@ assignments:
   work: 'Elpis Israel; a book for the times: being an exposition of the Kingdom of God, with reference to ''the
     time of'
   author: thomas
-  locus: Part contents and chapter summaries at OCR lines 53-300; add 12 to OCR line numbers; the rest not mapped
+  locus: Author's preface at OCR lines 315-734; add 12 to OCR line numbers; the rest not mapped
   atlas_ids:
   - christadelphians
   role: tradition
@@ -13,10 +13,10 @@ assignments:
   date:
     start: 1849
     end: 1849
-    source: 'the printing''s own title page: OCR title block, first 30 lines (''1849 ,'')'
+    source: 'the printing''s own title page: OCR line 35, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1849
-    source: OCR title block, first 30 lines ('1849 ,')
+    source: OCR line 35, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 178, John Thomas: Elpis Israel.'

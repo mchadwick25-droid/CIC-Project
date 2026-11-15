@@ -7,19 +7,19 @@ works:
   work: Journal of an expedition up the Niger and Tshadda rivers, undertaken by Macgregor
     Laird, Esq., in connection
   author: crowther
-  locus: Crowther's journal of the Niger expedition at OCR lines after contents, about 110-11000;
-    add 12 to OCR line numbers; the rest not mapped
+  locus: Crowther's journal at OCR lines 1053-8859; add 12 to OCR line numbers; the rest not
+    mapped
   role: tradition
   confidence: provisional
   language: eng
   date:
     start: 1854
     end: 1855
-    source: 'the printing''s own title page: OCR line 59 (MDCCCLV)'
+    source: 'the printing''s own title page: OCR line 59, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1855
-    source: OCR line 59 (MDCCCLV)
+    source: OCR line 59, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 203, Samuel Ajayi Crowther: his journal of 1854.'
   source_file: crowther_journal-of-an-expedition-up-the-niger-and-tshadda_1855.txt
@@ -37,18 +37,19 @@ works:
   work: 'The Black Bishop: Samuel Adjai Crowther. By Jesse Page, F.R.G.S. With preface by
     Eugene Stock, D.C.L'
   author: page
-  locus: the whole volume; not mapped
+  locus: Preface by Eugene Stock at OCR lines 54-136; Author's Foreword at OCR lines 139-222;
+    add 12 to OCR line numbers; the rest not mapped
   role: context
   confidence: needs-ruling
   language: eng
   date:
     start: 1908
     end: 1908
-    source: 'the printing''s own title page: OCR line 21 (LONDON MCMVIII)'
+    source: 'the printing''s own title page: OCR line 21, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1908
-    source: OCR line 21 (LONDON MCMVIII)
+    source: OCR line 21, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 203, Samuel Ajayi Crowther: a Life.'
   source_file: page_black-bishop-samuel-adjai-crowther_1908.txt
@@ -56,19 +57,19 @@ works:
   work: Journals of the Rev. James Frederick Schon and Mr. Samuel Crowther, who, with the
     sanction of Her Majesty's
   author: schon-crowther
-  locus: Mr. Crowther's journal at OCR lines second part (find 'MR. CROWTHER' heading after
-    contents); add 12 to OCR line numbers; the rest not mapped
+  locus: Schon's journal at OCR lines 1198-9950; Crowther's journal at OCR lines 9953-12955;
+    add 12 to OCR line numbers; the rest not mapped
   role: tradition
   confidence: provisional
   language: eng
   date:
     start: 1841
     end: 1842
-    source: 'the printing''s own title page: OCR line 59'
+    source: 'the printing''s own title page: OCR line 59, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1842
-    source: OCR line 59
+    source: OCR line 59, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 203, Samuel Ajayi Crowther: his journal of 1841.'
   source_file: schon-crowther_journals-of-the-niger-expedition-of-1841_1842.txt
@@ -83,32 +84,33 @@ works:
   date:
     start: 1912
     end: 1912
-    source: 'the printing''s own title page: OCR line 60 (MCMXII); host date says 1911'
+    source: 'the printing''s own title page: OCR line 60, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1912
-    source: OCR line 60 (MCMXII); host date says 1911
+    source: OCR line 60, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 204, J. Hudson Taylor: a Life (the early years).'
   source_file: taylor-howard_hudson-taylor-in-early-years_1912.txt
 - row_id: taylor-howard_one-of-chinas-scholars-pastor-hsi_1909--one-of-china-s-scholars-the-early-life-and-conversion-of
-  work: 'One of China''s Scholars: the early life and conversion of Pastor Hsi, with illustrations.
-    By Mrs. Howard'
+  work: 'One of China''s Scholars: the early life and conversion of Pastor Hsi, by Mrs. Howard
+    Taylor; bound in this'
   author: taylor-howard
   locus: the whole volume; not mapped
   role: context
-  confidence: provisional
+  confidence: needs-ruling
   language: eng
   date:
     start: 1900
     end: 1909
-    source: 'the printing''s own title page: OCR lines 76-101: ''First Edition November 1900''
-      ... ''Reprinted November 1909''; title page itself has no year'
+    source: 'the printing''s own title page: OCR line 105, in the printing history on the
+      back of the title page (''Reprinted November 1909''); the title page itself prints no
+      year'
     formation_confidence: Documented
   edition_date:
     year: 1909
-    source: 'OCR lines 76-101: ''First Edition November 1900'' ... ''Reprinted November 1909'';
-      title page itself has no year'
+    source: OCR line 105, in the printing history on the back of the title page ('Reprinted
+      November 1909'); the title page itself prints no year
     formation_confidence: Documented
   note: 'Era 9 row 205, Xi Shengmo (Pastor Hsi): a Life (the early life).'
   source_file: taylor-howard_one-of-chinas-scholars-pastor-hsi_1909.txt

@@ -1,12 +1,12 @@
 Title: A Memoir of the Rev. John Keble, M.A. late Vicar of Hursley, by the Right Hon. Sir J. T. Coleridge, D.C.L. Vol. I. Second Edition, with Corrections and Additions
 Creator: Sir J. T. Coleridge, D.C.L.
 Publisher: Oxford and London: James Parker and Co.
-Publication Date: 1869 (OCR line 22-24 region ('1869' after 'JAMES PARKER AND CO.', before 'All Rights reserved'))
+Publication Date: 1869 (OCR line 38, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1869); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item memoirofcoleridg01coleuoft, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (514,519) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1869, out of US copyright by date. OCR quality: clean (sampled lines 12000 region and title). Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Volume 1 of Coleridge's life of Keble, carrying his life to 1840 and Tract 90. Coleridge was a friend and pupil. Divisions: Contents of vol. I chapters I-XII (lines 388-460); ch. X Assize Sermon 1833 and the Tracts; ch. XII Tract 90. Editorial matter: Dedication and Preface lines 70-385. Mixed voices: Keble's letters quoted throughout. Cautions: Volume 1 only. Volume 2 located as memoirofrevjohnk02cole (1869). Check whether the Second Edition runs in two volumes. About 81,238 words.
+Content note: Vol. I of the second edition, with corrections and additions, Oxford and London, James Parker and Co., 1869. Editorial matter: the dedication of the first edition to Sir William Heathcote at lines 47-74, in which Coleridge says he owes Keble more than he can express; preface to the second edition at lines 77-207; preface to the first edition from line 210. Divisions: contents at lines 388-452 list chapters I-XII; Chapter I starts at line 464; Chapter X covers the Assize Sermon of 1833 and the Tracts, and Chapter XII Tract 90; the text ends at line 10385. About 81,238 words.
 
 ______________________________________________________________________
 

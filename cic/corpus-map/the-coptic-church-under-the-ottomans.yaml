@@ -3,27 +3,6 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-coptic-church-under-the-ottomans
 works:
-- row_id: butcher_story-of-the-church-of-egypt-v2_1897--the-story-of-the-church-of-egypt-being-an-outline-of-the
-  work: The Story of the Church of Egypt, being an outline of the history of the Egyptians
-    under their successive
-  author: butcher
-  locus: 'Cyril the Reformer: election in 1854, schools for girls and boys, press and reform
-    (the 18 at OCR lines 16005-16110; Chapter ''In the nineteenth century'' (1897 head) and
-    later social life at OCR lines 16575-16700; add 12 to OCR line numbers; the rest not mapped'
-  role: context
-  confidence: provisional
-  language: eng
-  date:
-    start: 1897
-    end: 1897
-    source: 'the printing''s own title page: OCR line 48 (title page, ''1897 [All rights reserved]'')'
-    formation_confidence: Documented
-  edition_date:
-    year: 1897
-    source: OCR line 48 (title page, '1897 [All rights reserved]')
-    formation_confidence: Documented
-  note: 'Era 9 row 201, Cyril IV: a church history of Egypt before 1931.'
-  source_file: butcher_story-of-the-church-of-egypt-v2_1897.txt
 - row_id: leo-africanus_history-and-description-of-africa-v1_pory-brown1896--leo-africanus-history-and-description-of-africa-volume-1-pory-ed-brown
   work: Leo Africanus, History and Description of Africa, volume 1 (Pory, ed. Brown)
   author: leo-africanus

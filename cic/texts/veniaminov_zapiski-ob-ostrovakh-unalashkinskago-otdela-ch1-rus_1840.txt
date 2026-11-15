@@ -1,12 +1,12 @@
 Title: ЗАПИСКИ ОБЪ ОСТРОВАХЪ УНАЛАШКИНСКАГО ОТДЪЛА, СОСТАВЛЕННЫЯ И. Вениаминовымъ. ЧАСТЬ ПЕРВАЯ. Издано иждивенiемъ Россiйско-Американской компанiи
 Creator: И. Вениаминовымъ
 Publisher: САНКТПЕТЕРБУРГЪ (publisher from the host record: Imperial Academy of Sciences press)
-Publication Date: 1840 (OCR line 41 ('1840.'); censor date 25 Feb 1840 at line 57)
+Publication Date: 1840 (OCR line 41, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1840); the archive.org record carries no rights field, so the imprint date is the basis
 Language: rus
 Source: archive.org item zapiskiobostrovahunalashkinskogootdelas35, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (753,681) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1840, out of US copyright by date. OCR quality: fair: readable old-orthography Cyrillic with some noise. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Part 1 of the Notes: general description of the Unalaska islands and their natural history, by the missionary priest. Divisions: Part 1 (Section 1: general remarks on the Unalaska district: geography, nature); contents at the end. Editorial matter: contents list near the end. Cautions: Mostly natural history; the people and religion are in part 2. Part 3 (...87) not taken. About 66,278 words.
+Content note: Part One of the notes on the islands of the Unalashka district, compiled by I. Veniaminov, in Russian (Saint Petersburg, 1840; issued at the expense of the Russian-American Company; censor's permission dated February 1840). Divisions: title page at lines 7-41; preface from line 70; Part I from line 432; contents of Part One from line 19510 to the end. The contents list three sections: general remarks on the district (position of the islands, mountains, shores, tides, earthquakes and volcanoes, rivers, rocks, plants, animals, climate, origin of the islands, history of their discovery); remarks on the islands one by one; and the Pribylov islands, unknown islands, and extracts and tables. About 66,278 words.
 
 ______________________________________________________________________
 

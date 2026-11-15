@@ -1,12 +1,12 @@
 Title: Millennial Dawn. 'The path of the just is as the shining light, which shineth more and more unto the perfect day.' Volume I. The Plan of the Ages. [ ... th thousand] A vindication of the divine character and government ... 1886. Tower Publishing Co., Allegheny, Pa., U.S.A
 Creator: not printed on the title page in the OCR; host and library record name Charles Taze Russell
 Publisher: Allegheny, Pa.: Tower Publishing Co.
-Publication Date: 1886 (OCR lines 145-197 ('1886.' line 195, publisher 197))
+Publication Date: 1886 (OCR line 195, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1886); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item millennialdawn01russgoog, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (589,980) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1886, out of US copyright by date. OCR quality: fair. Google scan with numeral errors ('lo', 'li' for page tags); body text reads clearly at lines 600 and 6000. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Volume 1 of Millennial Dawn (later titled Studies in the Scriptures), Russell's own setting out of his reading of the 'ages'. Divisions: Chapters and sections of The Plan of the Ages. Editorial matter: Preface and contents near the front. Cautions: Title page carries the first date (1886) but the scan is a later printing (NYPL stamp 1906; thousand-count unclear in OCR). Text may be revised from the 1886 first printing. Russell's name is not on the OCR title page; take it from host record. Zion's Watch Tower not taken (located only). About 104,879 words.
+Content note: Volume I of Millennial Dawn, 'The Plan of the Ages' (Tower Publishing Co., Allegheny, Pa.; the title page carries the date 1886 and a 'thousand' printing statement). The author is not named on the title page; the preface is signed Charles T. Russell. Divisions: title page at lines 145-200; dedication from line 208; preface at lines 273-338; contents from line 345; chapters I-XVI, with the text from line 570 and chapter XVI at line 12578. Editorial matter: a poem, 'The Divine Weaving', from line 12869, then publisher's notices of other volumes, a hymn book and a monthly journal to the end. About 104,879 words.
 
 ______________________________________________________________________
 

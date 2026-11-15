@@ -1,12 +1,12 @@
 Title: Twee der eerste geschriften van den eersten leeraar der Christelijke Gereformeerde Kerk in Nederland [OCR reads the title block in pieces]. Kampen, G. Ph. Zalsman. 1882
-Creator: Hendrik de Cock (host record; name not read in the OCR title block)
+Creator: Issued by Hendrik de Cock; the foreword of 1882 says he published the letters and did not write them (OCR lines 372-376); forewords by his widow and his son
 Publisher: Kampen, G. Ph. Zalsman
-Publication Date: 1882 (OCR lines 150-180)
+Publication Date: 1882 (OCR line 180, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1882); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: nld
 Source: archive.org item tweedereerstege00cockgoog, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (170,703) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1882, out of US copyright by date. OCR quality: fair: 1882 roman type, 'g' for 'ij' errors. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Two early writings of de Cock, reprinted at Kampen in 1882. Divisions: two writings; contents not read. Editorial matter: not read. Cautions: Not the 1834 Acte van Afscheiding itself, and no life of de Cock was found. Title-page author wording and the dates of the two pieces were not verified; Google scan. About 29,001 words.
+Content note: A Dutch-language reprint, Kampen, G. Ph. Zalsman, 1882: 'Twee der eerste geschriften van den eersten leeraar der Christelijke Gereformeerde Kerk in Nederland'. Editorial matter: a foreword by the author's son at lines 277-381, signed Kampen, November 1881; a foreword by his widow, F. H. Venema, at lines 385-522, dated Groningen, 13 October 1881. Divisions: 'Ernstige en hartelijke toespraak', Veendam, 1834, from line 526; 'Overeenstemming der geloovigen van Nederland', letters from several provinces and from Oost-Friesland published without the writers' names, Veendam, 1834, from line 2017, with a Voorrede at line 2095. Mixed voices: the son notes that the letters were not written by his father, only published by him. About 29,001 words.
 
 ______________________________________________________________________
 

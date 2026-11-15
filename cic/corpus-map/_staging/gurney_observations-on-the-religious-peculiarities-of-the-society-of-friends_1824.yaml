@@ -4,7 +4,7 @@ assignments:
   work: Observations on the religious peculiarities of the Society of Friends, by Joseph John Gurney. 'The kingdom
     of
   author: gurney
-  locus: the whole volume; not mapped
+  locus: Conclusion at OCR lines 13348-14062; add 12 to OCR line numbers; the rest not mapped
   atlas_ids:
   - nineteenth-century-quakerism-separations
   role: tradition
@@ -13,10 +13,10 @@ assignments:
   date:
     start: 1824
     end: 1824
-    source: 'the printing''s own title page: OCR line 25-45 (1824)'
+    source: 'the printing''s own title page: OCR line 51, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1824
-    source: OCR line 25-45 (1824)
+    source: OCR line 51, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 170, Joseph John Gurney: his Observations.'

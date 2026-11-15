@@ -1,12 +1,12 @@
 Title: Jerry McAuley: his life and work, with introduction by Rev. S. Irenaeus Prime, D.D., and personal sketches by A. S. Hatch, Esq. Edited by Rev. R. M. Offord. Second edition
 Creator: Edited by Rev. R. M. Offord; introduction by Rev. S. Irenaeus Prime, D.D.; personal sketches by A. S. Hatch, Esq.
 Publisher: New York: published by the New York Observer, 37 and 38 Park Row
-Publication Date: 1885 (OCR line 40 ('Copyright, 1885'))
-Rights: Public Domain (pd-us-by-date: published 1885); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
+Publication Date: 1885 (the copyright notice at OCR line 40 ('Copyright, 1885'); the title page prints no year (page image, leaf n8))
+Rights: Public Domain (pd-us-by-date: published 1885); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the date agrees; the date used is that of the copyright notice at OCR line 40 ('Copyright, 1885'); the title page prints no year (page image, leaf n8)
 Language: eng
 Source: archive.org item jerrymcauleyhisl00mcau, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (443,476) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1885, out of US copyright by date. OCR quality: clean. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Life of McAuley with his own narrative and records of Water Street and Cremorne missions. Divisions: preface line 44; contents line 136. Editorial matter: Prime introduction and Hatch sketches. Mixed voices: McAuley's own narrative, Hatch's sketches, Prime's introduction, testimonies. Cautions: Second edition; first-edition id not checked. About 72,189 words.
+Content note: Life of McAuley with his own narrative and records of Water Street and Cremorne missions. Divisions: preface line 44; contents line 136. Editorial matter: Prime introduction and Hatch sketches. Mixed voices: McAuley's own narrative, Hatch's sketches, Prime's introduction, testimonies. About 72,189 words.
 
 ______________________________________________________________________
 

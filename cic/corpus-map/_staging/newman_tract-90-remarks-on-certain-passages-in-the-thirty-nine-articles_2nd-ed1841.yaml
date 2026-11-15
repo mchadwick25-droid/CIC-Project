@@ -3,7 +3,7 @@ assignments:
 - row_id: newman_tract-90-remarks-on-certain-passages-in-the-thirty-nine-articles_2nd-ed1841--tracts-for-the-times-remarks-on-certain-passages-in-the
   work: Tracts for the Times. Remarks on certain passages in the Thirty-nine Articles. [The corrections in the Second
   author: newman
-  locus: Introduction at OCR lines 60-120; Conclusion at OCR lines 3700-3745; add 12 to OCR line numbers; the rest
+  locus: Introduction at OCR lines 62-174; Conclusion at OCR lines 3577-3740; add 12 to OCR line numbers; the rest
     not mapped
   atlas_ids:
   - the-oxford-movement-and-anglo-catholic-revival
@@ -13,11 +13,12 @@ assignments:
   date:
     start: 1841
     end: 1841
-    source: 'the printing''s own title page: OCR lines 3743-3744 (colophon, ''SECOND EDITION''); no separate title
-      leaf in the OCR'
+    source: 'the printing''s own title page: OCR line 3755, in the imprint at the end of the tract (''London: printed
+      for J. G. F. & J. Rivington'', line 3751); the scan has no separate title leaf'
     formation_confidence: Documented
   edition_date:
     year: 1841
-    source: OCR lines 3743-3744 (colophon, 'SECOND EDITION'); no separate title leaf in the OCR
+    source: 'OCR line 3755, in the imprint at the end of the tract (''London: printed for J. G. F. & J. Rivington'',
+      line 3751); the scan has no separate title leaf'
     formation_confidence: Documented
   note: 'Era 9 row 188, John Henry Newman: Tract 90.'

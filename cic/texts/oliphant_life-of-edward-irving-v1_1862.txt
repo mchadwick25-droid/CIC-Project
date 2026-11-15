@@ -1,12 +1,12 @@
 Title: The Life of Edward Irving, minister of the National Scotch Church, London, illustrated by his journals and correspondence, by Mrs. Oliphant. In two volumes. Vol. I
 Creator: Mrs. Oliphant
 Publisher: London: Hurst and Blackett
-Publication Date: 1862 (OCR lines 25-50 (1862))
+Publication Date: 1862 (OCR line 54, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1862); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item lifeofedwardirvi01olip, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (894,995) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1862, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Biography covering Irving's early life to 1830. Divisions: chapters. Editorial matter: preface to second edition. Mixed voices: Irving's letters inside Oliphant's narrative. Cautions: This is a second edition; vol. 2 picked too. About 136,028 words.
+Content note: Volume I of 2 of Mrs. Oliphant's life of Edward Irving, 'illustrated by his journals and correspondence' (London, Hurst and Blackett, 1862). Editorial matter: a preface signed M. O. W. Oliphant, Ealing, October 1862, at lines 77-129, followed by the 'Preface to the First Edition' from line 132. Divisions: 'Contents of the First Volume' from line 198, listing chapters I-XII, the last headed 1826-1827; the text from chapter I, 'His parentage and childhood', at line 471. Mixed voices: the contents list names Irving's journal and a diary of Dr. Chalmers among the matter used. About 136,028 words.
 
 ______________________________________________________________________
 

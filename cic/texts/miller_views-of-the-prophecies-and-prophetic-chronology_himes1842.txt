@@ -1,12 +1,12 @@
 Title: Miller's Works. Views of the Prophecies and Prophetic Chronology, selected from manuscripts of William Miller; with a memoir of his life. Edited by Joshua V. Himes. Volume I
 Creator: William Miller; Joshua V. Himes
 Publisher: Boston: published by Joshua V. Himes, 14 Devonshire Street
-Publication Date: 1842 (page image leaf 9 ('1842'); OCR line 119 reads '1S^2')
+Publication Date: 1842 (read on the scan's page image, leaf n9; the OCR does not give it cleanly)
 Rights: Public Domain (pd-us-by-date: published 1842); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item viewsprophecies00himegoog, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (487,823) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1842, out of US copyright by date. OCR quality: fair; title page badly stained, body readable. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Miller's lectures and calculations, with a memoir of his life. Vol. I of Miller's Works. Divisions: contents line 355; memoir; lectures and views; appendix from line 12217. Editorial matter: Himes's memoir; appendix from 12217. Mixed voices: Himes edits and frames; Miller's text in the lectures. Cautions: A 1841 printing exists (MillerW.ViewsOfThePropheciesAndPropheticChronologySelectedFrom, a user upload, not checked). Edited by Himes. About 90,391 words.
+Content note: Volume I of 'Views of the Prophecies and Prophetic Chronology, selected from manuscripts of William Miller; with a memoir of his life', edited by Joshua V. Himes, Boston, published by Joshua V. Himes (title pages at lines 139-216). Editorial matter: 'The Editor's Remarks' from line 225; Memoir of William Miller from line 439. Divisions: contents at line 355; 'Synopsis of Mr. Miller's Views' at line 1779; 'A Dissertation on Prophetic Chronology' at line 2509; Part Second, 'Address and Lectures', at lines 3205-8845; 'Reviews and Letters' from line 8846, with reviews of Ethan Smith, Dowling and 'A Bible Reader' and numbered letters; Appendix from line 12217. About 90,391 words.
 
 ______________________________________________________________________
 

@@ -7,19 +7,19 @@ works:
   work: 'Magnalia Dei: Onderwijzing in de Christelijke Religie naar Gereformeerde Belijdenis
     door Dr. H. Bavinck,'
   author: bavinck
-  locus: Voorrede and the doctrine of the church at OCR lines 80-200; add 12 to OCR line numbers;
-    the rest not mapped
+  locus: Voorrede at OCR lines 78-202; Section 23, De gemeente van Christus, at OCR lines
+    24684-26138; add 12 to OCR line numbers; the rest not mapped
   role: tradition
   confidence: needs-ruling
   language: nld
   date:
     start: 1909
     end: 1909
-    source: 'the printing''s own title page: OCR line 75'
+    source: 'the printing''s own title page: OCR line 10, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1909
-    source: OCR line 75
+    source: OCR line 10, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 194, Herman Bavinck: his own summary of doctrine, in Dutch (not the Dogmatiek).'
   source_file: bavinck_magnalia-dei-nld_1909.txt
@@ -27,8 +27,8 @@ works:
   work: The Philosophy of Revelation; the Stone Lectures for 1908-1909, Princeton Theological
     Seminary, by Herman
   author: bavinck
-  locus: opening chapter on the idea of a philosophy of revelation at OCR lines 340-900; add
-    12 to OCR line numbers; the rest not mapped
+  locus: Lecture I, 'The Idea of a Philosophy of Revelation', at OCR lines 344-2520; add 12
+    to OCR line numbers; the rest not mapped
   role: tradition
   confidence: needs-ruling
   language: eng
@@ -57,7 +57,7 @@ works:
       the text was first written
   edition_date:
     year: 1882
-    source: OCR lines 150-180
+    source: OCR line 180, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 224, Hendrik de Cock: two of his first writings.'
   source_file: cock_twee-der-eerste-geschriften-nld_1882.txt
@@ -65,19 +65,20 @@ works:
   work: Tractaat van de Reformatie der Kerken, aan de zonen der Reformatie hier te lande op
     Luthers vierde eeuwfeest
   author: kuyper
-  locus: argument for reformation of the churches (the title theme) at OCR lines 100-1200;
-    add 12 to OCR line numbers; the rest not mapped
+  locus: Chapter IV, Van de reformatie der kerken at OCR lines 5892-10469; add 12 to OCR line
+    numbers; the rest not mapped
   role: tradition
   confidence: provisional
   language: nld
   date:
     start: 1883
     end: 1883
-    source: 'the printing''s own title page: OCR line 80 (''1883.'' after the Amsterdam imprint)'
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n6; the
+      OCR does not give it cleanly'
     formation_confidence: Documented
   edition_date:
     year: 1883
-    source: OCR line 80 ('1883.' after the Amsterdam imprint)
+    source: read on the scan's page image, leaf n6; the OCR does not give it cleanly
     formation_confidence: Documented
   note: 'Era 9 row 193, Abraham Kuyper: a Dutch work of his own.'
   source_file: kuyper_tractaat-van-de-reformatie-der-kerken-nld_1883.txt

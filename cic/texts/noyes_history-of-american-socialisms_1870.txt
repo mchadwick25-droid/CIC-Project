@@ -1,12 +1,12 @@
 Title: History of American Socialisms. By John Humphrey Noyes. Philadelphia: J. B. Lippincott & Co. 1870
 Creator: John Humphrey Noyes
 Publisher: Philadelphia: J. B. Lippincott & Co. (printed at Mount Tom Printing House, Wallingford Community)
-Publication Date: 1870 (OCR line 74 ('I 870'); verso on page image leaf 9 reads 'in the year 1869'; host date 1870)
+Publication Date: 1870 (read on the scan's page image, leaf n8; the OCR does not give it cleanly)
 Rights: Public Domain (pd-us-by-date: published 1870); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item historyofamerica00noyeuoft, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,312,289) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1870, out of US copyright by date. OCR quality: clean. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Noyes's survey of American communal experiments, ending with his own community. Divisions: 46 chapters; contents lines 151-241 (chapter XLVI is 'The Oneida Community', page 614). Editorial matter: Preface lines 96-148; contents. Mixed voices: Quotes many other communities' documents. Cautions: The OCR year is 'I 870'; the year was checked against the copyright notice on leaf 9 (1869) and the host date, not read directly on a leaf 8 image. About 192,303 words.
+Content note: Title page (lines 37-74): 'History of American Socialisms', by John Humphrey Noyes, Philadelphia, J. B. Lippincott & Co., 1870; the verso names the Mount Tom Printing House, Wallingford Community, Wallingford, Conn. Editorial matter: the author's Preface from line 96, which calls the book first and chiefly a collection of facts; contents from line 148. Divisions: 48 chapters, from Chapter I at line 251; the last four are XLV The Shakers (line 24371), XLVI The Oneida Community (line 25087), XLVII Review and Results (line 26515) and XLVIII Two Schools of Socialism (line 26999). Index from line 27569. About 192,303 words.
 
 ______________________________________________________________________
 

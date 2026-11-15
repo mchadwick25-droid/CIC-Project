@@ -1,12 +1,12 @@
 Title: The Case against Professor Briggs. I. The Charges and Specifications submitted to the Presbytery of New York, October 5, 1891 ... IX. The Action of the General Assembly in sustaining the Appeal
 Creator: No author is printed on the title page
 Publisher: New York: Charles Scribner's Sons
-Publication Date: 1892 (OCR line 99)
+Publication Date: 1892 (OCR line 99, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1892); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item caseagainstprofe0103brig, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (379,992) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1892, out of US copyright by date. OCR quality: clean. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Printed first part of the trial record. Divisions: nine numbered items listed on title page (OCR lines 64-92). Editorial matter: publisher's list of Briggs's works lines 26-52 and 108-135. Mixed voices: court papers of both sides and Briggs's replies. Cautions: The title page lists the 1891 dates and 1892 General Assembly dates; one OCR date reads 'May 26, 1892' vs a typed '1893' in the same list (OCR error). About 56,636 words.
+Content note: The official papers in the case against Professor Briggs, with his arguments (New York, Charles Scribner's Sons, 1892). Editorial matter: lists of Briggs's works at lines 26-52 and 108-134; a preface dated June 24, 1892 at lines 186-197; publisher's advertisements at the end. Divisions: title pages listing the nine items at lines 57-99 and 137-179; table of contents from line 200; items I-IX begin at lines 243, 857, 2211, 2237, 2547, 3420, 4750, 5331 and 7197. Mixed voices: the charges and appeal of the prosecuting committee, actions of the Presbytery and General Assembly, and Briggs's response and arguments. About 56,636 words.
 
 ______________________________________________________________________
 

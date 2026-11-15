@@ -1,12 +1,12 @@
 Title: Home-Talks by John Humphrey Noyes. Edited by Alfred Barron and George Noyes Miller. Vol. I. Oneida: published by the Community. 1875
 Creator: John Humphrey Noyes; Edited by Alfred Barron and George Noyes Miller
 Publisher: Oneida: published by the Community (printed by Wallingford Printing Co.)
-Publication Date: 1875 (OCR line 121-135 ('l87S') and page image leaf 9 ('in the year 1875'))
+Publication Date: 1875 (read on the scan's page image, leaf n8; the OCR at line 165 reads 'l87S')
 Rights: Public Domain (pd-us-by-date: published 1875); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item hometalks00noyegoog, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (448,358) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1875, out of US copyright by date. OCR quality: fair. Google scan; some noise at the front, body clean. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Noyes's evening talks to his community, mostly revised for the Oneida Circular and gathered into Volume I. Divisions: Numbered talks; editors' preface near line 300. Editorial matter: Editors' preface lines 270-320. Mixed voices: Talks include other members' questions and responses. Cautions: Vol. 1 only; the editors note Noyes revised them but the volume was not his own doing. Oneida Circular issues are single weekly items on IA (sim_oneida-circular_*), not taken. About 81,372 words.
+Content note: Volume I of Home-Talks by John Humphrey Noyes, edited by Alfred Barron and George Noyes Miller, Oneida. Editorial matter: preface at lines 263-345, signed 'Editors' and dated 1875. It says the talks began in Putney, Vermont, and went on at Oneida, Brooklyn and Wallingford; that they were first reported from memory and long-hand notes and later verbatim; and that the volume is mostly taken from talks Noyes revised for the Oneida Circular. Divisions: contents from line 356; the talks carry titles, the first, 'Two Certainties', starting at line 937. About 81,372 words.
 
 ______________________________________________________________________
 

@@ -12,10 +12,10 @@ assignments:
   date:
     start: 1854
     end: 1854
-    source: 'the printing''s own title page: page image leaf 6 (MDCCCLIV; OCR garbled)'
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n6; the OCR does not give it cleanly'
     formation_confidence: Documented
   edition_date:
     year: 1854
-    source: page image leaf 6 (MDCCCLIV; OCR garbled)
+    source: read on the scan's page image, leaf n6; the OCR does not give it cleanly
     formation_confidence: Documented
   note: 'Era 9 row 170, Joseph John Gurney: the Memoirs, vol. 2.'

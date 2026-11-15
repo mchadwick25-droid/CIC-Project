@@ -1,12 +1,12 @@
 Title: Hudson Taylor in Early Years: the growth of a soul. By Dr. and Mrs. Howard Taylor. With introduction by Mr. D. E. Hoste. With illustrations, portraits, maps, etc
 Creator: Dr. and Mrs. Howard Taylor; introduction by Mr. D. E. Hoste
 Publisher: New York: Hodder & Stoughton; George H. Doran Co.; China Inland Mission, Philadelphia
-Publication Date: 1912 (OCR line 60 (MCMXII); host date says 1911)
+Publication Date: 1912 (OCR line 60, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1912); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item hudsontaylorin00tayl, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,329,605) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1912, out of US copyright by date. OCR quality: clean to fair. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: The standard authorised life of Taylor's early years, drawn from his letters and journals. Divisions: vol. 1 (early years to 1860s); chapters; index at end. Editorial matter: preface line 74; index at end. Mixed voices: life with long quotations from Taylor's letters and diaries. Cautions: Vol. 1 only; the CIM years are in vol. 2 (hudsontaylorchin00tayl, 1918, located). Title page reads MCMXII, host 1911: record 1912 as printed. 'A Retrospect' not taken (see report). About 206,805 words.
+Content note: Title page (lines 27-60): 'Hudson Taylor in Early Years: the Growth of a Soul', by Dr. and Mrs. Howard Taylor, with introduction by Mr. D. E. Hoste, General Director, China Inland Mission; New York and Philadelphia, 1912. Editorial matter: the authors' Preface from line 74, which says the book is drawn mainly from Mr. Taylor's own letters and recollections, freely quoted; contents from line 158; list of illustrations from line 376; Introduction from line 469. Divisions: six parts and 42 chapters, from Part I, 'Antecedents, Home and Early Years, 1776-1849' (line 665), to Part VI, 'Ning-po and Settled Work, 1856-1860' (line 18747). Index from line 24387. About 206,805 words.
 
 ______________________________________________________________________
 

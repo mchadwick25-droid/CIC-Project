@@ -1,12 +1,12 @@
 Title: Queries and Answers by David Lipscomb, editor of the Gospel Advocate. Edited by J. W. Shepherd, office editor of the Gospel Advocate. Nashville, Tenn., McQuiddy Printing Company. 1910
 Creator: David Lipscomb; J. W. Shepherd
 Publisher: Nashville, Tenn.: McQuiddy Printing Company
-Publication Date: 1910 (OCR line 48 (copyright 1910 line 51))
+Publication Date: 1910 (OCR line 48, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1910); the archive.org record says possible-copyright-status The Library of Congress is unaware of any copyright restrictions for this item., and the imprint date agrees
 Language: eng
 Source: archive.org item queriesanswers00lips, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,328,728) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1910, out of US copyright by date. OCR quality: clean. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Lipscomb's answers gleaned from the Gospel Advocate and arranged by topic. Divisions: Preface line 61; Queries and Answers from line 144 by topic; Index to Scriptures from line 22047. Editorial matter: Shepherd's preface lines 61-143; scripture index 22047-22900. Mixed voices: questions are the readers'; answers are Lipscomb's. Cautions: The 1906 census letters were not found: religiousbodies10002unit (Religious Bodies 1906, vol. 2, GPO 1910) was fetched and contains no 'Lipscomb'. Another vol: Civil Government (1913) located as CivilGovernment and lipscomb_civilgovernment_1913scans (community uploads, not checked). A 1921 Queries and Answers (Lipscomb and Sewell, ed. Kurfees) is queriesanswers00lip. About 211,569 words.
+Content note: Questions and David Lipscomb's answers, edited by J. W. Shepherd (Nashville, McQuiddy Printing Company, 1910). Editorial matter: Shepherd's preface at lines 61-141, dated Nashville, April 6, 1910, says he clipped the questions and answers from a file of the Gospel Advocate, filed them under topical headings, and sometimes joined several answers into one. Divisions: 'Queries and Answers' from line 144 under topic headings in alphabetical order, the first being 'Abraham, God's covenant with'; 'Index to Scriptures' from line 22047 to the end. Mixed voices: each entry prints a question followed by Lipscomb's answer. About 211,569 words.
 
 ______________________________________________________________________
 

@@ -1,12 +1,12 @@
 Title: ЗАПИСКИ ОБЪ ОСТРОВАХЪ УНАЛАШКИНСКАГО ОТДЪЛА, СОСТАВЛЕННЫЯ И. ВЕНИАМИНОВЫМЪ. ЧАСТЬ ВТОРАЯ. Издано иждивенiемъ Россiйско-Американской компанiи
 Creator: И. Вениаминовымъ
 Publisher: САНКТПЕТЕРБУРГЪ (host record: Imperial Academy of Sciences press)
-Publication Date: 1840 (OCR line 87 ('1840.'); censor date 29 May 1840 at line 97)
+Publication Date: 1840 (OCR line 87, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1840); the archive.org record carries no rights field, so the imprint date is the basis
 Language: rus
 Source: archive.org item zapiskiobostrovahunalashkinskogootdelas52, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (897,823) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1840, out of US copyright by date. OCR quality: fair: Old-orthography Cyrillic is genuinely read, readable throughout; stray quote marks and some letter swaps (e.g. 'Вешаминовь.ми5' on the title). Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Part 2 of Veniaminov's first-hand notes on the Unalaska district: the Aleut people, their way of life, religion and customs, written by the missionary priest himself. Divisions: Part 2 (Section 1: remarks on the inhabitants); contents ('ОГЛАВЛЕНІЕ') at OCR line 19022. Editorial matter: contents list from line 19022. Mixed voices: none seen; Aleut words and a few quoted tales inside the author's text. Cautions: Part 1 (id ...35, general remarks, 23970 words; title page 1840 at line 41) and part 3 (id ...87, supplement on the Atkha Aleuts and Koloshi, ethnographic; title page 1840 at line 73) were located and downloaded; part 1 is picked below, part 3 is LOCATED only. The text is ethnography by a missionary, not his Aleut translations. About 78,182 words.
+Content note: A Russian-language book. Title page (lines 61-103): Notes on the islands of the Unalashka district, compiled by I. Veniaminov, Part Two, published at the expense of the Russian-American Company, St. Petersburg, with a censor's permission dated 29 May 1840. The text of Part II begins at line 114 with Section One, remarks on the inhabitants; 'End of the second part' stands at line 19019. The contents (line 19022) list three sections: remarks on the inhabitants; a continuation covering the number of Aleuts, settlements, clothing, baidarkas, food, illnesses, language, traditions, tales, songs and games; and remarks on some animals and the ways of hunting them. About 78,182 words.
 
 ______________________________________________________________________
 

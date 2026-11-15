@@ -17,22 +17,21 @@ works:
   work: Acta et decreta sacrosancti oecumenici concilii Vaticani, cum permultis aliis documentis
     ad concilium ejusque
   author: collectio-lacensis
-  locus: 'Audo speaks on the discipline schemata (chaldice scriptas, translated into Latin)
-    at OCR lines 63556-63580; Audo, Patriarcha Chaldaeorum, entries in the votes and observations
-    at OCR lines 84320-84335; 86490-86500; Audo among the Eastern fathers, 25 March 1870 at
-    OCR lines 127240-127250; Index entry: Chaldaei, their faith about infallibility (t. VII)
-    at OCR lines 172120-172130; 183480-183485; add 12 to OCR line numbers; the rest not mapped'
+  locus: Joseph Audu's observations on the discipline schemata, written in Chaldean and read
+    in Latin, at OCR lines 63556-63571; heading of the item of 25 March 1870 from Audu and
+    other Eastern bishops at OCR lines 127246-127248; add 12 to OCR line numbers; the rest
+    not mapped
   role: tradition
   confidence: provisional
   language: lat
   date:
     start: 1869
     end: 1892
-    source: 'the printing''s own title page: OCR line 64 (''MDCCCXCII'')'
+    source: 'the printing''s own title page: OCR line 64, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1892
-    source: OCR line 64 ('MDCCCXCII')
+    source: OCR line 64, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 200, Joseph Audo: the acts of the Vatican council.'
   source_file: collectio-lacensis_t7-acta-et-decreta-concilii-vaticani-lat_1892.txt
@@ -59,20 +58,20 @@ works:
   work: 'Apologia pro vita sua: being a reply to a pamphlet entitled "What, then, does Dr.
     Newman mean?" (OCR'
   author: newman
-  locus: 'Part IV-VI: Tract 90 and its condemnation, 1841 at OCR lines 11900-12040; Part III
-    history to 1833 at OCR lines 4681-8000; add 12 to OCR line numbers; the rest not mapped'
+  locus: Part III, 'History of my Religious Opinions', at OCR lines 4672-6409; Part VI, the
+    same history from 1841 to 1845, at OCR lines 12042-16293; add 12 to OCR line numbers;
+    the rest not mapped
   role: tradition
   confidence: provisional
   language: eng
   date:
     start: 1864
     end: 1864
-    source: 'the printing''s own title page: OCR line 2923 (also line 28 on the Kingsley correspondence
-      title)'
+    source: 'the printing''s own title page: OCR line 28, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1864
-    source: OCR line 2923 (also line 28 on the Kingsley correspondence title)
+    source: OCR line 28, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 188, John Henry Newman: the Apologia.'
   source_file: newman_apologia-pro-vita-sua_1864.txt

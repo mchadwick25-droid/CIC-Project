@@ -12,7 +12,7 @@ assignments:
   date:
     start: 1867
     end: 1867
-    source: 'the printing''s own title page: OCR line 138'
+    source: 'the printing''s own title page: OCR line 138, on the title page'
     formation_confidence: Documented
   translator:
     name: Catherine Winkworth
@@ -20,6 +20,6 @@ assignments:
     formation_confidence: Documented
   edition_date:
     year: 1867
-    source: OCR line 138
+    source: OCR line 138, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 223, Theodor Fliedner: a Life, in English.'

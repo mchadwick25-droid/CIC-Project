@@ -1,12 +1,12 @@
 Title: Evan Roberts, y Diwygiwr; Evan Roberts a'i waith, gan y Parch. D. M. Phillips, M.A., Ph.D., Tylorstown (title page at OCR lines 250-260)
 Creator: D. M. Phillips
 Publisher: Dolgellau: argraffwyd gan E. W. Evans, Swyddfa'r Goleuad
-Publication Date: 1912 (OCR lines 280-284 ('Argraffwyd gan E. W. Evans ... Dolgellau. 1912.'))
+Publication Date: 1912 (OCR line 284, under the printer's line, which reads 'I 9 I 2 .')
 Rights: Public Domain (pd-us-by-date: published 1912); the archive.org record carries no rights field, so the imprint date is the basis
 Language: cym
 Source: archive.org item evanrobertsaiwai00phil, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (830,994) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1912, out of US copyright by date. OCR quality: fair: Welsh accents garbled in places but readable (sampled lines 5000, 8265). Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: The standard life by a minister who travelled with Roberts. It is a Welsh book of 1912. Divisions: Y Cynwysiad (contents) line 488; parts on the preparation of the revivalist, then the revival. Editorial matter: Front matter lines 1-480 includes English press opinions of the English edition. Mixed voices: Roberts's own letters, poems and sayings quoted (the press notes mention about 40 pages of his verse). Cautions: Welsh language. An English version (1923, per a different host record) exists only as a modern retyped e-text; see report. About 129,838 words.
+Content note: A Welsh-language book. Title page (lines 242-257): 'Evan Roberts, y Diwygiwr', 'Evan Roberts a'i Waith', gan y Parch. D. M. Phillips, M.A., Ph.D., Tylorstown. The front matter opens with English press opinions of 'Evan Roberts the Great Welsh Revivalist and his Work' (from line 23) and a list of the author's books. Editorial matter: the author's Rhagymadrodd (preface) at lines 376-485, signed Tylorstown, 1912. Divisions: Y Cynwysiad (contents) from line 488; chapters (Penod) I at line 773 to XXXV at line 15474; then Roberts's own verse, with hymns (Emynau) from line 18793 and Englynion from line 19319. Mixed voices: the contents list chapter XXXV as Roberts's prayers, addresses and sayings. About 129,838 words.
 
 ______________________________________________________________________
 

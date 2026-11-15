@@ -1,12 +1,12 @@
 Title: History of the insurrection in China; with notices of the Christianity, creed, and proclamations of the insurgents. By MM. Callery and Yvan. Translated from the French, with a supplementary account of the most recent events, by John Oxenford. Third edition, enlarged
 Creator: MM. Callery and Yvan; John Oxenford (translator and author of the supplement)
 Publisher: London: Smith, Elder & Co., 65 Cornhill; Bombay: Smith, Taylor & Co.
-Publication Date: 1854 (OCR line 105)
+Publication Date: 1854 (OCR line 105, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1854); the archive.org record carries no rights field, so the imprint date is the basis
 Language: eng
 Source: archive.org item historyofinsurre00call, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (597,910) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1854, out of US copyright by date. OCR quality: fair: readable, long-s free, some stray marks near front. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: A contemporary European history of the rising with texts of proclamations and notes on its creed; hostile or neutral outsiders, not the movement's own pen. Divisions: 17 chapters from OCR line 425 (Ch. I) to 10100 (Ch. XVII); contents at lines 230-300; first proclamation at 2393, proclamation of Tien-te at 3967. Editorial matter: Oxenford's preface (line 202); publisher's advertisement list at end (about line 14700). Mixed voices: French authors' narrative and Oxenford's added supplement mixed. Cautions: Translated from French; the insurgents' texts reach us twice-translated. Dates from 1853-54, before Hamberg's account was printed. About 88,299 words.
+Content note: Third edition, enlarged, London, Smith, Elder and Co., 1854, of John Oxenford's translation from the French of the work by MM. Callery and Yvan. Editorial matter: the translator's preface at lines 118-199, signed J. O., August 25, 1853; preface to the third edition at lines 202-227; contents at lines 230-318. Divisions: chapters I-XVII, Chapter I at line 425 and Chapter XVII at line 10100; a Supplementary Chapter from line 10923 and a Postscript from line 12482; 'The End' at line 12865; an appendix from line 12900; publisher's book lists at the end. Mixed voices: footnotes signed J. O. are the translator's; the supplementary chapter and postscript are his. About 88,299 words.
 
 ______________________________________________________________________
 

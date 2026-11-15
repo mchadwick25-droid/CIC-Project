@@ -1,12 +1,12 @@
 Title: The Defence of Professor Briggs before the Presbytery of New York, December 13, 14, 15, 19, and 22, 1892
 Creator: Charles Augustus Briggs (named in the title as Professor Briggs; the full name is the host record's)
 Publisher: New York: Charles Scribner's Sons
-Publication Date: 1893 (OCR line 25 (copyright 1893 line 31))
+Publication Date: 1893 (OCR line 25, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1893); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item defenceofprofess00brig, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (576,376) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1893, out of US copyright by date. OCR quality: clean. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Briggs's full defence at his trial for heresy before the Presbytery in December 1892. Divisions: Contents line 35; Preliminary Remarks; I The Rule of Faith; II Bible only fountain?; III The Reason; IV The Church; V Inerrancy; etc. Mixed voices: none (Briggs's own argument). Cautions: Taken together with two parts of The Case against Professor Briggs (a multi-part record): Part I and Part III. Part II is located below. About 87,020 words.
+Content note: Briggs's defense as spoken before the Presbytery of New York on December 13, 14, 15, 19 and 22, 1892; New York, Charles Scribner's Sons, 1893. Divisions: contents at lines 35-125 list Preliminary Remarks, then I The Rule of Faith, II Is the Bible the only Fountain of Divine Authority?, III The Reason, IV The Church, V The Inerrancy of Holy Scripture, VI The Authenticity of Holy Scripture, VII Who Wrote Isaiah?, VIII Progressive Sanctification after Death, then (A) additional remarks and (B) concluding remarks. The Preliminary Remarks start at line 128; the text ends at line 9709. About 87,020 words.
 
 ______________________________________________________________________
 

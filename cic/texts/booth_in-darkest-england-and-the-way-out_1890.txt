@@ -1,12 +1,12 @@
 Title: In Darkest England and the Way Out, by General Booth
 Creator: General Booth
 Publisher: Funk & Wagnalls, New York: 18 & 20 Astor Place; London: 44 Fleet Street; printed in the United States
-Publication Date: 1890 (page image leaf n8 ('1890.'))
+Publication Date: 1890 (read on the scan's page image, leaf n8; the OCR does not give it cleanly)
 Rights: Public Domain (pd-us-by-date: published 1890); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item indarkestengland00bootuoft, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (854,645) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1890, out of US copyright by date. OCR quality: clean to fair (title page garbled in OCR, body readable at line 8000). Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: William Booth's scheme for the poor, with a dedication to his late wife. Divisions: Preface, Contents (line 268), Part I Darkest England and Part II The Way Out, Appendix (line 13347). Editorial matter: Appendix from line 13347. Cautions: New York issue. A London edition scan is a548464700bootuoft (title OCR lacks the year; not taken). Host licenseurl for that copy is a public-domain mark. About 129,128 words.
+Content note: A book by General Booth setting out a scheme for the poor (Funk & Wagnalls, New York and London, 1890). Editorial matter: a dedication to the memory of his wife at lines 43-59; a preface at lines 62-259, signed William Booth, International Headquarters of The Salvation Army, London, October 1890. Divisions: contents from line 268; 'Part I. - The Darkness' from line 353; 'Part II. - Deliverance' from line 3964; Appendix from line 13347 to the end, whose list includes a sketch of The Salvation Army, Labour Bureau forms, and pieces on Count Rumford, Ralahine, Carlyle and Dr. Barry. About 129,128 words.
 
 ______________________________________________________________________
 

@@ -3,7 +3,7 @@ assignments:
 - row_id: keble_national-apostasy-assize-sermon_1833--national-apostasy-considered-in-a-sermon-preached-in-st-mary
   work: National Apostasy considered in a sermon preached in St. Mary's, Oxford, before His Majesty's Judges of
   author: keble
-  locus: the sermon text at OCR lines 70-880; add 12 to OCR line numbers; the rest not mapped
+  locus: the sermon at OCR lines 143-887; add 12 to OCR line numbers; the rest not mapped
   atlas_ids:
   - the-oxford-movement-and-anglo-catholic-revival
   role: tradition
@@ -12,10 +12,10 @@ assignments:
   date:
     start: 1833
     end: 1833
-    source: 'the printing''s own title page: page image leaf n2 (MDCCCXXXIII; OCR line ~38 garbled ''MD(CC;XX\''III'')'
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n2; the OCR does not give it cleanly'
     formation_confidence: Documented
   edition_date:
     year: 1833
-    source: page image leaf n2 (MDCCCXXXIII; OCR line ~38 garbled 'MD(CC;XX\'III')
+    source: read on the scan's page image, leaf n2; the OCR does not give it cleanly
     formation_confidence: Documented
   note: 'Era 9 row 189, John Keble: the Assize sermon of 1833.'

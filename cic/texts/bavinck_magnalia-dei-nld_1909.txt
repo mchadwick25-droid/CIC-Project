@@ -1,12 +1,12 @@
 Title: Magnalia Dei: Onderwijzing in de Christelijke Religie naar Gereformeerde Belijdenis door Dr. H. Bavinck, Hoogleeraar te Amsterdam. Kampen - J. H. Kok - 1909
 Creator: Dr. H. Bavinck, Hoogleeraar te Amsterdam
 Publisher: Kampen, J. H. Kok
-Publication Date: 1909 (OCR line 75)
+Publication Date: 1909 (OCR line 10, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1909); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: nld
 Source: archive.org item magnaliadeionder00bavi, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,862,907) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1909, out of US copyright by date. OCR quality: clean. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Bavinck's one-volume Dutch teaching on Reformed doctrine, the shortest form of his own dogmatics. Divisions: Voorrede then articles of the Reformed confession; contents not read. Editorial matter: Voorrede from line 80. Cautions: This is NOT the Gereformeerde Dogmatiek. The only Gereformeerde Dogmatiek item found on the host is gereformeerdedog51052gut (vol. 1, Gutenberg, publisher Project Gutenberg, NOT_IN_COPYRIGHT) which has no djvu text on the host and could not be fetched. About 276,477 words.
+Content note: A Dutch work by Dr. H. Bavinck, professor at Amsterdam: instruction in the Christian religion according to the Reformed confession (Kampen, J. H. Kok, 1909). Editorial matter: the author's Voorrede at lines 78-202, signed H. Bavinck, Amsterdam, May 1907, which explains the title from Acts 2:11 and calls the book a simple explanation of the Christian faith in modest size. Divisions: 24 numbered sections, from section 1, 'Het hoogste goed', at line 208 to section 24, 'Het Eeuwige Leven', at line 26139; section 23, 'De gemeente van Christus', at line 24684; Register from line 27336; Inhoud from line 28757. About 276,477 words.
 
 ______________________________________________________________________
 

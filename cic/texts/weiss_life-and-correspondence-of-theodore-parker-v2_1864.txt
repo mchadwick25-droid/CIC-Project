@@ -1,12 +1,12 @@
 Title: Life and Correspondence of Theodore Parker ... By John Weiss. In two volumes. Vol. II. New York: D. Appleton & Company, 443 & 445 Broadway. 1864
 Creator: John Weiss
 Publisher: New York: D. Appleton & Company
-Publication Date: 1864 (OCR lines 58-72)
+Publication Date: 1864 (OCR line 72, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1864); the archive.org record carries no rights field, so the imprint date is the basis
 Language: eng
 Source: archive.org item lifecorresponden0002weis, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,828,845) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1864, out of US copyright by date. OCR quality: clean to fair. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Second volume of Weiss's Life of Parker, the later years and death. Divisions: Chapters with contents of vol. 2 at line 88. Editorial matter: Contents; index at the back. Mixed voices: Yes: letters. Cautions: Pair with vol. 1. Host says 'Trent University' copy. About 281,575 words.
+Content note: Volume II of 'Life and Correspondence of Theodore Parker, Minister of the Twenty-Eighth Congregational Society, Boston', by John Weiss, in two volumes, New York, D. Appleton & Company, 1864 (title page at lines 47-72). Contents of Vol. II from line 88. Divisions: chapters XVI (line 284) to XXVIII (line 25705); the contents head chapter XXVIII with 1860, the progress of the disease and the last days. Appendix from line 28319, beginning with Parker's last will and testament; index from line 33315. Mixed voices: the chapter summaries name Parker's letters and journal, and the appendix lists a letter from Hon. S. P. Chase to Mr. Parker. About 281,575 words.
 
 ______________________________________________________________________
 

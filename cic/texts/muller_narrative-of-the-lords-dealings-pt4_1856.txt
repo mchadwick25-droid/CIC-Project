@@ -1,12 +1,12 @@
 Title: Narrative of some of the Lord's dealings with George Muller, written by himself. Fourth part
 Creator: George Muller
 Publisher: London: J. Nisbet & Co., Berners Street; Bristol
-Publication Date: 1856 (OCR line 182 (1856, Entered at Stationers' Hall))
+Publication Date: 1856 (OCR line 182, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1856); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item anarrativesomel00mlgoog, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (931,675) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1856, out of US copyright by date. OCR quality: clean to fair. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: The fourth part of Mueller's own narrative, 1845-1856. Divisions: dated entries from 1845; preface line ~200. Editorial matter: preface. Cautions: Fourth Part only. Parts 1-3 not found as scans (only Gutenberg texts: anarrativeofsome20379gut, anarrativeofsome22034gut, anarrativeofsome22148gut, anarrativeofsome20245gut, no djvu). Duplicate copy anarrativesomel01mlgoog. About 171,456 words.
+Content note: Title page (lines 143-182): 'Narrative of some of the Lord's Dealings with George Müller. Written by himself. Fourth Part', London, J. Nisbet & Co., 1856. Editorial matter: the author's Preface at lines 195-324, signed George Müller and dated Bristol, June 18, 1856; it says twelve years have passed since the third part closed and sets out a plan of periodical chapters on the funds, the Orphans, the building of the Orphan House and his own affairs. Divisions: the narrative begins at line 328 with supplies for the School, Bible, Missionary and Tract Fund from July 14, 1844; dated entries follow, one of the last dated May 26, 1856 (line 22241). About 171,456 words.
 
 ______________________________________________________________________
 

@@ -1,12 +1,12 @@
 Title: Applied Christianity: moral aspects of social questions, by Washington Gladden. Boston and New York: Houghton, Mifflin and Company. 1897 (Ninth edition; Copyright 1886)
 Creator: Washington Gladden
 Publisher: Boston and New York: Houghton, Mifflin and Company
-Publication Date: 1897 (OCR line 58 ('1897'); 'Copyright, 1886' line 67; 'NINTH EDITION' line 73)
+Publication Date: 1897 (OCR line 58, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1897); the archive.org record carries no rights field, so the imprint date is the basis
 Language: eng
 Source: archive.org item appliedchristian00glad, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (505,369) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1897, out of US copyright by date. OCR quality: clean. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Gladden's 1886 lectures on labor, wealth and the church, in a later printing. Divisions: contents lines 80-98; nine chapters: Christianity and Wealth, Is Labor a Commodity, Strength and Weakness of Socialism, Is it Peace or War, The Wage-Workers and the Churches, Three Dangers, Christianity and Social Science, Popular Amusements, Popular Education. Editorial matter: publisher's list of Gladden's books lines 24-40. Cautions: Ninth edition (1897). 1886 and 1887 copies: appliedchristian00gladuoft (London, Ward Lock, undated, not taken), appliedchristia00gladgoog (title page reads '1SS7', not taken). About 76,263 words.
+Content note: Title page (lines 46-58): 'Applied Christianity: Moral Aspects of Social Questions', by Washington Gladden, Boston and New York, Houghton, Mifflin and Company, 1897; the verso reads 'Copyright, 1886' and 'Ninth Edition'. A publisher's list of Gladden's books stands at lines 24-43. Contents at lines 80-98 list nine essays: Christianity and Wealth; Is Labor a Commodity?; The Strength and Weakness of Socialism; Is it Peace or War?; The Wage-Workers and the Churches; Three Dangers; Christianity and Social Science; Christianity and Popular Amusements; Christianity and Popular Education. The text begins at line 104 with 'Christianity and Wealth'. About 76,263 words.
 
 ______________________________________________________________________
 

@@ -1,12 +1,12 @@
 Title: [Retrospection and Introspection] by Mary Baker G. Eddy, author of 'Science and Health.' Sixth Thousand. Boston, Mass.: W. G. Nixon, Publisher, 62 Boylston Street. Authorized literature of the First Church of Christ, Scientist, in Boston, Mass
 Creator: Mary Baker G. Eddy
 Publisher: Boston, Mass.: W. G. Nixon; The Barta Press, Boston
-Publication Date: 1892 (OCR lines 12-40 (title page undated; 'Copyright, 1891' and 'Copyright, 1892') and page image leaf 9 (verso: Copyright 1891, 1892; Library of Congress 1898 stamp))
+Publication Date: 1892 (read on the scan's page image, leaf n8; the OCR does not give it cleanly)
 Rights: Public Domain (pd-us-by-date: published 1892); the archive.org record says possible-copyright-status The Library of Congress is unaware of any copyright restrictions for this item., and the imprint date agrees
 Language: eng
 Source: archive.org item retrospectioni00eddy, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (132,307) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1892, out of US copyright by date. OCR quality: clean to fair. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Eddy's own short memoir of her early life and the founding of her church. Divisions: Numbered chapters with contents at line 74. Editorial matter: Contents only. Cautions: The title page itself carries no year; the date rests on the copyright notices (1891, 1892) on the verso. The title words in the OCR are not on the title page of this copy (title page OCR reads only the name block). Sixth thousand printing. The 1891 Google scan retrospectionan00eddygoog is a 1915 printing, not used. About 19,189 words.
+Content note: A short book by Mary Baker G. Eddy; the title page says 'Sixth Thousand', Boston, W. G. Nixon, and carries copyright lines for 1891 and 1892. The title itself is not legible in the OCR of the title page but stands in the running heads. Divisions: contents at lines 74-131 list titled chapters, from 'Voices Not Our Own' to 'Way Marks', among them 'The Great Discovery' and 'College and Church'. The text starts at line 139 with her childhood home and ends at line 3347 with a verse signed A. E. Hamilton. Publisher's advertisements follow from line 3350. About 19,189 words.
 
 ______________________________________________________________________
 

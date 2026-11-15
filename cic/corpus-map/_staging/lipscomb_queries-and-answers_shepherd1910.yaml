@@ -3,8 +3,8 @@ assignments:
 - row_id: lipscomb_queries-and-answers_shepherd1910--queries-and-answers-by-david-lipscomb-editor-of-the-gospel
   work: Queries and Answers by David Lipscomb, editor of the Gospel Advocate. Edited by J. W. Shepherd, office editor
   author: lipscomb
-  locus: answers on church, instruments, missionary societies, civil government at OCR lines 144-22040; add 12 to
-    OCR line numbers; the rest not mapped
+  locus: Shepherd's preface at OCR lines 61-141; Queries and Answers under topic headings at OCR lines 144-22044;
+    add 12 to OCR line numbers; the rest not mapped
   atlas_ids:
   - churches-of-christ-twentieth-century
   role: tradition
@@ -13,10 +13,10 @@ assignments:
   date:
     start: 1910
     end: 1910
-    source: 'the printing''s own title page: OCR line 48 (copyright 1910 line 51)'
+    source: 'the printing''s own title page: OCR line 48, on the title page'
     formation_confidence: Documented
   edition_date:
     year: 1910
-    source: OCR line 48 (copyright 1910 line 51)
+    source: OCR line 48, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 218, David Lipscomb: his own writing (the 1906 census letters were not found).'

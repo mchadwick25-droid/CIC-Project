@@ -1,0 +1,24 @@
+source_file: story-of-the-welsh-revival_told-by-eyewitnesses_3rd-ed1905.txt
+assignments:
+- row_id: story-of-the-welsh-revival_told-by-eyewitnesses_3rd-ed1905--the-story-of-the-welsh-revival-as-told-by-eyewitnesses
+  work: The Story of the Welsh Revival as told by eyewitnesses together with a sketch of Evan Roberts and his message
+  author: story-of-the-welsh-revival
+  locus: A Message to the World by Evan Roberts at OCR lines 239-329; Mr. Evan Roberts by W. T. Stead at OCR lines
+    2631-2846; add 12 to OCR line numbers; the rest not mapped
+  atlas_ids:
+  - the-1904-07-revival-family-wales-mukti-india-pyo
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1905
+    end: 1905
+    source: 'the printing''s own title page: the copyright notice at OCR line 165 (''Copyright, 1905, by Fleming
+      H. Revell Company''); the title page prints no year'
+    formation_confidence: Documented
+  edition_date:
+    year: 1905
+    source: the copyright notice at OCR line 165 ('Copyright, 1905, by Fleming H. Revell Company'); the title page
+      prints no year
+    formation_confidence: Documented
+  note: 'Era 9 row 214, Evan Roberts: accounts of the revival printed in 1905.'

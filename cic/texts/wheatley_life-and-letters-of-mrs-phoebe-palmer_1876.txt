@@ -1,12 +1,12 @@
 Title: The Life and Letters of Mrs. Phoebe Palmer, by Rev. Richard Wheatley
 Creator: Rev. Richard Wheatley
 Publisher: New York: W. C. Palmer, Jr., Publisher, 11 Bible House
-Publication Date: 1876 (OCR line 42 (copyright 1876 line 57))
+Publication Date: 1876 (OCR line 42, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1876); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item lifelettersofmrs00whea, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,557,065) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1876, out of US copyright by date. OCR quality: clean to fair (some capital-letter slips, e.g. 'PHCEBE'); sampled start, middle (line 14532), end. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Authorised biography with her letters, written by a Methodist minister after her death in 1874. Divisions: Introduction line 83; chapters follow; index not located. Editorial matter: Wheatley's introduction lines 83-~170. Mixed voices: Wheatley narrates; prints Palmer's letters, journal entries and many letters to her. Cautions: Biographer's voice frames everything; edition is 1876 (Palmer family publisher). About 235,522 words.
+Content note: Life of Phoebe Palmer by Rev. Richard Wheatley, New York, W. C. Palmer, Jr., 1876. Editorial matter: an introduction at lines 83-177 signed M. Simpson; Wheatley's preface at lines 180-211, which says selections were made from her papers; table of contents at lines 214-544. Divisions: chapters I-XIV, starting at line 547 under the heading 'Memoirs'; 'Finis' at line 28875; a list of works by Mrs. Palmer sold by the publisher from line 28878. Mixed voices: Wheatley's narrative prints her diary, for example 'Extracts from Diary' at line 3302. About 235,522 words.
 
 ______________________________________________________________________
 

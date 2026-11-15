@@ -1,12 +1,12 @@
 Title: Der Lutheraner [OCR garbled], 'Gottes Wort und Luthers Lehr' vergehet nun und nimmermehr.' Herausgegeben von C. F. W. Walther. Jahrgang 1. St. Louis, Mo., den 1. September 1844. No. 1
 Creator: C. F. W. Walther (editor)
 Publisher: St. Louis, Mo.
-Publication Date: 1844 (OCR lines 4 and 40 (1844-1845; 1 September 1844))
+Publication Date: 1844 (OCR line 4, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1844); the archive.org record carries no rights field, so the imprint date is the basis
 Language: deu
 Source: archive.org item DerLutheraner01, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (971,987) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1844, out of US copyright by date. OCR quality: poor to fair: Fraktur OCR in Latin letters ('©otteS SBort'); issue after issue readable with effort. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: The first volume of Walther's paper, September 1844 to 1845. Divisions: fortnightly numbers (No. 1 onward); index pages located separately. Mixed voices: correspondence and reprinted tracts appear in the numbers. Cautions: Not a bound title page: imprint from the first issue date. Scan is Concordia Theological Seminary, Springfield; host has an English version of the same volume (DerLutheraner01EN, a later machine or modern translation; not taken). Located: DerLutheraner04 (1847-48, vol. nearest the 1847 constitution), index pages der-lutheraner-index-pages-volumes-1-43-1844-1887. The 1847 constitution was not found separately. About 148,394 words.
+Content note: A German-language paper; the OCR is heavily garbled. A cover line at line 4 gives the years 1844-1845. The masthead of No. 1 (lines 31-43) gives the motto 'Gottes Wort und Luthers Lehr' vergehet nun und nimmermehr', the editor C. F. W. Walther, Jahrgang 1, St. Louis, Mo., 1 September 1844; the terms beneath it say the paper appears every two weeks. Divisions: dated numbers follow, among them No. 5 of 2 November 1844 (line 3484), No. 10 of 11 January 1845 (line 7965) and No. 25 of 9 August 1845 (line 21243); a last masthead is dated 23 August 1845 (line 22225). About 148,394 words.
 
 ______________________________________________________________________
 

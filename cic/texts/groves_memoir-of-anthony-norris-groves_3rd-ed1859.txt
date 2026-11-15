@@ -1,12 +1,12 @@
 Title: Memoir of Anthony Norris Groves, compiled chiefly from his journals and letters; to which is added a supplement containing recollections of Miss Paget, and accounts of missionary work in India, &c. By his widow. Third edition
 Creator: his widow
 Publisher: London: James Nisbet & Co., Berners Street; Morgan & Chase, Ludgate Hill; Bristol
-Publication Date: 1859 (OCR lines 96-114 (1859))
+Publication Date: 1859 (OCR line 120, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1859); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item memoiranthonyno00grovgoog, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,694,272) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1859, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Groves's life with extracts from his journals and letters, including his letters on Brethren differences. Divisions: chapters; prefaces at lines 140, 207, 286. Editorial matter: prefaces to editions 1, 2, 3. Mixed voices: Groves's letters in the widow's narrative. Cautions: Host date 1869 is wrong; the title page says Third edition 1859. Includes a Miss Paget supplement. About 266,660 words.
+Content note: Third edition, London, 1859, of the memoir compiled by Groves's widow, chiefly from his journals and letters. Editorial matter: prefaces to the first, second and third editions at lines 140, 207 and 286; the first says the aim was to give his history as far as possible in his own words. Divisions: contents from line 358 and 'Contents of the Supplement' from line 481; Chapter I starts at line 543; an appendix from line 25034 and a supplement to the appendix from line 26291; the Supplement starts at line 26369 with 'Recollections of Miss E. Paget' and goes on to missionary work in India. About 266,660 words.
 
 ______________________________________________________________________
 

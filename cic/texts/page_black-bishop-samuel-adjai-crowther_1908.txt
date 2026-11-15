@@ -1,12 +1,12 @@
 Title: The Black Bishop: Samuel Adjai Crowther. By Jesse Page, F.R.G.S. With preface by Eugene Stock, D.C.L
 Creator: Jesse Page, F.R.G.S.; preface by Eugene Stock, D.C.L.
 Publisher: London: Hodder and Stoughton
-Publication Date: 1908 (OCR line 21 (LONDON MCMVIII))
+Publication Date: 1908 (OCR line 21, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1908); the archive.org record carries no rights field, so the imprint date is the basis
 Language: eng
 Source: archive.org item blackbishopsamue00page_0, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (953,998) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1908, out of US copyright by date. OCR quality: clean. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: A full-length life of Crowther by a CMS writer, with quoted letters. Divisions: chapters; index at end from about line 19300. Editorial matter: preface by Stock lines 54-78; index from about 19300. Mixed voices: biographer's narrative with extracts from Crowther's letters and journals. Cautions: Hagiographic CMS life, not Crowther's own voice. About 146,120 words.
+Content note: A life of Samuel Adjai Crowther by Jesse Page, F.R.G.S., with 16 illustrations and a map (London, Hodder and Stoughton, 1908). Editorial matter: a dedication to Sir George D. Taubman Goldie at lines 34-51; a preface by Eugene Stock, late Editorial Secretary of the Church Missionary Society, at lines 54-136; the Author's Foreword at lines 139-222, which speaks of papers and letters left behind and of letters and manuscripts sent from West Africa. Divisions: contents from line 228; list of illustrations from line 301; chapters I-XII, with the text from line 339 and chapter XII at line 16817; index from line 18483; a printers' line and a map of the West Africa missions at the end. About 146,120 words.
 
 ______________________________________________________________________
 

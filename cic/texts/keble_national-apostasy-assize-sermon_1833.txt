@@ -1,12 +1,12 @@
 Title: National Apostasy considered in a sermon preached in St. Mary's, Oxford, before His Majesty's Judges of Assize, on Sunday, July 14, 1833
 Creator: John Keble, M.A., Fellow of Oriel College, and Poetry Professor in the University of Oxford
 Publisher: Oxford, printed by S. Collingwood, printer to the University, for J. H. Parker; sold also by J. G. and F. Rivington, London
-Publication Date: 1833 (page image leaf n2 (MDCCCXXXIII; OCR line ~38 garbled 'MD(CC;XX\'III'))
+Publication Date: 1833 (read on the scan's page image, leaf n2; the OCR does not give it cleanly)
 Rights: Public Domain (pd-us-by-date: published 1833); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item nationalapostasy00kebl, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (37,147) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1833, out of US copyright by date. OCR quality: clean to fair (title page letters garbled by the OCR, body readable). Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: The sermon Keble preached to the Assize judges on 14 July 1833, with his own advertisement. Later Tractarians treated it as the start of the Oxford Movement. Divisions: Advertisement, then the sermon with footnotes. Editorial matter: Author's Advertisement lines 42-70. Cautions: The claim that this sermon started the movement is Newman's, in the Apologia; not made in this file. About 5,642 words.
+Content note: Title page (lines 16-49): 'National Apostasy considered in a Sermon preached in St. Mary's, Oxford, before His Majesty's Judges of Assize, on Sunday, July 14, 1833', by John Keble, M.A., Fellow of Oriel College and Poetry Professor in the University of Oxford; Oxford, printed for J. H. Parker. Editorial matter: the author's Advertisement at lines 55-137, dated July 22, which says that since the pages were prepared for the press the calamity they anticipated has overtaken the Church. Divisions: the sermon on 1 Samuel xii. 23 at lines 143-887, with footnotes. About 5,642 words.
 
 ______________________________________________________________________
 

@@ -1,12 +1,12 @@
 Title: Life of Brigham Young; or, Utah and her Founders. By Edward W. Tullidge. New York, 1876
 Creator: Edward W. Tullidge
 Publisher: New York (no publisher named; copyright entered by Tullidge & Crandall)
-Publication Date: 1876 (OCR lines 10-20)
+Publication Date: 1876 (OCR line 25, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1876); the archive.org record carries no rights field, so the imprint date is the basis
 Language: eng
 Source: archive.org item lifeofbrighamyou00tull, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (998,858) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1876, out of US copyright by date. OCR quality: clean. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: A life of Young by a writer who calls himself an apostate who loves the Mormon people (preface). Covers Utah's founding. Divisions: Chapters, contents at about line 35 onward; host notes 81 pages of biographical sketches at the end. Editorial matter: Preface lines 24-34; contents; appended biographical sketches. Mixed voices: Includes quoted documents and others' accounts. Cautions: Author's own preface says he is an apostate sympathiser; a Salt Lake-era admiring life, not neutral. Not the 1893 Anderson or 1930 Gates lives. About 150,550 words.
+Content note: Life of Brigham Young; or, Utah and her Founders, by Edward W. Tullidge, New York, 1876. Editorial matter: preface at lines 35-51, in which Tullidge confesses his love for the Mormon people and says he has been an apostate for many years; contents at lines 54-253. Divisions: chapters I-XXXII, Chapter I at line 256 and Chapter XXXII at line 18023; then 'Biographical Sketches, supplementary to Life of Brigham Young' from line 18671, with its own page numbers, starting with Heber C. Kimball. About 150,550 words.
 
 ______________________________________________________________________
 

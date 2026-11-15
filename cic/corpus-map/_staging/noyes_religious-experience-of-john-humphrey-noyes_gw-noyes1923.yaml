@@ -3,7 +3,8 @@ assignments:
 - row_id: noyes_religious-experience-of-john-humphrey-noyes_gw-noyes1923--religious-experience-of-john-humphrey-noyes-founder-of-the
   work: Religious Experience of John Humphrey Noyes, Founder of the Oneida Community. With seventeen illustrations.
   author: noyes
-  locus: Compiler's preface at OCR lines 95-190; add 12 to OCR line numbers; the rest not mapped
+  locus: Editor's preface at OCR lines 95-140; Introduction at OCR lines 143-190; add 12 to OCR line numbers; the
+    rest not mapped
   atlas_ids:
   - oneida-community
   role: tradition
@@ -15,6 +16,6 @@ assignments:
       written
   edition_date:
     year: 1923
-    source: OCR lines 20-40 ('1923')
+    source: OCR line 66, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 180, John Humphrey Noyes: his religious experience, compiled from his writings.'

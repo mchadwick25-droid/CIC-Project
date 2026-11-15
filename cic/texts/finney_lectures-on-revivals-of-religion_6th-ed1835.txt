@@ -1,12 +1,12 @@
 Title: Lectures on Revivals of Religion, by Charles G. Finney, from notes by the editor of the N.Y. Evangelist, revised by the author. Sixth edition, each 2000 copies
 Creator: Charles G. Finney; from notes by the editor of the N. Y. Evangelist, revised by the author
 Publisher: New York: Leavitt, Lord & Co., 180 Broadway; Boston: Crocker & Brewster, 47 Washington-street
-Publication Date: 1835 (page image leaf 6 ('1835'); OCR line 86-90 reads '1 835')
+Publication Date: 1835 (read on the scan's page image, leaf n6; the OCR does not give it cleanly)
 Rights: Public Domain (pd-us-by-date: published 1835); the archive.org record carries no rights field, so the imprint date is the basis
 Language: eng
 Source: archive.org item lecturesonreviva00finn_1, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,310,279) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1835, out of US copyright by date. OCR quality: fair to clean; title page torn and stained but the text reads well; sampled start, middle and end. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Finney's twenty-two Friday-evening lectures on how to promote revivals, as taken down by the Evangelist's editor and revised by him. Divisions: Preface; contents lines 258-370; Lectures I-XXII (Lecture I at line 374, III 1700, IV 2378, V 3426). Editorial matter: Lecturer's preface from ~line 100-250. Mixed voices: none seen; text is from the editor's reports revised by Finney. Cautions: Imprint says sixth edition (1835); no earlier printing located. Finney's preface says the text keeps the editor's reports with light changes. About 207,129 words.
+Content note: Sixth edition, New York, 1835, of Finney's lectures on revivals, printed from notes by the editor of the N. Y. Evangelist and revised by the author. Editorial matter: 'The Lecturer's Preface' at lines 97-193, signed C. G. Finney, which calls them Friday evening discourses; 'Advertisement by the Reporter' at lines 198-255, signed J. L., which says he gave only a sketch of the leading thoughts. Divisions: contents at lines 258-368 list Lectures I-XXII; Lecture I starts at line 374; 'The End' at line 24829. About 207,129 words.
 
 ______________________________________________________________________
 

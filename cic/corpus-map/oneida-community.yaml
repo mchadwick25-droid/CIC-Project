@@ -7,21 +7,19 @@ works:
   work: 'History of American Socialisms. By John Humphrey Noyes. Philadelphia: J. B. Lippincott
     & Co. 1870'
   author: noyes
-  locus: Chapter XLVI The Oneida Community at OCR lines search from line 520 on 'Oneida Community';
-    add 12 to OCR line numbers; the rest not mapped
+  locus: the whole volume; not mapped
   role: tradition
   confidence: provisional
   language: eng
   date:
     start: 1870
     end: 1870
-    source: 'the printing''s own title page: OCR line 74 (''I 870''); verso on page image
-      leaf 9 reads ''in the year 1869''; host date 1870'
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n8; the
+      OCR does not give it cleanly'
     formation_confidence: Documented
   edition_date:
     year: 1870
-    source: OCR line 74 ('I 870'); verso on page image leaf 9 reads 'in the year 1869'; host
-      date 1870
+    source: read on the scan's page image, leaf n8; the OCR does not give it cleanly
     formation_confidence: Documented
   note: 'Era 9 row 180, John Humphrey Noyes: his own writing.'
   source_file: noyes_history-of-american-socialisms_1870.txt
@@ -29,20 +27,19 @@ works:
   work: 'Home-Talks by John Humphrey Noyes. Edited by Alfred Barron and George Noyes Miller.
     Vol. I. Oneida: published'
   author: noyes
-  locus: Editors' preface on how the Talks were taken down at OCR lines 270-320; add 12 to
-    OCR line numbers; the rest not mapped
+  locus: Editors' preface at OCR lines 263-345; add 12 to OCR line numbers; the rest not mapped
   role: tradition
   confidence: provisional
   language: eng
   date:
     start: 1875
     end: 1875
-    source: 'the printing''s own title page: OCR line 121-135 (''l87S'') and page image leaf
-      9 (''in the year 1875'')'
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n8; the
+      OCR at line 165 reads ''l87S'''
     formation_confidence: Documented
   edition_date:
     year: 1875
-    source: OCR line 121-135 ('l87S') and page image leaf 9 ('in the year 1875')
+    source: read on the scan's page image, leaf n8; the OCR at line 165 reads 'l87S'
     formation_confidence: Documented
   note: 'Era 9 row 180, John Humphrey Noyes: his talks to the community.'
   source_file: noyes_home-talks-v1_barron-miller1875.txt
@@ -50,8 +47,8 @@ works:
   work: Religious Experience of John Humphrey Noyes, Founder of the Oneida Community. With
     seventeen illustrations.
   author: noyes
-  locus: Compiler's preface at OCR lines 95-190; add 12 to OCR line numbers; the rest not
-    mapped
+  locus: Editor's preface at OCR lines 95-140; Introduction at OCR lines 143-190; add 12 to
+    OCR line numbers; the rest not mapped
   role: tradition
   confidence: needs-ruling
   language: eng
@@ -61,7 +58,7 @@ works:
       the text was first written
   edition_date:
     year: 1923
-    source: OCR lines 20-40 ('1923')
+    source: OCR line 66, on the title page
     formation_confidence: Documented
   note: 'Era 9 row 180, John Humphrey Noyes: his religious experience, compiled from his writings.'
   source_file: noyes_religious-experience-of-john-humphrey-noyes_gw-noyes1923.txt

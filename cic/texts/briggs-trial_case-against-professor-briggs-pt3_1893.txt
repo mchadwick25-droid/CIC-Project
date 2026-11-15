@@ -1,12 +1,12 @@
 Title: The Defence of Professor Briggs before the General Assembly: The Case against Professor Briggs, Part III
 Creator: No author is printed on the title page
 Publisher: New York: Charles Scribner's Sons
-Publication Date: 1893 (OCR line 52)
+Publication Date: 1893 (OCR line 36, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1893); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item caseagainstprofe0105brig, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (714,542) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1893, out of US copyright by date. OCR quality: clean. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Third part of the record, with Briggs's General Assembly arguments and the 1893 judgment. Divisions: five numbered items on title page (lines 30-45): appeal, Briggs's argument May 24-25 1893, entertainment of the appeal, Briggs's argument May 29-30, final judgment June 1 1893. Editorial matter: publisher's list of works lines 55+. Mixed voices: court papers and Briggs's arguments. Cautions: Part II (Presbytery of New York 1892-93 proceedings) located: caseagainstprofe0104brig, downloaded but not picked. About 107,259 words.
+Content note: Part III of 'The Case against Professor Briggs', also titled 'The Defence of Professor Briggs before the General Assembly', New York, Charles Scribner's Sons, 1893. The title page (lines 16-52) lists five items; a list of Dr. Briggs' works follows from line 55, and a table of contents at line 196. Divisions: I, the Prosecuting Committee's appeal, from line 225; II, Briggs's argument against entertaining the appeal, from line 1669; III, the entertainment of the appeal, from line 5460; IV, Briggs's argument against sustaining the appeal, from line 6044; V, the sustaining of the appeal and the Assembly's judgment, from line 13318, ending with a protest against the sentence. About 107,259 words.
 
 ______________________________________________________________________
 

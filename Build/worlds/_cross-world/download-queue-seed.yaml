@@ -27031,7 +27031,7 @@ queue:
     why: 'Wanted Sources, era 9 row 163, Barton W. Stone: his own Biography.'
     url: https://archive.org/details/biographyofeldba01ston
     rights_basis: 'Public Domain (pd-us-by-date: published 1847); the archive.org record says possible-copyright-status The Library of Congress is unaware of any copyright restrictions for this item., and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 959,248 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 959,248 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: stone_biography-of-elder-barton-warren-stone_rogers1847.txt
   - title: 'Memoirs of Alexander Campbell, embracing a view of the origin, progress and principles of the religious reformation which he advocated. By Robert Richardson. Vol. I'
@@ -27041,7 +27041,7 @@ queue:
     why: 'Wanted Sources, era 9 row 164, Alexander Campbell: a Life (Richardson, vol. 1).'
     url: https://archive.org/details/memoirsalexande00unkngoog
     rights_basis: 'Public Domain (pd-us-by-date: published 1868); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,291,079 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,291,079 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: richardson_memoirs-of-alexander-campbell-v1_1868.txt
   - title: 'Memoirs of Alexander Campbell, embracing a view of the origin, progress and principles of the religious reformation which he advocated. By Robert Richardson. Vol. II'
@@ -27051,7 +27051,7 @@ queue:
     why: 'Wanted Sources, era 9 row 164, Alexander Campbell: a Life (Richardson, vol. 2).'
     url: https://archive.org/details/memoirsalexande00richgoog
     rights_basis: 'Public Domain (pd-us-by-date: published 1870); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,497,937 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,497,937 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: richardson_memoirs-of-alexander-campbell-v2_1870.txt
   - title: 'The Christian Baptist, published monthly. Edited by Alexander Campbell. Vol. V. Bethany, Brooke County, Va. Printed and published by A. Campbell, at the Bethany Printing-Office. 1827-28'
@@ -27061,7 +27061,7 @@ queue:
     why: 'Wanted Sources, era 9 row 164, Alexander Campbell: one volume of the Christian Baptist.'
     url: https://archive.org/details/christianbaptis00campgoog
     rights_basis: 'Public Domain (pd-us-by-date: published 1828); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 894,749 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 894,749 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: campbell_christian-baptist-v5_bethany1828.txt
   - title: 'Lectures on Revivals of Religion, by Charles G. Finney, from notes by the editor of the N.Y. Evangelist, revised by the author. Sixth edition, each 2000 copies'
@@ -27071,7 +27071,7 @@ queue:
     why: 'Wanted Sources, era 9 row 165, Charles G. Finney: Lectures on Revivals of Religion.'
     url: https://archive.org/details/lecturesonreviva00finn_1
     rights_basis: 'Public Domain (pd-us-by-date: published 1835); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,310,279 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,310,279 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: finney_lectures-on-revivals-of-religion_6th-ed1835.txt
   - title: 'Memoirs of Rev. Charles G. Finney, written by himself. New York: A. S. Barnes & Company, 1876'
@@ -27081,7 +27081,7 @@ queue:
     why: 'Wanted Sources, era 9 row 165, Charles G. Finney: his Memoirs.'
     url: https://archive.org/details/memoirsofrevchar00finnuoft
     rights_basis: 'Public Domain (pd-us-by-date: published 1876); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,126,684 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,126,684 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: finney_memoirs-of-rev-charles-g-finney_1876.txt
   - title: 'The Way of Holiness, with notes by the way; being a narrative of experience resulting from a determination to be a Bible Christian. By Mrs. P. Palmer'
@@ -27091,7 +27091,7 @@ queue:
     why: 'Wanted Sources, era 9 row 166, Phoebe Palmer: The Way of Holiness.'
     url: https://archive.org/details/wayofholinesswit00palm
     rights_basis: 'Public Domain (pd-us-by-date: published 1843); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 330,218 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 330,218 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: palmer_way-of-holiness_1843.txt
   - title: 'The Life and Letters of Mrs. Phoebe Palmer, by Rev. Richard Wheatley'
@@ -27101,7 +27101,7 @@ queue:
     why: 'Wanted Sources, era 9 row 166, Phoebe Palmer: a Life with her letters.'
     url: https://archive.org/details/lifelettersofmrs00whea
     rights_basis: 'Public Domain (pd-us-by-date: published 1876); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,557,065 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,557,065 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: wheatley_life-and-letters-of-mrs-phoebe-palmer_1876.txt
   - title: 'The Life of Dwight L. Moody, by his son William R. Moody; Official Authorised Edition; issued by the authorised publishers, 1900'
@@ -27111,7 +27111,7 @@ queue:
     why: 'Wanted Sources, era 9 row 167, Dwight L. Moody: the Life by his son.'
     url: https://archive.org/details/lifeofdwight00mood
     rights_basis: 'Public Domain (pd-us-by-date: published 1900); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,166,868 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,166,868 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: moody-w-r_life-of-dwight-l-moody_1900.txt
   - title: 'Miller''s Works. Views of the Prophecies and Prophetic Chronology, selected from manuscripts of William Miller; with a memoir of his life. Edited by Joshua V. Himes. Volume I'
@@ -27121,7 +27121,7 @@ queue:
     why: 'Wanted Sources, era 9 row 172, William Miller: his own Views of the Prophecies.'
     url: https://archive.org/details/viewsprophecies00himegoog
     rights_basis: 'Public Domain (pd-us-by-date: published 1842); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 487,823 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 487,823 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: miller_views-of-the-prophecies-and-prophetic-chronology_himes1842.txt
   - title: 'Memoirs of William Miller, generally known as a lecturer on the prophecies, and the second coming of Christ, by Sylvester Bliss'
@@ -27131,7 +27131,7 @@ queue:
     why: 'Wanted Sources, era 9 row 172, William Miller: a Life told by a disciple.'
     url: https://archive.org/details/memoirsofwilliam00blis
     rights_basis: 'Public Domain (pd-us-by-date: published 1853); the archive.org record says possible-copyright-status The Library of Congress is unaware of any copyright restrictions for this item., and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,140,373 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,140,373 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: bliss_memoirs-of-william-miller_1853.txt
   - title: 'Life Sketches of Ellen G. White, being a narrative of her experience to 1881 as written by herself; with a sketch of her subsequent labors and of her last sickness, compiled from original sources'
@@ -27141,7 +27141,7 @@ queue:
     why: 'Wanted Sources, era 9 row 173, Ellen G. White: Life Sketches.'
     url: https://archive.org/details/lifesketchesofel00whit
     rights_basis: 'Public Domain (pd-us-by-date: published 1915); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 918,177 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 918,177 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: white_life-sketches-of-ellen-g-white_1915.txt
   - title: 'Applied Christianity: moral aspects of social questions, by Washington Gladden. Boston and New York: Houghton, Mifflin and Company. 1897 (Ninth edition; Copyright 1886)'
@@ -27151,7 +27151,7 @@ queue:
     why: 'Wanted Sources, era 9 row 215, Washington Gladden: Applied Christianity.'
     url: https://archive.org/details/appliedchristian00glad
     rights_basis: 'Public Domain (pd-us-by-date: published 1897); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 505,369 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 505,369 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: gladden_applied-christianity_9th-ed1897.txt
   - title: 'The Defence of Professor Briggs before the Presbytery of New York, December 13, 14, 15, 19, and 22, 1892'
@@ -27161,7 +27161,7 @@ queue:
     why: 'Wanted Sources, era 9 row 216, Charles A. Briggs: his own defence at the trial.'
     url: https://archive.org/details/defenceofprofess00brig
     rights_basis: 'Public Domain (pd-us-by-date: published 1893); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 576,376 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 576,376 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: briggs_defence-before-the-presbytery-of-new-york_1893.txt
   - title: 'The Case against Professor Briggs. I. The Charges and Specifications submitted to the Presbytery of New York, October 5, 1891 ... IX. The Action of the General Assembly in sustaining the Appeal'
@@ -27171,7 +27171,7 @@ queue:
     why: 'Wanted Sources, era 9 row 216, Charles A. Briggs: the trial record, part I.'
     url: https://archive.org/details/caseagainstprofe0103brig
     rights_basis: 'Public Domain (pd-us-by-date: published 1892); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 379,992 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 379,992 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: briggs-trial_case-against-professor-briggs-pt1_1892.txt
   - title: 'The Defence of Professor Briggs before the General Assembly: The Case against Professor Briggs, Part III'
@@ -27181,7 +27181,7 @@ queue:
     why: 'Wanted Sources, era 9 row 216, Charles A. Briggs: the trial record, part III.'
     url: https://archive.org/details/caseagainstprofe0105brig
     rights_basis: 'Public Domain (pd-us-by-date: published 1893); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 714,542 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 714,542 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: briggs-trial_case-against-professor-briggs-pt3_1893.txt
   - title: 'The Presbyterian Review, No. 6, April, 1881 (the first article is ''Inspiration'')'
@@ -27191,7 +27191,7 @@ queue:
     why: 'Wanted Sources, era 9 row 217, A. A. Hodge and B. B. Warfield: Inspiration, Presbyterian Review, April 1881.'
     url: https://archive.org/details/sim_presbyterian-review_1881-04_2_6
     rights_basis: 'Public Domain (pd-us-by-date: published 1881); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 657,563 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 657,563 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: presbyterian-review_v2-no6-april-1881-inspiration.txt
   - title: 'Queries and Answers by David Lipscomb, editor of the Gospel Advocate. Edited by J. W. Shepherd, office editor of the Gospel Advocate. Nashville, Tenn., McQuiddy Printing Company. 1910'
@@ -27201,19 +27201,9 @@ queue:
     why: 'Wanted Sources, era 9 row 218, David Lipscomb: his own writing (the 1906 census letters were not found).'
     url: https://archive.org/details/queriesanswers00lips
     rights_basis: 'Public Domain (pd-us-by-date: published 1910); the archive.org record says possible-copyright-status The Library of Congress is unaware of any copyright restrictions for this item., and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,328,728 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,328,728 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: lipscomb_queries-and-answers_shepherd1910.txt
-  - title: 'Jerry McAuley: his life and work, with introduction by Rev. S. Irenaeus Prime, D.D., and personal sketches by A. S. Hatch, Esq. Edited by Rev. R. M. Offord. Second edition'
-    author: 'Edited by Rev. R. M. Offord; introduction by Rev. S. Irenaeus Prime, D.D.; personal sketches by A. S. Hatch, Esq.'
-    year: '1885'
-    world: the-rescue-mission-movement
-    why: 'Wanted Sources, era 9 row 219, Jerry McAuley: his life and his own account.'
-    url: https://archive.org/details/jerrymcauleyhisl00mcau
-    rights_basis: 'Public Domain (pd-us-by-date: published 1885); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 443,476 equal to the listed size, the volume''s end read'
-    status: downloaded
-    vendored_as: offord_jerry-mcauley-his-life-and-work_2nd-ed1885.txt
   - title: 'History of the Church of Jesus Christ of Latter-day Saints. Period I. History of Joseph Smith, the Prophet. By Himself. Volume I. An Introduction and Notes by B. H. Roberts. Published by the Church'
     author: 'Joseph Smith, the Prophet (by himself); Introduction and notes by B. H. Roberts'
     year: '1902'
@@ -27221,7 +27211,7 @@ queue:
     why: 'Wanted Sources, era 9 row 174, Joseph Smith: his own History.'
     url: https://archive.org/details/historyofchurcho01robe
     rights_basis: 'Public Domain (pd-us-by-date: published 1902); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,746,843 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,746,843 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: smith-joseph_history-of-the-church-v1_roberts1902.txt
   - title: 'Doctrine and Covenants of the Church of the Latter Day Saints: carefully selected from the revelations of God, and compiled by Joseph Smith Junior, Oliver Cowdery, Sidney Rigdon, Frederick G. Williams [Presiding Elders of said Church]. Proprietors. Kirtland, Ohio. Printed by F. G. Williams & Co. for the Proprietors. 1835'
@@ -27231,7 +27221,7 @@ queue:
     why: 'Wanted Sources, era 9 row 174, Joseph Smith: the Doctrine and Covenants.'
     url: https://archive.org/details/GR_711
     rights_basis: 'Public Domain (pd-us-by-date: published 1835); the archive.org record''s rights statement reads: The Newberry makes its collections available for any lawful purpose, commercial or non-commercial, without licensing or permission fees to the library, subject to the following terms and conditions: https://www.newberry.org/rights-and-reproductions'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 743,814 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 743,814 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: latter-day-saints_doctrine-and-covenants_kirtland1835.txt
   - title: 'Biographical Sketches of Joseph Smith, the Prophet, and his Progenitors for many generations. By Lucy Smith, Mother of the Prophet. Published for Orson Pratt by S. W. Richards, 15, Wilton Street. London: sold at the Latter-day Saints'' Book Depot, 35, Jewin Street; and by all booksellers. 1853'
@@ -27241,7 +27231,7 @@ queue:
     why: 'Wanted Sources, era 9 row 174, Joseph Smith: a life told by another (his mother).'
     url: https://archive.org/details/BiographicalSketchesOfJosephSmithTheProphet
     rights_basis: 'Public Domain (pd-us-by-date: published 1853); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 669,211 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 669,211 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: smith-lucy_biographical-sketches-of-joseph-smith_1853.txt
   - title: 'Journal of Discourses by Brigham Young, President of the Church of Jesus Christ of Latter-day Saints, his two Counsellors, the Twelve Apostles, and others. Reported by G. D. Watt, and humbly dedicated to the Latter-day Saints in all the world. Vol. I. Liverpool: published by F. D. and S. W. Richards, 15, Wilton Street. London: Latter-day Saints'' Book Depot, 35, Jewin Street, City. 1854'
@@ -27251,7 +27241,7 @@ queue:
     why: 'Wanted Sources, era 9 row 175, Brigham Young: the Journal of Discourses, vol. 1.'
     url: https://archive.org/details/gtu_32400003383456
     rights_basis: 'Public Domain (pd-us-by-date: published 1854); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,409,990 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,409,990 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: journal-of-discourses_v1_watt1854.txt
   - title: 'Life of Brigham Young; or, Utah and her Founders. By Edward W. Tullidge. New York, 1876'
@@ -27261,7 +27251,7 @@ queue:
     why: 'Wanted Sources, era 9 row 175, Brigham Young: a life told by another.'
     url: https://archive.org/details/lifeofbrighamyou00tull
     rights_basis: 'Public Domain (pd-us-by-date: published 1876); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 998,858 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 998,858 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: tullidge_life-of-brigham-young_1876.txt
   - title: 'Millennial Dawn. ''The path of the just is as the shining light, which shineth more and more unto the perfect day.'' Volume I. The Plan of the Ages. [ ... th thousand] A vindication of the divine character and government ... 1886. Tower Publishing Co., Allegheny, Pa., U.S.A'
@@ -27271,7 +27261,7 @@ queue:
     why: 'Wanted Sources, era 9 row 176, Charles Taze Russell: Millennial Dawn, vol. 1.'
     url: https://archive.org/details/millennialdawn01russgoog
     rights_basis: 'Public Domain (pd-us-by-date: published 1886); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 589,980 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 589,980 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: russell_millennial-dawn-v1-plan-of-the-ages_1886.txt
   - title: 'Science and Health with Key to the Scriptures. By Mary Baker G. Eddy, President of Massachusetts Metaphysical College. One Hundred and Sixty-First Edition. Boston: published by Joseph Armstrong, C.S.D., 95 Falmouth Street. 1899'
@@ -27281,7 +27271,7 @@ queue:
     why: 'Wanted Sources, era 9 row 177, Mary Baker Eddy: Science and Health.'
     url: https://archive.org/details/sciencehealt00eddy
     rights_basis: 'Public Domain (pd-us-by-date: published 1899); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,474,425 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,474,425 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: eddy_science-and-health-with-key-to-the-scriptures_161st-ed1899.txt
   - title: '[Retrospection and Introspection] by Mary Baker G. Eddy, author of ''Science and Health.'' Sixth Thousand. Boston, Mass.: W. G. Nixon, Publisher, 62 Boylston Street. Authorized literature of the First Church of Christ, Scientist, in Boston, Mass'
@@ -27291,7 +27281,7 @@ queue:
     why: 'Wanted Sources, era 9 row 177, Mary Baker Eddy: Retrospection and Introspection.'
     url: https://archive.org/details/retrospectioni00eddy
     rights_basis: 'Public Domain (pd-us-by-date: published 1892); the archive.org record says possible-copyright-status The Library of Congress is unaware of any copyright restrictions for this item., and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 132,307 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 132,307 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: eddy_retrospection-and-introspection_1892.txt
   - title: 'Elpis Israel; a book for the times: being an exposition of the Kingdom of God, with reference to ''the time of the end,'' and ''the age to come.'' By John Thomas, M.D., Richmond, Virginia, United States. London: published by the author; and may be obtained at 3, Brudenell Place, New North Road, Hoxton. 1849. Printed by Charles Beckett, Kingsland Road'
@@ -27301,7 +27291,7 @@ queue:
     why: 'Wanted Sources, era 9 row 178, John Thomas: Elpis Israel.'
     url: https://archive.org/details/elpisisrael18491steditionjohnthomas
     rights_basis: 'Public Domain (pd-us-by-date: published 1849); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,417,442 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,417,442 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: thomas_elpis-israel_1849.txt
   - title: 'History of American Socialisms. By John Humphrey Noyes. Philadelphia: J. B. Lippincott & Co. 1870'
@@ -27311,7 +27301,7 @@ queue:
     why: 'Wanted Sources, era 9 row 180, John Humphrey Noyes: his own writing.'
     url: https://archive.org/details/historyofamerica00noyeuoft
     rights_basis: 'Public Domain (pd-us-by-date: published 1870); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,312,289 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,312,289 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: noyes_history-of-american-socialisms_1870.txt
   - title: 'Home-Talks by John Humphrey Noyes. Edited by Alfred Barron and George Noyes Miller. Vol. I. Oneida: published by the Community. 1875'
@@ -27321,7 +27311,7 @@ queue:
     why: 'Wanted Sources, era 9 row 180, John Humphrey Noyes: his talks to the community.'
     url: https://archive.org/details/hometalks00noyegoog
     rights_basis: 'Public Domain (pd-us-by-date: published 1875); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 448,358 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 448,358 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: noyes_home-talks-v1_barron-miller1875.txt
   - title: 'Religious Experience of John Humphrey Noyes, Founder of the Oneida Community. With seventeen illustrations. Compiled and edited by George Wallingford Noyes. New York: The Macmillan Company. 1923'
@@ -27331,7 +27321,7 @@ queue:
     why: 'Wanted Sources, era 9 row 180, John Humphrey Noyes: his religious experience, compiled from his writings.'
     url: https://archive.org/details/religiousexperie00noye
     rights_basis: 'Public Domain (pd-us-by-date: published 1923); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 755,393 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 755,393 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: noyes_religious-experience-of-john-humphrey-noyes_gw-noyes1923.txt
   - title: 'A Discourse of Matters Pertaining to Religion. By Theodore Parker. Third Edition. Boston: Charles C. Little and James Brown. M.DCCC.XLVII'
@@ -27341,7 +27331,7 @@ queue:
     why: 'Wanted Sources, era 9 row 184, Theodore Parker: his own writing.'
     url: https://archive.org/details/adiscoursematte05parkgoog
     rights_basis: 'Public Domain (pd-us-by-date: published 1847); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 806,810 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 806,810 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: parker_discourse-of-matters-pertaining-to-religion_3rd-ed1847.txt
   - title: 'Ten Sermons of Religion by Theodore Parker, Minister of the Twenty-eighth Congregational Church, in Boston. Second Edition. Boston: Ticknor and Fields. M DCCC LXI'
@@ -27351,7 +27341,7 @@ queue:
     why: 'Wanted Sources, era 9 row 184, Theodore Parker: his sermons.'
     url: https://archive.org/details/tensermonsrelig00parkgoog
     rights_basis: 'Public Domain (pd-us-by-date: published 1861); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 557,663 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 557,663 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: parker_ten-sermons-of-religion_2nd-ed1861.txt
   - title: 'Life and Correspondence of Theodore Parker, Minister of the Twenty-eighth Congregational Society, Boston. By John Weiss. In two volumes. Vol. 1. New York: D. Appleton & Company, 443 & 445 Broadway. 1864'
@@ -27361,7 +27351,7 @@ queue:
     why: 'Wanted Sources, era 9 row 184, Theodore Parker: a Life with his letters (vol. 1).'
     url: https://archive.org/details/lifecorrespondenweis
     rights_basis: 'Public Domain (pd-us-by-date: published 1864); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,640,654 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,640,654 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: weiss_life-and-correspondence-of-theodore-parker-v1_1864.txt
   - title: 'Life and Correspondence of Theodore Parker ... By John Weiss. In two volumes. Vol. II. New York: D. Appleton & Company, 443 & 445 Broadway. 1864'
@@ -27371,7 +27361,7 @@ queue:
     why: 'Wanted Sources, era 9 row 184, Theodore Parker: a Life with his letters (vol. 2).'
     url: https://archive.org/details/lifecorresponden0002weis
     rights_basis: 'Public Domain (pd-us-by-date: published 1864); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,828,845 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,828,845 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: weiss_life-and-correspondence-of-theodore-parker-v2_1864.txt
   - title: 'C. H. Spurgeon''s Autobiography, compiled from his diary, letters, and records, by his wife and his private secretary. Vol. I. 1834-1854'
@@ -27381,7 +27371,7 @@ queue:
     why: 'Wanted Sources, era 9 row 168, Charles Haddon Spurgeon: the Autobiography, vol. 1.'
     url: https://archive.org/details/spurgeonsautobio01spuruoft
     rights_basis: 'Public Domain (pd-us-by-date: published 1897); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,116,489 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,116,489 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: spurgeon_autobiography-v1-1834-1854_1897.txt
   - title: 'The Metropolitan Tabernacle Pulpit. Sermons preached and revised by C. H. Spurgeon, during the year 1870. Vol. XVI'
@@ -27391,7 +27381,7 @@ queue:
     why: 'Wanted Sources, era 9 row 168, Charles Haddon Spurgeon: one volume of the Metropolitan Tabernacle Pulpit.'
     url: https://archive.org/details/metropolitantab02spurgoog
     rights_basis: 'Public Domain (pd-us-by-date: published 1871); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 2,805,907 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 2,805,907 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: spurgeon_metropolitan-tabernacle-pulpit-v16-1870_1871.txt
   - title: 'Journal of the life and religious labours of Elias Hicks. Written by himself'
@@ -27401,17 +27391,17 @@ queue:
     why: 'Wanted Sources, era 9 row 169, Elias Hicks: his Journal.'
     url: https://archive.org/details/journalofliferel01hick
     rights_basis: 'Public Domain (pd-us-by-date: published 1832); the archive.org record says possible-copyright-status The Library of Congress is unaware of any copyright restrictions for this item., and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,148,792 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,148,792 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: hicks_journal-of-the-life-and-religious-labours_1832.txt
-  - title: 'A Declaration of the Yearly Meeting of Friends, held in Philadelphia, respecting the proceedings of those who have lately separated from the Society; and also, showing the contrast between their doctrines and those held by Friends'
+  - title: 'A Declaration of the Yearly Meeting of Friends, held in Philadelphia, respecting the proceedings of those who have lately separated from the Society (1828); bound in this scan with four later Friends'' pamphlets, of 1838 to 1852'
     author: 'Yearly Meeting of Friends held in Philadelphia (Orthodox), no personal author'
     year: '1828'
     world: nineteenth-century-quakerism-separations
     why: 'Wanted Sources, era 9 row 169, Elias Hicks: the Orthodox side''s account.'
     url: https://archive.org/details/cu31924095897249
     rights_basis: 'Public Domain (pd-us-by-date: published 1828); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 401,045 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 401,045 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: philadelphia-yearly-meeting_declaration-respecting-those-who-have-separated_1828.txt
   - title: 'Observations on the religious peculiarities of the Society of Friends, by Joseph John Gurney. ''The kingdom of God is not in word, but in power.'' I Cor. iv. 20'
@@ -27421,7 +27411,7 @@ queue:
     why: 'Wanted Sources, era 9 row 170, Joseph John Gurney: his Observations.'
     url: https://archive.org/details/observationsonre00gu
     rights_basis: 'Public Domain (pd-us-by-date: published 1824); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 758,384 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 758,384 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: gurney_observations-on-the-religious-peculiarities-of-the-society-of-friends_1824.txt
   - title: 'Memoirs of Joseph John Gurney; with selections from his journal and correspondence. Edited by Joseph Bevan Braithwaite. In two volumes. Vol. I'
@@ -27431,7 +27421,7 @@ queue:
     why: 'Wanted Sources, era 9 row 170, Joseph John Gurney: the Memoirs, vol. 1.'
     url: https://archive.org/details/memoirsofjosephj01gurn
     rights_basis: 'Public Domain (pd-us-by-date: published 1854); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,254,121 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,254,121 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: braithwaite_memoirs-of-joseph-john-gurney-v1_1854.txt
   - title: 'Memoirs of Joseph John Gurney; with selections from his journal and correspondence. Edited by Joseph Bevan Braithwaite. In two volumes. Vol. II'
@@ -27441,7 +27431,7 @@ queue:
     why: 'Wanted Sources, era 9 row 170, Joseph John Gurney: the Memoirs, vol. 2.'
     url: https://archive.org/details/memoirsofjosephj02gurn
     rights_basis: 'Public Domain (pd-us-by-date: published 1854); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,333,329 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,333,329 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: braithwaite_memoirs-of-joseph-john-gurney-v2_1854.txt
   - title: 'Memoir of William Knibb, by John Howard Hinton, M.A. Second edition'
@@ -27451,7 +27441,7 @@ queue:
     why: 'Wanted Sources, era 9 row 171, William Knibb: a Life.'
     url: https://archive.org/details/memoirofwilliamk00hint
     rights_basis: 'Public Domain (pd-us-by-date: published 1849); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,415,656 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,415,656 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: hinton_memoir-of-william-knibb_2nd-ed1849.txt
   - title: 'Jamaica: its past and present state, by James M. Phillippo, twenty years a Baptist missionary in that island. Second thousand'
@@ -27461,7 +27451,7 @@ queue:
     why: 'Wanted Sources, era 9 row 171, William Knibb: a fellow missionary''s account of Jamaica.'
     url: https://archive.org/details/jamaicaitspastpr00philuoft
     rights_basis: 'Public Domain (pd-us-by-date: published 1843); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 931,778 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 931,778 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: phillippo_jamaica-its-past-and-present-state_1843.txt
   - title: 'The Collected Writings of Edward Irving. Edited by his nephew the Rev. G. Carlyle, M.A. In five volumes. Vol. V'
@@ -27471,7 +27461,7 @@ queue:
     why: 'Wanted Sources, era 9 row 179, Edward Irving: his collected writings, vol. 5.'
     url: https://archive.org/details/collectedwriting05irvi
     rights_basis: 'Public Domain (pd-us-by-date: published 1866); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,533,769 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,533,769 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: irving_collected-writings-v5_carlyle1866.txt
   - title: 'The Life of Edward Irving, minister of the National Scotch Church, London, illustrated by his journals and correspondence, by Mrs. Oliphant. In two volumes. Vol. I'
@@ -27481,7 +27471,7 @@ queue:
     why: 'Wanted Sources, era 9 row 179, Edward Irving: a Life (vol. 1).'
     url: https://archive.org/details/lifeofedwardirvi01olip
     rights_basis: 'Public Domain (pd-us-by-date: published 1862); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 894,995 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 894,995 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: oliphant_life-of-edward-irving-v1_1862.txt
   - title: 'The Life of Edward Irving ... by Mrs. Oliphant. Vol. II'
@@ -27491,7 +27481,7 @@ queue:
     why: 'Wanted Sources, era 9 row 179, Edward Irving: a Life (vol. 2).'
     url: https://archive.org/details/lifeofedwardirvi02olipuoft
     rights_basis: 'Public Domain (pd-us-by-date: published 1862); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,285,981 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,285,981 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: oliphant_life-of-edward-irving-v2_1862.txt
   - title: 'Memoir of Anthony Norris Groves, compiled chiefly from his journals and letters; to which is added a supplement containing recollections of Miss Paget, and accounts of missionary work in India, &c. By his widow. Third edition'
@@ -27501,7 +27491,7 @@ queue:
     why: 'Wanted Sources, era 9 row 182, Anthony Norris Groves: the memoir by his widow, from his journals and letters.'
     url: https://archive.org/details/memoiranthonyno00grovgoog
     rights_basis: 'Public Domain (pd-us-by-date: published 1859); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,694,272 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,694,272 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: groves_memoir-of-anthony-norris-groves_3rd-ed1859.txt
   - title: 'Journal of a residence at Bagdad, during the years 1830 and 1831, by Anthony N. Groves, missionary'
@@ -27511,7 +27501,7 @@ queue:
     why: 'Wanted Sources, era 9 row 182, Anthony Norris Groves: his journal.'
     url: https://archive.org/details/journalofresiden00grov
     rights_basis: 'Public Domain (pd-us-by-date: published 1832); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 563,141 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 563,141 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: groves_journal-of-a-residence-at-bagdad-1830-1831_1832.txt
   - title: 'Narrative of some of the Lord''s dealings with George Muller, written by himself. Fourth part'
@@ -27521,7 +27511,7 @@ queue:
     why: 'Wanted Sources, era 9 row 183, George Muller: his Narrative, fourth part.'
     url: https://archive.org/details/anarrativesomel00mlgoog
     rights_basis: 'Public Domain (pd-us-by-date: published 1856); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 931,675 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 931,675 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: muller_narrative-of-the-lords-dealings-pt4_1856.txt
   - title: 'Apologia pro vita sua: being a reply to a pamphlet entitled "What, then, does Dr. Newman mean?" (OCR ''APOLOGIA PEO VITA SUA'', ''EM1TLED'')'
@@ -27531,7 +27521,7 @@ queue:
     why: 'Wanted Sources, era 9 row 188, John Henry Newman: the Apologia.'
     url: https://archive.org/details/apologiaprovitaA1bA55aNINSG242186400newmuoft
     rights_basis: 'Public Domain (pd-us-by-date: published 1864); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,089,610 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,089,610 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: newman_apologia-pro-vita-sua_1864.txt
   - title: 'Tracts for the Times. Remarks on certain passages in the Thirty-nine Articles. [The corrections in the Second Edition are put in brackets.] (running head ''VOL. VI.-90'')'
@@ -27541,7 +27531,7 @@ queue:
     why: 'Wanted Sources, era 9 row 188, John Henry Newman: Tract 90.'
     url: https://archive.org/details/remarksoncertain00newmrich
     rights_basis: 'Public Domain (pd-us-by-date: published 1841); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 233,757 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 233,757 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: newman_tract-90-remarks-on-certain-passages-in-the-thirty-nine-articles_2nd-ed1841.txt
   - title: 'National Apostasy considered in a sermon preached in St. Mary''s, Oxford, before His Majesty''s Judges of Assize, on Sunday, July 14, 1833'
@@ -27551,7 +27541,7 @@ queue:
     why: 'Wanted Sources, era 9 row 189, John Keble: the Assize sermon of 1833.'
     url: https://archive.org/details/nationalapostasy00kebl
     rights_basis: 'Public Domain (pd-us-by-date: published 1833); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 37,147 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 37,147 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: keble_national-apostasy-assize-sermon_1833.txt
   - title: 'A Memoir of the Rev. John Keble, M.A. late Vicar of Hursley, by the Right Hon. Sir J. T. Coleridge, D.C.L. Vol. I. Second Edition, with Corrections and Additions'
@@ -27561,7 +27551,7 @@ queue:
     why: 'Wanted Sources, era 9 row 189, John Keble: a Life (vol. 1).'
     url: https://archive.org/details/memoirofcoleridg01coleuoft
     rights_basis: 'Public Domain (pd-us-by-date: published 1869); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 514,519 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 514,519 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: coleridge_memoir-of-the-rev-john-keble-v1_2nd-ed1869.txt
   - title: 'Life of Edward Bouverie Pusey, Doctor of Divinity, Canon of Christ Church; Regius Professor of Hebrew in the University of Oxford, by Henry Parry Liddon, D.D., D.C.L., LL.D.; edited and prepared for publication by the Rev. J. O. Johnston, M.A. and the Rev. Robert J. Wilson, M.A. In four volumes: Vol. I (1800-1836)'
@@ -27571,7 +27561,7 @@ queue:
     why: 'Wanted Sources, era 9 row 190, Edward Bouverie Pusey: Liddon''s Life, vol. 1.'
     url: https://archive.org/details/lifeofedwardbouv01lidd_0
     rights_basis: 'Public Domain (pd-us-by-date: published 1893); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,397,210 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,397,210 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: liddon_life-of-edward-bouverie-pusey-v1_1893.txt
   - title: 'Do all to the Lord Jesus. A sermon, by the Rev. E. B. Pusey, D.D., Regius Professor of Hebrew, Canon of Christ Church, and late Fellow of Oriel College, Oxford'
@@ -27581,7 +27571,7 @@ queue:
     why: 'Wanted Sources, era 9 row 190, Edward Bouverie Pusey: a sermon of his own.'
     url: https://archive.org/details/doalltolordjesus00puse_0
     rights_basis: 'Public Domain (pd-us-by-date: published 1864); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 35,893 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 35,893 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: pusey_do-all-to-the-lord-jesus-sermon_boston1864.txt
   - title: 'Spiritual Letters of Edward Bouverie Pusey, Doctor of Divinity, Canon of Christ Church, Regius Professor of Hebrew in the University of Oxford'
@@ -27591,7 +27581,7 @@ queue:
     why: 'Wanted Sources, era 9 row 190, Edward Bouverie Pusey: his letters.'
     url: https://archive.org/details/spiritualletters00puse
     rights_basis: 'Public Domain (pd-us-by-date: published 1898); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 621,319 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 621,319 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: pusey_spiritual-letters_johnston-newbolt1898.txt
   - title: 'In Darkest England and the Way Out, by General Booth'
@@ -27601,7 +27591,7 @@ queue:
     why: 'Wanted Sources, era 9 row 191, William Booth: In Darkest England and the Way Out.'
     url: https://archive.org/details/indarkestengland00bootuoft
     rights_basis: 'Public Domain (pd-us-by-date: published 1890); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 854,645 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 854,645 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: booth_in-darkest-england-and-the-way-out_1890.txt
   - title: 'Evan Roberts, y Diwygiwr; Evan Roberts a''i waith, gan y Parch. D. M. Phillips, M.A., Ph.D., Tylorstown (title page at OCR lines 250-260)'
@@ -27611,7 +27601,7 @@ queue:
     why: 'Wanted Sources, era 9 row 214, Evan Roberts: a Life, in Welsh.'
     url: https://archive.org/details/evanrobertsaiwai00phil
     rights_basis: 'Public Domain (pd-us-by-date: published 1912); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 830,994 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 830,994 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: phillips_evan-roberts-ai-waith-cym_1912.txt
   - title: 'The Journals of William Clowes, a Primitive Methodist Preacher, containing chronicles of events relative to his unregenerate state, his conversion to God, his call to the ministry, the commencement and progress of the Primitive Methodist Connexion, and to his itinerant labours therein from the year 1810 to that of 1838'
@@ -27621,7 +27611,7 @@ queue:
     why: 'Wanted Sources, era 9 row 222, William Clowes: his Journals.'
     url: https://archive.org/details/journalsofwillia00clow
     rights_basis: 'Public Domain (pd-us-by-date: published 1844); the archive.org record says possible-copyright-status The Library of Congress is unaware of any copyright restrictions for this item., and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 745,106 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 745,106 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: clowes_journals-of-william-clowes_1844.txt
   - title: 'The Life of the Venerable Hugh Bourne, by William Antliff, D.D'
@@ -27631,17 +27621,17 @@ queue:
     why: 'Wanted Sources, era 9 row 222, Hugh Bourne: a Life.'
     url: https://archive.org/details/lifeofvenerableh0000antl
     rights_basis: 'Public Domain (pd-us-by-date: published 1872); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 996,617 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 996,617 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: antliff_life-of-the-venerable-hugh-bourne_1872.txt
-  - title: 'Tractaat van de Reformatie der Kerken, aan de zonen der Reformatie hier te lande op Luthers vierde eeuwfeest [as the host record gives it; OCR of the lettered title is garbled], door Dr. A. Kuyper, Amsterdam, Höveker & Wormser, 1883'
-    author: 'Dr. A. Kuyper (OCR garbled)'
+  - title: 'Tractaat van de Reformatie der Kerken, aan de zonen der Reformatie hier te lande op Luthers vierde eeuwfeest aangeboden door Dr. A. Kuyper (the black-letter title page is garbled in the OCR; these words follow the host record and the page image, leaf n6)'
+    author: 'Dr. A. Kuyper'
     year: '1883'
     world: dutch-neo-calvinism-secession-churches
     why: 'Wanted Sources, era 9 row 193, Abraham Kuyper: a Dutch work of his own.'
     url: https://archive.org/details/tractaatvande00kuyp
     rights_basis: 'Public Domain (pd-us-by-date: published 1883); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 637,329 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 637,329 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: kuyper_tractaat-van-de-reformatie-der-kerken-nld_1883.txt
   - title: 'The Philosophy of Revelation; the Stone Lectures for 1908-1909, Princeton Theological Seminary, by Herman Bavinck, Doctor of Theology, Professor in the Free University of Amsterdam'
@@ -27651,7 +27641,7 @@ queue:
     why: 'Wanted Sources, era 9 row 194, Herman Bavinck: an English print of his own lectures.'
     url: https://archive.org/details/philosophyrevel00bavigoog
     rights_basis: 'Public Domain (pd-us-by-date: published 1909); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 661,246 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 661,246 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: bavinck_philosophy-of-revelation_1909.txt
   - title: 'Magnalia Dei: Onderwijzing in de Christelijke Religie naar Gereformeerde Belijdenis door Dr. H. Bavinck, Hoogleeraar te Amsterdam. Kampen - J. H. Kok - 1909'
@@ -27661,7 +27651,7 @@ queue:
     why: 'Wanted Sources, era 9 row 194, Herman Bavinck: his own summary of doctrine, in Dutch (not the Dogmatiek).'
     url: https://archive.org/details/magnaliadeionder00bavi
     rights_basis: 'Public Domain (pd-us-by-date: published 1909); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,862,907 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,862,907 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: bavinck_magnalia-dei-nld_1909.txt
   - title: 'Der Lutheraner [OCR garbled], ''Gottes Wort und Luthers Lehr'' vergehet nun und nimmermehr.'' Herausgegeben von C. F. W. Walther. Jahrgang 1. St. Louis, Mo., den 1. September 1844. No. 1'
@@ -27671,9 +27661,9 @@ queue:
     why: 'Wanted Sources, era 9 row 196, C. F. W. Walther: Der Lutheraner, the first year.'
     url: https://archive.org/details/DerLutheraner01
     rights_basis: 'Public Domain (pd-us-by-date: published 1844); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 971,987 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 971,987 equal to the listed size, the volume''s end read'
     status: downloaded
-    vendored_as: walther_der-lutheraner-jg1-1844-1845-deu_st-louis1845.txt
+    vendored_as: walther_der-lutheraner-jg1-1844-1845-deu_st-louis1844.txt
   - title: 'What Is Christianity? Sixteen lectures delivered in the University of Berlin during the winter-term 1899-1900. By Adolf Harnack. Translated into English by Thomas Bailey Saunders. London: Williams and Norgate; New York: G. P. Putnam''s Sons. 1901'
     author: 'Adolf Harnack; Thomas Bailey Saunders'
     year: '1901'
@@ -27681,7 +27671,7 @@ queue:
     why: 'Wanted Sources, era 9 row 221, Adolf von Harnack: What Is Christianity?, in English.'
     url: https://archive.org/details/whatischristiani00harn_2
     rights_basis: 'Public Domain (pd-us-by-date: published 1901); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 516,193 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 516,193 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: harnack_what-is-christianity_saunders1901.txt
   - title: 'Das Wesen des Christentums. Sechzehn Vorlesungen vor Studierenden aller Facultäten im Wintersemester 1899/1900 an der Universität Berlin gehalten von Adolf Harnack. Leipzig, J. C. Hinrichs''sche Buchhandlung, 1900'
@@ -27691,7 +27681,7 @@ queue:
     why: 'Wanted Sources, era 9 row 221, Adolf von Harnack: Das Wesen des Christentums.'
     url: https://archive.org/details/daswesendeschris00harn_2
     rights_basis: 'Public Domain (pd-us-by-date: published 1900); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 462,588 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 462,588 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: harnack_das-wesen-des-christentums-deu_1900.txt
   - title: 'Life of Pastor Fliedner of Kaiserswerth. Translated from the German by Catherine Winkworth. London: Longmans, Green, and Co. 1867'
@@ -27701,7 +27691,7 @@ queue:
     why: 'Wanted Sources, era 9 row 223, Theodor Fliedner: a Life, in English.'
     url: https://archive.org/details/lifepastorflied00fliegoog
     rights_basis: 'Public Domain (pd-us-by-date: published 1867); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 320,650 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 320,650 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: fliedner-life_life-of-pastor-fliedner-of-kaiserswerth_winkworth1867.txt
   - title: 'The Institution of Kaiserswerth on the Rhine, for the practical training of deaconesses, under the direction of the Rev. Pastor Fliedner, embracing the support and care of a hospital, infant and industrial schools, and a female penitentiary. London: printed by the inmates of the London Ragged Colonial Training School, 28 St. Ann''s Street, Westminster. 1851'
@@ -27711,7 +27701,7 @@ queue:
     why: 'Wanted Sources, era 9 row 223, the Fliedners: an English account of Kaiserswerth.'
     url: https://archive.org/details/b30473512
     rights_basis: 'Public Domain (pd-us-by-date: published 1851); the archive.org record''s rights statement reads: This work is available under the Creative Commons, Public Domain Mark'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 59,553 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 59,553 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: kaiserswerth_institution-of-kaiserswerth-on-the-rhine_1851.txt
   - title: 'Jubilate! Denkschrift zur Jubelfeier der Erneuerung des apostolischen Diakonissen-Amtes und der fünfzigjährigen Wirksamkeit des Diakonissen-Mutterhauses zu Kaiserswerth a. Rhein. Von Julius Disselhoff. Kaiserswerth, Verlag der Diakonissen-Anstalt. 1886'
@@ -27721,17 +27711,17 @@ queue:
     why: 'Wanted Sources, era 9 row 223, the Fliedners: Kaiserswerth''s own jubilee memoir, in German.'
     url: https://archive.org/details/11522702bsb
     rights_basis: 'Public Domain (pd-us-by-date: published 1886); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,361,884 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,361,884 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: disselhoff_jubilate-denkschrift-kaiserswerth-deu_1886.txt
   - title: 'Twee der eerste geschriften van den eersten leeraar der Christelijke Gereformeerde Kerk in Nederland [OCR reads the title block in pieces]. Kampen, G. Ph. Zalsman. 1882'
-    author: 'Hendrik de Cock (host record; name not read in the OCR title block)'
+    author: 'Issued by Hendrik de Cock; the foreword of 1882 says he published the letters and did not write them (OCR lines 372-376); forewords by his widow and his son'
     year: '1882'
     world: dutch-neo-calvinism-secession-churches
     why: 'Wanted Sources, era 9 row 224, Hendrik de Cock: two of his first writings.'
     url: https://archive.org/details/tweedereerstege00cockgoog
     rights_basis: 'Public Domain (pd-us-by-date: published 1882); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 170,703 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 170,703 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: cock_twee-der-eerste-geschriften-nld_1882.txt
   - title: 'The Blood of Jesus. What is its significance? Meditations on all the New Testament passages in which the expression occurs. By P. Waldenström, Ph.D., Professor of Theology and of Biblical Hebrew and Greek in the College of Gefle, Sweden. Translated from the Swedish and furnished with an introduction and some notes by J. G. Princell. Chicago: John Martenson, Publisher, 1888'
@@ -27741,7 +27731,7 @@ queue:
     why: 'Wanted Sources, era 9 row 225, Paul Petter Waldenstrom: a book of his in English.'
     url: https://archive.org/details/bloodofjesuswhat00wald
     rights_basis: 'Public Domain (pd-us-by-date: published 1888); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 95,810 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 95,810 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: waldenstrom_blood-of-jesus_princell1888.txt
   - title: 'Declarations and Letters on the Vatican Decrees, 1869-1887, by Ignaz von Dollinger. Authorised translation'
@@ -27751,7 +27741,7 @@ queue:
     why: 'Wanted Sources, era 9 row 195, Ignaz von Dollinger: his declarations and letters on the Vatican decrees, in English.'
     url: https://archive.org/details/declarationslett00dolluoft
     rights_basis: 'Public Domain (pd-us-by-date: published 1891); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 291,231 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 291,231 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: dollinger_declarations-and-letters-on-the-vatican-decrees-1869-1887_1891.txt
   - title: 'The Story of the Church of Egypt, being an outline of the history of the Egyptians under their successive masters from the Roman conquest until now, by E. L. Butcher; in two volumes, vol. II'
@@ -27761,17 +27751,17 @@ queue:
     why: 'Wanted Sources, era 9 row 201, Cyril IV: a church history of Egypt before 1931.'
     url: https://archive.org/details/storyofchurchofe02butc
     rights_basis: 'Public Domain (pd-us-by-date: published 1897); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 963,910 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 963,910 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: butcher_story-of-the-church-of-egypt-v2_1897.txt
-  - title: 'Acta et decreta sacrosancti oecumenici concilii Vaticani, cum permultis aliis documentis ad concilium ejusque historiam spectantibus (Collectio Lacensis; the title page in this scan gives no volume number, and the index cites the volume as t. VII)'
+  - title: 'Acta et decreta sacrosancti oecumenici concilii Vaticani, cum permultis aliis documentis ad concilium ejusque historiam spectantibus (a note at OCR line 80 says the volume is tome VII of the Collectio Lacensis)'
     author: 'Auctoribus presbyteris S. J. e domo B. V. M. sine labe conceptae ad Lacum'
     year: '1892'
     world: catholic-church-long-nineteenth-century
     why: 'Wanted Sources, era 9 row 200, Joseph Audo: the acts of the Vatican council.'
     url: https://archive.org/details/actaetdecretasac00unse
     rights_basis: 'Public Domain (pd-us-by-date: published 1892); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 9,083,171 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 9,083,171 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: collectio-lacensis_t7-acta-et-decreta-concilii-vaticani-lat_1892.txt
   - title: 'ЗАПИСКИ ОБЪ ОСТРОВАХЪ УНАЛАШКИНСКАГО ОТДЪЛА, СОСТАВЛЕННЫЯ И. Вениаминовымъ. ЧАСТЬ ПЕРВАЯ. Издано иждивенiемъ Россiйско-Американской компанiи'
@@ -27781,7 +27771,7 @@ queue:
     why: 'Wanted Sources, era 9 row 202, Ioann Veniaminov: his Notes on the Unalaska islands, part 1.'
     url: https://archive.org/details/zapiskiobostrovahunalashkinskogootdelas35
     rights_basis: 'Public Domain (pd-us-by-date: published 1840); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 753,681 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 753,681 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: veniaminov_zapiski-ob-ostrovakh-unalashkinskago-otdela-ch1-rus_1840.txt
   - title: 'ЗАПИСКИ ОБЪ ОСТРОВАХЪ УНАЛАШКИНСКАГО ОТДЪЛА, СОСТАВЛЕННЫЯ И. ВЕНИАМИНОВЫМЪ. ЧАСТЬ ВТОРАЯ. Издано иждивенiемъ Россiйско-Американской компанiи'
@@ -27791,7 +27781,7 @@ queue:
     why: 'Wanted Sources, era 9 row 202, Ioann Veniaminov: his Notes on the Unalaska islands, part 2.'
     url: https://archive.org/details/zapiskiobostrovahunalashkinskogootdelas52
     rights_basis: 'Public Domain (pd-us-by-date: published 1840); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 897,823 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 897,823 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: veniaminov_zapiski-ob-ostrovakh-unalashkinskago-otdela-ch2-rus_1840.txt
   - title: 'Innocent of Moscow, the Apostle of Kamchatka and Alaska, by Charles R. Hale, D.D., Dean of Davenport'
@@ -27801,7 +27791,7 @@ queue:
     why: 'Wanted Sources, era 9 row 202, Ioann Veniaminov: an English account before 1931.'
     url: https://archive.org/details/cihm_15174
     rights_basis: 'Public Domain (pd-us-by-date: published 1888); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 51,281 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 51,281 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: hale_innocent-of-moscow-apostle-of-kamchatka-and-alaska_1888.txt
   - title: 'ПРАВОСЛАВІЕ ВЪ ЯПОНІИ'
@@ -27811,7 +27801,7 @@ queue:
     why: 'Wanted Sources, era 9 row 198, Nikolai of Japan: a Russian account of the Japan mission.'
     url: https://archive.org/details/pravoslavievjaponii45
     rights_basis: 'Public Domain (pd-us-by-date: published 1889); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 48,500 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 48,500 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: pravoslavie-v-iaponii_pravoslavie-v-iaponii-rus_1889.txt
   - title: 'Pamphlets issued by the Chinese insurgents at Nan-king; to which is added a History of the Kwang-se Rebellion, gathered from public documents; and a sketch of the connection between foreign missionaries and the Chinese insurrection; concluding with a critical review of several of the above pamphlets'
@@ -27821,7 +27811,7 @@ queue:
     why: 'Wanted Sources, era 9 row 185, Hong Xiuquan: the kingdom''s own printed books, in translation.'
     url: https://archive.org/details/booksofthaepingd00medh
     rights_basis: 'Public Domain (pd-us-by-date: published 1853); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 712,424 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 712,424 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: medhurst_pamphlets-issued-by-the-chinese-insurgents-at-nan-king_1853.txt
   - title: 'History of the insurrection in China; with notices of the Christianity, creed, and proclamations of the insurgents. By MM. Callery and Yvan. Translated from the French, with a supplementary account of the most recent events, by John Oxenford. Third edition, enlarged'
@@ -27831,7 +27821,7 @@ queue:
     why: 'Wanted Sources, era 9 row 185, Hong Xiuquan: an outside account.'
     url: https://archive.org/details/historyofinsurre00call
     rights_basis: 'Public Domain (pd-us-by-date: published 1854); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 597,910 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 597,910 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: callery-yvan_history-of-the-insurrection-in-china_oxenford1854.txt
   - title: 'Ti-ping Tien-kwoh; the history of the Ti-ping revolution, including a narrative of the author''s personal adventures. By Lin-Le (Lindley)'
@@ -27841,7 +27831,7 @@ queue:
     why: 'Wanted Sources, era 9 row 185, Hong Xiuquan: an account that quotes the record of his visions.'
     url: https://archive.org/details/tipingtienkwohhi01lind
     rights_basis: 'Public Domain (pd-us-by-date: published 1866); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,077,403 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,077,403 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: lindley_ti-ping-tien-kwoh-v1_1866.txt
   - title: 'Journal of an expedition up the Niger and Tshadda rivers, undertaken by Macgregor Laird, Esq., in connection with the British Government, in 1854. By the Rev. Samuel Crowther. With map and appendix'
@@ -27851,7 +27841,7 @@ queue:
     why: 'Wanted Sources, era 9 row 203, Samuel Ajayi Crowther: his journal of 1854.'
     url: https://archive.org/details/journalofexpedit00crow
     rights_basis: 'Public Domain (pd-us-by-date: published 1855); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 437,882 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 437,882 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: crowther_journal-of-an-expedition-up-the-niger-and-tshadda_1855.txt
   - title: 'Journals of the Rev. James Frederick Schon and Mr. Samuel Crowther, who, with the sanction of Her Majesty''s Government, accompanied the expedition up the Niger, in 1841, in behalf of the Church Missionary Society. With appendices and map'
@@ -27861,7 +27851,7 @@ queue:
     why: 'Wanted Sources, era 9 row 203, Samuel Ajayi Crowther: his journal of 1841.'
     url: https://archive.org/details/journalsofrevjam00scho
     rights_basis: 'Public Domain (pd-us-by-date: published 1842); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 636,012 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 636,012 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: schon-crowther_journals-of-the-niger-expedition-of-1841_1842.txt
   - title: 'The Black Bishop: Samuel Adjai Crowther. By Jesse Page, F.R.G.S. With preface by Eugene Stock, D.C.L'
@@ -27871,7 +27861,7 @@ queue:
     why: 'Wanted Sources, era 9 row 203, Samuel Ajayi Crowther: a Life.'
     url: https://archive.org/details/blackbishopsamue00page_0
     rights_basis: 'Public Domain (pd-us-by-date: published 1908); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 953,998 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 953,998 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: page_black-bishop-samuel-adjai-crowther_1908.txt
   - title: 'Hudson Taylor in Early Years: the growth of a soul. By Dr. and Mrs. Howard Taylor. With introduction by Mr. D. E. Hoste. With illustrations, portraits, maps, etc'
@@ -27881,29 +27871,29 @@ queue:
     why: 'Wanted Sources, era 9 row 204, J. Hudson Taylor: a Life (the early years).'
     url: https://archive.org/details/hudsontaylorin00tayl
     rights_basis: 'Public Domain (pd-us-by-date: published 1912); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,329,605 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,329,605 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: taylor-howard_hudson-taylor-in-early-years_1912.txt
-  - title: 'One of China''s Scholars: the early life and conversion of Pastor Hsi, with illustrations. By Mrs. Howard Taylor (nee Geraldine Guinness). Tenth impression'
+  - title: 'One of China''s Scholars: the early life and conversion of Pastor Hsi, by Mrs. Howard Taylor; bound in this scan with Pastor Hsi (of North China): One of China''s Christians, by Mrs. Howard Taylor, twelfth edition (from OCR line 7854)'
     author: 'Mrs. Howard Taylor (nee Geraldine Guinness)'
     year: '1909'
     world: the-missionary-movement-s-native-churches-seramp
     why: 'Wanted Sources, era 9 row 205, Xi Shengmo (Pastor Hsi): a Life (the early life).'
     url: https://archive.org/details/oneofchinasschol00tayluoft
     rights_basis: 'Public Domain (pd-us-by-date: published 1909); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 969,289 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 969,289 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: taylor-howard_one-of-chinas-scholars-pastor-hsi_1909.txt
-  - title: 'Allgemeine Missions-Zeitschrift. Monatshefte fuer geschichtliche und theoretische Missionskunde. Herausgegeben von D. Jul. Richter und D. Joh. Warneck. Fuenfundvierzigster Band'
+  - title: 'Allgemeine Missions-Zeitschrift. Monatshefte fuer geschichtliche und theoretische Missionskunde, herausgegeben von D. Jul. Richter und D. Joh. Warneck; two yearly volumes in one scan, the 45th (Berlin 1918) and the 46th (Berlin 1919, from OCR line 18305)'
     author: 'D. Jul. Richter and D. Joh. Warneck (editors); obituary by D. Joh. Warneck'
     year: '1918'
     world: indonesian-christianity-the-independent-century
     why: 'Wanted Sources, era 9 row 206, Ludwig Ingwer Nommensen: the obituary by J. Warneck.'
     url: https://archive.org/details/allgemeinemissio4546unse
     rights_basis: 'Public Domain (pd-us-by-date: published 1918); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 2,109,169 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 2,109,169 equal to the listed size, the volume''s end read'
     status: downloaded
-    vendored_as: allgemeine-missions-zeitschrift_jg45-1918-deu_berlin1918.txt
+    vendored_as: allgemeine-missions-zeitschrift_jg45-46-deu_berlin1918-1919.txt
   - title: 'Travels, researches, and missionary labours, during an eighteen years'' residence in Eastern Africa; together with journeys to Jagga, Usambara, Ukambani, Shoa, Abessinia, and Khartum; and a coasting voyage from Mombaz to Cape Delgado. By the Rev. Dr. J. Lewis Krapf. With an appendix respecting the snow-capped mountains of Eastern Africa; the sources of the Nile; the languages and literature of Abessinia and Eastern Africa, etc.; and a concise account of geographical researches in Eastern Africa up to the discovery of the Uyenyesi by Dr. Livingstone, by E. G. Ravenstein, F.R.G.S'
     author: 'the Rev. Dr. J. Lewis Krapf; E. G. Ravenstein (appendix)'
     year: '1860'
@@ -27911,7 +27901,7 @@ queue:
     why: 'Wanted Sources, era 9 row 209, Johann Ludwig Krapf: his Travels.'
     url: https://archive.org/details/india.history.resource.70831
     rights_basis: 'Public Domain (pd-us-by-date: published 1860); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 998,457 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 998,457 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: krapf_travels-researches-and-missionary-labours-in-eastern-africa_1860.txt
   - title: 'Chronicles of Uganda. By the Rev. R. P. Ashe, M.A., F.R.G.S., author of Two Kings of Uganda. With portrait and twenty-six illustrations'
@@ -27921,7 +27911,7 @@ queue:
     why: 'Wanted Sources, era 9 row 210, Charles Lwanga: a missionary''s account of Uganda (it does not name him).'
     url: https://archive.org/details/chroniclesofugan00asheiala
     rights_basis: 'Public Domain (pd-us-by-date: published 1895); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 783,734 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 783,734 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: ashe_chronicles-of-uganda_1895.txt
   - title: 'Tiyo Soga: a page of South African mission work. By John A. Chalmers'
@@ -27931,7 +27921,7 @@ queue:
     why: 'Wanted Sources, era 9 row 211, Tiyo Soga: a Life.'
     url: https://archive.org/details/tiyosogapageofso00chal
     rights_basis: 'Public Domain (pd-us-by-date: published 1877); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,023,694 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,023,694 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: chalmers_tiyo-soga-a-page-of-south-african-mission-work_1877.txt
   - title: 'Letters on the moral and religious state of South America, written during a residence of nearly seven years in Buenos Aires, Chile, Peru, and Colombia. By James Thomson. Published by James Nisbet, 21 Berners Street, London'
@@ -27941,7 +27931,7 @@ queue:
     why: 'Wanted Sources, era 9 row 220, James Thomson: his Letters.'
     url: https://archive.org/details/lettersonmorala00thomgoog
     rights_basis: 'Public Domain (pd-us-by-date: published 1827); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 433,325 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 433,325 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: thomson_letters-on-the-moral-and-religious-state-of-south-america_1827.txt
   - title: 'A Brazilian Mystic, being the life and miracles of Antonio Conselheiro. By R. B. Cunninghame Graham'
@@ -27951,6 +27941,76 @@ queue:
     why: 'Wanted Sources, era 9 row 186, Antonio Conselheiro: a second witness in English.'
     url: https://archive.org/details/ABrazilianMystic
     rights_basis: 'Public Domain (pd-us-by-date: published 1920); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
-    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 399,517 equal to the listed size, the volume''s end read'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 399,517 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: cunninghame-graham_brazilian-mystic-antonio-conselheiro_1920.txt
+  - title: 'Jerry McAuley: his life and work, with introduction by Rev. S. Irenaeus Prime, D.D., and personal sketches by A. S. Hatch, Esq. Edited by Rev. R. M. Offord. Second edition'
+    author: 'Edited by Rev. R. M. Offord; introduction by Rev. S. Irenaeus Prime, D.D.; personal sketches by A. S. Hatch, Esq.'
+    year: '1885'
+    world: the-rescue-mission-movement
+    why: 'Wanted Sources, era 9 row 219, Jerry McAuley: his life and his own account.'
+    url: https://archive.org/details/jerrymcauleyhisl00mcau
+    rights_basis: 'Public Domain (pd-us-by-date: published 1885); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the date agrees; the date used is that of the copyright notice at OCR line 40 (''Copyright, 1885''); the title page prints no year (page image, leaf n8)'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 443,476 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: offord_jerry-mcauley-his-life-and-work_2nd-ed1885.txt
+  - title: 'Transformed; or, the History of a River Thief, briefly told. Published by himself'
+    author: 'Jeremiah McAuley (copyright holder)'
+    year: '1876'
+    world: the-rescue-mission-movement
+    why: 'Wanted Sources, era 9 row 219, Jerry McAuley: his own account.'
+    url: https://archive.org/details/transformedorhis00mcaurich
+    rights_basis: 'Public Domain (pd-us-by-date: published 1876); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the date agrees; the date used is that of the copyright notice at OCR line 27 (''Copyright, 1876, by Jeremiah McAuley''); the title page prints no year'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 76,915 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: mcauley_transformed-or-the-history-of-a-new-york-thief_1876.txt
+  - title: 'The Life of Trust: being a narrative of the Lord''s dealings with George Muller, Esq. Edited and condensed by Rev. H. Lincoln Wayland, with an introduction by Francis Wayland'
+    author: 'George Muller; Rev. H. Lincoln Wayland; introduction by Francis Wayland'
+    year: '1868'
+    world: plymouth-brethren-and-dispensational-formation
+    why: 'Wanted Sources, era 9 row 183, George Muller: his Narrative, condensed for American readers.'
+    url: https://archive.org/details/lifeoftrustbeing00mlrich
+    rights_basis: 'Public Domain (pd-us-by-date: published 1868); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,118,563 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: muller_life-of-trust_wayland1868.txt
+  - title: 'The Life of Catherine Booth, the Mother of the Salvation Army, by F. de L. Booth-Tucker, Volume I'
+    author: 'F. de L. Booth-Tucker'
+    year: '1893'
+    world: the-salvation-army
+    why: 'Wanted Sources, era 9 row 191, Catherine Booth: a Life (vol. 1), which tells of her Female Ministry of 1859.'
+    url: https://archive.org/details/lifeofcatherineb01bootiala
+    rights_basis: 'Public Domain (pd-us-by-date: published 1893); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the date agrees; the date used is that of the copyright notice on the title leaf, OCR lines 68-71 (''Entered according to Act of Congress, in the year 1893, by William Booth''); the title page prints no year (page image, leaf n10)'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,490,433 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: booth-tucker_life-of-catherine-booth-v1_1893.txt
+  - title: 'The Story of the Welsh Revival as told by eyewitnesses together with a sketch of Evan Roberts and his message to the world, by Arthur Goodrich, Rev. G. Campbell Morgan, D.D., W. T. Stead, Rev. W. W. Moore, M.A., Rev. Evan Hopkins and others, to which is added a number of incidents of this most remarkable movement'
+    author: 'Arthur Goodrich, G. Campbell Morgan, W. T. Stead, W. W. Moore, Evan Hopkins and others'
+    year: '1905'
+    world: the-1904-07-revival-family-wales-mukti-india-pyo
+    why: 'Wanted Sources, era 9 row 214, Evan Roberts: accounts of the revival printed in 1905.'
+    url: https://archive.org/details/storyofwelshrevi0000unse
+    rights_basis: 'Public Domain (pd-us-by-date: published 1905); the archive.org record carries no rights field, so the date named here is the basis; the date used is that of the copyright notice at OCR line 165 (''Copyright, 1905, by Fleming H. Revell Company''); the title page prints no year'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 171,844 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: story-of-the-welsh-revival_told-by-eyewitnesses_3rd-ed1905.txt
+  - title: 'History of Madagascar, comprising also the progress of the Christian mission established in 1818, and an authentic account of the recent martyrdom of Raparavavy and of the persecution of the native Christians. Compiled chiefly from original documents by the Rev. William Ellis, Foreign Secretary to the London Missionary Society. In two volumes. Vol. I'
+    author: 'the Rev. William Ellis'
+    year: '1838'
+    world: malagasy-christianity
+    why: 'Wanted Sources, era 9 row 208, David Jones and David Griffiths: Ellis, History of Madagascar, vol. 1.'
+    url: https://archive.org/details/b29350943_0001
+    rights_basis: 'Public Domain (pd-us-by-date: published 1838); the archive.org record''s rights statement reads: This work is available under the Creative Commons, Public Domain Mark; the date used is that of the preface, dated ''Pentonville, October 10th, 1838'' (OCR line 247 of vol. 1), with which the library catalogue''s date agrees (Wellcome Library, on the archive.org record: 1838); a plate caption at OCR line 4778 of vol. 1 is also dated 1838; the title pages print no year'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,164,828 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: ellis_history-of-madagascar-v1_1838.txt
+  - title: 'History of Madagascar ... compiled chiefly from original documents by the Rev. William Ellis ... In two volumes. Vol. II'
+    author: 'the Rev. William Ellis'
+    year: '1838'
+    world: malagasy-christianity
+    why: 'Wanted Sources, era 9 row 208, David Jones and David Griffiths: Ellis, History of Madagascar, vol. 2.'
+    url: https://archive.org/details/b29350943_0002
+    rights_basis: 'Public Domain (pd-us-by-date: published 1838); the archive.org record''s rights statement reads: This work is available under the Creative Commons, Public Domain Mark; the date used is that of the preface, dated ''Pentonville, October 10th, 1838'' (OCR line 247 of vol. 1), with which the library catalogue''s date agrees (Wellcome Library, on the archive.org record: 1838); a plate caption at OCR line 4778 of vol. 1 is also dated 1838; the title pages print no year; vol. 2 prints no date of its own'
+    verified_by: 'Library thread, era 9 batch: archive.org metadata read, title page read, djvu.txt fetched, byte count 1,205,945 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: ellis_history-of-madagascar-v2_1838.txt

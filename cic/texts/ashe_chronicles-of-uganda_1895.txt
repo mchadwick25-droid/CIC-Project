@@ -1,12 +1,12 @@
 Title: Chronicles of Uganda. By the Rev. R. P. Ashe, M.A., F.R.G.S., author of Two Kings of Uganda. With portrait and twenty-six illustrations
 Creator: the Rev. R. P. Ashe, M.A., F.R.G.S.
 Publisher: New York: D. F. Randolph & Co., 182 Fifth Avenue
-Publication Date: 1895 (OCR lines 49-52)
+Publication Date: 1895 (OCR line 52, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1895); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees
 Language: eng
 Source: archive.org item chroniclesofugan00asheiala, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (783,734) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1895, out of US copyright by date. OCR quality: clean to fair. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: A CMS missionary's narrative of Buganda from the first missionaries to the 1890s, including the persecution of the young Christians. Divisions: chapters; contents from line 243; index at end from about 16900. Editorial matter: index at end. Mixed voices: author's narrative with reported speech. Cautions: Does not name Charles Lwanga (only a chief's place name). The Catholic account naming him, Walsh 1920 (blnegromartyrsof00wals), was not taken: no year on its title page. About 116,463 words.
+Content note: Chronicles of Uganda by the Rev. R. P. Ashe, New York, D. F. Randolph and Co., 1895. Editorial matter: a dedication letter to Archdeacon Walker at lines 55-79, dated November 1894; a preface from line 113, in which Ashe says he wanted a continuous story of the events that led to Uganda's becoming an English Protectorate and tried to write from the standpoint of the native actors. Divisions: contents from line 243 in Books I-IV; list of illustrations from line 358; Book I starts at line 432; appendices A-D from line 14735; index from line 15210; index of native words and phrases from line 16938. About 116,463 words.
 
 ______________________________________________________________________
 

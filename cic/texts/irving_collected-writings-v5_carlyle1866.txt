@@ -1,12 +1,12 @@
 Title: The Collected Writings of Edward Irving. Edited by his nephew the Rev. G. Carlyle, M.A. In five volumes. Vol. V
 Creator: Edward Irving; the Rev. G. Carlyle, M.A.
 Publisher: London and New York: Alexander Strahan
-Publication Date: 1866 (OCR line 27-40 (1866))
+Publication Date: 1866 (OCR line 38, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1866); the archive.org record carries no rights field, so the imprint date is the basis
 Language: eng
 Source: archive.org item collectedwriting05irvi, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (1,533,769) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1866, out of US copyright by date. OCR quality: clean to fair. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Irving's Christology: the Incarnation, the humanity of Christ and the Church. Divisions: five chapters (Doctrine of the Incarnation Opened), contents lines 45-110. Editorial matter: editor's preface; final lines include Irving's defence against abuse. Cautions: Only vol. 5 of 5. Other volumes located: collectedwriting01irvi..04irvi (1866), collectedwriting00irviuoft, collectedwriting02irviuoft (1864). About 240,993 words.
+Content note: Vol. V of five, edited by Irving's nephew, the Rev. G. Carlyle; London and New York, Alexander Strahan, 1866. Divisions: contents at lines 41-134 list 'The Doctrine of the Incarnation Opened' (preface, epistle dedicatory, and parts I-VI), 'The Church, with her Endowment of Holiness and Power', 'On the Gifts of the Holy Ghost commonly called Supernatural', and an appendix to the treatise on the Incarnation. The preface to the treatise starts at line 147. The appendix starts at line 24122 and ends at line 24292, signed Edward Irving, National Scotch Church, London, January 1830. About 240,993 words.
 
 ______________________________________________________________________
 

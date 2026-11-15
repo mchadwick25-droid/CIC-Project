@@ -1,12 +1,12 @@
 Title: Observations on the religious peculiarities of the Society of Friends, by Joseph John Gurney. 'The kingdom of God is not in word, but in power.' I Cor. iv. 20
 Creator: Joseph John Gurney
 Publisher: London: published by J. and A. Arch, Cornhill; William Alexander and Son, York; S. Wilkin, Norwich; A. Constable and Co., Edinburgh
-Publication Date: 1824 (OCR line 25-45 (1824))
+Publication Date: 1824 (OCR line 51, on the title page)
 Rights: Public Domain (pd-us-by-date: published 1824); the archive.org record carries no rights field, so the imprint date is the basis
 Language: eng
 Source: archive.org item observationsonre00gu, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (758,384) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1824, out of US copyright by date. OCR quality: clean to fair, Princeton scan. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Gurney's first book setting out Friends' views, a key text of his Evangelical Quakerism. Divisions: chapters of the treatise; preface line 64. Editorial matter: preface from line 64. Cautions: The wanted title 'Observations on the Distinguishing Views and Practices' is the later (1834 and after) name; the 1824 title is 'Religious Peculiarities'. Later ids: observationsond00gurngoog (1834), observationsondi00gurn (1860). About 113,272 words.
+Content note: A treatise by Joseph John Gurney on the religious peculiarities of the Society of Friends (London, J. and A. Arch, 1824; printed by S. Wilkin, Norwich). Divisions: title page at lines 28-51; the author's preface from line 64; contents from line 215, listing chapters I-XII; the text from chapter I at line 291; chapter XII at line 11441; 'Conclusion' from line 13348; 'The End' at line 14062, followed by the printer's line. About 113,272 words.
 
 ______________________________________________________________________
 
