@@ -59,7 +59,7 @@
     "On 2 December 1216 Honorius III ordered the bishop of Lucca to stop defaming the abbot and monks of Fiore as heretics on the ground that Innocent, with the council's approval, had condemned Joachim's tract. A letter of Honorius dated 27 December 1220, as the Bollandists print it, orders it proclaimed through all Calabria that he holds Joachim to have been a Catholic man; Henry Charles Lea also dates to 1220 a bull calling Joachim a good Catholic.",
     "The censure of Joachim passed into Gregory IX's Decretals, as Heinrich Denifle notes, and in 1255 the commission at Anagni judged that a passage of Joachim's Concordia seemed still to assert the heresy condemned in the Lateran council.",
     "The Franciscan Salimbene wrote that the pope had ordained that there should be no new order of religious mendicants, but that this was not kept, through the negligence of the prelates. At Lyon in 1274 the Lateran canon was renewed, and the Carmelites and Augustinians were allowed to exist on sufferance, by Lea's account.",
-    "At Trent, the canon on confession anathematizes anyone who says the faithful are not bound to confess once a year according to the constitution of the great Lateran council (Mirbt).",
+    "At Trent, the eighth canon on penance anathematizes anyone who says the faithful are not bound to confess once a year according to the constitution of the great Lateran council (Mirbt).",
     "By the end of March 1217 Jacques de Vitry could write that the patriarch of the Maronites, with his archbishops, bishops and people, had left all errors and submitted to the Catholic faith and the obedience of the Roman church.",
     "Nearly six centuries later the Pedalion, the Orthodox canon-law book of Agapios and Nikodemos of Mount Athos (first printed in 1800), called the council a local synod held in the Lateran of Rome in 1215. It cited canon 4 as proof, by the testimony of the Greeks' own enemies, that the Easterners then baptized Westerners who came over."
   ],
@@ -257,12 +257,12 @@
   "briefLength": "about 2 minutes 30 seconds",
   "uncertain": [
     "No account from inside the sessions is among our sources, and the canons are held only in extracts printed by Mirbt and Denzinger and in the Bollandists' quotation of canon 13. Canons 67 to 70, on the Jews, are not among them; the full acts, in Mansi tome 22, are not held.",
-    "The count: Hethum gives 422 bishops and 72 archbishops; al-Duwayhi, a second witness only, gives 411 bishops; the notice in Mansi's count is unreadable in our copy. No source among ours gives a number of abbots.",
+    "The count: Hethum gives 422 bishops and 72 archbishops; al-Duwayhi, a second witness only, gives 411 bishops; the count in the notice in Mansi is unreadable in our copy. No source among ours gives a number of abbots.",
     "The days, 11 to 30 November, are Mirbt's dating, and the opening on 11 November is also Alishan's; Alishan wrongly calls it a council held at Lyon. No source we draw on from the time gives a month or day. The Annals of Ulster and of Kilronan enter the council under 1216.",
     "Whether the council was general or local: Denzinger and the notice in Mansi number it the twelfth ecumenical council, and Vitry and the Irish annals call it general; the Pedalion calls it a local synod, and John Covel, an Anglican writer of 1722, calls it a pretended general council.",
     "Whether Francis was there rests on Glassberger alone.",
     "What canon 13 forbade: the Bollandists' quotation forbids any new religious order; Salimbene reads it as a ban on new orders of mendicants.",
-    "Innocent's death day: the notice in Mansi, after Burchard of Ursberg, and Glassberger give the sixteenth day before the Kalends of August (17 July); the catalogue printed by Ehrle gives the tenth (23 July).",
+    "Innocent's death day: the notice in Mansi, after the Ursberg chronicler, and Glassberger give the sixteenth day before the Kalends of August (17 July); the catalogue printed by Ehrle gives the tenth (23 July).",
     "The 1220 letter on Joachim: our copy prints two columns interleaved, so the passage on Calabria and the date of 27 December 1220 are read as part of Honorius's letter to the archbishop of Cosenza and the bishop of Bisignano; Lea agrees on a bull of 1220.",
     "The Maronite patriarch's name, and the pallium al-Duwayhi says the pope gave him, rest on al-Duwayhi alone, read as a second witness."
   ],
@@ -302,7 +302,7 @@
       },
       {
         "title": "Letters I and II (1216-1217)",
-        "author": "Jacques de Vitry, ed. Reinhold Röhricht",
+        "author": "Jacques de Vitry, ed. R. Röhricht",
         "language": "Latin",
         "file": "cic/texts/jacques-de-vitry_briefe-in-zeitschrift-fuer-kirchengeschichte-14-lat-deu_rohricht1894.txt"
       },
@@ -338,7 +338,7 @@
       },
       {
         "title": "Tarikh al-ta'ifa al-maruniyya (History of the Maronites)",
-        "author": "Istifan al-Duwayhi, ed. Rashid al-Shartuni",
+        "author": "Istifan al-Duwayhi, ed. Rashid al-Khuri al-Shartuni",
         "language": "Arabic",
         "file": "cic/texts/duwayhi_tarikh-al-ta-ifa-al-maruniyya-ara_shartuni1890.txt"
       },
