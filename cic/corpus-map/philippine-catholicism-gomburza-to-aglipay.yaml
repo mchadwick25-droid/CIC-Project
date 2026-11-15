@@ -3,34 +3,6 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: philippine-catholicism-gomburza-to-aglipay
 works:
-- row_id: aglipay_catequesis-de-la-iglesia-filipina-independiente-spa_1912--catequesis-de-la-iglesia-filipina-independiente-por-el-emmo
-  work: Catequesis de la Iglesia Filipina Independiente por el Emmo. Sr. Gregorio Aglipay
-    y Labáyan, Obispo Máximo de
-  author: aglipay
-  locus: regulations for the committees of gentlemen and the commissions of ladies, signed
-    by Aglipay, at lines 5777-6106; the rest not mapped
-  role: tradition
-  confidence: provisional
-  language: spa
-  date:
-    start: 1912
-    end: 1912
-    source: 'the dated prologue at line 1342 of this file (''Madrid, á 25 de Mayo de 1912.''),
-      with which the library catalogue record of the item agrees (MARC 260: ''Manila, I. de
-      Los Reyes, 1912.''); the title page cannot be read in the OCR, and the title and publisher
-      in this header are from the catalogue record'
-    formation_confidence: Documented
-  edition_date:
-    year: 1912
-    source: 'the dated prologue at line 1342 of this file (''Madrid, á 25 de Mayo de 1912.''),
-      with which the library catalogue record of the item agrees (MARC 260: ''Manila, I. de
-      Los Reyes, 1912.''); the title page cannot be read in the OCR, and the title and publisher
-      in this header are from the catalogue record'
-    formation_confidence: Documented
-  note: 'Era 9 row 280, Gregorio Aglipay: the church''s catechism. The church''s own text
-    in a printing of 1912, six years after the entry''s window closes; the first printing
-    is not held.'
-  source_file: aglipay_catequesis-de-la-iglesia-filipina-independiente-spa_1912.txt
 - row_id: blair-robertson_philippine-islands-v52_1907--the-philippine-islands-1493-1898-explorations-by-early
   work: 'The Philippine Islands 1493-1898: Explorations by Early Navigators, Descriptions
     of the Islands and their'

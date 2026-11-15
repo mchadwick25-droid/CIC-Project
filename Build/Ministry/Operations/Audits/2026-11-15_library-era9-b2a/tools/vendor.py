@@ -10,7 +10,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import build_strip
 def q(s): return "'" + s.replace("'", "''") + "'"
 def main():
-    spec = json.load(open(sys.argv[1])); dry = "--dry" in sys.argv
+    spec = json.load(open(sys.argv[1])); dry = "--dry" in sys.argv; ronly = "--registry-only" in sys.argv
     reg = []; seed = []
     for s in spec:
         raw = open(s["src"], "rb").read()
@@ -47,7 +47,7 @@ def main():
         st = {"source_file": s["filename"], "assignments": s["rows"]}
         reg.append(f'- filename: {s["filename"]}\n  supplied_by: {q("Claude (Library thread, Church Family Tree wants, " + BATCH + ": located on archive.org, item metadata read, title page read, djvu.txt fetched directly, byte count equal to the host" + chr(39) + "s listed size, the volume" + chr(39) + "s end read)")}\n  date_added: \'2026-11-15\'\n  notes: {q(s["title"] + ". " + rights + ". Archive item " + s["ia_id"] + ". OCR quality: " + s["ocr"] + " CONTENTS: " + s["content"] + " WANT: " + s["want"])}\n')
         seed.append(f'  - title: {q(s["title"])}\n    author: {q(s["seed_author"])}\n    year: \'{s["year"]}\'\n    world: {s["seed_world"]}\n    why: {q(s["why"])}\n    url: https://archive.org/details/{s["ia_id"]}\n    rights_basis: {q(rights)}\n    verified_by: {q(f"Library thread, {BATCH}: archive.org metadata read, title page read, djvu.txt fetched, byte count {n:,} equal to the listed size, the volume" + chr(39) + "s end read")}\n    status: downloaded\n    vendored_as: {s["filename"]}\n')
-        if not dry:
+        if not dry and not ronly:
             p = f'{R}/cic/texts/{s["filename"]}'
             assert not os.path.exists(p), p
             open(p, "wb").write(out)

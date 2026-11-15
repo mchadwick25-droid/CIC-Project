@@ -19,7 +19,7 @@ the Dictionary of African Christian Biography.
 
 | host | state from this sandbox | used |
 |---|---|---|
-| archive.org (advancedsearch, metadata, MARC record, djvu.txt, page images) | reachable | all 74 files |
+| archive.org (advancedsearch, metadata, MARC record, djvu.txt, page images) | reachable | all 73 files |
 | dbnl.org | its robots file disallows every automated client except two named search engines, and a search request was answered 429 | not used; see the hand-fetch list |
 | HathiTrust, Papers Past, prlib.ru | refuse automated clients | not tried; see the hand-fetch list |
 | gallica, books.google downloads, MDZ, documentacatholicaomnia | blocked or broken, by the earlier logs | not tried again |
@@ -60,7 +60,7 @@ Aggressive Christianity (Boston; "Entered ... in the year 1883") and Godliness (
 
 Taken on a dated preface that the catalogue record agrees with: Stern, The Captive Missionary (preface of 26
 October 1868; MARC "[1868]"); Documentos interesantes de la Iglesia Filipina Independiente (January 1906; MARC
-1906); Aglipay's Catequesis (prologue of 25 May 1912; MARC 1912); Macedo Costa, A Questao Religiosa (prefixed
+1906); Macedo Costa, A Questao Religiosa (prefixed
 letters of December 1886; MARC 1886; two prefixed letters are dated January 1887).
 
 Not taken, because neither test is met:
@@ -96,6 +96,8 @@ Not taken, because neither test is met:
 - `fiftythreeyearsi0000jess` (Jessup, vol. 1): a lending-library scan. Replaced by `fiftythreeyears00unkngoog`.
 - `thechurchofarmen00ormauoft` (Ormanian, The Church of Armenia, 1912): held already.
 - `brazilianmystic00cunn` (Cunninghame Graham): held already, from batch 1.
+- `ajh3759.0001.001.umich.edu` (Aglipay, Catequesis, the printing of 1912): vendored and reviewed here, then
+  dropped at the merge with main, where the era 10 batch had vendored the same item under the same name.
 - The Chronicle of Menelik II: the host file holds tome I (Paris 1930) and tome II (Paris 1932). Only tome I
   was taken; the file is cut before tome II's title page, and its header says so.
 

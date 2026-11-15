@@ -844,12 +844,12 @@ are left for the next batches. One want was held already.
 
 ## Era 9 (1815-1906), batch 2a (2026-11-15): Africa, Asia, Oceania, Latin America, the Caribbean and the Eastern churches
 
-Seventy-four files for the era 9 person rows of
+Seventy-three files for the era 9 person rows of
 `Build/Ministry/Operations/Audits/2026-11-12_wanted-sources-combined/Wanted_Sources.md` that lie outside
 Britain, Europe and North America (rows 226, 246-248, 263-266, 279-322 and 324-326), with batch 1's not-found
 rows tried by new routes and the date checks batch 1 left owing. The search record is
-`Build/Ministry/Operations/Audits/2026-11-15_library-era9-b2a/Search_Log.md`. Twenty-eight files are in the
-tradition's own language: Russian (7), Spanish (6), French (5), Portuguese (3), Ukrainian (2), Dutch (2),
+`Build/Ministry/Operations/Audits/2026-11-15_library-era9-b2a/Search_Log.md`. Twenty-seven files are in the
+tradition's own language: Russian (7), Spanish (5), French (5), Portuguese (3), Ukrainian (2), Dutch (2),
 Greek, German and Italian (1 each). Every file rests on a printed year of 1930 or earlier; the header of each
 names where the year stands. At intake Google's preamble and the lines that hold only the scanner's page mark
 were removed, and each header says what was removed. In three Google scans (Jessup vol. 1, My Life in Christ,
@@ -883,7 +883,7 @@ November; the table of batch 1 above shows the roles as they now stand. No row o
 | era 9 row 279, Andrey Sheptytsky: his book for the Ruthenians of Canada | filled | `sheptytsky_kanadiiskym-rusynam-ukr_1911.txt` (1911); 20,317 words; ukr | ruthenian-greek-catholic-polotsk-to-galicia, tradition |
 | era 9 row 280, Isabelo de los Reyes: his memorial on the revolution of 1896-97 | filled | `reyes_la-sensacional-memoria-spa_1899.txt` (1899); 45,366 words; spa | philippine-catholicism-gomburza-to-aglipay, tradition |
 | era 9 row 280, Gregorio Aglipay: documents of the Iglesia Filipina Independiente | filled | `iglesia-filipina-independiente_documentos-interesantes-spa_1906.txt` (1906); 10,653 words; spa | philippine-catholicism-gomburza-to-aglipay, tradition |
-| era 9 row 280, Gregorio Aglipay: the church's catechism | filled | `aglipay_catequesis-de-la-iglesia-filipina-independiente-spa_1912.txt` (1912); 42,606 words; spa | philippine-catholicism-gomburza-to-aglipay, tradition |
+| era 9 row 280, Gregorio Aglipay: the church's catechism | held already | `aglipay_catequesis-de-la-iglesia-filipina-independiente-spa_1912.txt` (vendored by the era 10 batch) | — |
 | era 9 row 281, Apolinario de la Cruz: a note on the Cofradia de San Jose | filled | `blair-robertson_philippine-islands-v52_1907.txt` (1907); 109,796 words; eng | philippine-catholicism-gomburza-to-aglipay, context |
 | era 9 row 282, Niijima Jo: a Life with his letters | filled | `hardy_life-and-letters-of-joseph-hardy-neesima_1891.txt` (1891); 109,790 words; eng | japanese-christianity-hidden-emergence-meiji, context |
 | era 9 row 282, Niijima Jo: a sketch of his life by a colleague | filled | `davis_sketch-of-the-life-of-rev-joseph-hardy-neesima_1890.txt` (1890); 37,841 words; eng | japanese-christianity-hidden-emergence-meiji, context |
@@ -988,12 +988,11 @@ November; the table of batch 1 above shows the roles as they now stand. No row o
   names each); Wylie's Memorials; the Memoir of Asaad Esh Shidiak (the host names Isaac Bird); Mackay ('by his
   sister'); the Valaam book; the Optina history ('E. V.'); the materials on Makary ('D. D. Fil-nova'); Lindley
   ('Lin-Le'); Dom Vital ('pelo mesmo Bispo'); the collection of concordats (its foreword is signed Angelo
-  Mercati). The title pages of the two Iglesia Filipina Independiente books and of Macedo Costa cannot be read
+  Mercati). The title pages of the Documentos interesantes and of Macedo Costa cannot be read
   in the OCR; their titles are from the catalogue record.
 - **Later editions and printings.** Bleby (third edition, 1868); Joel Bulu (second, 1884); Darby's Studies
   (third, 1864) and Dialogues (second, 1863); Theophan's Bogougodnaia zhizn (second, 1899); Mackay (tenth
-  thousand, 1891); Ellis's Martyr Church (third thousand, 1870); Aglipay's Catequesis (a printing of 1912, not
-  the first); Aggressive Christianity (the American printing of 1883); Klein (a 'nouvelle edition', 1897).
+  thousand, 1891); Ellis's Martyr Church (third thousand, 1870); Aggressive Christianity (the American printing of 1883); Klein (a 'nouvelle edition', 1897).
 - **Part of a larger work.** Vol. 1 only: Kireevsky; John of Kronstadt in Russian. Vol. 2 only: Lynch, Louvet,
   Launay, Morrison's Memoirs. Lindley's vol. 2 joins vol. 1 from batch 1. Blair and Robertson is vol. 52. The
   Chronicle of Menelik II is tome I only: the host file also holds tome II (1932), which was cut away. Jessup
@@ -1003,7 +1002,7 @@ November; the table of batch 1 above shows the roles as they now stand. No row o
   laws. In the collection of concordats the Haitian concordat of 1860 is no. CVIII, in Italian and French
   columns that the OCR interleaves; it names Fabre Geffrard.
 - **Dates.** No year on the title page: Hardy, Uchimura, Jessup (both volumes), both Catherine Booth books,
-  Stern, the two Iglesia Filipina Independiente books and Macedo Costa; each header names the copyright notice
+  Stern, the Documentos interesantes and Macedo Costa; each header names the copyright notice
   or the dated preface used. Macedo Costa's book carries two prefixed letters of January 1887 against the
   catalogue's 1886. A Guerra de Canudos prints 1902 on its title page; the OCR misreads it as 1903.
 - **Row 308, Boru Meda.** The Chronicle of Menelik II has a chapter on the assembly at 'Borou-Mieda'; its

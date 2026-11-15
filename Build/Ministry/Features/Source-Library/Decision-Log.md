@@ -663,7 +663,7 @@ council records, the held eras 8-9 items, and the texts of this batch still owed
 
 ## Era 9, batch 2a: Africa, Asia, Oceania, Latin America, the Caribbean and the Eastern churches (2026-11-15)
 
-Seventy-four files for the era 9 person rows outside Britain, Europe and North America, with batch 1's
+Seventy-three files for the era 9 person rows outside Britain, Europe and North America, with batch 1's
 not-found rows tried again and its owed date checks done. Record:
 `Build/Ministry/Operations/Audits/2026-11-15_library-era9-b2a/Search_Log.md`; the rows are in `CFT-Wants.md`,
 "Era 9 (1815-1906), batch 2a".
@@ -692,8 +692,7 @@ link only (CC BY-NC 4.0, under R3).
   entry (Casalis, Jessup, Hannington's journals, Bleby, Mary Mead Clark). A history or Life compiled by
   another is `context` (Ellis, Freeman and Johns, Louvet, Launay, Dawson, Bond). Captives, consuls and soldiers
   are `context` (Stern, Blanc, Wylde, Meadows, Brine, Macedo Soares). A text of the tradition printed a few
-  years after its entry's window stays `tradition`, with the year in the note (Sheptytsky 1911, Jessup 1910,
-  Aglipay's Catequesis 1912). No outside witness in this batch lacks a census entry, so no census gap is logged.
+  years after its entry's window stays `tradition`, with the year in the note (Sheptytsky 1911, Jessup 1910). No outside witness in this batch lacks a census entry, so no census gap is logged.
 - A copyright notice or a dated preface stands for the date only where the rule's test is met in full. Kuyper's
   Stone Lectures, A Retrospect, Walsh and the London sermon of Aggressive Christianity fail it and stay out.
   A censor's leaf without a catalogue record to agree (Makary Glukharev's Mysli, 1894) stays out too.

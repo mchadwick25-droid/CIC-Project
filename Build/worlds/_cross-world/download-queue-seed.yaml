@@ -28554,16 +28554,6 @@ queue:
     verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 65,710 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: iglesia-filipina-independiente_documentos-interesantes-spa_1906.txt
-  - title: 'Catequesis de la Iglesia Filipina Independiente por el Emmo. Sr. Gregorio Aglipay y Labáyan, Obispo Máximo de dicha Iglesia, aprobada por el Consejo Supremo de Obispos. Prólogo del Pbro. José Ferrándiz'
-    author: 'Gregorio Aglipay y Labáyan; prólogo del Pbro. José Ferrándiz'
-    year: '1912'
-    world: philippine-catholicism-gomburza-to-aglipay
-    why: 'Wanted Sources, era 9 row 280, Gregorio Aglipay: the church''s catechism.'
-    url: https://archive.org/details/ajh3759.0001.001.umich.edu
-    rights_basis: 'Public Domain (pd-us-by-date: published 1912); the archive.org record carries no rights field, so the date named here is the basis; the date used is that of the dated prologue at line 1342 of this file (''Madrid, á 25 de Mayo de 1912.''), with which the library catalogue record of the item agrees (MARC 260: ''Manila, I. de Los Reyes, 1912.''); the title page cannot be read in the OCR, and the title and publisher in this header are from the catalogue record'
-    verified_by: 'Library thread, era 9 batch 2a: archive.org metadata read, title page read, djvu.txt fetched, byte count 260,041 equal to the listed size, the volume''s end read'
-    status: downloaded
-    vendored_as: aglipay_catequesis-de-la-iglesia-filipina-independiente-spa_1912.txt
   - title: 'The Philippine Islands 1493-1898: Explorations by Early Navigators, Descriptions of the Islands and their Peoples, their History and Records of the Catholic Missions, as related in contemporaneous Books and Manuscripts [...] Translated from the originals. Volume LII - 1841-1898'
     author: 'Edited and annotated by Emma Helen Blair and James Alexander Robertson; with historical introduction and additional notes by Edward Gaylord Bourne'
     year: '1907'

@@ -8,7 +8,7 @@ Written 2026-11-15 by the era 9 batch 2a thread, for batch 2b (Britain, Europe, 
 
 ## Where batch 2a stands
 
-- Branch `claude/library-era9-b2a`: 74 files for rows 226, 246-248, 263-266, 279-322 and 324-326, and for
+- Branch `claude/library-era9-b2a`: 73 files for rows 226, 246-248, 263-266, 279-322 and 324-326, and for
   batch 1's retried rows (181, 185, 186, 191, 197, 207, 210, 213).
 - The record: `Search_Log.md` and the review files in this folder; `CFT-Wants.md` ("Era 9, batch 2a"); the
   Library's `Decision-Log.md` (last entry).
@@ -54,6 +54,9 @@ folder and need changing.
 
 What went wrong, and the fix to keep:
 
+- **Another Library thread may vendor the same item while a batch runs.** Aglipay's Catequesis was vendored
+  here and by the era 10 batch under the same name; it surfaced only as a merge conflict. Check the picks'
+  archive.org ids against main's registry again just before the merge.
 - **A searcher's "held already" check misses files named differently.** Ormanian's Church of Armenia was
   picked though it was held. Check every pick's archive.org id against `REGISTRY.yaml` and the queue file
   before building.

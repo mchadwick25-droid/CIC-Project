@@ -13,3 +13,6 @@ Also taken up from the recheck's note on N1: Klein's shelf locus now maps the pa
 
 No third review round was run: nothing in these changes is a finding of fact against the files, and each is a
 change of wording or of a line range the recheck itself gave.
+
+After the recheck, one of the 74 files was dropped: Aglipay's Catequesis (1912) had been vendored on main by the
+era 10 batch under the same name. The batch is 73 files.
