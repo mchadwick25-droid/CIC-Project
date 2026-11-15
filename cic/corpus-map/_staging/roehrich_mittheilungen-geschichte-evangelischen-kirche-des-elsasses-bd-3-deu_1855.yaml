@@ -7,5 +7,5 @@ assignments:
   atlas_ids:
   - lutheran-wittenberg-and-its-congregations
   role: context
-  confidence: needs-ruling
-  note: 'A Life of 1855 that quotes her at length; the extracts are hers, the frame is not.'
+  confidence: assigned
+  note: "A Life of 1855 that quotes her at length; the extracts are hers, the frame is not. No census entry is Strasbourg, so the work sits on the nearest entry."

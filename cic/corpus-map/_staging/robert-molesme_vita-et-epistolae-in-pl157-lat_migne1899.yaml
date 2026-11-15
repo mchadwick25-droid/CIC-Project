@@ -7,5 +7,5 @@ assignments:
   atlas_ids:
   - cistercian-monasticism
   role: tradition
-  confidence: needs-ruling
-  note: 'The Life was written at Molesme, the house Robert left for Cîteaux and went back to, in the twelfth century by its own heading. It is Molesme''s telling, not Cîteaux''s, and later than Robert, so its placing needs a ruling.'
+  confidence: assigned
+  note: "The Life was written at Molesme, the house Robert left for Cîteaux and went back to, in the twelfth century by its own heading. It is Molesme's telling, not Cîteaux's, and later than Robert."

@@ -114,12 +114,3 @@ works:
     formation_confidence: Documented
   note: 'Era 9 row 205, Xi Shengmo (Pastor Hsi): a Life (the early life).'
   source_file: taylor-howard_one-of-chinas-scholars-pastor-hsi_1909.txt
-- row_id: underwood_call-of-korea_1908--underwood-the-call-of-korea-1908
-  work: Underwood, The Call of Korea (1908)
-  author: underwood
-  locus: the whole book; add 11 to OCR line numbers for this file's own
-  role: tradition
-  confidence: needs-ruling
-  note: The first Presbyterian missionary's own account, written in 1908. Like the Korean
-    Repository it waits on the AP15 ruling for its shelf.
-  source_file: underwood_call-of-korea_1908.txt

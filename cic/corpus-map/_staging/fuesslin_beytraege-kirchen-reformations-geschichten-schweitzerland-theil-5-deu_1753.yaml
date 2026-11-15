@@ -7,5 +7,5 @@ assignments:
   atlas_ids:
   - lutheran-wittenberg-and-its-congregations
   role: tradition
-  confidence: needs-ruling
-  note: 'Her own words, in an eighteenth-century reprint.'
+  confidence: assigned
+  note: "Her own words, in an eighteenth-century reprint. No census entry is Strasbourg, so the work sits on the nearest entry."

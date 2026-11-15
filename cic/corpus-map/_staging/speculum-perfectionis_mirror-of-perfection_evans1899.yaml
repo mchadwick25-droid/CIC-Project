@@ -17,9 +17,5 @@ assignments:
   - fraticelli-spiritual-franciscan-rigorists
   - franciscan-order-era-6
   role: tradition
-  confidence: needs-ruling
-  note: >-
-    Placed needs-ruling because the text is contested in date or attribution and sits between the Franciscan Movement
-    world (to 1300) and the Spirituals worlds. The English of Sabatier's 1898 Latin edition. Sabatier's attribution
-    to Leo and his early date are contested; the text is read as a Spiritual-circle witness to Francis's poverty.
-    Clean OCR. Sabatier's Latin is not vendored (garbled OCR).
+  confidence: assigned
+  note: "The English of Sabatier's 1898 Latin edition. Sabatier's attribution to Leo and his early date are contested; the text is read as a Spiritual-circle witness to Francis's poverty. Clean OCR. Sabatier's Latin is held separately."
