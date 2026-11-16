@@ -4086,3 +4086,13 @@ The score measures only sentence length and syllables, so it cannot tell a punch
 6. "Use plain modern words: simplify the language, never the thought."
 
 **Kept, where the traditions conflict with ours.** Three rules stay as they are. A story heard straight through does not open on its key message, the museum label's "key message first". Hearsay and oral tradition enter only when they are on the sheet and marked. A wonder is told as its witness tells it, with no sneer and no endorsement.
+
+## 2026-11-16 — Polycarp round 3 read: the century, the opening and the ending (Mark, 2026-11-16)
+
+**Mark's read of round 3:** "add the century and a stronger opening and ending". Round 3 had passed its review at the cap. Its opening named no century and began on a job title, and it ended on the Easter dispute, not on how far his witness reached.
+
+**Carried out.**
+- Two lines of the one-page standard are replaced. The Shape opening becomes: "Open on something that pulls a listener in: a moment, an image, or the person's own words from the sheet. Within the first few sentences, set the context: the century or the year, the place and the tradition, told like a story, not given as a list." The Craft ending becomes: "End on what came of them, told as an event or in the record's own words: who carried their witness on, or how far it reached. No moral, no summing up, and no line picked only because it sounds good."
+- The source sheet gains S12, the century, and C13, card only. The held sources place Polycarp by rulers and bishops, never by century. "In the second century" rests on the modern chronology of those reigns (Widely Accepted). "About a hundred years after Jesus" is not supported.
+- A fourth draft is written and rechecked under a Cap ruling in the System Hub Decision Log (2026-11-16, "Cap ruling: Church Family Tree, Polycarp clean write").
+- The standard's own header no longer carries its change history. That history is here.
