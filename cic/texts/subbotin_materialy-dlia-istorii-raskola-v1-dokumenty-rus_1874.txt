@@ -1,8 +1,8 @@
 Title: Материалы для истории раскола за первое время его существования, издаваемые редакцией «Братского слова»; том первый: документы, часть первая (Materials for the History of the Schism in the First Period of its Existence, vol. I: Documents, part 1)
 Creator: Edited by Nikolai Ivanovich Subbotin (1827-1905) for the journal Bratskoe slovo; the documents are their writers' own (Patriarch Nikon, Patriarch Paisios of Constantinople, Ivan Neronov and others)
 Publisher: Moscow: the editorial office of Bratskoe slovo
-Publication Date: 1874
-Rights: Public Domain (published 1874, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)
+Publication Date: 1875 (the imprint on the printed cover; the title page prints no year; the censor's permission on the verso of the part title is dated 28 October 1874)
+Rights: Public Domain (published 1875, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)
 Language: rus
 Source: Internet Archive item Materialydljaistoriiraskolazapervoevremj44_ (https://archive.org/details/Materialydljaistoriiraskolazapervoevremj44_), the item's own Materialydljaistoriiraskolazapervoevremj44__djvu.txt full-text OCR derivative; contributing library per the item metadata: not named in the item metadata; host metadata date: 1875. Fetched directly (curl/urllib, raw bytes) by the Library thread (Era VIII pass), 2026-10-23. sha256 of the raw fetched bytes: 4c13e14db753c7167c4ffdb4ab7fd22c50ca2fe86b3202f1f73ee68410d3ef5d.
 Provenance note: Header prepended by the Library thread; nothing else altered, no OCR error corrected, nothing retyped. Scan contributed to the Internet Archive without a named library; Cyrillic OCR in the pre-reform orthography, good on the documents and uneven on the title pages.
