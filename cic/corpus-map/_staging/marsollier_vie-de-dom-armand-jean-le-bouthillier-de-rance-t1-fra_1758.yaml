@@ -1,0 +1,13 @@
+source_file: marsollier_vie-de-dom-armand-jean-le-bouthillier-de-rance-t1-fra_1758.txt
+assignments:
+- row_id: marsollier_vie-de-dom-armand-jean-le-bouthillier-de-rance-t1-fra_1758--marsollier-vie-de-rance-t1
+  work: 'Marsollier, La vie de dom Armand-Jean Le Bouthillier de Rancé, tome 1: books I-III (new edition, 1758)'
+  author: marsollier
+  locus: 'books I-III at OCR lines 1175-17362; add 12 to OCR line numbers'
+  atlas_ids:
+  - catholic-church-ancien-regime
+  role: tradition
+  confidence: provisional
+  language: fra
+  date: {start: 1758, end: 1758, source: "this edition's title page reads 1758 and 'Nouvelle Edition'; the year of the first edition is not on it", formation_confidence: Documented}
+  note: 'A canon of Uzès writes the Life of the reformer of La Trappe. An admiring Life from inside the French church, read in a new edition of 1758.'

@@ -1,0 +1,13 @@
+source_file: dobrizhoffer_account-of-the-abipones-v3_1822.txt
+assignments:
+- row_id: dobrizhoffer_account-of-the-abipones-v3_1822--dobrizhoffer-account-of-the-abipones-v3
+  work: 'Dobrizhoffer, An Account of the Abipones, vol. III: Part III, chapters I-XLVI: the wars and the Jesuit colonies (English, 1822)'
+  author: dobrizhoffer
+  locus: 'OCR lines 295-14333; add 12 to OCR line numbers'
+  atlas_ids:
+  - society-of-jesus-1650-1814
+  role: tradition
+  confidence: provisional
+  language: eng
+  date: {start: 1784, end: 1822, source: "the Latin was printed at Vienna in 1784; this English title page reads 1822", formation_confidence: Documented}
+  note: 'A Jesuit missionary''s own account of eighteen years in Paraguay, written in exile after the Society''s suppression. An English translation whose preface says it leaves passages out (vol. I, OCR lines 236-272); check the Latin before leaning on a sentence.'

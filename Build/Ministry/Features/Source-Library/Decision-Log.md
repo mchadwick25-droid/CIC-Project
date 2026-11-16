@@ -919,3 +919,47 @@ link only (CC BY-NC 4.0, under R3).
 Era 9, batch 2b, in a fresh session: rows 227-245, 249-262, 267-278, 323 and 327-330 (Britain, Europe, North
 America), and the Kaiserswerth date check. Then batch 3: the outside witnesses, the council records and the
 held eras 8-9 items.
+
+## Era 8, batch 2: the British Isles, North America, Catholic Europe and the Jesuits (2026-11-15)
+
+**Done.** 37 files (5,346,333 words) for the era 8 wants of Britain, North America and Catholic Europe, and the
+volumes batch 1 found and left. The files and the rows not filled are in `CFT-Wants.md` ("Era 8 (1650-1815),
+batch 2"). The page-image reads, the calls and the cautions for writers are in
+`Build/Ministry/Operations/Audits/2026-11-15_library-era8-b2/Search_Log.md`.
+
+**Scope, by the coordinator's instruction.** The era 8 rows of the cards' "Texts to fetch" list were not taken.
+That list came from the legend check and is dropped for every era. Gobat's New York printing of 1850 is left
+out as a later printing of a held text. No quote, story or lexicon entry was rendered; rendering waits until
+Mark has seen a proposal and a sample.
+
+**Decided during the batch.**
+- **Love's Samson Occom is taken under R12.** The title page prints no year; the copyright notice on its verso
+  reads 1899, and the preface and the catalog agree.
+- **Taft's Holy Women is taken on its printed years.** The scan is a reader's upload with no catalog record; it
+  photographs an old bound copy whose title pages print 1825 and 1828.
+- **Valentijn, deel 2, and the Code noir of 1743 are not taken.** Both pass on rights. Neither adds church
+  matter to what is held (Valentijn's deel 3; the Code noir collection of 1767).
+- **The shelf principle, applied.** A person's own text is `tradition` on that person's entry (Dutton, Davies,
+  McGready, Campbell, Murray, Fontaine, du Fossé, Quesnel, Vieira, Dobrizhoffer). A Life written inside the
+  tradition and inside the entry's window is `tradition` (Gibbons on Watts, Orton on Doddridge, the Life of
+  Bray, Marsollier on Rancé, Soli on Muratori). A later Life or history is `context`, with the subject's own
+  letters named in the note (Roberts, the Wilberforce sons, Gregory, Taft, Love, Walker, Cooley, Pascoe,
+  Launay). A first-hand piece printed inside a later book has its own `tradition` row under its writer (Occom,
+  Cole, Haynes, Cattaneo, Rancé's Pensées). Muratori on Paraguay is `context` on the Jesuits' entry: the census
+  names the book there, and he was not a Jesuit.
+- **Three rows are `needs-ruling`.** Parry on `the-sayfo-and-the-syriac-diaspora` (the census has no entry for
+  the Syriac Orthodox between 1650 and 1906); Charmot's Vindiciae on `chinese-catholicism-1650-1906` (it
+  follows the main volume's row for Charmot); Quesnel's Réflexions as the condemned text on
+  `catholic-church-ancien-regime`.
+- **Two corrections of year, both made on the page image.** Parry's title page prints 1895; the OCR reads
+  "1896.". Campbell's Centennial reprint is of 1908, printed on the leaf after a title page that has no year;
+  the OCR reads "1906". The first notes followed the OCR in both. The review caught the second.
+- **A first-hand piece by another hand has its writer's slug**, with an `authors_ruled` entry in the staging
+  file (Finley, Gibbons and Bostwick on Davies; Russell's essay on Doddridge).
+- Host bytes are kept whole. Nothing was stripped at intake, so line numbers in headers and shelf rows are the
+  host's, with 12 added for the file's own.
+
+### Next action
+
+Era 9 batch 2b's "located, not yet taken" volumes; then era 10 batch 2's follow-on list; then era 8 batch 3.
+

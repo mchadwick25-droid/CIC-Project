@@ -1,0 +1,24 @@
+source_file: gibbons-thomas_memoirs-of-isaac-watts_1780.txt
+assignments:
+- row_id: gibbons-thomas_memoirs-of-isaac-watts_1780--gibbons-memoirs-of-watts-chapters-1-11
+  work: 'Gibbons, Memoirs of the Rev. Isaac Watts: the Life, chapters I-XI (1780)'
+  author: gibbons-thomas
+  locus: 'chapters I-XI at OCR lines 306-15790; add 12 to OCR line numbers'
+  atlas_ids:
+  - english-old-dissent
+  role: tradition
+  confidence: provisional
+  language: eng
+  date: {start: 1780, end: 1780, source: "title page: 'MDCCLXXX'; the dedication is signed Hoxton-Square, 11 April 1780 (OCR lines 131-134)", formation_confidence: Documented}
+  note: 'The Life is Gibbons''s voice, written in 1780; Watts''s letters appear only as he quotes them.'
+- row_id: gibbons-thomas_memoirs-of-isaac-watts_1780--gibbons-memoirs-of-watts-letters-to-watts
+  work: 'Gibbons, Memoirs of the Rev. Isaac Watts: chapter XII, letters to Dr. Watts from his correspondents'
+  author: gibbons-thomas
+  locus: 'chapter XII at OCR lines 15791-20910; add 12 to OCR line numbers'
+  atlas_ids:
+  - english-old-dissent
+  role: context
+  confidence: provisional
+  language: eng
+  date: {start: 1780, end: 1780, source: "title page: 'MDCCLXXX'", formation_confidence: Documented}
+  note: 'Fifty-seven letters written to or about Watts by bishops, ministers and friends. None is Watts''s own; the writers are many and are named at each letter''s head.'

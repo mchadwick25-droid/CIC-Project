@@ -270,6 +270,39 @@ works:
   note: A Methodist woman's own experience narrative, diary and letters; the ordinary member's
     voice the census asks for.
   source_file: rogers-hester-ann_short-account-of-the-experience_1811.txt
+- row_id: taft_biographical-sketches-of-holy-women-v1-v2_1825-1828--taft-holy-women-sarah-crosby
+  work: 'Taft, Biographical Sketches of Holy Women, vol. II: Mrs. Sarah Crosby (1828)'
+  author: taft
+  locus: the sketch at OCR lines 20081-25350; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1828
+    end: 1828
+    source: 'vol. II title page: 1828'
+    formation_confidence: Documented
+  note: Taft's memoir of Crosby, built from her journal and letters and from Wesley's letters
+    to her. Her words are first-hand; the selection is Taft's, in 1828.
+  source_file: taft_biographical-sketches-of-holy-women-v1-v2_1825-1828.txt
+- row_id: taft_biographical-sketches-of-holy-women-v1-v2_1825-1828--taft-holy-women-vols-1-2
+  work: Taft, Biographical Sketches of the Lives and Public Ministry of Various Holy Women,
+    vols. I-II (1825, 1828)
+  author: taft
+  locus: vol. I sketches at OCR lines 1047-18990; vol. II at 20081-37056; Taft's prefaces
+    at 233-1011 and 19179-19717; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1825
+    end: 1828
+    source: 'title pages: 1825 and 1828'
+    formation_confidence: Documented
+  note: Taft's case for women's preaching, made from short Lives of Methodist and Quaker women.
+    Written after this entry's window. Many voices are quoted; name the woman, not Taft, when
+    quoting a journal or letter.
+  source_file: taft_biographical-sketches-of-holy-women-v1-v2_1825-1828.txt
 - row_id: watts_hymns-and-spiritual-songs-ninth-edition_1725--hymns-and-spiritual-songs-as-sung-beyond-dissent
   work: Hymns and Spiritual Songs as sung beyond Dissent
   author: watts

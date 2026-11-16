@@ -31214,6 +31214,22 @@
           "rights": "Public Domain (published 1811, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'The Library of Congress is unaware of any copyright restrictions for this item.')"
         },
         {
+          "work": "Taft, Biographical Sketches of Holy Women, vol. II: Mrs. Sarah Crosby (1828)",
+          "author": "taft",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "taft_biographical-sketches-of-holy-women-v1-v2_1825-1828.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1828); the archive.org item is a reader's upload of 2025 with no rights field; the scan photographs a bound copy from the Thursfield Smith Collection, and the imprint dates are the basis"
+        },
+        {
+          "work": "Taft, Biographical Sketches of the Lives and Public Ministry of Various Holy Women, vols. I-II (1825, 1828)",
+          "author": "taft",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "taft_biographical-sketches-of-holy-women-v1-v2_1825-1828.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1828); the archive.org item is a reader's upload of 2025 with no rights field; the scan photographs a bound copy from the Thursfield Smith Collection, and the imprint dates are the basis"
+        },
+        {
           "work": "Hymns and Spiritual Songs as sung beyond Dissent",
           "author": "watts",
           "role": "antecedent",
@@ -31444,6 +31460,14 @@
           "rights": "Public Domain (published 1744, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
         },
         {
+          "work": "David Bostwick, the character of the author, in Davies's Sermons, vol. I",
+          "author": "bostwick-david",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "davies_sermons-on-important-subjects-v1_campbell1794.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1794); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
           "work": "Mirabilia Dei inter Indicos: the Rise and Progress of a remarkable Work of Grace amongst the Indians (Brainerd, 1746)",
           "author": "brainerd",
           "role": "tradition",
@@ -31476,12 +31500,44 @@
           "rights": "Public Domain (published 1744, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
         },
         {
+          "work": "Nathan Cole, 'Spiritual Travels', on hearing Whitefield: the extract Walker prints",
+          "author": "cole-nathan",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "walker-george-leon_some-aspects-of-the-religious-life-of-new-england_1897.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1897); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "Cooley, Sketches of the Life and Character of the Rev. Lemuel Haynes (1837)",
+          "author": "cooley",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "cooley_sketches-of-the-life-and-character-of-lemuel-haynes_1837.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1837); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "Davies, Sermons on Important Subjects, vol. I: sermons I-XXIV (Philadelphia, 1794)",
+          "author": "davies",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "davies_sermons-on-important-subjects-v1_campbell1794.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1794); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
           "work": "Sermons on Important Subjects, vol. III (Davies, 1792)",
           "author": "davies",
           "role": "tradition",
           "confidence": "provisional",
           "source_file": "davies_sermons-on-important-subjects-v3_allen1792.txt",
           "rights": "Public Domain (published 1792, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
+        },
+        {
+          "work": "Some Memoirs of Mr. Davies, by another hand (the appendix to Finley's sermon), in Davies's Sermons, vol. I",
+          "author": "davies-memoirs-anonymous",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "davies_sermons-on-important-subjects-v1_campbell1794.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1794); the archive.org record is tagged NOT_IN_COPYRIGHT"
         },
         {
           "work": "A Faithful Narrative of the Surprizing Work of God (Edwards, 1737)",
@@ -31572,6 +31628,30 @@
           "rights": "Public Domain (published 1790, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
         },
         {
+          "work": "Samuel Finley, sermon on the death of Samuel Davies, preached at Nassau-Hall, Princeton, 28 May 1761, in Davies's Sermons, vol. I",
+          "author": "finley-samuel",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "davies_sermons-on-important-subjects-v1_campbell1794.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1794); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "Thomas Gibbons on Samuel Davies: the preface to the first edition (1765) and two discourses on his death (1761), in Davies's Sermons, vol. I",
+          "author": "gibbons-thomas",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "davies_sermons-on-important-subjects-v1_campbell1794.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1794); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "Lemuel Haynes, sermons and letters as printed in Cooley's Sketches (1837)",
+          "author": "haynes-lemuel",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "cooley_sketches-of-the-life-and-character-of-lemuel-haynes_1837.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1837); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
           "work": "Memoirs of the Life of Mrs. Sarah Osborn (Hopkins's compiling narrative, 1799)",
           "author": "hopkins-samuel",
           "role": "context",
@@ -31588,6 +31668,14 @@
           "rights": "Public Domain (published 1794, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
         },
         {
+          "work": "Love, Samson Occom and the Christian Indians of New England (1899)",
+          "author": "love-william-deloss",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "love-william-deloss_samson-occom-and-the-christian-indians-of-new-england_1899.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1899; the title page prints no year, and the date is the copyright notice on its verso, 'Copyright, 1899', OCR lines 70-71, with which the preface date and the archive.org record's date agree); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
           "work": "Seven Sermons (1749)",
           "author": "mayhew",
           "role": "context",
@@ -31602,6 +31690,14 @@
           "confidence": "assigned",
           "source_file": "occom_sermon-at-the-execution-of-moses-paul_1788.txt",
           "rights": "Public Domain (published 1788, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Samson Occom, autobiographical narrative of 17 September 1768: the opening, as Love prints it",
+          "author": "occom",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "love-william-deloss_samson-occom-and-the-christian-indians-of-new-england_1899.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1899; the title page prints no year, and the date is the copyright notice on its verso, 'Copyright, 1899', OCR lines 70-71, with which the preface date and the archive.org record's date agree); the archive.org record is tagged NOT_IN_COPYRIGHT"
         },
         {
           "work": "Familiar Letters of Sarah Osborn (1807)",
@@ -31626,6 +31722,14 @@
           "confidence": "assigned",
           "source_file": "tennent-gilbert_twenty-three-sermons_bradford1744.txt",
           "rights": "Public Domain (published 1744, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
+        },
+        {
+          "work": "Walker, Some Aspects of the Religious Life of New England (1897)",
+          "author": "walker-george-leon",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "walker-george-leon_some-aspects-of-the-religious-life-of-new-england_1897.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1897); the archive.org record is tagged NOT_IN_COPYRIGHT"
         },
         {
           "work": "Hymns and Spiritual Songs as sung beyond Dissent",
@@ -32014,6 +32118,46 @@
           "rights": "Public Domain (published 1911, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
         },
         {
+          "work": "Du Fossé, Mémoires pour servir à l'histoire de Port-Royal (1739)",
+          "author": "du-fosse",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "du-fosse_memoires-pour-servir-a-l-histoire-de-port-royal-fra_1739.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1739); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "Mémoires de du Fossé (1739): the editors' avertissement and Life of du Fossé",
+          "author": "du-fosse",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "du-fosse_memoires-pour-servir-a-l-histoire-de-port-royal-fra_1739.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1739); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "Fontaine, Mémoires pour servir à l'histoire de Port-Royal, tome 1: parts 1 and 2 (1738)",
+          "author": "fontaine-nicolas",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "fontaine-nicolas_memoires-pour-servir-a-l-histoire-de-port-royal-t1-fra_1738.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1738); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "Fontaine, Mémoires pour servir à l'histoire de Port-Royal, tome 2: parts 3 and 4 (1738)",
+          "author": "fontaine-nicolas",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "fontaine-nicolas_memoires-pour-servir-a-l-histoire-de-port-royal-t2-fra_1738.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1738); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "Mémoires pour servir à l'histoire de Port-Royal, tome 1 (1738): the Life of Fontaine, the short history of Port-Royal, Le Maître's memoir and the memoir on the schools",
+          "author": "fontaine-nicolas",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "fontaine-nicolas_memoires-pour-servir-a-l-histoire-de-port-royal-t1-fra_1738.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1738); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
           "work": "The Nuns of Port Royal as seen in their own Narratives (1909)",
           "author": "lowndes",
           "role": "context",
@@ -32052,6 +32196,14 @@
           "confidence": "assigned",
           "source_file": "port-royal_divers-actes-lettres-relations-fra_1724.txt",
           "rights": "Public Domain (published 1724, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Quesnel, Le Nouveau Testament en françois avec des réflexions morales, tome 1: Matthew and Mark (1693)",
+          "author": "quesnel",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "quesnel_nouveau-testament-avec-des-reflexions-morales-t1-fra_1693.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1693); the archive.org record carries the Public Domain Mark"
         }
       ]
     },
@@ -32944,6 +33096,22 @@
           "rights": "Public Domain (Project Gutenberg eBook #11449, released as public domain in the USA; the underlying edition was published 1792, more than 95 years ago)"
         },
         {
+          "work": "Dutton, A Brief Account of the Gracious Dealings of God, Parts I-III with the Appendix (1750)",
+          "author": "dutton-anne",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "dutton-anne_brief-account-of-the-gracious-dealings-of-god_1750.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1750); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "Dutton, a letter on the lawfulness of printing any thing written by a woman (1750 printing)",
+          "author": "dutton-anne",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "dutton-anne_brief-account-of-the-gracious-dealings-of-god_1750.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1750); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
           "work": "Letters on Spiritual Subjects, and Divers Occasions, vol. 1 (1740)",
           "author": "dutton-anne",
           "role": "tradition",
@@ -33308,6 +33476,30 @@
           "confidence": "provisional",
           "source_file": "vieira_maria-rosa-mystica-parte2-por_1688.txt",
           "rights": "Public Domain (pd-us-by-date: published 1688); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "Vieira, Sermoens, parte duodécima (Lisbon, 1699)",
+          "author": "vieira",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "vieira_sermoens-parte12-por_1699.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1699); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "Vieira, Sermoens, quinta parte (Lisbon, 1689)",
+          "author": "vieira",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "vieira_sermoens-parte5-por_1689.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1689); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "Vieira, Sermoens, terceira parte (Lisbon, 1683)",
+          "author": "vieira",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "vieira_sermoens-parte3-por_1683.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1683); the archive.org record carries no rights field, so the imprint date is the basis"
         },
         {
           "work": "Sumario y memorial ajustado de las probanzas, cause of Toribio de Mogrovejo (Lima, 1662)",
@@ -33842,6 +34034,22 @@
           "rights": "Public Domain (pd-us-by-date: published 1876); the archive.org record carries no rights field, so the imprint date is the basis"
         },
         {
+          "work": "Marsollier, La vie de dom Armand-Jean Le Bouthillier de Rancé, tome 1: books I-III (new edition, 1758)",
+          "author": "marsollier",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "marsollier_vie-de-dom-armand-jean-le-bouthillier-de-rance-t1-fra_1758.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1758); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "Marsollier, La vie de dom Armand-Jean Le Bouthillier de Rancé, tome 2: books IV-VI (new edition, 1758)",
+          "author": "marsollier",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "marsollier_vie-de-dom-armand-jean-le-bouthillier-de-rance-t2-fra_1758.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1758); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
           "work": "La Captivité et la mort de Pie VI (1814)",
           "author": "merck",
           "role": "context",
@@ -33898,6 +34106,14 @@
           "rights": "Public Domain (pd-us-by-date: published 1887); the archive.org record is tagged NOT_IN_COPYRIGHT"
         },
         {
+          "work": "Quesnel, Réflexions morales, tome 1 (1693), as the book condemned by Unigenitus",
+          "author": "quesnel",
+          "role": "context",
+          "confidence": "needs-ruling",
+          "source_file": "quesnel_nouveau-testament-avec-des-reflexions-morales-t1-fra_1693.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1693); the archive.org record carries the Public Domain Mark"
+        },
+        {
           "work": "De la saintete et des devoirs de la vie monastique, tome 1 (1683)",
           "author": "rance",
           "role": "tradition",
@@ -33914,12 +34130,36 @@
           "rights": "Public Domain (pd-us-by-date: published 1683); the archive.org record carries no rights field, so the imprint date is the basis"
         },
         {
+          "work": "Rancé, Pensées sur divers sujets de piété, tirées de ses lettres spirituelles (in Marsollier's Vie, tome 2, 1758)",
+          "author": "rance",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "marsollier_vie-de-dom-armand-jean-le-bouthillier-de-rance-t2-fra_1758.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1758); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
           "work": "The Roman Missal, Translated into the English Language for the Use of the Laity",
           "author": "roman-missal",
           "role": "tradition",
           "confidence": "provisional",
           "source_file": "roman-missal_england1843.txt",
           "rights": "Public Domain"
+        },
+        {
+          "work": "Soli Muratori, Vita del proposto Lodovico Antonio Muratori (Naples, 1758): the Life",
+          "author": "soli-muratori",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "soli-muratori_vita-del-proposto-lodovico-antonio-muratori-ita_napoli1758.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1758); the archive.org record carries the Public Domain Mark"
+        },
+        {
+          "work": "Soli Muratori, Vita del proposto Lodovico Antonio Muratori (Naples, 1758): the appendices of documents and letters",
+          "author": "soli-muratori",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "soli-muratori_vita-del-proposto-lodovico-antonio-muratori-ita_napoli1758.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1758); the archive.org record carries the Public Domain Mark"
         }
       ]
     },
@@ -33990,6 +34230,14 @@
           "confidence": "provisional",
           "source_file": "francke_pietas-hallensis_1705.txt",
           "rights": "Public Domain (published 1705, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Gregory, Robert Raikes: Journalist and Philanthropist (1877)",
+          "author": "gregory-alfred",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "gregory-alfred_robert-raikes-journalist-and-philanthropist_1877.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1877); the archive.org record is tagged NOT_IN_COPYRIGHT"
         },
         {
           "work": "An Historical Account of the Incorporated Society for the Propagation of the Gospel in Foreign Parts (1730)",
@@ -34080,6 +34328,22 @@
           "rights": "Public Domain (pd-us-by-date: published 1901); the archive.org record carries no rights field, so the imprint date is the basis"
         },
         {
+          "work": "Pascoe, Two Hundred Years of the S.P.G., vol. II: the episcopate, education, translations, funds and the roll of missionaries",
+          "author": "pascoe",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "pascoe_two-hundred-years-of-the-spg-v2_1901.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1901); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "Society for the Propagation of the Gospel, Charter of 1701 and Supplemental Charter of 1882, with notes (in Pascoe, vol. II)",
+          "author": "pascoe",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "pascoe_two-hundred-years-of-the-spg-v2_1901.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1901); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
           "work": "A Candid Narrative of the Rise and Progress of the Herrnhuters (1753)",
           "author": "rimius",
           "role": "context",
@@ -34088,12 +34352,36 @@
           "rights": "Public Domain (published 1753, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
         },
         {
+          "work": "Roberts, Memoirs of the Life and Correspondence of Mrs. Hannah More, vol. I: 1745-1785 (third edition, 1835)",
+          "author": "roberts-william",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "roberts-william_memoirs-of-hannah-more-v1_3rd-ed1835.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1835); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
           "work": "Eight Charges delivered to the Clergy of the Dioceses of Oxford and Canterbury (1738-1766)",
           "author": "secker",
           "role": "tradition",
           "confidence": "assigned",
           "source_file": "secker_eight-charges-to-the-clergy_porteus-stinton1790.txt",
           "rights": "Public Domain (published 1790, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
+        },
+        {
+          "work": "Dr. Bray's Associates, Designs and Proceedings for the year 1807, with Todd's introduction (1808)",
+          "author": "todd-henry-john",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "todd-henry-john_publick-spirit-life-and-designs-of-thomas-bray_2nd-ed1808.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1808); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "Publick Spirit Illustrated in the Life and Designs of Thomas Bray (1746; second edition, ed. Todd, 1808): the Life",
+          "author": "todd-henry-john",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "todd-henry-john_publick-spirit-life-and-designs-of-thomas-bray_2nd-ed1808.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1808); the archive.org record is tagged NOT_IN_COPYRIGHT"
         },
         {
           "work": "Llyfr Gweddi Gyffredin, the Welsh Book of Common Prayer (1664)",
@@ -34110,6 +34398,14 @@
           "confidence": "assigned",
           "source_file": "wilberforce_practical-view-of-the-prevailing-religious-system_dublin1797.txt",
           "rights": "Public Domain (Project Gutenberg eBook #25709, released as public domain in the USA; the underlying edition was published 1797, more than 95 years ago)"
+        },
+        {
+          "work": "R. I. and S. Wilberforce, The Life of William Wilberforce, vol. I: 1759-1792 (1838)",
+          "author": "wilberforce-robert-and-samuel",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "wilberforce-robert-and-samuel_life-of-william-wilberforce-v1_1838.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1838); the archive.org record is tagged NOT_IN_COPYRIGHT"
         },
         {
           "work": "The Diary of a Country Parson, vol. I, 1758-1781",
@@ -34985,6 +35281,22 @@
           "rights": "Public Domain (published 1910, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
         },
         {
+          "work": "Gibbons, Memoirs of the Rev. Isaac Watts: chapter XII, letters to Dr. Watts from his correspondents",
+          "author": "gibbons-thomas",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "gibbons-thomas_memoirs-of-isaac-watts_1780.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1780); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "Gibbons, Memoirs of the Rev. Isaac Watts: the Life, chapters I-XI (1780)",
+          "author": "gibbons-thomas",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "gibbons-thomas_memoirs-of-isaac-watts_1780.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1780); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
           "work": "An Account of the Life and Death of Mr. Philip Henry (this edition 1712)",
           "author": "henry-matthew",
           "role": "tradition",
@@ -35025,6 +35337,14 @@
           "rights": "Public Domain (published 1774, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
         },
         {
+          "work": "Orton, Memoirs of the Life, Character and Writings of Philip Doddridge (preface of 1765; Edinburgh, 1825)",
+          "author": "orton",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "orton_memoirs-of-philip-doddridge_russell1825.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1825); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
           "work": "Letters to the Members of the New Jerusalem Church (1791)",
           "author": "priestley",
           "role": "tradition",
@@ -35047,6 +35367,14 @@
           "confidence": "assigned",
           "source_file": "ridgley-thomas_unreasonableness-of-the-charge-of-imposition_1719.txt",
           "rights": "Public Domain (published 1719, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "David Russell, introductory essay to Orton's Memoirs of Doddridge (1825)",
+          "author": "russell-david",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "orton_memoirs-of-philip-doddridge_russell1825.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1825); the archive.org record carries no rights field, so the imprint date is the basis"
         },
         {
           "work": "Hymns and Spiritual Songs (1707; ninth edition 1725)",
@@ -35189,6 +35517,38 @@
           "confidence": "assigned",
           "source_file": "murray-john_records-of-the-life-written-by-himself_1816.txt",
           "rights": "Public Domain (published 1816, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
+        },
+        {
+          "work": "Judith Sargent Murray ('Constantia'), The Gleaner, Nos. LXXXVIII-XCI: Observations on Female Abilities (1798)",
+          "author": "murray-judith-sargent",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "murray-judith-sargent_the-gleaner-v3_1798.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1798); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "Judith Sargent Murray ('Constantia'), The Gleaner, vol. I: essays I-XXXIV (1798)",
+          "author": "murray-judith-sargent",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "murray-judith-sargent_the-gleaner-v1_1798.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1798); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "Judith Sargent Murray ('Constantia'), The Gleaner, vol. II: essays XXXV-LXVIII (1798)",
+          "author": "murray-judith-sargent",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "murray-judith-sargent_the-gleaner-v2_1798.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1798); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "Judith Sargent Murray ('Constantia'), The Gleaner, vol. III: essays LXIX-C (1798)",
+          "author": "murray-judith-sargent",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "murray-judith-sargent_the-gleaner-v3_1798.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1798); the archive.org record carries no rights field, so the imprint date is the basis"
         },
         {
           "work": "Discourses relating to the Evidences of Revealed Religion (Philadelphia, 1796)",
@@ -35457,6 +35817,14 @@
       "status": "Pre-Survey Candidate",
       "works": [
         {
+          "work": "Cooley, Sketches of the Life and Character of the Rev. Lemuel Haynes (1837)",
+          "author": "cooley",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "cooley_sketches-of-the-life-and-character-of-lemuel-haynes_1837.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1837); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
           "work": "Memoirs of the Life, Religious Experience, Ministerial Travels and Labours of Mrs. Zilpha Elaw, an American",
           "author": "elaw",
           "role": "tradition",
@@ -35471,6 +35839,14 @@
           "confidence": "provisional",
           "source_file": "foote_brand-plucked-from-the-fire_1879.txt",
           "rights": "Public Domain (pd-us-by-date: published 1879); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
+        },
+        {
+          "work": "Lemuel Haynes, sermons and letters as printed in Cooley's Sketches (1837)",
+          "author": "haynes-lemuel",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "cooley_sketches-of-the-life-and-character-of-lemuel-haynes_1837.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1837); the archive.org record carries no rights field, so the imprint date is the basis"
         },
         {
           "work": "An Historical Account of the S.P.G. (1730), the chapters on the instruction of Negroes and the Codrington bequest",
@@ -35551,6 +35927,22 @@
           "rights": "Public Domain (pd-us-by-date: published 1876); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
         },
         {
+          "work": "McGready, Narrative of the Commencement and Progress of the Revival of 1800 (letter of 23 October 1801)",
+          "author": "mcgready",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "mcgready_posthumous-works_smith1837.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1837); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "McGready, Posthumous Works: sermons I-XLII, a lecture and an address (ed. Smith, 1837)",
+          "author": "mcgready",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "mcgready_posthumous-works_smith1837.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1837); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
           "work": "The Kentucky Revival (1808)",
           "author": "mcnemar",
           "role": "context",
@@ -35579,6 +35971,14 @@
           "confidence": "provisional",
           "source_file": "campbell_christian-baptist-v5_bethany1828.txt",
           "rights": "Public Domain (pd-us-by-date: published 1828); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
+        },
+        {
+          "work": "Thomas Campbell, Declaration and Address of the Christian Association of Washington (1809; Centennial reprint, 1908)",
+          "author": "campbell-thomas",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "campbell-thomas_declaration-and-address-centennial-edition_1908.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1908); the archive.org record is tagged NOT_IN_COPYRIGHT"
         },
         {
           "work": "The Kentucky Revival (1808)",
@@ -36513,6 +36913,14 @@
           "rights": "Public Domain (published 1797, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
         },
         {
+          "work": "Gregory, Robert Raikes: Journalist and Philanthropist (1877)",
+          "author": "gregory-alfred",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "gregory-alfred_robert-raikes-journalist-and-philanthropist_1877.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1877); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
           "work": "The Life of Dwight L. Moody, by his son William R. Moody; Official Authorised Edition; issued by the",
           "author": "moody-w-r",
           "role": "context",
@@ -36979,6 +37387,22 @@
           "confidence": "provisional",
           "source_file": "maurice-f_life-of-frederick-denison-maurice-v1_1884.txt",
           "rights": "Public Domain (pd-us-by-date: published 1884); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
+        },
+        {
+          "work": "Pascoe, Two Hundred Years of the S.P.G., vol. II: the Asian and European fields",
+          "author": "pascoe",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "pascoe_two-hundred-years-of-the-spg-v2_1901.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1901); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "Pascoe, Two Hundred Years of the S.P.G., vol. II: the episcopate, education, translations, funds and the roll of missionaries",
+          "author": "pascoe",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "pascoe_two-hundred-years-of-the-spg-v2_1901.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1901); the archive.org record carries no rights field, so the imprint date is the basis"
         },
         {
           "work": "A Practical View of the Prevailing Religious System of Professed Christians (1797)",
@@ -38662,6 +39086,14 @@
           "confidence": "assigned",
           "source_file": "naayem_shall-this-nation-die_1921.txt",
           "rights": "Public Domain (pd-us-by-date: printed 1921; the title page prints no year; the date used is the copyright notice, \"Copyright, 1921\"; the archive.org record says possible-copyright-status \"The Library of Congress is unaware of any copyright restrictions for this item.\")"
+        },
+        {
+          "work": "Parry, Six Months in a Syrian Monastery (1895)",
+          "author": "parry",
+          "role": "context",
+          "confidence": "needs-ruling",
+          "source_file": "parry_six-months-in-a-syrian-monastery_1895.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1895); the archive.org record is tagged NOT_IN_COPYRIGHT"
         },
         {
           "work": "The Assyrians and their Neighbours (1929), chapter X, The Great War and After",
@@ -40741,6 +41173,14 @@
       "status": "Pre-Survey Candidate",
       "works": [
         {
+          "work": "Charmot, Vindiciae scriptorum and Secundae vindiciae against the Jesuits' Dilucidationes (1699), in the Continuatio Historiae cultus Sinensium (1700)",
+          "author": "charmot",
+          "role": "tradition",
+          "confidence": "needs-ruling",
+          "source_file": "historia-cultus-sinensium_continuatio-lat_1700.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1700); the archive.org record carries the Public Domain Mark"
+        },
+        {
           "work": "Nicolas Charmot, Notae and Notationes on the Jesuits' observations on Maigrot's Mandate (in Historia cultus Sinensium, Cologne 1700)",
           "author": "charmot",
           "role": "tradition",
@@ -40770,6 +41210,14 @@
           "role": "context",
           "confidence": "provisional",
           "source_file": "launay_histoire-generale-de-la-societe-des-missions-etrangeres-t2-fra_1894.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1894); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "Launay, Histoire générale de la Société des Missions-Étrangères, tome III: 1836-1892",
+          "author": "launay",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "launay_histoire-generale-de-la-societe-des-missions-etrangeres-t3-fra_1894.txt",
           "rights": "Public Domain (pd-us-by-date: published 1894); the archive.org record carries no rights field, so the imprint date is the basis"
         },
         {
@@ -41058,6 +41506,46 @@
           "rights": "Public Domain (pd-us-by-date: published 1746); the archive.org record carries no rights field, so the imprint date is the basis"
         },
         {
+          "work": "Gaetano Cattaneo, S.J., three letters from Buenos Aires and the Paraguay reductions (1729-1730), in Muratori's Cristianesimo felice",
+          "author": "cattaneo-gaetano",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "muratori_il-cristianesimo-felice-nelle-missioni-del-paraguai-ita_1743.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1743); the archive.org record carries the Public Domain Mark"
+        },
+        {
+          "work": "Dobrizhoffer, An Account of the Abipones, vol. I: the Prefatory Book on the state of Paraguay (English, 1822)",
+          "author": "dobrizhoffer",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "dobrizhoffer_account-of-the-abipones-v1_1822.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1822); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "Dobrizhoffer, An Account of the Abipones, vol. II: Part II, chapters I-XLIII: the Abipones' land, customs and beliefs (English, 1822)",
+          "author": "dobrizhoffer",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "dobrizhoffer_account-of-the-abipones-v2_1822.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1822); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "Dobrizhoffer, An Account of the Abipones, vol. III: Part III, chapters I-XLVI: the wars and the Jesuit colonies (English, 1822)",
+          "author": "dobrizhoffer",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "dobrizhoffer_account-of-the-abipones-v3_1822.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1822); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "Dobrizhoffer, Historia de Abiponibus, pars I: Liber prodromus de Paraquariae habitu (Vienna, 1784)",
+          "author": "dobrizhoffer",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "dobrizhoffer_historia-de-abiponibus-pars1-lat_1784.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1784); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
           "work": "The Jesuit Relations and Allied Documents (Thwaites), Vol. 36: Lower Canada, Abenakis: 1650-1651",
           "author": "jesuit-relations",
           "role": "tradition",
@@ -41122,6 +41610,22 @@
           "rights": "Public Domain (pd-us-by-date: published 1781); the archive.org record carries no rights field, so the imprint date is the basis"
         },
         {
+          "work": "Muratori, A Relation of the Missions of Paraguay (English from the French, 1759)",
+          "author": "muratori",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "muratori_relation-of-the-missions-of-paraguay_1759.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1759); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "Muratori, Il cristianesimo felice nelle missioni del Paraguai, part 1: chapters I-XXIII (1743)",
+          "author": "muratori",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "muratori_il-cristianesimo-felice-nelle-missioni-del-paraguai-ita_1743.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1743); the archive.org record carries the Public Domain Mark"
+        },
+        {
           "work": "Vieira, Cartas, tomo 1 (1735)",
           "author": "vieira",
           "role": "tradition",
@@ -41152,6 +41656,30 @@
           "confidence": "provisional",
           "source_file": "vieira_maria-rosa-mystica-parte2-por_1688.txt",
           "rights": "Public Domain (pd-us-by-date: published 1688); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "Vieira, Sermoens, parte duodécima (Lisbon, 1699)",
+          "author": "vieira",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "vieira_sermoens-parte12-por_1699.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1699); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "Vieira, Sermoens, quinta parte (Lisbon, 1689)",
+          "author": "vieira",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "vieira_sermoens-parte5-por_1689.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1689); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "Vieira, Sermoens, terceira parte (Lisbon, 1683)",
+          "author": "vieira",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "vieira_sermoens-parte3-por_1683.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1683); the archive.org record carries no rights field, so the imprint date is the basis"
         }
       ]
     },

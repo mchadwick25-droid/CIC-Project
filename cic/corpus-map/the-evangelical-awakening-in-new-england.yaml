@@ -30,6 +30,21 @@ works:
   confidence: assigned
   note: The revival-narrative genre in a Pennsylvania pastor's hand.
   source_file: blair-samuel_short-and-faithful-narrative-of-the-revival-at-new-londonderry_1744.txt
+- row_id: davies_sermons-on-important-subjects-v1_campbell1794--bostwick-character-of-davies
+  work: David Bostwick, the character of the author, in Davies's Sermons, vol. I
+  author: bostwick-david
+  locus: the character at OCR lines 2740-2978; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1794
+    end: 1794
+    source: this printing's title page reads 1794; the piece carries no date that was read
+    formation_confidence: Documented
+  note: A short character of Davies by a New York minister, as its heading says. Not Davies's
+    voice.
+  source_file: davies_sermons-on-important-subjects-v1_campbell1794.txt
 - row_id: brainerd_mirabilia-dei-inter-indicos-journal_bradford1746--mirabilia-dei-inter-indicos-the-rise-and-progress-of-a
   work: 'Mirabilia Dei inter Indicos: the Rise and Progress of a remarkable Work of Grace
     amongst the Indians (Brainerd, 1746)'
@@ -66,6 +81,57 @@ works:
   confidence: assigned
   note: The revival documenting itself week by week in its participants' letters.
   source_file: christian-history_weekly-accounts-of-the-revival_prince1744.txt
+- row_id: walker-george-leon_some-aspects-of-the-religious-life-of-new-england_1897--cole-nathan-spiritual-travels-extract-in-walker
+  work: 'Nathan Cole, ''Spiritual Travels'', on hearing Whitefield: the extract Walker prints'
+  author: cole-nathan
+  locus: the extract at OCR lines 3170-3274; Walker's introduction at 3156-3169; add 12 to
+    OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1897
+    end: 1897
+    source: first printed here, in 1897; Walker calls it a 'hitherto unpublished narrative'
+      and does not say when Cole wrote it
+    formation_confidence: Documented
+  note: A Connecticut farmer's own words on going to hear Whitefield and the distress that
+    followed. Walker says Cole was a farmer of Kensington parish who became a Separatist (OCR
+    lines 3156-3169). An extract chosen by Walker from a manuscript; the OCR misreads some
+    letters.
+  source_file: walker-george-leon_some-aspects-of-the-religious-life-of-new-england_1897.txt
+- row_id: cooley_sketches-of-the-life-and-character-of-lemuel-haynes_1837--cooley-life-of-lemuel-haynes
+  work: Cooley, Sketches of the Life and Character of the Rev. Lemuel Haynes (1837)
+  author: cooley
+  locus: chapters I-XVIII at OCR lines 763-14570; Sprague's remarks at 319-760; add 12 to
+    OCR line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1837
+    end: 1837
+    source: 'title page: 1837; Cooley''s preface is dated December 1836'
+    formation_confidence: Documented
+  note: The Life of Haynes by the pastor of the First Church in Granville, Massachusetts;
+    Cooley calls him 'a coloured man' (OCR line 822). Haynes's Rutland sermon is of 1805 and
+    the Life of 1837.
+  source_file: cooley_sketches-of-the-life-and-character-of-lemuel-haynes_1837.txt
+- row_id: davies_sermons-on-important-subjects-v1_campbell1794--davies-sermons-v1-sermons-1-24
+  work: 'Davies, Sermons on Important Subjects, vol. I: sermons I-XXIV (Philadelphia, 1794)'
+  author: davies
+  locus: sermons I-XXIV at OCR lines 2979-22770; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1794
+    end: 1794
+    source: this printing's title page reads 1794; the funeral discourses in it are dated
+      1761
+    formation_confidence: Documented
+  note: Davies in his own sermons, preached in Virginia.
+  source_file: davies_sermons-on-important-subjects-v1_campbell1794.txt
 - row_id: davies_sermons-on-important-subjects-v3_allen1792--sermons-on-important-subjects-vol-iii-davies-1792
   work: Sermons on Important Subjects, vol. III (Davies, 1792)
   author: davies
@@ -75,6 +141,22 @@ works:
   note: The southern strand's preacher in his own sermons; provisional because the census
     itself leaves open whether Virginia belongs to this world.
   source_file: davies_sermons-on-important-subjects-v3_allen1792.txt
+- row_id: davies_sermons-on-important-subjects-v1_campbell1794--memoirs-of-davies-by-another-hand
+  work: Some Memoirs of Mr. Davies, by another hand (the appendix to Finley's sermon), in
+    Davies's Sermons, vol. I
+  author: davies-memoirs-anonymous
+  locus: the appendix at OCR lines 1476-1697; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1761
+    end: 1794
+    source: added to Finley's sermon of 1761; this printing's title page reads 1794
+    formation_confidence: Documented
+  note: A short memoir which the volume says was 'drawn up by a gentleman, who was Mr. Davies's
+    intimate Friend' (OCR lines 1479-1481). The writer is not named.
+  source_file: davies_sermons-on-important-subjects-v1_campbell1794.txt
 - row_id: edwards_faithful-narrative-of-the-surprising-work-of-god_1737--a-faithful-narrative-of-the-surprizing-work-of-god-edwards
   work: A Faithful Narrative of the Surprizing Work of God (Edwards, 1737)
   author: edwards
@@ -172,6 +254,59 @@ works:
   confidence: provisional
   note: The awakening's theological heirs answering its old opponent; out of window, so context.
   source_file: edwards-jonathan-jr_salvation-of-all-men-strictly-examined_1790.txt
+- row_id: davies_sermons-on-important-subjects-v1_campbell1794--finley-on-davies-funeral-sermon
+  work: Samuel Finley, sermon on the death of Samuel Davies, preached at Nassau-Hall, Princeton,
+    28 May 1761, in Davies's Sermons, vol. I
+  author: finley-samuel
+  locus: the sermon at OCR lines 641-1469, its title page at 573-600; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1761
+    end: 1761
+    source: 'the sermon''s title page: ''May 28, 1761'' (OCR line 583, where the OCR reads
+      ''2S'')'
+    formation_confidence: Documented
+  note: The funeral sermon on Romans xiv. 7, 8, by Davies's successor as president of the
+    college, as its title page says. Not Davies's voice.
+  source_file: davies_sermons-on-important-subjects-v1_campbell1794.txt
+- row_id: davies_sermons-on-important-subjects-v1_campbell1794--gibbons-on-davies-preface-and-discourses
+  work: 'Thomas Gibbons on Samuel Davies: the preface to the first edition (1765) and two
+    discourses on his death (1761), in Davies''s Sermons, vol. I'
+  author: gibbons-thomas
+  locus: the preface at OCR lines 354-568; the two discourses at 1698-2739; add 12 to OCR
+    line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1761
+    end: 1765
+    source: the discourses are dated 29 March 1761 (OCR lines 1710-1716) and the preface 14
+      November 1765 (line 568)
+    formation_confidence: Documented
+  note: Davies's London editor on his life and death, quoting his letters. Not Davies's voice.
+  source_file: davies_sermons-on-important-subjects-v1_campbell1794.txt
+- row_id: cooley_sketches-of-the-life-and-character-of-lemuel-haynes_1837--haynes-sermons-and-letters-in-cooley
+  work: Lemuel Haynes, sermons and letters as printed in Cooley's Sketches (1837)
+  author: haynes-lemuel
+  locus: letters at OCR lines 3284-3539; the Rutland sermon on Genesis iii. 4, with its preface,
+    at 4100-4465; the letter to Hosea Ballou at 4470-5315; the appendix of sermons at 14854-16044;
+    add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1805
+    end: 1837
+    source: the sermon was delivered at Rutland in June 1805 (OCR lines 4109-4110) and its
+      preface is dated 30 December 1805 (line 4129); printed in 1837
+    formation_confidence: Documented
+  note: 'Haynes in his own words: the sermon that answered Ballou, his letters, and sermons
+    his son added. Printed by Cooley and by W. B. Haynes; the texts were not compared with
+    the first printings.'
+  source_file: cooley_sketches-of-the-life-and-character-of-lemuel-haynes_1837.txt
 - row_id: osborn-sarah_memoirs-compiled-from-her-diaries_hopkins1799--memoirs-of-the-life-of-mrs-sarah-osborn-hopkins-s-compiling
   work: Memoirs of the Life of Mrs. Sarah Osborn (Hopkins's compiling narrative, 1799)
   author: hopkins-samuel
@@ -191,6 +326,23 @@ works:
     against during the Awakening years; a neighbouring revival body as the colonies saw it.
     Provisional.
   source_file: loskiel_history-of-mission-among-indians_latrobe1794.txt
+- row_id: love-william-deloss_samson-occom-and-the-christian-indians-of-new-england_1899--love-samson-occom
+  work: Love, Samson Occom and the Christian Indians of New England (1899)
+  author: love-william-deloss
+  locus: chapters I-XVII at OCR lines 425-14772; the appendix at 14773-16553; add 12 to OCR
+    line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1899
+    end: 1899
+    source: 'copyright notice: ''Copyright, 1899'' (OCR lines 70-71); preface dated October
+      1899'
+    formation_confidence: Documented
+  note: A history written at Hartford in 1899 from manuscripts, a century and more after the
+    events. It runs on past this entry's window to the Brothertown settlement.
+  source_file: love-william-deloss_samson-occom-and-the-christian-indians-of-new-england_1899.txt
 - row_id: mayhew_seven-sermons_1749--seven-sermons-1749-2
   work: Seven Sermons (1749)
   author: mayhew
@@ -208,6 +360,25 @@ works:
   note: A Mohegan minister of the awakening's making, preaching to a Native condemned man
     in his own words.
   source_file: occom_sermon-at-the-execution-of-moses-paul_1788.txt
+- row_id: love-william-deloss_samson-occom-and-the-christian-indians-of-new-england_1899--occom-narrative-1768-extract-in-love
+  work: 'Samson Occom, autobiographical narrative of 17 September 1768: the opening, as Love
+    prints it'
+  author: occom
+  locus: the extract at OCR lines 1328-1355; Love's source note at 1338; add 12 to OCR line
+    numbers
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1768
+    end: 1768
+    source: 'Love''s footnote: ''Wheelock Papers, Dartmouth College, MS., Sept. 17, 1768''
+      (OCR line 1338)'
+    formation_confidence: Documented
+  note: Occom's own account of his upbringing and conversion, in about twelve printed lines;
+    the rest of the range is Love's footnotes and a page head. Love prints only this part;
+    his text was not compared with the manuscript.
+  source_file: love-william-deloss_samson-occom-and-the-christian-indians-of-new-england_1899.txt
 - row_id: osborn-sarah_familiar-letters-with-susanna-anthony_1807--familiar-letters-of-sarah-osborn-1807
   work: Familiar Letters of Sarah Osborn (1807)
   author: osborn-sarah
@@ -235,6 +406,22 @@ works:
   note: The middle-colony revival's leading preacher in his own sermons; the census's Tennents
     in print.
   source_file: tennent-gilbert_twenty-three-sermons_bradford1744.txt
+- row_id: walker-george-leon_some-aspects-of-the-religious-life-of-new-england_1897--walker-religious-life-of-new-england
+  work: Walker, Some Aspects of the Religious Life of New England (1897)
+  author: walker-george-leon
+  locus: the five lectures at OCR lines 123-7267; lecture III, the Great Awakening, at 2931-4538;
+    add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1897
+    end: 1897
+    source: 'title page: 1897'
+    formation_confidence: Documented
+  note: Lectures given at Hartford Theological Seminary in 1896 on New England's religious
+    history. A late survey from inside the Congregational churches.
+  source_file: walker-george-leon_some-aspects-of-the-religious-life-of-new-england_1897.txt
 - row_id: watts_hymns-and-spiritual-songs-ninth-edition_1725--hymns-and-spiritual-songs-as-sung-beyond-dissent
   work: Hymns and Spiritual Songs as sung beyond Dissent
   author: watts

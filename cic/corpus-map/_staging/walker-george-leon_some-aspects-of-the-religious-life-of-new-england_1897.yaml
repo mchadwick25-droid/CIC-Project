@@ -1,0 +1,28 @@
+source_file: walker-george-leon_some-aspects-of-the-religious-life-of-new-england_1897.txt
+assignments:
+- row_id: walker-george-leon_some-aspects-of-the-religious-life-of-new-england_1897--walker-religious-life-of-new-england
+  work: 'Walker, Some Aspects of the Religious Life of New England (1897)'
+  author: walker-george-leon
+  locus: 'the five lectures at OCR lines 123-7267; lecture III, the Great Awakening, at 2931-4538; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-evangelical-awakening-in-new-england
+  role: context
+  confidence: provisional
+  language: eng
+  date: {start: 1897, end: 1897, source: "title page: 1897", formation_confidence: Documented}
+  note: 'Lectures given at Hartford Theological Seminary in 1896 on New England''s religious history. A late survey from inside the Congregational churches.'
+- row_id: walker-george-leon_some-aspects-of-the-religious-life-of-new-england_1897--cole-nathan-spiritual-travels-extract-in-walker
+  work: 'Nathan Cole, ''Spiritual Travels'', on hearing Whitefield: the extract Walker prints'
+  author: cole-nathan
+  locus: 'the extract at OCR lines 3170-3274; Walker''s introduction at 3156-3169; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-evangelical-awakening-in-new-england
+  role: tradition
+  confidence: provisional
+  language: eng
+  date: {start: 1897, end: 1897, source: "first printed here, in 1897; Walker calls it a 'hitherto unpublished narrative' and does not say when Cole wrote it", formation_confidence: Documented}
+  note: 'A Connecticut farmer''s own words on going to hear Whitefield and the distress that followed. Walker says Cole was a farmer of Kensington parish who became a Separatist (OCR lines 3156-3169). An extract chosen by Walker from a manuscript; the OCR misreads some letters.'
+authors_ruled:
+  cole-nathan:
+    kind: metadata-omission
+    evidence: "Walker introduces the extract at file lines 3168-3181 as the narrative of Nathan Cole; the title page names only Walker."

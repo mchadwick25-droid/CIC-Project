@@ -1,0 +1,14 @@
+source_file: vieira_sermoens-parte5-por_1689.txt
+assignments:
+- row_id: vieira_sermoens-parte5-por_1689--vieira-sermoens-parte-5
+  work: 'Vieira, Sermoens, quinta parte (Lisbon, 1689)'
+  author: vieira
+  locus: 'the sermons at OCR lines 521-46831; add 12 to OCR line numbers'
+  atlas_ids:
+  - colonial-latin-american-devotional-catholicism
+  - society-of-jesus-1650-1814
+  role: tradition
+  confidence: provisional
+  language: por
+  date: {start: 1689, end: 1689, source: "title page: 1689; the sermon headings give the years they were preached", formation_confidence: Documented}
+  note: 'The Jesuit preacher''s sermons as printed at Lisbon in 1689; the Society''s licence in the front matter is dated from Bahia. A printed text may differ from what was preached.'

@@ -1,0 +1,28 @@
+source_file: todd-henry-john_publick-spirit-life-and-designs-of-thomas-bray_2nd-ed1808.txt
+assignments:
+- row_id: todd-henry-john_publick-spirit-life-and-designs-of-thomas-bray_2nd-ed1808--life-and-designs-of-thomas-bray
+  work: 'Publick Spirit Illustrated in the Life and Designs of Thomas Bray (1746; second edition, ed. Todd, 1808): the Life'
+  author: todd-henry-john
+  locus: 'the Life at OCR lines 578-2367; Todd''s lettered additions at about 2375-2678; add 12 to OCR line numbers'
+  atlas_ids:
+  - restoration-georgian-church-of-england
+  role: tradition
+  confidence: provisional
+  language: eng
+  date: {start: 1746, end: 1808, source: "Todd's introduction dates the first printing to 1746 (about OCR lines 275-295); this edition's title page reads 1808", formation_confidence: Documented}
+  note: 'A Life of Bray and of the designs he began, from inside the Church of England. Unsigned; Todd reports the attribution to Samuel Smith and does not prove it. The lettered notes are Todd''s.'
+- row_id: todd-henry-john_publick-spirit-life-and-designs-of-thomas-bray_2nd-ed1808--bray-associates-designs-and-proceedings-1807
+  work: 'Dr. Bray''s Associates, Designs and Proceedings for the year 1807, with Todd''s introduction (1808)'
+  author: todd-henry-john
+  locus: 'Todd''s introduction at OCR lines 207-500; the Designs and Proceedings at 2679-6880; add 12 to OCR line numbers'
+  atlas_ids:
+  - restoration-georgian-church-of-england
+  role: tradition
+  confidence: provisional
+  language: eng
+  date: {start: 1807, end: 1808, source: "the Proceedings are for the year 1807; the introduction is signed 25 January 1808 (OCR lines 498-500)", formation_confidence: Documented}
+  note: 'The Associates'' own report, accounts, clergy''s letters of thanks and book lists, edited by Todd. Several hands, all inside the institution.'
+authors_ruled:
+  todd-henry-john:
+    kind: metadata-omission
+    evidence: "The title page (file lines 131-202) names no author or editor. The introduction is signed 'Henry J. Todd' and dated 25 January 1808 (file lines 510-512). The Life itself is unsigned; Todd says it is supposed to be by Samuel Smith (file lines about 287-307)."

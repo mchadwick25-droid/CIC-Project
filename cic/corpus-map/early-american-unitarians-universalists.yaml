@@ -131,6 +131,69 @@ works:
   note: The founder of the Universalist thread telling his own story; the friend's continuation
     is a separate voice.
   source_file: murray-john_records-of-the-life-written-by-himself_1816.txt
+- row_id: murray-judith-sargent_the-gleaner-v3_1798--gleaner-v3-observations-on-female-abilities
+  work: 'Judith Sargent Murray (''Constantia''), The Gleaner, Nos. LXXXVIII-XCI: Observations
+    on Female Abilities (1798)'
+  author: murray-judith-sargent
+  locus: Nos. LXXXVIII-XCI at OCR lines 9969-12185; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1798
+    end: 1798
+    source: 'title page: ''Feb. 1798''; the four essays carry no date of writing'
+    formation_confidence: Documented
+  note: Her four essays on women's abilities.
+  source_file: murray-judith-sargent_the-gleaner-v3_1798.txt
+- row_id: murray-judith-sargent_the-gleaner-v1_1798--gleaner-v1-essays
+  work: 'Judith Sargent Murray (''Constantia''), The Gleaner, vol. I: essays I-XXXIV (1798)'
+  author: murray-judith-sargent
+  locus: the essays at OCR lines 498-17576; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1792
+    end: 1798
+    source: 'title page: ''Feb. 1798'' (OCR lines 64-71); No. I is dated 27 January 1792 (about
+      line 510)'
+    formation_confidence: Documented
+  note: Essays and a serial story, printed under the name Constantia. Her life appears in
+    them only indirectly.
+  source_file: murray-judith-sargent_the-gleaner-v1_1798.txt
+- row_id: murray-judith-sargent_the-gleaner-v2_1798--gleaner-v2-essays
+  work: 'Judith Sargent Murray (''Constantia''), The Gleaner, vol. II: essays XXXV-LXVIII
+    (1798)'
+  author: murray-judith-sargent
+  locus: the essays at OCR lines 217-19712; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1794
+    end: 1798
+    source: 'title page: 1798 (OCR lines 43-50); essays in it are dated 1794'
+    formation_confidence: Documented
+  note: Essays and a serial story, printed under the name Constantia. Her life appears in
+    them only indirectly.
+  source_file: murray-judith-sargent_the-gleaner-v2_1798.txt
+- row_id: murray-judith-sargent_the-gleaner-v3_1798--gleaner-v3-essays
+  work: 'Judith Sargent Murray (''Constantia''), The Gleaner, vol. III: essays LXIX-C (1798)'
+  author: murray-judith-sargent
+  locus: the essays at OCR lines 176-16224; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1796
+    end: 1798
+    source: 'title page: ''Feb. 1798''; No. LXXXVII is headed as written December 1796 (contents,
+      OCR lines 116-118)'
+    formation_confidence: Documented
+  note: Essays, with two plays, printed under the name Constantia. Her life appears in them
+    only indirectly.
+  source_file: murray-judith-sargent_the-gleaner-v3_1798.txt
 - row_id: priestley_discourses-on-the-evidences-of-revealed-religion-philadelphia_1796--discourses-relating-to-the-evidences-of-revealed-religion
   work: Discourses relating to the Evidences of Revealed Religion (Philadelphia, 1796)
   author: priestley

@@ -12,6 +12,22 @@ works:
   note: Cheap religious reading for the newly literate poor, the readership the Sunday-school
     movement made; provisional for the later world.
   source_file: cheap-repository_tracts-v1-1795_marshall1797.txt
+- row_id: gregory-alfred_robert-raikes-journalist-and-philanthropist_1877--gregory-robert-raikes
+  work: 'Gregory, Robert Raikes: Journalist and Philanthropist (1877)'
+  author: gregory-alfred
+  locus: the whole book at OCR lines 202-6120; Raikes's letters at 1614-1673 and 1675-1748,
+    his newspaper notice at 2273-2300; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1877
+    end: 1877
+    source: 'title page: 1877'
+    formation_confidence: Documented
+  note: A Life of Raikes written in 1877, long after the first schools. It prints Raikes's
+    letters of 1783 and 1785 as extracts; quote them as Gregory's printing, not as the originals.
+  source_file: gregory-alfred_robert-raikes-journalist-and-philanthropist_1877.txt
 - row_id: moody-w-r_life-of-dwight-l-moody_1900--the-life-of-dwight-l-moody-by-his-son-william-r-moody
   work: The Life of Dwight L. Moody, by his son William R. Moody; Official Authorised Edition;
     issued by the

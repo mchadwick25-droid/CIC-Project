@@ -31,6 +31,87 @@ works:
   note: The church's own condemnation texts that the nuns refused to sign to as fact; hostile
     and institutional, as the census frames them.
   source_file: denzinger_enchiridion-symbolorum-lat_bannwart1911.txt
+- row_id: du-fosse_memoires-pour-servir-a-l-histoire-de-port-royal-fra_1739--du-fosse-memoires
+  work: Du Fossé, Mémoires pour servir à l'histoire de Port-Royal (1739)
+  author: du-fosse
+  locus: books I-IV at OCR lines 1557-24421; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: fra
+  date:
+    start: 1697
+    end: 1739
+    source: 'the editors'' Life says he began the memoirs at the end of 1697 and died in 1698
+      (OCR lines 1202 and 1300); title page: 1739'
+    formation_confidence: Documented
+  note: Du Fossé's own memories of Port-Royal, written at the end of his life. Printed forty
+    years after his death by editors who are not named.
+  source_file: du-fosse_memoires-pour-servir-a-l-histoire-de-port-royal-fra_1739.txt
+- row_id: du-fosse_memoires-pour-servir-a-l-histoire-de-port-royal-fra_1739--du-fosse-memoires-editors-life
+  work: 'Mémoires de du Fossé (1739): the editors'' avertissement and Life of du Fossé'
+  author: du-fosse
+  locus: the avertissement at OCR lines 175-510; the Life at 514-1540; add 12 to OCR line
+    numbers
+  role: context
+  confidence: provisional
+  language: fra
+  date:
+    start: 1739
+    end: 1739
+    source: 'title page: 1739'
+    formation_confidence: Documented
+  note: The editors of 1739 on the author. Unsigned; later than the entry's window.
+  source_file: du-fosse_memoires-pour-servir-a-l-histoire-de-port-royal-fra_1739.txt
+- row_id: fontaine-nicolas_memoires-pour-servir-a-l-histoire-de-port-royal-t1-fra_1738--fontaine-memoires-t1-parts-1-2
+  work: 'Fontaine, Mémoires pour servir à l''histoire de Port-Royal, tome 1: parts 1 and 2
+    (1738)'
+  author: fontaine-nicolas
+  locus: 'Fontaine''s Mémoires at OCR lines 5496-24815: part 1 from 5617, part 2 from 11941;
+    add 12 to OCR line numbers'
+  role: tradition
+  confidence: provisional
+  language: fra
+  date:
+    start: 1738
+    end: 1738
+    source: 'title page: 1738; when Fontaine wrote was not read in the volume'
+    formation_confidence: Documented
+  note: Fontaine's own memories of Port-Royal and its solitaires. Printed in 1738 by editors
+    who are not named.
+  source_file: fontaine-nicolas_memoires-pour-servir-a-l-histoire-de-port-royal-t1-fra_1738.txt
+- row_id: fontaine-nicolas_memoires-pour-servir-a-l-histoire-de-port-royal-t2-fra_1738--fontaine-memoires-t2-parts-3-4
+  work: 'Fontaine, Mémoires pour servir à l''histoire de Port-Royal, tome 2: parts 3 and 4
+    (1738)'
+  author: fontaine-nicolas
+  locus: part 3 at OCR lines 145-13020; part 4 at 13021-26483; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: fra
+  date:
+    start: 1738
+    end: 1738
+    source: 'title page: 1738; when Fontaine wrote was not read in the volume'
+    formation_confidence: Documented
+  note: The second half of his memoirs, to the scattering of Port-Royal. See the note on tome
+    1.
+  source_file: fontaine-nicolas_memoires-pour-servir-a-l-histoire-de-port-royal-t2-fra_1738.txt
+- row_id: fontaine-nicolas_memoires-pour-servir-a-l-histoire-de-port-royal-t1-fra_1738--fontaine-memoires-t1-prefatory-pieces
+  work: 'Mémoires pour servir à l''histoire de Port-Royal, tome 1 (1738): the Life of Fontaine,
+    the short history of Port-Royal, Le Maître''s memoir and the memoir on the schools'
+  author: fontaine-nicolas
+  locus: the Life of Fontaine at OCR lines 305-610; the short history from 613; Le Maître's
+    memoir at 3681-4992; the memoir on the schools at 4993-5495; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: fra
+  date:
+    start: 1738
+    end: 1738
+    source: 'title page: 1738; when Fontaine wrote was not read in the volume'
+    formation_confidence: Documented
+  note: Pieces the editors of 1738 set before Fontaine's text. The Life and the history are
+    unsigned; Le Maître's memoir is his own and belongs to Port-Royal's first generation.
+  source_file: fontaine-nicolas_memoires-pour-servir-a-l-histoire-de-port-royal-t1-fra_1738.txt
 - row_id: lowndes_nuns-of-port-royal-own-narratives_1909--the-nuns-of-port-royal-as-seen-in-their-own-narratives-1909
   work: The Nuns of Port Royal as seen in their own Narratives (1909)
   author: lowndes
@@ -77,3 +158,21 @@ works:
   note: The community's own voice at its moment of maximum pressure; women's conscience under
     institutional siege, as the census frames it.
   source_file: port-royal_divers-actes-lettres-relations-fra_1724.txt
+- row_id: quesnel_nouveau-testament-avec-des-reflexions-morales-t1-fra_1693--quesnel-reflexions-morales-matthew-mark
+  work: 'Quesnel, Le Nouveau Testament en françois avec des réflexions morales, tome 1: Matthew
+    and Mark (1693)'
+  author: quesnel
+  locus: Matthew at OCR lines 5621-37303; Mark at 37306-56513; the preface at 278-1280; add
+    12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: fra
+  date:
+    start: 1693
+    end: 1693
+    source: 'title page: ''M. DC. XCIII.'''
+    formation_confidence: Documented
+  note: Verse-by-verse reflections on the Gospels, in the enlarged edition printed by order
+    of the bishop of Châlons. The title page does not name Quesnel; the attribution is the
+    record's.
+  source_file: quesnel_nouveau-testament-avec-des-reflexions-morales-t1-fra_1693.txt

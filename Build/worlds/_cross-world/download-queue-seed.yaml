@@ -31354,3 +31354,373 @@ queue:
     verified_by: 'Library thread, era 9 batch 2b: archive.org metadata read, title page read, djvu.txt fetched, byte count 133,941 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: bellett_short-meditation-on-the-moral-glory-of-the-lord-jesus-christ_1865.txt
+  - title: 'A Brief Account of the Gracious Dealings of God, with a Poor, Sinful, Unworthy Creature, in Three Parts'
+    author: 'Anne Dutton'
+    year: '1750'
+    world: the-baptists
+    why: 'Wanted row A135: Anne Dutton''s own account of her life (the 1750 printing in three parts).'
+    url: https://archive.org/details/bim_eighteenth-century_a-brief-account-of-the-g_dutton-anne_1750
+    rights_basis: 'Public Domain (pd-us-by-date: published 1750); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 8 batch 2: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 728,933 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: dutton-anne_brief-account-of-the-gracious-dealings-of-god_1750.txt
+  - title: 'Memoirs of the Rev. Isaac Watts, D.D.'
+    author: 'Thomas Gibbons'
+    year: '1780'
+    world: english-old-dissent
+    why: 'Wanted row A136: Gibbons''s Memoirs of Isaac Watts, the Life by a friend and fellow minister.'
+    url: https://archive.org/details/memoirsofrevisaa00gibb
+    rights_basis: 'Public Domain (pd-us-by-date: published 1780); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 8 batch 2: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 825,029 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: gibbons-thomas_memoirs-of-isaac-watts_1780.txt
+  - title: 'Memoirs of the Life, Character, and Writings of the late Rev. Philip Doddridge, D.D., of Northampton; with an introductory essay by the Rev. David Russell, Dundee'
+    author: 'Job Orton'
+    year: '1825'
+    world: english-old-dissent
+    why: 'Wanted row A137: Orton''s Memoirs of Doddridge, the Life by his pupil (the 1825 reprint, whose OCR is clean; the 1766 first edition''s is not).'
+    url: https://archive.org/details/memoirsoflifecha00orto
+    rights_basis: 'Public Domain (pd-us-by-date: published 1825); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 8 batch 2: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 655,313 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: orton_memoirs-of-philip-doddridge_russell1825.txt
+  - title: 'Memoirs of the Life and Correspondence of Mrs. Hannah More; third edition, revised, with an additional preface; vol. I'
+    author: 'William Roberts'
+    year: '1835'
+    world: restoration-georgian-church-of-england
+    why: 'Wanted row A139: Roberts''s Memoirs of Hannah More, for her own letters (vol. 1 only; the later volumes were not taken).'
+    url: https://archive.org/details/memoirslifeandc00moregoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1835); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 8 batch 2: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 881,906 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: roberts-william_memoirs-of-hannah-more-v1_3rd-ed1835.txt
+  - title: 'Publick Spirit Illustrated in the Life and Designs of the Reverend Thomas Bray, D.D.; to which are added the designs and proceedings of those who now form the institution called Dr. Bray''s Associates; the second edition, revised'
+    author: 'Henry John Todd (editor)'
+    year: '1808'
+    world: restoration-georgian-church-of-england
+    why: 'Wanted row A140: the Life of Thomas Bray of 1746, in Todd''s edition of 1808 (the 1746 print''s year is garbled in its scan).'
+    url: https://archive.org/details/publickspiritil00toddgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1808); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 8 batch 2: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 186,491 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: todd-henry-john_publick-spirit-life-and-designs-of-thomas-bray_2nd-ed1808.txt
+  - title: 'The Life of William Wilberforce, by his sons; in five volumes; vol. I'
+    author: 'Robert Isaac Wilberforce and Samuel Wilberforce'
+    year: '1838'
+    world: restoration-georgian-church-of-england
+    why: 'Wanted row A141: the sons'' Life of William Wilberforce, for his diary and letters (vol. 1 only; the later volumes were not taken).'
+    url: https://archive.org/details/lifewilliamwilb04wilbgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1838); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 8 batch 2: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 622,077 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: wilberforce-robert-and-samuel_life-of-william-wilberforce-v1_1838.txt
+  - title: 'Robert Raikes: Journalist and Philanthropist. A history of the origin of Sunday schools'
+    author: 'Alfred Gregory'
+    year: '1877'
+    world: the-sunday-school-and-bible-institute-movement
+    why: 'Wanted row A159: Robert Raikes and the first Sunday schools, with his letters of 1783 and 1785 as Gregory prints them.'
+    url: https://archive.org/details/robertraikesjou00alfrgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1877); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 8 batch 2: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 288,199 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: gregory-alfred_robert-raikes-journalist-and-philanthropist_1877.txt
+  - title: 'Biographical Sketches of the Lives and Public Ministry of Various Holy Women, whose eminent usefulness and successful labours in the Church of Christ have entitled them to be enrolled among the great benefactors of mankind; in which are included several letters from the Rev. J. Wesley never before published; vols. I and II'
+    author: 'Zechariah Taft'
+    year: '1828'
+    world: the-methodist-revival
+    why: 'Wanted row A133: Sarah Crosby and the Methodist women preachers, in Taft''s two volumes with Wesley''s letters to them.'
+    url: https://archive.org/details/taft-biographical-sketches-of-the-lives-and-public-ministry-of-various-holy-women
+    rights_basis: 'Public Domain (pd-us-by-date: published 1828); the archive.org item is a reader''s upload of 2025 with no rights field; the scan photographs a bound copy from the Thursfield Smith Collection, and the imprint dates are the basis'
+    verified_by: 'Library thread, era 8 batch 2: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,276,329 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: taft_biographical-sketches-of-holy-women-v1-v2_1825-1828.txt
+  - title: 'Samson Occom and the Christian Indians of New England'
+    author: 'W. DeLoss Love'
+    year: '1899'
+    world: the-evangelical-awakening-in-new-england
+    why: 'Wanted row A128: Samson Occom, with the opening of his own narrative of 1768 as Love prints it (the whole narrative was not printed by 1930 so far as found).'
+    url: https://archive.org/details/samsonoccomchris00love
+    rights_basis: 'Public Domain (pd-us-by-date: published 1899; the title page prints no year, and the date is the copyright notice on its verso, ''Copyright, 1899'', OCR lines 70-71, with which the preface date and the archive.org record''s date agree); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 8 batch 2: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 976,196 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: love-william-deloss_samson-occom-and-the-christian-indians-of-new-england_1899.txt
+  - title: 'Some Aspects of the Religious Life of New England, with special reference to Congregationalists: lectures delivered on the Carew Foundation before Hartford Theological Seminary in 1896'
+    author: 'George Leon Walker'
+    year: '1897'
+    world: the-evangelical-awakening-in-new-england
+    why: 'Wanted row A131: Nathan Cole''s account of hearing Whitefield, in the extract Walker printed (no full printing by 1930 was found).'
+    url: https://archive.org/details/someaspectsofrel00walk
+    rights_basis: 'Public Domain (pd-us-by-date: published 1897); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 8 batch 2: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 365,693 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: walker-george-leon_some-aspects-of-the-religious-life-of-new-england_1897.txt
+  - title: 'Sketches of the Life and Character of the Rev. Lemuel Haynes, A.M., for many years pastor of a church in Rutland, Vt., and late in Granville, New-York; with some introductory remarks by William B. Sprague, D.D.'
+    author: 'Timothy Mather Cooley'
+    year: '1837'
+    world: the-evangelical-awakening-in-new-england
+    why: 'Wanted row A132: Lemuel Haynes, in Cooley''s Life with Haynes''s own sermons and letters.'
+    url: https://archive.org/details/sketchesoflifech00cool
+    rights_basis: 'Public Domain (pd-us-by-date: published 1837); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 8 batch 2: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 718,426 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: cooley_sketches-of-the-life-and-character-of-lemuel-haynes_1837.txt
+  - title: 'Sermons on Important Subjects, by the late reverend and pious Samuel Davies, A.M., sometime President of the College in New-Jersey; in two volumes; the sixth edition, to which are now added three occasional sermons, memoirs and character of the author, and two sermons on occasion of his death by the Rev. Drs. Gibbons and Finley; volume I; second American edition'
+    author: 'Samuel Davies'
+    year: '1794'
+    world: the-evangelical-awakening-in-new-england
+    why: 'Wanted row A134: Samuel Davies, with the memoirs of him by Finley, Gibbons and Bostwick (vol. 3 of another edition is held; this is vol. 1).'
+    url: https://archive.org/details/sermonsonimporta179401davi
+    rights_basis: 'Public Domain (pd-us-by-date: published 1794); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 8 batch 2: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,453,441 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: davies_sermons-on-important-subjects-v1_campbell1794.txt
+  - title: 'The Gleaner: a miscellaneous production; in three volumes; by Constantia; vol. I'
+    author: 'Judith Sargent Murray'
+    year: '1798'
+    world: early-american-unitarians-universalists
+    why: 'Wanted row A138: Judith Sargent Murray in her own essays (The Gleaner, three volumes, under the name Constantia).'
+    url: https://archive.org/details/gleanermiscellan01murr
+    rights_basis: 'Public Domain (pd-us-by-date: published 1798); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 8 batch 2: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 834,909 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: murray-judith-sargent_the-gleaner-v1_1798.txt
+  - title: 'The Gleaner: a miscellaneous production; in three volumes; by Constantia; vol. II'
+    author: 'Judith Sargent Murray'
+    year: '1798'
+    world: early-american-unitarians-universalists
+    why: 'Wanted row A138: Judith Sargent Murray in her own essays (The Gleaner, three volumes, under the name Constantia).'
+    url: https://archive.org/details/bim_eighteenth-century_the-gleaner-a-miscellan_murray-judith-sargent_1798_2
+    rights_basis: 'Public Domain (pd-us-by-date: published 1798); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 8 batch 2: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 706,793 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: murray-judith-sargent_the-gleaner-v2_1798.txt
+  - title: 'The Gleaner: a miscellaneous production; in three volumes; by Constantia; vol. III'
+    author: 'Judith Sargent Murray'
+    year: '1798'
+    world: early-american-unitarians-universalists
+    why: 'Wanted row A138: Judith Sargent Murray in her own essays (The Gleaner, three volumes, under the name Constantia).'
+    url: https://archive.org/details/gleanermiscellan03murr
+    rights_basis: 'Public Domain (pd-us-by-date: published 1798); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 8 batch 2: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 760,440 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: murray-judith-sargent_the-gleaner-v3_1798.txt
+  - title: 'The Posthumous Works of the reverend and pious James M''Gready, late minister of the gospel in Henderson, Ky.; edited by the Reverend James Smith; two volumes in one'
+    author: 'James McGready'
+    year: '1837'
+    world: the-second-great-awakening-and-camp-meeting-worl
+    why: 'Wanted row A157: James McGready, his own narrative of the Logan County revival and his sermons.'
+    url: https://archive.org/details/posthumousworkso00mcgr
+    rights_basis: 'Public Domain (pd-us-by-date: published 1837); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 8 batch 2: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,606,886 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: mcgready_posthumous-works_smith1837.txt
+  - title: 'Declaration and Address of the Christian Association of Washington; Centennial edition'
+    author: 'Thomas Campbell'
+    year: '1908'
+    world: the-stone-campbell-restoration-movement
+    why: 'Wanted row A158: Thomas Campbell''s Declaration and Address of 1809, in the line-for-line reprint of 1908.'
+    url: https://archive.org/details/declarationaddre00campiala
+    rights_basis: 'Public Domain (pd-us-by-date: published 1908); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 8 batch 2: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 208,745 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: campbell-thomas_declaration-and-address-centennial-edition_1908.txt
+  - title: 'Vita del proposto Lodovico Antonio Muratori, già bibliotecario del serenissimo signor Duca di Modena, descritta dal proposto Gian-Francesco Soli Muratori suo nipote; con la giunta in questa edizione napoletana di alcune lettere scritte dallo stesso proposto Lodovico Antonio Muratori a diversi letterati napoletani'
+    author: 'Gian-Francesco Soli Muratori'
+    year: '1758'
+    world: catholic-church-ancien-regime
+    why: 'Wanted row A146: Lodovico Antonio Muratori, in the Life by his nephew (Naples, 1758; the Venice 1756 scan shows no year).'
+    url: https://archive.org/details/bub_gb_S09fcFzVIu4C
+    rights_basis: 'Public Domain (pd-us-by-date: published 1758); the archive.org record carries the Public Domain Mark'
+    verified_by: 'Library thread, era 8 batch 2: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 973,061 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: soli-muratori_vita-del-proposto-lodovico-antonio-muratori-ita_napoli1758.txt
+  - title: 'Il cristianesimo felice nelle missioni de'' padri della Compagnia di Gesù nel Paraguai'
+    author: 'Lodovico Antonio Muratori'
+    year: '1743'
+    world: society-of-jesus-1650-1814
+    why: 'Wanted row A146: Muratori on the Jesuit missions of Paraguay, the book the census names for the Society of Jesus, 1650-1814.'
+    url: https://archive.org/details/A118051
+    rights_basis: 'Public Domain (pd-us-by-date: published 1743); the archive.org record carries the Public Domain Mark'
+    verified_by: 'Library thread, era 8 batch 2: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 596,416 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: muratori_il-cristianesimo-felice-nelle-missioni-del-paraguai-ita_1743.txt
+  - title: 'A Relation of the Missions of Paraguay, wrote originally in Italian by Mr. Muratori, and now done into English from the French translation'
+    author: 'Lodovico Antonio Muratori'
+    year: '1759'
+    world: society-of-jesus-1650-1814
+    why: 'Wanted row A146: Muratori on the Paraguay missions in the English of 1759, for readers without Italian.'
+    url: https://archive.org/details/bim_eighteenth-century_a-relation-of-the-missio_muratori-lodovico-anton_1759
+    rights_basis: 'Public Domain (pd-us-by-date: published 1759); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 8 batch 2: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 468,998 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: muratori_relation-of-the-missions-of-paraguay_1759.txt
+  - title: 'La vie de dom Armand-Jean Le Bouthillier de Rancé, abbé régulier et réformateur du monastère de la Trappe, de l''étroite observance de Cîteaux; nouvelle édition; tome premier'
+    author: 'Jacques Marsollier'
+    year: '1758'
+    world: catholic-church-ancien-regime
+    why: 'Wanted row A147: Rancé and La Trappe, in Marsollier''s Life (two volumes, the edition of 1758).'
+    url: https://archive.org/details/laviededomarmand01mars
+    rights_basis: 'Public Domain (pd-us-by-date: published 1758); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 8 batch 2: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 688,718 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: marsollier_vie-de-dom-armand-jean-le-bouthillier-de-rance-t1-fra_1758.txt
+  - title: 'La vie de dom Armand-Jean Le Bouthillier de Rancé, abbé régulier et réformateur du monastère de la Trappe, de l''étroite observance de Cîteaux; nouvelle édition; tome second'
+    author: 'Jacques Marsollier'
+    year: '1758'
+    world: catholic-church-ancien-regime
+    why: 'Wanted row A147: Rancé and La Trappe, in Marsollier''s Life (two volumes, the edition of 1758).'
+    url: https://archive.org/details/laviededomarmand02mars
+    rights_basis: 'Public Domain (pd-us-by-date: published 1758); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 8 batch 2: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 816,956 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: marsollier_vie-de-dom-armand-jean-le-bouthillier-de-rance-t2-fra_1758.txt
+  - title: 'Mémoires pour servir à l''histoire de Port-Royal, par M. Fontaine; tome premier'
+    author: 'Nicolas Fontaine'
+    year: '1738'
+    world: port-royal-jansenism
+    why: 'Wanted row A148: Fontaine''s memoirs of Port-Royal, which the census names for Port-Royal Jansenism.'
+    url: https://archive.org/details/memoirespourser01fontgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1738); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 8 batch 2: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,177,647 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: fontaine-nicolas_memoires-pour-servir-a-l-histoire-de-port-royal-t1-fra_1738.txt
+  - title: 'Mémoires pour servir à l''histoire de Port-Royal, par M. Fontaine; tome second'
+    author: 'Nicolas Fontaine'
+    year: '1738'
+    world: port-royal-jansenism
+    why: 'Wanted row A148: Fontaine''s memoirs of Port-Royal, which the census names for Port-Royal Jansenism.'
+    url: https://archive.org/details/memoirespourser00fontgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1738); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 8 batch 2: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,323,152 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: fontaine-nicolas_memoires-pour-servir-a-l-histoire-de-port-royal-t2-fra_1738.txt
+  - title: 'Mémoires pour servir à l''histoire de Port-Royal, par M. du Fossé'
+    author: 'Pierre Thomas du Fossé'
+    year: '1739'
+    world: port-royal-jansenism
+    why: 'Wanted row A148: du Fossé''s memoirs of Port-Royal, which the census names for Port-Royal Jansenism.'
+    url: https://archive.org/details/memoirespourser00fossgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1739); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 8 batch 2: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 974,681 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: du-fosse_memoires-pour-servir-a-l-histoire-de-port-royal-fra_1739.txt
+  - title: 'Le Nouveau Testament en françois, avec des réflexions morales sur chaque verset, pour en rendre la lecture plus utile et la méditation plus aisée; nouvelle édition augmentée; imprimé par l''ordre de Monseigneur l''évêque et comte de Châlons; tome premier'
+    author: 'Pasquier Quesnel'
+    year: '1693'
+    world: port-royal-jansenism
+    why: 'Open-Gaps 225, Library wanted: Quesnel''s Réflexions morales, the book Unigenitus condemned (tome 1, the edition of 1693).'
+    url: https://archive.org/details/bub_gb_GmCin_UcwIcC
+    rights_basis: 'Public Domain (pd-us-by-date: published 1693); the archive.org record carries the Public Domain Mark'
+    verified_by: 'Library thread, era 8 batch 2: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,681,350 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: quesnel_nouveau-testament-avec-des-reflexions-morales-t1-fra_1693.txt
+  - title: 'An Account of the Abipones, an equestrian people of Paraguay; from the Latin of Martin Dobrizhoffer, eighteen years a missionary in that country; in three volumes; vol. I'
+    author: 'Martin Dobrizhoffer'
+    year: '1822'
+    world: society-of-jesus-1650-1814
+    why: 'Open-Gaps 181, Library wanted: Dobrizhoffer on the Abipones and the Paraguay missions, in the English of 1822.'
+    url: https://archive.org/details/accountofabipone18221dobr
+    rights_basis: 'Public Domain (pd-us-by-date: published 1822); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 8 batch 2: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 683,206 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: dobrizhoffer_account-of-the-abipones-v1_1822.txt
+  - title: 'An Account of the Abipones, an equestrian people of Paraguay; from the Latin of Martin Dobrizhoffer, eighteen years a missionary in that country; in three volumes; vol. II'
+    author: 'Martin Dobrizhoffer'
+    year: '1822'
+    world: society-of-jesus-1650-1814
+    why: 'Open-Gaps 181, Library wanted: Dobrizhoffer on the Abipones and the Paraguay missions, in the English of 1822.'
+    url: https://archive.org/details/cu31924104090935
+    rights_basis: 'Public Domain (pd-us-by-date: published 1822); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 8 batch 2: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 578,723 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: dobrizhoffer_account-of-the-abipones-v2_1822.txt
+  - title: 'An Account of the Abipones, an equestrian people of Paraguay; from the Latin of Martin Dobrizhoffer, eighteen years a missionary in that country; in three volumes; vol. III'
+    author: 'Martin Dobrizhoffer'
+    year: '1822'
+    world: society-of-jesus-1650-1814
+    why: 'Open-Gaps 181, Library wanted: Dobrizhoffer on the Abipones and the Paraguay missions, in the English of 1822.'
+    url: https://archive.org/details/cu31924104095033
+    rights_basis: 'Public Domain (pd-us-by-date: published 1822); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 8 batch 2: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 538,709 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: dobrizhoffer_account-of-the-abipones-v3_1822.txt
+  - title: 'Historia de Abiponibus, equestri bellicosaque Paraquariae natione, locupletata copiosis barbararum gentium, urbium, fluminum, ferarum, amphibiorum, insectorum, serpentium praecipuorum, piscium, avium, arborum, plantarum aliarumque eiusdem provinciae proprietatum observationibus; pars prima'
+    author: 'Martin Dobrizhoffer'
+    year: '1784'
+    world: society-of-jesus-1650-1814
+    why: 'Open-Gaps 181, Library wanted: Dobrizhoffer in his own Latin (part 1 only; it answers to vol. I of the English).'
+    url: https://archive.org/details/historiadeabipon00dobr
+    rights_basis: 'Public Domain (pd-us-by-date: published 1784); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 8 batch 2: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 980,381 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: dobrizhoffer_historia-de-abiponibus-pars1-lat_1784.txt
+  - title: 'Sermoens do P. Antonio Vieira, da Companhia de Jesu, prégador de Sua Magestade; terceira parte'
+    author: 'António Vieira'
+    year: '1683'
+    world: colonial-latin-american-devotional-catholicism
+    why: 'Wanted row A123 and the era 8 handover: Vieira''s sermons in the first printing he oversaw (three of the parts; the others were not taken).'
+    url: https://archive.org/details/sermoensdopanton01viei
+    rights_basis: 'Public Domain (pd-us-by-date: published 1683); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 8 batch 2: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,316,874 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: vieira_sermoens-parte3-por_1683.txt
+  - title: 'Sermoens do P. Antonio Vieira, da Companhia de Jesu, prégador de Sua Magestade; quinta parte'
+    author: 'António Vieira'
+    year: '1689'
+    world: colonial-latin-american-devotional-catholicism
+    why: 'Wanted row A123 and the era 8 handover: Vieira''s sermons in the first printing he oversaw (three of the parts; the others were not taken).'
+    url: https://archive.org/details/sermoensdopanton07viei
+    rights_basis: 'Public Domain (pd-us-by-date: published 1689); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 8 batch 2: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,374,122 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: vieira_sermoens-parte5-por_1689.txt
+  - title: 'Sermoens do P. Antonio Vieira, da Companhia de Jesu, prégador de Sua Magestade; parte duodécima'
+    author: 'António Vieira'
+    year: '1699'
+    world: colonial-latin-american-devotional-catholicism
+    why: 'Wanted row A123 and the era 8 handover: Vieira''s sermons in the first printing he oversaw (three of the parts; the others were not taken).'
+    url: https://archive.org/details/sermoensdopanton00viei
+    rights_basis: 'Public Domain (pd-us-by-date: published 1699); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 8 batch 2: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 970,217 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: vieira_sermoens-parte12-por_1699.txt
+  - title: 'Two Hundred Years of the S.P.G.: an historical account of the Society for the Propagation of the Gospel in Foreign Parts, 1701-1900 (based on a digest of the Society''s records); vol. II'
+    author: 'C. F. Pascoe'
+    year: '1901'
+    world: victorian-church-of-england
+    why: 'The era 8 handover''s list: the second half of Pascoe''s digest, whose vol. 1 is held (Asia, the Society''s home work, the roll of missionaries and the Charter of 1701).'
+    url: https://archive.org/details/twohundredyearso02pasc
+    rights_basis: 'Public Domain (pd-us-by-date: published 1901); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 8 batch 2: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 3,435,390 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: pascoe_two-hundred-years-of-the-spg-v2_1901.txt
+  - title: 'Histoire générale de la Société des Missions-Étrangères; tome troisième'
+    author: 'Adrien Launay'
+    year: '1894'
+    world: chinese-catholicism-1650-1906
+    why: 'The era 8 handover''s list: the last volume of Launay''s history, whose tomes 1 and 2 are held (the missions of China, Vietnam, Korea, Japan and India from 1836).'
+    url: https://archive.org/details/cihm_54002
+    rights_basis: 'Public Domain (pd-us-by-date: published 1894); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 8 batch 2: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,426,790 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: launay_histoire-generale-de-la-societe-des-missions-etrangeres-t3-fra_1894.txt
+  - title: 'Continuatio Historiae cultus Sinensium, seu varia scripta de cultibus Sinarum, inter vicarios apostolicos Gallos aliosque missionarios et patres Societatis Jesu controversis, oblata Innocentio XII. pontifici maximo et Sacrae Congregationi eminentissimorum cardinalium dirimendae huic causae praepositorum'
+    author: 'Nicolas Charmot'
+    year: '1700'
+    world: chinese-catholicism-1650-1906
+    why: 'The era 8 handover''s list: the Continuatio of the Historia cultus Sinensium, whose main volume is held (the French vicars'' side of the Chinese Rites case in 1699).'
+    url: https://archive.org/details/bub_gb_rG8lStorjTwC
+    rights_basis: 'Public Domain (pd-us-by-date: published 1700); the archive.org record carries the Public Domain Mark'
+    verified_by: 'Library thread, era 8 batch 2: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 226,538 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: historia-cultus-sinensium_continuatio-lat_1700.txt
+  - title: 'Six Months in a Syrian Monastery: being the record of a visit to the head quarters of the Syrian Church in Mesopotamia, with some account of the Yazidis or devil worshippers of Mosul and El Jilwah, their sacred book'
+    author: 'Oswald H. Parry'
+    year: '1895'
+    world: the-sayfo-and-the-syriac-diaspora
+    why: 'CFT-Wants batch 2 (ME-7) and the era 8 handover: Parry''s visit to the Syriac Orthodox patriarch at Deir-el-Za''afaran in 1892 (the Google scan; the Columbia scan was dropped for its permission line).'
+    url: https://archive.org/details/sixmonthsinasyr00parrgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1895); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 8 batch 2: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 852,089 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: parry_six-months-in-a-syrian-monastery_1895.txt
