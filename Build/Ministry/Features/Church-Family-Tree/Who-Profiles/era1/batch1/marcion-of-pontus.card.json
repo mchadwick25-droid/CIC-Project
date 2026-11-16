@@ -3,72 +3,174 @@
   "otherNames": [
     "Marcion of Sinope, in Epiphanius of Salamis"
   ],
-  "knownFor": "A teacher at Rome who held that the God of the law was not the Father of Jesus, and whose own churches spread widely.",
+  "knownFor": "A teacher from Pontus, at Rome around 150, who held that the God of the law and the prophets was not the Father of Jesus, cut down the Gospel of Luke and the letters of Paul to fit that teaching, and founded churches of his own that were still found three centuries later.",
   "dates": "Taught at Rome in the middle of the second century",
-  "place": "Pontus, then Rome",
-  "tradition": "Marcionism",
-  "role": "Founder of the Marcionite churches",
-  "briefLength": "about 2 minutes 25 seconds",
+  "place": "Pontus, on the Black Sea coast of Asia Minor; then Rome",
+  "tradition": "Marcion / Marcionism",
+  "role": "Teacher and founder of the Marcionite churches",
+  "briefLength": "about 2 minutes",
   "keyWorks": [
     {
       "title": "Antitheses",
-      "about": "set the law against the gospel. It is lost and known through Tertullian of Carthage's answer"
+      "about": "statements set against each other to sever the law from the gospel and divide God into two, Tertullian of Carthage says. It is lost and known through Tertullian's answer"
+    },
+    {
+      "title": "His Gospel and his letters of Paul",
+      "about": "the Gospel of Luke and ten letters of Paul, cut down, Irenaeus of Lyon and Tertullian say, to remove what calls the Maker of the world the Father of Jesus. They are lost, and known through Tertullian's fourth and fifth books against him"
     }
   ],
   "legacy": {
     "traces": [
-      "Justin Martyr says many \"of every nation\" followed him. Tertullian of Carthage says the Marcionites built churches of their own."
+      "Justin Martyr, writing while Marcion was alive, says he had already won many of every nation. Tertullian of Carthage, mocking them, grants that the Marcionites had churches of their own, with Marcion as their founder.",
+      "Epiphanius of Salamis, about two centuries later, says his followers were still found in Rome and Italy, Egypt and Palestine, Arabia and Syria, Cyprus and the Thebaid, and in Persia.",
+      "Theodoret of Cyrrhus, a bishop in Syria, says in one letter that he led eight villages of Marcionites into his own faith, and in a letter to Leo, bishop of Rome, that he rescued more than a thousand souls from Marcion's teaching.",
+      "Ephrem the Syrian, in fourth-century Syria, wrote discourses against Marcion's teaching on the Stranger, the god Marcion set above the Maker."
     ],
     "remembered": [
-      "Irenaeus of Lyon tells that Polycarp of Smyrna called him \"the first-born of Satan.\"",
-      "Tertullian wrote five books Against Marcion, arguing from Marcion's own Gospel and Antitheses."
+      "Irenaeus of Lyon tells that Polycarp of Smyrna, coming to Rome, turned many away from Valentinus and Marcion, and that when Marcion asked Polycarp to recognize him, Polycarp called him \"the first-born of Satan.\"",
+      "Irenaeus argued that the Gospels can be neither more nor fewer than four, and named Marcion among those who made them fewer.",
+      "Tertullian wrote five books Against Marcion, and in the fourth argued from Marcion's own Gospel and his Antitheses."
     ]
   },
   "uncertain": [
-    "Almost everything known of him comes from his opponents: Justin Martyr, Irenaeus of Lyon, Tertullian of Carthage and Epiphanius of Salamis. None of his own books survives.",
-    "The teaching rests on more than one of them. Justin, writing while Marcion lived, and Tertullian, who read Marcion's own books, agree that he set another god above the Creator.",
-    "Several life details rest on Tertullian alone: the shipmaster, the money returned, and the late offer to repent.",
+    "None of his own books survives, so nearly everything known of him comes from opponents who thought as Polycarp did: Justin Martyr, Irenaeus of Lyon, Tertullian of Carthage, and later Epiphanius of Salamis. On his teaching they agree, and Tertullian had Marcion's Antitheses and his Gospel before him, so on the teaching he does not rest on Irenaeus.",
+    "That he first belonged to the church at Rome and was put out rests on Tertullian. Justin and Irenaeus do not say it; Irenaeus tells it of Cerdo. Epiphanius tells another version, that the elders at Rome refused to receive him.",
+    "Several life details rest on Tertullian alone: that he was a shipmaster of Pontus, that the church at Rome rejected the money he had given along with the man, and that he later offered to repent but died before he could be reconciled.",
+    "\"Around 150\" is approximate. Justin, who in the same Apology counts 150 years from the birth of Christ, says Marcion was still alive and teaching. Tertullian places him in the reign of Antoninus.",
     "Tertullian places Marcion at Rome under Bishop Eleutherus. Irenaeus has him flourish under Anicetus, an earlier bishop.",
-    "That he was a bishop's son put out for violating a young woman is told by the book Against All Heresies printed with Tertullian's works, and at more length by Epiphanius. Karl Holl, who edited Epiphanius's Greek, thought Tertullian's silence spoke against the story.",
-    "Justin Martyr and Irenaeus of Lyon say he came from Pontus. Only Epiphanius, two centuries later, names the city of Sinope; Holl notes that the one other early writer to name it copied him."
+    "That Cerdo, a teacher at Rome before him, was his teacher rests on Irenaeus, who says Marcion succeeded Cerdo and developed his doctrine.",
+    "That he was a bishop's son put out of the church for violating a young woman is told by the book Against All Heresies printed with Tertullian's works, and at more length by Epiphanius. Karl Holl, who edited Epiphanius's Greek, thought Tertullian's silence spoke against the story, since Tertullian elsewhere praises Marcion's continence.",
+    "Justin Martyr and Irenaeus of Lyon say he came from Pontus. Only Epiphanius, two centuries later, names the city of Sinope; Holl notes that the one other early writer to name it, Filastrius, drew on Epiphanius.",
+    "Marcion's question to Polycarp. The old English reads \"Dost thou know me?\", but the Greek and Latin witnesses and Eusebius of Caesarea's text all have \"us\", and the verb means to recognize or acknowledge: Marcion asks to be owned as a fellow Christian. Some copies make it a command, \"Recognize us.\" The brief's \"asking to be owned as a brother\" is that reading of the verb, which Irenaeus's next sentence, on refusing even to speak with corrupters of the truth, bears out.",
+    "Polycarp's reply. The old English reads \"I do know thee\", but the Greek and Latin witnesses repeat the verb, \"I recognize, I recognize\", and do not say \"you\". He names Marcion only as \"the first-born of Satan\".",
+    "\"Two centuries after Marcion\" for Epiphanius and \"a century later\" for Theodoret of Cyrrhus are reckoned from the dates of their lives, not stated in their own texts."
   ],
   "sources": {
     "about": [
       {
-        "title": "First Apology, chapters 26 and 58",
+        "title": "First Apology, chapters 26, 46 and 58 (tr. Marcus Dods and George Reith)",
         "author": "Justin Martyr",
         "date": null,
         "language": "English translation",
         "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml"
       },
       {
-        "title": "Against Heresies, Book 1 chapter 27; Book 3 chapters 3 and 4",
+        "title": "Against Heresies, Book 1 chapter 27; Book 3 chapters 3, 4 and 11 (tr. Alexander Roberts and W. H. Rambaut)",
         "author": "Irenaeus of Lyon",
         "date": null,
         "language": "English translation",
         "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml"
       },
       {
-        "title": "Prescription against Heretics 30; Against Marcion, Books 1 to 5",
+        "title": "Prescription against Heretics 30; Against Marcion, Books 1 to 5 (tr. Peter Holmes)",
         "author": "Tertullian of Carthage",
         "date": null,
         "language": "English translation",
         "file": "cic/texts/anf03_tertullian.xml"
       },
       {
-        "title": "Against All Heresies 6 (printed with Tertullian's works)",
+        "title": "Against All Heresies 6, printed with Tertullian's works (tr. S. Thelwall)",
         "author": "Unknown",
         "date": null,
         "language": "English translation",
         "file": "cic/texts/anf03_tertullian.xml"
       },
       {
-        "title": "Panarion 42 (Greek)",
+        "title": "Panarion 42, with Holl's notes (ed. Karl Holl)",
         "author": "Epiphanius of Salamis",
-        "date": null,
+        "date": "1922",
         "language": "Greek",
         "file": "cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt"
+      },
+      {
+        "title": "Letters 81, to the consul Nomus, and 113, to Leo, bishop of Rome (tr. Blomfield Jackson)",
+        "author": "Theodoret of Cyrrhus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Prose Refutations of Mani, Marcion and Bardaisan, the discourses against Marcion (tr. C. W. Mitchell)",
+        "author": "Ephrem the Syrian",
+        "date": "1912-1921",
+        "language": "English translation",
+        "file": "cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt"
+      },
+      {
+        "title": "Church History, Book 4 chapter 14, with McGiffert's notes",
+        "author": "Eusebius of Caesarea",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Martyrdom of Polycarp, the Moscow epilogue, citing Irenaeus (ed. Oscar von Gebhardt)",
+        "author": "Unknown",
+        "date": "1902",
+        "language": "Greek",
+        "file": "cic/texts/acta-martyrum-selecta_gebhardt1902.txt"
+      },
+      {
+        "title": "Letter of Pope Hadrian I, quoting Irenaeus on Polycarp and Marcion (MGH Epistolae 5)",
+        "author": "Hadrian I",
+        "date": "1899",
+        "language": "Latin",
+        "file": "cic/texts/hadrian-i_epistolae-karolini-aevi-3-mgh-epistolae-5-lat_1899.txt"
       }
     ]
-  }
+  },
+  "briefReferences": [
+    "Irenaeus of Lyon, Against Heresies III.4.3, tr. Alexander Roberts and W. H. Rambaut: Valentinus and Cerdo at Rome from the time of Bishop Hyginus, and Marcion after Cerdo, under Anicetus.",
+    "Justin Martyr, First Apology 26 and 58, tr. Marcus Dods and George Reith: Marcion of Pontus, still alive and teaching; another god greater than the Creator; many of every nation.",
+    "Justin Martyr, First Apology 46, tr. Dods and Reith, and Tertullian of Carthage, Against Marcion I.19, tr. Peter Holmes: 150 years from the birth of Christ, and Marcion in the reign of Antoninus, for \"around 150\".",
+    "Tertullian, Against Marcion I.1-2, tr. Holmes: Pontus on the Euxine Sea; \"the heretic of Pontus introduces two Gods\".",
+    "Tertullian, Against Marcion IV.5, tr. Holmes: the Marcionite churches, with Marcion as their founder.",
+    "Irenaeus, Against Heresies III.3.4, tr. Roberts and Rambaut: Polycarp, very old, bishop of Smyrna; at Rome under Anicetus he turned many away from Valentinus and Marcion; the meeting, Marcion's question and Polycarp's reply; the horror of speaking with corrupters of the truth.",
+    "Irenaeus, Against Heresies I.27.1-2, tr. Roberts and Rambaut: Marcion of Pontus; the God of the law and the prophets not the Father of Jesus; Luke's Gospel and Paul's letters cut down to remove what calls the Maker his Father.",
+    "Tertullian, Against Marcion I.19 and IV.1, tr. Holmes: his chief work the separation of the law and the gospel; the Antitheses.",
+    "Tertullian, Against Marcion IV.2 and V.1, tr. Holmes: Luke singled out for cutting; Paul's letters cut down.",
+    "Tertullian, Prescription against Heretics 30 and Against Marcion IV.4, tr. Holmes: Marcion first believed in the church at Rome, which put him out.",
+    "Irenaeus, Against Heresies III.11.7-9, tr. Roberts and Rambaut: four Gospels, neither more nor fewer; Marcion among those who make them fewer.",
+    "Tertullian, Against Marcion, Books I to V, tr. Holmes: the five books; in the fourth he argues from Marcion's own Gospel.",
+    "Epiphanius of Salamis, Panarion 42.1.2, Greek, ed. Karl Holl: the sect still found in Rome and Italy, Egypt and Palestine, Arabia and Syria, Cyprus and the Thebaid, and Persia.",
+    "Theodoret of Cyrrhus, Letter 81, to the consul Nomus, tr. Blomfield Jackson: eight villages of Marcionites led into his faith.",
+    "World census dates for Epiphanius of Salamis (c. 310-403) and Theodoret of Cyrrhus (393-c. 458): \"two centuries after Marcion\" and \"a century later\".",
+    "World census, Marcion / Marcionism: his tradition."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "Do you recognize us?",
+      "printed": "Dost thou know me?",
+      "work": "Irenaeus of Lyon, Against Heresies III.3.4, tr. Alexander Roberts and W. H. Rambaut",
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "lines": "39882-39883",
+      "secondReading": "changes meaning",
+      "uncertain": "The printed English has \"me\"; every held witness has \"us\" (the Moscow epilogue of the Martyrdom of Polycarp, Gebhardt l.1054; Hadrian I quoting Irenaeus, MGH Epistolae 5 l.17230; Eusebius IV.14, npnf201 l.22977-22981), and the verb means to recognize or acknowledge. Marcion asks to be owned as a fellow Christian. Some copies make it a command, \"Recognize us.\" One rendering kept \"Do you know me?\"; both readings are kept in the record."
+    },
+    {
+      "modern": "I recognize, I recognize the first-born of Satan.",
+      "printed": "I do know thee, the first-born of Satan.",
+      "work": "Irenaeus of Lyon, Against Heresies III.3.4, tr. Alexander Roberts and W. H. Rambaut",
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "lines": "39884",
+      "secondReading": "minor",
+      "uncertain": "Polycarp's reply repeats the verb, \"I recognize, I recognize\", and does not say \"you\" (Gebhardt l.1055-1056; Hadrian I, MGH Epistolae 5 l.17230-17231; Eusebius IV.14, npnf201 l.22982). He names Marcion only as \"the first-born of Satan\". The two renderings read \"I do know you\" and \"I do recognize you\"; the final follows the held originals."
+    },
+    {
+      "modern": "to believe in some other god greater than the Creator.",
+      "printed": "to believe in some other god greater than the Creator.",
+      "work": "Justin Martyr, First Apology 26, tr. Marcus Dods and George Reith",
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "lines": "14944-14945",
+      "secondReading": "same"
+    },
+    {
+      "modern": "many of every nation,",
+      "printed": "many of every nation",
+      "work": "Justin Martyr, First Apology 26, tr. Marcus Dods and George Reith",
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "lines": "14946",
+      "secondReading": "same"
+    }
+  ]
 }

@@ -4,8 +4,8 @@
     "Anatolius of Alexandria",
     "Anatolius of Laodicea"
   ],
-  "knownFor": "A learned Alexandrian who led people out of a besieged quarter of Alexandria, became bishop of Laodicea in Syria, and wrote on how to fix the date of Easter.",
-  "dates": "Made bishop of Laodicea on his way to the synod at Antioch on Paul of Samosata; Jerome of Strido says he flourished under the emperors Probus and Carus",
+  "knownFor": "A scholar of Alexandria who, by a story Eusebius tells, got the people of a besieged quarter of the city away by night, became bishop of Laodicea in Syria, and set out a nineteen-year cycle for finding the date of Easter that both sides cited at Whitby in 664.",
+  "dates": "Made bishop of Laodicea on his way to the synod at Antioch on Paul of Samosata, which Eusebius puts in the reign of Aurelian (270 to 275); Jerome of Strido says he flourished under the emperors Probus and Carus. No ancient source used here gives the year of his birth or death",
   "place": "Alexandria; Caesarea in Palestine; Laodicea in Syria",
   "tradition": "Alexandrian Catechetical / Christian-Platonist Tradition",
   "role": "Scholar, then bishop of Laodicea",
@@ -13,7 +13,7 @@
   "keyWorks": [
     {
       "title": "Paschal Canons",
-      "about": "his rules for fixing Easter by a cycle of nineteen years; Eusebius of Caesarea quotes a long extract"
+      "about": "his rules for fixing Easter by a cycle of nineteen years, begun at the spring equinox; Eusebius of Caesarea quotes a long extract"
     },
     {
       "title": "Institutes of Arithmetic",
@@ -22,21 +22,25 @@
   ],
   "legacy": {
     "traces": [
-      "Arthur McGiffert, who translated Eusebius, calls him the first Christian to use the nineteen-year cycle to find Easter, \"so far as we know.\""
+      "Arthur McGiffert, who translated Eusebius, calls him, \"so far as we know\", the first Christian to use the old nineteen-year cycle to find Easter.",
+      "At the synod at Whitby in 664, Bede tells, both sides called on him. Wilfrid said that Colman's party did not keep his nineteen-year cycle, which, in J. A. Giles's English, \"is kept by the whole church of Christ\"."
     ],
     "remembered": [
-      "Eusebius says he \"stood first among the ablest men of our time\" in arithmetic, geometry, astronomy, logic and physics.",
-      "Jerome of Strido calls him a man of wonderful learning.",
-      "At the synod at Whitby in 664, Bede tells, both sides cited him. Colman called him \"a holy man, and much commended in church history.\" Wilfrid called him \"a most holy, learned, and commendable man\", but said Colman's side did not keep his cycle."
+      "Eusebius says he \"stood first among the ablest men of our time\" in learning, in Arthur McGiffert's English, and that the citizens of Alexandria were reported to have asked him to found a school of Aristotle's philosophy there.",
+      "Jerome of Strido calls him \"a man of wonderful learning\", in Ernest Cushing Richardson's English.",
+      "Bede says the northern Irish and the Picts kept Easter believing that \"they therein followed the writings of the holy and praiseworthy Father Anatolius\", in Giles's English. At Whitby, Colman called him \"a holy man, and much commended in church history\", and Wilfrid \"a most holy, learned, and commendable man\"."
     ]
   },
   "uncertain": [
-    "Eusebius tells the story of the siege as others told it to him (\"They say\").",
-    "McGiffert thinks the siege was most likely the one during the revolt of Aemilian, in 260. Valesius and others place it later, under Claudius.",
-    "Eusebius reports that the Alexandrians asked him to found a school of Aristotle's philosophy. He gives it as a report, and does not say Anatolius held any church office in Alexandria, McGiffert notes.",
+    "What came of his reckoning in his own lifetime. The sources used here do not show it. His name was still argued over at Whitby four centuries later, but there, as Bede tells it, the king gave his ruling on the ground of Peter's keys of heaven.",
+    "The siege. Eusebius tells it as others told it to him (\"They relate\", \"They say\"). In his fuller account, a deacon also called Eusebius, later bishop of Laodicea, won the Roman commander's promise of safety and received the refugees in the Roman camp. Anatolius first urged the city's council to make peace with Rome and was refused, and many escaped \"secretly clothed in women's garments\", in McGiffert's English.",
+    "Which siege. McGiffert thinks it most likely the one during the revolt of Aemilian, in 260; Valesius and others place it later, under Claudius. McGiffert also notes that Eusebius's Chronicle puts the siege in 272.",
+    "The year of the synod. Eusebius gives no year for the synod that called him to Antioch, but puts it in the reign of Aurelian. McGiffert says that council is ordinarily assigned to 269; The Ante-Nicene Fathers, edited by A. Cleveland Coxe, heads his works \"a.d. 270\". \"Around the year 270\" is approximate.",
+    "His first see. Eusebius says Theotecnus, bishop of Caesarea in Palestine, first ordained him bishop to be his own successor, and that for a short time both presided over that church. The synod then called him to Antioch, and Laodicea kept him on the way.",
     "A longer Latin book on Easter, first printed in 1634, carries his name. Ideler held it to be a work of the seventh century. McGiffert, following Zahn, thinks there are \"the best of reasons\" for taking it as an early translation of his genuine work.",
-    "No held source gives the year of his birth or death. Ernest Cushing Richardson, in a note to his translation of Jerome, gives born about 230, bishop 270, died about 283, and names no source. S. D. F. Salmond, who translated his works, calls the dates 230, 270 and 280 conjectural.",
-    "Eusebius lists arithmetic, geometry, astronomy, logic and physics among his subjects. Jerome has grammar in place of physics."
+    "His years. No ancient source used here gives the year of his birth or death. Ernest Cushing Richardson, in a note to his translation of Jerome, gives born about 230, bishop 270, died about 283, and names no source. A bracket in the Ante-Nicene Fathers, at the head of S. D. F. Salmond's translation of his works, gives 230, 270 and 280 as conjectural dates.",
+    "His subjects. Eusebius lists arithmetic, geometry, astronomy, dialectic, physics and rhetoric. Jerome has grammar in place of physics.",
+    "The quoted words. The Greek of \"no small or ordinary mistake\" stands in Schwartz and Mommsen's edition in rough scanned type, after a page break. The modern English follows it and McGiffert's printed \"commit no slight or common blunder\"."
   ],
   "sources": {
     "ownWords": [
@@ -44,6 +48,11 @@
         "title": "Paschal Canons (extract), in Eusebius's Church History, Book 7, chapter 32",
         "language": "English translation",
         "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Paschal Canons (extract), in Eusebius, Church History VII.32, Greek (ed. Eduard Schwartz and Theodor Mommsen)",
+        "language": "Greek",
+        "file": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt"
       },
       {
         "title": "The Paschal Canon (Latin version) and fragments of the Institutes of Arithmetic",
@@ -55,24 +64,41 @@
       {
         "title": "Church History, Book 7, chapter 32, with McGiffert's notes",
         "author": "Eusebius of Caesarea",
-        "date": null,
         "language": "English translation",
         "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
       },
       {
         "title": "Lives of Illustrious Men, chapter 73, with Richardson's notes",
         "author": "Jerome of Strido",
-        "date": null,
         "language": "English translation",
         "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
       },
       {
-        "title": "Ecclesiastical History of the English People, Book 3, chapters 3 and 25",
+        "title": "Ecclesiastical History of the English People, Book 3, chapters 3, 25 and 26 (tr. J. A. Giles, rev. L. C. Jane)",
         "author": "Bede",
-        "date": null,
         "language": "English translation",
         "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt"
       }
     ]
-  }
+  },
+  "briefReferences": [
+    "Eusebius, Church History VII.27 to 30, tr. Arthur McGiffert: the synod at Antioch on Paul of Samosata, the city's bishop, for his teaching about Christ; in the reign of Aurelian (around 270).",
+    "Eusebius, Church History VII.32.6, tr. McGiffert: Anatolius an Alexandrian by birth, first among the ablest men of his time in arithmetic, geometry and astronomy.",
+    "Eusebius, Church History VII.32.7 to 11, tr. McGiffert: the siege of a quarter of Alexandria, told on report; the bread failed; he persuaded the council to send out the old and the children, and under that cover got nearly all the besieged away by night.",
+    "Eusebius, Church History VII.32.12 and 21, tr. McGiffert: after that war from Alexandria; the synod called him to Antioch; Laodicea, its bishop dead, kept him.",
+    "Eusebius, Church History VII.32.13 to 15, tr. McGiffert, with the Greek ed. Eduard Schwartz and Theodor Mommsen: he wrote little; the extract on Easter; the nineteen-year cycle begun with the new moon at the equinox; the quotation.",
+    "Bede, Ecclesiastical History III.25 and 26, tr. J. A. Giles, rev. L. C. Jane: the synod at Whitby (Streaneshalch) in 664 on Easter; Colman's question; Wilfrid's answer; the king's ruling on Peter's keys of heaven.",
+    "World census, Alexandrian Catechetical / Christian-Platonist Tradition: his tradition."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "no small or ordinary mistake.",
+      "printed": "commit no slight or common blunder",
+      "work": "Anatolius, Paschal Canons, in Eusebius, Church History VII.32.15, tr. Arthur McGiffert",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": "42816-42817",
+      "secondReading": "same",
+      "uncertain": "The Greek is held in Schwartz and Mommsen's edition (eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt, line 12616, OCR): \"οὐ μικρῶς οὐδ᾽ ὡς ἕτυχεν ἀμαρτανειν\". The brief's verb stands outside the marks."
+    }
+  ]
 }

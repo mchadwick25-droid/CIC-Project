@@ -3,45 +3,49 @@
   "otherNames": [
     "Polycrates"
   ],
-  "knownFor": "Bishop of Ephesus who led the bishops of Asia in keeping Easter on the fourteenth day of the moon, and defended the custom in a letter to Victor of Rome.",
-  "dates": "Bishop while Victor was bishop of Rome; Jerome of Strido says he flourished under the emperor Severus",
-  "place": "Ephesus",
-  "tradition": "Post-apostolic church",
+  "knownFor": "Bishop of Ephesus who led the bishops of Asia in ending the fast before Easter on the fourteenth day of the moon, and defended the custom in a letter to Victor of Rome.",
+  "dates": "Bishop of Ephesus in the 190s, while Victor was bishop of Rome; Jerome says he flourished in the reign of the emperor Severus. Arthur McGiffert says the years of his becoming bishop and of his death are not known",
+  "place": "Ephesus, in the Roman province of Asia",
+  "tradition": "Post-Apostolic Household-Church Christianity",
   "role": "Bishop of Ephesus",
   "briefLength": "about 2 minutes",
   "keyWorks": [
     {
       "title": "Letter to Victor and the church of Rome",
-      "about": "the Asian custom of Easter, the great lights buried in Asia, and his own family of bishops; kept in part by Eusebius of Caesarea"
+      "about": "the Asian custom of Easter, the great dead buried in Asia, and his own family of bishops; kept in part by Eusebius of Caesarea"
     }
   ],
   "legacy": {
     "traces": [
-      "Arthur McGiffert, who translated Eusebius, calls him the leader of the bishops of Asia and \"the leading opponent of Bishop Victor of Rome.\""
+      "Eusebius of Caesarea writes that \"the bishops of Asia, led by Polycrates, decided to hold to the old custom handed down to them\", in Arthur McGiffert's English.",
+      "Socrates of Constantinople says the Quartodecimans, who kept the fourteenth day, claimed it was \"delivered to them by the apostle John\", in A. C. Zenos's English."
     ],
     "remembered": [
       "Eusebius quotes his letter twice, once to show where the apostle John was buried.",
-      "Jerome of Strido copied the letter \"to show through a small example the genius and authority of the man.\"",
-      "McGiffert says the praise of Eusebius and Jerome shows how far the Easter question had been buried before their time."
+      "Jerome copied the letter \"to show through a small example the genius and authority of the man\", in E. C. Richardson's English.",
+      "In 325, after the council of Nicaea, Constantine the Great wrote that Rome's practice was already kept \"in the dioceses of Asia and Pontus, and in Cilicia\".",
+      "Socrates of Constantinople says John Chrysostom deprived many Quartodecimans of their churches; his enemies, Socrates says, put this in Asia and Lydia, on his journey to Ephesus."
     ]
   },
   "uncertain": [
-    "The letter is known only in the part Eusebius quotes. McGiffert says it is the only writing of Polycrates that is known, and that the years of his becoming bishop and of his death are not known.",
-    "McGiffert thinks Polycrates confused the apostle Philip with Philip the evangelist of the book of Acts. Lightfoot held that Polycrates was right.",
-    "Whether Victor excommunicated the churches of Asia or only threatened to is disputed. McGiffert holds that he did, and Socrates of Constantinople says so directly. Charles Joseph Hefele, the historian of the councils, follows Valesius: Victor only thought of it, and Irenaeus of Lyon kept him from carrying it out.",
+    "How the break with Rome ended. Eusebius does not say how Victor answered Irenaeus of Lyon, and no source used here says how or when Asia came round. Constantine's letter of 325 lists Asia among the regions keeping Rome's practice, but it does not name the fourteenth-day custom. Arthur McGiffert, who translated Eusebius, judges that the breach healed, \"just how and when we do not know; but the Roman practice gradually prevailed over the Asiatic\", and was made binding on the whole church at Nicaea. That outcome is his judgment, not an ancient report.",
+    "The letter is known only in the parts Eusebius quotes. McGiffert says it is the only writing of Polycrates that is known.",
+    "Whether Victor excommunicated the churches of Asia or only threatened to is disputed. Eusebius says he \"attempted to cut off\" Asia and \"declared all the brethren there wholly excommunicate\". McGiffert holds that he did cut off communion, and that the Greek is decisive; Socrates of Constantinople says directly that he excommunicated them. Charles Joseph Hefele, the historian of the councils, writes that Victor \"wished to exclude\" the bishops of Asia, \"but other bishops turned him from his purpose\", Irenaeus among them.",
+    "Eusebius says Victor acted \"immediately\"; the brief's \"at once\" follows that English, since Eusebius's Greek for this book is not held here.",
+    "McGiffert thinks Polycrates confused the apostle Philip, whom he names among the dead of Asia, with Philip the evangelist of the book of Acts. Lightfoot held that Polycrates was right; McGiffert calls his reasons trivial.",
     "Polycrates says John \"wore the sacerdotal plate\". McGiffert says the Greek word is the term for the high priest's plate, and that its meaning here is uncertain. He takes it as a figure for John's priestly character, or, with Hefele, as a legend that arose later.",
-    "How the break with Rome ended is not recorded. McGiffert says it healed, \"just how and when we do not know.\"",
-    "The date of the synods is commonly given as 198, but McGiffert says there is \"no particular authority for that year.\""
+    "The date of the synods is commonly given as 198, but McGiffert says there is \"no particular authority for that year\". A note in E. C. Richardson's translation of Jerome puts him as bishop about 196, and the American editor of the Ante-Nicene Fathers gives 130 to 196 and a synod in 196.",
+    "Polycrates's Greek says the day is kept \"untampered with\", a word that hints others have tampered with it. \"The exact day\" in the printed English is a translator's softening."
   ],
   "sources": {
     "ownWords": [
       {
-        "title": "Letter to Victor, in Eusebius's Church History, Book 3, chapter 31 and Book 5, chapter 24",
+        "title": "Letter to Victor, in Eusebius's Church History, Book 3, chapter 31 and Book 5, chapter 24 (tr. Arthur McGiffert)",
         "language": "English translation",
         "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
       },
       {
-        "title": "Letter to Victor",
+        "title": "Letter to Victor, with the Greek of its first clause in the editor's note",
         "language": "English translation",
         "file": "cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml"
       }
@@ -55,26 +59,73 @@
         "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
       },
       {
-        "title": "Lives of Illustrious Men, chapter 45",
-        "author": "Jerome of Strido",
+        "title": "Life of Constantine, Book 3, chapters 18 and 19, Constantine's letter after Nicaea (tr. E. C. Richardson)",
+        "author": "Eusebius of Caesarea",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Life of Constantine, Greek text (ed. I. A. Heikel)",
+        "author": "Eusebius of Caesarea",
+        "date": "1902",
+        "language": "Greek",
+        "file": "cic/texts/eusebius_werke-bd1-vita-constantini-oratio-ad-sanctos-grc_heikel1902.txt"
+      },
+      {
+        "title": "Lives of Illustrious Men, chapter 45 (tr. E. C. Richardson)",
+        "author": "Jerome",
         "date": null,
         "language": "English translation",
         "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
       },
       {
-        "title": "Church History, Book 5, chapter 22",
+        "title": "Church History, Book 5, chapter 22, and Book 6, chapters 11 and 19 (tr. A. C. Zenos)",
         "author": "Socrates of Constantinople",
         "date": null,
         "language": "English translation",
         "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
       },
       {
-        "title": "A History of the Councils of the Church, volume 1",
+        "title": "A History of the Councils of the Church, volume 1 (tr. William R. Clark)",
         "author": "Charles Joseph Hefele",
         "date": null,
         "language": "English translation",
         "file": "cic/texts/hefele_history-of-the-councils-v1-to-nicaea_clark1872.txt"
       }
     ]
-  }
+  },
+  "briefReferences": [
+    "Eusebius of Caesarea, Church History V.22, tr. Arthur McGiffert: Victor bishop of Rome from the tenth year of Commodus, with Polycrates at Ephesus at the same time, for \"the 190s\".",
+    "Eusebius, Church History III.31.3 and V.24.1, tr. McGiffert: Polycrates bishop of Ephesus, leading the bishops of Asia.",
+    "Eusebius, Church History V.23.1, tr. McGiffert: the churches of Asia ended the fast on the fourteenth day of the moon, the day of the Jews' passover, whatever day of the week; the rest ended it only on the day of the resurrection.",
+    "Eusebius, Church History V.23.2-3, tr. McGiffert: synods in Palestine, Rome, Pontus, Gaul, Osrhoene and Corinth ruled for the Lord's day.",
+    "Polycrates, Letter to Victor, in Eusebius, Church History V.24.1-8, tr. McGiffert: the bishops of Asia summoned at Victor's desire; they kept the old custom; the letter to Victor and the church of Rome; the day kept unchanged; the great dead of Asia, among them John, who reclined on the Lord's breast and fell asleep at Ephesus; seven relatives bishops who always kept the day, he the eighth; sixty-five years in the Lord, not afraid of threats, obeying God rather than men.",
+    "Polycrates, Letter to Victor, Greek of the first clause, in the editor's note in Ante-Nicene Fathers 8: the day kept \"untampered with\".",
+    "Eusebius, Church History V.24.9-11, tr. McGiffert: Victor tried to cut off Asia and declared them excommunicate; other bishops rebuked him; Irenaeus of Lyon, keeping the Lord's day himself, warned him not to cut off whole churches for an ancient custom.",
+    "Eusebius, Church History V.24.18 and V.25, tr. McGiffert: no answer from Victor is told; nothing more of Polycrates.",
+    "Constantine, letter in Eusebius, Life of Constantine III.18-19, tr. E. C. Richardson, with the Greek ed. I. A. Heikel: after Nicaea, one day for all, and Rome's practice already kept in the dioceses of Asia.",
+    "Socrates of Constantinople, Church History VI.11 and VI.19, tr. A. C. Zenos: John Chrysostom took churches from the Quartodecimans, in Asia and Lydia; V.22: they say the fourteenth day was delivered to them by the apostle John.",
+    "World census, Post-Apostolic Household-Church Christianity: his tradition."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "We keep the day without tampering with it,",
+      "printed": "We observe the exact day;",
+      "work": "Polycrates, Letter to Victor, in Eusebius, Church History V.24.2, tr. Arthur McGiffert",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": "31324",
+      "secondReading": "minor",
+      "uncertain": "This clause follows Polycrates's Greek, held in the editor's note in Ante-Nicene Fathers 8 (anf08 lines 72579-72581), which says the day is kept \"untampered with\", a word that hints others have tampered with it; \"the exact day\" is a translator's softening. The first rendering's \"tampering\" keeps that hint; the second's \"altering\" is weaker."
+    },
+    {
+      "modern": "adding nothing and taking nothing away.",
+      "printed": "neither adding, nor taking away.",
+      "work": "Polycrates, Letter to Victor, in Eusebius, Church History V.24.2, tr. Arthur McGiffert",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": "31325",
+      "secondReading": "minor",
+      "uncertain": "The Greek of this clause is not held; it is rendered from the printed English."
+    }
+  ]
 }

@@ -1,22 +1,23 @@
 {
   "name": "Eusebius of Caesarea",
   "otherNames": [
-    "Eusebius Pamphili"
+    "Eusebius Pamphili",
+    "Eusebius Pamphilus"
   ],
-  "knownFor": "Bishop of Caesarea in Palestine who wrote the first history of the church and a Life of Constantine.",
-  "dates": "About 260 to 339",
+  "knownFor": "Bishop of Caesarea in Palestine who lived through the Great Persecution, wrote the first history of the church, and signed the creed of Nicaea after asking what its new word meant, then explained himself to his people in a letter that later writers used for and against him.",
+  "dates": "Born not far from 260 and died late in 339 or early in 340, both by Arthur McGiffert's reckoning; no ancient source used here gives either year",
   "place": "Caesarea in Palestine",
-  "tradition": "Palestinian church",
+  "tradition": "The Church of Roman Palestine before Constantine",
   "role": "Bishop and church historian",
-  "briefLength": "about 2 minutes 30 seconds",
+  "briefLength": "about 2 minutes",
   "keyWorks": [
     {
-      "title": "Church History",
-      "about": "the church from Christ to his own day, built from the documents he could find"
+      "title": "Church History, in ten books",
+      "about": "the church from the apostles to his own day, built from passages he copied out of older writers"
     },
     {
       "title": "Martyrs of Palestine",
-      "about": "the persecution he lived through"
+      "about": "the persecution he lived through at Caesarea, with the trial and death of his friend Pamphilus"
     },
     {
       "title": "Life of Constantine",
@@ -25,56 +26,123 @@
   ],
   "legacy": {
     "traces": [
-      "He has long been called the Father of Church History. Arthur McGiffert, who translated him, says the title is deserved.",
-      "Socrates of Constantinople built his own account of the Council of Nicaea on Eusebius's words."
+      "Socrates of Constantinople and Theodoret of Cyrrhus each began their church histories where his ended.",
+      "Socrates built his account of the Council of Nicaea on Eusebius's words, \"treating what he has said as an authority\", in A. C. Zenos's English, and copied his letter from the council in full.",
+      "Athanasius of Alexandria attached the same letter to his defense of Nicaea, to show that Eusebius had signed its creed.",
+      "He has long been called the Father of Church History. Arthur McGiffert, who translated him, says the title is deserved, and that much of the History's value lies in its quotations from writers whose works are otherwise lost."
     ],
     "remembered": [
-      "Sabinus, bishop of the Macedonians at Heraclea in Thrace, scorned the Council of Nicaea but still called Eusebius a trustworthy witness, Socrates of Constantinople says."
+      "Sozomen names him with Clement, Hegesippus and Africanus among those who had already written the church's history.",
+      "Sabinus, bishop of the Macedonians at Heraclea in Thrace, scorned the Council of Nicaea but still commended Eusebius, Socrates says.",
+      "Acacius, his disciple, succeeded him as bishop of Caesarea and wrote a sketch of his life, Socrates says."
     ]
   },
   "uncertain": [
-    "Potamo, a bishop from Heraclea in Egypt, charged at Tyre in 335 that Eusebius had escaped prison by some unlawful promise. Epiphanius of Salamis tells it, writing decades later on the side of Athanasius of Alexandria. Arthur McGiffert, who translated Eusebius, notes that Potamo only guessed, and Athanasius says only that Eusebius was \"accused of sacrificing.\"",
-    "How far he truly accepted the Nicene wording is argued. His own letter says he accepted it only after asking what it meant. Eustathius of Antioch said he twisted it.",
-    "Constantine's vision of the cross rests on what the emperor told Eusebius under oath. Ernest Richardson, who translated the Life of Constantine, notes that the account was doubted from the first."
+    "His own account of Nicaea. What he signed and why is known chiefly from his own letter to his people, written to explain his hesitation. Socrates says he held back a short time before signing. Athanasius, who opposed his party, says he \"had denied the day before, but afterwards subscribed\", in the English of the Nicene and Post-Nicene Fathers.",
+    "The word. Homoousios means \"of the same essence\". Whether that meant one single being or a shared nature was argued at the time, and Eusebius reports Constantine reading it narrowly, \"not in the sense of the affections of bodies\".",
+    "How far he truly accepted the Nicene wording is argued. His own letter says he accepted it only after asking what it meant. Eustathius of Antioch said he twisted the creed, and Eusebius answered that Eustathius held the views of Sabellius, Socrates says.",
+    "Whether he favored Arius. Some called him a friend of Arius's views, and Socrates wrote a chapter in his defense.",
+    "The Life of Constantine. Socrates says Eusebius cared more for polished writing and the emperor's praise than for an accurate account of the facts, and passed lightly over Arius.",
+    "His time in prison. Potamo, a bishop from Heraclea in Egypt, charged at Tyre in 335 that Eusebius had escaped prison by some unlawful promise. Epiphanius of Salamis tells it, writing decades later on the side of Athanasius. Arthur McGiffert notes that Potamo only guessed, and that Athanasius says only that Eusebius was \"accused of sacrificing\".",
+    "Constantine's vision of the cross rests on what the emperor told Eusebius under oath. Ernest Cushing Richardson, who translated the Life of Constantine, notes that the account was doubted from the first, \"commencing with Eusebius himself\".",
+    "His name. McGiffert says he took the name Eusebius Pamphili after Pamphilus's death, from affection for his teacher and friend.",
+    "What he saw. In the Church History he says he was present in the Thebaid when crowds were put to death in a single day."
   ],
   "sources": {
     "ownWords": [
       {
-        "title": "Church History; Life of Constantine; Oration in Praise of Constantine",
-        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
-        "language": "English"
+        "title": "Church History; Martyrs of Palestine; Life of Constantine (tr. Arthur McGiffert and Ernest Cushing Richardson)",
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
       },
       {
         "title": "Letter to the people of his diocese, on the Council of Nicaea",
-        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
-        "language": "English"
+        "language": "English translation",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
       },
       {
-        "title": "Life of Constantine (Greek)",
-        "file": "cic/texts/eusebius_werke-bd1-vita-constantini-oratio-ad-sanctos-grc_heikel1902.txt",
-        "language": "Greek"
+        "title": "Life of Constantine (ed. Ivar Heikel)",
+        "language": "Greek",
+        "file": "cic/texts/eusebius_werke-bd1-vita-constantini-oratio-ad-sanctos-grc_heikel1902.txt"
       },
       {
-        "title": "Church History, Books 6 to 10 (Greek)",
-        "file": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt",
-        "language": "Greek and Latin"
+        "title": "Church History, Books 6 to 10, with Rufinus's Latin (ed. Eduard Schwartz and Theodor Mommsen)",
+        "language": "Greek and Latin",
+        "file": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt"
       }
     ],
     "about": [
       {
-        "title": "Church History, Book 1, chapters 8 and 23",
-        "author": "Socrates of Constantinople",
-        "date": null,
+        "title": "Church History, Book 1, chapters 1, 8 and 23; Book 2, chapters 4 and 21 (Socrates); Book 1, chapters 1 and 21 (Sozomen)",
+        "author": "Socrates of Constantinople; Sozomen",
         "language": "English translation",
         "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
       },
       {
-        "title": "Panarion 68.8 (Latin translation)",
+        "title": "Church History, Book 1, chapter 1",
+        "author": "Theodoret of Cyrrhus",
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Defense of the Nicene Definition (De Decretis), 3",
+        "author": "Athanasius of Alexandria",
+        "language": "English translation",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+      },
+      {
+        "title": "Panarion 68.8 (Petavius's Latin)",
         "author": "Epiphanius of Salamis",
-        "date": null,
         "language": "Latin",
         "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt"
+      },
+      {
+        "title": "Prolegomena and notes to the Church History",
+        "author": "Arthur McGiffert",
+        "date": "1890",
+        "language": "English",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
       }
     ]
-  }
+  },
+  "briefReferences": [
+    "Eusebius, Church History VIII.2, tr. Arthur McGiffert: the edicts of Diocletian's nineteenth year (303), churches leveled and the Scriptures burned.",
+    "Eusebius, Martyrs of Palestine 7 and 11, tr. McGiffert: Pamphilus, presbyter at Caesarea, \"my dearest friend\", devoted to the Scriptures; tortured, jailed and put to death with his companions.",
+    "Socrates, Church History I.8 and II.4, tr. A. C. Zenos: Eusebius bishop of Caesarea in Palestine.",
+    "Eusebius, Church History I.1, tr. McGiffert: the history from the apostles; the quotation; the passages plucked from ancient writers.",
+    "Socrates, Church History I.1, tr. Zenos: he begins where Eusebius closed; the Life of Constantine more intent on rhetorical finish and the emperor's praises than on an accurate statement of facts, slight on Arius.",
+    "Theodoret, Church History I.1, tr. Blomfield Jackson: \"I shall begin my history from the period at which his terminates.\"",
+    "Eusebius, Letter to the people of his diocese 1, 4, 5 and 8, NPNF 2.4: his own formula read before the emperor; the emperor approved it and advised the single added word; the quotation; he did not let it pass without inquiry.",
+    "Socrates, Church History I.8, tr. Zenos: Eusebius held aloof a short time, then signed and wrote to his people; Socrates used his words as an authority and copied the letter \"in his own words\".",
+    "Socrates, Church History II.21, tr. Zenos: some branded him as favoring Arian views; Socrates's defense.",
+    "Athanasius, Defense of the Nicene Definition 3, NPNF 2.4: he subjoined Eusebius's letter to show that he had subscribed.",
+    "World census, The Church of Roman Palestine before Constantine: his tradition."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "Since I am the first to take up this subject,",
+      "printed": "since I am the first to enter upon the subject,",
+      "work": "Eusebius, Church History I.1.3, tr. Arthur McGiffert",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": "6936",
+      "secondReading": "same"
+    },
+    {
+      "modern": "I am trying to travel what is, so to speak, a lonely and untrodden road.",
+      "printed": "I am attempting to traverse as it were a lonely and untrodden path.",
+      "work": "Eusebius, Church History I.1.3, tr. Arthur McGiffert",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": "6936-6937",
+      "secondReading": "same"
+    },
+    {
+      "modern": "of the same essence",
+      "printed": "One-in-essence",
+      "work": "Eusebius, Letter to the people of his diocese 4, NPNF 2.4",
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+      "lines": "19660",
+      "secondReading": "minor",
+      "uncertain": "Homoousios means \"of the same essence\". Whether that meant one single being or a shared nature was argued at the time, and Eusebius reports Constantine reading it narrowly. The Greek is held in Socrates I.8 (Hussey's edition, lines 7154-7159); the brief's \"as\" stands outside the marks."
+    }
+  ]
 }

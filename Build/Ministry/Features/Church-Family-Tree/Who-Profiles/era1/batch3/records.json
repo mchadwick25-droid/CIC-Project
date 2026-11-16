@@ -2,101 +2,252 @@
   "peter-of-alexandria": {
     "claims": [
       {
-        "claim": "Bishop of Alexandria after Theonas, from about 300; less than three years before the persecution",
-        "witness": "Eusebius, Church History VII.32, IX.6; Jerome, Chronicle",
+        "claim": "The canons were written at 'the fourth passover of the persecution'; 306 is reckoned from it",
+        "witness": "Peter, Canonical Epistle, Canon I, ANF 6 (anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius l.26607-26608); Eusebius, Church History VIII.2, tr. McGiffert, the edict in Diocletian's nineteenth year near the Passion feast (npnf201_eusebius-church-history-life-of-constantine l.43480-43489); McGiffert's note, 'drawn up by Peter in 306' (l.43238-43240)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Peter was bishop of Alexandria, for twelve years, less than three of them before the persecution",
+        "witness": "Eusebius, Church History VII.32, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.43262-43268)",
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Wrote canons in 306 on receiving the lapsed, and would not condemn those who fled",
-        "witness": "Peter, Canonical Epistle (anf06), Canons I and XIII",
+        "claim": "Those who fell after prison and torture 'did not come to this of their own will, but were betrayed by the frailty of the flesh'; forty more days are enjoined from 'the time of their submissive approach'",
+        "witness": "Peter, Canonical Epistle, Canon I, ANF 6 (anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius l.26607-26624; quotation l.26616-26617); Greek in the Pedalion (nikodemos-hagiorite_pedalion-canons-grc_1886 l.49722-49723)",
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Broke with Meletius of Lycopolis; wrote to Alexandria to hold no communion with him",
-        "witness": "Peter, Letter to the Church at Alexandria (anf06); letter of the four bishops (anf06)",
+        "claim": "After the forty days the fallen are admitted to the church",
+        "witness": "Balsamon and Zonaras on Canon I, ANF 6 (anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius l.26636-26641, 26658-26666)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "It is not lawful to accuse those who 'have retired for the safety of their life'",
+        "witness": "Peter, Canonical Epistle, Canon XIII, ANF 6 (anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius l.27536-27538)",
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Meletius was removed by a council under Peter for crimes including sacrifice to idols",
-        "witness": "Athanasius, Apology against the Arians 59; Socrates I.6; Theodoret I.8",
+        "claim": "Hesychius, Pachomius, Theodorus and Phileas protested to Meletius, bishop of Lycopolis, over 'the ordination carried through by thee in parishes having no manner of connection with thee'; they were in prison",
+        "witness": "Letter of the four bishops, ANF 6 (anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius l.16699-16724, 16820-16822)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Meletius came to Alexandria, 'suspended' presbyters 'then in hiding, to whom the blessed Peter had given power to act as parish-visitors', and ordained two in their place. The presbyters were in hiding; the account does not say Peter was",
+        "witness": "The conclusion kept with the bishops' letter, anonymous, translated from Latin, ANF 6 (anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius l.16820-16844)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Peter wrote to his people to 'hold no communion with him, until I meet him'",
+        "witness": "Peter, Letter to the Church at Alexandria, ANF 6 (anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius l.27790-27804)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Meletius, 'convicted of many crimes, and among the rest of offering sacrifice to idols', was deposed by Peter 'in a general council of the bishops'",
+        "witness": "Athanasius, Apology against the Arians 59, NPNF 2.4, ed. Robertson (npnf204_athanasius-select-works-letters l.24777-24781), a hostile witness; Socrates I.6, tr. Zenos (npnf202_socrates-sozomen-ecclesiastical-histories l.2404-2408)",
         "formation_confidence": "Contested"
       },
       {
-        "claim": "The split began over how to receive the lapsed, with Peter and Meletius in prison together",
-        "witness": "Epiphanius, Panarion 68 (a pro-Meletian account, used by Bell)",
-        "formation_confidence": "Contested"
-      },
-      {
-        "claim": "Beheaded in the ninth year of the persecution, about 25 November 311",
-        "witness": "Eusebius IX.6; Bell 1924",
+        "claim": "Athanasius is the Meletians' enemy: they are 'like dogs unable to forget their vomit'",
+        "witness": "Athanasius, Apology against the Arians 59 (npnf204_athanasius-select-works-letters l.24803-24806)",
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Peter ordained Arius a deacon and later cast him out",
-        "witness": "Sozomen I.15 (one witness; Hartranft notes no one else links Arius with the Meletians early); Robertson doubts it",
+        "claim": "Epiphanius writes kindly of Meletius's side: 'a veritatis amore profecta, et divini ardoris plenissima ratio'",
+        "witness": "Epiphanius, Panarion 68.2, Petavius's Latin, ed. Oehler (epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860 l.43803-43804)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Meletius was in prison with Peter; Meletius and others would receive the fallen only after the persecution, when peace came; Peter, 'benignus ac misericors', would receive them; 'episcoporum, monachorum et presbyterorum ac reliquorum ordinum maior numerus sese ad Meletium adiunxit'",
+        "witness": "Epiphanius, Panarion 68.1-3, Petavius's Latin, ed. Oehler (epiphanius_panarion-...oehler1860 l.43676-43683, 43786-43808, 43926-43931)",
         "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Peter, 'being seized for no cause and quite unexpectedly', was beheaded, in the ninth year of the persecution",
+        "witness": "Eusebius, Church History IX.6 and VII.32, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.47991-47998, 43266-43268)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The ninth year runs from Feb. 311 to Feb. 312, or Mar. or Apr. 311 to Mar. or Apr. 312 by Eusebius's own reckoning; Peter died 'not long before the spring of 312'",
+        "witness": "McGiffert's note to Church History VII.32 (npnf201_eusebius-church-history-life-of-constantine l.43218-43230)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Nicaea ruled that Meletius 'remain in his own city but exercise no authority either to ordain or nominate for ordination', and 'retain a nominal dignity'",
+        "witness": "Socrates I.9, the synodal letter, tr. Zenos (npnf202_socrates-sozomen-ecclesiastical-histories l.3204-3211)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Meletians spread reports against Athanasius 'as they had practised against Peter and Achillas and Alexander', and are 'even yet called Meletians'",
+        "witness": "Athanasius, Apology against the Arians 59-60 (npnf204_athanasius-select-works-letters l.24782-24784, 24838-24841)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "In 692 the council in Trullo, canon 2, set its seal on the canons 'of Peter, Archbishop of Alexandria and Martyr', with a penalty for any who overturn them",
+        "witness": "Council in Trullo, canon 2, tr. Percival (npnf214_seven-ecumenical-councils l.26731-26760; date l.26350, 26385)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "'From the times of the blessed Peter, Bishop and Martyr' is the wording of the Encyclical Letter of the Council of Egypt, which Athanasius quotes, not Athanasius's own",
+        "witness": "Athanasius, Apology against the Arians 3-11, the council's letter (npnf204_athanasius-select-works-letters l.21991, 22464-22465)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Bell: the sacrifice charge 'need not be taken very seriously'; Epiphanius 'had excellent authority, probably in part that of Egyptian Bishops banished to Palestine'; the accounts are 'different stages in the growth of the schism'; the dispute broke out 'probably in A.D. 305'; Peter 'was martyred on 25 Nov., 311'",
+        "witness": "Bell, Jews and Christians in Egypt (bell_jews-christians-egypt-meletian-papyri_1924 l.3153-3168, 3212)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Hefele: 'at the time of the commencement of the schism, neither Peter nor Meletius was in prison'; 'Epiphanius was mistaken on the principal points'; the schism began 'about the year 304 or 305'",
+        "witness": "Hefele, History of the Councils I, tr. Clark (hefele_history-of-the-councils-v1-to-nicaea_clark1872 l.22105, 22250-22256)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Sozomen: Arius was ordained deacon by Peter, who later cast him out over the Meletians; Hartranft's note: 'No one else suggests an early connection of Arius with the Melitians'",
+        "witness": "Sozomen I.15, tr. Hartranft (npnf202_socrates-sozomen-ecclesiastical-histories l.27553-27561); Robertson, 'These tales deserve little credit' (npnf204_athanasius-select-works-letters l.1684)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The Genuine Acts of Peter 'are spurious and historically quite worthless'",
+        "witness": "McGiffert's note to Church History VII.32 (npnf201_eusebius-church-history-life-of-constantine l.43251-43253); the Acts, ANF 6 (anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius l.25834ff., tomb of Mark l.26286)",
+        "formation_confidence": "Documented"
       }
     ],
     "contested_claims": [
       {
         "claim": "How the Meletian schism began",
-        "sides": "Athanasius, Socrates and Theodoret (Meletius removed for crimes and sacrifice) against Epiphanius (Peter and Meletius jailed together, split over the lapsed, Peter for mercy). Bell reads them as stages of one quarrel; Hefele says the first letters show neither man was then in prison and that Epiphanius erred on the main points."
+        "sides": "Athanasius (a hostile witness) and Socrates: Meletius was deposed by a council under Peter for crimes including sacrifice. Epiphanius (kind to Meletius): the two were in prison together and split over the fallen, Peter for mercy, Meletius for waiting until peace, with most of the clergy on Meletius's side. Harold Idris Bell reads them as stages of one quarrel; Charles Joseph Hefele says the first letters show neither man in prison at the start, and that Epiphanius erred on the main points."
       },
       {
         "claim": "Peter ordained Arius a deacon and later cast him out over the Meletians",
-        "sides": "Sozomen I.15 reports it. Against: Chester Hartranft, Sozomen's translator, notes that no one else links Arius with the Meletians early; Archibald Robertson, editor of Athanasius, says such tales \"deserve little credit\" and are unsupported by Athanasius."
+        "sides": "Sozomen I.15 reports it. Against: Chester Hartranft, Sozomen's translator, notes that no one else links Arius with the Meletians early; Archibald Robertson says such tales \"deserve little credit\"."
       }
     ],
     "absent_details": [
       {
         "detail": "Peter's birth, family and schooling",
-        "note": "No early source gives them. Later Coptic and Ethiopic lives supply a family and disagree with each other; Inferential-Thin at best, not used as fact."
+        "note": "No early source gives them. The Ethiopian Synaxarium, tr. Budge, much later, names his parents Theodore and Sophia (ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928 l.19892-19897); not used as fact."
+      },
+      {
+        "detail": "How the canons were received in his lifetime",
+        "note": "No held source shows it; the brief gives only the council in Trullo of 692."
+      },
+      {
+        "detail": "The year of the split against the canons of 306",
+        "note": "No held source of the time dates Meletius's ordinations against the canons; the brief says only 'in the same persecution'."
       }
     ]
   },
   "anatolius-of-alexandria-and-laodicea": {
     "claims": [
       {
-        "claim": "Alexandrian by birth; first among his contemporaries in arithmetic, geometry, astronomy, logic and physics",
-        "witness": "Eusebius, Church History VII.32; Jerome, Lives 73",
+        "claim": "A synod at Antioch judged Paul of Samosata, bishop of Antioch, for 'low and degraded views of Christ'; Eusebius puts the final synod in the reign of Aurelian",
+        "witness": "Eusebius, Church History VII.27-30, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.41837-41840, 41930-41932)",
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Led people out of the besieged Pyrucheium quarter of Alexandria",
-        "witness": "Eusebius VII.32 (\"They say\")",
+        "claim": "'Around the year 270' for the synod: McGiffert, 'The council is ordinarily, however, assigned to the year 269'; the ANF 6 introductory notice heads Anatolius 'a.d. 270'",
+        "witness": "McGiffert's note to VII.29 (npnf201_eusebius-church-history-life-of-constantine l.41930-41943); ANF 6, ed. Coxe (anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius l.14686-14687)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "'He also was an Alexandrian by birth'; in arithmetic, geometry, astronomy, dialectics and physics 'he stood first among the ablest men of our time'",
+        "witness": "Eusebius, Church History VII.32.6, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.42683-42688)",
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Ordained bishop by Theotecnus at Caesarea, then made bishop of Laodicea on the way to the Antioch synod",
-        "witness": "Eusebius VII.32",
+        "claim": "Jerome: 'a man of wonderful learning in arithmetic, geometry, astronomy, grammar, rhetoric, and dialectic'; flourished under Probus and Carus",
+        "witness": "Jerome, Lives of Illustrious Men 73, tr. Richardson (npnf203_theodoret-jerome-gennadius-rufinus l.40928-40933)",
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Wrote Paschal Canons using a nineteen-year cycle, and ten books of arithmetic",
-        "witness": "Eusebius VII.32 (quoting the extract); anf06",
+        "claim": "Told on report ('They relate', 'They say'): during the siege of the Pyrucheium bread failed; Anatolius persuaded the senate to send out 'old women and children and old men'; under cover of these a multitude escaped by night to the Roman camp, and 'he saved almost all the besieged'",
+        "witness": "Eusebius, Church History VII.32.7-11, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.42691-42763)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Which siege: McGiffert, most likely the revolt of Aemilian in 260; Valesius and others, under Claudius; Eusebius's Chronicle, 272",
+        "witness": "McGiffert's notes (npnf201_eusebius-church-history-life-of-constantine l.42694-42712, 41930-41931)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Anatolius and Eusebius came to Laodicea 'after the aforesaid war from Alexandria'",
+        "witness": "Eusebius, Church History VII.32.12 (npnf201_eusebius-church-history-life-of-constantine l.42764-42767)",
         "formation_confidence": "Documented"
       },
       {
-        "claim": "The first Christian to use the nineteen-year cycle for Easter",
-        "witness": "Arthur McGiffert, note to Eusebius (\"so far as we know\")",
+        "claim": "Theotecnus of Caesarea first ordained him bishop as his successor; the synod on Paul 'called him to Antioch, and as he passed through the city of Laodicea, Eusebius being dead, he was detained by the brethren there'",
+        "witness": "Eusebius, Church History VII.32.21 (npnf201_eusebius-church-history-life-of-constantine l.42923-42940)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "'Anatolius did not write very many works'; Eusebius gives extracts on the passover",
+        "witness": "Eusebius, Church History VII.32.13 (npnf201_eusebius-church-history-life-of-constantine l.42769-42773)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The new moon of the first month is 'the beginning of every cycle of nineteen years'; the sun is then in the segment called 'the equinox'; those who place the first month in the segment before it 'commit no slight or common blunder'",
+        "witness": "Anatolius, Paschal Canons, in Eusebius VII.32.14-15, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.42789-42791, 42805-42817); Greek, ed. Schwartz-Mommsen (eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908 l.12600-12616, OCR)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "'So far as we know, the first Christian to employ the old Metonic nineteen-year cycle for the determination of Easter'",
+        "witness": "McGiffert's note to VII.32.14 (npnf201_eusebius-church-history-life-of-constantine l.42791-42793)",
         "formation_confidence": "Dominant Modern Reconstruction"
       },
       {
-        "claim": "The longer Latin book on Easter under his name is genuine",
-        "witness": "McGiffert, following Zahn, for; Ideler against",
+        "claim": "Left the Institutes of Arithmetic, in ten books",
+        "witness": "Eusebius VII.32.20 (npnf201_eusebius-church-history-life-of-constantine l.42916-42917); Jerome 73 (npnf203_theodoret-jerome-gennadius-rufinus l.40934-40936)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "At the synod in the monastery of Streaneshalch (Whitby), on Easter, Colman asked whether Anatolius, 'a holy man, and much commended in church history', acted 'contrary to the law and the Gospel'",
+        "witness": "Bede, Ecclesiastical History III.25, tr. Giles, rev. Jane (bede_ecclesiastical-history-english-people_giles1903 l.7956-7962, 8117-8121; 'Whitby' l.10952)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Wilfrid: Anatolius 'was a most holy, learned, and commendable man; but what have you to do with him, since you do not observe his decrees?'; his 'revolution of nineteen years' is 'kept by the whole church of Christ'",
+        "witness": "Bede III.25 (bede_ecclesiastical-history-english-people_giles1903 l.8133-8141)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The king ruled to obey Peter, since 'the keys of heaven were given to him by our Lord'; all present 'resolved to conform'",
+        "witness": "Bede III.25 (bede_ecclesiastical-history-english-people_giles1903 l.8195-8216)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The disputation happened in 664",
+        "witness": "Bede III.26 (bede_ecclesiastical-history-english-people_giles1903 l.8236-8238)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The northern Scots and the Picts kept Easter 'believing that they therein followed the writings of the holy and praiseworthy Father Anatolius'",
+        "witness": "Bede III.3 (bede_ecclesiastical-history-english-people_giles1903 l.5749-5756)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Latin Paschal Canon, first printed in 1634, is an early translation of his genuine work",
+        "witness": "McGiffert, following Zahn, for ('the best of reasons'); Ideler against (npnf201_eusebius-church-history-life-of-constantine l.42773-42782)",
         "formation_confidence": "Contested"
       }
     ],
     "contested_claims": [
       {
         "claim": "Whether the Latin Paschal Canon (first printed 1634) is Anatolius's own work",
-        "sides": "McGiffert, following Zahn, sees \"the best of reasons\" for an early translation of his genuine work; Ideler held it a seventh-century work. Only the extract Eusebius quotes, and the arithmetic fragments, are firm."
+        "sides": "Arthur McGiffert, following Theodor Zahn, sees \"the best of reasons\" for an early translation of his genuine work; Ideler held it a seventh-century work. Only the extract Eusebius quotes, and the arithmetic fragments, are firm."
+      },
+      {
+        "claim": "Which siege of the Pyrucheium Eusebius means",
+        "sides": "McGiffert: most likely the revolt of Aemilian, 260. Valesius and others: a later siege under Claudius. Eusebius's Chronicle, as McGiffert reports it: 272."
       }
     ],
     "absent_details": [
       {
+        "detail": "What came of his reckoning in his own lifetime",
+        "note": "The held sources do not show it; Eusebius says only that he died and names his successor (npnf201 l.42942-42944). The brief says so."
+      },
+      {
         "detail": "Anatolius's birth and death dates",
-        "note": "No held source gives them. Richardson (born about 230, died about 283) and Salmond (230, 270, 280, called conjectural) only estimate; Eusebius says his death came before the persecution."
+        "note": "No held ancient source gives them. Richardson (born about 230, bishop 270, died about 283, npnf203 l.40928) and a bracket at the head of Salmond's ANF translation (230, 270, 280, called conjectural, anf06 l.14711-14715) only estimate; Eusebius says his death came before the persecution."
       }
     ]
   },

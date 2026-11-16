@@ -4,11 +4,11 @@
     "Gaius Suetonius Tranquillus"
   ],
   "label": "Outside witness",
-  "knownFor": "A Roman biographer of the emperors, who notes that Claudius expelled Jews stirred up by \"Chrestus\" and that Nero punished the Christians.",
-  "dates": "Born about 69 or about 77; dismissed by Hadrian about 121",
+  "knownFor": "A Roman biographer of the emperors and secretary to Hadrian, whose Lives of the Caesars give the Christians two short notices: Claudius expelling the Jews of Rome over disturbances \"at the instigation of Chrestus\", and Nero punishing the Christians.",
+  "dates": "Born about 69 or about 77, in two modern reckonings; secretary to Hadrian probably between 119 and 121, and dismissed about 121",
   "place": "Rome",
   "tradition": "Outside the church",
-  "role": "Roman biographer",
+  "role": "Roman biographer; secretary to the emperor Hadrian",
   "briefLength": "about 2 minutes",
   "keyWorks": [
     {
@@ -18,15 +18,20 @@
   ],
   "legacy": {
     "remembered": [
-      "John Rolfe, his translator, says Tertullian of Carthage drew on Suetonius's work about the public shows. Rolfe adds that the influence of Suetonius is seen in the form of the Life of Ambrose by Paulinus, Ambrose's secretary."
+      "Jerome, near the end of the fourth century, wrote that he had been urged to follow the example of Tranquillus and do for the church's writers what Suetonius had done for the famous writers of the pagans.",
+      "Tertullian of Carthage sends readers to Suetonius Tranquillus for the idols in whose honor the Roman games were founded, and cites him that Nero never dreamed. John Rolfe, his translator, says Tertullian made use of Suetonius's own work on the shows.",
+      "Rolfe adds that the influence of Suetonius is seen in the form of the Life of Ambrose by Paulinus, Ambrose's secretary, and that Einhard wrote a Life of Charles the Great on the model of Suetonius."
     ]
   },
   "uncertain": [
-    "Rolfe and the notes to Thomson and Forester's edition both read \"Chrestus\" as Christ. Rolfe calls it another form of Christus and thinks Suetonius probably got the date wrong, though a Jew of that name may be meant. The Thomson and Forester notes say Suetonius moved Christ to Rome and into the reign of Claudius.",
-    "Thomson and Forester translate \"one Chrestus.\" Rolfe notes that the Latin has no word for \"one\" here, and takes that as a sign that Christ is meant.",
-    "The Thomson and Forester notes cite Luke, in Acts 18:2, for the expulsion of the Jews by Claudius. They add that Dio Cassius says he only forbade their meetings.",
-    "Rolfe reports two dates for his birth: 77, from Mommsen, and 69, from Macé, which Rolfe thinks somewhat more probable. The Thomson and Forester preface puts it late in the reign of Vespasian.",
-    "Suetonius blames Nero for the great fire, but his notice of the Christians does not mention it."
+    "Who Chrestus was. Suetonius says nothing more about him, and the line reads as if Chrestus were in Rome under Claudius, while Tacitus puts Christ's death under Tiberius. One reading takes Chrestus as another man of that name. John Rolfe allows it, saying Suetonius may be \"referring to some Jew of that name\", and the notes to Alexander Thomson and T. Forester's edition say Chrestus was a name in use among Greeks and Romans; but neither editor holds this reading. The other reading takes Chrestus as Christ, in a confused report. Rolfe thinks this the more probable, since the Latin lacks \"quodam\", \"a certain\". The Thomson and Forester notes hold it, saying Suetonius moved Christ to Rome and into the reign of Claudius, and that quarrels between Christians and Jews seem to have caused the riots. The note to Lactantius in the American edition also reads it as Christ.",
+    "The spelling. Tertullian of Carthage complained that Romans said Chrestian for Christian, and Lactantius wrote that the ignorant changed one letter and called Christ Chrestus. Neither of them applies this to Suetonius's line.",
+    "Thomson and Forester's English prints \"one Chrestus\", though the Latin has no word for \"one\".",
+    "Who was expelled. The Latin can mean that Claudius expelled the Jews as a whole, or only those who kept rioting. Acts 18:2 says Claudius ordered all the Jews to leave Rome. The Thomson and Forester notes add that Dio Cassius says he only forbade their meetings.",
+    "His dates. No year of his life is given by an ancient writer used here. Rolfe reports 77 for his birth, from Mommsen, and 69, from Macé, which Rolfe thinks somewhat more probable; the Thomson and Forester preface puts it late in the reign of Vespasian. \"Around 120\" for his post as secretary is Rolfe's reckoning, from Spartianus and from the years 119 to 121 when his patron Septicius Clarus led the praetorian guard. The Thomson and Forester preface puts his dismissal in 121.",
+    "When the Lives were written. Rolfe gives 120 for their publication. The one fixed point he cites is that a copy known to Johannes Lydus in the sixth century carried a dedication to Septicius Clarus.",
+    "Suetonius blames Nero for the great fire, but his notice of the Christians does not mention it and gives no reason for the punishments.",
+    "Thomson and Forester's English calls the Christians' superstition \"impious\". Suetonius's word, \"maleficae\", means harmful, and can also carry a sense of sorcery, which neither printed English gives."
   ],
   "sources": {
     "ownWords": [
@@ -43,12 +48,102 @@
     ],
     "about": [
       {
-        "title": "The Life and Works of Suetonius (introduction)",
+        "title": "The Life and Works of Suetonius (introduction) and notes",
         "author": "John C. Rolfe",
-        "date": null,
+        "date": "1914",
         "language": "English",
         "file": "cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt"
+      },
+      {
+        "title": "Preface and notes to the Lives of the Twelve Caesars",
+        "author": "Alexander Thomson and T. Forester",
+        "date": "1909",
+        "language": "English",
+        "file": "cic/texts/suetonius_lives-of-the-twelve-caesars_thomson-forester1909.txt"
+      },
+      {
+        "title": "Acts of the Apostles 18:2 (World English Bible)",
+        "language": "English",
+        "file": "cic/texts/webbe_world-english-bible-british-edition.xml"
+      },
+      {
+        "title": "Apology 3 (tr. S. Thelwall); To the Nations I.3 (tr. Peter Holmes); On the Shows 5; On the Soul 44",
+        "author": "Tertullian of Carthage",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf03_tertullian.xml"
+      },
+      {
+        "title": "To the Nations, Latin (ed. Oehler)",
+        "author": "Tertullian of Carthage",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt"
+      },
+      {
+        "title": "Divine Institutes IV.7, with the editor's note (tr. William Fletcher)",
+        "author": "Lactantius",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml"
+      },
+      {
+        "title": "Divine Institutes IV.7, Latin (ed. Brandt)",
+        "author": "Lactantius",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/lactantius_divinae-institutiones-lat_brandt1890-csel-tei.txt"
+      },
+      {
+        "title": "Lives of Illustrious Men, preface (tr. Ernest Cushing Richardson)",
+        "author": "Jerome",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Annals, Book 15, chapter 44 (in the translation standardly identified as Church and Brodribb)",
+        "author": "Tacitus",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/tacitus_annals-15-44_church-brodribb1876.txt"
       }
     ]
-  }
+  },
+  "briefReferences": [
+    "John C. Rolfe, The Life and Works of Suetonius, with Spartianus's Latin: secretary to Hadrian, probably 119 to 121, so around 120; the twelve Lives from Julius to Domitian.",
+    "Alexander Thomson and T. Forester, preface: secretary to Hadrian.",
+    "Suetonius, Nero 16.2, Latin and tr. Rolfe: a new and harmful superstition, so not a Christian; the notice among abuses put down, between the rule on taverns and the curb on chariot drivers.",
+    "Rolfe's index: the two notices, Claudius 25.4 and Nero 16.2.",
+    "Suetonius, Claudius 25.4, Latin and tr. Rolfe: the Jews, Chrestus and the expulsion; nothing more said of Chrestus.",
+    "Acts 18:2, World English Bible: Claudius commanded all the Jews to depart from Rome.",
+    "Tacitus, Annals 15.44, tr. Church and Brodribb (standardly identified): Christ put to death under Tiberius.",
+    "Rolfe's note to Claudius 25.4, and the Thomson and Forester note 528: the two readings of Chrestus.",
+    "Tertullian, Apology 3, tr. S. Thelwall, and To the Nations I.3, tr. Peter Holmes, with its Latin, ed. Oehler: Romans saying Chrestian for Christian.",
+    "Lactantius, Divine Institutes IV.7, tr. William Fletcher, and its Latin, ed. Brandt: the ignorant change a letter and call him Chrestus.",
+    "Suetonius, Nero 38, Latin and tr. Rolfe: Nero set fire to Rome; no link to the Christians.",
+    "Search of the early Christian writers held: no one quoting either notice.",
+    "Jerome, Lives of Illustrious Men, preface, tr. Ernest Cushing Richardson: urged to follow the example of Tranquillus, to the fourteenth year of Theodosius.",
+    "World census, Outside the church: his tradition."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "The Jews were constantly causing disturbances at the instigation of Chrestus, and he expelled them from Rome.",
+      "printed": "Since the Jews constantly made disturbances at the instigation of Chrestus, he expelled them from Rome.",
+      "work": "Suetonius, Life of Claudius 25.4, tr. John C. Rolfe",
+      "file": "cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt",
+      "lines": "25907-25909",
+      "secondReading": "minor",
+      "uncertain": "The modern English follows Suetonius's Latin (\"Iudaeos impulsore Chresto assidue tumultuantis Roma expulit\", lines 25843-25844), which has no word for \"since\". The Latin can mean that Claudius expelled all the Jews, or only those who kept rioting. Whether \"Chrestus\" means Christ is disputed."
+    },
+    {
+      "modern": "The Christians were punished, a group of people given to a new and harmful superstition.",
+      "printed": "Punishment was inflicted a the Christians, a class of men given to a new and mischievous superstition.",
+      "work": "Suetonius, Life of Nero 16.2, tr. John C. Rolfe",
+      "file": "cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt",
+      "lines": "28523-28525",
+      "secondReading": "minor",
+      "uncertain": "The scan prints \"inflicted a the Christians\" for \"inflicted on\". The modern English follows the Latin, \"afflicti suppliciis Christiani, genus hominum superstitionis novae ac maleficae\" (lines 28458-28460): \"maleficae\" is harmful, where Rolfe's \"mischievous\" now sounds light and Thomson and Forester's \"impious\" is a different sense."
+    }
+  ]
 }

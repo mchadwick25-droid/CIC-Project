@@ -3,50 +3,98 @@
   "otherNames": [
     "Pontius"
   ],
-  "knownFor": "Deacon of Cyprian of Carthage, who shared his exile and wrote the Life and Passion of Cyprian.",
-  "dates": "Shared Cyprian's exile; Cyprian died in 258",
-  "place": "Carthage",
+  "knownFor": "A man of Cyprian's household at Carthage who went with him into exile at Curubis and wrote the Life and Passion of Cyprian; Jerome names him as Pontius, Cyprian's deacon.",
+  "dates": "Shared Cyprian's exile from 257 until Cyprian's death in 258",
+  "place": "Carthage; Curubis, in Cyprian's exile",
   "tradition": "Latin Pastoral-Congregational Christianity",
   "role": "Deacon and biographer",
   "briefLength": "about 2 minutes",
   "keyWorks": [
     {
       "title": "The Life and Passion of Cyprian",
-      "about": "Cyprian's conversion, his care in the plague, his exile and his death"
+      "about": "Cyprian's conversion and his giving to the poor, his care for all in the plague, his exile and dream at Curubis, and his death by the sword, with the crowd in the trees and the executioner's shaking hand"
     }
   ],
   "legacy": {
     "remembered": [
-      "Jerome of Strido calls the Life \"a notable volume.\""
+      "Jerome, about 130 years after Cyprian's death, wrote that Pontius, Cyprian's deacon, shared his exile to the day of his death and left a notable book on his life and death.",
+      "Bede, in the eighth century, copied Jerome's line about Pontius into his greater chronicle, adding nothing to it."
     ]
   },
   "uncertain": [
-    "The Life does not name its author. Jerome is the witness that Pontius wrote it, and Wilhelm Hartel's Latin edition calls it commonly attributed to him.",
-    "Pontius writes as an admirer, and passes over Cyprian's life before his conversion.",
-    "Arthur Cleveland Coxe, in a note to the American edition, says Pontius is said to have died a martyr. Ernest Cushing Richardson, in a note to his translation of Jerome, gives his death as about 260. Neither gives a source.",
-    "Pontius says Cyprian sold his gardens for the poor. Otto Ritschl thought they were confiscated later and that Pontius mistook this for a sale. Archbishop Benson rejects that view and follows Pontius."
+    "His name. The Life never gives its writer's name, or calls him a deacon; both rest on Jerome, about 130 years after Cyprian's death. Adolf Harnack notes that no surviving manuscript names Pontius as the author, that a list of Cyprian's works made in 359 includes the Life without his name, and that Jerome followed a tradition whose source is not known. Wilhelm Hartel's Latin edition calls the Life commonly ascribed to Pontius.",
+    "His view. Pontius writes as an admirer, praising Cyprian throughout, and passes over Cyprian's life before his conversion.",
+    "The years. The Acts of Cyprian's trial date the exile and the death by the consuls of each year, not by numbered years; 257 and 258 are the editors' reckoning.",
+    "What Cyprian sold. Hartel's Latin says he sold his goods and gave out nearly the whole price, and \"nearly\" is Hartel's own correction of the manuscripts. Ernest Wallis's English has \"the purchase-money of entire estates\", following another reading that Hartel records from the Oxford edition.",
+    "The gardens. Pontius says Cyprian had sold his gardens at the beginning of his faith and that they were restored to him by God's mercy. Archbishop Benson reports that Otto Ritschl thought they were confiscated later and that Pontius mistook this for a sale; Benson follows Pontius, and thinks friends bought them back for him.",
+    "His death. Arthur Cleveland Coxe, in a note to the American edition, says Pontius is said to have died a martyr. Ernest Cushing Richardson, in a note to his translation of Jerome, gives his death as about 260. Neither gives a source.",
+    "Beyond Jerome, the sources used here do not show who read the Life or what became of Pontius."
   ],
   "sources": {
     "ownWords": [
       {
-        "title": "The Life and Passion of Cyprian (tr. Ernest Wallis)",
+        "title": "The Life and Passion of Cyprian (tr. Ernest Wallis), with Coxe's notes",
         "language": "English",
         "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
       },
       {
-        "title": "Vita Caecilii Cypriani (Latin, ed. Hartel)",
+        "title": "Vita Caecilii Cypriani (Latin, ed. Wilhelm Hartel), with the Acta Proconsularia",
         "language": "Latin",
         "file": "cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt"
       }
     ],
     "about": [
       {
-        "title": "Lives of Illustrious Men, 68",
-        "author": "Jerome of Strido",
+        "title": "Lives of Illustrious Men, preface and 68 (tr. Ernest Cushing Richardson)",
+        "author": "Jerome",
         "date": null,
         "language": "English translation",
         "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Chronica maiora (ed. Mommsen)",
+        "author": "Bede",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/bede_chronica-maiora-in-chronica-minora-3-mgh-aa-13-lat_mommsen1898.txt"
+      },
+      {
+        "title": "Das Leben Cyprians von Pontius",
+        "author": "Adolf Harnack",
+        "date": "1913",
+        "language": "Latin and German",
+        "file": "cic/texts/harnack_vita-cypriani-commentary-lat-deu_1913.txt"
+      },
+      {
+        "title": "Cyprian: His Life, His Times, His Work",
+        "author": "Edward White Benson",
+        "date": "1897",
+        "language": "English",
+        "file": "cic/texts/benson_cyprian-his-life-his-times-his-work_1897.txt"
       }
     ]
-  }
+  },
+  "briefReferences": [
+    "Acta Proconsularia 1, Latin, ed. Wilhelm Hartel: the proconsul Paternus, on the letters of Valerian and Gallienus, sends Cyprian into exile at Curubis.",
+    "Pontius, Life of Cyprian 11-12, tr. Ernest Wallis, and its Latin, ed. Hartel: the banishment; one of his household companions in a voluntary exile; the dream on the first day, the young man, the proconsul writing a sentence without questioning, the hand flattened like a blade.",
+    "Life of Cyprian 13 and 18, tr. Wallis, with Acta Proconsularia 4-5, ed. Hartel: put to death a year later on the day of the vision, by the sword.",
+    "Life of Cyprian 1, tr. Wallis: the record kept of laypeople and catechumens who were martyrs; a bishop who had much to teach apart from his martyrdom.",
+    "Life of Cyprian 1-2, tr. Wallis: praise throughout; the life begun at his faith, what came before passed over.",
+    "Life of Cyprian 2, Latin, ed. Hartel: he sold his goods and gave out nearly the whole price to the poor.",
+    "Life of Cyprian 9-10, tr. Wallis: the plague, the sick abandoned, Cyprian's speech on cherishing not only their own, God's sun and showers for strangers too, good done to all and not only to the household of faith.",
+    "Life of Cyprian 19, tr. Wallis, and its Latin, ed. Hartel: the closing words of joy and grief.",
+    "The Life read whole, tr. Wallis and ed. Hartel: no name of its writer.",
+    "Jerome, Lives of Illustrious Men 68, tr. Ernest Cushing Richardson: Pontius, deacon of Cyprian, sharing his exile to his death, left a notable volume on his life and death; the preface, the fourteenth year of Theodosius, so about 130 years after 258.",
+    "World census, Latin Pastoral-Congregational Christianity: his tradition."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "I rejoice greatly, very greatly, at his glory, yet I grieve more that I remained behind.",
+      "printed": "Much and excessively I exult at his glory; but still more do I grieve that I remained behind.",
+      "work": "Pontius, Life and Passion of Cyprian 19, tr. Ernest Wallis",
+      "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+      "lines": "28302-28303",
+      "secondReading": "same"
+    }
+  ]
 }

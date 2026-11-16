@@ -1,42 +1,50 @@
 {
   "name": "Tatian",
-  "knownFor": "A hearer of Justin Martyr who attacked Greek learning in his Address to the Greeks and wove the four Gospels into one, the Diatessaron.",
-  "dates": "Broke with the church about 172, by Eusebius's Chronicle",
+  "knownFor": "A Syrian hearer of Justin Martyr at Rome whose Address to the Greeks argued that Moses is older than Homer, who broke with the church in his opponents' telling, and who wove the four Gospels into one, the Diatessaron, read in the Syriac-speaking church of Edessa.",
+  "dates": "At Rome as Justin's hearer in the middle of the second century. Arthur McGiffert quotes Eusebius's Chronicle as noting him a heretic in the twelfth year of Marcus Aurelius, which McGiffert reckons as 172 and takes as the year of his break with the church",
   "place": "Born in the land of the Assyrians; at Rome; later in Mesopotamia",
-  "tradition": "Syriac Christianity",
+  "tradition": "Syriac Christianity (Edessa/Nisibis)",
   "role": "Apologist and teacher",
-  "briefLength": "about 2 minutes 30 seconds",
+  "briefLength": "about 2 minutes",
   "keyWorks": [
     {
       "title": "Address to the Greeks",
-      "about": "his conversion, his scorn for Greek religion and philosophy, and his claim that Moses is older than Homer"
+      "about": "his conversion, his scorn for Greek religion and learning, and his argument that Moses is older than Homer"
     },
     {
       "title": "Diatessaron",
-      "about": "one gospel woven from the four, long read in the Syriac-speaking churches"
+      "about": "one gospel woven from the four, which the Teaching of Addai shows read in the church of Edessa"
     }
   ],
   "legacy": {
     "traces": [
-      "The Diatessaron. It would seem, writes Hope Hogg, who translated it from Arabic, that at an early stage it was \"very widely if not universally read in the Syriac churches.\" Ephrem the Syrian wrote a commentary on it."
+      "The Diatessaron. The Teaching of Addai, a Syriac legend of how the church of Edessa began, shows the people gathering each day to hear the Old Testament and the Diatessaron read. Hope Hogg, who translated the Diatessaron from Arabic, judges that at an early stage it was very widely if not universally read in the Syriac churches.",
+      "Ephrem the Syrian's commentary on the Diatessaron is known here from editors' notes: B. P. Pratten's note to the Teaching of Addai, and McGiffert, who cites Dionysius bar Salibi's preface to his commentary on Mark.",
+      "Rhodo, a native of Asia who says he was taught by Tatian at Rome, wrote against Marcion's teaching, Eusebius reports."
     ],
     "remembered": [
-      "Irenaeus of Lyon, his opponent, remembers him as the first to deny that Adam was saved.",
-      "Eusebius of Caesarea and Jerome of Strido name him the founder of the Encratites.",
-      "Theodoret of Cyrus replaced more than two hundred copies of the Diatessaron in his diocese with the four Gospels."
+      "Clement of Alexandria wrote that Tatian had treated the age of Moses accurately in his book To the Greeks.",
+      "Eusebius of Caesarea judged the Address the best and most useful of his works, and said that some still had the Diatessaron in his day.",
+      "Irenaeus of Lyon, his opponent, says Tatian's denial that Adam was saved was his own invention. Eusebius calls him the original founder of the Encratites, and Jerome says he founded their heresy.",
+      "Theodoret of Cyrrhus, as Hope Hogg reports him, found more than two hundred copies of the Diatessaron held in respect in the churches, and wrote that even those who followed the apostles' teaching used it too simply as a short version, not seeing the harm in how it was made. Arthur McGiffert adds that Theodoret replaced the copies in his diocese with the four Gospels, because the book left out the Lord's birth. Theodoret's own text is not held here.",
+      "Rabbula, bishop of Edessa, as Hogg quotes him from Overbeck's edition, ordered that every church provide and read a copy of the Distinct Gospel. Hogg takes this to mean the separate Gospels rather than the harmony; the order as quoted does not name the Diatessaron."
     ]
   },
   "uncertain": [
-    "Irenaeus says Tatian taught invisible powers like the followers of Valentinus, called marriage corruption, and denied Adam's salvation. Irenaeus writes as his opponent. Hippolytus of Rome repeats the three points, following Irenaeus closely.",
-    "Eusebius and Jerome make him the Encratites' founder. Arthur McGiffert, who translated Eusebius, notes that Irenaeus traces the group he describes to Saturninus and Marcion of Pontus, so Tatian found it already in being. McGiffert adds that the name was also used more widely, for anyone who taught extreme abstinence.",
-    "McGiffert reports that Zahn held the Diatessaron was written in Syriac and Harnack in Greek, and he thought Harnack's reasons very strong. Hope Hogg reports that a growing majority of scholars favored Syriac. Zahn and Harnack both thought it was written before Tatian broke with the church.",
-    "His life is told in two ways. McGiffert reports that Harnack had him at Rome twice, breaking with the church there about 172, and that Zahn had him at Rome once, becoming a heretic in the East. McGiffert thought Harnack's arguments \"seem fully to establish his main positions.\" Hogg says Tatian left Rome for Mesopotamia after Justin's death. McGiffert says the one trustworthy point in Epiphanius is that Tatian went back to Mesopotamia and taught there.",
-    "Eusebius says Tatian made the Diatessaron \"I know not how.\" McGiffert reads this as meaning Eusebius had not seen it. He reports that Lightfoot read it as disapproval."
+    "His later teaching comes to us through opponents. Irenaeus of Lyon says that after Justin's martyrdom Tatian left the church, taught unseen powers like those of Valentinus, called marriage corruption and fornication, and denied that Adam was saved. Clement of Alexandria, a second and separate opponent, quotes a lost book of his calling the union of husband and wife a fellowship in corruption. Hippolytus of Rome repeats Irenaeus's three points closely.",
+    "The Encratites. Irenaeus says the movement sprang from Saturninus and Marcion of Pontus, though he says Tatian first brought in the denial of Adam's salvation. Eusebius reports that Tatian was said to have founded it, and later calls him its original founder. Arthur McGiffert reads Irenaeus to mean that Tatian found the group already in being, and notes that the name was used widely, for anyone who taught extreme abstinence.",
+    "His words on the old books. Tatian's Greek calls the writings \"older\" and \"more divine\" than Greek teaching. The old English \"too old to be compared\" makes a stronger claim than he does.",
+    "His dates. No ancient witness used here dates his time at Rome by year. McGiffert dates Justin's death to 165. Epiphanius of Salamis puts Tatian's school in Mesopotamia about the twelfth year of Antoninus Pius; Holl, his editor, notes that Zahn read this as an error for Marcus Aurelius.",
+    "The course of his life. McGiffert reports that Adolf Harnack had him at Rome twice, breaking with the church there about 172, and that Zahn had him at Rome once, becoming a heretic in the East. McGiffert thought Harnack's arguments \"seem fully to establish his main positions\", and that the one trustworthy point in Epiphanius is that Tatian went back to Mesopotamia and taught there. Hope Hogg says Tatian left Rome for Mesopotamia after Justin's death.",
+    "The Diatessaron's language. McGiffert reports that Zahn held it was written in Syriac and Harnack in Greek, and he thought Harnack's reasons very strong. Hogg reports that an increasing majority of scholars favor Syriac. Zahn and Harnack both thought it was written before Tatian broke with the church.",
+    "Eusebius says Tatian made the Diatessaron \"I know not how\". McGiffert reads this as meaning Eusebius had not seen it. He reports that Lightfoot read it as disapproval.",
+    "The Teaching of Addai. In Cureton's copy the word reads \"Ditornon\", and Cureton thought it should be Diatessaron; George Phillips reports that the St Petersburg manuscript reads Diatessaron.",
+    "Theodoret and Rabbula are known here only as Hogg and McGiffert report them; Theodoret's Compendium of Heretical Fables and Overbeck's edition of Rabbula are not held."
   ],
   "sources": {
     "ownWords": [
       {
-        "title": "Address to the Greeks",
+        "title": "Address to the Greeks (tr. J. E. Ryland), with fragments of the lost works",
         "language": "English",
         "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
       },
@@ -46,40 +54,91 @@
         "file": "cic/texts/tatian_oratio-ad-graecos-grc-lat_otto1851.txt"
       },
       {
-        "title": "The Diatessaron (from the Arabic, tr. Hope W. Hogg)",
+        "title": "The Diatessaron (from the Arabic, tr. Hope W. Hogg), with Hogg's introduction",
         "language": "English",
         "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml"
       }
     ],
     "about": [
       {
-        "title": "Against Heresies, Book 1, chapter 28",
+        "title": "Against Heresies, Book 1, chapter 28; Martyrdom of Justin",
         "author": "Irenaeus of Lyon",
         "date": null,
         "language": "English translation",
         "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml"
       },
       {
-        "title": "Refutation of All Heresies, Book 8",
+        "title": "Stromata, Book 1, chapter 21 (tr. William Wilson) and Book 3, chapter 12 (Latin)",
+        "author": "Clement of Alexandria",
+        "date": null,
+        "language": "English translation and Latin",
+        "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+      },
+      {
+        "title": "Refutation of All Heresies, Book 8 (tr. J. H. MacMahon)",
         "author": "Hippolytus of Rome",
         "date": null,
         "language": "English translation",
         "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
       },
       {
-        "title": "Church History, Book 4, chapters 28 and 29, with McGiffert's notes",
+        "title": "Church History, Book 4, chapters 28 and 29, and Book 5, chapter 13, with McGiffert's notes",
         "author": "Eusebius of Caesarea",
         "date": null,
         "language": "English translation",
         "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
       },
       {
-        "title": "Lives of Illustrious Men, 29",
-        "author": "Jerome of Strido",
+        "title": "Panarion 46.1 (Greek, ed. Holl)",
+        "author": "Epiphanius of Salamis",
+        "date": null,
+        "language": "Greek",
+        "file": "cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt"
+      },
+      {
+        "title": "Lives of Illustrious Men, 29 (tr. Ernest Cushing Richardson)",
+        "author": "Jerome",
         "date": null,
         "language": "English translation",
         "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "The Teaching of Addai (tr. B. P. Pratten)",
+        "language": "English translation",
+        "file": "cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml"
+      },
+      {
+        "title": "The Doctrine of Addai (tr. George Phillips)",
+        "language": "English translation",
+        "file": "cic/texts/addai_doctrine-of-addai.txt"
       }
     ]
-  }
+  },
+  "briefReferences": [
+    "Tatian, Address to the Greeks 35 and 18, tr. J. E. Ryland: in the city of the Romans; \"the most admirable Justin\".",
+    "Irenaeus, Against Heresies I.28.1, ANF 1: a hearer of Justin's; after his martyrdom he left the church, puffed up as a teacher; invisible Aeons like the followers of Valentinus; marriage corruption and fornication; the denial of Adam's salvation; the Encratites, who preached against marriage, sprang from Saturninus and Marcion.",
+    "Martyrdom of Justin 5, ANF 1: those who refused to sacrifice sentenced to beheading.",
+    "Tatian, Address 42, tr. Ryland: born in the land of the Assyrians, first instructed in Greek teaching.",
+    "Epiphanius, Panarion 46.1, Greek, ed. Holl: after Justin's death he went from Rome to the East and set up his school in Mesopotamia.",
+    "Tatian, Address 29, tr. Ryland, and its Greek, ed. Otto: admitted to the mysteries, the rites of the Romans' Jupiter and of Artemis, retiring alone to seek the truth, the non-Greek writings.",
+    "Tatian, Address 31, tr. Ryland: Moses and Homer; \"our philosophy is older than the systems of the Greeks\".",
+    "Clement of Alexandria, Stromata I.21, tr. William Wilson: the epoch of Moses \"discussed with accuracy by Tatian in his book To the Greeks\".",
+    "Eusebius, Church History IV.29.7, tr. Arthur McGiffert: the Address the best and most useful of his works.",
+    "Clement, Stromata III.12, Latin in ANF 2, with the English fragment of Concerning Perfection according to the Saviour: \"fellowship in corruption weakens supplication\"; known only from this quotation.",
+    "Eusebius, Church History IV.28 and IV.29.6, tr. McGiffert: \"It is said that Tatian was the author of this false doctrine\"; \"their original founder, Tatian\".",
+    "Eusebius, Church History IV.29.6, tr. McGiffert: a combination and collection of the Gospels called the Diatessaron, still in the hands of some.",
+    "The Teaching of Addai, tr. B. P. Pratten, with the Doctrine of Addai, tr. George Phillips: the church Addai built at King Abgar's word; the people gathering daily to the reading of the Old Testament and the Diatessaron.",
+    "World census, Syriac Christianity (Edessa/Nisibis): his tradition."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "some non-Greek writings, older than the teachings of the Greeks, and more divine than their error.",
+      "printed": "certain barbaric writings, too old to be compared with the opinions of the Greeks, and too divine to be compared with their errors",
+      "work": "Tatian, Address to the Greeks 29, tr. J. E. Ryland",
+      "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+      "lines": "6972-6974",
+      "secondReading": "changes meaning",
+      "uncertain": "The modern English follows Tatian's Greek (Otto, tatian_oratio-ad-graecos-grc-lat_otto1851.txt, lines 10388-10390), which calls the writings \"older\" and \"more divine\" than Greek teaching, with \"error\" in the singular. The printed English \"too old to be compared\" makes a stronger claim than he does. Both readings kept."
+    }
+  ]
 }

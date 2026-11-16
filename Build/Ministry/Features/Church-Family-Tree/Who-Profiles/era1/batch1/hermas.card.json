@@ -3,40 +3,46 @@
   "otherNames": [
     "Hermas, author of the Shepherd"
   ],
-  "knownFor": "A Christian of Rome whose book of visions, the Shepherd, was read for centuries and allowed one repentance after baptism.",
-  "dates": "Writing between about 100 and 160",
+  "knownFor": "A Christian of Rome whose book of visions, the Shepherd, set one more repentance for those baptized before its time; Irenaeus of Lyon quoted it as Scripture, and later churches argued over whether to read it.",
+  "dates": "Around 150, by the Muratorian Canon, which makes him the brother of Pius, bishop of Rome, and by Eusebius of Caesarea's years for Pius. Arthur McGiffert gives Pius's years as 139 to 154; Zahn dates the book between 97 and 100",
   "place": "Rome",
-  "tradition": "Post-apostolic church",
+  "tradition": "Post-Apostolic Household-Church Christianity",
   "role": "Writer of visions",
-  "briefLength": "about 1 minute 55 seconds",
+  "briefLength": "about 2 minutes 30 seconds",
   "keyWorks": [
     {
-      "title": "The Shepherd",
-      "about": "visions, commands and parables calling the church to repent"
+      "title": "The Shepherd (The Pastor of Hermas)",
+      "about": "visions, commandments and parables that the angel of repentance, dressed as a shepherd, bids him write, calling the church to repent"
     }
   ],
   "legacy": {
     "traces": [
-      "The Shepherd taught that a Christian who sins after \"that great and holy calling\" may repent once."
+      "In the Shepherd, the angel agrees with teachers who allowed no repentance but baptism, then says the Lord has set repentance for \"those who have been called before these days\", in F. Crombie's English. The same book says a husband must take back a wife who repents, \"But not frequently.\""
     ],
     "remembered": [
-      "Irenaeus of Lyon quoted it as Scripture. Clement of Alexandria and Origen used it as inspired.",
-      "Tertullian of Carthage called it \"the only one which favours adulterers.\"",
-      "The Muratorian Canon says it should be read, but not in church to the people. Eusebius of Caesarea placed it among the spurious books. Jerome of Strido found it almost unknown among the Latins."
+      "Irenaeus of Lyon quoted it as \"the Scripture\" in Against Heresies IV.20.2. Eusebius of Caesarea says Irenaeus \"not only knows, but also receives\" it.",
+      "Tertullian of Carthage, attacking a bishop's edict that forgave adultery to the penitent, called it \"the only one which favours adulterers\" and \"that apocryphal 'Shepherd' of adulterers\", in S. Thelwall's English, and said every council of the churches had judged it apocryphal and false.",
+      "The Muratorian Canon says it \"ought to be read\", but not made public in church to the people, nor placed among the prophets or the apostles.",
+      "Eusebius of Caesarea counts it among the rejected books, yet says some held it \"quite indispensable\" for those learning the elements of the faith, and that it was publicly read in churches.",
+      "Jerome says it was read publicly in some churches of Greece, but \"among the Latins it is almost unknown\", in E. C. Richardson's English.",
+      "Arthur McGiffert says Clement of Alexandria and Origen \"often quote it as an inspired book\", though Origen distinguishes it from the canonical books."
     ]
   },
   "uncertain": [
-    "What the Shepherd tells of Hermas comes from inside its visions, and no other source confirms it.",
-    "The Muratorian Canon makes him the brother of Pius, bishop of Rome, which puts the book in the middle of the second century. Arthur McGiffert, who translated Eusebius of Caesarea, says most scholars accepted this. Zahn dated it between 97 and 100, to an unknown Hermas living when Clement of Rome did.",
-    "That he was the Hermas whom Paul greets in Romans goes back to Origen. McGiffert calls it \"a mere guess.\"",
-    "Cleveland Coxe, in his notes to the American edition, asks whether the words on one repentance can be genuine, since they sound like the strictness the book opposes. Part of the sentence before them is found in only one manuscript."
+    "Who he was. The earliest report, the Muratorian Canon, makes him the brother of Pius, bishop of Rome; Eusebius of Caesarea and Jerome took him instead for the Hermas whom Paul greets in Romans. Everything else told of his life comes from inside his own visions, which no other source confirms, and no source says what became of him.",
+    "The date. Arthur McGiffert, who translated Eusebius, says the Muratorian report is the only direct ancient testimony and is \"accepted by the majority of scholars\". Zahn dates the book between 97 and 100, to an unknown Hermas living when Clement of Rome did, and Salmon follows him. In a vision Hermas is told to send a copy to \"Clemens\" (Vision 2.4); McGiffert says many take this for the Roman Clement, which \"appears very likely\" but cannot be called certain.",
+    "\"Around the year 150\" is reckoned from Eusebius: Hyginus became bishop of Rome in the first year of Antoninus Pius and held office four years, and Pius held it fifteen. McGiffert cites Lipsius for Pius's years as 139 to 154 at the earliest and 141 to 156 at the latest.",
+    "The identification with the Hermas of Romans 16 goes back to Origen, McGiffert says, \"with whom it is no more than a mere guess.\" A note in E. C. Richardson's translation of Jerome says this view \"is not much accepted.\"",
+    "Cleveland Coxe, editor of the American edition, asks whether the words on repenting \"but once\" in Commandment 4.3 can be genuine, since they reflect the strictness the book opposes; the clause just before them is found in only one manuscript, the Palatine. The brief quotes the parallel line in Commandment 4.1, which he does not question.",
+    "The woman's name. The printed English has \"Rhode\", and the editor notes the name in Acts 12.13; the brief gives the usual English form, Rhoda. One manuscript, the Vatican, has no name (\"sold a certain young woman at Rome\"); the Palatine names her Rada.",
+    "Tertullian's report that every council of the churches had judged the book false is his alone among the sources used here, and he writes as its opponent."
   ],
   "sources": {
     "ownWords": [
       {
-        "title": "The Pastor of Hermas",
+        "title": "The Pastor of Hermas (tr. F. Crombie, with A. Cleveland Coxe's notes)",
         "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
-        "language": "English"
+        "language": "English translation"
       }
     ],
     "about": [
@@ -48,19 +54,64 @@
         "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
       },
       {
-        "title": "On Modesty, chapters 10 and 20",
+        "title": "Against Heresies, Book 4, chapter 20 (tr. A. Roberts and W. H. Rambaut)",
+        "author": "Irenaeus of Lyon",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml"
+      },
+      {
+        "title": "On Modesty, chapters 1, 10 and 20 (tr. S. Thelwall)",
         "author": "Tertullian of Carthage",
         "date": null,
         "language": "English translation",
         "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml"
       },
       {
-        "title": "Church History, Book 3, chapter 3, with McGiffert's notes",
+        "title": "De pudicitia (On Modesty), chapter 10, Corpus Scriptorum Ecclesiasticorum Latinorum 20 (ed. A. Reifferscheid and G. Wissowa)",
+        "author": "Tertullian of Carthage",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt"
+      },
+      {
+        "title": "Church History, Book 3, chapters 3 and 25, Book 4, chapters 10 and 11, and Book 5, chapter 8, with McGiffert's notes",
         "author": "Eusebius of Caesarea",
         "date": null,
         "language": "English translation",
         "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Lives of Illustrious Men, chapter 10 (tr. E. C. Richardson)",
+        "author": "Jerome",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
       }
     ]
-  }
+  },
+  "briefReferences": [
+    "Muratorian Canon, tr. in Ante-Nicene Fathers 5: Hermas wrote the Shepherd at Rome \"very recently in our times\", while his brother Pius was bishop of Rome; it ought to be read, but not made public in church to the people, among the prophets or the apostles, being so recent.",
+    "Eusebius of Caesarea, Church History IV.10-11, tr. Arthur McGiffert: Hyginus bishop from the first year of Antoninus Pius for four years, then Pius for fifteen, for \"around the year 150\".",
+    "Eusebius, Church History III.3.6, tr. McGiffert: the Shepherd ascribed to the Hermas greeted in Romans; disputed by some, held needful by others for beginners in the faith, and publicly read in churches.",
+    "Jerome, Lives of Illustrious Men 10, tr. E. C. Richardson: the Hermas of Romans 16 reputed the author of the Pastor.",
+    "Hermas, The Shepherd, Vision 1.1-2, tr. F. Crombie: sold by the man who raised him to Rhoda; meeting her years later, loving her as a sister, the thought of such a wife; her greeting from the sky and her charge to accuse him of his sins before the Lord; his fear and his question how he could be saved.",
+    "Hermas, The Shepherd, Vision 5, tr. Crombie: the angel dressed like a shepherd, sent to dwell with him, the angel of repentance.",
+    "Hermas, The Shepherd, Commandment 4.3, tr. Crombie: teachers who allowed no repentance but baptism; the baptized ought not to sin again; the Lord, knowing human weakness, in mercy set repentance for those called before these days.",
+    "Hermas, The Shepherd, Commandment 4.1, tr. Crombie: a husband must take back a wife who repents, \"But not frequently\"; \"For there is but one repentance to the servants of God.\"",
+    "Irenaeus of Lyon, Against Heresies IV.20.2, tr. A. Roberts and W. H. Rambaut: the Shepherd quoted as \"the Scripture\"; with Eusebius, Church History V.8.7.",
+    "Tertullian of Carthage, On Modesty 1 and 10, tr. S. Thelwall, with the Latin of CSEL 20: the bishop's edict forgiving adultery to the penitent; the Shepherd the only writing that favors adulterers, judged false by every council of the churches.",
+    "Eusebius, Church History III.25.4, tr. McGiffert: the Shepherd among the rejected writings.",
+    "World census, Post-Apostolic Household-Church Christianity: his tradition."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "For the servants of God there is only one repentance.",
+      "printed": "For there is but one repentance to the servants of God.",
+      "work": "Hermas, The Shepherd, Commandment 4.1, tr. F. Crombie",
+      "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+      "lines": "1933-1934",
+      "secondReading": "same"
+    }
+  ]
 }

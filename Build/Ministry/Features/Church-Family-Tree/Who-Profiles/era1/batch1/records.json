@@ -195,40 +195,129 @@
   "eusebius-of-caesarea": {
     "claims": [
       {
-        "claim": "Eyewitness of martyrdoms in the Thebais",
-        "witness": "Eusebius HE VIII.9",
+        "claim": "In Diocletian's nineteenth year (303), near the Passion feast, edicts commanded 'that the churches be leveled to the ground and the Scriptures be destroyed by fire'",
+        "witness": "Eusebius, Church History VIII.2, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.43480-43489)",
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Friend of Pamphilus; called Eusebius Pamphili",
-        "witness": "McGiffert prolegomena",
-        "formation_confidence": "Widely Accepted"
-      },
-      {
-        "claim": "Presented his creed at Nicaea; Constantine added One-in-essence",
-        "witness": "Eusebius, Letter to his diocese (his own account)",
+        "claim": "Pamphilus, 'my dearest friend', the only presbyter at Caesarea among the martyrs, excelled 'in most sincere devotion to the Divine Scriptures'; tortured with 'continuous and prolonged scrapings' and put in prison; at last punished with his companions",
+        "witness": "Eusebius, Martyrs of Palestine 7 and 11, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.46694-46709, 47072-47078, 47190-47198)",
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Eustathius accused him of perverting the Nicene creed",
-        "witness": "Socrates I.23",
+        "claim": "Eusebius wrote of the martyrs of Palestine, and a separate Life of Pamphilus in three books",
+        "witness": "Eusebius, Martyrs of Palestine 11 (npnf201_eusebius-church-history-life-of-constantine l.47080-47083); Church History VII.32.25 (npnf201_eusebius-church-history-life-of-constantine l.43040-43044)",
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Escaped prison by an unlawful promise",
-        "witness": "Potamo in Epiphanius 68.8 (partisan, pro-Athanasius) for; McGiffert: conjecture; Athanasius: only \"accused\"",
+        "claim": "Eusebius, 'surnamed Pamphilus, bishop of Caesarea in Palestine'",
+        "witness": "Socrates I.8, tr. Zenos (npnf202_socrates-sozomen-ecclesiastical-histories l.2970-2972); II.4 (npnf202_socrates-sozomen-ecclesiastical-histories l.5801-5803)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "'since I am the first to enter upon the subject, I am attempting to traverse as it were a lonely and untrodden path'",
+        "witness": "Eusebius, Church History I.1.3, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.6936-6937)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "He gathered matters from earlier writers, 'having plucked like flowers from a meadow the appropriate passages from ancient writers'",
+        "witness": "Eusebius, Church History I.1.5 (npnf201_eusebius-church-history-life-of-constantine l.6961-6964)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Socrates writes 'the details of what has taken place in the churches since his time to our own day'; Theodoret: 'I shall begin my history from the period at which his terminates'",
+        "witness": "Socrates I.1, tr. Zenos (npnf202_socrates-sozomen-ecclesiastical-histories l.1864-1867); Theodoret I.1, tr. Jackson (npnf203_theodoret-jerome-gennadius-rufinus l.5219-5222)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Socrates: in the Life of Constantine Eusebius 'has but slightly treated of matters regarding Arius, being more intent on the rhetorical finish of his composition and the praises of the emperor, than on an accurate statement of facts'",
+        "witness": "Socrates I.1 (npnf202_socrates-sozomen-ecclesiastical-histories l.1861-1864)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "At Nicaea his own formula was read before the emperor, who approved it and advised 'the insertion of the single word, One-in-essence', which he read 'not in the sense of the affections of bodies'",
+        "witness": "Eusebius, Letter to his diocese 1 and 4, NPNF 2.4 (npnf204_athanasius-select-works-letters l.19563-19568, 19655-19661); Greek of the word in Socrates I.8, ed. Hussey (socrates_historia-ecclesiastica-tomus1-grc-lat_hussey1853 l.7154-7159, OCR)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "'we did not let it pass without inquiry in what sense they introduced \"of the essence of the Father,\" and \"one in essence with the Father\"'",
+        "witness": "Eusebius, Letter to his diocese 5 and 8 (npnf204_athanasius-select-works-letters l.19698-19701, 19866-19867), his own account",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Eusebius 'had held aloof for a short time', then 'subscribed it with all the rest' and sent his people the creed with an explanation of homoousios",
+        "witness": "Socrates I.8 (npnf202_socrates-sozomen-ecclesiastical-histories l.2970-2978); Sozomen I.21, 'withheld his assent for a little while' (npnf202_socrates-sozomen-ecclesiastical-histories l.28002-28003); Athanasius, De Decretis 3, 'had denied the day before, but afterwards subscribed' (npnf204_athanasius-select-works-letters l.26780-26781)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Some 'attempted to stigmatize even Eusebius Pamphilus himself as having favored the Arian views'; Socrates defends him",
+        "witness": "Socrates II.21 (npnf202_socrates-sozomen-ecclesiastical-histories l.6914-6920)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Athanasius: 'I have subjoined at the end the letter of Eusebius', who had not denied 'the \"one in essence\"'",
+        "witness": "Athanasius, De Decretis 3, NPNF 2.4 (npnf204_athanasius-select-works-letters l.26780-26795), a hostile witness",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Socrates used Eusebius's account of the council, 'treating what he has said as an authority', and gave the letter 'as follows in his own words'",
+        "witness": "Socrates I.8 (npnf202_socrates-sozomen-ecclesiastical-histories l.2837-2838, 2866-2868, 2978-2979; the letter to l.3157)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Born not far from 260; died late in 339 or early in 340",
+        "witness": "McGiffert's prolegomena (npnf201_eusebius-church-history-life-of-constantine l.1121-1122, 2774-2786)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Eustathius of Antioch accused him of perverting the Nicene Creed; he answered that Eustathius held the opinion of Sabellius",
+        "witness": "Socrates I.23 (npnf202_socrates-sozomen-ecclesiastical-histories l.4708-4711)",
         "formation_confidence": "Contested"
       },
       {
-        "claim": "Constantine told him of the cross under oath",
-        "witness": "Eusebius, Life of Constantine I.28; Richardson note",
+        "claim": "Escaped prison by an unlawful promise",
+        "witness": "Potamo at Tyre, in Epiphanius, Panarion 68.8, Petavius's Latin (epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860 l.44663-44672), a partisan of Athanasius; McGiffert's prolegomena: Potamo 'simply conjectures', and Athanasius says only 'accused of sacrificing' (npnf201_eusebius-church-history-life-of-constantine l.1514-1543)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Constantine told him of the cross of light and 'confirmed his statement by an oath'; Richardson: the account 'has met with doubters from the very beginning, commencing with Eusebius himself'",
+        "witness": "Eusebius, Life of Constantine I.28, tr. Richardson (npnf201_eusebius-church-history-life-of-constantine l.61196-61211)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "He took the name Eusebius Pamphili after Pamphilus's death",
+        "witness": "McGiffert's note to Church History VII.32.25 (npnf201_eusebius-church-history-life-of-constantine l.43009-43012)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "He was present when crowds were put to death in a day in the Thebaid",
+        "witness": "Eusebius, Church History VIII.9.4 (npnf201_eusebius-church-history-life-of-constantine l.44267-44269)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Acacius, his disciple, succeeded him and wrote a sketch of his life",
+        "witness": "Socrates II.4 (npnf202_socrates-sozomen-ecclesiastical-histories l.5801-5805)",
         "formation_confidence": "Documented"
       }
     ],
     "contested_claims": [
       {
         "claim": "Escaped prison by an unlawful promise",
-        "sides": "Potamo in Epiphanius 68.8 (partisan, pro-Athanasius) for; McGiffert: conjecture; Athanasius: only \"accused\""
+        "sides": "Potamo of Heraclea, at Tyre in 335, in Epiphanius, Panarion 68.8 (partisan, on the side of Athanasius), for. Against: Arthur McGiffert, who calls it Potamo's conjecture, and notes that Athanasius says only that Eusebius was \"accused of sacrificing\"."
+      },
+      {
+        "claim": "Whether Eusebius kept to the Nicene creed",
+        "sides": "Eustathius of Antioch accused him of perverting it; Eusebius denied it and charged Eustathius with Sabellianism (Socrates I.23). Socrates II.21 defends him against the charge of favoring Arius; Athanasius, De Decretis 3, uses his letter to show he signed."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "The Greek of Church History Book I",
+        "note": "Not held; the quotation follows McGiffert's English."
+      },
+      {
+        "detail": "The years of his birth and death",
+        "note": "No held ancient source gives them; McGiffert reckons them."
       }
     ]
   },

@@ -4,11 +4,11 @@
     "Theophorus"
   ],
   "knownFor": "Bishop of Antioch whose seven letters, written under guard on the way to his death at Rome, warn the churches to keep to their bishops and to Christ who truly suffered.",
-  "dates": "Died under the emperor Trajan, or later",
+  "dates": "Bishop of Antioch early in the second century; died under the emperor Trajan in Eusebius of Caesarea's placing, or under Hadrian in Harnack's",
   "place": "Antioch in Syria; Smyrna and Troas on the road to Rome",
-  "tradition": "Post-apostolic church",
+  "tradition": "Post-Apostolic Household-Church Christianity",
   "role": "Bishop and martyr",
-  "briefLength": "about 2 minutes 30 seconds",
+  "briefLength": "about 2 minutes",
   "keyWorks": [
     {
       "title": "Letter to the Romans",
@@ -16,40 +16,43 @@
     },
     {
       "title": "Letter to the Smyrnaeans",
-      "about": "against those who said Christ only seemed to suffer; where the phrase \"Catholic Church\" first appears, Cleveland Coxe says"
+      "about": "against those who said Christ only seemed to suffer, and for doing nothing in the church without the bishop; where the phrase \"Catholic Church\" first appears, Cleveland Coxe says"
     },
     {
       "title": "Letter to Polycarp",
-      "about": "to the bishop of Smyrna, asking him to care for the church at Antioch"
+      "about": "to the bishop of Smyrna, who in Eusebius's account is asked to care for the flock at Antioch"
     }
   ],
   "legacy": {
     "traces": [
-      "He told the churches to do nothing without their bishop, and wrote that \"wherever Jesus Christ is, there is the Catholic Church.\" Cleveland Coxe, who edited the American edition of the letters, notes that this is the first use of that phrase in the early church's writings."
+      "He told the church at Smyrna that wherever the bishop appears the people should be, \"even as, wherever Jesus Christ is, there is the Catholic Church\", in the English of A. Roberts and J. Donaldson. Cleveland Coxe, who edited the American edition, notes that this is the first use of the phrase in the early church's writings.",
+      "Theodoret of Cyrrhus, in his Dialogues, set the letter to the Smyrnaeans among the testimonies that Christ was \"crucified for our sake in the flesh\", in Blomfield Jackson's English."
     ],
     "remembered": [
-      "Polycarp of Smyrna, in his letter to the Philippians, holds up \"the blessed Ignatius\" as an example of patience.",
-      "Irenaeus of Lyon quotes the wheat line as the words of a man of the church condemned to the beasts. Eusebius of Caesarea gives Irenaeus's words as \"As one of our people said.\"",
-      "Eusebius of Caesarea says his fame \"is still celebrated by a great many.\""
+      "Polycarp of Smyrna, in his letter to the Philippians, holds up \"the blessed Ignatius\" as an example of patience, and sends the Philippians the letters of Ignatius he had.",
+      "Irenaeus of Lyon quotes the wheat line as the words of \"a certain man of ours\" condemned to the wild beasts. Eusebius of Caesarea gives Irenaeus's words as \"As one of our people said.\"",
+      "Eusebius of Caesarea names all seven letters and says his fame \"is still celebrated by a great many.\""
     ]
   },
   "uncertain": [
-    "Arthur McGiffert, who translated Eusebius of Caesarea, says almost all we know of him comes from his own letters. Eusebius adds that he was the second bishop of Antioch after Peter, and that report said he died by the beasts at Rome.",
-    "Which letters are his was argued for a long time. Fifteen carry his name; eight are set aside as forgeries. Daillé, in 1666, rejected all of them. Bishop Pearson defended the seven shorter Greek letters in 1672. William Cureton, in 1845, argued that only the three letters in a Syriac version were genuine; Bunsen agreed with him and Hefele did not. McGiffert wrote in 1890 that Zahn and Lightfoot had finally settled it for the shorter Greek letters, though he notes that some still denied them.",
-    "Eusebius's Chronicle dates his death to the tenth year of Trajan, about 107. Zahn and Lightfoot would say only that it was under Trajan. Harnack placed it under Hadrian.",
-    "Accounts of his martyrdom were written from the fourth century on. McGiffert says they contradict one another and cannot be relied on."
+    "What came of his rule. The sources used here do not show what came of his rule on bishops in other churches, and Eusebius gives his death at Rome only as what \"report says\".",
+    "Arthur McGiffert, who translated Eusebius, says we must turn to the letters for \"our chief knowledge of his life\". Eusebius adds that he was the second bishop of Antioch after Peter; McGiffert says Origen had already said so, and that it rests on a tradition at least partly independent of the letters.",
+    "Which letters are his was argued for a long time. Fifteen carry his name; eight are set aside as forgeries. Daillé, in 1666, rejected the letters in every form then known. Bishop Pearson defended the seven shorter Greek letters in 1672. William Cureton, in 1845, argued that the three letters in a Syriac version were nearest to what Ignatius wrote; Bunsen agreed with him and Hefele did not. McGiffert wrote in 1890 that Zahn and Lightfoot had settled it for the shorter Greek letters, though their genuineness \"is still stoutly denied by some\".",
+    "The date of his death. Eusebius places him in the reign of Trajan, and his Chronicle dates the death to Trajan's tenth year, about 107; McGiffert calls the Chronicle's dates for these bishops of Antioch \"entirely unreliable\". Zahn and Lightfoot would say only that he died under Trajan. Harnack placed it under Hadrian. The brief says only \"early in the second century\", which all of them allow.",
+    "Accounts of his martyrdom were written from the fourth century on. McGiffert says they are \"quite contradictory\" and furnish \"no trustworthy information\".",
+    "The wheat line. Other English forms in the same volume read \"I am ground\" and \"the pure bread of God\": the longer form of the letter, and Irenaeus's quotation (\"the wheat of Christ ... the pure bread of God\"). The brief follows the shorter form, which reads \"let me be ground\". The Greek is not held here."
   ],
   "sources": {
     "ownWords": [
       {
-        "title": "The Epistles of Ignatius, shorter and longer Greek forms, and the Syriac version",
+        "title": "The Epistles of Ignatius, shorter and longer Greek forms, and the Syriac version (tr. A. Roberts and J. Donaldson, with A. Cleveland Coxe's notes)",
         "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
-        "language": "English"
+        "language": "English translation"
       }
     ],
     "about": [
       {
-        "title": "Church History, Book 3, chapter 36",
+        "title": "Church History, Book 3, chapters 22 and 36, with McGiffert's notes",
         "author": "Eusebius of Caesarea",
         "date": null,
         "language": "English translation",
@@ -68,7 +71,70 @@
         "date": null,
         "language": "English translation",
         "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml"
+      },
+      {
+        "title": "Dialogues, Dialogue 1 (tr. Blomfield Jackson)",
+        "author": "Theodoret of Cyrrhus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
       }
     ]
-  }
+  },
+  "briefReferences": [
+    "Eusebius of Caesarea, Church History III.22 and III.36.1-2, tr. Arthur McGiffert: Ignatius, bishop of Antioch, in the time Eusebius gives to Trajan, early in the second century.",
+    "Ignatius, Letter to the Romans 4-5, tr. A. Roberts and J. Donaldson: a condemned man, writing to Rome not to hinder his death; \"bound to ten leopards, I mean a band of soldiers\"; the wheat of God ground by the beasts.",
+    "Eusebius, Church History III.36.3-6, tr. McGiffert: sent from Syria to Rome for the beasts, through Asia under military guard; from Smyrna to the church of Rome, begging them not to save him.",
+    "Eusebius, Church History III.36.5 and 10, tr. McGiffert: the six other letters, to Ephesus, Magnesia and Tralles from Smyrna, and to Philadelphia, Smyrna and Polycarp from Troas.",
+    "Ignatius, Letter to the Smyrnaeans 2 and 4, tr. Roberts and Donaldson: those who said Christ only seemed to suffer; his chains as the answer.",
+    "Theodoret of Cyrrhus, Dialogue 1, tr. Blomfield Jackson: the letter to the Smyrnaeans as testimony that Christ was crucified in the flesh.",
+    "Ignatius, Letter to the Smyrnaeans 8, tr. Roberts and Donaldson: nothing in the church without the bishop; what he approves is secure and valid.",
+    "Polycarp of Smyrna, Letter to the Philippians 13, tr. Roberts and Donaldson: the letters of Ignatius sent to Philippi.",
+    "Irenaeus of Lyon, Against Heresies V.28.4, tr. A. Roberts and W. H. Rambaut: the wheat saying as the words of a man of ours condemned to the beasts.",
+    "Eusebius, Church History III.36.2-3 and 5-15, tr. McGiffert: his death at Rome as report; the seven letters named; his fame still celebrated by many.",
+    "World census, Post-Apostolic Household-Church Christianity: his tradition."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "bound to ten leopards, I mean a band of soldiers,",
+      "printed": "being bound to ten leopards, I mean a band of soldiers,",
+      "work": "Ignatius, Letter to the Romans 5, tr. A. Roberts and J. Donaldson",
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "lines": "7087",
+      "secondReading": "minor"
+    },
+    {
+      "modern": "I am God's wheat, and let me be ground by the teeth of the wild beasts, so that I may be found the pure bread of Christ.",
+      "printed": "I am the wheat of God, and let me be ground by the teeth of the wild beasts, that I may be found the pure bread of Christ.",
+      "work": "Ignatius, Letter to the Romans 4, tr. A. Roberts and J. Donaldson",
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "lines": "7040-7042",
+      "secondReading": "same",
+      "uncertain": "Other English forms in the same volume read \"I am ground\" and \"bread of God\"; the brief follows the form that reads \"let me be ground\". The brief carries the first rendering's joined form, which keeps the printed \"and\"; the second rendering split it into two sentences with the same meaning. The Greek is not held."
+    },
+    {
+      "modern": "If our Lord did these things only in appearance,",
+      "printed": "But if these things were done by our Lord only in appearance,",
+      "work": "Ignatius, Letter to the Smyrnaeans 4, tr. A. Roberts and J. Donaldson",
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "lines": "8102-8103",
+      "secondReading": "same"
+    },
+    {
+      "modern": "then I too am bound only in appearance.",
+      "printed": "then am I also only in appearance bound.",
+      "work": "Ignatius, Letter to the Smyrnaeans 4, tr. A. Roberts and J. Donaldson",
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "lines": "8103",
+      "secondReading": "same"
+    },
+    {
+      "modern": "Let no one do anything that concerns the church without the bishop,",
+      "printed": "Let no man do anything connected with the Church without the bishop.",
+      "work": "Ignatius, Letter to the Smyrnaeans 8, tr. A. Roberts and J. Donaldson",
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "lines": "8277-8278",
+      "secondReading": "same"
+    }
+  ]
 }

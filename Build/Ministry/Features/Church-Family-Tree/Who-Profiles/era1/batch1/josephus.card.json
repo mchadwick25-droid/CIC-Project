@@ -5,11 +5,11 @@
   ],
   "label": "Outside witness",
   "knownFor": "A Jewish priest and historian at Rome, whose Antiquities of the Jews names Jesus and his brother James.",
-  "dates": "Born 37; died early in the second century",
+  "dates": "Born in the first year of the emperor Caius, the year 37, by his own Life; he finished the Antiquities in the thirteenth year of Domitian and the fifty-sixth of his life, which William Whiston's note makes the year 93. A note in E. C. Richardson's translation of Jerome says he died after 97",
   "place": "Jerusalem, then Rome",
   "tradition": "Outside the church",
-  "role": "Jewish historian",
-  "briefLength": "about 2 minutes 30 seconds",
+  "role": "Jewish priest and historian",
+  "briefLength": "about 2 minutes",
   "keyWorks": [
     {
       "title": "The Jewish War",
@@ -21,45 +21,70 @@
     },
     {
       "title": "Life",
-      "about": "his own account of himself, written to answer his accusers"
+      "about": "his own account of himself, from his family of priests to his years at Rome"
     }
   ],
   "legacy": {
     "remembered": [
-      "Origen, more than a century later, cites Josephus on James the brother of Jesus, and says Josephus did not accept Jesus as Christ.",
-      "Eusebius of Caesarea quotes the longer passage on Jesus in his Church History. Arthur McGiffert, who translated Eusebius, says he is the first writer known to do so."
+      "Origen of Alexandria cites Josephus on John the Baptist and on James against Celsus, and says Josephus \"did not accept Jesus as Christ\".",
+      "Eusebius of Caesarea quotes the longer passage on Jesus in his Church History, and argues that a Hebrew historian's record convicts those who forged acts against Jesus. Arthur McGiffert, who translated Eusebius, says he is the first writer known to quote it.",
+      "Jerome gives Josephus a chapter in his Lives of Illustrious Men, among the church's writers, and copies the passage there with Jesus \"believed to be Christ\", in E. C. Richardson's English."
     ]
   },
   "uncertain": [
-    "How much of the longer passage on Jesus Josephus wrote was argued in McGiffert's day, in 1890, four ways. Some held it wholly genuine, which McGiffert thought could not stand. Hase, Keim and Schürer held it wholly added, and McGiffert agreed. Gieseler, Weizsäcker, Renan, Edersheim and Schaff held it partly genuine. Ewald held that a hostile Jewish passage was rewritten as praise.",
-    "William Whiston, who translated Josephus in the eighteenth century, defended the passage as genuine, while admitting it had \"of late been greatly questioned by many.\"",
-    "Origen says Josephus did not accept Jesus as Christ, which sits badly with the line \"He was the Christ.\" Whiston answers that Josephus did not mean the words as Christians do.",
-    "McGiffert notes that some critics doubted the whole phrase naming James as the brother of Jesus. Neander held it genuine, which McGiffert calls the common opinion of critics.",
-    "Origen also cites Josephus as saying the city fell because of what was done to James. That line is not in the Antiquities as we have it, and Whiston discusses why.",
-    "Josephus's prediction that Vespasian would rule is told by Josephus himself and also by the Roman writer Suetonius."
+    "Which words are his. Our copies of the longer passage say \"He was the Christ.\" Origen, who knew the Antiquities, says Josephus did not accept Jesus as Christ, and Jerome's version says only that Jesus was believed to be Christ. So at least that line was not read as our copies give it. No ancient source used here says how the passage came to read as it does.",
+    "How much of the longer passage Josephus wrote was argued four ways in Arthur McGiffert's day, in 1890. Some held it wholly genuine, which McGiffert called \"absolutely untenable\". Hase, Keim and Schürer held it wholly added, and McGiffert agreed. Gieseler, Weizsäcker, Renan, Edersheim and Schaff held it partly genuine. Ewald held that a hostile Jewish passage was rewritten as praise. McGiffert rejects the suggestion that Eusebius himself put it into the text.",
+    "William Whiston, who translated Josephus in the eighteenth century, defended the passage as genuine, while admitting it had \"of late been greatly questioned by many\". He answers Origen that Josephus did not mean the words as Jews and Christians do, and he held that Josephus was in his own mind a Nazarene or Ebionite Jewish Christian.",
+    "The line on Jerusalem's fall. Origen says Josephus blamed the city's fall on the killing of James the Just, and Eusebius and Jerome repeat it. McGiffert says the passage is not found in our existing manuscripts of Josephus, and thinks the copies Origen and Eusebius used held an added line that ours lack.",
+    "The phrase naming James as the brother of Jesus. McGiffert notes that some critics doubted it; Neander held it genuine, which McGiffert calls the common opinion of critics, and McGiffert himself sees no good reason to doubt it.",
+    "Whiston prints \"He was [the] Christ\", with the article in brackets as if he had added it. A Greek quotation of the passage, in a martyr-act printed in the Acta Sanctorum for May, has the article. That copy is a later quotation, not Josephus's own text.",
+    "Origen's Greek says \"our Jesus\": he writes as a Christian about a Jewish writer. The printed English, and the brief, leave out the \"our\".",
+    "The year 93 is Whiston's reckoning from Josephus's own dating by Domitian's reign; Jerome says the Antiquities run to the fourteenth year of Domitian.",
+    "Josephus's prediction that Vespasian would rule is told by Josephus himself in the Jewish War, where it takes in Vespasian's son as well, and by the Roman writer Suetonius."
   ],
   "sources": {
     "ownWords": [
       {
         "title": "The Works of Flavius Josephus: Antiquities, Jewish War and Life (tr. William Whiston)",
         "file": "cic/texts/josephus_works-antiquities-wars-life_whiston1859.txt",
-        "language": "English"
+        "language": "English translation"
       }
     ],
     "about": [
       {
-        "title": "Commentary on Matthew, Book 10",
-        "author": "Origen",
+        "title": "Commentary on Matthew, Book 10 (tr. John Patrick)",
+        "author": "Origen of Alexandria",
         "date": null,
         "language": "English translation",
         "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml"
       },
       {
-        "title": "Church History, Book 1, chapter 11, with McGiffert's notes",
+        "title": "Commentary on Matthew, tome 3 (ed. C. H. E. Lommatzsch)",
+        "author": "Origen of Alexandria",
+        "date": "1834",
+        "language": "Greek",
+        "file": "cic/texts/origen_commentarii-in-evangelium-matthaei-tomus3-grc-lat_lommatzsch1834.txt"
+      },
+      {
+        "title": "Against Celsus, Book 1, chapter 47 (tr. F. Crombie)",
+        "author": "Origen of Alexandria",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml"
+      },
+      {
+        "title": "Church History, Book 1, chapter 11, Book 2, chapter 23, and Book 3, chapter 9, with McGiffert's notes",
         "author": "Eusebius of Caesarea",
         "date": null,
         "language": "English translation",
         "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Lives of Illustrious Men, chapter 13 (tr. E. C. Richardson)",
+        "author": "Jerome",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
       },
       {
         "title": "Dissertation I, on the testimonies of Josephus",
@@ -69,12 +94,77 @@
         "file": "cic/texts/josephus_works-antiquities-wars-life_whiston1859.txt"
       },
       {
-        "title": "Lives of the Caesars, Vespasian 5",
+        "title": "Acta Sanctorum, May, volume 5, with a Greek quotation of the passage on Jesus",
+        "author": null,
+        "date": "1866",
+        "language": "Latin and Greek",
+        "file": "cic/texts/acta-sanctorum_maii-tomus-5-lat_palme1866.txt"
+      },
+      {
+        "title": "Lives of the Caesars, Vespasian 5 (tr. A. Thomson, revised by T. Forester)",
         "author": "Suetonius",
         "date": null,
         "language": "English translation",
         "file": "cic/texts/suetonius_lives-of-the-twelve-caesars_thomson-forester1909.txt"
       }
     ]
-  }
+  },
+  "briefReferences": [
+    "Josephus, Antiquities XX, close, tr. William Whiston: the history finished in the thirteenth year of Domitian, with Whiston's note giving the year 93.",
+    "Josephus, Life 1, tr. Whiston: a family of priests; Life 39: born at Jerusalem.",
+    "Origen of Alexandria, Commentary on Matthew X.17, tr. John Patrick, and Against Celsus I.47, tr. F. Crombie: Josephus was no believer in Jesus as the Christ.",
+    "Josephus, Jewish War II.20.4 and Life 65, tr. Whiston: governor of Galilee when the war began, appointed from Jerusalem; in Roman hands before Jerusalem was besieged.",
+    "Josephus, Life 76, tr. Whiston: at Rome, an apartment in Vespasian's own former house, Roman citizenship and a pension.",
+    "Josephus, Antiquities XX.9.1, tr. Whiston: Ananus brings James, the brother of Jesus called Christ, and some others before the judges and has them stoned.",
+    "Origen, Against Celsus I.47, tr. Crombie, and Commentary on Matthew X.17, tr. Patrick: Josephus cited against Celsus; in Origen's Josephus, Jerusalem fell as punishment for the death of James the Just.",
+    "Josephus, Antiquities XVIII.3.3, tr. Whiston: the longer passage, the wise man, \"He was [the] Christ\", condemned to the cross by Pilate, alive again the third day.",
+    "Eusebius of Caesarea, Church History I.11.7-9, tr. Arthur McGiffert: the passage quoted as we have it, and the argument against those who forged acts against Jesus.",
+    "Jerome, Lives of Illustrious Men, preface and 13, tr. E. C. Richardson: a book on the church's writers; Josephus's chapter, with the passage in his version.",
+    "World census, Josephus: an outside witness, outside the church."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "the brother of Jesus, who was called Christ, whose name was James,",
+      "printed": "the brother of Je- sus, who was called Christ, whose name was James,",
+      "work": "Josephus, Antiquities XX.9.1, tr. William Whiston",
+      "file": "cic/texts/josephus_works-antiquities-wars-life_whiston1859.txt",
+      "lines": "91005-91009",
+      "secondReading": "same"
+    },
+    {
+      "modern": "a wise man, if it is right to call him a man,",
+      "printed": "a wise man, if it be lawful to call hima man,",
+      "work": "Josephus, Antiquities XVIII.3.3, tr. William Whiston",
+      "file": "cic/texts/josephus_works-antiquities-wars-life_whiston1859.txt",
+      "lines": "81406-81407",
+      "secondReading": "same"
+    },
+    {
+      "modern": "He was the Christ,",
+      "printed": "He was [the] Christ;",
+      "work": "Josephus, Antiquities XVIII.3.3, tr. William Whiston",
+      "file": "cic/texts/josephus_works-antiquities-wars-life_whiston1859.txt",
+      "lines": "81411",
+      "secondReading": "minor",
+      "uncertain": "Whiston prints \"the\" in brackets, as if he added it; a Greek quotation of the passage has the article. Whether Josephus wrote this sentence at all is a separate, disputed question."
+    },
+    {
+      "modern": "did not accept Jesus as Christ.",
+      "printed": "did not accept Jesus as Christ,",
+      "work": "Origen, Commentary on Matthew X.17, tr. John Patrick",
+      "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
+      "lines": "30628",
+      "secondReading": "minor",
+      "uncertain": "Origen's Greek says \"our Jesus\": he speaks as a Christian about a Jewish writer. The printed English, kept here, leaves out the possessive."
+    },
+    {
+      "modern": "was believed to be Christ.",
+      "printed": "was believed to be Christ,",
+      "work": "Jerome, Lives of Illustrious Men 13, tr. E. C. Richardson",
+      "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+      "lines": "39729",
+      "secondReading": "same",
+      "uncertain": "Jerome's Latin is not held, so this line rests on Richardson's English alone."
+    }
+  ]
 }

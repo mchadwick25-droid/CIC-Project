@@ -4,33 +4,37 @@
     "Cornelius Tacitus"
   ],
   "label": "Outside witness",
-  "knownFor": "A Roman historian whose Annals tell how Nero blamed the Christians for the fire of Rome, and name Christus as executed under Pontius Pilate.",
-  "dates": "Wrote after 96, the year his history reached",
+  "knownFor": "A Roman senator and historian whose Annals tell how Nero blamed the Christians for the fire of Rome in 64 and put them to death, and name Christus as executed under Pontius Pilate in the reign of Tiberius.",
+  "dates": "Wrote of the fire about fifty years after it; the note at the head of the English chapter used here dates the Annals about 116",
   "tradition": "Outside the church",
-  "role": "Roman historian",
+  "role": "Roman senator and historian",
   "briefLength": "about 2 minutes",
   "keyWorks": [
     {
       "title": "Annals, Book 15, chapter 44",
-      "about": "the fire of Rome, Nero's punishment of the Christians, and Christus under Pilate"
+      "about": "the fire of Rome, the rumor against Nero, his punishment of the Christians, and Christus under Pontius Pilate"
     },
     {
       "title": "Histories",
-      "about": "cited by Tertullian of Carthage for what Tacitus said of the Jews; not held in the Library"
+      "about": "known here only through Tertullian of Carthage, who says its fifth book told how the Jews came to honor the head of an ass; the Library holds no copy"
     }
   ],
   "legacy": {
     "remembered": [
-      "Tertullian of Carthage, defending the Christians, calls him \"most loquacious in falsehood\" for his account of the Jews.",
-      "Sulpicius Severus, born in Aquitania about 363, retold Nero's tortures of the Christians in nearly the same words.",
-      "John Rolfe, who translated Suetonius, says Tacitus found no follower until Ammianus Marcellinus."
+      "Tertullian of Carthage, defending the Christians around 200, blamed him for the charge that Christians worshipped an ass's head, and called him a great talker of lies. That is our telling of Tertullian's Latin, \"mendaciorum loquacissimus\". Thelwall's English of the Apology plays on his name, \"the very opposite of tacit in telling lies\", and Holmes's English of To the Nations has \"most loquacious in falsehood\".",
+      "Sulpicius Severus of Aquitania in Gaul, writing around 400, told the fire and the deaths with the same details in the same order, the skins and the dogs, the crosses and the bodies burned for light, without naming Tacitus. He called the victims innocent, and said this was how the cruelty against Christians began.",
+      "Alexander Roberts, who translated Sulpicius, notes that Sulpicius later calls the Gnostic heresy in Spain a deadly superstition in \"the very words which Tacitus employs\" of Christianity."
     ]
   },
   "uncertain": [
-    "Tacitus does not say where he learned about Christus.",
-    "Gibbon, and later Schiller, held that Nero's victims were the Jews as a whole, and that Tacitus was wrong to call them Christians. Arthur McGiffert, who translated Eusebius of Caesarea in 1890, disagreed, noting that Josephus says nothing of an attack on the Jews under Nero.",
-    "The Library holds one chapter of the Annals. Nothing in it shows what Tacitus says elsewhere.",
-    "The English is the translation standardly identified as Church and Brodribb's of 1876. The file itself names no translator."
+    "His sources. Tacitus does not say where he learned of Christus, and he names none of the shameful acts he says the Christians were hated for.",
+    "Whether there was a persecution of Christians as a named group in 64. The note heading the English chapter used here says this is a live debate, with Brent Shaw against Christopher Jones, though the passage itself is not seriously thought a forgery.",
+    "Christians or Jews. Gibbon, and later Schiller, held that Nero's victims were the Jews as a whole and that Tacitus was wrong to call them Christians. Arthur McGiffert, who translated Eusebius of Caesarea in 1890, disagreed: Josephus says nothing of an attack on the Jews under Nero, and the Jews had favor with Nero through his wife Poppaea. McGiffert, following Ewald and Renan, thought it probable that Jews turned Nero's attention to the Christians.",
+    "The name. The note heading the English chapter used here says the Medicean manuscript reads \"chrestianos\", corrected by a later hand to \"christianos\". The English prints \"Christians\" and gives no note.",
+    "The words about Pilate. Tacitus's Latin, as a later collection quotes it, says Christ was executed \"by the procurator Pontius Pilate\". The well-known English \"one of our procurators\" adds words the Latin does not have.",
+    "The dates. The chapter itself gives no year. The year 64 for the fire is in McGiffert's note, and \"about 116\" for the writing, with \"senator\", is in the note heading the English chapter; the chapter says nothing of his life.",
+    "His other writings. The Library holds this one chapter of the Annals, so it cannot show what else Tacitus wrote of the Christians. Sulpicius Severus tells that Titus wanted the temple of Jerusalem destroyed so that the religion of the Jews and of the Christians might be uprooted together. Sulpicius names no source for it.",
+    "The translation. The English is the one standardly identified as Church and Brodribb's of 1876. The chapter itself names no translator."
   ],
   "sources": {
     "ownWords": [
@@ -38,44 +42,80 @@
         "title": "Annals, Book 15, chapter 44 (in the translation standardly identified as Church and Brodribb)",
         "language": "English",
         "file": "cic/texts/tacitus_annals-15-44_church-brodribb1876.txt"
+      },
+      {
+        "title": "Annals 15.44, Latin, as quoted in Mansi's collection of the councils, volume 2",
+        "author": "Giovanni Domenico Mansi",
+        "language": "Latin",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-2-305-346-lat_welter-facsimile1901.txt"
       }
     ],
     "about": [
       {
-        "title": "Apology, chapter 16; To the Nations, Book 1, chapter 11",
+        "title": "Apology, chapters 4 and 16 (tr. S. Thelwall); To the Nations, Book 1, chapter 11 (tr. Peter Holmes)",
         "author": "Tertullian of Carthage",
         "date": null,
         "language": "English translation",
         "file": "cic/texts/anf03_tertullian.xml"
       },
       {
-        "title": "Church History, Book 2, chapter 25, with McGiffert's notes",
-        "author": "Eusebius of Caesarea",
+        "title": "Apology and To the Nations, Latin (ed. Oehler)",
+        "author": "Tertullian of Carthage",
         "date": null,
-        "language": "English translation",
-        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+        "language": "Latin",
+        "file": "cic/texts/tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt"
       },
       {
-        "title": "Sacred History, Book 2, chapter 29",
+        "title": "Sacred History, Book 2, chapters 29, 30 and 46, with the translator's notes and introduction (tr. Alexander Roberts)",
         "author": "Sulpicius Severus",
         "date": null,
         "language": "English translation",
         "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml"
       },
       {
-        "title": "Roman History, translator's preface (Ammianus's history began in 96, \"where Tacitus and Suetonius end\")",
-        "author": "Charles Duke Yonge",
+        "title": "Chronica, Book 2, chapter 29, Latin (ed. Halm)",
+        "author": "Sulpicius Severus",
         "date": null,
-        "language": "English",
-        "file": "cic/texts/ammianus-marcellinus_roman-history_yonge1862.txt"
+        "language": "Latin",
+        "file": "cic/texts/sulpicius-severus_libri-qui-supersunt-chronica-vita-martini-lat_halm1866-csel1.txt"
       },
       {
-        "title": "The Life and Works of Suetonius (introduction)",
-        "author": "John C. Rolfe",
+        "title": "Church History, Book 2, chapter 25, with McGiffert's note",
+        "author": "Eusebius of Caesarea",
         "date": null,
-        "language": "English",
-        "file": "cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt"
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
       }
     ]
-  }
+  },
+  "briefReferences": [
+    "Tacitus, Annals 15.44, tr. Church and Brodribb (standardly identified): the belief that the fire was set by order; Nero putting the blame on the Christians to end the rumor; Christus under Tiberius and Pontius Pilate; the superstition checked and breaking out again in Judaea and in Rome; those who confessed arrested first and a vast number convicted on their word, less for the fire than for hatred of mankind; the skins and dogs, the crosses, the bodies burned for light; criminals who deserved the harshest punishment; the pity, since they died for one man's cruelty and not the public good; no source named for Christus and none of the shameful acts named.",
+    "Annals 15.44, Latin, as quoted in Mansi's collection, volume 2: \"per procuratorem Pontium Pilatum\", behind the rendering of the line on Pilate.",
+    "Heading note to the English chapter: Roman senator and historian; written about 116, of events of 64.",
+    "Eusebius, Church History II.25, McGiffert's note: the fire of 64.",
+    "Tertullian, Apology 16, tr. S. Thelwall, and its Latin, ed. Oehler: Cornelius Tacitus in the fifth book of his Histories on the Jews and the head of an ass, the charge turned on Christians, \"mendaciorum loquacissimus\".",
+    "Tertullian, Apology 4, tr. Thelwall: Severus the ruling emperor, so around 200.",
+    "Sulpicius Severus, Sacred History II.29, tr. Alexander Roberts, and its Latin, ed. Halm: the fire, the blame on the Christians, the tortures of the innocent with the same details in the same order, no name of Tacitus, \"In this way, cruelty first began to be manifested against the Christians\".",
+    "Sulpicius Severus, translator's introduction, tr. Roberts, with Gennadius's notice: of Aquitania; the Sacred History reaches the year 400.",
+    "World census, Outside the church: his tradition."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "hated for their shameful acts, whom the common people called Christians.",
+      "printed": "a class hated for their abominations, called Christians by the populace",
+      "work": "Tacitus, Annals 15.44, tr. Church and Brodribb (standardly identified)",
+      "file": "cic/texts/tacitus_annals-15-44_church-brodribb1876.txt",
+      "lines": "68",
+      "secondReading": "same"
+    },
+    {
+      "modern": "Christus, from whom the name came, was put to death in the reign of Tiberius by the procurator Pontius Pilate.",
+      "printed": "Christus, from whom the name had its origin, suffered the extreme penalty during the reign of Tiberius at the hands of one of our procurators, Pontius Pilatus",
+      "work": "Tacitus, Annals 15.44, tr. Church and Brodribb (standardly identified)",
+      "file": "cic/texts/tacitus_annals-15-44_church-brodribb1876.txt",
+      "lines": "68",
+      "secondReading": "changes meaning",
+      "uncertain": "Tacitus's Latin, as quoted in Mansi's collection (volume 2, lines 41697-41699), says \"per procuratorem Pontium Pilatum\", by the procurator Pontius Pilate. The English \"one of our procurators\" adds words the Latin does not have; the modern English follows the Latin. Both readings kept."
+    }
+  ]
 }
