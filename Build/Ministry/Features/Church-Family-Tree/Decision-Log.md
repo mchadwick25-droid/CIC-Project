@@ -4172,7 +4172,7 @@ Next, Mark asked for a standard to write from, built from scratch and without ru
 - Jon runs at 180 to 190 words a minute, and the speed setting on `eleven_v4` did not slow him.
 
 **Decided (Mark, 2026-11-16): "1, and run the Daniel sample".**
-- Keep the British and South African voices: Daniel for the tree, Mel for stories.
+- Keep the British and South African voices: Daniel for the tree, Neo (`onegjDE2z0mQtp1g0HK7`) for stories, as Mark ruled earlier ("keep neo for stories").
 - Real listeners confirm the choice when prototype testing can carry it.
 - A paid sample of the Polycarp brief in Daniel's tradition settings was run for Mark's ear. The settings were voice `onwK4e9ZLuTAKqWW03F9`, model `eleven_multilingual_v2`, output `mp3_44100_64`, stability 0.95, similarity 0.68, style 0 and speaker boost on, with no tags. The request was `kKXuQgJL7opTBys3uRwL`, 1,224 credits.
 - The voice for Who and council briefs is not yet chosen. The samples, all printed with their settings, are on https://claude.ai/artifact/HYZynSqTRbpizyUBqAxmbP.
