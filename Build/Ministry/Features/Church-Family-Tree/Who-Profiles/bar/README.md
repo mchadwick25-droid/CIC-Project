@@ -10,17 +10,17 @@ On 2026-11-16 the eight were brought up to Standard v1 (Mark: "Revise, then reco
 
 The live text and the audio still carry the older wording. They change to these texts together when the eight are re-recorded. These files hold no card and no audio script; the cards stay in the census.
 
-The ten, at Standard v1, with their quotations in our modern English, tightened on 2026-11-16 (Mark, on why all ten ran past 2:30: "Tighten all ten (Recommended)", and "it more about them being wordy than the time, they feel like they wander and say things not important to the story"). Each was cut for relevance: what does not serve the person's line went, and every stance and its consequence stayed. Words are the readability tool's count:
+The ten, at Standard v1, with their quotations in our modern English, tightened on 2026-11-16 (Mark, on why all ten ran past 2:30: "Tighten all ten (Recommended)", and "it more about them being wordy than the time, they feel like they wander and say things not important to the story"). Each was cut for relevance: what does not serve the person's line went, and every stance and its consequence stayed. A targeted Opus recheck of the cuts followed, and its findings were fixed (record: `Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/reviews/tightening-recheck.md`). Words are the readability tool's count:
 
 | Brief | Words | Grade, full text | Reading ease, names out |
 |---|---|---|---|
-| Origen | 314 | 8.9 | 74.8 |
-| Methodius of Olympus | 335 | 9.1 | 74.9 |
+| Origen | 320 | 8.9 | 75.0 |
+| Methodius of Olympus | 316 | 9.3 | 73.8 |
 | Constantine the Great | 343 | 9.0 | 76.7 |
-| Athanasius of Alexandria | 351 | 8.1 | 80.9 |
-| Ephrem the Syrian | 324 | 8.5 | 80.1 |
-| Gregory of Nazianzus | 326 | 9.8 | 73.1 |
+| Athanasius of Alexandria | 358 | 8.4 | 80.4 |
+| Ephrem the Syrian | 336 | 8.4 | 79.8 |
+| Gregory of Nazianzus | 325 | 9.4 | 74.1 |
 | Gregory of Nyssa | 300 | 9.1 | 71.4 |
 | John Chrysostom | 357 | 8.9 | 71.7 |
 | Gregory of Tours | 348 | 9.4 | 75.9 |
-| Benedict of Nursia | 351 | 8.6 | 81.5 |
+| Benedict of Nursia | 350 | 8.1 | 82.5 |
