@@ -155,22 +155,6 @@
       "lines": "39884",
       "secondReading": "minor",
       "uncertain": "Polycarp's reply repeats the verb, \"I recognize, I recognize\", and does not say \"you\" (Gebhardt l.1055-1056; Hadrian I, MGH Epistolae 5 l.17230-17231; Eusebius IV.14, npnf201 l.22982). He names Marcion only as \"the first-born of Satan\". The two renderings read \"I do know you\" and \"I do recognize you\"; the final follows the held originals."
-    },
-    {
-      "modern": "to believe in some other god greater than the Creator.",
-      "printed": "to believe in some other god greater than the Creator.",
-      "work": "Justin Martyr, First Apology 26, tr. Marcus Dods and George Reith",
-      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
-      "lines": "14944-14945",
-      "secondReading": "same"
-    },
-    {
-      "modern": "many of every nation,",
-      "printed": "many of every nation",
-      "work": "Justin Martyr, First Apology 26, tr. Marcus Dods and George Reith",
-      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
-      "lines": "14946",
-      "secondReading": "same"
     }
   ]
 }

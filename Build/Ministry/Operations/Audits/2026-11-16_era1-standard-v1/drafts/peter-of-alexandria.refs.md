@@ -106,3 +106,15 @@ Kept:
 - "Athanasius, a later bishop of Alexandria and the Meletians' enemy, says": partisan witness, contested point.
 - "Epiphanius of Salamis, who writes kindly of Meletius, says": partisan witness, contested point, other side named.
 - "Athanasius says the Meletians then spread charges against him": partisan witness.
+
+## Mark's ruling: tell the story (2026-11-16)
+
+Quotations: one before, one after. The brief is unchanged.
+
+Kept: "did not come to this by their own choice, but were betrayed by the weakness of the flesh." Peter's stance on the fallen in his own voice, the ground of his mercy and of the split that followed; a retelling would lose his reason in his words.
+
+Now told plainly: none. Card: `quotationOriginals` and `briefReferences` unchanged.
+
+Tags kept: "he wrote" before the quotation (his own words); "An old account kept with their letter says" (a point resting on one source); "Athanasius ... the Meletians' enemy, says" and "Epiphanius of Salamis, who writes kindly of Meletius, says" (a dispute, each side named with its leaning); "Athanasius says the Meletians then spread charges" (hostile witness, one source). Tags cut: none.
+
+Readability: 304 words, grade 9.0 (names out 7.3), ease (names out) 71.0, 16.0 words a sentence, 0.7 joining words per 100, 16% short sentences: pass.

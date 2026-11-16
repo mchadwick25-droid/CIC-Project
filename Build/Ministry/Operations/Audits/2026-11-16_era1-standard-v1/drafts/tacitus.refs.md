@@ -123,3 +123,17 @@ Kept:
 - "His Histories had said the Jews honored the head of an ass": a hostile charge, his.
 - "Sulpicius Severus ... told of the fire" / "he calls the victims innocent": switch of witness; his stance.
 - "This, Sulpicius wrote, was how the cruelty against Christians began": his reading, resting on him alone.
+
+## Mark's ruling: tell the story (2026-11-16)
+
+Quotations: two before, two after. The brief is unchanged.
+
+Kept (the heart of what Tacitus says, as an outside witness):
+- "hated for their shameful acts, whom the common people called Christians." His own hostile judgment of the Christians and the people's name for them; the brief's point that he names none of the shameful acts rests on these words.
+- "Christus, from whom the name came, was put to death in the reign of Tiberius by the procurator Pontius Pilate." The one outside line on the death of Christ under Pilate; its exact wording ("by the procurator", from the Latin) is what the card's uncertain note and Suetonius's brief both lean on.
+
+Now told plainly: none (the rest of the chapter was already told in the narrator's voice). Card: `quotationOriginals` and `briefReferences` unchanged.
+
+Tags cut: none in this pass. Tags kept: "is told by Cornelius Tacitus" (the whole account rests on him, a hostile witness, named once for the paragraphs that follow); "Tacitus thought they deserved the harshest punishment" (his own stance, hostile); "He does not say where he learned of Christus" (a limit); "Tertullian of Carthage, defending the Christians, called Tacitus" (partisan witness, switch of witness); "Sulpicius Severus ... told of the fire", "He does not name Tacitus", "Sulpicius wrote" (switch of witness; the judgment is his).
+
+Readability: 308 words, grade 8.5 (names out 7.3), ease (names out) 74.7, 18.1 words a sentence, 0.6 joining words per 100, 12% short sentences: pass.

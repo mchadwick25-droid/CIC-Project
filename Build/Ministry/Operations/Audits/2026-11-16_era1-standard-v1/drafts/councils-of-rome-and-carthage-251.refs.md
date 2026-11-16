@@ -133,3 +133,15 @@ Kept:
 - "Dionysius of Alexandria wrote to Novatian, ...": his own words.
 - "Later he reported the eastern churches at one again": a party's report; one source.
 - "Eusebius says they had rejected Novatian's new teaching": partisan framing ("new teaching"), switch of witness.
+
+## Mark's ruling: tell the story (2026-11-16)
+
+Quotations: one before, one after. The brief is unchanged. The entry has no `quotationOriginals` and is not changed.
+
+Kept: Dionysius of Alexandria to Novatian, "It would have been right to suffer anything at all rather than split the Church of God." The one line in which the case against the schism is heard in a participant's own voice; a retelling would lose its weight. Every decision of the councils is already told in the narrator's voice.
+
+Now told plainly: none.
+
+Tags kept: "what they decided reaches us from Cyprian, who called the meeting and defended it afterward" (partisan witness, the book of decisions lost); "Eusebius of Caesarea, working from letters of Cornelius ..., says" (one source, through a party to the quarrel); "Novatian's side reaches us mostly through such opponents" and "Socrates of Constantinople ... reports what Novatian wrote", "Socrates says" (hostile-side witnesses, one source); "Dionysius of Alexandria wrote" (his own words); "Later he reported" and "Eusebius says" (switch of witness); "the African bishops wrote to Cornelius" (their own letter). Tags cut: none.
+
+Readability: 422 words, grade 9.1 (names out 7.8), ease (names out) 70.8, 17.6 words a sentence, 0.7 joining words per 100, 21% short sentences: pass.

@@ -102,3 +102,15 @@ Kept:
 - "Anyone who sets the first month before that point, he says, makes ...": Anatolius's own words and judgment told as his.
 - "Bishop Colman asked" / "The priest Wilfrid answered" / "Colman's side, he said, did not keep his cycle": contested point, each side named.
 - "Bede, who tells it, says the king ruled for Wilfrid because ...": the reason rests on one source.
+
+## Mark's ruling: tell the story (2026-11-16)
+
+Quotations: one before, one after. The brief is unchanged.
+
+Kept: "no small or ordinary mistake." Anatolius's own words, and the only place his stance on the Easter reckoning is heard in his own voice: setting the first month before the equinox is a real error, not a matter of custom. A retelling would lose the force he gives it.
+
+Now told plainly: none. Card: `quotationOriginals` and `briefReferences` unchanged.
+
+Tags kept: "Eusebius of Caesarea says he stood first" (praise resting on one source); "by a story Eusebius tells" (an episode resting on one source, told on report); "Eusebius copies out a passage of his" (how his own words reach us); "he says" before the quotation (his own words); "Bishop Colman asked", "The priest Wilfrid answered", "Colman's side, he said" (two parties in a dispute, each named); "Bede, who tells it, says" (the ruling and its reason rest on Bede). Tags cut: none.
+
+Readability: 297 words, grade 8.6 (names out 6.8), ease (names out) 77.2, 17.5 words a sentence, 0.7 joining words per 100, 6% short sentences: pass.

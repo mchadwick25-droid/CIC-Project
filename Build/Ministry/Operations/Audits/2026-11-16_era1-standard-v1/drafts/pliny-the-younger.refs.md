@@ -132,3 +132,22 @@ Kept:
 - "Tertullian ... argued from the governor's report": partisan witness.
 - "Of Trajan's ruling he said, \"It forbids ...\"": partisan witness's own words; without it the quotation has no owner.
 - "Eusebius of Caesarea, repeating Tertullian, says the ruling partly checked the persecution": switch of witness; a point resting on him.
+
+## Mark's ruling: tell the story (2026-11-16)
+
+Quotations: four before, two after.
+
+Kept (Pliny's own words, the heart of what he says as an outside witness):
+- Q1, "to come together on a fixed day before daylight and to sing a song to Christ as to a god, answering one another." The earliest outside description of Christian worship; "as to a god" is the pagan governor's own framing, which a retelling would blur (comparison E10).
+- Q2, "nothing except a perverse and excessive superstition." His verdict in his own voice: hostile in its words, yet finding no crime. The brief's trust sentence rests on it (comparison E11).
+
+Now told plainly:
+- Q3, Trajan. Old: "Trajan answered that Christians "are not to be searched for; if they are accused and convicted, they are to be punished."" New: "Trajan answered that no one was to go looking for Christians, but those accused and convicted were to be punished." Carried by E 19526-19527. The proviso on pardon (E 19527-19529) stays off the brief, as before.
+- Q4, Tertullian. Old: "Of Trajan's ruling he said, "It forbids them to be sought out, as innocent, and it orders them to be punished, as guilty."" New: "He called the ruling a contradiction, because it forbade Christians to be sought out as innocent, yet ordered them punished as guilty." Carried by T 1583-1586 ("O miserable deliverance, ... a self-contradiction! It forbids them to be sought after as innocent, and it commands them to be punished as guilty"). "Contradiction" is Tertullian's own word; nothing is added.
+
+Card: the Q3 and Q4 objects are removed from `quotationOriginals`; Q1 and Q2 stay. The `briefReferences` lines for Trajan, Letters X.97 and Tertullian, Apology 2 are reworded to describe the content without the old quotation marks. Sources unchanged.
+
+Tags cut: "he said" before Q4 (Tertullian is already named in the sentence before and carries both). No synonym put in its place.
+Tags kept: "what Pliny reports of Christian worship comes from them" (whose report it is); "He found" (his own verdict); "Pliny writes as the judge ... he calls their faith insanity" (his stance as a hostile judge); "Trajan answered" (switch from Pliny's account to Trajan's); "Tertullian of Carthage, defending the Christians, argued" (partisan witness, switch of witness); "He called the ruling a contradiction" (Tertullian's judgment, partisan); "Eusebius of Caesarea, repeating Tertullian, says" (switch of witness; a point resting on him, through Tertullian).
+
+Readability (`python3 -m engine.m1.profile_readability --report`): before 296 words, grade 9.1, ease (names out) 67.6. After 294 words, grade 9.4 (names out 8.7), ease (names out) 65.6, 18.4 words a sentence, 1.4 joining words per 100, 6% short sentences: pass. About 2:00.

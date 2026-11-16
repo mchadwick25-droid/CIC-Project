@@ -115,3 +115,15 @@ Kept:
 - "Eusebius does not say how Victor answered": a limit.
 - "Constantine the Great wrote that the churches of Asia already kept it as Rome did": his claim; one source.
 - "Socrates of Constantinople says, John Chrysostom took churches away": a point resting on one source, switch of witness.
+
+## Mark's ruling: tell the story (2026-11-16)
+
+Quotations: one before, one after (one sentence, held on the card as two clause objects). The brief is unchanged.
+
+Kept: "We keep the day without tampering with it, adding nothing and taking nothing away." The line that defines his stand, in his own voice; "without tampering" carries his hint that others had tampered, which a retelling would flatten. The rest of his letter is already told in the narrator's voice.
+
+Now told plainly: none. Card: `quotationOriginals` and `briefReferences` unchanged.
+
+Tags kept: "Eusebius of Caesarea copied part of the letter" (how his words reach us); "he said" (his own words, the indirect speech of the letter); "Eusebius says" on Victor's excommunication (a point resting on one source); "Irenaeus of Lyon ... warned him" (switch of witness); "Eusebius does not say how Victor answered" (a limit); "Constantine the Great wrote" (switch of witness, one source); "Socrates of Constantinople says" (a later point resting on one source); "They claimed" (the Quartodecimans' own claim). Tags cut: none.
+
+Readability: 344 words, grade 9.0 (names out 7.4), ease (names out) 75.9, 19.1 words a sentence, 0.6 joining words per 100, 6% short sentences: pass.

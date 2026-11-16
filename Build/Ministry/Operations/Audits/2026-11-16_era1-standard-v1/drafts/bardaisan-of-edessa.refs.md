@@ -91,3 +91,15 @@ Kept:
 - "Eusebius says he began as a follower of Valentinus" / "Epiphanius of Salamis says he began as an excellent Christian": a contested point with each side named.
 - "Bardaisan declared, Ephrem reports": a hostile witness, named once.
 - "Sozomen says": a point resting on one source.
+
+## Mark's ruling: tell the story (2026-11-16)
+
+Quotations before 0, after 0. No sentence changed. The card has no `quotationOriginals`.
+
+Kept: none. Told plainly: none; the Laws of Countries, Eusebius, Epiphanius, Ephrem and Sozomen were already told without marks.
+
+Tags:
+- Cut: none further.
+- Kept: as listed under "Mark's ruling on attribution tags". "Bardaisan admits", "grants", "denies" and "he adds" mark his teaching as his, through a pupil's book; Eusebius and Epiphanius are the two sides of a contested point; "Ephrem reports" marks a hostile witness; Eusebius on the pupils' translations and Sozomen on Harmonius each rest on one source.
+
+Readability: 326 words, grade 9.2 (names out 7.7), reading ease names out 71.8, 18.1 words a sentence, 1.5 joining words per 100, 0% short sentences. Pass.

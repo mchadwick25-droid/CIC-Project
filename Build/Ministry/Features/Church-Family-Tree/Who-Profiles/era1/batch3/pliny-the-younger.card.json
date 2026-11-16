@@ -66,8 +66,8 @@
   "briefReferences": [
     "Arthur McGiffert, note to Eusebius, Church History III.33.1: the letter written from Bithynia, in 110 or 111 or within a year; around 112.",
     "Pliny, Letters X.96, tr. McGiffert in that note: addressed to Trajan; never present at trials of Christians; those brought before him asked if they were Christians, asked a second and third time under threat of punishment if they confessed, and led away to punishment if they persisted; those who denied released after invoking the gods and cursing Christ; others who had ceased to be Christians years before; the meeting before daylight and the song; the oath against theft, robbery and adultery; two female slaves called deaconesses examined under torture; nothing found but a superstition; their faith called insanity; his request for advice.",
-    "Trajan, Letters X.97, tr. McGiffert in that note: \"They are not to be searched for; if they are accused and convicted, they are to be punished\".",
-    "Tertullian, Apology 2, tr. S. Thelwall: Pliny's report used to show that inquiry found no crime in their worship; the ruling that forbids them to be sought as innocent and orders them punished as guilty.",
+    "Trajan, Letters X.97, tr. McGiffert in that note: Christians not to be searched for, but punished if accused and convicted.",
+    "Tertullian, Apology 2, tr. S. Thelwall: Pliny's report used to show that inquiry found no crime in their worship; the ruling called a self-contradiction, forbidding them to be sought as innocent and ordering them punished as guilty.",
     "Eusebius, Church History III.33.2-3, tr. McGiffert: the ruling checked the persecution to a degree, local persecutions and many martyrdoms went on; the account taken from Tertullian's Apology.",
     "World census, Outside the church: his tradition."
   ],
@@ -89,22 +89,6 @@
       "lines": "19505-19506",
       "secondReading": "minor",
       "uncertain": "Pliny's \"pravam\" (held as a later quotation, \"superstitionem pravam, immodicam\") means crooked or perverse; the printed \"depraved\" now suggests moral corruption, which Pliny says he did not find."
-    },
-    {
-      "modern": "are not to be searched for; if they are accused and convicted, they are to be punished.",
-      "printed": "are not to be searched for; if they are accused and convicted, they are to be punished",
-      "work": "Trajan, Letters X.97, tr. Arthur McGiffert, in his note to Eusebius, Church History III.33",
-      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
-      "lines": "19526-19527",
-      "secondReading": "minor"
-    },
-    {
-      "modern": "It forbids them to be sought out, as innocent, and it orders them to be punished, as guilty.",
-      "printed": "It forbids them to be sought after as innocent, and it commands them to be punished as guilty.",
-      "work": "Tertullian, Apology 2, tr. S. Thelwall",
-      "file": "cic/texts/anf03_tertullian.xml",
-      "lines": "1585-1586",
-      "secondReading": "minor"
     }
   ]
 }

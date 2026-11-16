@@ -116,3 +116,21 @@ Kept:
 - "He writes as an admirer": marks the partisan witness.
 - "He tells how the new convert": the admirer named once for the paragraph his praise carries.
 - "That rests on Jerome ..., who writes that Pontius": a point resting on one source, with its stated limit.
+
+## Mark's ruling: tell the story (2026-11-16)
+
+Quotations before 1, after 1.
+
+Kept:
+- "I rejoice greatly, very greatly, at his glory, yet I grieve more that I remained behind." (E34; Life of Cyprian 19, anf05 28302-28303; Latin, Hartel 41409-41410). The writer's own voice, the one place in his book where he speaks of himself, and the line that defines him as the companion left behind. Told plainly it would lose the doubled joy set against the greater grief. The card's one `quotationOriginals` object stays.
+
+Told plainly: none new. The dream, the plague speech and the reasons for writing were already told without marks.
+
+Tags:
+- Cut: "He tells how" (paragraph 3). The admirer is placed in the sentence before ("He writes as an admirer, praising Cyprian throughout"), and the paragraph after it is carried by him, so he is named once and the sentences after stand untagged.
+  - Old: He tells how the new convert sold his property and gave nearly all the price to the poor. When plague struck Carthage and people abandoned their own sick, Cyprian told his church ...
+  - New: As a new convert, Cyprian sold his property and gave nearly all the price to the poor. When plague struck Carthage and people abandoned their own sick, he told his church ...
+  - Held: Life of Cyprian 2, Latin, ed. Hartel (the sale and the price given to the poor); 9-10, tr. Wallis (the plague speech). "Cyprian" moves to the first sentence for the reference the cut tag had carried; the second sentence takes "he". No claim changed.
+- Kept: "On their first day there, he says" (a wonder on one source); "by his account" (its fulfilment on his word alone); "He writes as an admirer" (the partisan witness, placed once); "That rests on Jerome ..., who writes" (one source, with its stated limit).
+
+Readability: 280 words, grade 8.4 (names out 7.7), reading ease names out 75.4, 20.0 words a sentence, 1.4 joining words per 100, 7% short sentences. Pass.

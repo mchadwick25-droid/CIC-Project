@@ -129,3 +129,18 @@ Kept:
 - "Irenaeus sets out a fuller system, which Clement does not confirm": a point resting on one hostile source, unconfirmed.
 - "teachers the opponents name": the names reach us only through hostile witnesses.
 - "Earlier writers had failed ..., he says": Irenaeus's own partisan claim; without the tag the listener would hear it as fact.
+
+## Mark's ruling: tell the story (2026-11-16)
+
+Quotations before 1, after 1. No sentence changed.
+
+Kept:
+- "But when the only good Father visits it, it is sanctified, and gleams with light." (E28; Clement, Stromata II.20, A2 34301-34302). Valentinus's own words, the only line of his in the brief, from a teacher otherwise known almost wholly through opponents. It gives his teaching on the heart in his own image; a retelling would put the opponents' frame back around the one place he speaks for himself. Both card `quotationOriginals` objects cover this one quotation and stay.
+
+Told plainly: none. The inn image before it was already told without marks (A2 34296-34301).
+
+Tags:
+- Cut: none further.
+- Kept: as listed under "Mark's ruling on attribution tags". Each marks a hostile witness once (Irenaeus, Tertullian), a point on one source ("Tertullian alone tells this", the fuller system Clement does not confirm), the person's own words, or Irenaeus's partisan claim about earlier writers.
+
+Readability: 331 words, grade 9.2 (names out 7.6), reading ease names out 71.6, 17.4 words a sentence, 0.9 joining words per 100, 11% short sentences. Pass.

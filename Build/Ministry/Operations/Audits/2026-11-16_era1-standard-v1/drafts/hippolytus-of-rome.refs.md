@@ -122,3 +122,18 @@ Kept:
 - "By Hippolytus's own account, crowds went over": a hostile witness conceding a point against himself.
 - "A Roman list of bishops made in 354 says": a point resting on one source.
 - "Jerome says his table": a point resting on one source.
+
+## Mark's ruling: tell the story (2026-11-16)
+
+Quotations before 1, after 1. No sentence changed.
+
+Kept:
+- "I do not mean that there are two Gods." (E32; Against Noetus 11, anf05 23620). His stance in his own voice against the charge Callistus made, that his side worshipped two gods. It is the one place the brief lets him answer in his own words rather than through his own hostile account of Callistus; told plainly it would read as the narrator settling the charge. The card's one `quotationOriginals` object stays.
+
+Told plainly: none. "The Word is another beside the Father" was already told without marks.
+
+Tags:
+- Cut: none further.
+- Kept: as listed under "Mark's ruling on attribution tags". The Refutation is marked once as an enemy's account; his charge of motive and his concession about the crowds keep their tags; the book of 354 and Jerome each carry a point alone.
+
+Readability: 313 words, grade 9.8 (names out 7.8), reading ease names out 76.0, 20.9 words a sentence, 0.3 joining words per 100, 0% short sentences. Pass.

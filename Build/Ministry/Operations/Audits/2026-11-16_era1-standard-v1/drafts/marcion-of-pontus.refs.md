@@ -148,3 +148,25 @@ No sentence changed. Every tag left carries trust:
 - "Tertullian, though he mocks them, grants": a hostile witness conceding a point.
 - "Epiphanius of Salamis wrote": first naming; a point resting on one source.
 - "Theodoret of Cyrrhus ... wrote that he had led": his own claim about himself, on one source.
+
+## Mark's ruling: tell the story (2026-11-16)
+
+Quotations before 4, after 2.
+
+Kept:
+- "Do you recognize us?" and "I recognize, I recognize the first-born of Satan." (E24, E25; A1 39882-39884). The one scene in which Marcion speaks at all, and the only words of his the brief can give, since none of his books survives. The exchange carries the refusal to own him as a brother in the two men's own words; told plainly it loses Polycarp's repeated verb and the name he gives him, which is the point of the reply. Irenaeus, a hostile witness, stays named ("Irenaeus says").
+
+Told plainly:
+- Old: says he taught his followers "to believe in some other god greater than the Creator."
+  New: says he taught his followers to believe in another god, greater than the Creator.
+  Held: Justin, First Apology 26, A1 14943-14946 ("teaching his disciples to believe in some other god greater than the Creator"). Justin's words, not Marcion's; the stance is told in the narrator's voice with Justin still named as a hostile witness writing in Marcion's lifetime.
+- Old: had already won "many of every nation,"
+  New: had already won many in every nation,
+  Held: Justin, First Apology 26, A1 14945-14947 ("has caused many of every nation to speak blasphemies"); 58, A1 16135 ("this man many have believed"). "Won" was already ours, outside the marks.
+- Card: the two Justin `quotationOriginals` objects (E26, E27) removed; the two Irenaeus objects stay. `briefReferences` unchanged: its Justin line already describes the content, not the quotation.
+
+Tags:
+- Cut: none further. No tag in the brief is left without trust.
+- Kept: every tag listed under "Mark's ruling on attribution tags". "Justin says ... had already won many in every nation" now stands on a new ground, since the quotation is gone: the spread in Marcion's lifetime rests on one hostile witness. "Justin Martyr ... says he taught": hostile witness, named once, and the first of the two independent witnesses the teaching needs.
+
+Readability: 347 words by the readability tool (by `wc -w`, 346 now against 347 before this pass), grade 8.8 (names out 7.0), reading ease names out 79.4, 19.3 words a sentence, 0.6 joining words per 100, 11% short sentences. Pass.

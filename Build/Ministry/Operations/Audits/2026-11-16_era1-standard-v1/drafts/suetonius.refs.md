@@ -122,3 +122,17 @@ Kept:
 - "Lactantius later wrote that the ignorant changed one letter": switch of witness; the claim rests on him.
 - "Elsewhere Suetonius says Nero set fire to Rome": switch from the quoted notice to another of his claims; a charge resting on him.
 - "Jerome wrote that he had been urged": Jerome's own words about himself; one source.
+
+## Mark's ruling: tell the story (2026-11-16)
+
+Quotations: two before, two after. The brief is unchanged.
+
+Kept (the two notices are the whole of what Suetonius says about the Christians; as an outside witness they are the heart of his profile):
+- Q1, the Claudius notice: "The Jews were constantly causing disturbances at the instigation of Chrestus, and he expelled them from Rome." The dispute over Chrestus turns on its exact words ("impulsore Chresto", and the expulsion read as of all the Jews); a retelling would have to settle what the line leaves open (comparison E8).
+- Q2, the Nero notice: "The Christians were punished, a group of people given to a new and harmful superstition." His own hostile wording, and the brief's point that he gives no reason and no link to the fire rests on what the line does and does not say (comparison E9).
+
+Now told plainly: none. Card: `quotationOriginals` and `briefReferences` unchanged.
+
+Tags cut: none (the earlier pass found every tag carrying trust). Tags kept, unchanged from that pass: "The book of Acts also says" (second witness); "because Suetonius says nothing more about him" (limit, contested point); "Tacitus puts the death of Christ earlier" (switch of witness on a contested point); "So Suetonius may mean another man" (contested); "Tertullian of Carthage complained" and "Lactantius later wrote" (switches of witness, each claim resting on him); "Elsewhere Suetonius says Nero set fire to Rome" (switch from the quoted notice to another claim of his); "Jerome wrote that he had been urged" (his own words, one source). The telling names each witness where it switches between Suetonius's account and another's.
+
+Readability: 287 words, grade 9.8 (names out 8.8), ease (names out) 68.7, 20.5 words a sentence, 1.0 joining words per 100, 7% short sentences: pass.

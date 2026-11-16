@@ -123,3 +123,18 @@ Kept:
 - "Cornelius wrote that people were leaving Novatian": a hostile witness's claim.
 - "Yet Socrates says the churches in each province took sides": a contested point, each side named.
 - "Between them, he wrote, ...": the person's own words, told as his.
+
+## Mark's ruling: tell the story (2026-11-16)
+
+Quotations before 1, after 1. No sentence changed.
+
+Kept:
+- "the Lord is, as it were, crucified between two thieves." (E33; On the Trinity 30, anf05 63458-63459). Novatian's own image of where he stands between the two errors, and the only words of his in a brief otherwise told through a partisan friend (Socrates) and a hostile rival (Cornelius). The image is what a retelling would lose. The card's one `quotationOriginals` object stays.
+
+Told plainly: none. Cornelius's charges, Novatian's letter to the churches, the synod, Nicaea's canon and Socrates's later Novatians were already told without marks.
+
+Tags:
+- Cut: none further.
+- Kept: as listed under "Mark's ruling on attribution tags". Socrates is placed once as partisan, Cornelius once as an enemy; "Socrates says" returns only where the account turns back from Cornelius and where the provinces' division stands against Cornelius's claim; "he wrote" marks Novatian's own words.
+
+Readability: 317 words, grade 9.1 (names out 7.3), reading ease names out 73.9, 17.6 words a sentence, 0.9 joining words per 100, 6% short sentences. Pass.

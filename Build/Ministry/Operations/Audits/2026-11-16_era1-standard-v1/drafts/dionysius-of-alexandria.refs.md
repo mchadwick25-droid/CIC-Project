@@ -104,3 +104,18 @@ Kept:
 - "Dionysius answered that he had not fled": his own account in his own defence, named once for the story.
 - "by his account their leader gave the teaching up": a point resting on his own word alone.
 - "Basil of Caesarea judged": a contested judgment, its holder named.
+
+## Mark's ruling: tell the story (2026-11-16)
+
+Quotations before 1, after 1. No sentence changed.
+
+Kept:
+- "It would have been right to suffer anything at all rather than split the Church of God." (E31; letter to Novatian, Eusebius VI.45, npnf201 38924-38925, with the Greek at Schwartz 7363-7364). His stance on the schism in his own voice: a rebuke to Novatian that says what he would rather have seen suffered than a split. Told plainly it becomes the narrator's summary of a position and loses the rebuke, which the card's note on ἔδει turns on. The card's one `quotationOriginals` object stays.
+
+Told plainly: none. The flight, the order to forgive the dying, the boat and its builder, the four books and the argument on the Revelation were already told without marks.
+
+Tags:
+- Cut: none further.
+- Kept: as listed under "Mark's ruling on attribution tags": his own defence of his flight; his own word alone on the village teachers' leader; Basil's contested judgment. Athanasius's defence and the Arians' claim stand as the two sides of a dispute.
+
+Readability: 339 words, grade 9.8 (names out 8.5), reading ease names out 69.7, 19.9 words a sentence, 0.6 joining words per 100, 0% short sentences. Pass.
