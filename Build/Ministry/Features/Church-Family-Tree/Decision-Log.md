@@ -4151,3 +4151,12 @@ Mark said "yes, do all three and start Ignatius".
 **Not approved.** Mark has not approved a final text of the Polycarp brief. Nothing in this log should be read as that approval.
 
 **Where the texts are.** The two best versions, each with the three changes, are in `Build/Ministry/Operations/Audits/2026-11-16_polycarp-clean-write/Polycarp_best_versions.md`.
+
+## 2026-11-16 — Polycarp of Smyrna approved to proceed (Mark, 2026-11-16)
+
+Mark: "ok this is the best version and we should stop here and call this finalized." The approved text is `Build/Ministry/Operations/Audits/2026-11-16_polycarp-clean-write/Polycarp_approved.brief.txt`, 466 words, the same as `Polycarp_B2.brief.txt`. It is version B (round 4) with two sets of changes:
+- the three changes from the outside review Mark shared: the beasts and fire restored, the yearly gathering's stated purpose, and the Easter paragraph;
+- the four fixes from the source-level check (`Polycarp_B2_source_check.md`): "destroyer of their gods" moved to the stadium, the hidden cut in the Irenaeus quote, "decades later", and the church's own words on the gathering.
+The check's cautions go on the card. Revision of this brief stops here.
+
+Next, Mark asked for a standard to write from, built from scratch and without rules, drawing on the best of this work. It does not edit `Standard_draft.md`.
