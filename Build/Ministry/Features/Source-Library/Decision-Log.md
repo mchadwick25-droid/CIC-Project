@@ -1056,9 +1056,13 @@ his, and the statement of each rule is the coordinator's. They are recorded in `
   the coordinator states it: a second independent rendering, by an agent that never sees the first, checks
   every rendering of ours; differences in meaning are marked uncertain and both readings are kept. This
   replaces the lines of `cic/texts/INTAKE.md` that named an Opus translation with a second Opus pass, and
-  widens R11 from era 10 to every rendering. The model follows `CLAUDE.md`; the coordinator adds an exception
-  of Mark's that lets Fable render, whose words were not passed to this thread, so `INTAKE.md` says only
-  "unless Mark has made an exception for the work in hand". The `cic/renderings/` folder is not made until
+  widens R11 from era 10 to every rendering. The model follows `CLAUDE.md`, which is not changed. Mark's exception for
+  the present work, in his words to the coordinator on 2026-11-15, as the coordinator passed them on: "a but
+  have fable write them this time since its free"; "this isnt a change to the rule just an exception so dont
+  change the CLAUDE.md"; "keep using fable until the free runs out then we will hold that work until we finish
+  1-7 and go back to opus". It is recorded in the Church Family Tree Decision-Log, "Fable writes the era 8 to 10
+  renderings while the free refill lasts: an exception, not a rule change". `INTAKE.md` says only "unless Mark
+  has made an exception for the work in hand". The `cic/renderings/` folder is not made until
   Mark has approved a sample, and the root `README.md` map is updated first when it is.
 
 ### Next action
