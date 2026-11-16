@@ -3929,3 +3929,12 @@ Also in this change:
 
 **Record.** `Build/Ministry/Operations/Audits/2026-11-15_standard-v1-test/`: the reviews, the two paid recording runs (2,245 and 2,275 credits, both reconciled against the balance) and the approved audio.
 
+## 2026-11-16 — Renderings made at the point of use and checked twice; the fourteen re-checked (Mark, 2026-11-16)
+
+**Decided (Mark, 2026-11-16: "Render at point of use, re-check the 14 (Recommended)", relayed by the coordinator).**
+- When a brief or card needs our own close English of a non-English line, that is a passage rendering. Opus renders it, per `CLAUDE.md`. A second Opus agent that has not seen the first renders the same lines on its own. The two are compared, any difference in meaning is marked as uncertain on the card, and both readings are kept in the record. Only then may the rendering carry quotation marks, labelled as our modern English and listed in `tools/quote_renderings.json`. A looser telling still carries no marks.
+- The 14 entries already in `tools/quote_renderings.json` are re-checked the same way. Any that change meaning are reported, and nothing live changes until the coordinator has passed the result to Mark.
+- No bulk finding guides for eras 1 to 7: the writers read the originals directly.
+
+**Where it is written.** `Who_Profile_Pattern.md`, "The brief", Quotes; `Worker_Brief_Template.md`, the writer paragraph.
+

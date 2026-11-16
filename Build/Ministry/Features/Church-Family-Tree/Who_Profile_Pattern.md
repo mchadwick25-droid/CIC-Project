@@ -90,6 +90,7 @@ Approved to proceed (Mark, 2026-11-16: "yes this is a much better revision, i ap
 - **Audio.** `[calmly]` opens the audio script. `[warmly]` goes before the closing line. The tags are never in the census, the card or a page. There is no intro: person audio is the brief only.
 - **Quotes.** Short and plain, verbatim from the vendored file. Where a line is foreign-language, long or archaic, there are two kinds of telling, kept apart (Mark, 2026-11-16: "Two kinds, kept apart (Recommended)"):
   - **A close rendering** covers every clause of the line, adds nothing, and is checked against the original. It may carry quotation marks, labelled as our modern English ("in modern words"), and it is listed in `tools/quote_renderings.json`. Per `CLAUDE.md`, Opus authors any rendering that carries marks.
+  - **Rendered at the point of use, and checked twice** (Mark, 2026-11-16: "Render at point of use, re-check the 14 (Recommended)"). A close rendering made for a brief or card is a passage rendering. Opus renders it. A second Opus agent that has not seen the first renders the same lines on its own. The two are compared. Any difference in meaning is marked as uncertain on the card, and both readings are kept in the record. Only then may the rendering carry quotation marks. Writers read the originals directly; there are no bulk finding guides for eras 1 to 7.
   - **A looser telling** never carries quotation marks. It names its source and does not claim to be the quote.
   This supersedes the batch calls of 2026-11-14 that dropped the marks.
 
