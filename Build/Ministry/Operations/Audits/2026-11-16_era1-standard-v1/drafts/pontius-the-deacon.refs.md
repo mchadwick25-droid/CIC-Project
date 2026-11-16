@@ -100,3 +100,19 @@ Review: `reviews/round1-g2.md`. Verdict was BLOCKED on two findings.
 - **Quotations:** none added, removed or reworded.
 - Readability: grade 8.5 after the cut, above the floor.
 - Sections (e) and (f) are the first writer's and are left as written; (f) still quotes the Bede sentence that B2 removed.
+
+
+## Mark's ruling on attribution tags (2026-11-16)
+
+Changed:
+- Old: He wrote because the church had recorded the deaths of laypeople and learners who died as martyrs, so a bishop who had much to teach apart from his death, he says, must not be passed over.
+  New: He wrote because the church had recorded the deaths of laypeople and learners who died as martyrs, so a bishop who had much to teach apart from his death must not be passed over.
+- Old: They did good to all, he says, and not only to fellow believers.
+  New: They did good to all, and not only to fellow believers.
+
+Kept:
+- "On their first day there, he says, Cyprian told him a dream": a wonder, on one source.
+- "A year later to the day, by his account": the dream's fulfilment rests on his word alone.
+- "He writes as an admirer": marks the partisan witness.
+- "He tells how the new convert": the admirer named once for the paragraph his praise carries.
+- "That rests on Jerome ..., who writes that Pontius": a point resting on one source, with its stated limit.

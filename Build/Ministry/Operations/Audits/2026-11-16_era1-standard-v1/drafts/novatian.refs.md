@@ -106,3 +106,20 @@ Review: `reviews/round2-g5.md`.
 - **NB1, fixed (accepted wording).** My split had turned "him" toward Cornelius; Cornelius's letter says the people were leaving Novatian (E 38776-38778, "the brethren leave him every day and return to the church").
   - New: "Cornelius wrote that people were leaving Novatian every day and returning to the church."
 - **N5, taken.** "and that some welcomed the stricter rule" (S 14099-14100: "this appeared to some a cruel and merciless course: but others received the rule as just").
+
+
+## Mark's ruling on attribution tags (2026-11-16)
+
+Changed:
+- Old: Novatian had long wanted the office, it charges, and he got three country bishops drunk and forced them to lay hands on him.
+  New: Novatian had long wanted the office, and he got three country bishops drunk and forced them to lay hands on him.
+- Old: Nearly two centuries after the split, Socrates says, the Novatians of Phrygia and Paphlagonia still kept their strict rule.
+  New: Nearly two centuries after the split, the Novatians of Phrygia and Paphlagonia still kept their strict rule.
+
+Kept:
+- "says Socrates of Constantinople, who had a friend among the Novatians": a partisan witness, named once.
+- "A letter of Cornelius ... tells it as an enemy": the hostile witness, marked once where his account begins.
+- "Novatian then wrote to all the churches, Socrates says": the account turns back from Cornelius to Socrates; without the tag the listener could not tell whose account it is.
+- "Cornelius wrote that people were leaving Novatian": a hostile witness's claim.
+- "Yet Socrates says the churches in each province took sides": a contested point, each side named.
+- "Between them, he wrote, ...": the person's own words, told as his.

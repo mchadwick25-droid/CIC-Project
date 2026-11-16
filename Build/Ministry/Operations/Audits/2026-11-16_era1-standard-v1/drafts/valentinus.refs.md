@@ -109,3 +109,23 @@ Review: `reviews/round1-g5.md`. Verdict was BLOCKED on three findings.
 Review: `reviews/round2-g5.md`.
 - **N3, taken.** "In one letter Valentinus compares the heart ..." with the tag shortened to "he wrote" (the "he" had followed a sentence whose only man is Clement).
 - **N2, left.** Nothing false reaches the listener (Tertullian carries Marcion at Rome), and the reviewer gave no wording.
+
+
+## Mark's ruling on attribution tags (2026-11-16)
+
+Changed:
+- Old: Other rival teachers came in those years too, Irenaeus of Lyon says: Cerdo, and Marcion after him. Irenaeus, who wrote against them all, says Valentinus arrived ...
+  New: Other rival teachers came in those years too: Cerdo, and Marcion after him. Irenaeus of Lyon, who wrote against them all, says Valentinus arrived ...
+- Old: "But when the only good Father visits it," he wrote, "it is sanctified, and gleams with light."
+  New: "But when the only good Father visits it, it is sanctified, and gleams with light."
+- Old: One of them fell, he says, and from that fall came the world.
+  New: One of them fell, and from that fall came the world.
+
+Kept:
+- "Irenaeus of Lyon, who wrote against them all, says": hostile witness, named once.
+- "Tertullian of Carthage, another opponent, says": hostile witness, on one source.
+- "Tertullian alone tells this": a stated limit (one source).
+- "In one letter Valentinus compares": the person's own words, told as his.
+- "Irenaeus sets out a fuller system, which Clement does not confirm": a point resting on one hostile source, unconfirmed.
+- "teachers the opponents name": the names reach us only through hostile witnesses.
+- "Earlier writers had failed ..., he says": Irenaeus's own partisan claim; without the tag the listener would hear it as fact.

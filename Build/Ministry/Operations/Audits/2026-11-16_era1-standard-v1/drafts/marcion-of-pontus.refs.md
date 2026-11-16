@@ -133,3 +133,18 @@ Review: `reviews/round1-g5.md`. Verdict was BLOCKED on two findings.
 
 Review: `reviews/round2-g5.md`.
 - **N1, taken.** The point rests on Theodoret's own letter, so its witness is marked again: "A century later Theodoret of Cyrrhus, a bishop in Syria, wrote that he had led eight villages of them over to his own faith." (Letter 81, T3 31511-31513).
+
+
+## Mark's ruling on attribution tags (2026-11-16)
+
+No sentence changed. Every tag left carries trust:
+- "Irenaeus of Lyon names Valentinus and Cerdo": first naming of a hostile witness.
+- "Irenaeus says" (Polycarp at Rome): a story resting on one hostile source, with the "first-born of Satan" exchange.
+- "Justin Martyr ... says he taught": first naming of a hostile witness, with his words quoted.
+- "Irenaeus and Tertullian of Carthage say the same": first naming of Tertullian, hostile; the agreement of two hostile witnesses.
+- "Tertullian says his chief work ... and both say": Tertullian's own framing, then a point resting on two named hostile witnesses; cutting either drops a witness.
+- "Tertullian, but neither earlier witness, tells": a point resting on one source.
+- "Justin says ... 'many of every nation'": a quotation whose speaker is not otherwise clear.
+- "Tertullian, though he mocks them, grants": a hostile witness conceding a point.
+- "Epiphanius of Salamis wrote": first naming; a point resting on one source.
+- "Theodoret of Cyrrhus ... wrote that he had led": his own claim about himself, on one source.

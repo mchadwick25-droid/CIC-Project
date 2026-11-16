@@ -92,3 +92,15 @@ Sentences cut on the sentence test: 12. From the old brief's matter: the rescue 
 - "made the Father and the Son one and the same" is my plain summary of Sabellius's teaching from Athanasius (A 29605-29608), Basil (B 23729-23730) and D6 4606 ("Sabellius, who says that the Father and the Son are the same"; that tract's attribution was not checked, so it is not relied on).
 - The census council link says Dionysius "wrote to Novatian urging him to step down"; the brief agrees (E 38922-38925).
 - Old brief, claims checked: "which ended the matter, says Archibald Robertson" is a modern editor's claim and is removed. "Germanus, a bishop who accused him of running away": Eusebius says only that Germanus tried to slander him; flight is inferred from the reply. "He had been asked to a synod at Antioch about Paul of Samosata, but he was too old and weak to go" is sound (E 41838-41851). No quotation in the old brief was found to misreport McGiffert's wording, but all were pre-1931 English carried with marks.
+
+
+## Mark's ruling on attribution tags (2026-11-16)
+
+Changed:
+- Old: Soldiers had seized him, he wrote, until guests from a country wedding burst in and dragged him away.
+  New: Soldiers had seized him until guests from a country wedding burst in and dragged him away.
+
+Kept:
+- "Dionysius answered that he had not fled": his own account in his own defence, named once for the story.
+- "by his account their leader gave the teaching up": a point resting on his own word alone.
+- "Basil of Caesarea judged": a contested judgment, its holder named.

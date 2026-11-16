@@ -107,3 +107,18 @@ Review: `reviews/round1-g5.md`. Verdict was BLOCKED on one finding.
 
 Review: `reviews/round2-g5.md`.
 - **N4, taken.** "By Hippolytus's own account, crowds went over to Callistus ..." (the account is an enemy's, so whose it is must be plain).
+
+
+## Mark's ruling on attribution tags (2026-11-16)
+
+Changed:
+- Old: Callistus, he charges, took them in and told them their sins were forgiven, arguing that the church, like Noah's ark, holds clean and unclean alike.
+  New: Callistus took them in and told them their sins were forgiven, arguing that the church, like Noah's ark, holds clean and unclean alike.
+
+Kept:
+- "it is an enemy's account" and "Callistus, it says, taught": the hostile witness, marked once where his account begins.
+- "Hippolytus wrote that the Word is another ...": the person's own words, told as his.
+- "Hippolytus claims he did it out of fear": a hostile witness's charge of motive.
+- "By Hippolytus's own account, crowds went over": a hostile witness conceding a point against himself.
+- "A Roman list of bishops made in 354 says": a point resting on one source.
+- "Jerome says his table": a point resting on one source.

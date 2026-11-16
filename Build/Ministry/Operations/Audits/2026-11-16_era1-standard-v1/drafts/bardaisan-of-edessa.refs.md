@@ -76,3 +76,18 @@ Sentences cut on the sentence test: 8 (the quoted greeting, "So begins", the Chr
 - "Ephrem wrote hymns to the same melodies" joins Sozomen's "composed similar poems" with "even now the Syrians frequently sing ... the same melodies" and "according to the law of the ode established by Harmonius". Sozomen gives the cause himself ("he became apprehensive, lest they should imbibe the same opinions").
 - "Was still writing against him" in the fourth century: Ephrem addresses Bardaisan's teaching as live ("Bardaisan, lo, declares"). The brief does not claim Ephrem met Bardaisanites; McGiffert's view that he knew them only through followers is on the card.
 - Old brief: "Ephrem learned those meters, and wrote hymns ... to the same rules" stood; "Ephrem the Syrian attacked Bardaisan as one of the worst of heretics" is not in the Ephrem lines I read, and McGiffert (E 26571-26580) says only "a harsher judgment"; I could not source the phrase. The old brief gave Epiphanius's account without his claim that Bardaisan denied the resurrection, which is in the Greek. I found nothing in the old brief that the held files contradict.
+
+
+## Mark's ruling on attribution tags (2026-11-16)
+
+Changed:
+- Old: Only later, Epiphanius says, did he fall in with the Valentinians and deny the resurrection of the dead.
+  New: Only later did he fall in with the Valentinians and deny the resurrection of the dead.
+
+Kept:
+- "Bardaisan admits there", "grants", "denies": his own teaching, told as his through his pupil's book.
+- "Christians keep one law in every land, he adds": his argument; without the tag it reads as the narrator's claim.
+- "Eusebius of Caesarea praised ... and says his many pupils": first naming; a point resting on one source.
+- "Eusebius says he began as a follower of Valentinus" / "Epiphanius of Salamis says he began as an excellent Christian": a contested point with each side named.
+- "Bardaisan declared, Ephrem reports": a hostile witness, named once.
+- "Sozomen says": a point resting on one source.
