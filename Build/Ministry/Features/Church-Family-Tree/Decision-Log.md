@@ -3881,3 +3881,63 @@ All files are in `Build/Ministry/Operations/Audits/2026-11-15_story-relations-cl
 - Then "we will also have the references listed below" and "i think we should mention the tradition they are a part of if they are".
 
 **What follows.** Gregory of Tours and Benedict are being revised on these points and re-recorded for Mark to hear. `Who_Profile_Pattern.md` and `Council_Profile_Pattern.md` are not changed yet. They take these rulings as Standard v1 only once Mark has heard the revised pair and approved it. The questions still open (quotation marks on our own English, and how reviews are run) are on the rulings page.
+
+## 2026-11-16 — Standard v1 approved to proceed (Mark, 2026-11-16)
+
+**Decided (Mark, 2026-11-16).** After hearing the revised Gregory of Tours and Benedict of Nursia briefs: "yes this is a much better revision, i approve to move forward". The rulings in "The Who brief: what Mark has ruled so far, from the Gregory of Tours and Benedict test" (2026-11-15) become Standard v1.
+
+**What changed.**
+- `Who_Profile_Pattern.md` has a new section, "Standard v1: setting, impact and witnesses". It covers the shape (personal, then impact); each stance with its sourced consequence, and more than one where the sources show it; the opening setting (year, place and region, tradition, what was going on); witnesses named only where trust turns on it; no modern scholars in the brief; references listed below; the length "target under 2 minutes, can streatch to 2:30 if needed, no hard cap"; the significance test "yes, or defended", with recorders kept; and "lets not loose the craft, rigor and access to what we talked about, it need all".
+- It replaces "round anchors and relative time first", the option to name a modern scholar in a clause, and the proposal "a bare year only where the year is the event". Checklist items 15 to 17 are added.
+- `Council_Profile_Pattern.md` takes Standard v1, with Mark's council length "target 2:00 but can streatch to 3". Modern historians' dates move from the brief to the entry's `datesNote` and `uncertain`.
+- `Worker_Brief_Template.md` is updated to match.
+- The two briefs join `Who-Profiles/bar/` as the Standard v1 examples. The eight stay the bar for prose, and where they differ from Standard v1, the two examples govern.
+- The old Gregory and Benedict files in era 3 batches 5 and 2 are replaced. The cards gain a `briefReferences` field.
+- The census, the live site and the live audio are unchanged. Era 3's release comes later.
+
+**Still open.** Quotation marks on our own English renderings, and how reviews are run. Both are marked open in the patterns, and the current text stands. (Both ruled below, 2026-11-16.)
+
+**Drift guards (Mark, 2026-11-16: "All six (Recommended)").** Mark chose all six guards from the coordinator's page "Keeping Standard v1":
+1. A CI check fails a pull request that changes the pattern files or the bar folder unless the same pull request adds a Decision-Log entry quoting Mark's words for that change. Thread A builds it.
+2. Every writer's and reviewer's instructions include the standard and three bar briefs (Gregory of Tours, Benedict of Nursia and one of the eight). Every review names the bar brief it compared against. Nothing is compared against a previous batch.
+3. Before an era's batch goes live, Mark hears one brief picked at random from it, beside a bar brief. His yes is the release.
+4. Every five batches, a fresh reviewer scores new and bar briefs mixed without labels. If the new ones score lower, writing stops.
+5. Readability numbers are a floor and a ceiling only. Craft is judged by reading.
+6. One coordinator at a time. A ruling is recorded only with Mark's quoted words, and anything passed on second-hand is marked as a remark. Every brief and handover links the rulings record.
+
+The page also says, for guard 4, that writing stops "until we know why", and for guard 3, that the listen takes "about five minutes a batch", so it runs once per batch.
+
+Guards 3 to 6 are in `Who_Profile_Pattern.md`, "Drift guards". Guard 2 is in `Worker_Brief_Template.md`.
+
+**Length, a ruling left out of the 2026-11-15 entry.** Mark said to the coordinator on 2026-11-15, just before the 2:00 and 2:30 refinement: "we are ok to go long if the content demands it". The coordinator heard it and relayed it on 2026-11-16, and says leaving it out of the earlier entry was the coordinator's error. It stands beside "target under 2 minutes, can streatch to 2:30 if needed, no hard cap" in the pattern's length rule.
+
+**The two open points, ruled (Mark, 2026-11-16).**
+- Quotation marks: "Two kinds, kept apart (Recommended)". A close rendering of a foreign-language line covers every clause, adds nothing and is checked against the original. It may carry quotation marks, labelled as our modern English, and is listed in `tools/quote_renderings.json`. A looser telling never carries marks. Per `CLAUDE.md`, Opus authors any rendering that carries marks. This supersedes the 2026-11-14 batch calls that dropped the marks.
+- Reviews: "CLAUDE.md governs (Recommended)". Opus drafts and reviews every round. Round 1 runs the full checklist, and from round 2 only what changed is rechecked. The three-round cap applies. The second-hand remarks "dont sacrafice quality, expecially the quality of writing" and "stop all opus work except the rewrite process" are not rules.
+- Standard v1 has no open points left.
+
+**The inferred working rules (Mark, 2026-11-16: "Take my recommendations (Recommended)").** Mark approved the coordinator's recommendations on the 29 rules from the rulings draft as a set. They are not his own words, and `Who_Profile_Pattern.md`, "Working rules", marks them "approved by Mark on the coordinator's recommendation, 2026-11-16":
+- Kept: A6, A7, A19, A27, A47, A48, A53, A61, A62, A64, A65, A74, B14, B15, C2, C3, C4, C9, C10, C11 and C19. A64 reinstates the bare-year rule after the opening's clear year.
+- Retired: A37 and B13 (the 2:30 caps), and A72 and A73 (a much later Life means LISTED).
+- Replaced by the two-kinds quotation rule: A67 and A70.
+- Held, not rules: C17 and C18.
+Also in this change:
+- The line that kept "the counsels are stories i think" beside the council ruling now says that line is superseded.
+- Pliny the Younger's entry, still marked open in the pattern, now reads Who, outside witness, as Mark ruled on 2026-11-12.
+
+**The eight (Mark, 2026-11-16: "Revise, then record (Recommended)").** The eight early briefs in `Who-Profiles/bar/` are to be brought up to Standard v1 first, starting from branch `claude/cft-eight-small-pass`, with the same review and four checks as the Gregory and Benedict pair. All eight are recorded at once only after Mark approves one sample.
+
+**Record.** `Build/Ministry/Operations/Audits/2026-11-15_standard-v1-test/`: the reviews, the two paid recording runs (2,245 and 2,275 credits, both reconciled against the balance) and the approved audio.
+
+
+## 2026-11-16 — Dominic Sells His Books and the John of Ephesus mission card, told from the held texts (Mark; data release 47)
+
+**Decided (Mark, 2026-11-16, relayed by the coordinator).** On the two cards held in Open-Gaps 296. Dominic: "Credit Stephen, drop the rest (Recommended)". John of Ephesus: "Remove the claim (Recommended)". The coordinator then corrected the wording of the question he had put to Mark: Mark's intent was to credit each claim to where it stands in the held texts and to drop what no held text says. The cards apply the rulings as Mark meant them.
+
+**Dominic Sells His Books.** Jordan of Saxony's Libellus §7 is the source for the famine at Palencia and the sale of the books (Acta Sanctorum Augusti I, `acta-sanctorum_augusti-tomus-1-lat_1750.txt` l.92447-92463). Two witnesses at the canonization inquest tell it too: Brother John of Spain (l.107807-107808, l.107994-108004) and Brother Stephen, who alone gives the books glossed in Dominic's own hand and the saying about dead skins (l.108385-108404). The saying is told in plain words, since only the Latin is held. The caveat names both inquest witnesses on whether Dominic was then in the world or already a canon of Osma, and tells neither as settled. Gone: the saying credited to Jordan, the "parchment", the later habits and the death at Bologna, the famine as "independently attested", the year c. 1191, and the Mulchahey reference.
+
+**John of Ephesus.** The title is "John of Ephesus Converts the Pagans of Asia for Justinian", in place of "— By Order". The compulsion claim (‘compelling’, the fear of imperial law) is gone, and so are the gifts to converts, the burning of idols, "the laws declared illegal" and "his last years in Justin II's prisons", which no cited held chapter says. The counts follow the chapters: 80,000 converts, 98 churches, 12 monasteries and 7 churches from synagogues in the Lives (Brooks, PO 18, l.39043-39046); 99 churches and 12 monasteries over 35 years in the Ecclesiastical History (Payne Smith II.44). The Derira temple and monastery (III.36-37), the trials for secret pagan worship (III.27-34) and John's imprisonment under Justin II stand on Payne Smith. The Whitby reference, cited only for the coercion claim, is dropped.
+
+**Review.** Round 1, a fresh Opus reviewer: 2 blocking points, both fixed. Round 2, a targeted recheck that also covered the corrected rulings: 0 blocking. Round 3, a check of five small fixes to non-blocking points: 0 blocking. Files: `Build/Ministry/Operations/Audits/2026-11-16_cft-held-cards/`.
+
+**What is still open.** Open-Gaps 304 (2026-11-16).

@@ -4,7 +4,7 @@
     "Benedictus",
     "Bennet"
   ],
-  "knownFor": "Founder of the monasteries of Subiaco and Monte Cassino, and author of the Rule for monks that the Benedictines take their name from, known through Gregory the Great's Dialogues.",
+  "knownFor": "Founder of the monasteries of Subiaco and Monte Cassino and author of the Rule for monks, whose life is known through Gregory the Great's Dialogues; the Frankish church took up his Rule to restore the monastic life, and in 802 Charlemagne ordered monasteries put right by it.",
   "dates": "Born, by Edmund Gardner, about 480, and by Francis Gasquet in 480; died, by the tradition of his order, in 543, as both give it. Gregory the Great gives no years. Gardner dates the founding of Monte Cassino to 528 or 529",
   "place": "Nursia; Rome; Subiaco; Monte Cassino",
   "tradition": "Early Benedictine / Italian Monasticism",
@@ -19,7 +19,9 @@
   "legacy": {
     "traces": [
       "His Rule, which Gregory the Great calls \"excellent for discretion and also eloquent for the style\", survives in Latin, and Francis Gasquet and Oswald Hunter Blair translate it into English.",
-      "Gregory says he built twelve monasteries near Subiaco, with twelve monks in each, before he founded Monte Cassino."
+      "Gregory says he built twelve monasteries near Subiaco, with twelve monks in each, before he founded Monte Cassino.",
+      "Carloman, duke of the Franks, had his council of 742 tell monks and nuns to live by the Rule of Saint Benedict, and at the next council the abbots and monks received it \"ad restaurandam normam regularis vitae\".",
+      "In 802, the annals of Lorsch say, Charlemagne had the abbots and monks at Aachen read the Rule together and ordered whatever in the monasteries went against it to be put right by it."
     ],
     "remembered": [
       "Gregory the Great gave the whole second book of his Dialogues to his miracles and wrote that \"the holy man could not otherwise teach, than himself lived.\"",
@@ -29,7 +31,9 @@
   "uncertain": [
     "Nearly all that is known of his life comes from one witness, Gregory the Great's Dialogues, a book of miracles written to honor a saint. Gregory says he could not learn all that Benedict did and had his stories from four disciples. At least one story he had at second hand: Honoratus heard it from other monks.",
     "Gregory gives no years. The birth about 480 and the death in 543 are Edmund Gardner's and Francis Gasquet's; both call 543 the tradition. Gardner says the date he left Rome is disputed and puts it a few years before 500.",
-    "Gasquet thinks Benedict probably conceived the Rule at Subiaco and finished it at Monte Cassino. Gregory says only that he wrote it."
+    "Gasquet thinks Benedict probably conceived the Rule at Subiaco and finished it at Monte Cassino. Gregory says only that he wrote it.",
+    "What the Rule did. Francis Gasquet, a Benedictine editor, judges that the Rule put a written code in place of an abbot's personal will, and calls it practically the only monastic Rule of the West from the ninth to the twelfth century.",
+    "The second council. The edition of the capitularies records that Hefele and Hahn held the council of Estinnes to be Carloman's and Pippin's together; its editor argues it was Carloman's."
   ],
   "sources": {
     "ownWords": [
@@ -62,7 +66,36 @@
         "author": "Francis Aidan Gasquet",
         "language": "English",
         "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt"
+      },
+      {
+        "title": "Capitulary of Carloman (742), with Boniface's letter; the council of Estinnes; the Aachen synod of 802 from the annals of Lorsch",
+        "author": "Monumenta Germaniae Historica, Capitularia regum Francorum I",
+        "date": "1881",
+        "language": "Latin",
+        "file": "cic/texts/capitulatio-de-partibus-saxoniae_pertz1881.txt"
+      },
+      {
+        "title": "Conferences, in Nicene and Post-Nicene Fathers, second series, vol. 11",
+        "author": "John Cassian",
+        "language": "English translation",
+        "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml"
       }
     ]
-  }
+  },
+  "briefReferences": [
+    "Dialogues II, prologue, tr. 1608, ed. Edmund G. Gardner: born in the province of Nursia, sent to Rome to study, students falling into loose living; his four disciples as Gregory's sources. Book II is the only early Life of Benedict, and Gregory tells it to show the miracles of a holy man.",
+    "Dialogues II.3: the monks who made him abbot, the poisoned wine and the broken glass; the twelve monasteries.",
+    "Dialogues II.8: Cassino, the worship of Apollo, the chapel of Martin, the preaching.",
+    "Dialogues II.15: Totila, \"Much wickedness do you daily commit\", the king less cruel after.",
+    "Dialogues II.17: the Lombards' sack of Monte Cassino.",
+    "Dialogues II.36: the Rule, \"excellent for discretion and also eloquent for the style\".",
+    "Dialogues IV.30: Theodoric, king of the Goths in Italy.",
+    "Rule, Prologue, tr. Francis Aidan Gasquet: \"a school for the service of God, in which we hope nothing harsh nor burdensome will be ordained\".",
+    "Rule, ch. 48: manual labour and holy reading. Ch. 58: \"stability, amendment of manners and obedience\". Ch. 64: the abbot who tempers all things. Ch. 73: the Lives of the Fathers, the Rule of Basil, the Collations.",
+    "Cassian, Institutes and Conferences: his own title for the Conferences of the Fathers, the book the Rule calls the Collations.",
+    "MGH Capitularia I, no. 10: Boniface on Carloman, duke of the Franks, and the church trampled for sixty or seventy years; the council of 742 and the Rule for monks and nuns.",
+    "MGH Capitularia I, no. 11 (Estinnes): the abbots and monks receive the Rule \"ad restaurandam normam regularis vitae\".",
+    "MGH Capitularia I, the Aachen synod of 802, from the annals of Lorsch: the Rule read, and the monasteries put right by it.",
+    "World census, Early Benedictine / Italian Monasticism: his tradition on the tree."
+  ]
 }

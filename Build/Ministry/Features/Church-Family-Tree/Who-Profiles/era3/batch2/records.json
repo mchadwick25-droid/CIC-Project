@@ -1045,6 +1045,76 @@
         "claim": "Died on 21 March 543, according to tradition",
         "witness": "Gardner's notes (l.12776-12779); Gasquet, 'according to the tradition of the Benedictine Order' (benedict gasquet l.201-203)",
         "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "'Of the death of the Arian king Theodoricus'",
+        "witness": "Gregory, Dialogues IV.30, chapter title, ed. Gardner (gregory-great_dialogues_gardner1911 l.542); Gardner's notes have Theodoric ruling from 493 (l.13219-13221)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "At Cassino, 'by his continual preaching, he brought the people dwelling in those parts to embrace the faith of Christ'",
+        "witness": "Gregory, Dialogues II.8 (gregory-great_dialogues_gardner1911 l.4182-4184)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "After Benedict's rebuke, Totila 'from that time forward he was nothing so cruel as before he had been'",
+        "witness": "Gregory, Dialogues II.15 (gregory-great_dialogues_gardner1911 l.4464-4487)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Benedict's warning that the abbey would be 'delivered to the gentiles'; Gregory: 'we see them to be proved most true, who know that very Abbey to be now suppressed by the Lombards'",
+        "witness": "Gregory, Dialogues II.17 (gregory-great_dialogues_gardner1911 l.4636-4662)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Dialogues 'were written in 593, three years after his elevation to the papacy'",
+        "witness": "Gardner's introduction (gregory-great_dialogues_gardner1911 l.1022-1026); the year is an editor's, on the card",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Boniface: Carloman, 'dux Francorum', promised to correct church religion 'calcata et dissipata' for 'sexaginta vel septuaginta annos'",
+        "witness": "Boniface to Pope Zacharias, in the headnote to Capit. I no. 10 (capitulatio-de-partibus-saxoniae_pertz1881 l.2196-2205)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "742: 'ut monachi et ancillae Dei monasteriales iuxta regulam sancti Benedicti ordinare et vivere'",
+        "witness": "Capit. I no. 10, c. 7 (capitulatio-de-partibus-saxoniae_pertz1881 l.2322-2325)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Estinnes: 'Abbates et monachi receperunt sancti patris Benedicti regulam ad restaurandam normam regularis vitae'; Hefele and Hahn take it as Carloman's and Pippin's joint council, the editor as Carloman's",
+        "witness": "Capit. I no. 11 (capitulatio-de-partibus-saxoniae_pertz1881 l.2449-2451; l.2355-2366)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "802, Lorsch annals: the abbots and monks at Aachen 'legerunt regulam sancti patris Benedicti'; whatever 'in monasteriis ... contra regula sancti Benedicti factum fuisset' to be put right by it",
+        "witness": "Ann. Lauresh. a. 802, in the headnote to the Aachen synod (capitulatio-de-partibus-saxoniae_pertz1881 l.7788-7815)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Rule's 'Collations of the Fathers' are Cassian's Conferences",
+        "witness": "Rule ch. 73, tr. Gasquet (benedict_rule-of-saint-benedict_gasquet1925 l.4288-4290); Cassian's own titles (npnf211_sulpitius-severus-vincent-lerins-cassian l.15528, 16050-16057)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "'stability, amendment of manners and obedience'",
+        "witness": "Rule ch. 58, tr. Gasquet (benedict_rule-of-saint-benedict_gasquet1925 l.3595)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The abbot is to 'so temper all things that the strong may have their scope and the weak be not scared'",
+        "witness": "Rule ch. 64, tr. Gasquet (benedict_rule-of-saint-benedict_gasquet1925 l.3955-3961)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Gasquet: the Rule established 'stability in the community' and substituted a code of laws for the personal will of a Superior; 'practically the only monastic Rule of the West' from the ninth to the twelfth century",
+        "witness": "Gasquet's introduction (benedict_rule-of-saint-benedict_gasquet1925 l.396-405, 578-581); a modern judgment, on the card only",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Tradition on the tree: Early Benedictine / Italian Monasticism",
+        "witness": "cic-website/data/world-census.json, tradition early-benedictine-italian-monasticism, which lists benedict-of-nursia",
+        "formation_confidence": "Documented"
       }
     ],
     "contested_claims": [],
@@ -1060,6 +1130,10 @@
       {
         "detail": "The date he left Rome",
         "note": "Gardner says it is disputed and was probably a few years before 500 (l.12628-12630); he names no sides."
+      },
+      {
+        "detail": "Why the Franks chose this Rule over others",
+        "note": "The council acts give their purpose, to restore the norm of the regular life, but say nothing of why Benedict's Rule rather than another."
       }
     ]
   }
