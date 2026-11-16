@@ -3966,3 +3966,5 @@ Also in this change:
 - The blind check every five batches (drift guard 4) watches for any change in voice.
 - The ten briefs already drafted (the eight, and Gregory of Tours and Benedict of Nursia) stay as they are.
 
+**Widened (Mark, 2026-11-16: "use fable for all larger projects until we use the free one up", relayed by the coordinator).** Once the ten are done, every larger job of Thread C's runs as a Fable session: the eras 1 to 7 source and significance check, each era's rewrite pass, and the new era 5 to 7 profiles. In those sessions, drafting, first renderings and the source-check reading are done on Fable. Reviewers, second-reading renderers and comparers stay on Opus, as in the exception above.
+
