@@ -3936,5 +3936,11 @@ Also in this change:
 - The 14 entries already in `tools/quote_renderings.json` are re-checked the same way. Any that change meaning are reported, and nothing live changes until the coordinator has passed the result to Mark.
 - No bulk finding guides for eras 1 to 7: the writers read the originals directly.
 
+**Widened (Mark, 2026-11-16: "Treat old forms as foreign (Recommended)", relayed by the coordinator).**
+- Old and Middle English (language codes ang and enm), Middle High German (gmh) and other older stages of a language count as foreign, and our close English of them gets the same two-rendering check as Latin.
+- Older English translations (17th to 19th century) are quoted word for word where they read plainly. Where we write a modern English version that carries quotation marks, it also gets the second rendering.
+- A modern telling without quotation marks names its source, as now.
+- None of the 14 entries is in an older form of English or German; all are Latin or French. The eight's drafts put no modern version of an older translation in quotation marks.
+
 **Where it is written.** `Who_Profile_Pattern.md`, "The brief", Quotes; `Worker_Brief_Template.md`, the writer paragraph.
 
