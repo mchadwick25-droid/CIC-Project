@@ -3,53 +3,63 @@
   "otherNames": [
     "Hippolytus"
   ],
-  "knownFor": "A Greek-writing teacher at Rome who attacked the bishop Callistus in his Refutation of All Heresies and was exiled to Sardinia in 235.",
-  "dates": "Exiled 235",
-  "place": "Rome",
+  "knownFor": "A teacher and writer at Rome who opposed the bishop Callistus over how the Father and the Son are one God and over taking back those guilty of grave sins, and who was exiled to Sardinia with the bishop Pontianus in 235.",
+  "dates": "Taught at Rome around 220; exiled in 235",
+  "place": "Rome; exiled to Sardinia",
   "tradition": "The Roman Church in the Third Century",
-  "role": "Presbyter, writer, and rival of Callistus",
-  "briefLength": "about 2 minutes 30 seconds",
+  "role": "Teacher and writer; called a presbyter in the list of 354 and a bishop by later writers",
+  "briefLength": "about 2 minutes",
   "keyWorks": [
     {
       "title": "Refutation of All Heresies",
-      "about": "every heresy traced to Greek philosophy, ending with Callistus; found at Mount Athos in 1842"
+      "about": "traces the heresies to pagan philosophy and ends with Callistus. Most of it was found in a manuscript from Mount Athos in 1842, J. H. MacMahon says, and modern scholars count it as his"
     },
     {
       "title": "Against Noetus",
-      "about": "against the teaching that the Father himself suffered"
+      "about": "against the teaching that Christ was the Father himself, who was born and suffered. It is taken as his on the title it bears in the printed edition; no ancient list held here names it"
     },
     {
       "title": "Tables for the date of Easter",
-      "about": "a sixteen-year cycle, carved on the chair of his statue"
+      "about": "a sixteen-year cycle, Jerome says. Arthur McGiffert says the cycle is preserved on a statue found in 1551"
     }
   ],
   "legacy": {
     "traces": [
-      "Jerome of Strido says his Easter cycle prompted Eusebius of Caesarea to write a nineteen-year cycle of his own."
+      "Jerome says his sixteen-year Easter cycle gave Eusebius of Caesarea the cue for a nineteen-year cycle of his own.",
+      "Jerome lists his commentaries and other books, and says Ambrose urged Origen to write commentaries on the Scriptures in rivalry with Hippolytus."
     ],
     "remembered": [
-      "The calendar in the book of 354 lists his burial on the Tiburtine Road among the martyrs of Rome.",
-      "A seated marble statue with an Easter table and a list of books was found on the Tiburtine Road in 1551. Arthur McGiffert says it has been shown to be his."
+      "The calendar of martyrs in the book of 354 names him in one entry with Pontianus: Hippolytus on the Tiburtine Road, Pontianus in the cemetery of Callistus.",
+      "Theodoret of Cyrrhus quotes him under the title of bishop and martyr, among the teachers whose words witness to the church's faith in Christ.",
+      "A statue of a man seated in a chair, inscribed with a list of writings, was found near the church of San Lorenzo, just outside Rome, in 1551. Arthur McGiffert says it has been shown to be his."
     ]
   },
   "uncertain": [
-    "His account of Callistus is an enemy's. McGiffert calls it \"greatly overdrawn,\" though true at its base.",
-    "Eusebius calls him a bishop \"over another church,\" and Jerome could not learn which city. A later tradition makes him bishop of Portus, the harbor of Rome. J. H. MacMahon, who translated the Refutation, accepts it. Döllinger, MacMahon reports, kept him a bishop but refused Portus. McGiffert calls the Portus tradition \"quite worthless.\"",
-    "McGiffert thinks a strict party set him up as a rival bishop against Callistus, and that he returned to the main church after Callistus died. The book of 354 calls him a presbyter.",
-    "The Refutation was printed in 1851 under the name of Origen. MacMahon says most scholars since have decided it is by Hippolytus, among them Döllinger, Bunsen and Wordsworth.",
-    "The poet Prudentius, in a hymn, tells that he was torn apart by wild horses. MacMahon says the details of that hymn are not historic. McGiffert thinks he and Pontianus probably died in the mines of Sardinia."
+    "His quarrel with Callistus is known only from the Refutation of All Heresies, an enemy's account, and that book is counted as his on modern scholars' judgment, not on an ancient witness who names it. The sources we have do not show how the quarrel ended.",
+    "The Refutation was printed at Oxford in 1851 under the name of Origen. J. H. MacMahon, who translated it, says the majority of modern scholars have since decided for Hippolytus, among them Döllinger, Bunsen and Wordsworth. Jerome's list of his works includes a book Against all heresies; whether it is this one is the same modern question.",
+    "His rank. The list of bishops in the book of 354 calls him \"presbiter\" in its Latin. Eusebius of Caesarea says only that he presided over another church, and Jerome that he was bishop of some church whose city he could not learn. Theodoret of Cyrrhus calls him bishop and martyr. The Refutation's author claims a share in the high-priesthood for himself and his side; a note in the American edition reads his \"we\" as a bishop's, and another says the words need not mean a bishop.",
+    "Arthur McGiffert thinks he was a presbyter whom a strict party set up as bishop against Callistus, that in the West he was remembered as a presbyter and in the East as a bishop, and that he returned to the main church after Callistus died. No ancient witness held here says either.",
+    "A later tradition makes him bishop of Portus, the harbor of Rome. MacMahon accepts it. Döllinger, MacMahon reports, kept him a bishop but refused Portus. McGiffert calls the Portus tradition quite worthless.",
+    "His account of Callistus is an enemy's. McGiffert thinks it greatly overdrawn, though he holds that Callistus did take the gentler view of church discipline against Hippolytus's stricter one.",
+    "The poet Prudentius, in a hymn, tells that he was torn apart by wild horses. MacMahon says the details of that hymn are not historic. McGiffert thinks he and Pontianus probably died in the mines of Sardinia.",
+    "The year 235 is the list's consular year, the consuls Severus and Quintianus. Callistus's years, 218 to 222, are the edition's reckoning of the consul names, so the brief says only \"around 220\". The calendar entry gives two burial places in one line; McGiffert reads it as burial on the same day, but the day is broken in the scan of the edition."
   ],
   "sources": {
     "ownWords": [
       {
-        "title": "Refutation of All Heresies; Against Noetus",
+        "title": "Refutation of All Heresies, Books 9 and 10 (tr. J. H. MacMahon), counted as his by modern scholars",
+        "language": "English",
+        "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+      },
+      {
+        "title": "Against the Heresy of One Noetus (tr. S. D. F. Salmond)",
         "language": "English",
         "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
       }
     ],
     "about": [
       {
-        "title": "The book of 354: the list of the bishops of Rome and the calendar of martyrs (ed. Mommsen)",
+        "title": "The book of 354: the list of the bishops of Rome and the calendar of martyrs (ed. Theodor Mommsen)",
         "author": "Unknown",
         "date": null,
         "language": "Latin",
@@ -63,12 +73,59 @@
         "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
       },
       {
-        "title": "Lives of Illustrious Men, 61",
-        "author": "Jerome of Strido",
+        "title": "Lives of Illustrious Men, 61 (tr. Ernest Cushing Richardson)",
+        "author": "Jerome",
         "date": null,
         "language": "English translation",
         "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Dialogues (Eranistes), the testimonies of the fathers (tr. Blomfield Jackson)",
+        "author": "Theodoret of Cyrrhus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "On the Trinity 12, on Sabellius (tr. Robert Ernest Wallis)",
+        "author": "Novatian",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+      },
+      {
+        "title": "Introductory notice to the Refutation of All Heresies",
+        "author": "J. H. MacMahon",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
       }
     ]
-  }
+  },
+  "briefReferences": [
+    "Book of 354, list of the bishops of Rome, Latin, ed. Theodor Mommsen: Callistus bishop from the consuls of 218 to those of 222, for \"around 220\".",
+    "Refutation of All Heresies IX, tr. J. H. MacMahon: the disturbance at Rome over the Father and the Son; the author and his side opposed Callistus.",
+    "Refutation IX.7: Callistus taught that the Father and the Son are one and the same, under different titles; he called the author's side worshippers of two gods.",
+    "Against the Heresy of One Noetus 1 and 11, tr. S. D. F. Salmond: Noetus taught that Christ was the Father himself; the Word another beside the Father, \"I do not mean that there are two Gods\".",
+    "Refutation IX.7: after Zephyrinus died, Callistus excommunicated Sabellius, \"from apprehension of me\".",
+    "Novatian, On the Trinity 12, tr. Robert Ernest Wallis: Sabellius says that Christ is the Father.",
+    "Refutation IX.7: offenders forcibly ejected from the church by the author's sentence; Callistus said all had their sins forgiven; Noah's ark of clean and unclean; crowds streamed to his school; his school continues and calls itself a Catholic church.",
+    "Refutation IX-X, Eusebius of Caesarea VI.20-22, Jerome, Lives 61, and the book of 354, searched: none says how the quarrel ended.",
+    "Book of 354, list of the bishops of Rome, Latin: Pontianus the bishop and Hippolytus the presbyter exiled to Sardinia under the consuls Severus and Quintianus (235).",
+    "Book of 354, calendar of martyrs (depositio martyrum), Latin: Hippolytus on the Tiburtine Road and Pontianus in the cemetery of Callistus, in one entry.",
+    "Jerome, Lives of Illustrious Men 61, tr. Ernest Cushing Richardson: his Easter cycle gave the cue to Eusebius for a cycle of his own.",
+    "Theodoret of Cyrrhus, Dialogues (Eranistes), tr. Blomfield Jackson: Hippolytus quoted as bishop and martyr among the witnesses to the faith.",
+    "World census dates for Theodoret of Cyrrhus (393-c. 458): \"two centuries after the exile\".",
+    "World census, The Roman Church in the Third Century: his tradition."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "I do not mean that there are two Gods.",
+      "printed": "I do not mean that there are two Gods",
+      "work": "Hippolytus, Against the Heresy of One Noetus 11, tr. S. D. F. Salmond",
+      "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+      "lines": "23620",
+      "secondReading": "same"
+    }
+  ]
 }
