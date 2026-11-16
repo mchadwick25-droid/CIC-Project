@@ -4041,3 +4041,16 @@ The branch's 89 story-card relabels and cuts are not released. The moves of Beun
 - No brief, card text, recording or link changes. The data page gives the new release number.
 
 Approved to proceed (coordinator, 2026-11-16; Mark may overrule).
+
+## 2026-11-16 — Speech tags: a witness is named only where trust turns on it, applied harder (Mark, 2026-11-16)
+
+**Decided (Mark, 2026-11-16, on the era 1 sample listen, Tatian):** "To much he said and he rights". Relayed by the coordinator, with these terms:
+- Every attribution tag that carries no trust is cut: "he said", "he writes", "X says", "Y tells".
+- A tag stays only where trust turns on it: the person's own words, a partisan or hostile witness, a point resting on one source, a wonder or legend, a contested point. This is the rule already in Standard v1 ("The brief", Witnesses), applied harder.
+- Where one witness carries several sentences, he is named once and the sentences after him stand.
+- A quotation can stand without "he wrote" once the speaker is clear from context.
+- Tags are removed, not replaced with varied synonyms.
+- Nothing else changes: no claim, quotation, stance or consequence.
+
+**Applied:** to all 21 era 1 briefs before release, with one targeted Opus recheck of the changed sentences only. Mark ordered it, so it does not count toward the three-round cap. Checklist item 19 in `Who_Profile_Pattern.md` carries the rule for every later era. The record is `Build/Ministry/Operations/Audits/2026-11-16_era1-standard-v1/` (each references record's "Mark's ruling on attribution tags" section, and `reviews/tags-recheck.md`).
+

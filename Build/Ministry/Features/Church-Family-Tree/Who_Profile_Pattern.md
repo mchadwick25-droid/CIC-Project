@@ -177,6 +177,7 @@ Run against any profile, story or listed line. Each item is pass or fail.
 16. Standard v1 opening: the first two or three sentences give the year, the place and region, the tradition where the census holds one, and what was going on.
 17. Standard v1 witnesses and references: a witness is named only where trust turns on it; no modern scholar is in the brief; every claim told without a named witness is traced in the references listed below the brief.
 18. No reference to the tree. A brief, and any card prose meant for listeners, never says "the tree", "on the map" or "the census", and never names a tradition as our label ("the church the tree calls X"). It names the tradition directly (Mark, 2026-11-16: "do we need to say 'the tree calls', i thing the anatolian church or the others").
+19. No speech tags that carry no trust. "He said", "he writes", "X says" and "Y tells" stand only where trust turns on them: the person's own words, a partisan or hostile witness, a point resting on one source, a wonder or legend, or a contested point. A witness who carries several sentences is named once, and the sentences after stand untagged. A quotation stands without "he wrote" once whose words they are is clear. A cut tag is removed, not replaced with a synonym such as "reports" or "notes" (Mark, 2026-11-16, on the Tatian sample: "To much he said and he rights").
 
 ## How a batch is reviewed and released
 
