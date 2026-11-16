@@ -426,3 +426,24 @@ test('the map\'s own script parses', () => {
   const code = map.slice(open + '<script>'.length, map.indexOf('</script>', open));
   assert.doesNotThrow(() => new vm.Script(code));
 });
+
+test('a person card with printed originals shows them, and its references, below the brief', () => {
+  const m = census.movements.find(x => x.card && x.card.quotationOriginals && x.card.quotationOriginals.length);
+  const page = generate(census)(`tree/${m.id}.html`);
+  assert.match(page, /<p class="quotes-note">Quotations are given in our modern English\. The printed wording of each is below\.<\/p><details class="quotes-panel"><summary>Quotations and references<\/summary>/);
+  assert.ok(page.indexOf('class="reading"') < page.indexOf('class="quotes-panel"'));
+  const e = m.card.quotationOriginals[0];
+  assert.ok(page.includes(e.printed.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#039;')));
+  assert.match(page, /<p class="source-group">References<\/p>/);
+  const c = structuredClone(census);
+  const n = c.movements.find(x => x.id === m.id);
+  delete n.card.quotationOriginals; delete n.card.briefReferences;
+  assert.doesNotMatch(generate(c)(`tree/${m.id}.html`), /quotes-panel"|quotes-note"/);
+});
+
+test('the map card shows the printed originals and references below the brief, collapsed', () => {
+  const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
+  assert.match(map, /function quotesPanel\(card\)\{/);
+  assert.match(map, /<details class="sources-panel quotes-panel"><summary>Quotations and references<\/summary>/);
+  assert.match(map, /h\+='<p class="quotes-note">Quotations are given in our modern English\. The printed wording of each is below\.<\/p>';\n    h\+=quotesPanel\(card\);/);
+});

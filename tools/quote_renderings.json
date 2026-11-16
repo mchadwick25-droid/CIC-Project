@@ -182,6 +182,279 @@
     "record": "Build/Ministry/Operations/Audits/2026-11-16_rendering-recheck/comparison.md",
     "verdict": "same"
    }
+  },
+  {
+   "id": "origen",
+   "quote": "Be careful not to change your mind because of us.",
+   "original": {
+    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+    "lines": "32562",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/eight/comparison.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "origen",
+   "quote": "the hardworking Origen",
+   "original": {
+    "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+    "lines": "28650-28652",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/eight/comparison.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "athanasius-of-alexandria",
+   "quote": "He became human so that we might be made God.",
+   "original": {
+    "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+    "lines": "18743-18744",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/eight/comparison.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "athanasius-of-alexandria",
+   "quote": "our blessed Father Athanasius, praised by all.",
+   "original": {
+    "file": "cic/texts/cyril-alexandria_three-epistles-grc-eng_pusey1872.txt",
+    "lines": "5393-5394",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/eight/comparison.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "ephrem-the-syrian",
+   "quote": "Look, on your behalf I appoint myself to run the shelter.",
+   "original": {
+    "file": "cic/texts/palladius_lausiac-history_clarke1918.txt",
+    "lines": "471",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/eight/comparison.md",
+    "verdict": "changes meaning"
+   }
+  },
+  {
+   "id": "gregory-of-nazianzus",
+   "quote": "Why should I fight over piglets and chickens, and ones that are not my own,",
+   "original": {
+    "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+    "lines": "45783-45784",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/eight/comparison.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "gregory-of-nazianzus",
+   "quote": "as if I were fighting for souls and church canons?",
+   "original": {
+    "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+    "lines": "45784-45785",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/eight/comparison.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "gregory-of-nazianzus",
+   "quote": "equally far from the merging of Sabellius and from the division of Arius,",
+   "original": {
+    "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+    "lines": "37407-37408",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/eight/comparison.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "gregory-of-nazianzus",
+   "quote": "my teacher in the Scriptures.",
+   "original": {
+    "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+    "lines": "41568",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/eight/comparison.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "gregory-of-nyssa",
+   "quote": "inherited the controversy with Eunomius.",
+   "original": {
+    "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt",
+    "lines": "2788",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/eight/comparison.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "gregory-of-tours",
+   "quote": "Alas for our times, because the study of literature has died out among us,",
+   "original": {
+    "file": "cic/texts/gregory-tours_history-of-the-franks-selections_brehaut1916.txt",
+    "lines": "850-851",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/gregory-benedict/comparison.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "gregory-of-tours",
+   "quote": "so that anyone who reads may have no doubt that I hold the catholic faith,",
+   "original": {
+    "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
+    "lines": "339-340",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/gregory-benedict/comparison.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "gregory-of-tours",
+   "quote": "I want you and the other teachers of the churches to believe this.",
+   "original": {
+    "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
+    "lines": "10370-10371",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/gregory-benedict/comparison.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "gregory-of-tours",
+   "quote": "what Hilary and Eusebius taught.",
+   "original": {
+    "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
+    "lines": "10374-10375",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/gregory-benedict/comparison.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "gregory-of-tours",
+   "quote": "So the king gave up this plan,",
+   "original": {
+    "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
+    "lines": "10404-10405",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/gregory-benedict/comparison.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "gregory-of-tours",
+   "quote": "the books of that revered man Gregory, bishop of Tours.",
+   "original": {
+    "file": "cic/texts/paul-the-deacon_history-of-the-langobards_foulke1907.txt",
+    "lines": "5074-5075",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/gregory-benedict/comparison.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "benedict-of-nursia",
+   "quote": "You do many evil things.",
+   "original": {
+    "file": "cic/texts/gregory-great_dialogues_gardner1911.txt",
+    "lines": "4472-4473",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/gregory-benedict/comparison.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "benedict-of-nursia",
+   "quote": "a school for the Lord's service, and in setting it up we hope to lay down nothing harsh and nothing heavy.",
+   "original": {
+    "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt",
+    "lines": "768-770",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/gregory-benedict/comparison.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "benedict-of-nursia",
+   "quote": "stability, a changed way of life, and obedience,",
+   "original": {
+    "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt",
+    "lines": "3595-3596",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/gregory-benedict/comparison.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "benedict-of-nursia",
+   "quote": "that the strong have something to long for and the weak do not run away.",
+   "original": {
+    "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt",
+    "lines": "3960-3961",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/gregory-benedict/comparison.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "benedict-of-nursia",
+   "quote": "outstanding for its sound judgment and clear in its language.",
+   "original": {
+    "file": "cic/texts/gregory-great_dialogues_gardner1911.txt",
+    "lines": "5567-5568",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/gregory-benedict/comparison.md",
+    "verdict": "minor"
+   }
   }
  ]
 }

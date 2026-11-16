@@ -306,7 +306,7 @@ def fix_html(text: str) -> str:
     return text
 
 
-_JSON_SKIP_KEYS = _SKIP_KEYS | {"shortName", "informalName", "atlasId", "url", "href", "slug", "glyph", "chip", "quote"}
+_JSON_SKIP_KEYS = _SKIP_KEYS | {"shortName", "informalName", "atlasId", "url", "href", "slug", "glyph", "chip", "quote", "printed"}
 _JSON_TOKEN = re.compile(r'"(?:[^"\\]|\\.)*"|[{}\[\],:]')
 
 

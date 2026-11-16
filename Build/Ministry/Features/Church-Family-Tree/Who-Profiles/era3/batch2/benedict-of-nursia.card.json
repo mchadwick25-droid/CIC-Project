@@ -85,24 +85,24 @@
   },
   "briefReferences": [
     "Dialogues II, prologue, tr. 1608, ed. Edmund G. Gardner: born in the province of Nursia, sent to Rome to study, students falling into loose living; his four disciples as Gregory's sources. Book II is the only early Life of Benedict, and Gregory tells it to show the miracles of a holy man.",
-    "Dialogues II.3: the monks who made him abbot, the poisoned wine and the broken glass; the twelve monasteries.",
+    "Dialogues II.3: the twelve monasteries near Subiaco.",
     "Dialogues II.8: Cassino, the worship of Apollo, the chapel of Martin, the preaching.",
     "Dialogues II.15: Totila, \"Much wickedness do you daily commit\", the king less cruel after.",
-    "Dialogues II.17: the Lombards' sack of Monte Cassino.",
     "Dialogues II.36: the Rule, \"excellent for discretion and also eloquent for the style\".",
     "Dialogues IV.30: Theodoric, king of the Goths in Italy.",
     "Rule, Prologue, tr. Francis Aidan Gasquet: \"a school for the service of God, in which we hope nothing harsh nor burdensome will be ordained\".",
-    "Rule, ch. 48: manual labour and holy reading. Ch. 58: \"stability, amendment of manners and obedience\". Ch. 64: the abbot who tempers all things. Ch. 73: the Lives of the Fathers, the Rule of Basil, the Collations.",
+    "Rule, ch. 48: manual labor and holy reading. Ch. 58: \"stability, amendment of manners and obedience\". Ch. 64: the abbot who tempers all things. Ch. 73: the Lives of the Fathers, the Rule of Basil, the Collations.",
     "Cassian, Institutes and Conferences: his own title for the Conferences of the Fathers, the book the Rule calls the Collations.",
     "MGH Capitularia I, no. 10: Boniface on Carloman, duke of the Franks, and the church trampled for sixty or seventy years; the council of 742 and the Rule for monks and nuns.",
     "MGH Capitularia I, no. 11 (Estinnes): the abbots and monks receive the Rule \"ad restaurandam normam regularis vitae\".",
     "MGH Capitularia I, the Aachen synod of 802, from the annals of Lorsch: the Rule read, and the monasteries put right by it.",
-    "World census, Early Benedictine / Italian Monasticism: his tradition on the tree."
+    "World census, Early Benedictine / Italian Monasticism: his tradition."
   ],
   "quotationOriginals": [
     {
       "modern": "You do many evil things.",
       "printed": "Much wickedness do you daily commit.",
+      "work": "Gregory the Great, Dialogues II.15, tr. 1608, ed. Edmund G. Gardner",
       "file": "cic/texts/gregory-great_dialogues_gardner1911.txt",
       "lines": "4472-4473",
       "secondReading": "same"
@@ -110,6 +110,7 @@
     {
       "modern": "a school for the Lord's service, and in setting it up we hope to lay down nothing harsh and nothing heavy.",
       "printed": "a school for the service of God, in which we hope nothing harsh nor burdensome will be ordained.",
+      "work": "Rule, Prologue, tr. Francis Aidan Gasquet",
       "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt",
       "lines": "768-770",
       "secondReading": "minor",
@@ -118,6 +119,7 @@
     {
       "modern": "stability, a changed way of life, and obedience,",
       "printed": "stability, amendment of manners and obedience,",
+      "work": "Rule, ch. 58, tr. Gasquet",
       "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt",
       "lines": "3595-3596",
       "secondReading": "minor",
@@ -126,6 +128,7 @@
     {
       "modern": "that the strong have something to long for and the weak do not run away.",
       "printed": "that the strong may have their scope and the weak be not scared.",
+      "work": "Rule, ch. 64, tr. Gasquet",
       "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt",
       "lines": "3960-3961",
       "secondReading": "minor",
@@ -134,10 +137,11 @@
     {
       "modern": "outstanding for its sound judgment and clear in its language,",
       "printed": "excellent for discretion and also eloquent for the style,",
+      "work": "Gregory the Great, Dialogues II.36, tr. 1608, ed. Gardner",
       "file": "cic/texts/gregory-great_dialogues_gardner1911.txt",
       "lines": "5567-5568",
       "secondReading": "minor",
-      "uncertain": "\"discretio\" is judgment and a sense of measure (A: \"sound judgement\", B: \"wise moderation\"); \"luculentus\" is clear rather than eloquent; both readings kept. The FINAL drops Gardner's \"also\", which the Latin lacks."
+      "uncertain": "\"discretio\" is judgment and a sense of measure (A: \"sound judgment\", B: \"wise moderation\"); \"luculentus\" is clear rather than eloquent; both readings kept. The FINAL drops Gardner's \"also\", which the Latin lacks."
     }
   ]
 }

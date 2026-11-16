@@ -306,3 +306,13 @@ def test_html_single_quoted_title_written_with_entities_is_skipped():
 def test_html_entity_apostrophe_inside_a_word_is_not_a_quote_mark():
     page = "<li>Carey&#039;s Enquiry (1792) and the colour of it.</li>\n"
     assert [f.word for f in cs.scan_html(page, "x.html")] == ["colour"]
+
+
+def test_json_printed_wording_of_a_quotation_is_skipped():
+    import json
+    doc = {"card": {"quotationOriginals": [{"modern": "the hardworking Origen", "printed": "the labour-loving Origen",
+                                            "uncertain": "A second reading has the honoured sense."}]}}
+    text = json.dumps(doc, indent=1, ensure_ascii=False) + "\n"
+    assert sorted(f.word for f in cs.scan_json(text, "x.json")) == ["honoured"]
+    fixed = json.loads(cs.fix_json(text))
+    assert fixed["card"]["quotationOriginals"][0]["printed"] == "the labour-loving Origen"
