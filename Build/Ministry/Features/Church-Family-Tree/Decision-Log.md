@@ -4041,3 +4041,14 @@ The branch's 89 story-card relabels and cuts are not released. The moves of Beun
 - No brief, card text, recording or link changes. The data page gives the new release number.
 
 Approved to proceed (coordinator, 2026-11-16; Mark may overrule).
+
+## 2026-11-16 — The story process: three hands, one page, and a clean write first (Mark, 2026-11-16)
+
+**Why.** The Who and council briefs kept picking up the same habits: modern scholars inside the story, an opening scene with no setting, the impact half missing. The cause is the process, not any one writer. Each review finding became a new ruling, and none was removed. The writer's brief grew to a 285-line pattern holding 25 dated rulings, an 18-item checklist, ten example briefs and a 662-word paragraph. One writer also did four jobs in one pass: finding sources, checking quotes, rendering old English and telling the story. The options and evidence were on the coordinator's page (https://claude.ai/artifact/Df4TxbyxbskR5NiKFJhccY).
+
+**Decided (Mark, 2026-11-16).**
+- Process option A: "A, let's go with option A". Research, writing and review go to three separate hands. The researcher builds a source sheet with no prose. The writer receives only the sheet and a one-page standard built on Mark's three things: craft, rigor and accessibility. The reviewer reads as a listener first, then traces every sentence back to the sheet, then checks the score. Each change to the standard replaces a line.
+- Calibration: set 1, all six from era 1 (Ignatius of Antioch, Justin Martyr, Eusebius of Caesarea, Marcion of Pontus, Tacitus, the Councils of Rome and Carthage in 251), "with the addition of a clean write first". One person who has never had a Who brief is written first, with no example briefs given to the writer, "so we don't introduce bad examples", and the result is compared with the best existing briefs.
+- The clean write is Polycarp of Smyrna: "yes, polycarp, go ahead".
+
+**Where it stands.** The draft standard and the clean-write work are in `Build/Ministry/Operations/Audits/2026-11-16_polycarp-clean-write/`. This changes how Standard v1 (2026-11-16) is delivered to writers: `Who_Profile_Pattern.md`, `Council_Profile_Pattern.md` and `Worker_Brief_Template.md` stay in force until calibration ends. Then Mark rules on what the one-page standard replaces, and the replaced material goes to `Archive/`.
