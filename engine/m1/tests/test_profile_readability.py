@@ -25,6 +25,12 @@ FLAT = (
     "He built a church by the sea. He taught there for many years. Then he died."
 )
 
+DENSE = (
+    "Notwithstanding considerable historiographical disagreement concerning ecclesiastical "
+    "administration, contemporary investigators nevertheless characteristically emphasize "
+    "institutional continuity throughout successive generations of episcopal administration."
+)
+
 
 def _text(name: str) -> str:
     return (FIXTURES / f"{name}.brief.txt").read_text(encoding="utf-8")
@@ -57,22 +63,22 @@ def test_fixtures_match_the_bar_when_it_is_present():
         assert (BAR / f"{name}.brief.txt").read_text(encoding="utf-8") == _text(name)
 
 
-def test_flat_prose_fails_the_floor_only():
+def test_flat_prose_under_the_floor_passes_with_a_note():
     score = pr.grade_profile_text(FLAT)
     assert score.fk < pr.PROFILE_FK_FLOOR
     assert score.fre_names_out >= pr.PROFILE_FRE_FLOOR
-    assert pr.profile_readability_failures(FLAT) == [
-        f"grade {score.fk:.1f} on the full text, below the floor of 8"
-    ]
+    assert pr.profile_readability_failures(FLAT) == []
+    assert score.notes == (
+        f"grade {score.fk:.1f} is under 8: the listener read checks it is not flat",
+    )
+
+
+def test_longest_sentence_is_counted():
+    assert pr.grade_profile_text(FLAT).longest_sentence == 8
 
 
 def test_dense_prose_fails_the_ceiling_and_reading_ease():
-    dense = (
-        "Notwithstanding considerable historiographical disagreement concerning ecclesiastical "
-        "administration, contemporary investigators nevertheless characteristically emphasize "
-        "institutional continuity throughout successive generations of episcopal administration."
-    )
-    failures = pr.profile_readability_failures(dense)
+    failures = pr.profile_readability_failures(DENSE)
     assert any("above the ceiling of 10" in f for f in failures)
     assert any("below the floor of 60" in f for f in failures)
 
@@ -123,7 +129,7 @@ def test_main_exit_status(tmp_path, capsys):
     good = tmp_path / "good.brief.txt"
     good.write_text(_text("origen"), encoding="utf-8")
     bad = tmp_path / "bad.brief.txt"
-    bad.write_text(FLAT, encoding="utf-8")
+    bad.write_text(DENSE, encoding="utf-8")
     assert pr.main([str(good)]) == 0
     assert pr.main([str(tmp_path)]) == 1
     assert pr.main(["--report", str(tmp_path)]) == 0

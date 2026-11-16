@@ -4052,3 +4052,23 @@ Approved to proceed (coordinator, 2026-11-16; Mark may overrule).
 - The clean write is Polycarp of Smyrna: "yes, polycarp, go ahead".
 
 **Where it stands.** The draft standard and the clean-write work are in `Build/Ministry/Operations/Audits/2026-11-16_polycarp-clean-write/`. This changes how Standard v1 (2026-11-16) is delivered to writers: `Who_Profile_Pattern.md`, `Council_Profile_Pattern.md` and `Worker_Brief_Template.md` stay in force until calibration ends. Then Mark rules on what the one-page standard replaces, and the replaced material goes to `Archive/`.
+
+## 2026-11-16 — Briefs are heard: the grade floor becomes a listener check, and a non-academic feel (Mark, 2026-11-16)
+
+**Why.** The scorer was run on our briefs, on seven published lives of Polycarp, and on six BBC News and six National Geographic history articles (coordinator's page, https://claude.ai/artifact/Df4TxbyxbskR5NiKFJhccY, "Accessibility, measured the same way" and "Is the target right?").
+- Our briefs had the most even sentence lengths of any text measured.
+- The two most gripping published pieces, Christian History Institute and Ligonier's spoken script, score grade 7.5 to 7.6. Our floor would fail both.
+- BBC News scored grade 9.2 to 14.8 and National Geographic 11.0 to 14.6. Only 1 of the 12 falls inside 8 to 10.
+- The Polycarp writer's first draft scored 5.6, and the writer joined sentences to clear the floor. Round 2 has four sentences of 29 to 31 words.
+The score measures only sentence length and syllables, so it cannot tell a punchy short sentence from a childish one.
+
+**Decided (Mark, 2026-11-16).**
+- "1, keep the ceiling and change the floor". Grade 10 and reading ease 60 (names out) stay hard limits. A grade under 8 no longer fails a brief by itself: the scorer prints a note, and the reviewer's listener read judges whether the brief has gone flat. The model becomes a BBC or National Geographic documentary narrator, not their printed articles. The standard's "Mix short and long sentences" is replaced by "No sentence past about 30 words".
+- "non accademic feel not rigor". The standard's first Craft line is replaced: "It is a story told by someone who knows the record well, not a report about the record. Each sentence leads to the next. The rigor lives in the sheet and on the card; the story carries it without showing the machinery."
+- "yes, apply both and run round 3".
+
+**Carried out.**
+- `engine/m1/profile_readability.py`: grade under 8 is a note, not a failure, and the longest sentence is printed. The tests are updated.
+- `CLAUDE.md`, "Accessible and rigorous": the target line now says this for Church Family Tree briefs. Representative turns (`engine/m7/turn_readability.py`) are not changed; this ruling was made for the briefs.
+- `Build/Ministry/Operations/Audits/2026-11-16_polycarp-clean-write/Standard_draft.md`: both lines replaced.
+- `Who_Profile_Pattern.md`, "The readability method", still calls grade 8 a floor that fails. It stays as written while calibration runs; what the one-page standard replaces is ruled when calibration ends (this log, "The story process", 2026-11-16).

@@ -1,8 +1,9 @@
 """Readability check for Church Family Tree profile briefs (Who and council).
 
-Grade is counted on the full text and must sit from PROFILE_FK_FLOOR to
-PROFILE_FK_CEILING. Reading ease is counted with proper names left out of the
-syllable count and must reach PROFILE_FRE_FLOOR. The method is the one in
+Grade is counted on the full text and must not pass PROFILE_FK_CEILING; a
+grade under PROFILE_FK_FLOOR is printed as a note and does not fail. Reading
+ease is counted with proper names left out of the syllable count and must
+reach PROFILE_FRE_FLOOR. The longest sentence is printed. The method is the one in
 Build/Ministry/Features/Church-Family-Tree/Who_Profile_Pattern.md, "The
 readability method".
 
@@ -115,12 +116,17 @@ class ProfileScore:
     words_per_sentence: float
     joining_per_100: float
     short_sentence_share: float
+    longest_sentence: int
+
+    @property
+    def notes(self) -> tuple[str, ...]:
+        if self.fk < PROFILE_FK_FLOOR:
+            return (f"grade {self.fk:.1f} is under {PROFILE_FK_FLOOR}: the listener read checks it is not flat",)
+        return ()
 
     @property
     def failures(self) -> tuple[str, ...]:
         found = []
-        if self.fk < PROFILE_FK_FLOOR:
-            found.append(f"grade {self.fk:.1f} on the full text, below the floor of {PROFILE_FK_FLOOR}")
         if self.fk > PROFILE_FK_CEILING:
             found.append(f"grade {self.fk:.1f} on the full text, above the ceiling of {PROFILE_FK_CEILING}")
         if self.fre_names_out < PROFILE_FRE_FLOOR:
@@ -146,7 +152,8 @@ def grade_profile_text(text: str) -> ProfileScore | None:
     syllables_per_plain_word = sum(_count_syllables(w) for w in plain) / max(len(plain), 1)
     lowered = text.lower()
     joining = len(_JOINING_WORDS.findall(lowered)) + len(_JOINING_COMMAS.findall(lowered))
-    short = sum(1 for s in sentences if len(_WORD.findall(s)) <= SHORT_SENTENCE_WORDS)
+    lengths = [len(_WORD.findall(s)) for s in sentences]
+    short = sum(1 for n in lengths if n <= SHORT_SENTENCE_WORDS)
     return ProfileScore(
         words=len(words),
         sentences=n_sentences,
@@ -156,6 +163,7 @@ def grade_profile_text(text: str) -> ProfileScore | None:
         words_per_sentence=per_sentence,
         joining_per_100=100 * joining / len(words),
         short_sentence_share=short / n_sentences,
+        longest_sentence=max(lengths, default=0),
     )
 
 
@@ -203,11 +211,14 @@ def _line(path: Path, score: ProfileScore | None) -> str:
     if score is None:
         return f"{path}: under {MIN_WORDS} words, not scored"
     verdict = "pass" if score.passed else "FAIL: " + "; ".join(score.failures)
+    if score.notes:
+        verdict += " (note: " + "; ".join(score.notes) + ")"
     return (
         f"{path}: {score.words} words, grade {score.fk:.1f} (names out {score.fk_names_out:.1f}), "
         f"reading ease names out {score.fre_names_out:.1f}, {score.words_per_sentence:.1f} words a sentence, "
         f"{score.joining_per_100:.1f} joining words per 100, "
-        f"{round(100 * score.short_sentence_share)}% short sentences - {verdict}"
+        f"{round(100 * score.short_sentence_share)}% short sentences, "
+        f"longest sentence {score.longest_sentence} words - {verdict}"
     )
 
 
