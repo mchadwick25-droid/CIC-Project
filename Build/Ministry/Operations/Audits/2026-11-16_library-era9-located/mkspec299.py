@@ -106,7 +106,7 @@ for ident, v, rom, y, fn, tl, ypat, pub, sheet, cont, issues in [
      "the four numbers at OCR lines 229-40238"),
     ("morningwatchorq01hendgoog", 3, "III", 1831, "morning-watch_v3_1831.txt", 91, r"18",
      "1831 (title page, read on the page image, leaf n8; the OCR reads '18SL' at line 91)", "1-46",
-     "The numbers of 1831. Title page at OCR lines 55-91; contents of vol. III at 97-168. The March 1831 number from 170 and the June 1831 number from 13786; the headings of the later numbers were not found. Among the articles: the prophetic aspect of the church (179); a commentary on the seven Apocalyptic epistles (913, 14426); the human nature of Christ (6102); miracles, signs and powers (7504); miraculous powers (11457); Tertullian on the humanity of our Lord (12517); the restoration of the twelve tribes (17801); the gifts of the Holy Ghost (near 26471). The last pages are badly garbled; 'To correspondents' at 28214 ends the file.",
+     "The March and June numbers of 1831. Title page at OCR lines 55-91; contents of vol. III at 97-168. The March 1831 number from 170 and the June 1831 number from 13786; the volume holds these two numbers only. Among the articles: the prophetic aspect of the church (179); a commentary on the seven Apocalyptic epistles (913, 14426); the human nature of Christ (6102); miracles, signs and powers (7504); miraculous powers (11457); Tertullian on the humanity of our Lord (12517); the restoration of the twelve tribes (17801); the gifts of the Holy Ghost (near 26471). The last pages are badly garbled; 'To correspondents' at 28214 ends the file.",
      "the numbers at OCR lines 170-28225")]:
     chk(ident, tl, ypat, 1); chk(ident, 229 if v == 1 else 170, r"MORNING|WATCH|MARCH", 8)
     add(ident, fn,
@@ -168,11 +168,11 @@ for ident, v, rom, y, yl, ypat, img, a, b, cont, sheet in [
              "A Life built on Shaftesbury's diaries, which are quoted at length. The diary entries are first-hand; the frame is Hodder's.")])
 
 I = "lifeoffrederickd02maur"
-chk(I, 32, r"1884"); chk(I, 30, r"MAC\s*MILL\s*AN"); chk(I, 459, r"CHAPTER", 3); chk(I, 28586, r"INDEX", 2)
+chk(I, 32, r"1884"); chk(I, 30, r"MAC\s*MILL\s*AN"); chk(I, 28116, r"APPENDIX|F", 4); chk(I, 459, r"CHAPTER", 3); chk(I, 28586, r"INDEX", 2)
 add(I, "maurice-f_life-of-frederick-denison-maurice-v2_1884.txt",
     "The Life of Frederick Denison Maurice, chiefly told in his own letters; edited by his son Frederick Maurice; in two volumes, vol. II",
     "Frederick Maurice (title page: 'edited by his son Frederick Maurice')",
-    "Macmillan and Co. (title page; no place is printed)",
+    "London: Macmillan and Co. (title page, read on the page image, leaf n8; the OCR drops the place)",
     "1884 (title page, OCR line 32)", 1884, NIC, "eng",
     "clean, with small slips. A library stamp stands at OCR lines 1-7 and a library sheet at the end.",
     "The second of two volumes, from the latter half of 1849. Title page at OCR lines 10-32; contents at 41-458. Chapter I at 459; II 2575; III 4941; IV 6511; V 7571; VI 9660; VII 11663; VIII 12983; IX 14112; X 14889; XI 16128; XII 17925; XIII 18909; XIV 20450; XV 21711; XVI 22719; XVII 23514; XVIII 24206; XIX 25213; XX 26010; XXI 27127; XXII 28187. The text ends at 28577; index from 28586; printer's line at 39580. Maurice's letters make up most of the text, with remembrances by others.",
@@ -191,7 +191,7 @@ add(I, "ward-wilfrid_life-and-times-of-cardinal-wiseman-v2_1897.txt",
     "London, New York and Bombay: Longmans, Green, and Co. (title page)",
     "1897 (title page, OCR line 107)", 1897, NIC, "eng",
     "clean, with running heads in the text. Google's sheet stands at OCR lines 1-41 and library stamps at 44-70 and at the end.",
-    "The second of two volumes, chapters XIX to XXXI. Title page at OCR lines 73-109; contents at 118-175. Chapter XIX, the sequel to Wiseman's Appeal, at 186; XX, 1851-54, at 1763; XXI, Fabiola, 3641; XXII 5026; XXIII 6579; XXIV 9194; XXV 11072; XXVI, Ireland in 1858, 12580; XXVII 13993; XXVIII 17370; XXIX 19685; XXX, death and funeral, 22232; XXXI, an epilogue, 23520, ending at 25496. Appendices from 25499, with extracts from a statement by Dr. Errington at 25611-28475; index from 28477; the publisher's catalogue from 31204. Letters of Wiseman, Manning, Errington and others are quoted throughout. The title page prints 'All rights reserved'.",
+    "The second of two volumes, chapters XIX to XXXI. Title page at OCR lines 73-109; contents at 118-175. Chapter XIX, the sequel to Wiseman's Appeal, at 186; XX, 1851-54, at 1763; XXI, Fabiola, 3641; XXII 5026; XXIII 6579; XXIV 9194; XXV 11072; XXVI, Ireland in 1858, 12580; XXVII 13993; XXVIII 17370; XXIX 19685; XXX, death and funeral, 22232; XXXI, an epilogue, 23520, ending at 25496. Appendices C to F from 25499: the Ecclesiastical Titles Act (C, 25502); extracts from Dr. Errington's statement of 1860 (D, 25611-27907); his Latin letter to Cardinal Barnabò (E, 27908); Ward's note on the Errington case in the Life of Manning (F, 28116-28475). Index from 28477; the publisher's catalogue from 31204. Letters of Wiseman, Manning, Errington and others are quoted throughout. The title page prints 'All rights reserved'.",
     "Wilfrid Ward", RC19,
     W + "wanted row 278, Nicholas Wiseman, the Life by Ward, vol. 2 (vol. 1 is held).",
     [row("ward-wiseman-v2", "Ward, The Life and Times of Cardinal Wiseman, vol. II (1897)", "ward-wilfrid",
@@ -213,7 +213,7 @@ add(I, "cabot_memoir-of-ralph-waldo-emerson-v2_8th-ed1895.txt",
     [row("cabot-memoir-of-emerson-v2", "Cabot, A Memoir of Ralph Waldo Emerson, vol. II (eighth edition, 1895)", "cabot",
          "chapters XI-XVII at OCR lines 116-10459; the appendices at 10462-14740", [UNI], "context", "provisional", "eng",
          doc((1887, 1895), "copyright notice of 1887; this printing's title page reads 1895, eighth edition"),
-         "A Memoir with Emerson's letters and journals quoted throughout. Appendices A to E print his own documents, among them the letter of 1832 to the Second Church.")])
+         "A Memoir with Emerson's letters and journals quoted throughout. Appendices A and D print his letters to the Second Church and to Van Buren; B and E print correspondence; C and F are Cabot's lists.")])
 
 # ---------------- Froude's Remains ----------------
 FR = [("remainsoflaterev21frou", "pt1-v2", 1838, 58, "n6", "in two volumes, vol. II",
@@ -294,14 +294,14 @@ add(I, "cox-george-w_life-of-john-william-colenso-v1_1888.txt",
 
 # ---------------- The Student Volunteer Movement ----------------
 I = "historyofstudent00mott"
-chk(I, 48, r"ORIGIN", 2); chk(I, 344, r"DEVELOPMENT", 2); chk(I, 1458, r"1892", 1)
+chk(I, 48, r"ORIGIN", 2); chk(I, 344, r"DEVELOPMENT", 2); chk(I, 1080, r".", 1); chk(I, 1458, r"1892", 1)
 add(I, "mott_history-of-the-student-volunteer-movement_1892.txt",
     "History of the Student Volunteer Movement for Foreign Missions",
     "John R. Mott (title page)",
     "No place or publisher is printed on the title page",
     "1892 (title page, read on the page image, leaf n2; the OCR drops the year from the title lines at 22-38. A list at the end says later numbers of the series are 'ready after December 1, 1892', line 1458)", 1892, NR, "eng",
     "clean; a statistics table is lost.",
-    "A pamphlet of 48 pages in five parts. Title lines at OCR lines 4-38. I, Origin, at 48; II, Development, at 344; III, Achievements, at 870, with an endorsement by the Presbyterian board's secretaries, dated New York, 6 November 1890, at 1097-1119; IV, Present status, at 1207; V, Purpose, at 1220. The text ends at 1404. A list of the Student Volunteer Series follows at 1407-1460.",
+    "A pamphlet of 48 pages in five parts. Title lines at OCR lines 4-38. I, Origin, at 48; II, Development, at 344; III, Achievements, at 870, with an endorsement by the Presbyterian board's secretaries, dated New York, 6 November 1890, at 1080-1119; IV, Present status, at 1207; V, Purpose, at 1220. The text ends at 1404. A list of the Student Volunteer Series follows at 1407-1460.",
     "John R. Mott", SVM,
     W + "Mott's history of the Student Volunteer Movement (1892).",
     [row("mott-history-of-the-student-volunteer-movement", "Mott, History of the Student Volunteer Movement for Foreign Missions (1892)", "mott",
@@ -310,35 +310,35 @@ add(I, "mott_history-of-the-student-volunteer-movement_1892.txt",
          "The movement's own account of its first six years, from the Mount Hermon conference of 1886, by one of its leaders.")])
 
 I = "pledgeofstudentv00wild"
-chk(I, 40, r"1890"); chk(I, 37, r"WILDER"); chk(I, 446, r"Pledge", 3)
+chk(I, 40, r"1890"); chk(I, 37, r"WILDER"); chk(I, 449, r"foreign\s+missionaries", 1)
 add(I, "wilder_pledge-of-the-student-volunteer-movement_1890.txt",
     "The Volunteer Pledge of the Student Volunteer Movement for Foreign Missions (Student Volunteer Series, No. 3)",
     "Robert P. Wilder (title page)",
     "No place or publisher is printed on the title page; a note at the end says the series may be had of Walter J. Clark, New York City",
     "1890 (title page: 'June, 1890.', OCR line 40, where the OCR reads 'Fune')", 1890, NR, "eng",
     "clean, with small errors.",
-    "A short pamphlet. Title page at OCR lines 1-51. I, the necessity for a pledge, at 54; II, what shall the pledge be, at 304; III, the meaning of the pledge, at 443, with its wording at 446-448: 'We are willing and desirous, God permitting, to become foreign missionaries'; IV, use of the pledge, at 560; V, who shall use the pledge, at 616. The text ends at 700; the order note at 708-711.",
+    "A short pamphlet. Title page at OCR lines 1-51. I, the necessity for a pledge, at 54; II, what shall the pledge be, at 304; III, the meaning of the pledge, at 443, with its wording at 448-449, 'We are willing and desirous, God permitting, to become foreign missionaries' (the OCR breaks 'permitting' as 'permtt-ting'); IV, use of the pledge, at 560; V, who shall use the pledge, at 616. The text ends at 700; the order note at 708-711.",
     "Robert P. Wilder", SVM,
     W + "Wilder's pledge pamphlet (1890).",
     [row("wilder-volunteer-pledge", "Wilder, The Volunteer Pledge of the Student Volunteer Movement (June 1890)", "wilder",
-         "the whole pamphlet at OCR lines 54-700; the pledge's wording at 446-448", [SVM], "tradition", "provisional", "eng",
+         "the whole pamphlet at OCR lines 54-700; the pledge's wording at 448-449", [SVM], "tradition", "provisional", "eng",
          doc((1890, 1890), "title page: 'June, 1890.'"),
          "One of the movement's founders explains its pledge and how to use it.")])
 
 # ---------------- Moravians, Lourdes, Christadelphians, Brethren, Latter-day Saints, rescue missions ----------------
 I = "ahistoryunitasf00hamigoog"
-chk(I, 118, r"MDCCCXCV"); chk(I, 133, r"Copyright,?\s+1894", 1); chk(I, 17819, r"HISTORY|UNITAS", 6); chk(I, 9261, r"REFORMED|HISTORY", 4); chk(I, 21131, r"INDICES", 2)
+chk(I, 118, r"MDCCCXCV"); chk(I, 133, r"Copyright,?\s+1894", 1); chk(I, 17816, r"HISTORY", 1); chk(I, 18465, r"CHAPTER", 1); chk(I, 20733, r"CHAPTER", 1); chk(I, 9261, r"REFORMED|HISTORY", 4); chk(I, 21131, r"INDICES", 2)
 add(I, "corwin-dubbs-hamilton_american-church-history-v8-reformed-and-moravian_1895.txt",
     "A History of the Reformed Church, Dutch, the Reformed Church, German, and the Moravian Church in the United States (American Church History Series, vol. VIII)",
     "E. T. Corwin, D.D., Professor J. H. Dubbs, D.D., and Professor J. T. Hamilton (title page)",
     "New York: The Christian Literature Co. (title page)",
     "1895 (title page: 'MDCCCXCV', OCR line 118; copyright notice of 1894 at 133-134)", 1895, NIC, "eng",
     "clean, with some damaged names and running heads in the text. Google's sheet stands at OCR lines 1-46 and a Harvard library stamp at 48-66.",
-    "Three histories bound as one volume of the series. Title page at OCR lines 89-118; contents at 137-460. Corwin's history of the Dutch Reformed Church from 454 to about 9255. Dubbs's history of the German Reformed Church from 9261, in nineteen chapters, to about 17818. Hamilton's 'History of the Unitas Fratrum, or Moravian Church, in the United States of America' from 17819: prefatory note at 18056; chapter I at 18104; III 18622; IV 18986; V 19255; VI 19508; VII 19822; VIII 19998; IX 20282; X 20472; XII 20909 (the headings of II and XI were not found); the text ends at 21128. Indices from 21131, the Moravian index from 22743.",
+    "Three histories bound as one volume of the series. Title page at OCR lines 89-118; contents at 137-460. Corwin's history of the Dutch Reformed Church from 454 to about 9255. Dubbs's history of the German Reformed Church from 9261, in twenty chapters, to about 17815. Hamilton's 'History of the Unitas Fratrum, or Moravian Church, in the United States of America' from 17816: prefatory note at 18056; chapter I at 18104; II 18465; III 18622; IV 18986; V 19255; VI 19508; VII 19822; VIII 19998; IX 20282; X 20472; XI 20733; XII 20909; the text ends at 21128. Indices from 21131, the Moravian index from 22743.",
     "E. T. Corwin, J. H. Dubbs and J. T. Hamilton", MOR,
     W + "wanted row 323, J. Taylor Hamilton, his history of the Moravians in the United States (1895).",
     [row("hamilton-history-of-the-unitas-fratrum-in-the-united-states", "Hamilton, A History of the Unitas Fratrum, or Moravian Church, in the United States of America (1895)", "hamilton-j-taylor",
-         "Hamilton's history at OCR lines 17819-21128; the Moravian index from 22743", [MOR], "tradition", "provisional", "eng",
+         "Hamilton's history at OCR lines 17816-21128; the Moravian index from 22743", [MOR], "tradition", "provisional", "eng",
          doc((1895, 1895), "title page: 'MDCCCXCV'; copyright notice of 1894"),
          "A Moravian professor at Bethlehem writes his church's American history. The two Reformed histories bound with it are by other hands and have no shelf row.")],
     ruled={"hamilton-j-taylor": ("metadata-omission", "The title page names three authors (file lines 101-121); Hamilton's history has its own title, 'by J. Taylor Hamilton, Professor of Church History in the Moravian Theological Seminary at Bethlehem, Pa.' (file lines 17831-17841).")})
@@ -351,13 +351,13 @@ add(I, "lasserre_our-lady-of-lourdes_sisk1872.txt",
     "London: Thomas Richardson and Son; Dublin and Derby (title page, read on the page image)",
     "1872 (title page: 'MDCCCLXXII.', read on the page image, leaf n7; the OCR reads 'UDOCOLZZU.' at line 114)", 1872, NIC, "eng",
     "mostly readable, with scattered damage ('Bemadette'); running heads and Google's 'Digitized by' stamp, about 440 times, sit in the text. Google's sheet stands at OCR lines 1-66.",
-    "A second English version of Lasserre, by a named translator. Half-title at OCR line 62, with '(The Copyright is reserved.)', a notice of 1872; title page at 74-114. Sisk's dedication to a Cistercian prioress at 126-201; contents at 209-330. The brief of Pius IX to the author, in Latin at 337-401 and in English at 411-485, given at Rome, 4 September 1869. Lasserre's preface at 571-761. Book I at 778; II 3210; III 6223; IV 8642; V 10900; VI 12839; VII 14854; VIII 16856; IX 18086; X 20294; XI 21577. The text ends at 21998; the publisher's advertisements follow.",
+    "An English version of Lasserre by a named translator. Half-title at OCR line 62, with '(The Copyright is reserved.)' and no year; title page at 74-114. Sisk's dedication to a Cistercian prioress at 126-201; contents at 209-330. The brief of Pius IX to the author, in Latin at 337-401 and in English at 411-485, given at Rome, 4 September 1869. Lasserre's preface at 571-761. Book I at 778; II 3210; III 6223; IV 8642; V 10900; VI 12839; VII 14854; VIII 16856; IX 18086; X 20294; XI 21577. The text ends at 21998; the publisher's advertisements follow.",
     "Henri Lasserre", RC19,
     W + "wanted row 277, Bernadette Soubirous: Lasserre in Sisk's English of 1872 (another English version, of 1870, is held).",
     [row("lasserre-our-lady-of-lourdes-sisk", "Lasserre, Our Lady of Lourdes, translated by F. Ignatius Sisk (1872)", "lasserre",
          "books I-XI at OCR lines 778-21998; the Pope's brief at 337-485", [RC19], "context", "provisional", "eng",
          doc((1869, 1872), "the Pope's brief to the author is dated 4 September 1869 (OCR lines 484-485); this translation's title page reads 1872"),
-         "A devout layman's history of the apparitions and the shrine, in an English monk's translation. Bernadette's words reach the reader through Lasserre and then through the translator.")])
+         "A history of the apparitions and the shrine, approved by a brief of Pius IX, in the translation of a Cistercian of St. Bernard's Abbey. Bernadette's words reach the reader through Lasserre and then through the translator.")])
 
 I = "thetrialofthemos00robeuoft"
 chk(I, 47, r"1.08"); chk(I, 45, r"WALKER"); chk(I, 1525, r"SECOND", 3); chk(I, 13427, r"TWELFTH", 3); chk(I, 14712, r"trial\s+ends", 1)
@@ -373,7 +373,8 @@ add(I, "roberts-robert_the-trial_1908.txt",
     [row("roberts-the-trial", "Roberts, The Trial (Birmingham, 1908)", "roberts-robert",
          "the twelve sittings at OCR lines 630-14712", [CHR], "tradition", "provisional", "eng",
          doc((1908, 1908), "title page: 1908 (page image); the preface carries no date"),
-         "A defense of the resurrection cast as a court case, with counsel, witnesses and a verdict. The title page gives no author; the last leaf advertises Christendom Astray as 'by the same author'.")])
+         "A defense of the resurrection cast as a court case, with counsel, witnesses and a verdict. The title page gives no author; the last leaf advertises Christendom Astray as 'by the same author'.")],
+    ruled={"roberts-robert": ("metadata-omission", "The title page (file lines 27-60) names no author and the preface is signed 'The Author' (file line 81). The archive.org record credits Robert Roberts; the last leaf advertises Christendom Astray as 'by the same author' (file lines 14727-14740). The attribution is the record's.")})
 
 I = "isbibledivineas00robegoog"
 chk(I, 148, r"BIBLE\s+DIVINE"); chk(I, 826, r"DISCUSSION", 2); chk(I, 9913, r"REVIEW", 2); chk(I, 8698, r"JUNE|June|22", 6)
@@ -383,27 +384,27 @@ add(I, "roberts-bradlaugh_is-the-bible-divine-six-nights-discussion_1876.txt",
     "London: F. Pitman, 20, Paternoster Row; Birmingham: Robert Roberts, Athenaeum Rooms, Temple Row (title page)",
     "1876 (title page, read on the page image, leaf n6; the OCR garbles the year at line 193 and reads '1878' on the damaged first title at line 101)", 1876, NIC, "eng",
     "clean in the debate; running heads, signature marks and the title pages are garbled, and Google's 'Digitized by' stamp stands on nearly every page. Google's sheet stands at OCR lines 1-43.",
-    "A shorthand report of a public debate, printed by one of the two speakers. Title page at OCR lines 148-193, with the proposition: 'That the Scriptures are the reliable and authentic record of Divine revelation'; Roberts affirms and Bradlaugh denies. Preface with the correspondence that arranged the debate, at 219-825. The six nights: the first, Leicester, 13 June 1876, from 826; the second from 2458; the third from 4019; the fourth, Birmingham, 20 June, from 5874; the fifth from 7433; the sixth, 22 June, from 8698. The debate ends at 9893. Roberts's review of the discussion at 9913-12885; he says there that Bradlaugh did not revise the report and declined to write a reply. Printer's line at 12893; index and the publisher's list follow.",
+    "A shorthand report of a public debate, published by one of the two speakers. Title page at OCR lines 148-193, with the proposition: 'That the Scriptures are the reliable and authentic record of Divine revelation'; Roberts affirms and Bradlaugh denies. Preface with the correspondence that arranged the debate, at 219-825. The six nights: the first, Leicester, 13 June 1876, from 826; the second from 2458; the third from 4019; the fourth, Birmingham, 20 June, from 5874; the fifth from 7433; the sixth, 22 June, from 8698. The debate ends at 9893. Roberts's review of the discussion at 9913-12885; he says there that Bradlaugh did not revise the report of the last three nights and did not take up an offer to write a rejoinder (12855-12883). Printer's line, William G. Davis, Birmingham, at 12893; index and the publisher's list follow.",
     "Robert Roberts and Charles Bradlaugh", CHR,
     W + "wanted row 254, Robert Roberts: his debate with Bradlaugh (1876).",
     [row("roberts-bradlaugh-debate-six-nights", "Is the Bible Divine? The six nights' discussion between Bradlaugh and Roberts (June 1876)", "roberts-robert",
          "the six nights at OCR lines 826-9893", [CHR], "tradition", "provisional", "eng",
          doc((1876, 1876), "title page: 1876; the nights are dated 13 to 22 June 1876"),
-         "Roberts's side is the Christadelphian case for the Bible; Bradlaugh's speeches are an opponent's, taken down in shorthand and, by Roberts's own account, not revised by Bradlaugh. Quote each speaker as himself."),
+         "Roberts's side is the Christadelphian case for the Bible; Bradlaugh's speeches are an opponent's, taken down in shorthand; by Roberts's own account Bradlaugh did not revise the report of the last three nights. Quote each speaker as himself."),
      row("roberts-review-of-the-discussion", "Roberts, A Review of the Discussion with Mr. Bradlaugh (1876)", "roberts-robert",
          "the review at OCR lines 9913-12885; the preface and correspondence at 219-825", [CHR], "tradition", "provisional", "eng",
          doc((1876, 1876), "title page: 1876"),
          "Roberts's own afterword on the six nights, answering Bradlaugh point by point.")])
 
 I = "minorprophets00bell"
-chk(I, 50, r"1870"); chk(I, 33, r"BELLETT"); chk(I, 82, r"HO\s*SEA", 3); chk(I, 3200, r"MALACHI", 3)
+chk(I, 50, r"1870"); chk(I, 33, r"BELLETT"); chk(I, 82, r"HO\s*SEA", 3); chk(I, 3200, r"MALACHI", 3); chk(I, 1354, r"M\s*I\s*C\s*A\s*H", 1)
 add(I, "bellett_minor-prophets_1870.txt",
     "The Minor Prophets",
     "J. G. Bellett, author of 'The Moral Glory of the Lord Jesus' (title page)",
     "London: Robert L. Allan, 15 Paternoster Row, and Glasgow; with Dublin, Guernsey and Boston sellers (title page)",
     "1870 (title page, OCR line 50)", 1870, NIC, "eng",
     "clean, with typical slips ('lie' for He); running heads sit in the text. A Princeton Theological Seminary bookplate stands at OCR lines 1-10.",
-    "Short meditations on the twelve prophets. Title page at OCR lines 25-50; contents at 53-79. Hosea at 82; Joel 375; Amos 642; Obadiah 723; Jonah 957; Micah 1353; Nahum 1681; Habakkuk 1847; Zephaniah 2145; Haggai 2427; Zechariah 2716; Malachi 3200. The text ends at 3556. No preface or index.",
+    "Short meditations on the twelve prophets. Title page at OCR lines 25-50; contents at 53-79. Hosea at 82; Joel 375; Amos 642; Obadiah 723; Jonah 957; Micah 1354; Nahum 1681; Habakkuk 1847; Zephaniah 2145; Haggai 2427; Zechariah 2716; Malachi 3200. The text ends at 3556. No preface or index.",
     "John Gifford Bellett", PB,
     W + "wanted row 260, J. G. Bellett: The Minor Prophets (1870).",
     [row("bellett-minor-prophets", "Bellett, The Minor Prophets (1870)", "bellett",
@@ -448,12 +449,7 @@ for ident, n, y, fn, title, pub, pubdate, cont, a, b in [
      "Thirty-One Years of Rescue Work at Pacific Garden Mission: thirty-first annual report, September 15, 1908",
      "Chicago: Pacific Garden Mission, 100 E. Van Buren St. (cover)",
      "1908 (title leaf: 'September 15, 1908', read on the page image, leaf n2, and at OCR line 30; the archive.org identifier carries '1907')",
-     "The report for the year ended 15 September 1908. Cover and title lines at OCR lines 3-30. Salutatory at 47; a great need, a home for homeless girls, at 96; the men's department at 221; how we reach the masses at 255; three converts' own testimonies at 322, 366 and 411; contributions and church collections from 453; the endowment fund at 804; the treasurer's account at 869; the board of trustees at 906; thanks, signed by Sarah D. Clarke and Harry Monroe, at 926-940.", 47, 940),
-    ("annualreportpaci1915paci", "fortieth", 1916, "pacific-garden-mission_fortieth-annual-statement_1916.txt",
-     "Everlastingly At It: the Cross of Christ exalted 40 years in the Loop of Chicago. Pacific Garden Mission, fortieth annual statement",
-     "Chicago: Pacific Garden Mission, 67 W. Van Buren St. (cover and title leaf)",
-     "1916 (the cover and the title leaf print no year: page images, leaves n0 and n2. The statement opens 'The close of our fiscal year ending Sept. 15th, 1916', OCR lines 43-44, and the auditor's letter is dated 17 November 1916, line 430; the library shelf mark on the cover reads 1915/16)",
-     "The statement for the year ended 15 September 1916. Cover and title lines at OCR lines 4-24. 'Our Fortieth Annual Statement' at 40, signed by Sarah D. Clarke and Melvin E. Trotter at 119-120; subscriptions from 126; church offerings from 180; the auditor's letter, 17 November 1916, at 430-470; balance sheet at 480; income and expense at 581; endowment and general funds at 638 and 654; form of bequest at 672; the board of trustees at 693.", 40, 717)]:
+     "The report for the year ended 15 September 1908. Cover and title lines at OCR lines 3-30. Salutatory at 47; a great need, a home for homeless girls, at 96; the men's department at 221; how we reach the masses at 255; converts' testimonies at 306 (G. E. Wilson), 327 (unsigned), 366 (W. Dinganan, introduced in the third person) and 411 (S. M. Connor); contributions and church collections from 453; the endowment fund at 804; the treasurer's account at 869; the board of trustees at 906; thanks, signed by Sarah D. Clarke and Harry Monroe, at 926-940.", 47, 940)]:
     chk(ident, a, r"Salutatory|Fortieth|Annual", 4)
     rights = None; rshort = None
     if y == 1916:
@@ -469,7 +465,7 @@ for ident, n, y, fn, title, pub, pubdate, cont, a, b in [
         [row("pacific-garden-mission-%s-annual-report" % n, "Pacific Garden Mission, %s annual %s (%d)" % (n, "report" if y == 1908 else "statement", y), "pacific-garden-mission",
              "the report at OCR lines %d-%d" % (a, b), [RESC], "tradition", "provisional", "eng",
              doc((y, y), "the report is for the year ended 15 September %d" % y),
-             "The mission's own yearly account of its work and money" + (", with three converts' testimonies in their own words." if y == 1908 else "."))],
+             "The mission's own yearly account of its work and money" + (", with four converts' testimonies, mostly in their own words." if y == 1908 else "."))],
         rights=rights, rights_short=rshort,
         ruled={"pacific-garden-mission": ("anonymous", "A corporate report; the cover names the mission and no author (file lines %s)." % ("15-42" if y == 1908 else "16-36"))})
 

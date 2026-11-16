@@ -6,7 +6,7 @@ Rights: Public Domain (pd-us-by-date: published 1890); the archive.org record ca
 Language: eng
 Source: archive.org item pledgeofstudentv00wild, full text from the item's own djvu.txt (pledgeofstudentv00wild_djvu.txt). Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (23,052) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1890, out of US copyright by date. OCR quality: clean, with small errors. Word count of the host text: 3,866. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: A short pamphlet. Title page at OCR lines 1-51. I, the necessity for a pledge, at 54; II, what shall the pledge be, at 304; III, the meaning of the pledge, at 443, with its wording at 446-448: 'We are willing and desirous, God permitting, to become foreign missionaries'; IV, use of the pledge, at 560; V, who shall use the pledge, at 616. The text ends at 700; the order note at 708-711.
+Content note: A short pamphlet. Title page at OCR lines 1-51. I, the necessity for a pledge, at 54; II, what shall the pledge be, at 304; III, the meaning of the pledge, at 443, with its wording at 448-449, 'We are willing and desirous, God permitting, to become foreign missionaries' (the OCR breaks 'permitting' as 'permtt-ting'); IV, use of the pledge, at 560; V, who shall use the pledge, at 616. The text ends at 700; the order note at 708-711.
 
 ______________________________________________________________________
 

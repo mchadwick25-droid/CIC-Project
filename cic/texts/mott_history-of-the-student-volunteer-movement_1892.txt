@@ -6,7 +6,7 @@ Rights: Public Domain (pd-us-by-date: published 1892); the archive.org record ca
 Language: eng
 Source: archive.org item historyofstudent00mott, full text from the item's own djvu.txt (historyofstudent00mott_djvu.txt). Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (51,523) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1892, out of US copyright by date. OCR quality: clean; a statistics table is lost. Word count of the host text: 7,371. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: A pamphlet of 48 pages in five parts. Title lines at OCR lines 4-38. I, Origin, at 48; II, Development, at 344; III, Achievements, at 870, with an endorsement by the Presbyterian board's secretaries, dated New York, 6 November 1890, at 1097-1119; IV, Present status, at 1207; V, Purpose, at 1220. The text ends at 1404. A list of the Student Volunteer Series follows at 1407-1460.
+Content note: A pamphlet of 48 pages in five parts. Title lines at OCR lines 4-38. I, Origin, at 48; II, Development, at 344; III, Achievements, at 870, with an endorsement by the Presbyterian board's secretaries, dated New York, 6 November 1890, at 1080-1119; IV, Present status, at 1207; V, Purpose, at 1220. The text ends at 1404. A list of the Student Volunteer Series follows at 1407-1460.
 
 ______________________________________________________________________
 

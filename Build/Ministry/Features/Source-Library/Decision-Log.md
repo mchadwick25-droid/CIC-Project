@@ -965,7 +965,7 @@ Era 9 batch 2b's "located, not yet taken" volumes; then era 10 batch 2's follow-
 
 ## Era 9, the located volumes: the follow-on to batch 2b (2026-11-16)
 
-**Done.** 28 files (4,093,682 words): the further volumes and other witnesses that era 9 batch 2b located and
+**Done.** 27 files (4,092,114 words): the further volumes and other witnesses that era 9 batch 2b located and
 did not take. The files and the rows not filled are in `CFT-Wants.md` ("Era 9 (1815-1906), the located
 volumes"). The page-image reads, the corrections to the list, the calls and the cautions for writers are in
 `Build/Ministry/Operations/Audits/2026-11-16_library-era9-located/Search_Log.md`. Eight works are now held
@@ -977,13 +977,14 @@ batch 2b's list were not taken; that list came from the legend check and is drop
 texts are not taken again (In His Steps, 1899; Newton's Thoughts on the Apocalypse, 1904). No rendering.
 
 **Decided during the batch.**
-- **A dated report with no year on its cover is dated by its own text** (the Pacific Garden Mission's
-  statement for the year ended 15 September 1916, with an auditor's letter of 17 November 1916). This reaches a
-  little past R12's wording and is the thread's call; the coordinator or Mark may overrule.
+- **A dated report with no year on its cover is not taken on its own text.** The Pacific Garden Mission's
+  statement for the year ended 15 September 1916 has no printed year, no copyright notice and no catalog date,
+  only an auditor's letter of 17 November 1916. That is none of the bases the rights rule and R12 list, so the
+  file was vendored and then taken out after the review, and is held for Mark.
 - **A reader's upload with no catalog record is taken on its printed year** where every date in it is a
   century before the line (Dialogues on Prophecy, vol. II, 1828), as Taft's volumes were in era 8 batch 2.
 - **A year is read on the page image wherever the OCR's year is garbled or missing, or differs from the host's
-  date.** Fifteen leaves were read. Two years the OCR had dropped altogether were on the page (Cox, 1888;
+  date.** Fifteen leaves were read, and the reviewer read nine more. Two years the OCR had dropped altogether were on the page (Cox, 1888;
   Mott, 1892), so neither file needed R12.
 - **Further volumes keep the shelf, role and author slug of the held volume**, except where the later volumes
   have another writer on their title page (R. G. Wilberforce for vols. 2 and 3 of the Life Ashwell began).

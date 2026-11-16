@@ -2905,8 +2905,8 @@ authors:
     from_file: morris-john_troubles-of-our-catholic-forefathers-ser3_1877.txt
   pacific-garden-mission:
     kind: anonymous
-    evidence: A corporate report; the cover names the mission and no author (file lines 16-36).
-    from_file: pacific-garden-mission_fortieth-annual-statement_1916.txt
+    evidence: A corporate report; the cover names the mission and no author (file lines 15-42).
+    from_file: pacific-garden-mission_thirty-first-annual-report_1908.txt
   pantaenus:
     kind: metadata-omission
     evidence: div2 10.15 'Pantaenus, the Alexandrian Philosopher'.
@@ -3271,6 +3271,13 @@ authors:
     kind: metadata-omission
     evidence: div2 10.8 'Rhodon' names the author.
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  roberts-robert:
+    kind: metadata-omission
+    evidence: The title page (file lines 27-60) names no author and the preface is signed
+      'The Author' (file line 81). The archive.org record credits Robert Roberts; the last
+      leaf advertises Christendom Astray as 'by the same author' (file lines 14727-14740).
+      The attribution is the record's.
+    from_file: roberts-robert_the-trial_1908.txt
   russell-david:
     kind: metadata-omission
     evidence: The title page reads 'with an introductory essay, by the Rev. David Russell,

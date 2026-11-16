@@ -31994,13 +31994,3 @@ queue:
     verified_by: 'Library thread, era 9, the located volumes: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 25,856 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: pacific-garden-mission_thirty-first-annual-report_1908.txt
-  - title: 'Everlastingly At It: the Cross of Christ exalted 40 years in the Loop of Chicago. Pacific Garden Mission, fortieth annual statement'
-    author: 'Pacific Garden Mission'
-    year: '1916'
-    world: the-rescue-mission-movement
-    why: 'Era 9 batch 2b, located and not yet taken: the Pacific Garden Mission''s annual reports (the list named 1895, 1907 and 1915; the two found report the years ended September 1908 and September 1916, and the report of 1895 was not found).'
-    url: https://archive.org/details/annualreportpaci1915paci
-    rights_basis: 'Public Domain (pd-us-by-date: published 1916; the cover and title leaf print no year, and the date is the statement''s own, ''fiscal year ending Sept. 15th, 1916'', OCR lines 43-44, with the auditor''s letter of 17 November 1916 at line 430 and the library''s shelf mark agreeing); the archive.org record carries no rights field, so the imprint date is the basis'
-    verified_by: 'Library thread, era 9, the located volumes: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 11,027 equal to the listed size, the volume''s end read'
-    status: downloaded
-    vendored_as: pacific-garden-mission_fortieth-annual-statement_1916.txt

@@ -1585,12 +1585,11 @@ title page and is dated by the copyright notice of 1899 on the verso. Rows in th
 
 ## Era 9 (1815-1906), the located volumes (2026-11-16): the follow-on to batch 2b
 
-Twenty-eight files, 4,093,682 words: the volumes batch 2b located and did not take, with the items it named
+Twenty-seven files, 4,092,114 words: the volumes batch 2b located and did not take, with the items it named
 without an identifier. The record is in `Build/Ministry/Operations/Audits/2026-11-16_library-era9-located/`
 (`Search_Log.md`, with the page-image reads, the corrections to the list, four calls and the cautions for
 writers). Every file has a printed imprint of 1930 or earlier, read on its title page or on the scan's page
-image, except the Pacific Garden Mission's statement of 1916, which prints no year on its cover or title leaf
-and is dated by its own text. Rows in the tables above are not rewritten.
+image. Rows in the tables above are not rewritten.
 
 | want | state | file(s), with the imprint year | words | language | shelf |
 |---|---|---|---:|---|---|
@@ -1611,7 +1610,7 @@ and is dated by its own text. Rows in the tables above are not rewritten.
 | era 9 row 254, Robert Roberts: The Trial, and his debate with Bradlaugh | filled | `roberts-robert_the-trial_1908.txt` (1908); `roberts-bradlaugh_is-the-bible-divine-six-nights-discussion_1876.txt` (1876) | 134,261; 138,725 | eng | christadelphians, tradition |
 | era 9 row 260, J. G. Bellett: two more of his books | filled; the Evangelists scan holds John only | `bellett_minor-prophets_1870.txt` (1870); `bellett_evangelists-gospel-by-st-john_7th-ed1886.txt` (1886) | 25,691; 57,272 | eng | plymouth-brethren-and-dispensational-formation, tradition |
 | era 9 row 252, Eliza R. Snow: her Life of Lorenzo Snow | filled | `snow_biography-and-family-record-of-lorenzo-snow_1884.txt` (1884) | 206,667 | eng | latter-day-saints-lds, tradition |
-| The Pacific Garden Mission's annual reports | filled in part: the reports for the years ended September 1908 and September 1916; the report of 1895 not found | `pacific-garden-mission_thirty-first-annual-report_1908.txt` (1908); `pacific-garden-mission_fortieth-annual-statement_1916.txt` (1916, by its own text) | 3,980; 1,568 | eng | the-rescue-mission-movement, tradition |
+| The Pacific Garden Mission's annual reports | filled in part: the report for the year ended September 1908; the statement of 1916 prints no year and is held for Mark; the report of 1895 not found | `pacific-garden-mission_thirty-first-annual-report_1908.txt` (1908) | 3,980 | eng | the-rescue-mission-movement, tradition |
 | In His Steps in printings of 1899; Newton's Thoughts on the Apocalypse in the printing of 1904 | not taken | later printings of texts already held | | | |
 
 ## Later — queued

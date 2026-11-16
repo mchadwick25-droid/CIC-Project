@@ -10,7 +10,7 @@ assignments:
   confidence: provisional
   language: eng
   date: {start: 1908, end: 1908, source: "the report is for the year ended 15 September 1908", formation_confidence: Documented}
-  note: 'The mission''s own yearly account of its work and money, with three converts'' testimonies in their own words.'
+  note: 'The mission''s own yearly account of its work and money, with four converts'' testimonies, mostly in their own words.'
 authors_ruled:
   pacific-garden-mission:
     kind: anonymous

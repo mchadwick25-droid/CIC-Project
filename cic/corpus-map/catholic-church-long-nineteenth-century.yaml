@@ -49,9 +49,9 @@ works:
     source: the Pope's brief to the author is dated 4 September 1869 (OCR lines 484-485);
       this translation's title page reads 1872
     formation_confidence: Documented
-  note: A devout layman's history of the apparitions and the shrine, in an English monk's
-    translation. Bernadette's words reach the reader through Lasserre and then through the
-    translator.
+  note: A history of the apparitions and the shrine, approved by a brief of Pius IX, in the
+    translation of a Cistercian of St. Bernard's Abbey. Bernadette's words reach the reader
+    through Lasserre and then through the translator.
   source_file: lasserre_our-lady-of-lourdes_sisk1872.txt
 - row_id: lasserre_notre-dame-de-lourdes-fra_28e-ed1870--notre-dame-de-lourdes-vingt-huitieme-edition
   work: Notre-Dame de Lourdes; vingt-huitième édition

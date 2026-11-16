@@ -6,7 +6,7 @@ Rights: Public Domain (pd-us-by-date: published 1870); the archive.org record is
 Language: eng
 Source: archive.org item minorprophets00bell, full text from the item's own djvu.txt (minorprophets00bell_djvu.txt). Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (163,478) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1870, out of US copyright by date. OCR quality: clean, with typical slips ('lie' for He); running heads sit in the text. A Princeton Theological Seminary bookplate stands at OCR lines 1-10. Word count of the host text: 25,691. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Short meditations on the twelve prophets. Title page at OCR lines 25-50; contents at 53-79. Hosea at 82; Joel 375; Amos 642; Obadiah 723; Jonah 957; Micah 1353; Nahum 1681; Habakkuk 1847; Zephaniah 2145; Haggai 2427; Zechariah 2716; Malachi 3200. The text ends at 3556. No preface or index.
+Content note: Short meditations on the twelve prophets. Title page at OCR lines 25-50; contents at 53-79. Hosea at 82; Joel 375; Amos 642; Obadiah 723; Jonah 957; Micah 1354; Nahum 1681; Habakkuk 1847; Zephaniah 2145; Haggai 2427; Zechariah 2716; Malachi 3200. The text ends at 3556. No preface or index.
 
 ______________________________________________________________________
 

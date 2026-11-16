@@ -10,7 +10,7 @@ assignments:
   confidence: provisional
   language: eng
   date: {start: 1876, end: 1876, source: "title page: 1876; the nights are dated 13 to 22 June 1876", formation_confidence: Documented}
-  note: 'Roberts''s side is the Christadelphian case for the Bible; Bradlaugh''s speeches are an opponent''s, taken down in shorthand and, by Roberts''s own account, not revised by Bradlaugh. Quote each speaker as himself.'
+  note: 'Roberts''s side is the Christadelphian case for the Bible; Bradlaugh''s speeches are an opponent''s, taken down in shorthand; by Roberts''s own account Bradlaugh did not revise the report of the last three nights. Quote each speaker as himself.'
 - row_id: roberts-bradlaugh_is-the-bible-divine-six-nights-discussion_1876--roberts-review-of-the-discussion
   work: 'Roberts, A Review of the Discussion with Mr. Bradlaugh (1876)'
   author: roberts-robert
