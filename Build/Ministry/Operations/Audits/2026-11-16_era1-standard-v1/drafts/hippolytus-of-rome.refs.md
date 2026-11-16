@@ -3,7 +3,7 @@
 Files are under `cic/texts/`. Line numbers are file lines, read with tags and editors' notes stripped.
 A5 = `anf05_hippolytus-cyprian-caius-novatian.xml` (Refutation of All Heresies, tr. J. H. MacMahon; Against the Heresy of One Noetus, tr. S. D. F. Salmond; Novatian, On the Trinity). CM = `chronica-minora-liber-genealogus_mommsen1892.txt` (the book of 354, Latin, OCR). E = `npnf201_eusebius-church-history-life-of-constantine.xml`. J3 = `npnf203_theodoret-jerome-gennadius-rufinus.xml`.
 
-Words 317 (`wc -w`), grade 8.8, reading ease (names out) 78.9.
+Words 317 (`wc -w`; the tool counts 315), grade 9.8, reading ease (names out) 75.8.
 Over 300 because the record holds two stances (the Father and the Son; grave sins), each with its outcome, plus the plain statement that the quarrel's end is not recorded and the exile that follows it; cutting any of these would cut a stance or its consequence.
 
 ## (a) Moved to the card
@@ -36,7 +36,7 @@ Over 300 because the record holds two stances (the Father and the Son; grave sin
 - Crowds went to Callistus: A5 13883-13889, 13915-13919. His following still stood and called itself a Catholic church: A5 13950-13952, 13957-13960.
 - "The sources we have do not show how the quarrel ended": an honest limit. Searched: A5 (Refutation IX-X), E VI.20-22, J3 Lives 61, CM. None says.
 - Exile in 235 with Pontianus to Sardinia: CM 13078 and 13107 ("exoles sunt deportati in Sardinia ... Severo et Quintiano cons."). The year is the consular year.
-- The calendar of martyrs in the same book, burials in one entry: "Ypoliti in Tiburtina et Pontiani in Calisti", CM 12911-12913, under "Item depositio martirum".
+- The calendar of martyrs in the same book names the two together, in one entry, among the martyrs buried at Rome: "Ypoliti in Tiburtina et Pontiani in Calisti", CM 12911-12913, under "Item depositio martirum". The entry gives two burial places (the Tiburtine road; the cemetery of Callistus), so the brief does not say "side by side".
 - Easter table moved Eusebius to make his own: Jerome, Lives 61, J3 40692-40697 ("gave the cue to Eusebius"); Eusebius on the sixteen-year canon, E 35778-35780.
 - Theodoret quoted him as bishop and martyr among the church's witnesses: Dialogues (Eranistes), J3 20255-20262, 20466-20469, 23355-23357, 27186-27188. "Two centuries after the exile": Theodoret's census dates 393 to about 458.
 
@@ -85,3 +85,20 @@ Line of the story: a Roman presbyter fought his bishop over the Father and the S
 - The calendar's date column is broken in the OCR, so I say only "in one entry" and do not give the day.
 - CM is OCR Latin with many misread letters ("presbitcr", "Caliisti"); I read through them and quote none of it.
 - Theodoret's passages are on the incarnation, so the close says "the church's faith in Christ", the same wording the bar uses for Methodius from the same list.
+
+## Round 1 revision
+
+Review: `reviews/round1-g5.md`. Verdict was BLOCKED on one finding.
+
+- **B1, fixed.** The opening settled his rank for the presbyter side, and the close then called him a bishop. The opening now gives no rank. The list of 354 keeps its "presbyter" (CM 13078) and Theodoret keeps his "bishop and martyr" (npnf203 20261-20262), each as its own witness's word; Eusebius's "presided over another church" and Jerome's "bishop of some church" go to the card, What is uncertain.
+  - Old: "Hippolytus was a presbyter and writer there, in the Roman church of the third century."
+  - New: "Hippolytus was a teacher and writer there, in the Roman church of the third century."
+- **The reviewer's ruling on "a book now read as his": stands**, as allowed. The card carries the attribution under What is uncertain ((d)).
+- **Non-blocking, "lost this fight": taken.** The author never concedes a loss.
+  - New: "By his own account, crowds went over to Callistus, whose following still stood when he wrote and called itself a Catholic church."
+- **Non-blocking and sentence test, the calendar entry: taken**, saying what the entry shows (above, (b)).
+  - New: "A calendar of martyrs in the same book names the two together, in one entry, among the martyrs buried at Rome."
+- **Sentence test, the two transitions: taken.** "In a second quarrel, over grave sins, Hippolytus had put offenders out of the church." and "His books outlived the quarrel, and Jerome says his table ..."
+- **Quotations:** none added, removed or reworded.
+- Readability: grade 9.8 (names out 7.9), reading ease 75.8.
+

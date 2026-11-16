@@ -3,8 +3,8 @@
 Files are under `cic/texts/`. Line numbers are file lines; quotations re-checked against the file with tags and notes stripped.
 A1 = `anf01_apostolic-fathers-justin-irenaeus.xml` (Irenaeus, Against Heresies). A2 = `anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml` (Clement of Alexandria, Stromata). A3 = `anf03_tertullian.xml` (Tertullian, Against the Valentinians; Prescription against Heretics). A5 = `anf05_hippolytus-cyprian-caius-novatian.xml` (Hippolytus, Refutation). E1 = `npnf201_eusebius-church-history-life-of-constantine.xml`.
 
-Words 315 (`wc -w`), grade 9.5, reading ease (names out) 68.1.
-Over 300 because the brief must separate what two independent witnesses agree on from what rests on Irenaeus alone and on Tertullian alone, as well as carry the school and the church's reply; cutting further would drop one of those.
+Words 337 (`wc -w`), grade 9.3, reading ease (names out) 71.8.
+Over 300 because the brief must separate what two witnesses agree on from what rests on Irenaeus alone and on Tertullian alone, as well as carry the school and the church's reply. Round 1 added the moment at Rome (Cerdo and Marcion, Irenaeus III.4.3) and the Refutation as a second keeper of his words.
 
 ## (a) Moved to the card
 
@@ -24,7 +24,9 @@ Over 300 because the brief must separate what two independent witnesses agree on
 - Followers called Valentinians: Tertullian, Against the Valentinians 4, A3 43104-43106, 43124-43125. Gnostic: Irenaeus I.11.1, "adapted the principles of the heresy called 'Gnostic' to the peculiar character of his own school", A1 31520-31521. Tradition: census `valentinian-and-other-gnostic-christianities`, "Valentinian & other Gnostic Christianities".
 - A knowledge higher than faith: Clement, Stromata II.3, A2 32106-32111; Irenaeus I.6.2, "a mere faith, while they have not perfect knowledge", A1 30754-30757.
 - The bishopric story, its reason ("an able man both in genius and eloquence"), the confessor chosen, the break; ambition and revenge: Tertullian, Against the Valentinians 4, A3 43109-43117. Told without marks. Tertullian alone: not in Irenaeus I.11 or III.4.3, nor in the Clement passages read.
-- His own words only in passages Clement quotes, each followed by Clement's answer: A2 32722-32738; 34289-34314; 39090-39100; 46642-46652.
+- His own words only in passages his opponents quote, most in Clement, each followed by Clement's answer: A2 32722-32738; 34289-34314; 39090-39100; 46642-46652. The Refutation of All Heresies also quotes a psalm of his word for word ("in a psalm ... expressing himself thus: 'I behold ...'", `anf05_hippolytus-cyprian-caius-novatian.xml` 9787-9802) and tells his vision of a newborn child (anf05 10053-10057).
+- Other rival teachers came to Rome in those years, Cerdo and Marcion after him: Irenaeus III.4.3, A1 39968-39984 ("Cerdon, too, Marcion's predecessor, himself arrived in the time of Hyginus ... Marcion, then, succeeding him, flourished under Anicetus").
+- Clement had Valentinus's own letters before him: the letters and homily he quotes (A2 32722-32735, 34289-34301, 39090-39108). Clement had also read Irenaeus (Eusebius VI.13, he "mentions Melito and Irenæus, and certain others, and gives extracts from their writings", npnf201 34263-34266), so the brief no longer calls the two independent; Clement is a second witness because he stands on Valentinus's own words.
 - The heart like an inn: Clement, Stromata II.20, A2 34296-34301. "Roadside inn" is our plain word for "caravanserai"; "fouled by careless guests" tells "has holes and ruts made in it, and is often filled with dung; men living filthily in it, and taking no care for the place as belonging to others". Told without marks.
 - The Maker below a higher, unseen God. Irenaeus I.11.1: the Demiurge brought forth by the mother shut out of the Pleroma, A1 31535-31543; IV preface 3, "the Maker and Framer ... produced from a defect", A1 44340-44342. Clement IV.13: the world as far below "the living Aeon" as an image is below the living face; the Creator, "called God and Father", is the "Painter", an image "to the glory of the invisible One"; death "the work of the Creator of the world", A2 39097-39110.
 - Members saved by nature, ordinary believers given faith. Clement: "he also ... supposes a class saved by nature" (IV.13, A2 39095-39096); "the followers of Valentinus assign faith to us, the simple, but ... knowledge springs up in their own selves (who are saved by nature)" (II.3, A2 32106-32109); "a saved nature, as he would have it" (II.20, A2 34308-34309). Irenaeus I.6.2: "We of the Church, they say, are these persons ... they are spiritual by nature", A1 30754-30763.
@@ -75,9 +77,29 @@ Line of the story: a gifted teacher broke with the church at Rome, taught a high
 
 - Old brief, weak support: it rested the teaching on Irenaeus and Hippolytus. Hippolytus copies Irenaeus, so that was one witness. The rewrite rests it on Irenaeus and Clement and narrows the agreed teaching to what both carry.
 - Old brief: "Irenaeus and Clement of Alexandria both report that his followers divided people by nature" is supported, and Clement also says it of Valentinus himself (IV.13, A2 39095-39096).
-- "Wrote independently" is our judgment: Clement quotes Valentinus's own letters and homily, which Irenaeus does not, and neither cites the other in the passages read. No ancient line states it.
+- (Round 1: "wrote independently" is gone from the brief; see (b).) "Wrote independently" is our judgment: Clement quotes Valentinus's own letters and homily, which Irenaeus does not, and neither cites the other in the passages read. No ancient line states it.
 - Clement's "things which proceed from a pair are complements" (A2 39110-39112) touches the pairs, but it is Clement's gloss and thin; the brief leaves the pairs to Irenaeus alone.
 - "Around 140": Eusebius's placing of Hyginus depends on his own bishop lists; the year is approximate and should be said so on the card.
 - "A man who had suffered for the faith" tells the translation's "a claim which confessorship had given him" (A3 43111-43112).
 - Polycarp at Rome under Anicetus turning many back from Valentinus and Marcion (Irenaeus III.3.4, A1 39870-39875) is a held consequence left out for length.
 - The brief's opening does not name a region for Rome; "Rome" was judged enough.
+
+## Round 1 revision
+
+Review: `reviews/round1-g5.md`. Verdict was BLOCKED on three findings.
+
+- **B1, fixed.** "Wrote independently" was my judgment and Eusebius VI.13 goes against it (npnf201 34263-34266). The second witness now rests on what the record does carry: Clement quotes Valentinus's own letters.
+  - Old: "Irenaeus and Clement wrote independently, and on his teaching they agree on two points."
+  - New: "Clement had Valentinus's own letters before him, and on two points he and Irenaeus agree."
+- **B2, fixed.** The Refutation quotes a psalm of Valentinus (anf05 9787-9802), so "only ... Clement" was false.
+  - Old: "Valentinus's own words survive only in a few passages that Clement of Alexandria quotes in order to answer them."
+  - New: "Valentinus's own words survive only in a few passages his opponents quote. Most are in Clement of Alexandria, who quotes them in order to answer them."
+- **B3, fixed.** The opening now gives the moment at Rome from Irenaeus III.4.3 (A1 39968-39984).
+  - Old: "Around 140, a teacher named Valentinus came to Rome. Irenaeus of Lyon, who wrote against him, says he arrived ..."
+  - New: "Around 140, a teacher named Valentinus came to Rome. Other rival teachers came in those years too, Irenaeus of Lyon says: Cerdo, and Marcion after him. Irenaeus, who wrote against them all, says Valentinus arrived ..."
+- **Paid for by the reviewer's marked sentence:** "Tertullian of Carthage, another opponent, tells how the break came." is folded into the next: "Tertullian of Carthage, another opponent, says Valentinus expected to be made bishop, because he was an able and eloquent man. When a man ..."
+- **Non-blocking, "Irenaeus alone sets out the fuller system": taken** as "Irenaeus sets out a fuller system, which Clement does not confirm", which is exact against the held files (the Refutation also gives a system).
+- **Non-blocking, "Gnostic Christianities": left.** It is the tradition's census name, and the brief names the tradition directly.
+- **Quotations:** none added, removed or reworded.
+- Readability: grade 9.3 (names out 7.7), reading ease 71.8. The first form of the opening fix ran to grade 10.0 and was split.
+

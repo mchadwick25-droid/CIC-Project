@@ -3,7 +3,7 @@
 Files are under `cic/texts/`. Line numbers are file lines, read with tags and editors' notes stripped.
 A5 = `anf05_hippolytus-cyprian-caius-novatian.xml` (Novatian, On the Trinity, tr. R. E. Wallis; Cyprian, Epistles). E = `npnf201_eusebius-church-history-life-of-constantine.xml`. S = `npnf202_socrates-sozomen-ecclesiastical-histories.xml`. J3 = `npnf203_theodoret-jerome-gennadius-rufinus.xml`. C14 = `npnf214_seven-ecumenical-councils.xml`. CM = `chronica-minora-liber-genealogus_mommsen1892.txt` (the book of 354, Latin, OCR).
 
-Words 323 (`wc -w`), grade 9.8, reading ease (names out) 71.6.
+Words 317 (`wc -w`; the tool counts 316), grade 9.1, reading ease (names out) 73.9.
 Over 300 because he has two stances (the Trinity; the lapsed) and the second has a long sourced outcome (the Roman synod, Nicaea's canon 8, the churches of Socrates's day); cutting to 300 would drop one of those.
 
 ## (a) Moved to the card
@@ -25,8 +25,8 @@ Over 300 because he has two stances (the Trinity; the lapsed) and the second has
 - Novatian a presbyter of Rome who refused and separated; made bishop "by such bishops as entertained similar sentiments": S 14061-14084; E 38265-38270.
 - Tradition: census `novatianism`, "Novatianism". The followers bear his name: "the dogma of the Novatians", Jerome, Lives 70, J3 40887-40890; "the Novatian church", S 3852-3856.
 - On the Trinity answers those who say Christ is the Father and those who say he is only a man: On the Trinity 30, A5 63446-63458. Q1: A5 63458-63459.
-- Jerome: "a great volume On the Trinity ... which many mistakenly ascribe to Cyprian", Lives 70, J3 40895-40897; also Jerome, Apology against Rufinus II.19, J3 53840-53847. Cyprian sided with Cornelius: Eusebius VI.43.3, E 38338-38359; Cyprian, Epistle 51.1, A5 33412-33417.
-- Most of the account is his enemies': Eusebius VI.43 is built from Cornelius's letters (E 38301-38381).
+- Jerome: "a great volume On the Trinity ... which many mistakenly ascribe to Cyprian", Lives 70, J3 40895-40897; also Jerome, Apology against Rufinus II.19, J3 53840-53847. Cyprian sided with Cornelius: Eusebius VI.43.3, E 38338-38359; Cyprian, Epistle 51.1, A5 33412-33417. "In Jerome's day many still read it, though under the name of Cyprian": the plain reading of "which many mistakenly ascribe to Cyprian" (the book was in readers' hands, as Cyprian's), as the round 1 reviewer put it; Jerome says no more.
+- (Round 1: the transition "For the split itself, most of what we have comes from his enemies" is gone; the hostile marking now sits in the Cornelius sentence, "tells it as an enemy".) Eusebius VI.43 is built from Cornelius's letters (E 38301-38381).
 - Cornelius's charges: long wanted the office, E 38383-38387; three bishops, "rustic and very simple men", from a corner of Italy, made drunk and forced to lay hands on him, E 38518-38534. Kept by Eusebius: E 38376-38381.
 - Socrates had a friend among the Novatians: Auxanon, "a very aged presbyter of the Novatian church", who told him these things when Socrates was young, Socrates I.13, S 3855-3860.
 - Novatian's letter to all the churches (not to admit those who had sacrificed; exhort them to repentance; leave pardon to God): S 14084-14090. Told without marks.
@@ -34,7 +34,7 @@ Over 300 because he has two stances (the Trinity; the lapsed) and the second has
 - Cornelius: "the brethren leave him every day and return to the church": E 38776-38778.
 - The churches in the provinces took sides; some thought the rule cruel, others received it as just: S 14091-14107.
 - Nicaea, canon 8, on "those who call themselves Cathari": the ordained keep their rank; they must profess in writing to communicate with the twice-married and with those who lapsed in persecution and had a penance set: C14 3768-3782. That the Cathari are Novatian's party: Eusebius VI.43.1, E 38268-38270; Jerome, J3 40889-40890. The year 325 is the council's date as the census gives it.
-- Phrygia and Paphlagonia keep the strict discipline "even to the present day": S 14059-14061; see also S 14113-14118. At Rome the Novatians "had flourished exceedingly ... possessing many churches" until Celestinus took them away: Socrates VII.11, S 19289-19294. "Two centuries after the split": Celestinus follows Boniface in Socrates's list (S 19284-19290), and Auxanon lived to the reign of Theodosius the Younger (S 3858-3859); census dates for Socrates about 380 to after 439.
+- Phrygia and Paphlagonia keep the strict discipline "even to the present day": S 14059-14061; see also S 14113-14118. At Rome the Novatians "had flourished exceedingly ... possessing many churches" until Celestinus took them away: Socrates VII.11, S 19289-19294. "Two centuries after the split": Celestinus follows Boniface in Socrates's list (S 19284-19290), and Auxanon lived to the reign of Theodosius the Younger (S 3858-3859); census dates for Socrates about 380 to after 439. "Nearly two centuries": Socrates writes after 439, with Celestinus (from 422) past (S 19284-19290); 251 to about 440 is under two centuries.
 
 ## (c) Quotations
 
@@ -82,3 +82,20 @@ Line of the story: a Roman presbyter refused to take back those who had sacrific
 - Jerome's phrase "which many mistakenly ascribe to Cyprian" shows the book circulating under Cyprian's name; it does not say who read it or where. Jerome's Apology (J3 53840-53847) reports Rufinus saying the Macedonians at Constantinople read it so, which Jerome disputes in part. The brief keeps to Jerome's Lives.
 - The council brief for Rome and Carthage 251 is another writer's; this brief gives the synod one sentence.
 - Old brief: "Novatian's church ... lasted, McGiffert says, into the sixth century" rested only on McGiffert. The old opening quote of On the Trinity and "three Italian bishops consecrated him" told flat (it is Cornelius's hostile account) are also gone.
+
+## Round 1 revision
+
+Review: `reviews/round1-g5.md`. Verdict was BLOCKED on two findings.
+
+- **B1, fixed by a reorder, not a patch.** The split is now told in one run: the setting and the refusal (with the tradition named), the consecration with both witnesses at once and the hostile one marked, his letter to the churches, the synod, the provinces, Nicaea and Socrates's day. The Trinity stance follows the split, with its consequence (B2). "For the split itself, most of what we have comes from his enemies" is gone; the marking is now in the Cornelius sentence. Cornelius's "dogmatist" line is not used, since it has had no rendering check. No claim is added: every sentence is one the first draft told, moved.
+  - New opening paragraph ends: "Novatian, a presbyter of Rome, refused, and from his refusal came Novatianism, the strict churches that took his name."
+  - New second paragraph: "Bishops who agreed with him made him bishop against Cornelius, says Socrates of Constantinople, who had a friend among the Novatians. A letter of Cornelius, kept by Eusebius of Caesarea, tells it as an enemy. Novatian had long wanted the office, it charges, and he got three country bishops drunk and forced them to lay hands on him. Novatian then wrote to all the churches, Socrates says, ..."
+- **B2, fixed.** The Jerome sentence now says what it shows, as the reviewer's accepted wording has it.
+  - Old: "Jerome says many later took the book for the work of Cyprian of Carthage, who had sided with Cornelius."
+  - New: "In Jerome's day many still read it, though under the name of Cyprian of Carthage, who had sided with Cornelius."
+- **Non-blocking, "many welcomed": taken** as "others welcomed" (S 14091-14107: some thought the rule cruel, others received it).
+- **Non-blocking, "Two centuries": taken** as "Nearly two centuries".
+- **Non-blocking, Cyprian's corroboration of the rule (anf05 34102-34108): left** for the card. It would be a new claim in a revision that adds none.
+- **Quotations:** none added, removed or reworded.
+- Readability: grade 9.1 (names out 7.3), reading ease 73.9.
+

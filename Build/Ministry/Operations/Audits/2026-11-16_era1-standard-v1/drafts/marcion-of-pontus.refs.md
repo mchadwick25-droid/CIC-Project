@@ -3,7 +3,7 @@
 Files are under `cic/texts/`. Line numbers are file lines; quotations re-checked against the file with tags and notes stripped.
 A1 = `anf01_apostolic-fathers-justin-irenaeus.xml` (Justin, First Apology; Irenaeus, Against Heresies). A3 = `anf03_tertullian.xml` (Tertullian, Prescription against Heretics; Against Marcion, tr. Holmes). EpH = `epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt` (Greek). T3 = `npnf203_theodoret-jerome-gennadius-rufinus.xml` (Theodoret, Letters). E1 = `npnf201_eusebius-church-history-life-of-constantine.xml`. EphM = `ephraim_prose-refutations_mitchell1912-1921.txt`.
 
-Words 324 (`wc -w`), grade 9.4, reading ease (names out) 78.7.
+Words 344 (`wc -w`), grade 8.7, reading ease (names out) 79.6.
 Over 300 because the brief must carry the hostile-witness marking (who agrees on the teaching, what rests on Tertullian) as well as two stances and three consequences (spread, the church's answer, the churches' long life); cutting further would drop one of those.
 
 ## (a) Moved to the card
@@ -23,6 +23,9 @@ Over 300 because the brief must carry the hostile-witness marking (who agrees on
 - "Around 150 ... teaching in Rome": Justin, First Apology 26, "even at this day alive, and teaching" (A1 14943-14945) and 58 (A1 16131-16132); the same Apology counts 150 years from Christ's birth (Apology 46, A1 15680-15681). Tertullian: "in the reign of Antoninus" (A3 21334; Against Marcion I.19, A3 23721-23727). Rome: Irenaeus III.4.3 (A1 39969-39984); Tertullian, Prescription 30 (A3 21335-21337).
 - From Pontus, on the Black Sea: Justin (A1 14943, 16131); Irenaeus I.27.2 (A1 33572); Tertullian, Against Marcion I.1, the Euxine Sea (A3 22516 onward). "Coast of Asia Minor" is plain geography; census regions for `marcion-of-pontus` include "Asia Minor".
 - Churches he founded, named for him: Tertullian, Against Marcion IV.5, "It too, of course, has its churches ... with Marcion forsooth as their founder" (A3 29322-29330). Tradition: census `marcion-marcionism`, "Marcion / Marcionism".
+- Rival teachers at Rome around 150, Valentinus and Cerdo and after them Marcion: Irenaeus III.4.3, A1 39968-39984 ("Valentinus came to Rome in the time of Hyginus, flourished under Pius, and remained until Anicetus. Cerdon, too, Marcion's predecessor, himself arrived in the time of Hyginus ... Marcion, then, succeeding him, flourished under Anicetus").
+- Polycarp came to Rome and turned many away from these teachers: Irenaeus III.3.4, A1 39870-39875 ("coming to Rome in the time of Anicetus caused many to turn away from the aforesaid heretics to the Church of God").
+- "asking to be owned as a brother": the sense of the question, carried by Irenaeus's next sentence, "Such was the horror which the apostles and their disciples had against holding even verbal communication with any corrupters of the truth" (A1 39884-39886), and by the card note to `renderings/comparison.md` E24.
 - Polycarp, old, bishop of Smyrna: Irenaeus III.3.4 (A1 39857-39862). The meeting and the two speeches: A1 39882-39884.
 - None of his own books held; the account comes from opponents: a statement about the record (card, What is uncertain, first item). Justin calls him put forward by devils (A1 16130-16131); Irenaeus, "the mouth of the devil" (A1 33599-33600).
 - Justin, while Marcion lived, on another god greater than the Creator: A1 14943-14946.
@@ -107,3 +110,21 @@ Line of the story: a teacher at Rome set another God above the Creator and cut t
 - Epiphanius's line 7462 is damaged in the file's OCR ("ἡ δὲ αἵρεσις ἔτε καὶ νῦν Ev τε"); the place list at 7470-7472 is clean. Told without marks.
 - "Two centuries" and "the century after that" rest on the census dates of Epiphanius and Theodoret, not on a statement in their texts.
 - Polycarp's turning many at Rome back from Valentinus and Marcion (Irenaeus III.3.4, A1 39870-39875) is a further consequence held in the file; left out for length. It could replace a sentence if the coordinator wants it.
+
+## Round 1 revision
+
+Review: `reviews/round1-g5.md`. Verdict was BLOCKED on two findings.
+
+- **B1, fixed.** A listener would hear "Do you recognize us?" literally. One frame clause from Irenaeus's own context (A1 39884-39886) now sets the reply up as a refusal. The quotations are unchanged (E24, E25).
+  - Old: "Irenaeus of Lyon tells that when Polycarp, the old bishop of Smyrna, met him, Marcion asked, "Do you recognize us?""
+  - New: "Once Marcion met him and, asking to be owned as a brother, said, "Do you recognize us?""
+- **B2, fixed.** The opening now gives the moment at Rome from Irenaeus III.4.3 and III.3.4, which also sets the Polycarp scene and carries Polycarp's turning many back, a consequence the first draft had left out for length (my note above).
+  - Old: "Around 150, Marcion of Pontus was teaching in Rome. He came from Pontus, on the Black Sea coast of Asia Minor, and the churches he founded took his name and became Marcionism."
+  - New: "Around 150, rival teachers were at work in the church of Rome. Irenaeus of Lyon names Valentinus and Cerdo, and after them Marcion of Pontus, on the Black Sea coast of Asia Minor. The churches Marcion founded took his name and became Marcionism. When Polycarp, the old bishop of Smyrna, came to Rome, Irenaeus says, he turned many away from these teachers."
+- **Paid for by the reviewer's marked sentence:** Theodoret is folded into a shorter sentence, "A century later Theodoret of Cyrrhus, a bishop in Syria, led eight villages of them over to his own faith." (Letter 81, T3 31511-31513).
+- **Non-blocking, "drew an answer": taken** as "drew answers", since Irenaeus's four-Gospel case answers several groups.
+- **Non-blocking, the two "but"s: taken.** Split at "out": "... which put him out. His own churches spread all the same."
+- **Length.** 344 words, over 325. The setting the review asked for and the consequence it brings add about 30 words; the cut above pays for some of it. Each part carries a stance, its witness or a consequence.
+- **Quotations:** none added, removed or reworded.
+- Readability: grade 8.7 (names out 6.9), reading ease 79.6.
+
