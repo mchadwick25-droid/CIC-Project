@@ -3997,3 +3997,10 @@ Also in this change:
 - The rule is item 18 of the Who pattern's checklist, and the council pattern's opening points to it. It covers the brief and any card prose meant for listeners.
 - Fixed in eight of the ten bar briefs. Athanasius, Ephrem, Gregory of Nazianzus, Gregory of Nyssa, John Chrysostom, Methodius and Origen named their tradition as "the church (or tradition) the tree calls X", and Constantine had "the tree's story of Church and Empire". Gregory of Tours and Benedict had none.
 - The era 1 rewrite handover carries the rule. Athanasius is not recorded again for this one phrase; the final recording run uses the corrected text.
+
+## 2026-11-16 — The ten approved; Rufinus stays out (Mark, 2026-11-16)
+
+**Decided (Mark, 2026-11-16, relayed by the coordinator):** "then they all pass, move forward and make sure we don't drift from this quality and rigor". The ten bar briefs, as tightened and rechecked, are approved to proceed.
+- Gregory of Nazianzus's Rufinus line stays out. Jerome carries his reach west, as the recheck found, and Mark can bring it back later. The line is card-only in the record's references.
+- What follows, in order: merge #1705 on green; record all ten in one paid run from the merged text, with Athanasius again because his text changed, on the same printed settings with counts printed before and the balance checked after; release the ten as one data release with census text, cards (references and printed originals) and the new audio, checked on the live site.
+- The drift guards hold from here: the bar in every brief, the CI lock, Mark's listen to one random brief per era before release, and the blind check every five batches.
