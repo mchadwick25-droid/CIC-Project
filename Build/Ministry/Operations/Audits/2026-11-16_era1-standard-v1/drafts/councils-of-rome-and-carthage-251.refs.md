@@ -3,7 +3,7 @@
 Files are under `cic/texts/`. Line numbers are file lines, read with tags and notes stripped.
 AN = `anf05_hippolytus-cyprian-caius-novatian.xml` (Cyprian's letters, tr. Ernest Wallis, 1886; the Letter to Antonianus is Epistle 51 there). H = `cyprian_epistulae-lat_hartel1871-csel3-tei.txt` (Hartel's Latin; the same letter is Epistle 55). E = `npnf201_eusebius-church-history-life-of-constantine.xml` (Eusebius, Church History, tr. McGiffert, 1890). EG = `eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt` (Greek). S = `npnf202_socrates-sozomen-ecclesiastical-histories.xml` (Socrates, tr. Zenos, 1890). SG = `socrates_historia-ecclesiastica-tomus2-grc-lat_hussey1853.txt` (Greek). N = `npnf214_seven-ecumenical-councils.xml` (canons of Nicaea, tr. Percival, 1900). Hf = `hefele_history-of-the-councils-v1-to-nicaea_clark1872.txt`.
 
-Words 414 (`wc -w`), grade 9.0, reading ease (names out) 70.4.
+Words 424 (`wc -w`), grade 9.1, reading ease (names out) 70.9.
 Over 300 because the brief tells two meetings and three traditions, and each decision is followed by what came of it: Rome's agreement, Novatian's rule and his churches, the East, Carthage's own change, and Nicaea. It is inside the council stretch (3:00, about 450 words).
 
 ## (a) Moved to the entry
@@ -12,7 +12,7 @@ Over 300 because the brief tells two meetings and three traditions, and each dec
 - Cyprian's return "after the festival of Easter in 251": Hefele (Hf 6365-6366). Entry only.
 - The later Carthage council "on the Ides of May 252, which sixty-six bishops attended": Hefele (Hf 6505-6507). The brief says only "when a new persecution seemed near", from the bishops' own letter. Entry `outcome`, `datesNote`, `uncertain`, by name.
 - The year 251 itself: no ancient witness gives a year number. Cyprian dates the meeting only as "when the persecution was quieted" (AN 33507-33508; H 7580-7581, "persecutione sopita"), and Socrates and Eusebius tie the quarrel to Decius (S 14069-14082; E 38265-38273). The brief keeps "In 251" as the opening year, the one point where the historians agree; `datesNote` should say it is reckoned.
-- Cornelius's letters "are no longer extant": Arthur McGiffert's note (E 38324). The brief says "survive only through him" without naming him; entry `record` names McGiffert.
+- Cornelius's letters "are no longer extant": Arthur McGiffert's note (E 38324). Out of the brief since round 1 (the brief says only that they "had reached him"); entry `record` and `uncertain` name McGiffert.
 - Socrates's leaning toward the Novatians (A. C. Zenos): entry `record`, already there.
 - The excommunication of Felicissimus and five presbyters (Cyprian, Letter to Cornelius; Hefele places it at this council, Hf 6369-6372): a side decision, out of the brief; stays in entry `decided`.
 - The Roman clergy's letter agreeing to wait for a council, which Cyprian says Novatian wrote (AN 33487-33502; H 7571): out of the brief on the sentence test; it belongs to the Novatian Who brief. Stays in entry `issue`.
@@ -35,7 +35,7 @@ Over 300 because the brief tells two meetings and three traditions, and each dec
 - The Africans wrote to Cornelius. Participant: Antonianus 6 (AN 33524-33526; H 7612-7614).
 - Cornelius bishop of Rome; anyone made bishop after him is outside. Participant: Antonianus 8 (AN 33573-33592).
 - A stricter party made the presbyter Novatian bishop against him. Later narrative: Socrates IV.28, a presbyter of the Roman church who separated because Cornelius received those who had sacrificed, and was "elevated to the episcopacy by such bishops as entertained similar sentiments" (S 14061-14084); Eusebius VI.43.1 (E 38265-38270); Cornelius's own hostile account in Eusebius VI.43.7-8 (E 38460-38520).
-- Eusebius works from Cornelius's letters. Later narrative: VI.43.3-4 (E 38301-38327, 38361-38378). "Survive only through him": modern reconstruction (McGiffert's note, E 38324).
+- Eusebius works from Cornelius's letters. Later narrative: VI.43.3-4 (E 38301-38327, 38361-38378). "Letters of Cornelius that had reached him": Eusebius's own "have reached us" (E 38301-38302).
 - Sixty bishops, and more presbyters and deacons; the decree: Novatian and those with him strangers to the church; the fallen to be healed with the medicines of repentance. Later narrative from a participant's letters: Eusebius VI.43.2 (E 38272-38299; Greek EG 6606-6612).
 - Rome agreed with Carthage. Participant: Antonianus 6, Cornelius "holding a council with very many bishops, concurred in the same opinion" (AN 33526-33529; H 7614-7616). Later narrative: Eusebius VI.43.3 (E 38338-38359).
 - Novatian's side through opponents. The witnesses are Cyprian (participant, opponent), Cornelius in Eusebius (participant, opponent) and Socrates (later narrative).
@@ -103,3 +103,19 @@ Sentences cut on the sentence test: 7 (Cyprian's return after a year away; the R
 - Old brief: quotations in the 1886 and 1890 English ("assemble into one place", "wholly denied to the lapsed", "strangers", "with the medicines of repentance", "should not admit to the sacred mysteries those who had sacrificed", "it were better to suffer everything, rather than divide the Church of God") are now told without marks, except the last, which is rendered from the Greek (Q1).
 - The teaching of the condemned party rests on Socrates for its own terms and on Cyprian and Cornelius as opponents; the brief says "mostly through such opponents". No letter of Novatian on the councils is held.
 - I did not verify the record's Hartel line numbers for every Latin phrase beyond those cited above; the Latin lines given were opened and read.
+
+## Round 1 revision
+
+Review: `reviews/round1-g3.md`. Verdict was BLOCKED on one finding (C9, through B1).
+
+- **B1, fixed.** "Survive only through him" rested on McGiffert's note alone (E 38324). Eusebius says only that the letters had reached him (E 38301-38302).
+  - Old: "Eusebius of Caesarea, working from letters of Cornelius that survive only through him, says sixty bishops met there."
+  - New: "Eusebius of Caesarea, working from letters of Cornelius that had reached him, says sixty bishops met there."
+- **Non-blocking, the 41-word closing sentence: taken**, split after the act so that the "for" still gives the canon as the evidence.
+  - New: "The way back itself held, for in 325 the council of Nicaea set terms for Novatian's clergy. They could keep their rank only if they promised in writing to share communion with those who had lapsed in persecution and been given a term of penance."
+- **Non-blocking, the two short sentences on the lost book: taken.** "The book of their decisions is lost, so what they decided reaches us from Cyprian, who called the meeting and defended it afterward."
+- **Non-blocking, Novatian named before he is known: taken.** "the strict churches of the Roman presbyter Novatian" (presbyter: Socrates IV.28, S 14068, "a presbyter of the Roman Church"; Eusebius VI.43.1, E 38265, "a presbyter of the church at Rome").
+- **Non-blocking, Socrates's leaning to the Novatians: left** for the entry's witnesses; the brief already says Novatian's side reaches us "mostly through such opponents", and adding Socrates's sympathy there would need its own line of evidence.
+- **Quotations:** none added, removed or reworded.
+- Readability: grade 9.1 (names out 7.8), reading ease 70.9. 424 words, about 2:50, inside the council stretch to 3:00.
+

@@ -3,7 +3,7 @@
 Files are under `cic/texts/`. Line numbers are file lines, opened and read.
 EU = `npnf201_eusebius-church-history-life-of-constantine.xml`. S = `npnf202_socrates-sozomen-ecclesiastical-histories.xml`. TH = `npnf203_theodoret-jerome-gennadius-rufinus.xml`. AT = `npnf204_athanasius-select-works-letters.xml`.
 
-Words 303 (`wc -w`; tool 301), grade 9.5, reading ease (names out) 72.3.
+Words 305 (`wc -w`; tool 303), grade 9.4, reading ease (names out) 73.0.
 Over 300 by three words: two stances (the History, the letter from Nicaea), each with its consequence and the doubt later writers raised.
 
 ## (a) Moved to the card
@@ -33,7 +33,7 @@ Over 300 by three words: two stances (the History, the letter from Nicaea), each
 - Did not let it pass without inquiry into the sense: Letter 5, AT 19699-19702; 8, AT 19867-19869. Told without marks.
 - Some branded him as favoring Arian views; Socrates defends him: Socrates II.21, S 6914-6920 and the chapter to S 7020.
 - Athanasius attached the letter to his defense of Nicaea: De Decretis 3, AT 26780-26795 ("I have subjoined at the end the letter of Eusebius"); the letter as appended, AT 19554 onward.
-- Socrates copied the letter into his account of Nicaea and treated it as an authority: Socrates I.8, S 2979-3157 (the letter), and S 2866-2870 ("treating what he has said as an authority", said there of Eusebius's account of the council from the Life of Constantine).
+- Socrates built his account of Nicaea on Eusebius's words, "treating what he has said as an authority" (I.8, S 2866-2870, said of Eusebius's account of the council quoted from S 2837), and copied the letter in full ("what was written by Eusebius was as follows in his own words", S 2978-2979; the letter, S 2979-3157).
 
 ## (c) Quotations
 
@@ -87,3 +87,19 @@ Sentences cut on the sentence test: 10 (the Thebaid scene, the name Pamphili wit
 - "Each began a church history where his ended" is exact for Theodoret. Socrates says he begins with what Eusebius left out and writes "since his time to our own day", and he reviews Constantine's conversion first.
 - The old brief's opening (the Thebaid, "the murderous sword was blunted") is sound but was cut for the line; I found no claim in the old brief that the held files contradict. Its statement that McGiffert "gives this reason for the name" moves to the card.
 - Whether a pre-Constantinian tradition suits a brief whose stances fall in 325 and after: the opening places him in that church in 303, which the sources carry.
+
+## Round 1 revision
+
+Review: `reviews/round1-g3.md`. Verdict was BLOCKED on two findings. Both were my own flags.
+
+- **B1, fixed.** Socrates's "treating what he has said as an authority" (S 2866-2870) is said of Eusebius's account of the council, not of the letter, which comes later (S 2978-2979).
+  - Old: "Socrates himself copied the letter into his account of Nicaea and treated it as an authority."
+  - New: "Socrates himself built his account of Nicaea on Eusebius's words, treating them, he says, as an authority. He copied the letter in full."
+- **B2, fixed.** The thesis opener is cut, and the paragraph opens on the act.
+  - Old: "Arius was the test of Eusebius himself. In 325, at the council of Nicaea, he read out his own creed before Constantine."
+  - New: "In 325, at the council of Nicaea, Eusebius read out his own creed before Constantine."
+  - Two one-line hinges remain ("Later historians built on it." and "That letter followed him."). Each carries a claim the paragraph then proves, and the reviewer counted them only beside the cut one.
+- **Non-blocking, the Eustathius quarrel (Socrates I.23-24): left on the card**, as the reviewer allows; it would be a new claim.
+- **Quotations:** none added, removed or reworded.
+
+- Readability: grade 9.4 (names out 7.5), reading ease 73.0.

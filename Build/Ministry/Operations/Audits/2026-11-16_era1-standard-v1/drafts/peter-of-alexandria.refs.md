@@ -3,7 +3,7 @@
 Files are under `cic/texts/`. Line numbers are file lines, opened and read.
 AN = `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml`. EU = `npnf201_eusebius-church-history-life-of-constantine.xml`. S = `npnf202_socrates-sozomen-ecclesiastical-histories.xml`. AT = `npnf204_athanasius-select-works-letters.xml`. EpO = `epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt` (Greek with Petavius's Latin). C14 = `npnf214_seven-ecumenical-councils.xml`.
 
-Words 305 (`wc -w`; tool 302), grade 8.8, reading ease (names out) 71.9.
+Words 307 (`wc -w`; tool 304), grade 9.0, reading ease (names out) 71.0.
 Over 300 by five words: two stances (the canons, the stand against Meletius), a dispute told in place with both sides, and a sourced consequence for each.
 
 ## (a) Moved to the card
@@ -27,6 +27,8 @@ Over 300 by five words: two stances (the canons, the stand against Meletius), a 
 - The old account: he came to Alexandria, suspended the presbyters Peter had appointed and ordained two in their place: AN 16820-16844. Named as an account because it is a single anonymous source.
 - Peter's letter, hold no communion until he meets him: Letter to the Church at Alexandria, AN 27790-27804. Told without marks.
 - Athanasius: Peter deposed Meletius in a council for many crimes, among them sacrifice to idols: Apology against the Arians 59, AT 24777-24781. Athanasius as the Meletians' enemy: the same passage, AT 24782-24806 ("like dogs unable to forget their vomit").
+- "In the same persecution": Athanasius and Epiphanius place the break in that persecution and nothing closer (AT 24777-24781; Panarion 68, EpO 43676-43683). No held source dates the ordinations against the canons of 306.
+- Epiphanius "writes kindly of Meletius": he calls Meletius's side's reasoning "a veritatis amore profecta, et divini ardoris plenissima ratio" (EpO 43803-43804).
 - Epiphanius: both imprisoned together; the fallen asked for penance; Meletius and others wanted them held back until peace and a fitting time; Peter for mercy; the greater number of bishops, monks, presbyters and others joined Meletius: Panarion 68.1-3, EpO Latin 43676-43683, 43786-43806, 43894-43933 (Greek on the facing lines from EpO 43599). Told without marks.
 - Beheaded in the ninth year, seized unexpectedly: EU 43266-43268; EU 47996-47998.
 - Nicaea: Meletius to stay in his city, with no authority to ordain, keeping the bare title: the council's letter in Socrates I.9, S 3204-3211. 325: S 3915 (editor's date), and the common date.
@@ -37,7 +39,7 @@ Over 300 by five words: two stances (the canons, the stand against Meletius), a 
 
 Q1
 - file: `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml`
-- lines: 26614-26615
+- lines: 26616-26617 (corrected in round 1 from 26614-26615)
 - printed: "they did not come to this of their own will, but were betrayed by the frailty of the flesh"
 - rendering: "did not come to this by their own choice, but were betrayed by the weakness of the flesh."
 - original: held in `nikodemos-hagiorite_pedalion-canons-grc_1886.txt`, lines 49722-49723: οὐ γὰρ κατὰ προαίρεσιν ἐν τούτῳ ἐληλύθασιν, ἀλλὰ καταπροδοθέντες ὑπὸ τῆς ἀσθενείας (the line runs on to τῆς σαρκός, as at 49720).
@@ -78,3 +80,18 @@ Sentences cut on the sentence test: 9 (see the side facts in (a), with the Bell,
 - "Most of the clergy there" stands for Epiphanius's "the greater number of the bishops, monks, presbyters and other orders".
 - Bell and Hefele were not reopened; nothing in the brief rests on them.
 - "Then be received" rests on the two Byzantine commentators' reading of Canon I; the canon itself says the forty days are "sufficient".
+
+## Round 1 revision
+
+Review: `reviews/round1-g3.md`. Verdict was BLOCKED on one finding.
+
+- **B1, fixed.** "While he made room for the fallen" tied Meletius's ordinations to the time of the canons, which no held source does, and it gave the break Epiphanius's framing before the brief says the cause is disputed.
+  - Old: "While he made room for the fallen, another Egyptian bishop, Meletius of Lycopolis, was ordaining clergy ..."
+  - New: "In the same persecution, another Egyptian bishop, Meletius of Lycopolis, was ordaining clergy ..."
+  - My flag in the coordinator notes on "While he made room" is answered by this fix.
+- **Non-blocking, Epiphanius's leaning: taken.** "Epiphanius of Salamis, who writes kindly of Meletius, says ..." (EpO 43803-43804), which balances "the Meletians' enemy" for Athanasius.
+- **Non-blocking, the theological fragments: left.** The Acts of Ephesus are not held, so no consequence can be shown; card only.
+- **Records fix:** Q1's lines are 26616-26617.
+- **Quotations:** none added, removed or reworded.
+- Readability: grade 9.0 (names out 7.3), reading ease 71.0.
+
