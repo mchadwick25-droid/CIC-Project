@@ -3895,7 +3895,7 @@ All files are in `Build/Ministry/Operations/Audits/2026-11-15_story-relations-cl
 - The old Gregory and Benedict files in era 3 batches 5 and 2 are replaced. The cards gain a `briefReferences` field.
 - The census, the live site and the live audio are unchanged. Era 3's release comes later.
 
-**Still open.** Quotation marks on our own English renderings, and how reviews are run. Both are marked open in the patterns, and the current text stands.
+**Still open.** Quotation marks on our own English renderings, and how reviews are run. Both are marked open in the patterns, and the current text stands. (Both ruled below, 2026-11-16.)
 
 **Drift guards (Mark, 2026-11-16: "All six (Recommended)").** Mark chose all six guards from the coordinator's page "Keeping Standard v1":
 1. A CI check fails a pull request that changes the pattern files or the bar folder unless the same pull request adds a Decision-Log entry quoting Mark's words for that change. Thread A builds it.
@@ -3903,7 +3903,9 @@ All files are in `Build/Ministry/Operations/Audits/2026-11-15_story-relations-cl
 3. Before an era's batch goes live, Mark hears one brief picked at random from it, beside a bar brief. His yes is the release.
 4. Every five batches, a fresh reviewer scores new and bar briefs mixed without labels. If the new ones score lower, writing stops.
 5. Readability numbers are a floor and a ceiling only. Craft is judged by reading.
-6. One coordinator at a time. A ruling is recorded only with Mark's quoted words, and anything passed on second-hand is marked as a remark.
+6. One coordinator at a time. A ruling is recorded only with Mark's quoted words, and anything passed on second-hand is marked as a remark. Every brief and handover links the rulings record.
+
+The page also says, for guard 4, that writing stops "until we know why", and for guard 3, that the listen takes "about five minutes a batch", so it runs once per batch.
 
 Guards 3 to 6 are in `Who_Profile_Pattern.md`, "Drift guards". Guard 2 is in `Worker_Brief_Template.md`.
 
@@ -3915,7 +3917,7 @@ Guards 3 to 6 are in `Who_Profile_Pattern.md`, "Drift guards". Guard 2 is in `Wo
 - Standard v1 has no open points left.
 
 **The inferred working rules (Mark, 2026-11-16: "Take my recommendations (Recommended)").** Mark approved the coordinator's recommendations on the 29 rules from the rulings draft as a set. They are not his own words, and `Who_Profile_Pattern.md`, "Working rules", marks them "approved by Mark on the coordinator's recommendation, 2026-11-16":
-- Kept: A6, A7, A19, A27, A47, A48, A53, A61, A62, A64, A65, A74, B14, B15, C2, C3, C4, C9, C10, C11 and C19.
+- Kept: A6, A7, A19, A27, A47, A48, A53, A61, A62, A64, A65, A74, B14, B15, C2, C3, C4, C9, C10, C11 and C19. A64 reinstates the bare-year rule after the opening's clear year.
 - Retired: A37 and B13 (the 2:30 caps), and A72 and A73 (a much later Life means LISTED).
 - Replaced by the two-kinds quotation rule: A67 and A70.
 - Held, not rules: C17 and C18.

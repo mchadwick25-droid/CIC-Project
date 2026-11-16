@@ -85,7 +85,7 @@ Approved to proceed (Mark, 2026-11-16: "yes this is a much better revision, i ap
   - What only a modern scholar establishes (a date he reckons, a count, an attribution, a judgment on a manuscript) goes to the card, under What is uncertain or Sources. It is never told flat in the brief, and never given to an ancient writer. This replaces the earlier option of naming the scholar in a clause (Standard v1).
   - A dispute that bears on the story is told in the brief where it arises, with each side named, in a sentence or two. Only a dispute over a date or a manuscript reading that bears on nothing else goes to What is uncertain, and the brief then claims only what both sides accept ("in the 590s") (Mark, 2026-11-15).
   - How a text reached us (editions, manuscripts, printings) is not a paragraph of the brief. Where it bears on trust, one clause says so, through ancient witnesses: "We read that book mostly in the Latin of Rufinus of Aquileia, and Jerome said Rufinus changed it."
-- **Dates.** A clear year, or "around 570", in the opening setting (Standard v1). This replaces "round anchors and relative time first". Years after that are written to be spoken naturally.
+- **Dates.** A clear year, or "around 570", in the opening setting (Standard v1). This replaces "round anchors and relative time first". Years after that are written to be spoken naturally, with a bare year only where the year is the event (working rule A64).
 - **Common names.** An identifier at first mention, in the brief and again in the card (the 2026-11-11 common-name standard). It comes from the vendored sources and adds no claim.
 - **Audio.** `[calmly]` opens the audio script. `[warmly]` goes before the closing line. The tags are never in the census, the card or a page. There is no intro: person audio is the brief only.
 - **Quotes.** Short and plain, verbatim from the vendored file. Where a line is foreign-language, long or archaic, there are two kinds of telling, kept apart (Mark, 2026-11-16: "Two kinds, kept apart (Recommended)"):
@@ -177,7 +177,7 @@ Run against any profile, story or listed line. Each item is pass or fail.
 
 Mark, 2026-11-16: "CLAUDE.md governs (Recommended)".
 
-- **Who reviews.** Opus drafts the Who and council briefs, and Opus reviews every round.
+- **Who reviews.** Opus drafts the Who briefs (`CLAUDE.md`), and Opus reviews every round. Who drafts council briefs follows `CLAUDE.md` as it stands.
 - **Round 1** runs the full checklist: craft, rigor, access, and shape with length.
 - **From round 2**, only what changed is rechecked, against the earlier findings.
 - **The cap.** The three-round cap in `CLAUDE.md` applies.
@@ -192,7 +192,7 @@ Mark, 2026-11-15 ("Yes", to all three parts of the review process: the quoted ev
 
 Six guards keep Standard v1 from drifting. They are recorded in `Decision-Log.md`, "Standard v1 approved to proceed" (2026-11-16). Guard 1, a CI check on changes to the pattern files and the bar folder, is built separately. Guard 2 is in `Worker_Brief_Template.md`. The other four are these.
 
-- **Guard 3: a listen before each release.** Before an era's batch goes live, Mark hears one brief picked at random from it, beside a bar brief. His yes is the release.
+- **Guard 3: a listen before each release.** Before each batch of an era goes live, Mark hears one brief picked at random from it, beside a bar brief. His yes is the release.
 - **Guard 4: a blind check every five batches.** A fresh reviewer scores a mix of new briefs and bar briefs, without being told which is which. If the new ones score lower, writing stops until the cause is known.
 - **Guard 5: numbers as a guard, not the goal.** The readability check stays as a floor and a ceiling only (grade 8 to 10, reading ease 60 or more, "The readability method" below), and length is reported. Craft is judged by reading, never by numbers alone.
 - **Guard 6: rulings only in Mark's words.** One coordinator works at a time. A ruling is recorded only with Mark's quoted words. Anything passed on second-hand is marked as a remark. Every brief and handover links the rulings record.
@@ -252,7 +252,7 @@ Mark, 2026-11-16: "Take my recommendations (Recommended)". These are not Mark's 
 - **A62.** Other name forms come from the census; an original-language form appears only where a held source spells it; ids are never renamed.
 - **A64.** After the opening's clear year (Standard v1), a bare year is used only where the year is the event. A partisan witness is placed once. The close may say how later readers remembered the person, so long as it still says what they changed or defended, with its witness.
 - **A65.** Our prose uses American spelling; quotations and titles keep their own.
-- **A74.** A saint carried by a near-time source stays a Who.
+- **A74.** A saint carried by a near-time source stays a Who, if they pass the significance test ("Standard v1", The Who test).
 - **B14.** A council person not yet scored shows "not scored", with no id.
 - **B15.** A council's Who list is those who took part, were condemned, or acted on its decisions.
 - **C2.** A first-person testimony is a STORY; WHO is for those who shaped the church.
