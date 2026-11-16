@@ -14,7 +14,7 @@ The scan behind the file (Internet Archive item `corpusscriptorum58auguuoft`) is
 
 Thieleman J. van Braght, *The Bloody Theater, or Martyrs Mirror*, in Joseph F. Sohm's English. Retired on 2026-11-16 (Open-Gaps 307, "Library, the Martyrs' Mirror swap").
 
-The scan behind the file (Internet Archive item `MartyrsMirror`) is a Herald Press printing. The verso of its title leaf prints "Second English edition, thirty-third printing, 2012" and "Copyright © 1938 by Mennonite Publishing House" (the file's lines 119 to 124), and the volume opens with a "Publisher's Preface to the Second English Edition". The file's header records the rights basis as the 1886 publication date, which does not cover this printing. Its text is reset and differs from the 1886 print in spelling and capitals.
+The scan behind the file (Internet Archive item `MartyrsMirror`) is a Herald Press printing. The verso of its title leaf prints "Second English edition, thirty-third printing, 2012" and "Copyright © 1938 by Mennonite Publishing House" (the file's lines 119 to 124), and the volume includes a "Publisher's Preface to the Second English Edition" (the file's line 102). The file's header records the rights basis as the 1886 publication date, which does not cover this printing. Its text is reset and differs from the 1886 print in spelling and capitals.
 
 The Library now holds the Elkhart printing of 1886 as `cic/texts/van-braght_martyrs-mirror_sohm-elkhart1886.txt` (Internet Archive item `bloodytheatreorm00brag`, the Library of Congress copy). The nine census sources and the shelf rows that cited the retired file cite the same passages there. Line numbers in the two files differ.
 

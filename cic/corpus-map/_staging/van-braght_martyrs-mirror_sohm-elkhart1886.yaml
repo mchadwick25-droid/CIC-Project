@@ -10,11 +10,11 @@ assignments:
   confidence: assigned
   language: eng
   date: {start: 1659, end: 1660, source: "van Braght's Invocation dated 'Dort, July the 23d, 1659' (file line 345) and the title leaf: 'from the Edition of 1660'", formation_confidence: Documented}
-  note: 'Thieleman J. van Braght''s martyr book of 1660 in Joseph F. Sohm''s English, the Elkhart printing of 1886. It embeds named documents in English: the articles against Michael Sattler and his sentence (file lines 57865 to 58113) and the testament of Anna of Rotterdam to her son (from file line 62960).'
+  note: 'Thieleman J. van Braght''s martyr book of 1660 in Joseph F. Sohm''s English, the Elkhart printing of 1886. It embeds named documents in English: the articles against Michael Sattler and his sentence (file lines 57853 to 58118) and the testament of Anna of Rotterdam to her son (from file line 62960).'
 - row_id: van-braght_martyrs-mirror_sohm-elkhart1886--the-bloody-theatre-or-martyrs-mirror-the-hus-and-taborite-sections
   work: 'The Bloody Theatre, or Martyrs Mirror of the Defenseless Christians, the Hus and Taborite sections'
   author: van-braght
-  locus: 'file lines 46672-46947, from the entry ''A. D. 1415. — At this time John Huss lived'' and the sections on the Taborites (lines 46823-46874)'
+  locus: 'file lines 46672-46947, from the entry ''A. D. 1415. — At this time John Huss lived'' and the sections on the Taborites (lines 46824-46947)'
   atlas_ids:
   - the-hussite-and-bohemian-brethren-movement
   role: context
@@ -25,7 +25,7 @@ assignments:
 - row_id: van-braght_martyrs-mirror_sohm-elkhart1886--the-taborite-sections-and-the-adamites-passage
   work: 'Van Braght, Martyrs Mirror (Sohm, 1886): the Taborite sections and the Adamites passage'
   author: van-braght
-  locus: 'file lines 46823-46874 (the Taborites), 46910 (the confession of 1431) and 40812 (the Adamites named)'
+  locus: 'file lines 46824-46947 (the Taborites; the confession of 1431 is named at 46910 and printed from 46924) and 40812 (the Adamites named)'
   atlas_ids:
   - taborite-radicalism
   - inquisition-record-sects-adamites-and-kin
@@ -36,7 +36,7 @@ assignments:
 - row_id: van-braght_martyrs-mirror_sohm-elkhart1886--martyrs-mirror-tauler-cited-as-a-witness-against-the-church
   work: 'Martyrs Mirror: Tauler cited as a witness against the church of his day'
   author: van-braght
-  locus: 'file lines 45270-45306, under ''SAME YEAR AS ABOVE, A. D. 1400''; Tauler named again at 46273'
+  locus: 'file lines 45270-45306, under the year 1400; Tauler named again at 46273'
   atlas_ids:
   - rhineland-mysticism-and-the-friends-of-god
   role: context

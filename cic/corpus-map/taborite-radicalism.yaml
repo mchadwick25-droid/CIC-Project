@@ -132,8 +132,8 @@ works:
 - row_id: van-braght_martyrs-mirror_sohm-elkhart1886--the-taborite-sections-and-the-adamites-passage
   work: 'Van Braght, Martyrs Mirror (Sohm, 1886): the Taborite sections and the Adamites passage'
   author: van-braght
-  locus: file lines 46823-46874 (the Taborites), 46910 (the confession of 1431) and 40812
-    (the Adamites named)
+  locus: file lines 46824-46947 (the Taborites; the confession of 1431 is named at 46910 and
+    printed from 46924) and 40812 (the Adamites named)
   role: context
   confidence: provisional
   language: eng
