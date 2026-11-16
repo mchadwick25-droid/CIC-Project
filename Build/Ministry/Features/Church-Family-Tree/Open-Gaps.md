@@ -3758,3 +3758,12 @@ it, never by deleting it.
     - Held for Mark, a rights question: the Pacific Garden Mission's fortieth annual statement (`annualreportpaci1915paci`). It prints no year on its cover or title leaf. Its text is for the year ended 15 September 1916 and its auditor's letter is dated 17 November 1916; the catalog record has no date. Neither the rights rule nor R12 lists a dated report's own text as a basis, so it was not vendored. A ruling that a dated institutional report counts by its own dated text would admit it and others like it. Owner: Mark.
     - Not started, by the coordinator's instruction: the 134 card rows of batch 2b's texts to fetch, which came from the legend check; and all rendering.
 
+
+300. **The eight and Gregory and Benedict under the 2026-11-16 rendering rulings, and what the re-check of the 14 left for the era passes (2026-11-16).** Source: Decision-Log, "Renderings made at the point of use and checked twice; the fourteen re-checked" (2026-11-16); `Build/Ministry/Operations/Audits/2026-11-16_rendering-recheck/`.
+    - For the era 3 pass: Faustus of Riez, "After grace, without which we are nothing, we affirm the labor of dutiful service." In the Latin it is one sentence, and "post gratiam" can go with "walking" or with "we affirm". Splitting it into two quoted sentences picks one reading. Either way grace stays first. The fix is to quote it whole, or to note on the card that "after grace" may go with either verb. The re-check graded it minor.
+    - For the era 3 pass: Faustus of Riez, "We are owners without a home of our own, and rich without possessions." The original grounds the paradox: it holds while God's faithful servants supply the exiles' needs. Add that reason in the prose before the quote, and note on the card that "sede" may also mean his bishop's see. The re-check graded it minor.
+    - For the era 3 pass: John Moschus. The three listed renderings are of the Latin in Migne, not his Greek, and the "you" of the dedication is Sophronius (`john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt` l.3775). The brief could name him.
+    - For the era 2 and era 3 passes, re-recorded there and not in a separate run (Mark, 2026-11-16: "ok"). In each case the coordinator checked the original and found the brief right and the audio script wrong:
+      - Faustus of Riez's audio script drops "then" (Latin "ergo").
+      - Constantius of Lyon's drops "And yet" ("Et tamen").
+      - Babai the Great's adds "and", which the French does not have.
