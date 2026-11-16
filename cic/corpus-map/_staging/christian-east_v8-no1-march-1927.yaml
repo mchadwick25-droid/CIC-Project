@@ -1,0 +1,25 @@
+source_file: christian-east_v8-no1-march-1927.txt
+assignments:
+- row_id: christian-east_v8-no1-march-1927--whole
+  work: 'The Christian East, volume VIII, number 1 (March, 1927)'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - the-anglican-communion-twentieth-century
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1927, end: 1927, source: "masthead: 'March, 1927'", formation_confidence: Documented}
+  note: 'One number of the quarterly, by many writers. The Eastern documents it prints are in the journal''s English unless a row says otherwise.'
+- row_id: christian-east_v8-no1-march-1927--seraphim-of-uglich-letter-to-the-prelates-priests-and-laity-1927
+  work: 'Seraphim, Archbishop of Uglitch, letter ''To the Prelates, Priests and Laity of the Orthodox Russian Church'', in The Christian East'
+  author: christian-east
+  locus: 'OCR lines 119-166; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-russian-orthodox-church-council-patriarchate-and-reunion
+  - the-russian-new-martyrs-and-the-catacomb-church
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1926, end: 1927, source: "the letter prints no date; it stands in the number of March, 1927", formation_confidence: Documented}
+  note: 'His own letter, in English with no translator named. The Chronicle says the guiding of the Russian church then lay upon him (OCR lines 102-106).'

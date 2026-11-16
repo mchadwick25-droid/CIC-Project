@@ -63,3 +63,35 @@ works:
   confidence: assigned
   note: The congress's own printed report.
   source_file: congress-christian-work-south-america_montevideo-1925-v2_1925.txt
+- row_id: international-review-of-missions_v18_1929--braga-following-up-the-jerusalem-meeting-in-brazil
+  work: Erasmo Braga, 'Following up the Jerusalem Meeting in Brazil' (International Review
+    of Missions, 1929)
+  author: international-review-of-missions
+  locus: OCR lines 17467-17707; add 12 to OCR line numbers
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1929
+    end: 1929
+    source: printed in the number of April 1929
+    formation_confidence: Documented
+  note: His own report; the notes on contributors call him Executive Secretary of the Committee
+    on Co-operation in Brazil (OCR line 20901).
+  source_file: international-review-of-missions_v18_1929.txt
+- row_id: international-review-of-missions_v14_1925--speer-the-congress-on-christian-work-in-south-america
+  work: Robert E. Speer, 'The Congress on Christian Work in South America' (International
+    Review of Missions, 1925)
+  author: international-review-of-missions
+  locus: OCR lines 35804-36686; add 12 to OCR line numbers
+  role: context
+  confidence: assigned
+  language: eng
+  date:
+    start: 1925
+    end: 1925
+    source: printed in the number of October 1925; the article says the congress met at Montevideo
+      from March 29 (OCR lines 35811-35812)
+    formation_confidence: Documented
+  note: His report of the congress at Montevideo.
+  source_file: international-review-of-missions_v14_1925.txt

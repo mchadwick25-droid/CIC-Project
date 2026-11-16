@@ -1,0 +1,13 @@
+source_file: christian-east_v2-no1-april-1921.txt
+assignments:
+- row_id: christian-east_v2-no1-april-1921--whole
+  work: 'The Christian East, volume II, number 1 (April, 1921)'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - the-anglican-communion-twentieth-century
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1921, end: 1921, source: "masthead: 'April, 1921'", formation_confidence: Documented}
+  note: 'One number of the quarterly, by many writers. The Eastern documents it prints are in the journal''s English unless a row says otherwise.'

@@ -997,3 +997,90 @@ texts are not taken again (In His Steps, 1899; Newton's Thoughts on the Apocalyp
 
 Era 10 batch 2's follow-on list (Open-Gaps 300); then era 8 batch 3 (Open-Gaps 301).
 
+## Era 10, batch 2b, the periodicals: the follow-on to batch 2 (2026-11-16)
+
+**Done.** 45 files (4,325,430 words): 31 numbers of The Christian East and 14 volumes of The International
+Review of Missions, which era 10 batch 2 found and did not take. The files are in `CFT-Wants.md` ("Era 10,
+batch 2b, the periodicals"). The page-image reads, the calls and the cautions for writers are in
+`Build/Ministry/Operations/Audits/2026-11-16_library-era10-b2b-periodicals/Search_Log.md`. Every number of The
+Christian East's vols. I-X is now held, and every volume of the International Review from 1914 to 1930.
+
+**Scope, by the coordinator's instruction.** The three periodicals of batch 2's follow-on list, as listed. The
+books of that list are the next batch. The International Review for 1912 and 1913 and the Proceedings of the
+Church Missionary Society for 1906-1909 are a later batch of era 10; the Proceedings before 1906 are era 9's.
+No rendering.
+
+**Decided during the batch.**
+- **A scan of a microfilm that carries the film maker's copyright line and a prohibition is not taken.** The
+  Proceedings of the Church Missionary Society for 1910-1921 were scanned from a film whose target leaf reads
+  "© MM 1967 / Reproduction of this film prohibited". The prints are dated 1910 to 1921, but such a notice on
+  the scan is not a basis the rights rule or R1 to R12 list. The twelve volumes were held, and Mark then ruled
+  (see "Three rights rulings" below): they stay out.
+- **A number dated across two years is not taken on its first year.** The Christian East's "Winter, 1930-31"
+  cites a letter of March 1931; it is held for Mark and is past the line until January 2027.
+- **A number filmed without its cover is taken on its masthead date**, and its header says that no publisher
+  or editor is printed in the number as scanned. The publisher and editors are given only for the eleven
+  numbers whose cover was filmed and read.
+- **A periodical gets one shelf row for the whole number or volume, and further rows only for documents whose
+  first and last lines were found.** A church leader's own document goes on that church's entry as tradition;
+  an outside report goes on the entry it reports as context.
+- **The International Review before 1921 goes on the Student Volunteer Movement and Edinburgh 1910 entry**,
+  and from 1921 on the ecumenical movement entry, where the held volumes are.
+- Host bytes are kept whole; line numbers in headers and shelf rows are the host's, with 12 added for the
+  file's own.
+
+**Three rights rulings, passed on by the coordinator (2026-11-16).** Each came to this thread in a coordinator
+message that quotes Mark's answer to a question the coordinator put to him; the words in quotation marks are
+his, and the statement of each rule is the coordinator's. They are recorded in `cic/texts/INTAKE.md` section 2.
+
+- **R15, a film maker's notice on a scan (Mark, 2026-11-16: "Yes, keep them held (Recommended)").** A microfilm maker's notice
+  on a scan blocks taking it, even when the print itself is old. The Proceedings of the Church Missionary
+  Society from that film stay out for every year. Another scan of the same print with no notice may be taken
+  where one can be found. Searched on 16 November: archive.org has no other scan of the Proceedings for 1906 to
+  1921 (it has Google scans of volumes of 1819 to 1834 and one of 1855-56); HathiTrust's catalog search refused
+  the request (HTTP 403) and the Google Books search refused it for quota (HTTP 429).
+- **R13, an institution's dated report (Mark, 2026-11-16: "Yes, with a page-image check (Recommended)").** An
+  institution's report (an annual statement, a proceedings) counts by a date printed in its own text, when that
+  date is read on the page image and the header records where it was found. Under it the Pacific Garden
+  Mission's statement of 1916, left out of the era 9 located volumes, can be taken; it goes with the next batch.
+- **R14, a host's own additions (Mark, 2026-11-16: "Allow it, with a note (Recommended)").** A host's own
+  additions (page-foot stamps, watermark text, host banners) may be removed at intake, but never anything of the
+  printed work. Each file header records what was removed: the exact text, how many lines, and the host URL with
+  the original byte count. The raw copies are not kept in the repo. The files of Путь on main give the stamp's
+  text, the line count, the item and the byte count, and not a URL; their headers are to be brought to R14 in
+  the next pull request. Nothing was removed from any file of this batch.
+- **R11 as the one rule for checking our own renderings (Mark, 2026-11-16: "R11 as the one rule (Recommended)").**
+  The choice was one of four Mark made on the rendering proposal the coordinator put to him
+  (https://claude.ai/artifact/6dzfNKYrABrFFRpdcd6epq); the others were "A: guides now, passages when used
+  (Recommended)", "Yes, Groen van Prinsterer (Recommended)" and "New cic/renderings/ folder (Recommended)". As
+  the coordinator states it: a second independent rendering, by an agent that never sees the first, checks
+  every rendering of ours; differences in meaning are marked uncertain and both readings are kept. This
+  replaces the lines of `cic/texts/INTAKE.md` that named an Opus translation with a second Opus pass, and
+  widens R11 from era 10 to every rendering. The model follows `CLAUDE.md`, which is not changed. Mark's exception for
+  the present work, in his words to the coordinator on 2026-11-15, as the coordinator passed them on: "a but
+  have fable write them this time since its free"; "this isnt a change to the rule just an exception so dont
+  change the CLAUDE.md"; "keep using fable until the free runs out then we will hold that work until we finish
+  1-7 and go back to opus". It is recorded in the Church Family Tree Decision-Log, "Fable writes the era 8 to 10
+  renderings while the free refill lasts: an exception, not a rule change". `INTAKE.md` says only "unless Mark
+  has made an exception for the work in hand".
+- **Older stages of a language count as foreign for R11 (Mark, 2026-11-16: "Treat old forms as foreign
+  (Recommended)").** As the coordinator states it: Old and Middle English (`ang`, `enm`), Middle High German
+  (`gmh`) and other older stages of a language count as foreign for R11 and for the finding guides; and a
+  modern English version of an English line of the 17th to 19th century that carries quotation marks also gets
+  the second rendering. Recorded in `cic/texts/INTAKE.md`.
+- **Every quotation from English printed before 1931 is put into our modern English (Mark, 2026-11-16: "we
+  even treat english from 1850s needing translation"; "Yes, every quote before 1931 (Recommended)").** As the
+  coordinator states it: every quotation taken from an English text printed before 1931 is given in our modern
+  English, with the R11 second rendering, and the printed wording stays on record with its file and lines. For
+  the Library, passage renderings, when a writer asks for them, cover old English texts as well. Finding guides
+  stay for non-English texts and older stages of a language only, since a writer can read English of the
+  nineteenth century directly. This takes in the narrower line of the ruling before it. Recorded in
+  `cic/texts/INTAKE.md`. The `cic/renderings/` folder is not made until
+  Mark has approved a sample, and the root `README.md` map is updated first when it is.
+
+### Next action
+
+A read-only audit of header years against host dates across the held files (Open-Gaps 305); then the books of
+era 10 batch 2's follow-on list, with the Pacific Garden Mission's statement of 1916, the headers of Путь and
+the three shelf rows of era 8 batch 2 that Mark has settled (Open-Gaps 302); then era 8 batch 3 (Open-Gaps
+301); then the International Review for 1912 and 1913 (Open-Gaps 303).
