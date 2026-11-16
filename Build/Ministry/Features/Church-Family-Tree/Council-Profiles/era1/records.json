@@ -8,8 +8,8 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Felicissimus and five presbyters broke with Cyprian, and the party took up the charge that he was too strict with the lapsed",
-        "witness": "Hefele I, sec. 5 (hefele_history v1 l.6316-6358), citing Cyprian's letters",
+        "claim": "Felicissimus and five presbyters broke with Cyprian (Cyprian: Fortunatus 'one of the five presbyters who some time back deserted from the Church'; Felicissimus 'the standard-bearer of sedition'); Hefele: the party took for its war-cry the bishop's severity toward the lapsed",
+        "witness": "Cyprian, Letter to Cornelius 9 (anf05 l.34756-34764); Hefele I, sec. 5 (hefele_history-of-the-councils-v1-to-nicaea_clark1872 l.6336-6361)",
         "witness_kind": "modern reconstruction",
         "formation_confidence": "Widely Accepted"
       },
@@ -21,19 +21,19 @@
       },
       {
         "claim": "Cyprian returned to Carthage after Easter 251, after an absence from February 250",
-        "witness": "Hefele, History of the Councils I, sec. 5 (hefele_history v1 l.6309-6366)",
+        "witness": "Hefele I, sec. 5 (hefele_history-of-the-councils-v1-to-nicaea_clark1872 l.6305-6306, 6365-6366)",
         "witness_kind": "modern reconstruction",
         "formation_confidence": "Dominant Modern Reconstruction"
       },
       {
-        "claim": "The Carthage council met in 251, probably in May; the Rome council probably in October 251",
-        "witness": "Hefele I, sec. 5 (l.6366-6369, 6484); McGiffert's note to Eusebius VI.43 follows Hefele",
+        "claim": "The Carthage council met in 251, probably in May; the Rome council probably in October 251. Leclercq: May 251 'absolument certaine', after Monceaux",
+        "witness": "Hefele I, sec. 5 (hefele_history-of-the-councils-v1-to-nicaea_clark1872 l.6366-6369, 6484); McGiffert's note to Eusebius VI.43.2 follows Hefele (npnf201 l.38275-38281); Leclercq's note 4 (hefele-leclercq_...slice-fra_1907 l.138-140)",
         "witness_kind": "modern reconstruction",
         "formation_confidence": "Dominant Modern Reconstruction"
       },
       {
         "claim": "A large number of African bishops met, weighed Scripture on both sides, and chose a middle course: hope not denied to the lapsed, long penance, each case examined",
-        "witness": "Cyprian, Letter to Antonianus 6 (anf05 l.33508-33524; Hartel l.7600-7616)",
+        "witness": "Cyprian, Letter to Antonianus 6 (anf05_hippolytus-cyprian-caius-novatian l.33506-33524; Hartel l.7600-7616)",
         "witness_kind": "participant",
         "formation_confidence": "Documented"
       },
@@ -45,25 +45,25 @@
       },
       {
         "claim": "The decisions were collected in a little book, now lost",
-        "witness": "Cyprian, Letter to Antonianus 6; Leclercq's note in Hefele-Leclercq I.1 (fra slice l.144-145)",
+        "witness": "Cyprian, Letter to Antonianus 6 (anf05 l.33521-33524); Leclercq's note 6, 'De ce concile, rien ne reste' (hefele-leclercq_...slice-fra_1907 l.145)",
         "witness_kind": "participant",
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Felicissimus and five presbyters were excommunicated by the African bishops",
-        "witness": "Cyprian, Letter to Cornelius on Fortunatus and Felicissimus 9 (anf05 l.34755-34766); Hefele I, sec. 5 (l.6369-6372) places it at this council",
+        "claim": "Felicissimus and five presbyters were 'lately excommunicated by the judgment of our fellow-bishops', who wrote of it to Cornelius 'last year'",
+        "witness": "Cyprian, Letter to Cornelius on Fortunatus and Felicissimus 9 (anf05 l.34756-34764); Hefele I, sec. 5 (l.6370-6372) places it at this council",
         "witness_kind": "participant",
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Cornelius held a council at Rome that agreed with Carthage",
+        "claim": "Cornelius, 'holding a council with very many bishops', concurred with Carthage",
         "witness": "Cyprian, Letter to Antonianus 6 (anf05 l.33525-33529; Hartel l.7614-7615)",
         "witness_kind": "participant",
         "formation_confidence": "Documented"
       },
       {
         "claim": "Sixty bishops and many more presbyters and deacons met at Rome; Novatian and his followers were declared strangers to the church; the fallen were to be healed with the medicines of repentance",
-        "witness": "Eusebius VI.43.2, from Cornelius's letters (npnf201 l.38270-38299)",
+        "witness": "Eusebius VI.43.2, from Cornelius's letters, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.38272, 38288-38299)",
         "witness_kind": "later narrative",
         "formation_confidence": "Documented"
       },
@@ -74,8 +74,8 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Dionysius of Alexandria wrote to Novatian that it were better to suffer everything than divide the church",
-        "witness": "Eusebius VI.45, quoting the letter (npnf201 l.38922-38931)",
+        "claim": "Dionysius of Alexandria wrote to Novatian, 'For it were better to suffer everything, rather than divide the Church of God'; brief's rendering from the Greek: 'It would have been right to suffer anything at all rather than split the Church of God'",
+        "witness": "Eusebius VI.45, quoting the letter, tr. McGiffert (npnf201 l.38922-38925); Greek ed. Schwartz-Mommsen (eusebius_werke-bd2-2-...schwartz-mommsen1908 l.7363-7364), Rufinus l.7434-7435; second reading 'minor' (renderings/comparison.md E39)",
         "witness_kind": "later narrative",
         "formation_confidence": "Documented"
       },
@@ -86,9 +86,9 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "The next year the African bishops granted peace to all the lapsed who had kept repenting, as a new persecution drew near",
-        "witness": "Synodal letter of the African bishops to Cornelius 1 (anf05 l.34280-34299, ANF Ep. 53); dated 252 by Hefele I, sec. 5 (l.6505-6507)",
-        "witness_kind": "acts",
+        "claim": "When 'the day of another trouble is again beginning to draw near', the African bishops decided 'that peace is to be given' to those who had not ceased to repent; Hefele dates the council to May 252",
+        "witness": "Synodal letter of the African bishops to Cornelius 1 (anf05 l.34273-34299, ANF Ep. 53); Hefele I, sec. 5 (l.6505-6506)",
+        "witness_kind": "participant",
         "formation_confidence": "Documented"
       },
       {
@@ -96,12 +96,42 @@
         "witness": "Socrates IV.28 (npnf202 l.14057-14061)",
         "witness_kind": "later narrative",
         "formation_confidence": "Documented"
+      },
+      {
+        "claim": "McGiffert: Cornelius's epistles to Fabius 'are no longer extant'",
+        "witness": "McGiffert's note to Eusebius VI.43.3 (npnf201 l.38324)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Novatus (Novatian), a presbyter of the church at Rome, held there was no hope for the fallen and led those who called themselves Cathari; Socrates: he was raised to the episcopate by bishops of the same mind, after Cornelius received those who had sacrificed",
+        "witness": "Eusebius VI.43.1 (npnf201 l.38265-38270); Socrates IV.28, tr. Zenos (npnf202 l.14068-14081)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Dionysius later reported that 'the churches everywhere had rejected the novelty of Novatus, and were at peace among themselves'",
+        "witness": "Eusebius VII.5 (npnf201 l.39347-39348)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Nicaea, canon 8: ordained Cathari who come over continue in the clergy, if they profess in writing to communicate with 'those who having lapsed in persecution have had a period [of penance] laid upon them'",
+        "witness": "Council of Nicaea, canon 8, tr. Percival (npnf214_seven-ecumenical-councils l.3767-3775)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Socrates's history runs down to 439; Zenos speaks of 'his favorable attitude towards Novatianism'",
+        "witness": "Zenos's introduction to Socrates (npnf202 l.886-892, 1064-1065)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
       }
     ],
     "contested_claims": [
       {
         "claim": "Whether a synod at Antioch on the Novatians met",
-        "sides": "Eusebius VI.46 says Dionysius was invited to the synod at Antioch where some were trying to establish Novatian's schism; McGiffert (note to VI.46) thinks Eusebius took it to have met and that it probably did; Hefele, Dittrich and others doubt it; Hefele will not rely on the Libellus Synodicus when it stands alone",
+        "sides": "Eusebius VI.46 says Dionysius was invited to the synod at Antioch where some were trying to establish Novatian's schism; McGiffert (note to VI.46) thinks Eusebius took it to have met and that it probably did; Hefele, Dittrich and others doubt it; Hefele will not rely on the Libellus Synodicus when it stands alone (npnf201 l.39010-39021; hefele_history v1 l.6492-6496)",
         "formation_confidence": "Contested"
       },
       {
@@ -118,15 +148,15 @@
     "absent_details": [
       {
         "detail": "The acts of either council",
-        "note": "The Carthage book of decisions is lost (Cyprian names it; Leclercq: nothing of this council remains). No acts of the Rome council are held; Eusebius summarises Cornelius's letters, which survive only through him."
+        "note": "The Carthage book of decisions is lost (Cyprian names it; Leclercq: nothing of this council remains). No acts of the Rome council are held; Eusebius summarises Cornelius's letters, which McGiffert notes are no longer extant."
       },
       {
         "detail": "The names and number of the bishops at Carthage in 251",
-        "note": "Cyprian says only 'a large number'. The synodal letter of the next council, to Cornelius, names forty-two bishops, but it belongs to that later council."
+        "note": "Cyprian says only 'a large number'. The synodal letter of the later council, to Cornelius, prints forty-one names in its ANF heading (anf05 l.34251-34257) and forty-two in the other texts given in its note (l.34263-34272); it belongs to that later council."
       },
       {
         "detail": "The exact months",
-        "note": "No source of the time gives them; May and October are Hefele's reconstruction."
+        "note": "No source of the time gives them; May and October are Hefele's reconstruction, and Leclercq calls May certain after Monceaux."
       },
       {
         "detail": "Novatian's own account of the councils",

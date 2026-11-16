@@ -33,22 +33,22 @@
   ],
   "teaser": "Carthage and Rome, 251. Two councils agreed how to take back Christians who had given way under the emperor Decius, and cut off Novatian's stricter party.",
   "knownFor": "Two councils of 251, at Carthage under Cyprian and at Rome under Cornelius, that agreed how to receive back Christians who had given way in the Decian persecution, and cut off Novatian's stricter party.",
-  "datesNote": "251. Carthage probably in May and Rome probably in October, both by Charles Joseph Hefele's dating; no held source of the time gives the month",
+  "datesNote": "251. Charles Joseph Hefele dates Carthage probably to May and Rome probably to October; Henri Leclercq, in his French edition of Hefele, calls May certain, after Paul Monceaux. No source of the time gives either month; Cyprian says only that the bishops met when the persecution had quieted",
   "issue": [
     "The persecution under the emperor Decius had ended. Many Christians had sacrificed to the gods, and others had paid for certificates saying they had. Now many asked to be taken back (Cyprian, Letter to Antonianus).",
     "The question was whether the church could receive them, and on what terms. Some Christians were pressing to receive communion at once. Cyprian refused to decide until the bishops could meet (Cyprian, Letter to Antonianus).",
     "At Carthage, the deacon Felicissimus and five presbyters had broken with Cyprian. Charles Joseph Hefele, the historian of the councils, says the party took up the charge that the bishop was too strict with the lapsed.",
     "At Rome, the church had two bishops. Cornelius would receive the lapsed after penance. A stricter party set up Novatian, who would not admit those who had sacrificed (Socrates of Constantinople; Cornelius's letter in Eusebius of Caesarea)."
   ],
-  "calledBy": "Cyprian, bishop of Carthage, for the African bishops; Cornelius, bishop of Rome, for the bishops of Italy",
+  "calledBy": "Cyprian, bishop of Carthage, for the African bishops, by his own account; Cornelius, bishop of Rome, at Rome, by Cyprian's account and Eusebius of Caesarea's",
   "attended": [
-    "At Carthage, \"a large number of bishops,\" Cyprian writes; Hefele adds some presbyters and deacons. No list of their names is held.",
-    "At Rome, sixty bishops and a great many more presbyters and deacons, by Eusebius of Caesarea's account of Cornelius's letters. Bishops of other provinces, he says, gave their views where they were."
+    "At Carthage, \"a large number of bishops,\" Cyprian writes. Hefele adds some presbyters and deacons. No list of their names is held.",
+    "At Rome, sixty bishops and a great many more presbyters and deacons, by Eusebius of Caesarea's account of Cornelius's letters. The bishops of the other provinces, he says, deliberated where they were. Cyprian says only that Cornelius held his council \"with very many bishops\"."
   ],
   "traditions": [
     {
-      "id": "cyprian-of-carthage",
-      "name": "Cyprian of Carthage",
+      "id": "latin-pastoral-congregational-christianity",
+      "name": "Latin Pastoral-Congregational Christianity",
       "part": "Gathered",
       "note": "The African bishops met at Carthage under Cyprian."
     },
@@ -68,33 +68,47 @@
   "decided": [
     "Hope of peace was not to be denied to the lapsed, but their penance would be long and each case examined (Carthage).",
     "Those who had taken certificates could be received after their case was examined; those who had sacrificed would be given peace at the point of death (Carthage).",
-    "The deacon Felicissimus and five presbyters who had opposed Cyprian were excommunicated (Carthage, by Cyprian's later letter to Cornelius).",
+    "The deacon Felicissimus and five presbyters who had opposed Cyprian were excommunicated by \"the judgment of our fellow-bishops\" (Carthage, by Cyprian's later letter to Cornelius).",
     "Rome agreed with Carthage. Novatian and those who held with him were declared strangers to the church, and the fallen were to be healed with the medicines of repentance (Rome)."
   ],
   "outcome": [
-    "The next year, by Hefele's dating, the African bishops offered peace to all the lapsed who had kept on repenting, because a new persecution seemed near.",
-    "Novatian's church lived on. Socrates of Constantinople says that in his day it still kept its strict rule in Phrygia and Paphlagonia."
+    "When a new persecution seemed near, the African bishops wrote to Cornelius that they now gave peace to all the lapsed who had kept on repenting (their synodal letter). Hefele dates that council to May 252.",
+    "Novatian's church lived on. Socrates of Constantinople says that in his day it still kept its strict rule in Phrygia and Paphlagonia.",
+    "In 325 the Council of Nicaea, in its eighth canon, let clergy of the Cathari, as Novatian's followers called themselves, keep their rank if they promised in writing to share communion with those who had lapsed in persecution and been given a term of penance."
   ],
   "record": [
     {
       "witness": "The council's book of decisions",
       "kind": "acts",
-      "note": "Cyprian says the heads of the decisions were collected in a little book. It is lost. Henri Leclercq, in his edition of Hefele: nothing of this council remains."
+      "note": "Cyprian says the heads of the Carthage decisions were collected in a little book. It is not held. Henri Leclercq, in his edition of Hefele, says nothing of this council remains."
+    },
+    {
+      "witness": "Synodal letter of the African bishops to Cornelius, on granting peace",
+      "kind": "participant",
+      "side": "Cyprian's",
+      "note": "Written by the bishops of a later African council, who recall what they had decided before and now give peace to the penitent lapsed. The heading in the English prints forty-one names; the other texts given in its note have forty-two."
     },
     {
       "witness": "Cyprian, Letter to Antonianus",
       "kind": "participant",
-      "note": "Written by the bishop who called the Carthage council, to defend it and himself against Novatian's letters. On Cyprian's side."
+      "side": "Cyprian's",
+      "note": "Written by the bishop who called the Carthage council, to defend it and himself against Novatian's letters."
     },
     {
       "witness": "Eusebius of Caesarea, Church History VI.43 to 46",
       "kind": "later narrative",
-      "note": "Written later, from letters of Cornelius and Dionysius of Alexandria, which Eusebius quotes or summarizes and which survive only through him. Cornelius wrote as Novatian's enemy."
+      "note": "Written in the next century, from letters of Cornelius and Dionysius of Alexandria that had reached Eusebius, which he quotes or summarizes. Cornelius wrote as Novatian's enemy. Arthur McGiffert, who translated Eusebius, notes that Cornelius's letters to Fabius \"are no longer extant\"."
     },
     {
       "witness": "Socrates of Constantinople, Church History IV.28",
       "kind": "later narrative",
-      "note": "Written by about 439. The fullest statement of Novatian's own rule, which he reports from Novatian's letters. A. C. Zenos, who edited him in English, finds him favorable to the Novatians."
+      "side": "favorable to the Novatians",
+      "note": "His history runs down to 439. The fullest statement of Novatian's own rule, which he reports from Novatian's letters. A. C. Zenos, who edited him in English, speaks of his favorable attitude toward the Novatians."
+    },
+    {
+      "witness": "Charles Joseph Hefele, with Henri Leclercq's notes",
+      "kind": "modern reconstruction",
+      "note": "Supplies the months, the year of the later council and the Carthage party's charge that Cyprian was too strict, which no ancient witness held here gives."
     }
   ],
   "people": [
@@ -122,13 +136,15 @@
       "part": "Not present; wrote to Novatian urging him to step down"
     }
   ],
-  "briefLength": "about 2 minutes 30 seconds",
+  "briefLength": "about 2 minutes 45 seconds",
   "uncertain": [
-    "The council's own record is lost. What Carthage decided reaches us through Cyprian, who called it and defended it. What Rome decided reaches us through Eusebius, who summarizes Cornelius's letters.",
-    "Novatian's view reaches us through his opponents, and through Socrates of Constantinople almost two centuries later.",
-    "The months are Hefele's reconstruction. No held source of the time names them.",
-    "Hefele says some older editors and historians turned these two councils into four. He also doubts a council at Antioch on the Novatians that the Libellus Synodicus reports. Eusebius says Dionysius was invited to a synod at Antioch where some were trying to strengthen Novatian's party; Arthur McGiffert, who translated Eusebius, thinks it probably met, while Hefele and others doubt it.",
-    "Whether the presbyter Novatus of Carthage was one of the five presbyters cut off with Felicissimus is disputed. Hefele says some assert it and others deny it. Leclercq, following Paul Monceaux, says he was."
+    "The council's own record is lost. What Carthage decided reaches us through Cyprian, who called it and defended it. What Rome decided reaches us through Eusebius, who summarizes letters of Cornelius that had reached him; Arthur McGiffert notes that those letters \"are no longer extant\".",
+    "Novatian's view reaches us mostly through his opponents, and through Socrates of Constantinople nearly two centuries later.",
+    "The months. Hefele dates Carthage probably to May and Rome probably to October. Leclercq, after Paul Monceaux, calls the date of May 251 \"absolument certaine\". No source of the time names either month.",
+    "The year of the general peace. The African bishops' letter to Cornelius gives no year; Hefele places that council in May 252.",
+    "How many councils. Hefele says several editors of the acts and several historians turned these two councils into four. He also doubts a council at Antioch on the Novatians that the Libellus Synodicus reports alone. Eusebius says Dionysius was invited to a synod at Antioch where some were trying to strengthen Novatian's party; McGiffert thinks Eusebius believed it met, while Hefele and others doubt it.",
+    "Whether the presbyter Novatus of Carthage was one of the five presbyters cut off with Felicissimus is disputed. Hefele says some assert it and others deny it. Leclercq, following Paul Monceaux, says he was.",
+    "The words of Dionysius. His Greek says Novatian ought to have suffered anything at all rather than split the church. The old English \"it were better\" softens a rebuke into advice."
   ],
   "sources": {
     "fromThoseThere": [
@@ -147,10 +163,16 @@
     ],
     "writtenLater": [
       {
-        "title": "Church History, Book VI, chapters 43 to 46",
+        "title": "Church History, Book VI, chapters 43 to 46, and Book VII, chapter 5, with McGiffert's notes",
         "author": "Eusebius of Caesarea",
         "language": "English translation",
         "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Church History, Book VI, chapter 45 (Greek, with Rufinus's Latin)",
+        "author": "Eusebius of Caesarea",
+        "language": "Greek and Latin",
+        "file": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt"
       },
       {
         "title": "Church History, Book IV, chapter 28",
@@ -169,6 +191,12 @@
         "author": "Charles Joseph Hefele, with notes by Henri Leclercq",
         "language": "French",
         "file": "cic/texts/hefele-leclercq_histoire-des-conciles-tome1-1-cyprien-novatiens-baptheme-slice-fra_1907.txt"
+      },
+      {
+        "title": "The Seven Ecumenical Councils: Nicaea, canon 8",
+        "author": "The Council of Nicaea",
+        "language": "English translation",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
       }
     ]
   }
