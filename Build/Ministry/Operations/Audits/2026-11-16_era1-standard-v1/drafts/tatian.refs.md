@@ -108,3 +108,25 @@ Review: `reviews/round1-g4.md`. Verdict was BLOCKED on four findings.
 - **Quotations:** none added, removed or reworded.
 - Readability: grade 9.5 (names out 7.6), reading ease 72.3. The tool counts 0.0 joining words per hundred; the paragraph links are carried by "after", "later" and "but".
 
+
+## Mark's ruling on attribution tags (2026-11-16)
+
+Changed:
+- Old: "He had been admitted to the pagan mysteries and had watched the rites of Rome, he writes, and then he went off alone to look for the truth."
+  New: "He had been admitted to the pagan mysteries and had watched the rites of Rome, and then he went off alone to look for the truth."
+- Old: "He taught unseen powers like those of Valentinus, Irenaeus says, called marriage corruption, and denied that Adam was saved."
+  New: "He taught unseen powers like those of Valentinus, called marriage corruption, and denied that Adam was saved."
+- Old: "Eusebius says some still had it in his day."
+  New: "Some still had it in Eusebius's day."
+
+Kept:
+- "Tatian was born, he says, in the land of the Assyrians": his own words, first naming.
+- "After Justin's death, Epiphanius of Salamis says, he went east": a point resting on one late source.
+- "Clement of Alexandria wrote that Tatian had treated the age of Moses accurately": the sentence's claim is Clement's own judgment; without the name there is no claim.
+- "Eusebius of Caesarea judged the Address the best and most useful of his works": the same; the judgment is the claim.
+- "Irenaeus of Lyon says that after Justin's martyrdom Tatian left the church": a hostile witness, named once for the run of sentences after it.
+- "Clement, a second opponent, quotes a lost book": a hostile witness, and the quotation is his.
+- "Irenaeus says the movement sprang from earlier teachers, but Eusebius reports that Tatian was said to have founded it": a contested point with each side named.
+- "The Teaching of Addai, a Syriac legend ..., shows the people gathering": a legend.
+
+Readability after the change: 317 words, grade 9.4 (names out 7.7), reading ease names out 71.3, pass.
