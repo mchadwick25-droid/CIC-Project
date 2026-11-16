@@ -1033,13 +1033,12 @@ No rendering.
 message that quotes Mark's answer to a question the coordinator put to him; the words in quotation marks are
 his, and the statement of each rule is the coordinator's. They are recorded in `cic/texts/INTAKE.md` section 2.
 
-- **The film-notice ruling (Mark, 2026-11-16: "Yes, keep them held (Recommended)").** A microfilm maker's notice
+- **R15, a film maker's notice on a scan (Mark, 2026-11-16: "Yes, keep them held (Recommended)").** A microfilm maker's notice
   on a scan blocks taking it, even when the print itself is old. The Proceedings of the Church Missionary
   Society from that film stay out for every year. Another scan of the same print with no notice may be taken
   where one can be found. Searched on 16 November: archive.org has no other scan of the Proceedings for 1906 to
   1921 (it has Google scans of volumes of 1819 to 1834 and one of 1855-56); HathiTrust's catalog search refused
-  the request (HTTP 403) and the Google Books search refused it for quota (HTTP 429). The coordinator gave this
-  ruling no number.
+  the request (HTTP 403) and the Google Books search refused it for quota (HTTP 429).
 - **R13, an institution's dated report (Mark, 2026-11-16: "Yes, with a page-image check (Recommended)").** An
   institution's report (an annual statement, a proceedings) counts by a date printed in its own text, when that
   date is read on the page image and the header records where it was found. Under it the Pacific Garden
@@ -1053,6 +1052,7 @@ his, and the statement of each rule is the coordinator's. They are recorded in `
 
 ### Next action
 
-The books of era 10 batch 2's follow-on list, with the Pacific Garden Mission's statement of 1916 and the
-headers of Путь (Open-Gaps 302); then era 8 batch 3 (Open-Gaps 301); then the International Review for 1912 and
-1913 (Open-Gaps 303).
+A read-only audit of header years against host dates across the held files (Open-Gaps 305); then the books of
+era 10 batch 2's follow-on list, with the Pacific Garden Mission's statement of 1916, the headers of Путь and
+the three shelf rows of era 8 batch 2 that Mark has settled (Open-Gaps 302); then era 8 batch 3 (Open-Gaps
+301); then the International Review for 1912 and 1913 (Open-Gaps 303).

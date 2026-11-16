@@ -52,7 +52,7 @@ Calls made here, which the coordinator or Mark may overrule:
    list, and era 8 left out a scan for a weaker line ("Reproductions may not be made without permission"). The
    question for Mark: does a microfilm publisher's notice of 1967 on the film bar the text of a print of 1930 or
    earlier taken from it? The same question governs the volumes of 1906-1909 and those before 1906. His answer,
-   as the coordinator passed it on the same day: "Yes, keep them held (Recommended)". A microfilm maker's notice
+   as the coordinator passed it on the same day (ruling R15): "Yes, keep them held (Recommended)". A microfilm maker's notice
    on a scan blocks taking it; another scan of the same print with no notice may be taken. A search for one
    found none: archive.org has only Google scans of volumes of 1819 to 1834 and one of 1855-56; HathiTrust's
    catalog search refused the request (HTTP 403) and the Google Books search refused it for quota (HTTP 429).
@@ -127,6 +127,10 @@ era 8 script with the fetch date changed.
 
 ## Cautions for profile writers
 
+0. **A text batch 2 listed as not found is here.** The Ecumenical Patriarchate's encyclical of January 1920,
+   "Unto all the Churches of Christ wheresoever they be", is printed whole in English in The Christian East for
+   June 1920 (`christian-east_v1-no2-june-1920.txt`, host lines 155-462), signed by the locum tenens Dorotheus
+   and the metropolitans of his synod. The print names no translator.
 1. **The Christian East prints Eastern documents in English.** A row says where the print names the translator
    or the paper it was taken from. Where it names none, the English may be the sender's own or the journal's;
    do not call it either.
