@@ -7455,3 +7455,7 @@ Mark's instruction, 15 Nov: "Make sure notes and comments are not in library or 
 ## 2026-11-16 - Cap ruling: Church Family Tree, Polycarp clean write
 
 The Polycarp of Smyrna clean write (`Build/Ministry/Operations/Audits/2026-11-16_polycarp-clean-write/`) reached the cap at round 3. Its review files are `R1_review.md`, `R2_recheck.md` and `R3_recheck.md`. Round 3 passed with nothing blocking. The project lead read it and ordered a fourth draft: "add the century and a stronger opening and ending". The recheck of that draft is `R4_recheck.md`. It is the only review this ruling covers.
+
+## 2026-11-16 - Cap ruling: Church Family Tree, Polycarp clean write, round 5
+
+After round 4 (`R4_recheck.md`, PASS), the project lead read it and asked "does it tell the impact … or legacy". It did not: round 4 used about four of the sheet's 19 impact lines. He ruled "1, rebalance and run round 5". The recheck of round 5 is `R5_recheck.md`. It is the only review this ruling covers.

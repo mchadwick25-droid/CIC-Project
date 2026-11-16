@@ -4096,3 +4096,9 @@ The score measures only sentence length and syllables, so it cannot tell a punch
 - The source sheet gains S12, the century, and C13, card only. The held sources place Polycarp by rulers and bishops, never by century. "In the second century" rests on the modern chronology of those reigns (Widely Accepted). "About a hundred years after Jesus" is not supported.
 - A fourth draft is written and rechecked under a Cap ruling in the System Hub Decision Log (2026-11-16, "Cap ruling: Church Family Tree, Polycarp clean write").
 - The standard's own header no longer carries its change history. That history is here.
+
+## 2026-11-16 — The third part gets real weight (Mark, 2026-11-16)
+
+**Why.** Mark read round 4 of the Polycarp clean write: "it does well to tell the story, does it tell the impact", "or legacy". It did not. About two-thirds of the brief told the arrest and death, and it drew on about four of the sheet's 19 impact lines. The standard said "then what came of it" but gave that part no weight, so the vivid beats took the time.
+
+**Decided (Mark, 2026-11-16): "1, rebalance and run round 5".** The Shape line becomes: "Then what came of it, given real weight, about a third of the story: their impact on the church, what they saw differently, what they defended, chosen by weight from the record." The length stays at about two and a half minutes. Round 5 runs under a Cap ruling in the System Hub Decision Log (2026-11-16, "Cap ruling: Church Family Tree, Polycarp clean write, round 5").
