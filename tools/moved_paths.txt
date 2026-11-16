@@ -69,3 +69,4 @@ cic-website/audio/docstories   cft-website/audio/docstories
 cic-website/audio/stories   cft-website/audio/stories
 cic-website/atlas.html   Archive/Superseded-Site-Pages/atlas.html
 cic-website/world-atlas.html   Archive/Superseded-Site-Pages/world-atlas.html
+cic/texts/van-braght_martyrs-mirror_sohm1886.txt   Archive/Retired-Library-Texts/van-braght_martyrs-mirror_sohm1886.txt
