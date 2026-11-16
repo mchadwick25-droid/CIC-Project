@@ -3,65 +3,126 @@
   "otherNames": [
     "Titus Flavius Clement"
   ],
-  "knownFor": "Presbyter and teacher at Alexandria, who held that Greek philosophy prepared the way for Christ and taught Origen.",
-  "dates": "Writing about 190 to 202; last heard of about 212",
-  "place": "Alexandria; later with Alexander of Jerusalem, and at Antioch",
-  "tradition": "Alexandria",
-  "role": "Teacher and presbyter",
-  "briefLength": "about 2 minutes 25 seconds",
+  "knownFor": "Presbyter of Alexandria and head of its Christian school, who answered critics of Greek philosophy by holding that it prepared the Greeks for Christ, held against the followers of Valentinus that knowledge is built on faith, and taught Origen and Alexander of Jerusalem.",
+  "dates": "Around 200, an approximate year: Eusebius of Caesarea says he led the school when Origen was a boy and wrote the Stromata under the emperor Severus, and Jerome says he flourished under Severus and his son Antoninus. Arthur McGiffert puts his chief writing from about 190 to 202 and his last notice about 212; Ernest Cushing Richardson, who translated Jerome, gives born about 160 and died about 217",
+  "place": "Alexandria in Egypt; later with Alexander, afterward bishop of Jerusalem, while Alexander was in prison, and the bearer of Alexander's letter to Antioch",
+  "tradition": "Alexandrian Catechetical / Christian-Platonist Tradition",
+  "role": "Presbyter and head of the Christian school of Alexandria",
+  "briefLength": "about 2 minutes",
   "keyWorks": [
     {
-      "title": "Exhortation to the Greeks",
-      "about": "a call to leave the old gods"
+      "title": "Stromata, or Miscellanies",
+      "about": "eight books, Jerome says, on faith, knowledge and Greek learning, where he holds that philosophy prepared the Greeks for Christ and answers the followers of Valentinus and Basilides"
     },
     {
       "title": "The Instructor",
-      "about": "three books on how a Christian should live"
+      "about": "three books for converts, setting Christ before them as their only Instructor and teaching how a Christian should live"
     },
     {
-      "title": "Stromata",
-      "about": "\"Gnostic Notes on the True Philosophy,\" on faith, knowledge and Greek learning"
+      "title": "Exhortation to the Greeks",
+      "about": "written, his translator says, to win pagans to the Christian faith"
     }
   ],
   "legacy": {
     "traces": [
-      "Jerome of Strido, in his Lives of Illustrious Men, says Origen was his pupil.",
+      "Origen was his pupil as a boy, Eusebius of Caesarea says, and Jerome says Origen later led the school at Alexandria as his successor.",
+      "Jerome, answering the Roman orator Magnus, says Origen wrote ten books of Miscellanies after Clement's example, and names Clement among the Christian writers whose learning justified his own quoting of pagan authors.",
+      "Alexander, later bishop of Jerusalem, wrote to Origen of the holy Clement as his master and benefactor.",
       "His Stromata keep words from the letters of Valentinus."
     ],
     "remembered": [
-      "Alexander of Jerusalem called him \"the blessed presbyter, a man virtuous and approved.\"",
-      "Arthur McGiffert, who translated Eusebius of Caesarea, notes that he was long honored as a saint, and that Pope Clement the Eighth removed his name from the list because his teaching was suspected."
+      "Alexander of Jerusalem, sending a letter to Antioch by his hand, called him a blessed presbyter, virtuous and approved, who had strengthened and built up the church.",
+      "Jerome calls him, in his own judgment, the most learned of men.",
+      "Arthur McGiffert, who translated Eusebius of Caesarea, notes that he was honored as a saint in ancient times, and that Pope Clement the Eighth dropped his name from the roll because his orthodoxy was suspected."
     ]
   },
   "uncertain": [
-    "Little of his life is known beyond his own books, a few chapters of Eusebius of Caesarea and one of Jerome of Strido.",
-    "That the \"Sicilian bee\" he found in Egypt was Pantaenus is Eusebius's judgment. Eusebius says Clement names Pantaenus as his teacher in another book, the Hypotyposes.",
-    "Eusebius says all who taught at Alexandria were driven away when persecution came. Arthur McGiffert, who translated Eusebius, reads Clement into that line and dates his leaving to 202. Clement is not named there.",
-    "McGiffert says nothing certain is known of the place and time of his birth, or of his death."
+    "No reply from the followers of Valentinus to his answer survives in the sources used here, and what they taught is told in Clement's words, as their opponent.",
+    "The year. \"Around the year 200\" is approximate, and no ancient source gives it. It is drawn from Eusebius of Caesarea, who says Clement had charge of the school when Origen was a boy and wrote the Stromata under Severus, and from Jerome, who says he flourished under Severus and his son Antoninus.",
+    "His last teacher. That the teacher he tracked down in Egypt was Pantaenus is Eusebius of Caesarea's own judgment. Eusebius says Clement names Pantaenus as his teacher in another book, the Hypotyposes; Arthur McGiffert, who translated Eusebius, notes that the passage is lost. The Ante-Nicene Fathers' notes take the last teacher to be most likely Pantaenus, and two earlier teachers to be probably Tatian and Theodotus.",
+    "His leaving Alexandria. Eusebius says that when persecution came there was no one at Alexandria to teach the faith, for all had been driven away. McGiffert reads Clement into that line and dates his leaving to 202 under Severus. Clement is not named there.",
+    "His birth and death. McGiffert says nothing certain is known of the place and time of his birth, though he was probably an Athenian by training and born about the middle of the second century, and that nothing is known of the place and time of his death. Richardson's note to Jerome gives born about 160 and died about 217.",
+    "Alexander as his pupil. Alexander calls Clement his master; McGiffert gathers from this that Alexander studied under him. Eusebius calls Clement and Pantaenus Alexander's familiar acquaintances.",
+    "His teaching on the Son. Rufinus of Aquileia says that passages in Clement's books sometimes call the Son a creature of God, and puts them down to tampering by heretics; Jerome reports and answers the argument."
   ],
   "sources": {
     "ownWords": [
       {
-        "title": "Exhortation to the Heathen; The Instructor; The Stromata",
+        "title": "Exhortation to the Heathen; The Instructor; The Stromata (tr. William Wilson)",
         "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
-        "language": "English"
+        "language": "English translation"
       }
     ],
     "about": [
       {
-        "title": "Church History, Book 5 chapters 10 and 11; Book 6 chapters 3, 6, 11, 13 and 14",
+        "title": "Church History, Book 5 chapters 10 and 11; Book 6 chapters 3, 6, 11, 13 and 14, with notes (tr. Arthur McGiffert)",
         "author": "Eusebius of Caesarea",
         "date": null,
         "language": "English translation",
         "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
       },
       {
-        "title": "Lives of Illustrious Men, chapter 38",
+        "title": "Lives of Illustrious Men, chapters 38 and 54 (tr. Ernest Cushing Richardson)",
         "author": "Jerome",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Letter 70, to Magnus, and Letter 84 (tr. W. H. Fremantle)",
+        "author": "Jerome",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf206_jerome-principal-works.xml"
+      },
+      {
+        "title": "The Book Concerning the Adulteration of the Works of Origen (tr. W. H. Fremantle)",
+        "author": "Rufinus of Aquileia",
         "date": null,
         "language": "English translation",
         "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
       }
     ]
-  }
+  },
+  "briefReferences": [
+    "Clement, Stromata I.2, tr. William Wilson: some who find fault with philosophy, as if it dragged believers from the faith.",
+    "Jerome, Lives of Illustrious Men 38, tr. Ernest Cushing Richardson: presbyter of the church of Alexandria; led its school after Pantaenus; flourished under Severus and Antoninus (around 200).",
+    "Eusebius of Caesarea, Church History V.10 and VI.6, tr. Arthur McGiffert: the school of the faithful at Alexandria; Clement had charge of its instruction after Pantaenus; the Stromata written under Severus.",
+    "Clement, Stromata I.1, tr. Wilson: Christian teachers from Greece to Palestine, keeping the apostles' teaching; \"having tracked him out concealed in Egypt, I found rest\".",
+    "Eusebius of Caesarea, Church History V.11, tr. McGiffert: Eusebius's judgment that the last teacher was Pantaenus.",
+    "Clement, Stromata I.5, tr. Wilson: God the cause of all good things; philosophy perhaps given to the Greeks as the law to the Hebrews, to bring them to Christ; \"Philosophy, therefore, was a preparation\".",
+    "Eusebius of Caesarea, Church History VI.6, tr. McGiffert, and Jerome, Lives 38, tr. Richardson: Origen his pupil as a boy.",
+    "Jerome, Lives 54, tr. Richardson, and Letter 84, tr. W. H. Fremantle: Origen later led the school as Clement's successor.",
+    "Jerome, Letter 70, to Magnus, tr. Fremantle: asked why he quoted secular writers; Clement's books drawn from the heart of philosophy; Origen's ten books of Miscellanies after his example, confirming Christian teaching from Plato and Aristotle.",
+    "Clement, Stromata II.3, tr. Wilson: the followers of Valentinus assign faith to the simple and knowledge to themselves, saved by nature.",
+    "Clement, Stromata VII.10 and V.1, tr. Wilson: knowledge built upon faith; the commandments superfluous if one is saved by nature.",
+    "Eusebius of Caesarea, Church History VI.11 and VI.14, tr. McGiffert, and Jerome, Lives 38, tr. Richardson: Alexander, bishop of Jerusalem, Clement's pupil; his letter from prison to Antioch, sent by Clement, who had strengthened and built up the church.",
+    "World census, Alexandrian Catechetical / Christian-Platonist Tradition: his tradition."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "When I had tracked him down, hidden in Egypt, I found rest.",
+      "printed": "When I came upon the last (he was the first in power), having tracked him out concealed in Egypt, I found rest.",
+      "work": "Clement, Stromata I.1, tr. William Wilson",
+      "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+      "lines": "27489-27492",
+      "secondReading": "minor"
+    },
+    {
+      "modern": "Philosophy, then, was a preparation,",
+      "printed": "Philosophy, therefore, was a preparation,",
+      "work": "Clement, Stromata I.5, tr. William Wilson",
+      "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+      "lines": "27893-27894",
+      "secondReading": "minor"
+    },
+    {
+      "modern": "paving the way for the one who is made perfect in Christ.",
+      "printed": "paving the way for him who is perfected in Christ.",
+      "work": "Clement, Stromata I.5, tr. William Wilson",
+      "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+      "lines": "27894-27895",
+      "secondReading": "minor"
+    }
+  ]
 }

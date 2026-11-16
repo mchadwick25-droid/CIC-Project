@@ -1,77 +1,154 @@
 {
   "name": "Justin Martyr",
-  "knownFor": "A philosopher who became a Christian teacher at Rome, defended Christians to the emperor, and was beheaded for refusing to sacrifice.",
-  "dates": "Died about 165",
-  "place": "Flavia Neapolis in Palestine, then Rome",
-  "tradition": "Greek apologists",
+  "knownFor": "A philosopher who became a Christian teacher at Rome, asked the emperor Antoninus Pius to judge Christians by their deeds and not their name, taught that Christ is the Word in whom every people has a share, and was beheaded for refusing to sacrifice.",
+  "dates": "Wrote to Antoninus Pius around 150. Died under Rusticus, prefect of Rome, who Arthur McGiffert says took office in 163; the Chronicon Paschale, as his translators Dods and Reith report it, gives 165",
+  "place": "Flavia Neapolis in Palestine; Ephesus, where Eusebius of Caesarea sets the Dialogue; then Rome",
+  "tradition": "The Second-Century Greek Apologists",
   "role": "Teacher and apologist",
-  "briefLength": "about 2 minutes 30 seconds",
+  "briefLength": "about 2 minutes",
   "keyWorks": [
     {
       "title": "First Apology",
-      "about": "addressed to Antoninus Pius, with the Word shared by every race and a Sunday service"
+      "about": "addressed to Antoninus Pius, asking that Christians be judged by what they have done; it teaches that Christ is the Word of whom every race has a share, and describes the Christians' Sunday gathering"
     },
     {
       "title": "Second Apology",
-      "about": "a shorter defense, in which he names Crescens"
+      "about": "a shorter defense, which tells of Ptolemaeus, punished after being asked only whether he was a Christian, and names Crescens as a likely plotter"
     },
     {
       "title": "Dialogue with Trypho",
-      "about": "his conversion story, and an argument with a Jew that the prophets spoke of Jesus"
+      "about": "his own story of trying the Stoics, a Peripatetic, a Pythagorean and the Platonists before an old man by the sea sent him to the prophets, and an argument with Trypho, a Jew, that his translators call the first full case for Christ as the Messiah of the Hebrew scriptures"
     }
   ],
   "legacy": {
     "traces": [
-      "Tatian, who wrote the Address to the Greeks, was his hearer, Irenaeus of Lyon says."
+      "Tatian was his hearer, Irenaeus of Lyon says. In his Address to the Greeks, Tatian calls him the most admirable Justin, and tells how he himself said farewell to the opinions of the Romans and Athenians and took up what he called the barbarian philosophy.",
+      "Irenaeus of Lyon quoted his lost book against Marcion with approval, where Justin says he would not have believed the Lord himself had he announced any God but the Creator. Eusebius of Caesarea gives this as proof that even the ancients thought his writings worth study.",
+      "Eusebius of Caesarea knew the Dialogue with Trypho, which he says was held at Ephesus with a leading Hebrew of the day, and quotes from it."
     ],
     "remembered": [
       "The account of his trial before Rusticus was kept as the Martyrdom of Justin.",
-      "Eusebius of Caesarea calls him \"a genuine lover of the true philosophy.\""
+      "Eusebius of Caesarea calls him a genuine lover of the true philosophy.",
+      "Arthur McGiffert, who translated Eusebius, notes that his martyr's death is the universal tradition of antiquity and lives on in his name; Irenaeus of Lyon is the first to mention it."
     ]
   },
   "uncertain": [
-    "Eusebius says a plot by Crescens the Cynic brought about his death. Arthur McGiffert, who translated Eusebius, notes that Crescens is known only from Justin and Tatian, Crescens's enemies, and that the trial account does not name him.",
-    "One tradition dates his death under Antoninus Pius, another under Marcus Aurelius. McGiffert favors the later one, since Rusticus became prefect of Rome in 163.",
-    "The trial account is of unknown date and author. Dods, who translated it, says it is generally reckoned among the most trustworthy martyr accounts. Some copies add that Justin died by hemlock, which Dods calls an absurd addition."
+    "Whether Crescens brought about his death. Justin expected a plot, perhaps by Crescens. Tatian says Crescens tried to have Justin, and Tatian himself, put to death. Eusebius of Caesarea says the plot succeeded. The account of the trial never names Crescens. Arthur McGiffert, who translated Eusebius, notes that Crescens is known only from Justin and Tatian, his bitterest enemies, and that Eusebius's report seems to rest on Tatian alone, whose words show a plot but not that it succeeded.",
+    "Eusebius's wording of Tatian. In Tatian's own text Crescens tried to inflict death on Justin and on Tatian too; in the version Eusebius quotes, he tried to inflict it on Justin alone, as if it were a great evil. McGiffert reports that Dembowski, Zahn and Harnack accuse Eusebius of changing the words on purpose. He finds the charge slender, since the three manuscripts of Tatian differ at this very point and Eusebius's copy may have read as he quotes it.",
+    "The edict Eusebius gives after the petition. Eusebius presents it as a ruling of Antoninus Pius, though the heading in his text names Marcus Aurelius. The Ante-Nicene Fathers prints it after the First Apology as regarded as spurious, and McGiffert calls it undoubtedly spurious, probably a forgery of the second century, because it contradicts all that is known of how the state treated Christians in that century.",
+    "The date of the Apology. The brief's \"around 150\" rests on Justin's own words that Christ was born a hundred and fifty years before. Eusebius, in his Chronicle, puts the Apology in 141. McGiffert says most critics put it ten or more years later, and in any case before the death of Antoninus Pius in 161.",
+    "One Apology or two. McGiffert holds that the First and Second Apologies were originally one work, the second a supplement to the first, and that the second apology Eusebius names cannot be the Second Apology as it now stands.",
+    "The date of his death. One tradition puts it under Antoninus Pius, another under Marcus Aurelius. McGiffert favors the later one, since Rusticus became prefect of Rome in 163. Dods and Reith, his translators, report that the Chronicon Paschale gives 165.",
+    "The trial account. Dods, who translated it, says nothing is known of its date or author, that it is generally reckoned among the most trustworthy martyr accounts, and that some copies add that Justin died by hemlock, which he calls an absurd addition. McGiffert dates it to a later age, probably the third century, but finds it a comparatively truthful account.",
+    "Crescens a Cynic. That Crescens was a Cynic philosopher rests on Eusebius. Justin himself calls him only a lover of bravado and boasting.",
+    "The book against Marcion. McGiffert says it is lost, and that Irenaeus preserves only a fragment. A second saying of Justin that Irenaeus quotes, on Satan before the Lord's coming, may come from the same book, McGiffert thinks, though Irenaeus does not name it.",
+    "In the quotation about those who lived with reason, Justin's word logos means both reason and the Word, Christ. He plays on both senses, and no single English word holds both. The printed English and the Greek are kept under quotationOriginals."
   ],
   "sources": {
     "ownWords": [
       {
-        "title": "First and Second Apology; Dialogue with Trypho",
+        "title": "First and Second Apology; Dialogue with Trypho (tr. Dods and Reith)",
         "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
-        "language": "English"
+        "language": "English translation"
       },
       {
-        "title": "First Apology (Greek)",
+        "title": "First Apology (Greek, ed. Rauschen)",
         "file": "cic/texts/justin-martyr_first-apology-grc_rauschen1911.txt",
         "language": "Greek"
       },
       {
-        "title": "Second Apology (Greek)",
+        "title": "Second Apology (Greek, ed. Rauschen)",
         "file": "cic/texts/justin-martyr_second-apology-grc_rauschen1911.txt",
         "language": "Greek"
       },
       {
-        "title": "Dialogue with Trypho (Greek)",
+        "title": "Dialogue with Trypho (Greek, ed. Archambault)",
         "file": "cic/texts/justin-martyr_dialogue-with-trypho-grc_archambault1909.txt",
         "language": "Greek"
       }
     ],
     "about": [
       {
-        "title": "The Martyrdom of the Holy Martyrs Justin, Chariton and others",
-        "author": "Unknown",
+        "title": "The Martyrdom of the Holy Martyrs Justin, Chariton and others (tr. M. Dods)",
+        "author": null,
         "date": null,
         "language": "English translation",
         "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml"
       },
       {
-        "title": "Church History, Book 4, chapters 16 to 18",
+        "title": "Acts of Justin, Greek, in Acta martyrum selecta (ed. Oscar von Gebhardt)",
+        "author": null,
+        "date": null,
+        "language": "Greek",
+        "file": "cic/texts/acta-martyrum-selecta_gebhardt1902.txt"
+      },
+      {
+        "title": "Church History, Book 4, chapters 8, 11 to 13 and 16 to 18, with notes (tr. Arthur McGiffert)",
         "author": "Eusebius of Caesarea",
         "date": null,
         "language": "English translation",
         "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Address to the Greeks, chapters 18, 19 and 35 (tr. J. E. Ryland)",
+        "author": "Tatian",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+      },
+      {
+        "title": "Against Heresies, I.28 and IV.6.2 (tr. Roberts and Rambaut)",
+        "author": "Irenaeus of Lyon",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml"
       }
     ]
-  }
+  },
+  "briefReferences": [
+    "Justin, First Apology 1, tr. Dods and Reith: of Flavia Neapolis in Palestine; his petition to Antoninus Pius for those of all nations unjustly hated, himself among them.",
+    "Justin, First Apology 3-4, tr. Dods and Reith: Christians to be judged by their conduct; a name alone decides nothing good or evil; Christians punished for the name.",
+    "Justin, Second Apology 2, as Eusebius of Caesarea quotes it in Church History IV.17, tr. Arthur McGiffert: Ptolemaeus asked only whether he was a Christian, and punished.",
+    "Justin, First Apology 46, tr. Dods and Reith, with the Greek ed. Rauschen: Christ born a hundred and fifty years before (around 150); Christ the Word of whom every race shares; \"those who lived with reason are Christians\"; Socrates named among them.",
+    "Martyrdom of Justin 2, tr. M. Dods: Justin living in Rome for the second time.",
+    "Justin, First and Second Apology, Greek, ed. Rauschen: written in Greek to defend the faith.",
+    "Justin, Dialogue with Trypho 2-3, 7 and 8, tr. Dods and Reith: a philosopher going from school to school; the old man in a field near the sea who told him of the prophets; still a philosopher after it.",
+    "Eusebius of Caesarea, Church History IV.13, tr. McGiffert: the edict after the petition, sent to the Common Assembly of Asia after Christians there told the emperor of their sufferings.",
+    "The edict of Antoninus to the Common Assembly of Asia, printed after the First Apology, tr. Dods and Reith: an accused Christian, accused merely as such, to be acquitted.",
+    "Justin, Second Apology 3, tr. Dods and Reith, with the Greek ed. Rauschen: he expects to be plotted against, perhaps by Crescens.",
+    "Eusebius of Caesarea, Church History IV.16, tr. McGiffert: Crescens a Cynic philosopher; Justin's death caused by his plot.",
+    "Tatian, Address to the Greeks 19, tr. J. E. Ryland: Crescens tried to inflict death on Justin and on Tatian.",
+    "Martyrdom of Justin, whole text, tr. M. Dods: Crescens never named; Rusticus's question and Justin's answer; six others (Chariton, Charito, Euelpistus, Hierax, Paeon, Liberianus); the refusal to sacrifice; the beheading.",
+    "Acts of Justin, Greek, ed. Oscar von Gebhardt: the question and answer before Rusticus.",
+    "Justin, First Apology 26, tr. Dods and Reith: Marcion teaching a god greater than the Creator.",
+    "Irenaeus of Lyon, Against Heresies IV.6.2, tr. Roberts and Rambaut, and in Eusebius, Church History IV.18.9, tr. McGiffert: Justin's book against Marcion, \"I would not have believed the Lord Himself\" if he had announced any other than the Creator.",
+    "World census, The Second-Century Greek Apologists: his tradition."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "those who lived with reason are Christians, even if they were thought to be atheists,",
+      "printed": "those who lived reasonably are Christians, even though they have been thought atheists",
+      "work": "Justin, First Apology 46, tr. Dods and Reith",
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "lines": "15686-15692",
+      "secondReading": "changes meaning",
+      "uncertain": "The Greek, οἱ μετὰ λόγου βιώσαντες Χριστιανοί εἰσι, κἂν ἄθεοι ἐνομίσθησαν (justin-martyr_first-apology-grc_rauschen1911.txt, lines 1232-1233), carries both \"with reason\" and \"with the Word\", as the translators' note says. The first reading has \"with reason\", the second \"by the Word\"; each settles one sense, and both readings are kept. The final keeps \"with reason\", and the brief's sentence before names Christ as the Word."
+    },
+    {
+      "modern": "So then, you are a Christian?",
+      "printed": "Are you not, then, a Christian?",
+      "work": "Martyrdom of Justin 2, tr. M. Dods",
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "lines": "29312-29313",
+      "secondReading": "same"
+    },
+    {
+      "modern": "Yes, I am a Christian.",
+      "printed": "Yes, I am a Christian.",
+      "work": "Martyrdom of Justin 2, tr. M. Dods",
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "lines": "29313-29314",
+      "secondReading": "same"
+    }
+  ]
 }
