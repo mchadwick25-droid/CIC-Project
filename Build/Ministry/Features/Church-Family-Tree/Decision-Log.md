@@ -3895,7 +3895,37 @@ All files are in `Build/Ministry/Operations/Audits/2026-11-15_story-relations-cl
 - The old Gregory and Benedict files in era 3 batches 5 and 2 are replaced. The cards gain a `briefReferences` field.
 - The census, the live site and the live audio are unchanged. Era 3's release comes later.
 
-**Still open.** Quotation marks on our own English renderings, and how reviews are run. Both are marked open in the patterns, and the current text stands.
+**Still open.** Quotation marks on our own English renderings, and how reviews are run. Both are marked open in the patterns, and the current text stands. (Both ruled below, 2026-11-16.)
+
+**Drift guards (Mark, 2026-11-16: "All six (Recommended)").** Mark chose all six guards from the coordinator's page "Keeping Standard v1":
+1. A CI check fails a pull request that changes the pattern files or the bar folder unless the same pull request adds a Decision-Log entry quoting Mark's words for that change. Thread A builds it.
+2. Every writer's and reviewer's instructions include the standard and three bar briefs (Gregory of Tours, Benedict of Nursia and one of the eight). Every review names the bar brief it compared against. Nothing is compared against a previous batch.
+3. Before an era's batch goes live, Mark hears one brief picked at random from it, beside a bar brief. His yes is the release.
+4. Every five batches, a fresh reviewer scores new and bar briefs mixed without labels. If the new ones score lower, writing stops.
+5. Readability numbers are a floor and a ceiling only. Craft is judged by reading.
+6. One coordinator at a time. A ruling is recorded only with Mark's quoted words, and anything passed on second-hand is marked as a remark. Every brief and handover links the rulings record.
+
+The page also says, for guard 4, that writing stops "until we know why", and for guard 3, that the listen takes "about five minutes a batch", so it runs once per batch.
+
+Guards 3 to 6 are in `Who_Profile_Pattern.md`, "Drift guards". Guard 2 is in `Worker_Brief_Template.md`.
+
+**Length, a ruling left out of the 2026-11-15 entry.** Mark said to the coordinator on 2026-11-15, just before the 2:00 and 2:30 refinement: "we are ok to go long if the content demands it". The coordinator heard it and relayed it on 2026-11-16, and says leaving it out of the earlier entry was the coordinator's error. It stands beside "target under 2 minutes, can streatch to 2:30 if needed, no hard cap" in the pattern's length rule.
+
+**The two open points, ruled (Mark, 2026-11-16).**
+- Quotation marks: "Two kinds, kept apart (Recommended)". A close rendering of a foreign-language line covers every clause, adds nothing and is checked against the original. It may carry quotation marks, labelled as our modern English, and is listed in `tools/quote_renderings.json`. A looser telling never carries marks. Per `CLAUDE.md`, Opus authors any rendering that carries marks. This supersedes the 2026-11-14 batch calls that dropped the marks.
+- Reviews: "CLAUDE.md governs (Recommended)". Opus drafts and reviews every round. Round 1 runs the full checklist, and from round 2 only what changed is rechecked. The three-round cap applies. The second-hand remarks "dont sacrafice quality, expecially the quality of writing" and "stop all opus work except the rewrite process" are not rules.
+- Standard v1 has no open points left.
+
+**The inferred working rules (Mark, 2026-11-16: "Take my recommendations (Recommended)").** Mark approved the coordinator's recommendations on the 29 rules from the rulings draft as a set. They are not his own words, and `Who_Profile_Pattern.md`, "Working rules", marks them "approved by Mark on the coordinator's recommendation, 2026-11-16":
+- Kept: A6, A7, A19, A27, A47, A48, A53, A61, A62, A64, A65, A74, B14, B15, C2, C3, C4, C9, C10, C11 and C19. A64 reinstates the bare-year rule after the opening's clear year.
+- Retired: A37 and B13 (the 2:30 caps), and A72 and A73 (a much later Life means LISTED).
+- Replaced by the two-kinds quotation rule: A67 and A70.
+- Held, not rules: C17 and C18.
+Also in this change:
+- The line that kept "the counsels are stories i think" beside the council ruling now says that line is superseded.
+- Pliny the Younger's entry, still marked open in the pattern, now reads Who, outside witness, as Mark ruled on 2026-11-12.
+
+**The eight (Mark, 2026-11-16: "Revise, then record (Recommended)").** The eight early briefs in `Who-Profiles/bar/` are to be brought up to Standard v1 first, starting from branch `claude/cft-eight-small-pass`, with the same review and four checks as the Gregory and Benedict pair. All eight are recorded at once only after Mark approves one sample.
 
 **Record.** `Build/Ministry/Operations/Audits/2026-11-15_standard-v1-test/`: the reviews, the two paid recording runs (2,245 and 2,275 credits, both reconciled against the balance) and the approved audio.
 
