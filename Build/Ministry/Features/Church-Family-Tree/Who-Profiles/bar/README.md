@@ -20,5 +20,5 @@ The live text and the audio still carry the older wording. They change to these 
 | Gregory of Nazianzus | 324 | 9.5 | 72.0 |
 | Gregory of Nyssa | 382 | 9.6 | 69.3 |
 | John Chrysostom | 384 | 9.1 | 70.0 |
-| Gregory of Tours (Standard v1) | 400 | 9.7 | 74.1 |
+| Gregory of Tours (Standard v1) | 400 | 9.3 | 75.4 |
 | Benedict of Nursia (Standard v1) | 423 | 9.0 | 79.1 |
