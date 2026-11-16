@@ -3940,7 +3940,14 @@ Also in this change:
 - Old and Middle English (language codes ang and enm), Middle High German (gmh) and other older stages of a language count as foreign, and our close English of them gets the same two-rendering check as Latin.
 - Older English translations (17th to 19th century) are quoted word for word where they read plainly. Where we write a modern English version that carries quotation marks, it also gets the second rendering.
 - A modern telling without quotation marks names its source, as now.
-- None of the 14 entries is in an older form of English or German; all are Latin or French. The eight's drafts put no modern version of an older translation in quotation marks.
+- None of the 14 entries is in an older form of English or German; all are Latin or French.
+
+**Widened again: every English quotation printed before 1931 (Mark, 2026-11-16: "we even treat english from 1850s needing translation", then "Yes, every quote before 1931 (Recommended)", relayed by the coordinator).**
+- Every quotation the tree takes from an English text printed before 1931 is spoken and shown in our modern English, labelled as ours, and gets the same second rendering as Latin.
+- The printed wording, with its file and lines, stays on the card under the references.
+- Foreign and older-stage texts are covered as before. A telling without quotation marks still names its source.
+- This replaces the point above that 17th- to 19th-century English translations are quoted word for word where they read plainly.
+- It applies to the eight now. The live cards and briefs of eras 1 to 4 change in their era passes.
 
 **Where it is written.** `Who_Profile_Pattern.md`, "The brief", Quotes; `Worker_Brief_Template.md`, the writer paragraph.
 
