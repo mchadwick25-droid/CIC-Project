@@ -3,16 +3,16 @@
 Files are under `cic/texts/`. Line numbers are file lines.
 A2 = `anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml` (The Pastor of Hermas, tr. Crombie). A5 = `anf05_hippolytus-cyprian-caius-novatian.xml` (Muratorian Canon, under Caius). A4 = `anf04_tertullian4-minucius-felix-commodian-origen1-2.xml` (Tertullian, On Modesty, tr. Thelwall). A1 = `anf01_apostolic-fathers-justin-irenaeus.xml` (Irenaeus). E = `npnf201_eusebius-church-history-life-of-constantine.xml`. TL = `tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt` (Latin of On Modesty).
 
-Words 315 (`wc -w`; the tool counts 314), grade 9.4, reading ease (names out) 70.6.
-Over 300: the one stance has four ancient verdicts (Irenaeus, Tertullian, the Muratorian list, Eusebius), and each says something different about what came of the book.
+Words 355 (`wc -w`; the tool counts 354), grade 8.4, reading ease (names out) 72.6.
+Over 300: the one stance has four ancient verdicts (Irenaeus, Tertullian, the Muratorian list, Eusebius), and each says something different about what came of the book. The round 1 fixes add the second ancient report of who Hermas was and the limit on the second repentance; neither can go to the card without the brief claiming more than its sources.
 
 ## (a) Moved to the card
 
-- McGiffert on the date ("most scholars" accept the Muratorian report) and Zahn's 97 to 100: E 14776-14808. Out of the brief. The brief gives the Muratorian report as the one early report and says so.
+- McGiffert on the date ("most scholars" accept the Muratorian report) and Zahn's 97 to 100: E 14776-14808. Out of the brief. The brief gives the Muratorian report as the earliest report and gives the second ancient report beside it (below, (b)).
 - Hermas's own mention of Clement, to whom he is to send a copy (Vision 2.4, A2 1010-1013), which is the ground for the earlier dating: card, What is uncertain.
-- Origen's identification with the Hermas of Romans 16 and McGiffert's "a mere guess" (E 14753-14754, 14793-14796); Eusebius III.3.6 repeats the ascription. Card.
+- McGiffert's "a mere guess" on the identification with the Hermas of Romans 16 (E 14793-14796), and the note in Jerome's edition that this view "is not much accepted" (npnf203 39614-39618). Card. The identification itself is now in the brief (b).
 - Coxe's doubt whether the words on one repentance in Commandment 4.3 are genuine, and the one-manuscript clause before them (A2 2015-2019). Card. The brief quotes the parallel line in Commandment 4.1 (A2 1933-1934), which Coxe does not question.
-- McGiffert: by Jerome's time the book was almost unknown among the Latins (E 14772-14775). Card; the brief does not tell it (Jerome's own line was not opened).
+- Jerome, Lives 10: the book is "read publicly in some churches of Greece" (npnf203 39626-39627) and "among the Latins it is almost unknown" (39628-39629). Card; the brief does not tell it.
 - The manuscript variants of the opening sentence (Vatican: "sold a certain young woman at Rome"; Palatine: the name Rada), A2 649-652. Card.
 - The vision of the old woman who is the Church (Vision 2.4, A2 993-1005): cut as a side scene.
 - Clement of Alexandria and Origen using the book as inspired (old card): not opened in the held files for this pass; card only if sourced.
@@ -23,12 +23,14 @@ Over 300: the one stance has four ancient verdicts (Irenaeus, Tertullian, the Mu
 - Rome; wrote the Pastor "very recently in our times in the city of Rome, while his brother bishop Pius sat in the chair of the Church of Rome": Muratorian Canon, A5 60178-60180.
 - "Around the year 150": Eusebius IV.10-11 puts Hyginus's accession in the first year of Antoninus Pius, gives Hyginus four years and Pius fifteen (E 22121-22123, 22321, 22370-22371).
 - Tradition: census `post-apostolic-house-church`.
+- Eusebius of Caesarea and Jerome took him for the Hermas whom Paul greets in Romans: Eusebius III.3.6, "the apostle in the salutations at the end of the Epistle to the Romans ... has made mention among others of Hermas, to whom the book called The Shepherd ... is ascribed" (E 14735-14736, 14753-14754, 14848); Jerome, Lives 10, the Hermas of Romans 16 "is reputed to be the author of the book which is called Pastor" (`npnf203_theodoret-jerome-gennadius-rufinus.xml` 39614-39627). Told plainly as their view, not as fact.
 - Everything else comes from inside his visions: A2 646 onward; no held ancient witness gives any other fact of his life.
 - Sold to Rhoda; met her many years later; loved her as a sister; the thought about such a wife: Vision 1.1, A2 648-658.
 - She greets him from the sky; taken up to accuse him of his sins before the Lord: A2 681-685.
+- Afraid, he asked himself how he could now be saved: Vision 1.2, A2 733-734 ("I was overwhelmed with sorrow and fear, and said to myself, 'If this sin is assigned to me, how can I be saved'"). Told without marks.
 - Teachers who say there is no repentance but that of baptism: Commandment 4.3, A2 1990-1994.
-- The Shepherd, an angel sent to live with him: Vision 5, A2 1697-1705, 1724-1725 ("the shepherd, even the angel of repentance").
-- The baptized ought not to sin again; the Lord, knowing human weakness, in mercy set repentance; once: A2 1994-1997, 2003-2012, 2020-2022.
+- The book named for an angel dressed as a shepherd, sent to live with him: Vision 5, A2 1697-1705 ("dressed like a shepherd", "sent by a most venerable angel to dwell with you"), 1724-1725 ("the shepherd, even the angel of repentance").
+- The baptized ought not to sin again; the Lord, knowing human weakness, in mercy set repentance; once: A2 1994-1997, 2003-2012, 2020-2022. For those baptized before this time only: A2 1999-2003 ("those who have now believed, and those who are to believe, have not repentance for their sins ... For to those who have been called before these days, the Lord has set repentance").
 - The husband must take back the wife who repents, "But not frequently": Commandment 4.1, A2 1924-1929. Q1: A2 1933-1934.
 - Irenaeus quotes the Shepherd as "the Scripture": Against Heresies IV.20.2, A1 46864-46868; Eusebius V.8.7, "he not only knows, but also receives, The Shepherd" (E 28248-28257).
 - Tertullian, against a bishop's edict remitting adultery and fornication to the penitent: On Modesty 1, A4 7178-7189. The Shepherd "the only one which favours adulterers"; judged "by every council of Churches (even of your own) among apocryphal and false": On Modesty 10, A4 8138-8144; Latin TL 13578-13581 ("quae sola moechos amat ... ab omni concilio ecclesiarum, etiam uestrarum, inter apocrypha et falsa iudicaretur"). Told without marks.
@@ -82,3 +84,23 @@ Sentences cut on the sentence test: 7 (the old woman who is the Church, two; McG
 - The brief leaves out that he saw her bathing in the Tiber and helped her out (A2 654-655); "one day he thought" covers it without the detail.
 - Tertullian is a hostile witness and wrote On Modesty as a Montanist; the brief marks him by what he was attacking. His claim about councils is his alone.
 - I did not find a held ancient witness saying the church took up "one repentance" as its rule; the scan's "shaped the Roman teaching on one repentance" is not told.
+
+## Round 1 revision
+
+Review: `reviews/round1-g1.md`. Verdict was BLOCKED on three findings. Each fix uses held lines I opened; no claim is added beyond them.
+
+- **B1, fixed.** "the one early report we have" was untrue of the held sources: Eusebius III.3.6 (E 14735-14736, 14753-14754) and Jerome, Lives 10 (npnf203 39614-39627) take him for the Hermas of Romans 16. Fix (a) of the review: the Muratorian report is called the earliest, and one sentence gives the other side with its two witnesses.
+  - Old: "Around the year 150, by the one early report we have, a Christian named Hermas lived at Rome ..."
+  - New: "Around the year 150, by the earliest report we have, a Christian named Hermas lived at Rome ..." and, after the Muratorian sentence, "Eusebius of Caesarea and Jerome took him instead for the Hermas whom Paul greets in his letter to the Romans."
+- **B2, fixed.** The concession in Commandment 4.3 is for "those who have been called before these days" (A2 1999-2003), not a standing rule.
+  - Old: "... and in mercy has set one repentance more."
+  - New: "... and in mercy has set one repentance more for those baptized before this time."
+- **B3, fixed, with the flow hinge (craft test 2).** The sentence that made the book and the angel two appositions is rewritten so the book is named for the angel once, and one sentence links his accusation to the question of repentance (Vision 1.2, A2 733-734).
+  - Old: "Hermas had heard teachers say ... In his book the Shepherd, an angel sent to live with him, agrees that the baptized ought not to sin again, but says the Lord knows human weakness and in mercy has set one repentance more."
+  - New: "Afraid, he asked himself how he could now be saved. Hermas had heard teachers say ... The book takes its name from an angel dressed as a shepherd, sent to live with him. This angel agrees that the baptized ought not to sin again. But the Lord knows human weakness, he says, and in mercy has set one repentance more for those baptized before this time."
+- **Non-blocking, "ruled": taken.** "The Muratorian list said that the book should be read". ("Judged" would repeat Tertullian's "judged" in the sentence before.)
+- **Non-blocking, "So a husband": left.** The "So" now follows the concession directly, and Commandment 4.1 gives the husband's rule its reason in the same terms ("For there is but one repentance", A2 1933-1934).
+- **Length.** To make room, Eusebius's reason is shortened: "since some thought beginners in the faith needed it" (E 14856-14857, "especially to those who need instruction in the elements of the faith"). The brief is still 355 words; the reason is given under the word count above.
+- **Quotations:** none added, removed or reworded.
+- Readability: grade 8.4 (names out 8.0), at the floor; reading ease 72.6.
+

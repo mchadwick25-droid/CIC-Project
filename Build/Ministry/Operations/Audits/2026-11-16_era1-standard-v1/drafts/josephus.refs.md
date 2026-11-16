@@ -3,7 +3,7 @@
 Files are under `cic/texts/`. Line numbers are file lines; quotations re-checked against the file with tags and notes stripped.
 JW = `josephus_works-antiquities-wars-life_whiston1859.txt` (Whiston's English; a scan with OCR faults). E = `npnf201_eusebius-church-history-life-of-constantine.xml` (Eusebius, Church History, tr. McGiffert 1890). OM = `anf09_gospel-of-peter-diatessaron-origen-commentaries.xml` (Origen, Commentary on Matthew). OC = `anf04_tertullian4-minucius-felix-commodian-origen1-2.xml` (Origen, Against Celsus). J3 = `npnf203_theodoret-jerome-gennadius-rufinus.xml` (Jerome, Lives of Illustrious Men, tr. Richardson 1892).
 
-Words 296 (`wc -w`), grade 9.9, reading ease (names out) 73.4.
+Words 312 (`wc -w`), grade 9.3, reading ease (names out) 76.3.
 
 ## (a) Moved to the card
 
@@ -11,7 +11,7 @@ Words 296 (`wc -w`), grade 9.9, reading ease (names out) 73.4.
 - "Eusebius is the first one to quote this passage" and "the silence in regard to it of all Christian writers until the time of Eusebius": McGiffert, E 9186-9192 and 9213-9214. The brief says only that Origen wrote that Josephus did not accept Jesus as Christ, and that Eusebius quotes the passage; it does not say "first".
 - Whiston's defense of the whole passage and his "of late been greatly questioned by many": Whiston, Dissertation I, JW from 138231. Out of the brief.
 - McGiffert's judgment that the James line is genuine, and the critics who doubted it: McGiffert's notes to Church History II.23, E around 13543-13560 and 13600 onward. Out of the brief.
-- Origen cites Josephus as saying Jerusalem fell because of what was done to James (OM 30621-30626; OC 37934-37942 and 39894-39896); Eusebius quotes such a line (II.23.20, E 13543 onward); Jerome repeats it (J3 39320-39323). McGiffert says the line is not in our manuscripts of Josephus (E 13545-13548). Card, What is uncertain, naming McGiffert. The brief does not tell it.
+- Origen cites Josephus as saying Jerusalem fell because of what was done to James (OM 30621-30626; OC 37934-37942 and 39894-39896); Eusebius quotes such a line (II.23.20, E 13543 onward); Jerome repeats it (J3 39320-39323). McGiffert says the line is not in our manuscripts of Josephus (E 13545-13548). Card, What is uncertain, naming McGiffert. Since round 1 the brief tells what Origen's Josephus said and that the words are not in our copies, on the held text alone (b); McGiffert's statement about the manuscripts stays on the card.
 - "Around the year 93": Josephus himself gives "the 13th year of the reign of Caesar Domitian, and the 56th of my own life" (Antiquities XX, close, JW 91662-91666). The year 93 is the conversion printed in Whiston's note (JW 91640). Card should give Josephus's own regnal date and say 93 is the conversion.
 - Birth "in the first year of the reign of Caius" (the old brief's "37"), the prophecy to Vespasian with Suetonius beside it, Titus and the holy books (JW 5350-5365): side facts, cut on the sentence test; card keeps them.
 - Josephus on John the Baptist (Antiquities XVIII.5.2; Eusebius I.11.4-6, E 9136-9160; Origen, OC 37927-37932): card. The brief no longer names it.
@@ -22,14 +22,16 @@ Words 296 (`wc -w`), grade 9.9, reading ease (names out) 73.4.
 - A Jewish priest, of a family of priests: Life 1, JW 1385-1397. Born in Jerusalem: Life 39, JW 3323-3326. Eusebius III.9.1, "a priest of Jerusalem", E 15910-15913.
 - Not a Christian: Origen, OM 30628 and OC 37933-37934.
 - Governor of both the Galilees when the war began: Jewish War II.20.4, JW 106926-106929; Life 65, JW 4521 and 5104-5116. In Roman hands before Jerusalem was besieged: Life 65, JW 4741-4743.
-- After Jerusalem fell, Vespasian gave him lodging in his own former house at Rome, the privilege of a Roman citizen, and a yearly pension: Life 75-76, JW 5350 and 5403-5411.
+- After Jerusalem fell, Vespasian gave him rooms ("an apartment") in his own former house: lodging in his own former house at Rome, the privilege of a Roman citizen, and a yearly pension: Life 75-76, JW 5350 and 5403-5411.
 - Wrote the Antiquities of the Jews (twenty books): OM 30621-30622; J3 39713.
 - The shorter report (Ananus, the sanhedrim of judges, James and some others, delivered to be stoned): Antiquities XX.9.1, JW 90990-91013. Q1.
-- Origen read the report and used it against Celsus; Josephus, "although not believing in Jesus as the Christ", says James was "a man most distinguished for his justice": Against Celsus I.47, OC 37932-37942; the same in Commentary on Matthew X.17, OM 30619-30630. Told without marks.
+- Origen cited Josephus on James against Celsus: Against Celsus I.47, OC 37925-37942, where the report first used is Josephus on John the Baptist (37927-37932) and James follows. Josephus, "although not believing in Jesus as the Christ", says Jerusalem fell "as a punishment for the death of James the Just ... the Jews having put him to death, although he was a man most distinguished for his justice" (OC 37933-37942); the same in Commentary on Matthew X.17, OM 30619-30630. Told without marks.
+- "Those words are not in our copies": the held text of Antiquities XX.9.1 (JW 90990-91013) has Ananus, James and the stoning, and nothing on James's justice or on Jerusalem's fall.
 - The longer report as our copies have it: Antiquities XVIII.3.3, JW 81405-81421. Q2, Q3. Pilate, the cross, alive again the third day: JW 81411-81417, told without marks.
 - Origen's statement: Commentary on Matthew X.17, OM 30627-30628. Q4.
 - Eusebius quotes the passage: Church History I.11.7-8, E 9227-9240 (his wording matches Whiston's in substance, with "He was the Christ"). His argument against the forged acts: I.11.9, E 9242-9246; the forged acts themselves, I.9.3, E 8940-8950.
 - Jerome's chapter on Josephus in his account of the church's writers: Lives of Illustrious Men 13, J3 39708-39733; the book's purpose, "a systematic account of ecclesiastical writers", preface, J3 38778. His version of the passage: J3 39724-39733. Q5.
+- "So neither Origen nor Jerome read that line as our copies give it": drawn only from Q4 (Origen) and Q5 (Jerome) set against Q3 ("He was the Christ", JW 81405-81421). It says nothing of the rest of the passage, whose modern views stay on the card (a).
 - "Third century", "early in the fourth century", "later in that century": the census dates of Origen, Eusebius and Jerome.
 
 ## (c) Quotations
@@ -78,7 +80,7 @@ Q5
 
 - Tradition stays "Outside the church"; label "Outside witness".
 - briefLength: about 2 minutes.
-- What is uncertain should open with the brief's caveat: the longer passage cannot be trusted as it stands; Origen says Josephus did not accept Jesus as Christ; Jerome's version reads "was believed to be Christ". Then the modern views, each named (McGiffert's four; Whiston).
+- What is uncertain should open with what the ancient witnesses carry: our copies read "He was the Christ"; Origen says Josephus did not accept Jesus as Christ; Jerome's version reads "was believed to be Christ". Then the modern views, each named (McGiffert's four; Whiston).
 - Add to "remembered": Eusebius's use of the passage against the forged acts (I.11.9); Jerome's chapter 13 and his different wording.
 - Add to Sources, Written about them: Origen, Against Celsus I.47 (`anf04_tertullian4-minucius-felix-commodian-origen1-2.xml`); Jerome, Lives of Illustrious Men 13 (`npnf203_theodoret-jerome-gennadius-rufinus.xml`); Eusebius, Church History II.23 and III.9.
 - The card keeps what the brief no longer tells: the birth year, the prophecy to Vespasian (Suetonius), Titus and the holy books, John the Baptist, the "fall of Jerusalem because of James" line.
@@ -108,3 +110,21 @@ Sentences cut on the sentence test: 9 from the old brief's matter (Titus and the
 - Jerome's "was believed to be Christ" is Richardson's English of Jerome's Latin; the Latin is not held, so the second renderer cannot check it against the original.
 - The Greek of the longer passage is not held; Q2 and Q3 rest on Whiston's English with McGiffert's English of Eusebius beside it.
 - Old brief: nothing found false. Its "Vespasian's old house, as a Roman citizen with a pension" and the Titus scene are in the Life as told. Its "Origen ... wrote more than a century later" is true by the census dates but is not said by a held source.
+
+## Round 1 revision
+
+Review: `reviews/round1-g1.md`. Verdict was BLOCKED on two findings, both on the trust half.
+
+- **B1, fixed.** "The longer report cannot be trusted as it stands" was my verdict, not an ancient witness's, and it went past what Origen and Jerome carry, which bears on the one line only. The thesis opener is gone. The paragraph now gives our copies' wording, then Origen; Jerome's version follows in time order in the next paragraph; and the close draws only the conclusion those two carry.
+  - Old: "The longer report cannot be trusted as it stands. In our copies Josephus calls Jesus ..."
+  - New: "In our copies the longer report calls Jesus ..."
+  - Old close: "Jerome, later in that century, gave Josephus a chapter in his book of the church's writers and copied the passage there, though in his version Jesus "was believed to be Christ.""
+  - New close: "Jerome, later in that century, gave Josephus a chapter in his book of the church's writers. He copied the passage there, but in his version Jesus "was believed to be Christ." So neither Origen nor Jerome read that line as our copies give it."
+- **B2, fixed.** Origen's Josephus says more of James than our copies do, and the brief had given that to "this report". The sentence now says what Origen's Josephus said, and the next says plainly that our copies lack it.
+  - Old: "Origen ... read this report in Josephus and used it against Celsus, a critic of the Christians. Here, Origen argued, was a writer who did not believe in Jesus as the Christ and still testified that James was a just man."
+  - New: "Origen ... cited Josephus on James against Celsus, a critic of the Christians. Here, Origen argued, was a writer who did not believe in Jesus as the Christ, yet said that Jerusalem fell because the Jews had killed James, a just man. Those words are not in our copies."
+- **Non-blocking, Vespasian's "house": taken.** Life 76 has "an apartment in his own house" (JW 5403-5411): "rooms in his own former house in Rome".
+- **Non-blocking, grade near the ceiling: taken.** The Eusebius and Jerome sentences are each split in two (grade 10.4 before the split, 9.3 after).
+- **Quotations:** none added or reworded; Q5 has moved within the close.
+- Readability: grade 9.3 (names out 7.5), reading ease 76.3.
+

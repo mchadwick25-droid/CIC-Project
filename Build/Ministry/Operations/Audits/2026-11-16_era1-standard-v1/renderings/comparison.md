@@ -139,6 +139,7 @@ Original-language checks. "In file" means the file shows the form, at the line g
 - **FINAL:** "I am God's wheat. Let me be ground by the teeth of the wild beasts, so that I may be found the pure bread of Christ." (new: A's words, split into two sentences, one thought each)
 - **Original check:** The Greek is not held. B's "ἀλήθομαι" is **NOT IN FILE**. In file: ANF 1 line 7060, the other form, "I am the wheat of God, and am ground ... the pure bread of God"; Irenaeus's quotation at lines 53558-53560, "I am the wheat of Christ, and am ground ... the pure bread of God".
 - **Card note (uncertain):** Other English forms in the same volume read "I am ground" and "bread of God". The brief follows the form that reads "let me be ground".
+- **Brief carries:** A's joined form, "I am God's wheat, and let me be ground ...", which this comparison judged the same in meaning. The split FINAL takes the brief to grade 7.9, below the floor; the printed text is itself joined. See `README.md`.
 
 ## E16 (ignatius-of-antioch; ANF 1, lines 8102-8103)
 - **Printed:** "But if these things were done by our Lord only in appearance, then am I also only in appearance bound."
@@ -297,6 +298,7 @@ Original-language checks. "In file" means the file shows the form, at the line g
 - **Verdict:** same
 - **FINAL:** "I rejoice greatly, very greatly, at his glory. Yet I grieve more that I remained behind." (new: A's words, split into two sentences, one thought each)
 - **Original check:** In file, Hartel lines 41409-41410: "multum ac nimis multum de gloria eius exulto, plus / tamen doleo quod remansi." "Tamen" is "yet"; "plus" is "more".
+- **Brief carries:** A's joined form, "... at his glory, yet I grieve more that I remained behind", which this comparison judged the same in meaning. The split FINAL takes the brief to grade 7.9, below the floor; the printed text and the Latin are themselves one sentence. See `README.md`.
 
 ## E35 (anatolius-of-alexandria-and-laodicea; NPNF 2.1, lines 42815-42817)
 - **Printed:** "commit no slight or common blunder"

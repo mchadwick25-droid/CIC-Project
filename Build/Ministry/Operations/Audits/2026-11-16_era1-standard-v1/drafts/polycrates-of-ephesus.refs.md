@@ -3,8 +3,8 @@
 Files are under `cic/texts/`. Line numbers are file lines.
 E = `npnf201_eusebius-church-history-life-of-constantine.xml` (Eusebius, Church History and Life of Constantine; tr. McGiffert, Richardson). A8 = `anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml` (the letter as a fragment). S = `npnf202_socrates-sozomen-ecclesiastical-histories.xml`. J = `npnf203_theodoret-jerome-gennadius-rufinus.xml` (Jerome, Lives 45). VC = `eusebius_werke-bd1-vita-constantini-oratio-ad-sanctos-grc_heikel1902.txt` (Greek of the Life of Constantine). H = `hefele_history-of-the-councils-v1-to-nicaea_clark1872.txt`.
 
-Words 331 (`wc -w`), grade 9.3, reading ease (names out) 74.0.
-Over 300: the outcome of his stand comes in two stages, each with its own ancient witness (Victor and Irenaeus in Eusebius; then Constantine's letter and Socrates), and cutting either would leave the stance without its end.
+Words 348 (`wc -w`), grade 9.0, reading ease (names out) 76.0.
+Over 300: the outcome of his stand comes in two stages, each with its own ancient witness (Victor and Irenaeus in Eusebius; then Constantine's letter and Socrates), and cutting either would leave the stance without its end. The round 1 fixes add the relatives' keeping of the day and the plain limit on how Asia came round; the rebuke sentence is folded into the Irenaeus sentence to pay for part of it.
 
 ## (a) Moved to the card
 
@@ -28,10 +28,10 @@ Over 300: the outcome of his stand comes in two stages, each with its own ancien
 - Called the bishops of Asia together at Victor's request: his letter, "the bishops who were present, whom I summoned at your desire" (V.24.8, E 31406-31411; A8 72624-72625). They decided to keep the old custom: V.24.1 (E 31310-31312). The letter was to Victor and the church of Rome, and Eusebius quotes it: E 31312-31316.
 - Q1: V.24.2, E 31324-31325; A8 72576-72582 with the Greek of the first clause in the note.
 - The great dead of Asia, "great lights"; John, "who reclined upon the bosom of the Lord", fell asleep at Ephesus; "All these observed the fourteenth day": V.24.2-6 (E 31325-31335, 31364-31366).
-- Seven relatives bishops, he the eighth: V.24.6, E 31386-31387; A8 72616-72617.
+- Seven relatives bishops before him, all of whom kept the day; he the eighth: V.24.6, E 31385-31388 ("seven of my relatives were bishops; and I am the eighth. And my relatives always observed the day"); A8 72616-72617.
 - Sixty-five years in the Lord; "not affrighted by terrifying words"; "We ought to obey God rather than man": V.24.7, E 31396-31400; A8 72618-72623. Told without marks.
 - Victor "immediately attempted to cut off from the common unity the parishes of all Asia ... and declared all the brethren there wholly excommunicate": V.24.9, E 31415-31419.
-- Other bishops rebuked him: V.24.10, E 31431-31434.
+- Other bishops rebuked him, among them Irenaeus: V.24.10-11, E 31431-31436 ("Words of theirs are extant, sharply rebuking Victor. ... Among them was Irenæus").
 - Irenaeus kept the Lord's day and warned Victor "that he should not cut off whole churches of God which observed the tradition of an ancient custom": V.24.11, E 31436-31442.
 - Eusebius does not say how Victor answered: V.24.18 says only that Irenaeus "became a peacemaker", and V.25 turns to the Palestinian letter (E 31661-31700). Nothing more of Polycrates in the held ancient files beyond Jerome's notice (J 40382-40416), which adds only the reign.
 - Nicaea ruled one day for all; the practice "observed at once in the city of Rome ... in the dioceses of Asia and Pontus, and in Cilicia": Constantine's letter, Life of Constantine III.18-19 (E 64606-64609, 64677-64681, 64689-64691); Greek VC 11417-11421 ("Ἀσιανήν τε διοίκησιν καὶ Ποντικὴν καὶ Κιλικίαν", the OCR of the first word is damaged). The year 325 is the council's known date (McGiffert gives it, E 31187).
@@ -84,3 +84,20 @@ Sentences cut on the sentence test: 10 (McGiffert on the only writing; Philip an
 - "At once" follows McGiffert's "immediately"; the Greek is not held to check.
 - Q1 departs from both printed translations ("exact day") to follow the Greek word the ANF note preserves. If the comparer prefers the familiar "exact day", it must say so against the Greek.
 - Theodoret's Church History I.9-10 and Socrates I.9 were not opened for the Nicene letter; the Life of Constantine carried the point.
+
+## Round 1 revision
+
+Review: `reviews/round1-g1.md`. Verdict was BLOCKED on one finding.
+
+- **B1, fixed.** In the letter the relatives are his second ground: they kept the day (E 31385-31388). The sentence now carries that point.
+  - Old: "Seven of his own relatives had been bishops, and he was the eighth."
+  - New: "Seven of his relatives had been bishops before him, and all had kept the day; he was the eighth."
+- **Non-blocking, the end of the break with Rome: taken.** Standard v1 asks the brief to say plainly where the record shows what followed but not why. Constantine's letter gives the state of things in 325 (E 64677-64691), and no held source tells how or when Asia changed.
+  - New sentence, after the Constantine sentence: "How or when Asia came round, no source says."
+- **Non-blocking, whose reckoning "two centuries" is: taken.** The word order now gives the reckoning to the narrator and the report to Socrates, and the claim to John is its own sentence.
+  - Old: "Socrates of Constantinople says that two centuries after Polycrates, John Chrysostom took churches away from those in Asia who still kept the fourteenth day, and that they claimed to have it from the apostle John."
+  - New: "Two centuries after Polycrates, Socrates of Constantinople says, John Chrysostom took churches away from those in Asia who still kept the fourteenth day. They claimed, he says, to have it from the apostle John."
+- **Length, the reviewer's saving: taken.** "Other bishops rebuked him." is folded into the Irenaeus sentence ("Other bishops rebuked him, among them Irenaeus of Lyon, who kept Easter on Sunday himself and warned him ..."), which follows Eusebius's own "Among them was Irenæus" (E 31436).
+- **Quotations:** none added, removed or reworded.
+- Readability: grade 9.0 (names out 7.5), reading ease 76.0.
+
