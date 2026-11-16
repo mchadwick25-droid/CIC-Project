@@ -3,7 +3,7 @@
 Files are under `cic/texts/`. Line numbers are file lines, read with tags and notes stripped.
 CA = `anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml` (Clement, tr. William Wilson). E = `npnf201_eusebius-church-history-life-of-constantine.xml` (tr. McGiffert). J3 = `npnf203_theodoret-jerome-gennadius-rufinus.xml` (Jerome, Lives of Illustrious Men, tr. Richardson). J6 = `npnf206_jerome-principal-works.xml` (Jerome, Letters, tr. Fremantle).
 
-Words 299 (`wc -w`), grade 9.6, reading ease (names out) 71.9.
+Words 302 (`wc -w`; the tool counts 301), grade 9.2, reading ease (names out) 72.8.
 
 ## (a) Moved to the card
 
@@ -86,3 +86,16 @@ Sentences cut on the sentence test: 9 from the old brief's matter (the Sicilian 
 - Where Clement was when he "strengthened and built up the church" is not stated in the letter ("Being here"); McGiffert places it in Cappadocia. The brief says only "while with him".
 - The Stromata are not held in Greek, so both renderings were made from the printed English alone, with McGiffert's Eusebius as a second English witness for Q1.
 - No claim from the old brief was found wrong. Its McGiffert sentence is moved to the card under the no-modern-scholar rule.
+
+## Round 1 revision
+
+Review: `reviews/round1-g4.md`. Verdict was BLOCKED on one finding.
+
+- **B1, fixed.** The opening was a naming opening with no moment (item 16). It now opens on the quarrel over Greek learning that Clement answers (Stromata I.2, CA 27670-27672, 27684-27691), and brings him in as the head of the school who answered it. The quarrel sentence keeps the source's own limit: Clement says "some" and "those who are fond of finding fault", not who or where, so the brief says "some people", not "some Christians" or "at Alexandria". McGiffert's flight of 202 is not brought back.
+  - Old: "Around the year 200, Clement of Alexandria was a presbyter in that city in Egypt. He led the Christian school of Alexandria, where converts were taught the faith. He had studied under Christian teachers from Greece to Palestine, and in his Stromata ..." and, opening the second paragraph, "Some people spoke against Greek philosophy, as if it dragged believers away from the faith. Clement answered that God is the cause of every good thing."
+  - New: "Around the year 200, some people spoke against Greek philosophy, as if it dragged believers away from the faith. One who answered them was Clement, a presbyter of Alexandria in Egypt. He led the Christian school of Alexandria, where converts were taught the faith. He had studied under Christian teachers from Greece to Palestine. In his Stromata ..." and "His answer was that God is the cause of every good thing."
+- **Non-blocking, Jerome's list: taken.** "he pointed, among others, to Clement" (Letter 70, J6 16475-16643).
+- **Non-blocking, "Alexander, who called Clement his master": left.** "Another pupil" stands, as the reviewer allows, and the last sentence carries Alexander's own words.
+- **Quotations:** none added, removed or reworded.
+- Readability: grade 9.2 (names out 7.5), reading ease 72.8. The first draft of this fix, with longer sentences, went to grade 10.2; the sentences were split.
+

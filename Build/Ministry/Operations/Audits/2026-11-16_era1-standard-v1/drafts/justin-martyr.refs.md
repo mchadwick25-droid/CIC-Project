@@ -3,7 +3,7 @@
 Files are under `cic/texts/`. Line numbers are file lines.
 A1 = `anf01_apostolic-fathers-justin-irenaeus.xml` (Justin, tr. Dods and Reith; Martyrdom, tr. Dods; Irenaeus, tr. Roberts and Rambaut; printed 1885). A2 = `anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml` (Tatian, tr. Ryland). E = `npnf201_eusebius-church-history-life-of-constantine.xml` (Eusebius, tr. McGiffert, 1890). G1 = `justin-martyr_first-apology-grc_rauschen1911.txt`. G2 = `justin-martyr_second-apology-grc_rauschen1911.txt`. AM = `acta-martyrum-selecta_gebhardt1902.txt` (Greek Acts of Justin).
 
-Words 313 (`wc -w`), grade 8.8, reading ease (names out) 71.6.
+Words 321 (`wc -w`; the tool counts 320), grade 9.1, reading ease (names out) 70.1.
 Over 300 by 13 words: three stances (the Word, the defense, the one God against Marcion) each keep a consequence, and the Crescens dispute is told in place through four ancient witnesses.
 
 ## (a) Moved to the card
@@ -28,9 +28,9 @@ Over 300 by 13 words: three stances (the Word, the defense, the one God against 
 - A philosopher; from school to school; the old man in a field near the sea who told him of the prophets: Dialogue 2-3 and 7, A1 17421-17426, 17467-17472, 17820-17826.
 - Still called himself a philosopher: Dialogue 8, A1 17856-17857.
 - Christ is the Word, of whom every race of men were partakers; quotation Q1; Socrates named: First Apology 46, A1 15684-15692; Greek G1 1230-1233.
-- Tatian his hearer: Irenaeus, Against Heresies I.28.1, A1 33663-33665. Tatian "bidding farewell to the arrogance of Romans and the idle talk of Athenians, and all their ill-connected opinions": Address to the Greeks 35, A2 7258-7260. The link ("did not follow him here") is the brief's own reading of two held texts side by side; see Notes.
+- (Round 1: the Tatian sentence is cut from the brief. Tatian's hearing of Justin, Irenaeus I.28.1, A1 33663-33665, and his farewell to Greek opinions, Address 35, A2 7258-7260, go to the card; no held source says Tatian rejected Justin's teaching on the Word, and in Address 18, A2 6526, he still calls Justin "most admirable".)
 - Asked that Christians be judged by deeds, a name alone deciding nothing good or evil: First Apology 3-4, A1 14003-14016, 14037-14060.
-- No answer to him survives in the held sources: an absence. Eusebius IV.12-13 (E 22650-22667) gives an ordinance of the emperor to the Assembly of Asia, prompted "from other brethren in Asia", not by Justin.
+- The edict Eusebius gives after the petition: Church History IV.13, E 22652-22667 ("the same emperor having learned also from other brethren in Asia of the injuries of all kinds which they were suffering ... thought it proper to address the following ordinance to the Common Assembly of Asia"). Its ruling: "if any one has a matter to bring against any person of this class, merely as such a person, let the accused be acquitted of the charge", A1 16615-16619 (the ANF text printed after the First Apology). The brief says only that Eusebius gives it as the emperor's; the ANF heading "[Regarded as spurious]" (A1 16583-16585) and the doubt about it go to the card, What is uncertain.
 - He expected to be plotted against, perhaps by Crescens: Second Apology 3, A1 16849-16851; Greek G2 273-275. Crescens a Cynic: Eusebius IV.16, E 23795-23797.
 - Tatian: Crescens "endeavoured to inflict on Justin, and indeed on me, the punishment of death": Address 19, A2 6550-6556.
 - Eusebius: Justin met his death "in consequence of the machinations of Crescens": IV.16, E 23781-23782, 23875-23877, 24077-24078.
@@ -98,3 +98,19 @@ Sentences cut on the sentence test: 9 (the four schools, the "flame" line, the b
 - Old brief: "Justin was the son of Priscus" and the rest check out. The old brief named McGiffert in the text; now on the card. I found no claim in the old brief that the held file contradicts.
 - "A Cynic philosopher" rests on Eusebius; Justin himself calls Crescens only a lover of noise and boasting in chapter 3.
 - "Socrates of Athens": the place is added under the common-name rule; Justin says "among the Greeks, Socrates".
+
+## Round 1 revision
+
+Review: `reviews/round1-g4.md`. Verdict was BLOCKED on two findings, both on my own flags.
+
+- **B1, fixed by a cut.** No held source says Tatian rejected Justin's teaching on the Word; the sentence was my joining, and it told Tatian's stance, not what came of Justin's. The paragraph now ends on Socrates.
+  - Cut: "His hearer Tatian did not follow him here, for Tatian's Address to the Greeks bids their learning farewell."
+- **B2, fixed.** The held record does not fall silent: Eusebius sets an edict after the petition (E 22652-22667), and its ruling is the one Justin asked for (A1 16615-16619). The brief now says what Eusebius holds, and claims no more than that he gives it as the emperor's.
+  - Old: "No answer to him survives in the sources we have."
+  - New: "Eusebius follows the petition with an edict that he gives as the emperor's, sent to Asia after Christians there told him how they suffered. No one was to be punished for being a Christian alone."
+- **Non-blocking, the Crescens run: left.** Its four sentences carry the dispute in place, each through an ancient witness, and the trial account's silence is what the listener needs to weigh Eusebius.
+- **Non-blocking, "Cynic philosopher": left.** One more clause would not make it clearer to the ear than the name does, and the point is only that Crescens was a rival philosopher.
+- **Non-blocking, the Dialogue with Trypho: noted.** It is a real stance; no held source shows what came of it, so it is told only for the conversion story. Card, Legacy.
+- **Quotations:** none added, removed or reworded.
+- Readability: grade 9.1 (names out 8.2), reading ease 70.1.
+

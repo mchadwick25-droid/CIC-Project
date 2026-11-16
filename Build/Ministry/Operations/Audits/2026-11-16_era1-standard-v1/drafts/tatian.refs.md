@@ -3,8 +3,8 @@
 Files are under `cic/texts/`. Line numbers are file lines.
 A2 = `anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml` (Tatian, tr. Ryland; Clement, tr. Wilson; printed 1885). TG = `tatian_oratio-ad-graecos-grc-lat_otto1851.txt` (Greek). A1 = `anf01_apostolic-fathers-justin-irenaeus.xml` (Irenaeus). E = `npnf201_eusebius-church-history-life-of-constantine.xml` (Eusebius, tr. McGiffert, 1890). A8 = `anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml` (Teaching of Addai, tr. Pratten). AD = `addai_doctrine-of-addai.txt` (tr. Phillips, 1876). A9 = `anf09_gospel-of-peter-diatessaron-origen-commentaries.xml` (Hogg's introduction). J3 = `npnf203_theodoret-jerome-gennadius-rufinus.xml`.
 
-Words 329 (`wc -w`), grade 9.8, reading ease (names out) 69.7.
-Over 300 by 29 words: two stances with their consequences, and a break with the church that must be told as an opponent's account with a second witness.
+Words 324 (`wc -w`; the tool counts 323), grade 9.5, reading ease (names out) 72.3.
+Over 300: two stances with their consequences, and a break with the church that must be told as an opponent's account with a second witness. Round 1 cut Rabbula and Theodoret and added the Encratites and the move east; the net change is five words.
 
 ## (a) Moved to the card
 
@@ -13,7 +13,7 @@ Over 300 by 29 words: two stances with their consequences, and a break with the 
 - The original-language dispute: Zahn for Syriac, Harnack for Greek, McGiffert finding Harnack's case very strong (E 26455-26464); Hogg's "growing majority" for Syriac (A9 introduction). Card, What is uncertain.
 - McGiffert on "I know not how" (Eusebius had not seen it) and Lightfoot's other reading: E 26426-26432. The brief gives Eusebius's own words loosely and draws no conclusion.
 - Harnack's and Zahn's outlines of the life; "about the year 172" for the break (McGiffert reporting Eusebius's Chronicle and Harnack): E 26228-26235. The brief dates nothing after the opening.
-- "Around 165" in the opening rests on no ancient statement. Basis: he was Justin's hearer at Rome before Justin's death (A1 33663-33665; A2 6550-6556), and the death is dated by modern scholars to 163 or after (McGiffert, E 23774-23781). The card should say the year is approximate.
+- "Around 165" in the opening rests on no ancient statement. Basis: he was Justin's hearer at Rome before Justin's death (A1 33663-33665; A2 6550-6556), and the death is dated by modern scholars to 163 or after (McGiffert, E 23774-23781). The card should say the year is approximate. Round 1: the brief now says "In the middle of the second century", which the modern dating and Epiphanius's (EpH 15997-15998, Holl's note there reading it as an error for Marcus Aurelius) both allow.
 - The Encratites: Eusebius, "It is said that Tatian was the author of this false doctrine" (IV.28, E 26181-26186) and "their original founder, Tatian" (IV.29.6, E 26424-26425); Jerome (J3 40088-40095); Irenaeus, "Springing from Saturninus and Marcion" (A1 33655-33658); McGiffert's reading that Tatian "found them already in existence" (E 26308-26315). Cut from the brief on the sentence test: a dispute about a label, which bears on nothing else in the story. Card, What is uncertain.
 - Eusebius's "I know not how" (E 26425-26426): card only.
 - Hippolytus repeating Irenaeus's three points (current card): card only.
@@ -25,18 +25,20 @@ Over 300 by 29 words: two stances with their consequences, and a break with the 
 
 - In Rome: Address to the Greeks 35, A2 7252-7253. A hearer of Justin: Irenaeus, Against Heresies I.28.1, A1 33663-33664; Tatian's "most admirable Justin", Address 18, A2 6526.
 - Born in the land of the Assyrians, first instructed in Greek teaching: Address 42, A2 7460-7461.
-- Tradition: census `syriac-edessa-nisibis`, "Syriac Christianity (Edessa/Nisibis)". The link the brief gives ("because of a gospel book he made") rests on the Teaching of Addai, below.
-- Admitted to the mysteries; examined the rites; the Romans' Jupiter and Artemis; "retiring by myself, I sought how I might be able to discover the truth": Address 29, A2 6962-6971.
+- Tradition: census `syriac-edessa-nisibis`, "Syriac Christianity (Edessa/Nisibis)". Since round 1 the brief no longer gives our reason for the tie ("He belongs to ... because"); it says as facts that he went east and set up his school in Mesopotamia (Epiphanius, Panarion 46.1, EpH 15995-16001: "Σύρος τὸ γένος ... τὸ δὲ αὐτοῦ διδασκαλεῖον προεστήσατο ... ἐν τῇ Μέσῃ τῶν ποταμῶν ... ἀπὸ Ῥώμης γὰρ μετὰ τὴν τοῦ ἁγίου Ἰουστίνου τελείωσιν διελθὼν ἐπὶ τὰ τῆς ἀνατολῆς μέρη"), and that Syriac Christianity came to read his gospel book (the Teaching of Addai, below).
+- Justin "later beheaded there for refusing to sacrifice": Martyrdom of Justin 4-5, A1 29375-29387, 29396-29405 (the same lines the Justin brief draws on).
+- Admitted to the (pagan) mysteries; examined the rites; the Romans' Jupiter and Artemis; "retiring by myself, I sought how I might be able to discover the truth": Address 29, A2 6962-6971.
 - Quotation Q1: Address 29, A2 6972-6974; Greek TG 10387-10389.
 - Moses and Homer; "our philosophy is older than the systems of the Greeks": Address 31, A2 7026-7032.
 - Clement: the epoch of Moses "has been discussed with accuracy by Tatian in his book To the Greeks": Stromata I.21, A2 29724-29727.
 - Eusebius: the Address "appears to be the best and most useful of all his works", showing Moses and the prophets older than the famous Greeks: Church History IV.29.7, E 26484-26505.
 - Irenaeus: after Justin's martyrdom he separated from the Church, "excited and puffed up by the thought of being a teacher"; invisible Aeons like the followers of Valentinus; marriage "corruption and fornication"; denial of Adam's salvation: Against Heresies I.28.1, A1 33663-33674.
 - Clement quoting Tatian's Concerning Perfection according to the Saviour ("fellowship in corruption weakens supplication"): Stromata III.12, A2 36517-36521 (the ANF prints Book III in Latin: "communio autem corruptelae"), English of the fragment at A2 7490-7497. Clement names him among those who give marriage to the devil (A2 36515-36518). "Lost book": the work is known only from this quotation (A2 7485-7499, heading "From the lost works of Tatian").
+- Later writers tied him to the Encratites, who preached against marriage: Irenaeus, Against Heresies I.28.1, A1 33655-33665 ("Springing from Saturninus and Marcion, those who are called Encratites (self-controlled) preached against marriage ... A certain man named Tatian first introduced the blasphemy"); Eusebius IV.28, "It is said that Tatian was the author of this false doctrine", E 26181-26186, and IV.29.6, "their original founder, Tatian", E 26424-26425. Told without marks.
 - The Diatessaron, "a certain combination and collection of the Gospels, I know not how", "still in the hands of some": Eusebius IV.29.6, E 26424-26433, 26478-26479. "Wove the four Gospels into one account" is our plain telling of "combination and collection of the Gospels" and the title.
 - Teaching of Addai: "much people day by day assembled and came to the prayers of the service, and to the reading of the Old Testament, and the New of the Diatessaron": A8 62103-62107; the same in AD 65 (Phillips's translation). A legend of the founding of the church at Edessa: A8 62100-62102 (the church Addai built at King Abgar's word).
-- Rabbula, bishop of Edessa (died 435, Hogg): "Let the presbyters and deacons give heed that in all the churches there be provided and read a copy of the Distinct Gospel", as Hogg quotes it from Overbeck's edition: A9 1914-1919. "Separate Gospels" is our plain word for "Distinct Gospel"; Hogg glosses it "not the harmonized or mixed gospel" (A9 1919-1920). Told without marks.
-- Theodoret: "Even those that follow the apostolic doctrines, not perceiving the mischief of the composition," used "the book too simply as an abridgment", as Hogg quotes him: A9 1910-1914. Told without marks.
+- (Round 1: cut from the brief; card, with Hogg named.) Rabbula, bishop of Edessa (died 435, Hogg): "Let the presbyters and deacons give heed that in all the churches there be provided and read a copy of the Distinct Gospel", as Hogg quotes it from Overbeck's edition: A9 1914-1919. "Separate Gospels" is our plain word for "Distinct Gospel"; Hogg glosses it "not the harmonized or mixed gospel" (A9 1919-1920). Told without marks.
+- (Round 1: cut from the brief; card, with Hogg named.) Theodoret: "Even those that follow the apostolic doctrines, not perceiving the mischief of the composition," used "the book too simply as an abridgment", as Hogg quotes him: A9 1910-1914. Told without marks.
 
 ## (c) Quotations
 
@@ -49,6 +51,8 @@ Q1
 - notes: βαρβαρικαῖς means "of non-Greek peoples"; "barbaric" now means savage, so it misleads. δόγματα is "teachings" (the printed "opinions" is also fair). πλάνην is singular, "error". The Greek comparatives say "older, set against ..., more divine, set against ..."; "too old / too divine to be compared" follows the printed English, and the second renderer should weigh "older than ... and more divine than ...".
 
 ## (d) Card changes needed
+
+- What is uncertain (round 1, from `renderings/comparison.md` E23): Tatian's Greek calls the writings "older" and "more divine" than Greek teaching; the old English "too old to be compared" makes a stronger claim than he does.
 
 - Tradition: "Syriac Christianity" to the census name, "Syriac Christianity (Edessa/Nisibis)".
 - briefLength: about 2 minutes 10 seconds.
@@ -83,3 +87,24 @@ Sentences cut on the sentence test: 10 (the statues, Crescens, the signing line,
 - "The church that grew up around Edessa and Nisibis" stands in for the census name. No held source the brief uses ties Tatian to Nisibis.
 - Clement as "a second opponent": Clement writes against Tatian's view of marriage in Stromata III; the held text of that book is the ANF's Latin, with an English fragment in the Tatian section. The telling is loose and unmarked.
 - Old brief: "Eusebius of Caesarea dates the break to about 172" is McGiffert's report of the Chronicle, not in Eusebius's held text. "Eusebius and Jerome made Tatian the founder": Eusebius in IV.28 says only "It is said"; in IV.29.6 he calls him "their original founder". The Theodoret quotation "held in respect in the churches" is Hogg's or McGiffert's English report, not a held Theodoret text.
+
+## Round 1 revision
+
+Review: `reviews/round1-g4.md`. Verdict was BLOCKED on four findings.
+
+- **B1, fixed by a cut.** Theodoret's text is not held; his claim reaches us only in Hogg's English and frame (A9 1909-1914). Card, with Hogg named.
+  - Cut: "Theodoret of Cyrrhus wrote that even people who held the apostles' teaching had used Tatian's book in all simplicity as a short version, without seeing the harm in how it was made."
+- **B2, fixed by a cut.** Rabbula's order is held only as Hogg quotes it from Overbeck, and it does not name the Diatessaron (A9 1914-1920). Card, with Hogg named. The paragraph now ends on the Teaching of Addai.
+  - Cut: "In the fifth century Rabbula, bishop of Edessa, ordered every church to keep and read a copy of the separate Gospels."
+- **B3, fixed.** The classification sentence was our own label and reason. The opening now gives the moment (Justin's death), and the tie to the East as Epiphanius gives it.
+  - Old: "Around 165, Tatian was in Rome as a hearer of the Christian teacher Justin Martyr. He was born ... Greek learning. He belongs to Syriac Christianity, the church that grew up around Edessa and Nisibis, because of a gospel book he made."
+  - New: "In the middle of the second century, Tatian was in Rome as a hearer of the Christian teacher Justin Martyr, who was later beheaded there for refusing to sacrifice. Tatian was born ... Greek learning. After Justin's death, Epiphanius of Salamis says, he went east and set up his school in Mesopotamia. Syriac Christianity came to read the gospel book he made."
+- **B4, fixed.** The teaching on marriage now has its consequence, with the dispute in place.
+  - New, after the Clement sentence: "Later writers tied him to the Encratites, a movement that preached against marriage. Irenaeus says the movement sprang from earlier teachers, but Eusebius reports that Tatian was said to have founded it."
+- **Non-blocking, "Around 165": taken** (B3).
+- **Non-blocking, "admitted to the mysteries": taken** ("the pagan mysteries"; Address 29 names Jupiter and Artemis, A2 6962-6971).
+- **Non-blocking, "Valentinus" unexplained: left.** The clause says only that Irenaeus likened Tatian's powers to Valentinus's; explaining Valentinus would add a claim for a side point.
+- **Non-blocking, E23's card note: carried** to (d).
+- **Quotations:** none added, removed or reworded.
+- Readability: grade 9.5 (names out 7.6), reading ease 72.3. The tool counts 0.0 joining words per hundred; the paragraph links are carried by "after", "later" and "but".
+
