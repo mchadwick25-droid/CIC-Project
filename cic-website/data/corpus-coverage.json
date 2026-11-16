@@ -37071,6 +37071,62 @@
           "rights": "Public Domain (pd-us-by-date: printed 1917; the title page prints no imprint year, so the date used is the copyright notice of 1917; the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT)"
         },
         {
+          "work": "The International Review of Missions, Volume the Eighth (1919)",
+          "author": "international-review-of-missions",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "international-review-of-missions_v8_1919.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1919); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The International Review of Missions, Volume the Fifth (1916)",
+          "author": "international-review-of-missions",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "international-review-of-missions_v5_1916.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1916); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The International Review of Missions, Volume the Fourth (1915)",
+          "author": "international-review-of-missions",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "international-review-of-missions_v4_1915.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1915); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The International Review of Missions, Volume the Ninth (1920)",
+          "author": "international-review-of-missions",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "international-review-of-missions_v9_1920.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1920); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The International Review of Missions, Volume the Seventh (1918)",
+          "author": "international-review-of-missions",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "international-review-of-missions_v7_1918.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1918); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The International Review of Missions, Volume the Sixth (1917)",
+          "author": "international-review-of-missions",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "international-review-of-missions_v6_1917.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1917); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The International Review of Missions, Volume the Third (1914)",
+          "author": "international-review-of-missions",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "international-review-of-missions_v3_1914.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1914); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
           "work": "Mott, History of the Student Volunteer Movement for Foreign Missions (1892)",
           "author": "mott",
           "role": "tradition",
@@ -38897,12 +38953,28 @@
           "rights": "Public Domain (pd-us-by-date: printed 1923; the year on the volume title leaf; the archive.org record carries no rights field)"
         },
         {
+          "work": "C. T. Loram, 'The Separatist Church Movement' (International Review of Missions, 1926)",
+          "author": "international-review-of-missions",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "international-review-of-missions_v15_1926.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1926); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
           "work": "Lerrigo, \"The 'Prophet Movement' in Congo\" (International Review of Missions, 1922)",
           "author": "international-review-of-missions",
           "role": "context",
           "confidence": "assigned",
           "source_file": "international-review-of-missions_v11_1922.txt",
           "rights": "Public Domain (pd-us-by-date: printed 1922; the year on the volume title leaf; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "The survey of the year 1916 on the 'prophet' Garrick Sokari Braid (International Review of Missions, 1917)",
+          "author": "international-review-of-missions",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "international-review-of-missions_v6_1917.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1917); the archive.org record carries no rights field, so the printed date is the basis"
         },
         {
           "work": "Thompson, \"The Ivory Coast: A Study in Modern Missionary Method\" (International Review of Missions, 1928)",
@@ -38949,6 +39021,22 @@
           "confidence": "assigned",
           "source_file": "international-missionary-council_jerusalem-meeting-1928-v8_1928.txt",
           "rights": "Public Domain (pd-us-by-date: printed 1928; the title-page year; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "'The National Christian Council of China', by the Secretaries (International Review of Missions, 1924)",
+          "author": "international-review-of-missions",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "international-review-of-missions_v13_1924.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1924); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "Plan of union and doctrinal basis for the United Church of Christ in China (International Review of Missions, 1920)",
+          "author": "international-review-of-missions",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "international-review-of-missions_v9_1920.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1920); the archive.org record carries no rights field, so the printed date is the basis"
         },
         {
           "work": "The Chinese Church as Revealed in the National Christian Conference, Shanghai 1922",
@@ -39019,6 +39107,86 @@
           "confidence": "assigned",
           "source_file": "bulgakov_tikhie-dumy-rus_1918.txt",
           "rights": "Public Domain (pd-us-by-date: printed 1918; the title-page year; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "A. Kartashev, 'The Influence of the Church on Russian Culture' (1928), in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v9-no3-autumn-1928.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1928); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "Anthony, Metropolitan of Kiev, 'The Orthodox Church and the Papacy' (1923), in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v5-no1-february-1924.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1924); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "Anthony, Metropolitan of Kiev, answer to the Metropolitan Evdokim (1923), in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v5-no2-may-1924.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1924); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "Anthony, Metropolitan, 'Why Anglican Clergy Could be Received in Their Orders' (1927), in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v8-no2-june-1927.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1927); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "E. Makharoblidze, 'Russia and Her Church', a lecture (1926), in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v7-no4-december-1926.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1926); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "Evlogios, Metropolitan, two letters from Paris (1926), in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v7-no1-april-1926.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1926); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "Fedotov, 'The Orthodox Church and Her History' (1929), in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v10-no3-autumn-1929.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1929); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "Prof. Bulgakoff, 'Does Orthodoxy Possess an Outward Authority of Dogmatic Infallibility?' (1926), in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v7-no1-april-1926.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1926); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "S. Bulgakov, 'The Papal Encyclical and the Lausanne Conference' (1928), in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v9-no3-autumn-1928.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1928); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The Episcopal Synod of the Russian Church outside of Russia, rescript to Athelstan Riley (1925), in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v6-no4-january-1926.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1926); the archive.org record carries no rights field, so the printed date is the basis"
         },
         {
           "work": "Put' (Paris), number 1 (1925)",
@@ -39280,6 +39448,22 @@
           "rights": "Public Domain (pd-us-by-date: printed 1920; the title-page year; the archive.org record carries no rights field)"
         },
         {
+          "work": "Lady Surma d'Bait Mar Shimun, speech at the Association's anniversary (1925), in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v6-no4-january-1926.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1926); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "Lady Surma, speech for the Assyrian appeal (1926), in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v7-no1-april-1926.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1926); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
           "work": "The Catholicos of the East and his People (Maclean and Browne, 1892)",
           "author": "maclean-browne",
           "role": "context",
@@ -39344,6 +39528,14 @@
           "rights": "Public Domain (pd-us-by-date: printed 1927; the cover date; the archive.org record carries no rights field)"
         },
         {
+          "work": "Patriarch Tikhon, 'A Letter to the Russian Rulers, 1918', in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v1-no2-june-1920.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1920); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
           "work": "Patriarch Tikhon, a pastoral (1923), in The Christian East",
           "author": "christian-east",
           "role": "tradition",
@@ -39358,6 +39550,30 @@
           "confidence": "assigned",
           "source_file": "christian-east_v4-no4-november-1923.txt",
           "rights": "Public Domain (pd-us-by-date: printed 1923; the cover date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Patriarch Tikhon, reply to the Archbishop of Canterbury (1918), in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v1-no1-march-1920.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1920); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "Peter of Krutitz, locum tenens, and Sergios, Metropolitan of Novgorod, documents on the canonical position in Russia (1925-26), in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v7-no3-september-1926.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1926); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "Seraphim, Archbishop of Uglitch, letter 'To the Prelates, Priests and Laity of the Orthodox Russian Church', in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v8-no1-march-1927.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1927); the archive.org record carries no rights field, so the printed date is the basis"
         },
         {
           "work": "The Christian East, volume VIII, number 4 (Winter, 1927): on the Russian church under persecution",
@@ -39796,6 +40012,14 @@
           "confidence": "provisional",
           "source_file": "allgemeine-missions-zeitschrift_jg45-46-deu_berlin1918-1919.txt",
           "rights": "Public Domain (pd-us-by-date: published 1918); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "Ed. Kriele, 'The Nias Revival: the Story of a Spiritual Awakening' (International Review of Missions, 1927)",
+          "author": "international-review-of-missions",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "international-review-of-missions_v16_1927.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1927); the archive.org record carries no rights field, so the printed date is the basis"
         }
       ]
     },
@@ -39803,6 +40027,14 @@
       "name": "Northeast India & the Mar Thoma Church — the 20th Century",
       "status": "Pre-Survey Candidate",
       "works": [
+        {
+          "work": "Statement from the Malabar Suffragan and other members of the Mar Thoma Syrian Church on church union in South India (International Review of Missions, 1920)",
+          "author": "international-review-of-missions",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "international-review-of-missions_v9_1920.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1920); the archive.org record carries no rights field, so the printed date is the basis"
+        },
         {
           "work": "Malankara Sabha Tharaka, volume 6, number 12 (1910)",
           "author": "malankara-sabha-tharaka",
@@ -40002,6 +40234,14 @@
           "rights": "Public Domain (pd-us-by-date: printed 1924; the title-page year; the archive.org record carries no rights field)"
         },
         {
+          "work": "The Declaration of the Orthodox delegates at the Lausanne Conference on Faith and Order (1927): for the ecumenical movement, in The Christian East",
+          "author": "christian-east",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "christian-east_v8-no3-autumn-1927.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1927); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
           "work": "Faith and Order: Proceedings of the World Conference, Lausanne 1927",
           "author": "faith-and-order",
           "role": "tradition",
@@ -40072,6 +40312,62 @@
           "confidence": "assigned",
           "source_file": "international-missionary-council_jerusalem-meeting-1928-v8_1928.txt",
           "rights": "Public Domain (pd-us-by-date: printed 1928; the title-page year; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "The International Review of Missions, Volume the Eighteenth (1929)",
+          "author": "international-review-of-missions",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "international-review-of-missions_v18_1929.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1929); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The International Review of Missions, Volume the Fifteenth (1926)",
+          "author": "international-review-of-missions",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "international-review-of-missions_v15_1926.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1926); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The International Review of Missions, Volume the Fourteenth (1925)",
+          "author": "international-review-of-missions",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "international-review-of-missions_v14_1925.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1925); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The International Review of Missions, Volume the Nineteenth (1930)",
+          "author": "international-review-of-missions",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "international-review-of-missions_v19_1930.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1930); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The International Review of Missions, Volume the Sixteenth (1927)",
+          "author": "international-review-of-missions",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "international-review-of-missions_v16_1927.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1927); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The International Review of Missions, Volume the Tenth (1921)",
+          "author": "international-review-of-missions",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "international-review-of-missions_v10_1921.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1921); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The International Review of Missions, Volume the Thirteenth (1924)",
+          "author": "international-review-of-missions",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "international-review-of-missions_v13_1924.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1924); the archive.org record carries no rights field, so the printed date is the basis"
         },
         {
           "work": "The International Review of Missions, volume 11 (1922)",
@@ -40266,6 +40562,22 @@
       "status": "Pre-Survey Candidate",
       "works": [
         {
+          "work": "The Christian East, volume I, number 1 (March, 1920)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v1-no1-march-1920.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1920); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The Christian East, volume I, number 2 (June, 1920)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v1-no2-june-1920.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1920); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
           "work": "The Christian East, volume I, number 3 (September, 1920)",
           "author": "christian-east",
           "role": "tradition",
@@ -40274,12 +40586,52 @@
           "rights": "Public Domain (pd-us-by-date: printed 1920; the cover date; the archive.org record carries no rights field)"
         },
         {
+          "work": "The Christian East, volume I, number 4 (December, 1920)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v1-no4-december-1920.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1920); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The Christian East, volume II, number 1 (April, 1921)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v2-no1-april-1921.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1921); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
           "work": "The Christian East, volume II, number 2 (July, 1921)",
           "author": "christian-east",
           "role": "tradition",
           "confidence": "assigned",
           "source_file": "christian-east_v2-no2-july-1921.txt",
           "rights": "Public Domain (pd-us-by-date: printed 1921; the cover date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "The Christian East, volume II, number 3 (September, 1921)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v2-no3-september-1921.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1921); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The Christian East, volume II, number 4 (December, 1921)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v2-no4-december-1921.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1921); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The Christian East, volume III, number 1 (March, 1922)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v3-no1-march-1922.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1922); the archive.org record carries no rights field, so the printed date is the basis"
         },
         {
           "work": "The Christian East, volume III, number 2 (July, 1922)",
@@ -40296,6 +40648,14 @@
           "confidence": "assigned",
           "source_file": "christian-east_v3-no3-october-1922.txt",
           "rights": "Public Domain (pd-us-by-date: printed 1922; the cover date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "The Christian East, volume III, number 4 (December, 1922)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v3-no4-december-1922.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1922); the archive.org record carries no rights field, so the printed date is the basis"
         },
         {
           "work": "The Christian East, volume IV, number 1 (March, 1923)",
@@ -40330,6 +40690,158 @@
           "rights": "Public Domain (pd-us-by-date: printed 1923; the cover date; the archive.org record carries no rights field)"
         },
         {
+          "work": "The Christian East, volume IX, number 1 (Spring, 1928)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v9-no1-spring-1928.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1928); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The Christian East, volume IX, number 2 (Summer, 1928)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v9-no2-summer-1928.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1928); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The Christian East, volume IX, number 3 (Autumn, 1928)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v9-no3-autumn-1928.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1928); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The Christian East, volume IX, number 4 (Winter, 1928)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v9-no4-winter-1928.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1928); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The Christian East, volume V, number 1 (February, 1924)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v5-no1-february-1924.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1924); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The Christian East, volume V, number 2 (May, 1924)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v5-no2-may-1924.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1924); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The Christian East, volume V, number 3 (September, 1924)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v5-no3-september-1924.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1924); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The Christian East, volume V, number 4 (December, 1924)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v5-no4-december-1924.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1924); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The Christian East, volume VI, number 1 (March, 1925)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v6-no1-march-1925.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1925); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The Christian East, volume VI, number 2 (June, 1925)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v6-no2-june-1925.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1925); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The Christian East, volume VI, number 3 (September, 1925)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v6-no3-september-1925.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1925); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The Christian East, volume VI, number 4 (January, 1926)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v6-no4-january-1926.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1926); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The Christian East, volume VII, number 1 (April, 1926)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v7-no1-april-1926.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1926); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The Christian East, volume VII, number 2 (June, 1926)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v7-no2-june-1926.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1926); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The Christian East, volume VII, number 3 (September, 1926)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v7-no3-september-1926.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1926); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The Christian East, volume VII, number 4 (December, 1926)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v7-no4-december-1926.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1926); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The Christian East, volume VIII, number 1 (March, 1927)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v8-no1-march-1927.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1927); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The Christian East, volume VIII, number 2 (June, 1927)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v8-no2-june-1927.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1927); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The Christian East, volume VIII, number 3 (Autumn, 1927)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v8-no3-autumn-1927.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1927); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
           "work": "The Christian East, volume VIII, number 4 (Winter, 1927)",
           "author": "christian-east",
           "role": "tradition",
@@ -40346,6 +40858,30 @@
           "rights": "Public Domain (pd-us-by-date: printed 1929; the cover date; the archive.org record carries no rights field)"
         },
         {
+          "work": "The Christian East, volume X, number 2 (Summer, 1929)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v10-no2-summer-1929.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1929); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The Christian East, volume X, number 3 (Autumn, 1929)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v10-no3-autumn-1929.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1929); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The Christian East, volume X, number 4 (Winter, 1929)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v10-no4-winter-1929.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1929); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
           "work": "The Christian East, volume XI, number 1 (Spring, 1930)",
           "author": "christian-east",
           "role": "tradition",
@@ -40360,6 +40896,30 @@
           "confidence": "assigned",
           "source_file": "christian-east_v11-no2-summer-1930.txt",
           "rights": "Public Domain (pd-us-by-date: printed 1930; the cover date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "The Christian East, volume XI, number 3 (Autumn, 1930)",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v11-no3-autumn-1930.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1930); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "J. J. Willis, 'The Organization of the Anglican Church in Uganda' (International Review of Missions, 1918)",
+          "author": "international-review-of-missions",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "international-review-of-missions_v7_1918.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1918); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The Bishop of Dornakal, 'Living Forces behind Mass Movements' (International Review of Missions, 1929)",
+          "author": "international-review-of-missions",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "international-review-of-missions_v18_1929.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1929); the archive.org record carries no rights field, so the printed date is the basis"
         },
         {
           "work": "Lambeth Conference 1908: Encyclical Letter, Resolutions and Reports",
@@ -40599,6 +41159,22 @@
           "confidence": "assigned",
           "source_file": "congress-christian-work-south-america_montevideo-1925-v2_1925.txt",
           "rights": "Public Domain (pd-us-by-date: printed 1925; the date used is the copyright notice of 1925; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Erasmo Braga, 'Following up the Jerusalem Meeting in Brazil' (International Review of Missions, 1929)",
+          "author": "international-review-of-missions",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "international-review-of-missions_v18_1929.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1929); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "Robert E. Speer, 'The Congress on Christian Work in South America' (International Review of Missions, 1925)",
+          "author": "international-review-of-missions",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "international-review-of-missions_v14_1925.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1925); the archive.org record carries no rights field, so the printed date is the basis"
         }
       ]
     },
@@ -40662,6 +41238,14 @@
       "status": "Pre-Survey Candidate",
       "works": [
         {
+          "work": "Michio Kozaki, 'Dr Kagawa and the Kingdom of God Movement' (International Review of Missions, 1929)",
+          "author": "international-review-of-missions",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "international-review-of-missions_v18_1929.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1929); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
           "work": "Kagawa, Before the Dawn (1925)",
           "author": "kagawa",
           "role": "tradition",
@@ -40692,6 +41276,14 @@
           "rights": "Public Domain (pd-us-by-date: printed 1927; the cover date; the archive.org record carries no rights field)"
         },
         {
+          "work": "Patriarch Tikhon, 'A Letter to the Russian Rulers, 1918', in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v1-no2-june-1920.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1920); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
           "work": "Patriarch Tikhon, a pastoral (1923), in The Christian East",
           "author": "christian-east",
           "role": "tradition",
@@ -40706,6 +41298,30 @@
           "confidence": "assigned",
           "source_file": "christian-east_v4-no4-november-1923.txt",
           "rights": "Public Domain (pd-us-by-date: printed 1923; the cover date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "Patriarch Tikhon, reply to the Archbishop of Canterbury (1918), in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v1-no1-march-1920.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1920); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "Peter of Krutitz, locum tenens, and Sergios, Metropolitan of Novgorod, documents on the canonical position in Russia (1925-26), in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v7-no3-september-1926.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1926); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "Seraphim, Archbishop of Uglitch, letter 'To the Prelates, Priests and Laity of the Orthodox Russian Church', in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v8-no1-march-1927.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1927); the archive.org record carries no rights field, so the printed date is the basis"
         },
         {
           "work": "The Christian East, volume II, number 2 (July, 1921): on the Russian church",
@@ -40807,6 +41423,46 @@
       "status": "Pre-Survey Candidate",
       "works": [
         {
+          "work": "Dimitri, Patriarch of Serbia, open letter (1922), in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v3-no4-december-1922.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1922); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "Milosh Parenta, 'Penance' (1928), in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v9-no4-winter-1928.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1928); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "Nikolai, Bishop of Okhrida, 'The Sacraments from the Point of View of the Eastern Church' (1928), in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v9-no2-summer-1928.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1928); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "Stefan Zankov, 'The General Position of the Eastern Orthodox Churches at the Present Time' (1930), in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v11-no3-autumn-1930.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1930); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "Stephan, Archbishop of Sofia, 'Fundamental Conditions for the Unification of the Christian Churches' (1927), in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v8-no3-autumn-1927.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1927); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
           "work": "The Christian East, volume X, number 1 (Spring, 1929): on the Bulgarian church",
           "author": "christian-east",
           "role": "context",
@@ -40893,6 +41549,78 @@
           "rights": "Public Domain (pd-us-by-date: printed 1924; the title-page year; the archive.org record carries no rights field)"
         },
         {
+          "work": "'The Attitude of the Orthodox Church to the Faith and Order Movement', a speech at the Maloja meeting (1929), in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v10-no4-winter-1929.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1929); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "Basil III, Patriarch of Constantinople, eirenikon to the Archbishop of Canterbury (1925), in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v6-no3-september-1925.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1925); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "Basil, Bishop of Nicaea, report to the locum tenens Dorotheos on the destruction at Nicaea (1920), in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v1-no4-december-1920.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1920); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "Basil, Patriarch of Constantinople, reply to the Archbishop of Canterbury's enthronistic letter (1929), in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v10-no2-summer-1929.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1929); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "Chrysostom, Metropolitan of Athens, 'The Nature of the Church' (1927), in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v8-no3-autumn-1927.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1927); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "Gregory VII, Patriarch of Constantinople, letter to the Archbishop of Canterbury (1923), in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v5-no1-february-1924.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1924); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "Hamilcar Alivisatos, 'Administrative Reform in the Orthodox Church of Greece' (1925), in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v6-no1-march-1925.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1925); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "Nicolas, Archbishop of Caesarea, locum tenens of the Ecumenical Patriarchate, memorial to the League of Nations (1921), in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v2-no4-december-1921.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1921); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "P. Comnenos, 'Anglican Ordinations' (1921), in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v2-no3-september-1921.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1921); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
           "work": "Pan-Orthodox Conference of Constantinople (1923), decisions, in The Christian East",
           "author": "christian-east",
           "role": "tradition",
@@ -40917,6 +41645,14 @@
           "rights": "Public Domain (pd-us-by-date: printed 1922; the cover date; the archive.org record carries no rights field)"
         },
         {
+          "work": "Report of the Delegation of the Ecumenical Patriarchate sent to the Lambeth Conference, 1920, in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v3-no1-march-1922.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1922); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
           "work": "The Christian East, volume I, number 3 (September, 1920): on the Greek churches",
           "author": "christian-east",
           "role": "context",
@@ -40939,6 +41675,46 @@
           "confidence": "assigned",
           "source_file": "christian-east_v11-no2-summer-1930.txt",
           "rights": "Public Domain (pd-us-by-date: printed 1930; the cover date; the archive.org record carries no rights field)"
+        },
+        {
+          "work": "The Declaration of the Orthodox delegates at the Lausanne Conference on Faith and Order (1927), in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v8-no3-autumn-1927.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1927); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The Ecumenical Patriarch, eirenic letter to the Archbishop of Canterbury (1929), in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v10-no4-winter-1929.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1929); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The Ecumenical Patriarchate, encyclical 'Unto all the Churches of Christ wheresoever they be' (January 1920), in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v1-no2-june-1920.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1920); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The Metropolitan Germanos, letter to the editor of The Church Times (1929), in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v10-no3-autumn-1929.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1929); the archive.org record carries no rights field, so the printed date is the basis"
+        },
+        {
+          "work": "The Metropolitan of Thyatira, 'The Orthodox Delegation at Lausanne and its Declaration' (1928), in The Christian East",
+          "author": "christian-east",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-east_v9-no1-spring-1928.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1928); the archive.org record carries no rights field, so the printed date is the basis"
         },
         {
           "work": "Ecumenical Patriarchate, Mavri Vivlos (Black Book, 1920)",
