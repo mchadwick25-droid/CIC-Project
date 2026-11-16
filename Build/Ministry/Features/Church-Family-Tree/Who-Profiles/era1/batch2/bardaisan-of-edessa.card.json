@@ -4,43 +4,50 @@
     "Bardesanes",
     "Bardesan"
   ],
-  "knownFor": "A Syriac teacher of Edessa whose pupil's dialogue, the Book of the Laws of Countries, argues that people are free and not ruled by the stars.",
-  "dates": "About 155 to about 223, by later Syriac chronicles",
-  "place": "Edessa, in Mesopotamia",
+  "knownFor": "A Syriac teacher at Edessa whose pupil Philip wrote down, in the Book of the Laws of Countries, his argument that the stars do not rule what people choose. Eusebius of Caesarea and Epiphanius of Salamis disagree on when he went wrong, and Ephrem the Syrian answered his teaching on the body.",
+  "dates": "Born in 154 or 155 and died at sixty-eight, about 222 or 223, from the Chronicle of Edessa and Barhebraeus as their editors reckon them. Eusebius of Caesarea and Epiphanius of Salamis place him under an emperor named Antoninus. Around 180 is an approximate year that both placings allow",
+  "place": "Edessa, in Mesopotamia, the city of King Abgar",
   "tradition": "Bardaisan and the Bardaisanites",
-  "role": "Teacher and writer of dialogues",
+  "role": "Teacher at Edessa and writer of dialogues in Syriac",
   "briefLength": "about 2 minutes",
   "keyWorks": [
     {
       "title": "The Book of the Laws of Countries",
-      "about": "a dialogue in which Bardaisan answers Avida on fate and freedom; written by a disciple"
+      "about": "a dialogue on fate and freedom in which Bardaisan answers Avida; written by his pupil, whom Bardaisan addresses in it as Philip, and taken by its editors to be the dialogue On Fate that Eusebius praises"
     },
     {
-      "title": "Dialogues against the followers of Marcion",
-      "about": "named by Eusebius of Caesarea; not held in the Library"
+      "title": "Dialogues against the followers of Marcion and other teachers",
+      "about": "written in Syriac and put into Greek by his pupils, Eusebius says; no copy is held in the Library"
     }
   ],
   "legacy": {
     "traces": [
-      "His followers. Sozomen, the church historian, says his son Harmonius is said to have set Syriac verse to meter and music, and that the Syrians still sang the melodies in Sozomen's day."
+      "His school. Epiphanius of Salamis says the Bardaisanites came from him, and Sozomen, the church historian, that a heresy took his name.",
+      "His pupils, of whom he had very many, put his Syriac dialogues into Greek, Eusebius says.",
+      "His son Harmonius, Sozomen says, was the first to set Syriac to meters and music, and in Sozomen's day the Syrians still sang his melodies."
     ],
     "remembered": [
-      "Ephrem the Syrian learned Harmonius's meters and wrote hymns of his own for the church, Sozomen says.",
-      "Ephrem attacked Bardaisan as one of the worst of heretics in his Prose Refutations."
+      "Eusebius of Caesarea praised his dialogue On Fate as most able and called him a most skillful debater in Syriac.",
+      "Ephrem the Syrian wrote a discourse against him. Bardaisan held, Ephrem reports, that the body would return to dust even without Adam's sin; Ephrem answered that Adam's sin undid the body's life, and that Christ died and was raised in a body.",
+      "Sozomen says Ephrem learned the meters of Harmonius and wrote hymns to them that kept to the church's teaching, and that from then on the Syrians sang the songs of Ephrem."
     ]
   },
   "uncertain": [
-    "Eusebius of Caesarea, who calls him \"a powerful defender of the faith,\" says he began as a follower of Valentinus and left him. Epiphanius of Salamis, who wrote against every heresy, says he began as an excellent Christian and fell into the error of Valentinus later. McGiffert thinks Eusebius's order may well be right. Following Hort, he finds no Gnostic system in Bardaisan's teaching.",
-    "The dialogue was written by a disciple, not by Bardaisan, says Arthur McGiffert, who translated Eusebius. In it Bardaisan speaks to \"Philip and Baryama.\"",
-    "McGiffert thinks Ephrem knew Bardaisan only through his followers, and so judged him more harshly.",
-    "His dates come through McGiffert from the Chronicle of Edessa and Barhebraeus. Karl Holl's notes give Barhebraeus's year of death as 221 or 222. Eusebius placed him under Marcus Aurelius. McGiffert, with Hort and Hilgenfeld, takes this as a confusion of the later emperors named Antoninus with the earlier.",
-    "In the dialogue he admits that he once followed the astrologers himself.",
-    "Epiphanius says he refused when a companion of the emperor Antoninus urged him to deny he was a Christian. Karl Holl, who edited Epiphanius, notes that the emperor meant cannot be Marcus Aurelius."
+    "His own words. What Bardaisan taught comes through his pupil Philip's report in the Book of the Laws of Countries, and through writers who opposed him: Eusebius of Caesarea, Epiphanius of Salamis and Ephrem the Syrian, a hostile witness.",
+    "The order of his life. Eusebius says he began as a follower of Valentinus, left him, and never fully washed off the old error. Epiphanius says he began as an excellent Christian, close to King Abgar, and only later joined the Valentinians. Karl Holl, who edited Epiphanius, notes that Eusebius tells the reverse. Arthur McGiffert, who translated Eusebius, thinks Eusebius's account not improbable, and with Hort finds no reason to think he taught a Gnostic system of aeons.",
+    "The resurrection. Epiphanius says he denied the resurrection of the dead. Ephrem's discourse against him attacks his teaching that the body returns to dust apart from Adam's sin. McGiffert thinks he seems to have denied the proper resurrection of the body.",
+    "Who wrote the dialogue. The Book of the Laws of Countries is told by a pupil whom Bardaisan addresses as Philip. McGiffert, after Hort, says one of his disciples wrote it, probably soon after his death. The note to the English in the Ante-Nicene Fathers, Holl and McGiffert all take it to be the dialogue On Fate that Eusebius names. Epiphanius calls that work his argument against Abeidas the astronomer, the Avida of the dialogue.",
+    "How Ephrem knew him. McGiffert thinks Ephrem knew Bardaisan only through his followers, and so judged him more harshly than he might have.",
+    "His years. The Chronicle of Edessa gives his birth as 11 July in the Seleucid year 465, which its translator B. H. Cowper reckons as 154; Hort, through McGiffert, gives 155. Barhebraeus says he lived sixty-eight years and died in the year 533, which Holl reckons as 221 or 222; McGiffert gives 223. Michael the Syrian gives the same year and age. Barhebraeus's editors, J. B. Abbeloos and T. J. Lamy, doubt these years and prefer a birth in 134, from Elias of Nisibis. Eusebius places him under Marcus Aurelius, and Epiphanius has him live past Abgar into the time of an emperor Antoninus, not Pius but Verus. Holl, McGiffert, Hort and Hilgenfeld take this as a confusion between emperors named Antoninus.",
+    "The emperor's companion. Epiphanius names him Apollonius, companion of Antoninus, and says Bardaisan stood up to him and would not deny that he was a Christian. Holl thinks the emperor must be Caracalla or, less likely, Elagabalus, and the king Abgar IX bar Manu.",
+    "Who made the hymns. Sozomen credits the songs to Bardaisan's son Harmonius. Ephrem himself, in a hymn against heresies that John Gwynn quotes in his introduction to Ephrem, blames Bardaisan alone.",
+    "His baptism. Michael the Syrian, writing in the twelfth century, says the bishop of Edessa baptized him and made him a deacon, and that a later bishop, Aqai, cast him out. No earlier source used here says so.",
+    "His languages. Epiphanius praises him as learned in Greek and Syriac. Holl thinks Eusebius likelier right that he wrote in Syriac."
   ],
   "sources": {
     "ownWords": [
       {
-        "title": "The Book of the Laws of Countries (his argument, written down by a disciple)",
+        "title": "The Book of the Laws of Countries (his argument, written down by his pupil; tr. B. P. Pratten)",
         "language": "English translation",
         "file": "cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml"
       }
@@ -54,18 +61,25 @@
         "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
       },
       {
-        "title": "Panarion 56 (Greek, ed. Holl)",
+        "title": "Panarion 56 (Greek, ed. Karl Holl, with his notes)",
         "author": "Epiphanius of Salamis",
         "date": null,
         "language": "Greek",
         "file": "cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt"
       },
       {
-        "title": "Prose Refutations of Mani, Marcion and Bardaisan",
+        "title": "Prose Refutations of Mani, Marcion and Bardaisan, with the Discourse against Bardaisan and the Discourse against Bardaisan's Domnus (tr. C. W. Mitchell, A. A. Bevan and F. C. Burkitt)",
         "author": "Ephrem the Syrian",
         "date": null,
         "language": "English translation",
         "file": "cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt"
+      },
+      {
+        "title": "Introduction to Ephrem the Syrian, quoting his hymn against heresies",
+        "author": "John Gwynn",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml"
       },
       {
         "title": "Church History, Book 3, chapter 16",
@@ -73,7 +87,40 @@
         "date": null,
         "language": "English translation",
         "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "The Chronicle of Edessa (tr. B. H. Cowper)",
+        "author": "Anonymous",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/chronicle-of-edessa_cowper.txt"
+      },
+      {
+        "title": "Chronicon Ecclesiasticum, volume 1 (ed. J. B. Abbeloos and T. J. Lamy)",
+        "author": "Barhebraeus",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt"
+      },
+      {
+        "title": "Chronicle, volume 1 (tr. J.-B. Chabot)",
+        "author": "Michael the Syrian",
+        "date": null,
+        "language": "French translation",
+        "file": "cic/texts/michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt"
       }
     ]
-  }
+  },
+  "briefReferences": [
+    "Epiphanius of Salamis, Panarion 56.1.1-2, Greek, ed. Karl Holl: Edessa in Mesopotamia; the Bardaisanites came from him; his closeness to Abgar, ruler of the Edessenes.",
+    "Eusebius of Caesarea, Church History IV.30.1, tr. Arthur McGiffert: Mesopotamia, the region between the rivers; his skill in the Syriac tongue.",
+    "Sozomen, Church History III.16, tr. Chester Hartranft: a heresy named after him.",
+    "The Book of the Laws of Countries, tr. B. P. Pratten: King Abgar; the visit to Shemashgram and Bardaisan's question; Avida's question why God did not make people unable to do wrong; the pupil addressed as Philip; his former following of the astrologers; Fate's power over health and fortune and its lack of power over freedom; each country's laws whatever the stars decree; Christians in every land, those in Parthia not taking two wives as Parthians do.",
+    "Eusebius, Church History IV.30.1-2, tr. McGiffert: his most able dialogue On Fate; his many pupils translated his works from Syriac into Greek.",
+    "Eusebius, Church History IV.30.3, tr. McGiffert: at first a follower of Valentinus; left him; did not entirely wash off the old heresy.",
+    "Epiphanius, Panarion 56.1.2-2.1, Greek, ed. Holl: at first an excellent man, of the holy church of God; stood up to Apollonius, companion of Antoninus, who urged him to deny he was a Christian; later joined the Valentinians and denied the resurrection of the dead.",
+    "Ephrem the Syrian, Discourse against Bardaisan, stanzas I, VIII, XI and XIII, tr. C. W. Mitchell, A. A. Bevan and F. C. Burkitt: Bardaisan's claim that the body would turn to dust even without Adam's sin; Ephrem's answer that Adam's sin undid the body's life and that Christ died and was raised in a body.",
+    "Sozomen, Church History III.16, tr. Hartranft: Harmonius, his son, set his opinions on the soul and the body to songs the Syrians loved; Ephrem learned his meters and wrote hymns to them; from then on the Syrians sang Ephrem.",
+    "World census, Bardaisan and the Bardaisanites: his tradition."
+  ]
 }

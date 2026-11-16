@@ -3,12 +3,12 @@
   "otherNames": [
     "Dionysius the Great"
   ],
-  "knownFor": "Bishop of Alexandria through the persecutions of Decius and Valerian and the plague, whose letters Eusebius of Caesarea kept.",
-  "dates": "Bishop from about 247; died in the twelfth year of Gallienus, about 264 or 265",
-  "place": "Alexandria",
+  "knownFor": "Bishop of Alexandria and pupil of Origen, whose letters Eusebius of Caesarea kept. He urged Novatian not to split the church, wrote against the followers of Sabellius and was defended by Athanasius when the Arians claimed him, and argued from its Greek that the Revelation was written by a John other than the apostle.",
+  "dates": "Bishop from the third year of the emperor Philip, about 247 in Arthur McGiffert's reckoning; died in the twelfth year of Gallienus, about 264 or 265, after seventeen years as bishop. Around 250, the year of Decius's edicts, is approximate",
+  "place": "Alexandria, in Egypt",
   "tradition": "Alexandrian Catechetical / Christian-Platonist Tradition",
-  "role": "Bishop and head of the school at Alexandria",
-  "briefLength": "about 2 minutes 30 seconds",
+  "role": "Head of the catechetical school at Alexandria, then its bishop",
+  "briefLength": "about 2 minutes",
   "keyWorks": [
     {
       "title": "Letters",
@@ -16,55 +16,113 @@
     },
     {
       "title": "On Promises",
-      "about": "against Nepos, with his study of who wrote the Revelation of John"
+      "about": "two books against Nepos, with his study of who wrote the Revelation of John"
     },
     {
       "title": "Refutation and Defence",
-      "about": "four books answering Dionysius of Rome"
+      "about": "four books to Dionysius, bishop of Rome, answering the charge that he called the Son a creature"
     }
   ],
   "legacy": {
+    "traces": [
+      "At Arsinoe, after three days of argument, Coracion, the leader of those who held Nepos's teaching, said he would no longer hold or teach it, Dionysius reports.",
+      "He told Stephen, bishop of Rome, that the churches of the East, once divided, were united and at peace. Eusebius says they had rejected Novatian's new teaching.",
+      "He wrote on the schism to Fabius of Antioch, who leaned toward it, to Cornelius of Rome, and to the Roman confessors who held with Novatian, and again after they came back to the church, Eusebius says."
+    ],
     "remembered": [
       "Eusebius calls him the great bishop of the Alexandrians.",
-      "Athanasius of Alexandria wrote a defense of him a century later, when the Arians claimed him.",
-      "Basil of Caesarea, in a letter, charged him with sowing the seeds of the Anomoean heresy, Blomfield Jackson notes. Jackson adds that Lumper put the charge down to Basil's imperfect knowledge of his writings, and that elsewhere Basil calls him \"the Great.\""
+      "Athanasius of Alexandria wrote a defense of him a century later, when the Arians claimed him, on the grounds that he had explained himself and died honored in the church.",
+      "Basil of Caesarea, in a letter, judged that in his zeal against Sabellius he went too far the other way, like a woodman who pulls a sapling crooked on the other side, and that, as far as Basil knew, he first gave men the seeds of the Anomoean teaching. In another letter Basil calls him the great Dionysius."
     ]
   },
   "uncertain": [
-    "The story of his flight under Decius is his own, written to answer Germanus, a bishop who accused him of running away. McGiffert says Germanus's see is not known.",
-    "On the plague he writes as a bishop praising his own people.",
-    "He judged that the apostle did not write the Revelation, from its thought, words and style beside the Gospel and letter of John, and from its Greek. He still would not reject the book. Before him, he says, some had rejected it altogether.",
-    "Archibald Robertson, an editor of Athanasius, says his four books to Dionysius of Rome ended that dispute.",
-    "Arthur McGiffert, who translated Eusebius, says the word Dionysius used for those with him in his flight is read as children, pupils or servants."
+    "His own account. The flight under Decius, the peace of the eastern churches and Coracion's change of mind are all known from Dionysius's own letters, kept by Eusebius.",
+    "The charge of flight. Eusebius says only that Germanus, a bishop of his time, tried to slander him; that the charge was flight is read from Dionysius's answer, that he did not flee on his own impulse. Arthur McGiffert, who translated Eusebius, says Germanus accused him of cowardice and that his see is not known.",
+    "His years. No ancient source used here gives a year in our reckoning. Eusebius dates his election to the third year of Philip and his death to the twelfth year of Gallienus; McGiffert reckons these as 246 or 247 and 264 or 265, and dates Decius's edicts to early 250.",
+    "Those with him in the flight. McGiffert says the word Dionysius used is read as children, pupils or servants.",
+    "The words to Novatian. His Greek says that Novatian ought to have suffered anything at all rather than split the church. The old English \"it were better\" softens a rebuke into advice.",
+    "The dispute with Dionysius of Rome. Athanasius defends him: he explained himself, showed himself of right opinion and died honored in the church. Basil judges that he went too far against Sabellius. Archibald Robertson, an editor of Athanasius, says his four books put an end to the controversy. Blomfield Jackson, who translated Basil, notes that B. F. Westcott quotes Lumper as putting Basil's charge down to imperfect knowledge of his writings.",
+    "Rebaptism. Eusebius keeps letters in which he pleads with Stephen of Rome for the churches that rebaptized heretics, says he received from Heraclas the rule of taking such converts back without another baptism, will not overturn the synods of Iconium and Synnada that did rebaptize, and asks Xystus of Rome for counsel about a man baptized among heretics. Jerome says he agreed with Cyprian and the African synod on rebaptism. Basil wonders that he accepted the baptism of the Pepuzeni. No source used here gives Stephen's or Xystus's answer.",
+    "The Revelation. He judged from its thought, words and Greek, beside the Gospel and letter of John, that the apostle did not write it, though he would not reject the book. Before him, he says, some had rejected it altogether. Eusebius, in an earlier book of his History, thinks it probable that the second John saw the Revelation, unless one will admit the first, and lists it among the accepted books and among the rejected, if it seems proper. No ancient source says Dionysius moved him; McGiffert thinks Eusebius was thinking of Dionysius's argument."
   ],
   "sources": {
     "ownWords": [
       {
-        "title": "Letters, in Eusebius's Church History, Books 6 and 7",
+        "title": "Letters, in Eusebius's Church History, Books 6 and 7 (tr. Arthur McGiffert)",
         "language": "English translation",
         "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
       },
       {
+        "title": "Letters, in Eusebius's Church History, Books 6 and 7 (Greek, ed. Eduard Schwartz, with Rufinus's Latin, ed. Theodor Mommsen)",
+        "language": "Greek",
+        "file": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt"
+      },
+      {
         "title": "Extant fragments and letters",
-        "language": "English",
+        "language": "English translation",
         "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml"
       }
     ],
     "about": [
       {
-        "title": "Church History, Books 6 and 7, with McGiffert's notes",
+        "title": "Church History, Books 3, 6 and 7, with McGiffert's notes",
         "author": "Eusebius of Caesarea",
         "date": null,
         "language": "English translation",
         "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
       },
       {
-        "title": "Defence of Dionysius, with Robertson's introduction",
+        "title": "On the Opinion of Dionysius and Defence of the Nicene Definition 25, with Robertson's introduction",
         "author": "Athanasius of Alexandria",
         "date": null,
         "language": "English translation",
         "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+      },
+      {
+        "title": "Letters 9 and 188, with Jackson's notes",
+        "author": "Basil of Caesarea",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf208_basil-letters-select-works.xml"
+      },
+      {
+        "title": "Lives of Illustrious Men 69 and 70",
+        "author": "Jerome",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
       }
     ]
-  }
+  },
+  "briefReferences": [
+    "Dionysius, letter to Germanus, in Eusebius, Church History VI.40, tr. Arthur McGiffert: Decius's persecution; an officer sent to search for him; seized by soldiers; his answer that he did not flee on his own impulse; the wedding guests who burst in and dragged him away.",
+    "Eusebius, Church History VI.35, tr. McGiffert: bishop of Alexandria.",
+    "Eusebius, Church History VI.29, tr. McGiffert, and Jerome, Lives of Illustrious Men 69: pupil of Origen; in charge of the catechetical school before he became bishop.",
+    "Eusebius, Church History VII.11, tr. McGiffert: Germanus, a bishop of his time, tried to slander him.",
+    "Eusebius, Church History VI.43, tr. McGiffert, and Jerome, Lives of Illustrious Men 70: Novatian set himself up against Cornelius at Rome and denied the fallen any hope.",
+    "Dionysius, letter to Fabius, in Eusebius, Church History VI.44, tr. McGiffert: his order that the dying who asked should receive remission.",
+    "Dionysius, letter to Novatian, in Eusebius, Church History VI.45, tr. McGiffert, with the Greek ed. Eduard Schwartz: \"It would have been right to suffer anything at all rather than split the Church of God.\"",
+    "Dionysius, letter to Stephen, in Eusebius, Church History VII.4-5, tr. McGiffert: the churches of the East, once divided, united and at peace.",
+    "Athanasius, On the Opinion of Dionysius 5, tr. Archibald Robertson, and Eusebius, Church History VII.6: bishops in the Pentapolis of Libya held with Sabellius; Dionysius wrote that the Father is not the Son.",
+    "Athanasius, On the Opinion of Dionysius 4: the boat and its builder.",
+    "Athanasius, On the Opinion of Dionysius 13, and Defence of the Nicene Definition 25: accused at Rome of calling the Son a thing made; he answered that it was a slander, in books titled Refutation and Defence.",
+    "Eusebius, Church History VII.26, and Jerome, Lives of Illustrious Men 69: the four books.",
+    "Athanasius, On the Opinion of Dionysius 1-3 and 6: the Arians, who call the Son a creature, claimed him; his defense, that Dionysius explained himself and died honored in the church.",
+    "Basil of Caesarea, Letter 9.2, tr. Blomfield Jackson: in his zeal against Sabellius he was carried into the opposite error, like a woodman pulling a sapling too far.",
+    "Dionysius, On Promises, in Eusebius, Church History VII.24, tr. McGiffert: Nepos, a bishop in Egypt, taught a millennium of bodily luxury on earth from the Revelation; three days with the presbyters and teachers of the villages of Arsinoe; Coracion gave the teaching up.",
+    "Dionysius, On Promises, in Eusebius, Church History VII.25, tr. McGiffert: he would not reject the book; from its thought, words and Greek he judged its John was not the apostle but another John in Asia.",
+    "Eusebius, Church History III.25 and III.39.6, tr. McGiffert: Eusebius left open which John saw the Revelation.",
+    "World census, Alexandrian Catechetical / Christian-Platonist Tradition: his tradition."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "It would have been right to suffer anything at all rather than split the Church of God.",
+      "printed": "For it were better to suffer everything, rather than divide the Church of God.",
+      "work": "Dionysius, letter to Novatian, in Eusebius, Church History VI.45, tr. Arthur McGiffert",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": "38924-38925",
+      "secondReading": "minor",
+      "uncertain": "Our English follows the Greek (Schwartz, lines 7363-7364, with Rufinus's Latin at 7434-7435). The Greek says Novatian ought to have suffered anything at all rather than split the church; McGiffert's \"it were better\" softens a rebuke into advice. The second reading, \"For we ought to suffer anything at all, rather than split the church of God\", makes it a general rule; both readings say suffering anything is better than splitting the church."
+    }
+  ]
 }
