@@ -1,11 +1,11 @@
 # Polycarp of Smyrna: the two best versions
 
-Both versions carry the minor changes from Mark's review of 16 November.
+Both versions carry the three minor changes from the outside review Mark shared on 16 November. Neither is approved.
 - The general sentence on households and letters is removed.
 - Irenaeus hearing Polycarp is kept apart from what Polycarp told of John.
 - The card notes that the scenes are a rendering of the Smyrna church's account.
 
-## Version A: second cold write, approved as the benchmark
+## Version A: second cold write
 
 An old man stands in a stadium, before a Roman governor and a shouting crowd. The governor offers him his life: "Swear, and I will set you free. Curse Christ." The old man answers, "For eighty-six years I have served him, and he has done me no wrong. How can I blaspheme my King, who saved me?"
 
