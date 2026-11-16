@@ -1613,6 +1613,22 @@ image. Rows in the tables above are not rewritten.
 | The Pacific Garden Mission's annual reports | filled in part: the report for the year ended September 1908; the statement of 1916 prints no year and is held for Mark; the report of 1895 not found | `pacific-garden-mission_thirty-first-annual-report_1908.txt` (1908) | 3,980 | eng | the-rescue-mission-movement, tradition |
 | In His Steps in printings of 1899; Newton's Thoughts on the Apocalypse in the printing of 1904 | not taken | later printings of texts already held | | | |
 
+## Era 10, batch 2b, the periodicals (2026-11-16): the follow-on to batch 2
+
+Forty-five files, 4,325,430 words: the numbers of The Christian East and the volumes of The International
+Review of Missions that batch 2 found and did not take. The record is in
+`Build/Ministry/Operations/Audits/2026-11-16_library-era10-b2b-periodicals/` (`Search_Log.md`, with the
+page-image reads, seven calls and the cautions for writers). Every file has a printed date of 1930 or earlier,
+on its masthead, cover or title leaf. Rows in the tables above are not rewritten.
+
+| want | state | file(s) | words | language | shelf |
+|---|---|---|---:|---|---|
+| The Christian East, the numbers to 1930 not yet held | filled but for one: 31 numbers. With the twelve held, every number of vols. I-X is held and vol. XI lacks no. 4 | `christian-east_v<vol>-no<no>-<month or season>-<year>.txt`: I.1, I.2, I.4 (1920); II.1, II.3, II.4 (1921); III.1, III.4 (1922); V.1-4 (1924); VI.1-3 (1925), VI.4 (January 1926); VII.1-4 (1926); VIII.1-3 (1927); IX.1-4 (1928); X.2-4 (1929); XI.3 (1930) | 761,254 in all | eng; some French, Latin and Greek | the-anglican-communion-twentieth-century, tradition (each number whole); 39 rows for single documents on the Greek, Russian, émigré, Balkan and Syriac entries, and one on the ecumenical movement |
+| The Christian East, vol. XI, no. 4 | not taken, held for Mark: it prints "Winter, 1930-31" and cites a letter of March 1931 | | | | |
+| The International Review of Missions, 1914-1920 | filled: seven volumes | `international-review-of-missions_v3_1914.txt` to `_v9_1920.txt` | 1,757,789 | eng | the-student-volunteer-movement-and-edinburgh-191, tradition; rows for the survey's note on Garrick Braid (1917), Willis on the Uganda church (1918), the Mar Thoma statement and the China plan of union (1920) |
+| The International Review of Missions, 1921, 1924-1927, 1929, 1930 | filled: seven volumes. With the three held, every volume from 1914 to 1930 is held | `international-review-of-missions_v10_1921.txt`, `_v13_1924.txt` to `_v16_1927.txt`, `_v18_1929.txt`, `_v19_1930.txt` | 1,806,387 | eng | the-ecumenical-movement-and-the-wcc, tradition; rows for the National Christian Council of China (1924), Speer on Montevideo (1925), Loram on the separatist churches (1926), Kriele on Nias (1927), Braga, the Bishop of Dornakal and Kozaki (1929) |
+| Proceedings of the Church Missionary Society, 1910-1921 | not taken, and ruled out by Mark on 2026-11-16: the microfilm they were scanned from carries "© MM 1967, reproduction of this film prohibited" | twelve items located, `per_proceedings-church-missionary-soc-for-africa-a_<year>` | | | |
+
 ## Later — queued
 
 - ME-21 by a browser; Lang 1834 and the Peking mission after 1808; the

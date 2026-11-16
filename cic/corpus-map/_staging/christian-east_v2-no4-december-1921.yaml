@@ -1,0 +1,24 @@
+source_file: christian-east_v2-no4-december-1921.txt
+assignments:
+- row_id: christian-east_v2-no4-december-1921--whole
+  work: 'The Christian East, volume II, number 4 (December, 1921)'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - the-anglican-communion-twentieth-century
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1921, end: 1921, source: "masthead: 'December, 1921'", formation_confidence: Documented}
+  note: 'One number of the quarterly, by many writers. The Eastern documents it prints are in the journal''s English unless a row says otherwise.'
+- row_id: christian-east_v2-no4-december-1921--nicolas-of-caesarea-memorial-to-the-league-of-nations-1921
+  work: 'Nicolas, Archbishop of Caesarea, locum tenens of the Ecumenical Patriarchate, memorial to the League of Nations (1921), in The Christian East'
+  author: christian-east
+  locus: 'OCR lines 3850-4043; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-greek-church-and-the-ecumenical-patriarchate
+  role: tradition
+  confidence: assigned
+  language: fra
+  date: {start: 1921, end: 1921, source: "dated '13/26 novembre, 1921' (OCR line 4043)", formation_confidence: Documented}
+  note: 'The locum tenens''s own memorial, printed in French with no English.'

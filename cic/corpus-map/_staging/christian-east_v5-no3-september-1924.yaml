@@ -1,0 +1,13 @@
+source_file: christian-east_v5-no3-september-1924.txt
+assignments:
+- row_id: christian-east_v5-no3-september-1924--whole
+  work: 'The Christian East, volume V, number 3 (September, 1924)'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - the-anglican-communion-twentieth-century
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1924, end: 1924, source: "masthead: 'September, 1924'", formation_confidence: Documented}
+  note: 'One number of the quarterly, by many writers. The Eastern documents it prints are in the journal''s English unless a row says otherwise.'

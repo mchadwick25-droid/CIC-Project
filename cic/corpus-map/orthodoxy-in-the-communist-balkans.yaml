@@ -3,6 +3,82 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: orthodoxy-in-the-communist-balkans
 works:
+- row_id: christian-east_v3-no4-december-1922--patriarch-dimitri-of-serbia-open-letter-1922
+  work: Dimitri, Patriarch of Serbia, open letter (1922), in The Christian East
+  author: christian-east
+  locus: OCR lines 2047-2156; add 12 to OCR line numbers
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1922
+    end: 1922
+    source: printed in the number of December, 1922
+    formation_confidence: Documented
+  note: The Patriarch's own appeal, in an English the editors say was made from Glasnik by
+    the Rev. R. M. French (OCR lines 2043-2044).
+  source_file: christian-east_v3-no4-december-1922.txt
+- row_id: christian-east_v9-no4-winter-1928--parenta-penance-1928
+  work: Milosh Parenta, 'Penance' (1928), in The Christian East
+  author: christian-east
+  locus: OCR lines 2160-2345; add 12 to OCR line numbers
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1928
+    end: 1928
+    source: 'the heading: ''an article in Glasnik, October, 1928'' (OCR line 2163)'
+    formation_confidence: Documented
+  note: The heading calls it 'the substance of an article', translated by L. Patterson; a
+    summary in translation, not the article whole.
+  source_file: christian-east_v9-no4-winter-1928.txt
+- row_id: christian-east_v9-no2-summer-1928--nikolai-of-okhrida-the-sacraments-from-the-point-of-view-of-the-eastern-church-1928
+  work: Nikolai, Bishop of Okhrida, 'The Sacraments from the Point of View of the Eastern
+    Church' (1928), in The Christian East
+  author: christian-east
+  locus: OCR lines 2482-2725; add 12 to OCR line numbers
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1928
+    end: 1928
+    source: printed in the number of Summer, 1928
+    formation_confidence: Documented
+  note: The paper of 'the Right Reverend Nikolai, Bishop of Okhrida', in English with no translator
+    named.
+  source_file: christian-east_v9-no2-summer-1928.txt
+- row_id: christian-east_v11-no3-autumn-1930--zankov-the-general-position-of-the-eastern-orthodox-churches-1930
+  work: Stefan Zankov, 'The General Position of the Eastern Orthodox Churches at the Present
+    Time' (1930), in The Christian East
+  author: christian-east
+  locus: OCR lines 2392-2662; add 12 to OCR line numbers
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1930
+    end: 1930
+    source: printed in the number of Autumn, 1930
+    formation_confidence: Documented
+  note: His own article, in English with no translator named.
+  source_file: christian-east_v11-no3-autumn-1930.txt
+- row_id: christian-east_v8-no3-autumn-1927--stephan-of-sofia-fundamental-conditions-for-the-unification-of-the-christian-churches-1927
+  work: Stephan, Archbishop of Sofia, 'Fundamental Conditions for the Unification of the Christian
+    Churches' (1927), in The Christian East
+  author: christian-east
+  locus: OCR lines 1816-3170; add 12 to OCR line numbers
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1927
+    end: 1927
+    source: printed in the number of Autumn, 1927
+    formation_confidence: Documented
+  note: The paper of 'the Archbishop of Sofia, Stephan', in English with no translator named.
+  source_file: christian-east_v8-no3-autumn-1927.txt
 - row_id: christian-east_v10-no1-spring-1929--the-christian-east-volume-x-number-1-spring-1929-on-the
   work: 'The Christian East, volume X, number 1 (Spring, 1929): on the Bulgarian church'
   author: christian-east
