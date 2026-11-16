@@ -18,32 +18,31 @@
 | 3 | The old man answers, "For eighty-six years..." | Q8 (exact); warning obeyed: the story does not say whether the 86 years are his age (D4) |
 | 4 | His name was Polycarp. | S1 |
 | 5 | In the second century he was bishop of the church in Smyrna... | S12 ("in the second century"); S1; S2 (Roman province of Asia) |
-| 6 | This was the church in the time after the apostles, and Polycarp had known people who had seen Jesus. | S3 (tradition name: Post-Apostolic); S5, S12 (supported wording: "he had known people who had seen Jesus") |
-| 7 | A man named Irenaeus, who heard him teach as a boy, remembered... | M13, Q28, I8; S12(b) and N3 ("John, the disciple of the Lord"); named because the point rests on Irenaeus's memory |
-| 8 | Then the governor put the Christians of Smyrna on trial. | S7 |
-| 9 | The crowd called them atheists, because they would not sacrifice to the gods, and it shouted for Polycarp to be found. | S7, M16 (the shout); reason from Q12, M26 ("not to sacrifice and not to worship", "our gods") and M22 (refusal to sacrifice) |
-| 10 | Many people wanted him to leave, so he went out to the farms near the city. | M18 (first farm, the wish of many); M20 (second farm) |
-| 11 | The police came for him there on a Friday evening. | M21 |
+| 6 | Christians then gathered in households, held together by letters. | S3(a) spoken form (2), shortened: "in Asia Minor and beyond" dropped for length |
+| 7 | Polycarp himself had known people who had seen Jesus. | S5; S12 (supported wording) |
+| 8 | A man named Irenaeus, who heard him teach as a boy, remembered... | M13, Q28, I8; S12(b) and N3 ("John, the disciple of the Lord"); named because the point rests on Irenaeus's memory |
+| 9 | When Polycarp was a very old man, the governor put the Christians of Smyrna on trial. | Q26 ("a very old man when he died"); S7 |
+| 10 | The crowd called them atheists, because they would not sacrifice to the gods, and shouted for Polycarp. | S7, M16 (the shout); reason drawn from Q12, M26 and M22 |
+| 11 | Many people wanted him to leave the city, so he went out to a farm, and there the police came for him on a Friday evening. | M18 (the wish of many, a farm near the city); M20 (he moved to another farm, not told); M21 (police, Friday evening) |
 | 12 | He could have escaped, but he said, "Let the will of God be done." | M21; Q4 escape (quote exact) |
 | 13 | He had food and drink set before the men and asked for an hour to pray. | M21; Q4 food |
 | 14 | He prayed for two hours, and many of them were sorry they had come out against "such a godly old man". | M21; Q4 prayer (quoted words exact) |
-| 15 | In the stadium, the governor threatened him with wild beasts, and then with fire. | M24; Q11 |
+| 15 | The governor threatened him with wild beasts, and then with fire. | M24; Q11 |
 | 16 | Polycarp answered, "You threaten fire that burns for an hour and soon goes out." | Q11 fire (exact) |
-| 17 | So he was burned. | M26 (the crowd shouts for burning); M27; Q15 (the fire lit) |
-| 18 | The Christians of Smyrna, who wrote down what they saw, say the flames curved around him "like a ship's sail filled by the wind" and could not consume his body. | M29; Q15 (quoted words exact; "We were preserved to tell the others"); Q16 dagger ("the fire could not consume his body"). Told as the church's report, per the warnings on Q15 and Q16. Dove left out (D3). |
+| 17 | So they lit the fire. | Q15 ("the men in charge of the fire lit it"); M26, M27 |
+| 18 | The Christians of Smyrna, who say they saw it, wrote that the flames curved around him "like a ship's sail filled by the wind" and could not consume his body. | M29; Q15 (quoted words exact; "we saw a wonder, we to whom it was given to see"); Q16 dagger ("the fire could not consume his body"); N10. Told as the church's claim, per the warnings on Q15 and Q16. Dove left out (D3). |
 | 19 | In the end an executioner killed him with a dagger. | M31; Q16 dagger |
 | 20 | The church sent its account out, and asked that it be passed on to Christians farther away. | M36; I5. Messenger not named (D6). |
-| 21 | Years later, Irenaeus called on Polycarp as a witness against the false teachers of his own day. | I9; S12(c) (Irenaeus writing under Eleutherius, after the Rome visit) |
+| 21 | Years later, Irenaeus called on Polycarp as a witness against the false teachers of his own day. | I9; S12(c) |
 | 22 | "He had always taught what he had learned from the apostles," Irenaeus wrote, "what the Church hands down, and what alone is true." | Q26 (exact, last sentence); I9 carrying quote |
-| 23 | Irenaeus also used Polycarp's example to keep a peace. | I11 |
-| 24 | Polycarp had once visited Rome, when Anicetus was bishop there, and the two men could not agree about the keeping of Easter. | M9; Q29. Easter is not given as the reason for the trip (D14). |
+| 23 | Polycarp had once visited Rome, when Anicetus was bishop there, and the two men could not agree about the keeping of Easter. | M9; Q29. Easter is not given as the reason for the trip (D14). |
+| 24 | Polycarp kept it as he had with John and the other apostles, and Anicetus followed the elders before him. | M9; Q29 (paraphrase, not quoted). This is Irenaeus's report; sentence 25 names him. |
 | 25 | "Even so, they shared communion," Irenaeus wrote. "And they parted from each other in peace." | Q29 (exact sentences); the disputed Eucharist clause is left out |
-| 26 | A generation later, a bishop of Rome named Victor tried to cut off the churches of Asia over the date of Easter. | I11 ("a generation later", "Victor of Rome", "cut off the churches of Asia over the Easter date") |
+| 26 | A generation later, a bishop of Rome named Victor tried to cut off the churches of Asia over the Easter date. | I11 |
 | 27 | Irenaeus wrote to Victor and held up that peace as the reason not to do it. | I11; M9 |
-| 28 | One letter by Polycarp himself still survives. | M5; M15; N4 |
-| 29 | In it he warns against teachers who deny that Jesus Christ came in the flesh, or who say there is no resurrection. | M8; Q21; I18 |
-| 30 | "Let us return to the word handed down to us from the beginning," he writes. | Q21 (exact, last sentence); I18 carrying quote |
-| 31 | More than two hundred years later, a writer named Jerome reported that this letter was still read in the church meetings of Asia. | I15 (Jerome, about 230 years later; "read to the present day in the meetings in Asia") |
+| 28 | In his one surviving letter, Polycarp warns against teachers who deny that Jesus Christ came in the flesh, or who say there is no resurrection. | M5; M15; N4; M8; Q21; I18 |
+| 29 | "Let us return to the word handed down to us from the beginning," he writes. | Q21 (exact, last sentence); I18 carrying quote |
+| 30 | More than two hundred years later, a writer named Jerome reported that this letter was still read in the church meetings of Asia. | I15 |
 
 ## (c) What is uncertain (for the card)
 
@@ -61,11 +60,11 @@
 **Used**
 
 - I9 (rank 1, defended): Irenaeus's witness against false teachers, with its carrying quote. Sentences 21–22.
-- I8 (rank 2): Irenaeus heard him as a boy. Sentence 7. Used as the listener's reason to trust Irenaeus. The "not on paper" phrase was left out for length.
-- I11 (rank 3, defended): the peace with Anicetus, used to restrain Victor. Sentences 23–27.
+- I8 (rank 2): Irenaeus heard him as a boy. Sentence 8. Used as the listener's reason to trust Irenaeus. The "not on paper" phrase was left out for length.
+- I11 (rank 3, defended): the peace with Anicetus, used to restrain Victor. Sentences 23–27 (round 2 numbering).
 - I5 (rank 4): the account sent on. Sentence 20. Eusebius's copying is left for the card.
-- I18 (rank 5, defended): his own words on the word handed down. Sentences 28–30.
-- I15 (rank 8): the letter still read in Asia in Jerome's day. Sentence 31. Chosen as the ending because it is an event that shows how far rank 5 reached.
+- I18 (rank 5, defended): his own words on the word handed down. Sentences 28–29.
+- I15 (rank 8): the letter still read in Asia in Jerome's day. Sentence 30. Chosen as the ending because it is an event that shows how far rank 5 reached.
 
 **Left out**
 
@@ -80,4 +79,4 @@
 
 ## Score and length
 
-516 words, about three and a half minutes aloud at 150 words a minute, which is the top of the range. Grade 6.4 (names out 5.5), reading ease 82.9 with names out, longest sentence 30 words. The grade is under 8, so the reviewer's listener read decides whether it is flat.
+Round 2: 518 words, about three and a half minutes aloud at 150 words a minute, the top of the range. Grade 6.8 (names out 5.9), reading ease 81.1 with names out, longest sentence 30 words. The grade is under 8, so the reviewer's listener read decides whether it is flat.
