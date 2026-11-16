@@ -4052,5 +4052,16 @@ Approved to proceed (coordinator, 2026-11-16; Mark may overrule).
 - Tags are removed, not replaced with varied synonyms.
 - Nothing else changes: no claim, quotation, stance or consequence.
 
-**Applied:** to all 21 era 1 briefs before release, with one targeted Opus recheck of the changed sentences only. Mark ordered it, so it does not count toward the three-round cap. Checklist item 19 in `Who_Profile_Pattern.md` carries the rule for every later era. The record is `Build/Ministry/Operations/Audits/2026-11-16_era1-standard-v1/` (each references record's "Mark's ruling on attribution tags" section, and `reviews/tags-recheck.md`).
+**Applied:** to all 21 era 1 briefs before release, with one targeted Opus recheck of the changed sentences only. Mark ordered it, so it does not count toward the three-round cap. Checklist item 19 in `Who_Profile_Pattern.md` carries the rule for every later era. The record is `Build/Ministry/Operations/Audits/2026-11-16_era1-standard-v1/` (each references record's "Mark's ruling on attribution tags" section, and the story recheck below).
+
+## 2026-11-16 — Tell the story: one or two quotations a brief, the rest in the narrator's voice (Mark, 2026-11-16)
+
+**Decided (Mark, 2026-11-16, after the Tatian sample and the ruling on speech tags):** "Just tell the story, not everything has to be a quote or testimony". Relayed by the coordinator, with these terms:
+- The brief reads as a story told by a narrator, not as a chain of quotations and witness statements.
+- A quotation stays only where the person's own words carry something a retelling would lose: their stance in their own voice, a line that defines them. Usually one, at most two, per brief.
+- Everything else is told plainly. Witnesses are named only where trust turns on it (the entry above).
+- Every claim still traces to the references listed below the brief, so rigor stays whole.
+- A dropped quotation leaves `tools/quote_renderings.json` and the card's `quotationOriginals`; its source stays in the references while the claim stays.
+
+**Applied:** to all 21 era 1 briefs before release, in one pass with the speech-tag ruling, and one targeted Opus recheck that Mark ordered (outside the three-round cap): claims traced, trust-bearing witnesses kept, one story from who they were to what came of it, length and readability. Checklist item 20 in `Who_Profile_Pattern.md` carries the rule. The record: each references record's "Mark's ruling: tell the story" section, and `Build/Ministry/Operations/Audits/2026-11-16_era1-standard-v1/reviews/story-recheck.md`.
 
