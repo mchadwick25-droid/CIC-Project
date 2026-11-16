@@ -101,19 +101,11 @@
   ],
   "quotationOriginals": [
     {
-      "modern": "Philosophy, then, was a preparation,",
-      "printed": "Philosophy, therefore, was a preparation,",
+      "modern": "Philosophy, then, was a preparation, paving the way for the one who is made perfect in Christ.",
+      "printed": "Philosophy, therefore, was a preparation, paving the way for him who is perfected in Christ.",
       "work": "Clement, Stromata I.5, tr. William Wilson",
       "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
-      "lines": "27893-27894",
-      "secondReading": "minor"
-    },
-    {
-      "modern": "paving the way for the one who is made perfect in Christ.",
-      "printed": "paving the way for him who is perfected in Christ.",
-      "work": "Clement, Stromata I.5, tr. William Wilson",
-      "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
-      "lines": "27894-27895",
+      "lines": "27893-27895",
       "secondReading": "minor"
     }
   ]

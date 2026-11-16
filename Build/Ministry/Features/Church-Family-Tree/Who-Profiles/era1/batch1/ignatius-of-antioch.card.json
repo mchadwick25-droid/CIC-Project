@@ -105,19 +105,11 @@
       "uncertain": "Other English forms in the same volume read \"I am ground\" and \"bread of God\"; the brief follows the form that reads \"let me be ground\". The brief carries the first rendering's joined form, which keeps the printed \"and\"; the second rendering split it into two sentences with the same meaning. The Greek is not held."
     },
     {
-      "modern": "If our Lord did these things only in appearance,",
-      "printed": "But if these things were done by our Lord only in appearance,",
+      "modern": "If our Lord did these things only in appearance, then I too am bound only in appearance.",
+      "printed": "But if these things were done by our Lord only in appearance, then am I also only in appearance bound.",
       "work": "Ignatius, Letter to the Smyrnaeans 4, tr. A. Roberts and J. Donaldson",
       "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
       "lines": "8102-8103",
-      "secondReading": "same"
-    },
-    {
-      "modern": "then I too am bound only in appearance.",
-      "printed": "then am I also only in appearance bound.",
-      "work": "Ignatius, Letter to the Smyrnaeans 4, tr. A. Roberts and J. Donaldson",
-      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
-      "lines": "8103",
       "secondReading": "same"
     }
   ]

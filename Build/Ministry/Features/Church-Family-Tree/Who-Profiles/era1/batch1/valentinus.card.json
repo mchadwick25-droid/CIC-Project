@@ -112,19 +112,11 @@
   ],
   "quotationOriginals": [
     {
-      "modern": "But when the only good Father visits it,",
-      "printed": "But when the only good Father visits it,",
+      "modern": "But when the only good Father visits it, it is sanctified, and gleams with light.",
+      "printed": "But when the only good Father visits it, it is sanctified, and gleams with light.",
       "work": "Clement of Alexandria, Stromata II.20, quoting a letter of Valentinus, tr. William Wilson",
       "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
-      "lines": "34301",
-      "secondReading": "same"
-    },
-    {
-      "modern": "it is sanctified, and gleams with light.",
-      "printed": "it is sanctified, and gleams with light.",
-      "work": "Clement of Alexandria, Stromata II.20, quoting a letter of Valentinus, tr. William Wilson",
-      "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
-      "lines": "34302",
+      "lines": "34301-34302",
       "secondReading": "same"
     }
   ]

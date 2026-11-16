@@ -124,16 +124,8 @@
   ],
   "quotationOriginals": [
     {
-      "modern": "Since I am the first to take up this subject,",
-      "printed": "since I am the first to enter upon the subject,",
-      "work": "Eusebius, Church History I.1.3, tr. Arthur McGiffert",
-      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
-      "lines": "6936",
-      "secondReading": "same"
-    },
-    {
-      "modern": "I am trying to travel what is, so to speak, a lonely and untrodden road.",
-      "printed": "I am attempting to traverse as it were a lonely and untrodden path.",
+      "modern": "Since I am the first to take up this subject, I am trying to travel what is, so to speak, a lonely and untrodden road.",
+      "printed": "since I am the first to enter upon the subject, I am attempting to traverse as it were a lonely and untrodden path.",
       "work": "Eusebius, Church History I.1.3, tr. Arthur McGiffert",
       "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
       "lines": "6936-6937",

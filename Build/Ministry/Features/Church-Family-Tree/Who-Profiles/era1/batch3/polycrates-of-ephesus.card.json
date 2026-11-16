@@ -110,22 +110,13 @@
   ],
   "quotationOriginals": [
     {
-      "modern": "We keep the day without tampering with it,",
-      "printed": "We observe the exact day;",
+      "modern": "We keep the day without tampering with it, adding nothing and taking nothing away.",
+      "printed": "We observe the exact day; neither adding, nor taking away.",
       "work": "Polycrates, Letter to Victor, in Eusebius, Church History V.24.2, tr. Arthur McGiffert",
       "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
       "lines": "31324-31325",
       "secondReading": "minor",
-      "uncertain": "This clause follows Polycrates's Greek, held in the editor's note in Ante-Nicene Fathers 8 (anf08 lines 72579-72581), which says the day is kept \"untampered with\", a word that hints others have tampered with it; \"the exact day\" is a translator's softening. The first rendering's \"tampering\" keeps that hint; the second's \"altering\" is weaker."
-    },
-    {
-      "modern": "adding nothing and taking nothing away.",
-      "printed": "neither adding, nor taking away.",
-      "work": "Polycrates, Letter to Victor, in Eusebius, Church History V.24.2, tr. Arthur McGiffert",
-      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
-      "lines": "31325",
-      "secondReading": "minor",
-      "uncertain": "The Greek of this clause is not held; it is rendered from the printed English."
+      "uncertain": "This clause follows Polycrates's Greek, held in the editor's note in Ante-Nicene Fathers 8 (anf08 lines 72579-72581), which says the day is kept \"untampered with\", a word that hints others have tampered with it; \"the exact day\" is a translator's softening. The first rendering's \"tampering\" keeps that hint; the second's \"altering\" is weaker. The Greek of this clause is not held; it is rendered from the printed English."
     }
   ]
 }
