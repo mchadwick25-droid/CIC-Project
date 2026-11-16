@@ -3929,6 +3929,19 @@ Also in this change:
 
 **Record.** `Build/Ministry/Operations/Audits/2026-11-15_standard-v1-test/`: the reviews, the two paid recording runs (2,245 and 2,275 credits, both reconciled against the balance) and the approved audio.
 
+
+## 2026-11-16 — Dominic Sells His Books and the John of Ephesus mission card, told from the held texts (Mark; data release 47)
+
+**Decided (Mark, 2026-11-16, relayed by the coordinator).** On the two cards held in Open-Gaps 296. Dominic: "Credit Stephen, drop the rest (Recommended)". John of Ephesus: "Remove the claim (Recommended)". The coordinator then corrected the wording of the question he had put to Mark: Mark's intent was to credit each claim to where it stands in the held texts and to drop what no held text says. The cards apply the rulings as Mark meant them.
+
+**Dominic Sells His Books.** Jordan of Saxony's Libellus §7 is the source for the famine at Palencia and the sale of the books (Acta Sanctorum Augusti I, `acta-sanctorum_augusti-tomus-1-lat_1750.txt` l.92447-92463). Two witnesses at the canonization inquest tell it too: Brother John of Spain (l.107807-107808, l.107994-108004) and Brother Stephen, who alone gives the books glossed in Dominic's own hand and the saying about dead skins (l.108385-108404). The saying is told in plain words, since only the Latin is held. The caveat names both inquest witnesses on whether Dominic was then in the world or already a canon of Osma, and tells neither as settled. Gone: the saying credited to Jordan, the "parchment", the later habits and the death at Bologna, the famine as "independently attested", the year c. 1191, and the Mulchahey reference.
+
+**John of Ephesus.** The title is "John of Ephesus Converts the Pagans of Asia for Justinian", in place of "— By Order". The compulsion claim (‘compelling’, the fear of imperial law) is gone, and so are the gifts to converts, the burning of idols, "the laws declared illegal" and "his last years in Justin II's prisons", which no cited held chapter says. The counts follow the chapters: 80,000 converts, 98 churches, 12 monasteries and 7 churches from synagogues in the Lives (Brooks, PO 18, l.39043-39046); 99 churches and 12 monasteries over 35 years in the Ecclesiastical History (Payne Smith II.44). The Derira temple and monastery (III.36-37), the trials for secret pagan worship (III.27-34) and John's imprisonment under Justin II stand on Payne Smith. The Whitby reference, cited only for the coercion claim, is dropped.
+
+**Review.** Round 1, a fresh Opus reviewer: 2 blocking points, both fixed. Round 2, a targeted recheck that also covered the corrected rulings: 0 blocking. Round 3, a check of five small fixes to non-blocking points: 0 blocking. Files: `Build/Ministry/Operations/Audits/2026-11-16_cft-held-cards/`.
+
+**What is still open.** Open-Gaps 304 (2026-11-16).
+
 ## 2026-11-16 — Renderings made at the point of use and checked twice; the fourteen re-checked (Mark, 2026-11-16)
 
 **Decided (Mark, 2026-11-16: "Render at point of use, re-check the 14 (Recommended)", relayed by the coordinator).**
