@@ -193,10 +193,10 @@ function shelfAuthor(movementId, rowId) {
 // A person card: one-line summary, role, up to three key works, legacy, open questions and the sources behind it.
 const CARD_KEYS = ["otherNames", "label", "knownFor", "datesNote", "placeNote", "role", "keyWorks", "legacy", "uncertain", "sources", "briefReferences", "quotationOriginals"];
 // The printed wording behind each quotation the brief gives in our modern English: the modern words as the brief
-// quotes them, the printed words, the file the card cites and the lines that hold them, and the verdict of the second
+// quotes them, the printed words, the work they come from, the file the card cites and the lines that hold them, and the verdict of the second
 // reading, with a note where the two readings differ. Every quotation in the brief has one, and each printed wording
 // stands in its lines.
-const QUOTATION_ORIGINAL_KEYS = ["modern", "printed", "file", "lines", "secondReading", "uncertain"];
+const QUOTATION_ORIGINAL_KEYS = ["modern", "printed", "work", "file", "lines", "secondReading", "uncertain"];
 function checkQuotationOriginals(m, at) {
   const list = m.card.quotationOriginals;
   if (!Array.isArray(list) || !list.length) { errs.push(`${at("quotationOriginals")} must be a non-empty list`); return; }
@@ -206,7 +206,7 @@ function checkQuotationOriginals(m, at) {
     const p = `quotationOriginals[${i}]`;
     if (!isObj(e)) { errs.push(`${at(p)} must be an object`); return; }
     Object.keys(e).filter(k => !QUOTATION_ORIGINAL_KEYS.includes(k)).forEach(k => errs.push(`${at(`${p}.${k}`)} is not allowed (allowed: ${QUOTATION_ORIGINAL_KEYS.join(", ")})`));
-    ["modern", "printed", "file", "lines"].forEach(k => { if (!plain(e[k])) errs.push(`${at(`${p}.${k}`)} must be a non-empty string`); });
+    ["modern", "printed", "work", "file", "lines"].forEach(k => { if (!plain(e[k])) errs.push(`${at(`${p}.${k}`)} must be a non-empty string`); });
     if (e.uncertain !== undefined && !plain(e.uncertain)) errs.push(`${at(`${p}.uncertain`)} must be a non-empty string`);
     if (!SECOND_READING_VERDICTS.has(e.secondReading)) errs.push(`${at(`${p}.secondReading`)} must be "same", "minor" or "changes meaning"`);
     if (plain(e.modern) && !quoted.includes(fold(e.modern))) errs.push(`${at(`${p}.modern`)} "${e.modern.slice(0, 40)}" is not a quotation in the brief`);

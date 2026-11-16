@@ -117,15 +117,16 @@
     "History of the Franks V, preface, tr. Brehaut: the civil wars among the Frankish kings.",
     "History of the Franks V.31 (43), tr. Dalton: Agilan, envoy of King Leuvigild; the argument at Tours; his oath; his conversion in Spain under sickness.",
     "History of the Franks V.32 (44), tr. Dalton: Chilperic's decree, Gregory's answer, Salvius of Albi, \"So the king desisted from his purpose\".",
-    "History of the Franks X.31, tr. Dalton: Gregory the nineteenth bishop; the cathedral burned and rebuilt; Martin consecrated in it; his ten books.",
+    "History of the Franks X.31, tr. Dalton: his ten books.",
     "Miracles of Martin II.1, Latin, ed. Arndt and Krusch: his consecration in Sigibert's twelfth year (573).",
     "Paul the Deacon, History of the Langobards III.1, tr. W. D. Foulke: \"the books of the reverend man Gregory, bishop of Tours\".",
-    "World census, Merovingian Gallic Christianity: his tradition on the tree."
+    "World census, Merovingian Gallic Christianity: his tradition."
   ],
   "quotationOriginals": [
     {
       "modern": "Alas for our times, because the study of literature has died out among us,",
       "printed": "Woe to our day, since the pursuit of letters has perished from among us,",
+      "work": "History of the Franks, first preface, tr. Ernest Brehaut",
       "file": "cic/texts/gregory-tours_history-of-the-franks-selections_brehaut1916.txt",
       "lines": "850-851",
       "secondReading": "minor",
@@ -134,6 +135,7 @@
     {
       "modern": "so that anyone who reads may have no doubt that I hold the catholic faith,",
       "printed": "that whoso reads may doubt not that I hold the catholic faith,",
+      "work": "History of the Franks I, preface, tr. O. M. Dalton",
       "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
       "lines": "339-340",
       "secondReading": "same"
@@ -141,6 +143,7 @@
     {
       "modern": "I want you and the other teachers of the churches to believe this.",
       "printed": "This is my will, that such be thy faith, and that of the other doctors of the Church.",
+      "work": "History of the Franks V.32 (44), tr. Dalton",
       "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
       "lines": "10370-10371",
       "secondReading": "same"
@@ -148,6 +151,7 @@
     {
       "modern": "what Hilary and Eusebius taught.",
       "printed": "that which Hilary and Eusebius taught.",
+      "work": "History of the Franks V.32 (44), tr. Dalton",
       "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
       "lines": "10374-10375",
       "secondReading": "same"
@@ -155,6 +159,7 @@
     {
       "modern": "So the king gave up this plan,",
       "printed": "So the king desisted from his purpose,",
+      "work": "History of the Franks V.32 (44), tr. Dalton",
       "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
       "lines": "10404-10405",
       "secondReading": "same"
@@ -162,6 +167,7 @@
     {
       "modern": "the books of that revered man Gregory, bishop of Tours.",
       "printed": "the books of the reverend man Gregory, bishop of Tours.",
+      "work": "Paul the Deacon, History of the Langobards III.1, tr. W. D. Foulke",
       "file": "cic/texts/paul-the-deacon_history-of-the-langobards_foulke1907.txt",
       "lines": "5074-5075",
       "secondReading": "same"

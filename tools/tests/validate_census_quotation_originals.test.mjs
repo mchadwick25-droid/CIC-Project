@@ -71,3 +71,9 @@ test("an empty reference fails", () => {
   assert.equal(errs.length, 1);
   assert.match(errs[0], /briefReferences/);
 });
+
+test("a quotation with no named work fails", () => {
+  const errs = errorsFor(card => { delete card.quotationOriginals[0].work; });
+  assert.equal(errs.length, 1);
+  assert.match(errs[0], /\.work must be a non-empty string/);
+});

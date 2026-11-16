@@ -80538,6 +80538,7 @@
      {
       "modern": "Be careful not to change your mind because of us.",
       "printed": "Take heed not to change your mind on our account.",
+      "work": "Eusebius, Church History VI.2.3-6, tr. McGiffert",
       "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
       "lines": "32562",
       "secondReading": "same"
@@ -80545,6 +80546,7 @@
      {
       "modern": "the hardworking Origen",
       "printed": "the labour-loving Origen",
+      "work": "Athanasius, On the Decrees of the Council of Nicaea 27, ed. Archibald Robertson",
       "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
       "lines": "28650-28652",
       "secondReading": "same"
@@ -80826,6 +80828,7 @@
      {
       "modern": "begotten, not made.",
       "printed": "begotten not made.",
+      "work": "Athanasius, On the Decrees of the Council of Nicaea, Eusebius's letter, ed. Robertson",
       "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
       "lines": "19679",
       "secondReading": "same"
@@ -80833,6 +80836,7 @@
      {
       "modern": "He became human so that we might be made God.",
       "printed": "He was made man that we might be made God.",
+      "work": "Athanasius, On the Incarnation 54, ed. Robertson",
       "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
       "lines": "18743-18744",
       "secondReading": "minor",
@@ -80841,6 +80845,7 @@
      {
       "modern": "our blessed Father Athanasius, praised by all.",
       "printed": "our blessed and all-celebrated Father Athanasius.",
+      "work": "Cyril of Alexandria, Letter to John of Antioch, ed. P. E. Pusey",
       "file": "cic/texts/cyril-alexandria_three-epistles-grc-eng_pusey1872.txt",
       "lines": "5393-5394",
       "secondReading": "minor",
@@ -81104,6 +81109,7 @@
      {
       "modern": "inherited the controversy with Eunomius.",
       "printed": "received the legacy of Eunomius' controversy.",
+      "work": "Gregory of Nyssa, Against Eunomius, Letter I to Peter of Sebasteia, tr. William Moore and Henry Austin Wilson",
       "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt",
       "lines": "2788",
       "secondReading": "minor",
@@ -81112,6 +81118,7 @@
      {
       "modern": "is above every name.",
       "printed": "is above every name.",
+      "work": "Gregory of Nyssa, Against Eunomius XII, tr. Moore and Wilson",
       "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt",
       "lines": "8957-8958",
       "secondReading": "same"
@@ -81119,6 +81126,7 @@
      {
       "modern": "of the same rank as the Father and the Son.",
       "printed": "of the same rank as the Father and the Son.",
+      "work": "Gregory of Nyssa, On the Holy Spirit, Against the Followers of Macedonius, tr. Moore and Wilson",
       "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt",
       "lines": "27944",
       "secondReading": "same"
@@ -81336,6 +81344,7 @@
      {
       "modern": "Look, on your behalf I appoint myself to run the shelter.",
       "printed": "See, on your behalf I appoint myself hospitaller.",
+      "work": "Palladius, Lausiac History 40, tr. W. K. Lowther Clarke",
       "file": "cic/texts/palladius_lausiac-history_clarke1918.txt",
       "lines": "471",
       "secondReading": "changes meaning",
@@ -81676,6 +81685,7 @@
      {
       "modern": "Glory to God for all things.",
       "printed": "Glory to God for all things.",
+      "work": "Palladius, Dialogue on the Life of Chrysostom, tr. Moore",
       "file": "cic/texts/palladius_dialogue-life-of-chrysostom_moore1921.txt",
       "lines": "6498-6499",
       "secondReading": "same"
@@ -82504,6 +82514,7 @@
      {
       "modern": "with the same parts, uninjured and immortal, while sin is utterly and entirely destroyed.",
       "printed": "with the same parts, uninjured and immortal, while sin is utterly and entirely destroyed.",
+      "work": "Methodius, On the Resurrection, tr. Clark",
       "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
       "lines": "35400-35402",
       "secondReading": "minor",
@@ -82776,6 +82787,7 @@
      {
       "modern": "Conquer by this,",
       "printed": "Conquer by this,",
+      "work": "Eusebius, Life of Constantine I.28-29, tr. Ernest Cushing Richardson",
       "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
       "lines": "61206",
       "secondReading": "same"
@@ -82783,6 +82795,7 @@
      {
       "modern": "your fellow servant,",
       "printed": "your fellow-servant,",
+      "work": "Eusebius, Life of Constantine III.17, tr. Richardson",
       "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
       "lines": "64594",
       "secondReading": "same"
@@ -82790,6 +82803,7 @@
      {
       "modern": "the first of the emperors who began to be zealous for the Church",
       "printed": "the first of the emperors who began to be zealous for the Church.",
+      "work": "Sozomen, Church History II.34, tr. Chester D. Hartranft",
       "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
       "lines": "30677",
       "secondReading": "same"
@@ -83051,6 +83065,7 @@
      {
       "modern": "Why should I fight over piglets and chickens, and ones that are not my own,",
       "printed": "Why should I fight for sucking pigs and fowls, and those not my own,",
+      "work": "Gregory of Nazianzus, Letters 48-50 to Basil, tr. Browne and Swallow",
       "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
       "lines": "45783-45784",
       "secondReading": "same"
@@ -83058,6 +83073,7 @@
      {
       "modern": "as if I were fighting for souls and church canons?",
       "printed": "as though for souls and canons?",
+      "work": "Gregory of Nazianzus, Letters 48-50 to Basil, tr. Browne and Swallow",
       "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
       "lines": "45784-45785",
       "secondReading": "minor",
@@ -83066,6 +83082,7 @@
      {
       "modern": "equally far from the merging of Sabellius and from the division of Arius,",
       "printed": "equally far from the confusion of Sabellius and from the division of Arius,",
+      "work": "Gregory of Nazianzus, Oration 39.11, tr. Browne and Swallow",
       "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
       "lines": "37407-37408",
       "secondReading": "minor",
@@ -83074,6 +83091,7 @@
      {
       "modern": "my teacher in the Scriptures,",
       "printed": "my instructor in the Scriptures,",
+      "work": "Jerome, Lives of Illustrious Men 117, tr. Ernest Cushing Richardson",
       "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
       "lines": "41568",
       "secondReading": "same"
@@ -99371,10 +99389,9 @@
     },
     "briefReferences": [
      "Dialogues II, prologue, tr. 1608, ed. Edmund G. Gardner: born in the province of Nursia, sent to Rome to study, students falling into loose living; his four disciples as Gregory's sources. Book II is the only early Life of Benedict, and Gregory tells it to show the miracles of a holy man.",
-     "Dialogues II.3: the monks who made him abbot, the poisoned wine and the broken glass; the twelve monasteries.",
+     "Dialogues II.3: the twelve monasteries near Subiaco.",
      "Dialogues II.8: Cassino, the worship of Apollo, the chapel of Martin, the preaching.",
      "Dialogues II.15: Totila, \"Much wickedness do you daily commit\", the king less cruel after.",
-     "Dialogues II.17: the Lombards' sack of Monte Cassino.",
      "Dialogues II.36: the Rule, \"excellent for discretion and also eloquent for the style\".",
      "Dialogues IV.30: Theodoric, king of the Goths in Italy.",
      "Rule, Prologue, tr. Francis Aidan Gasquet: \"a school for the service of God, in which we hope nothing harsh nor burdensome will be ordained\".",
@@ -99389,6 +99406,7 @@
      {
       "modern": "You do many evil things.",
       "printed": "Much wickedness do you daily commit.",
+      "work": "Gregory the Great, Dialogues II.15, tr. 1608, ed. Edmund G. Gardner",
       "file": "cic/texts/gregory-great_dialogues_gardner1911.txt",
       "lines": "4472-4473",
       "secondReading": "same"
@@ -99396,6 +99414,7 @@
      {
       "modern": "a school for the Lord's service, and in setting it up we hope to lay down nothing harsh and nothing heavy.",
       "printed": "a school for the service of God, in which we hope nothing harsh nor burdensome will be ordained.",
+      "work": "Rule, Prologue, tr. Francis Aidan Gasquet",
       "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt",
       "lines": "768-770",
       "secondReading": "minor",
@@ -99404,6 +99423,7 @@
      {
       "modern": "stability, a changed way of life, and obedience,",
       "printed": "stability, amendment of manners and obedience,",
+      "work": "Rule, ch. 58, tr. Gasquet",
       "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt",
       "lines": "3595-3596",
       "secondReading": "minor",
@@ -99412,6 +99432,7 @@
      {
       "modern": "that the strong have something to long for and the weak do not run away.",
       "printed": "that the strong may have their scope and the weak be not scared.",
+      "work": "Rule, ch. 64, tr. Gasquet",
       "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt",
       "lines": "3960-3961",
       "secondReading": "minor",
@@ -99420,6 +99441,7 @@
      {
       "modern": "outstanding for its sound judgment and clear in its language,",
       "printed": "excellent for discretion and also eloquent for the style,",
+      "work": "Gregory the Great, Dialogues II.36, tr. 1608, ed. Gardner",
       "file": "cic/texts/gregory-great_dialogues_gardner1911.txt",
       "lines": "5567-5568",
       "secondReading": "minor",
@@ -103540,7 +103562,7 @@
      "History of the Franks V, preface, tr. Brehaut: the civil wars among the Frankish kings.",
      "History of the Franks V.31 (43), tr. Dalton: Agilan, envoy of King Leuvigild; the argument at Tours; his oath; his conversion in Spain under sickness.",
      "History of the Franks V.32 (44), tr. Dalton: Chilperic's decree, Gregory's answer, Salvius of Albi, \"So the king desisted from his purpose\".",
-     "History of the Franks X.31, tr. Dalton: Gregory the nineteenth bishop; the cathedral burned and rebuilt; Martin consecrated in it; his ten books.",
+     "History of the Franks X.31, tr. Dalton: his ten books.",
      "Miracles of Martin II.1, Latin, ed. Arndt and Krusch: his consecration in Sigibert's twelfth year (573).",
      "Paul the Deacon, History of the Langobards III.1, tr. W. D. Foulke: \"the books of the reverend man Gregory, bishop of Tours\".",
      "World census, Merovingian Gallic Christianity: his tradition."
@@ -103549,6 +103571,7 @@
      {
       "modern": "Alas for our times, because the study of literature has died out among us,",
       "printed": "Woe to our day, since the pursuit of letters has perished from among us,",
+      "work": "History of the Franks, first preface, tr. Ernest Brehaut",
       "file": "cic/texts/gregory-tours_history-of-the-franks-selections_brehaut1916.txt",
       "lines": "850-851",
       "secondReading": "minor",
@@ -103557,6 +103580,7 @@
      {
       "modern": "so that anyone who reads may have no doubt that I hold the catholic faith,",
       "printed": "that whoso reads may doubt not that I hold the catholic faith,",
+      "work": "History of the Franks I, preface, tr. O. M. Dalton",
       "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
       "lines": "339-340",
       "secondReading": "same"
@@ -103564,6 +103588,7 @@
      {
       "modern": "I want you and the other teachers of the churches to believe this.",
       "printed": "This is my will, that such be thy faith, and that of the other doctors of the Church.",
+      "work": "History of the Franks V.32 (44), tr. Dalton",
       "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
       "lines": "10370-10371",
       "secondReading": "same"
@@ -103571,6 +103596,7 @@
      {
       "modern": "what Hilary and Eusebius taught.",
       "printed": "that which Hilary and Eusebius taught.",
+      "work": "History of the Franks V.32 (44), tr. Dalton",
       "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
       "lines": "10374-10375",
       "secondReading": "same"
@@ -103578,6 +103604,7 @@
      {
       "modern": "So the king gave up this plan,",
       "printed": "So the king desisted from his purpose,",
+      "work": "History of the Franks V.32 (44), tr. Dalton",
       "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
       "lines": "10404-10405",
       "secondReading": "same"
@@ -103585,6 +103612,7 @@
      {
       "modern": "the books of that revered man Gregory, bishop of Tours.",
       "printed": "the books of the reverend man Gregory, bishop of Tours.",
+      "work": "Paul the Deacon, History of the Langobards III.1, tr. W. D. Foulke",
       "file": "cic/texts/paul-the-deacon_history-of-the-langobards_foulke1907.txt",
       "lines": "5074-5075",
       "secondReading": "same"

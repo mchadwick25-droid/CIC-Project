@@ -467,12 +467,9 @@ function personCardHtml(movement) {
 function quotesHtml(card) {
   const qo = card.quotationOriginals || [], refs = card.briefReferences || [];
   if (!qo.length && !refs.length) return '';
-  const works = [...((card.sources && card.sources.ownWords) || []), ...((card.sources && card.sources.about) || [])];
-  const workOf = f => { const w = works.find(x => x.file === f); return w ? w.title : f.replace(/^cic\/texts\//, ''); };
-  const where = l => { const [a, b = a] = String(l).split('-'); return a === b ? `line ${a}` : `lines ${a}–${b}`; };
   let html = qo.length ? '<p class="quotes-note">Quotations are given in our modern English. The printed wording of each is below.</p>' : '';
   html += '<details class="quotes-panel"><summary>Quotations and references</summary>';
-  if (qo.length) html += `<p class="source-group">Quotations</p><ul class="sources-list">${qo.map(e => `<li><span class="source-type">In our modern English</span><br>\u201c${escapeHtml(e.modern)}\u201d<br><span class="source-type">As printed</span><br>\u201c${escapeHtml(e.printed)}\u201d<br><span class="source-note">${escapeHtml(workOf(e.file))}, ${where(e.lines)}</span>${e.uncertain ? `<br><span class="source-note">${escapeHtml(e.uncertain)}</span>` : ''}</li>`).join('')}</ul>`;
+  if (qo.length) html += `<p class="source-group">Quotations</p><ul class="sources-list">${qo.map(e => `<li><span class="source-type">In our modern English</span><br>\u201c${escapeHtml(e.modern)}\u201d<br><span class="source-type">As printed</span><br>\u201c${escapeHtml(e.printed)}\u201d<br><span class="source-note">${escapeHtml(e.work)}</span>${e.uncertain ? `<br><span class="source-note">${escapeHtml(e.uncertain)}</span>` : ''}</li>`).join('')}</ul>`;
   if (refs.length) html += `<p class="source-group">References</p><ul class="sources-list">${refs.map(r => `<li>${escapeHtml(r)}</li>`).join('')}</ul>`;
   return html + '</details>';
 }
