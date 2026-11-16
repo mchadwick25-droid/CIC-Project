@@ -303,6 +303,66 @@
     "claim": "Tradition placing: the census lists Gregory of Tours under Merovingian Gallic Christianity",
     "witness": "cic-website/data/world-census.json, movements, 'Merovingian Gallic Christianity'",
     "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'The nineteenth bishop was myself, Gregory, the unworthy'; the cathedral 'in which the blessed Martin and the other bishops of the Lord were consecrated' was 'all ruined and destroyed by the fire'; 'I rebuilt it greater in size'",
+    "witness": "Gregory, History X.31, tr. Dalton (gregory-tours_history-of-the-franks-v2_dalton1927 l.22656-22661)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "First preface: 'liberal culture on the wane'; 'kings were growing more cruel'; 'Woe to our day, since the pursuit of letters has perished from among us'; 'although my speech is rude'",
+    "witness": "Gregory, History, first preface, tr. Brehaut (gregory-tours_history-of-the-franks-selections_brehaut1916 l.841-856)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'I am weary of relating the details of the civil wars that mightily plague the nation and kingdom of the Franks'",
+    "witness": "Gregory, History V, preface, tr. Brehaut (gregory-tours_history-of-the-franks-selections_brehaut1916 l.5139-5141)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Opens the History with his creed, 'that whoso reads may doubt not that I hold the catholic faith'",
+    "witness": "Gregory, History I, preface, tr. Dalton (gregory-tours_history-of-the-franks-v2_dalton1927 l.330-351)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Chilperic's ordinance: no distinction of Persons, call it only God; 'This is my will, that such be thy faith, and that of the other doctors of the Church'; Gregory: follow what the apostles and Fathers handed down, 'that which Hilary and Eusebius taught'; only the Son was made man and suffered, 'that He who was incarnate in the world might Himself be offered for the world'; the king: 'I will set forth these things to others wiser than thou'; Salvius of Albi would have torn the paper; 'So the king desisted from his purpose'",
+    "witness": "Gregory, History V.32 (44), tr. Dalton (gregory-tours_history-of-the-franks-v2_dalton1927 l.10361-10405)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Hilary, bishop of Poitiers, 'sent into banishment at the persuasion of the heretics'",
+    "witness": "Gregory, History I.38, tr. Dalton (gregory-tours_history-of-the-franks-v2_dalton1927 l.1286-1288)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Eusebius vero Vercellensis episcopus magnum huic Helario adiutorium contra hereses fuit'",
+    "witness": "Gregory, Glory of the Confessors 3, Latin (gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885 l.56917); Dalton's note identifies V.44's Hilary and Eusebius as Hilary of Poitiers and Eusebius of Vercelli (gregory-tours_history-of-the-franks-v2_dalton1927 l.26986-26990)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Agilan, envoy of Leuvigild, argues at Tours that the Son is lesser than the Father; Gregory: the Father was never without wisdom, light, life, truth or justice, so never without the Son; Agilan: 'The soul shall leave the bonds of this body, or ever I receive the benediction from a priest of thy religion'; later, in Spain, 'when he was made weak by sickness, necessity constrained him, and he was converted to our faith'",
+    "witness": "Gregory, History V.31 (43), tr. Dalton (gregory-tours_history-of-the-franks-v2_dalton1927 l.10198-10360)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Paul the Deacon refers readers to 'the books of the reverend man Gregory, bishop of Tours'",
+    "witness": "Paul the Deacon, History of the Langobards III.1, tr. Foulke (paul-the-deacon_history-of-the-langobards_foulke1907 l.5072-5075)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The History is 'often the sole authority' for the events it relates; 'we must allow largely for error and prejudice in his statements of fact'",
+    "witness": "Brehaut's introduction (gregory-tours_history-of-the-franks-selections_brehaut1916 l.64-73); a modern judgment, on the card only",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Fortunatus's poem 'Ad Chilpericum regem quando synodus Brinnaco habita est' survives; Dalton: it praises Fredegund and says nothing of the affair",
+    "witness": "Venantius Fortunatus (venantius-fortunatus_opera-mgh-aa-4-lat_leo-krusch1881 l.17820); Dalton's note (gregory-tours_history-of-the-franks-v2_dalton1927 l.27121-27123)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Tradition on the tree: Merovingian Gallic Christianity",
+    "witness": "cic-website/data/world-census.json, tradition merovingian-gallic-christianity, which lists gregory-of-tours",
+    "formation_confidence": "Documented"
    }
   ],
   "contested_claims": [
@@ -347,6 +407,10 @@
    {
     "detail": "The year of the healing at Martin's tomb in Brehaut",
     "note": "Brehaut's English 'hundred and sixtieth year' (gregory-tours_history-of-the-franks-selections_brehaut1916 l.11571) stands against the Latin 'centesimo sexagesimo tertio' (gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885 l.46262); the brief gives no year for the scene."
+   },
+   {
+    "detail": "What his stand against Chilperic cost him",
+    "note": "Gregory does not say. His trial at Berny came from Leudast, a count of Tours removed from office, on charges of treason and slandering the queen (History V.47-49), and he does not link it to the Trinity quarrel."
    }
   ]
  },
