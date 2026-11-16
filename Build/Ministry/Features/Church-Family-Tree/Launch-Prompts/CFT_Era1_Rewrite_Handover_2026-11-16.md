@@ -78,8 +78,10 @@ There is no separate source check (Mark, 2026-11-16: "Drop it, fold the test int
 ## Length
 
 Mark's words are "target under 2 minutes, can streatch to 2:30 if needed, no hard cap" and "we are ok to go long if the content demands it". Councils: "target 2:00 but can streatch to 3".
-- The ten in the bar all run at or past 2:30, and Mark has said briefs were "consistantly pushing 2:30". Aim under 2:00 in this pass.
-- Write tighter rather than dropping a stance. Give one line for any brief past 2:30.
+- He meant the aim, not the stretch. When all ten bar briefs came in past 2:30, he asked "why are they all over 2:30" and chose "Tighten all ten (Recommended)".
+- Aim under 2:00, about 300 words. The stretch is for a brief that truly needs it, never the norm, and that brief gets one line saying why.
+- Make room for the impact half by cutting the personal half, scene detail and connective padding. Never cut a stance or its consequence.
+- **If more than about a third of the era's briefs pass 2:00, stop and report to the coordinator before going on.**
 
 ## Release and recording
 

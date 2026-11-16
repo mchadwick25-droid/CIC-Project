@@ -3981,3 +3981,12 @@ Also in this change:
 
 **Widened (Mark, 2026-11-16: "use fable for all larger projects until we use the free one up", relayed by the coordinator).** Once the ten are done, every larger job of Thread C's runs as a Fable session: the eras 1 to 7 source and significance check, each era's rewrite pass, and the new era 5 to 7 profiles. In those sessions, drafting, first renderings and the source-check reading are done on Fable. Reviewers, second-reading renderers and comparers stay on Opus, as in the exception above.
 
+## 2026-11-16 — The ten tightened: under 2:00 is the aim and the stretch is not the norm (Mark, 2026-11-16)
+
+**Decided (Mark, 2026-11-16, relayed by the coordinator).** Seeing all ten bar briefs at or past 2:30, Mark asked "why are they all over 2:30", then chose "Tighten all ten (Recommended)".
+- The ten are rewritten to aim under 2:00, about 300 words. For these ten, 2:30, about 360 words, is a firm ceiling.
+- Room for the impact half is made by cutting the personal half, scene detail and connective padding. No stance, consequence or sourced link is dropped. Craft, rigor and access are kept whole, and readability must still pass.
+- The quotations keep their checked renderings, so no new second readings are needed unless a quotation's wording changes.
+- One targeted Opus recheck of the changes, ordered by Mark, outside the cap. Athanasius is recorded again as the sample, with the same settings and balance check.
+- For the era passes, the length rule is read as Mark meant it: aim under 2:00, and the stretch is for a brief that truly needs it, not the norm. If more than about a third of an era's briefs pass 2:00, the writer stops and reports before going on.
+
