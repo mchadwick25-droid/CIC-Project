@@ -191,7 +191,39 @@ function shelfAuthor(movementId, rowId) {
   return shelfCache.get(movementId).get(rowId);
 }
 // A person card: one-line summary, role, up to three key works, legacy, open questions and the sources behind it.
-const CARD_KEYS = ["otherNames", "label", "knownFor", "datesNote", "placeNote", "role", "keyWorks", "legacy", "uncertain", "sources"];
+const CARD_KEYS = ["otherNames", "label", "knownFor", "datesNote", "placeNote", "role", "keyWorks", "legacy", "uncertain", "sources", "briefReferences", "quotationOriginals"];
+// The printed wording behind each quotation the brief gives in our modern English: the modern words as the brief
+// quotes them, the printed words, the file the card cites and the lines that hold them, and the verdict of the second
+// reading, with a note where the two readings differ. Every quotation in the brief has one, and each printed wording
+// stands in its lines.
+const QUOTATION_ORIGINAL_KEYS = ["modern", "printed", "file", "lines", "secondReading", "uncertain"];
+function checkQuotationOriginals(m, at) {
+  const list = m.card.quotationOriginals;
+  if (!Array.isArray(list) || !list.length) { errs.push(`${at("quotationOriginals")} must be a non-empty list`); return; }
+  const cited = Object.values(isObj(m.card.sources) ? m.card.sources : {}).flat().map(s => s?.file).filter(Boolean);
+  const quoted = [...String(m.longDescription ?? "").matchAll(/"([^"]+)"/g)].map(q => fold(q[1]));
+  list.forEach((e, i) => {
+    const p = `quotationOriginals[${i}]`;
+    if (!isObj(e)) { errs.push(`${at(p)} must be an object`); return; }
+    Object.keys(e).filter(k => !QUOTATION_ORIGINAL_KEYS.includes(k)).forEach(k => errs.push(`${at(`${p}.${k}`)} is not allowed (allowed: ${QUOTATION_ORIGINAL_KEYS.join(", ")})`));
+    ["modern", "printed", "file", "lines"].forEach(k => { if (!plain(e[k])) errs.push(`${at(`${p}.${k}`)} must be a non-empty string`); });
+    if (e.uncertain !== undefined && !plain(e.uncertain)) errs.push(`${at(`${p}.uncertain`)} must be a non-empty string`);
+    if (!SECOND_READING_VERDICTS.has(e.secondReading)) errs.push(`${at(`${p}.secondReading`)} must be "same", "minor" or "changes meaning"`);
+    if (plain(e.modern) && !quoted.includes(fold(e.modern))) errs.push(`${at(`${p}.modern`)} "${e.modern.slice(0, 40)}" is not a quotation in the brief`);
+    if (!plain(e.file)) return;
+    if (!(e.file.startsWith("cic/texts/") && existsSync(e.file))) { errs.push(`${at(`${p}.file`)} ${e.file} must be an existing file under cic/texts/`); return; }
+    if (!cited.includes(e.file)) errs.push(`${at(`${p}.file`)} ${e.file} is not among the files the card cites`);
+    const r = /^(\d+)(?:-(\d+))?$/.exec(String(e.lines ?? ""));
+    const first = r ? Number(r[1]) : 0, last = r ? Number(r[2] ?? r[1]) : 0;
+    if (!r || first < 1 || last < first || last > lineCount(e.file)) { errs.push(`${at(`${p}.lines`)} ${e.lines} must be a line or range inside ${e.file}`); return; }
+    if (!plain(e.printed)) return;
+    const seg = readFileSync(e.file, "utf8").split("\n").slice(first - 1, last).join("\n");
+    const held = [seg.replace(/<[^>]+>/g, " "), seg.replace(/<[^>]+>/g, ""), seg.replace(/<note[\s\S]*?<\/note>/g, " ").replace(/<[^>]+>/g, " "), seg.replace(/-[ \t]*\r?\n\s*/g, "")].map(fold);
+    if (!held.some(h => h.includes(fold(e.printed)))) errs.push(`${at(`${p}.printed`)} "${e.printed.slice(0, 40)}" does not stand in ${e.file} lines ${e.lines}`);
+  });
+  for (const q of String(m.longDescription ?? "").matchAll(/"([^"]+)"/g))
+    if (!list.some(e => plain(e?.modern) && fold(e.modern) === fold(q[1]))) errs.push(`${m.id}: the brief's quotation "${q[1].slice(0, 40)}" has no entry in card.quotationOriginals`);
+}
 const CARD_LABELS = new Set(["Outside witness"]);
 const plain = x => typeof x === "string" && x.trim() !== "";
 const isObj = x => x !== null && typeof x === "object" && !Array.isArray(x);
@@ -232,6 +264,8 @@ function checkCard(m) {
     }
   }
   if (card.uncertain !== undefined) strings(card.uncertain, "uncertain");
+  if (card.briefReferences !== undefined) strings(card.briefReferences, "briefReferences");
+  if (card.quotationOriginals !== undefined) checkQuotationOriginals(m, at);
   if (card.sources !== undefined) {
     if (!isObj(card.sources)) { errs.push(`${at("sources")} must be an object with ownWords and about`); return; }
     only(card.sources, ["ownWords", "about"], "sources");
@@ -316,7 +350,7 @@ const fold = s => s.normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLowerCas
 function proseOf(x, out = []) {
   if (typeof x === "string") out.push(x);
   else if (Array.isArray(x)) x.forEach(y => proseOf(y, out));
-  else if (isObj(x)) Object.entries(x).forEach(([k, v]) => { if (k !== "sources" && k !== "file") proseOf(v, out); });
+  else if (isObj(x)) Object.entries(x).forEach(([k, v]) => { if (k !== "sources" && k !== "file" && k !== "quotationOriginals") proseOf(v, out); });
   return out;
 }
 // A rendering is the narrator's English of a non-English original, marked "in modern words" in the prose. Its words
