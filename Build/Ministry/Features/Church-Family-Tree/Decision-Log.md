@@ -3897,5 +3897,15 @@ All files are in `Build/Ministry/Operations/Audits/2026-11-15_story-relations-cl
 
 **Still open.** Quotation marks on our own English renderings, and how reviews are run. Both are marked open in the patterns, and the current text stands.
 
+**Drift guards (Mark, 2026-11-16: "All six (Recommended)").** Mark chose all six guards from the coordinator's page "Keeping Standard v1":
+1. A CI check fails a pull request that changes the pattern files or the bar folder unless the same pull request adds a Decision-Log entry quoting Mark's words for that change. Thread A builds it.
+2. Every writer's and reviewer's instructions include the standard and three bar briefs (Gregory of Tours, Benedict of Nursia and one of the eight). Every review names the bar brief it compared against. Nothing is compared against a previous batch.
+3. Before an era's batch goes live, Mark hears one brief picked at random from it, beside a bar brief. His yes is the release.
+4. Every five batches, a fresh reviewer scores new and bar briefs mixed without labels. If the new ones score lower, writing stops.
+5. Readability numbers are a floor and a ceiling only. Craft is judged by reading.
+6. One coordinator at a time. A ruling is recorded only with Mark's quoted words, and anything passed on second-hand is marked as a remark.
+
+Guards 3 to 6 are in `Who_Profile_Pattern.md`, "Drift guards". Guard 2 is in `Worker_Brief_Template.md`.
+
 **Record.** `Build/Ministry/Operations/Audits/2026-11-15_standard-v1-test/`: the reviews, the two paid recording runs (2,245 and 2,275 credits, both reconciled against the balance) and the approved audio.
 

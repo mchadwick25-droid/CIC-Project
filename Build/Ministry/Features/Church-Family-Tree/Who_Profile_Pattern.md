@@ -172,12 +172,21 @@ Run against any profile, story or listed line. Each item is pass or fail.
 
 ## How a batch is reviewed and released
 
-Open question (2026-11-16): how reviews are run is not yet settled under Standard v1; the process below stands until Mark rules.
+Open question (2026-11-16): how reviews are run is not yet fully settled under Standard v1. The drift guards below are ruled; the rest of this section stands until Mark rules.
 
 Mark, 2026-11-15 ("Yes", to all three parts of the review process: the quoted evidence in checklist item 10, and the two below).
 
 - **The blind pairing.** In every review round, the batch's reviewer also gets at least one unlabeled pair: a brief from the batch and a passage of similar kind from one of the eight. The reviewer says which is stronger and why before learning which is which. The result goes in the review file. If the reviewer cannot tell them apart, or prefers the new brief without a concrete reason, that is a finding, raised to the coordinator.
-- **Mark's sample read.** Before a batch goes onto the live tree, Mark reads one or two of its briefs, picked by the coordinator: one at the batch's median and one the signals flag. His word decides. A batch may merge into `Build/Ministry/` before his read. It does not go live until he has read its sample, and the release brief says so.
+- **Mark's sample read.** Before a batch goes onto the live tree, Mark reads one or two of its briefs, picked by the coordinator: one at the batch's median and one the signals flag. His word decides. A batch may merge into `Build/Ministry/` before his read. It does not go live until he has read its sample, and the release brief says so. Drift guard 3, below, adds his listen to this read.
+
+### Drift guards (Mark, 2026-11-16: "All six (Recommended)")
+
+Six guards keep Standard v1 from drifting. They are recorded in `Decision-Log.md`, "Standard v1 approved to proceed" (2026-11-16). Guard 1, a CI check on changes to the pattern files and the bar folder, is built separately. Guard 2 is in `Worker_Brief_Template.md`. The other four are these.
+
+- **Guard 3: a listen before each release.** Before an era's batch goes live, Mark hears one brief picked at random from it, beside a bar brief. His yes is the release.
+- **Guard 4: a blind check every five batches.** A fresh reviewer scores a mix of new briefs and bar briefs, without being told which is which. If the new ones score lower, writing stops until the cause is known.
+- **Guard 5: numbers as a guard, not the goal.** The readability check stays as a floor and a ceiling only (grade 8 to 10, reading ease 60 or more, "The readability method" below), and length is reported. Craft is judged by reading, never by numbers alone.
+- **Guard 6: rulings only in Mark's words.** One coordinator works at a time. A ruling is recorded only with Mark's quoted words. Anything passed on second-hand is marked as a remark. Every brief and handover links the rulings record.
 
 ## The readability method
 
