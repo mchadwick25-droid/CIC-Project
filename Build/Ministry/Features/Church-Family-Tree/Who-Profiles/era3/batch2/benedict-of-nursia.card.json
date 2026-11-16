@@ -97,5 +97,42 @@
     "MGH Capitularia I, no. 11 (Estinnes): the abbots and monks receive the Rule \"ad restaurandam normam regularis vitae\".",
     "MGH Capitularia I, the Aachen synod of 802, from the annals of Lorsch: the Rule read, and the monasteries put right by it.",
     "World census, Early Benedictine / Italian Monasticism: his tradition on the tree."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "You do many evil things.",
+      "printed": "Much wickedness do you daily commit.",
+      "file": "cic/texts/gregory-great_dialogues_gardner1911.txt",
+      "lines": "4472-4473",
+      "secondReading": "same"
+    },
+    {
+      "modern": "a school for the Lord's service, and in setting it up we hope to lay down nothing harsh and nothing heavy.",
+      "printed": "a school for the service of God, in which we hope nothing harsh nor burdensome will be ordained.",
+      "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt",
+      "lines": "768-770",
+      "secondReading": "minor"
+    },
+    {
+      "modern": "stability, a changed way of life, and obedience,",
+      "printed": "stability, amendment of manners and obedience,",
+      "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt",
+      "lines": "3595-3596",
+      "secondReading": "minor"
+    },
+    {
+      "modern": "that the strong have something to long for and the weak do not run away.",
+      "printed": "that the strong may have their scope and the weak be not scared.",
+      "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt",
+      "lines": "3960-3961",
+      "secondReading": "minor"
+    },
+    {
+      "modern": "outstanding for its sound judgment and clear in its language,",
+      "printed": "excellent for discretion and also eloquent for the style,",
+      "file": "cic/texts/gregory-great_dialogues_gardner1911.txt",
+      "lines": "5567-5568",
+      "secondReading": "minor"
+    }
   ]
 }

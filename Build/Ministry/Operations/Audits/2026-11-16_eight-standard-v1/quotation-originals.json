@@ -1,0 +1,158 @@
+{
+ "athanasius-of-alexandria": [
+  {
+   "modern": "begotten, not made.",
+   "printed": "begotten not made.",
+   "file": "cic/texts/cyril-alexandria_three-epistles-grc-eng_pusey1872.txt",
+   "lines": "4574",
+   "secondReading": "same"
+  },
+  {
+   "modern": "He became human so that we might be made God.",
+   "printed": "He was made man that we might be made God.",
+   "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+   "lines": "18743-18744",
+   "secondReading": "minor"
+  },
+  {
+   "modern": "our blessed Father Athanasius, praised by all.",
+   "printed": "our blessed and all-celebrated Father Athanasius.",
+   "file": "cic/texts/cyril-alexandria_three-epistles-grc-eng_pusey1872.txt",
+   "lines": "5393-5394",
+   "secondReading": "minor"
+  }
+ ],
+ "constantine-the-great": [
+  {
+   "modern": "Conquer by this,",
+   "printed": "Conquer by this,",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "61206",
+   "secondReading": "same"
+  },
+  {
+   "modern": "your fellow servant,",
+   "printed": "your fellow-servant,",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "63903-63904",
+   "secondReading": "same"
+  },
+  {
+   "modern": "the first of the emperors who began to be zealous for the Church (unchanged; the sentence continues in the source)",
+   "printed": "the first of the emperors who began to be zealous for the Church.",
+   "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": "30677",
+   "secondReading": "same"
+  }
+ ],
+ "ephrem-the-syrian": [
+  {
+   "modern": "Look, on your behalf I appoint myself to run the shelter.",
+   "printed": "See, on your behalf I appoint myself hospitaller.",
+   "file": "cic/texts/palladius_lausiac-history_clarke1918.txt",
+   "lines": "471",
+   "secondReading": "changes meaning"
+  },
+  {
+   "modern": "It tainted my pure ears.",
+   "printed": "It tainted my pure ears.",
+   "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+   "lines": "11202",
+   "secondReading": "same"
+  }
+ ],
+ "gregory-of-nazianzus": [
+  {
+   "modern": "We seemed to have one soul living in two bodies.",
+   "printed": "We seemed to have one soul, inhabiting two bodies.",
+   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+   "lines": "41521-41522",
+   "secondReading": "same"
+  },
+  {
+   "modern": "Why should I fight over piglets and chickens, and ones that are not my own,",
+   "printed": "Why should I fight for sucking pigs and fowls, and those not my own,",
+   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+   "lines": "45783-45784",
+   "secondReading": "same"
+  },
+  {
+   "modern": "as if I were fighting for souls and church canons?",
+   "printed": "as though for souls and canons?",
+   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+   "lines": "45784-45785",
+   "secondReading": "minor"
+  },
+  {
+   "modern": "equally far from the merging of Sabellius and from the division of Arius,",
+   "printed": "equally far from the confusion of Sabellius and from the division of Arius,",
+   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+   "lines": "37407-37408",
+   "secondReading": "minor"
+  },
+  {
+   "modern": "my teacher in the Scriptures,",
+   "printed": "my instructor in the Scriptures,",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "41568",
+   "secondReading": "same"
+  }
+ ],
+ "gregory-of-nyssa": [
+  {
+   "modern": "inherited the controversy with Eunomius.",
+   "printed": "received the legacy of Eunomius' controversy.",
+   "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt",
+   "lines": "2788",
+   "secondReading": "minor"
+  },
+  {
+   "modern": "is above every name.",
+   "printed": "is above every name.",
+   "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt",
+   "lines": "8957-8958",
+   "secondReading": "same"
+  },
+  {
+   "modern": "of the same rank as the Father and the Son.",
+   "printed": "of the same rank as the Father and the Son.",
+   "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt",
+   "lines": "27944",
+   "secondReading": "same"
+  }
+ ],
+ "john-chrysostom": [
+  {
+   "modern": "Glory to God for all things. (unchanged; repoint the citation to lines 1610-1611)",
+   "printed": "Glory to God for all things.",
+   "file": "cic/texts/palladius_dialogue-life-of-chrysostom_moore1921.txt",
+   "lines": "6498-6499",
+   "secondReading": "same"
+  }
+ ],
+ "methodius-of-olympus": [
+  {
+   "modern": "with the same parts, uninjured and immortal, while sin is utterly and entirely destroyed.",
+   "printed": "with the same parts, uninjured and immortal, while sin is utterly and entirely destroyed.",
+   "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "lines": "35400-35402",
+   "secondReading": "minor"
+  }
+ ],
+ "origen": [
+  {
+   "modern": "Be careful not to change your mind because of us.",
+   "printed": "Take heed not to change your mind on our account.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "32562",
+   "secondReading": "same"
+  },
+  {
+   "modern": "the hardworking Origen",
+   "printed": "the labour-loving Origen",
+   "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+   "lines": "28650-28650",
+   "secondReading": "same"
+  }
+ ]
+}

@@ -3767,3 +3767,6 @@ it, never by deleting it.
       - Faustus of Riez's audio script drops "then" (Latin "ergo").
       - Constantius of Lyon's drops "And yet" ("Et tamen").
       - Babai the Great's adds "and", which the French does not have.
+    - At release of the eight, which waits for Mark's sample read and the paid recording: put each brief's quotation originals from `Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/quotation-originals.json` on its census card, and list its renderings in `tools/quote_renderings.json` with their `second_reading`. The same goes for Gregory of Tours and Benedict at the era 3 release, from their cards' `quotationOriginals`.
+    - For the eight's cards at release: Ephrem's "Look, on your behalf I appoint myself to run the shelter" carries the comparison's note, because the two renderings read "on your behalf" differently (as his agent, or for their sake). The final keeps the printed "on your behalf", which allows both. Constantine's "of the same essence" is the translator's gloss on homoousios, so the brief now tells it without quotation marks.
+
