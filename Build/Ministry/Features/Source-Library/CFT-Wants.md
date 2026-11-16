@@ -1627,7 +1627,7 @@ on its masthead, cover or title leaf. Rows in the tables above are not rewritten
 | The Christian East, vol. XI, no. 4 | not taken, held for Mark: it prints "Winter, 1930-31" and cites a letter of March 1931 | | | | |
 | The International Review of Missions, 1914-1920 | filled: seven volumes | `international-review-of-missions_v3_1914.txt` to `_v9_1920.txt` | 1,757,789 | eng | the-student-volunteer-movement-and-edinburgh-191, tradition; rows for the survey's note on Garrick Braid (1917), Willis on the Uganda church (1918), the Mar Thoma statement and the China plan of union (1920) |
 | The International Review of Missions, 1921, 1924-1927, 1929, 1930 | filled: seven volumes. With the three held, every volume from 1914 to 1930 is held | `international-review-of-missions_v10_1921.txt`, `_v13_1924.txt` to `_v16_1927.txt`, `_v18_1929.txt`, `_v19_1930.txt` | 1,806,387 | eng | the-ecumenical-movement-and-the-wcc, tradition; rows for the National Christian Council of China (1924), Speer on Montevideo (1925), Loram on the separatist churches (1926), Kriele on Nias (1927), Braga, the Bishop of Dornakal and Kozaki (1929) |
-| Proceedings of the Church Missionary Society, 1910-1921 | not taken, held for Mark: the microfilm they were scanned from carries "© MM 1967, reproduction of this film prohibited" | twelve items located, `per_proceedings-church-missionary-soc-for-africa-a_<year>` | | | |
+| Proceedings of the Church Missionary Society, 1910-1921 | not taken, and ruled out by Mark on 2026-11-16: the microfilm they were scanned from carries "© MM 1967, reproduction of this film prohibited" | twelve items located, `per_proceedings-church-missionary-soc-for-africa-a_<year>` | | | |
 
 ## Later — queued
 

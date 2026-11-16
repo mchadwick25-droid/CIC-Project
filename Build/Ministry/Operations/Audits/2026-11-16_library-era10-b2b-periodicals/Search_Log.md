@@ -3,9 +3,8 @@
 The record for the first part of the follow-on to era 10 batch 2
 (`../2026-11-15_library-era10-b2/Handover.md`, "The follow-on (batch 2b): what to take"): the three periodicals.
 Forty-five files were vendored (4,325,430 words): 31 numbers of The Christian East (761,254 words) and 14
-volumes of The International Review of Missions (3,564,176 words). Thirteen listed items were not taken and are
-held for Mark: the twelve volumes of the Proceedings of the Church Missionary Society, and one number of The
-Christian East. The files and their shelves are in `Build/Ministry/Features/Source-Library/CFT-Wants.md` ("Era
+volumes of The International Review of Missions (3,564,176 words). Thirteen listed items were not taken: the twelve volumes of the Proceedings of the Church Missionary Society,
+which Mark has ruled out, and one number of The Christian East, which is past the line. The files and their shelves are in `Build/Ministry/Features/Source-Library/CFT-Wants.md` ("Era
 10, batch 2b, the periodicals"). The books of the follow-on are a batch of their own. No quote, story or
 lexicon entry was rendered.
 
@@ -43,7 +42,7 @@ a license. Nothing was taken under the rule for American books of 1931-1963.
 
 Calls made here, which the coordinator or Mark may overrule:
 
-1. **The Proceedings of the Church Missionary Society, 1910-1921: not taken, held for Mark.** The twelve
+1. **The Proceedings of the Church Missionary Society, 1910-1921: not taken; Mark has since ruled them out.** The twelve
    volumes are archive.org's scans of one microfilm (its source reels IA40329919-25 to -30). The item for 1912
    opens with the film's own target leaf, read on the page image (leaf n0): "FILM NO 96566 / PROCEEDINGS OF THE
    CHURCH MISSIONARY SOCIETY FOR AFRICA & THE EAST / 1801-1920 / © MM 1967 / REPRODUCTION OF THIS FILM
@@ -52,7 +51,11 @@ Calls made here, which the coordinator or Mark may overrule:
    film maker's copyright line and a prohibition on the scan is not a basis the rights rule or rulings R1 to R12
    list, and era 8 left out a scan for a weaker line ("Reproductions may not be made without permission"). The
    question for Mark: does a microfilm publisher's notice of 1967 on the film bar the text of a print of 1930 or
-   earlier taken from it? The same question governs the volumes of 1906-1909 and those before 1906.
+   earlier taken from it? The same question governs the volumes of 1906-1909 and those before 1906. His answer,
+   as the coordinator passed it on the same day: "Yes, keep them held (Recommended)". A microfilm maker's notice
+   on a scan blocks taking it; another scan of the same print with no notice may be taken. A search for one
+   found none: archive.org has only Google scans of volumes of 1819 to 1834 and one of 1855-56; HathiTrust's
+   catalog search refused the request (HTTP 403) and the Google Books search refused it for quota (HTTP 429).
 2. **The Christian East, vol. XI, no. 4: not taken, held for Mark.** Its cover and its masthead both print
    "Winter, 1930-31" (page images, leaves n0 and n2). A footnote at host line 1544 speaks of a letter "dated
    March 11th, 1931", and one at 1816 cites a book of "Faith Press, 1931". So the number was printed in 1931 and

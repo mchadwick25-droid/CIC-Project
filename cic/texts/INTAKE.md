@@ -81,6 +81,17 @@ verified-not-asserted case this whole registry rests on.
   into every quote that draws on it.
 - The date is the imprint on the title page, not the host's record, and the
   line moves each January.
+- An institution's report (an annual statement, a proceedings) counts by a
+  date printed in its own text, where that date is read on the page image.
+  The header's Rights line says where the date stands.
+- A scan that carries a microfilm maker's notice against reproduction is not
+  taken, whatever the date of the print. Another scan of the same print with
+  no such notice may be.
+- A host's own additions (page-foot stamps, watermark text, host banners) may
+  be removed at intake; nothing of the printed work is. The header's
+  Provenance note gives the exact text removed, the number of lines, the host
+  URL and the original byte count, so the original can be fetched again and
+  checked against the file.
 - 1931–1963 US publications whose copyright was not renewed → free, for any
   such book. The renewal search (Stanford Copyright Renewal Database / NYPL
   `cce-renewals`, or the catalogue transcriptions) is run, never guessed, and

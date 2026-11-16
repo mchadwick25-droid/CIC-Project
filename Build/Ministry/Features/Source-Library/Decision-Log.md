@@ -1014,7 +1014,8 @@ No rendering.
 - **A scan of a microfilm that carries the film maker's copyright line and a prohibition is not taken.** The
   Proceedings of the Church Missionary Society for 1910-1921 were scanned from a film whose target leaf reads
   "© MM 1967 / Reproduction of this film prohibited". The prints are dated 1910 to 1921, but such a notice on
-  the scan is not a basis the rights rule or R1 to R12 list. The twelve volumes are held for Mark.
+  the scan is not a basis the rights rule or R1 to R12 list. The twelve volumes were held, and Mark then ruled
+  (see "Three rights rulings" below): they stay out.
 - **A number dated across two years is not taken on its first year.** The Christian East's "Winter, 1930-31"
   cites a letter of March 1931; it is held for Mark and is past the line until January 2027.
 - **A number filmed without its cover is taken on its masthead date**, and its header says that no publisher
@@ -1028,7 +1029,30 @@ No rendering.
 - Host bytes are kept whole; line numbers in headers and shelf rows are the host's, with 12 added for the
   file's own.
 
+**Three rights rulings, passed on by the coordinator (2026-11-16).** Each came to this thread in a coordinator
+message that quotes Mark's answer to a question the coordinator put to him; the words in quotation marks are
+his, and the statement of each rule is the coordinator's. They are recorded in `cic/texts/INTAKE.md` section 2.
+
+- **The film-notice ruling (Mark, 2026-11-16: "Yes, keep them held (Recommended)").** A microfilm maker's notice
+  on a scan blocks taking it, even when the print itself is old. The Proceedings of the Church Missionary
+  Society from that film stay out for every year. Another scan of the same print with no notice may be taken
+  where one can be found. Searched on 16 November: archive.org has no other scan of the Proceedings for 1906 to
+  1921 (it has Google scans of volumes of 1819 to 1834 and one of 1855-56); HathiTrust's catalog search refused
+  the request (HTTP 403) and the Google Books search refused it for quota (HTTP 429). The coordinator gave this
+  ruling no number.
+- **R13, an institution's dated report (Mark, 2026-11-16: "Yes, with a page-image check (Recommended)").** An
+  institution's report (an annual statement, a proceedings) counts by a date printed in its own text, when that
+  date is read on the page image and the header records where it was found. Under it the Pacific Garden
+  Mission's statement of 1916, left out of the era 9 located volumes, can be taken; it goes with the next batch.
+- **R14, a host's own additions (Mark, 2026-11-16: "Allow it, with a note (Recommended)").** A host's own
+  additions (page-foot stamps, watermark text, host banners) may be removed at intake, but never anything of the
+  printed work. Each file header records what was removed: the exact text, how many lines, and the host URL with
+  the original byte count. The raw copies are not kept in the repo. The files of Путь on main give the stamp's
+  text, the line count, the item and the byte count, and not a URL; their headers are to be brought to R14 in
+  the next pull request. Nothing was removed from any file of this batch.
+
 ### Next action
 
-The books of era 10 batch 2's follow-on list (Open-Gaps 302); then era 8 batch 3 (Open-Gaps 301); then the
-International Review for 1912 and 1913 (Open-Gaps 303).
+The books of era 10 batch 2's follow-on list, with the Pacific Garden Mission's statement of 1916 and the
+headers of Путь (Open-Gaps 302); then era 8 batch 3 (Open-Gaps 301); then the International Review for 1912 and
+1913 (Open-Gaps 303).
