@@ -124,14 +124,6 @@
   ],
   "quotationOriginals": [
     {
-      "modern": "the brother of Jesus, who was called Christ, whose name was James,",
-      "printed": "the brother of Je- sus, who was called Christ, whose name was James,",
-      "work": "Josephus, Antiquities XX.9.1, tr. William Whiston",
-      "file": "cic/texts/josephus_works-antiquities-wars-life_whiston1859.txt",
-      "lines": "91005-91009",
-      "secondReading": "same"
-    },
-    {
       "modern": "a wise man, if it is right to call him a man,",
       "printed": "a wise man, if it be lawful to call hima man,",
       "work": "Josephus, Antiquities XVIII.3.3, tr. William Whiston",
@@ -147,24 +139,6 @@
       "lines": "81411",
       "secondReading": "minor",
       "uncertain": "Whiston prints \"the\" in brackets, as if he added it; a Greek quotation of the passage has the article. Whether Josephus wrote this sentence at all is a separate, disputed question."
-    },
-    {
-      "modern": "did not accept Jesus as Christ.",
-      "printed": "did not accept Jesus as Christ,",
-      "work": "Origen, Commentary on Matthew X.17, tr. John Patrick",
-      "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
-      "lines": "30628",
-      "secondReading": "minor",
-      "uncertain": "Origen's Greek says \"our Jesus\": he speaks as a Christian about a Jewish writer. The printed English, kept here, leaves out the possessive."
-    },
-    {
-      "modern": "was believed to be Christ.",
-      "printed": "was believed to be Christ,",
-      "work": "Jerome, Lives of Illustrious Men 13, tr. E. C. Richardson",
-      "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
-      "lines": "39729",
-      "secondReading": "same",
-      "uncertain": "Jerome's Latin is not held, so this line rests on Richardson's English alone."
     }
   ]
 }

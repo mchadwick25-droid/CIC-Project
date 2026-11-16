@@ -83,7 +83,7 @@
   },
   "briefReferences": [
     "Eusebius of Caesarea, Church History III.22 and III.36.1-2, tr. Arthur McGiffert: Ignatius, bishop of Antioch, in the time Eusebius gives to Trajan, early in the second century.",
-    "Ignatius, Letter to the Romans 4-5, tr. A. Roberts and J. Donaldson: a condemned man, writing to Rome not to hinder his death; \"bound to ten leopards, I mean a band of soldiers\"; the wheat of God ground by the beasts.",
+    "Ignatius, Letter to the Romans 4-5, tr. A. Roberts and J. Donaldson: a condemned man, writing to Rome not to hinder his death; bound to ten leopards, the band of soldiers who guarded him; the wheat of God ground by the beasts.",
     "Eusebius, Church History III.36.3-6, tr. McGiffert: sent from Syria to Rome for the beasts, through Asia under military guard; from Smyrna to the church of Rome, begging them not to save him.",
     "Eusebius, Church History III.36.5 and 10, tr. McGiffert: the six other letters, to Ephesus, Magnesia and Tralles from Smyrna, and to Philadelphia, Smyrna and Polycarp from Troas.",
     "Ignatius, Letter to the Smyrnaeans 2 and 4, tr. Roberts and Donaldson: those who said Christ only seemed to suffer; his chains as the answer.",
@@ -95,14 +95,6 @@
     "World census, Post-Apostolic Household-Church Christianity: his tradition."
   ],
   "quotationOriginals": [
-    {
-      "modern": "bound to ten leopards, I mean a band of soldiers,",
-      "printed": "being bound to ten leopards, I mean a band of soldiers,",
-      "work": "Ignatius, Letter to the Romans 5, tr. A. Roberts and J. Donaldson",
-      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
-      "lines": "7087",
-      "secondReading": "minor"
-    },
     {
       "modern": "I am God's wheat, and let me be ground by the teeth of the wild beasts, so that I may be found the pure bread of Christ.",
       "printed": "I am the wheat of God, and let me be ground by the teeth of the wild beasts, that I may be found the pure bread of Christ.",
@@ -126,14 +118,6 @@
       "work": "Ignatius, Letter to the Smyrnaeans 4, tr. A. Roberts and J. Donaldson",
       "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
       "lines": "8103",
-      "secondReading": "same"
-    },
-    {
-      "modern": "Let no one do anything that concerns the church without the bishop,",
-      "printed": "Let no man do anything connected with the Church without the bishop.",
-      "work": "Ignatius, Letter to the Smyrnaeans 8, tr. A. Roberts and J. Donaldson",
-      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
-      "lines": "8277-8278",
       "secondReading": "same"
     }
   ]

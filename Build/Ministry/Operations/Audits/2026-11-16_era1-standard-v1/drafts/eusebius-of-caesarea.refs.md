@@ -116,3 +116,19 @@ Kept:
 - "In a letter home he says the emperor approved it and urged one added word": a partisan witness, Eusebius's own defense of his signing, and one source.
 
 Readability after the change: 300 words, grade 9.4 (names out 7.5), reading ease names out 72.9, pass.
+
+## Mark's ruling: tell the story (2026-11-16)
+
+Quotations: 2 before (three marked spans: the history line in two halves and the creed's word), 2 after (two spans: the history line is now one quotation).
+
+Kept:
+- Church History I.1.3, "Since I am the first to take up this subject, I am trying to travel what is, so to speak, a lonely and untrodden road." (E 6936-6937; FINAL, both spans in order with nothing between; the printed sentence is continuous). His own sense of what he was doing, the line that defines him as the first church historian.
+- Letter to his diocese 4, "of the same essence" (npnf204 19660; FINAL). The word itself, the one the council added; a retelling would have to render homoousios again outside the checked form.
+
+Told plainly: no quotation dropped.
+
+Tags:
+- Cut: "he wrote" between the two halves of the history line (whose words they are is clear from the sentence before).
+- Kept: "Socrates says that in his Life of Constantine Eusebius cared more for polished writing" (a later critic's judgment); "In a letter home he says the emperor approved it" (his own account of his own conduct, so not a neutral witness); "told his people he had not let the word pass" (the same); Athanasius "attached the letter to show" (a partisan use).
+
+Readability: 298 words (300 before), grade 9.4 (names out 7.5), reading ease names out 72.8, 17.5 words a sentence. Pass.

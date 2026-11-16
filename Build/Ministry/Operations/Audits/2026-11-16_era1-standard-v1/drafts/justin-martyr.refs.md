@@ -138,3 +138,22 @@ Kept:
 - "where Justin says he would not have believed the Lord himself": his words from a lost book, known only through Irenaeus.
 
 Readability after the change: 316 words, grade 9.1 (names out 8.2), reading ease names out 69.7, pass.
+
+## Mark's ruling: tell the story (2026-11-16)
+
+Quotations: 3 before, 2 after.
+
+Kept:
+- First Apology 46, "those who lived with reason are Christians, even if they were thought to be atheists," (A1 15686-15692; FINAL). His stance in his own voice, the idea he is remembered for; a retelling loses the double sense of logos that the sentence before sets up.
+- Martyrdom of Justin 2, "Yes, I am a Christian." (A1 29313-29314; FINAL). The line that defines his death; a retelling loses his plain confession.
+
+Told plainly:
+- Old: There the prefect Rusticus asks Justin, "So then, you are a Christian?" and he answers, "Yes, I am a Christian."
+  New: There, when the prefect Rusticus asks whether he is a Christian, Justin answers, "Yes, I am a Christian."
+  Held: Martyrdom of Justin 2, A1 29312-29313.
+
+Tags:
+- Cut: "sent to the Hebrew prophets, he says, by an old man" (recast as "In his own telling, an old man he met in a field near the sea sent him to the Hebrew prophets": the story rests on his own Dialogue alone, so it is marked once as his, Dialogue 3-7); "where Justin says he would not have believed" (now "where Justin would not have believed the Lord himself, had he announced any God but the Creator", Against Heresies IV.6.2; "our Maker" becomes "the Creator" so the narrator does not speak as "our").
+- Kept: Eusebius "follows the petition with an edict that he gives as the emperor's" (the edict's standing rests on him); "Tatian says" and "Eusebius says ... though the surviving account ... never names Crescens" (a contested point, each witness named); Irenaeus "quoted that book with approval" (the reception is the claim).
+
+Readability: 314 words (316 before), grade 9.2 (names out 8.2), reading ease names out 69.0, 18.5 words a sentence. Pass.

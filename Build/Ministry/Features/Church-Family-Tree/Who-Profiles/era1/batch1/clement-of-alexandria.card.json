@@ -88,7 +88,7 @@
     "Clement, Stromata I.2, tr. William Wilson: some who find fault with philosophy, as if it dragged believers from the faith.",
     "Jerome, Lives of Illustrious Men 38, tr. Ernest Cushing Richardson: presbyter of the church of Alexandria; led its school after Pantaenus; flourished under Severus and Antoninus (around 200).",
     "Eusebius of Caesarea, Church History V.10 and VI.6, tr. Arthur McGiffert: the school of the faithful at Alexandria; Clement had charge of its instruction after Pantaenus; the Stromata written under Severus.",
-    "Clement, Stromata I.1, tr. Wilson: Christian teachers from Greece to Palestine, keeping the apostles' teaching; \"having tracked him out concealed in Egypt, I found rest\".",
+    "Clement, Stromata I.1, tr. Wilson: Christian teachers from Greece to Palestine, keeping the apostles' teaching; the last of them, tracked down hidden in Egypt, with whom he found rest.",
     "Eusebius of Caesarea, Church History V.11, tr. McGiffert: Eusebius's judgment that the last teacher was Pantaenus.",
     "Clement, Stromata I.5, tr. Wilson: God the cause of all good things; philosophy perhaps given to the Greeks as the law to the Hebrews, to bring them to Christ; \"Philosophy, therefore, was a preparation\".",
     "Eusebius of Caesarea, Church History VI.6, tr. McGiffert, and Jerome, Lives 38, tr. Richardson: Origen his pupil as a boy.",
@@ -100,14 +100,6 @@
     "World census, Alexandrian Catechetical / Christian-Platonist Tradition: his tradition."
   ],
   "quotationOriginals": [
-    {
-      "modern": "When I had tracked him down, hidden in Egypt, I found rest.",
-      "printed": "When I came upon the last (he was the first in power), having tracked him out concealed in Egypt, I found rest.",
-      "work": "Clement, Stromata I.1, tr. William Wilson",
-      "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
-      "lines": "27489-27492",
-      "secondReading": "minor"
-    },
     {
       "modern": "Philosophy, then, was a preparation,",
       "printed": "Philosophy, therefore, was a preparation,",

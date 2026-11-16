@@ -137,3 +137,25 @@ Kept:
 - "Eusebius ... gives his death at Rome only as a report": a stated limit; one source, told as a report.
 
 Readability after the change: 302 words, grade 8.8 (names out 8.2), reading ease names out 72.4, pass.
+
+## Mark's ruling: tell the story (2026-11-16)
+
+Quotations: 4 before, 2 after.
+
+Kept:
+- Romans 4, "I am God's wheat, and let me be ground by the teeth of the wild beasts, so that I may be found the pure bread of Christ." (A1 7040-7042; the joined form the renderings README keeps). The line that defines him and the one Irenaeus quoted; a retelling loses the image his death is remembered by.
+- Smyrnaeans 4, "If our Lord did these things only in appearance, then I too am bound only in appearance." (A1 8102-8103; FINAL). His stance against those who said Christ only seemed to suffer, in his own voice; a retelling loses the argument from his own chains.
+
+Told plainly:
+- Old: He was "bound to ten leopards, I mean a band of soldiers," he wrote.
+  New: In it he likened the band of soldiers who guarded him to ten leopards.
+  Held: Romans 5, A1 7087.
+- Old: "Let no one do anything that concerns the church without the bishop," he told the same church, so that ...
+  New: He told the same church that no one should do anything that concerns the church without the bishop, so that ...
+  Held: Smyrnaeans 8, A1 8277-8278. "Told" is the act of the letter, not a tag on a claim.
+
+Tags:
+- Cut: "he wrote" after the leopards line (the quotation is gone, and the wheat line stands without a tag: "In it" makes whose words they are clear); "he told" as a speech tag on the bishop line (now plain narration of the letter's instruction).
+- Kept: Theodoret "called on that same letter" (a later witness; his use is the claim); Irenaeus "quoted the wheat saying" (the reception is the claim); Eusebius "gives his death at Rome only as a report" (the point rests on one report and is marked so). "One of our people" in the Irenaeus sentence is now "a fellow Christian", so the narrator does not speak as "our" (Against Heresies V.28.4).
+
+Readability: 302 words (302 before), grade 8.9 (names out 8.3), reading ease names out 71.3, 20.1 words a sentence. Pass.

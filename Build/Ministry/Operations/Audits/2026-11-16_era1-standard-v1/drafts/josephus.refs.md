@@ -140,3 +140,27 @@ Kept:
 - "He argued from it that a Hebrew historian's record convicted those who had forged acts against Jesus": a partisan witness (Eusebius's apologetic use).
 
 Readability: 312 words, grade 9.3 (names out 7.5), reading ease names out 76.3, pass.
+
+## Mark's ruling: tell the story (2026-11-16)
+
+Quotations: 5 before, 2 after.
+
+Kept (an outside witness: the lines at the heart of what he says):
+- Antiquities XVIII.3.3, "a wise man, if it is right to call him a man," (Whiston 81406-81407; FINAL) and "He was the Christ" (Whiston 81411; FINAL). The disputed words themselves: the whole dispute in the brief turns on these words as our copies give them, so a retelling would lose what Origen and Jerome are set against.
+
+Told plainly:
+- Old: the high priest Ananus brings before the judges "the brother of Jesus, who was called Christ, whose name was James," and has him stoned with some others.
+  New: the high priest Ananus brings James, the brother of Jesus who was called Christ, before the judges, and has him stoned with some others.
+  Held: Antiquities XX.9.1, Whiston 91005-91009.
+- Old: Yet Origen, who knew the Antiquities, wrote that Josephus "did not accept Jesus as Christ."
+  New: Yet Origen, who knew the Antiquities, wrote that Josephus did not accept Jesus as the Christ.
+  Held: Commentary on Matthew X.17, anf09 30628 (Origen's Greek "our Jesus" stays a note on the card's What is uncertain, not in the brief).
+- Old: but in his version Jesus "was believed to be Christ."
+  New: but in his version Jesus was believed to be the Christ.
+  Held: Jerome, Lives of Illustrious Men 13, npnf203 39729 (Richardson's English; the Latin is not held).
+
+Tags:
+- Cut: the second "says" in the longer report ("and says that after Pilate ..."), now "After Pilate sent him to the cross, it goes on, he appeared ..."; the sentence keeps the report as its subject, so the claim stays Josephus's text and not the narrator's.
+- Kept: "Origen argued" (a Christian witness reading a Jewish writer, the point resting on his copy alone); "Origen ... wrote that" and Jerome's "in his version" (the dispute, each side named); Eusebius "quotes ... argued from it" (a partisan use of the passage).
+
+Readability: 312 words (312 before), grade 8.8 (names out 7.0), reading ease names out 77.5, 18.4 words a sentence. Pass.

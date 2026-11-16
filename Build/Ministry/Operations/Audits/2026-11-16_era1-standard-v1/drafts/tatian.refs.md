@@ -130,3 +130,18 @@ Kept:
 - "The Teaching of Addai, a Syriac legend ..., shows the people gathering": a legend.
 
 Readability after the change: 317 words, grade 9.4 (names out 7.7), reading ease names out 71.3, pass.
+
+## Mark's ruling: tell the story (2026-11-16)
+
+Quotations: 1 before, 1 after.
+
+Kept:
+- Address 29, "some non-Greek writings, older than the teachings of the Greeks, and more divine than their error." (A2 6972-6974; Greek TG 10387-10389; FINAL E23). His own account of the turn that the whole Address argues from; a retelling loses his own claim that the books are older and more divine, the claim the brief's second stance rests on.
+
+Told plainly: no quotation dropped. The telling was recast as one story: the opening keeps Rome, Justin and the tradition; his own account (birth, Greek schooling, the mysteries, the search, the books) is now one paragraph marked once as his; Epiphanius's report of the move east moves from the opening to the run of opponents, where it belongs as a later hostile witness (EpH 15995-16001).
+
+Tags:
+- Cut: "Tatian was born, he says," (folded into "By his own account", which marks the whole paragraph once); "Epiphanius of Salamis says" (now "Epiphanius of Salamis, a later opponent, has him go east": named once, with his leaning); "Clement of Alexandria wrote that" (now "Clement of Alexandria found its dating of Moses accurate", A2 29724-29727: the judgment is the claim, so the name stays and the speech verb goes); "Eusebius reports that" (now "for Eusebius, Tatian was said to have founded it", E 26181-26186).
+- Kept: "By his own account" (his own words); "Eusebius of Caesarea judged" (the judgment is the claim, E 26484-26505); "Irenaeus of Lyon says" (hostile, named once for the run after it, A1 33663-33674); "Clement, a second opponent, quotes a lost book" (hostile, the second witness the teaching needs, A2 36517-36521); Epiphanius (a later hostile witness, one source); Irenaeus against Eusebius on the Encratites (a dispute, both sides named); the Teaching of Addai "shows" (a legend, A8 62103-62107).
+
+Readability: 315 words (317 before), grade 9.3 (names out 7.7), reading ease names out 70.7, 17.5 words a sentence. Pass. The first draft of this pass read grade 10.1 and failed; two long sentences were split at their own joins (Justin's death; Moses and the Christians' philosophy).

@@ -121,3 +121,21 @@ Kept:
 - "and wrote in it that Clement ... had strengthened and built up the church": Alexander's own words, one source.
 
 Readability after the change: 302 words, grade 9.3 (names out 7.6), reading ease names out 72.2, pass.
+
+## Mark's ruling: tell the story (2026-11-16)
+
+Quotations: 2 before, 1 after.
+
+Kept:
+- Stromata I.5, "Philosophy, then, was a preparation, paving the way for the one who is made perfect in Christ." (A2 27893-27895; FINAL, without the "he wrote" the FINAL carries between the spans, which the brief already dropped). The line that defines him and his answer to the critics the brief opens on; a retelling loses his own claim in his own voice.
+
+Told plainly:
+- Old: In his Stromata, or Miscellanies, he tells how he reached the last and best of them: "When I had tracked him down, hidden in Egypt, I found rest."
+  New: The last and best of them he tracked down, hidden in Egypt, and with him he found rest.
+  Held: Stromata I.1, A2 27489-27492 ("When I came upon the last (he was the first in power), having tracked him out concealed in Egypt, I found rest"). The Stromata is now named in the next paragraph, where his answer to the critics is told.
+
+Tags:
+- Cut: "he tells how he reached" (with the quotation); "whose books he said were drawn from the heart of philosophy" (now "whose books were drawn from ...", inside Jerome's one named run, Letter 70); "and wrote in it that Clement ... had strengthened" (now "praising him for having strengthened and built up the church while Clement was with him", Church History VI.11).
+- Kept: Eusebius "judged that this teacher was Pantaenus" (the identification is his inference); "Jerome says Origen followed Clement's example" (the point rests on Jerome); "as Clement reports them" (the Valentinians known through an opponent); "The sources we have show no reply" (a stated limit).
+
+Readability: 292 words (302 before), grade 9.3 (names out 7.6), reading ease names out 70.9, 17.2 words a sentence. Pass.

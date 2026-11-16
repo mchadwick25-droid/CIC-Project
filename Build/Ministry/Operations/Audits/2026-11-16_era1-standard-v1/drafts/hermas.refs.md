@@ -126,3 +126,18 @@ Kept:
 - "The Muratorian list said that the book should be read, but not ...": the list's ruling is the claim; one source.
 
 Readability after the change: 357 words, grade 8.5 (names out 8.0), reading ease names out 72.7, pass.
+
+## Mark's ruling: tell the story (2026-11-16)
+
+Quotations: 1 before, 1 after.
+
+Kept:
+- Commandment 4.1, "For the servants of God there is only one repentance." (A2 1933-1934; FINAL). The line his book is remembered by and the stance the reception paragraph answers; a retelling loses its force as the book's own rule.
+
+Told plainly: no quotation dropped. The angel's teaching on a second repentance is now marked once as the angel's ("Yet he teaches that"), since it is a voice inside the visions, and the sentences of the vision story stand untagged under "Everything else about him comes from inside his own visions."
+
+Tags:
+- Cut: "The man who raised him, he says," (the paragraph before already marks everything after it as from inside his visions); "the Lord knows human weakness, he says," (recast as "Yet he teaches that the Lord knows ...", so the claim stays the angel's and not the narrator's, Commandment 4.3); Tertullian's second verb, "and said the councils of the churches had judged it false" (now "a book the councils of the churches had judged false", inside his one named run, On Modesty 10); "The Muratorian list said that" (now "For the Muratorian list, the book should be read ...").
+- Kept: the Muratorian Canon "says he wrote" (one source for the date and the brother); Eusebius and Jerome "took him instead for" (the other side of the dispute); Tertullian "attacking a bishop ... called it" (a partisan witness, marked); Eusebius "counted it among the rejected books" (the judgment is the claim); "no source says" (a stated limit).
+
+Readability: 354 words (357 before), grade 8.5 (names out 8.1), reading ease names out 72.4, 19.7 words a sentence. Pass.
