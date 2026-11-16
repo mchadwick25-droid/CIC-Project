@@ -38,6 +38,23 @@ works:
     formation_confidence: Documented
   note: 'Era 9 row 261, Ralph Waldo Emerson: a Life told by another (vol. 1).'
   source_file: cabot_memoir-of-ralph-waldo-emerson-v1_1887.txt
+- row_id: cabot_memoir-of-ralph-waldo-emerson-v2_8th-ed1895--cabot-memoir-of-emerson-v2
+  work: Cabot, A Memoir of Ralph Waldo Emerson, vol. II (eighth edition, 1895)
+  author: cabot
+  locus: chapters XI-XVII at OCR lines 116-10459; the appendices at 10462-14740; add 12 to
+    OCR line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1887
+    end: 1895
+    source: copyright notice of 1887; this printing's title page reads 1895, eighth edition
+    formation_confidence: Documented
+  note: A Memoir with Emerson's letters and journals quoted throughout. Appendices A and D
+    print his letters to the Second Church and to Van Buren; B and E print correspondence;
+    C and F are Cabot's lists.
+  source_file: cabot_memoir-of-ralph-waldo-emerson-v2_8th-ed1895.txt
 - row_id: channing_sermon-at-the-ordination-of-jared-sparks-baltimore_1819--a-sermon-delivered-at-the-ordination-of-the-rev-jared-sparks
   work: A Sermon delivered at the Ordination of the Rev. Jared Sparks (1819)
   author: channing

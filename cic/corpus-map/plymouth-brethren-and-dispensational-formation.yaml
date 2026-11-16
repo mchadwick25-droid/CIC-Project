@@ -23,6 +23,36 @@ works:
     was not found). The title page gives the author as J. G. B.; the archive.org record names
     John Gifford Bellett.'
   source_file: bellett_short-meditation-on-the-moral-glory-of-the-lord-jesus-christ_1865.txt
+- row_id: bellett_evangelists-gospel-by-st-john_7th-ed1886--bellett-evangelists-john
+  work: 'Bellett, The Evangelists: the Gospel by St. John (seventh edition, 1886)'
+  author: bellett
+  locus: the introduction at OCR lines 85-673; the papers on John at 681-7143; add 12 to OCR
+    line numbers
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1886
+    end: 1886
+    source: 'the part''s title page: 1886, seventh edition'
+    formation_confidence: Documented
+  note: Bellett's meditations on the fourth Gospel. A late edition; the year of the first
+    is not printed in the scan.
+  source_file: bellett_evangelists-gospel-by-st-john_7th-ed1886.txt
+- row_id: bellett_minor-prophets_1870--bellett-minor-prophets
+  work: Bellett, The Minor Prophets (1870)
+  author: bellett
+  locus: the whole book at OCR lines 82-3556; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1870
+    end: 1870
+    source: 'title page: 1870'
+    formation_confidence: Documented
+  note: Bellett's own meditations on Hosea to Malachi.
+  source_file: bellett_minor-prophets_1870.txt
 - row_id: darby_dialogues-on-the-essays-and-reviews_2nd-ed1863--dialogues-on-the-essays-and-reviews-second-edition-revised
   work: DIALOGUES ON THE ESSAYS AND REVIEWS. Second edition, revised
   author: darby

@@ -1,0 +1,13 @@
+source_file: hodder_life-and-work-of-seventh-earl-of-shaftesbury-v2_1887.txt
+assignments:
+- row_id: hodder_life-and-work-of-seventh-earl-of-shaftesbury-v2_1887--hodder-shaftesbury-v2
+  work: 'Hodder, The Life and Work of the Seventh Earl of Shaftesbury, vol. II (1887)'
+  author: hodder
+  locus: 'the chapters at OCR lines 370-22165; add 12 to OCR line numbers'
+  atlas_ids:
+  - victorian-church-of-england
+  role: context
+  confidence: provisional
+  language: eng
+  date: {start: 1887, end: 1887, source: "title page: 1887", formation_confidence: Documented}
+  note: 'A Life built on Shaftesbury''s diaries, which are quoted at length. The diary entries are first-hand; the frame is Hodder''s.'

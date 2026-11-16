@@ -30,6 +30,21 @@ works:
   note: The congress's own printed report; mostly the mission boards' voice, with Latin American
     speakers in volume 3.
   source_file: congress-christian-work-latin-america_panama-1916-v3_1917.txt
+- row_id: mott_history-of-the-student-volunteer-movement_1892--mott-history-of-the-student-volunteer-movement
+  work: Mott, History of the Student Volunteer Movement for Foreign Missions (1892)
+  author: mott
+  locus: the five parts at OCR lines 48-1404; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1892
+    end: 1892
+    source: 'title page: 1892 (page image); the text speaks of 14 July 1892 at OCR lines 837-838'
+    formation_confidence: Documented
+  note: The movement's own account of its first six years, from the Mount Hermon conference
+    of 1886, by one of its leaders.
+  source_file: mott_history-of-the-student-volunteer-movement_1892.txt
 - row_id: mott_decisive-hour-of-christian-missions_1910--mott-the-decisive-hour-of-christian-missions
   work: Mott, The Decisive Hour of Christian Missions
   author: mott
@@ -88,6 +103,21 @@ works:
   note: 'Era 9 row 236, Robert P. Wilder: the report of the movement''s first convention,
     with his addresses.'
   source_file: student-volunteer-movement_report-first-international-convention-cleveland_1891.txt
+- row_id: wilder_pledge-of-the-student-volunteer-movement_1890--wilder-volunteer-pledge
+  work: Wilder, The Volunteer Pledge of the Student Volunteer Movement (June 1890)
+  author: wilder
+  locus: the whole pamphlet at OCR lines 54-700; the pledge's wording at 448-449; add 12 to
+    OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1890
+    end: 1890
+    source: 'title page: ''June, 1890.'''
+    formation_confidence: Documented
+  note: One of the movement's founders explains its pledge and how to use it.
+  source_file: wilder_pledge-of-the-student-volunteer-movement_1890.txt
 - row_id: world-missionary-conference_edinburgh-1910-v8-report-of-commission-8_1910--cheng-ching-yi-speech-at-edinburgh-1910-report-of-commission
   work: Cheng Ching-yi, speech at Edinburgh 1910 (Report of Commission VIII)
   author: world-missionary-conference

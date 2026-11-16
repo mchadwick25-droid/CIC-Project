@@ -1,0 +1,13 @@
+source_file: mott_history-of-the-student-volunteer-movement_1892.txt
+assignments:
+- row_id: mott_history-of-the-student-volunteer-movement_1892--mott-history-of-the-student-volunteer-movement
+  work: 'Mott, History of the Student Volunteer Movement for Foreign Missions (1892)'
+  author: mott
+  locus: 'the five parts at OCR lines 48-1404; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-student-volunteer-movement-and-edinburgh-191
+  role: tradition
+  confidence: provisional
+  language: eng
+  date: {start: 1892, end: 1892, source: "title page: 1892 (page image); the text speaks of 14 July 1892 at OCR lines 837-838", formation_confidence: Documented}
+  note: 'The movement''s own account of its first six years, from the Mount Hermon conference of 1886, by one of its leaders.'

@@ -1583,6 +1583,36 @@ title page and is dated by the copyright notice of 1899 on the verso. Rows in th
 | Batch 1's list: Gobat, New York 1850 | not taken | a later printing of the held London print of 1834 | | | |
 | Not found by the first era 8 search | not found | Hindmarsh (1861); Ann Griffiths in Welsh; Kirk's Biographies (1909); Davenport's Confession; Herman of Alaska; the Methodist gaps (Wesley's Letters and later Sermons, Charles Wesley's Journal vol. 2, Whitefield's later Journals, Fletcher's Checks, the Arminian Magazine) | | | |
 
+## Era 9 (1815-1906), the located volumes (2026-11-16): the follow-on to batch 2b
+
+Twenty-seven files, 4,092,114 words: the volumes batch 2b located and did not take, with the items it named
+without an identifier. The record is in `Build/Ministry/Operations/Audits/2026-11-16_library-era9-located/`
+(`Search_Log.md`, with the page-image reads, the corrections to the list, four calls and the cautions for
+writers). Every file has a printed imprint of 1930 or earlier, read on its title page or on the scan's page
+image. Rows in the tables above are not rewritten.
+
+| want | state | file(s), with the imprint year | words | language | shelf |
+|---|---|---|---:|---|---|
+| era 9 row 257, Henry Drummond: Dialogues on Prophecy, vols. 2 and 3 | filled; the work is now held whole | `dialogues-on-prophecy_v2_1828.txt` (1828); `dialogues-on-prophecy_v3_1829.txt` (1829) | 98,344; 139,301 | eng | catholic-apostolic-church-irvingites, antecedent |
+| era 9 row 257: the Morning Watch | filled in part, vols. I (1829) and III (1831) | `morning-watch_v1-1829_1830.txt` (1830); `morning-watch_v3_1831.txt` (1831) | 389,469; 268,314 | eng | catholic-apostolic-church-irvingites, antecedent |
+| era 9 row 257, Henry Drummond: his speeches and pamphlets, vol. 2 | filled; the work is now held whole | `drummond-henry_speeches-in-parliament-v2_lovaine1860.txt` (1860) | 159,032 | eng | catholic-apostolic-church-irvingites, tradition |
+| era 9 row 272, Samuel Wilberforce: the Life, vols. 2 and 3 | filled; the work is now held whole | `wilberforce-reginald_life-of-samuel-wilberforce-v2_1881.txt` (1881); `-v3_1882.txt` (1882) | 165,419; 178,217 | eng | victorian-church-of-england, context |
+| era 9 row 271, Lord Shaftesbury: the Life, vols. 2 and 3 | filled; the work is now held whole | `hodder_life-and-work-of-seventh-earl-of-shaftesbury-v2_1887.txt` (1887); `-v3_1886.txt` (1886) | 191,569; 182,948 | eng | victorian-church-of-england, context |
+| era 9 row 273, Frederick Denison Maurice: the Life, vol. 2 | filled; the work is now held whole | `maurice-f_life-of-frederick-denison-maurice-v2_1884.txt` (1884) | 293,220 | eng | victorian-church-of-england, context |
+| era 9 row 278, Nicholas Wiseman: the Life, vol. 2 | filled; the work is now held whole | `ward-wilfrid_life-and-times-of-cardinal-wiseman-v2_1897.txt` (1897) | 232,475 | eng | catholic-church-long-nineteenth-century, context |
+| era 9 row 261, Ralph Waldo Emerson: the Memoir, vol. 2 | filled, in the eighth edition (vol. 1 is the printing of 1887) | `cabot_memoir-of-ralph-waldo-emerson-v2_8th-ed1895.txt` (1895) | 114,536 | eng | american-unitarianism-universalism-consolidations, context |
+| era 9 row 267, Richard Hurrell Froude: his Remains, the other three volumes | filled; the work is now held whole | `froude_remains-pt1-v2_1838.txt` (1838); `froude_remains-pt2-v1_1839.txt` (1839); `froude_remains-pt2-v2_1839.txt` (1839) | 108,907; 129,136; 198,507 | eng | the-oxford-movement-and-anglo-catholic-revival, tradition |
+| era 9 row 274, John William Colenso: The Pentateuch, a further part | filled, part III (the list said part 2; part II was not found) | `colenso_pentateuch-and-book-of-joshua-pt3_1863.txt` (1863) | 129,798 | eng | victorian-church-of-england, tradition |
+| era 9 row 274, John William Colenso: a Life | filled in part, vol. 1 of 2 | `cox-george-w_life-of-john-william-colenso-v1_1888.txt` (1888) | 257,341 | eng | victorian-church-of-england and southern-african-mission-churches, context |
+| The Student Volunteer Movement: Mott's history and Wilder's pledge pamphlet | filled | `mott_history-of-the-student-volunteer-movement_1892.txt` (1892); `wilder_pledge-of-the-student-volunteer-movement_1890.txt` (1890) | 7,371; 3,866 | eng | the-student-volunteer-movement-and-edinburgh-191, tradition |
+| era 9 row 323, J. Taylor Hamilton: his history of the Moravians in the United States | filled, in the American Church History volume with two Reformed histories | `corwin-dubbs-hamilton_american-church-history-v8-reformed-and-moravian_1895.txt` (1895) | 160,235 | eng | moravian-church-after-1815, tradition (Hamilton's part only) |
+| era 9 row 277, Bernadette Soubirous: Lasserre in Sisk's English | filled, a second English version | `lasserre_our-lady-of-lourdes_sisk1872.txt` (1872) | 117,513 | eng | catholic-church-long-nineteenth-century, context |
+| era 9 row 254, Robert Roberts: The Trial, and his debate with Bradlaugh | filled | `roberts-robert_the-trial_1908.txt` (1908); `roberts-bradlaugh_is-the-bible-divine-six-nights-discussion_1876.txt` (1876) | 134,261; 138,725 | eng | christadelphians, tradition |
+| era 9 row 260, J. G. Bellett: two more of his books | filled; the Evangelists scan holds John only | `bellett_minor-prophets_1870.txt` (1870); `bellett_evangelists-gospel-by-st-john_7th-ed1886.txt` (1886) | 25,691; 57,272 | eng | plymouth-brethren-and-dispensational-formation, tradition |
+| era 9 row 252, Eliza R. Snow: her Life of Lorenzo Snow | filled | `snow_biography-and-family-record-of-lorenzo-snow_1884.txt` (1884) | 206,667 | eng | latter-day-saints-lds, tradition |
+| The Pacific Garden Mission's annual reports | filled in part: the report for the year ended September 1908; the statement of 1916 prints no year and is held for Mark; the report of 1895 not found | `pacific-garden-mission_thirty-first-annual-report_1908.txt` (1908) | 3,980 | eng | the-rescue-mission-movement, tradition |
+| In His Steps in printings of 1899; Newton's Thoughts on the Apocalypse in the printing of 1904 | not taken | later printings of texts already held | | | |
+
 ## Later — queued
 
 - ME-21 by a browser; Lang 1834 and the Peking mission after 1808; the

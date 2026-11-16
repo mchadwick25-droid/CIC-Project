@@ -1,0 +1,17 @@
+source_file: morning-watch_v3_1831.txt
+assignments:
+- row_id: morning-watch_v3_1831--morning-watch-v3
+  work: 'The Morning Watch; or Quarterly Journal on Prophecy, vol. III (1831)'
+  author: morning-watch
+  locus: 'the numbers at OCR lines 170-28225; add 12 to OCR line numbers'
+  atlas_ids:
+  - catholic-apostolic-church-irvingites
+  role: antecedent
+  confidence: provisional
+  language: eng
+  date: {start: 1831, end: 1831, source: "the numbers are headed March and June 1831; title page 1831", formation_confidence: Documented}
+  note: 'A quarterly on prophecy and theology, with unsigned articles, reviews and letters to the editor. Articles are by many hands and few are signed.'
+authors_ruled:
+  morning-watch:
+    kind: anonymous
+    evidence: "The title page (file lines 67-103) names the journal, its printer and its publisher, and no editor; the articles are unsigned or signed with initials."

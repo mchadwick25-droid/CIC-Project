@@ -31724,3 +31724,273 @@ queue:
     verified_by: 'Library thread, era 8 batch 2: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 852,089 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: parry_six-months-in-a-syrian-monastery_1895.txt
+  - title: 'Dialogues on Prophecy; vol. II'
+    author: 'anonymous'
+    year: '1828'
+    world: catholic-apostolic-church-irvingites
+    why: 'Era 9 batch 2b, located and not yet taken: wanted row 257, Dialogues on Prophecy, the later volumes (vol. 1 is held).'
+    url: https://archive.org/details/dialogues-on-prophecy
+    rights_basis: 'Public Domain (pd-us-by-date: published 1828); the archive.org item is a reader''s upload of three Google scans with no rights field or library catalog record, and the imprint date is the basis'
+    verified_by: 'Library thread, era 9, the located volumes: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 558,678 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: dialogues-on-prophecy_v2_1828.txt
+  - title: 'Dialogues on Prophecy; vol. III'
+    author: 'anonymous'
+    year: '1829'
+    world: catholic-apostolic-church-irvingites
+    why: 'Era 9 batch 2b, located and not yet taken: wanted row 257, Dialogues on Prophecy, the later volumes (vol. 1 is held).'
+    url: https://archive.org/details/10410364bsb
+    rights_basis: 'Public Domain (pd-us-by-date: published 1829); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9, the located volumes: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 795,037 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: dialogues-on-prophecy_v3_1829.txt
+  - title: 'The Morning Watch; or Quarterly Journal on Prophecy, and Theological Review; vol. I'
+    author: 'anonymous'
+    year: '1830'
+    world: catholic-apostolic-church-irvingites
+    why: 'Era 9 batch 2b, located and not yet taken: wanted row 257, the Morning Watch, the journal of the Albury circle (two of its volumes).'
+    url: https://archive.org/details/morningwatchorq02hendgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1830); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 9, the located volumes: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 2,518,390 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: morning-watch_v1-1829_1830.txt
+  - title: 'The Morning Watch; or Quarterly Journal on Prophecy, and Theological Review; vol. III'
+    author: 'anonymous'
+    year: '1831'
+    world: catholic-apostolic-church-irvingites
+    why: 'Era 9 batch 2b, located and not yet taken: wanted row 257, the Morning Watch, the journal of the Albury circle (two of its volumes).'
+    url: https://archive.org/details/morningwatchorq01hendgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1831); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 9, the located volumes: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,737,845 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: morning-watch_v3_1831.txt
+  - title: 'Life of the Right Reverend Samuel Wilberforce, D.D., Lord Bishop of Oxford and afterwards of Winchester, with selections from his diaries and correspondence; in three volumes, vol. II'
+    author: 'Reginald G. Wilberforce'
+    year: '1881'
+    world: victorian-church-of-england
+    why: 'Era 9 batch 2b, located and not yet taken: wanted row 272, Samuel Wilberforce, the Life with his diaries and letters, vols. 2 and 3 (vol. 1, by Ashwell, is held).'
+    url: https://archive.org/details/a614417002ashwuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1881); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9, the located volumes: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,081,936 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: wilberforce-reginald_life-of-samuel-wilberforce-v2_1881.txt
+  - title: 'Life of the Right Reverend Samuel Wilberforce, D.D., Lord Bishop of Oxford and afterwards of Winchester, with selections from his diaries and correspondence; in three volumes, vol. III'
+    author: 'Reginald G. Wilberforce'
+    year: '1882'
+    world: victorian-church-of-england
+    why: 'Era 9 batch 2b, located and not yet taken: wanted row 272, Samuel Wilberforce, the Life with his diaries and letters, vols. 2 and 3 (vol. 1, by Ashwell, is held).'
+    url: https://archive.org/details/lifeoftherightre03ashwuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1882); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 9, the located volumes: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,169,514 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: wilberforce-reginald_life-of-samuel-wilberforce-v3_1882.txt
+  - title: 'The Life and Work of the Seventh Earl of Shaftesbury, K.G.; vol. II'
+    author: 'Edwin Hodder'
+    year: '1887'
+    world: victorian-church-of-england
+    why: 'Era 9 batch 2b, located and not yet taken: wanted row 271, Lord Shaftesbury, the Life with his diaries, vols. 2 and 3 (vol. 1 is held).'
+    url: https://archive.org/details/lifeworkofsevent02hodduoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1887); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 9, the located volumes: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,278,229 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: hodder_life-and-work-of-seventh-earl-of-shaftesbury-v2_1887.txt
+  - title: 'The Life and Work of the Seventh Earl of Shaftesbury, K.G.; vol. III'
+    author: 'Edwin Hodder'
+    year: '1886'
+    world: victorian-church-of-england
+    why: 'Era 9 batch 2b, located and not yet taken: wanted row 271, Lord Shaftesbury, the Life with his diaries, vols. 2 and 3 (vol. 1 is held).'
+    url: https://archive.org/details/india.history.resource.86561
+    rights_basis: 'Public Domain (pd-us-by-date: published 1886); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9, the located volumes: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,093,561 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: hodder_life-and-work-of-seventh-earl-of-shaftesbury-v3_1886.txt
+  - title: 'The Life of Frederick Denison Maurice, chiefly told in his own letters; edited by his son Frederick Maurice; in two volumes, vol. II'
+    author: 'Frederick Maurice'
+    year: '1884'
+    world: victorian-church-of-england
+    why: 'Era 9 batch 2b, located and not yet taken: wanted row 273, Frederick Denison Maurice, the Life told in his letters, vol. 2 (vol. 1 is held).'
+    url: https://archive.org/details/lifeoffrederickd02maur
+    rights_basis: 'Public Domain (pd-us-by-date: published 1884); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 9, the located volumes: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,893,989 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: maurice-f_life-of-frederick-denison-maurice-v2_1884.txt
+  - title: 'The Life and Times of Cardinal Wiseman; in two volumes, vol. II'
+    author: 'Wilfrid Ward'
+    year: '1897'
+    world: catholic-church-long-nineteenth-century
+    why: 'Era 9 batch 2b, located and not yet taken: wanted row 278, Nicholas Wiseman, the Life by Ward, vol. 2 (vol. 1 is held).'
+    url: https://archive.org/details/lifeandtimescar03wardgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1897); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 9, the located volumes: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,566,117 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: ward-wilfrid_life-and-times-of-cardinal-wiseman-v2_1897.txt
+  - title: 'A Memoir of Ralph Waldo Emerson; in two volumes, vol. II; eighth edition'
+    author: 'James Elliot Cabot'
+    year: '1895'
+    world: american-unitarianism-universalism-consolidations
+    why: 'Era 9 batch 2b, located and not yet taken: wanted row 261, Ralph Waldo Emerson, Cabot''s Memoir, vol. 2 (vol. 1 is held in the printing of 1887; this is the eighth edition of 1895).'
+    url: https://archive.org/details/memoirofralphwal02caboiala
+    rights_basis: 'Public Domain (pd-us-by-date: published 1895); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 9, the located volumes: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 737,769 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: cabot_memoir-of-ralph-waldo-emerson-v2_8th-ed1895.txt
+  - title: 'Remains of the late Reverend Richard Hurrell Froude, M.A., Fellow of Oriel College, Oxford; in two volumes, vol. II'
+    author: 'Richard Hurrell Froude'
+    year: '1838'
+    world: the-oxford-movement-and-anglo-catholic-revival
+    why: 'Era 9 batch 2b, located and not yet taken: wanted row 267, Richard Hurrell Froude, his Remains: the three volumes after part 1, vol. 1, which is held.'
+    url: https://archive.org/details/remainsoflaterev21frou
+    rights_basis: 'Public Domain (pd-us-by-date: published 1838); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9, the located volumes: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 707,355 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: froude_remains-pt1-v2_1838.txt
+  - title: 'Remains of the late Reverend Richard Hurrell Froude, M.A., Fellow of Oriel College, Oxford; part the second; in two volumes, vol. I'
+    author: 'Richard Hurrell Froude'
+    year: '1839'
+    world: the-oxford-movement-and-anglo-catholic-revival
+    why: 'Era 9 batch 2b, located and not yet taken: wanted row 267, Richard Hurrell Froude, his Remains: the three volumes after part 1, vol. 1, which is held.'
+    url: https://archive.org/details/remainsoflaterev12frouuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1839); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 9, the located volumes: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 857,132 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: froude_remains-pt2-v1_1839.txt
+  - title: 'Remains of the late Reverend Richard Hurrell Froude, M.A., Fellow of Oriel College, Oxford; part the second; in two volumes, vol. II'
+    author: 'Richard Hurrell Froude'
+    year: '1839'
+    world: the-oxford-movement-and-anglo-catholic-revival
+    why: 'Era 9 batch 2b, located and not yet taken: wanted row 267, Richard Hurrell Froude, his Remains: the three volumes after part 1, vol. 1, which is held.'
+    url: https://archive.org/details/a5826854rs02frouuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1839); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 9, the located volumes: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,320,931 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: froude_remains-pt2-v2_1839.txt
+  - title: 'Speeches in Parliament and Some Miscellaneous Pamphlets of the late Henry Drummond, Esq.; edited by Lord Lovaine; in two volumes, vol. II'
+    author: 'Henry Drummond'
+    year: '1860'
+    world: catholic-apostolic-church-irvingites
+    why: 'Era 9 batch 2b, located and not yet taken: wanted row 257, Henry Drummond, his speeches and pamphlets, vol. 2 (vol. 1 is held).'
+    url: https://archive.org/details/speechesinparlia02drumuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1860); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 9, the located volumes: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,051,053 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: drummond-henry_speeches-in-parliament-v2_lovaine1860.txt
+  - title: 'The Pentateuch and Book of Joshua Critically Examined; part III'
+    author: 'John William Colenso'
+    year: '1863'
+    world: victorian-church-of-england
+    why: 'Era 9 batch 2b, located and not yet taken: wanted row 274, John William Colenso, The Pentateuch and Book of Joshua (the list called this scan part 2; its title page prints part III; part I is held and part II was not found).'
+    url: https://archive.org/details/pentateuchandbo01colegoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1863); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 9, the located volumes: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 755,007 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: colenso_pentateuch-and-book-of-joshua-pt3_1863.txt
+  - title: 'The Life of John William Colenso, D.D., Bishop of Natal; in two volumes, vol. I'
+    author: 'George W. Cox'
+    year: '1888'
+    world: victorian-church-of-england
+    why: 'Era 9 batch 2b, located and not yet taken: wanted row 274, John William Colenso, the Life by Cox, vol. 1.'
+    url: https://archive.org/details/lifeofjohnwillia01coxg
+    rights_basis: 'Public Domain (pd-us-by-date: published 1888); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 9, the located volumes: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,679,766 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: cox-george-w_life-of-john-william-colenso-v1_1888.txt
+  - title: 'History of the Student Volunteer Movement for Foreign Missions'
+    author: 'John R. Mott'
+    year: '1892'
+    world: the-student-volunteer-movement-and-edinburgh-191
+    why: 'Era 9 batch 2b, located and not yet taken: Mott''s history of the Student Volunteer Movement (1892).'
+    url: https://archive.org/details/historyofstudent00mott
+    rights_basis: 'Public Domain (pd-us-by-date: published 1892); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9, the located volumes: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 51,523 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: mott_history-of-the-student-volunteer-movement_1892.txt
+  - title: 'The Volunteer Pledge of the Student Volunteer Movement for Foreign Missions (Student Volunteer Series, No. 3)'
+    author: 'Robert P. Wilder'
+    year: '1890'
+    world: the-student-volunteer-movement-and-edinburgh-191
+    why: 'Era 9 batch 2b, located and not yet taken: Wilder''s pledge pamphlet (1890).'
+    url: https://archive.org/details/pledgeofstudentv00wild
+    rights_basis: 'Public Domain (pd-us-by-date: published 1890); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9, the located volumes: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 23,052 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: wilder_pledge-of-the-student-volunteer-movement_1890.txt
+  - title: 'A History of the Reformed Church, Dutch, the Reformed Church, German, and the Moravian Church in the United States (American Church History Series, vol. VIII)'
+    author: 'E. T. Corwin, J. H. Dubbs and J. T. Hamilton'
+    year: '1895'
+    world: moravian-church-after-1815
+    why: 'Era 9 batch 2b, located and not yet taken: wanted row 323, J. Taylor Hamilton, his history of the Moravians in the United States (1895).'
+    url: https://archive.org/details/ahistoryunitasf00hamigoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1895); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 9, the located volumes: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,116,492 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: corwin-dubbs-hamilton_american-church-history-v8-reformed-and-moravian_1895.txt
+  - title: 'Our Lady of Lourdes: the history of the miraculous sanctuary of Our Lady of Lourdes, in the department of the Upper Pyrenees, France; translated from the French of Henry Lasserre, with his special permission'
+    author: 'Henri Lasserre'
+    year: '1872'
+    world: catholic-church-long-nineteenth-century
+    why: 'Era 9 batch 2b, located and not yet taken: wanted row 277, Bernadette Soubirous: Lasserre in Sisk''s English of 1872 (another English version, of 1870, is held).'
+    url: https://archive.org/details/ourladylourdest00monzgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1872); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 9, the located volumes: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 688,066 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: lasserre_our-lady-of-lourdes_sisk1872.txt
+  - title: 'The Trial: the most notable lawsuit of ancient or modern times. The Incorporated Scientific Era Protection Society v. Paul Christman and others, in the Court of Common Reason. Issue: ''Did Christ rise from the dead?'' Verbatim report by a shorthand writer'
+    author: 'Robert Roberts'
+    year: '1908'
+    world: christadelphians
+    why: 'Era 9 batch 2b, located and not yet taken: wanted row 254, Robert Roberts: The Trial, in the printing of 1908.'
+    url: https://archive.org/details/thetrialofthemos00robeuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1908); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 9, the located volumes: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 866,711 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: roberts-robert_the-trial_1908.txt
+  - title: 'Is the Bible Divine? A six nights'' discussion between Mr. Charles Bradlaugh, of London, and Mr. Robert Roberts, of Birmingham, in Leicester and Birmingham, on June 13th, 14th, 15th, 20th, 21st and 22nd, 1876; with a review of the discussion by Mr. Roberts'
+    author: 'Robert Roberts and Charles Bradlaugh'
+    year: '1876'
+    world: christadelphians
+    why: 'Era 9 batch 2b, located and not yet taken: wanted row 254, Robert Roberts: his debate with Bradlaugh (1876).'
+    url: https://archive.org/details/isbibledivineas00robegoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1876); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 9, the located volumes: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 763,235 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: roberts-bradlaugh_is-the-bible-divine-six-nights-discussion_1876.txt
+  - title: 'The Minor Prophets'
+    author: 'John Gifford Bellett'
+    year: '1870'
+    world: plymouth-brethren-and-dispensational-formation
+    why: 'Era 9 batch 2b, located and not yet taken: wanted row 260, J. G. Bellett: The Minor Prophets (1870).'
+    url: https://archive.org/details/minorprophets00bell
+    rights_basis: 'Public Domain (pd-us-by-date: published 1870); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, era 9, the located volumes: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 163,478 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: bellett_minor-prophets_1870.txt
+  - title: 'The Evangelists: papers on the four Gospels; the Gospel by St. John; seventh edition'
+    author: 'John Gifford Bellett'
+    year: '1886'
+    world: plymouth-brethren-and-dispensational-formation
+    why: 'Era 9 batch 2b, located and not yet taken: wanted row 260, J. G. Bellett: The Evangelists (1886; the scan holds the part on John only).'
+    url: https://archive.org/details/11604936bsb
+    rights_basis: 'Public Domain (pd-us-by-date: published 1886); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9, the located volumes: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 311,955 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: bellett_evangelists-gospel-by-st-john_7th-ed1886.txt
+  - title: 'Biography and Family Record of Lorenzo Snow, one of the Twelve Apostles of the Church of Jesus Christ of Latter-day Saints; written and compiled by his sister'
+    author: 'Eliza R. Snow Smith'
+    year: '1884'
+    world: latter-day-saints-lds
+    why: 'Era 9 batch 2b, located and not yet taken: wanted row 252, Eliza R. Snow: her Life of her brother Lorenzo Snow (1884).'
+    url: https://archive.org/details/biographyfamilyr00snow
+    rights_basis: 'Public Domain (pd-us-by-date: published 1884); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9, the located volumes: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,408,401 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: snow_biography-and-family-record-of-lorenzo-snow_1884.txt
+  - title: 'Thirty-One Years of Rescue Work at Pacific Garden Mission: thirty-first annual report, September 15, 1908'
+    author: 'Pacific Garden Mission'
+    year: '1908'
+    world: the-rescue-mission-movement
+    why: 'Era 9 batch 2b, located and not yet taken: the Pacific Garden Mission''s annual reports (the list named 1895, 1907 and 1915; the two found report the years ended September 1908 and September 1916, and the report of 1895 was not found).'
+    url: https://archive.org/details/annualreportpaci1907paci
+    rights_basis: 'Public Domain (pd-us-by-date: published 1908); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, era 9, the located volumes: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 25,856 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: pacific-garden-mission_thirty-first-annual-report_1908.txt

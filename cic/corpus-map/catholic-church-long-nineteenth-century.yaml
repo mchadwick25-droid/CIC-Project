@@ -35,6 +35,24 @@ works:
     formation_confidence: Documented
   note: 'Era 9 row 200, Joseph Audo: the acts of the Vatican council.'
   source_file: collectio-lacensis_t7-acta-et-decreta-concilii-vaticani-lat_1892.txt
+- row_id: lasserre_our-lady-of-lourdes_sisk1872--lasserre-our-lady-of-lourdes-sisk
+  work: Lasserre, Our Lady of Lourdes, translated by F. Ignatius Sisk (1872)
+  author: lasserre
+  locus: books I-XI at OCR lines 778-21998; the Pope's brief at 337-485; add 12 to OCR line
+    numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1869
+    end: 1872
+    source: the Pope's brief to the author is dated 4 September 1869 (OCR lines 484-485);
+      this translation's title page reads 1872
+    formation_confidence: Documented
+  note: A history of the apparitions and the shrine, approved by a brief of Pius IX, in the
+    translation of a Cistercian of St. Bernard's Abbey. Bernadette's words reach the reader
+    through Lasserre and then through the translator.
+  source_file: lasserre_our-lady-of-lourdes_sisk1872.txt
 - row_id: lasserre_notre-dame-de-lourdes-fra_28e-ed1870--notre-dame-de-lourdes-vingt-huitieme-edition
   work: Notre-Dame de Lourdes; vingt-huitième édition
   author: lasserre
@@ -172,6 +190,22 @@ works:
     formation_confidence: Documented
   note: 'Era 9 row 278, Nicholas Wiseman: a Life told by another (vol. 1).'
   source_file: ward-wilfrid_life-and-times-of-cardinal-wiseman-v1_1897.txt
+- row_id: ward-wilfrid_life-and-times-of-cardinal-wiseman-v2_1897--ward-wiseman-v2
+  work: Ward, The Life and Times of Cardinal Wiseman, vol. II (1897)
+  author: ward-wilfrid
+  locus: chapters XIX-XXXI at OCR lines 186-25496; the appendices at 25499-28475; add 12 to
+    OCR line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1897
+    end: 1897
+    source: 'title page: 1897'
+    formation_confidence: Documented
+  note: A Life written thirty years after Wiseman's death, with many of his letters. The letters
+    are first-hand; the account is Ward's.
+  source_file: ward-wilfrid_life-and-times-of-cardinal-wiseman-v2_1897.txt
 - row_id: wiseman_appeal-to-the-english-people-catholic-hierarchy_1850--an-appeal-to-the-reason-and-good-feeling-of-the-english
   work: An Appeal to the Reason and Good Feeling of the English People on the Subject of the
     Catholic Hierarchy

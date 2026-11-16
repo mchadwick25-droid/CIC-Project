@@ -1,0 +1,13 @@
+source_file: maurice-f_life-of-frederick-denison-maurice-v2_1884.txt
+assignments:
+- row_id: maurice-f_life-of-frederick-denison-maurice-v2_1884--maurice-f-life-of-f-d-maurice-v2
+  work: 'F. Maurice, The Life of Frederick Denison Maurice, chiefly told in his own letters, vol. II (1884)'
+  author: maurice-f
+  locus: 'chapters I-XXII at OCR lines 459-28577; add 12 to OCR line numbers'
+  atlas_ids:
+  - victorian-church-of-england
+  role: context
+  confidence: provisional
+  language: eng
+  date: {start: 1884, end: 1884, source: "title page: 1884", formation_confidence: Documented}
+  note: 'His son''s Life, made chiefly of Maurice''s own letters. The letters are first-hand; the selection and the links are the son''s.'

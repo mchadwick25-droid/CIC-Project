@@ -26,6 +26,54 @@ works:
     formation_confidence: Documented
   note: 'Era 9 row 254, Robert Roberts: Christendom Astray.'
   source_file: roberts-robert_christendom-astray_1883.txt
+- row_id: roberts-bradlaugh_is-the-bible-divine-six-nights-discussion_1876--roberts-bradlaugh-debate-six-nights
+  work: Is the Bible Divine? The six nights' discussion between Bradlaugh and Roberts (June
+    1876)
+  author: roberts-robert
+  locus: the six nights at OCR lines 826-9893; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1876
+    end: 1876
+    source: 'title page: 1876; the nights are dated 13 to 22 June 1876'
+    formation_confidence: Documented
+  note: Roberts's side is the Christadelphian case for the Bible; Bradlaugh's speeches are
+    an opponent's, taken down in shorthand; by Roberts's own account Bradlaugh did not revise
+    the report of the last three nights. Quote each speaker as himself.
+  source_file: roberts-bradlaugh_is-the-bible-divine-six-nights-discussion_1876.txt
+- row_id: roberts-bradlaugh_is-the-bible-divine-six-nights-discussion_1876--roberts-review-of-the-discussion
+  work: Roberts, A Review of the Discussion with Mr. Bradlaugh (1876)
+  author: roberts-robert
+  locus: the review at OCR lines 9913-12885; the preface and correspondence at 219-825; add
+    12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1876
+    end: 1876
+    source: 'title page: 1876'
+    formation_confidence: Documented
+  note: Roberts's own afterword on the six nights, answering Bradlaugh point by point.
+  source_file: roberts-bradlaugh_is-the-bible-divine-six-nights-discussion_1876.txt
+- row_id: roberts-robert_the-trial_1908--roberts-the-trial
+  work: Roberts, The Trial (Birmingham, 1908)
+  author: roberts-robert
+  locus: the twelve sittings at OCR lines 630-14712; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1908
+    end: 1908
+    source: 'title page: 1908 (page image); the preface carries no date'
+    formation_confidence: Documented
+  note: A defense of the resurrection cast as a court case, with counsel, witnesses and a
+    verdict. The title page gives no author; the last leaf advertises Christendom Astray as
+    'by the same author'.
+  source_file: roberts-robert_the-trial_1908.txt
 - row_id: roberts-robert_ways-of-providence_1881--the-ways-of-providence-authentically-illustrated
   work: The Ways of Providence, authentically illustrated
   author: roberts-robert
