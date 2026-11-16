@@ -139,7 +139,7 @@ Original-language checks. "In file" means the file shows the form, at the line g
 - **FINAL:** "I am God's wheat. Let me be ground by the teeth of the wild beasts, so that I may be found the pure bread of Christ." (new: A's words, split into two sentences, one thought each)
 - **Original check:** The Greek is not held. B's "ἀλήθομαι" is **NOT IN FILE**. In file: ANF 1 line 7060, the other form, "I am the wheat of God, and am ground ... the pure bread of God"; Irenaeus's quotation at lines 53558-53560, "I am the wheat of Christ, and am ground ... the pure bread of God".
 - **Card note (uncertain):** Other English forms in the same volume read "I am ground" and "bread of God". The brief follows the form that reads "let me be ground".
-- **Brief carries:** A's joined form, "I am God's wheat, and let me be ground ...", which this comparison judged the same in meaning. The split FINAL takes the brief to grade 7.9, below the floor; the printed text is itself joined. See `README.md`.
+- **Brief carries:** A's joined form, "I am God's wheat, and let me be ground ...", which this comparison judged the same in meaning. The split FINAL takes the brief to grade 7.8 on its revised text (7.9 before round 1), below the floor; the printed text is itself joined. See `README.md`.
 
 ## E16 (ignatius-of-antioch; ANF 1, lines 8102-8103)
 - **Printed:** "But if these things were done by our Lord only in appearance, then am I also only in appearance bound."

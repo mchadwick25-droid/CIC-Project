@@ -12,6 +12,6 @@ Every quotation in the 20 Who briefs and the council brief comes from English pr
 
 Result: 19 same, 15 minor, 5 that change meaning (E7, E10, E20, E23, E24). The briefs carry the comparison's final readings, with two exceptions.
 
-**E15 (Ignatius) and E34 (Pontius).** The comparison judged both renderings the same in meaning and then split each into two sentences. The split took both briefs to grade 7.9, below the floor of 8. The briefs keep the writers' joined forms, "and let me be ground" and "yet I grieve more", which the comparison passed as "same" and which follow the printed text's own joining ("and let me be ground", "but still more do I grieve"). No word differs otherwise.
+**E15 (Ignatius) and E34 (Pontius).** The comparison judged both renderings the same in meaning and then split each into two sentences. The split took both briefs to grade 7.9, below the floor of 8 (Ignatius 7.8 on its text after round 1). The briefs keep the writers' joined forms, "and let me be ground" and "yet I grieve more", which the comparison passed as "same" and which follow the printed text's own joining ("and let me be ground", "but still more do I grieve"). No word differs otherwise.
 
 E31 and E39 are one sentence of Dionysius of Alexandria, used in his own brief and in the council's, with one final reading.

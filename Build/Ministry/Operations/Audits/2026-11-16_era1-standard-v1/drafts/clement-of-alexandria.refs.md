@@ -99,3 +99,9 @@ Review: `reviews/round1-g4.md`. Verdict was BLOCKED on one finding.
 - **Quotations:** none added, removed or reworded.
 - Readability: grade 9.2 (names out 7.5), reading ease 72.8. The first draft of this fix, with longer sentences, went to grade 10.2; the sentences were split.
 
+
+## Round 2 revision
+
+Review: `reviews/round2-g4.md`. B1 closed; one new finding from the round 1 revision, fixed with the reviewer's accepted wording.
+
+- **N1:** "Clement's answer to those critics was that God is the cause of every good thing." ("His answer" had come straight after the Pantaenus sentence and read as Pantaenus's.)

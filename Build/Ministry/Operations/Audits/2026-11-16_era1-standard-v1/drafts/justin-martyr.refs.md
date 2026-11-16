@@ -114,3 +114,10 @@ Review: `reviews/round1-g4.md`. Verdict was BLOCKED on two findings, both on my 
 - **Quotations:** none added, removed or reworded.
 - Readability: grade 9.1 (names out 8.2), reading ease 70.1.
 
+
+## Round 2 revision
+
+Review: `reviews/round2-g4.md`. B1 and B2 closed; two new findings from the round 1 revision, each fixed with the reviewer's accepted wording.
+
+- **N1:** "Eusebius of Caesarea follows the petition ..." (first mention now carries his place); later "Eusebius says the plot succeeded ...".
+- **N2:** "Justin expected to be plotted against, he wrote, perhaps by Crescens, a Cynic philosopher." (the subject is now plain after the two Eusebius sentences).

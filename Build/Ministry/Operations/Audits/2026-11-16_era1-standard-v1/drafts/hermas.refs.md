@@ -104,3 +104,9 @@ Review: `reviews/round1-g1.md`. Verdict was BLOCKED on three findings. Each fix 
 - **Quotations:** none added, removed or reworded.
 - Readability: grade 8.4 (names out 8.0), at the floor; reading ease 72.6.
 
+
+## Round 2 revision
+
+Review: `reviews/round2-g1.md`, which cleared the brief. One non-blocking note taken because it bears on accuracy: after the round 1 limit ("for those baptized before this time"), "So a husband must take back ..." made the husband's rule look like part of the limited concession. Commandment 4.1 (A2 1924-1934) gives the rule on its own.
+- Old: "So a husband must take back an unfaithful wife who repents ..."
+- New: "In the same book he says a husband must take back an unfaithful wife who repents ..."
