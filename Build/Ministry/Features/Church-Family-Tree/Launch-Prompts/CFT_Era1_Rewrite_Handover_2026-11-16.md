@@ -52,6 +52,7 @@ There is no separate source check (Mark, 2026-11-16: "Drop it, fold the test int
 - **Polycrates of Ephesus:** "the Roman practice won" rests on McGiffert alone. Tell it through an ancient witness, or say plainly where the record stops. McGiffert goes to the card.
 - **Marcion of Pontus:** the card's tradition reads "Marcionism"; the census has "Marcion / Marcionism". Use the census name, and fix the live card in this era's release.
 - **Era 1 records:** batches 1 to 3 cite chapters only, with no file or line numbers. Add file and lines for every claim.
+- **No reference to the tree** (Mark, 2026-11-16: "do we need to say 'the tree calls', i thing the anatolian church or the others"). A brief, and card prose meant for listeners, names the tradition directly and never says "the tree", "on the map" or "the census" (pattern checklist item 18). Check every era 1 brief and card for it.
 - **Seen in all 12 sampled briefs across eras** (`Build/Ministry/Operations/Audits/`, sample read of 2026-11-16, page https://claude.ai/artifact/8PDCPGAj1hHs3iUQ6KKwTW):
   - an opening that starts on a scene with no setting;
   - modern scholars named in the brief;

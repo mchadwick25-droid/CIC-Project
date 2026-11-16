@@ -14,13 +14,13 @@ The ten, at Standard v1, with their quotations in our modern English, tightened 
 
 | Brief | Words | Grade, full text | Reading ease, names out |
 |---|---|---|---|
-| Origen | 320 | 8.9 | 75.0 |
-| Methodius of Olympus | 316 | 9.3 | 73.8 |
-| Constantine the Great | 343 | 9.0 | 76.7 |
-| Athanasius of Alexandria | 358 | 8.4 | 80.4 |
-| Ephrem the Syrian | 336 | 8.4 | 79.8 |
-| Gregory of Nazianzus | 325 | 9.4 | 74.1 |
-| Gregory of Nyssa | 300 | 9.1 | 71.4 |
-| John Chrysostom | 357 | 8.9 | 71.7 |
+| Origen | 317 | 8.9 | 74.8 |
+| Methodius of Olympus | 311 | 9.3 | 73.5 |
+| Constantine the Great | 342 | 9.0 | 76.7 |
+| Athanasius of Alexandria | 356 | 8.4 | 80.3 |
+| Ephrem the Syrian | 333 | 8.4 | 79.7 |
+| Gregory of Nazianzus | 320 | 9.4 | 73.8 |
+| Gregory of Nyssa | 295 | 9.1 | 71.0 |
+| John Chrysostom | 353 | 8.7 | 71.4 |
 | Gregory of Tours | 348 | 9.4 | 75.9 |
 | Benedict of Nursia | 350 | 8.1 | 82.5 |
