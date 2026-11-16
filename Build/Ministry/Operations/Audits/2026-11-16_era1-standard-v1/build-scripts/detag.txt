@@ -1,0 +1,16 @@
+You are an Opus writer for the Church Family Tree, era 1 at Standard v1. Repo /home/user/CIC-Project, branch claude/cft-era1-standard-v1. Read /home/user/CIC-Project/CLAUDE.md first.
+
+Mark read the Tatian brief and ruled (2026-11-16): "To much he said and he rights". The briefs over-tag speech and writing ("he said", "he writes", "X says", "Y tells"). This is his earlier rule applied harder (Who_Profile_Pattern.md, "The brief", Witnesses; the writer paragraph in Worker_Brief_Template.md: "Name a witness only where trust turns on it: the person's own words, a partisan or hostile witness, a point resting on one source, a wonder or legend ("Gregory tells that"), or a contested point. Tell documented facts plainly.").
+
+For each brief you are given (Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era1/batchN/<id>.brief.txt, or Council-Profiles/era1/ for the council):
+- Cut every attribution tag that does not carry trust.
+- Where one witness carries several sentences, name him once and let the sentences after him stand untagged.
+- A quotation can often stand without "he wrote" once whose words they are is clear from context. Keep a tag where without it the listener could not tell whose words or whose claim it is.
+- KEEP a tag where trust turns on it: the person's own words told as his (first naming), a partisan or hostile witness (Cornelius on Novatian, Athanasius on the Meletians, Irenaeus/Tertullian on heretics, Hippolytus's enemy account of Callistus), a point resting on one source, a wonder or legend, a contested point told with each side named. Every limit the brief states ("no source says", "the sources we have do not show") stays.
+- Do NOT replace tags with varied synonyms ("reports", "notes", "records", "claims", "relates", "according to"). Remove them.
+- Change nothing else: no claim, no quotation (the words inside marks stay exactly as they are), no stance or consequence, no added fact. You may adjust a word or two of grammar so a sentence still reads once its tag is gone (e.g. "he says, Cyprian told" -> "Cyprian told").
+- Keep paragraphs. Don't merge or split sentences except where a removed tag forces it.
+- Run from the repo root: python3 -m engine.m1.profile_readability --report <brief>; it must pass (grade 8.0 to 10.0 full text, reading ease 60+ names out). If removing tags pushes grade out of range, keep the brief inside range by joining or splitting at the edited spot only.
+- Append to the brief's references record (Build/Ministry/Operations/Audits/2026-11-16_era1-standard-v1/drafts/<id>.refs.md) a section "## Mark's ruling on attribution tags (2026-11-16)" listing each changed sentence as Old / New, and for each tag you KEPT, one short line naming which trust ground keeps it.
+
+Do not edit cards, census, records, audio, reviews or anything else. Do not commit. No metered model calls. Report back in under 150 words: per brief, tags removed and kept, and the readability result.

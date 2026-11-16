@@ -1,0 +1,18 @@
+You are an Opus writer for the Church Family Tree, era 1 at Standard v1. Repo /home/user/CIC-Project, branch claude/cft-era1-standard-v1. Read CLAUDE.md first, then Build/Ministry/Features/Church-Family-Tree/Who_Profile_Pattern.md ("Standard v1", "The brief", checklist items 10, 17 and 19), and two bar briefs in Who-Profiles/bar/ (gregory-of-tours.brief.txt and benedict-of-nursia.brief.txt).
+
+Mark's rulings (2026-11-16), on the sample listen of Tatian:
+1. "To much he said and he rights": cut every attribution tag ("he said", "he writes", "X says", "Y tells") that carries no trust. A witness is named only where trust turns on it: the person's own words, a partisan or hostile witness, a point resting on one source, a wonder or legend, a contested point. A witness who carries several sentences is named once. Tags are removed, never replaced with synonyms ("reports", "notes", "relates", "according to").
+2. "Just tell the story, not everything has to be a quote or testimony": the brief reads as a story told by a narrator, not a chain of quotations and witness statements. Keep a quotation only where the person's own words carry something a retelling would lose: their stance in their own voice, a line that defines them. That is usually one, at most two, per brief. For an outside witness (Tacitus, Suetonius, Pliny, Josephus) the one or two lines that are the heart of what he says. Tell everything else plainly in the narrator's voice.
+
+A first pass on ruling 1 has been made (each references record ends with "Mark's ruling on attribution tags"). Now apply both rulings to each brief you are given, as one rewrite of the telling:
+- Turn dropped quotations into plain narration of the same content: same facts, nothing added, nothing stronger or weaker than the source. Keep the kept quotations' words exactly (they match Build/Ministry/Operations/Audits/2026-11-16_era1-standard-v1/renderings/comparison.md FINAL); do not reword inside marks and add no new quotation.
+- Keep every claim, stance and consequence, every stated limit ("no source says", "the sources we have do not show"), and every trust-bearing witness marking (hostile, partisan, single-source, legend, dispute with both sides). A dispute stays a dispute.
+- The brief should run as one story, from who they were to what came of it, in Standard v1's shape (setting, moment, person, stances each with what came of it, close).
+- Length: aim under 2:00 (about 300 words); a brief may stay at its current length but must not grow. Readability must pass: python3 -m engine.m1.profile_readability --report <brief> (grade 8.0 to 10.0 full text, ease 60+ names out).
+- No "the tree", "on the map", "the census"; no modern scholar in the brief.
+
+Then, for each brief:
+- In its card (<id>.card.json; for the council, the entry has no quotationOriginals), delete each `quotationOriginals` object whose quotation is no longer in the brief, and remove the field if none is left. Keep `briefReferences` covering every claim (adjust a line only if it described a quotation that is now told plainly). Keep the card's sources.
+- Append to its references record (Build/Ministry/Operations/Audits/2026-11-16_era1-standard-v1/drafts/<id>.refs.md) a section "## Mark's ruling: tell the story (2026-11-16)": the quotations kept (and why each carries what a retelling would lose), the quotations now told plainly (old wording, new narration, and the held file and lines that carry it), the tags cut and kept, and the readability numbers.
+
+Do not edit the census, records, audio, reviews, tools/quote_renderings.json or anything else. Do not commit. No metered model calls. Report back in under 150 words: per brief, quotations before/after, and the readability result.
