@@ -1,0 +1,3212 @@
+[
+ {
+  "file": "abelard_opera-pl178-lat_migne1885.txt",
+  "status": "differ",
+  "header": "1885 (the same leaf)",
+  "host_items": {
+   "patrologiaecur178mign": {
+    "date": "1800",
+    "year": null,
+    "title": "Patrologiae cursus completus : Series latina"
+   }
+  }
+ },
+ {
+  "file": "acta-sanctorum_aprilis-tomus-3-lat_palme1866.txt",
+  "status": "host item not found",
+  "header": "1866 (title page)",
+  "host_items": [
+   "actasanctorum12unse"
+  ]
+ },
+ {
+  "file": "acta-sanctorum_junii-tomus-5-lat_palme1867.txt",
+  "status": "differ",
+  "header": "1867 (title page)",
+  "host_items": {
+   "actasanctorumquo24boll": {
+    "date": "1863",
+    "year": null,
+    "title": "Acta sanctorum quotquot toto orbe coluntur : vel a catholicis scriptoribus celeb"
+   }
+  }
+ },
+ {
+  "file": "acta-sanctorum_maii-tomus-5-lat_palme1866.txt",
+  "status": "host gives no date",
+  "header": "1866 (title page, OCR lines 246 and 286)",
+  "host_items": [
+   "actasanctorum18unse"
+  ]
+ },
+ {
+  "file": "acta-sanctorum_martii-tomus-1-lat_palme1865.txt",
+  "status": "differ",
+  "header": "1865 (title page)",
+  "host_items": {
+   "actasanctorumquo0007unse": {
+    "date": "1863",
+    "year": null,
+    "title": "Acta sanctorum quotquot toto orbe coluntur : vel a catholicis scriptoribus celeb"
+   }
+  }
+ },
+ {
+  "file": "acta-sanctorum_martii-tomus-2-lat_palme1865.txt",
+  "status": "differ",
+  "header": "1865 (the engraved title page, read on the page image of the scan (leaf n8: 'M.DCCC.LXV'); the OCR cuts the year off at line 123)",
+  "host_items": {
+   "actasanctorumquo0008unse": {
+    "date": "1863",
+    "year": "1863",
+    "title": "Acta sanctorum quotquot toto orbe coluntur : vel a catholicis scriptoribus celeb"
+   }
+  }
+ },
+ {
+  "file": "acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt",
+  "status": "differ",
+  "header": "1865 (title page)",
+  "host_items": {
+   "actasanctorumquo0000unse": {
+    "date": "1863",
+    "year": null,
+    "title": "Acta sanctorum quotquot toto orbe coluntur : vel a catholicis scriptoribus celeb"
+   }
+  }
+ },
+ {
+  "file": "acta-sanctorum_octobris-tomus-10-lat_bruxelles1861.txt",
+  "status": "differ",
+  "header": "1861 (title page, MDCCCLXI, read on the page image, leaf n10; the OCR at about line 278 reads 'MDCCCLXT')",
+  "host_items": {
+   "actasanctorumquo0058unse_j9h6": {
+    "date": "1863",
+    "year": null,
+    "title": "Acta sanctorum quotquot toto orbe coluntur : vel a catholicis scriptoribus celeb"
+   }
+  }
+ },
+ {
+  "file": "aelred-rievaulx_opera-pl195-lat_migne1855.txt",
+  "status": "differ",
+  "header": "1855 (title page)",
+  "host_items": {
+   "patrologiaecursu0195mign": {
+    "date": "1844",
+    "year": null,
+    "title": "Patrologiae cursus completus, sive biblioteca universalis, integra, uniformis, c"
+   }
+  }
+ },
+ {
+  "file": "al-maqqari_history-of-the-mohammedan-dynasties-in-spain-v1_gayangos1840.txt",
+  "status": "host gives no date",
+  "header": "1840 (title page)",
+  "host_items": [
+   "spain-history-volume-1"
+  ]
+ },
+ {
+  "file": "anselm-canterbury_opera-with-eadmer-historia-novorum-pl159-lat_migne1903.txt",
+  "status": "differ",
+  "header": "1903 (title page)",
+  "host_items": {
+   "patrologiaecur159mign": {
+    "date": "1800",
+    "year": null,
+    "title": "Patrologiae cursus completus : Series latina"
+   }
+  }
+ },
+ {
+  "file": "anselm-canterbury_opera-with-eadmer-vita-anselmi-pl158-lat_migne1864.txt",
+  "status": "differ",
+  "header": "1864 (title page)",
+  "host_items": {
+   "patrologiaecur158mign": {
+    "date": "1800",
+    "year": null,
+    "title": "Patrologiae cursus completus : Series latina"
+   }
+  }
+ },
+ {
+  "file": "antiochus-strategos_sack-of-jerusalem-614_conybeare1910.txt",
+  "status": "host gives no date",
+  "header": "1910 (title page, read directly)",
+  "host_items": [
+   "cony1910ehrstrategosjerusalem"
+  ]
+ },
+ {
+  "file": "antiphonary-of-bangor-pt2-lat_warren1895.txt",
+  "status": "differ",
+  "header": "",
+  "host_items": {
+   "antiphonaryofban02cath": {
+    "date": "1893",
+    "year": null,
+    "title": "The antiphonary of Bangor; an early Irish manuscript in the Ambrosian library at"
+   }
+  }
+ },
+ {
+  "file": "archpriest-controversy_documents-v1-1597-1601_law1896.txt",
+  "status": "differ",
+  "header": "1896 (title page: M.DCCC.XCVI)",
+  "host_items": {
+   "archpriestcont01camduoft": {
+    "date": "1838-1901",
+    "year": null,
+    "title": "The Archpriest Controversy"
+   }
+  }
+ },
+ {
+  "file": "archpriest-controversy_documents-v2-1601-1603_law1898.txt",
+  "status": "differ",
+  "header": "1898 (title page: 1898)",
+  "host_items": {
+   "archpriestcontr02camduoft": {
+    "date": "1838-1901",
+    "year": null,
+    "title": "The Archpriest Controversy"
+   }
+  }
+ },
+ {
+  "file": "aristides_apology-syriac-grc-eng_harris-robinson1893.txt",
+  "status": "differ",
+  "header": "1893",
+  "host_items": {
+   "apologyofaristid00arisrich": {
+    "date": "1891",
+    "year": null,
+    "title": "The Apology of Aristides on behalf of the Christians : from a Syriac ms. preserv"
+   }
+  }
+ },
+ {
+  "file": "asser_life-of-king-alfred_cook1906.txt",
+  "status": "host gives no date",
+  "header": "1906 (copyright notice; the record gives [c1906])",
+  "host_items": [
+   "asserslifeofking00asseiala"
+  ]
+ },
+ {
+  "file": "athenagoras_de-resurrectione-grc_otto1857.txt",
+  "status": "host gives no date",
+  "header": "1857 (printed edition)",
+  "host_items": [
+   "named"
+  ]
+ },
+ {
+  "file": "athenagoras_legatio-grc_otto1857.txt",
+  "status": "host gives no date",
+  "header": "1857 (printed edition)",
+  "host_items": [
+   "named"
+  ]
+ },
+ {
+  "file": "augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt",
+  "status": "differ",
+  "header": "",
+  "host_items": {
+   "patrologiaecursu0042mign": {
+    "date": "1844",
+    "year": null,
+    "title": "Patrologiae cursus completus, sive biblioteca universalis, integra, uniformis, c"
+   }
+  }
+ },
+ {
+  "file": "augustine_civitate-dei-1-13-lat_hoffmann-csel40-1.txt",
+  "status": "differ",
+  "header": "1899",
+  "host_items": {
+   "sanctiaureliaugu401augu": {
+    "date": "1887",
+    "year": null,
+    "title": "Sancti Aureli Augustini Opera"
+   },
+   "corpusscriptorum0040unse": {
+    "date": "1866",
+    "year": null,
+    "title": "Corpus scriptorum ecclesiasticorum latinorum"
+   }
+  }
+ },
+ {
+  "file": "augustine_civitate-dei-14-22-lat_hoffmann-csel40-2.txt",
+  "status": "differ",
+  "header": "1900",
+  "host_items": {
+   "sanctiaureliaugu402augu": {
+    "date": "1887",
+    "year": null,
+    "title": "Sancti Aureli Augustini Opera"
+   },
+   "corpusscriptorum0040unse": {
+    "date": "1866",
+    "year": null,
+    "title": "Corpus scriptorum ecclesiasticorum latinorum"
+   }
+  }
+ },
+ {
+  "file": "augustine_confessiones-lat_knoll-csel33.txt",
+  "status": "differ",
+  "header": "1896",
+  "host_items": {
+   "sanctiaureliaugu33augu": {
+    "date": "1887",
+    "year": null,
+    "title": "Sancti Aureli Augustini Opera"
+   },
+   "sanctiaureliaugu0033augu": {
+    "date": "1887",
+    "year": null,
+    "title": "Sancti Aureli Augustini Opera"
+   }
+  }
+ },
+ {
+  "file": "augustine_de-fide-et-symbolo-de-opere-monachorum-et-al-lat_zycha-csel41.txt",
+  "status": "differ",
+  "header": "1900",
+  "host_items": {
+   "sanctiaureliaugu41augu": {
+    "date": "1887",
+    "year": null,
+    "title": "Sancti Aureli Augustini Opera"
+   }
+  }
+ },
+ {
+  "file": "augustine_epistulae-1-123-lat_goldbacher-csel34.txt",
+  "status": "differ",
+  "header": "1895 (Pars I) / 1898 (Pars II)",
+  "host_items": {
+   "sanctiaureliaugu34augu": {
+    "date": "1887",
+    "year": null,
+    "title": "Sancti Aureli Augustini Opera"
+   }
+  }
+ },
+ {
+  "file": "augustine_epistulae-124-184a-lat_goldbacher-csel44.txt",
+  "status": "differ",
+  "header": "1904",
+  "host_items": {
+   "sanctiaureliaugu44augu": {
+    "date": "1887",
+    "year": null,
+    "title": "Sancti Aureli Augustini Opera"
+   }
+  }
+ },
+ {
+  "file": "augustine_oeuvres-completes-tome13-donatistes-slice-fra_raulx1869.txt",
+  "status": "differ",
+  "header": "1869 (read on the title-page image; the OCR of the title page at item line 71 misreads it as \"1860\")",
+  "host_items": {
+   "oeuvrescomplt13augu": {
+    "date": "1864",
+    "year": null,
+    "title": "Oeuvres complètes de saint Augustin"
+   }
+  }
+ },
+ {
+  "file": "augustine_oeuvres-completes-tome15-donatistes-slice-fra_raulx1870.txt",
+  "status": "differ",
+  "header": "1870 (printed on the title page; OCR \"1870\" at item line 84 of the file)",
+  "host_items": {
+   "oeuvrescomplt15augu": {
+    "date": "1864",
+    "year": null,
+    "title": "Oeuvres complètes de saint Augustin"
+   }
+  }
+ },
+ {
+  "file": "augustine_retractationes-lat_knoll-csel36.txt",
+  "status": "differ",
+  "header": "1902",
+  "host_items": {
+   "sanctiaureliaugu36augu": {
+    "date": "1887",
+    "year": null,
+    "title": "Sancti Aureli Augustini Opera"
+   }
+  }
+ },
+ {
+  "file": "augustine_sermones-341-396-et-appendix-lat_migne-pl39.txt",
+  "status": "differ",
+  "header": "1863 (the title page prints 1863 at file line 171)",
+  "host_items": {
+   "patrologiae_cursus_completus_lat_vol_039": {
+    "date": "1865",
+    "year": null,
+    "title": "Patrologiae Cursus Completus - Latin - Volume 39"
+   }
+  }
+ },
+ {
+  "file": "avitus-vienne_opera-mgh-aa-6-2-lat_peiper1883.txt",
+  "status": "differ",
+  "header": "",
+  "host_items": {
+   "p2monumentagerma06geseuoft": {
+    "date": "(1877-1919)",
+    "year": null,
+    "title": "Monumenta Germaniae historica. Auctorum antiquissimorum"
+   }
+  }
+ },
+ {
+  "file": "bardenhewer_geschichte-altkirchlichen-literatur-band2-cyprian-slice-deu_2e-aufl1914.txt",
+  "status": "differ",
+  "header": "1914 (printed on the title page, item line 42 of the file)",
+  "host_items": {
+   "geschichtederalt02bard": {
+    "date": "1913",
+    "year": null,
+    "title": "Geschichte der altkirchlichen literatur"
+   }
+  }
+ },
+ {
+  "file": "bardenhewer_geschichte-altkirchlichen-literatur-band4-augustinus-slice-deu_1924.txt",
+  "status": "differ",
+  "header": "1924 (read on the title-page image; the imprimatur is dated Freiburg, 5 September 1923; the OCR of the year is garbled)",
+  "host_items": {
+   "geschichtederalt04bard": {
+    "date": "1913",
+    "year": null,
+    "title": "Geschichte der altkirchlichen literatur"
+   }
+  }
+ },
+ {
+  "file": "barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt",
+  "status": "host gives no date",
+  "header": "",
+  "host_items": [
+   "BarHebraeusChroniconEcclesiasticumVol.3"
+  ]
+ },
+ {
+  "file": "bavinck_philosophy-of-revelation_1909.txt",
+  "status": "differ",
+  "header": "1909 (OCR line 98, on the title page)",
+  "host_items": {
+   "philosophyrevel00bavigoog": {
+    "date": "1908",
+    "year": "1908",
+    "title": "The Philosophy of Revelation"
+   }
+  }
+ },
+ {
+  "file": "bellett_evangelists-gospel-by-st-john_7th-ed1886.txt",
+  "status": "host item not found",
+  "header": "1886 (the part's title page, OCR line 78; the collective title page at lines 4-23 prints no year)",
+  "host_items": [
+   "11604936bsb"
+  ]
+ },
+ {
+  "file": "bernard-clairvaux_life-and-works-v1_eales1889.txt",
+  "status": "differ",
+  "header": "1889 (title page)",
+  "host_items": {
+   "LifeWorksOfSBernardClairvauxV1": {
+    "date": "1893",
+    "year": "1893",
+    "title": "Life And Works Of Saint Bernard, Abbot Of Clairvaux, Volume 1"
+   }
+  }
+ },
+ {
+  "file": "bernard-clairvaux_life-and-works-v2_eales1889.txt",
+  "status": "differ",
+  "header": "1889 (title page, second edition)",
+  "host_items": {
+   "LifeWorksOfSBernardClairvauxV2": {
+    "date": "1893",
+    "year": "1893",
+    "title": "Life And Works Of Saint Bernard, Abbot Of Clairvaux, Volume 2"
+   }
+  }
+ },
+ {
+  "file": "bernard-clairvaux_opera-t1-pl182-lat_migne1879.txt",
+  "status": "differ",
+  "header": "1879 (title page, read on the page image; the OCR misreads it)",
+  "host_items": {
+   "patrologiaecursu0182mign": {
+    "date": "1844",
+    "year": null,
+    "title": "Patrologiae cursus completus, sive biblioteca universalis, integra, uniformis, c"
+   }
+  }
+ },
+ {
+  "file": "bernard-clairvaux_opera-t2-sermones-pl183-lat_migne1854.txt",
+  "status": "differ",
+  "header": "1854 (title page)",
+  "host_items": {
+   "patrologiaecursu0183mign": {
+    "date": "1844",
+    "year": "1844",
+    "title": "Patrologiae cursus completus, sive biblioteca universalis, integra, uniformis, c"
+   }
+  }
+ },
+ {
+  "file": "bernardino-of-siena_prediche-volgari-1427-v2-ita_banchi1884.txt",
+  "status": "differ",
+  "header": "1884",
+  "host_items": {
+   "lepredichevolgar02bern": {
+    "date": "1880",
+    "year": null,
+    "title": "Le prediche volgari"
+   }
+  }
+ },
+ {
+  "file": "blair-robertson_philippine-islands-v07_1903.txt",
+  "status": "host gives no date",
+  "header": "1903 (the year the host catalogue gives for this volume; the Gutenberg transcription carries no imprint line, and the fifty-five volumes of the series were printed 1903-1909, every year of which is more than 95 years before 2026)",
+  "host_items": [
+   "thephilippineisl13701gut"
+  ]
+ },
+ {
+  "file": "blair-robertson_philippine-islands-v12_1904.txt",
+  "status": "host gives no date",
+  "header": "1904 (the year the host catalogue gives for this volume; the Gutenberg transcription carries no imprint line, and the fifty-five volumes of the series were printed 1903-1909, every year of which is more than 95 years before 2026)",
+  "host_items": [
+   "thephilippineisl15022gut"
+  ]
+ },
+ {
+  "file": "blair-robertson_philippine-islands-v13_1904.txt",
+  "status": "host gives no date",
+  "header": "1904 (the year the host catalogue gives for this volume; the Gutenberg transcription carries no imprint line, and the fifty-five volumes of the series were printed 1903-1909, every year of which is more than 95 years before 2026)",
+  "host_items": [
+   "thephilippineisl15184gut"
+  ]
+ },
+ {
+  "file": "blair-robertson_philippine-islands-v34_1906.txt",
+  "status": "host gives no date",
+  "header": "1906 (the year the host catalogue gives for this volume; the Gutenberg transcription carries no imprint line, and the fifty-five volumes of the series were printed 1903-1909, every year of which is more than 95 years before 2026)",
+  "host_items": [
+   "thephilippineisl47927gut"
+  ]
+ },
+ {
+  "file": "blair-robertson_philippine-islands-v52_1907.txt",
+  "status": "differ",
+  "header": "1907 (line 92 of this file, on the title page)",
+  "host_items": {
+   "philippineisland52blai": {
+    "date": "1903",
+    "year": null,
+    "title": "The Philippine Islands, 1493-1803 : explorations by early navigators, descriptio"
+   }
+  }
+ },
+ {
+  "file": "book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt",
+  "status": "host gives no date",
+  "header": "1911",
+  "host_items": [
+   "thebookofconcord00unknuoft"
+  ]
+ },
+ {
+  "file": "booth-tucker_life-of-catherine-booth-v1_1893.txt",
+  "status": "differ",
+  "header": "1893 (the copyright notice on the title leaf, OCR lines 68-71 ('Entered according to Act of Congress, in the year 1893, by William Booth'); the title page prints no year (page image, leaf n10))",
+  "host_items": {
+   "lifeofcatherineb01bootiala": {
+    "date": "[1892]",
+    "year": null,
+    "title": "The life of Catherine Booth : the mother of the Salvation Army"
+   }
+  }
+ },
+ {
+  "file": "borgia_sanctus-franciscus-borgia-v3-lat_1908.txt",
+  "status": "differ",
+  "header": "1908",
+  "host_items": {
+   "sanctusfranciscu59borj": {
+    "date": "1894",
+    "year": "1894",
+    "title": "Sanctus Franciscus Borgia, quartus Gandiae dux et Societatis Jesu praepositus ge"
+   }
+  }
+ },
+ {
+  "file": "borgia_sanctus-franciscus-borgia-v4-lat_1910.txt",
+  "status": "differ",
+  "header": "1910",
+  "host_items": {
+   "sanctusfranciscu60borj": {
+    "date": "1894",
+    "year": "1894",
+    "title": "Sanctus Franciscus Borgia, quartus Gandiae dux et Societatis Jesu praepositus ge"
+   }
+  }
+ },
+ {
+  "file": "borgia_sanctus-franciscus-borgia-v5-lat_1911.txt",
+  "status": "differ",
+  "header": "1911",
+  "host_items": {
+   "sanctusfranciscu61borj": {
+    "date": "1894",
+    "year": "1894",
+    "title": "Sanctus Franciscus Borgia, quartus Gandiae dux et Societatis Jesu praepositus ge"
+   }
+  }
+ },
+ {
+  "file": "briggs-trial_case-against-professor-briggs-pt3_1893.txt",
+  "status": "differ",
+  "header": "1893 (OCR line 52, on the title page)",
+  "host_items": {
+   "caseagainstprofe0105brig": {
+    "date": "1892",
+    "year": null,
+    "title": "The case against Professor Briggs"
+   }
+  }
+ },
+ {
+  "file": "brosset_histoire-de-la-georgie-pt2-histoire-moderne-livr2-fra_1857.txt",
+  "status": "host gives no date",
+  "header": "1857 (title page, read directly)",
+  "host_items": [
+   "BrossetHistGeo2"
+  ]
+ },
+ {
+  "file": "bruno-cologne_opera-omnia-with-acta-pl152-lat_migne1879.txt",
+  "status": "differ",
+  "header": "1879 (title page, read on the page image)",
+  "host_items": {
+   "patrologiaecursu152mign": {
+    "date": "1800",
+    "year": null,
+    "title": "Patrologiae cursus completus : Series latina"
+   }
+  }
+ },
+ {
+  "file": "bullarium-franciscanum_v5-lat_eubel1898.txt",
+  "status": "differ",
+  "header": "1898",
+  "host_items": {
+   "bullariumfranciscanum_v": {
+    "date": "1798",
+    "year": null,
+    "title": "Bullarium Franciscanum V"
+   }
+  }
+ },
+ {
+  "file": "burchard_diarium-tome-2-1492-1499-lat_thuasne1884.txt",
+  "status": "differ",
+  "header": "1884",
+  "host_items": {
+   "johannisburchard02burc": {
+    "date": "1883",
+    "year": null,
+    "title": "Johannis Burchardi Argentinensis capelle pontificie sacrorum rituum magistri dia"
+   }
+  }
+ },
+ {
+  "file": "calecas_opera-omnia-pg152-grc-lat_migne1866.txt",
+  "status": "differ",
+  "header": "1866",
+  "host_items": {
+   "patrologicursus63migngoog": {
+    "date": "1857",
+    "year": "1865",
+    "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, sc"
+   }
+  }
+ },
+ {
+  "file": "cassiodorus_opera-institutiones-pl70-lat_migne1847.txt",
+  "status": "differ",
+  "header": "",
+  "host_items": {
+   "patrologiaecursu70mign": {
+    "date": "1800",
+    "year": null,
+    "title": "Patrologiae cursus completus : Series latina"
+   }
+  }
+ },
+ {
+  "file": "cathay-and-the-way-thither_vol3-missionary-friars-pegolotti-marignolli_yule-cordier1914.txt",
+  "status": "differ",
+  "header": "1914",
+  "host_items": {
+   "cathaywaythither03yule": {
+    "date": "1913",
+    "year": null,
+    "title": "Cathay and the way thither: being a collection of medieval notices of China"
+   }
+  }
+ },
+ {
+  "file": "chalcocondyles_historiarum-libri-x-with-isidore-leonard-plusiadenos-pg159-grc-lat_migne1866.txt",
+  "status": "differ",
+  "header": "1866",
+  "host_items": {
+   "patrologicursus44migngoog": {
+    "date": "1857",
+    "year": "1905",
+    "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, sc"
+   }
+  }
+ },
+ {
+  "file": "chronicle-of-seert_histoire-nestorienne-seconde-partie-po13-ara-fra_scher1919.txt",
+  "status": "differ",
+  "header": "",
+  "host_items": {
+   "patrologiaorien13pari": {
+    "date": "1907",
+    "year": null,
+    "title": "Patrologia orientalis"
+   }
+  }
+ },
+ {
+  "file": "church-of-scotland_acts-of-the-general-assembly-1638-1842_church-law-society1843.txt",
+  "status": "host gives no date",
+  "header": "1843 (title page; preface dated May 1843, the day garbled). The file carries title pages for a 'Volume First' and a 'Volume Second' (lines 338 and 384); the host record gives no date",
+  "host_items": [
+   "ActsOfTheGeneralAssemblyOfTheChur"
+  ]
+ },
+ {
+  "file": "collectio-avellana_epistulae-imperatorum-pontificum-v2-lat_guenther1898.txt",
+  "status": "differ",
+  "header": "",
+  "host_items": {
+   "epistulaeimperat02gnth": {
+    "date": "1895",
+    "year": "1895",
+    "title": "Epistulae imperatorum pontificum aliorum inde ab a. CCCLXVII usque ad a. DLIII d"
+   }
+  }
+ },
+ {
+  "file": "corpus-iuris-canonici_pars-2-decretalium-collectiones-lat_friedberg1881.txt",
+  "status": "differ",
+  "header": "1881 (title page)",
+  "host_items": {
+   "corpusjuriscanon00richuoft": {
+    "date": "1879",
+    "year": null,
+    "title": "Corpus juris canonici"
+   }
+  }
+ },
+ {
+  "file": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt",
+  "status": "differ",
+  "header": "1923",
+  "host_items": {
+   "actaconciliicons02counuoft": {
+    "date": "1896",
+    "year": null,
+    "title": "Acta Concilii constanciensis .."
+   }
+  }
+ },
+ {
+  "file": "council-of-constance_acta-concilii-constanciensis-bd3-lat_finke1926.txt",
+  "status": "differ",
+  "header": "1926",
+  "host_items": {
+   "actaconciliicons03counuoft": {
+    "date": "1896",
+    "year": null,
+    "title": "Acta Concilii constanciensis .."
+   }
+  }
+ },
+ {
+  "file": "council-of-trent_canons-and-decrees_waterworth1848.txt",
+  "status": "differ",
+  "header": "",
+  "host_items": {
+   "thecanonsanddecr00unknuoft": {
+    "date": "1888?",
+    "year": null,
+    "title": "The canons and decrees of the sacred and oecumenical Council of Trent, celebrate"
+   }
+  }
+ },
+ {
+  "file": "cranmer_miscellaneous-writings-and-letters_cox1846.txt",
+  "status": "differ",
+  "header": "1846",
+  "host_items": {
+   "theworksofthomas02cramuoft": {
+    "date": "1844",
+    "year": null,
+    "title": "The works of Thomas Cranmer ... Edited for the Parker society"
+   }
+  }
+ },
+ {
+  "file": "crespin_histoire-des-martyrs-t3-fra_benoit-lelievre1889.txt",
+  "status": "differ",
+  "header": "1889",
+  "host_items": {
+   "histoiredesmarty03cres": {
+    "date": "1885",
+    "year": null,
+    "title": "Histoire des martyrs persecutez et mis a mort pour la vérité de l'Évangile, depu"
+   }
+  }
+ },
+ {
+  "file": "cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt",
+  "status": "host gives no date",
+  "header": "1868 (Pars I) / 1871 (Pars II)",
+  "host_items": [
+   "identifier"
+  ]
+ },
+ {
+  "file": "dedham-classis_minute-book_usher1905.txt",
+  "status": "differ",
+  "header": "1905",
+  "host_items": {
+   "presbyterianmove00royauoft": {
+    "date": "(1900-63)",
+    "year": null,
+    "title": "The Presbyterian Movement in the Reign of Queen Elizabeth as Illustrated by the "
+   }
+  }
+ },
+ {
+  "file": "deutsche-reichstagsakten_juengere-reihe-bd-2-reichstag-zu-worms-1521-deu-lat-fra_wrede1896.txt",
+  "status": "differ",
+  "header": "1896 (title page, about OCR lines 225-237)",
+  "host_items": {
+   "deutschereichst07kommgoog": {
+    "date": "1893",
+    "year": null,
+    "title": "Deutsche Reichstagsakten : jüngere Reihe "
+   }
+  }
+ },
+ {
+  "file": "dialogues-on-prophecy_v1_1828.txt",
+  "status": "host gives no date",
+  "header": "1828 (line 91, on the title page)",
+  "host_items": [
+   "dialogues-on-prophecy"
+  ]
+ },
+ {
+  "file": "dialogues-on-prophecy_v2_1828.txt",
+  "status": "host gives no date",
+  "header": "1828 (title page: 'MDCCC XXVIII.', OCR line 55; the OCR reads the volume number as 'VOL, IIl.', and the running heads and the end line read 'Vol. II.')",
+  "host_items": [
+   "dialogues-on-prophecy"
+  ]
+ },
+ {
+  "file": "dimitrii-rostovskii_tvoreniia-rus_sytin1889.txt",
+  "status": "differ",
+  "header": "1889",
+  "host_items": {
+   "zhitieitvorenijasvjatogodimitrijamitrop55": {
+    "date": "1899",
+    "year": null,
+    "title": "Житие и творения святого Димитрия, митрополита Ростовского "
+   }
+  }
+ },
+ {
+  "file": "domentijan_zivot-svetoga-simeuna-i-svetoga-save-chu_danicic1865.txt",
+  "status": "differ",
+  "header": "1865 (title page)",
+  "host_items": {
+   "DomentijanZivotSv.SimeonaISv.SaveUredioDjuraDanicic": {
+    "date": "2016-09-10",
+    "year": "2016",
+    "title": "Domentijan, Zivot Sv. Simeona I Sv. Save Uredio Djura Danicic"
+   }
+  }
+ },
+ {
+  "file": "duchesne_histoire-ancienne-de-leglise-tome3-fra_2e-ed1910.txt",
+  "status": "differ",
+  "header": "1910 (printed at file line 42)",
+  "host_items": {
+   "histoireancienne03duchuoft": {
+    "date": "1907-10",
+    "year": null,
+    "title": "Histoire ancienne de l'Eglise"
+   }
+  }
+ },
+ {
+  "file": "duwayhi_tarikh-al-taifa-al-maruniyya-ara_shartuni189x.txt",
+  "status": "host gives no date",
+  "header": "the 1890s: the editor's preface at about OCR line 346 is dated at Beirut, 1 June 189-, with the last digit lost in the OCR; at about 141 he says the first copy he used was made in 1889",
+  "host_items": [
+   "20221027_20221027_1703",
+   "carries"
+  ]
+ },
+ {
+  "file": "dyer-mary_brief-statement-of-the-sufferings-of-mary-dyer_1818.txt",
+  "status": "host item not found",
+  "header": "1818",
+  "host_items": [
+   "briefstatementof00dyer"
+  ]
+ },
+ {
+  "file": "edson_time-of-the-end_1849.txt",
+  "status": "host gives no date",
+  "header": "1849 (line 38, on the title page)",
+  "host_items": [
+   "HiramEdsonTheTimeOfTheEndItsBeginningProgressiveEventsAndFinal"
+  ]
+ },
+ {
+  "file": "ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd2-deu-lat_1886.txt",
+  "status": "differ",
+  "header": "1886",
+  "host_items": {
+   "gri_33125006414433": {
+    "date": "1885",
+    "year": null,
+    "title": "Archiv für Litteratur- und Kirchengeschichte des Mittelalters"
+   }
+  }
+ },
+ {
+  "file": "ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd3-deu-lat_1887.txt",
+  "status": "differ",
+  "header": "1887",
+  "host_items": {
+   "gri_33125006414375": {
+    "date": "1885",
+    "year": null,
+    "title": "Archiv für Litteratur- und Kirchengeschichte des Mittelalters"
+   }
+  }
+ },
+ {
+  "file": "ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd4-deu-lat_1888.txt",
+  "status": "differ",
+  "header": "1888",
+  "host_items": {
+   "gri_33125006414383": {
+    "date": "1885",
+    "year": null,
+    "title": "Archiv für Litteratur- und Kirchengeschichte des Mittelalters"
+   }
+  }
+ },
+ {
+  "file": "epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt",
+  "status": "differ",
+  "header": "1860 (MDCCCLX on the title page, file line 77; the series title pages at file lines 29-32)",
+  "host_items": {
+   "pt2corporishaere02epip": {
+    "date": "1856",
+    "year": null,
+    "title": "Corporis haereseologici"
+   }
+  }
+ },
+ {
+  "file": "eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt",
+  "status": "differ",
+  "header": "1908 (file line 303)",
+  "host_items": {
+   "p2eusebiuswerke02euse": {
+    "date": "1902",
+    "year": null,
+    "title": "Eusebius Werke"
+   }
+  }
+ },
+ {
+  "file": "evliya-celebi_narrative-of-travels-v1-pt2_hammer1846.txt",
+  "status": "differ",
+  "header": "1846 (title page, OCR line 72: M.DCCC.XLVI); the title page's own words are 'Vol. I, Part I', but the text is Part II, beginning at Section XXXI",
+  "host_items": {
+   "india.history.resource.37537": {
+    "date": "1834",
+    "year": null,
+    "title": "Narrative of Travels in Europe, Asia and Africa in the Seventeenth Century: Tr. "
+   }
+  }
+ },
+ {
+  "file": "evliya-celebi_narrative-of-travels-v2_hammer1850.txt",
+  "status": "differ",
+  "header": "1850 (title page: M.DCCCL)",
+  "host_items": {
+   "narrativeoftrave02evli": {
+    "date": "1834",
+    "year": null,
+    "title": "Narrative of travels in Europe, Asia, and Africa, in the seventeenth century"
+   }
+  }
+ },
+ {
+  "file": "ezana_deutsche-aksum-expedition-bd4-inschriften-deu-gez-grc_littmann1913.txt",
+  "status": "host gives no date",
+  "header": "1913 (title page)",
+  "host_items": [
+   "SabaischeGriechischeUndAltabessinischeInschriften"
+  ]
+ },
+ {
+  "file": "facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt",
+  "status": "differ",
+  "header": "",
+  "host_items": {
+   "patrologiaecursu67mign": {
+    "date": "1800",
+    "year": null,
+    "title": "Patrologiae cursus completus : Series latina"
+   }
+  }
+ },
+ {
+  "file": "francis-xavier_monumenta-xaveriana-v2-lat_1912.txt",
+  "status": "differ",
+  "header": "1912",
+  "host_items": {
+   "monumentaxaveria0002unse": {
+    "date": "1899",
+    "year": null,
+    "title": "Monumenta Xaveriana, ex autographis vel ex antiquioribus exemplis collecta"
+   }
+  }
+ },
+ {
+  "file": "fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt",
+  "status": "differ",
+  "header": "",
+  "host_items": {
+   "monumentagerman02hann": {
+    "date": "1885",
+    "year": null,
+    "title": "Monumenta Germaniae historica inde ab anno Christi quingentesimo usque ad annum "
+   }
+  }
+ },
+ {
+  "file": "french-church-of-london_examen-du-theatre-sacre-fra_1708.txt",
+  "status": "host item not found",
+  "header": "1708",
+  "host_items": [
+   "bim_eighteenth-century_examen-du-thetre-sacr-_eglise-franoise-de-lond_1708"
+  ]
+ },
+ {
+  "file": "french-reformed-synods_synodes-du-desert-t2-fra_hugues1886.txt",
+  "status": "differ",
+  "header": "1886",
+  "host_items": {
+   "lessynodesduds02egli": {
+    "date": "1885",
+    "year": null,
+    "title": "Les Synodes du Désert : actes et règlements des synodes nationaux et provinciaux"
+   }
+  }
+ },
+ {
+  "file": "french-reformed-synods_synodes-du-desert-t3-fra_hugues1886.txt",
+  "status": "differ",
+  "header": "1886",
+  "host_items": {
+   "lessynodesduds03egli": {
+    "date": "1885",
+    "year": null,
+    "title": "Les Synodes du Désert : actes et règlements des synodes nationaux et provinciaux"
+   }
+  }
+ },
+ {
+  "file": "fuesslin_beytraege-kirchen-reformations-geschichten-schweitzerland-theil-5-deu_1753.txt",
+  "status": "differ",
+  "header": "1753 (title page, OCR line 69)",
+  "host_items": {
+   "beytragezurerlau05fuss": {
+    "date": "1741",
+    "year": null,
+    "title": "Beyträge zur Erläuterung der Kirchen-Reformations-Geschichten des Schweitzerla"
+   }
+  }
+ },
+ {
+  "file": "general-baptist-assembly_minutes-v2-1731-1811_whitley1910.txt",
+  "status": "differ",
+  "header": "1910",
+  "host_items": {
+   "cu31924092446305": {
+    "date": "1909",
+    "year": null,
+    "title": "Minutes of the General Assembly of the General Baptist churches in England : wit"
+   }
+  }
+ },
+ {
+  "file": "gladden_applied-christianity_9th-ed1897.txt",
+  "status": "differ",
+  "header": "1897 (OCR line 58, on the title page)",
+  "host_items": {
+   "appliedchristian00glad": {
+    "date": "1886",
+    "year": null,
+    "title": "Applied Christianity : moral aspects of social questions"
+   }
+  }
+ },
+ {
+  "file": "goll_quellen-bohmische-bruder-v2-deu_1882.txt",
+  "status": "differ",
+  "header": "1882",
+  "host_items": {
+   "quellenundunters02goll": {
+    "date": "1878",
+    "year": "1878",
+    "title": "Quellen und Untersuchungen zur Geschichte der Böhmischen Brüder"
+   }
+  }
+ },
+ {
+  "file": "gregory-great_moralia-in-job-books-xxiii-xxix_bliss1847.txt",
+  "status": "differ",
+  "header": "",
+  "host_items": {
+   "moralsonbookjob00igoog": {
+    "date": "1850",
+    "year": "1850",
+    "title": "Morals on the Book of Job"
+   }
+  }
+ },
+ {
+  "file": "groves_memoir-of-anthony-norris-groves_3rd-ed1859.txt",
+  "status": "differ",
+  "header": "1859 (OCR line 120, on the title page)",
+  "host_items": {
+   "memoiranthonyno00grovgoog": {
+    "date": "1869",
+    "year": null,
+    "title": "Memoir of Anthony Norris Groves, compiled chiefly from his journals and letters;"
+   }
+  }
+ },
+ {
+  "file": "guebre-sellassie_chronique-du-regne-de-menelik-ii-t1-fra_coppet1930.txt",
+  "status": "host gives no date",
+  "header": "1930 (line 113 of this file, on the title page)",
+  "host_items": [
+   "chronique-du-regne-de-menelik-ii-roi-des-rois-dethiopie"
+  ]
+ },
+ {
+  "file": "hadrian-i_epistolae-karolini-aevi-3-mgh-epistolae-5-lat_1899.txt",
+  "status": "differ",
+  "header": "1899 (title page)",
+  "host_items": {
+   "epistolaemerowin5189unse": {
+    "date": "1892",
+    "year": null,
+    "title": "Epistolae Merowingici et Karolini aevi"
+   }
+  }
+ },
+ {
+  "file": "hansen_vita-mirabilis-et-mors-pretiosa-rosae-de-s-maria-lat_1664.txt",
+  "status": "differ",
+  "header": "1664",
+  "host_items": {
+   "wotb_6743752": {
+    "date": "1654",
+    "year": "1654",
+    "title": "Vita Mirabilis et Mors Pretiosa Venerabilis Sororis Rosæ de S. Maria Limensis, e"
+   }
+  }
+ },
+ {
+  "file": "harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt",
+  "status": "differ",
+  "header": "1904",
+  "host_items": {
+   "p2geschichtedera02harnuoft": {
+    "date": "1893",
+    "year": null,
+    "title": "Geschichte der altchristlichen Litteratur bis Eusebius"
+   }
+  }
+ },
+ {
+  "file": "harnack_vita-cypriani-commentary-lat-deu_1913.txt",
+  "status": "differ",
+  "header": "1913",
+  "host_items": {
+   "texteunduntersuc3839akad": {
+    "date": "1883",
+    "year": null,
+    "title": "Texte und Untersuchungen zur Geschichte der altchristlichen Literatur"
+   }
+  }
+ },
+ {
+  "file": "hefele-leclercq_histoire-des-conciles-tome2-1-conciles-africains-slice-fra_1908.txt",
+  "status": "differ",
+  "header": "1908 (printed on the title page, item lines 50-54 of the file)",
+  "host_items": {
+   "histoiredesconci21hefeuoft": {
+    "date": "1907-1952",
+    "year": null,
+    "title": "Histoire des conciles d'après les documents originaux"
+   }
+  }
+ },
+ {
+  "file": "hefele_history-of-the-councils-v2-326-429_oxenham1876.txt",
+  "status": "differ",
+  "header": "1876 (file line 84)",
+  "host_items": {
+   "historyofcouncil02hefeuoft": {
+    "date": "1872-1896",
+    "year": null,
+    "title": "A history of the councils of the church : from the original documents"
+   }
+  }
+ },
+ {
+  "file": "hefele_history-of-the-councils-v3-431-451_clark1883.txt",
+  "status": "differ",
+  "header": "1883 (file line 305)",
+  "host_items": {
+   "historyofcouncil03hefeuoft": {
+    "date": "1872-1896",
+    "year": null,
+    "title": "A history of the councils of the church : from the original documents"
+   }
+  }
+ },
+ {
+  "file": "hefele_history-of-the-councils-v4-451-680_clark1895.txt",
+  "status": "differ",
+  "header": "1895 (title page)",
+  "host_items": {
+   "historyofcouncil04hefeuoft": {
+    "date": "1872-1896",
+    "year": null,
+    "title": "A history of the councils of the church : from the original documents"
+   }
+  }
+ },
+ {
+  "file": "herminjard_correspondance-des-reformateurs-t2-1527-1532-fra-lat_1868.txt",
+  "status": "differ",
+  "header": "1868 (title page, read on the page image, leaf n6; the OCR misreads the year)",
+  "host_items": {
+   "correspondancede02hermuoft": {
+    "date": "1866-",
+    "year": null,
+    "title": "Correspondance des réformateurs dans les pays de langue francaise, recueillie et"
+   }
+  }
+ },
+ {
+  "file": "herminjard_correspondance-des-reformateurs-t5-1538-1539-fra-lat_1878.txt",
+  "status": "differ",
+  "header": "1878 (title page, OCR line 63)",
+  "host_items": {
+   "correspondancede05hermuoft": {
+    "date": "1866-",
+    "year": null,
+    "title": "Correspondance des réformateurs dans les pays de langue francaise, recueillie et"
+   }
+  }
+ },
+ {
+  "file": "hetum_history-of-the-tartars-flower-of-histories-of-the-east_bedrosian2004.txt",
+  "status": "host gives no date",
+  "header": "2004",
+  "host_items": [
+   "HetumTheHistoriansFlowerOfHistoriesOfTheEast"
+  ]
+ },
+ {
+  "file": "hooker_laws-of-ecclesiastical-polity-books-1-5_keble1850.txt",
+  "status": "differ",
+  "header": "1850",
+  "host_items": {
+   "worksofthatlearn01hookuoft": {
+    "date": "1865-75",
+    "year": null,
+    "title": "The works of that learned and judicious divine, Mr. Richard Hooker; with an acco"
+   }
+  }
+ },
+ {
+  "file": "hus_sebrane-spisy-ceske-v02-ces_erben1866.txt",
+  "status": "differ",
+  "header": "1866",
+  "host_items": {
+   "sebranespisyesk02husjuoft": {
+    "date": "1865",
+    "year": null,
+    "title": "Sebrane spisy eské;"
+   }
+  }
+ },
+ {
+  "file": "hus_sebrane-spisy-ceske-v03-ces_erben1868.txt",
+  "status": "differ",
+  "header": "1868",
+  "host_items": {
+   "sebranespisyesk03husjuoft": {
+    "date": "1865",
+    "year": null,
+    "title": "Sebrane spisy eské;"
+   }
+  }
+ },
+ {
+  "file": "ibn-khaldun_histoire-des-berberes-v2-fra_de-slane1854.txt",
+  "status": "differ",
+  "header": "1854 (title page, OCR line 51)",
+  "host_items": {
+   "histoiredesberbe02ibnk_0": {
+    "date": "1852",
+    "year": null,
+    "title": "Histoire des berbères et des dynasties musulmanes de l'Afrique septentrionale"
+   }
+  }
+ },
+ {
+  "file": "ibn-khaldun_histoire-des-berberes-v3-fra_de-slane1856.txt",
+  "status": "differ",
+  "header": "1856 (title page, OCR line 50)",
+  "host_items": {
+   "histoiredesberbe03ibnk": {
+    "date": "1852",
+    "year": null,
+    "title": "Histoire des berbères et des dynasties musulmanes de l'Afrique septentrionale"
+   }
+  }
+ },
+ {
+  "file": "ibn-khaldun_histoire-des-berberes-v4-fra_de-slane1856.txt",
+  "status": "differ",
+  "header": "1856 (title page, OCR line 67)",
+  "host_items": {
+   "histoiredesberbe04ibnk": {
+    "date": "1852",
+    "year": null,
+    "title": "Histoire des berbères et des dynasties musulmanes de l'Afrique septentrionale"
+   }
+  }
+ },
+ {
+  "file": "ibn-khaldun_prolegomenes-pt2-fra_de-slane1865.txt",
+  "status": "differ",
+  "header": "1865 (title page, M DCCC LXV)",
+  "host_items": {
+   "lesprolgomne02abdauoft": {
+    "date": "1863",
+    "year": null,
+    "title": "Les prolégomènes d'Ibn Khaldoun"
+   }
+  }
+ },
+ {
+  "file": "ibn-khaldun_prolegomenes-pt3-fra_de-slane1868.txt",
+  "status": "differ",
+  "header": "1868 (title page, M DCCC LXVIII)",
+  "host_items": {
+   "lesprolgomne03abdauoft": {
+    "date": "1863",
+    "year": null,
+    "title": "Les prolégomènes d'Ibn Khaldoun"
+   }
+  }
+ },
+ {
+  "file": "ildefonsus-julian-toledo-pl96-lat_migne1862.txt",
+  "status": "differ",
+  "header": "",
+  "host_items": {
+   "patrologiaecursu96mign": {
+    "date": "1800",
+    "year": null,
+    "title": "Patrologiae cursus completus : Series latina"
+   }
+  }
+ },
+ {
+  "file": "innocent-iii_opera-t3-regesta-xiii-xvi-pl216-lat_migne1891.txt",
+  "status": "differ",
+  "header": "1891 (title page)",
+  "host_items": {
+   "operaomnia03inno": {
+    "date": "1890",
+    "year": null,
+    "title": "Opera omnia"
+   }
+  }
+ },
+ {
+  "file": "innocent-iv_bulla-depositionis-in-mgh-constitutiones-2-lat_weiland1896.txt",
+  "status": "differ",
+  "header": "1896 (title page; the OCR prints 'MDCCCXCYI')",
+  "host_items": {
+   "constitutioneset02weil": {
+    "date": "1893",
+    "year": null,
+    "title": "Constitutiones et acta publica imperatorum et regum"
+   }
+  }
+ },
+ {
+  "file": "ishoyahb-iii_liber-epistularum-versio-lat_duval-csco1905.txt",
+  "status": "differ",
+  "header": "1905 (title page)",
+  "host_items": {
+   "DuvalIshoyahb": {
+    "date": "1904",
+    "year": null,
+    "title": "R. Duval, Ishoyahb Patriarch III: Liber epistularum (CSCO 11-12)"
+   }
+  }
+ },
+ {
+  "file": "isidore-seville_sententiae-eccl-officiis-historia-gothorum-pl83-lat_migne1860.txt",
+  "status": "differ",
+  "header": "",
+  "host_items": {
+   "patrologiaecursu0083mign": {
+    "date": "1844",
+    "year": null,
+    "title": "Patrologiae cursus completus, sive biblioteca universalis, integra, uniformis, c"
+   }
+  }
+ },
+ {
+  "file": "issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt",
+  "status": "differ",
+  "header": "1875",
+  "host_items": {
+   "armeniaandarmen03isavgoog": {
+    "date": "1877",
+    "year": "1877",
+    "title": "Armenia and the Armenians"
+   }
+  }
+ },
+ {
+  "file": "issaverdens_armenian-ritual-parts1-4_1876.txt",
+  "status": "host gives no date",
+  "header": "1873-1876 (Part I second edition 1873; Part II second edition, year not legible on its title page; Part III 1875; Part IV 1876)",
+  "host_items": [
+   "ArmenianRitual0104"
+  ]
+ },
+ {
+  "file": "jacques-de-vitry_briefe-in-zeitschrift-fuer-kirchengeschichte-14-lat-deu_rohricht1894.txt",
+  "status": "differ",
+  "header": "1894 (title page)",
+  "host_items": {
+   "zeitschriftfrki17unkngoog": {
+    "date": "1876",
+    "year": null,
+    "title": "Zeitschrift für Kirchengeschichte"
+   }
+  }
+ },
+ {
+  "file": "jesuit-relations_thwaites-v36-fra-eng_1896-1901.txt",
+  "status": "differ",
+  "header": "1899 (the copyright line on the title page, read directly)",
+  "host_items": {
+   "jesuits36jesuuoft": {
+    "date": "1898",
+    "year": null,
+    "title": "The Jesuit relations and allied documents : travels and explorations of the Jesu"
+   }
+  }
+ },
+ {
+  "file": "jesuit-relations_thwaites-v37-fra-eng_1896-1901.txt",
+  "status": "differ",
+  "header": "1899 (the copyright line on the title page, read directly)",
+  "host_items": {
+   "jesuits37jesuuoft": {
+    "date": "1898",
+    "year": null,
+    "title": "The Jesuit relations and allied documents : travels and explorations of the Jesu"
+   }
+  }
+ },
+ {
+  "file": "john-biclaro-leander-pl72-lat_migne1878.txt",
+  "status": "differ",
+  "header": "",
+  "host_items": {
+   "patrologiaecur72mign": {
+    "date": "1800",
+    "year": null,
+    "title": "Patrologiae cursus completus : Series latina"
+   }
+  }
+ },
+ {
+  "file": "john-ephesus_lives-eastern-saints-po17_brooks1923.txt",
+  "status": "differ",
+  "header": "",
+  "host_items": {
+   "patrologiaorient17pariuoft": {
+    "date": "1907 [i.e. 1903]-",
+    "year": null,
+    "title": "Patrologia orientalis"
+   }
+  }
+ },
+ {
+  "file": "john-ephesus_lives-eastern-saints-po18_brooks1924.txt",
+  "status": "differ",
+  "header": "",
+  "host_items": {
+   "patrologiaorient18pariuoft": {
+    "date": "1907 [i.e. 1903]-",
+    "year": null,
+    "title": "Patrologia orientalis"
+   }
+  }
+ },
+ {
+  "file": "john-ephesus_lives-eastern-saints-po19-mixed-issue_brooks1926.txt",
+  "status": "differ",
+  "header": "",
+  "host_items": {
+   "patrologiaorient19pariuoft": {
+    "date": "1907 [i.e. 1903]-",
+    "year": null,
+    "title": "Patrologia orientalis"
+   }
+  }
+ },
+ {
+  "file": "john-nikiu_chronicle_charles1916.txt",
+  "status": "differ",
+  "header": "",
+  "host_items": {
+   "JohnOfNikiuChronicle1916": {
+    "date": "1913",
+    "year": null,
+    "title": "John Of Nikiu Chronicle 1916"
+   }
+  }
+ },
+ {
+  "file": "john-of-ephesus_ecclesiastical-history-part3_paynesmith1860.txt",
+  "status": "host gives no date",
+  "header": "",
+  "host_items": [
+   "john-of-ephesus-lives-eastern-saints"
+  ]
+ },
+ {
+  "file": "john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt",
+  "status": "host gives no date",
+  "header": "",
+  "host_items": [
+   "john-of-ephesus-lives-eastern-saints"
+  ]
+ },
+ {
+  "file": "joshua-the-stylite_chronicle_wright1882.txt",
+  "status": "host gives no date",
+  "header": "",
+  "host_items": [
+   "joshua-stylite-1882"
+  ]
+ },
+ {
+  "file": "justin-martyr_dialogue-with-trypho-grc_archambault1909.txt",
+  "status": "host gives no date",
+  "header": "1909 (printed edition)",
+  "host_items": [
+   "named"
+  ]
+ },
+ {
+  "file": "justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt",
+  "status": "differ",
+  "header": "",
+  "host_items": {
+   "corpusiuriscivil03krueuoft": {
+    "date": "1892-95",
+    "year": null,
+    "title": "Corpus iuris civilis .."
+   }
+  }
+ },
+ {
+  "file": "kedrenos-skylitzes_compendium-historiarum-t2-grc-lat_bekker1839.txt",
+  "status": "host gives no date",
+  "header": "1839 (title page)",
+  "host_items": [
+   "GeorgiusCedrenusCompendiumHistoriarumTomusAlterGRLT"
+  ]
+ },
+ {
+  "file": "knighton_chronicon-v2-lat_lumby1895.txt",
+  "status": "differ",
+  "header": "1895",
+  "host_items": {
+   "chroniconhenrici02knig": {
+    "date": "1889",
+    "year": null,
+    "title": "Chronicon Henrici Knighton : vel Cnitton, monachi Leycestrensis"
+   }
+  }
+ },
+ {
+  "file": "lainez_epistolae-et-acta-v4-lat_1915.txt",
+  "status": "differ",
+  "header": "1915",
+  "host_items": {
+   "lainiimonumentae04lain": {
+    "date": "1912",
+    "year": null,
+    "title": "Lainii monumenta : epistolae et acta patris Jacobi Lainii, secundi praepositi ge"
+   }
+  }
+ },
+ {
+  "file": "lainez_epistolae-et-acta-v5-lat_1915.txt",
+  "status": "differ",
+  "header": "1915",
+  "host_items": {
+   "lainiimonumentae05lain": {
+    "date": "1912",
+    "year": null,
+    "title": "Lainii monumenta : epistolae et acta patris Jacobi Lainii, secundi praepositi ge"
+   }
+  }
+ },
+ {
+  "file": "lainez_epistolae-et-acta-v6-lat_1915.txt",
+  "status": "differ",
+  "header": "1915",
+  "host_items": {
+   "lainiimonumentae06lain": {
+    "date": "1912",
+    "year": null,
+    "title": "Lainii monumenta : epistolae et acta patris Jacobi Lainii, secundi praepositi ge"
+   }
+  }
+ },
+ {
+  "file": "lainez_epistolae-et-acta-v7-lat_1916.txt",
+  "status": "differ",
+  "header": "1916",
+  "host_items": {
+   "lainiimonumentae07lain": {
+    "date": "1912",
+    "year": null,
+    "title": "Lainii monumenta : epistolae et acta patris Jacobi Lainii, secundi praepositi ge"
+   }
+  }
+ },
+ {
+  "file": "lainez_epistolae-et-acta-v8-lat_1917.txt",
+  "status": "differ",
+  "header": "1917",
+  "host_items": {
+   "lainiimonumentae08lain": {
+    "date": "1912",
+    "year": null,
+    "title": "Lainii monumenta : epistolae et acta patris Jacobi Lainii, secundi praepositi ge"
+   }
+  }
+ },
+ {
+  "file": "langlois_collection-historiens-armenie-tomes1-2-fra_1867-1869.txt",
+  "status": "host gives no date",
+  "header": "1867 and 1869 (title pages: M DCCC LXVII, M DCCC LXIX)",
+  "host_items": [
+   "chama-01-02-langlois-etal-1867-1869"
+  ]
+ },
+ {
+  "file": "langlois_documents-lusignans-petite-armenie-1342-1394-fra_langlois1859.txt",
+  "status": "host gives no date",
+  "header": "1859",
+  "host_items": [
+   "DocumentsPourServirALhistoireDesLusignansDeLaPetiteArmenie"
+  ]
+ },
+ {
+  "file": "las-casas_historia-de-las-indias-t4-spa_fuensanta-sancho-rayon1876.txt",
+  "status": "differ",
+  "header": "1876 (title page, OCR line 72)",
+  "host_items": {
+   "historiadelasind15casa_2": {
+    "date": "1875",
+    "year": null,
+    "title": "Historia de las Indias"
+   }
+  }
+ },
+ {
+  "file": "las-casas_historia-de-las-indias-t5-spa_fuensanta-sancho-rayon1876.txt",
+  "status": "differ",
+  "header": "1876 (title page, OCR line 54)",
+  "host_items": {
+   "historiadelasind15casa_3": {
+    "date": "1875",
+    "year": null,
+    "title": "Historia de las Indias"
+   }
+  }
+ },
+ {
+  "file": "liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt",
+  "status": "differ",
+  "header": "",
+  "host_items": {
+   "patrologiaecur68mign": {
+    "date": "1800",
+    "year": null,
+    "title": "Patrologiae cursus completus : Series latina"
+   }
+  }
+ },
+ {
+  "file": "liguori_letters-v1_grimm1891.txt",
+  "status": "differ",
+  "header": "1891",
+  "host_items": {
+   "alphonsusworks18liguuoft": {
+    "date": "1887",
+    "year": null,
+    "title": "The complete ascetical works of St. Alphonsus"
+   }
+  }
+ },
+ {
+  "file": "liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s.txt",
+  "status": "host gives no date",
+  "header": "[187-?]",
+  "host_items": [
+   "liturgiesofssmar00neal"
+  ]
+ },
+ {
+  "file": "lobo_voyage-to-abyssinia_johnson1735.txt",
+  "status": "host gives no date",
+  "header": "Johnson's translation first published at Birmingham in 1735 (stated in the file's own introduction); the etext was prepared in August 1998 from the 1887 Cassell edition",
+  "host_items": [
+   "avoyagetoabyssin01436gut"
+  ]
+ },
+ {
+  "file": "love-william-deloss_samson-occom-and-the-christian-indians-of-new-england_1899.txt",
+  "status": "host gives no date",
+  "header": "1899 (the title page prints no year: page image, leaf n8. The copyright notice on its verso reads 'Copyright, 1899, by W. DeLoss Love': leaf n9 and OCR lines 70-71. The preface is dated October 1899 and the archive.org record's date is c1899)",
+  "host_items": [
+   "samsonoccomchris00love"
+  ]
+ },
+ {
+  "file": "mackay_a-m-mackay-pioneer-missionary-to-uganda_by-his-sister1891.txt",
+  "status": "differ",
+  "header": "1891 (line 43 of this file, on the title page)",
+  "host_items": {
+   "ammackaypioneerm00harr_0": {
+    "date": "1890",
+    "year": null,
+    "title": "A.M. Mackay : pioneer missionary of the Church Missionary Society to Uganda"
+   }
+  }
+ },
+ {
+  "file": "mansi_sacrorum-conciliorum-collectio-tomus-24-lat_welter-facsimile1903.txt",
+  "status": "differ",
+  "header": "1903 (the facsimile's own leaf and imprint line; the OCR prints the year as '1g03' (OCR line 80) and 'MDCCCCIID' (line 139))",
+  "host_items": {
+   "sacrorumconcilio0024joan": {
+    "date": "1780",
+    "year": null,
+    "title": "Sacrorum Conciliorum Nova, et Amplissima Collectio"
+   }
+  }
+ },
+ {
+  "file": "mansi_sacrorum-conciliorum-collectio-tomus-26-1344-1409-lat_welter-facsimile1901.txt",
+  "status": "differ",
+  "header": "1901",
+  "host_items": {
+   "sacrorumconcilio0026joan": {
+    "date": "1784",
+    "year": null,
+    "title": "Sacrorum Conciliorum Nova, et Amplissima Collectio"
+   }
+  }
+ },
+ {
+  "file": "mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902.txt",
+  "status": "differ",
+  "header": "1902",
+  "host_items": {
+   "sacrorumconcilio0027joan": {
+    "date": "1784",
+    "year": null,
+    "title": "Sacrorum Conciliorum Nova, et Amplissima Collectio"
+   }
+  }
+ },
+ {
+  "file": "mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt",
+  "status": "differ",
+  "header": "1906",
+  "host_items": {
+   "sacrorumconcilio0031jonn": {
+    "date": "1798",
+    "year": null,
+    "title": "SACRORUM CONCILIORUM"
+   }
+  }
+ },
+ {
+  "file": "mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt",
+  "status": "differ",
+  "header": "1902",
+  "host_items": {
+   "sacrorumconcilio0035joan": {
+    "date": "1901",
+    "year": null,
+    "title": "Sacrorum Conciliorum Nova et Amplissima Collectio"
+   }
+  }
+ },
+ {
+  "file": "mansi_sacrorum-conciliorum-collectio-tomus-8-492-536-lat_welter-facsimile1901.txt",
+  "status": "differ",
+  "header": "1901 (the Welter facsimile, by its own imprint)",
+  "host_items": {
+   "sacrorumconcilio0008joan": {
+    "date": "1762",
+    "year": null,
+    "title": "SACRORUM CONCILIORUM"
+   }
+  }
+ },
+ {
+  "file": "mari-ibn-sulayman_de-patriarchis-nestorianorum-commentaria-pars-prior-ara-lat_gismondi1899.txt",
+  "status": "differ",
+  "header": "1899 (file line 9241; Gismondi's preface is dated Romae Idibus Februarii MDCCCXCIX, OCR 'MDCGGXCIX', at file line 9178)",
+  "host_items": {
+   "marisamrietslib1v2mari": {
+    "date": "1897",
+    "year": null,
+    "title": "Maris Amri et Slibae : de patriarchis nestorianorum commentaria ..."
+   }
+  }
+ },
+ {
+  "file": "maximus-confessor_relatio-motionis-disputatio-bizyae-grc-lat_migne-pg90.txt",
+  "status": "host item not found",
+  "header": "",
+  "host_items": [
+   "bim_early-english-"
+  ]
+ },
+ {
+  "file": "mgh-aa-3_victor-vitensis-corippus-halm1879.txt",
+  "status": "differ",
+  "header": "",
+  "host_items": {
+   "monumentagerman03geseuoft": {
+    "date": "(1877-1919)",
+    "year": null,
+    "title": "Monumenta Germaniae historica. Auctorum antiquissimorum"
+   }
+  }
+ },
+ {
+  "file": "michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt",
+  "status": "host gives no date",
+  "header": "1899 (title page, file line 79; Chabot's introduction is dated Paris, 15 December 1899, at file line 211)",
+  "host_items": [
+   "ChroniqueDeMichelLeSyrienT.1Fasc.1translation"
+  ]
+ },
+ {
+  "file": "michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt",
+  "status": "host gives no date",
+  "header": "1901 (file line 69; 'Tome II' at file line 59)",
+  "host_items": [
+   "MichelLeSyrien2"
+  ]
+ },
+ {
+  "file": "michael-the-syrian_chronique-tome3-livres-xii-xxi-fra_chabot1905.txt",
+  "status": "host gives no date",
+  "header": "1905 (title page)",
+  "host_items": [
+   "MichelLeSyrien3"
+  ]
+ },
+ {
+  "file": "miklosich_monumenta-serbica-chu_miklosich1858.txt",
+  "status": "host gives no date",
+  "header": "1858",
+  "host_items": [
+   "monumenta-serbica-spectantia-historiam-serbiae-bosnae-ragusii-ed-f-miklosich-viennae-1858"
+  ]
+ },
+ {
+  "file": "monceaux_histoire-litteraire-afrique-chretienne-tome2_1902.txt",
+  "status": "differ",
+  "header": "1902",
+  "host_items": {
+   "histoirelittra02moncuoft": {
+    "date": "1901-23",
+    "year": null,
+    "title": "Histoire littéraire de l'Afrique chrétienne depuis les origines jusqu'à l'invasi"
+   }
+  }
+ },
+ {
+  "file": "monceaux_histoire-litteraire-afrique-chretienne-tome3_1905.txt",
+  "status": "differ",
+  "header": "1905",
+  "host_items": {
+   "histoirelitterai03monc_0": {
+    "date": "1859",
+    "year": null,
+    "title": "Histoire littéraire de l'Afrique chrétienne depuis les origines jusqu'à l'inv"
+   }
+  }
+ },
+ {
+  "file": "monceaux_histoire-litteraire-afrique-chretienne-tome4_1912.txt",
+  "status": "differ",
+  "header": "",
+  "host_items": {
+   "histoirelitterai04monc": {
+    "date": "1901",
+    "year": null,
+    "title": "Histoire littéraire de l'Afrique chrétienne depuis les origines jusqu'à l'inv"
+   }
+  }
+ },
+ {
+  "file": "monceaux_histoire-litteraire-afrique-chretienne-tome6_1922.txt",
+  "status": "differ",
+  "header": "",
+  "host_items": {
+   "histoirelitterai06monc": {
+    "date": "1901",
+    "year": null,
+    "title": "Histoire littéraire de l'Afrique chrétienne depuis les origines jusqu'à l'inv"
+   }
+  }
+ },
+ {
+  "file": "monceaux_histoire-litteraire-afrique-chretienne-tomes6-7-fra_1922-1923.txt",
+  "status": "differ",
+  "header": "1922 (tome VI, file line 139) and 1923 (tome VII, file line 21976)",
+  "host_items": {
+   "histoirelittra0607moncuoft": {
+    "date": "1901-23",
+    "year": null,
+    "title": "Histoire littéraire de l'Afrique chrétienne depuis les origines jusqu'à l'invasi"
+   }
+  }
+ },
+ {
+  "file": "montaigne_essays-v2_florio-saintsbury1893.txt",
+  "status": "differ",
+  "header": "1893 (title page)",
+  "host_items": {
+   "essaysofmontaign02montuoft": {
+    "date": "1892-93",
+    "year": null,
+    "title": "The essays of Montaigne. Done into English by John Florio, anno 1603. Edited wit"
+   }
+  }
+ },
+ {
+  "file": "montaigne_essays-v3_florio-saintsbury1893.txt",
+  "status": "differ",
+  "header": "1893 (title page)",
+  "host_items": {
+   "essaysofmontaign03montuoft": {
+    "date": "1892-93",
+    "year": null,
+    "title": "The essays of Montaigne. Done into English by John Florio, anno 1603. Edited wit"
+   }
+  }
+ },
+ {
+  "file": "morga_sucesos-islas-filipinas_blair-robertson1907.txt",
+  "status": "host gives no date",
+  "header": "1907 (the title page reads \"Cleveland, Ohio The Arthur H. Clark Company 1907\" and \"COPYRIGHT 1907 THE ARTHUR H. CLARK COMPANY\")",
+  "host_items": [
+   "historyofthephil07001gut"
+  ]
+ },
+ {
+  "file": "morris-john_troubles-of-our-catholic-forefathers-ser2_1875.txt",
+  "status": "differ",
+  "header": "1875",
+  "host_items": {
+   "troublesofourcat02morr_0": {
+    "date": "1872",
+    "year": null,
+    "title": "The troubles of our Catholic forefathers related by themselves"
+   }
+  }
+ },
+ {
+  "file": "morris-john_troubles-of-our-catholic-forefathers-ser3_1877.txt",
+  "status": "differ",
+  "header": "1877",
+  "host_items": {
+   "troublesofourcat03morr_0": {
+    "date": "1872",
+    "year": null,
+    "title": "The troubles of our Catholic forefathers related by themselves"
+   }
+  }
+ },
+ {
+  "file": "movses-daskhurantsi_beitraege-zur-albanischen-geschichte-deu_manandian1897.txt",
+  "status": "host gives no date",
+  "header": "1897 (title page)",
+  "host_items": [
+   "BeitrageZurAlbanischenGeschichte"
+  ]
+ },
+ {
+  "file": "mozarabes-de-toledo_documentos-siglos-xii-xiii-v1-spa_gonzalez-palencia1926.txt",
+  "status": "host gives no date",
+  "header": "1926 (title page, read directly: 'MCMXXVI', with the line 'COPYRIGHT 1926')",
+  "host_items": [
+   "gonzalez-palencia-los-mozarabes-de-toledo-en-los-siglos-xii-y-xiii-volumen-i"
+  ]
+ },
+ {
+  "file": "murray-john_letters-and-sketches-of-sermons-v3_1813.txt",
+  "status": "differ",
+  "header": "1813",
+  "host_items": {
+   "letterssketcheso03murr": {
+    "date": "1812",
+    "year": null,
+    "title": "Letters, and sketches of sermons : in three volumes"
+   }
+  }
+ },
+ {
+  "file": "nadal_epistolae-v2-lat_1899.txt",
+  "status": "differ",
+  "header": "1899",
+  "host_items": {
+   "epistolaephieron09nada": {
+    "date": "1898",
+    "year": "1898",
+    "title": "Epistolae P. Hieronumi Nadal Societatis Jesu, ab anno 1546 ad 1577"
+   }
+  }
+ },
+ {
+  "file": "nadal_epistolae-v3-lat_1902.txt",
+  "status": "differ",
+  "header": "1902",
+  "host_items": {
+   "epistolaephieron03nadauoft": {
+    "date": "1898",
+    "year": null,
+    "title": "Epistolae P. Hieronymi Nadal Societatis Jesu ab anno 1546 ad 1577; nunc primum e"
+   }
+  }
+ },
+ {
+  "file": "nadal_epistolae-v4-lat_1905.txt",
+  "status": "differ",
+  "header": "1905",
+  "host_items": {
+   "epistolaephieron04nadauoft": {
+    "date": "1898",
+    "year": null,
+    "title": "Epistolae P. Hieronymi Nadal Societatis Jesu ab anno 1546 ad 1577; nunc primum e"
+   }
+  }
+ },
+ {
+  "file": "nau_opuscules-maronites-pt2-syr-fra_1900.txt",
+  "status": "differ",
+  "header": "1900 (title page)",
+  "host_items": {
+   "opusculesmaronit00maro": {
+    "date": "1899",
+    "year": null,
+    "title": "Opuscules maronites : texte syriaque autographe et traduction française"
+   }
+  }
+ },
+ {
+  "file": "neve_etude-sur-thomas-de-medzoph-fra_journal-asiatique1855.txt",
+  "status": "host gives no date",
+  "header": "1855",
+  "host_items": [
+   "EtudeSurThomasDeMedzophEtSurSonHistoireDeLarmenieAuXveSiecle"
+  ]
+ },
+ {
+  "file": "new-jerusalem-church_liturgy-with-proud-hymns-and-spiritual-songs_baltimore1793.txt",
+  "status": "differ",
+  "header": "1793",
+  "host_items": {
+   "liturgyour00newj": {
+    "date": "1792",
+    "year": null,
+    "title": "Liturgy of the New Church, signified by the New Jerusalem in the Revelation .."
+   }
+  }
+ },
+ {
+  "file": "nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865.txt",
+  "status": "differ",
+  "header": "1865",
+  "host_items": {
+   "patrologicursus46migngoog": {
+    "date": "1857",
+    "year": "1905",
+    "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, sc"
+   }
+  }
+ },
+ {
+  "file": "norbert-xanten_vita-b-and-sermons-in-pl170-lat_migne1894.txt",
+  "status": "differ",
+  "header": "1894 (title page)",
+  "host_items": {
+   "patrologiaecursu0170mign": {
+    "date": "1844",
+    "year": null,
+    "title": "Patrologiae cursus completus, sive biblioteca universalis, integra, uniformis, c"
+   }
+  }
+ },
+ {
+  "file": "odes-of-solomon_harris-mingana1920.txt",
+  "status": "differ",
+  "header": "",
+  "host_items": {
+   "odespsalmsofsolo02harruoft": {
+    "date": "1916-20",
+    "year": null,
+    "title": "The Odes and Psalms of Solomon;"
+   }
+  }
+ },
+ {
+  "file": "optatus_appendix-decem-monumentorum-lat_ziwsa1893-csel26-tei.txt",
+  "status": "host gives no date",
+  "header": "1893 (printed edition); 2014 (TEI)",
+  "host_items": [
+   "CorpusScriptorumEcclesiasticorumLatinorum26"
+  ]
+ },
+ {
+  "file": "optatus_libri-vii-lat_ziwsa1893-csel26-tei.txt",
+  "status": "host gives no date",
+  "header": "1893 (printed edition); 2014 (TEI)",
+  "host_items": [
+   "CorpusScriptorumEcclesiasticorumLatinorum26"
+  ]
+ },
+ {
+  "file": "pacific-garden-mission_thirty-first-annual-report_1908.txt",
+  "status": "host gives no date",
+  "header": "1908 (title leaf: 'September 15, 1908', read on the page image, leaf n2, and at OCR line 30; the archive.org identifier carries '1907')",
+  "host_items": [
+   "carries",
+   "annualreportpaci1907paci"
+  ]
+ },
+ {
+  "file": "paez_historia-aethiopiae-liber-3-4-por_beccari1906.txt",
+  "status": "differ",
+  "header": "1906",
+  "host_items": {
+   "rerumaethiopica01beccgoog": {
+    "date": "1903",
+    "year": null,
+    "title": "Rerum aethiopicarum scriptores occidentales inediti a saeculo XVI ad XIX"
+   }
+  }
+ },
+ {
+  "file": "paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt",
+  "status": "differ",
+  "header": "1847",
+  "host_items": {
+   "PrpPaisiusVelichkovsky": {
+    "date": "1849",
+    "year": "1849",
+    "title": "Житие и писания молдавскаго старца Паисия Величковскаго. Предисловия на книги Св"
+   }
+  }
+ },
+ {
+  "file": "palamas_opera-omnia-pg151-grc-lat_migne1865.txt",
+  "status": "differ",
+  "header": "1865",
+  "host_items": {
+   "patrologicursus36migngoog": {
+    "date": "1857",
+    "year": "1905",
+    "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, sc"
+   }
+  }
+ },
+ {
+  "file": "patrologia-orientalis-tomus15_petit-documents-concile-de-florence-purgatoire-grc-fra_graffin-nau1927.txt",
+  "status": "differ",
+  "header": "1927",
+  "host_items": {
+   "patrologiaorient15pariuoft": {
+    "date": "1907 [i.e. 1903]-",
+    "year": null,
+    "title": "Patrologia orientalis"
+   }
+  }
+ },
+ {
+  "file": "patrologia-orientalis-tomus16_synaxaire-arabe-jacobite-barmahat-bachons-synaxaire-armenien-tre-fra_graffin-nau1922.txt",
+  "status": "differ",
+  "header": "1922 (title page, file line 87; an imprimatur of 15 March 1922 at file line 36303)",
+  "host_items": {
+   "patrologiaorien16pari": {
+    "date": "1907",
+    "year": null,
+    "title": "Patrologia orientalis"
+   }
+  }
+ },
+ {
+  "file": "paul-samosata_paul-de-samosate-etude-historique-fra-grc_bardy1923.txt",
+  "status": "host gives no date",
+  "header": "1923 (title page; the first edition, not the 1929 revision)",
+  "host_items": [
+   "paul-de-samosate-etude-historique-gustave-bardy"
+  ]
+ },
+ {
+  "file": "paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt",
+  "status": "differ",
+  "header": "",
+  "host_items": {
+   "patrologiaecursu0080mign": {
+    "date": "1844",
+    "year": null,
+    "title": "Patrologiae cursus completus, sive biblioteca universalis, integra, uniformis, c"
+   }
+  }
+ },
+ {
+  "file": "peeters_histoires-monastiques-georgiennes-in-analecta-bollandiana-36-37-lat-fra_1917-1919.txt",
+  "status": "host item not found",
+  "header": "1917-1919 (the volume); 'a paru en 1922' (title page, read on the page image); the record gives 1919",
+  "host_items": [
+   "analectabollandianatom3637"
+  ]
+ },
+ {
+  "file": "philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt",
+  "status": "differ",
+  "header": "1893",
+  "host_items": {
+   "Dobrotolyubie1793": {
+    "date": "1793",
+    "year": "1793",
+    "title": "Добротолюбие, или словеса и главизны священнаго трезвения"
+   }
+  }
+ },
+ {
+  "file": "pinkerton_general-collection-voyages-and-travels-v16_1814.txt",
+  "status": "differ",
+  "header": "1814",
+  "host_items": {
+   "generalcollectio16pink": {
+    "date": "1808",
+    "year": null,
+    "title": "A general collection of the best and most interesting voyages and travels in all"
+   }
+  }
+ },
+ {
+  "file": "possidius_vita-augustini_weiskotten1919.txt",
+  "status": "host gives no date",
+  "header": "1919",
+  "host_items": [
+   "identifier"
+  ]
+ },
+ {
+  "file": "procopius_wars-6-16-7-35-gothic-grc-eng_dewing1924.txt",
+  "status": "differ",
+  "header": "",
+  "host_items": {
+   "procopiuswitheng04procuoft": {
+    "date": "1914",
+    "year": null,
+    "title": "Procopius, with an English translation by H.B. Dewing"
+   }
+  }
+ },
+ {
+  "file": "procopius_wars-7-36-8-gothic-grc-eng_dewing1928.txt",
+  "status": "differ",
+  "header": "",
+  "host_items": {
+   "procopiuswitheng05procuoft": {
+    "date": "1914",
+    "year": null,
+    "title": "Procopius, with an English translation by H.B. Dewing"
+   }
+  }
+ },
+ {
+  "file": "propaganda-fide_collectanea-decreta-instructiones-rescripta-v1-lat_1907.txt",
+  "status": "host gives no date",
+  "header": "1907",
+  "host_items": [
+   "collectaneascong01unse"
+  ]
+ },
+ {
+  "file": "psellos_accusation-de-michel-cerulaire-pt1-in-revue-des-etudes-grecques-16-grc-fra_brehier1903.txt",
+  "status": "differ",
+  "header": "1903 (title page)",
+  "host_items": {
+   "revuedestudesg16assouoft": {
+    "date": "1887",
+    "year": null,
+    "title": "Revue des études grecques"
+   }
+  }
+ },
+ {
+  "file": "psellos_chronographia-and-orations-in-mesaionike-bibliotheke-v4-grc_sathas1874.txt",
+  "status": "host gives no date",
+  "header": "1874 (title page)",
+  "host_items": [
+   "satha-mesaionike-bibliotheke"
+  ]
+ },
+ {
+  "file": "pseudo-justin_epistle-to-diognetus-grc_lake1917.txt",
+  "status": "differ",
+  "header": "1917 (printed edition)",
+  "host_items": {
+   "TheApostolicFathersV2": {
+    "date": "1919",
+    "year": "1919",
+    "title": "The Apostolic Fathers, Volume 2:  The Sheperd of Hermas. The Martyrdom of Polyca"
+   }
+  }
+ },
+ {
+  "file": "put_n01-rus_1925.txt",
+  "status": "host gives no date",
+  "header": "1925 (the masthead; see the Rights line)",
+  "host_items": [
+   "B-001-028-092-093-ALL"
+  ]
+ },
+ {
+  "file": "put_n02-rus_1926.txt",
+  "status": "host gives no date",
+  "header": "1926 (the masthead; see the Rights line)",
+  "host_items": [
+   "B-001-028-092-093-ALL"
+  ]
+ },
+ {
+  "file": "put_n03-rus_1926.txt",
+  "status": "host gives no date",
+  "header": "1926 (the masthead; see the Rights line)",
+  "host_items": [
+   "B-001-028-092-093-ALL"
+  ]
+ },
+ {
+  "file": "put_n04-rus_1926.txt",
+  "status": "host gives no date",
+  "header": "1926 (the masthead; see the Rights line)",
+  "host_items": [
+   "B-001-028-092-093-ALL"
+  ]
+ },
+ {
+  "file": "put_n05-rus_1926.txt",
+  "status": "host gives no date",
+  "header": "1926 (the masthead; see the Rights line)",
+  "host_items": [
+   "B-001-028-092-093-ALL"
+  ]
+ },
+ {
+  "file": "put_n06-rus_1927.txt",
+  "status": "host gives no date",
+  "header": "1927 (the masthead; see the Rights line)",
+  "host_items": [
+   "B-001-028-092-093-ALL"
+  ]
+ },
+ {
+  "file": "put_n07-rus_1927.txt",
+  "status": "host gives no date",
+  "header": "1927 (the masthead; see the Rights line)",
+  "host_items": [
+   "B-001-028-092-093-ALL"
+  ]
+ },
+ {
+  "file": "put_n08-rus_1927.txt",
+  "status": "host gives no date",
+  "header": "1927 (the masthead; see the Rights line)",
+  "host_items": [
+   "B-001-028-092-093-ALL"
+  ]
+ },
+ {
+  "file": "put_n09-rus_1928.txt",
+  "status": "host gives no date",
+  "header": "1928 (the masthead; see the Rights line)",
+  "host_items": [
+   "B-001-028-092-093-ALL"
+  ]
+ },
+ {
+  "file": "put_n10-rus_1928.txt",
+  "status": "host gives no date",
+  "header": "1928 (the masthead; see the Rights line)",
+  "host_items": [
+   "B-001-028-092-093-ALL"
+  ]
+ },
+ {
+  "file": "put_n11-rus_1928.txt",
+  "status": "host gives no date",
+  "header": "1928 (the masthead; see the Rights line)",
+  "host_items": [
+   "B-001-028-092-093-ALL"
+  ]
+ },
+ {
+  "file": "put_n12-rus_1928.txt",
+  "status": "host gives no date",
+  "header": "1928 (the masthead; see the Rights line)",
+  "host_items": [
+   "B-001-028-092-093-ALL"
+  ]
+ },
+ {
+  "file": "put_n13-rus_1928.txt",
+  "status": "host gives no date",
+  "header": "1928 (the masthead; see the Rights line)",
+  "host_items": [
+   "B-001-028-092-093-ALL"
+  ]
+ },
+ {
+  "file": "put_n14-rus_1928.txt",
+  "status": "host gives no date",
+  "header": "1928 (the masthead; see the Rights line)",
+  "host_items": [
+   "B-001-028-092-093-ALL"
+  ]
+ },
+ {
+  "file": "put_n15-rus_1929.txt",
+  "status": "host gives no date",
+  "header": "1929 (the masthead; see the Rights line)",
+  "host_items": [
+   "B-001-028-092-093-ALL"
+  ]
+ },
+ {
+  "file": "put_n16-rus_1929.txt",
+  "status": "host gives no date",
+  "header": "1929 (the masthead; see the Rights line)",
+  "host_items": [
+   "B-001-028-092-093-ALL"
+  ]
+ },
+ {
+  "file": "put_n17-rus_1929.txt",
+  "status": "host gives no date",
+  "header": "1929 (the masthead; see the Rights line)",
+  "host_items": [
+   "B-001-028-092-093-ALL"
+  ]
+ },
+ {
+  "file": "put_n18-rus_1929.txt",
+  "status": "host gives no date",
+  "header": "1929 (the masthead; see the Rights line)",
+  "host_items": [
+   "B-001-028-092-093-ALL"
+  ]
+ },
+ {
+  "file": "put_n19-rus_1929.txt",
+  "status": "host gives no date",
+  "header": "1929 (the masthead; see the Rights line)",
+  "host_items": [
+   "B-001-028-092-093-ALL"
+  ]
+ },
+ {
+  "file": "put_n20-rus_1930.txt",
+  "status": "host gives no date",
+  "header": "1930 (the masthead; see the Rights line)",
+  "host_items": [
+   "B-001-028-092-093-ALL"
+  ]
+ },
+ {
+  "file": "put_n21-rus_1930.txt",
+  "status": "host gives no date",
+  "header": "1930 (the masthead; see the Rights line)",
+  "host_items": [
+   "B-001-028-092-093-ALL"
+  ]
+ },
+ {
+  "file": "put_n22-rus_1930.txt",
+  "status": "host gives no date",
+  "header": "1930 (the masthead; see the Rights line)",
+  "host_items": [
+   "B-001-028-092-093-ALL"
+  ]
+ },
+ {
+  "file": "put_n23-rus_1930.txt",
+  "status": "host gives no date",
+  "header": "1930 (the masthead; see the Rights line)",
+  "host_items": [
+   "B-001-028-092-093-ALL"
+  ]
+ },
+ {
+  "file": "put_n24-rus_1930.txt",
+  "status": "host gives no date",
+  "header": "1930 (the masthead; see the Rights line)",
+  "host_items": [
+   "B-001-028-092-093-ALL"
+  ]
+ },
+ {
+  "file": "put_n25-rus_1930.txt",
+  "status": "host gives no date",
+  "header": "1930 (the masthead; see the Rights line)",
+  "host_items": [
+   "B-001-028-092-093-ALL"
+  ]
+ },
+ {
+  "file": "regula-magistri-cresconius-pl88-lat_migne1862.txt",
+  "status": "differ",
+  "header": "",
+  "host_items": {
+   "patrologiaecur88mign": {
+    "date": "1800",
+    "year": null,
+    "title": "Patrologiae cursus completus : Series latina"
+   }
+  }
+ },
+ {
+  "file": "regularis-concordia_de-consuetudine-monachorum-in-anglia-13-lat-ang_logeman1891.txt",
+  "status": "differ",
+  "header": "1891 (title page)",
+  "host_items": {
+   "angliazeitschrif13tbuoft": {
+    "date": "1877",
+    "year": null,
+    "title": "Anglia; Zeitschrift für englische Philologie"
+   }
+  }
+ },
+ {
+  "file": "reitz_historie-der-wiedergebohrnen-t5-deu_1715.txt",
+  "status": "differ",
+  "header": "1715",
+  "host_items": {
+   "10070755bsb": {
+    "date": "1717",
+    "year": null,
+    "title": "Historie Der Wiedergebohrnen, Oder Exempel gottseliger, so bekannt- und benannt-"
+   }
+  }
+ },
+ {
+  "file": "robert-molesme_vita-et-epistolae-in-pl157-lat_migne1899.txt",
+  "status": "differ",
+  "header": "1899 (title page, OCR line 315; a second title leaf ('Tomus unicus', OCR line 418) reads 1898)",
+  "host_items": {
+   "patrologiaecursu0157mign": {
+    "date": "1844",
+    "year": null,
+    "title": "Patrologiae cursus completus, sive biblioteca universalis, integra, uniformis, c"
+   }
+  }
+ },
+ {
+  "file": "sahagun_historia-general-de-las-cosas-de-nueva-espana-t3-spa_bustamante1830.txt",
+  "status": "differ",
+  "header": "1830 (title page, OCR line 49)",
+  "host_items": {
+   "historiagenerald03saha": {
+    "date": "1829",
+    "year": null,
+    "title": "Historia general de las cosas de Nueva España, : que en doce libros y dos volume"
+   }
+  }
+ },
+ {
+  "file": "schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt",
+  "status": "differ",
+  "header": "1878",
+  "host_items": {
+   "creedsofchristen02scha": {
+    "date": "1877",
+    "year": null,
+    "title": "The creeds of Christendom : with a history and critical notes"
+   }
+  }
+ },
+ {
+  "file": "scher_notice-manuscrits-syriaques-patriarcat-chaldeen-mossoul-fra_1907.txt",
+  "status": "host gives no date",
+  "header": "1907 (read off the running head at file line 42; the article also cites a Journal asiatique of \"juillet-août 1907\" at file line 523)",
+  "host_items": [
+   "NoticeSurLesManuscritsSyriaquesConservesDansLaBibliothequeDu"
+  ]
+ },
+ {
+  "file": "scholz_unbekannte-kirchenpolitische-streitschriften-v2-lat_1914.txt",
+  "status": "differ",
+  "header": "1914",
+  "host_items": {
+   "unbekanntekirche02scho": {
+    "date": "1911",
+    "year": null,
+    "title": "Unbekannte kirchenpolitische streitschriften aus der zeit Ludwigs des Bayern (13"
+   }
+  }
+ },
+ {
+  "file": "schwenckfeld_heavenly-balm-divine-physician_anspach1858.txt",
+  "status": "host gives no date",
+  "header": "1858 (the translation; this re-setting 2024)",
+  "host_items": [
+   "the-heavenly-balm-and-the-divine-physician"
+  ]
+ },
+ {
+  "file": "sebeos_histoire-d-heraclius-fra_macler1904.txt",
+  "status": "host gives no date",
+  "header": "",
+  "host_items": [
+   "HistoireDheracliusParLevequeSebeos"
+  ]
+ },
+ {
+  "file": "severus-of-antioch_select-letters-book6-part1_brooks1903.txt",
+  "status": "differ",
+  "header": "",
+  "host_items": {
+   "selectletterssix01seveuoft": {
+    "date": "1902",
+    "year": null,
+    "title": "Select letters - Sixth book : in the Syriac version of Athanasius of Nisibis;"
+   }
+  }
+ },
+ {
+  "file": "skala_historie-ceska-1619-1620-ces_tieftrunk1867.txt",
+  "status": "differ",
+  "header": "1867",
+  "host_items": {
+   "historieeskodr03sk": {
+    "date": "1865",
+    "year": null,
+    "title": "Historie eská, od r. 1602 do r. 1623. K vyd. upravil Karel Tieftrunk"
+   }
+  }
+ },
+ {
+  "file": "smith-hannah-whitall_christians-secret-of-a-happy-life_rev-ed1888.txt",
+  "status": "host gives no date",
+  "header": "1888 (the copyright notice at line 145, which the OCR gives garbled with the year 1888 clear)",
+  "host_items": [
+   "christianssecret00smitrich"
+  ]
+ },
+ {
+  "file": "st-andrews-kirk-session_register-pt2-1582-1600_hay-fleming1890.txt",
+  "status": "differ",
+  "header": "1890 (title page; issued August 1890)",
+  "host_items": {
+   "registerofminist02stan": {
+    "date": "1889",
+    "year": null,
+    "title": "Register of the minister, elders, and deacons of the Christian congregation of S"
+   }
+  }
+ },
+ {
+  "file": "stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt",
+  "status": "differ",
+  "header": "1917 (title page)",
+  "host_items": {
+   "IA41550422_0048": {
+    "date": "1897",
+    "year": null,
+    "title": "Histoire Universelle: Par Étienne Asolik de Tarôn (Deuxième Partie) Traduit de l"
+   }
+  }
+ },
+ {
+  "file": "stephen-harding_charta-caritatis-and-exordium-in-pl166-lat_migne1894.txt",
+  "status": "differ",
+  "header": "1894 (title page)",
+  "host_items": {
+   "patrologiaecursu0166mign": {
+    "date": "1844",
+    "year": null,
+    "title": "Patrologiae cursus completus, sive biblioteca universalis, integra, uniformis, c"
+   }
+  }
+ },
+ {
+  "file": "stoglav_stoglav-fra_duchesne1920.txt",
+  "status": "host gives no date",
+  "header": "1920",
+  "host_items": [
+   "StoglavTraductionFrancaise"
+  ]
+ },
+ {
+  "file": "studia-biblica-et-ecclesiastica-v5-life-of-st-nino_wardrop1903.txt",
+  "status": "differ",
+  "header": "",
+  "host_items": {
+   "studiabiblicaete05oxfouoft": {
+    "date": "1885-96",
+    "year": null,
+    "title": "Studia Biblica et ecclesiastica : essays chiefly in Bibliocal and patristic crit"
+   }
+  }
+ },
+ {
+  "file": "subbotin_materialy-dlia-istorii-raskola-v1-dokumenty-rus_1874.txt",
+  "status": "differ",
+  "header": "1874",
+  "host_items": {
+   "Materialydljaistoriiraskolazapervoevremj44_": {
+    "date": "1875",
+    "year": null,
+    "title": "Материалы для истории раскола за первое время его существования, издаваемые Брат"
+   }
+  }
+ },
+ {
+  "file": "subbotin_materialy-dlia-istorii-raskola-v3-dokumenty-solovki-rus_1876.txt",
+  "status": "differ",
+  "header": "1876",
+  "host_items": {
+   "Materialydljaistoriiraskolazapervoevremj17_": {
+    "date": "1875",
+    "year": null,
+    "title": "Материалы для истории раскола за первое время его существования, издаваемые реда"
+   }
+  }
+ },
+ {
+  "file": "subbotin_materialy-dlia-istorii-raskola-v8-avvakum-zhitie-morozovoi-rus_1887.txt",
+  "status": "differ",
+  "header": "1887",
+  "host_items": {
+   "Materialydljaistoriiraskolazapervoevremj14_": {
+    "date": "1875",
+    "year": null,
+    "title": "Материалы для истории раскола за первое время его существования, издаваемые реда"
+   }
+  }
+ },
+ {
+  "file": "suetonius_lives-of-the-caesars-loeb_rolfe1914.txt",
+  "status": "host gives no date",
+  "header": "1914",
+  "host_items": [
+   "suetonius-loeb"
+  ]
+ },
+ {
+  "file": "synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt",
+  "status": "differ",
+  "header": "",
+  "host_items": {
+   "patrologiaorient11pariuoft": {
+    "date": "1907 [i.e. 1903]-",
+    "year": null,
+    "title": "Patrologia orientalis"
+   }
+  }
+ },
+ {
+  "file": "taft_biographical-sketches-of-holy-women-v1-v2_1825-1828.txt",
+  "status": "host gives no date",
+  "header": "1825 (vol. I title page, read on the page image, leaf n6, and at OCR line 133) and 1828 (vol. II title page, OCR line 19114)",
+  "host_items": [
+   "taft-biographical-sketches-of-the-lives-and-public-ministry-of-various-holy-women"
+  ]
+ },
+ {
+  "file": "taylor-howard_hudson-taylor-in-early-years_1912.txt",
+  "status": "differ",
+  "header": "1912 (OCR line 60, on the title page)",
+  "host_items": {
+   "hudsontaylorin00tayl": {
+    "date": "1911",
+    "year": "1911",
+    "title": "Hudson Taylor in early years : the growth of a soul"
+   }
+  }
+ },
+ {
+  "file": "te-karere_v24-mri_1930.txt",
+  "status": "differ",
+  "header": "1930 (mastheads: \"21 o Mei 1930\" at lines 129-134, read also on the page image; \"23 o Aperira\" 1930 at lines 3036-3039; a third masthead, of November 1930 in garbled OCR, at about line 6701)",
+  "host_items": {
+   "tekarere3000chur": {
+    "date": "1907",
+    "year": null,
+    "title": "Te Karere"
+   }
+  }
+ },
+ {
+  "file": "theodore-abu-qurrah_de-cultu-imaginum-ara-lat_arendzen1897.txt",
+  "status": "host item not found",
+  "header": "1897 (title page: 'MDCCCXCVII')",
+  "host_items": [
+   "TreatiseAboutTheIconsAbuQurrahArabicText"
+  ]
+ },
+ {
+  "file": "thomas-aquinas_opera-omnia-t10-summa-theologiae-lat_leonine1899.txt",
+  "status": "differ",
+  "header": "1899 (title page)",
+  "host_items": {
+   "operaomniaiussui10thom": {
+    "date": "1882",
+    "year": null,
+    "title": "Opera omnia, iussu impensaque Leonis XIII. P.M. edita"
+   }
+  }
+ },
+ {
+  "file": "thomas-aquinas_opera-omnia-t11-summa-theologiae-lat_leonine1903.txt",
+  "status": "differ",
+  "header": "1903 (title page)",
+  "host_items": {
+   "operaomniaiussui11thom": {
+    "date": "1882",
+    "year": null,
+    "title": "Opera omnia, iussu impensaque Leonis XIII. P.M. edita"
+   }
+  }
+ },
+ {
+  "file": "thomas-aquinas_opera-omnia-t12-summa-theologiae-lat_leonine1906.txt",
+  "status": "differ",
+  "header": "1906 (title page)",
+  "host_items": {
+   "operaomniaiussui12thom": {
+    "date": "1882",
+    "year": null,
+    "title": "Opera omnia, iussu impensaque Leonis XIII. P.M. edita"
+   }
+  }
+ },
+ {
+  "file": "thomas-aquinas_opera-omnia-t4-summa-theologiae-lat_leonine1888.txt",
+  "status": "differ",
+  "header": "1888 (title page)",
+  "host_items": {
+   "operaomniaiussui04thom": {
+    "date": "1882",
+    "year": null,
+    "title": "Opera omnia, iussu impensaque Leonis XIII. P.M. edita"
+   }
+  }
+ },
+ {
+  "file": "thomas-aquinas_opera-omnia-t5-summa-theologiae-lat_leonine1889.txt",
+  "status": "differ",
+  "header": "1889 (title page)",
+  "host_items": {
+   "operaomniaiussui5thom": {
+    "date": "1882",
+    "year": "1882",
+    "title": "Opera omnia, iussu impensaque Leonis XIII. P.M. edita"
+   }
+  }
+ },
+ {
+  "file": "thomas-aquinas_opera-omnia-t6-summa-theologiae-lat_leonine1891.txt",
+  "status": "differ",
+  "header": "1891 (title page)",
+  "host_items": {
+   "operaomniaiussui06thom": {
+    "date": "1882",
+    "year": null,
+    "title": "Opera omnia, iussu impensaque Leonis XIII. P.M. edita"
+   }
+  }
+ },
+ {
+  "file": "thomas-aquinas_opera-omnia-t7-summa-theologiae-lat_leonine1892.txt",
+  "status": "differ",
+  "header": "1892 (title page)",
+  "host_items": {
+   "operaomniaiussui07thom": {
+    "date": "1882",
+    "year": null,
+    "title": "Opera omnia, iussu impensaque Leonis XIII. P.M. edita"
+   }
+  }
+ },
+ {
+  "file": "thomas-aquinas_opera-omnia-t8-summa-theologiae-lat_leonine1895.txt",
+  "status": "differ",
+  "header": "1895 (title page)",
+  "host_items": {
+   "operaomniaiussui08thom": {
+    "date": "1882",
+    "year": null,
+    "title": "Opera omnia, iussu impensaque Leonis XIII. P.M. edita"
+   }
+  }
+ },
+ {
+  "file": "thomas-aquinas_opera-omnia-t9-summa-theologiae-lat_leonine1897.txt",
+  "status": "differ",
+  "header": "1897 (title page)",
+  "host_items": {
+   "operaomniaiussui09thom": {
+    "date": "1882",
+    "year": null,
+    "title": "Opera omnia, iussu impensaque Leonis XIII. P.M. edita"
+   }
+  }
+ },
+ {
+  "file": "thomas-becket_epistolae-with-vitae-pl190-lat_migne1893.txt",
+  "status": "differ",
+  "header": "1893 (title page)",
+  "host_items": {
+   "patrologiaecur190mign": {
+    "date": "1800",
+    "year": null,
+    "title": "Patrologiae cursus completus : Series latina"
+   }
+  }
+ },
+ {
+  "file": "truhelka_testamenat-gosta-radina-hrv_glasnik-zemaljskog-muzeja1911.txt",
+  "status": "differ",
+  "header": "1911",
+  "host_items": {
+   "glasnikzemaljsk2319zema_2": {
+    "date": "1948",
+    "year": null,
+    "title": "Glasnik Zemaljskog muzeja u Sarajevu = Vestnik Muzei͡a Bosny i Gert͡segovniny v "
+   }
+  }
+ },
+ {
+  "file": "uchimura_diary-of-a-japanese-convert_1895.txt",
+  "status": "host gives no date",
+  "header": "1895 (the copyright notice at line 117 of this file ('Copyright, 1895. by Fleming H. Revell Company.'); the title page prints no year)",
+  "host_items": [
+   "diaryofjapanesec00uchirich"
+  ]
+ },
+ {
+  "file": "unity-of-the-brethren_historie-tezkych-protivenstvi-cirkve-ceske-ces_1890.txt",
+  "status": "differ",
+  "header": "1890",
+  "host_items": {
+   "historieotezkych00come": {
+    "date": "1870",
+    "year": null,
+    "title": "Historie o tezkych protivenstvích cirkve ceské, hned od pocátku jejího na víru k"
+   }
+  }
+ },
+ {
+  "file": "van-braght_martyrs-mirror_sohm1886.txt",
+  "status": "differ",
+  "header": "",
+  "host_items": {
+   "MartyrsMirror": {
+    "date": "1660",
+    "year": "1660",
+    "title": "The Bloody Theater or Martyrs Mirror of the Defenseless Christians"
+   }
+  }
+ },
+ {
+  "file": "velho_journal-of-the-first-voyage-of-vasco-da-gama_ravenstein1898.txt",
+  "status": "host item not found",
+  "header": "1898",
+  "host_items": [
+   "ajournalfirstvo00ravegoog",
+   "record"
+  ]
+ },
+ {
+  "file": "venantius-fortunatus_opera-mgh-aa-4-lat_leo-krusch1881.txt",
+  "status": "differ",
+  "header": "",
+  "host_items": {
+   "monumentagermani04geseuoft": {
+    "date": "(1877-1919)",
+    "year": null,
+    "title": "Monumenta Germaniae historica. Auctorum antiquissimorum"
+   }
+  }
+ },
+ {
+  "file": "vita-constantini_die-legende-vom-heiligen-cyrillus-in-denkschriften-wien-19-chu-lat-deu_duemmler-miklosich1870.txt",
+  "status": "differ",
+  "header": "1870 (title page of Band 19; Band 20, bound in from about OCR line 28698, was not dated by the Library thread)",
+  "host_items": {
+   "denkschriften1920ster": {
+    "date": "1850",
+    "year": null,
+    "title": "Denkschriften"
+   }
+  }
+ },
+ {
+  "file": "volney_travels-through-syria-and-egypt-v2_1788.txt",
+  "status": "differ",
+  "header": "1788",
+  "host_items": {
+   "travelsthroughsy02voln": {
+    "date": "1787",
+    "year": null,
+    "title": "Travels through Syria and Egypt, in the years 1783, 1784, and 1785 .."
+   }
+  }
+ },
+ {
+  "file": "vonsoden_prosopographie-afrikanischer-episkopat-deu_1909.txt",
+  "status": "differ",
+  "header": "1909",
+  "host_items": {
+   "quellenundforsch12deutuoft": {
+    "date": "1898",
+    "year": null,
+    "title": "Quellen und Forschungen aus italienischen Archiven und Bibliotheken"
+   }
+  }
+ },
+ {
+  "file": "vonsoden_streit-rom-karthago-ketzertaufe-deu_1909.txt",
+  "status": "differ",
+  "header": "1909",
+  "host_items": {
+   "quellenundforsch12deutuoft": {
+    "date": "1898",
+    "year": null,
+    "title": "Quellen und Forschungen aus italienischen Archiven und Bibliotheken"
+   }
+  }
+ },
+ {
+  "file": "wattenbach_secte-der-brueder-vom-freien-geiste-sitzungsberichte-berlin-deu_1887.txt",
+  "status": "differ",
+  "header": "1887",
+  "host_items": {
+   "sitzungsberichte1887deutsch": {
+    "date": "1882",
+    "year": null,
+    "title": "Sitzungsberichte der Königlich Preussischen Akademie der Wissenschaften zu Berli"
+   }
+  }
+ },
+ {
+  "file": "wilberforce-reginald_life-of-samuel-wilberforce-v2_1881.txt",
+  "status": "differ",
+  "header": "1881 (title page, read on the page image, leaf n10, and at OCR line 55)",
+  "host_items": {
+   "a614417002ashwuoft": {
+    "date": "1880-1883",
+    "year": null,
+    "title": "Life of the Right Reverend Samuel Wilberforce, D.D., Lord Bishop of Oxford and a"
+   }
+  }
+ },
+ {
+  "file": "williams-pantycelyn_gweithiau-v2-hymnau-a-rhyddiaith-cym_cynhafal-jones1891.txt",
+  "status": "differ",
+  "header": "1891 (the editor's preface is dated 13 January 1891; the title-page numeral is partly garbled in the scan)",
+  "host_items": {
+   "pantycelyn_gweithiau2": {
+    "date": "1887",
+    "year": "1887",
+    "title": "Gweithiau William Pant-y-Celyn, cyfrol 2"
+   }
+  }
+ },
+ {
+  "file": "woodforde_diary-of-a-country-parson-v2_beresford1926.txt",
+  "status": "differ",
+  "header": "1926",
+  "host_items": {
+   "diaryofcountrypa0002wood": {
+    "date": "1924",
+    "year": null,
+    "title": "The diary of a country parson:"
+   }
+  }
+ },
+ {
+  "file": "woodforde_diary-of-a-country-parson-v3_beresford1927.txt",
+  "status": "differ",
+  "header": "1927",
+  "host_items": {
+   "diaryofcountrypa0003wood": {
+    "date": "1924",
+    "year": null,
+    "title": "The diary of a country parson:"
+   }
+  }
+ },
+ {
+  "file": "wright_political-poems-and-songs-v2_1861.txt",
+  "status": "differ",
+  "header": "1861",
+  "host_items": {
+   "politicalpoemsso02wrig": {
+    "date": "1859",
+    "year": null,
+    "title": "Political poems and songs relating to English history : composed during the peri"
+   }
+  }
+ },
+ {
+  "file": "wyclif_de-ecclesia-lat_loserth1886.txt",
+  "status": "differ",
+  "header": "",
+  "host_items": {
+   "tractatusdeeccle00wycl": {
+    "date": "1966",
+    "year": null,
+    "title": "Tractatus de ecclesia"
+   }
+  }
+ },
+ {
+  "file": "wyclif_select-english-works-v2_arnold1871.txt",
+  "status": "differ",
+  "header": "",
+  "host_items": {
+   "afb3713.0002.001.umich.edu": {
+    "date": "1869",
+    "year": null,
+    "title": "Select English works of John Wyclif;"
+   }
+  }
+ },
+ {
+  "file": "wyclif_select-english-works-v3_arnold1871.txt",
+  "status": "differ",
+  "header": "",
+  "host_items": {
+   "afb3713.0003.001.umich.edu": {
+    "date": "1869",
+    "year": null,
+    "title": "Select English works of John Wyclif;"
+   }
+  }
+ },
+ {
+  "file": "zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+  "status": "host gives no date",
+  "header": "",
+  "host_items": [
+   "zachariah-mitylene-1899"
+  ]
+ },
+ {
+  "file": "zwingli_latin-works-correspondence-vol3_heller1929.txt",
+  "status": "differ",
+  "header": "",
+  "host_items": {
+   "latinworkscorres03zwin": {
+    "date": "1912",
+    "year": null,
+    "title": "The Latin works and the correspondence of Huldreich Zwingli :  together with sel"
+   }
+  }
+ }
+]
