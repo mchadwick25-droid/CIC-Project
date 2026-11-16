@@ -26,7 +26,7 @@ assignments:
 - row_id: christian-east_v7-no3-september-1926--sergios-of-novgorod-letter-taking-up-the-locum-tenency-1925
   work: 'Sergios, Metropolitan of Novgorod, letter taking up the duties of locum tenens (1925), in The Christian East'
   author: christian-east
-  locus: 'OCR lines 2081-2104; add 12 to OCR line numbers'
+  locus: 'OCR lines 2081-2120; add 12 to OCR line numbers'
   atlas_ids:
   - the-russian-orthodox-church-council-patriarchate-and-reunion
   - the-russian-new-martyrs-and-the-catacomb-church
@@ -34,7 +34,7 @@ assignments:
   confidence: assigned
   language: eng
   date: {start: 1925, end: 1925, source: "dated 1/14 December, 1925 (OCR line 2081)", formation_confidence: Documented}
-  note: 'His own letter, in English with no translator named.'
+  note: 'His own letter, in English with no translator named; signed at OCR lines 2102-2104, with a printing line, the address and an authentication at 2115-2120.'
 - row_id: christian-east_v7-no3-september-1926--sergios-of-novgorod-letter-to-gregory-of-ekaterinburg-1926
   work: 'Sergios, Metropolitan of Novgorod, letter to Archbishop Gregory of Ekaterinburg (1926), in The Christian East'
   author: christian-east
@@ -56,5 +56,5 @@ assignments:
   role: tradition
   confidence: assigned
   language: eng
-  date: {start: 1925, end: 1926, source: "it stands between documents dated 2 Jan., 1926 (OCR line 2128) and 1/14 Jan., 1926 (OCR line 2332)", formation_confidence: Documented}
+  date: {start: 1926, end: 1926, source: "its first article speaks of 'the present year, 1926' (OCR line 2174)", formation_confidence: Documented}
   note: 'The constitution of the council that Sergios''s letter of January 1926 writes against; the bishops who signed it are not those of the rows for Peter and Sergios.'

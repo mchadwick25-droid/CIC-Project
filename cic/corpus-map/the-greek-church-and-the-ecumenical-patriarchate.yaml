@@ -289,7 +289,8 @@ works:
     end: 1929
     source: printed in the Chronicle of the number of Autumn, 1929
     formation_confidence: Documented
-  note: His own letter, written to an English paper; it stands inside the Chronicle.
+  note: His own letter, written to an English paper; it stands inside the Chronicle, which
+    introduces it at OCR lines 50 and 88.
   source_file: christian-east_v10-no3-autumn-1929.txt
 - row_id: christian-east_v9-no1-spring-1928--metropolitan-of-thyatira-the-orthodox-delegation-at-lausanne-and-its-declaration-1928
   work: The Metropolitan of Thyatira, 'The Orthodox Delegation at Lausanne and its Declaration'

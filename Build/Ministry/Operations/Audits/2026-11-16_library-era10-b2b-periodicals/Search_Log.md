@@ -132,41 +132,41 @@ era 8 script with the fetch date changed.
 
 ## Cautions for profile writers
 
-0. **A text batch 2 listed as not found is here.** The Ecumenical Patriarchate's encyclical of January 1920,
+1. **A text batch 2 listed as not found is here.** The Ecumenical Patriarchate's encyclical of January 1920,
    "Unto all the Churches of Christ wheresoever they be", is printed whole in English in The Christian East for
    June 1920 (`christian-east_v1-no2-june-1920.txt`, host lines 155-462), signed by the locum tenens Dorotheus
    and the metropolitans of his synod. The print names no translator.
-1. **The Christian East prints Eastern documents in English.** A row says where the print names the translator
+2. **The Christian East prints Eastern documents in English.** A row says where the print names the translator
    or the paper it was taken from. Where it names none, the English may be the sender's own or the journal's;
    do not call it either.
-2. **Four texts are in another language**: the locum tenens's memorial to the League of Nations (December
+3. **Four texts are in another language**: the locum tenens's memorial to the League of Nations (December
    1921) and Scriban on Romania (May 1924) in French, with Batiffol's rejoinder (December 1924); the
    Archbishop of Utrecht's letter in Latin (January 1926). Meletios's letter of January 1922 is in Greek and
    English, and the Greek is garbled in the OCR.
-3. **Summaries, not the text**: Anthony of Kiev on the papacy (February 1924) is "our translation of his own
+4. **Summaries, not the text**: Anthony of Kiev on the papacy (February 1924) is "our translation of his own
    summary"; Parenta's "Penance" (Winter 1928) is "the substance of an article"; Kartashev's speech (Autumn
    1928) is "the substance of a speech".
-4. **The scan lacks the end of four numbers**: February 1924 (the Athens Letter breaks off), May 1924 (the
+5. **The scan lacks the end of four numbers**: February 1924 (the Athens Letter breaks off), May 1924 (the
    dedication service), March 1925 ("Remember Russia") and December 1921 (the last book notice).
-5. **A leaf of 1921 stands in the number of December 1920**: a memorial card for Dorotheos of Brusa, who "died
+6. **A leaf of 1921 stands in the number of December 1920**: a memorial card for Dorotheos of Brusa, who "died
    in London, Friday, March 17th, 1921".
-6. **Tikhon's letter of 1918 (June 1920) is broken by a plate leaf.** Junk lines stand at host lines 4073-4084;
+7. **Tikhon's letter of 1918 (June 1920) is broken by a plate leaf.** Junk lines stand at host lines 4073-4084;
    the letter runs on at 4085 and is signed at 4106-4109. The OCR of its heading is damaged.
-7. **The survey of 1916 on Garrick Braid** (International Review, 1917) is a few lines and a footnote, drawn
+8. **The survey of 1916 on Garrick Braid** (International Review, 1917) is a few lines and a footnote, drawn
    from the Church Missionary Review; it is an outside account at second hand. Footnotes of the page before and
    lines on Calabar and Kamerun stand inside the row's range.
-11. **The canonical documents of 1925-26 (September 1926) are from two sides.** Peter of Krutitz and Sergios
+9. **The canonical documents of 1925-26 (September 1926) are from two sides.** Peter of Krutitz and Sergios
     have a row each; the constitution of the Temporary Supreme Council, which Sergios writes against, has its
     own row; a Soviet commissariat's notice stands between them and has none.
-12. **The Lausanne declaration (Autumn 1927) was not signed by the Metropolitan of Sofia**, the editors say,
+10. **The Lausanne declaration (Autumn 1927) was not signed by the Metropolitan of Sofia**, the editors say,
     since he had left; his own paper is in the same number.
-13. **Gregory VII's letter of 1923 (February 1924) is printed in Greek and in English**; the editors call the
+11. **Gregory VII's letter of 1923 (February 1924) is printed in Greek and in English**; the editors call the
     English "the translation made by the Metropolitan himself".
-8. **The Bishop of Dornakal's article of 1929 gives his see in the by-line and his name at the end**: it is
+12. **The Bishop of Dornakal's article of 1929 gives his see in the by-line and his name at the end**: it is
    signed V. S. Azariah (the OCR reads "Azariar"), and the notes on contributors name him in full.
-9. **In the International Review the OCR often reads a 3 as an 8 in a year** ("1918" for 1913, "1928" for
+13. **In the International Review the OCR often reads a 3 as an 8 in a year** ("1918" for 1913, "1928" for
    1923). Read the year on the page image before dating anything from a footnote.
-10. **The "Quarterly Notes" of the International Missionary Council** are bound into each number from 1924.
+14. **The "Quarterly Notes" of the International Missionary Council** are bound into each number from 1924.
     Those of October 1930 speak of plans for 1931; the volume itself is of 1930.
 
 ## The review
@@ -176,4 +176,6 @@ found the rights basis sound for all 45 files, no host mark or copyright line in
 read the page images of all 31 numbers of The Christian East and of three volumes of the International Review,
 and every printed date agrees. The blocking finding was a shelf row that gave a rival council's constitution to
 Peter of Krutitz and Sergios. All 22 findings were accepted and corrected in the spec, and the batch was
-vendored again from it (`R1_changes.md`).
+vendored again from it (`R1_changes.md`). A targeted recheck (`R2_recheck.md`) closed all 22, read both ends of
+all 51 ranged rows and passed the batch, with seven new minor findings; those were corrected in the spec and
+the batch vendored a third time (`R2_changes.md`).

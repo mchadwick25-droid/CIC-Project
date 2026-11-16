@@ -39,8 +39,9 @@ works:
     end: 1919
     source: 'the heading: ''adopted at Nanking, January 1919'' (OCR line 7574)'
     formation_confidence: Documented
-  note: A union plan prepared by a committee of the Presbyterian churches in China and the
-    churches of two mission boards, as its heading says.
+  note: A union plan prepared, its heading says, by a committee of the Presbyterian churches
+    in China and the churches of the London Missionary Society and the American Board of Commissioners
+    for Foreign Missions.
   source_file: international-review-of-missions_v9_1920.txt
 - row_id: national-christian-conference_chinese-church-as-revealed-shanghai-1922_1922--the-chinese-church-as-revealed-in-the-national-christian
   work: The Chinese Church as Revealed in the National Christian Conference, Shanghai 1922

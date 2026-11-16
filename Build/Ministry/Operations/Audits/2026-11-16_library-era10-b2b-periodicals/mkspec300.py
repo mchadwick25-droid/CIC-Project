@@ -390,14 +390,14 @@ ce("1926-09_7_3", 7, 3, "September, 1926", 1926, (156, r"SEPTEMBER, 1926"), "cov
    [("peter-of-krutitz-act-naming-his-deputies-1925", "Peter of Krutitz, locum tenens, act naming those who are to act for him (1925)", 2053, r"PETER OF KRUTITZ", 2078, r"Moscow",
      [RUS, NM], "tradition", "eng", (1925, 1925), "dated 23 Nov./6 Dec., 1925 (OCR line 2077)",
      "His own act, in English with no translator named."),
-    ("sergios-of-novgorod-letter-taking-up-the-locum-tenency-1925", "Sergios, Metropolitan of Novgorod, letter taking up the duties of locum tenens (1925)", 2081, r"December, 1925", 2104, r"Locum-Tenens",
+    ("sergios-of-novgorod-letter-taking-up-the-locum-tenency-1925", "Sergios, Metropolitan of Novgorod, letter taking up the duties of locum tenens (1925)", 2081, r"December, 1925", 2120, r"Diocese of Moscow",
      [RUS, NM], "tradition", "eng", (1925, 1925), "dated 1/14 December, 1925 (OCR line 2081)",
-     "His own letter, in English with no translator named."),
+     "His own letter, in English with no translator named; signed at OCR lines 2102-2104, with a printing line, the address and an authentication at 2115-2120."),
     ("sergios-of-novgorod-letter-to-gregory-of-ekaterinburg-1926", "Sergios, Metropolitan of Novgorod, letter to Archbishop Gregory of Ekaterinburg (1926)", 2254, r"ACTING LocuM-TENENS", 2336, r"Ekaterinburg",
      [RUS, NM], "tradition", "eng", (1926, 1926), "dated 1/14 Jan., 1926 (OCR line 2332)",
      "His own letter against the Temporary Supreme Council, in English with no translator named."),
     ("temporary-supreme-church-council-constitution-1926", "Constitution of the Temporary Supreme Council, signed by Gregorios of Ekaterinburg and nine other bishops", 2152, r"CONSTITUTION OF THE TEMPORARY", 2242, r"Tchantzev|Bishop",
-     [RUS], "tradition", "eng", (1925, 1926), "it stands between documents dated 2 Jan., 1926 (OCR line 2128) and 1/14 Jan., 1926 (OCR line 2332)",
+     [RUS], "tradition", "eng", (1926, 1926), "its first article speaks of 'the present year, 1926' (OCR line 2174)",
      "The constitution of the council that Sergios's letter of January 1926 writes against; the bishops who signed it are not those of the rows for Peter and Sergios.")])
 
 ce("1926-12_7_4", 7, 4, "December, 1926", 1926, (6, r"DECEMBER. 1926"), "masthead: 'December, 1926', OCR line 6", False, CLEAN,
@@ -425,7 +425,7 @@ ce("1927-03_8_1", 8, 1, "March, 1927", 1927, (1, r"MARCH, 1927"), "masthead: 'Ma
      "His own letter, in English with no translator named. The Chronicle says the guiding of the Russian church then lay upon him (OCR lines 102-106).")])
 
 ce("1927-06_8_2", 8, 2, "June, 1927", 1927, (1, r"JUNE, 1927"), "masthead: 'June, 1927', OCR line 1", False, CLEAN,
-   [("'Chronicle and Causerie', with translated letters from Russia, from 125", 7, r"CHRONICLE"),
+   [("'Chronicle and Causerie', with translations of three letters on the life of the Russian church, from 116; the second is taken from the organ of the Russian Orthodox Church in Poland (273-281)", 7, r"CHRONICLE"),
     ("the Metropolitan Anthony, President of the Synod of Karlovtsi, 'Why Anglican Clergy Could be Received in Their Orders'", 875, r"WHY ANGLICAN CLERGY"),
     ("the Archpriest Chernavin, 'A Famous Russian Monastery'", 1457, r"FAMOUS RUSSIAN MONASTERY"),
     ("L. Parressos, 'Protestantism and Orthodoxy'", 2050, r"ANTISM AND ORTHODOXY"),
@@ -544,7 +544,7 @@ ce("autumn-1929_10_3", 10, 3, "Autumn, 1929", 1929, (1, r"AUTUMN 19.9"), "masthe
    (2224, r"complete recovery", "The notes end at 2224; a frontispiece caption follows."),
    [("metropolitan-germanos-letter-to-the-editor-of-the-church-times-1929", "The Metropolitan Germanos, letter to the editor of The Church Times (1929)", 91, r"On the occasion of the cancellation", 224, r"them\.",
      [GRK], "tradition", "eng", (1929, 1929), "printed in the Chronicle of the number of Autumn, 1929",
-     "His own letter, written to an English paper; it stands inside the Chronicle."),
+     "His own letter, written to an English paper; it stands inside the Chronicle, which introduces it at OCR lines 50 and 88."),
     ("fedotov-the-orthodox-church-and-her-history-1929", "Fedotov, 'The Orthodox Church and Her History' (1929)", 564, r"ORTHODOX CHURCH AND HER HISTORY", 1205, r"paradoxical symbol of Orthodoxy",
      [EMI], "tradition", "eng", (1929, 1929), "printed in the number of Autumn, 1929",
      "The by-line gives the surname only; in English with no translator named.")])
@@ -690,7 +690,7 @@ irm(1920, 9, 15, "edited by J. H. Oldham", "victoria", (19, r"VICTORIA STREET"),
       "The Mar Thoma members' own statement, signed by Abraham Mar Thoma, Malabar Suffragan, and two others, among the official documents on union."),
      ("plan-of-union-of-the-church-of-christ-in-china", "Plan of union and doctrinal basis for the United Church of Christ in China", 7567, r"PLAN OF UNION", 7769, r"statements",
       [CHN], "context", (1919, 1919), "the heading: 'adopted at Nanking, January 1919' (OCR line 7574)",
-      "A union plan prepared by a committee of the Presbyterian churches in China and the churches of two mission boards, as its heading says.")],
+      "A union plan prepared, its heading says, by a committee of the Presbyterian churches in China and the churches of the London Missionary Society and the American Board of Commissioners for Foreign Missions.")],
     SVM, N2)
 
 irm(1921, 10, 13, "Editor, J. H. Oldham; Associate Editor, Miss G. A. Gollock", "edinhouse", (17, r"EDINBURGH HOUSE"), [76, 10361, 19728, 29216],
@@ -752,7 +752,7 @@ irm(1927, 16, 13, "Editor, J. H. Oldham; Associate Editor, M. M. Underhill", "ed
      ("Hume, Yui and Bray, 'The Future of Christianity in China'", 23073, r"FUTURE OF CHRISTIANITY|HUME"),
      ("Zwemer, 'The Moslems of South-Eastern Europe'", 35950, r"MOSLEMS|ZWEMER")],
     45765, "The 'Quarterly Notes' follow from 46718; the file ends in index fragments.",
-    [("kriele-the-nias-revival", "Ed. Kriele, 'The Nias Revival: the Story of a Spiritual Awakening'", 5441, r"NIAS REVIVAL", 6170, r"born of the Spirit",
+    [("kriele-the-nias-revival", "Ed. Kriele, 'The Nias Revival: the Story of a Spiritual Awakening'", 5441, r"NIAS REVIVAL", 6173, r"KRIELE",
       [INDO], "context", (1927, 1927), "printed in the number of January 1927",
       "An account of the awakening on Nias; the article is headed 'the story of a spiritual awakening'.")],
     ECU, N3)
