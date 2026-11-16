@@ -137,6 +137,7 @@ SURFACES: dict[str, tuple[str, ...]] = {
     "packages": ("packages",),
     "canon": ("canon",),
     "cic-texts": ("cic/texts",),
+    "cic-renderings": ("cic/renderings",),
     "sandbox": ("Sandbox",),
 }
 

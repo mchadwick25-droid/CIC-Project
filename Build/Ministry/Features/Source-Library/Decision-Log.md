@@ -1078,6 +1078,32 @@ his, and the statement of each rule is the coordinator's. They are recorded in `
   `cic/texts/INTAKE.md`. The `cic/renderings/` folder is not made until
   Mark has approved a sample, and the root `README.md` map is updated first when it is.
 
+## The rendering sample: Groen van Prinsterer, Ongeloof en Revolutie (2026-11-16)
+
+The sample Mark asked for before any rendering work: a finding guide for one non-English text, three passage
+renderings each with an independent second rendering, and the reviews. Record:
+`Build/Ministry/Operations/Audits/2026-11-16_library-rendering-sample/`. The page Mark saw:
+https://claude.ai/artifact/5tLkistBZ921HAPq7YARtG.
+
+- **Mark's decision (2026-11-16: "Renderings as is, shorter guides (Recommended)").** As the coordinator
+  states it:
+  1. Passage renderings are approved as the Library standard, exactly as in the sample: two independent
+     renderings, the differences table, an Opus review, and uncertain readings kept. Never steer both
+     renderers the same way in their briefs; give each the bare passage.
+  2. Finding guides drop to chapter or section level, about 20 to 40 parts a book, and a reviewer checks
+     every part, not a sample. Notable footnotes are noted inside their section.
+  3. `cic/renderings/` is created, with the root `README.md` map updated first and logged in
+     `Build/Ministry/Operations/Standing/CiC_Repo_Structure_Tracking.md`.
+- **What is stored.** `cic/renderings/guides/groen-van-prinsterer_ongeloof-en-revolutie-nld_2e-uitg1868.yaml`:
+  40 sections, every one reviewed against the Dutch (3 sound, 33 minor, 4 substantial; the reviewers'
+  corrections are the stored text). `cic/renderings/passages/` under the same name: three passages, lines
+  6941-6951, 6837-6850 and 10547-10562, each with its second rendering and its uncertain readings.
+  `cic/renderings/README.md` gives the record shapes; `cic/engine/renderings.py --check` verifies them.
+- **What the sample showed.** Both renderers put "the Upheaval" for *Omwenteling* and the reviewer ruled for
+  "the Revolution": two renderings that agree are not proof, and the review stays in the method. In a guide,
+  the commonest serious fault is a view the author attacks reported as his own. A book of 148,000 words
+  costs about 1.5M subagent tokens to write a section-level guide and 1.6M to review every section.
+
 ### Next action
 
 A read-only audit of header years against host dates across the held files (Open-Gaps 305); then the books of
