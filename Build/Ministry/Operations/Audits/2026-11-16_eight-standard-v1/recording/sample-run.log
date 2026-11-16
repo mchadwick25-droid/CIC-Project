@@ -10,3 +10,4 @@ items            : 1   characters: 2187 text, 2245 sent
 
 1/1 generated. credits charged (character-cost headers): 1088
 Balance before 245,478; after 246,566; moved 1,088, matching the charged 1,088.
+Gap before the run: after the revision run of 2026-11-16 the balance read 245,417. Before this sample it read 245,478. The 61 credits between were used by something other than this thread; the coordinator is looking into it.

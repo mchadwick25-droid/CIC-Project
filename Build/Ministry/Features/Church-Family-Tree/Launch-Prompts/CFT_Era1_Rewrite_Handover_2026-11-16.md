@@ -42,7 +42,7 @@ There is no separate source check (Mark, 2026-11-16: "Drop it, fold the test int
   - `Build/Ministry/Operations/Audits/2026-11-11_who-scan-era1/`
   - `2026-11-12_who-scan-supplement/`
   - `2026-11-12_who-scan-dedupe/`
-  - the 15 November Who check and Mark's rulings on its 14 cases, at a path the coordinator is confirming (2026-11-16); ask the coordinator for it before step 2
+  - the 15 November Who check (the "Who Reality Check", version 3), which never reached main. Its page is https://claude.ai/artifact/77MrwWiFsTv2v21qCvPeJi, version 3; read it with the Artifact read action. Mark's rulings on its 14 late-record Whos are in the Decision-Log on the unmerged branch `claude/cft-legend-fixes`, commit `9f88aa23`, entry "Legends told as legends" (2026-11-15). Read it with `git show 9f88aa23:Build/Ministry/Features/Church-Family-Tree/Decision-Log.md`, and merge nothing from that branch. His words: "Apply your bar to each", and "lets keep beuno as a story - legend". None of the 14 is an era 1 person (Theopistus, Beuno, Brigid, David of Wales, Brendan, Ciarán, Alopen, Clement of Ohrid, Tekle Haymanot and six Coptic patriarchs), so no ruling from it carries into this pass.
 - While reading each person, the writer applies the significance test. Mark's words: "yes, or defended". A Who changed or defended church history or theology beyond their own house or town, and the held sources show it. Recorders stay Whos.
 - A Who that fails moves to Story (documented), Story (legend), a mention without a card, or out of use.
 - **Borderline cases go to Mark as a short list, through the coordinator, before the era is written.**
