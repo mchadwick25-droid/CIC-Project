@@ -4178,3 +4178,19 @@ Next, Mark asked for a standard to write from, built from scratch and without ru
 - The voice for Who and council briefs is not yet chosen. The samples, all printed with their settings, are on https://claude.ai/artifact/HYZynSqTRbpizyUBqAxmbP.
 
 **Not yet built.** The site's player already supports 1×, 1.25×, 1.5× and 2× with pitch kept, but it has no speed button.
+
+## 2026-11-16 — Person voice: Neo for Who briefs, replacing Jon (Mark, 2026-11-16)
+
+**Why.** Mark found Jon sometimes "over powering". Measured on the Polycarp sample, Jon runs 180 to 190 words a minute, and the speed setting on `eleven_v4` did not slow him. Mark chose two voices: "daniel on traditions and neo on stories". On the people briefs he said "yes, the who briefs are really stories". He heard the Polycarp brief read by Neo in her story settings: request `ldnIhJ8ZPiSwZcQSlPex`, 1,224 credits, 2:48, 166 words a minute overall.
+
+**Decided (Mark, 2026-11-16): "use neo for the who briefs".** Every Who brief is now recorded with:
+- voice: Neo, "Calm and Controlled", `onegjDE2z0mQtp1g0HK7`;
+- model: `eleven_v4`, output `mp3_44100_64`;
+- settings: `{"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true}`, the story settings;
+- no audio tags. The `[calmly]` and `[warmly]` tags of the Jon ruling (2026-11-11) are dropped.
+
+This supersedes "Person voice: Jon on Eleven v4, replacing David Baker" (2026-11-11). Every setting is passed on the command and printed before the first request; none is read from the environment.
+
+**Councils.** The two-voice plan the coordinator proposed puts council briefs with Daniel and his tradition settings, since a council is shown like a tradition page. Mark answered "yes, the who briefs are really stories". He has not ruled on councils in their own words, so the coordinator confirms it with him before any council is recorded.
+
+**When.** Who briefs move to Neo as each era's rewritten briefs are released, so no separate re-recording run is needed. The live recordings in Jon's voice stay until their era's release.
