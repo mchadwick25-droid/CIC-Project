@@ -128,3 +128,8 @@ Review: `reviews/round1-g5.md`. Verdict was BLOCKED on two findings.
 - **Quotations:** none added, removed or reworded.
 - Readability: grade 8.7 (names out 6.9), reading ease 79.6.
 
+
+## Round 2 revision
+
+Review: `reviews/round2-g5.md`.
+- **N1, taken.** The point rests on Theodoret's own letter, so its witness is marked again: "A century later Theodoret of Cyrrhus, a bishop in Syria, wrote that he had led eight villages of them over to his own faith." (Letter 81, T3 31511-31513).

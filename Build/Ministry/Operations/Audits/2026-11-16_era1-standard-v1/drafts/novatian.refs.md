@@ -99,3 +99,10 @@ Review: `reviews/round1-g5.md`. Verdict was BLOCKED on two findings.
 - **Quotations:** none added, removed or reworded.
 - Readability: grade 9.1 (names out 7.3), reading ease 73.9.
 
+
+## Round 2 revision
+
+Review: `reviews/round2-g5.md`.
+- **NB1, fixed (accepted wording).** My split had turned "him" toward Cornelius; Cornelius's letter says the people were leaving Novatian (E 38776-38778, "the brethren leave him every day and return to the church").
+  - New: "Cornelius wrote that people were leaving Novatian every day and returning to the church."
+- **N5, taken.** "and that some welcomed the stricter rule" (S 14099-14100: "this appeared to some a cruel and merciless course: but others received the rule as just").

@@ -103,3 +103,9 @@ Review: `reviews/round1-g5.md`. Verdict was BLOCKED on three findings.
 - **Quotations:** none added, removed or reworded.
 - Readability: grade 9.3 (names out 7.7), reading ease 71.8. The first form of the opening fix ran to grade 10.0 and was split.
 
+
+## Round 2 revision
+
+Review: `reviews/round2-g5.md`.
+- **N3, taken.** "In one letter Valentinus compares the heart ..." with the tag shortened to "he wrote" (the "he" had followed a sentence whose only man is Clement).
+- **N2, left.** Nothing false reaches the listener (Tertullian carries Marcion at Rome), and the reviewer gave no wording.

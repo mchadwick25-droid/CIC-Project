@@ -102,3 +102,8 @@ Review: `reviews/round1-g5.md`. Verdict was BLOCKED on one finding.
 - **Quotations:** none added, removed or reworded.
 - Readability: grade 9.8 (names out 7.9), reading ease 75.8.
 
+
+## Round 2 revision
+
+Review: `reviews/round2-g5.md`.
+- **N4, taken.** "By Hippolytus's own account, crowds went over to Callistus ..." (the account is an enemy's, so whose it is must be plain).
