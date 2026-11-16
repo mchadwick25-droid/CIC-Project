@@ -4194,3 +4194,16 @@ This supersedes "Person voice: Jon on Eleven v4, replacing David Baker" (2026-11
 **Councils.** The two-voice plan the coordinator proposed puts council briefs with Daniel and his tradition settings, since a council is shown like a tradition page. Mark answered "yes, the who briefs are really stories". He has not ruled on councils in their own words, so the coordinator confirms it with him before any council is recorded.
 
 **When.** Who briefs move to Neo as each era's rewritten briefs are released, so no separate re-recording run is needed. The live recordings in Jon's voice stay until their era's release.
+
+## 2026-11-16 — Council voice: Daniel (Mark, 2026-11-16)
+
+**Decided (Mark, 2026-11-16): "yes, daniel for councils".** Every council brief is recorded with Daniel's tradition settings:
+- voice: Daniel, "Steady Broadcaster", `onwK4e9ZLuTAKqWW03F9`;
+- model: `eleven_multilingual_v2`, output `mp3_44100_64`;
+- settings: stability 0.95, similarity 0.68, style 0, speaker boost on;
+- no audio tags.
+Every setting is passed on the command and printed before the first request. This settles the point left open in "Person voice: Neo for Who briefs, replacing Jon" (2026-11-16).
+
+The narration voices are now:
+- Daniel: tradition briefs and council briefs;
+- Neo: Who briefs and stories.
