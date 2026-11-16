@@ -596,8 +596,8 @@ authors:
     from_file: cambridge-synod_cambridge-platform-1648-and-confession-1680_1850.txt
   bostwick-david:
     kind: metadata-omission
-    evidence: The character of the author is headed as by Bostwick (file lines 2750-2754);
-      the title page does not name him.
+    evidence: The character of the author is headed 'By the Rev. David Bostwick, M.A., of
+      New-York' (file lines 2752-2759); the title page does not name him.
     from_file: davies_sermons-on-important-subjects-v1_campbell1794.txt
   boyer:
     kind: metadata-omission
@@ -1244,6 +1244,12 @@ authors:
 
       '
     from_file: sathas_mesaionike-bibliotheke-v3-grc_1872.txt
+  davies-memoirs-anonymous:
+    kind: anonymous
+    evidence: Finley's title page adds 'Some Memoirs of Mr. Davies. By another hand' (file
+      lines 611-612), and the appendix says the facts were 'drawn up by a gentleman, who was
+      Mr. Davies's intimate Friend' (file lines 1491-1493). No name is given.
+    from_file: davies_sermons-on-important-subjects-v1_campbell1794.txt
   davies-thomas:
     kind: metadata-omission
     evidence: 'The advertisement is signed from ''London, Eyre Street'', dated May 9, 1778,
@@ -1520,7 +1526,7 @@ authors:
     kind: metadata-omission
     evidence: The title page names 'the Rev. Drs. Gibbons and Finley' as preachers of the
       two sermons on Davies's death (file lines 59-71); Finley's sermon has its own title
-      page at file lines 582-624.
+      page at file lines 585-612, with 'By Samuel Finley' at 608.
     from_file: davies_sermons-on-important-subjects-v1_campbell1794.txt
   fioretti:
     kind: anonymous

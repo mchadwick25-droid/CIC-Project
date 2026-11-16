@@ -42,7 +42,8 @@ works:
     end: 1794
     source: this printing's title page reads 1794; the piece carries no date that was read
     formation_confidence: Documented
-  note: A short character of Davies by a fellow minister. Not Davies's voice.
+  note: A short character of Davies by a New York minister, as its heading says. Not Davies's
+    voice.
   source_file: davies_sermons-on-important-subjects-v1_campbell1794.txt
 - row_id: brainerd_mirabilia-dei-inter-indicos-journal_bradford1746--mirabilia-dei-inter-indicos-the-rise-and-progress-of-a
   work: 'Mirabilia Dei inter Indicos: the Rise and Progress of a remarkable Work of Grace
@@ -140,6 +141,22 @@ works:
   note: The southern strand's preacher in his own sermons; provisional because the census
     itself leaves open whether Virginia belongs to this world.
   source_file: davies_sermons-on-important-subjects-v3_allen1792.txt
+- row_id: davies_sermons-on-important-subjects-v1_campbell1794--memoirs-of-davies-by-another-hand
+  work: Some Memoirs of Mr. Davies, by another hand (the appendix to Finley's sermon), in
+    Davies's Sermons, vol. I
+  author: davies-memoirs-anonymous
+  locus: the appendix at OCR lines 1476-1697; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1761
+    end: 1794
+    source: added to Finley's sermon of 1761; this printing's title page reads 1794
+    formation_confidence: Documented
+  note: A short memoir which the volume says was 'drawn up by a gentleman, who was Mr. Davies's
+    intimate Friend' (OCR lines 1479-1481). The writer is not named.
+  source_file: davies_sermons-on-important-subjects-v1_campbell1794.txt
 - row_id: edwards_faithful-narrative-of-the-surprising-work-of-god_1737--a-faithful-narrative-of-the-surprizing-work-of-god-edwards
   work: A Faithful Narrative of the Surprizing Work of God (Edwards, 1737)
   author: edwards
@@ -238,21 +255,21 @@ works:
   note: The awakening's theological heirs answering its old opponent; out of window, so context.
   source_file: edwards-jonathan-jr_salvation-of-all-men-strictly-examined_1790.txt
 - row_id: davies_sermons-on-important-subjects-v1_campbell1794--finley-on-davies-funeral-sermon
-  work: Samuel Finley, sermon on the death of Samuel Davies, with an appendix on his life,
-    in Davies's Sermons, vol. I
+  work: Samuel Finley, sermon on the death of Samuel Davies, preached at Nassau-Hall, Princeton,
+    28 May 1761, in Davies's Sermons, vol. I
   author: finley-samuel
-  locus: the sermon at OCR lines 641-1469, its title page at 570-612; the appendix at 1476-1697;
-    add 12 to OCR line numbers
+  locus: the sermon at OCR lines 641-1469, its title page at 573-600; add 12 to OCR line numbers
   role: context
   confidence: provisional
   language: eng
   date:
     start: 1761
-    end: 1794
-    source: a sermon on Davies's death; Gibbons's discourses on the same death are dated 1761.
-      This printing's title page reads 1794
+    end: 1761
+    source: 'the sermon''s title page: ''May 28, 1761'' (OCR line 583, where the OCR reads
+      ''2S'')'
     formation_confidence: Documented
-  note: The funeral sermon on Romans xiv. 7, 8, and a short memoir. Not Davies's voice.
+  note: The funeral sermon on Romans xiv. 7, 8, by Davies's successor as president of the
+    college, as its title page says. Not Davies's voice.
   source_file: davies_sermons-on-important-subjects-v1_campbell1794.txt
 - row_id: davies_sermons-on-important-subjects-v1_campbell1794--gibbons-on-davies-preface-and-discourses
   work: 'Thomas Gibbons on Samuel Davies: the preface to the first edition (1765) and two

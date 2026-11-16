@@ -103,7 +103,7 @@ first failed on OCR garbles of the right word and were confirmed by reading the 
 
 One independent review by Opus (`R1_review.md`): 25 findings in 20 files, one blocking (Campbell's year), seven
 substantial, seventeen minor, none on rights. All 25 were corrected in the spec and the 37 files were vendored
-again from it (`R1_changes.md`). A targeted recheck followed (`R2_recheck.md`).
+again from it (`R1_changes.md`). A targeted recheck (`R2_recheck.md`) closed 23 and found new problems in two fixes, which were corrected the same way (`R2_changes.md`).
 
 ## Three judgement calls
 

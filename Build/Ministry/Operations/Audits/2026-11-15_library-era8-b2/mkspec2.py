@@ -288,7 +288,7 @@ add(I, "cooley_sketches-of-the-life-and-character-of-lemuel-haynes_1837.txt",
     ruled={"haynes-lemuel": ("metadata-omission", "The title page (file lines 32-83) names Cooley as author and Haynes as the subject. Haynes's own sermons and letters are headed as his inside the chapters and in the appendix, which his son W. B. Haynes says he appended (file lines 16048-16056).")})
 
 I = "sermonsonimporta179401davi"
-chk(I, 68, r"CAMPBELL", 2); chk(I, 2979, r"SERMON", 3); chk(I, 21704, r"SERMON", 3); chk(I, 641, r"Rom", 6)
+chk(I, 68, r"CAMPBELL", 2); chk(I, 2979, r"SERMON", 3); chk(I, 21704, r"SERMON", 3); chk(I, 641, r"Rom", 6); chk(I, 583, r"MAY", 1); chk(I, 600, r"ANOTHER", 1); chk(I, 1479, r"gentleman", 1)
 add(I, "davies_sermons-on-important-subjects-v1_campbell1794.txt",
     "Sermons on Important Subjects, by the late reverend and pious Samuel Davies, A.M., sometime President of the College in New-Jersey; in two volumes; the sixth edition, to which are now added three occasional sermons, memoirs and character of the author, and two sermons on occasion of his death by the Rev. Drs. Gibbons and Finley; volume I; second American edition",
     "Samuel Davies (title page)",
@@ -306,16 +306,21 @@ add(I, "davies_sermons-on-important-subjects-v1_campbell1794.txt",
          "the preface at OCR lines 354-568; the two discourses at 1698-2739", [NENG], "context", "provisional", "eng",
          doc((1761, 1765), "the discourses are dated 29 March 1761 (OCR lines 1710-1716) and the preface 14 November 1765 (line 568)"),
          "Davies's London editor on his life and death, quoting his letters. Not Davies's voice."),
-     row("finley-on-davies-funeral-sermon", "Samuel Finley, sermon on the death of Samuel Davies, with an appendix on his life, in Davies's Sermons, vol. I", "finley-samuel",
-         "the sermon at OCR lines 641-1469, its title page at 570-612; the appendix at 1476-1697", [NENG], "context", "provisional", "eng",
-         doc((1761, 1794), "a sermon on Davies's death; Gibbons's discourses on the same death are dated 1761. This printing's title page reads 1794"),
-         "The funeral sermon on Romans xiv. 7, 8, and a short memoir. Not Davies's voice."),
+     row("finley-on-davies-funeral-sermon", "Samuel Finley, sermon on the death of Samuel Davies, preached at Nassau-Hall, Princeton, 28 May 1761, in Davies's Sermons, vol. I", "finley-samuel",
+         "the sermon at OCR lines 641-1469, its title page at 573-600", [NENG], "context", "provisional", "eng",
+         doc((1761, 1761), "the sermon's title page: 'May 28, 1761' (OCR line 583, where the OCR reads '2S')"),
+         "The funeral sermon on Romans xiv. 7, 8, by Davies's successor as president of the college, as its title page says. Not Davies's voice."),
+     row("memoirs-of-davies-by-another-hand", "Some Memoirs of Mr. Davies, by another hand (the appendix to Finley's sermon), in Davies's Sermons, vol. I", "davies-memoirs-anonymous",
+         "the appendix at OCR lines 1476-1697", [NENG], "context", "provisional", "eng",
+         doc((1761, 1794), "added to Finley's sermon of 1761; this printing's title page reads 1794"),
+         "A short memoir which the volume says was 'drawn up by a gentleman, who was Mr. Davies's intimate Friend' (OCR lines 1479-1481). The writer is not named."),
      row("bostwick-character-of-davies", "David Bostwick, the character of the author, in Davies's Sermons, vol. I", "bostwick-david",
          "the character at OCR lines 2740-2978", [NENG], "context", "provisional", "eng",
          doc((1794, 1794), "this printing's title page reads 1794; the piece carries no date that was read"),
-         "A short character of Davies by a fellow minister. Not Davies's voice.")],
-    ruled={"finley-samuel": ("metadata-omission", "The title page names 'the Rev. Drs. Gibbons and Finley' as preachers of the two sermons on Davies's death (file lines 59-71); Finley's sermon has its own title page at file lines 582-624."),
-           "bostwick-david": ("metadata-omission", "The character of the author is headed as by Bostwick (file lines 2750-2754); the title page does not name him."),
+         "A short character of Davies by a New York minister, as its heading says. Not Davies's voice.")],
+    ruled={"finley-samuel": ("metadata-omission", "The title page names 'the Rev. Drs. Gibbons and Finley' as preachers of the two sermons on Davies's death (file lines 59-71); Finley's sermon has its own title page at file lines 585-612, with 'By Samuel Finley' at 608."),
+           "davies-memoirs-anonymous": ("anonymous", "Finley's title page adds 'Some Memoirs of Mr. Davies. By another hand' (file lines 611-612), and the appendix says the facts were 'drawn up by a gentleman, who was Mr. Davies's intimate Friend' (file lines 1491-1493). No name is given."),
+           "bostwick-david": ("metadata-omission", "The character of the author is headed 'By the Rev. David Bostwick, M.A., of New-York' (file lines 2752-2759); the title page does not name him."),
            "gibbons-thomas": ("metadata-omission", "The preface to the first edition is signed 'Thomas Gibbons' (file line 580) and the two discourses are his by the title page (file lines 59-71).")})
 
 GL = [("gleanermiscellan01murr", 1, "I", "essays I-XXXIV",
@@ -601,7 +606,7 @@ for ident, p, pname, pslug, y, yl, ypat, yread, a, b, cont, head, _ in VIE:
         [row("vieira-sermoens-parte-%d" % p, "Vieira, Sermoens, %s (Lisbon, %d)" % (pname.lower(), y), "vieira",
              "the sermons at OCR lines %d-%d" % (a, b), [LATAM, SJ], "tradition", "provisional", "por",
              doc((y, y), "title page: %d; the sermon headings give the years they were preached" % y),
-             "The Jesuit preacher's sermons in the first Lisbon edition; the Society's licence in the front matter is dated from Bahia. A printed text may differ from what was preached.")])
+             "The Jesuit preacher's sermons as printed at Lisbon in %d; the Society's licence in the front matter is dated from Bahia. A printed text may differ from what was preached." % y)])
 
 # ---------------- Volumes that complete held works ----------------
 I = "twohundredyearso02pasc"
