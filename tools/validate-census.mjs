@@ -18,6 +18,10 @@ if (atlasIdx >= 0) args.splice(atlasIdx, 2);
 // The schema tests use it; CI and every census edit run the full check.
 const skipQuotes = args.includes("--skip-quotes");
 if (skipQuotes) args.splice(args.indexOf("--skip-quotes"), 1);
+// --renderings PATH reads another listing in place of tools/quote_renderings.json; the tests use it.
+const rendIdx = args.indexOf("--renderings");
+const renderingsPath = rendIdx >= 0 ? args[rendIdx + 1] : new URL("./quote_renderings.json", import.meta.url);
+if (rendIdx >= 0) args.splice(rendIdx, 2);
 const path = args[0] ?? "cic-website/data/world-census.json";
 const errs = [];
 const warn = [];
@@ -318,9 +322,37 @@ function proseOf(x, out = []) {
 // A rendering is the narrator's English of a non-English original, marked "in modern words" in the prose. Its words
 // are not in the file, so each one is listed by entry, with its original, in tools/quote_renderings.json after review
 // against that original. The check skips exactly the listed spans, and a listing whose span is gone is an error.
+// Each listing maps to its original: a file under cic/texts/ that the entry's own sources cite, a line range inside
+// that file and a language. Each also records its second, independent rendering (Decision-Log 2026-11-16, "Renderings
+// made at the point of use and checked twice"): the record that holds it and the verdict of the comparison.
+const SECOND_READING_VERDICTS = new Set(["same", "minor", "changes meaning"]);
 const renderings = new Map();
-for (const r of JSON.parse(readFileSync(new URL("./quote_renderings.json", import.meta.url), "utf8")).renderings) {
-  if (!existsSync(r.original.file)) errs.push(`tools/quote_renderings.json: ${r.id}: original ${r.original.file} not found`);
+const lineCounts = new Map();
+function lineCount(file) {
+  if (!lineCounts.has(file)) lineCounts.set(file, readFileSync(file, "utf8").split("\n").length);
+  return lineCounts.get(file);
+}
+for (const r of JSON.parse(readFileSync(renderingsPath, "utf8")).renderings) {
+  const at = `tools/quote_renderings.json: ${r.id}: "${String(r.quote).slice(0, 40)}"`;
+  const o = r.original ?? {};
+  if (typeof o.file !== "string" || !o.file.startsWith("cic/texts/") || !existsSync(o.file)) errs.push(`${at}: original.file ${o.file} must be an existing file under cic/texts/`);
+  else {
+    const m = /^(\d+)(?:-(\d+))?$/.exec(String(o.lines ?? ""));
+    const first = m ? Number(m[1]) : 0, last = m ? Number(m[2] ?? m[1]) : 0;
+    if (!m || first < 1 || last < first || last > lineCount(o.file)) errs.push(`${at}: original.lines ${o.lines} must be a line or range inside ${o.file}`);
+    const entry = byId.get(r.id);
+    const groups = (entry?.card ?? entry?.council)?.sources ?? {};
+    const cited = Object.values(groups).flat().map(s => s?.file).filter(Boolean);
+    if (!entry) errs.push(`${at}: no census entry ${r.id}`);
+    else if (!cited.includes(o.file)) errs.push(`${at}: original.file ${o.file} is not among the files ${r.id} cites`);
+  }
+  if (typeof o.language !== "string" || !o.language.trim()) errs.push(`${at}: original.language is required`);
+  const s = r.second_reading;
+  if (!isObj(s)) errs.push(`${at}: second_reading is required (the record of the second rendering and its verdict)`);
+  else {
+    if (typeof s.record !== "string" || !existsSync(s.record)) errs.push(`${at}: second_reading.record ${s.record} must be an existing file`);
+    if (!SECOND_READING_VERDICTS.has(s.verdict)) errs.push(`${at}: second_reading.verdict must be "same", "minor" or "changes meaning"`);
+  }
   renderings.set(`${r.id}\u0000${r.quote}`, false);
 }
 // Scan faults inside quoted spans, each named with its file, lines and the printed reading (tools/quote_scan_readings.json).

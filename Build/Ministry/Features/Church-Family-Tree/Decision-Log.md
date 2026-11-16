@@ -3941,3 +3941,66 @@ Also in this change:
 **Review.** Round 1, a fresh Opus reviewer: 2 blocking points, both fixed. Round 2, a targeted recheck that also covered the corrected rulings: 0 blocking. Round 3, a check of five small fixes to non-blocking points: 0 blocking. Files: `Build/Ministry/Operations/Audits/2026-11-16_cft-held-cards/`.
 
 **What is still open.** Open-Gaps 304 (2026-11-16).
+
+## 2026-11-16 — Renderings made at the point of use and checked twice; the fourteen re-checked (Mark, 2026-11-16)
+
+**Decided (Mark, 2026-11-16: "Render at point of use, re-check the 14 (Recommended)", relayed by the coordinator).**
+- When a brief or card needs our own close English of a non-English line, that is a passage rendering. Opus renders it, per `CLAUDE.md`. A second Opus agent that has not seen the first renders the same lines on its own. The two are compared, any difference in meaning is marked as uncertain on the card, and both readings are kept in the record. Only then may the rendering carry quotation marks, labelled as our modern English and listed in `tools/quote_renderings.json`. A looser telling still carries no marks.
+- The 14 entries already in `tools/quote_renderings.json` are re-checked the same way. Any that change meaning are reported, and nothing live changes until the coordinator has passed the result to Mark.
+- No bulk finding guides for eras 1 to 7: the writers read the originals directly.
+
+**Widened (Mark, 2026-11-16: "Treat old forms as foreign (Recommended)", relayed by the coordinator).**
+- Old and Middle English (language codes ang and enm), Middle High German (gmh) and other older stages of a language count as foreign, and our close English of them gets the same two-rendering check as Latin.
+- Older English translations (17th to 19th century) are quoted word for word where they read plainly. Where we write a modern English version that carries quotation marks, it also gets the second rendering.
+- A modern telling without quotation marks names its source, as now.
+- None of the 14 entries is in an older form of English or German; all are Latin or French.
+
+**Widened again: every English quotation printed before 1931 (Mark, 2026-11-16: "we even treat english from 1850s needing translation", then "Yes, every quote before 1931 (Recommended)", relayed by the coordinator).**
+- Every quotation the tree takes from an English text printed before 1931 is spoken and shown in our modern English, labelled as ours, and gets the same second rendering as Latin.
+- The printed wording, with its file and lines, stays on the card under the references.
+- Foreign and older-stage texts are covered as before. A telling without quotation marks still names its source.
+- This replaces the point above that 17th- to 19th-century English translations are quoted word for word where they read plainly.
+- It applies to the eight now. The live cards and briefs of eras 1 to 4 change in their era passes.
+
+**How the modern English is labelled (Mark, 2026-11-16: "One note per brief (Recommended)", relayed by the coordinator).** One line under each brief on the page says its quotations are given in our modern English. The card's references show each printed original with its file and lines. Nothing is added to the spoken text.
+
+**Gregory of Tours and Benedict of Nursia (Mark, 2026-11-16: "Update them now, re-record with the eight (Recommended)", relayed by the coordinator).** The two Standard v1 examples come under the pre-1931 rule in the same pull request as the eight. They are re-recorded together with the eight, after Mark approves one sample, so the paid run happens once.
+
+**The quotation check.** The coordinator approved, on 2026-11-16, the change to `tools/validate-census.mjs` that this ruling needs. Each entry in `tools/quote_renderings.json` must map to its original: a file under `cic/texts/` that the entry's own sources cite, a line range inside that file, and a language. Each must also carry `second_reading`, giving the record of the second rendering and its verdict: same, minor or changes meaning. The 14 existing entries carry the re-check in `Build/Ministry/Operations/Audits/2026-11-16_rendering-recheck/`: 12 same, 2 minor (Faustus of Riez), none that changes meaning. Tests are in `tools/tests/validate_census_renderings.test.mjs`.
+
+**Where it is written.** `Who_Profile_Pattern.md`, "The brief", Quotes; `Worker_Brief_Template.md`, the writer paragraph.
+
+## 2026-11-16 — Thread C's drafting moves to Fable while the free refill lasts: an exception, not a rule change (Mark, 2026-11-16)
+
+**Decided (Mark, 2026-11-16: "Move Thread C's drafting to Fable (Recommended)", relayed by the coordinator).** This extends the exception in "Fable writes the era 8 to 10 renderings while the free refill lasts: an exception, not a rule change" (2026-11-15). `CLAUDE.md` is unchanged.
+- From Thread C's next drafting job after the ten bar briefs, the writers run on Fable, model "fable", while the free refill lasts. Writers here means the drafting agents and the agents that make the first rendering of a quotation.
+- Reviewers, second-reading renderers and comparers stay on Opus, so a different model checks the writing.
+- If a Fable call is refused or hits a limit, it is not retried in a loop. Drafting switches back to Opus, and the coordinator is told.
+- The blind check every five batches (drift guard 4) watches for any change in voice.
+- The ten briefs already drafted (the eight, and Gregory of Tours and Benedict of Nursia) stay as they are.
+
+**Widened (Mark, 2026-11-16: "use fable for all larger projects until we use the free one up", relayed by the coordinator).** Once the ten are done, every larger job of Thread C's runs as a Fable session: the eras 1 to 7 source and significance check, each era's rewrite pass, and the new era 5 to 7 profiles. In those sessions, drafting, first renderings and the source-check reading are done on Fable. Reviewers, second-reading renderers and comparers stay on Opus, as in the exception above.
+
+## 2026-11-16 — The ten tightened: under 2:00 is the aim and the stretch is not the norm (Mark, 2026-11-16)
+
+**Decided (Mark, 2026-11-16, relayed by the coordinator).** Seeing all ten bar briefs at or past 2:30, Mark asked "why are they all over 2:30", then chose "Tighten all ten (Recommended)".
+- The ten are rewritten to aim under 2:00, about 300 words. For these ten, 2:30, about 360 words, is a firm ceiling.
+- Room for the impact half is made by cutting the personal half, scene detail and connective padding. No stance, consequence or sourced link is dropped. Craft, rigor and access are kept whole, and readability must still pass.
+- The quotations keep their checked renderings, so no new second readings are needed unless a quotation's wording changes.
+- One targeted Opus recheck of the changes, ordered by Mark, outside the cap. Athanasius is recorded again as the sample, with the same settings and balance check.
+- **Sharpened (Mark, 2026-11-16, relayed by the coordinator):** "it more about them being wordy than the time, they feel like they wander and say things not important to the story". So the fix is relevance first, and length follows from it; nothing is cut to a word count. Each sentence must move the person's story forward, or set up a stance and what came of it, or it goes. The opening setting stays, kept short. The brief walks in one line from who they were, to what they stood for, to what came of it. Under 2:00, with the 2:30 ceiling, is a check, not the goal. The reviewer marks every sentence that does not serve the line and reports the count for each brief. The test is in `Who_Profile_Pattern.md`, checklist item 10, as "The sentence test".
+- For the era passes, the length rule is read as Mark meant it: aim under 2:00, and the stretch is for a brief that truly needs it, not the norm. If more than about a third of an era's briefs pass 2:00, the writer stops and reports before going on.
+
+## 2026-11-16 — A brief names the tradition directly, never as the tree's label (Mark, 2026-11-16)
+
+**Decided (Mark, 2026-11-16, relayed by the coordinator):** "do we need to say 'the tree calls', i thing the anatolian church or the others". A brief names the tradition plainly. It never refers to the tree, the map, the census or our labels.
+- The rule is item 18 of the Who pattern's checklist, and the council pattern's opening points to it. It covers the brief and any card prose meant for listeners.
+- Fixed in eight of the ten bar briefs. Athanasius, Ephrem, Gregory of Nazianzus, Gregory of Nyssa, John Chrysostom, Methodius and Origen named their tradition as "the church (or tradition) the tree calls X", and Constantine had "the tree's story of Church and Empire". Gregory of Tours and Benedict had none.
+- The era 1 rewrite handover carries the rule. Athanasius is not recorded again for this one phrase; the final recording run uses the corrected text.
+
+## 2026-11-16 — The ten approved; Rufinus stays out (Mark, 2026-11-16)
+
+**Decided (Mark, 2026-11-16, relayed by the coordinator):** "then they all pass, move forward and make sure we don't drift from this quality and rigor". The ten bar briefs, as tightened and rechecked, are approved to proceed.
+- Gregory of Nazianzus's Rufinus line stays out. Jerome carries his reach west, as the recheck found, and Mark can bring it back later. The line is card-only in the record's references.
+- What follows, in order: merge #1705 on green; record all ten in one paid run from the merged text, with Athanasius again because his text changed, on the same printed settings with counts printed before and the balance checked after; release the ten as one data release with census text, cards (references and printed originals) and the new audio, checked on the live site.
+- The drift guards hold from here: the bar in every brief, the CI lock, Mark's listen to one random brief per era before release, and the blind check every five batches.

@@ -1,0 +1,20 @@
+{
+  "file": "athanasius-of-alexandria.mp3",
+  "bytes": 2109065,
+  "chars": 2043,
+  "text_sha256": "c2766887ad5a5f5c033921c483dc50d9853f3629adb7944d5b2187367861477f",
+  "voiceId": "MFZUKuGQUsGJPQjTS4wC",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_128",
+  "voiceSettings": {
+    "stability": 0.85,
+    "similarity_boost": 0.88,
+    "style": 0.05,
+    "use_speaker_boost": true,
+    "speed": 0.95
+  },
+  "charsSent": 2101,
+  "openTag": "[calmly]",
+  "closingTag": "[warmly]",
+  "requestId": "L26Mi8Wi6A9oSPtCrMbY"
+}

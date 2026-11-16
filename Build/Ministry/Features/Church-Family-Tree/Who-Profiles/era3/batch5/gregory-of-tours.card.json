@@ -44,7 +44,8 @@
     "The year of his healing at Martin's tomb. His Latin gives the 163rd year after Martin's passing, which Arndt reckons as 563; Brehaut's English has the hundred and sixtieth. Arndt says Gregory was already a deacon then.",
     "A journey to Rome. A Life of Gregory, which Arndt dates to the tenth century, says he went to Rome before his death; Arndt rejects it. No copy of that Life is quoted here.",
     "His name. Arndt says it is doubtful whether he took the name Gregory only when ordained; Brehaut says he dropped the name Georgius Florentinus to honor his great-grandfather.",
-    "The trial. His charge before the bishops at Berny is known only from his own History, the accused party's account. Venantius Fortunatus wrote a poem to King Chilperic for that synod; O. M. Dalton notes that it praises Queen Fredegund and says nothing of the affair. The council met at Brinnacum in the Latin, which is Berny in Dalton's English and Braine in Brehaut's."
+    "The trial. His charge before the bishops at Berny is known only from his own History, the accused party's account. Venantius Fortunatus wrote a poem to King Chilperic for that synod; O. M. Dalton notes that it praises Queen Fredegund and says nothing of the affair. The council met at Brinnacum in the Latin, which is Berny in Dalton's English and Braine in Brehaut's.",
+    "Where the modern English of a quotation follows Gregory's Latin over Dalton's English, it does so on purpose: the king's demand names \"the teachers of the churches\" in the Latin's plural, and \"this plan\" follows \"ab hac intentione\". The printed English is kept under quotationOriginals."
   ],
   "sources": {
     "ownWords": [
@@ -120,5 +121,50 @@
     "Miracles of Martin II.1, Latin, ed. Arndt and Krusch: his consecration in Sigibert's twelfth year (573).",
     "Paul the Deacon, History of the Langobards III.1, tr. W. D. Foulke: \"the books of the reverend man Gregory, bishop of Tours\".",
     "World census, Merovingian Gallic Christianity: his tradition on the tree."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "Alas for our times, because the study of literature has died out among us,",
+      "printed": "Woe to our day, since the pursuit of letters has perished from among us,",
+      "file": "cic/texts/gregory-tours_history-of-the-franks-selections_brehaut1916.txt",
+      "lines": "850-851",
+      "secondReading": "minor",
+      "uncertain": "\"litterae\" means literary learning and skill in writing; A reads \"literature\", B \"letters\"; both readings kept."
+    },
+    {
+      "modern": "so that anyone who reads may have no doubt that I hold the catholic faith,",
+      "printed": "that whoso reads may doubt not that I hold the catholic faith,",
+      "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
+      "lines": "339-340",
+      "secondReading": "same"
+    },
+    {
+      "modern": "I want you and the other teachers of the churches to believe this.",
+      "printed": "This is my will, that such be thy faith, and that of the other doctors of the Church.",
+      "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
+      "lines": "10370-10371",
+      "secondReading": "same"
+    },
+    {
+      "modern": "what Hilary and Eusebius taught.",
+      "printed": "that which Hilary and Eusebius taught.",
+      "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
+      "lines": "10374-10375",
+      "secondReading": "same"
+    },
+    {
+      "modern": "So the king gave up this plan,",
+      "printed": "So the king desisted from his purpose,",
+      "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
+      "lines": "10404-10405",
+      "secondReading": "same"
+    },
+    {
+      "modern": "the books of that revered man Gregory, bishop of Tours.",
+      "printed": "the books of the reverend man Gregory, bishop of Tours.",
+      "file": "cic/texts/paul-the-deacon_history-of-the-langobards_foulke1907.txt",
+      "lines": "5074-5075",
+      "secondReading": "same"
+    }
   ]
 }
