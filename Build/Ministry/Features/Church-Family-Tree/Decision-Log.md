@@ -3907,5 +3907,21 @@ All files are in `Build/Ministry/Operations/Audits/2026-11-15_story-relations-cl
 
 Guards 3 to 6 are in `Who_Profile_Pattern.md`, "Drift guards". Guard 2 is in `Worker_Brief_Template.md`.
 
+**The two open points, ruled (Mark, 2026-11-16).**
+- Quotation marks: "Two kinds, kept apart (Recommended)". A close rendering of a foreign-language line covers every clause, adds nothing and is checked against the original. It may carry quotation marks, labelled as our modern English, and is listed in `tools/quote_renderings.json`. A looser telling never carries marks. Per `CLAUDE.md`, Opus authors any rendering that carries marks. This supersedes the 2026-11-14 batch calls that dropped the marks.
+- Reviews: "CLAUDE.md governs (Recommended)". Opus drafts and reviews every round. Round 1 runs the full checklist, and from round 2 only what changed is rechecked. The three-round cap applies. The second-hand remarks "dont sacrafice quality, expecially the quality of writing" and "stop all opus work except the rewrite process" are not rules.
+- Standard v1 has no open points left.
+
+**The inferred working rules (Mark, 2026-11-16: "Take my recommendations (Recommended)").** Mark approved the coordinator's recommendations on the 29 rules from the rulings draft as a set. They are not his own words, and `Who_Profile_Pattern.md`, "Working rules", marks them "approved by Mark on the coordinator's recommendation, 2026-11-16":
+- Kept: A6, A7, A19, A27, A47, A48, A53, A61, A62, A64, A65, A74, B14, B15, C2, C3, C4, C9, C10, C11 and C19.
+- Retired: A37 and B13 (the 2:30 caps), and A72 and A73 (a much later Life means LISTED).
+- Replaced by the two-kinds quotation rule: A67 and A70.
+- Held, not rules: C17 and C18.
+Also in this change:
+- The line that kept "the counsels are stories i think" beside the council ruling now says that line is superseded.
+- Pliny the Younger's entry, still marked open in the pattern, now reads Who, outside witness, as Mark ruled on 2026-11-12.
+
+**The eight (Mark, 2026-11-16: "Revise, then record (Recommended)").** The eight early briefs in `Who-Profiles/bar/` are to be brought up to Standard v1 first, starting from branch `claude/cft-eight-small-pass`, with the same review and four checks as the Gregory and Benedict pair. All eight are recorded at once only after Mark approves one sample.
+
 **Record.** `Build/Ministry/Operations/Audits/2026-11-15_standard-v1-test/`: the reviews, the two paid recording runs (2,245 and 2,275 credits, both reconciled against the balance) and the approved audio.
 

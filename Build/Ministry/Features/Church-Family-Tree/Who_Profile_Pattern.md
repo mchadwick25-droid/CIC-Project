@@ -72,7 +72,7 @@ Approved to proceed (Mark, 2026-11-16: "yes this is a much better revision, i ap
 - **References listed below.** "we will also have the references listed below". Under each brief the visitor sees its references: the card's Sources in its two groups, and a short list of what the brief draws on, as work, edition and the part used. Every claim the brief tells without a named witness can be traced there.
 - **Length.** "target under 2 minutes, can streatch to 2:30 if needed, no hard cap" ("The brief", below).
 - **All of it together.** "lets not loose the craft, rigor and access to what we talked about, it need all". Standard v1 is added on top of the craft tests, the rigor rules and the readability method. It replaces none of them. A brief that fails any of craft, rigor, access, or the shape with its length is not ready.
-- **Still open.** Two points are not yet ruled: quotation marks on our own English renderings, and how reviews are run. The current text for each stands, marked open where it appears.
+- **Quotation marks and reviews.** Both points once left open are ruled (Mark, 2026-11-16): quotation marks in "The brief", Quotes, and the review process in "How a batch is reviewed and released". Standard v1 has no open points.
 
 ## The brief
 
@@ -88,7 +88,10 @@ Approved to proceed (Mark, 2026-11-16: "yes this is a much better revision, i ap
 - **Dates.** A clear year, or "around 570", in the opening setting (Standard v1). This replaces "round anchors and relative time first". Years after that are written to be spoken naturally.
 - **Common names.** An identifier at first mention, in the brief and again in the card (the 2026-11-11 common-name standard). It comes from the vendored sources and adds no claim.
 - **Audio.** `[calmly]` opens the audio script. `[warmly]` goes before the closing line. The tags are never in the census, the card or a page. There is no intro: person audio is the brief only.
-- **Quotes.** Open question (2026-11-16): how quotation marks are used on our own English renderings is not yet ruled; the text below stands until Mark rules. Short and plain, verbatim from the vendored file. Where a line is long or archaic, the narrator tells it in modern words and names the source. The narrator's modern-word telling is a paraphrase and does not claim to be the quote. A modern rendering presented as the quote itself is Opus-authored, per `CLAUDE.md`.
+- **Quotes.** Short and plain, verbatim from the vendored file. Where a line is foreign-language, long or archaic, there are two kinds of telling, kept apart (Mark, 2026-11-16: "Two kinds, kept apart (Recommended)"):
+  - **A close rendering** covers every clause of the line, adds nothing, and is checked against the original. It may carry quotation marks, labelled as our modern English ("in modern words"), and it is listed in `tools/quote_renderings.json`. Per `CLAUDE.md`, Opus authors any rendering that carries marks.
+  - **A looser telling** never carries quotation marks. It names its source and does not claim to be the quote.
+  This supersedes the batch calls of 2026-11-14 that dropped the marks.
 
 ### A founder known through hostile witnesses
 
@@ -115,7 +118,7 @@ A label on a Who profile for a historian outside the church who reports on it, s
 
 ## Councils
 
-Mark: "counsels are treated like a tradition with a different icon and title. but people who are a part of it should be on the who click." A council is shown like a tradition with its own icon and title. Its Who click lists the people who took part, each with their own verdict: a Who opens a profile, a listed person shows as a line. Mark: "it is one who listed in two places (counsil and the tradition)." A Who who took part has one profile, shown in the council's Who and in their tradition's Who, never a second copy. Attending a council does not make someone a Who. Councils and other multi-tradition events belong to the Shared Events workstream (`Build/Ministry/Features/Shared-Events/`); Mark's earlier "the counsels are stories i think" (Open-Gaps 197, 2026-11-10) sits beside this ruling and is not replaced by it.
+Mark: "counsels are treated like a tradition with a different icon and title. but people who are a part of it should be on the who click." A council is shown like a tradition with its own icon and title. Its Who click lists the people who took part, each with their own verdict: a Who opens a profile, a listed person shows as a line. Mark: "it is one who listed in two places (counsil and the tradition)." A Who who took part has one profile, shown in the council's Who and in their tradition's Who, never a second copy. Attending a council does not make someone a Who. Councils and other multi-tradition events belong to the Shared Events workstream (`Build/Ministry/Features/Shared-Events/`); Mark's earlier "the counsels are stories i think" (Open-Gaps 197, 2026-11-10) is superseded by the 2026-11-11 ruling above (approved by Mark on the coordinator's recommendation, 2026-11-16).
 
 ## Naming
 
@@ -172,7 +175,13 @@ Run against any profile, story or listed line. Each item is pass or fail.
 
 ## How a batch is reviewed and released
 
-Open question (2026-11-16): how reviews are run is not yet fully settled under Standard v1. The drift guards below are ruled; the rest of this section stands until Mark rules.
+Mark, 2026-11-16: "CLAUDE.md governs (Recommended)".
+
+- **Who reviews.** Opus drafts the Who and council briefs, and Opus reviews every round.
+- **Round 1** runs the full checklist: craft, rigor, access, and shape with length.
+- **From round 2**, only what changed is rechecked, against the earlier findings.
+- **The cap.** The three-round cap in `CLAUDE.md` applies.
+- **Not rules.** The second-hand remarks "dont sacrafice quality, expecially the quality of writing" and "stop all opus work except the rewrite process" are not rules.
 
 Mark, 2026-11-15 ("Yes", to all three parts of the review process: the quoted evidence in checklist item 10, and the two below).
 
@@ -222,19 +231,50 @@ The corrected eight, on these terms:
 
 From `Decision-Log.md`, "The era 2 Who scan, and the standing OUTSIDE WITNESS label" (2026-11-11), which this pattern follows.
 
-- **Outside witness is a standing label in every era.** Josephus, Tacitus, Suetonius and Ammianus Marcellinus carry it. Celsus, Porphyry, Lucian of Samosata, Julian and Libanius are polemicists and stay listed. Pliny the Younger is an open judgment call (Open-Gaps 209).
+- **Outside witness is a standing label in every era.** Josephus, Tacitus, Suetonius and Ammianus Marcellinus carry it. Celsus, Porphyry, Lucian of Samosata, Julian and Libanius are polemicists and stay listed. Pliny the Younger is a Who, outside witness, not major (Mark, 2026-11-12; `Decision-Log.md`, "Who scan records cleaned").
 - **Recorders are Whos.** A biographer, church historian or recorder whose work is a main source for how the church knows its people is a Who on that body of work. The 2026-11-15 significance test keeps them ("Standard v1", above).
 - **A founder known through a disciple's or biographer's record is a Who.** The record counts as developed with them, and the brief marks it as hagiography.
 - **A council carries no verdict.** Its participants do.
+
+## Working rules (approved by Mark on the coordinator's recommendation, 2026-11-16)
+
+Mark, 2026-11-16: "Take my recommendations (Recommended)". These are not Mark's own words. They are working rules the coordinator recommended from the rulings draft, and Mark approved them as a set. The ids are the draft's.
+
+**Kept.**
+- **A6.** Four categories: WHO, STORY, LISTED, WANTED.
+- **A7.** A WANTED source must be able to carry a life.
+- **A19.** Suetonius and Ammianus Marcellinus are outside witnesses.
+- **A27.** Each person appears once, in the era of their main work.
+- **A47.** A partisan, hostile or disputed account is said to be so, and a contested point is never told as settled.
+- **A48.** The brief's shape, folded into Standard v1's personal-then-impact shape.
+- **A53.** The scene comes straight after the opening setting (Standard v1), and a contested point is told where it arises.
+- **A61.** Confidence levels are record tags, told in plain sentences and never shown as card labels.
+- **A62.** Other name forms come from the census; an original-language form appears only where a held source spells it; ids are never renamed.
+- **A64.** After the opening's clear year (Standard v1), a bare year is used only where the year is the event. A partisan witness is placed once. The close may say how later readers remembered the person, so long as it still says what they changed or defended, with its witness.
+- **A65.** Our prose uses American spelling; quotations and titles keep their own.
+- **A74.** A saint carried by a near-time source stays a Who.
+- **B14.** A council person not yet scored shows "not scored", with no id.
+- **B15.** A council's Who list is those who took part, were condemned, or acted on its decisions.
+- **C2.** A first-person testimony is a STORY; WHO is for those who shaped the church.
+- **C3.** A testimony needs no church office.
+- **C4.** The story pattern: no theology section; witnesses named where a claim matters; later or legendary sources marked; the close says why the account was kept.
+- **C9.** Every claim in "How it connects" rests on the card or the census, and its hedges stay.
+- **C10.** A neighbor linked only by time or place is left out of that line.
+- **C11.** The check fails story text that shows an id or builder wording.
+- **C19.** Story source notes on how a builder read a source stay an open item, not a rule.
+
+**Retired.**
+- **A37 and B13**, the 2:30 caps, are replaced by Mark's length rule ("The brief", Length; `Council_Profile_Pattern.md`, Length).
+- **A72 and A73** ("a much later Life means LISTED") are replaced by Mark's downgrade model: Story (documented), Story (legend), a mention, or not used ("Standard v1", The Who test).
+
+**Follow Standard v1.** A67 and A70 are replaced by the two-kinds quotation rule ("The brief", Quotes).
+
+**Held, not rules.** C17 and C18, from the legend-fixes branch, are not released.
 
 ## Proposed by this spec, not yet ruled
 
 These carry no Mark ruling of their own. They follow from his rulings and stand until he changes them.
 
-- A partisan witness is placed once.
-- A story's close says why the account was kept and by whom; it has no theology beat and drops key works and the two-part legacy unless the record carries them.
-- A story names its witnesses where a claim matters.
 - A listed line is one sentence, in text only.
 - The outside witness card's Tradition line reads "Outside the church", with the label beside the role.
-- Confidence levels are not shown as labels on the card.
 - A Who who took part in a council is covered by the same first-mention and card rules as any other.
