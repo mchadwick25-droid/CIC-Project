@@ -148,6 +148,7 @@ jobs:
       checkertests: ${{ steps.filter.outputs.checkertests }}
       docker: ${{ steps.filter.outputs.docker }}
       tree: ${{ steps.filter.outputs.tree }}
+      standard: ${{ steps.filter.outputs.standard }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -216,6 +217,16 @@ jobs:
             # tradition-page copy edit) has no reason to run the
             # engine-tests battery, the same budget discipline `library`
             # above already exists for.
+            # The Church Family Tree writing standard is locked: a change needs a
+            # new Decision-Log entry with Mark's words (Mark, 2026-11-16).
+            standard:
+              - 'Build/Ministry/Features/Church-Family-Tree/Who_Profile_Pattern.md'
+              - 'Build/Ministry/Features/Church-Family-Tree/Council_Profile_Pattern.md'
+              - 'Build/Ministry/Features/Church-Family-Tree/Worker_Brief_Template.md'
+              - 'Build/Ministry/Features/Church-Family-Tree/Who-Profiles/bar/**'
+              - 'tools/check_standard_lock.py'
+              - 'tools/tests/test_check_standard_lock.py'
+              - '.github/workflows/**'
             tree:
               - 'cic-website/**'
               - 'cft-website/**'
@@ -479,6 +490,29 @@ jobs:
   # (Who_Profile_Pattern.md, "The readability method"). A brief the PR does
   # not touch, or only moves, is not read, so the briefs written before the
   # check do not fail a PR that leaves their words alone.
+  # A PR that changes the Church Family Tree writing standard (the Who and
+  # council patterns, the worker brief template, Who-Profiles/bar/) fails
+  # unless it adds a Decision-Log entry that names Mark and quotes him.
+  standard-lock:
+    needs: changes
+    if: github.event_name == 'pull_request' && needs.changes.outputs.standard == 'true'
+    name: Writing standard lock (Mark's words in the Decision-Log)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          sparse-checkout: /tools/
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install pytest
+      - run: python -m pytest tools/tests/test_check_standard_lock.py -q
+      - run: python tools/check_standard_lock.py --base "origin/${{ github.base_ref }}"
+
   profile-readability:
     name: Profile readability (briefs this PR edits)
     if: github.event_name == 'pull_request'
