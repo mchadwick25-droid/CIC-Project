@@ -3907,6 +3907,8 @@ All files are in `Build/Ministry/Operations/Audits/2026-11-15_story-relations-cl
 
 Guards 3 to 6 are in `Who_Profile_Pattern.md`, "Drift guards". Guard 2 is in `Worker_Brief_Template.md`.
 
+**Length, a ruling left out of the 2026-11-15 entry.** Mark said to the coordinator on 2026-11-15, just before the 2:00 and 2:30 refinement: "we are ok to go long if the content demands it". The coordinator heard it and relayed it on 2026-11-16, and says leaving it out of the earlier entry was the coordinator's error. It stands beside "target under 2 minutes, can streatch to 2:30 if needed, no hard cap" in the pattern's length rule.
+
 **The two open points, ruled (Mark, 2026-11-16).**
 - Quotation marks: "Two kinds, kept apart (Recommended)". A close rendering of a foreign-language line covers every clause, adds nothing and is checked against the original. It may carry quotation marks, labelled as our modern English, and is listed in `tools/quote_renderings.json`. A looser telling never carries marks. Per `CLAUDE.md`, Opus authors any rendering that carries marks. This supersedes the 2026-11-14 batch calls that dropped the marks.
 - Reviews: "CLAUDE.md governs (Recommended)". Opus drafts and reviews every round. Round 1 runs the full checklist, and from round 2 only what changed is rechecked. The three-round cap applies. The second-hand remarks "dont sacrafice quality, expecially the quality of writing" and "stop all opus work except the rewrite process" are not rules.
