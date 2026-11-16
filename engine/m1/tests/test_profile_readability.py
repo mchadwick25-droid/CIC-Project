@@ -9,14 +9,14 @@ FIXTURES = Path(__file__).parent / "fixtures" / "profile_bar"
 BAR = pr.REPO / "Build/Ministry/Features/Church-Family-Tree/Who-Profiles/bar"
 
 EXPECTED = {
-    "origen": (8.9, 76.1),
-    "methodius-of-olympus": (9.1, 72.3),
-    "constantine-the-great": (9.1, 77.4),
-    "athanasius-of-alexandria": (9.1, 72.7),
-    "ephrem-the-syrian": (9.2, 76.7),
-    "gregory-of-nazianzus": (9.5, 72.0),
-    "gregory-of-nyssa": (9.6, 69.3),
-    "john-chrysostom": (9.1, 70.0),
+    "origen": (8.9, 74.8),
+    "methodius-of-olympus": (9.1, 74.9),
+    "constantine-the-great": (9.0, 76.7),
+    "athanasius-of-alexandria": (8.1, 80.9),
+    "ephrem-the-syrian": (8.5, 80.1),
+    "gregory-of-nazianzus": (9.8, 73.1),
+    "gregory-of-nyssa": (9.1, 71.4),
+    "john-chrysostom": (8.9, 71.7),
 }
 
 FLAT = (

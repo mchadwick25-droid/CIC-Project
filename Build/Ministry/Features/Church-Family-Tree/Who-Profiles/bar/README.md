@@ -10,17 +10,17 @@ On 2026-11-16 the eight were brought up to Standard v1 (Mark: "Revise, then reco
 
 The live text and the audio still carry the older wording. They change to these texts together when the eight are re-recorded. These files hold no card and no audio script; the cards stay in the census.
 
-The ten, at Standard v1, with their quotations in our modern English (2026-11-16):
+The ten, at Standard v1, with their quotations in our modern English, tightened on 2026-11-16 (Mark, on why all ten ran past 2:30: "Tighten all ten (Recommended)", and "it more about them being wordy than the time, they feel like they wander and say things not important to the story"). Each was cut for relevance: what does not serve the person's line went, and every stance and its consequence stayed. Words are the readability tool's count:
 
 | Brief | Words | Grade, full text | Reading ease, names out |
 |---|---|---|---|
-| Origen | 389 | 9.4 | 73.2 |
-| Methodius of Olympus | 372 | 9.2 | 74.4 |
-| Constantine the Great | 401 | 8.6 | 76.9 |
-| Athanasius of Alexandria | 390 | 9.0 | 78.6 |
-| Ephrem the Syrian | 378 | 9.1 | 77.8 |
-| Gregory of Nazianzus | 382 | 9.6 | 75.1 |
-| Gregory of Nyssa | 390 | 9.2 | 72.2 |
-| John Chrysostom | 399 | 9.6 | 69.5 |
-| Gregory of Tours | 396 | 9.3 | 74.8 |
-| Benedict of Nursia | 430 | 8.8 | 80.8 |
+| Origen | 314 | 8.9 | 74.8 |
+| Methodius of Olympus | 335 | 9.1 | 74.9 |
+| Constantine the Great | 343 | 9.0 | 76.7 |
+| Athanasius of Alexandria | 351 | 8.1 | 80.9 |
+| Ephrem the Syrian | 324 | 8.5 | 80.1 |
+| Gregory of Nazianzus | 326 | 9.8 | 73.1 |
+| Gregory of Nyssa | 300 | 9.1 | 71.4 |
+| John Chrysostom | 357 | 8.9 | 71.7 |
+| Gregory of Tours | 348 | 9.4 | 75.9 |
+| Benedict of Nursia | 351 | 8.6 | 81.5 |

@@ -55,23 +55,9 @@
    "lines": "471",
    "secondReading": "changes meaning",
    "uncertain": "\"On your behalf\" may mean \"as your agent, with your money\" or \"for your sake\". \"Hospitaller\" means one who runs a house of care for strangers, the poor and the sick, so readings include \"shelter\" and \"guesthouse\"."
-  },
-  {
-   "modern": "It tainted my pure ears.",
-   "printed": "It tainted my pure ears.",
-   "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
-   "lines": "11202",
-   "secondReading": "same"
   }
  ],
  "gregory-of-nazianzus": [
-  {
-   "modern": "We seemed to have one soul living in two bodies.",
-   "printed": "We seemed to have one soul, inhabiting two bodies.",
-   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
-   "lines": "41521-41522",
-   "secondReading": "same"
-  },
   {
    "modern": "Why should I fight over piglets and chickens, and ones that are not my own,",
    "printed": "Why should I fight for sucking pigs and fowls, and those not my own,",
