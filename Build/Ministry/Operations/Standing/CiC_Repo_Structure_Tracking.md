@@ -1028,3 +1028,20 @@ to the tree's domain. `tools/moved_paths.txt` maps each old path to its new one.
 only, never its source text; `REGISTRY.yaml` and the Markdown files, with the registry's free-text values
 and the three generated indexes reported as PROTECTED) and `sandbox` (`Sandbox/`). `cic/texts/_intake/`
 stays outside the check. Full account: `Build/Ministry/Operations/Audits/2026-11-15_live-surfaces-sweep/`.
+
+
+## 2026-11-16 — `cic/renderings/` joins the Library
+
+**Context.** Mark approved the Library's rendering proposal on 2026-11-16 ("New cic/renderings/ folder
+(Recommended)") and then the sample ("Renderings as is, shorter guides (Recommended)"), both as the
+coordinator passed his words on. The Library's design already calls a rendering "a layer keyed by anchor ...
+Never an edit to a vendored file" (`Build/Ministry/Features/Source-Library/Design.md`, section 8).
+
+**Action.** The root `README.md` map changed first: the `cic/` row now lists `renderings/`. Then the folder:
+`cic/renderings/guides/` (one finding guide per vendored text) and `cic/renderings/passages/` (passage
+renderings, one file per vendored text), with `cic/renderings/README.md`. `cic/engine/renderings.py --check`
+verifies each record against its file and runs in CI beside the other corpus checks.
+`tools/check_live_commentary.py` covers the folder as the surface `cic-renderings`. `CLAUDE.md`'s list of
+live surfaces names `cic/texts/` and `cic/corpus-map/` and does not yet name `cic/renderings/`; that line is
+Mark's to change.
+

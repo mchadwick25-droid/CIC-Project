@@ -11,14 +11,12 @@ assignments:
   confidence: provisional
   language: eng
   date:
-    start: 1893
-    end: 1893
-    source: the copyright notice on the title leaf, OCR lines 68-71 ('Entered according to Act of Congress, in the
-      year 1893, by William Booth'); the title page prints no year (page image, leaf n10)
+    start: 1892
+    end: 1892
+    source: "the copyright notice on the verso of the title leaf, read on the page image (leaf n11): 'Entered according to Act of Congress, in the year 1892, by William Booth'; the OCR at lines 68-71 reads 1893; the title page prints no year (page image, leaf n10)"
     formation_confidence: Documented
   edition_date:
-    year: 1893
-    source: the copyright notice on the title leaf, OCR lines 68-71 ('Entered according to Act of Congress, in the
-      year 1893, by William Booth'); the title page prints no year (page image, leaf n10)
+    year: 1892
+    source: "the copyright notice on the verso of the title leaf, read on the page image (leaf n11): 'Entered according to Act of Congress, in the year 1892, by William Booth'; the OCR at lines 68-71 reads 1893; the title page prints no year (page image, leaf n10)"
     formation_confidence: Documented
   note: 'Era 9 row 191, Catherine Booth: a Life (vol. 1), which tells of her Female Ministry of 1859.'

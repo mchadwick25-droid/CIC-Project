@@ -1078,9 +1078,61 @@ his, and the statement of each rule is the coordinator's. They are recorded in `
   `cic/texts/INTAKE.md`. The `cic/renderings/` folder is not made until
   Mark has approved a sample, and the root `README.md` map is updated first when it is.
 
+## The rendering sample: Groen van Prinsterer, Ongeloof en Revolutie (2026-11-16)
+
+The sample Mark asked for before any rendering work: a finding guide for one non-English text, three passage
+renderings each with an independent second rendering, and the reviews. Record:
+`Build/Ministry/Operations/Audits/2026-11-16_library-rendering-sample/`. The page Mark saw:
+https://claude.ai/artifact/5tLkistBZ921HAPq7YARtG.
+
+- **Mark's decision (2026-11-16: "Renderings as is, shorter guides (Recommended)").** As the coordinator
+  states it:
+  1. Passage renderings are approved as the Library standard, exactly as in the sample: two independent
+     renderings, the differences table, an Opus review, and uncertain readings kept. Never steer both
+     renderers the same way in their briefs; give each the bare passage.
+  2. Finding guides drop to chapter or section level, about 20 to 40 parts a book, and a reviewer checks
+     every part, not a sample. Notable footnotes are noted inside their section.
+  3. `cic/renderings/` is created, with the root `README.md` map updated first and logged in
+     `Build/Ministry/Operations/Standing/CiC_Repo_Structure_Tracking.md`.
+- **What is stored.** `cic/renderings/guides/groen-van-prinsterer_ongeloof-en-revolutie-nld_2e-uitg1868.yaml`:
+  40 sections, every one reviewed against the Dutch (3 sound, 33 minor, 4 substantial; the reviewers'
+  corrections are the stored text). `cic/renderings/passages/` under the same name: three passages, lines
+  6941-6951, 6837-6850 and 10547-10562, each with its second rendering and its uncertain readings.
+  `cic/renderings/README.md` gives the record shapes; `cic/engine/renderings.py --check` verifies them.
+- **What the sample showed.** Both renderers put "the Upheaval" for *Omwenteling* and the reviewer ruled for
+  "the Revolution": two renderings that agree are not proof, and the review stays in the method. In a guide,
+  the commonest serious fault is a view the author attacks reported as his own. A book of 148,000 words
+  costs about 1.5M subagent tokens to write a section-level guide and 1.6M to review every section.
+
+## The year audit, the Martyrs' Mirror and the live-surface list (2026-11-16)
+
+Record: `Build/Ministry/Operations/Audits/2026-11-16_library-year-audit/`. The page Mark saw:
+https://claude.ai/artifact/SsidCpJNKaA7JXgLS6kkAK.
+
+- **The year audit (Open-Gaps 305) is done as a list.** 2,424 held files; 1,996 agree with the host's date;
+  206 differ and were all read on the page image. The header is right in 189, wrong in 12, and not settled
+  by the scan in 5. No file was changed.
+- **The Martyrs' Mirror (Mark, 2026-11-16: "Retire it, find the 1886 scan (Recommended)"; then "Swap now,
+  then retire (Recommended)").** `van-braght_martyrs-mirror_sohm1886.txt` is held from a 2012 Herald Press
+  printing whose title leaf's verso prints "Copyright © 1938 by Mennonite Publishing House". Nine sources in
+  the live census cite the file, and the census check fails a source whose file is not under `cic/texts/`,
+  so the file could not simply be moved. As the coordinator states his second ruling: vendor the clean 1886
+  scan (archive.org item `bloodytheatreorm00brag`, title page read on the image: Elkhart, Indiana, Mennonite
+  Publishing Company, 1886), re-point the nine census sources and the shelves to the same passages in it,
+  then move the 2012 file to Archive, in one small pull request now. Open-Gaps 307. Not yet done.
+- **The twelve wrong header years and the Evliya Çelebi part number** are to be corrected, with no file
+  renames, as factual fixes that need no ruling (the coordinator, 2026-11-16). Open-Gaps 308. Not yet done.
+- **`CLAUDE.md` names `cic/renderings/` among the live surfaces (Mark, 2026-11-16: "Yes, add it to the list
+  (Recommended)").** One line changed, the Library line of "Keep the live/canonical surfaces clean".
+- **The Library's remaining work waits for the eras 1 to 7 milestone (Mark, 2026-11-16: "Writing first, trim
+  the Library (Recommended)").** As the coordinator states it, the last of the free Fable goes to the
+  writing; 307 and 308 are the exception.
+
 ### Next action
 
-A read-only audit of header years against host dates across the held files (Open-Gaps 305); then the books of
-era 10 batch 2's follow-on list, with the Pacific Garden Mission's statement of 1916, the headers of Путь and
-the three shelf rows of era 8 batch 2 that Mark has settled (Open-Gaps 302); then era 8 batch 3 (Open-Gaps
-301); then the International Review for 1912 and 1913 (Open-Gaps 303).
+Open-Gaps 307, the Martyrs' Mirror swap; then Open-Gaps 308, the header corrections; then stop. After the
+eras 1 to 7 milestone: the books of era 10 batch 2's follow-on list, with the Pacific Garden Mission's
+statement of 1916, the headers of Путь and the three shelf rows of era 8 batch 2 that Mark has settled
+(Open-Gaps 302); era 8 batch 3 (Open-Gaps 301); the International Review for 1912 and 1913 (Open-Gaps 303);
+then finding guides for the other non-English texts. Handover:
+`Build/Ministry/Operations/Audits/2026-11-16_library-year-audit/Handover.md`.

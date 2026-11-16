@@ -1,0 +1,1111 @@
+{
+ "sections": [
+  {
+   "lines": [
+    13,
+    69
+   ],
+   "verdict": "minor",
+   "findings": [
+    {
+     "check": 2,
+     "severity": "minor",
+     "detail": "Lines 60-63: 'De Moderne Maatschappij, met al haar uitnemendheden, in de dienstbaarheid der ongeloofstheorie geraakt zijnde, wordt telkens meer verleid tot ... verloochening'. The concession 'met al haar uitnemendheden' is dropped, and 'verleid' (drawn, seduced) is weakened to 'led'.",
+     "fix": "He claims modern society, for all its merits, now serves the theory of unbelief and is drawn ever further toward denying the living God."
+    }
+   ]
+  },
+  {
+   "lines": [
+    70,
+    157
+   ],
+   "verdict": "sound",
+   "findings": []
+  },
+  {
+   "lines": [
+    158,
+    464
+   ],
+   "verdict": "minor",
+   "findings": [
+    {
+     "check": 1,
+     "severity": "minor",
+     "detail": "Lines 401-402: the two watchwords are 'er staat geschreven! en er is geschied!'; Scripture and History are what they stand for (404-405), not the watchwords themselves.",
+     "fix": "He ends with two watchwords, 'It is written!' and 'It has happened!', which stand for Scripture and History."
+    },
+    {
+     "check": 5,
+     "severity": "minor",
+     "detail": "The Lamartine notes are 312-315 (Macon speech), 333-337 (note 1) and 339-349 (note 2), and note 2 runs on at 373-383 after the page break; 373-383 is not a separate note. Groen's comment (341-349) and the da Costa verse belong to note 2.",
+     "fix": "A note at 206-215 gives Stahl on Friedrich-Wilhelm IV. The Lamartine notes at 312-315, 333-337 and 339-349 quote him on reason and on the Revolution as 'a volcano of truths'. The last adds Groen's own comment and runs on at 373-383, where it cites da Costa's verse on 'Robespierre's doctrine in Lamartine's language'."
+    },
+    {
+     "check": 6,
+     "severity": "minor",
+     "detail": "Line 158 reads, under the garbling, 'Na het eindigen van mijne taak, in April hebben ...'; no year is printed there, so the note that 'the year cannot be read' is wrong.",
+     "fix": "Line 158 is garbled; it gives 'April' but prints no year. The years of several cited books (217-218, 248, 310) are not readable with certainty."
+    },
+    {
+     "check": 7,
+     "severity": "minor",
+     "detail": "'Heilige Schrift' first appears at 364-365 ('aan de Heilige / Schrift, christen'), not 405.",
+     "fix": "set line 364"
+    }
+   ]
+  },
+  {
+   "lines": [
+    465,
+    675
+   ],
+   "verdict": "sound",
+   "findings": []
+  },
+  {
+   "lines": [
+    676,
+    1072
+   ],
+   "verdict": "minor",
+   "findings": [
+    {
+     "check": 4,
+     "severity": "minor",
+     "detail": "The lecture's closing part (1009-1070: what he asks of his hearers, and the hopeful signs of the time, 'eene terugkeering tot de evangelische waarheid, welke naar herleving van doodsbeenderen gelijkt', 1047-1049) is absent. The two plan sentences can be merged to make room.",
+     "fix": "Merge the plan into one sentence and add: 'He closes by pointing to hopeful signs, among them a return to Gospel truth like the reviving of dry bones.'"
+    }
+   ]
+  },
+  {
+   "lines": [
+    1073,
+    1406
+   ],
+   "verdict": "minor",
+   "findings": [
+    {
+     "check": 3,
+     "severity": "minor",
+     "detail": "Note 1344-1346 is conditional and keeps its point: 'Zoo de uitdrukking „staat- en volkbederfers\", vergeleken met het oordeel van Grote ... te scherp is, het scepticisme van Protagoras en anderen is ontwijfelbaar.' The guide gives only the concession.",
+     "fix": "A note at 1344-1346 belongs to the Sophists passage: if his phrase 'corrupters of state and people' is too sharp beside Grote's judgment, he says, the scepticism of Protagoras and others is beyond doubt."
+    }
+   ]
+  },
+  {
+   "lines": [
+    1407,
+    1922
+   ],
+   "verdict": "substantial",
+   "findings": [
+    {
+     "check": 5,
+     "severity": "substantial",
+     "detail": "'A long note at 1742-1761 quotes von Haller' is wrong in range and author: 1742-1743 is Ancillon's note ('M. von Haller foudroye et pulvérise...'), 1745-1749 the Berliner Wochenblatt and Von Mohl, and only 1751-1761 is Haller ('De Haller, I. 521'). 'On the State arising by human agreement' also reads as if that were Haller's view; he argues the reverse: states are 'le degré le plus éminent de la société naturelle', and without the opposite error 'les vaines théories d'un contrat social originel ... n'auraient jamais vu le jour'.",
+     "fix": "Among the footnotes at 1742-1761, the last (1751-1761) quotes von Haller in French: states are the highest degree of natural society, and the theory of an original social contract comes from denying this."
+    },
+    {
+     "check": 5,
+     "severity": "minor",
+     "detail": "1536 and 1537 are separate one-line notes (Burke's titles); the Pitt-Burke exchange note is 1539-1549, its bracketed addition giving Macaulay (1544-1549). 1551-1552 is a further, separate note.",
+     "fix": "A note at 1539-1549 reports an exchange between Pitt and Burke in autumn 1791; a bracketed addition gives Macaulay's remark on Pitt's debt to Burke."
+    },
+    {
+     "check": 5,
+     "severity": "minor",
+     "detail": "The note at 1877-1881 is described only by form. Its content: 'Er zijn er nog die meenen dat ik ... een ijveraar voor het koningschap als den bijkans alleen wenschelijken ... regeeringsvorm geweest ben; dat ik aldus tot de school van Bilderdijk behoor. Dit is zoo niet.'",
+     "fix": "The note at 1877-1881 quotes a first-person statement from 'Aan de Kiezers' denying that the writer ever held kingship the only lawful form, or belonged to Bilderdijk's school."
+    },
+    {
+     "check": 4,
+     "severity": "minor",
+     "detail": "Two things a reader would look for are missing: Haller's central insight as Groen reports it (1727-1737: the State not 'door menschelijk goedvinden' but 'als natuurproduct', with 'eene onafhankelijkheid, welke alleen God boven zich erkent'), and what Groen rejects in Bilderdijk, his 'exclusief-monarchale gevoelens' (1829).",
+     "fix": "Add a Haller sentence and name the monarchy point in the Bilderdijk sentence (see corrected covers)."
+    },
+    {
+     "check": 2,
+     "severity": "minor",
+     "detail": "Groen's criticism of de Bonald and le Maistre is dropped: 'ofschoon zij, helaas! de christelijke kerk met de ketterij van Rome verward hebben' (1644-1645).",
+     "fix": "He praises de Bonald and le Maistre, though they confused the church with Rome, and claims the right to learn from Catholic and liberal writers."
+    },
+    {
+     "check": 6,
+     "severity": "minor",
+     "detail": "The claim that 1580-1591, 1629-1633 and 1802-1803 are printed a page after their passages is not borne out: each sits at the foot of the same printed page as its marker (pages 29, 30 and 34: markers at 1564/1572, 1600/1620, 1795).",
+     "fix": "The years of the Wochenblatt at line 1641 and the years in the footnote at 1710-1712 cannot be read with certainty. Lines 1555-1559 and 1723-1726 are badly garbled."
+    }
+   ]
+  },
+  {
+   "lines": [
+    1923,
+    2472
+   ],
+   "verdict": "minor",
+   "findings": [
+    {
+     "check": 7,
+     "severity": "minor",
+     "detail": "'Souverein bij de gratie Gods' first appears at 2361 ('de forinuul Souverein hij de gratie Gods'), not 2385.",
+     "fix": "set line 2361"
+    },
+    {
+     "check": 3,
+     "severity": "minor",
+     "detail": "The Von Gerlach note (2291-2307) carries its own limit, dropped in the summary: 'Dagegen ist die Untersuchung ob eine Obrigkeit der rechtmaszige sey, oft nicht jedermans Pflicht, und ein auch unrechtmäszig angefangener Besitzstand kann allmählich zu einem rechtmäszigen werden' (2302-2305).",
+     "fix": "Add: 'Von Gerlach adds that testing a power's lawfulness is often not everyone's duty, and unlawful rule can grow lawful.'"
+    },
+    {
+     "check": 5,
+     "severity": "minor",
+     "detail": "The Tocqueville note's content is left vague. Tocqueville: 'La centralisation administrative n'est point une conquête de la Révolution... un produit de l'ancien régime'; Groen: 'deze centralizatie, in het europesche regt een ontaarding (vergelijk Engeland) door de revolutie werd overgenomen, als eigenaardigheid en uit beginsel' (2180-2185).",
+     "fix": "State both halves, as in corrected notable_footnotes."
+    }
+   ]
+  },
+  {
+   "lines": [
+    2473,
+    2902
+   ],
+   "verdict": "minor",
+   "findings": [
+    {
+     "check": 4,
+     "severity": "minor",
+     "detail": "The closing stand of the lecture is only half given: 'De Revolutie is, noch regtstreeks, noch zijdelings, veroorzaakt door beginsels, eeuwig en onwankelbaar ... die ... de grondzuilen blijven van vrijheid, regt, en orde' (2886-2891). Covers gives the pillars but not the claim that these principles did not cause the Revolution.",
+     "fix": "After witnesses from church history, he concludes that these principles did not cause the Revolution and remain pillars of freedom, law and order."
+    },
+    {
+     "check": 10,
+     "severity": "minor",
+     "detail": "'the four principles': line 2886 says only 'beginsels, eeuwig en onwankelbaar als het wezen Gods'; 'four' is not in the text.",
+     "fix": "'these principles' (as in the corrected sentence)."
+    },
+    {
+     "check": 7,
+     "severity": "minor",
+     "detail": "'Revolutie' first appears in the section at 2500 ('Ook de praktische Revolutie', in the bracketed note), not 2732.",
+     "fix": "set line 2500"
+    },
+    {
+     "check": 6,
+     "severity": "minor",
+     "detail": "The scan_note misses a break at 2588-2590: after 'een gruwel. (*)' the next line opens mid-sentence 'in den revohilioiiairen Staal, ook voor mij.', so words are lost.",
+     "fix": "Add a sentence to scan_note (see corrected)."
+    }
+   ]
+  },
+  {
+   "lines": [
+    2903,
+    3563
+   ],
+   "verdict": "minor",
+   "findings": [
+    {
+     "check": 1,
+     "severity": "minor",
+     "detail": "'what he calls bad history': Groen's word is superficiality, 'enkele staaltjes der oppervlakkigheid van hen die men als toongevers ... gevolgd heeft' (3231-3233).",
+     "fix": "'gives samples of the superficial history behind it'"
+    },
+    {
+     "check": 4,
+     "severity": "minor",
+     "detail": "Absent: the scholars Groen sets against the 'dilettanten', a subject a reader would look for: 'Zoodanig was de vermaarde school der Benedictijners ... Moreau ... Guizot ... Kluit' (3340-3358).",
+     "fix": "Against such writers he sets real scholars of the sources, such as the Benedictines, Moreau, Guizot and Kluit."
+    },
+    {
+     "check": 4,
+     "severity": "minor",
+     "detail": "Groen's broad sense of 'Stenden', on which the 'tempered' argument rests, is missing: 'Stenden zijn al wat tegenover den Vorst zelfstandigheid heeft' (3457).",
+     "fix": "He says it was tempered because the prince could not act against the rights of the estates: all bodies independent of him."
+    },
+    {
+     "check": 5,
+     "severity": "minor",
+     "detail": "3295-3305 is three separate footnotes, not one: 3295 the Latin 'Lex fit consensu populi et constitutione Regis'; 3297-3299 a Dutch rendering showing the passage concerns a court case; 3301-3305 the Gazette de France 'altijd met deze zinsnede geschermd'.",
+     "fix": "See corrected notable_footnotes."
+    }
+   ]
+  },
+  {
+   "lines": [
+    3564,
+    3800
+   ],
+   "verdict": "minor",
+   "findings": [
+    {
+     "check": 2,
+     "severity": "minor",
+     "detail": "Groen's praise of the ancient republics is dropped while his criticism is kept: 'Aanzienlijk en schitterend waren de Republieken der Oudheid' (3605); 'Wij bewonderen in Tyrus en Carthago, in Athene en Rome, veerkracht in handel en krijg' (3616-3618).",
+     "fix": "He admires the energy of the ancient republics in trade and war, but finds them torn by parties and ending in tyranny."
+    },
+    {
+     "check": 1,
+     "severity": "minor",
+     "detail": "'He points to Great Britain, and says a throne built on popular sovereignty can only be held up by despotism' joins two different claims, so it can read as if Britain's throne rests on popular sovereignty. The despotism point is about the recent 'Monarchie entourée d'institutions républicaines' (3705-3710); of England Groen says liberty thrives under 'een onwankelbaren troon' (3712-3716).",
+     "fix": "A throne built on popular sovereignty, he says, needs despotism, while in England a firm throne has sheltered freedom."
+    },
+    {
+     "check": 5,
+     "severity": "minor",
+     "detail": "Note 3733-3736 says Dutch history 'bewijst dat de nederlandsche monarchie, in historischen oorsprong, met republikeinschen zin en geest doorvoed is'; 'gave' adds a causal claim.",
+     "fix": "A bracketed note at 3733-3736 says Dutch history with the House of Orange shows a monarchy imbued with a republican spirit from its origin."
+    },
+    {
+     "check": 6,
+     "severity": "minor",
+     "detail": "'Footnote marks at 3690-3695 ... are partly lost' is vague: the note marks 3690 and 3694 are present or implied, but the mark in the text for the Cicero note is missing at 3678 ('zamcngesteld\"' with no mark), while Tacitus has '^)' at 3684.",
+     "fix": "See corrected scan_note."
+    }
+   ]
+  },
+  {
+   "lines": [
+    3801,
+    4286
+   ],
+   "verdict": "minor",
+   "findings": [
+    {
+     "check": 4,
+     "severity": "minor",
+     "detail": "The Dutch example of exaggeration is absent: van der Capellen's outcry over the drostendiensten in Overijssel (4101-4104, quoted at length 4105-4144), set against the real cost: 'twee dagen in het jaar, een handdienst was met vijf stuivers, een wagendienst met een gulden afkoopbaar' (4147-4149). A writer would come looking for it.",
+     "fix": "Add a sentence on van der Capellen and the Overijssel drostendiensten (see corrected covers)."
+    },
+    {
+     "check": 1,
+     "severity": "minor",
+     "detail": "The Taille is not presented as 'smaller': Groen says the privileged were wrongly thought free of it ('Men doet het voorkomen als of de bevoorregte Stenden vrij waren van ... Taille', 4065-4067). 'Smaller than the outcry suggests' fits mainmorte, Corvee and Bastille only.",
+     "fix": "'... and says each was exaggerated or misdescribed.'"
+    },
+    {
+     "check": 1,
+     "severity": "minor",
+     "detail": "The bracketed note 4018-4024 opens with Groen's own concession that the theory of state ownership of land 'is openlijk in de edicten van Lodewijk XIV geleerd', against the main-text rebuttal of Mme de Stael; 'draw on Tocqueville' hides this.",
+     "fix": "See corrected notable_footnotes."
+    },
+    {
+     "check": 6,
+     "severity": "minor",
+     "detail": "scan_note refers to '3888-4037', a sub-range that means nothing to a reader of this section; the unnamed writer's quote is 4029-4036 ('Een treffelijk schrijver', 4008). Other badly garbled lines (3835, 3912-3913, 3950, 3989-3991, 4064-4066) go unmentioned.",
+     "fix": "See corrected scan_note."
+    },
+    {
+     "check": 7,
+     "severity": "minor",
+     "detail": "'mainmorte' is named in covers but missing from names; OCR 'main-motie' at 4050, print clearly main-morte.",
+     "fix": "add 'main-morte' at 4050"
+    }
+   ]
+  },
+  {
+   "lines": [
+    4287,
+    4651
+   ],
+   "verdict": "minor",
+   "findings": [
+    {
+     "check": 3,
+     "severity": "minor",
+     "detail": "Qualifier dropped: Groen grants an upheaval only 'zoo hervormende wijsheid ontbrak' (4639): 'In de verbastering der europesche Staten was aanleiding genoeg om, zoo hervormende wijsheid ontbrak, schrikbarende uitbarsting te bewerken.'",
+     "fix": "'He grants abuses might cause an upheaval where reforming wisdom failed, but 'a revolution' is not 'the Revolution'.'"
+    },
+    {
+     "check": 9,
+     "severity": "minor",
+     "detail": "Last sentence of covers is 28 words.",
+     "fix": "Split as in corrected covers."
+    },
+    {
+     "check": 6,
+     "severity": "minor",
+     "detail": "Title at 4379 'HOU Rêfoi-mcH' is not wholly unreadable: a word like 'Réformes' can be made out.",
+     "fix": "See corrected scan_note."
+    },
+    {
+     "check": 7,
+     "severity": "minor",
+     "detail": "quoted_authors gives Wachsmuth as 'footnote to line 4347 in the previous part'; line 4347 is in this section.",
+     "fix": "Author 'Wachsmuth (footnote to line 4347)'."
+    }
+   ]
+  },
+  {
+   "lines": [
+    4652,
+    5459
+   ],
+   "verdict": "minor",
+   "findings": [
+    {
+     "check": 7,
+     "severity": "minor",
+     "detail": "quoted_authors labels von Haller (4867-4873) 'footnote to line 4850 in the previous part' and Fénélon (5220-5224) 'footnote to line 5195 in the previous part'; both lines 4850 and 5195 are in this section.",
+     "fix": "'von Haller (footnote to line 4850)'; 'Fénélon (footnote to line 5195)'."
+    }
+   ]
+  },
+  {
+   "lines": [
+    5460,
+    5857
+   ],
+   "verdict": "minor",
+   "findings": [
+    {
+     "check": 4,
+     "severity": "minor",
+     "detail": "The objection Groen answers has two parts (5539-5548): that he neglects 'het democratisch beginsel in de geneefsche kerkhervorming' and that, 'door Von Haller geïnfluenceerd', he proposes a legitimist system. Covers gives only 'an objection about Genève'.",
+     "fix": "See corrected covers, sentence 5."
+    },
+    {
+     "check": 3,
+     "severity": "minor",
+     "detail": "Qualifier dropped: Groen lays the error on Calvinists only 'Eenigermate' (5645), and later says 'Misschien heb ik reeds te veel toegegeven' (5702).",
+     "fix": "'He partly blames Calvinist scholars for republican writing, but traces the error to their circumstances, not their faith.'"
+    },
+    {
+     "check": 1,
+     "severity": "minor",
+     "detail": "The note at 5609-5619 opens with Groen's own concession: 'Ik zou niet durven ontkennen dat misverstand van den aard en het wezen eener Kerk tot de algemeenwording van het republicanisme heeft medegewerkt'.",
+     "fix": "See corrected notable_footnotes."
+    },
+    {
+     "check": 6,
+     "severity": "minor",
+     "detail": "The two titles at 5581 ('Lejiarli anüréo.') and 5789 ('Fencheidenhedeii') are badly garbled rather than wholly illegible.",
+     "fix": "'two cited titles (5581, 5789) are badly garbled.'"
+    }
+   ]
+  },
+  {
+   "lines": [
+    5858,
+    6333
+   ],
+   "verdict": "substantial",
+   "findings": [
+    {
+     "check": 4,
+     "severity": "substantial",
+     "detail": "Groen divides his answer into three: 'Let op het beginsel der Hervorming, op haar leer en op haar werking' (5985-5986). Covers gives the principle (5988-6036) and the working (6070 ff.) but drops the whole division on doctrine (6047-6068: 'Is wellicht de leer der Hervorming, de leer uit den Bijbel ontleend, revolutionair?' ... 'Een leer die op het volslagen bederf van den mensch wijst, voedt geen zelfverheffing' ... 'ons burgerschap in de hemelen').",
+     "fix": "Add: 'Its doctrine, drawn from the Bible, is not revolutionary, he argues: it teaches man's corruption, humble service and a citizenship in heaven.' (merged the Catholic and liberal sentences to stay within 8)"
+    },
+    {
+     "check": 5,
+     "severity": "minor",
+     "detail": "The note at 6040-6042/6074-6081 says the view is held 'niet zelden, zelfs door geloovige protestanten'; 'common view' loses who holds it. The note quotes Le parti antirév. (6077) and Luthardt (6081).",
+     "fix": "See corrected notable_footnotes."
+    },
+    {
+     "check": 9,
+     "severity": "minor",
+     "detail": "'Boerenkrijg' is left as an unexplained Dutch word for a B2 reader.",
+     "fix": "'the Peasants' War (Boerenkrijg)'"
+    },
+    {
+     "check": 6,
+     "severity": "minor",
+     "detail": "At 6235 the author's name is also garbled ('SiM' for Stahl), not only the title.",
+     "fix": "See corrected scan_note."
+    },
+    {
+     "check": 7,
+     "severity": "minor",
+     "detail": "'1850'@5960 is a date, not a name. Repeat entries that are not first appearances: 'De la Mennais'@5966 (first 5868), 'Archives'@6277 (first 5885), 'Ranke'@6331 (first 6224). 'Duitschland' (6305, 'vanDuitsch-land') is missing. All other names checked (de Bonald 5868, le Maitre 5868, Cousin 5914, Guizot 5914, Groninger-school 5943, Luther 5956, Voltaire/Rousseau/Robespierre/Marat 5957, Colossensen 6072, Vinet 6080, Granvelle/Filips II 6115, Alva 6116, Zwinglius 6150, Calvijn 6157, Worms 6174, Knox 6215, Merle d'Aubigné 6220, Henry 6244, M'crie 6245, Willem I 6277, prins van Oranje 6297, Boerenkrijg 6304, Munster 6309, Munzer 6330) are on the stated lines.",
+     "fix": "See name_fixes."
+    }
+   ]
+  },
+  {
+   "lines": [
+    6334,
+    6935
+   ],
+   "verdict": "minor",
+   "findings": [
+    {
+     "check": 5,
+     "severity": "minor",
+     "detail": "Groen's protest note is (*) at 6731-6742; line 6744 begins a different note (**) ('Vasthouding aan het kerkregtelijk beginsel ... Aldus ook Stahl'), which runs on at 6777-6790. So '6731-6750' takes in the start of the Stahl note, and the church-discipline note is given only its run-on lines. The 6825-6830 note is on 'starre Orthodoxie' in the Lutheran church, not church discipline.",
+     "fix": "See corrected notable_footnotes."
+    },
+    {
+     "check": 7,
+     "severity": "minor",
+     "detail": "'1837'@6737 is a date, not a name. Repeats that are not first appearances: 'de la Mennais'@6416 (first 6390), 'Ranke, Deutsche Geschichte'@6463 (first 6352), 'Luthardt'@6589 (first 6426), 'Ranke'@6667. Others checked (Münzer 6352, Jesuiten 6413, Innocentius III 6428, Stahl 6434, Lodewijk XI 6455, Hendrik VII 6457, Karel V 6458, vrede van Westfalen 6498, François de Sales 6593, Borromeo 6594, Bossuet/Fénélon 6604, Jansenisme 6613, Albert de Broglie 6623, Port-Royal 6640, puseysme 6652, Karel I 6658, Karel II 6674, Spener/Franke 6763, Wesley/Whitefield 6764) are right.",
+     "fix": "See name_fixes."
+    }
+   ]
+  },
+  {
+   "lines": [
+    6936,
+    7309
+   ],
+   "verdict": "minor",
+   "findings": [
+    {
+     "check": 5,
+     "severity": "minor",
+     "detail": "Lines 6993-6995 are a separate note (*) on Luther's 'Ik kan niet anders', and 6997-6999 is Mme de Staël. The Guizot 'physiologie' note begins at 7001 (')  Wat ik door fysiologisch onderzoek versta ... Guizot'). The 7159-7178 range also takes in a Stahl note (7174-7175) and a Le Parti antirév. note (7177-7178); Ancillon is 7159-7172.",
+     "fix": "See corrected notable_footnotes."
+    },
+    {
+     "check": 1,
+     "severity": "minor",
+     "detail": "The 'because' joins two separate claims. 'Er was ... niet vooruitgang, maar achteruitgang' (7122-7123); the good ideas of right, freedom and tolerance were 'Vruchten, niet op eigen akker, op christelijken bodem geteeld' (7151-7152), and 'Men wilde de gevolgtrekkingen behouden, terwijl men de beginselen verwierp' (7186-7187).",
+     "fix": "'He argues that the century went backward: it kept ideas grown on Christian soil but threw away the principles behind them.'"
+    },
+    {
+     "check": 7,
+     "severity": "minor",
+     "detail": "'1789'@7032 is a date. Repeats: 'Guizot, Cours d'Histoire moderne'@7129 (Guizot first 7003), 'Hist. moderne'@7214, 'Mémoires'@7219 (first 7092). Others checked (Newton 6953, Ancillon 6967, Luther 6994, Mme de Stael 6999, Claudius 7131, Satan 7150, Stahl 7175, Cousin 7212, Montesquieu/Voltaire/Rousseau 7241, Robespierre/Napoleon 7242, Burke 7259, De la Mennais 7293) are right.",
+     "fix": "See name_fixes."
+    }
+   ]
+  },
+  {
+   "lines": [
+    7310,
+    7738
+   ],
+   "verdict": "minor",
+   "findings": [
+    {
+     "check": 5,
+     "severity": "minor",
+     "detail": "The Vinet note is 7494-7503; line 7505 (')  De la Mennais.') is the source line of a different quotation (7479-7486).",
+     "fix": "7494-7503"
+    },
+    {
+     "check": 10,
+     "severity": "minor",
+     "detail": "The note at 7585-7586/7617-7626 is cited only as 'Grondwetherz. en Eensgezindheid, blz. 51' (7625-7626); the section does not say these are Groen's own words (contrast 7692 'Zie mijne Openingsrede').",
+     "fix": "Name the cited work instead of calling it Groen's own words; see corrected notable_footnotes."
+    },
+    {
+     "check": 6,
+     "severity": "minor",
+     "detail": "The Bible references are at 7542-7543 ('Jacob. ir. 15', '2 Cor. IV. IS'); 7545-7548 are the Renan and De Pressensé quotations, where Renan's name is garbled as 'Kenan' (7545).",
+     "fix": "See corrected scan_note."
+    },
+    {
+     "check": 7,
+     "severity": "minor",
+     "detail": "'1759 en 1768'@7650 is a date. Repeats: 'de la Mennais'@7446 and 'De la Mennais'@7505 (first 'La Mennais' 7317), 'la Mettrie'@7594 (first 7325), 'Helvétius'@7654 (first 7593). Others checked (Voltaire/Diderot 7325, Montesquieu/Rousseau/Condorcet 7326, Necker/Mirabeau 7327, Beets 7383, Pascal 7434, Bossuet 7452, Vinet 7461, Bolingbroke 7529, Renan 7545, De Pressensé 7548, Condillac 7595, Albrecht von Haller 7646, Burke 7656, Stahl 7717) are right.",
+     "fix": "See name_fixes."
+    }
+   ]
+  },
+  {
+   "lines": [
+    7739,
+    8399
+   ],
+   "verdict": "minor",
+   "findings": [
+    {
+     "check": 5,
+     "severity": "minor",
+     "detail": "Line 7960 is a separate short note (')  Zie hierboven, blz. 110, vgg.'); the Stahl/Renan note on Rousseau is 7962-7972. The 7999-8015 note says the republic is meant 'als het corollarium van het revolutionaire dogma der volkssouvereiniteit' and quotes Guizot, Stahl and Vinet on democracy, not Stahl and Renan on Rousseau.",
+     "fix": "See corrected notable_footnotes."
+    },
+    {
+     "check": 6,
+     "severity": "minor",
+     "detail": "Nothing in the text supports calling '1805' at 8364 a likely scan fault; the digits print cleanly ('in 1805 geopperd'). The claim is speculation.",
+     "fix": "Drop the 1805 clause."
+    },
+    {
+     "check": 7,
+     "severity": "minor",
+     "detail": "'1804'@8286 and '1848'@8361 are dates. Repeats: 'De la Mennais'@7852 (first 7842), 'Grondweth. en Eensg.'@8371 (first 7969). Others checked (Von Haller 7769, Guizot 7809, Otto von Gerlach 7812, Epicurus 7828, Tocqueville 7849, Rousseau 7869, Contrat Social 7946, Stahl 7968, Renan 7972, Chateaubriand/Vinet 8013, Hobbes 8050, Lamartine 8135, Cicero 8207, Benjamin Constant 8221, Montesquieu 8223, Wurzburg 8285, Buonarotti 8339, Gervinus 8361, Dagon 8384) are right.",
+     "fix": "See name_fixes."
+    }
+   ]
+  },
+  {
+   "lines": [
+    8400,
+    8725
+   ],
+   "verdict": "minor",
+   "findings": [
+    {
+     "check": 5,
+     "severity": "minor",
+     "detail": "Only Stahl speaks of the Revolution against God's order ('dasz sie zur Quelle und Masz des Rechts den Willen des Menschen macht und nicht die Weltordnung Gottes', 8688-8690). The Guizot quotation (8694-8698) says the ideas of the social reformers are anti-Christian and that communism and socialism would destroy Christian faith if they prevailed; it is not about a break with God's order.",
+     "fix": "See corrected notable_footnotes."
+    },
+    {
+     "check": 7,
+     "severity": "minor",
+     "detail": "'1796'@8539, '1828'@8543 and '15 April 1850'@8713 are dates, not names. Others checked (Ultras 8401, Montesquieu/Rousseau/Illuminaten 8416, Babeuf 8417, Locke/Blackstone 8439, Delolme/Aretin/Rotteck 8440, Stahl 8445, Japon 8458, Tocqueville 8521, Hobbes 8531, Buonarotti 8545, Lex Agraria 8607, Chartisten 8614, Robespierre 8636, Diderot 8654, Guizot 8698) are right.",
+     "fix": "See name_fixes."
+    }
+   ]
+  },
+  {
+   "lines": [
+    8726,
+    8931
+   ],
+   "verdict": "minor",
+   "findings": [
+    {
+     "check": 1,
+     "severity": "minor",
+     "detail": "Sentence 5 reverses Groen's order. He says belief in reason's infallibility spreads only after living faith has declined (8785-8787 'Geloof aan de onfeilbaarheid der rede wordt niet algemeen, eer geloof in den levendigen God in verval is'); then the whole truth is banished step by step (8794-8798).",
+     "fix": "On religion, he says faith in reason's infallibility spreads only once living faith in God has declined. Then all revealed truth is driven out step by step."
+    },
+    {
+     "check": 6,
+     "severity": "minor",
+     "detail": "Line 8732 'Yi'ijcn' (= 'Vrijen') is right, but 8761, 8797 and 8875 are also badly garbled, not only 8873.",
+     "fix": "Lines 8761, 8797 and 8873-8875 are badly garbled, and line 8732 opens with a garbled word ('Vrijen')."
+    }
+   ]
+  },
+  {
+   "lines": [
+    8932,
+    9421
+   ],
+   "verdict": "minor",
+   "findings": [
+    {
+     "check": 3,
+     "severity": "minor",
+     "detail": "Qualifier dropped: Groen says order is bought by giving up freedom 'op revolutionair terrein' (9150-9152). The limit matters, since his note at 9196-9216 allows a Christian reaction.",
+     "fix": "In the third period, Reaction, moderates keep the doctrine but halt it; on revolutionary ground, Groen says, order costs freedom."
+    },
+    {
+     "check": 5,
+     "severity": "minor",
+     "detail": "9191-9194 is a separate note (*) quoting Tocqueville on servility. The Christian-reaction note is (**) at 9196-9216.",
+     "fix": "A long bracketed note at 9196-9216, running on at 9241-9255, ..."
+    }
+   ]
+  },
+  {
+   "lines": [
+    9422,
+    10101
+   ],
+   "verdict": "minor",
+   "findings": [
+    {
+     "check": 5,
+     "severity": "minor",
+     "detail": "9858-9859 is a separate note (*) referring to Verspreide Geschriften. The grant that political liberty is needed for civil rights is note (**) at 9861-9864.",
+     "fix": "A note at 9861-9864 grants that political liberty is still needed to protect civil rights."
+    },
+    {
+     "check": 5,
+     "severity": "minor",
+     "detail": "'9999-10022' runs three notes together: the (**) note continues only to 10006; 10008-10014 is a note on suffrage and 10016-10022 the Berliner Wochenblatt note. The nation-versus-liberal-state notes are 9968-9970 and 9972-9981 with 9999-10006.",
+     "fix": "Notes at 9968-9970 and 9972-9981, running on at 9999-10006, set the nation, grown from its own history, against the liberal state made by the lawgiver."
+    },
+    {
+     "check": 6,
+     "severity": "minor",
+     "detail": "Point b also prints wrongly, as 'h.' at 9846.",
+     "fix": "add to scan_note"
+    }
+   ]
+  },
+  {
+   "lines": [
+    10102,
+    10564
+   ],
+   "verdict": "minor",
+   "findings": [
+    {
+     "check": 5,
+     "severity": "minor",
+     "detail": "Two notes are merged. The constitutional-monarchy note (*) is 10404-10407 only. The text at 10409-10410 and 10441-10450 is the separate note (**) on Goethe's phrase, quoting the Berliner politisches Wochenblatt ('Republikanismus, Constitutionalismus und Imperialismus ruhen im Grunde auf denselben Principien').",
+     "fix": "A note at 10404-10407 says constitutional monarchy has nothing in common with this constitutionalism. A note at 10409-10410, running on at 10441-10450, quotes a Berlin weekly: republicanism, constitutionalism and imperialism rest on the same principles."
+    },
+    {
+     "check": 9,
+     "severity": "minor",
+     "detail": "'Engeland' is the Dutch form inside an English sentence, and 'stands at its porch' is awkward for a B2 reader (10261 'aan het voorportaal der omwenteling te staan'; Groen says 'ook Engeland').",
+     "fix": "He calls it a European revolution; its course differed by country, and even England stands at its doorway."
+    },
+    {
+     "check": 7,
+     "severity": "minor",
+     "detail": "'Nederland' first appears at 10166 ('voor Nederland'), not 10230.",
+     "fix": "set_line 10166"
+    },
+    {
+     "check": 7,
+     "severity": "minor",
+     "detail": "The quotation at 10301-10304 ('Elle a échoué ...') carries no name in the text; nothing ties it to Haller, whose 1816 quotation ends at 10297.",
+     "fix": "replace author with 'not named in the text'"
+    },
+    {
+     "check": 6,
+     "severity": "minor",
+     "detail": "The year at 10298 prints as '18-40' and is likely 1840; 'cannot be read' overstates it.",
+     "fix": "The year at 10180 cannot be read, and the one at 10298 prints as '18-40'."
+    }
+   ]
+  },
+  {
+   "lines": [
+    10565,
+    10934
+   ],
+   "verdict": "minor",
+   "findings": [
+    {
+     "check": 3,
+     "severity": "minor",
+     "detail": "Qualifier dropped: Groen says Alison 'de Revolutie te zeer met een strijd over democratischen staatsvorm verwart' (10657-10658), i.e. confuses it too much, not that he wholly misreads it.",
+     "fix": "He values Alison and Schlosser, but says Alison confuses the Revolution too much with a quarrel over democracy, and Schlosser does not know the gospel."
+    },
+    {
+     "check": 1,
+     "severity": "minor",
+     "detail": "'Crowned reformers from Pombal' is wrong for Pombal, a minister ('bij de Portugezen Pombal', 10856-10857; Haller's list at 10753-10754 names him among ministers and nobles).",
+     "fix": "He sketches reformers in power from Pombal to Jozef II, and concludes that princes almost everywhere led the movement before 1789."
+    },
+    {
+     "check": 5,
+     "severity": "minor",
+     "detail": "10624-10626 is a separate note (Mme de Staël). The Quarterly Review note is 10628-10646.",
+     "fix": "A long note at 10628-10646 ..."
+    },
+    {
+     "check": 5,
+     "severity": "minor",
+     "detail": "10664-10677 are short notes (Heeren quote, Wachsmuth, Schlosser references, Groen on Schlosser). The note on works since 1847 is (**) at 10679-10691, running on at 10718-10721.",
+     "fix": "A long note at 10679-10691, running on at 10718-10721, lists works that appeared since 1847."
+    },
+    {
+     "check": 5,
+     "severity": "minor",
+     "detail": "The claim that the princes were not alone to blame is only at 10918-10920, in the note at 10912-10920; 10870-10881 are the Schlosser and Haller notes on Pombal and Catherine.",
+     "fix": "A note at 10912-10920 quotes von Sybel on Jozef II and adds that the princes were not alone to blame: they stood for their age."
+    }
+   ]
+  },
+  {
+   "lines": [
+    10935,
+    11506
+   ],
+   "verdict": "minor",
+   "findings": [
+    {
+     "check": 3,
+     "severity": "minor",
+     "detail": "Qualifier dropped: those who see a healthy reform are led to twist history 'misschien zonder het te weten of te willen' (10968-10969).",
+     "fix": "Many grant this, he says, but they mean a healthy reform that only later went astray; he says this twists history, perhaps unknowingly."
+    },
+    {
+     "check": 5,
+     "severity": "minor",
+     "detail": "11137 is a one-line reference note; the Rousseau/cahiers note (*) is 11139-11153. 11155-11164 is a separate German note (Gesch. der Staatsv.).",
+     "fix": "In a long note at 11139-11153 ..."
+    },
+    {
+     "check": 5,
+     "severity": "minor",
+     "detail": "The 'if only' note (*) is exact: 11398-11399, running on at 11413-11425. 'Between 11396 and 11504' also takes in the Ancillon, Beauregard and Mignet/Stahl/Sybel notes.",
+     "fix": "A note at 11398-11399, running on at 11413-11425, answers two more 'if only' claims ..."
+    },
+    {
+     "check": 5,
+     "severity": "minor",
+     "detail": "The Schlosser note ends at 11078; 11080 is a separate reference to Mme de Staël.",
+     "fix": "A note at 11070-11078 ..."
+    },
+    {
+     "check": 7,
+     "severity": "minor",
+     "detail": "Not first appearances: 'Turgot' 11030 (already 10988/10991), 'Tocqueville' 11141 and 'l'Ancien régime' 11145 (already in the entry at 10996). 'États-Généraux' first appears at 10982-10983 in the Mignet quotation ('Élats-Généraux'), not 11179.",
+     "fix": "remove the three duplicates; set_line États-Généraux 10982"
+    },
+    {
+     "check": 7,
+     "severity": "minor",
+     "detail": "The quotation at 10946-10951 is introduced by 'Menigeen erkent', but 10952 refers back to it as what 'de schrandere vrouw zelve, en menigeen met haar' mean, so the text itself ties it to Mme de Staël.",
+     "fix": "replace author with 'Mme de Stael (implied at 10952)'"
+    }
+   ]
+  },
+  {
+   "lines": [
+    11507,
+    12232
+   ],
+   "verdict": "minor",
+   "findings": [
+    {
+     "check": 5,
+     "severity": "minor",
+     "detail": "The Tocqueville note runs 11848-11859 ('... eerst kort vóór de revolutie ophield.]'). Line 11861 is a separate reference note ('M-^ de Staul, I. 125').",
+     "fix": "A note at 11848-11859 quotes Tocqueville's praise..."
+    },
+    {
+     "check": 1,
+     "severity": "minor",
+     "detail": "Groen's addition is not quite 'they persecuted Protestants until shortly before the Revolution'. The text reads: 'Ook was het niet aan de christelijke liefde der roomsche geestelijkheid te danken, zoo de vervolging van protestanten ... eerst kort vóór de revolutie ophield' (11857-11859). In other words, persecution ended only shortly before 1789, and not because of the clergy's charity.",
+     "fix": "Groen adds that persecution of Protestants ended only shortly before the Revolution, and not through the clergy's charity."
+    }
+   ]
+  },
+  {
+   "lines": [
+    12233,
+    12584
+   ],
+   "verdict": "minor",
+   "findings": [
+    {
+     "check": 5,
+     "severity": "minor",
+     "detail": "'Notes at 12527-12582' takes in main text (12537-12559, the Buonarotti quotation and Groen's summing-up). The notes themselves are 12527-12536 with 12560-12561 (Mignet reference, Lamartine, Croker) and 12563-12582 (Von Sybel, then Nodier).",
+     "fix": "Notes at 12527-12536, 12560-12561 and 12563-12582 say Lamartine idealised the Girondins, and quote Croker and Von Sybel against them."
+    }
+   ]
+  },
+  {
+   "lines": [
+    12585,
+    12913
+   ],
+   "verdict": "sound",
+   "findings": []
+  },
+  {
+   "lines": [
+    12914,
+    13352
+   ],
+   "verdict": "minor",
+   "findings": [
+    {
+     "check": 1,
+     "severity": "minor",
+     "detail": "Point a is stated only negatively: 'dat boosaardigheid of begeerlijkheid niet hun eenige, zelfs niet hun voorname drijfveer geweest is' (13156-13158). Conviction is shown for Marat ('Een sectaire, een dweeper') and St. Just ('omdat hij allen in vastheid van overtuiging achter zich liet'). For Danton Groen hedges: 'beoogde Danton welligt meer democratische gelijkheid dan verwezenlijking van theoriën' and 'Danton n'était qu'un chef politique' (13196-13200). So 'conviction was the main motive of Danton' reads stronger than the text.",
+     "fix": "Under point a he denies that malice or greed was their main motive, and finds firm conviction in Marat and St. Just."
+    },
+    {
+     "check": 2,
+     "severity": "minor",
+     "detail": "The portrait of Robespierre keeps the praise and drops the criticism. Groen also writes 'Lafhartig nam hij, in dreigend gevaar, de vlucht. Hij bezat geen uitstekende redenaarsgave' (13311-13312).",
+     "fix": "He finds Robespierre sober, incorruptible, a deist, cowardly in danger and without great gifts, and asks how he reached such power."
+    },
+    {
+     "check": 7,
+     "severity": "minor",
+     "detail": "'1793' first appears in this section at 12970 ('der mannen van 1793'), not at 13033.",
+     "fix": "set_line 12970"
+    },
+    {
+     "check": 7,
+     "severity": "minor",
+     "detail": "The quotation at 13174-13175 gives the court president's words, not Danton's: 'Danton, dit le président, l'audace est le propre du crime; le calme est celui de l'innocence.' Danton's own reply starts at 13184.",
+     "fix": "replace author with 'the court president at Danton's trial'"
+    },
+    {
+     "check": 6,
+     "severity": "minor",
+     "detail": "Croker's note (**) at 13336-13339 carries on at 13369-13372, inside the next section. The scan_note should say so.",
+     "fix": "Add: 'Croker's note at 13336-13339 continues at 13369-13372, in the next section.'"
+    }
+   ]
+  },
+  {
+   "lines": [
+    13353,
+    14021
+   ],
+   "verdict": "minor",
+   "findings": [
+    {
+     "check": 5,
+     "severity": "minor",
+     "detail": "'among the footnotes at 13402-13419': line 13402 is a bare reference ('II. 140') and 13404-13405 is a Lamartine note. The Berliner Politisches Wochenblatt note runs 13407-13419, and a second extract from it stands at 13452-13454.",
+     "fix": "A long German note from the Berliner Politisches Wochenblatt, at 13407-13419 with more at 13452-13454, says Robespierre's unshaken belief set him above his opponents."
+    },
+    {
+     "check": 1,
+     "severity": "minor",
+     "detail": "'Robespierre seems to have been a martyr of equality' is tied in the text to a standard. Under that standard, preference over the Girondins goes only to the Montagnard moved by 'koelzinnige berekening' of revolutionary policy, not by hatred (14013-14020). 'Martelaar der gelijkheid' carries a note citing Buonarotti, 'Illustre martyr de l'égalité' (14036). The guide's wording drops that framing.",
+     "fix": "Whoever loves the theory, he holds, must own its deeds; by that rule Robespierre, moved by policy not hatred, seems a 'martyr of equality'."
+    },
+    {
+     "check": 7,
+     "severity": "minor",
+     "detail": "Two French passages marked 'not named in the text' are referenced to Buonarotti's Conspiration de Babeuf. For 13779-13793 the note mark at 13793 goes to 13801 ('Consp. de Babeuf, I.'). For 13816-13827 the note goes to 13839 ('Consp. de Babeuf, I'). Also missing is the 'hedendaagsche lofredenaar' quoted at 13628-13632 and 13649, whose note at 13676 names him: 'Buchez bij Wachsmuth, II. 302'.",
+     "fix": "replace both authors with Buonarotti; add Buchez (fra, 13628-13649)"
+    }
+   ]
+  },
+  {
+   "lines": [
+    14022,
+    14442
+   ],
+   "verdict": "minor",
+   "findings": [
+    {
+     "check": 5,
+     "severity": "minor",
+     "detail": "The Laboulaye note runs 14065-14075 (ending with Lamartine). Line 14077 is a separate note ('Conspir. de Babeuf, I. 28'). Lines 14116-14117 are reference notes for Benjamin Constant and Mignet, not part of the Laboulaye note.",
+     "fix": "A long note at 14065-14075 quotes Laboulaye: the Contrat Social holds the theory of the revolution."
+    },
+    {
+     "check": 6,
+     "severity": "minor",
+     "detail": "The closing footnote starts at 14379. Line 14377 is a separate reference ('Hierboven, blz. 222, vgg.'), and the note ends at 14440.",
+     "fix": "The lecture ends in a long footnote, 14379-14440."
+    }
+   ]
+  },
+  {
+   "lines": [
+    14443,
+    15137
+   ],
+   "verdict": "substantial",
+   "findings": [
+    {
+     "check": 3,
+     "severity": "substantial",
+     "detail": "Stahl's limit is dropped. At 14821-14823 he says the power was rightful only 'In der Republik ... Sie begann erst unrechtmaszig zu werden, da er ein erbliches Reich auf die Revolution gründen wollte.' The guide's 'Stahl there calls his power rightful' makes his claim read as unqualified.",
+     "fix": "Stahl calls his power rightful within the republic, until he sought a hereditary empire built on the Revolution."
+    },
+    {
+     "check": 3,
+     "severity": "minor",
+     "detail": "Groen first grants the personal explanation: 'De betrekkelijke waarheid dezer opmerkingen is onbetwistbaar, doch vergeet niet dat ...' (14736-14759). 'must be explained from the course of the Revolution' drops that grant.",
+     "fix": "He grants that Napoleon's person explains part of his story, but ties him to the Revolution's course as Robespierre's counterpart on the line of reaction."
+    },
+    {
+     "check": 5,
+     "severity": "minor",
+     "detail": "14905-14908 is the Mme de Stael note on the English constitution, not praise of Fiévée; the Fiévée notes are 14910-14919 and 14921-14928 + 14960-14964. 14966 is the Wachsmuth source line for the main-text quote, not part of the note.",
+     "fix": "Notes at 14910-14928 and 14960-14964"
+    },
+    {
+     "check": 5,
+     "severity": "minor",
+     "detail": "14995 is a separate short note ('Eigenlijk; la Nation (l'État) c'est moi'); the catechism note runs 14997-15005.",
+     "fix": "A note at 14997-15005"
+    },
+    {
+     "check": 5,
+     "severity": "minor",
+     "detail": "The very long note at 15149-15216 is keyed to the (*) at 15135, so it belongs to this section, though it is printed in the next section's lines. Section 2 itself says it belongs here.",
+     "fix": "Add: A very long note at 15149-15216 explains the Empire from the radical doctrine and warns against blaming the person alone."
+    },
+    {
+     "check": 7,
+     "severity": "minor",
+     "detail": "'Europa' first appears at 14459 ('waarin Europa zich nog bevindt'), not 14767.",
+     "fix": "set_line 14459"
+    },
+    {
+     "check": 7,
+     "severity": "minor",
+     "detail": "'Revolutie' (capitalised) first appears at 14739 ('hield steeds de Revolutie'), not 15050.",
+     "fix": "set_line 14739"
+    }
+   ]
+  },
+  {
+   "lines": [
+    15138,
+    15521
+   ],
+   "verdict": "minor",
+   "findings": [
+    {
+     "check": 3,
+     "severity": "minor",
+     "detail": "Groen hedges: 'Men mag aannemen dat, ook voor Karel X, de handhaving van het charter ernst is geweest' (15513-15514). 'He holds' reads firmer than 'one may assume'.",
+     "fix": "He thinks one may assume that Karel X was in earnest about keeping the charter, while most of his opponents were insincere."
+    },
+    {
+     "check": 5,
+     "severity": "minor",
+     "detail": "The Réveil/Luthardt note is 15250-15260; 15262 is a separate note ('Zie evenwel Handboek') for the main-text mark at 15237.",
+     "fix": "A note at 15250-15260"
+    },
+    {
+     "check": 5,
+     "severity": "minor",
+     "detail": "'among the footnotes at 15297-15391' is too wide. The continuation note is 15297-15343; the 'spooksel' (ghost) note is 15385-15391 and goes on at 15423-15428. Notes in between (15345-15348, 15370-15373, 15377-15383) are other notes.",
+     "fix": "Notes at 15297-15343 call the Restoration the continuation of the Revolution. A note at 15385-15391 and 15423-15428 calls the ancien régime a ghost."
+    },
+    {
+     "check": 5,
+     "severity": "minor",
+     "detail": "Within 15453-15507 the notes are: doctrinaires 15453-15457, Guizot on 1815 15459-15467, Guizot on the foreign troops 15489-15492, Guizot and St. Marc-Girardin on Villèle 15494-15504, charter art. 14 15506-15507. The Villèle praise is 15494-15504.",
+     "fix": "A note at 15494-15504 quotes Guizot and St. Marc-Girardin in praise of Villèle."
+    },
+    {
+     "check": 7,
+     "severity": "minor",
+     "detail": "'Frankrijk' first appears in the section at 15144 ('te midden van Frankrijk', note continuation), not 15443.",
+     "fix": "set_line 15144"
+    }
+   ]
+  },
+  {
+   "lines": [
+    15522,
+    16189
+   ],
+   "verdict": "minor",
+   "findings": [
+    {
+     "check": 1,
+     "severity": "minor",
+     "detail": "Groen speaks of prosperity, not calm: 'dat uitwendige welvaart tegen den prijs van regten en vrijheden al te duur betaald wordt' (15899-15900).",
+     "fix": "He warns that France's outward prosperity is paid for too dearly with rights and freedoms, and that liberalism's last fruit is lost love for freedom."
+    },
+    {
+     "check": 5,
+     "severity": "minor",
+     "detail": "The range 15954-16063 takes in main-text lines 15972-15974 and 16019-16021. The note runs 15954-15970, 15977-16016, 16024-16063 and 16092-16099.",
+     "fix": "A very long note at 15954-15970, 15977-16016, 16024-16063 and 16092-16099"
+    },
+    {
+     "check": 5,
+     "severity": "minor",
+     "detail": "16119-16130 is a separate note (the Guizot speech source and his later admission); the philosophy note is 16132-16184, with the Gospel point at 16132-16134.",
+     "fix": "A note at 16119-16130 records Guizot's later admission that false anti-Christian ideas lay behind his own disappointments. The closing note at 16132-16184 says the philosophy's attractive ideas came from the Gospel and turned harmful once torn from it."
+    },
+    {
+     "check": 7,
+     "severity": "minor",
+     "detail": "'1789' first appears in the section at 15609 ('sedert 1789'), not 16137.",
+     "fix": "set_line 15609"
+    },
+    {
+     "check": 7,
+     "severity": "minor",
+     "detail": "'1830' first appears on its own at 15544 ('in 1830 en later'), not 15723.",
+     "fix": "set_line 15544"
+    }
+   ]
+  },
+  {
+   "lines": [
+    16190,
+    16487
+   ],
+   "verdict": "substantial",
+   "findings": [
+    {
+     "check": 4,
+     "severity": "substantial",
+     "detail": "A main division is absent: after 'Ontwikkeling' Groen opens 'Niet beter was de Reactie' (16335), the Napoleonic period: 'De onderwerping van half Europa aan fransch geweld is grootendeels aan dezelfde wanbegrippen te wijten' (16335-16355); only Britain's leaders saw 'dat de gekroonde Jacobijn tot onophoudelijken krijg verpligt en gezind was' (16355-16357); coalitions failed through each power's self-interest (16363-16398) until self-preservation forced the struggle (16399-16407). 'covers' passes straight from the Revolution's development to 1815.",
+     "fix": "Add: \"Half of Europe's subjection to French force he blames largely on the same errors; coalitions failed through self-interest, and Britain's leaders alone saw the danger.\" (merge the two theory sentences to stay within 8)"
+    },
+    {
+     "check": 1,
+     "severity": "minor",
+     "detail": "'in practice the stronger army decides' puts this under practice; in the Dutch it is still the theory: the will of all dissolves 'in het goedvinden van hen die de overmagt hebben ... wier kracht van overreding op het zwaard, op het geschut ... rust' (16217-16227). 'Vraagt gij naar de praktijk?' only begins at 16229.",
+     "fix": "\"... so no treaty or acquired right is safe and superior force decides.\""
+    },
+    {
+     "check": 2,
+     "severity": "minor",
+     "detail": "The 1815-1830 sentence is neutral, but Groen's point is a charge: 'De noodlottige liberale willekeur is openbaar in het ... somtijds hemeltergend overleg, dat de natiën, als koopwaren of als kudden, verdeeld en verruild heeft' (16416-16419).",
+     "fix": "\"From 1815 to 1830, he says, the governments based the law of nations on moderate liberal ideas, and traded nations like goods.\""
+    },
+    {
+     "check": 5,
+     "severity": "minor",
+     "detail": "16337-16340 is the end of the first Burke note, but its content is a Thorbecke quotation ('De revolutiegeest bleef ook in de Diplomatie zich zelven getrouw', from Over de verandering van het algemeen statenstelsel), not Burke. The first note also names v. Gentz and Mallet du Pan (16307).",
+     "fix": "See corrected notable_footnotes."
+    },
+    {
+     "check": 7,
+     "severity": "minor",
+     "detail": "'Volkerenregt' first appears, garbled, at 16195 ('Vullierenrcgl'), before 16201.",
+     "fix": "set_line 16195"
+    }
+   ]
+  },
+  {
+   "lines": [
+    16488,
+    17157
+   ],
+   "verdict": "minor",
+   "findings": [
+    {
+     "check": 1,
+     "severity": "minor",
+     "detail": "The first feature is 'a. de kracht der conservatieve begrippen' (16613-16614); weariness with theories is one of the grounds he gives for it (16619-16621), not the feature itself.",
+     "fix": "\"He lists four: the strength of conservative ideas, the radical principle's advance, the Roman church's activity, and the revival of Christian faith.\""
+    },
+    {
+     "check": 3,
+     "severity": "minor",
+     "detail": "The civil-religion warning carries limits: 'het ultramontanisme, welligt meer dan eenig ander kerkgeloof, de geschiktheid hebben om, na toegenomen ontaarding, eenmaal ...' (16755-16757); and the union is of 'jesuitische en jacobijnsche meeningen' (16757-16758), not ultramontanism joined with Jacobin opinions.",
+     "fix": "\"He warns that, through a union of Jesuit and Jacobin opinions, ultramontanism could perhaps one day become the state's civil religion.\""
+    },
+    {
+     "check": 9,
+     "severity": "minor",
+     "detail": "'He ends that ...' is not grammatical English.",
+     "fix": "\"He ends by calling the Dutch conservative system since then the Revolution continued, a 'revolutionary autocracy'.\""
+    },
+    {
+     "check": 7,
+     "severity": "minor",
+     "detail": "'Revolutie' first appears in the section at 16494 ('den triumf der Revolutie'), not 16634.",
+     "fix": "set_line 16494"
+    }
+   ]
+  },
+  {
+   "lines": [
+    17158,
+    17831
+   ],
+   "verdict": "minor",
+   "findings": [
+    {
+     "check": 1,
+     "severity": "minor",
+     "detail": "Groen expressly sets the 1815 organisation aside: 'ik spreek niet van de eigendunkelijkheid waarmede in 1815, de kerk van regeringswege georganizeerd is' (17411-17413). His grievance is that faithful confessors may meet for worship 'thans, in den regel, enkel op voorwaarde van hun eigen kerk te verlaten' (17419-17422). The 'in den regel' limit should stand.",
+     "fix": "\"He gives the Hervormde Kerk and the schools as signs of a dulled sense of justice. Faithful church members, he says, may as a rule meet for worship only by leaving their church, and the right to private schools is denied.\" (opening two sentences merged to stay within 8)"
+    }
+   ]
+  },
+  {
+   "lines": [
+    17832,
+    19291
+   ],
+   "verdict": "minor",
+   "findings": [
+    {
+     "check": 1,
+     "severity": "minor",
+     "detail": "Only Tocqueville gets 'passim' alone (19239); Rousseau ('192, 204,226, passim', 19217), Staël ('262, passim', 19227), Stahl ('IX, 32, passim', 19229) and Vinet ('54—61, 22, 401, passim', 19243) get pages and then 'passim'.",
+     "fix": "\"... a few frequent authors get 'passim', some after a few pages.\""
+    }
+   ]
+  }
+ ]
+}

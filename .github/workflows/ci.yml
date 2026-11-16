@@ -653,6 +653,7 @@ jobs:
       - run: python cic/engine/works_registry.py --check
       - run: python cic/engine/author_ids.py --check
       - run: python cic/engine/texts_registry.py --check
+      - run: python cic/engine/renderings.py --check
       # cic-website/data/corpus-coverage.json is generated from the census, the
       # corpus map and the vendored texts; it fails when the committed copy
       # differs from what the generator writes now.

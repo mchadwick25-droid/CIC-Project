@@ -1,0 +1,320 @@
+{
+ "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+ "census_sources": [
+  {
+   "where": "cic-website/data/world-census.json",
+   "record": "/edges[the-tridentine-church--the-anabaptist-movements]/sources[the-tridentine-church--the-anabaptist-movements][2]",
+   "cited_lines": "60490-60491",
+   "locus": "Martyrs Mirror, note after the account of the early martyrs",
+   "quote": "were persecuted with great tyranny; first especially in popedom."
+  },
+  {
+   "where": "cic-website/data/world-census.json",
+   "record": "/edges[the-tridentine-church--the-anabaptist-movements]/sources[the-tridentine-church--the-anabaptist-movements][3]",
+   "cited_lines": "60497-60499",
+   "locus": "Martyrs Mirror, same note",
+   "quote": "They were put to death in many places ; at Ensis- heim alone about six hundred were slain,"
+  },
+  {
+   "where": "cic-website/data/world-census.json",
+   "record": "/edges[the-tridentine-church--the-anabaptist-movements]/sources[the-tridentine-church--the-anabaptist-movements][4]",
+   "cited_lines": "58939-58942",
+   "locus": "Martyrs Mirror, Michael Sattler (1527), the sentence",
+   "quote": "In the case of the Governor of his Imperial Majesty versus Michael Sattler, judgment is passed, that Michael Sattler shall be delivered to the executioner,"
+  },
+  {
+   "where": "cic-website/data/world-census.json",
+   "record": "/edges[the-anabaptist-movements--mennonites-and-amish-after-1650]/sources[the-anabaptist-movements--mennonites-and-amish-after-1650][0]",
+   "cited_lines": "564-566",
+   "locus": "van Braght's dedicatory prayer, dated Dort, 23 July 1659",
+   "quote": "so that I may become like unto Thy dearest friends, my slain fellow brethren and sisters,"
+  },
+  {
+   "where": "cic-website/data/world-census.json",
+   "record": "/edges[the-anabaptist-movements--mennonites-and-amish-after-1650]/sources[the-anabaptist-movements--mennonites-and-amish-after-1650][1]",
+   "cited_lines": "52350-52351",
+   "locus": "A.D. 1600, the confession \"believed, taught, and practiced, by those called Mennonites\"",
+   "quote": "and practiced, by those called Mennonites,"
+  },
+  {
+   "where": "cic-website/data/world-census.json",
+   "record": "/movements[the-anabaptist-movements]/people[Felix Manz]/source[Felix Manz]",
+   "cited_lines": "58479-58481",
+   "locus": null,
+   "quote": "My heart rejoices in God, who gives me much knowledge and wisdom, that I may escape the eter- nal, and never-ending death."
+  },
+  {
+   "where": "cic-website/data/world-census.json",
+   "record": "/movements[the-anabaptist-movements]/people[Michael Sattler]/source[Michael Sattler]",
+   "cited_lines": "58970-58972",
+   "locus": null,
+   "quote": "I can not forget you ; though I am not present with the body (Col. 2 :5), yet I continually care for and watch over you, as my fellow members,"
+  },
+  {
+   "where": "cic-website/data/world-census.json",
+   "record": "/movements[the-anabaptist-movements]/people[Anneken Jans]/source[Anneken Jans]",
+   "cited_lines": "63828-63830",
+   "locus": null,
+   "quote": "Behold, I go today the way of the prophets, apostles and martyrs, and drink of the cup of which they all have drank."
+  },
+  {
+   "where": "cic-website/data/world-census.json",
+   "record": "/movements[mennonites-and-amish-after-1650]/people[Thieleman J. van Braght]/source[Thieleman J. van Braght]",
+   "cited_lines": "564-566",
+   "locus": null,
+   "quote": "so that I may become like unto Thy dearest friends, my slain fellow brethren and sisters,"
+  }
+ ],
+ "other_citations": [
+  {
+   "where": "cic/corpus-map/the-anabaptist-movements.yaml",
+   "line": 109,
+   "text": "Confession''s reproduction inside the already-vendored Martyrs Mirror (van-braght_martyrs-mirror_sohm1886.txt)."
+  },
+  {
+   "where": "cic/corpus-map/the-anabaptist-movements.yaml",
+   "line": 339,
+   "text": "- row_id: van-braght_martyrs-mirror_sohm1886--the-bloody-theater-or-martyrs-mirror-of-the-defenseless"
+  },
+  {
+   "where": "cic/corpus-map/the-anabaptist-movements.yaml",
+   "line": 352,
+   "text": "source_file: van-braght_martyrs-mirror_sohm1886.txt"
+  },
+  {
+   "where": "cic/corpus-map/the-hussite-and-bohemian-brethren-movement.yaml",
+   "line": 701,
+   "text": "- row_id: van-braght_martyrs-mirror_sohm1886--the-bloody-theater-or-martyrs-mirror-of-the-defenseless-2"
+  },
+  {
+   "where": "cic/corpus-map/the-hussite-and-bohemian-brethren-movement.yaml",
+   "line": 723,
+   "text": "source_file: van-braght_martyrs-mirror_sohm1886.txt"
+  },
+  {
+   "where": "cic/corpus-map/inquisition-record-sects-adamites-and-kin.yaml",
+   "line": 153,
+   "text": "- row_id: van-braght_martyrs-mirror_sohm1886--van-braght-martyrs-mirror-sohm-1886-the-taborite-sections"
+  },
+  {
+   "where": "cic/corpus-map/inquisition-record-sects-adamites-and-kin.yaml",
+   "line": 165,
+   "text": "source_file: van-braght_martyrs-mirror_sohm1886.txt"
+  },
+  {
+   "where": "cic/corpus-map/_staging/van-braght_martyrs-mirror_sohm1886.yaml",
+   "line": 1,
+   "text": "source_file: van-braght_martyrs-mirror_sohm1886.txt"
+  },
+  {
+   "where": "cic/corpus-map/_staging/van-braght_martyrs-mirror_sohm1886.yaml",
+   "line": 4,
+   "text": "- row_id: van-braght_martyrs-mirror_sohm1886--the-bloody-theater-or-martyrs-mirror-of-the-defenseless"
+  },
+  {
+   "where": "cic/corpus-map/_staging/van-braght_martyrs-mirror_sohm1886.yaml",
+   "line": 22,
+   "text": "- row_id: van-braght_martyrs-mirror_sohm1886--the-bloody-theater-or-martyrs-mirror-of-the-defenseless-2"
+  },
+  {
+   "where": "cic/corpus-map/_staging/van-braght_martyrs-mirror_sohm1886.yaml",
+   "line": 39,
+   "text": "- row_id: van-braght_martyrs-mirror_sohm1886--van-braght-martyrs-mirror-sohm-1886-the-taborite-sections"
+  },
+  {
+   "where": "cic/corpus-map/_staging/van-braght_martyrs-mirror_sohm1886.yaml",
+   "line": 52,
+   "text": "- row_id: van-braght_martyrs-mirror_sohm1886--martyrs-mirror-tauler-cited-as-a-witness-against-the-church"
+  },
+  {
+   "where": "cic/corpus-map/_staging/dordrecht-confession_ministers-manual_elkhart1890.yaml",
+   "line": 17,
+   "text": "(van-braght_martyrs-mirror_sohm1886.txt)."
+  },
+  {
+   "where": "cic/corpus-map/rhineland-mysticism-and-the-friends-of-god.yaml",
+   "line": 345,
+   "text": "- row_id: van-braght_martyrs-mirror_sohm1886--martyrs-mirror-tauler-cited-as-a-witness-against-the-church"
+  },
+  {
+   "where": "cic/corpus-map/rhineland-mysticism-and-the-friends-of-god.yaml",
+   "line": 357,
+   "text": "source_file: van-braght_martyrs-mirror_sohm1886.txt"
+  },
+  {
+   "where": "cic/corpus-map/taborite-radicalism.yaml",
+   "line": 132,
+   "text": "- row_id: van-braght_martyrs-mirror_sohm1886--van-braght-martyrs-mirror-sohm-1886-the-taborite-sections"
+  },
+  {
+   "where": "cic/corpus-map/taborite-radicalism.yaml",
+   "line": 144,
+   "text": "source_file: van-braght_martyrs-mirror_sohm1886.txt"
+  },
+  {
+   "where": "cic/engine/tests_corpus_index.py",
+   "line": 261,
+   "text": "\"van-braght_martyrs-mirror_sohm1886.txt\",       # Martyrs Mirror"
+  },
+  {
+   "where": "cic/texts/REGISTRY.yaml",
+   "line": 2607,
+   "text": "- filename: van-braght_martyrs-mirror_sohm1886.txt"
+  },
+  {
+   "where": "cic/texts/dordrecht-confession_ministers-manual_elkhart1890.txt",
+   "line": 21,
+   "text": "already-vendored Martyrs Mirror (van-braght_martyrs-mirror_sohm1886.txt)."
+  },
+  {
+   "where": "cft-website/index.html",
+   "line": 16141,
+   "text": "\"file\": \"cic/texts/van-braght_martyrs-mirror_sohm1886.txt\","
+  },
+  {
+   "where": "cft-website/index.html",
+   "line": 16151,
+   "text": "\"file\": \"cic/texts/van-braght_martyrs-mirror_sohm1886.txt\","
+  },
+  {
+   "where": "cft-website/index.html",
+   "line": 16161,
+   "text": "\"file\": \"cic/texts/van-braght_martyrs-mirror_sohm1886.txt\","
+  },
+  {
+   "where": "cft-website/index.html",
+   "line": 29498,
+   "text": "\"file\": \"cic/texts/van-braght_martyrs-mirror_sohm1886.txt\","
+  },
+  {
+   "where": "cft-website/index.html",
+   "line": 29508,
+   "text": "\"file\": \"cic/texts/van-braght_martyrs-mirror_sohm1886.txt\","
+  },
+  {
+   "where": "cft-website/index.html",
+   "line": 54001,
+   "text": "\"file\": \"cic/texts/van-braght_martyrs-mirror_sohm1886.txt\","
+  },
+  {
+   "where": "cft-website/index.html",
+   "line": 54012,
+   "text": "\"file\": \"cic/texts/van-braght_martyrs-mirror_sohm1886.txt\","
+  },
+  {
+   "where": "cft-website/index.html",
+   "line": 54030,
+   "text": "\"file\": \"cic/texts/van-braght_martyrs-mirror_sohm1886.txt\","
+  },
+  {
+   "where": "cft-website/index.html",
+   "line": 80340,
+   "text": "\"file\": \"cic/texts/van-braght_martyrs-mirror_sohm1886.txt\","
+  },
+  {
+   "where": "cic-website/data/corpus-coverage.json",
+   "line": 17510,
+   "text": "\"source_file\": \"van-braght_martyrs-mirror_sohm1886.txt\","
+  },
+  {
+   "where": "cic-website/data/corpus-coverage.json",
+   "line": 18550,
+   "text": "\"source_file\": \"van-braght_martyrs-mirror_sohm1886.txt\","
+  },
+  {
+   "where": "cic-website/data/corpus-coverage.json",
+   "line": 19252,
+   "text": "\"source_file\": \"van-braght_martyrs-mirror_sohm1886.txt\","
+  },
+  {
+   "where": "cic-website/data/corpus-coverage.json",
+   "line": 19512,
+   "text": "\"source_file\": \"van-braght_martyrs-mirror_sohm1886.txt\","
+  },
+  {
+   "where": "cic-website/data/corpus-coverage.json",
+   "line": 22510,
+   "text": "\"source_file\": \"van-braght_martyrs-mirror_sohm1886.txt\","
+  },
+  {
+   "where": "Build/worlds/jes/Open_Gaps_Tracking.md",
+   "line": 181,
+   "text": "- **E8. Van Braght, *Martyrs Mirror*** (`van-braght_martyrs-mirror_sohm1886.txt`), assigned to the Anabaptist and Hussite worlds. It mention"
+  },
+  {
+   "where": "Build/worlds/hus/Review-Artifacts/Doc02_Round2_Review.md",
+   "line": 96,
+   "text": "**Van Braght (Doc_02 Round 1 P1-8).** The decline is correct under the rule the Registry header states. The rule is that a vendored work ass"
+  },
+  {
+   "where": "Build/worlds/hus/Review-Artifacts/Doc02_Round1_Review.md",
+   "line": 156,
+   "text": "**P1-8. A vendored Hus section is missing, and the saturation statement overclaims.** The saturation statement says the Registry holds \"ever"
+  },
+  {
+   "where": "Build/worlds/hus/Review-Artifacts/Doc01_Round2_Review.md",
+   "line": 96,
+   "text": "**Van Braght (Doc_02 Round 1 P1-8).** The decline is correct under the rule the Registry header states. The rule is that a vendored work ass"
+  },
+  {
+   "where": "Build/worlds/hus/Open_Gaps_Tracking.md",
+   "line": 82,
+   "text": "- **E2. Van Braght, *Martyrs Mirror*** (`van-braght_martyrs-mirror_sohm1886.txt`; assigned to the Anabaptist movements). A Hus and Hussite s"
+  },
+  {
+   "where": "Build/worlds/hus/Open_Gaps_Tracking.md",
+   "line": 136,
+   "text": "40. **Rights basis of the Martyrs Mirror file, 2026-10-31.** The vendored file `van-braght_martyrs-mirror_sohm1886.txt` is a later printing "
+  },
+  {
+   "where": "Build/worlds/hus/Source_Registry.md",
+   "line": 95,
+   "text": "| 79 | Van Braght, *The Bloody Theater or Martyrs Mirror* (1886 English of the 1660 Dutch), the Hus and Taborite sections (file lines 47370–"
+  },
+  {
+   "where": "Build/worlds/_cross-world/dossiers/the-waldensian-reformed-union_Source_Readiness_Dossier.md",
+   "line": 100,
+   "text": "- **Van Braght, Martyrs' Mirror** (`van-braght_martyrs-mirror_sohm1886.txt`,"
+  },
+  {
+   "where": "Build/worlds/_cross-world/dossiers/rhineland-mysticism-and-the-friends-of-god_Source_Readiness_Dossier.md",
+   "line": 55,
+   "text": "- **Van Braght, Martyrs Mirror (`van-braght_martyrs-mirror_sohm1886.txt`)** (bucket: the Anabaptist Movements). Under the year 1400 the comp"
+  },
+  {
+   "where": "Build/worlds/_cross-world/dossiers/the-hussite-and-bohemian-brethren-movement_Source_Readiness_Dossier.md",
+   "line": 48,
+   "text": "| The Bloody Theater, or Martyrs' Mirror (Van Braght, 1660; Sohm, 1886), the Hus and Taborite sections | van-braght | context | provisional "
+  },
+  {
+   "where": "Build/worlds/_cross-world/dossiers/the-hussite-and-bohemian-brethren-movement_Source_Readiness_Dossier.md",
+   "line": 124,
+   "text": "(`van-braght_martyrs-mirror_sohm1886.txt`) is assigned to both worlds."
+  },
+  {
+   "where": "Build/worlds/_cross-world/dossiers/the-anabaptist-movements_Source_Readiness_Dossier.md",
+   "line": 23,
+   "text": "| The Bloody Theater, or Martyrs' Mirror | van-braght | tradition | assigned | ~1.19M words | `van-braght_martyrs-mirror_sohm1886.txt` |"
+  },
+  {
+   "where": "Build/worlds/_cross-world/dossiers/the-bosnian-church_Source_Readiness_Dossier.md",
+   "line": 45,
+   "text": "- **Martyrs Mirror (Sohm 1886), `van-braght_martyrs-mirror_sohm1886.txt`.** Tier: out-of-window. Uses \"Patarins\" and \"Patarini\" as a general"
+  },
+  {
+   "where": "Build/worlds/_cross-world/dossiers/family-of-love-and-spiritualists-franck-niclaes_Source_Readiness_Dossier.md",
+   "line": 52,
+   "text": "- **Name hits not opened (named-never-opened):** `menno-simons_complete-works_funk1871.txt`, `dirk-philips_enchiridion_kolb1910.txt`, `calvi"
+  },
+  {
+   "where": "Build/worlds/_cross-world/CORPUS-USE.md",
+   "line": 1081,
+   "text": "| `van-braght_martyrs-mirror_sohm1886.txt` | — | · | · | · | · | · | · | · | · | · | · | · |"
+  },
+  {
+   "where": "Build/worlds/_cross-world/CORPUS-USE.md",
+   "line": 2126,
+   "text": "- `van-braght_martyrs-mirror_sohm1886.txt` — —"
+  }
+ ]
+}

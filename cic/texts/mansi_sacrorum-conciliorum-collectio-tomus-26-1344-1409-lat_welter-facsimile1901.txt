@@ -1,9 +1,9 @@
 Title: Sacrorum conciliorum nova et amplissima collectio ... quae Joannes Dominicus Mansi archiepiscopus Lucensis evulgavit. Tomus vigesimus sextus, ab anno MCCCXLIV usque ad annum MCCCCIX
 Creator: Giovanni Domenico Mansi (ed.), after Philippe Labbe, Gabriel Cossart and Nicolas Coleti; councils of the Latin West from 1344 to 1409 and the Constantinopolitan synods of 1347 and the 1350s as Mansi prints them
-Publisher: Facsimile reproduction for H. Welter, Paris, 1901 ('Editio iterata ad Editionis principis exemplum ab Huberto Welter ... Parisiis M.D.CCCCI', file line 138), of the Venice edition of Antonio Zatta, 1784
-Publication Date: 1901
+Publisher: Facsimile reproduction for H. Welter, Paris, 1903 ('Editio iterata ad Editionis principis exemplum ab Huberto Welter ... Parisiis M.D.CCCCIII', read on the page image; the OCR at file line 140 reads 'M.D.CCCCI'), of the Venice edition of Antonio Zatta, 1784
+Publication Date: 1903
 Rights: Public Domain
-Rights basis: the facsimile's imprint reads 'M.D.CCCCI' (1901) at file line 138 of the OCR and the original edition is 'Venetiis MDCCLXXXIV' (1784); host record: date 1784, volume 26, no rights field.
+Rights basis: the facsimile's imprint reads 'M.D.CCCCIII' (1903) on the page image, and the facsimile leaf prints 1903 (file line 59), and the original edition is 'Venetiis MDCCLXXXIV' (1784); host record: date 1784, volume 26, no rights field.
 Language: lat (Latin)
 Source: Internet Archive item sacrorumconcilio0026joan (archive.org/details/sacrorumconcilio0026joan), full-text file sacrorumconcilio0026joan_djvu.txt, fetched directly by the Library thread, October 2026.
 Provenance note: Header prepended by the Library thread; the OCR text follows it unchanged. Nothing was stripped, normalised, corrected, re-spaced or retyped (the long s glyph occurs 0 times and was left as found). The OCR text that follows is 3781889 bytes, 3767449 characters and 122103 lines. OCR quality sampled at the title pages and at about 5%, 50% and 95% of the file (lines 6118, 61064 and 116010): Latin readable with long s read as f; Greek columns garbled into Latin letters; the Latin of the tomos at about file lines 12053-12513 is the usable witness.

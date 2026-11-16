@@ -1,0 +1,189 @@
+{
+ "passages": [
+  {
+   "id": "P1",
+   "verdict": "meets the bar with minor fixes",
+   "findings": [
+    {
+     "severity": "minor",
+     "dutch": "moest volgen op een reeks van syllogismen",
+     "final": "*had* to follow a series of syllogisms",
+     "problem": "'volgen op' means 'come after / follow upon'. Bare 'follow a series of syllogisms' can be read as 'adhere to / track' the syllogisms, which is not the Dutch.",
+     "fix": "A whole series of false ideas and atrocities *had* to follow upon a series of syllogisms, once unbelief had the upper hand."
+    },
+    {
+     "severity": "minor",
+     "dutch": "aan den aanvang der ontwikkeling van mijne hoofdgedachte",
+     "final": "at the start of setting out my main thought",
+     "problem": "No fault; noted because it was queried. 'ontwikkeling' here is the exposition of an argument (setting it out step by step), not growth of the idea itself. 'Setting out' is right and better than 'development', whose modern sense suggests the thought is still changing. 'Main thought' for 'hoofdgedachte' is literal and fine. Italic *unbelief* and *had* match the italics on the page image (ongeloof, moest).",
+     "fix": "Keep as is."
+    }
+   ],
+   "meaning_differences": [
+    {
+     "dutch": "aan den aanvang der ontwikkeling van mijne hoofdgedachte",
+     "first": "at the start of setting out my main thought",
+     "second": "at the beginning of the development of my main thought",
+     "dutch_supports": "first",
+     "why": "In this context 'ontwikkeling' is the unfolding/exposition of the thesis in the chapters that follow; 'development' can suggest the idea itself evolving."
+    },
+    {
+     "dutch": "moest volgen op een reeks van syllogismen",
+     "first": "had to follow a series of syllogisms",
+     "second": "had to follow upon a series of syllogisms",
+     "dutch_supports": "second",
+     "why": "'volgen op' = come after as a consequence; 'follow upon' says that unambiguously, bare 'follow' admits the sense 'adhere to'."
+    }
+   ],
+   "long_sentences": []
+  },
+  {
+   "id": "P2",
+   "verdict": "meets the bar with minor fixes",
+   "findings": [
+    {
+     "severity": "substantial",
+     "dutch": "werd Europa voor de Omwenteling rijp",
+     "final": "Europe became ripe for the Upheaval",
+     "problem": "'Omwenteling' is the native Dutch word for 'revolution' (literally a turning-over), and Groen uses it, capitalised, as a plain synonym for 'Revolutie' in the same paragraph: the Revolution whose cause he is discussing. Capitalised 'the Upheaval' beside 'the Revolution' reads to a modern reader as a second, differently named event, and 'upheaval' (general disruption) loses the specific sense 'revolution'. This is a word whose modern effect misleads (bar 4). English has no native/loanword pair to mirror the alternation, so the alternation cannot be kept without inventing a term.",
+     "fix": "Through the lessening and near disappearance of its influence, Europe became ripe for the Revolution."
+    },
+    {
+     "severity": "minor",
+     "dutch": "in de heilvolle werking der Reformatie",
+     "final": "in the Reformation's work of blessing",
+     "problem": "'werking' is working/operation/effect, not 'work' (a task or deed); 'work of blessing' can be heard as an act of benediction. 'heilvol' (from 'heil', salvation and welfare) is salutary with a religious overtone, which 'of blessing' keeps but as a nominalisation. The second rendering's 'beneficial' keeps 'werking' but flattens 'heil'.",
+     "fix": "Let us recognise in the blessed working of the Reformation the fulfilment of the prophecy: \"My Word will do what pleases Me, and it will prosper in what I send it for.\""
+    },
+    {
+     "severity": "minor",
+     "dutch": "en tegen de overheersching van het ongeloof behoed",
+     "final": "and protected against the domination of unbelief",
+     "problem": "Faithful: the Dutch also leaves 'behoeden' without an object. 'Protected against' without an object reads a little abruptly in English but adding an object (Europe, the world) would be an addition. Acceptable; 'guarded against' would also work.",
+     "fix": "Keep, or: and guarded against the domination of unbelief."
+    },
+    {
+     "severity": "minor",
+     "dutch": "vermits zij van een tegenovergesteld beginsel uitging; van objectieve geloofseenheid, niet van ... ; van ... ; van ...",
+     "final": "because it started from an opposite principle. It started from ... It started from ... It started from ...",
+     "problem": "No fault; noted because it was queried. The three 'van X, niet van Y' members all hang on 'uitging'. Repeating 'It started from' keeps that dependency and the order, and adds no content. The anaphora also keeps the force of the Dutch series. 'Beginsel' = 'principle' (Groen's standing term, the foundational starting point of a system) is right here, where the context ('uitging van') makes the sense of starting point explicit. 'Subjectieve gevoelens' = 'subjective opinions' is correct: 19th-century 'gevoelen' means view/opinion, and 'feelings' would mislead. 'Oppermagt des verstands' = 'supremacy of reason' is the better choice: 'verstand' here is human reason as the Enlightenment's final authority, set against Revelation; 'intellect' narrows it to a mental faculty.",
+     "fix": "Keep as is."
+    },
+    {
+     "severity": "minor",
+     "dutch": "„Mijn Woord zal doen wat Mij behaagt en het zal voorspoedig zijn waartoe Ik het zende.”",
+     "final": "\"My Word will do what pleases Me, and it will prosper in what I send it for.\"",
+     "problem": "Rendered from the Dutch as printed (bar 6 met): every element is present, 'voorspoedig zijn' = prosper, 'waartoe' = for which. Only issue is length: the sentence carrying the quotation is 31 words. The quotation cannot be cut, and the frame is short, so a split is the only fix.",
+     "fix": "Let us recognise the fulfilment of a prophecy in the blessed working of the Reformation. \"My Word will do what pleases Me, and it will prosper in what I send it for.\""
+    }
+   ],
+   "meaning_differences": [
+    {
+     "dutch": "heeft de Reformatie niet kunnen zijn",
+     "first": "could not have been",
+     "second": "cannot have been",
+     "dutch_supports": "open",
+     "why": "Both express logical impossibility in the past; the Dutch perfect of 'kunnen' allows either."
+    },
+    {
+     "dutch": "de oppermagt des verstands",
+     "first": "the supremacy of reason",
+     "second": "the supremacy of the intellect",
+     "dutch_supports": "first",
+     "why": "'verstand' set against 'Openbaring' is human reason claiming final authority (the rationalist principle Groen attacks); 'intellect' names a faculty rather than that claim."
+    },
+    {
+     "dutch": "ook voor de volken",
+     "first": "for the peoples too",
+     "second": "for the nations as well",
+     "dutch_supports": "first",
+     "why": "'volken' are peoples; modern 'nations' leans toward states."
+    },
+    {
+     "dutch": "de heilvolle werking der Reformatie",
+     "first": "the Reformation's work of blessing",
+     "second": "the beneficial working of the Reformation",
+     "dutch_supports": "open",
+     "why": "First keeps the religious overtone of 'heil' but turns 'werking' into 'work'; second keeps 'werking' but flattens 'heilvol' to secular benefit. Neither is wholly right; 'blessed working' joins both."
+    }
+   ],
+   "long_sentences": [
+    {
+     "words": 31,
+     "sentence": "Let us recognise in the Reformation's work of blessing the fulfilment of the prophecy: \"My Word will do what pleases Me, and it will prosper in what I send it for.\""
+    }
+   ]
+  },
+  {
+   "id": "P3",
+   "verdict": "meets the bar with minor fixes",
+   "findings": [
+    {
+     "severity": "minor",
+     "dutch": "Hij bedenke vooral dat de revolutionaire theorie ontvouwing der ongeloofskiem was, en dat de giftige plant, ... verkwijnt en verstikt.",
+     "final": "Let him consider above all that the revolutionary theory was the unfolding of the seed of unbelief. And let him consider that the poisonous plant, ... withers and suffocates in the atmosphere of a revival of faith.",
+     "problem": "In the Dutch 'vooral' governs both 'dat' clauses, and the second (the plant dies where faith revives) is the point the remedy argument rests on. The split leaves 'above all' on the first clause only. 'And' softens the loss but does not carry 'above all' over.",
+     "fix": "Let him consider above all that the revolutionary theory was the unfolding of the seed of unbelief. And above all let him consider that the poisonous plant, grown by the forsaking of faith, withers and suffocates in the atmosphere of a revival of faith. (27 words; alternatively drop 'And' to keep it at 26.)"
+    },
+    {
+     "severity": "minor",
+     "dutch": "Zoo iemand deze gewigtigste les der historie meer voor gemoedelijke verzuchting dan voor raadgeving der staatkunde houdt, hij vergeet dat ...",
+     "final": "Someone may take this weightiest lesson of history more for a pious sigh than for political counsel. He then forgets that ...",
+     "problem": "'Zoo iemand ... houdt, hij vergeet' is a plain conditional (if anyone ..., he forgets). 'Someone may take' reads first as a concession, and 'then' can be read as temporal. The link is kept, but loosely. The full conditional in one sentence would run to about 36 words, so a split is justified; the second half should say 'if so'.",
+     "fix": "Someone may take this weightiest lesson of history more for a pious sigh than for political counsel. If so, he forgets that world history has confirmed the gospel's power to bring about order and freedom and prosperity."
+    },
+    {
+     "severity": "minor",
+     "dutch": "door de verloochening Gods tegengewerkt wordt",
+     "final": "thwarted by the denial of God",
+     "problem": "'tegenwerken' is to work against, oppose, hinder; 'thwarted' says the opposition succeeds, which is stronger than the Dutch. The sentence is also 26 words.",
+     "fix": "Let him consider that everything useful and full of blessing for man is furthered by the fear of God and hindered by the denial of God."
+    },
+    {
+     "severity": "minor",
+     "dutch": "gemoedelijke verzuchting; nuttig en heilrijk; men bekeere zich tot God; ongeloofskiem; beginsel",
+     "final": "a pious sigh; useful and full of blessing; Let them turn to God; the seed of unbelief; the principle",
+     "problem": "No faults; noted because each was queried. 'gemoedelijk' in 1868 means 'of the heart / devout in feeling' (from 'gemoed'), not today's 'genial, cosy'. 'Pious sigh' keeps both the devotional sense and the dismissive tone of the imagined objector; 'heartfelt sigh' would lose the contrast with statecraft. 'heilrijk' = rich in 'heil' (salvation, well-being): 'full of blessing' keeps the religious root; 'wholesome' (second rendering) reduces it to health. 'zich bekeeren tot God' is the biblical 'turn (be converted) to God'. 'Turn to God' is exact and avoids modern 'convert' = change religion. 'kiem' = seed/germ/embryo. 'Seed' is right because the next clause grows it into a 'poisonous plant'; 'germ' would now be heard as a microbe. 'beginsel' = 'principle' keeps Groen's standing term. In this medical image (cause and remedy) it means the originating source, a sense English 'principle' still carries. 'Let people break' / 'Let them turn' renders impersonal 'men verbreke ... men bekeere' as hortatives without adding anything. Italic *in faith* matches the page image ('in het geloof' italic).",
+     "fix": "Keep as is."
+    }
+   ],
+   "meaning_differences": [
+    {
+     "dutch": "Men verbreke den revolutionairen cirkel",
+     "first": "Let people break the revolutionary circle.",
+     "second": "Let the revolutionary circle be broken.",
+     "dutch_supports": "first",
+     "why": "'Men verbreke' is active with an impersonal human subject; the passive drops who acts."
+    },
+    {
+     "dutch": "Zoo iemand ... houdt, hij vergeet",
+     "first": "Someone may take ... He then forgets",
+     "second": "Someone may take ... He forgets",
+     "dutch_supports": "first",
+     "why": "The Dutch makes the forgetting a consequence of the condition; 'then' keeps a trace of that, the second loses it entirely ('If so' would be closest)."
+    },
+    {
+     "dutch": "nuttig en heilrijk",
+     "first": "useful and full of blessing",
+     "second": "useful and wholesome",
+     "dutch_supports": "first",
+     "why": "'heilrijk' is built on 'heil' (salvation, well-being, blessing); 'wholesome' keeps only the well-being."
+    },
+    {
+     "dutch": "Hij bedenke vooral dat ..., en dat ...",
+     "first": "Let him consider above all that ... And let him consider that ...",
+     "second": "Let him consider above all that ... Let him consider that ...",
+     "dutch_supports": "open",
+     "why": "Same meaning; both detach the second clause from 'vooral', which in the Dutch governs both. First's 'And' keeps the link slightly better."
+    }
+   ],
+   "long_sentences": [
+    {
+     "words": 26,
+     "sentence": "Let him consider that everything useful and full of blessing for man is furthered by the fear of God and thwarted by the denial of God."
+    }
+   ]
+  }
+ ],
+ "overall": "All three renderings are faithful translations, not summaries. No clause is missing and nothing is added, and the italics match the page images. The one substantial fault is 'the Upheaval' for 'Omwenteling' in P2. Groen uses that word as the Dutch native synonym for the Revolution itself, and the capitalised English reads as a different event, so it should be 'the Revolution'. The remaining fixes are small. Each restores a trace of the Dutch logic lost in splitting long sentences: 'If so' for the conditional, 'above all' carried to the final clause, and 'follow upon' for 'volgen op'. Each also trims a word that overstates or blurs: 'thwarted', and 'work of blessing' for 'heilvolle werking'. Where the two renderings differ in meaning, the Dutch mostly supports the final rendering; the exception is 'follow upon' in P1."
+}

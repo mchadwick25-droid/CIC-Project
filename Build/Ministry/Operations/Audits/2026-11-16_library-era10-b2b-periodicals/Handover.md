@@ -124,3 +124,7 @@ one helper per journal, every cited line anchored), `tools/grid.py` (one sheet o
 items), `MAPPER_BRIEF.md` (the brief for periodicals, with the item on host marks and on years later than the
 file's). The page-image tools `sheet.py`, `crop.py` and `stack.py` are in
 `../2026-11-16_library-era9-located/tools/`.
+
+## State of 300
+
+Merged to `main` on 2026-11-16 as pull request #1704.
