@@ -59,3 +59,16 @@ None.
 
 - Not told: his edicts against heretic groups (census edges on Montanists and Donatists) and the Easter letter. They are stances of lower weight; the card's key works keep the Easter letter.
 - The baptism dispute (the Zachariah chronicle, the Crispus story) stays on the card, as in the bar.
+
+## After the tightening (2026-11-16): card-only
+
+The coordinator's ruling: a card may carry what the brief no longer tells, as long as each claim is still sourced. These claims from (b) are no longer told in the brief. They stay sourced as above and are card-only.
+
+- Daia as one of the rival emperors (the others are named): L chs. 43-48, L 10603-10690.
+- The vision told to Eusebius was "hard to believe" from another: Life of Constantine I.28, E 61191-61202.
+- Lactantius tutored Crispus: census edge `latin-apologists--imperial-juridical-christianity` (Jerome).
+- The Milan reason, "so that that God, who is seated in heaven, might be benign and propitious to us": L 10684-10686.
+- Feasts of dedication in the cities, bishops assembled; Eusebius "who lived through it": Church History X.2-3, E 49177-49208; E 49181-49183.
+- Such questions "confined to the region of our own thoughts" (only "trifling" is still told): Life II.68-71, E 63875, 63910.
+- Reason for recalling Arius, "from a desire of promoting the public good" and "he labored earnestly to bring them all into harmony" (only that he did not wish to see the church ruptured is still told): Socrates I.27, S 4935-4937.
+- Bishops summoned near Nicomedia; the bishops performed the rite, unnamed: Life IV.61-62, E 67748-67792; E 67817-67819.

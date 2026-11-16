@@ -68,3 +68,13 @@ None. The brief puts no quotation marks on our own English of a non-English line
 1. Plain rebuke of the powerful, the Eutropius sermon among them. What came of it: Socrates says it turned the tide against him; Theophilus's synod at the Oak, the clash with Eudoxia and exile followed.
 2. He refused judges who were his enemies. What came of it: deposition, the people's rising and his recall; at last, in 438, Proclus restored him to communion, and by this, Socrates says, his followers came back to the church.
 3. Care for the poor. What came of it: the bishop's spending moved to the hospital and more hospitals built (Palladius, partisan); his own sermon on honoring Christ in the naked.
+
+## After the tightening (2026-11-16): card-only
+
+The coordinator's ruling: a card may carry what the brief no longer tells, as long as each claim is still sourced. These claims from (b) are no longer told in the brief. They stay sourced as above and are card-only.
+
+- Eutropius the first eunuch made consul: Socrates VI.5, SS 17323-17365.
+- Turned from the law courts to the Scriptures: Socrates VI.3, SS 17139-17170.
+- Tax riot; statues thrown down; Flavian's embassy wins the emperor's pardon: Sozomen VII.23, SS 42040-42078.
+- John, a priest, preached to the city in the crisis and on Flavian's return: Homilies on the Statues II and XXI, N9 24410-24420; N9 36773-36782.
+- Died at a martyr's shrine near Comana (that he died on the way is still told): Palladius, Dialogue, PD 6436-6445, 6494-6499.

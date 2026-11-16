@@ -68,3 +68,15 @@ None. The brief puts no quotation marks on our own English of a non-English line
 
 - No source says the break with Demetrius caused the move to Caesarea; the brief sets them in sequence only.
 - The Philocalia's compilers (Basil and Gregory) are named only in an editor's heading (npnf207 47441-47443); the brief does not name them.
+
+## After the tightening (2026-11-16): card-only
+
+The coordinator's ruling: a card may carry what the brief no longer tells, as long as each claim is still sourced. These claims from (b) are no longer told in the brief. They stay sourced as above and are card-only.
+
+- Property confiscated, "not quite seventeen" (only the father's martyrdom is still told): VI.2.12-13, E 32607-32613; Jerome, Lives 54, J3 40523-40528.
+- Ordained by the bishops of Caesarea and Jerusalem; Demetrius enraged, wrote everywhere: Jerome, Lives 54, J3 40532-40538 (Eusebius VI.8.4, E 33220-33226).
+- Stretched in the stocks under Decius: VI.39.5, E 37486-37495. Also "aged sixty-nine" at death (Tyre is still told): J3 40589-40591.
+- Origen's own words "as being the likeness of the Father, never was it not": N4 28680-28691. Also his line on eternal generation in Rufinus's Latin: A4 23139-23140 (already card).
+- Gregory and Athenodorus "turned to divinity" and stayed "five years" (the bishops in Pontus is still told): Eusebius VI.30, E 36676-36684.
+- Origen's teaching that the body was given to the soul after the fall, as Photius reports Methodius: anf06 35875-35879.
+- Pamphilus copied most of Origen's works with his own hand (his defense is still told): Jerome, Lives 75, J3 40956-40975.

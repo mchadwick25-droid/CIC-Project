@@ -65,3 +65,16 @@ None.
 
 - Gregory is a panegyrist; the brief says he "praised him in a sermon" to mark it. His "first ... or with the concurrence of but a few" is told as his claim.
 - The Festal Index is an ancient record kept with the Easter letters (in Syriac, printed in N4 with Robertson's notes); the brief names it as "the index kept with his Easter letters".
+
+## After the tightening (2026-11-16): card-only
+
+The coordinator's ruling: a card may carry what the brief no longer tells, as long as each claim is still sourced. These claims from (b) are no longer told in the brief. They stay sourced as above and are card-only.
+
+- Succeeded Alexander in 328: Festal Index, heading, N4 64077-64081 and N4 64087-64089.
+- "One in essence with the Father" (only "begotten, not made" is still told): the Nicene faith, N4 19679.
+- Julian found it hard "to overcome Athanasius and the power of his teaching", so banished him: Gregory, Oration 21.32, G 30313-30323.
+- The particulars of the four flights: 339 from the Church of Theonas (N4 64183-64186); 356 (N4 64356-64360); Julian's decree, to the Thebaid (N4 64424-64429); 365, the notary Barasides brought him into the Church (N4 64448-64455). The brief says only that the index records four more flights.
+- "One Essence" in Gregory's sermon (the three hypostases against three persons is still told): Oration 21.35, G 30393-30433.
+- He attended Antony and poured water on his hands: N4 31195-31199.
+- Marcella heard of Antony also from priests of Alexandria, and fled to Rome from the Arians (Athanasius and her taking up the life are still told): Jerome, Letter 127.5, J6 26085-26096.
+- Peace with John of Antioch: Cy 5100-5104.

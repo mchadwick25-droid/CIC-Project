@@ -72,3 +72,14 @@ None. The brief carries no quotation marks on our own English of a non-English l
 ## Length
 
 378 words, about 2:31, at the 2:30 stretch. It carries two stances, each with its consequence (the hymns against Bardaisan, and the school that passed to Nisibis), and the dispute over who wrote the songs, told where it arises.
+
+## After the tightening (2026-11-16): card-only
+
+The coordinator's ruling: a card may carry what the brief no longer tells, as long as each claim is still sourced. These claims from (b) are no longer told in the brief. They stay sourced as above and are card-only.
+
+- Ephrem died in June 373 (A.Gr. 684): chronicle-of-edessa_cowper.txt 103.
+- Ephrem wrote in Syriac (the city's Syriac speech is still told): npnf203_theodoret-jerome-gennadius-rufinus.xml 41540-41543; 15050.
+- Nine years before, the emperor Jovian handed Nisibis to the Persians: npnf203 42158-42164; chronicle-of-edessa_cowper.txt 95.
+- The 300 beds: palladius_lausiac-history_clarke1918.txt 471.
+- The book of Bardaisan and "It tainted my pure ears" (the body's resurrection answer is still told): npnf213_gregory-great-ephraim-syrus-aphrahat.xml 11200-11215.
+- Ephrem "withdrew to Edessa" (the school he opened there is still told): barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt 20434-20442, 20738-20743.

@@ -76,3 +76,11 @@ None. The brief carries no quotation marks on our own English of a non-English l
 ## Length
 
 382 words, about 2:33. It carries two stances, each with its consequence (the Trinity and the Arian bishop who left; Apollinarius and the citation of 680), and the thread to Jerome and Justinian.
+
+## After the tightening (2026-11-16): card-only
+
+The coordinator's ruling: a card may carry what the brief no longer tells, as long as each claim is still sourced. These claims from (b) are no longer told in the brief. They stay sourced as above and are card-only.
+
+- Athens, and "We seemed to have one soul, inhabiting two bodies." (Basil as closest friend is still told): Oration 43, NZ 41422-41433, 41521-41522.
+- In the farewell, thanks to his Anastasia for raising up the doctrine in contempt (the other churches filled is still told): Oration 42.26, NZ 40853-40868.
+- Rufinus of Aquileia put his works into Latin: Gennadius, Lives 17, TJ 42464-42471.

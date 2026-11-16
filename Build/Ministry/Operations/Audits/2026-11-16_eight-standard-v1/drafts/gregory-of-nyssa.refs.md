@@ -78,3 +78,11 @@ None. The brief puts quotation marks on no English of our own for a non-English 
 ## Length
 
 390 words, about 2:36. It carries two stances (against Eunomius, with the law of 381, and the teaching on restoration, where the brief says plainly that the record stops) and the close in 553 and 692.
+
+## After the tightening (2026-11-16): card-only
+
+The coordinator's ruling: a card may carry what the brief no longer tells, as long as each claim is still sourced. These claims from (b) are no longer told in the brief. They stay sourced as above and are card-only.
+
+- Nine months after Basil's death, the synod at Antioch, the visit, Macrina dying: Life of Macrina, CL 184.
+- Macrina's words about their parents' prayers: Life of Macrina, CL 214-218.
+- Gave up reading the sacred books to the people; taught rhetoric; "Professor of Rhetoric rather than of Christianity": Gregory of Nazianzus, Letter 11, NZ 46225-46229 (heading), 46252-46258.

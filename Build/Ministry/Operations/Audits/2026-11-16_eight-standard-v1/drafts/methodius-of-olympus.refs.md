@@ -58,3 +58,14 @@ None. The Greek of Epiphanius is told without quotation marks.
 
 - The held sources show no consequence for the Banquet and its praise of chastity (the census edge says Jerome names the book but does not show he drew on it). The brief names the work and claims nothing more.
 - Eusebius's "after having said this thing and that of his doctrines" does not say in itself that Methodius had praised Origen; Jerome reads it so. The brief tells it as "after all he had said of his teaching".
+
+## After the tightening (2026-11-16): card-only
+
+The coordinator's ruling: a card may carry what the brief no longer tells, as long as each claim is still sourced. These claims from (b) are no longer told in the brief. They stay sourced as above and are card-only.
+
+- Pamphilus's Apology, named (the brief says only "two of Origen's admirers"): J3 40975.
+- Socrates's "Worthless characters": S 18135-18154.
+- Martyr "at the end of the recent persecution" (the martyrdom at Chalcis is still told): J3 41095-41105.
+- The Banquet of the ten virgins; ten women each speak in praise of chastity: J3 41095-41105; AN 29720, 29930-29933, and the ten Discourse headings (AN 29984 onward).
+- Epiphanius called him a learned man who fought hard for the truth: Panarion 64.10-12 and 64.63, EpH 32500-32506 and 39240-39241; Latin EpO 19228-19237 and 27050-27057.
+- The reply to Porphyry ran to "ten thousand lines": Jerome, Letter 70 to Magnus, J6 16535-16545.
