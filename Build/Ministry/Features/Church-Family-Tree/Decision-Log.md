@@ -4041,3 +4041,169 @@ The branch's 89 story-card relabels and cuts are not released. The moves of Beun
 - No brief, card text, recording or link changes. The data page gives the new release number.
 
 Approved to proceed (coordinator, 2026-11-16; Mark may overrule).
+
+## 2026-11-16 — The story process: three hands, one page, and a clean write first (Mark, 2026-11-16)
+
+**Why.** The Who and council briefs kept picking up the same habits: modern scholars inside the story, an opening scene with no setting, the impact half missing. The cause is the process, not any one writer. Each review finding became a new ruling, and none was removed. The writer's brief grew to a 285-line pattern holding 25 dated rulings, an 18-item checklist, ten example briefs and a 662-word paragraph. One writer also did four jobs in one pass: finding sources, checking quotes, rendering old English and telling the story. The options and evidence were on the coordinator's page (https://claude.ai/artifact/Df4TxbyxbskR5NiKFJhccY).
+
+**Decided (Mark, 2026-11-16).**
+- Process option A: "A, let's go with option A". Research, writing and review go to three separate hands. The researcher builds a source sheet with no prose. The writer receives only the sheet and a one-page standard built on Mark's three things: craft, rigor and accessibility. The reviewer reads as a listener first, then traces every sentence back to the sheet, then checks the score. Each change to the standard replaces a line.
+- Calibration: set 1, all six from era 1 (Ignatius of Antioch, Justin Martyr, Eusebius of Caesarea, Marcion of Pontus, Tacitus, the Councils of Rome and Carthage in 251), "with the addition of a clean write first". One person who has never had a Who brief is written first, with no example briefs given to the writer, "so we don't introduce bad examples", and the result is compared with the best existing briefs.
+- The clean write is Polycarp of Smyrna: "yes, polycarp, go ahead".
+
+**Where it stands.** The draft standard and the clean-write work are in `Build/Ministry/Operations/Audits/2026-11-16_polycarp-clean-write/`. This changes how Standard v1 (2026-11-16) is delivered to writers: `Who_Profile_Pattern.md`, `Council_Profile_Pattern.md` and `Worker_Brief_Template.md` stay in force until calibration ends. Then Mark rules on what the one-page standard replaces, and the replaced material goes to `Archive/`.
+
+## 2026-11-16 — Briefs are heard: the grade floor becomes a listener check, and a non-academic feel (Mark, 2026-11-16)
+
+**Why.** The scorer was run on our briefs, on seven published lives of Polycarp, and on six BBC News and six National Geographic history articles (coordinator's page, https://claude.ai/artifact/Df4TxbyxbskR5NiKFJhccY, "Accessibility, measured the same way" and "Is the target right?").
+- Our briefs had the most even sentence lengths of any text measured.
+- The two most gripping published pieces, Christian History Institute and Ligonier's spoken script, score grade 7.5 to 7.6. Our floor would fail both.
+- BBC News scored grade 9.2 to 14.8 and National Geographic 11.0 to 14.6. Only 1 of the 12 falls inside 8 to 10.
+- The Polycarp writer's first draft scored 5.6, and the writer joined sentences to clear the floor. Round 2 has four sentences of 29 to 31 words.
+The score measures only sentence length and syllables, so it cannot tell a punchy short sentence from a childish one.
+
+**Decided (Mark, 2026-11-16).**
+- "1, keep the ceiling and change the floor". Grade 10 and reading ease 60 (names out) stay hard limits. A grade under 8 no longer fails a brief by itself: the scorer prints a note, and the reviewer's listener read judges whether the brief has gone flat. The model becomes a BBC or National Geographic documentary narrator, not their printed articles. The standard's "Mix short and long sentences" is replaced by "No sentence past about 30 words".
+- "non accademic feel not rigor". The standard's first Craft line is replaced: "It is a story told by someone who knows the record well, not a report about the record. Each sentence leads to the next. The rigor lives in the sheet and on the card; the story carries it without showing the machinery."
+- "yes, apply both and run round 3".
+
+**Carried out.**
+- `engine/m1/profile_readability.py`: grade under 8 is a note, not a failure, and the longest sentence is printed. The tests are updated.
+- `CLAUDE.md`, "Accessible and rigorous": the target line now says this for Church Family Tree briefs. Representative turns (`engine/m7/turn_readability.py`) are not changed; this ruling was made for the briefs.
+- `Build/Ministry/Operations/Audits/2026-11-16_polycarp-clean-write/Standard_draft.md`: both lines replaced.
+- `Who_Profile_Pattern.md`, "The readability method", still calls grade 8 a floor that fails. It stays as written while calibration runs; what the one-page standard replaces is ruled when calibration ends (this log, "The story process", 2026-11-16).
+
+## 2026-11-16 — Six lines for the one-page standard, from three outside writing traditions (Mark, 2026-11-16)
+
+**Why.** Mark: "how can we use other writing standards to help us? i feel like we can learn from their expertise". Ruled: "yes, run the lens with those three". A research agent read the guidance of three traditions and mapped 18 principles against the one-page standard: writing for the ear (NPR Training; the BBC's "Writing for Radio", Radio cues and News style guide), museum gallery text (the V&A Ten Point Guide; the British Museum's 2022 guidelines) and global Christian biography (the Dictionary of African Christian Biography's guidelines and manual; the Biographical Dictionary of Chinese Christianity's guidelines). The Oxford DNB's notes for contributors could not be read, as the site blocks automated clients. The map is on the coordinator's page (https://claude.ai/artifact/Df4TxbyxbskR5NiKFJhccY, "What the three traditions teach us"). The guides go to the reviewer as a lens, never to the writer.
+
+**Decided (Mark, 2026-11-16): "all six, then run round 3".** Each change replaces or extends an existing line; none adds a rule.
+1. "One thought per sentence, with each subject close to its verb. No sentence past about 30 words."
+2. "Give the reason for an act, or for any word or custom that would puzzle a newcomer, in the same sentence. Take the reason from the sheet."
+3. "Praise or blame" joins the list of times a speaker or writer is named.
+4. "Tell only what the record supports, and only what this story needs. The sheet will always hold more."
+5. "The reviewer first takes it in once through, as a listener would, without going back, and marks where they got lost or drifted." An AI reviewer cannot hear, so Mark's spot-check listens remain the real ear.
+6. "Use plain modern words: simplify the language, never the thought."
+
+**Kept, where the traditions conflict with ours.** Three rules stay as they are. A story heard straight through does not open on its key message, the museum label's "key message first". Hearsay and oral tradition enter only when they are on the sheet and marked. A wonder is told as its witness tells it, with no sneer and no endorsement.
+
+## 2026-11-16 — Polycarp round 3 read: the century, the opening and the ending (Mark, 2026-11-16)
+
+**Mark's read of round 3:** "add the century and a stronger opening and ending". Round 3 had passed its review at the cap. Its opening named no century and began on a job title, and it ended on the Easter dispute, not on how far his witness reached.
+
+**Carried out.**
+- Two lines of the one-page standard are replaced. The Shape opening becomes: "Open on something that pulls a listener in: a moment, an image, or the person's own words from the sheet. Within the first few sentences, set the context: the century or the year, the place and the tradition, told like a story, not given as a list." The Craft ending becomes: "End on what came of them, told as an event or in the record's own words: who carried their witness on, or how far it reached. No moral, no summing up, and no line picked only because it sounds good."
+- The source sheet gains S12, the century, and C13, card only. The held sources place Polycarp by rulers and bishops, never by century. "In the second century" rests on the modern chronology of those reigns (Widely Accepted). "About a hundred years after Jesus" is not supported.
+- A fourth draft is written and rechecked under a Cap ruling in the System Hub Decision Log (2026-11-16, "Cap ruling: Church Family Tree, Polycarp clean write").
+- The standard's own header no longer carries its change history. That history is here.
+
+## 2026-11-16 — The third part gets real weight (Mark, 2026-11-16)
+
+**Why.** Mark read round 4 of the Polycarp clean write: "it does well to tell the story, does it tell the impact", "or legacy". It did not. About two-thirds of the brief told the arrest and death, and it drew on about four of the sheet's 19 impact lines. The standard said "then what came of it" but gave that part no weight, so the vivid beats took the time.
+
+**Decided (Mark, 2026-11-16): "1, rebalance and run round 5".** The Shape line becomes: "Then what came of it, given real weight, about a third of the story: their impact on the church, what they saw differently, what they defended, chosen by weight from the record." The length stays at about two and a half minutes. Round 5 runs under a Cap ruling in the System Hub Decision Log (2026-11-16, "Cap ruling: Church Family Tree, Polycarp clean write, round 5").
+
+## 2026-11-16 — Polycarp: a fresh writer, cold, to test the page itself (Mark, 2026-11-16)
+
+**Why.** Round 5 returned REVISE. Its legacy part had about 40% of the words but missed what Polycarp defended, Irenaeus's use of him as a witness to the apostles' teaching, and his church's view of his death. The lightest item took the ending. After five rounds of coaching, each fix had been paid for somewhere else. A standard is proven only when a writer who has never seen the review history can follow it cold.
+
+**Decided (Mark, 2026-11-16): "1, fresh writer cold".** A new writer gets only `Standard_draft.md` and `Writer_Sheet.md`. One Opus review follows, as a fresh cycle (System Hub Decision Log, 2026-11-16, "Cap ruling: Church Family Tree, Polycarp clean write, fresh cold write"). If the cold write fails, its failure shows which line of the page is weak, and that line is replaced.
+
+## 2026-11-16 — Length: about two minutes, up to three or three and a half (Mark, 2026-11-16)
+
+**Why.** Mark asked "is it better to cut to 2:00 for listeners attention or go to 3 to tell the story well". A research pass found no study comparing 2 and 3 minutes for narrated biography, so all the evidence is indirect.
+- NPR One's data (Current, 2016): "Two minutes long works as well as four" for newscasts, with sharp drop-off past 5 minutes.
+- Wistia (2020): engagement loss is low for 1–2 minute videos and much higher for 5–10 minutes.
+- Museum audio guides: vendors advise 60–90 seconds a stop. The older convention was about 3 minutes.
+- Smartify (2025): visitors listening in a language not their own listen for less time overall.
+The report is in the coordinator's scratchpad, and the summary is on the coordinator's page.
+
+**Decided (Mark, 2026-11-16): "lets aim for 2 or so, but up to 3 or 3.5", then "2 is base, 3.5 is max and it is the sources told well that determines it, but 2.5 is the prime target".** The standard's length line becomes: "Aim for about two and a half minutes aloud, person or council. Two minutes is the base and three and a half the most. What the sources hold, told well, decides where in that range a brief lands; never fill to reach a length." It replaces the 2026-11-15 Who length ("aim under two minutes and stretch to two and a half") and council length ("target 2:00 but can streatch to 3") for briefs written to the one-page standard. `Who_Profile_Pattern.md` and `Council_Profile_Pattern.md` stay as written until calibration ends.
+
+## 2026-11-16 — Impact by weight: the writer's Shape line and the researcher's sheet (Mark, 2026-11-16)
+
+**Why.** The fresh cold write (`Cold_R1_review.md`) returned REVISE. Its story part worked cold. Its impact part failed the way round 5 did: about 30% of the words, given to the burial and the Easter peace, while what Polycarp defended, what Irenaeus carried on and his letter's long reading were left out. A fresh writer and a coached writer made the same choice, so the fault is in what they are handed. The page read as a menu ("their impact, what they saw differently, what they defended") and gave no test for weight. The sheet's impact section was 19 equal, unranked lines, and one of its headings paraphrased the record ("his friends" for "the wish of many").
+
+**Decided (Mark, 2026-11-16): "yes, make both changes and test with a fresh writer".**
+- The Shape line becomes: "Then what came of it, about a third of the story. It must tell what they left the church and what they defended, then how far it reached. Weight is what later witnesses carried on and used, not what is easiest to tell."
+- The researcher's line takes two changes. It now builds the sheet "with headings in the record's own words", and gives "the impact as the record gives it, ranked heaviest first, with what they defended marked and a quote that can carry it".
+- The researcher re-ranks Polycarp's impact section to that line. A second fresh writer then tests the page cold, with its review in the same fresh cycle (`Cold2_R1_review.md`, round 2 of the cycle the System Hub Decision Log opened on 2026-11-16).
+
+## 2026-11-16 — The tradition, in words a narrator can say aloud (Mark, 2026-11-16)
+
+**Why.** The second cold write (`Cold2_R1_review.md`) showed that both replaced impact lines worked cold. One line still failed cold, as it had in the first cold write: the tradition. Its census name, "Post-Apostolic Household-Church Christianity", cannot be said aloud. Each writer invented a gloss, and both misled. "The church that came after the apostles" and "the church in the time after the apostles" both sound, to a listener, as if they contradict "taught by apostles" in the next sentence.
+
+**Decided (Mark, 2026-11-16): "yes, make both lines and run the revision".**
+- The writer's Shape line: "set the context: the century or the year, the place, and the tradition in the plain words the sheet gives for saying it aloud".
+- The researcher's line: the sheet gives "the setting, with plain spoken words for the century and the tradition and the lines that support them".
+- The researcher writes Polycarp's spoken form from the census entry's own description. The census name stays on the card.
+- The second cold writer makes one targeted revision under the same fresh cycle: the fire fix, the Easter reason, the four small cuts and the spoken tradition. A recheck follows (`Cold2_R2_recheck.md`).
+- A spoken name for every tradition in the census is a tree-wide question, so it is logged as an open gap for Mark to take up (Open-Gaps, "Spoken names for census traditions", 2026-11-16).
+
+## 2026-11-16 — Polycarp of Smyrna: an outside review and three minor changes (Mark, 2026-11-16)
+
+**What Mark gave.** Mark shared a review of the second cold write that he had obtained from ChatGPT. It judged the brief "close to publication quality" and suggested three minor changes:
+- remove the general sentence on households and letters;
+- keep Irenaeus hearing Polycarp apart from what Polycarp told of John;
+- note that the opening scene renders the Smyrna church's account.
+Mark said "yes, do all three and start Ignatius".
+
+**Not approved.** Mark has not approved a final text of the Polycarp brief. Nothing in this log should be read as that approval.
+
+**Where the texts are.** The two best versions, each with the three changes, are in `Build/Ministry/Operations/Audits/2026-11-16_polycarp-clean-write/Polycarp_best_versions.md`.
+
+## 2026-11-16 — Polycarp of Smyrna approved to proceed (Mark, 2026-11-16)
+
+Mark: "ok this is the best version and we should stop here and call this finalized." The approved text is `Build/Ministry/Operations/Audits/2026-11-16_polycarp-clean-write/Polycarp_approved.brief.txt`, 466 words, the same as `Polycarp_B2.brief.txt`. It is version B (round 4) with two sets of changes:
+- the three changes from the outside review Mark shared: the beasts and fire restored, the yearly gathering's stated purpose, and the Easter paragraph;
+- the four fixes from the source-level check (`Polycarp_B2_source_check.md`): "destroyer of their gods" moved to the stadium, the hidden cut in the Irenaeus quote, "decades later", and the church's own words on the gathering.
+The check's cautions go on the card. Revision of this brief stops here.
+
+Next, Mark asked for a standard to write from, built from scratch and without rules, drawing on the best of this work. It does not edit `Standard_draft.md`.
+
+## 2026-11-16 — Narration voices: keep the British and South African voices (Mark, 2026-11-16)
+
+**Why.** Mark asked whether the four kinds of narration (tradition, Who, council and story briefs) should have one, two or four voices. He likes Daniel, the tradition voice. He asked whether a British and a South African voice connect with North American listeners.
+
+**What the evidence showed.**
+- Research found no solid effect of voice gender. A non-native accent lowered how competent listeners rated the voice; British and South African are native accents.
+- North American listeners usually rate a British accent high on status, and a little lower on warmth than their own.
+- Daniel's tradition recordings run at about 130 to 140 words a minute overall, the base pace the research supports for second-language listeners.
+- Jon runs at 180 to 190 words a minute, and the speed setting on `eleven_v4` did not slow him.
+
+**Decided (Mark, 2026-11-16): "1, and run the Daniel sample".**
+- Keep the British and South African voices: Daniel for the tree, Neo (`onegjDE2z0mQtp1g0HK7`) for stories, as Mark ruled earlier ("keep neo for stories").
+- Real listeners confirm the choice when prototype testing can carry it.
+- A paid sample of the Polycarp brief in Daniel's tradition settings was run for Mark's ear. The settings were voice `onwK4e9ZLuTAKqWW03F9`, model `eleven_multilingual_v2`, output `mp3_44100_64`, stability 0.95, similarity 0.68, style 0 and speaker boost on, with no tags. The request was `kKXuQgJL7opTBys3uRwL`, 1,224 credits.
+- The voice for Who and council briefs is not yet chosen. The samples, all printed with their settings, are on https://claude.ai/artifact/HYZynSqTRbpizyUBqAxmbP.
+
+**Not yet built.** The site's player already supports 1×, 1.25×, 1.5× and 2× with pitch kept, but it has no speed button.
+
+## 2026-11-16 — Person voice: Neo for Who briefs, replacing Jon (Mark, 2026-11-16)
+
+**Why.** Mark found Jon sometimes "over powering". Measured on the Polycarp sample, Jon runs 180 to 190 words a minute, and the speed setting on `eleven_v4` did not slow him. Mark chose two voices: "daniel on traditions and neo on stories". On the people briefs he said "yes, the who briefs are really stories". He heard the Polycarp brief read by Neo in her story settings: request `ldnIhJ8ZPiSwZcQSlPex`, 1,224 credits, 2:48, 166 words a minute overall.
+
+**Decided (Mark, 2026-11-16): "use neo for the who briefs".** Every Who brief is now recorded with:
+- voice: Neo, "Calm and Controlled", `onegjDE2z0mQtp1g0HK7`;
+- model: `eleven_v4`, output `mp3_44100_64`;
+- settings: `{"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true}`, the story settings;
+- no audio tags. The `[calmly]` and `[warmly]` tags of the Jon ruling (2026-11-11) are dropped.
+
+This supersedes "Person voice: Jon on Eleven v4, replacing David Baker" (2026-11-11). Every setting is passed on the command and printed before the first request; none is read from the environment.
+
+**Councils.** The two-voice plan the coordinator proposed puts council briefs with Daniel and his tradition settings, since a council is shown like a tradition page. Mark answered "yes, the who briefs are really stories". He has not ruled on councils in their own words, so the coordinator confirms it with him before any council is recorded.
+
+**When.** Who briefs move to Neo as each era's rewritten briefs are released, so no separate re-recording run is needed. The live recordings in Jon's voice stay until their era's release.
+
+## 2026-11-16 — Council voice: Daniel (Mark, 2026-11-16)
+
+**Decided (Mark, 2026-11-16): "yes, daniel for councils".** Every council brief is recorded with Daniel's tradition settings:
+- voice: Daniel, "Steady Broadcaster", `onwK4e9ZLuTAKqWW03F9`;
+- model: `eleven_multilingual_v2`, output `mp3_44100_64`;
+- settings: stability 0.95, similarity 0.68, style 0, speaker boost on;
+- no audio tags.
+Every setting is passed on the command and printed before the first request. This settles the point left open in "Person voice: Neo for Who briefs, replacing Jon" (2026-11-16).
+
+The narration voices are now:
+- Daniel: tradition briefs and council briefs;
+- Neo: Who briefs and stories.
