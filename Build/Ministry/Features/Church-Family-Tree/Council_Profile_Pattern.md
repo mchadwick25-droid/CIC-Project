@@ -88,7 +88,7 @@ Run with the Who checklist, items 1 to 11 and 13.
 C1. Every main witness in `record` has a kind and, where partisan, a side.
 C2. Where the acts are lost, the brief says so once, early, and names whose account stands in for them.
 C3. The condemned party's view is in its own words, or the text says it reaches us through opponents and names them.
-C4. Every count of attendees has its witness. A month or year that no ancient witness gives is told in the brief only as far as the witnesses agree, and is attributed to the modern historian by name in the entry's `datesNote` and `uncertain`, never in the brief.
+C4. Every count of attendees has its witness. A month or year that no ancient witness gives is told in the brief only as far as the witnesses and historians agree, and is attributed to the modern historian by name in the entry's `datesNote` and `uncertain`, never in the brief.
 C5. The issue that brought them together is stated with its sides and witnesses; issue, decided and outcome are separate, and a failed or rejected decision is told as such.
 C6. A creed or confession is told as the act of the meeting, with who signed and who refused where held.
 C7. The entry is in the tradition page's form, with the "Major council" title. The Who click gives each person their verdict and part; no new verdict is made by the council profile.
