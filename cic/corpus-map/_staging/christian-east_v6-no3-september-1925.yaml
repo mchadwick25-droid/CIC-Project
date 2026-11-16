@@ -14,11 +14,11 @@ assignments:
 - row_id: christian-east_v6-no3-september-1925--basil-iii-of-constantinople-eirenikon-to-the-archbishop-of-canterbury-1925
   work: 'Basil III, Patriarch of Constantinople, eirenikon to the Archbishop of Canterbury (1925), in The Christian East'
   author: christian-east
-  locus: 'OCR lines 186-290; add 12 to OCR line numbers'
+  locus: 'OCR lines 196-290; add 12 to OCR line numbers'
   atlas_ids:
   - the-greek-church-and-the-ecumenical-patriarchate
   role: tradition
   confidence: assigned
   language: eng
   date: {start: 1925, end: 1925, source: "signed 'Basil of Constantinople' and dated 22nd July, 1925 (OCR lines 289-290)", formation_confidence: Documented}
-  note: 'The Patriarch''s own letter in English; the print names no translator.'
+  note: 'The Patriarch''s own letter in English; the print names no translator. The heading is at OCR line 186 and the editors'' words ''We append the Eirenikon'' at 190-194. The Chronicle of the same number names him Basil III (OCR line 5662).'

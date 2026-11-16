@@ -25,11 +25,11 @@ assignments:
 - row_id: christian-east_v6-no4-january-1926--surma-speech-at-the-anniversary-1925
   work: 'Lady Surma d''Bait Mar Shimun, speech at the Association''s anniversary (1925), in The Christian East'
   author: christian-east
-  locus: 'OCR lines 233-350; add 12 to OCR line numbers'
+  locus: 'OCR lines 240-339; add 12 to OCR line numbers'
   atlas_ids:
   - the-sayfo-and-the-syriac-diaspora
   role: tradition
   confidence: assigned
   language: eng
   date: {start: 1925, end: 1926, source: "the anniversary is reported in the number of January, 1926", formation_confidence: Documented}
-  note: 'Her speech as the journal prints it in English; it says she spoke in Syriac and was interpreted by Fr. Heazell (OCR lines 234-235).'
+  note: 'Her speech as the journal prints it in English; it says she spoke in Syriac and was interpreted by Fr. Heazell (OCR lines 236-237).'

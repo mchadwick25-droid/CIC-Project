@@ -14,33 +14,33 @@ assignments:
 - row_id: international-review-of-missions_v18_1929--braga-following-up-the-jerusalem-meeting-in-brazil
   work: 'Erasmo Braga, ''Following up the Jerusalem Meeting in Brazil'' (International Review of Missions, 1929)'
   author: international-review-of-missions
-  locus: 'OCR lines 17467-17717; add 12 to OCR line numbers'
+  locus: 'OCR lines 17467-17707; add 12 to OCR line numbers'
   atlas_ids:
   - protestantism-in-latin-america
   role: tradition
   confidence: assigned
   language: eng
   date: {start: 1929, end: 1929, source: "printed in the number of April 1929", formation_confidence: Documented}
-  note: 'A Brazilian Protestant leader''s own report; the notes on contributors call him Executive Secretary of the Committee on Co-operation in Brazil (OCR line 20901).'
-- row_id: international-review-of-missions_v18_1929--bishop-of-dornakal-living-forces-behind-mass-movements
-  work: 'The Bishop of Dornakal, ''Living Forces behind Mass Movements'' (International Review of Missions, 1929)'
+  note: 'His own report; the notes on contributors call him Executive Secretary of the Committee on Co-operation in Brazil (OCR line 20901).'
+- row_id: international-review-of-missions_v18_1929--azariah-living-forces-behind-mass-movements
+  work: 'V. S. Azariah, Bishop of Dornakal, ''Living Forces behind Mass Movements'' (International Review of Missions, 1929)'
   author: international-review-of-missions
-  locus: 'OCR lines 35978-36472; add 12 to OCR line numbers'
+  locus: 'OCR lines 35978-36467; add 12 to OCR line numbers'
   atlas_ids:
   - the-anglican-communion-twentieth-century
   role: tradition
   confidence: assigned
   language: eng
   date: {start: 1929, end: 1929, source: "printed in the number of October 1929", formation_confidence: Documented}
-  note: 'An Anglican bishop in India on the mass movements in his own diocese; the by-line gives his see and not his name.'
+  note: 'The by-line gives his see; the article is signed ''V. S. Azariah'' (OCR line 36467, where the OCR reads ''Azariar'') and the notes on contributors name ''The Rt Rev. Vedanayakam S. Azariah, Bishop of Dornakal'' (OCR line 43013).'
 - row_id: international-review-of-missions_v18_1929--kozaki-dr-kagawa-and-the-kingdom-of-god-movement
   work: 'Michio Kozaki, ''Dr Kagawa and the Kingdom of God Movement'' (International Review of Missions, 1929)'
   author: international-review-of-missions
-  locus: 'OCR lines 39616-40255; add 12 to OCR line numbers'
+  locus: 'OCR lines 39616-40237; add 12 to OCR line numbers'
   atlas_ids:
   - japanese-christianity-after-1906
   role: tradition
   confidence: assigned
   language: eng
   date: {start: 1929, end: 1929, source: "printed in the number of October 1929", formation_confidence: Documented}
-  note: 'A Japanese writer on Kagawa and the Kingdom of God Movement in Japan.'
+  note: 'His account of Kagawa and the Kingdom of God Movement in Japan.'

@@ -14,7 +14,7 @@ assignments:
 - row_id: christian-east_v7-no1-april-1926--bulgakoff-does-orthodoxy-possess-an-outward-authority-of-dogmatic-infallibility-1926
   work: 'Prof. Bulgakoff, ''Does Orthodoxy Possess an Outward Authority of Dogmatic Infallibility?'' (1926), in The Christian East'
   author: christian-east
-  locus: 'OCR lines 909-1866; add 12 to OCR line numbers'
+  locus: 'OCR lines 909-1855; add 12 to OCR line numbers'
   atlas_ids:
   - emigre-orthodoxy-and-the-paris-school
   role: tradition
@@ -36,11 +36,11 @@ assignments:
 - row_id: christian-east_v7-no1-april-1926--surma-speech-for-the-assyrian-appeal-1926
   work: 'Lady Surma, speech for the Assyrian appeal (1926), in The Christian East'
   author: christian-east
-  locus: 'OCR lines 3600-3670; add 12 to OCR line numbers'
+  locus: 'OCR lines 3602-3668; add 12 to OCR line numbers'
   atlas_ids:
   - the-sayfo-and-the-syriac-diaspora
   role: tradition
   confidence: assigned
   language: eng
   date: {start: 1926, end: 1926, source: "printed in the number of April, 1926", formation_confidence: Documented}
-  note: 'Her own speech as the journal prints it in English.'
+  note: 'Her own speech as the journal prints it in English; it then says she ''recited the Lord''s Prayer in Aramaic'' (OCR line 3670).'

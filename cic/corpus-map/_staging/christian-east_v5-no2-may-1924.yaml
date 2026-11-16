@@ -20,5 +20,5 @@ assignments:
   role: tradition
   confidence: assigned
   language: eng
-  date: {start: 1923, end: 1923, source: "it answers a letter dated September 12th, 1923 (OCR lines 520-521); the answer's own date was not found", formation_confidence: Documented}
-  note: 'His own answer to the synod that had replaced the Patriarch''s administration, in English; the print names no translator. Evdokim''s letter stands before it at OCR lines 520-594.'
+  date: {start: 1923, end: 1923, source: "it answers a letter dated September 12th, 1923 (OCR lines 520-521)", formation_confidence: Documented}
+  note: 'His own answer, in English; the print names no translator. Line 596 opens with the editors'' words ''The following answer was sent by the Metropolitan Antonios''. Evdokim''s letter stands before it at OCR lines 520-594.'

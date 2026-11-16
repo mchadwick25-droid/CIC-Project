@@ -37,8 +37,10 @@ belong to era 9 and were not fetched. All of the Proceedings wait on the ruling 
 ## Rights rule used
 
 A printed date of 1930 or earlier: the masthead or cover of each number of The Christian East, and the title
-leaf of each volume of the International Review. No file taken carries a permission notice, a copyright line or
-a license. Nothing was taken under the rule for American books of 1931-1963.
+leaf of each volume of the International Review. No file taken carries a host mark, a copyright line or a
+license. Four numbers of The Christian East thank someone for leave to reprint a piece (I.2 at host line 4871;
+VI.2 at 883-885; VI.3 at 4567-4569; X.4 at 2253-2258). Those lines are the journal's own of 1930 or earlier and
+do not bear on the date rule. Nothing was taken under the rule for American books of 1931-1963.
 
 Calls made here, which the coordinator or Mark may overrule:
 
@@ -73,7 +75,8 @@ Calls made here, which the coordinator or Mark may overrule:
 5. **A shelf row for a writer rests on who the writer is, where the print does not say.** Bulgakov, Kartashev
    and Fedotov are placed on the émigré Orthodoxy entry, and Zankov and Parenta on the Balkan entry, by this
    thread's knowledge of the writers; the print gives a name and, for Parenta, the paper (Glasnik). The headers
-   and row notes say only what the print says.
+   and row notes say only what the print says. Two row ids carry "metropolitan-of-thyatira" and
+   "metropolitan-germanos" as the print has them, and not his full style.
 6. **Documents of the patriarchates of Alexandria and Jerusalem, of the Old Catholics and of the Church of the
    East's Indian metropolitan get no shelf row.** No census entry holds them. They are named in the content
    notes with their lines.
@@ -111,8 +114,10 @@ publisher or editor is printed in the number as scanned. The first leaves of the
 were read on the page image; its title leaf agrees with the OCR. The other thirteen title-leaf years were taken
 from the OCR, which is clean there and agrees with the host's date.
 
-The spec that wrote the headers (`mkspec300.py`) checks 611 line anchors against the host text before it writes
-anything: every heading line a header cites and both ends of every shelf row's range. `intake.py` here is the
+The spec that wrote the headers (`mkspec300.py`) checks 621 line anchors against the host text before it writes
+anything: every heading line a header cites and both ends of every shelf row's range. An anchor shows that the
+words are on the line. It does not show that a range ends where its document ends, and the review found seven
+rows that ran on to the next heading; after it, both ends of every row were read in the text. `intake.py` here is the
 era 8 script with the fetch date changed.
 
 ## What the mappers got wrong or left open
@@ -134,7 +139,7 @@ era 8 script with the fetch date changed.
 1. **The Christian East prints Eastern documents in English.** A row says where the print names the translator
    or the paper it was taken from. Where it names none, the English may be the sender's own or the journal's;
    do not call it either.
-2. **Three texts are in another language**: the locum tenens's memorial to the League of Nations (December
+2. **Four texts are in another language**: the locum tenens's memorial to the League of Nations (December
    1921) and Scriban on Romania (May 1924) in French, with Batiffol's rejoinder (December 1924); the
    Archbishop of Utrecht's letter in Latin (January 1926). Meletios's letter of January 1922 is in Greek and
    English, and the Greek is garbled in the OCR.
@@ -145,12 +150,30 @@ era 8 script with the fetch date changed.
    dedication service), March 1925 ("Remember Russia") and December 1921 (the last book notice).
 5. **A leaf of 1921 stands in the number of December 1920**: a memorial card for Dorotheos of Brusa, who "died
    in London, Friday, March 17th, 1921".
-6. **The headings of Tikhon's letter of 1918 (June 1920) and its last lines are damaged in the OCR.** Check a
-   quotation against the page image.
+6. **Tikhon's letter of 1918 (June 1920) is broken by a plate leaf.** Junk lines stand at host lines 4073-4084;
+   the letter runs on at 4085 and is signed at 4106-4109. The OCR of its heading is damaged.
 7. **The survey of 1916 on Garrick Braid** (International Review, 1917) is a few lines and a footnote, drawn
-   from the Church Missionary Review; it is an outside account at second hand.
-8. **The Bishop of Dornakal's article of 1929 prints his see and not his name.**
+   from the Church Missionary Review; it is an outside account at second hand. Footnotes of the page before and
+   lines on Calabar and Kamerun stand inside the row's range.
+11. **The canonical documents of 1925-26 (September 1926) are from two sides.** Peter of Krutitz and Sergios
+    have a row each; the constitution of the Temporary Supreme Council, which Sergios writes against, has its
+    own row; a Soviet commissariat's notice stands between them and has none.
+12. **The Lausanne declaration (Autumn 1927) was not signed by the Metropolitan of Sofia**, the editors say,
+    since he had left; his own paper is in the same number.
+13. **Gregory VII's letter of 1923 (February 1924) is printed in Greek and in English**; the editors call the
+    English "the translation made by the Metropolitan himself".
+8. **The Bishop of Dornakal's article of 1929 gives his see in the by-line and his name at the end**: it is
+   signed V. S. Azariah (the OCR reads "Azariar"), and the notes on contributors name him in full.
 9. **In the International Review the OCR often reads a 3 as an 8 in a year** ("1918" for 1913, "1928" for
    1923). Read the year on the page image before dating anything from a footnote.
 10. **The "Quarterly Notes" of the International Missionary Council** are bound into each number from 1924.
     Those of October 1930 speak of plans for 1931; the volume itself is of 1930.
+
+## The review
+
+One independent review by Opus (`R1_review.md`): 22 findings, one blocking, nine substantial, twelve minor. It
+found the rights basis sound for all 45 files, no host mark or copyright line in any, and both holds right; it
+read the page images of all 31 numbers of The Christian East and of three volumes of the International Review,
+and every printed date agrees. The blocking finding was a shelf row that gave a rival council's constitution to
+Peter of Krutitz and Sergios. All 22 findings were accepted and corrected in the spec, and the batch was
+vendored again from it (`R1_changes.md`).

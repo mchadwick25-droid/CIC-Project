@@ -14,7 +14,7 @@ assignments:
 - row_id: christian-east_v10-no4-winter-1929--ecumenical-patriarch-eirenic-letter-to-the-archbishop-of-canterbury-1929
   work: 'The Ecumenical Patriarch, eirenic letter to the Archbishop of Canterbury (1929), in The Christian East'
   author: christian-east
-  locus: 'OCR lines 69-146; add 12 to OCR line numbers'
+  locus: 'OCR lines 73-146; add 12 to OCR line numbers'
   atlas_ids:
   - the-greek-church-and-the-ecumenical-patriarchate
   role: tradition
@@ -25,7 +25,7 @@ assignments:
 - row_id: christian-east_v10-no4-winter-1929--the-attitude-of-the-orthodox-church-to-the-faith-and-order-movement-1929
   work: '''The Attitude of the Orthodox Church to the Faith and Order Movement'', a speech at the Maloja meeting (1929), in The Christian East'
   author: christian-east
-  locus: 'OCR lines 1453-1730; add 12 to OCR line numbers'
+  locus: 'OCR lines 1453-1707; add 12 to OCR line numbers'
   atlas_ids:
   - the-greek-church-and-the-ecumenical-patriarchate
   role: tradition

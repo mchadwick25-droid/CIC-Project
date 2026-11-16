@@ -14,7 +14,7 @@ assignments:
 - row_id: christian-east_v6-no1-march-1925--alivisatos-administrative-reform-in-the-orthodox-church-of-greece-1925
   work: 'Hamilcar Alivisatos, ''Administrative Reform in the Orthodox Church of Greece'' (1925), in The Christian East'
   author: christian-east
-  locus: 'OCR lines 2831-3417; add 12 to OCR line numbers'
+  locus: 'OCR lines 2831-3365; add 12 to OCR line numbers'
   atlas_ids:
   - the-greek-church-and-the-ecumenical-patriarchate
   role: tradition

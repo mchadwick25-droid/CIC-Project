@@ -11,14 +11,14 @@ assignments:
   language: eng
   date: {start: 1928, end: 1928, source: "masthead: 'Spring, 1928'", formation_confidence: Documented}
   note: 'One number of the quarterly, by many writers. The Eastern documents it prints are in the journal''s English unless a row says otherwise.'
-- row_id: christian-east_v9-no1-spring-1928--germanos-of-thyatira-the-orthodox-delegation-at-lausanne-and-its-declaration-1928
+- row_id: christian-east_v9-no1-spring-1928--metropolitan-of-thyatira-the-orthodox-delegation-at-lausanne-and-its-declaration-1928
   work: 'The Metropolitan of Thyatira, ''The Orthodox Delegation at Lausanne and its Declaration'' (1928), in The Christian East'
   author: christian-east
-  locus: 'OCR lines 673-1319; add 12 to OCR line numbers'
+  locus: 'OCR lines 673-1288; add 12 to OCR line numbers'
   atlas_ids:
   - the-greek-church-and-the-ecumenical-patriarchate
   role: tradition
   confidence: assigned
   language: eng
   date: {start: 1928, end: 1928, source: "printed in the number of Spring, 1928", formation_confidence: Documented}
-  note: 'His own defense of the Orthodox declaration at Lausanne. The declaration itself is in the number of Autumn, 1927. The last lines before the next article are garbled.'
+  note: 'His own defense of the Orthodox declaration at Lausanne; the by-line gives his see and not his name.'

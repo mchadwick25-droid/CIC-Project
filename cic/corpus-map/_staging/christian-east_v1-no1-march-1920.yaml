@@ -14,7 +14,7 @@ assignments:
 - row_id: christian-east_v1-no1-march-1920--patriarch-tikhon-reply-to-the-archbishop-of-canterbury-1918
   work: 'Patriarch Tikhon, reply to the Archbishop of Canterbury (1918), in The Christian East'
   author: christian-east
-  locus: 'OCR lines 518-613; add 12 to OCR line numbers'
+  locus: 'OCR lines 523-613; add 12 to OCR line numbers'
   atlas_ids:
   - the-russian-orthodox-church-council-patriarchate-and-reunion
   - the-russian-new-martyrs-and-the-catacomb-church
@@ -22,4 +22,4 @@ assignments:
   confidence: assigned
   language: eng
   date: {start: 1918, end: 1918, source: "the letter is dated January 12/25, 1918 (OCR line 610)", formation_confidence: Documented}
-  note: 'His own letter, which Bell''s article says he sent in English. It stands inside Bell''s narrative.'
+  note: 'His own letter. Bell''s article says he sent it ''in English, written with his own hand'' (OCR lines 518-521).'

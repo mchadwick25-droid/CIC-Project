@@ -14,7 +14,7 @@ assignments:
 - row_id: international-review-of-missions_v15_1926--loram-the-separatist-church-movement
   work: 'C. T. Loram, ''The Separatist Church Movement'' (International Review of Missions, 1926)'
   author: international-review-of-missions
-  locus: 'OCR lines 32800-33193; add 12 to OCR line numbers'
+  locus: 'OCR lines 32800-33172; add 12 to OCR line numbers'
   atlas_ids:
   - african-initiated-churches-harrist-aladura-zioni
   role: context

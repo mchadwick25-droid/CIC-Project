@@ -14,11 +14,11 @@ assignments:
 - row_id: international-review-of-missions_v6_1917--survey-of-1916-the-prophet-movement-of-garrick-braid
   work: 'The survey of the year 1916 on the ''prophet'' Garrick Sokari Braid (International Review of Missions, 1917)'
   author: international-review-of-missions
-  locus: 'OCR lines 2835-2875; add 12 to OCR line numbers'
+  locus: 'OCR lines 2806-2875; add 12 to OCR line numbers'
   atlas_ids:
   - african-initiated-churches-harrist-aladura-zioni
   role: context
   confidence: assigned
   language: eng
   date: {start: 1916, end: 1917, source: "the survey of the year 1916, printed in the number of January 1917", formation_confidence: Documented}
-  note: 'A missionary journal''s short report, with a footnote that gives the movement ''as presented by the African Bishop Johnson'' and cites the Church Missionary Review of 1916. An outside account at second hand. Lines 2848-2863 between the text and the footnote are on Kamerun.'
+  note: 'A missionary journal''s short report, with a footnote that gives the movement ''as presented by the African Bishop Johnson'' and cites the Church Missionary Review of 1916. An outside account at second hand. The report begins at OCR line 2806 and runs on at 2835-2843; lines 2809-2832 are footnotes and a running head, and 2843-2863 are on Calabar and Kamerun.'

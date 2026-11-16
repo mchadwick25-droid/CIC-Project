@@ -3,21 +3,6 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: japanese-christianity-after-1906
 works:
-- row_id: international-review-of-missions_v18_1929--kozaki-dr-kagawa-and-the-kingdom-of-god-movement
-  work: Michio Kozaki, 'Dr Kagawa and the Kingdom of God Movement' (International Review of
-    Missions, 1929)
-  author: international-review-of-missions
-  locus: OCR lines 39616-40255; add 12 to OCR line numbers
-  role: tradition
-  confidence: assigned
-  language: eng
-  date:
-    start: 1929
-    end: 1929
-    source: printed in the number of October 1929
-    formation_confidence: Documented
-  note: A Japanese writer on Kagawa and the Kingdom of God Movement in Japan.
-  source_file: international-review-of-missions_v18_1929.txt
 - row_id: kagawa_before-the-dawn_fukumoto-satchell1925--kagawa-before-the-dawn-1925
   work: Kagawa, Before the Dawn (1925)
   author: kagawa

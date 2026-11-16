@@ -14,11 +14,11 @@ assignments:
 - row_id: international-review-of-missions_v16_1927--kriele-the-nias-revival
   work: 'Ed. Kriele, ''The Nias Revival: the Story of a Spiritual Awakening'' (International Review of Missions, 1927)'
   author: international-review-of-missions
-  locus: 'OCR lines 5441-6184; add 12 to OCR line numbers'
+  locus: 'OCR lines 5441-6170; add 12 to OCR line numbers'
   atlas_ids:
   - indonesian-christianity-the-independent-century
   role: context
   confidence: assigned
   language: eng
   date: {start: 1927, end: 1927, source: "printed in the number of January 1927", formation_confidence: Documented}
-  note: 'A missionary''s account of the awakening on Nias.'
+  note: 'An account of the awakening on Nias; the article is headed ''the story of a spiritual awakening''.'

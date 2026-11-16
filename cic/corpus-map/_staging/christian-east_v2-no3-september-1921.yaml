@@ -14,11 +14,11 @@ assignments:
 - row_id: christian-east_v2-no3-september-1921--comnenos-anglican-ordinations-1921
   work: 'P. Comnenos, ''Anglican Ordinations'' (1921), in The Christian East'
   author: christian-east
-  locus: 'OCR lines 149-860; add 12 to OCR line numbers'
+  locus: 'OCR lines 149-857; add 12 to OCR line numbers'
   atlas_ids:
   - the-greek-church-and-the-ecumenical-patriarchate
   role: tradition
   confidence: assigned
   language: eng
   date: {start: 1921, end: 1921, source: "printed in the number of September, 1921", formation_confidence: Documented}
-  note: 'A Greek professor''s monograph in translation. The introduction and the notes in brackets are J. A. Douglas''s, and he says the translation was checked by Miss E. Kephala (OCR lines 232-236).'
+  note: 'The main body of a monograph by ''Professor P. Comnenos'', in translation. The introduction (OCR lines 156-236) and the notes in brackets are J. A. Douglas''s; he says the last thirty-seven pages are not translated (OCR lines 193-195) and that the translation was checked by Miss E. Kephala (OCR lines 234-236).'

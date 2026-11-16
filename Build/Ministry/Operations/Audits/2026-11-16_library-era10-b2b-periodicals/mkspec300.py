@@ -71,7 +71,7 @@ NOCOVER_P = "Not printed in the number as scanned, which has no cover leaf"
 NOCOVER_C = "The Christian East (many writers); the number as scanned has no cover leaf and names no editor"
 
 
-def ce(sfx, vol, no, label, year, mast, pubnote, cover, ocr, parts, end, docs, extra_content=""):
+def ce(sfx, vol, no, label, year, mast, pubnote, cover, ocr, parts, end, docs, extra_content="", creator=None):
     """One number of The Christian East. mast=(line, pattern). parts=[(text, line, pattern)].
     end=(line, pattern, text). docs=[(slug, work, a, apat, b, bpat, atlas, role, lang, (y0,y1), datesrc, note)]."""
     ident = "per_christian-east_the-christian-east_" + sfx
@@ -89,7 +89,10 @@ def ce(sfx, vol, no, label, year, mast, pubnote, cover, ocr, parts, end, docs, e
     for slug, work, a, apat, b, bpat, atlas, role, lang, ys, dsrc, note in docs:
         chk(ident, a, apat); chk(ident, b, bpat)
         rows.append(row(slug, work + ", in The Christian East", "christian-east", "OCR lines %d-%d" % (a, b), atlas, role, "assigned", lang, doc(ys, dsrc), note))
-    add(ident, stem + ".txt", title, EDS if cover else NOCOVER_C, COVER if cover else NOCOVER_P,
+    if creator:
+        chk(ident, creator[1], creator[2])
+    eds = EDS.replace("Rev. Canon J. A. Douglas", "Rev. J. A. Douglas") if cover == "NOCANON" else EDS
+    add(ident, stem + ".txt", title, creator[0] if creator else (eds if cover else NOCOVER_C), COVER if cover else NOCOVER_P,
         "%d (%s)" % (year, pubnote), year, NR, "eng", ocr, content, "The Christian East", ANG,
         W + "The Christian East, the issues to 1930 not yet held.", rows)
 CLEAN = "Mostly clean English prose; running heads, page numbers and footnotes sit in the text, Greek is garbled, and plate leaves leave runs of junk lines."
@@ -98,16 +101,15 @@ OWN = "His own words in the journal's English; the print names no translator."
 ce("1920-03_1_1", 1, 1, "March, 1920", 1920, (1, r"MARCH, 1920"), "masthead: 'March, 1920', OCR line 1", False, CLEAN,
    [("the Archbishop of Canterbury's Foreword, dated Lambeth, February 2, 1920", 13, r"FOREWORD|ARCHBISHOP|NOW, as"),
     ("G. K. A. Bell, 'War-Time Correspondence between the Archbishop of Canterbury and the Church of Russia'", 70, r"WAR-TIME"),
-    ("Constantine Ageiev, on the Russian Orthodox Church and the Russian people under the Bolsheviks", 1439, r"RUSSIAN ORTHODOX"),
+    ("Constantine Ageiev, on the Russian Orthodox Church and the Russian people under the Bolsheviks", 1436, r"RUSSIAN ORTHODOX"),
     ("'The Doctrine of the Holy Images'", 2959, r"HOLY IMAGES"),
     ("'Prospects of Union between the Eastern and Anglican Churches', by the Editor", 3437, r"PROSPECTS OF UNION"),
-    ("'Review of Four Years'", 4456, r"REVIEW OF FOUR"),
-    ("'The Christians of Turkey'", 5081, r"CHRISTIANS OF TURKEY"),
+    ("'Review of Four Years', with a section on the Christians of Turkey at 5081", 4456, r"REVIEW OF FOUR"),
     ("the American bishops' message to the Archbishop of Canterbury", 5345, r"AMERICAN BISHOPS")],
    (5415, r"March 3, 1920", "The text ends at 5415 with cables taken from the Times of March 3, 1920; junk lines from a plate leaf follow."),
-   [("patriarch-tikhon-reply-to-the-archbishop-of-canterbury-1918", "Patriarch Tikhon, reply to the Archbishop of Canterbury (1918)", 518, r"following reply, in English", 613, r"Patriarch of All Russia",
+   [("patriarch-tikhon-reply-to-the-archbishop-of-canterbury-1918", "Patriarch Tikhon, reply to the Archbishop of Canterbury (1918)", 523, r"RANDALL CANTUAR", 613, r"Patriarch of All Russia",
      [RUS, NM], "tradition", "eng", (1918, 1918), "the letter is dated January 12/25, 1918 (OCR line 610)",
-     "His own letter, which Bell's article says he sent in English. It stands inside Bell's narrative.")])
+     "His own letter. Bell's article says he sent it 'in English, written with his own hand' (OCR lines 518-521).")])
 
 ce("1920-06_1_2", 1, 2, "June, 1920", 1920, (1, r"JuNE, 1920"), "masthead: 'June, 1920', OCR line 1", False, CLEAN,
    [("the Archbishop of Canterbury's letter to the locum tenens of the Ecumenical Patriarchate, March 4, 1920", 7, r"LETTER FROM ARCHBISHOP"),
@@ -119,19 +121,19 @@ ce("1920-06_1_2", 1, 2, "June, 1920", 1920, (1, r"JuNE, 1920"), "masthead: 'June
     ("'A Russian Layman on Reunion'", 2793, r"RUSSIAN LAYMAN"),
     ("Madame Romalo, 'A Few Words about the Church of Rumania'", 3584, r"FEW WORDS ABOUT"),
     ("Patriarch Tikhon, 'A Letter to the Russian Rulers, 1918'", 3867, r"RUSSIAN RULERS"),
-    ("'Notes on Recent Events'", 4082, r"NOTES ON RECENT"),
+    ("'Notes on Recent Events'", 4112, r"NOTES ON RECENT"),
     ("'Some Books on Armenia'", 4482, r"BOOKS ON ARMENIA"),
     ("a list of the Eastern Churches Committee", 5279, r"EASTERN CHURCHES COMMITTEE")],
    (5381, r"Fynes-Clinton", "The text ends at 5381 with the committee list; junk lines follow."),
-   [("ecumenical-patriarchate-encyclical-unto-all-the-churches-of-christ-1920", "The Ecumenical Patriarchate, encyclical 'Unto all the Churches of Christ wheresoever they be' (January 1920)", 155, r"UNTO.? ALL THE CHURCHES", 460, r"CHRYSOSTOM",
+   [("ecumenical-patriarchate-encyclical-unto-all-the-churches-of-christ-1920", "The Ecumenical Patriarchate, encyclical 'Unto all the Churches of Christ wheresoever they be' (January 1920)", 155, r"UNTO.? ALL THE CHURCHES", 462, r"Dardanelles",
      [GRK], "tradition", "eng", (1920, 1920), "dated 'in the month of January, in the year of Grace one thousand nine hundred and twenty' (OCR lines 440-443)",
-     "The synod's own encyclical, signed by the locum tenens Dorotheus and eleven metropolitans, in English; the print names no translator."),
-    ("patriarch-tikhon-a-letter-to-the-russian-rulers-1918", "Patriarch Tikhon, 'A Letter to the Russian Rulers, 1918'", 3867, r"RUSSIAN RULERS", 4072, r"Press, with the exception",
+     "The synod's own encyclical, signed by the locum tenens Dorotheus and the metropolitans of the synod (the OCR keeps nine names after his), in English; the print names no translator."),
+    ("patriarch-tikhon-a-letter-to-the-russian-rulers-1918", "Patriarch Tikhon, 'A Letter to the Russian Rulers, 1918'", 3867, r"RUSSIAN RULERS", 4109, r"Moscow and all Russia",
      [RUS, NM], "tradition", "eng", (1918, 1918), "the heading gives 1918",
-     OWN + " The OCR of the heading and of the last lines is damaged.")])
+     OWN + " Junk lines from a plate leaf break the text at OCR lines 4073-4084, and the OCR of the heading is damaged.")])
 
 ce("1920-12_1_4", 1, 4, "December, 1920", 1920, (1, r"DECEMBER, 1920"), "masthead: 'December, 1920', read on the page image, leaf n0, and at OCR line 1, where the volume number is lost", False, CLEAN,
-   [("'The Massacre of Nicaea': a covering letter from Archimandrite Dionysios E. Menas, October 8, 1920, and the Bishop of Nicaea's report", 7, r"MASSACRE"),
+   [("'The Massacre of Nicaea': a covering letter from the Archimandrite Dionissios E. Menas (so the page image, leaf n0; the OCR garbles the name), October 8, 1920, and the Bishop of Nicaea's report", 7, r"MASSACRE"),
     ("J. A. Douglas, 'Nicaea and its Church'", 508, r"ITS CHURCH"),
     ("R. M. French, 'Our Part in the Future of Yougoslavia'", 856, r"OUR PART IN THE FUTURE"),
     ("Harold Buxton, 'Armenia'", 1512, r"ARMENIA"),
@@ -141,7 +143,7 @@ ce("1920-12_1_4", 1, 4, "December, 1920", 1920, (1, r"DECEMBER, 1920"), "masthea
    (3770, r"inevitable", "The book notices end at 3770. A memorial leaf for Dorotheos of Brusa, who 'died in London, Friday, March 17th, 1921', stands at 3920-3933, later than the number's date."),
    [("basil-of-nicaea-report-on-the-massacre-of-nicaea-1920", "Basil, Bishop of Nicaea, report to the locum tenens Dorotheos on the destruction at Nicaea (1920)", 39, r"DOROTHEOS, LOCUM TENENS", 505, r"25th, 1920",
      [GRK], "tradition", "eng", (1920, 1920), "signed at Kios, September 25th, 1920 (OCR lines 500-505)",
-     "A bishop's own report to his synod, in English; the print names no translator.")])
+     "A bishop's own report, addressed to the locum tenens, in English; the print names no translator.")])
 
 ce("1921-04_2_1", 2, 1, "April, 1921", 1921, (1, r"APRIL, 1921"), "masthead: 'April, 1921', OCR line 1", False, CLEAN,
    [("Editorial, opening with a message of Dorotheos, locum tenens, to the English clergy", 7, r"EDITORIAL"),
@@ -169,25 +171,26 @@ ce("1921-09_2_3", 2, 3, "September, 1921", 1921, (1, r"SEPTEMBER, 1921"), "masth
     ("Emily J. Robinson, 'The Position in Armenia'", 1157, r"POSITION IN ARMENIA"),
     ("'Hymns of the Greek Church', translated by G. R. Woodward", 1305, r"HYMNS"),
     ("'A Short History of the Serbian Church'", 2955, r"A SHORT .{0,10}OF THE SERBIAN"),
-    ("a summary of the report of the commission on the dissensions in the Orthodox Patriarchate of Jerusalem", 3314, r"SUMMARY|REPORT OF THE COMMISSION|DISSENSIONS"),
+    ("a summary of the report of the commission on the dissensions in the Orthodox Patriarchate of Jerusalem", 3316, r"SUMMARY|REPORT OF THE COMMISSION|DISSENSIONS"),
     ("'The Czecho-Slovak Church'", 4007, r"CZECHO"),
     ("'Constantinople Letter'", 4114, r"STANTINOPLE LETTER"),
     ("'Jerusalem Letter'", 4177, r"JERUSALEM LETTER"),
     ("'A Chronicle and Causerie'", 4281, r"CHRONICLE")],
    (4380, r"spiritual fathers", "The text ends at 4380."),
-   [("comnenos-anglican-ordinations-1921", "P. Comnenos, 'Anglican Ordinations' (1921)", 149, r"ANGLICAN ORDINATIONS", 860, r"KING PETER",
+   [("comnenos-anglican-ordinations-1921", "P. Comnenos, 'Anglican Ordinations' (1921)", 149, r"ANGLICAN ORDINATIONS", 857, r"heterodox",
      [GRK], "tradition", "eng", (1921, 1921), "printed in the number of September, 1921",
-     "A Greek professor's monograph in translation. The introduction and the notes in brackets are J. A. Douglas's, and he says the translation was checked by Miss E. Kephala (OCR lines 232-236).")])
+     "The main body of a monograph by 'Professor P. Comnenos', in translation. The introduction (OCR lines 156-236) and the notes in brackets are J. A. Douglas's; he says the last thirty-seven pages are not translated (OCR lines 193-195) and that the translation was checked by Miss E. Kephala (OCR lines 234-236).")],
+   creator=("The Christian East (many writers); the number as scanned has no cover leaf; the Chronicle calls the Rev. H. J. Fynes-Clinton 'one of our editors' (OCR line 4285)", 4285, r"one of our editors"))
 
 ce("1921-12_2_4", 2, 4, "December, 1921", 1921, (1, r"DECEMBER, 192"), "masthead: 'December, 1921', read on the page image, leaf n0; the OCR reads '192T' at line 1", False, CLEAN + " The hymn pages are heavily garbled; the French is clean apart from accents.",
    [("'St. George of the Phanar'", 7, r"GEORGE OF THE PHANAR"),
     ("H. J. Fynes-Clinton, 'A Visit to Serbia'", 32, r"VISIT.? TO SERBIA"),
-    ("'The Gleaning of Asia Minor'", 855, r"GLEANING"),
+    ("'The Gleaning of Asia Minor'", 818, r"GLEANING"),
     ("'Meditations on Cilicia and the Near East', by an Armenian ecclesiastic", 959, r"MEDITATIONS"),
     ("J. A. Douglas, 'Relations with Mar Ignatios'", 1091, r"MAR IGNATIOS"),
     ("'An Archbishop in a Cellar', translated from Sevodnia", 1792, r"ARCHBISHOP IN A CELLAR"),
     ("'A Chronicle and Causerie'", 1902, r"CHRONICLE"),
-    ("hymns of the Greek church, January to March, translated by G. R. Woodward", 2413, r"JANUARY"),
+    ("hymns of the Greek church, January to March, translated by G. R. Woodward", 2412, r"JANUARY|HYMNS"),
     ("Bishop Gorazd, 'The Czecho-Slovak Church and the Serbs', translated from the Belgrade Politika by R. M. French", 3560, r"CZECHO"),
     ("'The Church Waxen Candle'", 3748, r"WAXEN CANDLE"),
     ("'Memorial to the League of Nations', by the Metropolitan of Caesarea, in French", 3850, r"MEMORIAL TO THE LEAGUE"),
@@ -202,20 +205,20 @@ ce("1922-03_3_1", 3, 1, "March, 1922", 1922, (1, r"Marc., 1922"), "masthead: 'Ma
    [("'Letter from the Oecumenical Patriarch' Meletios to the editors, in Greek and in English, dated London, January 21, 1922", 7, r"LETTER FROM THE"),
     ("'Report of the Delegation of the Patriarchate sent to the Conference at Lambeth, 1920'", 89, r"REPORT OF THE DELEGATION|CONFERENCE AT LAMBETH"),
     ("Professor Nicholas Gloubokovsky, 'Eastern Orthodoxy and Anglicanism'", 1483, r"EASTERN ORTHODOXY AND"),
-    ("hymns of the Greek church, April to June, translated by G. R. Woodward", 2154, r"APRIL"),
+    ("hymns of the Greek church, April to June, translated by G. R. Woodward", 2153, r"APRIL|HYMNS"),
     ("'Jerusalem Letter'", 3448, r"JERUSALEM LETTER"),
     ("a memorandum on the sale of Orthodox patriarchal properties", 3541, r"MEMORANDUM"),
     ("J. A. Douglas, 'Relations with Mar Ignatios'", 3658, r"MAR IGNATIOS"),
     ("'A Chronicle and Causerie'", 3988, r"CHRONICLE"),
     ("a list of the Constantinople delegation to the Lambeth Conference", 4314, r"CONSTANTINOPLE DELEGATION")],
    (4318, r"Metropolitan of Demotica", "The list, garbled, ends the text at about 4327."),
-   [("ecumenical-patriarchate-report-of-the-delegation-to-the-lambeth-conference-1920", "Report of the Delegation of the Ecumenical Patriarchate sent to the Lambeth Conference, 1920", 89, r"REPORT OF THE DELEGATION|CONFERENCE AT LAMBETH", 1482, r"EASTERN ORTHODOXY AND",
+   [("ecumenical-patriarchate-report-of-the-delegation-to-the-lambeth-conference-1920", "Report of the Delegation of the Ecumenical Patriarchate sent to the Lambeth Conference, 1920", 89, r"REPORT OF THE DELEGATION|CONFERENCE AT LAMBETH", 1467, r"blessing to the Christian world",
      [GRK], "tradition", "eng", (1920, 1922), "the report is of the delegation to the Lambeth Conference of 1920 and is printed in the number of March, 1922",
      "The delegation's own report to its synod, in an English the Chronicle says 'was officially forwarded to us from the Phanar' (OCR lines 4201-4202).")])
 
 ce("1922-12_3_4", 3, 4, "December, 1922", 1922, (1, r"DECEMBER, 1922"), "masthead: 'December, 1922', read on the page image, leaf n0, and at OCR line 1, where the volume number is lost", False, CLEAN,
    [("Editorial, 'The Work of Lausanne'", 7, r"EDITORIAL|WORK OF LAUSANNE"),
-    ("'Constantinople and Anglican Orders', the Archbishop of Canterbury's reply to the Ecumenical Patriarch, September 15, 1922, with a Greek version", 379, r"CONSTANTINOPLE AND ANGLICAN"),
+    ("'Constantinople and Anglican Orders', the Archbishop of Canterbury's reply to the Ecumenical Patriarch, September 15, 1922, with a Greek version", 381, r"CONSTANTINOPLE AND ANGLICAN"),
     ("'The Smyrna Holocaust'", 485, r"SMYRNA"),
     ("Professor N. Glubokovsky, 'The Church in the New European States'", 879, r"NEW EUROPEAN STATES|CHURCH IN THE NEW"),
     ("a memorandum of twelve Orthodox bishops of the Russian Patriarchate on an autocephalous church in the Warsaw metropoly", 1056, r"MEMORANDUM|POLAND"),
@@ -227,9 +230,10 @@ ce("1922-12_3_4", 3, 4, "December, 1922", 1922, (1, r"DECEMBER, 1922"), "masthea
     ("'The Serb Patriarchate', translated from Ekklesiastike Aletheia", 3072, r"SERB PATRIARCHATE"),
     ("'A Chronicle and Causerie'", 3143, r"CHRONICLE")],
    (3439, r"Theological", "The Chronicle ends at 3439; junk lines follow."),
-   [("patriarch-dimitri-of-serbia-open-letter-1922", "Dimitri, Patriarch of Serbia, open letter (1922)", 2039, r"OPEN LETTER", 2156, r"PATRIARCH OF SERBIA",
-     [BALK], "tradition", "eng", (1922, 1922), "printed in the number of December, 1922; the letter's own date was not found",
-     "The Patriarch's own appeal, in an English 'made from Glasnik by the Rev. R. M. French' (OCR line 2043).")])
+   [("patriarch-dimitri-of-serbia-open-letter-1922", "Dimitri, Patriarch of Serbia, open letter (1922)", 2047, r"Appeal of His Holiness", 2156, r"PATRIARCH OF SERBIA",
+     [BALK], "tradition", "eng", (1922, 1922), "printed in the number of December, 1922",
+     "The Patriarch's own appeal, in an English the editors say was made from Glasnik by the Rev. R. M. French (OCR lines 2043-2044).")],
+   creator=("The Christian East (many writers); the number as scanned has no cover leaf; a notice on the editorship names the Rev. J. A. Douglas as continuing editor (OCR lines 2159-2172)", 2163, r"J\. A\. Douglas"))
 CV = "The cover leaf's OCR at the head of the file is garbled. "
 
 ce("1924-02_5_1", 5, 1, "February, 1924", 1924, (1, r"FEBRUARY, 1924"), "masthead: 'February, 1924', OCR line 1", False, CLEAN,
@@ -244,12 +248,12 @@ ce("1924-02_5_1", 5, 1, "February, 1924", 1924, (1, r"FEBRUARY, 1924"), "masthea
     ("'The Syrian Church of Malabar'", 3363, r"SYRIAN CHURCH OF MALABAR"),
     ("'Athens Letter'", 3610, r"ATHENS LETTER")],
    (3610, r"ATHENS LETTER", "The Athens Letter breaks off near 3690, and plate-leaf junk follows; the scan lacks the end of the number."),
-   [("gregory-vii-of-constantinople-letter-to-the-archbishop-of-canterbury-1923", "Gregory VII, Patriarch of Constantinople, letter to the Archbishop of Canterbury (1923)", 559, r"FROM THE PATRIARCH OF CONSTANTINOPLE", 603, r"GREGORIUS CONSTANTINOPOLITANUS",
+   [("gregory-vii-of-constantinople-letter-to-the-archbishop-of-canterbury-1923", "Gregory VII, Patriarch of Constantinople, letter to the Archbishop of Canterbury (1923), in English", 559, r"FROM THE PATRIARCH OF CONSTANTINOPLE", 603, r"GREGORIUS CONSTANTINOPOLITANUS",
      [GRK], "tradition", "eng", (1923, 1923), "signed and dated December 21, 1923 (OCR line 603)",
-     "The Patriarch's own letter in English; the print names no translator."),
-    ("anthony-of-kiev-the-orthodox-church-and-the-papacy-1923", "Anthony, Metropolitan of Kiev, 'The Orthodox Church and the Papacy' (1923)", 1757, r"ORTHODOX CHURCH AND THE PAPACY", 1831, r"PRESENT POSITION",
-     [EMI], "tradition", "eng", (1923, 1923), "the editors' note: translated from his synod's publication of 15/28 October (OCR lines 1770-1771), in the number of February, 1924",
-     "His own summary of a lecture given in Belgrade, in the journal's translation; a summary, not the lecture.")])
+     "The English of the Patriarch's letter, which the editors call 'the translation made by the Metropolitan himself' (OCR lines 476-477). The Greek original stands before it at OCR lines 481-558, garbled in the OCR."),
+    ("anthony-of-kiev-the-orthodox-church-and-the-papacy-1923", "Anthony, Metropolitan of Kiev, 'The Orthodox Church and the Papacy' (1923)", 1774, r"Church is one and has never been divided", 1829, r"ecclesiastical life",
+     [EMI], "tradition", "eng", (1923, 1923), "the editors' note: translated from his synod's publication of 15/28 October (OCR lines 1770-1771); printed in the number of February, 1924",
+     "His own summary of a lecture given in Belgrade, in the journal's translation; a summary, not the lecture. The heading is at OCR line 1757 and the editors' note at 1763-1771.")])
 
 ce("1924-05_5_2", 5, 2, "May, 1924", 1924, (1, r"May, 1924"), "masthead: 'May, 1924', OCR line 1", False, CLEAN,
    [("'Chronicle and Causerie'", 7, r"CHRONICLE"),
@@ -266,10 +270,11 @@ ce("1924-05_5_2", 5, 2, "May, 1924", 1924, (1, r"May, 1924"), "masthead: 'May, 1
     ("'A Dedication Service'", 3857, r"DEDICATION SERVICE")],
    (3857, r"DEDICATION SERVICE", "The report of the dedication service seems to break off before the junk lines that end the file."),
    [("anthony-of-kiev-answer-to-evdokim-1923", "Anthony, Metropolitan of Kiev, answer to the Metropolitan Evdokim (1923)", 596, r"following answer was sent", 678, r"Metropolitan of Kiev",
-     [EMI], "tradition", "eng", (1923, 1923), "it answers a letter dated September 12th, 1923 (OCR lines 520-521); the answer's own date was not found",
-     "His own answer to the synod that had replaced the Patriarch's administration, in English; the print names no translator. Evdokim's letter stands before it at OCR lines 520-594.")])
+     [EMI], "tradition", "eng", (1923, 1923), "it answers a letter dated September 12th, 1923 (OCR lines 520-521)",
+     "His own answer, in English; the print names no translator. Line 596 opens with the editors' words 'The following answer was sent by the Metropolitan Antonios'. Evdokim's letter stands before it at OCR lines 520-594.")],
+   creator=("The Christian East (many writers); the number as scanned has no cover leaf; the Chronicle speaks of 'one of our editors, the Rev. J. A. Douglas' (OCR line 1094)", 1094, r"one of our editors"))
 
-ce("1924-09_5_3", 5, 3, "September, 1924", 1924, (55, r"SEPTEMBER, 1924"), "cover: 'September, 1924', read on the page image, leaf n0; masthead at OCR line 55", True, CV + CLEAN,
+ce("1924-09_5_3", 5, 3, "September, 1924", 1924, (55, r"SEPTEMBER, 1924"), "cover: 'September, 1924', read on the page image, leaf n0; masthead at OCR line 55", "NOCANON", CV + CLEAN,
    [("G. Napier Whittingham, 'The Anglo-Catholic Pilgrimage to Palestine', with addresses of welcome from Eastern prelates and a reply of Photios, Patriarch of Alexandria, dated 10th May, 1924 (2437-2497)", 61, r"ANGLO-CATHOLIC PILGRIMAGE"),
     ("Professor Nicholas Glubokovsky, 'The Modern Papacy and the Reunion of the Orthodox East with the Roman Catholic West'", 2518, r"MODERN PAPACY"),
     ("W. S. Hunt, on relations between the Anglican and the Syrian churches", 3150, r"RELATIONS BETWEEN THE ANGLICAN"),
@@ -294,9 +299,10 @@ ce("1925-03_6_1", 6, 1, "March, 1925", 1925, (55, r"MARCH, 1925"), "cover: 'Marc
     ("John A. Douglas, 'The Oecumenical Patriarchate'", 244, r"PATRIARCHATE"),
     ("'Chronicle and Causerie'", 2340, r"CHRONICLE"),
     ("Professor Hamilcar Alivisatos, 'Administrative Reform in the Orthodox Church of Greece'", 2831, r"ADMINISTRATIVE REFORM"),
+    ("a continuation of the Chronicle", 3368, r"CHRONICLE AND CAUSERIE"),
     ("'Remember Russia'", 3418, r"REMEMBER RUSSIA")],
    (3469, r"dumbly patient", "'Remember Russia' stops at 3469 and seems cut off; advertisements follow."),
-   [("alivisatos-administrative-reform-in-the-orthodox-church-of-greece-1925", "Hamilcar Alivisatos, 'Administrative Reform in the Orthodox Church of Greece' (1925)", 2831, r"ADMINISTRATIVE REFORM", 3417, r"REMEMBER RUSSIA",
+   [("alivisatos-administrative-reform-in-the-orthodox-church-of-greece-1925", "Hamilcar Alivisatos, 'Administrative Reform in the Orthodox Church of Greece' (1925)", 2831, r"ADMINISTRATIVE REFORM", 3365, r"its own application",
      [GRK], "tradition", "eng", (1925, 1925), "printed in the number of March, 1925",
      "An Athens professor's account of the Greek church laws of 1923, with summaries of the laws.")])
 
@@ -322,11 +328,11 @@ ce("1925-09_6_3", 6, 3, "September, 1925", 1925, (86, r"SEPTEMBER, 1925"), "cove
     ("'The Russian White Cross Society and Mother Eugenia'", 4967, r"WHITE CROSS"),
     ("'Chronicle and Causerie'", 5654, r"CHRONICLE")],
    (6159, r"note with satisfaction", "The Chronicle stops at 6159; advertisements follow from 6184."),
-   [("basil-iii-of-constantinople-eirenikon-to-the-archbishop-of-canterbury-1925", "Basil III, Patriarch of Constantinople, eirenikon to the Archbishop of Canterbury (1925)", 186, r"EIRENIKON", 290, r"July, 1925",
+   [("basil-iii-of-constantinople-eirenikon-to-the-archbishop-of-canterbury-1925", "Basil III, Patriarch of Constantinople, eirenikon to the Archbishop of Canterbury (1925)", 196, r"Most Reverend Archbishop of Canterbury", 290, r"July, 1925",
      [GRK], "tradition", "eng", (1925, 1925), "signed 'Basil of Constantinople' and dated 22nd July, 1925 (OCR lines 289-290)",
-     "The Patriarch's own letter in English; the print names no translator.")])
+     "The Patriarch's own letter in English; the print names no translator. The heading is at OCR line 186 and the editors' words 'We append the Eirenikon' at 190-194. The Chronicle of the same number names him Basil III (OCR line 5662).")])
 
-ce("1926-01_6_4", 6, 4, "January, 1926", 1926, (73, r"JANUARY, 1926"), "cover: 'January, 1926', read on the page image, leaf n0; masthead at OCR line 73", True, CV + CLEAN + " The Latin is clean.",
+ce("1926-01_6_4", 6, 4, "January, 1926", 1926, (73, r"JANUARY, 1926"), "cover: 'January, 1926', read on the page image, leaf n0, which adds under the date 'This is the concluding part for the year 1925 (see page 190)'; masthead at OCR line 73", True, CV + CLEAN + " The Latin is clean.",
    [("on the anniversary of the Anglican and Eastern Churches Association", 79, r"ANNIVERSARY"),
     ("'The Princess's Speech', the speech of Lady Surma d'Bait Mar Shimun in Syriac as interpreted by Fr. Heazell", 233, r"PRINCESS"),
     ("a sermon on the Council of Nicaea", 351, r"COUNCIL OF NIC"),
@@ -334,7 +340,7 @@ ce("1926-01_6_4", 6, 4, "January, 1926", 1926, (73, r"JANUARY, 1926"), "cover: '
     ("H. Harold Buxton, 'The Armenian Church'", 921, r"ARMENIAN CHURCH"),
     ("E. Kephala, 'The Saint of Corfu'", 1318, r"SAINT OF CORFU"),
     ("C. B. Moss, on the Old Catholic churches", 1688, r"OLD CATHOLIC"),
-    ("'Old Catholic Documents', with the Archbishop of Utrecht's Latin letter to the Archbishop of Canterbury, 1925", 1802, r"OLD CATHOLIC DOCUMENTS"),
+    ("'Old Catholic Documents', with the Archbishop of Utrecht's Latin letter to the Archbishop of Canterbury, 1925", 1803, r"OLD CATHOLIC DOCUMENTS"),
     ("in the Chronicle, a rescript of the Episcopal Synod of the Russian Church outside of Russia to Athelstan Riley, 11/24th October, 1925", 2311, r"RESCRIPT|Synod"),
     ("'Our Bookshelf'", 2462, r"OUR BOOKSHELF"),
     ("'The Alexandrian Election'", 3009, r"ALEXANDRIAN ELECTION")],
@@ -342,9 +348,9 @@ ce("1926-01_6_4", 6, 4, "January, 1926", 1926, (73, r"JANUARY, 1926"), "cover: '
    [("russian-synod-abroad-rescript-to-athelstan-riley-1925", "The Episcopal Synod of the Russian Church outside of Russia, rescript to Athelstan Riley (1925)", 2311, r"RESCRIPT|Synod", 2348, r"MAKHAROBLIDZE",
      [EMI], "tradition", "eng", (1925, 1925), "dated 'Serbia, 11/24th October, 1925. No. 3304.' (OCR line 2340)",
      "The synod's own rescript over the Metropolitan Anthony's name, in English; the print names no translator."),
-    ("surma-speech-at-the-anniversary-1925", "Lady Surma d'Bait Mar Shimun, speech at the Association's anniversary (1925)", 233, r"PRINCESS", 350, r"COUNCIL OF NIC",
+    ("surma-speech-at-the-anniversary-1925", "Lady Surma d'Bait Mar Shimun, speech at the Association's anniversary (1925)", 240, r"We do not forget", 339, r"defend the right",
      [SAYFO], "tradition", "eng", (1925, 1926), "the anniversary is reported in the number of January, 1926",
-     "Her speech as the journal prints it in English; it says she spoke in Syriac and was interpreted by Fr. Heazell (OCR lines 234-235).")])
+     "Her speech as the journal prints it in English; it says she spoke in Syriac and was interpreted by Fr. Heazell (OCR lines 236-237).")])
 ce("1926-04_7_1", 7, 1, "April, 1926", 1926, (277, r"APRIL, 1926"), "cover: 'April, 1926', read on the page image, leaf n0; masthead at OCR line 277", True, CV + CLEAN,
    [("a contents leaf for the whole of volume VII", 106, r"VOLUME VII|No\. 1|CONTENTS"),
     ("on the use of ikons and their making", 283, r"IKONS"),
@@ -352,22 +358,22 @@ ce("1926-04_7_1", 7, 1, "April, 1926", 1926, (277, r"APRIL, 1926"), "cover: 'Apr
     ("'A Cruise in Greek Waters'", 1867, r"CRUISE IN GREEK"),
     ("'Chronicle and Causerie', with two letters of the Metropolitan Evlogios dated Paris, 2/15 January, 1926 (2868-2993)", 2321, r"CHRONICLE"),
     ("the third Anglo-Catholic pilgrimage", 3035, r"ANGLO-CATHOLIC PILGRIMAGE"),
-    ("'The Assyrian Appeal', with a speech of Lady Surma (3600-3670)", 3369, r"ASSYRIAN APPEAL")],
+    ("'The Assyrian Appeal', with a speech of Lady Surma (3602-3668)", 3369, r"ASSYRIAN APPEAL")],
    (3670, r"Lord.s Prayer in Aramaic", "The text ends at about 3719; scraps of an advertisement leaf follow."),
-   [("bulgakoff-does-orthodoxy-possess-an-outward-authority-of-dogmatic-infallibility-1926", "Prof. Bulgakoff, 'Does Orthodoxy Possess an Outward Authority of Dogmatic Infallibility?' (1926)", 909, r"DOES ORTHODOXY POSSESS", 1866, r"CRUISE IN GREEK", 
+   [("bulgakoff-does-orthodoxy-possess-an-outward-authority-of-dogmatic-infallibility-1926", "Prof. Bulgakoff, 'Does Orthodoxy Possess an Outward Authority of Dogmatic Infallibility?' (1926)", 909, r"DOES ORTHODOXY POSSESS", 1855, r"one with the Church", 
      [EMI], "tradition", "eng", (1926, 1926), "printed in the number of April, 1926",
      "His article 'translated from the Russian by the Rev. R. M. French' (OCR line 912)."),
     ("evlogios-two-letters-1926", "Evlogios, Metropolitan, two letters from Paris (1926)", 2868, r"Rue Daru", 2993, r"METROPOLITAN",
      [EMI], "tradition", "eng", (1926, 1926), "each is dated Paris, 2/15 January, 1926 (OCR lines 2869 and 2923)",
      "Two letters of thanks, numbered 25 and 27, printed in the Chronicle in English; the print names no translator."),
-    ("surma-speech-for-the-assyrian-appeal-1926", "Lady Surma, speech for the Assyrian appeal (1926)", 3600, r"Lady Surma", 3670, r"Lord.s Prayer in Aramaic",
+    ("surma-speech-for-the-assyrian-appeal-1926", "Lady Surma, speech for the Assyrian appeal (1926)", 3602, r"I have listened", 3668, r"have used",
      [SAYFO], "tradition", "eng", (1926, 1926), "printed in the number of April, 1926",
-     "Her own speech as the journal prints it in English.")])
+     "Her own speech as the journal prints it in English; it then says she 'recited the Lord's Prayer in Aramaic' (OCR line 3670).")])
 
 ce("1926-06_7_2", 7, 2, "June, 1926", 1926, (318, r"JUNE, 1926"), "cover: 'June, 1926', read on the page image, leaf n0; masthead at OCR line 318", True, CV + CLEAN,
    [("the Bishop of Gloucester, on the Serbian church", 324, r"SERBIA"),
     ("'Chronicle and Causerie'", 754, r"CHRONICLE"),
-    ("the official account of the third Anglo-Catholic pilgrimage, with replies of Archbishop Anastassy (1596-1679), Patriarch Damianos of Jerusalem (1967-2008) and Metropolitan Cleopas of Nazareth (2368-2450) in English", 813, r"PILGRIMAGE"),
+    ("the official account of the third Anglo-Catholic pilgrimage, with replies of Archbishop Anastassy (1596-1679), Patriarch Damianos of Jerusalem (1967-2008) and Metropolitan Cleopas of Nazareth (2368-2450); the account says Anastassy's Russian and Cleopas's Greek were put into English by a sub-deacon and by one of his priests", 813, r"PILGRIMAGE"),
     ("J. A. Douglas, 'Reservation in the Eastern Orthodox Church'", 3107, r"RESERVATION")],
    (3913, r"Moscow|Ispovedanie", "The text ends at 3913; scraps follow."),
    [])
@@ -376,14 +382,23 @@ ce("1926-09_7_3", 7, 3, "September, 1926", 1926, (156, r"SEPTEMBER, 1926"), "cov
    [("'The Patriarch Meletios' Enthronistic to the Archbishop of Canterbury', a translation, dated Alexandria, 16/29 June, 1926, with the Archbishop's reply", 392, r"ENTHRONISTIC"),
     ("on Bishop Bury's tour", 552, r"BURY|TOUR"),
     ("J. A. Douglas, 'The Old Paths of Nicaea'", 1003, r"OLD PATHS|NIC"),
-    ("'The Canonical Position in Russia', documents of the locum tenens Peter of Krutitz and the Metropolitan Sergios, December 1925 and January 1926", 1994, r"CANONICAL POSITION"),
+    ("'The Canonical Position in Russia': an act of the locum tenens Peter of Krutitz (2053-2078), two letters of the Metropolitan Sergios (2081-2104, 2254-2336), a notice of the Commissariat for Internal Affairs (2124-2149) and the constitution of the Temporary Supreme Council, signed by Gregorios of Ekaterinburg and nine other bishops (2152-2242)", 1994, r"CANONICAL POSITION"),
     ("'Chronicle and Causerie'", 2339, r"CHRONICLE"),
     ("Sonia E. Howe, 'The Great Schism in the Russian Church'", 2839, r"GREAT SCHISM"),
     ("'Our Bookshelf'", 3481, r"BOOKSHELF")],
    (3885, r"serve us to go on", "The text ends at 3885; advertisements follow."),
-   [("peter-of-krutitsy-and-sergius-documents-on-the-canonical-position-in-russia-1925-26", "Peter of Krutitz, locum tenens, and Sergios, Metropolitan of Novgorod, documents on the canonical position in Russia (1925-26)", 2053, r"PETER OF KRUTITZ", 2332, r"Jan., 1926",
-     [RUS, NM], "tradition", "eng", (1925, 1926), "the documents are dated from 23 Nov./6 Dec., 1925 to 1/14 Jan., 1926 (OCR lines 2053-2332)",
-     "Their own letters and a draft constitution, in English with no translator named. A notice of a Soviet state body stands among them at about OCR lines 2124-2148.")])
+   [("peter-of-krutitz-act-naming-his-deputies-1925", "Peter of Krutitz, locum tenens, act naming those who are to act for him (1925)", 2053, r"PETER OF KRUTITZ", 2078, r"Moscow",
+     [RUS, NM], "tradition", "eng", (1925, 1925), "dated 23 Nov./6 Dec., 1925 (OCR line 2077)",
+     "His own act, in English with no translator named."),
+    ("sergios-of-novgorod-letter-taking-up-the-locum-tenency-1925", "Sergios, Metropolitan of Novgorod, letter taking up the duties of locum tenens (1925)", 2081, r"December, 1925", 2104, r"Locum-Tenens",
+     [RUS, NM], "tradition", "eng", (1925, 1925), "dated 1/14 December, 1925 (OCR line 2081)",
+     "His own letter, in English with no translator named."),
+    ("sergios-of-novgorod-letter-to-gregory-of-ekaterinburg-1926", "Sergios, Metropolitan of Novgorod, letter to Archbishop Gregory of Ekaterinburg (1926)", 2254, r"ACTING LocuM-TENENS", 2336, r"Ekaterinburg",
+     [RUS, NM], "tradition", "eng", (1926, 1926), "dated 1/14 Jan., 1926 (OCR line 2332)",
+     "His own letter against the Temporary Supreme Council, in English with no translator named."),
+    ("temporary-supreme-church-council-constitution-1926", "Constitution of the Temporary Supreme Council, signed by Gregorios of Ekaterinburg and nine other bishops", 2152, r"CONSTITUTION OF THE TEMPORARY", 2242, r"Tchantzev|Bishop",
+     [RUS], "tradition", "eng", (1925, 1926), "it stands between documents dated 2 Jan., 1926 (OCR line 2128) and 1/14 Jan., 1926 (OCR line 2332)",
+     "The constitution of the council that Sergios's letter of January 1926 writes against; the bishops who signed it are not those of the rows for Peter and Sergios.")])
 
 ce("1926-12_7_4", 7, 4, "December, 1926", 1926, (6, r"DECEMBER. 1926"), "masthead: 'December, 1926', OCR line 6", False, CLEAN,
    [("'Orthodox Gift to St. David's Cathedral'", 12, r"ORTHODOX GIFT"),
@@ -393,9 +408,9 @@ ce("1926-12_7_4", 7, 4, "December, 1926", 1926, (6, r"DECEMBER. 1926"), "masthea
     ("'Russia and Her Church', a lecture by E. Makharoblidze, Secretary of the Russian Synod of Sremsky-Karlowicz, November 27, 1926", 2024, r"RUSSIA AND HER CHURCH"),
     ("Sonia E. Howe, 'The Great Schism in the Russian Church and the Protopope Avvakum'", 2650, r"GREAT SCHISM")],
    (3453, r"godless form of worship", "The text ends at 3453; a plate caption follows."),
-   [("makharoblidze-russia-and-her-church-1926", "E. Makharoblidze, 'Russia and Her Church', a lecture (1926)", 2024, r"RUSSIA AND HER CHURCH", 2647, r"THE CHRISTIAN EAST",
+   [("makharoblidze-russia-and-her-church-1926", "E. Makharoblidze, 'Russia and Her Church', a lecture (1926)", 2024, r"RUSSIA AND HER CHURCH", 2607, r"those of you who help us",
      [EMI], "tradition", "eng", (1926, 1926), "the heading dates the lecture November 27, 1926 (OCR line 2028)",
-     "A lecture by the secretary of the Russian synod at Sremsky-Karlowicz. The editors say they 'do not take responsibility for all' he said (OCR lines 2031-2032).")])
+     "A lecture by the secretary of the Russian synod at Sremsky-Karlowicz. The editors say they 'do not take responsibility for all' he said (OCR lines 2031-2032). A note signed J.A.D. follows at OCR lines 2610-2620.")])
 
 ce("1927-03_8_1", 8, 1, "March, 1927", 1927, (1, r"MARCH, 1927"), "masthead: 'March, 1927', OCR line 1", False, CLEAN,
    [("'Chronicle and Causerie', with a letter of Seraphim, Archbishop of Uglitch, to the prelates, priests and laity of the Russian church (119-166)", 10, r"CHRONICLE"),
@@ -410,7 +425,7 @@ ce("1927-03_8_1", 8, 1, "March, 1927", 1927, (1, r"MARCH, 1927"), "masthead: 'Ma
      "His own letter, in English with no translator named. The Chronicle says the guiding of the Russian church then lay upon him (OCR lines 102-106).")])
 
 ce("1927-06_8_2", 8, 2, "June, 1927", 1927, (1, r"JUNE, 1927"), "masthead: 'June, 1927', OCR line 1", False, CLEAN,
-   [("'Chronicle and Causerie', with translated letters from Moscow (125-312)", 7, r"CHRONICLE"),
+   [("'Chronicle and Causerie', with translated letters from Russia, from 125", 7, r"CHRONICLE"),
     ("the Metropolitan Anthony, President of the Synod of Karlovtsi, 'Why Anglican Clergy Could be Received in Their Orders'", 875, r"WHY ANGLICAN CLERGY"),
     ("the Archpriest Chernavin, 'A Famous Russian Monastery'", 1457, r"FAMOUS RUSSIAN MONASTERY"),
     ("L. Parressos, 'Protestantism and Orthodoxy'", 2050, r"ANTISM AND ORTHODOXY"),
@@ -418,9 +433,9 @@ ce("1927-06_8_2", 8, 2, "June, 1927", 1927, (1, r"JUNE, 1927"), "masthead: 'June
     ("C. B. Moss, on the place of Constantinople in church history", 2711, r"CONSTANTINOPLE"),
     ("'A. and E.C.A. Notes'", 3256, r"E\.C\.A\. NOTES")],
    (3256, r"NOTES", "The notes and notices run to the end of the file."),
-   [("anthony-of-karlovtsi-why-anglican-clergy-could-be-received-in-their-orders-1927", "Anthony, Metropolitan, 'Why Anglican Clergy Could be Received in Their Orders' (1927)", 875, r"WHY ANGLICAN CLERGY", 1440, r"local bishops and the Councils",
+   [("anthony-of-karlovtsi-why-anglican-clergy-could-be-received-in-their-orders-1927", "Anthony, Metropolitan, 'Why Anglican Clergy Could be Received in Their Orders' (1927)", 875, r"WHY ANGLICAN CLERGY", 1454, r"united to our holy Church",
      [EMI], "tradition", "eng", (1927, 1927), "printed in the number of June, 1927",
-     "His own statement, in English with no translator named; the by-line calls him President of the Synod of Karlovtsi. The OCR leaves a gap of junk lines between its last lines and the next heading.")])
+     "His own statement, in English with no translator named; the by-line calls him President of the Synod of Karlovtsi. A running head of the next article stands inside the range at OCR line 1446.")])
 ce("autumn-1927_8_3", 8, 3, "Autumn, 1927", 1927, (102, r"AUTUMN, 1927"), "cover and masthead: 'Autumn, 1927', read on the page images, leaves n0 and n4; masthead at OCR line 102, where the OCR reads the volume as 'VII'", True, CV + CLEAN,
    [("'Chronicle and Causerie', with a letter of the Patriarch Meletios of Alexandria dated March 5-18, 1927 (114-189)", 108, r"CHRONICLE"),
     ("J. A. Douglas, on the World Conference on Faith and Order", 421, r"WORLD CONFERENCE ON FAITH"),
@@ -434,14 +449,14 @@ ce("autumn-1927_8_3", 8, 3, "Autumn, 1927", 1927, (102, r"AUTUMN, 1927"), "cover
    (5200, r"Pepler", "The book notices end at 5200; scraps follow."),
    [("stephan-of-sofia-fundamental-conditions-for-the-unification-of-the-christian-churches-1927", "Stephan, Archbishop of Sofia, 'Fundamental Conditions for the Unification of the Christian Churches' (1927)", 1816, r"FUNDAMENTAL CONDITIONS", 3170, r"justice and love",
      [BALK], "tradition", "eng", (1927, 1927), "printed in the number of Autumn, 1927",
-     "A Bulgarian archbishop's own paper, in English with no translator named."),
-    ("chrysostom-of-athens-the-nature-of-the-church-1927", "Chrysostom, Metropolitan of Athens, 'The Nature of the Church' (1927)", 3173, r"NATURE OF THE CHURCH", 3680, r"DECLARATION OF ORTHODOX",
+     "The paper of 'the Archbishop of Sofia, Stephan', in English with no translator named."),
+    ("chrysostom-of-athens-the-nature-of-the-church-1927", "Chrysostom, Metropolitan of Athens, 'The Nature of the Church' (1927)", 3173, r"NATURE OF THE CHURCH", 3677, r"blessing from God",
      [GRK], "tradition", "eng", (1927, 1927), "printed in the number of Autumn, 1927",
      "His own paper, in English with no translator named."),
-    ("declaration-of-the-orthodox-at-lausanne-1927", "The Declaration of the Orthodox delegates at the Lausanne Conference on Faith and Order (1927)", 3683, r"DECLARATION OF THE", 3866, r"different Faiths",
+    ("declaration-of-the-orthodox-at-lausanne-1927", "The Declaration of the Orthodox delegates at the Lausanne Conference on Faith and Order (1927)", 3683, r"DECLARATION OF THE", 3892, r"we are One",
      [GRK], "tradition", "eng", (1927, 1927), "the editors' note: read to the conference by the Archbishop of Thyatira on Thursday, August 18 (OCR lines 3687-3690)",
-     "The delegates' joint statement; the note says all the Orthodox delegates signed it."),
-    ("declaration-of-the-orthodox-at-lausanne-1927-ecumenical", "The Declaration of the Orthodox delegates at the Lausanne Conference on Faith and Order (1927): for the ecumenical movement", 3683, r"DECLARATION OF THE", 3866, r"different Faiths",
+     "The delegates' joint statement. The editors' note says it was signed by all the Orthodox delegates 'with the exception of the Metropolitan of Sofia, who had previously left Lausanne' (OCR lines 3691-3694)."),
+    ("declaration-of-the-orthodox-at-lausanne-1927-ecumenical", "The Declaration of the Orthodox delegates at the Lausanne Conference on Faith and Order (1927): for the ecumenical movement", 3683, r"DECLARATION OF THE", 3892, r"we are One",
      [ECU], "context", "eng", (1927, 1927), "the editors' note: read to the conference by the Archbishop of Thyatira on Thursday, August 18 (OCR lines 3687-3690)",
      "The Orthodox delegates' statement of what they could and could not accept at the conference.")])
 
@@ -455,9 +470,9 @@ ce("spring-1928_9_1", 9, 1, "Spring, 1928", 1928, (1, r"SPRING, 1928"), "masthea
     ("'Our Bookshelf'", 3465, r"BOOKSHELF"),
     ("'A. and E.C.A. Notes'", 4118, r"A\. & ECA")],
    (4199, r"few words.at the close", "The file ends within the notes."),
-   [("germanos-of-thyatira-the-orthodox-delegation-at-lausanne-and-its-declaration-1928", "The Metropolitan of Thyatira, 'The Orthodox Delegation at Lausanne and its Declaration' (1928)", 673, r"ORTHODOX DELEGATION AT LAUSANNE", 1319, r"THE CHRISTIAN EAST",
+   [("metropolitan-of-thyatira-the-orthodox-delegation-at-lausanne-and-its-declaration-1928", "The Metropolitan of Thyatira, 'The Orthodox Delegation at Lausanne and its Declaration' (1928)", 673, r"ORTHODOX DELEGATION AT LAUSANNE", 1288, r"compromise in matters of faith is impossible",
      [GRK], "tradition", "eng", (1928, 1928), "printed in the number of Spring, 1928",
-     "His own defense of the Orthodox declaration at Lausanne. The declaration itself is in the number of Autumn, 1927. The last lines before the next article are garbled.")])
+     "His own defense of the Orthodox declaration at Lausanne; the by-line gives his see and not his name.")])
 
 ce("summer-1928_9_2", 9, 2, "Summer, 1928", 1928, (1, r"SUMMER"), "masthead: 'Summer, 1928', read on the page image, leaf n0; the OCR at line 1 loses the year", False, CLEAN + " The first hundred lines or so are badly garbled.",
    [("'Chronicle and Causerie', with letters between the Archbishop of Canterbury and the Patriarch Meletios of Alexandria, February and March 1928", 7, r"CHRONICLE"),
@@ -472,7 +487,7 @@ ce("summer-1928_9_2", 9, 2, "Summer, 1928", 1928, (1, r"SUMMER"), "masthead: 'Su
    (3693, r"R\.M\.F", "The book notices end at 3693, signed R.M.F.; scan debris follows."),
    [("nikolai-of-okhrida-the-sacraments-from-the-point-of-view-of-the-eastern-church-1928", "Nikolai, Bishop of Okhrida, 'The Sacraments from the Point of View of the Eastern Church' (1928)", 2482, r"SACRAMENTS FROM", 2725, r"penitent children of God",
      [BALK], "tradition", "eng", (1928, 1928), "printed in the number of Summer, 1928",
-     "A Serbian bishop's own paper, in English with no translator named.")])
+     "The paper of 'the Right Reverend Nikolai, Bishop of Okhrida', in English with no translator named.")])
 
 ce("autumn-1928_9_3", 9, 3, "Autumn, 1928", 1928, (1, r"AUTUMN, 1928"), "masthead: 'Autumn, 1928', OCR line 1", False, CLEAN,
    [("'Chronicle and Causerie'", 7, r"CHRONICLE"),
@@ -507,30 +522,30 @@ ce("summer-1929_10_2", 10, 2, "Summer, 1929", 1929, (1, r"SUMMER, 1929"), "masth
    [("'Chronicle and Causerie', opening with an account of the Archbishop of Canterbury in Athens taken from Ekklesia of April 20", 7, r"CHRONICLE"),
     ("the Archbishop of Canterbury's enthronistic letter to the Ecumenical Patriarch", 251, r"ENTHRONISTIC|Archbishop"),
     ("'Reply of the Oecumenical Patriarch', translated from Orthodoxia, 30th April, 1929", 310, r"Reply of the"),
-    ("the Bishop of Gibraltar, impressions of a first official visit to the Near East", 444, r"IMPRESSIONS|NEAR EAST|GIBRALTAR"),
+    ("the Bishop of Gibraltar, impressions of a first official visit to the Near East", 445, r"IMPRESSIONS"),
     ("J. A. Douglas, 'The Fifth Anglo-Catholic Pilgrimage'", 786, r"PILGRIMAGE"),
     ("'The Wilderness of Jerusalem'", 1897, r"WILDERNESS"),
     ("C. A. Manning, 'Religion and the Soviets', reprinted from the American Church Monthly", 2370, r"RELIGION AND THE SOVIETS"),
     ("'Our Bookshelf'", 2789, r"BOOKSHELF"),
-    ("H. M. Hyatt, 'The Church of Abyssinia'", 3094, r"ABYSSINIA"),
+    ("a notice of H. M. Hyatt's book The Church of Abyssinia", 3094, r"ABYSSINIA"),
     ("'Jacob's Ladder'", 3424, r"JACOB")],
    (3424, r"JACOB", "The file ends with a frontispiece caption."),
    [("basil-iii-of-constantinople-reply-to-the-archbishop-of-canterbury-1929", "Basil, Patriarch of Constantinople, reply to the Archbishop of Canterbury's enthronistic letter (1929)", 310, r"Reply of the", 411, r"BASIL OF CONSTANTINOPLE",
      [GRK], "tradition", "eng", (1929, 1929), "the heading: 'Translated from Orthodoxia, 30th April, 1929' (OCR line 311)",
-     "The Patriarch's own letter, translated by the journal from the Patriarchate's paper.")])
+     "The Patriarch's own letter, in an English headed 'Translated from Orthodoxia, 30th April, 1929'.")])
 
 ce("autumn-1929_10_3", 10, 3, "Autumn, 1929", 1929, (1, r"AUTUMN 19.9"), "masthead: 'Autumn 1929', read on the page image, leaf n0; the OCR reads '1949' at line 1", False, CLEAN,
-   [("'Chronicle and Causerie', with a letter of the Metropolitan Germanos to the editor of The Church Times (88-224)", 7, r"CHRONICLE"),
+   [("'Chronicle and Causerie', with a letter of the Metropolitan Germanos to the editor of The Church Times (91-224)", 7, r"CHRONICLE"),
     ("Fedotov, 'The Orthodox Church and Her History'", 564, r"ORTHODOX CHURCH AND HER HISTORY"),
     ("'The Wilderness of Jerusalem', continued", 1230, r"WILDERNESS"),
     ("'Religion and the Soviets', concluded", 1532, r"RELIGION AND THE SOVIETS"),
     ("C. F. L. St. George, 'The Development of Russian Ikon-Painting'", 1825, r"IKON"),
     ("'A. and E.C.A. Notes'", 2141, r"E\.C\.A\. NOTES")],
    (2224, r"complete recovery", "The notes end at 2224; a frontispiece caption follows."),
-   [("germanos-of-thyatira-letter-to-the-editor-of-the-church-times-1929", "The Metropolitan Germanos, letter to the editor of The Church Times (1929)", 88, r"letter is as follows", 224, r"them\.",
-     [GRK], "tradition", "eng", (1929, 1929), "printed in the Chronicle of the number of Autumn, 1929; the letter's own date was not found",
+   [("metropolitan-germanos-letter-to-the-editor-of-the-church-times-1929", "The Metropolitan Germanos, letter to the editor of The Church Times (1929)", 91, r"On the occasion of the cancellation", 224, r"them\.",
+     [GRK], "tradition", "eng", (1929, 1929), "printed in the Chronicle of the number of Autumn, 1929",
      "His own letter, written to an English paper; it stands inside the Chronicle."),
-    ("fedotov-the-orthodox-church-and-her-history-1929", "Fedotov, 'The Orthodox Church and Her History' (1929)", 564, r"ORTHODOX CHURCH AND HER HISTORY", 1227, r"THE CHRISTIAN EAST",
+    ("fedotov-the-orthodox-church-and-her-history-1929", "Fedotov, 'The Orthodox Church and Her History' (1929)", 564, r"ORTHODOX CHURCH AND HER HISTORY", 1205, r"paradoxical symbol of Orthodoxy",
      [EMI], "tradition", "eng", (1929, 1929), "printed in the number of Autumn, 1929",
      "The by-line gives the surname only; in English with no translator named.")])
 
@@ -545,10 +560,10 @@ ce("winter-1929_10_4", 10, 4, "Winter, 1929", 1929, (1, r"WINTER, 1929"), "masth
     ("'Our Books'", 3029, r"OUR BOOK"),
     ("'A. and E.C.A. Notes'", 3505, r"E\.C\.A\. NOTES")],
    (3632, r"other assemblies also", "The text ends at 3632; advertisement leaves and an appeal follow, with '1930' at 3766 and 3844."),
-   [("ecumenical-patriarch-eirenic-letter-to-the-archbishop-of-canterbury-1929", "The Ecumenical Patriarch, eirenic letter to the Archbishop of Canterbury (1929)", 69, r"Eirenic Letter", 146, r"October, 1929",
+   [("ecumenical-patriarch-eirenic-letter-to-the-archbishop-of-canterbury-1929", "The Ecumenical Patriarch, eirenic letter to the Archbishop of Canterbury (1929)", 73, r"Most reverend Archbishop of Canterbury", 146, r"October, 1929",
      [GRK], "tradition", "eng", (1929, 1929), "dated October, 1929 (OCR line 146)",
      "The new Patriarch's own letter, in English with no translator named; the Archbishop's reply at OCR line 151 addresses him as 'the Lord Photios'."),
-    ("the-attitude-of-the-orthodox-church-to-the-faith-and-order-movement-1929", "'The Attitude of the Orthodox Church to the Faith and Order Movement', a speech at the Maloja meeting (1929)", 1453, r"ATTITUDE OF THE ORTHODOX", 1730, r"THE CHRISTIAN EAST",
+    ("the-attitude-of-the-orthodox-church-to-the-faith-and-order-movement-1929", "'The Attitude of the Orthodox Church to the Faith and Order Movement', a speech at the Maloja meeting (1929)", 1453, r"ATTITUDE OF THE ORTHODOX", 1707, r"wherein we still fail",
      [GRK], "tradition", "eng", (1929, 1929), "printed in the number of Winter, 1929",
      "A speech by an Orthodox professor at the Maloja meeting of the Continuation Committee; the OCR drops his surname from the by-line (OCR line 1457).")])
 
@@ -559,7 +574,7 @@ ce("autumn-1930_11_3", 11, 3, "Autumn, 1930", 1930, (152, r"AUTUMN, 1930"), "cov
     ("Donald A. Lowrie, 'Russians Confer on Christian Culture'", 2906, r"RUSSIANS CONFER"),
     ("J. A. Douglas, 'The Oecumenical Patriarchate and Nationality'", 3347, r"PATRIARCHATE AND +NATIONALITY")],
    (3684, r"peace of Europe", "The last article ends at 3684; advertisements follow."),
-   [("zankov-the-general-position-of-the-eastern-orthodox-churches-1930", "Stefan Zankov, 'The General Position of the Eastern Orthodox Churches at the Present Time' (1930)", 2392, r"GENERAL POSITION", 2665, r"FUNERAL OF THE SERBIAN",
+   [("zankov-the-general-position-of-the-eastern-orthodox-churches-1930", "Stefan Zankov, 'The General Position of the Eastern Orthodox Churches at the Present Time' (1930)", 2392, r"GENERAL POSITION", 2662, r"noted",
      [BALK], "tradition", "eng", (1930, 1930), "printed in the number of Autumn, 1930",
      "His own article, in English with no translator named.")])
 ORD = {3: "Third", 4: "Fourth", 5: "Fifth", 6: "Sixth", 7: "Seventh", 8: "Eighth", 9: "Ninth", 10: "Tenth", 13: "Thirteenth", 14: "Fourteenth", 15: "Fifteenth", 16: "Sixteenth", 18: "Eighteenth", 19: "Nineteenth"}
@@ -616,45 +631,46 @@ irm(1915, 4, 15, "edited by J. H. Oldham", "frowde", (23, r"FROWD"), [67, 11377,
      ("'Black and White in South Africa'", 11383, r"BLACK AND WHITE"),
      ("on self-support in the church", 16187, r"SELF-SUPPORT"),
      ("on the presentation of Christianity to primitive peoples, in Kavirondo, with 'A Statement by Christian Converts in Kavirondo addressed to their Heathen Friends' at 24773", 24769, r"KAVIRONDO|PRIMITIVE"),
-     ("on church and mission", 38131, r"CHURCH AND MISSION")],
+     ("notes on a study of the relation of church and mission", 38130, r"NOTES ON A STUDY")],
     45926, "The index is damaged in the OCR at the end of the file. Articles in this volume carry no by-line at their head; the writers are named in the notes on contributors at 7640, 18693, 29851 and 41647.",
     [], SVM, N1)
 
 irm(1916, 5, 18, "edited by J. H. Oldham", "milford-edin", (25, r"MILFORD"), [88, 11110, 23326, 34795],
     [("'A Missionary Survey of the Year 1915'", 95, r"SURVEY OF THE YEAR 1915"),
      ("Chengting T. Wang, 'The Importance of Making Christianity Indigenous'", 4559, r"INDIGENOUS|WANG"),
-     ("a conference with Chinese leaders", 12584, r"CHINESE LEADERS|CONFERENCE"),
+     ("Robert E. Speer, on the general environment of missions in China, with a section on a conference with Chinese leaders at 12584", 11976, r"GENERAL ENVIRONMENT"),
      ("on the strategic lines of missions in Africa", 23332, r"AFRICA"),
      ("on the secret of vitality in the Pauline churches", 34798, r"PAULINE")],
     45617, "The file ends with the printer's line at 47053.",
     [], SVM, N2)
 
 irm(1917, 6, 15, "edited by J. H. Oldham", "milford-edin", (22, r"MILFORD"), [73, 10811, 21668, 31000],
-    [("'A Missionary Survey of the Year 1916', which at 2835-2843, with a footnote at 2864-2875, tells of the 'prophet' Garrick Sokari Braid of Bakana", 80, r"SURVEY OF THE YEAR 1916"),
+    [("'A Missionary Survey of the Year 1916', which at 2806 and 2835-2843, with a footnote at 2864-2875, tells of the 'prophet' Garrick Sokari Braid of Bakana", 80, r"SURVEY OF THE YEAR 1916"),
      ("Bishop Frank W. Warne, on India's mass movements in the Methodist Episcopal Church", 11797, r"MASS MOVEMENT"),
      ("John Matthai, on the education of Christian students in India", 17706, r"MATTHAI"),
      ("Masumi Hino, 'Recent Movements in Japanese Thought'", 21674, r"HINO|JAPANESE THOUGHT"),
      ("Herbert Anderson, on the national spirit, the Indian church and missions", 24264, r"ANDERSON|INDIAN CHURCH")],
     39637, "The file ends with the printer's line at 40874.",
-    [("survey-of-1916-the-prophet-movement-of-garrick-braid", "The survey of the year 1916 on the 'prophet' Garrick Sokari Braid", 2835, r"political character", 2875, r"Church Missionary Review, 1916|Bible i",
+    [("survey-of-1916-the-prophet-movement-of-garrick-braid", "The survey of the year 1916 on the 'prophet' Garrick Sokari Braid", 2806, r"Niger Delta Pastorate a great upheaval", 2875, r"Church Missionary Review, 1916|Bible i",
       [AIC], "context", (1916, 1917), "the survey of the year 1916, printed in the number of January 1917",
-      "A missionary journal's short report, with a footnote that gives the movement 'as presented by the African Bishop Johnson' and cites the Church Missionary Review of 1916. An outside account at second hand. Lines 2848-2863 between the text and the footnote are on Kamerun.")],
+      "A missionary journal's short report, with a footnote that gives the movement 'as presented by the African Bishop Johnson' and cites the Church Missionary Review of 1916. An outside account at second hand. The report begins at OCR line 2806 and runs on at 2835-2843; lines 2809-2832 are footnotes and a running head, and 2843-2863 are on Calabar and Kamerun.")],
     SVM, N2)
 
 irm(1918, 7, 15, "edited by J. H. Oldham", "milford-edin", (22, r"MILFORD"), [74, 9598, 18905, 27805],
     [("'A Missionary Survey of the Year 1917'", 81, r"SURVEY OF THE YEAR 1917"),
      ("on an awakening among the middle classes of South India", 18911, r"SOUTH INDIA|AWAKENING"),
-     ("Sydney Cave, 'A Typical Mass Movement'", 29778, r"MASS MOVEMENT"),
+     ("Sydney Cave, on a typical mass movement church, 1806 to 1918", 29778, r"MASS MOVEMENT"),
      ("Bishop J. J. Willis, 'The Organization of the Anglican Church in Uganda'", 30383, r"ORGANIZATION OF THE"),
      ("on industrial training in Africa", 30947, r"INDUSTRIAL TRAINING")],
     36389, "The file ends with the printer's line.",
-    [("willis-the-organization-of-the-anglican-church-in-uganda", "J. J. Willis, 'The Organization of the Anglican Church in Uganda'", 30383, r"ORGANIZATION OF THE", 30946, r"INDUSTRIAL TRAINING",
+    [("willis-the-organization-of-the-anglican-church-in-uganda", "J. J. Willis, 'The Organization of the Anglican Church in Uganda'", 30383, r"ORGANIZATION OF THE", 30938, r"J\. J\. UGANDA",
       [ANG], "tradition", (1918, 1918), "printed in the number of October 1918",
-      "The by-line reads 'Bishop J. J. Willis'; his own account of the church's constitution and synod.")],
+      "The by-line reads 'Bishop J. J. Willis' and the article is signed 'J. J. Uganda'; his own account of the church's constitution and synod.")],
     SVM, N2)
 
 irm(1919, 8, 15, "edited by J. H. Oldham", "milford-edin", (22, r"MILFORD"), [69, 8951, 17669, 26577],
-    [("the January number, on the missionary enterprise and 'the man of 1919'", 266, r"ETERNAL SOURCE|MISSIONS"),
+    [("J. S. B. Brough, 'The Eternal Source of Missions'", 266, r"ETERNAL SOURCE"),
+     ("E. Shillito, 'The Appeal of the Missionary Enterprise to the Man of 1919'", 864, r"APPEAL OF THE MISSIONARY"),
      ("C. H. Bandy, on a North Indian Presbyterian mass movement", 11686, r"MASS +MOVEMENT"),
      ("on the building of the Uganda cathedral", 13345, r"UGANDA"),
      ("on the missionary situation in Congo", 18987, r"CONGO"),
@@ -669,22 +685,22 @@ irm(1920, 9, 15, "edited by J. H. Oldham", "victoria", (19, r"VICTORIA STREET"),
      ("W. McCarthy, on Chinese leadership in the Christian church", 24273, r"CHINESE LEADERSHIP|McCARTHY"),
      ("on labour conditions in Africa", 34764, r"AFRICA|LABOUR")],
     41283, "The file ends with the printer's line at 42116.",
-    [("mar-thoma-statement-on-church-union-in-south-india-1919", "Statement from the Malabar Suffragan and other members of the Mar Thoma Syrian Church on church union in South India", 8277, r"MALABAR SUFFRAGAN", 8432, r"SEPTEMBER 29",
-      [MART], "tradition", (1919, 1920), "it stands among the South India proposals with a statement of the South India United Church of September 29, 1919 (OCR line 8433); printed in the number of January 1920",
-      "The Mar Thoma members' own statement, printed whole among the official documents on union."),
-     ("plan-of-union-of-the-church-of-christ-in-china", "Plan of union and doctrinal basis for the United Church of Christ in China", 7567, r"PLAN OF UNION", 7774, r"CONSTITUTION OF ALLIANCE",
-      [CHN], "context", (1918, 1920), "printed as Appendix A of the official documents in the number of January 1920; the plan's own date was not read",
-      "A union plan of mission-founded churches, printed whole; it comes before the entry's window opens.")],
+    [("mar-thoma-statement-on-church-union-in-south-india-1919", "Statement from the Malabar Suffragan and other members of the Mar Thoma Syrian Church on church union in South India", 8277, r"MALABAR SUFFRAGAN", 8429, r"Maman",
+      [MART], "tradition", (1919, 1920), "it answers an invitation from a conference of May 1 and 2, 1919 (OCR line 8283); printed in the number of January 1920",
+      "The Mar Thoma members' own statement, signed by Abraham Mar Thoma, Malabar Suffragan, and two others, among the official documents on union."),
+     ("plan-of-union-of-the-church-of-christ-in-china", "Plan of union and doctrinal basis for the United Church of Christ in China", 7567, r"PLAN OF UNION", 7769, r"statements",
+      [CHN], "context", (1919, 1919), "the heading: 'adopted at Nanking, January 1919' (OCR line 7574)",
+      "A union plan prepared by a committee of the Presbyterian churches in China and the churches of two mission boards, as its heading says.")],
     SVM, N2)
 
 irm(1921, 10, 13, "Editor, J. H. Oldham; Associate Editor, Miss G. A. Gollock", "edinhouse", (17, r"EDINBURGH HOUSE"), [76, 10361, 19728, 29216],
-    [("'A Missionary Survey of the Year 1920'", 84, r"SURVEY OF THE YEAR 1920"),
+    [("'A Missionary Survey of the Year 1920'", 83, r"A MISSIONARY"),
      ("Cripps, 'An Africa of the Africans'", 5632, r"AFRICA OF THE AFRICANS|CRIPPS"),
-     ("'Acts and Public Documents', with the text of the Treaty of Sèvres", 6845, r"PUBLIC DOCUMENTS|ACTS"),
+     ("'Acts and Public Documents', with articles of the treaty of peace with Turkey", 6845, r"PUBLIC DOCUMENTS|ACTS"),
      ("Oldham, 'Christian Missions and African Labour'", 11570, r"AFRICAN LABOUR|OLDHAM"),
      ("Eddy, 'The Christian Approach in the Near East'", 15964, r"NEAR EAST|EDDY")],
-    36900, "The index here is to the first ten volumes. The file ends with the printer's line at 41274.",
-    [], ECU, "A missionary quarterly edited by J. H. Oldham; each article is its writer's own. The volume is of the year the entry opens.")
+    36898, "The index here is to the first ten volumes. The file ends with the printer's line at 41274.",
+    [], ECU, "A missionary quarterly edited by J. H. Oldham; each article is its writer's own.")
 
 irm(1924, 13, 13, "edited by J. H. Oldham and G. A. Gollock", "edinhouse", (17, r"EDINBURGH HOUSE"), [71, 11366, 22581, 34054],
     [("Gairdner, 'Islam in Africa'", 78, r"ISLAM"),
@@ -695,9 +711,9 @@ irm(1924, 13, 13, "edited by J. H. Oldham and G. A. Gollock", "edinhouse", (17, 
      ("Macnicol, 'Narayan Vaman Tilak'", 25708, r"TILAK|MACNICOL"),
      ("Anna Kong Mei, 'The Modern Chinese Woman'", 39069, r"CHINESE WOMAN|KONG MEI")],
     44738, "The file ends with the printer's line.",
-    [("the-national-christian-council-of-china-by-the-secretaries", "'The National Christian Council of China', by the Secretaries", 5095, r"NATIONAL CHRISTIAN", 5730, r"KRAEMER",
+    [("the-national-christian-council-of-china-by-the-secretaries", "'The National Christian Council of China', by the Secretaries", 5095, r"NATIONAL CHRISTIAN", 5707, r"CouNcIL oF CHINA",
       [CHN], "context", (1924, 1924), "printed in the number of January 1924",
-      "The council's secretaries on its first work; the by-line gives no names.")],
+      "The council's secretaries on its work; the by-line and the signature give no names.")],
     ECU, N3)
 
 irm(1925, 14, 11, "edited by J. H. Oldham and G. A. Gollock", "edinhouse", (15, r"EDINBURGH HOUSE|EATON GATE"), [72, 11398, 22887, 34715],
@@ -706,11 +722,11 @@ irm(1925, 14, 11, "edited by J. H. Oldham and G. A. Gollock", "edinhouse", (15, 
      ("Mathew Thomas, on the development of the rural church in China", 28379, r"THOMAS|RURAL CHURCH"),
      ("Robert E. Speer, 'The Congress on Christian Work in South America'", 35804, r"CONGRESS ON CHRISTIAN WORK"),
      ("Hodgkin, 'The Church in China at the Cross Roads'", 38540, r"HODGKIN|CROSS ROADS"),
-     ("the 'Quarterly Notes', the bulletin of the International Missionary Council, bound at the end of each number, the last from 46119", 46119, r"QUARTERLY NOTES|BULLETIN|INTERNATIONAL MISSIONARY")],
+     ("the 'Quarterly Notes', the bulletin of the International Missionary Council, bound at the end of each number, the last from 46116", 46116, r"QUARTERLY NOTES")],
     45191, "The file ends with the printer's line at 46802 and junk lines.",
-    [("speer-the-congress-on-christian-work-in-south-america", "Robert E. Speer, 'The Congress on Christian Work in South America'", 35804, r"CONGRESS ON CHRISTIAN WORK", 36695, r"AFRICAN EDUCATION",
+    [("speer-the-congress-on-christian-work-in-south-america", "Robert E. Speer, 'The Congress on Christian Work in South America'", 35804, r"CONGRESS ON CHRISTIAN WORK", 36686, r"SPEER",
       [LAP], "context", (1925, 1925), "printed in the number of October 1925; the article says the congress met at Montevideo from March 29 (OCR lines 35811-35812)",
-      "A North American mission secretary's report of the Montevideo congress.")],
+      "His report of the congress at Montevideo.")],
     ECU, N3)
 
 irm(1926, 15, 13, "edited by J. H. Oldham and G. A. Gollock", "edinhouse", (17, r"EDINBURGH HOUSE"), [87, 11977, 23794, 43452],
@@ -722,7 +738,7 @@ irm(1926, 15, 13, "edited by J. H. Oldham and G. A. Gollock", "edinhouse", (17, 
      ("P. H. J. Lerrigo, 'The Ministry of Health and Welfare Work'", 35024, r"MINISTRY OF HEALTH"),
      ("Thompson, on the Melbourne missionary conference of April 1926", 46439, r"MELBOURNE|THOMPSON")],
     54128, "The 'Quarterly Notes' of the International Missionary Council follow the index from 55133.",
-    [("loram-the-separatist-church-movement", "C. T. Loram, 'The Separatist Church Movement'", 32800, r"SEPARATIST CHURCH", 33193, r"PHELPS-STOKES",
+    [("loram-the-separatist-church-movement", "C. T. Loram, 'The Separatist Church Movement'", 32800, r"SEPARATIST CHURCH", 33172, r"Loram",
       [AIC], "context", (1926, 1926), "printed in the number of July 1926",
       "An outside account, from the side of race relations in South Africa, of the churches that left the missions.")],
     ECU, N3)
@@ -736,9 +752,9 @@ irm(1927, 16, 13, "Editor, J. H. Oldham; Associate Editor, M. M. Underhill", "ed
      ("Hume, Yui and Bray, 'The Future of Christianity in China'", 23073, r"FUTURE OF CHRISTIANITY|HUME"),
      ("Zwemer, 'The Moslems of South-Eastern Europe'", 35950, r"MOSLEMS|ZWEMER")],
     45765, "The 'Quarterly Notes' follow from 46718; the file ends in index fragments.",
-    [("kriele-the-nias-revival", "Ed. Kriele, 'The Nias Revival: the Story of a Spiritual Awakening'", 5441, r"NIAS REVIVAL", 6184, r"CHINESE DIASPORA",
+    [("kriele-the-nias-revival", "Ed. Kriele, 'The Nias Revival: the Story of a Spiritual Awakening'", 5441, r"NIAS REVIVAL", 6170, r"born of the Spirit",
       [INDO], "context", (1927, 1927), "printed in the number of January 1927",
-      "A missionary's account of the awakening on Nias.")],
+      "An account of the awakening on Nias; the article is headed 'the story of a spiritual awakening'.")],
     ECU, N3)
 
 irm(1929, 18, 13, "Editor, William Paton; Associate Editor, M. M. Underhill", "edinhouse419", (22, r"419 FOURTH AVENUE"), [62, 11610, 22976, 34426],
@@ -748,18 +764,18 @@ irm(1929, 18, 13, "Editor, William Paton; Associate Editor, M. M. Underhill", "e
      ("Erasmo Braga, 'Following up the Jerusalem Meeting in Brazil'", 17467, r"JERUSALEM"),
      ("Cairns, on the Christian message in 1910 and in 1928", 22990, r"CHRISTIAN MESSAGE|CAIRNS"),
      ("K. T. Paul", 28639, r"PAUL"),
-     ("the Bishop of Dornakal, 'Living Forces behind Mass Movements'", 35978, r"LIVING FORCES"),
+     ("the Bishop of Dornakal, 'Living Forces behind Mass Movements', signed V. S. Azariah at 36467", 35978, r"LIVING FORCES"),
      ("Michio Kozaki, 'Dr Kagawa and the Kingdom of God Movement'", 39616, r"KAGAWA")],
     44243, "The 'Quarterly Notes' follow from 45476; the file ends with an errata leaf in garbled lines. A leaf on the illness of King George V stands in the title leaves.",
-    [("braga-following-up-the-jerusalem-meeting-in-brazil", "Erasmo Braga, 'Following up the Jerusalem Meeting in Brazil'", 17467, r"JERUSALEM", 17717, r"UNDERHILL",
+    [("braga-following-up-the-jerusalem-meeting-in-brazil", "Erasmo Braga, 'Following up the Jerusalem Meeting in Brazil'", 17467, r"JERUSALEM", 17707, r"BRAGA",
       [LAP], "tradition", (1929, 1929), "printed in the number of April 1929",
-      "A Brazilian Protestant leader's own report; the notes on contributors call him Executive Secretary of the Committee on Co-operation in Brazil (OCR line 20901)."),
-     ("bishop-of-dornakal-living-forces-behind-mass-movements", "The Bishop of Dornakal, 'Living Forces behind Mass Movements'", 35978, r"LIVING FORCES", 36472, r"MISSIONARY AND THE RYAT",
+      "His own report; the notes on contributors call him Executive Secretary of the Committee on Co-operation in Brazil (OCR line 20901)."),
+     ("azariah-living-forces-behind-mass-movements", "V. S. Azariah, Bishop of Dornakal, 'Living Forces behind Mass Movements'", 35978, r"LIVING FORCES", 36467, r"AZARIA",
       [ANG], "tradition", (1929, 1929), "printed in the number of October 1929",
-      "An Anglican bishop in India on the mass movements in his own diocese; the by-line gives his see and not his name."),
-     ("kozaki-dr-kagawa-and-the-kingdom-of-god-movement", "Michio Kozaki, 'Dr Kagawa and the Kingdom of God Movement'", 39616, r"KAGAWA", 40255, r"VAUGHAN",
+      "The by-line gives his see; the article is signed 'V. S. Azariah' (OCR line 36467, where the OCR reads 'Azariar') and the notes on contributors name 'The Rt Rev. Vedanayakam S. Azariah, Bishop of Dornakal' (OCR line 43013)."),
+     ("kozaki-dr-kagawa-and-the-kingdom-of-god-movement", "Michio Kozaki, 'Dr Kagawa and the Kingdom of God Movement'", 39616, r"KAGAWA", 40237, r"Kozak",
       [JAP], "tradition", (1929, 1929), "printed in the number of October 1929",
-      "A Japanese writer on Kagawa and the Kingdom of God Movement in Japan.")],
+      "His account of Kagawa and the Kingdom of God Movement in Japan.")],
     ECU, N3)
 
 irm(1930, 19, 13, "Editor, William Paton; Associate Editor, M. M. Underhill", "edinhouse419", (22, r"FOURTH AVENUE"), [73, 10941, 22336, 33820],

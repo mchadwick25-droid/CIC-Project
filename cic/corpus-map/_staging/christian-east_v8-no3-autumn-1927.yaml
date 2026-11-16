@@ -21,11 +21,11 @@ assignments:
   confidence: assigned
   language: eng
   date: {start: 1927, end: 1927, source: "printed in the number of Autumn, 1927", formation_confidence: Documented}
-  note: 'A Bulgarian archbishop''s own paper, in English with no translator named.'
+  note: 'The paper of ''the Archbishop of Sofia, Stephan'', in English with no translator named.'
 - row_id: christian-east_v8-no3-autumn-1927--chrysostom-of-athens-the-nature-of-the-church-1927
   work: 'Chrysostom, Metropolitan of Athens, ''The Nature of the Church'' (1927), in The Christian East'
   author: christian-east
-  locus: 'OCR lines 3173-3680; add 12 to OCR line numbers'
+  locus: 'OCR lines 3173-3677; add 12 to OCR line numbers'
   atlas_ids:
   - the-greek-church-and-the-ecumenical-patriarchate
   role: tradition
@@ -36,18 +36,18 @@ assignments:
 - row_id: christian-east_v8-no3-autumn-1927--declaration-of-the-orthodox-at-lausanne-1927
   work: 'The Declaration of the Orthodox delegates at the Lausanne Conference on Faith and Order (1927), in The Christian East'
   author: christian-east
-  locus: 'OCR lines 3683-3866; add 12 to OCR line numbers'
+  locus: 'OCR lines 3683-3892; add 12 to OCR line numbers'
   atlas_ids:
   - the-greek-church-and-the-ecumenical-patriarchate
   role: tradition
   confidence: assigned
   language: eng
   date: {start: 1927, end: 1927, source: "the editors' note: read to the conference by the Archbishop of Thyatira on Thursday, August 18 (OCR lines 3687-3690)", formation_confidence: Documented}
-  note: 'The delegates'' joint statement; the note says all the Orthodox delegates signed it.'
+  note: 'The delegates'' joint statement. The editors'' note says it was signed by all the Orthodox delegates ''with the exception of the Metropolitan of Sofia, who had previously left Lausanne'' (OCR lines 3691-3694).'
 - row_id: christian-east_v8-no3-autumn-1927--declaration-of-the-orthodox-at-lausanne-1927-ecumenical
   work: 'The Declaration of the Orthodox delegates at the Lausanne Conference on Faith and Order (1927): for the ecumenical movement, in The Christian East'
   author: christian-east
-  locus: 'OCR lines 3683-3866; add 12 to OCR line numbers'
+  locus: 'OCR lines 3683-3892; add 12 to OCR line numbers'
   atlas_ids:
   - the-ecumenical-movement-and-the-wcc
   role: context

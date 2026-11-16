@@ -14,11 +14,11 @@ assignments:
 - row_id: international-review-of-missions_v14_1925--speer-the-congress-on-christian-work-in-south-america
   work: 'Robert E. Speer, ''The Congress on Christian Work in South America'' (International Review of Missions, 1925)'
   author: international-review-of-missions
-  locus: 'OCR lines 35804-36695; add 12 to OCR line numbers'
+  locus: 'OCR lines 35804-36686; add 12 to OCR line numbers'
   atlas_ids:
   - protestantism-in-latin-america
   role: context
   confidence: assigned
   language: eng
   date: {start: 1925, end: 1925, source: "printed in the number of October 1925; the article says the congress met at Montevideo from March 29 (OCR lines 35811-35812)", formation_confidence: Documented}
-  note: 'A North American mission secretary''s report of the Montevideo congress.'
+  note: 'His report of the congress at Montevideo.'
