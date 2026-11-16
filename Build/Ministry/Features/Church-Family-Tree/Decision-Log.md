@@ -4012,3 +4012,21 @@ Also in this change:
 - The section shows each quotation in our modern English beside its printed wording and the work it comes from, with a note where the two independent renderings differ. The references the brief draws on follow.
 - The census check now requires that each printed wording stands in its cited file at its lines, and that every quotation in the brief has an entry.
 - The paid run recorded all ten: 9,577 credits, with the balance moving by exactly that amount (`Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/recording/release48-run.log`).
+
+## 2026-11-16 — Mark's legend rulings of 2026-11-15, brought onto main; the legend-fixes branch is retired (Mark, 2026-11-16)
+
+**Why this entry.** Mark's rulings on legends and late records were recorded only on the unmerged branch `claude/cft-legend-fixes` (commit 9f88aa23), whose card edits were never released. Mark approved retiring that branch (2026-11-16, "Tree branches as recommended (Recommended)"). His rulings are copied here first so they live on main.
+
+**Mark's rulings (2026-11-15), as that branch quoted them.**
+- "check the stories and traditions cards for legends too"
+- "we can tell a story if it has real sourcing from the time and we cant download the source but we can verify the story as wildly accepted or better"
+- "we don't need to change the story, just how it is presented to the audience"
+- "lets keep beuno as a story - legend"
+- For the Whos known only from late records: "Apply your bar to each". Theopistus becomes a Story - legend like Beuno. Brigid, David of Wales, Brendan, Ciaran, Alopen, Clement of Ohrid, Tekle Haymanot and the six Coptic patriarchs stay Whos.
+
+**Where they stand now.** Mark's later rulings of 2026-11-15 and 2026-11-16 govern how they are applied:
+- "the legend wasn't about source, it was about it calling legends true who profiles. we dont need to build out more legends";
+- the significance test, "yes, or defended";
+- a Who that fails moves to Story (documented), Story (legend), a mention, or out of use.
+
+The branch's 89 story-card relabels and cuts are not released. The moves of Beuno and Theopistus to Story (legend) are not yet on the live tree. They are applied in the era 3 and era 4 rewrite passes, where those people fall, under Standard v1.
