@@ -3957,3 +3957,12 @@ Also in this change:
 
 **Where it is written.** `Who_Profile_Pattern.md`, "The brief", Quotes; `Worker_Brief_Template.md`, the writer paragraph.
 
+## 2026-11-16 — Thread C's drafting moves to Fable while the free refill lasts: an exception, not a rule change (Mark, 2026-11-16)
+
+**Decided (Mark, 2026-11-16: "Move Thread C's drafting to Fable (Recommended)", relayed by the coordinator).** This extends the exception in "Fable writes the era 8 to 10 renderings while the free refill lasts: an exception, not a rule change" (2026-11-15). `CLAUDE.md` is unchanged.
+- From Thread C's next drafting job after the ten bar briefs, the writers run on Fable, model "fable", while the free refill lasts. Writers here means the drafting agents and the agents that make the first rendering of a quotation.
+- Reviewers, second-reading renderers and comparers stay on Opus, so a different model checks the writing.
+- If a Fable call is refused or hits a limit, it is not retried in a loop. Drafting switches back to Opus, and the coordinator is told.
+- The blind check every five batches (drift guard 4) watches for any change in voice.
+- The ten briefs already drafted (the eight, and Gregory of Tours and Benedict of Nursia) stay as they are.
+
