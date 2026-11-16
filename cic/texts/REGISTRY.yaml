@@ -4405,7 +4405,8 @@
   notes: >-
     GitHub OpenGreekAndLatin/First1KGreek, data/tlg0646/tlg004/tlg0646.tlg004.1st1K-grc1.xml (master
     branch as fetched). TEI/EpiDoc of the Greek of the Epistle to Diognetus (chapters 1-12) from
-    Kirsopp Lake, The Apostolic Fathers vol. 2, Loeb, London and New York, 1917; Perseus Project, CC
+    Kirsopp Lake, The Apostolic Fathers vol. 2, Loeb, London and New York, 1917, by the TEI's own
+    citation (the scan it links prints MCMXIII, Heinemann and Macmillan); Perseus Project, CC
     BY-SA 4.0 (licence element quoted in the file's header). Clean primary original for the letter.
     The facing Loeb English is not in the file. XML stored byte-for-byte after the header.
 - filename: athenagoras_legatio-grc_otto1857.txt
