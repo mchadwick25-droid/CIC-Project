@@ -66,37 +66,43 @@
         "title": "Church History, Book 7, chapter 32; Book 8, chapter 13; Book 9, chapter 6, with McGiffert's notes",
         "author": "Eusebius of Caesarea",
         "language": "English translation",
-        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+        "date": null
       },
       {
         "title": "Letter of Hesychius, Pachomius, Theodorus and Phileas to Meletius, with the account kept with it",
         "author": "Phileas of Thmuis and three other bishops",
         "language": "English translation",
-        "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml"
+        "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+        "date": null
       },
       {
         "title": "Apology against the Arians, 11 and 59, with Robertson's Prolegomena",
         "author": "Athanasius of Alexandria",
         "language": "English translation",
-        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+        "date": null
       },
       {
         "title": "Panarion 68",
         "author": "Epiphanius of Salamis",
         "language": "Greek, with Petavius's Latin",
-        "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt"
+        "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt",
+        "date": null
       },
       {
         "title": "Church History, Book 1, chapters 6, 9 and 15 (Socrates); Book 1, chapter 15 (Sozomen)",
         "author": "Socrates of Constantinople; Sozomen",
         "language": "English translation",
-        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+        "date": null
       },
       {
         "title": "Canons of the council in Trullo (692), canon 2",
         "author": "The council in Trullo",
         "language": "English translation",
-        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+        "date": null
       },
       {
         "title": "Jews and Christians in Egypt, chapter on the Meletian schism",

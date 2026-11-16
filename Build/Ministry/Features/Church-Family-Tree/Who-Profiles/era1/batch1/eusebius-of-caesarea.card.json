@@ -76,25 +76,29 @@
         "title": "Church History, Book 1, chapters 1, 8 and 23; Book 2, chapters 4 and 21 (Socrates); Book 1, chapters 1 and 21 (Sozomen)",
         "author": "Socrates of Constantinople; Sozomen",
         "language": "English translation",
-        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+        "date": null
       },
       {
         "title": "Church History, Book 1, chapter 1",
         "author": "Theodoret of Cyrrhus",
         "language": "English translation",
-        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+        "date": null
       },
       {
         "title": "Defense of the Nicene Definition (De Decretis), 3",
         "author": "Athanasius of Alexandria",
         "language": "English translation",
-        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+        "date": null
       },
       {
         "title": "Panarion 68.8 (Petavius's Latin)",
         "author": "Epiphanius of Salamis",
         "language": "Latin",
-        "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt"
+        "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt",
+        "date": null
       },
       {
         "title": "Prolegomena and notes to the Church History",

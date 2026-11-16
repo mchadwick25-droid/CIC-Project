@@ -105,12 +105,16 @@
       {
         "title": "The Teaching of Addai (tr. B. P. Pratten)",
         "language": "English translation",
-        "file": "cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml"
+        "file": "cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml",
+        "author": null,
+        "date": null
       },
       {
         "title": "The Doctrine of Addai (tr. George Phillips)",
         "language": "English translation",
-        "file": "cic/texts/addai_doctrine-of-addai.txt"
+        "file": "cic/texts/addai_doctrine-of-addai.txt",
+        "author": null,
+        "date": null
       }
     ]
   },

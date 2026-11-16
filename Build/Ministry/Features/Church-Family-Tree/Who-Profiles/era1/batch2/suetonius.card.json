@@ -28,7 +28,7 @@
     "The spelling. Tertullian of Carthage complained that Romans said Chrestian for Christian, and Lactantius wrote that the ignorant changed one letter and called Christ Chrestus. Neither of them applies this to Suetonius's line.",
     "Thomson and Forester's English prints \"one Chrestus\", though the Latin has no word for \"one\".",
     "Who was expelled. The Latin can mean that Claudius expelled the Jews as a whole, or only those who kept rioting. Acts 18:2 says Claudius ordered all the Jews to leave Rome. The Thomson and Forester notes add that Dio Cassius says he only forbade their meetings.",
-    "His dates. No year of his life is given by an ancient writer used here. Rolfe reports 77 for his birth, from Mommsen, and 69, from Macé, which Rolfe thinks somewhat more probable; the Thomson and Forester preface puts it late in the reign of Vespasian. \"Around 120\" for his post as secretary is Rolfe's reckoning, from Spartianus and from the years 119 to 121 when his patron Septicius Clarus led the praetorian guard. The Thomson and Forester preface puts his dismissal in 121.",
+    "His dates. No year of his life is given by an ancient writer used here. Rolfe reports 77 for his birth, from Mommsen, and 69, from Macé, which Rolfe thinks somewhat more probable; the Thomson and Forester preface puts it late in the reign of Vespasian. Around 120 for his post as secretary is Rolfe's reckoning, from Spartianus and from the years 119 to 121 when his patron Septicius Clarus led the praetorian guard. The Thomson and Forester preface puts his dismissal in 121.",
     "When the Lives were written. Rolfe gives 120 for their publication. The one fixed point he cites is that a copy known to Johannes Lydus in the sixth century carried a dedication to Septicius Clarus.",
     "Suetonius blames Nero for the great fire, but his notice of the Christians does not mention it and gives no reason for the punishments.",
     "Thomson and Forester's English calls the Christians' superstition \"impious\". Suetonius's word, \"maleficae\", means harmful, and can also carry a sense of sorcery, which neither printed English gives."
@@ -64,7 +64,9 @@
       {
         "title": "Acts of the Apostles 18:2 (World English Bible)",
         "language": "English",
-        "file": "cic/texts/webbe_world-english-bible-british-edition.xml"
+        "file": "cic/texts/webbe_world-english-bible-british-edition.xml",
+        "author": null,
+        "date": null
       },
       {
         "title": "Apology 3 (tr. S. Thelwall); To the Nations I.3 (tr. Peter Holmes); On the Shows 5; On the Soul 44",

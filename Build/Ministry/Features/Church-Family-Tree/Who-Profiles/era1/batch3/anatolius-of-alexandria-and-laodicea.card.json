@@ -40,7 +40,7 @@
     "A longer Latin book on Easter, first printed in 1634, carries his name. Ideler held it to be a work of the seventh century. McGiffert, following Zahn, thinks there are \"the best of reasons\" for taking it as an early translation of his genuine work.",
     "His years. No ancient source used here gives the year of his birth or death. Ernest Cushing Richardson, in a note to his translation of Jerome, gives born about 230, bishop 270, died about 283, and names no source. A bracket in the Ante-Nicene Fathers, at the head of S. D. F. Salmond's translation of his works, gives 230, 270 and 280 as conjectural dates.",
     "His subjects. Eusebius lists arithmetic, geometry, astronomy, dialectic, physics and rhetoric. Jerome has grammar in place of physics.",
-    "The quoted words. The Greek behind McGiffert's printed \"commit no slight or common blunder\" stands in Eduard Schwartz and Theodor Mommsen's edition in rough scanned type, after a page break. The brief's modern English follows both."
+    "The quoted words. The Greek behind McGiffert's printed \"commit no slight or common blunder\" stands in Eduard Schwartz and Theodor Mommsen's edition in rough scanned type, after a page break. Our modern English follows both."
   ],
   "sources": {
     "ownWords": [
@@ -65,19 +65,22 @@
         "title": "Church History, Book 7, chapter 32, with McGiffert's notes",
         "author": "Eusebius of Caesarea",
         "language": "English translation",
-        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+        "date": null
       },
       {
         "title": "Lives of Illustrious Men, chapter 73, with Richardson's notes",
         "author": "Jerome of Strido",
         "language": "English translation",
-        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+        "date": null
       },
       {
         "title": "Ecclesiastical History of the English People, Book 3, chapters 3, 25 and 26 (tr. J. A. Giles, rev. L. C. Jane)",
         "author": "Bede",
         "language": "English translation",
-        "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt"
+        "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+        "date": null
       }
     ]
   },
