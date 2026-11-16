@@ -121475,7 +121475,7 @@ function narrPlayerHTML(url,attrs){
     +'<p class="narration-disclosure">Synthesized voice \u2014 not a recording.</p></div>';
 }
 const NARR_RATE_KEY='cic.narration.rate';
-const NARR_RATES=[1,1.25,1.5,2];
+const NARR_RATES=[0.75,1,1.25,1.5,2];
 function narrRate(){
   try{const r=parseFloat(localStorage.getItem(NARR_RATE_KEY));return NARR_RATES.includes(r)?r:1;}catch(e){return 1;}
 }

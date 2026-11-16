@@ -2,7 +2,7 @@
   'use strict';
 
   var RATE_KEY = 'cic.narration.rate';
-  var RATES = [1, 1.25, 1.5, 2];
+  var RATES = [0.75, 1, 1.25, 1.5, 2];
   var CSS = [
     '.cicp{--c-acc:#A13E2B;--c-fg:#2A2521;--c-mute:#6B6259;--c-rule:rgba(42,37,33,.18);',
     'flex:1 1 100%;display:flex;flex-wrap:wrap;align-items:center;gap:.3rem 1.1rem;padding:.4rem 0;',
