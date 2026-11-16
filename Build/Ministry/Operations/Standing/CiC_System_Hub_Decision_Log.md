@@ -7459,3 +7459,7 @@ The Polycarp of Smyrna clean write (`Build/Ministry/Operations/Audits/2026-11-16
 ## 2026-11-16 - Cap ruling: Church Family Tree, Polycarp clean write, round 5
 
 After round 4 (`R4_recheck.md`, PASS), the project lead read it and asked "does it tell the impact … or legacy". It did not: round 4 used about four of the sheet's 19 impact lines. He ruled "1, rebalance and run round 5". The recheck of round 5 is `R5_recheck.md`. It is the only review this ruling covers.
+
+## 2026-11-16 - Cap ruling: Church Family Tree, Polycarp clean write, fresh cold write
+
+Round 5 (`R5_recheck.md`) returned REVISE: the legacy was given words but not weight. The project lead ruled "1, fresh writer cold". A new writer works from only the one-page standard and the writer's sheet, and sees none of the five drafts or their reviews. This is a fresh cycle with its own three-round cap. Its first review is `Cold_R1_review.md`.

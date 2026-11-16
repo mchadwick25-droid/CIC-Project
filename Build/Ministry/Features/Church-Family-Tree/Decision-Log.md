@@ -4102,3 +4102,9 @@ The score measures only sentence length and syllables, so it cannot tell a punch
 **Why.** Mark read round 4 of the Polycarp clean write: "it does well to tell the story, does it tell the impact", "or legacy". It did not. About two-thirds of the brief told the arrest and death, and it drew on about four of the sheet's 19 impact lines. The standard said "then what came of it" but gave that part no weight, so the vivid beats took the time.
 
 **Decided (Mark, 2026-11-16): "1, rebalance and run round 5".** The Shape line becomes: "Then what came of it, given real weight, about a third of the story: their impact on the church, what they saw differently, what they defended, chosen by weight from the record." The length stays at about two and a half minutes. Round 5 runs under a Cap ruling in the System Hub Decision Log (2026-11-16, "Cap ruling: Church Family Tree, Polycarp clean write, round 5").
+
+## 2026-11-16 — Polycarp: a fresh writer, cold, to test the page itself (Mark, 2026-11-16)
+
+**Why.** Round 5 returned REVISE. Its legacy part had about 40% of the words but missed what Polycarp defended, Irenaeus's use of him as a witness to the apostles' teaching, and his church's view of his death. The lightest item took the ending. After five rounds of coaching, each fix had been paid for somewhere else. A standard is proven only when a writer who has never seen the review history can follow it cold.
+
+**Decided (Mark, 2026-11-16): "1, fresh writer cold".** A new writer gets only `Standard_draft.md` and `Writer_Sheet.md`. One Opus review follows, as a fresh cycle (System Hub Decision Log, 2026-11-16, "Cap ruling: Church Family Tree, Polycarp clean write, fresh cold write"). If the cold write fails, its failure shows which line of the page is weak, and that line is replaced.
