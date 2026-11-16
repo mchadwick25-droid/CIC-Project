@@ -3518,6 +3518,438 @@
   }
  },
  {
+  "row": 21,
+  "person": "The Night the Minister General Left Avignon",
+  "serves": "William of Ockham, Epistola ad fratres minores (1334)",
+  "ia_id": "bwb_T3-BOF-136",
+  "title_page_words": "GULIELMI DE OCKHAM EPISTOLA AD FRATRES MINORES. Edited with Notes and Introduction by C. KENNETH BRAMPTON m.a. B.LITT.",
+  "author_as_printed": "Gulielmi de Ockham",
+  "editor_translator_as_printed": "C. Kenneth Brampton m.a. b.litt. (editor)",
+  "place_publisher_as_printed": "Oxford: Basil Blackwell, MCMXXIX; printed at the Shakespeare Head Press, Stratford-upon-Avon",
+  "imprint_year": 1929,
+  "imprint_read_at": "OCR line 14 (MCMXXIX)",
+  "first_published": "Text first partly printed by Carl Muller 1883 and fully by Baudry 1926 (preface lines 52-58); this is the 1929 critical edition",
+  "host_rights": {
+   "possible-copyright-status": "absent",
+   "licenseurl": "absent",
+   "rights": "absent",
+   "access-restricted-item": "absent"
+  },
+  "language": "lat (Latin text, English introduction and notes)",
+  "bytes": 160027,
+  "listed": 160027,
+  "match": true,
+  "words": 26246,
+  "ocr_quality": "fair to clean: Latin text and line numbers readable; occasional noise in apparatus lines",
+  "divisions": "English introduction, then Latin text with marginal line numbers, then English notes (NOTES at line 2063) and additional note (line 3931)",
+  "text_start_line": 1211,
+  "text_end_line": 2058,
+  "editorial_matter": "preface lines 49-100; introduction lines 104-1210; notes from line 2063; additional note from line 3931",
+  "mixed_voices": "none seen in the text; editor's English in introduction and notes",
+  "wanted_passages": [
+   {
+    "what": "the Epistola (dated Whitsun 1334, Assisi) Latin text",
+    "ocr_lines": "1211-2058"
+   }
+  ],
+  "content_note": "Critical edition of Ockham's letter to the Franciscan chapter assembled at Assisi, in Latin, with an English introduction and notes. The letter explains why he separates himself from the friars who obey the pope.",
+  "cautions": "Modern critical edition (1929), not a facsimile; Latin text is the editor's. Editor's notes and introduction are secondary.",
+  "library_stamps_or_reprint_signs": "no reprint notice found at front or back; archive scan record from Internet Archive",
+  "searcher": "E6b",
+  "library_thread_refetch": {
+   "djvu": "bwb_T3-BOF-136_djvu.txt",
+   "bytes": 160027,
+   "match": true,
+   "host_rights": {
+    "possible-copyright-status": "absent",
+    "licenseurl": "absent",
+    "rights": "absent",
+    "access-restricted-item": "absent"
+   },
+   "host_date": "1929"
+  }
+ },
+ {
+  "row": 23,
+  "person": "Fraticelli and Spiritual Franciscans",
+  "serves": "Infessura, Diario della citta di Roma",
+  "ia_id": "diariodellacitt01infeuoft",
+  "title_page_words": "DIARIO DELLA CITTA DI ROMA DI STEFANO INFESSURA SCRIBASENATO. NUOVA EDIZIONE A CURA ORESTE TOMMASINI. VOL. UNICO CON CINQUE TAVOLE ILLUSTRATIVE",
+  "author_as_printed": "Stefano Infessura scribasenato",
+  "editor_translator_as_printed": "Oreste Tommasini",
+  "place_publisher_as_printed": "Roma, Forzani e C. tipografi del Senato, Palazzo Madama (Istituto Storico Italiano, Fonti per la storia d'Italia, Scrittori secolo XV)",
+  "imprint_year": 1890,
+  "imprint_read_at": "OCR lines 14 and 70-72 (1890)",
+  "first_published": "edition of 1890 (Tommasini); the diary text is 15th century",
+  "host_rights": {
+   "possible-copyright-status": "NOT_IN_COPYRIGHT",
+   "licenseurl": "absent",
+   "rights": "absent",
+   "access-restricted-item": "absent"
+  },
+  "language": "ita (Italian with Latin passages)",
+  "bytes": 1038937,
+  "listed": 1038937,
+  "match": true,
+  "words": 149048,
+  "ocr_quality": "fair: running text readable, variant footnotes noisy",
+  "divisions": "preface (PREFAZIONE from line 82), diary in annual sections headed 'DIARIA RERUM ROMANARUM' with year in margin from line 1223, index from line 17758",
+  "text_start_line": 1223,
+  "text_end_line": 17757,
+  "editorial_matter": "Tommasini preface lines 82-1220 ; variant-reading footnotes under every page; indexes from line 17758 to end",
+  "mixed_voices": "text-variants in footnotes; Latin passages inside the Italian",
+  "wanted_passages": [
+   {
+    "what": "fraticelli of S. Giovanni in Laterano driven out 1440",
+    "ocr_lines": "3390-3420"
+   },
+   {
+    "what": "fraticelli restored to S. Giovanni (1466)",
+    "ocr_lines": "5118-5128"
+   },
+   {
+    "what": "1467 prisoners from Poli called heretics",
+    "ocr_lines": "5206-5215"
+   }
+  ],
+  "content_note": "The Roman diary of a Senate scribe covering the city and papacy up to the 1490s, with entries on the friars of S. Giovanni in Laterano and on heretics brought to Rome.",
+  "cautions": "Entry year not always given in margin; footnote apparatus lists manuscript variants.",
+  "library_stamps_or_reprint_signs": "University of Toronto library pocket stamp at end; no reprint notice",
+  "searcher": "E6b",
+  "library_thread_refetch": {
+   "djvu": "diariodellacitt01infeuoft_djvu.txt",
+   "bytes": 1038937,
+   "match": true,
+   "host_rights": {
+    "possible-copyright-status": "NOT_IN_COPYRIGHT",
+    "licenseurl": "absent",
+    "rights": "absent",
+    "access-restricted-item": "absent"
+   },
+   "host_date": "1890"
+  }
+ },
+ {
+  "row": 24,
+  "person": "Capistrano at Breslau",
+  "serves": "Wadding, Annales Minorum tom. XII (year 1453)",
+  "ia_id": "bub_gb_BX9ppVbUITkC",
+  "title_page_words": "ANNALES MINORUM seu TRIUM ORDINUM A S. FRANCISCO INSTITUTORUM AUCTORE A.R.P. LUCA WADDINGO HIBERNO ... TOMUS XII, Editio secunda, locupletior, & accuratior, opera et studio R.mi P. Josephi Mariae Fonseca ab Ebora",
+  "author_as_printed": "Luca Waddingo Hiberno",
+  "editor_translator_as_printed": "Josephus Maria Fonseca ab Ebora (second edition)",
+  "place_publisher_as_printed": "Romae, Typis Rochi Bernabo, MDCCXXXV",
+  "imprint_year": 1735,
+  "imprint_read_at": "OCR line 61 (mdccxxxv); running head 'Tom. XII' on page image leaf 8",
+  "first_published": "first edition 1628 onward (second edition 1731-36); this is the second edition",
+  "host_rights": {
+   "possible-copyright-status": "absent",
+   "licenseurl": "http://creativecommons.org/publicdomain/mark/1.0/",
+   "rights": "absent",
+   "access-restricted-item": "absent"
+  },
+  "language": "lat",
+  "bytes": 2826917,
+  "listed": 2826917,
+  "match": true,
+  "words": 391618,
+  "ocr_quality": "fair: long-s and abbreviations cause errors; names and years readable",
+  "divisions": "annals by year with a running head 'Anno Christi ... Nicolai V.' ; year 1453 begins line 13443, 1454 at line 16515",
+  "text_start_line": 275,
+  "text_end_line": 55190,
+  "editorial_matter": "dedication to Clement XII and preface by Fonseca at front; indexes at back (from about line 52000)",
+  "mixed_voices": "documents (letters, bulls, trial instruments) quoted inside the annals",
+  "wanted_passages": [
+   {
+    "what": "Capistrano and the Breslau proceedings, 1453 (Hebrews/Jews of Breslau, 'negotium Fidei contra Hebraeos Vratislaviae')",
+    "ocr_lines": "13985-14000; 14196-14240"
+   },
+   {
+    "what": "1453 instruments at Breslau (bishop's deed, donation)",
+    "ocr_lines": "16310-16410"
+   }
+  ],
+  "content_note": "Franciscan annals of the Observant era under Nicholas V, 1453 and surrounding years, with Capistrano's activity in Breslau and Poland and printed documents. The matter on the Breslau trial of the Jews is inside the 1453 section.",
+  "cautions": "Wadding is a 17th-century annalist (second edition 1735); the 1453 trial record itself is summarised not printed in full. Not Hofer's modern book.",
+  "library_stamps_or_reprint_signs": "Google scan notices; National Central Library of Rome copy; no reprint notice",
+  "searcher": "E6b",
+  "library_thread_refetch": {
+   "djvu": "bub_gb_BX9ppVbUITkC_djvu.txt",
+   "bytes": 2826917,
+   "match": true,
+   "host_rights": {
+    "possible-copyright-status": "absent",
+    "licenseurl": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "rights": "absent",
+    "access-restricted-item": "absent"
+   },
+   "host_date": "1735"
+  }
+ },
+ {
+  "row": 25,
+  "person": "Observant Reform and Popular Preaching",
+  "serves": "Dlugosz, Historiae Polonicae, last book (printed as Liber XIII et ultimus, 1445-1480)",
+  "ia_id": "bub_gb_9qbJC69oLIkC",
+  "title_page_words": "IOANNIS DLVGOSSI SEU LONGINI CANONICI CRACOVIENSIS HISTORIAE POLONICAE TOMVS SECVNDVS. LIBER XIII ET VLTIMVS in mscriptis codicibus tantum non omnibus desideratus, nunc tandem in lucem publicam productus; ex bibliotheca Henrici L.B. ab Huyssen",
+  "author_as_printed": "Ioannis Dlugossi seu Longini canonici Cracoviensis",
+  "editor_translator_as_printed": "Henricus L.B. ab Huyssen (edition from his library)",
+  "place_publisher_as_printed": "place and printer not read in OCR; year printed ANNO MDCCXII",
+  "imprint_year": 1712,
+  "imprint_read_at": "OCR line 62 (ANNO M DCC XII)",
+  "first_published": "first print of these books 1711-12 (title: 'sex posteriores nondum editi')",
+  "host_rights": {
+   "possible-copyright-status": "absent",
+   "licenseurl": "http://creativecommons.org/publicdomain/mark/1.0/",
+   "rights": "absent",
+   "access-restricted-item": "absent"
+  },
+  "language": "lat",
+  "bytes": 5741042,
+  "listed": 5741042,
+  "match": true,
+  "words": 757817,
+  "ocr_quality": "fair: two-column page with long-s read as f; running text readable",
+  "divisions": "Dlugosz book running head 'LIBER DECIMVS TERTIVS' (this print's numbering, the modern Book 12), begins with news after Varna Dec 1444 and ends at the author's closing remarks; then Kadlubek, Sarnicki, Orzechowski and others in the same volume",
+  "text_start_line": 3788,
+  "text_end_line": 42084,
+  "editorial_matter": "preface and life of Dlugosz lines 100-3780; other authors from line 42084 on",
+  "mixed_voices": "marginal notes by the editor beside the text; other authors follow",
+  "wanted_passages": [
+   {
+    "what": "the whole last book, up to the 1480 closing words",
+    "ocr_lines": "3788-42084"
+   }
+  ],
+  "content_note": "The final book of Dlugosz's Polish history, covering the years after Varna to 1480, with the author's concluding statement at its end (line 41980 onward).",
+  "cautions": "This 1712 print calls the book LIBER XIII; modern editions number it Book 12. Not the Przezdziecki edition (not found on host).",
+  "library_stamps_or_reprint_signs": "Google scan notices; National Central Library of Rome; no reprint notice",
+  "searcher": "E6b",
+  "library_thread_refetch": {
+   "djvu": "bub_gb_9qbJC69oLIkC_djvu.txt",
+   "bytes": 5741042,
+   "match": true,
+   "host_rights": {
+    "possible-copyright-status": "absent",
+    "licenseurl": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "rights": "absent",
+    "access-restricted-item": "absent"
+   },
+   "host_date": "1712"
+  }
+ },
+ {
+  "row": 26,
+  "person": "Observant Reform and Popular Preaching",
+  "serves": "Monte di Pieta statutes Perugia 1462 (secondary: Holzapfel)",
+  "ia_id": "dieanfngedermo00holzuoft",
+  "title_page_words": "Die Anfaenge der Montes Pietatis (1462-1515). Von P. Heribert Holzapfel, O.F.M. Veroeffentlichungen aus dem Kirchenhistorischen Seminar Muenchen Nr. 11",
+  "author_as_printed": "P. Heribert Holzapfel, O.F.M.",
+  "editor_translator_as_printed": null,
+  "place_publisher_as_printed": "Muenchen, Verlag der J. J. Lentner'schen Buchhandlung (E. Stahl jun.)",
+  "imprint_year": 1903,
+  "imprint_read_at": "OCR lines 29, 64",
+  "first_published": "1903",
+  "host_rights": {
+   "possible-copyright-status": "NOT_IN_COPYRIGHT",
+   "licenseurl": "absent",
+   "rights": "absent",
+   "access-restricted-item": "absent"
+  },
+  "language": "ger",
+  "bytes": 349473,
+  "listed": 349473,
+  "match": true,
+  "words": 46126,
+  "ocr_quality": "fair",
+  "divisions": "chapters on the Montes Pietatis; source list of papal documents at lines 740-840; discussion of Perugia statutes near line 2539 onward",
+  "text_start_line": 90,
+  "text_end_line": 8286,
+  "editorial_matter": "none beyond author's notes",
+  "mixed_voices": "quotations from statutes in footnotes",
+  "wanted_passages": [
+   {
+    "what": "list of source documents and printings of Perugia statute changes",
+    "ocr_lines": "740-840"
+   },
+   {
+    "what": "discussion of statutes of three Montes",
+    "ocr_lines": "2539-2780"
+   }
+  ],
+  "content_note": "A scholarly study of the first Montes Pietatis, 1462-1515. It does not print the Perugia 1462 statutes; it summarises and cites them (e.g. Scalvanti).",
+  "cautions": "SECONDARY STUDY, not the statutes. The statutes' text is not in it. Pick only if a study is acceptable.",
+  "library_stamps_or_reprint_signs": "University of Toronto Robarts scan; no reprint notice",
+  "searcher": "E6b",
+  "library_thread_refetch": {
+   "djvu": "dieanfngedermo00holzuoft_djvu.txt",
+   "bytes": 349473,
+   "match": true,
+   "host_rights": {
+    "possible-copyright-status": "NOT_IN_COPYRIGHT",
+    "licenseurl": "absent",
+    "rights": "absent",
+    "access-restricted-item": "absent"
+   },
+   "host_date": "1903"
+  }
+ },
+ {
+  "row": 29,
+  "person": "Church of the East, Timur to Hakkari",
+  "serves": "Sharaf al-Din Yazdi, Zafarnama, English version vol. 1 (Darby 1723)",
+  "ia_id": "39020024846878-thehistoryoftim",
+  "title_page_words": "The HISTORY of TIMUR-BEC, known by the name of Tamerlain the Great, Emperor of the Moguls and Tartars, being an historical journal of his conquests in Asia and Europe. Written in Persian by Cherefeddin Ali, native of Tezd. Translated into French by the late Monsieur Petis de la Croix. Now faithfully render'd into English. In Two Volumes",
+  "author_as_printed": "Cherefeddin Ali, native of Tezd",
+  "editor_translator_as_printed": "translated into French by Petis de la Croix; English version unnamed",
+  "place_publisher_as_printed": "London: printed for J. Darby in Bartholomew-Close and others",
+  "imprint_year": 1723,
+  "imprint_read_at": "OCR line 87 (MDCCXXIII)",
+  "first_published": "French 1722",
+  "host_rights": {
+   "possible-copyright-status": "absent",
+   "licenseurl": "absent",
+   "rights": "absent",
+   "access-restricted-item": "absent"
+  },
+  "language": "eng",
+  "bytes": 986613,
+  "listed": 986613,
+  "match": true,
+  "words": 169912,
+  "ocr_quality": "fair: long-s read as f; readable",
+  "divisions": "books and chapters; Tecrit siege at line 23290 and Diarbekir at line 24006",
+  "text_start_line": 88,
+  "text_end_line": 28164,
+  "editorial_matter": "translator's preface and notes at front; chapter notes",
+  "mixed_voices": "translator's historical notes inside text",
+  "wanted_passages": [
+   {
+    "what": "Timur at Tecrit and Diarbekir",
+    "ocr_lines": "23290-24010"
+   }
+  ],
+  "content_note": "English version of the Persian court history of Timur through the French of Petis de la Croix, vol. 1.",
+  "cautions": "Vol. 1 of two. Not a translation direct from Persian. Vol. 2 located only (39020024846811, imprint year not readable). Persian text (Calcutta 1887-88) located: OCR unreadable.",
+  "library_stamps_or_reprint_signs": "Georgetown Riggs Library stamp on vol. 2; vol. 1 none seen",
+  "searcher": "E6b",
+  "library_thread_refetch": {
+   "djvu": "HighRes_39020024846878_djvu.txt",
+   "bytes": 986613,
+   "match": true,
+   "host_rights": {
+    "possible-copyright-status": "absent",
+    "licenseurl": "absent",
+    "rights": "absent",
+    "access-restricted-item": "absent"
+   },
+   "host_date": null
+  }
+ },
+ {
+  "row": 31,
+  "person": "Rhineland Mysticism and the Friends of God",
+  "serves": "John XXII's condemnation of Eckhart (1329), as printed by Raynaldus",
+  "ia_id": "annalesecclesias24barouoft",
+  "title_page_words": "CAESARIS S.R.E. CARD. BARONII, OD. RAYNALDI ET JAC. LADERCHII ANNALES ECCLESIASTICI ... TOMUS VIGESIMUS QUARTUS 1313-1333",
+  "author_as_printed": "Caesaris Baronii, Od. Raynaldi et Jac. Laderchii",
+  "editor_translator_as_printed": "(host record: Theiner)",
+  "place_publisher_as_printed": "Barri-Ducis, ex typis Consociationis Sancti Pauli (Paris and Freiburg)",
+  "imprint_year": 1880,
+  "imprint_read_at": "OCR line 76 (M DCCC LXXX); host date 1864",
+  "first_published": "Raynaldus continuation 17th century; Theiner printing",
+  "host_rights": {
+   "possible-copyright-status": "NOT_IN_COPYRIGHT",
+   "licenseurl": "absent",
+   "rights": "absent",
+   "access-restricted-item": "absent"
+  },
+  "language": "lat",
+  "bytes": 3682263,
+  "listed": 3682263,
+  "match": true,
+  "words": 449933,
+  "ocr_quality": "fair: two-column, some noise",
+  "divisions": "annals by year; year 1329 (John XXII year 14) begins line 52274",
+  "text_start_line": 90,
+  "text_end_line": 73765,
+  "editorial_matter": "summarium at front; indexes at back",
+  "mixed_voices": "papal letters quoted in the annals",
+  "wanted_passages": [
+   {
+    "what": "1329 paragraph 70: Eckhart condemned; papal letter 'Dolenter referimus' with the 26 articles",
+    "ocr_lines": "57106-57345"
+   }
+  ],
+  "content_note": "Annals of the Church for 1313-1333. The 1329 section prints a papal document against Eckhart with the 26 articles and the condemnation.",
+  "cautions": "The words 'In agro dominico' are not in the OCR of this passage; the incipit printed is 'Dolenter referimus'. Check the incipit against the bull before citing it by name.",
+  "library_stamps_or_reprint_signs": "University of Toronto Robarts scan; imprint year 1880 on the title page; no reprint notice",
+  "searcher": "E6b",
+  "library_thread_refetch": {
+   "djvu": "annalesecclesias24barouoft_djvu.txt",
+   "bytes": 3682263,
+   "match": true,
+   "host_rights": {
+    "possible-copyright-status": "NOT_IN_COPYRIGHT",
+    "licenseurl": "absent",
+    "rights": "absent",
+    "access-restricted-item": "absent"
+   },
+   "host_date": "1864"
+  }
+ },
+ {
+  "row": 32,
+  "person": "Muscovite Monastic Christianity",
+  "serves": "Election of Jonas as metropolitan, Dec 1448, Voskresenskaya chronicle (PSRL 8)",
+  "ia_id": "polnoesobranierusskihletopisejizdannoep88",
+  "title_page_words": "Polnoe sobranie russkikh letopisei, izdannoe po vysochaishemu poveleniiu Arkheograficheskoiu kommissieiu. Tom osmyi. VII. Prodolzhenie letopisi po Voskresenskomu spisku",
+  "author_as_printed": "Arkheograficheskaia kommissiia",
+  "editor_translator_as_printed": null,
+  "place_publisher_as_printed": "Sankt-Peterburg, V tipografii Eduarda Prattsa",
+  "imprint_year": 1859,
+  "imprint_read_at": "OCR lines 41-45 (1859)",
+  "first_published": "1859",
+  "host_rights": {
+   "possible-copyright-status": "absent",
+   "licenseurl": "absent",
+   "rights": "absent",
+   "access-restricted-item": "absent"
+  },
+  "language": "rus (Church Slavonic/Russian)",
+  "bytes": 1986839,
+  "listed": 1986839,
+  "match": true,
+  "words": 52761,
+  "ocr_quality": "fair: Slavonic letters partly garbled; headings and years readable",
+  "divisions": "chronicle by year; contents at lines 350-620; year 6957 headed 'O postavlenii mitropolita Iony' at line 7251",
+  "text_start_line": 100,
+  "text_end_line": 17320,
+  "editorial_matter": "preface in Russian lines 55-200; variant readings in footnotes",
+  "mixed_voices": "variant readings from other manuscripts in footnotes",
+  "wanted_passages": [
+   {
+    "what": "installation of Metropolitan Jonas, December 6957 (1448)",
+    "ocr_lines": "7249-7262"
+   }
+  ],
+  "content_note": "Chronicle continuation to the Voskresenskaya manuscript, covering Muscovite affairs to the mid-15th century, including the council that installed Jonas as metropolitan in December 6957.",
+  "cautions": "Chronicle entry, not the council's own acts. Year is in the Sept-based era (6957 is 1448/49). OCR of the passage is partly garbled.",
+  "library_stamps_or_reprint_signs": "Library stamp of the Imperial Moscow society seen near title page; no reprint notice",
+  "searcher": "E6b",
+  "library_thread_refetch": {
+   "djvu": "polnoesobranierusskihletopisejizdannoep88_djvu.txt",
+   "bytes": 1986839,
+   "match": true,
+   "host_rights": {
+    "possible-copyright-status": "absent",
+    "licenseurl": "absent",
+    "rights": "absent",
+    "access-restricted-item": "absent"
+   },
+   "host_date": "1859"
+  }
+ },
+ {
   "row": 4,
   "person": "The Bishop's Speech to the Parish",
   "serves": "Peder Palladius, En Visitatsbog (his own visitation address)",

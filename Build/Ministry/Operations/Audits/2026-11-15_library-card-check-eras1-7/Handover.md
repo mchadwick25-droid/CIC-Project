@@ -48,7 +48,7 @@ searching is done; the intake is the next session's work.
    HathiTrust, Google Books downloads, MDZ and documentacatholicaomnia as blocked or broken from this sandbox).
    Their picks, with title-page words, imprint, host rights fields, OCR quality and the wanted passages' OCR
    line ranges, are merged in `candidates.json` (one object per picked file; `searcher` says which run).
-   The era 6 rows 18-34 searcher (E6b) had not reported when this file was first written: see the last section.
+   All nine have reported; the era 6 rows 18-34 run (E6b) is summarized in the last section.
 3. **Second download by the Library thread** of every pick (`tools/refetch.py`): byte count equal to the host's
    listed size for every file (`library_thread_refetch.match` in `candidates.json`). The scratch downloads are
    gone with the session: fetch each again by identifier (`tools/refetch.py <id> ...` writes `dl/<id>__<djvu name>`
@@ -173,3 +173,22 @@ The searchers' own reports were returned as messages, not files; their substance
    carrying the "located, OCR unreadable" list with links, the held-for-Mark list, and the INTAKE.md gap.
 7. One independent review (a fresh subagent given the files, not the conclusions), then at most a targeted recheck.
 8. Draft pull request, one push, one line to the coordinator, wait for its go.
+
+## Era 6 rows 18-34 (the last searcher, added after it reported)
+
+Its eight picks are in `candidates.json` (`searcher` E6b), each downloaded a second time with the byte count
+equal to the host's. Calls:
+- Take, once the imprint line is read by the Library thread: bwb_T3-BOF-136 (Ockham, Epistola ad fratres minores,
+  ed. Brampton, Oxford 1929, OCR line 14; a British print of 1929, inside the date rule); diariodellacitt01infeuoft
+  (Infessura, ed. Tommasini, Rome 1890); bub_gb_BX9ppVbUITkC (Wadding, Annales Minorum XII, Rome 1735, for
+  Capistrano at Breslau, 1453); bub_gb_9qbJC69oLIkC (Dlugosz, Historiae Polonicae II, 1712; place not read);
+  39020024846878-thehistoryoftim (Yazdi's Timur-Bec in Darby's English, vol. 1, London 1723);
+  polnoesobranierusskihletopisejizdannoep88 (PSRL 8, 1859: the chronicle entry on Jonas, not the council acts;
+  judge whether the Cyrillic OCR is readable); annalesecclesias24barouoft (Raynaldus for 1329: the passage on
+  Eckhart prints the incipit 'Dolenter referimus', not 'In agro dominico'; say so in the shelf note).
+- Judge before vendoring: dieanfngedermo00holzuoft (Holzapfel 1903, a study; it does not print the Perugia
+  statutes of 1462).
+- Located only: Timur-Bec vol. 2 (39020024846811, imprint not readable); the Persian Zafarnama (zafarnmah01shar,
+  zafarnmah02shar; OCR unreadable); PSRL 12 (12_20241124_20241124_1139; OCR unreadable).
+- Not taken: Ibn Kathir's al-Bidaya (the host's scans are undated or of the 1930s).
+- Not found: era 6 rows 18 (Margery Kempe: no print before 1936 exists), 22, 27, 33, 34. Row 19 is not a text.
