@@ -87,7 +87,7 @@ The other thirteen years are the OCR's and agree with the host's date: Dialogues
 III (1886), Maurice (1884), Ward (1897), Cabot (1895), Drummond (1860), Colenso (1863), Wilder (June 1890), the
 American Church History volume (1895), Bellett (1870; 1886), Snow (1884), and Dialogues vol. II (see call 2).
 
-The spec that wrote the headers (`mkspec299.py`) checks about 110 line anchors against the host text before it
+The spec that wrote the headers (`mkspec299.py`) checks 96 line anchors against the host text before it
 writes anything. Two first failed on OCR garbles of the right word.
 
 ## Corrections to the list
