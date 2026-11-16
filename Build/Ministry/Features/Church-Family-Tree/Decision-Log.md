@@ -4035,7 +4035,7 @@ The branch's 89 story-card relabels and cuts are not released. The moves of Beun
 
 **Decided (coordinator, 2026-11-16):** "make it data release 49 (2026-11-16). It's a source-citation release only". Era 1 will be release 50.
 - The nine census sources that cited the retired 2012 printing now cite `cic/texts/van-braght_martyrs-mirror_sohm-elkhart1886.txt` at the same passages (Open-Gaps, "Library, the Martyrs' Mirror swap", 2026-11-16).
-- Three quotations take the 1886 spacing and spelling. A word the 1886 scan breaks across a line end is shown whole: "Ensisheim", "six hundred", "fellow" (two records) and Felix Manz's "eternal".
+- Three quotations take the 1886 spacing and spelling. A word the 1886 scan breaks across a line end is shown whole: "hundred" (in "six hundred"), "fellow" (two records) and Felix Manz's "eternal".
 - `tools/validate-census.mjs` accepts a quotation that gives such a word whole or with the break kept, and nothing else. One passing and one failing test cover it.
 - The six `work` fields that give the full title (five of the nine sources, and Dirk Willems's story source) spell it "The Bloody Theatre", as the 1886 title leaf prints it.
 - No brief, card text, recording or link changes. The data page gives the new release number.
