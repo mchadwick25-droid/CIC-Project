@@ -3,7 +3,7 @@
 Files are under `cic/texts/`. Line numbers are file lines.
 TA = `tacitus_annals-15-44_church-brodribb1876.txt` (one chapter only; the chapter is the single line 68; lines 1-60 are the vendoring header). T3 = `anf03_tertullian.xml`. TL = `tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt` (Latin). SS = `npnf211_sulpitius-severus-vincent-lerins-cassian.xml`. SL = `sulpicius-severus_libri-qui-supersunt-chronica-vita-martini-lat_halm1866-csel1.txt` (Latin). E1 = `npnf201_eusebius-church-history-life-of-constantine.xml`. SR = `suetonius_lives-of-the-caesars-loeb_rolfe1914.txt`. AM = `ammianus-marcellinus_roman-history_yonge1862.txt`.
 
-Words 326 (`wc -w`; the tool counts 323), grade 8.9, reading ease (names out) 73.8.
+Words 320 (`wc -w`; the tool counts 317), grade 8.7, reading ease (names out) 74.7.
 Over 300 because an outside witness's brief must say exactly what he says: the chapter's four statements (the blame, Christus under Pilate, the convictions, the deaths and the pity) and the two ancient reactions are all kept, and nothing else is.
 
 ## (a) Moved to the card
@@ -17,17 +17,18 @@ Over 300 because an outside witness's brief must say exactly what he says: the c
 - The translation is identified as Church and Brodribb's only at vendoring; the file names no translator: TA header 10-25. Card, Sources (already there).
 - John Rolfe's "Tacitus did not find a follower until the time of Ammianus Marcellinus": SR 375-376; Yonge's preface on Ammianus beginning where Tacitus ends (AM, already on the card). Out of the brief.
 - The NPNF translator's note that Sulpicius uses "superstitio exitiabilis", "the very words which Tacitus employs", of the Gnostics in Spain: SS 11453-11455 (note 385 to Sacred History II.46). Card, How they're remembered, as the translator's observation.
+- Whether Tacitus wrote of the Christians anywhere else: the held file is one chapter and its header says nothing in it licenses a claim about the rest of Tacitus (TA header 37-43). Sulpicius Severus tells of Titus's council resolving to destroy the temple so that "the religion of the Jews and of the Christians might more thoroughly be subverted" (Sacred History II.30, SS 10724-10736), a passage the round 1 reviewer notes is widely taken to come from the lost Histories; Sulpicius names no source. The brief therefore says "his chapter on the Christians", not "his one chapter". Card, What is uncertain.
 - Tertullian's second passage (To the Nations I.11, "most loquacious in falsehood"; and its slip, "fourth book" for fifth): T3 10081-10097. The brief tells the Apology's version; the card keeps both.
 
 ## (b) What the brief draws on
 
 - A great fire; people believed Nero had ordered it: Annals 15.44, TA 68 ("the sinister belief that the conflagration was the result of an order"); the emperor named as the one blamed, Sulpicius Severus, Sacred History II.29, SS 10654-10659. Year 64: see (a).
 - Cornelius Tacitus, senator and historian, about fifty years later: name, T3 2570 and 10081; role and date, TA header 5, 8-9 (see (a)).
-- Not a Christian; treats them as criminals: TA 68 ("a class hated for their abominations", "a most mischievous superstition", "criminals who deserved extreme and exemplary punishment").
+- Not a Christian; his chapter on the Christians treats them as criminals (the brief does not say it is his only one; see (a)): TA 68 ("a class hated for their abominations", "a most mischievous superstition", "criminals who deserved extreme and exemplary punishment").
 - To end the rumor Nero put the blame on the Christians (Q1): TA 68 ("Consequently, to get rid of the report, Nero fastened the guilt ...").
 - Christus, Tiberius, Pontius Pilatus (Q2): TA 68.
 - A harmful superstition, checked for a moment, broke out again in Judaea where it began and in Rome: TA 68 ("a most mischievous superstition, thus checked for the moment, again broke out not only in Judaea, the first source of the evil, but even in Rome"). Told without marks.
-- Those who confessed arrested first; on their information a vast number convicted, less for the fire than for hatred of mankind: TA 68 ("an arrest was first made of all who pleaded guilty; then, upon their information, an immense multitude was convicted, not so much of the crime of firing the city, as of hatred against mankind"). Told without marks.
+- Those who confessed, he says, arrested first; on their word a vast number convicted, less for the fire than for hatred of the human race: TA 68 ("an arrest was first made of all who pleaded guilty; then, upon their information, an immense multitude was convicted, not so much of the crime of firing the city, as of hatred against mankind"). Told without marks. "He says" stands on the first sentence so that the unexplained "confessed" is marked as Tacitus's own; the chapter does not say what they pleaded guilty to, and the brief does not settle it.
 - Skins and dogs, crosses, burned as lamps after dark: TA 68 ("Covered with the skins of beasts, they were torn by dogs and perished, or were nailed to crosses, or were doomed to the flames and burnt, to serve as a nightly illumination, when daylight had expired").
 - He thought they deserved the harshest punishment; people pitied them; one man's cruelty, not the public good: TA 68 ("even for criminals who deserved extreme and exemplary punishment, there arose a feeling of compassion; for it was not, as it seemed, for the public good, but to glut one man's cruelty, that they were being destroyed").
 - He does not say where he learned of Christus, and names none of the shameful acts: TA 68, read whole (the chapter gives no source and no particular of the "abominations").
@@ -43,21 +44,22 @@ Q1
 - printed: "a class hated for their abominations, called Christians by the populace"
 - rendering: "hated for their shameful acts, whom the common people called Christians."
 - original: not held (the file is English only)
-- notes: The brief's own word "group" stands outside the marks for "a class". "Abominations" is told as "shameful acts": the printed word now carries a religious sense the chapter does not explain. "Populace" is "the common people". The second renderer has no Latin to check against.
+- notes: The brief's own word "group" stands outside the marks for "a class". "Abominations" is told as "shameful acts": the printed word now carries a religious sense the chapter does not explain. "Populace" is "the common people". Final reading of `renderings/comparison.md` E6, the same as this first rendering.
 
 Q2
 - file: `tacitus_annals-15-44_church-brodribb1876.txt`
 - lines: 68
 - printed: "Christus, from whom the name had its origin, suffered the extreme penalty during the reign of Tiberius at the hands of one of our procurators, Pontius Pilatus"
-- rendering: "Christus, from whom the name came, suffered the death penalty in the reign of Tiberius, at the hands of one of our procurators, Pontius Pilatus."
-- original: not held
-- notes: "The extreme penalty" is told as "the death penalty". "Procurators" is kept, since "governors" would say more than the printed word. "Christus" and "Pontius Pilatus" keep the printed forms.
+- rendering: "Christus, from whom the name came, was put to death in the reign of Tiberius by the procurator Pontius Pilate."
+- original: not held in the Tacitus file. The Latin stands only as a later quotation, in `mansi_sacrorum-conciliorum-collectio-tomus-2-305-346-lat_welter-facsimile1901.txt` 41697-41699 (rough scan; read in `renderings/comparison.md` E7 as "Auctor nominis ejus Christus, qui Tiberio imperante per procuratorem Pontium Pilatum supplicio affectus erat"). I opened those lines; "per procura- / torem Pontium Pilatum" is legible.
+- notes: This is the final reading of the two-rendering check (`renderings/comparison.md`, E7), which replaced the first rendering. "Per procuratorem" has no "one of our", so the printed addition is dropped. "Procurator" is kept, since "governor" would say more than the word. "Pilate" is the form the listener knows; "Christus" stays as Tacitus spells it.
 
 ## (d) Card changes needed
 
 - Legacy, "How they're remembered": Tertullian's line now told from Apology 16 in our words; keep "most loquacious in falsehood" with its file and lines as printed wording. Sulpicius: say he follows the account detail for detail without naming Tacitus, and calls the victims innocent. Move Rolfe's remark on Ammianus to Sources or drop it.
 - What is uncertain: keep "does not say where he learned about Christus"; add that he names none of the "abominations"; keep Gibbon, Schiller and McGiffert here (now only here); add the Medicean "chrestianos" reading and the Shaw and Jones question from the file header; add that 64 and "about fifty years later" are modern dates the chapter does not give.
 - Under the references, the printed wording of Q1 and Q2 with file and line 68; one line that the quotations are in our modern English.
+- What is uncertain: say that "senator" rests in the Library only on the vendoring header (TA header 5); add that the held file is one chapter, so the Library cannot show whether Tacitus wrote of the Christians elsewhere, with Sulpicius's account of Titus's council (SS 10724-10736) as the passage in question; add the note from `renderings/comparison.md` E7 that the Latin says "by the procurator Pontius Pilate" and the familiar English "one of our procurators" adds words.
 - `briefLength`: about 2 minutes still holds.
 - `dates`: "Wrote after 96" rests on Yonge's preface; the file header gives "c. 116". The card should carry one or both and say whose they are.
 
@@ -85,3 +87,18 @@ Line of the story: a hostile Roman historian tells how Nero blamed and killed th
 - "Around 400" for Sulpicius and "around 200" for Tertullian's Apology are modern datings from the volume introductions and notes.
 - Tertullian's attack concerns the Histories, which are not held. The brief reports only what Tertullian says Tacitus wrote.
 - Old brief: its direct quotations from the 1876 English are replaced by renderings or unmarked tellings. I found no claim in it that the held file contradicts. Its phrase "retold Nero's tortures in nearly the same words" was stronger than the files show for the English; the brief now says "the same details in the same order".
+
+## Round 1 revision
+
+Review: `reviews/round1-g2.md`. Verdict was BLOCKED on one finding.
+
+- **B1, fixed.** I opened the held file's header (TA 37-43: "THIS IS ONE CHAPTER, NOT THE ANNALS ... Nothing here licenses a claim about what Tacitus says elsewhere"), Tertullian on the fifth book of the Histories (T3 2570-2582) and Sulpicius on Titus's council (SS 10724-10736). The reviewer is right: the held files cannot carry "one".
+  - Old: "He was not a Christian, and his one chapter on the Christians treats them as criminals."
+  - New: "He was not a Christian, and his chapter on the Christians treats them as criminals."
+- **Non-blocking, "confessed": taken.** The chapter's "all who pleaded guilty" does not say to what (TA 68). The brief still does not settle it; "he says" now stands on that sentence so the word is marked as his. No word added.
+  - Old: "Those who confessed were arrested first. On their word, he says, a vast number were convicted, less for setting the fire than for hatred of the human race."
+  - New: "Those who confessed, he says, were arrested first. On their word a vast number were convicted, less for setting the fire than for hatred of the human race."
+- **Non-blocking, the ass's head told flat: left**, as the reviewer says it may stand (Tertullian is named in the sentence before).
+- **Sentence test:** none marked; nothing removed.
+- **Quotations:** none added, removed or reworded. Section (c) Q2 now records the final reading the brief carries (comparison E7), which the first writer's record had not yet shown.
+- Sections (e) and (f) are the first writer's and are left as written.

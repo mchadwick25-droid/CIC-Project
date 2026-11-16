@@ -3,14 +3,14 @@
 Files are under `cic/texts/`. Line numbers are file lines.
 SR = `suetonius_lives-of-the-caesars-loeb_rolfe1914.txt` (Latin and English, with John Rolfe's introduction and notes). ST = `suetonius_lives-of-the-twelve-caesars_thomson-forester1909.txt` (English, with notes). TA = `tacitus_annals-15-44_church-brodribb1876.txt`. T3 = `anf03_tertullian.xml`. TL = `tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt` (Latin). L7 = `anf07_lactantius-apostolic-constitutions-didache-liturgies.xml`. LL = `lactantius_divinae-institutiones-lat_brandt1890-csel-tei.txt` (Latin). WB = `webbe_world-english-bible-british-edition.xml`. J3 = `npnf203_theodoret-jerome-gennadius-rufinus.xml`.
 
-Words 298 (`wc -w`; the tool counts 297), grade 9.6, reading ease (names out) 69.4.
+Words 288 (`wc -w`; the tool counts 287), grade 9.8, reading ease (names out) 68.7.
 
 ## (a) Moved to the card
 
 - John Rolfe's note on Chrestus: "Another form of Christus; see Tert. Apol. 3 (at the end). It is uncertain whether Suetonius is guilty of an error in chronology or is referring to some Jew of that name. The former seems probable because of the absence of quodam. Tacitus, Ann. 15. 44, uses the correct form": SR 25871-25876. The brief tells the two readings without naming him and gives the ancient witnesses he points to.
 - The Thomson and Forester note 528: Suetonius "transplanting Christ from Jerusalem to Rome, and placing him in the time of Claudius"; "The antagonism between Christianity and Judaism appears to have given rise to the tumults"; "Chrestus ... was a name in use among the Greeks and Romans"; Dio says Claudius only forbade their meetings: ST 20360-20382. Their "one Chrestus": ST 10640. Card, What is uncertain, naming them.
 - The ANF note to Lactantius, "Suetonius speaks of Christ as Chrestus": L7 3165. Card, as the editor's reading.
-- "Around 120": Rolfe says the Lives were "published in 120" (SR 323) and that he was secretary to Hadrian "probably" from 119 to 121 (SR 232-235), from Spartianus, whose Latin on the dismissal Rolfe quotes (SR 238-241); the Thomson and Forester preface puts the dismissal in 121 (ST 52-58). Card, What is uncertain: the year is modern reckoning.
+- "Around 120": Rolfe says the Lives were "published in 120" (SR 323) and that he was secretary to Hadrian "probably" from 119 to 121 (SR 232-235), from Spartianus, whose Latin on the dismissal Rolfe quotes (SR 238-241); the Thomson and Forester preface puts the dismissal in 121 (ST 52-58). Card, What is uncertain: the year is modern reckoning. In the brief "around 120" now attaches only to the office. When the twelve Lives were written is not settled: "published in 120" is Rolfe's flat figure (SR 323). The held file shows only that a copy carried a dedication to Septicius Clarus (SR 327-345, from Johannes Lydus) and that Septicius was prefect "119 to 121" (SR 234-235); the round 1 reviewer adds that the dedication dates the opening book and that the date of the later Lives is debated, which no held line states. The card should say the date of the Lives is modern reckoning.
 - His father Suetonius Laetus, tribune of the Thirteenth legion at Betriacum: his own words, Otho 10, SR 34517-34519 (Latin), 34570-34572 (English). Cut from the brief on the sentence test; card.
 - Pliny the Younger's letters, the bar, the military tribuneship, the birth dates of Mommsen (77) and Macé (69): SR 156-190. Card.
 - Tertullian sends readers to "Suetonius Tranquillus" for the idols behind the games: On the Shows 5, T3 6789-6791; and cites him that Nero never dreamt: On the Soul 44, T3 18756-18759. Cut from the brief (one example was enough); card, How they're remembered. Rolfe's statement that Tertullian used a lost work of Suetonius on the games (SR 398-400) rests on Rolfe.
@@ -19,46 +19,46 @@ Words 298 (`wc -w`; the tool counts 297), grade 9.6, reading ease (names out) 69
 
 ## (b) What the brief draws on
 
-- Around 120, in Rome, secretary to Hadrian: SR 232-241 (Rolfe, from Spartianus); ST 50-58; census place "Rome". See (a) and notes.
-- Lives of twelve Caesars, Julius to Domitian: SR 322-325; the file itself.
+- Around 120, secretary to the emperor Hadrian in Rome (the year attaches to the office only): SR 232-241 (Rolfe, from Spartianus); ST 50-58; census place "Rome". See (a) and notes.
 - Not a Christian: Nero 16.2, SR 28459-28460 (he calls the Christians' faith a new and harmful superstition).
-- Two short notices in all twelve lives: SR 25843-25844 and 28459-28460; the file's own index gives only these two, SR 48359-48361 ("Chrestus, Cl. xxv. 4"; "Christiani, N. xvi. 2"); a search of the file for "Chrest" and "Christian" finds no other in the text of Suetonius.
-- The Claudius notice (Q1): Claudius 25.4, SR 25843-25844 (Latin), 25907-25909 (Rolfe's English); ST 10639-10640.
+- His lives of twelve Caesars, Julius Caesar to Domitian (no year of writing is given): SR 322-325; the file itself.
+- They give the Christians two short notices: SR 25843-25844 and 28459-28460; the file's own index gives only these two, SR 48359-48361 ("Chrestus, Cl. xxv. 4"; "Christiani, N. xvi. 2"); a search of the file for "Chrest" and "Christian" finds no other in the text of Suetonius.
+- The first notice, in the life of Claudius (Q1): Claudius 25.4, SR 25843-25844 (Latin), 25907-25909 (Rolfe's English); ST 10639-10640.
 - Acts says Claudius ordered all the Jews to leave Rome: Acts 18:2, WB 88523 ("because Claudius had commanded all the Jews to depart from Rome").
 - Suetonius says nothing more of Chrestus: SR 25843-25847 (the next sentence turns to the German envoys); no other mention in the file.
 - The line reads as if Chrestus were in Rome under Claudius: SR 25843-25844 ("impulsore Chresto", the instigator of the disturbances at Rome). Tacitus puts the death of Christus under Tiberius: Annals 15.44, TA 68.
 - The two readings (another man of that name; a confused report about Christ): the line itself; the dispute as set out at SR 25871-25875 and ST 20360-20382, told without the editors' names.
-- Tertullian complains that Romans said Chrestian: Apology 3, T3 1713-1715 ("even when it is wrongly pronounced by you 'Chrestianus' (for you do not even know accurately the name you hate)"); To the Nations I.3, T3 9205-9207, Latin TL 31641-31643 ("cum corrupte a vobis Chrestiani pronuntiamur"); Apology Latin TL 12454 ("Sed et cum perperam Chrestia[nus]").
+- Romans did get the name wrong (the claim the next two witnesses carry). Tertullian complained that they said Chrestian: Apology 3, T3 1713-1715 ("even when it is wrongly pronounced by you 'Chrestianus' (for you do not even know accurately the name you hate)"); To the Nations I.3, T3 9205-9207, Latin TL 31641-31643 ("cum corrupte a vobis Chrestiani pronuntiamur"); Apology Latin TL 12454 ("Sed et cum perperam Chrestia[nus]").
 - Lactantius: the ignorant change one letter and call him Chrestus: Divine Institutes IV.7, L7 3163 ("on account of the error of the ignorant, who by the change of a letter are accustomed to call Him Chrestus"); Latin LL 16813-16814 ("propter ignorantium errorem, qui eum inmutata littera Chrestum solent dicere"). "Later": Lactantius wrote in Constantine's day.
 - The Nero notice sits in a list of abuses put down and rules made, between the rule on taverns and the curb on chariot drivers: Nero 16.2, SR 28454-28462 (Latin: "Multa sub eo et animadversa severe et coercita nec minus instituta ... interdictum ne quid in popinis cocti praeter legumina aut holera veniret ... vetiti quadrigariorum lusus"), 28517-28529 (English); ST 11608-11617.
 - The Nero notice (Q2): SR 28458-28460 (Latin), 28523-28525 (English); ST 11612-11614.
 - Suetonius says Nero set fire to Rome: Nero 38, SR 30503-30504 (Latin "incendit urbem tam palam"), 30560-30563 (English). No link to the Christians and no reason given: SR 28458-28460 and Nero 38 read whole.
 - No early Christian writer in the held sources quotes either notice: a search of the ANF and NPNF volumes and the Latin files for "Suetonius", "Tranquillus", "impulsore Chresto" and "superstitionis novae" finds the notices only in modern notes (see notes).
-- Jerome was urged to follow the example of Tranquillus and do for the church's writers what he did for the famous writers of the pagans: Lives of Illustrious Men, preface, J3 38773-38780 ("You have urged me, Dexter, to follow the example of Tranquillus in giving a systematic account of ecclesiastical writers, and to do for our writers what he did for the illustrious men of letters among the Gentiles"). "Near the end of the fourth century": the preface carries the list to the fourteenth year of Theodosius, J3 38784-38786. Told without marks.
+- Yet Jerome wrote that he was urged to follow the example of Tranquillus and do for the church's writers what he did for the famous writers of the pagans: Lives of Illustrious Men, preface, J3 38773-38780 ("You have urged me, Dexter, to follow the example of Tranquillus in giving a systematic account of ecclesiastical writers, and to do for our writers what he did for the illustrious men of letters among the Gentiles"). "Near the end of the fourth century": the preface carries the list to the fourteenth year of Theodosius, J3 38784-38786. Told without marks.
 
 ## (c) Quotations
 
-Q1 (one sentence, split in the brief by "Suetonius writes")
+Q1 (one sentence, now unbroken in the brief)
 - file: `suetonius_lives-of-the-caesars-loeb_rolfe1914.txt`
 - lines: 25907-25909
 - printed: "Since the Jews constantly made disturbances at the instigation of Chrestus, he expelled them from Rome."
-- rendering: "The Jews were constantly causing disturbances at the instigation of Chrestus," ... "and he expelled them from Rome."
+- rendering: "The Jews were constantly causing disturbances at the instigation of Chrestus, and he expelled them from Rome."
 - original: "Iudaeos impulsore Chresto assidue tumultuantis Roma expulit." (SR 25843-25844)
-- notes: The Latin has a participle, "tumultuantis", with no word for "since"; Rolfe adds the cause, and the rendering joins with "and" instead. The Latin can also be read as "he expelled the Jews who were constantly causing disturbances", a smaller group; the rendering, like both printed versions, takes it of the Jews as a whole. "Impulsore" is "instigator"; "at the instigation of" follows both printed versions. Thomson and Forester print "one Chrestus" (ST 10640); the Latin has no word for "one".
+- notes: The Latin has a participle, "tumultuantis", with no word for "since"; Rolfe adds the cause, and the rendering joins with "and" instead. The Latin can also be read as "he expelled the Jews who were constantly causing disturbances", a smaller group; the rendering, like both printed versions, takes it of the Jews as a whole. "Impulsore" is "instigator"; "at the instigation of" follows both printed versions. Thomson and Forester print "one Chrestus" (ST 10640); the Latin has no word for "one". Final reading of `renderings/comparison.md` E8, word for word; in the round 1 revision the words "Suetonius writes", which stood between its two halves, were taken out, and no word inside the marks changed.
 
 Q2
 - file: `suetonius_lives-of-the-caesars-loeb_rolfe1914.txt`
 - lines: 28523-28525
 - printed: "Punishment was inflicted [on] the Christians, a class of men given to a new and mischievous superstition." (the file's scan reads "inflicted a the Christians"; "on" is supplied)
-- rendering: "The Christians were punished, a class of people with a new and harmful superstition."
+- rendering: "The Christians were punished, a group of people given to a new and harmful superstition."
 - original: "afflicti suppliciis Christiani, genus hominum superstitionis novae ac maleficae" (SR 28458-28460)
-- notes: "Maleficae" is told as "harmful". Rolfe's "mischievous" now sounds light, and Thomson and Forester's "impious" (ST 11613) is a different sense; the Latin word can also carry the sense of sorcery, which neither printed version gives and the rendering does not claim. "Suppliciis" is plural, "punishments"; "were punished" keeps the passive and drops the plural. "Hominum" is "people". "Given to" is Rolfe's addition; the Latin has a bare genitive, told as "with".
+- notes: "Maleficae" is told as "harmful". Rolfe's "mischievous" now sounds light, and Thomson and Forester's "impious" (ST 11613) is a different sense; the Latin word can also carry the sense of sorcery, which neither printed version gives and the rendering does not claim. "Suppliciis" is plural, "punishments"; "were punished" keeps the passive and drops the plural. "Hominum" is "people". The Latin has a bare genitive, which "given to" supplies. This is the final reading of `renderings/comparison.md` E9, which replaced the first rendering's "class" (now suggests social class) and "with".
 
 ## (d) Card changes needed
 
 - Sources, Written about them: add Tertullian (Apology 3; To the Nations I.3; On the Shows 5; On the Soul 44; `anf03_tertullian.xml`), Lactantius (Divine Institutes IV.7; `anf07_...`), Jerome (Lives of Illustrious Men, preface; `npnf203_...`), and Acts 18:2.
 - Legacy, "How they're remembered": add Jerome's preface, in his own words; keep Rolfe's remarks on Tertullian's use and on Paulinus, named as Rolfe's.
-- What is uncertain: the Chrestus dispute stays, with Rolfe's and Thomson and Forester's notes now only here; add that the Latin may mean only the Jews who were rioting; add that "around 120" is modern reckoning; keep the birth dates and the note that the Nero notice is not linked to the fire.
+- What is uncertain: the Chrestus dispute stays, with Rolfe's and Thomson and Forester's notes now only here; add that the Latin may mean only the Jews who were rioting; add that "around 120" is modern reckoning for the office, and that the date of the Lives is modern reckoning too, with the dedication to Septicius Clarus (SR 327-345) as the one fixed point the held file gives; name who holds each reading of Chrestus (Rolfe; Thomson and Forester), since the brief cannot; keep the birth dates and the note that the Nero notice is not linked to the fire.
 - The father at Betriacum, Pliny's letters and the dismissal by Hadrian are no longer told in the brief; the card keeps them with their lines.
 - Under the references, the printed wording of Q1 and Q2 (Rolfe) with file and lines; one line that the quotations are in our modern English. The old brief's Thomson and Forester wording for the Nero notice is no longer quoted.
 - `briefLength`: about 2 minutes still holds.
@@ -86,3 +86,25 @@ Line of the story: a Roman court biographer leaves two short notices of the Chri
 - Lactantius is placed only as "later". His date is not checked against a held line here.
 - "Near the end of the fourth century" for Jerome's preface is reckoned from "the fourteenth year of the Emperor Theodosius" (J3 38784-38786); the NPNF note prints "a.d. 492", a misprint for 392.
 - Old brief: it quoted the Nero notice in Thomson and Forester's wording ("impious"); the Latin "maleficae" does not mean impious, so the new rendering is made from the Latin. Its statement that Rolfe "takes" the missing "one" as a sign that Christ is meant is accurate to Rolfe ("absence of quodam") but belongs on the card. Its biography (father, Pliny, dismissal) is accurate to the held files and was cut only for relevance. I found no claim in it that the held files contradict.
+
+## Round 1 revision
+
+Review: `reviews/round1-g2.md`. Verdict was BLOCKED on one finding.
+
+- **B1, fixed.** The reviewer is right that both sentences only announced the next one. Each paragraph opening is rewritten so the connector is gone and the sentence carries its content.
+  - Old: "The first is in the life of Claudius. "The Jews were constantly causing disturbances at the instigation of Chrestus," Suetonius writes, "and he expelled them from Rome.""
+  - New: "The first, in the life of Claudius, reads: "The Jews were constantly causing disturbances at the instigation of Chrestus, and he expelled them from Rome.""
+  - Old: "Jerome looked to Suetonius for something else. Near the end of the fourth century he wrote that he had been urged to follow the example of Suetonius and do for the church's writers what he had done for the famous authors of the pagans."
+  - New: "Yet near the end of the fourth century Jerome wrote that he had been urged to follow the example of Suetonius and do for the church's writers what he had done for the famous authors of the pagans." ("Yet" carries the turn from "no early Christian writer quoting either notice".)
+- **Non-blocking, "around 120" (the coordinator's instruction): taken.** The year now attaches to the office and not to the writing of the Lives (SR 232-235 for the office; SR 323 is Rolfe's flat "published in 120").
+  - Old: "Around 120, Suetonius was in Rome as secretary to the emperor Hadrian, and he wrote the lives of twelve Caesars, from Julius Caesar to Domitian. He was not a Christian, and in all twelve lives the Christians get two short notices."
+  - New: "Around 120 Suetonius was secretary to the emperor Hadrian in Rome. He was not a Christian, and his lives of twelve Caesars, from Julius Caesar to Domitian, give the Christians two short notices."
+- **Non-blocking, the emphatic "did" on Tertullian: taken, recast.** The reviewer's flow test found the relation between the second reading and Tertullian left for the listener to supply. The claim is now stated and the two witnesses follow it (T3 1713-1715; L7 3163, "are accustomed to call Him Chrestus").
+  - Old: "Tertullian of Carthage did complain that Romans said Chrestian for Christian, and Lactantius later wrote that the ignorant changed one letter and called Christ Chrestus."
+  - New: "Romans did get the name wrong. Tertullian of Carthage complained that they said Chrestian for Christian, and Lactantius later wrote that the ignorant changed one letter and called Christ Chrestus."
+  - Why a short sentence and not a colon: with the two connector sentences folded in, one long sentence here took the full text to grade 10.4, over the ceiling. The short sentence states a claim of its own (that the confusion of the names is attested), so it is not a connector; the reviewer should test it.
+- **Non-blocking, item 16 (what was going on at the opening): left.** The reviewer calls it acceptable for an outside witness, and anything added would cost length.
+- **Non-blocking, the card naming who holds each reading: recorded in (d).**
+- **Sentence test:** both marked sentences are gone.
+- **Quotations:** none added or removed. No word inside any marks changed; Q1's two halves now stand unbroken. Section (c) Q2 now records the final reading the brief carries (comparison E9).
+- Sections (e) and (f) are the first writer's and are left as written; (f) still quotes the two sentences that B1 removed.
