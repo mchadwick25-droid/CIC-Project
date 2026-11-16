@@ -18,7 +18,7 @@ Provenance note: Body text unaltered including its own OCR errors.
   (1632) together with the movement's own catechism and
   sacramental/ordination/funeral forms - distinct from, and
   independent of, the Confession's reproduction inside the
-  already-vendored Martyrs Mirror (van-braght_martyrs-mirror_sohm1886.txt).
+  already-vendored Martyrs Mirror (van-braght_martyrs-mirror_sohm-elkhart1886.txt).
   Confirmed by direct read of the downloaded text before vendoring.
 
 00 

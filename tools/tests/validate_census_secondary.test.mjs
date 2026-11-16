@@ -39,3 +39,21 @@ test("a held secondary source with a quote not in its lines fails", () => {
 test("a held secondary source with a file but no quote fails", () => {
   assert.equal(secondaryErrors({ ...held, quote: null }).length, 1);
 });
+
+// A word the file breaks with "-" at a line end (cic/texts/van-braght_martyrs-mirror_sohm-elkhart1886.txt
+// lines 332-333: "my slain fel-" / "low brethren and sisters").
+const broken = {
+  kind: "primary", source_id: null, work: "Thieleman J. van Braght, The Bloody Theatre or Martyrs Mirror (1660), tr. Joseph F. Sohm (1886)",
+  file: "cic/texts/van-braght_martyrs-mirror_sohm-elkhart1886.txt", lines: "331-333",
+  locus: "van Braght's dedicatory prayer", license: "public-domain",
+};
+
+test("a quote that gives whole a word the file breaks at a line end passes, and so does the break kept", () => {
+  assert.deepEqual(secondaryErrors({ ...broken, quote: "my slain fellow brethren and sisters," }), []);
+  assert.deepEqual(secondaryErrors({ ...broken, quote: "my slain fel- low brethren and sisters," }), []);
+});
+
+test("joining a line-end break does not pass other words, nor join a hyphen inside a line", () => {
+  assert.equal(secondaryErrors({ ...broken, quote: "my slain fellow brothers and sisters," }).length, 1);
+  assert.equal(secondaryErrors({ ...broken, lines: "57650-57652", quote: "and neverending death." }).length, 1);
+});

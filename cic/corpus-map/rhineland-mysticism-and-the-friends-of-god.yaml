@@ -342,19 +342,17 @@ works:
 
     '
   source_file: theologia-germanica_theologia-deutsch-gmh_pfeiffer1851.txt
-- row_id: van-braght_martyrs-mirror_sohm1886--martyrs-mirror-tauler-cited-as-a-witness-against-the-church
+- row_id: van-braght_martyrs-mirror_sohm-elkhart1886--martyrs-mirror-tauler-cited-as-a-witness-against-the-church
   work: 'Martyrs Mirror: Tauler cited as a witness against the church of his day'
   author: van-braght
-  locus: whole volume
+  locus: file lines 45270-45306, under the year 1400; Tauler named again at 46273
   role: context
   confidence: provisional
-  note: 'Under the year 1400 the compiler quotes Tauler on blind prelates, says he never urged
-    one man to hurt another, and praises him (file lines 45958 to 46000; Tauler is named again
-    at 46972). The Mennonite martyr book thus claims him. Tier: out of window. Placed on that
-    passage.
-
-    '
-  source_file: van-braght_martyrs-mirror_sohm1886.txt
+  language: eng
+  note: Under the year 1400 the compiler quotes Tauler on blind prelates, says he never urged
+    one man to hurt another, and praises him (file lines 45270 to 45306; Tauler is named again
+    at 46273). The Mennonite martyr book thus claims him.
+  source_file: van-braght_martyrs-mirror_sohm-elkhart1886.txt
 - row_id: wesley-j_journal-v1_curnock1909--wesley-s-journal-reading-tauler
   work: 'Wesley''s Journal: reading Tauler'
   author: wesley-j

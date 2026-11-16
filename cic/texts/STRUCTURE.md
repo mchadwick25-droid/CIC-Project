@@ -9,11 +9,19 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `abdisho-iv_approbatio-et-professio-fidei-concilio-tridentino-lat_1562.txt`
 
-1 section(s) to level 2 · ~2,045 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~2,041 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 2,045 | 2,045 | abdisho-iv_approbatio-et-professio-fidei-concilio-tridentino-lat_1562 |
+| `1` | 0 | 2,041 | 2,041 | abdisho-iv_approbatio-et-professio-fidei-concilio-tridentino-lat_1562 |
+
+## `abelard_opera-pl178-lat_migne1885.txt`
+
+1 section(s) to level 2 · ~929,416 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 929,416 | 929,416 | abelard_opera-pl178-lat_migne1885 |
 
 ## `abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt`
 
@@ -39,6 +47,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 191,941 | 191,941 | acrelius_history-of-new-sweden_reynolds1874 |
 
+## `acta-apostolicae-sedis_v18-lat_1926.txt`
+
+1 section(s) to level 2 · ~181,242 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 181,242 | 181,242 | acta-apostolicae-sedis_v18-lat_1926 |
+
+## `acta-apostolicae-sedis_v2-lat_1910.txt`
+
+1 section(s) to level 2 · ~345,241 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 345,241 | 345,241 | acta-apostolicae-sedis_v2-lat_1910 |
+
+## `acta-apostolicae-sedis_v20-lat_1928.txt`
+
+1 section(s) to level 2 · ~141,298 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 141,298 | 141,298 | acta-apostolicae-sedis_v20-lat_1928 |
+
 ## `acta-et-diplomata-graeca_acta-patriarchatus-constantinopolitani-1315-1402-v1-grc-lat_miklosich-mueller1860.txt`
 
 1 section(s) to level 2 · ~201,017 words of text · ~0 words of apparatus
@@ -63,6 +95,102 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 65,892 | 65,892 | acta-martyrum-selecta_gebhardt1902 |
 
+## `acta-sanctae-sedis_v40-lat_1907.txt`
+
+1 section(s) to level 2 · ~180,888 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 180,888 | 180,888 | acta-sanctae-sedis_v40-lat_1907 |
+
+## `acta-sanctorum_aprilis-tomus-3-lat_palme1866.txt`
+
+1 section(s) to level 2 · ~1,172,687 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 1,172,687 | 1,172,687 | acta-sanctorum_aprilis-tomus-3-lat_palme1866 |
+
+## `acta-sanctorum_augusti-tomus-1-lat_1750.txt`
+
+1 section(s) to level 2 · ~1,040,555 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 1,040,555 | 1,040,555 | acta-sanctorum_augusti-tomus-1-lat_1750 |
+
+## `acta-sanctorum_julii-tomus-3-lat-grc_palme1868.txt`
+
+1 section(s) to level 2 · ~865,597 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 865,597 | 865,597 | acta-sanctorum_julii-tomus-3-lat-grc_palme1868 |
+
+## `acta-sanctorum_junii-tomus-5-lat_palme1867.txt`
+
+1 section(s) to level 2 · ~1,168,081 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 1,168,081 | 1,168,081 | acta-sanctorum_junii-tomus-5-lat_palme1867 |
+
+## `acta-sanctorum_maii-tomus-5-lat_palme1866.txt`
+
+1 section(s) to level 2 · ~734,966 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 734,966 | 734,966 | acta-sanctorum_maii-tomus-5-lat_palme1866 |
+
+## `acta-sanctorum_maii-tomus-6-lat_1739.txt`
+
+1 section(s) to level 2 · ~931,243 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 931,243 | 931,243 | acta-sanctorum_maii-tomus-6-lat_1739 |
+
+## `acta-sanctorum_martii-tomus-1-lat_1735.txt`
+
+1 section(s) to level 2 · ~1,174,317 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 1,174,317 | 1,174,317 | acta-sanctorum_martii-tomus-1-lat_1735 |
+
+## `acta-sanctorum_martii-tomus-1-lat_palme1865.txt`
+
+1 section(s) to level 2 · ~1,109,593 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 1,109,593 | 1,109,593 | acta-sanctorum_martii-tomus-1-lat_palme1865 |
+
+## `acta-sanctorum_martii-tomus-2-lat_palme1865.txt`
+
+1 section(s) to level 2 · ~1,191,693 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 1,191,693 | 1,191,693 | acta-sanctorum_martii-tomus-2-lat_palme1865 |
+
+## `acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt`
+
+1 section(s) to level 2 · ~1,140,408 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 1,140,408 | 1,140,408 | acta-sanctorum_martii-tomus-3-lat-grc_palme1865 |
+
+## `acta-sanctorum_octobris-tomus-10-lat_bruxelles1861.txt`
+
+1 section(s) to level 2 · ~945,531 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 945,531 | 945,531 | acta-sanctorum_octobris-tomus-10-lat_bruxelles1861 |
+
 ## `actus-beati-francisci_actus-beati-francisci-et-sociorum-eius-lat_sabatier1902.txt`
 
 1 section(s) to level 2 · ~109,001 words of text · ~0 words of apparatus
@@ -70,6 +198,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 109,001 | 109,001 | actus-beati-francisci_actus-beati-francisci-et-sociorum-eius-lat_sabatier1902 |
+
+## `adam-bremen_gesta-hammaburgensis-ecclesiae-pontificum-lat_schmeidler1917.txt`
+
+1 section(s) to level 2 · ~207,188 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 207,188 | 207,188 | adam-bremen_gesta-hammaburgensis-ecclesiae-pontificum-lat_schmeidler1917 |
+
+## `adam-bremen_hamburgische-kirchengeschichte-deu_steinberg1926.txt`
+
+1 section(s) to level 2 · ~98,707 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 98,707 | 98,707 | adam-bremen_hamburgische-kirchengeschichte-deu_steinberg1926 |
+
+## `adam-eynsham_magna-vita-sancti-hugonis-lat_dimock1864.txt`
+
+1 section(s) to level 2 · ~160,400 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 160,400 | 160,400 | adam-eynsham_magna-vita-sancti-hugonis-lat_dimock1864 |
 
 ## `addai_doctrine-of-addai.txt`
 
@@ -95,6 +247,70 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 76,022 | 76,022 | adomnan_life-of-saint-columba_huyshe1905 |
 
+## `adoratskii_pravoslavnaia-missiia-v-kitae-vyp1-1685-1745-rus_1887.txt`
+
+1 section(s) to level 2 · ~46,350 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 46,350 | 46,350 | adoratskii_pravoslavnaia-missiia-v-kitae-vyp1-1685-1745-rus_1887 |
+
+## `adoratskii_pravoslavnaia-missiia-v-kitae-vyp2-1745-1808-rus_1887.txt`
+
+1 section(s) to level 2 · ~57,930 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 57,930 | 57,930 | adoratskii_pravoslavnaia-missiia-v-kitae-vyp2-1745-1808-rus_1887 |
+
+## `adriaanse_sadrachs-kring-nld_1899.txt`
+
+1 section(s) to level 2 · ~171,646 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 171,646 | 171,646 | adriaanse_sadrachs-kring-nld_1899 |
+
+## `aelfric_vita-s-aethelwoldi-in-chronicon-monasterii-de-abingdon-v2-lat_stevenson1858.txt`
+
+1 section(s) to level 2 · ~211,675 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 211,675 | 211,675 | aelfric_vita-s-aethelwoldi-in-chronicon-monasterii-de-abingdon-v2-lat_stevenson1858 |
+
+## `aelred-rievaulx_opera-pl195-lat_migne1855.txt`
+
+1 section(s) to level 2 · ~561,051 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 561,051 | 561,051 | aelred-rievaulx_opera-pl195-lat_migne1855 |
+
+## `agathangelos_agathangelus-und-die-akten-gregors-von-armenien-grc-deu_lagarde1887.txt`
+
+1 section(s) to level 2 · ~79,657 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 79,657 | 79,657 | agathangelos_agathangelus-und-die-akten-gregors-von-armenien-grc-deu_lagarde1887 |
+
+## `aglipay_catequesis-de-la-iglesia-filipina-independiente-spa_1912.txt`
+
+1 section(s) to level 2 · ~43,012 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 43,012 | 43,012 | aglipay_catequesis-de-la-iglesia-filipina-independiente-spa_1912 |
+
+## `agnes-prague_some-new-sources-for-the-life-of-blessed-agnes-of-bohemia_seton1915.txt`
+
+1 section(s) to level 2 · ~60,467 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 60,467 | 60,467 | agnes-prague_some-new-sources-for-the-life-of-blessed-agnes-of-bohemia_seton1915 |
+
 ## `akathist-hymn_little-compline-grc-eng_london1919.txt`
 
 1 section(s) to level 2 · ~15,077 words of text · ~0 words of apparatus
@@ -110,6 +326,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 239,721 | 239,721 | akty-arkheograficheskoi-ekspeditsii_akty-t2-1598-1615-rus_1836 |
+
+## `akty-istoricheskie_t1-1334-1598-rus_arkheograficheskaia-kommissiia1841.txt`
+
+1 section(s) to level 2 · ~320,791 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 320,791 | 320,791 | akty-istoricheskie_t1-1334-1598-rus_arkheograficheskaia-kommissiia1841 |
 
 ## `akty-iuzhnoi-i-zapadnoi-rossii_t2-1599-1637-rus_kostomarov1865.txt`
 
@@ -127,6 +351,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 325,557 | 325,557 | akty-zapadnoi-rossii_t4-1588-1652-rus_1851 |
 
+## `al-maqqari_history-of-the-mohammedan-dynasties-in-spain-v1_gayangos1840.txt`
+
+1 section(s) to level 2 · ~364,921 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 364,921 | 364,921 | al-maqqari_history-of-the-mohammedan-dynasties-in-spain-v1_gayangos1840 |
+
+## `al-maqqari_history-of-the-mohammedan-dynasties-in-spain-v2_gayangos1843.txt`
+
+1 section(s) to level 2 · ~378,839 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 378,839 | 378,839 | al-maqqari_history-of-the-mohammedan-dynasties-in-spain-v2_gayangos1843 |
+
 ## `alcuin_opera-omnia-letters_migne-pl100-101_1863.txt`
 
 1 section(s) to level 2 · ~711,016 words of text · ~0 words of apparatus
@@ -134,6 +374,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 711,016 | 711,016 | alcuin_opera-omnia-letters_migne-pl100-101_1863 |
+
+## `alfred-the-great_west-saxon-version-of-gregorys-pastoral-care-ang-eng_sweet1871.txt`
+
+1 section(s) to level 2 · ~229,679 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 229,679 | 229,679 | alfred-the-great_west-saxon-version-of-gregorys-pastoral-care-ang-eng_sweet1871 |
 
 ## `alishan_leon-le-magnifique-et-table-chronologique-de-sissouan-fra_alishan1888.txt`
 
@@ -145,27 +393,27 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `all-saints-bristol_pre-reformation-records-part1_burgess1995.txt`
 
-1 section(s) to level 2 · ~78,827 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~78,895 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 78,827 | 78,827 | all-saints-bristol_pre-reformation-records-part1_burgess1995 |
+| `1` | 0 | 78,895 | 78,895 | all-saints-bristol_pre-reformation-records-part1_burgess1995 |
 
 ## `all-saints-bristol_pre-reformation-records-part2_burgess2000.txt`
 
-1 section(s) to level 2 · ~152,409 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~152,477 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 152,409 | 152,409 | all-saints-bristol_pre-reformation-records-part2_burgess2000 |
+| `1` | 0 | 152,477 | 152,477 | all-saints-bristol_pre-reformation-records-part2_burgess2000 |
 
 ## `all-saints-bristol_pre-reformation-records-part3_burgess2004.txt`
 
-1 section(s) to level 2 · ~220,463 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~220,531 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 220,463 | 220,463 | all-saints-bristol_pre-reformation-records-part3_burgess2004 |
+| `1` | 0 | 220,531 | 220,531 | all-saints-bristol_pre-reformation-records-part3_burgess2004 |
 
 ## `allen-richard_life-experience-and-gospel-labors_1880.txt`
 
@@ -199,6 +447,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 42,558 | 42,558 | allen-william_true-sincere-and-modest-defence-v2_1914 |
 
+## `allgemeine-missions-zeitschrift_jg45-46-deu_berlin1918-1919.txt`
+
+1 section(s) to level 2 · ~282,209 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 282,209 | 282,209 | allgemeine-missions-zeitschrift_jg45-46-deu_berlin1918-1919 |
+
 ## `almeida_historia-aethiopiae-liber-5-8-por_beccari1907.txt`
 
 1 section(s) to level 2 · ~201,127 words of text · ~0 words of apparatus
@@ -231,6 +487,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 36,134 | 36,134 | american-sunday-school-union_memoirs-of-francke_1831 |
 
+## `american-zulu-mission_amagama-okuhlabelela-zul_1911.txt`
+
+1 section(s) to level 2 · ~117,924 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 117,924 | 117,924 | american-zulu-mission_amagama-okuhlabelela-zul_1911 |
+
 ## `ames_marrow-of-sacred-divinity_1639.txt`
 
 1 section(s) to level 2 · ~122,752 words of text · ~0 words of apparatus
@@ -246,6 +510,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 264,224 | 264,224 | ammianus-marcellinus_roman-history_yonge1862 |
+
+## `amphilochius-iconium_opera-pg39-grc-lat_migne1858.txt`
+
+1 section(s) to level 2 · ~919,819 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 919,819 | 919,819 | amphilochius-iconium_opera-pg39-grc-lat_migne1858 |
 
 ## `amr-ibn-matta_de-patriarchis-nestorianorum-commentaria-pars-altera-ara-lat_gismondi1896-1897.txt`
 
@@ -910,6 +1182,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | `10` | 1 | 1 | 288 | *Indexes* (apparatus) |
 | `10.1` | 2 | 287 | 287 | *Index of Pages of the Print Edition* (apparatus) |
 
+## `anglo-saxon-chronicle_newly-translated_gomme1909.txt`
+
+1 section(s) to level 2 · ~127,575 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 127,575 | 127,575 | anglo-saxon-chronicle_newly-translated_gomme1909 |
+
+## `anglo-saxon-chronicle_two-of-the-saxon-chronicles-parallel-v1-ang_plummer1892.txt`
+
+1 section(s) to level 2 · ~186,095 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 186,095 | 186,095 | anglo-saxon-chronicle_two-of-the-saxon-chronicles-parallel-v1-ang_plummer1892 |
+
 ## `anjou_history-of-the-reformation-in-sweden_mason1859.txt`
 
 1 section(s) to level 2 · ~232,428 words of text · ~0 words of apparatus
@@ -917,6 +1205,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 232,428 | 232,428 | anjou_history-of-the-reformation-in-sweden_mason1859 |
+
+## `anna-komnene_alexias-grc_reifferscheid1884.txt`
+
+1 section(s) to level 2 · ~189,147 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 189,147 | 189,147 | anna-komnene_alexias-grc_reifferscheid1884 |
 
 ## `annales-cambriae-rolls-series-20-lat_williams-ab-ithel1860.txt`
 
@@ -934,6 +1230,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 92,709 | 92,709 | annales-regni-francorum_kurze1895 |
 
+## `annales-regum-iyasu-ii-et-iyoas_textus-gez_guidi1910.txt`
+
+1 section(s) to level 2 · ~129,709 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 129,709 | 129,709 | annales-regum-iyasu-ii-et-iyoas_textus-gez_guidi1910 |
+
+## `annales-regum-iyasu-ii-et-iyoas_versio-fra_guidi1912.txt`
+
+1 section(s) to level 2 · ~114,066 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 114,066 | 114,066 | annales-regum-iyasu-ii-et-iyoas_versio-fra_guidi1912 |
+
+## `annals-of-ulster_annala-uladh-v1-431-1056-gle-lat-eng_hennessy1887.txt`
+
+1 section(s) to level 2 · ~224,420 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 224,420 | 224,420 | annals-of-ulster_annala-uladh-v1-431-1056-gle-lat-eng_hennessy1887 |
+
 ## `anonymous-uniate_apollogia-rusi-unitom-obrzadek-pol_1772.txt`
 
 1 section(s) to level 2 · ~18,700 words of text · ~0 words of apparatus
@@ -941,6 +1261,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 18,700 | 18,700 | anonymous-uniate_apollogia-rusi-unitom-obrzadek-pol_1772 |
+
+## `anselm-canterbury_opera-with-eadmer-historia-novorum-pl159-lat_migne1903.txt`
+
+1 section(s) to level 2 · ~505,841 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 505,841 | 505,841 | anselm-canterbury_opera-with-eadmer-historia-novorum-pl159-lat_migne1903 |
+
+## `anselm-canterbury_opera-with-eadmer-vita-anselmi-pl158-lat_migne1864.txt`
+
+1 section(s) to level 2 · ~572,731 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 572,731 | 572,731 | anselm-canterbury_opera-with-eadmer-vita-anselmi-pl158-lat_migne1864 |
+
+## `antiochus-strategos_sack-of-jerusalem-614_conybeare1910.txt`
+
+1 section(s) to level 2 · ~10,489 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 10,489 | 10,489 | antiochus-strategos_sack-of-jerusalem-614_conybeare1910 |
 
 ## `antiphonary-of-bangor-pt2-lat_warren1895.txt`
 
@@ -950,6 +1294,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 82,686 | 82,686 | antiphonary-of-bangor-pt2-lat_warren1895 |
 
+## `antliff_life-of-the-venerable-hugh-bourne_1872.txt`
+
+1 section(s) to level 2 · ~167,669 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 167,669 | 167,669 | antliff_life-of-the-venerable-hugh-bourne_1872 |
+
+## `antonil_cultura-e-opulencia-do-brasil-por_1711.txt`
+
+1 section(s) to level 2 · ~62,318 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 62,318 | 62,318 | antonil_cultura-e-opulencia-do-brasil-por_1711 |
+
 ## `antony-of-choziba_vita-georgii-chozibitae-analecta-bollandiana-7-grc_1888.txt`
 
 1 section(s) to level 2 · ~95,322 words of text · ~0 words of apparatus
@@ -958,13 +1318,21 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 95,322 | 95,322 | antony-of-choziba_vita-georgii-chozibitae-analecta-bollandiana-7-grc_1888 |
 
-## `aphrahat_demonstrations-2-7_hallock1932.txt`
+## `aphrahat_demonstrationes-1-22-syr-lat_parisot1894.txt`
 
-1 section(s) to level 2 · ~12,564 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~216,865 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 12,564 | 12,564 | aphrahat_demonstrations-2-7_hallock1932 |
+| `1` | 0 | 216,865 | 216,865 | aphrahat_demonstrationes-1-22-syr-lat_parisot1894 |
+
+## `aphrahat_demonstrations-2-7_hallock1932.txt`
+
+1 section(s) to level 2 · ~12,651 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 12,651 | 12,651 | aphrahat_demonstrations-2-7_hallock1932 |
 
 ## `apollinaris-laodicea_fragmente-apollinaris-von-laodicea-und-seine-schule-grc-deu_lietzmann1904.txt`
 
@@ -1000,11 +1368,11 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `aquino-de-belen_pasyon-and-manga-panalangin-tgl_manila1760.txt`
 
-1 section(s) to level 2 · ~33,015 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~33,009 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 33,015 | 33,015 | aquino-de-belen_pasyon-and-manga-panalangin-tgl_manila1760 |
+| `1` | 0 | 33,009 | 33,009 | aquino-de-belen_pasyon-and-manga-panalangin-tgl_manila1760 |
 
 ## `arab-faqih_futuh-al-habasha-conquete-de-labyssinie-fra_basset1897.txt`
 
@@ -1030,6 +1398,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 102,095 | 102,095 | archpriest-controversy_documents-v2-1601-1603_law1898 |
 
+## `ari-thorgilsson_islendingabok-and-kristni-saga-in-origines-islandicae-v1-non-eng_vigfusson-powell1905.txt`
+
+1 section(s) to level 2 · ~412,771 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 412,771 | 412,771 | ari-thorgilsson_islendingabok-and-kristni-saga-in-origines-islandicae-v1-non-eng_vigfusson-powell1905 |
+
 ## `aristides_apology-syriac-grc-eng_harris-robinson1893.txt`
 
 1 section(s) to level 2 · ~53,804 words of text · ~0 words of apparatus
@@ -1037,6 +1413,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 53,804 | 53,804 | aristides_apology-syriac-grc-eng_harris-robinson1893 |
+
+## `arkhiv-iugo-zapadnoi-rossii_ch1-t2-pravoslavie-v-zapadnoi-ukraine-xviii-rus_1864.txt`
+
+1 section(s) to level 2 · ~157,860 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 157,860 | 157,860 | arkhiv-iugo-zapadnoi-rossii_ch1-t2-pravoslavie-v-zapadnoi-ukraine-xviii-rus_1864 |
 
 ## `arkhiv-iugo-zapadnoi-rossii_ch1-t7-pamiatniki-polemiki-vyshensky-mogila-rus_1887.txt`
 
@@ -1054,6 +1438,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 172,391 | 172,391 | arkhiv-iugo-zapadnoi-rossii_ch1-t9-lithos-pol_golubev1893 |
 
+## `armenian-church_divine-liturgy_1908.txt`
+
+1 section(s) to level 2 · ~20,080 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 20,080 | 20,080 | armenian-church_divine-liturgy_1908 |
+
 ## `arminian-magazine_vol-1_1778.txt`
 
 1 section(s) to level 2 · ~197,222 words of text · ~0 words of apparatus
@@ -1069,6 +1461,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 264,120 | 264,120 | arminius_works-v1_nichols1853 |
+
+## `arnaud_glorious-recovery-by-the-vaudois_acland1827.txt`
+
+1 section(s) to level 2 · ~76,551 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 76,551 | 76,551 | arnaud_glorious-recovery-by-the-vaudois_acland1827 |
+
+## `arnaud_histoire-de-la-glorieuse-rentree-des-vaudois-fra_1880.txt`
+
+1 section(s) to level 2 · ~73,982 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 73,982 | 73,982 | arnaud_histoire-de-la-glorieuse-rentree-des-vaudois-fra_1880 |
 
 ## `arnauld-angelique_lettres-t1-fra_1742.txt`
 
@@ -1134,6 +1542,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 18,444 | 18,444 | ashbridge_some-account-of-the-forepart-of-the-life_curtis1904 |
 
+## `ashe_chronicles-of-uganda_1895.txt`
+
+1 section(s) to level 2 · ~116,734 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 116,734 | 116,734 | ashe_chronicles-of-uganda_1895 |
+
+## `ashwell_life-of-samuel-wilberforce-v1_1880.txt`
+
+1 section(s) to level 2 · ~202,190 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 202,190 | 202,190 | ashwell_life-of-samuel-wilberforce-v1_1880 |
+
+## `assam-mission_papers-and-discussions-of-the-jubilee-conference-1886_1887.txt`
+
+1 section(s) to level 2 · ~104,196 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 104,196 | 104,196 | assam-mission_papers-and-discussions-of-the-jubilee-conference-1886_1887 |
+
 ## `assemani_bibliotheca-orientalis-tomus1-de-scriptoribus-syris-orthodoxis-lat_1719.txt`
 
 1 section(s) to level 2 · ~425,624 words of text · ~0 words of apparatus
@@ -1152,11 +1584,27 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt`
 
-1 section(s) to level 2 · ~410,222 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~410,218 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 410,222 | 410,222 | assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728 |
+| `1` | 0 | 410,218 | 410,218 | assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728 |
+
+## `asser_life-of-king-alfred-lat_stevenson1904.txt`
+
+1 section(s) to level 2 · ~200,931 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 200,931 | 200,931 | asser_life-of-king-alfred-lat_stevenson1904 |
+
+## `asser_life-of-king-alfred_cook1906.txt`
+
+1 section(s) to level 2 · ~28,232 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 28,232 | 28,232 | asser_life-of-king-alfred_cook1906 |
 
 ## `athanasius_opera-omnia-pg25-grc-lat_migne1857.txt`
 
@@ -1189,6 +1637,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 12,496 | 12,496 | athenagoras_legatio-grc_otto1857 |
+
+## `athos-monasteries_haupturkunden-fur-die-geschichte-der-athoskloster-ger-grc_meyer1894.txt`
+
+1 section(s) to level 2 · ~104,166 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 104,166 | 104,166 | athos-monasteries_haupturkunden-fur-die-geschichte-der-athoskloster-ger-grc_meyer1894 |
+
+## `attaleiates_historia-grc-lat_bekker1853.txt`
+
+1 section(s) to level 2 · ~129,976 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 129,976 | 129,976 | attaleiates_historia-grc-lat_bekker1853 |
 
 ## `aubigne_les-tragiques-fra_lalanne1857.txt`
 
@@ -1240,27 +1704,27 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `augustine_civitate-dei-1-13-lat_hoffmann-csel40-1.txt`
 
-1 section(s) to level 2 · ~222,039 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~222,029 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 222,039 | 222,039 | augustine_civitate-dei-1-13-lat_hoffmann-csel40-1 |
+| `1` | 0 | 222,029 | 222,029 | augustine_civitate-dei-1-13-lat_hoffmann-csel40-1 |
 
 ## `augustine_civitate-dei-14-22-lat_hoffmann-csel40-2.txt`
 
-1 section(s) to level 2 · ~245,831 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~245,818 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 245,831 | 245,831 | augustine_civitate-dei-14-22-lat_hoffmann-csel40-2 |
+| `1` | 0 | 245,818 | 245,818 | augustine_civitate-dei-14-22-lat_hoffmann-csel40-2 |
 
 ## `augustine_confessiones-lat_knoll-csel33.txt`
 
-1 section(s) to level 2 · ~170,521 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~170,511 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 170,521 | 170,521 | augustine_confessiones-lat_knoll-csel33 |
+| `1` | 0 | 170,511 | 170,511 | augustine_confessiones-lat_knoll-csel33 |
 
 ## `augustine_contra-mendacium-lat_zycha1900-csel41-tei.txt`
 
@@ -1344,43 +1808,43 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt`
 
-1 section(s) to level 2 · ~78,524 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~78,514 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 78,524 | 78,524 | augustine_doctrina-christiana-enchiridion-lat_bruder1838 |
+| `1` | 0 | 78,514 | 78,514 | augustine_doctrina-christiana-enchiridion-lat_bruder1838 |
 
 ## `augustine_enarrationes-in-psalmos-lat_migne-pl36-37.txt`
 
-1 section(s) to level 2 · ~1,010,245 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~1,010,232 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 1,010,245 | 1,010,245 | augustine_enarrationes-in-psalmos-lat_migne-pl36-37 |
+| `1` | 0 | 1,010,232 | 1,010,232 | augustine_enarrationes-in-psalmos-lat_migne-pl36-37 |
 
 ## `augustine_epistulae-1-123-lat_goldbacher-csel34.txt`
 
-1 section(s) to level 2 · ~317,383 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~317,350 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 317,383 | 317,383 | augustine_epistulae-1-123-lat_goldbacher-csel34 |
+| `1` | 0 | 317,350 | 317,350 | augustine_epistulae-1-123-lat_goldbacher-csel34 |
 
 ## `augustine_epistulae-124-184a-lat_goldbacher-csel44.txt`
 
-1 section(s) to level 2 · ~282,070 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~282,020 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 282,070 | 282,070 | augustine_epistulae-124-184a-lat_goldbacher-csel44 |
+| `1` | 0 | 282,020 | 282,020 | augustine_epistulae-124-184a-lat_goldbacher-csel44 |
 
 ## `augustine_epistulae-critical_goldbacher-csel57-pars4.txt`
 
-1 section(s) to level 2 · ~229,986 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~229,821 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 229,986 | 229,986 | augustine_epistulae-critical_goldbacher-csel57-pars4 |
+| `1` | 0 | 229,821 | 229,821 | augustine_epistulae-critical_goldbacher-csel57-pars4 |
 
 ## `augustine_epistulae-maurist-order-lat_migne-pl33.txt`
 
@@ -1440,11 +1904,11 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `augustine_retractationes-lat_knoll-csel36.txt`
 
-1 section(s) to level 2 · ~88,352 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~88,342 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 88,352 | 88,352 | augustine_retractationes-lat_knoll-csel36 |
+| `1` | 0 | 88,342 | 88,342 | augustine_retractationes-lat_knoll-csel36 |
 
 ## `augustine_scripta-contra-donatistas-opera-omnia-t9-lat_migne-pl43.txt`
 
@@ -1520,11 +1984,11 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `ausbund_lancaster1846-deu.txt`
 
-1 section(s) to level 2 · ~136,733 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~136,749 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 136,733 | 136,733 | ausbund_lancaster1846-deu |
+| `1` | 0 | 136,749 | 136,749 | ausbund_lancaster1846-deu |
 
 ## `austin-friars_kerkeraads-protocollen-1569-1571-nld_kuyper1870.txt`
 
@@ -1533,6 +1997,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 101,408 | 101,408 | austin-friars_kerkeraads-protocollen-1569-1571-nld_kuyper1870 |
+
+## `austin_baqubah-refugee-camp_1920.txt`
+
+1 section(s) to level 2 · ~29,142 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 29,142 | 29,142 | austin_baqubah-refugee-camp_1920 |
 
 ## `auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt`
 
@@ -1576,11 +2048,11 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `avvakum_zhitie-protopopa-avvakuma-orv_wikisource-transcription-nd.txt`
 
-1 section(s) to level 2 · ~20,660 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~20,639 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 20,660 | 20,660 | avvakum_zhitie-protopopa-avvakuma-orv_wikisource-transcription-nd |
+| `1` | 0 | 20,639 | 20,639 | avvakum_zhitie-protopopa-avvakuma-orv_wikisource-transcription-nd |
 
 ## `avvakum_zhitie-rus_tikhonravov-kozhanchikov1861.txt`
 
@@ -1589,6 +2061,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 20,786 | 20,786 | avvakum_zhitie-rus_tikhonravov-kozhanchikov1861 |
+
+## `azariah_christ-in-the-indian-villages_1930.txt`
+
+1 section(s) to level 2 · ~28,272 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 28,272 | 28,272 | azariah_christ-in-the-indian-villages_1930 |
 
 ## `bacci_life-of-st-philip-neri-v1_faber1847.txt`
 
@@ -1629,6 +2109,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 142,822 | 142,822 | baladhuri_origins-of-the-islamic-state-v1_hitti1916 |
+
+## `balan_monumenta-reformationis-lutheranae-1521-1525-lat-ita_1884.txt`
+
+1 section(s) to level 2 · ~215,594 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 215,594 | 215,594 | balan_monumenta-reformationis-lutheranae-1521-1525-lat-ita_1884 |
+
+## `baldaeus_naauwkeurige-beschryvinge-van-malabar-en-choromandel-en-ceylon-nld_1672.txt`
+
+1 section(s) to level 2 · ~432,094 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 432,094 | 432,094 | baldaeus_naauwkeurige-beschryvinge-van-malabar-en-choromandel-en-ceylon-nld_1672 |
+
+## `baldaeus_true-and-exact-description-of-malabar-and-coromandel-and-ceylon_churchill1703.txt`
+
+1 section(s) to level 2 · ~265,940 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 265,940 | 265,940 | baldaeus_true-and-exact-description-of-malabar-and-coromandel-and-ceylon_churchill1703 |
 
 ## `baldassari_enlevement-et-captivite-de-pie-vi-fra_1839.txt`
 
@@ -1712,11 +2216,11 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `barlow-william_summe-and-substance-hampton-court-conference_1804.txt`
 
-1 section(s) to level 2 · ~22,888 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~22,884 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 22,888 | 22,888 | barlow-william_summe-and-substance-hampton-court-conference_1804 |
+| `1` | 0 | 22,884 | 22,884 | barlow-william_summe-and-substance-hampton-court-conference_1804 |
 
 ## `barlow_brutum-fulmen_1681.txt`
 
@@ -1726,6 +2230,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 117,858 | 117,858 | barlow_brutum-fulmen_1681 |
 
+## `barnwell-priory_observances-in-use-at-barnwell-lat-eng_clark1897.txt`
+
+1 section(s) to level 2 · ~125,810 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 125,810 | 125,810 | barnwell-priory_observances-in-use-at-barnwell-lat-eng_clark1897 |
+
+## `barralis_chronologia-sanctorum-insulae-lerinensis-lat_1613.txt`
+
+1 section(s) to level 2 · ~354,108 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 354,108 | 354,108 | barralis_chronologia-sanctorum-insulae-lerinensis-lat_1613 |
+
+## `barratt_in-the-days-of-the-latter-rain_1909.txt`
+
+1 section(s) to level 2 · ~62,034 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 62,034 | 62,034 | barratt_in-the-days-of-the-latter-rain_1909 |
+
 ## `barrington-john-shute_account-of-late-proceedings-at-salters-hall_1719.txt`
 
 1 section(s) to level 2 · ~9,037 words of text · ~0 words of apparatus
@@ -1733,6 +2261,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 9,037 | 9,037 | barrington-john-shute_account-of-late-proceedings-at-salters-hall_1719 |
+
+## `barros_vida-do-apostolico-padre-antonio-vieyra-por_1746.txt`
+
+1 section(s) to level 2 · ~191,109 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 191,109 | 191,109 | barros_vida-do-apostolico-padre-antonio-vieyra-por_1746 |
 
 ## `barruel_histoire-du-clerge-pendant-la-revolution-fra_1793.txt`
 
@@ -1749,6 +2285,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 149,103 | 149,103 | barskov_pamiatniki-pervykh-let-russkogo-staroobriadchestva-rus_1912 |
+
+## `barth_word-of-god-and-the-word-of-man_horton1928.txt`
+
+1 section(s) to level 2 · ~92,823 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 92,823 | 92,823 | barth_word-of-god-and-the-word-of-man_horton1928 |
+
+## `barth_wort-gottes-und-die-theologie-deu_1924.txt`
+
+1 section(s) to level 2 · ~81,396 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 81,396 | 81,396 | barth_wort-gottes-und-die-theologie-deu_1924 |
 
 ## `bascape_de-vita-et-rebus-gestis-caroli-lat_1592.txt`
 
@@ -1774,6 +2326,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 155,315 | 155,315 | basil_ascetic-works-longer-shorter-rules_clarke1925 |
 
+## `basil_opera-omnia-pg29-grc-lat_migne1857.txt`
+
+1 section(s) to level 2 · ~783,543 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 783,543 | 783,543 | basil_opera-omnia-pg29-grc-lat_migne1857 |
+
+## `basil_opera-omnia-pg31-grc-lat_migne1857.txt`
+
+1 section(s) to level 2 · ~845,434 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 845,434 | 845,434 | basil_opera-omnia-pg31-grc-lat_migne1857 |
+
 ## `basilian-order_codex-constitutionum-ordinis-s-basilii-lat_1791.txt`
 
 1 section(s) to level 2 · ~114,525 words of text · ~0 words of apparatus
@@ -1789,6 +2357,38 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 108,488 | 108,488 | basilovits_brevis-notitia-fundationis-koriathovits-pars1-lat_1799 |
+
+## `bates_autobiography-of-elder-joseph-bates_1868.txt`
+
+1 section(s) to level 2 · ~98,259 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 98,259 | 98,259 | bates_autobiography-of-elder-joseph-bates_1868 |
+
+## `bavinck_magnalia-dei-nld_1909.txt`
+
+1 section(s) to level 2 · ~276,735 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 276,735 | 276,735 | bavinck_magnalia-dei-nld_1909 |
+
+## `bavinck_philosophy-of-revelation_1909.txt`
+
+1 section(s) to level 2 · ~110,996 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 110,996 | 110,996 | bavinck_philosophy-of-revelation_1909 |
+
+## `baxter-w_life-of-elder-walter-scott_1874.txt`
+
+1 section(s) to level 2 · ~139,923 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 139,923 | 139,923 | baxter-w_life-of-elder-walter-scott_1874 |
 
 ## `baxter_autobiography-reliquiae-baxterianae-abridged_lloyd-thomas1925.txt`
 
@@ -1806,6 +2406,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 699,375 | 699,375 | baxter_reliquiae-baxterianae_sylvester1696 |
 
+## `beauduin_liturgy-the-life-of-the-church_michel1926.txt`
+
+1 section(s) to level 2 · ~31,403 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 31,403 | 31,403 | beauduin_liturgy-the-life-of-the-church_michel1926 |
+
+## `beauduin_notre-piete-pendant-l-avent-fra_1919.txt`
+
+1 section(s) to level 2 · ~32,560 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 32,560 | 32,560 | beauduin_notre-piete-pendant-l-avent-fra_1919 |
+
+## `bede_chronica-maiora-in-chronica-minora-3-mgh-aa-13-lat_mommsen1898.txt`
+
+1 section(s) to level 2 · ~452,304 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 452,304 | 452,304 | bede_chronica-maiora-in-chronica-minora-3-mgh-aa-13-lat_mommsen1898 |
+
 ## `bede_ecclesiastical-history-english-people_giles1903.txt`
 
 1 section(s) to level 2 · ~119,143 words of text · ~0 words of apparatus
@@ -1813,6 +2437,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 119,143 | 119,143 | bede_ecclesiastical-history-english-people_giles1903 |
+
+## `bede_lives-of-the-first-five-abbots-of-wearmouth-and-jarrow_wilcock1910.txt`
+
+1 section(s) to level 2 · ~26,219 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 26,219 | 26,219 | bede_lives-of-the-first-five-abbots-of-wearmouth-and-jarrow_wilcock1910 |
+
+## `bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt`
+
+1 section(s) to level 2 · ~213,863 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 213,863 | 213,863 | bede_opera-historica-v1-historia-abbatum-lat_plummer1896 |
 
 ## `beissel_mystical-proverbs-and-millers-letter-to-franklin_sachse1912.txt`
 
@@ -1829,6 +2469,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 120,062 | 120,062 | beissel_urstandliche-hohe-zeugnusse-deu_ephrata1745 |
+
+## `bekkos_opera-with-meliteniotes-metochites-pg141-grc-lat_migne1882.txt`
+
+1 section(s) to level 2 · ~625,766 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 625,766 | 625,766 | bekkos_opera-with-meliteniotes-metochites-pg141-grc-lat_migne1882 |
+
+## `bell_documents-on-christian-unity-1920-24_1924.txt`
+
+1 section(s) to level 2 · ~120,093 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 120,093 | 120,093 | bell_documents-on-christian-unity-1920-24_1924 |
 
 ## `bell_jews-christians-egypt-meletian-papyri_1924.txt`
 
@@ -1878,6 +2534,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 88,570 | 88,570 | bellarmine_souls-ascension-to-god_hall1703 |
 
+## `bellett_evangelists-gospel-by-st-john_7th-ed1886.txt`
+
+1 section(s) to level 2 · ~57,557 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 57,557 | 57,557 | bellett_evangelists-gospel-by-st-john_7th-ed1886 |
+
+## `bellett_minor-prophets_1870.txt`
+
+1 section(s) to level 2 · ~25,919 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 25,919 | 25,919 | bellett_minor-prophets_1870 |
+
+## `bellett_short-meditation-on-the-moral-glory-of-the-lord-jesus-christ_1865.txt`
+
+1 section(s) to level 2 · ~24,654 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 24,654 | 24,654 | bellett_short-meditation-on-the-moral-glory-of-the-lord-jesus-christ_1865 |
+
 ## `belsham_american-unitarianism-brief-history_1815.txt`
 
 1 section(s) to level 2 · ~19,043 words of text · ~0 words of apparatus
@@ -1885,6 +2565,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 19,043 | 19,043 | belsham_american-unitarianism-brief-history_1815 |
+
+## `benedict-aniane_concordia-regularum-with-ardo-vita-pl103-lat_migne1851.txt`
+
+1 section(s) to level 2 · ~702,754 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 702,754 | 702,754 | benedict-aniane_concordia-regularum-with-ardo-vita-pl103-lat_migne1851 |
 
 ## `benedict_rule-of-saint-benedict_gasquet1925.txt`
 
@@ -1926,6 +2614,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 67,389 | 67,389 | bengel_introduction-to-exposition-of-apocalypse_robertson1757 |
 
+## `benjamin-tudela_itinerary-heb-eng_adler1907.txt`
+
+1 section(s) to level 2 · ~99,588 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 99,588 | 99,588 | benjamin-tudela_itinerary-heb-eng_adler1907 |
+
 ## `benson_cyprian-his-life-his-times-his-work_1897.txt`
 
 1 section(s) to level 2 · ~268,752 words of text · ~0 words of apparatus
@@ -1941,6 +2637,78 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 287,403 | 287,403 | bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912 |
+
+## `bentley_pioneering-on-the-congo-v1_1900.txt`
+
+1 section(s) to level 2 · ~163,694 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 163,694 | 163,694 | bentley_pioneering-on-the-congo-v1_1900 |
+
+## `bentley_pioneering-on-the-congo-v2_1900.txt`
+
+1 section(s) to level 2 · ~159,793 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 159,793 | 159,793 | bentley_pioneering-on-the-congo-v2_1900 |
+
+## `bernard-clairvaux_life-and-works-v1_eales1889.txt`
+
+1 section(s) to level 2 · ~182,822 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 182,822 | 182,822 | bernard-clairvaux_life-and-works-v1_eales1889 |
+
+## `bernard-clairvaux_life-and-works-v2_eales1889.txt`
+
+1 section(s) to level 2 · ~199,067 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 199,067 | 199,067 | bernard-clairvaux_life-and-works-v2_eales1889 |
+
+## `bernard-clairvaux_life-and-works-v3_eales1896.txt`
+
+1 section(s) to level 2 · ~150,510 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 150,510 | 150,510 | bernard-clairvaux_life-and-works-v3_eales1896 |
+
+## `bernard-clairvaux_life-and-works-v4_eales1896.txt`
+
+1 section(s) to level 2 · ~336,944 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 336,944 | 336,944 | bernard-clairvaux_life-and-works-v4_eales1896 |
+
+## `bernard-clairvaux_opera-t1-pl182-lat_migne1879.txt`
+
+1 section(s) to level 2 · ~537,974 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 537,974 | 537,974 | bernard-clairvaux_opera-t1-pl182-lat_migne1879 |
+
+## `bernard-clairvaux_opera-t2-sermones-pl183-lat_migne1854.txt`
+
+1 section(s) to level 2 · ~620,186 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 620,186 | 620,186 | bernard-clairvaux_opera-t2-sermones-pl183-lat_migne1854 |
+
+## `bernard-clairvaux_opera-t5-with-vita-prima-pl185-lat_migne1855.txt`
+
+1 section(s) to level 2 · ~926,453 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 926,453 | 926,453 | bernard-clairvaux_opera-t5-with-vita-prima-pl185-lat_migne1855 |
 
 ## `bernard-gui_manuel-inquisiteur-t1-lat-fra_mollat1926.txt`
 
@@ -1990,6 +2758,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 104,627 | 104,627 | bernardino-of-siena_sermons_orlandi-robins1920 |
 
+## `bersier_histoire-du-synode-general-de-l-eglise-reformee-t1-fra_1872.txt`
+
+1 section(s) to level 2 · ~127,514 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 127,514 | 127,514 | bersier_histoire-du-synode-general-de-l-eglise-reformee-t1-fra_1872 |
+
+## `berthe_garcia-moreno-president-of-ecuador_herbert1889.txt`
+
+1 section(s) to level 2 · ~88,427 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 88,427 | 88,427 | berthe_garcia-moreno-president-of-ecuador_herbert1889 |
+
 ## `bessarion_opera-omnia-pg161-grc-lat_migne1866.txt`
 
 1 section(s) to level 2 · ~660,551 words of text · ~0 words of apparatus
@@ -2038,6 +2822,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 547,494 | 547,494 | birgitta_revelationes-lat_duranti1628 |
 
+## `birgitta_revelationes-libri-vi-viii-tomus-2-lat_duranti1628.txt`
+
+1 section(s) to level 2 · ~390,364 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 390,364 | 390,364 | birgitta_revelationes-libri-vi-viii-tomus-2-lat_duranti1628 |
+
 ## `birgitta_revelations-enm_cumming1929.txt`
 
 1 section(s) to level 2 · ~78,036 words of text · ~0 words of apparatus
@@ -2045,6 +2837,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 78,036 | 78,036 | birgitta_revelations-enm_cumming1929 |
+
+## `birgitta_vita-auctoribus-petro-et-petro-in-scriptores-rerum-suecicarum-3-lat_annerstedt1876.txt`
+
+1 section(s) to level 2 · ~506,728 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 506,728 | 506,728 | birgitta_vita-auctoribus-petro-et-petro-in-scriptores-rerum-suecicarum-3-lat_annerstedt1876 |
+
+## `biruni_chronology-of-ancient-nations_sachau1879.txt`
+
+1 section(s) to level 2 · ~202,932 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 202,932 | 202,932 | biruni_chronology-of-ancient-nations_sachau1879 |
 
 ## `blair-robertson_philippine-islands-v07_1903.txt`
 
@@ -2166,6 +2974,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 95,748 | 95,748 | blair-robertson_philippine-islands-v50_1907 |
 
+## `blair-robertson_philippine-islands-v52_1907.txt`
+
+1 section(s) to level 2 · ~110,095 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 110,095 | 110,095 | blair-robertson_philippine-islands-v52_1907 |
+
 ## `blair-samuel_short-and-faithful-narrative-of-the-revival-at-new-londonderry_1744.txt`
 
 1 section(s) to level 2 · ~9,674 words of text · ~0 words of apparatus
@@ -2174,13 +2990,53 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 9,674 | 9,674 | blair-samuel_short-and-faithful-narrative-of-the-revival-at-new-londonderry_1744 |
 
-## `boehmer_urkunden-bauernkrieg-wiedertaeufer-deu_1910.txt`
+## `blanc_narrative-of-captivity-in-abyssinia_1868.txt`
 
-1 section(s) to level 2 · ~17,465 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~107,379 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 17,465 | 17,465 | boehmer_urkunden-bauernkrieg-wiedertaeufer-deu_1910 |
+| `1` | 0 | 107,379 | 107,379 | blanc_narrative-of-captivity-in-abyssinia_1868 |
+
+## `bleby_death-struggles-of-slavery_3rd-ed1868.txt`
+
+1 section(s) to level 2 · ~119,694 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 119,694 | 119,694 | bleby_death-struggles-of-slavery_3rd-ed1868 |
+
+## `bliss_memoirs-of-william-miller_1853.txt`
+
+1 section(s) to level 2 · ~178,949 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 178,949 | 178,949 | bliss_memoirs-of-william-miller_1853 |
+
+## `bodin_colloquium-heptaplomeres-lat_noack1857.txt`
+
+1 section(s) to level 2 · ~150,561 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 150,561 | 150,561 | bodin_colloquium-heptaplomeres-lat_noack1857 |
+
+## `bodin_six-bookes-of-a-commonweale_knolles1606.txt`
+
+1 section(s) to level 2 · ~582,514 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 582,514 | 582,514 | bodin_six-bookes-of-a-commonweale_knolles1606 |
+
+## `boehmer_urkunden-bauernkrieg-wiedertaeufer-deu_1910.txt`
+
+1 section(s) to level 2 · ~17,461 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 17,461 | 17,461 | boehmer_urkunden-bauernkrieg-wiedertaeufer-deu_1910 |
 
 ## `boero_life-of-peter-faber_coleridge1873.txt`
 
@@ -2206,6 +3062,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 150,107 | 150,107 | bohemian-estates_apologie-druha-1618-ces_subert1862 |
 
+## `bonaventure_life-of-saint-francis-legenda-maior_salter1904.txt`
+
+1 section(s) to level 2 · ~63,592 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 63,592 | 63,592 | bonaventure_life-of-saint-francis-legenda-maior_salter1904 |
+
+## `bonaventure_tria-opuscula-breviloquium-itinerarium-de-reductione-lat_quaracchi1911.txt`
+
+1 section(s) to level 2 · ~103,246 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 103,246 | 103,246 | bonaventure_tria-opuscula-breviloquium-itinerarium-de-reductione-lat_quaracchi1911 |
+
+## `bond_memoir-of-the-rev-pliny-fisk_1828.txt`
+
+1 section(s) to level 2 · ~151,369 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 151,369 | 151,369 | bond_memoir-of-the-rev-pliny-fisk_1828 |
+
 ## `boniface_english-correspondence_kylie1911.txt`
 
 1 section(s) to level 2 · ~47,727 words of text · ~0 words of apparatus
@@ -2229,6 +3109,38 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 85,950 | 85,950 | book-of-the-himyarites-syr-eng_moberg1924 |
+
+## `booth-catherine_aggressive-christianity_boston1883.txt`
+
+1 section(s) to level 2 · ~57,029 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 57,029 | 57,029 | booth-catherine_aggressive-christianity_boston1883 |
+
+## `booth-catherine_godliness_1883.txt`
+
+1 section(s) to level 2 · ~50,532 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 50,532 | 50,532 | booth-catherine_godliness_1883 |
+
+## `booth-tucker_life-of-catherine-booth-v1_1893.txt`
+
+1 section(s) to level 2 · ~225,829 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 225,829 | 225,829 | booth-tucker_life-of-catherine-booth-v1_1893 |
+
+## `booth_in-darkest-england-and-the-way-out_1890.txt`
+
+1 section(s) to level 2 · ~129,403 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 129,403 | 129,403 | booth_in-darkest-england-and-the-way-out_1890 |
 
 ## `bore_couvent-de-saint-lazare-a-venise-fra_1837.txt`
 
@@ -2264,11 +3176,11 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `borromeo_acta-ecclesiae-mediolanensis-lat_1599.txt`
 
-1 section(s) to level 2 · ~550,696 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~550,692 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 550,696 | 550,696 | borromeo_acta-ecclesiae-mediolanensis-lat_1599 |
+| `1` | 0 | 550,692 | 550,692 | borromeo_acta-ecclesiae-mediolanensis-lat_1599 |
 
 ## `borromeo_aggiunta-lettere-ita_bassaglia1762.txt`
 
@@ -2334,6 +3246,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 36,253 | 36,253 | bossuet_relation-sur-le-quietisme-fra_1698 |
 
+## `boston_memoirs-of-the-life-time-and-writings_morrison1899.txt`
+
+1 section(s) to level 2 · ~266,022 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 266,022 | 266,022 | boston_memoirs-of-the-life-time-and-writings_morrison1899 |
+
 ## `bownas_account-of-life-travels-and-christian-experiences_1795.txt`
 
 1 section(s) to level 2 · ~72,874 words of text · ~0 words of apparatus
@@ -2358,6 +3278,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 253,314 | 253,314 | bradford-john_writings-v1_townsend1848 |
 
+## `braga_pan-americanismo-aspecto-religioso-por_1916.txt`
+
+1 section(s) to level 2 · ~45,406 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 45,406 | 45,406 | braga_pan-americanismo-aspecto-religioso-por_1916 |
+
+## `braga_pan-americanismo-aspecto-religioso-spa_monteverde1917.txt`
+
+1 section(s) to level 2 · ~48,361 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 48,361 | 48,361 | braga_pan-americanismo-aspecto-religioso-spa_monteverde1917 |
+
 ## `brainerd_mirabilia-dei-inter-indicos-journal_bradford1746.txt`
 
 1 section(s) to level 2 · ~66,921 words of text · ~0 words of apparatus
@@ -2366,6 +3302,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 66,921 | 66,921 | brainerd_mirabilia-dei-inter-indicos-journal_bradford1746 |
 
+## `braithwaite_memoirs-of-joseph-john-gurney-v1_1854.txt`
+
+1 section(s) to level 2 · ~189,503 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 189,503 | 189,503 | braithwaite_memoirs-of-joseph-john-gurney-v1_1854 |
+
+## `braithwaite_memoirs-of-joseph-john-gurney-v2_1854.txt`
+
+1 section(s) to level 2 · ~200,182 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 200,182 | 200,182 | braithwaite_memoirs-of-joseph-john-gurney-v2_1854 |
+
 ## `brandt_history-of-the-reformation-in-the-low-countries-v3_1722.txt`
 
 1 section(s) to level 2 · ~521,256 words of text · ~0 words of apparatus
@@ -2373,6 +3325,46 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 521,256 | 521,256 | brandt_history-of-the-reformation-in-the-low-countries-v3_1722 |
+
+## `brewer_kommodian-von-gaza-deu_1906.txt`
+
+1 section(s) to level 2 · ~121,119 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 121,119 | 121,119 | brewer_kommodian-von-gaza-deu_1906 |
+
+## `briggs-trial_case-against-professor-briggs-pt1_1892.txt`
+
+1 section(s) to level 2 · ~56,904 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 56,904 | 56,904 | briggs-trial_case-against-professor-briggs-pt1_1892 |
+
+## `briggs-trial_case-against-professor-briggs-pt3_1893.txt`
+
+1 section(s) to level 2 · ~107,522 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 107,522 | 107,522 | briggs-trial_case-against-professor-briggs-pt3_1893 |
+
+## `briggs_defence-before-the-presbytery-of-new-york_1893.txt`
+
+1 section(s) to level 2 · ~87,283 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 87,283 | 87,283 | briggs_defence-before-the-presbytery-of-new-york_1893 |
+
+## `brine_taeping-rebellion-in-china_1862.txt`
+
+1 section(s) to level 2 · ~135,729 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 135,729 | 135,729 | brine_taeping-rebellion-in-china_1862 |
 
 ## `broadmead-church_records-1640-1687_underhill1847.txt`
 
@@ -2390,13 +3382,37 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 99,174 | 99,174 | broet_epistolae-broeti-jaji-codurii-rodericii-lat_1903 |
 
-## `brosset_histoire-de-la-georgie-pt1-fra_1849.txt`
+## `brosset_deux-historiens-armeniens-kiracos-oukhtanes-fra_1870.txt`
 
-1 section(s) to level 2 · ~154,008 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~222,157 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 154,008 | 154,008 | brosset_histoire-de-la-georgie-pt1-fra_1849 |
+| `1` | 0 | 222,157 | 222,157 | brosset_deux-historiens-armeniens-kiracos-oukhtanes-fra_1870 |
+
+## `brosset_histoire-de-la-georgie-pt1-fra_1849.txt`
+
+1 section(s) to level 2 · ~154,018 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 154,018 | 154,018 | brosset_histoire-de-la-georgie-pt1-fra_1849 |
+
+## `brosset_histoire-de-la-georgie-pt2-histoire-moderne-livr2-fra_1857.txt`
+
+1 section(s) to level 2 · ~325,257 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 325,257 | 325,257 | brosset_histoire-de-la-georgie-pt2-histoire-moderne-livr2-fra_1857 |
+
+## `brother-lawrence_practice-of-the-presence-of-god_allenson1906.txt`
+
+1 section(s) to level 2 · ~15,137 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 15,137 | 15,137 | brother-lawrence_practice-of-the-presence-of-god_allenson1906 |
 
 ## `brown-thomas_account-of-the-people-called-shakers_1812.txt`
 
@@ -2405,6 +3421,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 152,210 | 152,210 | brown-thomas_account-of-the-people-called-shakers_1812 |
+
+## `bruce_travels-to-discover-the-source-of-the-nile-v2_1790.txt`
+
+1 section(s) to level 2 · ~212,834 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 212,834 | 212,834 | bruce_travels-to-discover-the-source-of-the-nile-v2_1790 |
+
+## `bruce_travels-to-discover-the-source-of-the-nile-v3_1790.txt`
+
+1 section(s) to level 2 · ~230,219 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 230,219 | 230,219 | bruce_travels-to-discover-the-source-of-the-nile-v3_1790 |
 
 ## `brueys_histoire-du-fanatisme-t1-t2-fra_1755.txt`
 
@@ -2422,6 +3454,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 118,956 | 118,956 | brumbaugh_history-german-baptist-brethren_1899 |
 
+## `bruno-cologne_opera-omnia-with-acta-pl152-lat_migne1879.txt`
+
+1 section(s) to level 2 · ~583,964 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 583,964 | 583,964 | bruno-cologne_opera-omnia-with-acta-pl152-lat_migne1879 |
+
 ## `bruns_canones-apostolorum-et-conciliorum-pars-altera-lat_1839.txt`
 
 1 section(s) to level 2 · ~133,524 words of text · ~0 words of apparatus
@@ -2429,6 +3469,38 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 133,524 | 133,524 | bruns_canones-apostolorum-et-conciliorum-pars-altera-lat_1839 |
+
+## `buchanan_christian-researches-in-asia_1811.txt`
+
+1 section(s) to level 2 · ~75,747 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 75,747 | 75,747 | buchanan_christian-researches-in-asia_1811 |
+
+## `budge_history-of-ethiopia-nubia-and-abyssinia-v1_1928.txt`
+
+1 section(s) to level 2 · ~140,323 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 140,323 | 140,323 | budge_history-of-ethiopia-nubia-and-abyssinia-v1_1928 |
+
+## `bulgakov_dva-grada-tom-2-rus_1911.txt`
+
+1 section(s) to level 2 · ~86,322 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 86,322 | 86,322 | bulgakov_dva-grada-tom-2-rus_1911 |
+
+## `bulgakov_tikhie-dumy-rus_1918.txt`
+
+1 section(s) to level 2 · ~51,630 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 51,630 | 51,630 | bulgakov_tikhie-dumy-rus_1918 |
 
 ## `bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt`
 
@@ -2453,6 +3525,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 933,450 | 933,450 | bullarium-romanum_magnum-bullarium-tomus2-pius-iv-to-innocent-ix-lat_cherubini |
+
+## `bultmann_jesus-deu_1926.txt`
+
+1 section(s) to level 2 · ~54,421 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 54,421 | 54,421 | bultmann_jesus-deu_1926 |
+
+## `bulu_joel-bulu-the-autobiography-of-a-native-minister-in-the-south-seas_2nd-ed1884.txt`
+
+1 section(s) to level 2 · ~31,735 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 31,735 | 31,735 | bulu_joel-bulu-the-autobiography-of-a-native-minister-in-the-south-seas_2nd-ed1884 |
+
+## `bunting-t-p_life-of-jabez-bunting-v1_1859.txt`
+
+1 section(s) to level 2 · ~168,049 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 168,049 | 168,049 | bunting-t-p_life-of-jabez-bunting-v1_1859 |
 
 ## `bunyan_grace-abounding-relation-of-imprisonment-pilgrims-progress_brown1907.txt`
 
@@ -2502,13 +3598,37 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 129,138 | 129,138 | bury-st-edmunds_wills-and-inventories-enm_tymms1850 |
 
-## `busch_chronicon-windeshemense-lat_grube1886.txt`
+## `busbecq_life-and-letters-v1_forster-daniell1881.txt`
 
-1 section(s) to level 2 · ~326,357 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~143,234 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 326,357 | 326,357 | busch_chronicon-windeshemense-lat_grube1886 |
+| `1` | 0 | 143,234 | 143,234 | busbecq_life-and-letters-v1_forster-daniell1881 |
+
+## `busbecq_life-and-letters-v2_forster-daniell1881.txt`
+
+1 section(s) to level 2 · ~118,938 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 118,938 | 118,938 | busbecq_life-and-letters-v2_forster-daniell1881 |
+
+## `busch_chronicon-windeshemense-lat_grube1886.txt`
+
+1 section(s) to level 2 · ~326,353 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 326,353 | 326,353 | busch_chronicon-windeshemense-lat_grube1886 |
+
+## `butcher_story-of-the-church-of-egypt-v2_1897.txt`
+
+1 section(s) to level 2 · ~144,514 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 144,514 | 144,514 | butcher_story-of-the-church-of-egypt-v2_1897 |
 
 ## `butler_analogy-of-religion_1736.txt`
 
@@ -2518,6 +3638,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 111,184 | 111,184 | butler_analogy-of-religion_1736 |
 
+## `byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt`
+
+1 section(s) to level 2 · ~199,096 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 199,096 | 199,096 | byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879 |
+
 ## `cabasilas_mystik-vom-leben-in-christo-grc-deu_gass1849.txt`
 
 1 section(s) to level 2 · ~136,759 words of text · ~0 words of apparatus
@@ -2525,6 +3653,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 136,759 | 136,759 | cabasilas_mystik-vom-leben-in-christo-grc-deu_gass1849 |
+
+## `cabot_memoir-of-ralph-waldo-emerson-v1_1887.txt`
+
+1 section(s) to level 2 · ~96,929 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 96,929 | 96,929 | cabot_memoir-of-ralph-waldo-emerson-v1_1887 |
+
+## `cabot_memoir-of-ralph-waldo-emerson-v2_8th-ed1895.txt`
+
+1 section(s) to level 2 · ~114,813 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 114,813 | 114,813 | cabot_memoir-of-ralph-waldo-emerson-v2_8th-ed1895 |
 
 ## `caesarius-arles_sermons-pseudo-augustinian_migne-pl39.txt`
 
@@ -2565,6 +3709,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 613,984 | 613,984 | calecas_opera-omnia-pg152-grc-lat_migne1866 |
+
+## `callery-yvan_history-of-the-insurrection-in-china_oxenford1854.txt`
+
+1 section(s) to level 2 · ~88,608 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 88,608 | 88,608 | callery-yvan_history-of-the-insurrection-in-china_oxenford1854 |
 
 ## `calvin-geneva-council_ordonnances-ecclesiastiques-fra_tournes1735.txt`
 
@@ -2654,6 +3806,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 195,386 | 195,386 | calvin_letters-vol4_bonnet1858 |
 
+## `calvin_opera-omnia-vol10-pars-prior-fra-lat_baum-cunitz-reuss1871.txt`
+
+1 section(s) to level 2 · ~299,653 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 299,653 | 299,653 | calvin_opera-omnia-vol10-pars-prior-fra-lat_baum-cunitz-reuss1871 |
+
 ## `calvin_opera-omnia-vol8-lat-fra_baum-cunitz1870.txt`
 
 1 section(s) to level 2 · ~333,872 words of text · ~0 words of apparatus
@@ -2685,6 +3845,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 6,697 | 6,697 | camisards_manifesto-of-the-cevennois_1703 |
+
+## `campbell-thomas_declaration-and-address-centennial-edition_1908.txt`
+
+1 section(s) to level 2 · ~31,595 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 31,595 | 31,595 | campbell-thomas_declaration-and-address-centennial-edition_1908 |
+
+## `campbell_christian-baptist-v5_bethany1828.txt`
+
+1 section(s) to level 2 · ~156,143 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 156,143 | 156,143 | campbell_christian-baptist-v5_bethany1828 |
 
 ## `campion_rationes-decem-ten-reasons-lat-eng_rickaby1914.txt`
 
@@ -2750,6 +3926,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 231,888 | 231,888 | capitulatio-de-partibus-saxoniae_pertz1881 |
 
+## `capuchin-constitutions_constitutiones-fratrum-minorum-capuccinorum-lat_1638.txt`
+
+1 section(s) to level 2 · ~37,291 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 37,291 | 37,291 | capuchin-constitutions_constitutiones-fratrum-minorum-capuccinorum-lat_1638 |
+
+## `cardale_readings-upon-the-liturgy_1851.txt`
+
+1 section(s) to level 2 · ~235,372 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 235,372 | 235,372 | cardale_readings-upon-the-liturgy_1851 |
+
 ## `carey-william_enquiry-into-the-obligations-of-christians_1792.txt`
 
 1 section(s) to level 2 · ~18,212 words of text · ~0 words of apparatus
@@ -2773,6 +3965,46 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 91,509 | 91,509 | carlini_fra-michelino-e-la-sua-eresia-ita-lat_1912 |
+
+## `carmelite-general-chapters_acta-capitulorum-generalium-v1-1318-1593-lat_wessels1912.txt`
+
+1 section(s) to level 2 · ~208,541 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 208,541 | 208,541 | carmelite-general-chapters_acta-capitulorum-generalium-v1-1318-1593-lat_wessels1912 |
+
+## `carthusian-statutes_nova-collectio-statutorum-ordinis-cartusiensis-lat_1681.txt`
+
+1 section(s) to level 2 · ~108,297 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 108,297 | 108,297 | carthusian-statutes_nova-collectio-statutorum-ordinis-cartusiensis-lat_1681 |
+
+## `cartwright_autobiography-of-peter-cartwright_strickland1857.txt`
+
+1 section(s) to level 2 · ~162,369 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 162,369 | 162,369 | cartwright_autobiography-of-peter-cartwright_strickland1857 |
+
+## `casalis_basutos_1861.txt`
+
+1 section(s) to level 2 · ~102,411 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 102,411 | 102,411 | casalis_basutos_1861 |
+
+## `casalis_les-bassoutos-fra_1859.txt`
+
+1 section(s) to level 2 · ~95,466 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 95,466 | 95,466 | casalis_les-bassoutos-fra_1859 |
 
 ## `cassian_institutes-and-contra-nestorium_petschenig1888.txt`
 
@@ -2854,6 +4086,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 243,508 | 243,508 | catholic-record-society_unpublished-documents-english-martyrs-v1_pollen1908 |
 
+## `catholic-sabha_v2-nos5-6-mal_1922.txt`
+
+1 section(s) to level 2 · ~14,548 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 14,548 | 14,548 | catholic-sabha_v2-nos5-6-mal_1922 |
+
+## `catholic-worker_v37-no2-june-1969.txt`
+
+1 section(s) to level 2 · ~20,160 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 20,160 | 20,160 | catholic-worker_v37-no2-june-1969 |
+
 ## `cavalier_memoirs-of-the-wars-of-the-cevennes_1726.txt`
 
 1 section(s) to level 2 · ~80,654 words of text · ~0 words of apparatus
@@ -2886,6 +4134,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 13,569 | 13,569 | cennick_life-of-mr-j-cennick_1745 |
 
+## `ceylon-catholic-church_sketch-of-the-rise-and-progress_1848.txt`
+
+1 section(s) to level 2 · ~8,399 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 8,399 | 8,399 | ceylon-catholic-church_sketch-of-the-rise-and-progress_1848 |
+
 ## `chalcocondyles_historiarum-libri-x-with-isidore-leonard-plusiadenos-pg159-grc-lat_migne1866.txt`
 
 1 section(s) to level 2 · ~504,075 words of text · ~0 words of apparatus
@@ -2909,6 +4165,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 306,327 | 306,327 | challoner_memoirs-of-missionary-priests_pollen1924 |
+
+## `chalmers_tiyo-soga-a-page-of-south-african-mission-work_1877.txt`
+
+1 section(s) to level 2 · ~156,205 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 156,205 | 156,205 | chalmers_tiyo-soga-a-page-of-south-african-mission-work_1877 |
 
 ## `chamich_history-of-armenia-v2_avdall1827.txt`
 
@@ -2941,6 +4205,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 442,675 | 442,675 | charon_histoire-des-patriarcats-melkites-t2-t3-fra_1911 |
+
+## `chauncy-maurice_historia-aliquot-martyrum-anglorum-lat_1888.txt`
+
+1 section(s) to level 2 · ~28,372 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 28,372 | 28,372 | chauncy-maurice_historia-aliquot-martyrum-anglorum-lat_1888 |
+
+## `chauncy-maurice_history-of-the-sufferings-of-eighteen-carthusians-in-england_1890.txt`
+
+1 section(s) to level 2 · ~25,660 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 25,660 | 25,660 | chauncy-maurice_history-of-the-sufferings-of-eighteen-carthusians-in-england_1890 |
 
 ## `chauncy_divine-glory-brought-to-view-in-the-final-salvation-of-all-men_1783.txt`
 
@@ -2982,6 +4262,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 144,026 | 144,026 | chelcicky_sit-viry-ces_smetanka1912 |
 
+## `chinese-repository_v19-no3-march-1850-paul-su-apology.txt`
+
+1 section(s) to level 2 · ~30,111 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 30,111 | 30,111 | chinese-repository_v19-no3-march-1850-paul-su-apology |
+
 ## `chirino_relacion-islas-filipinas-spa_manila1890.txt`
 
 1 section(s) to level 2 · ~89,596 words of text · ~0 words of apparatus
@@ -2989,6 +4277,350 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 89,596 | 89,596 | chirino_relacion-islas-filipinas-spa_manila1890 |
+
+## `christian-east_v1-no1-march-1920.txt`
+
+1 section(s) to level 2 · ~27,301 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 27,301 | 27,301 | christian-east_v1-no1-march-1920 |
+
+## `christian-east_v1-no2-june-1920.txt`
+
+1 section(s) to level 2 · ~30,657 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 30,657 | 30,657 | christian-east_v1-no2-june-1920 |
+
+## `christian-east_v1-no3-september-1920.txt`
+
+1 section(s) to level 2 · ~28,704 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 28,704 | 28,704 | christian-east_v1-no3-september-1920 |
+
+## `christian-east_v1-no4-december-1920.txt`
+
+1 section(s) to level 2 · ~23,409 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 23,409 | 23,409 | christian-east_v1-no4-december-1920 |
+
+## `christian-east_v10-no1-spring-1929.txt`
+
+1 section(s) to level 2 · ~24,839 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 24,839 | 24,839 | christian-east_v10-no1-spring-1929 |
+
+## `christian-east_v10-no2-summer-1929.txt`
+
+1 section(s) to level 2 · ~23,945 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 23,945 | 23,945 | christian-east_v10-no2-summer-1929 |
+
+## `christian-east_v10-no3-autumn-1929.txt`
+
+1 section(s) to level 2 · ~15,930 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 15,930 | 15,930 | christian-east_v10-no3-autumn-1929 |
+
+## `christian-east_v10-no4-winter-1929.txt`
+
+1 section(s) to level 2 · ~24,613 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 24,613 | 24,613 | christian-east_v10-no4-winter-1929 |
+
+## `christian-east_v11-no1-spring-1930.txt`
+
+1 section(s) to level 2 · ~23,480 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 23,480 | 23,480 | christian-east_v11-no1-spring-1930 |
+
+## `christian-east_v11-no2-summer-1930.txt`
+
+1 section(s) to level 2 · ~22,438 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 22,438 | 22,438 | christian-east_v11-no2-summer-1930 |
+
+## `christian-east_v11-no3-autumn-1930.txt`
+
+1 section(s) to level 2 · ~23,447 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 23,447 | 23,447 | christian-east_v11-no3-autumn-1930 |
+
+## `christian-east_v2-no1-april-1921.txt`
+
+1 section(s) to level 2 · ~28,417 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 28,417 | 28,417 | christian-east_v2-no1-april-1921 |
+
+## `christian-east_v2-no2-july-1921.txt`
+
+1 section(s) to level 2 · ~24,037 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 24,037 | 24,037 | christian-east_v2-no2-july-1921 |
+
+## `christian-east_v2-no3-september-1921.txt`
+
+1 section(s) to level 2 · ~22,534 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 22,534 | 22,534 | christian-east_v2-no3-september-1921 |
+
+## `christian-east_v2-no4-december-1921.txt`
+
+1 section(s) to level 2 · ~22,684 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 22,684 | 22,684 | christian-east_v2-no4-december-1921 |
+
+## `christian-east_v3-no1-march-1922.txt`
+
+1 section(s) to level 2 · ~22,292 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 22,292 | 22,292 | christian-east_v3-no1-march-1922 |
+
+## `christian-east_v3-no2-july-1922.txt`
+
+1 section(s) to level 2 · ~23,945 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 23,945 | 23,945 | christian-east_v3-no2-july-1922 |
+
+## `christian-east_v3-no3-october-1922.txt`
+
+1 section(s) to level 2 · ~25,747 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 25,747 | 25,747 | christian-east_v3-no3-october-1922 |
+
+## `christian-east_v3-no4-december-1922.txt`
+
+1 section(s) to level 2 · ~23,897 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 23,897 | 23,897 | christian-east_v3-no4-december-1922 |
+
+## `christian-east_v4-no1-march-1923.txt`
+
+1 section(s) to level 2 · ~27,480 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 27,480 | 27,480 | christian-east_v4-no1-march-1923 |
+
+## `christian-east_v4-no2-may-1923.txt`
+
+1 section(s) to level 2 · ~36,391 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 36,391 | 36,391 | christian-east_v4-no2-may-1923 |
+
+## `christian-east_v4-no3-august-1923.txt`
+
+1 section(s) to level 2 · ~29,185 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 29,185 | 29,185 | christian-east_v4-no3-august-1923 |
+
+## `christian-east_v4-no4-november-1923.txt`
+
+1 section(s) to level 2 · ~19,198 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 19,198 | 19,198 | christian-east_v4-no4-november-1923 |
+
+## `christian-east_v5-no1-february-1924.txt`
+
+1 section(s) to level 2 · ~25,945 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 25,945 | 25,945 | christian-east_v5-no1-february-1924 |
+
+## `christian-east_v5-no2-may-1924.txt`
+
+1 section(s) to level 2 · ~25,963 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 25,963 | 25,963 | christian-east_v5-no2-may-1924 |
+
+## `christian-east_v5-no3-september-1924.txt`
+
+1 section(s) to level 2 · ~27,435 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 27,435 | 27,435 | christian-east_v5-no3-september-1924 |
+
+## `christian-east_v5-no4-december-1924.txt`
+
+1 section(s) to level 2 · ~24,421 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 24,421 | 24,421 | christian-east_v5-no4-december-1924 |
+
+## `christian-east_v6-no1-march-1925.txt`
+
+1 section(s) to level 2 · ~23,105 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 23,105 | 23,105 | christian-east_v6-no1-march-1925 |
+
+## `christian-east_v6-no2-june-1925.txt`
+
+1 section(s) to level 2 · ~31,606 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 31,606 | 31,606 | christian-east_v6-no2-june-1925 |
+
+## `christian-east_v6-no3-september-1925.txt`
+
+1 section(s) to level 2 · ~38,039 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 38,039 | 38,039 | christian-east_v6-no3-september-1925 |
+
+## `christian-east_v6-no4-january-1926.txt`
+
+1 section(s) to level 2 · ~24,280 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 24,280 | 24,280 | christian-east_v6-no4-january-1926 |
+
+## `christian-east_v7-no1-april-1926.txt`
+
+1 section(s) to level 2 · ~23,284 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 23,284 | 23,284 | christian-east_v7-no1-april-1926 |
+
+## `christian-east_v7-no2-june-1926.txt`
+
+1 section(s) to level 2 · ~24,824 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 24,824 | 24,824 | christian-east_v7-no2-june-1926 |
+
+## `christian-east_v7-no3-september-1926.txt`
+
+1 section(s) to level 2 · ~24,354 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 24,354 | 24,354 | christian-east_v7-no3-september-1926 |
+
+## `christian-east_v7-no4-december-1926.txt`
+
+1 section(s) to level 2 · ~23,397 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 23,397 | 23,397 | christian-east_v7-no4-december-1926 |
+
+## `christian-east_v8-no1-march-1927.txt`
+
+1 section(s) to level 2 · ~21,168 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 21,168 | 21,168 | christian-east_v8-no1-march-1927 |
+
+## `christian-east_v8-no2-june-1927.txt`
+
+1 section(s) to level 2 · ~22,528 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 22,528 | 22,528 | christian-east_v8-no2-june-1927 |
+
+## `christian-east_v8-no3-autumn-1927.txt`
+
+1 section(s) to level 2 · ~35,867 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 35,867 | 35,867 | christian-east_v8-no3-autumn-1927 |
+
+## `christian-east_v8-no4-winter-1927.txt`
+
+1 section(s) to level 2 · ~23,096 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 23,096 | 23,096 | christian-east_v8-no4-winter-1927 |
+
+## `christian-east_v9-no1-spring-1928.txt`
+
+1 section(s) to level 2 · ~23,698 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 23,698 | 23,698 | christian-east_v9-no1-spring-1928 |
+
+## `christian-east_v9-no2-summer-1928.txt`
+
+1 section(s) to level 2 · ~22,599 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 22,599 | 22,599 | christian-east_v9-no2-summer-1928 |
+
+## `christian-east_v9-no3-autumn-1928.txt`
+
+1 section(s) to level 2 · ~23,488 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 23,488 | 23,488 | christian-east_v9-no3-autumn-1928 |
+
+## `christian-east_v9-no4-winter-1928.txt`
+
+1 section(s) to level 2 · ~16,396 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 16,396 | 16,396 | christian-east_v9-no4-winter-1928 |
 
 ## `christian-history_weekly-accounts-of-the-revival_prince1744.txt`
 
@@ -3048,11 +4680,11 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `chronicle-of-seert_histoire-nestorienne-seconde-partie-po13-ara-fra_scher1919.txt`
 
-1 section(s) to level 2 · ~323,485 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~323,492 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 323,485 | 323,485 | chronicle-of-seert_histoire-nestorienne-seconde-partie-po13-ara-fra_scher1919 |
+| `1` | 0 | 323,492 | 323,492 | chronicle-of-seert_histoire-nestorienne-seconde-partie-po13-ara-fra_scher1919 |
 
 ## `church-of-england_book-of-common-prayer_oxford1706.txt`
 
@@ -3102,6 +4734,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 136,027 | 136,027 | church-of-england_visitation-articles-injunctions-v3-1559-1575_frere-kennedy1910 |
 
+## `church-of-scotland_acts-of-the-general-assembly-1638-1842_church-law-society1843.txt`
+
+1 section(s) to level 2 · ~808,870 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 808,870 | 808,870 | church-of-scotland_acts-of-the-general-assembly-1638-1842_church-law-society1843 |
+
 ## `church-of-the-brethren_kleine-davidische-psalterspiel-deu_saur1744.txt`
 
 1 section(s) to level 2 · ~193,305 words of text · ~0 words of apparatus
@@ -3126,6 +4766,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 257,205 | 257,205 | church-of-utrecht_recueil-de-divers-temoignages-fra_1763 |
 
+## `churchill_druzes-and-the-maronites-under-the-turkish-rule_1862.txt`
+
+1 section(s) to level 2 · ~56,029 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 56,029 | 56,029 | churchill_druzes-and-the-maronites-under-the-turkish-rule_1862 |
+
 ## `churchman_account-of-gospel-labours_1779.txt`
 
 1 section(s) to level 2 · ~89,301 words of text · ~0 words of apparatus
@@ -3142,6 +4790,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 447,021 | 447,021 | cil8-supplementum-numidiae_cagnat-schmidt1894 |
 
+## `clare-assisi_life-of-saint-clare-ascribed-to-thomas-of-celano_robinson1910.txt`
+
+1 section(s) to level 2 · ~46,990 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 46,990 | 46,990 | clare-assisi_life-of-saint-clare-ascribed-to-thomas-of-celano_robinson1910 |
+
+## `clare-assisi_processo-di-canonizzazione-in-archivum-franciscanum-historicum-13-ita-lat_lazzeri1920.txt`
+
+1 section(s) to level 2 · ~282,626 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 282,626 | 282,626 | clare-assisi_processo-di-canonizzazione-in-archivum-franciscanum-historicum-13-ita-lat_lazzeri1920 |
+
 ## `clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt`
 
 1 section(s) to level 2 · ~126,179 words of text · ~0 words of apparatus
@@ -3149,6 +4813,38 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 126,179 | 126,179 | clareno_expositio-regulae-fratrum-minorum-lat_oliger1912 |
+
+## `claret_apuntes-regimen-de-la-diocesis-santiago-de-cuba-spa_1863.txt`
+
+1 section(s) to level 2 · ~63,856 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 63,856 | 63,856 | claret_apuntes-regimen-de-la-diocesis-santiago-de-cuba-spa_1863 |
+
+## `clark_corner-in-india_1907.txt`
+
+1 section(s) to level 2 · ~40,990 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 40,990 | 40,990 | clark_corner-in-india_1907 |
+
+## `clarke_founding-of-pacific-garden-mission_1914.txt`
+
+1 section(s) to level 2 · ~7,725 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 7,725 | 7,725 | clarke_founding-of-pacific-garden-mission_1914 |
+
+## `clay_annals-of-the-swedes-on-the-delaware_1835.txt`
+
+1 section(s) to level 2 · ~32,288 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 32,288 | 32,288 | clay_annals-of-the-swedes-on-the-delaware_1835 |
 
 ## `clement-xi_unigenitus-lat-eng_1713.txt`
 
@@ -3182,6 +4878,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 101,603 | 101,603 | cloud-of-unknowing_cloud-and-other-treatises_mccann1924 |
 
+## `clowes_journals-of-william-clowes_1844.txt`
+
+1 section(s) to level 2 · ~115,338 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 115,338 | 115,338 | clowes_journals-of-william-clowes_1844 |
+
+## `cluny_recueil-des-chartes-t1-802-954-lat-fra_bernard-bruel1876.txt`
+
+1 section(s) to level 2 · ~278,132 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 278,132 | 278,132 | cluny_recueil-des-chartes-t1-802-954-lat-fra_bernard-bruel1876 |
+
+## `cock_twee-der-eerste-geschriften-nld_1882.txt`
+
+1 section(s) to level 2 · ~29,301 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 29,301 | 29,301 | cock_twee-der-eerste-geschriften-nld_1882 |
+
 ## `cocks_diary-v1_thompson1883.txt`
 
 1 section(s) to level 2 · ~132,667 words of text · ~0 words of apparatus
@@ -3190,13 +4910,21 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 132,667 | 132,667 | cocks_diary-v1_thompson1883 |
 
-## `codex-canonum-ecclesiae-africanae_bruns-pars1-1839.txt`
+## `code-noir_recueil-des-reglemens-colonies-francoises-fra_prault1767.txt`
 
-1 section(s) to level 2 · ~174,492 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~69,191 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 174,492 | 174,492 | codex-canonum-ecclesiae-africanae_bruns-pars1-1839 |
+| `1` | 0 | 69,191 | 69,191 | code-noir_recueil-des-reglemens-colonies-francoises-fra_prault1767 |
+
+## `codex-canonum-ecclesiae-africanae_bruns-pars1-1839.txt`
+
+1 section(s) to level 2 · ~174,479 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 174,479 | 174,479 | codex-canonum-ecclesiae-africanae_bruns-pars1-1839 |
 
 ## `codex-theodosianus_latinlibrary.txt`
 
@@ -3206,6 +4934,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 240,243 | 240,243 | codex-theodosianus_latinlibrary |
 
+## `coffin_reminiscences-of-levi-coffin_1876.txt`
+
+1 section(s) to level 2 · ~205,983 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 205,983 | 205,983 | coffin_reminiscences-of-levi-coffin_1876 |
+
 ## `coke_extracts-of-journals-five-visits-to-america_1793.txt`
 
 1 section(s) to level 2 · ~62,106 words of text · ~0 words of apparatus
@@ -3213,6 +4949,38 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 62,106 | 62,106 | coke_extracts-of-journals-five-visits-to-america_1793 |
+
+## `colenso_pentateuch-and-book-of-joshua-pt1_1862.txt`
+
+1 section(s) to level 2 · ~74,728 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 74,728 | 74,728 | colenso_pentateuch-and-book-of-joshua-pt1_1862 |
+
+## `colenso_pentateuch-and-book-of-joshua-pt3_1863.txt`
+
+1 section(s) to level 2 · ~130,055 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 130,055 | 130,055 | colenso_pentateuch-and-book-of-joshua-pt3_1863 |
+
+## `colenso_ten-weeks-in-natal_1855.txt`
+
+1 section(s) to level 2 · ~101,896 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 101,896 | 101,896 | colenso_ten-weeks-in-natal_1855 |
+
+## `coleridge_memoir-of-the-rev-john-keble-v1_2nd-ed1869.txt`
+
+1 section(s) to level 2 · ~81,507 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 81,507 | 81,507 | coleridge_memoir-of-the-rev-john-keble-v1_2nd-ed1869 |
 
 ## `colin_labor-evangelica-t1-spa_pastells1900.txt`
 
@@ -3253,6 +5021,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 252,524 | 252,524 | collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808 |
+
+## `collectio-lacensis_t7-acta-et-decreta-concilii-vaticani-lat_1892.txt`
+
+1 section(s) to level 2 · ~1,181,659 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 1,181,659 | 1,181,659 | collectio-lacensis_t7-acta-et-decreta-concilii-vaticani-lat_1892 |
+
+## `colles_sisters-of-mercy-sisters-of-misery_1852.txt`
+
+1 section(s) to level 2 · ~9,483 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 9,483 | 9,483 | colles_sisters-of-mercy-sisters-of-misery_1852 |
 
 ## `comenius_historia-fratrum-bohemorum-lat_1702.txt`
 
@@ -3310,6 +5094,46 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 160,103 | 160,103 | concilia-aevi-merovingici-mgh-concilia-1-lat_maassen1893 |
 
+## `congress-christian-work-latin-america_panama-1916-v1_1917.txt`
+
+1 section(s) to level 2 · ~200,886 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 200,886 | 200,886 | congress-christian-work-latin-america_panama-1916-v1_1917 |
+
+## `congress-christian-work-latin-america_panama-1916-v2_1917.txt`
+
+1 section(s) to level 2 · ~148,588 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 148,588 | 148,588 | congress-christian-work-latin-america_panama-1916-v2_1917 |
+
+## `congress-christian-work-latin-america_panama-1916-v3_1917.txt`
+
+1 section(s) to level 2 · ~199,426 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 199,426 | 199,426 | congress-christian-work-latin-america_panama-1916-v3_1917 |
+
+## `congress-christian-work-south-america_montevideo-1925-v1_1925.txt`
+
+1 section(s) to level 2 · ~169,819 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 169,819 | 169,819 | congress-christian-work-south-america_montevideo-1925-v1_1925 |
+
+## `congress-christian-work-south-america_montevideo-1925-v2_1925.txt`
+
+1 section(s) to level 2 · ~159,629 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 159,629 | 159,629 | congress-christian-work-south-america_montevideo-1925-v2_1925 |
+
 ## `consett_collection-of-tracts-on-peter-the-great-v2_1729.txt`
 
 1 section(s) to level 2 · ~58,223 words of text · ~0 words of apparatus
@@ -3334,6 +5158,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 135,589 | 135,589 | conybeare_russian-dissenters_1921 |
 
+## `cooley_sketches-of-the-life-and-character-of-lemuel-haynes_1837.txt`
+
+1 section(s) to level 2 · ~111,501 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 111,501 | 111,501 | cooley_sketches-of-the-life-and-character-of-lemuel-haynes_1837 |
+
+## `coolsma_de-zendingseeuw-voor-nederlandsch-oost-indie-nld_1901.txt`
+
+1 section(s) to level 2 · ~622,246 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 622,246 | 622,246 | coolsma_de-zendingseeuw-voor-nederlandsch-oost-indie-nld_1901 |
+
 ## `coptic-apocrypha-upper-egypt-life-of-pisentius_budge1913.txt`
 
 1 section(s) to level 2 · ~153,479 words of text · ~0 words of apparatus
@@ -3357,6 +5197,38 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 192,929 | 192,929 | coquerel-charles_histoire-des-eglises-du-desert-t2-fra_1841 |
+
+## `cornelius_svenska-kyrkans-historia-efter-reformationen-swe_1886.txt`
+
+1 section(s) to level 2 · ~215,768 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 215,768 | 215,768 | cornelius_svenska-kyrkans-historia-efter-reformationen-swe_1886 |
+
+## `corpus-iuris-canonici_pars-2-decretalium-collectiones-lat_friedberg1881.txt`
+
+1 section(s) to level 2 · ~916,298 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 916,298 | 916,298 | corpus-iuris-canonici_pars-2-decretalium-collectiones-lat_friedberg1881 |
+
+## `corpus-reformatorum_v27-confutatio-et-apologia-confessionis-augustanae-lat-deu_bindseil1859.txt`
+
+1 section(s) to level 2 · ~267,427 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 267,427 | 267,427 | corpus-reformatorum_v27-confutatio-et-apologia-confessionis-augustanae-lat-deu_bindseil1859 |
+
+## `corwin-dubbs-hamilton_american-church-history-v8-reformed-and-moravian_1895.txt`
+
+1 section(s) to level 2 · ~160,543 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 160,543 | 160,543 | corwin-dubbs-hamilton_american-church-history-v8-reformed-and-moravian_1895 |
 
 ## `cosmas-indicopleustes_christian-topography_mccrindle1897.txt`
 
@@ -3454,6 +5326,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 399,022 | 399,022 | covel_some-account-of-the-present-greek-church_1722 |
 
+## `cox-george-w_life-of-john-william-colenso-v1_1888.txt`
+
+1 section(s) to level 2 · ~257,642 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 257,642 | 257,642 | cox-george-w_life-of-john-william-colenso-v1_1888 |
+
 ## `craft-of-dying_book-of-the-craft-of-dying-and-other-early-english-tracts_comper1917.txt`
 
 1 section(s) to level 2 · ~51,270 words of text · ~0 words of apparatus
@@ -3501,6 +5381,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 789,101 | 789,101 | crespin_histoire-des-martyrs-t3-fra_benoit-lelievre1889 |
+
+## `crowther_journal-of-an-expedition-up-the-niger-and-tshadda_1855.txt`
+
+1 section(s) to level 2 · ~68,506 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 68,506 | 68,506 | crowther_journal-of-an-expedition-up-the-niger-and-tshadda_1855 |
+
+## `cunninghame-graham_brazilian-mystic-antonio-conselheiro_1920.txt`
+
+1 section(s) to level 2 · ~68,643 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 68,643 | 68,643 | cunninghame-graham_brazilian-mystic-antonio-conselheiro_1920 |
 
 ## `curzon_visits-to-monasteries-in-the-levant_1849.txt`
 
@@ -3632,19 +5528,19 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt`
 
-1 section(s) to level 2 · ~302,345 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~302,254 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 302,345 | 302,345 | cyprian_opera-omnia-critical_hartel-csel3-pars1-2 |
+| `1` | 0 | 302,254 | 302,254 | cyprian_opera-omnia-critical_hartel-csel3-pars1-2 |
 
 ## `cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt`
 
-1 section(s) to level 2 · ~221,588 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~221,484 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 221,588 | 221,588 | cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3 |
+| `1` | 0 | 221,484 | 221,484 | cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3 |
 
 ## `cyprian_quod-idola-dii-non-sint-lat_hartel1868-csel3-tei.txt`
 
@@ -3694,6 +5590,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 229,325 | 229,325 | cyril-scythopolis_vita-euthymii-cotelier-monumenta-v2-grc-lat_1681 |
 
+## `cyril-scythopolis_vita-sabae-in-surius-vitae-sanctorum-v12-december-lat_1880.txt`
+
+1 section(s) to level 2 · ~336,598 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 336,598 | 336,598 | cyril-scythopolis_vita-sabae-in-surius-vitae-sanctorum-v12-december-lat_1880 |
+
 ## `dales_theologie-de-saint-cyprien-fra_1922.txt`
 
 1 section(s) to level 2 · ~158,074 words of text · ~0 words of apparatus
@@ -3710,6 +5614,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 121,725 | 121,725 | dallam-covel_early-voyages-and-travels-in-the-levant_bent1893 |
 
+## `dallet_histoire-de-l-eglise-de-coree-t1-fra_1874.txt`
+
+1 section(s) to level 2 · ~251,943 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 251,943 | 251,943 | dallet_histoire-de-l-eglise-de-coree-t1-fra_1874 |
+
+## `dallet_histoire-de-l-eglise-de-coree-t2-fra_1874.txt`
+
+1 section(s) to level 2 · ~259,146 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 259,146 | 259,146 | dallet_histoire-de-l-eglise-de-coree-t2-fra_1874 |
+
 ## `danske-folkekirke_ordinatio-ecclesiastica-lat_vinitor1537.txt`
 
 1 section(s) to level 2 · ~29,262 words of text · ~0 words of apparatus
@@ -3718,6 +5638,46 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 29,262 | 29,262 | danske-folkekirke_ordinatio-ecclesiastica-lat_vinitor1537 |
 
+## `dapontes_kepos-chariton-grc_sophocleous1880.txt`
+
+1 section(s) to level 2 · ~61,214 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 61,214 | 61,214 | dapontes_kepos-chariton-grc_sophocleous1880 |
+
+## `darby_dialogues-on-the-essays-and-reviews_2nd-ed1863.txt`
+
+1 section(s) to level 2 · ~188,301 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 188,301 | 188,301 | darby_dialogues-on-the-essays-and-reviews_2nd-ed1863 |
+
+## `darby_seven-lectures-on-the-second-coming-of-the-lord_toronto1863.txt`
+
+1 section(s) to level 2 · ~61,351 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 61,351 | 61,351 | darby_seven-lectures-on-the-second-coming-of-the-lord_toronto1863 |
+
+## `darby_studies-on-the-book-of-daniel_3rd-ed1864.txt`
+
+1 section(s) to level 2 · ~40,538 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 40,538 | 40,538 | darby_studies-on-the-book-of-daniel_3rd-ed1864 |
+
+## `davies_sermons-on-important-subjects-v1_campbell1794.txt`
+
+1 section(s) to level 2 · ~225,101 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 225,101 | 225,101 | davies_sermons-on-important-subjects-v1_campbell1794 |
+
 ## `davies_sermons-on-important-subjects-v3_allen1792.txt`
 
 1 section(s) to level 2 · ~169,148 words of text · ~0 words of apparatus
@@ -3725,6 +5685,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 169,148 | 169,148 | davies_sermons-on-important-subjects-v3_allen1792 |
+
+## `davis_sketch-of-the-life-of-rev-joseph-hardy-neesima_1890.txt`
+
+1 section(s) to level 2 · ~38,109 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 38,109 | 38,109 | davis_sketch-of-the-life-of-rev-joseph-hardy-neesima_1890 |
+
+## `dawson_james-hannington-a-history-of-his-life-and-work_1887.txt`
+
+1 section(s) to level 2 · ~148,969 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 148,969 | 148,969 | dawson_james-hannington-a-history-of-his-life-and-work_1887 |
+
+## `de-luca-giovanni_annales-minorum-t18-1540-1553-lat_1740.txt`
+
+1 section(s) to level 2 · ~338,694 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 338,694 | 338,694 | de-luca-giovanni_annales-minorum-t18-1540-1553-lat_1740 |
 
 ## `dedham-classis_minute-book_usher1905.txt`
 
@@ -3736,11 +5720,11 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `delehaye_passions-martyrs-genres-litteraires-fra_1921.txt`
 
-1 section(s) to level 2 · ~128,928 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~128,918 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 128,928 | 128,928 | delehaye_passions-martyrs-genres-litteraires-fra_1921 |
+| `1` | 0 | 128,918 | 128,918 | delehaye_passions-martyrs-genres-litteraires-fra_1921 |
 
 ## `denisov-andrei_pomorskie-otvety-rus_1911.txt`
 
@@ -3758,6 +5742,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 219,025 | 219,025 | denzinger_enchiridion-symbolorum-lat_bannwart1911 |
 
+## `deusdedit_die-kanonessammlung-des-kardinals-deusdedit-bd1-lat-deu_wolf-von-glanvell1905.txt`
+
+1 section(s) to level 2 · ~334,105 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 334,105 | 334,105 | deusdedit_die-kanonessammlung-des-kardinals-deusdedit-bd1-lat-deu_wolf-von-glanvell1905 |
+
+## `deutsche-reichstagsakten_juengere-reihe-bd-2-reichstag-zu-worms-1521-deu-lat-fra_wrede1896.txt`
+
+1 section(s) to level 2 · ~503,110 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 503,110 | 503,110 | deutsche-reichstagsakten_juengere-reihe-bd-2-reichstag-zu-worms-1521-deu-lat-fra_wrede1896 |
+
 ## `dhuoda_liber-manualis_bondurand1887.txt`
 
 1 section(s) to level 2 · ~78,931 words of text · ~0 words of apparatus
@@ -3766,13 +5766,45 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 78,931 | 78,931 | dhuoda_liber-manualis_bondurand1887 |
 
-## `didymus-alexandria_de-trinitate-lat-grc_mingarelli1769.txt`
+## `dialogues-on-prophecy_v1_1828.txt`
 
-1 section(s) to level 2 · ~514,218 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~115,060 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 514,218 | 514,218 | didymus-alexandria_de-trinitate-lat-grc_mingarelli1769 |
+| `1` | 0 | 115,060 | 115,060 | dialogues-on-prophecy_v1_1828 |
+
+## `dialogues-on-prophecy_v2_1828.txt`
+
+1 section(s) to level 2 · ~98,665 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 98,665 | 98,665 | dialogues-on-prophecy_v2_1828 |
+
+## `dialogues-on-prophecy_v3_1829.txt`
+
+1 section(s) to level 2 · ~139,569 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 139,569 | 139,569 | dialogues-on-prophecy_v3_1829 |
+
+## `didascalia-apostolorum_didascalia-apostolorum-in-english_gibson1903.txt`
+
+1 section(s) to level 2 · ~65,315 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 65,315 | 65,315 | didascalia-apostolorum_didascalia-apostolorum-in-english_gibson1903 |
+
+## `didymus-alexandria_de-trinitate-lat-grc_mingarelli1769.txt`
+
+1 section(s) to level 2 · ~514,209 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 514,209 | 514,209 | didymus-alexandria_de-trinitate-lat-grc_mingarelli1769 |
 
 ## `diepenveen_het-klooster-van-diepenveen-dum_opzoomer1886.txt`
 
@@ -3798,13 +5830,69 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 208,029 | 208,029 | dirk-philips_enchiridion_kolb1910 |
 
-## `doctrina-christiana_manila-1593-tgl-spa_wolf1947.txt`
+## `disselhoff_jubilate-denkschrift-kaiserswerth-deu_1886.txt`
 
-1 section(s) to level 2 · ~30,852 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~188,949 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 30,852 | 30,852 | doctrina-christiana_manila-1593-tgl-spa_wolf1947 |
+| `1` | 0 | 188,949 | 188,949 | disselhoff_jubilate-denkschrift-kaiserswerth-deu_1886 |
+
+## `dobrizhoffer_account-of-the-abipones-v1_1822.txt`
+
+1 section(s) to level 2 · ~103,090 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 103,090 | 103,090 | dobrizhoffer_account-of-the-abipones-v1_1822 |
+
+## `dobrizhoffer_account-of-the-abipones-v2_1822.txt`
+
+1 section(s) to level 2 · ~100,343 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 100,343 | 100,343 | dobrizhoffer_account-of-the-abipones-v2_1822 |
+
+## `dobrizhoffer_account-of-the-abipones-v3_1822.txt`
+
+1 section(s) to level 2 · ~91,657 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 91,657 | 91,657 | dobrizhoffer_account-of-the-abipones-v3_1822 |
+
+## `dobrizhoffer_historia-de-abiponibus-pars1-lat_1784.txt`
+
+1 section(s) to level 2 · ~125,350 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 125,350 | 125,350 | dobrizhoffer_historia-de-abiponibus-pars1-lat_1784 |
+
+## `doctrina-christiana_manila-1593-tgl-spa_wolf1947.txt`
+
+1 section(s) to level 2 · ~30,913 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 30,913 | 30,913 | doctrina-christiana_manila-1593-tgl-spa_wolf1947 |
+
+## `dodd_church-history-of-england-v4_tierney1841.txt`
+
+1 section(s) to level 2 · ~244,643 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 244,643 | 244,643 | dodd_church-history-of-england-v4_tierney1841 |
+
+## `dodd_church-history-of-england-v5_tierney1843.txt`
+
+1 section(s) to level 2 · ~247,336 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 247,336 | 247,336 | dodd_church-history-of-england-v5_tierney1843 |
 
 ## `doddridge_rise-and-progress-of-religion-in-the-soul_1745.txt`
 
@@ -3813,6 +5901,46 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 134,278 | 134,278 | doddridge_rise-and-progress-of-religion-in-the-soul_1745 |
+
+## `doellinger_beitraege-zur-sektengeschichte-des-mittelalters-v2-lat-deu_1890.txt`
+
+1 section(s) to level 2 · ~235,335 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 235,335 | 235,335 | doellinger_beitraege-zur-sektengeschichte-des-mittelalters-v2-lat-deu_1890 |
+
+## `dollinger_declarations-and-letters-on-the-vatican-decrees-1869-1887_1891.txt`
+
+1 section(s) to level 2 · ~43,065 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 43,065 | 43,065 | dollinger_declarations-and-letters-on-the-vatican-decrees-1869-1887_1891 |
+
+## `domentijan_zivot-svetoga-simeuna-i-svetoga-save-chu_danicic1865.txt`
+
+1 section(s) to level 2 · ~95,037 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 95,037 | 95,037 | domentijan_zivot-svetoga-simeuna-i-svetoga-save-chu_danicic1865 |
+
+## `dominican-general-chapters_acta-capitulorum-generalium-v2-1304-1378-lat_reichert1899.txt`
+
+1 section(s) to level 2 · ~190,726 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 190,726 | 190,726 | dominican-general-chapters_acta-capitulorum-generalium-v2-1304-1378-lat_reichert1899 |
+
+## `dominican-general-chapters_acta-capitulorum-generalium-v6-1601-1628-lat_reichert1902.txt`
+
+1 section(s) to level 2 · ~141,761 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 141,761 | 141,761 | dominican-general-chapters_acta-capitulorum-generalium-v6-1601-1628-lat_reichert1902 |
 
 ## `domostroi_domostroi-rus_yakovlev1867.txt`
 
@@ -3854,6 +5982,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 280,385 | 280,385 | doukas_historia-byzantina-grc-lat_bekker1834 |
 
+## `drummond-henry_speeches-in-parliament-v1_lovaine1860.txt`
+
+1 section(s) to level 2 · ~180,363 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 180,363 | 180,363 | drummond-henry_speeches-in-parliament-v1_lovaine1860 |
+
+## `drummond-henry_speeches-in-parliament-v2_lovaine1860.txt`
+
+1 section(s) to level 2 · ~159,358 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 159,358 | 159,358 | drummond-henry_speeches-in-parliament-v2_lovaine1860 |
+
+## `du-fosse_memoires-pour-servir-a-l-histoire-de-port-royal-fra_1739.txt`
+
+1 section(s) to level 2 · ~141,083 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 141,083 | 141,083 | du-fosse_memoires-pour-servir-a-l-histoire-de-port-royal-fra_1739 |
+
 ## `duchesne_histoire-ancienne-de-leglise-tome1-fra_3e-ed1907.txt`
 
 1 section(s) to level 2 · ~150,690 words of text · ~0 words of apparatus
@@ -3878,6 +6030,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 182,613 | 182,613 | duchesne_histoire-ancienne-de-leglise-tome3-fra_2e-ed1910 |
 
+## `dukhobors_zhivotnaia-kniga-dukhobortsev-rus_bonch-bruevich1909.txt`
+
+1 section(s) to level 2 · ~118,775 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 118,775 | 118,775 | dukhobors_zhivotnaia-kniga-dukhobortsev-rus_bonch-bruevich1909 |
+
 ## `dunlavy_manifesto-declaration-of-the-doctrines-and-practice-of-the-church-of-christ_1818.txt`
 
 1 section(s) to level 2 · ~317,526 words of text · ~0 words of apparatus
@@ -3886,6 +6046,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 317,526 | 317,526 | dunlavy_manifesto-declaration-of-the-doctrines-and-practice-of-the-church-of-christ_1818 |
 
+## `dunstan_memorials-of-saint-dunstan-rolls-series-63-lat_stubbs1874.txt`
+
+1 section(s) to level 2 · ~200,730 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 200,730 | 200,730 | dunstan_memorials-of-saint-dunstan-rolls-series-63-lat_stubbs1874 |
+
 ## `dutch-reformed-synods_acta-1568-1586-nld_rutgers1889.txt`
 
 1 section(s) to level 2 · ~202,952 words of text · ~0 words of apparatus
@@ -3893,6 +6061,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 202,952 | 202,952 | dutch-reformed-synods_acta-1568-1586-nld_rutgers1889 |
+
+## `dutton-anne_brief-account-of-the-gracious-dealings-of-god_1750.txt`
+
+1 section(s) to level 2 · ~139,696 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 139,696 | 139,696 | dutton-anne_brief-account-of-the-gracious-dealings-of-god_1750 |
 
 ## `dutton-anne_letters-on-spiritual-subjects-v1_1740.txt`
 
@@ -3910,6 +6086,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 151,404 | 151,404 | duwayhi_tarikh-al-ta-ifa-al-maruniyya-ara_shartuni1890 |
 
+## `duwayhi_tarikh-al-taifa-al-maruniyya-ara_shartuni189x.txt`
+
+1 section(s) to level 2 · ~150,712 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 150,712 | 150,712 | duwayhi_tarikh-al-taifa-al-maruniyya-ara_shartuni189x |
+
 ## `dyer-mary_brief-statement-of-the-sufferings-of-mary-dyer_1818.txt`
 
 1 section(s) to level 2 · ~13,345 words of text · ~0 words of apparatus
@@ -3917,6 +6101,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 13,345 | 13,345 | dyer-mary_brief-statement-of-the-sufferings-of-mary-dyer_1818 |
+
+## `dyer_revival-in-india_1907.txt`
+
+1 section(s) to level 2 · ~45,029 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 45,029 | 45,029 | dyer_revival-in-india_1907 |
 
 ## `early-baptists_persecution-for-religion-judgd-and-condemnd_1662.txt`
 
@@ -3965,6 +6157,38 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 74,527 | 74,527 | ecthesis-chronica_with-chronicon-athenarum-grc_lambros1902 |
+
+## `ecumenical-patriarchate_mavri-vivlos-ell_1920.txt`
+
+1 section(s) to level 2 · ~38,260 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 38,260 | 38,260 | ecumenical-patriarchate_mavri-vivlos-ell_1920 |
+
+## `eddy_retrospection-and-introspection_1892.txt`
+
+1 section(s) to level 2 · ~19,483 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 19,483 | 19,483 | eddy_retrospection-and-introspection_1892 |
+
+## `eddy_science-and-health-with-key-to-the-scriptures_161st-ed1899.txt`
+
+1 section(s) to level 2 · ~216,150 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 216,150 | 216,150 | eddy_science-and-health-with-key-to-the-scriptures_161st-ed1899 |
+
+## `edson_time-of-the-end_1849.txt`
+
+1 section(s) to level 2 · ~16,285 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 16,285 | 16,285 | edson_time-of-the-end_1849 |
 
 ## `edwards-jonathan-jr_salvation-of-all-men-strictly-examined_1790.txt`
 
@@ -4102,6 +6326,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 233,950 | 233,950 | ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd4-deu-lat_1888 |
 
+## `elaw_memoirs-of-mrs-zilpha-elaw_1846.txt`
+
+1 section(s) to level 2 · ~47,208 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 47,208 | 47,208 | elaw_memoirs-of-mrs-zilpha-elaw_1846 |
+
 ## `elias-of-nisibis_opus-chronologicum-lat_brooks-chabot-csco1910.txt`
 
 1 section(s) to level 2 · ~103,967 words of text · ~0 words of apparatus
@@ -4110,6 +6342,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 103,967 | 103,967 | elias-of-nisibis_opus-chronologicum-lat_brooks-chabot-csco1910 |
 
+## `ellis_history-of-madagascar-v1_1838.txt`
+
+1 section(s) to level 2 · ~173,963 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 173,963 | 173,963 | ellis_history-of-madagascar-v1_1838 |
+
+## `ellis_history-of-madagascar-v2_1838.txt`
+
+1 section(s) to level 2 · ~177,014 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 177,014 | 177,014 | ellis_history-of-madagascar-v2_1838 |
+
+## `ellis_martyr-church-christianity-in-madagascar_1870.txt`
+
+1 section(s) to level 2 · ~115,747 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 115,747 | 115,747 | ellis_martyr-church-christianity-in-madagascar_1870 |
+
 ## `ellwood_history-of-the-life_crump1900.txt`
 
 1 section(s) to level 2 · ~122,887 words of text · ~0 words of apparatus
@@ -4117,6 +6373,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 122,887 | 122,887 | ellwood_history-of-the-life_crump1900 |
+
+## `emerson_address-before-the-senior-class-in-divinity-college_1838.txt`
+
+1 section(s) to level 2 · ~7,999 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 7,999 | 7,999 | emerson_address-before-the-senior-class-in-divinity-college_1838 |
+
+## `emhardt_religion-in-soviet-russia-anarchy_1929.txt`
+
+1 section(s) to level 2 · ~141,953 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 141,953 | 141,953 | emhardt_religion-in-soviet-russia-anarchy_1929 |
 
 ## `engelthal_buechlein-von-der-genaden-ueberlast-gmh_schroeder1871.txt`
 
@@ -4158,6 +6430,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 152,212 | 152,212 | ephrata-community_turtel-taube-hymnal-deu_1747 |
 
+## `epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915.txt`
+
+1 section(s) to level 2 · ~217,195 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 217,195 | 217,195 | epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915 |
+
 ## `epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt`
 
 1 section(s) to level 2 · ~242,883 words of text · ~0 words of apparatus
@@ -4173,6 +6453,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 383,928 | 383,928 | epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860 |
+
+## `epiphanius_panarion-haer-65-80-pg42-grc-lat_migne1863.txt`
+
+1 section(s) to level 2 · ~542,346 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 542,346 | 542,346 | epiphanius_panarion-haer-65-80-pg42-grc-lat_migne1863 |
 
 ## `ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928.txt`
 
@@ -4238,6 +6526,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 33,442 | 33,442 | eugippius_life-of-saint-severinus_robinson1914 |
 
+## `eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt`
+
+1 section(s) to level 2 · ~656,366 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 656,366 | 656,366 | eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852 |
+
 ## `eunomius_first-apology_whiston1711.txt`
 
 1 section(s) to level 2 · ~9,299 words of text · ~0 words of apparatus
@@ -4261,6 +6557,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 188,684 | 188,684 | eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908 |
+
+## `euthymios-zigabenos_narratio-de-bogomilis-grc-lat_gieseler1842.txt`
+
+1 section(s) to level 2 · ~21,593 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 21,593 | 21,593 | euthymios-zigabenos_narratio-de-bogomilis-grc-lat_gieseler1842 |
+
+## `euthymius-tarnovo_werke-des-patriarchen-von-bulgarien-chu-deu_kaluzniacki1901.txt`
+
+1 section(s) to level 2 · ~176,649 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 176,649 | 176,649 | euthymius-tarnovo_werke-des-patriarchen-von-bulgarien-chu-deu_kaluzniacki1901 |
 
 ## `evagrius-scholasticus_ecclesiastical-history_walford1846.txt`
 
@@ -4302,6 +6614,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 34,198 | 34,198 | evans-frederick_shakers-compendium-of-the-origin-history-principles-rules_1859 |
 
+## `evans_biographical-dictionary-of-ministers-and-preachers-of-the-welsh-calvinistic-methodist-body_1907.txt`
+
+1 section(s) to level 2 · ~154,808 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 154,808 | 154,808 | evans_biographical-dictionary-of-ministers-and-preachers-of-the-welsh-calvinistic-methodist-body_1907 |
+
 ## `evans_through-bosnia-and-the-herzegovina-on-foot_1877.txt`
 
 1 section(s) to level 2 · ~174,168 words of text · ~0 words of apparatus
@@ -4309,6 +6629,38 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 174,168 | 174,168 | evans_through-bosnia-and-the-herzegovina-on-foot_1877 |
+
+## `evliya-celebi_narrative-of-travels-v1-pt1_hammer1834.txt`
+
+1 section(s) to level 2 · ~93,386 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 93,386 | 93,386 | evliya-celebi_narrative-of-travels-v1-pt1_hammer1834 |
+
+## `evliya-celebi_narrative-of-travels-v1-pt2_hammer1846.txt`
+
+1 section(s) to level 2 · ~121,788 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 121,788 | 121,788 | evliya-celebi_narrative-of-travels-v1-pt2_hammer1846 |
+
+## `evliya-celebi_narrative-of-travels-v2_hammer1850.txt`
+
+1 section(s) to level 2 · ~127,331 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 127,331 | 127,331 | evliya-celebi_narrative-of-travels-v2_hammer1850 |
+
+## `ezana_deutsche-aksum-expedition-bd4-inschriften-deu-gez-grc_littmann1913.txt`
+
+1 section(s) to level 2 · ~72,815 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 72,815 | 72,815 | ezana_deutsche-aksum-expedition-bd4-inschriften-deu-gez-grc_littmann1913 |
 
 ## `faber-fw_life-of-saint-rose-of-lima_1855.txt`
 
@@ -4320,11 +6672,11 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `faber_memoriale-lat_1873.txt`
 
-1 section(s) to level 2 · ~68,442 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~68,438 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 68,442 | 68,442 | faber_memoriale-lat_1873 |
+| `1` | 0 | 68,438 | 68,438 | faber_memoriale-lat_1873 |
 
 ## `facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt`
 
@@ -4333,6 +6685,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 579,684 | 579,684 | facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865 |
+
+## `faith-and-order_lausanne-1927-proceedings_bate1927.txt`
+
+1 section(s) to level 2 · ~204,095 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 204,095 | 204,095 | faith-and-order_lausanne-1927-proceedings_bate1927 |
 
 ## `family-of-love_brief-rehersall-of-the-beleef_1575.txt`
 
@@ -4352,11 +6712,11 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `fasciculi-zizaniorum_shirley1858.txt`
 
-1 section(s) to level 2 · ~180,912 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~180,909 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 180,912 | 180,912 | fasciculi-zizaniorum_shirley1858 |
+| `1` | 0 | 180,909 | 180,909 | fasciculi-zizaniorum_shirley1858 |
 
 ## `faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt`
 
@@ -4373,6 +6733,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 82,303 | 82,303 | fedor-ivanov-diakon_sochineniia-materialy-v6-rus_subbotin1881 |
+
+## `fedotoff_russian-church-since-the-revolution_1928.txt`
+
+1 section(s) to level 2 · ~24,627 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 24,627 | 24,627 | fedotoff_russian-church-since-the-revolution_1928 |
 
 ## `fell_brief-collection-of-remarkable-passages-works_1710.txt`
 
@@ -4422,6 +6790,38 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 154,379 | 154,379 | fenstanton-church_records-of-fenstanton-warboys-hexham_underhill1854 |
 
+## `feofan_bogougodnaia-zhizn-voobshche-rus_2nd-ed1899.txt`
+
+1 section(s) to level 2 · ~27,058 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 27,058 | 27,058 | feofan_bogougodnaia-zhizn-voobshche-rus_2nd-ed1899 |
+
+## `feofan_slova-k-tambovskoi-pastve-rus_1861.txt`
+
+1 section(s) to level 2 · ~80,670 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 80,670 | 80,670 | feofan_slova-k-tambovskoi-pastve-rus_1861 |
+
+## `ferencz_short-account-of-the-unitarian-church-of-hungary_1907.txt`
+
+1 section(s) to level 2 · ~9,240 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 9,240 | 9,240 | ferencz_short-account-of-the-unitarian-church-of-hungary_1907 |
+
+## `ferencz_unitarius-kis-tukor-hun_1875.txt`
+
+1 section(s) to level 2 · ~25,627 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 25,627 | 25,627 | ferencz_unitarius-kis-tukor-hun_1875 |
+
 ## `fermendzin_acta-bosnae-potissimum-ecclesiastica-lat_fermendzin1892.txt`
 
 1 section(s) to level 2 · ~157,478 words of text · ~0 words of apparatus
@@ -4446,6 +6846,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 45,170 | 45,170 | field-john_piety-promoted-dying-sayings-of-quakers_1728 |
 
+## `filimonov_materialy-dlia-biografii-arkhimandrita-makariia-rus_1888.txt`
+
+1 section(s) to level 2 · ~73,420 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 73,420 | 73,420 | filimonov_materialy-dlia-biografii-arkhimandrita-makariia-rus_1888 |
+
 ## `filippov-ivan_istoriia-vygovskoi-staroobriadcheskoi-pustyni-rus_kozhanchikov1862.txt`
 
 1 section(s) to level 2 · ~132,885 words of text · ~0 words of apparatus
@@ -4453,6 +6861,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 132,885 | 132,885 | filippov-ivan_istoriia-vygovskoi-staroobriadcheskoi-pustyni-rus_kozhanchikov1862 |
+
+## `finney_lectures-on-revivals-of-religion_6th-ed1835.txt`
+
+1 section(s) to level 2 · ~207,424 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 207,424 | 207,424 | finney_lectures-on-revivals-of-religion_6th-ed1835 |
+
+## `finney_memoirs-of-rev-charles-g-finney_1876.txt`
+
+1 section(s) to level 2 · ~177,214 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 177,214 | 177,214 | finney_memoirs-of-rev-charles-g-finney_1876 |
 
 ## `fioretti_little-flowers-of-st-francis_heywood1906.txt`
 
@@ -4502,6 +6926,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 176,386 | 176,386 | fletcher-mary_life-compiled-from-her-journal_moore1818 |
 
+## `fliedner-life_life-of-pastor-fliedner-of-kaiserswerth_winkworth1867.txt`
+
+1 section(s) to level 2 · ~54,773 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 54,773 | 54,773 | fliedner-life_life-of-pastor-fliedner-of-kaiserswerth_winkworth1867 |
+
+## `flodoard_annales-lat_lauer1905.txt`
+
+1 section(s) to level 2 · ~157,630 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 157,630 | 157,630 | flodoard_annales-lat_lauer1905 |
+
 ## `florencia_estrella-del-norte-de-mexico-spa_rosa1895.txt`
 
 1 section(s) to level 2 · ~95,470 words of text · ~0 words of apparatus
@@ -4510,6 +6950,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 95,470 | 95,470 | florencia_estrella-del-norte-de-mexico-spa_rosa1895 |
 
+## `foerstemann_urkundenbuch-reichstag-zu-augsburg-1530-bd-2-deu-lat_1835.txt`
+
+1 section(s) to level 2 · ~259,226 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 259,226 | 259,226 | foerstemann_urkundenbuch-reichstag-zu-augsburg-1530-bd-2-deu-lat_1835 |
+
 ## `fontaine-james_memoirs-of-a-huguenot-family_maury1853.txt`
 
 1 section(s) to level 2 · ~170,085 words of text · ~0 words of apparatus
@@ -4517,6 +6965,46 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 170,085 | 170,085 | fontaine-james_memoirs-of-a-huguenot-family_maury1853 |
+
+## `fontaine-nicolas_memoires-pour-servir-a-l-histoire-de-port-royal-t1-fra_1738.txt`
+
+1 section(s) to level 2 · ~174,418 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 174,418 | 174,418 | fontaine-nicolas_memoires-pour-servir-a-l-histoire-de-port-royal-t1-fra_1738 |
+
+## `fontaine-nicolas_memoires-pour-servir-a-l-histoire-de-port-royal-t2-fra_1738.txt`
+
+1 section(s) to level 2 · ~194,548 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 194,548 | 194,548 | fontaine-nicolas_memoires-pour-servir-a-l-histoire-de-port-royal-t2-fra_1738 |
+
+## `foote_brand-plucked-from-the-fire_1879.txt`
+
+1 section(s) to level 2 · ~25,276 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 25,276 | 25,276 | foote_brand-plucked-from-the-fire_1879 |
+
+## `fosdick_shall-the-fundamentalists-win-in-christian-century-v39-no23_1922.txt`
+
+1 section(s) to level 2 · ~31,597 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 31,597 | 31,597 | fosdick_shall-the-fundamentalists-win-in-christian-century-v39-no23_1922 |
+
+## `four-masters_annals-of-the-kingdom-of-ireland-v3-1172-1378-gle-eng_odonovan1856.txt`
+
+1 section(s) to level 2 · ~562,723 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 562,723 | 562,723 | four-masters_annals-of-the-kingdom-of-ireland-v3-1172-1378-gle-eng_odonovan1856 |
 
 ## `fox_collection-of-epistles_1698.txt`
 
@@ -4590,6 +7078,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 550,723 | 550,723 | foxe_acts-and-monuments-v8_cattley-townsend1837 |
 
+## `francis-assisi_opuscula-lat_quaracchi1904.txt`
+
+1 section(s) to level 2 · ~34,230 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 34,230 | 34,230 | francis-assisi_opuscula-lat_quaracchi1904 |
+
+## `francis-assisi_writings-of-saint-francis_robinson1906.txt`
+
+1 section(s) to level 2 · ~61,286 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 61,286 | 61,286 | francis-assisi_writings-of-saint-francis_robinson1906 |
+
 ## `francis-xavier_life-and-letters-v1_coleridge1872.txt`
 
 1 section(s) to level 2 · ~182,667 words of text · ~0 words of apparatus
@@ -4630,6 +7134,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 46,113 | 46,113 | francisco-de-san-jose_libro-de-las-quatro-postrimerias-tgl_manila1734 |
 
+## `francisco-de-santa-maria_reforma-de-los-descalzos-t2-spa_1655.txt`
+
+1 section(s) to level 2 · ~499,197 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 499,197 | 499,197 | francisco-de-santa-maria_reforma-de-los-descalzos-t2-spa_1655 |
+
 ## `franck_forbidden-fruit_anon1640.txt`
 
 1 section(s) to level 2 · ~44,255 words of text · ~0 words of apparatus
@@ -4640,11 +7152,11 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `franck_paradoxa-deu_rab1559.txt`
 
-1 section(s) to level 2 · ~172,289 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~172,285 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 172,289 | 172,289 | franck_paradoxa-deu_rab1559 |
+| `1` | 0 | 172,285 | 172,285 | franck_paradoxa-deu_rab1559 |
 
 ## `francke_christ-the-sum-and-substance-of-scripture_1732.txt`
 
@@ -4710,6 +7222,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 37,669 | 37,669 | freeman-james_sermons-on-particular-occasions_1814 |
 
+## `freeman-johns_narrative-of-the-persecution-of-the-christians-in-madagascar_1840.txt`
+
+1 section(s) to level 2 · ~98,311 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 98,311 | 98,311 | freeman-johns_narrative-of-the-persecution-of-the-christians-in-madagascar_1840 |
+
 ## `french-church-of-london_examen-du-theatre-sacre-fra_1708.txt`
 
 1 section(s) to level 2 · ~11,193 words of text · ~0 words of apparatus
@@ -4758,6 +7278,46 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 291,329 | 291,329 | freylinghausen_geistreiches-gesangbuch-deu_halle1730 |
 
+## `froude_remains-pt1-v1_1838.txt`
+
+1 section(s) to level 2 · ~131,141 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 131,141 | 131,141 | froude_remains-pt1-v1_1838 |
+
+## `froude_remains-pt1-v2_1838.txt`
+
+1 section(s) to level 2 · ~109,223 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 109,223 | 109,223 | froude_remains-pt1-v2_1838 |
+
+## `froude_remains-pt2-v1_1839.txt`
+
+1 section(s) to level 2 · ~129,408 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 129,408 | 129,408 | froude_remains-pt2-v1_1839 |
+
+## `froude_remains-pt2-v2_1839.txt`
+
+1 section(s) to level 2 · ~198,776 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 198,776 | 198,776 | froude_remains-pt2-v2_1839 |
+
+## `fuesslin_beytraege-kirchen-reformations-geschichten-schweitzerland-theil-5-deu_1753.txt`
+
+1 section(s) to level 2 · ~119,845 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 119,845 | 119,845 | fuesslin_beytraege-kirchen-reformations-geschichten-schweitzerland-theil-5-deu_1753 |
+
 ## `fulgentius-ruspe_opera-contra-arianos-pl65-lat_migne1847.txt`
 
 1 section(s) to level 2 · ~508,472 words of text · ~0 words of apparatus
@@ -4773,6 +7333,38 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 66,859 | 66,859 | fuller-andrew_gospel-worthy-of-all-acceptation_1805 |
+
+## `fundamentals_testimony-to-the-truth-v1_biola1917.txt`
+
+1 section(s) to level 2 · ~124,508 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 124,508 | 124,508 | fundamentals_testimony-to-the-truth-v1_biola1917 |
+
+## `fundamentals_testimony-to-the-truth-v2_biola1917.txt`
+
+1 section(s) to level 2 · ~134,003 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 134,003 | 134,003 | fundamentals_testimony-to-the-truth-v2_biola1917 |
+
+## `fundamentals_testimony-to-the-truth-v3_biola1917.txt`
+
+1 section(s) to level 2 · ~126,168 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 126,168 | 126,168 | fundamentals_testimony-to-the-truth-v3_biola1917 |
+
+## `fundamentals_testimony-to-the-truth-v4_biola1917.txt`
+
+1 section(s) to level 2 · ~120,665 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 120,665 | 120,665 | fundamentals_testimony-to-the-truth-v4_biola1917 |
 
 ## `gabotto_valdesi-catari-streghe-in-piemonte-ita_1900.txt`
 
@@ -4813,6 +7405,38 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 199,055 | 199,055 | gage_english-american-new-survey-of-the-west-indias_1648 |
+
+## `garcia-de-la-concepcion_historia-bethlehemitica-spa_1723.txt`
+
+1 section(s) to level 2 · ~324,675 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 324,675 | 324,675 | garcia-de-la-concepcion_historia-bethlehemitica-spa_1723 |
+
+## `garcia-moreno_escritos-y-discursos-t1-spa_1887.txt`
+
+1 section(s) to level 2 · ~117,167 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 117,167 | 117,167 | garcia-moreno_escritos-y-discursos-t1-spa_1887 |
+
+## `garcia-moreno_escritos-y-discursos-t2-spa_1888.txt`
+
+1 section(s) to level 2 · ~111,115 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 111,115 | 111,115 | garcia-moreno_escritos-y-discursos-t2-spa_1888 |
+
+## `garcia-pelaez_memorias-historia-reyno-de-guatemala-t2-spa_1852.txt`
+
+1 section(s) to level 2 · ~135,456 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 135,456 | 135,456 | garcia-pelaez_memorias-historia-reyno-de-guatemala-t2-spa_1852 |
 
 ## `gay-ebenezer_natural-religion-as-distinguished-from-revealed-dudleian-lecture_1759.txt`
 
@@ -4894,6 +7518,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 23,462 | 23,462 | georgirenes_present-state-samos-nicaria-patmos-athos_denton1678 |
 
+## `gerard-de-frachet_lives-of-the-brethren_conway1924.txt`
+
+1 section(s) to level 2 · ~97,378 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 97,378 | 97,378 | gerard-de-frachet_lives-of-the-brethren_conway1924 |
+
+## `gerard-de-frachet_vitae-fratrum-lat_reichert1896.txt`
+
+1 section(s) to level 2 · ~186,570 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 186,570 | 186,570 | gerard-de-frachet_vitae-fratrum-lat_reichert1896 |
+
 ## `gerard-john_condition-of-catholics-under-james-i_morris1871.txt`
 
 1 section(s) to level 2 · ~231,432 words of text · ~0 words of apparatus
@@ -4904,11 +7544,11 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `gerlach_tage-buch-deu_1674.txt`
 
-1 section(s) to level 2 · ~403,597 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~403,593 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 403,597 | 403,597 | gerlach_tage-buch-deu_1674 |
+| `1` | 0 | 403,593 | 403,593 | gerlach_tage-buch-deu_1674 |
 
 ## `gerson_opera-omnia-tomus-2-pars-1-tractatus-ad-schisma-lat_dupin1706.txt`
 
@@ -4926,6 +7566,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 7,908 | 7,908 | gibbings_records-of-the-roman-inquisition-minorite-friar_1853 |
 
+## `gibbons-thomas_memoirs-of-isaac-watts_1780.txt`
+
+1 section(s) to level 2 · ~126,914 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 126,914 | 126,914 | gibbons-thomas_memoirs-of-isaac-watts_1780 |
+
 ## `gildas_de-excidio-britanniae-lorica-penitential-lat-eng_williams1899.txt`
 
 1 section(s) to level 2 · ~203,826 words of text · ~0 words of apparatus
@@ -4933,6 +7581,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 203,826 | 203,826 | gildas_de-excidio-britanniae-lorica-penitential-lat-eng_williams1899 |
+
+## `gill_gems-from-the-coral-islands-western-polynesia_1855.txt`
+
+1 section(s) to level 2 · ~69,433 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 69,433 | 69,433 | gill_gems-from-the-coral-islands-western-polynesia_1855 |
 
 ## `gilles_histoire-ecclesiastique-eglises-reformees-vallees-de-piemont-fra_1644.txt`
 
@@ -4966,6 +7622,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 219,032 | 219,032 | gillett_life-and-times-of-huss-v2_1871 |
 
+## `ginzel_geschichte-der-slawenapostel-cyrill-und-method-deu-lat_1861.txt`
+
+1 section(s) to level 2 · ~119,430 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 119,430 | 119,430 | ginzel_geschichte-der-slawenapostel-cyrill-und-method-deu-lat_1861 |
+
 ## `giussano_life-of-st-charles-borromeo-v1_1884.txt`
 
 1 section(s) to level 2 · ~137,886 words of text · ~0 words of apparatus
@@ -4990,6 +7654,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 340,628 | 340,628 | giussano_vita-di-s-carlo-borromeo-ita_1855 |
 
+## `gladden_applied-christianity_9th-ed1897.txt`
+
+1 section(s) to level 2 · ~76,519 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 76,519 | 76,519 | gladden_applied-christianity_9th-ed1897 |
+
 ## `glassberger_chronica-analecta-franciscana-v2-lat_1887.txt`
 
 1 section(s) to level 2 · ~312,708 words of text · ~0 words of apparatus
@@ -5006,6 +7678,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 42,851 | 42,851 | glostrup_visitatser-i-oslo-og-hamar-stifter-1617-1637-dan_daae-huitfeldt-kaas1895 |
 
+## `gobat_journal-of-a-three-years-residence-in-abyssinia_1834.txt`
+
+1 section(s) to level 2 · ~112,371 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 112,371 | 112,371 | gobat_journal-of-a-three-years-residence-in-abyssinia_1834 |
+
 ## `goll_quellen-bohmische-bruder-v1-deu_1878.txt`
 
 1 section(s) to level 2 · ~65,754 words of text · ~0 words of apparatus
@@ -5021,6 +7701,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 41,144 | 41,144 | goll_quellen-bohmische-bruder-v2-deu_1882 |
+
+## `gollock_sons-of-africa_1928.txt`
+
+1 section(s) to level 2 · ~51,255 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 51,255 | 51,255 | gollock_sons-of-africa_1928 |
 
 ## `golubev_petr-mogila-i-ego-spodvizhniki-t1-rus_1883.txt`
 
@@ -5054,6 +7742,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 150,490 | 150,490 | gouvea_jornada-do-arcebispo-de-goa-por_1606 |
 
+## `gracian_tratado-de-la-redempcion-de-captivos-spa_momarte1609.txt`
+
+1 section(s) to level 2 · ~14,412 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 14,412 | 14,412 | gracian_tratado-de-la-redempcion-de-captivos-spa_momarte1609 |
+
 ## `gratius_fasciculus-rerum-expetendarum-v1-lat_brown1690.txt`
 
 1 section(s) to level 2 · ~373,707 words of text · ~0 words of apparatus
@@ -5061,6 +7757,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 373,707 | 373,707 | gratius_fasciculus-rerum-expetendarum-v1-lat_brown1690 |
+
+## `graves_old-landmarkism-what-is-it_1880.txt`
+
+1 section(s) to level 2 · ~64,195 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 64,195 | 64,195 | graves_old-landmarkism-what-is-it_1880 |
+
+## `gregoras_byzantina-historia-v1-grc-lat_schopen1829.txt`
+
+1 section(s) to level 2 · ~287,282 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 287,282 | 287,282 | gregoras_byzantina-historia-v1-grc-lat_schopen1829 |
 
 ## `gregoras_byzantina-historia-v2-grc-lat_schopen1830.txt`
 
@@ -5077,6 +7789,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 230,750 | 230,750 | gregoras_byzantina-historia-v3-grc-lat_bekker1855 |
+
+## `gregory-alfred_robert-raikes-journalist-and-philanthropist_1877.txt`
+
+1 section(s) to level 2 · ~42,580 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 42,580 | 42,580 | gregory-alfred_robert-raikes-journalist-and-philanthropist_1877 |
 
 ## `gregory-great_dialogues_gardner1911.txt`
 
@@ -5126,6 +7846,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 315,456 | 315,456 | gregory-great_moralia-in-job-books-xxx-xxxv_bliss1850 |
 
+## `gregory-great_registrum-epistolarum-t2-pars1-libri-8-9-lat_ewald-hartmann1893.txt`
+
+1 section(s) to level 2 · ~117,581 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 117,581 | 117,581 | gregory-great_registrum-epistolarum-t2-pars1-libri-8-9-lat_ewald-hartmann1893 |
+
+## `gregory-great_registrum-epistolarum-t2-pars2-libri-10-14-lat_ewald-hartmann1895.txt`
+
+1 section(s) to level 2 · ~321,738 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 321,738 | 321,738 | gregory-great_registrum-epistolarum-t2-pars2-libri-10-14-lat_ewald-hartmann1895 |
+
 ## `gregory-nazianzen_epistulae-carmina-pg37-grc-lat_migne1857.txt`
 
 1 section(s) to level 2 · ~653,693 words of text · ~0 words of apparatus
@@ -5150,6 +7886,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 692,533 | 692,533 | gregory-nazianzen_orationes-27-45-pg36-grc-lat_migne1858 |
 
+## `gregory-nazianzen_orationes-pg35-grc-lat_migne1857.txt`
+
+1 section(s) to level 2 · ~601,432 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 601,432 | 601,432 | gregory-nazianzen_orationes-pg35-grc-lat_migne1857 |
+
 ## `gregory-nazianzen_second-invective-against-julian_king1888.txt`
 
 1 section(s) to level 2 · ~13,089 words of text · ~0 words of apparatus
@@ -5160,11 +7904,11 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `gregory-nyssa_life-of-macrina-introduction-only_clarke1916.txt`
 
-1 section(s) to level 2 · ~2,586 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~2,584 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 2,586 | 2,586 | gregory-nyssa_life-of-macrina-introduction-only_clarke1916 |
+| `1` | 0 | 2,584 | 2,584 | gregory-nyssa_life-of-macrina-introduction-only_clarke1916 |
 
 ## `gregory-nyssa_life-of-macrina_clarke1916.txt`
 
@@ -5173,6 +7917,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 14,188 | 14,188 | gregory-nyssa_life-of-macrina_clarke1916 |
+
+## `gregory-nyssa_opera-omnia-pg44-grc-lat_migne1858.txt`
+
+1 section(s) to level 2 · ~682,917 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 682,917 | 682,917 | gregory-nyssa_opera-omnia-pg44-grc-lat_migne1858 |
+
+## `gregory-nyssa_opera-omnia-pg45-grc-lat_migne1858.txt`
+
+1 section(s) to level 2 · ~640,904 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 640,904 | 640,904 | gregory-nyssa_opera-omnia-pg45-grc-lat_migne1858 |
+
+## `gregory-nyssa_opera-omnia-pg46-grc-lat_migne1863.txt`
+
+1 section(s) to level 2 · ~606,023 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 606,023 | 606,023 | gregory-nyssa_opera-omnia-pg46-grc-lat_migne1863 |
 
 ## `gregory-tours_history-of-the-franks-selections_brehaut1916.txt`
 
@@ -5214,6 +7982,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 8,080 | 8,080 | griffiths-ann_hymns-in-english-verse_pughe1900 |
 
+## `groen-van-prinsterer_ongeloof-en-revolutie-nld_2e-uitg1868.txt`
+
+1 section(s) to level 2 · ~148,420 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 148,420 | 148,420 | groen-van-prinsterer_ongeloof-en-revolutie-nld_2e-uitg1868 |
+
 ## `groote_epistolae-xiv-lat_acquoy1857.txt`
 
 1 section(s) to level 2 · ~39,848 words of text · ~0 words of apparatus
@@ -5238,6 +8014,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 96,744 | 96,744 | grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889 |
 
+## `groves_journal-of-a-residence-at-bagdad-1830-1831_1832.txt`
+
+1 section(s) to level 2 · ~88,432 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 88,432 | 88,432 | groves_journal-of-a-residence-at-bagdad-1830-1831_1832 |
+
+## `groves_memoir-of-anthony-norris-groves_3rd-ed1859.txt`
+
+1 section(s) to level 2 · ~266,940 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 266,940 | 266,940 | groves_memoir-of-anthony-norris-groves_3rd-ed1859 |
+
 ## `gsell_inscriptions-latines-de-lalgerie-tome1-proconsulaire-fra-lat_1922.txt`
 
 1 section(s) to level 2 · ~391,167 words of text · ~0 words of apparatus
@@ -5245,6 +8037,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 391,167 | 391,167 | gsell_inscriptions-latines-de-lalgerie-tome1-proconsulaire-fra-lat_1922 |
+
+## `guebre-sellassie_chronique-du-regne-de-menelik-ii-t1-fra_coppet1930.txt`
+
+1 section(s) to level 2 · ~220,615 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 220,615 | 220,615 | guebre-sellassie_chronique-du-regne-de-menelik-ii-t1-fra_coppet1930 |
 
 ## `guepin_apotre-de-l-union-des-eglises-fra_1897.txt`
 
@@ -5261,6 +8061,46 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 93,297 | 93,297 | guericke_life-of-francke_jackson1837 |
+
+## `guicciardini_la-storia-d-italia-v1-ita_gherardi1919.txt`
+
+1 section(s) to level 2 · ~252,743 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 252,743 | 252,743 | guicciardini_la-storia-d-italia-v1-ita_gherardi1919 |
+
+## `guicciardini_la-storia-d-italia-v2-ita_gherardi1919.txt`
+
+1 section(s) to level 2 · ~216,462 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 216,462 | 216,462 | guicciardini_la-storia-d-italia-v2-ita_gherardi1919 |
+
+## `guicciardini_la-storia-d-italia-v3-ita_gherardi1919.txt`
+
+1 section(s) to level 2 · ~217,564 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 217,564 | 217,564 | guicciardini_la-storia-d-italia-v3-ita_gherardi1919 |
+
+## `guicciardini_la-storia-d-italia-v4-ita_gherardi1919.txt`
+
+1 section(s) to level 2 · ~261,549 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 261,549 | 261,549 | guicciardini_la-storia-d-italia-v4-ita_gherardi1919 |
+
+## `gurney_observations-on-the-religious-peculiarities-of-the-society-of-friends_1824.txt`
+
+1 section(s) to level 2 · ~113,529 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 113,529 | 113,529 | gurney_observations-on-the-religious-peculiarities-of-the-society-of-friends_1824 |
 
 ## `guyon_autobiography-v1_allen1897.txt`
 
@@ -5310,6 +8150,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 6,442 | 6,442 | haak_dutch-annotations-narrative-and-front-matter_1657 |
 
+## `hadewijch_werken-1-gedichten-dum_heremans-ledeganck1875.txt`
+
+1 section(s) to level 2 · ~40,518 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 40,518 | 40,518 | hadewijch_werken-1-gedichten-dum_heremans-ledeganck1875 |
+
+## `hadrian-i_epistolae-karolini-aevi-3-mgh-epistolae-5-lat_1899.txt`
+
+1 section(s) to level 2 · ~420,019 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 420,019 | 420,019 | hadrian-i_epistolae-karolini-aevi-3-mgh-epistolae-5-lat_1899 |
+
+## `hale_innocent-of-moscow-apostle-of-kamchatka-and-alaska_1888.txt`
+
+1 section(s) to level 2 · ~9,037 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 9,037 | 9,037 | hale_innocent-of-moscow-apostle-of-kamchatka-and-alaska_1888 |
+
 ## `hales_letters-from-the-synod-of-dort_1765.txt`
 
 1 section(s) to level 2 · ~41,417 words of text · ~0 words of apparatus
@@ -5317,6 +8181,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 41,417 | 41,417 | hales_letters-from-the-synod-of-dort_1765 |
+
+## `hallowell_james-and-lucretia-mott-life-and-letters_1884.txt`
+
+1 section(s) to level 2 · ~190,987 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 190,987 | 190,987 | hallowell_james-and-lucretia-mott-life-and-letters_1884 |
+
+## `hamilton-j-taylor_history-of-the-moravian-church_1900.txt`
+
+1 section(s) to level 2 · ~246,028 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 246,028 | 246,028 | hamilton-j-taylor_history-of-the-moravian-church_1900 |
+
+## `hannington_last-journals-of-bishop-hannington_dawson1888.txt`
+
+1 section(s) to level 2 · ~49,324 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 49,324 | 49,324 | hannington_last-journals-of-bishop-hannington_dawson1888 |
 
 ## `hansen_vita-mirabilis-et-mors-pretiosa-rosae-de-s-maria-lat_1664.txt`
 
@@ -5334,6 +8222,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 328,417 | 328,417 | harasiewicz_annales-ecclesiae-ruthenae-lat_1862 |
 
+## `hardt_magnum-oecumenicum-constantiense-concilium-t3-lat_1698.txt`
+
+1 section(s) to level 2 · ~273,133 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 273,133 | 273,133 | hardt_magnum-oecumenicum-constantiense-concilium-t3-lat_1698 |
+
+## `hardy_life-and-letters-of-joseph-hardy-neesima_1891.txt`
+
+1 section(s) to level 2 · ~110,066 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 110,066 | 110,066 | hardy_life-and-letters-of-joseph-hardy-neesima_1891 |
+
 ## `hargrove_sermon-on-the-leading-doctrines-of-the-new-jerusalem-church_1803.txt`
 
 1 section(s) to level 2 · ~7,315 words of text · ~0 words of apparatus
@@ -5350,6 +8254,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 7,007 | 7,007 | hargrove_sermon-on-the-true-nature-of-the-resurrection-of-man_1816 |
 
+## `harnack_das-wesen-des-christentums-deu_1900.txt`
+
+1 section(s) to level 2 · ~66,777 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 66,777 | 66,777 | harnack_das-wesen-des-christentums-deu_1900 |
+
+## `harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt`
+
+1 section(s) to level 2 · ~243,810 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 243,810 | 243,810 | harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904 |
+
 ## `harnack_mission-und-ausbreitung-des-christentums-band2-deu_2e-aufl1906.txt`
 
 1 section(s) to level 2 · ~139,311 words of text · ~0 words of apparatus
@@ -5360,11 +8280,19 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `harnack_vita-cypriani-commentary-lat-deu_1913.txt`
 
-1 section(s) to level 2 · ~46,506 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~46,467 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 46,506 | 46,506 | harnack_vita-cypriani-commentary-lat-deu_1913 |
+| `1` | 0 | 46,467 | 46,467 | harnack_vita-cypriani-commentary-lat-deu_1913 |
+
+## `harnack_what-is-christianity_saunders1901.txt`
+
+1 section(s) to level 2 · ~87,988 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 87,988 | 87,988 | harnack_what-is-christianity_saunders1901 |
 
 ## `harris-howell_brief-account-of-the-life-with-letters_1791.txt`
 
@@ -5414,6 +8342,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 113,386 | 113,386 | heckewelder_narrative-of-mission-delaware-mohegan_1820 |
 
+## `heering_de-remonstranten-gedenkboek-nld_1919.txt`
+
+1 section(s) to level 2 · ~58,287 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 58,287 | 58,287 | heering_de-remonstranten-gedenkboek-nld_1919 |
+
 ## `hefele-leclercq_histoire-des-conciles-tome1-1-cyprien-novatiens-baptheme-slice-fra_1907.txt`
 
 1 section(s) to level 2 · ~12,369 words of text · ~0 words of apparatus
@@ -5462,6 +8398,38 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 204,313 | 204,313 | hefele_history-of-the-councils-v3-431-451_clark1883 |
 
+## `hefele_history-of-the-councils-v4-451-680_clark1895.txt`
+
+1 section(s) to level 2 · ~203,303 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 203,303 | 203,303 | hefele_history-of-the-councils-v4-451-680_clark1895 |
+
+## `hefele_history-of-the-councils-v5-626-787_clark1896.txt`
+
+1 section(s) to level 2 · ~197,358 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 197,358 | 197,358 | hefele_history-of-the-councils-v5-626-787_clark1896 |
+
+## `helweg_den-danske-kirkes-historie-efter-reformationen-v1-dan_1851.txt`
+
+1 section(s) to level 2 · ~177,252 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 177,252 | 177,252 | helweg_den-danske-kirkes-historie-efter-reformationen-v1-dan_1851 |
+
+## `helweg_den-danske-kirkes-historie-efter-reformationen-v2-dan_1855.txt`
+
+1 section(s) to level 2 · ~206,280 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 206,280 | 206,280 | helweg_den-danske-kirkes-historie-efter-reformationen-v2-dan_1855 |
+
 ## `henry-matthew_account-of-the-life-and-death-of-philip-henry_1712.txt`
 
 1 section(s) to level 2 · ~104,155 words of text · ~0 words of apparatus
@@ -5486,6 +8454,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 89,127 | 89,127 | herberstein_notes-upon-russia-v1_major1851 |
 
+## `herminjard_correspondance-des-reformateurs-t2-1527-1532-fra-lat_1868.txt`
+
+1 section(s) to level 2 · ~199,958 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 199,958 | 199,958 | herminjard_correspondance-des-reformateurs-t2-1527-1532-fra-lat_1868 |
+
+## `herminjard_correspondance-des-reformateurs-t5-1538-1539-fra-lat_1878.txt`
+
+1 section(s) to level 2 · ~199,519 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 199,519 | 199,519 | herminjard_correspondance-des-reformateurs-t5-1538-1539-fra-lat_1878 |
+
 ## `hetum_historia-orientalis-de-tartaris-lat_muller1671.txt`
 
 1 section(s) to level 2 · ~33,279 words of text · ~0 words of apparatus
@@ -5501,6 +8485,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 32,700 | 32,700 | hetum_history-of-the-tartars-flower-of-histories-of-the-east_bedrosian2004 |
+
+## `hicks_journal-of-the-life-and-religious-labours_1832.txt`
+
+1 section(s) to level 2 · ~173,643 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 173,643 | 173,643 | hicks_journal-of-the-life-and-religious-labours_1832 |
 
 ## `hilary-arles_sermo-de-vita-sancti-honorati_migne-pl50.txt`
 
@@ -5550,6 +8542,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 96,709 | 96,709 | hindmarsh_letters-to-dr-priestley_1792 |
 
+## `hinton_memoir-of-william-knibb_2nd-ed1849.txt`
+
+1 section(s) to level 2 · ~218,127 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 218,127 | 218,127 | hinton_memoir-of-william-knibb_2nd-ed1849 |
+
+## `historia-cultus-sinensium_continuatio-lat_1700.txt`
+
+1 section(s) to level 2 · ~35,156 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 35,156 | 35,156 | historia-cultus-sinensium_continuatio-lat_1700 |
+
+## `historia-cultus-sinensium_varia-scripta-de-cultibus-sinarum-lat_1700.txt`
+
+1 section(s) to level 2 · ~156,213 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 156,213 | 156,213 | historia-cultus-sinensium_varia-scripta-de-cultibus-sinarum-lat_1700 |
+
 ## `historia-politica-et-patriarchica-constantinopoleos_grc-lat_bekker1849.txt`
 
 1 section(s) to level 2 · ~115,405 words of text · ~0 words of apparatus
@@ -5565,6 +8581,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 118,622 | 118,622 | hoby_diary-1599-1605_meads1930 |
+
+## `hodder_life-and-work-of-seventh-earl-of-shaftesbury-v1_1887.txt`
+
+1 section(s) to level 2 · ~196,954 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 196,954 | 196,954 | hodder_life-and-work-of-seventh-earl-of-shaftesbury-v1_1887 |
+
+## `hodder_life-and-work-of-seventh-earl-of-shaftesbury-v2_1887.txt`
+
+1 section(s) to level 2 · ~191,823 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 191,823 | 191,823 | hodder_life-and-work-of-seventh-earl-of-shaftesbury-v2_1887 |
+
+## `hodder_life-and-work-of-seventh-earl-of-shaftesbury-v3_1886.txt`
+
+1 section(s) to level 2 · ~183,242 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 183,242 | 183,242 | hodder_life-and-work-of-seventh-earl-of-shaftesbury-v3_1886 |
 
 ## `hofler_geschichtschreiber-husitischen-bewegung-v1-lat_1856.txt`
 
@@ -5582,6 +8622,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 282,417 | 282,417 | hofler_geschichtschreiber-husitischen-bewegung-v2-lat_1865 |
 
+## `holy-trinity-wilmington_records-1697-1773_burr1890.txt`
+
+1 section(s) to level 2 · ~210,791 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 210,791 | 210,791 | holy-trinity-wilmington_records-1697-1773_burr1890 |
+
 ## `hooker_laws-of-ecclesiastical-polity-books-1-5_keble1850.txt`
 
 1 section(s) to level 2 · ~277,708 words of text · ~0 words of apparatus
@@ -5597,6 +8645,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 175,530 | 175,530 | horologion-to-mega_venice-edition-grc_koutloumousianos1851 |
+
+## `hospitallers_statuti-della-sacra-religione-di-s-giovanni-gierosolimitano-ita_bosio1589.txt`
+
+1 section(s) to level 2 · ~110,938 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 110,938 | 110,938 | hospitallers_statuti-della-sacra-religione-di-s-giovanni-gierosolimitano-ita_bosio1589 |
 
 ## `hough_history-of-christianity-in-india-v2_1839.txt`
 
@@ -5624,35 +8680,35 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `hubmaier_form-des-nachtmals-bann-freiheit-des-willens-deu_1527.txt`
 
-1 section(s) to level 2 · ~19,825 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~19,821 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 19,825 | 19,825 | hubmaier_form-des-nachtmals-bann-freiheit-des-willens-deu_1527 |
+| `1` | 0 | 19,821 | 19,821 | hubmaier_form-des-nachtmals-bann-freiheit-des-willens-deu_1527 |
 
 ## `hubmaier_freiwilligkeit-des-menschen-und-von-dem-schwert-deu_1527.txt`
 
-1 section(s) to level 2 · ~24,119 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~24,115 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 24,119 | 24,119 | hubmaier_freiwilligkeit-des-menschen-und-von-dem-schwert-deu_1527 |
+| `1` | 0 | 24,115 | 24,115 | hubmaier_freiwilligkeit-des-menschen-und-von-dem-schwert-deu_1527 |
 
 ## `hubmaier_gesprech-auf-zwinglis-taufbuechlein-deu_froschauer1526.txt`
 
-1 section(s) to level 2 · ~26,257 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~26,253 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 26,257 | 26,257 | hubmaier_gesprech-auf-zwinglis-taufbuechlein-deu_froschauer1526 |
+| `1` | 0 | 26,253 | 26,253 | hubmaier_gesprech-auf-zwinglis-taufbuechlein-deu_froschauer1526 |
 
 ## `hubmaier_grund-und-ursach-deu_1527.txt`
 
-1 section(s) to level 2 · ~26,239 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~26,235 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 26,239 | 26,239 | hubmaier_grund-und-ursach-deu_1527 |
+| `1` | 0 | 26,235 | 26,235 | hubmaier_grund-und-ursach-deu_1527 |
 
 ## `hughes-john_methodistiaeth-cymru-v1-cym_1851.txt`
 
@@ -5661,6 +8717,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 353,137 | 353,137 | hughes-john_methodistiaeth-cymru-v1-cym_1851 |
+
+## `humbert-romans_opera-de-vita-regulari-v1-lat_berthier1888.txt`
+
+1 section(s) to level 2 · ~226,093 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 226,093 | 226,093 | humbert-romans_opera-de-vita-regulari-v1-lat_berthier1888 |
+
+## `humbert-romans_opera-de-vita-regulari-v2-lat_berthier1889.txt`
+
+1 section(s) to level 2 · ~189,511 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 189,511 | 189,511 | humbert-romans_opera-de-vita-regulari-v2-lat_berthier1889 |
 
 ## `humphreys_historical-account-of-the-spg_1730.txt`
 
@@ -5750,6 +8822,142 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 251,737 | 251,737 | hutterite-brethren_geschichts-buecher-oesterreich-ungarn-deu_beck1883 |
 
+## `ibn-battuta_voyages-v1-ara-fra_defremery-sanguinetti1853.txt`
+
+1 section(s) to level 2 · ~114,265 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 114,265 | 114,265 | ibn-battuta_voyages-v1-ara-fra_defremery-sanguinetti1853 |
+
+## `ibn-battuta_voyages-v2-ara-fra_defremery-sanguinetti1854.txt`
+
+1 section(s) to level 2 · ~145,952 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 145,952 | 145,952 | ibn-battuta_voyages-v2-ara-fra_defremery-sanguinetti1854 |
+
+## `ibn-battuta_voyages-v3-ara-fra_defremery-sanguinetti1855.txt`
+
+1 section(s) to level 2 · ~146,527 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 146,527 | 146,527 | ibn-battuta_voyages-v3-ara-fra_defremery-sanguinetti1855 |
+
+## `ibn-battuta_voyages-v4-ara-fra_defremery-sanguinetti1858.txt`
+
+1 section(s) to level 2 · ~144,838 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 144,838 | 144,838 | ibn-battuta_voyages-v4-ara-fra_defremery-sanguinetti1858 |
+
+## `ibn-ishaq_leben-mohammeds-nach-ibn-hischam-deu_weil1864.txt`
+
+1 section(s) to level 2 · ~349,644 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 349,644 | 349,644 | ibn-ishaq_leben-mohammeds-nach-ibn-hischam-deu_weil1864 |
+
+## `ibn-ishaq_sirat-rasul-allah-ibn-hisham-text-pt1-ara_wuestenfeld1858.txt`
+
+1 section(s) to level 2 · ~138,074 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 138,074 | 138,074 | ibn-ishaq_sirat-rasul-allah-ibn-hisham-text-pt1-ara_wuestenfeld1858 |
+
+## `ibn-jubayr_rihla-ara_wright1852.txt`
+
+1 section(s) to level 2 · ~95,545 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 95,545 | 95,545 | ibn-jubayr_rihla-ara_wright1852 |
+
+## `ibn-khaldun_histoire-des-berberes-v1-fra_de-slane1852.txt`
+
+1 section(s) to level 2 · ~205,122 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 205,122 | 205,122 | ibn-khaldun_histoire-des-berberes-v1-fra_de-slane1852 |
+
+## `ibn-khaldun_histoire-des-berberes-v2-fra_de-slane1854.txt`
+
+1 section(s) to level 2 · ~213,706 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 213,706 | 213,706 | ibn-khaldun_histoire-des-berberes-v2-fra_de-slane1854 |
+
+## `ibn-khaldun_histoire-des-berberes-v3-fra_de-slane1856.txt`
+
+1 section(s) to level 2 · ~173,819 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 173,819 | 173,819 | ibn-khaldun_histoire-des-berberes-v3-fra_de-slane1856 |
+
+## `ibn-khaldun_histoire-des-berberes-v4-fra_de-slane1856.txt`
+
+1 section(s) to level 2 · ~195,316 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 195,316 | 195,316 | ibn-khaldun_histoire-des-berberes-v4-fra_de-slane1856 |
+
+## `ibn-khaldun_prolegomenes-pt1-fra_de-slane1863.txt`
+
+1 section(s) to level 2 · ~229,020 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 229,020 | 229,020 | ibn-khaldun_prolegomenes-pt1-fra_de-slane1863 |
+
+## `ibn-khaldun_prolegomenes-pt2-fra_de-slane1865.txt`
+
+1 section(s) to level 2 · ~191,439 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 191,439 | 191,439 | ibn-khaldun_prolegomenes-pt2-fra_de-slane1865 |
+
+## `ibn-khaldun_prolegomenes-pt3-fra_de-slane1868.txt`
+
+1 section(s) to level 2 · ~234,332 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 234,332 | 234,332 | ibn-khaldun_prolegomenes-pt3-fra_de-slane1868 |
+
+## `ibn-verga_historia-judaica-shevet-yehudah-lat_gentius1651.txt`
+
+1 section(s) to level 2 · ~87,915 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 87,915 | 87,915 | ibn-verga_historia-judaica-shevet-yehudah-lat_gentius1651 |
+
+## `iglesia-filipina-independiente_documentos-interesantes-spa_1906.txt`
+
+1 section(s) to level 2 · ~11,034 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 11,034 | 11,034 | iglesia-filipina-independiente_documentos-interesantes-spa_1906 |
+
+## `ignatius-deacon_vita-tarasii-in-germanus-tarasius-pg98-grc-lat_migne1860.txt`
+
+1 section(s) to level 2 · ~666,567 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 666,567 | 666,567 | ignatius-deacon_vita-tarasii-in-germanus-tarasius-pg98-grc-lat_migne1860 |
+
 ## `ignatius-loyola_autobiography_oconor1900.txt`
 
 1 section(s) to level 2 · ~26,254 words of text · ~0 words of apparatus
@@ -5830,6 +9038,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 34,298 | 34,298 | ignatius-loyola_spiritual-exercises_mullan1914 |
 
+## `ilarion-kiev_slovo-o-zakone-i-blagodati-chu-rus_gorskii1844.txt`
+
+1 section(s) to level 2 · ~20,791 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 20,791 | 20,791 | ilarion-kiev_slovo-o-zakone-i-blagodati-chu-rus_gorskii1844 |
+
 ## `ildefonsus-julian-toledo-pl96-lat_migne1862.txt`
 
 1 section(s) to level 2 · ~723,021 words of text · ~0 words of apparatus
@@ -5846,6 +9062,38 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 76,919 | 76,919 | india-in-the-fifteenth-century_narratives-of-voyages_major1857 |
 
+## `innocent-iii_opera-t3-regesta-xiii-xvi-pl216-lat_migne1891.txt`
+
+1 section(s) to level 2 · ~482,667 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 482,667 | 482,667 | innocent-iii_opera-t3-regesta-xiii-xvi-pl216-lat_migne1891 |
+
+## `innocent-iii_opera-t4-sermones-de-contemptu-mundi-pl217-lat_migne1890.txt`
+
+1 section(s) to level 2 · ~502,865 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 502,865 | 502,865 | innocent-iii_opera-t4-sermones-de-contemptu-mundi-pl217-lat_migne1890 |
+
+## `innocent-iii_opera-with-gesta-innocentii-pl214-lat_migne1853.txt`
+
+1 section(s) to level 2 · ~608,368 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 608,368 | 608,368 | innocent-iii_opera-with-gesta-innocentii-pl214-lat_migne1853 |
+
+## `innocent-iv_bulla-depositionis-in-mgh-constitutiones-2-lat_weiland1896.txt`
+
+1 section(s) to level 2 · ~401,288 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 401,288 | 401,288 | innocent-iv_bulla-depositionis-in-mgh-constitutiones-2-lat_weiland1896 |
+
 ## `innocent-xii_cum-alias-with-fenelon-mandement-lat-fra_1699.txt`
 
 1 section(s) to level 2 · ~60,421 words of text · ~0 words of apparatus
@@ -5853,6 +9101,238 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 60,421 | 60,421 | innocent-xii_cum-alias-with-fenelon-mandement-lat-fra_1699 |
+
+## `international-missionary-council_jerusalem-meeting-1928-v1_1928.txt`
+
+1 section(s) to level 2 · ~153,349 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 153,349 | 153,349 | international-missionary-council_jerusalem-meeting-1928-v1_1928 |
+
+## `international-missionary-council_jerusalem-meeting-1928-v2_1928.txt`
+
+1 section(s) to level 2 · ~71,870 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 71,870 | 71,870 | international-missionary-council_jerusalem-meeting-1928-v2_1928 |
+
+## `international-missionary-council_jerusalem-meeting-1928-v3_1928.txt`
+
+1 section(s) to level 2 · ~115,709 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 115,709 | 115,709 | international-missionary-council_jerusalem-meeting-1928-v3_1928 |
+
+## `international-missionary-council_jerusalem-meeting-1928-v4_1928.txt`
+
+1 section(s) to level 2 · ~68,466 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 68,466 | 68,466 | international-missionary-council_jerusalem-meeting-1928-v4_1928 |
+
+## `international-missionary-council_jerusalem-meeting-1928-v5_1928.txt`
+
+1 section(s) to level 2 · ~56,082 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 56,082 | 56,082 | international-missionary-council_jerusalem-meeting-1928-v5_1928 |
+
+## `international-missionary-council_jerusalem-meeting-1928-v6_1928.txt`
+
+1 section(s) to level 2 · ~89,805 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 89,805 | 89,805 | international-missionary-council_jerusalem-meeting-1928-v6_1928 |
+
+## `international-missionary-council_jerusalem-meeting-1928-v7_1928.txt`
+
+1 section(s) to level 2 · ~40,972 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 40,972 | 40,972 | international-missionary-council_jerusalem-meeting-1928-v7_1928 |
+
+## `international-missionary-council_jerusalem-meeting-1928-v8_1928.txt`
+
+1 section(s) to level 2 · ~63,432 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 63,432 | 63,432 | international-missionary-council_jerusalem-meeting-1928-v8_1928 |
+
+## `international-review-of-missions_v10_1921.txt`
+
+1 section(s) to level 2 · ~221,769 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 221,769 | 221,769 | international-review-of-missions_v10_1921 |
+
+## `international-review-of-missions_v11_1922.txt`
+
+1 section(s) to level 2 · ~252,648 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 252,648 | 252,648 | international-review-of-missions_v11_1922 |
+
+## `international-review-of-missions_v12_1923.txt`
+
+1 section(s) to level 2 · ~241,166 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 241,166 | 241,166 | international-review-of-missions_v12_1923 |
+
+## `international-review-of-missions_v13_1924.txt`
+
+1 section(s) to level 2 · ~260,889 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 260,889 | 260,889 | international-review-of-missions_v13_1924 |
+
+## `international-review-of-missions_v14_1925.txt`
+
+1 section(s) to level 2 · ~260,918 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 260,918 | 260,918 | international-review-of-missions_v14_1925 |
+
+## `international-review-of-missions_v15_1926.txt`
+
+1 section(s) to level 2 · ~308,009 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 308,009 | 308,009 | international-review-of-missions_v15_1926 |
+
+## `international-review-of-missions_v16_1927.txt`
+
+1 section(s) to level 2 · ~254,480 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 254,480 | 254,480 | international-review-of-missions_v16_1927 |
+
+## `international-review-of-missions_v17_1928.txt`
+
+1 section(s) to level 2 · ~282,749 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 282,749 | 282,749 | international-review-of-missions_v17_1928 |
+
+## `international-review-of-missions_v18_1929.txt`
+
+1 section(s) to level 2 · ~249,830 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 249,830 | 249,830 | international-review-of-missions_v18_1929 |
+
+## `international-review-of-missions_v19_1930.txt`
+
+1 section(s) to level 2 · ~252,973 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 252,973 | 252,973 | international-review-of-missions_v19_1930 |
+
+## `international-review-of-missions_v3_1914.txt`
+
+1 section(s) to level 2 · ~310,397 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 310,397 | 310,397 | international-review-of-missions_v3_1914 |
+
+## `international-review-of-missions_v4_1915.txt`
+
+1 section(s) to level 2 · ~270,241 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 270,241 | 270,241 | international-review-of-missions_v4_1915 |
+
+## `international-review-of-missions_v5_1916.txt`
+
+1 section(s) to level 2 · ~272,029 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 272,029 | 272,029 | international-review-of-missions_v5_1916 |
+
+## `international-review-of-missions_v6_1917.txt`
+
+1 section(s) to level 2 · ~240,893 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 240,893 | 240,893 | international-review-of-missions_v6_1917 |
+
+## `international-review-of-missions_v7_1918.txt`
+
+1 section(s) to level 2 · ~221,023 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 221,023 | 221,023 | international-review-of-missions_v7_1918 |
+
+## `international-review-of-missions_v8_1919.txt`
+
+1 section(s) to level 2 · ~212,002 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 212,002 | 212,002 | international-review-of-missions_v8_1919 |
+
+## `international-review-of-missions_v9_1920.txt`
+
+1 section(s) to level 2 · ~233,655 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 233,655 | 233,655 | international-review-of-missions_v9_1920 |
+
+## `ioann-kronshtadtskii_moia-zhizn-vo-khriste-t1-rus_1891.txt`
+
+1 section(s) to level 2 · ~57,952 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 57,952 | 57,952 | ioann-kronshtadtskii_moia-zhizn-vo-khriste-t1-rus_1891 |
+
+## `ioann-kronshtadtskii_my-life-in-christ_goulaeff1897.txt`
+
+1 section(s) to level 2 · ~273,177 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 273,177 | 273,177 | ioann-kronshtadtskii_my-life-in-christ_goulaeff1897 |
+
+## `irving_collected-writings-v5_carlyle1866.txt`
+
+1 section(s) to level 2 · ~241,250 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 241,250 | 241,250 | irving_collected-writings-v5_carlyle1866 |
+
+## `ishoyahb-iii_liber-epistularum-versio-lat_duval-csco1905.txt`
+
+1 section(s) to level 2 · ~165,165 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 165,165 | 165,165 | ishoyahb-iii_liber-epistularum-versio-lat_duval-csco1905 |
 
 ## `isidore-seville_encyclopedist-of-the-dark-ages-extracts_brehaut1912.txt`
 
@@ -5894,6 +9374,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 80,182 | 80,182 | issaverdens_armenian-ritual-parts1-4_1876 |
 
+## `jabarti_merveilles-biographiques-et-historiques-t5-fra_1890.txt`
+
+1 section(s) to level 2 · ~74,843 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 74,843 | 74,843 | jabarti_merveilles-biographiques-et-historiques-t5-fra_1890 |
+
+## `jabavu_black-problem-2e_1921.txt`
+
+1 section(s) to level 2 · ~55,038 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 55,038 | 55,038 | jabavu_black-problem-2e_1921 |
+
 ## `jacopone-da-todi_laude-ita_ferri1915.txt`
 
 1 section(s) to level 2 · ~67,309 words of text · ~0 words of apparatus
@@ -5901,6 +9397,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 67,309 | 67,309 | jacopone-da-todi_laude-ita_ferri1915 |
+
+## `jacques-de-vitry_briefe-in-zeitschrift-fuer-kirchengeschichte-14-lat-deu_rohricht1894.txt`
+
+1 section(s) to level 2 · ~222,268 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 222,268 | 222,268 | jacques-de-vitry_briefe-in-zeitschrift-fuer-kirchengeschichte-14-lat-deu_rohricht1894 |
+
+## `jacques-de-vitry_historia-orientalis-et-occidentalis-lat_1597.txt`
+
+1 section(s) to level 2 · ~111,010 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 111,010 | 111,010 | jacques-de-vitry_historia-orientalis-et-occidentalis-lat_1597 |
 
 ## `james-samuel_abstract-of-the-gracious-dealings-of-god_1760.txt`
 
@@ -5925,6 +9437,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 160,857 | 160,857 | jerome_eusebii-chronici-canones-lat_fotheringham1923 |
+
+## `jessup_fifty-three-years-in-syria-v1_1910.txt`
+
+1 section(s) to level 2 · ~153,160 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 153,160 | 153,160 | jessup_fifty-three-years-in-syria-v1_1910 |
+
+## `jessup_fifty-three-years-in-syria-v2_1910.txt`
+
+1 section(s) to level 2 · ~160,094 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 160,094 | 160,094 | jessup_fifty-three-years-in-syria-v2_1910 |
 
 ## `jesuit-constitutions_constitutiones-societatis-iesu-lat_1606.txt`
 
@@ -6214,6 +9742,46 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 77,639 | 77,639 | jesuit-relations_thwaites-v35-fra-eng_1896-1901 |
 
+## `jesuit-relations_thwaites-v36-fra-eng_1896-1901.txt`
+
+1 section(s) to level 2 · ~67,002 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 67,002 | 67,002 | jesuit-relations_thwaites-v36-fra-eng_1896-1901 |
+
+## `jesuit-relations_thwaites-v37-fra-eng_1896-1901.txt`
+
+1 section(s) to level 2 · ~70,758 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 70,758 | 70,758 | jesuit-relations_thwaites-v37-fra-eng_1896-1901 |
+
+## `jesuit-relations_thwaites-v38-fra-eng_1896-1901.txt`
+
+1 section(s) to level 2 · ~78,864 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 78,864 | 78,864 | jesuit-relations_thwaites-v38-fra-eng_1896-1901 |
+
+## `jesuit-relations_thwaites-v39-fra-eng_1896-1901.txt`
+
+1 section(s) to level 2 · ~76,481 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 76,481 | 76,481 | jesuit-relations_thwaites-v39-fra-eng_1896-1901 |
+
+## `jesuit-relations_thwaites-v40-fra-eng_1896-1901.txt`
+
+1 section(s) to level 2 · ~68,045 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 68,045 | 68,045 | jesuit-relations_thwaites-v40-fra-eng_1896-1901 |
+
 ## `jewel_apologia-ecclesiae-anglicanae-lat_1838.txt`
 
 1 section(s) to level 2 · ~40,366 words of text · ~0 words of apparatus
@@ -6229,6 +9797,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 45,832 | 45,832 | jewel_apology-of-the-church-of-england_bacon-morley1888 |
+
+## `joachim-fiore_tractatus-super-quatuor-evangelia-lat_buonaiuti1930.txt`
+
+1 section(s) to level 2 · ~173,059 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 173,059 | 173,059 | joachim-fiore_tractatus-super-quatuor-evangelia-lat_buonaiuti1930 |
 
 ## `john-biclaro-leander-pl72-lat_migne1878.txt`
 
@@ -6262,6 +9838,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 462,416 | 462,416 | john-chrysostom_opera-pg52-epistulae-grc-lat_migne1862 |
 
+## `john-damascus_on-holy-images-with-three-sermons-on-the-assumption_allies1898.txt`
+
+1 section(s) to level 2 · ~44,951 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 44,951 | 44,951 | john-damascus_on-holy-images-with-three-sermons-on-the-assumption_allies1898 |
+
+## `john-damascus_opera-omnia-t1-with-vita-pg94-grc-lat_migne1860.txt`
+
+1 section(s) to level 2 · ~621,612 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 621,612 | 621,612 | john-damascus_opera-omnia-t1-with-vita-pg94-grc-lat_migne1860 |
+
 ## `john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt`
 
 1 section(s) to level 2 · ~145,420 words of text · ~0 words of apparatus
@@ -6294,6 +9886,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 382,959 | 382,959 | john-ephesus_lives-eastern-saints-po19-mixed-issue_brooks1926 |
 
+## `john-malalas_chronographia-grc-lat_dindorf1831.txt`
+
+1 section(s) to level 2 · ~339,237 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 339,237 | 339,237 | john-malalas_chronographia-grc-lat_dindorf1831 |
+
 ## `john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt`
 
 1 section(s) to level 2 · ~540,979 words of text · ~0 words of apparatus
@@ -6309,6 +9909,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 102,005 | 102,005 | john-nikiu_chronicle_charles1916 |
+
+## `john-odzun_opera-arm-lat_aucher1834.txt`
+
+1 section(s) to level 2 · ~73,480 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 73,480 | 73,480 | john-odzun_opera-arm-lat_aucher1834 |
 
 ## `john-of-ephesus_ecclesiastical-history-part3_paynesmith1860.txt`
 
@@ -6358,6 +9966,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 82,287 | 82,287 | john-of-the-cross_life_lewis1873 |
 
+## `johnson-w-b_gospel-developed_1846.txt`
+
+1 section(s) to level 2 · ~45,660 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 45,660 | 45,660 | johnson-w-b_gospel-developed_1846 |
+
 ## `jonas-bobbio_life-of-st-columban_munro1895.txt`
 
 1 section(s) to level 2 · ~17,396 words of text · ~0 words of apparatus
@@ -6406,6 +10022,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 65,217 | 65,217 | jones-thomas_cofiant-thomas-charles-cym_1816 |
 
+## `jordan-saxony_die-briefe-lat-deu_altaner1925.txt`
+
+1 section(s) to level 2 · ~56,385 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 56,385 | 56,385 | jordan-saxony_die-briefe-lat-deu_altaner1925 |
+
 ## `jordanes_origin-and-deeds-of-the-goths_mierow1908.txt`
 
 1 section(s) to level 2 · ~33,360 words of text · ~0 words of apparatus
@@ -6422,6 +10046,38 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 41,088 | 41,088 | jordanus_mirabilia-descripta-wonders-of-the-east_yule1863 |
 
+## `joseph-ha-kohen_chronicles-of-rabbi-joseph-ben-joshua-ben-meir-v1_bialloblotzky1835.txt`
+
+1 section(s) to level 2 · ~114,844 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 114,844 | 114,844 | joseph-ha-kohen_chronicles-of-rabbi-joseph-ben-joshua-ben-meir-v1_bialloblotzky1835 |
+
+## `joseph-ha-kohen_chronicles-of-rabbi-joseph-ben-joshua-ben-meir-v2_bialloblotzky1836.txt`
+
+1 section(s) to level 2 · ~135,651 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 135,651 | 135,651 | joseph-ha-kohen_chronicles-of-rabbi-joseph-ben-joshua-ben-meir-v2_bialloblotzky1836 |
+
+## `joseph-ha-kohen_la-vallee-des-pleurs-emek-ha-bakha-fra_see1881.txt`
+
+1 section(s) to level 2 · ~95,891 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 95,891 | 95,891 | joseph-ha-kohen_la-vallee-des-pleurs-emek-ha-bakha-fra_see1881 |
+
+## `josephus_works-antiquities-wars-life_whiston1859.txt`
+
+1 section(s) to level 2 · ~838,227 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 838,227 | 838,227 | josephus_works-antiquities-wars-life_whiston1859 |
+
 ## `joshua-the-stylite_chronicle_wright1882.txt`
 
 1 section(s) to level 2 · ~58,499 words of text · ~0 words of apparatus
@@ -6430,6 +10086,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 58,499 | 58,499 | joshua-the-stylite_chronicle_wright1882 |
 
+## `journal-of-discourses_v1_watt1854.txt`
+
+1 section(s) to level 2 · ~256,396 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 256,396 | 256,396 | journal-of-discourses_v1_watt1854 |
+
 ## `juana-ines-de-la-cruz_fama-y-obras-posthumas-spa_castorena1700.txt`
 
 1 section(s) to level 2 · ~73,838 words of text · ~0 words of apparatus
@@ -6437,6 +10101,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 73,838 | 73,838 | juana-ines-de-la-cruz_fama-y-obras-posthumas-spa_castorena1700 |
+
+## `juarros_compendio-historia-ciudad-de-guatemala-t2-spa_1809.txt`
+
+1 section(s) to level 2 · ~271,086 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 271,086 | 271,086 | juarros_compendio-historia-ciudad-de-guatemala-t2-spa_1809 |
 
 ## `julian-of-norwich_comfortable-words-for-christs-lovers_harford1911.txt`
 
@@ -6478,6 +10150,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 37,360 | 37,360 | julian_letters-1-73_wright1923 |
 
+## `jussie_le-levain-du-calvinisme-fra_revilliod-fick1853.txt`
+
+1 section(s) to level 2 · ~67,781 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 67,781 | 67,781 | jussie_le-levain-du-calvinisme-fra_revilliod-fick1853 |
+
 ## `justin-martyr_dialogue-with-trypho-grc_archambault1909.txt`
 
 1 section(s) to level 2 · ~62,555 words of text · ~0 words of apparatus
@@ -6518,6 +10198,46 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 908,649 | 908,649 | justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895 |
 
+## `kagawa_before-the-dawn_fukumoto-satchell1925.txt`
+
+1 section(s) to level 2 · ~143,017 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 143,017 | 143,017 | kagawa_before-the-dawn_fukumoto-satchell1925 |
+
+## `kaiserswerth_institution-of-kaiserswerth-on-the-rhine_1851.txt`
+
+1 section(s) to level 2 · ~9,254 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 9,254 | 9,254 | kaiserswerth_institution-of-kaiserswerth-on-the-rhine_1851 |
+
+## `kaiserswerth_kaiserswerth-deaconesses-by-a-lady_1857.txt`
+
+1 section(s) to level 2 · ~15,481 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 15,481 | 15,481 | kaiserswerth_kaiserswerth-deaconesses-by-a-lady_1857 |
+
+## `kartlis-tskhovreba_histoire-de-la-georgie-pt1-histoire-ancienne-fra_brosset1849.txt`
+
+1 section(s) to level 2 · ~437,154 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 437,154 | 437,154 | kartlis-tskhovreba_histoire-de-la-georgie-pt1-histoire-ancienne-fra_brosset1849 |
+
+## `katib-celebi_history-of-the-maritime-wars-of-the-turks-chapters-1-4_mitchell1831.txt`
+
+1 section(s) to level 2 · ~36,452 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 36,452 | 36,452 | katib-celebi_history-of-the-maritime-wars-of-the-turks-chapters-1-4_mitchell1831 |
+
 ## `keach-benjamin_baptist-catechism_1851.txt`
 
 1 section(s) to level 2 · ~6,520 words of text · ~0 words of apparatus
@@ -6525,6 +10245,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 6,520 | 6,520 | keach-benjamin_baptist-catechism_1851 |
+
+## `keble_national-apostasy-assize-sermon_1833.txt`
+
+1 section(s) to level 2 · ~5,936 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 5,936 | 5,936 | keble_national-apostasy-assize-sermon_1833 |
 
 ## `kebra-nagast_queen-of-sheba-and-her-only-son-menyelek_budge1922.txt`
 
@@ -6541,6 +10269,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 117,527 | 117,527 | kebra-nagast_queen-of-sheba-and-menyelek_budge1922 |
+
+## `kedrenos-skylitzes_compendium-historiarum-t2-grc-lat_bekker1839.txt`
+
+1 section(s) to level 2 · ~309,194 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 309,194 | 309,194 | kedrenos-skylitzes_compendium-historiarum-t2-grc-lat_bekker1839 |
 
 ## `kempis_chronicle-of-mount-st-agnes_arthur1906.txt`
 
@@ -6592,27 +10328,27 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `kempis_opera-omnia-sermones-ad-novicios-lat_pohl1905.txt`
 
-1 section(s) to level 2 · ~96,171 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~96,167 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 96,171 | 96,171 | kempis_opera-omnia-sermones-ad-novicios-lat_pohl1905 |
+| `1` | 0 | 96,167 | 96,167 | kempis_opera-omnia-sermones-ad-novicios-lat_pohl1905 |
 
 ## `kempis_opera-omnia-sermones-de-compunctione-lat_pohl1902.txt`
 
-1 section(s) to level 2 · ~97,765 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~97,761 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 97,765 | 97,765 | kempis_opera-omnia-sermones-de-compunctione-lat_pohl1902 |
+| `1` | 0 | 97,761 | 97,761 | kempis_opera-omnia-sermones-de-compunctione-lat_pohl1902 |
 
 ## `kempis_opera-omnia-tractatus-lat_pohl1902.txt`
 
-1 section(s) to level 2 · ~89,665 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~89,661 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 89,665 | 89,665 | kempis_opera-omnia-tractatus-lat_pohl1902 |
+| `1` | 0 | 89,661 | 89,661 | kempis_opera-omnia-tractatus-lat_pohl1902 |
 
 ## `kempis_opera-omnia-v3-meditatio-incarnatione-sermones-lat_pohl1904.txt`
 
@@ -6624,11 +10360,11 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `kempis_opera-omnia-vallis-liliorum-epistulae-lat_pohl1918.txt`
 
-1 section(s) to level 2 · ~133,299 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~133,295 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 133,299 | 133,299 | kempis_opera-omnia-vallis-liliorum-epistulae-lat_pohl1918 |
+| `1` | 0 | 133,295 | 133,295 | kempis_opera-omnia-vallis-liliorum-epistulae-lat_pohl1918 |
 
 ## `kempis_prayers-and-meditations-on-the-life-of-christ_duthoit1904.txt`
 
@@ -6662,6 +10398,46 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 144,529 | 144,529 | ken_prose-works-with-letters_round1838 |
 
+## `kereszteny-magveto_kotet-1-hun_kriza-nagy1861.txt`
+
+1 section(s) to level 2 · ~66,103 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 66,103 | 66,103 | kereszteny-magveto_kotet-1-hun_kriza-nagy1861 |
+
+## `khrimian_amboghjakan-yerker-hye_1929.txt`
+
+1 section(s) to level 2 · ~269,226 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 269,226 | 269,226 | khrimian_amboghjakan-yerker-hye_1929 |
+
+## `kidd_documents-illustrative-of-the-continental-reformation-lat-deu-fra-eng_1911.txt`
+
+1 section(s) to level 2 · ~304,199 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 304,199 | 304,199 | kidd_documents-illustrative-of-the-continental-reformation-lat-deu-fra-eng_1911 |
+
+## `kiev-academy_akty-i-dokumenty-t1-ch2-1721-1750-rus_petrov.txt`
+
+1 section(s) to level 2 · ~125,482 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 125,482 | 125,482 | kiev-academy_akty-i-dokumenty-t1-ch2-1721-1750-rus_petrov |
+
+## `kievan-caves-paterik_paterik-kievskago-pecherskago-monastyria-chu_abramovich1911.txt`
+
+1 section(s) to level 2 · ~186,524 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 186,524 | 186,524 | kievan-caves-paterik_paterik-kievskago-pecherskago-monastyria-chu_abramovich1911 |
+
 ## `kihn_theodor-von-mopsuestia-junilius-africanus-instituta-lat-deu_1880.txt`
 
 1 section(s) to level 2 · ~194,858 words of text · ~0 words of apparatus
@@ -6677,6 +10453,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 137,237 | 137,237 | kings-chapel_liturgy-collected-principally-from-the-book-of-common-prayer_1785 |
+
+## `kireevsky_polnoe-sobranie-sochinenii-t1-rus_gershenzon1911.txt`
+
+1 section(s) to level 2 · ~95,241 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 95,241 | 95,241 | kireevsky_polnoe-sobranie-sochinenii-t1-rus_gershenzon1911 |
 
 ## `kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868.txt`
 
@@ -6709,6 +10493,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 805,898 | 805,898 | kirk-of-scotland_records-of-the-kirk-1638-1654_peterkin1838 |
+
+## `klein_le-cardinal-lavigerie-et-ses-oeuvres-d-afrique-fra_1897.txt`
+
+1 section(s) to level 2 · ~105,407 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 105,407 | 105,407 | klein_le-cardinal-lavigerie-et-ses-oeuvres-d-afrique-fra_1897 |
 
 ## `knappen_two-elizabethan-puritan-diaries_1933.txt`
 
@@ -6782,6 +10574,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 156,976 | 156,976 | koch_cyprianische-untersuchungen-deu_1926 |
 
+## `korea-mission-field_v6-no4-april-1910.txt`
+
+1 section(s) to level 2 · ~12,601 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 12,601 | 12,601 | korea-mission-field_v6-no4-april-1910 |
+
+## `korean-repository_v3-1896_seoul1896.txt`
+
+1 section(s) to level 2 · ~230,673 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 230,673 | 230,673 | korean-repository_v3-1896_seoul1896 |
+
 ## `kralice-bible_biblj-svata-kralicka-ces_bfbs1887.txt`
 
 1 section(s) to level 2 · ~722,058 words of text · ~0 words of apparatus
@@ -6789,6 +10597,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 722,058 | 722,058 | kralice-bible_biblj-svata-kralicka-ces_bfbs1887 |
+
+## `krapf_travels-researches-and-missionary-labours-in-eastern-africa_1860.txt`
+
+1 section(s) to level 2 · ~169,918 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 169,918 | 169,918 | krapf_travels-researches-and-missionary-labours-in-eastern-africa_1860 |
+
+## `krey_first-crusade-accounts-of-eye-witnesses-and-participants_1921.txt`
+
+1 section(s) to level 2 · ~146,012 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 146,012 | 146,012 | krey_first-crusade-accounts-of-eye-witnesses-and-participants_1921 |
+
+## `kriebel_genealogical-record-of-the-schwenkfelders_1879.txt`
+
+1 section(s) to level 2 · ~80,427 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 80,427 | 80,427 | kriebel_genealogical-record-of-the-schwenkfelders_1879 |
 
 ## `kriebel_schwenkfelders-in-pennsylvania_1904.txt`
 
@@ -6805,6 +10637,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 59,817 | 59,817 | kurbsky_perepiska-s-tsarem-ioannom-groznym-rus_arkheograficheskaia-kommissiia1914 |
+
+## `kuyper_tractaat-van-de-reformatie-der-kerken-nld_1883.txt`
+
+1 section(s) to level 2 · ~90,783 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 90,783 | 90,783 | kuyper_tractaat-van-de-reformatie-der-kerken-nld_1883 |
 
 ## `kyiv-synopsis_sinopsis-chu_1762.txt`
 
@@ -6830,6 +10670,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 84,282 | 84,282 | lactantius_de-opificio-de-ira-carmina-lat_brandt-csel27-1 |
 
+## `lactantius_divinae-institutiones-epitome-csel19-second-scan-lat_brandt1890.txt`
+
+1 section(s) to level 2 · ~349,507 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 349,507 | 349,507 | lactantius_divinae-institutiones-epitome-csel19-second-scan-lat_brandt1890 |
+
 ## `lactantius_divinae-institutiones-epitome-lat_brandt-csel19.txt`
 
 1 section(s) to level 2 · ~224,599 words of text · ~0 words of apparatus
@@ -6853,6 +10701,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 82,340 | 82,340 | lacy-john_warnings-of-the-eternal-spirit_1707 |
+
+## `laemmer_monumenta-vaticana-historiam-ecclesiasticam-saeculi-xvi-lat-ita_1861.txt`
+
+1 section(s) to level 2 · ~239,766 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 239,766 | 239,766 | laemmer_monumenta-vaticana-historiam-ecclesiasticam-saeculi-xvi-lat-ita_1861 |
 
 ## `lainez_epistolae-et-acta-v1-lat_1912.txt`
 
@@ -6918,6 +10774,38 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 336,831 | 336,831 | lainez_epistolae-et-acta-v8-lat_1917 |
 
+## `lambeth-conference_1908-encyclical-letter-resolutions-and-reports_spck1908.txt`
+
+1 section(s) to level 2 · ~67,000 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 67,000 | 67,000 | lambeth-conference_1908-encyclical-letter-resolutions-and-reports_spck1908 |
+
+## `lambeth-conference_1920-encyclical-letter-resolutions-and-reports_spck1920.txt`
+
+1 section(s) to level 2 · ~74,029 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 74,029 | 74,029 | lambeth-conference_1920-encyclical-letter-resolutions-and-reports_spck1920 |
+
+## `lambeth-conference_1930-encyclical-letter-resolutions-and-reports_spck1930.txt`
+
+1 section(s) to level 2 · ~83,650 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 83,650 | 83,650 | lambeth-conference_1930-encyclical-letter-resolutions-and-reports_spck1930 |
+
+## `lambeth-conferences_1867-1878-1888_davidson1889.txt`
+
+1 section(s) to level 2 · ~118,927 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 118,927 | 118,927 | lambeth-conferences_1867-1878-1888_davidson1889 |
+
 ## `lamech-agrippa_chronicon-ephratense-deu_ephrata1786.txt`
 
 1 section(s) to level 2 · ~109,199 words of text · ~0 words of apparatus
@@ -6950,6 +10838,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 334,414 | 334,414 | langlois_collection-historiens-armenie-tome2-fra_1869 |
 
+## `langlois_collection-historiens-armenie-tomes1-2-fra_1867-1869.txt`
+
+1 section(s) to level 2 · ~670,075 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 670,075 | 670,075 | langlois_collection-historiens-armenie-tomes1-2-fra_1867-1869 |
+
 ## `langlois_documents-lusignans-petite-armenie-1342-1394-fra_langlois1859.txt`
 
 1 section(s) to level 2 · ~21,612 words of text · ~0 words of apparatus
@@ -6974,6 +10870,54 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 107,446 | 107,446 | lanterne-of-light_swinburn1917 |
 
+## `las-casas_brevissima-relacion-de-la-destruycion-de-las-indias-spa_cadiz1821.txt`
+
+1 section(s) to level 2 · ~32,860 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 32,860 | 32,860 | las-casas_brevissima-relacion-de-la-destruycion-de-las-indias-spa_cadiz1821 |
+
+## `las-casas_historia-de-las-indias-t1-spa_fuensanta-sancho-rayon1875.txt`
+
+1 section(s) to level 2 · ~187,093 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 187,093 | 187,093 | las-casas_historia-de-las-indias-t1-spa_fuensanta-sancho-rayon1875 |
+
+## `las-casas_historia-de-las-indias-t2-spa_fuensanta-sancho-rayon1875.txt`
+
+1 section(s) to level 2 · ~184,162 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 184,162 | 184,162 | las-casas_historia-de-las-indias-t2-spa_fuensanta-sancho-rayon1875 |
+
+## `las-casas_historia-de-las-indias-t3-spa_fuensanta-sancho-rayon1875.txt`
+
+1 section(s) to level 2 · ~169,844 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 169,844 | 169,844 | las-casas_historia-de-las-indias-t3-spa_fuensanta-sancho-rayon1875 |
+
+## `las-casas_historia-de-las-indias-t4-spa_fuensanta-sancho-rayon1876.txt`
+
+1 section(s) to level 2 · ~173,175 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 173,175 | 173,175 | las-casas_historia-de-las-indias-t4-spa_fuensanta-sancho-rayon1876 |
+
+## `las-casas_historia-de-las-indias-t5-spa_fuensanta-sancho-rayon1876.txt`
+
+1 section(s) to level 2 · ~185,892 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 185,892 | 185,892 | las-casas_historia-de-las-indias-t5-spa_fuensanta-sancho-rayon1876 |
+
 ## `lasicki_obraz-jednoty-ceskobratrske-ces_1869.txt`
 
 1 section(s) to level 2 · ~75,082 words of text · ~0 words of apparatus
@@ -6981,6 +10925,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 75,082 | 75,082 | lasicki_obraz-jednoty-ceskobratrske-ces_1869 |
+
+## `lasserre_notre-dame-de-lourdes-fra_28e-ed1870.txt`
+
+1 section(s) to level 2 · ~127,783 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 127,783 | 127,783 | lasserre_notre-dame-de-lourdes-fra_28e-ed1870 |
+
+## `lasserre_our-lady-of-lourdes_1870.txt`
+
+1 section(s) to level 2 · ~136,817 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 136,817 | 136,817 | lasserre_our-lady-of-lourdes_1870 |
+
+## `lasserre_our-lady-of-lourdes_sisk1872.txt`
+
+1 section(s) to level 2 · ~117,841 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 117,841 | 117,841 | lasserre_our-lady-of-lourdes_sisk1872 |
 
 ## `latimer_sermons_corrie1844.txt`
 
@@ -6998,6 +10966,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 8,606 | 8,606 | latrobe-benjamin_succinct-view-of-the-missions_1771 |
 
+## `latter-day-saints_doctrine-and-covenants_kirtland1835.txt`
+
+1 section(s) to level 2 · ~117,762 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 117,762 | 117,762 | latter-day-saints_doctrine-and-covenants_kirtland1835 |
+
 ## `lauchert_kanones-altkirchlichen-concilien-lat-grc_1896.txt`
 
 1 section(s) to level 2 · ~82,385 words of text · ~0 words of apparatus
@@ -7006,6 +10982,38 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 82,385 | 82,385 | lauchert_kanones-altkirchlichen-concilien-lat-grc_1896 |
 
+## `launay_histoire-des-missions-de-chine-kouy-tcheou-t1-fra_1907.txt`
+
+1 section(s) to level 2 · ~277,850 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 277,850 | 277,850 | launay_histoire-des-missions-de-chine-kouy-tcheou-t1-fra_1907 |
+
+## `launay_histoire-generale-de-la-societe-des-missions-etrangeres-t1-fra_1894.txt`
+
+1 section(s) to level 2 · ~213,263 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 213,263 | 213,263 | launay_histoire-generale-de-la-societe-des-missions-etrangeres-t1-fra_1894 |
+
+## `launay_histoire-generale-de-la-societe-des-missions-etrangeres-t2-fra_1894.txt`
+
+1 section(s) to level 2 · ~209,068 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 209,068 | 209,068 | launay_histoire-generale-de-la-societe-des-missions-etrangeres-t2-fra_1894 |
+
+## `launay_histoire-generale-de-la-societe-des-missions-etrangeres-t3-fra_1894.txt`
+
+1 section(s) to level 2 · ~225,170 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 225,170 | 225,170 | launay_histoire-generale-de-la-societe-des-missions-etrangeres-t3-fra_1894 |
+
 ## `laurentius-de-brezova_historia-hussitica-lat-ces_goll1893.txt`
 
 1 section(s) to level 2 · ~443,328 words of text · ~0 words of apparatus
@@ -7013,6 +11021,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 443,328 | 443,328 | laurentius-de-brezova_historia-hussitica-lat-ces_goll1893 |
+
+## `lausanne-movement_cape-town-commitment_2011.txt`
+
+1 section(s) to level 2 · ~22,860 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 22,860 | 22,860 | lausanne-movement_cape-town-commitment_2011 |
 
 ## `law_serious-call-to-a-devout-and-holy-life_1729.txt`
 
@@ -7029,6 +11045,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 234,416 | 234,416 | lay-folks-mass-book_manner-of-hearing-mass-enm_simmons1879 |
+
+## `le-couteulx_annales-ordinis-cartusiensis-v1-lat_1887.txt`
+
+1 section(s) to level 2 · ~186,054 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 186,054 | 186,054 | le-couteulx_annales-ordinis-cartusiensis-v1-lat_1887 |
 
 ## `lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt`
 
@@ -7062,6 +11086,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 89,479 | 89,479 | lefebvre_recueil-inscriptions-grecques-chretiennes-egypte-grc-fra_1907 |
 
+## `leger_haiti-her-history-and-her-detractors_1907.txt`
+
+1 section(s) to level 2 · ~124,957 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 124,957 | 124,957 | leger_haiti-her-history-and-her-detractors_1907 |
+
 ## `leger_histoire-generale-eglises-vaudoises-livre1-fra_1669.txt`
 
 1 section(s) to level 2 · ~198,550 words of text · ~0 words of apparatus
@@ -7077,6 +11109,70 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 278,845 | 278,845 | leger_histoire-generale-eglises-vaudoises-livre2-fra_1669 |
+
+## `leo-africanus_history-and-description-of-africa-v1_pory-brown1896.txt`
+
+1 section(s) to level 2 · ~112,294 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 112,294 | 112,294 | leo-africanus_history-and-description-of-africa-v1_pory-brown1896 |
+
+## `leo-africanus_history-and-description-of-africa-v2_pory-brown1896.txt`
+
+1 section(s) to level 2 · ~184,932 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 184,932 | 184,932 | leo-africanus_history-and-description-of-africa-v2_pory-brown1896 |
+
+## `leo-africanus_history-and-description-of-africa-v3_pory-brown1896.txt`
+
+1 section(s) to level 2 · ~149,716 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 149,716 | 149,716 | leo-africanus_history-and-description-of-africa-v3_pory-brown1896 |
+
+## `leo-assisi_scripta-fratris-leonis-lat_lemmens1901.txt`
+
+1 section(s) to level 2 · ~23,973 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 23,973 | 23,973 | leo-assisi_scripta-fratris-leonis-lat_lemmens1901 |
+
+## `lerins_cartulaire-de-l-abbaye-de-lerins-pt1-lat-fra_moris-blanc1883.txt`
+
+1 section(s) to level 2 · ~135,879 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 135,879 | 135,879 | lerins_cartulaire-de-l-abbaye-de-lerins-pt1-lat-fra_moris-blanc1883 |
+
+## `lettres-edifiantes_memoires-de-la-chine-t19-fra_1781.txt`
+
+1 section(s) to level 2 · ~113,912 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 113,912 | 113,912 | lettres-edifiantes_memoires-de-la-chine-t19-fra_1781 |
+
+## `lettres-edifiantes_memoires-de-la-chine-t20-fra_1781.txt`
+
+1 section(s) to level 2 · ~101,358 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 101,358 | 101,358 | lettres-edifiantes_memoires-de-la-chine-t20-fra_1781 |
+
+## `lettres-edifiantes_memoires-de-la-chine-t22-fra_1781.txt`
+
+1 section(s) to level 2 · ~96,043 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 96,043 | 96,043 | lettres-edifiantes_memoires-de-la-chine-t22-fra_1781 |
 
 ## `lettres-edifiantes_memoires-du-levant-t3-fra_1780.txt`
 
@@ -7094,6 +11190,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 76,481 | 76,481 | liber-pontificalis_book-of-the-popes-v1_loomis1916 |
 
+## `liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt`
+
+1 section(s) to level 2 · ~683,921 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 683,921 | 683,921 | liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886 |
+
+## `liber-pontificalis_texte-introduction-commentaire-t2-lat-fra_duchesne1892.txt`
+
+1 section(s) to level 2 · ~487,351 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 487,351 | 487,351 | liber-pontificalis_texte-introduction-commentaire-t2-lat-fra_duchesne1892 |
+
 ## `liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt`
 
 1 section(s) to level 2 · ~535,002 words of text · ~0 words of apparatus
@@ -7102,6 +11214,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 535,002 | 535,002 | liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866 |
 
+## `libri-carolini_caroli-magni-capitulare-de-imaginibus-mgh-concilia-2-suppl-lat_bastgen1924.txt`
+
+1 section(s) to level 2 · ~139,532 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 139,532 | 139,532 | libri-carolini_caroli-magni-capitulare-de-imaginibus-mgh-concilia-2-suppl-lat_bastgen1924 |
+
 ## `libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843.txt`
 
 1 section(s) to level 2 · ~207,477 words of text · ~0 words of apparatus
@@ -7109,6 +11229,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 207,477 | 207,477 | libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843 |
+
+## `liddon_life-of-edward-bouverie-pusey-v1_1893.txt`
+
+1 section(s) to level 2 · ~210,003 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 210,003 | 210,003 | liddon_life-of-edward-bouverie-pusey-v1_1893 |
+
+## `life-and-work_stockholm-conference-1925-official-report_bell1926.txt`
+
+1 section(s) to level 2 · ~247,115 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 247,115 | 247,115 | life-and-work_stockholm-conference-1925-official-report_bell1926 |
 
 ## `life-of-peter-the-iberian_petrus-der-iberer-deu_raabe1895.txt`
 
@@ -7150,6 +11286,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 111,573 | 111,573 | likowski_unia-brzeska-pol_1907 |
 
+## `limborch_compleat-system-of-divinity-v1_1702.txt`
+
+1 section(s) to level 2 · ~200,217 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 200,217 | 200,217 | limborch_compleat-system-of-divinity-v1_1702 |
+
 ## `lincoln-diocese_documents-1450-1544-enm_clark1914.txt`
 
 1 section(s) to level 2 · ~151,019 words of text · ~0 words of apparatus
@@ -7158,6 +11302,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 151,019 | 151,019 | lincoln-diocese_documents-1450-1544-enm_clark1914 |
 
+## `lindley_ti-ping-tien-kwoh-v1_1866.txt`
+
+1 section(s) to level 2 · ~156,982 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 156,982 | 156,982 | lindley_ti-ping-tien-kwoh-v1_1866 |
+
+## `lindley_ti-ping-tien-kwoh-v2_1866.txt`
+
+1 section(s) to level 2 · ~152,251 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 152,251 | 152,251 | lindley_ti-ping-tien-kwoh-v2_1866 |
+
 ## `lindsey_sermon-at-the-opening-of-the-chapel-in-essex-street_1774.txt`
 
 1 section(s) to level 2 · ~6,576 words of text · ~0 words of apparatus
@@ -7165,6 +11325,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 6,576 | 6,576 | lindsey_sermon-at-the-opening-of-the-chapel-in-essex-street_1774 |
+
+## `lipscomb_queries-and-answers_shepherd1910.txt`
+
+1 section(s) to level 2 · ~211,837 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 211,837 | 211,837 | lipscomb_queries-and-answers_shepherd1910 |
 
 ## `liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s.txt`
 
@@ -7181,6 +11349,54 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 43,238 | 43,238 | lobo_voyage-to-abyssinia_johnson1735 |
+
+## `loehe_three-books-concerning-the-church_horn1908.txt`
+
+1 section(s) to level 2 · ~47,747 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 47,747 | 47,747 | loehe_three-books-concerning-the-church_horn1908 |
+
+## `loisy_autour-d-un-petit-livre-2e-ed-fra_1903.txt`
+
+1 section(s) to level 2 · ~61,786 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 61,786 | 61,786 | loisy_autour-d-un-petit-livre-2e-ed-fra_1903 |
+
+## `loisy_evangile-et-l-eglise-3e-ed-fra_1904.txt`
+
+1 section(s) to level 2 · ~58,703 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 58,703 | 58,703 | loisy_evangile-et-l-eglise-3e-ed-fra_1904 |
+
+## `loisy_gospel-and-the-church_home1903.txt`
+
+1 section(s) to level 2 · ~59,209 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 59,209 | 59,209 | loisy_gospel-and-the-church_home1903 |
+
+## `loisy_simples-reflexions-fra_1908.txt`
+
+1 section(s) to level 2 · ~53,243 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 53,243 | 53,243 | loisy_simples-reflexions-fra_1908 |
+
+## `london-missionary-society_report-of-the-proceedings-against-the-late-rev-j-smith-of-demerara_1824.txt`
+
+1 section(s) to level 2 · ~120,928 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 120,928 | 120,928 | london-missionary-society_report-of-the-proceedings-against-the-late-rev-j-smith-of-demerara_1824 |
 
 ## `london-yearly-meeting_collection-of-epistles-1675-1805_baltimore1806.txt`
 
@@ -7222,6 +11438,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 5,767 | 5,767 | louis-xvi-france_edit-concernant-les-non-catholiques-fra_1788 |
 
+## `louvet_la-cochinchine-religieuse-v2-fra_1885.txt`
+
+1 section(s) to level 2 · ~166,606 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 166,606 | 166,606 | louvet_la-cochinchine-religieuse-v2-fra_1885 |
+
 ## `louvreleul_fanatisme-renouvele-fra_1868.txt`
 
 1 section(s) to level 2 · ~160,471 words of text · ~0 words of apparatus
@@ -7229,6 +11453,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 160,471 | 160,471 | louvreleul_fanatisme-renouvele-fra_1868 |
+
+## `love-william-deloss_samson-occom-and-the-christian-indians-of-new-england_1899.txt`
+
+1 section(s) to level 2 · ~148,014 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 148,014 | 148,014 | love-william-deloss_samson-occom-and-the-christian-indians-of-new-england_1899 |
 
 ## `love_mirror-of-the-blessed-life-of-jesus-christ-enm_powell1908.txt`
 
@@ -7318,6 +11550,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 117,439 | 117,439 | luther_bondage-of-the-will_cole1823 |
 
+## `luther_briefe-sendschreiben-und-bedenken-theil-4-lat-deu_de-wette1827.txt`
+
+1 section(s) to level 2 · ~216,864 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 216,864 | 216,864 | luther_briefe-sendschreiben-und-bedenken-theil-4-lat-deu_de-wette1827 |
+
 ## `luther_first-principles-reformation_wace-buchheim1885.txt`
 
 1 section(s) to level 2 · ~134,351 words of text · ~0 words of apparatus
@@ -7342,13 +11582,21 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 48,425 | 48,425 | luther_large-catechism_bente-dau1921 |
 
-## `luther_small-catechism_smith1994.txt`
+## `luther_letters-of-martin-luther_currie1908.txt`
 
-1 section(s) to level 2 · ~4,360 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~173,207 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 4,360 | 4,360 | luther_small-catechism_smith1994 |
+| `1` | 0 | 173,207 | 173,207 | luther_letters-of-martin-luther_currie1908 |
+
+## `luther_small-catechism_smith1994.txt`
+
+1 section(s) to level 2 · ~4,417 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 4,417 | 4,417 | luther_small-catechism_smith1994 |
 
 ## `luther_table-talk_bell1886.txt`
 
@@ -7357,6 +11605,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 33,558 | 33,558 | luther_table-talk_bell1886 |
+
+## `luther_werke-kritische-gesamtausgabe-bd-30-abt-3-deu-lat_weimar1910.txt`
+
+1 section(s) to level 2 · ~280,650 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 280,650 | 280,650 | luther_werke-kritische-gesamtausgabe-bd-30-abt-3-deu-lat_weimar1910 |
 
 ## `luther_works-v1-selected_jacobs-spaeth1915.txt`
 
@@ -7382,6 +11638,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 162,000 | 162,000 | luther_works-v3-selected_various1930 |
 
+## `luther_works-v4-selected_various1931.txt`
+
+1 section(s) to level 2 · ~142,423 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 142,423 | 142,423 | luther_works-v4-selected_various1931 |
+
+## `luther_works-v6-selected_various1932.txt`
+
+1 section(s) to level 2 · ~154,618 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 154,618 | 154,618 | luther_works-v6-selected_various1932 |
+
 ## `lutzow_bohemia-historical-sketch_1920.txt`
 
 1 section(s) to level 2 · ~148,804 words of text · ~0 words of apparatus
@@ -7406,6 +11678,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 149,613 | 149,613 | lutzow_life-and-times-of-hus_1909 |
 
+## `lynch_armenia-travels-and-studies-v2_1901.txt`
+
+1 section(s) to level 2 · ~247,501 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 247,501 | 247,501 | lynch_armenia-travels-and-studies-v2_1901 |
+
+## `macarius-metropolitan_velikie-minei-chetii-september-1-13-chu_arkheograficheskaia-kommissiia1868.txt`
+
+1 section(s) to level 2 · ~227,336 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 227,336 | 227,336 | macarius-metropolitan_velikie-minei-chetii-september-1-13-chu_arkheograficheskaia-kommissiia1868 |
+
 ## `macarius-metropolitan_velikie-minei-chetii-september-25-30-chu_arkheograficheskaya-kommissiya1883.txt`
 
 1 section(s) to level 2 · ~296,397 words of text · ~0 words of apparatus
@@ -7421,6 +11709,62 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 118,599 | 118,599 | macarius_fifty-spiritual-homilies_mason1921 |
+
+## `macedo-costa_a-questao-religiosa-do-brazil-perante-a-santa-se-por_1886.txt`
+
+1 section(s) to level 2 · ~124,248 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 124,248 | 124,248 | macedo-costa_a-questao-religiosa-do-brazil-perante-a-santa-se-por_1886 |
+
+## `macedo-soares_a-guerra-de-canudos-por_1902.txt`
+
+1 section(s) to level 2 · ~76,172 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 76,172 | 76,172 | macedo-soares_a-guerra-de-canudos-por_1902 |
+
+## `machen_christianity-and-liberalism_1923.txt`
+
+1 section(s) to level 2 · ~62,909 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 62,909 | 62,909 | machen_christianity-and-liberalism_1923 |
+
+## `machiavelli_historical-political-and-diplomatic-writings-v1_detmold1882.txt`
+
+1 section(s) to level 2 · ~195,539 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 195,539 | 195,539 | machiavelli_historical-political-and-diplomatic-writings-v1_detmold1882 |
+
+## `machiavelli_historical-political-and-diplomatic-writings-v2_detmold1882.txt`
+
+1 section(s) to level 2 · ~188,479 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 188,479 | 188,479 | machiavelli_historical-political-and-diplomatic-writings-v2_detmold1882 |
+
+## `machiavelli_historical-political-and-diplomatic-writings-v3_detmold1882.txt`
+
+1 section(s) to level 2 · ~202,139 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 202,139 | 202,139 | machiavelli_historical-political-and-diplomatic-writings-v3_detmold1882 |
+
+## `machiavelli_historical-political-and-diplomatic-writings-v4_detmold1882.txt`
+
+1 section(s) to level 2 · ~193,357 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 193,357 | 193,357 | machiavelli_historical-political-and-diplomatic-writings-v4_detmold1882 |
 
 ## `mack-alexander_rights-and-ordinances_1810.txt`
 
@@ -7438,6 +11782,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 75,656 | 75,656 | mack-alexander_writings-bilingual_columbiana1860 |
 
+## `mackay_a-m-mackay-pioneer-missionary-to-uganda_by-his-sister1891.txt`
+
+1 section(s) to level 2 · ~126,303 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 126,303 | 126,303 | mackay_a-m-mackay-pioneer-missionary-to-uganda_by-his-sister1891 |
+
+## `mackenzie_christianity-in-travancore_1901.txt`
+
+1 section(s) to level 2 · ~52,588 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 52,588 | 52,588 | mackenzie_christianity-in-travancore_1901 |
+
 ## `maclean-browne_catholicos-of-the-east-and-his-people_1892.txt`
 
 1 section(s) to level 2 · ~108,479 words of text · ~0 words of apparatus
@@ -7445,6 +11805,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 108,479 | 108,479 | maclean-browne_catholicos-of-the-east-and-his-people_1892 |
+
+## `macnicol_pandita-ramabai-builders-of-modern-india_1926.txt`
+
+1 section(s) to level 2 · ~48,088 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 48,088 | 48,088 | macnicol_pandita-ramabai-builders-of-modern-india_1926 |
+
+## `macnutt_bartholomew-de-las-casas-his-life-apostolate-and-writings_1909.txt`
+
+1 section(s) to level 2 · ~142,873 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 142,873 | 142,873 | macnutt_bartholomew-de-las-casas-his-life-apostolate-and-writings_1909 |
 
 ## `mai_scriptorum-veterum-nova-collectio-tomus10-ebedjesu-synodus-timothei-lat_mai1838.txt`
 
@@ -7454,6 +11830,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 360,268 | 360,268 | mai_scriptorum-veterum-nova-collectio-tomus10-ebedjesu-synodus-timothei-lat_mai1838 |
 
+## `malankara-sabha-tharaka_v6-no12-mal_1910.txt`
+
+1 section(s) to level 2 · ~10,963 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 10,963 | 10,963 | malankara-sabha-tharaka_v6-no12-mal_1910 |
+
 ## `malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt`
 
 1 section(s) to level 2 · ~158,270 words of text · ~0 words of apparatus
@@ -7461,6 +11845,54 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 158,270 | 158,270 | malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910 |
+
+## `manassa-yuhanna_tarikh-al-kanisa-al-qibtiyya-ara_1924.txt`
+
+1 section(s) to level 2 · ~214,318 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 214,318 | 214,318 | manassa-yuhanna_tarikh-al-kanisa-al-qibtiyya-ara_1924 |
+
+## `mani_mani-seine-lehre-und-seine-schriften-fihrist-deu-ara_fluegel1862.txt`
+
+1 section(s) to level 2 · ~146,738 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 146,738 | 146,738 | mani_mani-seine-lehre-und-seine-schriften-fihrist-deu-ara_fluegel1862 |
+
+## `manichaean-texts_dr-steins-turkish-khuastuanift-in-jras-1911_le-coq1911.txt`
+
+1 section(s) to level 2 · ~395,410 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 395,410 | 395,410 | manichaean-texts_dr-steins-turkish-khuastuanift-in-jras-1911_le-coq1911 |
+
+## `manichaean-texts_traite-manicheen-retrouve-en-chine-pt1-in-journal-asiatique-10-18-fra_chavannes-pelliot1911.txt`
+
+1 section(s) to level 2 · ~223,219 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 223,219 | 223,219 | manichaean-texts_traite-manicheen-retrouve-en-chine-pt1-in-journal-asiatique-10-18-fra_chavannes-pelliot1911 |
+
+## `manichaean-texts_traite-manicheen-retrouve-en-chine-pt2-in-journal-asiatique-11-1-fra_chavannes-pelliot1913.txt`
+
+1 section(s) to level 2 · ~261,656 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 261,656 | 261,656 | manichaean-texts_traite-manicheen-retrouve-en-chine-pt2-in-journal-asiatique-11-1-fra_chavannes-pelliot1913 |
+
+## `manichaean-texts_tuerkische-manichaica-aus-chotscho-1-in-abhandlungen-preuss-akademie-1911-deu-oui_le-coq1911.txt`
+
+1 section(s) to level 2 · ~172,593 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 172,593 | 172,593 | manichaean-texts_tuerkische-manichaica-aus-chotscho-1-in-abhandlungen-preuss-akademie-1911-deu-oui_le-coq1911 |
 
 ## `manila-city_leales-demostraciones-fiestas-ss-sacramento-guia-spa_1709.txt`
 
@@ -7478,6 +11910,62 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 594,299 | 594,299 | mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901 |
 
+## `mansi_sacrorum-conciliorum-collectio-tomus-11-lat_welter-facsimile1901.txt`
+
+1 section(s) to level 2 · ~534,819 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 534,819 | 534,819 | mansi_sacrorum-conciliorum-collectio-tomus-11-lat_welter-facsimile1901 |
+
+## `mansi_sacrorum-conciliorum-collectio-tomus-12-lat_welter-facsimile1901.txt`
+
+1 section(s) to level 2 · ~557,789 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 557,789 | 557,789 | mansi_sacrorum-conciliorum-collectio-tomus-12-lat_welter-facsimile1901 |
+
+## `mansi_sacrorum-conciliorum-collectio-tomus-13-lat_welter-facsimile1902.txt`
+
+1 section(s) to level 2 · ~542,162 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 542,162 | 542,162 | mansi_sacrorum-conciliorum-collectio-tomus-13-lat_welter-facsimile1902 |
+
+## `mansi_sacrorum-conciliorum-collectio-tomus-14-lat_welter-facsimile1902.txt`
+
+1 section(s) to level 2 · ~519,601 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 519,601 | 519,601 | mansi_sacrorum-conciliorum-collectio-tomus-14-lat_welter-facsimile1902 |
+
+## `mansi_sacrorum-conciliorum-collectio-tomus-15-lat_welter-facsimile1902.txt`
+
+1 section(s) to level 2 · ~457,339 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 457,339 | 457,339 | mansi_sacrorum-conciliorum-collectio-tomus-15-lat_welter-facsimile1902 |
+
+## `mansi_sacrorum-conciliorum-collectio-tomus-16-lat_welter-facsimile1902.txt`
+
+1 section(s) to level 2 · ~473,865 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 473,865 | 473,865 | mansi_sacrorum-conciliorum-collectio-tomus-16-lat_welter-facsimile1902 |
+
+## `mansi_sacrorum-conciliorum-collectio-tomus-17-18-lat_welter-facsimile1902.txt`
+
+1 section(s) to level 2 · ~574,091 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 574,091 | 574,091 | mansi_sacrorum-conciliorum-collectio-tomus-17-18-lat_welter-facsimile1902 |
+
 ## `mansi_sacrorum-conciliorum-collectio-tomus-2-305-346-lat_welter-facsimile1901.txt`
 
 1 section(s) to level 2 · ~786,407 words of text · ~0 words of apparatus
@@ -7485,6 +11973,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 786,407 | 786,407 | mansi_sacrorum-conciliorum-collectio-tomus-2-305-346-lat_welter-facsimile1901 |
+
+## `mansi_sacrorum-conciliorum-collectio-tomus-21-lat_welter-facsimile1903.txt`
+
+1 section(s) to level 2 · ~561,043 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 561,043 | 561,043 | mansi_sacrorum-conciliorum-collectio-tomus-21-lat_welter-facsimile1903 |
+
+## `mansi_sacrorum-conciliorum-collectio-tomus-22-lat_welter-facsimile1903.txt`
+
+1 section(s) to level 2 · ~546,595 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 546,595 | 546,595 | mansi_sacrorum-conciliorum-collectio-tomus-22-lat_welter-facsimile1903 |
+
+## `mansi_sacrorum-conciliorum-collectio-tomus-24-lat_welter-facsimile1903.txt`
+
+1 section(s) to level 2 · ~515,326 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 515,326 | 515,326 | mansi_sacrorum-conciliorum-collectio-tomus-24-lat_welter-facsimile1903 |
 
 ## `mansi_sacrorum-conciliorum-collectio-tomus-25-1300-1344-lat_welter-facsimile1903.txt`
 
@@ -7510,6 +12022,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 698,892 | 698,892 | mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902 |
 
+## `mansi_sacrorum-conciliorum-collectio-tomus-29-1431-1434-lat_welter-facsimile1904.txt`
+
+1 section(s) to level 2 · ~642,993 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 642,993 | 642,993 | mansi_sacrorum-conciliorum-collectio-tomus-29-1431-1434-lat_welter-facsimile1904 |
+
 ## `mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901.txt`
 
 1 section(s) to level 2 · ~596,449 words of text · ~0 words of apparatus
@@ -7517,6 +12037,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 596,449 | 596,449 | mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901 |
+
+## `mansi_sacrorum-conciliorum-collectio-tomus-30-1431-1439-lat_welter-facsimile1904.txt`
+
+1 section(s) to level 2 · ~604,557 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 604,557 | 604,557 | mansi_sacrorum-conciliorum-collectio-tomus-30-1431-1439-lat_welter-facsimile1904 |
 
 ## `mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt`
 
@@ -7582,6 +12110,38 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 576,457 | 576,457 | mansi_sacrorum-conciliorum-collectio-tomus-7-451-492-lat_welter-facsimile1901 |
 
+## `mansi_sacrorum-conciliorum-collectio-tomus-8-492-536-lat_welter-facsimile1901.txt`
+
+1 section(s) to level 2 · ~576,921 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 576,921 | 576,921 | mansi_sacrorum-conciliorum-collectio-tomus-8-492-536-lat_welter-facsimile1901 |
+
+## `marchant_dr-john-clifford_1924.txt`
+
+1 section(s) to level 2 · ~149,887 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 149,887 | 149,887 | marchant_dr-john-clifford_1924 |
+
+## `marco-polo_book-of-ser-marco-polo-v1_yule-cordier1903.txt`
+
+1 section(s) to level 2 · ~350,754 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 350,754 | 350,754 | marco-polo_book-of-ser-marco-polo-v1_yule-cordier1903 |
+
+## `marco-polo_book-of-ser-marco-polo-v2_yule-cordier1903.txt`
+
+1 section(s) to level 2 · ~341,122 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 341,122 | 341,122 | marco-polo_book-of-ser-marco-polo-v2_yule-cordier1903 |
+
 ## `mari-ibn-sulayman_de-patriarchis-nestorianorum-commentaria-pars-prior-ara-lat_gismondi1899.txt`
 
 1 section(s) to level 2 · ~112,409 words of text · ~0 words of apparatus
@@ -7597,6 +12157,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 48,139 | 48,139 | marie-de-l-incarnation-compiegne_histoire-des-carmelites-de-compiegne-fra_1836 |
+
+## `marie-de-l-incarnation-quebec_lettres-t1-fra_richaudeau1876.txt`
+
+1 section(s) to level 2 · ~192,870 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 192,870 | 192,870 | marie-de-l-incarnation-quebec_lettres-t1-fra_richaudeau1876 |
+
+## `marie-de-l-incarnation-quebec_lettres-t2-fra_richaudeau1876.txt`
+
+1 section(s) to level 2 · ~176,180 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 176,180 | 176,180 | marie-de-l-incarnation-quebec_lettres-t2-fra_richaudeau1876 |
 
 ## `marion_avertissements-prophetiques-fra_1707.txt`
 
@@ -7621,6 +12197,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 639,024 | 639,024 | marius-mercator_opera-omnia-lat_migne-pl48 |
+
+## `marnas_religion-de-jesus-ressuscitee-au-japon-t1-fra_1897.txt`
+
+1 section(s) to level 2 · ~205,634 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 205,634 | 205,634 | marnas_religion-de-jesus-ressuscitee-au-japon-t1-fra_1897 |
+
+## `marnas_religion-de-jesus-ressuscitee-au-japon-t2-fra_1897.txt`
+
+1 section(s) to level 2 · ~182,927 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 182,927 | 182,927 | marnas_religion-de-jesus-ressuscitee-au-japon-t2-fra_1897 |
 
 ## `marnix_beehive-of-the-romish-church_gilpin1623.txt`
 
@@ -7654,6 +12246,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 245,824 | 245,824 | marprelate_tracts-1588-1589_pierce1911 |
 
+## `marsden_life-and-work-of-samuel-marsden_jb-marsden1913.txt`
+
+1 section(s) to level 2 · ~66,947 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 66,947 | 66,947 | marsden_life-and-work-of-samuel-marsden_jb-marsden1913 |
+
 ## `marsilius-of-padua_defensor-pacis-lat_previte-orton1928.txt`
 
 1 section(s) to level 2 · ~212,815 words of text · ~0 words of apparatus
@@ -7661,6 +12261,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 212,815 | 212,815 | marsilius-of-padua_defensor-pacis-lat_previte-orton1928 |
+
+## `marsollier_vie-de-dom-armand-jean-le-bouthillier-de-rance-t1-fra_1758.txt`
+
+1 section(s) to level 2 · ~105,307 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 105,307 | 105,307 | marsollier_vie-de-dom-armand-jean-le-bouthillier-de-rance-t1-fra_1758 |
+
+## `marsollier_vie-de-dom-armand-jean-le-bouthillier-de-rance-t2-fra_1758.txt`
+
+1 section(s) to level 2 · ~126,863 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 126,863 | 126,863 | marsollier_vie-de-dom-armand-jean-le-bouthillier-de-rance-t2-fra_1758 |
+
+## `martene-durand_thesaurus-novus-anecdotorum-v5-lat_1717.txt`
+
+1 section(s) to level 2 · ~983,989 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 983,989 | 983,989 | martene-durand_thesaurus-novus-anecdotorum-v5-lat_1717 |
 
 ## `martin-braga_de-correctione-rusticorum-lat_caspari1883.txt`
 
@@ -7670,6 +12294,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 47,609 | 47,609 | martin-braga_de-correctione-rusticorum-lat_caspari1883 |
 
+## `marty_etudes-sur-l-islam-en-cote-d-ivoire-fra_1922.txt`
+
+1 section(s) to level 2 · ~143,623 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 143,623 | 143,623 | marty_etudes-sur-l-islam-en-cote-d-ivoire-fra_1922 |
+
 ## `maruta-of-maipherqat_de-sancta-nicaena-synodo-syrische-texte-deu_braun1898.txt`
 
 1 section(s) to level 2 · ~39,145 words of text · ~0 words of apparatus
@@ -7677,6 +12309,54 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 39,145 | 39,145 | maruta-of-maipherqat_de-sancta-nicaena-synodo-syrische-texte-deu_braun1898 |
+
+## `matthew-of-edessa_chronique-with-gregory-the-priest-fra_dulaurier1858.txt`
+
+1 section(s) to level 2 · ~171,335 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 171,335 | 171,335 | matthew-of-edessa_chronique-with-gregory-the-priest-fra_dulaurier1858 |
+
+## `matthew-paris_chronica-majora-v4-rolls-series-57-lat_luard1877.txt`
+
+1 section(s) to level 2 · ~207,413 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 207,413 | 207,413 | matthew-paris_chronica-majora-v4-rolls-series-57-lat_luard1877 |
+
+## `maurice-f_life-of-frederick-denison-maurice-v1_1884.txt`
+
+1 section(s) to level 2 · ~210,519 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 210,519 | 210,519 | maurice-f_life-of-frederick-denison-maurice-v1_1884 |
+
+## `maurice-f_life-of-frederick-denison-maurice-v2_1884.txt`
+
+1 section(s) to level 2 · ~293,502 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 293,502 | 293,502 | maurice-f_life-of-frederick-denison-maurice-v2_1884 |
+
+## `maurice_theological-essays_2nd-ed1853.txt`
+
+1 section(s) to level 2 · ~141,442 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 141,442 | 141,442 | maurice_theological-essays_2nd-ed1853 |
+
+## `maurin_catholic-radicalism-phrased-essays_1949.txt`
+
+1 section(s) to level 2 · ~60,817 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 60,817 | 60,817 | maurin_catholic-radicalism-phrased-essays_1949 |
 
 ## `maxim-the-greek_sochineniia-ch2-chu_kazanskaia-dukhovnaia-akademiia1860.txt`
 
@@ -7718,6 +12398,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 56,856 | 56,856 | mayhew_seven-sermons_1749 |
 
+## `mcauley_transformed-or-the-history-of-a-river-thief_1876.txt`
+
+1 section(s) to level 2 · ~13,039 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 13,039 | 13,039 | mcauley_transformed-or-the-history-of-a-river-thief_1876 |
+
+## `mccarter_dutch-reformed-church-in-south-africa_1869.txt`
+
+1 section(s) to level 2 · ~29,579 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 29,579 | 29,579 | mccarter_dutch-reformed-church-in-south-africa_1869 |
+
+## `mcdonald-searles_life-of-rev-john-s-inskip_1885.txt`
+
+1 section(s) to level 2 · ~123,718 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 123,718 | 123,718 | mcdonald-searles_life-of-rev-john-s-inskip_1885 |
+
 ## `mcglothlin_baptist-confessions-of-faith_1911.txt`
 
 1 section(s) to level 2 · ~134,248 words of text · ~0 words of apparatus
@@ -7725,6 +12429,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 134,248 | 134,248 | mcglothlin_baptist-confessions-of-faith_1911 |
+
+## `mcgready_posthumous-works_smith1837.txt`
+
+1 section(s) to level 2 · ~246,045 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 246,045 | 246,045 | mcgready_posthumous-works_smith1837 |
 
 ## `mcnemar_kentucky-revival-with-the-entrance-of-shakerism_1808.txt`
 
@@ -7734,6 +12446,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 50,159 | 50,159 | mcnemar_kentucky-revival-with-the-entrance-of-shakerism_1808 |
 
+## `meadows_chinese-and-their-rebellions_1856.txt`
+
+1 section(s) to level 2 · ~263,677 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 263,677 | 263,677 | meadows_chinese-and-their-rebellions_1856 |
+
 ## `mechthild_fliessende-licht-der-gottheit-gmh_morel1869.txt`
 
 1 section(s) to level 2 · ~102,831 words of text · ~0 words of apparatus
@@ -7741,6 +12461,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 102,831 | 102,831 | mechthild_fliessende-licht-der-gottheit-gmh_morel1869 |
+
+## `medhurst_pamphlets-issued-by-the-chinese-insurgents-at-nan-king_1853.txt`
+
+1 section(s) to level 2 · ~106,785 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 106,785 | 106,785 | medhurst_pamphlets-issued-by-the-chinese-insurgents-at-nan-king_1853 |
 
 ## `melanchthon_apology-augsburg-confession_bente-dau1921.txt`
 
@@ -7774,6 +12502,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 154,974 | 154,974 | mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908 |
 
+## `mendham_seventh-general-council-second-of-nicaea_1850.txt`
+
+1 section(s) to level 2 · ~307,405 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 307,405 | 307,405 | mendham_seventh-general-council-second-of-nicaea_1850 |
+
 ## `menno-simons_complete-works_funk1871.txt`
 
 1 section(s) to level 2 · ~531,505 words of text · ~0 words of apparatus
@@ -7781,6 +12517,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 531,505 | 531,505 | menno-simons_complete-works_funk1871 |
+
+## `mercati_raccolta-di-concordati-ita-fra-lat_1919.txt`
+
+1 section(s) to level 2 · ~530,245 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 530,245 | 530,245 | mercati_raccolta-di-concordati-ita-fra-lat_1919 |
 
 ## `merck_captivite-et-mort-de-pie-vi-fra_1814.txt`
 
@@ -7846,6 +12590,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 115,519 | 115,519 | methodist-preachers_lives-of-early-methodist-preachers-v1_jackson1865 |
 
+## `mexico_codigo-de-la-reforma-spa_1861.txt`
+
+1 section(s) to level 2 · ~134,218 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 134,218 | 134,218 | mexico_codigo-de-la-reforma-spa_1861 |
+
 ## `mgh-aa-3_victor-vitensis-corippus-halm1879.txt`
 
 1 section(s) to level 2 · ~198,613 words of text · ~0 words of apparatus
@@ -7853,6 +12605,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 198,613 | 198,613 | mgh-aa-3_victor-vitensis-corippus-halm1879 |
+
+## `mgh-ss-2_scriptores-tomus-2-with-vita-rimberti-vita-anskarii-lat_pertz1829.txt`
+
+1 section(s) to level 2 · ~545,175 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 545,175 | 545,175 | mgh-ss-2_scriptores-tomus-2-with-vita-rimberti-vita-anskarii-lat_pertz1829 |
 
 ## `michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt`
 
@@ -7870,6 +12630,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 293,630 | 293,630 | michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901 |
 
+## `michael-the-syrian_chronique-tome3-livres-xii-xxi-fra_chabot1905.txt`
+
+1 section(s) to level 2 · ~271,509 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 271,509 | 271,509 | michael-the-syrian_chronique-tome3-livres-xii-xxi-fra_chabot1905 |
+
 ## `migault_journal-fra_weiss-clouzot1910.txt`
 
 1 section(s) to level 2 · ~57,087 words of text · ~0 words of apparatus
@@ -7886,6 +12654,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 30,995 | 30,995 | migault_trials-of-a-french-protestant-family_anderson1852 |
 
+## `mikhail_copts-and-moslems-under-british-control_1911.txt`
+
+1 section(s) to level 2 · ~38,280 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 38,280 | 38,280 | mikhail_copts-and-moslems-under-british-control_1911 |
+
 ## `miklosich_monumenta-serbica-chu_miklosich1858.txt`
 
 1 section(s) to level 2 · ~192,788 words of text · ~0 words of apparatus
@@ -7901,6 +12677,38 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 35,660 | 35,660 | mileham_churches-in-lower-nubia_randall-maciver1910 |
+
+## `miller-edward_history-and-doctrines-of-irvingism-v1_1878.txt`
+
+1 section(s) to level 2 · ~132,042 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 132,042 | 132,042 | miller-edward_history-and-doctrines-of-irvingism-v1_1878 |
+
+## `miller_views-of-the-prophecies-and-prophetic-chronology_himes1842.txt`
+
+1 section(s) to level 2 · ~90,677 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 90,677 | 90,677 | miller_views-of-the-prophecies-and-prophetic-chronology_himes1842 |
+
+## `milne_retrospect-of-the-first-ten-years-of-the-protestant-mission-to-china_1820.txt`
+
+1 section(s) to level 2 · ~112,590 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 112,590 | 112,590 | milne_retrospect-of-the-first-ten-years-of-the-protestant-mission-to-china_1820 |
+
+## `milner_end-of-religious-controversy-part2_1818.txt`
+
+1 section(s) to level 2 · ~54,813 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 54,813 | 54,813 | milner_end-of-religious-controversy-part2_1818 |
 
 ## `mingana_early-spread-of-christianity-in-india_mingana1926.txt`
 
@@ -7958,6 +12766,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 53,273 | 53,273 | mirk_instructions-for-parish-priests-enm_peacock1868 |
 
+## `mirror-of-simple-souls_english-version-kirchberger1927.txt`
+
+1 section(s) to level 2 · ~83,280 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 83,280 | 83,280 | mirror-of-simple-souls_english-version-kirchberger1927 |
+
 ## `miscellaneous-coptic-texts-upper-egypt_budge1915.txt`
 
 1 section(s) to level 2 · ~473,342 words of text · ~0 words of apparatus
@@ -7982,6 +12798,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 69,348 | 69,348 | misson_theatre-sacre-des-cevennes-fra_bost1847 |
 
+## `modernists_programme-of-modernism-with-pascendi_tyrrell1908.txt`
+
+1 section(s) to level 2 · ~65,690 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 65,690 | 65,690 | modernists_programme-of-modernism-with-pascendi_tyrrell1908 |
+
 ## `mogila_orthodox-confession_anon1762.txt`
 
 1 section(s) to level 2 · ~54,865 words of text · ~0 words of apparatus
@@ -7997,6 +12821,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 55,636 | 55,636 | mogila_orthodox-confession_overbeck1898 |
+
+## `molema_bantu-past-and-present_1920.txt`
+
+1 section(s) to level 2 · ~158,972 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 158,972 | 158,972 | molema_bantu-past-and-present_1920 |
 
 ## `molinos_guida-spirituale-ita_1678.txt`
 
@@ -8024,27 +12856,27 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `monceaux_histoire-litteraire-afrique-chretienne-tome1_1901.txt`
 
-1 section(s) to level 2 · ~239,311 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~239,301 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 239,311 | 239,311 | monceaux_histoire-litteraire-afrique-chretienne-tome1_1901 |
+| `1` | 0 | 239,301 | 239,301 | monceaux_histoire-litteraire-afrique-chretienne-tome1_1901 |
 
 ## `monceaux_histoire-litteraire-afrique-chretienne-tome2_1902.txt`
 
-1 section(s) to level 2 · ~167,318 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~167,308 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 167,318 | 167,318 | monceaux_histoire-litteraire-afrique-chretienne-tome2_1902 |
+| `1` | 0 | 167,308 | 167,308 | monceaux_histoire-litteraire-afrique-chretienne-tome2_1902 |
 
 ## `monceaux_histoire-litteraire-afrique-chretienne-tome3_1905.txt`
 
-1 section(s) to level 2 · ~249,914 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~249,904 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 249,914 | 249,914 | monceaux_histoire-litteraire-afrique-chretienne-tome3_1905 |
+| `1` | 0 | 249,904 | 249,904 | monceaux_histoire-litteraire-afrique-chretienne-tome3_1905 |
 
 ## `monceaux_histoire-litteraire-afrique-chretienne-tome4_1912.txt`
 
@@ -8077,6 +12909,62 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 298,937 | 298,937 | monceaux_histoire-litteraire-afrique-chretienne-tomes6-7-fra_1922-1923 |
+
+## `monod_adieux-a-ses-amis-et-a-l-eglise-fra_1857.txt`
+
+1 section(s) to level 2 · ~46,417 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 46,417 | 46,417 | monod_adieux-a-ses-amis-et-a-l-eglise-fra_1857 |
+
+## `monod_parting-words-to-his-friends-and-the-church_1873.txt`
+
+1 section(s) to level 2 · ~52,240 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 52,240 | 52,240 | monod_parting-words-to-his-friends-and-the-church_1873 |
+
+## `montaigne_essays-v1_florio-saintsbury1892.txt`
+
+1 section(s) to level 2 · ~157,574 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 157,574 | 157,574 | montaigne_essays-v1_florio-saintsbury1892 |
+
+## `montaigne_essays-v2_florio-saintsbury1893.txt`
+
+1 section(s) to level 2 · ~217,704 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 217,704 | 217,704 | montaigne_essays-v2_florio-saintsbury1893 |
+
+## `montaigne_essays-v3_florio-saintsbury1893.txt`
+
+1 section(s) to level 2 · ~167,981 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 167,981 | 167,981 | montaigne_essays-v3_florio-saintsbury1893 |
+
+## `montalvo_vida-admirable-pedro-de-san-jose-betancur-spa_1683.txt`
+
+1 section(s) to level 2 · ~121,533 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 121,533 | 121,533 | montalvo_vida-admirable-pedro-de-san-jose-betancur-spa_1683 |
+
+## `montero-y-vidal_historia-general-de-filipinas-t3-spa_1895.txt`
+
+1 section(s) to level 2 · ~206,403 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 206,403 | 206,403 | montero-y-vidal_historia-general-de-filipinas-t3-spa_1895 |
 
 ## `montet_histoire-litteraire-des-vaudois-du-piemont-fra_1885.txt`
 
@@ -8118,6 +13006,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 14,578 | 14,578 | monumenta-vetera-donatistarum_migne-pl8 |
 
+## `moody-w-r_life-of-dwight-l-moody_1900.txt`
+
+1 section(s) to level 2 · ~180,380 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 180,380 | 180,380 | moody-w-r_life-of-dwight-l-moody_1900 |
+
 ## `moravian-church_acta-fratrum-unitatis-in-anglia_1749.txt`
 
 1 section(s) to level 2 · ~107,245 words of text · ~0 words of apparatus
@@ -8158,13 +13054,29 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 29,927 | 29,927 | moravian-church_taegliche-loosungen-1766-deu_barby1766 |
 
-## `morebath-parish_churchwardens-accounts-1520-1573_binney1904.txt`
+## `moreau-de-saint-mery_description-partie-francaise-saint-domingue-t1-fra_1797.txt`
 
-1 section(s) to level 2 · ~114,711 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~380,107 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 114,711 | 114,711 | morebath-parish_churchwardens-accounts-1520-1573_binney1904 |
+| `1` | 0 | 380,107 | 380,107 | moreau-de-saint-mery_description-partie-francaise-saint-domingue-t1-fra_1797 |
+
+## `moreau-de-saint-mery_description-partie-francaise-saint-domingue-t2-fra_1797.txt`
+
+1 section(s) to level 2 · ~393,206 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 393,206 | 393,206 | moreau-de-saint-mery_description-partie-francaise-saint-domingue-t2-fra_1797 |
+
+## `morebath-parish_churchwardens-accounts-1520-1573_binney1904.txt`
+
+1 section(s) to level 2 · ~114,707 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 114,707 | 114,707 | morebath-parish_churchwardens-accounts-1520-1573_binney1904 |
 
 ## `morga_sucesos-islas-filipinas-spa_rizal1890.txt`
 
@@ -8214,6 +13126,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 117,368 | 117,368 | mornay-charlotte_memoires-de-madame-de-mornay-t1-fra_de-witt1868 |
 
+## `morning-watch_v1-1829_1830.txt`
+
+1 section(s) to level 2 · ~389,788 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 389,788 | 389,788 | morning-watch_v1-1829_1830 |
+
+## `morning-watch_v3_1831.txt`
+
+1 section(s) to level 2 · ~268,610 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 268,610 | 268,610 | morning-watch_v3_1831 |
+
 ## `morris-john_troubles-of-our-catholic-forefathers-ser1_1872.txt`
 
 1 section(s) to level 2 · ~152,483 words of text · ~0 words of apparatus
@@ -8246,6 +13174,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 10,469 | 10,469 | morris-joseph_favourite-welsh-hymns-translated_1854 |
 
+## `morrison_memoirs-of-the-life-and-labours-of-robert-morrison-v2_1839.txt`
+
+1 section(s) to level 2 · ~234,954 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 234,954 | 234,954 | morrison_memoirs-of-the-life-and-labours-of-robert-morrison-v2_1839 |
+
 ## `moses-khoren_history-of-armenians-ita_mechitaristi1850.txt`
 
 1 section(s) to level 2 · ~96,664 words of text · ~0 words of apparatus
@@ -8270,6 +13206,38 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 130,949 | 130,949 | motolinia_historia-de-los-indios-de-la-nueva-espana-spa_sanchez-garcia1914 |
 
+## `mott_decisive-hour-of-christian-missions_1910.txt`
+
+1 section(s) to level 2 · ~62,425 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 62,425 | 62,425 | mott_decisive-hour-of-christian-missions_1910 |
+
+## `mott_evangelization-of-the-world-in-this-generation_1900.txt`
+
+1 section(s) to level 2 · ~54,303 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 54,303 | 54,303 | mott_evangelization-of-the-world-in-this-generation_1900 |
+
+## `mott_history-of-the-student-volunteer-movement_1892.txt`
+
+1 section(s) to level 2 · ~7,631 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 7,631 | 7,631 | mott_history-of-the-student-volunteer-movement_1892 |
+
+## `mott_present-world-situation_1915.txt`
+
+1 section(s) to level 2 · ~44,655 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 44,655 | 44,655 | mott_present-world-situation_1915 |
+
 ## `mouravieff_history-of-the-church-of-russia_blackmore1842.txt`
 
 1 section(s) to level 2 · ~182,613 words of text · ~0 words of apparatus
@@ -8278,6 +13246,54 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 182,613 | 182,613 | mouravieff_history-of-the-church-of-russia_blackmore1842 |
 
+## `movses-daskhurantsi_beitraege-zur-albanischen-geschichte-deu_manandian1897.txt`
+
+1 section(s) to level 2 · ~17,339 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 17,339 | 17,339 | movses-daskhurantsi_beitraege-zur-albanischen-geschichte-deu_manandian1897 |
+
+## `mozarabes-de-toledo_documentos-siglos-xii-xiii-v1-spa_gonzalez-palencia1926.txt`
+
+1 section(s) to level 2 · ~131,978 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 131,978 | 131,978 | mozarabes-de-toledo_documentos-siglos-xii-xiii-v1-spa_gonzalez-palencia1926 |
+
+## `mozarabic-liturgy_breviarium-gothicum-pl86-lat_migne1862.txt`
+
+1 section(s) to level 2 · ~610,124 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 610,124 | 610,124 | mozarabic-liturgy_breviarium-gothicum-pl86-lat_migne1862 |
+
+## `mozarabic-liturgy_missale-mixtum-pl85-lat_migne1862.txt`
+
+1 section(s) to level 2 · ~610,373 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 610,373 | 610,373 | mozarabic-liturgy_missale-mixtum-pl85-lat_migne1862 |
+
+## `muller_life-of-trust_wayland1868.txt`
+
+1 section(s) to level 2 · ~175,759 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 175,759 | 175,759 | muller_life-of-trust_wayland1868 |
+
+## `muller_narrative-of-the-lords-dealings-pt4_1856.txt`
+
+1 section(s) to level 2 · ~171,718 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 171,718 | 171,718 | muller_narrative-of-the-lords-dealings-pt4_1856 |
+
 ## `muratori_della-regolata-divozione-de-cristiani-ita_1748.txt`
 
 1 section(s) to level 2 · ~91,598 words of text · ~0 words of apparatus
@@ -8285,6 +13301,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 91,598 | 91,598 | muratori_della-regolata-divozione-de-cristiani-ita_1748 |
+
+## `muratori_il-cristianesimo-felice-nelle-missioni-del-paraguai-ita_1743.txt`
+
+1 section(s) to level 2 · ~105,253 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 105,253 | 105,253 | muratori_il-cristianesimo-felice-nelle-missioni-del-paraguai-ita_1743 |
+
+## `muratori_relation-of-the-missions-of-paraguay_1759.txt`
+
+1 section(s) to level 2 · ~81,013 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 81,013 | 81,013 | muratori_relation-of-the-missions-of-paraguay_1759 |
 
 ## `murillo-velarde_historia-provincia-philipinas-compania-jesus-spa_1749.txt`
 
@@ -8325,6 +13357,46 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 123,336 | 123,336 | murray-john_records-of-the-life-written-by-himself_1816 |
+
+## `murray-judith-sargent_the-gleaner-v1_1798.txt`
+
+1 section(s) to level 2 · ~125,047 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 125,047 | 125,047 | murray-judith-sargent_the-gleaner-v1_1798 |
+
+## `murray-judith-sargent_the-gleaner-v2_1798.txt`
+
+1 section(s) to level 2 · ~117,861 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 117,861 | 117,861 | murray-judith-sargent_the-gleaner-v2_1798 |
+
+## `murray-judith-sargent_the-gleaner-v3_1798.txt`
+
+1 section(s) to level 2 · ~112,492 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 112,492 | 112,492 | murray-judith-sargent_the-gleaner-v3_1798 |
+
+## `muston_israel-of-the-alps-v1_montgomery1866.txt`
+
+1 section(s) to level 2 · ~244,323 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 244,323 | 244,323 | muston_israel-of-the-alps-v1_montgomery1866 |
+
+## `naayem_shall-this-nation-die_1921.txt`
+
+1 section(s) to level 2 · ~66,213 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 66,213 | 66,213 | naayem_shall-this-nation-die_1921 |
 
 ## `nadal_adnotationes-et-meditationes-in-evangelia-lat_1595.txt`
 
@@ -8374,6 +13446,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 104,391 | 104,391 | nadal_scholia-in-constitutiones-lat_1883 |
 
+## `naironus_dissertatio-de-origine-nomine-ac-religione-maronitarum-lat_1679.txt`
+
+1 section(s) to level 2 · ~30,756 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 30,756 | 30,756 | naironus_dissertatio-de-origine-nomine-ac-religione-maronitarum-lat_1679 |
+
 ## `narsai_liturgical-homilies_connolly1909.txt`
 
 1 section(s) to level 2 · ~104,726 words of text · ~0 words of apparatus
@@ -8381,6 +13461,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 104,726 | 104,726 | narsai_liturgical-homilies_connolly1909 |
+
+## `national-christian-conference_chinese-church-as-revealed-shanghai-1922_1922.txt`
+
+1 section(s) to level 2 · ~312,758 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 312,758 | 312,758 | national-christian-conference_chinese-church-as-revealed-shanghai-1922_1922 |
+
+## `nau_opuscules-maronites-pt1-syr-fra_1899.txt`
+
+1 section(s) to level 2 · ~24,575 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 24,575 | 24,575 | nau_opuscules-maronites-pt1-syr-fra_1899 |
+
+## `nau_opuscules-maronites-pt2-syr-fra_1900.txt`
+
+1 section(s) to level 2 · ~40,925 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 40,925 | 40,925 | nau_opuscules-maronites-pt2-syr-fra_1900 |
 
 ## `nayler_love-to-the-lost_1665.txt`
 
@@ -8406,6 +13510,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 140,070 | 140,070 | neale_history-so-called-jansenist-church-of-holland_1858 |
 
+## `neatby_history-of-the-plymouth-brethren_1901.txt`
+
+1 section(s) to level 2 · ~113,772 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 113,772 | 113,772 | neatby_history-of-the-plymouth-brethren_1901 |
+
 ## `nejedly_prameny-k-synodam-strany-prazske-a-taborske-ces_1900.txt`
 
 1 section(s) to level 2 · ~87,339 words of text · ~0 words of apparatus
@@ -8424,11 +13536,11 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `nestle1904_greek-new-testament-grc.txt`
 
-1 section(s) to level 2 · ~146,867 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~146,844 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 146,867 | 146,867 | nestle1904_greek-new-testament-grc |
+| `1` | 0 | 146,844 | 146,844 | nestle1904_greek-new-testament-grc |
 
 ## `nestorius_bazaar-of-heracleides_driver-hodgson1925.txt`
 
@@ -8486,6 +13598,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 12,203 | 12,203 | new-jerusalem-church_minutes-of-the-first-general-conference_hindmarsh1789 |
 
+## `newman_apologia-pro-vita-sua_1864.txt`
+
+1 section(s) to level 2 · ~169,677 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 169,677 | 169,677 | newman_apologia-pro-vita-sua_1864 |
+
+## `newman_tract-90-remarks-on-certain-passages-in-the-thirty-nine-articles_2nd-ed1841.txt`
+
+1 section(s) to level 2 · ~35,990 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 35,990 | 35,990 | newman_tract-90-remarks-on-certain-passages-in-the-thirty-nine-articles_2nd-ed1841 |
+
+## `newton-b-w_thoughts-on-the-apocalypse_2nd-ed1853.txt`
+
+1 section(s) to level 2 · ~136,275 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 136,275 | 136,275 | newton-b-w_thoughts-on-the-apocalypse_2nd-ed1853 |
+
 ## `nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865.txt`
 
 1 section(s) to level 2 · ~294,319 words of text · ~0 words of apparatus
@@ -8493,6 +13629,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 294,319 | 294,319 | nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865 |
+
+## `nicholas-mystikos_epistolae-with-eutychius-alexandrinus-pg111-grc-lat_migne1863.txt`
+
+1 section(s) to level 2 · ~529,094 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 529,094 | 529,094 | nicholas-mystikos_epistolae-with-eutychius-alexandrinus-pg111-grc-lat_migne1863 |
 
 ## `niclaes_evangelium-regni_london1652.txt`
 
@@ -8518,6 +13662,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 43,453 | 43,453 | niclaes_terra-pacis_1575 |
 
+## `niebuhr_does-civilization-need-religion_1927.txt`
+
+1 section(s) to level 2 · ~45,206 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 45,206 | 45,206 | niebuhr_does-civilization-need-religion_1927 |
+
+## `niebuhr_moral-man-and-immoral-society_1936.txt`
+
+1 section(s) to level 2 · ~86,993 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 86,993 | 86,993 | niebuhr_moral-man-and-immoral-society_1936 |
+
 ## `niemeyer_collectio-confessionum-lat_niemeyer1840.txt`
 
 1 section(s) to level 2 · ~340,126 words of text · ~0 words of apparatus
@@ -8525,6 +13685,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 340,126 | 340,126 | niemeyer_collectio-confessionum-lat_niemeyer1840 |
+
+## `nikephoros-cp_opera-with-vita-stephani-iunioris-pg100-grc-lat_migne1860.txt`
+
+1 section(s) to level 2 · ~665,132 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 665,132 | 665,132 | nikephoros-cp_opera-with-vita-stephani-iunioris-pg100-grc-lat_migne1860 |
 
 ## `nikodemos-hagiorite_pedalion-canons-grc_1886.txt`
 
@@ -8550,6 +13718,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 295,122 | 295,122 | nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900 |
 
+## `nikolaevskii-sobor_ko-dniu-dvadtsatipiatiletiia-patriarkha-tikhona-rus_1922.txt`
+
+1 section(s) to level 2 · ~13,233 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 13,233 | 13,233 | nikolaevskii-sobor_ko-dniu-dvadtsatipiatiletiia-patriarkha-tikhona-rus_1922 |
+
 ## `nikon_replies-against-streshnev-and-ligarides_palmer1871.txt`
 
 1 section(s) to level 2 · ~340,453 words of text · ~0 words of apparatus
@@ -8574,6 +13750,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 29,201 | 29,201 | nithard_historiarum-libri-iv_pertz-muller1907 |
 
+## `norbert-xanten_vita-b-and-sermons-in-pl170-lat_migne1894.txt`
+
+1 section(s) to level 2 · ~592,031 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 592,031 | 592,031 | norbert-xanten_vita-b-and-sermons-in-pl170-lat_migne1894 |
+
 ## `norwich-diocese_visitations-1492-1532-lat_jessopp1888.txt`
 
 1 section(s) to level 2 · ~94,956 words of text · ~0 words of apparatus
@@ -8581,6 +13765,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 94,956 | 94,956 | norwich-diocese_visitations-1492-1532-lat_jessopp1888 |
+
+## `noyes_history-of-american-socialisms_1870.txt`
+
+1 section(s) to level 2 · ~192,564 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 192,564 | 192,564 | noyes_history-of-american-socialisms_1870 |
+
+## `noyes_home-talks-v1_barron-miller1875.txt`
+
+1 section(s) to level 2 · ~81,645 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 81,645 | 81,645 | noyes_home-talks-v1_barron-miller1875 |
+
+## `noyes_religious-experience-of-john-humphrey-noyes_gw-noyes1923.txt`
+
+1 section(s) to level 2 · ~115,212 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 115,212 | 115,212 | noyes_religious-experience-of-john-humphrey-noyes_gw-noyes1923 |
 
 ## `npnf101_augustine-confessions-letters.xml`
 
@@ -11585,6 +16793,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 13,014 | 13,014 | occom_sermon-at-the-execution-of-moses-paul_1788 |
 
+## `ockham_de-sacramento-altaris-lat-eng_birch1930.txt`
+
+1 section(s) to level 2 · ~155,357 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 155,357 | 155,357 | ockham_de-sacramento-altaris-lat-eng_birch1930 |
+
 ## `odes-of-solomon_harris-mingana1920.txt`
 
 1 section(s) to level 2 · ~159,165 words of text · ~0 words of apparatus
@@ -11592,6 +16808,38 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 159,165 | 159,165 | odes-of-solomon_harris-mingana1920 |
+
+## `odilo-cluny_opera-with-jotsald-vita-odilonis-pl142-lat_migne1853.txt`
+
+1 section(s) to level 2 · ~604,803 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 604,803 | 604,803 | odilo-cluny_opera-with-jotsald-vita-odilonis-pl142-lat_migne1853 |
+
+## `odo-cluny_occupatio-lat_swoboda1900.txt`
+
+1 section(s) to level 2 · ~53,167 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 53,167 | 53,167 | odo-cluny_occupatio-lat_swoboda1900 |
+
+## `odo-cluny_opera-with-john-of-salerno-vita-odonis-pl133-lat_migne1853.txt`
+
+1 section(s) to level 2 · ~463,825 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 463,825 | 463,825 | odo-cluny_opera-with-john-of-salerno-vita-odonis-pl133-lat_migne1853 |
+
+## `offord_jerry-mcauley-his-life-and-work_2nd-ed1885.txt`
+
+1 section(s) to level 2 · ~72,452 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 72,452 | 72,452 | offord_jerry-mcauley-his-life-and-work_2nd-ed1885 |
 
 ## `olavus-petri_samlade-skrifter-v1-swe_hesselman1914.txt`
 
@@ -11617,6 +16865,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 116,620 | 116,620 | oldendorp_geschichte-der-mission-caraibische-inseln-v1-deu_bossart1777 |
 
+## `oldham_christianity-and-the-race-problem_1924.txt`
+
+1 section(s) to level 2 · ~103,833 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 103,833 | 103,833 | oldham_christianity-and-the-race-problem_1924 |
+
+## `oldham_world-and-the-gospel_1916.txt`
+
+1 section(s) to level 2 · ~63,055 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 63,055 | 63,055 | oldham_world-and-the-gospel_1916 |
+
 ## `olearius_voyages-and-travels-of-the-ambassadors_davies1662.txt`
 
 1 section(s) to level 2 · ~562,111 words of text · ~0 words of apparatus
@@ -11624,6 +16888,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 562,111 | 562,111 | olearius_voyages-and-travels-of-the-ambassadors_davies1662 |
+
+## `oliphant_life-of-edward-irving-v1_1862.txt`
+
+1 section(s) to level 2 · ~136,279 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 136,279 | 136,279 | oliphant_life-of-edward-irving-v1_1862 |
+
+## `oliphant_life-of-edward-irving-v2_1862.txt`
+
+1 section(s) to level 2 · ~197,748 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 197,748 | 197,748 | oliphant_life-of-edward-irving-v2_1862 |
 
 ## `optatus_against-the-donatists.txt`
 
@@ -11657,6 +16937,94 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 79,508 | 79,508 | optatus_libri-vii-lat_ziwsa1893-csel26-tei |
 
+## `optina_istoricheskoe-opisanie-kozelskoi-optinoi-pustyni-rus_1902.txt`
+
+1 section(s) to level 2 · ~63,165 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 63,165 | 63,165 | optina_istoricheskoe-opisanie-kozelskoi-optinoi-pustyni-rus_1902 |
+
+## `orate-fratres_v1-1926-1927.txt`
+
+1 section(s) to level 2 · ~167,789 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 167,789 | 167,789 | orate-fratres_v1-1926-1927 |
+
+## `orate-fratres_v2-1927-1928.txt`
+
+1 section(s) to level 2 · ~157,385 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 157,385 | 157,385 | orate-fratres_v2-1927-1928 |
+
+## `orate-fratres_v3-1928-1929.txt`
+
+1 section(s) to level 2 · ~166,670 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 166,670 | 166,670 | orate-fratres_v3-1928-1929 |
+
+## `orate-fratres_v4-1929-1930.txt`
+
+1 section(s) to level 2 · ~226,245 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 226,245 | 226,245 | orate-fratres_v4-1929-1930 |
+
+## `origen_commentarii-in-epistolam-ad-romanos-libri-1-5-lat_lommatzsch1836.txt`
+
+1 section(s) to level 2 · ~122,902 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 122,902 | 122,902 | origen_commentarii-in-epistolam-ad-romanos-libri-1-5-lat_lommatzsch1836 |
+
+## `origen_commentarii-in-epistolam-ad-romanos-libri-6-10-lat_lommatzsch1837.txt`
+
+1 section(s) to level 2 · ~152,639 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 152,639 | 152,639 | origen_commentarii-in-epistolam-ad-romanos-libri-6-10-lat_lommatzsch1837 |
+
+## `origen_commentarii-in-evangelium-joannis-tomus2-grc_lommatzsch1832.txt`
+
+1 section(s) to level 2 · ~173,585 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 173,585 | 173,585 | origen_commentarii-in-evangelium-joannis-tomus2-grc_lommatzsch1832 |
+
+## `origen_commentarii-in-evangelium-matthaei-tomus3-grc-lat_lommatzsch1834.txt`
+
+1 section(s) to level 2 · ~121,077 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 121,077 | 121,077 | origen_commentarii-in-evangelium-matthaei-tomus3-grc-lat_lommatzsch1834 |
+
+## `origen_commentarii-in-evangelium-matthaei-tomus4-grc-lat_lommatzsch1834.txt`
+
+1 section(s) to level 2 · ~131,917 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 131,917 | 131,917 | origen_commentarii-in-evangelium-matthaei-tomus4-grc-lat_lommatzsch1834 |
+
+## `origen_commentarii-in-evangelium-matthaei-tomus5-lat_lommatzsch1835.txt`
+
+1 section(s) to level 2 · ~107,306 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 107,306 | 107,306 | origen_commentarii-in-evangelium-matthaei-tomus5-lat_lommatzsch1835 |
+
 ## `origen_de-oratione-grc_koetschau1899.txt`
 
 1 section(s) to level 2 · ~53,654 words of text · ~0 words of apparatus
@@ -11664,6 +17032,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 53,654 | 53,654 | origen_de-oratione-grc_koetschau1899 |
+
+## `origen_opera-omnia-t7-pamphilus-apologia-pg17-grc-lat_migne1857.txt`
+
+1 section(s) to level 2 · ~596,088 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 596,088 | 596,088 | origen_opera-omnia-t7-pamphilus-apologia-pg17-grc-lat_migne1857 |
 
 ## `origen_philocalia_lewis1911.txt`
 
@@ -11680,6 +17056,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 81,364 | 81,364 | ormanian_church-of-armenia_gregory1912 |
+
+## `orton_memoirs-of-philip-doddridge_russell1825.txt`
+
+1 section(s) to level 2 · ~100,132 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 100,132 | 100,132 | orton_memoirs-of-philip-doddridge_russell1825 |
 
 ## `osborn-sarah_familiar-letters-with-susanna-anthony_1807.txt`
 
@@ -11705,6 +17089,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 7,320 | 7,320 | pachomius_rules-ethiopic_schodde1885 |
 
+## `pachymeres_de-michaele-et-andronico-palaeologis-v1-grc-lat_bekker1835.txt`
+
+1 section(s) to level 2 · ~323,272 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 323,272 | 323,272 | pachymeres_de-michaele-et-andronico-palaeologis-v1-grc-lat_bekker1835 |
+
+## `pacific-garden-mission_thirty-first-annual-report_1908.txt`
+
+1 section(s) to level 2 · ~4,276 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 4,276 | 4,276 | pacific-garden-mission_thirty-first-annual-report_1908 |
+
+## `padilla_esbozo-de-una-biografia-del-martir-luis-padilla-spa_1929.txt`
+
+1 section(s) to level 2 · ~20,925 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 20,925 | 20,925 | padilla_esbozo-de-una-biografia-del-martir-luis-padilla-spa_1929 |
+
 ## `paez_historia-aethiopiae-liber-3-4-por_beccari1906.txt`
 
 1 section(s) to level 2 · ~255,847 words of text · ~0 words of apparatus
@@ -11712,6 +17120,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 255,847 | 255,847 | paez_historia-aethiopiae-liber-3-4-por_beccari1906 |
+
+## `page_black-bishop-samuel-adjai-crowther_1908.txt`
+
+1 section(s) to level 2 · ~146,392 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 146,392 | 146,392 | page_black-bishop-samuel-adjai-crowther_1908 |
 
 ## `pages_histoire-religion-chretienne-japon-annexes-fra_1870.txt`
 
@@ -11752,6 +17168,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 149,553 | 149,553 | paiva-manso_historia-do-congo-documentos-por_1877 |
+
+## `pakourianos_typikon-in-commentationes-philologae-ienenses-4-grc-lat_mousaios1890.txt`
+
+1 section(s) to level 2 · ~286,742 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 286,742 | 286,742 | pakourianos_typikon-in-commentationes-philologae-ienenses-4-grc-lat_mousaios1890 |
 
 ## `palacky_documenta-mag-joannis-hus-lat-ces_1869.txt`
 
@@ -11857,6 +17281,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 338,208 | 338,208 | pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846 |
 
+## `pallavicino_istoria-del-concilio-di-trento-tomo7-libri13-14-ita_classici-sacri1846.txt`
+
+1 section(s) to level 2 · ~90,182 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 90,182 | 90,182 | pallavicino_istoria-del-concilio-di-trento-tomo7-libri13-14-ita_classici-sacri1846 |
+
+## `pallu_relation-abregee-des-missions-et-des-voyages-des-evesques-francois-fra_1682.txt`
+
+1 section(s) to level 2 · ~19,069 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 19,069 | 19,069 | pallu_relation-abregee-des-missions-et-des-voyages-des-evesques-francois-fra_1682 |
+
+## `palmer_way-of-holiness_1843.txt`
+
+1 section(s) to level 2 · ~51,111 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 51,111 | 51,111 | palmer_way-of-holiness_1843 |
+
 ## `palou_life-and-apostolic-labors-of-junipero-serra_williams1913.txt`
 
 1 section(s) to level 2 · ~155,354 words of text · ~0 words of apparatus
@@ -11873,6 +17321,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 134,065 | 134,065 | palou_relacion-historica-vida-junipero-serra-spa_1787 |
 
+## `pamphilus_apologia-pro-origene-rufinus-lat_lommatzsch1846.txt`
+
+1 section(s) to level 2 · ~114,183 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 114,183 | 114,183 | pamphilus_apologia-pro-origene-rufinus-lat_lommatzsch1846 |
+
+## `panjikaran_syrian-church-in-malabar_1912.txt`
+
+1 section(s) to level 2 · ~21,852 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 21,852 | 21,852 | panjikaran_syrian-church-in-malabar_1912 |
+
+## `papadopoulos-kerameus_analekta-hierosolymitikes-stachyologias-t4-grc_1897.txt`
+
+1 section(s) to level 2 · ~191,117 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 191,117 | 191,117 | papadopoulos-kerameus_analekta-hierosolymitikes-stachyologias-t4-grc_1897 |
+
 ## `paredes_promptuario-manual-mexicano-nci-spa_1759.txt`
 
 1 section(s) to level 2 · ~137,288 words of text · ~0 words of apparatus
@@ -11880,6 +17352,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 137,288 | 137,288 | paredes_promptuario-manual-mexicano-nci-spa_1759 |
+
+## `parker_discourse-of-matters-pertaining-to-religion_3rd-ed1847.txt`
+
+1 section(s) to level 2 · ~143,171 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 143,171 | 143,171 | parker_discourse-of-matters-pertaining-to-religion_3rd-ed1847 |
+
+## `parker_ten-sermons-of-religion_2nd-ed1861.txt`
+
+1 section(s) to level 2 · ~99,706 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 99,706 | 99,706 | parker_ten-sermons-of-religion_2nd-ed1861 |
+
+## `parry_six-months-in-a-syrian-monastery_1895.txt`
+
+1 section(s) to level 2 · ~149,663 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 149,663 | 149,663 | parry_six-months-in-a-syrian-monastery_1895 |
 
 ## `parsons_life-of-saint-colette_1879.txt`
 
@@ -11912,6 +17408,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 153,207 | 153,207 | pascal_thoughts-letters-minor-works_trotter-booth-wight1910 |
+
+## `pascoe_two-hundred-years-of-the-spg-v1_1901.txt`
+
+1 section(s) to level 2 · ~425,228 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 425,228 | 425,228 | pascoe_two-hundred-years-of-the-spg-v1_1901 |
+
+## `pascoe_two-hundred-years-of-the-spg-v2_1901.txt`
+
+1 section(s) to level 2 · ~523,049 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 523,049 | 523,049 | pascoe_two-hundred-years-of-the-spg-v2_1901 |
 
 ## `passiones-vitaeque-sanctorum-merovingici-mgh-srm-3-lat_krusch1896.txt`
 
@@ -11977,6 +17489,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 243,793 | 243,793 | paul-of-aleppo_travels-of-macarius-v2_belfour1836 |
 
+## `paul-samosata_paul-de-samosate-etude-historique-fra-grc_bardy1923.txt`
+
+1 section(s) to level 2 · ~229,901 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 229,901 | 229,901 | paul-samosata_paul-de-samosate-etude-historique-fra-grc_bardy1923 |
+
+## `paul-samosata_paulus-von-samosata-fragmente-tu44-5-deu-grc_loofs1924.txt`
+
+1 section(s) to level 2 · ~139,327 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 139,327 | 139,327 | paul-samosata_paulus-von-samosata-fragmente-tu44-5-deu-grc_loofs1924 |
+
 ## `paul-the-deacon_history-of-the-langobards_foulke1907.txt`
 
 1 section(s) to level 2 · ~147,369 words of text · ~0 words of apparatus
@@ -11984,6 +17512,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 147,369 | 147,369 | paul-the-deacon_history-of-the-langobards_foulke1907 |
+
+## `paulinus-a-s-bartholomaeo_india-orientalis-christiana-lat_1794.txt`
+
+1 section(s) to level 2 · ~69,316 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 69,316 | 69,316 | paulinus-a-s-bartholomaeo_india-orientalis-christiana-lat_1794 |
 
 ## `paulinus-milan_vita-ambrosii_kaniecka1928.txt`
 
@@ -11993,6 +17529,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 68,637 | 68,637 | paulinus-milan_vita-ambrosii_kaniecka1928 |
 
+## `paulus-alvarus_confessio-epistolae-indiculus-luminosus-pl121-lat_migne1852.txt`
+
+1 section(s) to level 2 · ~488,667 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 488,667 | 488,667 | paulus-alvarus_confessio-epistolae-indiculus-luminosus-pl121-lat_migne1852 |
+
 ## `paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt`
 
 1 section(s) to level 2 · ~477,853 words of text · ~0 words of apparatus
@@ -12000,6 +17544,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 477,853 | 477,853 | paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863 |
+
+## `payne_history-of-the-african-methodist-episcopal-church-v1_1891.txt`
+
+1 section(s) to level 2 · ~226,360 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 226,360 | 226,360 | payne_history-of-the-african-methodist-episcopal-church-v1_1891 |
 
 ## `pecock_repressor-v1_babington1860.txt`
 
@@ -12016,6 +17568,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 151,702 | 151,702 | pecock_repressor-v2_babington1860 |
+
+## `peeters_histoires-monastiques-georgiennes-in-analecta-bollandiana-36-37-lat-fra_1917-1919.txt`
+
+1 section(s) to level 2 · ~319,754 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 319,754 | 319,754 | peeters_histoires-monastiques-georgiennes-in-analecta-bollandiana-36-37-lat-fra_1917-1919 |
 
 ## `pelagius_epistula-ad-demetriadem-lat_migne.txt`
 
@@ -12091,19 +17651,19 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `perkins_golden-chaine-and-treatises_legat1600.txt`
 
-1 section(s) to level 2 · ~614,678 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~614,674 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 614,678 | 614,678 | perkins_golden-chaine-and-treatises_legat1600 |
+| `1` | 0 | 614,674 | 614,674 | perkins_golden-chaine-and-treatises_legat1600 |
 
 ## `perpetua-scillitan-martyrs-lat-grc_robinson1891.txt`
 
-1 section(s) to level 2 · ~52,805 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~52,763 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 52,805 | 52,805 | perpetua-scillitan-martyrs-lat-grc_robinson1891 |
+| `1` | 0 | 52,763 | 52,763 | perpetua-scillitan-martyrs-lat-grc_robinson1891 |
 
 ## `perrin_histoire-des-vaudois-fra_1619.txt`
 
@@ -12145,6 +17705,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 133,960 | 133,960 | persian-martyr-acts_auszuge-aus-syrischen-akten-persischer-martyrer-deu_hoffmann1880 |
 
+## `peter-of-sicily_historia-manichaeorum-seu-paulicianorum-grc-lat_gieseler1846.txt`
+
+1 section(s) to level 2 · ~29,854 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 29,854 | 29,854 | peter-of-sicily_historia-manichaeorum-seu-paulicianorum-grc-lat_gieseler1846 |
+
 ## `petersen-jw_leben-deu_1717.txt`
 
 1 section(s) to level 2 · ~65,617 words of text · ~0 words of apparatus
@@ -12152,6 +17720,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 65,617 | 65,617 | petersen-jw_leben-deu_1717 |
+
+## `pharmakidis_oikonomos-ho-ex-oikonomon-ell_1849.txt`
+
+1 section(s) to level 2 · ~64,257 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 64,257 | 64,257 | pharmakidis_oikonomos-ho-ex-oikonomon-ell_1849 |
+
+## `philadelphia-yearly-meeting_declaration-respecting-those-who-have-separated_1828.txt`
+
+1 section(s) to level 2 · ~69,172 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 69,172 | 69,172 | philadelphia-yearly-meeting_declaration-respecting-those-who-have-separated_1828 |
 
 ## `philadelphia-yearly-meeting_rules-of-discipline-and-christian-advices_1797.txt`
 
@@ -12168,6 +17752,62 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 21,784 | 21,784 | philipos_syrian-christians-of-malabar_howard1869 |
+
+## `phillippo_jamaica-its-past-and-present-state_1843.txt`
+
+1 section(s) to level 2 · ~137,817 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 137,817 | 137,817 | phillippo_jamaica-its-past-and-present-state_1843 |
+
+## `phillips_evan-roberts-ai-waith-cym_1912.txt`
+
+1 section(s) to level 2 · ~130,128 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 130,128 | 130,128 | phillips_evan-roberts-ai-waith-cym_1912 |
+
+## `phillpotts_letter-to-miss-sellon_1852.txt`
+
+1 section(s) to level 2 · ~6,922 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 6,922 | 6,922 | phillpotts_letter-to-miss-sellon_1852 |
+
+## `philo_works-v1_yonge1854.txt`
+
+1 section(s) to level 2 · ~236,001 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 236,001 | 236,001 | philo_works-v1_yonge1854 |
+
+## `philo_works-v2_yonge1854.txt`
+
+1 section(s) to level 2 · ~232,466 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 232,466 | 232,466 | philo_works-v2_yonge1854 |
+
+## `philo_works-v3_yonge1854.txt`
+
+1 section(s) to level 2 · ~236,983 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 236,983 | 236,983 | philo_works-v3_yonge1854 |
+
+## `philo_works-v4_yonge1854.txt`
+
+1 section(s) to level 2 · ~212,781 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 212,781 | 212,781 | philo_works-v4_yonge1854 |
 
 ## `philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt`
 
@@ -12217,6 +17857,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 98,895 | 98,895 | photius_library-v1_freese1920 |
 
+## `photius_opera-t2-contra-manichaeos-mystagogia-epistolae-pg102-grc-lat_migne1860.txt`
+
+1 section(s) to level 2 · ~444,361 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 444,361 | 444,361 | photius_opera-t2-contra-manichaeos-mystagogia-epistolae-pg102-grc-lat_migne1860 |
+
 ## `piccolomini_historia-bohemica-lat_1524.txt`
 
 1 section(s) to level 2 · ~40,034 words of text · ~0 words of apparatus
@@ -12227,11 +17875,11 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `piccolomini_historia-bohemica-lat_1592.txt`
 
-1 section(s) to level 2 · ~57,891 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~57,887 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 57,891 | 57,891 | piccolomini_historia-bohemica-lat_1592 |
+| `1` | 0 | 57,887 | 57,887 | piccolomini_historia-bohemica-lat_1592 |
 
 ## `pinkerton_general-collection-voyages-and-travels-v16_1814.txt`
 
@@ -12251,11 +17899,11 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `pius-v_apostolicarum-epistolarum-lat_1640.txt`
 
-1 section(s) to level 2 · ~98,892 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~98,888 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 98,892 | 98,892 | pius-v_apostolicarum-epistolarum-lat_1640 |
+| `1` | 0 | 98,888 | 98,888 | pius-v_apostolicarum-epistolarum-lat_1640 |
 
 ## `pius-vi_auctorem-fidei-lat_1794.txt`
 
@@ -12304,6 +17952,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 319,518 | 319,518 | po09_barhadbeshabba-ecclesiastical-history-part2-and-others-fra_1913 |
+
+## `po18_patrologia-orientalis-t18-yahya-ibn-said-histoire-ara-fra_kratchkovsky-vasiliev1924.txt`
+
+1 section(s) to level 2 · ~330,645 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 330,645 | 330,645 | po18_patrologia-orientalis-t18-yahya-ibn-said-histoire-ara-fra_kratchkovsky-vasiliev1924 |
 
 ## `polanco_chronicon-v1-lat_1894.txt`
 
@@ -12377,6 +18033,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 88,772 | 88,772 | polnoe-sobranie-russkikh-letopisei_t14-1-povest-o-tsare-feodore-i-novyi-letopisets-rus_1910 |
 
+## `pomerius_de-origine-monasterii-viridisvallis-in-analecta-bollandiana-4-lat_1885.txt`
+
+1 section(s) to level 2 · ~148,397 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 148,397 | 148,397 | pomerius_de-origine-monasterii-viridisvallis-in-analecta-bollandiana-4-lat_1885 |
+
+## `porete_marguerite-in-revue-historique-54-fra_langlois1894.txt`
+
+1 section(s) to level 2 · ~226,998 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 226,998 | 226,998 | porete_marguerite-in-revue-historique-54-fra_langlois1894 |
+
 ## `port-royal_divers-actes-lettres-relations-fra_1724.txt`
 
 1 section(s) to level 2 · ~818,814 words of text · ~0 words of apparatus
@@ -12403,11 +18075,11 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `possidius_vita-augustini_weiskotten1919.txt`
 
-1 section(s) to level 2 · ~55,574 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~55,469 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 55,574 | 55,574 | possidius_vita-augustini_weiskotten1919 |
+| `1` | 0 | 55,469 | 55,469 | possidius_vita-augustini_weiskotten1919 |
 
 ## `powell-trevelyan_peasants-rising-and-the-lollards_1899.txt`
 
@@ -12424,6 +18096,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 86,663 | 86,663 | ppts-v2_eucherius-breviary-theodosius-procopius-antoninus_stewart1890-97 |
+
+## `pravoslavie-v-iaponii_pravoslavie-v-iaponii-rus_1889.txt`
+
+1 section(s) to level 2 · ~4,213 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 4,213 | 4,213 | pravoslavie-v-iaponii_pravoslavie-v-iaponii-rus_1889 |
+
+## `premonstratensian-statutes_statuta-renovata-ordinis-praemonstratensis-lat_1626.txt`
+
+1 section(s) to level 2 · ~62,265 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 62,265 | 62,265 | premonstratensian-statutes_statuta-renovata-ordinis-praemonstratensis-lat_1626 |
+
+## `presbyterian-review_v2-no6-april-1881-inspiration.txt`
+
+1 section(s) to level 2 · ~109,142 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 109,142 | 109,142 | presbyterian-review_v2-no6-april-1881-inspiration |
 
 ## `pricke-of-conscience_northumbrian-poem-enm_morris1863.txt`
 
@@ -12456,6 +18152,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 76,143 | 76,143 | priestley_memoirs-to-1795-v1_1806 |
+
+## `priscillian_quae-supersunt-lat_schepss1889-csel18.txt`
+
+1 section(s) to level 2 · ~104,682 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 104,682 | 104,682 | priscillian_quae-supersunt-lat_schepss1889-csel18 |
 
 ## `procopius_buildings_stewart1888.txt`
 
@@ -12531,11 +18235,11 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `prosper_chronica-minora-1-lat_mommsen1892.txt`
 
-1 section(s) to level 2 · ~347,054 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~347,041 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 347,054 | 347,054 | prosper_chronica-minora-1-lat_mommsen1892 |
+| `1` | 0 | 347,041 | 347,041 | prosper_chronica-minora-1-lat_mommsen1892 |
 
 ## `proud-joseph_candid-and-impartial-reply-to-priestley_1791.txt`
 
@@ -12552,6 +18256,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 84,294 | 84,294 | proud-joseph_twenty-sermons-on-the-doctrines-of-the-new-church_1792 |
+
+## `proyart_histoire-de-loango-kakongo-et-autres-royaumes-d-afrique-fra_1776.txt`
+
+1 section(s) to level 2 · ~75,221 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 75,221 | 75,221 | proyart_histoire-de-loango-kakongo-et-autres-royaumes-d-afrique-fra_1776 |
 
 ## `prudentius-troyes_annales-bertiniani_waitz1883.txt`
 
@@ -12577,6 +18289,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 17,943 | 17,943 | przypkowski_life-of-faustus-socinus_bidle1653 |
 
+## `psellos_accusation-de-michel-cerulaire-pt1-in-revue-des-etudes-grecques-16-grc-fra_brehier1903.txt`
+
+1 section(s) to level 2 · ~219,650 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 219,650 | 219,650 | psellos_accusation-de-michel-cerulaire-pt1-in-revue-des-etudes-grecques-16-grc-fra_brehier1903 |
+
+## `psellos_accusation-de-michel-cerulaire-pt2-in-revue-des-etudes-grecques-17-grc-fra_brehier1904.txt`
+
+1 section(s) to level 2 · ~224,051 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 224,051 | 224,051 | psellos_accusation-de-michel-cerulaire-pt2-in-revue-des-etudes-grecques-17-grc-fra_brehier1904 |
+
+## `psellos_chronographia-and-orations-in-mesaionike-bibliotheke-v4-grc_sathas1874.txt`
+
+1 section(s) to level 2 · ~204,190 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 204,190 | 204,190 | psellos_chronographia-and-orations-in-mesaionike-bibliotheke-v4-grc_sathas1874 |
+
 ## `pseudo-justin_epistle-to-diognetus-grc_lake1917.txt`
 
 1 section(s) to level 2 · ~4,142 words of text · ~0 words of apparatus
@@ -12593,6 +18329,238 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 245,430 | 245,430 | purchas_hakluytus-posthumus-pilgrimes-v12_1906 |
 
+## `pusey_do-all-to-the-lord-jesus-sermon_boston1864.txt`
+
+1 section(s) to level 2 · ~6,130 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 6,130 | 6,130 | pusey_do-all-to-the-lord-jesus-sermon_boston1864 |
+
+## `pusey_spiritual-letters_johnston-newbolt1898.txt`
+
+1 section(s) to level 2 · ~97,976 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 97,976 | 97,976 | pusey_spiritual-letters_johnston-newbolt1898 |
+
+## `put_n01-rus_1925.txt`
+
+1 section(s) to level 2 · ~80,031 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 80,031 | 80,031 | put_n01-rus_1925 |
+
+## `put_n02-rus_1926.txt`
+
+1 section(s) to level 2 · ~64,860 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 64,860 | 64,860 | put_n02-rus_1926 |
+
+## `put_n03-rus_1926.txt`
+
+1 section(s) to level 2 · ~63,045 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 63,045 | 63,045 | put_n03-rus_1926 |
+
+## `put_n04-rus_1926.txt`
+
+1 section(s) to level 2 · ~87,739 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 87,739 | 87,739 | put_n04-rus_1926 |
+
+## `put_n05-rus_1926.txt`
+
+1 section(s) to level 2 · ~49,530 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 49,530 | 49,530 | put_n05-rus_1926 |
+
+## `put_n06-rus_1927.txt`
+
+1 section(s) to level 2 · ~58,825 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 58,825 | 58,825 | put_n06-rus_1927 |
+
+## `put_n07-rus_1927.txt`
+
+1 section(s) to level 2 · ~58,911 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 58,911 | 58,911 | put_n07-rus_1927 |
+
+## `put_n08-rus_1927.txt`
+
+1 section(s) to level 2 · ~75,881 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 75,881 | 75,881 | put_n08-rus_1927 |
+
+## `put_n09-rus_1928.txt`
+
+1 section(s) to level 2 · ~43,951 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 43,951 | 43,951 | put_n09-rus_1928 |
+
+## `put_n10-rus_1928.txt`
+
+1 section(s) to level 2 · ~35,061 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 35,061 | 35,061 | put_n10-rus_1928 |
+
+## `put_n11-rus_1928.txt`
+
+1 section(s) to level 2 · ~37,372 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 37,372 | 37,372 | put_n11-rus_1928 |
+
+## `put_n12-rus_1928.txt`
+
+1 section(s) to level 2 · ~35,053 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 35,053 | 35,053 | put_n12-rus_1928 |
+
+## `put_n13-rus_1928.txt`
+
+1 section(s) to level 2 · ~30,760 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 30,760 | 30,760 | put_n13-rus_1928 |
+
+## `put_n14-rus_1928.txt`
+
+1 section(s) to level 2 · ~33,057 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 33,057 | 33,057 | put_n14-rus_1928 |
+
+## `put_n15-rus_1929.txt`
+
+1 section(s) to level 2 · ~37,469 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 37,469 | 37,469 | put_n15-rus_1929 |
+
+## `put_n16-rus_1929.txt`
+
+1 section(s) to level 2 · ~28,618 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 28,618 | 28,618 | put_n16-rus_1929 |
+
+## `put_n17-rus_1929.txt`
+
+1 section(s) to level 2 · ~31,341 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 31,341 | 31,341 | put_n17-rus_1929 |
+
+## `put_n18-rus_1929.txt`
+
+1 section(s) to level 2 · ~34,666 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 34,666 | 34,666 | put_n18-rus_1929 |
+
+## `put_n19-rus_1929.txt`
+
+1 section(s) to level 2 · ~34,839 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 34,839 | 34,839 | put_n19-rus_1929 |
+
+## `put_n20-rus_1930.txt`
+
+1 section(s) to level 2 · ~34,369 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 34,369 | 34,369 | put_n20-rus_1930 |
+
+## `put_n21-rus_1930.txt`
+
+1 section(s) to level 2 · ~40,567 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 40,567 | 40,567 | put_n21-rus_1930 |
+
+## `put_n22-rus_1930.txt`
+
+1 section(s) to level 2 · ~40,860 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 40,860 | 40,860 | put_n22-rus_1930 |
+
+## `put_n23-rus_1930.txt`
+
+1 section(s) to level 2 · ~36,558 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 36,558 | 36,558 | put_n23-rus_1930 |
+
+## `put_n24-rus_1930.txt`
+
+1 section(s) to level 2 · ~34,435 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 34,435 | 34,435 | put_n24-rus_1930 |
+
+## `put_n25-rus_1930.txt`
+
+1 section(s) to level 2 · ~36,349 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 36,349 | 36,349 | put_n25-rus_1930 |
+
+## `qalqashandi_geographie-und-verwaltung-von-aegypten-deu_wuestenfeld1879.txt`
+
+1 section(s) to level 2 · ~78,329 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 78,329 | 78,329 | qalqashandi_geographie-und-verwaltung-von-aegypten-deu_wuestenfeld1879 |
+
+## `qalqashandi_la-syrie-a-l-epoque-des-mamelouks-fra_gaudefroy-demombynes1923.txt`
+
+1 section(s) to level 2 · ~203,637 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 203,637 | 203,637 | qalqashandi_la-syrie-a-l-epoque-des-mamelouks-fra_gaudefroy-demombynes1923 |
+
 ## `quatremere_memoires-geographiques-et-historiques-sur-l-egypte-tome2-fra_quatremere1811.txt`
 
 1 section(s) to level 2 · ~131,404 words of text · ~0 words of apparatus
@@ -12600,6 +18568,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 131,404 | 131,404 | quatremere_memoires-geographiques-et-historiques-sur-l-egypte-tome2-fra_quatremere1811 |
+
+## `quebec-bishops_mandements-lettres-pastorales-et-circulaires-v1-fra_tetu-gagnon1887.txt`
+
+1 section(s) to level 2 · ~202,463 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 202,463 | 202,463 | quebec-bishops_mandements-lettres-pastorales-et-circulaires-v1-fra_tetu-gagnon1887 |
+
+## `quesnel_nouveau-testament-avec-des-reflexions-morales-t1-fra_1693.txt`
+
+1 section(s) to level 2 · ~267,764 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 267,764 | 267,764 | quesnel_nouveau-testament-avec-des-reflexions-morales-t1-fra_1693 |
 
 ## `quick_synodicon-in-gallia-reformata_1692.txt`
 
@@ -12624,6 +18608,46 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 34,288 | 34,288 | rabaut-saint-etienne_vieux-cevenol-fra_1784 |
+
+## `rabinowitz_documente-der-national-judischen-christglaubigen-bewegung-deu-heb_delitzsch1884-bodleian.txt`
+
+1 section(s) to level 2 · ~18,043 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 18,043 | 18,043 | rabinowitz_documente-der-national-judischen-christglaubigen-bewegung-deu-heb_delitzsch1884-bodleian |
+
+## `rabinowitz_documente-der-national-judischen-christglaubigen-bewegung-deu-heb_delitzsch1884-harvard.txt`
+
+1 section(s) to level 2 · ~18,205 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 18,205 | 18,205 | rabinowitz_documente-der-national-judischen-christglaubigen-bewegung-deu-heb_delitzsch1884-harvard |
+
+## `rabinowitz_fortgesetzte-documente-der-national-judischen-christglaubigen-bewegung-deu_delitzsch1885.txt`
+
+1 section(s) to level 2 · ~10,338 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 10,338 | 10,338 | rabinowitz_fortgesetzte-documente-der-national-judischen-christglaubigen-bewegung-deu_delitzsch1885 |
+
+## `rabinowitz_neue-documente-selbstbiographie-und-predigten-deu_delitzsch1887.txt`
+
+1 section(s) to level 2 · ~17,231 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 17,231 | 17,231 | rabinowitz_neue-documente-selbstbiographie-und-predigten-deu_delitzsch1887 |
+
+## `rabinowitz_zwei-predigten-in-dem-gotteshause-bethlehem-in-kischinew-deu_delitzsch1885.txt`
+
+1 section(s) to level 2 · ~8,975 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 8,975 | 8,975 | rabinowitz_zwei-predigten-in-dem-gotteshause-bethlehem-in-kischinew-deu_delitzsch1885 |
 
 ## `racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt`
 
@@ -12651,11 +18675,11 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `racovian-catechism_catechesis-ecclesiarum-lat_moskorzewski1609.txt`
 
-1 section(s) to level 2 · ~39,553 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~39,549 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 39,553 | 39,553 | racovian-catechism_catechesis-ecclesiarum-lat_moskorzewski1609 |
+| `1` | 0 | 39,549 | 39,549 | racovian-catechism_catechesis-ecclesiarum-lat_moskorzewski1609 |
 
 ## `racovian-catechism_racovian-catechism_rees1818.txt`
 
@@ -12665,6 +18689,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 162,264 | 162,264 | racovian-catechism_racovian-catechism_rees1818 |
 
+## `ramabai_high-caste-hindu-woman_1888.txt`
+
+1 section(s) to level 2 · ~30,254 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 30,254 | 30,254 | ramabai_high-caste-hindu-woman_1888 |
+
+## `rance_de-la-saintete-et-des-devoirs-de-la-vie-monastique-t1-fra_1683.txt`
+
+1 section(s) to level 2 · ~128,149 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 128,149 | 128,149 | rance_de-la-saintete-et-des-devoirs-de-la-vie-monastique-t1-fra_1683 |
+
+## `rance_de-la-saintete-et-des-devoirs-de-la-vie-monastique-t2-fra_1683.txt`
+
+1 section(s) to level 2 · ~146,011 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 146,011 | 146,011 | rance_de-la-saintete-et-des-devoirs-de-la-vie-monastique-t2-fra_1683 |
+
 ## `raulin_historia-ecclesiae-malabaricae-cum-diamperitana-synodo-lat_1745.txt`
 
 1 section(s) to level 2 · ~237,823 words of text · ~0 words of apparatus
@@ -12672,6 +18720,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 237,823 | 237,823 | raulin_historia-ecclesiae-malabaricae-cum-diamperitana-synodo-lat_1745 |
+
+## `rauschenbusch_christianity-and-the-social-crisis_1911.txt`
+
+1 section(s) to level 2 · ~137,084 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 137,084 | 137,084 | rauschenbusch_christianity-and-the-social-crisis_1911 |
+
+## `rauschenbusch_christianizing-the-social-order_1919.txt`
+
+1 section(s) to level 2 · ~169,187 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 169,187 | 169,187 | rauschenbusch_christianizing-the-social-order_1919 |
+
+## `rauschenbusch_theology-for-the-social-gospel_1917.txt`
+
+1 section(s) to level 2 · ~80,495 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 80,495 | 80,495 | rauschenbusch_theology-for-the-social-gospel_1917 |
 
 ## `raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt`
 
@@ -12697,6 +18769,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 67,145 | 67,145 | reformed-dutch-church_constitution-catechism-confession-canons-liturgy_1840 |
 
+## `regino-pruem_libri-duo-de-synodalibus-causis-lat_wasserschleben1840.txt`
+
+1 section(s) to level 2 · ~162,308 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 162,308 | 162,308 | regino-pruem_libri-duo-de-synodalibus-causis-lat_wasserschleben1840 |
+
 ## `regula-magistri-cresconius-pl88-lat_migne1862.txt`
 
 1 section(s) to level 2 · ~564,737 words of text · ~0 words of apparatus
@@ -12704,6 +18784,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 564,737 | 564,737 | regula-magistri-cresconius-pl88-lat_migne1862 |
+
+## `regularis-concordia_de-consuetudine-monachorum-in-anglia-13-lat-ang_logeman1891.txt`
+
+1 section(s) to level 2 · ~213,962 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 213,962 | 213,962 | regularis-concordia_de-consuetudine-monachorum-in-anglia-13-lat-ang_logeman1891 |
 
 ## `reitz_historie-der-wiedergebohrnen-t2-deu_1717.txt`
 
@@ -12745,6 +18833,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 47,288 | 47,288 | remonstrants_secunda-remonstrantia-cum-contra-remonstrantia-lat_orlers1617 |
 
+## `renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt`
+
+1 section(s) to level 2 · ~249,683 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 249,683 | 249,683 | renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713 |
+
+## `reu_augsburg-confession-collection-of-sources_1930.txt`
+
+1 section(s) to level 2 · ~315,972 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 315,972 | 315,972 | reu_augsburg-confession-collection-of-sources_1930 |
+
 ## `reusch_indices-librorum-prohibitorum-sechzehnten-jahrhunderts-deu-lat_1886.txt`
 
 1 section(s) to level 2 · ~140,839 words of text · ~0 words of apparatus
@@ -12752,6 +18856,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 140,839 | 140,839 | reusch_indices-librorum-prohibitorum-sechzehnten-jahrhunderts-deu-lat_1886 |
+
+## `reyes_la-sensacional-memoria-spa_1899.txt`
+
+1 section(s) to level 2 · ~45,709 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 45,709 | 45,709 | reyes_la-sensacional-memoria-spa_1899 |
 
 ## `rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt`
 
@@ -12769,13 +18881,69 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 832,161 | 832,161 | rhc-armeniens_documents-armeniens-t2-latins-et-francais-fra_academie1906 |
 
-## `ribadeneira_vita-ignatii-loiolae-lat_1572.txt`
+## `rhc-historiens-occidentaux_t3-fulcher-robert-raymond-gesta-francorum-lat_academie1866.txt`
 
-1 section(s) to level 2 · ~71,337 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~648,554 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 71,337 | 71,337 | ribadeneira_vita-ignatii-loiolae-lat_1572 |
+| `1` | 0 | 648,554 | 648,554 | rhc-historiens-occidentaux_t3-fulcher-robert-raymond-gesta-francorum-lat_academie1866 |
+
+## `rhc-historiens-occidentaux_t4-baldric-guibert-albert-lat_academie1879.txt`
+
+1 section(s) to level 2 · ~498,870 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 498,870 | 498,870 | rhc-historiens-occidentaux_t4-baldric-guibert-albert-lat_academie1879 |
+
+## `rhc-historiens-orientaux_t1-fra_academie1872.txt`
+
+1 section(s) to level 2 · ~560,441 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 560,441 | 560,441 | rhc-historiens-orientaux_t1-fra_academie1872 |
+
+## `rhc-historiens-orientaux_t2-pt1-fra_academie1887.txt`
+
+1 section(s) to level 2 · ~304,278 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 304,278 | 304,278 | rhc-historiens-orientaux_t2-pt1-fra_academie1887 |
+
+## `rhodes_cathechismus-in-octo-dies-divisus-lat-vie_1651.txt`
+
+1 section(s) to level 2 · ~117,569 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 117,569 | 117,569 | rhodes_cathechismus-in-octo-dies-divisus-lat-vie_1651 |
+
+## `rhodes_divers-voyages-de-la-chine-et-autres-royaumes-de-l-orient-fra_1682.txt`
+
+1 section(s) to level 2 · ~87,703 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 87,703 | 87,703 | rhodes_divers-voyages-de-la-chine-et-autres-royaumes-de-l-orient-fra_1682 |
+
+## `rhodes_tunchinensis-historiae-libri-duo-lat_1652.txt`
+
+1 section(s) to level 2 · ~61,784 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 61,784 | 61,784 | rhodes_tunchinensis-historiae-libri-duo-lat_1652 |
+
+## `ribadeneira_vita-ignatii-loiolae-lat_1572.txt`
+
+1 section(s) to level 2 · ~71,353 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 71,353 | 71,353 | ribadeneira_vita-ignatii-loiolae-lat_1572 |
 
 ## `ribbeck_donatus-und-augustinus-erste-haelfte-deu_1857.txt`
 
@@ -12784,6 +18952,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 227,132 | 227,132 | ribbeck_donatus-und-augustinus-erste-haelfte-deu_1857 |
+
+## `richard-san-germano_chronica-in-usum-scholarum-lat_pertz1864.txt`
+
+1 section(s) to level 2 · ~42,964 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 42,964 | 42,964 | richard-san-germano_chronica-in-usum-scholarum-lat_pertz1864 |
+
+## `richardson_memoirs-of-alexander-campbell-v1_1868.txt`
+
+1 section(s) to level 2 · ~189,242 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 189,242 | 189,242 | richardson_memoirs-of-alexander-campbell-v1_1868 |
+
+## `richardson_memoirs-of-alexander-campbell-v2_1870.txt`
+
+1 section(s) to level 2 · ~221,847 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 221,847 | 221,847 | richardson_memoirs-of-alexander-campbell-v2_1870 |
 
 ## `richental_chronik-des-constanzer-concils-gmh_buck1882.txt`
 
@@ -12803,11 +18995,19 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `riedemann_rechenschaft-deu_berne1902.txt`
 
-1 section(s) to level 2 · ~74,761 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~74,757 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 74,761 | 74,761 | riedemann_rechenschaft-deu_berne1902 |
+| `1` | 0 | 74,757 | 74,757 | riedemann_rechenschaft-deu_berne1902 |
+
+## `riley_christ-the-incomparable_1924.txt`
+
+1 section(s) to level 2 · ~54,789 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 54,789 | 54,789 | riley_christ-the-incomparable_1924 |
 
 ## `rilliet_calvin-and-servetus_tweedie1846.txt`
 
@@ -12816,6 +19016,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 73,075 | 73,075 | rilliet_calvin-and-servetus_tweedie1846 |
+
+## `rimbert_anskar-the-apostle-of-the-north_robinson1921.txt`
+
+1 section(s) to level 2 · ~42,371 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 42,371 | 42,371 | rimbert_anskar-the-apostle-of-the-north_robinson1921 |
+
+## `rimbert_vita-anskarii-accedit-vita-rimberti-lat_waitz1884.txt`
+
+1 section(s) to level 2 · ~40,238 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 40,238 | 40,238 | rimbert_vita-anskarii-accedit-vita-rimberti-lat_waitz1884 |
 
 ## `rimius_candid-narrative-of-the-herrnhuters_1753.txt`
 
@@ -12841,6 +19057,70 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 285,284 | 285,284 | rituale-armenorum-lectionary_conybeare1905 |
 
+## `robert-molesme_vita-et-epistolae-in-pl157-lat_migne1899.txt`
+
+1 section(s) to level 2 · ~567,442 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 567,442 | 567,442 | robert-molesme_vita-et-epistolae-in-pl157-lat_migne1899 |
+
+## `roberts-bradlaugh_is-the-bible-divine-six-nights-discussion_1876.txt`
+
+1 section(s) to level 2 · ~139,105 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 139,105 | 139,105 | roberts-bradlaugh_is-the-bible-divine-six-nights-discussion_1876 |
+
+## `roberts-robert_christendom-astray_1883.txt`
+
+1 section(s) to level 2 · ~214,998 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 214,998 | 214,998 | roberts-robert_christendom-astray_1883 |
+
+## `roberts-robert_the-trial_1908.txt`
+
+1 section(s) to level 2 · ~134,565 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 134,565 | 134,565 | roberts-robert_the-trial_1908 |
+
+## `roberts-robert_ways-of-providence_1881.txt`
+
+1 section(s) to level 2 · ~102,892 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 102,892 | 102,892 | roberts-robert_ways-of-providence_1881 |
+
+## `roberts-william_memoirs-of-hannah-more-v1_3rd-ed1835.txt`
+
+1 section(s) to level 2 · ~137,940 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 137,940 | 137,940 | roberts-william_memoirs-of-hannah-more-v1_3rd-ed1835 |
+
+## `roehrich_mittheilungen-geschichte-evangelischen-kirche-des-elsasses-bd-3-deu_1855.txt`
+
+1 section(s) to level 2 · ~121,858 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 121,858 | 121,858 | roehrich_mittheilungen-geschichte-evangelischen-kirche-des-elsasses-bd-3-deu_1855 |
+
+## `roger-wendover_flores-historiarum-v2-rolls-series-84-lat_hewlett1887.txt`
+
+1 section(s) to level 2 · ~124,047 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 124,047 | 124,047 | roger-wendover_flores-historiarum-v2-rolls-series-84-lat_hewlett1887 |
+
 ## `rogers-hester-ann_short-account-of-the-experience_1811.txt`
 
 1 section(s) to level 2 · ~83,372 words of text · ~0 words of apparatus
@@ -12859,11 +19139,11 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `rogers-richard_seven-treatises_1610.txt`
 
-1 section(s) to level 2 · ~434,268 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~434,264 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 434,268 | 434,268 | rogers-richard_seven-treatises_1610 |
+| `1` | 0 | 434,264 | 434,264 | rogers-richard_seven-treatises_1610 |
 
 ## `rolle_fire-of-love-and-mending-of-life-enm_harvey1896.txt`
 
@@ -12889,6 +19169,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 33,995 | 33,995 | rolle_form-of-perfect-living-and-other-prose-treatises_hodgson1910 |
 
+## `rolle_psalter-or-psalms-of-david-and-certain-canticles-enm-lat_bramley1884.txt`
+
+1 section(s) to level 2 · ~276,513 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 276,513 | 276,513 | rolle_psalter-or-psalms-of-david-and-certain-canticles-enm-lat_bramley1884 |
+
 ## `rolle_yorkshire-writers-enm_horstman1895.txt`
 
 1 section(s) to level 2 · ~334,863 words of text · ~0 words of apparatus
@@ -12912,6 +19200,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 191,192 | 191,192 | roman-missal_england1843 |
+
+## `romanian-orthodox-church_legea-si-statutul-pentru-organizarea-ron_1925.txt`
+
+1 section(s) to level 2 · ~21,077 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 21,077 | 21,077 | romanian-orthodox-church_legea-si-statutul-pentru-organizarea-ron_1925 |
 
 ## `romanos-melodist_cantica-grc_pitra1888.txt`
 
@@ -12952,6 +19248,38 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 79,688 | 79,688 | rundall_memorials-of-the-empire-of-japon_1850 |
+
+## `rush_short-account-rise-and-progress-african-me-church_1843.txt`
+
+1 section(s) to level 2 · ~24,961 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 24,961 | 24,961 | rush_short-account-rise-and-progress-african-me-church_1843 |
+
+## `russell_millennial-dawn-v1-plan-of-the-ages_1886.txt`
+
+1 section(s) to level 2 · ~105,194 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 105,194 | 105,194 | russell_millennial-dawn-v1-plan-of-the-ages_1886 |
+
+## `russian-primary-chronicle_cross1930.txt`
+
+1 section(s) to level 2 · ~142,163 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 142,163 | 142,163 | russian-primary-chronicle_cross1930 |
+
+## `russian-primary-chronicle_psrl-t1-lavrentevskaia-letopis-orv_1926.txt`
+
+1 section(s) to level 2 · ~214,189 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 214,189 | 214,189 | russian-primary-chronicle_psrl-t1-lavrentevskaia-letopis-orv_1926 |
 
 ## `russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878.txt`
 
@@ -13008,6 +19336,46 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 45,675 | 45,675 | sagnier_tour-de-constance-et-ses-prisonnieres-fra_1880 |
+
+## `sahagun_historia-de-la-conquista-de-mexico-libro-12-spa_bustamante1829.txt`
+
+1 section(s) to level 2 · ~28,138 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 28,138 | 28,138 | sahagun_historia-de-la-conquista-de-mexico-libro-12-spa_bustamante1829 |
+
+## `sahagun_historia-general-de-las-cosas-de-nueva-espana-t1-spa_bustamante1829.txt`
+
+1 section(s) to level 2 · ~138,238 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 138,238 | 138,238 | sahagun_historia-general-de-las-cosas-de-nueva-espana-t1-spa_bustamante1829 |
+
+## `sahagun_historia-general-de-las-cosas-de-nueva-espana-t2-spa_bustamante1829.txt`
+
+1 section(s) to level 2 · ~157,284 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 157,284 | 157,284 | sahagun_historia-general-de-las-cosas-de-nueva-espana-t2-spa_bustamante1829 |
+
+## `sahagun_historia-general-de-las-cosas-de-nueva-espana-t3-spa_bustamante1830.txt`
+
+1 section(s) to level 2 · ~110,065 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 110,065 | 110,065 | sahagun_historia-general-de-las-cosas-de-nueva-espana-t3-spa_bustamante1830 |
+
+## `salimbene_from-st-francis-to-dante_coulton1907.txt`
+
+1 section(s) to level 2 · ~214,771 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 214,771 | 214,771 | salimbene_from-st-francis-to-dante_coulton1907 |
 
 ## `salmeron_epistolae-v2-lat_1906.txt`
 
@@ -13097,6 +19465,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 27,336 | 27,336 | schaff_second-helvetic-confession-heidelberg-catechism_1919 |
 
+## `schanz-hosius-krueger_geschichte-der-roemischen-litteratur-teil3-deu_3e-aufl1922.txt`
+
+1 section(s) to level 2 · ~272,132 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 272,132 | 272,132 | schanz-hosius-krueger_geschichte-der-roemischen-litteratur-teil3-deu_3e-aufl1922 |
+
+## `scheffler_das-bulgarische-exarchat-und-der-mazedonische-kirchenstreit-deu_1909.txt`
+
+1 section(s) to level 2 · ~14,064 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 14,064 | 14,064 | scheffler_das-bulgarische-exarchat-und-der-mazedonische-kirchenstreit-deu_1909 |
+
 ## `scher_notice-manuscrits-syriaques-patriarcat-chaldeen-mossoul-fra_1907.txt`
 
 1 section(s) to level 2 · ~12,098 words of text · ~0 words of apparatus
@@ -13105,6 +19489,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 12,098 | 12,098 | scher_notice-manuscrits-syriaques-patriarcat-chaldeen-mossoul-fra_1907 |
 
+## `schirrmacher_briefe-und-acten-marburg-1529-augsburg-1530-lat-deu_1876.txt`
+
+1 section(s) to level 2 · ~180,866 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 180,866 | 180,866 | schirrmacher_briefe-und-acten-marburg-1529-augsburg-1530-lat-deu_1876 |
+
 ## `scholz_unbekannte-kirchenpolitische-streitschriften-v2-lat_1914.txt`
 
 1 section(s) to level 2 · ~256,007 words of text · ~0 words of apparatus
@@ -13112,6 +19504,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 256,007 | 256,007 | scholz_unbekannte-kirchenpolitische-streitschriften-v2-lat_1914 |
+
+## `schon-crowther_journals-of-the-niger-expedition-of-1841_1842.txt`
+
+1 section(s) to level 2 · ~98,661 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 98,661 | 98,661 | schon-crowther_journals-of-the-niger-expedition-of-1841_1842 |
 
 ## `school-of-nisibis_statuti-della-scuola-di-nisibi-syr-ita_guidi1890.txt`
 
@@ -13155,11 +19555,11 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `schwenckfeld_ander-verantwortung-auff-melanchthon-deu_1556.txt`
 
-1 section(s) to level 2 · ~4,959 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~4,955 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 4,959 | 4,959 | schwenckfeld_ander-verantwortung-auff-melanchthon-deu_1556 |
+| `1` | 0 | 4,955 | 4,955 | schwenckfeld_ander-verantwortung-auff-melanchthon-deu_1556 |
 
 ## `schwenckfeld_auslegung-ersten-capitels-zacharias-deu_1547.txt`
 
@@ -13201,6 +19601,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 45,272 | 45,272 | schwenckfeld_heavenly-balm-divine-physician_anspach1858 |
 
+## `scofield_scofield-reference-bible-new-and-improved-edition_1917.txt`
+
+1 section(s) to level 2 · ~1,095,529 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 1,095,529 | 1,095,529 | scofield_scofield-reference-bible-new-and-improved-edition_1917 |
+
+## `scopes-trial_worlds-most-famous-court-trial-tennessee-evolution-case-3e_1925.txt`
+
+1 section(s) to level 2 · ~217,926 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 217,926 | 217,926 | scopes-trial_worlds-most-famous-court-trial-tennessee-evolution-case-3e_1925 |
+
 ## `sebastiani_prima-speditione-indie-orientali-ita_1666.txt`
 
 1 section(s) to level 2 · ~102,707 words of text · ~0 words of apparatus
@@ -13232,6 +19648,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 70,138 | 70,138 | secker_eight-charges-to-the-clergy_porteus-stinton1790 |
+
+## `seipt_schwenkfelder-hymnology_1909.txt`
+
+1 section(s) to level 2 · ~32,682 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 32,682 | 32,682 | seipt_schwenkfelder-hymnology_1909 |
 
 ## `serpos_compendio-storico-nazione-armena-t1-ita_1786.txt`
 
@@ -13275,11 +19699,11 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `servetus_de-trinitatis-erroribus-lat_1531.txt`
 
-1 section(s) to level 2 · ~71,653 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~71,649 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 71,653 | 71,653 | servetus_de-trinitatis-erroribus-lat_1531 |
+| `1` | 0 | 71,649 | 71,649 | servetus_de-trinitatis-erroribus-lat_1531 |
 
 ## `seth_history-of-the-armenians-in-india_1897.txt`
 
@@ -13345,6 +19769,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 105,078 | 105,078 | shakers_testimonies-of-mother-ann-lee-and-the-elders_bishop-wells1888 |
 
+## `sheldon_in-his-steps_1897.txt`
+
+1 section(s) to level 2 · ~85,101 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 85,101 | 85,101 | sheldon_in-his-steps_1897 |
+
 ## `shepard_autobiography_adams1832.txt`
 
 1 section(s) to level 2 · ~31,000 words of text · ~0 words of apparatus
@@ -13352,6 +19784,38 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 31,000 | 31,000 | shepard_autobiography_adams1832 |
+
+## `sheptytsky_kanadiiskym-rusynam-ukr_1911.txt`
+
+1 section(s) to level 2 · ~20,570 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 20,570 | 20,570 | sheptytsky_kanadiiskym-rusynam-ukr_1911 |
+
+## `sheptytsky_o-pokaianiiu-lyst-pastyrskii-ukr_1901.txt`
+
+1 section(s) to level 2 · ~11,905 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 11,905 | 11,905 | sheptytsky_o-pokaianiiu-lyst-pastyrskii-ukr_1901 |
+
+## `shidiak-memoir_memoir-of-asaad-esh-shidiak_1834.txt`
+
+1 section(s) to level 2 · ~22,599 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 22,599 | 22,599 | shidiak-memoir_memoir-of-asaad-esh-shidiak_1834 |
+
+## `shortland_persecutions-of-annam_1875.txt`
+
+1 section(s) to level 2 · ~125,414 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 125,414 | 125,414 | shortland_persecutions-of-annam_1875 |
 
 ## `sibbes_complete-works-v1_grosart1862.txt`
 
@@ -13385,6 +19849,38 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 212,260 | 212,260 | slavata_pameti-1608-1619-dil1-ces_jirecek1866 |
 
+## `smith-amanda_autobiography-story-of-the-lords-dealings_1893.txt`
+
+1 section(s) to level 2 · ~215,130 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 215,130 | 215,130 | smith-amanda_autobiography-story-of-the-lords-dealings_1893 |
+
+## `smith-emma_collection-of-sacred-hymns_kirtland1835.txt`
+
+1 section(s) to level 2 · ~21,001 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 21,001 | 21,001 | smith-emma_collection-of-sacred-hymns_kirtland1835 |
+
+## `smith-hannah-whitall_christians-secret-of-a-happy-life_rev-ed1888.txt`
+
+1 section(s) to level 2 · ~65,942 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 65,942 | 65,942 | smith-hannah-whitall_christians-secret-of-a-happy-life_rev-ed1888 |
+
+## `smith-hannah-whitall_unselfishness-of-god_1903.txt`
+
+1 section(s) to level 2 · ~81,524 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 81,524 | 81,524 | smith-hannah-whitall_unselfishness-of-god_1903 |
+
 ## `smith-james_shakerism-detected_1810.txt`
 
 1 section(s) to level 2 · ~13,325 words of text · ~0 words of apparatus
@@ -13393,13 +19889,29 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 13,325 | 13,325 | smith-james_shakerism-detected_1810 |
 
-## `smith-richard_life-of-lady-magdalen-montague_cf1627.txt`
+## `smith-joseph_history-of-the-church-v1_roberts1902.txt`
 
-1 section(s) to level 2 · ~19,529 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~267,230 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 19,529 | 19,529 | smith-richard_life-of-lady-magdalen-montague_cf1627 |
+| `1` | 0 | 267,230 | 267,230 | smith-joseph_history-of-the-church-v1_roberts1902 |
+
+## `smith-lucy_biographical-sketches-of-joseph-smith_1853.txt`
+
+1 section(s) to level 2 · ~104,862 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 104,862 | 104,862 | smith-lucy_biographical-sketches-of-joseph-smith_1853 |
+
+## `smith-richard_life-of-lady-magdalen-montague_cf1627.txt`
+
+1 section(s) to level 2 · ~19,525 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 19,525 | 19,525 | smith-richard_life-of-lady-magdalen-montague_cf1627 |
 
 ## `smith-thomas_account-of-the-greek-church_1680.txt`
 
@@ -13425,6 +19937,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 46,674 | 46,674 | smith-thomas_de-graecae-ecclesiae-hodierno-statu-lat_halma1698 |
 
+## `smith_christian-mission-in-africa-le-zoute-1926_1926.txt`
+
+1 section(s) to level 2 · ~82,415 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 82,415 | 82,415 | smith_christian-mission-in-africa-le-zoute-1926_1926 |
+
 ## `smotrycki_apologia-peregrinatiey-pol_1628.txt`
 
 1 section(s) to level 2 · ~58,049 words of text · ~0 words of apparatus
@@ -13448,6 +19968,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 170,977 | 170,977 | smyth_works-v2_whitley1915 |
+
+## `snow_biography-and-family-record-of-lorenzo-snow_1884.txt`
+
+1 section(s) to level 2 · ~206,977 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 206,977 | 206,977 | snow_biography-and-family-record-of-lorenzo-snow_1884 |
+
+## `snow_poems-religious-historical-and-political-v1_1856.txt`
+
+1 section(s) to level 2 · ~42,658 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 42,658 | 42,658 | snow_poems-religious-historical-and-political-v1_1856 |
 
 ## `society-of-jesus_institutum-societatis-iesu-v1-lat_1892.txt`
 
@@ -13521,6 +20057,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 122,780 | 122,780 | socrates_historia-ecclesiastica-tomus2-grc-lat_hussey1853 |
 
+## `soli-muratori_vita-del-proposto-lodovico-antonio-muratori-ita_napoli1758.txt`
+
+1 section(s) to level 2 · ~170,895 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 170,895 | 170,895 | soli-muratori_vita-del-proposto-lodovico-antonio-muratori-ita_napoli1758 |
+
 ## `somerset-parishes_churchwardens-accounts-1349-1560-enm_hobhouse1890.txt`
 
 1 section(s) to level 2 · ~114,559 words of text · ~0 words of apparatus
@@ -13569,6 +20113,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 57,209 | 57,209 | speculum-perfectionis_mirror-of-perfection_evans1899 |
 
+## `speculum-perfectionis_speculum-perfectionis-lat_sabatier1898.txt`
+
+1 section(s) to level 2 · ~203,933 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 203,933 | 203,933 | speculum-perfectionis_speculum-perfectionis-lat_sabatier1898 |
+
 ## `spener_geistliches-priesterthum-deu_steinkopf1851.txt`
 
 1 section(s) to level 2 · ~6,718 words of text · ~0 words of apparatus
@@ -13601,6 +20153,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 228,963 | 228,963 | sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838 |
 
+## `spinka_church-and-the-russian-revolution_1927.txt`
+
+1 section(s) to level 2 · ~95,632 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 95,632 | 95,632 | spinka_church-and-the-russian-revolution_1927 |
+
+## `spirit-of-missions_v39-1874-12-haiti-triennial-report_1874.txt`
+
+1 section(s) to level 2 · ~41,684 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 41,684 | 41,684 | spirit-of-missions_v39-1874-12-haiti-triennial-report_1874 |
+
 ## `spiritual-regulation_dukhovnyi-reglament-rus_sinodalnaia-tipografiia1856.txt`
 
 1 section(s) to level 2 · ~35,976 words of text · ~0 words of apparatus
@@ -13624,6 +20192,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 144,467 | 144,467 | spottiswood_history-of-the-church-of-scotland-v3-1596-1625_russell-napier1850 |
+
+## `spurgeon_autobiography-v1-1834-1854_1897.txt`
+
+1 section(s) to level 2 · ~176,136 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 176,136 | 176,136 | spurgeon_autobiography-v1-1834-1854_1897 |
+
+## `spurgeon_metropolitan-tabernacle-pulpit-v16-1870_1871.txt`
+
+1 section(s) to level 2 · ~445,961 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 445,961 | 445,961 | spurgeon_metropolitan-tabernacle-pulpit-v16-1870_1871 |
 
 ## `st-andrews-kirk-session_register-pt1-1559-1582_hay-fleming1889.txt`
 
@@ -13657,6 +20241,62 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 87,808 | 87,808 | stagel_leben-der-schwestern-zu-toess-gmh_vetter1906 |
 
+## `stead_welsh-revival-narrative-of-facts_boston1905.txt`
+
+1 section(s) to level 2 · ~27,392 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 27,392 | 27,392 | stead_welsh-revival-narrative-of-facts_boston1905 |
+
+## `stepanos-taron_armenische-geschichte-deu_gelzer-burckhardt1907.txt`
+
+1 section(s) to level 2 · ~79,853 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 79,853 | 79,853 | stepanos-taron_armenische-geschichte-deu_gelzer-burckhardt1907 |
+
+## `stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt`
+
+1 section(s) to level 2 · ~95,380 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 95,380 | 95,380 | stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917 |
+
+## `stephen-bourbon_anecdotes-historiques-lat_lecoy-de-la-marche1877.txt`
+
+1 section(s) to level 2 · ~134,773 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 134,773 | 134,773 | stephen-bourbon_anecdotes-historiques-lat_lecoy-de-la-marche1877 |
+
+## `stephen-harding_charta-caritatis-and-exordium-in-pl166-lat_migne1894.txt`
+
+1 section(s) to level 2 · ~633,804 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 633,804 | 633,804 | stephen-harding_charta-caritatis-and-exordium-in-pl166-lat_migne1894 |
+
+## `stern_captive-missionary_1868.txt`
+
+1 section(s) to level 2 · ~97,880 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 97,880 | 97,880 | stern_captive-missionary_1868 |
+
+## `stock_story-of-uganda-and-the-victoria-nyanza-mission_1892.txt`
+
+1 section(s) to level 2 · ~64,086 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 64,086 | 64,086 | stock_story-of-uganda-and-the-victoria-nyanza-mission_1892 |
+
 ## `stoglav_stoglav-chu_kozhanchikov1863.txt`
 
 1 section(s) to level 2 · ~62,226 words of text · ~0 words of apparatus
@@ -13689,6 +20329,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 161,226 | 161,226 | stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887 |
 
+## `stone_biography-of-elder-barton-warren-stone_rogers1847.txt`
+
+1 section(s) to level 2 · ~146,772 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 146,772 | 146,772 | stone_biography-of-elder-barton-warren-stone_rogers1847 |
+
+## `story-of-the-welsh-revival_told-by-eyewitnesses_3rd-ed1905.txt`
+
+1 section(s) to level 2 · ~31,029 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 31,029 | 31,029 | story-of-the-welsh-revival_told-by-eyewitnesses_3rd-ed1905 |
+
+## `story_memoir-of-the-life-of-the-rev-robert-story_1862.txt`
+
+1 section(s) to level 2 · ~136,649 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 136,649 | 136,649 | story_memoir-of-the-life-of-the-rev-robert-story_1862 |
+
 ## `strype_annals-of-the-reformation-v2-pt2_1824.txt`
 
 1 section(s) to level 2 · ~281,663 words of text · ~0 words of apparatus
@@ -13696,6 +20360,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 281,663 | 281,663 | strype_annals-of-the-reformation-v2-pt2_1824 |
+
+## `student-volunteer-movement_report-first-international-convention-cleveland_1891.txt`
+
+1 section(s) to level 2 · ~100,193 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 100,193 | 100,193 | student-volunteer-movement_report-first-international-convention-cleveland_1891 |
 
 ## `studia-biblica-et-ecclesiastica-v5-life-of-st-nino_wardrop1903.txt`
 
@@ -13747,11 +20419,11 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622.txt`
 
-1 section(s) to level 2 · ~82,784 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~82,780 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 82,784 | 82,784 | sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622 |
+| `1` | 0 | 82,780 | 82,780 | sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622 |
 
 ## `suetonius_lives-of-the-caesars-loeb_rolfe1914.txt`
 
@@ -13776,6 +20448,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 107,404 | 107,404 | sulpicius-severus_libri-qui-supersunt-chronica-vita-martini-lat_halm1866-csel1 |
+
+## `sundar-singh_reality-and-religion_1924.txt`
+
+1 section(s) to level 2 · ~13,824 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 13,824 | 13,824 | sundar-singh_reality-and-religion_1924 |
+
+## `sundar-singh_search-after-reality_1925.txt`
+
+1 section(s) to level 2 · ~19,944 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 19,944 | 19,944 | sundar-singh_search-after-reality_1925 |
 
 ## `surtees-society_horae-eboracenses-prymer-of-york-use-lat-enm_wordsworth1920.txt`
 
@@ -13905,6 +20593,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 134,636 | 134,636 | synod-of-dort_articles-with-history-of-events_scott1831 |
 
+## `synod-of-thurles_decreta-synodi-plenariae-hiberniae-lat_1851.txt`
+
+1 section(s) to level 2 · ~15,854 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 15,854 | 15,854 | synod-of-thurles_decreta-synodi-plenariae-hiberniae-lat_1851 |
+
 ## `synodicon-orientale_das-buch-der-synhados-deu_braun1900.txt`
 
 1 section(s) to level 2 · ~137,211 words of text · ~0 words of apparatus
@@ -13937,6 +20633,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 195,020 | 195,020 | taamra-maryam_miracles-of-the-blessed-virgin-mary-life-of-hanna_budge1900 |
 
+## `tabari_annales-prima-series-iv-ara-lat_de-goeje1890.txt`
+
+1 section(s) to level 2 · ~64,203 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 64,203 | 64,203 | tabari_annales-prima-series-iv-ara-lat_de-goeje1890 |
+
+## `tabari_annales-prima-series-v-ara-lat_de-goeje1893.txt`
+
+1 section(s) to level 2 · ~176,961 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 176,961 | 176,961 | tabari_annales-prima-series-v-ara-lat_de-goeje1893 |
+
 ## `tacitus_annals-15-44_church-brodribb1876.txt`
 
 1 section(s) to level 2 · ~835 words of text · ~0 words of apparatus
@@ -13961,6 +20673,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 52,500 | 52,500 | taffin_markes-of-the-children-of-god_prowse1599 |
 
+## `taft_biographical-sketches-of-holy-women-v1-v2_1825-1828.txt`
+
+1 section(s) to level 2 · ~228,661 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 228,661 | 228,661 | taft_biographical-sketches-of-holy-women-v1-v2_1825-1828 |
+
 ## `tatian_oratio-ad-graecos-grc-lat_otto1851.txt`
 
 1 section(s) to level 2 · ~227,401 words of text · ~0 words of apparatus
@@ -13968,6 +20688,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 227,401 | 227,401 | tatian_oratio-ad-graecos-grc-lat_otto1851 |
+
+## `tauler_ausgewaehlte-predigten-gmh_naumann1914.txt`
+
+1 section(s) to level 2 · ~29,590 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 29,590 | 29,590 | tauler_ausgewaehlte-predigten-gmh_naumann1914 |
 
 ## `tauler_history-and-life-with-sermons_winkworth1907.txt`
 
@@ -13984,6 +20712,38 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 443,678 | 443,678 | tavernier_six-voyages-through-turky-into-persia-and-the-east-indies_phillips1678 |
+
+## `taylor-howard_hudson-taylor-in-early-years_1912.txt`
+
+1 section(s) to level 2 · ~207,090 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 207,090 | 207,090 | taylor-howard_hudson-taylor-in-early-years_1912 |
+
+## `taylor-howard_one-of-chinas-scholars-pastor-hsi_1909.txt`
+
+1 section(s) to level 2 · ~170,031 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 170,031 | 170,031 | taylor-howard_one-of-chinas-scholars-pastor-hsi_1909 |
+
+## `taylor-william_story-of-my-life_ridpath1895.txt`
+
+1 section(s) to level 2 · ~406,891 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 406,891 | 406,891 | taylor-william_story-of-my-life_ridpath1895 |
+
+## `te-karere_v24-mri_1930.txt`
+
+1 section(s) to level 2 · ~57,058 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 57,058 | 57,058 | te-karere_v24-mri_1930 |
 
 ## `teellinck_pauls-complaint-against-his-naturall-corruption_1621.txt`
 
@@ -14009,6 +20769,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 140,548 | 140,548 | telles_travels-of-the-jesuits-in-ethiopia_1710 |
 
+## `templars_die-urspruengliche-templerregel-lat-deu_schnuerer1903.txt`
+
+1 section(s) to level 2 · ~68,347 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 68,347 | 68,347 | templars_die-urspruengliche-templerregel-lat-deu_schnuerer1903 |
+
+## `templars_la-regle-du-temple-fra-lat_curzon1886.txt`
+
+1 section(s) to level 2 · ~126,755 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 126,755 | 126,755 | templars_la-regle-du-temple-fra-lat_curzon1886 |
+
 ## `tennent-gilbert_twenty-three-sermons_bradford1744.txt`
 
 1 section(s) to level 2 · ~150,541 words of text · ~0 words of apparatus
@@ -14016,6 +20792,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 150,541 | 150,541 | tennent-gilbert_twenty-three-sermons_bradford1744 |
+
+## `ter-minassiantz_armenische-kirche-in-ihren-beziehungen-zu-den-syrischen-kirchen-tu26-deu_1904.txt`
+
+1 section(s) to level 2 · ~260,589 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 260,589 | 260,589 | ter-minassiantz_armenische-kirche-in-ihren-beziehungen-zu-den-syrischen-kirchen-tu26-deu_1904 |
 
 ## `teresa-of-avila_book-of-foundations_lewis1913.txt`
 
@@ -14113,6 +20897,54 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 471,273 | 471,273 | theiner_vetera-monumenta-slavorum-meridionalium-v1-lat_1863 |
 
+## `theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt`
+
+1 section(s) to level 2 · ~126,760 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 126,760 | 126,760 | theodore-abu-qurrah_arabischen-schriften-deu_graf1910 |
+
+## `theodore-abu-qurrah_de-cultu-imaginum-ara-lat_arendzen1897.txt`
+
+1 section(s) to level 2 · ~31,337 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 31,337 | 31,337 | theodore-abu-qurrah_de-cultu-imaginum-ara-lat_arendzen1897 |
+
+## `theodore-abu-qurrah_opuscula-with-andrew-crete-malalas-pg97-grc-lat_migne1860.txt`
+
+1 section(s) to level 2 · ~697,999 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 697,999 | 697,999 | theodore-abu-qurrah_opuscula-with-andrew-crete-malalas-pg97-grc-lat_migne1860 |
+
+## `theodore-studite_epistolae-et-fragmenta-in-nova-patrum-bibliotheca-t8-lat_cozza1871.txt`
+
+1 section(s) to level 2 · ~393,080 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 393,080 | 393,080 | theodore-studite_epistolae-et-fragmenta-in-nova-patrum-bibliotheca-t8-lat_cozza1871 |
+
+## `theodore-studite_opera-omnia-pg99-grc-lat_migne1860.txt`
+
+1 section(s) to level 2 · ~820,613 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 820,613 | 820,613 | theodore-studite_opera-omnia-pg99-grc-lat_migne1860 |
+
+## `theodoret_opera-omnia-t3-historia-religiosa-pg82-grc-lat_migne1864.txt`
+
+1 section(s) to level 2 · ~762,606 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 762,606 | 762,606 | theodoret_opera-omnia-t3-historia-religiosa-pg82-grc-lat_migne1864 |
+
 ## `theodosianus-16_mommsen-meyer1905.txt`
 
 1 section(s) to level 2 · ~463,866 words of text · ~0 words of apparatus
@@ -14137,6 +20969,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 45,035 | 45,035 | theologia-germanica_theologia-germanica_winkworth1893 |
 
+## `theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt`
+
+1 section(s) to level 2 · ~619,626 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 619,626 | 619,626 | theophanes-confessor_chronographia-pg108-grc-lat_migne1863 |
+
+## `theophanes-continuatus_historiae-byzantinae-scriptores-post-theophanem-pg109-grc-lat_migne1863.txt`
+
+1 section(s) to level 2 · ~487,406 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 487,406 | 487,406 | theophanes-continuatus_historiae-byzantinae-scriptores-post-theophanem-pg109-grc-lat_migne1863 |
+
 ## `theophilus_ad-autolycum-grc-lat_otto1861.txt`
 
 1 section(s) to level 2 · ~165,678 words of text · ~0 words of apparatus
@@ -14144,6 +20992,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 165,678 | 165,678 | theophilus_ad-autolycum-grc-lat_otto1861 |
+
+## `theophylact-ohrid_opera-t4-with-vita-clementis-pg126-grc-lat_migne1864.txt`
+
+1 section(s) to level 2 · ~553,027 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 553,027 | 553,027 | theophylact-ohrid_opera-t4-with-vita-clementis-pg126-grc-lat_migne1864 |
+
+## `theophylact-simocatta_historiae-with-genesius-grc-lat_bekker1834.txt`
+
+1 section(s) to level 2 · ~212,009 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 212,009 | 212,009 | theophylact-simocatta_historiae-with-genesius-grc-lat_bekker1834 |
 
 ## `theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903.txt`
 
@@ -14153,6 +21017,102 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 155,731 | 155,731 | theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903 |
 
+## `thomas-aquinas_opera-omnia-t10-summa-theologiae-lat_leonine1899.txt`
+
+1 section(s) to level 2 · ~557,693 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 557,693 | 557,693 | thomas-aquinas_opera-omnia-t10-summa-theologiae-lat_leonine1899 |
+
+## `thomas-aquinas_opera-omnia-t11-summa-theologiae-lat_leonine1903.txt`
+
+1 section(s) to level 2 · ~542,236 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 542,236 | 542,236 | thomas-aquinas_opera-omnia-t11-summa-theologiae-lat_leonine1903 |
+
+## `thomas-aquinas_opera-omnia-t12-summa-theologiae-lat_leonine1906.txt`
+
+1 section(s) to level 2 · ~761,017 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 761,017 | 761,017 | thomas-aquinas_opera-omnia-t12-summa-theologiae-lat_leonine1906 |
+
+## `thomas-aquinas_opera-omnia-t4-summa-theologiae-lat_leonine1888.txt`
+
+1 section(s) to level 2 · ~499,499 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 499,499 | 499,499 | thomas-aquinas_opera-omnia-t4-summa-theologiae-lat_leonine1888 |
+
+## `thomas-aquinas_opera-omnia-t5-summa-theologiae-lat_leonine1889.txt`
+
+1 section(s) to level 2 · ~496,590 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 496,590 | 496,590 | thomas-aquinas_opera-omnia-t5-summa-theologiae-lat_leonine1889 |
+
+## `thomas-aquinas_opera-omnia-t6-summa-theologiae-lat_leonine1891.txt`
+
+1 section(s) to level 2 · ~390,501 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 390,501 | 390,501 | thomas-aquinas_opera-omnia-t6-summa-theologiae-lat_leonine1891 |
+
+## `thomas-aquinas_opera-omnia-t7-summa-theologiae-lat_leonine1892.txt`
+
+1 section(s) to level 2 · ~310,207 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 310,207 | 310,207 | thomas-aquinas_opera-omnia-t7-summa-theologiae-lat_leonine1892 |
+
+## `thomas-aquinas_opera-omnia-t8-summa-theologiae-lat_leonine1895.txt`
+
+1 section(s) to level 2 · ~390,723 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 390,723 | 390,723 | thomas-aquinas_opera-omnia-t8-summa-theologiae-lat_leonine1895 |
+
+## `thomas-aquinas_opera-omnia-t9-summa-theologiae-lat_leonine1897.txt`
+
+1 section(s) to level 2 · ~465,510 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 465,510 | 465,510 | thomas-aquinas_opera-omnia-t9-summa-theologiae-lat_leonine1897 |
+
+## `thomas-becket_epistolae-with-vitae-pl190-lat_migne1893.txt`
+
+1 section(s) to level 2 · ~550,407 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 550,407 | 550,407 | thomas-becket_epistolae-with-vitae-pl190-lat_migne1893 |
+
+## `thomas-celano_lives-of-st-francis_howell1908.txt`
+
+1 section(s) to level 2 · ~105,860 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 105,860 | 105,860 | thomas-celano_lives-of-st-francis_howell1908 |
+
+## `thomas-celano_vita-et-miracula-sancti-francisci-lat_d-alencon1906.txt`
+
+1 section(s) to level 2 · ~157,081 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 157,081 | 157,081 | thomas-celano_vita-et-miracula-sancti-francisci-lat_d-alencon1906 |
+
 ## `thomas-of-marga_book-of-governors-v2-english_budge1893.txt`
 
 1 section(s) to level 2 · ~228,266 words of text · ~0 words of apparatus
@@ -14160,6 +21120,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 228,266 | 228,266 | thomas-of-marga_book-of-governors-v2-english_budge1893 |
+
+## `thomas_elpis-israel_1849.txt`
+
+1 section(s) to level 2 · ~251,058 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 251,058 | 251,058 | thomas_elpis-israel_1849 |
+
+## `thomson_letters-on-the-moral-and-religious-state-of-south-america_1827.txt`
+
+1 section(s) to level 2 · ~77,118 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 77,118 | 77,118 | thomson_letters-on-the-moral-and-religious-state-of-south-america_1827 |
 
 ## `thoresby_lay-folks-catechism-enm-lat_simmons-nolloth1901.txt`
 
@@ -14169,6 +21145,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 69,920 | 69,920 | thoresby_lay-folks-catechism-enm-lat_simmons-nolloth1901 |
 
+## `tideman_remonstrantsche-broederschap-biographische-naamlijst-nld_rogge1905.txt`
+
+1 section(s) to level 2 · ~147,947 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 147,947 | 147,947 | tideman_remonstrantsche-broederschap-biographische-naamlijst-nld_rogge1905 |
+
 ## `tideman_stichting-der-remonstrantsche-broederschap-nld_1871.txt`
 
 1 section(s) to level 2 · ~332,660 words of text · ~0 words of apparatus
@@ -14177,6 +21161,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 332,660 | 332,660 | tideman_stichting-der-remonstrantsche-broederschap-nld_1871 |
 
+## `tiffany_life-of-dorothea-lynde-dix_1890.txt`
+
+1 section(s) to level 2 · ~125,670 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 125,670 | 125,670 | tiffany_life-of-dorothea-lynde-dix_1890 |
+
 ## `tikhon-zadonskii_nastavleniia-dlia-monashestvuiushchikh-rus_kiev1854.txt`
 
 1 section(s) to level 2 · ~9,418 words of text · ~0 words of apparatus
@@ -14184,6 +21176,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 9,418 | 9,418 | tikhon-zadonskii_nastavleniia-dlia-monashestvuiushchikh-rus_kiev1854 |
+
+## `tillich_religioese-lage-der-gegenwart-deu_1926.txt`
+
+1 section(s) to level 2 · ~36,195 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 36,195 | 36,195 | tillich_religioese-lage-der-gegenwart-deu_1926 |
 
 ## `timothy-aelurus_widerlegung-der-lehre-von-chalcedon-xcl_ter-mekerttschian-ter-minassiantz1908.txt`
 
@@ -14200,6 +21200,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 31,551 | 31,551 | tobias-familist_mirabilia-opera-dei_1650 |
+
+## `todd-henry-john_publick-spirit-life-and-designs-of-thomas-bray_2nd-ed1808.txt`
+
+1 section(s) to level 2 · ~31,124 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 31,124 | 31,124 | todd-henry-john_publick-spirit-life-and-designs-of-thomas-bray_2nd-ed1808 |
+
+## `tolstoy_kingdom-of-god-is-within-you-v1_garnett1894.txt`
+
+1 section(s) to level 2 · ~68,294 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 68,294 | 68,294 | tolstoy_kingdom-of-god-is-within-you-v1_garnett1894 |
+
+## `tolstoy_what-i-believe_popoff1885.txt`
+
+1 section(s) to level 2 · ~71,978 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 71,978 | 71,978 | tolstoy_what-i-believe_popoff1885 |
 
 ## `toro_compendio-vida-juan-macias-spa_1689.txt`
 
@@ -14249,6 +21273,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 182,066 | 182,066 | transylvanian-diet_erdelyi-orszaggyulesi-emlekek-2-1556-1576-hun-lat_szilagyi1876 |
 
+## `trappists_constitutions-and-usages-of-the-reformed-cistercians-of-la-trappe-eng-lat_1894.txt`
+
+1 section(s) to level 2 · ~85,889 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 85,889 | 85,889 | trappists_constitutions-and-usages-of-the-reformed-cistercians-of-la-trappe-eng-lat_1894 |
+
 ## `trigault_de-christiana-expeditione-apud-sinas-lat_1615.txt`
 
 1 section(s) to level 2 · ~140,727 words of text · ~0 words of apparatus
@@ -14264,6 +21296,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 11,550 | 11,550 | truhelka_testamenat-gosta-radina-hrv_glasnik-zemaljskog-muzeja1911 |
+
+## `trumbull_life-story-of-c-i-scofield_1920.txt`
+
+1 section(s) to level 2 · ~30,339 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 30,339 | 30,339 | trumbull_life-story-of-c-i-scofield_1920 |
+
+## `tucker_eighteen-years-in-uganda-and-east-africa-v2_1908.txt`
+
+1 section(s) to level 2 · ~125,542 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 125,542 | 125,542 | tucker_eighteen-years-in-uganda-and-east-africa-v2_1908 |
+
+## `tullidge_life-of-brigham-young_1876.txt`
+
+1 section(s) to level 2 · ~150,790 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 150,790 | 150,790 | tullidge_life-of-brigham-young_1876 |
 
 ## `turner_ecclesiae-occidentalis-monumenta-iuris-antiquissima-tom1-fasc1-lat_1899.txt`
 
@@ -14289,6 +21345,54 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 269,275 | 269,275 | tyndale_doctrinal-treatises_walter1848 |
 
+## `tyrrell_christianity-at-the-cross-roads_1909.txt`
+
+1 section(s) to level 2 · ~67,468 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 67,468 | 67,468 | tyrrell_christianity-at-the-cross-roads_1909 |
+
+## `tyrrell_medievalism-reply-to-cardinal-mercier_1908.txt`
+
+1 section(s) to level 2 · ~54,104 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 54,104 | 54,104 | tyrrell_medievalism-reply-to-cardinal-mercier_1908 |
+
+## `tyrrell_much-abused-letter_1907.txt`
+
+1 section(s) to level 2 · ~28,500 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 28,500 | 28,500 | tyrrell_much-abused-letter_1907 |
+
+## `tyrrell_through-scylla-and-charybdis_1907.txt`
+
+1 section(s) to level 2 · ~112,526 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 112,526 | 112,526 | tyrrell_through-scylla-and-charybdis_1907 |
+
+## `uchimura_diary-of-a-japanese-convert_1895.txt`
+
+1 section(s) to level 2 · ~62,045 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 62,045 | 62,045 | uchimura_diary-of-a-japanese-convert_1895 |
+
+## `uchimura_how-i-became-a-christian_1922.txt`
+
+1 section(s) to level 2 · ~59,127 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 59,127 | 59,127 | uchimura_how-i-became-a-christian_1922 |
+
 ## `umari_masalik-el-absar-afrique-moins-egypte-fra_gaudefroy-demombynes1927.txt`
 
 1 section(s) to level 2 · ~175,695 words of text · ~0 words of apparatus
@@ -14304,6 +21408,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 129,271 | 129,271 | underhill_jacopone-da-todi-poet-and-mystic_beck1919 |
+
+## `underwood_call-of-korea_1908.txt`
+
+1 section(s) to level 2 · ~53,418 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 53,418 | 53,418 | underwood_call-of-korea_1908 |
+
+## `unitarian-church-hungary_egyhazi-torveny-a-hazassagi-jogrol-hun_1889.txt`
+
+1 section(s) to level 2 · ~13,467 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 13,467 | 13,467 | unitarian-church-hungary_egyhazi-torveny-a-hazassagi-jogrol-hun_1889 |
+
+## `unitarian-church-hungary_fotanacs-jegyzokonyvei-1909-1913-hun_boros-csifo.txt`
+
+1 section(s) to level 2 · ~259,154 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 259,154 | 259,154 | unitarian-church-hungary_fotanacs-jegyzokonyvei-1909-1913-hun_boros-csifo |
 
 ## `unity-of-the-brethren_church-constitution_seifferth1866.txt`
 
@@ -14345,6 +21473,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 65,702 | 65,702 | universalist-church_winchester-centennial-with-the-profession-of-belief_1903 |
 
+## `urban-ii_epistolae-et-privilegia-with-orationes-claromontanae-pl151-lat_migne1853.txt`
+
+1 section(s) to level 2 · ~591,341 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 591,341 | 591,341 | urban-ii_epistolae-et-privilegia-with-orationes-claromontanae-pl151-lat_migne1853 |
+
+## `usama-ibn-munqidh_arab-syrian-gentleman-and-warrior_hitti1929.txt`
+
+1 section(s) to level 2 · ~111,696 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 111,696 | 111,696 | usama-ibn-munqidh_arab-syrian-gentleman-and-warrior_hitti1929 |
+
+## `usque_consolacam-as-tribulacoens-de-israel-por_mendes-dos-remedios1906.txt`
+
+1 section(s) to level 2 · ~132,612 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 132,612 | 132,612 | usque_consolacam-as-tribulacoens-de-israel-por_mendes-dos-remedios1906 |
+
 ## `utraquist-consistory_jednani-a-dopisy-konsistore-pod-oboji-1562-1570-ces_pazout1906.txt`
 
 1 section(s) to level 2 · ~202,991 words of text · ~0 words of apparatus
@@ -14352,6 +21504,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 202,991 | 202,991 | utraquist-consistory_jednani-a-dopisy-konsistore-pod-oboji-1562-1570-ces_pazout1906 |
+
+## `valaam_ocherk-iz-istorii-amerikanskoi-pravoslavnoi-missii-rus_1894.txt`
+
+1 section(s) to level 2 · ~66,594 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 66,594 | 66,594 | valaam_ocherk-iz-istorii-amerikanskoi-pravoslavnoi-missii-rus_1894 |
+
+## `valentijn_oud-en-nieuw-oost-indien-deel3-nld_1726.txt`
+
+1 section(s) to level 2 · ~820,515 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 820,515 | 820,515 | valentijn_oud-en-nieuw-oost-indien-deel3-nld_1726 |
+
+## `valentinov_chernaia-kniga-rus_1925.txt`
+
+1 section(s) to level 2 · ~94,786 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 94,786 | 94,786 | valentinov_chernaia-kniga-rus_1925 |
 
 ## `valier_vita-caroli-borromei-episcopus-cardinalis-lat_1586.txt`
 
@@ -14361,13 +21537,37 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 38,566 | 38,566 | valier_vita-caroli-borromei-episcopus-cardinalis-lat_1586 |
 
-## `van-braght_martyrs-mirror_sohm1886.txt`
+## `van-braght_martyrs-mirror_sohm-elkhart1886.txt`
 
-1 section(s) to level 2 · ~1,188,838 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~1,180,567 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 1,188,838 | 1,188,838 | van-braght_martyrs-mirror_sohm1886 |
+| `1` | 0 | 1,180,567 | 1,180,567 | van-braght_martyrs-mirror_sohm-elkhart1886 |
+
+## `vansleb_histoire-de-l-eglise-d-alexandrie-fra_1677.txt`
+
+1 section(s) to level 2 · ~75,560 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 75,560 | 75,560 | vansleb_histoire-de-l-eglise-d-alexandrie-fra_1677 |
+
+## `vansleb_nouvelle-relation-d-un-voyage-fait-en-egypte-fra_1677.txt`
+
+1 section(s) to level 2 · ~92,441 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 92,441 | 92,441 | vansleb_nouvelle-relation-d-un-voyage-fait-en-egypte-fra_1677 |
+
+## `vansleb_present-state-of-egypt_1678.txt`
+
+1 section(s) to level 2 · ~74,912 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 74,912 | 74,912 | vansleb_present-state-of-egypt_1678 |
 
 ## `varthema_travels-of-ludovico-di-varthema_jones-badger1863.txt`
 
@@ -14393,6 +21593,46 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 95,662 | 95,662 | velho_journal-of-the-first-voyage-of-vasco-da-gama_ravenstein1898 |
 
+## `velimirovic_agony-of-the-church_1917.txt`
+
+1 section(s) to level 2 · ~19,930 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 19,930 | 19,930 | velimirovic_agony-of-the-church_1917 |
+
+## `velimirovic_christianity-and-war_1915.txt`
+
+1 section(s) to level 2 · ~9,438 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 9,438 | 9,438 | velimirovic_christianity-and-war_1915 |
+
+## `velimirovic_religion-and-nationality-in-serbia_1915.txt`
+
+1 section(s) to level 2 · ~5,653 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 5,653 | 5,653 | velimirovic_religion-and-nationality-in-serbia_1915 |
+
+## `velimirovic_serbia-in-light-and-darkness_1916.txt`
+
+1 section(s) to level 2 · ~30,354 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 30,354 | 30,354 | velimirovic_serbia-in-light-and-darkness_1916 |
+
+## `velimirovic_soul-of-serbia_1916.txt`
+
+1 section(s) to level 2 · ~23,155 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 23,155 | 23,155 | velimirovic_soul-of-serbia_1916 |
+
 ## `venantius-fortunatus_opera-mgh-aa-4-lat_leo-krusch1881.txt`
 
 1 section(s) to level 2 · ~347,450 words of text · ~0 words of apparatus
@@ -14400,6 +21640,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 347,450 | 347,450 | venantius-fortunatus_opera-mgh-aa-4-lat_leo-krusch1881 |
+
+## `veniaminov_zapiski-ob-ostrovakh-unalashkinskago-otdela-ch1-rus_1840.txt`
+
+1 section(s) to level 2 · ~66,548 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 66,548 | 66,548 | veniaminov_zapiski-ob-ostrovakh-unalashkinskago-otdela-ch1-rus_1840 |
+
+## `veniaminov_zapiski-ob-ostrovakh-unalashkinskago-otdela-ch2-rus_1840.txt`
+
+1 section(s) to level 2 · ~78,457 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 78,457 | 78,457 | veniaminov_zapiski-ob-ostrovakh-unalashkinskago-otdela-ch2-rus_1840 |
 
 ## `victor-of-vita_historia-persecutionis-africanae-provinciae-lat_petschenig1881.txt`
 
@@ -14417,6 +21673,62 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 50,296 | 50,296 | victor-of-vita_memorable-and-tragical-history-persecution-eng_1605 |
 
+## `vieira_cartas-tomo1-por_1735.txt`
+
+1 section(s) to level 2 · ~88,913 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 88,913 | 88,913 | vieira_cartas-tomo1-por_1735 |
+
+## `vieira_cartas-tomo2-por_1735.txt`
+
+1 section(s) to level 2 · ~89,523 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 89,523 | 89,523 | vieira_cartas-tomo2-por_1735 |
+
+## `vieira_maria-rosa-mystica-parte1-por_1686.txt`
+
+1 section(s) to level 2 · ~217,212 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 217,212 | 217,212 | vieira_maria-rosa-mystica-parte1-por_1686 |
+
+## `vieira_maria-rosa-mystica-parte2-por_1688.txt`
+
+1 section(s) to level 2 · ~192,742 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 192,742 | 192,742 | vieira_maria-rosa-mystica-parte2-por_1688 |
+
+## `vieira_sermoens-parte12-por_1699.txt`
+
+1 section(s) to level 2 · ~154,071 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 154,071 | 154,071 | vieira_sermoens-parte12-por_1699 |
+
+## `vieira_sermoens-parte3-por_1683.txt`
+
+1 section(s) to level 2 · ~195,212 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 195,212 | 195,212 | vieira_sermoens-parte3-por_1683 |
+
+## `vieira_sermoens-parte5-por_1689.txt`
+
+1 section(s) to level 2 · ~200,785 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 200,785 | 200,785 | vieira_sermoens-parte5-por_1689 |
+
 ## `villagomez_sumario-probanzas-canonizacion-toribio-mogrovejo-spa_lima1662.txt`
 
 1 section(s) to level 2 · ~105,934 words of text · ~0 words of apparatus
@@ -14424,6 +21736,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 105,934 | 105,934 | villagomez_sumario-probanzas-canonizacion-toribio-mogrovejo-spa_lima1662 |
+
+## `vincent_du-protestantisme-en-france-fra_prevost-paradol1860.txt`
+
+1 section(s) to level 2 · ~179,726 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 179,726 | 179,726 | vincent_du-protestantisme-en-france-fra_prevost-paradol1860 |
 
 ## `vincenzo-maria_viaggio-indie-orientali-ita_1672.txt`
 
@@ -14440,6 +21760,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 159,438 | 159,438 | visigothic-code-forum-judicum_scott1910 |
+
+## `vita-constantini_die-legende-vom-heiligen-cyrillus-in-denkschriften-wien-19-chu-lat-deu_duemmler-miklosich1870.txt`
+
+1 section(s) to level 2 · ~331,828 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 331,828 | 331,828 | vita-constantini_die-legende-vom-heiligen-cyrillus-in-denkschriften-wien-19-chu-lat-deu_duemmler-miklosich1870 |
+
+## `vita-euthymii-patriarchae_anecdoton-zur-geschichte-leos-des-weisen-grc-deu_de-boor1888.txt`
+
+1 section(s) to level 2 · ~76,863 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 76,863 | 76,863 | vita-euthymii-patriarchae_anecdoton-zur-geschichte-leos-des-weisen-grc-deu_de-boor1888 |
+
+## `vital_o-bispo-de-olinda-e-os-seus-accusadores-por_1873.txt`
+
+1 section(s) to level 2 · ~40,516 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 40,516 | 40,516 | vital_o-bispo-de-olinda-e-os-seus-accusadores-por_1873 |
 
 ## `voetius_catechisatie-heidelbergschen-catechismus-v1-nld_kuyper1891.txt`
 
@@ -14467,11 +21811,11 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `vonsoden_cyprianische-briefsammlung-deu_1904.txt`
 
-1 section(s) to level 2 · ~104,161 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~104,151 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 104,161 | 104,161 | vonsoden_cyprianische-briefsammlung-deu_1904 |
+| `1` | 0 | 104,151 | 104,151 | vonsoden_cyprianische-briefsammlung-deu_1904 |
 
 ## `vonsoden_ketzertaufstreit-rom-karthago-deu_1909.txt`
 
@@ -14483,11 +21827,11 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `vonsoden_prosopographie-afrikanischer-episkopat-deu_1909.txt`
 
-1 section(s) to level 2 · ~8,988 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~8,936 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 8,988 | 8,988 | vonsoden_prosopographie-afrikanischer-episkopat-deu_1909 |
+| `1` | 0 | 8,936 | 8,936 | vonsoden_prosopographie-afrikanischer-episkopat-deu_1909 |
 
 ## `vonsoden_streit-rom-karthago-ketzertaufe-deu_1909.txt`
 
@@ -14496,6 +21840,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 15,874 | 15,874 | vonsoden_streit-rom-karthago-ketzertaufe-deu_1909 |
+
+## `vvedensky_tserkov-i-gosudarstvo-rus_1923.txt`
+
+1 section(s) to level 2 · ~75,993 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 75,993 | 75,993 | vvedensky_tserkov-i-gosudarstvo-rus_1923 |
 
 ## `waldensians_nobla-leicon-pro_destefano1909.txt`
 
@@ -14520,6 +21872,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 87,718 | 87,718 | waldensians_romaunt-gospel-of-john-pro_gilly1848 |
+
+## `waldenstrom_blood-of-jesus_princell1888.txt`
+
+1 section(s) to level 2 · ~17,571 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 17,571 | 17,571 | waldenstrom_blood-of-jesus_princell1888 |
+
+## `walker-george-leon_some-aspects-of-the-religious-life-of-new-england_1897.txt`
+
+1 section(s) to level 2 · ~53,232 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 53,232 | 53,232 | walker-george-leon_some-aspects-of-the-religious-life-of-new-england_1897 |
+
+## `wallbridge_demerara-martyr-memoirs-of-the-rev-john-smith_1848.txt`
+
+1 section(s) to level 2 · ~119,582 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 119,582 | 119,582 | wallbridge_demerara-martyr-memoirs-of-the-rev-john-smith_1848 |
 
 ## `wallington_historical-notices-v1_webb1869.txt`
 
@@ -14552,6 +21928,46 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 249,573 | 249,573 | walsingham_historia-anglicana-v2-lat_riley1863 |
+
+## `walter-daniel_ailred-of-rievaulx-and-his-biographer-walter-daniel-lat-eng_powicke1922.txt`
+
+1 section(s) to level 2 · ~45,865 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 45,865 | 45,865 | walter-daniel_ailred-of-rievaulx-and-his-biographer-walter-daniel-lat-eng_powicke1922 |
+
+## `walther_der-lutheraner-jg1-1844-1845-deu_st-louis1844.txt`
+
+1 section(s) to level 2 · ~148,678 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 148,678 | 148,678 | walther_der-lutheraner-jg1-1844-1845-deu_st-louis1844 |
+
+## `wanger_imfundiso-yebandhla-elikatolike-zul_1912.txt`
+
+1 section(s) to level 2 · ~146,392 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 146,392 | 146,392 | wanger_imfundiso-yebandhla-elikatolike-zul_1912 |
+
+## `ward-wilfrid_life-and-times-of-cardinal-wiseman-v1_1897.txt`
+
+1 section(s) to level 2 · ~193,701 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 193,701 | 193,701 | ward-wilfrid_life-and-times-of-cardinal-wiseman-v1_1897 |
+
+## `ward-wilfrid_life-and-times-of-cardinal-wiseman-v2_1897.txt`
+
+1 section(s) to level 2 · ~232,779 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 232,779 | 232,779 | ward-wilfrid_life-and-times-of-cardinal-wiseman-v2_1897 |
 
 ## `wariston_diary-1632-1639_paul1911.txt`
 
@@ -14616,6 +22032,38 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 1,067,881 | 1,067,881 | webbe_world-english-bible-british-edition |
+
+## `weiss_life-and-correspondence-of-theodore-parker-v1_1864.txt`
+
+1 section(s) to level 2 · ~255,406 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 255,406 | 255,406 | weiss_life-and-correspondence-of-theodore-parker-v1_1864 |
+
+## `weiss_life-and-correspondence-of-theodore-parker-v2_1864.txt`
+
+1 section(s) to level 2 · ~281,844 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 281,844 | 281,844 | weiss_life-and-correspondence-of-theodore-parker-v2_1864 |
+
+## `welsh-bible_y-beibl-cyssegr-lan-cym_morgan1588.txt`
+
+1 section(s) to level 2 · ~959,660 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 959,660 | 959,660 | welsh-bible_y-beibl-cyssegr-lan-cym_morgan1588 |
+
+## `welsh-prayer-book_llyfr-gweddi-gyffredin-cym_1664.txt`
+
+1 section(s) to level 2 · ~133,426 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 133,426 | 133,426 | welsh-prayer-book_llyfr-gweddi-gyffredin-cym_1664 |
 
 ## `wesley-c_hymns-methodists_1780.txt`
 
@@ -14753,6 +22201,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 309,593 | 309,593 | westminster-assembly_confession-catechisms-standards_nelson1877 |
 
+## `wheatley_life-and-letters-of-mrs-phoebe-palmer_1876.txt`
+
+1 section(s) to level 2 · ~235,773 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 235,773 | 235,773 | wheatley_life-and-letters-of-mrs-phoebe-palmer_1876 |
+
 ## `wheatley_poems-on-various-subjects-religious-and-moral_bell1773.txt`
 
 1 section(s) to level 2 · ~17,366 words of text · ~0 words of apparatus
@@ -14760,6 +22216,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 17,366 | 17,366 | wheatley_poems-on-various-subjects-religious-and-moral_bell1773 |
+
+## `white_life-sketches-of-ellen-g-white_1915.txt`
+
+1 section(s) to level 2 · ~141,023 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 141,023 | 141,023 | white_life-sketches-of-ellen-g-white_1915 |
 
 ## `whitefield_two-first-parts-of-his-life-with-journals_1756.txt`
 
@@ -14809,6 +22273,38 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 98,507 | 98,507 | wigram_introduction-to-the-history-of-the-assyrian-church-100-640_1910 |
 
+## `wigram_our-smallest-ally_1920.txt`
+
+1 section(s) to level 2 · ~16,313 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 16,313 | 16,313 | wigram_our-smallest-ally_1920 |
+
+## `wilberforce-reginald_life-of-samuel-wilberforce-v2_1881.txt`
+
+1 section(s) to level 2 · ~165,742 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 165,742 | 165,742 | wilberforce-reginald_life-of-samuel-wilberforce-v2_1881 |
+
+## `wilberforce-reginald_life-of-samuel-wilberforce-v3_1882.txt`
+
+1 section(s) to level 2 · ~178,524 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 178,524 | 178,524 | wilberforce-reginald_life-of-samuel-wilberforce-v3_1882 |
+
+## `wilberforce-robert-and-samuel_life-of-william-wilberforce-v1_1838.txt`
+
+1 section(s) to level 2 · ~109,463 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 109,463 | 109,463 | wilberforce-robert-and-samuel_life-of-william-wilberforce-v1_1838 |
+
 ## `wilberforce_practical-view-of-the-prevailing-religious-system_dublin1797.txt`
 
 1 section(s) to level 2 · ~108,681 words of text · ~0 words of apparatus
@@ -14816,6 +22312,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 108,681 | 108,681 | wilberforce_practical-view-of-the-prevailing-religious-system_dublin1797 |
+
+## `wilbur_journal-of-the-life-of-john-wilbur_1859.txt`
+
+1 section(s) to level 2 · ~274,428 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 274,428 | 274,428 | wilbur_journal-of-the-life-of-john-wilbur_1859 |
+
+## `wilder_pledge-of-the-student-volunteer-movement_1890.txt`
+
+1 section(s) to level 2 · ~4,136 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 4,136 | 4,136 | wilder_pledge-of-the-student-volunteer-movement_1890 |
 
 ## `wilkinson-william_confutation-of-certaine-articles_daye1579.txt`
 
@@ -14825,6 +22337,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 57,654 | 57,654 | wilkinson-william_confutation-of-certaine-articles_daye1579 |
 
+## `will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt`
+
+1 section(s) to level 2 · ~155,004 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 155,004 | 155,004 | will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861 |
+
+## `william-tyre_historia-rerum-in-partibus-transmarinis-gestarum-v1-lat-fra_rhc1844.txt`
+
+1 section(s) to level 2 · ~430,990 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 430,990 | 430,990 | william-tyre_historia-rerum-in-partibus-transmarinis-gestarum-v1-lat-fra_rhc1844 |
+
+## `william-tyre_historia-rerum-in-partibus-transmarinis-gestarum-v2-lat-fra_rhc1844.txt`
+
+1 section(s) to level 2 · ~335,612 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 335,612 | 335,612 | william-tyre_historia-rerum-in-partibus-transmarinis-gestarum-v2-lat-fra_rhc1844 |
+
 ## `williams-george_orthodox-church-of-the-east-in-the-eighteenth-century_1868.txt`
 
 1 section(s) to level 2 · ~77,955 words of text · ~0 words of apparatus
@@ -14832,6 +22368,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 77,955 | 77,955 | williams-george_orthodox-church-of-the-east-in-the-eighteenth-century_1868 |
+
+## `williams-j-a_life-of-elder-john-smith_1870.txt`
+
+1 section(s) to level 2 · ~185,127 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 185,127 | 185,127 | williams-j-a_life-of-elder-john-smith_1870 |
 
 ## `williams-pantycelyn_gweithiau-v1-cym_cynhafal-jones1887.txt`
 
@@ -14849,6 +22393,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 304,251 | 304,251 | williams-pantycelyn_gweithiau-v2-hymnau-a-rhyddiaith-cym_cynhafal-jones1891 |
 
+## `willibald_life-of-saint-boniface_robinson1916.txt`
+
+1 section(s) to level 2 · ~25,338 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 25,338 | 25,338 | willibald_life-of-saint-boniface_robinson1916 |
+
+## `willibald_vitae-sancti-bonifatii-mgh-srg-57-lat_levison1905.txt`
+
+1 section(s) to level 2 · ~136,054 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 136,054 | 136,054 | willibald_vitae-sancti-bonifatii-mgh-srg-57-lat_levison1905 |
+
 ## `winchester-elhanan_universal-restoration-in-dialogues_1788.txt`
 
 1 section(s) to level 2 · ~73,268 words of text · ~0 words of apparatus
@@ -14864,6 +22424,38 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 125,883 | 125,883 | winthrop_journal-v1_hosmer1908 |
+
+## `wiseman_appeal-to-the-english-people-catholic-hierarchy_1850.txt`
+
+1 section(s) to level 2 · ~14,973 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 14,973 | 14,973 | wiseman_appeal-to-the-english-people-catholic-hierarchy_1850 |
+
+## `wiseman_recollections-of-the-last-four-popes_1858.txt`
+
+1 section(s) to level 2 · ~119,940 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 119,940 | 119,940 | wiseman_recollections-of-the-last-four-popes_1858 |
+
+## `wodrow_history-of-the-sufferings-of-the-church-of-scotland-v3_burns1829.txt`
+
+1 section(s) to level 2 · ~443,730 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 443,730 | 443,730 | wodrow_history-of-the-sufferings-of-the-church-of-scotland-v3_burns1829 |
+
+## `wolkan_die-hutterer-deu_1918.txt`
+
+1 section(s) to level 2 · ~56,083 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 56,083 | 56,083 | wolkan_die-hutterer-deu_1918 |
 
 ## `woodforde_diary-of-a-country-parson-v1_beresford1926.txt`
 
@@ -14897,6 +22489,94 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 264,800 | 264,800 | woolman_journal-and-essays_gummere1922 |
 
+## `world-conference-christian-fundamentals_god-hath-spoken-philadelphia_1919.txt`
+
+1 section(s) to level 2 · ~134,228 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 134,228 | 134,228 | world-conference-christian-fundamentals_god-hath-spoken-philadelphia_1919 |
+
+## `world-missionary-conference_edinburgh-1910-v1-report-of-commission-1_1910.txt`
+
+1 section(s) to level 2 · ~154,455 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 154,455 | 154,455 | world-missionary-conference_edinburgh-1910-v1-report-of-commission-1_1910 |
+
+## `world-missionary-conference_edinburgh-1910-v2-report-of-commission-2_1910.txt`
+
+1 section(s) to level 2 · ~143,162 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 143,162 | 143,162 | world-missionary-conference_edinburgh-1910-v2-report-of-commission-2_1910 |
+
+## `world-missionary-conference_edinburgh-1910-v3-report-of-commission-3_1910.txt`
+
+1 section(s) to level 2 · ~170,708 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 170,708 | 170,708 | world-missionary-conference_edinburgh-1910-v3-report-of-commission-3_1910 |
+
+## `world-missionary-conference_edinburgh-1910-v4-report-of-commission-4_1910.txt`
+
+1 section(s) to level 2 · ~129,223 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 129,223 | 129,223 | world-missionary-conference_edinburgh-1910-v4-report-of-commission-4_1910 |
+
+## `world-missionary-conference_edinburgh-1910-v5-report-of-commission-5_1910.txt`
+
+1 section(s) to level 2 · ~120,549 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 120,549 | 120,549 | world-missionary-conference_edinburgh-1910-v5-report-of-commission-5_1910 |
+
+## `world-missionary-conference_edinburgh-1910-v6-report-of-commission-6_1910.txt`
+
+1 section(s) to level 2 · ~190,461 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 190,461 | 190,461 | world-missionary-conference_edinburgh-1910-v6-report-of-commission-6_1910 |
+
+## `world-missionary-conference_edinburgh-1910-v7-report-of-commission-7_1910.txt`
+
+1 section(s) to level 2 · ~71,782 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 71,782 | 71,782 | world-missionary-conference_edinburgh-1910-v7-report-of-commission-7_1910 |
+
+## `world-missionary-conference_edinburgh-1910-v8-report-of-commission-8_1910.txt`
+
+1 section(s) to level 2 · ~88,015 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 88,015 | 88,015 | world-missionary-conference_edinburgh-1910-v8-report-of-commission-8_1910 |
+
+## `world-missionary-conference_edinburgh-1910-v9-history-and-records_1910.txt`
+
+1 section(s) to level 2 · ~121,851 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 121,851 | 121,851 | world-missionary-conference_edinburgh-1910-v9-history-and-records_1910 |
+
+## `wright_centennial-encyclopaedia-of-the-african-methodist-episcopal-church_1916.txt`
+
+1 section(s) to level 2 · ~300,729 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 300,729 | 300,729 | wright_centennial-encyclopaedia-of-the-african-methodist-episcopal-church_1916 |
+
 ## `wright_political-poems-and-songs-v2_1861.txt`
 
 1 section(s) to level 2 · ~121,553 words of text · ~0 words of apparatus
@@ -14921,6 +22601,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 335,665 | 335,665 | wulfila_gothic-bible-v1-got_streitberg1908 |
 
+## `wulfstan-winchester_vita-s-ethelwoldi-pl137-lat_migne1853.txt`
+
+1 section(s) to level 2 · ~480,222 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 480,222 | 480,222 | wulfstan-winchester_vita-s-ethelwoldi-pl137-lat_migne1853 |
+
 ## `wyclif_de-civili-dominio-liber-primus-lat_poole1885.txt`
 
 1 section(s) to level 2 · ~191,588 words of text · ~0 words of apparatus
@@ -14931,11 +22619,11 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `wyclif_de-ecclesia-lat_loserth1886.txt`
 
-1 section(s) to level 2 · ~216,225 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~216,222 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 216,225 | 216,225 | wyclif_de-ecclesia-lat_loserth1886 |
+| `1` | 0 | 216,222 | 216,222 | wyclif_de-ecclesia-lat_loserth1886 |
 
 ## `wyclif_de-officio-regis-lat_pollard-sayle1887.txt`
 
@@ -14947,11 +22635,11 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `wyclif_de-veritate-sacrae-scripturae-lat_buddensieg1907.txt`
 
-1 section(s) to level 2 · ~149,701 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~149,698 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 149,701 | 149,701 | wyclif_de-veritate-sacrae-scripturae-lat_buddensieg1907 |
+| `1` | 0 | 149,698 | 149,698 | wyclif_de-veritate-sacrae-scripturae-lat_buddensieg1907 |
 
 ## `wyclif_english-works-hitherto-unprinted_matthew1880.txt`
 
@@ -15024,6 +22712,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 2,610,521 | 2,610,521 | wycliffite-bible_forshall-madden1850 |
+
+## `wylde_modern-abyssinia_1901.txt`
+
+1 section(s) to level 2 · ~253,033 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 253,033 | 253,033 | wylde_modern-abyssinia_1901 |
+
+## `wylie_memorials-of-protestant-missionaries-to-the-chinese_1867.txt`
+
+1 section(s) to level 2 · ~139,648 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 139,648 | 139,648 | wylie_memorials-of-protestant-missionaries-to-the-chinese_1867 |
 
 ## `yahballaha-sauma_histoire-de-mar-jabalaha-iii-et-rabban-cauma-fra_chabot1895.txt`
 
@@ -15113,13 +22817,29 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 321,762 | 321,762 | zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876 |
 
-## `zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893.txt`
+## `zankov_eastern-orthodox-church_lowrie1929.txt`
 
-1 section(s) to level 2 · ~76,041 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~38,927 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 76,041 | 76,041 | zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893 |
+| `1` | 0 | 38,927 | 38,927 | zankov_eastern-orthodox-church_lowrie1929 |
+
+## `zankov_orthodoxe-christentum-des-ostens-deu_1928.txt`
+
+1 section(s) to level 2 · ~55,560 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 55,560 | 55,560 | zankov_orthodoxe-christentum-des-ostens-deu_1928 |
+
+## `zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893.txt`
+
+1 section(s) to level 2 · ~76,058 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 76,058 | 76,058 | zara-yaqob_chroniques-zara-yaeqob-baeda-maryam-gez-fra_perruchon1893 |
 
 ## `zenahu-la-galla_geschichte-der-galla-deu_schleicher1893.txt`
 
@@ -15225,6 +22945,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 65,500 | 65,500 | zinzendorf_un-ymadrodd-ar-bumtheg-cym_williams1760 |
 
+## `zonaras_epitomae-historiarum-libri-xiii-xviii-t3-grc_buettner-wobst1897.txt`
+
+1 section(s) to level 2 · ~414,645 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 414,645 | 414,645 | zonaras_epitomae-historiarum-libri-xiii-xviii-t3-grc_buettner-wobst1897 |
+
 ## `zucchelli_missions-und-reise-beschreibung-nach-congo-deu_1715.txt`
 
 1 section(s) to level 2 · ~159,840 words of text · ~0 words of apparatus
@@ -15256,6 +22984,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 115,142 | 115,142 | zwingli_latin-works-correspondence-vol1_jackson1912 |
+
+## `zwingli_latin-works-correspondence-vol2_hinke1922.txt`
+
+1 section(s) to level 2 · ~139,307 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 139,307 | 139,307 | zwingli_latin-works-correspondence-vol2_hinke1922 |
 
 ## `zwingli_latin-works-correspondence-vol3_heller1929.txt`
 
