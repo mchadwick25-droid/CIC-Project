@@ -1,0 +1,42 @@
+{
+ "gregory-of-tours": {
+  "file": "gregory-of-tours.mp3",
+  "bytes": 2139994,
+  "chars": 2229,
+  "text_sha256": "f46022fd362a7cbbd2bc9ddc213dc7f7e7aca36e14479bf7bcd8907918c9aa13",
+  "voiceId": "MFZUKuGQUsGJPQjTS4wC",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_128",
+  "voiceSettings": {
+   "stability": 0.85,
+   "similarity_boost": 0.88,
+   "style": 0.05,
+   "use_speaker_boost": true,
+   "speed": 0.95
+  },
+  "charsSent": 2286,
+  "openTag": "[calmly]",
+  "closingTag": "[warmly]",
+  "requestId": "ewHDNil9Csp3fxuGBqBp"
+ },
+ "benedict-of-nursia": {
+  "file": "benedict-of-nursia.mp3",
+  "bytes": 2369035,
+  "chars": 2356,
+  "text_sha256": "a235dd05032e0101454d24b9ce119a13c7980388aec5bb7716ce06d68d611220",
+  "voiceId": "MFZUKuGQUsGJPQjTS4wC",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_128",
+  "voiceSettings": {
+   "stability": 0.85,
+   "similarity_boost": 0.88,
+   "style": 0.05,
+   "use_speaker_boost": true,
+   "speed": 0.95
+  },
+  "charsSent": 2407,
+  "openTag": "[calmly]",
+  "closingTag": "[warmly]",
+  "requestId": "MlANBBchKoFJEq5lRTry"
+ }
+}

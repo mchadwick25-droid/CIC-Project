@@ -16,3 +16,7 @@ Three card traditions are the scan's and name a record the person appears in, no
 | `<id>.card.json` | The card. Its fields are `name`, `otherNames`, `label` (outside witness only), `knownFor`, `dates`, `place`, `tradition`, `role`, `briefLength`, `keyWorks` (title, about), `legacy` (`traces`, `remembered`), `uncertain`, and `sources` (`ownWords`, `about`; each entry gives a title, an author where one applies, a language and its file under `cic/texts/`). A field with no content is left out. |
 | `audio/<id>.audio.txt` | The text sent to the voice: the brief with `[calmly]` at the start and `[warmly]` before the closing line. |
 | `records.json` | For each id, `claims` (claim, witness, `formation_confidence`), `contested_claims` (claim, sides), and `absent_details` (detail, note) for the honest limits. |
+
+## Standard v1 revision (2026-11-16)
+
+The Benedict of Nursia brief, card, audio script and records were replaced by the Standard v1 test texts (Mark, 2026-11-16: "yes this is a much better revision, i approve to move forward"). The brief is the same as `Who-Profiles/bar/benedict-of-nursia.brief.txt`. The card adds one field, `briefReferences`: the list of what the brief draws on, as work, edition and part used, shown below the brief (Mark: "we will also have the references listed below"). Modern scholars who came out of the brief are under the card's Sources and What is uncertain. The test record and the recorded audio are in `Build/Ministry/Operations/Audits/2026-11-15_standard-v1-test/`. Nothing is live until era 3 is released.

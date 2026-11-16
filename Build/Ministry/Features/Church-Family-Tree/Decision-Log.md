@@ -3881,3 +3881,21 @@ All files are in `Build/Ministry/Operations/Audits/2026-11-15_story-relations-cl
 - Then "we will also have the references listed below" and "i think we should mention the tradition they are a part of if they are".
 
 **What follows.** Gregory of Tours and Benedict are being revised on these points and re-recorded for Mark to hear. `Who_Profile_Pattern.md` and `Council_Profile_Pattern.md` are not changed yet. They take these rulings as Standard v1 only once Mark has heard the revised pair and approved it. The questions still open (quotation marks on our own English, and how reviews are run) are on the rulings page.
+
+## 2026-11-16 — Standard v1 approved to proceed (Mark, 2026-11-16)
+
+**Decided (Mark, 2026-11-16).** After hearing the revised Gregory of Tours and Benedict of Nursia briefs: "yes this is a much better revision, i approve to move forward". The rulings in "The Who brief: what Mark has ruled so far, from the Gregory of Tours and Benedict test" (2026-11-15) become Standard v1.
+
+**What changed.**
+- `Who_Profile_Pattern.md` has a new section, "Standard v1: setting, impact and witnesses". It covers the shape (personal, then impact); each stance with its sourced consequence, and more than one where the sources show it; the opening setting (year, place and region, tradition, what was going on); witnesses named only where trust turns on it; no modern scholars in the brief; references listed below; the length "target under 2 minutes, can streatch to 2:30 if needed, no hard cap"; the significance test "yes, or defended", with recorders kept; and "lets not loose the craft, rigor and access to what we talked about, it need all".
+- It replaces "round anchors and relative time first", the option to name a modern scholar in a clause, and the proposal "a bare year only where the year is the event". Checklist items 15 to 17 are added.
+- `Council_Profile_Pattern.md` takes Standard v1, with Mark's council length "target 2:00 but can streatch to 3". Modern historians' dates move from the brief to the entry's `datesNote` and `uncertain`.
+- `Worker_Brief_Template.md` is updated to match.
+- The two briefs join `Who-Profiles/bar/` as the Standard v1 examples. The eight stay the bar for prose, and where they differ from Standard v1, the two examples govern.
+- The old Gregory and Benedict files in era 3 batches 5 and 2 are replaced. The cards gain a `briefReferences` field.
+- The census, the live site and the live audio are unchanged. Era 3's release comes later.
+
+**Still open.** Quotation marks on our own English renderings, and how reviews are run. Both are marked open in the patterns, and the current text stands.
+
+**Record.** `Build/Ministry/Operations/Audits/2026-11-15_standard-v1-test/`: the reviews, the two paid recording runs (2,245 and 2,275 credits, both reconciled against the balance) and the approved audio.
+
