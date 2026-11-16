@@ -39,6 +39,18 @@ const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
 const SOURCE_KINDS = new Set(["primary", "secondary"]);
 const INTERNAL_NOTE = [/\.\.(?!\.)/, /\b(edges?|continuesAs|grade[ds]?)\b/i, /\b(the|this|our) census\b(?!\s+(recorded|listing|of\s+\d))/i, /\b[IVX]+\.\d+[a-z]?\b/];
 const squash = s => s.replace(/\s+/g, " ").trim();
+// A quote stands in its lines verbatim, whitespace aside. Where a line ends by breaking a word with "-",
+// the quote may give the word whole or with the break kept.
+function standsIn(lines, quote) {
+  const q = squash(quote);
+  if (squash(lines.join(" ")).includes(q)) return true;
+  let joined = "";
+  for (const line of lines) {
+    const t = line.trim();
+    joined = /\p{L}-$/u.test(joined) && /^\p{L}/u.test(t) ? joined.slice(0, -1) + t : `${joined} ${t}`;
+  }
+  return squash(joined).includes(q);
+}
 const textCache = new Map();
 function textLines(file) {
   if (!textCache.has(file)) textCache.set(file, existsSync(file) ? readFileSync(file, "utf8").split("\n") : null);
@@ -53,8 +65,7 @@ function checkHeldQuote(st, s) {
   if (!m) { errs.push(`${st}: lines must be "n" or "a-b"`); return; }
   const a = +m[1], b = +(m[2] ?? m[1]);
   if (a < 1 || b < a || b > lines.length) { errs.push(`${st}: lines ${s.lines} outside ${s.file}`); return; }
-  const span = squash(lines.slice(a - 1, b).join(" "));
-  if (!span.includes(squash(s.quote))) errs.push(`${st}: quote not found verbatim in ${s.file} lines ${s.lines}`);
+  if (!standsIn(lines.slice(a - 1, b), s.quote)) errs.push(`${st}: quote not found verbatim in ${s.file} lines ${s.lines}`);
 }
 const HEX = /^#[0-9A-Fa-f]{6}$/;
 // A movement's kind: absent means a church body; "cross-church movement" is a defined
@@ -557,7 +568,7 @@ function finishQuotes() {
           const lines = s.file.startsWith("cic/texts/") ? textLines(s.file) : null;
           const r = /^(\d+)(?:-(\d+))?$/.exec(String(s.lines));
           if (!lines || !r) errs.push(`${pt}: source ${s.file} lines ${s.lines} not found under cic/texts/`);
-          else if (!squash(lines.slice(+r[1] - 1, +(r[2] ?? r[1])).join(" ")).includes(squash(s.quote))) errs.push(`${pt}: quote not found verbatim in ${s.file} lines ${s.lines}`);
+          else if (!standsIn(lines.slice(+r[1] - 1, +(r[2] ?? r[1])), s.quote)) errs.push(`${pt}: quote not found verbatim in ${s.file} lines ${s.lines}`);
         }
       }
     }
