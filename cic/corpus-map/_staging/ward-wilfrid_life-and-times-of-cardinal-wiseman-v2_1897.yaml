@@ -1,0 +1,13 @@
+source_file: ward-wilfrid_life-and-times-of-cardinal-wiseman-v2_1897.txt
+assignments:
+- row_id: ward-wilfrid_life-and-times-of-cardinal-wiseman-v2_1897--ward-wiseman-v2
+  work: 'Ward, The Life and Times of Cardinal Wiseman, vol. II (1897)'
+  author: ward-wilfrid
+  locus: 'chapters XIX-XXXI at OCR lines 186-25496; the appendices at 25499-28475; add 12 to OCR line numbers'
+  atlas_ids:
+  - catholic-church-long-nineteenth-century
+  role: context
+  confidence: provisional
+  language: eng
+  date: {start: 1897, end: 1897, source: "title page: 1897", formation_confidence: Documented}
+  note: 'A Life written thirty years after Wiseman''s death, with many of his letters. The letters are first-hand; the account is Ward''s.'

@@ -1,0 +1,17 @@
+source_file: wilberforce-reginald_life-of-samuel-wilberforce-v2_1881.txt
+assignments:
+- row_id: wilberforce-reginald_life-of-samuel-wilberforce-v2_1881--wilberforce-reginald-life-of-samuel-wilberforce-v2
+  work: 'R. G. Wilberforce, Life of Samuel Wilberforce, vol. II (1881)'
+  author: wilberforce-reginald
+  locus: 'the chapters at OCR lines 695-20706; add 12 to OCR line numbers'
+  atlas_ids:
+  - victorian-church-of-england
+  role: context
+  confidence: provisional
+  language: eng
+  date: {start: 1881, end: 1881, source: "title page: 1881", formation_confidence: Documented}
+  note: 'The bishop''s son continues the Life from his father''s diaries and letters. The diary and letters are first-hand; the choice and the narrative are the son''s.'
+authors_ruled:
+  wilberforce-reginald:
+    kind: metadata-omission
+    evidence: "The title page reads 'by his son Reginald G. Wilberforce' (file lines 54-56)."

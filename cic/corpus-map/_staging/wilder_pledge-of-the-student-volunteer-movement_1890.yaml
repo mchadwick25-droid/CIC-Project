@@ -1,0 +1,13 @@
+source_file: wilder_pledge-of-the-student-volunteer-movement_1890.txt
+assignments:
+- row_id: wilder_pledge-of-the-student-volunteer-movement_1890--wilder-volunteer-pledge
+  work: 'Wilder, The Volunteer Pledge of the Student Volunteer Movement (June 1890)'
+  author: wilder
+  locus: 'the whole pamphlet at OCR lines 54-700; the pledge''s wording at 446-448; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-student-volunteer-movement-and-edinburgh-191
+  role: tradition
+  confidence: provisional
+  language: eng
+  date: {start: 1890, end: 1890, source: "title page: 'June, 1890.'", formation_confidence: Documented}
+  note: 'One of the movement''s founders explains its pledge and how to use it.'

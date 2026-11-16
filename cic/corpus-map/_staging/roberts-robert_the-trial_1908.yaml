@@ -1,0 +1,13 @@
+source_file: roberts-robert_the-trial_1908.txt
+assignments:
+- row_id: roberts-robert_the-trial_1908--roberts-the-trial
+  work: 'Roberts, The Trial (Birmingham, 1908)'
+  author: roberts-robert
+  locus: 'the twelve sittings at OCR lines 630-14712; add 12 to OCR line numbers'
+  atlas_ids:
+  - christadelphians
+  role: tradition
+  confidence: provisional
+  language: eng
+  date: {start: 1908, end: 1908, source: "title page: 1908 (page image); the preface carries no date", formation_confidence: Documented}
+  note: 'A defense of the resurrection cast as a court case, with counsel, witnesses and a verdict. The title page gives no author; the last leaf advertises Christendom Astray as ''by the same author''.'

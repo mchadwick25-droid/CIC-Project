@@ -1211,6 +1211,11 @@ authors:
     evidence: The title page names 'Extracts from the Diaries of Dr John Covel, 1670-1679'
       as part II (file line 200); the file name carries both diarists.
     from_file: dallam-covel_early-voyages-and-travels-in-the-levant_bent1893.txt
+  cox-george-w:
+    kind: metadata-omission
+    evidence: The title page reads 'by the Rev. Sir George W. Cox, Bart., M.A.' (file lines
+      275-277).
+    from_file: cox-george-w_life-of-john-william-colenso-v1_1888.txt
   curnock-nehemiah:
     kind: metadata-omission
     evidence: 'The header of this plain-text file names Nehemiah Curnock as Editor. The editorial
@@ -1800,6 +1805,12 @@ authors:
 
       '
     from_file: augustine_sermones-guelferbytani-lat_morin1917.txt
+  hamilton-j-taylor:
+    kind: metadata-omission
+    evidence: The title page names three authors (file lines 101-121); Hamilton's history
+      has its own title, 'by J. Taylor Hamilton, Professor of Church History in the Moravian
+      Theological Seminary at Bethlehem, Pa.' (file lines 17831-17841).
+    from_file: corwin-dubbs-hamilton_american-church-history-v8-reformed-and-moravian_1895.txt
   hargrove:
     kind: metadata-omission
     evidence: 'The title page reads ''By John Hargrove, Minister of the New Jerusalem Church,
@@ -2704,6 +2715,11 @@ authors:
 
       '
     from_file: moravian-church_acta-fratrum-unitatis-in-anglia_1749.txt
+  morning-watch:
+    kind: anonymous
+    evidence: The title page (file lines 73-114) names the journal, its printer and its publisher,
+      and no editor; the articles are unsigned or signed with initials.
+    from_file: morning-watch_v1-1829_1830.txt
   morozova:
     kind: metadata-omission
     evidence: 'Plain-text vendored file whose leading token is the editor barskov; Boyarynia
@@ -2887,6 +2903,10 @@ authors:
 
       '
     from_file: morris-john_troubles-of-our-catholic-forefathers-ser3_1877.txt
+  pacific-garden-mission:
+    kind: anonymous
+    evidence: A corporate report; the cover names the mission and no author (file lines 16-36).
+    from_file: pacific-garden-mission_fortieth-annual-statement_1916.txt
   pantaenus:
     kind: metadata-omission
     evidence: div2 10.15 'Pantaenus, the Alexandrian Philosopher'.
@@ -3858,6 +3878,10 @@ authors:
 
       '
     from_file: wigram_assyrians-and-their-neighbours_1929.txt
+  wilberforce-reginald:
+    kind: metadata-omission
+    evidence: The title page reads 'by his son Reginald G. Wilberforce' (file lines 54-56).
+    from_file: wilberforce-reginald_life-of-samuel-wilberforce-v2_1881.txt
   wilberforce-robert-and-samuel:
     kind: metadata-omission
     evidence: The title page (file lines 112-162) reads 'by his sons, Robert Isaac Wilberforce,

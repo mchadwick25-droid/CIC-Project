@@ -1,0 +1,17 @@
+source_file: pacific-garden-mission_thirty-first-annual-report_1908.txt
+assignments:
+- row_id: pacific-garden-mission_thirty-first-annual-report_1908--pacific-garden-mission-thirty-first-annual-report
+  work: 'Pacific Garden Mission, thirty-first annual report (1908)'
+  author: pacific-garden-mission
+  locus: 'the report at OCR lines 47-940; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-rescue-mission-movement
+  role: tradition
+  confidence: provisional
+  language: eng
+  date: {start: 1908, end: 1908, source: "the report is for the year ended 15 September 1908", formation_confidence: Documented}
+  note: 'The mission''s own yearly account of its work and money, with three converts'' testimonies in their own words.'
+authors_ruled:
+  pacific-garden-mission:
+    kind: anonymous
+    evidence: "A corporate report; the cover names the mission and no author (file lines 15-42)."

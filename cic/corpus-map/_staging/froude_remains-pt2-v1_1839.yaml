@@ -1,0 +1,13 @@
+source_file: froude_remains-pt2-v1_1839.txt
+assignments:
+- row_id: froude_remains-pt2-v1_1839--froude-remains-pt2-v1
+  work: 'Froude, Remains, part the second, vol. I (1839)'
+  author: froude
+  locus: 'the essays and papers at OCR lines 2081-18346; the editors'' preface at 37-2037; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-oxford-movement-and-anglo-catholic-revival
+  role: tradition
+  confidence: provisional
+  language: eng
+  date: {start: 1839, end: 1839, source: "title page: 1839", formation_confidence: Documented}
+  note: 'Froude''s essays on rationalism, church and state, and discipline, with a long unsigned preface by the editors answering the first part''s critics.'
