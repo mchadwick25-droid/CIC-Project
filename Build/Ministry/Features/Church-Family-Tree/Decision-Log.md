@@ -4072,3 +4072,17 @@ The score measures only sentence length and syllables, so it cannot tell a punch
 - `CLAUDE.md`, "Accessible and rigorous": the target line now says this for Church Family Tree briefs. Representative turns (`engine/m7/turn_readability.py`) are not changed; this ruling was made for the briefs.
 - `Build/Ministry/Operations/Audits/2026-11-16_polycarp-clean-write/Standard_draft.md`: both lines replaced.
 - `Who_Profile_Pattern.md`, "The readability method", still calls grade 8 a floor that fails. It stays as written while calibration runs; what the one-page standard replaces is ruled when calibration ends (this log, "The story process", 2026-11-16).
+
+## 2026-11-16 — Six lines for the one-page standard, from three outside writing traditions (Mark, 2026-11-16)
+
+**Why.** Mark: "how can we use other writing standards to help us? i feel like we can learn from their expertise". Ruled: "yes, run the lens with those three". A research agent read the guidance of three traditions and mapped 18 principles against the one-page standard: writing for the ear (NPR Training; the BBC's "Writing for Radio", Radio cues and News style guide), museum gallery text (the V&A Ten Point Guide; the British Museum's 2022 guidelines) and global Christian biography (the Dictionary of African Christian Biography's guidelines and manual; the Biographical Dictionary of Chinese Christianity's guidelines). The Oxford DNB's notes for contributors could not be read, as the site blocks automated clients. The map is on the coordinator's page (https://claude.ai/artifact/Df4TxbyxbskR5NiKFJhccY, "What the three traditions teach us"). The guides go to the reviewer as a lens, never to the writer.
+
+**Decided (Mark, 2026-11-16): "all six, then run round 3".** Each change replaces or extends an existing line; none adds a rule.
+1. "One thought per sentence, with each subject close to its verb. No sentence past about 30 words."
+2. "Give the reason for an act, or for any word or custom that would puzzle a newcomer, in the same sentence. Take the reason from the sheet."
+3. "Praise or blame" joins the list of times a speaker or writer is named.
+4. "Tell only what the record supports, and only what this story needs. The sheet will always hold more."
+5. "The reviewer first takes it in once through, as a listener would, without going back, and marks where they got lost or drifted." An AI reviewer cannot hear, so Mark's spot-check listens remain the real ear.
+6. "Use plain modern words: simplify the language, never the thought."
+
+**Kept, where the traditions conflict with ours.** Three rules stay as they are. A story heard straight through does not open on its key message, the museum label's "key message first". Hearsay and oral tradition enter only when they are on the sheet and marked. A wonder is told as its witness tells it, with no sneer and no endorsement.
