@@ -8,7 +8,7 @@ A story of about two and a half minutes that lets anyone, anywhere, meet one per
 
 The approved Polycarp brief, paragraph by paragraph. Do the same jobs with your own person's record. Do not copy Polycarp's sentences, or his order where the record calls for another.
 
-**Their own voice.** Begin with the moment or words that show who they were. The listener leans in before knowing the name.
+**Draw the listener in.** Open with what in this person's record pulls a listener in best: a scene, someone else's words about them, a letter or an object, their own words, or a question the record raises. Make it different from the briefs around it. Polycarp opens on his own words; Ignatius opens on a scene.
 
 > "For eighty-six years I have served him, and he has done me no wrong. How can I blaspheme my King, who saved me?"
 
