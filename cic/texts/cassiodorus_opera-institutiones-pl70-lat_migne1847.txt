@@ -4,7 +4,7 @@ Creator: Cassiodorus (c. 485-c. 585) (J.-P. Migne, compiler)
 Publisher: Paris, Migne (the host's date field reads 1800, a placeholder; the series was printed
     1844-1866)
 Rights: Public Domain
-Rights basis: 1866 publication, out of US copyright by date; the item carries no copyright field of
+Rights basis: 1865 publication, out of US copyright by date; the item carries no copyright field of
     its own, so the imprint date is the basis, read directly 2026-10-23. The host's date
     field reads 1800 (a placeholder); Migne's Patrologia Latina volumes were printed
     between 1844 and 1866, so before 1930 on any reading.

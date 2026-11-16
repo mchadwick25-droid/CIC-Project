@@ -1,7 +1,7 @@
 Title: Narrative of Travels in Europe, Asia, and Africa, in the Seventeenth Century, by Evliya Efendi; translated from the Turkish by the Ritter Joseph von Hammer; volume I, part 2
 Creator: Evliya Efendi (Evliya Chelebi); Joseph von Hammer (translator)
 Publisher: London: printed for the Oriental Translation Fund of Great Britain and Ireland (title page)
-Publication Date: 1846 (title page, OCR line 72: M.DCCC.XLVI); the title page's own words are 'Vol. I, Part I', but the text is Part II, beginning at Section XXXI
+Publication Date: 1846 (title page, OCR line 72: M.DCCC.XLVI); the title page prints 'VOL. I., PART II.' (read on the page image; the OCR at line 59 reads 'VO. 1, PART I'), and the text begins at Section XXXI
 Rights: Public Domain (pd-us-by-date: published 1846); the archive.org record carries no rights field, so the imprint date is the basis
 Language: eng
 Source: archive.org item india.history.resource.37537, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (719,718) equals the size archive.org lists for the djvu.txt.

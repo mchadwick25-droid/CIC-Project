@@ -1,9 +1,9 @@
 Title: Patrologiae Cursus Completus, Series Latina, tomus LXXXIII (Sancti Isidori Hispalensis
     episcopi Opera omnia, tomi quintus, sextus et septimus)
 Creator: Isidore of Seville (c. 560-636) (J.-P. Migne, compiler)
-Publisher: Paris, Migne, 1860
+Publisher: Paris, Migne, 1862
 Rights: Public Domain
-Rights basis: 1860 publication, out of US copyright by date; the item carries no copyright field of
+Rights basis: 1862 publication, out of US copyright by date; the item carries no copyright field of
     its own, so the imprint date is the basis, read directly 2026-10-23. The host's date
     field reads 1844; the volume's own text refers to the series prospectus of December
     1860.

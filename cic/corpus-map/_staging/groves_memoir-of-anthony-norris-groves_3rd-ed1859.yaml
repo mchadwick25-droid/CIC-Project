@@ -11,10 +11,10 @@ assignments:
   language: eng
   date:
     formation_confidence: unknown
-    checked: the title page and front matter of this printing (1859); they do not state when the text was first
+    checked: the title page and front matter of this printing (1869); they do not state when the text was first
       written
   edition_date:
-    year: 1859
-    source: OCR line 120, on the title page
+    year: 1869
+    source: the title page, read on the page image; the OCR at line 120 reads 1859
     formation_confidence: Documented
   note: 'Era 9 row 182, Anthony Norris Groves: the memoir by his widow, from his journals and letters.'
