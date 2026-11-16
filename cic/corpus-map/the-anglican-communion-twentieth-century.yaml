@@ -3,6 +3,36 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-anglican-communion-twentieth-century
 works:
+- row_id: christian-east_v1-no1-march-1920--whole
+  work: The Christian East, volume I, number 1 (March, 1920)
+  author: christian-east
+  locus: whole
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1920
+    end: 1920
+    source: 'masthead: ''March, 1920'''
+    formation_confidence: Documented
+  note: One number of the quarterly, by many writers. The Eastern documents it prints are
+    in the journal's English unless a row says otherwise.
+  source_file: christian-east_v1-no1-march-1920.txt
+- row_id: christian-east_v1-no2-june-1920--whole
+  work: The Christian East, volume I, number 2 (June, 1920)
+  author: christian-east
+  locus: whole
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1920
+    end: 1920
+    source: 'masthead: ''June, 1920'''
+    formation_confidence: Documented
+  note: One number of the quarterly, by many writers. The Eastern documents it prints are
+    in the journal's English unless a row says otherwise.
+  source_file: christian-east_v1-no2-june-1920.txt
 - row_id: christian-east_v1-no3-september-1920--the-christian-east-volume-i-number-3-september-1920
   work: The Christian East, volume I, number 3 (September, 1920)
   author: christian-east
@@ -12,6 +42,36 @@ works:
   note: An Anglican quarterly on the Eastern churches; many writers, and the documents it
     prints are in translation.
   source_file: christian-east_v1-no3-september-1920.txt
+- row_id: christian-east_v1-no4-december-1920--whole
+  work: The Christian East, volume I, number 4 (December, 1920)
+  author: christian-east
+  locus: whole
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1920
+    end: 1920
+    source: 'masthead: ''December, 1920'''
+    formation_confidence: Documented
+  note: One number of the quarterly, by many writers. The Eastern documents it prints are
+    in the journal's English unless a row says otherwise.
+  source_file: christian-east_v1-no4-december-1920.txt
+- row_id: christian-east_v2-no1-april-1921--whole
+  work: The Christian East, volume II, number 1 (April, 1921)
+  author: christian-east
+  locus: whole
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1921
+    end: 1921
+    source: 'masthead: ''April, 1921'''
+    formation_confidence: Documented
+  note: One number of the quarterly, by many writers. The Eastern documents it prints are
+    in the journal's English unless a row says otherwise.
+  source_file: christian-east_v2-no1-april-1921.txt
 - row_id: christian-east_v2-no2-july-1921--the-christian-east-volume-ii-number-2-july-1921
   work: The Christian East, volume II, number 2 (July, 1921)
   author: christian-east
@@ -21,6 +81,51 @@ works:
   note: An Anglican quarterly on the Eastern churches; many writers, and the documents it
     prints are in translation.
   source_file: christian-east_v2-no2-july-1921.txt
+- row_id: christian-east_v2-no3-september-1921--whole
+  work: The Christian East, volume II, number 3 (September, 1921)
+  author: christian-east
+  locus: whole
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1921
+    end: 1921
+    source: 'masthead: ''September, 1921'''
+    formation_confidence: Documented
+  note: One number of the quarterly, by many writers. The Eastern documents it prints are
+    in the journal's English unless a row says otherwise.
+  source_file: christian-east_v2-no3-september-1921.txt
+- row_id: christian-east_v2-no4-december-1921--whole
+  work: The Christian East, volume II, number 4 (December, 1921)
+  author: christian-east
+  locus: whole
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1921
+    end: 1921
+    source: 'masthead: ''December, 1921'''
+    formation_confidence: Documented
+  note: One number of the quarterly, by many writers. The Eastern documents it prints are
+    in the journal's English unless a row says otherwise.
+  source_file: christian-east_v2-no4-december-1921.txt
+- row_id: christian-east_v3-no1-march-1922--whole
+  work: The Christian East, volume III, number 1 (March, 1922)
+  author: christian-east
+  locus: whole
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1922
+    end: 1922
+    source: 'masthead: ''March, 1922'''
+    formation_confidence: Documented
+  note: One number of the quarterly, by many writers. The Eastern documents it prints are
+    in the journal's English unless a row says otherwise.
+  source_file: christian-east_v3-no1-march-1922.txt
 - row_id: christian-east_v3-no2-july-1922--the-christian-east-volume-iii-number-2-july-1922
   work: The Christian East, volume III, number 2 (July, 1922)
   author: christian-east
@@ -39,6 +144,21 @@ works:
   note: An Anglican quarterly on the Eastern churches; many writers, and the documents it
     prints are in translation.
   source_file: christian-east_v3-no3-october-1922.txt
+- row_id: christian-east_v3-no4-december-1922--whole
+  work: The Christian East, volume III, number 4 (December, 1922)
+  author: christian-east
+  locus: whole
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1922
+    end: 1922
+    source: 'masthead: ''December, 1922'''
+    formation_confidence: Documented
+  note: One number of the quarterly, by many writers. The Eastern documents it prints are
+    in the journal's English unless a row says otherwise.
+  source_file: christian-east_v3-no4-december-1922.txt
 - row_id: christian-east_v4-no1-march-1923--the-christian-east-volume-iv-number-1-march-1923
   work: The Christian East, volume IV, number 1 (March, 1923)
   author: christian-east
@@ -75,6 +195,291 @@ works:
   note: An Anglican quarterly on the Eastern churches; many writers, and the documents it
     prints are in translation.
   source_file: christian-east_v4-no4-november-1923.txt
+- row_id: christian-east_v9-no1-spring-1928--whole
+  work: The Christian East, volume IX, number 1 (Spring, 1928)
+  author: christian-east
+  locus: whole
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1928
+    end: 1928
+    source: 'masthead: ''Spring, 1928'''
+    formation_confidence: Documented
+  note: One number of the quarterly, by many writers. The Eastern documents it prints are
+    in the journal's English unless a row says otherwise.
+  source_file: christian-east_v9-no1-spring-1928.txt
+- row_id: christian-east_v9-no2-summer-1928--whole
+  work: The Christian East, volume IX, number 2 (Summer, 1928)
+  author: christian-east
+  locus: whole
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1928
+    end: 1928
+    source: 'masthead: ''Summer, 1928'''
+    formation_confidence: Documented
+  note: One number of the quarterly, by many writers. The Eastern documents it prints are
+    in the journal's English unless a row says otherwise.
+  source_file: christian-east_v9-no2-summer-1928.txt
+- row_id: christian-east_v9-no3-autumn-1928--whole
+  work: The Christian East, volume IX, number 3 (Autumn, 1928)
+  author: christian-east
+  locus: whole
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1928
+    end: 1928
+    source: 'masthead: ''Autumn, 1928'''
+    formation_confidence: Documented
+  note: One number of the quarterly, by many writers. The Eastern documents it prints are
+    in the journal's English unless a row says otherwise.
+  source_file: christian-east_v9-no3-autumn-1928.txt
+- row_id: christian-east_v9-no4-winter-1928--whole
+  work: The Christian East, volume IX, number 4 (Winter, 1928)
+  author: christian-east
+  locus: whole
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1928
+    end: 1928
+    source: 'masthead: ''Winter, 1928'''
+    formation_confidence: Documented
+  note: One number of the quarterly, by many writers. The Eastern documents it prints are
+    in the journal's English unless a row says otherwise.
+  source_file: christian-east_v9-no4-winter-1928.txt
+- row_id: christian-east_v5-no1-february-1924--whole
+  work: The Christian East, volume V, number 1 (February, 1924)
+  author: christian-east
+  locus: whole
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1924
+    end: 1924
+    source: 'masthead: ''February, 1924'''
+    formation_confidence: Documented
+  note: One number of the quarterly, by many writers. The Eastern documents it prints are
+    in the journal's English unless a row says otherwise.
+  source_file: christian-east_v5-no1-february-1924.txt
+- row_id: christian-east_v5-no2-may-1924--whole
+  work: The Christian East, volume V, number 2 (May, 1924)
+  author: christian-east
+  locus: whole
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1924
+    end: 1924
+    source: 'masthead: ''May, 1924'''
+    formation_confidence: Documented
+  note: One number of the quarterly, by many writers. The Eastern documents it prints are
+    in the journal's English unless a row says otherwise.
+  source_file: christian-east_v5-no2-may-1924.txt
+- row_id: christian-east_v5-no3-september-1924--whole
+  work: The Christian East, volume V, number 3 (September, 1924)
+  author: christian-east
+  locus: whole
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1924
+    end: 1924
+    source: 'masthead: ''September, 1924'''
+    formation_confidence: Documented
+  note: One number of the quarterly, by many writers. The Eastern documents it prints are
+    in the journal's English unless a row says otherwise.
+  source_file: christian-east_v5-no3-september-1924.txt
+- row_id: christian-east_v5-no4-december-1924--whole
+  work: The Christian East, volume V, number 4 (December, 1924)
+  author: christian-east
+  locus: whole
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1924
+    end: 1924
+    source: 'masthead: ''December, 1924'''
+    formation_confidence: Documented
+  note: One number of the quarterly, by many writers. The Eastern documents it prints are
+    in the journal's English unless a row says otherwise.
+  source_file: christian-east_v5-no4-december-1924.txt
+- row_id: christian-east_v6-no1-march-1925--whole
+  work: The Christian East, volume VI, number 1 (March, 1925)
+  author: christian-east
+  locus: whole
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1925
+    end: 1925
+    source: 'masthead: ''March, 1925'''
+    formation_confidence: Documented
+  note: One number of the quarterly, by many writers. The Eastern documents it prints are
+    in the journal's English unless a row says otherwise.
+  source_file: christian-east_v6-no1-march-1925.txt
+- row_id: christian-east_v6-no2-june-1925--whole
+  work: The Christian East, volume VI, number 2 (June, 1925)
+  author: christian-east
+  locus: whole
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1925
+    end: 1925
+    source: 'masthead: ''June, 1925'''
+    formation_confidence: Documented
+  note: One number of the quarterly, by many writers. The Eastern documents it prints are
+    in the journal's English unless a row says otherwise.
+  source_file: christian-east_v6-no2-june-1925.txt
+- row_id: christian-east_v6-no3-september-1925--whole
+  work: The Christian East, volume VI, number 3 (September, 1925)
+  author: christian-east
+  locus: whole
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1925
+    end: 1925
+    source: 'masthead: ''September, 1925'''
+    formation_confidence: Documented
+  note: One number of the quarterly, by many writers. The Eastern documents it prints are
+    in the journal's English unless a row says otherwise.
+  source_file: christian-east_v6-no3-september-1925.txt
+- row_id: christian-east_v6-no4-january-1926--whole
+  work: The Christian East, volume VI, number 4 (January, 1926)
+  author: christian-east
+  locus: whole
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1926
+    end: 1926
+    source: 'masthead: ''January, 1926'''
+    formation_confidence: Documented
+  note: One number of the quarterly, by many writers. The Eastern documents it prints are
+    in the journal's English unless a row says otherwise.
+  source_file: christian-east_v6-no4-january-1926.txt
+- row_id: christian-east_v7-no1-april-1926--whole
+  work: The Christian East, volume VII, number 1 (April, 1926)
+  author: christian-east
+  locus: whole
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1926
+    end: 1926
+    source: 'masthead: ''April, 1926'''
+    formation_confidence: Documented
+  note: One number of the quarterly, by many writers. The Eastern documents it prints are
+    in the journal's English unless a row says otherwise.
+  source_file: christian-east_v7-no1-april-1926.txt
+- row_id: christian-east_v7-no2-june-1926--whole
+  work: The Christian East, volume VII, number 2 (June, 1926)
+  author: christian-east
+  locus: whole
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1926
+    end: 1926
+    source: 'masthead: ''June, 1926'''
+    formation_confidence: Documented
+  note: One number of the quarterly, by many writers. The Eastern documents it prints are
+    in the journal's English unless a row says otherwise.
+  source_file: christian-east_v7-no2-june-1926.txt
+- row_id: christian-east_v7-no3-september-1926--whole
+  work: The Christian East, volume VII, number 3 (September, 1926)
+  author: christian-east
+  locus: whole
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1926
+    end: 1926
+    source: 'masthead: ''September, 1926'''
+    formation_confidence: Documented
+  note: One number of the quarterly, by many writers. The Eastern documents it prints are
+    in the journal's English unless a row says otherwise.
+  source_file: christian-east_v7-no3-september-1926.txt
+- row_id: christian-east_v7-no4-december-1926--whole
+  work: The Christian East, volume VII, number 4 (December, 1926)
+  author: christian-east
+  locus: whole
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1926
+    end: 1926
+    source: 'masthead: ''December, 1926'''
+    formation_confidence: Documented
+  note: One number of the quarterly, by many writers. The Eastern documents it prints are
+    in the journal's English unless a row says otherwise.
+  source_file: christian-east_v7-no4-december-1926.txt
+- row_id: christian-east_v8-no1-march-1927--whole
+  work: The Christian East, volume VIII, number 1 (March, 1927)
+  author: christian-east
+  locus: whole
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1927
+    end: 1927
+    source: 'masthead: ''March, 1927'''
+    formation_confidence: Documented
+  note: One number of the quarterly, by many writers. The Eastern documents it prints are
+    in the journal's English unless a row says otherwise.
+  source_file: christian-east_v8-no1-march-1927.txt
+- row_id: christian-east_v8-no2-june-1927--whole
+  work: The Christian East, volume VIII, number 2 (June, 1927)
+  author: christian-east
+  locus: whole
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1927
+    end: 1927
+    source: 'masthead: ''June, 1927'''
+    formation_confidence: Documented
+  note: One number of the quarterly, by many writers. The Eastern documents it prints are
+    in the journal's English unless a row says otherwise.
+  source_file: christian-east_v8-no2-june-1927.txt
+- row_id: christian-east_v8-no3-autumn-1927--whole
+  work: The Christian East, volume VIII, number 3 (Autumn, 1927)
+  author: christian-east
+  locus: whole
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1927
+    end: 1927
+    source: 'masthead: ''Autumn, 1927'''
+    formation_confidence: Documented
+  note: One number of the quarterly, by many writers. The Eastern documents it prints are
+    in the journal's English unless a row says otherwise.
+  source_file: christian-east_v8-no3-autumn-1927.txt
 - row_id: christian-east_v8-no4-winter-1927--the-christian-east-volume-viii-number-4-winter-1927
   work: The Christian East, volume VIII, number 4 (Winter, 1927)
   author: christian-east
@@ -93,6 +498,51 @@ works:
   note: An Anglican quarterly on the Eastern churches; many writers, and the documents it
     prints are in translation.
   source_file: christian-east_v10-no1-spring-1929.txt
+- row_id: christian-east_v10-no2-summer-1929--whole
+  work: The Christian East, volume X, number 2 (Summer, 1929)
+  author: christian-east
+  locus: whole
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1929
+    end: 1929
+    source: 'masthead: ''Summer, 1929'''
+    formation_confidence: Documented
+  note: One number of the quarterly, by many writers. The Eastern documents it prints are
+    in the journal's English unless a row says otherwise.
+  source_file: christian-east_v10-no2-summer-1929.txt
+- row_id: christian-east_v10-no3-autumn-1929--whole
+  work: The Christian East, volume X, number 3 (Autumn, 1929)
+  author: christian-east
+  locus: whole
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1929
+    end: 1929
+    source: 'masthead: ''Autumn, 1929'''
+    formation_confidence: Documented
+  note: One number of the quarterly, by many writers. The Eastern documents it prints are
+    in the journal's English unless a row says otherwise.
+  source_file: christian-east_v10-no3-autumn-1929.txt
+- row_id: christian-east_v10-no4-winter-1929--whole
+  work: The Christian East, volume X, number 4 (Winter, 1929)
+  author: christian-east
+  locus: whole
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1929
+    end: 1929
+    source: 'masthead: ''Winter, 1929'''
+    formation_confidence: Documented
+  note: One number of the quarterly, by many writers. The Eastern documents it prints are
+    in the journal's English unless a row says otherwise.
+  source_file: christian-east_v10-no4-winter-1929.txt
 - row_id: christian-east_v11-no1-spring-1930--the-christian-east-volume-xi-number-1-spring-1930
   work: The Christian East, volume XI, number 1 (Spring, 1930)
   author: christian-east
@@ -111,6 +561,54 @@ works:
   note: An Anglican quarterly on the Eastern churches; many writers, and the documents it
     prints are in translation.
   source_file: christian-east_v11-no2-summer-1930.txt
+- row_id: christian-east_v11-no3-autumn-1930--whole
+  work: The Christian East, volume XI, number 3 (Autumn, 1930)
+  author: christian-east
+  locus: whole
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1930
+    end: 1930
+    source: 'masthead: ''Autumn, 1930'''
+    formation_confidence: Documented
+  note: One number of the quarterly, by many writers. The Eastern documents it prints are
+    in the journal's English unless a row says otherwise.
+  source_file: christian-east_v11-no3-autumn-1930.txt
+- row_id: international-review-of-missions_v7_1918--willis-the-organization-of-the-anglican-church-in-uganda
+  work: J. J. Willis, 'The Organization of the Anglican Church in Uganda' (International Review
+    of Missions, 1918)
+  author: international-review-of-missions
+  locus: OCR lines 30383-30938; add 12 to OCR line numbers
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1918
+    end: 1918
+    source: printed in the number of October 1918
+    formation_confidence: Documented
+  note: The by-line reads 'Bishop J. J. Willis' and the article is signed 'J. J. Uganda';
+    his own account of the church's constitution and synod.
+  source_file: international-review-of-missions_v7_1918.txt
+- row_id: international-review-of-missions_v18_1929--azariah-living-forces-behind-mass-movements
+  work: V. S. Azariah, Bishop of Dornakal, 'Living Forces behind Mass Movements' (International
+    Review of Missions, 1929)
+  author: international-review-of-missions
+  locus: OCR lines 35978-36467; add 12 to OCR line numbers
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1929
+    end: 1929
+    source: printed in the number of October 1929
+    formation_confidence: Documented
+  note: The by-line gives his see; the article is signed 'V. S. Azariah' (OCR line 36467,
+    where the OCR reads 'Azariar') and the notes on contributors name 'The Rt Rev. Vedanayakam
+    S. Azariah, Bishop of Dornakal' (OCR line 43013).
+  source_file: international-review-of-missions_v18_1929.txt
 - row_id: lambeth-conference_1908-encyclical-letter-resolutions-and-reports_spck1908--lambeth-conference-1908-encyclical-letter-resolutions-and
   work: 'Lambeth Conference 1908: Encyclical Letter, Resolutions and Reports'
   author: lambeth-conference

@@ -1049,6 +1049,17 @@ his, and the statement of each rule is the coordinator's. They are recorded in `
   the original byte count. The raw copies are not kept in the repo. The files of Путь on main give the stamp's
   text, the line count, the item and the byte count, and not a URL; their headers are to be brought to R14 in
   the next pull request. Nothing was removed from any file of this batch.
+- **R11 as the one rule for checking our own renderings (Mark, 2026-11-16: "R11 as the one rule (Recommended)").**
+  The choice was one of four Mark made on the rendering proposal the coordinator put to him
+  (https://claude.ai/artifact/6dzfNKYrABrFFRpdcd6epq); the others were "A: guides now, passages when used
+  (Recommended)", "Yes, Groen van Prinsterer (Recommended)" and "New cic/renderings/ folder (Recommended)". As
+  the coordinator states it: a second independent rendering, by an agent that never sees the first, checks
+  every rendering of ours; differences in meaning are marked uncertain and both readings are kept. This
+  replaces the lines of `cic/texts/INTAKE.md` that named an Opus translation with a second Opus pass, and
+  widens R11 from era 10 to every rendering. The model follows `CLAUDE.md`; the coordinator adds an exception
+  of Mark's that lets Fable render, whose words were not passed to this thread, so `INTAKE.md` says only
+  "unless Mark has made an exception for the work in hand". The `cic/renderings/` folder is not made until
+  Mark has approved a sample, and the root `README.md` map is updated first when it is.
 
 ### Next action
 

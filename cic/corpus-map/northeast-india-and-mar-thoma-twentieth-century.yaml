@@ -3,6 +3,23 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: northeast-india-and-mar-thoma-twentieth-century
 works:
+- row_id: international-review-of-missions_v9_1920--mar-thoma-statement-on-church-union-in-south-india-1919
+  work: Statement from the Malabar Suffragan and other members of the Mar Thoma Syrian Church
+    on church union in South India (International Review of Missions, 1920)
+  author: international-review-of-missions
+  locus: OCR lines 8277-8429; add 12 to OCR line numbers
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1919
+    end: 1920
+    source: it answers an invitation from a conference of May 1 and 2, 1919 (OCR line 8283);
+      printed in the number of January 1920
+    formation_confidence: Documented
+  note: The Mar Thoma members' own statement, signed by Abraham Mar Thoma, Malabar Suffragan,
+    and two others, among the official documents on union.
+  source_file: international-review-of-missions_v9_1920.txt
 - row_id: malankara-sabha-tharaka_v6-no12-mal_1910--malankara-sabha-tharaka-volume-6-number-12-1910
   work: Malankara Sabha Tharaka, volume 6, number 12 (1910)
   author: malankara-sabha-tharaka

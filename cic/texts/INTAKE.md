@@ -31,12 +31,15 @@ practice:
 - A quote record holds the original-language text, verified against the
   vendored file, the same verification discipline every English quote
   already gets.
-- The modern English a Representative actually speaks is an Opus
-  translation of that original, independently Opus-checked, and marked in
-  the record as rendered from the original rather than quoted from an
-  existing English edition.
+- The modern English a Representative speaks, or a card prints, is our own
+  rendering of that original, marked in the record as rendered from the
+  original rather than quoted from an existing English edition. A second
+  rendering, made independently by an agent that never sees the first,
+  checks it. Any difference in meaning is marked uncertain, and both
+  readings are kept. The model that renders is the one `CLAUDE.md` names
+  for renderings, unless Mark has made an exception for the work in hand.
 - A public-domain English translation, where one exists, is a cross-check
-  against the Opus rendering — useful, not required. Its absence is not a
+  against our rendering — useful, not required. Its absence is not a
   reason to treat the original as unusable.
 - **Scan quality decides quotability, not language.** A garbled OCR
   scan — long ſ, þ, ð and similar systematic encoding failures aside,
@@ -139,9 +142,9 @@ order of how often they'll actually come up:
 - **Martin Luther King Jr.** — cite and link only. No quotation, no rendering.
 - **A work we do not hold** is never quoted. A profile gives facts and a
   citation.
-- **Our own rendering from an old original** (era 10) — where no old English
-  translation exists to check against, a second independent rendering checks
-  the first, and differences are marked uncertain on the card.
+- **Our own rendering from an old original** — a second independent
+  rendering checks the first, whether or not an old English translation
+  exists, and differences in meaning are marked uncertain on the card.
 - Anything else: treat like an English translation from an unfamiliar host —
   find the host's own explicit rights statement before proceeding, never
   infer one from silence.
