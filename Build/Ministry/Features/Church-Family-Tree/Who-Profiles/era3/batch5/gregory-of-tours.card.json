@@ -44,7 +44,8 @@
     "The year of his healing at Martin's tomb. His Latin gives the 163rd year after Martin's passing, which Arndt reckons as 563; Brehaut's English has the hundred and sixtieth. Arndt says Gregory was already a deacon then.",
     "A journey to Rome. A Life of Gregory, which Arndt dates to the tenth century, says he went to Rome before his death; Arndt rejects it. No copy of that Life is quoted here.",
     "His name. Arndt says it is doubtful whether he took the name Gregory only when ordained; Brehaut says he dropped the name Georgius Florentinus to honor his great-grandfather.",
-    "The trial. His charge before the bishops at Berny is known only from his own History, the accused party's account. Venantius Fortunatus wrote a poem to King Chilperic for that synod; O. M. Dalton notes that it praises Queen Fredegund and says nothing of the affair. The council met at Brinnacum in the Latin, which is Berny in Dalton's English and Braine in Brehaut's."
+    "The trial. His charge before the bishops at Berny is known only from his own History, the accused party's account. Venantius Fortunatus wrote a poem to King Chilperic for that synod; O. M. Dalton notes that it praises Queen Fredegund and says nothing of the affair. The council met at Brinnacum in the Latin, which is Berny in Dalton's English and Braine in Brehaut's.",
+    "Where the modern English of a quotation follows Gregory's Latin over Dalton's English, it does so on purpose: \"ruined and destroyed by the fire\" leaves out Dalton's \"all\", the king's demand names \"the teachers of the churches\" in the Latin's plural, and \"this plan\" follows \"ab hac intentione\". The printed English is kept under quotationOriginals."
   ],
   "sources": {
     "ownWords": [
@@ -134,7 +135,8 @@
       "printed": "Woe to our day, since the pursuit of letters has perished from among us,",
       "file": "cic/texts/gregory-tours_history-of-the-franks-selections_brehaut1916.txt",
       "lines": "850-851",
-      "secondReading": "minor"
+      "secondReading": "minor",
+      "uncertain": "\"litterae\" means literary learning and skill in writing; A reads \"literature\", B \"letters\"; both readings kept."
     },
     {
       "modern": "so that anyone who reads may have no doubt that I hold the catholic faith,",

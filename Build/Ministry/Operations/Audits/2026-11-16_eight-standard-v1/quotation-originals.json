@@ -3,8 +3,8 @@
   {
    "modern": "begotten, not made.",
    "printed": "begotten not made.",
-   "file": "cic/texts/cyril-alexandria_three-epistles-grc-eng_pusey1872.txt",
-   "lines": "4574",
+   "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+   "lines": "19679",
    "secondReading": "same"
   },
   {
@@ -12,14 +12,16 @@
    "printed": "He was made man that we might be made God.",
    "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
    "lines": "18743-18744",
-   "secondReading": "minor"
+   "secondReading": "minor",
+   "uncertain": "\"We might be made God\" keeps the passive of the Greek: God does the deifying. \"We might become God\" is a second reading that loses this."
   },
   {
    "modern": "our blessed Father Athanasius, praised by all.",
    "printed": "our blessed and all-celebrated Father Athanasius.",
    "file": "cic/texts/cyril-alexandria_three-epistles-grc-eng_pusey1872.txt",
    "lines": "5393-5394",
-   "secondReading": "minor"
+   "secondReading": "minor",
+   "uncertain": "\"All-celebrated\" means praised by everyone. \"Highly honoured\" is a weaker second reading."
   }
  ],
  "constantine-the-great": [
@@ -34,11 +36,11 @@
    "modern": "your fellow servant,",
    "printed": "your fellow-servant,",
    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
-   "lines": "63903-63904",
+   "lines": "64594",
    "secondReading": "same"
   },
   {
-   "modern": "the first of the emperors who began to be zealous for the Church (unchanged; the sentence continues in the source)",
+   "modern": "the first of the emperors who began to be zealous for the Church",
    "printed": "the first of the emperors who began to be zealous for the Church.",
    "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
    "lines": "30677",
@@ -51,7 +53,8 @@
    "printed": "See, on your behalf I appoint myself hospitaller.",
    "file": "cic/texts/palladius_lausiac-history_clarke1918.txt",
    "lines": "471",
-   "secondReading": "changes meaning"
+   "secondReading": "changes meaning",
+   "uncertain": "\"On your behalf\" may mean \"as your agent, with your money\" or \"for your sake\". \"Hospitaller\" means one who runs a house of care for strangers, the poor and the sick, so readings include \"shelter\" and \"guesthouse\"."
   },
   {
    "modern": "It tainted my pure ears.",
@@ -81,14 +84,16 @@
    "printed": "as though for souls and canons?",
    "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
    "lines": "45784-45785",
-   "secondReading": "minor"
+   "secondReading": "minor",
+   "uncertain": "\"Canons\" may mean church rules or a bishop's canonical rights of jurisdiction, which were at stake in the quarrel. Both readings are kept."
   },
   {
    "modern": "equally far from the merging of Sabellius and from the division of Arius,",
    "printed": "equally far from the confusion of Sabellius and from the division of Arius,",
    "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
    "lines": "37407-37408",
-   "secondReading": "minor"
+   "secondReading": "minor",
+   "uncertain": "\"Confusion\" here means fusing Father, Son and Spirit into one, not bewilderment. \"Division\" means splitting God into unequal parts."
   },
   {
    "modern": "my teacher in the Scriptures,",
@@ -104,7 +109,8 @@
    "printed": "received the legacy of Eunomius' controversy.",
    "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt",
    "lines": "2788",
-   "secondReading": "minor"
+   "secondReading": "minor",
+   "uncertain": "\"Eunomius' controversy\" means the dispute against Eunomius that Basil left unfinished. This is read from the context. The English alone could mean a dispute that belonged to Eunomius."
   },
   {
    "modern": "is above every name.",
@@ -123,11 +129,12 @@
  ],
  "john-chrysostom": [
   {
-   "modern": "Glory to God for all things. (unchanged; repoint the citation to lines 1610-1611)",
+   "modern": "Glory to God for all things.",
    "printed": "Glory to God for all things.",
    "file": "cic/texts/palladius_dialogue-life-of-chrysostom_moore1921.txt",
    "lines": "6498-6499",
-   "secondReading": "same"
+   "secondReading": "same",
+   "note": "The two renderings were made on the same words as printed in npnf109 l.1990-1997, an editor's citation of this saying."
   }
  ],
  "methodius-of-olympus": [
@@ -136,7 +143,8 @@
    "printed": "with the same parts, uninjured and immortal, while sin is utterly and entirely destroyed.",
    "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
    "lines": "35400-35402",
-   "secondReading": "minor"
+   "secondReading": "minor",
+   "uncertain": "The printed text doubles the emphasis (\"utterly and entirely\"). One reading keeps the doubling, and the other has the plain \"completely destroyed\"."
   }
  ],
  "origen": [
