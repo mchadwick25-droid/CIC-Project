@@ -327,21 +327,21 @@ add(I, "wilder_pledge-of-the-student-volunteer-movement_1890.txt",
 
 # ---------------- Moravians, Lourdes, Christadelphians, Brethren, Latter-day Saints, rescue missions ----------------
 I = "ahistoryunitasf00hamigoog"
-chk(I, 118, r"MDCCCXCV"); chk(I, 133, r"Copyright,?\s+1894", 1); chk(I, 17816, r"HISTORY", 1); chk(I, 18465, r"CHAPTER", 1); chk(I, 20733, r"CHAPTER", 1); chk(I, 9261, r"REFORMED|HISTORY", 4); chk(I, 21131, r"INDICES", 2)
+chk(I, 118, r"MDCCCXCV"); chk(I, 133, r"Copyright,?\s+1894", 1); chk(I, 17815, r"HISTORY", 0); chk(I, 18465, r"CHAPTER", 1); chk(I, 20733, r"CHAPTER", 1); chk(I, 9261, r"REFORMED|HISTORY", 4); chk(I, 21131, r"INDICES", 2)
 add(I, "corwin-dubbs-hamilton_american-church-history-v8-reformed-and-moravian_1895.txt",
     "A History of the Reformed Church, Dutch, the Reformed Church, German, and the Moravian Church in the United States (American Church History Series, vol. VIII)",
     "E. T. Corwin, D.D., Professor J. H. Dubbs, D.D., and Professor J. T. Hamilton (title page)",
     "New York: The Christian Literature Co. (title page)",
     "1895 (title page: 'MDCCCXCV', OCR line 118; copyright notice of 1894 at 133-134)", 1895, NIC, "eng",
     "clean, with some damaged names and running heads in the text. Google's sheet stands at OCR lines 1-46 and a Harvard library stamp at 48-66.",
-    "Three histories bound as one volume of the series. Title page at OCR lines 89-118; contents at 137-460. Corwin's history of the Dutch Reformed Church from 454 to about 9255. Dubbs's history of the German Reformed Church from 9261, in twenty chapters, to about 17815. Hamilton's 'History of the Unitas Fratrum, or Moravian Church, in the United States of America' from 17816: prefatory note at 18056; chapter I at 18104; II 18465; III 18622; IV 18986; V 19255; VI 19508; VII 19822; VIII 19998; IX 20282; X 20472; XI 20733; XII 20909; the text ends at 21128. Indices from 21131, the Moravian index from 22743.",
+    "Three histories bound as one volume of the series. Title page at OCR lines 89-118; contents at 137-460. Corwin's history of the Dutch Reformed Church from 454 to about 9255. Dubbs's history of the German Reformed Church from 9261, in twenty chapters, to about 17814. Hamilton's 'History of the Unitas Fratrum, or Moravian Church, in the United States of America' from 17815: prefatory note at 18056; chapter I at 18104; II 18465; III 18622; IV 18986; V 19255; VI 19508; VII 19822; VIII 19998; IX 20282; X 20472; XI 20733; XII 20909; the text ends at 21128. Indices from 21131, the Moravian index from 22743.",
     "E. T. Corwin, J. H. Dubbs and J. T. Hamilton", MOR,
     W + "wanted row 323, J. Taylor Hamilton, his history of the Moravians in the United States (1895).",
     [row("hamilton-history-of-the-unitas-fratrum-in-the-united-states", "Hamilton, A History of the Unitas Fratrum, or Moravian Church, in the United States of America (1895)", "hamilton-j-taylor",
-         "Hamilton's history at OCR lines 17816-21128; the Moravian index from 22743", [MOR], "tradition", "provisional", "eng",
+         "Hamilton's history at OCR lines 17815-21128; the Moravian index from 22743", [MOR], "tradition", "provisional", "eng",
          doc((1895, 1895), "title page: 'MDCCCXCV'; copyright notice of 1894"),
          "A Moravian professor at Bethlehem writes his church's American history. The two Reformed histories bound with it are by other hands and have no shelf row.")],
-    ruled={"hamilton-j-taylor": ("metadata-omission", "The title page names three authors (file lines 101-121); Hamilton's history has its own title, 'by J. Taylor Hamilton, Professor of Church History in the Moravian Theological Seminary at Bethlehem, Pa.' (file lines 17831-17841).")})
+    ruled={"hamilton-j-taylor": ("metadata-omission", "The title page names three authors (file lines 101-121); Hamilton's history has its own title, 'by J. Taylor Hamilton, Professor of Church History in the Moravian Theological Seminary at Bethlehem, Pa.' (file lines 17827-17841).")})
 
 I = "ourladylourdest00monzgoog"
 chk(I, 88, r"SISK"); chk(I, 62, r"Copyright"); chk(I, 778, r"BOOK", 4); chk(I, 484, r"September", 2)

@@ -99,7 +99,7 @@ writes anything. Two first failed on OCR garbles of the right word.
 One independent review by Opus (`R1_review.md`): 16 findings, none blocking, five substantial, eleven minor.
 It confirmed every year credited to a page image and read nine more title leaves whose years had been taken
 from the OCR; all agree. All 16 findings were accepted and corrected in the spec, and the batch was vendored
-again from it (`R1_changes.md`). A targeted recheck followed (`R2_recheck.md`).
+again from it (`R1_changes.md`). A targeted recheck (`R2_recheck.md`) closed all 16 and found one line number off by one in a fix, which was corrected the same way (`R2_changes.md`).
 
 ## Corrections to the list
 

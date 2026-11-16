@@ -1809,7 +1809,7 @@ authors:
     kind: metadata-omission
     evidence: The title page names three authors (file lines 101-121); Hamilton's history
       has its own title, 'by J. Taylor Hamilton, Professor of Church History in the Moravian
-      Theological Seminary at Bethlehem, Pa.' (file lines 17831-17841).
+      Theological Seminary at Bethlehem, Pa.' (file lines 17827-17841).
     from_file: corwin-dubbs-hamilton_american-church-history-v8-reformed-and-moravian_1895.txt
   hargrove:
     kind: metadata-omission

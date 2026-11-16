@@ -36097,6 +36097,30 @@
           "rights": "Public Domain (pd-us-by-date: published 1852); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
         },
         {
+          "work": "Froude, Remains, in two volumes, vol. II (1838)",
+          "author": "froude",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "froude_remains-pt1-v2_1838.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1838); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "Froude, Remains, part the second, vol. I (1839)",
+          "author": "froude",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "froude_remains-pt2-v1_1839.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1839); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "Froude, Remains, part the second, vol. II (1839)",
+          "author": "froude",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "froude_remains-pt2-v2_1839.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1839); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
           "work": "Remains of the late Reverend Richard Hurrell Froude, M.A., Fellow of Oriel College, Oxford; in two volumes,",
           "author": "froude",
           "role": "tradition",
@@ -36590,6 +36614,14 @@
           "rights": "Public Domain (pd-us-by-date: published 1853); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees"
         },
         {
+          "work": "Eliza R. Snow Smith, Biography and Family Record of Lorenzo Snow (1884)",
+          "author": "snow",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "snow_biography-and-family-record-of-lorenzo-snow_1884.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1884); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
           "work": "Poems, Religious, Historical, and Political, by Eliza R. Snow (vol. I; the volume number is on the library",
           "author": "snow",
           "role": "tradition",
@@ -36656,6 +36688,30 @@
           "rights": "Public Domain (pd-us-by-date: published 1883); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/); the title page prints no year, and the date used is that of the preface, dated 'Birmingham, December 18, 1883' on the scan's page image, leaf n6 (the OCR at line 290 prints 1888); the text itself closes 'December 7th, 1883' at line 24946; no library catalogue record stands behind this scan, and the archive.org record, a reader's upload, gives 1884"
         },
         {
+          "work": "Is the Bible Divine? The six nights' discussion between Bradlaugh and Roberts (June 1876)",
+          "author": "roberts-robert",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "roberts-bradlaugh_is-the-bible-divine-six-nights-discussion_1876.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1876); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "Roberts, A Review of the Discussion with Mr. Bradlaugh (1876)",
+          "author": "roberts-robert",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "roberts-bradlaugh_is-the-bible-divine-six-nights-discussion_1876.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1876); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "Roberts, The Trial (Birmingham, 1908)",
+          "author": "roberts-robert",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "roberts-robert_the-trial_1908.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1908); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
           "work": "The Ways of Providence, authentically illustrated",
           "author": "roberts-robert",
           "role": "tradition",
@@ -36686,12 +36742,36 @@
           "rights": "Public Domain (pd-us-by-date: published 1851); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees; the archive.org record's own date is 1848; the general title page prints 1851"
         },
         {
+          "work": "Dialogues on Prophecy, vol. II: conversations 8-13 (1828)",
+          "author": "dialogues-on-prophecy",
+          "role": "antecedent",
+          "confidence": "provisional",
+          "source_file": "dialogues-on-prophecy_v2_1828.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1828); the archive.org item is a reader's upload of three Google scans with no rights field or library catalog record, and the imprint date is the basis"
+        },
+        {
+          "work": "Dialogues on Prophecy, vol. III: conversations 13-18 (1829)",
+          "author": "dialogues-on-prophecy",
+          "role": "antecedent",
+          "confidence": "provisional",
+          "source_file": "dialogues-on-prophecy_v3_1829.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1829); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
           "work": "Dialogues on Prophecy; vol. I",
           "author": "dialogues-on-prophecy",
           "role": "antecedent",
           "confidence": "provisional",
           "source_file": "dialogues-on-prophecy_v1_1828.txt",
           "rights": "Public Domain (pd-us-by-date: published 1828); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "Drummond, Speeches in Parliament and Some Miscellaneous Pamphlets, vol. II: the pamphlets (ed. Lovaine, 1860)",
+          "author": "drummond-henry",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "drummond-henry_speeches-in-parliament-v2_lovaine1860.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1860); the archive.org record is tagged NOT_IN_COPYRIGHT"
         },
         {
           "work": "Speeches in Parliament and Some Miscellaneous Pamphlets of the late Henry Drummond, Esq.; edited by Lord",
@@ -36716,6 +36796,22 @@
           "confidence": "provisional",
           "source_file": "miller-edward_history-and-doctrines-of-irvingism-v1_1878.txt",
           "rights": "Public Domain (pd-us-by-date: published 1878); the archive.org record carries no rights field, so the date named here is the basis; the title page prints no year, and the date used is that of the preface, dated 'Christmas Eve, 1877' (line 236); the library catalogue's date is 1878 (Princeton Theological Seminary Library, on the archive.org record)"
+        },
+        {
+          "work": "The Morning Watch; or Quarterly Journal on Prophecy, vol. I (1829)",
+          "author": "morning-watch",
+          "role": "antecedent",
+          "confidence": "provisional",
+          "source_file": "morning-watch_v1-1829_1830.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1830); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "The Morning Watch; or Quarterly Journal on Prophecy, vol. III (1831)",
+          "author": "morning-watch",
+          "role": "antecedent",
+          "confidence": "provisional",
+          "source_file": "morning-watch_v3_1831.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1831); the archive.org record is tagged NOT_IN_COPYRIGHT"
         },
         {
           "work": "The Life of Edward Irving ... by Mrs. Oliphant. Vol. II",
@@ -36825,6 +36921,22 @@
           "confidence": "provisional",
           "source_file": "bellett_short-meditation-on-the-moral-glory-of-the-lord-jesus-christ_1865.txt",
           "rights": "Public Domain (pd-us-by-date: published 1865); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
+        },
+        {
+          "work": "Bellett, The Evangelists: the Gospel by St. John (seventh edition, 1886)",
+          "author": "bellett",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "bellett_evangelists-gospel-by-st-john_7th-ed1886.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1886); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "Bellett, The Minor Prophets (1870)",
+          "author": "bellett",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "bellett_minor-prophets_1870.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1870); the archive.org record is tagged NOT_IN_COPYRIGHT"
         },
         {
           "work": "DIALOGUES ON THE ESSAYS AND REVIEWS. Second edition, revised",
@@ -36959,6 +37071,14 @@
           "rights": "Public Domain (pd-us-by-date: printed 1917; the title page prints no imprint year, so the date used is the copyright notice of 1917; the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT)"
         },
         {
+          "work": "Mott, History of the Student Volunteer Movement for Foreign Missions (1892)",
+          "author": "mott",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "mott_history-of-the-student-volunteer-movement_1892.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1892); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
           "work": "Mott, The Decisive Hour of Christian Missions",
           "author": "mott",
           "role": "tradition",
@@ -36997,6 +37117,14 @@
           "confidence": "provisional",
           "source_file": "student-volunteer-movement_report-first-international-convention-cleveland_1891.txt",
           "rights": "Public Domain (pd-us-by-date: published 1891); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the date agrees; the title page prints no year, and the date used is that of the year printed in the title on the title page (lines 33-34: 'February 26, 27, 28, and March 1, 1891'); the title page gives a printer and no separate imprint year, and the archive.org record's date is 1891"
+        },
+        {
+          "work": "Wilder, The Volunteer Pledge of the Student Volunteer Movement (June 1890)",
+          "author": "wilder",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "wilder_pledge-of-the-student-volunteer-movement_1890.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1890); the archive.org record carries no rights field, so the imprint date is the basis"
         },
         {
           "work": "Cheng Ching-yi, speech at Edinburgh 1910 (Report of Commission VIII)",
@@ -37231,6 +37359,14 @@
           "rights": "Public Domain (pd-us-by-date: published 1892); the archive.org record carries no rights field, so the imprint date is the basis"
         },
         {
+          "work": "Lasserre, Our Lady of Lourdes, translated by F. Ignatius Sisk (1872)",
+          "author": "lasserre",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "lasserre_our-lady-of-lourdes_sisk1872.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1872); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
           "work": "Notre-Dame de Lourdes; vingt-huitième édition",
           "author": "lasserre",
           "role": "context",
@@ -37303,6 +37439,14 @@
           "rights": "Public Domain (pd-us-by-date: published 1897); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
         },
         {
+          "work": "Ward, The Life and Times of Cardinal Wiseman, vol. II (1897)",
+          "author": "ward-wilfrid",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "ward-wilfrid_life-and-times-of-cardinal-wiseman-v2_1897.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1897); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
           "work": "An Appeal to the Reason and Good Feeling of the English People on the Subject of the Catholic Hierarchy",
           "author": "wiseman",
           "role": "tradition",
@@ -37333,6 +37477,14 @@
           "rights": "Public Domain (pd-us-by-date: published 1880); the archive.org record carries no rights field, so the imprint date is the basis"
         },
         {
+          "work": "Colenso, The Pentateuch and Book of Joshua Critically Examined, part III: Deuteronomy (1863)",
+          "author": "colenso",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "colenso_pentateuch-and-book-of-joshua-pt3_1863.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1863); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
           "work": "Ten Weeks in Natal: a journal of a first tour of visitation among the colonists and Zulu Kafirs of Natal",
           "author": "colenso",
           "role": "tradition",
@@ -37347,6 +37499,30 @@
           "confidence": "provisional",
           "source_file": "colenso_pentateuch-and-book-of-joshua-pt1_1862.txt",
           "rights": "Public Domain (pd-us-by-date: published 1862); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "Cox, The Life of John William Colenso, vol. I (1888)",
+          "author": "cox-george-w",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "cox-george-w_life-of-john-william-colenso-v1_1888.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1888); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "Hodder, The Life and Work of the Seventh Earl of Shaftesbury, vol. II (1887)",
+          "author": "hodder",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "hodder_life-and-work-of-seventh-earl-of-shaftesbury-v2_1887.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1887); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "Hodder, The Life and Work of the Seventh Earl of Shaftesbury, vol. III (1886)",
+          "author": "hodder",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "hodder_life-and-work-of-seventh-earl-of-shaftesbury-v3_1886.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1886); the archive.org record carries no rights field, so the imprint date is the basis"
         },
         {
           "work": "The Life and Work of the Seventh Earl of Shaftesbury, K.G.; vol. I",
@@ -37381,6 +37557,14 @@
           "rights": "Public Domain (pd-us-by-date: published 1853); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
         },
         {
+          "work": "F. Maurice, The Life of Frederick Denison Maurice, chiefly told in his own letters, vol. II (1884)",
+          "author": "maurice-f",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "maurice-f_life-of-frederick-denison-maurice-v2_1884.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1884); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
           "work": "The Life of Frederick Denison Maurice, chiefly told in his own letters; edited by his son Frederick Maurice;",
           "author": "maurice-f",
           "role": "context",
@@ -37411,6 +37595,22 @@
           "confidence": "provisional",
           "source_file": "wilberforce_practical-view-of-the-prevailing-religious-system_dublin1797.txt",
           "rights": "Public Domain (Project Gutenberg eBook #25709, released as public domain in the USA; the underlying edition was published 1797, more than 95 years ago)"
+        },
+        {
+          "work": "R. G. Wilberforce, Life of Samuel Wilberforce, vol. II (1881)",
+          "author": "wilberforce-reginald",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "wilberforce-reginald_life-of-samuel-wilberforce-v2_1881.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1881); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "R. G. Wilberforce, Life of Samuel Wilberforce, vol. III (1882)",
+          "author": "wilberforce-reginald",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "wilberforce-reginald_life-of-samuel-wilberforce-v3_1882.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1882); the archive.org record is tagged NOT_IN_COPYRIGHT"
         }
       ]
     },
@@ -37837,6 +38037,14 @@
           "confidence": "provisional",
           "source_file": "cabot_memoir-of-ralph-waldo-emerson-v1_1887.txt",
           "rights": "Public Domain (pd-us-by-date: published 1887); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "Cabot, A Memoir of Ralph Waldo Emerson, vol. II (eighth edition, 1895)",
+          "author": "cabot",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "cabot_memoir-of-ralph-waldo-emerson-v2_8th-ed1895.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1895); the archive.org record is tagged NOT_IN_COPYRIGHT"
         },
         {
           "work": "A Sermon delivered at the Ordination of the Rev. Jared Sparks (1819)",
@@ -40206,6 +40414,14 @@
           "confidence": "assigned",
           "source_file": "offord_jerry-mcauley-his-life-and-work_2nd-ed1885.txt",
           "rights": "Public Domain (pd-us-by-date: published 1885); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the date agrees; the date used is that of the copyright notice at OCR line 40 ('Copyright, 1885'); the title page prints no year (page image, leaf n8)"
+        },
+        {
+          "work": "Pacific Garden Mission, thirty-first annual report (1908)",
+          "author": "pacific-garden-mission",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "pacific-garden-mission_thirty-first-annual-report_1908.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1908); the archive.org record carries no rights field, so the imprint date is the basis"
         }
       ]
     },
@@ -41885,6 +42101,14 @@
           "rights": "Public Domain (pd-us-by-date: published 1855); the archive.org record says possible-copyright-status NOT_IN_COPYRIGHT, and the imprint date agrees"
         },
         {
+          "work": "Cox, The Life of John William Colenso, vol. I (1888)",
+          "author": "cox-george-w",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "cox-george-w_life-of-john-william-colenso-v1_1888.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1888); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
           "work": "Jabavu, The Black Problem (second edition, 1921)",
           "author": "jabavu",
           "role": "tradition",
@@ -41973,6 +42197,14 @@
           "confidence": "provisional",
           "source_file": "hamilton-j-taylor_history-of-the-moravian-church_1900.txt",
           "rights": "Public Domain (pd-us-by-date: published 1900); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
+          "work": "Hamilton, A History of the Unitas Fratrum, or Moravian Church, in the United States of America (1895)",
+          "author": "hamilton-j-taylor",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "corwin-dubbs-hamilton_american-church-history-v8-reformed-and-moravian_1895.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1895); the archive.org record is tagged NOT_IN_COPYRIGHT"
         }
       ]
     },

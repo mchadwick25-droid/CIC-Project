@@ -3,7 +3,7 @@ assignments:
 - row_id: corwin-dubbs-hamilton_american-church-history-v8-reformed-and-moravian_1895--hamilton-history-of-the-unitas-fratrum-in-the-united-states
   work: 'Hamilton, A History of the Unitas Fratrum, or Moravian Church, in the United States of America (1895)'
   author: hamilton-j-taylor
-  locus: 'Hamilton''s history at OCR lines 17816-21128; the Moravian index from 22743; add 12 to OCR line numbers'
+  locus: 'Hamilton''s history at OCR lines 17815-21128; the Moravian index from 22743; add 12 to OCR line numbers'
   atlas_ids:
   - moravian-church-after-1815
   role: tradition
@@ -14,4 +14,4 @@ assignments:
 authors_ruled:
   hamilton-j-taylor:
     kind: metadata-omission
-    evidence: "The title page names three authors (file lines 101-121); Hamilton's history has its own title, 'by J. Taylor Hamilton, Professor of Church History in the Moravian Theological Seminary at Bethlehem, Pa.' (file lines 17831-17841)."
+    evidence: "The title page names three authors (file lines 101-121); Hamilton's history has its own title, 'by J. Taylor Hamilton, Professor of Church History in the Moravian Theological Seminary at Bethlehem, Pa.' (file lines 17827-17841)."
