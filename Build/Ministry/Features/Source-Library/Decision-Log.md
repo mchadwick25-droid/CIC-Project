@@ -968,7 +968,7 @@ Era 9 batch 2b's "located, not yet taken" volumes; then era 10 batch 2's follow-
 **Done.** 27 files (4,092,114 words): the further volumes and other witnesses that era 9 batch 2b located and
 did not take. The files and the rows not filled are in `CFT-Wants.md` ("Era 9 (1815-1906), the located
 volumes"). The page-image reads, the corrections to the list, the calls and the cautions for writers are in
-`Build/Ministry/Operations/Audits/2026-11-16_library-era9-located/Search_Log.md`. Eight works are now held
+`Build/Ministry/Operations/Audits/2026-11-16_library-era9-located/Search_Log.md`. Seven works are now held
 whole: the Dialogues on Prophecy, Drummond's Speeches, Froude's Remains, and the Lives of Samuel Wilberforce,
 Shaftesbury, Maurice and Wiseman.
 
