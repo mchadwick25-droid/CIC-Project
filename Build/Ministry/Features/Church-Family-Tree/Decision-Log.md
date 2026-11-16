@@ -4065,3 +4065,12 @@ Approved to proceed (coordinator, 2026-11-16; Mark may overrule).
 
 **Applied:** to all 21 era 1 briefs before release, in one pass with the speech-tag ruling, and one targeted Opus recheck that Mark ordered (outside the three-round cap): claims traced, trust-bearing witnesses kept, one story from who they were to what came of it, length and readability. Checklist item 20 in `Who_Profile_Pattern.md` carries the rule. The record: each references record's "Mark's ruling: tell the story" section, and `Build/Ministry/Operations/Audits/2026-11-16_era1-standard-v1/reviews/story-recheck.md`.
 
+## 2026-11-16 — The revised Tatian rejected; Who briefs are written from the approved examples, one at a time (Mark, 2026-11-16)
+
+**Decided (Mark, 2026-11-16), relayed by the coordinator:**
+- On the revised Tatian (the speech-tag and story passes above): "there is no flow and simple sentences, we [had] two good [ones] now we are crap again, just adding rules from my comments is not working get it right". The tag-cutting and quotation-limit instructions given for those passes were the coordinator's over-reading of his comments, and are dropped as writing instructions.
+- On the new method: "Yes, test it on Tatian (Recommended)". One Opus writer is given only Gregory of Tours and Benedict as Mark approved them (commit `d2b8036a`, `Who-Profiles/bar/`), the person's sources, and one instruction: tell the story the way these two are told, each sentence leading to the next by scene, cause or consequence, with quotations and witnesses where the story needs them. The rules are applied afterwards as checks only: every claim traced, no modern scholar, trust-bearing witnesses kept, grade 8 to 10, length aim about 2:00. A fresh Opus reader then compares the new brief and the approved Gregory unlabeled, for flow; if the brief loses, it is rewritten once from the reader's reasons and tested again.
+- On the pace: "do one at a time until we have consistsnce success". After Tatian, each brief is written by this method, passes the blind flow test and goes to Mark; the next starts only after his yes on the one before. No batching until he says the method is working.
+
+**Where the era 1 branch stands:** the other 20 briefs on `claude/cft-era1-standard-v1` went through the rejected passes; their texts before those passes are at commit `d5590b4f`. Nothing is released or recorded.
+
