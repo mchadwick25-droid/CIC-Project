@@ -95,3 +95,14 @@ Review: `reviews/round1-g3.md`. Verdict was BLOCKED on one finding.
 - **Quotations:** none added, removed or reworded.
 - Readability: grade 9.0 (names out 7.3), reading ease 71.0.
 
+
+## Mark's ruling on attribution tags (2026-11-16)
+
+Changed sentences: none. Every tag in the brief carries trust.
+
+Kept:
+- "Those who had fallen only after prison and torture, he wrote, ...": Peter's own words, first naming.
+- "An old account kept with their letter says he then came to Alexandria": a point resting on one source.
+- "Athanasius, a later bishop of Alexandria and the Meletians' enemy, says": partisan witness, contested point.
+- "Epiphanius of Salamis, who writes kindly of Meletius, says": partisan witness, contested point, other side named.
+- "Athanasius says the Meletians then spread charges against him": partisan witness.

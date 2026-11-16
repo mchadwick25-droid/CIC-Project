@@ -118,3 +118,17 @@ Review: `reviews/round1-g2.md`. Verdict was BLOCKED on one finding.
 - **Quotations:** none added, removed or reworded. Section (c) Q1 and Q2 now record the final readings the brief carries (comparison E10 and E11).
 - Readability: grade moved from 9.7 to 9.1, inside the range, because the long Tertullian sentence is shorter and B1 is now two sentences.
 - Sections (e) and (f) are the first writer's and are left as written.
+
+## Mark's ruling on attribution tags (2026-11-16)
+
+- Old: "Their custom, they told him, had been \"to come together ...\""
+  New: "Their custom had been \"to come together ...\"" (the sentence before names the former Christians as the source.)
+
+Kept:
+- "what Pliny reports of Christian worship comes from them": names whose report it is; trust turns on it.
+- "He found \"nothing except a perverse and excessive superstition.\"": his own words, his hostile verdict.
+- "Pliny writes as the judge ..., and he calls their faith insanity": his own stance as a hostile judge.
+- "Trajan answered that Christians ...": switch to Trajan's words.
+- "Tertullian ... argued from the governor's report": partisan witness.
+- "Of Trajan's ruling he said, \"It forbids ...\"": partisan witness's own words; without it the quotation has no owner.
+- "Eusebius of Caesarea, repeating Tertullian, says the ruling partly checked the persecution": switch of witness; a point resting on him.

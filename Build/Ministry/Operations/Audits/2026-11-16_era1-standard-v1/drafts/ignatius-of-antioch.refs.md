@@ -120,3 +120,20 @@ Review: `reviews/round1-g1.md`. Verdict was BLOCKED on two findings.
 - **Quotations:** none added, removed or reworded.
 - Readability: grade 8.3 (names out 7.6), reading ease 74.0.
 
+
+## Mark's ruling on attribution tags (2026-11-16)
+
+Changed:
+- Old: "Ignatius answered them with his own chains. \"If our Lord did these things only in appearance,\" he wrote to the church at Smyrna, \"then I too am bound only in appearance.\""
+  New: "Ignatius answered them with his own chains in his letter to the church at Smyrna: \"If our Lord did these things only in appearance, then I too am bound only in appearance.\"" (The words inside the marks are unchanged; the two quoted spans are rejoined.)
+- Old: "... he told the same church, so that, he said, whatever the bishop approved would be secure and valid."
+  New: "... he told the same church, so that whatever the bishop approved would be secure and valid."
+- Old: "... but he names all seven letters and says that many still celebrated his fame."
+  New: "... but he names all seven letters, and in his day many still celebrated his fame."
+
+Kept:
+- "\"bound to ten leopards, I mean a band of soldiers,\" he wrote": his own words, first naming.
+- "he told the same church": the purpose clause after it is our paraphrase of his words; without the tag it would read as our claim.
+- "Eusebius ... gives his death at Rome only as a report": a stated limit; one source, told as a report.
+
+Readability after the change: 302 words, grade 8.8 (names out 8.2), reading ease names out 72.4, pass.

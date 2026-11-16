@@ -108,3 +108,17 @@ Review: `reviews/round1-g2.md`. Verdict was BLOCKED on one finding.
 - **Sentence test:** both marked sentences are gone.
 - **Quotations:** none added or removed. No word inside any marks changed; Q1's two halves now stand unbroken. Section (c) Q2 now records the final reading the brief carries (comparison E9).
 - Sections (e) and (f) are the first writer's and are left as written; (f) still quotes the two sentences that B1 removed.
+
+## Mark's ruling on attribution tags (2026-11-16)
+
+Changed sentences: none. Every tag in the brief carries trust.
+
+Kept:
+- "The book of Acts also says that Claudius ordered all the Jews to leave Rome": the point of the sentence is the second witness.
+- "because Suetonius says nothing more about him": a limit; contested point.
+- "Tacitus puts the death of Christ earlier": switch to another witness, set against Suetonius on a contested point.
+- "So Suetonius may mean another man": contested point, his own report.
+- "Tertullian of Carthage complained that they said Chrestian": switch of witness; the claim rests on him.
+- "Lactantius later wrote that the ignorant changed one letter": switch of witness; the claim rests on him.
+- "Elsewhere Suetonius says Nero set fire to Rome": switch from the quoted notice to another of his claims; a charge resting on him.
+- "Jerome wrote that he had been urged": Jerome's own words about himself; one source.

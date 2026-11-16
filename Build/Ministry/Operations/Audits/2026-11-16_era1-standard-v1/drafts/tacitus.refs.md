@@ -102,3 +102,24 @@ Review: `reviews/round1-g2.md`. Verdict was BLOCKED on one finding.
 - **Sentence test:** none marked; nothing removed.
 - **Quotations:** none added, removed or reworded. Section (c) Q2 now records the final reading the brief carries (comparison E7), which the first writer's record had not yet shown.
 - Sections (e) and (f) are the first writer's and are left as written.
+
+## Mark's ruling on attribution tags (2026-11-16)
+
+- Old: "To end the rumor, Tacitus says, Nero put the blame on a group ..."
+  New: "To end the rumor, Nero put the blame on a group ..." (Tacitus is named as the teller in paragraph 1.)
+- Old: "He adds, \"Christus, from whom the name came, ...\""
+  New: "\"Christus, from whom the name came, ...\""
+- Old: "Those who confessed, he says, were arrested first."
+  New: "Those who confessed were arrested first."
+- Old: "Yet he records that people came to pity them, because ..."
+  New: "Yet people came to pity them, because ..."
+
+Kept:
+- "What Nero did next is told by Cornelius Tacitus": first naming of his own report; hostile witness.
+- "He calls the faith a harmful superstition": his own hostile judgment.
+- "Tacitus thought they deserved the harshest punishment": his own stance.
+- "He does not say where he learned of Christus": a limit.
+- "Tertullian ... called Tacitus a great talker of lies": partisan witness, switch of witness.
+- "His Histories had said the Jews honored the head of an ass": a hostile charge, his.
+- "Sulpicius Severus ... told of the fire" / "he calls the victims innocent": switch of witness; his stance.
+- "This, Sulpicius wrote, was how the cruelty against Christians began": his reading, resting on him alone.

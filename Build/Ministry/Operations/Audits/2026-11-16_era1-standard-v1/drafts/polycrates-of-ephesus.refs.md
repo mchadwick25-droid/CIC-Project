@@ -101,3 +101,17 @@ Review: `reviews/round1-g1.md`. Verdict was BLOCKED on one finding.
 - **Quotations:** none added, removed or reworded.
 - Readability: grade 9.0 (names out 7.5), reading ease 76.0.
 
+
+## Mark's ruling on attribution tags (2026-11-16)
+
+- Old: "\"We keep the day without tampering with it,\" he wrote, \"adding nothing and taking nothing away.\""
+  New: "\"We keep the day without tampering with it, adding nothing and taking nothing away.\"" (the sentence before names his letter; the words inside the marks are unchanged.)
+- Old: "They claimed, he says, to have it from the apostle John."
+  New: "They claimed to have it from the apostle John." (Socrates is named in the sentence before.)
+
+Kept:
+- "The great dead of Asia had kept it, he said, among them John ...": his own claim told as his, at the switch from quotation to paraphrase; the John-at-Ephesus point rests on him.
+- "Victor at once tried to cut all the churches of Asia off ..., Eusebius says": contested point (tried or did), resting on one source.
+- "Eusebius does not say how Victor answered": a limit.
+- "Constantine the Great wrote that the churches of Asia already kept it as Rome did": his claim; one source.
+- "Socrates of Constantinople says, John Chrysostom took churches away": a point resting on one source, switch of witness.

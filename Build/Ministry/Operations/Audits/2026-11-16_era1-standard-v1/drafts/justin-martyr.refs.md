@@ -121,3 +121,20 @@ Review: `reviews/round2-g4.md`. B1 and B2 closed; two new findings from the roun
 
 - **N1:** "Eusebius of Caesarea follows the petition ..." (first mention now carries his place); later "Eusebius says the plot succeeded ...".
 - **N2:** "Justin expected to be plotted against, he wrote, perhaps by Crescens, a Cynic philosopher." (the subject is now plain after the two Eusebius sentences).
+
+## Mark's ruling on attribution tags (2026-11-16)
+
+Changed:
+- Old: "So, he wrote, \"those who lived with reason are Christians, even if they were thought to be atheists,\" and he named Socrates of Athens among them."
+  New: "So, \"those who lived with reason are Christians, even if they were thought to be atheists,\" and he named Socrates of Athens among them."
+- Old: "Justin expected to be plotted against, he wrote, perhaps by Crescens, a Cynic philosopher."
+  New: "Justin expected to be plotted against, perhaps by Crescens, a Cynic philosopher."
+
+Kept:
+- "sent to the Hebrew prophets, he says, by an old man he met in a field": his own words, first naming; the conversion rests on his account alone.
+- "Eusebius ... follows the petition with an edict that he gives as the emperor's": a contested point (the edict's authenticity).
+- "Tatian says Crescens tried to have Justin killed": a partisan witness (Justin's pupil), one source.
+- "Eusebius says the plot succeeded, though the surviving account of his trial never names Crescens": a contested point, each side named.
+- "where Justin says he would not have believed the Lord himself": his words from a lost book, known only through Irenaeus.
+
+Readability after the change: 316 words, grade 9.1 (names out 8.2), reading ease names out 69.7, pass.

@@ -105,3 +105,19 @@ Review: `reviews/round1-g4.md`. Verdict was BLOCKED on one finding.
 Review: `reviews/round2-g4.md`. B1 closed; one new finding from the round 1 revision, fixed with the reviewer's accepted wording.
 
 - **N1:** "Clement's answer to those critics was that God is the cause of every good thing." ("His answer" had come straight after the Pantaenus sentence and read as Pantaenus's.)
+
+## Mark's ruling on attribution tags (2026-11-16)
+
+Changed:
+- Old: "\"Philosophy, then, was a preparation,\" he wrote, \"paving the way for the one who is made perfect in Christ.\""
+  New: "\"Philosophy, then, was a preparation, paving the way for the one who is made perfect in Christ.\"" (The words inside the marks are unchanged; the two quoted spans are rejoined, as the printed sentence runs.)
+
+Kept:
+- "In his Stromata ... he tells how he reached the last and best of them": his own words, first naming.
+- "Eusebius of Caesarea judged that this teacher was Pantaenus": an inference resting on one source.
+- "Jerome says Origen followed Clement's example": a point resting on one source.
+- "whose books he said were drawn from the heart of philosophy": Jerome's judgment; untagged it would read as ours.
+- "The followers of Valentinus, as Clement reports them": a hostile witness on opponents.
+- "and wrote in it that Clement ... had strengthened and built up the church": Alexander's own words, one source.
+
+Readability after the change: 302 words, grade 9.3 (names out 7.6), reading ease names out 72.2, pass.

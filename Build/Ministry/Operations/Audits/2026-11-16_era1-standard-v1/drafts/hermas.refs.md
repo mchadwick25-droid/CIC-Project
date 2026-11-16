@@ -110,3 +110,19 @@ Review: `reviews/round1-g1.md`. Verdict was BLOCKED on three findings. Each fix 
 Review: `reviews/round2-g1.md`, which cleared the brief. One non-blocking note taken because it bears on accuracy: after the round 1 limit ("for those baptized before this time"), "So a husband must take back ..." made the husband's rule look like part of the limited concession. Commandment 4.1 (A2 1924-1934) gives the rule on its own.
 - Old: "So a husband must take back an unfaithful wife who repents ..."
 - New: "In the same book he says a husband must take back an unfaithful wife who repents ..."
+
+## Mark's ruling on attribution tags (2026-11-16)
+
+Changed:
+- Old: "In the same book he says a husband must take back an unfaithful wife who repents, though not many times: ..."
+  New: "In the same book, a husband must take back an unfaithful wife who repents, though not many times: ..."
+
+Kept:
+- "That report, ... the Muratorian Canon, says he wrote his book ... while his brother Pius was bishop": a point resting on one source.
+- "Eusebius of Caesarea and Jerome took him instead for the Hermas whom Paul greets": a contested point, each side named.
+- "The man who raised him, he says, sold him to a woman named Rhoda": his own words, first naming; everything about him rests on his own visions.
+- "But the Lord knows human weakness, he says, and in mercy has set one repentance more": the angel's claim; untagged it would read as ours.
+- "Tertullian ... called it the one writing that favored them, and said the councils ... had judged it false": a partisan, hostile witness.
+- "The Muratorian list said that the book should be read, but not ...": the list's ruling is the claim; one source.
+
+Readability after the change: 357 words, grade 8.5 (names out 8.0), reading ease names out 72.7, pass.

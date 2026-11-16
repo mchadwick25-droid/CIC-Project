@@ -90,3 +90,15 @@ Review: `reviews/round1-g3.md`. Verdict was BLOCKED on two findings.
 - **Quotations:** none added, removed or reworded.
 - Readability: grade 8.6 (names out 6.8), reading ease 77.2.
 
+
+## Mark's ruling on attribution tags (2026-11-16)
+
+- Old: "Eusebius says he wrote little, and copies out a passage of his on finding the date of Easter."
+  New: "He wrote little, and Eusebius copies out a passage of his on finding the date of Easter."
+
+Kept:
+- "Eusebius of Caesarea says he stood first among the ablest men": praise resting on one source; first naming.
+- "by a story Eusebius tells": a story Eusebius himself tells on report ("They say", EU 42691-42693); round 1 B1 kept it marked.
+- "Anyone who sets the first month before that point, he says, makes ...": Anatolius's own words and judgment told as his.
+- "Bishop Colman asked" / "The priest Wilfrid answered" / "Colman's side, he said, did not keep his cycle": contested point, each side named.
+- "Bede, who tells it, says the king ruled for Wilfrid because ...": the reason rests on one source.

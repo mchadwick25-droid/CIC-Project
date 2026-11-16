@@ -128,3 +128,15 @@ Review: `reviews/round1-g1.md`. Verdict was BLOCKED on two findings, both on the
 - **Quotations:** none added or reworded; Q5 has moved within the close.
 - Readability: grade 9.3 (names out 7.5), reading ease 76.3.
 
+
+## Mark's ruling on attribution tags (2026-11-16)
+
+Changed: none. Every tag in the brief carries trust.
+
+Kept:
+- "Here, Origen argued, was a writer who ... said that Jerusalem fell because the Jews had killed James": a point resting on one source, and its words are not in our copies.
+- "In our copies the longer report calls Jesus ..., says \"He was the Christ,\" and says that after Pilate ...": a contested passage; the tags keep the claims as the text's, not ours.
+- "Yet Origen, who knew the Antiquities, wrote that Josephus \"did not accept Jesus as Christ\"": a contested point, the other side named.
+- "He argued from it that a Hebrew historian's record convicted those who had forged acts against Jesus": a partisan witness (Eusebius's apologetic use).
+
+Readability: 312 words, grade 9.3 (names out 7.5), reading ease names out 76.3, pass.

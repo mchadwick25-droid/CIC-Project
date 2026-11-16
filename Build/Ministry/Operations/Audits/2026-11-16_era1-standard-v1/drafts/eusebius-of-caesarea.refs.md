@@ -103,3 +103,16 @@ Review: `reviews/round1-g3.md`. Verdict was BLOCKED on two findings. Both were m
 - **Quotations:** none added, removed or reworded.
 
 - Readability: grade 9.4 (names out 7.5), reading ease 73.0.
+
+## Mark's ruling on attribution tags (2026-11-16)
+
+Changed:
+- Old: "Socrates himself built his account of Nicaea on Eusebius's words, treating them, he says, as an authority."
+  New: "Socrates himself built his account of Nicaea on Eusebius's words, treating them as an authority."
+
+Kept:
+- "\"Since I am the first to take up this subject,\" he wrote": his own words, first naming.
+- "Yet Socrates says that in his Life of Constantine Eusebius cared more for polished writing ...": a critic's judgment; the claim is Socrates's.
+- "In a letter home he says the emperor approved it and urged one added word": a partisan witness, Eusebius's own defense of his signing, and one source.
+
+Readability after the change: 300 words, grade 9.4 (names out 7.5), reading ease names out 72.9, pass.

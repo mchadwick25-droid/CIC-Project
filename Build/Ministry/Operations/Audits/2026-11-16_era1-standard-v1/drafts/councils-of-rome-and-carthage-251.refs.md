@@ -119,3 +119,17 @@ Review: `reviews/round1-g3.md`. Verdict was BLOCKED on one finding (C9, through 
 - **Quotations:** none added, removed or reworded.
 - Readability: grade 9.1 (names out 7.8), reading ease 70.9. 424 words, about 2:50, inside the council stretch to 3:00.
 
+
+## Mark's ruling on attribution tags (2026-11-16)
+
+- Old: "They chose a middle way, he says."
+  New: "They chose a middle way." (the sentence before says the decisions reach us from Cyprian, who called the meeting and defended it.)
+
+Kept:
+- "what they decided reaches us from Cyprian, who called the meeting and defended it afterward": partisan witness; one source.
+- "Eusebius of Caesarea, working from letters of Cornelius ..., says sixty bishops met there": switch of witness; Cornelius a party.
+- "Socrates of Constantinople ... reports what Novatian wrote": the other side's words reach us through one later witness.
+- "In Phrygia and Paphlagonia, Socrates says, the strict churches still kept that rule": rests on Socrates alone, and "still" is his own day.
+- "Dionysius of Alexandria wrote to Novatian, ...": his own words.
+- "Later he reported the eastern churches at one again": a party's report; one source.
+- "Eusebius says they had rejected Novatian's new teaching": partisan framing ("new teaching"), switch of witness.
