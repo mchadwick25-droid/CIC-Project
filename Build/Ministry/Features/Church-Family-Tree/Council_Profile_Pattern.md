@@ -8,7 +8,7 @@ Approved to proceed (Mark, 2026-11-14). Standard v1 approved to proceed (Mark, 2
 - The newer standards of 2026-11-11: common names with their place at first mention in each text, real witnesses named, natural dates, hostile witnesses named with polemic marked, Jon audio tags in the audio script only, grade 8 as a floor that fails.
 - Quotes verbatim from the vendored file, re-checked against file and line. A narrator's modern-word telling is a paraphrase and does not claim to be the quote.
 - The five `formation_confidence` levels as record tags, never said aloud or shown as labels. A contested point gives both sides by name and has a `contested_claim` behind it. An honest limit is an `absent_detail`.
-- The review checklist, items 1 to 11 and 13, as written there. In item 10 the close read asks why the council mattered, and its length question is this pattern's own ceiling. The eight early-church person briefs are the bar for a council brief's prose as well: story, joined reasons, evidence inside the telling.
+- The review checklist, items 1 to 11 and 13, as written there. In item 10 the close read asks why the council mattered, and its length question is this pattern's own length rule (target 2:00, stretch to 3). The eight early-church person briefs are the bar for a council brief's prose as well: story, joined reasons, evidence inside the telling.
 
 ## How a council differs from a person
 
@@ -30,13 +30,13 @@ Approved to proceed (Mark, 2026-11-16: "yes this is a much better revision, i ap
 
 ## The brief
 
-- **Length.** Mark, 2026-11-15: "counsils can be a little longer", then "target 2:00 but can streatch to 3". At about 150 spoken words a minute, that is about 300 words, stretching to about 450. A council that tells in a minute and a half is told in a minute and a half, and none is filled to reach a number.
-- **Opening.** Setting first (Standard v1): the first two or three sentences give the year, the place and its region, and what was going on in the church and the world. Then one sourced moment that puts the listener in the room or just before it.
+- **Length.** Mark, 2026-11-15: "counsils can be a little longer", then "target 2:00 but can streatch to 3". At about 150 spoken words a minute, that is about 300 words, stretching to about 450. A council that tells in a minute and a half is told in a minute and a half. This pattern's own rule, not Mark's, is that none is filled to reach a number and that one past 3 minutes needs a batch note saying why.
+- **Opening.** Setting first (Standard v1): the first two or three sentences give the year, the place and its region, the traditions it touched, and what was going on in the church and the world. Then one sourced moment that puts the listener in the room or just before it.
 - **Order.** The setting and the scene. What was at stake and who called the meeting. Whose account we have, said once and early, with the partisan witness named. Who came, from where. What was argued and decided, told through what happened. What came of it, told as a consequence with a sourced link, through events that show its reach beyond one tradition. Where it decided more than one thing that mattered, each is told with what came of it (Standard v1).
 - **Disputes in place.** A contested date, count or sequence is told where it arises, with its ancient witnesses named. A dispute that rests only on modern historians goes to the entry's `uncertain`.
 - **Witnesses.** Named only where trust turns on it: the acts and a partisan participant, a later narrative that stands in for lost acts, a point resting on one source, a legend, or a contested point. What the acts say is told plainly. No modern historian is named in the brief (Standard v1).
 - **References listed below.** Under each brief the visitor sees its sources in the entry's three groups and a short list of what the brief draws on, as work, edition and the part used (Standard v1).
-- **Quotes.** Short, from the acts first where held, otherwise from the named participant or historian.
+- **Quotes.** Short, from the acts first where held, otherwise from the named participant or ancient historian.
 - **Close.** What it changed or defended, or what it left in place, with its witness named, from a held source. No summing-up line.
 - **Audio.** `[calmly]` opens the audio script and `[warmly]` goes before the closing line, as with a person. There is no intro.
 
@@ -88,9 +88,9 @@ Run with the Who checklist, items 1 to 11 and 13.
 C1. Every main witness in `record` has a kind and, where partisan, a side.
 C2. Where the acts are lost, the brief says so once, early, and names whose account stands in for them.
 C3. The condemned party's view is in its own words, or the text says it reaches us through opponents and names them.
-C4. Every count of attendees has its witness; every month or year that no ancient witness gives is attributed to the modern historian by name.
+C4. Every count of attendees has its witness. A month or year that no ancient witness gives is told in the brief only as far as the witnesses agree, and is attributed to the modern historian by name in the entry's `datesNote` and `uncertain`, never in the brief.
 C5. The issue that brought them together is stated with its sides and witnesses; issue, decided and outcome are separate, and a failed or rejected decision is told as such.
 C6. A creed or confession is told as the act of the meeting, with who signed and who refused where held.
 C7. The entry is in the tradition page's form, with the "Major council" title. The Who click gives each person their verdict and part; no new verdict is made by the council profile.
-C8. The brief aims at 2 minutes and runs past 3 only where the batch note says why, and it passes the close read of Who checklist item 10.
-C9. Standard v1: the opening gives year, place and region, and what was going on; each decision is followed by what came of it, with a sourced link; no modern historian is named in the brief; the references below the brief trace every claim told without a named witness.
+C8. The brief aims at 2 minutes and, under this pattern's own rule, runs past 3 only where the batch note says why, and it passes the close read of Who checklist item 10.
+C9. Standard v1: the opening gives year, place and region, the traditions it touched, and what was going on; each decision is followed by what came of it, with a sourced link; no modern historian is named in the brief; the references below the brief trace every claim told without a named witness.
