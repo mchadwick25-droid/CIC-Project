@@ -74,3 +74,7 @@ None. The brief puts quotation marks on no English of our own for a non-English 
 1. Against Eunomius, the Son's full divinity and God beyond every name; with it the Spirit's equal rank. What came of it: the law of 30 July 381 named Gregory among the bishops whose communion marked the Catholic churches. The law gives no reason, and the brief says so.
 2. Hope of restoration and endless growth toward the good, in his own words. No sourced consequence in held files (gap noted in (a)).
 3. Church order: his canons. What came of it: the council in Trullo in 692 set its seal on them. In 553 Justinian named him among the Fathers he followed.
+
+## Length
+
+390 words, about 2:36. It carries two stances (against Eunomius, with the law of 381, and the teaching on restoration, where the brief says plainly that the record stops) and the close in 553 and 692.

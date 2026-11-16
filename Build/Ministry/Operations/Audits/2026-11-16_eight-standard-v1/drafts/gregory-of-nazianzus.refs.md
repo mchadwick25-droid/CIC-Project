@@ -72,3 +72,7 @@ None to add. The Letter 101 line stays the modern telling authored by Opus that 
 ## Renderings needing a second check
 
 None. The brief carries no quotation marks on our own English of a non-English line (ruling of 2026-11-16, "Render at point of use, re-check the 14"). Every quoted line is printed English in a held NPNF or other English file. 
+
+## Length
+
+382 words, about 2:33. It carries two stances, each with its consequence (the Trinity and the Arian bishop who left; Apollinarius and the citation of 680), and the thread to Jerome and Justinian.

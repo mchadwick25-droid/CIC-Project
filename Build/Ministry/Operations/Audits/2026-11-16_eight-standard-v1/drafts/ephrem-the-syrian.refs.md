@@ -68,3 +68,7 @@ None. The two quotations are English translations printed in the held files and 
 ## Renderings needing a second check
 
 None. The brief carries no quotation marks on our own English of a non-English line (ruling of 2026-11-16, "Render at point of use, re-check the 14"). Every quoted line is printed English in a held NPNF or other English file. Barhadbeshabba (French, Scher 1908) is told in plain words without marks.
+
+## Length
+
+378 words, about 2:31, at the 2:30 stretch. It carries two stances, each with its consequence (the hymns against Bardaisan, and the school that passed to Nisibis), and the dispute over who wrote the songs, told where it arises.
