@@ -177,6 +177,9 @@ svg#world{display:block;overflow:visible}
   font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-leaf)}
 #panel details.sources-panel summary:focus-visible{outline:2px solid var(--gold-leaf);
   outline-offset:2px}
+#panel .quotes-note{font-family:"Alegreya Sans",sans-serif;font-size:.78rem;color:var(--ink-faded);margin:.4rem 0 0}
+#panel .quote-src,#panel .quote-note{font-size:.8rem;color:var(--ink-faded)}
+#panel .quotes-panel .person-list{font-size:.88rem}
 #panel .docstories-row{display:flex;flex-wrap:wrap;gap:.5rem;margin:.6rem 0 .3rem}
 #panel details.docstory-item{margin:0}
 #panel details.docstory-item summary{cursor:pointer;list-style:none;display:inline-flex;
@@ -80827,7 +80830,7 @@ const DATA = {
    "why": "Origen is the scholar of the early church. He began to teach at Alexandria as a teenager, after his father died a martyr. He wrote on almost every book of the Bible. Late in life he was tortured for his faith, and he died a few years after.",
    "entry": null,
    "teaser": "Alexandria and Caesarea, c. 203 to 253 CE: a martyr's son who became the church's first great Bible scholar, and was argued over for centuries.",
-   "longDescription": "Around the year two hundred, in Alexandria, Origen's father was arrested for his faith. Origen was a boy, and the church historian Eusebius says he was seized by such a longing for martyrdom that he rushed toward danger. His mother hid his clothes to keep him home, so he wrote to his father in prison. Eusebius kept one sentence of that letter: \"Take heed not to change your mind on our account.\"\n\nHis father died a martyr, and the state took the family's property. Origen was not yet seventeen. In his eighteenth year he took charge of teaching the faith in Alexandria, because everyone else had fled. Jerome says he was so devoted to the Scriptures that he learned Hebrew, against the habit of his time and his people. He then set the Hebrew text beside the Greek translations, in a work called the Hexapla.\n\nHe taught that Scripture, like a person, has body, soul and spirit. In On First Principles he says the plain story builds up simple believers, its soul those who have advanced, and its spiritual law the perfect. The book also taught that the Son's generation is as eternal as brightness from the sun, and that souls existed before birth. We read that book mostly in Rufinus's Latin, and Jerome said Rufinus changed it. Origen also wrote eight books in answer to Celsus, who had attacked Christians in a book called the True Discourse.\n\nBut on a journey through Palestine, the bishops of Caesarea and Jerusalem ordained Origen a priest. Jerome says this so enraged his own bishop, Demetrius, that he wrote everywhere to ruin Origen's name. In the year 231 Origen left Alexandria for Caesarea. He later wrote that he had come through a storm and been brought out of Egypt. About twenty years later, under the emperor Decius, he was stretched in the stocks. Jerome says he died at Tyre, aged sixty-nine.\n\nGregory of Nazianzus later sent a friend a book of passages from Origen, which he and Basil of Caesarea are thought to have gathered. The church historian Socrates, who defended Origen, says Athanasius often cited him in support of his own faith. Three centuries after his death, a council at Constantinople named him among condemned heretics, though how far it went is still argued.",
+   "longDescription": "Around the year 202, the emperor Severus began to persecute the churches, and believers from all over Egypt were brought to Alexandria, where many died. Its church was Alexandrian Christianity, and Origen's father was among those arrested. Eusebius of Caesarea says the boy longed for martyrdom. His mother hid his clothes to keep him home, so he wrote to his father in prison: \"Be careful not to change your mind because of us.\"\n\nHis father died a martyr. In his eighteenth year Origen took charge of teaching the faith in Alexandria, because everyone else had fled. In 231 he left for Caesarea, and Jerome says he died at Tyre.\n\nHis great work was on Scripture. Jerome says he learned Hebrew, against the habit of his time. He set the Hebrew text beside the Greek translations in the Hexapla and marked where the old Greek fell short. When critics attacked Jerome's own Latin Job, Jerome defended it by pointing to those marks. Origen also taught that Scripture, like a person, has body, soul and spirit. Its plain story feeds simple believers, and its deeper senses feed those who have gone further. The Philocalia, a book of passages chosen from him, opens with those chapters on how Scripture should be read.\n\nHe held that the Son had always been with the Father, and a century later Athanasius of Alexandria, defending the council of Nicaea, called on \"the hardworking Origen\" as a witness. He also turned lovers of Greek learning toward the faith. Eusebius says two brothers he taught at Caesarea, Gregory and Athenodorus, both became bishops in Pontus.\n\nSome of his ideas, above all that souls lived before they were born into bodies, drew attack. Methodius of Olympus wrote against him, and Pamphilus of Caesarea and Eusebius wrote in his defense. Three centuries after his death, the acts of a council at Constantinople list his name among condemned heretics.",
    "voices": [
     "Origen — commentator, textual scholar and teacher, whose words the Library holds in Greek and Latin",
     "Eusebius of Caesarea — the historian who wrote down Origen's life, and who kept his books at Caesarea"
@@ -81005,9 +81008,53 @@ const DATA = {
        "date": null,
        "language": "English translation",
        "file": "cic/texts/npnf206_jerome-principal-works.xml"
+      },
+      {
+       "title": "Defence of the Nicene Definition (De Decretis), chapter 27",
+       "author": "Athanasius of Alexandria",
+       "date": null,
+       "language": "English translation",
+       "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
       }
      ]
-    }
+    },
+    "briefReferences": [
+     "Eusebius, Church History VI.1-2, tr. A. C. McGiffert: Severus's persecution, believers of Egypt brought to Alexandria, many dying, Origen's father among those arrested. The year 202 is the edition's reckoning from Eusebius's \"tenth year\" of Severus.",
+     "Eusebius, Church History VI.2.3-6, tr. McGiffert: Origen's longing for martyrdom, his mother hiding his clothes, the letter to his father: \"Take heed not to change your mind on our account.\"",
+     "Eusebius, Church History VI.2.12-13, tr. McGiffert: his father's death as a martyr.",
+     "Eusebius, Church History VI.3, tr. McGiffert: in his eighteenth year he took charge of teaching, because the others were driven away.",
+     "Eusebius, Church History VI.26, tr. McGiffert: his move to Caesarea. The year 231 is the edition's reckoning from the tenth year of Alexander.",
+     "Jerome, Lives of Illustrious Men 54, tr. Ernest Cushing Richardson: he learned Hebrew against the habit of his time; he died at Tyre.",
+     "Eusebius, Church History VI.16, tr. McGiffert: the Hebrew text set beside the Greek versions, the Hexapla.",
+     "Jerome, Preface to Job, tr. W. H. Fremantle: Origen's marks where the old Greek fell short; Jerome defending his Latin Job against critics by those marks.",
+     "Origen, On First Principles IV, tr. Frederick Crombie (Rufinus's Latin): Scripture has body, soul and spirit; the plain story for simple believers, the deeper senses for those who have gone further.",
+     "Origen, Philocalia, chapters I-XIV, tr. George Lewis: the book of passages chosen from him opens with chapters on how Scripture should be read.",
+     "Athanasius, On the Decrees of the Council of Nicaea 27, ed. Archibald Robertson: the Son always with the Father; Athanasius, defending Nicaea, calls on \"the labour-loving Origen\" as a witness.",
+     "Eusebius, Church History VI.30, tr. McGiffert: Gregory and Athenodorus, who came to him for Greek learning, both became bishops in Pontus.",
+     "Origen, On First Principles, tr. Crombie (Rufinus's Latin): souls before bodies. Rufinus's Latin is the only form in which we read it, and Rufinus says he changed passages.",
+     "Jerome, Lives of Illustrious Men 83, tr. Richardson: Methodius wrote On the Resurrection against Origen.",
+     "Jerome, Lives of Illustrious Men 75, tr. Richardson: Pamphilus of Caesarea's defense of Origen. Eusebius, Church History VI.23, tr. McGiffert: \"the Defense which we have composed in his behalf\".",
+     "Fifth Council (Constantinople, 553), Anathema XI, tr. Henry R. Percival: Origen named among those condemned.",
+     "World census, Alexandrian Catechetical / Christian-Platonist Tradition: his tradition."
+    ],
+    "quotationOriginals": [
+     {
+      "modern": "Be careful not to change your mind because of us.",
+      "printed": "Take heed not to change your mind on our account.",
+      "work": "Eusebius, Church History VI.2.3-6, tr. McGiffert",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": "32562",
+      "secondReading": "same"
+     },
+     {
+      "modern": "the hardworking Origen",
+      "printed": "the labour-loving Origen",
+      "work": "Athanasius, On the Decrees of the Council of Nicaea 27, ed. Archibald Robertson",
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+      "lines": "28650-28652",
+      "secondReading": "same"
+     }
+    ]
    },
    "major": true,
    "activeYear": 231
@@ -81057,7 +81104,7 @@ const DATA = {
    "why": "Athanasius was bishop of Alexandria for forty-five years and was driven out five times. Through all of it he held to the faith stated at Nicaea, where he had gone as a young deacon.",
    "entry": null,
    "teaser": "Alexandria, 328 to 373 CE. A bishop sent into exile five times, who held to the creed of Nicaea and died in his own city.",
-   "longDescription": "In 335, at a council in Tyre, Athanasius's accusers held up a severed hand. They said he had murdered a bishop named Arsenius and used the hand for magic. The church historian Socrates, who tells it with plain sympathy, says Arsenius was found alive and led in with his hands under his cloak. Athanasius showed both. Another church historian, Sozomen, adds a rumor that Athanasius had hidden the man himself. Either way, the council deposed him in his absence.\n\nHe had been a young deacon at Nicaea in 325, where Socrates says he spoke strongly against the party of Arius, and three years later, at about thirty, he became bishop of Alexandria. Athanasius quotes Arius's poem, which said God was not always a Father and that the Son was made out of nothing. Nicaea answered that the Son is \"begotten not made, One in essence with the Father.\"\n\nIf the Son were only a creature, Athanasius argued, then becoming man would have left humanity just as it was, not joined to God. In his own words: \"For He was made man that we might be made God.\"\n\nBut the price was high. Constantine the Great sent him to Trier, Socrates says, on a charge of threatening the grain ships. Socrates gives another account too: some affirm the emperor did it for the unity of the church, since Athanasius refused any communion with Arius and his followers. Four more exiles followed. In one, the emperor's agents searched towns, monasteries and tombs for him, and no one gave him up. From hiding he wrote more than half of his surviving works. He came home for good in 366, named Peter as his successor, and died in May of 373.\n\nYears later, Gregory of Nazianzus began a sermon: \"In praising Athanasius, I shall be praising virtue.\" Sixty years after his death, as Cyril of Alexandria made peace with the bishops of the East, he wrote that he followed, especially, \"our blessed and all-celebrated Father Athanasius.\"",
+   "longDescription": "In 335 the churches of the Roman East were still split over Arius. Athanasius was bishop of Alexandria in Egypt, in the church of Alexandrian Christianity. That year, at a council in Tyre, his accusers held up a severed hand. They said he had murdered a bishop named Arsenius and used the hand for magic. Socrates of Constantinople, who tells it with plain sympathy, says Arsenius was led in alive, his hands under his cloak, and Athanasius showed both. Sozomen adds a rumor that Athanasius had hidden the man himself. Either way, the council deposed him.\n\nHe had been a deacon at the council of Nicaea, where Socrates says he spoke strongly against Arius's party. Arius's poem, which Athanasius quotes, said God was not always a Father and the Son was made out of nothing. Nicaea answered that the Son is \"begotten, not made.\" If the Son were only a creature, Athanasius argued, his becoming man would have left us as we were, not joined to God. He wrote: \"He became human so that we might be made God.\"\n\nThat stand cost him his city again and again. Socrates says Constantine the Great sent him to Trier on a charge of threatening the grain ships, though some said it was for the unity of the church, since Athanasius would hold no communion with Arius. The index kept with his Easter letters records four more flights. In 366 he came back to his church for good, and died in 373.\n\nGregory of Nazianzus, praising him in a sermon, says that when some spoke of three hypostases and others of three persons, Athanasius found they meant the same, let each keep its words, and so bound them together. Athanasius also set before the emperor a written confession that Father, Son and Spirit are one in Godhead, and Gregory says few had dared to write it so plainly.\n\nHis Life of Antony told the hermit's story. Jerome says Marcella of Rome heard of Antony from Athanasius and took up that life herself. Sixty years after his death, Cyril of Alexandria wrote that he followed, especially, \"our blessed Father Athanasius, praised by all.\"",
    "voices": [
     "Athanasius of Alexandria — bishop for forty-five years, whose defenses, treatises and letters the Library holds",
     "Cyril of Alexandria — a later bishop of the same city, who wrote that he followed 'our blessed and all-celebrated Father Athanasius'"
@@ -81260,7 +81307,54 @@ const DATA = {
        "file": "cic/texts/cyril-alexandria_three-epistles-grc-eng_pusey1872.txt"
       }
      ]
-    }
+    },
+    "briefReferences": [
+     "Festal Index VIII, ed. Archibald Robertson: the council at Tyre in 335, dated by its consuls.",
+     "Socrates, Church History I.27, tr. A. C. Zenos: the churches divided over Arius; the charge of the severed hand, Arsenius and magic.",
+     "Socrates, Church History I.29, tr. Zenos: Arsenius found, led in with his hands under his cloak, and both hands shown. Socrates writes with plain sympathy for Athanasius.",
+     "Sozomen, Church History II.25, tr. Chester D. Hartranft: the rumor that Athanasius had hidden Arsenius; the council's deposition of him.",
+     "Socrates, Church History I.8, tr. Zenos: Athanasius a deacon at Nicaea, speaking strongly against the Arian party.",
+     "Athanasius, Discourse against the Arians I.5, ed. Robertson: extracts from Arius's Thalia, that God was not always a Father and the Son was made out of nothing.",
+     "Athanasius, On the Decrees of the Council of Nicaea, Eusebius's letter, ed. Robertson: the creed of Nicaea, \"begotten not made\".",
+     "Athanasius, Discourse against the Arians II, ed. Robertson: if the Son were a creature, man's becoming man would leave humanity as it was, not joined to God.",
+     "Athanasius, On the Incarnation 54, ed. Robertson: \"For He was made man that we might be made God\".",
+     "Socrates, Church History I.35, tr. Zenos: Constantine sends him to Trier over the grain ships, though some said it was for the unity of the church, since he would not hold communion with Arius.",
+     "Festal Index, ed. Robertson: the entries for the four later flights; his return to his church a few days after his last withdrawal, which the edition dates to February 366; and his death in 373.",
+     "Gregory of Nazianzus, Oration 21.35, tr. Charles Gordon Browne and James Edward Swallow: the dispute over hypostases and persons; Athanasius found they meant the same, let each keep its words, and bound them together in unity of action.",
+     "Gregory of Nazianzus, Oration 21.33, tr. Browne and Swallow: Athanasius's written confession of the unity of Godhead in Father, Son and Spirit, presented to the emperor, and Gregory's claim that few dared to write it.",
+     "Athanasius, Life of Antony, preface, ed. Robertson: his account of the hermit's story.",
+     "Jerome, Letter 127.5, tr. W. H. Fremantle: Marcella of Rome hearing of Antony's life from Athanasius and taking up that life.",
+     "Cyril of Alexandria, Letter to John of Antioch, ed. P. E. Pusey: \"our blessed and all-celebrated Father Athanasius\". The year 433 is the edition's date.",
+     "World census, Alexandrian Catechetical / Christian-Platonist Tradition: his tradition."
+    ],
+    "quotationOriginals": [
+     {
+      "modern": "begotten, not made.",
+      "printed": "begotten not made.",
+      "work": "Athanasius, On the Decrees of the Council of Nicaea, Eusebius's letter, ed. Robertson",
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+      "lines": "19679",
+      "secondReading": "same"
+     },
+     {
+      "modern": "He became human so that we might be made God.",
+      "printed": "He was made man that we might be made God.",
+      "work": "Athanasius, On the Incarnation 54, ed. Robertson",
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+      "lines": "18743-18744",
+      "secondReading": "minor",
+      "uncertain": "\"We might be made God\" keeps the passive of the Greek: God does the deifying. \"We might become God\" is a second reading that loses this."
+     },
+     {
+      "modern": "our blessed Father Athanasius, praised by all.",
+      "printed": "our blessed and all-celebrated Father Athanasius.",
+      "work": "Cyril of Alexandria, Letter to John of Antioch, ed. P. E. Pusey",
+      "file": "cic/texts/cyril-alexandria_three-epistles-grc-eng_pusey1872.txt",
+      "lines": "5393-5394",
+      "secondReading": "minor",
+      "uncertain": "\"All-celebrated\" means praised by everyone. \"Highly honored\" is a weaker second reading."
+     }
+    ]
    },
    "major": true,
    "activeYear": 328
@@ -81309,7 +81403,7 @@ const DATA = {
    "why": "Gregory of Nyssa was the younger brother of Basil of Caesarea and Macrina, and the boldest thinker of the family. He wrote the long reply to Eunomius that Basil left unfinished. He also wrote the only life we have of his sister.",
    "entry": null,
    "teaser": "Nyssa, 372 to 394 CE: a bishop sent away and brought back, who wrote his sister's life and finished his brother's fight.",
-   "longDescription": "In 379, after his brother Basil died, Gregory came to her monastery and found his sister Macrina dying. She told him it was their parents' prayers that had lifted him up, since he had little of his own to explain such success.\n\nMacrina had turned him around once before. As a young man Gregory gave up reading the sacred books to the people and taught rhetoric. His friend Gregory of Nazianzus asked in a letter why he would rather be called a professor of rhetoric than of Christianity. But it was his sister who persuaded him to join the family's monastery. In 372 Basil made him bishop of Nyssa over his protest. Later an imperial official, whom Basil calls a friend of heretics, had Gregory summoned on charges about church money and his ordination. Basil answered that if any church rule had been broken, the blame lay with those who ordained him, not with a man forced to serve. In 376 Gregory was banished, until the emperor Valens died in 378.\n\nHe took up Basil's fight with Eunomius, who argued that a gulf separated the Father, who is unbegotten, from the Son, who is begotten. Gregory defended the Son's eternal generation, and said that in this life we can never know God's name. In 381 he brought a treatise against Eunomius to the council at Constantinople, and the emperor named him one of the bishops by whose communion the Catholic church would be known.\n\nIn his dialogue on the soul, where Macrina speaks, those who have parted with evil are united with God, who will be all in all. Some read that as hope for the restoration of everyone. Yet some of his sermons speak of eternal fire with no hint of it, so readers argue over his meaning.\n\nA later council made one of his letters part of church law, and the second council of Nicaea called him the Father of Fathers. Because we were made changeable, he wrote in the Great Catechism, we can keep moving toward the good, and there \"the advance has no check.\"",
+   "longDescription": "In 378 the emperor Valens, who had driven bishops loyal to Nicaea into exile, was killed fighting the Goths. The new emperor Gratian called the exiles home. One of them was Gregory of Nyssa, a bishop of Cappadocian Christianity, in Asia Minor. His brother Basil of Caesarea wrote that Gregory had been made bishop of Nyssa by force. When an imperial official, a friend of heretics in Basil's words, had him summoned on charges about church money and his ordination, Basil answered that any fault lay with those who ordained him.\n\nAfter Basil died, Gregory wrote, he \"inherited the controversy with Eunomius.\" Eunomius held, as Gregory reports him, that being unbegotten was the Father's very essence, so the Son was unlike Him in being. Gregory answered that the Deity \"is above every name.\" He also wrote that the Holy Spirit is \"of the same rank as the Father and the Son.\" In 381 an imperial law handed the churches to bishops who confessed one majesty in Father, Son and Spirit. It named Gregory as one whose communion marked them, though it gives no reason.\n\nIn the Great Catechism he wrote that we were made able to change, so we can keep moving toward the good without end. He looks there to a day when those now lying in sin are restored and all creation gives thanks. Christ, he writes, frees humanity from evil and heals even the one who brought evil in. The sources we have do not show what came of this teaching in his own day.\n\nIn 553 the emperor Justinian, writing to a council at Constantinople, named him among the holy Fathers whose writings on the true faith he followed. In 692 the council in Trullo set its seal on his canons, making them church law.",
    "voices": [
     "Gregory of Nyssa — bishop, theologian and his sister's biographer, whose treatises and letters the Library holds",
     "Macrina — his elder sister, known only through the Life he wrote of her"
@@ -81495,7 +81589,52 @@ const DATA = {
        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
       }
      ]
-    }
+    },
+    "briefReferences": [
+     "Socrates, Church History IV.38, tr. A. C. Zenos: Valens killed fighting the Goths in 378.",
+     "Socrates, Church History V.2, tr. Zenos: the exiled orthodox bishops recalled by Gratian.",
+     "Gregory of Nyssa, Life of Macrina, tr. W. K. Lowther Clarke: Gregory's own account of his exile under Valens for the faith.",
+     "Theodoret, Church History IV.27, tr. Blomfield Jackson: the brothers among the bishops of Cappadocia in Asia Minor.",
+     "Basil, Letter 225 to Demosthenes, tr. Jackson: Gregory made bishop by force; the charges about church money and his ordination, and the fault lying with those who ordained him.",
+     "Basil, Letter 237 to Eusebius of Samosata, tr. Jackson: the official, a friend of heretics, who had Gregory summoned.",
+     "Gregory of Nyssa, Against Eunomius, Letter I to Peter of Sebasteia, tr. William Moore and Henry Austin Wilson: after Basil's death, \"I received the legacy of Eunomius' controversy\".",
+     "Gregory of Nyssa, Against Eunomius, tr. Moore and Wilson: Eunomius, as Gregory reports him, making ungeneracy the Father's essence, so that the Son is \"unlike in being to the Father\".",
+     "Gregory of Nyssa, Against Eunomius XII, tr. Moore and Wilson: \"the Deity is above every name\".",
+     "Gregory of Nyssa, On the Holy Spirit, Against the Followers of Macedonius, tr. Moore and Wilson: \"the Holy Spirit is of the same rank as the Father and the Son\".",
+     "Codex Theodosianus 16.1.3 (30 July 381), Latin: the churches to bishops confessing one majesty of Father, Son and Spirit, in communion with named bishops, Gregory of Nyssa among them. The law gives no reason.",
+     "Gregory of Nyssa, Great Catechism 21, tr. Moore and Wilson: we were made able to change, and can keep moving toward the good without end.",
+     "Gregory of Nyssa, Great Catechism 26, tr. Moore and Wilson: the restoration of those lying in sin, the thanks of all creation, Christ freeing humanity from evil and healing the one who brought it in.",
+     "Constantinople II (553), Session I, the emperor's letter, tr. Henry R. Percival: Justinian names Gregory of Nyssa among the holy Fathers he follows.",
+     "Council in Trullo (692), canon 2, tr. Percival: the council sets its seal on the canons of Gregory, bishop of Nyssa.",
+     "World census, Cappadocian Christianity: his tradition."
+    ],
+    "quotationOriginals": [
+     {
+      "modern": "inherited the controversy with Eunomius.",
+      "printed": "received the legacy of Eunomius' controversy.",
+      "work": "Gregory of Nyssa, Against Eunomius, Letter I to Peter of Sebasteia, tr. William Moore and Henry Austin Wilson",
+      "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt",
+      "lines": "2788",
+      "secondReading": "minor",
+      "uncertain": "\"Eunomius' controversy\" means the dispute against Eunomius that Basil left unfinished. This is read from the context. The English alone could mean a dispute that belonged to Eunomius."
+     },
+     {
+      "modern": "is above every name.",
+      "printed": "is above every name.",
+      "work": "Gregory of Nyssa, Against Eunomius XII, tr. Moore and Wilson",
+      "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt",
+      "lines": "8957-8958",
+      "secondReading": "same"
+     },
+     {
+      "modern": "of the same rank as the Father and the Son.",
+      "printed": "of the same rank as the Father and the Son.",
+      "work": "Gregory of Nyssa, On the Holy Spirit, Against the Followers of Macedonius, tr. Moore and Wilson",
+      "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt",
+      "lines": "27944",
+      "secondReading": "same"
+     }
+    ]
    },
    "major": false,
    "activeYear": 381
@@ -81551,7 +81690,7 @@ const DATA = {
    "why": "Ephrem taught the faith in song. He served as a deacon. The sources differ on where he was ordained. His hymns carried the church's teaching in words a whole congregation could sing.",
    "entry": null,
    "teaser": "Nisibis and Edessa, c. 338 to 373 CE: a deacon who sang his city through three sieges, and taught a church its faith in hymns.",
-   "longDescription": "When famine struck Edessa, Ephrem left his cell and asked the rich why they let people die while their wealth went to ruin. Palladius of Helenopolis tells what came next. The rich said they had no one honest enough to run the relief, so Ephrem asked what they thought of him. They said they knew him for a man of God, and he answered: \"See, on your behalf I appoint myself hospitaller.\"\n\nHe had come to Edessa years before, from Nisibis, where he learned from its bishop, Jacob, and lived through three Persian sieges. In 363 the emperor Jovian gave Nisibis to Persia, its Christians left, and Ephrem settled in a cell on a hill outside Edessa.\n\nThere he faced teachings that rivaled the church's: Manichaeans, Marcionites, and the followers of Bardaisan, a Syrian who had lived some hundred and fifty years earlier. The church historian Sozomen says Bardaisan's son Harmonius set Greek ideas about the soul and the body's death and rebirth to sweet tunes. Ephrem feared the people would absorb them, so he wrote hymns that held the church's doctrine and used the same melodies. In one hymn he says that to deny the body's resurrection slanders God's justice and grace.\n\nIt worked. From that time on, Sozomen says, the Syrians sang the hymns of Ephrem. In Theodoret's day they still brightened the festivals of the martyrs, and some churches read his writings aloud after the Scriptures.\n\nEphrem ran the relief for a year, with some three hundred beds. When the famine ended and the people went home, he returned to his cell, and a month later, Palladius says, he died there.",
+   "longDescription": "Around 372, famine struck Edessa, a Syriac-speaking city of upper Mesopotamia on Rome's border with Persia. Its church was part of Syriac Christianity. Ephrem, a deacon of Edessa from Nisibis or its countryside, left his cell. Palladius of Helenopolis says he asked the rich why they let people die while their wealth went to ruin. They said they had no one honest enough to run the relief, so Ephrem asked what they thought of him. They said they knew him for a man of God, and he answered: \"Look, on your behalf I appoint myself to run the shelter.\" He ran the relief for a year, and a month after it ended, Palladius says, he died in his cell.\n\nHis years in Edessa had been spent against rival teachers. He wrote prose against Mani, Marcion and Bardaisan of Edessa. To deny the body's resurrection, he answered, slanders God's justice and grace.\n\nSozomen says Bardaisan's son Harmonius had set Greek ideas about the soul and the body's birth, death and rebirth to songs the Syrians loved. In his own homily, though, Ephrem blames Bardaisan himself. Ephrem feared the people would absorb those ideas, so he learned the same meters and wrote hymns that held the church's teaching. From that time on, Sozomen says, the Syrians sang the songs of Ephrem. His works were put into Greek in his own lifetime, and Basil of Caesarea admired him. Jerome wrote that some churches read his writings aloud after the Scriptures. In the next century, Theodoret of Cyrrhus says, his hymns still brightened the festivals of the martyrs.\n\nAround 600, Barhadbeshabba, the historian of the school of Nisibis, wrote that Ephrem had opened a school in Edessa, and that after his death his disciples made it grow. Later, he says, Narsai founded a school at Nisibis, by then inside Persia, and most of the students of Edessa came to him. In his telling, the schools that spread through the Church of the East under Persia began with Ephrem.",
    "voices": [
     "Ephrem — deacon and hymnwriter, whose hymns and homilies the Library holds",
     "Barhadbeshabba — a later teacher of the Church of the East, who told how Ephrem taught at Edessa"
@@ -81688,7 +81827,33 @@ const DATA = {
        "file": "cic/texts/palladius_lausiac-history_clarke1918.txt"
       }
      ]
-    }
+    },
+    "briefReferences": [
+     "Sozomen, Church History III.16, tr. Chester D. Hartranft: the famine shortly before Ephrem's death, around 372; Ephrem a native of Nisibis or its countryside.",
+     "Theodoret, Church History II.26, tr. Blomfield Jackson: Nisibis on the border between Persia and Rome.",
+     "Theodoret, Church History IV.26, tr. Jackson: Ephrem writing in the Syrian language.",
+     "Palladius, Lausiac History 40, tr. W. K. Lowther Clarke: Ephrem a deacon of Edessa; the famine, the rich, the exchange, \"See, on your behalf I appoint myself hospitaller.\"; the year of relief; his death in his cell a month after.",
+     "Ephrem, Prose Refutations of Mani, Marcion and Bardaisan, tr. C. W. Mitchell: his prose against the three.",
+     "Ephrem, Nisibene Hymn 51, tr. John Gwynn: the body not raised as reproach to God's grace and slander of his justice.",
+     "Sozomen, Church History III.16, tr. Hartranft: Harmonius, son of Bardaisan, and Greek ideas of soul and body; Ephrem's fear, the meters, the hymns of church teaching, and the Syrians singing his songs.",
+     "Ephrem, Homily 53, Against Heretics, in the extract printed by Gwynn: he blames Bardaisan himself.",
+     "Sozomen, Church History III.16, tr. Hartranft: his works put into Greek in his lifetime; Basil's admiration.",
+     "Jerome, Lives of Illustrious Men 115, tr. Ernest Cushing Richardson: his writings read aloud in some churches after the Scriptures.",
+     "Theodoret, Church History IV.26, tr. Jackson: his hymns at the festivals of the martyrs.",
+     "Barhadbeshabba, Cause of the Foundation of the Schools, ed. and tr. Addai Scher (French): Ephrem's school at Edessa, its growth under his disciples, Narsai's school at Nisibis, and the schools that spread in Persia. He wrote around 600.",
+     "World census, Syriac Christianity (Edessa/Nisibis): his tradition."
+    ],
+    "quotationOriginals": [
+     {
+      "modern": "Look, on your behalf I appoint myself to run the shelter.",
+      "printed": "See, on your behalf I appoint myself hospitaller.",
+      "work": "Palladius, Lausiac History 40, tr. W. K. Lowther Clarke",
+      "file": "cic/texts/palladius_lausiac-history_clarke1918.txt",
+      "lines": "471",
+      "secondReading": "changes meaning",
+      "uncertain": "\"On your behalf\" may mean \"as your agent, with your money\" or \"for your sake\". \"Hospitaller\" means one who runs a house of care for strangers, the poor and the sick, so readings include \"shelter\" and \"guesthouse\"."
+     }
+    ]
    },
    "major": true,
    "activeYear": 363
@@ -81745,7 +81910,7 @@ const DATA = {
    "why": "John Chrysostom preached at Antioch for twelve years and then at Constantinople. He spoke plainly about money, cruelty and the poor. That plain speech, aimed at the court too, led in the end to his exile. He died on the road into a second exile.",
    "entry": null,
    "teaser": "Antioch and Constantinople, 386 to 407 CE. The 'golden-mouthed' preacher who told the rich what they owed the poor, and who died in exile.",
-   "longDescription": "In 399, the emperor's chief eunuch, Eutropius, fled into the cathedral of Constantinople, though he had just stripped refugees of the right to shelter there. As he lay trembling under the altar table, Bishop John climbed into the pulpit and preached against him. The church historian Socrates says some thought John added insult to cruelty. John himself said he spoke to soften the people's hearts toward him, for the church, like a mother, had hidden her enemy under her cloak.\n\nYears before, a tax riot in Antioch tore down the emperor's statues. John, by then a priest, preached to the frightened crowds, comforting them and urging them to change their lives, until Flavian, the city's old bishop, won the emperor's pardon.\n\nIn February of 398 John had been made bishop, the court's own choice, and Eutropius had made Theophilus of Alexandria ordain him. Palladius, who stood by John to the end, says he found the bishop's expenses extravagant and moved that money to the hospital. John told the rich: \"Wouldest thou do honor to Christ’s body? Neglect Him not when naked.\"\n\nBut Theophilus held a grudge, because his own favorite, the Alexandrian priest Isidore, had lost the see to John. Socrates says Theophilus used a quarrel over Origen's books against him. In 403 the bishops at the Oak cited John four times. He refused them as his enemies, and they deposed him for refusing. The people rose, and he was recalled. After a clash with the empress Eudoxia, a second council silenced him. Socrates notes the irony: the bishops condemned John under a canon first framed at Antioch against Athanasius of Alexandria, and so approved Athanasius's own deposition. In 404 an imperial decree sent John to Cucusus in Armenia. Palladius says he spent a year there while a great famine struck Armenia, and that John fed the poor more with words than with grain. Then his enemies had him moved on. In 407 a harsher order sent him toward Pityus on the Black Sea. He died on the road, Palladius says, hurried along by soldiers who hoped he would not survive.\n\nIn 438 Bishop Proclus of Constantinople carried John's body back to the city in procession, and John's followers returned to the church.",
+   "longDescription": "In 399 the bishop of Constantinople, the eastern capital, was John, a preacher from Antioch in Syria. He came from Antiochene Christianity, with its plain way of reading Scripture. That year the emperor's chief eunuch, Eutropius, had a law passed that stripped refugees of the right to shelter in churches. Then he fell from favor and fled into the cathedral himself. As he lay trembling under the altar table, John climbed into the pulpit and preached against him. Socrates of Constantinople says some thought John added insult to cruelty. John himself said he spoke to soften the people's hearts toward him, for the church, like a mother, had hidden her enemy under her cloak.\n\nAt Antioch John had trained under Diodore, who kept to the literal sense of Scripture.\n\nIn 398 the court had chosen John, and Eutropius made Theophilus of Alexandria ordain him. Palladius of Helenopolis, who stood by John to the end, says he moved the bishop's extravagant spending to the hospital, and built more hospitals. In a sermon on Matthew, John told his listeners that if they wanted to honor the body of Christ, they must not neglect Him when He is naked.\n\nHe rebuked men in office too. Socrates says that turned the tide against him, and that the sermon over Eutropius made it worse. Theophilus held a grudge, since his own favorite had lost the see to John. In 403 he and his bishops, meeting at the Oak near Chalcedon, cited John to appear. When John refused them as his enemies, they deposed him for refusing. The people rose, and he was recalled. After a clash with the empress Eudoxia, a second council silenced him, and in 404 an imperial decree sent him into exile. In 407, Palladius says, soldiers hurried him toward Pityus on the Black Sea, hoping he would die. He died on the way, with his usual words, \"Glory to God for all things.\"\n\nIn 438 Bishop Proclus of Constantinople carried John's body back to the city in procession, and by this, Socrates says, he brought back to the church's communion the followers who had left it over John's deposition.",
    "voices": [
     "John Chrysostom — the preacher later called 'golden-mouthed', whose sermons, treatises and letters the Library holds",
     "Palladius of Helenopolis — a bishop who stood by him, and wrote a dialogue on his life and fall"
@@ -82002,7 +82167,33 @@ const DATA = {
        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
       }
      ]
-    }
+    },
+    "briefReferences": [
+     "Socrates, Church History VI.3, tr. A. C. Zenos: John a native of Antioch in Syria.",
+     "Socrates, Church History VI.5, tr. Zenos: Eutropius's law against sanctuary, his fall and flight into the cathedral, trembling under the altar table; John's sermon, which some thought added insult to cruelty.",
+     "John Chrysostom, Homily I on Eutropius: John's own account, that he spoke to soften hearts toward Eutropius, the church like a mother hiding her enemy under her cloak.",
+     "Socrates, Church History VI.3, tr. Zenos: John's training under Diodore, who kept to the literal sense of Scripture.",
+     "Socrates, Church History VI.2, tr. Zenos: the court's choice of John in 398; Eutropius making Theophilus of Alexandria ordain him.",
+     "Palladius, Dialogue on the Life of Chrysostom, tr. Herbert Moore: Palladius bishop of Helenopolis; the bishop's spending moved to the hospital and more hospitals built.",
+     "John Chrysostom, Homily 50 on Matthew, tr. George Prevost: honor Christ's body, and do not neglect Him when He is naked.",
+     "Socrates, Church History VI.5, tr. Zenos: his rebukes of men in office turning the tide against him, the Eutropius sermon making it worse; Theophilus's grudge over his own favorite.",
+     "Socrates, Church History VI.15, tr. Zenos: the Oak near Chalcedon in 403, John refusing judges who were his enemies, and his deposition for refusing.",
+     "Socrates, Church History VI.15-16, tr. Zenos: the people rising and John's recall.",
+     "Socrates, Church History VI.18, tr. Zenos: the clash with Eudoxia, the second council that silenced him, the decree of exile in 404.",
+     "Palladius, Dialogue on the Life of Chrysostom, tr. Moore: in 407 soldiers hurrying him toward Pityus on the Black Sea; his death on the way, using his customary formula, \"Glory to God for all things\".",
+     "Socrates, Church History VII.45, tr. Zenos: Proclus carrying John's body back to Constantinople in 438, and by this winning back the followers who had left the church's communion.",
+     "World census, Antiochene Exegetical Christianity (Chrysostom-centered): his tradition."
+    ],
+    "quotationOriginals": [
+     {
+      "modern": "Glory to God for all things.",
+      "printed": "Glory to God for all things.",
+      "work": "Palladius, Dialogue on the Life of Chrysostom, tr. Moore",
+      "file": "cic/texts/palladius_dialogue-life-of-chrysostom_moore1921.txt",
+      "lines": "6498-6499",
+      "secondReading": "same"
+     }
+    ]
    },
    "major": true,
    "activeYear": 398
@@ -82704,7 +82895,7 @@ const DATA = {
    "why": "Methodius of Olympus was a bishop in Lycia. He wrote the Banquet of the Ten Virgins, a dialogue that praises virginity. Its frame comes from Plato's Symposium. He also wrote against Origen. He died a martyr about 312.",
    "entry": null,
    "teaser": "Olympus in Lycia, c. 290 to 312 CE: a bishop who had ten women speak on chastity, and who wrote against Origen.",
-   "longDescription": "The historian Socrates tells an odd story about Methodius, a bishop in Lycia. Methodius attacked Origen in many places, Socrates says, and then, as if taking it all back, praised him in a dialogue. Socrates defended Origen and called his critics worthless, so he is not a neutral witness.\n\nLittle else is certain. Jerome says he was bishop of Olympus and later of Tyre, and that he died a martyr at Chalcis at the end of the recent persecution. That was around the year 312. Others put it under Decius and Valerian, but that cannot be right, since Methodius wrote against Origen long after Origen died.\n\nEpiphanius of Cyprus called him a learned man and a valiant defender of the truth, and Jerome praised his style. Theodoret kept a passage from his sermon on martyrs.\n\nJerome lists his book On the Resurrection as against Origen. Origen had taught that the soul was chained in a body after its fall. Methodius answered, Photius reports, that the body is no chain, and that a person is soul and body joined. He pictures sin as a wild fig tree grown into a temple's stones. Death tears the tree out, so that the temple can stand again. The flesh is then raised, he writes, \"with the same parts, uninjured and immortal, while sin is utterly and entirely destroyed.\"",
+   "longDescription": "Around the year 300, Methodius was a bishop in Lycia, in the south of Asia Minor, in the Anatolian church of the third century. Origen had been dead some fifty years, and his books still had critics and defenders. Methodius wrote against him, and two of Origen's admirers wrote about what he did.\n\nSocrates of Constantinople says Methodius attacked Origen in many places and then, as if taking it all back, praised him in a dialogue. Eusebius of Caesarea, in a defense of Origen that Jerome quotes, asked how Methodius dared to attack Origen now, after all he had said of his teaching. Both men admired Origen, so neither is a neutral witness.\n\nLittle else about Methodius is certain. Jerome says he was bishop of Olympus and later of Tyre, and that he died a martyr at Chalcis.\n\nHis chief quarrel with Origen was over the body. Origen had taught, Photius of Constantinople reports, that the soul was given a body as a chain after its fall. In On the Resurrection, Methodius answered that the body is no chain, and that a person is soul and body joined. He pictures sin as a wild fig tree grown into a temple's stones. Death tears the tree out so the temple can stand again. Then the flesh is raised, he writes, \"with the same parts, uninjured and immortal, while sin is utterly and entirely destroyed.\" Decades later, Epiphanius of Salamis wrote against Origen and copied Methodius word for word instead of arguing it himself.\n\nMethodius also answered Porphyry, who had written against the Christians. That reply is lost, but Jerome counted it among the answers that had met Porphyry well. A century and more later, Theodoret of Cyrrhus kept a passage from his sermon on the martyrs. He named him among the bishops and martyrs whose words witness to the church's faith in Christ.",
    "voices": [
     "Methodius of Olympus — bishop and author of the Banquet of the Ten Virgins, whose works the Library holds",
     "Jerome — who lists his books in his catalog of Christian writers"
@@ -82809,7 +83000,30 @@ const DATA = {
        "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml"
       }
      ]
-    }
+    },
+    "briefReferences": [
+     "Socrates, Church History VI.13, tr. A. C. Zenos: Methodius a bishop in Lycia; he attacked Origen in many places, then praised him in a dialogue.",
+     "Jerome, Lives of Illustrious Men 83, tr. Ernest Cushing Richardson: bishop of Olympus and later of Tyre; martyred at Chalcis; wrote against Origen. The approximate year 300 is reckoned from his dating of the death.",
+     "Jerome, Lives of Illustrious Men 54, tr. Richardson: Origen's death under Gallus at sixty-nine, some fifty years before.",
+     "Jerome, Apology against Rufinus I.11, tr. W. H. Fremantle: Eusebius, in the sixth book of his defense of Origen, asks how Methodius dared to write against Origen now.",
+     "Photius, Bibliotheca 234 (extract), tr. W. R. Clark: Origen taught that the soul received the body as a fetter after its fall; Methodius answered that the body is no fetter and that a person is soul and body joined.",
+     "Methodius, On the Resurrection, tr. Clark: sin as a tree grown into the temple's stones, torn out so the temple may stand; the flesh raised \"with the same parts, uninjured and immortal, while sin is utterly and entirely destroyed.\"",
+     "Epiphanius, Panarion 64, Greek, ed. Karl Holl: he rests on Methodius and sets out his words word for word.",
+     "Jerome, Letter 70 to Magnus, tr. Fremantle: Methodius's answer to Porphyry, counted among those that met him well.",
+     "Theodoret, Eranistes, tr. Blomfield Jackson: a passage kept from Methodius's sermon on the martyrs, and Methodius named among the bishops and martyrs whose words witness to the faith in Christ.",
+     "World census, The Anatolian Church in the Third Century: his tradition."
+    ],
+    "quotationOriginals": [
+     {
+      "modern": "with the same parts, uninjured and immortal, while sin is utterly and entirely destroyed.",
+      "printed": "with the same parts, uninjured and immortal, while sin is utterly and entirely destroyed.",
+      "work": "Methodius, On the Resurrection, tr. Clark",
+      "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+      "lines": "35400-35402",
+      "secondReading": "minor",
+      "uncertain": "The printed text doubles the emphasis (\"utterly and entirely\"). One reading keeps the doubling, and the other has the plain \"completely destroyed\"."
+     }
+    ]
    },
    "major": false,
    "activeYear": 312
@@ -82968,7 +83182,7 @@ const DATA = {
    "why": "Constantine was the Roman emperor who ended the ban on the church. With Licinius he gave Christians, and all others, freedom to follow the religion they chose. He called the bishops to a great council at Nicaea. He also judged church quarrels and moved against groups he called heretics.",
    "entry": null,
    "teaser": "Milan and Nicaea, 312 to 337 CE: the emperor who let Christians worship, met their bishops at Nicaea, and sought baptism near his death.",
-   "longDescription": "Marching on Rome against his rival Maxentius, Constantine prayed, the church historian Eusebius says, that God would show him who he was. Constantine told Eusebius the rest himself, years later and under oath. At midday a cross of light stood above the sun, with the words \"Conquer by this,\" and that night Christ came to him in sleep and told him to make a likeness of the sign. Eusebius admits the story would be hard to believe from anyone else. Lactantius knows only a dream, telling Constantine to mark the sign of Christ on his soldiers' shields.\n\nMaxentius was driven into the Tiber at the broken bridge, Lactantius says. Soon Constantine and Licinius met at Milan and decreed that Christians and all others should be free to follow the religion each thought best. The same decree ordered the places where Christians met to be given back.\n\nAt Alexandria the presbyter Arius argued that if the Father begat the Son, there was a time when the Son was not. Constantine wrote to Arius and his bishop that the quarrel was trifling and should stay in private thought. Then he called the bishops to Nicaea and sat among them, \"your fellow-servant,\" as he wrote. Eusebius, the bishop of Caesarea, told his church that the emperor urged one added word, homoousios, \"of the same essence,\" and explained that the Son did not come from the Father by division or cutting off.\n\nOnly when he knew he was dying, Eusebius says, did he seek baptism. He had hoped to receive it in the Jordan. Near Nicomedia he told the bishops, \"The time is arrived which I have long hoped for, with an earnest desire and prayer that I might obtain the salvation of God.\" His body was carried to Constantinople and laid in the Church of the Apostles. The church historian Sozomen says later Christian emperors and bishops were buried there too.",
+   "longDescription": "In 312 the church had lived through nearly ten years of persecution. That year Constantine marched on Rome against his rival emperor Maxentius, and with him begins Imperial and Juridical Christianity, the church of the emperors. On the march, Eusebius of Caesarea says, he prayed that God would show him who he was. Constantine told Eusebius the rest himself, years later and under oath. At midday a cross of light stood above the sun, with the words \"Conquer by this,\" and that night Christ came to him in sleep. Lactantius, who wrote in Constantine's own day, knows only a dream that told him to mark the sign of Christ on his soldiers' shields.\n\nMaxentius was driven into the Tiber at the broken bridge. Soon Constantine and his fellow emperor Licinius met at Milan and decreed that Christians and all others should be free to follow the religion each thought best. The Christians' meeting places were to be given back, and Eusebius says churches rose again from their foundations.\n\nAt Alexandria the presbyter Arius argued that if the Father begat the Son, there was a time when the Son was not. Constantine wrote to Arius and his bishop that the quarrel was trifling. Then he called the bishops to Nicaea and sat among them, \"your fellow servant,\" as he wrote. Eusebius told his church that the emperor urged one added word, homoousios, meaning of the same essence, and an imperial edict then sent Arius into exile.\n\nYears later Arius gave the emperor a written creed, and Constantine ordered Athanasius, by then bishop of Alexandria, to receive him back. Socrates of Constantinople says he did not wish to see the church torn. Athanasius refused, his enemies brought charges against him, and Constantine sent him into exile in Gaul.\n\nOnly when he knew he was dying, Eusebius says, did he seek baptism. Sozomen calls him \"the first of the emperors who began to be zealous for the Church\". He was buried in the Church of the Apostles at Constantinople, and Sozomen says later Christian emperors were buried there too.",
    "voices": [
     "Constantine — emperor, whose edicts and letters the Library holds as Eusebius of Caesarea copied them",
     "Eusebius of Caesarea — who copied his documents and wrote his Life",
@@ -83055,7 +83269,49 @@ const DATA = {
        "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt"
       }
      ]
-    }
+    },
+    "briefReferences": [
+     "Lactantius, On the Deaths of the Persecutors 43-48, tr. William Fletcher: the persecution of nearly ten years; the rival emperors; Maxentius's march and his dream of the sign of Christ on the shields; Maxentius driven into the Tiber at the broken bridge. The year 312 is the standard reckoning from his dates.",
+     "Eusebius, Life of Constantine I.28-29, tr. Ernest Cushing Richardson: his prayer that God show him who he was; the account he gave Eusebius under oath; the cross of light above the sun with the words \"Conquer by this\"; Christ coming to him in sleep that night.",
+     "Lactantius, On the Deaths of the Persecutors 48, tr. Fletcher: the meeting at Milan, freedom for Christians and all others, and the return of their meeting places.",
+     "Eusebius, Church History X.2-3, tr. McGiffert: churches rising again from their foundations.",
+     "Socrates, Church History I.5, tr. A. C. Zenos: Arius's teaching that if the Father begat the Son, there was a time when the Son was not.",
+     "Eusebius, Life of Constantine II.68-71, tr. Richardson: Constantine's letter to Arius and his bishop, calling the cause trifling.",
+     "Eusebius, Life of Constantine III.6, tr. Richardson: the bishops called to Nicaea.",
+     "Eusebius, Life of Constantine III.17, tr. Richardson: his letter to the churches, \"your fellow-servant\".",
+     "Socrates, Church History I.8, tr. Zenos: Eusebius's letter to his church, the emperor urging the single word homoousios, glossed \"of the same essence\"; the edict that sent Arius into exile.",
+     "Socrates, Church History I.25-27, tr. Zenos: Arius recalled and his written creed; the order that Athanasius receive him; Constantine's wish not to see the church ruptured; Athanasius's refusal and the charges against him.",
+     "Socrates, Church History I.35, tr. Zenos: Athanasius sent into exile in Gaul.",
+     "Eusebius, Life of Constantine IV.61-62, tr. Richardson: baptism sought only when he knew he was dying.",
+     "Sozomen, Church History II.34, tr. Chester D. Hartranft: he \"was the first of the emperors who began to be zealous for the Church\"; his burial in the Church of the Apostles, where later Christian emperors were also buried.",
+     "World census, Imperial and Juridical Christianity: his tradition."
+    ],
+    "quotationOriginals": [
+     {
+      "modern": "Conquer by this,",
+      "printed": "Conquer by this,",
+      "work": "Eusebius, Life of Constantine I.28-29, tr. Ernest Cushing Richardson",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": "61206",
+      "secondReading": "same"
+     },
+     {
+      "modern": "your fellow servant,",
+      "printed": "your fellow-servant,",
+      "work": "Eusebius, Life of Constantine III.17, tr. Richardson",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": "64594",
+      "secondReading": "same"
+     },
+     {
+      "modern": "the first of the emperors who began to be zealous for the Church",
+      "printed": "the first of the emperors who began to be zealous for the Church.",
+      "work": "Sozomen, Church History II.34, tr. Chester D. Hartranft",
+      "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+      "lines": "30677",
+      "secondReading": "same"
+     }
+    ]
    },
    "major": true,
    "activeYear": 325
@@ -83159,7 +83415,7 @@ const DATA = {
    "why": "Gregory of Nazianzus was a bishop, preacher and poet. He was born at Arianzus, near Nazianzus. His Five Theological Orations defend faith in the Trinity. They won him the title \"the Theologian\".",
    "entry": null,
    "teaser": "Nazianzus and Constantinople, c. 372 to 390 CE: the preacher called the Theologian, who took the chair of the great council of 381, then resigned and went home.",
-   "longDescription": "In 379 Gregory came to Constantinople, where the Arians held the churches. He lodged with a relative, and part of the house became a chapel that he named Anastasia, for the faith that was to rise again. There he preached the five orations that earned him the name of the Theologian. They defend the Trinity against those who blurred the three Persons together and those who split the one substance. The emperor Theodosius gave him the cathedral, and the council of 381 made him archbishop of the city. When its president, Meletius of Antioch, died, Gregory took the chair. Egyptian bishops objected, citing a rule from Nicaea against moving a bishop from one see to another, so he gave up the see and went home.\n\nHis closest friend was Basil of Caesarea, whom he had known as a boy and met again as a student in Athens. In his funeral speech for Basil, Gregory says he refused to haze the newcomer, and that this was the kindling spark of their friendship. Of their years together he wrote: \"We seemed to have one soul, inhabiting two bodies.\" Gregory's father, the bishop of Nazianzus, ordained him a priest against his will, and Gregory fled to Basil in Pontus before returning. Years later Basil made him bishop of Sasima, a miserable little village, almost by force. Gregory was angry. Another bishop held the village with troops, and his father begged him to stay home, so he likely never served there.\n\nHe wrote two letters to the priest Cledonius against Apollinarius, who denied that Christ had a human mind. The councils of Ephesus and Chalcedon later adopted them, and Jerome, who heard him preach, called him his teacher in the Scriptures. Gregory wrote: \"For that which He has not assumed He has not healed; but that which is united to His Godhead is also saved.\"",
+   "longDescription": "In 380 the Arians had held the churches of Constantinople, the eastern capital, for forty years. Those who still kept to the creed of Nicaea were led by Gregory of Nazianzus, from the church of Cappadocian Christianity. Many bishops had called him there from Asia Minor. They met in a little house of prayer. The church historian Sozomen says it was named Anastasia, the Resurrection, because, he believes, the faith of Nicaea, buried in the city, rose again through Gregory's sermons.\n\nHis closest friend was Basil of Caesarea. Yet when Basil made him bishop of Sasima, a village that a rival bishop also claimed, Gregory refused to fight for it. \"Why should I fight over piglets and chickens, and ones that are not my own,\" he wrote to Basil, \"as if I were fighting for souls and church canons?\"\n\nIn Constantinople he preached the Trinity. He would keep, he said, \"equally far from the merging of Sabellius and from the division of Arius,\" the one fusing God together and the other cutting Him into unequal parts. In November 380 the emperor Theodosius ordered the Arian bishop to accept Nicaea or leave the churches, and he left. When some bishops objected to Gregory's election, he gave up the see. In his farewell he said the city's other churches were full again, and he gave the credit to the grace that was with him.\n\nApollinarius held that Christ had no human mind. Against him Gregory wrote to the priest Cledonius that whatever Christ did not take on, He did not heal. Whatever is joined to His divine nature, Gregory added, is also saved. Three centuries later the church argued over whether Christ had a human will, and Pope Agatho cited Gregory to show that He did.\n\nJerome called him \"my teacher in the Scriptures.\" In 553 the emperor Justinian told a council at Constantinople that he followed the holy Fathers, and among them he named Gregory the Theologian.",
    "voices": [
     "Gregory of Nazianzus — bishop, preacher and poet, whose orations, letters and poems the Library holds",
     "Basil of Caesarea — his friend, who made him bishop of Sasima",
@@ -83290,7 +83546,60 @@ const DATA = {
        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
       }
      ]
-    }
+    },
+    "briefReferences": [
+     "Socrates, Church History V.7, tr. A. C. Zenos: the Arians' forty years in the churches of Constantinople.",
+     "Sozomen, Church History VII.5, tr. Chester D. Hartranft: the Nicene believers led by Gregory; the house of prayer and its name Anastasia, with Sozomen's belief about the name; his sermons.",
+     "Socrates, Church History V.6, tr. Zenos: Gregory brought to Constantinople by the vote of many bishops.",
+     "Gregory of Nazianzus, Oration 43, tr. Charles Gordon Browne and James Edward Swallow: Basil as his closest friend.",
+     "Gregory of Nazianzus, Letters 48-50 to Basil, tr. Browne and Swallow: Sasima, the rival bishop's claim, and \"Why should I fight for sucking pigs and fowls, and those not my own, as though for souls and canons?\"",
+     "Gregory of Nazianzus, Oration 39.11, tr. Browne and Swallow: \"equally far from the confusion of Sabellius and from the division of Arius\".",
+     "Socrates, Church History V.7, tr. Zenos: Theodosius's order of November 380 that the Arian bishop accept Nicaea or leave the churches, and his leaving.",
+     "Sozomen, Church History VII.5, tr. Hartranft: the same order and the Arian bishop's departure.",
+     "Sozomen, Church History VII.7, tr. Hartranft: the bishops' objection to Gregory's election, and his giving up the see.",
+     "Gregory of Nazianzus, Oration 42.26, tr. Browne and Swallow: his farewell; the city's other churches full again, and the credit he gave to grace.",
+     "Gregory of Nazianzus, Letter 101 to Cledonius, tr. Browne and Swallow: Apollinarius's teaching of a Christ without a human mind; what Christ did not take on, He did not heal.",
+     "Letter of Pope Agatho to the sixth council (680), tr. Henry R. Percival: Gregory cited among the Greek Fathers on the human will of Christ.",
+     "Jerome, Lives of Illustrious Men 117, tr. Ernest Cushing Richardson: \"my instructor in the Scriptures\".",
+     "Constantinople II (553), Session I, the emperor's letter, tr. Percival: Justinian names Gregory the Theologian among the holy Fathers he follows.",
+     "World census, Cappadocian Christianity: his tradition."
+    ],
+    "quotationOriginals": [
+     {
+      "modern": "Why should I fight over piglets and chickens, and ones that are not my own,",
+      "printed": "Why should I fight for sucking pigs and fowls, and those not my own,",
+      "work": "Gregory of Nazianzus, Letters 48-50 to Basil, tr. Browne and Swallow",
+      "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+      "lines": "45783-45784",
+      "secondReading": "same"
+     },
+     {
+      "modern": "as if I were fighting for souls and church canons?",
+      "printed": "as though for souls and canons?",
+      "work": "Gregory of Nazianzus, Letters 48-50 to Basil, tr. Browne and Swallow",
+      "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+      "lines": "45784-45785",
+      "secondReading": "minor",
+      "uncertain": "\"Canons\" may mean church rules or a bishop's canonical rights of jurisdiction, which were at stake in the quarrel. Both readings are kept."
+     },
+     {
+      "modern": "equally far from the merging of Sabellius and from the division of Arius,",
+      "printed": "equally far from the confusion of Sabellius and from the division of Arius,",
+      "work": "Gregory of Nazianzus, Oration 39.11, tr. Browne and Swallow",
+      "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+      "lines": "37407-37408",
+      "secondReading": "minor",
+      "uncertain": "\"Confusion\" here means fusing Father, Son and Spirit into one, not bewilderment. \"Division\" means splitting God into unequal parts."
+     },
+     {
+      "modern": "my teacher in the Scriptures,",
+      "printed": "my instructor in the Scriptures,",
+      "work": "Jerome, Lives of Illustrious Men 117, tr. Ernest Cushing Richardson",
+      "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+      "lines": "41568",
+      "secondReading": "same"
+     }
+    ]
    },
    "major": true,
    "activeYear": 381
@@ -99323,14 +99632,14 @@ const DATA = {
    "c2": null,
    "entry": null,
    "teaser": "Founder of the monasteries of Subiaco and Monte Cassino, and author of the Rule for monks that the Benedictines take their name from, known through Gregory the Great's Dialogues.",
-   "longDescription": "In a cave at Subiaco, about forty miles from Rome, a young man lived for three years known only to one monk. Gregory the Great tells how the monk, Romanus, let bread down to him from the rock above on a long rope. A little bell was tied to it, so he would know when it came. He was Benedict of Nursia, who would found Monte Cassino and write a rule for monks.\n\nNearly all we know of him comes from the second book of Gregory's Dialogues. It is a book of miracles, written to honor a saint. Edmund Gardner, its English editor, dates it to 593. Gregory says he could not learn all that Benedict did, and that his stories came from four of Benedict's disciples, whom he names.\n\nGregory says Benedict was born in the province of Nursia, to an honorable family, and sent to Rome to study. Seeing many students fall into loose living, he left his books and his father's house. Gardner gives his birth as about 480, and the editor Francis Gasquet as 480.\n\nLater the monks of a nearby monastery asked him to be their abbot. When he held them to a strict life, they poisoned his wine, and the glass broke as he blessed it. He told them, \"Go your ways, and seek ye out some other father suitable to your own conditions.\" Back in the wilderness, he built twelve monasteries, with twelve monks in each.\n\nAt Cassino, country people still worshipped Apollo. Benedict broke the idol and built chapels to Saint Martin and Saint John the Baptist. Gardner dates the founding to 528 or 529.\n\nGregory adds that Benedict \"wrote a rule for his monks, both excellent for discretion and also eloquent for the style.\" The Rule survives, and begins, \"Listen, my son, and turn the ear of thine heart to the precepts of thy Master.\" It promises \"a school for the service of God, in which we hope nothing harsh nor burdensome will be ordained.\" It sets hours for manual work and holy reading, and asks that guests be received as Christ. At its end it calls itself \"this little Rule written for beginners\".\n\nGregory says Benedict foretold his death and died standing in the chapel, held up by his disciples, praying. Gardner and Gasquet give the traditional date, 543. Of the Rule, Gregory wrote that \"the holy man could not otherwise teach, than himself lived.\"",
+   "longDescription": "Around the year 500, Italy was ruled by Gothic kings. Gregory the Great tells of a young man from the province of Nursia who was sent to Rome to study. There he saw many of the students fall into loose living, so he left his books and his father's house. He was Benedict of Nursia, and the early Benedictines of Italy begin with him. Nearly all we know of his life comes from Gregory's Dialogues, written about fifty years after Benedict died, from what four of his disciples told him. Gregory wrote to show what God did through a saint, so the book is full of wonders.\n\nBenedict built twelve monasteries near Subiaco and later moved to Cassino, where country people still worshipped Apollo. There, Gregory says, he broke the idol and by his preaching brought the people to the faith. When the Gothic king Totila came to him, Benedict told him, \"You do many evil things.\" From then on, Gregory says, the king was less cruel.\n\nThe Rule is Benedict's own words. In it he founds \"a school for the Lord's service, and in setting it up we hope to lay down nothing harsh and nothing heavy.\" His monks promise \"stability, a changed way of life, and obedience,\" and divide their days between prayer, work with their hands and holy reading. The abbot must so temper all things \"that the strong have something to long for and the weak do not run away.\" For more, the last chapter points to the Lives of the Fathers, to the Rule of Basil of Caesarea, and to John Cassian's Conferences of the Fathers.\n\nGregory, by then pope, praised the Rule as \"outstanding for its sound judgment and clear in its language.\" In 742 the first council of Carloman, duke of the Franks, told monks and nuns to live by Benedict's Rule. At the next, the abbots and monks took it up to restore the norm of the regular life. In 802 Charlemagne had the monks at Aachen read it together, and ordered that whatever in the monasteries went against it be put right by it.",
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
      "Benedictus",
      "Bennet"
     ],
-    "knownFor": "Founder of the monasteries of Subiaco and Monte Cassino, and author of the Rule for monks that the Benedictines take their name from, known through Gregory the Great's Dialogues.",
+    "knownFor": "Founder of the monasteries of Subiaco and Monte Cassino and author of the Rule for monks, whose life is known through Gregory the Great's Dialogues; the Frankish church took up his Rule to restore the monastic life, and in 802 Charlemagne ordered monasteries put right by it.",
     "datesNote": "Born, by Edmund Gardner, about 480, and by Francis Gasquet in 480; died, by the tradition of his order, in 543, as both give it. Gregory the Great gives no years. Gardner dates the founding of Monte Cassino to 528 or 529",
     "placeNote": "Nursia; Rome; Subiaco; Monte Cassino",
     "role": "Monk and abbot; author of the Rule",
@@ -99343,7 +99652,9 @@ const DATA = {
     "legacy": {
      "traces": [
       "His Rule, which Gregory the Great calls \"excellent for discretion and also eloquent for the style\", survives in Latin, and Francis Gasquet and Oswald Hunter Blair translate it into English.",
-      "Gregory says he built twelve monasteries near Subiaco, with twelve monks in each, before he founded Monte Cassino."
+      "Gregory says he built twelve monasteries near Subiaco, with twelve monks in each, before he founded Monte Cassino.",
+      "Carloman, duke of the Franks, had his council of 742 tell monks and nuns to live by the Rule of Saint Benedict, and at the next council the abbots and monks received it \"ad restaurandam normam regularis vitae\".",
+      "In 802, the annals of Lorsch say, Charlemagne had the abbots and monks at Aachen read the Rule together and ordered whatever in the monasteries went against it to be put right by it."
      ],
      "remembered": [
       "Gregory the Great gave the whole second book of his Dialogues to his miracles and wrote that \"the holy man could not otherwise teach, than himself lived.\"",
@@ -99353,7 +99664,10 @@ const DATA = {
     "uncertain": [
      "Nearly all that is known of his life comes from one witness, Gregory the Great's Dialogues, a book of miracles written to honor a saint. Gregory says he could not learn all that Benedict did and had his stories from four disciples. At least one story he had at second hand: Honoratus heard it from other monks.",
      "Gregory gives no years. The birth about 480 and the death in 543 are Edmund Gardner's and Francis Gasquet's; both call 543 the tradition. Gardner says the date he left Rome is disputed and puts it a few years before 500.",
-     "Gasquet thinks Benedict probably conceived the Rule at Subiaco and finished it at Monte Cassino. Gregory says only that he wrote it."
+     "Gasquet thinks Benedict probably conceived the Rule at Subiaco and finished it at Monte Cassino. Gregory says only that he wrote it.",
+     "What the Rule did. Francis Gasquet, a Benedictine editor, judges that the Rule put a written code in place of an abbot's personal will, and calls it practically the only monastic Rule of the West from the ninth to the twelfth century.",
+     "The second council. The edition of the capitularies records that Hefele and Hahn held the council of Estinnes to be Carloman's and Pippin's together; its editor argues it was Carloman's.",
+     "The modern English of Benedict's words to Totila follows Gregory's Latin, \"Multa mala facis, multa mala fecisti\" (Acta Sanctorum, March, vol. 3), which has no word for \"daily\"; the 1608 English adds it. Gregory's praise of the Rule likewise leaves out the 1608 \"also\", which the Latin lacks."
     ],
     "sources": {
      "ownWords": [
@@ -99389,9 +99703,91 @@ const DATA = {
        "language": "English",
        "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt",
        "date": null
+      },
+      {
+       "title": "Capitulary of Carloman (742), with Boniface's letter; the council of Estinnes; the Aachen synod of 802 from the annals of Lorsch",
+       "author": "Monumenta Germaniae Historica, Capitularia regum Francorum I",
+       "date": "1881",
+       "language": "Latin",
+       "file": "cic/texts/capitulatio-de-partibus-saxoniae_pertz1881.txt"
+      },
+      {
+       "title": "Conferences, in Nicene and Post-Nicene Fathers, second series, vol. 11",
+       "author": "John Cassian",
+       "language": "English translation",
+       "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+       "date": null
+      },
+      {
+       "title": "Dialogues, Book II, in Latin, in Acta Sanctorum, March, volume 3",
+       "author": "Gregory the Great",
+       "date": null,
+       "language": "Latin",
+       "file": "cic/texts/acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt"
       }
      ]
-    }
+    },
+    "briefReferences": [
+     "Dialogues II, prologue, tr. 1608, ed. Edmund G. Gardner: born in the province of Nursia, sent to Rome to study, students falling into loose living; his four disciples as Gregory's sources. Book II is the only early Life of Benedict, and Gregory tells it to show the miracles of a holy man.",
+     "Dialogues II.3: the twelve monasteries near Subiaco.",
+     "Dialogues II.8: Cassino, the worship of Apollo, the chapel of Martin, the preaching.",
+     "Dialogues II.15: Totila, \"Much wickedness do you daily commit\", the king less cruel after.",
+     "Dialogues II.36: the Rule, \"excellent for discretion and also eloquent for the style\".",
+     "Dialogues IV.30: Theodoric, king of the Goths in Italy.",
+     "Rule, Prologue, tr. Francis Aidan Gasquet: \"a school for the service of God, in which we hope nothing harsh nor burdensome will be ordained\".",
+     "Rule, ch. 48: manual labor and holy reading. Ch. 58: \"stability, amendment of manners and obedience\". Ch. 64: the abbot who tempers all things. Ch. 73: the Lives of the Fathers, the Rule of Basil, the Collations.",
+     "Cassian, Institutes and Conferences: his own title for the Conferences of the Fathers, the book the Rule calls the Collations.",
+     "MGH Capitularia I, no. 10: Boniface on Carloman, duke of the Franks, and the church trampled for sixty or seventy years; the council of 742 and the Rule for monks and nuns.",
+     "MGH Capitularia I, no. 11 (Estinnes): the abbots and monks receive the Rule \"ad restaurandam normam regularis vitae\".",
+     "MGH Capitularia I, the Aachen synod of 802, from the annals of Lorsch: the Rule read, and the monasteries put right by it.",
+     "World census, Early Benedictine / Italian Monasticism: his tradition."
+    ],
+    "quotationOriginals": [
+     {
+      "modern": "You do many evil things.",
+      "printed": "Much wickedness do you daily commit.",
+      "work": "Gregory the Great, Dialogues II.15, tr. 1608, ed. Edmund G. Gardner",
+      "file": "cic/texts/gregory-great_dialogues_gardner1911.txt",
+      "lines": "4472-4473",
+      "secondReading": "same"
+     },
+     {
+      "modern": "a school for the Lord's service, and in setting it up we hope to lay down nothing harsh and nothing heavy.",
+      "printed": "a school for the service of God, in which we hope nothing harsh nor burdensome will be ordained.",
+      "work": "Rule, Prologue, tr. Francis Aidan Gasquet",
+      "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt",
+      "lines": "768-770",
+      "secondReading": "minor",
+      "uncertain": "A reads \"in which\" as the school and says \"God\"; B reads it as the founding (\"institutione\") and says \"the Lord\" (\"dominici\"); both readings kept."
+     },
+     {
+      "modern": "stability, a changed way of life, and obedience,",
+      "printed": "stability, amendment of manners and obedience,",
+      "work": "Rule, ch. 58, tr. Gasquet",
+      "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt",
+      "lines": "3595-3596",
+      "secondReading": "minor",
+      "uncertain": "\"conversio morum\" is a turning of one's way of life (A: \"a change\", B: \"reformed\"); both readings kept."
+     },
+     {
+      "modern": "that the strong have something to long for and the weak do not run away.",
+      "printed": "that the strong may have their scope and the weak be not scared.",
+      "work": "Rule, ch. 64, tr. Gasquet",
+      "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt",
+      "lines": "3960-3961",
+      "secondReading": "minor",
+      "uncertain": "\"refugiant\" = the weak flee of themselves (A: \"frightened away\"); B's \"driven away\" implies an outside push; both readings kept."
+     },
+     {
+      "modern": "outstanding for its sound judgment and clear in its language,",
+      "printed": "excellent for discretion and also eloquent for the style,",
+      "work": "Gregory the Great, Dialogues II.36, tr. 1608, ed. Gardner",
+      "file": "cic/texts/gregory-great_dialogues_gardner1911.txt",
+      "lines": "5567-5568",
+      "secondReading": "minor",
+      "uncertain": "\"discretio\" is judgment and a sense of measure (A: \"sound judgment\", B: \"wise moderation\"); \"luculentus\" is clear rather than eloquent; both readings kept. The FINAL drops Gardner's \"also\", which the Latin lacks."
+     }
+    ]
    },
    "major": true,
    "activeYear": 529
@@ -103387,14 +103783,14 @@ const DATA = {
    "c2": null,
    "entry": null,
    "teaser": "Bishop of Tours under the Frankish kings and writer of the History of the Franks, the Miracles of Martin of Tours and the Lives of the Fathers, who stood against King Chilperic on the Trinity and cleared himself by oath when charged with slandering Queen Fredegund.",
-   "longDescription": "Gregory of Tours lay ill with fever and sores, unable to eat or drink. He thought only of his burial, he writes. He set out for the tomb of Martin of Tours. In a forest the fever came back, and his friends begged him to go home. He refused. If he died on the way, he said, they must \"carry my dead body there and bury it\", in Ernest Brehaut's English. After a third night's vigil at Martin's church, he slept and woke with all weakness and pain gone.\n\nGregory was born at Clermont, Brehaut says. In 573, by the reckoning of his editor W. Arndt, he became bishop of Tours, in Frankish Gaul. There he wrote the History of the Franks, often the sole authority, Brehaut says, for the events it tells.\n\nGregory's own History tells of his clash with King Chilperic, who held Tours. Brehaut says the two were as a rule unfriendly. The king ordered that the Trinity be called only God, with no distinct Persons. \"This is my will, that such be thy faith,\" he told Gregory, in O. M. Dalton's English. Gregory answered that the Father is different from the Son, and the Son from the Holy Ghost. Whoever followed the king, he said, \"will never be a wise man, but a fool.\" The king gnashed his teeth, but held his peace.\n\nIn 580, by Arndt's date, Leudast, once count of Tours, went to the king. He said Gregory claimed Queen Fredegund lived in adultery with Bertram, bishop of Bordeaux. Before a council of bishops, Gregory denied it. He said Mass at three altars and cleared himself by oath. The account is the accused man's own.\n\nArndt reckons he died on 17 November 594. Bruno Krusch, in the same volume, argues for 593.\n\nClosing his History, Gregory charges later bishops of Tours to leave his books \"complete and intact in your time just as I myself have left them.\"",
+   "longDescription": "In 573 Gregory of Tours became bishop of Tours, in the church of Merovingian Gaul, a land split among rival Frankish kings at war with one another. People lamented, he says, \"Alas for our times, because the study of literature has died out among us,\" so he wrote ten books of History himself, though his speech, he admits, was rude.\n\nHe opened them with his creed, \"so that anyone who reads may have no doubt that I hold the catholic faith,\" and a king put that faith to the test. Chilperic decreed that the Trinity be called only God, with no distinct Persons, and told Gregory, \"I want you and the other teachers of the churches to believe this.\" Gregory refused. Only the Son was made man and suffered, he answered, so that He might be offered for the world, and the king must hold to \"what Hilary and Eusebius taught.\" These were Hilary, the bishop of Poitiers, and Eusebius of Vercelli, his great helper against heresy. The king said he would find wiser men, and put the decree to Salvius, bishop of Albi, who would have torn the paper up. \"So the king gave up this plan,\" Gregory writes. In his telling, the bishops' refusal ended a king's attempt to set the faith of his church. He does not say his stand cost him anything.\n\nHe held the same ground against the Arians of Spain. When their king's envoy Agilan argued at Tours that the Son was lesser than the Father, Gregory answered that the Father was never without wisdom or light, and so never without the Son. Agilan swore he would take no blessing from a priest of Gregory's faith, though later, Gregory reports, sickness in Spain drove him to that faith.\n\nTwo centuries later the historian Paul the Deacon sent readers to \"the books of that revered man Gregory, bishop of Tours.\" Much of what is known of the church in Gaul under the first Frankish kings comes from those books, and for his stands against Chilperic and Agilan, his is the only account we have.",
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
      "Georgius Florentius",
      "Gregorius Turonensis"
     ],
-    "knownFor": "Bishop of Tours under the Frankish kings and writer of the History of the Franks, the Miracles of Martin of Tours and the Lives of the Fathers, who stood against King Chilperic on the Trinity and cleared himself by oath when charged with slandering Queen Fredegund.",
+    "knownFor": "Bishop of Tours in the church of Merovingian Gaul and writer of the History of the Franks, who refused King Chilperic's decree on the Trinity and argued the Nicene faith against the Arian envoy Agilan; much of what is known of the church in Gaul under the first Frankish kings comes from his books.",
     "datesNote": "Born in 538 or 539 and died on 17 November 594, in W. Arndt's reckoning; Bruno Krusch, in the same edition, puts his death on 17 November 593. Bishop from 573, which W. Arndt reckons from Gregory's own date, the twelfth year of King Sigibert. Gregory also calls it the 172nd year after Martin's passing, a count Arndt says does not agree. No ancient source used here gives the year of his birth or death",
     "placeNote": "Clermont in Auvergne, where Ernest Brehaut says he was born and grew up; Tours, as its bishop",
     "role": "Bishop of Tours; historian and writer of saints' miracles and lives",
@@ -103424,13 +103820,16 @@ const DATA = {
      ]
     },
     "uncertain": [
-     "The trial. His own History is the account of the accused party, and Leudast's charge and the trial are known only from Gregory. The council met at Brinnacum in the Latin, which is Berny in O. M. Dalton's English and Braine in Ernest Brehaut's. Venantius Fortunatus wrote a poem to King Chilperic for it; Dalton notes that the poem praises Queen Fredegund and says nothing of the affair. Brehaut warns that readers \"must allow largely for error and prejudice in his statements of fact\".",
+     "His own account. For his stands against Chilperic and Agilan, Gregory's History is the only account held, and he does not say his refusal of the king cost him anything.",
+     "How far to trust him. Ernest Brehaut calls the History often the sole authority for the events it tells, and warns that readers \"must allow largely for error and prejudice in his statements of fact\".",
      "His years. No ancient source used here gives the year of his birth or death. W. Arndt reckons his birth in 538 or 539, from his mother's healing thirty-four years after it, and his death on 17 November 594. Bruno Krusch, in the same volume, puts the death on 17 November 593, from Gregory's twenty-first year as bishop and the unfinished fourth book of the Miracles of Martin. Brehaut gives 538 to 594, and a note in W. D. Foulke's translation of Paul the Deacon gives about 538 and 594 or 595. The Tours calendars give the day only.",
      "His consecration day. Krusch puts it on 20 August 573, Arndt on 23 August and Dalton on 24 August. Arndt thinks it likely that King Sigibert placed him at Tours, rather than the citizens choosing him.",
      "His great-grandfather. Gregory's Latin calls Gregory, bishop of Langres, \"proavum nostrum\", and Arndt and Krusch make that Gregory his mother Armentaria's grandfather. Brehaut says great-grandfather; Dalton translates \"our ancestor\" and calls him great-great-grandfather in a note.",
      "The year of his healing at Martin's tomb. His Latin gives the 163rd year after Martin's passing, which Arndt reckons as 563; Brehaut's English has the hundred and sixtieth. Arndt says Gregory was already a deacon then.",
      "A journey to Rome. A Life of Gregory, which Arndt dates to the tenth century, says he went to Rome before his death; Arndt rejects it. No copy of that Life is quoted here.",
-     "His name. Arndt says it is doubtful whether he took the name Gregory only when ordained; Brehaut says he dropped the name Georgius Florentinus to honor his great-grandfather."
+     "His name. Arndt says it is doubtful whether he took the name Gregory only when ordained; Brehaut says he dropped the name Georgius Florentinus to honor his great-grandfather.",
+     "The trial. His charge before the bishops at Berny is known only from his own History, the accused party's account. Venantius Fortunatus wrote a poem to King Chilperic for that synod; O. M. Dalton notes that it praises Queen Fredegund and says nothing of the affair. The council met at Brinnacum in the Latin, which is Berny in Dalton's English and Braine in Brehaut's.",
+     "Where the modern English of a quotation follows Gregory's Latin over Dalton's English, it does so on purpose: the king's demand names the teachers of the churches in the plural, as the Latin does, and the plan the king gave up follows \"ab hac intentione\". The printed English is kept under quotationOriginals."
     ],
     "sources": {
      "ownWords": [
@@ -103494,7 +103893,71 @@ const DATA = {
        "file": "cic/texts/paul-the-deacon_history-of-the-langobards_foulke1907.txt"
       }
      ]
-    }
+    },
+    "briefReferences": [
+     "History of the Franks, first preface, tr. Ernest Brehaut: kings growing more cruel, liberal culture perishing, \"Woe to our day\", his rude speech.",
+     "History of the Franks I, preface, tr. O. M. Dalton: the creed, \"that whoso reads may doubt not that I hold the catholic faith\".",
+     "History of the Franks I.38, tr. Dalton: Hilary, bishop of Poitiers, banished at the persuasion of the heretics.",
+     "Glory of the Confessors 3, Latin, ed. W. Arndt and Bruno Krusch: Eusebius of Vercelli, Hilary's great helper against heresy.",
+     "History of the Franks V, preface, tr. Brehaut: the civil wars among the Frankish kings.",
+     "History of the Franks V.31 (43), tr. Dalton: Agilan, envoy of King Leuvigild; the argument at Tours; his oath; his conversion in Spain under sickness.",
+     "History of the Franks V.32 (44), tr. Dalton: Chilperic's decree, Gregory's answer, Salvius of Albi, \"So the king desisted from his purpose\".",
+     "History of the Franks X.31, tr. Dalton: his ten books.",
+     "Miracles of Martin II.1, Latin, ed. Arndt and Krusch: his consecration in Sigibert's twelfth year (573).",
+     "Paul the Deacon, History of the Langobards III.1, tr. W. D. Foulke: \"the books of the reverend man Gregory, bishop of Tours\".",
+     "World census, Merovingian Gallic Christianity: his tradition."
+    ],
+    "quotationOriginals": [
+     {
+      "modern": "Alas for our times, because the study of literature has died out among us,",
+      "printed": "Woe to our day, since the pursuit of letters has perished from among us,",
+      "work": "History of the Franks, first preface, tr. Ernest Brehaut",
+      "file": "cic/texts/gregory-tours_history-of-the-franks-selections_brehaut1916.txt",
+      "lines": "850-851",
+      "secondReading": "minor",
+      "uncertain": "\"litterae\" means literary learning and skill in writing; A reads \"literature\", B \"letters\"; both readings kept."
+     },
+     {
+      "modern": "so that anyone who reads may have no doubt that I hold the catholic faith,",
+      "printed": "that whoso reads may doubt not that I hold the catholic faith,",
+      "work": "History of the Franks I, preface, tr. O. M. Dalton",
+      "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
+      "lines": "339-340",
+      "secondReading": "same"
+     },
+     {
+      "modern": "I want you and the other teachers of the churches to believe this.",
+      "printed": "This is my will, that such be thy faith, and that of the other doctors of the Church.",
+      "work": "History of the Franks V.32 (44), tr. Dalton",
+      "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
+      "lines": "10370-10371",
+      "secondReading": "same"
+     },
+     {
+      "modern": "what Hilary and Eusebius taught.",
+      "printed": "that which Hilary and Eusebius taught.",
+      "work": "History of the Franks V.32 (44), tr. Dalton",
+      "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
+      "lines": "10374-10375",
+      "secondReading": "same"
+     },
+     {
+      "modern": "So the king gave up this plan,",
+      "printed": "So the king desisted from his purpose,",
+      "work": "History of the Franks V.32 (44), tr. Dalton",
+      "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
+      "lines": "10404-10405",
+      "secondReading": "same"
+     },
+     {
+      "modern": "the books of that revered man Gregory, bishop of Tours.",
+      "printed": "the books of the reverend man Gregory, bishop of Tours.",
+      "work": "Paul the Deacon, History of the Langobards III.1, tr. W. D. Foulke",
+      "file": "cic/texts/paul-the-deacon_history-of-the-langobards_foulke1907.txt",
+      "lines": "5074-5075",
+      "secondReading": "same"
+     }
+    ]
    },
    "major": false,
    "activeYear": 573
@@ -120463,6 +120926,14 @@ function personSourceItem(kind,s){
   const meta=[s.author,s.date,s.language].filter(Boolean).map(esc).join(' · ');
   return `<div class="edge"><span class="k">${esc(kind)}</span><br><b>${esc(s.title)}</b>${meta?`<br>${meta}`:''}${s.disputed?`<br><span class="disputed">${esc(s.disputed)}</span>`:''}</div>`;
 }
+function quotesPanel(card){
+  const qo=card.quotationOriginals||[], refs=card.briefReferences||[];
+  if(!qo.length&&!refs.length)return '';
+  let h=`<details class="sources-panel quotes-panel"><summary>Quotations and references</summary>`;
+  if(qo.length)h+=`<p class="source-group">Quotations</p>`+qo.map(e=>`<div class="edge"><span class="k">In our modern English</span><br>\u201c${esc(e.modern)}\u201d<br><span class="k">As printed</span><br>\u201c${esc(e.printed)}\u201d<br><span class="quote-src">${esc(e.work)}</span>${e.uncertain?`<br><span class="quote-note">${esc(e.uncertain)}</span>`:''}</div>`).join('');
+  if(refs.length)h+=`<p class="source-group">References</p><ul class="person-list">${refs.map(r=>`<li>${esc(r)}</li>`).join('')}</ul>`;
+  return h+'</details>';
+}
 function openPersonCard(P){
   hideTip();
   const p=P.entry, card=(p&&p.card)||{};
@@ -120494,6 +120965,8 @@ function openPersonCard(P){
     if(recorded)h+='<div class="narration"><audio controls preload="none" src="audio/tree/'+esc(p.id)+'.mp3"></audio><p class="narration-disclosure">Synthesized voice — not a recording.</p></div>'
       +`<details class="brief-text"><summary>Read the brief</summary>${text}</details>`;
     else h+=text;
+    if(card.quotationOriginals&&card.quotationOriginals.length)h+='<p class="quotes-note">Quotations are given in our modern English. The printed wording of each is below.</p>';
+    h+=quotesPanel(card);
   }
   if(card.keyWorks&&card.keyWorks.length)h+=`<h3>Key works</h3><ul class="person-list">${card.keyWorks.map(w=>`<li><b>${esc(w.title)}</b>: ${esc(w.about)}</li>`).join('')}</ul>`;
   const traces=(card.legacy&&card.legacy.traces)||[];

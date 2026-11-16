@@ -4004,3 +4004,11 @@ Also in this change:
 - Gregory of Nazianzus's Rufinus line stays out. Jerome carries his reach west, as the recheck found, and Mark can bring it back later. The line is card-only in the record's references.
 - What follows, in order: merge #1705 on green; record all ten in one paid run from the merged text, with Athanasius again because his text changed, on the same printed settings with counts printed before and the balance checked after; release the ten as one data release with census text, cards (references and printed originals) and the new audio, checked on the live site.
 - The drift guards hold from here: the bar in every brief, the CI lock, Mark's listen to one random brief per era before release, and the blind check every five batches.
+
+## 2026-11-16 — Data release 48 approved: the ten live, with a Quotations and references section on the card (Mark, 2026-11-16)
+
+**Decided (Mark, 2026-11-16, relayed by the coordinator):** "Approved move forward". This followed his look at the card panel screenshots.
+- Release 48 puts the ten bar briefs live, with their new recordings. It also adds a collapsed "Quotations and references" section under the brief on each of the ten cards and their tree pages. That carries his earlier ruling, "we will also have the references listed below".
+- The section shows each quotation in our modern English beside its printed wording and the work it comes from, with a note where the two independent renderings differ. The references the brief draws on follow.
+- The census check now requires that each printed wording stands in its cited file at its lines, and that every quotation in the brief has an entry.
+- The paid run recorded all ten: 9,577 credits, with the balance moving by exactly that amount (`Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/recording/release48-run.log`).
