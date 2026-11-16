@@ -1067,7 +1067,15 @@ his, and the statement of each rule is the coordinator's. They are recorded in `
   (Recommended)").** As the coordinator states it: Old and Middle English (`ang`, `enm`), Middle High German
   (`gmh`) and other older stages of a language count as foreign for R11 and for the finding guides; and a
   modern English version of an English line of the 17th to 19th century that carries quotation marks also gets
-  the second rendering. Recorded in `cic/texts/INTAKE.md`. The `cic/renderings/` folder is not made until
+  the second rendering. Recorded in `cic/texts/INTAKE.md`.
+- **Every quotation from English printed before 1931 is put into our modern English (Mark, 2026-11-16: "we
+  even treat english from 1850s needing translation"; "Yes, every quote before 1931 (Recommended)").** As the
+  coordinator states it: every quotation taken from an English text printed before 1931 is given in our modern
+  English, with the R11 second rendering, and the printed wording stays on record with its file and lines. For
+  the Library, passage renderings, when a writer asks for them, cover old English texts as well. Finding guides
+  stay for non-English texts and older stages of a language only, since a writer can read English of the
+  nineteenth century directly. This takes in the narrower line of the ruling before it. Recorded in
+  `cic/texts/INTAKE.md`. The `cic/renderings/` folder is not made until
   Mark has approved a sample, and the root `README.md` map is updated first when it is.
 
 ### Next action
