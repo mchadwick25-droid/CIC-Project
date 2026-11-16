@@ -4160,3 +4160,21 @@ Mark: "ok this is the best version and we should stop here and call this finaliz
 The check's cautions go on the card. Revision of this brief stops here.
 
 Next, Mark asked for a standard to write from, built from scratch and without rules, drawing on the best of this work. It does not edit `Standard_draft.md`.
+
+## 2026-11-16 — Narration voices: keep the British and South African voices (Mark, 2026-11-16)
+
+**Why.** Mark asked whether the four kinds of narration (tradition, Who, council and story briefs) should have one, two or four voices. He likes Daniel, the tradition voice. He asked whether a British and a South African voice connect with North American listeners.
+
+**What the evidence showed.**
+- Research found no solid effect of voice gender. A non-native accent lowered how competent listeners rated the voice; British and South African are native accents.
+- North American listeners usually rate a British accent high on status, and a little lower on warmth than their own.
+- Daniel's tradition recordings run at about 130 to 140 words a minute overall, the base pace the research supports for second-language listeners.
+- Jon runs at 180 to 190 words a minute, and the speed setting on `eleven_v4` did not slow him.
+
+**Decided (Mark, 2026-11-16): "1, and run the Daniel sample".**
+- Keep the British and South African voices: Daniel for the tree, Mel for stories.
+- Real listeners confirm the choice when prototype testing can carry it.
+- A paid sample of the Polycarp brief in Daniel's tradition settings was run for Mark's ear. The settings were voice `onwK4e9ZLuTAKqWW03F9`, model `eleven_multilingual_v2`, output `mp3_44100_64`, stability 0.95, similarity 0.68, style 0 and speaker boost on, with no tags. The request was `kKXuQgJL7opTBys3uRwL`, 1,224 credits.
+- The voice for Who and council briefs is not yet chosen. The samples, all printed with their settings, are on https://claude.ai/artifact/HYZynSqTRbpizyUBqAxmbP.
+
+**Not yet built.** The site's player already supports 1×, 1.25×, 1.5× and 2× with pitch kept, but it has no speed button.
