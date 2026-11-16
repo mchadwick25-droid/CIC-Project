@@ -1,40 +1,52 @@
 {
   "name": "Novatian",
   "otherNames": [
-    "Novatus (in Eusebius and the Greek writers)"
+    "Novatus, in Eusebius of Caesarea and Socrates of Constantinople"
   ],
-  "knownFor": "A Roman presbyter, author of On the Trinity, who was made a rival bishop in 251 and refused to readmit those who had denied the faith.",
+  "knownFor": "A presbyter of Rome who refused to take back those who had sacrificed in the persecution under Decius, was made bishop against Cornelius in 251, and gave his name to strict churches that still kept his rule two centuries later; he also wrote On the Trinity.",
   "dates": "Made a rival bishop at Rome in 251",
   "place": "Rome",
   "tradition": "Novatianism",
-  "role": "Presbyter, theologian and rival bishop",
-  "briefLength": "about 2 minutes 30 seconds",
+  "role": "Presbyter of Rome, writer and rival bishop",
+  "briefLength": "about 2 minutes",
   "keyWorks": [
     {
       "title": "On the Trinity",
-      "about": "the rule of faith on Father, Son and Spirit, which McGiffert calls \"both able and orthodox\""
+      "about": "answers those who called Christ the Father himself and those who called him only a man. Jerome calls it a great volume, a sort of epitome of Tertullian's work, which many mistakenly ascribed to Cyprian of Carthage"
     },
     {
       "title": "On the Jewish Meats",
-      "about": "a letter on the food laws, which Cleveland Coxe thinks was written during the persecution of Decius"
+      "about": "a letter on the food laws, which Cleveland Coxe, the American editor, thinks was written during the persecution of Decius"
     }
   ],
   "legacy": {
     "traces": [
-      "The Novatian churches, which spread east and west and lasted, McGiffert says, into the sixth century."
+      "Made bishop by bishops who shared his view, he wrote to all the churches that those who had sacrificed should be urged to repent but kept from communion. Socrates of Constantinople says the provinces took sides: some thought the rule cruel, and others received it as just.",
+      "In 325 the Council of Nicaea, in its eighth canon, let the clergy of the Cathari, as his followers called themselves, keep their rank if they promised in writing to share communion with the twice married and with those who had lapsed in persecution and done penance.",
+      "Socrates says the Novatians of Phrygia and Paphlagonia kept their strict rule to his own day, and that at Rome they held many churches until Bishop Celestinus took them away."
     ],
     "remembered": [
-      "Socrates of Constantinople tells of the Novatian bishop Acesius at the Council of Nicaea, and of Constantine's answer, \"Place a ladder, Acesius, and climb alone into heaven.\"",
-      "Cyprian of Carthage, writing of him, said that \"he who is not in the Church of Christ is not a Christian.\""
+      "Cornelius, bishop of Rome, wrote that the brethren were leaving Novatian every day and returning to the church.",
+      "Dionysius of Alexandria wrote to him that he ought to have suffered anything at all rather than split the church of God.",
+      "Cyprian of Carthage, who sided with Cornelius, wrote of him that whoever is not in the Church of Christ is not a Christian.",
+      "Socrates tells of the Novatian bishop Acesius at the Council of Nicaea, and of Constantine's answer to him, to set up a ladder and climb alone into heaven.",
+      "In Jerome's day many still read On the Trinity, though under the name of Cyprian."
     ]
   },
   "uncertain": [
-    "Much of what is known of him comes from his enemies, Cornelius, bishop of Rome, and those on his side, says Robert Wallis, who translated his works. Lardner, quoted by Cleveland Coxe, observed that not one line of his own defense survives.",
-    "Cornelius says Novatian refused to come out of his room to help in the persecution. McGiffert calls this a calumny. Neander suggested that he had withdrawn to live as an ascetic.",
-    "Cornelius says he wanted the bishopric all along, though he swore he did not. McGiffert sees no reason to doubt Novatian's word, and thinks he may well have been urged against his will.",
-    "Cornelius says he was baptized on his sickbed. McGiffert accepts this.",
-    "Socrates says he died a martyr under Valerian. Valesius disputed this. He held that the Novatians' own book on his martyrdom was full of fables, and that it made him only a confessor.",
-    "Socrates had the Acesius story from Auxanon, an aged Novatian presbyter who went to Nicaea with Acesius, and says no other writer records it. Sozomen tells it after him. Some, among them Baronius, took Socrates for a Novatian. Valesius, followed by most later writers, held him only impartial."
+    "For the split, most of the account comes from his enemies: Cornelius, bishop of Rome, whose letter Eusebius of Caesarea keeps, and Cyprian of Carthage. Socrates of Constantinople, who gives Novatian's side, had a friend among the Novatians, Auxanon, an aged presbyter of their church. No letter of Novatian's own on the split survives; his case is known from Socrates's summary of his letter to the churches. Robert Wallis, who translated his works, says much of what is known of him comes only from his enemies, and Cleveland Coxe quotes Lardner that not one line of his own defense remains.",
+    "That three country bishops from a small corner of Italy were deceived, made drunk and forced to lay hands on him is Cornelius's charge, an enemy's. Socrates says only that bishops who shared his views made him bishop.",
+    "His rule against taking back those who had sacrificed is described by hostile witnesses as well as by Socrates. Cyprian mocks a rule that bids the fallen mourn and do penance and then die outside the church. Jerome says he refused to receive penitent apostates, and Eusebius that he held there was no hope of salvation for them.",
+    "Cornelius says he wanted the bishopric all along, though he swore he did not. Arthur McGiffert sees no reason to doubt Novatian's word, and thinks he may well have been urged against his will.",
+    "Cornelius says Novatian refused to come out of his room to help in the persecution, saying he admired another philosophy. McGiffert calls this a calumny. Neander suggested, McGiffert reports, that he had withdrawn to live as an ascetic.",
+    "Cornelius says he was baptized on his sickbed and made his followers swear at the Lord's Supper never to return to Cornelius. McGiffert accepts the sickbed baptism. The oath rests on Cornelius alone.",
+    "Socrates says he died a martyr under Valerian. Valesius, in a note to Socrates, disputed this: the Novatians' own book on his martyrdom was full of fables, he held, and made him only a confessor.",
+    "Socrates had the Acesius story from Auxanon, who went to Nicaea with Acesius, and says no other writer records it. Sozomen tells it after him. Some, among them Baronius, took Socrates for a Novatian. Valesius, followed by most later writers, held him only impartial.",
+    "The Greek writers call him Novatus. The book of 354 says that Novatus, coming from Africa, ordained Novatian outside the church at Rome; that Novatus, of Carthage, is another man.",
+    "The eighth canon of Nicaea does not name him. That the Cathari are his party rests on Eusebius and Jerome.",
+    "\"Nearly two centuries\" is reckoned from Socrates's own time, after the year 439, not stated by him.",
+    "That the Novatian churches spread east and west and lasted into the sixth century rests on Arthur McGiffert, in his notes to Eusebius.",
+    "McGiffert calls On the Trinity both able and orthodox. Cleveland Coxe reports that Cave dated it to about 257."
   ],
   "sources": {
     "ownWords": [
@@ -46,26 +58,82 @@
     ],
     "about": [
       {
-        "title": "Church History, Book 6, chapters 43 and 45, with Cornelius's letter and McGiffert's notes",
+        "title": "Church History, Book 6, chapters 43 and 45, with Cornelius's letter, Dionysius's letter and McGiffert's notes",
         "author": "Eusebius of Caesarea",
         "date": null,
         "language": "English translation",
         "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
       },
       {
-        "title": "Epistle 51, to Antonianus",
+        "title": "Epistle 51, to Antonianus (tr. Ernest Wallis)",
         "author": "Cyprian of Carthage",
         "date": null,
         "language": "English translation",
         "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
       },
       {
-        "title": "Church History, Book 1, chapter 10, and Book 4, chapter 28",
+        "title": "Church History, Book 1 chapters 10 and 13, Book 4 chapter 28, Book 7 chapter 11, with the translator's introduction (tr. A. C. Zenos)",
         "author": "Socrates of Constantinople",
         "date": null,
         "language": "English translation",
         "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Council of Nicaea, canon 8 (tr. Henry R. Percival)",
+        "author": "Council of Nicaea",
+        "date": "325",
+        "language": "English translation",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      },
+      {
+        "title": "Lives of Illustrious Men, 70 (tr. Ernest Cushing Richardson)",
+        "author": "Jerome",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "The book of 354: the list of the bishops of Rome (ed. Theodor Mommsen)",
+        "author": "Unknown",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/chronica-minora-liber-genealogus_mommsen1892.txt"
+      },
+      {
+        "title": "Introductory notes to Novatian's works",
+        "author": "Cleveland Coxe and Robert Ernest Wallis",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
       }
     ]
-  }
+  },
+  "briefReferences": [
+    "Book of 354, list of the bishops of Rome, Latin, ed. Theodor Mommsen: Cornelius bishop from the consuls of 251.",
+    "Socrates of Constantinople, Church History IV.28, tr. A. C. Zenos: Novatian, a presbyter of Rome, separated because Cornelius received those who had sacrificed in the persecution under Decius.",
+    "Eusebius of Caesarea, Church History VI.43.2, tr. Arthur Cushman McGiffert: the synod's medicines of repentance for the fallen.",
+    "Jerome, Lives of Illustrious Men 70, tr. Ernest Cushing Richardson, and Socrates I.13: the Novatians, his followers, named for him.",
+    "Socrates IV.28: made bishop by bishops of like views; his letter to all the churches, not to admit those who had sacrificed but to urge them to repent and leave pardon to God.",
+    "Socrates I.13: Auxanon, a very aged presbyter of the Novatian church, his informant.",
+    "Eusebius VI.43.5-9, Cornelius's letter: Novatian long desired the bishopric; three rustic bishops from a corner of Italy made drunk and forced to lay hands on him.",
+    "Eusebius VI.43.2: a synod of sixty bishops at Rome; Novatian and his followers strangers to the church.",
+    "Eusebius VI.43.20, Cornelius's letter: the brethren leave him every day and return to the church.",
+    "Socrates IV.28: the provinces took sides; some thought the rule cruel, others received it as just.",
+    "Council of Nicaea, canon 8, tr. Henry R. Percival, with Eusebius VI.43.1 and Jerome, Lives 70 for the Cathari as his party: clergy keep their rank on a written promise to communicate with the lapsed under penance.",
+    "Socrates IV.28 and VII.11: the strict rule kept in Phrygia and Paphlagonia to his day; many Novatian churches at Rome until Celestinus took them away; Socrates writing after 439.",
+    "Novatian, On the Trinity 30, tr. Robert Ernest Wallis: those who say Christ is the Father and those who say he is man only; \"the Lord is, as it were, crucified between two thieves\".",
+    "Jerome, Lives 70: a great volume On the Trinity, which many mistakenly ascribe to Cyprian.",
+    "Eusebius VI.43.3 and Cyprian, Epistle 51.1, tr. Ernest Wallis: Cyprian sided with Cornelius.",
+    "World census, Novatianism: his tradition."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "the Lord is, as it were, crucified between two thieves.",
+      "printed": "the Lord is, as it were, crucified between two thieves,",
+      "work": "Novatian, On the Trinity 30, tr. Robert Ernest Wallis",
+      "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+      "lines": "63458-63459",
+      "secondReading": "same"
+    }
+  ]
 }
