@@ -1,0 +1,24 @@
+source_file: christian-east_v3-no1-march-1922.txt
+assignments:
+- row_id: christian-east_v3-no1-march-1922--whole
+  work: 'The Christian East, volume III, number 1 (March, 1922)'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - the-anglican-communion-twentieth-century
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1922, end: 1922, source: "masthead: 'March, 1922'", formation_confidence: Documented}
+  note: 'One number of the quarterly, by many writers. The Eastern documents it prints are in the journal''s English unless a row says otherwise.'
+- row_id: christian-east_v3-no1-march-1922--ecumenical-patriarchate-report-of-the-delegation-to-the-lambeth-conference-1920
+  work: 'Report of the Delegation of the Ecumenical Patriarchate sent to the Lambeth Conference, 1920, in The Christian East'
+  author: christian-east
+  locus: 'OCR lines 89-1482; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-greek-church-and-the-ecumenical-patriarchate
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1920, end: 1922, source: "the report is of the delegation to the Lambeth Conference of 1920 and is printed in the number of March, 1922", formation_confidence: Documented}
+  note: 'The delegation''s own report to its synod, in an English the Chronicle says ''was officially forwarded to us from the Phanar'' (OCR lines 4201-4202).'

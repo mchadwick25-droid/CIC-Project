@@ -1,0 +1,24 @@
+source_file: christian-east_v6-no1-march-1925.txt
+assignments:
+- row_id: christian-east_v6-no1-march-1925--whole
+  work: 'The Christian East, volume VI, number 1 (March, 1925)'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - the-anglican-communion-twentieth-century
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1925, end: 1925, source: "masthead: 'March, 1925'", formation_confidence: Documented}
+  note: 'One number of the quarterly, by many writers. The Eastern documents it prints are in the journal''s English unless a row says otherwise.'
+- row_id: christian-east_v6-no1-march-1925--alivisatos-administrative-reform-in-the-orthodox-church-of-greece-1925
+  work: 'Hamilcar Alivisatos, ''Administrative Reform in the Orthodox Church of Greece'' (1925), in The Christian East'
+  author: christian-east
+  locus: 'OCR lines 2831-3417; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-greek-church-and-the-ecumenical-patriarchate
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1925, end: 1925, source: "printed in the number of March, 1925", formation_confidence: Documented}
+  note: 'An Athens professor''s account of the Greek church laws of 1923, with summaries of the laws.'

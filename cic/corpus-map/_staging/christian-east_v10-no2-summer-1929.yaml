@@ -1,0 +1,24 @@
+source_file: christian-east_v10-no2-summer-1929.txt
+assignments:
+- row_id: christian-east_v10-no2-summer-1929--whole
+  work: 'The Christian East, volume X, number 2 (Summer, 1929)'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - the-anglican-communion-twentieth-century
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1929, end: 1929, source: "masthead: 'Summer, 1929'", formation_confidence: Documented}
+  note: 'One number of the quarterly, by many writers. The Eastern documents it prints are in the journal''s English unless a row says otherwise.'
+- row_id: christian-east_v10-no2-summer-1929--basil-iii-of-constantinople-reply-to-the-archbishop-of-canterbury-1929
+  work: 'Basil, Patriarch of Constantinople, reply to the Archbishop of Canterbury''s enthronistic letter (1929), in The Christian East'
+  author: christian-east
+  locus: 'OCR lines 310-411; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-greek-church-and-the-ecumenical-patriarchate
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1929, end: 1929, source: "the heading: 'Translated from Orthodoxia, 30th April, 1929' (OCR line 311)", formation_confidence: Documented}
+  note: 'The Patriarch''s own letter, translated by the journal from the Patriarchate''s paper.'

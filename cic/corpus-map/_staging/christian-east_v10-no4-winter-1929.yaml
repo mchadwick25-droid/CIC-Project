@@ -1,0 +1,35 @@
+source_file: christian-east_v10-no4-winter-1929.txt
+assignments:
+- row_id: christian-east_v10-no4-winter-1929--whole
+  work: 'The Christian East, volume X, number 4 (Winter, 1929)'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - the-anglican-communion-twentieth-century
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1929, end: 1929, source: "masthead: 'Winter, 1929'", formation_confidence: Documented}
+  note: 'One number of the quarterly, by many writers. The Eastern documents it prints are in the journal''s English unless a row says otherwise.'
+- row_id: christian-east_v10-no4-winter-1929--ecumenical-patriarch-eirenic-letter-to-the-archbishop-of-canterbury-1929
+  work: 'The Ecumenical Patriarch, eirenic letter to the Archbishop of Canterbury (1929), in The Christian East'
+  author: christian-east
+  locus: 'OCR lines 69-146; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-greek-church-and-the-ecumenical-patriarchate
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1929, end: 1929, source: "dated October, 1929 (OCR line 146)", formation_confidence: Documented}
+  note: 'The new Patriarch''s own letter, in English with no translator named; the Archbishop''s reply at OCR line 151 addresses him as ''the Lord Photios''.'
+- row_id: christian-east_v10-no4-winter-1929--the-attitude-of-the-orthodox-church-to-the-faith-and-order-movement-1929
+  work: '''The Attitude of the Orthodox Church to the Faith and Order Movement'', a speech at the Maloja meeting (1929), in The Christian East'
+  author: christian-east
+  locus: 'OCR lines 1453-1730; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-greek-church-and-the-ecumenical-patriarchate
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1929, end: 1929, source: "printed in the number of Winter, 1929", formation_confidence: Documented}
+  note: 'A speech by an Orthodox professor at the Maloja meeting of the Continuation Committee; the OCR drops his surname from the by-line (OCR line 1457).'

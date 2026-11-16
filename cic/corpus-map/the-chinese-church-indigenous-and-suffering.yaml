@@ -11,6 +11,38 @@ works:
   confidence: assigned
   note: His own address as the meeting printed it.
   source_file: international-missionary-council_jerusalem-meeting-1928-v8_1928.txt
+- row_id: international-review-of-missions_v13_1924--the-national-christian-council-of-china-by-the-secretaries
+  work: '''The National Christian Council of China'', by the Secretaries (International Review
+    of Missions, 1924)'
+  author: international-review-of-missions
+  locus: OCR lines 5095-5730; add 12 to OCR line numbers
+  role: context
+  confidence: assigned
+  language: eng
+  date:
+    start: 1924
+    end: 1924
+    source: printed in the number of January 1924
+    formation_confidence: Documented
+  note: The council's secretaries on its first work; the by-line gives no names.
+  source_file: international-review-of-missions_v13_1924.txt
+- row_id: international-review-of-missions_v9_1920--plan-of-union-of-the-church-of-christ-in-china
+  work: Plan of union and doctrinal basis for the United Church of Christ in China (International
+    Review of Missions, 1920)
+  author: international-review-of-missions
+  locus: OCR lines 7567-7774; add 12 to OCR line numbers
+  role: context
+  confidence: assigned
+  language: eng
+  date:
+    start: 1918
+    end: 1920
+    source: printed as Appendix A of the official documents in the number of January 1920;
+      the plan's own date was not read
+    formation_confidence: Documented
+  note: A union plan of mission-founded churches, printed whole; it comes before the entry's
+    window opens.
+  source_file: international-review-of-missions_v9_1920.txt
 - row_id: national-christian-conference_chinese-church-as-revealed-shanghai-1922_1922--the-chinese-church-as-revealed-in-the-national-christian
   work: The Chinese Church as Revealed in the National Christian Conference, Shanghai 1922
   author: national-christian-conference

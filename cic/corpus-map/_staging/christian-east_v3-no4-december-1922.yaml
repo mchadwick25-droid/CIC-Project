@@ -1,0 +1,24 @@
+source_file: christian-east_v3-no4-december-1922.txt
+assignments:
+- row_id: christian-east_v3-no4-december-1922--whole
+  work: 'The Christian East, volume III, number 4 (December, 1922)'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - the-anglican-communion-twentieth-century
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1922, end: 1922, source: "masthead: 'December, 1922'", formation_confidence: Documented}
+  note: 'One number of the quarterly, by many writers. The Eastern documents it prints are in the journal''s English unless a row says otherwise.'
+- row_id: christian-east_v3-no4-december-1922--patriarch-dimitri-of-serbia-open-letter-1922
+  work: 'Dimitri, Patriarch of Serbia, open letter (1922), in The Christian East'
+  author: christian-east
+  locus: 'OCR lines 2039-2156; add 12 to OCR line numbers'
+  atlas_ids:
+  - orthodoxy-in-the-communist-balkans
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1922, end: 1922, source: "printed in the number of December, 1922; the letter's own date was not found", formation_confidence: Documented}
+  note: 'The Patriarch''s own appeal, in an English ''made from Glasnik by the Rev. R. M. French'' (OCR line 2043).'

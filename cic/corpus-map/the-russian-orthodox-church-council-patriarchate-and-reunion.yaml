@@ -12,6 +12,21 @@ works:
   note: His own letter with the Synod's signatures, in an English whose maker the print does
     not name; the journal says it prints it in full.
   source_file: christian-east_v8-no4-winter-1927.txt
+- row_id: christian-east_v1-no2-june-1920--patriarch-tikhon-a-letter-to-the-russian-rulers-1918
+  work: Patriarch Tikhon, 'A Letter to the Russian Rulers, 1918', in The Christian East
+  author: christian-east
+  locus: OCR lines 3867-4072; add 12 to OCR line numbers
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1918
+    end: 1918
+    source: the heading gives 1918
+    formation_confidence: Documented
+  note: His own words in the journal's English; the print names no translator. The OCR of
+    the heading and of the last lines is damaged.
+  source_file: christian-east_v1-no2-june-1920.txt
 - row_id: christian-east_v4-no2-may-1923--patriarch-tikhon-a-pastoral-1923-in-the-christian-east
   work: Patriarch Tikhon, a pastoral (1923), in The Christian East
   author: christian-east
@@ -28,6 +43,54 @@ works:
   confidence: assigned
   note: His own words in an English whose maker the print does not name.
   source_file: christian-east_v4-no4-november-1923.txt
+- row_id: christian-east_v1-no1-march-1920--patriarch-tikhon-reply-to-the-archbishop-of-canterbury-1918
+  work: Patriarch Tikhon, reply to the Archbishop of Canterbury (1918), in The Christian East
+  author: christian-east
+  locus: OCR lines 518-613; add 12 to OCR line numbers
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1918
+    end: 1918
+    source: the letter is dated January 12/25, 1918 (OCR line 610)
+    formation_confidence: Documented
+  note: His own letter, which Bell's article says he sent in English. It stands inside Bell's
+    narrative.
+  source_file: christian-east_v1-no1-march-1920.txt
+- row_id: christian-east_v7-no3-september-1926--peter-of-krutitsy-and-sergius-documents-on-the-canonical-position-in-russia-1925-26
+  work: Peter of Krutitz, locum tenens, and Sergios, Metropolitan of Novgorod, documents on
+    the canonical position in Russia (1925-26), in The Christian East
+  author: christian-east
+  locus: OCR lines 2053-2332; add 12 to OCR line numbers
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1925
+    end: 1926
+    source: the documents are dated from 23 Nov./6 Dec., 1925 to 1/14 Jan., 1926 (OCR lines
+      2053-2332)
+    formation_confidence: Documented
+  note: Their own letters and a draft constitution, in English with no translator named. A
+    notice of a Soviet state body stands among them at about OCR lines 2124-2148.
+  source_file: christian-east_v7-no3-september-1926.txt
+- row_id: christian-east_v8-no1-march-1927--seraphim-of-uglich-letter-to-the-prelates-priests-and-laity-1927
+  work: Seraphim, Archbishop of Uglitch, letter 'To the Prelates, Priests and Laity of the
+    Orthodox Russian Church', in The Christian East
+  author: christian-east
+  locus: OCR lines 119-166; add 12 to OCR line numbers
+  role: tradition
+  confidence: assigned
+  language: eng
+  date:
+    start: 1926
+    end: 1927
+    source: the letter prints no date; it stands in the number of March, 1927
+    formation_confidence: Documented
+  note: His own letter, in English with no translator named. The Chronicle says the guiding
+    of the Russian church then lay upon him (OCR lines 102-106).
+  source_file: christian-east_v8-no1-march-1927.txt
 - row_id: christian-east_v2-no2-july-1921--the-christian-east-volume-ii-number-2-july-1921-on-the
   work: 'The Christian East, volume II, number 2 (July, 1921): on the Russian church'
   author: christian-east

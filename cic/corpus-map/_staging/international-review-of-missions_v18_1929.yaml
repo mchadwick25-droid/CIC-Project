@@ -1,0 +1,46 @@
+source_file: international-review-of-missions_v18_1929.txt
+assignments:
+- row_id: international-review-of-missions_v18_1929--whole
+  work: 'The International Review of Missions, Volume the Eighteenth (1929)'
+  author: international-review-of-missions
+  locus: 'whole'
+  atlas_ids:
+  - the-ecumenical-movement-and-the-wcc
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1929, end: 1929, source: "title leaf: '1929'", formation_confidence: Documented}
+  note: 'The quarterly the title leaf says ''is published by the International Missionary Council''; each article is its writer''s own.'
+- row_id: international-review-of-missions_v18_1929--braga-following-up-the-jerusalem-meeting-in-brazil
+  work: 'Erasmo Braga, ''Following up the Jerusalem Meeting in Brazil'' (International Review of Missions, 1929)'
+  author: international-review-of-missions
+  locus: 'OCR lines 17467-17717; add 12 to OCR line numbers'
+  atlas_ids:
+  - protestantism-in-latin-america
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1929, end: 1929, source: "printed in the number of April 1929", formation_confidence: Documented}
+  note: 'A Brazilian Protestant leader''s own report; the notes on contributors call him Executive Secretary of the Committee on Co-operation in Brazil (OCR line 20901).'
+- row_id: international-review-of-missions_v18_1929--bishop-of-dornakal-living-forces-behind-mass-movements
+  work: 'The Bishop of Dornakal, ''Living Forces behind Mass Movements'' (International Review of Missions, 1929)'
+  author: international-review-of-missions
+  locus: 'OCR lines 35978-36472; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-anglican-communion-twentieth-century
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1929, end: 1929, source: "printed in the number of October 1929", formation_confidence: Documented}
+  note: 'An Anglican bishop in India on the mass movements in his own diocese; the by-line gives his see and not his name.'
+- row_id: international-review-of-missions_v18_1929--kozaki-dr-kagawa-and-the-kingdom-of-god-movement
+  work: 'Michio Kozaki, ''Dr Kagawa and the Kingdom of God Movement'' (International Review of Missions, 1929)'
+  author: international-review-of-missions
+  locus: 'OCR lines 39616-40255; add 12 to OCR line numbers'
+  atlas_ids:
+  - japanese-christianity-after-1906
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1929, end: 1929, source: "printed in the number of October 1929", formation_confidence: Documented}
+  note: 'A Japanese writer on Kagawa and the Kingdom of God Movement in Japan.'

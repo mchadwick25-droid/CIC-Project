@@ -1,0 +1,35 @@
+source_file: international-review-of-missions_v9_1920.txt
+assignments:
+- row_id: international-review-of-missions_v9_1920--whole
+  work: 'The International Review of Missions, Volume the Ninth (1920)'
+  author: international-review-of-missions
+  locus: 'whole'
+  atlas_ids:
+  - the-student-volunteer-movement-and-edinburgh-191
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1920, end: 1920, source: "title leaf: '1920'", formation_confidence: Documented}
+  note: 'A missionary quarterly edited by J. H. Oldham. The title leaf says that an article which speaks for the Continuation Committee will say so, and that otherwise the writer alone is responsible.'
+- row_id: international-review-of-missions_v9_1920--mar-thoma-statement-on-church-union-in-south-india-1919
+  work: 'Statement from the Malabar Suffragan and other members of the Mar Thoma Syrian Church on church union in South India (International Review of Missions, 1920)'
+  author: international-review-of-missions
+  locus: 'OCR lines 8277-8432; add 12 to OCR line numbers'
+  atlas_ids:
+  - northeast-india-and-mar-thoma-twentieth-century
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1919, end: 1920, source: "it stands among the South India proposals with a statement of the South India United Church of September 29, 1919 (OCR line 8433); printed in the number of January 1920", formation_confidence: Documented}
+  note: 'The Mar Thoma members'' own statement, printed whole among the official documents on union.'
+- row_id: international-review-of-missions_v9_1920--plan-of-union-of-the-church-of-christ-in-china
+  work: 'Plan of union and doctrinal basis for the United Church of Christ in China (International Review of Missions, 1920)'
+  author: international-review-of-missions
+  locus: 'OCR lines 7567-7774; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-chinese-church-indigenous-and-suffering
+  role: context
+  confidence: assigned
+  language: eng
+  date: {start: 1918, end: 1920, source: "printed as Appendix A of the official documents in the number of January 1920; the plan's own date was not read", formation_confidence: Documented}
+  note: 'A union plan of mission-founded churches, printed whole; it comes before the entry''s window opens.'

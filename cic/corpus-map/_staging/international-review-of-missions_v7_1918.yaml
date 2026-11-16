@@ -1,0 +1,24 @@
+source_file: international-review-of-missions_v7_1918.txt
+assignments:
+- row_id: international-review-of-missions_v7_1918--whole
+  work: 'The International Review of Missions, Volume the Seventh (1918)'
+  author: international-review-of-missions
+  locus: 'whole'
+  atlas_ids:
+  - the-student-volunteer-movement-and-edinburgh-191
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1918, end: 1918, source: "title leaf: '1918'", formation_confidence: Documented}
+  note: 'A missionary quarterly edited by J. H. Oldham. The title leaf says that an article which speaks for the Continuation Committee will say so, and that otherwise the writer alone is responsible.'
+- row_id: international-review-of-missions_v7_1918--willis-the-organization-of-the-anglican-church-in-uganda
+  work: 'J. J. Willis, ''The Organization of the Anglican Church in Uganda'' (International Review of Missions, 1918)'
+  author: international-review-of-missions
+  locus: 'OCR lines 30383-30946; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-anglican-communion-twentieth-century
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1918, end: 1918, source: "printed in the number of October 1918", formation_confidence: Documented}
+  note: 'The by-line reads ''Bishop J. J. Willis''; his own account of the church''s constitution and synod.'

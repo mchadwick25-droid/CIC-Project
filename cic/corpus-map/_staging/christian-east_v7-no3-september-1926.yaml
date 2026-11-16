@@ -1,0 +1,25 @@
+source_file: christian-east_v7-no3-september-1926.txt
+assignments:
+- row_id: christian-east_v7-no3-september-1926--whole
+  work: 'The Christian East, volume VII, number 3 (September, 1926)'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - the-anglican-communion-twentieth-century
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1926, end: 1926, source: "masthead: 'September, 1926'", formation_confidence: Documented}
+  note: 'One number of the quarterly, by many writers. The Eastern documents it prints are in the journal''s English unless a row says otherwise.'
+- row_id: christian-east_v7-no3-september-1926--peter-of-krutitsy-and-sergius-documents-on-the-canonical-position-in-russia-1925-26
+  work: 'Peter of Krutitz, locum tenens, and Sergios, Metropolitan of Novgorod, documents on the canonical position in Russia (1925-26), in The Christian East'
+  author: christian-east
+  locus: 'OCR lines 2053-2332; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-russian-orthodox-church-council-patriarchate-and-reunion
+  - the-russian-new-martyrs-and-the-catacomb-church
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1925, end: 1926, source: "the documents are dated from 23 Nov./6 Dec., 1925 to 1/14 Jan., 1926 (OCR lines 2053-2332)", formation_confidence: Documented}
+  note: 'Their own letters and a draft constitution, in English with no translator named. A notice of a Soviet state body stands among them at about OCR lines 2124-2148.'

@@ -1,0 +1,24 @@
+source_file: christian-east_v7-no4-december-1926.txt
+assignments:
+- row_id: christian-east_v7-no4-december-1926--whole
+  work: 'The Christian East, volume VII, number 4 (December, 1926)'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - the-anglican-communion-twentieth-century
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1926, end: 1926, source: "masthead: 'December, 1926'", formation_confidence: Documented}
+  note: 'One number of the quarterly, by many writers. The Eastern documents it prints are in the journal''s English unless a row says otherwise.'
+- row_id: christian-east_v7-no4-december-1926--makharoblidze-russia-and-her-church-1926
+  work: 'E. Makharoblidze, ''Russia and Her Church'', a lecture (1926), in The Christian East'
+  author: christian-east
+  locus: 'OCR lines 2024-2647; add 12 to OCR line numbers'
+  atlas_ids:
+  - emigre-orthodoxy-and-the-paris-school
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1926, end: 1926, source: "the heading dates the lecture November 27, 1926 (OCR line 2028)", formation_confidence: Documented}
+  note: 'A lecture by the secretary of the Russian synod at Sremsky-Karlowicz. The editors say they ''do not take responsibility for all'' he said (OCR lines 2031-2032).'

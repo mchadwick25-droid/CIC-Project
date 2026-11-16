@@ -1,0 +1,35 @@
+source_file: christian-east_v6-no4-january-1926.txt
+assignments:
+- row_id: christian-east_v6-no4-january-1926--whole
+  work: 'The Christian East, volume VI, number 4 (January, 1926)'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - the-anglican-communion-twentieth-century
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1926, end: 1926, source: "masthead: 'January, 1926'", formation_confidence: Documented}
+  note: 'One number of the quarterly, by many writers. The Eastern documents it prints are in the journal''s English unless a row says otherwise.'
+- row_id: christian-east_v6-no4-january-1926--russian-synod-abroad-rescript-to-athelstan-riley-1925
+  work: 'The Episcopal Synod of the Russian Church outside of Russia, rescript to Athelstan Riley (1925), in The Christian East'
+  author: christian-east
+  locus: 'OCR lines 2311-2348; add 12 to OCR line numbers'
+  atlas_ids:
+  - emigre-orthodoxy-and-the-paris-school
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1925, end: 1925, source: "dated 'Serbia, 11/24th October, 1925. No. 3304.' (OCR line 2340)", formation_confidence: Documented}
+  note: 'The synod''s own rescript over the Metropolitan Anthony''s name, in English; the print names no translator.'
+- row_id: christian-east_v6-no4-january-1926--surma-speech-at-the-anniversary-1925
+  work: 'Lady Surma d''Bait Mar Shimun, speech at the Association''s anniversary (1925), in The Christian East'
+  author: christian-east
+  locus: 'OCR lines 233-350; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-sayfo-and-the-syriac-diaspora
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1925, end: 1926, source: "the anniversary is reported in the number of January, 1926", formation_confidence: Documented}
+  note: 'Her speech as the journal prints it in English; it says she spoke in Syriac and was interpreted by Fr. Heazell (OCR lines 234-235).'

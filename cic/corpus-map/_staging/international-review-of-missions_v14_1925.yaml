@@ -1,0 +1,24 @@
+source_file: international-review-of-missions_v14_1925.txt
+assignments:
+- row_id: international-review-of-missions_v14_1925--whole
+  work: 'The International Review of Missions, Volume the Fourteenth (1925)'
+  author: international-review-of-missions
+  locus: 'whole'
+  atlas_ids:
+  - the-ecumenical-movement-and-the-wcc
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1925, end: 1925, source: "title leaf: '1925'", formation_confidence: Documented}
+  note: 'The quarterly the title leaf says ''is published by the International Missionary Council''; each article is its writer''s own.'
+- row_id: international-review-of-missions_v14_1925--speer-the-congress-on-christian-work-in-south-america
+  work: 'Robert E. Speer, ''The Congress on Christian Work in South America'' (International Review of Missions, 1925)'
+  author: international-review-of-missions
+  locus: 'OCR lines 35804-36695; add 12 to OCR line numbers'
+  atlas_ids:
+  - protestantism-in-latin-america
+  role: context
+  confidence: assigned
+  language: eng
+  date: {start: 1925, end: 1925, source: "printed in the number of October 1925; the article says the congress met at Montevideo from March 29 (OCR lines 35811-35812)", formation_confidence: Documented}
+  note: 'A North American mission secretary''s report of the Montevideo congress.'

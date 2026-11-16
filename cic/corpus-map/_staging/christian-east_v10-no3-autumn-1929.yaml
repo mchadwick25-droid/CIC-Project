@@ -1,0 +1,35 @@
+source_file: christian-east_v10-no3-autumn-1929.txt
+assignments:
+- row_id: christian-east_v10-no3-autumn-1929--whole
+  work: 'The Christian East, volume X, number 3 (Autumn, 1929)'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - the-anglican-communion-twentieth-century
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1929, end: 1929, source: "masthead: 'Autumn, 1929'", formation_confidence: Documented}
+  note: 'One number of the quarterly, by many writers. The Eastern documents it prints are in the journal''s English unless a row says otherwise.'
+- row_id: christian-east_v10-no3-autumn-1929--germanos-of-thyatira-letter-to-the-editor-of-the-church-times-1929
+  work: 'The Metropolitan Germanos, letter to the editor of The Church Times (1929), in The Christian East'
+  author: christian-east
+  locus: 'OCR lines 88-224; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-greek-church-and-the-ecumenical-patriarchate
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1929, end: 1929, source: "printed in the Chronicle of the number of Autumn, 1929; the letter's own date was not found", formation_confidence: Documented}
+  note: 'His own letter, written to an English paper; it stands inside the Chronicle.'
+- row_id: christian-east_v10-no3-autumn-1929--fedotov-the-orthodox-church-and-her-history-1929
+  work: 'Fedotov, ''The Orthodox Church and Her History'' (1929), in The Christian East'
+  author: christian-east
+  locus: 'OCR lines 564-1227; add 12 to OCR line numbers'
+  atlas_ids:
+  - emigre-orthodoxy-and-the-paris-school
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1929, end: 1929, source: "printed in the number of Autumn, 1929", formation_confidence: Documented}
+  note: 'The by-line gives the surname only; in English with no translator named.'

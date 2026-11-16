@@ -1,0 +1,13 @@
+source_file: international-review-of-missions_v3_1914.txt
+assignments:
+- row_id: international-review-of-missions_v3_1914--whole
+  work: 'The International Review of Missions, Volume the Third (1914)'
+  author: international-review-of-missions
+  locus: 'whole'
+  atlas_ids:
+  - the-student-volunteer-movement-and-edinburgh-191
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1914, end: 1914, source: "title leaf: '1914'", formation_confidence: Documented}
+  note: 'A missionary quarterly edited by J. H. Oldham; each article is its writer''s own.'

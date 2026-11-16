@@ -31994,3 +31994,453 @@ queue:
     verified_by: 'Library thread, era 9, the located volumes: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 25,856 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: pacific-garden-mission_thirty-first-annual-report_1908.txt
+  - title: 'The Christian East, volume I, number 1 (March, 1920)'
+    author: 'The Christian East'
+    year: '1920'
+    world: the-anglican-communion-twentieth-century
+    why: 'Era 10 batch 2, found and not yet taken: The Christian East, the issues to 1930 not yet held.'
+    url: https://archive.org/details/per_christian-east_the-christian-east_1920-03_1_1
+    rights_basis: 'Public Domain (pd-us-by-date: published 1920); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 163,918 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: christian-east_v1-no1-march-1920.txt
+  - title: 'The Christian East, volume I, number 2 (June, 1920)'
+    author: 'The Christian East'
+    year: '1920'
+    world: the-anglican-communion-twentieth-century
+    why: 'Era 10 batch 2, found and not yet taken: The Christian East, the issues to 1930 not yet held.'
+    url: https://archive.org/details/per_christian-east_the-christian-east_1920-06_1_2
+    rights_basis: 'Public Domain (pd-us-by-date: published 1920); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 183,939 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: christian-east_v1-no2-june-1920.txt
+  - title: 'The Christian East, volume I, number 4 (December, 1920)'
+    author: 'The Christian East'
+    year: '1920'
+    world: the-anglican-communion-twentieth-century
+    why: 'Era 10 batch 2, found and not yet taken: The Christian East, the issues to 1930 not yet held.'
+    url: https://archive.org/details/per_christian-east_the-christian-east_1920-12_1_4
+    rights_basis: 'Public Domain (pd-us-by-date: published 1920); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 138,860 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: christian-east_v1-no4-december-1920.txt
+  - title: 'The Christian East, volume II, number 1 (April, 1921)'
+    author: 'The Christian East'
+    year: '1921'
+    world: the-anglican-communion-twentieth-century
+    why: 'Era 10 batch 2, found and not yet taken: The Christian East, the issues to 1930 not yet held.'
+    url: https://archive.org/details/per_christian-east_the-christian-east_1921-04_2_1
+    rights_basis: 'Public Domain (pd-us-by-date: published 1921); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 168,219 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: christian-east_v2-no1-april-1921.txt
+  - title: 'The Christian East, volume II, number 3 (September, 1921)'
+    author: 'The Christian East'
+    year: '1921'
+    world: the-anglican-communion-twentieth-century
+    why: 'Era 10 batch 2, found and not yet taken: The Christian East, the issues to 1930 not yet held.'
+    url: https://archive.org/details/per_christian-east_the-christian-east_1921-09_2_3
+    rights_basis: 'Public Domain (pd-us-by-date: published 1921); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 135,254 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: christian-east_v2-no3-september-1921.txt
+  - title: 'The Christian East, volume II, number 4 (December, 1921)'
+    author: 'The Christian East'
+    year: '1921'
+    world: the-anglican-communion-twentieth-century
+    why: 'Era 10 batch 2, found and not yet taken: The Christian East, the issues to 1930 not yet held.'
+    url: https://archive.org/details/per_christian-east_the-christian-east_1921-12_2_4
+    rights_basis: 'Public Domain (pd-us-by-date: published 1921); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 134,423 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: christian-east_v2-no4-december-1921.txt
+  - title: 'The Christian East, volume III, number 1 (March, 1922)'
+    author: 'The Christian East'
+    year: '1922'
+    world: the-anglican-communion-twentieth-century
+    why: 'Era 10 batch 2, found and not yet taken: The Christian East, the issues to 1930 not yet held.'
+    url: https://archive.org/details/per_christian-east_the-christian-east_1922-03_3_1
+    rights_basis: 'Public Domain (pd-us-by-date: published 1922); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 133,632 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: christian-east_v3-no1-march-1922.txt
+  - title: 'The Christian East, volume III, number 4 (December, 1922)'
+    author: 'The Christian East'
+    year: '1922'
+    world: the-anglican-communion-twentieth-century
+    why: 'Era 10 batch 2, found and not yet taken: The Christian East, the issues to 1930 not yet held.'
+    url: https://archive.org/details/per_christian-east_the-christian-east_1922-12_3_4
+    rights_basis: 'Public Domain (pd-us-by-date: published 1922); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 143,942 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: christian-east_v3-no4-december-1922.txt
+  - title: 'The Christian East, volume V, number 1 (February, 1924)'
+    author: 'The Christian East'
+    year: '1924'
+    world: the-anglican-communion-twentieth-century
+    why: 'Era 10 batch 2, found and not yet taken: The Christian East, the issues to 1930 not yet held.'
+    url: https://archive.org/details/per_christian-east_the-christian-east_1924-02_5_1
+    rights_basis: 'Public Domain (pd-us-by-date: published 1924); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 151,721 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: christian-east_v5-no1-february-1924.txt
+  - title: 'The Christian East, volume V, number 2 (May, 1924)'
+    author: 'The Christian East'
+    year: '1924'
+    world: the-anglican-communion-twentieth-century
+    why: 'Era 10 batch 2, found and not yet taken: The Christian East, the issues to 1930 not yet held.'
+    url: https://archive.org/details/per_christian-east_the-christian-east_1924-05_5_2
+    rights_basis: 'Public Domain (pd-us-by-date: published 1924); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 152,832 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: christian-east_v5-no2-may-1924.txt
+  - title: 'The Christian East, volume V, number 3 (September, 1924)'
+    author: 'The Christian East'
+    year: '1924'
+    world: the-anglican-communion-twentieth-century
+    why: 'Era 10 batch 2, found and not yet taken: The Christian East, the issues to 1930 not yet held.'
+    url: https://archive.org/details/per_christian-east_the-christian-east_1924-09_5_3
+    rights_basis: 'Public Domain (pd-us-by-date: published 1924); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 158,390 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: christian-east_v5-no3-september-1924.txt
+  - title: 'The Christian East, volume V, number 4 (December, 1924)'
+    author: 'The Christian East'
+    year: '1924'
+    world: the-anglican-communion-twentieth-century
+    why: 'Era 10 batch 2, found and not yet taken: The Christian East, the issues to 1930 not yet held.'
+    url: https://archive.org/details/per_christian-east_the-christian-east_1924-12_5_4
+    rights_basis: 'Public Domain (pd-us-by-date: published 1924); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 144,260 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: christian-east_v5-no4-december-1924.txt
+  - title: 'The Christian East, volume VI, number 1 (March, 1925)'
+    author: 'The Christian East'
+    year: '1925'
+    world: the-anglican-communion-twentieth-century
+    why: 'Era 10 batch 2, found and not yet taken: The Christian East, the issues to 1930 not yet held.'
+    url: https://archive.org/details/per_christian-east_the-christian-east_1925-03_6_1
+    rights_basis: 'Public Domain (pd-us-by-date: published 1925); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 140,655 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: christian-east_v6-no1-march-1925.txt
+  - title: 'The Christian East, volume VI, number 2 (June, 1925)'
+    author: 'The Christian East'
+    year: '1925'
+    world: the-anglican-communion-twentieth-century
+    why: 'Era 10 batch 2, found and not yet taken: The Christian East, the issues to 1930 not yet held.'
+    url: https://archive.org/details/per_christian-east_the-christian-east_1925-06_6_2
+    rights_basis: 'Public Domain (pd-us-by-date: published 1925); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 182,516 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: christian-east_v6-no2-june-1925.txt
+  - title: 'The Christian East, volume VI, number 3 (September, 1925)'
+    author: 'The Christian East'
+    year: '1925'
+    world: the-anglican-communion-twentieth-century
+    why: 'Era 10 batch 2, found and not yet taken: The Christian East, the issues to 1930 not yet held.'
+    url: https://archive.org/details/per_christian-east_the-christian-east_1925-09_6_3
+    rights_basis: 'Public Domain (pd-us-by-date: published 1925); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 223,420 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: christian-east_v6-no3-september-1925.txt
+  - title: 'The Christian East, volume VI, number 4 (January, 1926)'
+    author: 'The Christian East'
+    year: '1926'
+    world: the-anglican-communion-twentieth-century
+    why: 'Era 10 batch 2, found and not yet taken: The Christian East, the issues to 1930 not yet held.'
+    url: https://archive.org/details/per_christian-east_the-christian-east_1926-01_6_4
+    rights_basis: 'Public Domain (pd-us-by-date: published 1926); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 140,792 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: christian-east_v6-no4-january-1926.txt
+  - title: 'The Christian East, volume VII, number 1 (April, 1926)'
+    author: 'The Christian East'
+    year: '1926'
+    world: the-anglican-communion-twentieth-century
+    why: 'Era 10 batch 2, found and not yet taken: The Christian East, the issues to 1930 not yet held.'
+    url: https://archive.org/details/per_christian-east_the-christian-east_1926-04_7_1
+    rights_basis: 'Public Domain (pd-us-by-date: published 1926); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 136,707 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: christian-east_v7-no1-april-1926.txt
+  - title: 'The Christian East, volume VII, number 2 (June, 1926)'
+    author: 'The Christian East'
+    year: '1926'
+    world: the-anglican-communion-twentieth-century
+    why: 'Era 10 batch 2, found and not yet taken: The Christian East, the issues to 1930 not yet held.'
+    url: https://archive.org/details/per_christian-east_the-christian-east_1926-06_7_2
+    rights_basis: 'Public Domain (pd-us-by-date: published 1926); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 143,756 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: christian-east_v7-no2-june-1926.txt
+  - title: 'The Christian East, volume VII, number 3 (September, 1926)'
+    author: 'The Christian East'
+    year: '1926'
+    world: the-anglican-communion-twentieth-century
+    why: 'Era 10 batch 2, found and not yet taken: The Christian East, the issues to 1930 not yet held.'
+    url: https://archive.org/details/per_christian-east_the-christian-east_1926-09_7_3
+    rights_basis: 'Public Domain (pd-us-by-date: published 1926); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 143,185 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: christian-east_v7-no3-september-1926.txt
+  - title: 'The Christian East, volume VII, number 4 (December, 1926)'
+    author: 'The Christian East'
+    year: '1926'
+    world: the-anglican-communion-twentieth-century
+    why: 'Era 10 batch 2, found and not yet taken: The Christian East, the issues to 1930 not yet held.'
+    url: https://archive.org/details/per_christian-east_the-christian-east_1926-12_7_4
+    rights_basis: 'Public Domain (pd-us-by-date: published 1926); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 135,144 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: christian-east_v7-no4-december-1926.txt
+  - title: 'The Christian East, volume VIII, number 1 (March, 1927)'
+    author: 'The Christian East'
+    year: '1927'
+    world: the-anglican-communion-twentieth-century
+    why: 'Era 10 batch 2, found and not yet taken: The Christian East, the issues to 1930 not yet held.'
+    url: https://archive.org/details/per_christian-east_the-christian-east_1927-03_8_1
+    rights_basis: 'Public Domain (pd-us-by-date: published 1927); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 126,895 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: christian-east_v8-no1-march-1927.txt
+  - title: 'The Christian East, volume VIII, number 2 (June, 1927)'
+    author: 'The Christian East'
+    year: '1927'
+    world: the-anglican-communion-twentieth-century
+    why: 'Era 10 batch 2, found and not yet taken: The Christian East, the issues to 1930 not yet held.'
+    url: https://archive.org/details/per_christian-east_the-christian-east_1927-06_8_2
+    rights_basis: 'Public Domain (pd-us-by-date: published 1927); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 132,881 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: christian-east_v8-no2-june-1927.txt
+  - title: 'The Christian East, volume VIII, number 3 (Autumn, 1927)'
+    author: 'The Christian East'
+    year: '1927'
+    world: the-anglican-communion-twentieth-century
+    why: 'Era 10 batch 2, found and not yet taken: The Christian East, the issues to 1930 not yet held.'
+    url: https://archive.org/details/per_christian-east_the-christian-east_autumn-1927_8_3
+    rights_basis: 'Public Domain (pd-us-by-date: published 1927); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 208,998 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: christian-east_v8-no3-autumn-1927.txt
+  - title: 'The Christian East, volume IX, number 1 (Spring, 1928)'
+    author: 'The Christian East'
+    year: '1928'
+    world: the-anglican-communion-twentieth-century
+    why: 'Era 10 batch 2, found and not yet taken: The Christian East, the issues to 1930 not yet held.'
+    url: https://archive.org/details/per_christian-east_the-christian-east_spring-1928_9_1
+    rights_basis: 'Public Domain (pd-us-by-date: published 1928); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 139,234 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: christian-east_v9-no1-spring-1928.txt
+  - title: 'The Christian East, volume IX, number 2 (Summer, 1928)'
+    author: 'The Christian East'
+    year: '1928'
+    world: the-anglican-communion-twentieth-century
+    why: 'Era 10 batch 2, found and not yet taken: The Christian East, the issues to 1930 not yet held.'
+    url: https://archive.org/details/per_christian-east_the-christian-east_summer-1928_9_2
+    rights_basis: 'Public Domain (pd-us-by-date: published 1928); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 132,747 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: christian-east_v9-no2-summer-1928.txt
+  - title: 'The Christian East, volume IX, number 3 (Autumn, 1928)'
+    author: 'The Christian East'
+    year: '1928'
+    world: the-anglican-communion-twentieth-century
+    why: 'Era 10 batch 2, found and not yet taken: The Christian East, the issues to 1930 not yet held.'
+    url: https://archive.org/details/per_christian-east_the-christian-east_autumn-1928_9_3
+    rights_basis: 'Public Domain (pd-us-by-date: published 1928); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 138,559 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: christian-east_v9-no3-autumn-1928.txt
+  - title: 'The Christian East, volume IX, number 4 (Winter, 1928)'
+    author: 'The Christian East'
+    year: '1928'
+    world: the-anglican-communion-twentieth-century
+    why: 'Era 10 batch 2, found and not yet taken: The Christian East, the issues to 1930 not yet held.'
+    url: https://archive.org/details/per_christian-east_the-christian-east_winter-1928_9_4
+    rights_basis: 'Public Domain (pd-us-by-date: published 1928); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 94,049 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: christian-east_v9-no4-winter-1928.txt
+  - title: 'The Christian East, volume X, number 2 (Summer, 1929)'
+    author: 'The Christian East'
+    year: '1929'
+    world: the-anglican-communion-twentieth-century
+    why: 'Era 10 batch 2, found and not yet taken: The Christian East, the issues to 1930 not yet held.'
+    url: https://archive.org/details/per_christian-east_the-christian-east_summer-1929_10_2
+    rights_basis: 'Public Domain (pd-us-by-date: published 1929); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 139,896 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: christian-east_v10-no2-summer-1929.txt
+  - title: 'The Christian East, volume X, number 3 (Autumn, 1929)'
+    author: 'The Christian East'
+    year: '1929'
+    world: the-anglican-communion-twentieth-century
+    why: 'Era 10 batch 2, found and not yet taken: The Christian East, the issues to 1930 not yet held.'
+    url: https://archive.org/details/per_christian-east_the-christian-east_autumn-1929_10_3
+    rights_basis: 'Public Domain (pd-us-by-date: published 1929); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 93,868 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: christian-east_v10-no3-autumn-1929.txt
+  - title: 'The Christian East, volume X, number 4 (Winter, 1929)'
+    author: 'The Christian East'
+    year: '1929'
+    world: the-anglican-communion-twentieth-century
+    why: 'Era 10 batch 2, found and not yet taken: The Christian East, the issues to 1930 not yet held.'
+    url: https://archive.org/details/per_christian-east_the-christian-east_winter-1929_10_4
+    rights_basis: 'Public Domain (pd-us-by-date: published 1929); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 142,343 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: christian-east_v10-no4-winter-1929.txt
+  - title: 'The Christian East, volume XI, number 3 (Autumn, 1930)'
+    author: 'The Christian East'
+    year: '1930'
+    world: the-anglican-communion-twentieth-century
+    why: 'Era 10 batch 2, found and not yet taken: The Christian East, the issues to 1930 not yet held.'
+    url: https://archive.org/details/per_christian-east_the-christian-east_autumn-1930_11_3
+    rights_basis: 'Public Domain (pd-us-by-date: published 1930); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 142,708 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: christian-east_v11-no3-autumn-1930.txt
+  - title: 'The International Review of Missions, Volume the Third (1914)'
+    author: 'The International Review of Missions'
+    year: '1914'
+    world: the-student-volunteer-movement-and-edinburgh-191
+    why: 'Era 10 batch 2, found and not yet taken: The International Review of Missions, the volumes for 1914-1921, 1924-1927, 1929 and 1930.'
+    url: https://archive.org/details/sim_international-review-of-mission_1914_3
+    rights_basis: 'Public Domain (pd-us-by-date: published 1914); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,907,083 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: international-review-of-missions_v3_1914.txt
+  - title: 'The International Review of Missions, Volume the Fourth (1915)'
+    author: 'The International Review of Missions'
+    year: '1915'
+    world: the-student-volunteer-movement-and-edinburgh-191
+    why: 'Era 10 batch 2, found and not yet taken: The International Review of Missions, the volumes for 1914-1921, 1924-1927, 1929 and 1930.'
+    url: https://archive.org/details/sim_international-review-of-mission_1915_4
+    rights_basis: 'Public Domain (pd-us-by-date: published 1915); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,657,963 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: international-review-of-missions_v4_1915.txt
+  - title: 'The International Review of Missions, Volume the Fifth (1916)'
+    author: 'The International Review of Missions'
+    year: '1916'
+    world: the-student-volunteer-movement-and-edinburgh-191
+    why: 'Era 10 batch 2, found and not yet taken: The International Review of Missions, the volumes for 1914-1921, 1924-1927, 1929 and 1930.'
+    url: https://archive.org/details/sim_international-review-of-mission_1916_5
+    rights_basis: 'Public Domain (pd-us-by-date: published 1916); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,659,133 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: international-review-of-missions_v5_1916.txt
+  - title: 'The International Review of Missions, Volume the Sixth (1917)'
+    author: 'The International Review of Missions'
+    year: '1917'
+    world: the-student-volunteer-movement-and-edinburgh-191
+    why: 'Era 10 batch 2, found and not yet taken: The International Review of Missions, the volumes for 1914-1921, 1924-1927, 1929 and 1930.'
+    url: https://archive.org/details/sim_international-review-of-mission_1917_6
+    rights_basis: 'Public Domain (pd-us-by-date: published 1917); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,469,035 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: international-review-of-missions_v6_1917.txt
+  - title: 'The International Review of Missions, Volume the Seventh (1918)'
+    author: 'The International Review of Missions'
+    year: '1918'
+    world: the-student-volunteer-movement-and-edinburgh-191
+    why: 'Era 10 batch 2, found and not yet taken: The International Review of Missions, the volumes for 1914-1921, 1924-1927, 1929 and 1930.'
+    url: https://archive.org/details/sim_international-review-of-mission_1918_7
+    rights_basis: 'Public Domain (pd-us-by-date: published 1918); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,339,598 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: international-review-of-missions_v7_1918.txt
+  - title: 'The International Review of Missions, Volume the Eighth (1919)'
+    author: 'The International Review of Missions'
+    year: '1919'
+    world: the-student-volunteer-movement-and-edinburgh-191
+    why: 'Era 10 batch 2, found and not yet taken: The International Review of Missions, the volumes for 1914-1921, 1924-1927, 1929 and 1930.'
+    url: https://archive.org/details/sim_international-review-of-mission_1919_8
+    rights_basis: 'Public Domain (pd-us-by-date: published 1919); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,277,905 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: international-review-of-missions_v8_1919.txt
+  - title: 'The International Review of Missions, Volume the Ninth (1920)'
+    author: 'The International Review of Missions'
+    year: '1920'
+    world: the-student-volunteer-movement-and-edinburgh-191
+    why: 'Era 10 batch 2, found and not yet taken: The International Review of Missions, the volumes for 1914-1921, 1924-1927, 1929 and 1930.'
+    url: https://archive.org/details/sim_international-review-of-mission_1920_9
+    rights_basis: 'Public Domain (pd-us-by-date: published 1920); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,427,389 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: international-review-of-missions_v9_1920.txt
+  - title: 'The International Review of Missions, Volume the Tenth (1921)'
+    author: 'The International Review of Missions'
+    year: '1921'
+    world: the-ecumenical-movement-and-the-wcc
+    why: 'Era 10 batch 2, found and not yet taken: The International Review of Missions, the volumes for 1914-1921, 1924-1927, 1929 and 1930.'
+    url: https://archive.org/details/sim_international-review-of-mission_1921_10
+    rights_basis: 'Public Domain (pd-us-by-date: published 1921); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,366,507 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: international-review-of-missions_v10_1921.txt
+  - title: 'The International Review of Missions, Volume the Thirteenth (1924)'
+    author: 'The International Review of Missions'
+    year: '1924'
+    world: the-ecumenical-movement-and-the-wcc
+    why: 'Era 10 batch 2, found and not yet taken: The International Review of Missions, the volumes for 1914-1921, 1924-1927, 1929 and 1930.'
+    url: https://archive.org/details/sim_international-review-of-mission_1924_13
+    rights_basis: 'Public Domain (pd-us-by-date: published 1924); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,589,823 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: international-review-of-missions_v13_1924.txt
+  - title: 'The International Review of Missions, Volume the Fourteenth (1925)'
+    author: 'The International Review of Missions'
+    year: '1925'
+    world: the-ecumenical-movement-and-the-wcc
+    why: 'Era 10 batch 2, found and not yet taken: The International Review of Missions, the volumes for 1914-1921, 1924-1927, 1929 and 1930.'
+    url: https://archive.org/details/sim_international-review-of-mission_1925_14
+    rights_basis: 'Public Domain (pd-us-by-date: published 1925); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,586,337 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: international-review-of-missions_v14_1925.txt
+  - title: 'The International Review of Missions, Volume the Fifteenth (1926)'
+    author: 'The International Review of Missions'
+    year: '1926'
+    world: the-ecumenical-movement-and-the-wcc
+    why: 'Era 10 batch 2, found and not yet taken: The International Review of Missions, the volumes for 1914-1921, 1924-1927, 1929 and 1930.'
+    url: https://archive.org/details/sim_international-review-of-mission_1926_15
+    rights_basis: 'Public Domain (pd-us-by-date: published 1926); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,886,182 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: international-review-of-missions_v15_1926.txt
+  - title: 'The International Review of Missions, Volume the Sixteenth (1927)'
+    author: 'The International Review of Missions'
+    year: '1927'
+    world: the-ecumenical-movement-and-the-wcc
+    why: 'Era 10 batch 2, found and not yet taken: The International Review of Missions, the volumes for 1914-1921, 1924-1927, 1929 and 1930.'
+    url: https://archive.org/details/sim_international-review-of-mission_1927_16
+    rights_basis: 'Public Domain (pd-us-by-date: published 1927); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,555,580 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: international-review-of-missions_v16_1927.txt
+  - title: 'The International Review of Missions, Volume the Eighteenth (1929)'
+    author: 'The International Review of Missions'
+    year: '1929'
+    world: the-ecumenical-movement-and-the-wcc
+    why: 'Era 10 batch 2, found and not yet taken: The International Review of Missions, the volumes for 1914-1921, 1924-1927, 1929 and 1930.'
+    url: https://archive.org/details/sim_international-review-of-mission_1929_18
+    rights_basis: 'Public Domain (pd-us-by-date: published 1929); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,531,904 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: international-review-of-missions_v18_1929.txt
+  - title: 'The International Review of Missions, Volume the Nineteenth (1930)'
+    author: 'The International Review of Missions'
+    year: '1930'
+    world: the-ecumenical-movement-and-the-wcc
+    why: 'Era 10 batch 2, found and not yet taken: The International Review of Missions, the volumes for 1914-1921, 1924-1927, 1929 and 1930.'
+    url: https://archive.org/details/sim_international-review-of-mission_1930_19
+    rights_basis: 'Public Domain (pd-us-by-date: published 1930); the archive.org record carries no rights field, so the printed date is the basis'
+    verified_by: 'Library thread, era 10 batch 2b, the periodicals: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,554,569 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: international-review-of-missions_v19_1930.txt

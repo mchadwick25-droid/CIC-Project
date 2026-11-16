@@ -997,3 +997,38 @@ texts are not taken again (In His Steps, 1899; Newton's Thoughts on the Apocalyp
 
 Era 10 batch 2's follow-on list (Open-Gaps 300); then era 8 batch 3 (Open-Gaps 301).
 
+## Era 10, batch 2b, the periodicals: the follow-on to batch 2 (2026-11-16)
+
+**Done.** 45 files (4,325,430 words): 31 numbers of The Christian East and 14 volumes of The International
+Review of Missions, which era 10 batch 2 found and did not take. The files are in `CFT-Wants.md` ("Era 10,
+batch 2b, the periodicals"). The page-image reads, the calls and the cautions for writers are in
+`Build/Ministry/Operations/Audits/2026-11-16_library-era10-b2b-periodicals/Search_Log.md`. Every number of The
+Christian East's vols. I-X is now held, and every volume of the International Review from 1914 to 1930.
+
+**Scope, by the coordinator's instruction.** The three periodicals of batch 2's follow-on list, as listed. The
+books of that list are the next batch. The International Review for 1912 and 1913 and the Proceedings of the
+Church Missionary Society for 1906-1909 are a later batch of era 10; the Proceedings before 1906 are era 9's.
+No rendering.
+
+**Decided during the batch.**
+- **A scan of a microfilm that carries the film maker's copyright line and a prohibition is not taken.** The
+  Proceedings of the Church Missionary Society for 1910-1921 were scanned from a film whose target leaf reads
+  "© MM 1967 / Reproduction of this film prohibited". The prints are dated 1910 to 1921, but such a notice on
+  the scan is not a basis the rights rule or R1 to R12 list. The twelve volumes are held for Mark.
+- **A number dated across two years is not taken on its first year.** The Christian East's "Winter, 1930-31"
+  cites a letter of March 1931; it is held for Mark and is past the line until January 2027.
+- **A number filmed without its cover is taken on its masthead date**, and its header says that no publisher
+  or editor is printed in the number as scanned. The publisher and editors are given only for the eleven
+  numbers whose cover was filmed and read.
+- **A periodical gets one shelf row for the whole number or volume, and further rows only for documents whose
+  first and last lines were found.** A church leader's own document goes on that church's entry as tradition;
+  an outside report goes on the entry it reports as context.
+- **The International Review before 1921 goes on the Student Volunteer Movement and Edinburgh 1910 entry**,
+  and from 1921 on the ecumenical movement entry, where the held volumes are.
+- Host bytes are kept whole; line numbers in headers and shelf rows are the host's, with 12 added for the
+  file's own.
+
+### Next action
+
+The books of era 10 batch 2's follow-on list (Open-Gaps 302); then era 8 batch 3 (Open-Gaps 301); then the
+International Review for 1912 and 1913 (Open-Gaps 303).
