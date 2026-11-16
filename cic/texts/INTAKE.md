@@ -38,6 +38,10 @@ practice:
   checks it. Any difference in meaning is marked uncertain, and both
   readings are kept. The model that renders is the one `CLAUDE.md` names
   for renderings, unless Mark has made an exception for the work in hand.
+  An older stage of a language counts as foreign here: Old and Middle
+  English (`ang`, `enm`), Middle High German (`gmh`) and the like. A modern
+  English version of an English line of the 17th to 19th century that is
+  given in quotation marks gets the second rendering too.
 - A public-domain English translation, where one exists, is a cross-check
   against our rendering — useful, not required. Its absence is not a
   reason to treat the original as unusable.

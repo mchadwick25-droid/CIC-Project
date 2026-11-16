@@ -1062,7 +1062,12 @@ his, and the statement of each rule is the coordinator's. They are recorded in `
   change the CLAUDE.md"; "keep using fable until the free runs out then we will hold that work until we finish
   1-7 and go back to opus". It is recorded in the Church Family Tree Decision-Log, "Fable writes the era 8 to 10
   renderings while the free refill lasts: an exception, not a rule change". `INTAKE.md` says only "unless Mark
-  has made an exception for the work in hand". The `cic/renderings/` folder is not made until
+  has made an exception for the work in hand".
+- **Older stages of a language count as foreign for R11 (Mark, 2026-11-16: "Treat old forms as foreign
+  (Recommended)").** As the coordinator states it: Old and Middle English (`ang`, `enm`), Middle High German
+  (`gmh`) and other older stages of a language count as foreign for R11 and for the finding guides; and a
+  modern English version of an English line of the 17th to 19th century that carries quotation marks also gets
+  the second rendering. Recorded in `cic/texts/INTAKE.md`. The `cic/renderings/` folder is not made until
   Mark has approved a sample, and the root `README.md` map is updated first when it is.
 
 ### Next action
