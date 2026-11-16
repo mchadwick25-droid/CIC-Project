@@ -9,7 +9,7 @@ assignments:
   role: tradition
   confidence: provisional
   language: eng
-  date: {start: 1780, end: 1780, source: "title page: 'MDCCLXXX'; the preface is signed 11 April 1780 (about OCR line 205)", formation_confidence: Documented}
+  date: {start: 1780, end: 1780, source: "title page: 'MDCCLXXX'; the dedication is signed Hoxton-Square, 11 April 1780 (OCR lines 131-134)", formation_confidence: Documented}
   note: 'The Life is Gibbons''s voice, written in 1780; Watts''s letters appear only as he quotes them.'
 - row_id: gibbons-thomas_memoirs-of-isaac-watts_1780--gibbons-memoirs-of-watts-letters-to-watts
   work: 'Gibbons, Memoirs of the Rev. Isaac Watts: chapter XII, letters to Dr. Watts from his correspondents'

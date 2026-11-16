@@ -30,6 +30,20 @@ works:
   confidence: assigned
   note: The revival-narrative genre in a Pennsylvania pastor's hand.
   source_file: blair-samuel_short-and-faithful-narrative-of-the-revival-at-new-londonderry_1744.txt
+- row_id: davies_sermons-on-important-subjects-v1_campbell1794--bostwick-character-of-davies
+  work: David Bostwick, the character of the author, in Davies's Sermons, vol. I
+  author: bostwick-david
+  locus: the character at OCR lines 2740-2978; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1794
+    end: 1794
+    source: this printing's title page reads 1794; the piece carries no date that was read
+    formation_confidence: Documented
+  note: A short character of Davies by a fellow minister. Not Davies's voice.
+  source_file: davies_sermons-on-important-subjects-v1_campbell1794.txt
 - row_id: brainerd_mirabilia-dei-inter-indicos-journal_bradford1746--mirabilia-dei-inter-indicos-the-rise-and-progress-of-a
   work: 'Mirabilia Dei inter Indicos: the Rise and Progress of a remarkable Work of Grace
     amongst the Indians (Brainerd, 1746)'
@@ -99,8 +113,8 @@ works:
     source: 'title page: 1837; Cooley''s preface is dated December 1836'
     formation_confidence: Documented
   note: The Life of Haynes by the pastor of the First Church in Granville, Massachusetts;
-    Cooley calls him 'a coloured man' (OCR line 822). Most of Haynes's ministry falls after
-    this entry's window; the census names him under it.
+    Cooley calls him 'a coloured man' (OCR line 822). Haynes's Rutland sermon is of 1805 and
+    the Life of 1837.
   source_file: cooley_sketches-of-the-life-and-character-of-lemuel-haynes_1837.txt
 - row_id: davies_sermons-on-important-subjects-v1_campbell1794--davies-sermons-v1-sermons-1-24
   work: 'Davies, Sermons on Important Subjects, vol. I: sermons I-XXIV (Philadelphia, 1794)'
@@ -115,27 +129,7 @@ works:
     source: this printing's title page reads 1794; the funeral discourses in it are dated
       1761
     formation_confidence: Documented
-  note: Davies in his own sermons. Provisional because the census leaves open whether Virginia
-    belongs to this entry.
-  source_file: davies_sermons-on-important-subjects-v1_campbell1794.txt
-- row_id: davies_sermons-on-important-subjects-v1_campbell1794--davies-sermons-v1-memoirs-by-finley-gibbons-bostwick
-  work: 'Finley, Gibbons and Bostwick on Samuel Davies: funeral sermons, memoir and character
-    (1761-1765), in Davies''s Sermons, vol. I'
-  author: davies
-  locus: Gibbons's preface at OCR lines 354-568; Finley's sermon at 641-1469 and the appendix
-    from 1476; Gibbons's discourses from 1698; Bostwick's character from 2740 to 2978; add
-    12 to OCR line numbers
-  role: context
-  confidence: provisional
-  language: eng
-  date:
-    start: 1761
-    end: 1765
-    source: Gibbons's discourses are dated 29 March 1761 (OCR lines 1710-1716) and his preface
-      14 November 1765 (line 568)
-    formation_confidence: Documented
-  note: What Finley, Gibbons and Bostwick said of him in the years after his death. Not Davies's
-    voice.
+  note: Davies in his own sermons, preached in Virginia.
   source_file: davies_sermons-on-important-subjects-v1_campbell1794.txt
 - row_id: davies_sermons-on-important-subjects-v3_allen1792--sermons-on-important-subjects-vol-iii-davies-1792
   work: Sermons on Important Subjects, vol. III (Davies, 1792)
@@ -243,20 +237,54 @@ works:
   confidence: provisional
   note: The awakening's theological heirs answering its old opponent; out of window, so context.
   source_file: edwards-jonathan-jr_salvation-of-all-men-strictly-examined_1790.txt
+- row_id: davies_sermons-on-important-subjects-v1_campbell1794--finley-on-davies-funeral-sermon
+  work: Samuel Finley, sermon on the death of Samuel Davies, with an appendix on his life,
+    in Davies's Sermons, vol. I
+  author: finley-samuel
+  locus: the sermon at OCR lines 641-1469, its title page at 570-612; the appendix at 1476-1697;
+    add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1761
+    end: 1794
+    source: a sermon on Davies's death; Gibbons's discourses on the same death are dated 1761.
+      This printing's title page reads 1794
+    formation_confidence: Documented
+  note: The funeral sermon on Romans xiv. 7, 8, and a short memoir. Not Davies's voice.
+  source_file: davies_sermons-on-important-subjects-v1_campbell1794.txt
+- row_id: davies_sermons-on-important-subjects-v1_campbell1794--gibbons-on-davies-preface-and-discourses
+  work: 'Thomas Gibbons on Samuel Davies: the preface to the first edition (1765) and two
+    discourses on his death (1761), in Davies''s Sermons, vol. I'
+  author: gibbons-thomas
+  locus: the preface at OCR lines 354-568; the two discourses at 1698-2739; add 12 to OCR
+    line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1761
+    end: 1765
+    source: the discourses are dated 29 March 1761 (OCR lines 1710-1716) and the preface 14
+      November 1765 (line 568)
+    formation_confidence: Documented
+  note: Davies's London editor on his life and death, quoting his letters. Not Davies's voice.
+  source_file: davies_sermons-on-important-subjects-v1_campbell1794.txt
 - row_id: cooley_sketches-of-the-life-and-character-of-lemuel-haynes_1837--haynes-sermons-and-letters-in-cooley
   work: Lemuel Haynes, sermons and letters as printed in Cooley's Sketches (1837)
   author: haynes-lemuel
-  locus: letters at OCR lines 3284-3539; the Rutland sermon on Genesis iii. 4 at 4132-4465;
-    the letter to Hosea Ballou at 4470-5315; the appendix of sermons at 14854-16044; add 12
-    to OCR line numbers
+  locus: letters at OCR lines 3284-3539; the Rutland sermon on Genesis iii. 4, with its preface,
+    at 4100-4465; the letter to Hosea Ballou at 4470-5315; the appendix of sermons at 14854-16044;
+    add 12 to OCR line numbers
   role: tradition
   confidence: provisional
   language: eng
   date:
     start: 1805
     end: 1837
-    source: the Rutland sermon is headed 30 December 1805 (about OCR line 4132); printed in
-      1837
+    source: the sermon was delivered at Rutland in June 1805 (OCR lines 4109-4110) and its
+      preface is dated 30 December 1805 (line 4129); printed in 1837
     formation_confidence: Documented
   note: 'Haynes in his own words: the sermon that answered Ballou, his letters, and sermons
     his son added. Printed by Cooley and by W. B. Haynes; the texts were not compared with
@@ -330,8 +358,9 @@ works:
     source: 'Love''s footnote: ''Wheelock Papers, Dartmouth College, MS., Sept. 17, 1768''
       (OCR line 1338)'
     formation_confidence: Documented
-  note: Occom's own account of his upbringing and conversion, in about twenty-five lines.
-    Love prints only this part; his text was not compared with the manuscript.
+  note: Occom's own account of his upbringing and conversion, in about twelve printed lines;
+    the rest of the range is Love's footnotes and a page head. Love prints only this part;
+    his text was not compared with the manuscript.
   source_file: love-william-deloss_samson-occom-and-the-christian-indians-of-new-england_1899.txt
 - row_id: osborn-sarah_familiar-letters-with-susanna-anthony_1807--familiar-letters-of-sarah-osborn-1807
   work: Familiar Letters of Sarah Osborn (1807)

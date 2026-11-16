@@ -951,8 +951,11 @@ Mark has seen a proposal and a sample.
   the Syriac Orthodox between 1650 and 1906); Charmot's Vindiciae on `chinese-catholicism-1650-1906` (it
   follows the main volume's row for Charmot); Quesnel's Réflexions as the condemned text on
   `catholic-church-ancien-regime`.
-- **A correction.** Parry's title page prints 1895. The OCR reads "1896.", and the batch's first notes took that
-  for the title page.
+- **Two corrections of year, both made on the page image.** Parry's title page prints 1895; the OCR reads
+  "1896.". Campbell's Centennial reprint is of 1908, printed on the leaf after a title page that has no year;
+  the OCR reads "1906". The first notes followed the OCR in both. The review caught the second.
+- **A first-hand piece by another hand has its writer's slug**, with an `authors_ruled` entry in the staging
+  file (Finley, Gibbons and Bostwick on Davies; Russell's essay on Doddridge).
 - Host bytes are kept whole. Nothing was stripped at intake, so line numbers in headers and shelf rows are the
   host's, with 12 added for the file's own.
 

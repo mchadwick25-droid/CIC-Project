@@ -6,7 +6,7 @@ Rights: Public Domain (pd-us-by-date: published 1758); the archive.org record ca
 Language: fra
 Source: archive.org item laviededomarmand02mars, full text from the item's own djvu.txt (laviededomarmand02mars_djvu.txt). Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (816,956) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1758, out of US copyright by date. OCR quality: clean French with the long s read as f, double-spaced words and running heads in the text. Word count of the host text: 126,574. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Books IV-VI and Rancé's Pensées. Title page at OCR lines 13-45. Table at 61-384. Approbation, Paris, 27 May 1758, at 388; privilege, 11 August 1758, at 401-517. Book IV at 518-7265; Book V at 7273-12451; Book VI at 12460-17855, where the Life ends ('Fin'). Then an avertissement at 17860 and 'Pensées de l'abbé de la Trappe sur divers sujets de piété, tirées de ses lettres spirituelles' at 17913-20952.
+Content note: Books IV-VI and Rancé's Pensées. Title page at OCR lines 13-45. Table at 61-384. Approbation, Paris, 27 May 1758, at 388; privilege, given at Versailles on 21 July 1758, with its registrations, at 401-517. Book IV at 518-7265; Book V at 7273-12451; Book VI at 12460-17855, where the Life ends ('Fin'). Then an avertissement at 17860 and 'Pensées de l'abbé de la Trappe sur divers sujets de piété, tirées de ses lettres spirituelles' at 17913-20952.
 
 ______________________________________________________________________
 

@@ -21,7 +21,7 @@ assignments:
   confidence: needs-ruling
   language: fra
   date: {start: 1693, end: 1693, source: "title page: 'M. DC. XCIII.'", formation_confidence: Documented}
-  note: 'The bull Unigenitus (1713) drew 101 propositions from this work. Which edition the bull''s wording follows was not checked against this volume.'
+  note: 'The bull Unigenitus (1713) condemned 101 propositions from the Réflexions morales as a whole. Which of them fall in Matthew and Mark, and in which edition, was not checked.'
 authors_ruled:
   quesnel:
     kind: metadata-omission

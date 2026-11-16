@@ -594,6 +594,11 @@ authors:
 
       '
     from_file: cambridge-synod_cambridge-platform-1648-and-confession-1680_1850.txt
+  bostwick-david:
+    kind: metadata-omission
+    evidence: The character of the author is headed as by Bostwick (file lines 2750-2754);
+      the title page does not name him.
+    from_file: davies_sermons-on-important-subjects-v1_campbell1794.txt
   boyer:
     kind: metadata-omission
     evidence: 'The volume''s own preface to its Part III (file lines 17058-17083) says the
@@ -757,7 +762,7 @@ authors:
     evidence: The Centennial title page (file lines 16-26) names Thomas Campbell. The 1809
       title page reprinted inside (file lines 137-164) names the Christian Association of
       Washington and no author.
-    from_file: campbell-thomas_declaration-and-address-centennial-edition_1906.txt
+    from_file: campbell-thomas_declaration-and-address-centennial-edition_1908.txt
   cananus:
     kind: metadata-omission
     evidence: 'The title page names ''Ioannes Cananus'' among the chroniclers in this volume;
@@ -1511,6 +1516,12 @@ authors:
       Afanasii Filippovich, 1646; running heads read 'Diarush Afanasiia Filippovicha, 1646
       goda' (from about file line 4693). The author is supplied from the contents list.
     from_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878.txt
+  finley-samuel:
+    kind: metadata-omission
+    evidence: The title page names 'the Rev. Drs. Gibbons and Finley' as preachers of the
+      two sermons on Davies's death (file lines 59-71); Finley's sermon has its own title
+      page at file lines 582-624.
+    from_file: davies_sermons-on-important-subjects-v1_campbell1794.txt
   fioretti:
     kind: anonymous
     evidence: The Fioretti di San Francesco is an anonymous Italian work from the Latin Actus
@@ -1656,6 +1667,11 @@ authors:
 
       '
     from_file: collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35.txt
+  gibbons-thomas:
+    kind: metadata-omission
+    evidence: The preface to the first edition is signed 'Thomas Gibbons' (file line 580)
+      and the two discourses are his by the title page (file lines 59-71).
+    from_file: davies_sermons-on-important-subjects-v1_campbell1794.txt
   gildas:
     kind: metadata-omission
     evidence: 'The host record names Gildas, 516?-570?, and the editor Hugh Williams; the
@@ -3229,6 +3245,11 @@ authors:
     kind: metadata-omission
     evidence: div2 10.8 'Rhodon' names the author.
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  russell-david:
+    kind: metadata-omission
+    evidence: The title page reads 'with an introductory essay, by the Rev. David Russell,
+      Dundee' (file lines 47-86), and the essay is signed 'David Russell' (file line 970).
+    from_file: orton_memoirs-of-philip-doddridge_russell1825.txt
   samuel-of-ani:
     kind: metadata-omission
     evidence: 'The volume prints the Tables chronologiques of Samuel of Ani in Brosset''s

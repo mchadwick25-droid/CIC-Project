@@ -1,7 +1,7 @@
 source_file: mcgready_posthumous-works_smith1837.txt
 assignments:
 - row_id: mcgready_posthumous-works_smith1837--mcgready-narrative-of-the-revival-1801
-  work: 'McGready, A Short Narrative of the Revival of Religion in Logan County (letter of 23 October 1801)'
+  work: 'McGready, Narrative of the Commencement and Progress of the Revival of 1800 (letter of 23 October 1801)'
   author: mcgready
   locus: 'the Narrative at OCR lines 222-488; add 12 to OCR line numbers'
   atlas_ids:

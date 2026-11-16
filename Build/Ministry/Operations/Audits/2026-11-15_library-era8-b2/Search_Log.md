@@ -74,9 +74,10 @@ thread then read the title pages. Where the OCR garbles the year or the volume, 
 | Love, Samson Occom | n8, n9 | no year on the title page; "Copyright, 1899" on its verso | the same |
 | Taft, vol. I | n6 | "1825." | the same |
 | Parry | n9 | "1895." | "1896." |
+| Campbell, Declaration and Address | n2, n3 | no year on the title page; "1908" with the printer's name on the next leaf | "1906" |
 | Code noir (not taken) | n4 | "A Paris, chez les Libraires associez. M. DCC. XLIII." | "M. DGC. XL III." |
 
-The spec that wrote the headers (`mkspec2.py`) checks 138 line anchors against the host text before it writes
+The spec that wrote the headers (`mkspec2.py`) checks about 140 line anchors against the host text before it writes
 anything: each cited title-page year, heading and wanted passage must stand at the cited line. Six anchors
 first failed on OCR garbles of the right word and were confirmed by reading the lines.
 
@@ -85,8 +86,11 @@ first failed on OCR garbles of the right word and were confirmed by reading the 
 - **Parry is 1895, not 1896.** The mapper and the batch handover took the OCR's "1896." for the title page. The
   page image prints 1895, which is also the host's date. The file is named for 1895 and its header says what
   the OCR reads.
-- Campbell's Declaration and Address: the Centennial title page prints 1906; "1908" stands only in the
-  unsigned introduction. The reprinted title page of 1809 is garbled in the OCR ("I8OQ.").
+- **Campbell's Declaration and Address is 1908, not 1906.** The title page (leaf n2) prints no year. The leaf
+  after it (n3) prints "1908, Record Publishing Company, Coraopolis Pa."; the OCR misreads the year as "1906",
+  and the mapper, the batch handover and this thread's first header all followed the OCR. The round 1 review
+  caught it on the page image. The host's date of 1908 was right. The reprinted title page of 1809 is garbled
+  in the OCR ("I8OQ.").
 - Wilberforce: the title page prints "Vol. I."; the identifier's "04" is not the volume.
 - Hannah More, vol. I: third edition, MDCCCXXXV, not the host's 1834.
 - Raikes: the matter at host lines 2273-2374 is newspaper extracts of 1784, not a letter. His letters are to
@@ -94,6 +98,12 @@ first failed on OCR garbles of the right word and were confirmed by reading the 
 - Fontaine: Cologne, 1738, on both title pages; the host says Utrecht, 1739.
 - A "Digitized by" line that a one-space search misses stands in Orton, Cooley and the Campbell reprint; each
   header names it. Every file was searched again with any run of spaces between the words.
+
+## The review
+
+One independent review by Opus (`R1_review.md`): 25 findings in 20 files, one blocking (Campbell's year), seven
+substantial, seventeen minor, none on rights. All 25 were corrected in the spec and the 37 files were vendored
+again from it (`R1_changes.md`). A targeted recheck followed (`R2_recheck.md`).
 
 ## Three judgement calls
 
@@ -141,7 +151,7 @@ Journals, Fletcher's Checks, the Arminian Magazine).
 
 ## Cautions for profile writers
 
-- **Extracts, not wholes.** Occom's narrative of 1768 is held only in the short opening Love prints (28 lines of the scan). Nathan
+- **Extracts, not wholes.** Occom's narrative of 1768 is held only in the short opening Love prints (about twelve printed lines). Nathan
   Cole is held only in the extract Walker prints. Raikes's letters are held only as Gregory prints them.
 - **Lives with letters inside.** Roberts on Hannah More, the Wilberforce sons, Taft, Cooley on Haynes, Orton on
   Doddridge and Gibbons on Watts all quote their subject's letters and journals inside a later writer's frame.
@@ -152,7 +162,7 @@ Journals, Fletcher's Checks, the Arminian Magazine).
 - **Attributions that are not on the title page.** Dutton ("By A. D."), Judith Sargent Murray ("By Constantia"),
   Quesnel (no name), the Life of Bray (unsigned; Todd reports it as Samuel Smith's), the Continuatio (no name;
   the pieces are headed as Charmot's). Each header says where the name comes from.
-- **Reprints.** Campbell's Declaration and Address is read in the reprint of 1906, which claims to follow the
+- **Reprints.** Campbell's Declaration and Address is read in the reprint of 1908, which claims to follow the
   1809 print letter for letter; the claim was not tested. Orton is read in the Edinburgh reprint of 1825.
   Marsollier is the "nouvelle édition" of 1758.
 - **Poor OCR.** The Gleaner, vol. 2; Vieira's three volumes (two columns run together); the title pages and

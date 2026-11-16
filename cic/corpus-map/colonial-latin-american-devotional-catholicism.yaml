@@ -372,9 +372,8 @@ works:
     end: 1699
     source: 'title page: 1699; the sermon headings give the years they were preached'
     formation_confidence: Documented
-  note: The Jesuit preacher's sermons in the Lisbon edition printed in his lifetime; the Society's
-    licences in the front matter are dated from Bahia. A printed text may differ from what
-    was preached.
+  note: The Jesuit preacher's sermons in the first Lisbon edition; the Society's licence in
+    the front matter is dated from Bahia. A printed text may differ from what was preached.
   source_file: vieira_sermoens-parte12-por_1699.txt
 - row_id: vieira_sermoens-parte5-por_1689--vieira-sermoens-parte-5
   work: Vieira, Sermoens, quinta parte (Lisbon, 1689)
@@ -388,9 +387,8 @@ works:
     end: 1689
     source: 'title page: 1689; the sermon headings give the years they were preached'
     formation_confidence: Documented
-  note: The Jesuit preacher's sermons in the Lisbon edition printed in his lifetime; the Society's
-    licences in the front matter are dated from Bahia. A printed text may differ from what
-    was preached.
+  note: The Jesuit preacher's sermons in the first Lisbon edition; the Society's licence in
+    the front matter is dated from Bahia. A printed text may differ from what was preached.
   source_file: vieira_sermoens-parte5-por_1689.txt
 - row_id: vieira_sermoens-parte3-por_1683--vieira-sermoens-parte-3
   work: Vieira, Sermoens, terceira parte (Lisbon, 1683)
@@ -404,9 +402,8 @@ works:
     end: 1683
     source: 'title page: 1683; the sermon headings give the years they were preached'
     formation_confidence: Documented
-  note: The Jesuit preacher's sermons in the Lisbon edition printed in his lifetime; the Society's
-    licences in the front matter are dated from Bahia. A printed text may differ from what
-    was preached.
+  note: The Jesuit preacher's sermons in the first Lisbon edition; the Society's licence in
+    the front matter is dated from Bahia. A printed text may differ from what was preached.
   source_file: vieira_sermoens-parte3-por_1683.txt
 - row_id: villagomez_sumario-probanzas-canonizacion-toribio-mogrovejo-spa_lima1662--sumario-y-memorial-ajustado-de-las-probanzas-cause-of
   work: Sumario y memorial ajustado de las probanzas, cause of Toribio de Mogrovejo (Lima,

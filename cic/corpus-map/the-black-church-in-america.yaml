@@ -17,8 +17,8 @@ works:
     source: 'title page: 1837; Cooley''s preface is dated December 1836'
     formation_confidence: Documented
   note: The Life of Haynes by the pastor of the First Church in Granville, Massachusetts;
-    Cooley calls him 'a coloured man' (OCR line 822). Most of Haynes's ministry falls after
-    this entry's window; the census names him under it.
+    Cooley calls him 'a coloured man' (OCR line 822). Haynes's Rutland sermon is of 1805 and
+    the Life of 1837.
   source_file: cooley_sketches-of-the-life-and-character-of-lemuel-haynes_1837.txt
 - row_id: elaw_memoirs-of-mrs-zilpha-elaw_1846--memoirs-of-the-life-religious-experience-ministerial-travels
   work: Memoirs of the Life, Religious Experience, Ministerial Travels and Labours of Mrs.
@@ -62,17 +62,17 @@ works:
 - row_id: cooley_sketches-of-the-life-and-character-of-lemuel-haynes_1837--haynes-sermons-and-letters-in-cooley
   work: Lemuel Haynes, sermons and letters as printed in Cooley's Sketches (1837)
   author: haynes-lemuel
-  locus: letters at OCR lines 3284-3539; the Rutland sermon on Genesis iii. 4 at 4132-4465;
-    the letter to Hosea Ballou at 4470-5315; the appendix of sermons at 14854-16044; add 12
-    to OCR line numbers
+  locus: letters at OCR lines 3284-3539; the Rutland sermon on Genesis iii. 4, with its preface,
+    at 4100-4465; the letter to Hosea Ballou at 4470-5315; the appendix of sermons at 14854-16044;
+    add 12 to OCR line numbers
   role: tradition
   confidence: provisional
   language: eng
   date:
     start: 1805
     end: 1837
-    source: the Rutland sermon is headed 30 December 1805 (about OCR line 4132); printed in
-      1837
+    source: the sermon was delivered at Rutland in June 1805 (OCR lines 4109-4110) and its
+      preface is dated 30 December 1805 (line 4129); printed in 1837
     formation_confidence: Documented
   note: 'Haynes in his own words: the sermon that answered Ballou, his letters, and sermons
     his son added. Printed by Cooley and by W. B. Haynes; the texts were not compared with

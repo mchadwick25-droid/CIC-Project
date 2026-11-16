@@ -9,7 +9,7 @@ assignments:
   role: tradition
   confidence: provisional
   language: ita
-  date: {start: 1756, end: 1758, source: "this edition's title page reads 1758 and calls itself the Naples edition; the funeral oration it prints is for 23 January 1751", formation_confidence: Documented}
+  date: {start: 1758, end: 1758, source: "this edition's title page reads 1758 and calls itself the Naples edition; the funeral oration it prints is for 23 January 1751", formation_confidence: Documented}
   note: 'Muratori''s nephew writes the Life soon after his death. A family voice from inside the Italian church of the day.'
 - row_id: soli-muratori_vita-del-proposto-lodovico-antonio-muratori-ita_napoli1758--soli-muratori-vita-appendix-of-letters
   work: 'Soli Muratori, Vita del proposto Lodovico Antonio Muratori (Naples, 1758): the appendices of documents and letters'

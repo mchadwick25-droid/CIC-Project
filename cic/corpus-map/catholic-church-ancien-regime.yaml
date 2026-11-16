@@ -308,8 +308,8 @@ works:
     end: 1693
     source: 'title page: ''M. DC. XCIII.'''
     formation_confidence: Documented
-  note: The bull Unigenitus (1713) drew 101 propositions from this work. Which edition the
-    bull's wording follows was not checked against this volume.
+  note: The bull Unigenitus (1713) condemned 101 propositions from the Réflexions morales
+    as a whole. Which of them fall in Matthew and Mark, and in which edition, was not checked.
   source_file: quesnel_nouveau-testament-avec-des-reflexions-morales-t1-fra_1693.txt
 - row_id: rance_de-la-saintete-et-des-devoirs-de-la-vie-monastique-t1-fra_1683--de-la-saintete-et-des-devoirs-de-la-vie-monastique-tome-1-1683
   work: De la saintete et des devoirs de la vie monastique, tome 1 (1683)
@@ -370,7 +370,7 @@ works:
   confidence: provisional
   language: ita
   date:
-    start: 1756
+    start: 1758
     end: 1758
     source: this edition's title page reads 1758 and calls itself the Naples edition; the
       funeral oration it prints is for 23 January 1751

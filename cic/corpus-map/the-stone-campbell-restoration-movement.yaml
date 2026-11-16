@@ -42,9 +42,9 @@ works:
     formation_confidence: Documented
   note: 'Era 9 row 164, Alexander Campbell: one volume of the Christian Baptist.'
   source_file: campbell_christian-baptist-v5_bethany1828.txt
-- row_id: campbell-thomas_declaration-and-address-centennial-edition_1906--campbell-thomas-declaration-and-address-1809
+- row_id: campbell-thomas_declaration-and-address-centennial-edition_1908--campbell-thomas-declaration-and-address-1809
   work: Thomas Campbell, Declaration and Address of the Christian Association of Washington
-    (1809; Centennial reprint, 1906)
+    (1809; Centennial reprint, 1908)
   author: campbell-thomas
   locus: the Declaration at OCR lines 174-312; the Address at 313-1276; the Appendix at 1277-2955;
     the Postscript from 2956; add 12 to OCR line numbers
@@ -59,8 +59,9 @@ works:
     formation_confidence: Documented
   note: The founding paper of the Campbell movement, read in a reprint that claims to follow
     the first print letter for letter. The claim was not tested against a copy of 1809. The
-    introduction and the two Centennial pieces at the end are of 1906 and are not Campbell's.
-  source_file: campbell-thomas_declaration-and-address-centennial-edition_1906.txt
+    introduction and the two Centennial pieces at the end belong to the reprint and are not
+    Campbell's.
+  source_file: campbell-thomas_declaration-and-address-centennial-edition_1908.txt
 - row_id: mcnemar_kentucky-revival-with-the-entrance-of-shakerism_1808--the-kentucky-revival-1808-3
   work: The Kentucky Revival (1808)
   author: mcnemar
