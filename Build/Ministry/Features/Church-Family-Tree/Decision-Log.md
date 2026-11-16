@@ -4128,3 +4128,14 @@ The report is in the coordinator's scratchpad, and the summary is on the coordin
 - The Shape line becomes: "Then what came of it, about a third of the story. It must tell what they left the church and what they defended, then how far it reached. Weight is what later witnesses carried on and used, not what is easiest to tell."
 - The researcher's line takes two changes. It now builds the sheet "with headings in the record's own words", and gives "the impact as the record gives it, ranked heaviest first, with what they defended marked and a quote that can carry it".
 - The researcher re-ranks Polycarp's impact section to that line. A second fresh writer then tests the page cold, with its review in the same fresh cycle (`Cold2_R1_review.md`, round 2 of the cycle the System Hub Decision Log opened on 2026-11-16).
+
+## 2026-11-16 — The tradition, in words a narrator can say aloud (Mark, 2026-11-16)
+
+**Why.** The second cold write (`Cold2_R1_review.md`) showed that both replaced impact lines worked cold. One line still failed cold, as it had in the first cold write: the tradition. Its census name, "Post-Apostolic Household-Church Christianity", cannot be said aloud. Each writer invented a gloss, and both misled. "The church that came after the apostles" and "the church in the time after the apostles" both sound, to a listener, as if they contradict "taught by apostles" in the next sentence.
+
+**Decided (Mark, 2026-11-16): "yes, make both lines and run the revision".**
+- The writer's Shape line: "set the context: the century or the year, the place, and the tradition in the plain words the sheet gives for saying it aloud".
+- The researcher's line: the sheet gives "the setting, with plain spoken words for the century and the tradition and the lines that support them".
+- The researcher writes Polycarp's spoken form from the census entry's own description. The census name stays on the card.
+- The second cold writer makes one targeted revision under the same fresh cycle: the fire fix, the Easter reason, the four small cuts and the spoken tradition. A recheck follows (`Cold2_R2_recheck.md`).
+- A spoken name for every tradition in the census is a tree-wide question, so it is logged as an open gap for Mark to take up (Open-Gaps, "Spoken names for census traditions", 2026-11-16).
