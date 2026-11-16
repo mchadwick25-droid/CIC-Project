@@ -129,12 +129,12 @@
   "quotationOriginals": [
     {
       "modern": "The Jews were constantly causing disturbances at the instigation of Chrestus, and he expelled them from Rome.",
-      "printed": "Since the Jews constantly made disturbances at the instigation of Chrestus, he expelled them from Rome.",
+      "printed": "Since the Jews constantly made disturbances at the instigation of Chrestus,* he expelled them from Rome.",
       "work": "Suetonius, Life of Claudius 25.4, tr. John C. Rolfe",
       "file": "cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt",
       "lines": "25907-25909",
       "secondReading": "minor",
-      "uncertain": "The modern English follows Suetonius's Latin (\"Iudaeos impulsore Chresto assidue tumultuantis Roma expulit\", lines 25843-25844), which has no word for \"since\". The Latin can mean that Claudius expelled all the Jews, or only those who kept rioting. Whether \"Chrestus\" means Christ is disputed."
+      "uncertain": "The asterisk is the scan's mark for Rolfe's note. The modern English follows Suetonius's Latin (\"Iudaeos impulsore Chresto assidue tumultuantis Roma expulit\", lines 25843-25844), which has no word for \"since\". The Latin can mean that Claudius expelled all the Jews, or only those who kept rioting. Whether \"Chrestus\" means Christ is disputed."
     },
     {
       "modern": "The Christians were punished, a group of people given to a new and harmful superstition.",

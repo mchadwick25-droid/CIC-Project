@@ -5,30 +5,31 @@
     "Plinius Secundus"
   ],
   "label": "Outside witness",
-  "knownFor": "A Roman governor whose letter to the emperor Trajan tells how he tried Christians in Bithynia and what they told him of their worship.",
-  "dates": "Governor of Bithynia from 110 or 111; wrote to Trajan probably within a year",
-  "place": "Bithynia",
+  "knownFor": "A Roman governor of Bithynia whose letter to the emperor Trajan, around 112, tells how he tried people accused of being Christians, what former Christians told him of their worship, and how Trajan ruled that Christians were not to be sought out.",
+  "dates": "Governor of Bithynia around 112; Arthur McGiffert puts the start of his governorship in 110 or 111 and the letter probably within a year, and Adolf Harnack dates the letter about 111 to 113",
+  "place": "Bithynia, in the north of Asia Minor",
   "tradition": "Outside the church",
   "role": "Roman governor",
-  "briefLength": "about 1 minute 55 seconds",
+  "briefLength": "about 2 minutes",
   "keyWorks": [
     {
       "title": "Letters, Book 10, letter 96, with Trajan's reply",
-      "about": "his trials of Christians, their worship before dawn, and Trajan's ruling that they were not to be sought out"
+      "about": "his trials of Christians; those who denied it released after praying to the gods and cursing Christ; the worship before dawn and the oath; two slave women called deaconesses questioned under torture; his main reason for writing, the number of the accused, many of every age and rank and of both sexes, with the faith spread through the cities, the villages and the countryside, and the temples now filling again; and Trajan's ruling that Christians were not to be sought out but punished if accused and convicted"
     }
   ],
   "legacy": {
     "remembered": [
-      "Tertullian of Carthage, defending the Christians, attacked Trajan's reply to him: \"It forbids them to be sought after as innocent, and it commands them to be punished as guilty.\"",
-      "Eusebius of Caesarea, working from Tertullian, calls him \"one of the most noted of governors\" and says the persecution \"was to a certain degree checked\" after Trajan's reply.",
-      "John Rolfe, who translated Suetonius, says Suetonius's life is known largely from Pliny's letters, and that Pliny got him a military post."
+      "Tertullian of Carthage, defending the Christians, argued from Pliny's report that the inquiry had found no crime in their worship, and attacked Trajan's ruling: \"It forbids them to be sought out, as innocent, and it orders them to be punished, as guilty.\"",
+      "Eusebius of Caesarea, taking his account from Tertullian, calls him one of the most noted of governors, and says Trajan's ruling partly checked the persecution, though local persecutions went on and many still died as martyrs."
     ]
   },
   "uncertain": [
-    "Pliny writes as the official who held the trials. What he reports of the Christians' worship, he says, came from those who had left the faith.",
-    "The Library holds no edition of Pliny. The full English of the letter and of Trajan's reply is in Arthur McGiffert's note to Eusebius. Tertullian and Eusebius give only a short summary, without the deaconesses, the torture or the temples.",
-    "McGiffert dates his governorship to 110 or 111. Adolf Harnack dates the letter about 111 to 113.",
-    "No held primary source gives the years of his birth or death."
+    "His own account. Pliny writes as the judge who had already sent Christians to punishment, and what he reports of their worship, he says, came from those who had left the faith.",
+    "The letter's text. The Library holds no edition of Pliny. The full English of the letter and of Trajan's reply is in Arthur McGiffert's note to Eusebius. That the letter was written from Bithynia, and its year, rest here on McGiffert's note and on Adolf Harnack, not on an ancient text; Tertullian says only \"a province\". McGiffert also calls Pliny a man of great literary attainments and an intimate friend of Trajan.",
+    "Tertullian's summary differs from the letter. He says Pliny condemned some Christians to death and that their pledge forbade murder; the letter as held says he sent them to punishment, and its oath names theft, robbery and adultery. Tertullian and Eusebius leave out the deaconesses, the torture and the temples.",
+    "The song. Pliny's Latin, as quoted in later works, says the Christians sang to Christ \"as to a god\". The familiar English \"as God\" reads more into a pagan's report than his words say.",
+    "The superstition. Pliny's word means a twisted or wrong-headed belief, not moral corruption. He had just reported finding no crimes.",
+    "No held ancient source gives the years of his birth or death."
   ],
   "sources": {
     "ownWords": [
@@ -40,7 +41,7 @@
     ],
     "about": [
       {
-        "title": "Apology, chapter 2",
+        "title": "Apology, chapter 2 (tr. S. Thelwall)",
         "author": "Tertullian of Carthage",
         "date": null,
         "language": "English translation",
@@ -54,19 +55,56 @@
         "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
       },
       {
-        "title": "The Life and Works of Suetonius (introduction)",
-        "author": "John C. Rolfe",
-        "date": null,
-        "language": "English",
-        "file": "cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt"
-      },
-      {
         "title": "Die Mission und Ausbreitung des Christentums, volume 2",
         "author": "Adolf Harnack",
-        "date": null,
+        "date": "1906",
         "language": "German",
         "file": "cic/texts/harnack_mission-und-ausbreitung-des-christentums-band2-deu_2e-aufl1906.txt"
       }
     ]
-  }
+  },
+  "briefReferences": [
+    "Arthur McGiffert, note to Eusebius, Church History III.33.1: the letter written from Bithynia, in 110 or 111 or within a year; around 112.",
+    "Pliny, Letters X.96, tr. McGiffert in that note: addressed to Trajan; never present at trials of Christians; those brought before him asked if they were Christians, asked a second and third time under threat of punishment if they confessed, and led away to punishment if they persisted; those who denied released after invoking the gods and cursing Christ; others who had ceased to be Christians years before; the meeting before daylight and the song; the oath against theft, robbery and adultery; two female slaves called deaconesses examined under torture; nothing found but a superstition; their faith called insanity; his request for advice.",
+    "Trajan, Letters X.97, tr. McGiffert in that note: \"They are not to be searched for; if they are accused and convicted, they are to be punished\".",
+    "Tertullian, Apology 2, tr. S. Thelwall: Pliny's report used to show that inquiry found no crime in their worship; the ruling that forbids them to be sought as innocent and orders them punished as guilty.",
+    "Eusebius, Church History III.33.2-3, tr. McGiffert: the ruling checked the persecution to a degree, local persecutions and many martyrdoms went on; the account taken from Tertullian's Apology.",
+    "World census, Outside the church: his tradition."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "to come together on a fixed day before daylight and to sing a song to Christ as to a god, answering one another.",
+      "printed": "to come together on a fixed day before daylight and to sing responsively a song unto Christ as God",
+      "work": "Pliny, Letters X.96, tr. Arthur McGiffert, in his note to Eusebius, Church History III.33",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": "19493-19494",
+      "secondReading": "changes meaning",
+      "uncertain": "Pliny's Latin, held only as a later quotation (Spener, Pia Desideria: \"carmenque Christo, quasi Deo, dicere secum invicem\"), says \"as to a god\". The printed \"as God\" puts a Christian confession in a pagan governor's mouth. Both readings kept."
+    },
+    {
+      "modern": "nothing except a perverse and excessive superstition.",
+      "printed": "nothing except a superstition depraved and immoderate",
+      "work": "Pliny, Letters X.96, tr. Arthur McGiffert, in his note to Eusebius, Church History III.33",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": "19505-19506",
+      "secondReading": "minor",
+      "uncertain": "Pliny's \"pravam\" (held as a later quotation, \"superstitionem pravam, immodicam\") means crooked or perverse; the printed \"depraved\" now suggests moral corruption, which Pliny says he did not find."
+    },
+    {
+      "modern": "are not to be searched for; if they are accused and convicted, they are to be punished.",
+      "printed": "are not to be searched for; if they are accused and convicted, they are to be punished",
+      "work": "Trajan, Letters X.97, tr. Arthur McGiffert, in his note to Eusebius, Church History III.33",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": "19526-19527",
+      "secondReading": "minor"
+    },
+    {
+      "modern": "It forbids them to be sought out, as innocent, and it orders them to be punished, as guilty.",
+      "printed": "It forbids them to be sought after as innocent, and it commands them to be punished as guilty.",
+      "work": "Tertullian, Apology 2, tr. S. Thelwall",
+      "file": "cic/texts/anf03_tertullian.xml",
+      "lines": "1585-1586",
+      "secondReading": "minor"
+    }
+  ]
 }
