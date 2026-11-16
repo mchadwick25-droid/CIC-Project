@@ -4108,3 +4108,14 @@ The score measures only sentence length and syllables, so it cannot tell a punch
 **Why.** Round 5 returned REVISE. Its legacy part had about 40% of the words but missed what Polycarp defended, Irenaeus's use of him as a witness to the apostles' teaching, and his church's view of his death. The lightest item took the ending. After five rounds of coaching, each fix had been paid for somewhere else. A standard is proven only when a writer who has never seen the review history can follow it cold.
 
 **Decided (Mark, 2026-11-16): "1, fresh writer cold".** A new writer gets only `Standard_draft.md` and `Writer_Sheet.md`. One Opus review follows, as a fresh cycle (System Hub Decision Log, 2026-11-16, "Cap ruling: Church Family Tree, Polycarp clean write, fresh cold write"). If the cold write fails, its failure shows which line of the page is weak, and that line is replaced.
+
+## 2026-11-16 — Length: about two minutes, up to three or three and a half (Mark, 2026-11-16)
+
+**Why.** Mark asked "is it better to cut to 2:00 for listeners attention or go to 3 to tell the story well". A research pass found no study comparing 2 and 3 minutes for narrated biography, so all the evidence is indirect.
+- NPR One's data (Current, 2016): "Two minutes long works as well as four" for newscasts, with sharp drop-off past 5 minutes.
+- Wistia (2020): engagement loss is low for 1–2 minute videos and much higher for 5–10 minutes.
+- Museum audio guides: vendors advise 60–90 seconds a stop. The older convention was about 3 minutes.
+- Smartify (2025): visitors listening in a language not their own listen for less time overall.
+The report is in the coordinator's scratchpad, and the summary is on the coordinator's page.
+
+**Decided (Mark, 2026-11-16): "lets aim for 2 or so, but up to 3 or 3.5".** The standard's length line becomes: "Aim for about two minutes aloud, person or council, and go up to three or three and a half where the record is rich. Go shorter when the record is thin, and never fill to reach a length." It replaces the 2026-11-15 Who length ("aim under two minutes and stretch to two and a half") and council length ("target 2:00 but can streatch to 3") for briefs written to the one-page standard. `Who_Profile_Pattern.md` and `Council_Profile_Pattern.md` stay as written until calibration ends.
