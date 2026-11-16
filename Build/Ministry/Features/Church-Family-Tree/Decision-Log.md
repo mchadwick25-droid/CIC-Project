@@ -4119,3 +4119,12 @@ The score measures only sentence length and syllables, so it cannot tell a punch
 The report is in the coordinator's scratchpad, and the summary is on the coordinator's page.
 
 **Decided (Mark, 2026-11-16): "lets aim for 2 or so, but up to 3 or 3.5", then "2 is base, 3.5 is max and it is the sources told well that determines it, but 2.5 is the prime target".** The standard's length line becomes: "Aim for about two and a half minutes aloud, person or council. Two minutes is the base and three and a half the most. What the sources hold, told well, decides where in that range a brief lands; never fill to reach a length." It replaces the 2026-11-15 Who length ("aim under two minutes and stretch to two and a half") and council length ("target 2:00 but can streatch to 3") for briefs written to the one-page standard. `Who_Profile_Pattern.md` and `Council_Profile_Pattern.md` stay as written until calibration ends.
+
+## 2026-11-16 — Impact by weight: the writer's Shape line and the researcher's sheet (Mark, 2026-11-16)
+
+**Why.** The fresh cold write (`Cold_R1_review.md`) returned REVISE. Its story part worked cold. Its impact part failed the way round 5 did: about 30% of the words, given to the burial and the Easter peace, while what Polycarp defended, what Irenaeus carried on and his letter's long reading were left out. A fresh writer and a coached writer made the same choice, so the fault is in what they are handed. The page read as a menu ("their impact, what they saw differently, what they defended") and gave no test for weight. The sheet's impact section was 19 equal, unranked lines, and one of its headings paraphrased the record ("his friends" for "the wish of many").
+
+**Decided (Mark, 2026-11-16): "yes, make both changes and test with a fresh writer".**
+- The Shape line becomes: "Then what came of it, about a third of the story. It must tell what they left the church and what they defended, then how far it reached. Weight is what later witnesses carried on and used, not what is easiest to tell."
+- The researcher's line takes two changes. It now builds the sheet "with headings in the record's own words", and gives "the impact as the record gives it, ranked heaviest first, with what they defended marked and a quote that can carry it".
+- The researcher re-ranks Polycarp's impact section to that line. A second fresh writer then tests the page cold, with its review in the same fresh cycle (`Cold2_R1_review.md`, round 2 of the cycle the System Hub Decision Log opened on 2026-11-16).
