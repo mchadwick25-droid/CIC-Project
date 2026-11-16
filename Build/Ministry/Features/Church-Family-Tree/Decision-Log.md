@@ -4139,3 +4139,14 @@ The report is in the coordinator's scratchpad, and the summary is on the coordin
 - The researcher writes Polycarp's spoken form from the census entry's own description. The census name stays on the card.
 - The second cold writer makes one targeted revision under the same fresh cycle: the fire fix, the Easter reason, the four small cuts and the spoken tradition. A recheck follows (`Cold2_R2_recheck.md`).
 - A spoken name for every tradition in the census is a tree-wide question, so it is logged as an open gap for Mark to take up (Open-Gaps, "Spoken names for census traditions", 2026-11-16).
+
+## 2026-11-16 — Polycarp of Smyrna approved to proceed as the benchmark brief (Mark, 2026-11-16)
+
+**Mark's read.** Mark shared a full editorial assessment of the second cold write: "close to publication quality", craft 9, rigor 8.5, accessibility 9. It advised against more rewriting after five revisions, and it would "use this as a benchmark biography when evaluating the next group of biographies". It asked for three corrections. The coordinator checked each against the record.
+1. The sentence "Christians then gathered in households, held together by letters" described early Christianity in general and did not come from Polycarp's own record. It is deleted.
+2. Irenaeus and John: the settled reading of Irenaeus's letter to Florinus has Irenaeus describing what Polycarp "told of" his talks with John. "Remembered how Polycarp spoke of his time with John" already says exactly that, so it is unchanged.
+3. The opening: the governor's words are the settled reading of the Martyrdom, chapter 9. The card gains the note "The scenes and words follow the account the church of Smyrna wrote, told in our modern English."
+
+**Decided (Mark, 2026-11-16): "yes, do all three and start Ignatius".** The approved text is `Build/Ministry/Operations/Audits/2026-11-16_polycarp-clean-write/Polycarp_final.brief.txt`, 509 words, with `Polycarp_final.references.md`. The only change from the passed round 2 is the deleted sentence; every other sentence and its trace is unchanged. The brief is approved to proceed as the benchmark for the calibration six. It is not yet on the live tree. Its card, records and audio go out with era 1's release.
+
+**A note on this example, not a new rule.** For an early figure whose census tradition is a broad era label, the church and the city can carry the tradition ("bishop of the church in Smyrna"). Open-Gaps 311 holds the tree-wide question of spoken tradition names.
