@@ -7,6 +7,7 @@ Mark chose on 2026-11-16 "Revise, then record (Recommended)": the eight early ba
 | `drafts/<id>.refs.md` | For each of the eight, the writer's references: what moved to the card, what the brief draws on (work, edition, part, file and lines), the changes from the earlier bar text, and why it runs to its length. |
 | `renderings/eight/`, `renderings/gregory-benedict/` | The rendering check for every quotation from English printed before 1931: the spans, the printed lines, two independent Opus renderings, and the comparison with its verdict and final reading. |
 | `reviews/` | The independent Opus review, rounds 1 to 3, inside the cap, with its blind pairing. All ten cleared at round 3. |
+| `recording/` | The one sample, Athanasius, recorded for Mark's listen: the clip, its manifest entry, and the run's printed settings and balance check (1,088 credits charged, and the balance moved by 1,088). The other nine wait for his yes. |
 | `quotation-originals.json` | For each of the eight, each quotation's modern rendering, printed wording, file and lines, and verdict. Its home is the card's references, and it goes into the census cards when the eight are released. The Gregory and Benedict lists are already on their cards, as `quotationOriginals`. |
 
 The briefs are in `Build/Ministry/Features/Church-Family-Tree/Who-Profiles/bar/`. The census and the live site are unchanged. The renderings are not yet in `tools/quote_renderings.json`, because the quotation check matches each listing against the live census text; they are added at release.
