@@ -1,335 +1,1227 @@
 {
-  "tacitus": {
-    "claims": [
-      {
-        "claim": "Nero blamed the Christians for the fire of Rome and had them tortured",
-        "witness": "Tacitus, Annals 15.44; retold by Sulpicius Severus, Sacred History II.29",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Christus was executed under Tiberius by the procurator Pontius Pilatus",
-        "witness": "Tacitus, Annals 15.44",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Tacitus wrote after 96",
-        "witness": "Yonge, preface to Ammianus (his history ends at 96)",
-        "formation_confidence": "Widely Accepted"
-      },
-      {
-        "claim": "The victims were Christians, not Jews as a whole",
-        "witness": "Tacitus; McGiffert 1890 for; Gibbon and Schiller against",
-        "formation_confidence": "Contested"
-      }
-    ],
-    "contested_claims": [
-      {
-        "claim": "The victims of 64 were Christians, not Jews as a whole",
-        "sides": "Tacitus and McGiffert (Josephus silent on any attack on the Jews) against Gibbon and Schiller"
-      }
-    ]
-  },
-  "suetonius": {
-    "claims": [
-      {
-        "claim": "Claudius expelled Jews who made disturbances at the instigation of Chrestus",
-        "witness": "Suetonius, Claudius 25.4 (Rolfe; Thomson-Forester)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Nero punished the Christians, \"a new and mischievous superstition\"",
-        "witness": "Suetonius, Nero 16.2",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Secretary to Hadrian, dismissed about 121",
-        "witness": "Rolfe introduction (Spartianus); Thomson-Forester preface",
-        "formation_confidence": "Widely Accepted"
-      },
-      {
-        "claim": "Born about 69 or 77",
-        "witness": "Rolfe: Mommsen 77, Macé 69 (more probable); Thomson-Forester: late in Vespasian's reign",
-        "formation_confidence": "Contested"
-      },
-      {
-        "claim": "Chrestus is Christ",
-        "witness": "Rolfe (probable, a chronological error) and Thomson-Forester notes for; Rolfe allows a Jew of that name",
-        "formation_confidence": "Contested"
-      }
-    ],
-    "contested_claims": [
-      {
-        "claim": "Chrestus in Claudius 25.4 is Christ",
-        "sides": "For: Rolfe (a chronological error, since the Latin lacks quodam) and the Thomson-Forester notes. Against: no vendored witness holds it; Rolfe only allows that a Jew of that name may be meant"
-      }
-    ]
-  },
-  "tatian": {
-    "claims": [
-      {
-        "claim": "Born in the land of the Assyrians; converted by reading the Scriptures",
-        "witness": "Tatian, Address 29, 42",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Hearer of Justin at Rome",
-        "witness": "Irenaeus I.28.1; Tatian, Address 18-19",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Separated from the church after Justin's death, about 172",
-        "witness": "Irenaeus I.28.1; Eusebius, Chronicle (McGiffert)",
-        "formation_confidence": "Widely Accepted"
-      },
-      {
-        "claim": "Taught Aeons, condemned marriage, denied Adam's salvation",
-        "witness": "Irenaeus I.28.1 (opponent); Hippolytus, Refutation VIII, following Irenaeus",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Founder of the Encratites",
-        "witness": "Eusebius and Jerome for; McGiffert, from Irenaeus, against",
-        "formation_confidence": "Contested"
-      },
-      {
-        "claim": "Made the Diatessaron, widely read in the Syriac churches",
-        "witness": "Eusebius IV.29; Hogg, anf09 introduction; Theodoret (McGiffert, Hogg)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Diatessaron first written in Syriac",
-        "witness": "Zahn for, and a growing majority per Hogg; Harnack for Greek, favoured by McGiffert",
-        "formation_confidence": "Contested"
-      },
-      {
-        "claim": "Harnack's outline of his life: twice at Rome, broke about 172",
-        "witness": "McGiffert for Harnack against Zahn; Hogg: left Rome for Mesopotamia",
-        "formation_confidence": "Contested"
-      }
-    ],
-    "contested_claims": [
-      {
-        "claim": "Tatian founded the Encratites",
-        "sides": "Eusebius and Jerome make him founder; McGiffert reads Irenaeus as tracing them to Saturninus and Marcion"
-      },
-      {
-        "claim": "The Diatessaron was first written in Syriac",
-        "sides": "Zahn, followed by Lightfoot, Hilgenfeld and Fuller, and per Hogg a growing majority, for Syriac; Harnack for Greek, whose reasons McGiffert calls very strong"
-      },
-      {
-        "claim": "The outline of his life",
-        "sides": "Harnack (converted about 150, East, back to Rome, broke about 172), whose main positions McGiffert says Harnack's arguments seem fully to establish, against Zahn (once at Rome, became a heretic in the East); Hogg has him leave Rome for Mesopotamia after Justin's death"
-      }
-    ]
-  },
-  "bardaisan-of-edessa": {
-    "claims": [
-      {
-        "claim": "Taught at Edessa; skilled disputant in Syriac; wrote against the Marcionites",
-        "witness": "Eusebius IV.30; Epiphanius, Panarion 56",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "The Book of the Laws of Countries gives his argument, written by a disciple",
-        "witness": "The dialogue itself; McGiffert (after Hort)",
-        "formation_confidence": "Dominant Modern Reconstruction"
-      },
-      {
-        "claim": "First a Valentinian, then left",
-        "witness": "Eusebius IV.30 and McGiffert (with Hort) against Epiphanius 56 and Barhebraeus (first orthodox, then Valentinian)",
-        "formation_confidence": "Contested"
-      },
-      {
-        "claim": "Resisted a companion of the emperor who urged him to deny he was a Christian",
-        "witness": "Epiphanius, Panarion 56 (one witness)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Born about 155, died about 223",
-        "witness": "Chronicle of Edessa and Barhebraeus, via McGiffert",
-        "formation_confidence": "Widely Accepted"
-      },
-      {
-        "claim": "His son Harmonius made Syriac hymns; Ephrem wrote to his metres",
-        "witness": "Sozomen III.16",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Ephrem knew him only through his followers",
-        "witness": "McGiffert",
-        "formation_confidence": "Dominant Modern Reconstruction"
-      }
-    ],
-    "contested_claims": [
-      {
-        "claim": "The order of his life: Valentinian first, or orthodox first",
-        "sides": "Eusebius (Valentinian, then left it), whom McGiffert thinks may well be right, against Epiphanius and Barhebraeus (orthodox, then Valentinian)"
-      }
-    ]
-  },
-  "hippolytus-of-rome": {
-    "claims": [
-      {
-        "claim": "Exiled to Sardinia in 235 with the bishop Pontianus",
-        "witness": "Liberian catalogue in the book of 354; McGiffert (Lipsius: indisputable)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Wrote the Refutation of All Heresies",
-        "witness": "MacMahon (majority of scholars); McGiffert",
-        "formation_confidence": "Dominant Modern Reconstruction"
-      },
-      {
-        "claim": "Callistus was a slave, banker and convict who rose to be bishop",
-        "witness": "Hippolytus, Refutation IX (one hostile witness); McGiffert: groundwork true, greatly overdrawn",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "He was a rival bishop to Callistus",
-        "witness": "McGiffert",
-        "formation_confidence": "Dominant Modern Reconstruction"
-      },
-      {
-        "claim": "Bishop of Portus",
-        "witness": "Tradition; MacMahon for; Döllinger and McGiffert against",
-        "formation_confidence": "Contested"
-      },
-      {
-        "claim": "The 1551 statue is his",
-        "witness": "Coxe; McGiffert (\"has been shown\")",
-        "formation_confidence": "Widely Accepted"
-      },
-      {
-        "claim": "Buried on the Tiburtine Road",
-        "witness": "Depositio martyrum in the book of 354",
-        "formation_confidence": "Documented"
-      }
-    ],
-    "contested_claims": [
-      {
-        "claim": "Hippolytus was bishop of Portus",
-        "sides": "MacMahon, Bunsen, Wordsworth and the later tradition for; Döllinger against Portus but for a bishopric; McGiffert: \"quite worthless\", a presbyter set up as rival bishop"
-      }
-    ]
-  },
-  "novatian": {
-    "claims": [
-      {
-        "claim": "Made rival bishop at Rome in 251 against Cornelius",
-        "witness": "Cornelius in Eusebius VI.43; Cyprian; Dionysius in VI.45",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Exacted an oath at the Eucharist",
-        "witness": "Cornelius in Eusebius VI.43 (one hostile witness)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Hid during the persecution and refused to help",
-        "witness": "Cornelius (enemy); McGiffert: calumny",
-        "formation_confidence": "Contested"
-      },
-      {
-        "claim": "Clinic baptism",
-        "witness": "Cornelius; McGiffert accepts",
-        "formation_confidence": "Widely Accepted"
-      },
-      {
-        "claim": "On the Trinity is orthodox",
-        "witness": "McGiffert; Bull (via Coxe)",
-        "formation_confidence": "Widely Accepted"
-      },
-      {
-        "claim": "Died a martyr under Valerian",
-        "witness": "Socrates IV.28 for; Valesius against",
-        "formation_confidence": "Contested"
-      },
-      {
-        "claim": "Acesius at Nicaea and Constantine's ladder",
-        "witness": "Socrates I.10, from Auxanon, a Novatian presbyter at Nicaea (I.13); retold by Sozomen I.22",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "His church lasted into the sixth century",
-        "witness": "McGiffert",
-        "formation_confidence": "Widely Accepted"
-      }
-    ],
-    "contested_claims": [
-      {
-        "claim": "Novatian died a martyr under Valerian",
-        "sides": "Socrates of Constantinople for; Valesius against (the Novatian martyrdom book called him a confessor)"
-      },
-      {
-        "claim": "Novatian shirked his duty in the persecution",
-        "sides": "Cornelius for; McGiffert against (calumny); Neander: ascetic withdrawal"
-      }
-    ]
-  },
-  "pontius-the-deacon": {
-    "claims": [
-      {
-        "claim": "Pontius, Cyprian's deacon, wrote the Life and Passion of Cyprian",
-        "witness": "Jerome, Lives 68; Hartel: commonly attributed",
-        "formation_confidence": "Widely Accepted"
-      },
-      {
-        "claim": "Shared Cyprian's exile at Curubis",
-        "witness": "The Life, 12; Jerome, Lives 68",
-        "formation_confidence": "Documented"
-      }
-    ],
-    "absent_details": [
-      {
-        "detail": "How and when Pontius died",
-        "note": "Coxe says he is said to have died a martyr, and Richardson gives about 260; neither names a source"
-      }
-    ],
-    "contested_claims": []
-  },
-  "dionysius-of-alexandria": {
-    "claims": [
-      {
-        "claim": "Rescued from soldiers by wedding guests under Decius",
-        "witness": "Dionysius, letter to Germanus, in Eusebius VI.40 (his own defence)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Pupil of Origen, head of the school, bishop from about 247",
-        "witness": "Eusebius VI.29, VI.35; McGiffert",
-        "formation_confidence": "Widely Accepted"
-      },
-      {
-        "claim": "Wrote to Novatian urging him to withdraw",
-        "witness": "Eusebius VI.45",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Christians nursed the sick in the plague",
-        "witness": "Dionysius in Eusebius VII.22 (one witness, a bishop praising his flock)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "The Revelation is by a John other than the apostle",
-        "witness": "Dionysius in Eusebius VII.25 (his judgment from style)",
-        "formation_confidence": "Contested"
-      },
-      {
-        "claim": "His Refutation and Defence ended the dispute with Dionysius of Rome",
-        "witness": "Robertson, introduction to Athanasius, De Sententia Dionysii",
-        "formation_confidence": "Dominant Modern Reconstruction"
-      },
-      {
-        "claim": "Died in the twelfth year of Gallienus",
-        "witness": "Eusebius VII.28",
-        "formation_confidence": "Documented"
-      }
-    ],
-    "contested_claims": [
-      {
-        "claim": "The apostle John did not write the Revelation",
-        "sides": "Dionysius (a holy man named John wrote it, but not the apostle) and those before him who rejected the book and gave it to Cerinthus, against the traditional reading that the apostle wrote it; Dionysius adds that many brethren held the book in high esteem"
-      }
-    ]
-  }
+ "tacitus": {
+  "claims": [
+   {
+    "claim": "A great fire burned Rome, and people believed it had been set by order; the opinion of all blamed the emperor Nero",
+    "witness": "Tacitus, Annals 15.44, tr. Church and Brodribb (standardly identified) (tacitus_annals-15-44_church-brodribb1876 l.68); Sulpicius Severus, Sacred History II.29, tr. A. Roberts (npnf211_sulpitius-severus-vincent-lerins-cassian l.10650-10659)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The fire was in 64",
+    "witness": "McGiffert, note 539 to Eusebius, Church History II.25 (npnf201_eusebius-church-history-life-of-constantine l.13843-13845); heading note to the English chapter (tacitus_annals-15-44_church-brodribb1876 l.2-9)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Cornelius Tacitus was a Roman senator and historian",
+    "witness": "Name: Tertullian, Apology 16, tr. Thelwall (anf03_tertullian l.2570); role: heading note to the English chapter (tacitus_annals-15-44_church-brodribb1876 l.5)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "He wrote about fifty years after the fire (the heading note: 'Written c. 116 CE, describing events of 64 CE')",
+    "witness": "Heading note to the English chapter (tacitus_annals-15-44_church-brodribb1876 l.8-9)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "He was not a Christian; his chapter calls them 'a class hated for their abominations', their faith 'a most mischievous superstition', and them 'criminals who deserved extreme and exemplary punishment'",
+    "witness": "Tacitus, Annals 15.44, tr. Church and Brodribb (tacitus_annals-15-44_church-brodribb1876 l.68)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Consequently, to get rid of the report, Nero fastened the guilt and inflicted the most exquisite tortures on a class hated for their abominations, called Christians by the populace'",
+    "witness": "Tacitus, Annals 15.44, tr. Church and Brodribb (tacitus_annals-15-44_church-brodribb1876 l.68)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Christus, from whom the name had its origin, suffered the extreme penalty during the reign of Tiberius at the hands of one of our procurators, Pontius Pilatus'; the Latin: 'per procuratorem Pontium Pilatum supplicio affectus erat'",
+    "witness": "Tacitus, Annals 15.44, tr. Church and Brodribb (tacitus_annals-15-44_church-brodribb1876 l.68); Latin as quoted in Mansi II (mansi_sacrorum-conciliorum-collectio-tomus-2-305-346-lat_welter-facsimile1901 l.41697-41699, long-s OCR)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'a most mischievous superstition, thus checked for the moment, again broke out not only in Judaea, the first source of the evil, but even in Rome'",
+    "witness": "Tacitus, Annals 15.44, tr. Church and Brodribb (tacitus_annals-15-44_church-brodribb1876 l.68)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'an arrest was first made of all who pleaded guilty; then, upon their information, an immense multitude was convicted, not so much of the crime of firing the city, as of hatred against mankind'",
+    "witness": "Tacitus, Annals 15.44, tr. Church and Brodribb (tacitus_annals-15-44_church-brodribb1876 l.68)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Covered with the skins of beasts, they were torn by dogs and perished, or were nailed to crosses, or were doomed to the flames and burnt, to serve as a nightly illumination, when daylight had expired'",
+    "witness": "Tacitus, Annals 15.44, tr. Church and Brodribb (tacitus_annals-15-44_church-brodribb1876 l.68)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'even for criminals who deserved extreme and exemplary punishment, there arose a feeling of compassion; for it was not, as it seemed, for the public good, but to glut one man's cruelty, that they were being destroyed'",
+    "witness": "Tacitus, Annals 15.44, tr. Church and Brodribb (tacitus_annals-15-44_church-brodribb1876 l.68)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Tertullian, defending the Christians, says 'Cornelius Tacitus first put this notion into people's minds' that the Christians' god is an ass's head: in the fifth book of his Histories the Jews consecrated the head of a wild ass, 'and as Christianity is nearly allied to Judaism, from this, I suppose, it was taken for granted that we too are devoted to the worship of the same image'; he calls Tacitus 'the very opposite of tacit in telling lies' (Latin 'sane ille mendaciorum loquacissimus')",
+    "witness": "Tertullian, Apology 16, tr. S. Thelwall (anf03_tertullian l.2567-2584); Latin, ed. Oehler (tertullian_quae-supersunt-t1-apologetica-lat_oehler1853 l.17913-17916)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "In To the Nations I.11 Tertullian says the same of Tacitus, 'most loquacious in falsehood', citing the 'fourth book' of the Histories, which the ANF note corrects to the fifth",
+    "witness": "Tertullian, To the Nations I.11, tr. P. Holmes (anf03_tertullian l.10078-10097); Latin, ed. Oehler (tertullian_quae-supersunt-t1-apologetica-lat_oehler1853 l.33310-33312)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Apology was written around 200: it speaks of Severus as the ruling emperor ('Has not Severus ... but yesterday repealed')",
+    "witness": "Tertullian, Apology 4, tr. Thelwall, with the ANF note (anf03_tertullian l.1778-1785)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Sulpicius Severus, of Aquitania, wrote the Sacred History, which runs to the year 400",
+    "witness": "Roberts's introduction and Gennadius's notice, NPNF 2.11 (npnf211_sulpitius-severus-vincent-lerins-cassian l.349-351, 441-443, 469-471)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Sulpicius tells that Nero 'turned the accusation against the Christians, and the most cruel tortures were accordingly inflicted upon the innocent': skins of wild beasts and dogs, crucifixion, fire, and some 'consumed to serve for light during the night', in the same order as Tacitus, without naming him; 'In this way, cruelty first began to be manifested against the Christians' (Latin 'hoc initio in Christianos saeuiri coeptum')",
+    "witness": "Sulpicius Severus, Sacred History II.29, tr. A. Roberts (npnf211_sulpitius-severus-vincent-lerins-cassian l.10657-10666); Latin, ed. Halm (sulpicius-severus_libri-qui-supersunt-chronica-vita-martini-lat_halm1866-csel1 l.4788-4795, rough OCR)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Roberts notes that Sulpicius uses 'superstitio exitiabilis', 'the very words which Tacitus employs', of the Gnostics in Spain",
+    "witness": "Roberts, note 385 to Sacred History II.46 (npnf211_sulpitius-severus-vincent-lerins-cassian l.11452-11455)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Sulpicius tells that Titus and others held the temple should be destroyed 'in order that the religion of the Jews and of the Christians might more thoroughly be subverted'; he names no source",
+    "witness": "Sulpicius Severus, Sacred History II.30, tr. Roberts (npnf211_sulpitius-severus-vincent-lerins-cassian l.10724-10736)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Medicean manuscript reads 'chrestianos', corrected by a later hand to 'christianos'",
+    "witness": "Heading note to the English chapter (tacitus_annals-15-44_church-brodribb1876 l.45-51)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "The English is the translation standardly identified as Church and Brodribb's of 1876; the file's own text names no translator",
+    "witness": "Heading note to the English chapter (tacitus_annals-15-44_church-brodribb1876 l.10-25)",
+    "formation_confidence": "Widely Accepted"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Nero's victims in 64 were Christians, not the Jews as a whole",
+    "sides": "Tacitus (Annals 15.44, l.68) and McGiffert, who notes Josephus is silent on any persecution of the Jews under Nero and that the Jews had favor through Poppaea, and thinks it probable (with Ewald and Renan) that Jews drew Nero's attention to the Christians (npnf201 l.13849-13863); against Gibbon and Schiller, who held it was a persecution of the Jews as a whole (npnf201 l.13849-13853)"
+   },
+   {
+    "claim": "A discrete, fire-linked persecution of Christians as a named group took place in 64",
+    "sides": "Brent Shaw against Christopher Jones, as the heading note to the English chapter reports the debate, without setting out either side's argument (tacitus_annals-15-44_church-brodribb1876 l.53-59); the same note says the passage's authenticity is not seriously disputed"
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Where Tacitus learned of Christus",
+    "note": "Annals 15.44 (l.68) names no source."
+   },
+   {
+    "detail": "What the 'abominations' were",
+    "note": "Annals 15.44 (l.68) names none of them."
+   },
+   {
+    "detail": "What else Tacitus wrote of the Christians",
+    "note": "The Library holds this one chapter only (tacitus_annals-15-44_church-brodribb1876 l.37-43); the Histories are known here only through Tertullian."
+   },
+   {
+    "detail": "A held ancient writer citing Annals 15.44 by name",
+    "note": "None found; Sulpicius follows its details without naming Tacitus (npnf211 l.10654-10666)."
+   }
+  ]
+ },
+ "suetonius": {
+  "claims": [
+   {
+    "claim": "Suetonius was secretary to Hadrian, 'probably during the period when his friend and patron Gaius Septicius Clarus was a prefect of the praetorian guard (119 to 121)'; told as 'around 120' and in Rome",
+    "witness": "Rolfe's introduction, from Spartianus (suetonius_lives-of-the-caesars-loeb_rolfe1914 l.232-241); Thomson and Forester's preface (suetonius_lives-of-the-twelve-caesars_thomson-forester1909 l.52-57)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "He was dismissed by Hadrian, which 'appears to have befallen him in the year 121'; Rolfe: 'Our last reference to him is in 121'",
+    "witness": "Thomson and Forester's preface (suetonius_lives-of-the-twelve-caesars_thomson-forester1909 l.52-57); Rolfe's introduction (suetonius_lives-of-the-caesars-loeb_rolfe1914 l.167, 238-241)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "He was not a Christian: he calls the Christians 'genus hominum superstitionis novae ac maleficae'",
+    "witness": "Suetonius, Nero 16.2, Latin, ed. and tr. Rolfe (suetonius_lives-of-the-caesars-loeb_rolfe1914 l.28458-28460)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Lives of the Caesars include 'the biographies of twelve \"Caesars,\" from Julius to Domitian'",
+    "witness": "Rolfe's introduction (suetonius_lives-of-the-caesars-loeb_rolfe1914 l.322-325)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Lives give the Christians two notices only: the index lists 'Chrestus, Cl. xxv. 4' and 'Christiani, N. XVI. 2'",
+    "witness": "Rolfe's index (suetonius_lives-of-the-caesars-loeb_rolfe1914 l.48359-48361)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Claudius 25.4: 'Iudaeos impulsore Chresto assidue tumultuantis Roma expulit'; Rolfe: 'Since the Jews constantly made disturbances at the instigation of Chrestus, he expelled them from Rome'; Suetonius says nothing more of Chrestus",
+    "witness": "Suetonius, Claudius 25.4, ed. and tr. Rolfe (suetonius_lives-of-the-caesars-loeb_rolfe1914 l.25843-25844, 25907-25909)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Acts says 'Claudius had commanded all the Jews to depart from Rome'",
+    "witness": "Acts 18:2, World English Bible (webbe_world-english-bible-british-edition l.88523)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Tacitus puts Christ's death under Tiberius",
+    "witness": "Tacitus, Annals 15.44, tr. Church and Brodribb (tacitus_annals-15-44_church-brodribb1876 l.68)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Romans said Chrestian: 'even when it is wrongly pronounced by you \"Chrestianus\" (for you do not even know accurately the name you hate)'; To the Nations: 'cum corrupte a vobis Chrestiani pronuntiamur'",
+    "witness": "Tertullian, Apology 3, tr. S. Thelwall (anf03_tertullian l.1713-1715); To the Nations I.3, tr. P. Holmes (anf03_tertullian l.9204-9207), Latin ed. Oehler (tertullian_quae-supersunt-t1-apologetica-lat_oehler1853 l.31641-31643)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Lactantius: 'the error of the ignorant, who by the change of a letter are accustomed to call Him Chrestus' (Latin 'qui eum inmutata littera Chrestum solent dicere')",
+    "witness": "Lactantius, Divine Institutes IV.7, tr. W. Fletcher (anf07_lactantius-apostolic-constitutions-didache-liturgies l.3163); Latin ed. Brandt (lactantius_divinae-institutiones-lat_brandt1890-csel-tei l.16813-16814)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Nero 16.2 sets the punishment of the Christians in a list of abuses 'severely punished and put down', after the ban on cooked food in taverns and before the end of the chariot drivers' diversions: 'afflicti suppliciis Christiani, genus hominum superstitionis novae ac maleficae'",
+    "witness": "Suetonius, Nero 16.2, ed. and tr. Rolfe (suetonius_lives-of-the-caesars-loeb_rolfe1914 l.28454-28462, 28517-28529)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Suetonius says Nero 'set fire to the city so openly' ('incendit urbem tam palam'); the Christians are not linked to the fire and no reason is given for their punishment",
+    "witness": "Suetonius, Nero 38, ed. and tr. Rolfe (suetonius_lives-of-the-caesars-loeb_rolfe1914 l.30502-30504, 30560-30563); Nero 16.2 (l.28458-28460)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Jerome: 'You have urged me, Dexter, to follow the example of Tranquillus in giving a systematic account of ecclesiastical writers, and to do for our writers what he did for the illustrious men of letters among the Gentiles', down to 'the fourteenth year of the Emperor Theodosius' (near the end of the fourth century; the note's 'a.d. 492' is a misprint for 392)",
+    "witness": "Jerome, Lives of Illustrious Men, preface, tr. E. C. Richardson (npnf203_theodoret-jerome-gennadius-rufinus l.38773-38786)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Tertullian sends readers to 'the pages of Suetonius Tranquillus' on the idols behind the games, and cites him that Nero never dreamt; Rolfe says Tertullian's De Spectaculis 'made use of Suetonius's work of a similar title'",
+    "witness": "Tertullian, On the Shows 5 (anf03_tertullian l.6787-6791); On the Soul 44 (anf03_tertullian l.18754-18757); Rolfe's introduction (suetonius_lives-of-the-caesars-loeb_rolfe1914 l.398-400)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Rolfe: his influence 'is seen in the form of the Life of Ambrosius by his secretary Paulinus', and Einhard wrote a Life of Charles the Great 'on the model of Suetonius'",
+    "witness": "Rolfe's introduction (suetonius_lives-of-the-caesars-loeb_rolfe1914 l.377, 391-394)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Birth: 'Mommsen assigns to the year 77 a.d., Macé with somewhat greater probability to 69'; Thomson and Forester: born 'towards the close of the reign of Vespasian'",
+    "witness": "Rolfe's introduction (suetonius_lives-of-the-caesars-loeb_rolfe1914 l.156-158); Thomson and Forester's preface (suetonius_lives-of-the-twelve-caesars_thomson-forester1909 l.50-51)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "The Lives were 'published in 120' (Rolfe); a codex known to Johannes Lydus carried a dedication to Septicius Clarus",
+    "witness": "Rolfe's introduction (suetonius_lives-of-the-caesars-loeb_rolfe1914 l.322-345)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "His father Suetonius Laetus took part in the war of Otho as tribune in the Thirteenth legion",
+    "witness": "Suetonius, Otho 10, ed. and tr. Rolfe (suetonius_lives-of-the-caesars-loeb_rolfe1914 l.34516-34518, 34569-34571)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Thomson and Forester print 'one Chrestus' and Nero's Christians as holding 'a new and impious superstition'",
+    "witness": "Thomson and Forester (suetonius_lives-of-the-twelve-caesars_thomson-forester1909 l.10639-10640, 11613-11614)",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "The 'Chrestus' of Claudius 25.4 is Christ, in a confused report",
+    "sides": "For: Rolfe, who thinks an error of chronology 'probable because of the absence of quodam' (suetonius_lives-of-the-caesars-loeb_rolfe1914 l.25871-25875); the Thomson and Forester note 528, Suetonius 'transplanting Christ from Jerusalem to Rome, and placing him in the time of Claudius' (suetonius_lives-of-the-twelve-caesars_thomson-forester1909 l.20364-20374); the ANF note to Lactantius IV.7, 'Suetonius speaks of Christ as Chrestus' (anf07 l.3165). Against: another man of that name, which Rolfe allows ('or is referring to some Jew of that name', l.25872-25873) and for which Thomson and Forester note 'Chrestus ... was a name in use among the Greeks and Romans' (l.20381-20382); no held scholar holds this reading outright"
+   },
+   {
+    "claim": "Claudius expelled all the Jews of Rome",
+    "sides": "Acts 18:2 (webbe l.88523) and the usual reading of the Latin; against: the Latin can mean only the Jews who kept rioting (renderings comparison E8, from Rolfe l.25843-25844); Dio, as Thomson and Forester report him, says Claudius only forbade their assemblies (l.20378-20379)"
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Who Chrestus was",
+    "note": "Suetonius says nothing more of him (Claudius 25.4, l.25843-25847)."
+   },
+   {
+    "detail": "Why the Christians were punished under Nero",
+    "note": "Nero 16.2 gives no reason and Nero 38 does not link them to the fire."
+   },
+   {
+    "detail": "An early Christian writer quoting either notice",
+    "note": "None found in the held ANF, NPNF or Latin files; the notices appear there only in modern notes. Orosius is not held."
+   }
+  ]
+ },
+ "tatian": {
+  "claims": [
+   {
+    "claim": "In the middle of the second century Tatian was at Rome ('when sojourning in the city of the Romans') as a hearer of Justin ('He was a hearer of Justin's'; 'the most admirable Justin')",
+    "witness": "Tatian, Address 35 and 18, tr. J. E. Ryland (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria l.7250-7252, 6526); Irenaeus, Against Heresies I.28.1, ANF 1 (anf01_apostolic-fathers-justin-irenaeus l.33664)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Justin was later beheaded at Rome for refusing to sacrifice: 'Let those who have refused to sacrifice to the gods ... be scourged, and led away to suffer the punishment of decapitation'",
+    "witness": "Martyrdom of Justin 5, ANF 1 (anf01_apostolic-fathers-justin-irenaeus l.29396-29402)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'I was born in the land of the Assyrians, having been first instructed in your doctrines'",
+    "witness": "Tatian, Address 42, tr. Ryland (anf02 l.7460-7462)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "After Justin's death he went from Rome to the East and set up his school in Mesopotamia; Epiphanius calls him Syrian by race",
+    "witness": "Epiphanius, Panarion 46.1, ed. Holl (epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922 l.15995-16001)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Syriac Christianity came to read his gospel book: the Teaching of Addai shows 'much people day by day assembled ... to the reading of the Old Testament, and the New of the Diatessaron' at the church Addai built at Abgar's word in Edessa",
+    "witness": "Teaching of Addai, tr. B. P. Pratten (anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac l.62100-62107); Doctrine of Addai, tr. G. Phillips (addai_doctrine-of-addai l.65)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "He had been 'admitted to the mysteries', examined the rites, the Romans' 'Latiarian Jupiter' and Artemis near the city, and 'retiring by myself, I sought how I might be able to discover the truth'",
+    "witness": "Tatian, Address 29, tr. Ryland (anf02 l.6962-6971)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "He came upon 'certain barbaric writings, too old to be compared with the opinions of the Greeks, and too divine to be compared with their errors'; the Greek has plain comparatives: 'πρεσβυτέραις μὲν ὡς πρὸς τὰ Ἑλλήνων δόγματα, θειοτέραις δὲ ὡς πρὸς τὴν ἐκείνων πλάνην'",
+    "witness": "Tatian, Address 29, tr. Ryland (anf02 l.6972-6974); Greek ed. Otto (tatian_oratio-ad-graecos-grc-lat_otto1851 l.10388-10390, rough OCR)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'it seems proper for me to demonstrate that our philosophy is older than the systems of the Greeks. Moses and Homer shall be our limits'",
+    "witness": "Tatian, Address 31, tr. Ryland (anf02 l.7026-7032)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Clement: the epoch of Moses 'has been discussed with accuracy by Tatian in his book To the Greeks'",
+    "witness": "Clement of Alexandria, Stromata I.21, tr. W. Wilson (anf02 l.29723-29727)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Eusebius: the Address 'appears to be the best and most useful of all his works', showing 'that Moses and the Hebrew prophets were older than all the celebrated men among the Greeks'",
+    "witness": "Eusebius, Church History IV.29.7, tr. A. C. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.26484-26505)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Irenaeus: after Justin's martyrdom 'he separated from the Church, and, excited and puffed up by the thought of being a teacher' invented 'certain invisible Æons, like the followers of Valentinus', declared 'marriage was nothing else than corruption and fornication', and 'his denial of Adam's salvation was an opinion due entirely to himself'",
+    "witness": "Irenaeus, Against Heresies I.28.1, ANF 1 (anf01 l.33663-33674)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Hippolytus repeats Irenaeus's three points: invisible Aeons like Valentinus, marriage destruction, Adam not saved",
+    "witness": "Hippolytus, Refutation VIII.9, tr. J. H. MacMahon (anf05_hippolytus-cyprian-caius-novatian l.12999-13012)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Clement quotes Tatian's lost Concerning Perfection according to the Saviour: 'fellowship in corruption weakens supplication' (Latin 'communio autem corruptelae'), and names 'Tatianum ... Syrum' among those who give marriage to the devil",
+    "witness": "Clement, Stromata III.12, Latin in ANF 2 (anf02 l.36514-36521); English fragment, ANF 2 (anf02 l.7485-7499)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Encratites 'preached against marriage'; Irenaeus says they were 'Springing from Saturninus and Marcion'",
+    "witness": "Irenaeus, Against Heresies I.28.1, ANF 1 (anf01 l.33656-33658)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Eusebius: 'It is said that Tatian was the author of this false doctrine'; 'their original founder, Tatian'; Jerome: he 'founded a new heresy which is called that of the Encratites'",
+    "witness": "Eusebius, Church History IV.28 and IV.29.6, tr. McGiffert (npnf201 l.26183-26186, 26424-26425); Jerome, Lives 29, tr. E. C. Richardson (npnf203_theodoret-jerome-gennadius-rufinus l.40088-40093)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Tatian 'formed a certain combination and collection of the Gospels, I know not how, to which he gave the title Diatessaron, and which is still in the hands of some'",
+    "witness": "Eusebius, Church History IV.29.6, tr. McGiffert (npnf201 l.26424-26433, 26478-26479)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "McGiffert quotes Eusebius's Chronicle (XII year of Marcus Aurelius, '172 a.d.'): 'Tatianus haereticus agnoscitur, a quo Encratitae', and takes it as the date of the break; the Chronicle is not held",
+    "witness": "McGiffert, note to Church History IV.29 (npnf201 l.26218-26222)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Hogg reports Theodoret 'found more than two hundred copies of the work \"held in respect in the churches\"' and quotes him: 'Even those that follow the apostolic doctrines, not perceiving the mischief of the composition,' used 'the book too simply as an abridgment'",
+    "witness": "Hogg, introduction to the Diatessaron (anf09_gospel-of-peter-diatessaron-origen-commentaries l.1909-1914, 1922-1923)",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "McGiffert reports that Theodoret found a great many copies in his diocese and, finding it omitted the Lord's birth, replaced it by the four Gospels",
+    "witness": "McGiffert, note 1333 to Church History IV.29.6 (npnf201 l.26437-26442)",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Rabbula, bishop of Edessa (d. 435, Hogg): 'Let the presbyters and deacons give heed that in all the churches there be provided and read a copy of the Distinct Gospel', which Hogg glosses 'not the harmonized or mixed gospel'",
+    "witness": "Hogg, introduction, quoting Overbeck (anf09 l.1914-1920)",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Hogg: at an early stage the Diatessaron 'was very widely if not universally read in the Syriac churches'; Tatian 'after Justin's death left Rome and returned to Mesopotamia'",
+    "witness": "Hogg, introduction (anf09 l.1928-1930, 1961)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Ephrem wrote a commentary on the Diatessaron",
+    "witness": "Pratten's note 3017 to the Teaching of Addai (anf08 l.62107-62112); McGiffert, note 1333, citing Dionysius bar Salibi (npnf201 l.26446-26452)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Rhodo, 'a native of Asia, who had been instructed, as he himself states, by Tatian', wrote against the heresy of Marcion",
+    "witness": "Eusebius, Church History V.13, tr. McGiffert (npnf201 l.28922-28927)",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Tatian founded the Encratites",
+    "sides": "Eusebius ('It is said', IV.28, npnf201 l.26183-26186; 'their original founder', IV.29.6, l.26424-26425) and Jerome (Lives 29, npnf203 l.40088-40093); against: Irenaeus, who says the Encratites sprang from Saturninus and Marcion (anf01 l.33656-33658), read by McGiffert as meaning Tatian found them already in existence (npnf201 l.26308-26315)"
+   },
+   {
+    "claim": "The Diatessaron was written in Syriac",
+    "sides": "Zahn, followed by Lightfoot, Hilgenfeld and Fuller (McGiffert, npnf201 l.26459-26461), and 'an increasing majority of scholars' (Hogg, anf09 l.1996-1997); against: Harnack, for Greek, whose reasons McGiffert calls 'very strong' (npnf201 l.26461-26464)"
+   },
+   {
+    "claim": "Tatian was at Rome twice and broke with the church there about 172",
+    "sides": "Harnack, whose arguments McGiffert says 'seem fully to establish his main positions' (npnf201 l.26224-26234); against: Zahn, who held he was once in Rome and became a heretic in the East (l.26230-26232)"
+   },
+   {
+    "claim": "Eusebius's 'I know not how' means he had not seen the Diatessaron",
+    "sides": "McGiffert (npnf201 l.26426-26429); against: Lightfoot, who read it as disapproval (l.26429-26432)"
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "A year for his time at Rome",
+    "note": "No held ancient witness gives one; Epiphanius's twelfth year of Antoninus Pius is read by Holl's note (after Zahn) as an error for Marcus Aurelius (epiphanius_panarion l.16017-16021); the brief says only 'the middle of the second century'."
+   },
+   {
+    "detail": "Theodoret's own words on the Diatessaron",
+    "note": "His Compendium of Heretical Fables I.20 is not held; only Hogg's and McGiffert's reports are."
+   },
+   {
+    "detail": "The date, place and circumstances of his death",
+    "note": "McGiffert: 'we know nothing' (npnf201 l.26234-26235)."
+   }
+  ]
+ },
+ "bardaisan-of-edessa": {
+  "claims": [
+   {
+    "claim": "Bardaisan was of Mesopotamia, of those living in the city of Edessa: 'ἐκ Μεσοποταμίας μὲν τὸ γένος ἦν, τῶν κατὰ τὴν Ἔδεσσαν πόλιν κατοικούντων'",
+    "witness": "Epiphanius, Panarion 56.1.1, Greek, ed. Holl (epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922 l.26327-26328, OCR)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Eusebius sets him in Mesopotamia: 'as heresies were abounding in the region between the rivers, i.e. Mesopotamia'",
+    "witness": "Eusebius, Church History IV.30.1, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.26525-26527)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "He wrote in Syriac: 'a most skillful disputant in the Syriac tongue'",
+    "witness": "Eusebius, Church History IV.30.1, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.26633-26634)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Edessa had a king, Abgar: 'when King Abgar became a believer'; Epiphanius makes Bardaisan close to Abgar, ruler of the Edessenes",
+    "witness": "Book of the Laws of Countries, tr. Pratten (anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac l.68958-68965); Epiphanius, Panarion 56.1.2, Greek, ed. Holl (epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922 l.26332-26334, OCR)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Around 180: an approximate year inside both the ancient placing (Eusebius: 'in the same reign', Marcus Aurelius; Epiphanius: past Abgar into the time of Antoninus 'not Pius but Verus') and the modern dates (born 154 or 155, died about 222 or 223)",
+    "witness": "Eusebius IV.30.1, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.26525-26526), McGiffert's note (npnf201_eusebius-church-history-life-of-constantine l.26581-26593); Epiphanius 56.1.3, Greek, ed. Holl (epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922 l.26407-26409, OCR)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "The Bardaisanites came from him: 'ἐξ οὗπερ ἡ αἵρεσις τῶν Βαρδησιανιστῶν γεγένηται'; Sozomen: 'Bardasanes, who devised a heresy designated by his name'",
+    "witness": "Epiphanius, Panarion 56.1.1, Greek, ed. Holl (epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922 l.26326-26327, OCR); Sozomen, Church History III.16, tr. Hartranft (npnf202_socrates-sozomen-ecclesiastical-histories l.32080-32081)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The narrator and friends visited 'our brother Shemashgram, and Bardesan came and found us there'; he asked, 'What were you talking about?'",
+    "witness": "Book of the Laws of Countries, tr. Pratten (anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac l.67908-67916)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Avida asked 'why did He not so create men that they should not be able to do wrong'",
+    "witness": "Book of the Laws of Countries, tr. Pratten (anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac l.67920-67926)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The pupil who tells the dialogue is Philip: 'O Philip and Baryama'; 'my son Philip, said he to me'; so the book is a pupil's report",
+    "witness": "Book of the Laws of Countries, tr. Pratten (anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac l.68337-68338, 68876-68878)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Title: 'The Book of the Laws of Divers Countries'",
+    "witness": "Book of the Laws of Countries, tr. Pratten (anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac l.67895-67899)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "He once followed the astrologers: 'those who are called Chaldaeans ... as I myself also once was'",
+    "witness": "Book of the Laws of Countries, tr. Pratten (anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac l.68337-68342)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The stars have power over health and fortune but not over freedom: 'There is, then, such a thing as Fate'; 'sickness and health, and riches and poverty, things which are not within the scope of their freedom'; 'the freedom of man is not influenced by the compulsion of the Seven, or ... is able to withstand'",
+    "witness": "Book of the Laws of Countries, tr. Pratten (anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac l.68396-68397, 68992-68997)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Each country keeps its own laws, made in freedom, whatever the stars decree: 'men have made laws for themselves in various countries, in the exercise of that freedom which was given them by God'; the Seres first",
+    "witness": "Book of the Laws of Countries, tr. Pratten (anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac l.68604-68625)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Christians keep one law in every land: 'the new race of us Christians, whom Christ at His advent planted in every country'; not 'those who are in Parthia two wives'; Parthians take many wives",
+    "witness": "Book of the Laws of Countries, tr. Pratten (anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac l.68966-68991, 68795-68797)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Eusebius praised 'his most able dialogue On Fate'; his pupils, 'of whom he had very many', translated his works 'from the Syriac into Greek'",
+    "witness": "Eusebius, Church History IV.30.1-2, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.26637-26642)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Eusebius: 'He indeed was at first a follower of Valentinus, but afterward, having rejected his teaching ... Nevertheless he did not entirely wash off the filth of the old heresy'",
+    "witness": "Eusebius, Church History IV.30.3, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.26652-26657)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Epiphanius: at first an excellent man ('ἄριστός τις ἀνήρ'), from the holy church of God, close to Abgar",
+    "witness": "Epiphanius, Panarion 56.1.1-2, Greek, ed. Holl (epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922 l.26328-26334, OCR)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Epiphanius: he stood up to Apollonius, companion of Antoninus, refusing to deny that he called himself a Christian ('Ἀπολλωνίῳ δὲ τῷ τοῦ Ἀντωνίνου ἑταίρῳ ἀντῆρε, παραιτούμενος ἀρνήσασθαι τὸ Χριστιανὸν ἑαυτὸν λέγειν'); variant 'παραινούμενος' (urged) in M and U; one witness",
+    "witness": "Epiphanius, Panarion 56.1.3-4, Greek, ed. Holl (epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922 l.26417, 26486, apparatus l.26472, OCR)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Epiphanius: later he fell in with the Valentinians, brought in principles and emanations, and denied the resurrection of the dead ('Προσφθείρεται γὰρ οὗτος Οὐαλεντίνοις ... τὴν τῶν νεκρῶν ἀνάστασιν ἀρνησάμενος')",
+    "witness": "Epiphanius, Panarion 56.2.1, Greek, ed. Holl (epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922 l.26498-26501, OCR)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Holl notes that Eusebius tells the reverse ('die umgekehrte Behauptung, daß er zunächst Valentinianer war')",
+    "witness": "Holl's note to Panarion 56.1 (epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922 l.26509-26513)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ephrem: 'BARDAISAN, lo, declares that even without the sin of Adam the Body would turn to its dust'",
+    "witness": "Ephrem, Discourse against Bardaisan, stanza I, tr. Mitchell, Bevan and Burkitt (ephraim_prose-refutations_mitchell1912-1921 l.1940)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ephrem's answer: 'the transgression of Adam turned the Body to a principle that looses the fixing of its life'; 'His Resurrection bears witness to His Death that the Body which died was raised'; 'in the Body He died and was raised'",
+    "witness": "Ephrem, Discourse against Bardaisan, stanzas VIII, XI, XIII, tr. Mitchell, Bevan and Burkitt (ephraim_prose-refutations_mitchell1912-1921 l.1954, 1960, 1964)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Sozomen: Harmonius, his son, 'was the first to subdue his native tongue to meters and musical laws'; put opinions 'concerning the soul, the generation and destruction of the body, and the regeneration' into his songs; the Syrians were 'charmed'; Ephrem 'applied himself to the understanding of the metres of Harmonius, and composed similar poems in accordance with the doctrines of the Church'; 'From that period the Syrians sang the odes of Ephraim'; opens 'It is related'",
+    "witness": "Sozomen, Church History III.16, tr. Hartranft (npnf202_socrates-sozomen-ecclesiastical-histories l.32085-32103)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Eusebius, Epiphanius and Ephrem are fourth-century writers ('two later writers'; 'In the fourth century')",
+    "witness": "World census dates for Eusebius of Caesarea, Epiphanius of Salamis and Ephrem the Syrian",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "McGiffert: 'It is not improbable that he may, as Eusebius says, have been a Valentinian for a time'; 'There is no reason to think that he taught a system of aeons like the Gnostics'; he 'does seem ... to have denied the proper resurrection of the body'",
+    "witness": "McGiffert's note to Eusebius IV.30 (npnf201_eusebius-church-history-life-of-constantine l.26553-26563)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "McGiffert: Ephrem 'knows him only through his followers ... and hence passes a harsher judgment upon him'",
+    "witness": "McGiffert's note to Eusebius IV.30 (npnf201_eusebius-church-history-life-of-constantine l.26571-26577)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "The dialogue was 'undoubtedly written by one of Bardesanes' disciples, probably soon after his death' (McGiffert, after Hort); it is identified with the Dialogue On Fate (McGiffert; the ANF note; Holl, who matches Epiphanius's Abeidas with Avida)",
+    "witness": "McGiffert's note (npnf201_eusebius-church-history-life-of-constantine l.26607-26630); ANF note (anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac l.67899-67907); Epiphanius 56.1.3 'Ἀβειδᾶν τὸν ἀστρονόμον' and Holl's note (epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922 l.26413, 26430-26441, OCR)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Born 11 July of the Seleucid year 465, which Cowper gives as 154",
+    "witness": "Chronicle of Edessa 6, tr. Cowper (chronicle-of-edessa_cowper l.49)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Lived 68 years and died in 533 (Seleucid), which Holl reckons as 221/2; McGiffert, after Hort, gives 155 and 223; Michael the Syrian gives the same year and age",
+    "witness": "Barhebraeus, Chronicon Ecclesiasticum, Latin, ed. Abbeloos and Lamy (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872 l.4220-4221, OCR); Holl's note (epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922 l.26426-26427); McGiffert (npnf201_eusebius-church-history-life-of-constantine l.26584-26593); Michael the Syrian, tr. Chabot (michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899 l.14719-14721, OCR)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Holl: the emperor meant is Caracalla or, less likely, Elagabalus, not Marcus Aurelius; the king is Abgar IX bar Manu",
+    "witness": "Holl's notes to Panarion 56.1 (epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922 l.26369-26372, 26418-26425, 26453-26454)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Ephrem, in a metrical homily against heretics quoted by Gwynn, attributes the hymns to Bardaisan alone: 'He fashioned hymns, and joined them with tunes'",
+    "witness": "Gwynn, introduction to Ephrem, NPNF 2.13 (npnf213_gregory-great-ephraim-syrus-aphrahat l.11234-11247)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Michael the Syrian (12th century): the bishop of Edessa baptized him and made him deacon; Bishop Aqai later anathematized him",
+    "witness": "Michael the Syrian, Chronicle, tr. Chabot (michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899 l.14537-14544, 14717-14719, OCR)",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Epiphanius calls him learned in Greek and Syriac; Holl: Eusebius 'anders und wohl richtiger' says he wrote in Syriac",
+    "witness": "Epiphanius 56.1.1 (epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922 l.26331-26332, OCR); Holl's note (epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922 l.26362-26366)",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "The order of his life: Valentinian first, or orthodox Christian first",
+    "sides": "Eusebius, Church History IV.30.3 (first a follower of Valentinus, then left him; npnf201_eusebius-church-history-life-of-constantine l.26652-26657), whom McGiffert thinks not improbable (npnf201_eusebius-church-history-life-of-constantine l.26562-26565). Epiphanius, Panarion 56.1-2 (first an excellent man of the church, later fell in with the Valentinians; epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922 l.26328-26334, 26498-26501); Barhebraeus with him, per McGiffert (npnf201_eusebius-church-history-life-of-constantine l.26532-26534). Holl notes the two tell opposite orders (epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922 l.26509-26513)."
+   },
+   {
+    "claim": "His dates",
+    "sides": "Chronicle of Edessa: born 465 Seleucid, 154 in Cowper (chronicle-of-edessa_cowper l.49); Hort via McGiffert: 155 to 223 (npnf201_eusebius-church-history-life-of-constantine l.26584-26589); Barhebraeus: died 533 at 68, 221/2 in Holl (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872 l.4220-4221; epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922 l.26426-26427); Abbeloos and Lamy prefer Elias of Nisibis's birth in 134 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872 l.4250-4265). Eusebius and Epiphanius place him under Marcus Aurelius or an Antoninus Verus (npnf201_eusebius-church-history-life-of-constantine l.26525-26526; epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922 l.26407-26409)."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Bardaisan's own Syriac words",
+    "note": "No Syriac text is held. The Book of the Laws of Countries is held only in Pratten's English of 1886 (anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac), written by a pupil; the brief therefore quotes none of it."
+   },
+   {
+    "detail": "Which account of his life is right",
+    "note": "Eusebius and Epiphanius disagree and no held source settles it; the brief tells both."
+   }
+  ]
+ },
+ "hippolytus-of-rome": {
+  "claims": [
+   {
+    "claim": "Around 220 Callistus was bishop of Rome: 'Calixtus ann. v ... a cons. Antonini et Adventi (218) usque Antonino iii et Alexandro (222)'; the years are the edition's reckoning of the consuls",
+    "witness": "Book of 354, list of the bishops of Rome, ed. Mommsen (chronica-minora-liber-genealogus_mommsen1892 l.13070-13072, OCR)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "The Christians of Rome were split over how the Father and the Son are one God ('ceaseless disturbance among the people')",
+    "witness": "Refutation IX, tr. MacMahon (anf05_hippolytus-cyprian-caius-novatian l.13597-13640). One hostile witness",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Hippolytus was a teacher and writer at Rome: the Refutation's author acts with authority over his own following ('by us forcibly ejected from the Church'); Eusebius and Jerome list his writings; Theodoret counts him among the teachers",
+    "witness": "Refutation IX.7 (anf05 l.13884-13887); Eusebius VI.20 and 22, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.35447-35449, 35776-35780); Jerome, Lives 61, tr. Richardson (npnf203_theodoret-jerome-gennadius-rufinus l.40690-40705); Theodoret, Eranistes (npnf203 l.20259-20262)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "The Roman church of the third century is his tradition",
+    "witness": "World census, roman-church-third-century",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The fight with Callistus reaches us only in the Refutation of All Heresies, an enemy's account",
+    "witness": "Refutation IX.6-7 and X (anf05_hippolytus-cyprian-caius-novatian l.13585-13964, 15550-15573); no other held ancient file tells it",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Refutation is now read as Hippolytus's: 'in favour of whose authorship the majority of modern scholars have decided'",
+    "witness": "MacMahon's introductory notice (anf05_hippolytus-cyprian-caius-novatian l.802-813); no held ancient witness names the book as his",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Callistus taught 'that the Father is not one person and the Son another, but that they are one and the same', under different titles",
+    "witness": "Refutation IX.7 (anf05_hippolytus-cyprian-caius-novatian l.13842-13846). One hostile witness",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Hippolytus and his side withstood Callistus, who 'called us worshippers of two gods'",
+    "witness": "Refutation IX.6 (anf05_hippolytus-cyprian-caius-novatian l.13627-13640)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "In his book against Noetus, who 'alleged that Christ was the Father Himself', he wrote that 'there appeared another beside Himself. But when I say another, I do not mean that there are two Gods'",
+    "witness": "Against Noetus 1 and 11, tr. Salmond (anf05_hippolytus-cyprian-caius-novatian l.23142-23144, 23614-23620). The work is his on the edition's title",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "After Zephyrinus died, Callistus excommunicated Sabellius: 'He acted thus from apprehension of me'",
+    "witness": "Refutation IX.7 (anf05_hippolytus-cyprian-caius-novatian l.13816-13822). Hippolytus's own claim",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Sabellius taught 'that Christ is the Father'",
+    "witness": "Novatian, On the Trinity 12, tr. Wallis (anf05_hippolytus-cyprian-caius-novatian l.61487-61489)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Hippolytus had put offenders out: 'some of them, in accordance with our condemnatory sentence, had been by us forcibly ejected from the Church'",
+    "witness": "Refutation IX.7 (anf05_hippolytus-cyprian-caius-novatian l.13884-13887)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Callistus took them in, 'saying that all had their sins forgiven by himself', and held that Noah's ark, with 'all things clean and unclean', was a symbol of the church",
+    "witness": "Refutation IX.7 (anf05_hippolytus-cyprian-caius-novatian l.13873-13889, 13909-13912). Hippolytus's charge",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "By Hippolytus's own account crowds went over to Callistus ('crowds of these dupes stream together into his school'); his school continues and they 'attempt to call themselves a Catholic Church'",
+    "witness": "Refutation IX.7 (anf05_hippolytus-cyprian-caius-novatian l.13915-13919, 13950-13960)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "In 235 the bishop Pontianus and the presbyter Hippolytus were exiled together to Sardinia: 'Pontianus episcopus et Yppolitus presbiter exoles sunt deportati in Sardinia ... Severo et Quintiano cons.'",
+    "witness": "Book of 354, list of the bishops of Rome, ed. Mommsen (chronica-minora-liber-genealogus_mommsen1892 l.13078, 13107, OCR). McGiffert reports Lipsius calling the entry critically indisputable (npnf201 l.35693-35697)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "A calendar of martyrs in the same book names the two in one entry: 'Ypoliti in Tiburtina et Pontiani in Calisti'",
+    "witness": "Book of 354, depositio martyrum, ed. Mommsen (chronica-minora-liber-genealogus_mommsen1892 l.12911-12913, OCR)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Jerome says his Easter cycle of sixteen years 'gave the cue to Eusebius, who composed on the same Paschal feast a cycle of nineteen years'",
+    "witness": "Jerome, Lives 61, tr. Richardson (npnf203_theodoret-jerome-gennadius-rufinus l.40690-40696); Eusebius VI.22 (npnf201 l.35776-35780)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Two centuries after the exile Theodoret quoted 'Hippolytus and Methodius, bishops and martyrs' among the witnesses to the church's faith in Christ",
+    "witness": "Theodoret, Dialogues (Eranistes), tr. Jackson (npnf203_theodoret-jerome-gennadius-rufinus l.20259-20262, 20467-20469); census dates for Theodoret 393-c. 458",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: the Refutation found in a manuscript from Mount Athos in 1842 and printed at Oxford in 1851 under Origen's name",
+    "witness": "MacMahon's introductory notice (anf05_hippolytus-cyprian-caius-novatian l.737-755)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Card: a statue found in 1551 near San Lorenzo, just outside Rome, 'has been shown to be that of Hippolytus'; the Easter cycle is preserved on it",
+    "witness": "McGiffert's note to Eusebius VI.20 and VI.22 (npnf201_eusebius-church-history-life-of-constantine l.35729-35736, 35776-35778)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Card: McGiffert thinks a strict party set him up as opposition bishop and that he returned to the church after Callistus died",
+    "witness": "McGiffert's note (npnf201_eusebius-church-history-life-of-constantine l.35669-35690)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Card: McGiffert on the account of Callistus: 'we cannot doubt that it is greatly overdrawn'",
+    "witness": "McGiffert's note (npnf201_eusebius-church-history-life-of-constantine l.35520-35524)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Card: Prudentius's hymn (death by wild horses) not historic; McGiffert thinks he and Pontianus died in the mines",
+    "witness": "MacMahon (anf05_hippolytus-cyprian-caius-novatian l.863-868); McGiffert (npnf201 l.35697-35706)",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Card: Ambrose urged Origen to write commentaries 'in emulation of Hyppolytus'",
+    "witness": "Jerome, Lives 61 (npnf203_theodoret-jerome-gennadius-rufinus l.40703-40706)",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Hippolytus's rank",
+    "sides": "Presbyter: the book of 354, 'Yppolitus presbiter' (chronica-minora-liber-genealogus_mommsen1892 l.13078). Bishop: Eusebius, he 'presided over another church' (npnf201 l.35447-35449); Jerome, 'bishop of some church (the name of the city I have not been able to learn)' (npnf203 l.40690-40691); Theodoret, 'bishops and martyrs' (npnf203 l.20260-20261); the Refutation's author claims 'high-priesthood' (anf05 l.1129-1131), read as episcopal in the edition's note (l.13628-13630) and as not certainly so in another (l.1131-1135). McGiffert: a presbyter set up as opposition bishop (npnf201 l.35669-35679)."
+   },
+   {
+    "claim": "Hippolytus was bishop of Portus",
+    "sides": "For: MacMahon, with Bunsen and Wordsworth (anf05_hippolytus-cyprian-caius-novatian l.852-863). Döllinger: a bishop, but not of Portus (l.831-834). McGiffert: 'quite worthless' (npnf201 l.35662-35663)."
+   },
+   {
+    "claim": "Who wrote the Refutation of All Heresies",
+    "sides": "Printed under Origen's name by Miller in 1851; others named Epiphanius, Didymus, Aetius, Caius, Tertullian; the majority of modern scholars, with Döllinger, Bunsen, Wordsworth: Hippolytus (anf05_hippolytus-cyprian-caius-novatian l.747-813)."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "How the quarrel with Callistus ended",
+    "note": "Searched the Refutation IX-X, Eusebius VI.20-22, Jerome, Lives 61, the book of 354 and Theodoret's citations: none says. The exile and the burial are recorded; their link to the quarrel is not."
+   },
+   {
+    "detail": "An ancient witness naming the Refutation as his",
+    "note": "No held ancient file names it as his. Jerome's list has 'Against all heresies' (npnf203 l.40701); whether that is this book is the modern question."
+   }
+  ]
+ },
+ "novatian": {
+  "claims": [
+   {
+    "claim": "In 251 the church of Rome had a new bishop, Cornelius: 'Cornelius ann. ii ... a cons. Decio iiii et Decio ii (251)'",
+    "witness": "Book of 354, list of the bishops of Rome, ed. Mommsen (chronica-minora-liber-genealogus_mommsen1892 l.13122-13123, OCR; the consular year)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "There had been a persecution under the emperor Decius in which believers sacrificed; Cornelius received them into communion",
+    "witness": "Socrates IV.28, tr. Zenos (npnf202_socrates-sozomen-ecclesiastical-histories l.14069-14082)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "They were taken back after penance: the fallen to be healed 'with the medicines of repentance'",
+    "witness": "Eusebius VI.43.2, the Roman synod, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.38294-38299); Nicaea canon 8, tr. Percival (npnf214_seven-ecumenical-councils l.3775-3778)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Novatian, a presbyter of Rome, refused and separated from the church",
+    "witness": "Socrates IV.28 (npnf202 l.14061-14082); Eusebius VI.43.1 (npnf201 l.38265-38270); Jerome, Lives 70, tr. Richardson (npnf203_theodoret-jerome-gennadius-rufinus l.40887-40890)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "From his refusal came Novatianism, the strict churches named for him ('the dogma of the Novatians, or as they are called in Greek, the Cathari'; 'the Novatian church')",
+    "witness": "Jerome, Lives 70 (npnf203 l.40887-40890); Socrates I.13 (npnf202 l.3852-3856); world census, novatianism",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bishops of like views made him bishop against Cornelius: 'elevated to the episcopacy by such bishops as entertained similar sentiments'",
+    "witness": "Socrates IV.28 (npnf202_socrates-sozomen-ecclesiastical-histories l.14082-14084). A sympathetic witness",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Socrates had a friend among the Novatians: Auxanon, 'a very aged presbyter of the Novatian church', who told him these things when Socrates was young",
+    "witness": "Socrates I.13 (npnf202_socrates-sozomen-ecclesiastical-histories l.3855-3860)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "A letter of Cornelius, kept by Eusebius, tells it as an enemy",
+    "witness": "Eusebius VI.43.5 onward (npnf201_eusebius-church-history-life-of-constantine l.38376-38387)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Cornelius's charge, an enemy's: Novatian 'a long time ago ... desired the episcopate'; he had two companions deceive 'three bishops, who were rustic and very simple men' from 'a small and insignificant corner of Italy', and 'when they had become drunk and sick, he compelled them by force to confer on him the episcopate'. Told as Cornelius's charge, not as fact",
+    "witness": "Cornelius, letter to Fabius, in Eusebius VI.43.5-9, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.38383-38386, 38518-38534). One hostile witness",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Novatian then wrote to all the churches 'that they should not admit to the sacred mysteries those who had sacrificed; but exhorting them to repentance, leave the pardoning of their offense to God'",
+    "witness": "Socrates IV.28 (npnf202_socrates-sozomen-ecclesiastical-histories l.14084-14090). Socrates's summary; no letter of Novatian's own on this is held",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "A synod of sixty bishops at Rome decreed that Novatian and those with him 'should be considered by the church as strangers'",
+    "witness": "Eusebius VI.43.2 (npnf201_eusebius-church-history-life-of-constantine l.38272-38294)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Cornelius wrote that 'the brethren leave him every day and return to the church'",
+    "witness": "Cornelius, in Eusebius VI.43.20 (npnf201_eusebius-church-history-life-of-constantine l.38776-38778). Hostile witness",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The churches in each province took sides: 'this appeared to some a cruel and merciless course: but others received the rule as just'",
+    "witness": "Socrates IV.28 (npnf202_socrates-sozomen-ecclesiastical-histories l.14091-14101)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "In 325 Nicaea's eighth canon let the clergy of the Cathari 'continue as they are in the clergy' if they 'profess in writing' that they will communicate with the twice married and 'with those who having lapsed in persecution have had a period [of penance] laid upon them'",
+    "witness": "Council of Nicaea, canon 8, tr. Percival (npnf214_seven-ecumenical-councils l.3768-3782); the Cathari as Novatian's party: Eusebius VI.43.1 (npnf201 l.38268-38270), Jerome, Lives 70 (npnf203 l.40889-40890)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Nearly two centuries after the split the Novatians of Phrygia and Paphlagonia kept their strict discipline 'even to the present day'",
+    "witness": "Socrates IV.28 (npnf202_socrates-sozomen-ecclesiastical-histories l.14059-14061); Socrates writes after Celestinus, from 422, and his history runs to 439 (l.19284-19290; census dates)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "At Rome the Novatians had 'flourished exceedingly ... possessing many churches there' until Celestinus 'took away the churches from the Novatians at Rome'",
+    "witness": "Socrates VII.11 (npnf202_socrates-sozomen-ecclesiastical-histories l.19289-19294)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Novatian wrote On the Trinity, answering those who say Christ is the Father and those who say he is man only: 'Thus indeed the Lord is, as it were, crucified between two thieves'",
+    "witness": "Novatian, On the Trinity 30, tr. Wallis (anf05_hippolytus-cyprian-caius-novatian l.63446-63459)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "In Jerome's day many read it under Cyprian's name: 'a great volume On the Trinity ... which many mistakenly ascribe to Cyprian'",
+    "witness": "Jerome, Lives 70 (npnf203_theodoret-jerome-gennadius-rufinus l.40895-40897). 'Still read it' is the plain sense of the ascription",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Cyprian of Carthage sided with Cornelius",
+    "witness": "Cyprian, Epistle 51.1, tr. Ernest Wallis (anf05_hippolytus-cyprian-caius-novatian l.33412-33417); Eusebius VI.43.3 (npnf201 l.38338-38359)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: Cyprian mocks the Novatian rule, 'to exhort to the repentance of atonement, and to take away the healing', so that the penitent 'shall die without the pale of the Church'; corroboration of the rule from a hostile witness",
+    "witness": "Cyprian, Epistle 51.28, tr. Ernest Wallis (anf05_hippolytus-cyprian-caius-novatian l.34101-34108)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: Cyprian, 'he who is not in the Church of Christ is not a Christian'",
+    "witness": "Cyprian, Epistle 51 (anf05_hippolytus-cyprian-caius-novatian l.33975-33977)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: Dionysius of Alexandria to Novatian, 'For it were better to suffer everything, rather than divide the Church of God' (modern: 'It would have been right to suffer anything at all rather than split the Church of God', renderings comparison E31)",
+    "witness": "Dionysius, letter, in Eusebius VI.45, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.38922-38925)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: Acesius at Nicaea and Constantine's 'Place a ladder, Acesius, and climb alone into heaven'; Socrates had it from Auxanon and says no other writer mentions it; Sozomen retells it",
+    "witness": "Socrates I.10 and I.13 (npnf202_socrates-sozomen-ecclesiastical-histories l.3687-3732, 3855-3858); Sozomen I.22 (l.28087)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: Cornelius's further charges: hid in his chamber in the persecution and 'was an admirer of another philosophy'; baptized on his sickbed; made communicants swear never to turn to Cornelius",
+    "witness": "Cornelius, in Eusebius VI.43.14-19 (npnf201_eusebius-church-history-life-of-constantine l.38630-38635, 38709-38717, 38761-38774). One hostile witness",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: the Novatian churches 'spread throughout the East and West, and continued in existence until the sixth century'",
+    "witness": "McGiffert's note to Eusebius VI.43 alone (npnf201_eusebius-church-history-life-of-constantine l.38242-38244); no ancient witness held",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Card: On the Trinity 'both able and orthodox'",
+    "witness": "McGiffert (npnf201_eusebius-church-history-life-of-constantine l.38244-38245)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Card: much of what is known 'to be got only from his enemies'; Lardner, 'we have not one remaining line of his in self-defence'",
+    "witness": "Wallis's introductory notice (anf05_hippolytus-cyprian-caius-novatian l.60359-60363); Coxe quoting Lardner (l.60300-60308)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Card: the book of 354, 'supervenit Novatus ex Africa et separavit de ecclesia Novatianum'; 'Novatus extra ecclesiam ordinavit Novatianum in urbe Roma'",
+    "witness": "Book of 354, ed. Mommsen (chronica-minora-liber-genealogus_mommsen1892 l.13118-13119, 13123-13124, OCR); Socrates's editor: the Greek writers call him Novatus, confusing him with another (npnf202 l.14061-14064); Jerome, Lives 70 (npnf203 l.40890-40891)",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "How Novatian was made bishop",
+    "sides": "Socrates, a sympathetic witness: by bishops who shared his views (npnf202_socrates-sozomen-ecclesiastical-histories l.14082-14084). Cornelius, an enemy: three rustic bishops from a corner of Italy, deceived, made drunk and forced (npnf201_eusebius-church-history-life-of-constantine l.38518-38534)."
+   },
+   {
+    "claim": "Novatian sought the bishopric",
+    "sides": "Cornelius: he long desired it while swearing he did not (npnf201 l.38383-38386, 38461-38463). McGiffert: no reason to doubt his sincerity; he may well have been urged against his will (l.38463-38470, 38913-38919). Dionysius of Alexandria took him to have sought it (l.38918-38919, 38922-38925)."
+   },
+   {
+    "claim": "Novatian shirked his duty in the persecution",
+    "sides": "Cornelius for (npnf201_eusebius-church-history-life-of-constantine l.38709-38717); McGiffert against, 'certainly a calumny'; Neander, as McGiffert reports: ascetic withdrawal (l.38717-38722)."
+   },
+   {
+    "claim": "Novatian died a martyr under Valerian",
+    "sides": "Socrates IV.28 for (npnf202_socrates-sozomen-ecclesiastical-histories l.14132-14133); Valesius, in the edition's note, against: the Novatians' Martyrdom of Novatian full of fables and calling him only a confessor (l.14134-14141)."
+   },
+   {
+    "claim": "Socrates was a Novatian",
+    "sides": "Nicephorus, Baronius, Labbaeus and others for (npnf202_socrates-sozomen-ecclesiastical-histories l.941-1027); Valesius, followed by most later writers: only impartial (l.1034-1038)."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Novatian's own defense of the split",
+    "note": "No letter of his on the split is held; only Socrates's summary of his letter to the churches (npnf202 l.14084-14090). Coxe quotes Lardner: not one line of his own defense remains (anf05 l.60305-60308)."
+   },
+   {
+    "detail": "The end of the Novatian churches",
+    "note": "The ancient record held stops with Socrates (after 439). McGiffert's 'until the sixth century' has no held ancient witness."
+   }
+  ]
+ },
+ "pontius-the-deacon": {
+  "claims": [
+   {
+    "claim": "The proconsul Paternus, on letters of the emperors Valerian and Gallienus, sent Cyprian, bishop of Carthage, into exile at Curubis ('exsul ad urbem Curubitanam'), in the year of Valerian's fourth and Gallienus's third consulship",
+    "witness": "Acta Proconsularia 1, ed. Hartel (cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3 l.41413-41432); Life 11 (anf05_hippolytus-cyprian-caius-novatian l.28000-28004)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "That year is 257 and Cyprian's death 258",
+    "witness": "Editors' reckoning from the consuls (Acta, cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3 l.41415, 41474); Coxe's note 'a.d. 258' (anf05 l.28059-28060)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "The writer went with him by choice: 'the condescension of his love had chosen me among his household companions to a voluntary exile' (Latin 'inter domesticos comites ... exulem uoluntarium')",
+    "witness": "Life of Cyprian 12, tr. E. Wallis (anf05 l.28056-28058); Latin ed. Hartel (cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3 l.41014-41015)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "He belongs to the Latin church of North Africa",
+    "witness": "World census, Latin Pastoral-Congregational Christianity (people list); the Life shows him in the Carthage circle of Cyprian ('we, his associates and friends', anf05 l.28183-28184)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "On the first day at Curubis Cyprian told him a dream: a young man led him before the proconsul, who noted a sentence 'for he had asked nothing of me with the accustomed interrogation'; the youth, 'with hand expanded and flattened like a blade', imitated the stroke of execution",
+    "witness": "Life of Cyprian 12, tr. Wallis (anf05 l.28054-28074); Latin ed. Hartel (l.41013-41026)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'after the year was expired, he was crowned, on that day on which, at the commencement of the year, the fact had been announced to him'; he was beheaded by the sword",
+    "witness": "Life of Cyprian 13 and 18, tr. Wallis (anf05 l.28098-28102, 28260-28266); Acta 4-5, ed. Hartel (l.41577, 41588-41592)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "He wrote because 'our fathers have given such honour even to lay-people and catechumens who have obtained martyrdom ... as to record ... the circumstances of their sufferings', so the passion of a priest and martyr 'who, independently of his martyrdom, had much to teach' should not be passed over",
+    "witness": "Life of Cyprian 1, tr. Wallis (anf05 l.27677-27685); Latin ed. Hartel (l.40262-40302)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "He writes as an admirer, praising Cyprian throughout, and begins at the conversion: 'He may have had pursuits previously ... but these things I pass over'",
+    "witness": "Life of Cyprian 1-2, tr. Wallis (anf05 l.27685-27692, 27701-27708)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "As a new convert Cyprian sold his goods and gave out nearly the whole price to the poor: 'distractis rebus suis ad indigentium multorum pacem sustinendam tota prope pretia dispensans' ('prope' is Hartel's correction, 'prope scripsi'); Wallis's English, 'the purchase-money of entire estates', follows the Oxford reading 'praedia pretio'",
+    "witness": "Life of Cyprian 2, ed. Hartel with apparatus (cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3 l.40376-40378, 40407-40409); tr. Wallis (anf05 l.27730-27732)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "In the plague people fled the contagion, 'impiously exposing their own friends'; Cyprian told the gathered people 'there was nothing wonderful in our cherishing our own people only', since God sends sun and showers 'not only to His people, but to aliens also'; 'what is good was done ... to all men, not to those only who are of the household of faith'",
+    "witness": "Life of Cyprian 9-10, tr. Wallis (anf05 l.27939-27945, 27959-27969, 27990-27992); Latin ed. Hartel (l.40782-40790, 40853-40856)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Life ends: 'Much and excessively I exult at his glory; but still more do I grieve that I remained behind' (Latin 'multum ac nimis multum de gloria eius exulto, plus tamen doleo quod remansi')",
+    "witness": "Life of Cyprian 19, tr. Wallis (anf05 l.28302-28303); Latin ed. Hartel (l.41409-41410)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Life never gives its writer's name; the heading 'By Pontius the Deacon' is the edition's",
+    "witness": "Life read whole, tr. Wallis (anf05 l.27661-28303) and ed. Hartel (l.40262-41410)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Jerome: 'Pontius, deacon of Cyprian, sharing his exile until the day of his death, left a notable volume On the life and death of Cyprian'; the work runs to the fourteenth year of Theodosius (392), about 130 years after 258",
+    "witness": "Jerome, Lives of Illustrious Men 68 and preface, tr. E. C. Richardson (npnf203_theodoret-jerome-gennadius-rufinus l.40833-40835, 38784-38786)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bede repeats Jerome: 'cuius vitae et passionis volumen egregium dereliquit Pontius diaconus eius, qui usque ad diem passionis eius cum ipso exilium sustinuit'",
+    "witness": "Bede, Chronica maiora, ed. Mommsen (bede_chronica-maiora-in-chronica-minora-3-mgh-aa-13-lat_mommsen1898 l.23906-23909)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Harnack: no surviving manuscript names Pontius as author, the Cheltenham list of 359 has the Life without his name, neither name nor diaconate can be drawn from the Life, and Jerome followed a tradition of unknown source",
+    "witness": "Harnack, Das Leben Cyprians von Pontius (harnack_vita-cypriani-commentary-lat-deu_1913 l.260-262, 332-341)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Hartel heads the Life 'Pontio diacono uulgo adscripta'",
+    "witness": "Hartel (cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3 l.40258-40260; preface l.39335-39336)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Pontius says the gardens Cyprian 'at the beginning of his faith he had sold' were restored by God's mercy; Benson reports Ritschl's view that they were confiscated later and Pontius mistook it for a sale, and says friends bought them in",
+    "witness": "Life of Cyprian 15, tr. Wallis (anf05 l.28166-28168); Benson, Cyprian (benson_cyprian-his-life-his-times-his-work_1897 l.2875-2905, OCR)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Coxe: Pontius 'is said to have followed his beloved bishop, a.d. 258, dying a martyr'; Richardson: 'Died about 260'; neither names a source",
+    "witness": "Coxe's note 2106 (anf05 l.28059-28060); Richardson's note 2483 (npnf203 l.40833)",
+    "formation_confidence": "Inferential-Thin"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Cyprian sold his gardens at his conversion",
+    "sides": "Pontius, Life 15 (anf05 l.28166-28168), followed by Benson (benson_cyprian 1897 l.2875-2878); against: O. Ritschl, as Benson reports him, who held they were confiscated later and Pontius mistook this for a sale (l.2901-2905)"
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "The writer's name and office",
+    "note": "Not in the Life; both rest on Jerome, Lives 68 (npnf203 l.40833-40835)."
+   },
+   {
+    "detail": "Who read the Life, and what became of Pontius",
+    "note": "Beyond Jerome, and Bede repeating him, no held ancient text names Pontius or cites the Life."
+   },
+   {
+    "detail": "His birthplace and life before the exile",
+    "note": "The Life gives none."
+   }
+  ]
+ },
+ "dionysius-of-alexandria": {
+  "claims": [
+   {
+    "claim": "Around 250 Decius ordered a persecution: 'at the very hour when the Decian persecution was commanded'; McGiffert dates the edicts 'early in the year 250'",
+    "witness": "Dionysius to Germanus, in Eusebius VI.40, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.37644-37645); McGiffert's note (npnf201_eusebius-church-history-life-of-constantine l.37408-37409)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Soldiers came for him: an officer was sent 'to search for me'; 'having been seized with those that were with me, I was taken by the soldiers to Taposiris'",
+    "witness": "Dionysius to Germanus, in Eusebius VI.40, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.37647-37650, 37683-37686)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "He was bishop of Alexandria, succeeding Heraclas in the third year of Philip",
+    "witness": "Eusebius VI.35, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.37071-37080)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "He had been a pupil of Origen and had charge of the catechetical school before he became bishop",
+    "witness": "Eusebius VI.29, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.36552-36559); Jerome, Lives of Illustrious Men 69 (npnf203_theodoret-jerome-gennadius-rufinus l.40842-40844)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Another bishop spoke against him: Germanus, 'a contemporary bishop who was endeavoring to slander him'",
+    "witness": "Eusebius VII.11, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.40110-40116)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "His answer: 'I did not flee on my own impulse nor without divine direction'",
+    "witness": "Dionysius to Germanus, in Eusebius VI.40, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.37640-37642)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Guests from a country wedding burst in, the soldiers fled, and the guests 'seized me by the hands and feet and dragged me away'; his own account",
+    "witness": "Dionysius to Germanus, in Eusebius VI.40, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.37710-37736)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Novatian (Eusebius's 'Novatus') denied the fallen any hope: 'as if there was no longer for them a hope of salvation'; Jerome: he 'attempted to usurp the sacerdotal chair occupied by Cornelius'",
+    "witness": "Eusebius VI.43, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.38265-38270); Jerome, Lives of Illustrious Men 70 (npnf203_theodoret-jerome-gennadius-rufinus l.40887-40890)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Dionysius had ordered 'that persons at the point of death, if they requested it ... should receive remission'",
+    "witness": "Dionysius to Fabius, in Eusebius VI.44, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.38856-38859)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "To Novatian: 'It would have been right to suffer anything at all rather than split the Church of God' (our English; printed 'For it were better to suffer everything, rather than divide the Church of God'; Greek 'ἔδει μὲν γὰρ καὶ πᾶν ὁτιοῦν παθεῖν ὑπὲρ τοῦ μὴ διακόψαι τὴν ἐκκλησίαν τοῦ θεοῦ'; Rufinus 'oportuerat quidem etiam pati omnia, ne scinderetur ecclesia dei')",
+    "witness": "Dionysius to Novatian, in Eusebius VI.45, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.38922-38925); Greek, ed. Schwartz (eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908 l.7363-7364, OCR); Rufinus, ed. Mommsen (eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908 l.7434-7435); Jerome, Lives 69 (npnf203_theodoret-jerome-gennadius-rufinus l.40852-40857)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "To Stephen of Rome: 'all the churches throughout the East and beyond, which formerly were divided, have become united'; Eusebius: they 'had rejected the novelty of Novatus, and were at peace'",
+    "witness": "Dionysius to Stephen, in Eusebius VII.4-5, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.39346-39348, 39358-39361)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bishops in Pentapolis, Upper Libya, 'held with Sabellius', 'ascribing His human actions to the Father'; Dionysius wrote to show 'that the Father is not a Son'; Basil: the Father and the Son 'are not identical'",
+    "witness": "Athanasius, On the Opinion of Dionysius 5, tr. Robertson (npnf204_athanasius-select-works-letters l.29577-29612); Dionysius in Eusebius VII.6 (npnf201_eusebius-church-history-life-of-constantine l.39512-39520); Basil, Letter 9.2, tr. Jackson (npnf208_basil-letters-select-works l.23728-23730)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'as the husbandman is from the vine, or the ship-builder from the boat'; Athanasius: 'Yes, he wrote it'",
+    "witness": "Athanasius, On the Opinion of Dionysius 4, tr. Robertson (npnf204_athanasius-select-works-letters l.29543-29548)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Accused at Rome: brethren 'went up to Rome; and they spoke against him' before Dionysius of Rome; he was 'suspected of saying that the Son' was 'a thing made and originated'",
+    "witness": "Athanasius, On the Opinion 13 (npnf204_athanasius-select-works-letters l.29870-29883); Defence of the Nicene Definition 25 (npnf204_athanasius-select-works-letters l.28435-28440)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "He answered 'that this was a slander upon him', in books inscribed 'a Refutation and a Defence'; four books to Dionysius of Rome",
+    "witness": "Athanasius, Defence of the Nicene Definition 25 (npnf204_athanasius-select-works-letters l.28441-28443); On the Opinion 13 (npnf204_athanasius-select-works-letters l.29883-29884); Eusebius VII.26 (npnf201_eusebius-church-history-life-of-constantine l.41670-41672); Jerome, Lives 69 (npnf203_theodoret-jerome-gennadius-rufinus l.40870-40871)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "A century later the Arians, who call the Son a creature, claimed him: 'vilifying the blessed Dionysius ... as a partisan and accomplice of their own'",
+    "witness": "Athanasius, On the Opinion of Dionysius 1-2, tr. Robertson (npnf204_athanasius-select-works-letters l.29428-29454, 29475-29479); death in the twelfth year of Gallienus, Eusebius VII.28 (npnf201_eusebius-church-history-life-of-constantine l.41901-41902)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Athanasius defended him: he 'composed a defence of himself upon the suspicious points, and came out clearly as of right opinions'; he 'died honourably within it, and his memory is retained and registered along with the fathers'",
+    "witness": "Athanasius, On the Opinion of Dionysius 3 and 6, tr. Robertson (npnf204_athanasius-select-works-letters l.29520-29528, 29622-29624)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Basil: 'like a woodman trying to straighten some ill-grown sapling, pulling so immoderately in the opposite direction'; 'carried away unawares by his zeal into the opposite error'; 'it is he, as far as I know, who first gave men the seeds' of the Anomoean impiety",
+    "witness": "Basil, Letter 9.2, tr. Jackson (npnf208_basil-letters-select-works l.23712-23728)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Nepos, 'a bishop in Egypt', taught 'a certain millennium of bodily luxury upon this earth' from the Revelation of John",
+    "witness": "Eusebius VII.24, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.41287-41295)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "At Arsinoe he called together 'the presbyters and teachers of the brethren in the villages' for 'three successive days'; Coracion, 'the author and mover of this teaching', said he would no longer hold it; Dionysius's own account",
+    "witness": "Dionysius, On Promises, in Eusebius VII.24, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.41343-41378)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'I could not venture to reject the book'; from 'the character of both, and the forms of expression' and its Greek ('not accurate Greek ... barbarous idioms') the writer was not the apostle but 'some other one of those in Asia'",
+    "witness": "Dionysius, On Promises, in Eusebius VII.25, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.41418-41419, 41453-41476, 41555-41564, 41607-41637)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Eusebius copied the argument out (VII.25 entire) and left open which John saw the Revelation: 'it is probable that it was the second, if one is not willing to admit that it was the first'; the Apocalypse among the accepted 'if it really seem proper' and among the rejected, 'which some ... reject'",
+    "witness": "Eusebius VII.25 (npnf201_eusebius-church-history-life-of-constantine l.41390-41643); III.39.6 (npnf201_eusebius-church-history-life-of-constantine l.20548-20550); III.25 (npnf201_eusebius-church-history-life-of-constantine l.18011-18012, 18153-18156)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "McGiffert: Eusebius 'was undoubtedly thinking of' Dionysius's suggestion",
+    "witness": "McGiffert's note to Eusebius III.39 (npnf201_eusebius-church-history-life-of-constantine l.20550-20553)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Bishop from 246-247; died 264-265 (McGiffert's reckoning of Philip's third year and Gallienus's twelfth)",
+    "witness": "McGiffert's notes (npnf201_eusebius-church-history-life-of-constantine l.37073-37074, 37530-37531, 41902-41905)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "McGiffert: Germanus 'had accused Dionysius of cowardice' and was bishop 'of some see, unknown to us'",
+    "witness": "McGiffert's note to Eusebius VI.40 (npnf201_eusebius-church-history-life-of-constantine l.37606-37609)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "McGiffert: οἱ παῖδες, those with him, read as 'children', 'pupils' or 'servants'",
+    "witness": "McGiffert's note to Eusebius VI.40 (npnf201_eusebius-church-history-life-of-constantine l.37662-37675)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Robertson: the four books 'put an end to the controversy'",
+    "witness": "Robertson, introduction to De Sententia Dionysii (npnf204_athanasius-select-works-letters l.29241-29245)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Jackson: Westcott quotes Lumper as putting Basil's charge down to 'imperfect acquaintance with his writings'; in Letter 188 Basil calls him 'the great Dionysius'",
+    "witness": "Jackson's note to Basil (npnf208_basil-letters-select-works l.14427-14433); Basil, Letter 188 (npnf208_basil-letters-select-works l.34882)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Rebaptism: he wrote to Stephen on behalf of churches that rebaptized; received from Heraclas the rule of receiving converts from heresy 'without requiring of them another baptism'; would not overturn the synods of Iconium and Synnada; asked Xystus for counsel on a man baptized among heretics; Jerome: 'Consenting to the doctrine of Cyprian and the African synod, on the rebaptizing of heretics'; Basil: 'I am astonished how this can have escaped Dionysius'",
+    "witness": "Eusebius VII.5, 7, 9, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.39445-39457, 39635-39696, 39809-39857); Jerome, Lives 69 (npnf203_theodoret-jerome-gennadius-rufinus l.40844-40846); Basil, Letter 188, tr. Jackson (npnf208_basil-letters-select-works l.34769-34785)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Letters on the schism to Fabius of Antioch, 'who seemed to lean somewhat toward this schism', to Cornelius, and to the Roman confessors who held with Novatus, and two more after they returned",
+    "witness": "Eusebius VI.44, VI.46, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.38828-38830, 39000-39002, 39104-39111)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Died in the twelfth year of Gallienus, after seventeen years as bishop; too old and weak to attend the synod on Paul of Samosata",
+    "witness": "Eusebius VII.28 and VII.27, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.41901-41907, 41838-41851); Jerome, Lives 69 (npnf203_theodoret-jerome-gennadius-rufinus l.40878-40880)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Eusebius calls him 'the great bishop of Alexandria, Dionysius'",
+    "witness": "Eusebius VII, introduction, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.39132-39134)",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Whether Dionysius, against Sabellius, fell into the opposite error",
+    "sides": "Athanasius: he explained himself, was of right opinion and died honored in the church (On the Opinion 3, 6; npnf204_athanasius-select-works-letters l.29520-29528, 29622-29624). Basil: carried by zeal into the opposite error, first giving men the seeds of the Anomoean impiety (Letter 9.2; npnf208_basil-letters-select-works l.23712-23728). Robertson says the four books ended the controversy (npnf204_athanasius-select-works-letters l.29241-29245); Lumper, via Westcott and Jackson, blames Basil's imperfect knowledge (npnf208_basil-letters-select-works l.14429-14432)."
+   },
+   {
+    "claim": "Whether the apostle John wrote the Revelation",
+    "sides": "Dionysius: a holy man named John, but not the apostle (Eusebius VII.25; npnf201_eusebius-church-history-life-of-constantine l.41453-41476, 41555-41564); some before him rejected the book and gave it to Cerinthus (npnf201_eusebius-church-history-life-of-constantine l.41393-41402). Eusebius leans to the second John but leaves it open (npnf201_eusebius-church-history-life-of-constantine l.20548-20550, 18011-18012, 18153-18156)."
+   },
+   {
+    "claim": "Dionysius's stance on rebaptism",
+    "sides": "His own letters show him keeping Heraclas's rule of no second baptism for those returning from heresy while refusing to overturn synods that rebaptized (npnf201_eusebius-church-history-life-of-constantine l.39635-39696, 39809-39857). Jerome says he agreed with Cyprian on rebaptizing heretics (npnf203_theodoret-jerome-gennadius-rufinus l.40844-40846). Basil wonders that he accepted the Pepuzeni's baptism (npnf208_basil-letters-select-works l.34769-34785)."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "An ancient year for the persecution and his election",
+    "note": "Eusebius gives reigns only (Philip's third year, Decius's persecution; npnf201_eusebius-church-history-life-of-constantine l.37071-37080, 37644-37645); the years are McGiffert's (npnf201_eusebius-church-history-life-of-constantine l.37409, 37530-37531)."
+   },
+   {
+    "detail": "A reply from Novatian, or what Stephen and Xystus answered on rebaptism",
+    "note": "No held source gives them."
+   },
+   {
+    "detail": "That Dionysius's argument caused Eusebius's view of the Revelation",
+    "note": "No ancient source says so; the brief sets the two side by side and claims no cause. McGiffert alone thinks Eusebius had it in mind."
+   }
+  ]
+ }
 }

@@ -1,409 +1,1266 @@
 {
-  "josephus": {
-    "claims": [
-      {
-        "claim": "Josephus asked Titus for his family and the holy books; three crucified acquaintances",
-        "witness": "Josephus, Life",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Born first year of Caius (37), priestly family",
-        "witness": "Josephus, Life",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Prediction to Vespasian at Jotapata",
-        "witness": "Josephus, Jewish War III; Suetonius, Vespasian 5",
-        "formation_confidence": "Widely Accepted"
-      },
-      {
-        "claim": "James passage names Jesus called Christ",
-        "witness": "Antiquities XX; McGiffert note: Neander and common opinion genuine, some critics doubt the phrase",
-        "formation_confidence": "Widely Accepted"
-      },
-      {
-        "claim": "Testimonium Flavianum wording is Josephus's own",
-        "witness": "Antiquities XVIII; Origen; McGiffert four views; Whiston",
-        "formation_confidence": "Contested"
-      }
-    ],
-    "contested_claims": [
-      {
-        "claim": "Testimonium Flavianum wording is Josephus's own",
-        "sides": "Antiquities XVIII; Origen; McGiffert four views; Whiston"
-      }
-    ]
-  },
-  "ignatius-of-antioch": {
-    "claims": [
-      {
-        "claim": "Taken under guard from Syria to Rome; wrote from Smyrna and Troas",
-        "witness": "Ignatius, letters; Eusebius HE III.36",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Second bishop of Antioch after Peter",
-        "witness": "Eusebius HE III.36 (tradition, via Origen)",
-        "formation_confidence": "Inferential-Thin"
-      },
-      {
-        "claim": "Died by wild beasts at Rome",
-        "witness": "Eusebius HE III.36 (\"Report says\"); Irenaeus",
-        "formation_confidence": "Widely Accepted"
-      },
-      {
-        "claim": "Shorter Greek recension of seven letters is genuine",
-        "witness": "Daillé 1666 and Cureton 1845 against; Pearson 1672, Zahn and Lightfoot for; McGiffert 1890: settled, some still deny",
-        "formation_confidence": "Dominant Modern Reconstruction"
-      },
-      {
-        "claim": "Death in 107 under Trajan",
-        "witness": "Eusebius Chronicle vs Zahn, Lightfoot, Harnack",
-        "formation_confidence": "Contested"
-      },
-      {
-        "claim": "First use of \"Catholic Church\"",
-        "witness": "Coxe, ANF introductory note (one modern judgment)",
-        "formation_confidence": "Inferential-Thin"
-      }
-    ],
-    "contested_claims": [
-      {
-        "claim": "Death in 107 under Trajan",
-        "sides": "Eusebius Chronicle vs Zahn, Lightfoot, Harnack"
-      }
-    ]
-  },
-  "marcion-of-pontus": {
-    "claims": [
-      {
-        "claim": "Taught two gods, Creator and a higher good God",
-        "witness": "Justin, Irenaeus, Tertullian (independent on teaching)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Cut down Luke and Paul",
-        "witness": "Irenaeus I.27; Tertullian AM IV",
-        "formation_confidence": "Widely Accepted"
-      },
-      {
-        "claim": "Shipmaster of Pontus; money returned; offered repentance",
-        "witness": "Tertullian alone (partisan)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Polycarp called him first-born of Satan",
-        "witness": "Irenaeus III.3.4 (one witness, partisan)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Bishop's son excommunicated for violating a virgin",
-        "witness": "Pseudo-Tertullian Adv. omn. haer. 6 and Epiphanius 42.1 for; Holl: Tertullian's silence against",
-        "formation_confidence": "Contested"
-      },
-      {
-        "claim": "From Sinope",
-        "witness": "Epiphanius 42.1 alone (Filastrius depends on him, Holl)",
-        "formation_confidence": "Inferential-Thin"
-      },
-      {
-        "claim": "At Rome under Eleutherus (Tertullian) or Anicetus (Irenaeus)",
-        "witness": "Tertullian Praescr 30 vs Irenaeus III.4.3",
-        "formation_confidence": "Contested"
-      }
-    ],
-    "contested_claims": [
-      {
-        "claim": "Bishop's son excommunicated for violating a virgin",
-        "sides": "Pseudo-Tertullian Adv. omn. haer. 6 and Epiphanius 42.1 for; Holl: Tertullian's silence against"
-      },
-      {
-        "claim": "At Rome under Eleutherus (Tertullian) or Anicetus (Irenaeus)",
-        "sides": "Tertullian Praescr 30 vs Irenaeus III.4.3"
-      }
-    ]
-  },
-  "justin-martyr": {
-    "claims": [
-      {
-        "claim": "Son of Priscus, of Flavia Neapolis",
-        "witness": "Justin, First Apology 1",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Conversion through the philosophers and the old man",
-        "witness": "Justin, Dialogue 2-8 (his own account)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Trial before Rusticus and beheading",
-        "witness": "Martyrdom of Justin (date and author unknown)",
-        "formation_confidence": "Widely Accepted"
-      },
-      {
-        "claim": "Crescens caused his death",
-        "witness": "Eusebius HE IV.16 vs McGiffert note (Acts silent)",
-        "formation_confidence": "Contested"
-      },
-      {
-        "claim": "Date of death under Marcus Aurelius, after 163",
-        "witness": "McGiffert note; two traditions",
-        "formation_confidence": "Contested"
-      }
-    ],
-    "contested_claims": [
-      {
-        "claim": "Crescens caused his death",
-        "sides": "Eusebius HE IV.16 vs McGiffert note (Acts silent)"
-      },
-      {
-        "claim": "Date of death under Marcus Aurelius, after 163",
-        "sides": "McGiffert note; two traditions"
-      }
-    ]
-  },
-  "clement-of-alexandria": {
-    "claims": [
-      {
-        "claim": "Teachers in Greece, Magna Graecia, East; found the last in Egypt",
-        "witness": "Clement, Stromata I.1",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "That teacher was Pantaenus",
-        "witness": "Eusebius HE V.11 (\"It seems to me\")",
-        "formation_confidence": "Widely Accepted"
-      },
-      {
-        "claim": "Presbyter; led the school after Pantaenus; taught Origen",
-        "witness": "Jerome, Lives 38; Eusebius VI.6",
-        "formation_confidence": "Widely Accepted"
-      },
-      {
-        "claim": "Carried Alexander's letter to Antioch",
-        "witness": "Eusebius HE VI.11",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Left Alexandria in 202 in the persecution under Severus",
-        "witness": "McGiffert, reading Eusebius VI.3 (all teachers driven away)",
-        "formation_confidence": "Dominant Modern Reconstruction"
-      }
-    ],
-    "contested_claims": []
-  },
-  "eusebius-of-caesarea": {
-    "claims": [
-      {
-        "claim": "In Diocletian's nineteenth year (303), near the Passion feast, edicts commanded 'that the churches be leveled to the ground and the Scriptures be destroyed by fire'",
-        "witness": "Eusebius, Church History VIII.2, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.43480-43489)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Pamphilus, 'my dearest friend', the only presbyter at Caesarea among the martyrs, excelled 'in most sincere devotion to the Divine Scriptures'; tortured with 'continuous and prolonged scrapings' and put in prison; at last punished with his companions",
-        "witness": "Eusebius, Martyrs of Palestine 7 and 11, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.46694-46709, 47072-47078, 47190-47198)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Eusebius wrote of the martyrs of Palestine, and a separate Life of Pamphilus in three books",
-        "witness": "Eusebius, Martyrs of Palestine 11 (npnf201_eusebius-church-history-life-of-constantine l.47080-47083); Church History VII.32.25 (npnf201_eusebius-church-history-life-of-constantine l.43040-43044)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Eusebius, 'surnamed Pamphilus, bishop of Caesarea in Palestine'",
-        "witness": "Socrates I.8, tr. Zenos (npnf202_socrates-sozomen-ecclesiastical-histories l.2970-2972); II.4 (npnf202_socrates-sozomen-ecclesiastical-histories l.5801-5803)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "'since I am the first to enter upon the subject, I am attempting to traverse as it were a lonely and untrodden path'",
-        "witness": "Eusebius, Church History I.1.3, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.6936-6937)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "He gathered matters from earlier writers, 'having plucked like flowers from a meadow the appropriate passages from ancient writers'",
-        "witness": "Eusebius, Church History I.1.5 (npnf201_eusebius-church-history-life-of-constantine l.6961-6964)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Socrates writes 'the details of what has taken place in the churches since his time to our own day'; Theodoret: 'I shall begin my history from the period at which his terminates'",
-        "witness": "Socrates I.1, tr. Zenos (npnf202_socrates-sozomen-ecclesiastical-histories l.1864-1867); Theodoret I.1, tr. Jackson (npnf203_theodoret-jerome-gennadius-rufinus l.5219-5222)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Socrates: in the Life of Constantine Eusebius 'has but slightly treated of matters regarding Arius, being more intent on the rhetorical finish of his composition and the praises of the emperor, than on an accurate statement of facts'",
-        "witness": "Socrates I.1 (npnf202_socrates-sozomen-ecclesiastical-histories l.1861-1864)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "At Nicaea his own formula was read before the emperor, who approved it and advised 'the insertion of the single word, One-in-essence', which he read 'not in the sense of the affections of bodies'",
-        "witness": "Eusebius, Letter to his diocese 1 and 4, NPNF 2.4 (npnf204_athanasius-select-works-letters l.19563-19568, 19655-19661); Greek of the word in Socrates I.8, ed. Hussey (socrates_historia-ecclesiastica-tomus1-grc-lat_hussey1853 l.7154-7159, OCR)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "'we did not let it pass without inquiry in what sense they introduced \"of the essence of the Father,\" and \"one in essence with the Father\"'",
-        "witness": "Eusebius, Letter to his diocese 5 and 8 (npnf204_athanasius-select-works-letters l.19698-19701, 19866-19867), his own account",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Eusebius 'had held aloof for a short time', then 'subscribed it with all the rest' and sent his people the creed with an explanation of homoousios",
-        "witness": "Socrates I.8 (npnf202_socrates-sozomen-ecclesiastical-histories l.2970-2978); Sozomen I.21, 'withheld his assent for a little while' (npnf202_socrates-sozomen-ecclesiastical-histories l.28002-28003); Athanasius, De Decretis 3, 'had denied the day before, but afterwards subscribed' (npnf204_athanasius-select-works-letters l.26780-26781)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Some 'attempted to stigmatize even Eusebius Pamphilus himself as having favored the Arian views'; Socrates defends him",
-        "witness": "Socrates II.21 (npnf202_socrates-sozomen-ecclesiastical-histories l.6914-6920)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Athanasius: 'I have subjoined at the end the letter of Eusebius', who had not denied 'the \"one in essence\"'",
-        "witness": "Athanasius, De Decretis 3, NPNF 2.4 (npnf204_athanasius-select-works-letters l.26780-26795), a hostile witness",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Socrates used Eusebius's account of the council, 'treating what he has said as an authority', and gave the letter 'as follows in his own words'",
-        "witness": "Socrates I.8 (npnf202_socrates-sozomen-ecclesiastical-histories l.2837-2838, 2866-2868, 2978-2979; the letter to l.3157)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Born not far from 260; died late in 339 or early in 340",
-        "witness": "McGiffert's prolegomena (npnf201_eusebius-church-history-life-of-constantine l.1121-1122, 2774-2786)",
-        "formation_confidence": "Dominant Modern Reconstruction"
-      },
-      {
-        "claim": "Eustathius of Antioch accused him of perverting the Nicene Creed; he answered that Eustathius held the opinion of Sabellius",
-        "witness": "Socrates I.23 (npnf202_socrates-sozomen-ecclesiastical-histories l.4708-4711)",
-        "formation_confidence": "Contested"
-      },
-      {
-        "claim": "Escaped prison by an unlawful promise",
-        "witness": "Potamo at Tyre, in Epiphanius, Panarion 68.8, Petavius's Latin (epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860 l.44663-44672), a partisan of Athanasius; McGiffert's prolegomena: Potamo 'simply conjectures', and Athanasius says only 'accused of sacrificing' (npnf201_eusebius-church-history-life-of-constantine l.1514-1543)",
-        "formation_confidence": "Contested"
-      },
-      {
-        "claim": "Constantine told him of the cross of light and 'confirmed his statement by an oath'; Richardson: the account 'has met with doubters from the very beginning, commencing with Eusebius himself'",
-        "witness": "Eusebius, Life of Constantine I.28, tr. Richardson (npnf201_eusebius-church-history-life-of-constantine l.61196-61211)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "He took the name Eusebius Pamphili after Pamphilus's death",
-        "witness": "McGiffert's note to Church History VII.32.25 (npnf201_eusebius-church-history-life-of-constantine l.43009-43012)",
-        "formation_confidence": "Widely Accepted"
-      },
-      {
-        "claim": "He was present when crowds were put to death in a day in the Thebaid",
-        "witness": "Eusebius, Church History VIII.9.4 (npnf201_eusebius-church-history-life-of-constantine l.44267-44269)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Acacius, his disciple, succeeded him and wrote a sketch of his life",
-        "witness": "Socrates II.4 (npnf202_socrates-sozomen-ecclesiastical-histories l.5801-5805)",
-        "formation_confidence": "Documented"
-      }
-    ],
-    "contested_claims": [
-      {
-        "claim": "Escaped prison by an unlawful promise",
-        "sides": "Potamo of Heraclea, at Tyre in 335, in Epiphanius, Panarion 68.8 (partisan, on the side of Athanasius), for. Against: Arthur McGiffert, who calls it Potamo's conjecture, and notes that Athanasius says only that Eusebius was \"accused of sacrificing\"."
-      },
-      {
-        "claim": "Whether Eusebius kept to the Nicene creed",
-        "sides": "Eustathius of Antioch accused him of perverting it; Eusebius denied it and charged Eustathius with Sabellianism (Socrates I.23). Socrates II.21 defends him against the charge of favoring Arius; Athanasius, De Decretis 3, uses his letter to show he signed."
-      }
-    ],
-    "absent_details": [
-      {
-        "detail": "The Greek of Church History Book I",
-        "note": "Not held; the quotation follows McGiffert's English."
-      },
-      {
-        "detail": "The years of his birth and death",
-        "note": "No held ancient source gives them; McGiffert reckons them."
-      }
-    ]
-  },
-  "hermas": {
-    "claims": [
-      {
-        "claim": "Sold to Rhode in Rome; vision on the road",
-        "witness": "The Shepherd, Vision 1 (the book's own visionary frame)",
-        "formation_confidence": "Inferential-Thin"
-      },
-      {
-        "claim": "Brother of Pius, writing at Rome c. 140-154",
-        "witness": "Muratorian Canon; McGiffert: majority accept",
-        "formation_confidence": "Dominant Modern Reconstruction"
-      },
-      {
-        "claim": "Date of the Shepherd",
-        "witness": "Muratorian Canon and the majority (McGiffert) for mid-second century; Zahn and Salmon for 97-100",
-        "formation_confidence": "Contested"
-      },
-      {
-        "claim": "One repentance after the calling",
-        "witness": "The Shepherd, Mandate IV",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Read as Scripture, then set aside",
-        "witness": "Irenaeus, Tertullian, Muratorian, Eusebius III.25, Jerome (McGiffert note)",
-        "formation_confidence": "Documented"
-      }
-    ],
-    "contested_claims": [
-      {
-        "claim": "Date of the Shepherd",
-        "sides": "Muratorian Canon and the majority (McGiffert) for mid-second century; Zahn and Salmon for 97-100"
-      }
-    ]
-  },
-  "valentinus": {
-    "claims": [
-      {
-        "claim": "At Rome from Hyginus to Anicetus",
-        "witness": "Irenaeus III.4.3 (one witness, partisan)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Passed over for bishop and broke away",
-        "witness": "Tertullian, Against the Valentinians 4 (one witness, partisan)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Taught paired divine powers including Truth",
-        "witness": "Irenaeus I.11; Hippolytus Refutation VI (may depend in part on Irenaeus)",
-        "formation_confidence": "Widely Accepted"
-      },
-      {
-        "claim": "Followers divided people by nature",
-        "witness": "Irenaeus I.6; Clement Strom II.3 (independent)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "A fallen power produced the world",
-        "witness": "Irenaeus I.11 alone",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Heart as caravanserai; the Father makes it shine",
-        "witness": "Clement, Stromata II.20, quoting his letter",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "At Rome under Eleutherus (Tertullian) or earlier (Irenaeus)",
-        "witness": "Tertullian Praescr 30 vs Irenaeus III.4.3",
-        "formation_confidence": "Contested"
-      },
-      {
-        "claim": "Taught by Theudas, pupil of Paul",
-        "witness": "Clement Strom VII.17, reporting followers' claim",
-        "formation_confidence": "Inferential-Thin"
-      }
-    ],
-    "contested_claims": [
-      {
-        "claim": "At Rome under Eleutherus (Tertullian) or earlier (Irenaeus)",
-        "sides": "Tertullian Praescr 30 vs Irenaeus III.4.3"
-      }
-    ]
-  }
+ "josephus": {
+  "claims": [
+   {
+    "claim": "He finished the Antiquities 'to this very day, which is the 13th year of the reign of Caesar Domitian, and the 56th of my own life'; Whiston's note: 'the 13th of Domitian, or A. D. 93'",
+    "witness": "Josephus, Antiquities XX, close, tr. Whiston (josephus_works-antiquities-wars-life_whiston1859 l.91662-91666); Whiston's note (l.91638-91640)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "At Rome under Domitian, who 'still augmented his respects to me'",
+    "witness": "Josephus, Life 76, tr. Whiston (josephus_works-antiquities-wars-life_whiston1859 l.5472-5476)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Of a family of priests: 'hath descended all along from the priests'",
+    "witness": "Josephus, Life 1, tr. Whiston (josephus_works-antiquities-wars-life_whiston1859 l.1385-1397); Eusebius III.9.1, 'a priest of Jerusalem' (npnf201_eusebius-church-history-life-of-constantine l.15911)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Born at Jerusalem: 'I was born at Jerusalem'",
+    "witness": "Josephus, Life 39, tr. Whiston (josephus_works-antiquities-wars-life_whiston1859 l.3323)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Born 'in the first year of the reign of Caius Caesar' (37)",
+    "witness": "Josephus, Life 1, tr. Whiston (josephus_works-antiquities-wars-life_whiston1859 l.1426-1428)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Not a Christian: 'though he did not accept Jesus as Christ'; 'although not believing in Jesus as the Christ'",
+    "witness": "Origen, Commentary on Matthew X.17, tr. Patrick (anf09_gospel-of-peter-diatessaron-origen-commentaries l.30627-30628); Against Celsus I.47, tr. Crombie (anf04_tertullian4-minucius-felix-commodian-origen1-2 l.37933-37934)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Governor of Galilee for the Jews in the rising: 'Josephus, the son of Matthias, of both the Galilees'; appointed by 'the community of Jerusalem with the government of Galilee'",
+    "witness": "Josephus, Jewish War II.20.4 (josephus_works-antiquities-wars-life_whiston1859 l.106926-106927); Life 65 (josephus_works-antiquities-wars-life_whiston1859 l.5112-5116)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Taken by the Romans: 'I was in the power of the Romans before Jerusalem was besieged'",
+    "witness": "Josephus, Life 65 (josephus_works-antiquities-wars-life_whiston1859 l.4740-4742)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "At Rome Vespasian 'gave me an apartment in his own house, which he lived in before he came to the empire', with 'the privilege of a Roman citizen' and a pension",
+    "witness": "Josephus, Life 76, tr. Whiston (josephus_works-antiquities-wars-life_whiston1859 l.5403-5413)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The shorter report: Ananus 'assembled the sanhedrim of judges, and brought before them the brother of Jesus, who was called Christ, whose name was James, and some others ... he delivered them to be stoned'",
+    "witness": "Josephus, Antiquities XX.9.1, tr. Whiston (josephus_works-antiquities-wars-life_whiston1859 l.91002-91010)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Quotation 'the brother of Jesus, who was called Christ, whose name was James'. Rendering A: unchanged. Rendering B: 'the brother of Jesus, who was called Christ, a man named James'. Verdict same; FINAL unchanged",
+    "witness": "Printed: Whiston (josephus_works-antiquities-wars-life_whiston1859 l.91005-91009); Build/Ministry/Operations/Audits/2026-11-16_era1-standard-v1/renderings/comparison.md E1; the Greek in McGiffert's note (npnf201_eusebius-church-history-life-of-constantine l.13594-13602) and in Origen, ed. Lommatzsch (origen_commentarii-in-evangelium-matthaei-tomus3-grc-lat_lommatzsch1834 l.3729-3730)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Origen cites Josephus against Celsus, first on John the Baptist, then: Josephus, 'although not believing in Jesus as the Christ', says 'these disasters happened to the Jews as a punishment for the death of James the Just ... the Jews having put him to death, although he was a man most distinguished for his justice'",
+    "witness": "Origen, Against Celsus I.47, tr. Crombie (anf04_tertullian4-minucius-felix-commodian-origen1-2 l.37925-37942); Commentary on Matthew X.17, tr. Patrick (anf09_gospel-of-peter-diatessaron-origen-commentaries l.30619-30630)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Those words on James's justice and on Jerusalem's fall are not in our copies of Antiquities XX.9.1",
+    "witness": "Josephus, Antiquities XX.9.1, tr. Whiston (josephus_works-antiquities-wars-life_whiston1859 l.90990-91013); McGiffert: 'This passage is not found in our existing mss. of Josephus' (npnf201_eusebius-church-history-life-of-constantine l.13544-13546)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The longer report in our copies: 'Jesus, a wise man, if it be lawful to call him a man ... He was [the] Christ; and when Pilate ... had condemned him to the cross ... he appeared to them alive again the third day'",
+    "witness": "Josephus, Antiquities XVIII.3.3, tr. Whiston (josephus_works-antiquities-wars-life_whiston1859 l.81405-81421)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Quotation 'a wise man, if it is right to call him a man'. Rendering A: as the brief. Rendering B: 'a wise man, if indeed one should call him a man'. Verdict same; FINAL = A",
+    "witness": "Printed: Whiston (josephus_works-antiquities-wars-life_whiston1859 l.81406-81407); Build/Ministry/Operations/Audits/2026-11-16_era1-standard-v1/renderings/comparison.md E2; Josephus's Greek is not held; a later Greek quotation in the Acta Sanctorum, May V (acta-sanctorum_maii-tomus-5-lat_palme1866 l.80256)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Quotation 'He was the Christ'. Rendering A: 'He was the Christ'. Rendering B: 'This man was the Christ.' Verdict minor; FINAL = A. Whiston brackets 'the'; the Greek quotation has the article ('Ὃ Χριστὸς οὗτος ἦν')",
+    "witness": "Printed: Whiston (josephus_works-antiquities-wars-life_whiston1859 l.81411); Build/Ministry/Operations/Audits/2026-11-16_era1-standard-v1/renderings/comparison.md E3; acta-sanctorum_maii-tomus-5-lat_palme1866 l.80262 (a later quotation); McGiffert's English of Eusebius (npnf201_eusebius-church-history-life-of-constantine l.9232)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Quotation 'did not accept Jesus as Christ'. Rendering A: unchanged. Rendering B: 'even though he did not accept that our Jesus was Christ'. Verdict minor: Origen's Greek has 'our' (ἡμῶν); FINAL unchanged",
+    "witness": "Printed: Origen, Commentary on Matthew X.17, tr. Patrick (anf09_gospel-of-peter-diatessaron-origen-commentaries l.30628); Build/Ministry/Operations/Audits/2026-11-16_era1-standard-v1/renderings/comparison.md E4; Greek, ed. Lommatzsch (origen_commentarii-in-evangelium-matthaei-tomus3-grc-lat_lommatzsch1834 l.3731-3732)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Eusebius quotes the passage as we have it, with 'He was the Christ', and asks what excuse is left 'for not convicting them of being destitute of all shame, who have forged the acts against them'",
+    "witness": "Eusebius, Church History I.11.7-9, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.9227-9246)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Jerome gives Josephus chapter 13 of his 'systematic account of ecclesiastical writers' and copies the passage with 'was believed to be Christ'",
+    "witness": "Jerome, Lives of Illustrious Men, preface and 13, tr. E. C. Richardson (npnf203_theodoret-jerome-gennadius-rufinus l.38777-38778, 39706-39733)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Quotation 'was believed to be Christ'. Rendering A: unchanged. Rendering B: unchanged ('and was believed to be Christ'). Verdict same; Jerome's Latin is not held",
+    "witness": "Printed: Richardson (npnf203_theodoret-jerome-gennadius-rufinus l.39729); Build/Ministry/Operations/Audits/2026-11-16_era1-standard-v1/renderings/comparison.md E5",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Neither Origen nor Jerome read the line 'He was the Christ' as our copies give it",
+    "witness": "Inference from Origen (anf09_gospel-of-peter-diatessaron-origen-commentaries l.30628) and Jerome (npnf203_theodoret-jerome-gennadius-rufinus l.39729) set against Whiston (josephus_works-antiquities-wars-life_whiston1859 l.81411); it bears on that line only",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Four modern views of the longer passage: (1) entirely genuine, 'absolutely untenable' to McGiffert; (2) entirely spurious: Hase, Keim, Schürer, and McGiffert ('The second opinion seems to me the correct one'); (3) partly genuine: Gieseler, Weizsäcker, Renan, Edersheim, Schaff; (4) a Jewish calumny rewritten: Ewald. McGiffert: Eusebius 'is the first one to quote this passage', and he rejects the suggestion that Eusebius introduced it",
+    "witness": "McGiffert's note to Eusebius I.11.7 (npnf201_eusebius-church-history-life-of-constantine l.9184-9226)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Whiston defends the testimonies as genuine; the passage on Jesus 'has of late been greatly questioned by many, and rejected by some of the learned as spurious'; against Origen, 'Josephus did not here ... mean any such thing by those words as Jews and Christians naturally understand by them'; Josephus 'was no other, in his own mind and conscience, than a Nazarene or Ebionite Jewish Christian'",
+    "witness": "Whiston, Dissertation I (josephus_works-antiquities-wars-life_whiston1859 l.138236-138252, 139443-139447, 139664-139669)",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "The James phrase: 'Some critics regard the bracketed words as spurious, but Neander ... contends for their genuineness, and this is now the common opinion of critics'; 'no good reason to doubt their genuineness'",
+    "witness": "McGiffert's note to Eusebius II.23.22 (npnf201_eusebius-church-history-life-of-constantine l.13605-13613)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Origen's and Eusebius's copies probably held the Jerusalem line as an interpolation that our manuscripts lack; Eusebius quotes it ('These things happened to the Jews to avenge James the Just'); Jerome: 'Jerusalem was destroyed because of the murder of James the apostle'",
+    "witness": "McGiffert's note to Eusebius II.23.20 (npnf201_eusebius-church-history-life-of-constantine l.13544-13564); Jerome, Lives 13 (npnf203_theodoret-jerome-gennadius-rufinus l.39723-39724)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "The prophecy to Vespasian: 'Thou, O Vespasian, art Caesar and emperor, thou, and this thy son'; Suetonius: Josephus 'confidently affirmed that he should be released in a very short time by the same Vespasian, but he would be emperor first'",
+    "witness": "Josephus, Jewish War III.8.9, tr. Whiston (josephus_works-antiquities-wars-life_whiston1859 l.111188-111190); Suetonius, Vespasian 5, tr. Thomson and Forester (suetonius_lives-of-the-twelve-caesars_thomson-forester1909 l.14840-14842)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Jerome says the Antiquities run 'until the fourteenth year of Domitian Caesar'; a note in Richardson: 'Born a.d. 37, died after 97'",
+    "witness": "Jerome, Lives 13, tr. Richardson, with the translator's note (npnf203_theodoret-jerome-gennadius-rufinus l.39706-39714)",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Origen, Eusebius and Jerome placed in the third, early fourth and later fourth centuries",
+    "witness": "cic-website/data/world-census.json, the census dates of origen-of-alexandria, eusebius-of-caesarea and jerome",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "An outside witness: a Jewish historian, outside the church",
+    "witness": "cic-website/data/world-census.json, person josephus; Who_Profile_Pattern.md, 'The outside witness'",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "How much of the longer passage on Jesus (Antiquities XVIII.3.3) Josephus wrote",
+    "sides": "Ancient: our copies read 'He was [the] Christ' (josephus_works-antiquities-wars-life_whiston1859 l.81411) and Eusebius quotes it so (npnf201_eusebius-church-history-life-of-constantine l.9232); Origen says Josephus 'did not accept Jesus as Christ' (anf09_gospel-of-peter-diatessaron-origen-commentaries l.30628); Jerome's version reads 'was believed to be Christ' (npnf203_theodoret-jerome-gennadius-rufinus l.39729). Modern, in McGiffert's 1890 note (npnf201_eusebius-church-history-life-of-constantine l.9184-9226): wholly genuine (few; McGiffert: untenable); wholly added (Hase, Keim, Schürer, McGiffert); partly genuine (Gieseler, Weizsäcker, Renan, Edersheim, Schaff); a hostile passage rewritten (Ewald). Whiston defends the whole as genuine (josephus_works-antiquities-wars-life_whiston1859 l.138236-138252)."
+   },
+   {
+    "claim": "Whether Josephus wrote that Jerusalem fell for the killing of James",
+    "sides": "Origen (anf04_tertullian4-minucius-felix-commodian-origen1-2 l.37934-37942; anf09_gospel-of-peter-diatessaron-origen-commentaries l.30622-30630), Eusebius (npnf201_eusebius-church-history-life-of-constantine l.13541-13564) and Jerome (npnf203_theodoret-jerome-gennadius-rufinus l.39723-39724) give it; it is not in our copies (josephus_works-antiquities-wars-life_whiston1859 l.90990-91013), and McGiffert thinks their copies held an interpolation (npnf201_eusebius-church-history-life-of-constantine l.13544-13552)."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "An ancient account of how the longer passage came to read as it does",
+    "note": "No held ancient source says the passage was altered or by whom; the brief draws only the conclusion Origen and Jerome carry, about one line."
+   },
+   {
+    "detail": "The year of his death",
+    "note": "No held ancient source gives it; Richardson's note says 'died after 97' (npnf203_theodoret-jerome-gennadius-rufinus l.39706-39707)."
+   }
+  ]
+ },
+ "ignatius-of-antioch": {
+  "claims": [
+   {
+    "claim": "Ignatius was bishop of Antioch early in the second century: Eusebius places him 'At that time' in his account of Trajan's reign; 'Ignatius, who was chosen bishop of Antioch, second in succession to Peter'",
+    "witness": "Eusebius, Church History III.22 and III.36.1-2, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.17006-17008, 19679-19684, 19740-19742)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Antioch in Syria: 'From Syria even unto Rome I fight with beasts'",
+    "witness": "Ignatius, Romans 5, tr. Roberts and Donaldson (anf01_apostolic-fathers-justin-irenaeus l.7083-7086)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Condemned and taken to Rome for the beasts: 'I am but a condemned man'; Eusebius: 'Report says that he was sent from Syria to Rome, and became food for wild beasts on account of his testimony to Christ', making 'the journey through Asia under the strictest military surveillance'",
+    "witness": "Ignatius, Romans 4 (anf01_apostolic-fathers-justin-irenaeus l.7048-7049); Eusebius, Church History III.36.3-4, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.19934-19935, 19950-19952)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "From Smyrna he wrote to Rome 'entreating them not to secure his release from martyrdom'; 'I beseech of you not to show an unseasonable good-will towards me'",
+    "witness": "Eusebius, Church History III.36.5-6 (npnf201_eusebius-church-history-life-of-constantine l.19961-19962, 19988-19990); Ignatius, Romans 4 (anf01_apostolic-fathers-justin-irenaeus l.7036-7040)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Quotation 'bound to ten leopards, I mean a band of soldiers'. Rendering A: 'bound to ten leopards, that is, a company of soldiers'. Rendering B: 'chained to ten leopards, I mean a unit of soldiers'. Verdict minor (B's 'chained' more specific); FINAL: the printed words less 'being'",
+    "witness": "Printed: Romans 5, tr. Roberts and Donaldson (anf01_apostolic-fathers-justin-irenaeus l.7087); Build/Ministry/Operations/Audits/2026-11-16_era1-standard-v1/renderings/comparison.md E14; only λεοπάρδοις is held, in McGiffert's note (npnf201_eusebius-church-history-life-of-constantine l.19996)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Quotation 'I am God's wheat, and let me be ground by the teeth of the wild beasts, so that I may be found the pure bread of Christ.' Rendering A: as the brief. Rendering B: 'I am God's wheat. Let me be ground by the teeth of wild beasts, so that I may be found to be Christ's pure bread.' Verdict same; the brief carries A's joined form, which keeps the printed 'and'",
+    "witness": "Printed: Romans 4, tr. Roberts and Donaldson (anf01_apostolic-fathers-justin-irenaeus l.7040-7042); Build/Ministry/Operations/Audits/2026-11-16_era1-standard-v1/renderings/comparison.md E15; other forms: longer recension 'am ground ... the pure bread of God' (anf01_apostolic-fathers-justin-irenaeus l.7060), Irenaeus 'the wheat of Christ, and am ground ... the pure bread of God' (anf01_apostolic-fathers-justin-irenaeus l.53558-53560); the Greek is not held",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Six more letters: to Ephesus, Magnesia and Tralles from Smyrna; to Philadelphia, Smyrna and Polycarp from Troas",
+    "witness": "Eusebius, Church History III.36.5 and 10, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.19961-19986, 20023-20032)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Some said Christ only seemed to suffer: 'not, as certain unbelievers maintain, that He only seemed to suffer'; 'if, as some that are without God ... say, that He only seemed to suffer ... then why am I in bonds?'",
+    "witness": "Ignatius, Smyrnaeans 2 and Trallians 10, tr. Roberts and Donaldson (anf01_apostolic-fathers-justin-irenaeus l.8005-8008, 6670-6672)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Quotation 'If our Lord did these things only in appearance, ... then I too am bound only in appearance.' Rendering A: as the brief. Rendering B: 'But if our Lord did these things only in appearance, then I too am in chains only in appearance.' Verdict same; FINAL = A",
+    "witness": "Printed: Smyrnaeans 4, tr. Roberts and Donaldson (anf01_apostolic-fathers-justin-irenaeus l.8102-8103); Build/Ministry/Operations/Audits/2026-11-16_era1-standard-v1/renderings/comparison.md E16; the Greek is not held",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Theodoret cites the letter to the Smyrnaeans as 'Testimony of Saint Ignatius, bishop of Antioch, and martyr', that Christ was 'really in the time of Pontius Pilate and of Herod the tetrarch crucified for our sake in the flesh'; about three centuries after Ignatius",
+    "witness": "Theodoret, Dialogue 1, tr. Blomfield Jackson (npnf203_theodoret-jerome-gennadius-rufinus l.20268-20290); Theodoret's census dates, 393 to about 458",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Quotation 'Let no one do anything that concerns the church without the bishop.' Rendering A: as the brief. Rendering B: 'No one should do anything that concerns the church without the bishop.' Verdict same; FINAL = A",
+    "witness": "Printed: Smyrnaeans 8, tr. Roberts and Donaldson (anf01_apostolic-fathers-justin-irenaeus l.8277-8278); Build/Ministry/Operations/Audits/2026-11-16_era1-standard-v1/renderings/comparison.md E17; the Greek is not held",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'whatsoever he shall approve of, that is also pleasing to God, so that everything that is done may be secure and valid'",
+    "witness": "Ignatius, Smyrnaeans 8, tr. Roberts and Donaldson (anf01_apostolic-fathers-justin-irenaeus l.8287-8289)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Wherever the bishop shall appear, there let the multitude [of the people] also be; even as, wherever Jesus Christ is, there is the Catholic Church'; Coxe: in this letter 'we first find the use of the phrase \"Catholic Church\" in patristic writings'",
+    "witness": "Ignatius, Smyrnaeans 8 (anf01_apostolic-fathers-justin-irenaeus l.8284-8286); A. Cleveland Coxe's introductory note (anf01_apostolic-fathers-justin-irenaeus l.4467-4470); a modern judgment, on the card only",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Polycarp sent the church at Philippi his letters of Ignatius: 'The Epistles of Ignatius written by him to us, and all the rest [of his Epistles] which we have by us, we have sent to you, as you requested'; he still asks for news of Ignatius and those with him",
+    "witness": "Polycarp, Philippians 13, tr. Roberts and Donaldson (anf01_apostolic-fathers-justin-irenaeus l.3613-3624); in Eusebius III.36.15 (npnf201_eusebius-church-history-life-of-constantine l.20097-20101)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Polycarp holds up the patience seen 'in the case of the blessed Ignatius'",
+    "witness": "Polycarp, Philippians 9 (anf01_apostolic-fathers-justin-irenaeus l.3486-3487)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Irenaeus: 'As a certain man of ours said, when he was condemned to the wild beasts because of his testimony with respect to God: \"I am the wheat of Christ, and am ground by the teeth of the wild beasts\"'; Eusebius gives it as 'As one of our people said'",
+    "witness": "Irenaeus, Against Heresies V.28.4, tr. Roberts and Rambaut (anf01_apostolic-fathers-justin-irenaeus l.53556-53560); Eusebius III.36.12, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.20066-20071)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Eusebius gives his death at Rome as report ('Report says'), names the seven letters, and says his 'fame is still celebrated by a great many'",
+    "witness": "Eusebius, Church History III.36.2-3, 5-10, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.19741-19742, 19934-19935, 19961-20032)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "No held ancient witness shows what came of his rule on bishops in other churches",
+    "witness": "Search of the ANF and NPNF files (refs, Build/Ministry/Operations/Audits/2026-11-16_era1-standard-v1/drafts/ignatius-of-antioch.refs.md (b)); Eusebius (npnf201_eusebius-church-history-life-of-constantine l.19994-20065), Irenaeus (anf01_apostolic-fathers-justin-irenaeus l.53556-53560) and Theodoret (npnf203_theodoret-jerome-gennadius-rufinus l.20249-20290) quote him on his death or on Christ",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "McGiffert: 'we are obliged to turn to those epistles for our chief knowledge of his life'; Origen had already said he was second bishop of Antioch and died at Rome; the first rests on a tradition at least partly independent of the letters",
+    "witness": "McGiffert's note to Eusebius III.36 (npnf201_eusebius-church-history-life-of-constantine l.19780-19803, 19818-19820)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Fifteen letters bear his name; the first eight are 'by common consent set aside as forgeries'; Daillé (1666) refused the letters in either recension; Pearson's Vindiciae (1672) defended the shorter form; Cureton (1845) argued the three Syriac letters represented 'more accurately than any formerly published what Ignatius had actually written', Bunsen for him, Hefele against",
+    "witness": "Introductory note to the Epistles, ANF 1 (anf01_apostolic-fathers-justin-irenaeus l.4490-4508, 4526-4535, 4581-4596)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "McGiffert: the defense of the shorter Greek recension 'by Zahn and Lightfoot may be regarded as finally settling the matter'; 'Their genuineness is still stoutly denied by some'",
+    "witness": "McGiffert's note to Eusebius III.36 (npnf201_eusebius-church-history-life-of-constantine l.19837-19844)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Date of death: Eusebius's Chronicle, tenth year of Trajan, 107; McGiffert calls the Chronicle's Antiochian dates 'entirely unreliable'; Zahn and Lightfoot: only under Trajan; Harnack: under Hadrian",
+    "witness": "McGiffert's notes to Eusebius III.36 (npnf201_eusebius-church-history-life-of-constantine l.19794-19797, 19810-19816, 19849-19873, 20104-20106)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "The Acts of his martyrdom 'belong to the fourth and subsequent centuries, are quite contradictory in their statements' and 'furnish no trustworthy information'",
+    "witness": "McGiffert's note (npnf201_eusebius-church-history-life-of-constantine l.19760-19766)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Other name: Theophorus ('Ignatius, who is also called Theophorus')",
+    "witness": "Ignatius, Ephesians, salutation (anf01_apostolic-fathers-justin-irenaeus l.4669)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Tradition: Post-Apostolic Household-Church Christianity",
+    "witness": "cic-website/data/world-census.json, tradition post-apostolic-house-church, which lists ignatius-of-antioch",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "When Ignatius died",
+    "sides": "Eusebius places him in Trajan's reign, and his Chronicle gives Trajan's tenth year, 107 (npnf201_eusebius-church-history-life-of-constantine l.19794-19797); Zahn and Lightfoot: under Trajan, date uncertain; Harnack: under Hadrian (npnf201_eusebius-church-history-life-of-constantine l.19810-19816, 19849-19873). The brief claims only 'early in the second century'."
+   },
+   {
+    "claim": "Which form of the letters is his",
+    "sides": "Daillé (1666) against all; Pearson (1672) for the seven shorter Greek letters; Cureton (1845), with Bunsen, for the three Syriac letters; Hefele against Cureton (anf01_apostolic-fathers-justin-irenaeus l.4526-4596). McGiffert (1890): Zahn and Lightfoot settled it for the shorter Greek form, though some still deny the letters (npnf201_eusebius-church-history-life-of-constantine l.19837-19844)."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "What came of his rule on bishops in other churches",
+    "note": "No held ancient witness takes up the rule from him; the brief says the sources do not show it."
+   },
+   {
+    "detail": "An eyewitness account of his death",
+    "note": "Eusebius gives it as report; Polycarp knew of his death but not its circumstances (anf01_apostolic-fathers-justin-irenaeus l.3619-3624, with the editor's note); the martyrdom Acts are later and unreliable in McGiffert's judgment."
+   }
+  ]
+ },
+ "marcion-of-pontus": {
+  "claims": [
+   {
+    "claim": "Around 150 rival teachers were at Rome: Valentinus came in the time of Hyginus and remained until Anicetus; Cerdo, 'Marcion's predecessor', arrived in the time of Hyginus; 'Marcion, then, succeeding him, flourished under Anicetus'",
+    "witness": "Irenaeus, Against Heresies III.4.3, tr. Roberts and Rambaut (anf01_apostolic-fathers-justin-irenaeus l.39968-39984)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Around 150': Justin, writing while Marcion was 'even at this day alive, and teaching', counts 'one hundred and fifty years' from Christ's birth in the same Apology; Tertullian places Marcion 'in the reign of Antoninus'",
+    "witness": "Justin, First Apology 26 and 46, tr. Dods and Reith (anf01_apostolic-fathers-justin-irenaeus l.14943-14944, 15680-15681); Tertullian, Prescription 30 and Against Marcion I.19, tr. Holmes (anf03_tertullian l.21334, 23721-23727)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Marcion came from Pontus, on the Black Sea (the Euxine)",
+    "witness": "Justin, First Apology 26 and 58 (anf01_apostolic-fathers-justin-irenaeus l.14943, 16131); Irenaeus I.27.2 (l.33572); Tertullian, Against Marcion I.1-2, tr. Holmes (anf03_tertullian l.22516, 22609)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The churches Marcion founded took his name: 'It too, of course, has its churches ... with Marcion forsooth as their founder'; the tradition is Marcion / Marcionism",
+    "witness": "Tertullian, Against Marcion IV.5, tr. Holmes (anf03_tertullian l.29323-29330); world census, marcion-marcionism",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Polycarp, appointed bishop of Smyrna and 'a very old man', 'coming to Rome in the time of Anicetus caused many to turn away from the aforesaid heretics', Valentinus and Marcion",
+    "witness": "Irenaeus, Against Heresies III.3.4, tr. Roberts and Rambaut (anf01_apostolic-fathers-justin-irenaeus l.39857-39875)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Marcion met Polycarp 'on one occasion' and asked 'Dost thou know me?'; Polycarp answered 'I do know thee, the first-born of Satan'; Irenaeus adds 'Such was the horror ... against holding even verbal communication with any corrupters of the truth'. Told in modern English as 'Do you recognize us?' and 'I recognize, I recognize the first-born of Satan', after the held originals",
+    "witness": "Irenaeus III.3.4, tr. Roberts and Rambaut (anf01_apostolic-fathers-justin-irenaeus l.39882-39886); Moscow epilogue of the Martyrdom of Polycarp, ed. Gebhardt (acta-martyrum-selecta_gebhardt1902 l.1054-1056); Hadrian I, MGH Epistolae 5 (hadrian-i_epistolae-karolini-aevi-3-mgh-epistolae-5-lat_1899 l.17230-17231); Eusebius IV.14, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.22977-22984). One witness to the event, Irenaeus, a partisan.",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Asking to be owned as a brother' is the sense of the verb (recognize, acknowledge) and of Irenaeus's following sentence on refusing communication with corrupters of the truth",
+    "witness": "Irenaeus III.3.4 (anf01_apostolic-fathers-justin-irenaeus l.39884-39886); the held originals as above; renderings comparison E24",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "None of Marcion's own books survives; nearly all that is known of him comes from opponents. Justin says the devils put him forward; Irenaeus says he spoke 'with the mouth of the devil'",
+    "witness": "Statement about the record (no held file contains a work of his); Justin, First Apology 58 (anf01_apostolic-fathers-justin-irenaeus l.16130-16131); Irenaeus I.27.3 (l.33599-33600)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Justin, while Marcion lived, says he taught his disciples 'to believe in some other god greater than the Creator'",
+    "witness": "Justin, First Apology 26, tr. Dods and Reith (anf01_apostolic-fathers-justin-irenaeus l.14943-14945)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "For Marcion the God of the law and the prophets was not the Father of Jesus; Jesus came from 'that father who is above the God that made the world'; 'The heretic of Pontus introduces two Gods'",
+    "witness": "Irenaeus I.27.1-2, tr. Roberts and Rambaut (anf01_apostolic-fathers-justin-irenaeus l.33567-33568, 33572-33582); Tertullian, Against Marcion I.2, tr. Holmes (anf03_tertullian l.22609-22612). Two independent witnesses to the teaching, with Justin a third",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Marcion's special and principal work is the separation of the law and the gospel'; the Antitheses were compiled for 'such a severance of the law from the gospel as should divide the Deity into two'",
+    "witness": "Tertullian, Against Marcion I.19 and IV.1, tr. Holmes (anf03_tertullian l.23735-23736, 28903-28910)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "To fit the teaching he cut down Luke's Gospel, removing what shows the Maker as Christ's Father, and the letters of Paul",
+    "witness": "Irenaeus I.27.2 and III.11.7 (anf01_apostolic-fathers-justin-irenaeus l.33582-33594, 41032-41034); Tertullian, Against Marcion IV.2 and V.1, tr. Holmes (anf03_tertullian l.29097-29103, 36484-36489)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Marcion at first believed in the doctrine of the church at Rome and gave it money, which the church rejected along with him; he was expelled",
+    "witness": "Tertullian, Prescription 30 and Against Marcion IV.4, tr. Holmes (anf03_tertullian l.21335-21344, 29237-29243). One witness; not in Justin, First Apology 26 and 58, nor Irenaeus I.27, III.3.4 or III.4.3, where it is Cerdo who is put out (anf01 l.39976-39983)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "In his lifetime he had caused 'many of every nation' to follow; 'this man many have believed'",
+    "witness": "Justin, First Apology 26 and 58, tr. Dods and Reith (anf01_apostolic-fathers-justin-irenaeus l.14945-14946, 16135)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Tertullian mocks yet grants that the Marcionites had churches of their own: 'Even wasps make combs; so also these Marcionites make churches'",
+    "witness": "Tertullian, Against Marcion IV.5, tr. Holmes (anf03_tertullian l.29323-29330)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Irenaeus argued 'It is not possible that the Gospels can be either more or fewer in number than they are', four, and named Marcion among those who make them fewer",
+    "witness": "Irenaeus III.11.8-9, tr. Roberts and Rambaut (anf01_apostolic-fathers-justin-irenaeus l.41044-41058, 41142-41149); III.11.7 (l.41032-41034)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Tertullian wrote five books against Marcion and in the fourth refuted him from Marcion's own Gospel",
+    "witness": "Tertullian, Against Marcion I-V, tr. Holmes; IV.1 and IV.4 (anf03_tertullian l.28913-28917, 29246-29249)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Epiphanius says the sect is found 'even now' in Rome and Italy, Egypt and Palestine, Arabia and Syria, Cyprus and the Thebaid, and in Persia",
+    "witness": "Epiphanius, Panarion 42.1.2, Greek, ed. Holl (epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922 l.7464, 7471-7474; l.7464 damaged in the OCR)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Theodoret of Cyrrhus, a bishop in Syria, wrote that he 'led eight villages of Marcionists with their neighbourhood into the way of truth'",
+    "witness": "Theodoret, Letter 81 to the consul Nomus, tr. Jackson (npnf203_theodoret-jerome-gennadius-rufinus l.31511-31512). One witness, about his own work",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Two centuries after Marcion' (Epiphanius) and 'a century later' (Theodoret)",
+    "witness": "World census dates: Epiphanius of Salamis c. 310-403; Theodoret of Cyrrhus 393-c. 458; not stated in their texts",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Card: Theodoret also wrote 'more than a thousand souls did I rescue from the plague of Marcion'",
+    "witness": "Theodoret, Letter 113 to Leo, tr. Jackson (npnf203_theodoret-jerome-gennadius-rufinus l.33162-33163)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: Ephrem wrote discourses against Marcion's teaching on the Stranger above the Maker",
+    "witness": "Ephrem, Prose Refutations, tr. Mitchell (ephraim_prose-refutations_mitchell1912-1921 l.581-584, 1538, 1745, 1833-1834)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: shipmaster of Pontus; the two hundred sesterces; the late offer to repent and death before reconciliation",
+    "witness": "Tertullian alone, Prescription 30, tr. Holmes (anf03_tertullian l.21331-21332, 21339-21348)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: Cerdo was his predecessor, whose doctrine Marcion developed",
+    "witness": "Irenaeus I.27.1-2 and III.4.3 (anf01_apostolic-fathers-justin-irenaeus l.33564-33573, 39970). One witness",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Card: Epiphanius's version: at Rome the elders refused to receive him",
+    "witness": "Epiphanius, Panarion 42.1-2, ed. Holl (epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922 l.7490-7491, 7525-7530)",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Marcion was a bishop's son put out of the church for violating a virgin",
+    "sides": "For: pseudo-Tertullian, Against All Heresies 6, tr. Thelwall (anf03_tertullian l.55756-55764); Epiphanius, Panarion 42.1.3-6 (epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922 l.7476-7488). Against: Karl Holl, from Tertullian's silence and his word for Marcion's continence (l.7503-7505; anf03_tertullian l.21360)."
+   },
+   {
+    "claim": "When Marcion was at Rome",
+    "sides": "Irenaeus: he flourished under Anicetus (anf01_apostolic-fathers-justin-irenaeus l.39983-39984). Tertullian: at Rome under Bishop Eleutherus (anf03_tertullian l.21335-21337)."
+   },
+   {
+    "claim": "Marcion's city",
+    "sides": "Epiphanius alone names Sinope (epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922 l.7476-7477); Holl: the one other writer to name it, Filastrius, depends on Epiphanius (l.7497-7498). Justin and Irenaeus say only Pontus."
+   },
+   {
+    "claim": "The wording of Marcion's question and Polycarp's reply",
+    "sides": "Printed English (Roberts and Rambaut): 'Dost thou know me?' and 'I do know thee' (anf01_apostolic-fathers-justin-irenaeus l.39883-39884). First rendering: 'Do you know me?' and 'I do know you'. Second rendering: 'Do you recognize us?' and 'I do recognize you'. Held originals: 'us', a doubled verb, no 'you' (Gebhardt l.1054-1056; MGH Ep. 5 l.17230-17231); most manuscripts of Eusebius a question, three a command (npnf201 l.22977-22981). Final: 'Do you recognize us?', 'I recognize, I recognize the first-born of Satan.'"
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Marcion's own books",
+    "note": "No held file contains a work of his. Tertullian had the Antitheses and Marcion's Gospel before him (anf03_tertullian l.29246-29249); both are lost."
+   },
+   {
+    "detail": "How the Marcionite churches ended",
+    "note": "The record read stops with Theodoret's letters (about 448); no held source read tells how the churches ended, and the brief does not say."
+   }
+  ]
+ },
+ "justin-martyr": {
+  "claims": [
+   {
+    "claim": "Around 150: 'Christ was born one hundred and fifty years ago under Cyrenius'",
+    "witness": "Justin, First Apology 46, tr. Dods and Reith (anf01_apostolic-fathers-justin-irenaeus l.15679-15681)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "A Christian could be punished for the name alone: 'from a name neither praise nor punishment could reasonably spring, unless something excellent or base in action be proved'; Ptolemaeus asked 'this only: whether he were a Christian' and punished",
+    "witness": "Justin, First Apology 4, tr. Dods and Reith (anf01_apostolic-fathers-justin-irenaeus l.14037-14060); Second Apology 2 as quoted by Eusebius, Church History IV.17, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.24156-24188)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Justin, son of Priscus, of Flavia Neapolis in Palestine, petitions Antoninus Pius 'in behalf of those of all nations who are unjustly hated and wantonly abused, myself being one of them'",
+    "witness": "Justin, First Apology 1, tr. Dods and Reith (anf01_apostolic-fathers-justin-irenaeus l.13960-13969); also Eusebius IV.12, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.22648-22652)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Justin lived in Rome: 'I am now living in Rome for the second time'",
+    "witness": "Martyrdom of Justin 2, tr. M. Dods (anf01_apostolic-fathers-justin-irenaeus l.29308-29311)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "He was one of the second-century Greek apologists, who wrote in Greek to defend the faith",
+    "witness": "World census, greek-apologists-second-century, 'The Second-Century Greek Apologists' (cic-website/data/world-census.json); Justin's Greek Apologies, ed. Rauschen (justin-martyr_first-apology-grc_rauschen1911; justin-martyr_second-apology-grc_rauschen1911)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "He went as a philosopher from a Stoic to a Peripatetic, a Pythagorean and the Platonists",
+    "witness": "Justin, Dialogue with Trypho 2, tr. Dods and Reith (anf01_apostolic-fathers-justin-irenaeus l.17421-17450)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "An old man he met in a field not far from the sea sent him to the prophets",
+    "witness": "Justin, Dialogue with Trypho 3 and 7, tr. Dods and Reith (anf01_apostolic-fathers-justin-irenaeus l.17467-17472, 17819-17842)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "He still called himself a philosopher: 'Thus, and for this reason, I am a philosopher'",
+    "witness": "Justin, Dialogue with Trypho 8, tr. Dods and Reith (anf01_apostolic-fathers-justin-irenaeus l.17851-17857)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Christ is the Word 'of whom every race of men were partakers'; 'those who lived reasonably are Christians, even though they have been thought atheists'; Socrates named among the Greeks",
+    "witness": "Justin, First Apology 46, tr. Dods and Reith (anf01_apostolic-fathers-justin-irenaeus l.15684-15693); Greek, ed. Rauschen (justin-martyr_first-apology-grc_rauschen1911 l.1230-1233)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Both readings of the Greek μετὰ λόγου are kept: A 'those who lived with reason are Christians, even if they were thought to be atheists'; B 'those who lived by the Word are Christians, even though people thought them atheists'. Verdict: changes meaning; final = A",
+    "witness": "Second-rendering comparison, E20 (Build/Ministry/Operations/Audits/2026-11-16_era1-standard-v1/renderings/comparison.md); the translators' note, 'with reason,' or 'the Word' (anf01_apostolic-fathers-justin-irenaeus l.15686-15688)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "He asked that Christians be judged by their life and doctrine; 'By the mere application of a name, nothing is decided, either good or evil, apart from the actions implied in the name'",
+    "witness": "Justin, First Apology 3-4, tr. Dods and Reith (anf01_apostolic-fathers-justin-irenaeus l.14003-14016, 14037-14039)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Eusebius follows the petition with an edict he gives as the emperor's: 'the same emperor having learned also from other brethren in Asia of the injuries of all kinds which they were suffering ... thought it proper to address the following ordinance to the Common Assembly of Asia'",
+    "witness": "Eusebius, Church History IV.13, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.22652-22667)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The edict's ruling: 'if any one has a matter to bring against any person of this class, merely as such a person, let the accused be acquitted of the charge'",
+    "witness": "Epistle of Antoninus to the Common Assembly of Asia, printed after the First Apology, tr. Dods and Reith (anf01_apostolic-fathers-justin-irenaeus l.16615-16620); Eusebius's form, IV.13.7, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.22803-22806)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The edict is not genuine: ANF heading '[Regarded as spurious.]'; McGiffert: 'undoubtedly spurious ... probably a forgery of the second century'; Eusebius gives it as Antoninus Pius's though its inscription names Marcus Aurelius",
+    "witness": "ANF (anf01_apostolic-fathers-justin-irenaeus l.16583-16585); McGiffert's notes (npnf201_eusebius-church-history-life-of-constantine l.22675-22686, 22689-22700)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Justin expected to be plotted against: 'I too, therefore, expect to be plotted against and fixed to the stake, by some of those I have named, or perhaps by Crescens, that lover of bravado and boasting'",
+    "witness": "Justin, Second Apology 3, tr. Dods and Reith (anf01_apostolic-fathers-justin-irenaeus l.16849-16852); Greek, ed. Rauschen (justin-martyr_second-apology-grc_rauschen1911 l.273-275)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Crescens was a Cynic philosopher: 'a philosopher who emulated the life and manners of the Cynics'",
+    "witness": "Eusebius, Church History IV.16, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.23795-23797); also the ANF editor's note, 'Crescens, a cynic' (anf01_apostolic-fathers-justin-irenaeus l.29209-29211)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Tatian says Crescens 'endeavoured to inflict on Justin, and indeed on me, the punishment of death'",
+    "witness": "Tatian, Address to the Greeks 19, tr. J. E. Ryland (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria l.6550-6556)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Eusebius says Justin died 'in consequence of the machinations of Crescens'",
+    "witness": "Eusebius, Church History IV.16, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.23781-23782, 23875-23877, 24077-24078)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "The surviving trial account never names Crescens",
+    "witness": "Martyrdom of Justin, whole text, tr. M. Dods (anf01_apostolic-fathers-justin-irenaeus l.29253-29408), searched; McGiffert: 'In the Acta Crescens is not mentioned' (npnf201_eusebius-church-history-life-of-constantine l.23787-23790)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Rusticus: 'Are you not, then, a Christian?' Justin: 'Yes, I am a Christian.' Our modern English: 'So then, you are a Christian?' (second reading the same); the Greek has no negative",
+    "witness": "Martyrdom of Justin 2, tr. M. Dods (anf01_apostolic-fathers-justin-irenaeus l.29312-29314); Greek Acts, ed. Gebhardt (acta-martyrum-selecta_gebhardt1902 l.1353-1354, OCR 'Aowrov' for λοιπὸν)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Six others were tried with him: Chariton, Charito, Euelpistus, Hierax, Paeon, Liberianus",
+    "witness": "Martyrdom of Justin 3, tr. M. Dods (anf01_apostolic-fathers-justin-irenaeus l.29323-29353)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "They refused to sacrifice to the gods and were beheaded",
+    "witness": "Martyrdom of Justin 4-5, tr. M. Dods (anf01_apostolic-fathers-justin-irenaeus l.29375-29387, 29396-29405)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "The trial account: 'nothing is known as to the date or authorship', 'generally reckoned among the most trustworthy of the Martyria'; the hemlock story 'an absurd addition'; McGiffert: 'probably the third century', 'a comparatively truthful account'",
+    "witness": "Dods's introductory notice (anf01_apostolic-fathers-justin-irenaeus l.29216-29220); McGiffert's note (npnf201_eusebius-church-history-life-of-constantine l.23767-23771)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Marcion was 'teaching his disciples to believe in some other god greater than the Creator'",
+    "witness": "Justin, First Apology 26, tr. Dods and Reith (anf01_apostolic-fathers-justin-irenaeus l.14943-14945)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Irenaeus quotes Justin's book against Marcion with approval: 'Justin does well say: I would not have believed the Lord Himself, if He had announced any other than He who is our framer, maker, and nourisher'",
+    "witness": "Irenaeus, Against Heresies IV.6.2, tr. Roberts and Rambaut (anf01_apostolic-fathers-justin-irenaeus l.44907-44917); Eusebius, Church History IV.18.9, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.24340-24346)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'A generation later': Irenaeus wrote after Justin's death",
+    "witness": "World census dates for Irenaeus of Lyon (cic-website/data/world-census.json); Irenaeus already calls Justin's martyrdom past, Against Heresies I.28.1 (anf01_apostolic-fathers-justin-irenaeus l.33663-33666)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Tatian was 'a hearer of Justin's' and left the church after his martyrdom",
+    "witness": "Irenaeus, Against Heresies I.28.1, tr. Roberts and Rambaut (anf01_apostolic-fathers-justin-irenaeus l.33663-33666)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Tatian calls him 'the most admirable Justin' and bids 'farewell to the arrogance of Romans and the idle talk of Athenians, and all their ill-connected opinions'",
+    "witness": "Tatian, Address to the Greeks 18 and 35, tr. J. E. Ryland (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria l.6526, 7258-7260)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The book against Marcion is lost: 'The work is lost, and we have only the single brief fragment preserved by Irenaeus'",
+    "witness": "McGiffert's note (npnf201_eusebius-church-history-life-of-constantine l.22457-22460)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Eusebius: the ancients thought his discourses 'so worthy of study' that Irenaeus quotes them",
+    "witness": "Eusebius, Church History IV.18.9, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.24340-24343)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Eusebius knew the Dialogue, 'held in the city of Ephesus with Trypho, a most distinguished man among the Hebrews of that day', and quotes it",
+    "witness": "Eusebius, Church History IV.18.6-8, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.24300-24326)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Dialogue is 'the first elaborate exposition of the reasons for regarding Christ as the Messiah of the Old Testament'",
+    "witness": "Dods and Reith's introductory note (anf01_apostolic-fathers-justin-irenaeus l.13881-13884)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Eusebius calls him 'a genuine lover of the true philosophy'",
+    "witness": "Eusebius, Church History IV.8, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.21864-21865)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "His martyr's death is 'the universal tradition of antiquity, which is crystallized in his name'; Irenaeus is the first to mention it",
+    "witness": "McGiffert's note (npnf201_eusebius-church-history-life-of-constantine l.23764-23767)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "The two Apologies 'were originally one', the second a supplement",
+    "witness": "McGiffert's note (npnf201_eusebius-church-history-life-of-constantine l.24218-24222, 24234-24241)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Date of the Apology: Eusebius's Chronicle gives 141; 'most critics are now agreed in putting it ten or more years later', before 161; 'as early as 152'",
+    "witness": "McGiffert's notes (npnf201_eusebius-church-history-life-of-constantine l.24224-24227, 24143-24144)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Date of death: two traditions, under Antoninus Pius or Marcus Aurelius; Rusticus 'became prefect of Rome in 163'; the Chronicon Paschale gives 165",
+    "witness": "McGiffert's note (npnf201_eusebius-church-history-life-of-constantine l.23774-23780); Dods and Reith's introductory note (anf01_apostolic-fathers-justin-irenaeus l.13868-13873)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Eusebius's quotation of Tatian differs from Tatian's text ('upon Justin' for 'on Justin, and indeed on me'); Dembowski, Zahn and Harnack accuse Eusebius of deception; McGiffert finds the grounds 'very slender', the Tatian manuscripts varying at this point",
+    "witness": "Tatian, Address 19 (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria l.6552-6556); Eusebius IV.16.9 (npnf201_eusebius-church-history-life-of-constantine l.24073-24078); McGiffert's note (npnf201_eusebius-church-history-life-of-constantine l.23880-23910, 23970-23996)",
+    "formation_confidence": "Contested"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Crescens brought about Justin's death",
+    "sides": "Eusebius, Church History IV.16, tr. McGiffert: death 'in consequence of the machinations of Crescens' (npnf201_eusebius-church-history-life-of-constantine l.23875-23877, 24077-24078). Against: Tatian's own text shows a plot against Justin and Tatian both, not its success (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria l.6552-6556); the Martyrdom never names Crescens (anf01_apostolic-fathers-justin-irenaeus l.29253-29408); McGiffert: Eusebius's report 'seems to rest solely upon the testimony of Tatian', and Crescens is known 'only from the pen of his bitterest enemies' (npnf201_eusebius-church-history-life-of-constantine l.23782-23795)."
+   },
+   {
+    "claim": "The year and reign of Justin's death",
+    "sides": "Two traditions: under Antoninus Pius, or under Marcus Aurelius; McGiffert favors the later, Rusticus prefect from 163 (npnf201_eusebius-church-history-life-of-constantine l.23774-23780). Dods and Reith: 'nearly certain' under Marcus Aurelius; the Chronicon Paschale gives 165 (anf01_apostolic-fathers-justin-irenaeus l.13869-13873). No ancient source used here gives a year."
+   },
+   {
+    "claim": "Eusebius changed Tatian's words on purpose",
+    "sides": "Dembowski, Zahn and Harnack, as McGiffert reports them: an intentional alteration (npnf201_eusebius-church-history-life-of-constantine l.23880-23904). McGiffert: the grounds are 'very slender'; Eusebius's manuscript of Tatian may have read as he quotes, since the three Tatian manuscripts vary at this point (npnf201_eusebius-church-history-life-of-constantine l.23970-23996)."
+   },
+   {
+    "claim": "The edict to the Common Assembly of Asia is genuine",
+    "sides": "Eusebius gives it as the emperor's (npnf201_eusebius-church-history-life-of-constantine l.22652-22667). ANF prints it '[Regarded as spurious.]' (anf01_apostolic-fathers-justin-irenaeus l.16583-16585); McGiffert: 'undoubtedly spurious', 'almost universally acknowledged to be a forgery'; Wieseler contends for it, 'but no good critic follows him' (npnf201_eusebius-church-history-life-of-constantine l.22675-22686)."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Crescens in the account of the trial",
+    "note": "The Martyrdom of Justin, tr. M. Dods, searched in full (anf01_apostolic-fathers-justin-irenaeus l.29253-29408): the name does not occur. Only the ANF editor's note before it names him (l.29209-29211). The Greek Acts, ed. Gebhardt (acta-martyrum-selecta_gebhardt1902), were read at the trial question only (l.1350-1355)."
+   },
+   {
+    "detail": "An ancient year for Justin's death",
+    "note": "Neither Eusebius nor the Martyrdom gives one. The Chronicon Paschale's 165 is reported by Dods and Reith (anf01_apostolic-fathers-justin-irenaeus l.13872-13873) and is not held; McGiffert reasons from Rusticus's prefecture (npnf201_eusebius-church-history-life-of-constantine l.23779-23780)."
+   }
+  ]
+ },
+ "clement-of-alexandria": {
+  "claims": [
+   {
+    "claim": "Around the year 200 (approximate): Clement 'had charge at that time of the catechetical instruction in Alexandria, so that Origen also, while still a boy, was one of his pupils'; the Stromata 'written during the reign of Severus'; Jerome: 'He flourished moreover during the reigns of Severus and his son Antoninus'",
+    "witness": "Eusebius, Church History VI.6, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.33040-33043, 33079-33086); Jerome, Lives of Illustrious Men 38, tr. Richardson (npnf203_theodoret-jerome-gennadius-rufinus l.40278-40279)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Some spoke against Greek philosophy, as if it dragged believers from the faith: 'those who are fond of finding fault'; 'although some have calumniated it ... nor does it drag us away from the faith'",
+    "witness": "Clement, Stromata I.2, tr. William Wilson (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria l.27670-27672, 27684-27691)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Clement was a presbyter of Alexandria: 'presbyter of the Alexandrian church'; Alexander: 'Clement, the blessed presbyter'",
+    "witness": "Jerome, Lives 38, tr. Richardson (npnf203_theodoret-jerome-gennadius-rufinus l.40249-40250); Eusebius VI.11, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.33612-33614)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "He led the Christian school of Alexandria, where converts were taught: 'the school of the faithful in Alexandria'; 'had charge ... of the catechetical instruction'; 'led the theological school at Alexandria ... and was teacher of the Catechetes'",
+    "witness": "Eusebius V.10 and VI.6, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.28537-28539, 33040-33043); Jerome, Lives 38, tr. Richardson (npnf203_theodoret-jerome-gennadius-rufinus l.40250-40252)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "His tradition is the Alexandrian Catechetical / Christian-Platonist Tradition, told as the Christian school of Alexandria",
+    "witness": "World census, alexandria-catechetical (cic-website/data/world-census.json)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "He studied under Christian teachers from Greece to Palestine, keeping 'the tradition of the blessed doctrine derived directly from the holy apostles'",
+    "witness": "Clement, Stromata I.1, tr. Wilson (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria l.27483-27487, 27497-27500); also Eusebius V.11, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.28719-28758)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'When I came upon the last (he was the first in power), having tracked him out concealed in Egypt, I found rest.' Our modern English: 'When I had tracked him down, hidden in Egypt, I found rest.' Second reading B: 'Then I met the last of them, who was the first in ability. I tracked him down where he lay hidden in Egypt, and I found rest.' Verdict minor; final = A",
+    "witness": "Clement, Stromata I.1, tr. Wilson (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria l.27489-27492); second English witness, McGiffert's Eusebius V.11 (npnf201_eusebius-church-history-life-of-constantine l.28751-28758); comparison E29 (Build/Ministry/Operations/Audits/2026-11-16_era1-standard-v1/renderings/comparison.md). The Greek is not held",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Eusebius judged this teacher was Pantaenus: 'It seems to me that he alludes to the same person also in the first book of his Stromata'",
+    "witness": "Eusebius V.11, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.28697-28704)",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Pantaenus led the school before Clement; Clement 'having succeeded Pantaenus'",
+    "witness": "Eusebius V.10 and VI.6, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.28537-28539, 28637-28638, 33040-33041); Jerome, Lives 38 (npnf203_theodoret-jerome-gennadius-rufinus l.40250-40251)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Clement's answer: 'For God is the cause of all good things'; 'Perchance, too, philosophy was given to the Greeks directly and primarily, till the Lord should call the Greeks. For this was a schoolmaster to bring \"the Hellenic mind,\" as the law, the Hebrews, \"to Christ.\"'",
+    "witness": "Clement, Stromata I.5, tr. Wilson (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria l.27888-27893)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Philosophy, therefore, was a preparation, paving the way for him who is perfected in Christ.' Our modern English: 'Philosophy, then, was a preparation,' ... 'paving the way for the one who is made perfect in Christ.' Second reading B: 'So philosophy was a preparation. It cleared the way for the one who is being brought to completion in Christ.' Verdict minor; final = A",
+    "witness": "Clement, Stromata I.5, tr. Wilson (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria l.27893-27895); comparison E30 (Build/Ministry/Operations/Audits/2026-11-16_era1-standard-v1/renderings/comparison.md). The Greek is not held",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Origen was among his pupils as a boy: 'Origen is known to have been his disciple'",
+    "witness": "Eusebius VI.6, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.33043-33080); Jerome, Lives 38, tr. Richardson (npnf203_theodoret-jerome-gennadius-rufinus l.40277-40278)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Origen later led the same school, 'successor to the presbyter Clement'",
+    "witness": "Jerome, Lives 54, tr. Richardson (npnf203_theodoret-jerome-gennadius-rufinus l.40530-40531); Jerome, Letter 84.8, tr. Fremantle (npnf206_jerome-principal-works l.19286-19288)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Jerome: 'Imitating his example Origen wrote ten books of Miscellanies, in which he compares together the opinions held respectively by Christians and by philosophers, and confirms all the dogmas of our religion by quotations from Plato and Aristotle'",
+    "witness": "Jerome, Letter 70.4, to Magnus, tr. Fremantle (npnf206_jerome-principal-works l.16636-16642)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Asked why he quoted secular literature, Jerome pointed among others to Clement, whose books are 'drawn from the very heart of philosophy'; he calls Clement 'in my judgment the most learned of men'",
+    "witness": "Jerome, Letter 70.2 and 70.4, tr. Fremantle (npnf206_jerome-principal-works l.16454-16455, 16477-16480, 16626-16636)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The followers of Valentinus 'assign faith to us, the simple, but will have it that knowledge springs up in their own selves (who are saved by nature)'",
+    "witness": "Clement, Stromata II.3, tr. Wilson (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria l.32104-32111); an opponent's report",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Clement: knowledge is 'built upon faith'; 'believing, that is the foundation of knowledge'; if one is saved by nature, 'the precepts both of the Old and of the New Testament are, then, superfluous'",
+    "witness": "Clement, Stromata VII.10 and V.1, tr. Wilson (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria l.51304-51305, 51352-51353, 40953-40958)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Alexander became bishop of Jerusalem, called to the office with Narcissus",
+    "witness": "Eusebius VI.11, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.33504-33507); Jerome, Lives 38 (npnf203_theodoret-jerome-gennadius-rufinus l.40268-40269)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Alexander was Clement's pupil: 'the holy Clement, my master and benefactor'; McGiffert: 'from this passage that we gather that Alexander was a student of Clement's'",
+    "witness": "Eusebius VI.14, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.34330-34358)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "From prison Alexander sent a letter to Antioch by Clement: 'I have sent this letter to you by Clement, the blessed presbyter, a man virtuous and approved ... Being here, in the providence and oversight of the Master, he has strengthened and built up the Church of the Lord'",
+    "witness": "Eusebius VI.11, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.33600-33617); Jerome, Lives 38, tr. Richardson (npnf203_theodoret-jerome-gennadius-rufinus l.40268-40277)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "His Stromata keep words from the letters of Valentinus",
+    "witness": "Clement, Stromata II.8 and II.20, tr. Wilson (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria l.32722, 34289)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "McGiffert reads Clement into 'all were driven away by the threat of persecution' and dates his leaving to 202",
+    "witness": "Eusebius VI.3, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.32670-32674); McGiffert's notes (npnf201_eusebius-church-history-life-of-constantine l.28668-28670, 33031-33034)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Of his birth 'we have no certain knowledge'; 'of the place and time of his death we know nothing'; last notice about 212; Richardson: 'Born about 160, died about 217'",
+    "witness": "McGiffert's note (npnf201_eusebius-church-history-life-of-constantine l.28656-28660, 28674-28675); Richardson's note to Jerome, Lives 38 (npnf203_theodoret-jerome-gennadius-rufinus l.40249)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "He was commemorated as a saint in ancient times; Clement VIII dropped his name for suspected heterodoxy",
+    "witness": "McGiffert's notes (npnf201_eusebius-church-history-life-of-constantine l.28676-28678, 17051-17055)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Rufinus: 'we sometimes find in his books passages in which he speaks of the Son as a creature of God', which he puts down to corruption by heretics; Jerome reports it",
+    "witness": "Rufinus, On the Adulteration of the Works of Origen, tr. Fremantle (npnf203_theodoret-jerome-gennadius-rufinus l.45352-45358); Jerome's report (npnf203_theodoret-jerome-gennadius-rufinus l.53613-53620)",
+    "formation_confidence": "Widely Accepted"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Clement's last teacher, found in Egypt, was Pantaenus",
+    "sides": "Eusebius: 'It seems to me', and Clement names Pantaenus as his teacher in the Hypotyposes (npnf201_eusebius-church-history-life-of-constantine l.28697-28704); McGiffert: 'There can be no doubt as to his identity' (l.28751-28752), though the Hypotyposes passage is not preserved (l.28698-28700); the ANF note: 'Most likely Pantænus' (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria l.27489-27490). Clement himself does not name him in the held Stromata passage."
+   },
+   {
+    "claim": "Clement left Alexandria in 202 in the persecution under Severus",
+    "sides": "McGiffert reads him into Eusebius VI.3 (npnf201_eusebius-church-history-life-of-constantine l.28668-28670, 33031-33034). Eusebius's line says only that 'all were driven away' and does not name Clement (l.32670-32674)."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "A Valentinian reply to Clement",
+    "note": "None found in the Stromata, Eusebius's Church History, Jerome's Lives or Jerome's Letters as held (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria; npnf201_eusebius-church-history-life-of-constantine; npnf203_theodoret-jerome-gennadius-rufinus; npnf206_jerome-principal-works). What the Valentinians held is known here only through Clement, their opponent."
+   },
+   {
+    "detail": "An ancient year for Clement's teaching, birth or death",
+    "note": "Eusebius and Jerome give reigns, not years (npnf201_eusebius-church-history-life-of-constantine l.33079-33086; npnf203_theodoret-jerome-gennadius-rufinus l.40278-40279). 'Around the year 200' is approximate; 190-202, 212, and 160-217 are McGiffert's and Richardson's reckonings."
+   },
+   {
+    "detail": "The Greek of the Stromata",
+    "note": "Not held. Both renderings were made from Wilson's English, with McGiffert's Eusebius as a second English witness for the first quotation (npnf201_eusebius-church-history-life-of-constantine l.28751-28758)."
+   }
+  ]
+ },
+ "eusebius-of-caesarea": {
+  "claims": [
+   {
+    "claim": "In Diocletian's nineteenth year (303), near the Passion feast, edicts commanded 'that the churches be leveled to the ground and the Scriptures be destroyed by fire'",
+    "witness": "Eusebius, Church History VIII.2, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.43480-43489)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Pamphilus, 'my dearest friend', the only presbyter at Caesarea among the martyrs, excelled 'in most sincere devotion to the Divine Scriptures'; tortured with 'continuous and prolonged scrapings' and put in prison; at last punished with his companions",
+    "witness": "Eusebius, Martyrs of Palestine 7 and 11, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.46694-46709, 47072-47078, 47190-47198)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Eusebius wrote of the martyrs of Palestine, and a separate Life of Pamphilus in three books",
+    "witness": "Eusebius, Martyrs of Palestine 11 (npnf201_eusebius-church-history-life-of-constantine l.47080-47083); Church History VII.32.25 (npnf201_eusebius-church-history-life-of-constantine l.43040-43044)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Eusebius, 'surnamed Pamphilus, bishop of Caesarea in Palestine'",
+    "witness": "Socrates I.8, tr. Zenos (npnf202_socrates-sozomen-ecclesiastical-histories l.2970-2972); II.4 (npnf202_socrates-sozomen-ecclesiastical-histories l.5801-5803)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'since I am the first to enter upon the subject, I am attempting to traverse as it were a lonely and untrodden path'",
+    "witness": "Eusebius, Church History I.1.3, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.6936-6937)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "He gathered matters from earlier writers, 'having plucked like flowers from a meadow the appropriate passages from ancient writers'",
+    "witness": "Eusebius, Church History I.1.5 (npnf201_eusebius-church-history-life-of-constantine l.6961-6964)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Socrates writes 'the details of what has taken place in the churches since his time to our own day'; Theodoret: 'I shall begin my history from the period at which his terminates'",
+    "witness": "Socrates I.1, tr. Zenos (npnf202_socrates-sozomen-ecclesiastical-histories l.1864-1867); Theodoret I.1, tr. Jackson (npnf203_theodoret-jerome-gennadius-rufinus l.5219-5222)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Socrates: in the Life of Constantine Eusebius 'has but slightly treated of matters regarding Arius, being more intent on the rhetorical finish of his composition and the praises of the emperor, than on an accurate statement of facts'",
+    "witness": "Socrates I.1 (npnf202_socrates-sozomen-ecclesiastical-histories l.1861-1864)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "At Nicaea his own formula was read before the emperor, who approved it and advised 'the insertion of the single word, One-in-essence', which he read 'not in the sense of the affections of bodies'",
+    "witness": "Eusebius, Letter to his diocese 1 and 4, NPNF 2.4 (npnf204_athanasius-select-works-letters l.19563-19568, 19655-19661); Greek of the word in Socrates I.8, ed. Hussey (socrates_historia-ecclesiastica-tomus1-grc-lat_hussey1853 l.7154-7159, OCR)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'we did not let it pass without inquiry in what sense they introduced \"of the essence of the Father,\" and \"one in essence with the Father\"'",
+    "witness": "Eusebius, Letter to his diocese 5 and 8 (npnf204_athanasius-select-works-letters l.19698-19701, 19866-19867), his own account",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Eusebius 'had held aloof for a short time', then 'subscribed it with all the rest' and sent his people the creed with an explanation of homoousios",
+    "witness": "Socrates I.8 (npnf202_socrates-sozomen-ecclesiastical-histories l.2970-2978); Sozomen I.21, 'withheld his assent for a little while' (npnf202_socrates-sozomen-ecclesiastical-histories l.28002-28003); Athanasius, De Decretis 3, 'had denied the day before, but afterwards subscribed' (npnf204_athanasius-select-works-letters l.26780-26781)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Some 'attempted to stigmatize even Eusebius Pamphilus himself as having favored the Arian views'; Socrates defends him",
+    "witness": "Socrates II.21 (npnf202_socrates-sozomen-ecclesiastical-histories l.6914-6920)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Athanasius: 'I have subjoined at the end the letter of Eusebius', who had not denied 'the \"one in essence\"'",
+    "witness": "Athanasius, De Decretis 3, NPNF 2.4 (npnf204_athanasius-select-works-letters l.26780-26795), a hostile witness",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Socrates used Eusebius's account of the council, 'treating what he has said as an authority', and gave the letter 'as follows in his own words'",
+    "witness": "Socrates I.8 (npnf202_socrates-sozomen-ecclesiastical-histories l.2837-2838, 2866-2868, 2978-2979; the letter to l.3157)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Born not far from 260; died late in 339 or early in 340",
+    "witness": "McGiffert's prolegomena (npnf201_eusebius-church-history-life-of-constantine l.1121-1122, 2774-2786)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Eustathius of Antioch accused him of perverting the Nicene Creed; he answered that Eustathius held the opinion of Sabellius",
+    "witness": "Socrates I.23 (npnf202_socrates-sozomen-ecclesiastical-histories l.4708-4711)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Escaped prison by an unlawful promise",
+    "witness": "Potamo at Tyre, in Epiphanius, Panarion 68.8, Petavius's Latin (epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860 l.44663-44672), a partisan of Athanasius; McGiffert's prolegomena: Potamo 'simply conjectures', and Athanasius says only 'accused of sacrificing' (npnf201_eusebius-church-history-life-of-constantine l.1514-1543)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Constantine told him of the cross of light and 'confirmed his statement by an oath'; Richardson: the account 'has met with doubters from the very beginning, commencing with Eusebius himself'",
+    "witness": "Eusebius, Life of Constantine I.28, tr. Richardson (npnf201_eusebius-church-history-life-of-constantine l.61196-61211)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "He took the name Eusebius Pamphili after Pamphilus's death",
+    "witness": "McGiffert's note to Church History VII.32.25 (npnf201_eusebius-church-history-life-of-constantine l.43009-43012)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "He was present when crowds were put to death in a day in the Thebaid",
+    "witness": "Eusebius, Church History VIII.9.4 (npnf201_eusebius-church-history-life-of-constantine l.44267-44269)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Acacius, his disciple, succeeded him and wrote a sketch of his life",
+    "witness": "Socrates II.4 (npnf202_socrates-sozomen-ecclesiastical-histories l.5801-5805)",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Escaped prison by an unlawful promise",
+    "sides": "Potamo of Heraclea, at Tyre in 335, in Epiphanius, Panarion 68.8 (partisan, on the side of Athanasius), for. Against: Arthur McGiffert, who calls it Potamo's conjecture, and notes that Athanasius says only that Eusebius was \"accused of sacrificing\"."
+   },
+   {
+    "claim": "Whether Eusebius kept to the Nicene creed",
+    "sides": "Eustathius of Antioch accused him of perverting it; Eusebius denied it and charged Eustathius with Sabellianism (Socrates I.23). Socrates II.21 defends him against the charge of favoring Arius; Athanasius, De Decretis 3, uses his letter to show he signed."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "The Greek of Church History Book I",
+    "note": "Not held; the quotation follows McGiffert's English."
+   },
+   {
+    "detail": "The years of his birth and death",
+    "note": "No held ancient source gives them; McGiffert reckons them."
+   }
+  ]
+ },
+ "hermas": {
+  "claims": [
+   {
+    "claim": "Hermas wrote the Pastor 'very recently in our times in the city of Rome, while his brother bishop Pius sat in the chair of the Church of Rome'; 'it also ought to be read; but it cannot be made public in the Church to the people, nor placed among the prophets ... nor among the apostles'",
+    "witness": "Muratorian Canon, tr. in ANF 5 (anf05_hippolytus-cyprian-caius-novatian l.60178-60185)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Muratorian report is the earliest held report on who Hermas was and when he wrote; McGiffert: 'The only direct testimony of antiquity is that of the Muratorian Fragment'",
+    "witness": "Muratorian Canon (anf05_hippolytus-cyprian-caius-novatian l.60178-60180); McGiffert's note to Eusebius III.3 (npnf201_eusebius-church-history-life-of-constantine l.14776-14779)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "'Around the year 150': Hyginus became bishop of Rome in the first year of Antoninus Pius, held office four years, and Pius held it fifteen",
+    "witness": "Eusebius, Church History IV.10-11, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.22121-22123, 22320-22322, 22370-22371); McGiffert's note citing Lipsius, 139-154 earliest, 141-156 latest (l.22328-22331)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Eusebius ascribes the Shepherd to the Hermas whom Paul greets in Romans 16: the apostle 'has made mention among others of Hermas, to whom the book called The Shepherd ... is ascribed'",
+    "witness": "Eusebius, Church History III.3.6, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.14735-14736, 14753-14754, 14848)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Jerome: the Hermas of Romans 16 'is reputed to be the author of the book which is called Pastor and which is also read publicly in some churches of Greece ... but among the Latins it is almost unknown'",
+    "witness": "Jerome, Lives of Illustrious Men 10, tr. E. C. Richardson (npnf203_theodoret-jerome-gennadius-rufinus l.39614-39629)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Everything else told of his life comes from inside his own visions; no other held witness gives any fact of his life",
+    "witness": "The Shepherd, Vision 1 onward, tr. F. Crombie (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria l.646 onward); no other held ancient witness found",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "'He who had brought me up, sold me to one Rhode in Rome. Many years after this I recognised her, and I began to love her as a sister'; the thought 'I should be a happy man if I could but get a wife as handsome and good as she is'",
+    "witness": "Hermas, The Shepherd, Vision 1.1, tr. Crombie (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria l.648-658); his own visionary account",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "In a vision 'I see the woman whom I had desired saluting me from the sky'; she: 'I have been taken up here to accuse you of your sins before the Lord'",
+    "witness": "Hermas, The Shepherd, Vision 1.1, tr. Crombie (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria l.681-685); a vision",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "'I was overwhelmed with sorrow and fear, and said to myself, \"If this sin is assigned to me, how can I be saved\"'",
+    "witness": "Hermas, The Shepherd, Vision 1.2, tr. Crombie (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria l.733-734)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Hermas heard 'some teachers maintain that there is no other repentance than that which takes place, when we descended into the water'",
+    "witness": "Hermas, The Shepherd, Commandment 4.3, tr. Crombie (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria l.1990-1994)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The angel came 'dressed like a shepherd', 'sent by a most venerable angel to dwell with you the remaining days of your life'; 'the shepherd, even the angel of repentance'",
+    "witness": "Hermas, The Shepherd, Vision 5, tr. Crombie (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria l.1695-1700, 1724-1725)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The angel: 'That was sound doctrine'; 'he who has received remission of his sins ought not to sin any more'; 'those who have now believed, and those who are to believe, have not repentance ... For to those who have been called before these days, the Lord has set repentance'; the Lord 'knew the weakness of men' and 'being merciful ... has set repentance for them'; 'he has opportunity to repent but once'",
+    "witness": "Hermas, The Shepherd, Commandment 4.3, tr. Crombie (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria l.1994-2020)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The husband must take back a wife who repents: 'he ought to take back the sinner who has repented. But not frequently. For there is but one repentance to the servants of God'",
+    "witness": "Hermas, The Shepherd, Commandment 4.1, tr. Crombie (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria l.1924-1934)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Quotation 'For the servants of God there is only one repentance.' Rendering A: 'For the servants of God there is only one repentance.' Rendering B: 'For the servants of God have only one repentance.' Verdict same; FINAL = A",
+    "witness": "Printed: Commandment 4.1, tr. Crombie (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria l.1933-1934); Build/Ministry/Operations/Audits/2026-11-16_era1-standard-v1/renderings/comparison.md E18; the Greek is not held",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Irenaeus quotes the Shepherd as Scripture: 'Truly, then, the Scripture declared, which says, \"First of all believe that there is one God\"'; Eusebius: Irenaeus 'not only knows, but also receives, The Shepherd'",
+    "witness": "Irenaeus, Against Heresies IV.20.2, tr. Roberts and Rambaut (anf01_apostolic-fathers-justin-irenaeus l.46864-46868); Eusebius, Church History V.8.7, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.28248-28257)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Tertullian attacks a bishop's edict: 'I remit, to such as have discharged (the requirements of) repentance, the sins both of adultery and of fornication'",
+    "witness": "Tertullian, On Modesty 1, tr. S. Thelwall (anf04_tertullian4-minucius-felix-commodian-origen1-2 l.7178-7189)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Tertullian: the Shepherd 'is the only one which favours adulterers'; 'habitually judged by every council of Churches (even of your own) among apocryphal and false (writings)'; Latin 'quae sola moechos amat ... ab omni concilio ecclesiarum, etiam uestrarum, inter apocrypha et falsa iudicaretur'; elsewhere 'that apocryphal \"Shepherd\" of adulterers'",
+    "witness": "Tertullian, On Modesty 10 and 20, tr. Thelwall (anf04_tertullian4-minucius-felix-commodian-origen1-2 l.8138-8144, 9330-9331); Latin, CSEL 20, ed. Reifferscheid and Wissowa (tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20 l.13578-13581); a hostile witness, and his report of the councils is his alone",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Eusebius counts the Shepherd among the rejected writings (ἐν τοῖς νόθοις); yet 'by others it is considered quite indispensable, especially to those who need instruction in the elements of the faith. Hence, as we know, it has been publicly read in churches'",
+    "witness": "Eusebius, Church History III.25.4 and III.3.6, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.18031-18034, 14854-14860)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "McGiffert: Clement of Alexandria and Origen 'often quote it as an inspired book, though the latter expressly distinguishes it from the canonical books'",
+    "witness": "McGiffert's note to Eusebius III.3 (npnf201_eusebius-church-history-life-of-constantine l.14759-14761); a modern statement, on the card only",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "McGiffert: the Muratorian testimony 'is accepted by the majority of scholars'; Zahn 'dates it between 97 and 100, and assigns it to an unknown Hermas, a contemporary of the Roman Clement', followed by Salmon; the Clement mention (Vis. II.4.3) makes a contemporary of Clement 'very likely' but not certain",
+    "witness": "McGiffert's note to Eusebius III.3 (npnf201_eusebius-church-history-life-of-constantine l.14776-14808); Hermas, Vision 2.4, tr. Crombie (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria l.1010-1013)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "The identification with the Hermas of Romans 16 'appears to be no older than Origen, with whom it is no more than a mere guess'; Richardson's note: 'this view of Jerome taken from Origen through Eusebius is not much accepted'",
+    "witness": "McGiffert's note (npnf201_eusebius-church-history-life-of-constantine l.14793-14795); note in Richardson's Jerome (npnf203_theodoret-jerome-gennadius-rufinus l.39614-39618)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Coxe's bracketed note on Commandment 4.3: 'Can the following words be genuine? They reflect the very Montanism here so strictly opposed'; the clause 'In ... life' 'occur only in Pal.'",
+    "witness": "A. Cleveland Coxe's note, ANF 2 (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria l.2015-2019)",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Opening variants: Vatican 'He who had brought me up, sold a certain young woman at Rome'; 'Pal. has the name of the woman, Rada'; 'The name Rhode occurs in Acts xii. 13'",
+    "witness": "Editor's note to Vision 1.1, ANF 2 (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria l.649-652)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Tradition: Post-Apostolic Household-Church Christianity",
+    "witness": "cic-website/data/world-census.json, tradition post-apostolic-house-church, which lists hermas",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Who Hermas was and when the Shepherd was written",
+    "sides": "The Muratorian Canon: the brother of Bishop Pius, writing 'very recently in our times' (anf05_hippolytus-cyprian-caius-novatian l.60178-60180), accepted by the majority of scholars in McGiffert's day (npnf201_eusebius-church-history-life-of-constantine l.14780-14782). Eusebius III.3.6 (npnf201_eusebius-church-history-life-of-constantine l.14735-14736, 14753) and Jerome, Lives 10 (npnf203_theodoret-jerome-gennadius-rufinus l.39614-39627): the Hermas greeted in Romans 16, a view McGiffert calls 'a mere guess' of Origen's (l.14793-14795). Zahn, followed by Salmon: an unknown Hermas writing 97-100, in Clement's time (l.14807-14809)."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Any fact of his life outside his own visions, and what became of him",
+    "note": "No held ancient witness (the Muratorian Canon, Irenaeus, Tertullian, Eusebius, Jerome) tells his life beyond the book or his end. The Rhoda story and his household are the visions' own frame."
+   },
+   {
+    "detail": "An ancient witness that the churches took up his one repentance as a rule",
+    "note": "None found in the held files; the brief does not claim it, and the old card's 'shaped the Roman teaching' was dropped for want of a witness."
+   }
+  ]
+ },
+ "valentinus": {
+  "claims": [
+   {
+    "claim": "'Valentinus came to Rome in the time of Hyginus, flourished under Pius, and remained until Anicetus', that is, through two more bishops",
+    "witness": "Irenaeus, Against Heresies III.4.3, tr. Roberts and Rambaut (anf01_apostolic-fathers-justin-irenaeus l.39968-39970). One witness, a partisan",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Around 140': Hyginus became bishop of Rome in the first year of Antoninus Pius",
+    "witness": "Eusebius, Church History IV.10, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.22120-22126); Irenaeus III.4.3 (anf01 l.39968-39970)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Other rival teachers came to Rome in those years: Cerdo arrived in the time of Hyginus, and Marcion succeeded him",
+    "witness": "Irenaeus III.4.3 (anf01_apostolic-fathers-justin-irenaeus l.39970-39984)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Irenaeus wrote against them all",
+    "witness": "Irenaeus, Against Heresies I (Valentinians), I.27 (Cerdo and Marcion) (anf01_apostolic-fathers-justin-irenaeus l.29844-29873, 33564-33594)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "His followers were called Valentinians",
+    "witness": "Tertullian, Against the Valentinians 4, tr. Holmes (anf03_tertullian l.43104-43106, 43124-43125)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Theirs was one of the Gnostic Christianities: Valentinus 'adapted the principles of the heresy called \"Gnostic\" to the peculiar character of his own school'; the tradition is Valentinian & other Gnostic Christianities",
+    "witness": "Irenaeus I.11.1 (anf01_apostolic-fathers-justin-irenaeus l.31520-31521); world census, valentinian-and-other-gnostic-christianities",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "They claimed a knowledge higher than faith: 'the followers of Valentinus assign faith to us, the simple, but will have it that knowledge springs up in their own selves'",
+    "witness": "Clement, Stromata II.3, tr. Wilson (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria l.32106-32111); Irenaeus I.6.2 (anf01 l.30754-30757)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Valentinus 'had expected to become a bishop, because he was an able man both in genius and eloquence'; when another obtained it 'by reason of a claim which confessorship had given him, he broke with the church'; ambition and revenge",
+    "witness": "Tertullian, Against the Valentinians 4, tr. Holmes (anf03_tertullian l.43109-43115). Tertullian alone, a hostile witness; not in Irenaeus I.11 or III.4.3 nor in Clement",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "His own words survive only in a few passages his opponents quote, most of them in Clement, who quotes them in order to answer them; the Refutation also quotes a psalm and tells a vision",
+    "witness": "Clement, Stromata II.8, II.20, IV.13, VI.6, tr. Wilson (anf02 l.32722-32736, 34289-34314, 39090-39112, 46642-46652); Refutation VI, tr. MacMahon (anf05_hippolytus-cyprian-caius-novatian l.9787-9802, 10053-10057)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "In a letter Valentinus compares the heart to a caravanserai, 'filled with dung; men living filthily in it', 'the abode of many demons'; 'But when the only good Father visits it, it is sanctified, and gleams with light.' 'Roadside inn' is our plain word for caravanserai",
+    "witness": "Valentinus, letter, in Clement, Stromata II.20, tr. Wilson (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria l.34289-34302)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Clement had Valentinus's own letters before him: 'Valentinus too, in a letter to certain people, writes in these very words'",
+    "witness": "Clement, Stromata II.20 and II.8 (anf02 l.34289-34290, 32722-32723)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Valentinus placed the Maker of this world below a higher, unseen God",
+    "witness": "Irenaeus I.11.1 and IV preface 3 (anf01_apostolic-fathers-justin-irenaeus l.31535-31543, 44340-44342); Clement, Stromata IV.13, quoting Valentinus: the world inferior to the living Aeon, the Creator the 'Painter', 'to the glory of the invisible One' (anf02 l.39100-39110). Two witnesses",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "His school held that its members were saved by nature, while ordinary believers needed faith",
+    "witness": "Clement, Stromata II.3, II.20, IV.13 (anf02 l.32106-32109, 34308-34309, 39095-39096); Irenaeus I.6.2 (anf01 l.30754-30763). Two witnesses",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Irenaeus sets out a fuller system, which Clement does not confirm: a Dyad, a Tetrad and the Ogdoad of powers in pairs; one of the twelve, 'falling from its original condition, produced the rest of the universe'",
+    "witness": "Irenaeus I.11.1 (anf01_apostolic-fathers-justin-irenaeus l.31522-31531). One witness for the system as Valentinus's; Clement's 'things which proceed from a pair are complements' (anf02 l.39110-39111) is too thin to confirm it",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The school carried on under teachers the opponents name, Ptolemy and Heracleon among them",
+    "witness": "Irenaeus I preface 2 and II.4.1 (anf01 l.29872-29873, 34634); Clement, Stromata IV.9, 'Heracleon, the most distinguished of the school of Valentinians' (anf02 l.38779-38780); Tertullian, Against the Valentinians 4 (anf03_tertullian l.43117-43123, printed 'Heraclean')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Irenaeus had read the disciples' Commentaries and met some of them; he feared some would be carried off 'because their language resembles ours, while their sentiments are very different', and so wrote",
+    "witness": "Irenaeus I preface 2, tr. Roberts and Rambaut (anf01_apostolic-fathers-justin-irenaeus l.29844-29867)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "His five books Against Heresies",
+    "witness": "Irenaeus, Against Heresies I-V (anf01_apostolic-fathers-justin-irenaeus l.29777, 34224, 39621, 44299, 50523)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Earlier writers 'were unable ... to refute the Valentinians satisfactorily, because they were ignorant of these men's system'; 'they who overthrow them, do in fact overthrow every kind of heresy'",
+    "witness": "Irenaeus IV preface 2 (anf01_apostolic-fathers-justin-irenaeus l.44326-44338)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: Clement had read Irenaeus and gave extracts from his writings",
+    "witness": "Eusebius, Church History VI.13, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.34261-34266)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: the Refutation's Book 6 copies Irenaeus at length ('From this to the end of book vi. occurs in Irenaeus likewise')",
+    "witness": "Note in the American edition of the Refutation (anf05_hippolytus-cyprian-caius-novatian l.10059-10064)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Card: Valentinus claimed to have seen a newborn child who said he was the Logos",
+    "witness": "Refutation VI, tr. MacMahon (anf05_hippolytus-cyprian-caius-novatian l.10053-10057). One hostile witness",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: 'the disciple of Platonism'",
+    "witness": "Tertullian, Prescription 30, tr. Holmes (anf03_tertullian l.21332-21333)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: Axionicus at Antioch alone still kept his rules; Secundus, Marcus, Theotimus",
+    "witness": "Tertullian, Against the Valentinians 4 (anf03_tertullian l.43121-43127)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: 'a very large body of heretics'; earlier writers who answered them: Justin, Miltiades, Irenaeus, Proculus",
+    "witness": "Tertullian, Against the Valentinians 1 and 5 (anf03_tertullian l.42911-42912, 43153-43173)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: taught by Theudas, a pupil of Paul",
+    "witness": "Clement, Stromata VII.17, reporting the followers' claim (anf02 l.52962-52963)",
+    "formation_confidence": "Inferential-Thin"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "When Valentinus was at Rome",
+    "sides": "Irenaeus: from Hyginus to Anicetus (anf01_apostolic-fathers-justin-irenaeus l.39968-39970). Tertullian: in the church of Rome under Bishop Eleutherus, 'more than once expelled' (anf03_tertullian l.21332-21339)."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "His birthplace",
+    "note": "No held source read says where he was born. Epiphanius, Panarion 31 (epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915.txt) was not read for this profile."
+   },
+   {
+    "detail": "His own writings entire",
+    "note": "Only fragments quoted by opponents are held (Clement; the Refutation); no work of his survives whole in the held files."
+   }
+  ]
+ }
 }

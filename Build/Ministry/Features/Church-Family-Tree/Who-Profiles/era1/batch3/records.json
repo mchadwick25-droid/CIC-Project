@@ -1,325 +1,502 @@
 {
-  "peter-of-alexandria": {
-    "claims": [
-      {
-        "claim": "The canons were written at 'the fourth passover of the persecution'; 306 is reckoned from it",
-        "witness": "Peter, Canonical Epistle, Canon I, ANF 6 (anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius l.26607-26608); Eusebius, Church History VIII.2, tr. McGiffert, the edict in Diocletian's nineteenth year near the Passion feast (npnf201_eusebius-church-history-life-of-constantine l.43480-43489); McGiffert's note, 'drawn up by Peter in 306' (l.43238-43240)",
-        "formation_confidence": "Widely Accepted"
-      },
-      {
-        "claim": "Peter was bishop of Alexandria, for twelve years, less than three of them before the persecution",
-        "witness": "Eusebius, Church History VII.32, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.43262-43268)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Those who fell after prison and torture 'did not come to this of their own will, but were betrayed by the frailty of the flesh'; forty more days are enjoined from 'the time of their submissive approach'",
-        "witness": "Peter, Canonical Epistle, Canon I, ANF 6 (anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius l.26607-26624; quotation l.26616-26617); Greek in the Pedalion (nikodemos-hagiorite_pedalion-canons-grc_1886 l.49722-49723)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "After the forty days the fallen are admitted to the church",
-        "witness": "Balsamon and Zonaras on Canon I, ANF 6 (anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius l.26636-26641, 26658-26666)",
-        "formation_confidence": "Widely Accepted"
-      },
-      {
-        "claim": "It is not lawful to accuse those who 'have retired for the safety of their life'",
-        "witness": "Peter, Canonical Epistle, Canon XIII, ANF 6 (anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius l.27536-27538)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Hesychius, Pachomius, Theodorus and Phileas protested to Meletius, bishop of Lycopolis, over 'the ordination carried through by thee in parishes having no manner of connection with thee'; they were in prison",
-        "witness": "Letter of the four bishops, ANF 6 (anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius l.16699-16724, 16820-16822)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Meletius came to Alexandria, 'suspended' presbyters 'then in hiding, to whom the blessed Peter had given power to act as parish-visitors', and ordained two in their place. The presbyters were in hiding; the account does not say Peter was",
-        "witness": "The conclusion kept with the bishops' letter, anonymous, translated from Latin, ANF 6 (anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius l.16820-16844)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Peter wrote to his people to 'hold no communion with him, until I meet him'",
-        "witness": "Peter, Letter to the Church at Alexandria, ANF 6 (anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius l.27790-27804)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Meletius, 'convicted of many crimes, and among the rest of offering sacrifice to idols', was deposed by Peter 'in a general council of the bishops'",
-        "witness": "Athanasius, Apology against the Arians 59, NPNF 2.4, ed. Robertson (npnf204_athanasius-select-works-letters l.24777-24781), a hostile witness; Socrates I.6, tr. Zenos (npnf202_socrates-sozomen-ecclesiastical-histories l.2404-2408)",
-        "formation_confidence": "Contested"
-      },
-      {
-        "claim": "Athanasius is the Meletians' enemy: they are 'like dogs unable to forget their vomit'",
-        "witness": "Athanasius, Apology against the Arians 59 (npnf204_athanasius-select-works-letters l.24803-24806)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Epiphanius writes kindly of Meletius's side: 'a veritatis amore profecta, et divini ardoris plenissima ratio'",
-        "witness": "Epiphanius, Panarion 68.2, Petavius's Latin, ed. Oehler (epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860 l.43803-43804)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Meletius was in prison with Peter; Meletius and others would receive the fallen only after the persecution, when peace came; Peter, 'benignus ac misericors', would receive them; 'episcoporum, monachorum et presbyterorum ac reliquorum ordinum maior numerus sese ad Meletium adiunxit'",
-        "witness": "Epiphanius, Panarion 68.1-3, Petavius's Latin, ed. Oehler (epiphanius_panarion-...oehler1860 l.43676-43683, 43786-43808, 43926-43931)",
-        "formation_confidence": "Contested"
-      },
-      {
-        "claim": "Peter, 'being seized for no cause and quite unexpectedly', was beheaded, in the ninth year of the persecution",
-        "witness": "Eusebius, Church History IX.6 and VII.32, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.47991-47998, 43266-43268)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "The ninth year runs from Feb. 311 to Feb. 312, or Mar. or Apr. 311 to Mar. or Apr. 312 by Eusebius's own reckoning; Peter died 'not long before the spring of 312'",
-        "witness": "McGiffert's note to Church History VII.32 (npnf201_eusebius-church-history-life-of-constantine l.43218-43230)",
-        "formation_confidence": "Dominant Modern Reconstruction"
-      },
-      {
-        "claim": "Nicaea ruled that Meletius 'remain in his own city but exercise no authority either to ordain or nominate for ordination', and 'retain a nominal dignity'",
-        "witness": "Socrates I.9, the synodal letter, tr. Zenos (npnf202_socrates-sozomen-ecclesiastical-histories l.3204-3211)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "The Meletians spread reports against Athanasius 'as they had practised against Peter and Achillas and Alexander', and are 'even yet called Meletians'",
-        "witness": "Athanasius, Apology against the Arians 59-60 (npnf204_athanasius-select-works-letters l.24782-24784, 24838-24841)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "In 692 the council in Trullo, canon 2, set its seal on the canons 'of Peter, Archbishop of Alexandria and Martyr', with a penalty for any who overturn them",
-        "witness": "Council in Trullo, canon 2, tr. Percival (npnf214_seven-ecumenical-councils l.26731-26760; date l.26350, 26385)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "'From the times of the blessed Peter, Bishop and Martyr' is the wording of the Encyclical Letter of the Council of Egypt, which Athanasius quotes, not Athanasius's own",
-        "witness": "Athanasius, Apology against the Arians 3-11, the council's letter (npnf204_athanasius-select-works-letters l.21991, 22464-22465)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Bell: the sacrifice charge 'need not be taken very seriously'; Epiphanius 'had excellent authority, probably in part that of Egyptian Bishops banished to Palestine'; the accounts are 'different stages in the growth of the schism'; the dispute broke out 'probably in A.D. 305'; Peter 'was martyred on 25 Nov., 311'",
-        "witness": "Bell, Jews and Christians in Egypt (bell_jews-christians-egypt-meletian-papyri_1924 l.3153-3168, 3212)",
-        "formation_confidence": "Dominant Modern Reconstruction"
-      },
-      {
-        "claim": "Hefele: 'at the time of the commencement of the schism, neither Peter nor Meletius was in prison'; 'Epiphanius was mistaken on the principal points'; the schism began 'about the year 304 or 305'",
-        "witness": "Hefele, History of the Councils I, tr. Clark (hefele_history-of-the-councils-v1-to-nicaea_clark1872 l.22105, 22250-22256)",
-        "formation_confidence": "Dominant Modern Reconstruction"
-      },
-      {
-        "claim": "Sozomen: Arius was ordained deacon by Peter, who later cast him out over the Meletians; Hartranft's note: 'No one else suggests an early connection of Arius with the Melitians'",
-        "witness": "Sozomen I.15, tr. Hartranft (npnf202_socrates-sozomen-ecclesiastical-histories l.27553-27561); Robertson, 'These tales deserve little credit' (npnf204_athanasius-select-works-letters l.1684)",
-        "formation_confidence": "Contested"
-      },
-      {
-        "claim": "The Genuine Acts of Peter 'are spurious and historically quite worthless'",
-        "witness": "McGiffert's note to Church History VII.32 (npnf201_eusebius-church-history-life-of-constantine l.43251-43253); the Acts, ANF 6 (anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius l.25834ff., tomb of Mark l.26286)",
-        "formation_confidence": "Documented"
-      }
-    ],
-    "contested_claims": [
-      {
-        "claim": "How the Meletian schism began",
-        "sides": "Athanasius (a hostile witness) and Socrates: Meletius was deposed by a council under Peter for crimes including sacrifice. Epiphanius (kind to Meletius): the two were in prison together and split over the fallen, Peter for mercy, Meletius for waiting until peace, with most of the clergy on Meletius's side. Harold Idris Bell reads them as stages of one quarrel; Charles Joseph Hefele says the first letters show neither man in prison at the start, and that Epiphanius erred on the main points."
-      },
-      {
-        "claim": "Peter ordained Arius a deacon and later cast him out over the Meletians",
-        "sides": "Sozomen I.15 reports it. Against: Chester Hartranft, Sozomen's translator, notes that no one else links Arius with the Meletians early; Archibald Robertson says such tales \"deserve little credit\"."
-      }
-    ],
-    "absent_details": [
-      {
-        "detail": "Peter's birth, family and schooling",
-        "note": "No early source gives them. The Ethiopian Synaxarium, tr. Budge, much later, names his parents Theodore and Sophia (ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928 l.19892-19897); not used as fact."
-      },
-      {
-        "detail": "How the canons were received in his lifetime",
-        "note": "No held source shows it; the brief gives only the council in Trullo of 692."
-      },
-      {
-        "detail": "The year of the split against the canons of 306",
-        "note": "No held source of the time dates Meletius's ordinations against the canons; the brief says only 'in the same persecution'."
-      }
-    ]
-  },
-  "anatolius-of-alexandria-and-laodicea": {
-    "claims": [
-      {
-        "claim": "A synod at Antioch judged Paul of Samosata, bishop of Antioch, for 'low and degraded views of Christ'; Eusebius puts the final synod in the reign of Aurelian",
-        "witness": "Eusebius, Church History VII.27-30, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.41837-41840, 41930-41932)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "'Around the year 270' for the synod: McGiffert, 'The council is ordinarily, however, assigned to the year 269'; the ANF 6 introductory notice heads Anatolius 'a.d. 270'",
-        "witness": "McGiffert's note to VII.29 (npnf201_eusebius-church-history-life-of-constantine l.41930-41943); ANF 6, ed. Coxe (anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius l.14686-14687)",
-        "formation_confidence": "Widely Accepted"
-      },
-      {
-        "claim": "'He also was an Alexandrian by birth'; in arithmetic, geometry, astronomy, dialectics and physics 'he stood first among the ablest men of our time'",
-        "witness": "Eusebius, Church History VII.32.6, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.42683-42688)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Jerome: 'a man of wonderful learning in arithmetic, geometry, astronomy, grammar, rhetoric, and dialectic'; flourished under Probus and Carus",
-        "witness": "Jerome, Lives of Illustrious Men 73, tr. Richardson (npnf203_theodoret-jerome-gennadius-rufinus l.40928-40933)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Told on report ('They relate', 'They say'): during the siege of the Pyrucheium bread failed; Anatolius persuaded the senate to send out 'old women and children and old men'; under cover of these a multitude escaped by night to the Roman camp, and 'he saved almost all the besieged'",
-        "witness": "Eusebius, Church History VII.32.7-11, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.42691-42763)",
-        "formation_confidence": "Widely Accepted"
-      },
-      {
-        "claim": "Which siege: McGiffert, most likely the revolt of Aemilian in 260; Valesius and others, under Claudius; Eusebius's Chronicle, 272",
-        "witness": "McGiffert's notes (npnf201_eusebius-church-history-life-of-constantine l.42694-42712, 41930-41931)",
-        "formation_confidence": "Contested"
-      },
-      {
-        "claim": "Anatolius and Eusebius came to Laodicea 'after the aforesaid war from Alexandria'",
-        "witness": "Eusebius, Church History VII.32.12 (npnf201_eusebius-church-history-life-of-constantine l.42764-42767)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Theotecnus of Caesarea first ordained him bishop as his successor; the synod on Paul 'called him to Antioch, and as he passed through the city of Laodicea, Eusebius being dead, he was detained by the brethren there'",
-        "witness": "Eusebius, Church History VII.32.21 (npnf201_eusebius-church-history-life-of-constantine l.42923-42940)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "'Anatolius did not write very many works'; Eusebius gives extracts on the passover",
-        "witness": "Eusebius, Church History VII.32.13 (npnf201_eusebius-church-history-life-of-constantine l.42769-42773)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "The new moon of the first month is 'the beginning of every cycle of nineteen years'; the sun is then in the segment called 'the equinox'; those who place the first month in the segment before it 'commit no slight or common blunder'",
-        "witness": "Anatolius, Paschal Canons, in Eusebius VII.32.14-15, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.42789-42791, 42805-42817); Greek, ed. Schwartz-Mommsen (eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908 l.12600-12616, OCR)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "'So far as we know, the first Christian to employ the old Metonic nineteen-year cycle for the determination of Easter'",
-        "witness": "McGiffert's note to VII.32.14 (npnf201_eusebius-church-history-life-of-constantine l.42791-42793)",
-        "formation_confidence": "Dominant Modern Reconstruction"
-      },
-      {
-        "claim": "Left the Institutes of Arithmetic, in ten books",
-        "witness": "Eusebius VII.32.20 (npnf201_eusebius-church-history-life-of-constantine l.42916-42917); Jerome 73 (npnf203_theodoret-jerome-gennadius-rufinus l.40934-40936)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "At the synod in the monastery of Streaneshalch (Whitby), on Easter, Colman asked whether Anatolius, 'a holy man, and much commended in church history', acted 'contrary to the law and the Gospel'",
-        "witness": "Bede, Ecclesiastical History III.25, tr. Giles, rev. Jane (bede_ecclesiastical-history-english-people_giles1903 l.7956-7962, 8117-8121; 'Whitby' l.10952)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Wilfrid: Anatolius 'was a most holy, learned, and commendable man; but what have you to do with him, since you do not observe his decrees?'; his 'revolution of nineteen years' is 'kept by the whole church of Christ'",
-        "witness": "Bede III.25 (bede_ecclesiastical-history-english-people_giles1903 l.8133-8141)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "The king ruled to obey Peter, since 'the keys of heaven were given to him by our Lord'; all present 'resolved to conform'",
-        "witness": "Bede III.25 (bede_ecclesiastical-history-english-people_giles1903 l.8195-8216)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "The disputation happened in 664",
-        "witness": "Bede III.26 (bede_ecclesiastical-history-english-people_giles1903 l.8236-8238)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "The northern Scots and the Picts kept Easter 'believing that they therein followed the writings of the holy and praiseworthy Father Anatolius'",
-        "witness": "Bede III.3 (bede_ecclesiastical-history-english-people_giles1903 l.5749-5756)",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "The Latin Paschal Canon, first printed in 1634, is an early translation of his genuine work",
-        "witness": "McGiffert, following Zahn, for ('the best of reasons'); Ideler against (npnf201_eusebius-church-history-life-of-constantine l.42773-42782)",
-        "formation_confidence": "Contested"
-      }
-    ],
-    "contested_claims": [
-      {
-        "claim": "Whether the Latin Paschal Canon (first printed 1634) is Anatolius's own work",
-        "sides": "Arthur McGiffert, following Theodor Zahn, sees \"the best of reasons\" for an early translation of his genuine work; Ideler held it a seventh-century work. Only the extract Eusebius quotes, and the arithmetic fragments, are firm."
-      },
-      {
-        "claim": "Which siege of the Pyrucheium Eusebius means",
-        "sides": "McGiffert: most likely the revolt of Aemilian, 260. Valesius and others: a later siege under Claudius. Eusebius's Chronicle, as McGiffert reports it: 272."
-      }
-    ],
-    "absent_details": [
-      {
-        "detail": "What came of his reckoning in his own lifetime",
-        "note": "The held sources do not show it; Eusebius says only that he died and names his successor (npnf201 l.42942-42944). The brief says so."
-      },
-      {
-        "detail": "Anatolius's birth and death dates",
-        "note": "No held ancient source gives them. Richardson (born about 230, bishop 270, died about 283, npnf203 l.40928) and a bracket at the head of Salmond's ANF translation (230, 270, 280, called conjectural, anf06 l.14711-14715) only estimate; Eusebius says his death came before the persecution."
-      }
-    ]
-  },
-  "polycrates-of-ephesus": {
-    "claims": [
-      {
-        "claim": "Bishop of Ephesus while Victor was bishop of Rome; led the bishops of Asia in the Easter dispute",
-        "witness": "Eusebius, Church History V.22-25; Jerome, Lives 45",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Wrote to Victor defending the fourteenth-day Easter, citing the lights of Asia and his seven bishop relatives",
-        "witness": "Polycrates, letter in Eusebius V.24 and III.31",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Victor cut off the churches of Asia from communion",
-        "witness": "Eusebius V.24 (McGiffert reads it as done; Socrates V.22 says so); Hefele, following Valesius, reads it as a threat only",
-        "formation_confidence": "Contested"
-      },
-      {
-        "claim": "The Philip buried at Hierapolis was the apostle",
-        "witness": "Polycrates in Eusebius; McGiffert holds it a confusion with Philip the evangelist; Lightfoot defends Polycrates",
-        "formation_confidence": "Contested"
-      }
-    ],
-    "contested_claims": [
-      {
-        "claim": "Whether Victor actually excommunicated the churches of Asia",
-        "sides": "McGiffert holds he did, and Socrates of Constantinople says so directly; Hefele, following Valesius, holds that Victor only threatened it and was held back by Irenaeus."
-      },
-      {
-        "claim": "Whether the Philip at Hierapolis was the apostle or the evangelist",
-        "sides": "Polycrates (and Eusebius) say the apostle; McGiffert holds it a confusion with Philip the evangelist of Acts; Lightfoot defends Polycrates."
-      }
-    ],
-    "absent_details": [
-      {
-        "detail": "Polycrates's birth, death and personal end",
-        "note": "McGiffert says the years of his accession and death are not known. The only dated claims (anf08 \"about 200\" and the editor's \"130-196\") are unsourced and disagree."
-      }
-    ]
-  },
-  "pliny-the-younger": {
-    "claims": [
-      {
-        "claim": "Roman governor of Bithynia from 110 or 111 who tried Christians and wrote to Trajan for guidance",
-        "witness": "Pliny, Letters 10.96, in McGiffert's note to Eusebius III.33",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Reported Christians meeting before dawn to sing to Christ as God, and questioned two deaconesses under torture",
-        "witness": "Pliny, Letters 10.96, in McGiffert's note",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Trajan replied that Christians were not to be sought out, but punished if accused and convicted",
-        "witness": "Trajan, Letters 10.97, in McGiffert's note; Tertullian, Apology 2; Eusebius III.33",
-        "formation_confidence": "Documented"
-      },
-      {
-        "claim": "Nephew of Pliny the Elder and a friend of Trajan",
-        "witness": "McGiffert, note to Eusebius III.33",
-        "formation_confidence": "Widely Accepted"
-      }
-    ],
-    "contested_claims": [],
-    "absent_details": [
-      {
-        "detail": "Pliny's birth and death years and his family",
-        "note": "No held primary source gives them. The only dated figures are in the secondary Malech (lived 61-115), unsourced. No held source attests his friendship with Tacitus."
-      }
-    ]
-  }
+ "peter-of-alexandria": {
+  "claims": [
+   {
+    "claim": "The canons were written at 'the fourth passover of the persecution'; 306 is reckoned from it",
+    "witness": "Peter, Canonical Epistle, Canon I, ANF 6 (anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius l.26607-26608); Eusebius, Church History VIII.2, tr. McGiffert, the edict in Diocletian's nineteenth year near the Passion feast (npnf201_eusebius-church-history-life-of-constantine l.43480-43489); McGiffert's note, 'drawn up by Peter in 306' (l.43238-43240)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Peter was bishop of Alexandria, for twelve years, less than three of them before the persecution",
+    "witness": "Eusebius, Church History VII.32, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.43262-43268)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Those who fell after prison and torture 'did not come to this of their own will, but were betrayed by the frailty of the flesh'; forty more days are enjoined from 'the time of their submissive approach'",
+    "witness": "Peter, Canonical Epistle, Canon I, ANF 6 (anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius l.26607-26624; quotation l.26616-26617); Greek in the Pedalion (nikodemos-hagiorite_pedalion-canons-grc_1886 l.49722-49723)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "After the forty days the fallen are admitted to the church",
+    "witness": "Balsamon and Zonaras on Canon I, ANF 6 (anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius l.26636-26641, 26658-26666)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "It is not lawful to accuse those who 'have retired for the safety of their life'",
+    "witness": "Peter, Canonical Epistle, Canon XIII, ANF 6 (anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius l.27536-27538)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Hesychius, Pachomius, Theodorus and Phileas protested to Meletius, bishop of Lycopolis, over 'the ordination carried through by thee in parishes having no manner of connection with thee'; they were in prison",
+    "witness": "Letter of the four bishops, ANF 6 (anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius l.16699-16724, 16820-16822)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Meletius came to Alexandria, 'suspended' presbyters 'then in hiding, to whom the blessed Peter had given power to act as parish-visitors', and ordained two in their place. The presbyters were in hiding; the account does not say Peter was",
+    "witness": "The conclusion kept with the bishops' letter, anonymous, translated from Latin, ANF 6 (anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius l.16820-16844)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Peter wrote to his people to 'hold no communion with him, until I meet him'",
+    "witness": "Peter, Letter to the Church at Alexandria, ANF 6 (anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius l.27790-27804)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Meletius, 'convicted of many crimes, and among the rest of offering sacrifice to idols', was deposed by Peter 'in a general council of the bishops'",
+    "witness": "Athanasius, Apology against the Arians 59, NPNF 2.4, ed. Robertson (npnf204_athanasius-select-works-letters l.24777-24781), a hostile witness; Socrates I.6, tr. Zenos (npnf202_socrates-sozomen-ecclesiastical-histories l.2404-2408)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Athanasius is the Meletians' enemy: they are 'like dogs unable to forget their vomit'",
+    "witness": "Athanasius, Apology against the Arians 59 (npnf204_athanasius-select-works-letters l.24803-24806)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Epiphanius writes kindly of Meletius's side: 'a veritatis amore profecta, et divini ardoris plenissima ratio'",
+    "witness": "Epiphanius, Panarion 68.2, Petavius's Latin, ed. Oehler (epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860 l.43803-43804)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Meletius was in prison with Peter; Meletius and others would receive the fallen only after the persecution, when peace came; Peter, 'benignus ac misericors', would receive them; 'episcoporum, monachorum et presbyterorum ac reliquorum ordinum maior numerus sese ad Meletium adiunxit'",
+    "witness": "Epiphanius, Panarion 68.1-3, Petavius's Latin, ed. Oehler (epiphanius_panarion-...oehler1860 l.43676-43683, 43786-43808, 43926-43931)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Peter, 'being seized for no cause and quite unexpectedly', was beheaded, in the ninth year of the persecution",
+    "witness": "Eusebius, Church History IX.6 and VII.32, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.47991-47998, 43266-43268)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The ninth year runs from Feb. 311 to Feb. 312, or Mar. or Apr. 311 to Mar. or Apr. 312 by Eusebius's own reckoning; Peter died 'not long before the spring of 312'",
+    "witness": "McGiffert's note to Church History VII.32 (npnf201_eusebius-church-history-life-of-constantine l.43218-43230)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Nicaea ruled that Meletius 'remain in his own city but exercise no authority either to ordain or nominate for ordination', and 'retain a nominal dignity'",
+    "witness": "Socrates I.9, the synodal letter, tr. Zenos (npnf202_socrates-sozomen-ecclesiastical-histories l.3204-3211)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Meletians spread reports against Athanasius 'as they had practised against Peter and Achillas and Alexander', and are 'even yet called Meletians'",
+    "witness": "Athanasius, Apology against the Arians 59-60 (npnf204_athanasius-select-works-letters l.24782-24784, 24838-24841)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "In 692 the council in Trullo, canon 2, set its seal on the canons 'of Peter, Archbishop of Alexandria and Martyr', with a penalty for any who overturn them",
+    "witness": "Council in Trullo, canon 2, tr. Percival (npnf214_seven-ecumenical-councils l.26731-26760; date l.26350, 26385)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'From the times of the blessed Peter, Bishop and Martyr' is the wording of the Encyclical Letter of the Council of Egypt, which Athanasius quotes, not Athanasius's own",
+    "witness": "Athanasius, Apology against the Arians 3-11, the council's letter (npnf204_athanasius-select-works-letters l.21991, 22464-22465)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bell: the sacrifice charge 'need not be taken very seriously'; Epiphanius 'had excellent authority, probably in part that of Egyptian Bishops banished to Palestine'; the accounts are 'different stages in the growth of the schism'; the dispute broke out 'probably in A.D. 305'; Peter 'was martyred on 25 Nov., 311'",
+    "witness": "Bell, Jews and Christians in Egypt (bell_jews-christians-egypt-meletian-papyri_1924 l.3153-3168, 3212)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Hefele: 'at the time of the commencement of the schism, neither Peter nor Meletius was in prison'; 'Epiphanius was mistaken on the principal points'; the schism began 'about the year 304 or 305'",
+    "witness": "Hefele, History of the Councils I, tr. Clark (hefele_history-of-the-councils-v1-to-nicaea_clark1872 l.22105, 22250-22256)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Sozomen: Arius was ordained deacon by Peter, who later cast him out over the Meletians; Hartranft's note: 'No one else suggests an early connection of Arius with the Melitians'",
+    "witness": "Sozomen I.15, tr. Hartranft (npnf202_socrates-sozomen-ecclesiastical-histories l.27553-27561); Robertson, 'These tales deserve little credit' (npnf204_athanasius-select-works-letters l.1684)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "The Genuine Acts of Peter 'are spurious and historically quite worthless'",
+    "witness": "McGiffert's note to Church History VII.32 (npnf201_eusebius-church-history-life-of-constantine l.43251-43253); the Acts, ANF 6 (anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius l.25834ff., tomb of Mark l.26286)",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "How the Meletian schism began",
+    "sides": "Athanasius (a hostile witness) and Socrates: Meletius was deposed by a council under Peter for crimes including sacrifice. Epiphanius (kind to Meletius): the two were in prison together and split over the fallen, Peter for mercy, Meletius for waiting until peace, with most of the clergy on Meletius's side. Harold Idris Bell reads them as stages of one quarrel; Charles Joseph Hefele says the first letters show neither man in prison at the start, and that Epiphanius erred on the main points."
+   },
+   {
+    "claim": "Peter ordained Arius a deacon and later cast him out over the Meletians",
+    "sides": "Sozomen I.15 reports it. Against: Chester Hartranft, Sozomen's translator, notes that no one else links Arius with the Meletians early; Archibald Robertson says such tales \"deserve little credit\"."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Peter's birth, family and schooling",
+    "note": "No early source gives them. The Ethiopian Synaxarium, tr. Budge, much later, names his parents Theodore and Sophia (ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928 l.19892-19897); not used as fact."
+   },
+   {
+    "detail": "How the canons were received in his lifetime",
+    "note": "No held source shows it; the brief gives only the council in Trullo of 692."
+   },
+   {
+    "detail": "The year of the split against the canons of 306",
+    "note": "No held source of the time dates Meletius's ordinations against the canons; the brief says only 'in the same persecution'."
+   }
+  ]
+ },
+ "anatolius-of-alexandria-and-laodicea": {
+  "claims": [
+   {
+    "claim": "A synod at Antioch judged Paul of Samosata, bishop of Antioch, for 'low and degraded views of Christ'; Eusebius puts the final synod in the reign of Aurelian",
+    "witness": "Eusebius, Church History VII.27-30, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.41837-41840, 41930-41932)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Around the year 270' for the synod: McGiffert, 'The council is ordinarily, however, assigned to the year 269'; the ANF 6 introductory notice heads Anatolius 'a.d. 270'",
+    "witness": "McGiffert's note to VII.29 (npnf201_eusebius-church-history-life-of-constantine l.41930-41943); ANF 6, ed. Coxe (anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius l.14686-14687)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "'He also was an Alexandrian by birth'; in arithmetic, geometry, astronomy, dialectics and physics 'he stood first among the ablest men of our time'",
+    "witness": "Eusebius, Church History VII.32.6, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.42683-42688)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Jerome: 'a man of wonderful learning in arithmetic, geometry, astronomy, grammar, rhetoric, and dialectic'; flourished under Probus and Carus",
+    "witness": "Jerome, Lives of Illustrious Men 73, tr. Richardson (npnf203_theodoret-jerome-gennadius-rufinus l.40928-40933)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Told on report ('They relate', 'They say'): during the siege of the Pyrucheium bread failed; Anatolius persuaded the senate to send out 'old women and children and old men'; under cover of these a multitude escaped by night to the Roman camp, and 'he saved almost all the besieged'",
+    "witness": "Eusebius, Church History VII.32.7-11, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.42691-42763)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Which siege: McGiffert, most likely the revolt of Aemilian in 260; Valesius and others, under Claudius; Eusebius's Chronicle, 272",
+    "witness": "McGiffert's notes (npnf201_eusebius-church-history-life-of-constantine l.42694-42712, 41930-41931)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Anatolius and Eusebius came to Laodicea 'after the aforesaid war from Alexandria'",
+    "witness": "Eusebius, Church History VII.32.12 (npnf201_eusebius-church-history-life-of-constantine l.42764-42767)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Theotecnus of Caesarea first ordained him bishop as his successor; the synod on Paul 'called him to Antioch, and as he passed through the city of Laodicea, Eusebius being dead, he was detained by the brethren there'",
+    "witness": "Eusebius, Church History VII.32.21 (npnf201_eusebius-church-history-life-of-constantine l.42923-42940)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Anatolius did not write very many works'; Eusebius gives extracts on the passover",
+    "witness": "Eusebius, Church History VII.32.13 (npnf201_eusebius-church-history-life-of-constantine l.42769-42773)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The new moon of the first month is 'the beginning of every cycle of nineteen years'; the sun is then in the segment called 'the equinox'; those who place the first month in the segment before it 'commit no slight or common blunder'",
+    "witness": "Anatolius, Paschal Canons, in Eusebius VII.32.14-15, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.42789-42791, 42805-42817); Greek, ed. Schwartz-Mommsen (eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908 l.12600-12616, OCR)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'So far as we know, the first Christian to employ the old Metonic nineteen-year cycle for the determination of Easter'",
+    "witness": "McGiffert's note to VII.32.14 (npnf201_eusebius-church-history-life-of-constantine l.42791-42793)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Left the Institutes of Arithmetic, in ten books",
+    "witness": "Eusebius VII.32.20 (npnf201_eusebius-church-history-life-of-constantine l.42916-42917); Jerome 73 (npnf203_theodoret-jerome-gennadius-rufinus l.40934-40936)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "At the synod in the monastery of Streaneshalch (Whitby), on Easter, Colman asked whether Anatolius, 'a holy man, and much commended in church history', acted 'contrary to the law and the Gospel'",
+    "witness": "Bede, Ecclesiastical History III.25, tr. Giles, rev. Jane (bede_ecclesiastical-history-english-people_giles1903 l.7956-7962, 8117-8121; 'Whitby' l.10952)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Wilfrid: Anatolius 'was a most holy, learned, and commendable man; but what have you to do with him, since you do not observe his decrees?'; his 'revolution of nineteen years' is 'kept by the whole church of Christ'",
+    "witness": "Bede III.25 (bede_ecclesiastical-history-english-people_giles1903 l.8133-8141)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The king ruled to obey Peter, since 'the keys of heaven were given to him by our Lord'; all present 'resolved to conform'",
+    "witness": "Bede III.25 (bede_ecclesiastical-history-english-people_giles1903 l.8195-8216)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The disputation happened in 664",
+    "witness": "Bede III.26 (bede_ecclesiastical-history-english-people_giles1903 l.8236-8238)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The northern Scots and the Picts kept Easter 'believing that they therein followed the writings of the holy and praiseworthy Father Anatolius'",
+    "witness": "Bede III.3 (bede_ecclesiastical-history-english-people_giles1903 l.5749-5756)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Latin Paschal Canon, first printed in 1634, is an early translation of his genuine work",
+    "witness": "McGiffert, following Zahn, for ('the best of reasons'); Ideler against (npnf201_eusebius-church-history-life-of-constantine l.42773-42782)",
+    "formation_confidence": "Contested"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Whether the Latin Paschal Canon (first printed 1634) is Anatolius's own work",
+    "sides": "Arthur McGiffert, following Theodor Zahn, sees \"the best of reasons\" for an early translation of his genuine work; Ideler held it a seventh-century work. Only the extract Eusebius quotes, and the arithmetic fragments, are firm."
+   },
+   {
+    "claim": "Which siege of the Pyrucheium Eusebius means",
+    "sides": "McGiffert: most likely the revolt of Aemilian, 260. Valesius and others: a later siege under Claudius. Eusebius's Chronicle, as McGiffert reports it: 272."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "What came of his reckoning in his own lifetime",
+    "note": "The held sources do not show it; Eusebius says only that he died and names his successor (npnf201 l.42942-42944). The brief says so."
+   },
+   {
+    "detail": "Anatolius's birth and death dates",
+    "note": "No held ancient source gives them. Richardson (born about 230, bishop 270, died about 283, npnf203 l.40928) and a bracket at the head of Salmond's ANF translation (230, 270, 280, called conjectural, anf06 l.14711-14715) only estimate; Eusebius says his death came before the persecution."
+   }
+  ]
+ },
+ "polycrates-of-ephesus": {
+  "claims": [
+   {
+    "claim": "In the 190s: Victor became bishop of Rome 'In the tenth year of the reign of Commodus', and Polycrates was bishop at Ephesus at the same time; Jerome: 'He flourished in the reign of the emperor Severus'",
+    "witness": "Eusebius, Church History V.22, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.30999-31003, 31093-31094); Jerome, Lives 45, tr. Richardson (npnf203_theodoret-jerome-gennadius-rufinus l.40414-40416)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Bishop of Ephesus, in the province of Asia; 'the bishops of Asia, led by Polycrates, decided to hold to the old custom handed down to them'",
+    "witness": "Eusebius, Church History III.31.3 and V.24.1, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.19075-19076, 31309-31311)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The churches of Asia ended the fast on the fourteenth day of the moon, the day the Jews sacrificed the lamb, 'whatever day of the week it should happen to be'; the rest ended it only 'on that of the resurrection of our Saviour'",
+    "witness": "Eusebius, Church History V.23.1, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.31136-31222, see 31216-31222)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Synods of bishops in Palestine, Rome, Pontus, Gaul, Osrhoene and Corinth ruled that the mystery of the resurrection be kept only on the Lord's day",
+    "witness": "Eusebius, Church History V.23.2-3, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.31224-31300; Gaul at 31288)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "He called the bishops of Asia together at Victor's request: 'the bishops who were present, whom I summoned at your desire'; they 'gave their consent to the letter'",
+    "witness": "Polycrates, in Eusebius V.24.8, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.31406-31413); anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac l.72624-72625",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "He wrote 'a letter which he addressed to Victor and the church of Rome', and Eusebius quotes part of it",
+    "witness": "Eusebius, Church History V.24.1, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.31312-31314)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Quotation 'We keep the day without tampering with it, ... adding nothing and taking nothing away.' Rendering A: as the brief. Rendering B: 'We keep the day without altering it, neither adding anything nor taking anything away.' Verdict minor: 'tampering' keeps the Greek's hint of fraud; FINAL = A. Greek of the first clause: 'Ἀῤῥαδιούργητον ἄγομεν τὴν ἡμέραν' ('untampered')",
+    "witness": "Printed: Eusebius V.24.2, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.31324-31325); Build/Ministry/Operations/Audits/2026-11-16_era1-standard-v1/renderings/comparison.md E19; Greek in the editor's note, ANF 8 (anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac l.72579-72581); Jerome's English 'inviolably' (npnf203_theodoret-jerome-gennadius-rufinus l.40388-40389)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The great dead of Asia, 'great lights', kept the day; among them 'John, who was both a witness and a teacher, who reclined upon the bosom of the Lord' and fell asleep at Ephesus; 'All these observed the fourteenth day of the passover according to the Gospel'",
+    "witness": "Polycrates, in Eusebius V.24.2-6, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.31325-31336, 31362-31363)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'seven of my relatives were bishops; and I am the eighth. And my relatives always observed the day when the people put away the leaven'",
+    "witness": "Polycrates, in Eusebius V.24.6, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.31384-31388); anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac l.72616-72617",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'I, therefore, brethren, who have lived sixty-five years in the Lord ... am not affrighted by terrifying words. For those greater than I have said \"We ought to obey God rather than man\"'",
+    "witness": "Polycrates, in Eusebius V.24.7, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.31395-31400)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Victor ... immediately attempted to cut off from the common unity the parishes of all Asia ... and he wrote letters and declared all the brethren there wholly excommunicate'",
+    "witness": "Eusebius, Church History V.24.9, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.31415-31419); the Greek of this book is not held, so 'at once' follows the English 'immediately'",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Other bishops rebuked him ('Words of theirs are extant, sharply rebuking Victor'); 'Among them was Irenaeus', who kept the resurrection 'only on the Lord's day' and admonished Victor 'that he should not cut off whole churches of God which observed the tradition of an ancient custom'",
+    "witness": "Eusebius, Church History V.24.10-11, tr. McGiffert (npnf201_eusebius-church-history-life-of-constantine l.31431-31442)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Eusebius does not say how Victor answered, and tells nothing more of Polycrates",
+    "witness": "Eusebius, Church History V.24.18 and V.25 (npnf201_eusebius-church-history-life-of-constantine l.31661-31700); Jerome, Lives 45 (npnf203_theodoret-jerome-gennadius-rufinus l.40380-40416), adds only the reign",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "After Nicaea, Constantine wrote that the feast 'ought to be kept by all and in every place on one and the same day', and that the practice 'observed at once in the city of Rome ... in the dioceses of Asia and Pontus, and in Cilicia'; Greek 'Ἀσιανήν τε διοίκησιν καὶ Ποντικὴν καὶ Κιλικίαν'. The letter does not name the fourteenth-day custom",
+    "witness": "Constantine, letter in Eusebius, Life of Constantine III.18-19, tr. Richardson (npnf201_eusebius-church-history-life-of-constantine l.64602-64605, 64678-64681); Greek, ed. Heikel (eusebius_werke-bd1-vita-constantini-oratio-ad-sanctos-grc_heikel1902 l.11417-11421, OCR damaged); 325 as the council's year (McGiffert, npnf201_eusebius-church-history-life-of-constantine l.31187)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "How or when Asia came round, no held source says",
+    "witness": "Constantine's letter gives only the state in 325 (npnf201_eusebius-church-history-life-of-constantine l.64678-64681); McGiffert: 'just how and when we do not know' (npnf201_eusebius-church-history-life-of-constantine l.31185-31186)",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Two centuries later John Chrysostom 'deprived many of the Novatians and Quartodecimans of their churches'; his enemies said he did so 'in Asia and Lydia ... when he went to Ephesus'; 'the Quartodecimans affirm that the observance of the fourteenth day was delivered to them by the apostle John'",
+    "witness": "Socrates, Church History VI.11, VI.19 and V.22, tr. Zenos (npnf202_socrates-sozomen-ecclesiastical-histories l.17975-17977, 18561-18564, 16316-16318); 'two centuries' is the narrator's reckoning from Chrysostom's episcopate",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "McGiffert: the breach 'was gradually healed—just how and when we do not know; but the Roman practice gradually prevailed over the Asiatic, and finally, at the Council of Nicaea (325), was declared binding upon the whole Church'",
+    "witness": "McGiffert's note to Eusebius V.23 (npnf201_eusebius-church-history-life-of-constantine l.31184-31189); a modern judgment, on the card only",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Victor excommunicated the churches of Asia, or only tried to",
+    "witness": "Eusebius V.24.9 (npnf201_eusebius-church-history-life-of-constantine l.31415-31419); McGiffert: he 'did actually cut off communion', the Greek 'decisive' (npnf201_eusebius-church-history-life-of-constantine l.31419-31429); Socrates V.22: Victor 'fulminated a sentence of excommunication' (npnf202_socrates-sozomen-ecclesiastical-histories l.16226-16229); Hefele: Victor 'wished to exclude' them, 'but other bishops turned him from his purpose' (hefele_history-of-the-councils-v1-to-nicaea_clark1872 l.5498-5500)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "McGiffert: the letter is 'The only writing of Polycrates of which we know'; 'The dates of Polycrates' accession to office and of his death are not known'",
+    "witness": "McGiffert's note to Eusebius V.22 (npnf201_eusebius-church-history-life-of-constantine l.31099-31106)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "The Philip buried at Hierapolis: Polycrates says 'one of the twelve apostles'; McGiffert holds he 'confounded him with the evangelist'; Lightfoot maintains Polycrates is correct, for reasons McGiffert calls 'trivial'",
+    "witness": "Polycrates, in Eusebius V.24.2 (npnf201_eusebius-church-history-life-of-constantine l.31328-31329); McGiffert's note to III.31 (npnf201_eusebius-church-history-life-of-constantine l.19100-19126)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "John 'wore the sacerdotal plate': McGiffert: the Greek word is the LXX term for the high priest's plate; 'What is meant by the word in the present connection is uncertain'; figurative, or 'as Hefele suggests' a later mythical tradition",
+    "witness": "Polycrates, in Eusebius V.24.3 (npnf201_eusebius-church-history-life-of-constantine l.31332-31333); McGiffert's note to III.31 (npnf201_eusebius-church-history-life-of-constantine l.19154-19166)",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "The date of the synods 'is commonly given as 198 a.d., but there is no particular authority for that year'; Richardson's note: 'Bishop about 196'; the ANF editor: 130-196, and a synod 'a.d. 196'",
+    "witness": "McGiffert's note (npnf201_eusebius-church-history-life-of-constantine l.31241-31243); Richardson's note to Jerome 45 (npnf203_theodoret-jerome-gennadius-rufinus l.40381); ANF 8 editor (anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac l.72520-72565)",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Jerome quotes the letter 'to show through a small example the genius and authority of the man'",
+    "witness": "Jerome, Lives 45, tr. Richardson (npnf203_theodoret-jerome-gennadius-rufinus l.40412-40414)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Tradition: Post-Apostolic Household-Church Christianity",
+    "witness": "cic-website/data/world-census.json, tradition post-apostolic-house-church, which lists polycrates-of-ephesus",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Whether Victor actually excommunicated the churches of Asia",
+    "sides": "McGiffert holds he did, the Greek being decisive (npnf201_eusebius-church-history-life-of-constantine l.31419-31429), and Socrates V.22 says so directly (npnf202_socrates-sozomen-ecclesiastical-histories l.16226-16229). Hefele writes that Victor wished to exclude them but other bishops turned him from his purpose (hefele_history-of-the-councils-v1-to-nicaea_clark1872 l.5498-5500). The brief gives Eusebius's own verbs and does not rule."
+   },
+   {
+    "claim": "Whether the Philip at Hierapolis was the apostle or the evangelist",
+    "sides": "Polycrates (and Eusebius) say the apostle (npnf201_eusebius-church-history-life-of-constantine l.31328-31329); McGiffert holds it a confusion with Philip the evangelist of Acts; Lightfoot defends Polycrates (npnf201_eusebius-church-history-life-of-constantine l.19100-19126)."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "How Victor answered, and how or when Asia came round to Rome's practice",
+    "note": "Eusebius stops after Irenaeus's protest; Constantine's letter gives only the state of things in 325. McGiffert's 'the Roman practice gradually prevailed' is his own judgment and is kept to the card."
+   },
+   {
+    "detail": "Polycrates's birth, death and end",
+    "note": "McGiffert says the years of his accession and death are not known (npnf201_eusebius-church-history-life-of-constantine l.31102-31104). The only dated claims (Richardson's 'about 196', the ANF editor's '130-196') are editors' and unsourced in the held lines."
+   }
+  ]
+ },
+ "pliny-the-younger": {
+  "claims": [
+   {
+    "claim": "Around 112, under Trajan, Pliny the Younger governed Bithynia: 'The epistle was written from Bithynia, probably within a year after Pliny became governor there, which was in 110 or 111'; Harnack dates the letter 'c. ann. 111/13'",
+    "witness": "McGiffert, note to Eusebius, Church History III.33.1 (npnf201_eusebius-church-history-life-of-constantine l.19456-19459); Harnack, Mission und Ausbreitung II (harnack_mission-und-ausbreitung-des-christentums-band2-deu_2e-aufl1906 l.8820); census activeYear 112",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Bithynia lies in the north of Asia Minor",
+    "witness": "Plain geography; census region Asia Minor",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "He wrote to Trajan ('my Lord'), who answered 'my Secundus'",
+    "witness": "Pliny, Letters X.96 and X.97, tr. McGiffert (npnf201 l.19459, 19523-19524); Tertullian, Apology 2, tr. S. Thelwall (anf03_tertullian l.1566-1571)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "He was not a Christian: he invokes the gods and offers incense and wine to the emperor's image, and calls the faith 'insanity' and 'superstition'",
+    "witness": "Pliny, Letters X.96, tr. McGiffert (npnf201 l.19476-19484, 19505-19506)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'I have never been present at judicial examinations of the Christians; therefore I am ignorant how and to what extent it is customary to punish or to search for them'; he followed his own course and then asked for advice",
+    "witness": "Pliny, Letters X.96, tr. McGiffert (npnf201 l.19460-19463, 19468-19470, 19506-19507)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'I have asked them if they were Christians, and if they have confessed, I have asked them a second and third time, threatening them with punishment; if they have persisted, I have commanded them to be led away to punishment'",
+    "witness": "Pliny, Letters X.96, tr. McGiffert (npnf201 l.19469-19473)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Those who denied were released after invoking the gods, offering incense and wine to the emperor's image, and cursing Christ",
+    "witness": "Pliny, Letters X.96, tr. McGiffert (npnf201 l.19481-19486)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Others said they had been Christians but had ceased to be, 'some three years, some several years, and one even twenty years before'; the account of worship is theirs",
+    "witness": "Pliny, Letters X.96, tr. McGiffert (npnf201 l.19486-19493)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "They had been accustomed 'to come together on a fixed day before daylight and to sing responsively a song unto Christ as God' (Latin, as quoted by Spener, 'carmenque Christo, quasi Deo, dicere secum invicem')",
+    "witness": "Pliny, Letters X.96, tr. McGiffert (npnf201 l.19493-19494); Latin quotation per renderings comparison E10 (Spener, Pia Desideria l.3700-3702)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "They bound themselves with an oath 'not with a view to the commission of some crime, but, on the contrary, that they would not commit theft, nor robbery, nor adultery'",
+    "witness": "Pliny, Letters X.96, tr. McGiffert (npnf201 l.19494-19497)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "He examined 'even with the use of torture, two female slaves who were called deaconesses (ministrae)', and found 'nothing except a superstition depraved and immoderate'",
+    "witness": "Pliny, Letters X.96, tr. McGiffert (npnf201 l.19503-19506)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "He wrote 'especially on account of the number of persons involved. For many of every age and of every rank and of both sexes' were brought to trial, and the superstition had spread through the cities, the villages and the country districts; the temples were being frequented again",
+    "witness": "Pliny, Letters X.96, tr. McGiffert (npnf201 l.19508-19517)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Trajan: 'They are not to be searched for; if they are accused and convicted, they are to be punished', with pardon for those who deny and pray to the gods, and no anonymous accusations",
+    "witness": "Trajan, Letters X.97, tr. McGiffert (npnf201 l.19526-19533)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Tertullian, defending the Christians, set the alleged crimes against Pliny's report that 'except an obstinate disinclination to offer sacrifices, he found in the religious services nothing but meetings at early morning for singing hymns to Christ and God', and a pledge 'forbidding murder, adultery, dishonesty, and other crimes'; he says Pliny had condemned some Christians to death",
+    "witness": "Tertullian, Apology 2, tr. S. Thelwall (anf03_tertullian l.1560-1582)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Tertullian on the ruling: 'It forbids them to be sought after as innocent, and it commands them to be punished as guilty' (Latin 'Negat inquirendos ut innocentes, et mandat puniendos ut nocentes')",
+    "witness": "Tertullian, Apology 2, tr. Thelwall (anf03_tertullian l.1585-1586); Latin ed. Oehler (tertullian_quae-supersunt-t1-apologetica-lat_oehler1853 l.11728-11729)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Eusebius calls him 'one of the most noted of governors'; says the persecution 'was to a certain degree checked', though local persecutions went on 'and many of the faithful endured martyrdom'; and takes his account 'from the Latin Apology of Tertullian'",
+    "witness": "Eusebius, Church History III.33.1-3, tr. McGiffert (npnf201 l.19447-19449, 19541-19556)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "McGiffert: Pliny was 'a man of great literary attainments and an intimate friend of the Emperor Trajan'",
+    "witness": "McGiffert, note to Church History III.33.1 (npnf201 l.19450-19454)",
+    "formation_confidence": "Widely Accepted"
+   }
+  ],
+  "contested_claims": [],
+  "absent_details": [
+   {
+    "detail": "An ancient text naming the province and year",
+    "note": "The letter as held names neither, and Tertullian says only 'a province' (anf03 l.1567); Bithynia and the date rest on McGiffert (npnf201 l.19457-19459) and Harnack (l.8820), told plainly by Mark's ruling."
+   },
+   {
+    "detail": "Pliny's Latin text",
+    "note": "No edition of Pliny is held; the Latin is known only from later quotations."
+   },
+   {
+    "detail": "The years of his birth and death",
+    "note": "No held ancient source gives them."
+   }
+  ]
+ }
 }
