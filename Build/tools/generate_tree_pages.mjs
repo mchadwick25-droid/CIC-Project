@@ -95,6 +95,9 @@ li{margin-bottom:.5rem}
 .sources-list a{font-weight:600}
 .source-type{font-family:var(--sans);font-size:.85rem;color:var(--muted)}
 .source-note{font-size:.95rem;color:var(--muted)}
+.quotes-note{font-family:var(--sans);font-size:.9rem;color:var(--muted);margin:.6rem 0}
+.quotes-panel{margin:1rem 0;border-top:1px solid var(--rule);padding-top:.6rem}
+.quotes-panel summary{cursor:pointer;font-family:var(--sans);font-weight:600}
 .narration{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin:1.5rem 0}
 .narration audio{display:block;height:2.2rem;max-width:220px;width:220px;flex:0 0 auto}
 .narration-disclosure{font-family:var(--sans);font-size:.85rem;color:var(--muted);margin:0}
@@ -431,7 +434,7 @@ const COUNCIL_PARTS = ['Gathered', 'Condemned', 'Refused', 'Affected'];
 // The facts a person entry's card holds, in the order of the map's person card.
 function personCardHtml(movement) {
   const card = movement.card;
-  if (!card) return { facts: '', after: '', sources: '' };
+  if (!card) return { facts: '', after: '', sources: '', quotes: '' };
   const facts = factsHtml([
     ['Known for', card.knownFor && escapeHtml(card.knownFor)],
     ['Also called', card.otherNames && card.otherNames.map(escapeHtml).join(', ')],
@@ -457,7 +460,21 @@ function personCardHtml(movement) {
   }
   if (card.uncertain && card.uncertain.length) after += `<section><h2>What Is Uncertain</h2>${bullets(card.uncertain)}</section>`;
   const sources = sourceGroups(card.sources, [['ownWords', 'Their own words'], ['about', 'Written about them']]);
-  return { facts, after, sources };
+  return { facts, after, sources, quotes: quotesHtml(card) };
+}
+
+// The printed wording behind the brief's quotations and the references the brief draws on, below the brief.
+function quotesHtml(card) {
+  const qo = card.quotationOriginals || [], refs = card.briefReferences || [];
+  if (!qo.length && !refs.length) return '';
+  const works = [...((card.sources && card.sources.ownWords) || []), ...((card.sources && card.sources.about) || [])];
+  const workOf = f => { const w = works.find(x => x.file === f); return w ? w.title : f.replace(/^cic\/texts\//, ''); };
+  const where = l => { const [a, b = a] = String(l).split('-'); return a === b ? `line ${a}` : `lines ${a}–${b}`; };
+  let html = qo.length ? '<p class="quotes-note">Quotations are given in our modern English. The printed wording of each is below.</p>' : '';
+  html += '<details class="quotes-panel"><summary>Quotations and references</summary>';
+  if (qo.length) html += `<p class="source-group">Quotations</p><ul class="sources-list">${qo.map(e => `<li><span class="source-type">In our modern English</span><br>\u201c${escapeHtml(e.modern)}\u201d<br><span class="source-type">As printed</span><br>\u201c${escapeHtml(e.printed)}\u201d<br><span class="source-note">${escapeHtml(workOf(e.file))}, ${where(e.lines)}</span>${e.uncertain ? `<br><span class="source-note">${escapeHtml(e.uncertain)}</span>` : ''}</li>`).join('')}</ul>`;
+  if (refs.length) html += `<p class="source-group">References</p><ul class="sources-list">${refs.map(r => `<li>${escapeHtml(r)}</li>`).join('')}</ul>`;
+  return html + '</details>';
 }
 
 function councilSectionsHtml(movement) {
@@ -497,7 +514,7 @@ function generatePageHtml(movement) {
   const isPerson = movement.kind === 'person';
   const isCouncil = movement.kind === 'major-council';
   const doorWorld = isCouncil ? null : isPerson ? (movement.toldWithin ? movementMap.get(movement.toldWithin) : null) : movement;
-  const personCard = isPerson ? personCardHtml(movement) : { facts: '', after: '', sources: '' };
+  const personCard = isPerson ? personCardHtml(movement) : { facts: '', after: '', sources: '', quotes: '' };
   const councilParts = isCouncil ? councilSectionsHtml(movement) : null;
   const lineage = isCouncil ? '' : buildLineageHtml(movement.id, movement);
   const isBuilt = !!doorWorld && builtWorlds.has(doorWorld.id);
@@ -566,7 +583,7 @@ ${siteHeader('../')}
       <p class="narration-disclosure">Synthesized voice — not a recording.</p>
     </div>
     ` : ''}
-    ${movement.longDescription ? `<div class="reading">${escapeHtml(movement.longDescription).split('\n').map(p => p.trim()).filter(p => p).map(p => `<p>${p}</p>`).join('')}</div>` : (movement.sourcing ? `<p>${escapeHtml(movement.sourcing)}</p>` : '<p>No detailed description available.</p>')}
+    ${movement.longDescription ? `<div class="reading">${escapeHtml(movement.longDescription).split('\n').map(p => p.trim()).filter(p => p).map(p => `<p>${p}</p>`).join('')}</div>` : (movement.sourcing ? `<p>${escapeHtml(movement.sourcing)}</p>` : '<p>No detailed description available.</p>')}${personCard.quotes}
   </section>
 
   ${isCouncil ? councilParts.before : ''}
