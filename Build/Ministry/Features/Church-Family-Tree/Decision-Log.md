@@ -3949,5 +3949,11 @@ Also in this change:
 - This replaces the point above that 17th- to 19th-century English translations are quoted word for word where they read plainly.
 - It applies to the eight now. The live cards and briefs of eras 1 to 4 change in their era passes.
 
+**How the modern English is labelled (Mark, 2026-11-16: "One note per brief (Recommended)", relayed by the coordinator).** One line under each brief on the page says its quotations are given in our modern English. The card's references show each printed original with its file and lines. Nothing is added to the spoken text.
+
+**Gregory of Tours and Benedict of Nursia (Mark, 2026-11-16: "Update them now, re-record with the eight (Recommended)", relayed by the coordinator).** The two Standard v1 examples come under the pre-1931 rule in the same pull request as the eight. They are re-recorded together with the eight, after Mark approves one sample, so the paid run happens once.
+
+**The quotation check.** The coordinator approved, on 2026-11-16, the change to `tools/validate-census.mjs` that this ruling needs. Each entry in `tools/quote_renderings.json` must map to its original: a file under `cic/texts/` that the entry's own sources cite, a line range inside that file, and a language. Each must also carry `second_reading`, giving the record of the second rendering and its verdict: same, minor or changes meaning. The 14 existing entries carry the re-check in `Build/Ministry/Operations/Audits/2026-11-16_rendering-recheck/`: 12 same, 2 minor (Faustus of Riez), none that changes meaning. Tests are in `tools/tests/validate_census_renderings.test.mjs`.
+
 **Where it is written.** `Who_Profile_Pattern.md`, "The brief", Quotes; `Worker_Brief_Template.md`, the writer paragraph.
 

@@ -1,5 +1,5 @@
 {
- "about": "Quotations that are the narrator's English of a non-English original, each marked \"in modern words\" in the prose and checked against its original by review. The quotation check skips exactly these spans in these entries, and fails when a listed span no longer stands in its entry.",
+ "about": "Quotations that are the narrator's modern English of an original in another language, an older stage of a language, or English printed before 1931, each checked against a second, independent rendering (second_reading) and mapped to its original's file and lines. The quotation check skips exactly these spans in these entries, and fails when a listed span no longer stands in its entry.",
  "renderings": [
   {
    "id": "faustus-of-riez",
@@ -8,6 +8,10 @@
     "file": "cic/texts/faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt",
     "lines": "11049-11051",
     "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_rendering-recheck/comparison.md",
+    "verdict": "same"
    }
   },
   {
@@ -17,6 +21,10 @@
     "file": "cic/texts/faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt",
     "lines": "11049-11051",
     "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_rendering-recheck/comparison.md",
+    "verdict": "minor"
    }
   },
   {
@@ -26,6 +34,10 @@
     "file": "cic/texts/faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt",
     "lines": "13403-13404",
     "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_rendering-recheck/comparison.md",
+    "verdict": "minor"
    }
   },
   {
@@ -35,6 +47,10 @@
     "file": "cic/texts/constantius-lyon_vita-germani_levison1920.txt",
     "lines": "4577-4579",
     "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_rendering-recheck/comparison.md",
+    "verdict": "same"
    }
   },
   {
@@ -44,6 +60,10 @@
     "file": "cic/texts/faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt",
     "lines": "23186",
     "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_rendering-recheck/comparison.md",
+    "verdict": "same"
    }
   },
   {
@@ -53,6 +73,10 @@
     "file": "cic/texts/faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt",
     "lines": "20044",
     "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_rendering-recheck/comparison.md",
+    "verdict": "same"
    }
   },
   {
@@ -62,6 +86,10 @@
     "file": "cic/texts/faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt",
     "lines": "23199-23201",
     "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_rendering-recheck/comparison.md",
+    "verdict": "same"
    }
   },
   {
@@ -71,6 +99,10 @@
     "file": "cic/texts/paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt",
     "lines": "20763-20765",
     "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_rendering-recheck/comparison.md",
+    "verdict": "same"
    }
   },
   {
@@ -80,6 +112,10 @@
     "file": "cic/texts/paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt",
     "lines": "20763-20765",
     "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_rendering-recheck/comparison.md",
+    "verdict": "same"
    }
   },
   {
@@ -89,6 +125,10 @@
     "file": "cic/texts/labourt_le-christianisme-dans-l-empire-perse-sassanide-fra_1904.txt",
     "lines": "15853-15854",
     "language": "French"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_rendering-recheck/comparison.md",
+    "verdict": "same"
    }
   },
   {
@@ -98,6 +138,10 @@
     "file": "cic/texts/john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt",
     "lines": "10094-10095",
     "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_rendering-recheck/comparison.md",
+    "verdict": "same"
    }
   },
   {
@@ -107,6 +151,10 @@
     "file": "cic/texts/john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt",
     "lines": "10095",
     "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_rendering-recheck/comparison.md",
+    "verdict": "same"
    }
   },
   {
@@ -116,6 +164,10 @@
     "file": "cic/texts/john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt",
     "lines": "3785",
     "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_rendering-recheck/comparison.md",
+    "verdict": "same"
    }
   },
   {
@@ -125,6 +177,10 @@
     "file": "cic/texts/paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt",
     "lines": "52558",
     "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-16_rendering-recheck/comparison.md",
+    "verdict": "same"
    }
   }
  ]
