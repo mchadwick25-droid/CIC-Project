@@ -2604,18 +2604,10 @@
     raw bytes) from Internet Archive item completeworksofm00menn.
 
     READER: sections - the treatises under their own titles printed in capitals and repeated as running heads ("FOUNDATION OF CHRISTIAN DOCTRINE", "REPLY TO GELLIUS FABER", "CONFESSION OF THE INCARNATION OF JESUS CHRIST"), two volumes bound as one, Volume I closing with its INDEX near file line 32000 and Volume II following; no chapter numbering; printed page numbers kept ; credit - "The Complete Works of Menno Simon(s), translated by John F. Funk, John F. Funk & Brother, Elkhart, Indiana, 1871; digital text from Internet Archive item completeworksofm00menn (contributor Princeton Theological Seminary Library)" ; republish - whole text, public domain by date.
-- filename: van-braght_martyrs-mirror_sohm1886.txt
-  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for the-anabaptist-movements)
-  date_added: '2026-09-24'
-  notes: >-
-    The Bloody Theater, or Martyrs' Mirror, Thieleman J. van Braght (1660), trans.
-    Joseph F. Sohm (Scottdale, PA / Waterloo, ON: Herald Press, 1886 preface).
-    Public domain by date. Fetched directly (curl, raw bytes) from Internet
-    Archive item MartyrsMirror. Embeds named primary documents (Michael
-    Sattler's trial record, Anneken Jans's prison testament) not independently
-    quality-checked this pass.
-
-    READER: sections - "FIRST PART" (file line 8961) in centuries ("THE TENTH CENTURY") and "SECOND PART" (line 49646) by year, each martyr account under its own capitalised title ending in its "A. D." year as printed, with embedded letters and confessions under their own headings; printed page numbers kept ; credit - "The Bloody Theater, or Martyrs' Mirror of the Defenseless Christians, Thieleman J. van Braght, translated by Joseph F. Sohm, Herald Press edition (English translation first published 1886); digital text from Internet Archive item MartyrsMirror (no contributing library named in the item record)" ; republish - whole text, public domain by date.
+- filename: van-braght_martyrs-mirror_sohm-elkhart1886.txt
+  supplied_by: 'Claude (Library thread: located on archive.org, item metadata read, title leaf and its verso read on the page images, djvu.txt fetched directly, byte count equal to the host''s listed size, the volume''s end read)'
+  date_added: '2026-11-16'
+  notes: 'The Bloody Theatre, or Martyrs Mirror of the Defenseless Christians, Thielem J. van Braght (1660), translated by Joseph F. Sohm (Elkhart, Indiana: Mennonite Publishing Company, 1886). Public Domain (pd-us-by-date: published 1886); the archive.org record states that the Library of Congress is unaware of any copyright restrictions for this item. Archive item bloodytheatreorm00brag. OCR quality: Clean in the running text, which is set in two columns and read column by column; line-end hyphens stand as printed, the OCR doubles the spaces between words, and the title leaf, the engravings and the index carry stray marks. Words: 1,180,217. CONTENTS: The whole volume. Title leaf from OCR line 24, with the imprint ''ELKHART, INDIANA. MENNONITE PUBLISHING COMPANY. 1886.'' at lines 60 to 63 and the copyright entry of 1886 at lines 72 to 75. The publishers'' preface follows, then the ''Translator''s Preface'' (116), van Braght''s ''Invocation'' (223), dated ''Dort, July the 23d, 1659'' (333), and his prefaces and introductions. ''First Part'' begins at OCR line 8697, by centuries; ''Second Part'' at 48905, with the ''Preface to Second Part'' at 49112, by year, each martyr account under its own capitalised title, with letters and confessions under their own headings. ''Contents'' at 158061 and ''Index'' at 158445. READER: sections - "First Part" (file line 8709) in centuries and "Second Part" (file line 48917) by year, each martyr account under its own capitalised title, with embedded letters and confessions under their own headings ; credit - "The Bloody Theatre, or Martyrs Mirror of the Defenseless Christians, Thielem J. van Braght, translated by Joseph F. Sohm (Elkhart, Indiana: Mennonite Publishing Company, 1886); digital text from Internet Archive item bloodytheatreorm00brag, the Library of Congress copy" ; republish - whole text, public domain by date.'
 - filename: dirk-philips_enchiridion_kolb1910.txt
   supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for the-anabaptist-movements)
   date_added: '2026-09-24'

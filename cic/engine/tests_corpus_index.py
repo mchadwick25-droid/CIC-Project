@@ -258,7 +258,7 @@ with tempfile.TemporaryDirectory() as tmp:
 # paragraphs) on the named samples and that nothing in the whole library
 # loses a character either way.
 _named_samples = [
-    "van-braght_martyrs-mirror_sohm1886.txt",       # Martyrs Mirror
+    "van-braght_martyrs-mirror_sohm-elkhart1886.txt",       # Martyrs Mirror
     "foxe_acts-and-monuments-v3_cattley-townsend1837.txt",  # Foxe
     "council-of-trent_canons-and-decrees_waterworth1848.txt",  # Waterworth's Trent
     "hus_letters_workman-pope1904.txt",             # Hus's Letters

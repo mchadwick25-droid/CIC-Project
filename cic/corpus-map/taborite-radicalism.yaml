@@ -129,16 +129,16 @@ works:
     dossier), so this is a second witness. Already assigned to the Hussite entry. Tier: same
     time-place.'
   source_file: piccolomini_historia-bohemica-lat_1524.txt
-- row_id: van-braght_martyrs-mirror_sohm1886--van-braght-martyrs-mirror-sohm-1886-the-taborite-sections
-  work: 'Van Braght, Martyrs'' Mirror (Sohm, 1886): the Taborite sections and the Adamites
-    passage'
+- row_id: van-braght_martyrs-mirror_sohm-elkhart1886--the-taborite-sections-and-the-adamites-passage
+  work: 'Van Braght, Martyrs Mirror (Sohm, 1886): the Taborite sections and the Adamites passage'
   author: van-braght
-  locus: whole volume
+  locus: file lines 46823-46874 (the Taborites), 46910 (the confession of 1431) and 40812
+    (the Adamites named)
   role: context
   confidence: provisional
-  note: 'A 1660 Anabaptist reading of the Taborites, with what it calls a confession of the
-    Taborites drawn up in 1431 (file line 47614; its source is not vendored) and a passage
-    that names Adamites among the names given to dissenters (file line 41446). Three removes
-    from any Taborite text; a witness to how a later movement read them. Already assigned
-    to the Hussite entry. Tier: same time-different-region.'
-  source_file: van-braght_martyrs-mirror_sohm1886.txt
+  language: eng
+  note: A 1660 Anabaptist reading of the Taborites, with what it calls a confession of the
+    Taborites drawn up in 1431 (file line 46910; its source is not vendored) and a passage
+    that names Adamites among the names given to dissenters (file line 40812). Three removes
+    from any Taborite text; a witness to how a later movement read them.
+  source_file: van-braght_martyrs-mirror_sohm-elkhart1886.txt

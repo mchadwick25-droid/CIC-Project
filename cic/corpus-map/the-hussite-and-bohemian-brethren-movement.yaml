@@ -698,29 +698,27 @@ works:
     in outline. Check every wording against the page image; the earlier Cologne printing of
     1535 is a separate item on Internet Archive (dlibra.kul.pl.P.XVI.804) and was not vendored.'
   source_file: gratius_fasciculus-rerum-expetendarum-v1-lat_brown1690.txt
-- row_id: van-braght_martyrs-mirror_sohm1886--the-bloody-theater-or-martyrs-mirror-of-the-defenseless-2
-  work: The Bloody Theater, or Martyrs' Mirror of the Defenseless Christians, the Hus and
-    Taborite sections
+- row_id: van-braght_martyrs-mirror_sohm-elkhart1886--the-bloody-theatre-or-martyrs-mirror-the-hus-and-taborite-sections
+  work: The Bloody Theatre, or Martyrs Mirror of the Defenseless Christians, the Hus and Taborite
+    sections
   author: van-braght
-  locus: file lines 47370-47660, from the entry 'A. D. 1415. At this time John Huss lived'
-    and the sections on the Taborites (lines 47499-47566)
+  locus: file lines 46672-46947, from the entry 'A. D. 1415. — At this time John Huss lived'
+    and the sections on the Taborites (lines 46823-46874)
   role: context
   confidence: provisional
   language: eng
   date:
     start: 1659
     end: 1660
-    source: 'van Braght''s own preface dated ''Dort, July the 23rd, 1659'' (file line 578)
-      and the title page: ''from the Edition of 1660'''
+    source: 'van Braght''s Invocation dated ''Dort, July the 23d, 1659'' (file line 345) and
+      the title leaf: ''from the Edition of 1660'''
     formation_confidence: Documented
-  note: 'A Dutch Mennonite martyrologist''s 1660 account, in the 1886 English edition, of
-    Hus and of the Taborites (it calls them Waldenses). It reaches this world at three removes
-    and from an Anabaptist point of view, and it includes a "Taborite confession of 1431"
-    whose own source is not vendored. Not Hussite voice; a witness to how a later movement
-    read them.
-
-    '
-  source_file: van-braght_martyrs-mirror_sohm1886.txt
+  note: A Dutch Mennonite martyrologist's 1660 account, in the English of 1886, of Hus and
+    of the Taborites (it calls them Waldenses). It reaches this world at three removes and
+    from an Anabaptist point of view, and it includes a 'confession of the Taborites, drawn
+    up A. D. 1431' whose own source is not vendored. Not Hussite voice; a witness to how a
+    later movement read them.
+  source_file: van-braght_martyrs-mirror_sohm-elkhart1886.txt
 - row_id: wyclif_trialogus-lat_lechler1869--wyclif-trialogus-cum-supplemento-trialogi-lechler-s-edition-2
   work: Wyclif, Trialogus cum Supplemento Trialogi (Lechler's edition, Latin)
   author: wyclif

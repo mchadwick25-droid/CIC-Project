@@ -15630,8 +15630,8 @@
      "kind": "primary",
      "source_id": null,
      "work": "Thieleman J. van Braght, The Bloody Theater, or Martyrs Mirror (1660), trans. Joseph F. Sohm (1886)",
-     "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
-     "lines": "60490-60491",
+     "file": "cic/texts/van-braght_martyrs-mirror_sohm-elkhart1886.txt",
+     "lines": "59664-59665",
      "locus": "Martyrs Mirror, note after the account of the early martyrs",
      "quote": "were persecuted with great tyranny; first especially in popedom.",
      "license": "public-domain"
@@ -15640,8 +15640,8 @@
      "kind": "primary",
      "source_id": null,
      "work": "Thieleman J. van Braght, The Bloody Theater, or Martyrs Mirror (1660), trans. Joseph F. Sohm (1886)",
-     "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
-     "lines": "60497-60499",
+     "file": "cic/texts/van-braght_martyrs-mirror_sohm-elkhart1886.txt",
+     "lines": "59670-59672",
      "locus": "Martyrs Mirror, same note",
      "quote": "They were put to death in many places ; at Ensis- heim alone about six hundred were slain,",
      "license": "public-domain"
@@ -15650,8 +15650,8 @@
      "kind": "primary",
      "source_id": null,
      "work": "Thieleman J. van Braght, The Bloody Theater, or Martyrs Mirror (1660), trans. Joseph F. Sohm (1886)",
-     "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
-     "lines": "58939-58942",
+     "file": "cic/texts/van-braght_martyrs-mirror_sohm-elkhart1886.txt",
+     "lines": "58110-58113",
      "locus": "Martyrs Mirror, Michael Sattler (1527), the sentence",
      "quote": "In the case of the Governor of his Imperial Majesty versus Michael Sattler, judgment is passed, that Michael Sattler shall be delivered to the executioner,",
      "license": "public-domain"
@@ -28987,8 +28987,8 @@
      "kind": "primary",
      "source_id": null,
      "work": "Thieleman J. van Braght, The Bloody Theater or Martyrs Mirror (1660), tr. Joseph F. Sohm (1886)",
-     "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
-     "lines": "564-566",
+     "file": "cic/texts/van-braght_martyrs-mirror_sohm-elkhart1886.txt",
+     "lines": "331-333",
      "locus": "van Braght's dedicatory prayer, dated Dort, 23 July 1659",
      "quote": "so that I may become like unto Thy dearest friends, my slain fellow brethren and sisters,",
      "license": "public-domain"
@@ -28997,8 +28997,8 @@
      "kind": "primary",
      "source_id": null,
      "work": "Thieleman J. van Braght, The Bloody Theater or Martyrs Mirror (1660), tr. Joseph F. Sohm (1886)",
-     "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
-     "lines": "52350-52351",
+     "file": "cic/texts/van-braght_martyrs-mirror_sohm-elkhart1886.txt",
+     "lines": "51592-51593",
      "locus": "A.D. 1600, the confession \"believed, taught, and practiced, by those called Mennonites\"",
      "quote": "and practiced, by those called Mennonites,",
      "license": "public-domain"
@@ -52108,8 +52108,8 @@
      "voice": 1,
      "source": {
       "work": "Felix Manz, admonition to his brethren, in Thieleman J. van Braght, Martyrs Mirror (English, 1886)",
-      "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
-      "lines": "58479-58481",
+      "file": "cic/texts/van-braght_martyrs-mirror_sohm-elkhart1886.txt",
+      "lines": "57650-57652",
       "quote": "My heart rejoices in God, who gives me much knowledge and wisdom, that I may escape the eter- nal, and never-ending death."
      }
     },
@@ -52119,8 +52119,8 @@
      "voice": 2,
      "source": {
       "work": "Michael Sattler, letter from prison to the church at Horb (1527), in van Braght, Martyrs Mirror (English, 1886)",
-      "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
-      "lines": "58970-58972",
+      "file": "cic/texts/van-braght_martyrs-mirror_sohm-elkhart1886.txt",
+      "lines": "58141-58143",
       "quote": "I can not forget you ; though I am not present with the body (Col. 2 :5), yet I continually care for and watch over you, as my fellow members,"
      }
     },
@@ -52137,8 +52137,8 @@
      "voice": 4,
      "source": {
       "work": "Anneken Jans ('Anna of Rotterdam'), testament to her son Isaiah (1539), in van Braght, Martyrs Mirror (English, 1886)",
-      "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
-      "lines": "63828-63830",
+      "file": "cic/texts/van-braght_martyrs-mirror_sohm-elkhart1886.txt",
+      "lines": "62962-62964",
       "quote": "Behold, I go today the way of the prophets, apostles and martyrs, and drink of the cup of which they all have drank."
      }
     }
@@ -79829,8 +79829,8 @@
      "voice": 0,
      "source": {
       "work": "Thieleman J. van Braght, prayer prefixed to the Martyrs Mirror, dated Dort 23 July 1659 (English of 1886)",
-      "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
-      "lines": "564-566",
+      "file": "cic/texts/van-braght_martyrs-mirror_sohm-elkhart1886.txt",
+      "lines": "331-333",
       "quote": "so that I may become like unto Thy dearest friends, my slain fellow brethren and sisters,"
      }
     }
