@@ -127,3 +127,51 @@ It fits "witnessed, not carried forward":
 **MINOR (non-blocking)**
 - **R3.** Leave out says canons "4, 5, 11, 13, 15 and 17 are now in beat 7", but beat 7 does not include canon 15 (clergy moving from city to city). It appears only in Do not say. **Correction:** either add "clergy forbidden to move from city to city" to beat 7, or drop 15 from the Leave out note.
 - **R4.** The editor's introduction to Antioch says "we know the exact date". It also reports a theory, which Hefele rejects, that the canons came from an earlier synod in 332 (NC 9298–9435). "Sixteen years on (341, editor's date)" is therefore acceptable as worded. Do not harden it to "exactly sixteen years later".
+
+## Card and how-story check (2026-11-17)
+
+### 1. Card_How.md — PASS
+
+**Claims checked against H1–H16 and the cited lines**
+- The emperor opened the session in the palace and gave the floor to "those who presided": EUS 64396–64398, 64500–64502.
+- "One mind": EUS 64514–64515. The words are verbatim.
+- Eusebius on words being "questioned and redrafted": ATH 19702–19703. Athanasius on the same: ATH 28015–28017.
+- "Every member signed, Eusebius says": EUS 64525–64527.
+- Athanasius's "It seemed good" against "Thus believes the Catholic Church": ATH 56537–56542. The words are verbatim.
+- Socrates's 20 May: SOC 3911–3915. The editor's 14 June to 25 August: EUS 64400–64402.
+- The banquet in the twentieth year: EUS 64541–64545. The farewell speech: EUS 64732–64736.
+
+**Gaps.** All are stated plainly: no minutes, no eyewitness vote or count, no president named, the opening speaker in dispute, and conflicting dates.
+
+**Witnesses.** Each is credited and marked as there or later. Athanasius's presence carries its qualifier ("by a later historian's account").
+
+**MINOR**
+- **C-1.** "The witnesses differ on who gave the opening speech" credits no one. **Suggest:** "Eusebius, who was there, does not name the opening speaker; later historians name Eusebius or Eustathius (H4)."
+- **C-2.** "the Catholic Church" may be heard in its modern denominational sense. **Suggest:** add "(the whole church)" after the quote, as the story outline already does.
+
+### 2. How_Story_Outline.md — FIX (1 BLOCKING)
+
+**Greek confirmed verbatim**
+- **Q1**, PG 26, lines 57164–57168 (`athanasius_opera-omnia-pg26-grc-lat_migne1857.txt`). It matches the OCR from "Οὐ γὰρ προέταξαν" to "Ἐχχλησία". The joins and the bracketed corrections are right.
+- **Q2**, Heikel, lines 11238–11240. It matches the OCR, but it starts one word late: line 11238 reads "τοὺς μὲν συμπείϑον" (see S-3).
+
+**My renderings, made before reading theirs**
+- **Q1:** "For they set no consulship, month and day at the head. About Easter they wrote, 'It seemed good as follows,' for then it seemed good that all should comply. About the faith they wrote not 'It seemed good' but 'Thus believes the catholic Church.'"
+- **Q2:** "Persuading some, shaming others by his word, praising those who spoke well, and driving all toward concord, until he made them of one mind and one opinion on every disputed point."
+
+**Comparison.** Theirs keeps every clause and adds nothing.
+- "Obey" for πείθεσθαι is fair.
+- "Universal" for καθολική is right, and explained.
+- "Shamed" for καταδυσωπῶν is closer to the Greek than the NPNF "convincing".
+- "One belief" for ὁμοδόξους is acceptable. "One opinion" is more literal.
+- No sentence runs past 25 words.
+
+**Beats, Connection, Do not say.** These are supported at H3, H5, H7, H8, H10, H15 and H16, and the eyewitness-only frame holds. The Do not say list covers the president, the vote, the dates, Sozomen's and Socrates's later stories, the opening speaker, "the emperor wrote the creed", "unity lasted" and "Catholic".
+
+**BLOCKING**
+- **S-1. The Thread sets the signing as settled.** "…until each signed" states Eusebius's claim (EUS 64525–64527) as fact. Beat 5 itself says "a few would not accept all of it". The synodal letter has Theonas and Secundus condemned with Arius (NC 6352–6355), and the later witnesses differ on the refusers (M10, H11). **Correction:** "the bishops tested and rewrote their words until, Eusebius says, each signed; a few would not accept all of it."
+
+**MINOR**
+- **S-2. Beat 2: "sat" is not in the letter.** The beat says "His own letter says he sat 'as one among yourselves'". The letter says "at which I myself was present, as one among yourselves" (EUS 64592–64593). **Correction:** "his own letter says he was present 'as one among yourselves'."
+- **S-3. Q2's Greek should start at "τοὺς μὲν συμπείϑον".** That is the start of line 11238, and the article is dropped. The rendering already reflects it, so only the quoted Greek changes.
+- **S-4. *Who tells it*: "sent just after" is not in the record.** The letter reports the council's outcome (EUS 64588–64596) but gives no date. **Correction:** "Constantine's own letter to the churches, written after the council."

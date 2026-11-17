@@ -4,7 +4,7 @@ Sheet = `Source_Sheet.md` in this folder; tags (H1–H16, M1–M15) point to its
 
 - **Length:** about 1 to 1½ minutes (150–220 words). Reason: a single question (how did they decide?) told from eyewitnesses only; the held eyewitness record of procedure is thin, so keep it short.
 - **Setting, in words to say aloud:** "In 325, at Nicaea, in today's Turkey, bishops from across the Roman Empire met in the emperor Constantine's palace." (S1, S2, H3).
-- **Thread:** At Nicaea the emperor opened the debate and pressed for agreement; the bishops tested and rewrote their words until each signed, and they set down Easter as "It seemed good" but the faith as "Thus believes the Catholic Church".
+- **Thread:** At Nicaea the emperor opened the debate and pressed for agreement; the bishops tested and rewrote their words until, Eusebius says, each signed; a few would not accept all of it. They set down Easter as "It seemed good" but the faith as "Thus believes the Catholic Church".
 - **Shape:** Council (one part of it: how it decided).
 - **Openings:** (1) Athanasius's contrast between "It seemed good" and "Thus believes" (H8, Q1). (2) A question the record raises: no minutes survive, so how do we know how they decided? (H14, section D).
 
@@ -52,3 +52,5 @@ Sheet = `Source_Sheet.md` in this folder; tags (H1–H16, M1–M15) point to its
 - Sozomen's and Socrates's stories (H2, H9, H12, H13, M4): later; card only.
 - The rival dates (H14): card only.
 - Constantine's death penalty for hiding Arius's books (H12): belongs to the main story's aftermath or the card.
+
+- **Do not say** (from the check, 2026-11-17): not "every bishop signed" as fact. Eusebius says each signed, but Theonas and Secundus were condemned with Arius. Say "Eusebius says each signed", and that a few would not accept all of it.
