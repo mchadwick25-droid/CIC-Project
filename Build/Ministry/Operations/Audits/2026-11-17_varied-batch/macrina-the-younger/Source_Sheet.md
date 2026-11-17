@@ -35,10 +35,10 @@ S1. **Her name.** CONTEMP. Documented.
 
 The census lists her as "Macrina the Younger", also "Macrina", "Saint Macrina" (CEN 92066, 92094-92095).
 
-S2. **Her place: Pontus, by the river Iris.** CONTEMP. Documented. The *Life* never names the estate. The family's retreat lay by the Iris (where Naucratius lived alone; Gregory reaches "the retreat in which Macrina led her angelic and heavenly life", LIFE 188).
+S2. **Her place: Pontus.** CONTEMP. Documented for Pontus. The *Life* never names the estate and never puts Macrina's house on a river. LIFE 144 puts *Naucratius's* solitary spot on the Iris; when he died "His mother was far away, three days distant from the scene of the tragedy" (LIFE 150). LIFE 188 ("the retreat in which Macrina led her angelic and heavenly life") names no river. LIFE 144 does show that Pontus reaches the Black Sea:
 > LIFE 144: a solitary spot on the banks of the Iris----a river flowing through the midst of Pontus. It rises actually in Armenia, passes through our parts, and discharges its stream into the Black Sea.
 
-Clarke names the estate "Annesi, on the opposite side of the river" from Basil's community (LIFE 78; also LIFE 38). MODERN. Widely Accepted. The census puts her region as "Pontus" (CEN 92070) and the tradition's modern country as Turkey (CEN 35132, 35139).
+Clarke names the estate "Annesi, on the opposite side of the river" from Basil's community (LIFE 78; also LIFE 38). MODERN. Widely Accepted as a placing; not in Gregory. The census puts her region as "Pontus" (CEN 92070) and the tradition's modern country as Turkey (CEN 35132, 35139).
 
 S3. **Century and year.** The *Life* gives no year. It dates her death relative to Basil's: "the ninth month or a little longer after this disaster" (LIFE 184). Clarke gives the years: "On January 1, 379, Basil died; in September of the same year Gregory attended a Council at Antioch" (LIFE 52). Moore and Wilson agree: "This and Basil's death occurred in the year 379" (SOUL 40781-40782). The census: "died 379" (CEN 92067). The year 379 is MODERN: Widely Accepted. Her birth year is not in the record. Spoken form the sheet supports: "in the fourth century"; "in the year 379, as scholars date it". Clarke calls Gregory's Greek "the Greek of the fourth century A.D." (LIFE 66).
 
@@ -69,7 +69,7 @@ M3. **Betrothed at twelve; the young man died; she refused all other marriage.**
 
 Age: "the growing girl reached her twelfth year" (LIFE 124).
 
-M4. **She stayed with her mother, baked with her own hands, and shared the estate's cares.** CONTEMP. Documented.
+M4. **She stayed with her mother, prepared bread with her own hands, and shared the estate's cares.** CONTEMP. Documented. The Greek (PG46 70300-70301): καὶ ἐν τῷ ταῖς ἰδίαις χερσὶ πολλάκ[χ]ις τῇ μητρὶ παρασκ[χ]ευ[ν]άζειν τὸν ἄρτον ("and in often preparing bread for her mother with her own hands"); Clarke has "food".
 > LIFE 132: in the time that was left she prepared food for her mother by her own toil.
 > LIFE 132: For she had four sons and five daughters, and paid taxes to three different governors, since her property was scattered in as many districts.
 
@@ -166,7 +166,7 @@ I1. **Her teaching was kept in her own voice, as "the Teacher", and was argued o
 - Gregory wrote the dialogue *On the Soul and the Resurrection* with her as teacher. CONTEMP. Documented.
 > SOUL 38087-38089: Basil, great amongst the saints, had departed from this life to God; and the impulse to mourn for him was shared by all the churches. But his sister the Teacher was still living
 > SOUL 38096-38100: and then she tried to check me by speaking, and to correct with the curb of her reasonings the disorder of my soul. She quoted the Apostle's words about the duty of not being "grieved for them that sleep"; because only "men without hope" have such feelings.
-- The Greek title of the dialogue is her name: "Τὰ ΜΑΚΡΙΝΙΑ" ("the Macrinia", PG46 558-564, under "ΠΕΡῚ ΨΥΧΗΣ ΚΑΙ ἈΝΑΣΤΆΣΕΩΣ Ὁ ΛΟΓῸΣ / Ο ΛΕΓΟΜΕΝῸΣ"), and the Ferrara Greek cites it "ἐν τοῖς Μακρινίοις" (PO15 2340; OCR garbled: "ἐν τοῖς Meazoıwtoıs"). Documented.
+- The dialogue was also called by her name: "Τὰ ΜΑΚΡΙΝΙΑ" ("the Macrinia"; the title reads "the dialogue on the soul and resurrection, the one called the Macrinia", PG46 558-564, under "ΠΕΡῚ ΨΥΧΗΣ ΚΑΙ ἈΝΑΣΤΆΣΕΩΣ Ὁ ΛΟΓῸΣ / Ο ΛΕΓΟΜΕΝῸΣ"), and the Ferrara Greek cites it "ἐν τοῖς Μακρινίοις" (PO15 2340; OCR garbled: "ἐν τοῖς Meazoıwtoıs"). Documented.
 - **Ferrara, 1438.** LATER (about 1060 years). Documented. At the council's session on purgatory on 5 June 1438, Cardinal Julian Cesarini's Latin case cited Gregory of Nyssa among Eastern witnesses (PO15 349-358). The Latin statement:
 > PO15 2304-2306: Gregorius Nyssenus in dialogo de Consolatione et statu animarum post mortem", introdueit loquentem et dieentem Macrinam sororem beati Basilii - et suam, post ipsius Basilii mortem
 (OCR: "introdueit" = introducit, "dieentem" = dicentem. "Gregory of Nyssa, in the dialogue on consolation and the state of souls after death, brings in Macrina, sister of blessed Basil and his own, speaking after Basil's death".) The words they cite are hers in the dialogue: "Not in hatred or revenge for a wicked life, to my thinking, does God bring upon sinners those painful dispensations" (SOUL 39603-39604; the speaker is "she", SOUL 39465).

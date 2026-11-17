@@ -20,7 +20,7 @@ Every line cites `Source_Sheet.md` (S = setting, M = moment, I = impact, D = dis
 **What came of them** (about a third of the story)
 1. Heaviest: the work went on with their disciples. Wiching, whom Methodius had condemned, took the see, and the disciples were driven out and scattered (I1, LCl 12972–12974, PG 98734–98736). Clement, Naum and Angelarius crossed the Danube to Bulgaria. Prince Boris thanked God for sending them. Clement became "the first bishop of the Bulgarian tongue" and wrote plain sermons for every feast, because Bulgarian priests could barely follow Greek (I1). The *Life of Clement* says, in paraphrase, that Clement handed down to "us Bulgarians" all that belongs to the Church (PG 99590–99594).
 2. **Defended:** that God may be praised in every language (I2). Cyril's dying prayer asked God to destroy "the three-language heresy" (M11). The pope's ruling of 880 (M17) and the Kievan Chronicle both carried it on (I2).
-3. The Rus took the letters as their own. In paraphrase: the Kievan Chronicle says this Slavic writing was made for the Moravians and is found in Rus and among the Danube Bulgarians too (I3, RPC 7870–7873).
+3. The Rus took the letters as their own. In paraphrase: the Kievan Chronicle says this Slavic writing was first made for the Moravians and their neighbouring Slavs (the Czechs, the Lyakhs and the Polyanians), and is found in Rus and among the Danube Bulgarians too (I3, RPC 7867–7873).
 4. Memory: in Rome a painted image over Cyril's tomb, with lamps kept burning day and night (I4). In Moravia in 1380 a bishop ordered their feast kept, calling them "Fathers, Apostles and our chief Patrons" (I4).
 End on 1 or 3, as an event: who carried their letters on, and how far they reached.
 
