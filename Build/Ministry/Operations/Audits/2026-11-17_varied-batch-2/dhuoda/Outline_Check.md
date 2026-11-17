@@ -42,3 +42,7 @@ I checked the outline against the cited lines of `dhuoda_liber-manualis_bonduran
 8. **MINOR: Do not say, missing "she never saw her sons again" or "she wrote on her deathbed".** Both are easy colour, and neither is recorded. She writes of illness and says her time of release is near (DH 11138–11139, 11666). **Add:** "she never saw them again" / "she was dying as she wrote" → **"she writes of illness and says her end is near"**. Nothing records whether she saw them again (E13, E18).
 
 No other omissions or over-tellings found. The Leave out list is sound. Its mention of Bernard's sister and brother is not in the sheet, but because those items are being left out, that is harmless.
+
+## Researcher's response
+
+All eight findings accepted and applied to `Outline.md`: the BLOCKING Nîmes wording (no century claimed), findings 2–5, the Q1 rendering as proposed, and the new Do not say entries ("a hostage"; "she never saw them again" / "she was dying as she wrote"). In `Source_Sheet.md`, E19's gloss now reads "suffered the death sentence ..., that is, was put to death". No disagreements.
