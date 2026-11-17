@@ -14,4 +14,5 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | narsai | research | Opus | 293,825 | Outline: teacher shape, ~2:30; Edessa to Nisibis rests on Barhadbeshabba; connection through the School of Nisibis |
 | moses-the-black | outline fix | Opus (same researcher, resumed) | 214,534 cumulative (about 17,500 for the fix) | 3 blocking and 8 minor made; Outline.v1.md kept |
 | council-of-chalcedon-451 | research | Opus | 290,922 | Outline: council shape, stretched to 3 min; refusing churches from their own witnesses; connection: Dioscorus deposed, honoured as confessor in Egypt and Syria |
-| john-wyclif | research | Opus | (count on notification) | Outline: teacher shape, ~2:30; Bible, death and bones told as disputed; connection through Thorpe and Hus |
+| john-wyclif | research | Opus | 257,335 | Outline: teacher shape, ~2:30; Bible, death and bones told as disputed; connection through Thorpe and Hus |
+| moses-the-black | outline recheck | Opus, low effort | 89,397 | PASS: all corrections made, nothing new wrong |
