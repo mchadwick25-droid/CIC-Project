@@ -42,3 +42,30 @@ One line (Why) is WEAK.
    (Outline, What came of them 5: "among the works of Christian instruction from the ninth century on ... *Defended:* instruction for ordinary people before Luther", I5.)
 
 These add about 30 words, bringing the brief to about 420. That is still under the 450-word limit and about 2¾ minutes. Nothing is simplified. The fix states the point the outline already holds, so the listener does not have to infer it.
+
+## Retest (2026-11-17)
+
+Revised brief heard once, straight through. Length is 429 words by `wc -w`; the coordinator reports 426. Either way it is under the 450-word limit.
+
+### Three lines from one hearing
+
+- **Who was this?** Dhuoda, a Frankish noblewoman of the 840s at Uzès in the south of France. She was the wife of Bernard, a great lord of the south, and the mother of William and a baby son. She was not one of the clergy.
+- **What happened?** Charlemagne's grandsons went to war with one another. Bernard had the newborn son brought to him before baptism, and William was sent to serve King Charles as his sworn man. Dhuoda stayed at Uzès and dictated a handbook of faith for William. Bernard was later put to death for treason, and William was killed at Barcelona. Her own death is unrecorded.
+- **Why does the connection matter?** Hers is one of very few voices from the church of Charlemagne's heirs that does not belong to the clergy: a mother teaching her son the faith. The book was copied, kept, proven hers, and printed. In 1923 it was counted among the works of Christian instruction from the ninth century on. It showed that the faith was taught to ordinary people before Luther, against the claim that the catechism began with him.
+
+### Judgments
+
+| Line | Judgment | Note |
+|---|---|---|
+| Who | CLEAR | Unchanged. |
+| What | CLEAR | Unchanged. |
+| Why | CLEAR | Both points that were lost are now stated plainly. |
+
+### Is the new wording supported by the outline?
+
+- "one of very few voices from the church of Charlemagne's heirs that does not belong to the clergy" is the outline's Thread, word for word (S7). It also keeps "a noblewoman", as the "Do not say" list requires.
+- "named 'the manual of Dhuoda' among the works of Christian instruction from the ninth century on ... to answer the claim that the catechism began with Luther" matches What came of them 5 (I5).
+- "because it showed the faith taught to ordinary people before him" puts the outline's *Defended* note ("instruction for ordinary people before Luther") into words. It is the outline's own framing of what the translators argued, not a new claim.
+- One small point that does not block a pass: "Hers, a noblewoman's, is one of..." is a slightly bumpy way to start a sentence that is heard. The meaning still comes through on one hearing.
+
+### Retest verdict: PASS
