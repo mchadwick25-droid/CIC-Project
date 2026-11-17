@@ -27,3 +27,12 @@ Second rendering: Are they not drawn from the very heart of philosophy?
 Ours: from the very heart of philosophy
 Verdict: same
 Reason: Verbatim fragment of Fremantle's printed English; the question form is dropped, but the phrase is quoted as a fragment and its sense is unchanged.
+
+## Release 50 fixes
+
+## 5. Clement wrote that every day he saw martyrs (narrated paraphrase)
+Source: cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml 34507-34509
+Second rendering: Every day we have martyrs before our eyes in plenty, people burnt, impaled and beheaded.
+Ours: Clement wrote that every day he saw martyrs, people who died rather than deny Christ, burnt, impaled and beheaded.
+Verdict: minor
+Reason: Clement writes "we", Christians who watch it together, not "I"; "he saw" is fair since he counts himself among them. The gloss "people who died rather than deny Christ" is the source sheet's (S4), not Clement's, and is narrated, not quoted. Nothing added to the force of the scene.

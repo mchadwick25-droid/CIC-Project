@@ -326,11 +326,12 @@
       "uncertain": "Eusebius's letter has \"One-in-essence\" (Athanasius, npnf204, 19660)."
     },
     {
-      "modern": "in the sight of all",
-      "printed": "the impious writing had been torn up in the sight of all,",
-      "work": "Eustathius of Antioch, in Theodoret, Church History I.8",
-      "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
-      "lines": "6395-6396"
+      "modern": "from God",
+      "printed": "that the Son is not from nothing but ‘from God,’",
+      "work": "Athanasius of Alexandria, Defence of the Nicene Definition (De decretis) 19, tr. Archibald Robertson",
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+      "lines": "27877-27878",
+      "uncertain": "English only: the Greek of De decretis is held (athanasius_opera-omnia-pg25-grc-lat_migne1857.txt) but the passage was not found in the OCR."
     },
     {
       "modern": "God of God, Light of Light",
@@ -377,14 +378,14 @@
   ],
   "briefReferences": [
     "Arius, Letter to Eusebius of Nicomedia, in Theodoret I.4 (Greek, PG 82; English, npnf203): driven out by Alexander; the Son has a beginning.",
-    "Eusebius of Caesarea, Life of Constantine III.4-7: strife of bishops in Egypt; the Easter quarrel, some fasting while others feasted; the letter to Alexandria failed; bishops called from all quarters, from Syria to Spain.",
+    "Eusebius of Caesarea, Life of Constantine III.4-7: strife of bishops in Egypt (npnf201, 64218-64223); the Easter quarrel, some fasting while others feasted; the letter to Alexandria failed; bishops called from all quarters, from Syria to Spain.",
+    "Socrates I.6 (npnf202, 2391-2396): the people divided, some siding with one party and some with the other; Christianity ridiculed even in the theatres.",
     "Life of Constantine III.12 (Greek, ed. Heikel; English, npnf201): Constantine's speech on civil strife in the church.",
-    "Eusebius of Caesarea, Letter to his church (in Athanasius, npnf204, and Socrates, Greek ed. Hussey): his creed read, the emperor's approval, \"one in essence\" added; he signed with peace as his aim.",
-    "Athanasius, De decretis 19-20 (npnf204): \"from God\" read as true of all creatures; Arius's friends whispering and winking; the words written more distinctly.",
-    "Eustathius of Antioch, in Theodoret I.8 (npnf203): the formulary torn up \"in the sight of all\".",
+    "Eusebius of Caesarea, Letter to his church (in Athanasius, npnf204, and Socrates, Greek ed. Hussey): his creed read, the emperor's approval, \"one in essence\" added.",
+    "Athanasius, De decretis 19-20 (npnf204, 27875-27889, 28015-28018): \"from God\" chosen from Scripture and read as true of all creatures; the words written more distinctly.",
     "The creed of Nicaea, the synodal letter and the twenty canons (npnf214): \"God of God, Light of Light\", \"begotten, not made\", \"of one substance\"; the anathema; Arius, Theonas and Secundus condemned; Melitius kept his title but could not ordain; one Easter, as at Rome and Alexandria; canon 13, the last communion for the dying.",
-    "Socrates I.8 (npnf202): Constantine exiles Arius; I.14: Eusebius of Nicomedia and Theognis recalled, and Arius, it appears, before them.",
-    "Council of Constantinople (381), canon 1, and Council of Chalcedon (451), definition (npnf214): the faith of the 318 fathers \"shall not be set aside\" and \"pre-eminent\".",
+    "Socrates I.8 (npnf202, 2962-2966) and Sozomen I.20 (npnf202, 27956-27960): the emperor orders banishment for anyone who resists, and his edict exiles Arius; I.14: Eusebius of Nicomedia and Theognis recalled, and Arius, it appears, before them.",
+    "Council of Constantinople (381), canon 1, and Council of Chalcedon (451), definition (npnf214): the faith of the 318 fathers \"shall not be set aside\" and \"pre-eminent\"; Chalcedon recites the creeds of Nicaea and of Constantinople apart (20225-20230).",
     "Jerome, Dialogue against the Luciferians (npnf206): Rimini, 359.",
     "Council of Antioch, canon 1 (npnf214): the Easter decree of Nicaea enforced.",
     "African code, Carthage 419 (npnf214): Caecilian's copy read aloud; letters east for exact copies."
@@ -449,7 +450,8 @@
         "Eusebius of Caesarea, Letter to his church (npnf204): his creed read and \"of one being\" added.",
         "Athanasius, De decretis 19-20 (npnf204): Scripture's words tried, evaded, and written again more distinctly.",
         "Athanasius, De synodis, Part I (npnf204; Greek, PG 26): \"It seemed good\" for Easter, \"Thus believes the Catholic Church\" for the faith.",
-        "Synodal letter and Socrates I.8 (npnf214, npnf202): a few would not accept all of it."
+        "Synodal letter and Socrates I.8 (npnf214, npnf202): a few would not accept all of it.",
+        "Socrates I.14 (npnf202, 3939-3942, 3978-3979) and Jerome, Dialogue against the Luciferians (npnf206, 32412-32413): the agreement did not hold; for decades the word divided the church."
       ]
     }
   ]

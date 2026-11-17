@@ -36,3 +36,12 @@ Mark, 2026-11-17: "yes no softening, we are a witness not a judge … for this r
 ## Quotations added or changed
 
 - None added or changed in wording. The "Mother" quote (HEL 24994–24995; HE 11014–11016) moved and now has "Bede writes:" before it. The five-bishops quote (HEL 24946–24948) now has a new lead-in, "Bede saw what her house gave the young English church:".
+
+## Follow-up
+
+From Recheck_R50 (minor findings 1 and 2). Every other sentence is kept word for word.
+
+- Recheck 1, Oftfor: "…then went to Archbishop Theodore in Kent, and on to Rome." → "…then went to Archbishop Theodore in Kent, and on to Rome, and later became a bishop." Source: Giles, `cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt` 11002–11003 ("this Oftfor was, by universal consent, chosen bishop in his stead"); his path is at 10980–10990.
+- Recheck 2, card (`hild-of-whitby.card.json`): removed the `briefReferences` line "York Prymer litany, ed. Wordsworth: \"Sancta Hilda ora\"". The brief no longer draws on it. The Prymer stays in `sources` and `legacy.remembered`, which are card content and not brief references. The IV.23 line now reads "five bishops, among them Oftfor, who studied in both her monasteries, then went to Theodore in Kent and to Rome, and was later chosen bishop (Giles 10980-10990, 11002-11003)".
+- Quotations added or changed: none.
+- Readability: 450 words, grade 9.0 (names out 8.5), reading ease 72.5, longest sentence 31 (the unchanged opening), pass.

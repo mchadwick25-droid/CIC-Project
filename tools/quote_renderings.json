@@ -510,10 +510,10 @@
   },
   {
    "id": "antony-the-great",
-   "quote": "For I had heard this of Antony. He had come in by chance during the Gospel reading, and was urged on by it. It was as though the words read were spoken to him. 'Go, sell all that you have, give to the poor, and you will have treasure in heaven. And come, follow me.' By such a divine word he was at once turned to you.",
+   "quote": "For I had heard this of Antony. He had come in by chance during the Gospel reading, and was urged on by it. It was as though the words read were spoken to him.",
    "original": {
     "file": "cic/texts/augustine_confessiones-lat_knoll-csel33.txt",
-    "lines": "13470-13501",
+    "lines": "13470-13472",
     "language": "Latin"
    },
    "second_reading": {
@@ -671,19 +671,6 @@
     "file": "cic/texts/benedict_rule-of-st-benedict-lat-eng_hunter-blair1907.txt",
     "lines": "9527-9528",
     "language": "Latin"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/benedict-of-nursia/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "benedict-of-nursia",
-   "quote": "carrying the manuscript of the Holy Rule",
-   "original": {
-    "file": "cic/texts/paul-the-deacon_history-of-the-langobards_foulke1907.txt",
-    "lines": "7832-7835",
-    "language": "English"
    },
    "second_reading": {
     "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/benedict-of-nursia/Second_Readings.md",
@@ -852,19 +839,6 @@
    "original": {
     "file": "cic/texts/dhuoda_liber-manualis_bondurand1887.txt",
     "lines": "3168-3171",
-    "language": "English"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/dhuoda/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "dhuoda",
-   "quote": "a monument of literature and piety worthy of respect",
-   "original": {
-    "file": "cic/texts/dhuoda_liber-manualis_bondurand1887.txt",
-    "lines": "348",
     "language": "English"
    },
    "second_reading": {

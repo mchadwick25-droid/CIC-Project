@@ -74,12 +74,12 @@
       "uncertain": "The OCR prints a note marker \"(38)\" inside the phrase. The 1892 English (npnf204, line 31625) reads \"the desert was colonised by monks\"; \"colonised\" now suggests conquest."
     },
     {
-      "modern": "For I had heard this of Antony. He had come in by chance during the Gospel reading, and was urged on by it. It was as though the words read were spoken to him. 'Go, sell all that you have, give to the poor, and you will have treasure in heaven. And come, follow me.' By such a divine word he was at once turned to you.",
-      "printed": "audieram enim de Antonio, quod ex euangelica lectione, cui forte superuenerat, admonitus fuerit, tamquam sibi diceretur quod legebatur: uade, uende omnia, quae habes, da pauperibus et habebis thesaurum in caelis; et ueni, sequere me, et tali oraculo confestim ad te esse conuersum.",
+      "modern": "For I had heard this of Antony. He had come in by chance during the Gospel reading, and was urged on by it. It was as though the words read were spoken to him.",
+      "printed": "audieram enim de Antonio, quod ex euangelica lectione, cui forte superuenerat, admonitus fuerit, tamquam sibi diceretur quod legebatur",
       "work": "Augustine, Confessions VIII.12.29, Latin, CSEL 33",
       "file": "cic/texts/augustine_confessiones-lat_knoll-csel33.txt",
-      "lines": "13470-13473, 13501",
-      "uncertain": "\"You\" is God, to whom the Confessions are addressed. \"Divine word\" renders oraculum. The Pilkington English (npnf101, lines 13117-13124) reads \"And by such oracle was he forthwith converted unto Thee.\""
+      "lines": "13470-13472",
+      "uncertain": "\"Urged on\" renders admonitus, which means warned or prompted. The Pilkington English (npnf101, lines 13117-13121) reads \"he received the admonition as if what was read were addressed to him\"."
     }
   ],
   "briefReferences": [

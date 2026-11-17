@@ -90,3 +90,28 @@ Mark, 2026-11-17: "yes no softening, we are a witness not a judge … for this r
 - Main brief, added: "from God" (Athanasius, De decretis; ATH 27875–27882; outline beat 4). English only.
 - Main brief, removed: "in the sight of all" (Eustathius, NP3 6395–6396).
 - Story: none added or changed. "of one being" stays, now with "the emperor urged that one word be added" before it (ATH 19655–19660).
+
+## Follow-up
+
+Mark, 2026-11-17: "no softening, we are a witness not a judge"; "yes, add 5 to 7". From Recheck_R50 (minor findings 1, 2, 4) and the added items for both texts. Every other sentence is kept word for word.
+
+**Main brief (`council-of-nicaea-325.brief.txt`)**
+- Recheck 1, who speaks: "As Eusebius reports it, he told them:" → "As Eusebius reports it, the emperor told them:" (EUS 64468–64471).
+- Recheck 2, referents: "It did not hold at once." → "The settlement did not hold at once."; "For decades the word divided the church." → "For decades the word "of one being" divided the church." (sheet I3).
+- Recheck 3, the optional Easter trim: not made. It would cost the fasting-and-feasting image (sheet K2) and the link back to the two troubles Eusebius names, so it does not cost nothing.
+- Added item, why the question mattered to ordinary believers. Inserted after "…clashed with bishops in every city.": "A historian writing a century later adds that the people took sides too, and the faith was mocked even in the theatres." Source: Socrates I.6, `cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml` 2391–2396: "one saw not only the prelates of the churches engaged in disputing, but the people also divided, some siding with one party, and some with the other. To so disgraceful an extent was this affair carried, that Christianity became a subject of popular ridicule, even in the very theatres." Eusebius agrees that the people were split ("people rising against people", npnf201 64218–64223, sheet K1). Witness line per sheet W6. Limit: the held sources show that ordinary believers took sides. They do not give a reason in the believers' own terms. The only "why" held is Athanasius's polemic that the other side worshipped a creature (npnf204 34275–34279). I did not use it, because it would carry one side's charge.
+- Length: 524 words by `wc` (521 by the profiler), against "about 450". It was 497 before the follow-up.
+
+**Story (`how-nicaea-decided.brief.txt`)**
+- Added item, do not close on the winning side's claim. Old close: "Eusebius claims the agreement held, while the decades that followed show it did not. Athanasius, writing later in the council's defense, argued that the creed was no new rule, pointing to its wording. For the date of Easter they wrote … 'This is what the universal Church believes.'"" New close: the Athanasius sentence and his quotation, unchanged, then "Eusebius claims the agreement held. It did not: for decades the word "of one being" divided the church." The quotation stays credited to Athanasius, "writing later in the council's defense", as one side. The story now ends on how the decision was received (sheet I3: SOC 3939–3942 and 3978–3979, the recalls; JER 32412–32413, Rimini; EUS 64765–64767, Eusebius's claim, sheet H16). 265 words.
+
+**Card (`council-of-nicaea-325.entry.json`)**
+- `quotationOriginals`: removed "in the sight of all" (Eustathius, npnf203 6395–6396). Added "from God" (De decretis 19, npnf204 27877–27878). Its printed wording was confirmed at those lines: "that the Son is not from nothing / but ‘from God,’".
+- `briefReferences` (main): the Eusebius letter line now ends "…\"one in essence\" added." The De decretis line now reads "\"from God\" chosen from Scripture and read as true of all creatures; the words written more distinctly", with lines added. The Eustathius line was removed. The Socrates I.8 line now names Sozomen I.20 and the emperor's order (npnf202 2962–2966, 27956–27960). The Constantinople/Chalcedon line adds that Chalcedon recites the two creeds apart (npnf214 20225–20230). Added Socrates I.6 (npnf202 2391–2396), and lines on the Life of Constantine line (npnf201 64218–64223).
+- `stories[0].briefReferences`: added Socrates I.14 and Jerome (npnf202 3939–3942, 3978–3979; npnf206 32412–32413) for the new close. The story's `quotationOriginals` are unchanged, because its quotations did not change.
+
+**Quotations added or changed**
+- Main brief: none added in the follow-up. Card only: the "from God" entry is added and "in the sight of all" removed, to match the release-50 brief.
+- Story: none. Athanasius's quotation is unchanged in wording and only moves ahead of the close.
+
+**Readability** (`python -m engine.m1.profile_readability`): main brief 521 words, grade 9.4 (names out 8.5), reading ease 67.4, longest sentence 30, pass. Story 266 words, grade 8.4, reading ease 73.9, longest sentence 29, pass.

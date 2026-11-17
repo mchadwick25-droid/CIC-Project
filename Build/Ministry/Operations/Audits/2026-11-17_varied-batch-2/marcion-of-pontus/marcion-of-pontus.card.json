@@ -102,6 +102,17 @@
       "file": "cic/texts/tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt",
       "lines": "4337-4338",
       "uncertain": "The ANF English (anf03, lines 23734-23735) reads \"Marcion's special and principal work is the separation of the law and the gospel\"."
+    },
+    {
+      "modern": "Even wasps make combs; so also these Marcionites make churches.",
+      "printed": "Even wasps make combs; so also these Marcionites make churches.",
+      "work": "Tertullian, Against Marcion IV.5, ANF English, tr. Peter Holmes",
+      "file": "cic/texts/anf03_tertullian.xml",
+      "lines": "29328-29330",
+      "original": "Faciunt favos et vespae, faciunt ecclesias et Marcionitae",
+      "originalFile": "cic/texts/tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt",
+      "originalLines": "8490",
+      "uncertain": "\"These\" is the translator's, not in the Latin. The line is Tertullian's sneer, credited to him in the brief."
     }
   ],
   "briefReferences": [

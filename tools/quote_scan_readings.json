@@ -324,6 +324,13 @@
    "scan": "jussioiie",
    "reads": "jussione",
    "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt",
+   "lines": "8490",
+   "scan": "vespae',  faciunt  ecclesias  et  Marcionitac",
+   "reads": "vespae,  faciunt  ecclesias  et  Marcionitae",
+   "kind": "OCR misread"
   }
  ]
 }

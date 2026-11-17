@@ -27,3 +27,12 @@ Second rendering: Marcion's own distinctive work, and his chief one, is to separ
 Ours: Separating the law from the gospel is Marcion's own work, and his chief one.
 Verdict: same
 Reason: Same meaning; proprium (his own) and principale (chief) are both carried.
+
+## Release 50 fixes
+
+## 5. Even wasps make combs; so also
+Source: cic/texts/tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt 8490 (Latin; printed English cic/texts/anf03_tertullian.xml 29328-29330)
+Second rendering: Wasps make combs too; and the Marcionites make churches too.
+Ours: Even wasps make combs; so also these Marcionites make churches.
+Verdict: same
+Reason: Ours is the ANF printed English word for word. "Faciunt favos et vespae, faciunt ecclesias et Marcionitae" sets the two acts side by side with "et ... et" ("too ... too"); "Even ... so also" carries that. "These" is the translator's, not in the Latin, and changes nothing. The sneer is credited to Tertullian ("Tertullian had mocked them"), so the narrator does not adopt it.
