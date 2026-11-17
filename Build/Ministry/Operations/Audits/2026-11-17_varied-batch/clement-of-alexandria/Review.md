@@ -64,3 +64,24 @@ Every sentence traces to the outline, except where marked below. Both quotes in 
 5. **MINOR. Two groups are merged into one.** In Clement, "the multitude" fear philosophy as children fear masks (S5a). It is a different group, "some, who think themselves naturally gifted", who want "bare faith alone" (S5b). The brief gives both to "some Christians". Keep them as two groups: "Many Christians feared Greek philosophy as children fear masks. Some wanted bare faith alone." This also states the hard question the paragraph promises (Opening 2: could a Christian keep his Greek learning?). One clause can do it.
 
 No other findings. The bee of Sicily is told as the outline allows: his own name for the teacher, with the gathering image. Sicily's reason is not in the record, so leaving it open is right.
+
+## Recheck
+
+Reviewer, 2026-11-17. This was a targeted recheck. I looked only at what changed, against findings 1–5 and the outline. Revised brief: 350 words, grade 7.7 (names out 6.8), reading ease 72.6, 14.6 words a sentence, longest 26. It passes every limit. Impact (paragraphs 5–7) is about 127 words, 36%.
+
+**Findings 1–5**
+1. **Cleared.** "As a young man" is now "As a learner", the outline's word (beat 1).
+2. **Cleared.** "who called the Law a guide of this kind: the household servant who walked a child to his teacher". The word is named and joined to the quote. It is still Paul's word that Clement echoes (beat 4), with no claim about Clement's own Greek.
+3. **Cleared.** The Antioch letter now sits in the impact part as Alexander's trust and honour. The prison's place is not named (N3). The praise is in the writer's own words, not quoted. "Good and tested elder who had built up the church" follows "a man virtuous and approved" (δόκιμος, "tested, approved") and "strengthened and built up the Church of the Lord" (EUS 33612–33617; EUSG 2401–2403, 2490–2494). It adds nothing.
+4. **Cleared.** "patched together from one subject to the next" is T6's "patched together—passing constantly from one thing to another" (ANF2 37560–37564), the reason given in beat 2. "The last and greatest" fixes "the last".
+5. **Cleared.** "Many Christians feared philosophy as children fear masks. Some wanted bare faith alone" keeps the multitude (S5a) apart from the some (S5b). "Could a Christian keep his Greek learning?" is Opening 2's question, word for word.
+
+**The points the coordinator asked about**
+- **"The last and greatest": supported.** The outline's Q1 rendering reads "the last of them, and he was the greatest in power". Wilson has "he was the first in power" (ANF2 27490–27491). "Greatest" comes from the rendering. Dropping "in power" does not widen the claim enough to matter in a spoken line. Not added detail.
+- **"Named him among the blessed men who had gone on ahead in death": supported.** Beat 7 reads "counts Clement among the blessed men who had gone on ahead of us, that is, who had died (M9)". The Greek is τοὺς μακαρίους ἐκείνους τοὺς προοδεύσαντας (EUSG 3048), "those blessed ones who went on ahead". The earlier outline-check point was about quotation marks around "gone before". The brief gives this in its own words, without quotation marks, which is what that finding asked for. "In death" is the outline's own gloss ("that is, who had died"), not an addition. "Named" is right: Alexander names Clement in that sentence.
+- **The new opening, "a Christian teacher named Clement remembered his search": supported.** "Christian teacher ... in Alexandria" is the outline's spoken tradition, "the Christian teachers of Alexandria" (S6). "Remembered" matches Opening 1, "His own memory of his search", and M3's memoranda. Paragraph 3 gives "the church at Alexandria". Setting and tradition come early.
+- **The Origen closing: supported.** "Jerome says he wrote ten books of Miscellanies of his own, setting Christian views beside the philosophers'" follows I1, "compares together the opinions held respectively by Christians and by philosophers" (JER 16636–16641). Crediting Jerome is right. It ends on an event, the outline's suggested end. One MINOR point, which does not block: heard aloud, "the philosophers'" sounds like "the philosophers", so the line closes on an apostrophe the ear can't hear. Suggested wording, optional: "setting Christian views beside those of the philosophers."
+
+**Nothing new added for effect.** The two quotes from the first read are unchanged. "He taught in that city of libraries and lecture halls" is cut. "Teacher" in the opening and "his pupils" still carry beat 3's "taught", with no school.
+
+**Final verdict: PASS.** No wording must change. The "philosophers'" fix above is optional.
