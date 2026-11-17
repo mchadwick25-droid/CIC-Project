@@ -3819,3 +3819,9 @@ it, never by deleting it.
     - Impact share: three briefs first drafted under a third (Radegund about a fifth, Clement and Cyril and Methodius about 26 to 28%); revision brought each to about 27 to 38%.
     - The checks caught real faults: every outline had at least one BLOCKING finding against the source texts, and four of six briefs had one (an invented "as a young man", a wonder told in the narrator's voice, a death scene never told, an opening never tied back in).
     Owner: the coordinator, with Mark.
+
+315. **What round two of the varied batch showed (2026-11-17).** For Mark with the round-two read (Decision-Log, "The review bar", 2026-11-17).
+    - A fresh writer working from a checked outline repeated three errors round one had already fixed: Columba's gates wonder told in the narrator's voice, Clement's "long" search, and Radegund's revolt outcome. The outlines' wording leaves room for these, so each will recur with every new writer. Proposed: when a review finds and fixes such an error, the outline gains a "do not say" line.
+    - The kit's `Standard.md` leaves out that the impact must tell what the person defended; `Outline_Template.md` still marks it. Antony's first round-two draft dropped his stand against the Arians. Proposed: restore it to the standard's impact line.
+    - Length: round-two briefs run 347 to 456 words (about 2:20 to 3:05) against outlines set for 2 to 3 minutes; the adult voice takes more words than the round-one voice.
+    Owner: the coordinator, with Mark.
