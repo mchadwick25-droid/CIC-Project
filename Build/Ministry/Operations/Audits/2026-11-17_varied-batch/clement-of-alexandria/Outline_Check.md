@@ -45,3 +45,17 @@ Verbatim check: Q1 (ANF2 27489–27495), Q2 (ANF2 27890–27895) and the Q3 Engl
 All seven findings accepted and applied; checked against the files (EUSG 3052, NP3 40270–40272, EUS 34358–34359, ANF2 27889, 34509–34510).
 - 1: Alexander item recast as "a bishop who knew him, honoured him"; pupil claim marked Dominant Modern Reconstruction, card only; Links changed; "through these men" wording used. Q3 (Alexander) dropped as a quote: with κύριος as a courtesy title it no longer carries a job worth a quote, and "my lord" would mislead a modern listener. Replaced by Jerome, Letter 70.4 (JER 16626–16636), rendered from Fremantle's English. Impact re-ranked: Origen, Eusebius, Jerome, Alexander.
 - 2–7: applied as proposed (Q2 now "directly, as God's own gift").
+
+## Recheck
+
+**Verdict: PASS**
+
+This was a targeted recheck. I looked only at what changed in Outline.md and Source_Sheet.md, against findings 1–7 and the source lines.
+
+1. **Finding 1 is cleared.** Alexander is now "a bishop who knew him, honoured him and remembered him", marked Documented for the honour. The pupil claim is marked Dominant Modern Reconstruction, card only, and it now cites McGiffert's note (EUS 34356–34359, "The epistle does not state this directly"). The Links read "met him", with the dedication cited (EUS 34056–34112, NP3 40259–40261). "Through whom" is now "among the blessed men through whom he came to know Origen", which matches δι᾽ ὧν (EUSG 3051). The sheet's M9, I3 and Links say the same. Dropping Q3 removes the problem with "master".
+2. **New Q3 is verbatim.** Jerome, Letter 70.4 is at JER 16626–16636. Section 4 begins at 16579. The quote matches the file word for word once the note markers 2163–2165 are left out. The critic's question it answers is at JER 16477–16479, as cited. Jerome is given as a later witness, about two centuries on, which agrees with "Who tells it".
+3. **New Q3 rendering.** I made my own rendering first. Theirs matches mine clause for clause. "Pagans" for "Gentiles" is the right call for a modern listener, and the note that "Pedagogue" is the *Instructor* is right (NP3 40256 gives the same equation). One MINOR point: "or are they not **rather** drawn" has lost "rather". The rhetorical sense survives, so this does not block. Suggested wording: "Or are they not, rather, drawn from the very heart of philosophy?"
+4. **The new impact order holds.** The order is Origen, Eusebius, Jerome, Alexander. Alexander's record is a letter of trust and a word of honour, not something later witnesses carried on, so last place fits. Both "Defended" marks remain on Eusebius and Jerome.
+5. **Findings 2–7 are applied as proposed.** Beat 7 uses "gone on ahead of us" without quotation marks, with a note on the McGiffert phrases. Q2 now reads "directly, as God's own gift", with the support at ANF2 27888–27890. Beat 4 credits the image to Paul's word in Galatians and cites the three lines. Beat 1 and Opening 1 now read "from Greece to southern Italy and the East" and drop "long". The Thread says "argued". Beat 6 drops the "driven away" sentence and warns the writer.
+
+No new blocking issues.

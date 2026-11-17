@@ -55,3 +55,7 @@ One BLOCKING finding (beat 6). Everything else holds: all three quotes match the
   - The year 587 is correctly labelled as the editors' reckoning (GRL 61607).
 - **Who tells it.** All three narrative witnesses knew her, and the latest, Baudonivia, wrote after 600 (VR-K 28186). The outline says this plainly, and the line to be said aloud flags that the praise comes from people who loved her.
 - **Leave out.** The list is sound. Nothing important from the sheet is wrongly left out.
+
+## Researcher's response
+
+All seven findings accepted and applied as given: beat 6 now keeps the two requests apart (and Sheet I1 likewise), and Q1 reads "the soul of your sheep". No disagreements.
