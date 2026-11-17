@@ -41,3 +41,19 @@ Second rendering: But whatever kind of man he was, we hold this as certain about
 Ours: But whatever kind of man he was, this much about him we hold as certain. He left successors known for great self-control, for the love of God, and for life under a rule.
 Verdict: same
 Reason: Same meaning; "life under a rule" carries regularique institutione.
+
+## Release 50 fixes
+
+## 7. he left Ireland for Britain with twelve disciples (narrated paraphrase)
+Source: cic/texts/adomnan_life-of-saint-columba_huyshe1905.txt 2222-2225 (Huyshe's English; Adomnán's Latin is not held)
+Second rendering: Wishing to go on pilgrimage for Christ from Ireland to Britain, he sailed away.
+Ours: Then, in about 563, he left Ireland for Britain with twelve disciples.
+Verdict: same
+Reason: "From Ireland to Britain" carried exactly, with no "for good", which the held record contradicts (AU 5187-5188: at Druim Cett in 574). "A pilgrimage for Christ" follows in the next sentence, credited to Adomnán. The twelve are unchanged from the released text.
+
+## 8. a bishop of Iona's line defended it in the name of "our most reverend Father Columba and his successors" (narrated framing of a quotation)
+Source: cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt 8118-8125
+Second rendering: Colman answered: is it to be believed that our most reverend Father Columba and his successors, men beloved by God, who kept Easter in the same way, thought or acted against the divine writings?
+Ours: At the synod of Whitby in 664, a bishop of Iona's line defended it in the name of "our most reverend Father Columba and his successors".
+Verdict: same
+Reason: The quoted words are unchanged and verbatim. The new frame, "defended it [Iona's reckoning] in the name of" Columba and his successors, matches Colman's move: he defends the custom by the holiness of the men who kept it, Columba among them ("who kept Easter after the same manner"). It no longer makes the reckoning Columba's own invention.
