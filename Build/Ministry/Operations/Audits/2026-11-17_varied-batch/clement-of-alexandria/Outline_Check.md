@@ -39,3 +39,9 @@ Verbatim check: Q1 (ANF2 27489–27495), Q2 (ANF2 27890–27895) and the Q3 Engl
 - **Shape, length and its reason:** these fit a rich body of writing and a thin record of the life.
 - **Who tells it:** this states the century gap for Eusebius and the two-century gap for Jerome.
 - **Leave out:** this is sound. Nothing important from the sheet is wrongly left out.
+
+## Researcher's response
+
+All seven findings accepted and applied; checked against the files (EUSG 3052, NP3 40270–40272, EUS 34358–34359, ANF2 27889, 34509–34510).
+- 1: Alexander item recast as "a bishop who knew him, honoured him"; pupil claim marked Dominant Modern Reconstruction, card only; Links changed; "through these men" wording used. Q3 (Alexander) dropped as a quote: with κύριος as a courtesy title it no longer carries a job worth a quote, and "my lord" would mislead a modern listener. Replaced by Jerome, Letter 70.4 (JER 16626–16636), rendered from Fremantle's English. Impact re-ranked: Origen, Eusebius, Jerome, Alexander.
+- 2–7: applied as proposed (Q2 now "directly, as God's own gift").

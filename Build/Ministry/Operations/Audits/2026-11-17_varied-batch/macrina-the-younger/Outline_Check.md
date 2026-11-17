@@ -31,3 +31,22 @@ All three Greek quotes are verbatim against PG46, once the OCR corrections the s
 ## Researcher's response
 
 All five blocking findings and all five minor findings are applied (Outline.md; S2, M4 and I1 in Source_Sheet.md). One small correction to finding 7: the Greek bread clause sits at PG46 70301-70302, not 70300-70301 (70300 ends "μητρὸς ἐθεράπενεν"); both files cite 70301-70302.
+
+## Recheck
+
+A targeted recheck, 2026-11-17. I checked only what changed in Outline.md and Source_Sheet.md (S2, M4, I1), against the findings above and the source lines.
+
+1. **Resolved.** The setting is now "in Pontus, a region on the Black Sea, in what is now Turkey". The outline notes that the Iris is Gregory's placing for Naucratius and Clarke's for her. S2 now cites LIFE 144, 150 and 188 correctly, and S2's Clarke line is marked MODERN, "not in Gregory" (LIFE 78).
+2. **Resolved.** Impact 1 now says the dialogue "was also called by her name". I1's gloss matches PG46 556-564.
+3. **Resolved.** Impact 3 now says "slave women living as sisters" (LIFE 138, 158).
+4. **Resolved.** Impact 3 now says "an early picture of how such a house was run", which matches LIFE 84.
+5. **Resolved.** Beat 7 is checked against LIFE 234: the failed voice, the thanksgiving finished in her heart with hands and lips, the sign of the cross, the deep breath, and her life and prayer ending together.
+6-10. **Applied.** Each new wording matches its source.
+   - Beat 7 now carries Lampadia's framing, against LIFE 284.
+   - The new Quote 2 and Quote 3 renderings match the Greek at PG46 72082 and 71536.
+   - "As scholars date it" is added to the spoken line in Who tells it.
+   - The bread line: the researcher's correction is right. PG46 70300 ends "μητρὸς ἐθεράπενεν ... ζητου-"; the clause "καὶ ἐν τῷ ταῖς ἰδίαις / χερσὶ πολλάκις τῇ μητρὶ παρασκευάζειν τὸν ἄρτον" runs at 70301-70302. The M4 Greek and its OCR brackets are accurate.
+
+No new problems.
+
+**Final verdict: PASS**
