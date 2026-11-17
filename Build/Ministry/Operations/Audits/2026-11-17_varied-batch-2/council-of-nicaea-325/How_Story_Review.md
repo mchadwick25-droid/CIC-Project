@@ -115,3 +115,29 @@ The story runs to 228 words, against the outline's 150–220. The fixes above ad
 ## Shape (Council, how-it-decided slice)
 
 The story follows two voices, Eusebius and Athanasius, as the shape asks. It closes on what came of the council: Eusebius's claim, the record against it, and Athanasius's reading. It ends in the record's own words, with no moral. The story never names the dispute or Arius, which is acceptable because the main brief beside it carries both.
+
+## Recheck (round 2, 2026-11-17, final round)
+
+This round checks only the sentences that changed, against the outline and the sources. Readability: 238 words, grade 8.2, reading ease 74.0 with names left out, longest sentence 29 words. The check passes.
+
+**Mark's test, after hearing it once more**
+1. **Who or what:** the council of Nicaea in 325, told through Eusebius and Athanasius, two men who were there.
+2. **What happened:** the emperor opened the meeting and steered it. A phrase was added, and the bishops rewrote their words when their opponents slipped around plain Scripture. Each member signed, but a few held back. Then came a feast and the journey home.
+3. **Why it matters:** the faith was written down as "what the universal Church believes", not as a ruling that "seemed good". Athanasius used that wording to argue the creed was not new, and the agreement did not hold.
+
+On this hearing, nothing lost me.
+
+**Changed sentences**
+- **B-1, "so we hear how it decided from men who were there":** resolved. The sentence no longer claims these men are the only source.
+- **M-1, "For the date of Easter they wrote":** resolved. In the next clause, "they" is heard as the council, which "the council's defence" has just named.
+- **M-2, "the phrase 'of one being' was added":** resolved. This is a different fix from the one I suggested, and it is equally correct (H7, M5).
+- **M-3, "although other records show a few would not accept all of it":** supported. The synodal letter has Theonas and Secundus condemned with Arius (NC 6352–6355, checked). Eusebius of Nicomedia and Theognis say in their own letter, "we subscribed the declaration of faith; we did not subscribe the anathematizing" (SOC 3956–3957, checked). The doubt now belongs to the other records, not to Eusebius.
+- **M-4, "Athanasius, writing later in the council's defence":** resolved. The words moved to his second appearance, which also settles what "its" referred to.
+- **M-5, "the bishops first chose plain words from Scripture, but their opponents slipped around them, so they wrote again, more distinctly still":** this stays in Athanasius's voice. The sentence is framed by "Athanasius … says", and it matches his account in M6: the council wished "to use instead the acknowledged words of the Scriptures" (ATH 27875–27882), then the bishops discerned "their dissimulation" (ATH 28012–28013) and "were again compelled … to re-say and re-write" (ATH 28015–28017). "Slipped around" softens his "dissimulation". It does not adopt his charge as the narrator's own, and it does not add to it.
+- **M-7, "but listened, taking each side's points in turn":** supported by H5 (EUS 64505–64509).
+
+**Not changed:** M-6, "no new rule", was minor and is left as it was. It is not blocking.
+
+**Unsupported wording:** none.
+
+**Recheck verdict: PASS**
