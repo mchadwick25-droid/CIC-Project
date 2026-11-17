@@ -110,3 +110,37 @@ Trace for `Tacitus_retold.brief.txt`. The same record, told mostly in the narrat
 | 39 | But where Tacitus wrote of criminals, Sulpicius wrote of "the innocent." | Q8, Q18, D6(d) |
 
 Quotes in the retold version, all Rendering 1: Q4 (first sentence whole; "a deadly superstition"), Q6 (second sentence whole), Q8 (second sentence whole), Q9 ("truly the most talkative of liars"), Q18 ("the innocent"). Everything else from Q1–Q3, Q5, Q7 and Q11 is retold, not quoted.
+
+## Version 3
+
+Sentence trace for `Tacitus_v3.brief.txt`. Codes are the Writer Sheet's.
+
+| Sentence | Text | Sheet |
+|---|---|---|
+| 1 | Cornelius Tacitus was no friend of the Christians. | S1, S3 |
+| 2 | He was a Roman historian, and he called their faith "a deadly superstition." | S1, S7, Q4 |
+| 3–4 | Yet his Annals tell ... This is the story as he gives it. | S1, S4, S5, S7 |
+| 5–6 | Rome had burned ... vigils through the night. | M1, Q1, Q18 |
+| 7 | The emperor gave lavish gifts, but none of it drove out a dark belief. | Q2 |
+| 8 | People still thought the fire had been started by order, and the suspicion fell on Nero. | Q2 and its note, M2 |
+| 9–11 | To end the rumor ... "whom the common people called Christians." ... tortures devised with great care. | Q3 and its note, M3 |
+| 12 | Here Tacitus stops to explain the name, and he gives no source for what he says. | Q4, N1, D1(a) |
+| 13 | "Christus, from whom the name came ... Pontius Pilatus." | Q4, M4 |
+| 14–15 | That checked the faith for a moment ... even in Rome. | Q4, M5 |
+| 16–17 | The arrests came in two waves ... a huge number of people were convicted. | Q5, M6 |
+| 18 | "They were found guilty less of setting fire to the city than of hatred of the human race." | Q5 |
+| 19–21 | They died as a show ... burned as lights when daylight had gone. | Q6, M7 |
+| 22–23 | Nero offered his own gardens ... dressed as a chariot driver. | Q7 and its note, M8 |
+| 24–25 | To Tacitus they were still criminals ... pity arose for them. | Q8 and its note, M9 |
+| 26 | "For it seemed they were being destroyed ... one man's cruelty." | Q8 |
+| 27 | Only Tacitus tells of that pity. | M9 (single witness), N10 |
+| 28 | Christians did not forget Nero ... the first emperor to turn his sword on them. | M11, I1, Q11, Q16 |
+| 29 | Tertullian, a Christian writer, pointed the Romans to their own records for it. | Q11 |
+| 30–31 | He also answered Tacitus by name. Some Romans said ... an ass's head. | M10, I4, Q9, Q10 |
+| 32 | Tertullian traced that tale ... "truly the most talkative of liars." | Q9, Q10 |
+| 33 | Later Sulpicius Severus told the fire again ... the same three deaths in the same order. | M7, M12, I3, Q18 |
+| 34 | He added that Paul was beheaded then, and Peter raised on a cross. | Q18, D6(b) |
+| 35 | But where Tacitus saw criminals, Sulpicius saw "the innocent." | Q8, Q18, D6(d) |
+| 36 | Of those deaths he wrote, "That was how the savagery against the Christians began." | Q18 |
+
+Quotes in Version 3, all Rendering 1: Q3 ("whom the common people called Christians"), Q4 ("a deadly superstition"; first sentence whole), Q5 (third sentence whole), Q8 (second sentence whole), Q9 ("truly the most talkative of liars"), Q18 ("the innocent"; "That was how the savagery against the Christians began."). Everything from Q1, Q2, Q6, Q7 and Q11 is retold, not quoted. Spelling is American ("rumor").
