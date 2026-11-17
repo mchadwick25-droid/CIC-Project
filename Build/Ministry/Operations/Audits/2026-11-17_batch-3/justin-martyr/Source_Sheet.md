@@ -16,7 +16,7 @@ Abbreviations for files (all under `cic/texts/`):
 - **EPI** `epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt` (Greek, OCR, with Holl's apparatus)
 - **PHO** `photius_library-v1_freese1920.txt` (English)
 
-Witness kinds: **own** (Justin's own words); **contemporary** (Tatian, his hearer; the trial record, whose date is unknown); **later** with a rough gap; **late legend**.
+Witness kinds: **own** (Justin's own words); **contemporary** (Tatian, his hearer according to Irenaeus and Hippolytus); **later** with a rough gap, including the trial record: author and date unknown (McGiffert: probably third century), held in one text, Otto's, reprinted by Gebhardt, which came down through a tenth-century collection of saints' lives (Otto, `justin-martyr_opera-addubitata-grc-lat_otto1879.txt` 1836–1852); **late legend**.
 
 ---
 
@@ -48,7 +48,7 @@ ANF1 16810–16836 (English of the same).
 
 **S6. The charge of "atheism".** Own words. Documented. Christians were called godless (ἄθεοι) for not worshipping the gods; R1 186 opens chapter 6: "Ἔνθεν δὲ καὶ ἄθεοι κεκλήμεθα· καὶ ὁμολογοῦμεν τῶν …" (ANF1 chapter 6). Used in Q2 below.
 
-**S7. Where he taught in Rome.** Trial record (contemporary or near; date unknown). Widely Accepted as a near-record (see "Who tells it").
+**S7. Where he taught in Rome.** Trial record (later, unknown hand; see E11 and D7). That he lodged and taught at Rome: Widely Accepted. The names in the address are uncertain: the Greek reads "above one Martinus, of the bath of Timothinus"; the baths are not said to be Martinus's. Otto (editor), `justin-martyr_opera-addubitata-grc-lat_otto1879.txt` 25472–25489: "Verba τινὸς Μαρτίνου sunt offensioni"; he judges them a gloss written "in marg. codicis vel supra lineam" and reads "Ego deversor in caenaculo (sive in superiore contignatione) balnei Timothini" (I lodge in the upper storey of the bath of Timothinus).
 GEB 1347–1354: "Ἐγὼ ἐπάνω μένω τινὸς Μαρτίνου τοῦ Τιμοϑίνου βαλανείου καὶ παρὰ πάντα τὸν χρόνον τοῦτον (ἐπεδήμησα δὲ τῇ Ῥωμαίων πόλεν τοῦτο δεύτερον) [καὶ] οὐ γινώσχων ἄλλην τινὰ συνέλευσιν εἰ μὴ τὴν ἐχείνου. καὶ εἴ τις ἐβούλετο ἀφικνεῖσθαν παρ᾽ ἐμοί, ἐκοινώνουν αὐτῷ τῶν τῆς ἀληϑείας λόγων." (OCR; GEB apparatus at line 1364 notes the manuscripts read "τιμιοτίνου".)
 ANF1 29309–29312: "I live above one Martinus, at the Timiotinian Bath; and during the whole time (and I am now living in Rome for the second time) I am unaware of any other meeting than his. And if any one wished to come to me, I communicated to him the doctrines of truth."
 
@@ -100,7 +100,7 @@ No held source records any answer from the emperor.
 
 **E7. The Word shared by every race.** Own words, First Apology 46; Second Apology 10, 13. Documented. (Quote Q2.)
 R1 1230–1235: "Τὸν Χριστὸν πρωτότοκον τοῦ θεοῦ εἶναι ἐδιδάχθημεν καὶ προεμηνύσαμεν λόγον ὄντα, οἷ πᾶν γένος ἀνθρώπων μετέσχε. Καὶ οἱ μετὰ λόγου βιώσαντες Χριστιανοί εἰσι, κἂν ἄθεοι ἐνομίσθησαν, οἷον ἐν Ἕλλησι μὲν Σωκράτης καὶ Ἡράκλειτος καὶ οἱ ὅμοιοι αὐτοῖς, ἐν βαρβάροις δὲ Αβραὰμ καὶ Ἀνανίας καὶ Ἀζαρίας καὶ Μισαὴλ καὶ Ἡλίας καὶ ἄλλοι πολλοί" ("οἷ" is the file's typo for οὗ.)
-ANF1 15692–15696 (English, from "are Christians, even though they have been thought atheists").
+ANF1 15685–15696 (English, from "first-born of God" at 15685; from "are Christians, even though they have been thought atheists").
 R2 332–337 (Second Apology 10): "Σωκράτει μὲν γὰρ οὐδεὶς ἐπείσθη ὑπὲρ τούτου τοῦ δόγματος ἀποθνήσκειν· Χριστῷ δέ … οὐ φιλόσοφοι οὐδὲ φιλόλογοι μόνον ἐπείσθησαν, ἀλλὰ καὶ χειροτέχναι καὶ παντελῶς ἰδιῶται, καὶ δόξης καὶ φόβου καὶ θανάτου καταφρονήσαντες"
 R2 405–408 (Second Apology 13): "Ἕκαστος γάρ τις ἀπὸ μέρους τοῦ σπερματικοῦ θείου λόγου τὸ συγγενὲς ὁρῶν καλῶς ἐφθέγξατο … Ὅσα οὖν παρὰ καλῶς εἴρηται, ἡμῶν τᾶν Χριστιανῶν ἐστι". The file drops a word here (standard text "παρὰ πᾶσι"); ANF1 17235–17236 reads "Whatever things were rightly said among all men, are the property of us Christians." Not used as a quote because the held Greek is defective at this point.
 
@@ -120,7 +120,7 @@ R2 283–285: he says he questioned Crescens and proved "ὅτι ἀληθῶς 
 R2 292–293: "Ἀδύνατον δὲ Κυνικῷ. ἀδιάφορον τὸ τέλος προθεμένῳ, τὸ ἀγαθὸν εἰδέναι πλὴν ἀδιαφορίας."
 ANF1 16849–16851: "I too, therefore, expect to be plotted against and fixed to the stake, by some of those I have named, or perhaps by Crescens, that lover of bravado and boasting".
 
-**E11. The trial before Rusticus.** Trial record (Acts of Justin). Widely Accepted as near-record; its date is unknown. GEB is OCR: Greek below is copied as it stands (line breaks joined, hyphens kept as in the file); the English twin is ANF1 (tr. Dods).
+**E11. The trial before Rusticus.** Trial record (Acts of Justin): later, unknown hand, set out as question and answer. Core facts (Rusticus, the refusal, the beheading) Widely Accepted; the wording of the exchanges belongs to the record. One text only is held (see D7). GEB is OCR: Greek below is copied as it stands (line breaks joined, hyphens kept as in the file); the English twin is ANF1 (tr. Dods).
 GEB 1300–1303 (I.1): "Ἐν τῷ καιρῷ τῶν ἀνόμων ὑπερμάχων τῆς εἰδωλο- λατρδίας προστάγματα ἀσεβῆ κατὰ τῶν εὐσεβούντων Χριστιανῶν χατὰ πόλιν χαὶ χώραν ἐξετίϑετο, ὥστε αὐτοὺς ἀναγκάζεσθαι σπένδειν τοῖς ματαίοις εἰδώλοις." ANF1 29266–29269: "wicked decrees were passed against the godly Christians in town and country, to force them to offer libations to vain idols".
 GEB 1309–1311 (II.1–2): "Πρῶτον πείσϑητι τοῖς ϑεοῖς καὶ ὑπάκουσον τοῖς βασιλεῦσιν. 2. Ἰουστῖνος einer "Ausurerov xoi ἀκατάγνωστον τὸ πείϑεσθαι τοῖς προσταχ-" ANF1 29271–29274: "Obey the gods at once, and submit to the kings." … "To obey the commandments of our Saviour Jesus Christ is worthy neither of blame nor of condemnation."
 GEB 1315–1317 (II.3): "Ἰουστῖνος eine‘ Πάντας μὲν λόγους ἐπειράϑην μαϑεῖν, συνεϑέμην δὲ τοῖς ἀληϑέσι λόγοις τοῖς τῶν Χριστιανῶν, x&v μ᾽ ἀρέσχωσι τοῖς ψευδοδόξοις." ANF1 29276–29278: "I have endeavoured to learn all doctrines; but I have acquiesced at last in the true doctrines, those namely of the Christians, even though they do not please those who hold false opinions."
@@ -159,7 +159,7 @@ Year: about 165. Dominant Modern Reconstruction, resting on McGiffert (editor), 
 - McGiffert (editor), EUS 23764–23766: "That Justin died a martyr's death is the universal tradition of antiquity, which is crystallized in his name. Irenæus (Adv. Hær. I. 28. 1) is the first to mention it".
 
 **I3. His hearers.** Contemporary and later. Documented.
-- Tatian (his hearer, writing perhaps 10–20 years after; rough), TAT 7956–7957 (Address to the Greeks 18; OCR): "καὶ ὅ ϑαυμασιώτατος Ἰουστῖνος ὀρθῶς ἐξεφιρόνησεν ἐοικέναι τοὺς προειρημένους λῃσταῖς." ANF2 6526–6531: "And the most admirable Justin has rightly denounced them as robbers."
+- Tatian (his hearer according to Irenaeus and Hippolytus, both later; Tatian himself does not say he heard Justin, or where; writing perhaps 10–20 years after, rough), TAT 7956–7960 (Address to the Greeks 18; OCR; the robbers-and-ransom comparison continues to 7960, ANF2 6526–6533): "καὶ ὅ ϑαυμασιώτατος Ἰουστῖνος ὀρθῶς ἐξεφιρόνησεν ἐοικέναι τοὺς προειρημένους λῃσταῖς." ANF2 6526–6531: "And the most admirable Justin has rightly denounced them as robbers."
 - Tatian, TAT 8105–8111 (Address 19; OCR): "Κρίσκης οὖν, 6 ἐννεοττεύσας δτῇ μεγάλῃ πόλει, © … ὡς καὶ Ἰουστῖνον, καθάπερ καὶ ἐμέ, "ὡς κακῷ τῷ ϑανάτῳ περιβαλεῖν πραγματεύσασθαι, διότε κηρύττων τὴν ἀλήϑειαν Ἰολίχνους καὶ ἀπατεῶνας τοὺς φιλοσόφους συνήλεγχεν." ANF2 6550–6556.
 - Irenaeus, ANF1 33663–33667 (Against Heresies I.28.1): "A certain man named Tatian first introduced the blasphemy. He was a hearer of Justin's, and as long as he continued with him he expressed no such views; but after his martyrdom he separated from the Church, and, excited and puffed up by the thought of being a teacher, as if he were superior to others, he composed his own peculiar type of doctrine." (Hostile witness to Tatian.)
 - Hippolytus (early 3rd c.), ANF5 13005–13006: Tatian, "although being himself a disciple of Justinus the Martyr, did not entertain similar opinions with his master."
@@ -173,8 +173,8 @@ Year: about 165. Dominant Modern Reconstruction, resting on McGiffert (editor), 
 
 ## 4. Links to other people
 
-- **Tatian** (on the tree): heard him teach (Irenaeus, ANF1 33664; Hippolytus, ANF5 13005); calls him "most admirable" and says Crescens tried to have both killed (TAT 7956, 8105–8109).
-- **Irenaeus of Lyon** (on the tree): quoted his book against Marcion (ANF1 44907–44914); quoted him on Satan (ANF1 53355); first to mention his martyrdom (ANF1 33665, per McGiffert EUS 23765).
+- **Tatian** (on the tree): heard him teach, according to Irenaeus (ANF1 33664) and Hippolytus (ANF5 13005), both later; Tatian calls him "most admirable", repeats his demons-as-robbers teaching (TAT 7956–7960) and says Crescens tried to have both killed (TAT 7956, 8105–8109).
+- **Irenaeus of Lyon** (on the tree): quoted his book against Marcion (ANF1 44907–44914); quoted him on Satan (ANF1 53355); first to mention his martyrdom, in McGiffert's judgment as editor (EUS 23765; ANF1 33665).
 - **Marcion of Pontus** (on the tree): wrote against him while Marcion was still teaching (R1 729–731).
 - **Tertullian** (on the tree): named him "philosopher and martyr" (ANF3 43162).
 - **Hippolytus of Rome** (on the tree): called Tatian "a disciple of Justinus the Martyr" (ANF5 13005).
@@ -215,7 +215,7 @@ Year: about 165. Dominant Modern Reconstruction, resting on McGiffert (editor), 
 
 **D6. One apology or two.** McGiffert (editor), EUS 22600–22601: "he really wrote only one Apology"; Eusebius and Jerome speak of a second addressed to Marcus Aurelius and Lucius Verus (EUS 23756–23762; JER 39977–39979). The held Greek prints two (R1, R2). Contested.
 
-**D7. Date and nature of the Acts.** Unknown date and author (Dods, ANF1 29216–29218). McGiffert (editor), EUS 23767–23771: "although belonging to a later age (probably the third century), yet bear every evidence of containing a comparatively truthful account of Justin's death." The corpus-map/census note that the Acts survive in three recensions rests on Musurillo (1972), which is not held. Gebhardt prints one text, from Otto (GEB 209).
+**D7. Date and nature of the Acts.** Unknown date and author (Dods, ANF1 29216–29218). McGiffert (editor), EUS 23767–23771: "although belonging to a later age (probably the third century), yet bear every evidence of containing a comparatively truthful account of Justin's death." The corpus-map/census note that the Acts survive in three recensions rests on Musurillo (1972), which is not held. Gebhardt prints one text, from Otto (GEB 209). Otto's prolegomena (`justin-martyr_opera-addubitata-grc-lat_otto1879.txt` 1836–1852) say the text came from a Grottaferrata manuscript of the Lives of the Saints of Symeon Metaphrastes ("saec. X"), a collection "partim collectas et sine ulla muta- tione.adoptatas … partim conseriptas vel interpolatas" (OCR as it stands, 1848–1852: partly gathered unchanged, partly composed or interpolated); first printed in Greek by Papebroch in the Acta Sanctorum, June vol. 1, 1695 (1868–1875); a Vatican copy, Vat. 655 (1905). Otto judges part of the title "aetatis est posterioris" (1945–1950). No beat can be placed in a particular recension.
 
 **D8. Works under his name that are not his.** The Hortatory Address, the Discourse to the Greeks, On the Sole Government of God, and the Letter to Diognetus are held under his name but treated as not his: `cic/corpus-map/greek-apologists-second-century.yaml` 262–347 (bucket notes, citing Harnack and Otto); `justin-martyr_opera-addubitata-grc-lat_otto1879.txt`; `pseudo-justin_epistle-to-diognetus-grc_lake1917.txt`. Not used.
 
@@ -228,12 +228,12 @@ Year: about 165. Dominant Modern Reconstruction, resting on McGiffert (editor), 
 - `cic/corpus-map/greek-apologists-second-century.yaml` (the census `toldWithin` bucket) and `post-apostolic-house-church.yaml` (the other bucket holding his works), plus a grep of every bucket for Justin name forms (most other hits were Justinian, Justin I/II or Justina). `UNATTRIBUTED.yaml` (2110–2116 `justin_martyr`; 2536–2542 `martyrdom_of_justin`, anonymous). `AUTHOR-IDS.yaml`, `WORKS.yaml` and `RETRIEVAL-HINTS.md` hold no Justin-specific name-form entry beyond the `justin_martyr` author id.
 - `cic/texts/` (2,468 files): a broad grep for Justin / Iustinus / Ἰουστῖνος forms found 497 files, most of them about the emperors Justin and Justinian. A narrow grep ("Justin Martyr", "philosopher and martyr", "St. Justin", "Iustinus martyr", "Justin the philosopher" and similar) found 149 files.
 
-**Used.** R1, R2, AR (his own Greek); ANF1 (English cross-check, the Martyrdom, Irenaeus); GEB (Greek of the Acts); TAT and ANF2 (Tatian); EUS (Eusebius, with McGiffert's notes marked as his); ANF3 (Tertullian); ANF5 (Hippolytus); JER (Jerome); EPI (Epiphanius, with Holl's apparatus); PHO (Photius); `roman-missal_england1843.txt` (modern editor's use).
+**Used.** R1, R2, AR (his own Greek); ANF1 (English cross-check, the Martyrdom, Irenaeus); GEB (Greek of the Acts); TAT and ANF2 (Tatian); EUS (Eusebius, with McGiffert's notes marked as his); ANF3 (Tertullian); ANF5 (Hippolytus); JER (Jerome); EPI (Epiphanius, with Holl's apparatus); PHO (Photius); `roman-missal_england1843.txt` (modern editor's use); `justin-martyr_opera-addubitata-grc-lat_otto1879.txt` (Otto's prolegomena and notes on the Acts, 1836–1950 and 25455–25495).
 
 **Set aside, and why.**
 - `gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.txt`: a second scan of Gebhardt whose Greek is Latin-letter noise; GEB is used instead.
 - `goodspeed_aeltesten-apologeten-grc-lat-deu_1914.txt`: Greek is OCR noise (its own header); the hand-keyed R1/R2/AR are better.
-- `justin-martyr_opera-addubitata-grc-lat_otto1879.txt`, `pseudo-justin_epistle-to-diognetus-grc_lake1917.txt`, and the ANF1 Hortatory Address, Discourse, Sole Government and resurrection fragments: not his, or doubtful (D8).
+- `justin-martyr_opera-addubitata-grc-lat_otto1879.txt` for the doubtful works themselves (its Acta prolegomena and notes are used, above), `pseudo-justin_epistle-to-diognetus-grc_lake1917.txt`, and the ANF1 Hortatory Address, Discourse, Sole Government and resurrection fragments: not his, or doubtful (D8).
 - `apologists-fragmentary_reliquiae-corpus-apologetarum-vol9-grc-lat_otto1872.txt`, `apologists-fragmentary_reliquiae-sacrae-vol1-lat-grc_routh1846.txt`, `john-damascus_opera-omnia-t1-with-vita-pg94-grc-lat_migne1860.txt`: fragments and later florilegia; nothing the story needs beyond what Irenaeus already gives.
 - `epiphanius_panarion-haer-65-80-pg42-grc-lat_migne1863.txt` 65681: the same Tatian notice in a second edition; Holl used.
 - `npnf207`, `npnf101`, `npnf214`, `npnf108`, `npnf113`, `npnf208`, `npnf210`, `anf04`, `anf06`, `anf07`, `anf08`, `anf09`: mostly modern editors' footnotes citing Justin for comparison, not ancient witnesses.
