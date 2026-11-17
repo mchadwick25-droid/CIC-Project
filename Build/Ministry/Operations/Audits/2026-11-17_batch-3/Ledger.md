@@ -50,3 +50,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | justin-martyr | outline recheck | Opus, low effort | 100,815 | FIX on one leftover label (I2 "Contemporary record"); M1 decline upheld |
 | justin-martyr | label fix | Opus (same researcher, resumed) | 298,557 cumulative (about 600) | I2 relabelled; checked by the coordinator: PASS |
 | third-council-of-toledo-589 | outline recheck | Opus, low effort | 102,924 | PASS |
+| council-of-chalcedon-451 | outline fix | Opus (same researcher, resumed) | (count on notification) | 5 blocking and 7 minor made; Outline.v1.md kept |
