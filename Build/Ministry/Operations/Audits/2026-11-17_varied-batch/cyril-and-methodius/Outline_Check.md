@@ -42,3 +42,22 @@ I checked the outline on its own terms. I reopened the cited lines in VC, GZ (VM
 ## Researcher's response
 
 All ten findings accepted and applied; no disagreements. One correction to finding 10: Ginzel's 14th-century dating of the Old Russian text of VM is at GZ 1555–1556, not 1551–1553; the sheet and outline cite those lines.
+
+## Recheck
+
+This is a targeted recheck. I looked only at what changed in Outline.md and Source_Sheet.md, and checked it against findings 1–10 and the source lines.
+
+**Verdict: PASS**
+
+- **Finding 1 (BLOCKING): resolved.** Beat 6 now says "had partly cheapened in the people's eyes the Masses and Gospels of the priests who held them in Latin". That matches CONV *vilescere fecit cuncto populo ex parte* (GZ 13641–13643 and 13662–13663).
+- **Finding 2 (BLOCKING): resolved.** "So" is gone from beat 1. The beat now says "The Lives call him 'Constantine the Philosopher'", which matches VC 19555 and 19659.
+- **Finding 3: resolved.** Beat 1 now says "a mountain of monks called Olympus", with no location given.
+- **Finding 4: resolved.** Beat 7 now says the 879 letter "repeated an earlier ban", which matches J8 13799–13802. The new phrase "He could still preach in it" also holds. The letter gives the language ban and then *Predicare vero, aut sermonem in populo facere tibi licet* (J8 13804–13805), so preaching stays allowed.
+- **Finding 5: resolved.** Beat 7 now says "in front of the pope's own bishops".
+- **Finding 6: resolved.** Beats 4–7 now carry confidence labels, and they are correct.
+- **Finding 7: resolved.** Q3 now reads "also himself created". All three quotes are unchanged and still match the files word for word.
+- **Finding 8: resolved.** Opening (a) now asks "who can write words on water, and who wants to be called a heretic?". That fits VC 20227–20228 (*quis vult haeretici sibi nomen comparare*).
+- **Finding 9: resolved.** Only Q1–Q3 remain as quotes, so the cap of three holds. Impact items 1 and 3 are now marked paraphrase, and the short quoted phrases in them are fine.
+- **Finding 10: resolved.** The researcher's line correction is right. Ginzel's 14th-century dating is at GZ 1555–1556, not at the 1551–1553 I gave. Outline and sheet both now cite it correctly.
+
+**One new MINOR point, which does not block.** Impact item 3's paraphrase says the writing "was made for the Moravians". The source is RPC 7868–7873: "It was for these peoples that Moravian books were first written". There, "these peoples" covers the Moravians, Czechs, Lyakhs and Polyanians. Suggested wording: "was first written for the Moravians and their neighbouring Slavs".
