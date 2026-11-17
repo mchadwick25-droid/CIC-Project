@@ -4315,3 +4315,11 @@ The narration voices are now:
 - Cyril and Methodius's missing person entry is a separate decision for Mark.
 
 **Cards: reuse, then links later (Mark, 2026-11-17).** Mark: "over 200 have cards, use what is good, modify to meet the new standard. be efficiant. we can do the actual links later when all the who and counsils are done." The connections build was stopped before it changed any file; the connections ruling above stands and is carried out once every Who and council brief is written. `Brief-Kit/Process.md` gains step 6, the card, and `Brief-Kit/roles/card.md` is its prompt: start from the existing card, keep what is good, change only what the finished brief and its source sheet require, and check every changed claim and quote. The twelve cards of the two varied batches are refreshed this way, four at a time.
+
+## 2026-11-17 — Cards: flag a claim you cannot find, don't delete it (Mark, 2026-11-17)
+
+**Why.** In the twelve-card refresh, two card writers took a failed search as proof a claim was unsupported and deleted it: Columba's birth-year claim (held in Stokes's Lismore file, lines 24009–24012) and three Cyril and Methodius claims (held in Ginzel, GZ 3245–3249, 6170–6173, 1817–1820). The checkers found them and they were restored. A deletion of approved text is silent unless someone compares the old card with the new.
+
+**Decided (Mark, 2026-11-17): "yes, make that change".**
+- `Brief-Kit/roles/card.md`, rule 1, is rewritten: correct any claim the source sheet contradicts; "If you cannot find support for a claim, leave it in place and list it in your reply as not found; the checker decides whether it stays." The reply now names the claims not found, not the claims removed.
+- `Brief-Kit/Process.md`, step 6: the checker "rules on each claim the writer flagged as not found".
