@@ -152,7 +152,7 @@ Year: about 165. Dominant Modern Reconstruction, resting on McGiffert (editor), 
 - Jerome (392, ~225 years), JER 39971–39997 (Lives of Illustrious Men 23): lists the works; "laboured strenuously in behalf of the religion of Christ … and did not shun the ignominy of the cross".
 - Photius (9th c., ~700 years), PHO 11699–11718 (Library, codex 125): "He is thoroughly versed in our own and especially in heathen philosophy, overflowing with learning of all kinds and a wealth of historical knowledge; but he has not endeavoured to colour the natural beauty of his philosophy by rhetorical arts."
 
-**I2. His death was kept as a record and became his name.** Contemporary record plus later. Documented that the record was kept; "Martyr" as name is the editor's observation.
+**I2. His death was kept as a record and became his name.** Later record (the trial record: author and date unknown; one text, Otto's, from a single manuscript) plus later witnesses. Documented that the record was kept; "Martyr" as name is the editor's observation.
 - The Acts themselves (GEB 1285–1441; ANF1 29253–29408).
 - Tertullian's "philosopher and martyr" (ANF3 43162–43163).
 - Eusebius IV.16.1, EUS 23756–23799: "Justin … was crowned with divine martyrdom, in consequence of a plot laid against him by Crescens … After Justin had frequently refuted him in public discussions he won by his martyrdom the prize of victory, dying in behalf of the truth which he preached."

@@ -19,3 +19,7 @@
 - **M12.** Made (EUS 23765).
 - **M13.** Made (ANF1 29209–29211).
 - **New in the revision:** nothing wrong found.
+
+## The leftover label, checked (2026-11-17)
+
+Checked by the batch coordinator, who wrote neither the outline nor the check. I2 in `Source_Sheet.md` now reads "Later record (the trial record: author and date unknown; one text, Otto's, from a single manuscript) plus later witnesses", and no "Contemporary record" remains in the sheet. **PASS.**
