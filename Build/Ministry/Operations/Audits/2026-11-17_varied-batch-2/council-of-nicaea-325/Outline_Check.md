@@ -79,3 +79,51 @@ No finding.
 
 **Researcher's response** (to Outline_Check.md, 2026-11-17)
 - All thirteen findings accepted and applied. One citation adjusted: finding 13's "failed to produce its due effect" is at EUS 64268–64269, so the beat cites EUS 64267–64272. The year 359 for Rimini is the editor's (JER 32284).
+
+## Re-thread check (2026-11-17, targeted: new or changed material only)
+
+**Verdict: PASS.** No blocking findings.
+
+**New source lines, checked word for word**
+- **K1** matches EUS 64218–64223 and 64227–64229.
+- **K2** matches EUS 64241–64243, 64247–64249 and 64258–64262, and NC 6463–6464.
+- **K3** matches EUS 64267–64272.
+- **M14 canons** match:
+  - canon 4: NC 3115–3118, with the omission marked
+  - canon 5: NC 3226–3227
+  - canon 11: NC 4124–4128
+  - canon 13: NC 4504–4506
+  - canon 15: NC 4747–4748
+  - canon 17: NC 5001–5006
+- **I5 Antioch** matches NC 9438–9444 and 9444–9452. The heading "a.d. 341" is at NC 9295.
+
+**Thread and beats**
+- **Thread.** It is supported. Eusebius names both troubles, Egypt and Easter, before the summons (K1–K3). The council's letter takes up the faith, then Melitius, then Easter (NC 6338–6406). The "twenty" rules are at NC 32544–32545.
+- **Beat 1.** It holds. The strife in Egypt, the insulted statues and the fasting-while-feasting image are all in Eusebius. The note that the "Theban and Egyptian schism" must not be joined to Melitius is right: Eusebius does not name it.
+- **Beat 6.** It holds. Melitius is limited as in NC 6362–6377. Easter is kept "with the Romans and yourselves" (NC 6405), and the letter is addressed to Alexandria.
+- **Canons (beat 7, Do not say).** They are described rightly:
+  - making a bishop
+  - councils twice a year in every province
+  - mercy with years of penance for those who fell under Licinius "without compulsion"
+  - the viaticum for the dying
+  - clergy deposed for taking usury
+  
+  These are all rules of church order, as Do not say says. The canon 6 line ("side by side; do not rank them") matches NC 3405–3409.
+
+**Easter and Constantine's contempt for the Jews**
+It fits "witnessed, not carried forward":
+- The council's decision is credited to the council (NC 6402–6406).
+- The contempt is placed in Constantine's letter, credited to him, never quoted and never voiced by the narrator. This is covered by Leave out and two Do not say lines.
+- The reason offered for telling is Eusebius's neutral fasting-and-feasting image (K2). That image is in Constantine's letter too (NC 6463–6464), so using it carries nothing hostile.
+
+**Antioch 341**
+- The claim is supported: the canon threatens to excommunicate anyone who sets aside Nicaea's Easter decree, and to depose clergy who keep Easter "with the Jews". It is rightly marked as the editor's date.
+- See MINOR R4 below on a date dispute.
+
+**Connection field**
+- Each tie is supported at its lines: Constantinople and Chalcedon (NC 13970–13972, 20217–20220), Carthage (NC 32523–32545, and the appeals dispute at 32488–32512), Persia (MAR 857–866) and Antioch (NC 9438–9452).
+- "Accepted them under oath" is a fair reading of "unter einem Anathem" for spoken English. The line says to tell it as Braun's report, which keeps the witness.
+
+**MINOR (non-blocking)**
+- **R3.** Leave out says canons "4, 5, 11, 13, 15 and 17 are now in beat 7", but beat 7 does not include canon 15 (clergy moving from city to city). It appears only in Do not say. **Correction:** either add "clergy forbidden to move from city to city" to beat 7, or drop 15 from the Leave out note.
+- **R4.** The editor's introduction to Antioch says "we know the exact date". It also reports a theory, which Hefele rejects, that the canons came from an earlier synod in 332 (NC 9298–9435). "Sixteen years on (341, editor's date)" is therefore acceptable as worded. Do not harden it to "exactly sixteen years later".

@@ -82,3 +82,5 @@ End there: on Carthage reading the copy aloud, or on the later councils setting 
 - Constantine's anti-Jewish invective in the Easter letter: not quoted, not paraphrased into the narrator's voice; if mentioned, credited to Constantine.
 - The Latin signature lists (C4): of doubtful authenticity.
 - Paphnutius and Spyridon, Nicholas, Arius's death: not in the held lines used here, or later legend.
+
+- **Do not say** (from the re-thread check, 2026-11-17): do not give the Antioch council's year as settled. The editor dates it to 341, and his own introduction gives 332 as another date. Say "a later council at Antioch", or "in 341, by the editor's date".
