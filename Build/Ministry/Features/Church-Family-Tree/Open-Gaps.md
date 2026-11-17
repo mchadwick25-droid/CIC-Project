@@ -3810,3 +3810,12 @@ it, never by deleting it.
     - The Origen, Athanasius and Evagrius files have OCR faults in quoted words.
     - Two file names hide what they hold. The PG 50 Chrysostom file names only the homily on Lucian but holds the homily on Ignatius. The Origen tomus 5 file names Matthew but holds the Homilies on Luke.
     No file was changed. The sheet marks the editors' faults as card notes, and the renderings were made from corrected readings. To do: correct the headers and file descriptions where the registry allows. Owner: the Library thread.
+
+313. **Cyril and Methodius brief: one sentence held for Mark (2026-11-17).** The varied first batch (Decision-Log, "A new way to make briefs", 2026-11-17) gives each brief one revision; a brief that still fails comes to Mark. The Cyril and Methodius brief's recheck (`Build/Ministry/Operations/Audits/2026-11-17_varied-batch/cyril-and-methodius/Review.md`, "Recheck") found one BLOCKING sentence left: the gloss "he served them in their own language", the writer's own reading, not in the outline. The reviewer's replacement: It calls Clement "the first bishop of the Bulgarian tongue". Because Bulgarian priests could barely follow Greek, he wrote them plain sermons for every feast. Three MINOR wording fixes are in the same section. The brief is unchanged until Mark rules. Owner: the coordinator.
+
+314. **What the varied first batch showed about the kit (2026-11-17).** Found across all six briefs of `Build/Ministry/Operations/Audits/2026-11-17_varied-batch/`; each point is for Mark when he reads the batch.
+    - Grade: five of six land at grade 6.2 to 7.7, under the 8 to 9 aim; only Cyril and Methodius reaches 8.1. Every reviewer judged the low ones plain rather than flat by the listener read.
+    - Length: none meets its outline's word target. They run 352 to 463 words (about 2:20 to 3:05); writers report they could not reach the target without dropping a beat the outline gave them.
+    - Impact share: three briefs first drafted under a third (Radegund about a fifth, Clement and Cyril and Methodius about 26 to 28%); revision brought each to about 27 to 38%.
+    - The checks caught real faults: every outline had at least one BLOCKING finding against the source texts, and four of six briefs had one (an invented "as a young man", a wonder told in the narrator's voice, a death scene never told, an opening never tied back in).
+    Owner: the coordinator, with Mark.
