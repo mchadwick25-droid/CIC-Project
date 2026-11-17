@@ -29,3 +29,5 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | narsai | outline fix | Opus (same researcher, resumed) | 307,982 cumulative (about 14,200 for the fix) | 4 blocking and 7 minor made; Outline.v1.md kept |
 | john-wyclif | outline fix | Opus (same researcher, resumed) | 264,347 cumulative (about 7,000 for the fix) | 1 blocking and 11 minor made; one Shirley citation re-cited to the right lines; Outline.v1.md kept |
 | arius | outline check | Opus | 156,852 | FIX: 4 blocking, all on the witness line, two of them leaning his way (his side's denial as the narrator's verdict; his death softened), 10 minor. Back to the researcher |
+| narsai | outline recheck | Opus, low effort | 94,311 | PASS |
+| baudonivia | outline fix | Opus (same researcher, resumed) | 260,185 cumulative (about 12,700 for the fix) | 1 blocking and all minor made; Caesarius lines re-cited; Outline.v1.md kept |
