@@ -86,7 +86,7 @@ M17. **Caedmon.** Caedmon chapter: "'T^HERE [read There] was in this abbess's mo
 
 M18. **Hild receives Caedmon.** "In the morning he came to the steward, his superior, and having acquainted him with the gift he had received, was conducted to the abbess, by whom he was ordered, in the presence of many learned men, to tell his dream, and repeat the verses, that they might all give their judgment what it was, and whence his verse proceeded. They all concluded, that heavenly grace had been conferred on him by our Lord. They expounded to him a passage in holy writ, either historical, or doctrinal, ordering him, if he could, to put the same into verse. Having undertaken it, he went away, and returning the next morning, gave it to them composed in most excellent verse ; whereupon the abbess, embracing the grace of God in the man, instructed him to quit the secular habit, and take upon him the monastic life ; which being accordingly done, she associated him to the rest of the brethren in her monastery, and ordered that he should be taught the whole series of sacred history" (HE 11196–11218). Latin: "Undo [read Unde] mox abbatissa amplexata gratiam Dei in uiro, saecularem illum habitum relinquere, et monachicum suscipere jDropositum [read propositum] docuit" (HEL 25241–25243). LATER. Documented. Note: the steward brought him; the learned men judged; then she acted. Bede does not date this. The "[a.d. 680.]" on the chapter heading is the editor's (HE 11137).
 
-M19. **What Caedmon then sang.** "Thus Cædmon, keeping in mind all he heard, and as it were chewing the cud, converted the same into most harmonious verse ; and sweetly repeating the same, made his masters in their turn his hearers. He sang the creation of the world, the origin of man, and all the history of Genesis" (HE 11219–11224; OCR "C^dmon"), then Exodus, the life of Christ, the apostles, the judgment (HE 11224–11233). LATER. Documented.
+M19. **What Caedmon then sang.** "Thus C^dmon [read Cædmon], keeping in mind all he heard, and as it were chewing the cud, converted the same into most harmonious verse ; and sweetly repeating the same, made his masters in their turn his hearers. He sang the creation of the world, the origin of man, and all the history of Genesis" (HE 11219–11224), then Exodus, the life of Christ, the apostles, the judgment (HE 11224–11233). LATER. Documented.
 
 M20. **Six years of fever.** "Falling into a fever, she fell into a violent heat, and was afflicted with the same for six years continually ; during all which time she never failed either to return thanks to her Maker, or publicly and privately to instruct the flock committed to her charge" (HE 11045–11050). LATER. Documented.
 
@@ -112,15 +112,15 @@ I6. **What she defended.** **DEFENDED:** at the synod of 664 she and her people 
 
 ## 4. Links to other people
 
-L1. **Edwin, king of Northumbria.** Kin: her great-uncle (M1). Took the faith with him (M2). Buried at her monastery (HE 7782–7784).
+L1. **Edwin, king of Northumbria.** Kin: her great-uncle (M1). Took the faith with him (M2). Buried at her monastery (HE 7781–7785).
 L2. **Paulinus, first bishop of the Northumbrians.** She took the faith at his preaching (HE 10902–10904). Label: *heard him preach*.
 L3. **Aidan, bishop of Lindisfarne.** Called her home, gave her land on the Wear, visited and taught her (HE 10943–10945; HEL 24866–24867). Label: *taught her*.
 L4. **Heresuid (Hereswith), her sister.** A nun at Cale; Hild meant to follow her (M4). Label: *kin*.
-L5. **Heiu.** Founded Heruteu before her, "the first woman" in Northumbria to take the nun's habit (HE 10934–10937). Label: *came after her as abbess*.
+L5. **Heiu.** Founded Heruteu before her, "the first woman" in Northumbria to take the nun's habit (HE 10934–10937). Label: *Hild followed her as abbess*.
 L6. **Oswy, king of Northumbria, and Elfleda his daughter.** Oswy gave Elfleda to her at Heruteu (M7); Elfleda was her pupil, later a teacher and head at Whitby (I3). Labels: *received his daughter*; *taught her*.
 L7. **Colman, bishop of Lindisfarne.** Hild was on his side at the synod (M14). Label: *sided with him*.
 L8. **Wilfrid of Ripon.** Argued against her side at the synod (M14–M15). Label: *opposed at the synod*. (See D5.)
-L9. **The five bishops from her house:** Bosa, Hedda/Aetla, Oftfor, John, Wilfrid (I1). Label: *came from her house*. This Wilfrid is a later man, made bishop of York by John (HE 12538–12541), not Wilfrid of Ripon, who was a priest already in 664 (HE 7964–7965) and bishop at Hexham while John was still alive (HE 12255–12260).
+L9. **The five bishops from her house:** Bosa, Hedda/Aetla, Oftfor, John, Wilfrid (I1). Label: *came from her house*. This Wilfrid is, on my reading of Bede's lines, a later man (Widely Accepted), made bishop of York by John (HE 12538–12541), not Wilfrid of Ripon, who was a priest already in 664 (HE 7964–7965) and bishop at Hexham while John was still alive (HE 12255–12260).
 L10. **Cedd, bishop.** On her side at the synod, and interpreter for both parties; changed after (HE 7967–7970, 8233–8236). Label: *sided with her, then changed*.
 L11. **Caedmon.** Received into her monastery at her order (M18). Label: *received him*.
 L12. **Bede.** Wrote her life (HE 10888–11131). Label: *wrote her life*.

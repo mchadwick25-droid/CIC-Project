@@ -94,5 +94,3 @@ All references are to `Source_Sheet.md` in this folder (S = setting, M = life ev
   - The mercy-to-the-devil passage (I5). It is wrapped in a demon's voice and was disputed by later readers.
   - Modern verdicts on the miracles (D8). These go on the card.
   - Church counts and village names in modern France (Brehaut's note). Modern, and card only.
-
-- **Researcher's response (check of 2026-11-17):** All three BLOCKING and all six MINOR findings are accepted. Each was confirmed against the cited lines (NP11 1244–1288, 2493–2496; GT 5813–5818, 2209–2212, 11934–11935, 119–131, 2608–2627, 2705–2711; HALM 5902). No disagreements.

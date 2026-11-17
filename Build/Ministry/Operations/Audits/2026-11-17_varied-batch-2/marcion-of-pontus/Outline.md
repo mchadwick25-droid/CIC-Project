@@ -45,7 +45,7 @@ Sheet = `Source_Sheet.md` in this folder; tags (S1, M3, I1 …) point to its ent
 
 **Who tells it**
 
-- Justin, at Rome, in Marcion's own lifetime; an opponent. (Only witness from his own day.)
+- Justin, writing to the emperor at Rome, in Marcion's own lifetime; an opponent. (Only witness from his own day.)
 - Irenaeus, about a generation later; he saw Polycarp in his early youth.
 - Tertullian, in a book dated about 207 by its editor, some sixty years after Marcion.
 - Epiphanius, about two centuries later.
@@ -63,7 +63,7 @@ Sheet = `Source_Sheet.md` in this folder; tags (S1, M3, I1 …) point to its ent
 - WRONG "Polycarp's letter calls Marcion the firstborn of Satan". RIGHT the words are Polycarp's reply to Marcion, as Irenaeus tells it (M8).
 - WRONG "Marcion said the God of the Old Testament was evil" / "a demon". RIGHT "Irenaeus says Marcion called him 'the author of evils'", or "another god, greater than the Creator" (Justin) (M4).
 - WRONG "Marcion hated the Jews", "anti-Jewish". RIGHT he claimed "the defenders of Judaism" had altered the Gospel, in Tertullian's report (M6). Give his claim, not a motive.
-- WRONG "ten letters of Paul". RIGHT "a shortened set of Paul's letters", without the letters to Timothy and Titus (M5). No held text counts them.
+- WRONG "ten letters of Paul". RIGHT "his opponents say he shortened Paul's letters"; "Tertullian says he rejected the letters to Timothy and Titus" (M5). No held text counts them.
 - WRONG "Marcion created the first New Testament" / "forced the church to make its canon". RIGHT "Irenaeus argued for four Gospels against him" (I4). Whether he caused the canon is debated (I4); not in the story.
 - WRONG "Marcion repented and was reconciled". RIGHT "Tertullian says he offered to repent, but died before he could" (M10).
 - WRONG "Marcion was the son of a bishop", "excommunicated by his father", "for seducing a virgin". RIGHT leave out (D3).
@@ -77,6 +77,7 @@ Sheet = `Source_Sheet.md` in this folder; tags (S1, M3, I1 …) point to its ent
 - WRONG Polycarp asking "Do you know me?"; "the old bishop" at the meeting. RIGHT Marcion asks, Polycarp replies; "the bishop of Smyrna" (M8).
 - WRONG "a synod / council at Rome condemned him", "a trial". RIGHT "Rome expelled him more than once, Tertullian says", for "restless curiosity" (M9).
 - WRONG "Justin, writing in Rome". RIGHT "writing to the emperor at Rome" (S2); the held lines do not place Justin there.
+- Mark's ruling, 2026-11-17: "we are transparent and don't hide anything, but we witness their perspecive, not carry it forward." WRONG the narrator adopting any hostile charge, e.g. "Marcion, the firstborn of Satan", "the heretic", "he corrupted the Gospel". RIGHT every hostile charge told openly and credited to its speaker: "Polycarp answered, 'I do know you: the firstborn of Satan'"; "Irenaeus says he mutilated Luke".
 - WRONG adding feelings: "angry", "humiliated", "bitter", "Polycarp sneered". RIGHT the words only.
 
 **Leave out**
@@ -86,7 +87,3 @@ Sheet = `Source_Sheet.md` in this folder; tags (S1, M3, I1 …) point to its ent
 - The Eleutherus dating and the 115 years (D1, D2): card only.
 - Lists of his scriptural cuts (Ephesians as "Laodiceans", the Apocalypse): card only.
 - Rhodo's names for the later schools (Potitus, Basilicus, Syneros): card only.
-
-**Researcher's response** (to Outline_Check.md, 2026-11-17)
-
-All nine findings accepted as correct against the source. Beat 5's "rebuking Peter" is changed to "rebuking even apostles", the text's own words, although Tertullian later names Peter, John and James (T 29160).

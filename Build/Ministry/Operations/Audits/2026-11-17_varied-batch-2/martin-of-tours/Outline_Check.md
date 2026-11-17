@@ -35,3 +35,26 @@ I opened every cited passage myself in NP11, HALM, GT and VF. All three quotes (
 - Impact ranking: the tomb and cult (Gregory, Clovis), then the Life's spread, then his monks becoming bishops. This order reflects what later witnesses carried on and used. DEFENDED is marked.
 - The Do not say list covers the vision, the catechumen status, the two years, no battle, Julian, the exorcist office, the monastery names, the trick at his election, the numbers, the Priscillian nuance, Roberts's error, the signature, the synods, the dates, Candes and Cosne, ages, "patron of France", and how close Sulpicius stood to the events.
 - The Leave out list is right.
+
+## Researcher's response (moved here from Outline.md)
+
+All three BLOCKING and all six MINOR findings are accepted. Each was confirmed against the cited lines (NP11 1244–1288, 2493–2496; GT 5813–5818, 2209–2212, 11934–11935, 119–131, 2608–2627, 2705–2711; HALM 5902). No disagreements.
+
+## Recheck (targeted, 2026-11-17)
+
+**Final verdict: PASS.**
+
+This recheck covers only what changed in Outline.md and Source_Sheet.md, checked against the cited lines.
+
+1. **Sacred tree: resolved.** Beat 5 and Do not say now read "set about cutting down a pine held sacred, and the local people rose against him". This matches NP11 1244–1248. The Source_Sheet M13 note that the pagans cut the tree down themselves inside the wonder matches NP11 1254–1267. The "he tore down temples" line no longer names the tree.
+2. **Funeral: resolved.** "At his funeral, it was said, almost two thousand monks gathered" matches NP11 2493–2494. The new Do not say line about the shepherd's flock matches NP11 2495–2496.
+3. **Gregory and Trier: resolved.** Item 4 now ties the principle to Sulpicius and gives Gregory's point as Maximus's punishment, with Martin forced and yielding (GT 5813–5818). The new ending and the new Do not say line hold against the source.
+4. **Minor findings: resolved.** The new wording holds against the source in each case:
+   - Thread: "a model for later lives of saints" (GT 11935).
+   - "A modern historian" (GT 11935).
+   - The July feast of the church, the moving of the body and the ordination (GT 2209–2212).
+   - "Chief place of pilgrimage", credited to Brehaut (GT 128–131).
+   - The Clovis Do not say line (GT 2608–2627, 2705–2711).
+   - "Kept rebuking" (HALM 5902, *increpare*).
+
+No new errors were introduced.

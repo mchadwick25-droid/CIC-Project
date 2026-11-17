@@ -59,3 +59,7 @@ Two minor points remain. Neither blocks.
 - b. **One older Do-not-say RIGHT wording conflicts with finding 1.** The "ten letters" entry gives as its RIGHT wording "a shortened set of Paul's letters, without the letters to Timothy and Titus", which states the charge as plain fact. Change it to "his opponents say he shortened Paul's letters; Tertullian says he rejected those to Timothy and Titus".
 
 Note: the "Researcher's response" was added to Outline.md, not to this file as the coordinator said. Outline.md is the writer's input, so the coordinator may want that note moved out of it before the outline goes to the writer.
+
+**Researcher's response** (to Outline_Check.md, 2026-11-17)
+
+All nine findings accepted as correct against the source. Beat 5's "rebuking Peter" is changed to "rebuking even apostles", the text's own words, although Tertullian later names Peter, John and James (T 29160).
