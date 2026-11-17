@@ -60,3 +60,30 @@ No BLOCKING findings. Nothing is wrong, unsupported, misquoted or past a limit, 
 5. **MINOR. Paragraph 7: "the first bishop of the Bulgarian tongue" puzzles a newcomer.** In the outline it is a quoted phrase. Change: give it as the Life's phrase and say in the same sentence what it means from the outline's own content, e.g. that he was the first bishop to serve the Bulgarians in their own language.
 6. **MINOR. Paragraph 7 goes flat (grade 7.8).** It has five short separate statements. Join the cause and the act ("Because Bulgarian priests could barely follow Greek, Clement…"), and fold "The Life says he handed down…" into the sentence that already names the Life. That shortens the paragraph and lifts the grade.
 7. **MINOR. Paragraph 8: "Rus" is unexplained.** Tie it to what the sentence already has, e.g. "and in Rus, the chroniclers' own land". This adds nothing beyond the outline, since the chroniclers wrote in Kiev.
+
+## Recheck
+
+This is a targeted recheck of the writer's one revision (429 words; scorer: grade 8.1, reading ease names out 74.8, longest sentence 29, pass). I checked only what changed, against findings 1–7, the outline and the source.
+
+**Earlier findings**
+- 1 (tradition sentence): resolved. The sentence now reads "Their work is remembered as the mission of Cyril and Methodius. The Slavic church grew from it."
+- 2 (Q1 frame): resolved. "how are you not ashamed to fix on three languages only? You would order…" matches the Q1 rendering and VC 20309–20310.
+- 3 ("begged"): resolved. The new line is now quoted, and "Do not give up your teaching for the mountain's sake" is word for word in the Q2 rendering (VM 12253–12254 *noli relinquere montis gratia disciplinam tuam*).
+- 4 (Methodius): resolved, with one point below.
+  - "His brother Methodius had governed a Slavic district, then became a monk on a mountain of monks called Olympus" matches beat 1 and gives no location (N4).
+  - "as bishop for the Slavs of Pannonia" matches beat 6.
+  - The reason for the arrest matches beat 6 and VM 12327–12330 (*In nostro imperio doces … sed sancti Petri est*).
+- 6 (paragraph 7 flat): resolved. The grade is now 8.1.
+- 7 ("Rus"): resolved. "in Rus, the chroniclers' own land" is supported by the outline's "in Kiev".
+
+**New findings**
+
+R1. **BLOCKING. The gloss "he served them in their own language" is unsupported.** The outline gives only the phrase "the first bishop of the Bulgarian tongue" (PG 99371–99372 *Bulgariae linguae Clemens primus constituitur episcopus*), with no gloss. "Tongue" here can mean a people as well as a language. So saying that he served them in their language is the writer's own reading presented as the record. Change "It calls Clement "the first bishop of the Bulgarian tongue": he served them in their own language. Their priests could barely follow Greek, so he wrote them plain sermons for every feast." to: "It calls Clement "the first bishop of the Bulgarian tongue". Because Bulgarian priests could barely follow Greek, he wrote them plain sermons for every feast." The outline's own reason then explains the phrase, and the unclear "them" and "their" become "Bulgarian priests".
+
+R2. **MINOR. "so they held him prisoner" makes his answer the cause of the arrest.** Neither the outline nor VM (12358–12359 *Postquam de illa re contenderunt, discesserunt, illum vero miserunt in Suevos*) gives that cause. They give only the order of events. Change "He said it was St Peter's, so they held him prisoner for two and a half years." to: "He said it was St Peter's. After the dispute they held him prisoner for two and a half years."
+
+R3. **MINOR. Q3's new frame, "God, who made those three", reaches back three paragraphs.** A listener hearing it once will not hold "those three". The quoted part is still word for word. Change it to "God, who made Hebrew, Greek and Latin," as in the rendering.
+
+R4. **MINOR. The Kiev sentence narrows the source.** It now says the letters were "first made for the Moravians". RPC 7868–7869 says "for these peoples", meaning the Moravians and their neighbouring Slavs, and the outline check's recheck made that point. Change it to "first made for the Moravians and the Slavs around them".
+
+**Final verdict: REVISE.** The only blocking item is R1, which is a one-sentence fix. R2–R4 are wording fixes. After those changes, the brief passes without another full round. A check that R1 was applied is enough.

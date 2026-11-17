@@ -64,3 +64,19 @@ Two BLOCKING findings, both small to fix. The body is well built and the quotes 
 - "Obeyed her" is in the outline (beat 4). Saying the point plainly (the queen under a girl she had raised) would help, but that is a "could be stronger" note, not a defect.
 - Rendering "adorandae crucis" as "the holy Cross" is the outline's rendering and does not mislead.
 - The opening scene followed by a flashback is the outline's own Opening 1, not Polycarp's arc.
+
+## Recheck (targeted, 2026-11-17, final round)
+
+This recheck covers only what changed in the revised brief: 372 words, grade 6.3 (names out 5.7), reading ease 81.9, 21% short sentences, longest sentence 26 words. Pass on the limits.
+
+1. **Finding 1, the hook (was BLOCKING): resolved.** "He hesitated, because she was a married woman, and the king's nobles dragged him from the altar" is outline beat 3, word for word in substance (L8, VR-F 28801–28804). "Then, in her nun's dress, she challenged him" ties the scene back to the opening. "Came out to face the bishop" removes the doubt over "him" and no longer repeats the revolt's verb.
+2. **Finding 2, the revolt's outcome (was BLOCKING): resolved.** "The Rule and the abbess held" is gone. "At the bishops' hearing, the abbess defended the house's ways as 'the custom of the lady Radegund'" is outline I1. The quote matches DAL 21416–21418 exactly. No outcome is claimed.
+3. **Finding 3, impact: resolved.** "The bishops wrote that young women flocked from their districts to live under her Rule" is outline I2 (DAL 19528–19530: "many virgins have eagerly flocked out of our dioceses to accept thy Rule"). "Districts" for dioceses and "live under" for accept are fair plain renderings and add nothing. The line sits before her death, which is right: the bishops wrote early in the house's life. The impact is now about 28–30% of the brief and ends on the record's own words.
+4. **Finding 5, the Cross: resolved.** "At her request, the emperor sent her wood of the Cross of Christ, set in gold" is supported. Beat 5 gives the emperor sending it set in gold. Her asking is in the sheet: Baudonivia (VR-B 30246–30256) and Fortunatus's poem to Justin, "regina poscente ... Radegunde" (L16). "Of Christ" explains the term without adding a claim. The "sent ... sent" repeat is gone.
+5. **Flow of the death and revolt stretch: resolved.** The five unjoined short sentences are now three linked ones, joined by time ("When she died", "Soon after", "At the bishops' hearing"). No cause the record does not give has been added. It now reads as story, not chronicle. The grade stays under 8, and by ear it is clear, not flat.
+6. **Finding 6, the letter quote cue: resolved.** The quote now follows "she wrote to the bishops" directly.
+7. **Length (Finding 4): accepted.** The brief is 372 words, about 2:20 at narrator pace. The body was trimmed (Agnes and the gift of all her goods are out; both are in the outline, so cutting them is fine). The added words all go to fixes: the tie-back, I2 and the gloss. The overrun is earned, not padding.
+
+No new wording goes beyond the outline. Nothing in the revision is unsupported.
+
+**Final verdict: PASS.**
