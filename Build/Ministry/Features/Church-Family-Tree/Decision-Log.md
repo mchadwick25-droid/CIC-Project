@@ -4264,3 +4264,7 @@ The narration voices are now:
 2. The first batch: era 1 people the existing models fit. These are Clement of Alexandria, Hermas, Dionysius of Alexandria, Hippolytus, Novatian, Pontius the Deacon, Tatian, Anatolius, Peter of Alexandria and Polycrates, and then Josephus and Suetonius once Tacitus is approved.
 3. Marcion and Valentinus wait for a model of a founder known only through his opponents.
 4. Pliny the Younger waits for his own letter (Open-Gaps 309).
+
+## 2026-11-17 — Cards are built in the same run as their briefs (Mark, 2026-11-17)
+
+**Decided (Mark, 2026-11-17): "after the brief is built we need the cards built also".** Once a brief clears its source check, its card is built in the same run. The card draws on the source sheet, the brief and the brief's references. It follows the card order of "The people layer" (2026-11-11), with "References for this brief" under the brief. Its legacy and uncertainty lines, and any quotation on it, get the same source check as the brief. The plain-text batch file for Mark's outside check carries each card with its brief. Polycarp's card (https://claude.ai/artifact/QN4QDbmSSJFJBgXxcHL7Fy) has not yet had this check. It gets it before release. Mark also set the first batch at "4 or 6".
