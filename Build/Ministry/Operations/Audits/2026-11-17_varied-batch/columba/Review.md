@@ -58,3 +58,23 @@ Every sentence traces to the outline except where marked below. All three outlin
 6. **MINOR. "Brude, king of the Picts."** "Picts" will puzzle a newcomer. The outline gives no gloss. Ask the researcher for one plain clause, from S3's support: Pictland covered most of what is now Scotland (AD 2505–2506; AD-ed, Widely Accepted). Or say "a king in the north of Britain".
 
 7. **MINOR. "many houses in Britain and Ireland grew from Iona".** Bede says they grew "from both which monasteries", meaning Durrow and Iona (BEDE 5851–5853), and the outline says "grew from his". Change to "grew from his houses" or "grew from his", and keep "Iona, which led them all".
+
+## Recheck
+
+This recheck covers only what changed in the revised brief (429 words; grade 6.4, names out 5.5; reading ease 82.3; 14.8 words a sentence; longest 25). I checked each change against the findings above and the outline.
+
+- **New: "On that last night, in 597 by the usual reckoning".** This holds. The year is not marked Contested here. Outline beat 6 tags it "year Widely Accepted, annals differ", and Source_Sheet D2 gives the line to say aloud as "in 597, by the usual reckoning". The brief says exactly that. "That last night" is also right: he died on the night of Saturday into Sunday (AD 10685–10686, E14), after the hook's "last Saturday".
+- **Finding 1, BLOCKING: resolved.** "We have no word of his own" is the outline's own ground.
+- **Finding 2, BLOCKING: resolved.** "Adomnán says the king kept his gates shut against him, until they opened 'of their own accord'." The wonder is now in Adomnán's voice, and it has its point. This matches AD 7874–7888.
+- **Finding 3: resolved.** The hook now says "turned the work over to his disciple", before the quote names Baithene. This is supported by "what follows let Baithene write" (AD 10788–10789) and by Opening 1.
+- **Finding 4: resolved.** The horse is cut.
+- **Finding 5: resolved.** "Columba's way of dating Easter, the custom of his own country, clashed with Rome's." This matches the outline's impact 3.
+- **Finding 6: resolved.** "the Picts in the north of Britain" is plain and true to S3 (AD 2505–2506).
+- **Finding 7: resolved.** "grew from his, with Iona leading them all" matches Bede (BEDE 5851–5854).
+- **Listener read of the changed lines:** paragraph 4 no longer runs as a list. The death paragraph now goes straight from the last words to the altar, and nothing in it puzzles.
+
+**Length.** 429 words against about 375. Every sentence carries outline material, and the added words are the ones the findings asked for: the shut gates, the Picts gloss and the disciple tag. Keep both optional phrases. "Born to a noble Irish family" is outline beat 1 and is the only thing the brief says about where he came from. "Also called Colum Cille" is the name the annals use, and the name a listener in Ireland or Scotland is most likely to know him by (S1). Cutting both saves 10 words, and the brief would lose a fact the outline holds. The overrun is earned.
+
+No new problems. No wording must change.
+
+**Final verdict: PASS.**
