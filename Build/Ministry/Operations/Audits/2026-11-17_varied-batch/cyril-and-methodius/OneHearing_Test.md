@@ -36,3 +36,15 @@ with:
 > "Two of them, Clement and Naum, carried the letters and the Slavic services across the Danube to Bulgaria, where, ..."
 
 Basis: outline What came of them 1 ("the work went on with their disciples"; Clement, Naum and Angelarius crossed the Danube to Bulgaria), Thread (letters, and with them worship in their own speech), Links (Clement of Ohrid and Naum "carried on their work"). It adds about 8 words, for about 448 in all, still under 3 minutes. Nothing is simplified, and no claim is added beyond the outline.
+
+## Retest (2026-11-17, revised brief)
+
+The revised brief was heard once, straight through. `wc -w` counts 450 words, not the 447 the coordinator reported, which is still at the 3-minute limit. The revised sentence was split in two: "Two of them, Clement and Naum, carried the letters and the Slavic services across the Danube to Bulgaria. There, a later Life of Clement says, Prince Boris thanked God for them."
+
+- **Who was this?** Constantine (later Cyril) and his brother Methodius, scholars from Thessalonica, sent by the emperor in Constantinople to Moravia in the 860s. CLEAR.
+- **What happened?** Constantine made letters for the Slavs, and they turned the services into Slavic. Constantine defended this against the three-languages claim, and he died in Rome in 869. Methodius was held by Frankish bishops, and the pope wrote in 880 that God made all languages. CLEAR.
+- **Why does the connection matter?** After 885 two of the driven-out disciples, Clement and Naum, took the letters and the Slavic services to Bulgaria. Clement became its first bishop of the Bulgarian tongue, and the Kiev chroniclers later found the same letters among the Rus. "Two of them" marks this Clement as a disciple, not the bishop of Rome, and "carried" states the hand-on outright. CLEAR.
+
+**Outline support:** What came of them 1 (the work went on with their disciples; Clement, Naum and Angelarius crossed the Danube to Bulgaria; the Life of Clement says Clement handed down all that belongs to the Church), the Thread (letters, and with them worship in their own speech), and Links (Clement of Ohrid and Naum "carried on their work"). "Two of them" is accurate, because the outline names a third disciple, Angelarius. The wording adds no claim the outline lacks.
+
+**Retest verdict: PASS.**

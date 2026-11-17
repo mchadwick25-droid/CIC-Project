@@ -32,3 +32,23 @@ Brief tested: `antony-the-great.brief.txt` (455 words). Test: "An interested non
 - To pay for it, drop "Soon after," from "Soon after, while he wept in a garden".
 
 Net change: about +4 words (455 to about 459), still inside 3 minutes. Nothing is simplified: the fix makes the brief's own mirror, between the opening and the ending, audible.
+
+## Retest (revised brief, 2026-11-17)
+
+Revised brief heard once, straight through. `wc -w` counts 458 words, under 3 minutes.
+
+- **Who was this?** Antony, a young Christian in Egypt in Constantine's time, gave away his inherited farm after a Gospel reading and became one of Egypt's desert monks.
+- **What happened?** He learned from local hermits and walled himself in a desert fort for about twenty years. He came out unchanged, and so many followed him that the desert became "a city of monks." Crowds then drove him deeper into the desert. He came down to Alexandria to teach against the Arians, and he was buried in secret near 105.
+- **Why does the connection matter?** A Life of him, credited to Athanasius, was written as a pattern for monks and spread west. At Trier it turned two court officials. One official who was there told Augustine in Milan, and Augustine remembered Antony and the same Gospel reading. Then, in the garden, he read Paul and was turned to God, in the same way Antony had been.
+
+| Line | Judgment |
+|---|---|
+| Who | CLEAR |
+| What happened | CLEAR |
+| Connection | CLEAR |
+
+**Both losses are fixed.** "An official who had been at Trier told Augustine what happened there" removes the "that story" ambiguity. "That same Gospel reading" and "There in the garden" tie the ending back to the opening. Each one is in the voice of the sources, and no narrator claim is added.
+
+**The outline supports the new wording.** I2 says a fellow official who was at Trier told the story to Augustine in Milan. I2 also has "In a garden there, in tears, Augustine remembered Antony and that Gospel reading. He opened Paul's letters, read, and his doubt was gone." Leaving the official unnamed is allowed: I2 names Pontitianus but does not require the name. The "palms" detail was cut. That loses nothing the test needs, and E11 is still respected.
+
+**Verdict: PASS.**

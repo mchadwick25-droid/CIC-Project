@@ -33,3 +33,27 @@ with:
 > He says Arius's friends took words like "from God" as true of all creatures, and were caught "whispering ... and winking", so the bishops chose plainer words.
 
 Source: outline story beat 5 (M6). Adds 11 words; the brief goes from 443 to 454, still about 3 minutes. It does not simplify: it supplies the reason the debate turned, which makes the word "of one being" mean something to the listener.
+
+## Retest (revised brief)
+
+Re-heard once, straight through. Word count by `wc -w`: 449. The revision note says 441; the gap probably comes from how the "..." and the quoted words were counted. Either way it is under 450, about 3 minutes.
+
+**Three lines from one hearing**
+- **Who was this?** A meeting of bishops from across the empire, newly free of persecution, called by Constantine to Nicaea, in today's Turkey, in 325, over whether the Son is eternal like the Father.
+- **What happened?** Arius said the Son had a beginning. In the debate, Arius's friends read words like "from God" as true of every creature, so the bishops chose a plainer word: homoousios, "of one being" with the Father. The creed called the Son "begotten, not made" and cut off anyone who said "there was a time when he was not". All but a few signed, and Arius was condemned and exiled.
+- **Why does the connection matter?** It divided the church for decades (Rimini, 359), but Athanasius defended it, and Constantinople (381) and Chalcedon (451) made its faith the standard that "shall not be set aside". Its rules were copied as far away as Carthage.
+
+**New wording.** "He says Arius's friends took words like 'from God' as true of all creatures": the outline's story beat 5 (M6) supports it. It is credited to Athanasius, as the beat has it. The winking now has its reason, and "plainer words" now lands.
+
+**Trims checked**
+- Paragraph 1: "The church there had split" became "The church had split". It still follows straight after Alexandria, so the place is kept. Nothing lost.
+- Paragraph 5: "his own church's creed" became "his church's creed". Nothing lost.
+- Final paragraph: "rules for the church" became "rules". "Travelled" and "Carthage" still carry the sense. Nothing lost.
+
+| Line | Judgment |
+|---|---|
+| Who | CLEAR |
+| What | CLEAR |
+| Why it matters | CLEAR |
+
+**Retest verdict: PASS.**

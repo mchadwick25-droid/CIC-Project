@@ -37,3 +37,30 @@ Two edits in the final paragraph, both from the outline (I1, I2, thread). The br
    with "The Scripture study she required made her house a school for the young English church. Of it Bede wrote:"
 
 The brief still ends on Bede's five bishops, as the outline asks, but now the ending reads as the result of what she built.
+
+## Retest (revised brief, 439 words)
+
+### The three lines, from one fresh hearing
+
+- **Who was this?** Hild, a noblewoman of seventh-century Northumbria, kin to King Edwin, who became abbess of a monastery for men and women at Whitby.
+- **What happened?** She ran Whitby as a house with no rich and no poor, where people studied Scripture closely. The kings met there in 664 over Easter; she held with Aidan's Irish side, and the king ruled for Rome. She had Caedmon's gift tested, made him a monk, and had sacred history taught to him, which he turned into English song. She taught through six years of fever and died in 680.
+- **Why does the connection matter?** What she built went on after her. Her Scripture schooling gave the young English church bishops from her house; Bede himself saw five of them. Caedmon's English song turned many minds to heaven and was imitated by others. Her people called her Mother, and York still prayed to her eight centuries later.
+
+### Judgments
+
+| Line | Judgment |
+|---|---|
+| Who | CLEAR |
+| What | CLEAR |
+| Why the connection matters | CLEAR. The bishops now come as the result of her Scripture study, and the song's effect is stated. |
+
+### Is the new wording supported by the outline, and does it keep to Do not say?
+
+- "Caedmon's verses turned many minds to heaven": What came of them, item 2 (I2).
+- "Because she had made her people study the Scriptures, the young English church took bishops from her house": this follows the Thread ("read so closely that the young English church took five bishops from it") and beat 4 (M11). It does not say "she trained five bishops" (Do not say, M11, I1). It says the bishops came from her house, the wording the outline asks for.
+- "Bede saw it himself": Quote 1's job ("in an eyewitness's words"); the Latin "uidimus" means "we saw" (I1).
+- No other Do not say item is touched. The brief still ends on Bede's five bishops, as the outline suggests.
+
+### Verdict
+
+**PASS.** All three lines are CLEAR.

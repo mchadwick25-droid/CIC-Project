@@ -49,3 +49,21 @@ The next sentence ("The words are Gregory's, so how much is hers is not known") 
 This adds about 15 words (to about 400, well inside 3 minutes). It adds no new fact beyond the outline. It makes the story clearer, not simpler: the listener can now follow what passed from her, to whom, and on to Ferrara.
 
 Not part of the fix: the "Later scholars use Gregory's account of her house" sentence comes before the heavier legacy items. It can stay where it is, since the outline's suggested last line is the end of the Ferrara exchange, and moving it would take that ending away.
+
+## Retest (2026-11-17, revised brief, 402 words)
+
+### What changed
+
+The only change is the one sentence the fix asked for. I checked this with a line diff of the revised brief against the text of the first hearing. Only the last paragraph differs. "He also wrote a dialogue in which…" became "As she lay dying, she had talked with him about the soul, death and rising again. From that talk he wrote a dialogue in which…". Every other word is unchanged. The word count rose from 384 to 402.
+
+### Is the new sentence supported?
+
+Yes. It is outline story beat 6 ("Fevered and dying, she talked with him about the soul, death and rising again", sheet 101-117) and legacy item 1 ("the words are Gregory's writing of their talk", sheet 165-169, 215). The source sheet's M13 (LIFE 196) has her "discours[ing] … on the nature of the soul … and the nature of the journey from death to life again". Clarke's note says the dialogue "purports to reproduce this conversation". The next sentence still keeps the honest limit ("how much is hers is not known").
+
+### Three lines from the second hearing
+
+- **Who was this?** Macrina, the sister of Basil of Caesarea and Gregory of Nyssa. She lived in fourth-century Pontus, on the Black Sea, and we know her almost wholly through Gregory. **CLEAR.**
+- **What happened?** She refused marriage after the death of the man she was promised to. She made the family house a community of prayer and shared work, where her mother lived as an equal with the slave women. She raised Peter and babies abandoned in a famine, and died poor in 379, praying that God had freed us from the fear of death. **CLEAR.**
+- **Why does the connection matter?** As she lay dying, she taught Gregory about the soul, death and rising again. He wrote that talk into a dialogue with her as the Teacher, and a thousand years later, at Ferrara in 1438, the Latin side quoted her words from it against the Greeks. Her house also stands as an early picture of how such a community was run. **CLEAR.** The chain of what she passed on now holds: her teaching, to Gregory, into his book, and on to the council. The doubt about how much is hers now reads as a limit on a teaching the listener knows took place. A small point that does not affect the verdict: "with him" leans on "Gregory's account" in the sentence before. It holds on one hearing.
+
+### Retest verdict: PASS
