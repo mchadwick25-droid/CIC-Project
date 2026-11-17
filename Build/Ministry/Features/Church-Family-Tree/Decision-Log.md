@@ -4382,3 +4382,17 @@ Antony, Macrina, Martin, Benedict, Cyril and Methodius and Nicaea needed none. M
 - *The paid run:* Neo (`onegjDE2z0mQtp1g0HK7`, `eleven_v4`, `mp3_44100_64`, `{"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true}`), recording Marcion first to confirm the rate and then Clement, Antony, Martin, Columba and Radegund. The six were charged 1,089, 1,013, 1,203, 1,236, 1,119 and 1,029, a total of 6,689 credits against the cap of 7,500. The account balance moved from 280,548 to 287,237, exactly that amount (`2026-11-17_varied-batch-2/recording/release50-run1.log`, `-run2.log`).
 - *Review recordings reused:* these were made with the same settings from the final text (Decision-Log, "Audio review recorded", 2026-11-17). Macrina, Hild and Benedict are in Neo's voice, and Nicaea is in Daniel's (`onwK4e9ZLuTAKqWW03F9`, `eleven_multilingual_v2`) with no pause tag. "How Nicaea decided" is in Neo's voice, in `audio/docstories/`. Since its take, Benedict's text has changed only by a pair of quotation marks.
 - *Not recorded:* Dhuoda's brief changed after its review take, so it goes live as text until it is recorded again (about 1,150 credits, beyond the approved cap; for Mark).
+
+## 2026-11-17 — No softening: a witness, not a judge; release 50 held for the must-fix and should-fix lists (Mark, 2026-11-17)
+
+**Why.** Four independent readers evaluated the twelve: a historian and a university teacher; a pastor, a general seeker and someone re-assessing their faith; a listener sceptical of AI; and a check of consistency and production readiness. The results are at https://claude.ai/artifact/MhbuqEzrLQwQ7PbrsKm6G5. They found one factual error: Columba "left Ireland for good", although the source sheet (E11) has him at Druim Cett in Ireland in 574. They also found a pattern of softening by omission. Each item below sat in its own outline and was left out of the brief:
+- Martin's destruction of temples;
+- Benedict's Apollo temple;
+- the 879 ban on the Slavonic liturgy;
+- King Lothar's backing of Radegund's house.
+
+Some narrator sentences also took one side's framing: Dhuoda's ending on Luther, and Marcion's "the church".
+
+**Decided (Mark, 2026-11-17): "yes no softening, we are a witness not a judge, that is a significant omission and error. that is why we review multiple so that is a kit change in the next round, for this round 1 but also the should fixes too".**
+- **The kit** gains one Rigor line in `Standard.md` ("We are a witness, not a judge…"), a Must keep field in `Outline_Template.md`, and a check in `roles/reviewer.md` that every Must keep fact is told and that no linking sentence takes a side's framing. Either fault is BLOCKING. No existing line covered this, so these are additions rather than rewrites.
+- **Release 50 is held.** Every piece gets its must-fix and should-fix items from the evaluation page, each corrected from its own outline and source sheet. Each piece is then rechecked, and any changed or new quotation gets a second reading. The changed briefs are recorded again under a cap that Mark approves before the paid run. Cyril and Methodius are fixed the same way and still wait for a census entry.
