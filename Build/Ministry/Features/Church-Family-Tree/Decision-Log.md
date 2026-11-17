@@ -4430,3 +4430,14 @@ The reviewer already judges against the standard, so `roles/reviewer.md` is as i
 **A tool fault fixed on the way.** The story tool stopped before its request, so nothing was charged. It had borrowed the tree tool's settings check, which allows an output format only with `--people`. That check also fails main's six paid-run gate tests. The story and site tools now share `requireVoiceAndModel`, and keep their own output-format checks; all 76 narration tests pass.
 
 **Lengths.** Martin runs about 3:12 (526 words) now that the temples are restored. Nicaea runs about 3:50 in Daniel's voice, as Mark allowed. Cyril and Methodius, still unreleased, is 498 words.
+
+## 2026-11-17 — Record only a finished batch, one batch at a time (Mark, 2026-11-17)
+
+**Decided (Mark, 2026-11-17): "We do no recording until a batch completes all authoring and revisions one batch at a time."** The first line of `Brief-Kit/Process.md` now carries it: "A batch is worked one at a time, and is recorded only once every brief and card in it has finished every step, revisions included." It is folded into that existing line, not added as a separate rule.
+
+**Why.** This batch was recorded before its revisions were finished:
+- review takes were made mid-review;
+- six release recordings (6,689 credits) were made before the four-reader evaluation;
+- the evaluation sent every piece back for revision, and all twelve were then recorded again (13,758 credits).
+
+Under this ruling, only the final recording would have been paid for.

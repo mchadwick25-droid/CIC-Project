@@ -1,6 +1,6 @@
 # How a brief is made
 
-Each step is run by a fresh hand with its own prompt in `roles/`.
+Each step is run by a fresh hand with its own prompt in `roles/`. A batch is worked one at a time, and is recorded only once every brief and card in it has finished every step, revisions included.
 
 1. **Research** (`roles/researcher.md`). A source sheet from held texts, then a one-page outline to `Outline_Template.md`.
 2. **Outline check** (`roles/checker.md`). Every line tested against the source texts. Blocking faults are fixed and rechecked independently.
