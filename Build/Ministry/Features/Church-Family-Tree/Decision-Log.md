@@ -4287,3 +4287,18 @@ The structure and the plain fact fields are mostly sound.
 ## 2026-11-17 — Tacitus: "deadly superstition" (Mark, 2026-11-17)
 
 Mark's ruling of 2026-11-11 for Tacitus quoted the 1876 translation's "mischievous superstition". The Latin word is "exitiabilis", meaning deadly or destructive. Under the rule that English printed before 1931 is told in our own modern English, the coordinator asked whether the brief should say "deadly superstition". **Decided (Mark, 2026-11-17): "yes, use deadly superstition".** The 1876 wording stays on the card with its file and lines.
+
+## 2026-11-17 — Tacitus: tell the events, not the source (Mark, 2026-11-17)
+
+**Why.** Mark asked "are we loosing story, 10 quotes sounds like a lot". Quotation share in the briefs:
+- Polycarp 17%;
+- Ignatius 35%;
+- Justin 29%;
+- Eusebius 30%;
+- the first Tacitus draft 47%.
+
+A retold Tacitus cut quotation to 13%. Mark read it: "it is back to the old feel of he said so and so said, that is what we were designing against". It had 14 attributions ("Tacitus says", "he writes", "Tertullian says"), against Polycarp's 6. The cause was the coordinator's framing of the outside-witness kind, "exactly what he says, how far he can know it", which led the writer to report the source line by line.
+
+**Done.**
+- A fresh writer tells the events (the fire, the blame, the deaths, the pity) as the story. The account is framed once as a hostile Roman historian's, and a witness is named only where trust turns on it.
+- Quotation share and attribution count join the drift report for every batch, with Polycarp as the reference.
