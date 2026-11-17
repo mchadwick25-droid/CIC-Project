@@ -83,3 +83,37 @@ All three come through.
 **Score:** 529 words, grade 8.1 (names out 7.3), reading ease 72.5, longest sentence 29 words. Pass.
 
 **Still open (MINOR, not required):** "On the same feast" (finding 2) and the stand-alone "That was its name for Nicaea." (finding 4) are unchanged.
+
+## Reorder recheck (2026-11-17, targeted: the reordered spine and the nine changed or added sentences)
+
+**Verdict: FAIL.** There are three blocking findings, each a one-sentence fix. Everything else in the reorder holds. Score: 534 words, grade 8.1, reading ease 72.9, longest sentence 29 words, 21% short. It passes the limits.
+
+**What holds.** The argument about Jesus is now the spine, which answers Mark's "was easter the major argument or jesus". The order no longer jumps between Easter and Egypt. The council's other business sits together as what it "also settled", and the impact follows. The new sentences trace to the outline:
+- "Eusebius ... tells what brought them": K1, K3.
+- The Melitius line: M12.
+- "The churches had kept Easter on different days, so that on the same feast some Christians fasted while others feasted": K2, EUS 64258–64262.
+- "Its creed became the standard for later councils": I1.
+
+On Mark's three-line test, heard once:
+- **What it was:** the council that faced the question of whether the Son is eternal like the Father.
+- **What it did:** it gave a creed calling him "of one being" with the Father, and settled Melitius, Easter and the rules.
+- **Why it matters:** later councils set its creed first, it divided the church for decades, and its rules travelled as copies.
+
+All three come through.
+
+**Blocking findings**
+
+R1. **(a) "came before" can be heard as time.** In "That question about Jesus came before the council of Nicaea, which met in 325", the clause right after it gives a date. Heard once, that makes "came before" sound like "happened earlier than". On that hearing, the one sentence meant to tie the issue to the council does not do it.
+- **Change to:** "That question about Jesus was taken up by the council of Nicaea, which met in 325, in today's Turkey, when bishops from across the Roman Empire came at the emperor Constantine's call."
+- **Do not say (for the outline):** "The question came before the council" → "the council took up the question" (avoids the time reading).
+
+R2. **(b) Leaving Easter out as a cause misleads.** Eusebius names two troubles before the summons: the strife in Egypt, and the Easter split, which "long afflicted the Church" (EUS 64241–64243; outline beat 1, beat 6). The brief says Eusebius "tells what brought them" and names only Egypt. Easter later appears only as "other business". A listener therefore hears one cause where the witness gives two. Putting Easter second is a fair choice of emphasis; leaving it out as a cause is not.
+- **Fix,** keeping the spine: in the Easter sentence, "Easter was the second trouble Eusebius names: the churches kept it on different days, so that on the same feast some Christians fasted while others feasted."
+- **Do not say (for the outline):** "Constantine called the council over Egypt" alone → Eusebius names two troubles, Egypt and Easter; if one is told as the cause, say the other was the second.
+
+R3. **(c) A run of four short sentences at the turn into impact.** The run is: "That was its name for Nicaea. Chalcedon, in 451, called it 'pre-eminent'. Yet it did not hold at once. Arius, it seems, was recalled from exile." This is the children's-book pattern the standard rules out, and it holds the earlier tacked-on gloss (finding 4). Elsewhere the flow is now linked and does not skip around.
+- **Change to:** "In 381 a council met at Constantinople over new disputes, and it ruled that the faith of the '318 fathers', as it called the bishops of Nicaea, 'shall not be set aside'. Chalcedon, in 451, called it 'pre-eminent'. Yet it did not hold at once: Arius, it seems, was recalled from exile, and of a council at Rimini in 359, Jerome wrote that ..." (the rest of that sentence as now).
+
+**MINOR (not required):** "Chalcedon, in 451" would be clearer as "the council of Chalcedon, in 451".
+
+**Final fix check (2026-11-17): PASS.** R1, R2 and R3 are resolved as applied, and the two departures are sound; nothing new is wrong. Score: grade 8.7, reading ease 71.4, longest sentence 31 words (the 381 sentence, within "about 30").
