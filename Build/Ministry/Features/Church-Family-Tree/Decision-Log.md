@@ -4268,3 +4268,18 @@ The narration voices are now:
 ## 2026-11-17 — Cards are built in the same run as their briefs (Mark, 2026-11-17)
 
 **Decided (Mark, 2026-11-17): "after the brief is built we need the cards built also".** Once a brief clears its source check, its card is built in the same run. The card draws on the source sheet, the brief and the brief's references. It follows the card order of "The people layer" (2026-11-11), with "References for this brief" under the brief. Its legacy and uncertainty lines, and any quotation on it, get the same source check as the brief. The plain-text batch file for Mark's outside check carries each card with its brief. Polycarp's card (https://claude.ai/artifact/QN4QDbmSSJFJBgXxcHL7Fy) has not yet had this check. It gets it before release. Mark also set the first batch at "4 or 6".
+
+## 2026-11-17 — Existing cards are reworked in the batch, not rebuilt (Mark, 2026-11-17)
+
+**Why.** There are 250 existing person cards, and a sample of three shows the old habits.
+- Ignatius names McGiffert, Coxe, Lightfoot, Zahn and Harnack in its prose, and its first legacy line rests on Coxe's claim about the first use of "Catholic Church". The Ignatius sheet found that claim wrong about which letter it is in.
+- Theophanes's first legacy line is a seventeenth-century editor's opinion.
+- Ammianus Marcellinus has no legacy lines.
+- None of the 250 has "References for this brief".
+The structure and the plain fact fields are mostly sound.
+
+**Decided (Mark, 2026-11-17): "yes, rework the cards in the batch".** In each batch run:
+- the existing card's fact fields (dates, place, tradition, role, key works, sources) are checked against the new sheet, and kept where they hold;
+- the legacy and uncertainty sections are rewritten from the sheet, with modern scholars moved to the sources;
+- "References for this brief" is added;
+- the reworked card gets the same source check as the brief.
