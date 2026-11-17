@@ -4341,3 +4341,12 @@ The narration voices are now:
 - Each of the twelve cards is rebuilt from its original, word for word. The new brief's checked `quotationOriginals`, `briefReferences` and `briefLength` (and, for Nicaea, `howItWorked` and `stories`) are carried over unchanged from the refresh. The refreshed versions are kept beside them as `*.refresh1.card.json` / `*.refresh1.entry.json` for reference only.
 - Only clearly wrong statements are then corrected, each listed in `Card_Edits.md` with its evidence; a claim not found stays and is flagged.
 - `Brief-Kit/roles/card.md` is rewritten to this rule, and `Brief-Kit/Process.md` step 6 with it.
+
+**The card tweaks (2026-11-17).** Mark: "they should be tweeks not rewrites". Rebuilt from their originals, the twelve cards needed six tweaks in all, each listed with its evidence in that card's `Card_Edits.md`:
+- Clement, place: "later with Alexander of Jerusalem" becomes "later with the imprisoned bishop Alexander" (the prison letter names no place, EUS 33615).
+- Marcion, uncertain: "the money returned" becomes "the money cast out with him" (Tertullian, T 29239–29243).
+- Radegund, legacy: Fortunatus "stayed at Poitiers because of her" becomes "stayed near her by her wish" (VF 16035 names no place).
+- Columba, uncertain: the Life "between 679 and 704" (Adomnán's abbacy) becomes "between 692 and 697" (Huyshe).
+- Hild, knownFor: kings and princes "sometimes" sought her advice (Bede's "nonnumquam", HEL 24936–24939).
+- Dhuoda, keyWorks: "Chapter 68 tells William to read the book" becomes "She tells William to read the book" (DH 3175–3178).
+Antony, Macrina, Martin, Benedict, Cyril and Methodius and Nicaea needed none. Most faults the earlier refresh had "corrected" were not in the originals (Marcion's "shipowner", 144 and "ten letters" are on the census card, not his Who card; Macrina's card already credits Annesi to Clarke; Radegund's already gives the Cross's gold to Baudonivia). The census-card faults stay with Open-Gaps 316 and 317 for the release.
