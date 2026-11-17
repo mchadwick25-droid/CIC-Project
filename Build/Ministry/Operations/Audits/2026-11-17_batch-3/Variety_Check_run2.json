@@ -1,0 +1,39 @@
+{
+ "batch": 12,
+ "limit": 3,
+ "moves": {
+  "reveal": {
+   "count": 3,
+   "pieces": [
+    "justin-martyr",
+    "moses-the-black",
+    "third-council-of-toledo-589"
+   ],
+   "over": false
+  },
+  "stacked-setting": {
+   "count": 1,
+   "pieces": [
+    "john-wyclif"
+   ],
+   "over": false
+  },
+  "witness-formula": {
+   "count": 0,
+   "pieces": [],
+   "over": false
+  },
+  "yet-pivot": {
+   "count": 1,
+   "pieces": [
+    "john-wyclif"
+   ],
+   "over": false
+  },
+  "later-ending": {
+   "count": 0,
+   "pieces": [],
+   "over": false
+  }
+ }
+}
