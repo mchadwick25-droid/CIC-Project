@@ -36,3 +36,23 @@ Replace the final sentence with this:
 > And Origen had been Clement's pupil as a boy, by Eusebius's and Jerome's account. He followed his teacher's example with ten books of Miscellanies of his own, setting Christian views beside those of the philosophers.
 
 This names Clement, so "his" can no longer mean Jerome. It says "teacher", which makes the line from Pantaenus to Clement to Origen plain. It also attributes the claim as the outline does. The material all comes from the outline (beat 3, I1). It adds about 9 words, so the brief runs to about 356, well under 450. Nothing is simplified.
+
+## Retest (2026-11-17, revised brief, 355 words)
+
+The revised brief, heard once, straight through.
+
+- **Who was this?** Clement, a Christian teacher and one of the elders who led the church at Alexandria in Egypt, around the year 200.
+- **What happened?** He searched for a teacher and found one in Egypt (Pantaenus, Eusebius says). He wrote his notes as the *Miscellanies*. He argued that Greek philosophy was a guide God gave the Greeks to lead them to Christ, as the Law led the Hebrews. He lived through daily martyrdoms and carried a jailed bishop's letter to Antioch. By that bishop's later letter, he had died.
+- **Why does the connection matter?** Eusebius trusted him as a witness, and Jerome pointed to him to defend Christian learning. Origen was Clement's pupil as a boy, by Eusebius's and Jerome's account. He followed his teacher with *Miscellanies* of his own, so the line runs from Pantaenus to Clement to Origen.
+
+| Line | Judgment |
+|---|---|
+| Who | CLEAR |
+| What | CLEAR |
+| Why the connection matters | CLEAR. Naming Clement removes the pull of "his" toward Jerome. "His teacher" can only mean Clement. |
+
+**Support in the outline.** The outline supports "By Eusebius's and Jerome's account, Origen had been Clement's pupil as a boy." Item I1 gives "His pupil, by Eusebius's and Jerome's account", and beat 3 gives "Eusebius says the boy Origen was among his pupils" (Widely Accepted). The following sentence also has support: I1 gives "Jerome says Origen copied his example and wrote his own ten books of *Miscellanies*, setting Christian and philosophers' views side by side." The brief does not credit that sentence to anyone. It is still covered, because I1 rates the claim Widely Accepted. D4 says Origen's own surviving words name Pantaenus, not Clement. The outline keeps that point to the card only, so the brief has nothing missing.
+
+The brief has 355 words, under the 450 limit. Nothing was simplified.
+
+**Verdict: PASS.**

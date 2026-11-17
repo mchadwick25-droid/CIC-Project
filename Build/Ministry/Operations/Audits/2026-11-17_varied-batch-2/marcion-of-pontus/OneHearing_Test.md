@@ -31,3 +31,23 @@ Brief: `marcion-of-pontus.brief.txt` (364 words). Test: "An interested non-speci
 This states the fact plainly, then lets the wasp image colour it rather than carry it. It adds substance, not simplification.
 
 **Optional, not needed for the verdict:** in paragraph 5, "cut down Luke's Gospel" follows the brief's good-tree/bad-tree image, so a second-language listener may hear "cut down" as felling. The outline's own RIGHT wording is "shortened" (Do not say, "ten letters of Paul"): "His opponents say he shortened Luke's Gospel and Paul's letters."
+
+## Retest (revised brief, 374 words)
+
+Re-heard once, straight through.
+
+- **Who was this?** Marcion, a shipmaster from Pontus on the Black Sea, who joined the church at Rome in the middle of the second century and became a teacher the church set itself hard against.
+- **What happened?** Tertullian says that, troubled by where evil comes from, he took the Creator for a lesser god and found another, good God in Christ. He set the gospel against the law of Moses. His opponents say he shortened Luke and Paul; he said he was restoring them. Rome expelled him, and his gift with him.
+- **Why does the connection matter?** He broke from the church at Rome and founded churches of his own, the Marcionite churches. They spread to every nation, had their own martyrs, and were still there two centuries later. Meanwhile the church answered him in book after book: one God made the world and sent Jesus, and there are four Gospels.
+
+| Line | Judgment |
+|---|---|
+| Who | CLEAR |
+| What happened | CLEAR |
+| Why the connection matters | CLEAR. The rival branch of churches is now said in plain words before the wasp image, so the image adds colour instead of carrying the fact alone. |
+
+**Support check.** "Founded churches of his own, the churches of the Marcionites" follows the outline's setting line (S4: he "founded the churches of the Marcionites") and its Thread ("building churches of his own"). This is the tradition's own description, not a hostile charge, so the narrator can say it directly. "Shortened" is the outline's RIGHT wording (Do not say, "ten letters of Paul"), and it is still credited: "His opponents say".
+
+**Hostile charges stay credited.** "Firstborn of Satan" is given as Polycarp's reply, told by Irenaeus. "Bad tree" is "in Tertullian's account". "Shortened" is "his opponents say", followed by Marcion's own claim. The expulsion is "Tertullian says". The narrator adopts no charge, and the brief never calls Marcion "heretic" in its own voice.
+
+**Retest verdict: PASS.**
