@@ -103,3 +103,6 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | john-wyclif | recheck | Opus, low effort | 85,523 | PASS; 420 words against 380 (minor); Gaunt left out (minor) |
 | pachomius | recheck | Opus, low effort | 89,454 | FAIL: both blocking made, but the revision cut "at the start", so he seems always to have done all the work himself (a misleading implication); time jump at his death; 480 words against 400–450. One revision and one recheck spent: to Mark with the reason |
 | council-of-chalcedon-451 | recheck | Opus, low effort | (count on notification) | FAIL: Severus misrendered ("cured" against "wished to heal… by an opposite infection"); 471 against 450; the cuts removed must-tell material (Palestine's monks, Armenia's synod, the hand saying); a narrator's verdict ("came down to one letter"). To Mark with the reason |
+| council-of-chalcedon-451 | recheck | (count) | 93,031 | (see FAIL row above) |
+| justin-martyr | card | Opus | 138,360 | additions only (briefLength, 14 references, 3 quotation originals); no corrections; none not found |
+| baudonivia | card | Opus | 132,041 | additions only (briefLength, 10 references, 3 quotation originals); PL 72 entry kept (not clearly wrong); none not found |
