@@ -4207,3 +4207,26 @@ Every setting is passed on the command and printed before the first request. Thi
 The narration voices are now:
 - Daniel: tradition briefs and council briefs;
 - Neo: Who briefs and stories.
+
+## 2026-11-17 — The standard to write from: Polycarp, and a small set of models (Mark, 2026-11-16 and 2026-11-17)
+
+**Decided.**
+- Mark, of Polycarp, Ignatius and Justin: "i want to use these as the standard and process". The standard is the approved Polycarp brief with what each paragraph does (`Build/Ministry/Operations/Audits/2026-11-16_ignatius-calibration/Writing_from_Polycarp.md`). Its first job became "Draw the listener in" after Mark's "we cant start them all with a quote about themselves".
+- The process for each person:
+  1. A researcher builds a source sheet from the person's own record.
+  2. Two blind renderings of every quote, then a comparison that settles each reading.
+  3. A fresh writer works from the standard and the sheet.
+  4. A source-level check of every sentence against the primary texts, then fixes, then a recheck.
+  5. Mark's read.
+- Mark: "if we start doing 200 we need a little viriaty in feel based on the time and sources". The answer is a small set of approved models, one for each kind of record, with no added rules. A writer receives Polycarp and the model closest to their person. The planned models are:
+  - a writer whose life is thin and whose work is the story: Eusebius;
+  - an outside witness: Tacitus;
+  - a gathering: the Councils of Rome and Carthage in 251;
+  - a saint known mainly through a Life full of wonders, from era 3 or 4;
+  - a modern figure with abundant sources.
+- Mark: "yes, start with eusebius".
+
+**Where the work is.**
+- Ignatius and Justin are source-checked and wait for Mark's read. Both are on https://claude.ai/artifact/S5jjaZ8UnMYKVsE4j3fazN with Polycarp.
+- Eusebius is in `Build/Ministry/Operations/Audits/2026-11-17_eusebius-calibration/`.
+- The original eight early-church briefs are held until Mark says.
