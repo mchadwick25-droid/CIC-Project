@@ -5,31 +5,28 @@
     "Saint Macrina",
     "Thecla (her secret name, in Gregory's Life)"
   ],
-  "knownFor": "Eldest child of the family of Basil of Caesarea and Gregory of Nyssa, who led her mother to live as an equal with the household's slave women and made the family house a community of prayer and shared work; Gregory wrote down her deathbed teaching on the soul and rising again.",
-  "dates": "Fourth century. Died in 379, after the council of Antioch that September, by W. K. Lowther Clarke's dates; Gregory gives no year, only that she died some nine months after Basil. Her birth year is not given",
-  "place": "Pontus, a region on the Black Sea, in what is now Turkey. Gregory never names the family estate or puts her house on a river; Clarke places it at Annesi, across the river Iris from Basil's community",
+  "knownFor": "Eldest child of the family of Basil of Caesarea and Gregory of Nyssa, who led her household into a life of prayer and shared work, and whose deathbed teaching Gregory wrote down.",
+  "dates": "Died in 379, after the council of Antioch that September, by W. K. Lowther Clarke's dates; her birth year is not given",
+  "place": "Pontus; Clarke places the family estate at Annesi, on the river Iris",
   "tradition": "Cappadocian Christianity",
   "role": "Head of the women's community on the family estate; teacher of her brothers",
   "briefLength": "about 2 minutes 40 seconds",
   "legacy": {
     "traces": [
-      "Gregory's dialogue On the Soul and the Resurrection, also called in Greek the Macrinia, gives its teaching in her voice: the soul lives on after death and the body will rise.",
-      "At Ferrara in 1438, the Latin side in the debate on the state of souls after death cited Macrina speaking in Gregory's dialogue. The Greeks answered that Gregory was a man and could err; the Latins replied that he was \"brother of Basil the Great and of blessed Macrina\".",
-      "W. K. Lowther Clarke reads the community she led with her brother Peter as a double monastery, and says the Life throws light on such houses in early times.",
-      "Gregory of Nyssa says she drew their brother Basil from the pride of oratory to a life of prayer and work. Gregory of Nazianzus, Basil's friend, says Basil had already resolved on that life. Blomfield Jackson, who translated Basil's letters, gives both, and reads Macrina as giving Basil the resolve to carry it out."
+      "Gregory of Nyssa says she drew their brother Basil from the pride of oratory to a life of prayer and work. Gregory of Nazianzus, Basil's friend, says Basil had already resolved on that life. Blomfield Jackson, who translated Basil's letters, gives both, and reads Macrina as giving Basil the resolve to carry it out.",
+      "W. K. Lowther Clarke reads the community she led with her brother Peter of Sebaste as a double monastery, and says the Life throws light on such houses in early times.",
+      "Gregory's dialogue On the Soul and the Resurrection gives its teaching in her voice."
     ],
     "remembered": [
       "Gregory calls her \"the Teacher\" in the dialogue, and \"the great Macrina\" in the Life.",
-      "Peter, the brother she raised, looked to her \"as the model of all good\", Gregory says.",
       "William Moore and Henry Austin Wilson, who translated the dialogue, write that \"the Church should possess her Phædo, or Death-bed Dialogue\", and that Gregory supplied it.",
-      "Lampadia, the deaconess who led the sisters, told Gregory when he asked for burial clothes that her cloak, head-covering and worn shoes were all her wealth."
+      "Lampadia, the deaconess who led the sisters, told Gregory at her death, \"you have in front of you all her treasure.\""
     ]
   },
   "uncertain": [
-    "Her life is known from her brother Gregory. His Life of her is a loving record, written in her honor, and it tells dreams and healings as signs from God. Clarke holds that the plain style of its later pages shows a true account written soon after the events. No writing of her own survives, and no held text of Basil or of Gregory of Nazianzus names her.",
+    "Her life is known from her brother Gregory. His Life of her is a loving record, written in her honor, and it tells dreams and healings as signs from God. Clarke holds that the plain style of its later pages shows a true account written soon after the events.",
     "On the Soul and the Resurrection is Gregory's written form of their talk. It does not say how much of the argument is hers and how much his. Moore and Wilson think it was probably written in 380.",
-    "The words the Latins cited at Ferrara were used for a doctrine of purgatory that the Greek side rejected; the dialogue does not set out purgatory as later defined.",
-    "Annesi, the river Iris, and the double monastery are Clarke's placings and reading, not Gregory's. Gregory puts only her brother Naucratius's retreat on the Iris. Clarke says it is not clear whether Basil's own monastery across the Iris still stood when Gregory came.",
+    "The double monastery is Clarke's reading. He says it is not clear whether Basil's own monastery across the Iris still stood when Gregory came.",
     "The healing of a tumor by the sign of the cross was told to Gregory by Vestiana, a widow who lived with the sisters, after Macrina's death. The healing of a soldier's young daughter's eye was told to him by her father. Gregory says he leaves out more wonders he heard, among them corn that did not run out in a famine. The secret name Thecla comes from a dream of her mother's, as Gregory tells it.",
     "The Life speaks of four sons and five daughters, and an estate divided in nine parts. Clarke says the parents had ten children, of whom those nine survived infancy. Moore and Wilson say the father left ten children, five sons and five daughters."
   ],
@@ -43,13 +40,6 @@
         "file": "cic/texts/gregory-nyssa_life-of-macrina_clarke1916.txt"
       },
       {
-        "title": "Life of Macrina, in Migne, Patrologia Graeca 46",
-        "author": "Gregory of Nyssa",
-        "date": null,
-        "language": "Greek",
-        "file": "cic/texts/gregory-nyssa_opera-omnia-pg46-grc-lat_migne1863.txt"
-      },
-      {
         "title": "On the Soul and the Resurrection, with the preface and notes of Moore and Wilson",
         "author": "Gregory of Nyssa",
         "date": null,
@@ -57,42 +47,14 @@
         "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt"
       },
       {
-        "title": "Documents of the debate on purgatory at Ferrara, 1438 (ed. L. Petit)",
-        "author": "Latin and Greek delegations to the council",
-        "date": "1438",
-        "language": "Greek and Latin, with French",
-        "file": "cic/texts/patrologia-orientalis-tomus15_petit-documents-concile-de-florence-purgatoire-grc-fra_graffin-nau1927.txt"
-      },
-      {
         "title": "Prolegomena to the letters of Basil",
         "author": "Blomfield Jackson",
         "date": null,
         "language": "English",
         "file": "cic/texts/npnf208_basil-letters-select-works.xml"
-      },
-      {
-        "title": "Oration 43, on Basil",
-        "author": "Gregory of Nazianzus",
-        "date": null,
-        "language": "English translation",
-        "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml"
       }
     ]
   },
-  "briefReferences": [
-    "Life of Macrina (Clarke, lines 184, 192): Gregory arrives after eight years apart; she lies on the floor on a sack spread over a board, and lifts herself on her elbow.",
-    "World census, Cappadocian Christianity: the family of Basil of Caesarea and Gregory of Nyssa; Pontus, in what is now Turkey.",
-    "Life (Clarke, lines 64, 108, 402): written a few years after her death, as Clarke dates it.",
-    "Life (Clarke, lines 124, 128): betrothed at twelve; the young man died; her promised husband absent, not dead, in the hope of the resurrection.",
-    "Life (Clarke, lines 138, 158): her mother living as an equal with the maids, the same food and the same kind of bed, prayer by night and day.",
-    "Life (Clarke, lines 164, 264, 356): she raised Peter, who led the men's side; the foundlings picked up by the roadside in the famine.",
-    "Clarke's introduction (line 52): Basil's death and Gregory's visit in 379.",
-    "Life (Clarke, line 230; Greek, PG 46): her dying prayer.",
-    "Life (Clarke, lines 278, 284; Greek, PG 46): Lampadia, the deaconess, on her wealth.",
-    "Clarke's introduction (line 84): the Life as a light on how such a community was run.",
-    "Life (Clarke, line 196) and On the Soul and the Resurrection (Moore and Wilson): the deathbed talk, and the dialogue with her as the Teacher.",
-    "Ferrara, 1438 (Petit, lines 2304-2306, 8681-8688, 10731-10734, 10758-10760): the Latin citation of Macrina speaking, the Greek reply that Gregory was a man and could err, and the Latin rejoinder."
-  ],
   "quotationOriginals": [
     {
       "modern": "You, Lord, have set us free from the fear of death.",
@@ -110,5 +72,19 @@
       "lines": "72083-72085",
       "uncertain": "The OCR prints χεφαλῆς, κχαλύπτρα and τετρυμμένα. Clarke's English (line 284) reads \"There is the cloak, there is the head-covering, there the well-worn shoes on the feet. This is all her wealth, these are her riches.\""
     }
+  ],
+  "briefReferences": [
+    "Life of Macrina (Clarke, lines 184, 192): Gregory arrives after eight years apart; she lies on the floor on a sack spread over a board, and lifts herself on her elbow.",
+    "World census, Cappadocian Christianity: the family of Basil of Caesarea and Gregory of Nyssa; Pontus, in what is now Turkey.",
+    "Life (Clarke, lines 64, 108, 402): written a few years after her death, as Clarke dates it.",
+    "Life (Clarke, lines 124, 128): betrothed at twelve; the young man died; her promised husband absent, not dead, in the hope of the resurrection.",
+    "Life (Clarke, lines 138, 158): her mother living as an equal with the maids, the same food and the same kind of bed, prayer by night and day.",
+    "Life (Clarke, lines 164, 264, 356): she raised Peter, who led the men's side; the foundlings picked up by the roadside in the famine.",
+    "Clarke's introduction (line 52): Basil's death and Gregory's visit in 379.",
+    "Life (Clarke, line 230; Greek, PG 46): her dying prayer.",
+    "Life (Clarke, lines 278, 284; Greek, PG 46): Lampadia, the deaconess, on her wealth.",
+    "Clarke's introduction (line 84): the Life as a light on how such a community was run.",
+    "Life (Clarke, line 196) and On the Soul and the Resurrection (Moore and Wilson): the deathbed talk, and the dialogue with her as the Teacher.",
+    "Ferrara, 1438 (Petit, lines 2304-2306, 8681-8688, 10731-10734, 10758-10760): the Latin citation of Macrina speaking, the Greek reply that Gregory was a man and could err, and the Latin rejoinder."
   ]
 }

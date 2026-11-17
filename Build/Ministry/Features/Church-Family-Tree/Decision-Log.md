@@ -4332,3 +4332,12 @@ The narration voices are now:
 - `Brief-Kit/roles/researcher.md`: the line on sources is rewritten. The card's `sources` field is a starting list only; the researcher sweeps every corpus-map bucket for the subject's traditions with `WORKS.yaml`, `AUTHOR-IDS.yaml` and `RETRIEVAL-HINTS.md`, and searches `cic/texts/` for every name form, above all for later witnesses. A primary text is preferred to an editor's note, and an editor-only claim is marked as the editor's. The sheet ends with a **Library sweep**: what was searched, how many files mention the subject, which were used, and why the main ones left aside were set aside.
 - `Brief-Kit/roles/checker.md` gains the matching check: the sweep is real, and no held primary text or major later witness is missing.
 - This governs new outlines. It does not reopen the existing cards, which Mark notes "have been written and checked multiple times from the library".
+
+## 2026-11-17 — Cards: back to the originals; only new or clearly wrong edits (Mark, 2026-11-17)
+
+**Why.** Mark: "the current cards have been written and checked multiple times from the library, i don't want to loose quality just because the reviewers are not as indepth as the previous library builds and card builds". A sentence count of the twelve refreshed cards found the refresh had removed or reworded a large share of each original (Martin 26 of 41 sentences, Columba 34 of 53, Cyril and Methodius 35 of 55, Benedict 48 of 94, Clement 16 of 24) and doubled or tripled their length: far more than "use what is good". The checks had tested what changed, not whether it should have.
+
+**Decided (Mark, 2026-11-17): "go back to the original and make any edits that are new or clearly wrong on the card".**
+- Each of the twelve cards is rebuilt from its original, word for word. The new brief's checked `quotationOriginals`, `briefReferences` and `briefLength` (and, for Nicaea, `howItWorked` and `stories`) are carried over unchanged from the refresh. The refreshed versions are kept beside them as `*.refresh1.card.json` / `*.refresh1.entry.json` for reference only.
+- Only clearly wrong statements are then corrected, each listed in `Card_Edits.md` with its evidence; a claim not found stays and is flagged.
+- `Brief-Kit/roles/card.md` is rewritten to this rule, and `Brief-Kit/Process.md` step 6 with it.

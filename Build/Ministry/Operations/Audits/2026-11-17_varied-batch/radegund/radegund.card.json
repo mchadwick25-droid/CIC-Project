@@ -5,41 +5,35 @@
     "Radegunde",
     "Saint Radegund of Poitiers"
   ],
-  "knownFor": "A Thuringian princess taken as spoil and married by the Frankish king Lothar, who left him, was consecrated by Medard at Noyon, founded a monastery for women at Poitiers, later called Holy Cross, and wrote the letter that defended it after her death.",
-  "dates": "Sixth century. Died on 13 August, by Gregory of Tours and Baudonivia, in the twelfth year of King Childebert, a year the editors give as 587. No source of her time gives the year of her birth or of her capture; O. M. Dalton dates the campaign in which she was taken to about 531",
-  "place": "Born a princess of the Thuringians; raised at the royal estate of Athies; queen of the Franks; consecrated at Noyon; founded her monastery at Poitiers, where she died",
+  "knownFor": "A Thuringian princess taken captive and married by the Frankish king Lothar, who left him to become a nun and founded the monastery of Holy Cross at Poitiers.",
+  "dates": "Died in the twelfth year of King Childebert, on the thirteenth of August by Baudonivia's Life, a year the editors give as 587",
+  "place": "Born a princess of the Thuringians; queen of the Franks; consecrated at Noyon; founded her monastery at Poitiers, where she died",
   "tradition": "Merovingian Gallic Christianity",
-  "role": "Queen; deaconess and founder of a monastery for women at Poitiers",
+  "role": "Queen; nun and founder of the monastery of Holy Cross at Poitiers",
   "briefLength": "about 2 minutes 30 seconds",
   "keyWorks": [
     {
       "title": "Letter to the bishops",
-      "about": "her letter, kept in Gregory of Tours's History, setting out the founding of her monastery, its Rule and its abbess, and asking the bishops to protect it from any tyrant and, after her death, to stop anyone, even the bishop of the city, who tried to break the Rule or replace the abbess"
+      "about": "her letter, kept in Gregory of Tours's History, setting out the founding of her monastery, its Rule and its abbess, and asking the bishops to protect it"
     }
   ],
   "legacy": {
     "traces": [
-      "She gave her community the Rule that Caesarius of Arles wrote for his sister Caesaria, as her letter says. Under it a nun stayed inside the walls for life.",
-      "Her letter defended the house after her death. When forty or more nuns walked out in revolt, the abbess read it aloud and sent copies to the bishops of the neighbouring cities, and at the bishops' hearing she said she had kept \"the custom of the lady Radegund\". Gregory of Tours copied the whole letter into his History.",
-      "Her monastery at Poitiers took the name of Holy Cross, as Dalton and Bruno Krusch report. Gregory of Tours tells how she sent to the East, with King Sigibert's letters, for wood of the Cross; Baudonivia says the emperor sent it adorned with gold and gems. Dalton says the relic in its gold case was still at Poitiers in 1927.",
-      "Venantius Fortunatus wrote that by her wish he stayed close to her, in a line badly damaged in the held text. Dalton says he often enjoyed the hospitality of Radegund and Agnes, and he wrote poems to them, a poem thanking the emperor Justin and the empress Sophia for the Cross, and her Life."
+      "Her monastery at Poitiers took the name of Holy Cross, Bruno Krusch says. Gregory of Tours tells how she sent to the East for wood of the True Cross.",
+      "She gave her community the Rule that Caesarius of Arles wrote for his sister Caesaria, as her letter says.",
+      "Venantius Fortunatus stayed at Poitiers because of her, he writes, and wrote poems to her and her Life."
     ],
     "remembered": [
-      "Gregory of Tours and Baudonivia both compare her to Helena, Constantine's mother, said to have found the Cross. Gregory says he saw a lamp before her Cross overflow with oil, and that from then on he preached the power of the holy Cross.",
-      "The bishops wrote to her that young women flocked from their dioceses to take up her Rule. Gregory says about two hundred nuns stood round her bier, some from senators' and some from kings' families.",
-      "Two Lives were written of her: one by Fortunatus, her friend, after her death, and one by Baudonivia, a nun of her house whom she raised, after 600, as Krusch dates them.",
-      "Gregory of Tours came and buried her when the bishop of Poitiers was away, and tells of it in his History and his book on the confessors."
+      "Two Lives were written of her: one by Fortunatus, her friend, after her death, and one by Baudonivia, a nun of her house, after 600, as Krusch dates them.",
+      "Gregory of Tours was at her burial and tells of it in his History and his book on the confessors."
     ]
   },
   "uncertain": [
     "Her own words. Her letter in Gregory's History is given as hers, and Dalton and Krusch take it so. Three poems in her voice, among them a lament for Thuringia, are printed with Fortunatus's works; Friedrich Leo, Bruno Krusch, M. A. Luchi and O. M. Dalton all treat them as Fortunatus's, written in her name.",
-    "Her words at the altar of Noyon are Fortunatus's telling; Gregory does not tell the scene. Fortunatus says she left the king \"directa a rege\", which can mean sent by the king or setting out from him.",
-    "\"A nun rather than a queen.\" Fortunatus says it was said to the king that he had a nun for a wife; Krusch reads it as the king's own view.",
     "Whether she went to Arles. Gregory says she went there with the abbess for the Rule. Krusch followed him in 1888, but in 1896 judged, after Arnold, that Gregory was wrong; Malnory, as Krusch reports him, kept to Gregory.",
-    "Who refused the Cross. Gregory says Maroveus, bishop of Poitiers, would not receive it and rode off to a country estate, so the king sent Eufronius, bishop of Tours. Baudonivia says the bishop and people wished to receive it and blames the enemy of mankind working through his followers. No source says why Maroveus opposed her.",
-    "When she wrote the letter. Sirmond placed it at the founding of her community and linked the bishops' answer to the council of Tours of 567. Friedrich Maassen notes that the link rests on the names of the signers. Its greeting reads \"Radegund of Poitiers\" in Dalton's English and \"Radegund, a sinner\" in the Latin edition.",
+    "When she wrote the letter. Sirmond placed it at the founding of her community and linked the bishops' answer to the council of Tours of 567. Friedrich Maassen notes that the link rests on the names of the signers.",
     "Her years. None of these sources gives a year of birth or of her capture. The year 587 for her death is the editors' reckoning from Gregory's year of King Childebert.",
-    "Praise from inside. All three who wrote of her loved her: a friend, a nun she raised and a bishop who was her ally. Some scenes, such as the burning of a Frankish shrine, the king's attempt to take her back and her letters to the kings for peace, rest on Baudonivia alone, and Krusch says Baudonivia copied some passages word for word from the Life of Caesarius."
+    "The scenes of her Lives come from friends and nuns of her house. Krusch says Baudonivia copied some passages word for word from the Life of Caesarius."
   ],
   "sources": {
     "ownWords": [
@@ -47,11 +41,6 @@
         "title": "Letter of Radegund to the bishops, in Gregory of Tours, History of the Franks IX.42 (tr. O. M. Dalton)",
         "language": "English translation",
         "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt"
-      },
-      {
-        "title": "Letter of Radegund to the bishops, in Gregory of Tours, Historia Francorum IX.42 (ed. Arndt and Krusch)",
-        "language": "Latin",
-        "file": "cic/texts/gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885.txt"
       }
     ],
     "about": [
@@ -92,17 +81,6 @@
       }
     ]
   },
-  "briefReferences": [
-    "Gregory of Tours, History III.7, tr. O. M. Dalton: Lothar took Radegund captive, married her, and later had her brother killed.",
-    "Fortunatus, Life of Radegund I (Latin, ed. Krusch): the kings' quarrel over the captive; her care for poor women at Athies; her plea to Medard at Noyon; the nobles dragging him from the altar; her nun's dress and her charge; her consecration as a deaconess.",
-    "Radegund's letter, History IX.42: the monastery at Poitiers founded with the king's backing and endowed with all she had; the Rule of Caesarius and Caesaria; her request that the bishops stop anyone, even the bishop of the city, who would break the Rule or replace the abbess; \"I make prostration vicariously through this letter\".",
-    "History IX.39, the bishops' letter to her: a nun who enters may never leave.",
-    "History IX.40: the wood of the Cross from the East, with King Sigibert's letters. Baudonivia, Life II: the Cross set in gold and gems. Gregory, Glory of the Martyrs 5, and Baudonivia: the comparison with Helena.",
-    "History IX.2: her death and burial, Gregory present. Glory of the Confessors 104: about two hundred nuns at the bier; the bishop of Poitiers away. Editors: the year 587.",
-    "History IX.39 and IX.42: forty or more nuns walk out; the abbess reads Radegund's letter aloud and sends copies to the neighbouring bishops. History X.16: \"the custom of the lady Radegund\".",
-    "Gregory, Glory of the Martyrs 5: the lamp before the Cross that overflowed, and \"from then on I preached the power of the holy Cross\".",
-    "World census, Merovingian Gallic Christianity: her setting and tradition."
-  ],
   "quotationOriginals": [
     {
       "modern": "If you put off consecrating me, and fear a man more than God, then, shepherd, may the soul of your sheep be demanded from your hand.",
@@ -130,5 +108,16 @@
       "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
       "lines": "21416-21418"
     }
+  ],
+  "briefReferences": [
+    "Gregory of Tours, History III.7, tr. O. M. Dalton: Lothar took Radegund captive, married her, and later had her brother killed.",
+    "Fortunatus, Life of Radegund I (Latin, ed. Krusch): the kings' quarrel over the captive; her care for poor women at Athies; her plea to Medard at Noyon; the nobles dragging him from the altar; her nun's dress and her charge; her consecration as a deaconess.",
+    "Radegund's letter, History IX.42: the monastery at Poitiers founded with the king's backing and endowed with all she had; the Rule of Caesarius and Caesaria; her request that the bishops stop anyone, even the bishop of the city, who would break the Rule or replace the abbess; \"I make prostration vicariously through this letter\".",
+    "History IX.39, the bishops' letter to her: a nun who enters may never leave.",
+    "History IX.40: the wood of the Cross from the East, with King Sigibert's letters. Baudonivia, Life II: the Cross set in gold and gems. Gregory, Glory of the Martyrs 5, and Baudonivia: the comparison with Helena.",
+    "History IX.2: her death and burial, Gregory present. Glory of the Confessors 104: about two hundred nuns at the bier; the bishop of Poitiers away. Editors: the year 587.",
+    "History IX.39 and IX.42: forty or more nuns walk out; the abbess reads Radegund's letter aloud and sends copies to the neighbouring bishops. History X.16: \"the custom of the lady Radegund\".",
+    "Gregory, Glory of the Martyrs 5: the lamp before the Cross that overflowed, and \"from then on I preached the power of the holy Cross\".",
+    "World census, Merovingian Gallic Christianity: her setting and tradition."
   ]
 }

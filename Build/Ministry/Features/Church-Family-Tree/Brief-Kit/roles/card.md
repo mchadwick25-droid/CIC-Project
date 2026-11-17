@@ -1,13 +1,10 @@
 # Card writer
 
-You update the card for **{NAME}** to match its finished brief. Start from the existing card, `{CARD}`. Keep what is good, change only what the new brief and its source sheet require, and keep the card's existing fields and shape.
+You update the card for **{NAME}** to go with its finished brief. The existing card, `{CARD}`, comes from earlier Library builds that were checked more than once. Keep it word for word, and make only two kinds of edit.
 
-Read the brief `{FOLDER}/{SLUG}.brief.txt`, then `{FOLDER}/Outline.md`, `{FOLDER}/Source_Sheet.md` and the existing card. For the format of a card's quotations and references, look at `Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch2/benedict-of-nursia.card.json`.
+1. **New.** Add what the new brief brings: its quotations, each with the modern rendering exactly as the brief has it, the printed or original wording verbatim from its file and lines, and the work. Add the references the brief draws on, and its real `briefLength`. For the format, see `Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era3/batch2/benedict-of-nursia.card.json`. Re-read each cited line in its file.
+2. **Clearly wrong.** Correct a statement only when a held source contradicts it, or when it contradicts the finished brief. Change the fewest words that put it right. A claim you cannot find support for is not wrong: leave it in place and list it as not found.
 
-1. Correct any claim on the card that the source sheet contradicts, and give its confidence plainly where it is uncertain. If you cannot find support for a claim, leave it in place and list it in your reply as not found; the checker decides whether it stays.
-2. Make the card agree with the brief. Its known-for, role, dates, place, tradition, legacy and uncertainties tell the same story. The card can carry fuller qualifications than the brief, never different facts.
-3. **Quotations and references.** For every quote the brief uses, give the modern rendering exactly as the brief has it, the printed or original wording verbatim from its file and lines, and the work. List the references the brief draws on. Re-read each cited line in its file.
-4. Set `briefLength` to the brief's real length.
-5. Leave connections to other entries out for now.
+Do not reword, reorder, expand or shorten anything else. Leave connections to other entries out for now.
 
-Write the updated card to `{FOLDER}/{SLUG}.card.json`. Do not edit the census, the existing card or the brief, and do not commit. Reply in under 120 words: what you kept, what you changed and why, and any claim you could not find support for.
+Read the brief `{FOLDER}/{SLUG}.brief.txt`, `{FOLDER}/Outline.md` and `{FOLDER}/Source_Sheet.md`. Write the card to `{FOLDER}/{SLUG}.card.json`, and list every edit in `{FOLDER}/Card_Edits.md`: the old words, the new words, and the evidence (file and lines, or the brief's sentence). Do not edit the census, the existing card or the brief, and do not commit. Reply in under 120 words: each edit in one line, and any claim not found.

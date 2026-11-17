@@ -4,37 +4,32 @@
     "Antony of Egypt",
     "Antony the Abbot"
   ],
-  "knownFor": "An Egyptian Christian who took the Gospel's call to sell everything as spoken to him, gave away his farm and went into the desert; the Life written of him became the pattern that monks far beyond Egypt copied, and moved Augustine toward his conversion.",
-  "dates": "Lived on into the time of the emperor Constantine and his sons. The Life gives no year, only his age near death, \"near a hundred and five\". Born 251 and died 356 by Ernest Cushing Richardson's note to Jerome",
-  "place": "An Egyptian village the Life does not name (Coma, near Heraclea, in Sozomen, about ninety years later); a deserted fort across the river; the inner mountain, three days into the desert; Alexandria",
+  "knownFor": "The Egyptian hermit whose withdrawal to the desert, and the Life written of him, drew monks after him and spread monasticism east and west.",
+  "dates": "Born 251, died 356, in Ernest Cushing Richardson's note to Jerome; the Life gives his age at death as \"near a hundred and five\"",
+  "place": "Coma, near Heraclea in Egypt (Sozomen), and the Egyptian desert",
   "tradition": "Desert Monasticism",
   "role": "Hermit and father of the desert monks",
   "briefLength": "about 3 minutes",
   "keyWorks": [
     {
       "title": "Seven Letters",
-      "about": "letters in Coptic to various monasteries, which Jerome says were translated into Greek; none is held in this Library"
+      "about": "letters in Coptic to various monasteries, which Jerome of Strido says were translated into Greek; none is held in this Library"
     }
   ],
   "legacy": {
     "traces": [
-      "Monks who followed him into the desert in his lifetime, so that, in the Life's Greek, \"the desert became a city of monks\".",
-      "The Life, written for monks abroad as \"a sufficient pattern of discipline\", was soon translated into Latin by Evagrius of Antioch. It asks how a man hidden on a mountain came to be heard of in Spain, Gaul, Rome and Africa.",
-      "In his Confessions, Augustine of Hippo tells how two court officials at Trier read the Life in a monks' cottage and left the court that day to serve God, and how, in a garden at Milan, he remembered Antony and the Gospel reading before his own conversion.",
-      "Hilarion came from Palestine to learn from him and went home \"to begin as Antony had begun\", in Jerome's account; Sozomen, much later, lists his disciples in Egypt, Libya, Palestine, Syria and Arabia."
+      "Monks who settled the Egyptian desert in his lifetime, so that the Life says \"the desert was colonised by monks.\"",
+      "A pattern of withdrawal that spread west. In his Confessions, Augustine of Hippo tells how two court officials read the Life and resolved to leave the court and serve God, and how hearing of Antony moved him."
     ],
     "remembered": [
       "The Life of Antony, long read as the work of Athanasius of Alexandria, carried his name across the Latin West.",
-      "He stood against the Arians: the Life says he came down to Alexandria and taught that the Son of God was not created.",
-      "Archibald Robertson judges that Jerome modelled his \"highly idealised tales of Paul and Hilarion\" on it, and that it \"kindled the flame of monastic aspirations\" at Rome and all over the West."
+      "Jerome of Strido modeled his own Life of Hilarion on it, and Robertson notes it \"kindled the flame of monastic aspirations\" at Rome and across the West."
     ]
   },
   "uncertain": [
-    "Antony's life is known chiefly from the Life of Antony, a work of praise full of wonders. Archibald Robertson, its editor, grants there is \"idealisation, panegyric\" in it. Its fights with demons and its healings stay in its own voice.",
-    "Who wrote the Life is disputed. The church has long given it to Athanasius of Alexandria. Robertson holds the dispute open but judges \"the external evidence for the Vita is too strong to allow us to set it aside as spurious.\" He dates it between 356 and 362. He also records that Gwatkin pronounced that Antony \"never existed,\" and calls him \"far ahead of his evidence\".",
-    "The Life's writer says he was Antony's attendant and \"poured water on his hands.\" The edition's note says that some manuscripts, Greek and Latin, make the attendant someone else.",
-    "He was not the first hermit. The Life shows hermits already living near the villages, and Jerome backs Paul of Thebes as the first; Jerome says the rest drew from Antony \"the necessary stimulus\".",
-    "The Life says he \"had not learned letters\" and spoke Egyptian, needing an interpreter for Greek, yet it says he wrote to the emperors. It does not say whether he wrote with his own hand or dictated.",
+    "Antony's life is known chiefly from the Life of Antony, a work of praise. Archibald Robertson, its editor, grants there is \"idealisation, panegyric\" in it.",
+    "The Life's writer says he was Antony's attendant and \"poured water on his hands.\" Robertson notes that some manuscripts, Greek and Latin, make the attendant someone else, and that the text \"requires further sifting.\"",
+    "Who wrote the Life is disputed. The church has long given it to Athanasius of Alexandria. Robertson holds the dispute open but judges \"the external evidence for the Vita is too strong to allow us to set it aside as spurious.\" He also records that Gwatkin went so far as to pronounce that Antony \"never existed,\" and calls that far ahead of the evidence.",
     "Jerome says Antony's seven Coptic letters were translated into Greek. None is held in this Library, so Antony's own voice cannot be checked here against the Life."
   ],
   "sources": {
@@ -47,14 +42,7 @@
         "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
       },
       {
-        "title": "Life of Antony, in Migne, Patrologia Graeca 26",
-        "author": "attributed to Athanasius of Alexandria",
-        "date": null,
-        "language": "Greek",
-        "file": "cic/texts/athanasius_opera-omnia-pg26-grc-lat_migne1857.txt"
-      },
-      {
-        "title": "Ecclesiastical History, Book 1, chapter 13 (Antony's birthplace of Coma and his disciples)",
+        "title": "Ecclesiastical History, Book 1, chapter 13 (Antony's birthplace of Coma)",
         "author": "Sozomen",
         "date": null,
         "language": "English translation",
@@ -62,47 +50,20 @@
       },
       {
         "title": "On Illustrious Men, chapter 88, with Richardson's note",
-        "author": "Jerome",
+        "author": "Jerome of Strido",
         "date": null,
         "language": "English translation",
         "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
       },
       {
-        "title": "Life of Hilarion; Life of Paul the First Hermit; Letters 22 and 57",
-        "author": "Jerome",
-        "date": null,
-        "language": "English translation",
-        "file": "cic/texts/npnf206_jerome-principal-works.xml"
-      },
-      {
-        "title": "Confessions, Book 8, chapters 6 and 12 (tr. J. G. Pilkington)",
+        "title": "Confessions, Book 8, chapters 6 and 12 (Antony's Life read at the court)",
         "author": "Augustine of Hippo",
         "date": null,
         "language": "English translation",
         "file": "cic/texts/npnf101_augustine-confessions-letters.xml"
-      },
-      {
-        "title": "Confessions (ed. Knöll, CSEL 33)",
-        "author": "Augustine of Hippo",
-        "date": null,
-        "language": "Latin",
-        "file": "cic/texts/augustine_confessiones-lat_knoll-csel33.txt"
       }
     ]
   },
-  "briefReferences": [
-    "Life of Antony §1–2: his Christian parents of good family and wealth; their death when he was about eighteen or twenty; the Gospel reading, the fields given to the villagers, the rest sold for the poor.",
-    "Life §3–4, §7: the hermits near the villages, the old man of the next village, work with his hands, bread and salt once a day.",
-    "Life, prologue, and Robertson's introduction: the authorship long credited to Athanasius, and the date, 356–362.",
-    "Life §12, §14: the deserted fort across the river, the walled door, bread twice a year; the door forced after nearly twenty years; \"the desert became a city of monks\" (Greek, PG 26).",
-    "Life §49–50: crowds and healings; three days into the desert to the mountain with a spring.",
-    "Life §69: against the Arians in Alexandria; the Son of God not created.",
-    "Life §89–91: near a hundred and five; burial in secret, against the Egyptian custom of keeping the holy dead in houses.",
-    "Life, prologue and §93: a pattern for monks abroad; heard of in Spain, Gaul, Rome and Africa.",
-    "Robertson's introduction: the Latin translation by Evagrius of Antioch.",
-    "Life §81: Constantine and his sons wrote to him.",
-    "Augustine, Confessions VIII.6.14–15: Pontitianus, the two officials at Trier. VIII.12.29: the garden at Milan, Antony and the Gospel reading, the letters of Paul."
-  ],
   "quotationOriginals": [
     {
       "modern": "the desert became a city of monks.",
@@ -120,5 +81,18 @@
       "lines": "13470-13473, 13501",
       "uncertain": "\"You\" is God, to whom the Confessions are addressed. \"Divine word\" renders oraculum. The Pilkington English (npnf101, lines 13117-13124) reads \"And by such oracle was he forthwith converted unto Thee.\""
     }
+  ],
+  "briefReferences": [
+    "Life of Antony §1–2: his Christian parents of good family and wealth; their death when he was about eighteen or twenty; the Gospel reading, the fields given to the villagers, the rest sold for the poor.",
+    "Life §3–4, §7: the hermits near the villages, the old man of the next village, work with his hands, bread and salt once a day.",
+    "Life, prologue, and Robertson's introduction: the authorship long credited to Athanasius, and the date, 356–362.",
+    "Life §12, §14: the deserted fort across the river, the walled door, bread twice a year; the door forced after nearly twenty years; \"the desert became a city of monks\" (Greek, PG 26).",
+    "Life §49–50: crowds and healings; three days into the desert to the mountain with a spring.",
+    "Life §69: against the Arians in Alexandria; the Son of God not created.",
+    "Life §89–91: near a hundred and five; burial in secret, against the Egyptian custom of keeping the holy dead in houses.",
+    "Life, prologue and §93: a pattern for monks abroad; heard of in Spain, Gaul, Rome and Africa.",
+    "Robertson's introduction: the Latin translation by Evagrius of Antioch.",
+    "Life §81: Constantine and his sons wrote to him.",
+    "Augustine, Confessions VIII.6.14–15: Pontitianus, the two officials at Trier. VIII.12.29: the garden at Milan, Antony and the Gospel reading, the letters of Paul."
   ]
 }
