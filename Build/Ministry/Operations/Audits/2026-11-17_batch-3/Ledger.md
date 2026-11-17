@@ -96,3 +96,6 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | john-wyclif | revision | Opus (same writer, resumed) | 114,612 cumulative | B1 and 4 minor made; Gaunt left out for length; 423 words against 380; v2 kept |
 | arius | recheck | Opus, low effort | 85,774 | PASS; new minor: the bishop's refusal in the narrator's voice, Athanasius credited on the next sentence |
 | third-council-of-toledo-589 | recheck | Opus, low effort | 91,150 | FAIL: Saragossa's re-blessing of priests still missing; 555 words, near four minutes. One revision and one recheck spent: to Mark with the reason (Process.md step 5) |
+| thomas-a-kempis | recheck | Opus, low effort | 83,182 | PASS; a wording note ("stopped singing until… driven") left for Mark's ear |
+| pachomius | revision | Opus (same writer, resumed) | 120,456 cumulative | B1, B2 and minors made; 480 words against 450; v2 kept |
+| council-of-chalcedon-451 | revision | Sonnet (same writer, resumed) | 124,835 cumulative | both blocking and the snags made; Tome quote, hand saying and signatures cut; 471 words against 450; v2 kept |
