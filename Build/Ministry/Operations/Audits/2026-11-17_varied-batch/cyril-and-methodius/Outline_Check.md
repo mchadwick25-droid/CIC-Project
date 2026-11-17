@@ -38,3 +38,7 @@ I checked the outline on its own terms. I reopened the cited lines in VC, GZ (VM
 10. **MINOR. "Who tells it" has two loose dates.**
     - *Life of Clement*: "a Bulgarian follower of Clement or Archbishop Theophylact, around 1100" lets "around 1100" cover both possible authors. A follower who lived with Clement (died 916) would have written in the early 10th century (D2, PG 96729–96746). Correction: "either by a Bulgarian who had lived with Clement, in the early tenth century, or by Archbishop Theophylact, around 1100. Disputed (D2)."
     - The two Lives: "copies of the 15th century and later" is supported for the *Life of Constantine* (VCI 17951–17956: 1469 and 1479). For the *Life of Methodius*, Ginzel dates the Old Russian copy by its language to the 14th century (GZ 1551–1553). Correction: "kept only in copies made centuries later, from the 14th and 15th centuries on." The spoken line can stay as it is.
+
+## Researcher's response
+
+All ten findings accepted and applied; no disagreements. One correction to finding 10: Ginzel's 14th-century dating of the Old Russian text of VM is at GZ 1555–1556, not 1551–1553; the sheet and outline cite those lines.

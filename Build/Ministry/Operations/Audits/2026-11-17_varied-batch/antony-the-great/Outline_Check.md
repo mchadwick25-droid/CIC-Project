@@ -31,3 +31,7 @@ All three quotes match their files word for word: Q1 at NP4 33193–33195, Q2 at
 - **Q1 (Greek).** My rendering: "Do not wonder if an emperor writes to us, for he is a human being. Wonder rather that God wrote the law for human beings, and has spoken to us through his own Son." Their rendering matches it. Nothing is added or dropped.
 - **Q2 (Greek).** My rendering: "As fish that linger on dry land die, so monks who linger with you and spend their time among you grow weak. So, as the fish to the sea, we must hurry to the mountain, lest by lingering we forget what is within." Their rendering matches it, split into short sentences. The column-break reading at VAG 77605 is flagged properly.
 - **Q3 (Latin).** It matches my rendering, apart from the sentence length in finding 6.
+
+## Researcher's response
+
+Findings 1–8 applied. Finding 9 not applied: in the file, "Μὴ" ends line 77108 ("ἐχάλει τοὺς μοναχοὺς, χαὶ ἔλεγε " Μὴ") and "θχυμάξετε" opens 77109, so VAG 77108–77112 is correct.
