@@ -1,0 +1,117 @@
+{
+  "knownFor": "A philosopher who became a Christian teacher at Rome, defended Christians to the emperor, and was beheaded for refusing to sacrifice.",
+  "datesNote": "Died about 165",
+  "placeNote": "Flavia Neapolis in Palestine, then Rome",
+  "role": "Teacher and apologist",
+  "briefLength": "about 3 minutes 10 seconds",
+  "keyWorks": [
+    {
+      "title": "First Apology",
+      "about": "addressed to Antoninus Pius, with the Word shared by every race and a Sunday service"
+    },
+    {
+      "title": "Second Apology",
+      "about": "a shorter defense, in which he names Crescens"
+    },
+    {
+      "title": "Dialogue with Trypho",
+      "about": "his conversion story, and an argument with a Jew that the prophets spoke of Jesus"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Tatian, who wrote the Address to the Greeks, was his hearer, Irenaeus of Lyon says."
+    ],
+    "remembered": [
+      "The account of his trial before Rusticus was kept as the Martyrdom of Justin.",
+      "Eusebius of Caesarea calls him \"a genuine lover of the true philosophy.\""
+    ]
+  },
+  "uncertain": [
+    "Eusebius says a plot by Crescens the Cynic brought about his death. Arthur McGiffert, who translated Eusebius, notes that Crescens is known only from Justin and Tatian, Crescens's enemies, and that the trial account does not name him.",
+    "One tradition dates his death under Antoninus Pius, another under Marcus Aurelius. McGiffert favors the later one, since Rusticus became prefect of Rome in 163.",
+    "The trial account is of unknown date and author. Dods, who translated it, says it is generally reckoned among the most trustworthy martyr accounts. Some copies add that Justin died by hemlock, which Dods calls an absurd addition."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "First and Second Apology; Dialogue with Trypho",
+        "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+        "language": "English"
+      },
+      {
+        "title": "First Apology (Greek)",
+        "file": "cic/texts/justin-martyr_first-apology-grc_rauschen1911.txt",
+        "language": "Greek"
+      },
+      {
+        "title": "Second Apology (Greek)",
+        "file": "cic/texts/justin-martyr_second-apology-grc_rauschen1911.txt",
+        "language": "Greek"
+      },
+      {
+        "title": "Dialogue with Trypho (Greek)",
+        "file": "cic/texts/justin-martyr_dialogue-with-trypho-grc_archambault1909.txt",
+        "language": "Greek"
+      }
+    ],
+    "about": [
+      {
+        "title": "The Martyrdom of the Holy Martyrs Justin, Chariton and others",
+        "author": "Unknown",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml"
+      },
+      {
+        "title": "Church History, Book 4, chapters 16 to 18",
+        "author": "Eusebius of Caesarea",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      }
+    ]
+  },
+  "briefReferences": [
+    "First Apology 1 (Greek, Rauschen): Justin, son of Priscus, of Flavia Neapolis in Syria Palaestina; Arthur McGiffert's note to Eusebius: a Roman town in Samaria, near the ruins of Sychem.",
+    "Dialogue with Trypho 2 (Greek, Archambault): the Stoic who taught him nothing about God, and the Platonist with whom, \"in my stupidity\", he hoped soon to see God.",
+    "Dialogue 3 and 7: the old man near the sea, and the prophets, older than all the philosophers. Dialogue 8.1–2: the fire in his soul, and the only sure and useful philosophy.",
+    "Second Apology 12: he saw slandered Christians unafraid of death.",
+    "Dialogue 1: Trypho, a Hebrew who fled the war, greets him as a philosopher by his dress. Dialogue 16: the Jews' sufferings \"justly\" suffered. Dialogue 142: the parting as friends, each praying for the other.",
+    "Second Apology 2: Ptolemaeus and Lucius, asked only whether they were Christians.",
+    "First Apology 1, 2 and 4: the petition to Antoninus Pius and his sons; judgment by deeds, not by the name. First Apology 46: Christ the Word, shared by every race; Socrates and Heraclitus Christians, though counted godless. No reply is recorded.",
+    "Second Apology 8 (Rauschen's order; 3 in the ANF English): Crescens the Cynic, who denounced Christians in public, and the plot Justin expected.",
+    "Martyrdom of Justin (Greek, Gebhardt, from Otto's text; English tr. Dods): his lodging above a bath-house in Rome, the six others, Rusticus's question and Justin's answer, the refusal to sacrifice, the scourging and beheading. Dods: nothing known of its date or author.",
+    "Eusebius, Church History IV.16, with McGiffert's note: the death about 165, Rusticus prefect of Rome from 163.",
+    "Irenaeus, Against Heresies IV.6.2: Justin's book against Marcion and the one God who made the world. First Apology 26: Marcion's other, greater God.",
+    "Irenaeus, Against Heresies I.28.1, and Hippolytus, Refutation X: Tatian his hearer or disciple; Irenaeus: after Justin's martyrdom Tatian left the Church.",
+    "Tatian, Address to the Greeks 18–19 (Greek, Otto; English ANF 2): \"the most admirable Justin\", the so-called gods as robbers who hold people for ransom, and Crescens's attempt to bring death on Justin \"and indeed on me\".",
+    "Tertullian, Against the Valentinians 5: \"Justin, philosopher and martyr\"."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "At once a fire was lit in my soul. A love took hold of me for the prophets, and for those men who are friends of Christ. As I turned his words over in my mind, I found this to be the only philosophy that is sure and useful. That is how, and why, I am a philosopher.",
+      "original": "Ἐμοὶ δὲ παραχρῆμα πῦρ ἐν τῇ ψυχῇ ἀνήφθη, καὶ ἔρως εἶχέ με τῶν προφητῶν καὶ τῶν ἀνδρῶν ἐκείνων, οἵ εἰσι Χριστοῦ φίλοι· διαλογιζόμενός τε πρὸς ἐμαυτὸν τοὺς λόγους αὐτοῦ ταύτην μόνην εὕρισκον φιλοσοφίαν ἀσφαλῆ τε καὶ σύμφορον. Οὕτως δὴ καὶ διὰ ταῦτα φιλόσοφος ἐγώ.",
+      "work": "Dialogue with Trypho 8.1–2, Greek, ed. Georges Archambault",
+      "file": "cic/texts/justin-martyr_dialogue-with-trypho-grc_archambault1909.txt",
+      "lines": "429-435",
+      "uncertain": "\"ἀσφαλῆ\" is rendered \"sure\"; the ANF English (cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml 17853-17857) prints \"safe and profitable\"."
+    },
+    {
+      "modern": "So you suppose that you will go up into the heavens, to receive some reward?",
+      "original": "Σὺ οὖν ὑπονοεῖς ὅτι ἀναβή on eis τοὺς οὐρανούς, ἀμοιβάς τινας ἀποληψόμενος;",
+      "work": "Martyrdom of Justin V.3 (Rusticus), Greek, ed. Oscar von Gebhardt",
+      "file": "cic/texts/acta-martyrum-selecta_gebhardt1902.txt",
+      "lines": "1410-1411",
+      "uncertain": "The file is OCR: \"ἀναβή on eis\" stands for ἀναβήσῃ εἰς. The English of Dods (cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml 29371-29373) reads \"Do you suppose, then, that you will ascend into heaven to receive some recompense?\""
+    },
+    {
+      "modern": "I do not suppose it. I know it, and I am fully sure of it.",
+      "original": "Οὐχ ὑπονοῶ, ἀλλ᾽ ἐπίσταμαι καὶ πεπληροφόρημαι.",
+      "work": "Martyrdom of Justin V.3 (Justin), Greek, ed. Oscar von Gebhardt",
+      "file": "cic/texts/acta-martyrum-selecta_gebhardt1902.txt",
+      "lines": "1420-1421",
+      "uncertain": "The English of Dods (cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml 29373-29374) reads \"I do not suppose it, but I know and am fully persuaded of it.\""
+    }
+  ]
+}
