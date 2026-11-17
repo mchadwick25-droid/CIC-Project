@@ -28,3 +28,20 @@ Change to: "She died in 587, with about two hundred women in her house, and Greg
 Same paragraph. Now: "At their hearing she defended..." Change to: "At the bishops' hearing she defended..." (I1.)
 
 This adds about ten words, to about 381 in all, well under the three-minute limit. It adds no new idea. It gives the existing ending its missing subject: the women who took up her Rule, against whom the forty rebels are now heard as a minority.
+
+## Retest, 2026-11-17
+
+Brief retested: `radegund.brief.txt` as revised in commit 5ecb58c6 (380 words by `wc -w`, grade 8.8 as reported).
+
+**Three lines, heard once more:**
+- **Who?** Radegund was a Thuringian princess, taken captive by the Franks in the sixth century. She became King Lothar's queen, then left him and became a deaconess.
+- **What happened?** She made the bishop of Noyon consecrate her. Then she founded a house of women at Poitiers with Caesarius's Rule and a relic of the Cross from the East. She wrote to the bishops so that they would protect the house after her death.
+- **Why does the connection matter?** About two hundred women lived in her house when she died. When forty or more of them revolted, her letter and "the custom of the lady Radegund" defended the house's ways. Gregory of Tours kept the letter and preached the Cross. So what she passed on was a house, a Rule and a custom, carried by the women who followed her.
+
+**Judgments:** Who: CLEAR. What happened: CLEAR. Why it matters: CLEAR. The forty rebels are now heard against a house of about two hundred, and "the bishops' hearing" is no longer ambiguous.
+
+**Support:** "with about two hundred women in her house" comes from Beat 7 and What came of them I2: "at her death there were about two hundred" (Documented). "At the bishops' hearing" comes from I1. Neither change adds a claim beyond the outline, and neither breaks the Do-not-say list.
+
+**Nothing else changed:** a word diff of the commit shows only these two edits. The rest of the text matches the brief as first tested, word for word.
+
+**Verdict: PASS.**
