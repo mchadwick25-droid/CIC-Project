@@ -24,3 +24,5 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | narsai | outline check | Opus | 135,933 | FIX: 4 blocking (quote 1 not tied to Barhadbeshabba; Jacob of Serugh story told as fact; death date settled by an assumed departure; witness kind missing on three beats), 7 minor; Abdisho's catalogue missed. Back to the researcher |
 | thomas-a-kempis | outline recheck | Opus, low effort | 91,883 | PASS |
 | moses-the-black | write | Opus | 101,349 | 327 words (~2:10 against 2:00); grade 7.5, flagged for the listener read; opens on the Nile swim as report, ends on his death in two witnesses |
+| baudonivia | outline check | Opus | 167,067 | FIX: 1 blocking (a beat 5 clause and its frame copied from the Life of Caesarius), minor on Hildebert and on retelling Radegund. Back to the researcher |
+| john-wyclif | outline check | Opus | 140,849 | FIX: 1 blocking (Gaunt was the king's son in 1377, not his uncle), 11 minor. Back to the researcher |
