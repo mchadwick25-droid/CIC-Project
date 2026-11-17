@@ -4207,3 +4207,17 @@ Every setting is passed on the command and printed before the first request. Thi
 The narration voices are now:
 - Daniel: tradition briefs and council briefs;
 - Neo: Who briefs and stories.
+
+## 2026-11-17 — A new way to make briefs: the outline, the shapes, two checks, and a varied first batch (Mark, 2026-11-17)
+
+**Why.** Mark: "the process is unsustainable for 500 and when we try to do more the quality drops significantly". The Polycarp clean write took about twelve drafts before approval. Ignatius and Justin, written from the Polycarp model, copied its arc (arrest, trial, death, then legacy) and its rhythm, and an outside review Mark shared found the death scenes taking over and the impact thin. The writer's sheet was mostly verbatim quotes, so the easiest brief to write strung quotes together. The three successful briefs scored grade 5.4 to 6.3, under the base Mark now wants. The options and reasoning are on the coordinator's page (https://claude.ai/artifact/NCH7F6APrVPvkA6KdNzdhA); the kit's drafts are at https://claude.ai/artifact/8sT98NfErJwebNhnNgHwDN.
+
+**Decided (Mark, 2026-11-17).**
+- Length: "1 to 3 minutes, but we want the story the source material from the time supports, this is about getting quality first", then "the target is 2 minutes with streatch to tell well and majors". No fixed tiers. The target is 2 minutes; a brief stretches toward 3 for a major figure or a story that needs the room; a thin record may run to 1 minute and is never padded. This replaces the 2026-11-16 length line ("about two and a half minutes ... three and a half the most") for briefs written to the new kit.
+- The writer works from an outline, not the source sheet: "yes, go with the outline ... the outline with key infomraiton from the sources is what i would expect". The researcher builds the full source sheet, then a one-page outline (`Outline_Template.md`). The writer gets the outline, the shapes and the standard only. The sheet stays as evidence for the checks and the card.
+- Shapes, not model briefs: "yes, go with 1". The writer gets a few lines per shape (`Shapes.md`) and no example prose. Approved briefs, Polycarp first, go to the reviewer as the quality bar.
+- Two checks, then stop: "yes, go with 1". The outline is checked against the source texts. The brief gets one review, read once as a listener and then traced line by line to the outline, scored on craft, rigor and accessibility with the reading score as a guard. One revision; a brief that still fails comes to Mark with the reason. Mark hears every brief in the first batch, then about one in ten.
+- First batch: "3 ... we need to see variety so eras 1 - 4 that the libraries are built out", then "yes, go with those six": Clement of Alexandria, Antony the Great, Macrina the Younger, Radegund, Columba, and Cyril and Methodius. None is a martyr; they cover four eras and six shapes.
+- The kit: "yes, they're ready, run the six".
+
+**Where it stands.** The kit is `Build/Ministry/Operations/Audits/2026-11-17_varied-batch/kit/` (`Outline_Template.md`, `Shapes.md`, `Standard.md`); each person's sheet, outline, checks and brief are in the same batch folder. The standard's grade line follows Mark's 17 November aim of grade 8 to 9 with 10 and reading ease 60 as limits; a lower grade is judged by ear, as ruled 2026-11-16. `Who_Profile_Pattern.md`, `Council_Profile_Pattern.md`, `Worker_Brief_Template.md` and `Writing_from_Polycarp.md` stay as written until Mark rules on what the kit replaces once this batch is read. The approved Polycarp brief is not changed.
