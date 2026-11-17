@@ -19,4 +19,5 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | justin-martyr | research | Opus | 271,146 | Outline: martyr shape, toward 3 min; Dialogue, Apology and Acts rendered from Greek; connection through Tatian; saw the tradition's census story about him, took nothing |
 | third-council-of-toledo-589 | research | Opus | 281,356 | Outline: council shape, toward 3 min; Gothic church only through opponents; connection through canon 9 and the paired signatures |
 | thomas-a-kempis | outline check | Opus | 140,709 | FIX: 1 blocking (the Latin Imitation is held in Pohl vol. II, filed as sermones-de-compunctione; quote 1 rested on an editor's footnote), 13 minor. Back to the researcher |
-| vardan-mamikonian | research | Opus | (count on notification) | Outline: martyr shape, 2:30–3:00; Elishe and Lazar from Langlois's French, Elishe checked against Neumann; connection through Vahan and the 484 settlement |
+| vardan-mamikonian | research | Opus | 396,659 | Outline: martyr shape, 2:30–3:00; Elishe and Lazar from Langlois's French, Elishe checked against Neumann; connection through Vahan and the 484 settlement |
+| thomas-a-kempis | outline fix | Opus (same researcher, resumed) | (count on notification) | 1 blocking and 13 minor made; Outline.v1.md kept |
