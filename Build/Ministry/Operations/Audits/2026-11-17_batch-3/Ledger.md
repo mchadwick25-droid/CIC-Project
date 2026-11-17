@@ -16,3 +16,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | council-of-chalcedon-451 | research | Opus | 290,922 | Outline: council shape, stretched to 3 min; refusing churches from their own witnesses; connection: Dioscorus deposed, honoured as confessor in Egypt and Syria |
 | john-wyclif | research | Opus | 257,335 | Outline: teacher shape, ~2:30; Bible, death and bones told as disputed; connection through Thorpe and Hus |
 | moses-the-black | outline recheck | Opus, low effort | 89,397 | PASS: all corrections made, nothing new wrong |
+| justin-martyr | research | Opus | 271,146 | Outline: martyr shape, toward 3 min; Dialogue, Apology and Acts rendered from Greek; connection through Tatian; saw the tradition's census story about him, took nothing |
