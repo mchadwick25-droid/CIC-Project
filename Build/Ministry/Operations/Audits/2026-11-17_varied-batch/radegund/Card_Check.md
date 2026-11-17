@@ -22,3 +22,9 @@ Correction, replace the second sentence of `legacy.traces[2]` with: "Gregory of 
 ## Not blocking
 
 - `dates` says 13 August is given "by Gregory of Tours and Baudonivia". Gregory's own words are "the thirteenth day of the sixth month" (DAL 17577); "August" is Dalton's note. The sheet marks the day and month Documented, so this stands, but "by Baudonivia, and by Gregory's thirteenth day of the sixth month" would be more exact.
+
+## Recheck
+
+B1: `legacy.traces[2]` now reads "Gregory of Tours tells how she sent to the East, with King Sigibert's letters, for wood of the Cross; Baudonivia says the emperor sent it adorned with gold and gems." This agrees with DAL 19598–19607 and sheet L16 (VR-B 30246–30256). The rest of the entry is unchanged. The JSON is valid.
+
+**Recheck: PASS**

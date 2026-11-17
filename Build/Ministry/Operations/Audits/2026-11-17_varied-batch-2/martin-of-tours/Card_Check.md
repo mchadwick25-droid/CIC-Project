@@ -26,3 +26,11 @@ Correction: `"originalLines": "5905-5907"`.
 ## Not blocking
 
 - The `dates` field has no closing full stop.
+
+## Recheck
+
+B1: quotation 1 `originalLines` is now "6335-6337". HALM 6335 holds "Christi ego" and 6337 holds "miles snm: pugnare mihi non licet."
+B2: quotation 2 `originalLines` is now "5905-5907". HALM 5905 holds "saeunm esse ... nt cansam eccle-" and 5907 holds "aosiae iudex saeculi iudicaret."
+Both ranges now hold the full quoted Latin.
+
+**Recheck: PASS**

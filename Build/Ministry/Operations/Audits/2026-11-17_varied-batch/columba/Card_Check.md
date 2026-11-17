@@ -27,3 +27,9 @@ The card is not wrong without it, so this does not block. But the removal rested
 - Durrow before the voyage (Bede); Baithene's succession and "comarb" in AU; Aidan, 635, "a monk of the island called Hii"; Colman at Whitby, 664; Iona's custom to 715/716; Adomnán's writing between 692 and 697; Bede finishing in 731; Teltown, causes not given, and Huyshe's "possibly in 561, after the battle"; Conall son of Comgall; the Picts' conversion in scope (D6); the Cathach and Durrow as Huyshe's only. All match the sheet.
 - Other removals (the Old Irish Life's figures, Huyshe's "perfectly simple and probable", the Bute "no serious doubt" clause) lose nothing the card needs.
 - Card agrees with the brief.
+
+## Recheck
+
+The Stokes/Reeves claim is restored at the end of `uncertain[3]`, in the old card's wording: "Whitley Stokes reports that the birthday the Book of Lismore Life gives, a Thursday, 7 December, points to 517 or 523, but Bishop William Reeves thinks 521 most likely." Rechecked against `cic/texts/stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt` 24009–24012. The note is on the Lismore Life's lines 799–802. It gives the birthday as the seventh of December and a Thursday, which "points to the years 517 and 523" (Stokes citing Reeves), and Reeves thinks 521 "most likely to be the true period". The wording agrees with the held lines, and nothing else in the card changed. The JSON is valid.
+
+**Recheck: PASS**
