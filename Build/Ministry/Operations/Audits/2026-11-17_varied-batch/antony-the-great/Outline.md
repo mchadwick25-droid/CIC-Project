@@ -61,3 +61,5 @@ Sheet references (S, E, I, L, D, G) point to `Source_Sheet.md` in this folder, w
   - The *Paradise* sayings: compiled centuries later (I5).
   - Paul of Thebes and Antony's visit to him: Jerome's later story (L11).
   - Burial-custom detail beyond one sentence (E20): it explains the hidden grave, nothing more.
+
+- **Do not say** (added from the round-two review, 2026-11-17): Do not drop his stand against the Arians (beat 7): it is what he defended.

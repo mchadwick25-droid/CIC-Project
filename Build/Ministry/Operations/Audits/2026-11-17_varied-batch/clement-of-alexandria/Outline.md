@@ -56,3 +56,5 @@ Sheet = `Source_Sheet.md` in this folder. Codes (S3, M1, T1 …) are its entries
   - The details of the John and robber story, and the traditions from his lost *Outlines*: they are other people's stories (I2).
   - Rufinus's "presbyter of Antioch" (D5), and Photius's attack on the *Outlines* about 650 years later (I6): card only.
   - Clement of Rome: same name, different man (S1). Only if a listener might confuse them.
+
+- **Do not say** (added from the round-two review, 2026-11-17): Not "a long search": he never says how long it was. Say "his search for a teacher".

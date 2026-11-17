@@ -38,3 +38,5 @@ End on 1 or 3, as an event: who carried their letters on, and how far they reach
 - *Russian Primary Chronicle*: compiled in Kiev about 230 years later, by 1116 (I3). Say: "Writing in Kiev more than two centuries later, the chroniclers..."
 
 **Leave out:** the childhood dream of Sophia and the lost falcon (side stories); the Khazar mission and the cup inscription (side story, M3); the paralytic healed and other wonders at Rome (can stay only in VC's voice, and is not needed); Methodius's prophecies (VM 11); the whole Bible in six months (Contested, D5); "the Cyrillic alphabet" (D6); calling Cyril a bishop (D9); 24 years as bishop (D10); Constantine in Bulgaria (D11); Hadrian's letter and Stephen V's letter (both disputed, D4, D7); Borivoj's baptism (a modern guess); the Photius anecdote from Anastasius (card); the Life of Clement's attacks on Svatopluk's morals (polemic); exact years in Moravia (D8).
+
+- **Do not say** (added from the round-two review, 2026-11-17): The Salzburg writer says Methodius had "partly" cheapened the Latin Masses in the people's eyes; never drop "partly".

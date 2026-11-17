@@ -60,3 +60,5 @@ Sheet references (S, L, Q, I, D, 4b) point to `Source_Sheet.md` in this folder. 
   - The poems in her voice, such as the lament for Thuringia: Fortunatus wrote them in her name (D1).
   - Naming the hymn "Vexilla regis" as hers: the link rests on a modern editor, and the held text is unreadable (I4).
   - The nuns' revolt in detail: only her letter's use in it belongs here (I1).
+
+- **Do not say** (added from the round-two review, 2026-11-17): Do not say how the revolt ended ("the Rule and the abbess held"): the outline does not give it. Say only that the abbess defended the house's ways as "the custom of the lady Radegund". Say "forty or more" nuns, not "more than forty".

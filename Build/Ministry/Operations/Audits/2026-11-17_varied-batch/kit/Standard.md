@@ -13,7 +13,7 @@ A story of about two minutes that lets anyone, anywhere, meet one person from th
 - Tell what was at stake, not only what happened: what an act meant in its own time, what it risked and what it changed. The outline gives the reasons; use them to show the meaning.
 - Link ideas the way an adult narrator does, with cause and result, contrast and time in the same sentence (because, although, while, until, so that, which). Let a longer sentence carry a chain of events, and keep a short one for the moment that needs it. No sentence past about 30 words. Never a run of short sentences that each tell one act.
 - Tell it in your own words. Use only the outline's quotes, and only where a voice does what your words cannot.
-- About a third of the story is what came of them. End there, as an event or in the record's own words: who carried their witness on, or how far it reached. No moral, no summing up.
+- About a third of the story is what came of them: what they left the church and what they defended. End there, as an event or in the record's own words: who carried their witness on, or how far it reached. No moral, no summing up.
 
 ## Rigor
 

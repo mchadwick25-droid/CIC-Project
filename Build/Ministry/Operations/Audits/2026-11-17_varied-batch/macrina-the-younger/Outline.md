@@ -60,3 +60,5 @@
   - "Purgatory" as her teaching (sheet 178); "Phaedo"; "double monastery"; the estate's name Annesi; the exact number of children (sheet 219, 223): modern terms or disputed details.
   - Gregory of Nazianzus as a link to her: no held text of his names her (sheet 207).
   - Any feast day: none found in the held texts (sheet 197).
+
+- **Do not say** (added from the round-two review, 2026-11-17): Not "sharing their beds": they slept on "the same kind of bed".

@@ -12,6 +12,7 @@ The researcher fills this in for one person, from the source sheet. One page, no
 - **Quotes, 2 or 3 at most:** each with its modern rendering, its source, and the job it does in the story.
 - **Links:** each tie to another person on the tree, labelled by kind: met, heard him teach, wrote to, kept his letters, quoted his book, wrote his life, kept his feast.
 - **Who tells it:** for each main source, who wrote it and whether in the person's own time or later; where it matters, one line the writer can say aloud.
+- **Do not say:** the wordings a writer could easily get wrong from this outline, each with the right wording beside it. These include a wonder that must stay in its witness's voice, a qualifier that must not be dropped ("partly", "forty or more"), an outcome or motive the record does not give, and a detail a writer might add for colour. When a later check or review finds a writer's error that the outline left room for, it is added here.
 - **Leave out:** what the record holds that this story should not carry, and why: doubtful claims, side stories.
 
 Confidence uses the project's five levels: Documented, Widely Accepted, Dominant Modern Reconstruction, Contested, Inferential-Thin.

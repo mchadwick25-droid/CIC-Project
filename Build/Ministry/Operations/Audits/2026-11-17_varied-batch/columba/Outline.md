@@ -61,3 +61,5 @@ Sheet items (S, E, I, D) are in `Source_Sheet.md`, which gives the file and line
 - Aedhan's ordination and the Convention of Drumceatt (E10, E11): side stories.
 - Do not join him to Columbanus, a different Irish monk.
 - Do not say "the Celtic Church", "Insular", or "from Scotland".
+
+- **Do not say** (added from the round-two review, 2026-11-17): The gates opening "of their own accord" is Adomnán's wonder: say "Adomnán says the king kept his gates shut against him until they opened", never as the narrator's fact.
