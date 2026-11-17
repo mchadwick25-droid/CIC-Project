@@ -70,7 +70,7 @@ Sheet = `Source_Sheet.md` in this folder; tags (S1, M3, I1 …) point to its ent
 - WRONG "Marcion wrote that…", quoting Marcion. RIGHT "Tertullian says Marcion argued…". Nothing of his own survives in the record.
 - WRONG "about 115 years after Christ" as Marcion's date. RIGHT leave out; it is the Marcionites' own reckoning (D2).
 - WRONG "Marcion was a Gnostic". RIGHT no label; his opponents group him with others, but call him only "heretic".
-- WRONG "Christ only seemed to have a body" as plain fact of his teaching. RIGHT leave out, or "Irenaeus says Christ appeared 'in the form of a man'" (ANF 33579–33580); the sheet does not carry it as a beat.
+- WRONG "Christ only seemed to have a body" as plain fact of his teaching. RIGHT leave out, or "Irenaeus says Jesus, in Marcion's teaching, 'was manifested in the form of a man'" (ANF 33579–33580); the sheet does not carry it as a beat.
 - WRONG the Marcionite churches "died out by the fourth century" / "lasted into the fifth". RIGHT "two centuries later Epiphanius still found them…" (I1). No held end date.
 - WRONG adding feelings: "angry", "humiliated", "bitter", "Polycarp sneered". RIGHT the words only.
 

@@ -15,7 +15,7 @@ Researcher's sheet for varied batch 2, 2026-11-17. The writer works from the out
 
 **Witness kinds.** OWN = Dhuoda's own book (841–843). CONTEMP = Nithard (d. 844/845, per the file header, NIT 4) and the *Annals of Saint-Bertin* under Prudentius (kept year by year in these same decades). LATER = editors and scholars, with the rough gap. No LATE-LEGEND source is used. (Bondurand reports one legend, Bernard's stabbing by the king at Toulouse, from "la vieille chronique d'Odon Héribert" (DH 1803–1816). It is not used.)
 
-**The two manuscripts.** Bondurand prints the Paris copy (P), a 17th-century copy of a lost old manuscript from the abbey of La Grasse. Where they survive, he prints the Carolingian fragments found at Nîmes (N) instead (DH 216–226, 276–283). The two copies are independent and agree (DH 402–410). Several key passages (the Prologue, the Preface, chapters I–VII, and the first half of chapter LXVIII) survive **only in P** (DH 357–376, 11141–11143). Their wording rests on one 17th-century copy.
+**The two manuscripts.** Bondurand prints the Paris copy (P), a 17th-century copy of a lost old manuscript from the abbey of La Grasse. Where they survive, he prints the Carolingian fragments found at Nîmes (N) instead (DH 216–226, 276–283). The two copies are independent and agree (DH 402–410). Several key passages (the Prologue, the Preface, chapters I–VII, and the first half of chapter LXVIII) survive **only in P** (DH 358–376, 11141–11143). Their wording rests on one 17th-century copy.
 
 **Census check.** The held chronicles name Bernard and William. I found no mention of Dhuoda in NIT or AB (search for "Dhuoda", "Duoda", "Dodana"). Outside her own book, the earliest held mention of her is in 17th- and 18th-century scholarship.
 
