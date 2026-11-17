@@ -38,3 +38,22 @@ Checker: independent outline checker, varied batch 2, 2026-11-17. I opened every
 ## Researcher's response
 
 All ten findings accepted and applied to Outline.md (2026-11-17). On finding 8 I also changed impact item 2's "writing two centuries later" to "writing in the eighth century", so Paul's distance is never measured from two different events. Source_Sheet.md: M18 now prints "regu/am [regulam]" too; it already carried "almost forty miles", the 742 territorial limit (I1a) and the Lorsch source (I1c).
+
+## Recheck
+
+This is a targeted recheck of only the changed lines in Outline.md, checked against the cited source lines.
+
+- **BLOCKING 1: resolved.** Beat 6 now reads "the Rule sets fixed times for work with the hands and other fixed hours for holy reading". This matches RBE 3113–3116 and RBL 7358–7364 ("certis temporibus ... certis iterum horis"). The new Do-not-say entry is correct.
+- **2 (distance):** fixed. The text now says "almost forty miles" (GRG 3489–3490), and a matching Do-not-say entry was added.
+- **3 (setting):** fixed. It now says "Nursia, in central Italy", with GRG 3414 and RBE-ed 170–171 cited, and no landscape added.
+- **4 (death):** fixed. "Six days before he died ... had his grave opened; then a fever took him" holds against GRG 5582–5584. The foreknowledge now sits in Do not say as a WONDER.
+- **5 (disguise):** a Do-not-say entry was added. It holds against M13a.
+- **6 (742):** fixed. "in the monasteries of the lands he ruled" holds against MGH 2203–2204, and a matching Do-not-say entry was added.
+- **7 (802):** fixed. "the abbots and monks who were at Aachen" holds against MGH 7793–7794. Who tells it now names the annals of Lorsch.
+- **8 (Paul):** fixed. Who tells it says "about two and a half centuries after Benedict". Impact 2 now says "writing in the eighth century", which is sound.
+- **9 (Q3 Latin):** fixed. It now reads "regu/am [regulam]".
+- **10 (impact 3 confidence):** fixed. It now gives "Gardner's account (EDITOR)" and "Documented (LATER)".
+
+No new problems were introduced.
+
+**Final verdict: PASS.**
