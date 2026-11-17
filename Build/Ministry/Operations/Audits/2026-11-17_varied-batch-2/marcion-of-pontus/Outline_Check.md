@@ -43,3 +43,19 @@ Correction. Impact 2: "Eusebius tells of a man burned at Smyrna who 'appears to 
 - **Tradition name.** "The church at Rome" and "the churches of the Marcionites" do not mislead. The outline avoids "the Marcionite Church" as one body.
 - **Do not say** already covers Sinope, wealth, the sum, the money not being returned, dates and bishops, "twice", the place of the Polycarp meeting, the Polycarp letter, "evil god", anti-Jewish motive, counting the letters, the canon, reconciliation, the bishop's son, quoting Marcion, the 115 years, "Gnostic", docetism, an end date and invented feelings. Findings 1, 2, 3 and 8 add the rest.
 - **Leave out** is right. Nothing in the sheet that the story needs is wrongly left out.
+
+## Recheck (targeted, 2026-11-17)
+
+This recheck covers only what changed in Outline.md, against findings 1–9. I re-read T 23765–23770, 29249–29257, 40391–40395, EUS 23656–23681 and 40473–40474, ANF 39860 and 39882–39883, and EPI 7464–7473.
+
+**Verdict: PASS.**
+
+- **Finding 1 (BLOCKING): resolved.** Beat 5 now says "His opponents say he cut …". It credits the nameless Gospel and the rejection of the letters to Timothy and Titus to Tertullian. Beat 6's baptism sentence now begins "Tertullian says". A matching Do-not-say entry has been added. Marcion's own claim holds against the source. Tertullian reports that Marcion "argues in his *Antitheses*" that the church's Gospel "was interpolated by the defenders of Judaism" (T 29249–29255), so "had added to the Gospel" is a fair rendering of "interpolated". "He was taking it back to what it was" goes slightly beyond that sentence. It is supported two ways: Tertullian calls Marcion "an amender of that Gospel" (T 29256–29257), and his followers say he "restore[d]" what "had been previously adulterated" (T 23767–23770). Not a finding.
+- **Finding 2 (BLOCKING): resolved.** Impact 2 now keeps "appears to have been" and "it is reported", word for word as in EUS 23680–23681 and 40473–40474. The Do-not-say entry and the "a century later" date both rest on the editor's note (EUS 23656–23658).
+- **Findings 3–9: applied correctly.** The Polycarp speakers are now right, and "old" is gone. "Point by point" is removed. Irenaeus now "saw" Polycarp. Justin now writes "to the emperor at Rome". "Upper Egypt" for the Thebaid and "other places" are restored. The synod/trial entry is added. "Even apostles" now stands in Galatians.
+
+Two minor points remain. Neither blocks.
+- a. **"Who tells it" contradicts the new Do-not-say entry.** It still reads "Justin, at Rome", while the new entry says the held lines do not place Justin there. Change it to "Justin, writing to the emperor at Rome".
+- b. **One older Do-not-say RIGHT wording conflicts with finding 1.** The "ten letters" entry gives as its RIGHT wording "a shortened set of Paul's letters, without the letters to Timothy and Titus", which states the charge as plain fact. Change it to "his opponents say he shortened Paul's letters; Tertullian says he rejected those to Timothy and Titus".
+
+Note: the "Researcher's response" was added to Outline.md, not to this file as the coordinator said. Outline.md is the writer's input, so the coordinator may want that note moved out of it before the outline goes to the writer.
