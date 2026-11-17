@@ -41,7 +41,7 @@
   "attended": [
     "More than 250 bishops, says Eusebius of Caesarea, who was there, with presbyters and deacons beyond counting.",
     "About 270, says Eustathius of Antioch, who was there, in a passage kept by Theodoret of Cyrrhus. He adds that he did not try hard to count.",
-    "Three hundred more or less, says Athanasius of Alexandria, who was there as Alexander's deacon. Constantine's letter to the Alexandrians, in Socrates of Constantinople, says more than three hundred.",
+    "Three hundred more or less, says Athanasius of Alexandria, there as Alexander's deacon by Socrates's account. Constantine's letter to the Alexandrians, in Socrates of Constantinople, says more than three hundred.",
     "318 in Socrates and Theodoret of Cyrrhus; about 320 in Sozomen. Archibald Robertson says the figure 318 was adopted by a later generation, perhaps for its meaning; Hefele notes that Ambrose of Milan compared it with Abraham's 318 servants.",
     "The subscription lists survive in Latin, Greek, Coptic, Syriac, Arabic and Armenian. Their editors, Gelzer, Hilgenfeld and Cuntz, say they name about 220 bishops and were not copied from the original signatures.",
     "Most came from the Greek East. Eusebius names a Persian bishop and a Scythian. From the West came Ossius of Cordoba, Caecilian of Carthage and a few others, with two presbyters for the bishop of Rome."
@@ -63,13 +63,13 @@
       "id": "athanasius-of-alexandria",
       "name": "Athanasius of Alexandria",
       "part": "Gathered",
-      "note": "Athanasius came as Alexander's deacon and later wrote in defense of the creed."
+      "note": "Athanasius came as Alexander's deacon, Socrates says, and later wrote in defense of the creed."
     },
     {
       "id": "homoian-arian-christianity",
       "name": "Homoian ('Arian') Christianity",
       "part": "Condemned",
-      "note": "The council condemned Arius and the teaching that there was a time when the Son was not."
+      "note": "The council condemned Arius and teachings it named, such as that there was a time when the Son was not. The Homoian churches came later."
     },
     {
       "id": "melitian-schism",
@@ -128,7 +128,7 @@
     {
       "witness": "Athanasius of Alexandria, Defence of the Nicene Definition (De decretis) 3 and 19-20",
       "kind": "participant",
-      "note": "Present as Alexander's deacon. Written decades later, against those who attacked the creed."
+      "note": "Present as Alexander's deacon, Socrates says. Written decades later, against those who attacked the creed."
     },
     {
       "witness": "Socrates of Constantinople I.5-14; Sozomen I.17-25; Theodoret of Cyrrhus I.6-11",
@@ -169,7 +169,7 @@
       "name": "Athanasius of Alexandria",
       "id": "athanasius-of-alexandria",
       "verdict": "WHO",
-      "part": "Present as Alexander's deacon; later wrote an account of the debate"
+      "part": "Present as Alexander's deacon, Socrates says; later wrote an account of the debate"
     },
     {
       "name": "Eusebius of Caesarea",
@@ -218,7 +218,7 @@
   ],
   "briefLength": "about 3 minutes 40 seconds",
   "uncertain": [
-    "The council's minutes are lost. What it decided comes from its creed, canons and letter to Egypt. How it argued comes from three eyewitnesses, Eusebius of Caesarea, Eustathius of Antioch and Athanasius of Alexandria, and from historians of the next century, all on the Nicene side.",
+    "The council's minutes are lost. What it decided comes from its creed, canons and letter to Egypt. How it argued comes from three eyewitnesses, Eusebius of Caesarea, Eustathius of Antioch and, by Socrates's account, Athanasius of Alexandria, and from historians of the next century, all on the Nicene side.",
     "Arius's teaching reaches us through the council's letter and through his own letter to Eusebius of Nicomedia, which survives only because his opponent Theodoret of Cyrrhus kept it.",
     "The number of bishops is disputed. Eusebius gives more than 250, Eustathius about 270, Athanasius three hundred more or less, and later writers 318. The surviving lists name about 220. Hefele thinks numbers changed over the months.",
     "The order of events is a reconstruction. Archibald Robertson places the whispering scene before Eusebius of Caesarea's creed; Montfaucon and Gwatkin, as he reports, place it after. He says there is no real certainty.",
