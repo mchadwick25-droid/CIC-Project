@@ -57,3 +57,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | council-of-chalcedon-451 | outline recheck | Opus, low effort | 103,293 | PASS with two slips (an order of events; a citation), fixed by the coordinator |
 | vardan-mamikonian | outline recheck | Opus, low effort | 98,215 | PASS |
 | alopen | outline check | Opus | 159,784 | FIX: 7 blocking, each from following Wylie where Legge, Budge or the edict disagree; ruling for stele lines; no census echo. Back to the researcher |
+| justin-martyr | write | Opus | 98,484 | 470 words (~3:08 against 400–450 words); grade 7.2, flagged; opens on his search for God, ends on Tertullian's 'philosopher and martyr' |
