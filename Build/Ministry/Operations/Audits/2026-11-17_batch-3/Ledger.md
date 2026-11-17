@@ -20,4 +20,5 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | third-council-of-toledo-589 | research | Opus | 281,356 | Outline: council shape, toward 3 min; Gothic church only through opponents; connection through canon 9 and the paired signatures |
 | thomas-a-kempis | outline check | Opus | 140,709 | FIX: 1 blocking (the Latin Imitation is held in Pohl vol. II, filed as sermones-de-compunctione; quote 1 rested on an editor's footnote), 13 minor. Back to the researcher |
 | vardan-mamikonian | research | Opus | 396,659 | Outline: martyr shape, 2:30–3:00; Elishe and Lazar from Langlois's French, Elishe checked against Neumann; connection through Vahan and the 484 settlement |
-| thomas-a-kempis | outline fix | Opus (same researcher, resumed) | (count on notification) | 1 blocking and 13 minor made; Outline.v1.md kept |
+| thomas-a-kempis | outline fix | Opus (same researcher, resumed) | 238,293 cumulative (about 13,800 for the fix) | 1 blocking and 13 minor made; Outline.v1.md kept |
+| narsai | outline check | Opus | 135,933 | FIX: 4 blocking (quote 1 not tied to Barhadbeshabba; Jacob of Serugh story told as fact; death date settled by an assumed departure; witness kind missing on three beats), 7 minor; Abdisho's catalogue missed. Back to the researcher |
