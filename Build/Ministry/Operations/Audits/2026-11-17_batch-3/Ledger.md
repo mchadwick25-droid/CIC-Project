@@ -34,4 +34,5 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | john-wyclif | outline recheck | Opus, low effort | 84,647 | PASS |
 | thomas-a-kempis | write | Opus | 93,854 | 394 words (~2:37 against 2:30); grade 8.3; opens on the walk to Zwolle in 1399, ends on Woolman |
 | justin-martyr | outline check | Opus | 158,045 | FIX: 3 blocking (the Acts called contemporary, probably 3rd c.; the Martinus address misread; Tatian's hearing credited to Tatian), 13 minor. Back to the researcher |
-| baudonivia | outline recheck | Opus, low effort | (count on notification) | PASS; Caesarius borrowing confirmed at SRM3 37535–37545 |
+| baudonivia | outline recheck | Opus, low effort | 93,690 | PASS; Caesarius borrowing confirmed at SRM3 37535–37545 |
+| third-council-of-toledo-589 | outline check | Opus | 154,450 | FIX: 3 blocking (the canons' coercion of Jews and idolaters left out; the Filioque on an editor though the primary text is held; an emended reading given as the Goths' own words), ~15 minor. Back to the researcher |
