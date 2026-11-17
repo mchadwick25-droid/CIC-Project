@@ -53,3 +53,18 @@ Beat 7 (Totila and the death) is left out. That is a fair choice for the length.
 4. **MINOR: the abbot beat skips his consent.** After "though he warned that their ways and his would never agree", add that he gave in at last (GRG 3655–3665; outline beat 3). Then "When he held them to their rule" follows without the listener having to infer it.
 
 5. **MINOR: Nursia unplaced.** The outline's setting line gives "Nursia, in central Italy". Saying "born in Nursia, in central Italy" costs three words and helps a listener anywhere.
+
+## Recheck
+
+This is a targeted recheck of only the changed lines, against the outline and the cited sources. Final round.
+
+- **BLOCKING 1: resolved.** The brief now reads "He wrote a rule for his monks:", in its own sentence with no place or year. That is the outline's Right form (D3). It follows the Monte Cassino sentence but does not tie the writing to it.
+- **2: fixed.** "The Rule calls idleness an enemy of the soul, so it sets times for work, and other set hours for holy reading" credits the Rule's words (R4; RBE 3113–3116) and gives "it" a clear subject.
+- **3: fixed.** "The Rule survived even the sack of Monte Cassino" matches outline impact 2 ("The Rule outlived the house that made it"). It also matches the Do-not-say form "the Lombards sacked it by night" (GRG 4657–4661). Paul is credited for the manuscript in the next sentence (PAUL 7832–7835).
+- **4: fixed.** "He warned that their ways and his would never agree, but at last he gave in" holds against GRG 3653–3665 and beat 3.
+- **5: fixed.** "born in Nursia, in central Italy" is the outline's setting line.
+- **Readability:** 397 words, grade 8.2, reading ease 75.7, longest sentence 30 words. Pass. No run of short one-act sentences was introduced (0% short).
+
+No unsupported, misquoted or over-limit wording remains.
+
+**Final verdict: PASS.**
