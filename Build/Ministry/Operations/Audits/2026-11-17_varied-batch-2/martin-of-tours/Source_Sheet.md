@@ -122,7 +122,7 @@ D3. **Roberts's English mistranslates the Trier sentence.** NP11 11660–11663 s
 
 D4. **"Sixteen years."** Dialogue III says he "lived sixteen years after this" (NP11 5217; HALM 11929). This does not fit easily with Brehaut's death in 397 and the usual modern date of Priscillian's death (not in these files). Leave the number out.
 
-D5. **The Trier accounts differ in weight.** Chron. II.50 (M15) has Martin delaying the trial and winning a promise; Dial. III (M16) has a later visit where he took communion once with Ithacius's party to save lives. Gregory (I4) has Maximus "forcing" Martin to give communion to "a certain bishop who was a homicide". Three tellings of yielding at Trier; all agree he gave way to save the condemned.
+D5. **The Trier accounts differ.** Chron. II.50 (M15) has Martin delaying the trial while he was at Trier and winning a promise, with no yielding. Dial. III (M16) has a later visit where he took communion once with Ithacius's party to save lives. Gregory (I4) says Maximus "forced the blessed Martin to give communion to a certain bishop who was a homicide" and that Martin "yielded ... in order the more easily to free the condemned from death". The Dialogue and Gregory agree he gave way to save the condemned; the Chronicle does not tell that part.
 
 D6. **Where he died.** Sulpicius: "Condate" (NP11 2383); Roberts's note guesses "modern Cosne" (NP11 2384–2387). Gregory: "Candes, a village of his diocese" (GT 1471–1476). Say "a village of his diocese" or "Candes"; do not say Cosne.
 
