@@ -32,3 +32,16 @@ I made my own renderings from HEL first, then compared them with the outline's.
 - **Impact ranking:** this is right. The five bishops are what Bede himself carries forward (HE 10973–11013, 12160–12167, 12538–12541). DEFENDED is marked (I6, item 5).
 - **Shape, length, setting and spoken name:** these fit. Founder or leader suits her. About 375 words, with the reasons given, fits a single main witness. "Hartlepool" is correctly tied to the editor's note. Who tells it states Bede's gap of about fifty years in a line the writer can say aloud.
 - **Leave out:** the choices are sound. D5 (the papal letter), the jewel dream and the later Ely family line are correctly excluded.
+
+## Recheck (targeted, 2026-11-17)
+
+This recheck covers only the lines changed in `Outline.md` and `Source_Sheet.md`.
+
+1. **Finding 1 (misquote): resolved.** Beat 2 now reads "live there as an exile for the Lord's sake, leaving home for good", with no quotation marks. This is true to "peregrinam pro Domino" (HEL 24859). The Do not say entry quotes Giles exactly: "a stranger for our Lord" (HE 10913).
+2. **Finding 2 (Easter qualifier): resolved.** Opening 2 now reads "Bede says it was told that at times ...". The sheet's M13 quote is verbatim against HE 7898–7902. "nonnumquam contigisse fertur" checks at HEL 21328–21329. The Do not say entry has been added.
+3. **Finding 3 ("about"): resolved.** Beat 7 now reads "about thirteen miles away". The sheet cites "XIII ferme milibus", which checks at HEL 25125. The Do not say entry has been added.
+4. **Findings 4–7 (MINOR): applied.** Beat 3 now says Elfleda was given "to God for life, and she was placed in Hild's monastery" (HE 7755–7770). Item 1 now reads "to Archbishop Theodore in Kent" (HE 10987–10988). The Do not say entries on Elfleda's succession and Caedmon's hymn are added, and both are supported (N7; HE 11187–11188).
+
+No new error was introduced.
+
+**Final verdict: PASS.**
