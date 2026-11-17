@@ -4249,3 +4249,11 @@ The narration voices are now:
 **Why.** The batch-two outlines for Marcion of Pontus (known only through his opponents) and the Council of Nicaea (Constantine's Easter letter is openly hostile to the Jews) raised how a brief tells a source's hostility.
 
 **Decided (Mark, 2026-11-17): "we are transparent and don't hide anything, but we witness their perspecive, not carry it forward".** `kit/Standard.md`, Rigor, gains: "When a source is hostile, to the person, a group or a people, be open about what it says and credit it to that source. We witness its view; the narrator never carries it forward or adopts its words as the story's own." It applies from the batch-two writers on.
+
+## 2026-11-17 — The test a brief is written to: one hearing, three things (Mark, 2026-11-17)
+
+**Decided (Mark, 2026-11-17):** "An interested non-specialist can understand who this was, what happened, and why the connection matters after one hearing. i know we have been setting the floor at 8 and i don't want simpler, this is the standard we are really shooting for."
+- `kit/Standard.md` opens with it as **The test**, followed by "Meet it without making the story simpler: the depth stays, and the telling carries it." It becomes the first question of "Before it is done".
+- The grade line stays (aim 8 to 9; 10 and reading ease 60 the limits) and adds: "The grade is a guard on the test above, never the goal: do not simplify to move it."
+- The reviewer's listener read now opens by answering the test in three lines from one hearing: who was this, what happened, why does the connection matter. A blank or wrong line is BLOCKING.
+- Applies from the next brief written or reviewed. The twelve briefs already through (both varied batches) were not reviewed against it as written.

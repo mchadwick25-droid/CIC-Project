@@ -2,6 +2,8 @@
 
 A story of about two minutes that lets anyone, anywhere, meet one person from the church's history. It is heard once, by adults, many of them listening in a second language. Clear is not the same as simple.
 
+**The test:** an interested non-specialist can understand who this was, what happened, and why the connection matters after one hearing. Meet it without making the story simpler: the depth stays, and the telling carries it.
+
 ## Voice
 
 - The narrator is an adult documentary narrator, in the register of a BBC or National Geographic documentary: serious, vivid, and speaking to a grown listener as an equal. No listener should feel talked down to.
@@ -28,11 +30,12 @@ A story of about two minutes that lets anyone, anywhere, meet one person from th
 - Plain modern words. Simplify the language, never the thought. Use the precise word a grown listener knows (persecution, council, monastery, heresy, bishop) without stopping to define it.
 - Work the meaning of a puzzling word or custom into the sentence that uses it, as part of what happens. Never tack a definition on after a comma.
 - One main idea per sentence, with each subject close to its verb; the clauses around it carry its reasons and results.
-- Aim for reading grade 8 to 9. Grade 10 and reading ease 60 are the limits. A grade under 8 is a warning: before accepting it, check that the voice has not become a list of short acts.
+- Aim for reading grade 8 to 9. Grade 10 and reading ease 60 are the limits. A grade under 8 is a warning: before accepting it, check that the voice has not become a list of short acts. The grade is a guard on the test above, never the goal: do not simplify to move it.
 - Scholars, editions and debates go on the card, not in the story.
 
 ## Before it is done
 
+- After one hearing, does an interested non-specialist understand who this was, what happened, and why the connection matters?
 - Heard once, could an adult anywhere follow it?
 - Would an educated adult feel talked down to anywhere in it?
 - Do they come away knowing why this person mattered to the church?

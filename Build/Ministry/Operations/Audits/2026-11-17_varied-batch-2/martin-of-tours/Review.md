@@ -75,3 +75,22 @@ Impact share: paragraphs 7–9 are 126 of 459 words (27%), and the Trier stand a
 5. **MINOR: "his book" and "since" in P8.** On one hearing "Sulpicius claims his book was read" can be heard as Martin's book (no writing of Martin's survives; outline Do not say). "Since" also makes the book's readers a cause of the way of life spreading. Change: split the causes. For example: "Many of his monks became bishops. Sulpicius claims the Life he wrote was read in Rome, Carthage and Egypt."
 
 6. **MINOR: the Trier compromise lacks its cost.** "To save other lives" is vague, and the outline's cost (he grieved and never again attended a gathering of bishops, M16) is left out, though it is what makes Gregory's "forced Martin to yield" land at the end. If room allows after Finding 1, name whose lives (those the emperor meant to hunt down in Spain) or add "and he never went to a gathering of bishops again." Not required.
+
+## Recheck (targeted, 2026-11-17)
+
+**Final verdict: PASS.**
+
+This recheck covers only what changed in the revision, checked against the outline and Source_Sheet.
+
+1. **Length: resolved.** The profiler counts 452 words (wc counts 450), about 3:00, at Mark's limit and the outline's ceiling. Grade 8.1, reading ease 73.7, longest sentence 28 words. Pass.
+2. **Turn to monk: resolved.** "Out of the army, he founded a monastery near Poitiers, where Hilary was bishop" matches M9 (NP11 977–980). It skips the travels in between, but it does not say he was discharged at once, and it uses no monastery name. "As bishop he still lived as a monk" now stands on something told.
+3. **Sick-wife ruse and "a kind of guard": resolved.** This matches M10 (NP11 1058–1068). "Lured him out" is the source's "drawn forth from his monastery". The words "seized" and "kidnapped" are not used. Gaining the bishopric is implied rather than stated, but "As bishop" follows at once, so a listener can follow it.
+4. **Cowardice: resolved.** "Julian called it cowardice" matches M6 (NP11 842–845). The unarmed offer now has its stake.
+5. **"The Life he wrote": resolved.** The subject is Sulpicius, so it is no longer heard as Martin's book. It is still credited as his claim (I2a).
+6. **Gregory in the ending: resolved.** "Gregory, bishop of Tours almost two hundred years later" is the outline's "Who tells it" line. His point stays as Maximus forcing Martin and being punished (I4, GT 5813–5818).
+7. **Other edits: no new errors.**
+   - "Refused to sign it" matches M16 (NP11 5193–5198): he would not confirm the communion by signing his name.
+   - The cut clauses (the sword, the tribune, "our blessed patron", the miracles at the grave) leave nothing wrong behind.
+   - No new children's-book stretch.
+
+No unsupported wording.
