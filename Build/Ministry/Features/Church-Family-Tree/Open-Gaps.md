@@ -3853,3 +3853,10 @@ it, never by deleting it.
 - *Benedict and the Rule of the Master.* The Prologue draws on the earlier Rule of the Master, but no held text discusses it (source sheet D4), so neither brief nor card names it. The Library thread is to look for a public-domain discussion.
 - *The pieces do not point to each other,* though six of them (Antony, Martin, Benedict, Columba, Hild, Macrina) make a natural monasticism thread. This waits for the links, under Mark's ruling that they come once every Who and council is done (Decision-Log, 2026-11-17).
 - *The census link from Nicaea to the later Homoian churches.* The census marks Nicaea's link to "Homoian ('Arian') Christianity" as Condemned, but the Homoian churches belong to the 350s and 360s; Nicaea condemned Arius and named teachings. The row's name is right for its own period, and the card's note is corrected. Whether the link should be marked differently, or carried by a row for Arius's own party, is a question about the tree's data. For Mark.
+
+324. **What the variety check finds in the first twelve (2026-11-17).** The released and recorded first twelve, written under the kit lines replaced on 2026-11-17 (Decision-Log, "Variety of story…"), are still over the batch variety check on three moves:
+- the opening reveal, 6 of 12 (Benedict, Columba, Cyril and Methodius, Hild, Macrina, Martin);
+- the setting slot, 9;
+- the ending on a later writer or institution, 12.
+
+They are not rewritten now. Each is recorded, and a rewrite would mean recording it again. For Mark: leave them as they are, or bring them under the new lines at their next revision. The check applies from the next batch.

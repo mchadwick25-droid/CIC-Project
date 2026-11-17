@@ -4441,3 +4441,22 @@ The reviewer already judges against the standard, so `roles/reviewer.md` is as i
 - the evaluation sent every piece back for revision, and all twelve were then recorded again (13,758 credits).
 
 Under this ruling, only the final recording would have been paid for.
+
+## 2026-11-17 — Variety of story: four kit lines loosened, and a batch variety check against drift (Mark, 2026-11-17)
+
+**Why.** Across the first twelve, the AI-sceptic reader and the consistency reader counted the same moves repeating:
+- an unnamed opening, then the name revealed (8 of 12);
+- a stacked setting line (10);
+- the "Most of what we know" witness formula (6);
+- "Yet" at the turn (7);
+- an ending on a later writer or institution (12).
+
+Four kit lines put those moves in the same place every time. The options are at https://claude.ai/artifact/YMoiikcHmAKwGkEuTArbHW.
+
+**Decided (Mark, 2026-11-17): "yes, go with 1my concern is if weloosen we will have the same drift problem", then "yes, go with those and test the check".**
+- **`Standard.md`, the opening.** "Within the first few sentences, give the time, the place and the tradition in the outline's spoken words" becomes "Let the time, the place and the tradition reach the listener early, each in whatever form the story gives it, never as a list."
+- **`Standard.md`, the ending.** "End there, on an event or in the record's own words" becomes "Tell it where it is strongest. Once it has landed, the story may end on it, or on a scene, the person's own words or their death."
+- **`Outline_Template.md`.** The Setting field gives facts for the writer, "not a sentence to paste". Who tells it gives "what the listener must know about the witness, for the writer to place where the listener needs it".
+- **The guard against drift.** `tools/check_brief_variety.py` counts the five moves across a batch. Process.md step 4 runs it first, folded into the existing review step. A move in more than a quarter of the batch goes back to those pieces' writers, and the counts are kept with each batch.
+
+**The check, tested.** On the twelve as released (`*.r50.brief.txt`) it counts 7, 9, 6, 7 and 12 against the readers' 8, 10, 6, 7 and 12. `tools/tests/test_check_brief_variety.py` holds it within one of each, and CI runs it with the standard lock. On the revised twelve the witness formula and "Yet" are at 0, but three moves are still over: the reveal (6), the setting slot (9) and the later ending (12). These briefs were written under the old lines (Open-Gaps, "What the variety check finds in the first twelve", 2026-11-17).
