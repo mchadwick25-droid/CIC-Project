@@ -12,3 +12,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | baudonivia | research | Opus | 247,465 | Outline: teacher shape (partial fit), 2 min; her prologue at SRM2 l.29437 (the pointer given was Fortunatus's); borrowings from Caesarius's Life marked |
 | arius | research | Opus | 257,790 | Outline: teacher shape, ~2:30–3:00; each voice named; connection through the creed's anathemas and the bishops who refused the name |
 | narsai | research | Opus | 293,825 | Outline: teacher shape, ~2:30; Edessa to Nisibis rests on Barhadbeshabba; connection through the School of Nisibis |
+| moses-the-black | outline fix | Opus (same researcher, resumed) | 214,534 cumulative (about 17,500 for the fix) | 3 blocking and 8 minor made; Outline.v1.md kept |
