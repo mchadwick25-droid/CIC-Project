@@ -4283,3 +4283,7 @@ The structure and the plain fact fields are mostly sound.
 - the legacy and uncertainty sections are rewritten from the sheet, with modern scholars moved to the sources;
 - "References for this brief" is added;
 - the reworked card gets the same source check as the brief.
+
+## 2026-11-17 — Tacitus: "deadly superstition" (Mark, 2026-11-17)
+
+Mark's ruling of 2026-11-11 for Tacitus quoted the 1876 translation's "mischievous superstition". The Latin word is "exitiabilis", meaning deadly or destructive. Under the rule that English printed before 1931 is told in our own modern English, the coordinator asked whether the brief should say "deadly superstition". **Decided (Mark, 2026-11-17): "yes, use deadly superstition".** The 1876 wording stays on the card with its file and lines.
