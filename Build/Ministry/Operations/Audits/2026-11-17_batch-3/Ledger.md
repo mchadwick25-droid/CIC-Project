@@ -8,3 +8,5 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | alopen | research | Opus | 158,810 | Outline: missionary shape, ~1 min, stele only; Legge not yet held; saw the Silk Road tradition's census stele story while looking up the tradition's name, took nothing |
 | moses-the-black | research | Opus | 197,035 | Outline: monk shape, ~1 min, Palladius 19 with the Syriac sayings; insult sayings and martyrdom left out, sent to the checker to rule |
 | thomas-a-kempis | research | Opus | 224,445 | Outline: teacher shape, ~2:30; authorship dispute told; connection through Ignatius at Manresa and Wesley |
+| moses-the-black | outline check | Opus | 124,066 | FIX: 3 blocking (length to 2 min, not thin; insult sayings must be told; martyr's feast as one Contested sentence), 8 minor. Back to the researcher |
+| baudonivia | research | Opus | 247,465 | Outline: teacher shape (partial fit), 2 min; her prologue at SRM2 l.29437 (the pointer given was Fortunatus's); borrowings from Caesarius's Life marked |
