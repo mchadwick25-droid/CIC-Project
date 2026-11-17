@@ -4396,3 +4396,11 @@ Some narrator sentences also took one side's framing: Dhuoda's ending on Luther,
 **Decided (Mark, 2026-11-17): "yes no softening, we are a witness not a judge, that is a significant omission and error. that is why we review multiple so that is a kit change in the next round, for this round 1 but also the should fixes too".**
 - **The kit** gains one Rigor line in `Standard.md` ("We are a witness, not a judge…"), a Must keep field in `Outline_Template.md`, and a check in `roles/reviewer.md` that every Must keep fact is told and that no linking sentence takes a side's framing. Either fault is BLOCKING. No existing line covered this, so these are additions rather than rewrites.
 - **Release 50 is held.** Every piece gets its must-fix and should-fix items from the evaluation page, each corrected from its own outline and source sheet. Each piece is then rechecked, and any changed or new quotation gets a second reading. The changed briefs are recorded again under a cap that Mark approves before the paid run. Cyril and Methodius are fixed the same way and still wait for a census entry.
+
+## 2026-11-17 — No softening, folded into the kit's existing lines (Mark, 2026-11-17)
+
+**Decided (Mark, 2026-11-17): "the must keep and should keep are for this batch not the kit. don't add on rules make sure it is a part of the cohesive kit".** The three additions of the entry above ("No softening: a witness, not a judge…") are undone: the new Rigor line, the Must keep field in the outline, and the reviewer's added check. In their place, two existing lines carry the principle:
+- `Standard.md`, the witness line, now opens "We are a witness, not a judge." It ends: the narrator "never carries any side's view forward, and never softens the record by leaving out its force or conflict".
+- `Outline_Template.md`, Leave out, adds: "Never the record's force, coercion or conflict: those are told as plainly as its virtues."
+
+The reviewer already judges against the standard, so `roles/reviewer.md` is as it was. This round's specific must-fix and should-fix items stay in the batch fix list, not in the kit.
