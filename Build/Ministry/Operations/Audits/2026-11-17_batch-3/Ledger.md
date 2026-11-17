@@ -22,4 +22,5 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | vardan-mamikonian | research | Opus | 396,659 | Outline: martyr shape, 2:30–3:00; Elishe and Lazar from Langlois's French, Elishe checked against Neumann; connection through Vahan and the 484 settlement |
 | thomas-a-kempis | outline fix | Opus (same researcher, resumed) | 238,293 cumulative (about 13,800 for the fix) | 1 blocking and 13 minor made; Outline.v1.md kept |
 | narsai | outline check | Opus | 135,933 | FIX: 4 blocking (quote 1 not tied to Barhadbeshabba; Jacob of Serugh story told as fact; death date settled by an assumed departure; witness kind missing on three beats), 7 minor; Abdisho's catalogue missed. Back to the researcher |
-| thomas-a-kempis | outline recheck | Opus, low effort | (count on notification) | PASS |
+| thomas-a-kempis | outline recheck | Opus, low effort | 91,883 | PASS |
+| moses-the-black | write | Opus | 101,349 | 327 words (~2:10 against 2:00); grade 7.5, flagged for the listener read; opens on the Nile swim as report, ends on his death in two witnesses |
