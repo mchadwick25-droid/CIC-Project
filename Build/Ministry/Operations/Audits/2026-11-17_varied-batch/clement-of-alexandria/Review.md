@@ -81,3 +81,25 @@ Shape check: this is a Teacher's arc (the search, the notes, the question and th
 5. **MINOR. "So he took no single school whole" can be heard as a building.** It comes right after "to his teacher." *Change:* "school of philosophy," or name the kinds as the outline's T3 does ("no single school of philosophy, Stoic or Platonist").
 
 6. **MINOR. Jerome's "in my judgment" switches speaker without a cue.** *Change:* add a short speech cue so the listener knows whose "my" it is. For example: "Jerome pointed to Clement, 'in my judgment,' he wrote, 'the most learned of men'..."
+
+## Recheck
+
+**Final verdict: PASS**
+
+This was a targeted recheck of the one revision, against findings 1–6, the outline and the source files. The revised profile is 347 words, grade 9.2 (8.2 with names left out), reading ease 70.5 with names left out, longest sentence 28 words, 0% short sentences: pass. The length is above the outline's "about 300", but the extra words pay for the stakes that Finding 2 asked for, and the brief is still about two minutes.
+
+1. **Finding 1 is cleared.** The opening now reads "looked back on his search for a teacher." "Long" is gone, and nothing has been added in its place.
+2. **Finding 2 is cleared.**
+   - "Clement wrote that he saw martyrs burnt, impaled and beheaded every day." This matches ANF2 34507–34509: "we have exhibited before our eyes every day abundant sources of martyrs that are burnt, impaled, beheaded." It is told as Clement's words, without quotation marks, which is fair. Nothing about flight or his leaving Alexandria is said or set beside it (D3, M8).
+   - "It was a dangerous time to be a Christian" is supported by S4 (Clement) and by Eusebius on Severus's persecution (EUS 32397–32429).
+   - "...trusted him to carry a letter to Antioch that praised him as a man who had strengthened and built up the church." This matches EUS 33612–33617: "I have sent this letter to you by Clement ... he has strengthened and built up the Church of the Lord." It is given as wording from the record, not as a quote, so no rendering from the Greek is needed. Shortening "the Church of the Lord" to "the church" loses nothing. The letter's "here" is still not named (N3). "Trusted" is in impact item 4 of the outline.
+   - "In a later letter, Alexander counted Clement among the blessed men who had already died." This matches beat 7's gloss ("that is, who had died") on EUS 34330–34336, "those blessed fathers who have trodden the way before us." The death is now plain on one hearing.
+   - Paragraph 5 now links danger, trust and death, instead of listing two bare acts.
+3. **Finding 3 is cleared.** It now reads "Many Christians, he wrote, feared... and some wanted bare faith alone." This matches "the multitude" (ANF2 47241) and "Some" (ANF2 28313), and "there" is gone.
+4. **Finding 4 is cleared.** The narrator now keeps only the servant image, and the Law comparison is said once, in the quote. The quote "For it was a guide to bring the Greek mind to Christ ... as the Law brought the Hebrews" matches the Q2 rendering word for word. The source is ANF2 27890–27893.
+5. **Finding 5 is cleared.** It now reads "no single school of philosophy."
+6. **Finding 6 is cleared.** It now reads "'in my judgment,' he wrote, 'the most learned of men'." The quoted pieces still match the Q3 rendering (JER 16626–16636).
+
+**Voice:** it still reads as adult. The new paragraph 5 joins cause and result in longer sentences, and no stretch talks down. The rest of the brief is unchanged.
+
+No wording must change. Nothing new is unsupported or misquoted.
