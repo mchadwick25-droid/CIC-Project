@@ -4460,3 +4460,14 @@ Four kit lines put those moves in the same place every time. The options are at 
 - **The guard against drift.** `tools/check_brief_variety.py` counts the five moves across a batch. Process.md step 4 runs it first, folded into the existing review step. A move in more than a quarter of the batch goes back to those pieces' writers, and the counts are kept with each batch.
 
 **The check, tested.** On the twelve as released (`*.r50.brief.txt`) it counts 7, 9, 6, 7 and 12 against the readers' 8, 10, 6, 7 and 12. `tools/tests/test_check_brief_variety.py` holds it within one of each, and CI runs it with the standard lock. On the revised twelve the witness formula and "Yet" are at 0, but three moves are still over: the reveal (6), the setting slot (9) and the later ending (12). These briefs were written under the old lines (Open-Gaps, "What the variety check finds in the first twelve", 2026-11-17).
+
+## 2026-11-17 — Batch 3: the confirming twelve, on a frozen kit (Mark, 2026-11-17)
+
+**Why.** The four-reader evaluation of the first twelve found them "not ready for 500; ready for one confirming batch on a frozen kit". It asked for twelve pieces run cold, covering what the first twelve did not.
+
+**Decided (Mark, 2026-11-17): "fill the Pachomius gaps, keep him in the batch", then "converged, auto mode".**
+- The twelve are Justin Martyr, Vardan Mamikonian, Moses the Black, Alopen, the Council of Chalcedon, the Third Council of Toledo, John Wyclif, Thomas à Kempis, Narsai, Pachomius, Arius and Baudonivia. The slate and its Library check are at https://claude.ai/artifact/1nrEJQohzTnbKoxP8mpwYL.
+- Eras 5 and 7 are not in it. Their census people have no card, so the era 5 to 7 slots go to Wyclif and Kempis, whose cards were built in era 6 batch 1.
+- Before research, the Library fills Pachomius's own Lives (Amélineau's Coptic Lives, the Latin Life in Acta Sanctorum, Jerome's Latin Rule), and Legge's translation of the Xi'an stele for Alopen.
+- The kit is frozen for the batch at git tree `49e3fb2f`. Any change is a named change order with Mark's words.
+- The audit trail, exit criteria and ledger are in `Build/Ministry/Operations/Audits/2026-11-17_batch-3/`.
