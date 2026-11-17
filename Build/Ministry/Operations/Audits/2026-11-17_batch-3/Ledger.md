@@ -71,4 +71,6 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | (batch) | variety check, first run | script | — | setting slot 4 and later ending 7 over the limit of 3; ten pieces back to their writers (Variety_Check.txt, .json) |
 | (10 pieces) | variety recast | the same writers, resumed (Opus; Sonnet for the councils) | about 1,000–17,000 each beyond the write | only the flagged opening or ending recast; v1 kept as <slug>.brief.v1.txt. Toledo dropped the Saragossa sentence; three writers dropped or reworded years to clear the setting detector (Wyclif 1381, Chalcedon 449, Pachomius 346): for the report |
 | (batch) | variety check, second run | script | — | all five moves at 3 or under; later ending 7 → 0, setting slot 4 → 1 (Variety_Check_run2.txt, .json) |
-| alopen | review | Opus | (count on notification) | REVISE; one-hearing PASS; B1 the opposition (699, 712–713, the defenders, 845) left out; minor: length 184 against 150, Chang-an/Xi'an. To the writer for the one revision |
+| alopen | review | Opus | 99,885 | REVISE; one-hearing PASS; B1 the opposition (699, 712–713, the defenders, 845) left out; minor: length 184 against 150, Chang-an/Xi'an. To the writer for the one revision |
+| moses-the-black | review | Opus | 101,029 | REVISE; one-hearing PASS; B1 "at night" belongs to the shepherd, not the swim (the outline's opening carried it); 4 minor. To the writer |
+| baudonivia | review | Opus | 105,730 | REVISE; one-hearing PASS; B1 "her" in the 587 sentence can be heard as Baudonivia; 6 minor. To the writer |
