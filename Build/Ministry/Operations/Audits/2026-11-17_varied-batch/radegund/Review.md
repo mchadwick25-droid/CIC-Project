@@ -67,3 +67,20 @@ Reviewer's report on `radegund.brief.txt`, 2026-11-17. Judged against `kit/Stand
 7. **MINOR. Paragraph 4 lists acts, and the Cross has no stake.** The Rule and the Cross are joined by a bare "and". Split them. Give the Cross one clause of meaning from the outline, for example that the bishop of Poitiers would not receive it, said as "Gregory says" (D5), or that she was compared to Helena.
 
 8. **MINOR. Longest sentence 32 words.** This is the Q1 sentence, so the quote carries most of it. It is within the score's pass, but slightly over the standard's "about 30". Putting "At the altar she warned him" into the sentence before would bring it under.
+
+## Recheck (targeted, 2026-11-17)
+
+This recheck covers only what changed in the revised brief (370 words; grade 8.6, reading ease 75.5 names out, longest sentence 29 words: pass). Each change is compared with my findings and the outline.
+
+1. **"more than forty" (was BLOCKING): resolved.** It now reads "forty or more of her nuns" (DAL 19412–19413).
+2. **"The Rule, the abbess and the property all held" (was BLOCKING): resolved.** The sentence is gone. In its place is "At their hearing she defended the house's ways as 'the custom of the lady Radegund'", which is outline I1 (DAL 21416–21418).
+3. **The opening and "him": resolved.** It now says "to face the bishop", and "then" puts the dress after the dragging, as Fortunatus does. Fortunatus is now named where the charge is given.
+4. **The tradition: resolved.** "the church of Frankish Gaul" is the outline's spoken form (Setting; S6).
+5. **The lamp: resolved.** "Gregory wrote that he saw a lamp before her Cross overflow with oil" keeps the wonder in his voice (I3; GRL 38130–38135).
+6. **Gregory introduced: resolved.** "a bishop who knew her, buried her" matches beat 7 and "Who tells it".
+7. **The Cross: resolved and supported.** "which came set in gold" is beat 5. "Her writers compared her to Helena, Constantine's mother, who was said to have found the Cross" is beat 5 ("Gregory and Baudonivia both compare her to Helena, the emperor Constantine's mother, said to have found the Cross"; L17, GRL 38071–38072, VR-B 30245). "Her writers" stands for Gregory and Baudonivia, and does not overstate them.
+8. **Length of the Q1 sentence: resolved.** The quote now stands alone.
+
+The other changed wording is all within the outline: "the nobles pulled him away" (beat 3), "With her royal wealth" (beat 4; DAL 19846–19850, "royal munificence") and "nearby bishops" (I1). No wording is unsupported, and nothing reads as a children's book.
+
+**Final verdict: PASS.**
