@@ -3,6 +3,18 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: desert-monasticism
 works:
+- row_id: amelineau_histoire-de-saint-pakhome-annales-guimet-17_leroux1889--amelineau-s-introduction-1889
+  work: Amélineau's introduction to the Monuments (1889)
+  author: amelineau
+  locus: about OCR lines 77-4874 (cxii pages; it ends "Bruxelles, 24 décembre, 1886"); add
+    12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: fra
+  note: 'Nineteenth-century scholar''s apparatus: his survey of the sources of the Pachomian
+    history and of the Egyptian church. Not an ancient source; marked context for that reason.
+    Its judgments are his, of 1889, and must not be carried as the tradition''s.'
+  source_file: amelineau_histoire-de-saint-pakhome-annales-guimet-17_leroux1889.txt
 - row_id: anan-isho_paradise-v2-sayings_budge1907--the-paradise-of-the-holy-fathers-volume-ii-the-sayings-of
   work: The Paradise of the Holy Fathers, Volume II - the Sayings of the Fathers of Egypt
   author: anan-isho
@@ -18,6 +30,18 @@ works:
 
     '
   source_file: anan-isho_paradise-v2-sayings_budge1907.txt
+- row_id: amelineau_histoire-de-saint-pakhome-annales-guimet-17_leroux1889--arabic-life-of-pachomius-with-french
+  work: The Arabic Life of Pachomius, with Amélineau's French translation (1889)
+  author: arabic_life_of_pachomius
+  locus: about OCR lines 20362-38700; add 12 to OCR line numbers. The Arabic is garbage in
+    this OCR; the French is readable.
+  role: tradition
+  confidence: assigned
+  language: fra
+  note: 'A later, fuller Arabic version of the Pachomian Life in Amélineau''s French. Same
+    witness status: French checkable against the scan, Arabic and Coptic not readable from
+    this OCR. Cite as the Arabic Life in Amélineau''s French.'
+  source_file: amelineau_histoire-de-saint-pakhome-annales-guimet-17_leroux1889.txt
 - row_id: fleet-sweep-additions-npnf204--festal-letter-xxxix-367-the-canon-list-and-the-books--voice
   work: Festal Letter XXXIX (367) - the canon list and the books appointed to be read
   author: athanasius
@@ -328,6 +352,33 @@ works:
 
     '
   source_file: bell_jews-christians-egypt-meletian-papyri_1924.txt
+- row_id: amelineau_histoire-de-saint-pakhome-annales-guimet-17_leroux1889--bohairic-life-of-pachomius-with-french
+  work: The Life of Pachomius in the Bohairic dialect, with Amélineau's French translation
+    (1889)
+  author: bohairic_life_of_pachomius
+  locus: about OCR lines 4877-14793; add 12 to OCR line numbers. The Coptic is garbage in
+    this OCR; the French is what can be read.
+  role: tradition
+  confidence: assigned
+  language: fra
+  note: 'The Pachomian koinonia telling its own founding story, in Amélineau''s French of
+    the Coptic Life. A SECOND WITNESS FOR QUOTATION: the French can be quoted once checked
+    against the scan, but it is Amélineau''s translation, not the Coptic, and must be cited
+    as that. The Coptic OCR is unusable. Quote as the Bohairic Life in French; do not quote
+    it as Pachomius''s own words.'
+  source_file: amelineau_histoire-de-saint-pakhome-annales-guimet-17_leroux1889.txt
+- row_id: acta-sanctorum_maii-tomus-3-lat-grc_palme1866--bollandist-commentary-and-appendix-on-pachomius
+  work: The Bollandists' commentary on SS. Pachomius and Theodorus, with the Appendix on Pachomius
+    the Younger
+  author: bollandists
+  locus: commentary from about OCR line 78831; Appendix de Pachomio juniore about 94048-95390;
+    add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: lat
+  note: 'Seventeenth-century Jesuit editorial apparatus: the sources of the Life, Sozomen
+    on the rule, the dating of Pachomius. Not an ancient source; context for that reason.'
+  source_file: acta-sanctorum_maii-tomus-3-lat-grc_palme1866.txt
 - row_id: palladius_paradise-v1-syriac_budge1907--budge-s-preface-and-introduction-to-the-paradise-1907
   work: Budge's Preface and Introduction to the Paradise (1907)
   author: budge
@@ -453,6 +504,17 @@ works:
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
+- row_id: jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883--jerome-s-preface-to-the-rule-of-pachomius
+  work: Jerome's preface to his translation of the Rule of Pachomius
+  author: jerome
+  locus: about OCR lines 4300-4505; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: lat
+  note: 'A Latin outsider''s own account of why he translated it: the Latin monks of the Thebaid
+    and at Metanoia, the books sent by the presbyter Silvanus, Leontinus''s request. Context,
+    because Jerome is not of the koinonia. Voice of Jerome, not of Pachomius.'
+  source_file: jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883.txt
 - row_id: npnf206_jerome-principal-works--letter-xxii-to-eustochium-on-virginity
   work: Letter XXII (To Eustochium, on virginity)
   author: jerome
@@ -499,6 +561,33 @@ works:
 
     '
   source_file: npnf206_jerome-principal-works.xml
+- row_id: ladeuze_etude-sur-le-cenobitisme-pakhomien-fra_1898--etude-sur-le-cenobitisme-pakhomien-1898
+  work: Étude sur le cénobitisme pakhomien pendant le IVe siècle et la première moitié du
+    Ve (1898)
+  author: ladeuze
+  locus: whole file; preface about line 254, Part I (the sources) from 316, the koinonia under
+    Pachomius from 9163, under Shenoute from 11635; line numbers are this file's own
+  role: context
+  confidence: provisional
+  language: fra
+  note: 'A scholar''s dissertation of 1898 on the sources and history of Pachomian monasticism:
+    modern apparatus, not an ancient source. Useful for how the Lives were sorted and dated
+    by scholars then, and for finding passages in the Lives; its judgments are Ladeuze''s
+    of 1898.'
+  source_file: ladeuze_etude-sur-le-cenobitisme-pakhomien-fra_1898.txt
+- row_id: amelineau_histoire-de-saint-pakhome-annales-guimet-17_leroux1889--life-of-theodorus-with-sahidic-fragments
+  work: The Life of Theodorus, disciple of Pachomius, with Sahidic fragments, in Amélineau's
+    French (1889)
+  author: life_of_theodorus_disciple_of_pachomius
+  locus: about OCR lines 14793-20359; the Sahidic ("thébains") fragments from about 18509;
+    add 12 to OCR line numbers
+  role: tradition
+  confidence: assigned
+  language: fra
+  note: 'The life of Pachomius''s successor in the Coptic tradition, with the French beside
+    it. Same witness status as the Bohairic Life above: the French is readable and checkable,
+    the Coptic OCR is not.'
+  source_file: amelineau_histoire-de-saint-pakhome-annales-guimet-17_leroux1889.txt
 - row_id: macarius_fifty-spiritual-homilies_mason1921--fifty-spiritual-homilies-of-st-macarius-the-egyptian
   work: Fifty Spiritual Homilies of St. Macarius the Egyptian
   author: macarius
@@ -577,6 +666,21 @@ works:
 
     '
   source_file: origen_philocalia_lewis1911.txt
+- row_id: jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883--regula-pachomii-in-jerome-s-latin
+  work: The Rule of Pachomius (Praecepta, Instituta, Judicia, Monita and the letters of Theodorus),
+    Jerome's Latin translation, PL 23
+  author: pachomian_rule_latin_jerome
+  locus: Rule from about OCR line 4506; Praecepta et instituta 5655; Praecepta atque judicia
+    5915; Monita 6198; Easter letter to the monasteries to 7243; add 12 to OCR line numbers
+  role: tradition
+  confidence: assigned
+  language: lat
+  note: 'THE LATIN PACHOMIAN RULE, the 194-article text Schodde says he could not consult
+    (see the Ethiopic row of pachomius_rules-ethiopic_schodde1885). Latin of 1883 reprinting
+    Vallarsi, with the two columns run together in the OCR: quote only after a check against
+    the scan. Quote as the Pachomian legislation as Jerome rendered it (Jerome wrote it into
+    Latin from the Greek in about 404), never as Pachomius''s own Coptic words.'
+  source_file: jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883.txt
 - row_id: pachomius_rules-ethiopic_schodde1885--ethiopic-rules-aksumite-transmission--voice
   work: The Rules of Pachomius in their Ethiopic (Ge'ez) version
   author: pachomius
@@ -1342,3 +1446,30 @@ works:
     Life: gallic-monastic-ascetic-christianity (era 2, c. 360-450), the pre-Merovingian Gaul
     entry rather than the later Merovingian entry this work antedates.'
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
+- row_id: acta-sanctorum_maii-tomus-3-lat-grc_palme1866--paralipomena-on-pachomius-and-theodorus
+  work: Paralipomena on SS. Pachomius and Theodorus, in Latin, Acta Sanctorum, 14 May
+  author: vita_prima_pachomii_cardon_latin
+  locus: about OCR lines 88515-94018; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: lat
+  note: The additional Pachomian material the Bollandists print after the Life (the Greek
+    Paralipomena, in Latin), by the same hand as the Life or its continuator; the editors'
+    own account of the attribution is at about OCR lines 78900-79300. Provisional until that
+    attribution is checked.
+  source_file: acta-sanctorum_maii-tomus-3-lat-grc_palme1866.txt
+- row_id: acta-sanctorum_maii-tomus-3-lat-grc_palme1866--vita-prima-of-pachomius-in-cardon-s-latin
+  work: The Life of Pachomius (Vita prima), in Daniel Cardon's Latin translation of the Greek,
+    Acta Sanctorum, 14 May
+  author: vita_prima_pachomii_cardon_latin
+  locus: about OCR lines 80678-88510 (Prologue from 80678; Chapter I from 80922); add 12 to
+    OCR line numbers. Columns are run together in places.
+  role: tradition
+  confidence: assigned
+  language: lat
+  note: 'The Pachomian koinonia''s earliest Life as Latin readers had it in 1866: Cardon''s
+    version of the Greek, made from manuscripts. NOT the Latin of Dionysius Exiguus, which
+    this volume does not print (it is in Rosweyde''s Vitae Patrum and Migne PL 73, not held).
+    A second witness to the Greek, in Latin, with a fair OCR: quote only after a check against
+    the scan, and cite as Cardon''s Latin.'
+  source_file: acta-sanctorum_maii-tomus-3-lat-grc_palme1866.txt

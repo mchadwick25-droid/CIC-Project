@@ -1629,6 +1629,22 @@ on its masthead, cover or title leaf. Rows in the tables above are not rewritten
 | The International Review of Missions, 1921, 1924-1927, 1929, 1930 | filled: seven volumes. With the three held, every volume from 1914 to 1930 is held | `international-review-of-missions_v10_1921.txt`, `_v13_1924.txt` to `_v16_1927.txt`, `_v18_1929.txt`, `_v19_1930.txt` | 1,806,387 | eng | the-ecumenical-movement-and-the-wcc, tradition; rows for the National Christian Council of China (1924), Speer on Montevideo (1925), Loram on the separatist churches (1926), Kriele on Nias (1927), Braga, the Bishop of Dornakal and Kozaki (1929) |
 | Proceedings of the Church Missionary Society, 1910-1921 | not taken, and ruled out by Mark on 2026-11-16: the microfilm they were scanned from carries "© MM 1967, reproduction of this film prohibited" | twelve items located, `per_proceedings-church-missionary-soc-for-africa-a_<year>` | | | |
 
+## Batch 3 fill (2026-11-17): the Pachomius gaps and the Xi'an stele
+
+Five files, from Mark's ruling "fill the Pachomius gaps, keep him in the batch". The record is in
+`Build/Ministry/Operations/Audits/2026-11-17_batch-3/Library_Fill.md` (hosts, title pages read, rights, OCR state,
+line locations, commands). Every file has a printed imprint of 1930 or earlier, read on its title page or on the
+scan's page image. Rows in the tables above are not rewritten.
+
+| want | state | file(s), with the imprint year | words | language | shelf |
+|---|---|---|---:|---|---|
+| Amélineau, Histoire de saint Pakhôme (Annales du Musée Guimet 17) | filled; the French is readable, the Coptic and Arabic OCR is garbage | `amelineau_histoire-de-saint-pakhome-annales-guimet-17_leroux1889.txt` (1889) | 334,539 | fra (Coptic and Arabic unreadable) | desert-monasticism, tradition (the three Lives in French) and context (his introduction) |
+| The Latin Life of Pachomius, Acta Sanctorum May III | filled, but it is Daniel Cardon's Latin of the Greek Life, not Dionysius Exiguus's | `acta-sanctorum_maii-tomus-3-lat-grc_palme1866.txt` (1866) | 909,102 | lat-grc | desert-monasticism, tradition (Life, Paralipomena) and context (the Bollandists' commentary) |
+| Dionysius Exiguus's Latin Life of Pachomius | located, not taken: Rosweyde's Vitae Patrum 1628 (`VitaePatrumRosweyde1628`, OCR line 19999) prints it, with the long s read as f; Migne PL 73 not found. Held for Mark | | | | |
+| Jerome's Latin Rule of Pachomius, Migne PL 23 | filled in part: part I only (the Rule and Jerome's preface); part II of the same scan prints no year and is cut off | `jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883.txt` (1883) | 356,867 | lat | desert-monasticism, tradition (the Rule) and context (Jerome's preface) |
+| Legge, The Nestorian Monument of Hsî-an Fû (Alopen) | filled; the English is good, the Chinese characters are not in the OCR | `legge_nestorian-monument-of-hsi-an-fu_trubner1888.txt` (1888) | 21,946 | eng | the-church-of-the-east-on-the-silk-road, tradition (the stele in Legge's English) and context (his lecture) |
+| Ladeuze, Étude sur le cénobitisme pakhomien (optional) | filled; a Google scan, the Google notice removed at intake | `ladeuze_etude-sur-le-cenobitisme-pakhomien-fra_1898.txt` (1898) | 167,199 | fra | desert-monasticism, context |
+
 ## Later — queued
 
 - ME-21 by a browser; Lang 1834 and the Peking mission after 1808; the

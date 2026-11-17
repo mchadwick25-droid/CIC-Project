@@ -1,0 +1,18 @@
+source_file: ladeuze_etude-sur-le-cenobitisme-pakhomien-fra_1898.txt
+authors_ruled:
+  ladeuze:
+    kind: metadata-omission
+    evidence: >-
+      The file is plain text with no markup to hold a creator. The author is named on the title page (read on the page image): Paulin Ladeuze, licencié en théologie, Louvain, 1898.
+assignments:
+- row_id: ladeuze_etude-sur-le-cenobitisme-pakhomien-fra_1898--etude-sur-le-cenobitisme-pakhomien-1898
+  work: Étude sur le cénobitisme pakhomien pendant le IVe siècle et la première moitié du Ve (1898)
+  author: ladeuze
+  locus: whole file; preface about line 254, Part I (the sources) from 316, the koinonia under Pachomius from 9163, under Shenoute from 11635; line numbers are this file's own
+  atlas_ids:
+  - desert-monasticism
+  role: context
+  confidence: provisional
+  language: fra
+  note: >-
+    A scholar's dissertation of 1898 on the sources and history of Pachomian monasticism: modern apparatus, not an ancient source. Useful for how the Lives were sorted and dated by scholars then, and for finding passages in the Lives; its judgments are Ladeuze's of 1898.

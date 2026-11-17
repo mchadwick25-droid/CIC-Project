@@ -1,0 +1,29 @@
+source_file: jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883.txt
+authors_ruled:
+  pachomian_rule_latin_jerome:
+    kind: anonymous
+    evidence: >-
+      The Latin Rule is "Regula patris nostri Pachomii hominis Dei" in Jerome's translation (Jerome's own preface says it renders the precepts of Pachomius, Theodorus and Orsiesius from Greek into Latin); Vallarsi's admonition notes the Rule was extended by Theodorus and Orsiesius. Shared Pachomian legislation, not one man's words.
+assignments:
+- row_id: jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883--regula-pachomii-in-jerome-s-latin
+  work: The Rule of Pachomius (Praecepta, Instituta, Judicia, Monita and the letters of Theodorus), Jerome's Latin translation, PL 23
+  author: pachomian_rule_latin_jerome
+  locus: Rule from about OCR line 4506; Praecepta et instituta 5655; Praecepta atque judicia 5915; Monita 6198; Easter letter to the monasteries to 7243; add 12 to OCR line numbers
+  atlas_ids:
+  - desert-monasticism
+  role: tradition
+  confidence: assigned
+  language: lat
+  note: >-
+    THE LATIN PACHOMIAN RULE, the 194-article text Schodde says he could not consult (see the Ethiopic row of pachomius_rules-ethiopic_schodde1885). Latin of 1883 reprinting Vallarsi, with the two columns run together in the OCR: quote only after a check against the scan. Quote as the Pachomian legislation as Jerome rendered it (Jerome wrote it into Latin from the Greek in about 404), never as Pachomius's own Coptic words.
+- row_id: jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883--jerome-s-preface-to-the-rule-of-pachomius
+  work: Jerome's preface to his translation of the Rule of Pachomius
+  author: jerome
+  locus: about OCR lines 4300-4505; add 12 to OCR line numbers
+  atlas_ids:
+  - desert-monasticism
+  role: context
+  confidence: provisional
+  language: lat
+  note: >-
+    A Latin outsider's own account of why he translated it: the Latin monks of the Thebaid and at Metanoia, the books sent by the presbyter Silvanus, Leontinus's request. Context, because Jerome is not of the koinonia. Voice of Jerome, not of Pachomius.
