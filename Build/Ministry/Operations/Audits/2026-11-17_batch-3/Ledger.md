@@ -58,3 +58,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | vardan-mamikonian | outline recheck | Opus, low effort | 98,215 | PASS |
 | alopen | outline check | Opus | 159,784 | FIX: 7 blocking, each from following Wylie where Legge, Budge or the edict disagree; ruling for stele lines; no census echo. Back to the researcher |
 | justin-martyr | write | Opus | 98,484 | 470 words (~3:08 against 400–450 words); grade 7.2, flagged; opens on his search for God, ends on Tertullian's 'philosopher and martyr' |
+| council-of-chalcedon-451 | write | Sonnet | 103,791 | 482 words (~3:13 against 3:00); grade 7.8, flagged; opens on Dioscorus at Session I, ends on the robe line. Cut Priscus's burning and the altar killings, which the outline says must stay: for the reviewer |
