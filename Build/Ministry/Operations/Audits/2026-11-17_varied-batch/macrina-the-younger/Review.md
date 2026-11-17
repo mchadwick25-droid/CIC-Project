@@ -64,6 +64,4 @@ Profiler: `384 words, grade 7.8 (names out 6.9), reading ease names out 78.5, 18
 
 **Length and grade.** At 384 words the story runs about two and a half minutes, against the outline's "about 300 words; do not stretch". That is long, but the standard gives no hard word limit. The added words are the community paragraph that finding 3 required, so it is not padding. Grade 7.8 is under the 8 warning line, which calls for the listener read: no run of short one-act sentences, sentences joined by cause and time ("So", "After", "who later", "so how much", "Yet ... and", "but"), and nothing talks down. It reads as an adult documentary narrator. Both are acceptable. The impact section is about 115 of 384 words, close to a third, and it ends on an event.
 
-**MINOR, not required.** "Yet in 1438" drops the outline's "more than a thousand years later". A listener who does not know the dates misses how far her words reached. If the brief is touched again, use "Yet more than a thousand years later, in 1438, ...".
-
 **Final verdict: PASS**
