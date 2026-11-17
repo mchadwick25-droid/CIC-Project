@@ -1,0 +1,104 @@
+{
+  "otherNames": [
+    "Vartan the Mamigonian",
+    "Vartan the Great, by a note in Victor Langlois's edition of Lazar of Pharp"
+  ],
+  "knownFor": "General of the Armenians who, after yielding in outward show at the Persian court, led the Armenian rising against the Persian king's religion and fell at Avarayr in 451, remembered by the Armenian church as a martyr.",
+  "datesNote": "Fell at Avarayr, by Elishe and Lazar of Pharp, who give no year. Malachia Ormanian gives the day as 26 May 451; Charles Neumann's margin and a note in Lazar's French edition give 2 June 451. No source used here gives his birth",
+  "placeNote": "Armenia; the Persian court; Avarayr, on the plain of the Deghmut",
+  "role": "General of the Armenians and lord of the Mamikonian house",
+  "briefLength": "about 3 minutes 15 seconds",
+  "legacy": {
+    "traces": [
+      "Elishe's History is the History of Vartan and of the battle of the Armenians, written, its dedication says, at the request of the priest David of the Mamikonian house.",
+      "Elishe and Lazar of Pharp count one thousand and thirty-six Armenians who fell with him."
+    ],
+    "remembered": [
+      "Lazar of Pharp: God gave him \"le titre de martyr, qui devait durer éternellement parmi toutes les nations\".",
+      "Malachia Ormanian: the Armenian calendar commemorates the martyrs of Avarayr \"on Shrove-Thursday\", and lists \"Vardan and his thousand and thirty-five companions\" among the saints."
+    ]
+  },
+  "uncertain": [
+    "His words, the refusal at court and the speech before Avarayr, come only as Elishe and Lazar of Pharp wrote them. Both write for the Armenian side and tell the fallen as martyrs.",
+    "The day of Avarayr is given two ways. Malachia Ormanian, a former Armenian patriarch of Constantinople writing in the twentieth century, gives 26 May 451. Charles Neumann's margin, and a note in the French edition of Lazar, give 2 June 451.",
+    "That he gave way at the Persian court in outward show, and why, is Lazar of Pharp's account, told at length. Elishe says that some of the princes, on a royal councilor's advice, sent word that they would conform.",
+    "That Sahak the Great was his grandfather and teacher rests on Lazar of Pharp and on Charles Neumann's preface to Elishe."
+  ],
+  "sources": {
+    "about": [
+      {
+        "title": "History of Vartan and of the Battle of the Armenians (tr. Charles F. Neumann)",
+        "author": "Elishe",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/eghishe_history-of-vartan-and-the-armenian-war_neumann1830.txt"
+      },
+      {
+        "title": "History of Armenia (tr. Samuel Ghesarian), with the editors' notes",
+        "author": "Lazar of Pharp",
+        "date": null,
+        "language": "French translation",
+        "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt"
+      },
+      {
+        "title": "The Church of Armenia (tr. G. Marcar Gregory)",
+        "author": "Malachia Ormanian",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt"
+      },
+      {
+        "title": "Collection des historiens anciens et modernes de l'Arménie, tome II (ed. Victor Langlois): Elishe's History of Vartan in French, and Lazar of Pharp's History (tr. Samuel Ghesarian), with the editors' notes",
+        "author": "Elishe; Lazar of Pharp",
+        "date": null,
+        "language": "French translation",
+        "file": "cic/texts/langlois_collection-historiens-armenie-tomes1-2-fra_1867-1869.txt"
+      }
+    ]
+  },
+  "quotationOriginals": [
+    {
+      "modern": "But God took from them the promise that Vardan, general of the Armenians, had given: to make his name famous. For God gave him the title of martyr, which would last forever among all nations.",
+      "printed": "Mais Dieu leur déroba la promesse que Vartan, général des Arméniens, avait donnée de rendre son nom célèbre, puisque Dieu lui accorda le titre de martyr, qui devait durer éternellement parini toutes les nations.",
+      "work": "Lazar of Pharp, History of Armenia, tr. Samuel Ghesarian, in Langlois, Collection, tome II",
+      "file": "cic/texts/langlois_collection-historiens-armenie-tomes1-2-fra_1867-1869.txt",
+      "lines": "91072-91076",
+      "uncertain": "OCR fault kept: parini = parmi. \"Them\" is the Persian king and his nobles (L12 91068-91071). Rendered from the French; the Armenian is not held."
+    },
+    {
+      "modern": "But I received this religion from God as a child. To abandon it, and change it out of fear of men, is not possible!",
+      "printed": "Mais abandonner une religion que j'ai reçue de Dieu dès mon enfance , et la changer par crainte des hommes, cela n'est pas possible!",
+      "work": "Lazar of Pharp, History of Armenia, tr. Samuel Ghesarian, in Langlois, Collection, tome II",
+      "file": "cic/texts/langlois_collection-historiens-armenie-tomes1-2-fra_1867-1869.txt",
+      "lines": "90623-90626",
+      "uncertain": "Rendered from the French; the Armenian is not held."
+    },
+    {
+      "modern": "For a time we deceived that unjust prince. We took him in like a weak child, as if we had outwardly carried out his wicked orders. But the Lord is the hidden witness of our thoughts. He knows we held firm and never parted from him.",
+      "printed": "pendant ua certain temps, nous trompâmes ce prince injuste et nous.le surprimes comme un faible enfant, comme si, en apparence, nous avions exécuté des ordresiniques. Le Seigneur cependant estle témoin caché de nos pensées; [il sait] que nous avons persévéré sans nous séparer de lui.",
+      "work": "Elishe, History of Vartan, French tr. in Langlois, Collection, tome II",
+      "file": "cic/texts/langlois_collection-historiens-armenie-tomes1-2-fra_1867-1869.txt",
+      "lines": "82667-82673",
+      "uncertain": "OCR faults kept: ua = un, nous.le = nous le, ordresiniques = ordres iniques, estle = est le. Neumann's English differs: \"how we accommodated ourselves to his impious will by seeming apostacy, though in secret we were true to God, as he himself will testify\" (cic/texts/eghishe_history-of-vartan-and-the-armenian-war_neumann1830.txt 3930-3933). Rendered from the French; the Armenian is not held."
+    }
+  ],
+  "briefReferences": [
+    "Lazar of Pharp, History, tr. Samuel Ghesarian (Langlois, tome II): Vardan's promise to the king of \"une action dont la renommée retentira éternellement\", the king's thanks, and God's gift of \"le titre de martyr\".",
+    "Lazar, opening: he writes at the order of Vahan, general and marzban of Armenia, lord of the Mamikonians.",
+    "Lazar: Vardan well read in Scripture, taught by the patriarch Sahag, his grandfather.",
+    "Elishe, History of Vartan, tr. Charles F. Neumann: the king's order to worship the sun and feed the holy fire; the princes summoned to court, Vartan among them; Elishe's own claim to have seen these miseries.",
+    "Lazar: Vardan's answer at court, his strength, life and goods offered to the king, his faith refused.",
+    "Elishe, tr. Neumann: the king's threats of chains, an army with elephants, and the banishment of wives and children.",
+    "Elishe, tr. Neumann: the councillor secretly a Christian, who advised \"not all, but some\"; the inward vow and the message that they would conform.",
+    "Lazar: the princes' plea for the countless deported who would be forced to worship, generation after generation; Vardan's angry refusal; their oath on the Gospel; his tears and consent.",
+    "Lazar: the children who ran in fear from their fathers' arms.",
+    "Elishe, French tr. (Langlois): the Magi sent with the order to close and seal the churches.",
+    "Elishe, tr. Neumann: the Mogbed, the Magi and troops at the church door, and the people's stones; the prince stoned on the spot; the fire-temples burned. Lazar: Magi put to the sword at Zarehavan.",
+    "Lazar: the martyrs' wives raised their young sons; Vahan, eldest son of Hmayeak; the trust in \"la mort de nos ancêtres\"; the first condition, that no Armenian be made a Magus and Christians worship freely; King Vagharsh's grant \"éternellement, confirmées par notre écrit et par notre sceau\", and Vahan made general-in-chief of Armenia.",
+    "Malachia Ormanian, The Church of Armenia: the rising under Vahan; Valarse proclaims religious liberty and names Vahan military commandant (484), then governor-general (485). Langlois's notes date Vagharsh 486-490 and end Lazar's history at 485.",
+    "Lazar: the armies meet near Avarayr, on the plain of the Deghmut.",
+    "Elishe, French tr. (Langlois): Vardan's speech before Avarayr, \"nous trompâmes ce prince injuste\". Neumann: \"It was then spring time\"; the brave Vartan falls in the fighting around the elephant; one thousand and thirty-six fell. Lazar gives the same total.",
+    "Ormanian: Armenians reinforced the enemy's ranks at Avarayr.",
+    "World census, Armenian Christianity after Avarayr: his tradition."
+  ]
+}

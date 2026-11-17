@@ -106,4 +106,5 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | council-of-chalcedon-451 | recheck | (count) | 93,031 | (see FAIL row above) |
 | justin-martyr | card | Opus | 138,360 | additions only (briefLength, 14 references, 3 quotation originals); no corrections; none not found |
 | baudonivia | card | Opus | 132,041 | additions only (briefLength, 10 references, 3 quotation originals); PL 72 entry kept (not clearly wrong); none not found |
-| alopen | card | Opus | (count on notification) | 4 additions; 3 corrections (Syria → far west; church → monastery; 845 count covers both clergies), each with Legge's lines; none not found |
+| alopen | card | Opus | 134,187 | 4 additions; 3 corrections (Syria → far west; church → monastery; 845 count covers both clergies), each with Legge's lines; none not found |
+| vardan-mamikonian | card | Opus | 147,751 | additions only (briefLength, a source, 3 quotation originals, 17 references); no corrections; none not found |
