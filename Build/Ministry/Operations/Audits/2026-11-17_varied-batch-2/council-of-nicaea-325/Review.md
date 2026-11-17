@@ -56,3 +56,30 @@ No blocking findings.
 3. **MINOR: the Melitius sentence is hard to hold.** Unfold the "leaving X his title but no power" construction, for example: "The council then turned to a second matter in Egypt. Melitius had ordained clergy of his own, and he kept his title but lost the power to ordain." (M12; NC 6362–6367.)
 4. **MINOR: a tacked-on gloss.** "That was its name for Nicaea." stands alone after the quote. Work it into the sentence, e.g. "it ruled that the faith of the '318 fathers', as it called the bishops of Nicaea, 'shall not be set aside'."
 5. **MINOR (rigor, noted for the outline):** "Arius was recalled" is stated flatly. Socrates, its only held witness, hedges it: "It appears also that Arius was recalled before them; but, although this may be true ..." (SOC 3978–3980). The outline marks it Documented. The brief may keep it, but the outline's tag should be Widely Accepted, not Documented.
+
+## Recheck (2026-11-17, final round; targeted: only what changed)
+
+**Verdict: PASS.** No blocking findings and no unsupported wording.
+
+**The three changes**
+- **Athanasius (finding 1): resolved.** The new text reads: "says Arius's friends were caught whispering and winking. They read the bishops' words as true of every creature, so in his telling a word was needed that could not be read that way." This matches ATH 27875–27882 ("understood the phrase 'from God' as belonging to us"), ATH 27989–27995 ("common to us and the Son") and ATH 28015–28018, where the Fathers were "compelled ... to re-write ... more distinctly ... 'one in essence'". "In his telling" keeps the charge credited to Athanasius. "Twisted" is gone, and the listener now hears why the word was needed.
+- **Arius recalled (finding 5): resolved.** "Arius, it seems, was recalled from exile" matches Socrates's own hedge, "It appears also that Arius was recalled" (SOC 3978–3979). The exile itself is given just before, credited to "a historian writing a century later".
+- **Melitius (finding 3): resolved.** "Melitius had ordained clergy of his own, and he kept his title but lost the power to ordain" matches NC 6362–6367 ("no authority either to ordain"; "the bare title of his rank"). It is easy to follow on one hearing.
+
+**The trims: nothing essential lost**
+- "The creed became the standard." is gone. The Constantinople and Chalcedon sentences still carry the point.
+- The canon on councils twice a year in every province is gone. "Twenty rules" and the last-communion example remain, so the canons keep their place.
+- "the twenty canons" is now "creed and canons". "Twenty" is still said in paragraph 6.
+- Two other rewordings, "as kept at Rome and Alexandria" and "Chalcedon, in 451", say the same thing. One remaining MINOR snag: "Chalcedon" is no longer called a council. The parallel with the previous sentence carries it, but "the council of Chalcedon" would be safer.
+- All five elements of a council are still present, and the impact is still about a third of the story.
+
+**One hearing, against Mark's three-line test**
+- Who or what: the council the emperor called in 325 over the Easter split and the strife in Egypt.
+- What happened: the Arius dispute, the creed "of one being", and the settlements on Melitius, Easter and the canons.
+- Why it matters: later councils set its creed first; it divided the church for decades; its rules travelled as checked copies.
+
+All three come through.
+
+**Score:** 529 words, grade 8.1 (names out 7.3), reading ease 72.5, longest sentence 29 words. Pass.
+
+**Still open (MINOR, not required):** "On the same feast" (finding 2) and the stand-alone "That was its name for Nicaea." (finding 4) are unchanged.
