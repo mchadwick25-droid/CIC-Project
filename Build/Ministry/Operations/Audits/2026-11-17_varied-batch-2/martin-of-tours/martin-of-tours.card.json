@@ -98,7 +98,7 @@
       "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
       "lines": "841-842",
       "originalFile": "cic/texts/sulpicius-severus_libri-qui-supersunt-chronica-vita-martini-lat_halm1866-csel1.txt",
-      "originalLines": "6336-6337",
+      "originalLines": "6335-6337",
       "uncertain": "Rendered from Halm's Latin, not Roberts's English. The OCR reads \"miles snm\" for \"miles sum\"."
     },
     {
@@ -109,7 +109,7 @@
       "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
       "lines": "11657-11660",
       "originalFile": "cic/texts/sulpicius-severus_libri-qui-supersunt-chronica-vita-martini-lat_halm1866-csel1.txt",
-      "originalLines": "5905-5906",
+      "originalLines": "5905-5907",
       "uncertain": "Rendered from Halm's Latin, not Roberts's English. \"cruel\" follows saeuum, the reading of the main manuscript P (OCR \"saeunm\"; apparatus \"Beanm P\"); an early edition reads nouum, \"new\". Roberts's \"foul\" is loose. The next sentence of Roberts's English mistranslates the Latin; see the uncertainties."
     }
   ]
