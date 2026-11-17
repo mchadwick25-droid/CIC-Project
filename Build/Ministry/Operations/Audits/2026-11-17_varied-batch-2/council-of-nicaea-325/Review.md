@@ -67,3 +67,28 @@ All lines trace to the outline, except as the findings below note. Quotes re-che
 8. **MINOR: Athanasius is held too long from his verb.** The 30-word sentence puts a 17-word description between "Athanasius" and "says". **Change:** move the description into its own clause, for example, "Athanasius, an enemy of Arius, was there as a deacon and wrote later in its defence. He says Arius's friends were caught..."
 
 9. **MINOR: paragraph 7 stacks acts with no link.** "Brought back ... recalled ... For decades the word divided": give the cause or result in the sentence, for example, "so for decades the word divided...". Fold this into the rewrite for finding 4.
+
+## Recheck (2026-11-17, targeted: only what changed; last round)
+
+**Final verdict: PASS**
+
+The brief now runs 435 words, about 2:54. Profiler: grade 8.0 (7.3 with names out), reading ease 71.7, 16.1 words a sentence, 26% short sentences, longest sentence 28 words; it passes.
+
+**BLOCKING findings**
+- **Finding 1 (length) is resolved.** At 435 words the brief is under 3 minutes and inside the outline's 400–450. The after-history was kept whole.
+- **Finding 2 (the cut Eusebius quote) is resolved.** The sentence is gone.
+- **Finding 3 (the rules) is resolved.** The rules are now named before they travel: "The council had also made rules for the church, and these travelled too." That traces to Beat 7 and I4.
+- **Finding 4 (the two Eusebiuses) is resolved.** The brief now reads "Another Eusebius, bishop of Nicomedia and Arius's friend, was brought back from exile". That sets him apart from the Eusebius who wrote the account, and the exile it states is supported (SOC 3939–3942).
+
+**MINOR findings**
+- **Finding 5 is resolved.** Arius's expulsion is now credited to him: "as he tells it, his bishop drove him and his friends from the city." His view is witnessed, not carried forward.
+- **Findings 6–8 are resolved.**
+  - "Public post" is removed.
+  - The ambiguous "he" is fixed: "the emperor approved it but asked".
+  - The Athanasius sentence is split, so his description stands in its own sentence.
+- **Finding 9 is not taken up.** Paragraph 7 still stacks acts with no link between them. It is not a list run, and nothing in it is wrong. It stays MINOR.
+
+**What else changed**
+- The text dropped "These troubles seem more painful...", "Speaking in Latin through an interpreter", Rome's two priests, "in time" and "the city of". The Constantine quote that remains matches the outline's rendering word for word.
+- No new wording goes beyond the outline. No unsupported wording.
+- The short sentences still sit at turns in the story. None reads as a children's book.
