@@ -36,3 +36,21 @@ I re-opened the cited lines in `cic/texts/` (AD, BEDE, BEDL, AU, AC). All three 
 ## Researcher's response
 
 All nine findings applied to Outline.md; I disagree with none. Source_Sheet.md D6 "Say" line changed to match finding 6. Quotes touched ("with all his household", AD 7611) re-checked against the file.
+
+## Recheck
+
+This recheck covers only what changed in Outline.md and in Source_Sheet.md D6. I checked each change against the findings above and against the source lines.
+
+- **Finding 1, BLOCKING: resolved.** Beat 6 now reads "The white horse that carried the milk pails". This matches AD 10746–10749.
+- **Finding 2, BLOCKING: resolved.** Beat 7 now has Diormit raise the right hand, while Columba "moved it as much as he could". This matches AD 10868–10872. The new clause "Diormit found him lying there and held his head" matches AD 10854–10857.
+- **Finding 3, BLOCKING: resolved.** Beat 1 now gives the line to say aloud as "early in the sixth century". The 521 is credited to the 1860 editor, which matches AC 2399.
+- **Findings 4 to 9, MINOR: all applied correctly.**
+  - "knelt in prayer" matches AD 10842–10843.
+  - "only Diormit heard them" matches AD 10814.
+  - "with all his household" is verbatim (AD 7610). The old chief matches AD 4295–4297.
+  - The voyage years, 562 in the annals and 565 in Bede, match AU 4809–4810, AC 2417 and BEDE 5811.
+  - "In Bede's day" matches BEDE 5856–5862.
+  - "until about 716" matches BEDE 5877–5878 and 14983.
+- **Source_Sheet D6:** the new "Say" line matches AD 7609–7613 and 4295–4297.
+
+No new problems. **Final verdict: PASS.**
