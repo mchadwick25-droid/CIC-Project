@@ -87,3 +87,5 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | moses-the-black | revision | Opus (same writer, resumed) | 112,497 cumulative | B1 and M1–M3 made; 331 words; v2 kept |
 | council-of-chalcedon-451 | review | Opus | 132,938 | REVISE; one-hearing PASS (narrowly); B1 the Alexandria violence and other must-tell force missing; B2 Cyril claimed by one side only; length 479 against 450. To the writer |
 | third-council-of-toledo-589 | revision | Sonnet (same writer, resumed) | 103,527 cumulative | both blocking made; impact placed before the last two paragraphs; 555 words against 430; v2 kept |
+| thomas-a-kempis | revision | Opus (same writer, resumed) | 116,281 cumulative | B1, B2 and both minor made; 398 words against 375; v2 kept |
+| arius | revision | Opus (same writer, resumed) | 112,941 cumulative | B1, M1, M2 made, with cuts; 458 words against 400; v2 kept |
