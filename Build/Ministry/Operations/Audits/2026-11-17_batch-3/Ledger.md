@@ -36,7 +36,7 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | justin-martyr | outline check | Opus | 158,045 | FIX: 3 blocking (the Acts called contemporary, probably 3rd c.; the Martinus address misread; Tatian's hearing credited to Tatian), 13 minor. Back to the researcher |
 | baudonivia | outline recheck | Opus, low effort | 93,690 | PASS; Caesarius borrowing confirmed at SRM3 37535–37545 |
 | third-council-of-toledo-589 | outline check | Opus | 154,450 | FIX: 3 blocking (the canons' coercion of Jews and idolaters left out; the Filioque on an editor though the primary text is held; an emended reading given as the Goths' own words), ~15 minor. Back to the researcher |
-| (library) | Library fill | Sonnet | 272,157 | 5 files vendored (Amélineau 1889, AASS Maii III, PL 23 part I, Legge 1888, Ladeuze 1898); Coptic OCR unusable, French good; AASS Life is Cardon's Latin of the Greek; Ladeuze's Google preamble to be stripped by the standing rule |
+| (library) | Library fill | Sonnet | 278,980 (with the Ladeuze step) | 5 files vendored (Amélineau 1889, AASS Maii III, PL 23 part I, Legge 1888, Ladeuze 1898); Coptic OCR unusable, French good; AASS Life is Cardon's Latin of the Greek; Ladeuze's Google preamble to be stripped by the standing rule |
 | john-wyclif | write | Opus | 94,424 | 406 words (~2:40 against 2:30); grade 7.3, flagged for the listener read; opens on Oxford 1381, ends on Hus at Constance; Knighton paraphrased in the chronicle's voice |
 | arius | outline fix | Opus (same researcher, resumed) | 286,239 cumulative (about 28,400 for the fix) | 4 blocking and 10 minor made; Outline.v1.md kept |
 | council-of-chalcedon-451 | outline check | Opus | 179,113 | FIX: 5 blocking (four on the witness line: deposition grounds and his reply; the Definition's making; "not for the faith" in the narrator's voice; the quote's "touches my soul"; "the Definition held"), 7 minor. Back to the researcher |
@@ -62,3 +62,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | alopen | outline fix | Opus (same researcher, resumed) | 190,553 cumulative (about 31,700 for the fix) | 7 blocking and 10 minor made against Legge; Outline.v1.md kept |
 | vardan-mamikonian | write | Opus | 100,476 | 480 words (~3:10 against 400–450 words); grade 8.2; opens on his promise to the king read two ways, ends on the 484 settlement |
 | alopen | outline recheck | Opus, low effort | 97,677 | FIX on one line ("came alone" is not Legge's guess), fixed by the coordinator in the recheck's wording: PASS |
+| alopen | write | Opus | 86,879 | 175 words (~1:10 against ~1:00); grade 7.3, flagged; opens on the stone's journey line, ends on the stone found in 1625; quote 2 used in part: for the reviewer |
