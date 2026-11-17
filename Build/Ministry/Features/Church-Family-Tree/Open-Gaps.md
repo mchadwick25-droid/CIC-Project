@@ -3860,3 +3860,5 @@ it, never by deleting it.
 - the ending on a later writer or institution, 12.
 
 They are not rewritten now. Each is recorded, and a rewrite would mean recording it again. For Mark: leave them as they are, or bring them under the new lines at their next revision. The check applies from the next batch.
+
+325. **Ruling on Open-Gaps 324, the first twelve and the variety check (2026-11-17).** Mark: "leave the twelve as they are, start the next batch in a new thread". The first twelve stay as released and recorded. Entry 324 is closed by this ruling. The variety check applies from the next batch.
