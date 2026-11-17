@@ -69,3 +69,17 @@ Quotes, re-checked verbatim in `cic/texts/`:
 4. **MINOR. The community is only hinted at.** The thread is that she turned the house into a community of prayer and work, and the shape asks for "the others drawn after her". The brief has the mother, the slave women and the babies, but never says that a community formed. "Lampadia, who had lived beside her" can become "Lampadia, who led the sisters of the house" (LIFE 278). That carries the community at no cost in words. To pay for finding 1, cut "in Greek" from P7 or shorten P2's tradition line, not the impact third.
 
 5. **MINOR. Paragraph 7 names the dialogue's subject but not her side of it.** Impact 1 marks what she defends: the soul lives on after death, the body will rise, and he should not grieve like those "without hope". One short clause would do it, for example "with Macrina as the teacher, telling her grieving brother that the dead will rise." Add it only if finding 1 leaves room. The brief is sound without it.
+
+## Recheck
+
+A targeted recheck, 2026-11-17, of only what changed, against the findings above and the outline. The profiler now gives 352 words, grade 6.2 (5.3 with names out), reading ease 84.3 with names out, 15.3 words a sentence and a longest sentence of 30 words: a pass.
+
+1. **Resolved.** Paragraph 5 now tells the death in order: last evening and year, the prayer (Quote 1, first sentence, word for word), the lamp, the evening thanksgiving, the failed voice finished in her heart with hands and lips, the deep breath. It ends on "her life and her prayer ended together". All of this is in Beat 7 and LIFE 234. The flat announcement is gone, and the failed voice is back at the thanksgiving, where the outline puts it.
+2. **Resolved.** Lampadia's quote now opens at "Here is the cloak". "Here is the cloak, here is the head-covering, and the worn-out shoes on her feet. This is her wealth." is word for word the outline's rendering (sentences 3-4), and it matches PG46 72083-72085 ("ἰδοὺ τὸ ἱμάτιον ... οὗτος ὁ πλοῦτος"). With "put by" gone, the stumble is gone. "Asked for burial clothes from her stores" fits Opening 2's store-cupboard and LIFE 282. "The deaconess Lampadia" is from the outline.
+3. **Resolved.** "Not dead but only away, because of the hope of rising again" is the outline's Beat 2 wording (LIFE 128).
+4. **Resolved.** "Made their house a community of prayer and work" holds. It is the outline's own thread ("turned her family's house into a community of prayer and shared work"), backed by LIFE 158 ("prayer ... by night and day. So that to them this meant work").
+5. **Resolved.** "A dialogue in which Macrina, as the teacher, tells her grieving brother that the dead will rise" holds against Impact 1 and SOUL 38087-38100 (her the Teacher, him grieving, her teaching that the dead are only asleep). "The words are his, and no one knows how much is hers" keeps the uncertainty plain. Dropping "called by her name" is allowed.
+
+No new problems. A note, not a finding: the impact third is now 95 of 352 words, about 27 per cent. That is still close to a third, and the ending is unchanged and still lands.
+
+**Final verdict: PASS.** No wording has to change.
