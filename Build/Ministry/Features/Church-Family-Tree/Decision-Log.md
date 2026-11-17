@@ -4236,3 +4236,31 @@ The narration voices are now:
 - Eusebius: Mark gave five edits and they were made. Each changed sentence was checked against the sources and corrected where the check required (`Eusebius_recheck.md`); the Aelia, Arius and Athanasius corrections that followed the check were not rechecked themselves. Mark, on the text: "i am good to move on". The text is `Build/Ministry/Operations/Audits/2026-11-17_eusebius-calibration/Eusebius.brief.txt`, 520 words. It stands as the model for a life whose work is the story. It is not marked approved to proceed.
 - Mark: "i don't need voice tests on everything unless its a final publishable thing". No recording is made of a brief until it is final and ready to publish.
 - Next model in the set: Tacitus, the outside witness.
+
+## 2026-11-17 — Scaling the briefs: a lean pipeline in batches, guarded against drift (Mark, 2026-11-17)
+
+**Why.** Mark: "we can't do this one at a time for 500 briefs". He also asked: "we need to keep from drift or loss of quality".
+
+**Decided (Mark, 2026-11-17): "1, but we need to keep from drift or loss of quality".**
+- The lean pipeline:
+  1. A researcher builds the sheet.
+  2. A writer drafts from the sheet, the standard and the nearest approved model.
+  3. Only the quotes the brief uses get the blind second rendering and comparison.
+  4. One independent agent checks every sentence against the sources and makes the required fixes.
+  5. A short recheck covers only what that agent changed.
+- Briefs run in era batches.
+- Guards against drift:
+  - A writer receives only Polycarp, the nearest approved model and the person's sheet, never another batch brief.
+  - Every quote is matched by script against its settled reading.
+  - Hard limits are checked mechanically: grade 10 or below, reading ease 60 or above, and no more than about three and a half minutes.
+  - In each batch, a blind comparison sets one brief beside Polycarp. If the new brief loses on craft, the batch stops for Mark.
+  - Each batch gets a short report giving, per brief, the opening type, length, legacy share, count of honest-limit sentences and the check's findings.
+  - A batch gets at most one revision. Anything still unclear goes to Mark.
+  - Mark spot-checks the two or three hardest briefs and one at random.
+- Mark: "when we have the draft, i want the 8 in text so i can run the batch through perplexity". Each batch of eight ends with one plain-text file of its briefs and references for Mark's outside check. The batch runs as two groups of four, to keep each multi-agent run near the session guideline.
+
+**Order.**
+1. Finish Tacitus, the outside-witness model.
+2. The first batch: era 1 people the existing models fit. These are Clement of Alexandria, Hermas, Dionysius of Alexandria, Hippolytus, Novatian, Pontius the Deacon, Tatian, Anatolius, Peter of Alexandria and Polycrates, and then Josephus and Suetonius once Tacitus is approved.
+3. Marcion and Valentinus wait for a model of a founder known only through his opponents.
+4. Pliny the Younger waits for his own letter (Open-Gaps 309).
