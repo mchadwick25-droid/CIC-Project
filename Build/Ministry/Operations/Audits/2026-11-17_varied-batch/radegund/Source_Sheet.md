@@ -121,6 +121,25 @@ I6. **A friend and poet who stayed.** Fortunatus: "Martinum cupiens voto Radegun
 
 I7. **Peacemaker among the kings.** L18. CONTEMP (Baudonivia only). Documented as her account. Lighter: one witness, no later use recorded in held texts.
 
+## 4b. Links to other people
+
+People on the tree (census ids) first, then others.
+
+- **Gregory of Tours** (`gregory-of-tours`). MET her: visited her and knelt before the Cross in her house (GRL 38121–38123). BURIED her: "I myself was present at her burying" (DAL 17576–17577); blessed the altar and buried her when the local bishop was away (GRL 61646–61658). KEPT HER LETTER: copied it into his *History* (DAL 19821–20001). WROTE OF HER: *History* III.7, IX.2, IX.39–42; *Glory of the Martyrs* 5; *Glory of the Confessors* 104. CONTEMP.
+- **Venantius Fortunatus** (`venantius-fortunatus`). FRIEND; STAYED AT POITIERS for her: "Martinum cupiens voto Radegundis adhaesi" (VF 16035, OCR damaged). WROTE HER LIFE: Book I, after 587 (VR-K 28175–28176). WROTE POEMS to her and Agnes (DAL 29601–29607, Dalton's note), and the poem thanking Justin and Sophia for the Cross (VF 23582, 23584). CONTEMP.
+- **Baudonivia** (`baudonivia`). RAISED BY HER "ab ipsis cunabulis" (VR-B 29449–29450). WROTE HER LIFE: Book II, after 600, at the abbess Dedimia's request (VR-B 29433–29441; VR-K 28186). CONTEMP.
+- **Caesarius of Arles** (`caesarius-of-arles`) and **Caesaria** (`caesaria-of-arles-the-elder`). USED HIS RULE: "the Rule according to which the holy Caesaria lived, and which the care of the blessed Caesarius, bishop of Arles, had compiled to suit her needs" (DAL 19852–19855). Krusch: the abbess Caesaria sent her a copy of the Rule with a letter urging her not to fast too hard (VR-K 28158–28162, LATER). Caesarius died before she founded her house (the bishops' letter calls him "of blessed memory", DAL 19543). Which Caesaria (the elder or her successor) sent the copy: not settled in the held lines; card only.
+- **Martin of Tours** (`martin-of-tours`). VISITED HIS SHRINE at Tours and Candes (VR-F 28855–28861). COMPARED WITH HIM by the bishops: "since thou camest to us wellnigh from the same region whence we are told that the holy Martin journeyed hither, it is no marvel that thou shouldst seem to imitate in thy works him whom we believe to have guided thy feet" (DAL 19502–19505). ENTRUSTED HER SISTERS to him: "the blessed confessors Hilary and Martin, to whom, after God, I have entrusted the protection of my sisters" (DAL 19933–19935). Martin was long dead (fourth century, not in these held lines).
+- **Hilary of Poitiers** (`hilary-of-poitiers`). ENTRUSTED HER SISTERS to him (DAL 19933–19935). Gregory visited "sepulchrum sancti Helaris" when he came to see her (GRL 38122).
+- **King Lothar** (not on the tree). Captor and husband (DAL 4379–4381); had her brother killed (DAL 4381); endowed her monastery (DAL 19846–19850).
+- **Medard, bishop of Noyon.** Consecrated her (VR-F 28798–28809).
+- **Agnes.** Raised by her "from her earliest youth"; made abbess; Radegund obeyed her (DAL 19856–19860).
+- **Germanus, bishop of Paris.** Consecrated Agnes (DAL 19888–19890); by Baudonivia, pleaded with the king for her (VR-B 29805–29822).
+- **Eufronius, bishop of Tours.** Brought the relics into her house (DAL 19620–19625).
+- **Maroveus, bishop of Poitiers.** Refused the relics, by Gregory's account (DAL 19608–19610); absent at her death (GRL 61646–61647).
+- **King Sigibert.** Gave letters for her envoys (DAL 19601–19604; VR-B 30246–30250).
+- **The emperor Justin and the empress Sophia.** Sent the wood of the Cross (VF 23582, 23584; DAL 29579–29580, Dalton's note).
+
 ## 5. Disputes and unclear points
 
 D1. **Her own words.** The letter (DAL IX.42) is given by Gregory as hers and read out by her abbess (DAL 19821–19824). Treat as OWN. The poems in her voice printed with Fortunatus's works ("De excidio Thoringiae", VF 23128ff., Dalton: "the poem being placed in the mouth of Radegund", DAL 24444–24445) are Fortunatus's work in her name. Do not quote them as her words.
