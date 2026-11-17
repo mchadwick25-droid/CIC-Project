@@ -4350,3 +4350,35 @@ The narration voices are now:
 - Hild, knownFor: kings and princes "sometimes" sought her advice (Bede's "nonnumquam", HEL 24936–24939).
 - Dhuoda, keyWorks: "Chapter 68 tells William to read the book" becomes "She tells William to read the book" (DH 3175–3178).
 Antony, Macrina, Martin, Benedict, Cyril and Methodius and Nicaea needed none. Most faults the earlier refresh had "corrected" were not in the originals (Marcion's "shipowner", 144 and "ten letters" are on the census card, not his Who card; Macrina's card already credits Annesi to Clarke; Radegund's already gives the Cross's gold to Baudonivia). The census-card faults stay with Open-Gaps 316 and 317 for the release.
+
+## 2026-11-17 — Data release 50: eleven of the twelve briefs and cards, with their recordings (Mark, 2026-11-17)
+
+**Decided (Mark, 2026-11-17): "yes, go ahead with the eleven".** This followed the plan put to him: release eleven of the twelve, record six in Neo's voice capped at 7,500 credits, and bring Cyril and Methodius back separately because they have no census entry.
+
+**What goes live.** Clement of Alexandria, Antony the Great, Macrina the Younger, Radegund, Columba, Marcion of Pontus, Martin of Tours, Benedict of Nursia, Hild of Whitby, Dhuoda and the Council of Nicaea.
+- Each brief becomes the entry's `longDescription`.
+- Each person keeps its live card word for word. Only the six tweaks are applied ("Cards: back to the originals", 2026-11-17), each one checked by script to differ from the live card by exactly the listed words. The card also gains the brief's quotations and references.
+- Nicaea's council gains `howItWorked`, its quotations and references, and its story "How Nicaea decided" as a documented story.
+
+**Second readings.** Every quotation was rendered a second time, blind, from its source (`Second_Readings.md` in each folder; 48 quotations). 44 matched and 2 had minor differences. Two changed the meaning, and both were re-rendered in the second reader's words before recording:
+- Columba: "they that seek the Lord shall not want any good thing" became "those who seek the Lord will lack no good thing". The old wording can be heard today as "will not desire".
+- Dhuoda: "a respectable monument of literature and piety" became "a monument of literature and piety worthy of respect". Today the old wording sounds like faint praise.
+- 37 quotations are renderings and are listed in `tools/quote_renderings.json` with their records. The five Benedict renderings of release 48 are removed, because his new brief no longer quotes them.
+
+**Made to pass the census check.**
+- The editions the quotations cite are added to each card's sources.
+- Three lists of lines are written as ranges, and two ranges are corrected.
+- Fifteen scan faults inside quoted wording are listed in `tools/quote_scan_readings.json`.
+- Three reference lines that quoted a paraphrase or a label are told as plain notes.
+- Benedict's brief puts Paul the Deacon's words in quotation marks.
+- Each change is listed in that card's `Card_Edits.md`, "At release 50".
+
+**Code.**
+- The census check now covers a council's quotations, references and how-it-worked lines, and a documented story's quotations. It accepts the original beside a translation (and a printed English beside an original), and each wording must stand at its lines. One entry may cover a quotation the brief breaks around "he says".
+- The map's council card and the council's tree page show the brief's recording, the Quotations and references section, How the council worked, and the story with its recording (Open-Gaps 321).
+- The narration tool sends audio tags only to a model that reads them (Open-Gaps 320). Tree runs never send tags, so no live Daniel recording carries the spoken word.
+
+**Recordings.**
+- *The paid run:* Neo (`onegjDE2z0mQtp1g0HK7`, `eleven_v4`, `mp3_44100_64`, `{"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true}`), recording Marcion first to confirm the rate and then Clement, Antony, Martin, Columba and Radegund. The six were charged 1,089, 1,013, 1,203, 1,236, 1,119 and 1,029, a total of 6,689 credits against the cap of 7,500. The account balance moved from 280,548 to 287,237, exactly that amount (`2026-11-17_varied-batch-2/recording/release50-run1.log`, `-run2.log`).
+- *Review recordings reused:* these were made with the same settings from the final text (Decision-Log, "Audio review recorded", 2026-11-17). Macrina, Hild and Benedict are in Neo's voice, and Nicaea is in Daniel's (`onwK4e9ZLuTAKqWW03F9`, `eleven_multilingual_v2`) with no pause tag. "How Nicaea decided" is in Neo's voice, in `audio/docstories/`. Since its take, Benedict's text has changed only by a pair of quotation marks.
+- *Not recorded:* Dhuoda's brief changed after its review take, so it goes live as text until it is recorded again (about 1,150 credits, beyond the approved cap; for Mark).

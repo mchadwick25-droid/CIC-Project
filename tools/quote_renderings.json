@@ -392,68 +392,484 @@
    }
   },
   {
-   "id": "benedict-of-nursia",
-   "quote": "You do many evil things.",
+   "id": "marcion-of-pontus",
+   "quote": "I do know you: the firstborn of Satan.",
    "original": {
-    "file": "cic/texts/gregory-great_dialogues_gardner1911.txt",
-    "lines": "4472-4473",
+    "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+    "lines": "39883-39884",
     "language": "English"
    },
    "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/gregory-benedict/comparison.md",
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/marcion-of-pontus/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "marcion-of-pontus",
+   "quote": "Even now he is still teaching the people he has won over. He teaches them to believe in some other god, greater than the Creator.",
+   "original": {
+    "file": "cic/texts/justin-martyr_first-apology-grc_rauschen1911.txt",
+    "lines": "730-731",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/marcion-of-pontus/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "marcion-of-pontus",
+   "quote": "Separating the law from the gospel is Marcion's own work, and his chief one.",
+   "original": {
+    "file": "cic/texts/tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt",
+    "lines": "4337-4338",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/marcion-of-pontus/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "clement-of-alexandria",
+   "quote": "I tracked him down where he was hidden in Egypt,",
+   "original": {
+    "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+    "lines": "27489-27492",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch/clement-of-alexandria/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "clement-of-alexandria",
+   "quote": "and I found rest.",
+   "original": {
+    "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+    "lines": "27489-27492",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch/clement-of-alexandria/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "clement-of-alexandria",
+   "quote": "For it was a guide to bring the Greek mind to Christ,",
+   "original": {
+    "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+    "lines": "27891-27893",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch/clement-of-alexandria/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "clement-of-alexandria",
+   "quote": "as the Law brought the Hebrews.",
+   "original": {
+    "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+    "lines": "27891-27893",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch/clement-of-alexandria/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "antony-the-great",
+   "quote": "the desert became a city of monks.",
+   "original": {
+    "file": "cic/texts/athanasius_opera-omnia-pg26-grc-lat_migne1857.txt",
+    "lines": "70548-70549",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch/antony-the-great/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "antony-the-great",
+   "quote": "the desert became a city of monks",
+   "original": {
+    "file": "cic/texts/athanasius_opera-omnia-pg26-grc-lat_migne1857.txt",
+    "lines": "70548-70549",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch/antony-the-great/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "antony-the-great",
+   "quote": "For I had heard this of Antony. He had come in by chance during the Gospel reading, and was urged on by it. It was as though the words read were spoken to him. 'Go, sell all that you have, give to the poor, and you will have treasure in heaven. And come, follow me.' By such a divine word he was at once turned to you.",
+   "original": {
+    "file": "cic/texts/augustine_confessiones-lat_knoll-csel33.txt",
+    "lines": "13470-13501",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch/antony-the-great/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "macrina-the-younger",
+   "quote": "You, Lord,",
+   "original": {
+    "file": "cic/texts/gregory-nyssa_opera-omnia-pg46-grc-lat_migne1863.txt",
+    "lines": "71687-71690",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch/macrina-the-younger/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "macrina-the-younger",
+   "quote": "have set us free from the fear of death.",
+   "original": {
+    "file": "cic/texts/gregory-nyssa_opera-omnia-pg46-grc-lat_migne1863.txt",
+    "lines": "71687-71690",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch/macrina-the-younger/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "macrina-the-younger",
+   "quote": "Here is the cloak, here is the head-covering, and the worn-out shoes on her feet. This is her wealth.",
+   "original": {
+    "file": "cic/texts/gregory-nyssa_opera-omnia-pg46-grc-lat_migne1863.txt",
+    "lines": "72083-72085",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch/macrina-the-younger/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "martin-of-tours",
+   "quote": "I am Christ's soldier. I am not allowed to fight.",
+   "original": {
+    "file": "cic/texts/sulpicius-severus_libri-qui-supersunt-chronica-vita-martini-lat_halm1866-csel1.txt",
+    "lines": "6335-6337",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/martin-of-tours/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "martin-of-tours",
+   "quote": "it was a cruel wrong, never heard of before, for a judge of this world to try a case of the church.",
+   "original": {
+    "file": "cic/texts/sulpicius-severus_libri-qui-supersunt-chronica-vita-martini-lat_halm1866-csel1.txt",
+    "lines": "5905-5907",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/martin-of-tours/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "council-of-nicaea-325",
+   "quote": "We are persecuted because we said, 'The Son has a beginning, but God has no beginning.'",
+   "original": {
+    "file": "cic/texts/theodoret_opera-omnia-t3-historia-religiosa-pg82-grc-lat_migne1864.txt",
+    "lines": "70615-70616",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/council-of-nicaea-325/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "council-of-nicaea-325",
+   "quote": "For I count civil strife in the church of God worse than any war or fierce battle.",
+   "original": {
+    "file": "cic/texts/eusebius_werke-bd1-vita-constantini-oratio-ad-sanctos-grc_heikel1902.txt",
+    "lines": "11167-11168",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/council-of-nicaea-325/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "council-of-nicaea-325",
+   "quote": "of one being",
+   "original": {
+    "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+    "lines": "2412-2413",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/council-of-nicaea-325/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "council-of-nicaea-325",
+   "quote": "He won some over and shamed others with his words,",
+   "original": {
+    "file": "cic/texts/eusebius_werke-bd1-vita-constantini-oratio-ad-sanctos-grc_heikel1902.txt",
+    "lines": "11238",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/council-of-nicaea-325/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "council-of-nicaea-325",
+   "quote": "about the faith they did not write, 'It seemed good.' They wrote, 'This is what the universal Church believes.'",
+   "original": {
+    "file": "cic/texts/athanasius_opera-omnia-pg26-grc-lat_migne1857.txt",
+    "lines": "57165-57169",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/council-of-nicaea-325/Second_Readings.md",
     "verdict": "same"
    }
   },
   {
    "id": "benedict-of-nursia",
-   "quote": "a school for the Lord's service, and in setting it up we hope to lay down nothing harsh and nothing heavy.",
+   "quote": "So we must found a school for the Lord's service. In founding it, we hope to lay down nothing harsh and nothing heavy.",
    "original": {
-    "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt",
-    "lines": "768-770",
-    "language": "English"
+    "file": "cic/texts/benedict_rule-of-st-benedict-lat-eng_hunter-blair1907.txt",
+    "lines": "1240-1245",
+    "language": "Latin"
    },
    "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/gregory-benedict/comparison.md",
-    "verdict": "minor"
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/benedict-of-nursia/Second_Readings.md",
+    "verdict": "same"
    }
   },
   {
    "id": "benedict-of-nursia",
-   "quote": "stability, a changed way of life, and obedience,",
+   "quote": "Let him so temper everything that the strong have something to long for, and the weak do not run away.",
    "original": {
-    "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt",
-    "lines": "3595-3596",
-    "language": "English"
+    "file": "cic/texts/benedict_rule-of-st-benedict-lat-eng_hunter-blair1907.txt",
+    "lines": "9527-9528",
+    "language": "Latin"
    },
    "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/gregory-benedict/comparison.md",
-    "verdict": "minor"
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/benedict-of-nursia/Second_Readings.md",
+    "verdict": "same"
    }
   },
   {
    "id": "benedict-of-nursia",
-   "quote": "that the strong have something to long for and the weak do not run away.",
+   "quote": "carrying the manuscript of the Holy Rule",
    "original": {
-    "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt",
-    "lines": "3960-3961",
+    "file": "cic/texts/paul-the-deacon_history-of-the-langobards_foulke1907.txt",
+    "lines": "7832-7835",
     "language": "English"
    },
    "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/gregory-benedict/comparison.md",
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/benedict-of-nursia/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "columba",
+   "quote": "those who seek the Lord will lack no good thing,",
+   "original": {
+    "file": "cic/texts/adomnan_life-of-saint-columba_huyshe1905.txt",
+    "lines": "10785-10787",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch/columba/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "columba",
+   "quote": "Here I must stop, at the bottom of this page. Let Baithene write what comes next.",
+   "original": {
+    "file": "cic/texts/adomnan_life-of-saint-columba_huyshe1905.txt",
+    "lines": "10787-10789",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch/columba/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "columba",
+   "quote": "My sons, I entrust these last words to you. Love one another without pretence, and live in peace.",
+   "original": {
+    "file": "cic/texts/adomnan_life-of-saint-columba_huyshe1905.txt",
+    "lines": "10815-10817",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch/columba/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "columba",
+   "quote": "But whatever kind of man he was, this much about him we hold as certain. He left successors known for great self-control, for the love of God, and for life under a rule.",
+   "original": {
+    "file": "cic/texts/bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt",
+    "lines": "18882-18885",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch/columba/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "radegund",
+   "quote": "If you put off consecrating me, and fear a man more than God, then, shepherd, may the soul of your sheep be demanded from your hand.",
+   "original": {
+    "file": "cic/texts/fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt",
+    "lines": "28806-28808",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch/radegund/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "radegund",
+   "quote": "Because I could not come in person,",
+   "original": {
+    "file": "cic/texts/gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885.txt",
+    "lines": "31516-31517",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch/radegund/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "radegund",
+   "quote": "I bow down through this letter in my place, as if fallen at your feet.",
+   "original": {
+    "file": "cic/texts/gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885.txt",
+    "lines": "31516-31517",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch/radegund/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "hild-of-whitby",
+   "quote": "All who knew her used to call her Mother, for her outstanding devotion and grace.",
+   "original": {
+    "file": "cic/texts/bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt",
+    "lines": "24994-24995",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/hild-of-whitby/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "hild-of-whitby",
+   "quote": "Later we saw five bishops come from that same monastery. All of them were men of rare merit and holiness.",
+   "original": {
+    "file": "cic/texts/bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt",
+    "lines": "24946-24948",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/hild-of-whitby/Second_Readings.md",
     "verdict": "minor"
    }
   },
   {
-   "id": "benedict-of-nursia",
-   "quote": "outstanding for its sound judgment and clear in its language.",
+   "id": "dhuoda",
+   "quote": "I see many people in this world who rejoice in their children with them. But I, Dhuoda, see myself kept far away from you, my son William.",
    "original": {
-    "file": "cic/texts/gregory-great_dialogues_gardner1911.txt",
-    "lines": "5567-5568",
+    "file": "cic/texts/dhuoda_liber-manualis_bondurand1887.txt",
+    "lines": "1893-1894",
     "language": "English"
    },
    "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/gregory-benedict/comparison.md",
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/dhuoda/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "dhuoda",
+   "quote": "in discord",
+   "original": {
+    "file": "cic/texts/dhuoda_liber-manualis_bondurand1887.txt",
+    "lines": "2078",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/dhuoda/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "dhuoda",
+   "quote": "at my lord's command",
+   "original": {
+    "file": "cic/texts/dhuoda_liber-manualis_bondurand1887.txt",
+    "lines": "2261-2262",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/dhuoda/Second_Readings.md",
     "verdict": "minor"
+   }
+  },
+  {
+   "id": "dhuoda",
+   "quote": "My son, you will have teachers who will teach you more lessons, and greater ones, for your good. But they will not teach on equal terms, with a heart burning in the breast, as I do, your mother.",
+   "original": {
+    "file": "cic/texts/dhuoda_liber-manualis_bondurand1887.txt",
+    "lines": "3168-3171",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/dhuoda/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "dhuoda",
+   "quote": "a monument of literature and piety worthy of respect",
+   "original": {
+    "file": "cic/texts/dhuoda_liber-manualis_bondurand1887.txt",
+    "lines": "348",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/dhuoda/Second_Readings.md",
+    "verdict": "same"
    }
   }
  ]

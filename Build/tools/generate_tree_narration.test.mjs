@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import path from 'path';
-import { parseArgs, requireApprovedRun, requirePaidSettings, parseVoiceSettings, parseOutputFormat, parseAudioTag, requestTextFor, applyPronunciations, loadPronunciations, lastSentenceStart, onlyIds, planNarration, synthesize, synthesizeWithCost, audioPathFor, audioDir, resolveVoiceId, narrationTextFor, defaultVoiceSettings, narrationFingerprint, recordingMatchesText, hasOwnWorldStory } from './generate_tree_narration.mjs';
+import { readsAudioTags, parseArgs, requireApprovedRun, requirePaidSettings, parseVoiceSettings, parseOutputFormat, parseAudioTag, requestTextFor, applyPronunciations, loadPronunciations, lastSentenceStart, onlyIds, planNarration, synthesize, synthesizeWithCost, audioPathFor, audioDir, resolveVoiceId, narrationTextFor, defaultVoiceSettings, narrationFingerprint, recordingMatchesText, hasOwnWorldStory } from './generate_tree_narration.mjs';
 
 function movement(id, overrides = {}) {
   return { id, name: id, longDescription: `The story of ${id}.`, ...overrides };
@@ -493,4 +493,22 @@ test('requestTextFor: respells the audio script only, pauses between paragraphs,
 test('requestTextFor: a one-sentence last paragraph still gets the closing tag on its own sentence', () => {
   const sent = requestTextFor('First one.\n\nLast one.', { closingTag: '[warmly]', pronunciations: { paragraphPause: '[pause]', entries: [] } });
   assert.equal(sent, 'First one.\n\n[pause]\n\n[warmly] Last one.');
+});
+
+test('requestTextFor: a model that does not read audio tags gets the respellings and no tags', () => {
+  const pronunciations = { paragraphPause: '[pause]', entries: [{ written: 'Nicaea', say: 'nye-SEE-uh', form: 'place' }] };
+  const text = 'Bishops met at Nicaea.\n\nThey wrote a creed.';
+  const daniel = requestTextFor(text, { openTag: '[calmly]', closingTag: '[warmly]', pronunciations, model: 'eleven_multilingual_v2' });
+  assert.equal(daniel, 'Bishops met at nye-SEE-uh.\n\nThey wrote a creed.');
+  assert.ok(!daniel.includes('['));
+  const neo = requestTextFor(text, { pronunciations, model: 'eleven_v4' });
+  assert.equal(neo, 'Bishops met at nye-SEE-uh.\n\n[pause]\n\nThey wrote a creed.');
+  assert.equal(readsAudioTags('eleven_v4'), true);
+  assert.equal(readsAudioTags('eleven_multilingual_v2'), false);
+});
+
+test('requirePaidSettings: a person run refuses open or closing tags on a model that would speak them', () => {
+  const base = { people: true, personVoiceId: 'v', model: 'eleven_multilingual_v2', voiceSettings: {}, outputFormat: 'mp3_44100_64' };
+  assert.throws(() => requirePaidSettings({ ...base, openTag: '[calmly]' }), /would speak them/);
+  assert.doesNotThrow(() => requirePaidSettings(base));
 });

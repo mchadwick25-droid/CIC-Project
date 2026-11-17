@@ -228,13 +228,23 @@ export function applyPronunciations(text, entries) {
 }
 
 /**
+ * The models that read an audio tag such as "[pause]" as direction. Any other
+ * model (Daniel's eleven_multilingual_v2) speaks the tag aloud, so it is sent
+ * the respelled text with no tags at all.
+ */
+export const AUDIO_TAG_MODELS = new Set(['eleven_v3', 'eleven_v4']);
+export const readsAudioTags = (model) => AUDIO_TAG_MODELS.has(model);
+
+/**
  * The text sent to ElevenLabs: the narration text with its names respelled,
  * the closing tag before its last sentence, the pause tag after every
- * paragraph but the last, and the open tag before it all. With no options it
- * is the text itself.
+ * paragraph but the last, and the open tag before it all. Given a model that
+ * does not read audio tags, only the respellings apply. With no options it is
+ * the text itself.
  */
-export function requestTextFor(text, { openTag = null, closingTag = null, pronunciations = null } = {}) {
+export function requestTextFor(text, { openTag = null, closingTag = null, pronunciations = null, model = null } = {}) {
   let out = pronunciations ? applyPronunciations(text, pronunciations.entries) : text;
+  if (model && !readsAudioTags(model)) return out;
   if (closingTag) {
     const at = lastSentenceStart(out);
     out = `${out.slice(0, at)}${closingTag} ${out.slice(at)}`;
@@ -250,6 +260,9 @@ export function requestTextFor(text, { openTag = null, closingTag = null, pronun
  * names the person voice with --person-voice-id and no default narrator.
  */
 export function requirePaidSettings({ voiceId, model, people = false, personVoiceId = null, voiceSettings = null, outputFormat = null, openTag = null, closingTag = null }) {
+  if (people && (openTag || closingTag) && !readsAudioTags(model)) {
+    throw new Error(`--open-tag and --closing-tag need a model that reads audio tags (${[...AUDIO_TAG_MODELS].join(', ')}); ${model} would speak them.`);
+  }
   if (!people && (outputFormat || openTag || closingTag)) {
     throw new Error('--output-format, --open-tag and --closing-tag need --people: other runs use the fixed tree format and no tags.');
   }
@@ -489,7 +502,7 @@ async function run() {
 
   const defaultVoiceId = opts.voiceId;
   const formatSent = opts.people ? opts.outputFormat : NARRATION_OUTPUT_FORMAT;
-  const tags = opts.people ? { openTag: opts.openTag, closingTag: opts.closingTag, pronunciations: loadPronunciations() } : {};
+  const tags = opts.people ? { openTag: opts.openTag, closingTag: opts.closingTag, pronunciations: loadPronunciations(), model: opts.model } : {};
   const requestChars = toGenerate.reduce((sum, m) => sum + requestTextFor(narrationTextFor(m), tags).length, 0);
   const settingsSent = opts.people ? opts.voiceSettings : defaultVoiceSettings;
   const voiceFor = (id) => (opts.people ? opts.personVoiceId : resolveVoiceId(id, { defaultVoiceId }));
@@ -527,7 +540,7 @@ async function run() {
   console.log(`output format    : ${formatSent}`);
   console.log(`model            : ${opts.model}`);
   console.log(`settings         : ${JSON.stringify(settingsSent)}`);
-  if (opts.people) console.log(`audio tags       : open ${opts.openTag || '(none)'}, before the last sentence ${opts.closingTag || '(none)'}, between paragraphs ${tags.pronunciations.paragraphPause || '(none)'}, ${tags.pronunciations.entries.length} respellings`);
+  if (opts.people) console.log(`audio tags       : open ${opts.openTag || '(none)'}, before the last sentence ${opts.closingTag || '(none)'}, between paragraphs ${(readsAudioTags(opts.model) && tags.pronunciations.paragraphPause) || '(none)'}, ${tags.pronunciations.entries.length} respellings`);
   console.log(`items            : ${toGenerate.length}   characters: ${totalChars} text, ${requestChars} sent`);
   console.log('===========================================');
 

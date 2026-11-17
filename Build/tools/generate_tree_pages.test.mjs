@@ -447,3 +447,14 @@ test('the map card shows the printed originals and references below the brief, c
   assert.match(map, /<details class="sources-panel quotes-panel"><summary>Quotations and references<\/summary>/);
   assert.match(map, /h\+='<p class="quotes-note">Quotations are given in our modern English\. The printed wording of each is below\.<\/p>';\n    h\+=quotesPanel\(card\);/);
 });
+
+test('a council page shows how it worked, the printed wording behind its quotations, and its story with recording', () => {
+  const page = generate(census)('tree/council-of-nicaea-325.html');
+  assert.match(page, /<h2>How the Council Worked<\/h2>/);
+  assert.match(page, /<details class="quotes-panel"><summary>Quotations and references<\/summary>/);
+  assert.ok(page.indexOf('class="reading"') < page.indexOf('class="quotes-panel"'));
+  assert.match(page, /<h2>How Nicaea decided<\/h2><div class="narration"><audio controls preload="none" src="\.\.\/audio\/docstories\/council-of-nicaea-325-0\.mp3">/);
+  const c = structuredClone(census);
+  c.movements.find(m => m.id === 'council-of-nicaea-325').documentedStories[0].text += ' Changed.';
+  assert.doesNotMatch(generate(c)('tree/council-of-nicaea-325.html'), /audio\/docstories\/council-of-nicaea-325-0\.mp3/);
+});

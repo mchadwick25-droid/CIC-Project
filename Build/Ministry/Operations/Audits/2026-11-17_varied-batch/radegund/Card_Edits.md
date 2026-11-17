@@ -9,3 +9,10 @@
 ## Left alone
 
 - The Cross "set in gold" credited to Gregory. The card does not say it. Its trace reads only "Gregory of Tours tells how she sent to the East for wood of the True Cross", which Gregory does say (Dalton 1927, 19601–19607). The gold is credited to Baudonivia in the brief references.
+
+## At release 50
+
+The new brief's fields, made to pass the census check. Nothing else on the card moved.
+
+- Quotation 1: lines "28806, 28808" written as the range 28806-28808, with the margin note on line 28808 a listed scan reading.
+- References: the Glory of the Martyrs line is told as a plain note, since its quoted words were our rendering of the Latin.

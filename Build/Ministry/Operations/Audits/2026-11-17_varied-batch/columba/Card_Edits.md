@@ -9,3 +9,11 @@
 ## Left alone
 
 - The Stokes/Reeves birth-year sentence in `uncertain[2]`. It holds.
+
+## At release 50
+
+The new brief's fields, made to pass the census check. Nothing else on the card moved.
+
+- Sources: Bede's Latin, ed. Plummer, the file quotation 6 cites.
+- Quotation 3: line 7887 corrected to 7888, where the words stand.
+- Quotation 1: the brief's "they that seek the Lord shall not want any good thing" becomes "those who seek the Lord will lack no good thing". The second reading found "shall not want" heard today as "will not desire" (`Second_Readings.md`).

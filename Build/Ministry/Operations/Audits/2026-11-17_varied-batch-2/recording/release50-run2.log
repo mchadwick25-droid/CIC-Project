@@ -1,0 +1,24 @@
+=== Tree narration  ===
+619 movements total
+8 skipped - no longDescription to narrate
+12 skipped - built world with its own orientation.story, recorded in its Representative's voice
+349 skipped - not a person row (person run)
+0 already narrated and current (use --force to regenerate)
+0 stale - recorded from text that has since changed, re-voiced this run
+5 to generate this run, 11233 characters total
+=== PAID RUN, settings as actually used ===
+approved run     : Release 50: the six Who briefs in Neo's voice (Mark, 2026-11-17, cap 7,500 credits)   char cap: 11600
+person voice id  : onegjDE2z0mQtp1g0HK7   (kind "person", every item)
+output format    : mp3_44100_64
+model            : eleven_v4
+settings         : {"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true}
+audio tags       : open (none), before the last sentence (none), between paragraphs [pause], 7 respellings
+items            : 5   characters: 11233 text, 11551 sent
+===========================================
+  ok: clement-of-alexandria voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=2023 sent=2089 cost=1013 request-id=eD1emvGHh6CDFWepWCum
+  ok: antony-the-great voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=2428 sent=2482 cost=1203 request-id=y0IGC8ezwJPLA72diKwF
+  ok: martin-of-tours voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=2477 sent=2549 cost=1236 request-id=CyyRNY5NgsFtoMmSvexR
+  ok: columba voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=2245 sent=2308 cost=1119 request-id=ytDOCT5jsSc50h2hsCGE
+  ok: radegund voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=2060 sent=2123 cost=1029 request-id=lPXfs2a6r061nMlKAWXA
+
+5/5 generated. credits charged (character-cost headers): 5600

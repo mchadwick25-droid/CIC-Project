@@ -1,0 +1,20 @@
+=== Tree narration  ===
+619 movements total
+8 skipped - no longDescription to narrate
+12 skipped - built world with its own orientation.story, recorded in its Representative's voice
+349 skipped - not a person row (person run)
+0 already narrated and current (use --force to regenerate)
+0 stale - recorded from text that has since changed, re-voiced this run
+1 to generate this run, 2193 characters total
+=== PAID RUN, settings as actually used ===
+approved run     : Release 50: the six Who briefs in Neo's voice (Mark, 2026-11-17, cap 7,500 credits)   char cap: 2300
+person voice id  : onegjDE2z0mQtp1g0HK7   (kind "person", every item)
+output format    : mp3_44100_64
+model            : eleven_v4
+settings         : {"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true}
+audio tags       : open (none), before the last sentence (none), between paragraphs [pause], 7 respellings
+items            : 1   characters: 2193 text, 2247 sent
+===========================================
+  ok: marcion-of-pontus voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=2193 sent=2247 cost=1089 request-id=ENE0QHyznO2SCy8hHS9M
+
+1/1 generated. credits charged (character-cost headers): 1089

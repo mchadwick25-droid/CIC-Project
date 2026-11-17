@@ -11,3 +11,9 @@
 - A year such as 144: none in the card.
 - "ten letters": not in the card.
 - "known only through Tertullian": the card says "known through Tertullian of Carthage's answer", without "only".
+
+## At release 50
+
+The new brief's fields, made to pass the census check. Nothing else on the card moved.
+
+- Sources: Justin's Greek First Apology (ed. Rauschen) and Tertullian's Latin Against Marcion (ed. Oehler), the files the quotations cite.

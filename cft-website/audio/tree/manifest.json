@@ -2969,23 +2969,21 @@
  },
  "benedict-of-nursia": {
   "file": "benedict-of-nursia.mp3",
-  "bytes": 1908444,
-  "chars": 1931,
-  "text_sha256": "6c5ff829b34a98b54b27b3cab4622fe78aae6e9286ea1d68bcb3d522fcd593f0",
-  "voiceId": "MFZUKuGQUsGJPQjTS4wC",
+  "bytes": 1174926,
+  "chars": 2119,
+  "text_sha256": "f34a7d58d008403c4a115c03e3fed3fd52c2065b41aded17251f291d31f0eeef",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
-  "outputFormat": "mp3_44100_128",
+  "outputFormat": "mp3_44100_64",
   "voiceSettings": {
-   "stability": 0.85,
-   "similarity_boost": 0.88,
-   "style": 0.05,
-   "use_speaker_boost": true,
-   "speed": 0.95
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
   },
-  "charsSent": 1982,
-  "openTag": "[calmly]",
-  "closingTag": "[warmly]",
-  "requestId": "JMDcqbSH777yEKIJ8nsF"
+  "charsSent": 2155,
+  "openTag": null,
+  "closingTag": null
  },
  "gregory-of-tours": {
   "file": "gregory-of-tours.mp3",
@@ -3006,5 +3004,170 @@
   "openTag": "[calmly]",
   "closingTag": "[warmly]",
   "requestId": "yN5vqzZ1Bdt6dFctATYC"
+ },
+ "marcion-of-pontus": {
+  "file": "marcion-of-pontus.mp3",
+  "bytes": 1217767,
+  "chars": 2193,
+  "text_sha256": "3a134990b4c0f9af3d2814162b7017cdbf93b936e30454cd7795e4aa4d03c35d",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 2247,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "ENE0QHyznO2SCy8hHS9M"
+ },
+ "clement-of-alexandria": {
+  "file": "clement-of-alexandria.mp3",
+  "bytes": 1127696,
+  "chars": 2023,
+  "text_sha256": "49109612977c4503565be797b2c8a0e2fab436f179ee426bfa5884a5dc1fb61c",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 2089,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "eD1emvGHh6CDFWepWCum"
+ },
+ "antony-the-great": {
+  "file": "antony-the-great.mp3",
+  "bytes": 1313270,
+  "chars": 2428,
+  "text_sha256": "c5c9112a7d64461d74c442f36bd5795950d0e2306308b25d1da84b0132564525",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 2482,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "y0IGC8ezwJPLA72diKwF"
+ },
+ "martin-of-tours": {
+  "file": "martin-of-tours.mp3",
+  "bytes": 1377218,
+  "chars": 2477,
+  "text_sha256": "29c979db31254cc57cd653870d033beb21a41f015b4116c775f475dd4f50dd63",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 2549,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "CyyRNY5NgsFtoMmSvexR"
+ },
+ "columba": {
+  "file": "columba.mp3",
+  "bytes": 1285685,
+  "chars": 2245,
+  "text_sha256": "e0b2e3007e851956ed7b03810f3e7afe6a0b691f1bfaeb807ee0cd12f3cac878",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 2308,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "ytDOCT5jsSc50h2hsCGE"
+ },
+ "radegund": {
+  "file": "radegund.mp3",
+  "bytes": 1085274,
+  "chars": 2060,
+  "text_sha256": "7086dc2cbaaf18fe45d0eedf9ce82cbea4797510ace79e08b333183c366d41de",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 2123,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "lPXfs2a6r061nMlKAWXA"
+ },
+ "macrina-the-younger": {
+  "file": "macrina-the-younger.mp3",
+  "bytes": 1174926,
+  "chars": 2141,
+  "text_sha256": "04ec0582f1f6d10bc4629974cec14b2e66d344ab92e92ed0627f376e8f9ce46e",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 2192,
+  "openTag": null,
+  "closingTag": null
+ },
+ "hild-of-whitby": {
+  "file": "hild-of-whitby.mp3",
+  "bytes": 1298433,
+  "chars": 2402,
+  "text_sha256": "bbfe004eee2273840cb03063a3e12d1a4971acd946e652529de9000227c102f7",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 2465,
+  "openTag": null,
+  "closingTag": null
+ },
+ "council-of-nicaea-325": {
+  "file": "council-of-nicaea-325.mp3",
+  "bytes": 1921401,
+  "chars": 3083,
+  "text_sha256": "a8dd64552721fc6a05025ff44705c7e2e20bd7382718432421d2fe9b3d385622",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  }
  }
 }
