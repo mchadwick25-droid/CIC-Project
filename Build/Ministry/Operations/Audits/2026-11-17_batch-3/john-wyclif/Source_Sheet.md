@@ -108,4 +108,6 @@ Spoken words for the writer: "fourteenth century", "England", "Oxford", "Lutterw
 - Lützow, Gillett, Höfler, Novotný, Hardt, Finke, Laurentius de Březová: Bohemian reception at length; Palacky and Schaff carry the one link the story needs.
 - Apology for Lollard Doctrines, Lanterne of Light, Pecock, Lay Folks' Catechism, Powell-Trevelyan, Foxe v4, Knox: the movement after him, which belongs to the Lollardy entry.
 - Crespin, van Braght, Perrin and other later Protestant histories: later retellings of Foxe's line.
+- wright_political-poems-and-songs-v2_1861.txt (Jack Upland, Friar Daw Topias, On the Lollards): verse of the movement and its opponents after him; it belongs to the Lollardy entry, and no beat needs it.
+- hus_tractatus-responsivus-lat-eng_thomson1927.txt: Hus's tract answering sixteen articles condemned as Wyclif's (attribution to Hus is its editor's); Palacky and Schaff carry the Hus link more directly.
 - Not held: Walsingham vol. 1 / Chronicon Angliae (the primary narrative of St Paul's, 1377); any record naming who burned the bones and when; Hudson's Wycliffite texts and Tanner's Norwich trials named in the census.
