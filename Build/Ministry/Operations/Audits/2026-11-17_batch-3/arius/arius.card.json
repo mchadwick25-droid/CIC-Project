@@ -1,0 +1,178 @@
+{
+  "knownFor": "A presbyter of Alexandria who taught that the Son of God was made, and not eternal; his teaching was condemned at the Council of Nicaea in 325.",
+  "datesNote": "In dispute with Bishop Alexander of Alexandria from about 318 or 319; died in Constantinople in 336, both by Archibald Robertson's dating",
+  "placeNote": "Alexandria",
+  "role": "Presbyter and teacher",
+  "briefLength": "about 3 minutes",
+  "keyWorks": [
+    {
+      "title": "Letter to Eusebius of Nicomedia",
+      "about": "his own statement of belief, kept by Theodoret of Cyrrhus in his Church History, Book 1"
+    },
+    {
+      "title": "The Thalia",
+      "about": "a book of his teaching in verse, known only from the quotations and mockery of Athanasius"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The churches later called Arian, which held with him that the Son was not eternal.",
+      "The creed of Nicaea, which the council wrote to define the faith against his teaching."
+    ],
+    "remembered": [
+      "Socrates of Constantinople sets the start of the quarrel at his clash with Bishop Alexander, when Arius said \"there was a time when the Son was not.\"",
+      "Athanasius of Alexandria tells of his sudden death in Constantinople, the day before he was to be received back, as the presbyter Macarius told it to him."
+    ]
+  },
+  "uncertain": [
+    "How the quarrel began is told more than one way. Socrates of Constantinople starts it at Arius's answer to Bishop Alexander. Archibald Robertson, who edited Athanasius in English, calls the origin obscure, and notes that Constantine's own letter has Alexander asking his clergy about a passage of Scripture. Philostorgius, through Photius, says a presbyter nicknamed Baucalis started it.",
+    "His own words reach us through others. Theodoret of Cyrrhus kept his letter to Eusebius of Nicomedia, and Athanasius quotes the Thalia while mocking it.",
+    "Philostorgius, a historian on his side, praised Arius but also found fault with him. His history survives only in a hostile summary by Photius, patriarch of Constantinople in the 800s, who calls Philostorgius a liar. So the attack on Arius and the defense of him both come through opponents.",
+    "Athanasius was not in Constantinople when Arius died, and had the account from the presbyter Macarius. Sozomen gives three views of the death. Those who held Arius's views blamed magic. Others saw God's judgment, and some a sudden disease of the heart.",
+    "The year of his birth is not given in a held source. Robertson reports that he was said to be a native of Libya, and dates his death to 336."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Letter to Eusebius of Nicomedia, in Church History, Book 1, chapter 4",
+        "author": "Arius, in Theodoret of Cyrrhus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Extracts from the Thalia, in On the Councils (de Synodis) and the Orations against the Arians",
+        "author": "Arius, quoted by Athanasius of Alexandria",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+      },
+      {
+        "title": "Letter to Eusebius of Nicomedia, in Panarion 69.6",
+        "author": "Arius, in Epiphanius of Salamis",
+        "date": null,
+        "language": "Greek, with Latin translation",
+        "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Church History, Book 1, chapters 5 to 9, on the dispute and the Council of Nicaea",
+        "author": "Socrates of Constantinople",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Select Works and Letters, with the letter to Serapion on the death of Arius and Robertson's prolegomena",
+        "author": "Athanasius of Alexandria",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+      },
+      {
+        "title": "Ecclesiastical History (an Arian account, surviving in Photius's hostile summary)",
+        "author": "Philostorgius",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/philostorgius_ecclesiastical-history_walford1855.txt"
+      },
+      {
+        "title": "Church History, Book 2, chapter 10, with the letter of the eastern bishops from Antioch, 341",
+        "author": "Socrates of Constantinople",
+        "date": null,
+        "language": "Greek, with Latin translation",
+        "file": "cic/texts/socrates_historia-ecclesiastica-tomus1-grc-lat_hussey1853.txt"
+      },
+      {
+        "title": "The Creed of Nicaea, in The Seven Ecumenical Councils",
+        "author": "Council of Nicaea (325)",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      },
+      {
+        "title": "Acts of the Council of Aquileia (381), in Sacrorum conciliorum collectio, vol. 3",
+        "author": "ed. Giovanni Domenico Mansi",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901.txt"
+      },
+      {
+        "title": "Aus der Schule des Wulfila, with the editor's account of the Council of Aquileia",
+        "author": "Friedrich Kauffmann",
+        "date": "1899",
+        "language": "German",
+        "file": "cic/texts/auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt"
+      }
+    ]
+  },
+  "briefReferences": [
+    "Arius, Letter to Eusebius of Nicomedia, in Epiphanius, Panarion 69.6 (Greek) and Theodoret, Church History 1.4 (English): \"We are persecuted because we said: the Son has a beginning, but God has no beginning\"; driven out \"as atheists\"; the Son before time as perfect God, and before he was begotten he was not; \"of things that were not\".",
+    "Arius and his fellow clergy, Letter to Alexander, in Athanasius, De Synodis 16, and Epiphanius, Panarion 69: God alone without beginning; a Son eternal beside him would make two without beginning.",
+    "Socrates, Church History 1.5, and Robertson's prolegomena to Athanasius: a presbyter of Alexandria under Bishop Alexander; the dispute begins about 318 or 319.",
+    "Alexander of Alexandria, encyclical (Depositio Arii), in Athanasius: Arius and his party deposed, \"enemies of Christ\".",
+    "Athanasius, Against the Arians 1.5: the opening of the Thalia, the earlier teachers wise and taught by God, \"I have walked in their footsteps\"; Athanasius quotes it to mock it.",
+    "Socrates, Church History 1.8-9, with the synodal letter of Nicaea: his opinions condemned in 325, and the emperor's exile.",
+    "The Creed of Nicaea, in The Seven Ecumenical Councils: the closing curses on \"before he was begotten he was not\" and \"of things that were not\".",
+    "Constantine's letter, in Socrates, Church History 1.9: books by Arius to be burned, death for anyone who hid one.",
+    "Theodoret, Epiphanius and Athanasius: his own words survive only in the books of those who opposed him.",
+    "The eastern bishops at Antioch, 341, in Socrates, Church History 2.10 (Greek), and Athanasius, De Synodis 22: \"We have not been followers of Arius\"; they examined his faith and received him rather than followed him; Athanasius says they wrote so because of the odium of their heresy.",
+    "Acts of the Council of Aquileia, 381 (Mansi 3), with Kauffmann's account: Palladius and Secundianus say they do not know Arius, and the council deposes them both.",
+    "Athanasius, Letter 54, to Serapion, on the death of Arius: the emperor receives him; the bishop of Constantinople refuses him; Eusebius's party says he will have communion the next day; the bishop's prayer; the death, in the words of Acts 1:18 on Judas; Athanasius was not there and had it from the presbyter Macarius; the heresy \"hateful in the sight of God\"."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "We are persecuted because we said: the Son has a beginning, but God has no beginning.",
+      "printed": "Διωκόμεθα δὲ ὅτι εἴπομεν, Ἀρχὴν ἔχει ὁ υἱὸς, ὁ δὲ θεὸς ἄναρχός ἐστι.",
+      "work": "Arius, Letter to Eusebius of Nicomedia, in Epiphanius, Panarion 69.6, ed. Franz Oehler; checked against Theodoret, Church History 1.4, in Nicene and Post-Nicene Fathers, second series, vol. 3 (lines 6045-6046)",
+      "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt",
+      "lines": "45736-45738",
+      "uncertain": "The file is OCR; the Greek is given with mechanical slips corrected (ϑ for θ, ᾿Δρχὴν for Ἀρχὴν, ἀναρχός for ἄναρχός), no word changed. \"We said\" follows the Greek aorist εἴπομεν; the English of Theodoret reads \"we say\"."
+    },
+    {
+      "modern": "I have walked in their footsteps, sharing their belief. I am the famous one, who has suffered much for the glory of God. Taught by God, I have come to know wisdom and knowledge.",
+      "printed": "Along their track, have I been walking, with like opinions. I the very famous, the much suffering for God’s glory; And taught of God, I have acquired wisdom and knowledge.",
+      "work": "Arius, Thalia, quoted by Athanasius, Against the Arians 1.5, in Nicene and Post-Nicene Fathers, second series, vol. 4",
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+      "lines": "41472-41479",
+      "uncertain": "Compared with the Greek of Migne, PG 26 (athanasius_opera-omnia-pg26-grc-lat_migne1857.txt, lines 1192 and 1221-1225), an OCR text its own header calls a second witness, not checked against the page image."
+    },
+    {
+      "modern": "We have not been followers of Arius. For how could we, who are bishops, follow a priest?",
+      "printed": "Ἡμεῖς οὔτε ἀκόλουθοι Ἀρείου γεγόναμεν. πῶς γὰρ ἐπίσκοποι ὄντες ἀκολουθήσομεν πρεσβυτέρῳ;",
+      "work": "The eastern bishops at Antioch, 341, in Socrates, Church History 2.10, ed. Robert Hussey; checked against Athanasius, De Synodis 22, in Nicene and Post-Nicene Fathers, second series, vol. 4 (npnf204, lines 57418-57419)",
+      "file": "cic/texts/socrates_historia-ecclesiastica-tomus1-grc-lat_hussey1853.txt",
+      "lines": "16658-16659",
+      "uncertain": "The file is OCR; the Greek is given with mechanical slips corrected (' Apelov for Ἀρείου, ἀκολουθήσομενν for ἀκολουθήσομεν), no word changed. \"A priest\" renders πρεσβυτέρῳ, a presbyter."
+    },
+    {
+      "modern": "as atheists",
+      "printed": "as atheists",
+      "work": "Arius, Letter to Eusebius of Nicomedia, in Theodoret, Church History 1.4, in Nicene and Post-Nicene Fathers, second series, vol. 3",
+      "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+      "lines": "6026"
+    },
+    {
+      "modern": "enemies of Christ",
+      "printed": "enemies of Christ",
+      "work": "Alexander of Alexandria, encyclical on the deposition of Arius, in Nicene and Post-Nicene Fathers, second series, vol. 4",
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+      "lines": "19018"
+    },
+    {
+      "modern": "before he was begotten he was not",
+      "printed": "before he was begotten he was not",
+      "work": "The Creed of Nicaea, in Nicene and Post-Nicene Fathers, second series, vol. 14",
+      "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+      "lines": "2422"
+    },
+    {
+      "modern": "of things that were not",
+      "printed": "of things that were not",
+      "work": "The Creed of Nicaea, in Nicene and Post-Nicene Fathers, second series, vol. 14",
+      "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+      "lines": "2422-2423"
+    }
+  ]
+}

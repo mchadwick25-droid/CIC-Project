@@ -108,3 +108,7 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | baudonivia | card | Opus | 132,041 | additions only (briefLength, 10 references, 3 quotation originals); PL 72 entry kept (not clearly wrong); none not found |
 | alopen | card | Opus | 134,187 | 4 additions; 3 corrections (Syria → far west; church → monastery; 845 count covers both clergies), each with Legge's lines; none not found |
 | vardan-mamikonian | card | Opus | 147,751 | additions only (briefLength, a source, 3 quotation originals, 17 references); no corrections; none not found |
+| thomas-a-kempis | card | Opus | 134,693 | briefLength updated; 1 correction (the Ignatius passage is Câmara's Memoriale, 1555, not the life story); 4 sources, 17 references, 2 quotation originals. Found the brief's 1429/1425 error |
+| thomas-a-kempis | brief correction | coordinator | — | the interdict to 1425, the departure to 1429, checked against the Chronicle (Brief_Correction.md) |
+| narsai | card | Opus | 143,178 | additions only (briefLength, 2 quotation originals, 13 references); no corrections |
+| john-wyclif | card | Opus | 148,358 | briefLength updated; 2 sources (Palacký, Raynaldus), 16 references, 1 quotation original; no corrections |
