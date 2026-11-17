@@ -50,4 +50,6 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | justin-martyr | outline recheck | Opus, low effort | 100,815 | FIX on one leftover label (I2 "Contemporary record"); M1 decline upheld |
 | justin-martyr | label fix | Opus (same researcher, resumed) | 298,557 cumulative (about 600) | I2 relabelled; checked by the coordinator: PASS |
 | third-council-of-toledo-589 | outline recheck | Opus, low effort | 102,924 | PASS |
-| council-of-chalcedon-451 | outline fix | Opus (same researcher, resumed) | (count on notification) | 5 blocking and 7 minor made; Outline.v1.md kept |
+| council-of-chalcedon-451 | outline fix | Opus (same researcher, resumed) | 336,256 cumulative (about 45,300 for the fix) | 5 blocking and 7 minor made; Outline.v1.md kept |
+| third-council-of-toledo-589 | write | Sonnet | 87,919 | 505 words (~3:24 against ~2:52); grade 7.5, flagged; opens 8 May 589, ends on the one creed before communion. Dropped the idolatry canons the outline check made blocking: for the reviewer |
+| vardan-mamikonian | outline fix | Opus (same researcher, resumed) | (count on notification) | 5 blocking and all minor made, plus one of the researcher's own (Neumann's army priests); Outline.v1.md kept |
