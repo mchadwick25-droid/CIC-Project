@@ -74,3 +74,7 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | alopen | review | Opus | 99,885 | REVISE; one-hearing PASS; B1 the opposition (699, 712–713, the defenders, 845) left out; minor: length 184 against 150, Chang-an/Xi'an. To the writer for the one revision |
 | moses-the-black | review | Opus | 101,029 | REVISE; one-hearing PASS; B1 "at night" belongs to the shepherd, not the swim (the outline's opening carried it); 4 minor. To the writer |
 | baudonivia | review | Opus | 105,730 | REVISE; one-hearing PASS; B1 "her" in the 587 sentence can be heard as Baudonivia; 6 minor. To the writer |
+| justin-martyr | review | Opus | 121,974 | PASS; one-hearing PASS; 470 words against 400–450 (not blocking); 3 minor, left as optional polish per Process.md |
+| narsai | review | Opus | 117,786 | REVISE; one-hearing PASS; B1 the denunciation at the Persian court left out; 5 minor. To the writer |
+| thomas-a-kempis | review | Opus | 107,473 | REVISE; one-hearing PASS; B1 the exile softened ("chose" against "driven to go forth"); B2 made a priest at his clothing in 1406; 2 minor. To the writer |
+| third-council-of-toledo-589 | review | Opus | 113,555 | REVISE; one-hearing PASS; B1 the idolatry canon left out again; B2 the impact (Saragossa, Seville, "by the roots") missing, Saragossa lost in the variety recast; 7 minor. To the writer |
