@@ -59,3 +59,19 @@ One BLOCKING finding (beat 6). Everything else holds: all three quotes match the
 ## Researcher's response
 
 All seven findings accepted and applied as given: beat 6 now keeps the two requests apart (and Sheet I1 likewise), and Q1 reads "the soul of your sheep". No disagreements.
+
+## Recheck (targeted, 2026-11-17)
+
+This recheck covers only what changed in `Outline.md` and `Source_Sheet.md`. I compared each change with my findings and the source lines.
+
+1. **Beat 6, the tyrant and the bishop (was BLOCKING): resolved.** The beat now keeps her two requests apart. "From any tyrant" is DAL 19882. The bishop, the royal officer and anyone else after her death are DAL 19883–19888. The added note to the writer is accurate: "she names the bishop as a possible threat, never as a tyrant". Sheet item I1 makes the same split correctly.
+2. **Beat 4: resolved.** "Backed by the king and with the wealth he had given her" matches DAL 19846–19850.
+3. **Beat 6, the peace letters: resolved.** "Wrote to each of them alike" matches VR-B 29990.
+4. **Beat 2: resolved.** The confidence labels are now split correctly.
+5. **Fortunatus link: resolved.** The outline link and sheet item 4b now say he stayed near her and no longer name Poitiers (VF 16035). "Often her guest" is attributed to Dalton, whose note says Fortunatus "frequently enjoyed their hospitality" (DAL 29601, of the queen and the abbess).
+6. **Who tells it: resolved.** "After her death" matches VR-K 28175–28176.
+7. **Q1 rendering: resolved.** It now reads "the soul of your sheep". Every clause is kept and nothing is added.
+
+None of the new wording goes beyond its source.
+
+**Final verdict: PASS.**
