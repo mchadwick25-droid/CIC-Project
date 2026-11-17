@@ -4323,3 +4323,12 @@ The narration voices are now:
 **Decided (Mark, 2026-11-17): "yes, make that change".**
 - `Brief-Kit/roles/card.md`, rule 1, is rewritten: correct any claim the source sheet contradicts; "If you cannot find support for a claim, leave it in place and list it in your reply as not found; the checker decides whether it stays." The reply now names the claims not found, not the claims removed.
 - `Brief-Kit/Process.md`, step 6: the checker "rules on each claim the writer flagged as not found".
+
+## 2026-11-17 — Researchers sweep the Library and record it (Mark, 2026-11-17)
+
+**Why.** Mark: "make sure we are using the library fully and not just notes". A count of the twelve source sheets found every sheet quoting primary texts at their lines, but each started from the old card's source list (as the researcher role said) and added one to eight files; none recorded what was searched. Ninety-four held files mention Clement of Alexandria and his sheet cites six; his tradition's corpus-map bucket lists thirty-eight works and the sheet uses four. Several claims rest on editors' notes.
+
+**Decided (Mark, 2026-11-17): "make sure we are using the library fully and not just notes".**
+- `Brief-Kit/roles/researcher.md`: the line on sources is rewritten. The card's `sources` field is a starting list only; the researcher sweeps every corpus-map bucket for the subject's traditions with `WORKS.yaml`, `AUTHOR-IDS.yaml` and `RETRIEVAL-HINTS.md`, and searches `cic/texts/` for every name form, above all for later witnesses. A primary text is preferred to an editor's note, and an editor-only claim is marked as the editor's. The sheet ends with a **Library sweep**: what was searched, how many files mention the subject, which were used, and why the main ones left aside were set aside.
+- `Brief-Kit/roles/checker.md` gains the matching check: the sweep is real, and no held primary text or major later witness is missing.
+- This governs new outlines. It does not reopen the existing cards, which Mark notes "have been written and checked multiple times from the library".

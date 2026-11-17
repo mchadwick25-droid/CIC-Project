@@ -8,5 +8,6 @@ Open each cited source file at its cited lines and check:
 3. The impact ranking and what they defended are right, the shape and length fit, and the tradition's spoken name doesn't mislead.
 4. The **Connection** field says what specifically passed to whom, and its supporting passage holds.
 5. The **Do not say** list covers every wonder, qualifier, number, motive or outcome a writer could easily get wrong.
+6. The sheet's **Library sweep** is real. Spot-check the corpus-map buckets and a search for the subject: no held primary text or major later witness is missing, and no claim rests on an editor where a primary text would carry it.
 
 The bar is in `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/Process.md`. Write `Outline_Check.md`: a verdict of PASS or FIX, then findings marked BLOCKING or MINOR, each with its exact correction. Edit nothing else and do not commit. Reply in under 200 words.
