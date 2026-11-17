@@ -59,3 +59,19 @@ None of the findings is blocking. Apply the minor findings in the writer's polis
 5. **MINOR: "heard the Gospel tell him" says more than the record.** In the *Life*, he heard the Lord "saying to the rich man" (E2, NP4 31236–31258). He only took it as meant for him, and the brief's next clause says exactly that. As written, the first clause makes the reading address him, and the second then repeats it. Change: "There he heard the Gospel tell a rich man to sell what he had and give to the poor, and he took it as meant for him."
 
 6. **MINOR: the length must not grow.** At 463 words the brief is already over the outline's "about 420". Findings 1–4 add roughly 30 words. Change: pay for them with cuts. The clearest cut is "That one reading, Augustine wrote, had turned Antony at once to God." (12 words). It restates the quote just heard. The sentence before it already ends the quote cleanly, and with the cut there is no "you" left to explain. Further trims can come from the paragraph 2 source sentence or from paragraph 6. Keep the total at or under 463 words, so the brief stays at about three minutes.
+
+## Recheck
+
+This recheck covers only what changed in the revision, checked against findings 1–6 and the outline. Profile: 463 words, grade 7.1 (6.4 with names left out), reading ease 80.0, longest sentence 28 words. Pass.
+
+1. **Finding 1 is resolved. The tradition wording is not added.** "The desert monks of Egypt, the men and women later called the Desert Fathers and Mothers" is the outline's own Setting wording, word for word. It is spoken forms (1) and (2) in Source_Sheet S6 (CEN 34587, 34710). "He would become one of" tells the tradition as something that grew up around him, as S6(b) advises. It does not say "the first" (D3).
+2. **Finding 5 is resolved.** "The Gospel reading spoke of selling all you have and giving to the poor, and he took it as meant for him" no longer makes the reading address him (E2).
+3. **Findings 2–4 are resolved.** "Many wanted to live as he did, so people who knew him forced the door" matches beat 4 and NP4 31602–31604. "When crowds came for healing, he moved three days into the desert" matches beat 6 and E11. "No monk yet knew the far desert" matches beat 3 and S5.
+4. **Finding 6 is resolved.** The restating Augustine sentence is cut and the length holds at 463 words. The quote now ends cleanly, at "spoken to him", with no "you" left to explain.
+5. **The demons sentence was cut. This is acceptable.** The outline allows "one at most" (beat 4, Leave out). With no wonder left, nothing is out of the *Life*'s voice.
+6. **New, MINOR: an unclear "he" in the Augustine paragraph.** In "A generation after Antony died, a fellow official told the story to Augustine in Milan. In a garden there, in tears, he remembered Antony", the nearest subject is the official. Change: "In a garden there, in tears, Augustine remembered Antony, and later wrote:"
+7. **New, MINOR: one "so" says a little more than the record.** "...claimed he agreed with them, so he came down to Alexandria" drops the fact that he came "being summoned by the bishops and all the brethren" (NP4 32924–32932; the outline has "when"). Change: "When the Arians claimed he agreed with them, he came down to Alexandria..."
+
+Grade 7.1 is still clear by ear and not flat. Neither new finding is blocking.
+
+**Final verdict: PASS.** Apply findings 6 and 7 of this recheck as wording fixes. They need no further review round.
