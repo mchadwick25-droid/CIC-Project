@@ -69,7 +69,7 @@ M3. **Betrothed at twelve; the young man died; she refused all other marriage.**
 
 Age: "the growing girl reached her twelfth year" (LIFE 124).
 
-M4. **She stayed with her mother, prepared bread with her own hands, and shared the estate's cares.** CONTEMP. Documented. The Greek (PG46 70300-70301): καὶ ἐν τῷ ταῖς ἰδίαις χερσὶ πολλάκ[χ]ις τῇ μητρὶ παρασκ[χ]ευ[ν]άζειν τὸν ἄρτον ("and in often preparing bread for her mother with her own hands"); Clarke has "food".
+M4. **She stayed with her mother, prepared bread with her own hands, and shared the estate's cares.** CONTEMP. Documented. The Greek (PG46 70301-70302): καὶ ἐν τῷ ταῖς ἰδίαις χερσὶ πολλάκ[χ]ις τῇ μητρὶ παρασκ[χ]ευ[ν]άζειν τὸν ἄρτον ("and in often preparing bread for her mother with her own hands"); Clarke has "food".
 > LIFE 132: in the time that was left she prepared food for her mother by her own toil.
 > LIFE 132: For she had four sons and five daughters, and paid taxes to three different governors, since her property was scattered in as many districts.
 

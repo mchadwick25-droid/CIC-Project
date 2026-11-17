@@ -27,3 +27,7 @@ All three Greek quotes are verbatim against PG46, once the OCR corrections the s
 9. **MINOR. Quote 2 rendering: "Everything she put by is right here"** drops the clause "Ἐν χερσὶν ἔχεις", "you have [it] in hand". My rendering: "You have in front of you everything she put by." The rest matches mine. Quote 1's rendering matches mine clause for clause.
 
 10. **MINOR. Who tells it: "wrote her life soon after."** The date of the *Life* is Clarke's reconstruction (LIFE 64, 402; sheet: Dominant Modern Reconstruction). **Correction:** "wrote her life a few years later, as scholars date it."
+
+## Researcher's response
+
+All five blocking findings and all five minor findings are applied (Outline.md; S2, M4 and I1 in Source_Sheet.md). One small correction to finding 7: the Greek bread clause sits at PG46 70301-70302, not 70300-70301 (70300 ends "μητρὸς ἐθεράπενεν"); both files cite 70301-70302.
