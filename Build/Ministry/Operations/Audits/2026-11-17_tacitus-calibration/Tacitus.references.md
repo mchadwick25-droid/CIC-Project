@@ -74,3 +74,39 @@ All in the sheet's Rendering 1 wording.
 - Which "records" Tertullian means in *Apology* 5. He does not say they are Tacitus's (N8). No held early Christian text names the Annals passage (N9).
 - The words flagged as misleading in the 1876 English ("mischievous", "exquisite", "circus", "car") are not used; the brief follows Rendering 1 ("deadly").
 - Mark's ruling (2026-11-17): where Tacitus names the faith, the brief says "deadly superstition", because the Latin "exitiabilis" means deadly. The draft already had this phrase from Rendering 1 (Q4), so the ruling changed no wording.
+
+## Retold version
+
+Trace for `Tacitus_retold.brief.txt`. The same record, told mostly in the narrator's voice.
+
+| # | Sentence (opening words) | Sheet lines |
+|---|---|---|
+| 1–2 | What did the first Christians look like ... One answer survives. | S3, S6, S7 |
+| 3 | It comes from Cornelius Tacitus ... | S1, S7 |
+| 4 | He wrote as a Roman, and he counted Rome's governors as his own side. | S2, S7, Q4 |
+| 5 | One chapter of the Annals tells ... | S4, S5, S6, M3 |
+| 6 | After the fire ... prayed to their gods, and the emperor gave lavish gifts. | M1, Q1, Q2 |
+| 7–8 | Still the rumour would not die. People believed ... suspicion fell on Nero. | Q2 and its note, M2 |
+| 9 | In this chapter, Tacitus does not say that Nero did it. | D3(a) |
+| 10–11 | To end the rumour ... called them Christians. | Q3, M3 |
+| 12–13 | Tacitus explains the name. "Christus ... Pontius Pilatus." | Q4 |
+| 14 | A procurator governed for the emperor. | Q4 note |
+| 15 | Tacitus does not say where he learned this, but Christian writers ... | N1, D1(a), D1(b), M4, I2 |
+| 16–17 | He had no good word ... "a deadly superstition." | S3, Q4 |
+| 18–19 | The execution checked it ... even in Rome. | Q4, M5 |
+| 20–22 | First, those who pleaded guilty ... hatred of the human race. | Q5, M6 |
+| 23 | Nero had them punished with carefully devised tortures, and they were mocked as they died. | Q3, Q6 |
+| 24 | "Some were dressed in the skins of animals, torn apart by dogs, and died." | Q6 |
+| 25–26 | Others were nailed to crosses. Others were burned as lights when night fell. | Q6, M7 |
+| 27 | Nero gave his own gardens for the show. | Q7, M8 |
+| 28–29 | To Tacitus they were still criminals ... pity arose for them. | Q8 and its note, M9 |
+| 30 | "For it seemed ... one man's cruelty." | Q8 |
+| 31 | Christian writers remembered Nero as the first emperor ... | M11, I1, Q16, D2(b) |
+| 32 | Tertullian told his readers to look in their own records ... | Q11 |
+| 33–34 | Tertullian also answered Tacitus by name ... origin of the Jews. | M10, I4, Q9 |
+| 35 | Tertullian says this planted the suspicion ... an ass's head. | Q9 |
+| 36 | He calls Tacitus "truly the most talkative of liars." | Q9, Q10 |
+| 37–38 | One later Christian writer, Sulpicius Severus ... the fires at night. | M12, I3, Q18, D6(b) |
+| 39 | But where Tacitus wrote of criminals, Sulpicius wrote of "the innocent." | Q8, Q18, D6(d) |
+
+Quotes in the retold version, all Rendering 1: Q4 (first sentence whole; "a deadly superstition"), Q6 (second sentence whole), Q8 (second sentence whole), Q9 ("truly the most talkative of liars"), Q18 ("the innocent"). Everything else from Q1–Q3, Q5, Q7 and Q11 is retold, not quoted.
