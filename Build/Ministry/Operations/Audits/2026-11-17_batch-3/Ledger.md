@@ -17,4 +17,5 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | john-wyclif | research | Opus | 257,335 | Outline: teacher shape, ~2:30; Bible, death and bones told as disputed; connection through Thorpe and Hus |
 | moses-the-black | outline recheck | Opus, low effort | 89,397 | PASS: all corrections made, nothing new wrong |
 | justin-martyr | research | Opus | 271,146 | Outline: martyr shape, toward 3 min; Dialogue, Apology and Acts rendered from Greek; connection through Tatian; saw the tradition's census story about him, took nothing |
-| third-council-of-toledo-589 | research | Opus | (count on notification) | Outline: council shape, toward 3 min; Gothic church only through opponents; connection through canon 9 and the paired signatures |
+| third-council-of-toledo-589 | research | Opus | 281,356 | Outline: council shape, toward 3 min; Gothic church only through opponents; connection through canon 9 and the paired signatures |
+| thomas-a-kempis | outline check | Opus | 140,709 | FIX: 1 blocking (the Latin Imitation is held in Pohl vol. II, filed as sermones-de-compunctione; quote 1 rested on an editor's footnote), 13 minor. Back to the researcher |
