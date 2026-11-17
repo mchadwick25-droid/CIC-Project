@@ -33,3 +33,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | baudonivia | outline fix | Opus (same researcher, resumed) | 260,185 cumulative (about 12,700 for the fix) | 1 blocking and all minor made; Caesarius lines re-cited; Outline.v1.md kept |
 | john-wyclif | outline recheck | Opus, low effort | 84,647 | PASS |
 | thomas-a-kempis | write | Opus | 93,854 | 394 words (~2:37 against 2:30); grade 8.3; opens on the walk to Zwolle in 1399, ends on Woolman |
+| justin-martyr | outline check | Opus | (count on notification) | FIX: 3 blocking (the Acts called contemporary, probably 3rd c.; the Martinus address misread; Tatian's hearing credited to Tatian), 13 minor. Back to the researcher |
