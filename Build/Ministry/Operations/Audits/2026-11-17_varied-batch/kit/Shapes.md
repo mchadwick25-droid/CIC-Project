@@ -12,4 +12,4 @@ Each shape gives how that kind of life usually moves, where its impact sits, and
 
 **Missionary or translator.** The journey, the people they met, and the bridge they built: a language, letters, a church. The impact is in what the people who received it did with it. Trap: telling it only from the sender's side. Say whose record it is.
 
-**Council.** The dispute, who came, what they decided, and what happened after. The impact is in whether it held, and who it divided. Trap: a roll of names. Follow two or three voices through it.
+**Council.** Told in this order: what called it, the major issue and the story of it, what else it did, its decisions, and its impact. The major issue is the way in, but it does not become the whole council: the other work it did and decided gets its place. The impact is in whether its decisions held, and who they divided. Trap: one dispute swallowing the council, or a roll of names. Follow two or three voices through it.
