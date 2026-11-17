@@ -41,3 +41,29 @@ Every sentence traces to the outline except where noted in the findings. Quote 1
 5. **MINOR. "Instead she stayed with her mother, whom she persuaded..." folds years into one step.** She led her mother into the shared life after her father's death and once the children were settled (LIFE 158; beats 3 and 5). "Instead" makes it sound like the immediate answer to the refused offers. **Change:** mark the passage of time ("She stayed with her mother, and after her father died she led her...").
 
 6. **MINOR. "Her name was Macrina"** has a storybook ring. **Change:** name her inside a sentence that carries information, for example "His sister was Macrina, the eldest child in the family of...".
+
+## Recheck
+
+A targeted recheck, 2026-11-17. This is the last round. I checked only what changed, against the findings above, the outline and the source sheet.
+
+Profiler: `384 words, grade 7.8 (names out 6.9), reading ease names out 78.5, 18.3 words a sentence, 0.8 joining words per 100, 5% short sentences, longest sentence 29 words - pass`.
+
+1. **Resolved (Ferrara ending).** The 32-word sentence is gone, and the longest is now 29. "The Latin side quoted her words from Gregory's book" (PO15 2304-2306) sets up the Greek reply, so on one hearing I knew why Gregory was the one being doubted. "Defends the soul's life after death and the body's rising" is the outline's impact item 1, and "The words are Gregory's, so how much is hers is not known" states the uncertainty plainly. Nothing says she taught purgatory.
+2. **Resolved (beds).** "Slept on the same kind of bed" matches LIFE 158.
+3. **Resolved (the ascetic life).** The new paragraph traces to the record:
+   - "So the family house became a community of prayer and shared work" is the outline's thread.
+   - "Peter, who later led its men's side" matches LIFE 356 and C1.
+   - "Babies left by the roadside to die ... she picked up ... and raised them" matches LIFE 264 and beat 5.
+   - The later-scholars sentence follows the outline's corrected impact item 3 (LIFE 84), and "an early picture of how such a community was run" claims no more than it.
+   - The story now follows the monk shape: the turn, the life she chose, the others drawn after her, then what came of it. It no longer reads as reunion, death and legacy.
+4. **Resolved (date).** "In 379 as scholars date it."
+5. **Resolved (chronology).** "After her father died, she led her mother..." The shared life came after the father's death (LIFE 158 places it once the children were settled). The new wording fits the record.
+6. **Resolved.** "His sister was Macrina" names her inside a linking sentence.
+
+**The trimmed death paragraph.** Quote 1 is now its first sentence only, which is a clean, exact part of the outline's rendering (PG46 71687, 71690). "Lampadia described all that Macrina had owned" carries the outline's framing (LIFE 284). Quote 2 is unchanged. Nothing has been added for effect.
+
+**Length and grade.** At 384 words the story runs about two and a half minutes, against the outline's "about 300 words; do not stretch". That is long, but the standard gives no hard word limit. The added words are the community paragraph that finding 3 required, so it is not padding. Grade 7.8 is under the 8 warning line, which calls for the listener read: no run of short one-act sentences, sentences joined by cause and time ("So", "After", "who later", "so how much", "Yet ... and", "but"), and nothing talks down. It reads as an adult documentary narrator. Both are acceptable. The impact section is about 115 of 384 words, close to a third, and it ends on an event.
+
+**MINOR, not required.** "Yet in 1438" drops the outline's "more than a thousand years later". A listener who does not know the dates misses how far her words reached. If the brief is touched again, use "Yet more than a thousand years later, in 1438, ...".
+
+**Final verdict: PASS**

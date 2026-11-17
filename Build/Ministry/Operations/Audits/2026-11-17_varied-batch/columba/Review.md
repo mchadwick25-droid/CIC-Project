@@ -57,3 +57,18 @@ Every other sentence traces to the outline, except the items in findings 2, 4, 5
 6. **MINOR. Paragraph 1, "he laid down his pen".** No source or outline line gives this act. The record has him say he must stop. It is a small detail added for effect. **Change:** "he stopped", or let the quote carry the stop.
 
 7. **MINOR. Quoted fragments.** The brief has eight quoted pieces in 413 words. "The principal of them all" and "to make a pilgrimage for Christ" do nothing the narrator's own words could not. Spoken aloud, they blur who is talking. **Change:** keep the three main quotes and the one wonder phrase, and tell the rest in the narrator's words, keeping Bede's attribution where praise needs a name.
+
+## Recheck (round 2, targeted)
+
+This recheck covers only what changed, checked against the findings above, the outline and the source. The revised brief has 407 words. It reads at grade 8.0 (7.0 with names out), reading ease 76.3, 17.7 words a sentence, with 9% short sentences. Its longest sentence is 30 words, at the limit. The profiler passes it.
+
+- **Finding 1 (gates), resolved.** The wonder is now told in Adomnán's voice: "Adomnán tells how Brude, the proud king of the Picts, kept his gates shut ... until they opened 'of their own accord'". The word "proud" is supported by "elated by royal pride in his fortress, acting haughtily" (AD 7876–7877), and it gives the moment its stakes. The wonder is neither endorsed nor sneered at.
+- **Finding 2 (paragraph 3), resolved.** The brief now says "in about 563, though records differ by a few years, he left Ireland for good with twelve disciples". The meaning of the pilgrimage is now part of the act, and the uncertainty is stated plainly. That matches outline beat 2 and "Who tells it" ("their dates differ by a few years"). "A pilgrimage for Christ" is now credited to Adomnán in the narrator's words (AD 2224).
+- **Finding 3 (Iona's founding), resolved.** "On Iona, Columba founded a monastery" now gives the founder's act (outline beat 3, BEDE 5841–5846). It is joined to Adomnán's portrait (AD 2234–2236).
+- **Finding 4, resolved.** The brief now says "in June 597 by the usual reckoning", as in outline beat 6.
+- **Finding 5, resolved.** The brief now says "grew from his monasteries, with Iona, Bede says, the chief of them all". This matches "From both which monasteries ... the principal of them all" (BEDE 5851–5854). The words are unquoted and credited to Bede, so the paraphrase is not a misquote. Bede himself calls Iona "the chief" at BEDE 5795–5798.
+- **Finding 6, resolved.** "Laid down his pen" is gone. Quote 1 now matches the outline's rendering exactly.
+- **Finding 7, resolved.** Two quoted fragments are now told in the narrator's words. The three main quotes, the wonder phrase and the Whitby defence remain.
+- **Voice.** It still reads as adult. The storybook reveal is now "That abbot was Columba of Iona". The setting gloss is now a "whose" clause that is part of the sentence. Cause and contrast carry the links ("then", "although", "so", "yet"), and there is no run of short one-act sentences. No new problems.
+
+**Final verdict: PASS.**
