@@ -1,6 +1,6 @@
 # Council profiles: era 3
 
-Three major councils, written to `../../Council_Profile_Pattern.md`: `second-council-of-constantinople-553`, `third-council-of-toledo-589`, `council-of-dvin-609`.
+Three major councils, written to `Archive/Superseded-Method/Church-Family-Tree-Patterns-2026-11-17/Council_Profile_Pattern.md` (since archived; the kit is `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/`): `second-council-of-constantinople-553`, `third-council-of-toledo-589`, `council-of-dvin-609`.
 
 | File | Holds |
 |---|---|

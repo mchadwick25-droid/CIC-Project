@@ -1,6 +1,6 @@
 # Council profiles: era 1
 
-One major council, written to `../../Council_Profile_Pattern.md`: `councils-of-rome-and-carthage-251`.
+One major council, written to `Archive/Superseded-Method/Church-Family-Tree-Patterns-2026-11-17/Council_Profile_Pattern.md` (since archived; the kit is `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/`): `councils-of-rome-and-carthage-251`.
 
 | File | Holds |
 |---|---|

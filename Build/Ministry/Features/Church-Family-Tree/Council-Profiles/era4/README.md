@@ -1,6 +1,6 @@
 # Council profiles: era 4
 
-Six major councils, written to `../../Council_Profile_Pattern.md`: `lateran-council-649`, `synod-of-whitby-664`, `third-council-of-constantinople-680`, `quinisext-council-692`, `second-council-of-nicaea-787`, `councils-of-constantinople-861-880`.
+Six major councils, written to `Archive/Superseded-Method/Church-Family-Tree-Patterns-2026-11-17/Council_Profile_Pattern.md` (since archived; the kit is `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/`): `lateran-council-649`, `synod-of-whitby-664`, `third-council-of-constantinople-680`, `quinisext-council-692`, `second-council-of-nicaea-787`, `councils-of-constantinople-861-880`.
 
 | File | Holds |
 |---|---|

@@ -223,9 +223,7 @@ jobs:
             # The Church Family Tree writing standard is locked: a change needs a
             # new Decision-Log entry with Mark's words (Mark, 2026-11-16).
             standard:
-              - 'Build/Ministry/Features/Church-Family-Tree/Who_Profile_Pattern.md'
-              - 'Build/Ministry/Features/Church-Family-Tree/Council_Profile_Pattern.md'
-              - 'Build/Ministry/Features/Church-Family-Tree/Worker_Brief_Template.md'
+              - 'Build/Ministry/Features/Church-Family-Tree/Brief-Kit/**'
               - 'Build/Ministry/Features/Church-Family-Tree/Who-Profiles/bar/**'
               - 'tools/check_standard_lock.py'
               - 'tools/tests/test_check_standard_lock.py'
@@ -488,13 +486,13 @@ jobs:
       - run: pip install pyyaml
       - run: python tools/check_spelling.py --base "origin/${{ github.base_ref }}" --enforce
 
-  # Who and council profile briefs a PR adds or edits are graded: grade 8.0 to
-  # 10.0 on the full text, reading ease 60 or above with proper names left out
-  # (Who_Profile_Pattern.md, "The readability method"). A brief the PR does
+  # Who and council profile briefs a PR adds or edits are graded: grade 10.0
+  # at most on the full text, reading ease 60 or above with proper names left
+  # out (Brief-Kit/Standard.md). A brief the PR does
   # not touch, or only moves, is not read, so the briefs written before the
   # check do not fail a PR that leaves their words alone.
-  # A PR that changes the Church Family Tree writing standard (the Who and
-  # council patterns, the worker brief template, Who-Profiles/bar/) fails
+  # A PR that changes the Church Family Tree writing standard (Brief-Kit/,
+  # Who-Profiles/bar/) fails
   # unless it adds a Decision-Log entry that names Mark and quotes him.
   standard-lock:
     needs: changes

@@ -3,9 +3,8 @@
 Grade is counted on the full text and must not pass PROFILE_FK_CEILING; a
 grade under PROFILE_FK_FLOOR is printed as a note and does not fail. Reading
 ease is counted with proper names left out of the syllable count and must
-reach PROFILE_FRE_FLOOR. The longest sentence is printed. The method is the one in
-Build/Ministry/Features/Church-Family-Tree/Who_Profile_Pattern.md, "The
-readability method".
+reach PROFILE_FRE_FLOOR. The longest sentence is printed. The limits are the
+ones in Build/Ministry/Features/Church-Family-Tree/Brief-Kit/Standard.md.
 
     python -m engine.m1.profile_readability PATH [PATH ...]
     python -m engine.m1.profile_readability --base REF

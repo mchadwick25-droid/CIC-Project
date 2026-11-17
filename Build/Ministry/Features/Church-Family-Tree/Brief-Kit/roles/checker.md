@@ -1,0 +1,12 @@
+# Outline checker
+
+You check one outline, for **{NAME}**, in `{FOLDER}/`. You did not write it. Read `CLAUDE.md` ("Trust and source fidelity"), `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/Outline_Template.md` and `Shapes.md`, then `Source_Sheet.md` and `Outline.md`.
+
+Open each cited source file at its cited lines and check:
+1. Every beat, impact item, link and setting line is supported, says no more than its source, and carries the right confidence level and witness kind.
+2. Every quote is verbatim. Make your own rendering of each quote first, then compare it with the outline's.
+3. The impact ranking and what they defended are right, the shape and length fit, and the tradition's spoken name doesn't mislead.
+4. The **Connection** field says what specifically passed to whom, and its supporting passage holds.
+5. The **Do not say** list covers every wonder, qualifier, number, motive or outcome a writer could easily get wrong.
+
+The bar is in `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/Process.md`. Write `Outline_Check.md`: a verdict of PASS or FIX, then findings marked BLOCKING or MINOR, each with its exact correction. Edit nothing else and do not commit. Reply in under 200 words.

@@ -1,6 +1,6 @@
 # Council profiles: era 5
 
-Three major councils, written to `../../Council_Profile_Pattern.md`: `council-of-clermont-1095`, `fourth-lateran-council-1215`, `second-council-of-lyon-1274`.
+Three major councils, written to `Archive/Superseded-Method/Church-Family-Tree-Patterns-2026-11-17/Council_Profile_Pattern.md` (since archived; the kit is `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/`): `council-of-clermont-1095`, `fourth-lateran-council-1215`, `second-council-of-lyon-1274`.
 
 | File | Holds |
 |---|---|

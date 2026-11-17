@@ -300,7 +300,7 @@ function checkCard(m) {
     listing("about", ["title", "author", "language", "file"], ["date"]);
   }
 }
-// --- major councils (Decision-Log 2026-11-14, "Major councils, eras 1 and 2"; Council_Profile_Pattern.md) ---
+// --- major councils (Decision-Log 2026-11-14, "Major councils, eras 1 and 2"; Brief-Kit/Shapes.md) ---
 const COUNCIL_RIVERS = { "Origin": 0, "Syriac East": 1, "Caucasus": 2, "Greek East": 3, "Africa": 4, "Latin West": 5, "Non-Nicene": 80 };
 const WITNESS_KINDS = new Set(["acts", "participant", "later narrative", "modern reconstruction"]);
 const COUNCIL_PARTS = new Set(["Gathered", "Condemned", "Refused", "Affected"]);
