@@ -34,3 +34,7 @@ Checker: independent outline checker, varied batch 2, 2026-11-17. I opened every
 - **Impact ranking.** The Rule taken up as law by Frankish rulers is rightly heaviest: it is what later witnesses used. DEFENDED (regular discipline at the nearby monastery) is marked at beat 3.
 - **Shape, length, name, witnesses.** Monk or ascetic fits; 2½ minutes with a stated reason fits a major figure on a thin life record. "The monks of Italy" does not mislead, and "Benedictine Order" is rightly barred. Who tells it says plainly that Gregory wrote about fifty years later from four disciples.
 - **Leave out** is sound: the wonder pile, Paul's ravens and angels, the bones, Estinnes (word supplied by the editor), the Rule of the Master, and Gasquet's claims.
+
+## Researcher's response
+
+All ten findings accepted and applied to Outline.md (2026-11-17). On finding 8 I also changed impact item 2's "writing two centuries later" to "writing in the eighth century", so Paul's distance is never measured from two different events. Source_Sheet.md: M18 now prints "regu/am [regulam]" too; it already carried "almost forty miles", the 742 territorial limit (I1a) and the Lorsch source (I1c).
