@@ -4230,3 +4230,9 @@ The narration voices are now:
 - Ignatius and Justin are source-checked and wait for Mark's read. Both are on https://claude.ai/artifact/S5jjaZ8UnMYKVsE4j3fazN with Polycarp.
 - Eusebius is in `Build/Ministry/Operations/Audits/2026-11-17_eusebius-calibration/`.
 - The original eight early-church briefs are held until Mark says.
+
+## 2026-11-17 — Eusebius read; voice only for publishable briefs (Mark, 2026-11-17)
+
+- Eusebius: Mark gave five edits and they were made. Each changed sentence was checked against the sources and corrected where the check required (`Eusebius_recheck.md`); the Aelia, Arius and Athanasius corrections that followed the check were not rechecked themselves. Mark, on the text: "i am good to move on". The text is `Build/Ministry/Operations/Audits/2026-11-17_eusebius-calibration/Eusebius.brief.txt`, 520 words. It stands as the model for a life whose work is the story. It is not marked approved to proceed.
+- Mark: "i don't need voice tests on everything unless its a final publishable thing". No recording is made of a brief until it is final and ready to publish.
+- Next model in the set: Tacitus, the outside witness.
