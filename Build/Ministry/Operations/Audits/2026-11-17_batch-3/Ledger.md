@@ -100,3 +100,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | pachomius | revision | Opus (same writer, resumed) | 120,456 cumulative | B1, B2 and minors made; 480 words against 450; v2 kept |
 | council-of-chalcedon-451 | revision | Sonnet (same writer, resumed) | 124,835 cumulative | both blocking and the snags made; Tome quote, hand saying and signatures cut; 471 words against 450; v2 kept |
 | narsai | recheck | Opus, low effort | 89,612 | PASS; 410 words against 375 (minor); the catalogue line and Simeon's founding witness cut, neither must-tell |
+| john-wyclif | recheck | Opus, low effort | 85,523 | PASS; 420 words against 380 (minor); Gaunt left out (minor) |
