@@ -78,6 +78,13 @@ Impact share: paragraphs 7–9 are 126 of 459 words (27%), and the Trier stand a
 
 ## Recheck (targeted, 2026-11-17)
 
+**Mark's test, from one hearing of the brief:**
+- **Who was this:** Martin, a Roman soldier in fourth-century Gaul who left the army to become a monk, and later became bishop of Tours while still living as a monk.
+- **What happened:** He shared his cloak with a beggar and refused to fight for Julian as "Christ's soldier". He founded a monastery and was drawn into being bishop by a trick. At Trier he begged that no heretic's blood be shed. Then he yielded once, sharing communion for a day, to save other lives.
+- **Why the connection matters:** His way of life became the pattern of Gaul's monk-bishops. His monks became bishops, his tomb drew a great church and a king's respect, and Sulpicius's Life of him spread far. Generations later, Gregory used Martin's story to stand up to an angry king.
+
+All three can be answered from the brief alone, and none needs simplifying.
+
 **Final verdict: PASS.**
 
 This recheck covers only what changed in the revision, checked against the outline and Source_Sheet.
