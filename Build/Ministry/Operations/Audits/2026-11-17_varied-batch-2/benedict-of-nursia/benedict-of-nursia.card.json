@@ -1,0 +1,136 @@
+{
+  "name": "Benedict of Nursia",
+  "otherNames": [
+    "Benedictus",
+    "Bennet"
+  ],
+  "knownFor": "Founder of monasteries at Subiaco and Monte Cassino and author of the Rule for monks, whose life is known through Gregory the Great's Dialogues; in 742 Carloman's council ordered the monks and nuns of his lands to live by his Rule, and in 802 Charlemagne ordered monasteries put right by it.",
+  "dates": "Italy, around the year 500, when Gothic kings ruled it. Born, by Edmund Gardner, about 480, and by Francis Gasquet in 480; died, by the tradition of his order, in 543, as both give it. Gregory the Great gives no years. Gardner dates the founding of Monte Cassino to about 528 or 529",
+  "place": "Nursia; Rome; Subiaco; Monte Cassino",
+  "tradition": "Early Benedictine / Italian Monasticism",
+  "role": "Monk and abbot; author of the Rule",
+  "briefLength": "about 2 minutes 40 seconds",
+  "keyWorks": [
+    {
+      "title": "The Rule of Saint Benedict",
+      "about": "a prologue and seventy-three chapters on the life of a monastery: obedience, the hours of prayer, manual work and holy reading, the abbot, and the reception of guests as Christ; at its end it calls itself a little rule for beginners"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "His Rule, which Gregory the Great calls \"excellent for discretion and also eloquent for the style\", survives in Latin, and Francis Gasquet and Oswald Hunter Blair translate it into English. Gasquet says the oldest known manuscript was written in England in the seventh or eighth century.",
+      "Gregory says he built twelve monasteries near Subiaco, with twelve monks in each and a few kept with himself, before he moved to Monte Cassino.",
+      "Gregory says the Lombards plundered Monte Cassino by night in his own lifetime, yet not one monk was taken. Paul the Deacon, in the eighth century, adds that the monks fled to Rome \"carrying with them the manuscript of the Holy Rule\".",
+      "Carloman, duke of the Franks, had his council of 742 tell monks and nuns in the lands he ruled to live by the Rule of Saint Benedict. At Estinnes soon after, the abbots and monks received \"sancti patris Benedicti [regulam] ad restaurandam normam regularis vitae\"; the word for \"rule\" there is the editor's supply.",
+      "In 802, the annals of Lorsch say, Charlemagne had the abbots and monks at Aachen read the Rule together and ordered whatever in the monasteries went against it to be put right by it."
+    ],
+    "remembered": [
+      "Gregory the Great gave the whole second book of his Dialogues to his life and miracles and wrote that \"the holy man could not otherwise teach, than himself lived.\" Edmund Gardner says Pope Zacharias put the Dialogues into Greek, and Bishop Werferth into Anglo-Saxon for Alfred the Great.",
+      "Gregory names the four disciples he had his stories from: Constantinus, the next abbot after him; Valentinianus, long in charge of the Lateran monastery; Simplicius, the third head of his order; and Honoratus, abbot of the house where Benedict first began.",
+      "Paul the Deacon wrote verses on each of his miracles."
+    ]
+  },
+  "uncertain": [
+    "Nearly all that is known of his life comes from one witness, Gregory the Great's Dialogues, written in 593, about fifty years after Benedict died, as a book of miracles to honor a saint. By Gardner's dating Gregory was born only a year or two before Benedict died and never met him. Gregory says he could not learn all that Benedict did and had his stories from four disciples. At least one story he had at second hand: Honoratus heard it from other monks.",
+    "The poisoned wine is Gregory's account, and the glass that shattered at the sign of the cross is a wonder in his voice. Gregory does not name the monastery; Gardner says it is said to have been at Vicovaro, and the three years there are Gasquet's.",
+    "Gregory gives no years. The birth about 480 and the death in 543 are Edmund Gardner's and Francis Gasquet's; both call 543 the tradition, and the Library's catalogue line gives about 547. Gardner says the date he left Rome is disputed and puts it a few years before 500. Monte Cassino about 528 or 529 is the editors' date.",
+    "Gasquet thinks Benedict probably conceived the Rule at Subiaco and finished it at Monte Cassino. Gregory says only that he wrote it.",
+    "The year of the Lombard sack. Gardner and Foulke give 589; Foulke says some historians place it as early as 582.",
+    "What the Rule did. Francis Gasquet, a Benedictine editor, calls it practically the only monastic Rule of the West from the ninth to the twelfth century, and holds that missionaries such as Augustine and Boniface were trained under it. Those are a 1909 Benedictine cardinal's judgments; no early source here says so.",
+    "The second council. The edition of the capitularies records that Hefele and Hahn held the council of Estinnes to be Carloman's and Pippin's together; its editor argues it was Carloman's."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Rule of Saint Benedict (tr. Francis Aidan Gasquet)",
+        "language": "English translation",
+        "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt"
+      },
+      {
+        "title": "The Rule of St. Benedict (ed. and tr. D. Oswald Hunter Blair)",
+        "language": "Latin, with English translation",
+        "file": "cic/texts/benedict_rule-of-st-benedict-lat-eng_hunter-blair1907.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Dialogues, Book II: the Life and Miracles of St. Benedict",
+        "author": "Gregory the Great",
+        "language": "English translation of 1608, ed. Edmund G. Gardner",
+        "file": "cic/texts/gregory-great_dialogues_gardner1911.txt"
+      },
+      {
+        "title": "Introduction and notes to the Dialogues",
+        "author": "Edmund G. Gardner",
+        "language": "English",
+        "file": "cic/texts/gregory-great_dialogues_gardner1911.txt"
+      },
+      {
+        "title": "Introduction to the Rule",
+        "author": "Francis Aidan Gasquet",
+        "language": "English",
+        "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt"
+      },
+      {
+        "title": "Capitulary of Carloman (742), with Boniface's letter; the council of Estinnes; the Aachen synod of 802 from the annals of Lorsch",
+        "author": "Monumenta Germaniae Historica, Capitularia regum Francorum I",
+        "date": "1881",
+        "language": "Latin",
+        "file": "cic/texts/capitulatio-de-partibus-saxoniae_pertz1881.txt"
+      },
+      {
+        "title": "History of the Langobards (tr. William Dudley Foulke)",
+        "author": "Paul the Deacon",
+        "date": "1907",
+        "language": "English translation",
+        "file": "cic/texts/paul-the-deacon_history-of-the-langobards_foulke1907.txt"
+      }
+    ]
+  },
+  "briefReferences": [
+    "Dialogues II, prologue, tr. 1608, ed. Edmund G. Gardner: born in the province of Nursia, sent to Rome to study, students falling into loose living; his four disciples as Gregory's sources. Book II is the only early Life of Benedict, and Gregory tells it to show the miracles of a holy man.",
+    "Dialogues II.1: Subiaco, almost forty miles from Rome; Romanus, the cave for three years, the bread on a rope with a little bell; others coming to him for teaching.",
+    "Dialogues II.3: the nearby monastery that made him abbot, the poisoned wine and the shattered glass; the twelve monasteries near Subiaco.",
+    "Dialogues II.8: the move to Cassino. Gardner: about 528 or 529.",
+    "Dialogues II.14: \"in the time of the Goths\".",
+    "Rule, Prologue (Latin, ed. Oswald Hunter Blair; English, tr. Francis Aidan Gasquet): a school for the Lord's service, nothing harsh, nothing heavy.",
+    "Rule, ch. 48: \"Idleness is an enemy of the soul\"; set times for manual labour and holy reading. Ch. 64: the abbot chosen by the community, who tempers all things.",
+    "Dialogues II.17: the Lombards plunder Monte Cassino by night, and no monk is taken.",
+    "Paul the Deacon, History of the Langobards IV.17, tr. Foulke: the monks flee to Rome with the manuscript of the Rule.",
+    "MGH Capitularia I, no. 10: Carloman, duke of the Franks, and his council of 742; the Rule for monks and nuns in the lands he ruled.",
+    "MGH Capitularia I, the Aachen synod of 802, from the annals of Lorsch: the Rule read, and the monasteries put right by it.",
+    "World census, Early Benedictine / Italian Monasticism: his tradition."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "So we must found a school for the Lord's service. In founding it, we hope to lay down nothing harsh and nothing heavy.",
+      "printed": "We are therefore now about to institute a school for the service of God, in which we hope nothing harsh nor burdensome will be ordained.",
+      "original": "Constituenda est ergo nobis Dominici schola servitii; in qua institutione nihil asperum, nihil grave nos constituturos speramus.",
+      "work": "Benedict, Rule, Prologue; Latin ed. Oswald Hunter Blair, English tr. Francis Aidan Gasquet",
+      "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt",
+      "lines": "768-770",
+      "originalFile": "cic/texts/benedict_rule-of-st-benedict-lat-eng_hunter-blair1907.txt",
+      "originalLines": "1240-1245",
+      "uncertain": "Rendered from the Latin. \"in qua institutione\" is read as the founding, and \"Dominici\" as \"the Lord's\"; Gasquet reads \"in which\" as the school and says \"God\". The OCR reads \"servitu\" for \"servitii\"; line 1242 holds only marginal dates."
+    },
+    {
+      "modern": "Let him so temper everything that the strong have something to long for, and the weak do not run away.",
+      "printed": "let him so temper all things that the strong may have their scope and the weak be not scared.",
+      "original": "sic omnia temperet, ut et sit quod fortes cupiant, et infirmi non refugiant",
+      "work": "Benedict, Rule, ch. 64, of the abbot; Latin ed. Oswald Hunter Blair, English tr. Francis Aidan Gasquet",
+      "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt",
+      "lines": "3960-3961",
+      "originalFile": "cic/texts/benedict_rule-of-st-benedict-lat-eng_hunter-blair1907.txt",
+      "originalLines": "9527-9528",
+      "uncertain": "Rendered from the Latin. \"refugiant\" is read as the weak fleeing of themselves; Gasquet's \"be not scared\" is looser."
+    },
+    {
+      "modern": "carrying the manuscript of the Holy Rule",
+      "printed": "carrying with them the manuscript of the Holy Rule (of the order) which the aforesaid father had composed",
+      "work": "Paul the Deacon, History of the Langobards IV.17, tr. William Dudley Foulke",
+      "file": "cic/texts/paul-the-deacon_history-of-the-langobards_foulke1907.txt",
+      "lines": "7832-7835",
+      "uncertain": "\"(of the order)\" is the translator's addition."
+    }
+  ]
+}
