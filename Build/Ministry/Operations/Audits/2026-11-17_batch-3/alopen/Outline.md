@@ -53,7 +53,7 @@ Line references are to files in `cic/texts/`. MAL = `malech_history-of-the-syria
   - "Nestorian" for his church → "the Church of the East". Wylie's English heading says "the Syrian Church"; Legge's says "a priest of the Ta Ts'in Monastery" (LEGGE 364–365).
   - "monk", "bishop" or "priest" → no rank: "a man from the far west", or the stone's honorific "Most-virtuous", framed as a title of respect, not praise of his character. His rank is not recorded.
   - "sent by the patriarch" / "sent by his church" / "a Syriac missionary sent by the church in Persia" → nothing; who sent him, and from where, is not recorded.
-  - "he came alone" / "he led a band of monks" / "the emperor had sent for him" → none of these is in the stone (they are Legge's guesses, LEGGE 4158–4169).
+  - "he came alone" / "he led a band of monks" / "the emperor had sent for him" → none of these is in the stone; the band of monks and the prior contact are Legge's guesses (LEGGE 4158–4169).
   - "Chinese records / Tang court records say" → "the stone says". No Tang court record is held.
   - "his name means Rabban, 'monk'" → leave out; it is one scholar's guess among several.
   - "the clouds guided him" / "led by a sign in the sky" → keep the stone's image: "watching the clouds and the winds".
