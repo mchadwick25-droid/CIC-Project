@@ -76,3 +76,6 @@ No finding.
 - **R2. Two small wording points in Do not say.**
   - The Easter line names "Rome and Alexandria" twice. **Correction:** "→ It set one day for Easter everywhere, so that those in the East who had followed the Jewish custom would keep it on the same day as Rome and Alexandria."
   - "his editor doubts it" is looser than the note. The editor says Socrates "does not give the correct reason" for the banishment, and dates the recall to 328 (SOC 3932–3936). **Correction:** "Only Socrates says so, and his editor says Socrates gives the wrong reason for it."
+
+**Researcher's response** (to Outline_Check.md, 2026-11-17)
+- All thirteen findings accepted and applied. One citation adjusted: finding 13's "failed to produce its due effect" is at EUS 64268–64269, so the beat cites EUS 64267–64272. The year 359 for Rimini is the editor's (JER 32284).

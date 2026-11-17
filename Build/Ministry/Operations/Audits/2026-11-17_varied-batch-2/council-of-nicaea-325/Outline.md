@@ -48,13 +48,13 @@ End there: on Carthage reading the copy aloud, or on Jerome's line followed by t
 - "Homoousios means equal" / "the same as" / "similar." → "of one being (one substance) with the Father".
 - "The creed churches say today was written at Nicaea." → The Nicaea creed is shorter: its statement of belief stops at "and in the Holy Spirit", and its curses follow; the creed said in churches today is the longer one tied to the council of Constantinople. If unsure, do not mention it.
 - "The council decided which books belong in the Bible." → Nothing in the record. Do not say it.
-- "The council fixed Easter by the full moon and the spring equinox." → It set one day for Easter everywhere, the day kept at Rome and Alexandria, so that those in the East who had followed the Jewish custom would keep it on the same day as Rome and Alexandria.
+- "The council fixed Easter by the full moon and the spring equinox." → It set one day for Easter everywhere, so that those in the East who had followed the Jewish custom would keep it on the same day as Rome and Alexandria.
 - "Easter was settled for the sake of unity." alone → The emperor's letter also speaks with open contempt of the Jews. Either leave Easter's reasons out or say both.
 - "Arius was executed" / "burned" / "excommunicated and killed." → He was condemned and sent into exile, as a historian a century later reports; later he was recalled.
 - "This ended the Arian controversy." → Conflict went on for decades (Jerome on Rimini, 359; Constantinople, 381).
 - "Athanasius led the bishops" / "Athanasius won the debate." → He was there as a deacon, a later historian says, and opposed Arius's friends; he wrote his account years later.
 - Eusebius of Caesarea and Eusebius of Nicomedia are two different men. Eusebius of Caesarea signed; Eusebius of Nicomedia was Arius's friend and was exiled and later restored.
-- "Eusebius of Nicomedia was exiled with Arius at the council." → Only Socrates says so, and his editor doubts it (sheet D4). Say he was exiled and later restored.
+- "Eusebius of Nicomedia was exiled with Arius at the council." → Only Socrates says so, and his editor says Socrates gives the wrong reason for it (sheet D4). Say he was exiled and later restored.
 - "Eustathius tore up Arius's creed." → Eustathius says "the formulary of Eusebius" was torn up "in the sight of all"; he does not say who tore it, and does not name which Eusebius. Theodoret, later, says it was a statement by Arius's friends.
 - "The council met for two months, from 20 May to 25 August." → Say only "in 325"; the days are disputed.
 - "Bishops with gouged eyes and burnt hands filled the hall." → Only Theodoret, a century later, says so. If used, name him.
@@ -69,6 +69,3 @@ End there: on Carthage reading the copy aloud, or on Jerome's line followed by t
 - Constantine's anti-Jewish invective in the Easter letter: not to be quoted for colour; if Easter's reasons are told, say plainly that the letter speaks with contempt of the Jews.
 - The Latin signature lists (C4): of doubtful authenticity.
 - Paphnutius and Spyridon, Nicholas, Arius's death: not in the held lines used here, or later legend.
-
-**Researcher's response** (to Outline_Check.md, 2026-11-17)
-- All thirteen findings accepted and applied. One citation adjusted: finding 13's "failed to produce its due effect" is at EUS 64268–64269, so the beat cites EUS 64267–64272. The year 359 for Rimini is the editor's (JER 32284).

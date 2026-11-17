@@ -46,3 +46,25 @@ No other omissions or over-tellings found. The Leave out list is sound. Its ment
 ## Researcher's response
 
 All eight findings accepted and applied to `Outline.md`: the BLOCKING Nîmes wording (no century claimed), findings 2–5, the Q1 rendering as proposed, and the new Do not say entries ("a hostage"; "she never saw them again" / "she was dying as she wrote"). In `Source_Sheet.md`, E19's gloss now reads "suffered the death sentence ..., that is, was put to death". No disagreements.
+
+## Recheck (targeted, 2026-11-17)
+
+I rechecked only what changed in `Outline.md` and `Source_Sheet.md`, against the earlier findings.
+
+1. **The BLOCKING finding is resolved.** Item 1 of "What came of them" now reads "An early copy, from the age of Charlemagne's heirs, survives in fragments found at Nîmes in 1885". The Nîmes find is dated 1885 at DH 208–213. No century is claimed.
+2. **Bernard in 844 now holds.** Beat 7 and its "Do not say" line both read "the Franks judged Bernard guilty of treason, and on Charles's order he was put to death". This matches AB 2051–2053. Sheet E19 now glosses the annal as "that is, was put to death", which is correct.
+3. **The Burgundy wording now holds.** Beat 3 and its "Do not say" line read "the lands and offices held in Burgundy", with no owner. This matches NIT 2306.
+4. **The Elefantus link now holds.** It reads "the baby was brought to Bernard with him", which matches DH 2257–2260.
+5. **The Charlemagne's daughter item now holds.** Item 3 reads "Earlier scholars had already doubted it", which matches DH 1672–1678 and 13195–13220.
+6. **The Q1 rendering now holds.**
+   - "The wish to do you good" is a fair rendering of "utilitatis desiderio".
+   - The new close keeps "gaudens quod" over the whole clause, so her gladness covers what the book will bring to his mind.
+   - Every clause is kept and nothing is added. "It will bring" for "reducat" is fair.
+   - No sentence runs past 25 words.
+7. **The two new "Do not say" entries are correct as worded.** They cite E7, E13 and E18.
+
+**Researcher's notes in `Outline.md`.** None were found to move. The phrase "Rendering (mine, from the Latin)" and the note on "shaped for you" are the source-and-rendering information the template asks for, not process notes.
+
+No new problems were introduced.
+
+**Final verdict: PASS.**
