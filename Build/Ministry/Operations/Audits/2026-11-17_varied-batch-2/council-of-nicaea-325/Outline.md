@@ -83,6 +83,6 @@ End there: on Carthage reading the copy aloud, or on the later councils setting 
 - The Latin signature lists (C4): of doubtful authenticity.
 - Paphnutius and Spyridon, Nicholas, Arius's death: not in the held lines used here, or later legend.
 
-- **Do not say** (from the re-thread check, 2026-11-17): do not give the Antioch council's year as settled. The editor dates it to 341, and his own introduction gives 332 as another date. Say "a later council at Antioch", or "in 341, by the editor's date".
+- **Do not say** (from the re-thread check, 2026-11-17): do not give the Antioch council's year as settled. The editor dates it to 341; he reports, and Hefele rejects, a theory that its canons came from a synod of 332. Say "a later council at Antioch", or "in 341, by the editor's date".
 
 - **Order and spine** (Mark, 2026-11-17: "it wanders and skips around, was easter the major argument or jesus"): the major argument is about Jesus, whether the Son is God as the Father is, or a creature with a beginning. Open on it and keep it as the spine: what called the council, Arius, the debate, and the creed with its condemnation. Only then comes the council's other business, as "it also settled": Melitius, one Easter, and the canons. Then the impact. **Do not say**: do not open on Easter, and do not set Easter beside the creed as an equal cause. The outline's own beats and wording stand; only their order changes.
