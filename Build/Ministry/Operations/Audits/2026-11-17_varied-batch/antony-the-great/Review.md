@@ -49,4 +49,4 @@ Profile: 453 words, grade 8.1 (7.3 with names out), reading ease 79.3, longest s
    - **Change:** work the tradition into what happens, for example "the life of the desert monks of Egypt". Introduce the quote as Augustine writing to God, for example "Writing to God in his Confessions, he remembered:". Say "a fellow official who had been at Trier" in place of the name, and split the Milan sentence in two.
 
 6. **MINOR: Trier is not placed, so the reach goes unsaid.** The outline offers the *Life*'s own reach, "Spain, Gaul, Rome and Africa" (I1b), and the book "soon read in Latin".
-   - **Change:** place Trier in a few words (for example "at Trier, in Gaul") or add the *Life*'s claim of its reach in its own voice. Either one lets the listener hear how far the book had travelled.
+   - **Change:** add the *Life*'s claim of its reach in its own voice: how a man hidden on a mountain came to be heard of in Spain, Gaul, Rome and Africa (outline impact item 1). That lets the listener hear how far the book had travelled. Do not place Trier yourself (for example "in Gaul"), because the outline does not give its location.
