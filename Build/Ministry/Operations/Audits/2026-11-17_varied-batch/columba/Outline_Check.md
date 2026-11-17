@@ -32,3 +32,7 @@ I re-opened the cited lines in `cic/texts/` (AD, BEDE, BEDL, AU, AC). All three 
 - **Durrow** comes before the voyage (BEDE 5847–5851). The givers of Iona are tagged Contested (BEDE 5800–5803; AU 5173–5175). Brude and the gates (AD 7874–7897). Twelve disciples (AD 9409–9410).
 - **The granary** and "enough for the year" (AD 10689–10697). The Psalter stop (AD 10783–10789). "June" is attributed to the annals (AU 5980–5981).
 - **"Who tells it"** says plainly that the record is late and that no witness from his own lifetime is held. The Leave-out list is sound, including the AU battle-prayer annal (AU 4539–4540).
+
+## Researcher's response
+
+All nine findings applied to Outline.md; I disagree with none. Source_Sheet.md D6 "Say" line changed to match finding 6. Quotes touched ("with all his household", AD 7611) re-checked against the file.

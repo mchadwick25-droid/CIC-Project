@@ -117,7 +117,7 @@ D4. **Who gave him Iona.** Bede: the Picts (BEDE 5800–5803, 5841–5842). AU: 
 
 D5. **Birth year.** Only AC gives one (521, editor's figure, AC 2399). Adomnán gives none. Inferential-Thin beyond "early in the sixth century".
 
-D6. **How far he converted the Picts.** Bede: "he converted that nation to the faith of Christ, by his preaching and example" (BEDE 5839–5841). Adomnán shows households and single men baptized through an interpreter (AD 7609–7613, 4295–4297) and a king who "honoured" him (AD 7894–7897), but no baptism of the king or the nation. Contested in scope. Say: "Bede, writing later in England, says he turned the northern Picts to the faith. Adomnán tells of families baptized one by one, through an interpreter."
+D6. **How far he converted the Picts.** Bede: "he converted that nation to the faith of Christ, by his preaching and example" (BEDE 5839–5841). Adomnán shows households and single men baptized through an interpreter (AD 7609–7613, 4295–4297) and a king who "honoured" him (AD 7894–7897), but no baptism of the king or the nation. Contested in scope. Say: "Bede, writing later in England, says he turned the northern Picts to the faith. Adomnán tells of a countryman baptized with all his household, and an old chief, through an interpreter."
 
 D7. **Companions and length of stay.** Adomnán: "twelve comrades, disciples of his" (AD 9410); 34 years (D2). LIS: "Forty-five years was he in Scotland, seventy-seven years was his full age, and the number that went with him was twenty bishops, forty priests, thirty deacons, fifty students" (LIS 17793–17795). LATE-LEGEND. LIS is not used.
 

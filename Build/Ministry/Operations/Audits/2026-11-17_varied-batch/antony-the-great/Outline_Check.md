@@ -35,3 +35,20 @@ All three quotes match their files word for word: Q1 at NP4 33193–33195, Q2 at
 ## Researcher's response
 
 Findings 1–8 applied. Finding 9 not applied: in the file, "Μὴ" ends line 77108 ("ἐχάλει τοὺς μοναχοὺς, χαὶ ἔλεγε " Μὴ") and "θχυμάξετε" opens 77109, so VAG 77108–77112 is correct.
+
+## Recheck
+
+This recheck covers only what changed in `Outline.md` and the S6 note in `Source_Sheet.md`.
+
+**Verdict: PASS**
+
+1. **BLOCKING 1 is resolved.** The line to say aloud is now "A generation after Antony died, in Milan, Augustine heard his story." Augustine's own phrase is credited to him, and it is verbatim against AUG 12565–12566.
+2. **Findings 2 to 8 are applied, and the new wording matches the source.**
+   - Finding 2: "Bread was let down to him twice a year" matches NP4 31565.
+   - Finding 3: "many wanted to live as he did. People who knew him came and forced the door" matches NP4 31602–31604.
+   - Finding 4: "the desert became a city of monks" matches the Greek at VAG 70548–70549 ("ἡ ἔρημος / ἐπολίσθη ὑπὸ μοναχῶν"). The S6 note gives the same rendering and reason, and is correct.
+   - Finding 5: the baskets now go to visitors "in return for what they brought him", which matches NP4 32532–32533.
+   - Finding 6: the Q3 rendering is now split, and no sentence passes about 25 words apart from the verse itself.
+   - Finding 7: "monks far beyond Egypt" in the Thread is supported by NP4 33571–33575.
+   - Finding 8: the Hilarion link now names Jerome's later account.
+3. **Declining finding 9 is accepted.** Rechecked with `grep -n`: "Μὴ" ends VAG 77108 and "θχυμάξετε" opens 77109. VAG 77108–77112 is correct, and my finding 9 was a miscount.
