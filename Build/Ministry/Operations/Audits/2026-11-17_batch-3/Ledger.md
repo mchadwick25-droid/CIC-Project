@@ -10,3 +10,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | thomas-a-kempis | research | Opus | 224,445 | Outline: teacher shape, ~2:30; authorship dispute told; connection through Ignatius at Manresa and Wesley |
 | moses-the-black | outline check | Opus | 124,066 | FIX: 3 blocking (length to 2 min, not thin; insult sayings must be told; martyr's feast as one Contested sentence), 8 minor. Back to the researcher |
 | baudonivia | research | Opus | 247,465 | Outline: teacher shape (partial fit), 2 min; her prologue at SRM2 l.29437 (the pointer given was Fortunatus's); borrowings from Caesarius's Life marked |
+| arius | research | Opus | 257,790 | Outline: teacher shape, ~2:30–3:00; each voice named; connection through the creed's anathemas and the bishops who refused the name |
