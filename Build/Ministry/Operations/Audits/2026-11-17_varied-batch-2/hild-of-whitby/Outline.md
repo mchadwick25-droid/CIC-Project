@@ -4,7 +4,7 @@ Sheet references (S, M, I, L, D, N) point to `Source_Sheet.md` in this folder, w
 
 - **Length:** about 2 minutes 30 seconds (about 375 words). Why it runs past 2 minutes: she is a leading figure of her church, and the story needs room for two scenes, the synod held in her house and Caedmon brought before her, plus the third that tells what came of her. Why it stops short of 3: almost everything rests on a single witness, Bede, and he gives no inner life to fill.
 
-- **Setting, in words to say aloud:** the seventh century (S1), in Northumbria, the kingdom of the English north of the River Humber (S2). The English there had been converted within living memory, by two missions: one from Rome and one from the Irish monks of Iona, whom Bede calls the Scots (S3a 1–3). Her two houses were Hartlepool and Whitby, on the coast of what is now northern England. "On the coast" is not in the record: say only "Hartlepool" and "Whitby", or "Whitby, which Bede says means the Bay of the Lighthouse" (S2).
+- **Setting, in words to say aloud:** the seventh century (S1), in Northumbria, the kingdom of the English north of the River Humber (S2). The English there had been converted within living memory, by two missions: one from Rome and one from the Irish monks of Iona, whom Bede calls the Scots (S3a 1–3). Her two houses were Hartlepool and Whitby. Say only "Hartlepool" and "Whitby", or "Streaneshalch, which Bede says means the Bay of the Lighthouse", now Whitby (S2). Nothing about coast or cliffs is in the record.
 
 - **Thread:** Hild ran a house of men and women at Whitby where the Scriptures were read so closely that the young English church took five bishops from it, and where a man who could not sing was made a monk and set Scripture to English song.
 
