@@ -28,3 +28,5 @@ The following are supported: otherNames, and uncertain line 9 on Sinope (Holl's 
 ## Non-blocking
 
 - otherNames says Sinope is "named only by Epiphanius". uncertain line 9 adds that Filastrius, who depends on him, also names it. The two lines agree in substance and the card already carries the fuller qualification.
+
+**Recheck (2026-11-17): PASS.** keyWorks[0] now carries the correction word for word, and no other field changed; the only other difference is a newline at the end of the file.
