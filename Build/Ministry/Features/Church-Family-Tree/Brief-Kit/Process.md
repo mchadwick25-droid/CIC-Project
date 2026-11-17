@@ -7,6 +7,7 @@ Each step is run by a fresh hand with its own prompt in `roles/`.
 3. **Write** (`roles/writer.md`). From the outline, `Shapes.md` and `Standard.md` only.
 4. **Review** (`roles/reviewer.md`). The acceptance test from one hearing first, then the separate source check. A clear story can still hold a factual error.
 5. **One revision, one recheck.** A brief that still fails comes to Mark with the reason.
+6. **Card** (`roles/card.md`). Start from the existing card: keep what is good, and change only what the finished brief and its source sheet require. The checker then tests every changed claim and quote against the source sheet.
 
 ## The bar
 
