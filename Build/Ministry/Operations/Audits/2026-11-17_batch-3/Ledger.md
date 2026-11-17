@@ -27,4 +27,5 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | baudonivia | outline check | Opus | 167,067 | FIX: 1 blocking (a beat 5 clause and its frame copied from the Life of Caesarius), minor on Hildebert and on retelling Radegund. Back to the researcher |
 | john-wyclif | outline check | Opus | 140,849 | FIX: 1 blocking (Gaunt was the king's son in 1377, not his uncle), 11 minor. Back to the researcher |
 | narsai | outline fix | Opus (same researcher, resumed) | 307,982 cumulative (about 14,200 for the fix) | 4 blocking and 7 minor made; Outline.v1.md kept |
-| john-wyclif | outline fix | Opus (same researcher, resumed) | (count on notification) | 1 blocking and 11 minor made; one Shirley citation re-cited to the right lines; Outline.v1.md kept |
+| john-wyclif | outline fix | Opus (same researcher, resumed) | 264,347 cumulative (about 7,000 for the fix) | 1 blocking and 11 minor made; one Shirley citation re-cited to the right lines; Outline.v1.md kept |
+| arius | outline check | Opus | 156,852 | FIX: 4 blocking, all on the witness line, two of them leaning his way (his side's denial as the narrator's verdict; his death softened), 10 minor. Back to the researcher |
