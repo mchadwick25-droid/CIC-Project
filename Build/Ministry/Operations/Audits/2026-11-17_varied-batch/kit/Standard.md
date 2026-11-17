@@ -6,6 +6,8 @@ A story of about two minutes that lets anyone, anywhere, meet one person from th
 
 ## Voice
 
+- A well-sourced story for an interested non-specialist, never quotations linked by commentary. The narrator carries the events and the explanations. Use a quotation only where its particular words contribute something important.
+
 - The narrator is an adult documentary narrator, in the register of a BBC or National Geographic documentary: serious, vivid, and speaking to a grown listener as an equal. No listener should feel talked down to.
 - Tell it as a story by someone who knows the record well, not a report about the record. Each sentence leads to the next.
 
@@ -19,7 +21,7 @@ A story of about two minutes that lets anyone, anywhere, meet one person from th
 
 ## Rigor
 
-- Tell only what the outline holds. Add nothing for effect: no feelings, weather or thoughts the record does not give.
+- Tell only what the outline holds. Add nothing for effect: no feelings, weather or thoughts the record does not give. This includes transitions: a "so", "because" or "which led" that implies motive or cause must stay within the sources.
 - Name a writer or witness only when the listener needs to know who is speaking: praise or blame, a wonder, a source written much later, or a link on the tree. Say it once, plainly, in the story's own voice.
 - A wonder stays in its witnesses' voice, with no sneer and no endorsement.
 - When a source is hostile, to the person, a group or a people, be open about what it says and credit it to that source. We witness its view; the narrator never carries it forward or adopts its words as the story's own.
@@ -31,7 +33,7 @@ A story of about two minutes that lets anyone, anywhere, meet one person from th
 - Work the meaning of a puzzling word or custom into the sentence that uses it, as part of what happens. Never tack a definition on after a comma.
 - One main idea per sentence, with each subject close to its verb; the clauses around it carry its reasons and results.
 - Aim for reading grade 8 to 9. Grade 10 and reading ease 60 are the limits. A grade under 8 is a warning: before accepting it, check that the voice has not become a list of short acts. The grade is a guard on the test above, never the goal: do not simplify to move it.
-- Scholars, editions and debates go on the card, not in the story.
+- The audio tells an understandable story; the card carries the references, fuller qualifications and uncertainties. Scholars, editions and debates go on the card, not in the story.
 
 ## Before it is done
 

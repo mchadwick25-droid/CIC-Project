@@ -63,3 +63,5 @@ Sheet references (S, E, I, L, D, G) point to `Source_Sheet.md` in this folder, w
   - Burial-custom detail beyond one sentence (E20): it explains the hidden grave, nothing more.
 
 - **Do not say** (added from the round-two review, 2026-11-17): Do not drop his stand against the Arians (beat 7): it is what he defended.
+
+- **Do not say** (added from Mark's source question, 2026-11-17): do not attach "in the time of the emperor Constantine and his sons" to his youth or the church visit. Those rulers wrote to him late in life (VA §81). Say instead that he "lived on into the time of the emperor Constantine and his sons".

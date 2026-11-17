@@ -52,3 +52,13 @@ This recheck covers only what changed in `Outline.md` and the S6 note in `Source
    - Finding 7: "monks far beyond Egypt" in the Thread is supported by NP4 33571–33575.
    - Finding 8: the Hilarion link now names Jerome's later account.
 3. **Declining finding 9 is accepted.** Rechecked with `grep -n`: "Μὴ" ends VAG 77108 and "θχυμάξετε" opens 77109. VAG 77108–77112 is correct, and my finding 9 was a miscount.
+
+## Chronology check
+
+This checks the brief's opening after the fix. It now reads "In Egypt, a young man walked to church…" and ends "…and he lived on into the time of the emperor Constantine and his sons."
+
+**Verdict: PASS**
+
+- **The new placement is supported.** In VA §81 (NP4 33187–33189), "Constantine Augustus, and his sons Constantius and Constans the Augusti" write to Antony long after his withdrawal into the desert. Jerome's "He flourished during the reign of Constantinus and his sons" (NP3 41181–41182) agrees.
+- **The order matches the *Life*.** "Lived on into" puts those reigns after his youth. That fits the *Life*'s own order: the Gospel reading (§2), the tombs at "about thirty-five" (§10), nearly twenty years in the fort (§14), the Maximinus persecution (§46), and then the emperors' letters (§81).
+- **Nothing false is implied.** No year is given, and the opening no longer dates the youth scene to those emperors. "Led him into the life of Egypt's desert monks" does not claim that he was the first monk (see D3).
