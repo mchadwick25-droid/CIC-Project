@@ -67,3 +67,22 @@ Nothing in the brief falls outside the outline. It adds no feelings, weather or 
 **3. MINOR: the impact share runs short.** "What came of him" is about 70 of 343 words, against the standard's "about a third". There is room for one more clause of what the outline already ranks. Examples: Justin's "many of every nation", or Tertullian's "Even wasps make combs; so also these Marcionites make churches", credited. The aim is that his churches' reach gets its weight. Do not add a moral.
 
 **4. MINOR: the Epiphanius list.** The brief gives a selection. That is acceptable, because "as far away as Persia" signals reach. The outline check (finding 7) asked that the list not sound complete. Ending it "... and as far away as Persia, and elsewhere" would honour that at no cost.
+
+## Recheck (targeted, final round, 2026-11-17)
+
+This recheck covers only what changed in the revised brief: 363 words; profiler grade 8.9, reading ease 74.6 with names out, longest sentence 28 words, pass. I re-read ANF 14943–14946, ANF 39871–39874 (Source Sheet I5) and T 29327–29330.
+
+**Final verdict: FAIL.** One unsupported phrase remains. It is a one-word fix.
+
+- **Finding 1: resolved.** The brief now reads "Marcion claimed the opposite, Tertullian reports: the defenders of Judaism had added to the Gospel, and he was restoring it." The charge now sits inside his claim and is credited, so the narrator no longer carries it forward.
+- **Finding 2: resolved.** "Tertullian says Rome expelled Marcion more than once, together with another teacher, Valentinus. The money Marcion had given in his first faith was cast out with him." Marcion is the subject of both sentences, and the money is clearly his. This matches M9 and M1.
+- **Finding 3: resolved.** What came of him now takes about 120 of 363 words, roughly a third.
+- **Finding 4: resolved.** The list now ends "as far away as Persia, and elsewhere".
+- **New line, Polycarp:** "Polycarp, Irenaeus says, turned many back at Rome." This matches Impact 5 (ANF 39871–39874) and is credited. Pass.
+- **New line, Justin:** "Justin saw people of every nation follow Marcion." This matches Impact 1, "many of every nation". Justin's own framing ("by the aid of the devils ... to speak blasphemies", ANF 14945–14946) is left out. Leaving it out is allowed: nothing hostile is adopted. Pass.
+- **New line, martyrs:** "Those churches also claimed martyrs of their own." The hedge "claimed" is kept and no date is given, so this matches Impact 2. Pass.
+- **New line, wasps: BLOCKING, unsupported wording "even Tertullian granted that".** Tertullian's line (T 29329–29330) is no concession. "Even wasps make combs" is a jibe: they are wasps, not bees, and their churches are imitations. The outline gives the line only as "Tertullian:" followed by the quote. "Even Tertullian granted" makes a hostile witness sound like a reluctant admirer. It turns his sneer into the narrator's point about their success, so his view is not witnessed as what it is.
+  *Change to:* "and Tertullian wrote that just as wasps make combs, so these Marcionites make churches." This is credited and neutral, with the source's own image intact.
+  **Do not say** (add to outline): WRONG "even Tertullian granted / admitted / conceded" the wasps line. RIGHT "Tertullian wrote that as wasps make combs, so Marcionites make churches".
+
+No other changed line is wrong, unsupported, misquoted or past a limit. No stretch reads as a children's book.
