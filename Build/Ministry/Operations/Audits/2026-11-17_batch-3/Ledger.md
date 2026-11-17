@@ -63,4 +63,5 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | vardan-mamikonian | write | Opus | 100,476 | 480 words (~3:10 against 400–450 words); grade 8.2; opens on his promise to the king read two ways, ends on the 484 settlement |
 | alopen | outline recheck | Opus, low effort | 97,677 | FIX on one line ("came alone" is not Legge's guess), fixed by the coordinator in the recheck's wording: PASS |
 | alopen | write | Opus | 86,879 | 175 words (~1:10 against ~1:00); grade 7.3, flagged; opens on the stone's journey line, ends on the stone found in 1625; quote 2 used in part: for the reviewer |
-| pachomius | research | Opus | (count on notification) | Outline: founder shape, 2:30–3:00; Bohairic and Greek Lives kept apart; connection through Jerome's Latin Rule, Cassian and Benedict of Aniane |
+| pachomius | research | Opus | 322,152 | Outline: founder shape, 2:30–3:00; Bohairic and Greek Lives kept apart; connection through Jerome's Latin Rule, Cassian and Benedict of Aniane |
+| pachomius | outline check | Opus | (count on notification) | FIX: 4 blocking (the Lives blended; Amélineau's added third name; Ardo misread, Concordia missed; Jerome's preface half told), 8 minor. Back to the researcher |
