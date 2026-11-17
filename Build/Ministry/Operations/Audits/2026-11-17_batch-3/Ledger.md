@@ -64,4 +64,5 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | alopen | outline recheck | Opus, low effort | 97,677 | FIX on one line ("came alone" is not Legge's guess), fixed by the coordinator in the recheck's wording: PASS |
 | alopen | write | Opus | 86,879 | 175 words (~1:10 against ~1:00); grade 7.3, flagged; opens on the stone's journey line, ends on the stone found in 1625; quote 2 used in part: for the reviewer |
 | pachomius | research | Opus | 322,152 | Outline: founder shape, 2:30–3:00; Bohairic and Greek Lives kept apart; connection through Jerome's Latin Rule, Cassian and Benedict of Aniane |
-| pachomius | outline check | Opus | (count on notification) | FIX: 4 blocking (the Lives blended; Amélineau's added third name; Ardo misread, Concordia missed; Jerome's preface half told), 8 minor. Back to the researcher |
+| pachomius | outline check | Opus | 175,326 | FIX: 4 blocking (the Lives blended; Amélineau's added third name; Ardo misread, Concordia missed; Jerome's preface half told), 8 minor. Back to the researcher |
+| pachomius | outline fix | Opus (same researcher, resumed) | (count on notification) | 4 blocking and 8 minor made; Outline.v1.md kept |
