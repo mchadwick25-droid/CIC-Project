@@ -50,3 +50,19 @@ Profile: 453 words, grade 8.1 (7.3 with names out), reading ease 79.3, longest s
 
 6. **MINOR: Trier is not placed, so the reach goes unsaid.** The outline offers the *Life*'s own reach, "Spain, Gaul, Rome and Africa" (I1b), and the book "soon read in Latin".
    - **Change:** add the *Life*'s claim of its reach in its own voice: how a man hidden on a mountain came to be heard of in Spain, Gaul, Rome and Africa (outline impact item 1). That lets the listener hear how far the book had travelled. Do not place Trier yourself (for example "in Gaul"), because the outline does not give its location.
+
+## Recheck
+
+This recheck covers only what changed, checked against the findings above and against `Outline.md`. Profile: 456 words, grade 7.8 (7.0 with names out), reading ease 80.0, longest sentence 31 words: pass.
+
+**Verdict: PASS**
+
+1. **Finding 1 (BLOCKING) is resolved.** The new sentence is "Yet when Arians claimed he agreed with them, he came down to Alexandria and taught that the Son of God was not created." It matches beat 7 and E14 (VA §69, NP4 32924–32932: "the Arians having lyingly asserted that Antony's opinions were the same as theirs … he descended from the mountain … taught the people that the Son of God was not a created being"). It leaves out that the bishops summoned him, and adds nothing.
+2. **Finding 2 is resolved.** "Because many wanted to live as he did, people who knew him forced the door" matches beat 4 and E8 (NP4 31602–31604).
+3. **Finding 3 is resolved.** "He walled up the door, and bread was let down to him twice a year" no longer claims a purpose. It matches E7 and NP4 31565.
+4. **Finding 4 is resolved.** The source line now introduces the *Life*'s own telling ("It tells how he went further…"). The fort and the twenty years are now told in its voice.
+5. **Finding 5 is resolved.** "That choice led him into the life of Egypt's desert monks" is supported by the Thread and S6 (CEN 34587, 34710) and does not say "the first monk". "Writing to God in his Confessions" works the outline's note on "you" into the sentence. "An official who had been at Trier" matches impact item 2 ("a fellow official who was at Trier that day", AUG 12500–12644).
+6. **Finding 6 is resolved.** "It asks how a man hidden on a mountain came to be heard of in Spain, Gaul, Rome and Africa" is the outline's impact item 1 (I1b, VA §93, NP4 33571–33575), told in the *Life*'s voice as its own claim.
+7. **The quote is unchanged** from the outline's Q3 rendering, which I verified earlier against AUGL 13470–13476 and 13501.
+8. **Grade 7.8 is under 8,** which the standard treats as a warning, not a limit. I checked it with a listener read: the sentences are linked by cause ("because"), contrast ("Yet") and time, only 4% of them are short, and nothing reads as a children's book. The grade is accepted.
+9. **No unsupported wording was found.** The little sister and the "few" palms were dropped. Both are omissions, not errors.

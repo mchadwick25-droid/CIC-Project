@@ -49,3 +49,20 @@ All three quotes were checked word for word against `cic/texts/`. Q1 is at VC 20
 6. **MINOR. The Kiev ending narrows the outline's paraphrase.** The brief says the letters were "first made for the Moravians". The outline's item 3, as the Outline_Check recheck corrected it, says "first made for the Moravians and their neighbouring Slavs" (RPC 7866–7873). In the Chronicle those neighbours include the Polyanians, "now called Russes", which is the point of the Rus claim. **Change:** "first made for the Moravians and the Slavs around them".
 
 7. **MINOR. Boris's thanks come from a much later source but are told as plain fact.** The Bulgaria material is the *Life of Clement*'s account, and its date and author are disputed (D2). The Standard says to name a witness for "a source written much later", and the outline supplies the line: "a Life of Clement, written in Bulgaria a generation or more later." **Change:** attribute the Boris clause briefly, using the outline's words.
+
+## Recheck
+
+This is a targeted recheck of the revised brief (437 words). I looked only at what changed, against findings 1–7 and the outline. Profiler: grade 8.2 (names out 7.1), reading ease 75.2, longest sentence 28 words: pass.
+
+**Final verdict: PASS**
+
+- **Finding 1 (BLOCKING): resolved.** The brief now says "had partly cheapened the Latin Masses in the people's eyes". That matches CONV *ex parte* (GZ 13662–13663) and outline beat 6.
+- **Finding 2: resolved.** "In Rome the pope came out to meet them, because they carried relics of Clement, an early bishop of Rome" matches beat 5 (M10). Leaving the pope unnamed keeps clear of the contested question of which pope it was (D3).
+- **Finding 3: resolved.** The opening now runs in time order: Thessalonica, then the emperor sends them to Moravia, whose ruler had asked for teachers in his people's own language. The "So" is supported, because VM 12212–12213 gives Thessalonica's Slavic speech as the reason the brothers were chosen (beat 2, S6). The phrase "Constantine made them, and so began the mission" leaves out the claim that God revealed the letters. Leaving it out is allowed, and the making of the letters is Widely Accepted.
+- **Finding 4: resolved.** "A man he had condemned became bishop, and his disciples were driven out" matches I1 (LCl 12970–12974).
+- **Finding 6: resolved.** "First made for the Moravians and their neighbouring Slavs" matches impact item 3 (RPC 7866–7873).
+- **Finding 7: resolved.** "A later Life of Clement says" now credits Boris's thanks to the Life of Clement. The credit also covers the next sentence. In that sentence, "the first bishop of the Bulgarian tongue" is the outline's own phrase (I1, PG 99370–99372, *Bulgariae linguae Clemens primus constituitur episcopus*). It is a short phrase and stays within the quote cap.
+- **Finding 5:** this is withdrawn for length, per the coordinator's ruling. The impact share now gets close enough to a third.
+- **Unchanged text:** "Latin clergy said God had chosen only Hebrew, Greek and Latin" and "Later, at Venice, Constantine answered such bishops" both trace to beats 3–4. Q1, Q2 and Q3 are unchanged and still match the source files.
+
+No wording in the brief is unsupported, misquoted or past a limit, and none reads as a children's book.
