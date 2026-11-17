@@ -66,4 +66,6 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | pachomius | research | Opus | 322,152 | Outline: founder shape, 2:30–3:00; Bohairic and Greek Lives kept apart; connection through Jerome's Latin Rule, Cassian and Benedict of Aniane |
 | pachomius | outline check | Opus | 175,326 | FIX: 4 blocking (the Lives blended; Amélineau's added third name; Ardo misread, Concordia missed; Jerome's preface half told), 8 minor. Back to the researcher |
 | pachomius | outline fix | Opus (same researcher, resumed) | 344,413 cumulative (about 22,300 for the fix) | 4 blocking and 8 minor made; Outline.v1.md kept |
-| pachomius | outline recheck | Opus, low effort | (count on notification) | PASS |
+| pachomius | outline recheck | Opus, low effort | 88,928 | PASS |
+| pachomius | write | Opus | 98,371 | 463 words (~3:05 against 400–450 words); grade 7.7, flagged; opens in the Nile prison, ends on Benedict of Aniane's Concordia; 'called him three times' against the outline's name-twice: for the reviewer |
+| (batch) | variety check, first run | script | — | setting slot 4 and later ending 7 over the limit of 3; ten pieces back to their writers (Variety_Check.txt, .json) |
