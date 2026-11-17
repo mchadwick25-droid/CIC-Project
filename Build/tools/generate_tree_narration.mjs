@@ -281,8 +281,16 @@ export function requirePaidSettings({ voiceId, model, people = false, personVoic
   if (!people && personVoiceId) {
     throw new Error('--person-voice-id needs --people: only a person run records person rows.');
   }
-  const voiceFlag = people ? ['--person-voice-id', personVoiceId] : ['--voice-id', voiceId];
-  for (const [flag, value] of [voiceFlag, ['--model', model]]) {
+  requireVoiceAndModel(people ? { voiceFlag: '--person-voice-id', voiceId: personVoiceId, model } : { voiceId, model });
+}
+
+/**
+ * The paid settings every narration tool needs: a voice and a model, named on
+ * the command and never read from the environment. Each tool checks its own
+ * other flags (the tree tool above; the story and site tools their output format).
+ */
+export function requireVoiceAndModel({ voiceId, model, voiceFlag = '--voice-id' }) {
+  for (const [flag, value] of [[voiceFlag, voiceId], ['--model', model]]) {
     if (!value || value.startsWith('--')) {
       throw new Error(`${flag} is required and is never read from the environment.`);
     }

@@ -4404,3 +4404,29 @@ Some narrator sentences also took one side's framing: Dhuoda's ending on Luther,
 - `Outline_Template.md`, Leave out, adds: "Never the record's force, coercion or conflict: those are told as plainly as its virtues."
 
 The reviewer already judges against the standard, so `roles/reviewer.md` is as it was. This round's specific must-fix and should-fix items stay in the batch fix list, not in the kit.
+
+## 2026-11-17 — Release 50 fixes made, rechecked and recorded again (Mark, 2026-11-17)
+
+**What was done.**
+- **Revisions.** Every must-fix and should-fix item on the evaluation page was made by fresh writers, each from the piece's own outline and source sheet. So were Mark's items 5 to 7 ("yes, add 5 to 7"):
+  - Antony's plain words for the Gospel and Paul's letters;
+  - a sourced sentence on the people taking sides at Nicaea (Socrates I.6);
+  - a story ending that does not give the winning side the last word.
+
+  Each folder's `Fixes_R50.md` lists every change with its source. The released text is kept as `*.r50.brief.txt`.
+- **Rechecks.** Independent rechecks (`Recheck_R50.md`) ran the one-hearing test and a targeted source check. Every piece passed after three corrections:
+  - Martin's Paris sentence: the bishops feared the queen's fury, not the king's (Brehaut 5794–5795);
+  - Macrina: three of her brothers became bishops, not two;
+  - Radegund: she set up her house, and King Lothar founded and enriched it.
+- **Second readings.** New and changed quotations and paraphrases were second-read blind (`Second_Readings.md`, "Release 50 fixes"). None changed the meaning. Cyril and Methodius's quotations were all second-read for the first time.
+- **Census.** The census now carries the revised text. Its quotation entries, references and renderings follow the text, and new scan faults are listed. The census check passes with no errors.
+
+**Recording (Mark, 2026-11-17: "Approved", cap 14,500 credits).**
+- Neo (`onegjDE2z0mQtp1g0HK7`, `eleven_v4`, `mp3_44100_64`, the story settings) recorded the ten people. Marcion went first to confirm the rate (1,112 credits), then the other nine (10,448).
+- Daniel (`onwK4e9ZLuTAKqWW03F9`, `eleven_multilingual_v2`, no tags) recorded Nicaea (1,452).
+- Neo recorded "How Nicaea decided" (746).
+- In all: 13,758 credits, and the balance moved from 287,237 to 300,995, exactly that amount. The logs are in `2026-11-17_varied-batch-2/recording/release50-fix-run1.log` to `-run4.log`.
+
+**A tool fault fixed on the way.** The story tool stopped before its request, so nothing was charged. It had borrowed the tree tool's settings check, which allows an output format only with `--people`. That check also fails main's six paid-run gate tests. The story and site tools now share `requireVoiceAndModel`, and keep their own output-format checks; all 76 narration tests pass.
+
+**Lengths.** Martin runs about 3:12 (526 words) now that the temples are restored. Nicaea runs about 3:50 in Daniel's voice, as Mark allowed. Cyril and Methodius, still unreleased, is 498 words.

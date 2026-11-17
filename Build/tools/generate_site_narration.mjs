@@ -27,7 +27,7 @@ import fs from 'fs';
 import path from 'path';
 import crypto from 'crypto';
 import { fileURLToPath } from 'url';
-import { requireApprovedRun, requirePaidSettings, synthesizeWithCost } from './generate_tree_narration.mjs';
+import { requireApprovedRun, requireVoiceAndModel, synthesizeWithCost } from './generate_tree_narration.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, '..', '..');
@@ -116,7 +116,7 @@ async function run() {
   console.log(`${pieces.length} pieces; ${upToDate.length} up to date; ${toGenerate.length} to generate, ${total} characters`);
   if (opts.dryRun) { toGenerate.forEach((p) => console.log(`  would generate: ${p.key} (${p.text.length} chars)`)); return; }
   if (!toGenerate.length) { console.log('Nothing to do.'); return; }
-  requirePaidSettings(opts);
+  requireVoiceAndModel(opts);
   requireApprovedRun(opts, total);
   for (const [flag, value] of [['--output-format', opts.outputFormat], ['--settings-json', opts.settingsJson]]) {
     if (!value || value.startsWith('--')) throw new Error(`${flag} is required and is never read from the environment.`);
