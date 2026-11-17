@@ -97,3 +97,47 @@ Second rendering: About Easter they wrote, "It was decided as follows," for then
 Ours: It seemed good ... about the faith they did not write, 'It seemed good.' They wrote, 'This is what the universal Church believes.'
 Verdict: same
 Reason: The elision drops the aside on general compliance, and the brief supplies "about Easter"; the contrast Athanasius draws is intact. "Universal" for "καθολική" is sound.
+
+## Release 50 fixes
+
+### 15. from God
+Source: cic/texts/npnf204_athanasius-select-works-letters.xml 27875-27882 (English only; the Greek of De decretis is held but the passage was not found in the OCR, sheet note)
+Second rendering: the Son is not out of nothing but "from God"
+Ours: the bishops first chose words from Scripture, such as "from God"
+Verdict: same
+Reason: Verbatim printed English. Athanasius gives "from God" as one of "the acknowledged words of the Scriptures" the council meant to use, so "words from Scripture, such as" frames it as he does.
+
+### 16. Arius's friends read them as true of every creature (narrated paraphrase)
+Source: cic/texts/npnf204_athanasius-select-works-letters.xml 27879-27889, 28015-28018
+Second rendering: Eusebius and his party took "from God" to be true of us as well, since Scripture says all things are from God. So the Fathers had to say more clearly what they meant, and later had to say and write it again, more clearly still.
+Ours: But Arius's friends read them as true of every creature too, so the bishops wrote again, more plainly.
+Verdict: minor
+Reason: Athanasius tells two rounds ("from the essence of God", then "one in essence"); ours folds them into one "wrote again". "Arius's friends" for "Eusebius and his fellows" is the sheet's Widely Accepted reading (M6), and the sentence sits inside "he says". Nothing the listener takes away is changed.
+
+### 17. the emperor ordered exile ... his edict sent Arius into exile (narrated paraphrase)
+Source: cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml 27956-27960 (Sozomen); 2962-2966 (Socrates)
+Second rendering: Sozomen: the emperor accepted the bishops' agreement as God's approval, and ordered that anyone who rebelled against it be banished at once. Socrates: at the same time an edict of the emperor sent Arius himself into exile.
+Ours: Historians writing a century later say the emperor ordered exile for anyone who resisted the verdict, and his edict sent Arius into exile.
+Verdict: same
+Reason: The first clause is Sozomen's, the second Socrates's; the plural "historians" covers both. "Resisted the verdict" carries "rebellious thereto" (the bishops' judgment). Leaving out Eusebius of Nicomedia and Theognis follows the outline's Do not say.
+
+### 18. Eusebius's creed, the added word, the new statement (story; narrated paraphrase)
+Source: cic/texts/npnf204_athanasius-select-works-letters.xml 19655-19669, 19697-19703
+Second rendering: Eusebius says the emperor praised his creed and advised everyone to sign it with the single word "one in essence" added. Then "they" drew up a new formula, and Eusebius pressed them on what "of the essence" and "one in essence" meant.
+Ours: Eusebius says he read his church's creed, and the emperor urged that one word be added: "of one being". Then, he says, the bishops drew up a new statement, and he asked what its phrases meant.
+Verdict: same
+Reason: "Urged" carries "advised all present"; "the bishops" names Eusebius's unnamed "they", who are the council's other members in context. The story's own Do not say allows "the emperor ... urged the word".
+
+### 19. bishops called Nicaea's creed "pre-eminent" (changed lead-in)
+Source: cic/texts/npnf214_seven-ecumenical-councils.xml 20217-20220
+Second rendering: we declare that the statement of the faith made by the 318 Fathers at Nicaea shall take first place
+Ours: At Chalcedon, in 451, bishops called Nicaea's creed "pre-eminent".
+Verdict: same
+Reason: "The exposition of the right and blameless faith" of the 318 is Nicaea's creed, which Chalcedon recites next (20225-20226). The quoted word is unchanged.
+
+### 20. Then, as their letter to Egypt reports, the bishops turned to other business (narrated paraphrase)
+Source: cic/texts/npnf214_seven-ecumenical-councils.xml 6338-6406
+Second rendering: The synod's letter reports the decision on Arius first, then Melitius, then Easter.
+Ours: Then, as their letter to Egypt reports, the bishops turned to other business.
+Verdict: same
+Reason: The letter's own order; it makes no claim about a separate session, and ours does not either.
