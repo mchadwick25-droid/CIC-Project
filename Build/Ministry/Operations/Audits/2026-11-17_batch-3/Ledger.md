@@ -44,3 +44,5 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | baudonivia | write | Opus | 91,727 | 330 words (~2:10 against 2:00); grade 8.1; opens on her 'touching the sky with a finger', told as Fortunatus's phrase; ends on her editor's pardon |
 | justin-martyr | outline fix | Opus (same researcher, resumed) | 297,950 cumulative (about 26,800 for the fix) | 3 blocking and the minor made, M1 declined with reason; Outline.v1.md kept |
 | vardan-mamikonian | outline check | Opus | 181,934 | FIX: 5 blocking (quote 2's "caught him out" misleads; reproaches misplaced; the pretended conversion not told each witness's way; Persia's demands cut down; claims on editors where Lazar's own text holds them; Kirakos missed), 8 minor. Back to the researcher |
+| arius | outline recheck | Opus, low effort | 101,246 | FIX: all 14 findings made; the revision added two slips (a doubled line; three bishops given the Antioch bishops' words). Back for those two only |
+| third-council-of-toledo-589 | outline fix | Opus (same researcher, resumed) | (count on notification) | 3 blocking and all minor made; Outline.v1.md kept |

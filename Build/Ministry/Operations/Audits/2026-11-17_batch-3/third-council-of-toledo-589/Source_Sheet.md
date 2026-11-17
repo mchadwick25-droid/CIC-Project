@@ -44,7 +44,7 @@ Gallaecia (the north-west, the former Suevic kingdom) is named separately in can
 **B1. Leovigild's synod of Homoian bishops at Toledo, his twelfth year.** JB-M 20154-20160 (JB-PL 64850-64857 agrees). Contemporary (John was alive and in exile, see W1), hostile. Documented that John reports it.
 > "Leovegildus rex in urbera [urbem] Toletanam synodum episcoporum sectae Arrianac [Arrianae] congregat et antiquam haeresem novello errore emendat, diccns de Romana religione a nostra catholica fidc vcnientes non debere baptizari, scd tantumraodo per nianus inipositionem ct comnumionis praeceptione poUui et gloriam patri pcr filium in spiritu sancto dare. per hanc crgo seductionem plurimi nostrorum cupiditate potius quam impulsione in Arrianum dogma dcclinant."
 
-PL reads "ad nostram catholicam fidem venientes". The point for a witness reading: the Homoian synod called its own faith "our catholic faith" and the Nicene faith "the Roman religion"; it dropped rebaptism for converts; its prayer of praise was "glory to the Father through the Son in the Holy Spirit". The last sentence is John's hostile verdict on the converts' motives.
+The reading of "our catholic faith" is Contested. The manuscripts read "ad nostram catholicam fidem" (JB-PL 64853), which makes it the Homoian synod's own name for its faith. Mommsen emended against them to "a nostra catholica fide" (apparatus, JB-M 20210: "a nostra catholica fide] scripsi, ad nostram catholicam fidem libri"), which makes it John's own name for the Nicene faith. The date "about 580" is Mommsen's margin, "580?" (JB-M 20149). What holds either way: it dropped rebaptism for converts; its prayer of praise was "glory to the Father through the Son in the Holy Spirit". The last sentence is John's hostile verdict on the converts' motives.
 
 **B2. The council condemns that same booklet.** ACTS 36965-36971 (anathema XVI). Own words (Gothic bishops). Documented.
 > "Quicumque libellum detestabilem duodecimo anno Leovigildi regis a. nobis editum, in quo continetur Romanorum ad haeresem Arianam transductio, et in quo gloria Patri per Filium in Spiritu Sancto malé a nobis instituta continetur; hunc libellum si quis pro vero habuerit, anathema sit in aeternum."
@@ -89,7 +89,7 @@ Note "a nobis editum": the Gothic bishops own the booklet as theirs.
 
 Then PAUL 12071-12086: put out of Spain "supra naviculam", he reached Mauretania, "multos perfidia impii dogmatis maculavit", and died; Masona received back "Basilicas vero, quibus S. Massona dudum injuste caruerat" and Sunna's property. The death "Averno mulctatus judicio, crudeli exitu" is Paul's verdict, not a fact (Inferential-Thin).
 
-Timing: John puts Sunna's exile in Reccared's second year, before the council (JB-M 20328-20330). The refusal belongs before May 589.
+Timing: Paul gives no year. John puts Sunna's exile in Reccared's second year (JB-M 20328-20330), and both John and the acts put the council in the fourth (JB-M 20388; ACTS 36600). In Paul, Sunna refuses before he is put on the boat (12063-12073). That John's Sunna and Paul's are one man is an inference (same king, plot and exile): sound, but an inference. On that inference the refusal belongs before May 589. John gives Segga no rank, and John does not name Sunna's see; "of Mérida" is Paul's.
 
 ---
 
@@ -180,14 +180,20 @@ The held text gives the creeds only by their first words ("Credimus in unum Deum
 
 The Homoian clergy had wives. The canon orders them to live apart from them. Its last clause: women kept by clergy "ab episcopis venundatae pretium ipsum pauperibus erogetur" (37462-37464): sold by the bishops, the price given to the poor (a variant in note 36, 37470: placed in a convent instead).
 
-**C5. Canon XIV: Jews.** ACTS 37646-37656. Own words. Documented.
-> "ut judaeis non liceat christianas habere uxores vel concubinas neque mancipium christianum in usus proprios comparare; sed et si qui filii ex tali conjugio nati sunt assumendos esse ad baptisma; nulla officia publica eos opus est agere"
+**C5. Canon XIV: Jews.** ACTS 37646-37657. Own words. Documented.
+> "ut judaeis non liceat christianas habere uxores vel concubinas neque mancipium christianum in usus proprios comparare; sed et si qui filii ex tali conjugio nati sunt assumendos esse ad baptisma; nulla officia publiCa eos opus est agere per quae eis occasio tribuatur poenam christianis inferre: si qui veró christiani ab eis judaico ritu sunt maculati vel etiam circumcisi, non reddito pretio, ad libertatem et religionem redeant christianam."
 
-**C6. Canon XVI: idolatry.** ACTS 37680-37684. Own words. Documented.
-> "Quoniam pené per omnem Hispaniam sive Galliam idolatriae sacrilegium inolevit"
+Children of a Jew and a Christian wife are to be baptized; Jews hold no office through which they could punish Christians; Christians they have circumcised or brought into Jewish rites go free, no price paid. No general conversion of Jews is ordered.
 
-**C7. Canon XVII: parents killing children.** ACTS 37703-37708. Own words. Documented.
-> "ut in quibusdam Hispaniae partibus filios suos parentes interimant fornicationis avidi"
+**C6. Canon XVI: idolatry.** ACTS 37680-37694. Own words. Documented.
+> "Quoniam pené per omnem Hispaniam sive Galliam idolatriae sacrilegium inolevit, hoc cum consensu gloriosissimi principis sancta synodus ordinavit, ut omnis sacerdos in loco suo unà cum judice territorii sacrilegium memoratum studiosé perquirat, et exterminari inventa non differat; homines vero, qui ad talem errorem concurrunt, salvo discrimine animae, qua potuerint animadversione coé&rceant: quod si neglexerint, sciant se utrique excommunicationis periculum esse subituros. Si qui veró domini extirpare hoc malum a possessione sua neglexerint vel familiae suae prohibere noluerint, ab episcopo et ipsi a communione pellantur."
+
+Bishop and judge search it out and destroy it, and punish its followers by any penalty short of death ("salvo discrimine animae"), on pain of excommunication; masters who do not root it out among their slaves are put out of communion.
+
+**C7. Canon XVII: parents killing children.** ACTS 37703-37710. Own words. Documented.
+> "ut in quibusdam Hispaniae partibus filios suos parentes 1nterimant fornicationis avidi, nescit pietatis; quibus si taedium est filios numerOSlUs augere, priüs se ipsos debent castigare a fornicatione"
+
+The reason given is not wanting more children. The canon is not tied to idolatry.
 
 **C8. Other canons, in brief.** Own words. Documented. I (old canons and Roman bishops' letters in force), ACTS 37319-37336; III-IV (church property; a parish church may become a monastery), 37411-37435; VII (Scripture read at bishops' tables), 37502-37508; X (widows and virgins not forced to marry), 37543-37555; XI-XII (penance by the old canons; penitents shorn or change dress), 37576-37616; XVIII (one synod a year, with judges and royal agents present, 1 November), 37741-37770; XX (bishops not to burden their clergy), 37806-37825; XXII (the religious buried with psalms only, not the usual funeral song), 37851-37875; XXIII (no dancing and shameful songs at saints' feasts), 37890-37897.
 
@@ -207,20 +213,29 @@ The Homoian clergy had wives. The canon orders them to live apart from them. Its
 - No text by the Visigothic Homoian church itself is held. Its own words reach us only through hostile witnesses (B1, B2, B5, B9, E8). Fredegar's book-burning (B8) is the only held report of what happened to its books: late and alone. Inferential-Thin.
 
 **I2. What became of the Homoian clergy, churches and relics: the Council of Saragossa, Reccared's seventh year.** ACTS 34271-34325. Own words (a later council, era 630). Documented.
-> "ut presbyteri qui ex haeresi Ariana ad sanctam catholicam ecclesiam conversi sunt, qui sanctam et puram fidem atque castissimam tenuerint vitam, accepta denuo benedictione presbyteratus sancté et puré ministrare debeant: ceteri veró ... ab officio depositi sint in clero." (34288-34297)
-> "ut reliquiae in quibuscumque locis de Ariana haeresi inventae fuerint prolatae a sacerdotibus, in quorum ecclesiis reperiuntur, pontificibus praesentatae igne probentur" (34307-34311)
+> "ut presbyteri qui ex haeresi Ariana ad sanctam catholicam ecclesiam conversi sunt, qui sanctam et puram fidem atque castissimam tenuerint vitam, accepta denuo benedictione presbyteratus sancté et puré ministrare debeant: ceteri veró qui hanc suprascriptam vitam adimplere vel tenere neglexerint, ab officio depositi sint in clero. Ita et de diaconibus sicut et de presbyteris constitutum est." (34288-34301)
+> "ut reliquiae in quibuscumque locis de Ariana haeresi inventae fuerint prolatae a sacerdotibus, in quorum ecclesiis reperiuntur, pontificibus praesentatae igne probentur: quód si a quibuslibet occultatae fuerint et deteguntur, a sacrosanctae catholicae ecclesiae coetu segregentur." (34307-34313)
+
+The relics are "tested by fire", not simply burned; those who hide them are cut off from the church.
 > "ut episcopi de Ariana haeresi venientes, si quas ecclesias sub nomine catholicae fidei consecraverint, necdum benedictione percepta a catholico sacerdote consecrentur denuo." (34319-34324)
+
+Only churches consecrated by a converted bishop before he received a Catholic bishop's blessing are to be consecrated again.
 
 **I3. Plots after the council: Argimund.** JB-M 20428-20466. Contemporary. Documented that John says so.
 > "Argimundus adversus Reccaredum regem tyrannidem assumere cupiens ... socii eius impiam machinationem confessi condigna sunt ultione interfecti. ipsc autom Argimundus ... primum verheribus interrogatus. deinde turpiter decalvatus, post haec dextra amputata exemplum omnibus in Toletana urbe asino sedens pompizando dedit et docuit famulos dominis non esse superbos."
 
 John does not say Argimund was Arian. Do not make him so.
 
-**I4. The creed at the Eucharist, and "and from the Son".** C1-C2. Percival, NPNF14 13623-13628 (editor, citing Hefele): the Goths "were required to sign the creed with the addition. From this time it became for Spain the accepted form, and was so recited at the Eighth Council of Toledo in 653, and again in 681 at the Twelfth Council of Toledo." Editor. Widely Accepted for later Spanish use; the 589 creed text itself is as in C2.
+**I4. The creed at the Eucharist, and "and from the Son".** C1-C2.
+- Toledo VIII, ACTS 43156-43163 (heading, "ERA DCXCL" [DCXCI], era 691 = 653, editors' conversion) and 43515-43537. Own words (a later council). Documented.
+> "sicut denique in sacris missarum solemnitatibus concordi voce profitemur ac dicimus: Credimus in unum Deum Patrem omnipotentem ... credimus et in Spiritum Sanctum dominum et vivificatorem, ex Patre et Filio procedentem"
+- Toledo XII, ACTS 47965-47969 (heading, "ERA DCCXIX", 719 = 681) and 48222-48246. Own words. Documented.
+> "sicut etiam in missarum solemhiis [solemniis] patulis confessionum vocibus proclamamus: Credimus in unum Deum Patrem omnipotentem ... credimus et in Spiritum Sanctum dominum et vivificatorem, ex Patre et Filio procedentem"
+- For 589 itself the held text gives only the creed's opening words (C2). Percival says the 589 creed carried the words (NPNF14 13713-13714) and calls 589 "the earliest date at which we find the words actually introduced into the Creed" (13697-13699). Dominant Modern Reconstruction (editor). His note that Spain kept the form (13623-13628) is now confirmed by the held acts above.
 
 **I5. Did the decrees hold? Councils that followed.**
 - Narbonne, the same year (Reccared's fourth), ACTS 60864-60868. Own words. Documented: "in urbe Narbona, secundüm quod sancta synodus per ordinationem gloriosissimi domini nostri Reccaredi regis in urbe Toletana finivit, die calendarum novembrium Deo auspice in unum convenimus". The bishops of Gaul meet on 1 November, as canon XVIII required.
-- Seville I, Reccared's fifth year, era 628, ACTS 59276-59281 and 59299-59305. Own words, Leander signing. Documented: "quia quidam episcoporum non observantes nuper editum concilii Toletani decretum minüs solliciti in subjectis existunt". Some bishops were not keeping the Toledo decree on clergy and women.
+- Seville I, Reccared's fifth year, era 628, ACTS 59276-59281 and 59299-59305. Own words, Leander signing. Documented: "quia quidam episcoporum non observantes nuper editum concilii Toletani decretum minüs solliciti in subjectis existunt". Some bishops were not keeping the Toledo decree on clergy and women; the chapter heading, ACTS 59273, is "De clericis cum quibus mulieres cohabitant" (59273-59291).
 - Saragossa (I2).
 
 **I6. Rome's welcome.**
@@ -279,7 +294,7 @@ Also ACTS 38484-38487: "ut quia superbia linguarum diversitate ab unione gentes 
 - Corpus-map buckets: `nicene-visigothic-iberia.yaml`, `gothic-and-vandal-homoian-christianity.yaml`, `homoian-arian-christianity.yaml`, `roman-church-gregorian.yaml`, `latin-papal-church-gregorian.yaml`. `WORKS.yaml`, `AUTHOR-IDS.yaml` and `RETRIEVAL-HINTS.md` have no entry for Toledo, Reccared or Leander.
 - `cic/texts/` for the name forms Reccared / Recared / Rechared / Recaredus / Reccaredus / Recaredo / Richarid / Richaredus, and Toletanum / Toletana: **59 files** mention Reccared.
 
-**Used.** ACTS (full acts; the canons of Saragossa, Seville I and Narbonne), BRUNS (clean date line; Mansi's note on Gaul), JB-M and JB-PL, ISID (History of the Goths; On Famous Men), GT-E and GT-L (V.43, IX.15, Dalton's notes), GG1 and GG2 (letters I.43, IX.61, IX.122), GGD (Dialogues III.31), PAUL (Lives of the Fathers of Mérida: Sunna and Masona), FRED (IV.8), NPNF14 (Percival's excursus), VCODE (a later law citing Reccared).
+**Used.** ACTS (full acts; the canons of Saragossa, Seville I and Narbonne; the creeds of Toledo VIII and XII, found on the outline check, which the first sweep had missed), BRUNS (clean date line; Mansi's note on Gaul), JB-M and JB-PL, ISID (History of the Goths; On Famous Men), GT-E and GT-L (V.43, IX.15, Dalton's notes), GG1 and GG2 (letters I.43, IX.61, IX.122), GGD (Dialogues III.31), PAUL (Lives of the Fathers of Mérida: Sunna and Masona), FRED (IV.8), NPNF14 (Percival's excursus), VCODE (a later law citing Reccared).
 
 **Set aside, and why.**
 - The Mansi volumes, Hefele, Deusdedit, Friedberg's Corpus iuris canonici, Regino of Prüm and Gratian-era collections: later canon-law reuse of single canons, or modern summaries; they repeat the acts and add nothing the acts lack. The acts were read in full.
