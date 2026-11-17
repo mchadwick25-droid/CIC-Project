@@ -89,3 +89,7 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | third-council-of-toledo-589 | revision | Sonnet (same writer, resumed) | 103,527 cumulative | both blocking made; impact placed before the last two paragraphs; 555 words against 430; v2 kept |
 | thomas-a-kempis | revision | Opus (same writer, resumed) | 116,281 cumulative | B1, B2 and both minor made; 398 words against 375; v2 kept |
 | arius | revision | Opus (same writer, resumed) | 112,941 cumulative | B1, M1, M2 made, with cuts; 458 words against 400; v2 kept |
+| narsai | revision | Opus (same writer, resumed) | 115,791 cumulative | B1 and 5 minor made; 411 words against 375; v2 kept |
+| baudonivia | recheck | Opus, low effort | 84,467 | PASS; M3 left as optional |
+| moses-the-black | recheck | Opus, low effort | 82,804 | PASS; 333 words (M4 minor) |
+| alopen | recheck | Opus, low effort | 86,140 | PASS; 177 words against 160–170 (minor) |
