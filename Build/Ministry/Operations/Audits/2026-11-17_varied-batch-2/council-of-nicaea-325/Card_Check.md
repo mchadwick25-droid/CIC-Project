@@ -70,3 +70,10 @@ Brief lengths: the main brief has 549 words (3 minutes 40 seconds) and the story
 ## Non-blocking
 
 - howItWorked[5] keeps the NPNF wording "Thus believes the Catholic Church". The story renders it "universal" so that it is not heard in the modern denominational sense. `Outline_Check.md` C-2 suggested adding "(the whole church)". This is optional. Nothing in the line is wrong.
+
+## Recheck (2026-11-17)
+
+**Result: PASS**
+
+- **BLOCKING 1 is fixed.** outcome[4] now reads "in 341 by its editor's date (he reports, and Hefele rejects, a theory that its canons came from a synod of 332)". This matches NC 9305–9313 and 9360–9367.
+- The JSON parses. No other text changed.

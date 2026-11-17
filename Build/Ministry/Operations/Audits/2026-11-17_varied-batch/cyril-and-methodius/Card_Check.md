@@ -52,3 +52,14 @@ These removals are not blocking. The new card says nothing these lines contradic
 
 - uncertain[10] has Miklosich place the author "in the early tenth century". The Monitum says the author lived with Clement, who died in 916, and wrote while Hungarians raided Bulgaria in the 930s–960s (PG 96738–96746). "In the tenth century" would be safer.
 - quotationOriginals[4].uncertain lists three OCR faults but not "aique", "liieras" or "lalinas". The printed text is right as it stands.
+
+## Recheck (2026-11-17)
+
+**Result: PASS**
+
+- **BLOCKING 1 is fixed.** keyWorks[1] now reads "... into Slavonic in six months. Cross says this six-month tradition is generally regarded as apocryphal." This matches RPC 5662–5666.
+- **The three removed claims are restored in the old card's wording**, changed only where needed to agree with the cited lines:
+  - uncertain[0] adds "Wilhelm Wattenbach rated their historical worth very highly." Dümmler reports that Wattenbach rated the worth of both legends very highly ("sehr hoch", VC 18108–18109; GZ 1817–1820), not of the Life of Methodius alone, so the sentence says "their".
+  - uncertain[5] adds "Ginzel follows the Legend and calls the Life wrong." This matches GZ 3202–3203 and note 15 at 3245–3249 ("Unrichtig").
+  - A new uncertain[7] reads "The day Methodius died. The Life of Methodius gives 6 April, in the year Ginzel works out as 885. Ginzel reports that Wattenbach thought a death on so high a feast suspicious, and defends the date." This matches GZ 6170–6180 and 6245.
+- The JSON parses. No other text changed.
