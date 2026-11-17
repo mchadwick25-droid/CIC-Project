@@ -78,3 +78,7 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | narsai | review | Opus | 117,786 | REVISE; one-hearing PASS; B1 the denunciation at the Persian court left out; 5 minor. To the writer |
 | thomas-a-kempis | review | Opus | 107,473 | REVISE; one-hearing PASS; B1 the exile softened ("chose" against "driven to go forth"); B2 made a priest at his clothing in 1406; 2 minor. To the writer |
 | third-council-of-toledo-589 | review | Opus | 113,555 | REVISE; one-hearing PASS; B1 the idolatry canon left out again; B2 the impact (Saragossa, Seville, "by the roots") missing, Saragossa lost in the variety recast; 7 minor. To the writer |
+| arius | review | Opus | 118,140 | REVISE; one-hearing PASS; B1 the coercion at Constantinople reduced to "pressed"; 4 minor. To the writer |
+| pachomius | review | Opus | 114,375 | REVISE; one-hearing PASS; B1 Palladius's count sounds like monks under Jerome's Latin; B2 the split after his death missing; 5 minor. To the writer |
+| john-wyclif | review | Opus | 112,226 | REVISE; one-hearing PASS; B1 his death told as settled fact (Contested; Shirley's account); 6 minor. To the writer |
+| vardan-mamikonian | review | Opus | 110,621 | Reviewer: REVISE on length alone (492 against 400–450), and said length is not a Process.md ground to block. Coordinator's ruling: PASS by the Process bar; inside the Standard's 3:30 ceiling; counted against the length criterion; one-hearing PASS |
