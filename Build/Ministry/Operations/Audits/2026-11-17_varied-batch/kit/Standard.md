@@ -20,6 +20,7 @@ A story of about two minutes that lets anyone, anywhere, meet one person from th
 - Tell only what the outline holds. Add nothing for effect: no feelings, weather or thoughts the record does not give.
 - Name a writer or witness only when the listener needs to know who is speaking: praise or blame, a wonder, a source written much later, or a link on the tree. Say it once, plainly, in the story's own voice.
 - A wonder stays in its witnesses' voice, with no sneer and no endorsement.
+- When a source is hostile, to the person, a group or a people, be open about what it says and credit it to that source. We witness its view; the narrator never carries it forward or adopts its words as the story's own.
 - Where the outline marks something uncertain, say so plainly. Do not present it as settled, and do not bury it in hedging.
 
 ## Accessibility
