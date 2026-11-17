@@ -41,3 +41,38 @@ Checker, varied batch 2, 2026-11-17. I checked the outline against `Source_Sheet
 13. **MINOR: citations to add (the claims are supported).** Beat 2's "When that failed" is supported by EUS 64270–64272 ("his letter to the Alexandrian Christians had failed to produce its due effect"). Beat 3's "Thrace and Achaia" is supported by EUS 64331–64332. Neither line appears in sheet C2 or D-1. **Add both line references.** For Persia, the year 410 comes from the work Braun cites, Lamy's "anno 410" (MAR 894). "By Braun's account" would read more exactly as "dated 410 in the work Braun cites". The phrase "swore to accept" is a fair reading of "unter einem Anathem … annehmen zu wollen erklären" (MAR 865–866).
 
 No problems found with Leave out: each item and its reason fits the record.
+
+## Recheck (2026-11-17, targeted: only what changed)
+
+**Final verdict: PASS**
+
+**Blocking findings**
+- **Finding 1 is resolved.** "young" is gone from *Who tells it* and from sheet W3. Both now read "who was there as a deacon and wrote later in its defence".
+- **Finding 2 is resolved.** The line now reads "it is kept in the history of Theodoret, who was against him". "only" is gone.
+
+**Minor findings 3–13: all applied, and the new wording holds**
+- Setting (finding 3): it now quotes "forever removed" (EUS 64465–64467) with no span of time. The "newly free" alternative is the sheet's own S5 phrase.
+- Beat 5 (finding 4): "like the Father" is at ATH 27986 ("exact and like the Father"). "from God" is at ATH 27875–27882.
+- Creed (finding 5): the line now says the creed's statement of belief stops at "and in the Holy Spirit" and its curses follow. This matches NC 2418–2429.
+- Do not say (findings 6–9): the four new lines are each supported. On who presided: EUS 64501. On "318": NC 13970, 20218. Nothing in the record has Constantine making Christianity the empire's religion.
+- Number of years (finding 11): "for decades" replaces "half a century". The 359 date for Rimini is the editor's (JER 32284, editor's note).
+- Athanasius (finding 12): the qualifier on his presence is restored.
+- Citations (finding 13): EUS 64267–64272 is right ("had failed to produce its due effect" is at 64269). Thrace and Achaia are at EUS 64330–64332, now quoted in sheet C2. The Persia wording "dated 410 in the work Braun cites (MAR 894)" holds.
+
+**New standard: hostile sources are "witnessed, not carried forward"**
+The outline fits it.
+- The Easter letter's anti-Jewish invective is kept out of quotation. Leave out says it is "not to be quoted for colour".
+- Do not say lets the writer either leave Easter's reasons out, or name the contempt plainly as the letter's own. That records that the hostility is there without repeating it or voicing it as the story's own.
+- The other hostile voices are held the same way, each told as its teller's account:
+  - Athanasius's "whispering … and winking", marked "Athanasius says".
+  - Eustathius's torn-up formulary, marked "Eustathius says".
+  - Theodoret's keeping of Arius's letter, marked "who was against him".
+  - The council's charge against Arius, kept apart from Arius's own words.
+
+No finding.
+
+**MINOR (non-blocking), two items**
+- **R1. The researcher's response sits in Outline.md, not here.** It is a process note in a file the writer receives. **Correction:** move the "Researcher's response" block from the end of Outline.md into this file.
+- **R2. Two small wording points in Do not say.**
+  - The Easter line names "Rome and Alexandria" twice. **Correction:** "→ It set one day for Easter everywhere, so that those in the East who had followed the Jewish custom would keep it on the same day as Rome and Alexandria."
+  - "his editor doubts it" is looser than the note. The editor says Socrates "does not give the correct reason" for the banishment, and dates the recall to 328 (SOC 3932–3936). **Correction:** "Only Socrates says so, and his editor says Socrates gives the wrong reason for it."
