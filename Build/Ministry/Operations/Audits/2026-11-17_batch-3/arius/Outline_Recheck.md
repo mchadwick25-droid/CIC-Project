@@ -18,3 +18,7 @@
 - M10: made. "What he defended" is marked.
 - New problem 1, Connection: the pasted B2 sentence sits after an older sentence that says the same thing. "'Arian' was his opponents' name" now appears twice. Delete the first one.
 - New problem 2, Connection: it says Antioch, Auxentius, Palladius and Secundianus all "said plainly they did not follow him." Only Antioch said that. Auxentius said he never knew Arius (I3). Palladius and Secundianus said they did not know him or what he said (I4). Credit each claim to its own speaker, as What came of them 2 already does.
+
+## The two slips, checked (2026-11-17)
+
+Checked by the batch coordinator, who wrote neither the outline nor the check. (1) "'Arian' was his opponents' name" now stands once in the Connection. (2) The Connection, Links and Do not say give "did not follow him" to the Antioch bishops of 341 alone, and "did not know him" to Auxentius, Palladius and Secundianus. (3) The researcher kept the PG 26 range at 1225: "ἐγὼ ἔγνων" stands on file line 1225 of athanasius_opera-omnia-pg26-grc-lat_migne1857.txt, so 1225 is right. **PASS.**

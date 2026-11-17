@@ -48,7 +48,7 @@ Sources by row number refer to `Source_Sheet.md` in this folder; file and lines 
      Rendering: **"We have not been followers of Arius. For how could we, who are bishops, follow a priest?"**
      Job: the turn in the legacy. The side his name was pinned on speaks for itself and refuses it.
 
-- **Connection to carry into the story:** The council of Nicaea took two phrases Arius and his circle used, "before he was begotten he was not" and "he is from things that were not" (his letter, E7), and wrote them into the end of its creed as teachings the church curses (E14). The council's own letter says it condemned "all the blasphemous expressions he has uttered" (E13). The listener needs to understand that the creed's last lines answer him directly: two of his circle's own phrases are inside the creed, as what it denies. The other curses, on "a creature" and "subject to change", condemn what his opponents said he taught. The second thing the listener needs: "Arian" was his opponents' name. The eastern bishops at Antioch in 341, whom Athanasius counted as Arians, and later the Homoian bishops Auxentius, Palladius and Secundianus, said plainly they did not follow him (Q3, I3, I4). "Arian" was his opponents' name for them. The bishops it named said they had examined his faith and received him, but did not follow him as bishops follow a priest. Athanasius answered that they said so because the name was hated. Both claims stay in their owners' voices; and at Aquileia the council deposed the two bishops who would not condemn him. Carry both through what people did: the council writing its curses, the bishops writing their refusal.
+- **Connection to carry into the story:** The council of Nicaea took two phrases Arius and his circle used, "before he was begotten he was not" and "he is from things that were not" (his letter, E7), and wrote them into the end of its creed as teachings the church curses (E14). The council's own letter says it condemned "all the blasphemous expressions he has uttered" (E13). The listener needs to understand that the creed's last lines answer him directly: two of his circle's own phrases are inside the creed, as what it denies. The other curses, on "a creature" and "subject to change", condemn what his opponents said he taught. The second thing the listener needs: "Arian" was his opponents' name for them. The eastern bishops at Antioch in 341, whom Athanasius counted as Arians, said they had examined his faith and received him, but did not follow him as bishops follow a priest (Q3, I2). Later Homoian bishops said they did not know him: Auxentius of Milan, that he had never known Arius, never seen him, nor known his teaching (I3); Palladius and Secundianus at Aquileia, that they did not know who Arius was or what he had said (I4). Athanasius answered that they said so because the name was hated. Both claims stay in their owners' voices; and at Aquileia the council deposed the two bishops who would not condemn him. Carry both through what people did: the council writing its curses, the bishops writing their refusal.
 
 - **Links:**
   - Alexander of Alexandria: his bishop, who deposed him (E6); Arius wrote to him (E8).
@@ -60,7 +60,7 @@ Sources by row number refer to `Source_Sheet.md` in this folder; file and lines 
   - Epiphanius, Theodoret: kept his letters (E7, E8).
   - Socrates, Sozomen: told his life (E1, E18, E19).
   - Philostorgius: wrote his history from his side (E3, E12, I5).
-  - Auxentius of Milan, Palladius and Secundianus: refused his name (I3, I4).
+  - Auxentius of Milan, Palladius and Secundianus: said they did not know him (I3, I4).
 
 - **Who tells it:**
   - Arius himself: two letters, the Thalia's opening and the creed he gave Constantine, written between about 318 and his death. Every copy is held by an opponent.
@@ -73,8 +73,8 @@ Sources by row number refer to `Source_Sheet.md` in this folder; file and lines 
   - The listener must know, at the death and at the Thalia, that the teller wanted him condemned.
 
 - **Do not say:**
-  - "Arius founded the Arian church" or "the Homoians followed Arius" → "his opponents named the movement after him; its bishops said they did not follow him."
-  - "The Homoians had nothing to do with Arius" → "they said they received him but did not follow him"; Athanasius said they disowned the name because it was hated.
+  - "Arius founded the Arian church" or "the Homoians followed Arius" → "his opponents named the movement after him; the Antioch bishops of 341 said they did not follow him; later Homoian bishops said they did not know him."
+  - "The Homoians had nothing to do with Arius" → "the Antioch bishops said they received him but did not follow him"; Athanasius said they disowned the name because it was hated.
   - "Every curse in the creed was a phrase of Arius's" or "Arius taught that the Son could change" → "his own letters call the Son unchangeable; Athanasius and the council's letter say he taught the Son could change."
   - "Arius was persecuted" or "driven out as an atheist" in the narrator's voice → "he wrote that his bishop was persecuting him and had driven him out 'as atheists'"; Alexander's letter calls Arius's party "enemies of Christ". His letter also calls his opponents "heretics" and "unlearned men".
   - "Eusebius of Nicomedia and Theognis were exiled with him after Nicaea" → leave out; Socrates says so, but the editor says other witnesses put their exile later and judges Socrates wrong (npnf202 1484-1487).

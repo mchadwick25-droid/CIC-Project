@@ -45,4 +45,6 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | justin-martyr | outline fix | Opus (same researcher, resumed) | 297,950 cumulative (about 26,800 for the fix) | 3 blocking and the minor made, M1 declined with reason; Outline.v1.md kept |
 | vardan-mamikonian | outline check | Opus | 181,934 | FIX: 5 blocking (quote 2's "caught him out" misleads; reproaches misplaced; the pretended conversion not told each witness's way; Persia's demands cut down; claims on editors where Lazar's own text holds them; Kirakos missed), 8 minor. Back to the researcher |
 | arius | outline recheck | Opus, low effort | 101,246 | FIX: all 14 findings made; the revision added two slips (a doubled line; three bishops given the Antioch bishops' words). Back for those two only |
-| third-council-of-toledo-589 | outline fix | Opus (same researcher, resumed) | (count on notification) | 3 blocking and all minor made; Outline.v1.md kept |
+| third-council-of-toledo-589 | outline fix | Opus (same researcher, resumed) | 306,613 cumulative (about 25,300 for the fix) | 3 blocking and all minor made; Outline.v1.md kept |
+| arius | slip fix | Opus (same researcher, resumed) | 290,700 cumulative (about 4,500) | both slips fixed; PG 26 1225 kept with reason; checked by the coordinator: PASS |
+| justin-martyr | outline recheck | Opus, low effort | 100,815 | FIX on one leftover label (I2 "Contemporary record"); M1 decline upheld |

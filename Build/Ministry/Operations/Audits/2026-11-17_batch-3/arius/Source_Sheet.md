@@ -68,7 +68,7 @@ OCR note: the Oehler Epiphanius, Hussey Socrates, Migne PG 26, Migne PL 10 and M
 - Council of Nicaea: condemned him (E13-E14).
 - Epiphanius, Socrates, Sozomen, Theodoret: kept his letters or told his life, all as opponents.
 - Philostorgius: wrote his history from his side (E3, E12, I5).
-- Later Homoian bishops (Antioch 341, Auxentius, Palladius, Secundianus): refused his name (I2-I4).
+- Antioch 341 bishops: said they did not follow him (I2). Auxentius, Palladius, Secundianus: said they did not know him (I3, I4).
 
 ## Where sources disagree or come late
 
