@@ -136,8 +136,8 @@
       "englishPrinted": "We have been taught that Christ is the first-born of God, and we have declared above that He is the Word of whom every race of men were partakers; and those who lived reasonably are Christians, even though they have been thought atheists",
       "englishFile": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
       "englishLines": "15684-15692",
-      "uncertain": "The file prints οἷ for οὗ (of whom). \"Lived with the Word\" renders μετὰ λόγου, which the ANF English prints as \"lived reasonably\", with a note giving with reason, or the Word; \"godless\" renders ἄθεοι, where the ANF English prints \"atheists\". The second reading (S3-23) covered the first two sentences only, stopping before Καὶ οἱ μετὰ λόγου βιώσαντες; the third sentence had no blind reading of its own beyond the sense of μετὰ λόγου (S3-22).",
-      "secondReading": "same"
+      "uncertain": "The file prints οἷ for οὗ (of whom). \"Lived with the Word\" renders μετὰ λόγου, which the ANF English prints as \"lived reasonably\", with a note giving with reason, or the Word; \"godless\" renders ἄθεοι, where the ANF English prints \"atheists\". The whole passage was second-read blind (S4-02, Second_Readings_4.md): minor.",
+      "secondReading": "minor"
     },
     {
       "modern": "the only philosophy that is sure and useful",

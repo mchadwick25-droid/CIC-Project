@@ -254,4 +254,5 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | justin-martyr | card 2 | Opus | 155,667 | 6 entries; Apology 46 third sentence needs a reading |
 | arius | card 2 | Opus | 156,973 | 8 added, 4 removed; Jerome needs a reading |
 | john-wyclif | card 2 | Opus | 156,925 | 3 entries; Tyndale kept to his own words |
-| arius, justin, moses | blind second readings (4) | Opus, medium | (count) | done |
+| arius, justin, moses | blind second readings (4) | Opus, medium | 82,012 | done |
+| arius, justin, moses | compare second readings (4) | Opus, medium | 98,380 | 2 same, 2 minor; Arius and Justin cards take their verdicts (coordinator) |
