@@ -265,11 +265,12 @@
       "secondReading": "minor"
     },
     {
-      "modern": "Peter has spoken thus through Leo",
-      "printed": "Peter has spoken thus through Leo.",
-      "work": "The bishops' cry after the Tome was read, Session II, tr. Percival",
-      "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
-      "lines": "20000",
+      "modern": "not of judges but of robbers",
+      "printed": "that meeting, not of judges but of robbers, at Ephesus",
+      "work": "Leo of Rome, Letter XCV, to Pulcheria, tr. Charles Lett Feltoe",
+      "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+      "lines": "8639-8641",
+      "uncertain": "Feltoe's English; Leo's Latin is not held. Blind second reading: \"made up of robbers, not judges\" (Second_Readings_Blind_5.md, T1).",
       "secondReading": "same"
     },
     {
@@ -314,12 +315,21 @@
       "secondReading": "minor"
     },
     {
-      "modern": "from two",
+      "modern": "From two natures",
       "printed": "Dioscorus acknowledged that he accepted the expression “of two natures,”",
       "work": "The imperial judges, Session V, tr. Percival",
       "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
       "lines": "20166-20167",
-      "uncertain": "A term, not a saying: the brief's \"from two\" is the formula ἐκ δύο (19256), which Percival gives as \"of two\".",
+      "uncertain": "A term, not a saying: the brief's \"From two natures\" is the formula ἐκ δύο (19256), which Percival gives as \"of two natures\". Blind second reading: \"from two natures\" (Second_Readings_Blind_3.md, T1).",
+      "secondReading": "same"
+    },
+    {
+      "modern": "two",
+      "printed": "“the two” I do not receive (τὸ δύο, οὐ δέχομαι)",
+      "work": "Dioscorus of Alexandria, Session I of Chalcedon, as the acts minute it, tr. Henry Percival",
+      "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+      "lines": "19254-19260",
+      "uncertain": "A term, not a saying: the formula τὸ δύο that Dioscorus refuses. Blind second reading: \"Two\", with no noun after it in the Greek (Second_Readings_Blind_5.md, T3).",
       "secondReading": "same"
     },
     {

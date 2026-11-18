@@ -151,3 +151,6 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | council-of-chalcedon-451 | evaluation-fix check | Opus | 109,453 | PASS on content; 586 words, cuts listed |
 | toledo/moses/wyclif/alopen | evaluation-fix check | Opus | 116,745 | 3 PASS; Wyclif FAIL fixed (secular power, Palacky) |
 | council-of-chalcedon-451 | four no-cost cuts from the check (coordinator) | — | — | 586 → 569 words; Eutyches merge fixes check note 2 |
+| all twelve | census entry (cards, renderings, scan reading, map and tree pages) | Haiku | 333,186 | 55 → 6 errors; stopped on 6 needing records |
+| arius, chalcedon | blind second reading, three terms (Blind_5) | Opus | 81,112 | all same in meaning |
+| arius, chalcedon | coordinator: entries for "Arian", "two", "robbers"; Chalcedon "From two natures"; cut "Peter" entry removed | — | — | census check 0 errors |

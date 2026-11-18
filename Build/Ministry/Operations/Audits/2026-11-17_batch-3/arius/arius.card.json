@@ -53,6 +53,13 @@
         "date": null,
         "language": "Greek, with Latin translation",
         "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt"
+      },
+      {
+        "title": "Thalia, Greek, in Athanasius, Opera omnia, Patrologia Graeca 26 (Migne 1857), De Synodis and the Orations against the Arians",
+        "author": "Arius, quoted by Athanasius of Alexandria",
+        "date": null,
+        "language": "Greek",
+        "file": "cic/texts/athanasius_opera-omnia-pg26-grc-lat_migne1857.txt"
       }
     ],
     "about": [
@@ -108,11 +115,11 @@
     ]
   },
   "briefReferences": [
-    "Arius, Letter to Eusebius of Nicomedia, in Epiphanius, Panarion 69.6 (Greek) and Theodoret, Church History 1.4 (English): \"We are persecuted because we said: the Son has a beginning, but God has no beginning\"; driven out \"as godless men\"; the Son before time as perfect God, and before he was begotten he was not; \"of things that were not\".",
+    "Arius, Letter to Eusebius of Nicomedia, in Epiphanius, Panarion 69.6 (Greek) and Theodoret, Church History 1.4 (English): We are persecuted because we said: the Son has a beginning, but God has no beginning; driven out \"as godless men\"; the Son before time as perfect God, and before he was begotten he was not; \"of things that were not\".",
     "Arius and his fellow clergy, Letter to Alexander, in Athanasius, De Synodis 16, and Epiphanius, Panarion 69: God alone without beginning; a Son eternal beside him would make two without beginning.",
     "Socrates, Church History 1.5, and Robertson's prolegomena to Athanasius: a presbyter of Alexandria under Bishop Alexander; the dispute begins about 318 or 319.",
     "Alexander of Alexandria, encyclical (Depositio Arii), in Athanasius: Arius and his party deposed, \"enemies of Christ\".",
-    "Athanasius, Against the Arians 1.5: the opening of the Thalia, the earlier teachers wise and taught by God, \"I have walked in their footsteps\"; Athanasius quotes it to mock it.",
+    "Athanasius, Against the Arians 1.5: the opening of the Thalia, the earlier teachers wise and taught by God, I have walked in their footsteps; Athanasius quotes it to mock it.",
     "Socrates, Church History 1.8-9, with the synodal letter of Nicaea: his opinions condemned in 325, and the emperor's exile.",
     "The Creed of Nicaea, in The Seven Ecumenical Councils: the closing curses on \"before he was begotten he was not\" and \"of things that were not\".",
     "Constantine's letter, in Socrates, Church History 1.9: books by Arius to be burned, death for anyone who hid one.",
@@ -181,6 +188,15 @@
       "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
       "lines": "2422-2423",
       "secondReading": "minor"
+    },
+    {
+      "modern": "Arian",
+      "printed": "the Arian heresy is hateful in the sight of God",
+      "work": "Athanasius of Alexandria, Letter to Serapion on the death of Arius, in Nicene and Post-Nicene Fathers, second series, vol. 4",
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+      "lines": "70062-70064",
+      "uncertain": "A label, not a saying: his opponents' name for those who rejected Nicaea, here in Athanasius's own use. Blind second reading: \"Arian\", \"of Arius\", a hostile label (Second_Readings_Blind_5.md, T2).",
+      "secondReading": "same"
     }
   ]
 }

@@ -331,6 +331,13 @@
    "scan": "vespae',  faciunt  ecclesias  et  Marcionitac",
    "reads": "vespae,  faciunt  ecclesias  et  Marcionitae",
    "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/fasciculi-zizaniorum_shirley1858.txt",
+   "lines": "2857",
+   "scan": "tlie",
+   "reads": "the",
+   "kind": "OCR misread"
   }
  ]
 }
