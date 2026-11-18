@@ -38,3 +38,9 @@ None. Checked: Sinope named only by Epiphanius, and Holl's note that only Filast
 ## Card check fixes applied verbatim, 2026-11-18
 
 - `briefReferences[6]`: now "Tertullian (anf03, line 22298): Against Marcion, in five books."
+
+- secondReading "minor" set from Second_Readings.md B4-24, 2026-11-18.
+
+- secondReading "same" set from Second_Readings.md B4-25, 2026-11-18.
+
+- secondReading "same" set from Second_Readings.md B4-26, 2026-11-18.

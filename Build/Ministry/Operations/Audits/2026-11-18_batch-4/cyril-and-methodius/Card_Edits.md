@@ -58,3 +58,17 @@ Batch 1's `Second_Readings.md` (2026-11-17_varied-batch) records "same" for 1, 2
 - `[9]`: "on 6 April" and "Wiching set up" removed.
 - `[10]`: "the plain sermons" removed.
 - `[13]`: "and among the Danube Bulgarians" removed.
+
+- secondReading "same" set from Second_Readings.md B4-15, 2026-11-18.
+
+- secondReading "minor" set from Second_Readings.md B4-16, 2026-11-18.
+
+- secondReading "minor" set from Second_Readings.md B4-17, 2026-11-18.
+
+- secondReading "same" set from Second_Readings.md B4-18, 2026-11-18.
+
+- secondReading "minor" set from Second_Readings.md B4-19, 2026-11-18.
+
+- secondReading "same" set from Second_Readings.md B4-20, 2026-11-18.
+
+- secondReading "same" set from Second_Readings.md B4-21, 2026-11-18.

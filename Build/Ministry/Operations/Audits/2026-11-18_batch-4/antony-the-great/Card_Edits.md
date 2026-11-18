@@ -49,3 +49,5 @@ None.
 
 - `briefReferences[1]`: removed "bread and salt once a day"; now "work with his hands, prayer, fasting."
 - `briefReferences[7]`: removed "by Evagrius of Antioch".
+
+- secondReading "minor" set from Second_Readings.md B4-01, 2026-11-18.

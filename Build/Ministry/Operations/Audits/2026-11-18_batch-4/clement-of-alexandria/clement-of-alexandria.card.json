@@ -101,7 +101,8 @@
       "work": "Clement, Stromata I.5, tr. William Wilson (no Greek held)",
       "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
       "lines": "27891-27893",
-      "uncertain": "\"Schoolmaster\" stands for Paul's word in Galatians 3:24, the household servant who led a child to his teacher (Wilson's note, lines 18697-18699); \"guide\" avoids the modern sense of a man who runs a school."
+      "uncertain": "\"Schoolmaster\" stands for Paul's word in Galatians 3:24, the household servant who led a child to his teacher (Wilson's note, lines 18697-18699); \"guide\" avoids the modern sense of a man who runs a school.",
+      "secondReading": "minor"
     },
     {
       "modern": "in my judgment the most learned of men",
@@ -116,21 +117,24 @@
       "printed": "Is there any want of learning in these, or are they not rather drawn from the very heart of philosophy?",
       "work": "Jerome, Letter 70.4, to Magnus, tr. W. H. Fremantle (no Latin held)",
       "file": "cic/texts/npnf206_jerome-principal-works.xml",
-      "lines": "16634-16636"
+      "lines": "16634-16636",
+      "secondReading": "same"
     },
     {
       "modern": "bare faith alone",
       "printed": "bare faith alone",
       "work": "Clement, Stromata I.9, tr. William Wilson (no Greek held)",
       "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
-      "lines": "28315"
+      "lines": "28315",
+      "secondReading": "same"
     },
     {
       "modern": "whatever has been well said",
       "printed": "whatever has been well said",
       "work": "Clement, Stromata I.7, tr. William Wilson (no Greek held)",
       "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
-      "lines": "28147-28148"
+      "lines": "28147-28148",
+      "secondReading": "same"
     }
   ]
 }

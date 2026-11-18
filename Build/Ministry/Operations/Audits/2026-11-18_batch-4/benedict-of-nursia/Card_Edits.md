@@ -44,3 +44,5 @@ None.
 
 - `briefReferences[1]`: "Book II is the only early Life of Benedict, and Gregory tells it" became "Gregory tells Book II".
 - NOT applied, held for Mark: the fix removing `uncertain[5]` (the Totila rendering note).
+
+- secondReading "same" set from Second_Readings.md B4-02, 2026-11-18.

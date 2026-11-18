@@ -42,3 +42,11 @@ New items, for what the brief now draws on:
 - `briefReferences[2]`: "patched together" removed.
 - `briefReferences[7]`: "burnt" became "burned".
 - `briefReferences[11]`: ", after the death of Commodus" removed.
+
+- secondReading "same" set from Second_Readings.md B4-03, 2026-11-18.
+
+- secondReading "minor" set from Second_Readings.md B4-04, 2026-11-18.
+
+- secondReading "same" set from Second_Readings.md B4-05, 2026-11-18.
+
+- secondReading "same" set from Second_Readings.md B4-06, 2026-11-18.

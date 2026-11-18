@@ -105,7 +105,8 @@
       "work": "Adomnán, Life of Saint Columba, second preface, tr. Wentworth Huyshe",
       "file": "cic/texts/adomnan_life-of-saint-columba_huyshe1905.txt",
       "lines": "2224-2225",
-      "uncertain": "Adomnán's Latin is not held; quoted from Huyshe's English."
+      "uncertain": "Adomnán's Latin is not held; quoted from Huyshe's English.",
+      "secondReading": "same"
     },
     {
       "modern": "according to the example of their first teacher",
@@ -116,7 +117,8 @@
       "original": "iuxta exemplum primi doctoris illius",
       "originalFile": "cic/texts/bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt",
       "originalLines": "18879",
-      "uncertain": "The quotation mark after \"of\" in the printed English is an OCR mark, left out."
+      "uncertain": "The quotation mark after \"of\" in the printed English is an OCR mark, left out.",
+      "secondReading": "minor"
     },
     {
       "modern": "our most reverend Father Columba and his successors",
@@ -132,7 +134,8 @@
       "work": "Bede, Ecclesiastical History III.4, of Egbert, tr. J. A. Giles, rev. L. C. Jane",
       "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
       "lines": "5884-5885",
-      "uncertain": "\"Error\" is Bede's word, written for the side that won."
+      "uncertain": "\"Error\" is Bede's word, written for the side that won.",
+      "secondReading": "minor"
     },
     {
       "modern": "with all his household",
@@ -140,7 +143,8 @@
       "work": "Adomnán, Life of Saint Columba, Book II, tr. Wentworth Huyshe",
       "file": "cic/texts/adomnan_life-of-saint-columba_huyshe1905.txt",
       "lines": "7610-7613",
-      "uncertain": "Adomnán's Latin is not held; quoted from Huyshe's English."
+      "uncertain": "Adomnán's Latin is not held; quoted from Huyshe's English.",
+      "secondReading": "same"
     },
     {
       "modern": "Here I must stop, at the bottom of this page. Let Baithene write what comes next.",

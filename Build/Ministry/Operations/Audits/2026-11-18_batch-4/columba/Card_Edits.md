@@ -61,3 +61,11 @@ None.
 
 - `briefReferences[1]`: removed the forty-second year and the battle.
 - `briefReferences[5]`: removed ", from the fourteenth to the twentieth moon".
+
+- secondReading "same" set from Second_Readings.md B4-07, 2026-11-18.
+
+- secondReading "minor" set from Second_Readings.md B4-08, 2026-11-18.
+
+- secondReading "minor" set from Second_Readings.md B4-09, 2026-11-18.
+
+- secondReading "same" set from Second_Readings.md B4-10, 2026-11-18.

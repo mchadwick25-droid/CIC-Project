@@ -115,7 +115,8 @@
    "work": "Dhuoda, Liber manualis, end of chapter VII, ed. Bondurand",
    "file": "cic/texts/dhuoda_liber-manualis_bondurand1887.txt",
    "lines": "3165-3167",
-   "uncertain": "Paris copy only."
+   "uncertain": "Paris copy only.",
+   "secondReading": "same"
   },
   {
    "modern": "but they will not teach on equal terms, with a heart burning in the breast, as I do, your mother.",
@@ -123,7 +124,8 @@
    "work": "Dhuoda, Liber manualis, ed. Bondurand",
    "file": "cic/texts/dhuoda_liber-manualis_bondurand1887.txt",
    "lines": "3169-3171",
-   "uncertain": "jfiquali = aequali. Paris copy only."
+   "uncertain": "jfiquali = aequali. Paris copy only.",
+   "secondReading": "minor"
   }
  ]
 }

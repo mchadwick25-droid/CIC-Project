@@ -122,7 +122,8 @@
       "work": "Justin, First Apology 26, Greek, ed. Rauschen",
       "file": "cic/texts/justin-martyr_first-apology-grc_rauschen1911.txt",
       "lines": "729-731",
-      "uncertain": "The ANF English (anf01, lines 14943-14945) reads \"And there is Marcion, a man of Pontus, who is even at this day alive, and teaching his disciples to believe in some other god greater than the Creator.\""
+      "uncertain": "The ANF English (anf01, lines 14943-14945) reads \"And there is Marcion, a man of Pontus, who is even at this day alive, and teaching his disciples to believe in some other god greater than the Creator.\"",
+      "secondReading": "minor"
     },
     {
       "modern": "Separating the law from the gospel is Marcion's own work, and his chief one.",
@@ -138,7 +139,8 @@
       "printed": "the defenders of Judaism",
       "work": "Tertullian, Against Marcion IV.4, ANF English, tr. Peter Holmes",
       "file": "cic/texts/anf03_tertullian.xml",
-      "lines": "29252"
+      "lines": "29252",
+      "secondReading": "same"
     },
     {
       "modern": "in every race of people",
@@ -146,7 +148,8 @@
       "work": "Justin, First Apology 26, Greek, ed. Rauschen",
       "file": "cic/texts/justin-martyr_first-apology-grc_rauschen1911.txt",
       "lines": "732",
-      "uncertain": "The ANF English (anf01, lines 14945-14946) reads \"many of every nation\"."
+      "uncertain": "The ANF English (anf01, lines 14945-14946) reads \"many of every nation\".",
+      "secondReading": "same"
     }
   ]
 }

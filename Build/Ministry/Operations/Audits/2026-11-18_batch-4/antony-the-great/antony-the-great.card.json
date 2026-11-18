@@ -103,7 +103,8 @@
       "work": "Augustine, Confessions VIII.12.29, Latin, CSEL 33",
       "file": "cic/texts/augustine_confessiones-lat_knoll-csel33.txt",
       "lines": "13470-13501",
-      "uncertain": "\"Urged on\" renders admonitus, which means warned or prompted. The Pilkington English (npnf101, lines 13117-13124) reads \"he received the admonition as if what was read were addressed to him\". \"Divine word\" renders oraculum, which Pilkington gives as \"oracle\"; \"you\" is God, to whom the Confessions are addressed. The footnotes and page head between lines 13473 and 13501 are left out."
+      "uncertain": "\"Urged on\" renders admonitus, which means warned or prompted. The Pilkington English (npnf101, lines 13117-13124) reads \"he received the admonition as if what was read were addressed to him\". \"Divine word\" renders oraculum, which Pilkington gives as \"oracle\"; \"you\" is God, to whom the Confessions are addressed. The footnotes and page head between lines 13473 and 13501 are left out.",
+      "secondReading": "minor"
     }
   ]
 }

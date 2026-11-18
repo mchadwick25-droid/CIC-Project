@@ -42,3 +42,7 @@ None.
 - `briefReferences[1]` (opening verses entry) removed.
 - `briefReferences[2]`: "married at Aachen, 824;" and "and a board game" removed.
 - `briefReferences[11]`: "and the Histoire littéraire" and the "monument respectable" phrase removed.
+
+- secondReading "same" set from Second_Readings.md B4-22, 2026-11-18.
+
+- secondReading "minor" set from Second_Readings.md B4-23, 2026-11-18.

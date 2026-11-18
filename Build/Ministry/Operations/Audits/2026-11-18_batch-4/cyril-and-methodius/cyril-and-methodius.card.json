@@ -108,28 +108,32 @@
       "printed": "si litteras habent linguae suae accomodatas",
       "work": "Life of Constantine, Latin tr. Dümmler and Miklosich",
       "file": "cic/texts/vita-constantini_die-legende-vom-heiligen-cyrillus-in-denkschriften-wien-19-chu-lat-deu_duemmler-miklosich1870.txt",
-      "lines": "20224-20225"
+      "lines": "20224-20225",
+      "secondReading": "same"
     },
     {
       "modern": "who can write words on water, and who wants to be called a heretic?",
       "printed": "quis potest in aqua orationem scribere, et quis vult haeretici sibi nomen comparare?",
       "work": "Life of Constantine, Latin tr. Dümmler and Miklosich",
       "file": "cic/texts/vita-constantini_die-legende-vom-heiligen-cyrillus-in-denkschriften-wien-19-chu-lat-deu_duemmler-miklosich1870.txt",
-      "lines": "20227-20228"
+      "lines": "20227-20228",
+      "secondReading": "minor"
     },
     {
       "modern": "Does God's rain not fall on all alike?",
       "printed": "nonne pluvia a deo aequaliter super omnes cadit?",
       "work": "Life of Constantine, Latin tr. Dümmler and Miklosich",
       "file": "cic/texts/vita-constantini_die-legende-vom-heiligen-cyrillus-in-denkschriften-wien-19-chu-lat-deu_duemmler-miklosich1870.txt",
-      "lines": "20307-20308"
+      "lines": "20307-20308",
+      "secondReading": "same"
     },
     {
       "modern": "Look, brother, we were partners plowing a single furrow. And I fall in the field, having finished my day.",
       "printed": "Ecce frater nos consortes eramus, unum sulcum imprimentes atque ego in agro cado, postquam diem meum terminavi,",
       "work": "Life of Methodius, Latin tr. Franz Miklosich, in Ginzel",
       "file": "cic/texts/ginzel_geschichte-der-slawenapostel-cyrill-und-method-deu-lat_1861.txt",
-      "lines": "12251-12253"
+      "lines": "12251-12253",
+      "secondReading": "minor"
     },
     {
       "modern": "Greek ... newly invented Slavic letters",
@@ -137,7 +141,8 @@
       "work": "Conversio Bagoariorum et Carantanorum (the Salzburg account), in Ginzel",
       "file": "cic/texts/ginzel_geschichte-der-slawenapostel-cyrill-und-method-deu-lat_1861.txt",
       "lines": "13641-13642",
-      "uncertain": "OCR spellings kept as printed (methodms = Methodius, Hlieris = litteris). The brief quotes only \"Greek\" and \"newly invented Slavic letters\"; the rest is paraphrase of the same sentence, which ends after a page of notes at lines 13662-13663, \"vilescerc fecil cunclo populo ex parte missas et evangelia\" (vilescere fecit cuncto), keeping \"partly\" (ex parte)."
+      "uncertain": "OCR spellings kept as printed (methodms = Methodius, Hlieris = litteris). The brief quotes only \"Greek\" and \"newly invented Slavic letters\"; the rest is paraphrase of the same sentence, which ends after a page of notes at lines 13662-13663, \"vilescerc fecil cunclo populo ex parte missas et evangelia\" (vilescere fecit cuncto), keeping \"partly\" (ex parte).",
+      "secondReading": "same"
     },
     {
       "modern": "For he who made the three chief languages, Hebrew, Greek and Latin, also himself created all the others, for his praise and glory.",
@@ -145,7 +150,8 @@
       "work": "Pope John VIII, letter to Svatopluk, 880, in Ginzel",
       "file": "cic/texts/ginzel_geschichte-der-slawenapostel-cyrill-und-method-deu-lat_1861.txt",
       "lines": "13974-13976",
-      "uncertain": "\"bebream\" is the OCR's reading of \"hebream\"."
+      "uncertain": "\"bebream\" is the OCR's reading of \"hebream\".",
+      "secondReading": "same"
     },
     {
       "modern": "the first bishop of the Bulgarian tongue",
@@ -153,7 +159,8 @@
       "work": "Life of Clement of Ohrid, Latin tr., Patrologia Graeca 126",
       "file": "cic/texts/theophylact-ohrid_opera-t4-with-vita-clementis-pg126-grc-lat_migne1864.txt",
       "lines": "99371-99372",
-      "uncertain": "\"Bulgariez lingue\" is the OCR's reading of \"Bulgariae linguae\"."
+      "uncertain": "\"Bulgariez lingue\" is the OCR's reading of \"Bulgariae linguae\".",
+      "secondReading": "minor"
     }
   ]
 }

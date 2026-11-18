@@ -73,3 +73,11 @@ None.
 - `[6]`: line range 28015-28018 and "the words written more distinctly" removed.
 - `[10]`: "as at Rome and Alexandria; canon 13..." removed.
 - `[14]`: Chalcedon recital clause removed.
+
+- secondReading "same" set from Second_Readings.md B4-11, 2026-11-18.
+
+- secondReading "same" set from Second_Readings.md B4-12, 2026-11-18.
+
+- secondReading "same" set from Second_Readings.md B4-13, 2026-11-18.
+
+- secondReading "minor" set from Second_Readings.md B4-14, 2026-11-18.

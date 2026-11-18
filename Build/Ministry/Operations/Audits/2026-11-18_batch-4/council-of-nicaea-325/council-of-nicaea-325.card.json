@@ -305,14 +305,16 @@
    "printed": "they were caught whispering to each other and winking with their eyes,",
    "work": "Athanasius of Alexandria, Defence of the Nicene Definition (De decretis) 20, tr. Archibald Robertson",
    "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
-   "lines": "27991-27992"
+   "lines": "27991-27992",
+   "secondReading": "same"
   },
   {
    "modern": "in the sight of all",
    "printed": "the impious writing had been torn up in the sight of all,",
    "work": "Eustathius of Antioch, in Theodoret, Church History I.8, npnf203",
    "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
-   "lines": "6395-6396"
+   "lines": "6395-6396",
+   "secondReading": "same"
   },
   {
    "modern": "begotten, not made",
@@ -335,14 +337,16 @@
    "printed": "saying also that he is a creature.",
    "work": "The synodal letter of Nicaea to the church of Alexandria, tr. Percival",
    "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
-   "lines": "6346-6347"
+   "lines": "6346-6347",
+   "secondReading": "same"
   },
   {
    "modern": "shall not be set aside",
    "printed": "The Faith of the Three Hundred and Eighteen Fathers assembled at Nice in Bithynia shall not be set aside, but shall remain firm.",
    "work": "Council of Constantinople (381), canon 1, tr. Percival",
    "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
-   "lines": "13970-13972"
+   "lines": "13970-13972",
+   "secondReading": "minor"
   },
   {
    "modern": "pre-eminent",
