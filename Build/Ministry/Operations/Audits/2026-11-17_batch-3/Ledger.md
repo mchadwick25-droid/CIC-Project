@@ -246,3 +246,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | thomas-a-kempis | card 2 | Opus | 128,176 | 7 quotes; little Gerson carries the old passage verdict; census teaser 'most copied' to fix at census |
 | council-of-chalcedon-451 | card 2 | Sonnet | 137,525 | quotes trimmed to the new brief; Coptic condemnation of Eutyches not found by card writer (to verify) |
 | moses-the-black | recheck 2 | Opus, medium | 97,584 | PASS; heart by word 82; grade 5.7 not flat |
+| vardan-mamikonian | card 2 | Opus | 122,725 | 1 quote out, grant in; renderings list to follow at census |
