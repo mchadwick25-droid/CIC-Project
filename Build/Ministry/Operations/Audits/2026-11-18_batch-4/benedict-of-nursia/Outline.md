@@ -4,6 +4,10 @@ Sheet references (S, M, R, I, D, A) point to `Source_Sheet.md` in this folder; A
 
 - **The heart of their life:** He founded houses of monks in Italy: twelve at Subiaco, then one on the mountain at Monte Cassino (M9, M12; Documented as Gregory's account). For them he wrote a Rule, a short book on how monks live together under an abbot (M18, R2; Documented, OWN). It calls the monastery "a school for the Lord's service" and hopes to lay down nothing harsh (Q1, R1). A monk promises, for life, to stay in one community, to turn his whole way of life to God, and to obey (R3, A5). He works with his hands at set times and reads holy books at others (R4). Every guest is received as Christ (R5). The community chooses its abbot, who must temper everything so that the strong have something to strive for and the weak do not run away (Q2, R6). Benedict called it "this little Rule written for beginners" (R8). All of the Rule's content: Documented (OWN). What it changed: about two centuries later Frankish rulers made it the rule for monasteries in their lands. Carloman's council of 742 bound the monks and nuns of the lands he ruled to it, and in 802 Charlemagne had it read at Aachen and ordered monasteries put right by it (I1a, I1c; Documented, LATER). The name "Benedictines" is later still (S6b).
 
+- **Essence:** He founded houses of monks in Italy and wrote for them a short Rule for living together, "a school for the Lord's service". Frankish rulers later made it the law for their monasteries.
+
+- **Also told:** Subiaco and Monte Cassino; the abbot the community chooses; the vow for life; Carloman in 742 and Charlemagne in 802 by name.
+
 - **Length:** 2½ minutes, about 375 words. He is a major figure, and the heart needs room for two things: what the Rule held, and what later rulers did with it. The life itself rests on one later witness, so keep the life beats lean and do not stretch them. The first minute is about 150 words and carries the whole heart (beat 1).
 
 - **Setting** (facts for the writer, not a sentence to paste):
@@ -67,6 +71,7 @@ Sheet references (S, M, R, I, D, A) point to `Source_Sheet.md` in this folder; A
   - Wrong: "Two hundred and fifty years after he wrote it" / any gap counted from the writing. Right: "about two centuries later" (742) and "in 802". No source dates the writing (D3).
   - Wrong: "In 742 the Franks made his Rule law" / "all Frankish monasteries". Right: "Carloman's council, for the lands he ruled" (MGH 2203–2204).
   - Wrong: "Charlemagne made every monastery in Europe follow the Rule." Right: "In 802 Charlemagne gathered the abbots and monks who were at Aachen, where they read the Rule together, and ordered that anything done in the monasteries against it be put right by it" (MGH 7794–7805). It was his realm, not Europe.
+  - Wrong: "Charlemagne gathered (or summoned) the abbots and monks to Aachen to read the Rule." Right: "gathered the abbots and monks who were at Aachen, where they read it together" (MGH 7794–7796).
   - Wrong: "The Pope ordered the Rule for all monks." Right: it was Carloman's council (742) and Charlemagne's synod (802).
   - Wrong: "It became the only rule of the West." Right: leave out; that is Gasquet's 1909 judgment (I1d), card only.
   - Wrong: "The Benedictines take their name from him", said of his own time. Right: the name is later (S6b); say it, if at all, as a later name.
