@@ -4,7 +4,7 @@ Each step is run by a fresh hand with its own prompt in `roles/`. A batch is wor
 
 0. **Slate.** When the batch is proposed, each candidate is checked against the people and stories already in the census. An overlap is shown with a line on how the two would differ, and Mark decides to keep, swap or link before research starts.
 1. **Research** (`roles/researcher.md`). A source sheet from held texts, then a one-page outline to `Outline_Template.md`.
-   - **The hearts to Mark.** When the batch's research is done, the heart of each life comes to Mark on one page, two or three lines each with its confidence. For each he says yes, change it, or ask. A change goes back to the researcher before the outline check.
+   - **The hearts to Mark.** When the batch's research is done, the heart of each life comes to Mark on one page: its essence in one or two sentences, then what is also told, each with its confidence. For each he says yes, change it, or ask. A change goes back to the researcher before the outline check.
 2. **Outline check** (`roles/checker.md`). Every line tested against the source texts. Blocking faults are fixed and rechecked independently.
 3. **Write** (`roles/writer.md`). From the outline, `Shapes.md` and `Standard.md` only.
 4. **Review** (`roles/reviewer.md`). First, across the whole batch, `python tools/check_brief_variety.py` counts the moves that repeat. The counts are a report for Mark and the reviewer, kept with the batch, and nothing is recast because of them. No recast may cut or delay the heart. Then, for each piece, the acceptance test from one hearing, and the separate source check. A clear story can still hold a factual error.

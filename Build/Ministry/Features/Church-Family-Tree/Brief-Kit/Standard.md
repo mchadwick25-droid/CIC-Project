@@ -1,16 +1,16 @@
 # The standard
 
-A story that lets an interested non-specialist meet one person, council or event from the church's history. It is heard once, by adults, many of them listening in a second language. The outline sets its length: about two minutes, up to three for a major figure or a story that needs the room, shorter when the record is thin.
+A story that lets an interested non-specialist meet one person, council or event from the church's history. It is heard once, by adults, many of them listening in a second language. The outline sets its length: as long as the story needs and no longer, up to about three minutes for a person and four for a council, shorter when the record is thin. Craft comes before time.
 
 **The test.** After one hearing, the listener can explain who or what this was, what happened, and why the connection matters. Meet it without making the story simpler.
 
 ## Craft
 
 - A well-sourced story, told by an adult documentary narrator who knows the record well, in the register of a BBC or National Geographic documentary. Never quotations linked by commentary, never a report about the record, and never talking down.
-- Tell the heart of their life, their major contributions and the essence of their work, within the first minute, and let the rest deepen it. Open on something that draws the listener in and leads there. Let the time, the place and the tradition reach the listener early, each in whatever form the story gives it, never as a list.
+- Open on one moment, image or line from the record, in no more than about three sentences, and let it lead straight into the essence. Then say the essence plainly: what this person did, what it changed, and why they are on the tree. Both come within the first minute. The rest of their life and work deepens it, told with its weight where the story is strongest. Let the time, the place and the tradition come in a clause at a time, as the story needs them, never stacked in one sentence.
 - Tell what was at stake, not only what happened: what an act meant in its own time, what it risked and what it changed.
 - Link ideas the way an adult narrator does, with cause, contrast and time. Let a longer sentence carry a chain of events and a short one mark a turn. No sentence past about 30 words, and no run of short sentences that each tell one act.
-- Give the outline's connection enough room to become understandable, carried through what people did: what they left the church and what they defended. Tell it where it is strongest. Once it has landed, the story may end on it, or on a scene, the person's own words or their death. No moral, no summing up.
+- Give the outline's connection enough room to become understandable, carried through what people did: what they left the church and what they defended. Tell it where it is strongest. Once it has landed, end on the person: a scene, their own words, their death, or the opening's image seen again. End on a later writer or institution only when that is the story's point. No moral, no summing up.
 
 ## Rigor
 
