@@ -239,3 +239,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | narsai | outline fixes from check 2 (researcher) | Opus | — | blocking and 4 minor applied; Mosul catalogue added |
 | narsai | write (fresh, heart first) | Opus | 97,160 | 403 words, grade 8.1; heart by word 120 |
 | moses-the-black | review 2 | Opus | 104,714 | REVISE: the fathers' scorn softened; his words against himself reshaped |
+| moses-the-black | outline amended from review 2 (researcher) | Opus | — | scorn and his words given exact wording; new quote 3 |
