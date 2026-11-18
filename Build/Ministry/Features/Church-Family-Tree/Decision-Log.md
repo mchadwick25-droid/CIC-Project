@@ -4660,3 +4660,12 @@ Each keeps its approved essence. One independent check follows, then the census,
 **Why.** All 250 people on the tree have a story, but 226 were written before the new kit. The listeners' read named two gaps on the slate: nothing yet tells how the Church of the East came to stand apart, and Protestant figures are few (Open-Gaps 329).
 
 **Decided (Mark, 2026-11-18: "1"; then "i approve in a new thread").** Batch 5 rewrites twelve on the kit: Nestorius, Cyril of Alexandria, Barsauma of Nisibis, Babai the Great and Timothy I of Baghdad; Martin Luther, William Tyndale, John Calvin and John Wesley; Augustine of Hippo, Patrick of Ireland and Athanasius of Alexandria. Each story's job, and the live stories it must not repeat, are as written in `Launch-Prompts/CFT_Batch5_Launch_2026-11-18.md`. The ten older stories already recorded become batch 6. Batch 5 runs in a new session.
+
+## 2026-11-18 — Batch 5 hearts: church words explained, and Luther's job re-set (Mark)
+
+**Why.** Mark read the twelve hearts (https://claude.ai/artifact/V5gaZrGddA7eGT2BH43yfm): "i like them but there are a lot of old church words, they need an explantion". Asked whether Luther's writings against the peasants and the Jews should be told, he asked first whether they were core to the life or whether other things of the same weight were also left out ("we dont hide, but we don't make it bigger just to tell it"). The answer was that the job as set (the protest, Worms, the Bible and hymns) left out his teaching on grace, the break of 1520, the Peasants' War, the marriage and the catechisms, at the same weight.
+
+**Decided (Mark, 2026-11-18).**
+1. **Church words.** Every outline in the batch carries a "Words to explain" list after its Setting: each church or period word a general listener would not know at once, with a plain word to use instead or a short gloss worked into the sentence where it is first heard. Do not say bars each one used without its plain sense the first time. The hearts are restated in plain words (`Build/Ministry/Operations/Audits/2026-11-18_batch-5/Hearts_Plain.md`).
+2. **Luther's job, re-set** ("b is my recomondation"): what he taught about grace and why he protested; his break with Rome and his stand at Worms; the German Bible and hymns; and the hard turns of 1525. His late writings against the Jews go on the card, credited (the 1543 treatises are not held).
+3. **Luther's length** ("luther can be a time exeption and streatch to 4"): up to about 4 minutes, as an exception to the kit's three for a person.
