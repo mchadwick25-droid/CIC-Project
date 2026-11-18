@@ -157,3 +157,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | all twelve | substance read | Opus | 165,099 | 3 PASS, 8 FIX, 1 FIX-OUTLINE |
 | alopen | re-outline (heart of their life) | Opus | 142,596 | heart: first recorded mission; opening on the 1625 finding |
 | baudonivia | re-outline (heart of their life) | Opus | 142,395 | heart: what her Life of Radegund tells |
+| thomas-a-kempis | re-outline (heart of their life) | Opus | (count) | heart: what the Imitation teaches |
