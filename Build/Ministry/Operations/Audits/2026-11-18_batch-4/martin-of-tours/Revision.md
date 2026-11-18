@@ -62,3 +62,21 @@ Listener read: all three test lines come clear. The one jump back in time ("Mart
   New: Wrong: Trier named only as the worldly-judge point. Right: both pleas:
 - Old: Wrong: the tomb's honour left to the closing third. Right: one clause in the first minute: his tomb
   New: Wrong: the tomb's honour left out. Right: one clause: his tomb
+
+## Trim to 3:45 (Mark, 2026-11-18)
+
+678 words to 587 (two counts: `wc -w` and a word regex, both 587). The essence is complete at word 126 ("...a model for later lives of saints.").
+
+Cuts:
+
+1. Q1, his words at Worms: three whole sentences dropped, "Until now I have served you as a soldier. Let me now serve God as a soldier. Let the man who is going to fight take your gift." New text: he said: "I am Christ's soldier. I am not allowed to fight." Word for word from the outline's rendering (its last two sentences, which the outline allows alone).
+2. The tomb, Gregory and Clovis material, down to one sentence. Dropped: "A later bishop built a great church over the grave, and Gregory tells the faithful to remember his burial day, 11 November. King Clovis, he says, let his army take only grass and water from Martin's lands. In Gregory's time the poet Fortunatus put Sulpicius's book into verse, and Gregory added a book of Martin's miracles." Kept, unchanged: "Martin's tomb made Tours a place kings and bishops honored, as Gregory, bishop of Tours almost two hundred years later, tells it." The paragraph's first two sentences (his monks made bishops; the one-admirer line) stay, since both are outline must-keeps.
+3. Padding: "the cold was so hard that it was killing people" to "the cold was killing people". New text: "One winter, at the gate of Amiens, the cold was killing people."
+4. Padding: "Sulpicius says that the next night" to "Sulpicius says the next night"; "heard him say that Martin" to "heard him say Martin" (the outline's own wording). New text: "Sulpicius says the next night Martin saw Christ in a dream, wearing the half he had given, and heard him say Martin, still only a catechumen, had clothed him."
+5. Padding: "a place that kings" to "a place kings" (in the tomb sentence above).
+
+Rejoined sentences: none.
+
+Check: `python -m engine.m1.profile_readability .../martin-of-tours.brief.txt`: 587 words, grade 8.4 (names out 7.8), reading ease names out 72.1, 18.3 words a sentence, 0.9 joining words per 100, 6% short sentences, longest sentence 29 words. Pass.
+
+Not done: 587 is about 27 words past 560 (about 3:55). No padding is left by my reading. What remains that is not on the keep list is record content: the baptism and tribune sentence (24 words), "Martin had already given away the rest of his clothes, so" (10), and "Old, and knowing his end was near" (7). Cutting any of these is Mark's call.
