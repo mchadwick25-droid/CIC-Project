@@ -112,4 +112,6 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | thomas-a-kempis | brief correction | coordinator | — | the interdict to 1425, the departure to 1429, checked against the Chronicle (Brief_Correction.md) |
 | narsai | card | Opus | 143,178 | additions only (briefLength, 2 quotation originals, 13 references); no corrections |
 | john-wyclif | card | Opus | 148,358 | briefLength updated; 2 sources (Palacký, Raynaldus), 16 references, 1 quotation original; no corrections |
-| arius | card | Opus | (count on notification) | additions only (briefLength, 3 quotes + 4 phrases, 12 references, 5 sources); Q3 lines corrected to 16658–16659; 1 claim not found, left in place and flagged |
+| arius | card | Opus | 145,667 | additions only (briefLength, 3 quotes + 4 phrases, 12 references, 5 sources); Q3 lines corrected to 16658–16659; 1 claim not found, left in place and flagged |
+| moses-the-black | card | Opus | 137,017 | additions only (briefLength, a source, 9 references, 3 quotation originals); self-assigned secondReading verdicts to be replaced by the blind readings |
+| (9 cards) | script check | script | — | every original field unchanged and in order, except the fields each Card_Edits.md lists |
