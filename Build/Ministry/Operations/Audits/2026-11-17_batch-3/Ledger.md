@@ -177,3 +177,6 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | thomas-a-kempis | outline fixes from check 2 (researcher) | Opus | — | 2 blocking and 4 minor applied |
 | alopen | write (fresh, heart first) | Opus | 93,366 | 328 words, grade 8.2, pass |
 | vardan-mamikonian | outline minors from check 2 (researcher) | Opus | — | 7 applied |
+| arius | outline check 2 | Opus | 142,441 | FIX: 1 blocking, 7 minor |
+| justin-martyr | outline check 2 | Opus | 184,649 | FIX: 1 blocking (two held Acts witnesses missed), minors |
+| baudonivia | write (fresh, heart first) | Opus | 93,101 | 327 words, grade 7.3, pass |
