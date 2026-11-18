@@ -127,6 +127,7 @@ Short witness phrases elsewhere in this outline ("with greater power than Theoph
 - WRONG "Cyril invented the phrase 'one incarnate nature'". RIGHT he believed it came from Athanasius; modern editors trace it to Apollinarius (E10). Best left to the card.
 - WRONG "Cyril rejected 'two natures' entirely". RIGHT his own letter says "the difference of the natures is not taken away by the union", and in 433 he accepted John's confession (E4; Ephesus sibling).
 - WRONG "Ephesus adopted the Twelve Chapters" as fact. RIGHT "Ephesus approved his letter"; whether it adopted the chapters is disputed (D4).
+- WRONG "approved his letter" told straight after the twelve statements, so that the letter heard is the one ending in curses. RIGHT name the letter Ephesus approved: the earlier letter to Nestorius about Mary (Q1's letter, E6). Whether Ephesus approved the twelve is disputed (D4).
 - WRONG "Cyril founded the Coptic church", "the Oriental Orthodox churches began with Cyril". RIGHT they split after Chalcedon in 451, after his death, and took his words as their measure (I1, I2).
 - WRONG "Chalcedon rejected Cyril". RIGHT "Chalcedon received his letters, and defined Christ in two natures" (I4).
 - WRONG "Cyril attended / opposed Chalcedon". RIGHT he died in 444, seven years before it (S4).
