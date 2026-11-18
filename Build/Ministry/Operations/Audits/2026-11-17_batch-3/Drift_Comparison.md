@@ -40,3 +40,7 @@ The detector finds the later ending by a later time marker in the last two parag
 ## Finding
 
 Drift is much lower than in the first twelve, and the wording shows no new formula. One move survives under the detector: the ending on a later witness, in 5 of 12, partly because writers cut dates to clear it. The detector's two date tests can be passed by dropping a date, which costs the listener information (Open-Gaps 326). Fixing the detector is a kit change, under the standard lock.
+
+## After Mark's ruling (2026-11-18)
+
+Baudonivia now ends on the funeral scene in her own book, and Alopen on Lohan and Kie-leih holding the community together; both passed their targeted check (`Ending_Check.md`). Endings on a later writer, record or institution now stand at **3 of 12** by hand (Justin, Pachomius, Wyclif), within the limit. The variety check is clear.

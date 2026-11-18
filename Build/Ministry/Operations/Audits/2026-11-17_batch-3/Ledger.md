@@ -141,3 +141,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | (3 cards) | card-check corrections | Haiku | 107,335 | applied word for word; printed wordings verified by script against their lines (two flagged by the script: XML markup and an apparatus line, both as the checker's precedent allows) |
 | chalcedon terms | blind second reading | Opus, low effort | 74,896 | "from two" and "in two natures": same |
 | (batch) | authoring finished | — | — | all twelve briefs and cards through every step, second readings on all 52 quotations (1 changed meaning, re-rendered) |
+| baudonivia, alopen | ending recast and check | Opus (writers resumed; check low effort) | ~107,600 and ~107,400 cumulative; check (count) | both PASS; later-witness endings 5 → 3 of 12 |
