@@ -112,7 +112,8 @@ Sheet references (S, M, I, K, D, Q) point to `Source_Sheet.md` in this folder. F
 
 - **Do not say:**
   - Any word in "Words to explain" used without its plain sense the first time it is heard (Mark, 2026-11-18).
-  - Do not quote "strangely warmed" (used in the Methodist Revival story; D1). Say he felt his heart warmed, in the narrator's words, unless Mark rules otherwise.
+  - Mark ruled 2026-11-18 (Decision-Log, 'Batch 5 hearts', item 7): 'strangely warmed' is not quoted again. The narrator may say he felt his heart warmed, without quotation marks and without 'strangely'.
+  - Only Q1–Q3 are quoted as quotations. Words in quotation marks in the beats are source wording: paraphrase them, or keep at most a short phrase (such as 'Bring out the minister' or 'I believe') inside the narrator's sentence.
   - Do not name the person reading Luther's preface, and do not name the building. Say "a society meeting in Aldersgate Street" (D2).
   - Say he went "very unwillingly", not that he went eagerly or by chance.
   - Do not say Wesley invented open-air preaching or began it. Whitefield preached outdoors first and called him to Bristol (M5).
@@ -126,8 +127,11 @@ Sheet references (S, M, I, K, D, Q) point to `Source_Sheet.md` in this folder. F
   - Do not say "he was made a bishop" or "he consecrated bishops". Say he ordained two preachers and set apart a fellow priest as superintendent (M15).
   - Say the bishop "advised him to go", in Wesley's own record; not that he banned or expelled him (M10).
   - Do not overstate his injuries at Wednesbury: he lost a flap of his waistcoat and some skin from one hand (M12). Do not say he was beaten unconscious.
+  - Do not say the first mob forced him to the magistrate.
+  - Do not say Nelson was converted on the spot. He says the sermon gave him hope, and peace came months later.
   - Do not say why he left Georgia beyond his own words: he left by night after the magistrates forbade it, under allegations he says he was not allowed to answer. Do not add a romance (M2).
-  - Say "more than 130,000 members in Europe and America", counted at the Conference after his death, not "at his death" or "millions" (I4).
+  - Say "more than 130,000 members in Europe and America", counted in 1791, not "at his death" or "millions" (I4).
+  - Do not mention his death, or 'after his death', before the Ending. Give the 1791 count as 'in 1791'.
   - The "best of all" words were said the day before he died, not as his last words. His last heard word was "Farewell" (M17).
   - "Reform the continent" is the American conference's wording of 1784, not Wesley's own (I3).
   - Say "nearly eighty-eight" (Lee's "not quite eighty-eight"); give no birth date or exact age.
@@ -141,5 +145,7 @@ Sheet references (S, M, I, K, D, Q) point to `Source_Sheet.md` in this folder. F
   - Charles Wesley's hymns: the Methodist Revival story tells them.
   - His reading of the *Imitation*: told in the Thomas à Kempis story (sibling).
   - Thomas Maxfield and Susanna Wesley's advice on lay preaching: only in Jackson's introduction of 1865, more than a century later (LEP 300–330); the 1744 Minutes carry his reluctance in primary words.
+  - The two magistrates, with the mob's charge that the Methodists sang psalms all day and made people rise at five (J3 5784–5794), and how a few men got him out of the Walsall crowd (J3 5843–5856): detail; the mob's force stays in beat 6.
+  - The first Conference's promise after his death, "to follow and imitate him in doctrine, discipline, and life" (MIN 33770–33777): card.
   - The details of single assaults in the 1744 riots (J3 6700–6710): reported second-hand; the riots themselves are told in beat 6, so the force is kept without the detail.
   - His marriage, Kingswood School, and the travels of the 1750s–1780s.

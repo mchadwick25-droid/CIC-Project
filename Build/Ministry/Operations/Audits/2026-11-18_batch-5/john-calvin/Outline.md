@@ -157,7 +157,7 @@ All references are to `Source_Sheet.md` in this folder (S = setting, M = life ev
   - Wrong: "He died young / worn out at 54" or any cause of death. Right: he died on 27 May 1564; give no cause (M17).
   - Wrong: "the General Council" without its plain sense. Right: "the city's assembly of citizens".
   - Wrong: "for twelve years the councils denied it". Right: the 1543 dispute was settled at once by Calvin's own account, and the right stayed disputed until 1555.
-  - Wrong: "beheaded for threatening Calvin" or "for threatening the pastors" alone.
+  - Wrong: "beheaded for threatening Calvin" or "for threatening the pastors" alone. Right: "for speaking against God, for acts against the city's government, and for threatening the pastors" (K 35265–35277).
 
 - **Leave out:**
   - The agreement with Zurich on the Lord's Supper (1549): true and held, but a side story; the tradition entry carries Zurich.
@@ -167,5 +167,6 @@ All references are to `Source_Sheet.md` in this folder (S = setting, M = life ev
   - Augustine and the quarrel over whether he taught it: a side debate.
   - Kidd's verdicts ("the only international reformer", "powerfully influenced all", "wipe out their opponents", "missionary centre"): editor's views.
   - His marriage, illnesses, the reply to Sadoleto, the Colloquies of Worms and Regensburg: side stories.
+  - The academy of 1559, with teachers of Hebrew, Greek, philosophy and theology, and Theodore Beza as its first rector (M15): true and held, but the beats are full. Do not say "to train ministers for France"; that is the editor's (M15).
   - Cyril Lucaris: on the Orthodox entries; one line on the 1672 synod is enough.
   - The oath of 1537 told by Hooker: a later, partisan witness; the 1541 oath to keep catechism and discipline is in Calvin's own farewell (M10).
