@@ -237,7 +237,6 @@
   "The council ended with a banquet for Constantine's twentieth year as emperor, gifts to each bishop by rank, and a farewell speech urging peace, Eusebius says. He claims the agreement held; the decades that followed show it did not."
  ],
  "briefReferences": [
-  "Arius, Letter to Eusebius of Nicomedia, in Theodoret I.4 (Greek, PG 82; English, npnf203): the Son has a beginning.",
   "Synodal letter to Egypt (npnf214, 6343-6347): the council's charge, that the Son is from things that are not, that \"there was a time when he was not\", and that he is \"a creature\".",
   "Eusebius of Caesarea, Life of Constantine III.4-7: strife of bishops in Egypt (npnf201, 64218-64223); the Easter quarrel, some fasting while others feasted; the letter to Alexandria failed; bishops called from all quarters, from Syria to Spain.",
   "Life of Constantine III.6-8 (npnf201, 64282-64288, 64360-64361): the public post and horses for the bishops; more than 250 bishops. Eustathius, in Theodoret I.8 (npnf203, 6387-6389), and Athanasius (npnf204, 26762-26763) give about 270 and about 300.",
@@ -253,23 +252,10 @@
   "Canons 4 and 11 (npnf214, 3115-3118, 4124-4128): how a bishop is appointed; mercy for those who fell under Licinius without compulsion.",
   "Council of Constantinople (381), canon 1, and Council of Chalcedon (451), definition (npnf214): the faith of the 318 fathers \"shall not be set aside\" and \"pre-eminent\".",
   "Council of Constantinople (381), canon 1 (npnf214, 13972-13977): every heresy anathematized, the newer ones by name.",
-  "Jerome, Dialogue against the Luciferians (npnf206): Rimini, 359.",
   "Oscar Braun, introduction to the Syriac Nicene texts (Braun 1898, 857-866): at a Persian synod under Isaac, Marutha reads the volume of the canons, and all the bishops declare under an anathema that they will accept them.",
   "African code, Carthage 419 (npnf214): Caecilian's copy read aloud; letters east for exact copies."
  ],
  "quotationOriginals": [
-  {
-   "modern": "We are persecuted because we said, 'The Son has a beginning, but God has no beginning.'",
-   "printed": "Διωχόμεθα ὅτι εἴπαμεν ᾿Αρχὴν ἔχει ὁ Υἱὸς, ὁ δὲ Θεὸς ἄναρχός ἐστι.",
-   "work": "Arius, Letter to Eusebius of Nicomedia, in Theodoret, Church History I.4, Greek, PG 82",
-   "file": "cic/texts/theodoret_opera-omnia-t3-historia-religiosa-pg82-grc-lat_migne1864.txt",
-   "lines": "70615-70616",
-   "englishPrinted": "We are persecuted, because we say that the Son has a beginning, but that God is without beginning.",
-   "englishFile": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
-   "englishLines": "6045-6046",
-   "secondReading": "same",
-   "uncertain": "Διωχόμεθα is the OCR's reading of Διωκόμεθα; footnote markers left out. The Greek εἴπαμεν is past, \"we said\"; the English has \"we say\"."
-  },
   {
    "modern": "For I count civil strife in the church of God worse than any war or fierce battle.",
    "printed": "ὡς ἔμοιγε παντὸς πολέμου xcl μάχης δεινῆς καὶ χαλεπωτέρα ἡ τῆς ἐχκχλησίας τοῦ ϑεοῦ ἐμφύλιος νενόμισται στάσις",
@@ -354,14 +340,6 @@
    "work": "Council of Chalcedon (451), definition of faith, tr. Percival",
    "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
    "lines": "20217-20220",
-   "secondReading": "same"
-  },
-  {
-   "modern": "the whole world groaned, and was astonished to find itself Arian.",
-   "printed": "The whole world groaned, and was astonished to find itself Arian.",
-   "work": "Jerome, Dialogue against the Luciferians",
-   "file": "cic/texts/npnf206_jerome-principal-works.xml",
-   "lines": "32412-32413",
    "secondReading": "same"
   }
  ]

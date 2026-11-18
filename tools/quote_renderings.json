@@ -458,19 +458,6 @@
   },
   {
    "id": "council-of-nicaea-325",
-   "quote": "We are persecuted because we said, 'The Son has a beginning, but God has no beginning.'",
-   "original": {
-    "file": "cic/texts/theodoret_opera-omnia-t3-historia-religiosa-pg82-grc-lat_migne1864.txt",
-    "lines": "70615-70616",
-    "language": "Greek"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/council-of-nicaea-325/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "council-of-nicaea-325",
    "quote": "For I count civil strife in the church of God worse than any war or fierce battle.",
    "original": {
     "file": "cic/texts/eusebius_werke-bd1-vita-constantini-oratio-ad-sanctos-grc_heikel1902.txt",
@@ -1541,19 +1528,6 @@
    "original": {
     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
     "lines": "20217-20220",
-    "language": "English"
-   },
-   "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-17_varied-batch-2/council-of-nicaea-325/Second_Readings.md",
-    "verdict": "same"
-   }
-  },
-  {
-   "id": "council-of-nicaea-325",
-   "quote": "the whole world groaned, and was astonished to find itself Arian.",
-   "original": {
-    "file": "cic/texts/npnf206_jerome-principal-works.xml",
-    "lines": "32412-32413",
     "language": "English"
    },
    "second_reading": {
