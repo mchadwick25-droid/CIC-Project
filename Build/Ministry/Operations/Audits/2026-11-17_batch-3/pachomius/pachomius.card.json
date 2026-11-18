@@ -1,0 +1,157 @@
+{
+  "otherNames": [
+    "Pachomius of Tabennisi"
+  ],
+  "knownFor": "The Egyptian monk whom Gennadius of Marseilles calls \"founder of the Egyptian monasteries\", who bound monks to a common rule in shared houses.",
+  "datesNote": "Born about 292, died 348 (George Schodde; Ernest Cushing Richardson's note to Gennadius)",
+  "placeNote": "Tabennisi, in the Thebaid of Upper Egypt",
+  "role": "Monk and founder of communal monasticism",
+  "briefLength": "about 3 minutes 10 seconds",
+  "keyWorks": [
+    {
+      "title": "The Rule of Pachomius",
+      "about": "the common life of the houses, reported by Palladius and Sozomen and surviving in several later collections, among them an Ethiopic version"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Communal monasteries bound by a shared rule, which Palladius counts at seven thousand monks under the rule in his own day.",
+      "A rule for women's houses, which Palladius and the Ethiopic version both record living across the river from the men."
+    ],
+    "remembered": [
+      "George Schodde, translating the Ethiopic rules in 1885, opens by calling Pachomius \"the father of monastic institutions.\"",
+      "Gennadius of Marseilles, continuing Jerome's On Illustrious Men, calls him \"a man endowed with apostolic grace both in teaching and in performing miracles.\""
+    ]
+  },
+  "uncertain": [
+    "No writing held here is certainly his own. George Schodde thinks the first part of the Ethiopic rules comes close to him: \"if not verbatim from his pen, are yet authentic enough for all practical purposes.\" His life and rule otherwise reach us through his Coptic and Greek Lives, through Palladius of Helenopolis, who tells them as a holy man's story, and through Sozomen, who follows Palladius.",
+    "Palladius and Sozomen say an angel gave Pachomius the rule on a tablet, and Gennadius says the rule was \"received by angelic dictation.\" Lowther Clarke, who translated Palladius, reports that the scholar Ladeuze held the Greek Lives of Pachomius more reliable than the rule, thought the angel legendary, and took the lettered groups for Palladius's own invention. Butler, another scholar Clarke cites, did not accept Ladeuze's low view of Palladius's rule and called it \"probably the most authentic epitome.\"",
+    "Palladius places Pachomius's own house at Tabennisi. Clarke notes that the head house was by then Pabau, not Tabennisi.",
+    "The rule survives in several collections that differ from one another. Schodde says the first part of the Ethiopic version is the same as the Greek form, and judged it reaches back \"almost to the days of Pachomius himself,\" while its later parts are of different origin."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Rules of Pachomius (tr. George H. Schodde, from the Ethiopic)",
+        "language": "English",
+        "file": "cic/texts/pachomius_rules-ethiopic_schodde1885.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "The Lausiac History, chapters 18 and 32 (tr. W. K. Lowther Clarke)",
+        "author": "Palladius of Helenopolis",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/palladius_lausiac-history_clarke1918.txt"
+      },
+      {
+        "title": "Ecclesiastical History, Book 3, chapter 14",
+        "author": "Sozomen",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "On Illustrious Men, chapter 7 (Gennadius's continuation)",
+        "author": "Gennadius of Marseilles",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "The Bohairic (Coptic) Life of Pachomius, in Histoire de saint Pakhôme et de ses communautés (Annales du Musée Guimet 17), tr. Émile Amélineau",
+        "author": "Anonymous, of his own communities",
+        "date": "1889",
+        "language": "French translation",
+        "file": "cic/texts/amelineau_histoire-de-saint-pakhome-annales-guimet-17_leroux1889.txt"
+      },
+      {
+        "title": "Life of Pachomius (the Greek Life, in Daniel Cardon's Latin), Acta Sanctorum, May, vol. 3",
+        "author": "Anonymous monk, called nearly contemporary by the Bollandists",
+        "date": "1866",
+        "language": "Latin translation",
+        "file": "cic/texts/acta-sanctorum_maii-tomus-3-lat-grc_palme1866.txt"
+      },
+      {
+        "title": "Preface to his Latin translation of the Rule of Pachomius (Patrologia Latina 23)",
+        "author": "Jerome",
+        "date": "1883",
+        "language": "Latin",
+        "file": "cic/texts/jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883.txt"
+      },
+      {
+        "title": "Prolegomena to Athanasius, Select Works and Letters, in Nicene and Post-Nicene Fathers, second series, vol. 4",
+        "author": "Archibald Robertson",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+      },
+      {
+        "title": "Institutes, Book 4, chapter 1 (tr. Edgar Gibson)",
+        "author": "John Cassian",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml"
+      },
+      {
+        "title": "On Illustrious Men, chapter 8 (Gennadius's continuation): Theodore",
+        "author": "Gennadius of Marseilles",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Life of Benedict of Aniane, by Ardo, and Benedict of Aniane's Concordia regularum (Patrologia Latina 103)",
+        "author": "Ardo; Benedict of Aniane",
+        "date": "1851",
+        "language": "Latin",
+        "file": "cic/texts/benedict-aniane_concordia-regularum-with-ardo-vita-pl103-lat_migne1851.txt"
+      }
+    ]
+  },
+  "briefReferences": [
+    "Bohairic Life, tr. Émile Amélineau: after the persecution ended, Constantine's call for recruits; Pachomius taken at twenty (5093-5101); the recruits jailed at Esneh and fed by men of the town, \"par amour pour le Dieu du ciel\" (5139-5146); his vow in the night to serve people all the days of his life (5147-5148, 5182-5183). His parents \"hellénisants\" (4954-4957).",
+    "Greek Life, in Daniel Cardon's Latin (Acta Sanctorum, May, vol. 3): \"Cum finem deinde accepisset persecutio\", Constantine, and the recruits at about twenty, fed by Christians (80977-80992); his vow (81009-81013); born of pagan parents (86417).",
+    "Bohairic Life: released, baptized (5240-5241); he nurses villagers through an epidemic (5283-5291); the hermit Palamon's rule \"telle que nous l'ont apprise ceux qui nous ont précédés\": half the night awake, manual work, fasting every day until evening in summer (5424-5434).",
+    "Bohairic Life: Tabennisi, \"un village désert, (situé) sur les bords du fleuve\", and the voice: build, for multitudes will come (6013-6021); the angel \"par trois fois\", with the charge to serve the human race (6246-6248), and Amélineau's note that the manuscript writes the name twice (6260). Greek Life: the voice (81345-81349) and the charge (81972-81974).",
+    "The tablet: Palladius, Lausiac History 32, tr. W. K. Lowther Clarke, the angel's brass tablet (399), with Clarke's date for Palladius of 419-420; the Bohairic Life has the angel but no tablet; the Greek Life has it only in bracketed passages its editors judged taken from Palladius (82214-82217).",
+    "Bohairic Life: his first three brothers; he does all the work and nurses them, \"des plantes nouvelles\" (6252-6299); then rules, with the same clothes and food for all (6299-6300, 6333-6336); a steward over each house (6436-6442).",
+    "Bohairic Life: no clergy in his monasteries \"à cause de l'envie et de la vaine gloire\" (6385-6391); the bishop of Denderah asks Athanasius to ordain him, and he hides (6670-6674). Greek Life: he hides \"inter Fratres\" (82514-82520).",
+    "Bohairic Life: his sister Mary comes; he sends word by the doorkeeper and does not see her (6523-6528); the brothers build her a cell \"dans le village\"; women join her; the old monk Peter is set over them, and the brothers' rules are sent to them in a book (6570-6581). Palladius 33: \"the women are on the far side of the river\" (409).",
+    "Greek Life: at the church of Latopolis (Esneh), monks and bishops question him over reading hidden things (86393-86400); a man with a sword bursts in to kill him, \"sed auxilio presentium salvavit eum Dominus\" (86463-86466).",
+    "Greek Life: after Easter a plague, \"in omnibus monasteriis centum ac plures\" dead (86510-86512, 86572-86574); the blanket (86619-86633); Petronius dies within days, and Horsiesius takes his place (86659-86672). The years: 348 by the Bollandists (86728, 86730), 346 by Archibald Robertson (npnf204 5643-5644).",
+    "Gennadius, On Illustrious Men 8: Theodore, successor to the headship, urges in his letters the return of those who broke the unity \"after the death of the Abbot\" (npnf203 42276-42286).",
+    "Palladius, Lausiac History 32: \"amounting to 7000 men\" under the rule (405).",
+    "Cassian, Institutes 4.1: \"some from that of the monks of Tabenna\" (npnf211 18521-18531).",
+    "Jerome, preface to the Rule of Pachomius (PL 23): books sent by the priest Silvanus, which had come \"Alexandria missos\"; Latins in the Thebaid houses and at Metanoia who knew neither Egyptian nor Greek; dictated in Latin from the Greek version (4335-4354); for Eustochium's sisters and his own brothers (4384-4388).",
+    "Ardo, Life of Benedict of Aniane (PL 103): the Concordia regularum, made to show \"suam ex aliorum fultam esse Regulam\", with Benedict's sentence first and the agreeing rules after (30903-30911); the Concordia's own sections \"Ex Regula sancti Pachomii\", e.g. 66976.",
+    "World census, desert monasticism: \"the monks of Egypt\"."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "They are Christian people. They treat us this way out of love for the God of heaven.",
+      "printed": "Ce sont des gens chrétiens : ils agissent ainsi avec nous, par amour pour le Dieu du ciel.",
+      "work": "Bohairic Life of Pachomius, tr. Émile Amélineau, Histoire de saint Pakhôme (Annales du Musée Guimet 17)",
+      "file": "cic/texts/amelineau_histoire-de-saint-pakhome-annales-guimet-17_leroux1889.txt",
+      "lines": "5145-5146",
+      "uncertain": "Rendered from Amélineau's French; the Coptic is in the file but its OCR cannot be read. The Greek Life has no speech here (80985-80992)."
+    },
+    {
+      "modern": "Pachomius, Pachomius, the will of God is that you serve the human race and unite them to Him.",
+      "printed": "Pakliôme, Pakhôme, Pakhôme, la volonté de Dieu est que lu serves la race humaine et que Iules unisses àLui.",
+      "work": "Bohairic Life of Pachomius, tr. Émile Amélineau, Histoire de saint Pakhôme (Annales du Musée Guimet 17)",
+      "file": "cic/texts/amelineau_histoire-de-saint-pakhome-annales-guimet-17_leroux1889.txt",
+      "lines": "6247-6248",
+      "uncertain": "The file is OCR, kept as it stands: \"Pakliôme\" is Pakhôme, \"lu\" is tu, \"Iules\" is tu les, \"àLui\" is à Lui. The Life says the angel spoke \"par trois fois\", but the manuscript writes the name twice; the third \"Pakhôme\" is Amélineau's, by his note e (6260), and the modern rendering gives the name twice. Rendered from the French; the Coptic OCR cannot be read. The Greek Life's Latin gives the same charge without the name (81972-81974)."
+    },
+    {
+      "modern": "Take this blanket away from here at once. It is not right that I should be better off in anything than the other brothers.",
+      "printed": "Istud, inquit, straguli absque mora hine aufer; non enim iequum est ut in re quapiam melius mihi sit quam Fratribus ceteris.",
+      "work": "Greek Life of Pachomius, in Daniel Cardon's Latin, Acta Sanctorum, May, vol. 3",
+      "file": "cic/texts/acta-sanctorum_maii-tomus-3-lat-grc_palme1866.txt",
+      "lines": "86630-86633",
+      "uncertain": "The file is OCR, kept as it stands: \"hine\" is hinc, \"iequum\" is aequum. \"inquit\" (he said) is the narrator's, not his words. Rendered from Cardon's Latin; the Greek is not held legibly."
+    }
+  ]
+}

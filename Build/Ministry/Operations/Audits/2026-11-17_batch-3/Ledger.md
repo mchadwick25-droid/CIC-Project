@@ -128,4 +128,5 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | council-of-chalcedon-451 | recheck 2 | Opus | 137,309 | FAIL: earlier blocking resolved except length; new: Eutyches condemnation placed before 451; "from two" not set against "in two natures"; 614 words; the must-tell list cannot fit 450, tightest ~540–560. To Mark |
 | toledo, pachomius | fixes applied (Mark's ruling) | coordinator | — | each recheck's named sentence; two factual minors; scorer and variety pass; v4 kept |
 | toledo, pachomius | final check | Opus, low effort | 86,430 | both PASS: each blocking finding resolved against its source lines; nothing else changed |
-| third-council-of-toledo-589 | card | Sonnet | (count) | additions only (briefLength, 8 quotation originals, 9 references, a source); 2 claims left in place and flagged (the emended reading; "two places damaged") |
+| third-council-of-toledo-589 | card | Sonnet | 134,161 | additions only (briefLength, 8 quotation originals, 9 references, a source); 2 claims left in place and flagged (the emended reading; "two places damaged") |
+| council-of-chalcedon-451 | fixes and cut to 560 (Mark's ruling) | Opus (same writer, resumed) | (count) | both content fixes; a new last line from Dioscorus's exile letter; 558 words; v4 kept |
