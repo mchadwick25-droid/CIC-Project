@@ -224,3 +224,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | pachomius | fixes from recheck 2 (writer) | Opus | — | 448 words, grade 7.8; birth line corrected |
 | justin-martyr | recheck 2 | Opus, medium | 107,838 | FAIL on one phrase (On that day); fix and 2 minors applied by coordinator as worded |
 | john-wyclif | recheck 2 | Opus, medium | 113,669 | FAIL on one phrase (In his words); fix and 2 minors applied by coordinator as worded |
+| pachomius | fix check | Opus, low | 97,562 | PASS |
