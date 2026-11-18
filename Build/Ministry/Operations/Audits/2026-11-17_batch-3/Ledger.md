@@ -243,3 +243,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | narsai | review 2 | Opus | 105,741 | PASS; minor 1 applied by coordinator (both cities in Turkey) |
 | alopen | card 2 | Opus | 122,198 | 1 quote replaced; references replaced; nothing wrong |
 | moses-the-black | revision (writer, from amended outline) | Opus | — | 353 words, grade 5.7 |
+| thomas-a-kempis | card 2 | Opus | (count) | 7 quotes; little Gerson carries the old passage verdict; census teaser 'most copied' to fix at census |
