@@ -47,3 +47,5 @@ Every other sentence is the approved brief's wording, unchanged.
   New: Up to about 3 minutes for a person (about 460 words), about 4 minutes 15 for a council (about 550); craft comes before time (Mark, 2026-11-18).
 - Old: Not a story whose first 150 words never look ahead to the afterlife: the approved heart
   New: Not a story that never looks ahead to the afterlife: the approved heart
+
+- Recheck fix applied verbatim, 2026-11-18: "The house, in fourth-century Pontus in what is now Turkey, was the making of Macrina," → "The house, in Pontus, in what is now Turkey, was the making of Macrina,"

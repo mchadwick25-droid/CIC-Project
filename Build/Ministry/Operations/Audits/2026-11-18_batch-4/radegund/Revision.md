@@ -52,3 +52,5 @@ Cut: "She made Agnes, a girl she had raised, its abbess." (finding 3, length).
   New: Do not hold back any part of the heart. The two hundred
 - Old: Name the revolt reading in the first minute and tell it in full later.
   New: Tell the revolt reading in full later.
+
+- Recheck fix applied verbatim, 2026-11-18: "Gregory, a bishop who knew her, says the bishop of Poitiers would not receive it." → "Gregory, a bishop who knew her, says the bishop of Poitiers would not receive the relic."

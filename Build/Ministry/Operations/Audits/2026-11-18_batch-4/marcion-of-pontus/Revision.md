@@ -50,3 +50,5 @@ Small changes to approved sentences: "At first, Tertullian says" became "At firs
 
 - Old: It does not stretch to 3: no word of his own survives, and the facts of his life are few and come only from opponents.
   New: No word of his own survives, and the facts of his life are few and come only from opponents. Up to about 3 minutes for a person (about 460 words), about 4 minutes 15 for a council (about 550); craft comes before time (Mark, 2026-11-18).
+
+- Recheck fix applied verbatim, 2026-11-18: "Marcion's gift was cast out with him." → "Marcion's gift, Tertullian says, was cast out with him."
