@@ -241,3 +241,5 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | moses-the-black | review 2 | Opus | 104,714 | REVISE: the fathers' scorn softened; his words against himself reshaped |
 | moses-the-black | outline amended from review 2 (researcher) | Opus | — | scorn and his words given exact wording; new quote 3 |
 | narsai | review 2 | Opus | 105,741 | PASS; minor 1 applied by coordinator (both cities in Turkey) |
+| alopen | card 2 | Opus | 122,198 | 1 quote replaced; references replaced; nothing wrong |
+| moses-the-black | revision (writer, from amended outline) | Opus | — | 353 words, grade 5.7 |
