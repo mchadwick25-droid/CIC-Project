@@ -4571,3 +4571,9 @@ Heard lengths: the people run from 2:07 (Baudonivia) to 3:12 (Arius). Toledo run
 **Decided (Mark, 2026-11-18: "1, keep both and link them").** Both stay as person entries, and their stories are unchanged. The typed connection "wrote her life" goes in with the connections build (Open-Gaps, "Batch 3 after the rework", 2026-11-18). Until then, each card names the other.
 
 **Passed by ear (Mark, 2026-11-18: "they all pass, finish release 51").** All twelve re-recorded pieces pass. Release 51 goes ahead: the census, map and tree pages already hold the twelve texts, cards and recordings. Promotion to live stays Mark's call, through the promotion runbook.
+
+## 2026-11-18 — Release 51: American spelling, the recordings kept
+
+**Why.** The pull request's spelling check found 17 British spellings in what it edits: favour, favoured, licence, honour, metre and dreamt. The Standard asks for American spelling outside quotations from editions. Five of them sit in recorded texts: Alopen, Arius, Baudonivia, Narsai, and Toledo, in our own English of the Latin creed line. A page plays a recording only while its stored text fingerprint matches the text.
+
+**Decided (Mark, 2026-11-18: "1").** The spellings are corrected everywhere they are ours: the five briefs, the cards, the census, the renderings list and the pages. Verbatim printed wording keeps its own spelling. The five recordings are kept, not re-recorded. Each changed word sounds the same in both spellings, so the audio already speaks the corrected text. In `cft-website/audio/tree/manifest.json`, each of the five entries' `text_sha256` and `chars` now describe the corrected text, worked out with the narration tool's own `narrationFingerprint`. The voice, model, settings, `charsSent` and request id are unchanged. No paid call was made.
