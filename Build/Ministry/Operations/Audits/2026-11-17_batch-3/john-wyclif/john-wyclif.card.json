@@ -1,236 +1,268 @@
 {
-  "name": "John Wyclif",
-  "otherNames": [
-    "John Wycliffe",
-    "John de Wycliffe",
-    "Johannes Wyclif",
-    "Wiclif",
-    "Wicleff",
-    "Wickliff"
-  ],
-  "knownFor": "Oxford doctor of theology and parish priest of Lutterworth. His teaching was denounced in papal letters of 1377 and condemned by a London synod in 1382. He denied that the bread of the Mass ceases to be bread. His followers were called Lollards, and his circle made the English Bible that bears his name.",
-  "dates": "Born in 1324, his biographers said, as Robert Vaughan, who edited his tracts in 1845, reports. Josiah Forshall and Frederic Madden, the 1850 editors of the Wycliffite Bible, report the same. Walter Shirley, who in 1858 edited the Fasciculi Zizaniorum, a Carmelite collection hostile to Wyclif, calls the year a vague conjecture. Master of Balliol College by April 1361, Shirley says. Struck by paralysis on 29 December, Shirley and Vaughan say, he died on the last day of December 1384, as Forshall and Madden date it.",
-  "place": "Born near Richmond, in Yorkshire, by Vaughan's account. Oxford, where he was master of Balliol College. Lutterworth in Leicestershire, his parish to the end, after earlier livings at Fylingham and Ludgershall. Bruges, as a royal envoy in 1374. London, for the hearing at St Paul's in 1377.",
-  "tradition": "Lollardy",
-  "role": "Oxford scholar and doctor of theology; master of Balliol College; parish priest of Lutterworth; royal envoy; writer in Latin and English",
-  "briefLength": "about 2 minutes 50 seconds",
-  "keyWorks": [
-    {
-      "title": "Trialogus",
-      "about": "a Latin dialogue. In it he calls the London synod of 1382 the friars' earthquake council, and argues that the bread of the sacrament remains. Gotthard Lechler, who edited it in 1869, holds it was not finished before 1382"
-    },
-    {
-      "title": "On the Pastoral Office (De Officio Pastorali)",
-      "about": "an English tract that F. D. Matthew, who printed it in 1880, calls undoubtedly genuine. The friars say it is heresy to write God's law in English, Wyclif writes. Christ and his apostles, he answers, taught the people in the tongue best known to them"
-    },
-    {
-      "title": "Letter to Pope Urban VI",
-      "about": "his excuse, in 1384, for not answering the pope's summons to Rome. In the Latin he counsels the pope to leave worldly lordship to the secular power. Thomas Arnold, who edited his Select English Works in 1871, calls the English form a heightened version, probably made by his followers"
-    }
-  ],
-  "legacy": {
-    "traces": [
-      "His followers were named Lollards, Vaughan writes, by clergy who wished to add to the scorn cast on them.",
-      "Forshall and Madden write that between 1382 and 1526 the versions of the Wycliffite Bible spread a great amount of scriptural truth.",
-      "Jan Hus of Prague, in a sermon of probably 1408, hoped his soul would be where Wyclif's soul rests. Herbert Workman and R. Martin Pope report it in their 1904 edition of his letters.",
-      "David Schaff, who translated Hus's book on the Church in 1915, says Hus took paragraph after paragraph from Wyclif's treatise on the same subject.",
-      "In May 1415 the Council of Constance declared him a heretic who died in heresy. It ordered his bones dug up, if they could be told from other bodies. In 1418 Pope Martin V condemned his articles again in the bull Inter cunctas."
-    ],
-    "remembered": [
-      "William Thorpe, a priest, was examined in 1407 by Thomas Arundel, archbishop of Canterbury. He told Arundel that Wyclif \"was holden of full many men, the greatest Clerk\" they then knew. Alfred Pollard, who printed the Examination in modern spelling in 1903, glosses \"Clerk\" as \"Divine\", a scholar of theology.",
-      "The Leicester chronicle under Henry Knighton's name, hostile to him, still calls him the most eminent doctor of theology in those days. In philosophy, it says, he was reckoned second to none.",
-      "Thomas Walsingham, a monk of St Albans hostile to him, calls him the devil's instrument and the church's enemy. He tells his stroke as God's judgment.",
-      "Vaughan says his teaching on the sole authority of Scripture earned him the name Gospel Doctor. Gotthard Lechler reports a manuscript of the Trialogus that calls him the gospel doctor of the English nation.",
-      "John Foxe told the story in his book of the martyrs, in Latin in 1559 and in English in 1563, his 1837 editors note. He says the bones were burned forty-one years after Wyclif's death. Yet the word of God, Foxe writes, \"they could not burn\".",
-      "Walter Shirley writes, \"If considered only as the father of English prose, the great reformer might claim more reverential treatment at our hands.\""
-    ]
+ "otherNames": [
+  "John Wycliffe",
+  "John de Wycliffe",
+  "Johannes Wyclif",
+  "Wiclif",
+  "Wicleff",
+  "Wickliff"
+ ],
+ "knownFor": "Oxford doctor of theology and parish priest of Lutterworth. His teaching was denounced in papal letters of 1377 and condemned by a London synod in 1382. He denied that the bread of the Mass ceases to be bread. His followers were called Lollards, and his circle made the English Bible that bears his name.",
+ "datesNote": "Born in 1324, his biographers said, as Robert Vaughan, who edited his tracts in 1845, reports. Josiah Forshall and Frederic Madden, the 1850 editors of the Wycliffite Bible, report the same. Walter Shirley, who in 1858 edited the Fasciculi Zizaniorum, a Carmelite collection hostile to Wyclif, calls the year a vague conjecture. Master of Balliol College by April 1361, Shirley says. Struck by paralysis on 29 December, Shirley and Vaughan say, he died on the last day of December 1384, as Forshall and Madden date it.",
+ "placeNote": "Born near Richmond, in Yorkshire, by Vaughan's account. Oxford, where he was master of Balliol College. Lutterworth in Leicestershire, his parish to the end, after earlier livings at Fylingham and Ludgershall. Bruges, as a royal envoy in 1374. London, for the hearing at St Paul's in 1377.",
+ "role": "Oxford scholar and doctor of theology; master of Balliol College; parish priest of Lutterworth; royal envoy; writer in Latin and English",
+ "keyWorks": [
+  {
+   "title": "Trialogus",
+   "about": "a Latin dialogue. In it he calls the London synod of 1382 the friars' earthquake council, and argues that the bread of the sacrament remains. Gotthard Lechler, who edited it in 1869, holds it was not finished before 1382"
   },
-  "uncertain": [
-    "Whose Bible it was. Forshall and Madden thought the New Testament probably his, from its style. An early note gives the first Old Testament translation to Nicholas Hereford, his helper. That copy breaks off in Baruch. The editors guess Hereford stopped when summoned to the synod of 1382. They think another hand finished it, not improbably Wyclif's. They call it undeniable that John Purvey, who lived with Wyclif in his later years, made the later revision. Alfred Pollard, in 1903, finds the Purvey case lamentably weak. He says Hereford's books ran as far as Daniel. Historians confess, he writes, that there is substantially no evidence the rest was Wyclif's. He thinks other disciples at Oxford more likely finished it. The Knighton chronicle, hostile, says Wyclif himself turned the Gospel into English.",
-    "How he was struck. Walter Shirley says the stroke came as he heard Mass in his parish church. Vaughan reports only that he is said to have been giving out the bread. Thomas Walsingham, hostile, says God struck him as, it was said, he meant to preach against Saint Thomas of Canterbury on his feast. Walsingham adds, from those present, that he died in despair.",
-    "When he was born. Vaughan and the 1850 editors give 1324 as his biographers' year. Shirley traces it to a vague conjecture of an earlier biographer, Lewis. F. D. Matthew, in 1880, calls the date and place alike uncertain and places Wyclif's birth about 1320. Shirley thinks Wyclif's own writings suggest a greater age.",
-    "When he received Lutterworth. Shirley, citing the patent roll for 7 April, and the 1850 editors give April 1374, before Bruges. Vaughan puts it about November 1375.",
-    "Whether he had a part in the rising of 1381. The Knighton chronicle calls John Ball, a priest among the rebels, his forerunner. The Carmelite collection says Ball confessed at St Albans to two years as Wyclif's disciple. Walsingham says many blamed the bishops' slackness toward Wyclif and his followers. Shirley says Ball confessed, or was said to have confessed. Vaughan rejects the charge that Wyclif was an agent of the rising.",
-    "Who wrote the Leicester chronicle. A manuscript title names Henry Knighton, of Leicester Abbey. Shirley calls it the so-called Knighton and pseudo-Knighton. He says its chronicler did not understand the Oxford hearings he reports.",
-    "The date and aim of the St Paul's hearing. Vaughan says the hearing was set for 19 February 1377. Shirley says Wyclif appeared on 23 February. The 1850 editors say he came to answer charges of false doctrine. Shirley holds the true aim was to humble John of Gaunt, duke of Lancaster.",
-    "When the papal letters were issued. Shirley says Pope Gregory XI issued the bulls on 30 May 1377. The 1850 editors date them 11 June. Vaughan says only that they were sent in June.",
-    "Whether he faced the synod of 1382. Shirley says he was never summoned before it. The 1850 editors report Knighton's claim that he appeared and gave a profession on the sacrament. They doubt it, since the archbishop's register does not name him.",
-    "His early Oxford years. Vaughan and the 1850 editors place him at Queen's College and Merton, and make him warden of Canterbury Hall from 1365. Shirley finds no record of his entry at Queen's. He gives the Merton fellow and the Canterbury Hall warden to another man of the same name.",
-    "When and how his bones were burned. The Council of Constance ordered them dug up in 1415. Foxe says they were burned forty-one years after his burial at Lutterworth, and the ashes thrown into the river. His heading for the decree gives A.D. 1425. In Foxe's own English, the council's decree orders the bones dug up and thrown far from any church burial. It says nothing of burning."
-  ],
-  "sources": {
-    "ownWords": [
-      {
-        "title": "Trialogus, with Lechler's Latin prolegomena",
-        "author": "John Wyclif; Gotthard Lechler (ed.)",
-        "date": "1869",
-        "language": "Latin",
-        "file": "cic/texts/wyclif_trialogus-lat_lechler1869.txt"
-      },
-      {
-        "title": "De Civili Dominio, book 1",
-        "author": "John Wyclif; Reginald Lane Poole (ed.)",
-        "date": "1885",
-        "language": "Latin",
-        "file": "cic/texts/wyclif_de-civili-dominio-liber-primus-lat_poole1885.txt"
-      },
-      {
-        "title": "De Officio Pastorali, in The English Works of Wyclif Hitherto Unprinted",
-        "author": "John Wyclif; F. D. Matthew (ed.)",
-        "date": "1880",
-        "language": "Middle English",
-        "file": "cic/texts/wyclif_english-works-hitherto-unprinted_matthew1880.txt"
-      },
-      {
-        "title": "Letter to Pope Urban VI, in Fasciculi Zizaniorum",
-        "author": "John Wyclif",
-        "date": "1858",
-        "language": "Latin",
-        "file": "cic/texts/fasciculi-zizaniorum_shirley1858.txt"
-      },
-      {
-        "title": "Tracts and Treatises of John de Wycliffe, with his Latin confession on the sacrament in Vaughan's English",
-        "author": "John Wyclif; Robert Vaughan (ed.)",
-        "date": "1845",
-        "language": "English (modernized)",
-        "file": "cic/texts/wyclif_tracts-and-treatises_vaughan1845.txt"
-      }
-    ],
-    "about": [
-      {
-        "title": "Facts and Observations concerning the Life of Wycliffe, in Tracts and Treatises",
-        "author": "Robert Vaughan",
-        "date": "1845",
-        "language": "English",
-        "file": "cic/texts/wyclif_tracts-and-treatises_vaughan1845.txt"
-      },
-      {
-        "title": "Introduction to Fasciculi Zizaniorum, and the Carmelite collection's own Latin narrative",
-        "author": "Walter Waddington Shirley (ed.); anonymous Carmelite compiler",
-        "date": "1858",
-        "language": "English and Latin",
-        "file": "cic/texts/fasciculi-zizaniorum_shirley1858.txt"
-      },
-      {
-        "title": "Preface to the Wycliffite Bible",
-        "author": "Josiah Forshall and Frederic Madden",
-        "date": "1850",
-        "language": "English",
-        "file": "cic/texts/wycliffite-bible_forshall-madden1850.txt"
-      },
-      {
-        "title": "Introduction, and the Examination of William Thorpe, in Fifteenth Century Prose and Verse",
-        "author": "Alfred W. Pollard (ed.); William Thorpe",
-        "date": "1903",
-        "language": "English and Middle English (modernized)",
-        "file": "cic/texts/pollard_fifteenth-century-prose-and-verse_1903.txt"
-      },
-      {
-        "title": "Chronicon, volume 2",
-        "author": "Henry Knighton; Joseph Rawson Lumby (ed.)",
-        "date": "1895",
-        "language": "Latin",
-        "file": "cic/texts/knighton_chronicon-v2-lat_lumby1895.txt"
-      },
-      {
-        "title": "Historia Anglicana, volume 2",
-        "author": "Thomas Walsingham; Henry Thomas Riley (ed.)",
-        "date": "1863",
-        "language": "Latin",
-        "file": "cic/texts/walsingham_historia-anglicana-v2-lat_riley1863.txt"
-      },
-      {
-        "title": "Select English Works of John Wyclif, volume 3, Arnold's headnote to the letter to Pope Urban",
-        "author": "Thomas Arnold (ed.)",
-        "date": "1871",
-        "language": "English",
-        "file": "cic/texts/wyclif_select-english-works-v3_arnold1871.txt"
-      },
-      {
-        "title": "The Letters of John Hus, with the editors' notes",
-        "author": "Herbert B. Workman and R. Martin Pope",
-        "date": "1904",
-        "language": "English",
-        "file": "cic/texts/hus_letters_workman-pope1904.txt"
-      },
-      {
-        "title": "The Church, by John Huss, translator's introduction",
-        "author": "David S. Schaff",
-        "date": "1915",
-        "language": "English",
-        "file": "cic/texts/hus_de-ecclesia-the-church_schaff1915.txt"
-      },
-      {
-        "title": "Acts of the Council of Constance, session of 4 May 1415, in Mansi, volume 27",
-        "author": "Giovanni Domenico Mansi (ed.)",
-        "date": "1902 (facsimile of the 1784 edition)",
-        "language": "Latin",
-        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902.txt"
-      },
-      {
-        "title": "Martin V, bull Inter cunctas, 22 February 1418, in Mirbt's Quellen zur Geschichte des Papsttums",
-        "author": "Carl Mirbt (ed.)",
-        "date": "1911",
-        "language": "Latin and German",
-        "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt"
-      },
-      {
-        "title": "Acts and Monuments, volume 3",
-        "author": "John Foxe",
-        "date": "1837",
-        "language": "English",
-        "file": "cic/texts/foxe_acts-and-monuments-v3_cattley-townsend1837.txt"
-      },
-      {
-        "title": "The English Works of Wyclif Hitherto Unprinted, introduction",
-        "author": "F. D. Matthew",
-        "date": "1880",
-        "language": "English",
-        "file": "cic/texts/wyclif_english-works-hitherto-unprinted_matthew1880.txt"
-      },
-      {
-        "title": "Documenta Mag. Joannis Hus: Peter of Mladoňovice's account of Hus's hearing at Constance, 7 June 1415",
-        "author": "Peter of Mladoňovice; František Palacký (ed.)",
-        "date": "1869",
-        "language": "Latin and Czech",
-        "file": "cic/texts/palacky_documenta-mag-joannis-hus-lat-ces_1869.txt"
-      },
-      {
-        "title": "Annales ecclesiastici, volume 28 (1424-1453): Martin V's letter to the bishop of Lincoln, December 1427",
-        "author": "Odoricus Raynaldus; Augustin Theiner (ed.)",
-        "date": "1874",
-        "language": "Latin",
-        "file": "cic/texts/raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt"
-      }
-    ]
+  {
+   "title": "On the Pastoral Office (De Officio Pastorali)",
+   "about": "an English tract that F. D. Matthew, who printed it in 1880, calls undoubtedly genuine. The friars say it is heresy to write God's law in English, Wyclif writes. Christ and his apostles, he answers, taught the people in the tongue best known to them"
   },
-  "briefReferences": [
-    "Fasciculi Zizaniorum, the Carmelite collection hostile to him: the Oxford chancellor's ban on his teaching about the bread, read out in the Augustinian schools while he sat in the master's chair arguing the opposite; he was shaken, but said no one could overturn his view.",
-    "Fasciculi Zizaniorum, the chancellor's mandate: the church's teaching that the bread and wine are changed in substance and only their appearance remains, and Wyclif's that the bread's substance really remains.",
-    "Fasciculi Zizaniorum, his Confession: Christ's body truly and really is the sacramental bread, but he dares not say it is \"essentialiter, substantialiter, corporaliter\" that bread.",
-    "Walter Shirley's introduction to the Fasciculi Zizaniorum: he wanted the clergy back in apostolic poverty; the London council of 1382 condemned twenty-four conclusions from his writings, and he was banished from the university; his failing strength unequal to the journey to Rome; the stroke at Mass on 29 December 1384 and his death on the 31st; no friendly hand left any record of his life and death.",
-    "Gotthard Lechler, prolegomena to the Trialogus: the earthquake that shook London as the council of May 1382 met.",
-    "Letter to Pope Urban VI, 1384: he would humbly have come before the pope, but God compelled him otherwise.",
-    "Forshall and Madden, preface to the Wycliffite Bible: Lutterworth his parish; an early note gives the first Old Testament translation to Nicholas Hereford; his death on the last day of December 1384.",
-    "Alfred Pollard, 1903: substantially no evidence that the rest of the translation was Wyclif's.",
-    "De Officio Pastorali, a tract printed under his name by F. D. Matthew: Christ and his apostles taught the people in the tongue best known to them.",
-    "The Leicester chronicle under Henry Knighton's name, hostile: the most eminent doctor of theology in those days; he put the Gospel into English, open to lay people and women who can read, so that its pearl is trampled by pigs.",
-    "The Examination of William Thorpe, 1407, ed. Pollard: many who talked with Wyclif wrote his teaching down and ruled their lives by it, and full many men and women hold it still.",
-    "David Schaff, introduction to Hus's The Church: Hus took paragraph after paragraph from Wyclif's treatise on the Church.",
-    "Mansi, vol. 27, Council of Constance, session of 4 May 1415: Wyclif a notorious heretic who died in heresy; his bones to be dug up.",
-    "Raynaldus, Annales, vol. 28: Martin V orders the bishop of Lincoln to dig up the bones and burn them in public.",
-    "Peter of Mladoňovice's account, ed. Palacký: at his hearing of 7 June 1415 Hus says he hopes his soul will be where Wyclif's is; the council mocks him, shaking their heads.",
-    "World census, Lollardy: his tradition."
+  {
+   "title": "Letter to Pope Urban VI",
+   "about": "his excuse, in 1384, for not answering the pope's summons to Rome. In the Latin he counsels the pope to leave worldly lordship to the secular power. Thomas Arnold, who edited his Select English Works in 1871, calls the English form a heightened version, probably made by his followers"
+  }
+ ],
+ "legacy": {
+  "traces": [
+   "His followers were named Lollards, Vaughan writes, by clergy who wished to add to the scorn cast on them.",
+   "Forshall and Madden write that between 1382 and 1526 the versions of the Wycliffite Bible spread a great amount of scriptural truth.",
+   "Jan Hus of Prague, in a sermon of probably 1408, hoped his soul would be where Wyclif's soul rests. Herbert Workman and R. Martin Pope report it in their 1904 edition of his letters.",
+   "David Schaff, who translated Hus's book on the Church in 1915, says Hus took paragraph after paragraph from Wyclif's treatise on the same subject.",
+   "In May 1415 the Council of Constance declared him a heretic who died in heresy. It ordered his bones dug up, if they could be told from other bodies. In 1418 Pope Martin V condemned his articles again in the bull Inter cunctas."
   ],
-  "quotationOriginals": [
-    {
-      "modern": "I do not know where John Wyclif's soul is. I hope that he is saved, and I fear that he may be damned. Yet in hope I would wish my soul to be where John Wyclif's soul is.",
-      "printed": "Nescio, ubi est anima ipsius Joan. W.; spero, quod sit salvatus et timeo, ne sit damnatus; vellem tamen in spe, quod anima mea esset ibi, ubi est anima Joannis W.",
-      "work": "Peter of Mladoňovice, account of Hus's hearing at Constance, 7 June 1415, in Documenta Mag. Joannis Hus, ed. František Palacký",
-      "file": "cic/texts/palacky_documenta-mag-joannis-hus-lat-ces_1869.txt",
-      "lines": "15246-15249",
-      "secondReading": "same",
-      "uncertain": "The record abbreviates the name, \"Joan. W.\" and \"Joannis W.\"; the second reading keeps \"John W.\", and the brief gives the full name, which the passage names just before (\"Joannis Wiclef\", 15242-15243). Hus says he first spoke these words twelve years before (15243-15245)."
-    }
+  "remembered": [
+   "William Thorpe, a priest, was examined in 1407 by Thomas Arundel, archbishop of Canterbury. He told Arundel that Wyclif \"was holden of full many men, the greatest Clerk\" they then knew. Alfred Pollard, who printed the Examination in modern spelling in 1903, glosses \"Clerk\" as \"Divine\", a scholar of theology.",
+   "The Leicester chronicle under Henry Knighton's name, hostile to him, still calls him the most eminent doctor of theology in those days. In philosophy, it says, he was reckoned second to none.",
+   "Thomas Walsingham, a monk of St Albans hostile to him, calls him the devil's instrument and the church's enemy. He tells his stroke as God's judgment.",
+   "Vaughan says his teaching on the sole authority of Scripture earned him the name Gospel Doctor. Gotthard Lechler reports a manuscript of the Trialogus that calls him the gospel doctor of the English nation.",
+   "John Foxe told the story in his book of the martyrs, in Latin in 1559 and in English in 1563, his 1837 editors note. He says the bones were burned forty-one years after Wyclif's death. Yet the word of God, Foxe writes, \"they could not burn\".",
+   "Walter Shirley writes, \"If considered only as the father of English prose, the great reformer might claim more reverential treatment at our hands.\""
   ]
+ },
+ "uncertain": [
+  "Whose Bible it was. Forshall and Madden thought the New Testament probably his, from its style. An early note gives the first Old Testament translation to Nicholas Hereford, his helper. That copy breaks off in Baruch. The editors guess Hereford stopped when summoned to the synod of 1382. They think another hand finished it, not improbably Wyclif's. They call it undeniable that John Purvey, who lived with Wyclif in his later years, made the later revision. Alfred Pollard, in 1903, finds the Purvey case lamentably weak. He says Hereford's books ran as far as Daniel. Historians confess, he writes, that there is substantially no evidence the rest was Wyclif's. He thinks other disciples at Oxford more likely finished it. The Knighton chronicle, hostile, says Wyclif himself turned the Gospel into English.",
+  "How he was struck. Walter Shirley says the stroke came as he heard Mass in his parish church. Vaughan reports only that he is said to have been giving out the bread. Thomas Walsingham, hostile, says God struck him as, it was said, he meant to preach against Saint Thomas of Canterbury on his feast. Walsingham adds, from those present, that he died in despair.",
+  "When he was born. Vaughan and the 1850 editors give 1324 as his biographers' year. Shirley traces it to a vague conjecture of an earlier biographer, Lewis. F. D. Matthew, in 1880, calls the date and place alike uncertain and places Wyclif's birth about 1320. Shirley thinks Wyclif's own writings suggest a greater age.",
+  "When he received Lutterworth. Shirley, citing the patent roll for 7 April, and the 1850 editors give April 1374, before Bruges. Vaughan puts it about November 1375.",
+  "Whether he had a part in the rising of 1381. The Knighton chronicle calls John Ball, a priest among the rebels, his forerunner. The Carmelite collection says Ball confessed at St Albans to two years as Wyclif's disciple. Walsingham says many blamed the bishops' slackness toward Wyclif and his followers. Shirley says Ball confessed, or was said to have confessed. Vaughan rejects the charge that Wyclif was an agent of the rising.",
+  "Who wrote the Leicester chronicle. A manuscript title names Henry Knighton, of Leicester Abbey. Shirley calls it the so-called Knighton and pseudo-Knighton. He says its chronicler did not understand the Oxford hearings he reports.",
+  "The date and aim of the St Paul's hearing. Vaughan says the hearing was set for 19 February 1377. Shirley says Wyclif appeared on 23 February. The 1850 editors say he came to answer charges of false doctrine. Shirley holds the true aim was to humble John of Gaunt, duke of Lancaster.",
+  "When the papal letters were issued. Shirley says Pope Gregory XI issued the bulls on 30 May 1377. The 1850 editors date them 11 June. Vaughan says only that they were sent in June.",
+  "Whether he faced the synod of 1382. Shirley says he was never summoned before it. The 1850 editors report Knighton's claim that he appeared and gave a profession on the sacrament. They doubt it, since the archbishop's register does not name him.",
+  "His early Oxford years. Vaughan and the 1850 editors place him at Queen's College and Merton, and make him warden of Canterbury Hall from 1365. Shirley finds no record of his entry at Queen's. He gives the Merton fellow and the Canterbury Hall warden to another man of the same name.",
+  "When and how his bones were burned. The Council of Constance ordered them dug up in 1415. Foxe says they were burned forty-one years after his burial at Lutterworth, and the ashes thrown into the river. His heading for the decree gives A.D. 1425. In Foxe's own English, the council's decree orders the bones dug up and thrown far from any church burial. It says nothing of burning."
+ ],
+ "sources": {
+  "ownWords": [
+   {
+    "title": "Trialogus, with Lechler's Latin prolegomena",
+    "author": "John Wyclif; Gotthard Lechler (ed.)",
+    "date": "1869",
+    "language": "Latin",
+    "file": "cic/texts/wyclif_trialogus-lat_lechler1869.txt"
+   },
+   {
+    "title": "De Civili Dominio, book 1",
+    "author": "John Wyclif; Reginald Lane Poole (ed.)",
+    "date": "1885",
+    "language": "Latin",
+    "file": "cic/texts/wyclif_de-civili-dominio-liber-primus-lat_poole1885.txt"
+   },
+   {
+    "title": "De Officio Pastorali, in The English Works of Wyclif Hitherto Unprinted",
+    "author": "John Wyclif; F. D. Matthew (ed.)",
+    "date": "1880",
+    "language": "Middle English",
+    "file": "cic/texts/wyclif_english-works-hitherto-unprinted_matthew1880.txt"
+   },
+   {
+    "title": "Letter to Pope Urban VI, in Fasciculi Zizaniorum",
+    "author": "John Wyclif",
+    "date": "1858",
+    "language": "Latin",
+    "file": "cic/texts/fasciculi-zizaniorum_shirley1858.txt"
+   },
+   {
+    "title": "Tracts and Treatises of John de Wycliffe, with his Latin confession on the sacrament in Vaughan's English",
+    "author": "John Wyclif; Robert Vaughan (ed.)",
+    "date": "1845",
+    "language": "English (modernized)",
+    "file": "cic/texts/wyclif_tracts-and-treatises_vaughan1845.txt"
+   }
+  ],
+  "about": [
+   {
+    "title": "Facts and Observations concerning the Life of Wycliffe, in Tracts and Treatises",
+    "author": "Robert Vaughan",
+    "date": "1845",
+    "language": "English",
+    "file": "cic/texts/wyclif_tracts-and-treatises_vaughan1845.txt"
+   },
+   {
+    "title": "Introduction to Fasciculi Zizaniorum, and the Carmelite collection's own Latin narrative",
+    "author": "Walter Waddington Shirley (ed.); anonymous Carmelite compiler",
+    "date": "1858",
+    "language": "English and Latin",
+    "file": "cic/texts/fasciculi-zizaniorum_shirley1858.txt"
+   },
+   {
+    "title": "Preface to the Wycliffite Bible",
+    "author": "Josiah Forshall and Frederic Madden",
+    "date": "1850",
+    "language": "English",
+    "file": "cic/texts/wycliffite-bible_forshall-madden1850.txt"
+   },
+   {
+    "title": "Introduction, and the Examination of William Thorpe, in Fifteenth Century Prose and Verse",
+    "author": "Alfred W. Pollard (ed.); William Thorpe",
+    "date": "1903",
+    "language": "English and Middle English (modernized)",
+    "file": "cic/texts/pollard_fifteenth-century-prose-and-verse_1903.txt"
+   },
+   {
+    "title": "Chronicon, volume 2",
+    "author": "Henry Knighton; Joseph Rawson Lumby (ed.)",
+    "date": "1895",
+    "language": "Latin",
+    "file": "cic/texts/knighton_chronicon-v2-lat_lumby1895.txt"
+   },
+   {
+    "title": "Historia Anglicana, volume 2",
+    "author": "Thomas Walsingham; Henry Thomas Riley (ed.)",
+    "date": "1863",
+    "language": "Latin",
+    "file": "cic/texts/walsingham_historia-anglicana-v2-lat_riley1863.txt"
+   },
+   {
+    "title": "Select English Works of John Wyclif, volume 3, Arnold's headnote to the letter to Pope Urban",
+    "author": "Thomas Arnold (ed.)",
+    "date": "1871",
+    "language": "English",
+    "file": "cic/texts/wyclif_select-english-works-v3_arnold1871.txt"
+   },
+   {
+    "title": "The Letters of John Hus, with the editors' notes",
+    "author": "Herbert B. Workman and R. Martin Pope",
+    "date": "1904",
+    "language": "English",
+    "file": "cic/texts/hus_letters_workman-pope1904.txt"
+   },
+   {
+    "title": "The Church, by John Huss, translator's introduction",
+    "author": "David S. Schaff",
+    "date": "1915",
+    "language": "English",
+    "file": "cic/texts/hus_de-ecclesia-the-church_schaff1915.txt"
+   },
+   {
+    "title": "Acts of the Council of Constance, session of 4 May 1415, in Mansi, volume 27",
+    "author": "Giovanni Domenico Mansi (ed.)",
+    "date": "1902 (facsimile of the 1784 edition)",
+    "language": "Latin",
+    "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902.txt"
+   },
+   {
+    "title": "Martin V, bull Inter cunctas, 22 February 1418, in Mirbt's Quellen zur Geschichte des Papsttums",
+    "author": "Carl Mirbt (ed.)",
+    "date": "1911",
+    "language": "Latin and German",
+    "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt"
+   },
+   {
+    "title": "Acts and Monuments, volume 3",
+    "author": "John Foxe",
+    "date": "1837",
+    "language": "English",
+    "file": "cic/texts/foxe_acts-and-monuments-v3_cattley-townsend1837.txt"
+   },
+   {
+    "title": "The English Works of Wyclif Hitherto Unprinted, introduction",
+    "author": "F. D. Matthew",
+    "date": "1880",
+    "language": "English",
+    "file": "cic/texts/wyclif_english-works-hitherto-unprinted_matthew1880.txt"
+   },
+   {
+    "title": "Documenta Mag. Joannis Hus: Peter of Mladoňovice's account of Hus's hearing at Constance, 7 June 1415",
+    "author": "Peter of Mladoňovice; František Palacký (ed.)",
+    "date": "1869",
+    "language": "Latin and Czech",
+    "file": "cic/texts/palacky_documenta-mag-joannis-hus-lat-ces_1869.txt"
+   },
+   {
+    "title": "Annales ecclesiastici, volume 28 (1424-1453): Martin V's letter to the bishop of Lincoln, December 1427",
+    "author": "Odoricus Raynaldus; Augustin Theiner (ed.)",
+    "date": "1874",
+    "language": "Latin",
+    "file": "cic/texts/raynaldus_annales-ecclesiastici-tomus28-1424-1453-lat_theiner1874.txt"
+   },
+   {
+    "title": "Acts and Monuments, volume 4: Bishop Longland's registers of 1521, as Foxe extracts them",
+    "author": "John Foxe",
+    "date": "1837",
+    "language": "English",
+    "file": "cic/texts/foxe_acts-and-monuments-v4_cattley-townsend1837.txt"
+   },
+   {
+    "title": "Doctrinal Treatises, with Walter's biographical notice and Tyndale's Epistle to the Reader of the 1526 New Testament",
+    "author": "William Tyndale; Henry Walter (ed.)",
+    "date": "1848",
+    "language": "English",
+    "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt"
+   }
+  ]
+ },
+ "briefReferences": [
+  "De Officio Pastorali, chapter 15, an English tract printed under his name by F. D. Matthew (wyclif_english-works-hitherto-unprinted_matthew1880.txt 35750-35755, 35791-35795): friars say it is heresy to write God's law in English and make it known to lay people; Christ and his apostles taught the people in the tongue best known to them. Matthew calls the tract undoubtedly genuine (2866-2867).",
+  "The Leicester chronicle under Henry Knighton's name, hostile (knighton_chronicon-v2-lat_lumby1895.txt 16948-16969): Wyclif put the Gospel from Latin into English, more open to lay people and to women who can read than to learned clergy, so that its pearl is scattered and trampled by pigs. Forshall and Madden date the passage probably before 1400 (wycliffite-bible_forshall-madden1850.txt 870-871).",
+  "Forshall and Madden, preface to the Wycliffite Bible (wycliffite-bible_forshall-madden1850.txt 69-74): the earliest English versions to take in any large part of Scripture; 2317-2320: the New Testament might probably be Wyclif's own work.",
+  "Alfred Pollard, 1903 (pollard_fifteenth-century-prose-and-verse_1903.txt 840-846, 967-975): substantially no evidence that the rest of the translation was Wyclif's; more likely his disciples at Oxford made it, urged by his wish.",
+  "Forshall and Madden (wycliffite-bible_forshall-madden1850.txt 979-981): presented to the rectory of Lutterworth in Leicestershire in April 1374; 1025-1031: he worked on there until his death on the last day of December 1384.",
+  "Walter Shirley's introduction to the Fasciculi Zizaniorum (fasciculi-zizaniorum_shirley1858.txt 1635-1637): he dreamt of restoring the clergy to apostolic poverty; 2606-2608: in the spring of 1381 he put out twelve propositions denying the change of the bread's substance; 2696-2706: the London council of 1382 condemned twenty-four conclusions from his writings, and he was banished from the university; 2748-2751: the stroke of 29 December 1384 and his death on the 31st.",
+  "Letter to Pope Urban VI, 1384, in the Fasciculi Zizaniorum (fasciculi-zizaniorum_shirley1858.txt 27415-27421): he counsels the pope to leave temporal lordship to the secular arm, as Christ did through his apostles.",
+  "Fasciculi Zizaniorum, the Oxford chancellor's mandate (fasciculi-zizaniorum_shirley1858.txt 11404-11408, 11450-11457): the church's teaching that at the priest's words the bread and wine change in substance and only their appearance remains, and Wyclif's that the bread's substance remains; 11579-11585: the ban read out in the Augustinian schools while he sat in the master's chair arguing the opposite.",
+  "Fasciculi Zizaniorum, his Confession (fasciculi-zizaniorum_shirley1858.txt 11669-11684): Christ's body truly and really is the sacramental bread, though he dares not say it is that bread essentially, substantially or bodily.",
+  "Gotthard Lechler, prolegomena to the Trialogus (wyclif_trialogus-lat_lechler1869.txt 694-700): the earthquake that shook London as the council of May 1382 met.",
+  "Robert Vaughan, 1845 (wyclif_tracts-and-treatises_vaughan1845.txt 4033-4034): his followers named Lollards to add to the scorn cast on them.",
+  "Archbishop Thomas Arundel's constitutions, in Foxe's English (foxe_acts-and-monuments-v3_cattley-townsend1837.txt 20044-20055): no one to translate Scripture into English, or read a translation set forth in the time of John Wyclif or since, until the bishop of the place allows it.",
+  "Henry Walter, editor of Tyndale, 1848 (tyndale_doctrinal-treatises_walter1848.txt 673-679): Wyclif's version was never printed and out of reach of the poor, and those examined for it rarely owned more than a single gospel or one or two epistles.",
+  "Bishop Longland's registers of 1521, as Foxe extracts them (foxe_acts-and-monuments-v4_cattley-townsend1837.txt 17982-17988): John Grosar examined for a book of the Gospels in English, received from a priest and lent on; 17458-17461: old Durdant of Iver sent a boy out of the house before reciting passages of Paul's letters and the Gospels to his children and their wives.",
+  "Tyndale, Epistle to the Reader of the 1526 New Testament (tyndale_doctrinal-treatises_walter1848.txt 25528-25536): he had no one to follow and no help from the English of anyone who had translated Scripture before him. Walter, editor (692-695): Tyndale made a version of his own, from tongues Wyclif could not read.",
+  "Mansi, vol. 27, Council of Constance, session of 4 May 1415 (mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902.txt 65527-65560): Wyclif a notorious heretic who died in heresy; his bones to be dug up.",
+  "David Schaff, introduction to Hus's The Church (hus_de-ecclesia-the-church_schaff1915.txt 1509-1516): Hus took paragraph after paragraph from Wyclif's treatise on the Church.",
+  "Peter of Mladoňovice's account, ed. Palacký (palacky_documenta-mag-joannis-hus-lat-ces_1869.txt 15246-15249): at his hearing of 7 June 1415 Hus says he would wish his soul to be where Wyclif's is.",
+  "World census, Lollardy: his tradition."
+ ],
+ "quotationOriginals": [
+  {
+   "modern": "So Christ and his apostles taught the people in the tongue the people knew best. Why should people not do the same now?",
+   "printed": "& j^us crist & his apostlis taujtew fe puple in fat tuwge fat was moost knoAvuw to J^e puple ; why shuldew not mew do non so ?",
+   "work": "De Officio Pastorali, chapter 15, in The English Works of Wyclif Hitherto Unprinted, ed. F. D. Matthew",
+   "file": "cic/texts/wyclif_english-works-hitherto-unprinted_matthew1880.txt",
+   "lines": "35791-35795",
+   "secondReading": "same",
+   "uncertain": "The printed words are the scan's, which garbles the Middle English; read, they are: & þus crist & his apostlis tauȝten þe puple in þat tunge þat was moost knowun to þe puple; why shulden not men do now so? Men in the question means people in general. Authorship of the English tracts rests on editors: Matthew calls this one undoubtedly genuine (2866-2867), and Shirley says an accurate list of his English tracts cannot yet be made (fasciculi-zizaniorum_shirley1858.txt 2612-2616); the brief says the tract goes under his name."
+  },
+  {
+   "modern": "And so the Gospel's pearl is scattered and trampled by pigs.",
+   "printed": "et sic evangelica margarita spargitur et a porcis conculeatur",
+   "work": "Chronicon of Henry Knighton, volume 2, ed. Joseph Rawson Lumby",
+   "file": "cic/texts/knighton_chronicon-v2-lat_lumby1895.txt",
+   "lines": "16968-16969",
+   "secondReading": "same",
+   "uncertain": "A hostile witness. A manuscript title names Henry Knighton; Forshall and Madden date the passage only probably before 1400 (wycliffite-bible_forshall-madden1850.txt 870-871), so the brief calls him a chronicler of his own day. The scan reads conculeatur for conculcatur, trampled."
+  },
+  {
+   "modern": "Yet in hope I would wish my soul to be where John Wyclif's soul is.",
+   "printed": "vellem tamen in spe, quod anima mea esset ibi, ubi est anima Joannis W.",
+   "work": "Peter of Mladoňovice, account of Hus's hearing at Constance, 7 June 1415, in Documenta Mag. Joannis Hus, ed. František Palacký",
+   "file": "cic/texts/palacky_documenta-mag-joannis-hus-lat-ces_1869.txt",
+   "lines": "15248-15249",
+   "secondReading": "same",
+   "uncertain": "The record abbreviates the name, \"Joannis W.\"; the brief gives the full name, which the passage names just before (\"Joannis Wiclef\", 15242-15243). Hus says he first spoke these words twelve years before (15243-15245)."
+  }
+ ]
 }

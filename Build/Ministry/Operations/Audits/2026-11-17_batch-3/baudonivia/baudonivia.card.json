@@ -7,7 +7,6 @@
   "datesNote": "No source used here gives a year of her life. Bruno Krusch dates her book soon after 600; O. M. Dalton puts it in the early years of the seventh century",
   "placeNote": "The monastery of the Holy Cross, Poitiers",
   "role": "Nun; writer of Radegund's Life",
-  "briefLength": "about 2 minutes 10 seconds",
   "keyWorks": [
     {
       "title": "Life of Radegund, Book II",
@@ -86,25 +85,30 @@
     ]
   },
   "briefReferences": [
-    "Life of Radegund, Book II, prologue (ed. Bruno Krusch, MGH SRM 2): the abbess Dedimia and the whole community tell her to write; the task as impossible as touching the sky with a finger; less learned, more devoted; her style not polished, but rustic; her aim to tell not what Fortunatus wrote but what he passed over for length.",
-    "Fortunatus, prologue to the Life of Hilary (ed. Bruno Krusch, MGH AA 4): touching the sky with a finger, the phrase she borrowed.",
-    "Book II, ch. 2: the shrine of the Franks burned on the queen's order, the Franks with swords and clubs, the queen unmoved on her horse.",
-    "Book II, ch. 5: Radegund, wife of King Chlothar, builds the monastery at Poitiers.",
-    "Book II, ch. 10: the same letters to one king as to the other, that they not make war.",
-    "Book II, ch. 16: Helena and the wood of the Cross; the wood sought from the emperor with King Sigibert's leave; kept out of the city by the enemy of mankind through his agents, no one named; brought in at last when the king sent to Eufronius, bishop of Tours.",
-    "Book II, ch. 21: her death, her eyes were closed, and ours were darkened.",
-    "Book II, ch. 24: the body carried under the wall, the community weeping from the wall, since no woman of the house went out of its gate.",
-    "Bruno Krusch, introduction to the Lives of Radegund (MGH SRM 2, 1888): Radegund's death on 13 August 587; Fortunatus's Life without the coming of the Cross or her death; her book written after 600, not much after; her very rough style; you will pardon good Baudonivia, who confesses her weakness; Hildebert of Le Mans follows Fortunatus and adds some miracles the nun recorded.",
-    "Bruno Krusch, proemium to the prose works of Fortunatus (MGH AA 4, 1885): her book added a little after 600; in most manuscripts Fortunatus's book and hers are joined, hers following as the second."
+    "Life of Radegund, Book II, prologue (ed. Bruno Krusch, MGH SRM 2, lines 29433-29440): addressed to the abbess Dedimia and the whole community, who bid her write the life of Radegund, which they know best.",
+    "Book II, prologue (MGH SRM 2, lines 29493-29496): she will tell not what Fortunatus wrote but what he passed over for length.",
+    "Book II, ch. 2 (MGH SRM 2, lines 29663-29675): told as what we heard; the shrine of the Franks burned on the queen's order, the Franks with swords and clubs, the queen unmoved on her horse until it burned.",
+    "Book II, ch. 3 (MGH SRM 2, line 29677): she left the earthly king.",
+    "Book II, ch. 5 (MGH SRM 2, lines 29743-29745): Radegund builds the monastery at Poitiers.",
+    "Book II, ch. 8 (MGH SRM 2, lines 29900-29903): Radegund's words to the community, I chose you, daughters, and the new planting.",
+    "Book II, ch. 10 (MGH SRM 2, lines 29987-29995): the same letters to each king, that they make peace and the homeland not perish; letters to their nobles; the community taught to pray and keep vigils for the kings.",
+    "Book II, ch. 16 (MGH SRM 2, lines 30238-30249): Helena and the finding of the Cross; what she did in the land of the East, blessed Radegund did in Gaul; the wood sought from the emperor, with King Sigibert's leave, for the safety of the whole homeland.",
+    "Book II, ch. 16 (MGH SRM 2, lines 30256-30262): the relic kept out of the city by the enemy of mankind through his agents, no one named.",
+    "Book II, ch. 16 (MGH SRM 2, lines 30305-30318): Radegund's fasting, vigils and tears, the community mourning and weeping every day; the king sends to Eufronius, bishop of Tours, to bring the relic into the monastery; left there for the honour of the place and the saving of the people.",
+    "Book II, ch. 21 (MGH SRM 2, lines 30516-30522): the nuns round her bed crying that their light is taken; her eyes were closed, and ours were darkened.",
+    "Book II, ch. 24 (MGH SRM 2, lines 30581-30584): the body carried under the wall, the community weeping from the wall, since no woman of the house went out of its gate.",
+    "Bruno Krusch, introduction to the Lives of Radegund (MGH SRM 2, 1888, lines 28153, 28170-28171, 28186-28193): the monastery named for the Holy Cross; Radegund's death on 13 August 587; her book written after 600, not much after.",
+    "Bruno Krusch, proemium to the prose works of Fortunatus (MGH AA 4, 1885, lines 41895-41899, 41918-41919): Radegund taken in marriage by King Chlothar I; Baudonivia's book added a little after 600; in most manuscripts Fortunatus's book and hers are joined, hers following as the second."
   ],
   "quotationOriginals": [
     {
-      "modern": "I ask your prayer to help me. I am less learned, more devoted.",
-      "printed": "vestrn* rae oratione iuvari'* peto, quae sum minus docta, plus devota.",
-      "work": "Baudonivia, Life of Radegund, Book II, prologue, ed. Bruno Krusch",
+      "modern": "I chose you, daughters. You are my light, my life, my rest and all my happiness. You are the new planting.",
+      "printed": "Vos elegi filias, vos, raea lumina, vos, mea vita, vos, mea requies totaque felici- > 'tas, vos, novella plantatio.",
+      "work": "Baudonivia, Life of Radegund, Book II, ch. 8, ed. Bruno Krusch",
       "file": "cic/texts/fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt",
-      "lines": "29492-29493",
-      "secondReading": "same"
+      "lines": "29901-29903",
+      "secondReading": "minor",
+      "uncertain": "In the Latin, filias is not an address: Radegund says she chose them as daughters, and the brief renders it as I chose you, daughters. The scan prints raea for mea."
     },
     {
       "modern": "What she did in the land of the East, blessed Radegund did in Gaul.",

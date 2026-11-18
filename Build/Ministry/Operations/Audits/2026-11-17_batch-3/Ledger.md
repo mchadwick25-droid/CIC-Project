@@ -250,3 +250,7 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | council-of-chalcedon-451 | claim check (Eutyches condemned by all three) | Opus, low | 94,946 | HELD all three; Coptic via Timothy of Alexandria, Zachariah 4093-4097, to add to the card's references |
 | third-council-of-toledo-589 | card 2 | Sonnet | 126,495 | 5 added, 4 removed, 1 trimmed; damaged-places claim still not found |
 | pachomius | card 2 | Opus | 140,501 | Antony quote added; 2 removed |
+| baudonivia | card 2 | Opus | 133,425 | 1 added, 1 removed |
+| justin-martyr | card 2 | Opus | 155,667 | 6 entries; Apology 46 third sentence needs a reading |
+| arius | card 2 | Opus | 156,973 | 8 added, 4 removed; Jerome needs a reading |
+| john-wyclif | card 2 | Opus | 156,925 | 3 entries; Tyndale kept to his own words |
