@@ -4620,3 +4620,5 @@ Heard lengths: the people run from 2:07 (Baudonivia) to 3:12 (Arius). Toledo run
 - `roles/researcher.md`, `checker.md`, `writer.md` and `Process.md` (the hearts page) are updated to match.
 
 **For batch 4.** The essence is marked in each of the twelve approved hearts and goes to Mark to confirm. Then each piece gets one revision under the new lines, with its review's real errors, and one recheck. Benedict and Nicaea get the setting and ending lines in the same pass.
+
+**The essences (Mark, 2026-11-18: "All yes").** All twelve essences are approved as drafted from the approved hearts (`Build/Ministry/Operations/Audits/2026-11-18_batch-4/Essences.md`). Two were corrected before Mark read them, so that a contested claim is not stated as settled: Columba's Picts claim is credited to Bede, and Martin's Life "as a model" is a modern historian's judgment.
