@@ -211,3 +211,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | arius | review 2 | Opus | 120,086 | PASS, 4 minor |
 | third-council-of-toledo-589 | revision (fresh writer, from amended outline) | Opus | 111,289 | 420 words, grade 8.4; heart half 2 at word 79; force paragraph |
 | john-wyclif | review 2 | Opus | 118,811 | REVISE: three witnesses flattened; Knighton's date |
+| arius | review 2 minors applied (writer) | Opus | — | 449 words, grade 8.6 |
