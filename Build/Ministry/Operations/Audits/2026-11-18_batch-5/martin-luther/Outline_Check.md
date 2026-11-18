@@ -1,0 +1,10 @@
+# Outline check: Martin Luther
+
+Checker, batch 5, 2026-11-18. Job as re-set by Mark (Decision-Log, "Batch 5 hearts: church words explained, and Luther's job re-set", 2026-11-18): grace and why he protested; the break with Rome and Worms; the German Bible and hymns; the hard turns of 1525; up to about 4 minutes.
+
+## My own heart (written before reading Outline.md)
+
+**Essence.** Martin Luther, a friar of the Augustinian order who taught theology at Wittenberg in Saxony, taught that forgiveness is God's gift, received by trusting God's promise, not something bought (Theses 36–37, KD 2572–2578; answer to Cajetan 1518, KD 3311–3316). So in 1517 he protested to his archbishop against the preaching and sale of indulgences, letters of pardon sold by the church's preachers (W1 1014–1021). Condemned by the pope and the emperor after he would not take back his books at Worms in 1521 unless shown wrong from Scripture or plain reason (RTA 36588–36595), he put the New Testament into German while in hiding, and the churches that grew from Wittenberg, the Lutheran churches, came from his protest (census `toldWithin`, `legacy`).
+
+**Also told.** The theses spread fast in print (W1 488–491). The break of 1520: the pope's decree gave him sixty days to recant, and he burned the papal law books, the bull with them by the editors' account (KD 5619–5628; W3 5285–5286; CUR 5653–5655). The Edict of Worms outlawed him; he was hidden (Wartburg, editors) and the movement grew meanwhile (KD 6049–6072; CUR 6021–6028; KD 6153–6160). The whole Bible in German by 1534, editors' date (W6 17321–17351). German hymns and a German service for the people, kept for centuries (KD 8307–8314; W6 13417–13466; FH, MOR). 1525: he blamed the princes and warned the peasants, then urged rulers to strike the rebels down; many of his own friends were offended (W4 10396–10403, 11958–11962, 12298–12304). His marriage to Katharina von Bora, a former nun, in June 1525 (CUR 9791–9818). The catechisms, a clause (SC 51; BC 25517–25521). Card only: his late writings against the Jews (treatises not held).
+
