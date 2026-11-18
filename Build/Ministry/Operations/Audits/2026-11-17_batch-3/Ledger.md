@@ -154,3 +154,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | all twelve | census entry (cards, renderings, scan reading, map and tree pages) | Haiku | 333,186 | 55 → 6 errors; stopped on 6 needing records |
 | arius, chalcedon | blind second reading, three terms (Blind_5) | Opus | 81,112 | all same in meaning |
 | arius, chalcedon | coordinator: entries for "Arian", "two", "robbers"; Chalcedon "From two natures"; cut "Peter" entry removed | — | — | census check 0 errors |
+| all twelve | substance read | Opus | 165,099 | 3 PASS, 8 FIX, 1 FIX-OUTLINE |
