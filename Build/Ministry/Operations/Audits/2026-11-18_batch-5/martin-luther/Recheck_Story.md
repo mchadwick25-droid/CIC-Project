@@ -42,3 +42,6 @@ The plain sense comes from Outline line 28 ("anyone could seize him"), and "hidd
 ## 4. Score
 
 `python -m engine.m1.profile_readability …/martin-luther.brief.txt`: 715 words, grade 7.7 (names out 7.2), reading ease names out 74.8, 17.4 words a sentence, longest sentence 31 words. Pass. The grade is under 8, so it goes to the listener read.
+
+## Applied (coordinator, 2026-11-18)
+The replacement above applied word for word as the rechecker worded it.

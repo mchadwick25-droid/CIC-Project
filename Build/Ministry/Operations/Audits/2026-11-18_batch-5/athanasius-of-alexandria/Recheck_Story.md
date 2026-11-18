@@ -43,3 +43,6 @@ This takes the Outline's essence wording, with its gloss for Scripture (line 37)
 ## 4. Score
 
 `python -m engine.m1.profile_readability …/athanasius-of-alexandria.brief.txt`: 614 words, grade 7.7 (names out 6.7), reading ease names out 78.3, 17.5 words a sentence, longest sentence 30 words. Pass. The grade is under 8, so it goes to the listener read.
+
+## Applied (coordinator, 2026-11-18)
+The replacement above applied word for word as the rechecker worded it.
