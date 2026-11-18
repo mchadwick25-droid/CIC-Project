@@ -121,4 +121,5 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | (9 pieces) | second-reading comparison | Opus | 114,789 | 13 same, 11 minor, 1 changes meaning (arius Q2 "as atheists" → "as godless men", applied to brief and card); verdicts set on all nine cards |
 | (9 outlines) | Do-not-say lines from the reviews | Haiku | 117,292 | 13 lines added to 9 outlines, additions only |
 | third-council-of-toledo-589 | second revision (change order) | Opus, fresh writer | 107,398 | written again from the outline; 488 words against 430; every must-tell item in; variety clear |
-| pachomius | second revision (change order) | Opus, fresh writer | (count) | written again from the outline; 472 words against 400–450; earlier four faults addressed; reports Ge'ez, feast day and Benedict of Aniane's date left out (the date to clear the variety check) |
+| pachomius | second revision (change order) | Opus, fresh writer | 114,886 | written again from the outline; 472 words against 400–450; earlier four faults addressed; reports Ge'ez, feast day and Benedict of Aniane's date left out (the date to clear the variety check) |
+| council-of-chalcedon-451 | second revision (change order) | Opus, fresh writer | (count) | written again from the outline; every must-tell item in; 614 words (~4:05) against the outline's cap of 450 |
