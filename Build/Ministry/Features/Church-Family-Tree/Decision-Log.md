@@ -4471,3 +4471,12 @@ Four kit lines put those moves in the same place every time. The options are at 
 - Before research, the Library fills Pachomius's own Lives (Amélineau's Coptic Lives, the Latin Life in Acta Sanctorum, Jerome's Latin Rule), and Legge's translation of the Xi'an stele for Alopen.
 - The kit is frozen for the batch at git tree `49e3fb2f`. Any change is a named change order with Mark's words.
 - The audit trail, exit criteria and ledger are in `Build/Ministry/Operations/Audits/2026-11-17_batch-3/`.
+
+## 2026-11-18 — Batch 3: the three held pieces get a second revision, on Opus (change order) (Mark, 2026-11-18)
+
+**Why.** Toledo III, Chalcedon and Pachomius failed their recheck after their one revision (`Process.md` step 5). The report is at https://claude.ai/artifact/FM7qUy1E74Exyti3oHr1W3. Both councils were drafted on Sonnet under the model rules, and both cut the outline's must-tell force in the first draft and again in revision.
+
+**Decided (Mark, 2026-11-18): "1"**, the report's option 1: "One more revision each, by a fresh writer on Opus, then one recheck."
+- A named change order for this batch only. The kit is not changed: `Process.md` step 5 still allows one revision, and the model rules still give councils to Sonnet.
+- Each of the three is written again by a fresh writer on Opus, from its passed outline (with the reviews' Do-not-say lines added), not from any failed draft. One recheck follows. A piece that still fails comes back to Mark.
+- If all three pass, the batch is finished and goes to recording and release together.
