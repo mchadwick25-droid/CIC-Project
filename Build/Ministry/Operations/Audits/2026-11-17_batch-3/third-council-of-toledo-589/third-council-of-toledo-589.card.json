@@ -258,10 +258,11 @@
     },
     {
       "modern": "our people's new conversion",
-      "printed": "ut propter roborandam gentis nostrae novellam conversionem",
+      "printed": "ut propter roborandam gentis - nostrae novellam conversionem",
       "work": "Acts of the Third Council of Toledo, Latin, Hispana collection (Madrid, 1808): the king's reason for the creed before the Lord's Prayer (canon II)",
       "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt",
-      "lines": "37255-37258"
+      "lines": "37255-37258",
+      "uncertain": "The \"- \" at the start of line 37258 is a scan mark, not in the print."
     }
   ]
 }

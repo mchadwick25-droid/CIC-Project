@@ -20,3 +20,10 @@ No existing statement was changed. Everything from the original card is word for
 - issue[1]: "what it called 'nostram catholicam fidem'". The manuscripts read "ad nostram catholicam fidem"; Mommsen emends to "a nostra catholica fide" (JB-M apparatus, 20210). The card follows the manuscripts and the brief does not say it. Contested, not wrong.
 - attended[1]: "Two places in the printed text are damaged." The source sheet found one damaged see (Frosclus, ACTS 38210); the second place was not found. Not found, left in place.
 - Brief against card: sixty-two bishops, the anathema numbers, canons II, IX, XIV and XVI, the fifteenth on rebaptism, and the 586 and 587 years agree; nothing in the card contradicts the brief.
+
+## After the card check (2026-11-18)
+
+Each change below is made to Card_Check_2.md's exact correction.
+
+- `quotationOriginals`, Q8 "our people's new conversion" (ACTS 37255-37258): `printed` set to `ut propter roborandam gentis - nostrae novellam conversionem`, and `uncertain` added: 'The "- " at the start of line 37258 is a scan mark, not in the print.'
+- Not changed: `issue[1]` and `attended[1]`, upheld by the check. The check also asks for a gaps-record entry ("Toledo III signatures: second damaged place not found (card check, 2026-11-18)"); that is not a card edit and is not made here.

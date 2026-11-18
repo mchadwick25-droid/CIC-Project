@@ -279,11 +279,11 @@
     },
     {
       "modern": "not for the faith",
-      "printed": "Anatolius reverendi(fimus archiepifcopus Con- ... ftantinopolis dixit: * Propter fidem non eff ... damnatus Diofcorus , fed quia excommuni- ... cationem fecit domino archiepifcopo Leoni, ... & tertio vocatus ett, & noh venit, & ideo ... damnatus eft.",
+      "printed": "Propter fidem non eff",
       "work": "Anatolius of Constantinople on Dioscorus's sentence, Session V, in the acts, Latin column, Mansi tomus 7",
       "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-7-451-492-lat_welter-facsimile1901.txt",
-      "lines": "9802-9819",
-      "uncertain": "Latin column only, OCR as printed (long s read as f: \"eff\" for est, \"fed\" for sed, \"ett\" for est, \"noh\" for non); the Greek column beside it is garbled and its text and the other column's words are left out where marked. The brief's \"not for the faith\" renders \"Propter fidem non ... damnatus\". The refusers' chronicle quotes the same saying: \"Not for the faith is Dioscorus deposed\" (Zachariah III.1, tr. Hamilton and Brooks, cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt, 2321-2324)."
+      "lines": "9807",
+      "uncertain": "Latin column, OCR as printed (long s read as f: \"eff\" for est). The speaker line is \"Anatolius reverendi(fimus archiepifcopus Con-\" (9802) and \"ftantinopolis dixit: *\" (9807). The sentence runs on across 9808-9819, each line shared with the garbled Greek column: \"damnatus Diofcorus , fed quia excommuni-\", \"cationem fecit domino archiepifcopo Leoni,\", \"& tertio vocatus ett, & noh venit, & ideo\", \"damnatus eft.\" (\"fed\" for sed, \"ett\" for est, \"noh\" for non). The brief's \"not for the faith\" renders \"Propter fidem non ... damnatus\". The refusers' chronicle quotes the same saying: \"Not for the faith is Dioscorus deposed\" (Zachariah III.1, tr. Hamilton and Brooks, cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt, 2321-2324)."
     },
     {
       "modern": "The most holy Leo or Dioscorus?",
@@ -298,6 +298,32 @@
       "work": "The bishops' answer, Session V, tr. Percival",
       "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
       "lines": "20172-20173"
+    },
+    {
+      "modern": "two natures",
+      "printed": "Add then to the definition, according to the judgment of our most holy father Leo, that there are two natures in Christ united unchangeably, inseparably, unconfusedly.",
+      "work": "The imperial judges to the bishops, Session V, tr. Percival",
+      "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+      "lines": "20175-20178"
+    },
+    {
+      "modern": "from two",
+      "printed": "Dioscorus acknowledged that he accepted the expression “of two natures,”",
+      "work": "The imperial judges, Session V, tr. Percival",
+      "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+      "lines": "20166-20167",
+      "uncertain": "A term, not a saying: the brief's \"from two\" is the formula ἐκ δύο (19256), which Percival gives as \"of two\"."
+    },
+    {
+      "modern": "in two natures",
+      "printed": "ἐν δύο φύσεσιν",
+      "work": "The Definition of Chalcedon, Session V, as Evagrius copies it, Ecclesiastical History II.4, Greek, ed. Bidez and Parmentier",
+      "file": "cic/texts/evagrius-scholasticus_historia-ecclesiastica-grc_bidez-parmentier1898.txt",
+      "lines": "5245",
+      "englishPrinted": "must be confessed to be in two natures,",
+      "englishFile": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+      "englishLines": "20288-20289",
+      "uncertain": "A term, not a saying: the Definition's formula. On the Greek of the acts, which reads ἐκ δύο, see the Definition's entry and Hefele (npnf214, 20361-20370)."
     },
     {
       "modern": "One and the same Jesus Christ, Son, Lord, Only-begotten, is known in two natures: without confusion, without change, without division, without separation.",

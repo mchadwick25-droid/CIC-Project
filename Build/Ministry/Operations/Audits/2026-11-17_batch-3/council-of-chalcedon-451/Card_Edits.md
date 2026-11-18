@@ -13,3 +13,13 @@ No existing words were changed. Everything in the original card is kept word for
 - `uncertain[3]`: "The Greek text of the definition now reads 'of two natures'". Evagrius's Greek (5244-5245) reads ἐν δύο, "in two". Hefele (npnf214 20361-20370) speaks of the Greek text of the acts, and Mansi's garbled Greek column reads ἐκ δύο, so the sentence is not contradicted. Left in place.
 - `issue[4]`, Zachariah on the Nestorian party at court asking for Theodoret to preside: the chronicle says so (2272-2276); not in the brief; left.
 - Nothing on the card contradicts the brief. Armenia's condemnation of Eutyches (brief: "Ormanian says Armenia did") is in Ormanian 2502-2512 but is not on the card's own text; the new reference carries it.
+
+## After the card check (2026-11-18)
+
+Each change below is made to Card_Check_2.md's exact correction.
+
+- `quotationOriginals`, Anatolius entry "not for the faith" (Mansi 7): `printed` set to `Propter fidem non eff`, `lines` set to `9807`, and `uncertain` replaced with the check's text, which names the speaker lines and the Latin-column reading.
+- `quotationOriginals`, new entry "two natures" (Percival, 20175-20178), inserted after "We believe as Leo".
+- `quotationOriginals`, new entry "from two" (Percival, 20166-20167), inserted after "two natures".
+- `quotationOriginals`, new entry "in two natures" (Evagrius Greek, 5245, with English 20288-20289), inserted after "from two", before the Definition.
+- The three added entries are new. `quotationOriginals` now has 16 entries.

@@ -52,3 +52,10 @@ Every field of `pachomius.original.card.json` is kept word for word and in its o
 ## Not found
 
 None.
+
+## After the card check (2026-11-18)
+
+Each change below is made to Card_Check_2.md's exact correction.
+
+- `quotationOriginals`, new entry "the monks of Tabenna" (Cassian, Institutes IV.1, Gibson, npnf211 18531), appended after the three existing entries.
+- Under "Clearly wrong": `datesNote` changed to "Born about 292, died 348 (George Schodde; Ernest Cushing Richardson's note to Gennadius) or 346 (Archibald Robertson)". Evidence: Robertson, npnf204 5643-5644, "died on May 9, 346", a held source that is now a card source.

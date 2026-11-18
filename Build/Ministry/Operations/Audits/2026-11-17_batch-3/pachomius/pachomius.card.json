@@ -3,7 +3,7 @@
     "Pachomius of Tabennisi"
   ],
   "knownFor": "The Egyptian monk whom Gennadius of Marseilles calls \"founder of the Egyptian monasteries\", who bound monks to a common rule in shared houses.",
-  "datesNote": "Born about 292, died 348 (George Schodde; Ernest Cushing Richardson's note to Gennadius)",
+  "datesNote": "Born about 292, died 348 (George Schodde; Ernest Cushing Richardson's note to Gennadius) or 346 (Archibald Robertson)",
   "placeNote": "Tabennisi, in the Thebaid of Upper Egypt",
   "role": "Monk and founder of communal monasticism",
   "briefLength": "about 3 minutes 10 seconds",
@@ -152,6 +152,13 @@
       "file": "cic/texts/acta-sanctorum_maii-tomus-3-lat-grc_palme1866.txt",
       "lines": "86630-86633",
       "uncertain": "The file is OCR, kept as it stands: \"hine\" is hinc, \"iequum\" is aequum. \"inquit\" (he said) is the narrator's, not his words. Rendered from Cardon's Latin; the Greek is not held legibly."
+    },
+    {
+      "modern": "the monks of Tabenna",
+      "printed": "some from that of the monks of Tabenna,",
+      "work": "John Cassian, Institutes IV.1, tr. Edgar C. S. Gibson",
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": "18531"
     }
   ]
 }
