@@ -2,17 +2,45 @@
 
 Sheet = `Source_Sheet.md` in this folder; tags (S1, E7, I3, D2 …) are its entries, which give file and lines. Job (Mark, 2026-11-18): the long defense of Nicaea's creed after the council: five exiles, the *Life of Antony*, and his list of the books of Scripture.
 
-- **The essence:** For forty-five years Athanasius was bishop of Alexandria, and he held to the creed of Nicaea against the party of Arius. Five times he had to leave his city for it, by order or in flight (S1, S2, E4–E13; Documented each time; the count of five is Widely Accepted, D2). In those years he wrote the *Life of Antony*, which carried the desert monks' way of life to readers abroad, and in 367 his Easter letter listed the books of Scripture, with the twenty-seven of the New Testament (E11, E14; the letter Documented; the *Life* as his work Widely Accepted, D1).
+- **The essence:** For forty-five years Athanasius was bishop, the church's leader, in Alexandria. He held to the creed of Nicaea, the statement of faith bishops agreed in 325: that the Son is "of one being" with the Father, fully God as the Father is. He held it against the party of Arius, who taught that the Son had a beginning. Five times he had to leave his city for it, by order or in flight (S1, S2, E4–E13; Documented each time; the count of five is Widely Accepted, D2). In those years he wrote the *Life of Antony*, the story of an Egyptian hermit, which carried the desert monks' way of life to readers abroad. And in 367, in the yearly letter that set the date of Easter, he listed the books to be read as Scripture, with the twenty-seven of the New Testament (E11, E14; the letter Documented; the *Life* as his work Widely Accepted, D1).
 
 - **Also told:**
-  - *The exiles, and their force.* Bishops at Tyre deposed him in 335 and Constantine sent him to Trier (E4). In 339 a rival bishop came in with soldiers, and he went to Rome (E5). In 356 soldiers broke into his church at night and he hid for six years, while searchers tortured a woman to find him (E7, E8). Julian expelled him in 362, and in 365 he hid four months outside the city until the emperor let him back (E12, E13). Each return is Documented in the two chronicles of his life. The force ran both ways: in 335 a Melitian monk wrote that his followers, with soldiers, beat their monks bloody (E3; Documented as the Melitian's charge).
-  - *His defense of the creed.* He wrote it from hiding. Yet he would treat as brothers those who accepted Nicaea in all but its one word, "of one being" (E10, Q2; Documented, his own words).
-  - *The* Life of Antony. He wrote it for monks abroad who asked how Antony lived, as a pattern for their own life (E11; Documented as the book's own preface). It went into Latin within about twenty years, Jerome says, and later into Syriac (I1; Documented).
-  - *The list.* In his Easter letter of 367 he named the books "handed down" as Scripture: twenty-two of the Old Testament and twenty-seven of the New. He set other books apart, for new believers to read, and rejected secret books as heretics' inventions (E14, Q3; Documented). Later Greek church law kept his rulings (I3a; Documented that it sealed "the Canons of Athanasius"; that the list is among them, Widely Accepted). In 1921 an Anglican proposal for union with the Orthodox took the canon "as it is defined by St. Athanasius" (I3c; Documented).
+  - *The exiles, and their force.* A council of bishops at Tyre removed him from office in 335, and the emperor Constantine sent him far away to Trier, in Gaul (E4). In 339 a rival bishop came in with soldiers, and he went to Rome (E5). In 356 soldiers broke into his church at night and he hid for six years, while searchers tortured a woman vowed to God to find him (E7, E8). The emperor Julian expelled him in 362, and in 365 he hid four months outside the city until the emperor let him back (E12, E13). Each return is Documented in the two chronicles of his life. The force ran both ways: in 335 a monk of the Melitians, a breakaway church in Egypt, wrote that his followers, with soldiers, beat their monks bloody (E3; Documented as the Melitian's charge).
+  - *His defense of the creed.* He wrote it from hiding. Yet he would treat as brothers those who accepted all of Nicaea's statement but its one word, "of one being" (E10, Q2; Documented, his own words).
+  - *The* Life of Antony. He wrote it for monks abroad, men living apart in prayer, who asked how Antony lived; it was to be a pattern for their own life (E11; Documented as the book's own preface). It went into Latin within about twenty years, Jerome says, and later into Syriac, the language of the eastern churches (I1; Documented).
+  - *The list.* In his Easter letter of 367 he named the books "handed down" as Scripture: twenty-two of the Old Testament and twenty-seven of the New. He set other books apart, for new believers to read, and rejected secret books as inventions of heretics, teachers he held false (E14, Q3; Documented). Later Greek church law kept his rulings (I3a; Documented that a council of 692 sealed "the Canons of Athanasius", meaning his rulings; that the list is among them, Widely Accepted). In 1921 a Church of England proposal for union with the Orthodox churches took the list of books "as it is defined by St. Athanasius" (I3c; Documented).
 
 - **Length:** about 3 minutes (about 450 words at 150 a minute). Reason: a rich record and a three-part job (the exiles, the *Life*, the list), each with its later witnesses, and five departures that must be told without becoming a list. The exiles are told as one movement, with weight on 335 and 356; 339, 362 and 365 take a clause or two each. Nicaea is one sentence.
 
 - **Setting:** "Alexandria, in Egypt" (S1, CEN); bishop "from 328" to his death "in 373" (S1, S2). The church of Alexandria (S3); do not say "Catechetical" or "Christian-Platonist". The emperors change through his life: Constantine, his son Constantius, Julian, Valens (E4, E7, E12, E13). Trier is "Trier, in Gaul" (E4). An Easter letter was the letter the bishop of Alexandria sent each year to the churches of Egypt and Libya, announcing the date of Easter (S4).
+
+- **Words to explain** (each glossed where it is first heard; plain word preferred where given):
+  - *bishop*: the leader of a city's church. In Alexandria then, he oversaw the churches of all Egypt and Libya (S4, NP4 64063–64069), more than a modern local bishop.
+  - *deacon*: a church officer who served under the bishop (E1).
+  - *priest*: say "priest"; it stands for presbyter, a church elder under the bishop.
+  - *creed*: a short statement of faith that bishops agreed on.
+  - *Nicaea / the council of Nicaea*: a meeting of bishops called by the emperor in 325 (CEN, council-of-nicaea-325).
+  - *"of one being"* (homoousios): the Son is God in the same full sense as the Father (CEN, council-of-nicaea-325, "God as the Father is").
+  - *Arius / the Arians*: a priest of Alexandria who taught the Son had a beginning (CEN, arius: "the Son has a beginning"). "Arians" was his opponents' name for that party; its bishops refused it (CEN, arius).
+  - *council / synod*: say "a council of bishops", a meeting that judged church matters.
+  - *deposed*: say "removed from office".
+  - *exile*: sent away from home by order; distinguish from his flights (D2).
+  - *communion*: sharing the bread and wine of the Eucharist, the sign of belonging to one church.
+  - *Melitians*: a breakaway church in Egypt, with its own bishops and monks (E3; CEN melitian-schism).
+  - *vigil*: a night of prayer before a service (E7, NP4 37296–37297).
+  - *the bishop's chair* (throne): the seat from which a bishop led his church (Q1).
+  - *psalm*: a song from the Bible's book of Psalms.
+  - *monk / hermit / the desert monks*: men who left ordinary life to live by prayer, alone or together, in Egypt's desert.
+  - *consecrated virgin*: say "a woman vowed to God" (E8, "a perpetual virgin").
+  - *Easter letter* (festal letter): the bishop's yearly letter to Egypt's churches setting Easter's date (S4).
+  - *Scripture*: the books the church reads as God's word.
+  - *canon* (of Scripture): the fixed list of books read as Scripture. Not "canon" as church law, except in the 692 council: there "the Canons of Athanasius" means his rulings, kept as church law (I3a).
+  - *apocryphal books*: books with names like the true ones, kept secret, he said; not today's Protestant "Apocrypha" (E14, NP4 68754–68759).
+  - *heretics*: teachers he held false; the word is his.
+  - *godliness* (Q3): true reverence for God.
+  - *the Fathers* (Q2): the bishops who met at Nicaea.
+  - *Syriac*: the language of the churches of Syria and Mesopotamia.
+  - *Anglican / Church of England* and *Orthodox*: say "the Church of England" and "the Orthodox churches of the East".
 
 - **Shape:** Founder or leader (a bishop). Trap to avoid: titles in place of acts; and five exiles told as a roll.
 
@@ -85,6 +113,7 @@ Sheet = `Source_Sheet.md` in this folder; tags (S1, E7, I3, D2 …) are its entr
   - Most of the record of these fights comes from Athanasius or from writers who used him (ED, NP4 1221–1236). Say so once, inside the sentence that introduces the Melitian letter, which is the other side.
 
 - **Do not say:**
+  - Not any word listed under "Words to explain" used without its plain sense the first time it is heard (Mark, 2026-11-18).
   - Not "exiled five times by the emperors". Say "five times he had to leave his city" or "driven out five times". Gregory counted three banishments; the others were flights (D2).
   - Not that the psalm and the escape happened in 339. Socrates puts them there; Athanasius's own account and both chronicles put the night attack in 356 (D5).
   - Not "five thousand soldiers" as fact. Say "more than five thousand soldiers, he wrote" or leave the number out (E7).

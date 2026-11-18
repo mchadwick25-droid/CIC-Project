@@ -2,15 +2,15 @@
 
 All references are to `Source_Sheet.md` in this folder (S = setting, M = life events, I = impact, L = links, D = disagreements). Each item there gives the file and its lines.
 
-- **The essence:** John Calvin was a French exile and scholar who wrote the Institutes, a book defending France's persecuted Protestants. Passing through Geneva for one night in 1536, he was held there, and gave the city a written church order: pastors, teachers, elders and deacons, with a consistory to watch over the members' lives. Reformed churches in France and Scotland built their own churches on that order, and his name became the label for the whole family.
-  - Confidence: the book's purpose, the 1536 stop and the curse are Documented as his own account, written 21 years later (M3, M5, D1). The order is Documented from the 1541 draft and the council registers (M10, M11). The French and Scottish churches taking it up is Documented (I1, I2). The name as a label is Documented through a 1672 synod and a 1662 Dutch catechism (I5).
+- **The essence:** John Calvin was a French scholar in exile. He wrote the Institutes, a book of instruction in the Christian faith, to defend the Protestants being burned in France. Passing through Geneva for one night in 1536, he was held there. He gave the city a written plan for running its church: pastors to preach, teachers, deacons to care for the poor and sick, and elders, laymen who watched over people's lives. Elders and pastors met each week as the consistory, a church court. Protestant churches in France and Scotland built their own churches on that plan, and his name became the label for the whole family.
+  - Confidence: the book's purpose, the 1536 stop and the curse are Documented as his own account, written 21 years later (M3, M5, D1). The plan and its offices are Documented from the 1541 draft and the council registers (M10, M11). The French and Scottish churches taking it up is Documented (I1, I2). The name as a label is Documented through a 1672 council of the Greek church and a 1662 Dutch teaching book (I5).
 
 - **Also told:**
   - **The Institutes.** First a short handbook, printed in 1536 and addressed to the French king, to show that the people burned in France were not rebels (M3). It grew into a large work over his life (I4). One idea from it, in his words: true wisdom is "the knowledge of God and of ourselves" (M4). Documented.
-  - **The order, and the fight over it.** Expelled in 1538, recalled in 1541, he would only stay if the city swore to keep a catechism and a discipline (M7, M10). The city's councils amended his Ordinances, kept the last word on punishment, and fought his consistory over the right to bar people from the Lord's Supper until 1555 (M11, M13). Documented.
-  - **The force.** The consistory questioned people on their faith and sent a defiant man to the council, which jailed him. A man who threatened the ministers was beheaded in 1547. Michael Servetus was burned alive in 1553 by the city council, with Calvin wanting his death (M13, M14). Documented.
-  - **What it gave others.** In Paris, in 1555, a secret congregation set up a consistory of elders and deacons. In 1559 the French churches met in a secret synod and adopted a confession and a discipline, with pastors, overseers and deacons, while going to Geneva was punishable by death in France. In 1562 Scotland's church ordered its sacraments, marriages and burials "according to the Kirk of Geneva" (I1, I2). Documented.
-  - Where the sources will not hold it: that Calvin wrote the French Confession is contested (D4); that the Paris church copied Geneva is the editors' reading; the Histoire names the early church as its model (D5). Tell what each church did.
+  - **The plan, and the fight over it.** Expelled in 1538, recalled in 1541, he would only stay if the city swore to keep a catechism, a question-and-answer book of the faith, and a church discipline, a system for correcting members (M7, M10). The city's councils amended his Church Ordinances, kept the last word on punishment, and until 1555 fought the consistory over its right to bar people from communion, the shared bread and wine (M11, M13). Documented.
+  - **The force.** The consistory questioned people on their faith and sent a defiant man to the city council, which jailed him. A man who threatened the pastors was beheaded in 1547. Michael Servetus, who denied the standard teaching that God is three persons in one, was burned alive in 1553 by the city council, with Calvin wanting his death (M13, M14). Documented.
+  - **What it gave others.** In Paris, in 1555, a congregation meeting in a private house set up its own consistory of elders and deacons. In 1559 the French churches met secretly in a national assembly, and adopted a statement of belief and a rulebook for their churches, with pastors, elders and deacons. At that time, going to Geneva could mean death in France. In 1562 the Church of Scotland ruled that it would conduct baptism, communion, marriages and burials the way the church of Geneva did (I1, I2). Documented.
+  - Where the sources will not hold it: that Calvin wrote the French statement of belief is contested (D4); that the Paris church copied Geneva is the editors' reading; the church history of 1580 names the church of the apostles' time as its model (D5). Tell what each church did.
 
 - **Length:** about 3 minutes (430–470 words at about 150 a minute). He is a major figure (census `major: true`), and the record is rich. The story has a turn (held, expelled, recalled), an order that needs explaining in plain terms, force that must be told plainly, and a connection that needs its third. The first 150 words carry the essence (beat 1). If it holds in 430 words, stop.
 
@@ -19,6 +19,34 @@ All references are to `Source_Sheet.md` in this folder (S = setting, M = life ev
   - Place: born at Noyon, in northern France (S1). Geneva: "a small city on its lake, at the edge of the Swiss lands, that had just broken with Rome", and split into factions (S4). Zurich's pastors placed it on the borders of France, Italy and Germany (M9). Strasbourg, where he was pastor of a congregation of French refugees (M8).
   - Tradition: "the Reformed churches"; the tree's tradition is "the Reformed cities of Zurich and Geneva" (S5). That family began at Zurich in 1519, before him (census relationsSummary).
   - Weave in a clause at a time.
+
+- **Words to explain** (gloss each where it is first heard, worked into the sentence; or use the plain word):
+  - **Institutes**: the book's title; "a book of instruction in the Christian faith". In 1536 he called it rudiments for training in godliness (INST1 4744–4749), and later a short handbook (K 28968–28970).
+  - **Protestants / the Reformed**: Protestants, "Christians who broke with the Pope's church". The Reformed are "the branch of Protestants that began in the Swiss cities" (census relationsSummary). Calvin's own word is "my brothers" (K 28964–28966).
+  - **Pope's church / Rome / Roman rites / the Mass**: "the Catholic church"; the Mass is "the Catholic service of bread and wine". In 1550s Paris, "Roman rites" means Catholic baptism (BEZA1 6551–6552).
+  - **minister / pastor**: use "pastor", glossed once as "who preached, baptised and gave communion" (CO10 1493–1499). The source uses both words for the same office.
+  - **teacher** (French "docteur"): "who taught sound doctrine"; never "doctor" (CO10 1864–1866).
+  - **elder**: "laymen chosen from the city councils to watch over people's lives" (CO10 1947–1963). In Geneva they were council members, not elected by the congregation. For Paris the source does not say who chose them.
+  - **deacon**: "who kept the money for the poor and cared for the sick" (CO10 2030–2042). In Geneva the deacons ran the city hospital; that is different from deacons in many churches today.
+  - **consistory**: "a weekly church court of the pastors and elders" (CO10 2540–2544). It warned and questioned people; the city council held the power to punish (K 34888–34893; M13).
+  - **Church Ordinances**: "the city's written rules for its church" (K 32444).
+  - **catechism**: "a book of questions and answers on the faith, for teaching" (CAT 229–232).
+  - **discipline / church discipline**: "a system for correcting members' lives" (CO10 1947–1951; INST3 11139–11140).
+  - **communion / the Lord's Supper**: "the shared bread and wine of worship". To be barred from it was the church's heaviest penalty (K 34888–34893).
+  - **excommunication**: avoid the word; say "barring people from communion".
+  - **sacraments**: avoid; name them, "baptism and communion".
+  - **synod**: "a national assembly of pastors and elders" (K 36509–36522).
+  - **confession / Confession of Faith**: "a statement of belief". Not a confession of sins.
+  - **Discipline (the French book)**: "a rulebook for the churches" (K 36945–36951).
+  - **overseers**: the 1559 statement's word for elders (SCHAFF 1971–1976); say "elders".
+  - **Kirk**: the Scots word for "church"; say "the church of Geneva" (PET 1208–1210).
+  - **the Trinity**: "the teaching that God is three persons in one". Servetus wrote against it (tree link; Kidd's note names his book on the "errors" of the Trinity, K 34765, EDITOR).
+  - **blasphemy**: "speaking against God" (K 35265–35277).
+  - **heresiarch / heretic**: "chief heretic, a leader of false teaching" (DOS 579–583).
+  - **lecturer at St Peter's**: "who gave Bible lectures in the city's main church, St Peter's" (K 29999–30002).
+  - **academy / rector**: "a college"; rector is "its head" (K 35693–35712).
+  - **Jonah**: "the prophet who ran from God's call", already glossed in beat 4.
+  - **canon** (Hooker, "almost the very canon"): "the standard everyone measured by" (HOOK 4653–4669). Tell it as paraphrase.
 
 - **Shape:** Founder or leader. What he built (a written order for a church), how it ran (the consistory, the elders, the fight with the councils, the force), and who took it up (France, Scotland). Trap: titles and offices in place of acts. Show the order through what it did: the elders' rounds, the consistory's questions, the jailing, the French congregation choosing a minister.
 
@@ -83,6 +111,7 @@ All references are to `Source_Sheet.md` in this folder (S = setting, M = life ev
   - The Synod of Jerusalem (1672), hostile (I5).
 
 - **Do not say:**
+  - Wrong: any word under **Words to explain** (Institutes, Protestant, Reformed, Mass, pastor, minister, teacher, elder, deacon, consistory, Church Ordinances, catechism, discipline, communion, excommunication, sacraments, synod, confession, Discipline, overseers, Kirk, Trinity, blasphemy, heresiarch, lecturer, academy, rector, Jonah, canon) used without its plain sense the first time it is heard. Right: the plain gloss given there, worked into the sentence.
   - Wrong: "Servetus was burned for denying the Trinity", as the council's words. Right: the council condemned him for "great errors and blasphemies" (M14). His book against the Trinity is the tree link's framing; one clause at most, credited as what he taught.
   - Wrong: "Calvin founded the Reformed church" / "the founder of Calvinism" / "the father of Protestantism". Right: the Reformed family began at Zurich in 1519, before him; Calvin gave Geneva its church order, and his name later became the family's label (census; I5).
   - Wrong: "Calvin ruled Geneva" / "a theocracy" / "Geneva's dictator". Right: he was one of the city's ministers. The councils amended his Ordinances, kept the last word on punishment, and refused his consistory the power to bar people from communion until 1555 (M11, M13).

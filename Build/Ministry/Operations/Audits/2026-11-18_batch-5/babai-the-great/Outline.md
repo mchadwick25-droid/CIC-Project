@@ -2,20 +2,44 @@
 
 Sheet items (S, E, I, D) are in `Source_Sheet.md`, which gives the file and line for each.
 
-- **The essence:** For close to twenty years in the early 600s, the Persian king Khosrau would not let the Church of the East have a head (S5; Documented as Thomas of Marga's account; length Contested, 17 to 20 years). In those years Babai, abbot of the Great Monastery on Mount Izla near Nisibis, a monk and not a bishop, went round its monasteries on behalf of the bishops to test the monks' faith and drive out those they judged heretics (E5; Documented as Thomas's account, about 840). He wrote the *Book of the Union*, on how Christ is both God and man, and his church kept and honoured his books (E6, I1; the books' keeping Documented; that his writing settled his church's teaching on Christ is the judgment of modern historians, Dominant Modern Reconstruction).
+- **The essence:** For close to twenty years in the early 600s, the Persian king Khosrau would not let the Church of the East have a catholicos, the head of the whole church (S5; Documented as Thomas of Marga's account; length Contested, 17 to 20 years). In those years Babai, abbot (head) of the Great Monastery on Mount Izla near Nisibis, a monk and not a bishop, went round the church's monasteries for its senior bishops. He tested what the monks believed and drove out those the bishops judged heretics, people teaching what the church had condemned (E5; Documented as Thomas's account, about 840). He wrote the *Book of the Union*, on how Christ is one person who is both fully God and fully human, and his church kept and honoured his books (E6, I1; the books' keeping Documented; that his writing settled his church's teaching on Christ is the judgment of modern historians, Dominant Modern Reconstruction).
 - **Also told:**
-  - His reform began at home, and its force was real. At Izla, monks found living with wives were stripped of the habit and driven out with their families, and their cells were burned. Then he drove out a gentle monk, Jacob, with a long written ban, and the other monks rebuked him (E3, E4; Documented as Thomas's account). Many left. Their dispersal filled the north with new monasteries, Jacob's Beth Abe among them (E4, I3; Documented as Thomas's account).
-  - Inspecting the monasteries without a head over the church (E5). Henanians got no communion at Izla until they cursed Henana, by his own account (E7; Documented, his words).
-  - The meeting with the king in 612: the bishops' written faith, "two natures and two hypostases" in the one Christ, and the king's refusal while they honoured Nestorius's name (E6; Documented as Babai's own account). Old and weak, Babai helped them by his pen, a later chronicle says (E6; Documented as Seert's account). His own teaching, in his own words (Q1).
-  - George of Izla crucified in 615; Babai wrote his Life (E8; Documented).
-  - In 628 the bishops begged him to be head of the church, and he refused (E10; Documented as Thomas's account). He died about then (E11; Contested which side of 628).
-  The sources will not hold "Babai wrote the bishops' statement of 612" (his own account credits two other monks with the bishops) or "Babai led the church as patriarch" (he was "a solitary and not a bishop", TM 4130). They hold that three metropolitans asked him to visit the monasteries, and that a late historian says he and an archdeacon ran its affairs (E5).
+  - His reform began at home, and its force was real. At Izla, monks found living with wives, against their vows, were stripped of the monk's robe and driven out with their families, and their huts were burned. Then he drove out a gentle monk, Jacob, with a long written condemnation, and the other monks rebuked him (E3, E4; Documented as Thomas's account). Many left. They spread out and founded new monasteries across the north, Jacob's Beth Abe among them (E4, I3; Documented as Thomas's account).
+  - Visiting the monasteries while the church had no head (E5). Followers of Henana, a teacher at Nisibis whose books the bishops had condemned, were refused communion, the shared bread and wine of worship, at Izla until they solemnly cursed Henana, by Babai's own account (E7; Documented, his words).
+  - The meeting before the king in 612. By Babai's account the bishops wrote down their faith: Christ has two natures, the divine and the human, each fully real, in one person. The king answered that while they honoured the name of Nestorius, a teacher condemned in the Roman empire, they would have no head (E6; Documented as Babai's own account). Old and weak, Babai helped them by his writing, a later chronicle says (E6; Documented as Seert's account). His own teaching, in his own words: Christ died, but God did not die (Q1).
+  - George, a monk of Izla who had left the Persian state religion, was crucified in 615; Babai wrote the account of his life (E8; Documented).
+  - In 628, after the king's murder, the bishops begged Babai to become head of the church, and he refused (E10; Documented as Thomas's account). He died about then (E11; Contested which side of 628).
+  The sources will not hold "Babai wrote the bishops' statement of 612" (his own account credits two other monks with the bishops) or "Babai led the church as its head" (he was "a solitary and not a bishop", TM 4130). They hold that three senior bishops asked him to visit the monasteries, and that a late historian says he and an archdeacon, the chief church official in the capital, ran its affairs (E5).
 - **Length:** about 2¾ minutes (about 410 words). Why: the heart has three parts (leading without a head, the teaching, the reform and its cost), and all must land early. His own words survive, but only in editors' extracts, and the life rests mostly on Thomas, two centuries later; the force of the Izla expulsions must be told plainly, with whose account it is. Not more: Henana's charges are Henana's story, the 605 synod is Barsauma's, and the wonders are cut to one.
 - **Setting:**
   - Time: "the early 600s"; the vacancy from about 609 to 628 (S5); the court meeting, 612 (E6); George's death, January 615 (E8); the new head of the church, 628 (E10).
   - Place: "the Great Monastery on Mount Izla, near Nisibis" (S2), "on the Persian side of the border with Rome, in what is now southeastern Turkey" (S2; census places Nisibis at Nusaybin, Turkey). He came from Beth Zabdai, by the Tigris (S2).
   - Tradition: "the Church of the East, the church of the Persian empire", under a Zoroastrian king (S3). Its head is the catholicos: say "the head of the church".
   - Plain words: "catholicos" = "head of the church"; "abbot" = "head of a monastery"; "Messalians" = "monks the church condemned, who held that prayer alone was enough" (the gloss is Budge's, E5); "hypostasis" = "the concrete reality of each nature" (E6); "anathema" = "a solemn curse that cuts someone off".
+- **Words to explain** (the writer works the gloss into the sentence where the word is first heard, or uses the plain word instead):
+  - **catholicos** / **patriarch**: use "the head of the church", the Church of the East's own leader at the Persian capital. Not a pope; answered to no bishop outside Persia (CEN tradition entry). "Patriarch" is Thomas's other word for the same office (TM 3999, 5177).
+  - **metropolitan**: use "senior bishop", a bishop over the other bishops of a province (TM 4085–4088 names three, of Nisibis, Adiabene and Karka).
+  - **bishop**: "a church leader over a city and its region"; here, one ordained by the head of the church (E5).
+  - **abbot**: "the head of a monastery".
+  - **monk** / **solitary**: "a man vowed to prayer, poverty and an unmarried life". Thomas's "solitary" (TM 4130) means a monk, not a bishop; use "monk".
+  - **cell**: use "hut" or "room"; at Izla, monks lived in separate cells around the monastery (TM 2238 "outside cells").
+  - **the habit** / **tonsure**: use "the monk's robe" and "the monk's shaved head" (TM 2595–2596).
+  - **ban** (on Jacob): use "a written condemnation" (TM 2725–2726).
+  - **anathema** / **curse**: "a solemn curse that cut someone off from the church".
+  - **communion**: "the shared bread and wine of Christian worship"; to be refused it was to be shut out of the community (SO-LG 42219).
+  - **heretic** / **heresy**: "someone teaching what the church had condemned"; always the bishops' or Babai's judgment, never the narrator's.
+  - **Messalians**: "wandering monks the church condemned, who said prayer alone was enough" (Budge's gloss, TM-ed 4115–4120).
+  - **natures**: "what makes him God, and what makes him human".
+  - **hypostasis** (Syriac *qnoma*): avoid the word; say "each nature fully real in its own right" (WIG 13851–13853, Babai's definition as Wigram gives it).
+  - **person** (in "one person"): "one single Christ, one who acts and is worshipped" (LAB 15845–15862 sense; plain sense only).
+  - **union** (*Book of the Union*): "how God and man are joined in the one Christ".
+  - **archdeacon**: "the chief church official in the capital" (LAB 13026–13029).
+  - **synod**: use "a meeting of bishops".
+  - **the Life of George**: "the account he wrote of George's life", a book honouring a holy man.
+  - **Magian** / **Zoroastrian**: "the Persian state religion, with its fire temples and priests called magi".
+  - **feast**: "the yearly day the church remembered him" (LG-B 12434–12435).
+  - **Nestorius**: "a bishop of Constantinople, condemned in 431, whom this church honoured as a teacher" (census; batch sibling).
+  - **Doctors** (alternate quote only): "teachers"; not physicians.
 - **Shape:** Founder or leader. Trap: titles and offices in place of acts. He had no office the king recognized; tell what he did: the visits, the expulsions, the book, the refusal.
 - **Sibling:**
   - `barsauma-of-nisibis` (batch 5, outline read): its job is the synods of 484–486 and their afterlife; its ending is the synod of 605 that made Theodore required study. Here 605 is at most a clause, and is not needed. Its catholicos of 484 is "Babowai", a different man; so is the catholicos Babai of 497 (D, Links). None of its quotes reused.
@@ -88,6 +112,7 @@ None of the four is used in another story on the tree (all census `longDescripti
 
 **Do not say**
 
+- Any word in "Words to explain" used without its plain sense the first time it is heard.
 - Not "Babai was patriarch", "catholicos" or "bishop". He was a monk and abbot who refused the office (TM 4130, 5164–5168). "Stood in for the head of the church" only in the angel's words (Thomas).
 - Not "Babai wrote the statement of faith of 612". His own account credits George and the monk Henanisho with the bishops; a later chronicle says he helped by his pen (E6, D5).
 - Not "Babai founded the monastery on Mount Izla". Abraham founded it; Babai was its third head (E2).

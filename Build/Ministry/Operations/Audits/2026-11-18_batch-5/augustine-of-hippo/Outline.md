@@ -2,15 +2,15 @@
 
 Sheet references (S, E, I, L, D, G) point to `Source_Sheet.md` in this folder, which gives each file and line.
 
-- **The essence:** A teacher of rhetoric who sold, in his own words, the art of talking to win, Augustine turned to faith in Milan and became bishop of Hippo, a port town in Roman North Africa (E3, E5–E11). There he wrote the Confessions and the City of God, and taught that God's grace comes first: no one turns to God, or even begins to believe, unless God gives it (E12–E16). Confidence: Documented (his own words; Possidius, his friend). That the Western church carried this teaching on, at a council at Orange in 529 and in Luther, Calvin and the Jansenists, is Documented for each witness; that Orange's chapters came from his writings is its editors' finding, Widely Accepted (I1, I3, I4, D5).
+- **The essence:** Augustine taught rhetoric, the art of persuasive public speaking, and in his own words sold the skill of talking to win (E3). He turned to Christ in Milan and became bishop, the leader of the church, in Hippo, a port town in Roman North Africa (E5–E11). There he wrote the Confessions, his life told as a prayer to God, and the City of God. He taught that grace, God's free and unearned gift, comes first: no one turns to God, or even begins to believe, unless God gives it (E12–E16). Confidence: Documented (his own words; Possidius, his friend). The churches of western Europe carried this teaching on: a meeting of bishops at Orange in 529, then Luther, Calvin and the Jansenists. Each witness is Documented; that Orange's rulings came from his writings is its editors' finding, Widely Accepted (I1, I3, I4, D5).
 
 - **Also told:**
-  - **The rhetorician's turn.** He taught rhetoric at Carthage, Rome and Milan; a speech praising the emperor, full of lies, made him envy a cheerful beggar; he gave up the post, for his choice to serve God and for pain in his chest (E3–E5, E7). Documented.
-  - **The bishop.** At Hippo the crowd seized him and brought him to be made a priest while he wept; the old bishop, Greek-born and less at home in Latin, let him preach, against African custom; he was made bishop beside him, and later said it should not have been done (E9–E11). Documented as Possidius's account, from what Augustine told him.
-  - **What the Confessions are.** Thirteen books addressed to God, praising him for Augustine's bad and good deeds; ten tell his own life, three turn to Scripture; he says they still moved him when he read them (E13). Documented.
-  - **What the City of God says.** After the Goths sacked Rome, pagans blamed the Christian religion; he wrote twenty-two books over several years, answering them and telling of two cities made by two loves (E14, E15). Documented.
-  - **What the grace teaching held.** Early in his time as bishop he changed his own mind: he had argued for the human will, "but God's grace won" (E12). Against Pelagius he taught that free will and good teaching are not enough; God's Spirit must give the love of the good (E16). African councils, two bishops of Rome and the emperor's laws condemned the Pelagians, in Possidius's account (E17). Documented.
-  - **What came of it.** Orange (529) set out chapters on grace drawn largely from his writings (editor); Luther sent an opponent to his *On the Spirit and the Letter*; Calvin said he could build a whole volume from him; Jansen's book *Augustinus* was condemned at Rome (I1, I3, I4). The teaching both shaped and divided the Western church.
+  - **The speaker's turn.** He taught public speaking at Carthage, Rome and Milan. A speech praising the emperor, full of lies, made him envy a cheerful beggar. He gave up the post, because he had chosen to serve God and because of pain in his chest (E3–E5, E7). Documented.
+  - **The bishop.** At Hippo the crowd seized him and brought him to be made a priest, a minister under the bishop, while he wept. The old bishop, Greek-born and less at home in Latin, let him preach, which African priests did not usually do. He was then made bishop alongside the old man, and later said it should not have been done (E9–E11). Documented as Possidius's account, from what Augustine told him.
+  - **What the Confessions are.** "Confess" here means both praising God and owning up to sin. The book is thirteen parts addressed to God, praising him for Augustine's bad and good deeds. Ten tell his own life; three turn to the Bible. He says they still moved him when he read them (E13). Documented.
+  - **What the City of God says.** After the Goths, a Germanic people, sacked Rome, worshippers of the old Roman gods blamed the Christians. He wrote twenty-two books over several years to answer them, telling of two cities made by two loves: love of self and love of God (E14, E15). Documented.
+  - **What the grace teaching held.** Early as bishop he changed his own mind: he had argued for the human will's own power to choose, "but God's grace won" (E12). Pelagius, a monk teaching at Rome, held that God had already given human nature the power to do good. Against him Augustine taught that free choice and good teaching are not enough; God's Spirit must give the love of the good (E16). In Possidius's account, meetings of African bishops, two bishops of Rome and the emperor's laws condemned the Pelagians as false teachers (E17). Documented.
+  - **What came of it.** At Orange in Gaul, now France, bishops in 529 set out rulings on grace drawn largely from his writings (editor). Luther sent an opponent to his book *On the Spirit and the Letter*. Calvin said he could build a whole volume from Augustine's words. Jansen, a Catholic bishop, wrote a book called *Augustinus*, and Rome condemned it (I1, I3, I4). The teaching both shaped and divided the churches of the West.
 
 - **Length:** about 3 minutes, about 450 words. Reason: a major figure on the tree (CEN `major`), a very rich record, and a heart with three works and a long afterlife that needs room to be understood. Kept to 3 minutes by giving the Manichaean years, the garden and the Donatists one clause each, since other stories on the tree tell them.
 
@@ -18,6 +18,33 @@ Sheet references (S, E, I, L, D, G) point to `Source_Sheet.md` in this folder, w
   - Time: the late three-hundreds and early four-hundreds; he died in 430, at seventy-six (S2, S5, E22). Plain: "in the late Roman Empire".
   - Places: born at Thagaste in Roman Africa (S1); taught at Carthage, Rome and Milan, "where the emperor then held court" (S1); bishop at Hippo, "a port town in Roman North Africa, in what is now Algeria" (S3).
   - Tradition: "the Latin-speaking churches of North Africa" (S4). Do not say the census name aloud.
+
+- **Words to explain** (each glossed in the sentence where it is first heard; or use the plain word):
+  - **rhetoric**: the art of persuasive public speaking, a school subject he taught for pay. Plain word: "public speaking" (E3, AUGL 5745–5746; POS 1609–1611).
+  - **bishop**: here the leader of the church in one town, chosen with its people's loud consent, not a distant official (E11, POS 2133–2137).
+  - **priest** (Possidius's "presbyter"): a minister serving under the town's bishop. In Africa then, priests did not usually preach before their bishop (E10, POS 1883–1885).
+  - **Manichaeans**: followers of Mani, a Persian teacher who taught a war between light and darkness (CEN `manichaeism`).
+  - **baptized**: washed in water to join the church; adults then were usually baptized at Easter (E6, POS 1671–1673).
+  - **grace**: God's free gift of help, given though no one has earned it (E12, E16).
+  - **free will / free choice of the will**: a person's own power to choose good or evil (Q3, E16).
+  - **Confessions**: in Latin "confession" is both praise of God and admitting sin; his own description says the books "praise" God (E13, RET 9401–9403).
+  - **Scripture**: the Bible.
+  - **the apostle** (Q3): Paul, whose letters are in the Bible (RET 9063–9064, 1 Cor 4:7).
+  - **pagans**: people who worshipped the old Roman gods; his own words: "worshippers of false gods" (E14, CDE 769–770).
+  - **City of God**: his name for all who love God above themselves, as against the "earthly city" (Q2, CDE 27268–27272).
+  - **Pelagius, Pelagians**: a British-born monk teaching at Rome, and his followers, who held that God had given human nature the power to do good (CEN `pelagius`, `pelagianism`).
+  - **council**: a meeting of bishops that made rulings for the churches. Plain: "a meeting of bishops".
+  - **bishops of Rome**: use this, not "popes" (Possidius's words, E17); gloss once: "the leaders of the church at Rome".
+  - **condemned as heretics**: officially judged false teachers and cut off from the church; here the emperor's law also punished them (E17, POS 3010–3021).
+  - **penitential psalms**: songs from the Bible's Psalms asking God's forgiveness for sin (E20; editor lists them, POS 5963).
+  - **Gaul**: roughly modern France.
+  - **Orange's "chapters"**: short rulings, statements of what the church teaches (I1). Plain: "rulings".
+  - ***On the Spirit and the Letter***: "letter" is the written law that commands; "spirit" is God's Spirit giving love to keep it (E16; NP5 1055, editor's summary).
+  - **Catholic** (Jansen): a member of the church in union with the bishop of Rome. Here distinct from Luther's and Calvin's churches.
+  - **Jansenists**: Catholics, mainly in France, who followed Jansen's reading of Augustine on grace (I4, CEN `port-royal-jansenism`).
+  - **five propositions**: five short statements; plain word "five statements" (I4).
+  - **Goths, Vandals**: Germanic peoples who invaded the Roman Empire (E14, E19).
+  - Not to be used at all: "coadjutor", "catechumen", "panegyric", "semi-Pelagian", "Doctor of Grace".
 
 - **Shape:** Teacher or thinker. Trap to avoid: a list of books. Each work comes through a moment or his own words: the speech for the emperor, the two loves, "but God's grace won".
 
@@ -107,6 +134,7 @@ Sheet references (S, E, I, L, D, G) point to `Source_Sheet.md` in this folder, w
   - Do not say he died when Hippo fell. He died in the third month of a siege that lasted about fourteen months; the city was burned later (E19, E21).
   - Do not explain the tears at his ordination one way only: some took them for pride; he said he foresaw the dangers (E9).
   - Do not add feeling or motive the record does not give: he "envied" the beggar is in his own account (E5: "he was joyous, I anxious"); his reason for leaving the post is both his choice and his chest (E7).
+  - (Mark, 2026-11-18) Do not use any word in "Words to explain" without its plain sense the first time it is heard: rhetoric, bishop, priest, Manichaeans, baptized, grace, free will, Confessions, Scripture, the apostle, pagans, City of God, Pelagius/Pelagians, council, bishops of Rome, condemned as heretics, penitential psalms, Gaul, Orange's chapters, On the Spirit and the Letter, Catholic, Jansenists, five propositions, Goths, Vandals.
 
 - **Leave out:**
   - Monica, his partner and his son, the theft of pears, and the vision at Ostia: true to the Confessions, but not this story's job, which is the rhetoric, the two books and grace.

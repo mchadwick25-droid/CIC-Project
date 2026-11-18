@@ -2,15 +2,34 @@
 
 Sheet items (S, E, I, D, Q) are in `Source_Sheet.md`, which gives the file and line for each.
 
-- **The essence:** Barsauma was bishop of Nisibis, a city on the border between the Roman and Persian empires, in the late 400s. In 484 he led a synod of bishops at Beth Lapat against the head of his own church, and later took it back in writing (E5, E8, E10; Documented, his own letters). Yet what his side stood for became the Church of the East's settled law: married clergy, confirmed in 486 and 497, and Theodore of Mopsuestia as its sure teacher, confirmed in 605 (E11, I2, I3; Documented, the church's own synods). Writers of the churches that broke with it remembered him as the man who set the Persian church apart (I4, I5; Documented as their hostile claims).
-- **Also told:** the frontier bishop, from his own letters: drought, raiding tribes, a Roman general brought to Nisibis, and a city he feared would slip from Persia (E9, E10; Documented). That frontier bishop asked his catholicos for excommunications and threats of the king to quell his own rebels (E10; Documented). The rebel synod's charges against the catholicos Babowai, and Babowai's death, in which Barsauma's part is disputed (E5, E7, D2; Contested). The synod of 486, which he did not attend but accepted in advance: Christ in two natures, ascetics sent back to the monasteries, clergy free to marry (E11; Documented). His welcome of Narsai, in one clause (E4). The quarrel renewed in 491 (E12; Documented).
-  The sources will not hold "Barsauma made the Church of the East independent": that was ruled in 424 (S4). They hold that his synods fixed its teaching and discipline.
+- **The essence:** Barsauma was bishop of Nisibis, a city on the border between the Roman and Persian empires, in the late 400s. In 484 he led a synod, a council of bishops, at Beth Lapat against the catholicos, the head of his own church, and later took it back in writing (E5, E8, E10; Documented, his own letters). Yet what his side stood for became the Church of the East's settled law: clergy, the church's ordained ministers, free to marry, confirmed in 486 and 497; and Theodore of Mopsuestia, a Greek Bible teacher, as its sure guide, confirmed in 605 (E11, I2, I3; Documented, the church's own synods). Writers of the churches that broke with it remembered him as the man who set the Persian church apart (I4, I5; Documented as their hostile claims).
+- **Also told:** the frontier bishop, from his own letters: drought, raiding tribes, a Roman general brought to Nisibis, and a city he feared would slip from Persia (E9, E10; Documented). That frontier bishop asked the catholicos to excommunicate his own rebels, cutting them off from the church, and to threaten to report them to the king (E10; Documented). The rebel synod's written charges against the catholicos Babowai, and Babowai's death, in which Barsauma's part is disputed (E5, E7, D2; Contested). The synod of 486, which he did not attend but accepted in advance: Christ confessed as both fully God and fully human, "two natures" never mixed; wandering holy men sent back to their monasteries; clergy free to marry (E11; Documented). His welcome of the teacher Narsai, in one clause (E4). The quarrel renewed in 491, when he and the catholicos excommunicated each other (E12; Documented).
+  The sources will not hold "Barsauma made the Church of the East independent": that was ruled in 424 (S4). They hold that his synods fixed its teaching and its church rules.
 - **Length:** about 2¾ minutes (about 410 words). Why: the record is unusually rich for the 400s, with six of his own letters, the acts of three synods that touch his work, and witnesses from both sides. The heart has three parts (the rebel synod and its retraction, what the church kept from it, and how others remembered him), and all three must land early. The frontier letters carry the craft. The hostile tradition must be told openly, with its lateness. Not more: the school is Narsai's story, and the marriage, the embassy legends and the wonders are left out.
 - **Setting:**
   - Time: "the late 400s"; Beth Lapat, April 484; reconciliation, August 485; the synod at Seleucia, February 486 (S2).
   - Place: Nisibis, "a city on the border between the Roman and Persian empires", Persian since 363 (S1). Today Nusaybin in southeastern Turkey (census `modernCountries`; the census tradition entry names "Nusaybin, Turkey").
   - Tradition: "the Church of the East, the church of the Persian empire" (S3). Its head, the catholicos, sat at Seleucia-Ctesiphon, the Persian capital on the Tigris (S3). It had governed itself since 424 (S4).
-  - Plain words: "catholicos" = "the head of the church"; "synod" = "a council of bishops"; "canons" = "church rules"; "marzban" = "the Persian governor".
+  - Plain words: see "Words to explain", below.
+- **Words to explain** (the writer works the gloss into the sentence where the word is first heard; or uses the plain word instead):
+  - **synod**: "a council of bishops". Here a meeting of the Persian church's bishops, not a Roman empire-wide council (SO 20191–20192 "réunion d'évêques").
+  - **catholicos**: "the head of the Church of the East, at the Persian capital" (S3; SO 35473). Use once, then "the head of the church".
+  - **patriarch** (497 ruling, 605 quote): the same office as catholicos; the sources use both for Acacius (SO 35209–35213). Say "from the head of the church down".
+  - **see** ("disciple of the see"): say "the catholicos's office" instead (SO 35381 "siège").
+  - **clergy**: "the church's ordained ministers: bishops, priests and deacons".
+  - **deacon**: "a minister ranked below the priest". Plain word: "assistant ministers".
+  - **canons**: say "church rules" (SO 20257–20259).
+  - **excommunicate / excommunication**: "cut off from the church's worship and fellowship". Here it also barred a cleric from serving (SO 19801–19802).
+  - **two natures**: "Christ fully God and fully human, the two never mixed" (SO 19739–19746).
+  - **ascetics**: say "wandering holy men in black", men living by fasting and self-denial (SO 19700, 19753).
+  - **marzban**: say "the Persian governor" (SO-ed 20234 "marzban ou gouverneur").
+  - **Mar** (in "the blessed Mar Barsauma"): a Syriac title of respect, "my lord"; or drop it.
+  - **the Fathers** (Q3): "the church's founding teachers and early councils"; Simeon means the bishops of Nicaea and later councils (SIM 75099–75104).
+  - **Apostles** (Q3): "Jesus's first followers".
+  - **ordained / ordination**: "made a deacon or priest".
+  - **Syriac Orthodox**: "the rival Syriac church, which rejected the two-natures teaching" (TM 36838–36842 for the Armenian rejection; census `simeon-of-beth-arsham` "Syriac Orthodox side").
+  - **the East** (Q2): his church's lands in Persia, not "the East" in today's sense.
+  - **Nestorian**: do not use (see Do not say).
 - **Shape:** Founder or leader. Trap: titles and offices in place of acts. Keep to what he did: the synod he led, the letters he wrote, the rules that outlasted him.
 - **Sibling:** `narsai` (on the tree) holds the school of Nisibis; here it is one clause: Barsauma asked Narsai to stay and found a school, and the school counts both as founders (E4). Reuse none of its quotes; its "Edessa grew dark; Nisibis grew bright" line is not to be used. `babai-the-great` (batch 5) is a different man from the catholicos Babowai of this story, and from the catholicos Babai of 497 (D6). No shared event.
 - **Openings:**
@@ -97,6 +116,8 @@ None of the three is used in another story on the tree (all census `longDescript
 - Not "the East" without its plain sense in Q2: his church's lands in Persia.
 - Do not date the stormy-sea letter (Q1, Q2). Chabot thinks it may belong to another time than the other letters (SO-ed 35625–35628). Say "in another letter".
 - Not "Acacius was Babowai's relative" unless credited; that is Mari's and Chabot's note. It is not needed.
+
+- Each word under "Words to explain" used without its plain sense the first time it is heard.
 
 **Leave out**
 

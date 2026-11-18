@@ -2,14 +2,14 @@
 
 Sheet references (S, M, I, K, D, Q) point to `Source_Sheet.md` in this folder. File short names: J1–J8 = Wesley's Journal, Curnock edition, vols. I–VIII; CW = Charles Wesley's Journal; PA = Wesley, *Plain Account of the People called Methodists* (1749); MIN = Conference Minutes; DIS = American *Discipline* (1798); LEE = Jesse Lee, *Short History* (1810); LEP = John Nelson's Journal in *Lives of Early Methodist Preachers*; ALLEN = Richard Allen's own *Life*.
 
-- **The essence:** An Oxford priest of the Church of England felt, one May evening in 1738, that he trusted Christ alone and was forgiven (his own Journal, M4; Documented). The next year he began preaching in the open air, to crowds he counted in thousands, outside the churches and against his own sense of order (his own Journal, M5–M6; Documented). And he gathered those who answered into societies, and the societies into weekly classes of about twelve, which held the Methodists together and became the frame of the Methodist churches (his own Plain Account and Journal, M9, M11; the American record, I1; Documented).
+- **The essence:** John Wesley was a priest (an ordained minister) of the Church of England, England's state church. One May evening in 1738 he felt, for the first time, that he trusted Christ alone and that God had forgiven him (his own Journal, "what I now first felt", J1 27078, M4; Documented). From 1739 he preached outdoors, in fields and open ground, to crowds he counted in thousands, though he had thought preaching belonged only inside a church (his own Journal, M5–M6; Documented). And he gathered those who answered into "societies", small voluntary prayer groups within the church, and split each society into weekly "classes" of about twelve under a leader. Those groups held the "Methodists", a nickname from his Oxford days, together and became the frame of the Methodist churches (his own Plain Account and Journal, M9, M11; the American record, I1; Documented).
 
 - **Also told:**
-  - **What changed at Aldersgate:** not new teaching but trust felt as his own; he told the room at once, and his brother heard him say "I believe" that night (M4; Documented, two witnesses).
-  - **What the fields cost him:** he had thought saving souls almost a sin outside a church (Q2); a bishop told him he had no business preaching in his diocese, and he stayed (M10; Wesley's own record, kept by a later editor; Documented as his record); a mob dragged him through a town and called for his death (M12; his own account; Documented).
-  - **How a society and a class worked:** one condition to join, a desire "to flee from the wrath to come"; a leader who saw each member weekly, asked how their souls prospered, advised, rebuked or comforted, and collected for the poor; members who would not change were put out (M9, M11; PA; Documented). The class began as a plan to pay off a building debt, a penny a week (M11; Documented).
-  - **Who preached:** ordinary men, "lay assistants", allowed at first "only in cases of necessity" (M13; Documented); John Nelson, a stonemason who heard him in Moorfields, was one of the first (M7, I5; Nelson's own account; Widely Accepted for his becoming a preacher).
-  - **What it became:** in 1784 he ordained men for America himself, and American Methodists formed their own church that year, keeping his Rules "with very little alteration" (M15, I1, I3; Documented). At the Conference held a few months after his death, the societies counted more than 130,000 members in Europe and America (I4; Documented). In 1789 he still said the Methodists were never meant to be a separate party from the Church of England (M16; Documented as his claim).
+  - **What changed that evening, at a meeting in Aldersgate Street, London:** not a new belief but trust he now felt as his own. He told the room at once, and that night his brother heard him say "I believe" (M4; Documented, two witnesses).
+  - **What preaching outdoors cost him:** he had thought saving souls almost a sin outside a church building (Q2). The bishop of Bristol, the senior churchman over that region, told him he had no business preaching there; Wesley stayed (M10; Wesley's own record, kept by a later biographer; Documented as his record). A mob dragged him through a town, some crying for his death (M12; his own account; Documented).
+  - **How a society and a class worked:** the one condition for joining was a wish to escape God's coming judgment and be freed from sin. A class leader saw each member weekly, asked how they were living, advised, rebuked or comforted, and collected money for the poor. Members who would not change were put out (M9, M11; PA; Documented). The class began in 1742 as a way to pay off a building debt, a penny a week each (M11; Documented).
+  - **Who preached:** ordinary men who were not ordained as ministers, allowed at first "only in cases of necessity" (M13; Documented). John Nelson, a stonemason who heard him preach outdoors in London, became one of the first (M7, I5; Nelson's own account; Widely Accepted for his becoming a preacher).
+  - **What it became:** after American independence, in 1784, Wesley ordained ministers for America himself, though only bishops normally did so (Curnock's note, J7 250–257, editor). American Methodists then formed their own church that year and kept his written Rules for the societies "with very little alteration" (M15, I1, I3; Documented). At the yearly meeting of his preachers held a few months after his death, the societies counted more than 130,000 members in Europe and America (I4; Documented). In 1789 he still said the Methodists were never meant to be a separate group from the Church of England (M16; Documented as his claim).
 
 - **Length:** 3 minutes (about 450 words, Neo). He is a major figure on the tree, his own record is rich and close, and the job has three linked parts (the heart, the fields, the societies) plus a connection that needs room: the class and its Rules crossing to America. The force in the record (the bishop, the mob, members put out, Allen's complaint) must stay. This is the room the story needs, not filler.
 
@@ -18,6 +18,29 @@ Sheet references (S, M, I, K, D, Q) point to `Source_Sheet.md` in this folder. F
   - Place: London and Bristol; Georgia in America before (M1, M2). Spoken: "in London", "in Bristol, a port city in the west of England".
   - Tradition: "the Methodist revival" (census `toldWithin`), inside "the Church of England" (S4, M16).
   - Who he was: a priest of the Church of England and a Fellow of an Oxford college, with no parish of his own (S2, M8). The name "Methodist" began at Oxford as a mocking nickname (S3).
+
+- **Words to explain** (give the plain word, or work the gloss into the sentence where the word is first heard):
+  - **priest / ordained:** a minister of the Church of England, formally set apart by a bishop to lead worship. "Ordained" = formally made a minister.
+  - **Church of England:** England's official state church, Protestant, led by bishops. Methodists began inside it (J7 29881–29884).
+  - **Fellow of an Oxford college:** a member of a college's teaching staff; he had no parish (S2, J2 16443–16445).
+  - **parish:** the local area served by one church and its minister. He had none of his own (J2 13790–13792).
+  - **bishop / diocese:** a bishop is the senior churchman over a region; that region is his diocese. Better: "the bishop of Bristol told him he had no business preaching in his area" (J2 16427–16429).
+  - **Methodist:** at first a mocking nickname for a few Oxford students who kept strict habits of study and prayer; not yet a church (CM 229–240).
+  - **society:** a voluntary group that met weekly to pray and be advised, inside the Church of England, not a separate church. Wesley calls it "a very innocent name, and very common in London" for any group of people joined together (PA 197–199). Differs from today's sense of a club or a church.
+  - **class:** a group of about twelve members meeting weekly with a leader to talk about how they were living; not a lesson. Curnock: the word "has no suggestion of teaching in it" (J2 31881–31884).
+  - **lay preacher / lay assistant:** a preacher who was not an ordained minister (MIN 2011–2012).
+  - **Moravians:** members of a small German Protestant brotherhood; Wesley calls them simply "the Germans" (J1 6960).
+  - **the Conference:** Wesley's yearly meeting with his preachers to settle teaching and appointments (MIN 450–460).
+  - **superintendent:** the leader set over the American preachers; Wesley's word, in place of "bishop" (J7 1151–1152).
+  - **Episcopal church:** a church led by bishops; the Americans' own word in 1784 (LEE 4277–4279).
+  - **sacrament / the Lord's Supper:** the shared bread and wine of Christian worship, also called Communion (PA 244–252; "the Supper of the Lord" is among the "Ordinances of God" listed, OCR "per of the Los p").
+  - **"flee from the wrath to come":** escape God's judgment to come. Give the plain sense beside the phrase (LEE 661–662).
+  - **"law of sin and death" (Q1):** sin's hold over him, and death as its end (Paul, Romans 8:2).
+  - **"saving souls" (Q2):** bringing people to faith and forgiveness.
+  - **"decency and order" (Q2):** the church's proper rules for where and how worship is done.
+  - **"to be more vile":** to accept being looked down on; a Bible phrase (J2 10853–10856, Curnock's note).
+  - **salvation / assurance (Q1):** being forgiven and made right with God; "assurance" = a felt certainty of it.
+  - **revival:** a spread of new religious fervour among many people at once.
 
 - **Shape:** Founder or leader. Trap: titles and offices in place of acts. Tell what he did on given days (the meeting, the brickyard, the penny a week, the mob, the ordinations).
 
@@ -86,6 +109,7 @@ Sheet references (S, M, I, K, D, Q) point to `Source_Sheet.md` in this folder. F
   - Richard Allen (LATER, his own Life): item 4.
 
 - **Do not say:**
+  - Any word in "Words to explain" used without its plain sense the first time it is heard (Mark, 2026-11-18).
   - Do not quote "strangely warmed" (used in the Methodist Revival story; D1). Say he felt his heart warmed, in the narrator's words, unless Mark rules otherwise.
   - Do not name the person reading Luther's preface, and do not name the building. Say "a society meeting in Aldersgate Street" (D2).
   - Say he went "very unwillingly", not that he went eagerly or by chance.

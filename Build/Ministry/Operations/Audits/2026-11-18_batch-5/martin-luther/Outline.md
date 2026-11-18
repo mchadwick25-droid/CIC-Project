@@ -2,14 +2,42 @@
 
 Every line cites `Source_Sheet.md` (S = setting, M = moment, I = impact, D = disagreement, N = not held).
 
-- **The essence:** In 1517 Martin Luther, a friar who taught at Wittenberg, protested against the sale of indulgences (M1, M2: Documented). In 1521, before the emperor at Worms, he refused to take back his books unless Scripture or clear reason proved him wrong (M7: Documented; the words "Here I stand" are Contested, D1). Outlawed and hidden, he put the New Testament into German (M9, M10, M11: Documented).
-- **Also told:** He wanted the people to sing in their own language, not only hear a choir (M14: Documented). He wrote hymns, helped make the first Wittenberg hymnbook in 1524 and a German service in 1526 (M15, M16: Documented, his prefaces; four of the book's eight hymns are his by Bacon's count, Widely Accepted). With colleagues he finished the whole Bible in German by 1534 (M12: Widely Accepted, editor's dates). What his churches kept: his hymns were still printed in Halle's hymnbook two centuries later and sung in English by the Moravians (I1: Documented). A church order he approved for Denmark urged that the Lord's Prayer and the words of the Supper be said in Danish (I2: Documented). The Library holds no later church witness that quotes or orders his Bible; that it lasted rests on editors (I5, N1), so the story tells the making of the Bible, and the keeping of the hymns.
+- **The essence:** In 1517 Martin Luther, a friar (a member of a religious order living under vows) who taught the Bible at Wittenberg, protested against the sale of indulgences: letters of pardon, bought from church preachers, said to cancel punishment for sins, even for the dead (M1, M2, S5: Documented). In 1521, before the emperor and the princes of the empire at Worms, he refused to take back his books unless Scripture or clear reason proved him wrong (M7: Documented; the words "Here I stand" are Contested, D1). Declared an outlaw by the emperor and hidden by friends, he put the New Testament into German (M9, M10, M11: Documented).
+- **Also told:** He wanted ordinary people to sing in church in their own language, not only hear a choir sing the Latin service (M14: Documented). He wrote hymns, helped make the first Wittenberg hymnbook in 1524, and a German form of the Mass, the church's main Sunday service with Communion, in 1526 (M15, M16: Documented, his prefaces; four of the book's eight hymns are his by one editor's count, Widely Accepted). With colleagues he finished the whole Bible in German by 1534 (M12: Widely Accepted, editor's dates). What his churches kept: two centuries later the hymnbook of Halle, a Lutheran town in Germany, still printed his hymns, and in London in 1754 the Moravians, a Protestant church of German origin, sang one in English (I1: Documented). A rulebook for the churches of Denmark, which he approved, urged that the Lord's Prayer and Christ's words at Communion be said in Danish (I2: Documented). The Library holds no later church witness that quotes or orders his Bible; that it lasted rests on editors (I5, N1), so the story tells the making of the Bible, and the keeping of the hymns.
 - **Length:** about 3 minutes (about 450 words). Reason: three linked events in five years (protest, stand, translation), the force against him (the bull, the emperor, the Edict), a contested ending at Worms that is itself a scene, and the hymns and their later life. The record is full; nothing is padded. The essence fills the first 150 words.
 - **Setting:** "In 1517" (S3); "Wittenberg, a small university town in Saxony, in eastern Germany" (S2); "a friar of the Augustinian order who taught the Bible and theology there" (S1); "Worms, on the Rhine, where the emperor met the princes of the empire" (S2); tradition: "the Lutheran churches", "the churches that grew from Wittenberg" (S4). Weave in a clause at a time.
+- **Words to explain** (plain word to use instead, or a gloss under about 12 words, worked in where the word is first heard):
+  - **friar:** "a member of a religious order, living under vows". Luther was an Augustinian friar (S1, KD 6032).
+  - **indulgence / pardon:** "a letter of pardon, bought from church preachers, said to cancel punishment for sin" (S5; KD 2290–2292; W1 1018–1021). Not today's sense of "indulgence" (a treat).
+  - **purgatory:** "a place of cleansing after death, as the church then taught" (W1 1020–1021). Say once; it is the preachers' and Luther's word, not the narrator's belief.
+  - **theses:** "short statements for a university debate" (S1, KD 2436–2442; W1 448–456, Jacobs). Not a long essay, today's sense.
+  - **repentance (Thesis 1):** "turning away from sin and back to God". Thesis 1's Latin "poenitentia" also means penance; keep "repent" (KD 2446–2448).
+  - **archbishop of Mainz:** "the chief bishop over many dioceses, a great prince of the church". Luther's letter addresses him as "Primate" (W1 996–997); he held two archbishoprics (W1 711–714, Jacobs). Diocese, if used: "a bishop's district".
+  - **St Peter's:** "the pope's great new church in Rome", then being built (W1 706–716).
+  - **the pope's bull:** use "a decree from the pope", or "a papal decree, named for its seal". Not "bull" alone.
+  - **excommunication** (if used): "being cut off from the church and its sacraments". The 1520 decree threatened it (M5).
+  - **Diet / imperial assembly:** use "a meeting of the emperor with the princes of the empire" (S2).
+  - **the empire / the emperor:** "the Holy Roman Empire, a union of German and central European lands". Not Rome's ancient empire.
+  - **safe-conduct:** "the emperor's promise of safe passage there and back" (D6; RTA 39121–39122).
+  - **heretic:** "one who holds a belief the church has condemned" (KD 6049–6050).
+  - **Edict / outlaw:** "an imperial law"; "outlaw: no one might shelter him; anyone could seize him" (KD 6058–6072).
+  - **Patmos:** "the island where John wrote Revelation in exile", Luther's name for his hiding place (CUR 7737).
+  - **Mass:** "the main church service, with Communion". Then it was in Latin (M14).
+  - **choir:** "the trained singers, clergy and boys, who sang the service". Then the people mostly listened (KD 8309–8310).
+  - **councils:** "meetings of bishops that decided church teaching" (Q1).
+  - **Christendom:** "all the Christian peoples together" (Q2).
+  - **Gospel:** "good news", Luther's own gloss (W6 21041–21043). For the read passages, say "readings from the Gospels and the apostles' letters", not "Gospels and Epistles".
+  - **hymnbook in four parts:** "set for four singing voices" (W6 13452).
+  - **Communion / the Lord's Supper / words of institution:** "the shared bread and wine"; "Christ's words at the Last Supper" (DK 6540–6543).
+  - **laymen:** "ordinary church members, not clergy" (W6 8696).
+  - **parish church:** "the town's own church", here Wittenberg's (HY 767–768).
+  - **church order:** "a written rulebook for how churches worship and are run" (DK 111–120).
+  - **Lutheran:** "the churches that grew from Luther's teaching" (S4).
+  - **Moravians / Halle:** "a Protestant church of German origin"; "Halle, a Lutheran town in Germany" (I1).
 - **Shape:** Teacher or thinker. The question he was answering: what repentance is, and what a bought pardon can do (M2, Th. 1). The impact is in the readers and singers. Trap: a list of books. Show the idea through 1517, Worms and the hymnbook, not titles.
 - **Sibling:** `william-tyndale` (batch 5). Tyndale printed his English New Testament at Worms in 1526 (his live story, CEN). This story's job: Luther's stand at Worms in 1521, and the German Bible and hymns. Tyndale's job: his own English Bible and printing. Do not mention Tyndale's printing or his use of Luther here; that is his story's. Also on the tree: `lutheran-wittenberg-and-its-congregations` tells the 1517 theses and the church door; do not retell the door (D2).
 - **Openings:**
-  (a) **Chosen.** The letter, 31 October 1517. A young friar at Wittenberg writes to the most powerful churchman in Germany, the archbishop of Mainz. Pardons for the building of St Peter's in Rome are being sold in the archbishop's name. People believe that once they have bought the letters they are sure of heaven, and that souls fly out of purgatory as soon as coins drop into the box (M1). Paraphrase; about three sentences, then the essence.
+  (a) **Chosen.** The letter, 31 October 1517. A young friar at Wittenberg writes to one of the most powerful churchmen in Germany, the archbishop of Mainz. Pardons for the building of St Peter's in Rome are being sold in the archbishop's name. People believe that once they have bought the letters they are sure of heaven, and that souls fly out of purgatory as soon as coins drop into the box (M1). Paraphrase; about three sentences, then the essence.
   (b) Not chosen for the opening: Worms, 17 April 1521. The crowd was so thick that he was led in by a back way, and many climbed onto the roofs to see him (M6). Use it in beat 4.
 
 **Story beats** (beat 1 is the first minute)
@@ -55,6 +83,7 @@ End on 1 or 3, then close on the person (see Ending).
 - Editors (Kidd 1911, Wrede 1896, Jacobs, Bacon): dates and the door; credit as "historians" where needed. The doubt over "Here I stand" is Wrede's finding; tell it as a scene (beat 4), not as a stock how-we-know sentence.
 
 **Do not say**
+- Any word in "Words to explain" used without its plain sense the first time it is heard (heart test, 2026-11-18).
 - Not "he nailed his theses to the church door". The Library holds no witness from 1517; the door is told on the Wittenberg entry as a later tradition (D2). Say he sent them to the archbishop.
 - Not "Here I stand, I can do no other" as his settled last words. Say the words appear only in prints from one Wittenberg press, and other reports end "God help me. Amen." (D1).
 - Not that *Ein feste Burg* was written or sung on the road to Worms. Bacon dates it to 1529 (D4). Not "the battle hymn of the Reformation" as a source's phrase.

@@ -2,17 +2,40 @@
 
 Sheet items (S, E, I, D) are in `Source_Sheet.md`, which gives the file and line for each. PE is White's English (1920), PL White's Latin (1918), ST Stokes's Latin (1887).
 
-- **The essence:** Patrick, a Briton from a Roman family, was carried off to Ireland as a slave at about sixteen. He escaped after six years, and years later went back of his own will as a bishop, to the people who had enslaved him (E1, E3, E5, E7, E13; Documented, his own words). Almost all we know of him comes from his own two short Latin writings, the Confession and a letter against the soldiers of a warlord named Coroticus, the only words that survive from the first church in Ireland (I1; Documented that they are his and were kept; "only words" Widely Accepted, the census and White).
+- **The essence:** Patrick, a Briton from a Roman family, was carried off to Ireland as a slave at about sixteen. He escaped after six years. Years later he went back of his own will as a bishop, a senior church leader who could appoint other ministers, to the people who had enslaved him (E1, E3, E5, E7, E13; Documented, his own words). Almost all we know of him comes from his own two short Latin writings: the Confession, his account of his life and his thanks to God, and a letter against the soldiers of a warlord named Coroticus. They are the only words that survive from the first church in Ireland (I1; Documented that they are his and were kept; "only words" Widely Accepted, the census and White).
 - **Also told:**
-  - What he did there, in his own account: he says he baptized "many thousands", had clergy ordained everywhere, and saw sons and daughters of Irish chiefs become monks and women vowed to God (E8; Documented as his claim; he is the only witness, and Christians were in Ireland before him, S4, D4).
-  - What it cost: kings seized him, robbed him and held him in chains for fourteen days. He paid kings, their sons and judges to move safely, and expected death or slavery every day (E9; Documented). Elders in Britain tried to stop him going (E6), and later brought up against him a sin of his youth that his dearest friend had made known (E10; Documented; the sin is never named).
-  - The Letter: soldiers of Coroticus killed newly baptized converts the day after their baptism and sold others as slaves. Patrick told Christians to shun them until they freed the captives (E12; Documented). What happened next is not known (D7).
-  - What came of him: his writings were kept and copied at Armagh (I1). The Irish church later sang of him as "teacher of the Irish" (I2). Legend grew around him centuries later, and it is credited plainly as late (I4).
+  - What he did there, in his own account: he says he baptized "many thousands", washing them in water to make them Christians, and had church ministers appointed everywhere. Sons and daughters of Irish chiefs became monks, men living apart for God, and women vowed to stay unmarried for God (E8; Documented as his claim; he is the only witness, and Christians were in Ireland before him, S4, D4).
+  - What it cost: kings seized him, robbed him and held him in chains for fourteen days. He paid kings, their sons and judges to move safely, and expected death or slavery every day (E9; Documented). Senior churchmen in Britain tried to stop him going (E6). Later they brought up against him a sin of his youth that his dearest friend had made known (E10; Documented; the sin is never named).
+  - The Letter: soldiers of Coroticus killed new converts the day after their baptism, while they still wore their white baptism clothes, and sold others as slaves. Patrick told Christians not to eat with them or take their gifts until they showed sorrow and freed the captives (E12; Documented). What happened next is not known (D7).
+  - What came of him: his writings were kept and copied at Armagh, a church in the north of Ireland that claimed him as its founder (I1, I3). The Irish church later sang of him as "teacher of the Irish" (I2). Legend grew around him centuries later, and it is credited plainly as late (I4).
 - **Length:** about 2¾ minutes (about 410 words). Why: his own two writings are rich in scenes (the capture, the escape, the dream, the raid), and the heart has three parts that must land in the first minute: captive, return as bishop, and his own voice as our source. The rest needs room for the cost and the opposition, the raid, and a third for what came of him. His own words give almost no dates, places or names, so nothing is spent on chronology. All the later legend is left out but one line. Up to about 3 minutes for a person (about 460 words); craft comes before time.
 - **Setting:**
   - Time: the fifth century (S3). He gives no year; the annals put his coming in 432, and they disagree on his death (D2). Plain word: "the fifth century".
   - Place: Roman Britain, where his father was a deacon and a member of the town council (S1, S2). The farm was near a village he names, Bannavem Taberniae, whose place no one knows. Then Ireland, which was never part of the empire (S4, S5). Plain words: "Roman Britain", "Ireland, beyond the empire's edge".
   - Tradition: the first church in Ireland (S5). Plain words: "the young church in Ireland". Do not say "Insular" or "Celtic Church".
+**Words to explain** (the first time each is heard; plain word or gloss of under about 12 words, worked into the sentence)
+
+- **bishop**: "a senior church leader who could appoint other ministers". In his time and place, a bishop for a people, not a city; he appointed clergy himself (PE 2577–2578, "the Lord ordained clergy everywhere by means of my mediocrity"; White, "missionary bishop", PE-ed 841).
+- **deacon**: "an assistant minister in the church". Then, deacons and priests could be married men with sons: his father was a deacon, his grandfather a priest (S1; White, PE-ed 414–430). Say so if the listener might find it odd.
+- **priest / presbyter**: use "priest", glossed "a minister who led worship". Never say "presbyter".
+- **clergy / ordain**: say "church ministers" and "appoint"; avoid "ordain".
+- **baptize / baptism**: "washing in water by which a person became a Christian".
+- **newly baptized, white clothes, anointing oil**: "new Christians still in white, the blessing oil on their foreheads" (Letter 3, PE 2866–2868; ST 7266, "crismati"; Stokes's note, "Their white baptismal garments", ST 7286).
+- **monks**: "men who left ordinary life to live for God".
+- **virgins of Christ**: say "women vowed to stay unmarried for God" (Conf 42, PE 2423–2428). Not "nuns": no convent life is described.
+- **elders** (his *seniores*): say "senior churchmen". Not the modern sense of a congregation's elders.
+- **Confession**: "his account of his life, and thanks to God". Not an admission of sins (White, PE-ed 1617–1625).
+- **penance**: say "show sorrow and make amends" (Letter 7, PE 2921, "sore penance with shedding of tears").
+- **heathen**: "people who worshipped other gods" (Conf 41, PE 2412–2414, "idols").
+- **the gospel**: "the Christian message".
+- **town councillor** (Latin *decurio*): "a member of a Roman town council" (White, PE-ed 403–406).
+- **Roman Britain**: "Britain, then a province of the Roman Empire" (White, PE-ed 400–408).
+- **Picts**: "a people of northern Britain". "Apostate", if used: "who had abandoned the faith", Patrick's word, White's reading (PE-ed 432–438).
+- **Franks** and **Gaul**: "the Franks, a heathen people in Gaul, roughly today's France" (Letter 14, PE 3070–3072).
+- **Armagh**: "a church in the north of Ireland that claimed him as founder" (I3). Never "the see of Armagh".
+- **hymn**: plain; "sung by the monks of Bangor, a monastery in the north of Ireland".
+- **slave in Christ** (Quote 3): the narrator gives the plain sense alongside: he gave his life to serve the Irish, for Christ's sake.
+
 - **Shape:** Missionary or translator. The trap is telling it only from the sender's side. Here every word is the sender's, so say whose record it is, once, and let the Irish converts appear through what they did: the chiefs' children who took vows, and the women who took them against their fathers' will. The bridge he built is a church: baptism, clergy and vowed lives, among a people outside the empire.
 - **Sibling:** none. The tree's stories of Muirchu, Tirechan and Nennius tell the later Patrick of legend; this story keeps to his own writings and names those writers only as late.
 - **Openings:**
@@ -69,6 +92,7 @@ Sheet items (S, E, I, D) are in `Source_Sheet.md`, which gives the file and line
 
 **Do not say**
 
+- Any word in "Words to explain" used without its plain sense the first time it is heard.
 - Not "Patrick brought Christianity to Ireland", "the first bishop of Ireland" or "converted Ireland". A bishop was sent to Irish believers in 431 (S4, D4). Say he baptized many and had clergy ordained, as he says.
 - Not "Pope Celestine sent him", "Germanus made him bishop" or "he studied in Gaul". He never says who made him bishop (E7, D3). He only wished to visit "the brothers" in Gaul (E14).
 - Not "seven years" or "swineherd". He says six years, "tending flocks" (E2, E3, D1).
