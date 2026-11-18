@@ -22,7 +22,7 @@ Each essence is told within the first minute. Each "also told" part is told with
 
 ## Columba
 
-**Essence.** An Irish monk who left home for good as a pilgrim for Christ and founded Iona. Iona became the head of many houses. Bede says he turned the northern Picts to the faith, and through Aidan it sent the faith to the English.
+**Essence.** An Irish monk who left home for good as a pilgrim for Christ and founded Iona. Iona became the head of many houses. Bede says he turned the northern Picts to the faith. Through Aidan, Iona sent the faith to the English.
 
 **Also told:** the abbot over even bishops; the Picts claim as Bede's, contested in scope; Whitby.
 
