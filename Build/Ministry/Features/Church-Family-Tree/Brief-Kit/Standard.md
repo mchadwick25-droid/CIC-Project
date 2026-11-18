@@ -7,7 +7,7 @@ A story that lets an interested non-specialist meet one person, council or event
 ## Craft
 
 - A well-sourced story, told by an adult documentary narrator who knows the record well, in the register of a BBC or National Geographic documentary. Never quotations linked by commentary, never a report about the record, and never talking down.
-- Open on something that draws the listener in. Let the time, the place and the tradition reach the listener early, each in whatever form the story gives it, never as a list.
+- Tell the heart of their life, their major contributions and the essence of their work, within the first minute, and let the rest deepen it. Open on something that draws the listener in and leads there. Let the time, the place and the tradition reach the listener early, each in whatever form the story gives it, never as a list.
 - Tell what was at stake, not only what happened: what an act meant in its own time, what it risked and what it changed.
 - Link ideas the way an adult narrator does, with cause, contrast and time. Let a longer sentence carry a chain of events and a short one mark a turn. No sentence past about 30 words, and no run of short sentences that each tell one act.
 - Give the outline's connection enough room to become understandable, carried through what people did: what they left the church and what they defended. Tell it where it is strongest. Once it has landed, the story may end on it, or on a scene, the person's own words or their death. No moral, no summing up.
