@@ -7,7 +7,6 @@
   "datesNote": "Left Edessa in 457 by R. H. Connolly's account, or after 471 if the bishop named by Barhadbeshabba stands, as François Nau notes; died in 502 by Connolly after Alphonsus Mingana, or in 503 or 504 by Nau's reckoning",
   "placeNote": "Ma'alta; Edessa; Nisibis",
   "role": "Poet and head of the schools of Edessa and Nisibis",
-  "briefLength": "about 2 minutes 45 seconds",
   "keyWorks": [
     {
       "title": "Metrical homilies",
@@ -81,19 +80,22 @@
     ]
   },
   "briefReferences": [
-    "Barhadbeshabba 'Arbaia, History of the holy Fathers, ch. XXXI, tr. François Nau (PO 9): born at Ma'alta in Persian territory; written at the end of the 500s, by Nau's dating, in praise of a saint of his own church.",
-    "History, tr. Nau: the charges at Edessa, a heretic who follows Theodore and Nestorius, his mind with the Persians, wanting to hand over the city; his refusal to agree outwardly; condemned to be burned, warned by a friend, his flight that night; the Persians at the city church who carried his books to Nisibis, for they were all his treasure.",
-    "History, tr. Nau: he meant to go east, into the middle of Persia, to teach; later two of his students denounced him to King Qawad as an enemy of his empire; forty years at Nisibis.",
-    "Cause of the Foundation of the Schools, tr. Addai Scher (PO 4): Narsai and Barsauma at the school of Edessa; Theodore's commentaries put into Syriac; Narsai head of the school for twenty years, giving commentaries with chant every day.",
-    "Cause, tr. Scher: Barsauma has him brought into the city with great honour, asks him to found a school and promises help; Persian and Syrian students come, and most of those at Edessa; the school's verdict, Edessa grew dark; Nisibis grew bright; forty-five years at Nisibis.",
-    "Cause, tr. Scher: the school founded by Bar-Sauma, bishop, and Rabban Narsai, priest; after him Elisha, then Abraham, a kinsman of Narsai.",
-    "Letter of Simeon of Beth Arsham, in J. S. Assemani's Latin (Bibliotheca Orientalis I) and as Bar Hebraeus's editors quote it: Narses Leprosus; the school at Edessa overthrown by the work of Bishop Cyrus and the order of the emperor Zeno.",
-    "Chronicle of Edessa, tr. Cowper, no. 73: in the year 800 of the Greeks (489) the school of the Persians was rooted out of Edessa.",
-    "Statutes of the School of Nisibis, ed. Ignazio Guidi, introduction: the first statutes, made in 496 while Narsai was its master; under Khosrau I the school swore to keep the canons of Narsai.",
-    "Bar Hebraeus, Ecclesiastical Chronicle III, tr. Abbeloos and Lamy: fifty years at Nisibis.",
-    "R. H. Connolly, The Liturgical Homilies of Narsai, note to Homily XXII: his enemies called him \"The Leper\", his friends \"The Harp of the Holy Spirit\".",
-    "Homily XXII (On Baptism), tr. Connolly: \"As in a furnace He re-cast our image in Baptism\".",
-    "World census, The Church of the East under Persia: his tradition, the Christians under the Persian shahs."
+    "Barhadbeshabba 'Arbaia, History of the holy Fathers, ch. XXXI, tr. François Nau (PO 9), cic/texts/po09_barhadbeshabba-ecclesiastical-history-part2-and-others-fra_1913.txt 36830-36839: warned by a friend that he would be thrown into the fire unless he fled that night, he left, and at the city church asked some Persians to carry his books to Nisibis, for they were all his treasure. Nau dates the History to the end of the 500s (31574-31577).",
+    "History, tr. Nau, 36179-36180: born in the country of Ma'alta, in Persian territory.",
+    "History, tr. Nau, 36684-36698: his accusers at Edessa call him a heretic who follows Theodore and Nestorius, and say his mind is with the Persians and that he would hand over the city.",
+    "Cause of the Foundation of the Schools, tr. Addai Scher (PO 4), cic/texts/barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt 20482-20491 and 20547-20560: Narsai and Barsauma at the school of Edessa; Theodore's commentaries put into Syriac; Narsai head of the school for twenty years.",
+    "Cause, tr. Scher, 20611-20617 and 20690-20693: Barsauma has him brought into Nisibis, asks him to found a school there and promises help; Nisibis lies between the two empires.",
+    "Cause, tr. Scher, 17457-17460: the school founded by Mar Bar-Sauma, bishop, and Rabban Mar Narsai, priest.",
+    "Cause, tr. Scher, 20739-20747: students come from Persia and Syria and most of those at Edessa; the school's verdict on Edessa and Nisibis; forty-five years at Nisibis; more than three hundred homilies.",
+    "Cause, tr. Scher, 20813-20815, and History, tr. Nau, 37453-37462: Abraham, a kinsman of Narsai, who shared his cell, later head of the school. Scher dates the Cause to the end of the 500s (20827).",
+    "R. H. Connolly, The Liturgical Homilies of Narsai, introduction, cic/texts/narsai_liturgical-homilies_connolly1909.txt 253-260: forty-seven homilies printed by Mingana in 1905; 457 for his leaving Edessa (258-260).",
+    "History, tr. Nau, note 36700-36705: the bishop named would put his leaving Edessa after 471.",
+    "Homily XXII (On Baptism), tr. Connolly, 6857-6858: the furnace and the spiritual gold.",
+    "Statutes of the School of Nisibis, ed. Ignazio Guidi, introduction, cic/texts/school-of-nisibis_statuti-della-scuola-di-nisibi-syr-ita_guidi1890.txt 9884-9888, 9948-9952 and 9982-9995: the first statutes made in 496 while Narsai was its master; under Khosrau I the school swore to keep the canons of Narsai; in 602 the old rules were sought out and brought back into force.",
+    "History, tr. Nau, 37307-37335: two of his students denounce him to King Qawad as an enemy of his empire.",
+    "History, tr. Nau, 37409-37412; Bar Hebraeus, Ecclesiastical Chronicle III, tr. Abbeloos and Lamy, cic/texts/barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt 4554-4557: forty years at Nisibis in the History, fifty in Bar Hebraeus.",
+    "Junillus Africanus, Instituta regularia, preface, cic/texts/kihn_theodor-von-mopsuestia-junilius-africanus-instituta-lat-deu_1880.txt 22735-22738: Paul, a Persian trained in the school of the Syrians at Nisibis, where divine law is taught by public masters in order and by rule; Kihn dates it about 550, in Constantinople.",
+    "World census, The Church of the East under Persia: his tradition, the Christians under the Persian shahs; Edessa and Nisibis in today's southeastern Turkey."
   ],
   "quotationOriginals": [
     {
