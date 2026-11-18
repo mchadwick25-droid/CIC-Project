@@ -172,3 +172,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | thomas-a-kempis | outline check 2 | Opus | 150,532 | FIX: 2 blocking, 4 minor |
 | third-council-of-toledo-589 | outline check 2 | Opus | 151,438 | FIX: 1 blocking (a motive in the Connection), 7 minor |
 | vardan-mamikonian | outline check 2 | Opus | 153,130 | PASS, 7 minor |
+| third-council-of-toledo-589 | outline fixes from check 2 (researcher) | Opus | — | blocking and 7 minor applied |
