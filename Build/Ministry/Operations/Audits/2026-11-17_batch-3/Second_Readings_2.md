@@ -70,3 +70,9 @@ These do not affect any verdict. Checked against the files:
 ## Applied (2026-11-18)
 
 Every card quotation for Toledo III, Chalcedon and Pachomius carries the verdict in the table above. Chalcedon's two term entries, "from two" and "in two natures", were second-read blind on their own (`Second_Readings_Blind_3.md`): both "same". No quotation in these three pieces changes meaning.
+
+## Moses the Black, the quotation added at the evaluation fix (2026-11-18)
+
+| Id | Verdict | Reason |
+|---|---|---|
+| moses-the-black Q4 | MINOR | The brief's "Those who take the sword shall perish by the sword" against the blind reader's "Those who take the sword will die by the sword" (Budge 1464; `Second_Readings_Blind_4.md`). The meaning holds. |
