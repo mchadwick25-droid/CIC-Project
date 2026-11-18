@@ -180,3 +180,5 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | arius | outline check 2 | Opus | 142,441 | FIX: 1 blocking, 7 minor |
 | justin-martyr | outline check 2 | Opus | 184,649 | FIX: 1 blocking (two held Acts witnesses missed), minors |
 | baudonivia | write (fresh, heart first) | Opus | 93,101 | 327 words, grade 7.3, pass |
+| council-of-chalcedon-451 | outline fixes from check 2 (researcher) | Opus | — | blocking and 6 minor applied |
+| pachomius | outline check 2 | Opus | 144,316 | FIX: 1 blocking (who asked for the Latin), 7 minor |

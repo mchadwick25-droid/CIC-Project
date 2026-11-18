@@ -59,6 +59,8 @@ Census spoken names (`cic-website/data/world-census.json`): the council is "Coun
 Latin, Mansi 6, `mansi_sacrorum-conciliorum-collectio-tomus-6-441-451-lat_welter-facsimile1901.txt` 92457–92465, with the doubt of the Illyrian and Palestinian bishops at that very passage. Acts. Documented.
 > "Similiter cum legeretur ex epiftola pars, quz continet; Agit enim utraque forma cum alterius communione, quod proprium eft , Verbo fcilicet operante quod Verbi eft, & carne exequente quod carnis eft, Unum horum coruícat miraculis, aliud fuccumbit injuríis.) Dubitantibus Illyricianis & Palaftinis reverendiffimis epifcopis"
 
+The delay asked for is not in that Latin; it is Percival's bracket, npnf214 20008–20010 (editor; Hefele 16825–16832): "Some explanations were asked by the Illyrian bishops and the answers were found satisfactory, but yet a delay of a few days was asked for". Widely Accepted.
+
 **B6. Session I: Dioscorus not to sit.** npnf214 19159–19167. Acts. Documented.
 > "We received directions at the hands of the most blessed and apostolic bishop of the Roman city … which directions say that Dioscorus is not to be allowed a seat in this assembly"
 
