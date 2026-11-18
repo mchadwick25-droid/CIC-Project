@@ -25,7 +25,7 @@ Sheet references (S, E, I, L, D, G, A) point to `Source_Sheet.md` in this folder
 
 - **What came of him** (ranked heaviest first; items 1 and 3 are pulled forward into beat 3, and told in full here):
   1. **The book became the pattern.** Written for monks abroad as "a sufficient pattern" (I1a); "read these words ... to the rest of the brethren that they may learn what the life of monks ought to be" (I1a, VA §94). Soon in Latin, by Evagrius of Antioch (I1c). Gregory of Nazianzus: the laws of the monastic life, in the form of a story (A1). Spain, Gaul, Rome and Africa: the *Life*'s claim (I1b).
-  2. **Augustine.** At Trier, two officials of the emperor's court found the *Life* in a monks' cottage, read it, and left the court that day to serve God (I2). Pontitianus, a fellow official who was at Trier that day, told the story to Augustine in Milan. In a garden there, in tears, Augustine remembered Antony and that Gospel reading. He opened Paul's letters, read, and his doubt was gone (I2, Q3; AUG 13125–13134). End here, or on the reach in item 1.
+  2. **Augustine.** At Trier, two officials of the emperor's court found the *Life* in a monks' cottage, read it, and resolved that very hour to leave the court and serve God; they stayed with the monks and did not go back to the palace (I2; AUG 12643–12645, 12656–12660). Pontitianus, a fellow official who was at Trier that day, told the story to Augustine in Milan. In a garden there, in tears, Augustine remembered Antony and that Gospel reading. He opened Paul's letters, read, and his doubt was gone (I2, Q3; AUG 13125–13134). End here, or on the reach in item 1.
   3. **The desert filled, and the way spread east.** Disciples in Egypt, Libya, Palestine, Syria and Arabia (Sozomen, nearly a century later, I3b). Hilarion came from Palestine, stayed about two months, went home and chose "to begin as Antony had begun" (Jerome, about thirty-five years later, I3c).
   4. DEFENDED: his stand for Nicaea's faith and for his bishop (I4). Told in beat 7; one clause at most here.
 
@@ -67,7 +67,7 @@ Sheet references (S, E, I, L, D, G, A) point to `Source_Sheet.md` in this folder
   - Do not say Athanasius wrote the *Life* as settled. Say "long credited to Athanasius" (D1). Do not say the writer was Antony's attendant (D1, Contested).
   - Do not say "convent"; say "trusted women who had vowed to stay unmarried" (E3).
   - Do not say "the desert was colonised"; say "the desert became a city of monks" (E8).
-  - Do not say the officials at Trier, or Augustine, became monks because of Antony alone; the record gives the book and the story as what moved them, in Augustine's account (I2).
+  - Do not say the Trier officials were moved by Antony in person or by preaching; in Augustine's account it was reading the book (I2). Do not say Augustine met Antony or read the *Life* himself in the garden; he had heard the story (I2, Q3).
 
 - **Leave out:**
   - "The first monk" or "father of all monks" as fact: the *Life* shows hermits before him, and Jerome backs Paul of Thebes (D3).

@@ -238,3 +238,10 @@ A2. **Work in the house was prayer, and her own hands worked.** CONTEMP. Documen
 A3. **The change came gradually, and the women were treated "as if" sisters.** CONTEMP. Documented. The *Life* does not say the slave women were freed, and it tells no single founding day: she "gradually" drew her mother on (LIFE 132), and "with the lapse of time their successes increased" (LIFE 160).
 > LIFE 138: treating all her slave girls and menials as if they were sisters and belonged to the same rank as herself.
 > LIFE 160: The period covered by this mode of life was no short one, and with the lapse of time their successes increased, as their philosophy continually grew purer with the discovery of new blessings.
+
+A4. **She led the women's side.** CONTEMP, eyewitness. Documented. Gregory's own word for her is τὴν καθηγουμένην, "the woman who led them", from the same verb the soldier uses for Peter on the men's side (A1). Clarke renders it "the abbess". Lampadia, a deaconess, was "leader of the band of sisters" (LIFE 278; M17).
+> LIFE 192: But the band of virgins on the women's side modestly waited in the church for us to arrive. But when the prayers and the blessing were over, and the women, after reverently inclining their head for the blessing, retired to their own apartments, none of them were left with us. I guessed the explanation, that the abbess was not with them.
+
+Greek (PG46 71147-71149): εἰκάσας ὅπερ ἦ[η]ν, μὴ ἐν ἐκ[χ]είναις εἶναι τὴν κ[χ]αθηγουμένην,
+
+A5. **One widow is named as living there; the record does not give "widows" in number.** The *Life* names Vestiana, widowed young, who chose Macrina as guardian of her widowhood (LIFE 274, 276; C2). Say "a young widow", not "widows".
