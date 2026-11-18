@@ -81,6 +81,12 @@
         "author": "John Cassian",
         "language": "English translation",
         "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml"
+      },
+      {
+        "title": "Life of Benedict of Aniane, with Benedict of Aniane's Concordia regularum, in Patrologia Latina 103",
+        "author": "Ardo",
+        "language": "Latin",
+        "file": "cic/texts/benedict-aniane_concordia-regularum-with-ardo-vita-pl103-lat_migne1851.txt"
       }
     ]
   },
