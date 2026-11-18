@@ -34,3 +34,6 @@ PASS. Words to explain follows the Setting. Beat 5 tells why the king turned aga
 ## Verdict
 
 FIX: two small replacements (lines 79 and 50). Everything else passes.
+
+## Recheck replacements applied (coordinator, 2026-11-18)
+Each FIX in Recheck.md applied word for word as the rechecker worded it; no further check needed under the kit.
