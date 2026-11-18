@@ -932,3 +932,9 @@ Status: CLOSED for the live-reply claim check findings.
 - **Finding.** 32 hal verbatim quotes named no line span in their locus.
 - **Done.** Each now names `cic/texts/<file>, lines N-M`, the span the independent Opus reviewer found in the batch review tables (see "Every quote rendering reviewed by Opus against the edition", 2026-11-03), and the `quote-locus` gate checks the text against it. All 32 match. Where a locus already held a rough pointer for the same file, the exact span replaces it: `no-one-preferred-to-the-seventy` dropped "(npnf102, file line 36715)", and `hindered-by-jerome` dropped "(file lines 473-475)" for line 475, the line that holds the quote.
 - **Owner.** Library record-defects thread. Closed.
+
+## OG-34. The facilitator brief's pairing guidance meets the readability limits, 2026-11-18.
+
+- **Finding.** The promotion of `main` to `live` (pull request 1720) failed `regate hal` on `pairing_guidance.text` of `surface/facilitator_brief/hal.facilitator_brief.hieronymian-ascetic-literary.md`: FK grade 21.7 against a ceiling of 10, FRE 11.8 against a floor of 60. The field was edited on 3 November (the CL7 cleanup), so regate held it to the limits; it read below them before that edit too.
+- **Done.** Mark chose to fix it before promoting (2026-11-18: "1"). The field is rewritten in plain sentences with every claim and qualifier kept: FK 8.2, FRE 62.8, `regate hal` and `records hal` PASS. An independent Opus check of the meaning returned three wordings ("never ... rule over a land", "bodily self-denial", "a plausible reading"), applied verbatim.
+- **Owner.** The coordinator. Closed.
