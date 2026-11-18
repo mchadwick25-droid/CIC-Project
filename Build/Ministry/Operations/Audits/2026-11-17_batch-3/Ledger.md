@@ -237,3 +237,4 @@ One row per agent pass. Tokens are the subagent's own count as the harness repor
 | ten reworked | compare second readings (27) | Opus | 107,471 | 19 same, 8 minor, 0 meaning; 4 line corrections |
 | moses-the-black | write (fresh, heart first) | Opus | 93,173 | 353 words, grade 6.4; heart by word 85 |
 | narsai | outline fixes from check 2 (researcher) | Opus | — | blocking and 4 minor applied; Mosul catalogue added |
+| narsai | write (fresh, heart first) | Opus | (count) | 403 words, grade 8.1; heart by word 120 |
