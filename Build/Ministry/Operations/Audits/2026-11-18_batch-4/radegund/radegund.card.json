@@ -1,16 +1,13 @@
 {
-  "name": "Radegund",
   "otherNames": [
     "Radegundis",
     "Radegunde",
     "Saint Radegund of Poitiers"
   ],
   "knownFor": "A Thuringian princess taken captive and married by the Frankish king Lothar, who left him to become a nun and founded the monastery of Holy Cross at Poitiers.",
-  "dates": "Died in the twelfth year of King Childebert, on the thirteenth of August by Baudonivia's Life, a year the editors give as 587",
-  "place": "Born a princess of the Thuringians; queen of the Franks; consecrated at Noyon; founded her monastery at Poitiers, where she died",
-  "tradition": "Merovingian Gallic Christianity",
+  "datesNote": "Died in the twelfth year of King Childebert, on the thirteenth of August by Baudonivia's Life, a year the editors give as 587",
+  "placeNote": "Born a princess of the Thuringians; queen of the Franks; consecrated at Noyon; founded her monastery at Poitiers, where she died",
   "role": "Queen; nun and founder of the monastery of Holy Cross at Poitiers",
-  "briefLength": "about 2 minutes 30 seconds",
   "keyWorks": [
     {
       "title": "Letter to the bishops",
@@ -81,43 +78,37 @@
       }
     ]
   },
+  "briefReferences": [
+    "Gregory of Tours, History III.7, tr. O. M. Dalton: Lothar took Radegund captive, married her, and later had her brother killed.",
+    "Fortunatus, Life of Radegund I (Latin, ed. Krusch): the royal captive taken as spoil; her plea to Medard at Noyon; the nobles dragging him from the altar; her nun's dress and her charge; her consecration as a deaconess.",
+    "Radegund's letter, History IX.42: the monastery at Poitiers founded with the king's backing and endowed with all she had; the Rule of Caesarius and Caesaria; her request that the bishops guard the sisters from any tyrant, and stop anyone, even the bishop of the city, who would break the Rule or replace the abbess; \"I bow down through this letter in my place\".",
+    "History IX.39, the bishops' letter to her: a nun who enters may never leave; virgins flock from their dioceses to take up her Rule.",
+    "History IX.40: the wood of the Cross from the East, with King Sigibert's letters; the bishop of Poitiers will not receive it, and King Sigibert sends the bishop of Tours, who brings it in with psalms, candles and incense. Baudonivia, Life II: the request to the emperor. Krusch: the name Holy Cross.",
+    "History IX.2: her death and burial, Gregory present. Glory of the Confessors 104: about two hundred nuns at the bier. Editors: the year 587.",
+    "History IX.39 and IX.42: forty or more nuns walk out; the abbess reads Radegund's letter aloud and sends copies to the neighboring bishops, and Gregory copies the whole letter. History X.16: the abbess's answer that she brought in no new custom, only what was done under the lady Radegund.",
+    "World census, Merovingian Gallic Christianity: her setting and tradition."
+  ],
   "quotationOriginals": [
     {
       "modern": "If you put off consecrating me, and fear a man more than God, then, shepherd, may the soul of your sheep be demanded from your hand.",
       "printed": "Si me consecrare distuleris et plus hominem quam Deum timueris, de manu tua, pastor, ovis anima requiratur.",
       "work": "Venantius Fortunatus, Life of Radegund I.12, ed. Bruno Krusch; her words as Fortunatus gives them",
       "file": "cic/texts/fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt",
-      "lines": "28806, 28808",
+      "lines": "28806-28808",
+      "secondReading": "same",
       "uncertain": "No English of the Life is held; rendered from the Latin. Line 28807 is blank, and \"cf. Gen. 9, 5\" at the head of line 28808 is the editor's margin note. The words echo Genesis 9:5."
     },
     {
       "modern": "Because I could not come in person, I bow down through this letter in my place, as if fallen at your feet.",
       "printed": "And since I cannot in person throw myself at your feet, I make prostration vicariously through this letter",
-      "original": "Et quia praesens non valui, quasi vestris provoluta vestigiis, epistulae vicarietate prosternor",
       "work": "Radegund, letter to the bishops, in Gregory of Tours, History of the Franks IX.42; English tr. O. M. Dalton, Latin ed. Arndt and Krusch",
       "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
       "lines": "19878-19879",
+      "original": "Et quia praesens non valui, quasi vestris provoluta vestigiis, epistulae vicarietate prosternor",
       "originalFile": "cic/texts/gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885.txt",
       "originalLines": "31516-31517",
+      "secondReading": "same",
       "uncertain": "Rendered from the Latin, not Dalton's English. The OCR reads \"Ef quia\" for \"Et quia\" and \"epistidae\" for \"epistulae\". The sentence runs on, \"coniurans per Patrem...\", and is cut here."
-    },
-    {
-      "modern": "the custom of the lady Radegund",
-      "printed": "she had not introduced any new usage, but had continued the custom of the lady Radegund",
-      "work": "Gregory of Tours, History of the Franks X.16, the abbess's answer at the bishops' hearing, tr. O. M. Dalton",
-      "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
-      "lines": "21416-21418"
     }
-  ],
-  "briefReferences": [
-    "Gregory of Tours, History III.7, tr. O. M. Dalton: Lothar took Radegund captive, married her, and later had her brother killed.",
-    "Fortunatus, Life of Radegund I (Latin, ed. Krusch): the kings' quarrel over the captive; her care for poor women at Athies; her plea to Medard at Noyon; the nobles dragging him from the altar; her nun's dress and her charge; her consecration as a deaconess.",
-    "Radegund's letter, History IX.42: the monastery at Poitiers founded with the king's backing and endowed with all she had; the Rule of Caesarius and Caesaria; her request that the bishops stop anyone, even the bishop of the city, who would break the Rule or replace the abbess; \"I make prostration vicariously through this letter\".",
-    "History IX.39, the bishops' letter to her: a nun who enters may never leave.",
-    "History IX.40: the wood of the Cross from the East, with King Sigibert's letters. Baudonivia, Life II: the Cross set in gold and gems. Gregory, Glory of the Martyrs 5, and Baudonivia: the comparison with Helena.",
-    "History IX.2: her death and burial, Gregory present. Glory of the Confessors 104: about two hundred nuns at the bier; the bishop of Poitiers away. Editors: the year 587.",
-    "History IX.39 and IX.42: forty or more nuns walk out; the abbess reads Radegund's letter aloud and sends copies to the neighboring bishops. History X.16: \"the custom of the lady Radegund\".",
-    "Gregory, Glory of the Martyrs 5: the lamp before the Cross that overflowed, and \"from then on I preached the power of the holy Cross\".",
-    "World census, Merovingian Gallic Christianity: her setting and tradition."
   ]
 }
