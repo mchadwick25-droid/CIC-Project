@@ -1,7 +1,6 @@
 # CiC Atlas Prose — Voice & Style Guide, Review Process, and Scaling Plan
 
-**Derived from the Chloe / Scattered Households editorial pass
-(commits `2b00a20d`..`35ab377a` on `claude/website-v2-sandbox`).**
+**Derived from the Chloe / Scattered Households editorial pass.**
 
 Read this before touching any world's visitor-facing prose in
 `cic-website/`. Everything below is derived from what was actually caught
@@ -987,9 +986,9 @@ are referred, not rewritten (the FLAG-029 discipline)"*
 (`CiC_Record_Native_World_Build_Process_V1.9.md`). And
 `pahc.craft.chloe-voice.md` shows it in use inside a record: a Grapte
 attribution was corrected against the vendored text, while the fact that
-the *upstream approved decision document* is now wrong was **"FLAGGED, not
-resolved here… the project lead's own call, not this build thread's —
-carried forward to the closing summary rather than silently edited."**
+the *upstream approved decision document* is now wrong was marked **"FLAGGED, not
+resolved here"** and left to the project lead, carried forward to the
+closing summary rather than silently edited.
 
 ## 3.1 Fix it yourself — no question to Mark
 
@@ -1298,7 +1297,7 @@ register discipline, that is the specific risk to design against.
   mechanical linter for every register property in §1 **must** exist and
   run over its output before the batch is accepted. That is the one lesson
   the 250-instance defect actually teaches, and it is cheap.
-- **Not Haiku for drafting.** `origin/claude/fable-table-cost-analysis-ynunno`
+- **Not Haiku for drafting.** The Fable table cost analysis
   records per-world runtime failures on Haiku (*"Papnoute FAILS solo on
   Haiku — length/measure, his own documented failure class"*; *"Yausep
   FAILS solo on Haiku"*; Chloe passed). Different task, but it establishes
@@ -1454,8 +1453,6 @@ history for 215 movements.
 ---
 
 ## Appendix — the commits this document is derived from
-
-Branch `claude/website-v2-sandbox`.
 
 | Commit | What it fixed |
 |---|---|

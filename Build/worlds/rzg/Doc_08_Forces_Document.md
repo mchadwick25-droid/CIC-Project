@@ -254,7 +254,7 @@ This section restates, without redrawing, the preliminary forces identification 
 
 #### Force 3B-1: No internal fracture closes this world within the window
 
-**Layer 1 — Historical Event:** No internal fracture closing this world is attested within the window. The Zurich/Geneva relationship is confirmed as one world, two strands, not a fracture into two; T1's own permanent, within-window non-convergence (council-led Zurich versus consistorial Geneva) is a held tension, not a rupture. **Documented**, Doc_01 §4/§5's own explicit finding, confirmed by the project lead (Doc_01 §6, §7).
+**Layer 1 — Historical Event:** No internal fracture closing this world is attested within the window. The Zurich/Geneva relationship is confirmed as one world, two strands, not a fracture into two; T1's own permanent, within-window non-convergence (council-led Zurich versus consistorial Geneva) is a held tension, not a rupture. **Documented**, Doc_01 §4/§5's own explicit finding (Doc_01 §6, §7).
 
 **Layer 2 — World's Own Experience:** *[Inhabited — carried from Doc_07 §6, the Integrative Observation]* We were never one city, and we never pretended to be... What that page could not do, and did not try to do, was make our two councils one, or our two ways of testing what we believe the same way. We remain what we always were: one faith, arrived at twice.
 
