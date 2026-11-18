@@ -39,3 +39,7 @@ Length about 2:00. Opening: Gregory arriving, his sister on a board on the floor
 ## Marcion of Pontus
 Marcion taught at Rome, around the middle of the second century, that the God who made the world was not the Father of Jesus (Documented; Justin, in Marcion's lifetime). He set the law against the gospel in a lost book, the Antitheses, and kept his own Gospel and letters of Paul; his opponents say he cut them down, he said he was restoring them (Documented as Tertullian's report of each side). His churches spread from Rome to Persia, and the church's writers answered him in book after book: one God made the world and is the Father of Jesus (Documented). Whether he caused the church's list of books is Contested and left out.
 Length about 2:30. Opening: Justin to the emperor, "Even now he is still teaching", credited to an opponent; Polycarp after the first minute.
+
+## Council of Nicaea (325)
+The church was split over Jesus: was the Son God as the Father is, or a being with a beginning? (Arius's own words Documented; the council's charge against him Documented as its own.) In 325 Constantine called the bishops to Nicaea (year Widely Accepted). Their creed calls the Son "begotten, not made", of one being with the Father; they condemned Arius (Documented), and Constantine exiled him (Widely Accepted). Later councils, meeting over newer disputes, set its creed first (Documented); for decades it also divided the church (Documented).
+Length about 450–500 words, under Mark's 2026-11-17 note. Opening: Arius, "We are persecuted because we said...".
